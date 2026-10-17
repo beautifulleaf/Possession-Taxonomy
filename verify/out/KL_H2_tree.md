@@ -79,7 +79,7 @@ Leaf axis: daily task or care need.
   - H2.4.1.1 shower chair: chair, stool or bench for sitting while washing.
   - H2.4.1.2 grab bar: rail fixed or clamped to give a hand-hold, for example by a bath or toilet.
 - H2.4.2 Toileting, continence and stoma care
-  - H2.4.2.1 commode chair: chair with a seat opening and a removable pail, used as a toilet.
+  - H2.4.2.1 commode chair: chair with a seat opening and a removable pail, used as a toilet; a chair with a seat opening and a pail is a commode chair even when it is also made to be used in a shower.
   - H2.4.2.2 raised toilet seat: seat that raises the height of a toilet.
   - H2.4.2.3 incontinence product: absorbent pad, brief or similar made for urinary or bowel leakage.
   - H2.4.2.4 stoma appliance: bag, flange or similar supply for a stoma.
@@ -95,7 +95,7 @@ Leaf axis: daily task or care need.
   - H2.4.5.1 medical ID bracelet: wrist band carrying medical information.
   - H2.4.5.2 medical ID tag: tag, card or keyring carrying medical information.
   - H2.4.5.3 fall detector: worn device that senses a fall and calls for help.
-  - H2.4.5.4 care pendant: worn call button that summons help after a fall or medical event.
+  - H2.4.5.4 care pendant: worn call button that summons help after a fall or medical event; automatic fall sensing offered as an option on it is an attribute (a fall detector is a device made mainly to sense falls).
   - H2.4.5.5 wandering detector: device that alerts carers when a person leaves a place.
 
 ## H2.5 Sensory and communication aids

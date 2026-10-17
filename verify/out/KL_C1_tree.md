@@ -219,6 +219,7 @@ Leaf C1.9.4 Cordless platform batteries & chargers
 - C1.9.4.02 charger: charger made for a maker's cordless tool platform.
 
 ## C1.10 Tool storage & carrying (no leaf level; secondary key: container form)
+Kind key, first yes: drawered cabinet on casters: roller cabinet; box on wheels with a pull handle: wheeled toolbox; rigid case that locks onto other cases of a system: modular stackable tool case; rigid hand-carried box: portable toolbox; soft or hard-bodied bag: tool bag; flexible wrap: tool roll. Membership of a case system (PACKOUT, TSTAK and similar) is a platform attribute, not a kind.
 
 - C1.10.01 portable toolbox: hand-carried box for tools.
 - C1.10.02 wheeled toolbox [tool trolley]: tool box on wheels with a pull handle.

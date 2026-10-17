@@ -167,7 +167,7 @@ Leaf axis: the object served.
 
 ## In-category precedence
 
-- A part or accessory made for one F4 object goes to F4.7 first.
+- A part or accessory made for one F4 object goes to F4.7 first. A doorpost scroll case is not such a part: it is the object fixed in the rite and is F4.3.3.
 - Otherwise test in this order: the dead (holds remains, marks the dead, covers the body or coffin), divination, light, incense and offerings (lit, burned or set out), sacred focus, rite implement, personal aid.
 - A lit object is F4.4, not F4.1: a lamp or candle made for a rite is a lamp or candle even when it stands at an altar or marks a memorial; a candle made for a rite or devotion, grave lights included, is a ritual candle.
 - An urn that holds ashes is F4.6 whatever its decoration; a keepsake urn that is not worn stays a cremation urn, with capacity as an attribute and not a kind.
