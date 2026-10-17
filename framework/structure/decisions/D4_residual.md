@@ -37,6 +37,9 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
   - (p) Step 24 D1 branch, "storage": add "(a memory card or drive in a format made only for one console follows it, S3b)" (D5-O1).
   - (q) S3b K-8 sentence: "(S3: D3, monitors D1, studio and stage speakers E3)".
   - (r) Step 21 note: "A pre-recorded audio player that plays only the work fixed on it (Playaway type) is F1; a digital audio player that plays any loaded content is D3" (F-8); and the step 24 D3 branch says "digital audio player (Playaway-type pre-recorded players are F1)". Also "A paper sewing or knitting pattern is F1; a PDF pattern is I2" (C4-O1), and "A globe of the Earth or sky is F1 even when it opens as a drinks cabinet; a snow globe is B4" (F-8).
+  - (s) Step 5 (I3) note: replace "A pass, membership or season ticket is filed here whatever its form (card, app or paper); a card kept after it has expired or been used up is F5" with "The entitlement (a pass, membership or season right) is filed here whatever its form; the physical card or pass issued to carry it is F5 whether live, used or expired" (F-22).
+  - (t) Step 19 lead: "filled photo albums" and "filled scrapbooks" (K-9).
+  - (u) A4 note: "Passport covers, card and badge holders and card sleeves are A4 small accessories" (R-45).
   - Further amendments raised by later S2U passes are appended here.
 - **R-17** J5 leaves: drinking bitters stay J7 (K-48), and bitters sold as a flavouring go to the condiments and sauces leaf. Mirin and cooking wines go to the vinegars and cooking-liquids leaf. Home-brewing ingredients (malt extract, hops, brewing yeast) go to the baking and fermenting-aids leaf. This adopts the S2U_J5 pass's own reading.
 - **R-18** CV-46 applies to food as well: a brand line spanning several kinds is a lines row; a line inside one kind is a maker-bound named form (C2(d)). This confirms the S2U_J5 treatment.
@@ -65,3 +68,5 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
 - **R-41** C13 `platform_type` gains "carrier system" (MiniDisc, HD DVD, CED, VHD, Betamax). Written into CONVENTIONS_v1. Raised by S2U_F1.
 - **R-42** F1 gains the kind "sewing or knitting pattern (paper)", provisional until attested. Single-pattern sheets and envelopes are named forms by publisher (Vogue Patterns, Burda), with no cap. Raised by S2U_F1.
 - **R-43** C13 `platform_type` gains "cartridge standard" (CIP and SAAMI designations), "rail interface" (Picatinny, M-LOK, KeyMod) and "bow cam or limb system". Written into CONVENTIONS_v1. Raised by S2U_E4.
+- **R-44** Issuers: the relations table gains "issued by" (named form to issuer table). Issuer `type` gains bank, telecom operator, retailer, university and transit authority. C13 `platform_type` gains "transit card system". Written into CONVENTIONS_v1. Raised by S2U_F5.
+- **R-45** Passport covers, card and badge holders and card sleeves are A4 small accessories, filed by the key's carried-accessory branch, not as F5 parts. Raised by S2U_F5.

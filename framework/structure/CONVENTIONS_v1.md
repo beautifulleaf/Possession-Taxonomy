@@ -64,7 +64,7 @@ Tier entries for lines are in C4. Brand product lines of everyday consumables (c
 | `relation_id` | |
 | `maker_id` | |
 | `other_id` | a maker, line, named form or platform |
-| `relation` | OEM (builds for); supplies chip or panel to; board partner of; licensed by; rebrand of; composed by (perfumer or composer of a named form); designed by (designer of a named form or line, R-24) |
+| `relation` | OEM (builds for); supplies chip or panel to; board partner of; licensed by; rebrand of; composed by (perfumer or composer of a named form); designed by (designer of a named form or line, R-24); issued by (issuer of a named form, pointing to the issuer table, R-44) |
 | `scope` | line, named form or range covered |
 | `years`, `sources` | |
 
@@ -251,7 +251,7 @@ Mounting defines a kind when (a) the object is made only for that mount and its 
 | `platform` | `platform_id`, `name`, `owner` (maker or standards body), `platform_type`, `kinds_served`, `standard_ref`, `region`, `introduced`, `status`, `sources`; type extensions such as `flange_mm`, `frame_size`, `bayonet_or_screw` (lens mounts), `media_accepted` (consoles), `subscription` and dated `update_promise` (OS and services) |
 | `compatibility_relation` | `from_id` (platform or named form), `relation` (supports; requires; fits; backward compatible with; adapts to through an adapter), `to_id`, `sources` |
 
-- `platform_type` values include: CPU socket; chipset; memory standard; bus; form factor; connector or port; operating system; app or book store; voice assistant; finding network; wireless audio or multi-room system; charging standard; radio service; satellite service; lens mount; flash shoe; light-modifier mount; film format; instant film format; console platform; battery platform; hive system; hitch category; cap standard; DRM scheme; content locker; game platform for items; messaging platform; blockchain; naming root (R-10); stacking tool-storage system (R-15); presser-foot shank; interchangeable-needle system (R-32); codec or audio format; smart-home protocol (R-39); carrier system (R-41); cartridge standard; rail interface; bow cam or limb system (R-43).
+- `platform_type` values include: CPU socket; chipset; memory standard; bus; form factor; connector or port; operating system; app or book store; voice assistant; finding network; wireless audio or multi-room system; charging standard; radio service; satellite service; lens mount; flash shoe; light-modifier mount; film format; instant film format; console platform; battery platform; hive system; hitch category; cap standard; DRM scheme; content locker; game platform for items; messaging platform; blockchain; naming root (R-10); stacking tool-storage system (R-15); presser-foot shank; interchangeable-needle system (R-32); codec or audio format; smart-home protocol (R-39); carrier system (R-41); cartridge standard; rail interface; bow cam or limb system (R-43); transit card system (R-44).
 - **`delivery`** is an attribute, never a C13 row, with one list: download; boxed or carrier; app store; web or hosted; self-hosted; portable; stream; physical delivery; entry to a place; network connection.
 
 ## C14. Multi-use kinds
