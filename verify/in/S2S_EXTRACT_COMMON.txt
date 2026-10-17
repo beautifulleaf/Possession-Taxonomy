@@ -1,0 +1,19 @@
+STAGE 2 SUMMARY, EXTRACTION STEP (offline: no web, no git). You condense one or more domains of stage-2 structure memos into a compact digest that a cold Opus writer will use for the owner's summary page. You are an extractor, not a decider: report what the memos and reviews say, citing memo section numbers.
+
+RESUME RULE: if your output file already exists with some domains done (each domain block ends with a line 'END <D>'), continue with the first domain not done. Helper notes only in verify/work/<BATCH>/.
+
+For each memo in your domains, read in framework/structure/<CODE>.md: sections 0, 1, 2 (recommended structure and worked tree headings only, not every kind), 4b (choice level), 5 (tiers), 6 (makers), 10 (recommendation and open questions, incl. OWNER items and 'Sourcing still needed'), and skim 11 (revision log) for what the conformance pass changed. Read the domain review framework/structure/_review_<D>.md sections 1 (verdicts) and the merged owner-decisions section (5, or 7 for J). Stats per memo (dagger and OWNER counts) are in verify/out/S2_stats.tsv.
+
+Write verify/out/<BATCH>.md, for each domain:
+## Domain <D>
+### Table
+One markdown row per memo: | code | name | sub-families (names, comma-separated, ≤ 25 words) | choice level (≤ 15 words) | tier type: ladder / mixed / preference | maker centrality: high / medium / low | review verdict | kinds (approx. count from section 2 or 11) | daggers | OWNER marks |
+### What conformance changed
+One line per memo (≤ 30 words): the main structural change the conformance pass made.
+### Owner questions (merged)
+Numbered list, one line each, ≤ 35 words, recommendation in [brackets], tag with memo code(s). Start from the review's merged list; add OWNER items from memo section 10 that it lacks; drop duplicates and those the conformance pass resolved as corrections. Mark with ★ the (at most) 5 per domain you judge most consequential for the structure.
+### Shared-rule questions raised in this domain
+Bullets naming convention or framework proposals that this domain's memos depend on (refer to _conventions.md / _framework_conflicts.md entries by name; do not restate them).
+END <D>
+
+Keep each domain block under about 14 KB. Plain, short sentences. When done, report the file path and size.
