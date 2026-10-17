@@ -122,7 +122,8 @@ def freeze(suffix="", codes=CODES):
         untested += [{"code": code, "kind_id": k, "kind": v} for k, v in ks.items() if k not in exp]
         write_tsv(VIN / f"KL_{code}_place.tsv", items, ["id", "item", "definition"])
         print(f"{code}: {len(ks)} kinds in tree, {len(items)} items, {len(exp)} kinds expected, {len(ks) - len(exp & set(ks))} untested")
-    if not suffix: write_tsv(OUT / "KL_untested.tsv", untested, ["code", "kind_id", "kind"])
+    if not suffix and list(codes) == CODES: write_tsv(OUT / "KL_untested.tsv", untested, ["code", "kind_id", "kind"])
+    elif not suffix: write_tsv(OUT / f"KL_untested_{'_'.join(codes)}.tsv", untested, ["code", "kind_id", "kind"])
     if bad: sys.exit(f"expected kinds not found in the frozen tree: {bad}")
 
 if __name__ == "__main__":
@@ -136,4 +137,5 @@ if __name__ == "__main__":
     elif cmd == "fixitems": fixitems()
     elif cmd == "freeze": freeze()
     elif cmd == "freeze2": freeze("_v2", sys.argv[2:])
+    elif cmd == "freezeone": freeze("", sys.argv[2:])  # a category tested later (D1 after R-72)
     else: sys.exit(__doc__)
