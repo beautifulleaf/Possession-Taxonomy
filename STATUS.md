@@ -135,5 +135,21 @@ Not done: no web sourcing in the conformance pass (all † remain); no `fetch_st
 4. **Per-category questions:** the 15 in STAGE2_SUMMARY.md §5a first, then domain by domain (STAGE2_OWNER_QUESTIONS.md part 2).
 5. **Owner question from B10:** allow the kind of animal served as B10's first axis (an Appendix A exception, K-102).
 
+## Session 2, continued — delegated decisions, v0.7 and v0.7.1, source census (2026-10-17)
+Owner rulings this session (all in BRIEF.md, "Owner decisions on stage 2"): the stage-2 answers are delegated to Claude; no separate sourcing pass (the † claims are attested at stage-3 harvest); depth and breadth are the point (no caps on makers, lines or named forms); one fetched page proves existence (no two-source rule); use existing catalogues first; board, video and other game genres go to a future Interactive Entertainment taxonomy.
+
+| Step | Result |
+|---|---|
+| Round 6: v0.6 blind (audit/CATEGORIES_R6.md, 953 items, 3 Sonnet placers) | 99.8 % unanimous, κ 0.999, no splits; 95/96 gold |
+| Delegated decisions | framework/structure/decisions/: D1 (CV-1…46, K-1…196: 231 adopted, 11 departed), D2 (A–E, 160), D3 (F–J, 125; G-13 and H-2 corrected to object tests), D4_residual (R-0…R-57, including R-16 a–hh, the key amendments) |
+| Framework v0.7, then v0.7.1 | framework/CATEGORIES_v0_7.md (196 K decisions), framework/CATEGORIES_v0_7_1.md (63 changes: R-16 amendments, residual key notes, 7 contradiction fixes). Neither is tested yet. |
+| Conventions | framework/structure/CONVENTIONS_v1.md (final; _conventions.md superseded) |
+| Memo decision pass | all 53 memos have section 12 "Decisions applied"; 0 open OWNER marks; 15 residual follow-ups (S2X); 3,600 † (attestation list for harvest) |
+| Source census (stage 3 prep) | 937 existing catalogues for all 53 categories in data/source_catalogues.tsv (tools/build_source_plan.py), plus follow-ups for puzzles, fashion subcultures and Asian sources |
+| Tools | tools/s2_stats.py, tools/add_fetch_status.py (fetch_status on all S2 source files; auto values, checked at harvest), tools/build_stage2_page.py (owner page, published at https://claude.ai/artifact/WrwQ9sYpZYYg6YCd3FFdkN), tools/add_probes_rg7.py (round-7 batch) |
+| Round 7 prep | verify/out/RG7_candidates.tsv (493 regression objects for K-1…K-196 and R items, not yet cold-checked); kind-level test builders KL_<CODE> for the 11 rework categories (A2 B8 C1 D4 E1 F2 F4 G2 H2 I2 J5) write verify/out/KL_<CODE>_tree.md and _items.tsv |
+
+Open: R-57(d) card-sleeve wording in the key (for v0.7.2); trading-card sleeves are E1 parts.
+
 ## Next (session 3)
-Apply the owner's answers: write framework/CATEGORIES_v0_7.md from the approved K items, update _conventions.md and the memos (a short conformance pass per touched memo). Then run a v0.7 blind round (three Sonnet placers on the 953 round-5 items plus a regression set of the ~400 objects the K items name), one cold Opus audit, and a blind kind-level test for the 11 rework categories. Then start the data phase: shared tables and tools first (maker ledger, tiers, named forms, variants, aliases, compatibility, jurisdiction, standards/designations, varieties, issuers, grading scales, fetch_status), then the pilot pair A1 and D1, with sourcing batches to clear † before load.
+See SESSION_3_PROMPT.md.
