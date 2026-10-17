@@ -1,0 +1,191 @@
+nid	verdict	codes	source	path	note
+N0053	NOHOME		Google Product Taxonomy (2021-09-21)	Business & Industrial > Signage	commercial signs and signboards; no test covers informational displays
+N0054	AMBIG	A1 H2	Google Product Taxonomy (2021-09-21)	Business & Industrial > Work Safety Protective Gear	hard hats gloves earplugs respirators; protective clothing A1 vs protecting body health H2
+N0063	NOHOME		Google Product Taxonomy (2021-09-21)	Electronics > Circuit Boards & Components	loose electronic components and circuit boards; not computer parts nor tools
+N0065	NOHOME		Google Product Taxonomy (2021-09-21)	Electronics > Components	electronic components generally; fit neither computer components nor any one object
+N0068	NOHOME		Google Product Taxonomy (2021-09-21)	Electronics > GPS Accessories	GPS mounts antennas; dedicated GPS units fit no D test
+N0069	NOHOME		Google Product Taxonomy (2021-09-21)	Electronics > GPS Navigation Systems	standalone GPS navigators; not computer phone camera nor audio device
+N0070	NOHOME		Google Product Taxonomy (2021-09-21)	Electronics > GPS Tracking Devices	GPS trackers for pets keys cars; no D test covers tracking devices
+N0073	AMBIG	D1 C5	Google Product Taxonomy (2021-09-21)	Electronics > Print, Copy, Scan & Fax	scanners copiers fax machines; peripherals D1 vs office machines C5
+N0111	NOHOME		Google Product Taxonomy (2021-09-21)	Hardware > Building Consumables	nails screws adhesives sealants tape; general consumables not tied to one object
+N0112	NOHOME		Google Product Taxonomy (2021-09-21)	Hardware > Building Materials	lumber tiles concrete bricks before installation; not yet fixed into a structure
+N0114	NOHOME		Google Product Taxonomy (2021-09-21)	Hardware > Fuel	bulk fuels propane gasoline charcoal; consumable for many objects
+N0116	NOHOME		Google Product Taxonomy (2021-09-21)	Hardware > Hardware Accessories	hinges handles hooks brackets casters; general hardware parts for no single object
+N0117	AMBIG	B4 C1	Google Product Taxonomy (2021-09-21)	Hardware > Hardware Pumps	water and sump pumps; household water machine B4 vs machinery C1
+N0157	AMBIG	A4 E2	Google Product Taxonomy (2021-09-21)	Luggage & Bags > Dry Boxes	waterproof dry boxes for outdoor gear; bag test vs outdoor-pursuit test
+N0182	AMBIG	C5 C1	Google Product Taxonomy (2021-09-21)	Office Supplies > Impulse Sealers	heat bag sealers; office machine C5 vs trade machinery C1
+N0183	AMBIG	B1 C5	Google Product Taxonomy (2021-09-21)	Office Supplies > Lap Desks	lap desks; something to work at B1 vs desk accessory C5
+N0185	AMBIG	B2 C5	Google Product Taxonomy (2021-09-21)	Office Supplies > Office & Chair Mats	plastic chair and floor mats; rug-like B2 vs desk accessory C5
+N0203	AMBIG	E2 E1	Google Product Taxonomy (2021-09-21)	Sporting Goods > Indoor Games	billiards darts table tennis foosball; sport equipment vs tabletop games
+N0260	NOHOME		Shopify Standard Product Taxonomy (2026-08)	Business & Industrial > Signage	commercial signs and signboards; no test covers informational displays
+N0261	AMBIG	A1 H2	Shopify Standard Product Taxonomy (2026-08)	Business & Industrial > Work Safety Protective Gear	hard hats gloves earplugs respirators; protective clothing A1 vs protecting body health H2
+N0270	NOHOME		Shopify Standard Product Taxonomy (2026-08)	Electronics > Circuit Boards & Components	loose electronic components and circuit boards; not computer parts nor tools
+N0272	NOHOME		Shopify Standard Product Taxonomy (2026-08)	Electronics > Components	electronic components generally; fit neither computer components nor any one object
+N0275	NOHOME		Shopify Standard Product Taxonomy (2026-08)	Electronics > GPS Accessories	GPS mounts antennas; dedicated GPS units fit no D test
+N0276	NOHOME		Shopify Standard Product Taxonomy (2026-08)	Electronics > GPS Navigation Systems	standalone GPS navigators; not computer phone camera nor audio device
+N0277	NOHOME		Shopify Standard Product Taxonomy (2026-08)	Electronics > GPS Replacement Parts	GPS replacement parts; follow standalone GPS units, which fit no D test
+N0278	NOHOME		Shopify Standard Product Taxonomy (2026-08)	Electronics > GPS Tracking Devices	GPS trackers for pets keys cars; no D test covers tracking devices
+N0281	AMBIG	D1 C5	Shopify Standard Product Taxonomy (2026-08)	Electronics > Print, Copy, Scan & Fax	scanners copiers fax machines; peripherals D1 vs office machines C5
+N0328	AMBIG	A4 E2	Shopify Standard Product Taxonomy (2026-08)	Luggage & Bags > Dry Bags	waterproof dry bags for outdoor pursuits; bag test vs outdoor-gear test
+N0329	AMBIG	A4 E2	Shopify Standard Product Taxonomy (2026-08)	Luggage & Bags > Dry Boxes	waterproof dry boxes for outdoor gear; bag test vs outdoor-pursuit test
+N0333	AMBIG	A4 D1	Shopify Standard Product Taxonomy (2026-08)	Luggage & Bags > Laptop Bags	laptop bags and sleeves; carried bag A4 vs accessory fitting one device D1 (S3)
+N0347	AMBIG	C5 C1	Shopify Standard Product Taxonomy (2026-08)	Office Supplies > Impulse Sealers	heat bag sealers; office machine C5 vs trade machinery C1
+N0348	AMBIG	B1 C5	Shopify Standard Product Taxonomy (2026-08)	Office Supplies > Lap Desks	lap desks; something to work at B1 vs desk accessory C5
+N0350	AMBIG	B2 C5	Shopify Standard Product Taxonomy (2026-08)	Office Supplies > Office & Chair Mats	plastic chair and floor mats; rug-like B2 vs desk accessory C5
+N0396	NOHOME		GS1 GPC segments (okfn.org mirror, c.2013; families not retrieved)	47000000 Cleaning/Hygiene Products	detergents bleach polishes and hygiene consumables; scope names tools and containers only
+N0418	NOHOME		GS1 GPC segments (okfn.org mirror, c.2013; families not retrieved)	78000000 Electrical Supplies	batteries plugs cables fuses and bulbs; general electrical consumables fit no single object
+N0423	NOHOME		GS1 GPC segments (okfn.org mirror, c.2013; families not retrieved)	83000000 Building Products	building products such as timber paint tiles fixings; uninstalled materials are not structures
+N0424	AMBIG	B6 C1	GS1 GPC segments (okfn.org mirror, c.2013; families not retrieved)	84000000 Tool Storage/Workshop Aids	tool chests and workshop storage; storage container B6 vs tool for work C1
+N0425	AMBIG	A1 H2	GS1 GPC segments (okfn.org mirror, c.2013; families not retrieved)	85000000 Safety/Protection – DIY	gloves goggles masks hearing protection; protective clothing A1 vs protecting body health H2
+N0427	NOHOME		GS1 GPC segments (okfn.org mirror, c.2013; families not retrieved)	87000000 Fuels	fuels such as petrol propane charcoal; consumable for many objects
+N0428	NOHOME		GS1 GPC segments (okfn.org mirror, c.2013; families not retrieved)	88000000 Lubricants	oils and greases; consumable for many objects
+N0455	AMBIG	B1 G2	Getty AAT Objects Facet	Furnishings and Equipment > Furnishings > modular wall	modular partition walls; freestanding furniture B1 vs fixed into building G2
+N0565	NOHOME		Nomenclature 4.0 (nomenclature.info)	Category 01: Built Environment Objects > Building Components > Construction Materials	bricks lumber tiles and concrete before installation; not yet fixed into a structure
+N0634	AMBIG	A1 H2	Nomenclature 4.0 (nomenclature.info)	Category 03: Personal Objects > Clothing > Protective Wear	protective wear such as helmets vests guards; protective clothing A1 vs protecting body health H2
+N0792	AMBIG	D1 C5	Nomenclature 4.0 (nomenclature.info)	Category 06: Tools & Equipment for Communication > Printing T&E > Replication Equipment	copiers duplicators; peripherals D1 vs office machines C5
+N0873	NOHOME		Nomenclature 4.0 (nomenclature.info)	Category 10: Unclassifiable Objects	objects unclassifiable by form; by definition no category test fits
+N0874	NOHOME		Nomenclature 4.0 (nomenclature.info)	Category 10: Unclassifiable Objects > Unclassifiable Objects (blank class)	objects unclassifiable by form; by definition no category test fits
+N0875	NOHOME		Nomenclature 4.0 (nomenclature.info)	Category 10: Unclassifiable Objects > Unclassifiable Objects (blank class) > Unclassifiable Objects (blank subclass)	objects unclassifiable by form; by definition no category test fits
+N0899	NOHOME		COICOP 2018 (UNSD pre-edited white cover, Part Two IX)	05 Furnishings, household equipment and routine household maintenance > 05.6 Goods and services for routine household maintenance > 05.6.1 Non-durable household goods	cleaning chemicals matches candles and similar consumables; chemicals not covered by tool wording
+N0965	AMBIG	A1 H2	UNSPSC segment/family list (Gatebold mirror, not UNSPSC.org)	46 Defense and law enforcement and security and safety equipment and supplies > 4618 Personal safety and protection	helmets gloves goggles hearing and breathing protection; protective clothing A1 vs protecting body health H2
+N0987	NOHOME		UNSPSC segment/family list (Gatebold mirror, not UNSPSC.org)	52 Domestic appliances and supplies and consumer electronic products > 5216 Domestic wall treatments	wallpaper paint and wall coverings before fitting; materials not yet fixed into a building
+N0996	NOHOME		UNSPSC segment/family list (Gatebold mirror, not UNSPSC.org)	54 Timepieces and jewelry and gemstone products > 5412 Gemstones	loose gemstones; neither worn ornament nor collected series until set
+N1013	NOHOME		WCO Harmonized System 2022 edition (contents of Nomenclature)	Section VI Products of the chemical or allied industries > Chapter 36 Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations.	Fireworks, explosives and matches: no test covers them; only lighters are in B7 and festival objects in F4 are not pyrotechnics.
+N1023	NOHOME		WCO Harmonized System 2022 edition (contents of Nomenclature)	Section X Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard; paper and paperboard and articles thereof > Chapter 47 Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard.	Wood pulp and scrap paper: industrial raw material and waste; no category test or scope line covers it.
+N1048	NOHOME		WCO Harmonized System 2022 edition (contents of Nomenclature)	Section XV Base metals and articles of base metal > Chapter 72 Iron and steel.	Iron and steel ingots, bars and sections: industrial raw material; no category test or scope line covers it.
+N1051	NOHOME		WCO Harmonized System 2022 edition (contents of Nomenclature)	Section XV Base metals and articles of base metal > Chapter 75 Nickel and articles thereof.	Raw nickel, powders and bars: industrial raw material; no category test or scope line covers it.
+N1053	NOHOME		WCO Harmonized System 2022 edition (contents of Nomenclature)	Section XV Base metals and articles of base metal > Chapter 78 Lead and articles thereof.	Raw lead, plates and sheets: industrial raw material; no category test or scope line covers it.
+N1054	NOHOME		WCO Harmonized System 2022 edition (contents of Nomenclature)	Section XV Base metals and articles of base metal > Chapter 79 Zinc and articles thereof.	Raw zinc, dust and sheets: industrial raw material; no category test or scope line covers it.
+N1055	NOHOME		WCO Harmonized System 2022 edition (contents of Nomenclature)	Section XV Base metals and articles of base metal > Chapter 80 Tin and articles thereof.	Raw tin, bars and foil: industrial raw material; no category test or scope line covers it.
+N1056	NOHOME		WCO Harmonized System 2022 edition (contents of Nomenclature)	Section XV Base metals and articles of base metal > Chapter 81 Other base metals; cermets; articles thereof.	Other base-metal raw forms and cermets: industrial raw material; no category test or scope line covers it.
+N1089	NOHOME		BLS CPI item aggregation (Table 1: CPI aggregate items)	Medical care (SAM) > Medical care commodities (SAM1) > SEMF Medicinal drugs	Medicinal drugs: ingested pharmaceuticals; H2 lists devices, monitors and first aid, and drugs are not food or services.
+N1120	AMBIG	F2 F3	Etsy	Art & Collectibles > Artist Trading Cards	Hand-made miniature artworks swapped as trading cards; picture test and collected-series test both claim them.
+N1125	AMBIG	F2 B5	Etsy	Art & Collectibles > Fine Art Ceramics	Art pottery that is sculpture or vase; sculpture-as-artwork and vase/ornament wording both claim it.
+N1126	AMBIG	F2 B5	Etsy	Art & Collectibles > Glass Art	Art glass pieces that are sculpture or vases; artwork and decor wording both claim them.
+N1134	AMBIG	A4 B6	Etsy	Bags & Purses > Clothing & Shoe Bags	Garment and shoe bags for travel or wardrobe storage; carried-bag test and storage-container test both claim them.
+N1138	AMBIG	A4 B3	Etsy	Bags & Purses > Food & Insulated Bags	Insulated lunch bags; carried-bag test and food-storage wording both claim them.
+N1175	NOHOME		Etsy	Electronics & Accessories > Batteries & Charging	Batteries, chargers and power banks serve many device kinds; S3 parts rule needs one kind of object and no category test names them.
+N1181	AMBIG	C4 D1	Etsy	Electronics & Accessories > DIY Kits	Electronics hobby kits to build circuits; hobby-making test and computer components wording both claim them.
+N1186	NOHOME		Etsy	Electronics & Accessories > Maker Supplies	Electronic components, wire and solder for hobby building; not computer components and not craft materials by wording; no test names them.
+N1187	NOHOME		Etsy	Electronics & Accessories > Parts & Electrical	Generic electrical parts such as switches, fuses and wiring; fit no single object kind under S3 and no category test.
+N1217	AMBIG	D2 A3	Etsy	Jewelry > Smart Jewelry	Smart rings and wearable jewellery; powered-wearable test and ornament test both claim them.
+N1231	AMBIG	B8 E1	Etsy	Pet Supplies > Pet Toys	Pet toys; animal-keeping equipment wording and toys test both claim them.
+N1234	AMBIG	F4 B5	Etsy	Pet Supplies > Urns & Memorials	Pet cremation urns and memorial markers; ritual-vessel wording and decor wording both claim them.
+N1296	AMBIG	B1 B2	Walmart	Home, Furniture & Appliances > Mattresses & Accessories	Mattresses to lie on and toppers; furniture lie-on wording and bedding wording both claim mattresses.
+N1329	NOHOME		Walmart	Home Improvement > Fasteners	Screws, nails, bolts and anchors: general hardware serving many objects; S3 needs one kind and C1 lists tools, not hardware.
+N1337	NOHOME		Walmart	Home Improvement > Paint	Household paint, stain and primer for walls and many objects; G2 covers only fixed things and C4 only artists' paint.
+N1343	NOHOME		Walmart	Home Improvement > Adhesives & Glues	Adhesives, glues and sealants used across many objects; no single object kind for S3 and no category test covers them.
+N1367	AMBIG	G1 E1	Walmart	Toys > Ride-on Toys	Ride-on toys and trikes; carry-people-by-moving test and toy test both claim them.
+N1391	NOHOME		Walmart	Pharmacy, Health & Wellness > Allergy & Sinus	Allergy and sinus medicines: ingested drugs; H2 lists devices, aids and first aid, and drugs are not food or services.
+N1399	NOHOME		Walmart	Pharmacy, Health & Wellness > Digestive Health & Wellness	Digestive remedies and antacids: ingested drugs; H2 lists devices, aids and first aid, and drugs are not food or services.
+N1400	NOHOME		Walmart	Pharmacy, Health & Wellness > Cough, Cold, & Flu	Cough, cold and flu medicines: ingested drugs; H2 lists devices, aids and first aid; thermometers are only a minor part.
+N1403	NOHOME		Walmart	Pharmacy, Health & Wellness > International Medicine	Imported medicines: ingested drugs; H2 lists devices, aids and first aid, and drugs are not food or services.
+N1409	AMBIG	H2 H1	Walmart	Personal Care > Incontinence	Absorbent incontinence pads and briefs; compensates body function (H2) but also hygiene product (H1).
+N1448	NOHOME		Walmart	Household Essentials > Air Fresheners	Air fresheners and home fragrance sprays: consumable scent products; B5 names candles and B6 names cleaning and safety goods, neither names them.
+N1450	NOHOME		Walmart	Household Essentials > Pest Control	Pest-control traps, baits and sprays: not cleaning, storage or home safety by wording, and no other test covers them.
+N1451	NOHOME		Walmart	Household Essentials > Batteries	Household batteries serve many device kinds; S3 needs one kind of object and no category test names them.
+N1467	AMBIG	E1 E2	Walmart	Sports & Outdoors > Trampolines	Backyard trampolines for play or exercise; play-equipment test and sport-and-exercise test both claim them.
+N1473	AMBIG	B8 E1	Walmart	Pets > Dog Toys	Dog toys; animal-keeping equipment wording and toys test both claim them.
+N1476	AMBIG	B8 E1	Walmart	Pets > Cat Toys	Cat toys; animal-keeping equipment wording and toys test both claim them.
+N1656	NOHOME		Mercado Libre (Argentina)	Bebés > Chupetes y Mordillos	Pacifiers and teethers: baby soothing objects; not toys, grooming tools or medical devices by the wording of E1, H1 or H2.
+N1658	AMBIG	E1 B1	Mercado Libre (Argentina)	Bebés > Corralitos	Baby playpens; play-equipment wording and furniture to lie or sit in both claim them.
+N1698	NOHOME		Mercado Libre (Argentina)	Celulares y Teléfonos > Tarifadores y Cabinas	Call-shop metering and booth equipment: trade telecom hardware; no category test or scope line covers it.
+N1703	AMBIG	D1 D5	Mercado Libre (Argentina)	Computación > Accesorios para PC Gaming	PC gaming keyboards, mice and controllers; peripherals wording (D1) and controller wording (D5) both claim them.
+N1724	AMBIG	D1 D5	Mercado Libre (Argentina)	Consolas y Videojuegos > Accesorios para PC Gaming	PC gaming keyboards, mice and controllers; peripherals wording (D1) and controller wording (D5) both claim them.
+N1736	AMBIG	G2 B1	Mercado Libre (Argentina)	Construcción > Mobiliario para Cocinas	Kitchen cabinets and units, fitted or freestanding; built-in rule (G2) and furniture-to-store-things rule (B1) both claim them.
+N1737	NOHOME		Mercado Libre (Argentina)	Construcción > Pinturería	Paints, varnishes and stains for walls and many objects; G2 covers only fixed things and C4 only artists' paint.
+N1764	AMBIG	E2 E4	Mercado Libre (Argentina)	Deportes y Fitness > Paintball	Paintball markers: sport gear (E2) but air-powered guns made to shoot (E4); both tests claim them.
+N1765	AMBIG	G1 E2	Mercado Libre (Argentina)	Deportes y Fitness > Parapente	Paragliders: aircraft that carry a person (G1) and sport gear (E2); both tests claim them.
+N1766	AMBIG	G1 E2	Mercado Libre (Argentina)	Deportes y Fitness > Patín y Skateboard	Skateboards and skates: human-powered transport (G1) and sport gear (E2); both tests claim them.
+N1794	NOHOME		Mercado Libre (Argentina)	Electrónica, Audio y Video > Componentes Electrónicos	Loose electronic components (resistors, chips, sensors): parts for many device kinds; not computer components, craft supplies or tools by wording.
+N1799	NOHOME		Mercado Libre (Argentina)	Electrónica, Audio y Video > Pilas y Cargadores	Batteries and chargers serve many device kinds; S3 needs one kind of object and no category test names them.
+N1805	AMBIG	F3 F5	Mercado Libre (Argentina)	Entradas para Eventos > Entradas de Colección	Collectible or used event tickets kept as memorabilia; collected-series wording and remembering-record wording both claim them.
+N1842	NOHOME		Mercado Libre (Argentina)	Industrias y Oficinas > Publicidad y Promoción	Commercial signage, banners, display stands and promotional giveaways; no category test or scope line names advertising objects.
+N1870	AMBIG	E3 D3	Mercado Libre (Argentina)	Instrumentos Musicales > Parlantes y Bafles	PA and stage speakers; music-gear wording (E3) and speaker wording (D3) both claim them.
+N1878	AMBIG	C4 A3	Mercado Libre (Argentina)	Joyas y Relojes > Piedra Preciosa y Semipreciosa	Loose gemstones for setting or keeping; jewellery-making materials (C4) and ornament (A3) both plausible, neither exact.
+N1887	AMBIG	E1 D2	Mercado Libre (Argentina)	Juegos y Juguetes > Electrónicos para Niños	Children's electronic tablets and gadgets; toy test and powered phone/tablet test both claim them.
+N1890	AMBIG	E3 E1	Mercado Libre (Argentina)	Juegos y Juguetes > Instrumentos Musicales	Toy musical instruments; instrument test (E3) and toy test (E1) both claim them.
+N1903	AMBIG	G1 E2	Mercado Libre (Argentina)	Juegos y Juguetes > Patines y Patinetas	Roller skates and kick scooters: human-powered transport (G1) and sport gear (E2); both tests claim them.
+N1907	AMBIG	G1 E1	Mercado Libre (Argentina)	Juegos y Juguetes > Vehículos Montables para Niños	Ride-on toy vehicles; carry-people-by-moving test and toy test both claim them.
+N1948	AMBIG	H2 H1	Mercado Libre (Argentina)	Salud y Equipamiento Médico > Masajes	Handheld massagers and massage devices; health-treatment wording (H2) and personal-care powered tools (H1) both claim them.
+N1993	AMBIG	C1 B5	Mercado Libre (Argentina)	Otras categorías > Mangas de Viento	Windsocks: wind-indicating instrument (C1) or decorative flag (B5); neither wording clearly fits.
+N2035	AMBIG	D3 B5	IKEA (US)	Lighting > Smart lighting	smart bulbs and lamps; smart-home device test and lamp test both claim them
+N2040	AMBIG	G2 B4	IKEA (US)	Lighting > Ceiling fans	ceiling fans, hard-wired fixture versus powered cooling appliance; both claim them
+N2111	NOHOME		IKEA (US)	Home decor & accessories > Home fragrances & scents	room fragrance sticks, diffusers, sachets; B5 names candles only, H1 fragrance is for the body
+N2118	NOHOME		IKEA (US)	Home decor & accessories > Wrapping paper and bags	gift wrap paper, bags, ribbon; C5 paper goods tied to writing and desk work, B5 seasonal decor not wrapping
+N2166	AMBIG	B1 C2	IKEA (US)	Plants & planters > Plant stands	plant stands; furniture-to-display test and planter/pot test both claim them
+N2193	AMBIG	D3 B5	IKEA (US)	Home electronics > Smart lighting	smart bulbs and lamps; smart-home device test and lamp test both claim them
+N2203	NOHOME		IKEA (US)	Home improvement > Wood treatment oils & furniture paint	wood oils, stains, furniture paint; consumable finishes not tied to one object, not tools (C1) or craft supplies (C4)
+N2204	AMBIG	G2 B5	IKEA (US)	Home improvement > Sound absorbing acoustic panels	wall acoustic panels; fixed building element versus decor; neither wording fits
+N2208	AMBIG	D3 B5	IKEA (US)	Smart home > Smart lighting	smart bulbs and lamps; smart-home device test and lamp test both claim them
+N2210	AMBIG	B4 D3	IKEA (US)	Smart home > Smart air purifiers	smart air purifiers; household appliance test and smart-home device test both claim them
+N2217	NOHOME		IKEA (US)	Winter holiday shop > Wrapping paper and bags	gift wrap paper, bags, ribbon; C5 paper goods tied to writing and desk work, B5 seasonal decor not wrapping
+N2219	NOHOME		Allegro (Poland)	Home and Garden > Construction and Accessories	building materials (timber, bricks, insulation, pipes, paint); G2 covers only fixed items, C1 only tools
+N2287	NOHOME		Allegro (Poland)	Real Estate > House projects	architectural house plans and blueprints; F5 covers certifying records only, I1 only if digital
+N2308	NOHOME		Allegro (Poland)	Supermarket > Cleaning maintenance	detergents, cleaning chemicals, bin liners; B6 lists tools and containers, not consumable cleaning products
+N2322	AMBIG	H2 H1	Allegro (Poland)	Health > Equipment and massage devices	massage devices; health-function test and powered grooming-tool wording both claim them
+N2384	AMBIG	E1 B5	Mercari Japan (via Mercari Shops category page)	ゲーム・おもちゃ・グッズ > フィギュア	collectible figures; figures test and mass-made figurine ornament test both claim them
+N2390	AMBIG	C5 F3	Mercari Japan (via Mercari Shops category page)	ゲーム・おもちゃ・グッズ > シール・ステッカー	decorative stickers and seals; paper-goods wording and collected-series wording both partly fit, neither names stickers
+N2431	NOHOME		Mercari Japan (via Mercari Shops category page)	生活家電・空調 > 電池・充電池	batteries and rechargeable cells; general consumables, not a part of one kind of object, no scope line names them
+N2481	AMBIG	H2 H1	Mercari Japan (via Mercari Shops category page)	ダイエット・健康 > マッサージ	massage devices; health-function test and powered grooming-tool wording both claim them
+N2494	NOHOME		Mercari Japan (via Mercari Shops category page)	キッチン・日用品・その他 > 芳香剤・除湿剤・防虫剤	air fresheners, dehumidifier packs, insect repellents; household consumables not tools, containers or fragrance for the body
+N2535	NOHOME		Mercari Japan (via Mercari Shops category page)	DIY・工具 > 接着・補修	adhesives, sealants, repair compounds; consumables not tied to one object, not tools (C1) or craft supplies (C4)
+N2537	NOHOME		Mercari Japan (via Mercari Shops category page)	DIY・工具 > 研磨・潤滑剤	abrasives, lubricants, oils; workshop consumables not tied to one object, not tools (C1)
+N2541	NOHOME		Mercari Japan (via Mercari Shops category page)	DIY・工具 > 梱包・テープ	packing tape, wrap, packaging materials; consumables not covered by C5 desk goods or B6 storage
+N2542	NOHOME		Mercari Japan (via Mercari Shops category page)	DIY・工具 > 材料・資材	raw building and workshop materials (timber, board, sheet); G2 covers only fixed items, C1 only tools
+N2543	NOHOME		Mercari Japan (via Mercari Shops category page)	DIY・工具 > 金物・部品	fasteners, hinges, hardware parts; loose hardware is not a tool, a fixture once fitted, or a part of one object kind
+N2546	NOHOME		Mercari Japan (via Mercari Shops category page)	DIY・工具 > 塗料・塗装	paints, varnishes, coatings; consumable materials not tied to one object, not tools (C1) or art supplies (C4)
+N2559	NOHOME		Mercari Japan (via Mercari Shops category page)	フラワー・ガーデニング > 人工芝	artificial turf rolls; ground covering laid down, not a rug (B2), plant (C3) or clearly a fixed structure (G2)
+N2603	AMBIG	A1 E2	Rakuten Ichiba (Japan)	レディースファッション > 体操服	school gym clothes; uniform garment wording and sport-specific garment precedence both claim them
+N2618	AMBIG	B2 A1	Rakuten Ichiba (Japan)	ベビーファッション > おくるみ	swaddling wraps; blanket textile versus garment worn on the body, wording fits both
+N2647	AMBIG	A4 G1	Rakuten Ichiba (Japan)	キッズ・ベビー・マタニティ > 抱っこひも・ベビースリング	baby carriers and slings; worn carrier accessory versus human-powered carrying of a person
+N2671	AMBIG	E1 E3	Rakuten Ichiba (Japan)	おもちゃ > 楽器玩具	toy instruments; play wording and musical-instrument test both claim them
+N2677	NOHOME		Rakuten Ichiba (Japan)	おもちゃ > 花火	fireworks and sparklers; single-use pyrotechnics, not named under toys, ceremonial objects or weapons
+N2678	AMBIG	E1 G1	Rakuten Ichiba (Japan)	おもちゃ > 乗用玩具・三輪車	tricycles and ride-on toys; play equipment versus human-powered vehicle carrying a person
+N2679	AMBIG	E1 A1	Rakuten Ichiba (Japan)	おもちゃ > なりきりアイテム・変身ベルト	dress-up and transformation items; toy wording versus costume garment wording
+N2683	AMBIG	E1 B5	Rakuten Ichiba (Japan)	おもちゃ > 日本人形・フランス人形	traditional display dolls; doll wording versus ornament/figurine wording
+N2684	AMBIG	F4 B5	Rakuten Ichiba (Japan)	おもちゃ > 雛祭り・端午の節句	festival display dolls and helmets; festival-object wording versus seasonal decoration wording
+N2731	AMBIG	E2 G1	Rakuten Ichiba (Japan)	スポーツ・アウトドア > スケートボード・インラインスケート	skateboards and inline skates; sport gear versus micromobility vehicle
+N2746	AMBIG	B1 B2	Rakuten Ichiba (Japan)	インテリア・寝具・収納 > ビーズクッション	bean-bag cushions to sit on; furniture-to-sit test versus cushion in home textiles
+N2762	NOHOME		Rakuten Ichiba (Japan)	インテリア・寝具・収納 > ドアストッパー	door stops; small household hardware, B6 lists cleaning, storage and safety only
+N2763	NOHOME		Rakuten Ichiba (Japan)	インテリア・寝具・収納 > 蚊取り線香ホルダー	mosquito-coil holders; pest-control accessory, no scope line covers it (B7 smoking implements do not apply)
+N2825	NOHOME		Craigslist (for sale)	for sale > materials	raw building and workshop materials; G2 covers only fixed items, C1 only tools
+N2857	NOHOME		Facebook Marketplace	Electronics > Household Batteries	batteries and rechargeable cells; general consumables, not a part of one kind of object, no scope line names them
+N2860	AMBIG	G1 D3	Facebook Marketplace	Electronics > Car Electronics	in-car audio, navigation, dash cams; vehicle-part rule versus audio/camera device tests
+N2864	AMBIG	D1 C5	Facebook Marketplace	Electronics > Credit Card Readers	card payment terminals; computer peripheral wording versus office machine wording, neither names them
+N2973	NOHOME		Christie's	Departments > Science and Natural History	fossils, minerals, meteorites, taxidermy and specimens; not series collectibles (F3), art or tools (C1)
+N3008	NOHOME		Sotheby's	Departments > Diamonds	Loose diamonds and gemstones: unset stones are not worn ornaments, not series collectibles; A3 wording requires worn ornaments.
+N3033	NOHOME		Sotheby's	Departments > Natural History	Natural specimens (fossils, minerals, meteorites, shells, mounts): not made as art or series collectibles; no scope line covers natural objects.
+N3077	NOHOME		Heritage Auctions	Fine & Decorative Arts > Fine Minerals	Mineral specimens: natural objects, not made for series collecting or display as art; no scope line covers them.
+N3081	NOHOME		Heritage Auctions	Fine & Decorative Arts > Natural History	Natural specimens (fossils, minerals, taxidermy, meteorites): no category test or scope line covers natural objects.
+N3091	NOHOME		Heritage Auctions	Historical, Books & Natural History > Fine Minerals	Mineral specimens: natural objects, not made for series collecting or display as art; no scope line covers them.
+N3094	NOHOME		Heritage Auctions	Historical, Books & Natural History > Natural History	Natural specimens (fossils, minerals, taxidermy, meteorites): no category test or scope line covers natural objects.
+N3157	AMBIG	C4 A1	Wikipedia: List of collectables	Clothing and accessories, fabric and textiles > Buttons	Sewing buttons are fasteners for garments (S3 part) and also craft notions; pin-back buttons would be F3.
+N3159	AMBIG	F3 A1	Wikipedia: List of collectables	Clothing and accessories, fabric and textiles > Patches (badges)	Embroidered patches and badges: collector badges (F3) versus textile accessories sewn on garments (A1) or craft material.
+N3164	AMBIG	F5 F3	Wikipedia: List of collectables	Coins, currency, and stamps > Stock and bond certificates	Old stock and bond certificates: certifying papers (F5) versus series-collected scripophily (F3); neither wording fits cleanly.
+N3165	AMBIG	F5 F3	Wikipedia: List of collectables	Ephemera > Autographs	Signed cards, photos and papers: autograph as record/letter (F5) or collected item (F3); S5 says test the signed object.
+N3176	NOHOME		Wikipedia: List of collectables	Nature > Insects (butterflies)	Mounted insect specimens: dead animals not eaten or kept alive; not art or made series items; no scope line covers them.
+N3177	NOHOME		Wikipedia: List of collectables	Nature > Seashells	Seashells: natural objects; no category test or scope line covers natural specimens.
+N3178	NOHOME		Wikipedia: List of collectables	Nature > Chemical elements	Element samples (metal, gas ampoules): natural/lab specimens; no category test or scope line covers them.
+N3179	NOHOME		Wikipedia: List of collectables	Nature > Eggs	Bird eggs (blown shells): natural specimens; no category test or scope line covers them.
+N3180	NOHOME		Wikipedia: List of collectables	Nature > Fossils	Fossils: natural specimens; no category test or scope line covers them.
+N3181	NOHOME		Wikipedia: List of collectables	Nature > Minerals	Mineral specimens: natural objects, not made for series collecting; no scope line covers them.
+N3183	NOHOME		Wikipedia: List of collectables	Nature > Rocks	Rocks and stones: natural objects; no category test or scope line covers them.
+N3189	AMBIG	E1 B5	Wikipedia: List of collectables	Toys, games, and dolls > Bobbleheads	Bobbleheads are toy figures (E1) or mass-made figurines/ornaments (B5); both tests claim them.
+N3190	AMBIG	E1 F3	Wikipedia: List of collectables	Toys, games, and dolls > Casino chips	Casino chips are gambling equipment (E1) and also tokens collected in series (F3).
+N3256	AMBIG	F5 F3	eBay	Collectibles > Autographs	Signed cards, photos and papers: autograph as record/letter (F5) or collected item (F3); S5 says test the signed object.
+N3262	AMBIG	E1 F3	eBay	Collectibles > Casino	Casino chips, cards and dice: gambling equipment (E1) versus tokens collected in series (F3).
+N3280	AMBIG	F5 F3	eBay	Collectibles > Postcards & Supplies	Postcards, plus albums and sleeves: written/pictorial record (F5) versus series-collected printed cards (F3); wording fits neither cleanly.
+N3283	NOHOME		eBay	Collectibles > Rocks, Fossils & Minerals	Rocks, fossils and mineral specimens: natural objects; no category test or scope line covers them.
+N3362	AMBIG	E2 A1	Depop	Sportswear: Shop by category > Jerseys	Sports jerseys: garments made for one sport (E2 precedence) versus fan/fashion clothing worn casually (A1); wording does not separate them.
+N3370	AMBIG	E2 A1	Depop	Sportswear: Shop vintage > Vintage jerseys	Vintage sports jerseys and apparel: one-sport garments (E2) versus casual fan/fashion clothing (A1).
+N3443	NOHOME		LiveAuctioneers	Jewelry > Loose Stones & Beads	Unset gemstones and loose beads: not worn as ornaments until set; beads partly craft material (C4) but stones fit no category wording.
+N3498	NOHOME		Invaluable	Jewelry > Loose Stones & Beads	Unset gemstones and loose beads: not worn as ornaments until set; beads partly craft material (C4) but stones fit no category wording.
+N3508	AMBIG	F5 F3	Invaluable	Collectibles > Autographs	Signed cards, photos and papers: autograph as record/letter (F5) or collected item (F3); S5 says test the signed object.
+N3517	NOHOME		Invaluable	Collectibles > Natural History Collectibles, Fossils & Minerals	Fossils, minerals and natural specimens: natural objects; no category test or scope line covers them.
+N3538	NOHOME		Collectors Weekly	Fashion > Gemstones	Loose gemstones: unset stones are not worn ornaments nor series collectibles; no category wording covers them.
+N3573	AMBIG	F5 F3	Collectors Weekly	Culture > Postcards	Postcards: written/pictorial record (F5) versus series-collected printed cards (F3); wording fits neither cleanly.
+N3598	AMBIG	C1 G1	Collectors Weekly	Machines > Tractors	Tractors are farm machinery for work (C1 lists farm machinery) and also vehicles that move goods (G1 lists trailers, vehicles).
+N3650	AMBIG	E2 A1	Grailed	Menswear > tops > Jerseys	Jerseys: garments made for one sport (E2 precedence) versus casual fan/fashion clothing (A1); wording does not separate them.
+N3911	NOHOME		ISO PM 00 09 Personal Articles Standard Loss Settlement Form analysis (rnc-pro.com)	Jewelry (not covered under this class) > Unmounted gems; bullion/precious metals not in common form; silverware and goldware; flatware, hollowware, tea sets, trays, trophies	Unmounted gems fit no category wording (not worn until set); bullion is F3 and silverware B3, but gems have no home.
+N4000	AMBIG	G2 G1	ONS Census 2021 Accommodation type variable	Mobile or temporary structure > A caravan or other mobile or temporary structure	Caravans and temporary structures: lived-in static caravan or tent-like dwelling (G2) versus a caravan made to travel (G1 trailers/motorhomes).
