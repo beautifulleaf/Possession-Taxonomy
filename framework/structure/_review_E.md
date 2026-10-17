@@ -365,7 +365,7 @@ The conventions were drafted after these memos. The table lists, for each conven
 
 **X11 (low) Individual-item facts.** NBTHK certificates (E4), "player grade vs collector grade" and originality (E3) and single named cards (E1) are facts about one particular object. *Convention C16 (proposed).* "Certificates, condition grades, provenance and serial numbers of one particular object are not stored. The data holds kinds, named forms and variants only (BRIEF: individual items are out)."
 
-**X12 (low) Jurisdiction.** E4 proposes a per-country legal-class ledger. E1 (slot machines, gambling equipment), E2 (airsoft energy limits, mentioned at Pyramyd) and B9 meet the same need. *Convention C17 (proposed).* A jurisdiction ledger: `subject_id` (kind or named form), `jurisdiction`, `scheme` (EU 2021/555 category, UK Firearms Act section, US NFA), `class`, `criteria`, `source_url`, `date`. Never a level or a tag on the tree.
+**X12 (low) Jurisdiction.** E4 proposes a per-country legal-class ledger. E1 (slot machines, gambling equipment), E2 (airsoft energy limits, mentioned at Pyramyd) and B9 meet the same need. *Convention C17 (proposed).* A jurisdiction ledger: `subject_id` (kind or named form), `jurisdiction`, `scheme` (EU Firearms Directive category A to D, UK Section 1, US NFA class), `class`, `criteria`, `source_url`, `date`. Never a level or a tag on the tree.
 
 **Proposed shared conventions from this review (for _conventions.md):**
 - **C14 Multi-use kinds.** A kind used in more than one sub-family or leaf goes, in this order, to:
@@ -382,3 +382,60 @@ The conventions were drafted after these memos. The table lists, for each conven
 - **C7 addition:** non-maker-bound named forms with a published typology (Oakeshott, Japanese blade construction) go in typology order (E4-11).
 - **C11 refinement for domain E** (X6).
 
+## 5. Owner decisions raised (merged and de-duplicated)
+
+Each item gives the memo questions it merges, then the reviewer's recommendation in brackets.
+
+**Structure (one per memo)**
+1. E1: approve level 1 as "play family" with these sub-families: Dolls & figures; Construction; Scale models & model railways; Play vehicles & ride-ons; Games; Puzzles; Role play & toys; Play equipment; Parts. Yes or no? (E1 Q1, E1-1, E1-6) [yes]
+2. E2: sport families as a level (A), or a flat sport list with families as views (C)? (E2 Q1) [A, with C14]
+3. E3: role-first sub-families with Recording and Live merged into "Sound capture, mixing & reproduction" (three gear sub-families), or retail departments (3A)? (E3 Q1, E3-1) [role-first, merged]
+4. E4: ten sub-families, or swords and knives merged into one "Blades" sub-family? (E4 Q1) [ten, with the tantō placed by tradition (E4-3)]
+
+**Rules shared by all four memos**
+5. Named forms stop at line, series, system or iconic design, with finer releases, titles, model years and loads as C3 variants only where a scene needs depth. Yes or no? (E1 Q2, E2 Q8, E3 Q9, X10) [yes]
+6. Tiers never on kinds: maker ladders as tier entries on lines, measured ladders as attributes, and one domain-E `player_level` scheme. Yes or no? (E1 §5, E2 Q2, E3 §5, E4 §5, X2) [yes]
+7. Scale, gauge and calibre as attributes, with named standards (railway gauges, cartridges) as C13 rows and named forms. Ammunition kinds stop at cartridge class. Yes or no? (E1 Q4, E4 Q5, E4-6) [yes]
+8. Adopt C14 (multi-use kinds), C15 (toy or real), C16 (no individual-item facts: TCG singles in as a kind, NBTHK grades dropped) and C17 (jurisdiction ledger, with legal class off the tree)? Each yes or no. (E2 Q7, E1 Q10, Q12, Q13, E4 Q12, X5, X11, X12) [yes to all]
+9. Adopt the C11 refinement for domain E (X6): Japanese sword types, koto, sitar, hanafuda and mahjong as kinds; jian, dao, bayan and regional decks as named forms. Yes or no? (E4 Q3, E3 Q2, E1-4) [yes]
+10. World and traditional instruments: playing families with a region tag and a generated view (recommended), or a retail-style sub-family? (E3 Q2)
+
+**E1 homes**
+11. Pinball, claw cranes and casino slot machines: E1 for all three; or the screen test (screen D5, no screen E1); or the stake-and-pay-out test (gambling E1)? (E1 Q5) [screen test, and slot machines E1 as gambling equipment]
+12. Die-cast and train objects: one "die-cast scale model" kind with scale as an attribute (E1-1), or the memo's toy and collector split? (E1 Q6) [one kind]
+13. Toniebox and its figures: D3 with the figures as S3 parts, or E1 as one audio toy system? (E1 Q7) [D3]
+14. A tarot pack sold for card play (tarock, French tarot): E1, leaving F4 for divination decks? (E1 Q8) [E1]
+15. Wargame miniatures: games ("Miniatures games" leaf) or figure kits (models)? (E1 Q11) [games when sold in a game system box; figure kits otherwise]. Combustion-engined hobby RC: E1 or G1? [E1]
+16. Blind box as a sales-format attribute, and kidult as a user tag. Yes or no? (E1 Q9) [yes]
+17. Games divided by component set, never by mechanism, BGG Type, theme, audience, player count or time. Rules-only games (poker, bridge) are not objects. Yes or no? (E1 Q3) [yes]
+18. External cut points: ISO 8124 saddle height of 435 mm for cycles as toys, and EN 71-8 water depth of 400 mm for paddling pools. Adopt them, or keep the key's wording? (E1 Q10) [adopt, as notes]
+
+**E2 homes**
+19. Ski, climbing, hockey and riding helmets, and swim and ski goggles: E2 by sport, or all in A1? (E2 Q3) [E2]
+20. Court and gym shoes sold by sport, and beach swimwear: where does "not suited to everyday wear" fall? Choose E2 for court shoes, A2 for court shoes, or decide shoe by shoe. (E2 Q4) [A2 unless sold with a sport-specific sole standard; beachwear A1]
+21. Archery targets and shooter's gear (E2), arrows (E4), quivers (A4 or E4), and clay throwers, decoys, game calls and hides (E2 or E4)? (E2 Q5, E4 Q4, X3) [as X3; hunting accessories E2]
+22. Dog-sport equipment and riding gear for the horse: B10. Yes or no? (E2 Q6) [yes]
+23. Touring, freeride and park skis: attribute or separate kinds? (E2 Q2) [touring ski a kind, because of its bindings and skins (C10b); the rest attributes]
+24. Historical golf and racket forms (long-nose wood, wooden frame): named forms, or an era tag only? (E2 Q9) [non-maker-bound named forms]
+25. Cross-list sports nutrition (H2) in generated sport views. Yes or no? (E2 Q10) [yes, as a view only]
+
+**E3 homes**
+26. Guitar construction types (solid, semi-hollow, hollow body) as kinds. Yes or no? (E3 Q4) [yes]
+27. Amp circuit technology as an attribute, and electric or acoustic in the kind names. Yes or no? (E3 Q5, C10) [yes]
+28. Accordion, drum machine and sampler, DJ gear, MIDI controller, amp modeller: confirm the homes in E3-1 and E3-2 (free-reed leaf; synthesizers and electronic instruments; DJ equipment; Controllers; Amplification). (E3 Q6) [yes]
+29. Instrument and microphone cables D1 by the key, or an E3 exception? Stage lighting B3; piano benches and racks B1; fog machines B4 or a new note? (E3 Q7, E3-10) [D1, B3, B1, B4]
+30. Singing bowls and meditation instruments: E3 unless made for a rite (F4). Yes or no? (E3 Q8) [yes]
+
+**E4 homes**
+31. Knife line with C1: fighting and hunting knives, daggers, butterfly and automatic knives are E4; EDC and other locking folders are C1. Where do "tactical" folders go? (E4 Q2) [C1 unless the blade style is a weapon kind such as karambit or push dagger]
+32. Muzzle-loading: a kind for long guns only, with ignition as an attribute (E4-7), or a separate leaf? (E4 Q6) [kind for long guns]
+33. Loose sword fittings (tsuba, menuki) and loose armour pieces: E4 under S3, or F2 when sold as art? (E4 Q7) [E4]
+34. Ordnance (bombs, grenades, mines, artillery) out of scope except deactivated display pieces (B4). Yes or no? (E4 Q8) [yes]
+35. Slingshots, blowguns, boomerangs and shuriken: as X4, or other homes? (E4 Q9)
+36. Reloading presses and dies C1, and components (bullets, primers, powder) E4 ammunition. Yes or no? (E4 Q10) [yes]
+37. Maker ledger scope: firearms, bows, knives and nihonto smiths only, or armour and ammunition makers too? (E4 Q11) [all, admitted only when attested]
+38. Reproduction rule: E4 when battle-ready, E2 when blunted for sport, B4 when decorative, E1 when foam (the Kult of Athena class as the working test). Yes or no? (E4 Q13) [yes]
+39. Ballistic and fragmentation helmets E4.8. Yes or no, pending attestation? (E4 Q14) [yes]
+40. Holsters worn on the body: A4, by S3's "never parts", or E4? (E4-10) [A4]
+
+*Research tasks, not owner decisions:* attest the sabre, rapier and other European sword kinds (E4 Q15); attest the platform rows (E2-4, E1-8, E4-9); give each tier scheme a second region (C4e); fetch Chinese and Indian music retail (E3).
