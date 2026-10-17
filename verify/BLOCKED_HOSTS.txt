@@ -38,3 +38,5 @@ www.ebay.com	Books-Magazines category page returned page shell only, no category
 books.rakuten.co.jp	sitemap page returned app links only, no category tree (S2_F1)
 www.von-poll.com	WebFetch 403 (S2_G2); Parallel fetch worked but returned listing JSON only
 www.immobilienscout24.de	search excerpt showed a bot-check page (S2_G2)
+www.fda.gov	WebFetch 401; Parallel fetch works (S2_H1)
+global.oliveyoung.com	Parallel fetch of /display/category?ctgrNo=1000000070 and 1000000052 returned only shell text, no category tree (S2_H1)
