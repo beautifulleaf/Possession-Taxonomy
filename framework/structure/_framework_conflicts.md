@@ -17,3 +17,27 @@ Logged for the next framework revision; not yet applied.
 - **X5. (medium) Irrigation at farm scale.** C7 question 6 asks whether reels, centre pivots and field sprinkler sets are C7. C2 treats irrigation as household equipment and says nothing about farms. Step 12 names "commercial crop ... equipment", so field irrigation already reaches C7 first. *Proposed:* *"Irrigation made for field crops (hose reels, centre pivots, linear moves, field sprinkler lines) is C7; irrigation for gardens, glasshouses, allotments and grounds is C2."* Section 5, Q22.
 - **X9. (medium) The household line for tractors.** C2 keeps the key's wording ("garden and compact lawn tractors" C2) and lists "lawn tractor †" as a kind. C7 P1 proposes a design test instead (rear PTO plus a Category 1 or larger three-point hitch makes a machine C7, whoever buys it), because the step 12 note decides by user, which Appendix A treats as a modifier. Both memos agree on the lawn tractor. They differ on a sub-compact tractor with a loader on a lifestyle plot, and on its implements and snow blade (C7 P2). *Proposed:* adopt C7 P1 and P2 on both sides, and amend the step 12 note to *"... including lawn and garden tractors without a rear power take-off and a Category 1 or larger three-point hitch"*. Section 5, Q21.
 - **X10. (medium) Packing materials, envelopes and boxes.** C8.11 "Packing & protection materials" is unsourced. C5 lists "packing envelopes" among its boundary objects. B1 holds "boxes" as storage. *Proposed:* *"Envelopes, padded envelopes and mailing tubes for letters and post are C5; parcel tape, bubble wrap, stretch film, void fill and cardboard boxes sold flat for packing or moving are C8; boxes made for storing things are B1."* Section 5, Q34.
+
+## From the domain D review (framework/structure/_review_D.md, section 5)
+- (a) Step 24's D1 clause "cables and adapters ... whatever device they serve" conflicts with step 8 (S3) for cables made for one device (D review X-11(b)).
+- (b) Chargers are not named anywhere in the key (X-11(c)).
+- (c) Digital audio players, streaming and set-top boxes, DACs and headphone amplifiers are not named in the D3 branch.
+- (d) Camcorders, action cameras and 360 cameras are not named in the D4 branch.
+- (e) Bike computers, golf GPS and landline phones are not named in the D2 branch.
+- (f) Handheld gaming PCs: "handheld" in D5 against "laptop or convertible computer" in D1.
+- (g) E1 "coin-operated games" against D5 "arcade machine".
+- (h) The key's "divided by platform and carrier" (D5 line) against C13 (platforms are never levels) (O-51).
+- (i) The SIM card under the step-1 note (O-27).
+
+## From the domain E review (framework/structure/_review_E.md, section 4)
+- Helmets: weapon threat E4, then a helmet made for one sport E2, then other hazards A1. The key's order (step 10 before step 17) already gives E4 first. This refines the helmet line above.
+- Quivers worn on the body are A4 under S3's "never parts: anything worn on the body"; arrows and bolts are E4; archery targets, arm guards and finger tabs are E2. Owner to confirm.
+- Ear defenders and shooting glasses are A1 by step 17, although the E4 branch lists them under E2.
+
+## From the domain G review (framework/structure/_review_G.md, section 4)
+- **Houseboats, narrowboats, tiny houses on wheels (X-1, high).** The G1 and G2 memos give opposite rules, and the G2 test depends on use (S5). Proposed step-4 note: "Test the object as made (S5). A hull with its own propulsion and steering made to navigate (narrowboat, Dutch barge, cruising or pontoon houseboat), and a trailer, caravan or motorhome made for road towing or driving, are G1, however long they are kept in one place and whether or not someone lives in them. A dwelling made to stay in one place is G2: a floating home or house barge without propulsion, a static caravan, lodge or park home, a park model, and the tiny house on wheels that step 4 names." The key's example "houseboat" would then mean the moored, non-navigating one (owner to confirm; G review questions 22 and 23).
+- **Park model RV (X-2).** RVIA lists it as an RV type; proposed "a park model RV is G2" in the step-4 note.
+- **Vehicle-mounted electronics (X-10a).** Car audio, dashcams, mounted sat-navs and bike computers made for vehicle mounting are G1 under S3 (domain D O-10); the G1 memo disagrees on the mounted sat-nav.
+- **Carriers that power implements (X-10b).** Proposed: "A vehicle made mainly to carry people or goods (Unimog truck, ATV, quad, utility vehicle) is G1 even when it powers implements" (also domain C F37).
+- **Mobility scooters (X-10e)** stay H2.
+- **Commercial, industrial and institutional buildings** have no stated scope (G review question 16): in G2 by function, or out.

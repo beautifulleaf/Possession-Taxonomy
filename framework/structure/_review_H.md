@@ -123,3 +123,222 @@ Each finding gives its severity, the memo, the evidence and an exact proposed fi
 **H2-13 (low) Pressure-relief cushions and knee walkers have two homes.** "Wheelchair cushion" is a part in H2.12, while pressure care is a leaf in H2.4 (S5 group 11). Careco lists knee walkers among walking aids [S21], but they are wheeled. *Fix:* pressure-relief cushions are H2.4 Bed and pressure care, and only a cushion shaped for one wheelchair model is a part. The knee walker is H2.3 Walking aids.
 
 **H2-14 (low) Compatibility.** Hearing-aid battery sizes are a shared standard, glucose test strips are tied to one meter, and CGM sensors are tied to their transmitters. All are C13 rows that need fetched sources. The Omron "Connect" app family is a C13 platform, and the app itself is I1 (as H3 already says for toy apps).
+
+### H3 Adult Objects
+
+**H3-1 (high) The H1/H3 test for powered massagers depends on who presents the object.**
+- *Evidence.* Section 9.2: "A powered device is H3 when the maker or retailer presents it for sexual stimulation ..., and H1 when it is presented as a muscle or scalp massager". Usability row 1 files the Magic Wand Mini in H3 because specialist shops list it with vibrators [S2][S23]. Customs law calls it a "massage apparatus" [S14], and the museum notes that vibrators are still marketed "solely as massagers" [S15]. When the maker presents a wand as a personal massager and specialist retailers list it as a wand vibrator, "maker or retailer" gives both answers.
+- *Objects that would split.* A wand massager sold both ways; a compact "personal massager" from a general electronics brand; a vibrating facial massager listed by an adult retailer; a 1920s electric vibrator (row 20 sends it to H1).
+- *Fix.* Write one ordered test, and print the same sentence in H1 section 9 and with the H1 massager kind: "(1) If the maker's own description or packaging names sexual use, or the maker sells the object in its adult range, it is H3. (2) If the maker is silent and a specialist adult retailer files the object among sex toys, it is H3. (3) Otherwise it is H1 (comfort) or H2 (made to treat a condition)." Under (2), wand-type massagers are H3. Antique objects are tested by how they were presented when made, as row 20 does. This applies S5 to the object's designed purpose, not to the owner's motive.
+
+**H3-2 (medium) Level 1 mixes power, body area, function and mechanism, and vibration is an attribute in some sub-families but the test in others.**
+- *Evidence.* The section 3 placement test: A "vibrates, pulses or sucks" (power and mechanism); B "non-powered insertable" (power); C "made for anal use" and D "worn on, around or enclosing the penis" (body area, the axis rejected as candidate B); E acts on a partner (function); F "driven by a motor on a frame" (mechanism); G replicates a body. Section 2 calls the axis "designed form-function", but in practice it is an ordered test. C10 makes vibration an attribute of rings and anal toys (breaks 1 and 2), yet vibration is what separates A from B. Adam & Eve says that some dildos "venture into vibrator territory" with inner bullets [S27]. "Realistic vibrator" is a kind in A2, while "realism" is an attribute of dildos in section 4b.
+- *Objects that would split.* A dildo with a removable bullet (A2 realistic vibrator, or B dildo); vibrating kegel balls (B kegel balls, or A2 egg vibrator); a dual-density realistic dildo with a motor.
+- *Fix (conforms to C5c, C10).* State the level-1 axis as "the designed action family, decided by the ordered placement test of section 9". An ordered test written into the sub-family definitions meets "one stated axis" when it is printed as the axis. Add the C10 sentence: "A motor makes an object a vibrator (A) only when no earlier sub-family in the test takes it. An object whose motor is removable or optional is filed as the object without it, with `vibration: optional`. Kegel balls with a motor stay kegel balls." Define "realistic vibrator" as "a vibrator with an integral motor and a body-shaped shaft", and treat realism as an attribute in B.
+
+**H3-3 (medium) Thrusting objects are split between F and A2, and the definition of F does not fit its own kind.**
+- *Evidence.* F is "driven by a motor on a frame", but F lists a "Hand-held thrusting machine (S17 'Capsule')", which has no frame. A2 has "Thrusting vibrator" [S2][S1]. D1 has "Automatic masturbator", and some are sold with a mount or stand.
+- *Objects that would split.* A hand-held thrusting toy; an automatic masturbator on a mount; a thrusting machine that takes a masturbator attachment.
+- *Fix (conforms to C12, C13).* F = "a machine whose motor drives an interchangeable attachment and which stands or mounts on its own (frame, saddle, base)". A hand-held thrusting object is A2 thrusting vibrator, unless it takes attachments through a C13 connector (KlicLok, 3XLR), in which case it is F. An automatic masturbator stays D1 with or without a stand, because the stand is a mounting attribute (C12).
+
+**H3-4 (medium) The leaf axis of sub-family A mixes where the object acts with mechanism and wearing.**
+- *Evidence.* "Where the stimulation is applied (external, internal, dual or worn, suction)". "Worn" is a mounting and "suction" is a mechanism, and air-pulse stimulators are applied externally.
+- *Objects that would split.* A wearable air-pulse toy (A3 or A4); a couples vibrator worn during intercourse (A3 couples or A3 wearable kind); a wearable egg (A2 or A3).
+- *Fix (conforms to C5c, C12).* Leaves: External; Internal; Dual-contact (made to touch two areas at once: rabbit, couples). Clitoral air-pulse stimulator, wearable (panty) vibrator, wand, palm, bullet, finger and tongue vibrators are External kinds. Being worn and being remote-controlled are attributes. The vulva and nipple pump: see H3-5.
+
+**H3-5 (low) Body area is an attribute for some pumps and a kind for others.** In A4, "Pump target (nipple, vulva) is an attribute", but the penis pump is its own leaf (D3). The breast-type masturbator is a kind, while the "imitated opening" is an attribute. *Fix:* this can stand if the memo states why: D3 is kept for the H2 boundary (vacuum erection devices), and the breast-type masturbator differs in form factor (it is not an enclosure held in the hand). Put both reasons in section 4b, so that a builder does not copy the pattern to other body areas.
+
+**H3-6 (medium) Worn restraints: cuffs are H3, but collars are sent to step 17, which runs after step 9.**
+- *Evidence.* Section 9.1: "Collars and leashes (S18) are worn at the neck: A1 or A4 by step 17, owner to confirm." Cuffs, which are also worn, are H3 (E1). Step 9 is tried before step 17, and the only thing step 9 takes out is garments. The Wikipedia list files collars, cuffs and the armbinder under Restraints [S12].
+- *Objects that would split.* A collar with a leash ring; an armbinder; a blindfold against a sensory-deprivation hood (E2, or "hoods and masks are fetish wear, A1").
+- *Fix.* Add to section 9.1: "A collar, cuff, armbinder or harness made with fixing points to restrain a person is H3 (step 9 before step 17). A collar made only as an ornament is A3. A garment (hood, corset, hobble skirt, latex suit) is A1 under the step 9 note. A blindfold that covers only the eyes is H3 E2." Owner question 1 then asks only about the strap-on harness.
+
+**H3-7 (medium) "Strap-on dildo" repeats an attribute, and strap-on kits have no filing rule.**
+- *Evidence.* B has the kinds "Dildo" and "Strap-on dildo". Babeland lists "harness compatible" as a product feature [S2], and Orion lists "for strap-on" (37) among its dildo sub-lists [S1]. Section 3, break 4, sends the harness to A1. A kit sold as harness plus dildo has no rule, and the framework's set rule covers groceries only (step 3).
+- *Fix.* Drop "Strap-on dildo" as a kind: it becomes a dildo with `harness_compatible: yes`. A strapless strap-on (no harness) is a kind only once it is sourced. File a harness-plus-dildo kit by its dildo (H3), with the harness listed in a `contents` attribute, under the shared set rule (X11). A harness sold alone is A1.
+
+**H3-8 (medium) Character and performer replicas are not variants, and theme must not become a view.**
+- *Evidence.* In section 7, Yasj's AV-star (236) and cartoon-theme (422) replicas [S8] are filed as "Variant (collaboration or licensed likeness, C3)". A C3 variant needs a parent `named_form_id`, but each replica is its own product, not a colourway of a parent. A theme (cartoon, anime) is a content cut, which BRIEF never lets divide a category.
+- *Fix (conforms to C2a, C3).* Each replica is a maker-bound named form, with the licensor recorded on its line (`partner` or `licensor_id`) under the masturbator kind its form fits. There is no tag or view by theme. Use C3 only for colourways and editions (FLIP 360 limited hard and soft editions [S25]).
+
+**H3-9 (medium) Evidence is thin outside vibrators, masturbators and anal toys.**
+- *Evidence.* The E kinds rest on two UK shops: blindfold, gag, paddle, flogger, crop or whip, tickler [S19 only]; spreader bar, bondage tape, bed restraint set [S18 only]. F rests on one maker (Hismith [S17]). G rests on two retailer pages, with no doll maker, although dolls are the segment with the highest prices and the strongest maker identity, so the maker ledger and price bands are untested there. Other single-source kinds: tongue vibrator [S1], palm vibrator [S13], double-ended dildo [S1], solid body doll [S8], violet wand [S12]. No mainland Chinese source was fetched, although the memo lists the one machine maker as China/US.
+- *Fix.* Before approval, fetch a second restraint and impact retailer outside the UK, a second machine maker, a doll maker's catalogue and a second doll retailer. Mark single-source kinds in the tree.
+
+**H3-10 (low) The maker-ledger extensions belong elsewhere.** `app_platform` is a C13 platform row: one app ecosystem serves many products, and the app itself is I1. `iso_3533_declared` belongs on the named form, because conformity is declared per product (the maker-level field can be dropped). Keep `material_policy`. "Pocket Rocket" is marked `mb:n`, but by reviewer knowledge it is one maker's product name used generically (needs a fetched source). Treat it like "Fleshlight": maker-bound, with a C9 alias of relation `genericised name` pointing to the generic kind. Add that relation value to C9.
+
+**H3-11 (low) "Beginner" is not a user value under C6.** C6's user values are gender, child, baby and adapted. *Fix:* record "beginner" or "starter" as a dated `platform_tag` (Babeland [S23]), or as tier entries under a C4 level scheme ("C4 allows a category-specific skill or level scheme"), each with its source.
+
+**H3-12 (low) Derived and order fields.** `body_safe_class` should be computed from `material` using the two-guide scheme [S20][S21], with the scheme named, not typed in by hand. The section 8 order for B and C, "size-neutral by first appearance in retail trees", cannot be reproduced. *Fix:* name one source order (Orion's printed order [S1]).
+
+**H3-13 (low) Items sent to neighbours that do not yet hold them.** Lubricants, massage oil and anal douches go to H1, but H1 has no such kinds. Toy cleaners go to B6. Neither H1 nor H2 places anaesthetic delay sprays (a medicine, H2), arousal gels or edible body products. *Fix:* see X5.
+
+### Usability test: objects two builders would file differently from the memos as written
+
+Each memo's own 20-object table files cleanly, because each memo picked objects its rules cover. The objects below come from the same markets. Two builders reading the memo as written would file them in different places.
+
+| Memo | Object | Home 1 | Home 2 | Finding |
+|---|---|---|---|---|
+| H1 | Chanel No. 5 (parfum, EdP, EdT) | one named form | three named forms under three kinds | H1-1 |
+| H1 | Eau de Parfum Intense | eau de parfum | parfum or extrait (Douglas: over 20 %) | H1-1 |
+| H1 | Baby wipes | Body > Bathing and cleansing | Body > Baby hygiene | H1-2 |
+| H1 | Hot brush (heated round brush) | Hair > Heat and powered tools | Hair > Brushes, combs and accessories | H1-3 |
+| H1 | Hair clipper | Hair > Heat and powered tools | Shaving > Trimmers and clippers | H1-3 |
+| H1 | Tweezers | Makeup > Brows and lashes | Shaving > Hair-removal products and devices, or Grooming implements | H1-3 |
+| H1 | Eyelash curler | Makeup > Brows and lashes | Makeup > Applicators | H1-3 |
+| H1 | Body sunscreen | Skin care > Sun protection | Body > Body and hand care | H1-4 |
+| H1 | Hand cream | Body > Body and hand care | Skin care > Moisturising | H1-4 |
+| H1 | Toner pad / sun stick | own kind (sections 7, 10) | toner / sunscreen with a format attribute (row 3) | H1-5 |
+| H1 | BB cream; tinted lip balm; primer | Skin care | Makeup | H1-6 |
+| H1 | Lash serum | Skin care > Eye and lip care | Makeup > Brows and lashes (FDA 03) | H1-6 |
+| H1 | Gillette disposable razor | disposable razor | cartridge razor | H1-9 |
+| H2 | Pregnancy test | H2.1 Home tests | H2.9 Testing | H2-3 |
+| H2 | Basal-body thermometer | H2.1 Body temperature | H2.9 (P1) | H2-3 |
+| H2 | Diphenhydramine sleep aid | oral antihistamine kind | a sleep-aid kind | H2-2 |
+| H2 | Paracetamol-and-caffeine tablet | oral analgesic, named form = ? | no single-ingredient named form | H2-2 |
+| H2 | A maker's CIC hearing-aid model | named form under canal hearing aid | under the named form "CIC" | H2-5 |
+| H2 | Three-wheel walker | rollator, named form "Deltarad" | its own kind (Careco tri-walker) | H2-5 |
+| H2 | One lens family sold daily and monthly | daily contact lens | monthly contact lens | H2-6 |
+| H2 | Prescription sunglasses; ready-made reading glasses | (no kind in H2) | A4 eyewear | H2-1 |
+| H2 | DIN 13164 car first-aid kit | H2.10 Kits | G1 under S3 | H2-9 |
+| H2 | Coloured plano contact lens | H1 (P4) | A3 (step 17 runs first), or H2 | H2-10 |
+| H2 | Compression stocking | H2.2 Circulation | H2.11 supports; A1 hosiery | H2-4 |
+| H2 | Pressure-relief wheelchair cushion | H2.4 Bed and pressure care | H2.12 Wheelchair parts | H2-13 |
+| H3 | Wand massager presented both ways | H3 A1 Wand vibrator | H1 massager | H3-1 |
+| H3 | Dildo with a removable bullet | A2 Realistic vibrator | B Dildo | H3-2 |
+| H3 | Vibrating kegel balls | B Kegel balls | A2 Egg vibrator | H3-2 |
+| H3 | Hand-held thrusting toy | F Hand-held thrusting machine | A2 Thrusting vibrator | H3-3 |
+| H3 | Automatic masturbator on a mount | D1 Automatic masturbator | F Sex machines | H3-3 |
+| H3 | Wearable air-pulse toy | A3 Wearable vibrator | A4 Clitoral air-pulse stimulator | H3-4 |
+| H3 | Collar with a leash ring | E1 Restraints (step 9) | A1 or A4 (memo: step 17) | H3-6 |
+| H3 | Harness-compatible dildo; strap-on kit | B Dildo | B Strap-on dildo; harness A1 | H3-7 |
+| H3 | Licensed character replica | variant (memo) | maker-bound named form | H3-8 |
+
+## 3. Conformance to conventions C1 to C13
+
+"Conforms" means no change is needed. Each other cell is the change the memo needs.
+
+| Conv. | H1 | H2 | H3 |
+|---|---|---|---|
+| **C1** maker ledger | Drop `segment`, and map its values to `maker_class`, `platform_tag` and held-back scene tags (H1-7). Put fragrance lines (Kilian The Liquors) and K-beauty lines in the lines table. Keep `perfumer` etc. on the named form, with `perfumer` linked to a person table. | Drop `platforms_owned` (derive it from C13). Propose the new `maker_class` values to C1 for all categories, not ad hoc (X1). Otherwise conforms. | Drop `app_platform` (C13 row) and maker-level `iso_3533_declared` (named-form attribute). Keep `material_policy` (H3-10). |
+| **C2** kind against named form | `maker_bound` is used. Formats (pad, stick) become attributes, not kinds (H1-5). Strength classes become variants, not kinds (H1-1). | Sub-styles, load classes and measuring modes become attributes (H2-5). The active ingredient becomes an attribute, not a named form (H2-2). | Pocket Rocket becomes maker-bound with a genericised alias (H3-10). Replicas become maker-bound named forms (H3-8). Otherwise conforms. |
+| **C3** variants | Add `variant_type` = concentration for strength labels (H1-1). Volume is not a variant (H1-10). | Conforms (sparse; hearing-aid generations only). | Replicas are not variants (H3-8). Editions conform. |
+| **C4** tier and price | Conforms: no tier, SPF and PA as attributes (name the standards, H1-8), platform tags. The price band must be USD from the reference-size list price (H1-10). | Legal classes move to C17 (H2-7). Hearing-aid technology levels as maker-scheme tier entries conform, but need a fetched source (C4e). | Conforms (body-safe class as an attribute, reviewer tiers held back under C4e, USD bands). "Beginner" goes under a C4 level scheme or a platform tag (H3-11). |
+| **C5** levels and axes | Fix the leaf axes: power-source leaf, tools leaves, shaving, the two fragrance axes (H1-3). Leaf = null in three sub-families conforms. Parts go to a parts sub-family (X6). | Restate the level-1 axis as two ordered tests (H2-3). H2.9 and H2.11 each get one leaf axis (H2-3, H2-4). The parts sub-family conforms. | State the ordered placement test as the level-1 axis (H3-2). Fix the A leaf axis (H3-4). Leaf skipping and the parts sub-family conform. |
+| **C6** size and user | Remove the "Baby hygiene" and "feminine" leaves (H1-2). Otherwise conforms. | Conforms (children's and bariatric as tags, sizes as attributes). | "Beginner" is not a user value (H3-11). Otherwise conforms. |
+| **C7** order | Conforms (routine order, strength order, razor order). The razor order loses "disposable" (H1-9). | Conforms. | Name a source order for B and C (H3-12). Otherwise conforms. |
+| **C8** scenes | The K-beauty strength values need a definition source (H1-11). Otherwise conforms. | Conforms (no scenes). | BDSM's definition source is a list of equipment (S12), not a definition. Fetch a definition, or mark it provisional. Otherwise conforms. |
+| **C9** aliases | Conforms (13 seed rows, with homonyms). | Conforms (10 rows). Add Deltarad → tri-walker. | Conforms (seed rows). Add the relation value `genericised name` (Fleshlight, Pocket Rocket, Magic Wand used generically). |
+| **C10** technology | Hair-tool leaf by power (H1-3). Otherwise conforms (electric toothbrush and shaver named by the key). | Glucose-monitor and breast-pump kinds need the C10(b) comparison source (H2-8). | Vibration is both an attribute and a sub-family test (H3-2). |
+| **C11** regional names | Section 7 calls regional innovations kinds, which contradicts row 3 (H1-5). 化粧水 and 乳液 conform. | Deltarad becomes an alias of a generic kind, not a named form (H2-5). Kampo conforms. | Conforms (onahole as alias). |
+| **C12** mounting | n/a. | Conforms ("installed" is an attribute). | Conforms (suction base). Apply it to stands for masturbators (H3-3) and to wearing (H3-4). |
+| **C13** compatibility | Conforms in intent. Add toothbrush-head and shaver-head rows only with sources (H1-13). | Platforms are named but unsourced. Add Omron Connect, battery sizes, strips and sensors (H2-14). | Conforms (KlicLok, Vac-U-Lock, 3XLR). Add app ecosystems (H3-10). |
+
+C14 to C17 (later conventions): C17 settles H2's `regulatory_status` (H2-7). C14 (multi-use kinds) settles H1 tools that serve several areas (mirrors, nail tools go to the multi-use sub-family 8 under C14(c)). C16 (no individual-item facts) is met by all three.
+
+## 4. Cross-memo consistency
+
+**X1 (medium) Maker ledger: three memos, three sets of extensions.** H1 adds `segment` plus fragrance named-form fields. H2 adds new `maker_class` values and `platforms_owned`. H3 adds `material_policy`, `app_platform` and `iso_3533_declared`.
+*Proposed shared schema for domain H:* the C1 core columns, with the C1 `maker_class` list extended for all categories by **pharmaceutical company**, **medical-device manufacturer** and **supplement brand** ("house or manufacture" already covers cosmetics and fragrance houses). Category extensions: H1 none on the maker, with the fragrance named-form fields `perfumer_id`, `year`, `scent_family` and `bottle_designer`; H2 none; H3 `material_policy`, like A2's `construction_policy`. These are never maker columns: segment (it becomes a platform tag, maker class or scene), platforms or apps owned (C13), regime or legal class (C17), and declared conformity (a named-form attribute).
+
+**X2 (high) Legal status and voluntary standards: one rule for all three.** H2 proposes its own table. H1 handles cosmetic against medicine through a precedence sentence that uses "licensed as a medicine". H3 records ISO 3533 conformity and cites a customs heading.
+*Proposed:* every legal class goes in the **C17 ledger**: device class (FDA, EU MDR, NMPA), sale class (Rx, OTC, POM, P, GSL, the Japanese classes), cosmetic, quasi-drug or OTC-drug status, and vehicle-type classes such as the UK scooter classes. By reviewer knowledge (needs fetched sources), US sunscreens are OTC drugs, Japan has a quasi-drug class (医薬部外品), and the EU treats sunscreens as cosmetics, so H1 needs C17 rows as much as H2 does. Every voluntary product standard (ISO 3533, BS 8599-1, ANSI/ISEA Z308.1, DIN 13157/13169/13164, the SPF and PA test standards) is an attribute with the standard named (C4b). Customs headings (HTSUS 9019 [H3 S14]) are evidence only and are not stored.
+
+**X3 (high) The H1/H2 line uses legal class on one side and rejects it on the other.** H1 section 9: "a product sold to treat or diagnose a named condition, *or licensed as a medicine*, is H2". H2 P15: "A product is filed by what it is and what it is for, *not by the legal class it holds in one country*". A medicated shampoo, a benzoyl-peroxide acne wash or a hydrocortisone cream is licensed in some markets and not in others.
+*Proposed shared sentence (both memos):* "A product is H2 when its labelled main purpose is to treat, relieve or prevent a named condition, or when it contains an active ingredient sold only as a medicine in every sourced jurisdiction. Cosmetic purposes (clean, perfume, change appearance, protect, keep in good condition, correct body odour [H1 S21]) are H1, sunscreens and anti-dandruff and anti-blemish products included. Legal status goes to C17 and does not move the object." Owner question 11.
+
+**X4 (high) Massagers: three categories, two of them unsourced.** H1 has "massager †" (comfort). H2 sends TENS units and devices that treat a condition to H2 (P3). H3 uses a presentation test (H3-1).
+*Proposed shared sentence (all three memos):* "A powered massager is H3 under the H3-1 test; otherwise it is H2 when made to treat a condition (TENS, EMS units sold for pain), and H1 for comfort, including percussion and neck massagers." Heat packs and hot-water bottles are H1 (key). A heat wrap with a stated pain claim follows the X3 sentence.
+
+**X5 (high) Intimate, menstrual and body-replacement goods are named by one memo and held by none.**
+
+| Object | Sent by | Proposed home | Memo that must add the kind |
+|---|---|---|---|
+| Personal lubricant; massage oil | H3 9.2; H2 Q6 open | H1 Body, bath and hygiene > Intimate and menstrual hygiene (lubricant), Skin care (massage oil); device or medicine status in C17 | H1 |
+| Anal douche or enema bulb | H3 9.2 | H1 Intimate hygiene; a medicinal enema is H2 Medicines | H1, H2 |
+| Intimate wash | H1 9 | H1 Intimate hygiene | conforms |
+| Menstrual pad, tampon, menstrual cup | H1 Q5; H3 S9 lists cups | H1 Intimate and menstrual hygiene | H1 |
+| Period underwear | (none) | A1 (step 17, a garment) | A1 boundary line in H1 |
+| Nappy (baby) / incontinence product | H1 Q5; H2 H2.4 | nappy H1 Toileting (H1-2); incontinence product H2 (key) | H1 |
+| Condom; dental dam | key; H3 9.3 | H2.9 Contraception; attest with H3 S2, S6, S9 | H2 |
+| Pelvic-floor trainer; vacuum erection device; ED ring | H3 9.3 | H2 when the maker states a medical purpose, otherwise H3 | H2 |
+| Vaginal dilator / Orion "Dilatoren" | H3 C9 | H2 if medical (sourced); otherwise left unplaced (H3 Q9) | H2 |
+| Packer; breast form; wig | H3 9.3; H2 P3 | owner question 8: H1 with wigs, or H2 with prostheses (S5 groups 34 and 37 list hair replacement and breast prostheses as aids) | H1 or H2 |
+| Coloured plano contact lens | H2 P4 | H2-10 | H2 or H1 |
+| Contact-lens solution | H1 9; H2 Q7 | H2 under S3 (both memos agree) | H2 kind |
+| Collagen and other beauty supplements | (none) | H2.7 | H1 boundary line (H1-12) |
+| Nursing pads; nipple cream | (none) | H2.9 Breastfeeding | H2 |
+| Teething gel | (none) | H2 Medicines (pacifier and teether stay H1) | H2 |
+| Delay spray; arousal gel | (none) | delay spray H2 Medicines (anaesthetic); arousal gel under the X3 sentence | H2, H1 |
+
+**X6 (medium) Parts: H1 makes them a leaf, H2 and H3 make them a sub-family.** H1 puts "Blades and refills" inside Shaving, and leaves toothbrush heads and shaver foils unplaced. H2.12 and H3 H use a final "Parts and accessories made for one <object>" sub-family, exempt from the level-1 axis (C5d, which is written for domain A).
+*Proposed:* domain H follows C5(d). Each category ends with "Parts and accessories made for one <object>", leaf axis = object served. H1's sub-family takes cartridge refills, double-edge blades, shaver foils and heads, toothbrush heads, clipper guards and hair-dryer attachments. Extend C5(d) to "each category in domains A and H". If the owner prefers parts beside their device in H1, H2 and H3 should change to match, so that the three agree.
+
+**X7 (medium) Non-maker named forms are used for attributes.** H2 uses them for sub-styles, load classes, measuring modes and ingredients (H2-2, H2-5), and H3 for a genericised brand (H3-10). H1 uses none.
+*Proposed test (all H memos):* a non-maker named form is a design that many makers make and that buyers ask for by name (C2a: penny loafer, Vienna regulator). A measuring mode, load or size class, sub-style that is a fitting variant, active ingredient or material is an attribute.
+
+**X8 (medium) Retail facets turned into kinds.** H1 turns formats into kinds (H1-5), and H2 turns the lens schedule into kinds (H2-6). H3 correctly keeps NLS's weight classes as attributes [H3 S4].
+*Proposed test:* a retailer facet becomes a kind only when the object's form differs and a fetched source compares or ranks the types separately (the C10(b) wording, applied to all facets).
+
+**X9 (low) One user vocabulary and department views.** All three use generated department views: H1 men's grooming and baby; H2 children's and bariatric; H3 women, men, couples, gay men, adapted and beginner.
+*Proposed:* one user list for domain H (women, men, unisex, couples, baby, child, bariatric, adapted), tagged on kinds or named forms. Generated views come from it, and no leaf name carries a user word (H1-2). "Beginner" is a level scheme, not a user (H3-11).
+
+**X10 (low) Platforms and apps.** H1 has cartridge systems, H2 Omron parts and Connect apps, and H3 machine connectors and app control. *Proposed:* an app ecosystem that controls devices (Omron Connect, toy-control apps) is a C13 row with `kinds_served`, the app itself is I1, and both H2 and H3 say so.
+
+**X11 (medium) Sets and kits need one rule.** H1 Q4 asks the question. H3 files a plug set by its plug and has no rule for harness-plus-dildo kits (H3-7). H2 treats the first-aid kit as a kind. The framework's only set rule is the grocery one (step 3: the item of greatest value).
+*Proposed shared sentence (log in _framework_conflicts.md):* "A set of objects of one kind is filed as that kind. A mixed set is filed by its item of greatest value, with its contents listed. A kit that is sold, standardised and compared as one object (first-aid kit, manicure set, wet-shaving starter kit if sourced) is a kind of its own."
+
+**X12 (low) Boundaries the memos agree on (no change).** Bathroom and body scales are H1 (H1, H2 P2). The electric toothbrush is H1 (H1, H2 on Omron). Wigs are H1 (H1, H2 P3). Contact-lens solution is H2 under S3 (H1, H2). Toy cleaners are B6 and condoms H2 (H3, key). Pacifiers, baby baths, changing mats and potties are H1, and breast pumps H2 (H1, H2). Mobility scooters are H2, not G1 (H2, key). Medical alert bracelets are H2 (H2, key).
+
+**X13 (low) Tier treatment is consistent.** All three choose "preference", with measured attributes, platform tags and sparse tier entries on makers or named forms. *Proposed shared detail:* a maker's own technology or range level (hearing-aid levels, "Premium" machines) is a tier entry with `scheme` = the maker's name. A reviewer's grade (S22 in H3, U.S. News in H2) needs a second source from another region before entry (C4e).
+
+**X14 (low) Scene vocabulary for domain H.** Candidates: BDSM and kink (H3; it also tags A1 fetish wear), wet shaving (H1), K-beauty (H1), niche perfumery (H1). Each needs a definition source under C8, and the domain A list should be extended rather than a new list being started.
+
+## 5. Owner decisions raised (merged and de-duplicated)
+
+Source questions are in brackets. "Rec." is the reviewer's recommendation.
+
+*Scope*
+1. Are everyday toiletries and cosmetics that are used up (toothpaste, shampoo, soap) in scope, as step 18 says, although BRIEF names consumables "kept or collected"? Yes / no. Rec. yes. [H1 Q9]
+2. Are prescription-only medicines in scope? (a) No; (b) only classes people keep at home (insulin, inhalers, antibiotics, contraceptive pills); (c) all. Rec. (b). [H2 Q1]
+3. Named-form admission in domain H: (a) only named forms that are attested and iconic, rated or maker-ledgered, with a cap per category (H1 a few hundred to a few thousand, H3 300 to 600); (b) no cap. Rec. (a). Do supplement kinds enter only from the NIH fact-sheet list plus volume sellers? Yes / no. Do H3's thin sub-families (machines, dolls) need a second maker catalogue before approval? Yes / no. [H1 Q6; H2 Q11; H3 Q8]
+
+*Structure choices*
+4. Fragrance kind: (a) strength class as kind (memo); (b) one format kind, with strength as a C3 `concentration` variant of the scent named form and flankers as their own named forms (review H1-1); (c) one kind, with strength as a plain attribute. Rec. (b). Store each source's percentage range on the label? Yes / no. Rec. yes. [H1 Q1, Q7]
+5. Fragrance family list shared with B4: Edwards wheel, SFP seven groups, or Perfume Society eight? [H1 Q10]
+6. Sun care: a leaf in Skin care covering every area (rec.), or its own sub-family? [H1 Q2; review H1-4]
+7. Tools in H1: by the area they serve, with one "tools and devices" leaf per area sub-family and multi-area tools in sub-family 8 (rec.), or one tools sub-family? [H1 Q3; review H1-3]
+8. Parts in domain H: a final "Parts and accessories made for one <object>" sub-family in all three categories (rec.; extend C5(d) to domain H), or parts beside their device? [review X6]
+9. Medicines depth: kind at the OTC use class, active ingredient as an attribute with ATC code, and named forms only for brand products? Yes (rec.) / no (ingredient as named form, memo). [H2 Q2; review H2-2]
+10. Should H2 level 1 be stated as two ordered tests (substances by what they are, then devices by function), with all tests and monitors, including pregnancy and fertility tests, in H2.1? Yes (rec.) / no. [review H2-3]
+
+*Boundaries*
+11. H1/H2: adopt the shared sentence X3 (labelled purpose; cosmetic purposes are H1; legal status goes to C17)? Yes / no. [review X3]
+12. Massagers: adopt the ordered test H3-1 and X4 (maker names sexual use, or a specialist retailer lists it, so H3; treatment, so H2; comfort, so H1)? Yes / no. [H3 Q2]
+13. Lubricants, massage oil, anal douches and intimate washes: H1 (rec.), H2 or H3? Condoms H2 and toy cleaners B6: confirm? [H2 Q6; H3 Q5]
+14. Medical-purpose sexual-health items (erectile-dysfunction rings and pumps, pelvic-floor trainers, vaginal dilators): H2 when the maker states a medical purpose, otherwise H3? Yes / no. [H3 Q4, Q9]
+15. External body replacements (wigs, breast forms, packers): (a) all H1, like wigs under the key; (b) all H2, like prostheses; (c) wigs H1, the others H2. [H2 P3; H3 Q4; review X5]
+16. Harnesses, hoods, corsets and fetish clothing are A1; collars, cuffs and armbinders with fixing points are H3; ornamental collars are A3. Confirm? [H3 Q1; review H3-6]
+17. Sex furniture: furniture made to restrain or suspend is H3, positioning cushions B2? Yes / no. [H3 Q3]
+18. Sets and kits: adopt the shared set rule X11 (one kind, then item of greatest value, then standard kits as kinds)? Yes / no. [H1 Q4; review X11]
+19. Items the key does not name: nappies H1, menstrual products H1, baby wipes H1, cotton pads H1, incontinence products H2 (key). Confirm? [H1 Q5]
+20. Baby goods: "baby" is only a user tag, and the "Baby hygiene" leaf becomes a function leaf ("Toileting and nappy changing")? Yes / no. [H1 Q8; review H1-2]
+21. Care beds, pressure-relief mattresses and lift recliners: H2 when made for care (rec.), or B1? [H2 Q4]
+22. Contact-lens solution: H2 under S3 (rec.), or B6? [H2 Q7]
+23. Coloured non-corrective contact lenses: H2 with `corrective: no` (rec.; needs a key note), H1 cosmetic, or A3? [H2 Q8; review H2-10]
+24. Spectacles: add prescription spectacles, reading glasses, prescription sunglasses, frames and lenses to H2.5, with plano fashion frames A4? Yes / no. [review H2-1]
+25. Therapeutic and diabetic footwear: A2 (rec.) or H2? [H2 Q9]
+26. Personal alarms, fall detectors and wandering detectors: H2 or B8? [H2 Q10]
+27. Medical and surgical face masks: A1 as PPE (rec.) or H2? [H2 Q13]
+28. Infant formula made for a medical condition: its own kind "medical nutrition" in H2.7 or H2.8? [H2 Q3]
+29. First-aid kits made for a vehicle: H2 whatever they are made for (rec.; needs a key note against S3)? Yes / no. [review H2-9]
+
+*Data model*
+30. Legal classes in the C17 jurisdiction ledger for H1, H2 and H3 (supply class, device class, cosmetic or drug status, scooter class), with voluntary standards as attributes? Yes (rec.) / no. [H2 Q5; review X2]
+31. Tier entries from maker schemes (hearing-aid technology levels) and reviewer grades (masturbator grades, maker value tiers) enter only with a second source from another region (C4e). Confirm? Record `iso_3533_declared` per named form? Yes / no. [H2 Q12; H3 Q7]
+32. Generated user department views (women, men, couples, unisex, baby, child, bariatric, adapted) from one domain-H user list: wanted? Yes / no. [H3 Q6; review X9]
+33. Fetch before approval: an H1 appliance retailer and baby-care source, H2 optician and second-region pharmacy trees, and H3 restraint, machine and doll sources outside the current regions. Required before approval (rec.), or allowed after it? [review H1-8, H2-8, H3-9; H3 Q8]
+
+## 6. Report
+
+H1 needs minor fixes, H2 needs rework in its Vision, Medicines and testing sub-families, and H3 needs minor fixes. The high findings are: fragrance strength as the kind (H1-1); a user leaf (H1-2); spectacles missing (H2-1); the active ingredient as a named form (H2-2); the massager test resting on "maker or retailer" (H3-1); the cosmetic/medicine test, which uses legal class in H1 but rejects it in H2 (X3); and intimate, menstrual and replacement goods that one memo names and none holds (X5). Shared fixes proposed: one domain-H maker-ledger schema (X1); the C17 ledger for every legal class (X2); one parts sub-family pattern (X6); tests for non-maker named forms and for retail facets (X7, X8); and a set rule (X11). There are 33 merged owner questions.

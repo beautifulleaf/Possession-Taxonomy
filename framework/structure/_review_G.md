@@ -15,6 +15,10 @@
 | G1 Vehicles | minor fixes | (1) The worked tree and usability table put maker-bound models under non-maker named forms ("Convertible > roadster (no) > Mazda Roadster (yes)", "Motorhome > low-profile (no) > Fusion 373 (yes)"). That makes five levels below the category, against C5a. Section 4b names the motorhome layouts as the comparison level but files them as named forms. (2) The speed-pedelec rule P2 makes the home depend on the law. An e-bike with assist to 45 km/h is a moped in the EU but a US Class 3 bicycle, so one object has two homes. Legal classes (kei, UNECE L/M/N/O, EPAC, O1 to O4, FAA certification) are stored as attributes, where C17 wants a jurisdiction ledger. (3) Some Land leaves are defined loosely or by size. "Animal-drawn and hand-pushed" puts prams with horse carriages. Vans and trucks are split by a 3.5 t mass line, MPV, minibus and bus by seat count, and ATV and quadricycle sit in two leaves. Parts (G1.5) has no structure and no C13 compatibility ledger. |
 | G2 Property & Structures | needs rework (the Land sub-family and the house and flat kinds; the rest needs minor fixes) | (1) The Land kinds overlap and are split by size and motive. Smallholding and lifestyle block are the same object under two regional names (C11). Paddock against grazing land is a size split. Working farm against lifestyle block is split by income. Woodland against commercial forestry is split by market. "Working and lifestyle holdings" duplicates the farmland kinds through `farm_type`, so a vineyard with a house has two homes. (2) The house kinds mix attachment (detached, semi-detached, terraced) with form or style (courtyard, cave, castle, barndominium), so a riad in a medina is both terraced and courtyard. The flat kinds mix layout, position (penthouse) and conversion (loft). Dwellings kept in place are split by site licence, which the memo itself calls an attribute. (3) The houseboat and tiny-house rules contradict G1 and test use, not the object (S5). The proposed commercial-buildings sub-family would split by market (Appendix A). Attributes and price bands have no carrier, because houses and plots are unique items (C16). |
 
+**Usability (two builders, 20 objects).** Both memos' own 20-object checks pick easy cases. Objects that two builders would file differently under the structures as written:
+- *G1:* Mazda Roadster; Hyundai Santa Fe; a speed pedelec; a Hobie 16; a J/70; a road-registered quad; a Toyota HiAce Commuter; a VW Multivan; a Luton box van against a 7.5 t box truck; a travel-system pushchair; a racing kart; a narrowboat; a cruising pontoon houseboat.
+- *G2:* a NZ lifestyle block or UK smallholding; a vineyard with a house; a riad; a château; a top-floor duplex penthouse; a US side-by-side duplex; a BS 3632 lodge; a US manufactured home on its own foundation; a garden annexe with a shower; a log-cabin holiday home; a tiny house on wheels that travels.
+
 ## 2. Findings by memo
 
 Each finding gives severity, memo, evidence and an exact proposed fix. "Conforms to" names the rule the fix applies.
@@ -54,7 +58,7 @@ Each finding gives severity, memo, evidence and an exact proposed fix. "Conforms
 
 **G1-8 (medium) The sailing-craft kind axis mixes hull form with size and use.**
 - *Evidence.* The axis is "hull form and size class". The kinds are sailing dinghy, cruising sailboat, sailing catamaran, trimaran and motorsailer. YachtWorld lists "Beach Catamaran" apart from "Catamaran" [YW]. J/24 and Melges 24 are filed under "Cruising sailboat (monohull keelboat)", but they are racing one-design keelboats with little or no cruising accommodation (reviewer judgement; the memo says "their builder rules were not checked").
-- *Objects that would split.* A Hobie 16 (a sailing dinghy, or a sailing catamaran); a J/70 (a dinghy, or a cruising sailboat); a Farrier F-22 (a trailerable trimaran) against a Neel 47 cruising trimaran.
+- *Objects that would split.* A Hobie 16 (a sailing dinghy, or a sailing catamaran); a J/70 (a dinghy, or a cruising sailboat); a Farrier F-22 (a trailerable trimaran) against a Neel 47 cruising trimaran (reviewer, unsourced).
 - *Fix.* Set the kind axis to hull configuration and accommodation: sailing dinghy (open monohull, centreboard); open keelboat or daysailer (ballast keel, no or minimal cabin: J/70, Melges 24 and J/24 as class named forms); cruising monohull (with accommodation); beach catamaran (open multihull); cruising multihull (catamaran and trimaran, with the hull count as an attribute); motorsailer. Length stays `loa` and rig stays `rig`. *Conforms to:* C5c, C6.
 
 **G1-9 (medium) The aircraft leaves do not match across sections, and C10 is not stated.**
@@ -161,3 +165,127 @@ Each finding gives severity, memo, evidence and an exact proposed fix. "Conforms
 **G2-17 (low) The claim that nothing is received under S3 is untested, and some kinds are missing.**
 - *Evidence.* Bunnings lists "Shed Accessories and Attachments", which the memo does not place. The tree has no kind for a boathouse, a private jetty or pontoon (as distinct from a mooring right, which is OUT), a tennis court, a private hangar, or an island (LandSale lists "Island").
 - *Fix.* Add the sentence *"Shed and garden-building accessories are building products (C8), storage fittings (B1) or tools (C1); nothing is received under S3."* Add boathouse and jetty or pontoon as kinds (vehicle shelter, and shade and surface structures respectively). Add tennis court as a surface structure if a source shows it. Add island as a non-maker named form of land.
+
+## 3. Conformance with conventions C1 to C13 (changes each memo needs)
+
+G1 checks itself against C1 to C9 only, and G2 against C1 to C13. The lists below give every change needed. "OK" means the memo already conforms.
+
+### G1 Vehicles
+
+| Convention | Status | Change needed |
+|---|---|---|
+| C1 maker ledger | partly | Core schema OK. Replace `base_maker_id` (maker) with `base_named_form_id` (on the conversion's named form or variant). Record licensed class builders with `built_by_maker_id` on the line or named form. Rename maker class "kit or homebuilder" to `kit supplier`. Use the shared maker-class list (X-4). (G1-12) |
+| C2 kind against named form | partly | One named-form level only; generic body sub-styles become `body_substyle` (G1-1). Motorhome layouts become kinds (G1-2). Road race and endurance geometry, and the gravel race, everyday and adventure split, are geometry gradients. If they are not kinds, C2(b) makes them attributes (`geometry`), not non-maker named forms (question 4). |
+| C3 variant ledger | partly | Add `generation`, `trim`, `model_year` and `engine` to the shared `variant_type` list (X-9). Use the existing `reference` type for maker codes (PA-28-140, -181) instead of a new "body code". |
+| C4 tier and price | partly | No tier on a kind: OK. Platform tags (eBay Exotics, mobile.de Premium): OK. Polaris's own wording ("value leader", "the ultimate") is a maker's self-description, not a ranking. Make it a `platform_tag`, or wait for an independent source (C4e). The price bands should be domain-wide, not G1-only (X-3). Groupset and component tiers go on lines (G1-13). |
+| C5 levels | partly | (a) Remove the five-level paths (G1-1). (b) Aircraft: skip the leaf, or use two leaves; one Rail count (G1-9). (c) Restate the Land leaf axis as the vehicle's body and drive class, and fix the mass, seat and pram leaves (G1-5, G1-6, G1-7). (d) Give G1.5 a skeleton (G1-13). |
+| C6 size and user | partly | Mass and seat count become attributes, not leaf boundaries (G1-6). Children's bicycles: apply C15, "the real object made in a child's size stays in its category", in P3. |
+| C7 order | deviates | Non-maker named forms go first. Propose this as a shared amendment (X-7) rather than a G1 exception. |
+| C8 scenes | OK | The custom-culture row is correctly held back. Add "van life" only with a fetched definition source. |
+| C9 aliases | partly | Ute homonym, mamachari, mini-velo (G1-11). Shared domain-G rows for caravan, mobile home, Wohnmobil and Mobilheim, motor home and houseboat (X-8). |
+| C10 Rule T | not checked | Add: the watercraft propulsion leaves pass C10(b) (G1-16); e-bike assist is an attribute (G1-3); the electric kick scooter is a kind under C10(a), because step 11 names e-scooters; the airplane engine classes pass C10(b) (G1-9); a pedal or electric drive on a kayak is an attribute. |
+| C11 Rule R | not checked | Mamachari and ute (G1-11). Kei is not a kind (OK). Handcar with its regional names (OK). Narrowboat: a named form of canal motor cruiser with `region = UK`, unless a fetched source shows it sold as its own category (X-1). |
+| C12 Rule M | not checked | Truck camper: a kind, because its body is made only for a pickup bed (C12a; RVIA lists it). Roof tents, tow bars (fixed or detachable) and wall-box mounting are installation attributes of parts. |
+| C13 compatibility | missing | Open the ledger (G1-13). |
+| C15, C16, C17 | not checked | C15 for children's cycles (P3). C16: VIN and HIN values are never stored, only the scheme (the memo already mentions VIN only as a Google listing requirement). C17 for legal classes (G1-3, G1-4). |
+
+### G2 Property & Structures
+
+| Convention | Status | Change needed |
+|---|---|---|
+| C1 maker ledger | OK, small | Use the shared maker-class list (X-4) instead of "manufacturer-retailer" and "builder" (undefined). Add a lines table for lodge, park-home, houseboat and pool-shell ranges only if the owner wants brand depth here. |
+| C2 kind against named form | partly | Lifestyle block, paddock, ranch and country estate (G2-1). Courtyard house, cave dwelling, castle and barndominium become `house_form` and named forms (G2-4). Penthouse and loft (G2-5). Diepin as a named form of maisonette: OK. |
+| C3 variant ledger | OK | None needed. |
+| C4 tier and price | partly | Office grade on a building conflicts with C16 (G2-9). Price bands only on factory-built maker and line rows (G2-11, X-3). `alc_grade` as a spec attribute: OK under C4(b), but as a facet, not a value (G2-11). |
+| C5 levels | partly | (b) Burial skips the leaf; drop the C5b remark on Pools (G2-12, G2-13). (c) One purpose axis in Other buildings; land-use axis in Land (G2-1, G2-8). (d) No parts sub-family: OK, with the Bunnings sentence (G2-17). |
+| C6 size and user | partly | Unit count (G2-6), holiday against residential use (G2-7), paddock size (G2-1). |
+| C7 order | partly | One rule for named forms (G2-15, X-7). |
+| C8 scenes | partly | "Hobby farming" must not make a kind (G2-1). The `heritage` tag is defined by FISH: OK. |
+| C9 aliases | partly | Add the duplex and log cabin homonyms (G2-5, G2-8) and the shared domain-G rows (X-8). |
+| C10 Rule T | partly | Pools (G2-13). The barndominium is inconsistent with the memo's own treatment of modular, prefab and container construction (G2-4). |
+| C11 Rule R | partly | Lifestyle block and hobby farm are regional names for a generic kind (smallholding) (G2-1). Barndominium and castle: see G2-4. |
+| C12 Rule M | OK | Attached against detached garage: note that an integral garage is part of the house, which is filed as a whole (step 4), not a garage with a mounting attribute. |
+| C13 compatibility | OK | Not needed. |
+| C16, C17 | not checked | C16: the facet schema, not values (G2-11); the office grade (G2-9). C17: site licences, the UK holiday and residential park classes, and US manufactured-home titling go to the jurisdiction ledger (G2-7). Tenure stays a facet. |
+
+## 4. Cross-memo consistency
+
+**X-1 (high) The two memos give different rules for houseboats, narrowboats and tiny houses on wheels.**
+- *Evidence.* G1 P4: *"A caravan, boat or van made to be towed, driven or sailed from place to place is G1 even when it is kept parked for years; one made to stay in one place as a dwelling (houseboat moored for good, static caravan, tiny house on wheels) is G2."* G2 section 9 and O1(a): *"A houseboat is G2 whether or not it has an engine"*, with a G1 home only for "a boat used mainly for cruising that happens to sleep people". G2 O9 and section 9: a tiny house on wheels is *"G2 when it is kept in one place as a dwelling, G1 when it is a trailer used to travel"*. The two tests disagree on the self-propelled cruising houseboat (G1 in G1's rule, G2 in G2's), and G2's tests depend on use (S5). Neither memo files the narrowboat. G1 has it only under "not shown" in Motor craft, and G2 lists it as a boundary object without a home. Under G1's rule a cruising houseboat is G1, but G1 has no kind for it, so it is an orphan.
+- *Proposed shared sentence (both memos and the key's step 4 note).* *"Test the object as made (S5). A hull with its own propulsion and steering made to navigate (narrowboat, Dutch barge, cruising or pontoon houseboat), and a trailer, caravan or motorhome made for road towing or driving, are G1, however long they are kept in one place and whether or not someone lives in them. A dwelling made to stay in one place is G2: a floating home or house barge without propulsion, a static caravan, lodge or park home, a park model, and the tiny house on wheels that step 4 names."* G1 adds a kind "cruising houseboat" under Motor craft and lists the narrowboat as a named form there (`region = UK`). The tiny house on wheels stays G2 unconditionally, as the key says, until the owner decides otherwise (question 22). The key's step 4 example "houseboat" then means the moored, non-navigating houseboat; the owner must confirm this reading.
+
+**X-2 (medium) The park model is not on G1's side of the boundary.** RVIA, a G1 source, lists the "park model" among RV types, and G2 makes it a G2 kind. Add *"a park model RV is G2"* to G1 P4 and to G1's boundary table.
+
+**X-3 (medium) The memos propose different price bands above 15,000 USD.** G1 proposes 15,000 to 50,000, 50,000 to 150,000, 150,000 to 500,000 and over 500,000. G2 proposes the same up to 500,000 to 1,500,000 and over 1,500,000. Both are put forward as category-specific, while C4(d) asks for one domain-wide scheme. *Proposed shared convention (C4d amendment):* continue the existing 50, 150, 500 progression domain-wide: 15,000 to 50,000; 50,000 to 150,000; 150,000 to 500,000; 500,000 to 1,500,000; 1,500,000 to 5,000,000; over 5,000,000 USD. This covers aircraft, yachts and estates. Other categories simply never use the top bands. In G2, bands attach only to factory-built maker and line rows (G2-11).
+
+**X-4 (medium) The memos use different maker classes, and houseboat builders would be split between ledgers.** G1 adds converter, class-licensed builder and kit or homebuilder. G2 uses kit or product manufacturer, manufacturer-retailer, builder and retailer own-label. Houseboat builders (Gibson, Sumerset, Stardust per YSN) make objects that X-1 may put in either category. *Proposed shared convention (C1 amendment):* add the maker classes `builder` (boats, homes or lodges built to order or in small series), `converter` (builds on another maker's base model; the base is recorded as `base_named_form_id` on the named form) and `kit supplier`. Licensed builders of a class design are recorded with `built_by_maker_id` on the line or named form. Drop "manufacturer-retailer": it is a sales channel, and C1's "house or manufacture" already covers Dunster House. Use one domain-wide maker ledger, with `known_for_kinds` free to cross G1 and G2.
+
+**X-5 (medium) Both memos store regulatory classes as attributes, and G2 also uses them as a kind axis.** G1 has `legal_class`, `unece_category`, EPAC and FAA certification (G1-3, G1-4). G2 has the site licence and the build standard as the kind axis of dwellings kept in place (G2-7). *Proposed shared convention (C17 clarification):* (a) a **design standard or design classification** the object is built to (ISO 4210, EN 15194, CE design category A to D, BS EN 1647, BS 3632, the HUD code, IRC Appendix Q) is an attribute `standard_met`, with the standard named (C4b), on a kind or named form; (b) a **class a jurisdiction assigns** for registration, licence, tax, titling or land use (kei, UNECE and EU L/M/N/O, O1 to O4, speed pedelec, US e-bike classes, FAA certification categories, UK holiday and residential park licences, US manufactured-home titling) goes to the C17 ledger; (c) neither ever defines a kind or a leaf. Measured grades of land quality (the Agricultural Land Classification) are spec facets (C4b).
+
+**X-6 (low) The memos use different propulsion vocabularies.** G1 has `assist`, `engine_primary` and `rig`; G2 has `propulsion` (self-propelled, towed, none). *Proposed shared attribute for domain G:* `propulsion` with the values none, towed, muscle (paddle, oar, pedal, push), wind, combustion engine, electric motor, hybrid and animal-drawn. `assist` (pedal-assist type) and `rig` stay G1 sub-attributes. `engine_primary` (motorsailer) becomes `propulsion = wind + combustion engine` with a primary flag.
+
+**X-7 (low) The memos order named forms differently.** C7 orders named forms "by maker ..., then by first-introduction year ..., then alphabetically". G1 puts non-maker named forms first. G2 has no maker-bound forms and gives two orders (G2-15). *Proposed C7 amendment:* *"Non-maker named forms come first, by first-attested year, then alphabetically; maker-bound named forms follow, by maker, then year, then alphabetically."*
+
+**X-8 (low) The alias tables need shared domain-G rows.** The same words point across the G1/G2 line. Proposed rows, each to be loaded only with a fetched source:
+
+| term | language | targets | relation |
+|---|---|---|---|
+| caravan | en-UK | touring caravan (G1); static caravan (G2, Rightmove "Caravan") | homonym |
+| mobile home | en-US; fr "mobil-home"; de "Mobilheim" | park home (G2); static caravan (G2) | regional name (Zillow for en-US; fr and de to source) |
+| Wohnmobil; motor home | de; en-US | motorhome (G1) | alias; Zillow lists "motor home" among home types, but it is G1 (de to source) |
+| houseboat | en | cruising houseboat (G1); moored houseboat (G2) | homonym, after X-1 |
+| cabin | en | log cabin, garden building (G2.3); log house (G2.2); a boat's cabin (attribute) | homonym |
+| duplex | en-US; es, en-UK | multi-unit residential building; maisonette | homonym (G2-5) |
+| buggy | en-UK; en-US | stroller; quad or dune buggy | homonym (already in G1) |
+
+**X-9 (low) Variant types need extending, for G1 only.** G1 needs `generation`, `trim`, `model_year` and `engine`, and G2 needs no variants. Add the four to the shared C3 `variant_type` list rather than keeping a G1 list.
+
+**X-10 (low) Cross-domain boundaries that wait on G1.**
+- (a) Domain D review X-11(d) and O-10 (vehicle-mounted electronics are G1 under S3) needs G1's agreement, and G1's P7 currently disagrees on the mounted sat-nav (G1-13).
+- (b) Domain C review F37 proposes *"A vehicle made mainly to carry people or goods (Unimog truck, ATV, quad, utility vehicle) is G1 even when it powers implements"*. G1's P5 agrees on ATVs but should add the Unimog.
+- (c) The pet stroller and dog bike trailer, open in the B10 memo, get a G1 home through G1-5. A dog bike trailer is a bicycle trailer kind in Trailers.
+- (d) Domain E review C13 rows put SPD and Look pedals in G1 (G1-13).
+- (e) H2 puts mobility scooters in H2 (G1-15).
+
+**Duplicated or orphaned kinds (summary).** Orphans: the cruising houseboat and the narrowboat (X-1), and the annexe or ADU (G2-8). Duplicates: smallholding against lifestyle block (G2-1); quad against quadricycle (G1-7); log cabin (G2-8, X-8); the minibus and MPV line (G1-6). Boundaries that agree on both sides: static against touring caravan, horsebox (G1) against stable block (G2), shipping container kept in place (G2) against one on a trailer (G1), and the pop-up gazebo (B1).
+
+## 5. Owner decisions raised (merged and de-duplicated)
+
+Recommendations from the memo and from this reviewer are given in brackets.
+
+**G1 Vehicles**
+1. Are G1's sub-families Land, Rail, Watercraft, Aircraft, and Parts and accessories made for one vehicle, with Rail skipping the leaf level? Yes/no. [yes]
+2. May Watercraft be divided by paddle, wind and engine under Rule T (C10b)? Yes/no. Is the motorsailer a kind in sailing craft, with the engine recorded in `propulsion`? Yes/no. [yes; yes]
+3. Do legal, registration and certification classes (kei, UNECE and EU L/M/N/O, O1 to O4, EPAC, speed pedelec, US e-bike classes, FAA categories) go to the C17 jurisdiction ledger, with design standards (ISO 4210, EN 15194, CE A to D) as attributes? Yes/no. [yes; X-5]
+4. Speed pedelecs and throttle e-bikes: (a) a bicycle by form, with the legal class in C17 [reviewer], or (b) a moped when over the local bicycle limit [memo P2]?
+5. Generic body sub-styles (roadster, targa top, crossover, coupé SUV, shooting brake): (a) a `body_substyle` attribute with a view [reviewer], (b) kinds, or (c) non-maker named forms, with the maker models moved to variants?
+6. Are low-profile, overcab and A-class motorhomes, and the campervan, separate kinds? Yes/no. [yes]
+7. Mountain-bike disciplines: kinds? Yes/no. [yes] Road race against endurance, and the gravel sub-types: (a) a `geometry` attribute [reviewer], or (b) non-maker named forms [memo]?
+8. Inflatable against rigid construction (kayaks, boats): (a) a kind only where retailers in two regions split on it, otherwise an attribute [reviewer], or (b) two kinds now [memo]?
+9. Caravans, motorhomes and campers in one leaf? Yes/no. [yes] Vans, pickups, trucks and buses: (a) one leaf with kinds by body, and mass and seats as attributes [reviewer], or (b) two leaves split at 3.5 t [memo]?
+10. Do prams and strollers get their own leaf, "hand-pushed carriers", including pet strollers, separate from animal-drawn vehicles? Yes/no. [yes]
+11. Are motor vehicles made for racing or off-road sport (racing cars, karts, motocross bikes, dune buggies) G1, filed by body? Yes/no. [yes]
+12. Small and edge vehicles: are children's pedal bicycles G1 under C15, with balance bikes and children's tricycles E1? Yes/no. [yes] Are hoverboards, powered skateboards and eFoils G1 under P1? Yes/no. Unicycles: E2 or G1?
+13. Is a horse-drawn or machine-drawn sleigh G1, and a sledge for play or sport E2 (P6)? Yes/no. [yes]
+14. Parts: a fitment-keyed parts table with a small kind list by vehicle system, plus a C13 compatibility ledger? Yes/no. [yes] Are roof boxes and racks made for one vehicle G1 parts? Yes/no. [yes, per E2 P7] Are electronics made to be mounted on a vehicle (car audio, dashcam, mounted sat-nav, bike computer) G1 under S3, per domain D's O-10? Yes/no. [yes]
+15. Are named forms loaded at model-line level, with generation, trim, model year and engine as variant types added to C3? Yes/no. [yes]
+
+**G2 Property & Structures**
+16. Commercial, industrial and institutional buildings: (a) in G2 by function, as a leaf of Other buildings [reviewer, if admitted], (b) in G2 as a market sub-family [memo option; conflicts with Appendix A], or (c) out of scope?
+17. For unique objects sold by place, does the choice level stop where the sources' filters and census categories stop, with a legal or licence class never alone making a kind (G2-10)? Yes/no. [yes]
+18. Land: merge smallholding, lifestyle block and hobby farm into one kind, file holdings by principal land use, and record buildings as improvements (G2-1, G2-2; this answers memo O5)? Yes/no. [yes]
+19. Bungalow as a `storeys` or `house_form` attribute? Yes/no. [yes] Courtyard house, cave dwelling, castle and barndominium: (a) `house_form` values and named forms under the attachment kinds [reviewer], or (b) kinds [memo O10]?
+20. Flats: are penthouse and loft named forms, with flat and maisonette the only flat kinds? Yes/no. [yes]
+21. Dwellings kept in place by physical form (static caravan; lodge or park home; park model; tiny house on wheels; houseboat; floating home), with licences in C17, and a factory-built home on a permanent foundation filed as a house? Yes/no. [yes]
+22. Tiny house on wheels: (a) always G2, as step 4 names it [G1 P4, reviewer], or (b) G2 or G1 by how it is used [G2 memo O9]?
+23. Houseboats (X-1): (a) every houseboat G2, with propulsion as an attribute [G2 memo O1], or (b) a navigating hull (narrowboat, cruising or pontoon houseboat) G1 and a non-propelled moored dwelling G2 [G1 P4, reviewer]? Is the narrowboat G1?
+24. Is a garden annexe or ADU that meets the housing-survey dwelling test (own sink, toilet and entrance) a dwelling, and otherwise a garden room? Yes/no. [yes]
+25. Is a sauna cabin a person can enter that stands as a building G2, and a portable sauna B7 (memo O7)? Yes/no. [yes]
+26. Tents, yurts and tipis: E2 (step 26) always, or G2 when set on a permanent platform as a dwelling (memo O6)?
+27. In-ground pools: (a) one kind with a `construction` attribute [reviewer, unless a second-region source is found], or (b) three kinds by construction [memo]?
+28. Is it confirmed that "however it is held" in step 4 covers German Reihengräber and Japanese perpetual-care graves (memo O8)? Yes/no. [yes; the key already says so] Is a share or membership that only grants use of a slip or pitch OUT? Yes/no. [yes]
+
+**Shared (both memos)**
+29. Should the domain-wide price bands be extended above 15,000 USD to over 5,000,000 USD (X-3), replacing G1's question 11 and G2's O4? Yes/no. [yes]
+30. Should the maker-class additions (builder, converter, kit supplier) and `base_named_form_id` go into C1, with one domain-wide maker ledger (X-4)? Yes/no. [yes]
+31. Should C7 be amended so that non-maker named forms come first, by year then alphabetically (X-7)? Yes/no. [yes]

@@ -59,3 +59,17 @@ Drafted by the domain A review (framework/structure/_review_A.md, section 4) and
 **C17. Jurisdiction ledger.** Legal classes (EU Firearms Directive categories, UK sections, US NFA classes, gambling and tobacco regimes) go in one ledger: `subject_id` (kind or named form), `jurisdiction`, `scheme`, `class`, `criteria`, `source_url`, `date`. Never a level or a tag on the tree.
 
 **Additions:** C1 gains `built_by_maker_id` on lines and an optional `school` table (for traditions such as nihonto smiths and luthier schools). C4 allows a category-specific skill or level scheme (for example player level for sports gear) as tier entries.
+
+## Proposed additions from the domain G review (framework/structure/_review_G.md, section 4; owner approval needed)
+
+**C4(d) amendment: price bands above 15,000 USD.** Continue the progression domain-wide: 15,000–50,000; 50,000–150,000; 150,000–500,000; 500,000–1,500,000; 1,500,000–5,000,000; >5,000,000 USD. Categories that never reach them simply leave them unused. Bands attach only to maker and line rows where objects are factory-built (G2).
+
+**C1 amendment: maker classes.** Add `builder` (built to order or in small series), `converter` (builds on another maker's base; record `base_named_form_id` on the named form) and `kit supplier`. Drop "manufacturer-retailer" (a sales channel). Licensed builders of a class design use `built_by_maker_id`. One maker ledger for the whole domain; `known_for_kinds` may cross categories.
+
+**C17 clarification: standards and legal classes.** (a) A design standard or design classification an object is built to (ISO 4210, EN 15194, CE design category A–D, BS EN 1647, BS 3632, HUD code) is an attribute `standard_met`, with the standard named. (b) A class a jurisdiction assigns for registration, licence, tax, titling or land use goes to the C17 ledger. (c) Neither ever defines a kind or a leaf.
+
+**C3 amendment: variant types.** Add `generation`, `trim`, `model_year` and `engine` to the shared `variant_type` list.
+
+**C7 amendment: named-form order.** Non-maker named forms come first, by first-attested year, then alphabetically; maker-bound named forms follow, by maker, then year, then alphabetically.
+
+**Domain-G attribute `propulsion`:** none, towed, muscle, wind, combustion engine, electric motor, hybrid, animal-drawn (with a primary flag where two apply).

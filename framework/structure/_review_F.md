@@ -66,3 +66,208 @@ Each finding gives severity, memo, evidence, the objects that would split, and a
 **F1-10 (low) Boundaries that need the other side's sentence.**
 - *Fix.* (a) Playaway-type players (owner question 9): F1, because the work is published fixed on the device and the device plays only that work; D3 holds players of any content. (b) Pictorial and antique engraved maps: *"A map, including a single sheet from an atlas or a pictorial wall map, is F1; a print made as art that depicts a place is F2."* F2 needs the same sentence. (c) Tarot and oracle decks are F4 (step 14); a tarock pack for card play is E1 (review E). F1 should say both so that printed decks are not filed as books.
 
+### F2 Art
+
+**F2-1 (high) Ornamental figurines are under-built, and their makers have no ledger.**
+- *Evidence.* Step 20 files "ornamental figurines of people and animals made in ceramic, glass, metal, stone, wood or resin, whatever the edition or price" in F2. The tree has one figurine kind, 47 "porcelain or ceramic figurine", under "Modelled and fired". Glass and crystal, resin, cast metal other than bronze, and carved figurines have no kind. Section 10 says "Ornamental figurines and animation cels have no retail or enthusiast page among the fetched sources" and "Lladró-type porcelain figurine makers, bronze foundries and poster printers are not evidenced". The maker ledger is designed for artists (role, ULAN). Yet figurines are where F2 has brand identity of the kind the owner asked for (manufactories and their numbered lines), and where most owned F2 objects sit by count.
+- *Objects that would split or have no home.* A Swarovski crystal figure; a Murano glass animal; a Willow Tree resin figure; a pewter or cold-painted metal figure; a Hummel (Goebel) figurine with its HUM number; a carved wooden or boxwood netsuke.
+- *Fix.* Re-cut the sculpture sub-family by the material that makes the form (F2-6), so that figurines and sculpture share one axis: leaves Metal; Stone; Wood and other carved organic material; Ceramic (terracotta, earthenware and stoneware, porcelain and bone china); Glass and crystal; Resin, plastic and composite; Textile and soft; Found and mixed; Light. Kinds name the form within the material, with figurine and statue as forms where sources sell them apart (porcelain figurine, glass figurine, resin figurine, cast-metal figurine). Size and edition stay attributes (C6, Appendix A). Add the manufactory to the maker ledger (C1 maker_class `house or manufacture`), make its series C1 line rows (Lladró, Hummel, Royal Doulton figures, Swarovski Silver Crystal), and put model numbers (HUM, Lladró numbers) in the C3 variant ledger as `variant_code`. Fetch a figurine retailer or replacement dealer and a collectors' club before data entry. Owner decision: this structure, or a separate sub-family "Figurines" (option b in section 5).
+
+**F2-2 (medium) "Art poster" is a kind in a process axis.**
+- *Evidence.* Kind 31 "art poster (offset-printed)" sits in the leaf "Photomechanical"; the leaf axis is "printing-process family". Posters are also made by stone lithography (the classic French posters), screenprint and inkjet. Kind 27 "offset lithograph" already exists under Planographic, and GA lists offset lithography as photomechanical, so offset work has two leaves.
+- *Objects that would split.* A Mucha stone-lithograph poster (26 or 31); a screenprinted film or gig poster (28 or 31); an inkjet reproduction poster (30 or 31); an offset exhibition poster (27 or 31).
+- *Fix.* Delete kind 31 and the Photomechanical leaf. A poster is filed by its process kind and carries `issue_form = poster` and `poster_size` (one-sheet, quad, B2) as attributes, with a generated "Posters" view. If the owner wants posters as their own kind (film-poster collecting is a market of its own), make "poster" one kind in a leaf "Posters and printed reproductions" whose axis is issue form, with process as an attribute and this precedence: *"A sheet printed in an open edition to be posted or sold as a poster is a poster, whatever the process."* Owner decision.
+
+**F2-3 (medium) A use kind in the medium axis, and an edition leaf in the process axis.**
+- *Evidence.* Drawing kind 17 "original illustration art" is defined by use (Christie's department), in a leaf whose axis is "drawing medium". The print leaf "Unique" holds only the monotype, which the memo admits "mixes the edition idea into a process axis". Kind 10 "mixed-media painting" overlaps kind 55 "collage".
+- *Objects that would split.* An original comic page in pen and ink (16 or 17); a gouache book illustration (4 or 17); a painting with pasted paper (10 or 55).
+- *Fix.* Delete kind 17; `use` (illustration, comic art, animation) becomes a tag with a view, and the animation cel is an open question for a kind under painting (acrylic on acetate) once a source is fetched. Rename the Unique leaf "Other and hybrid processes" (monotype, collagraph; chine-collé as an attribute). Precedence: *"A work whose image is built from pasted elements is a collage; a painting with added materials is mixed media."*
+
+**F2-4 (medium) Aliases, brand processes and printers are named forms.**
+- *Evidence.* Named forms include "giclée" (which the memo quotes Sotheby's as calling "a neologism used to market inkjet prints"), "serigraph" (a synonym for screenprint), "aquarelle" (watercolour), "C-print" (chromogenic print), and "Iris print; Piezograph and Imagegraph", which the memo says are printer and inkset trademarks (MTK-T, PCNY). "Monoprint" is a named form of monotype, but AAT lists monoprints and monotypes as separate nodes (AAT-PR).
+- *Fix.* Move giclée, serigraph, aquarelle, C-print and Cibachrome (as the earlier name of Ilfochrome) to the C9 alias table. Iris, Piezograph and Imagegraph become a `printing_system` attribute (C10). Ilfochrome and Polaroid stay maker-bound named forms (`maker_bound: yes`, C2(a)). Monoprint becomes its own kind beside monotype, or an attribute, as AAT separates them.
+
+**F2-5 (medium) Regional kind names (C11).**
+- *Evidence.* Kind 6 is "nihonga"; kind 54 is "East Asian calligraphy", with the five scripts as named forms; section 7 mentions Arabic calligraphy but the tree has no home for it. C11 names a regional kind by its generic form, with the regional word as its name.
+- *Fix.* "Mineral-pigment painting (nihonga)", with iwa-enogu in the alias table. "Brush and pen calligraphy" as the kind; East Asian script styles, Arabic calligraphy and Western calligraphy are named forms with a region tag; seal carving (篆刻) is a separate kind only if a fetched source sells it apart from calligraphy (ZY lists it as a class). Hanging scroll and handscroll stay format attributes, as F4 does for devotional scrolls (F4-1).
+
+**F2-6 (medium) The sculpture leaves are the memo's own grouping.**
+- *Evidence.* The leaves "Cast, Carved, Modelled and fired, Assembled and found, Soft and light" are not in any fetched source: AAT-SC is "sculpture by material", Singulart filters by type and material (SGL-SC), and HS97 ignores material. "Soft and light" joins two unrelated things; "welded steel" sits under Assembled; the memo itself warns that the build team "must not re-split a kind by material" while every kind is named by material.
+- *Fix.* Use the material-family leaves of F2-1, which follow AAT-SC and SGL-SC and which the memo's own section 4b supports ("material is the form here"). Form (freestanding, relief, bust, wall object) stays an attribute (SGL-SC Types).
+
+**F2-7 (low) Maker ledger and price bands.**
+- *Fix.* C1 core columns, maker_class values `artist`, `print studio or atelier`, `print publisher`, `foundry`, `house or manufacture` (for figurines), multi-valued (X7), and the extension `authority_id` (ULAN). Known-for kinds are derived from named forms (C1). Seed with exemplars only, as the memo proposes. Use the C4(d) USD bands instead of Singulart's; the top band ("over 15,000") stays open.
+
+**F2-8 (low) Evidence labels.**
+- *Evidence.* Section 1.3 cites Mojarto's footer artists as fetched; section 6 calls the same fact "search excerpt only"; the TSV row says the footer list was fetched. Graphics Atlas' Timeline mode is from an excerpt. There is no enthusiast forum and no UK-only retailer (section 10 says so).
+- *Fix.* Correct section 6. Fetch one printmaking or photography collector forum and one UK retailer before named forms are loaded.
+
+**F2-9 (low) Boundaries that need a sentence.**
+- *Fix.* (a) Taxidermy: Singulart lists taxidermy among sculpture materials (SGL-SC), and step 7 files taxidermy specimens in F6. *"A mount of one animal prepared as in life is F6, however it is presented; a work that combines animal parts with other materials into a composition is F2 (found and mixed)."* F6 needs the same sentence (F6-8). (b) Metal wall art and canvas prints (Kunstlager): pictures on a hung surface, F2, not B4. (c) Devotional images and photographs: see X3 and X4. (d) Antique map sheets: see F1-10(b).
+
+### F3 Coins, Stamps, Medals & Trading Cards
+
+**F3-1 (medium) The arcade token is in the tree and out of it.**
+- *Evidence.* Leaf "Tokens for a service" lists "Arcade and game-machine token (S1; see section 9 for E1)". Section 9 (E1) says "casino and poker chips and tokens made for a game or gambling machine are E1".
+- *Fix.* Delete the kind. A token made to be used up in one coin-operated game is that game's consumable and goes to E1 under S3. Numista's arcade-token node (S1) stays an alias row pointing to E1.
+
+**F3-2 (medium) Stamp kinds mix issue class and postal service.**
+- *Evidence.* The adhesive-stamp kinds are definitive, commemorative, special-issue, airmail and postage-due. The first three are issue classes (S7, S9, S10); airmail and postage due are services (S9 groups them). "Special stamp" (特殊切手, 特种邮票) is a Japanese and Chinese class that overlaps "commemorative" in other postal systems (S7, S9).
+- *Objects that would split.* A commemorative airmail stamp; a Christmas stamp (US "special", UK "special", Japan "greeting"); a Chinese T-series stamp (special or commemorative); an official or semi-postal stamp (not placed).
+- *Fix.* Two kinds by issue class: "definitive stamp" and "commemorative or special-issue stamp", with `issue_class` (commemorative, special, greeting) as an attribute in the issuer's own terms. `postal_service` (ordinary, airmail, postage due, official, semi-postal, express) becomes an attribute. Keep the stamp units (miniature sheet, booklet), stationery, covers and revenue stamps as the memo has them.
+
+**F3-3 (medium) Trophy kinds include a material.**
+- *Evidence.* The trophy kinds are cup, shield, plaque, figure or sculpture trophy, "crystal or acrylic award" and silverware bowl, tankard or salver (S17, S18). Crystal and acrylic are materials; the same retailers sell crystal cups and acrylic plaques.
+- *Objects that would split.* A crystal cup; an acrylic plaque; a glass star award (crystal or figure).
+- *Fix.* Kinds by form: cup trophy; shield; plaque; upright award (column, figure, star, block or obelisk on a base); bowl, tankard or salver; rosette or ribbon (S31 names award ribbons). `material` (metal, crystal, glass, acrylic, resin, wood) is an attribute. Championship belts and rings wait for the owner (framework conflict list).
+
+**F3-4 (medium) The bullion-or-coin rule tests the market.**
+- *Evidence.* Owner question 4 proposes "a coin struck to be priced by its metal weight ... is Bullion; a proof, commemorative or collector coin sold on its design and grade is Coins". How a coin is priced is the seller's market, which S5 and Appendix A (motive: investment) keep out of placement. The memo itself shows the same design in both worlds (Panda: S9; Britannia: S5).
+- *Fix.* Test the issue: *"A coin struck in a mint's bullion programme, in the standard bullion finish, is a bullion coin; the same design struck as proof, reverse proof or another collector finish, or issued in a mint's presentation packaging, is a collector coin; a worn circulation coin sold for its silver content is a standard circulation coin with a `metal_content` attribute."* Finish and packaging are properties of the issue that the mint states.
+
+**F3-5 (medium) Parts sit in a leaf of the medal sub-family and in boundary text.**
+- *Evidence.* "Parts: Medal bar or ribbon bar" is a leaf in Medals & decorations, whose leaf axis is purpose. Capsules, slabs, toploaders and cases for one object are named only in section 9.
+- *Fix.* Add "F3.10 Parts and accessories made for one coin, note, stamp, medal or card" (C5(d), review C's K7): coin capsule, grading slab, card toploader and sleeve, stamp mount, medal case, medal ribbon, ribbon bar. Albums, binders, stock books and trays stay B1, as the memo says (and see X5).
+
+**F3-6 (medium) Card product lines and sealed product.**
+- *Evidence.* Named forms under "Box" are "product lines such as EPOCH and BBM ... Topps Flagship, Panini Select"; one line spans base cards, inserts, packs and boxes, which are different kinds here. The kinds "sealed pack" and "box" and the forms Topps Flagship and Panini Select rest on a search excerpt of DICK'S, whose fetch returned only the footer (TSV row 13); "Complete set" rests on an excerpt only. Parallels, refractors and numbered cards are "attributes" in section 7.
+- *Fix.* (a) Card product lines are C1 line rows under their maker (Topps, Panini, BBM, EPOCH), not named forms (review C's K4). (b) Mirror review E's fix for game cards: one kind "sealed card product" with `product_form` (pack, box, blaster, hanger, case) as an attribute, beside the single-card kinds. (c) Parallels, refractors and serial-numbered cards are C3 variants of a card (`variant_type` print or limited edition), filled only if the owner wants sports-card depth. (d) Hold "complete set" and the US product names until a card retailer page is fetched; add a second region (UK or US hobby shop) for the sealed-product kinds.
+
+**F3-7 (low) Rolls and bags are quantities.**
+- *Evidence.* "Coin roll or bag" is a kind (S3); for stamps the memo makes single, strip, block and sheet an attribute.
+- *Fix.* A roll or bag of like coins is filed as that coin with `unit` (roll, bag) as an attribute (review C's K6: a set of like items is filed as the item). Mint-issued proof and mint sets stay a kind, as an owner-approved K6 exception, because the mint issues the set as one product (S3, S6).
+
+**F3-8 (low) Unattested and thin kinds.**
+- *Evidence.* "Chain of office" and "gavel" are "framework only"; the regalia sub-family has three kinds and one source (S30). Review A asks where a crown that is regalia goes (A3/F3/E1).
+- *Fix.* Fold regalia into Medals & decorations as a leaf "Insignia of office" (mace, chain or badge of office, sceptre, crown of office), and hold chain and gavel until attested. Add the review A sentence: *"A crown that is regalia of an office is F3; a crown or tiara worn as an ornament is A3; a toy crown is E1."*
+
+**F3-9 (low) Grade has nowhere to live, and the order of wear is national.**
+- *Evidence.* Section 5 puts grade fields "in the user's holding record"; the taxonomy has no holding table. Section 8 orders medals by the British order of wear (S20), one country's scheme.
+- *Fix.* Record each grading scale once in the shared registry of X9 and link it to the kinds it grades; grade values belong to an inventory outside this taxonomy. Order medal kinds by a generic purpose ladder (honour, gallantry, campaign, long service and good conduct, commemorative, award, membership) and give each country's order of wear as a generated view.
+
+**F3-10 (low) Maker ledger roles and issuers.**
+- *Fix.* C1 core columns with maker_class values `mint`, `refiner`, `banknote and security printer`, `medallist or engraver`, `card manufacturer`, `awards maker` (X7). Issuing authorities (states, central banks, postal administrations) go in a separate issuer table shared with F5, linked to the region modifier; they are not makers. Refiner accreditation (LBMA Good Delivery) is the C1 extension `certifications`, not a tier; the LBMA statement is excerpt-only and needs a fetched page.
+
+### F4 Religious & Ceremonial Objects
+
+**F4-1 (high) Generic and tradition-named kinds sit side by side (C11).**
+- *Evidence.* The memo keeps "tradition-bound kinds ... as kinds because they are generic types in their own tradition". C11 (which refines C2(c)) says a regional or traditional name is a kind only when no generic kind already covers the form; where one exists, the regional name is a named form under it, tagged with the region. The memo's own evidence names the generic kinds: section 3.0 point 3 says "Prayer beads are the rosary, tasbih, mala and juzu", "the incense burner is the censer, the koro and the UNSPSC commodity", "the household shrine is the butsudan, the kamidana and the home temple", "the ritual bell is the altar bell, the ghanta, the singing bowl and the rin"; section 8 lists "generic kind (household altar, prayer beads, incense burner)" first in each leaf. Yet the tree has:
+  - leaf "Prayer beads" with kinds rosary, tasbih, mala, juzu and no "prayer beads" kind;
+  - "household altar", "butsudan" and "kamidana" as sibling kinds;
+  - "incense burner", "censer" and "koro" as sibling kinds;
+  - "altar bell", "rin" and "singing bowl" as sibling kinds (rin and singing bowl are both standing bowl bells);
+  - "Buddhist statue", "saint statue" and "deity idol" as kinds split by the figure, although section 4b says "The *figure* is a tag (iconography)";
+  - "thangka" (F4.1) and "devotional hanging scroll (kakejiku)" (F4.1) as two kinds of one form, a painted hanging scroll.
+- *Objects that would split.* A Catholic rosary or a generic 108-bead mala (prayer beads or mala); a Shinto soreisha altar (household altar or kamidana or a butsudan named form); a koro on a butsudan (koro or incense burner); a rin (rin, altar bell or singing bowl); a Ganesha brass idol (deity idol or Buddhist statue); a Japanese Buddhist kakejiku of Amida (thangka-type or kakejiku).
+- *Fix.* Kinds by generic form, regional names as named forms with a required tradition tag:
+  - prayer beads (named forms: rosary, chaplet, tasbih or misbaha, mala, juzu; rudraksha and bodhi seed become `material` variants under C3, because a named form cannot carry named forms);
+  - household altar or shrine (named forms: butsudan, kamidana, soreisha, home mandir, home altar); butsudan styles (karaki, gold-leaf, modern, wall-hung) become a `style` attribute;
+  - incense burner (named forms: koro, joss-stick pot, dhoop stand) beside a separate kind "swung censer (thurible)", because a censer hung on chains to be swung is a different form (AAT; S25);
+  - standing bowl bell (named forms: rin, singing bowl), hand bell (named forms: altar bell, ghanta), slit drum (named form: mokugyo);
+  - devotional statue, with iconography and tradition as tags;
+  - devotional painting on panel (named form: icon) and devotional scroll painting (named forms: thangka, kakejiku, pata).
+- *Owner decision.* C2(c) allows a traditional type to be a kind when a fetched source sells it as its own category, and Hasegawa (S16) sells butsudan in nine classes. If the owner wants butsudan depth, record "butsudan" as a stated C2(c) exception with its styles as named forms; otherwise apply C11 as above.
+
+**F4-2 (medium) Leaf axes are not stated.**
+- *Evidence.* The leaf axis is "object family as museums and shops name it", which is a label, not an axis (C5(c)). F4.3 leaves mix vessels, implements, "scroll and law objects" (text-bearing) and "sacred sound" (function).
+- *Fix.* One stated leaf axis per sub-family: F4.1 by the form of the sacred focus (altar or shrine; flat image; three-dimensional image; relic and its container); F4.2 by how the aid is used (counted, knelt or stood on, turned or flown, held or sprinkled); F4.3 by how it is handled in the rite (vessel; hand implement; text-bearing object; sound-maker); F4.4 by what is lit, burned or set out (lamp and candle; incense and its burner; offering vessel and stand); F4.5 (deck; other tool); F4.6 (coffin; urn; marker; furnishing).
+
+**F4-3 (medium) Objects the key names, and the offerings leaf, have no kind.**
+- *Evidence.* Step 14 names "menorah, diya, Advent wreath, home nativity set"; the tree has only "Hanukkah lamp". F4.4 is titled "Light, incense & offerings" but holds no offering object, although Hasegawa's fittings include flower vase, rice vessel, tea cup and offering stand (S16). Holy-water fonts are in F4.2 but holy-water bottles are not.
+- *Fix.* Add: oil lamp for worship (named form: diya); seven-branch menorah beside the Hanukkah lamp (nine-branch); home nativity set; Advent wreath; offering vessel (named forms: rice vessel, tea cup, flower vase for an altar); offering stand. Each needs an attestation row; S16 and S13 already attest several.
+
+**F4-4 (medium) Urn kinds by capacity.**
+- *Evidence.* Kinds include cremation urn (full size), keepsake urn and companion urn, which differ by how much they hold (S20). C6 makes size an attribute; the only proposed exception is luggage size (owner question A4-2). Scattering urn and urn vault differ by form and use.
+- *Fix.* One kind "cremation urn" with `capacity_class` (full, companion, keepsake, miniature) as an attribute, plus "scattering urn" and "urn vault". If the owner keeps keepsake and companion urns as kinds, list them beside luggage as stated C6 exceptions.
+
+**F4-5 (medium) Tier labels on specs, materials and classifications.**
+- *Evidence.* The coffin line says "named forms by wood and steel gauge are tier attributes"; section 5 calls gauge "spec-ranked" and wood a "material ladder", the kosher scroll grade "consensus-ranked" from one vendor (aJudaica, S32), and relic class "consensus-ranked" from one vendor page (S31).
+- *Fix.* Steel gauge is an attribute with its standard named (C4(b)); wood is `material`. Relic class (first, second, third) is a classification attribute, not a quality tier. The kosher grade (basic, upgraded, mehudar) may enter only as C4 tier entries on the scroll kind's named forms with a second, independent source (C4(e)); until then it is held. Owner question 7 then reduces to the kosher grade.
+
+**F4-6 (medium) Divination decks and boards against games.**
+- *Evidence.* F4.5 holds tarot, oracle and Lenormand decks. Review E proposes that a tarot pack sold for card play (tarock, French tarot) is E1. A spirit board (Ouija) is sold as a board game by a toy maker but used for divination; step 14's note says card and board games are E1. Pendulums, runes and I Ching sets are not placed.
+- *Fix.* Precedence: *"A deck, board or set made for divination (tarot, oracle, Lenormand, spirit board, runes, I Ching coins) is F4; a pack made for a card game (tarock, French tarot) is E1."* Add the kinds with attestation. Owner decision for the spirit board.
+
+**F4-7 (low) Evidence.**
+- *Evidence.* The key table names S34 "Dafocheng Buddhist shop, Taiwan" and S35 "Kumgang Buddhist goods, Korea", but the TSV rows are hybuddhamall.com and kkbk.shop. The memo says both "carry no claims", while "butter-lamp holder [S34]" is a kind and section 3.0 cites S34 (the TSV row does show butter-lamp holders on the front page). The Bidspirit category list is excerpt-only. The three tier ladders each rest on one vendor (S31, S32, S33). There is no Orthodox, Chinese, Korean, Sikh or Taoist source (section 10).
+- *Fix.* Correct the key names, say that S34 attests names only, and fetch an Orthodox church-goods shop and a Chinese or Korean temple-goods tree before the named forms are loaded.
+
+**F4-8 (low) Maker ledger.**
+- *Fix.* No ledger at start is reasonable. If one is wanted, use C1 core columns: Judaica silversmiths and designers as `artisan or atelier`, church-candle makers as `house or manufacture`, and tarot publishers in the shared publisher class with F1 (Lo Scarabeo, Llewellyn, US Games; X7). "Church-candle and urn makers can be a plain column on named forms" should be dropped: a maker named anywhere is a ledger row (C1).
+
+**F4-9 (low) Boundaries other reviews have asked about.**
+- *Fix.* Give the F4 side of: prayer-bead necklaces and malas (review A, question A3-6: F4 if made as prayer beads with a counter or tassel, A3 if made as a necklace); singing bowls (review E: E3 unless made for a rite); bon lanterns and stone tōrō (review B: F4 when made for an altar or grave, B4 as garden lanterns); religious medals (X1).
+
+### F5 Documents & Personal Records
+
+**F5-1 (medium) The album leaf is mostly empty storage.**
+- *Evidence.* Section 4b says compiled records (albums) are "the one place where buyers compare products, so kinds go one level deeper", by page mechanism (S1 to S5). Those products are bought empty. S3 says storage that holds several objects is never a part and is B1; the F3 memo sends coin, stamp and card albums to B1; the step 19 note sends blank scrapbook albums to C4. P6 files an empty photo album in F5 "because S5 tests the object and step 19 names photo albums".
+- *Objects that would split.* An empty Hakuba pocket album (F5 by P6, B1 by S3); a stamp stock book (B1 by F3); an empty scrapbook album (C4); a filled family album (F5).
+- *Fix.* See X5. Recommended: an empty album, binder or box made to hold several photographs, stamps, coins or cards is B1, with `mechanism` (slip-in, ring-binder, post-bound, stick-in, accordion, box) as an attribute there; a filled photo album or scrapbook is F5 ("photo album" and "scrapbook" as kinds, mechanism as attribute); a blank scrapbook album stays C4 by the key. Owner decision O1.
+
+**F5-2 (medium) Named forms that are tags, attributes or platforms.**
+- *Evidence.* The national identity card has named forms "Jumindeungrokjeung (KR), Nafnskírteini (IS), CURP card (MX), Carteira Nacional de Identificação (BR)", while section 4 recommends holding national designs "as region tags on the kind". These are one generic document issued by different states, not regional forms (C11 does not apply). Telephone-card named forms are "optical phonecard (Landis & Gyr), chip phonecard (GPT)": a technology (C10). Gift-card named forms "closed-system, semi-closed" are classes of acceptance. Transit-card named forms (Suica, Octopus, EZ-Link) are card systems; section 6 proposes a "card systems" ledger.
+- *Fix.* National designs: `issuer` (the issuing state) on the kind, region view (answers O8). Optical, chip and magnetic: `technology` attribute. Closed and semi-closed: `acceptance` attribute. Card systems: C13 compatibility rows (`platform_id` Suica, `owner` JR East, `standard_ref` FeliCa where fetched, `kinds_served` transit farecard), and the named form points to the row. ICAO passport codes stay named forms (`maker_bound: no`).
+
+**F5-3 (medium) Two leaf axes use modifiers.**
+- *Evidence.* F5.3e "Kept printed souvenirs" has the axis "the occasion it came from, by form of paper"; occasion is an Appendix A modifier. F5.3a "Written & drawn records" has the axis "made by hand or typed by the owner's circle", which is who made it.
+- *Fix.* F5.3a axis: "a record written, typed or drawn on paper, by its form (letter, diary or journal, written-in card, filled notebook, plan)". F5.3e axis: "printed paper kept after use, by its form (ticket, programme, picture postcard, autograph page, other ephemera)".
+
+**F5-4 (medium) Attestation is thin.**
+- *Evidence.* Eight kinds are "[fw]" only: identity badge, access badge, membership card, key card, filled notebook, house plans, home film reel, home audio recording. Most document and card kinds rest on Wikipedia pages (S16 to S24). There is no Asian source for documents (only Hakuba for albums), so registration documents common there (family register extracts, seal-registration certificates) are untested.
+- *Fix.* Hold the "[fw]" kinds until a fetched page names them (S6). Fetch one Japanese or Korean source on personal documents and one archival or ephemera dealer tree outside the US.
+
+**F5-5 (medium) Ephemera beyond the key has no home, and one item clashes with F3.**
+- *Evidence.* O2 lists menus, trade cards, business cards, receipts, timetables, bookmarks, labels, broadsides and bookplates (S11, S12, S24); the Ephemera Society also lists wedding invitations. The Victorian advertising trade card is a "card" that F3's "non-game trading cards" could claim.
+- *Fix.* Answer O2 with one kind group: "kept printed ephemera" kinds by form (menu, invitation or announcement, advertising trade card, business card, receipt or billhead, label, bookplate), as F5.3e members; and the precedence *"An advertising or trade card issued by a business is F5; a card issued in a numbered series to be collected is F3."*
+
+**F5-6 (low) Makers and issuers.**
+- *Evidence.* Album brands are "ordinary tags on named forms (maker, price band, country)"; issuers are a field.
+- *Fix.* A maker-bound named form needs a C1 maker row: album makers (Hakuba, Walther, Goldbuch, Gaylord) go in the shared ledger as `house or manufacture`. Issuers go in the issuer table shared with F3 (F3-10, X7).
+
+### F6 Natural History & Specimens
+
+**F6-1 (high) Minerals and unset gems share species, and the line between them is an attribute.**
+- *Evidence.* F6.1 has amethyst, garnet (named forms tsavorite, demantoid, spessartine), tourmaline and opal as kinds; F6.5 has sapphire, ruby, emerald and spinel. GemSelect sells garnet, tourmaline and topaz as gem species (S16), N's Mineral sells tsavorite under garnet (S7), and Gem Rock Auctions keeps "Rough Raw Gemstones" apart from "Mineral Specimens" of the same species (S18). Section 2 says the gem sub-family exists "because the material species cut across the other sub-families (corundum is a mineral specimen and also ruby and sapphire)". The memo never states the test, and its candidate A lists presentation ("specimen, geode, polished, tumbled, sphere, slab") as an attribute, which is the only thing that separates the two homes. Owner question 4 gives part of it (rough by weight for cutting goes to gems).
+- *Objects that would split.* A faceted amethyst (F6.1 amethyst or F6.5); a garnet cabochon; a ruby crystal in marble matrix (F6.1 corundum or F6.5 ruby); facet-grade tourmaline rough; a tumbled garnet.
+- *Fix.* Precedence: *"A loose stone that is faceted or cut en cabochon, or rough sold as cutting material by weight, is F6.5; every other piece (crystal, cluster, specimen on matrix, geode, tumbled stone, slab, sphere, egg) is F6.1 under its species, even when the species is a gem."* F6.5 kinds then exist for every gem species sold cut, including amethyst, garnet, tourmaline and topaz, and each pair of kinds shares one `species_id` and one alias row (C9), so the same species is two kinds by an object test, not by a seller's channel.
+
+**F6-2 (medium) Pearl kinds fuse origin and region.**
+- *Evidence.* The pearl kinds are "Akoya cultured pearl (to verify)", "South Sea cultured pearl" and "Tahitian cultured pearl". "Cultured" is the Appendix A origin modifier, which the step 7 note says does not decide placement; South Sea and Tahitian are trade names tied to a region and a species of oyster (S14). Freshwater pearls, which A3 and C4 meet as beads, have no kind.
+- *Fix.* Kinds "saltwater pearl" and "freshwater pearl" (the mollusc's habitat changes the pearl's structure and the GIA factors it is judged by; S14 gives the factors), with `origin` (natural, cultured) as an attribute. Akoya, South Sea, Tahitian, keshi and Kasumiga are non-maker named forms with region tags (C11), each attested before entry.
+
+**F6-3 (medium) Unverified items are in the tree.**
+- *Evidence.* "Akoya cultured pearl" (search excerpt only), the Megalodon, Otodus and mako named forms (search excerpt only), "Herbarium sheet (named by step 7; no fetched seller page)", rose quartz ("to attest") and the placement of quartz under Strunz oxides ("to verify"), which decides where about a dozen quartz-family kinds sit.
+- *Fix.* Hold these until a page is fetched (S6). The quartz placement is cheap to settle (one Mindat or IMA page) and should be done before the mineral leaves are loaded, because two builders file a mineral kind the same way only if each kind carries its Strunz code (see the usability test below).
+
+**F6-4 (medium) Some biological specimens have no home.**
+- *Evidence.* F6.7 leaves are mount, skeletal, pinned and dried, pressed and encased. Fluid-preserved ("wet") specimens, bird eggs and nests, loose feathers kept as specimens, antlers and horns, and shark jaws are not placed. Coral skeletons are named only in the leaf "echinoderm and coral" of F6.6 Shells.
+- *Fix.* Add the leaf "Fluid-preserved" (wet specimen in jar), and kinds "egg or nest specimen", "antler or horn", "fish jaw or tooth set" under Skeletal, each with the CITES `legal_status` flag (S34). Rename F6.6 "Shells and other marine hard parts", with corals and echinoderm tests as kinds.
+
+**F6-5 (low) Study sets as a sub-family.**
+- *Evidence.* F6.9 "Study sets and lots" sits outside the level-1 axis; C5(d) exempts only the parts sub-family.
+- *Fix.* Apply review C's K6: a set of like specimens is filed as that specimen; a teaching set of unlike specimens is an owner-approved kit kind ("rock and mineral teaching set", beside the C6 science kit) placed under F6.2 Rocks, or filed by its item of greatest value. F6.9 is then removed. Keep F6.10 as the parts sub-family (C5(d)), which is the model for F1 and F3.
+
+**F6-6 (low) The variety rule is good and should be shared.**
+- *Evidence.* Section 4b: "a variety is a kind when fetched sellers in at least two regions give it a category of its own" (amethyst passes; Herkimer diamond stays a named form).
+- *Fix.* Offer it domain-wide as the tie-break for C2(a) where kinds and named forms are both plausible (X12).
+
+**F6-7 (low) Small naming points.**
+- *Fix.* "Diamond" against "Fancy-colour diamond" can stay two kinds only because GIA grades them on separate reports and scales (S15); say so, or make colour an attribute. "Dinosaur tooth and bone" joins two parts; split it or call it "dinosaur fossil" with `part` as an attribute. The bulk-shell test ("identified specimen" against "bulk by weight") is a test of how the shells are sold; restate it as the object test "a single shell with its species identified" against "an unsorted assortment".
+
+**F6-8 (low) Boundaries that need the other side's sentence.**
+- *Fix.* Taxidermy presented as art (F2-9(a)); carved stone and polished objects (the memo's F2 and B4 sentence, which F2 should repeat); replicas of fossils and skulls (owner question 7: F2 if made as a sculpture, E1 if made as a toy or model kit, by review E's model rules).
+
+### Usability test: 20 objects per memo, filed by two builders from the memo as written
+
+"Splits" means two builders reading the memo could file the object in different places, or that it has no home. The finding that fixes each split is in brackets.
+
+| Memo | The 20 objects | Splits or no home as written | After the fixes |
+|---|---|---|---|
+| F1 | Penguin Classics paperback; US mass-market paperback; Folio Society hardback; Shueisha Jump Comics volume; manga bunko; Absolute Sandman; Dark Horse softcover omnibus; Tintin album; Reader's Digest; bound National Geographic volume; Bärenreiter study score; Real Book (fake book); folded walking map; A–Z street atlas; 12-inch celestial desktop globe; 45 rpm audiophile 2LP; 10-inch shellac 78; SACD; Criterion Blu-ray; Playaway player | 10: Jump Comics volume and manga bunko (F1-2); Dark Horse omnibus and Tintin album (F1-2); celestial globe and street atlas (F1-3); 45 rpm LP and 10-inch 78 (F1-1); fake book (F1-8, unattested); bound volume (F1-8); Playaway (F1-10) | all 20 single, once the owner rules on Playaway and the bound volume |
+| F2 | oil on canvas; acrylic; watercolour; gouache; sumi-e; nihonga; charcoal; pastel; original comic page; etching; mezzotint; modern ukiyo-e woodblock reprint; Mucha poster; screenprinted gig poster; inkjet reproduction of a painting; gelatin silver print; Polaroid; bronze; Lladró figurine; Swarovski crystal figure; resin figure; netsuke; thangka; mixed media on paper | 8: pastel (owner question 3); comic page (F2-3); Mucha poster and gig poster (F2-2); Swarovski and resin figures (F2-1); thangka (X4); mixed media on paper (F2-3) | all single once the owner rules on pastel and on posters |
+| F3 | Morgan dollar; Tokyo 1964 1,000-yen silver; Panda 1 oz gold in bullion finish; Panda proof; US proof set; roll of 2-euro coins; Notgeld note; zero-euro souvenir note; Machin definitive; Christmas stamp; commemorative airmail stamp; first-day cover; Victoria Cross; marathon finisher's medal; crystal cup award; Topps hobby box; Panini sticker; arcade token; used phonecard; championship ring | 9: Panda bullion and proof (F3-4); 2-euro roll (F3-7); Christmas stamp and airmail commemorative (F3-2); crystal cup (F3-3); hobby box (F3-6); Panini sticker (no home: F3, E1 or C5 "stickers"); arcade token (F3-1); phonecard (X2); championship ring (framework conflict) | 17 single; the sticker, the ring and the phonecard need owner rulings |
+| F4 | rosary; misbaha; rudraksha mala; juzu; karaki butsudan; kamidana; home mandir; St Nicholas icon; thangka; kakejiku; Ganesha brass idol; Hanukkah lamp; seven-branch menorah; diya; koro; thurible; rin; singing bowl; keepsake urn; spirit board | 16: rosary, misbaha, mala, juzu (no generic kind, F4-1); butsudan, kamidana, home mandir (F4-1); thangka and kakejiku (F4-1); Ganesha idol (figure split, F4-1); seven-branch menorah and diya (F4-3); koro and rin (F4-1); singing bowl (E3 boundary); keepsake urn (F4-4); spirit board (F4-6) | all single after F4-1, F4-3 and the owner's rulings on singing bowls and spirit boards |
+| F5 | passport; diplomatic passport; Korean resident registration card; driving licence; birth certificate; house deed; share certificate; diploma; staff badge that opens doors; Visa debit card; Starbucks gift card; used phonecard; Suica card; gym membership card; hotel key card; letter; cabinet card of strangers; Super 8 home film; empty pocket album; Victorian trade card | 5: Korean card (named form or tag, F5-2); used phonecard (F3 or F5, X2); cabinet card of strangers (owner question O3, X3); empty album (F5-1, X5); trade card (F5-5) | all single once X2, X3 and X5 are ruled |
+| F6 | memo's own 20 (section 3), plus: faceted amethyst; ruby crystal in matrix; tourmaline rough; freshwater pearl; Akoya pearl; wet snake specimen; bird egg; coral skeleton; deer antler; Libyan desert glass | the memo's 20 are single (two wait for attestation: rose quartz and Megalodon); of the 10 added, 8 split or have no home: faceted amethyst, ruby in matrix, tourmaline rough (F6-1); freshwater and Akoya pearls (F6-2); wet specimen, egg, antler (F6-4) | all single after F6-1, F6-2 and F6-4; Libyan desert glass and the coral skeleton already fit (tektites and impact glass; F6.6) |
+
