@@ -1,45 +1,73 @@
 # Stage 1 review — top-level categories
 
-For owner review. The current framework is `framework/CATEGORIES_v0_3.md`. It holds 44 categories in 9 domains and an empty holding bin, with a 32-step placement key, shared rules S1 to S6, and a modifier appendix.
+For owner review. The current framework is `framework/CATEGORIES_v0_6.md`. It holds 53 categories in 10 domains and an empty holding bin, with a 33-step placement key, shared rules S1 to S6, and a modifier appendix.
 
 ## Categories
 
 | Domain | Categories |
 |---|---|
 | A Worn & Carried | A1 Clothing · A2 Footwear · A3 Jewellery · A4 Bags & Accessories · A5 Clocks & Watches |
-| B Home | B1 Furniture & Storage · B2 Soft Furnishings · B3 Lighting · B4 Decor · B5 Kitchen & Dining · B6 Cleaning & Laundry · B7 Climate, Water & Energy · B8 Home Safety & Security · B9 Cellar & Smoking · B10 Animal Equipment |
+| B Home | B1 Furniture & Storage · B2 Soft Furnishings · B3 Lighting · B4 Decor · B5 Kitchen & Dining · B6 Cleaning & Laundry · B7 Climate, Water & Energy · B8 Home Safety & Security · B9 Smoking & Vaping · B10 Animal Equipment |
 | C Making, Growing & Work | C1 Tools & Workshop Equipment · C2 Garden & Grounds · C3 Plants & Living Cultures · C4 Craft & Art Supplies · C5 Office & Stationery · C6 Optical & Scientific Instruments · C7 Farm & Forestry Equipment · C8 Building Materials & Hardware |
 | D Electronics | D1 Computers & Components · D2 Phones, Tablets & Personal Devices · D3 Audio & Video · D4 Cameras & Photography · D5 Video Games |
 | E Play, Sport & Music | E1 Toys & Games · E2 Sports, Fitness & Recreation · E3 Musical Instruments & Music Gear · E4 Weapons & Armour |
 | F Culture, Records & Meaning | F1 Media & Publications · F2 Art · F3 Coins, Stamps, Medals & Trading Cards · F4 Religious & Ceremonial Objects · F5 Documents & Personal Records · F6 Natural History & Specimens |
 | G Vehicles & Property | G1 Vehicles · G2 Property & Structures |
 | H Body | H1 Personal Care & Beauty · H2 Health, Medical & Mobility · H3 Adult Objects |
-| I Digital | I1 Digital Goods |
+| I Software, Digital & Subscriptions | I1 Software · I2 Digital Media & Items · I3 Subscriptions, Memberships & Online Services |
+| J Groceries & Cellar | J1 Meat & Poultry · J2 Fish & Seafood · J3 Dairy, Eggs & Alternatives · J4 Fruit & Vegetables · J5 Pantry Staples · J6 Coffee, Tea & Cocoa · J7 Wine, Beer & Spirits |
 
 ## How it was built and tested
 
-The categories were built outside-in from 30 existing classifications, 4,007 category nodes in all. Those sources include:
-- Google, Shopify and GS1;
-- Getty AAT and Nomenclature 4.0;
-- COICOP, UNSPSC, HS and the US Consumer Price Index;
-- eleven marketplaces;
-- auction houses and resale apps;
-- insurance and estate inventories.
+The categories were built outside-in from 30 existing classifications, 4,007 category nodes in all. Grocery structure and grading came from a further harvest:
+- Google and COICOP food branches;
+- Waitrose, Whole Foods, Eataly, NTUC FairPrice and AEON;
+- 29 grading schemes, among them USDA and JMGA beef grades, ISO 3632 saffron categories, SCA coffee scores, tea leaf grades, olive-oil grades, and wine and spirits appellations.
 
-Each version was then tested blind and audited cold.
+Each version was then tested blind by three independent placers and audited cold.
 
-| Version | Blind placement (3 independent placers) | Source crosswalk | Cold audit |
-|---|---|---|---|
-| v0 (37 categories) | 300 items: 96.0 % unanimous, κ 0.972 | 95.1 % of 3,848 in-scope nodes homed; 2.5 % no home, 2.4 % two homes | 35 findings |
-| v0.1 (44) | 438 items: 98.4 % unanimous, κ 0.988; 138 fresh items 96.4 % | 160 of 190 problem nodes resolved; estimated 4.0 % no home or two homes | 55 findings |
-| v0.2 (44) | 698 items, including 260 hard cases drawn from both audits: 97.4 % unanimous, κ 0.982, no three-way splits; 438 probes 98.4 %, 260 hard cases 95.8 % | not re-run | — |
-| v0.3 (44) | adds one sentence for each of the 18 items round 3 left non-unanimous; **not re-tested** | — | — |
+| Version | Blind placement | Other checks |
+|---|---|---|
+| v0 (37 categories) | 300 items: 96.0 % unanimous, κ 0.972 | 95.1 % of 3,848 outside nodes homed; audit 1 raised 35 findings |
+| v0.1 (44) | 438 items: 98.4 %, κ 0.988 | crosswalk problems 4.9 % down to about 4.0 %; audit 2 raised 55 findings |
+| v0.2 (44) | 698 items incl. 260 audit hard cases: 97.4 %, κ 0.982 | — |
+| v0.4 (53, with domains I and J) | 857 items incl. 159 new grocery, software, media and subscription items: 99.1 %, κ 0.994; new items 100 % | audit 3 raised 25 findings on the new scope |
+| v0.5 (53) | 953 items incl. 96 hard cases from audit 3: 99.0 %, κ 0.993, no splits | majority home matched the intended home on 94 of 96 hard cases |
+| v0.6 (53) | adds one sentence for each item round 5 left in doubt; **not re-tested** | — |
 
-## Decisions made without you, which you can reverse
+## Scope, as decided with the owner
 
-- **The top axis is designed function**, after a short status filter covering out of scope, health, property, data, living things, natural specimens and parts. Material, power source, setting, installation, market, user, occasion, connectivity, brand, tier, scene, era and motive are all modifiers.
-- **Baby and child goods have no category of their own.** The user's age is a modifier, so a cot is Furniture, a pram is a Vehicle and a pacifier is Personal Care. Retailers do group baby goods, and that grouping could become a generated view.
-- **Protective gear goes by form.** Work protective equipment and motorcycle and cycling helmets are Clothing. Gear made for one sport is Sports. Armour against weapons is Weapons.
-- **Building products are filed by what they are, installed or not.** Property holds land and whole buildings only.
-- **Rights and financial instruments are out.** That covers tickets, timeshares, shares and cryptocurrency holdings. Their paper or card tokens are Documents. Physical cash is in, under Coins.
-- **Human remains are out.** Urns and coffins are Religious & Ceremonial.
+**In:**
+- Every kind of physical object a person owns, including plants.
+- Groceries as graded ingredients.
+- Alcoholic drinks in sealed containers.
+- Tobacco, nicotine and cannabis products.
+- Pet food and feed.
+- Supplements.
+- Software of every type.
+- Digital media and items.
+- Paid subscriptions and memberships.
+- Online utility services, free or paid.
+- Physical money as objects.
+- Physical cards and kept tickets.
+
+**Out:**
+- Animals.
+- Prepared foods and drinks, which the Culinary taxonomy covers.
+- Content genres and the internet as entertainment, which other taxonomies cover.
+- Services, one-off or recurring.
+- Single-event tickets.
+- Balances, stored value, in-game currencies and cryptocurrency.
+- Rights and financial instruments.
+- Human remains.
+- Changes to the body.
+
+## Calls made without you, which you can reverse
+
+- **Phone and broadband plans are in, as connectivity**, in I3. Home energy and water supply are out, as services.
+- **Recurring personal services are out, like one-off services.** That covers a cleaner on contract and weekly lessons.
+- **Commuter season tickets are in, with other passes**, in I3.
+- **Vitamins, supplements and sports nutrition are in, under Health.** The alternative was the grocery domain.
+- **Products are filed by what they are, not what they contain.** Fish sauce and lard are pantry staples; butter and ghee are dairy.
+- **Hampers are filed by their most valuable item.**
+- **Baby and child goods go to their functional homes.**

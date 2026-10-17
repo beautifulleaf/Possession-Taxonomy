@@ -1,4 +1,4 @@
-# Possession Taxonomy — Top-Level Categories v0.3
+# Possession Taxonomy — Top-Level Categories v0.5
 
 *Stage 1 result for owner review (session 1, 2026-10-17). v0.2 was tested in blind placement round 3 (698 items, 97.4 % unanimous, κ 0.982); v0.3 adds one precedence sentence for each of the 18 items that round left non-unanimous, and has not been re-tested (see STATUS.md). Only the top level is fixed here. Each category's inner structure is researched separately in stage 2.*
 

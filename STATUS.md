@@ -70,7 +70,7 @@ Search cap: `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` = 100000. Test WebFetch (
 - Data: data/source_nodes.tsv (4,007 outside nodes from 30 classifications), data/probes.tsv (438 sourced probe items + 260 audit regression objects). Tools: tools/build_probes.py, build_nodes.py, score_blind.py, score_crosswalk.py.
 - Agents: 6 harvest, 4 probe collectors, 13 blind placers (one excluded), 6 crosswalk, 2 Opus cold auditors, 1 regression builder. Web use (agents' own counts plus mine): 88 searches and about 320 fetches; no cap notice.
 
-## OWNER QUEUE
+## OWNER QUEUE (superseded, see 'Owner queue (current)' below)
 1. **Approve, edit or reject the 44 categories** (framework/STAGE1_REVIEW.md). Stage 2 starts only after this.
 2. **Wine and spirits.** Kept in scope as B9 (your decision: wine cellars are in), now by object: every alcoholic drink in a sealed container that a person owns. AU2 suggests moving drink stock to the Culinary taxonomy and leaving B9 as Smoking & Vaping. Keep, or move?
 3. **Cannabis and nicotine products** are in B9 alongside tobacco. Confirm.
@@ -90,3 +90,27 @@ Owner approved the 44 categories "as of now" and raised no objection to queue it
 | 1 | Memo drafts (Opus writer per category, from research outputs only) | |
 | 2 | Cold review of each memo (Opus), revisions | |
 | 3 | Present memos and owner decisions | |
+
+## Session 1, continued — owner scope decisions and rounds 4–5
+Owner decisions (2026-10-17, BRIEF.md): groceries in as graded ingredients; software types in; media, games and subscriptions as objects and kinds of access, never by genre; subscriptions and streaming in; edge calls answered (pet food B10; supplements in; single tickets and one-off services out; crypto out, NFTs in; online services by utility vs entertainment, not price; overlapping foods link to Culinary; cannabis and nicotine with tobacco; baby goods distributed).
+
+| Step | Result |
+|---|---|
+| Grocery harvest G01 (Google and COICOP food branches, 5 grocers, 29 grading schemes) and probe sets PG1 (120 sourced grocery items) and PS1 (39 software, media and staple items) | done |
+| Framework v0.4: domain J Groceries & Cellar (J1–J7), domain I split into I1 Software, I2 Digital Media & Items, I3 Subscriptions & Memberships; B9 becomes Smoking & Vaping; boxed software moves to I1 | 53 categories |
+| Round 4 (857 items, 3 placers) | 99.1 % unanimous, κ 0.994; 159 new items 100 % unanimous |
+| Cold audit AU3 (Opus) on the new scope | 25 findings, 72 hard cases; 49 of 72 had more than one answer under v0.4 |
+| Framework v0.5: closed definition of prepared food; S1b notes jump directly; I3 limited to five kinds of access (catalogues, online utilities, connectivity, member places, curated deliveries) with a bundle rule; services one-off or recurring OUT; in-game currencies OUT; live shellfish in J2; frozen and dried produce, plant milks and meat alternatives homed; B9 by substance in any form; animal food B10 everywhere | |
+| Round 5 (953 items incl. 96 audit hard cases with intended homes) | 99.0 % unanimous, κ 0.993, no splits; 94 of 96 hard cases at their intended home (the two misses were the expectation: jarred pasta sauce is a sauce; a class card is a pass) |
+| Framework v0.6: one precedence sentence for each round-5 doubt (heated tables B1, soban B1, EV chargers and bike locks G1, cap tassels A1, piñatas E1, health tonics H2, mixtapes F1, pass cards I3, jarred pasta sauce J5); header history corrected (v0.4 and v0.5 files had kept the v0.3 header line) | not re-tested |
+
+## Owner queue (current)
+1. **Approve, edit or reject the 53 categories** (framework/STAGE1_REVIEW.md). Stage 2 starts after this.
+2. **Phone and broadband plans** are in (I3, connectivity); home energy and water supply are out as services. Confirm.
+3. **Recurring personal services** (a cleaner on contract, weekly lessons) are out like one-off services. Confirm.
+4. **Commuter season tickets** are in I3 with other passes. Confirm.
+5. **Vitamins, supplements and sports nutrition** sit under H2 Health. Keep there or move to groceries?
+6. **Stage-2 pilot pair:** Clothing and Computers & Components proposed. Confirm or choose others.
+
+## Next (session 2)
+Apply any edits from the owner queue, re-run one blind round if anything structural changes, then start stage 2: add the 'choice level' section to framework/STAGE2_MEMO_TEMPLATE.md (a kind stops at the level where buyers compare quality or makers; finer distinctions are named forms or attributes), and run the pilot memos.
