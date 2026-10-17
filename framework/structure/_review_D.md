@@ -357,3 +357,7 @@ C8 is written "for domain A". The D memos each name scenes without definition so
 - (g) E1 "coin-operated games" against D5 "arcade machine".
 - (h) The key's "divided by platform and carrier" (D5 line) against C13 (O-51).
 - (i) The SIM card under the step-1 note (O-27).
+
+## 6. Report
+
+D1, D2, D3 and D5 need minor fixes; D4 needs rework. All five keep four levels, use role as the sub-family axis, never divide by genre, and cite fetched pages, but D4's source keys do not follow its TSV rows. The main breaks are kinds built on modifiers or standards: regional radio services, rugged phones, the speaker leaf built on use and power, gaming headsets, TV display technology, maker-format instant cameras, one game carrier per platform, and pro or third-party controllers. D4's lens and film-camera kinds mix two axes. Across the memos, the tier ledgers treat spec ladders, measurements, maker ladders and price bands as tiers; I propose a six-class rule (X-3). I also propose one compatibility ledger with relations, a maker-relations table, no per-item condition data, a parts sub-family in every D category, and one S3 reading for phone accessories, cables, chargers and vehicle electronics. Sixty owner questions follow.
