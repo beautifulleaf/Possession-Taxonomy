@@ -30,3 +30,25 @@ Search cap: `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` = 100000. Test WebFetch (
 - 44 categories (was 37) in 9 domains plus an X0 holding bin. New: A5 Clocks & Watches, B3 Lighting, B6 Cleaning & Laundry, B7 Storage & Organisation, B8 Climate & Water, B9 Home Safety & Security, C6 Optical & Scientific Instruments, C7 Farm & Trade Equipment, F6 Natural History & Specimens. Renamed: B2 Soft Furnishings, B5 Kitchen & Dining (powered or not), B10 Cellar & Smoking, C1 Tools, Hardware & Materials, C3 Plants & Living Cultures, D2 Phones, Tablets & Personal Devices, D3 Audio & Video, D4 Cameras & Photography, E2 Sports, Fitness & Recreation, F3 Coins, Stamps, Medals & Collectibles. Each split is for a different designed function and a different inner structure, never for size.
 - Rights and financial instruments (tickets, timeshares, shares) are OUT; their paper tokens are F5. Physical cash is in (F3).
 - **Wine and spirits stay in scope (owner, BRIEF) but by object, not motive:** every bottled alcoholic drink and tobacco product owned is B10 stock; all other food and drink is OUT. The audit proposed dropping drink entirely as a motive test; that would change an owner decision, so it went to the owner queue instead.
+
+### Round 2 results (framework v0.1, audit/CATEGORIES_R2.md)
+| Test | Result |
+|---|---|
+| Blind placement BP2, all 438 items, 3 fresh Sonnet placers | 98.4 % unanimous, 99.8 % majority, Fleiss κ 0.988 |
+| Fresh items only (138, never placed before) | 96.4 % unanimous |
+| Round-1 items re-placed (300) | 99.3 % unanimous (was 96.0 %) |
+| Crosswalk regression CWR1–2 (190 round-1 problem nodes + 310 clean nodes) | 160 of 190 problem nodes resolved; 10 of 310 clean nodes newly ambiguous; estimated full-crosswalk NOHOME+AMBIG 4.0 % (was 4.9 %) |
+| Cold audit AU2 (fresh Opus) | 55 findings (verify/out/AU2.md); verdict "sound in shape, not yet in boundaries" |
+
+- Remaining splits: casino chips, Dictabelt, family Bible, computer microphone, tool bag, cigar box, barcode scanner. Remaining crosswalk NOHOMEs are empty catch-all buckets plus valves/regulators and wood pulp.
+- AU2's main points: several lead questions excluded their own examples under S1a (suitcases, tripods, game discs); bracketed notes had no stated force; S3's "one kind vs a class" was undecidable; steps 6, 21, 23 and 12 were too broad (firewood as a specimen, kitchen scales as instruments, footballs as games, wedding rings as rites); installation, market, setting, occasion, user and connectivity still decided some boundaries.
+
+### Decisions (framework v0.2)
+- Key mechanics: S1a branch order declared; S1b notes bind; lead questions of the worn/carried, body-care, electronics, play and tools steps rewritten to include their own examples.
+- S3 rewritten: only cases, bags, covers and stands for one object at a time are parts; furniture and storage, anything worn, building products and plant-growing goods are never parts; cleaning products always B6, fuels always C8.
+- Installation is no longer a boundary: G2 holds land and whole structures; building products are C8 installed or not; fitted cabinetry is B1; fitted carpets and blinds B2; sanitaryware and hot tubs B7.
+- Market and setting removed: commercial catering joins B5, point-of-sale D1, shop signs B4, shop fittings B1; camp furniture, stoves and lanterns go by function; C7 becomes Farm & Forestry and moves early in the key.
+- Merged B1 Furniture with B7 Storage (split only by size). Split C1 into C1 Tools & Workshop Equipment and C8 Building Materials & Hardware (different inner structures). Count stays 44 plus X0.
+- Narrowed: specimens (step 6) to objects kept as specimens; science (C6) to observation and study; play (E1) to play and table/board/card/dice games, sports to E2; religious (F4) to religious practice and the dead, occasion a modifier.
+- Figures: ornamental figurines F2; character and collectible figures E1; garden statues B4; models and kits E1 built or not; F3 narrowed to money, postage, awards and non-game trading cards.
+- Scope: digital licences are not rights (I1); living cultures are in; burial plots however held; access and payment cards F5; human remains OUT; alcohol in sealed containers and smoking products (tobacco, cannabis, nicotine) in B9.
