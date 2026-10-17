@@ -68,7 +68,7 @@ Search cap: `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` = 100000. Test WebFetch (
 ### Session 1 summary
 - Stage 1 delivered: framework/CATEGORIES_v0_3.md (44 categories in 9 domains, 32-step key, S1–S6, Appendix A modifiers) and framework/STAGE1_REVIEW.md (one-page review). Stage-2 memo template: framework/STAGE2_MEMO_TEMPLATE.md.
 - Data: data/source_nodes.tsv (4,007 outside nodes from 30 classifications), data/probes.tsv (438 sourced probe items + 260 audit regression objects). Tools: tools/build_probes.py, build_nodes.py, score_blind.py, score_crosswalk.py.
-- Agents: 6 harvest, 4 probe collectors, 13 blind placers (one excluded), 6 crosswalk, 2 Opus cold auditors, 1 regression builder. Web use: about 90 searches and 260 fetches; no cap notice.
+- Agents: 6 harvest, 4 probe collectors, 13 blind placers (one excluded), 6 crosswalk, 2 Opus cold auditors, 1 regression builder. Web use (agents' own counts plus mine): 88 searches and about 320 fetches; no cap notice.
 
 ## OWNER QUEUE
 1. **Approve, edit or reject the 44 categories** (framework/STAGE1_REVIEW.md). Stage 2 starts only after this.
