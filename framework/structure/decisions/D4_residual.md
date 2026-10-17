@@ -33,6 +33,8 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
   - (l) S3b vehicle electronics: add "guidance, auto-steer and monitor kits made for a tractor or farm machine follow it into C7" (K-6).
   - (m) B3 note (step 30): "Lamp cord sets are B3 and ceiling roses are C8" (B-18). B7 note: "Chimney and flue work is C8" (B7-O1). Step 32, C8 branch: "household batteries and chargers for them"; add ceiling roses, chimney and flue work, shower trays and enclosures, letter plates, regulatory and safety signs, gas cylinders and flints to the membership list.
   - (n) Step 5 note: replace "a free companion app is part of the device" with "a free companion app is I1 software and part of the device's C13 ecosystem row (R-14)".
+  - (o) Step 25 E1 branch: "tabletop and coin-operated games (pinball machines, claw cranes, redemption games and casino slot machines; coin-operated video cabinets are D5, step 24)" (K-155).
+  - (p) Step 24 D1 branch, "storage": add "(a memory card or drive in a format made only for one console follows it, S3b)" (D5-O1).
   - Further amendments raised by later S2U passes are appended here.
 - **R-17** J5 leaves: drinking bitters stay J7 (K-48), and bitters sold as a flavouring go to the condiments and sauces leaf. Mirin and cooking wines go to the vinegars and cooking-liquids leaf. Home-brewing ingredients (malt extract, hops, brewing yeast) go to the baking and fermenting-aids leaf. This adopts the S2U_J5 pass's own reading.
 - **R-18** CV-46 applies to food as well: a brand line spanning several kinds is a lines row; a line inside one kind is a maker-bound named form (C2(d)). This confirms the S2U_J5 treatment.
