@@ -445,15 +445,13 @@ Where the memos handle one concept in different ways, this section proposes one 
 - C7: years active, platform notes;
 - C8: line, with no scene or era.
 
-*Convention:* one table, `makers.tsv`, with these columns:
-- `maker_id`, `name`, `aliases`;
-- `regional_entities` (name, region, attested link to the parent, attested only, per C1 question 11);
-- `role` (manufacturer | brand | breeder or registrant | tannery or mill | retailer own brand | smith or workshop);
-- `known_for_kinds` (kind ids), `scene_tags`, `price_band`, `country`, `era_from`, `era_to`;
-- `register_ids` (for C3 originators: ICRA, orchid register);
-- `attestation_urls`.
+*Convention:* use the core schema that review A proposed for the whole taxonomy (its convention C1), so that domains A and C share one table. Its core columns are `maker_id`, `name`, `native_name`, `aliases`, `maker_class`, `country`, `place`, `founded`, `ended`, `status`, `parent_id`, `known_for_kinds`, `scene_tags`, `price_band` and `sources`. Domain C needs four additions:
+- `maker_class` gains the values breeder or registrant (C3), tannery or mill (C4) and smith or forge (C1 Japanese tools);
+- `parent_id` records a regional entity's link to its parent only when a fetched page attests it (C1 question 11: Ryobi, Kyocera, HiKOKI, Metabo HPT);
+- `register_ids` (C3 originators: ICRA, RHS orchid register) and `protection` (patent, PVP or breeders' right, with its term; C3);
+- no platform columns: platforms and compatibility go to K3.
 
-Tier lives on lines and named forms (K5), not on the maker, except where a source ranks makers as such (C6 alpha binocular makers, with `tier_source`). Platforms and compatibility go to K3. Every memo keeps its ledger scope (light in C8, originators only in C3) but uses these columns.
+Lines are a separate table (K4), and tiers are tier entries (K5). Every memo keeps its ledger scope (light in C8, originators only in C3) but uses these columns.
 
 **K3. One system (compatibility) ledger, shared across categories.** The same idea appears under five names:
 - C1: platform ledger and storage-system ledger;
