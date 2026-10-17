@@ -79,14 +79,155 @@ li.miss { display: none; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 </style>
 <header class="bar"><div class="bar-inner">
-<div class="brand">Possession Taxonomy<small>Stage 2 · owner review · 2026-10-17</small></div>
+<div class="brand">Possession Taxonomy<small>Stage 2 · decided and tested · 2026-10-17</small></div>
 <div class="tabs" role="tablist">
-<button type="button" id="tab-summary" role="tab" data-tab="summary" aria-selected="true">Summary</button>
+<button type="button" id="tab-decided" role="tab" data-tab="decided" aria-selected="true">Decided</button>
+<button type="button" id="tab-summary" role="tab" data-tab="summary" aria-selected="false">Summary</button>
 <button type="button" id="tab-questions" role="tab" data-tab="questions" aria-selected="false">All questions</button>
 </div></div></header>
-<section id="view-summary">
+<section id="view-decided">
+<div class="wrap"><nav class="rail" aria-label="Decided contents"><h2>Decided</h2><ol class="toc"><li class="l2"><a href="#d-1-what-was-decided">1. What was decided</a></li><li class="l2"><a href="#d-2-decided-structures">2. Decided structures</a></li><li class="l2"><a href="#d-3-main-decisions">3. Main decisions</a></li><li class="l3"><a href="#d-shared-conventions-conventions-v1">Shared conventions (CONVENTIONS_v1)</a></li><li class="l3"><a href="#d-framework-changes">Framework changes</a></li><li class="l3"><a href="#d-residual-decisions-that-matter-most">Residual decisions that matter most</a></li><li class="l2"><a href="#d-4-test-results">4. Test results</a></li><li class="l2"><a href="#d-5-what-is-still-open-or-provisional">5. What is still open or provisional</a></li></ol></nav>
+<main><p class="note">The owner delegated the stage-2 answers to Claude. This tab gives the decided structures and how they tested; the owner may overturn any decision. † in the memos marks a claim that still needs a fetched source at the stage-3 harvest.</p>
+<article><h1 id="d-stage-2-decided-structures-decisions-and-test-results">Stage 2 decided: structures, decisions and test results</h1>
+<p>Owner page, written by batch S2D (Opus, offline) on 2026-10-17. It summarises what was decided in stage 2 and how it tested.</p>
+<h2 id="d-1-what-was-decided">1. What was decided</h2>
+<p>You delegated the stage-2 answers on 2026-10-17 ("Your judgment for the answers"), so Claude made every decision on this page. They are in framework/structure/decisions/. D1 holds the shared conventions <span class="qid">CV-1</span> to <span class="qid">CV-46</span> and the framework items <span class="qid">K-1</span> to <span class="qid">K-196</span> (231 adopted as recommended, 11 departed). D2 holds 160 category decisions for A to E, D3 holds 125 for F to J, and D4 holds the residual decisions <span class="qid">R-0</span> to <span class="qid">R-68</span>. Your rules came first in every decision: BRIEF.md binds; depth and breadth come first, with no caps on makers, lines or named forms; one fetched page proves that a thing exists; existing catalogues are used first; game genres never divide anything here; and there is no separate sourcing pass. The decisions bind like owner decisions until you overturn one. Three things bind now: the 53 structures below, CONVENTIONS_v1.md and the key v0.7.2. Some things are still provisional. The memos mark 3,600 claims with † because no fetched page shows them yet, and decisions that rest on them are "provisional until attested". Each one enters the data only when the stage-3 harvest finds one fetched page for it.</p>
+<h2 id="d-2-decided-structures">2. Decided structures</h2>
+<p>There are at most four levels below the category. "Ledger" means the one maker ledger shared by the whole domain. "Kinds" counts the memo's worked tree, which is a seed and not a cap. For the 11 tested categories, it counts the kind ids adopted in memo section 13.</p>
+<div class="table-wrap"><table><thead><tr><th>Code</th><th>Category</th><th>Sub-families</th><th>Kind axis</th><th>Makers and tiers</th><th>Kinds</th><th>Tested</th></tr></thead><tbody><tr><td>A1</td><td>Clothing</td><td>Tops; Bottoms; Dresses and sets +5</td><td>Garment cut or type, named by form</td><td>Ledger seeded from brand lists; denim ladders as line_rank</td><td>108</td><td>top-level only</td></tr><tr><td>A2</td><td>Footwear</td><td>Sneakers; Shoes; Boots +4</td><td>Construction: lacing, closure, shaft height</td><td>Community tier entries on dress-shoe and boot lines</td><td>63</td><td>kind-level, 30/30</td></tr><tr><td>A3</td><td>Jewellery</td><td>Head and hair; Ear; Neck and chest +6</td><td>Site of wear, then form family</td><td>Fine, demi-fine and fashion as tier entries</td><td>54 + 3 parts</td><td>top-level only</td></tr><tr><td>A4</td><td>Bags &amp; Accessories</td><td>Handbags; Backpacks; Luggage +7</td><td>Silhouette or format; no leaf level</td><td>Tier entries empty until a fetched scheme</td><td>70</td><td>top-level only</td></tr><tr><td>A5</td><td>Clocks &amp; Watches</td><td>Wristwatches; Carried watches; Clocks +2</td><td>Wristwatch complication; clock placement</td><td>Per-source tier entries; fashion watches a maker class</td><td>53</td><td>top-level only</td></tr><tr><td>B1</td><td>Furniture &amp; Storage</td><td>Seating; Sleeping and lying; Tables +4</td><td>Use type; mattresses by construction</td><td>Designer-classic houses; modular systems as compatibility rows</td><td>90</td><td>top-level only</td></tr><tr><td>B2</td><td>Soft Furnishings</td><td>Bed; Floor; Window +4</td><td>Piece, construction or job; rugs by construction</td><td>Rug city and tribal names as provenance tags</td><td>66</td><td>top-level only</td></tr><tr><td>B3</td><td>Lighting</td><td>Fixed fittings; Standing lamps; Carried and worn +2</td><td>Placement or carrying; bulbs by shape</td><td>No tier entries stored yet</td><td>50</td><td>top-level only</td></tr><tr><td>B4</td><td>Decor</td><td>Vessels; Mirrors and frames; Candles +7</td><td>Product form; occasion a tag</td><td>Perfumer rows; one candle-maker ranking; flag register</td><td>70</td><td>top-level only</td></tr><tr><td>B5</td><td>Kitchen &amp; Dining</td><td>Cook; Prepare; Cool and store +4</td><td>Vessel form, pattern or operating mode</td><td>Registered tier schemes; capsule systems as compatibility rows</td><td>78</td><td>top-level only</td></tr><tr><td>B6</td><td>Cleaning &amp; Laundry</td><td>Floors; Surfaces and objects; Textiles +3</td><td>Form or mechanism per leaf</td><td>Consumable brand lines as lines rows</td><td>97</td><td>top-level only</td></tr><tr><td>B7</td><td>Climate, Water &amp; Energy</td><td>Room air; Water; Electricity; Parts</td><td>Device type</td><td>Efficiency schemes stored as scheme plus value</td><td>75</td><td>top-level only</td></tr><tr><td>B8</td><td>Home Safety &amp; Security</td><td>Break-in and attack; Fire, smoke and gas; Injury hazards +3</td><td>Device job, where grade is compared</td><td>Grades as attributes; Consumer Reports scores as tier entries</td><td>88</td><td>kind-level, 30/30</td></tr><tr><td>B9</td><td>Smoking &amp; Vaping</td><td>Products; Implements and hardware; Parts</td><td>Vitola, pipe shape, device architecture</td><td>Cigar ratings, pipe grades as tier entries</td><td>84 + 9 named gaps</td><td>top-level only</td></tr><tr><td>B10</td><td>Animal Equipment</td><td>Dogs; Cats; Small mammals +9</td><td>Animal group, then function</td><td>Feed recipe lines as lines rows</td><td>98</td><td>top-level only</td></tr><tr><td>C1</td><td>Tools &amp; Workshop Equipment</td><td>Cutting and sawing; Drilling and driving; Shaping +9</td><td>Work done, then action and form</td><td>Per-source tiers never merged; battery platforms as compatibility rows</td><td>149</td><td>kind-level, 30/30</td></tr><tr><td>C2</td><td>Garden &amp; Grounds</td><td>Digging; Cutting and pruning; Lawn +7</td><td>Mechanism or form</td><td>Tool systems (Gardena, Stihl) as compatibility rows</td><td>107</td><td>top-level only</td></tr><tr><td>C3</td><td>Plants &amp; Living Cultures</td><td>Growing plants; Seeds and propagules; Fresh-cut; Living cultures</td><td>Genus; species in eight collector genera</td><td>Breeders as makers; AOS and RHS awards as tier entries</td><td>66 (57 attested, 9 †)</td><td>top-level only</td></tr><tr><td>C4</td><td>Craft &amp; Art Supplies</td><td>Picture-making; Sewing; Yarn +13</td><td>Medium, material or operation per leaf</td><td>Tanneries, houses and schools in ledgers</td><td>121</td><td>top-level only</td></tr><tr><td>C5</td><td>Office &amp; Stationery</td><td>Writing; Paper goods; Desk and filing +2</td><td>Generic type</td><td>Pen tiers only from non-price sources</td><td>87</td><td>top-level only</td></tr><tr><td>C6</td><td>Optical &amp; Scientific Instruments</td><td>Optical; Weather; Laboratory +2</td><td>Design principle or mechanism</td><td>Telescope standards as compatibility rows</td><td>63</td><td>top-level only</td></tr><tr><td>C7</td><td>Farm &amp; Forestry Equipment</td><td>Tractors and carriers; Tillage; Seeding +7</td><td>Machine type; tractors by task design</td><td>Ledger seeded from TractorData; specs as attributes</td><td>105</td><td>top-level only</td></tr><tr><td>C8</td><td>Building Materials &amp; Hardware</td><td>Structure; Interior finishes; Fixings +8</td><td>Supply family, then product group</td><td>UNSPSC and Uniclass codes as cross-references</td><td>143</td><td>top-level only</td></tr><tr><td>D1</td><td>Computers &amp; Components</td><td>Complete computers; Components; Storage +6</td><td>Part function or physical class</td><td>Chip models as named forms; OEM maker relations</td><td>101</td><td>top-level only</td></tr><tr><td>D2</td><td>Phones, Tablets &amp; Personal Devices</td><td>Phones; Two-way radios; Tablets +5</td><td>Build or form class</td><td>Benchmarks as dated tier entries</td><td>50</td><td>top-level only</td></tr><tr><td>D3</td><td>Audio &amp; Video</td><td>Displays; Sources; Amplification +5</td><td>Body or wearing form</td><td>Tier entries; platforms as compatibility rows</td><td>66</td><td>top-level only</td></tr><tr><td>D4</td><td>Cameras &amp; Photography</td><td>Cameras; Lenses; Light +4</td><td>Viewing system; lens optical design</td><td>Lens mounts as compatibility rows</td><td>99</td><td>kind-level, 30/30</td></tr><tr><td>D5</td><td>Video Games</td><td>Game machines; Controllers; Software on carriers +2</td><td>Machine form; software by carrier</td><td>Titles in an optional off-tree ledger</td><td>51</td><td>top-level only</td></tr><tr><td>E1</td><td>Toys &amp; Games</td><td>Dolls and figures; Construction; Scale models +6</td><td>Articulation, system class or component set</td><td>Every published game a named form</td><td>110</td><td>kind-level, 30/30</td></tr><tr><td>E2</td><td>Sports, Fitness &amp; Recreation</td><td>Air sports; Athletics; Climbing +14</td><td>Activity, sport, then equipment type</td><td>Shapers and artisans in ledger; player-level schemes</td><td>130</td><td>top-level only</td></tr><tr><td>E3</td><td>Musical Instruments &amp; Music Gear</td><td>Instruments; Amplification and effects; Sound capture +2</td><td>Playing family, then construction</td><td>Tiers set by maker line</td><td>96</td><td>top-level only</td></tr><tr><td>E4</td><td>Weapons &amp; Armour</td><td>Firearms; Air guns; Bows +7</td><td>Action, blade style or tradition type</td><td>Smiths in ledger; legal classes in jurisdiction ledger</td><td>105</td><td>top-level only</td></tr><tr><td>F1</td><td>Media &amp; Publications</td><td>Printed volumes; Cartographic; Sound carriers +2</td><td>Carrier, form of issue, format class</td><td>Publishers and labels, never titles</td><td>63</td><td>top-level only</td></tr><tr><td>F2</td><td>Art</td><td>Paintings; Drawings; Prints +5</td><td>Medium, technique or material</td><td>Artists with ULAN ids; manufactories as houses</td><td>64</td><td>kind-level, 30/30</td></tr><tr><td>F3</td><td>Coins, Stamps, Medals &amp; Trading Cards</td><td>Coins; Banknotes; Bullion +6</td><td>Standing or purpose of issue</td><td>Mints in ledger; issuer table; grade scales only</td><td>64</td><td>top-level only</td></tr><tr><td>F4</td><td>Religious &amp; Ceremonial Objects</td><td>Altars and images; Devotion aids; Ritual implements +4</td><td>Generic form; tradition a tag</td><td>Deck and urn designs as named forms</td><td>67</td><td>kind-level, 30/30</td></tr><tr><td>F5</td><td>Documents &amp; Personal Records</td><td>Issued documents; Cards and passes; Personal records</td><td>Document or card type</td><td>Issuers in shared issuer table; no ranking</td><td>66</td><td>top-level only</td></tr><tr><td>F6</td><td>Natural History &amp; Specimens</td><td>Minerals; Rocks; Fossils +6</td><td>Trade name; varieties as named forms</td><td>Certifiers in ledger; GIA scales as attributes</td><td>72 (counted)</td><td>top-level only</td></tr><tr><td>G1</td><td>Vehicles</td><td>Land; Rail; Watercraft; Aircraft; Parts</td><td>Body style, class or type</td><td>Coachbuilders and yards in ledger</td><td>70 shown</td><td>top-level only</td></tr><tr><td>G2</td><td>Property &amp; Structures</td><td>Land; Dwellings; Other buildings; Burial places</td><td>Land use, attachment, form or function</td><td>Makers only for factory-built objects</td><td>55</td><td>kind-level, 30/30</td></tr><tr><td>H1</td><td>Personal Care &amp; Beauty</td><td>Skin care; Makeup; Hair +7</td><td>Retail product type</td><td>Houses and perfumers in ledgers; every scent a named form</td><td>100</td><td>top-level only</td></tr><tr><td>H2</td><td>Health, Medical &amp; Mobility</td><td>Monitoring; Therapy; Mobility +9</td><td>Device type; medicines by use class</td><td>Brand products named forms; own-label ranges lines</td><td>136</td><td>kind-level, 30/30</td></tr><tr><td>H3</td><td>Adult Objects</td><td>Vibrators; Dildos; Anal toys +5</td><td>Designed action, then contact</td><td>Range levels as tier entries</td><td>62</td><td>top-level only</td></tr><tr><td>I1</td><td>Software</td><td>System; Security; Office +9</td><td>Generic program type</td><td>Lab results as tier entries; plans as variants</td><td>68</td><td>top-level only</td></tr><tr><td>I2</td><td>Digital Media &amp; Items</td><td>Text; Audio; Moving image +4</td><td>Layout form, format family or role</td><td>Typeface families named forms; superfamilies lines</td><td>49</td><td>kind-level, 30/30</td></tr><tr><td>I3</td><td>Subscriptions, Memberships &amp; Online Services</td><td>Catalogue and play; Online utilities; Connectivity +2</td><td>Service type</td><td>Providers as service operators; plans as variants</td><td>45</td><td>top-level only</td></tr><tr><td>J1</td><td>Meat &amp; Poultry</td><td>Fresh and frozen; Cured; Sausages; Cooked and tinned</td><td>Retail cut; cured piece; sausage type</td><td>Grades as attributes; butcher a supply role</td><td>87</td><td>top-level only</td></tr><tr><td>J2</td><td>Fish &amp; Seafood</td><td>Fresh and live; Smoked; Salted and dried +3</td><td>Species or commercial type</td><td>Tuna cuts and caviar grades as ladders</td><td>69</td><td>top-level only</td></tr><tr><td>J3</td><td>Dairy, Eggs &amp; Alternatives</td><td>Milk; Cream and butter; Yoghurt +4</td><td>Product type; cheese by variety</td><td>Protected names as designation rows</td><td>69</td><td>top-level only</td></tr><tr><td>J4</td><td>Fruit &amp; Vegetables</td><td>Fruit; Vegetables; Herbs; Fungi</td><td>Species; cultivar as named form</td><td>Grades as standard rows; variety table</td><td>63</td><td>top-level only</td></tr><tr><td>J5</td><td>Pantry Staples</td><td>Grains and flours; Pasta and noodles; Pulses +9</td><td>Variety, type or standard</td><td>Rice and olive-oil rankings as tier entries</td><td>134</td><td>kind-level, 30/30</td></tr><tr><td>J6</td><td>Coffee, Tea &amp; Cocoa</td><td>Coffee; Tea; Cocoa; Infusions</td><td>Product type; tea by ISO process</td><td>Roasters and estates with supply roles</td><td>41</td><td>top-level only</td></tr><tr><td>J7</td><td>Wine, Beer &amp; Spirits</td><td>Wine; Beer; Cider and mead +4</td><td>Grape, style, legal or production type</td><td>Critic scores as tier entries; vintages as variants</td><td>59</td><td>top-level only</td></tr></tbody></table></div>
+<p>Notes: A2, B8 and G2 scored 30/30 on the retest after rework (section 4). G1 estimates about 150 kinds in all. The memo states no F6 total, so its count is taken from the worked tree.</p>
+<h2 id="d-3-main-decisions">3. Main decisions</h2>
+<h3 id="d-shared-conventions-conventions-v1">Shared conventions (CONVENTIONS_v1)</h3>
+<ul><li>
+One maker ledger serves the whole domain and allows several classes per maker, perfumer or composer among them (<span class="qid">CV-2</span>).
+</li><li>
+Maker ledgers have no cap, and one fetched page admits a maker (<span class="qid">CV-5</span>).
+</li><li>
+Named forms are harvested one attested row at a time in stage 3, with no cap (<span class="qid">CV-7</span>).
+</li><li>
+Variants are recorded wherever a community compares them, and a variant is never a level (<span class="qid">CV-8</span>).
+</li><li>
+A tier is never put on a kind: each source's tier entry is kept separately, and one fetched source admits a scheme (<span class="qid">CV-10</span>).
+</li><li>
+There are at most four levels below the category, and the leaf level is optional at about 12 kinds or fewer (<span class="qid">CV-16</span>).
+</li><li>
+A category that receives fitted parts closes with "Parts and accessories made for one &lt;object&gt;" (<span class="qid">CV-17</span>).
+</li><li>
+Size is an attribute with its standard, and the user is a tag (<span class="qid">CV-18</span>).
+</li><li>
+Every domain uses one scene vocabulary, and each tag waits until a page defining it is fetched (<span class="qid">CV-22</span>).
+</li><li>
+Power, technology and connectivity are attributes unless the object's form changes (<span class="qid">CV-24</span>).
+</li><li>
+A regional name is a kind only if sellers in two regions list it separately; otherwise it is a named form, and it is in either way (<span class="qid">CV-27</span>).
+</li><li>
+Platforms go in one compatibility ledger and are never levels (<span class="qid">CV-29</span>).
+</li><li>
+Legal classes go in the jurisdiction ledger, never on the tree (<span class="qid">CV-35</span>).
+</li><li>
+Wine and spirit designations such as Champagne and Cognac are kinds, as a written exception (<span class="qid">CV-40</span>).
+</li><li>
+Brand lines of everyday consumables are lines rows, while fragrances, cigars, teas and wines keep named forms (<span class="qid">CV-46</span>).
+</li></ul>
+<h3 id="d-framework-changes">Framework changes</h3>
+<p>Version 0.7 applied the 196 K items. Version 0.7.1 added 63 changes from the residual decisions, and v0.7.2 added <span class="qid">R-57</span>(d).</p>
+<ul><li>
+A mixed set is filed by its item of greatest value, and a kit compared as one object is a kind (<span class="qid">K-1</span>).
+</li><li>
+Cordless platform batteries are C1, one-device batteries follow their device, and loose standard cells are C8 (<span class="qid">K-4</span>).
+</li><li>
+Empty multi-object albums are B1, and filled photo albums are F5 (<span class="qid">K-9</span>).
+</li><li>
+Sealed ready-to-drink alcoholic drinks, hard seltzer included, are J7 (<span class="qid">K-24</span>).
+</li><li>
+A product labelled to treat, relieve or prevent a condition is H2, and cosmetic products are H1 (<span class="qid">K-31</span>).
+</li><li>
+Corrective spectacles are H2, and plano fashion frames are A4 (<span class="qid">K-34</span>).
+</li><li>
+Spreads eaten with other food are J5, and dairy spreads are J3 (<span class="qid">K-44</span>).
+</li><li>
+Objects are tested as made: a navigating hull is G1, and a tiny house on wheels is G2 (<span class="qid">K-60</span>).
+</li><li>
+A living plant in any container is C3 (<span class="qid">K-73</span>).
+</li><li>
+The animal group is B10's first axis, a written exception to Appendix A (<span class="qid">K-102</span>).
+</li><li>
+A loose devotional medal is F4, a worn one A3, and a commemorative or award medal F3 (<span class="qid">K-107</span>).
+</li><li>
+Helmets against weapons are E4, one-sport helmets E2, and other hazard helmets A1 (<span class="qid">K-125</span>).
+</li><li>
+Edition or signed photographs are F2, and all other photographs F5 (<span class="qid">K-139</span>).
+</li><li>
+Game software is divided by carrier, and the platform is an attribute (<span class="qid">K-154</span>).
+</li><li>
+Hand-held chainsaws are C2, while axes and log splitters are C1 (<span class="qid">K-173</span>).
+</li></ul>
+<h3 id="d-residual-decisions-that-matter-most">Residual decisions that matter most</h3>
+<ul><li>
+A rule a memo still marked "proposed" is adopted as written (<span class="qid">R-0</span>).
+</li><li>
+Every published tarot or oracle deck is an uncapped named form under its publisher (<span class="qid">R-5</span>).
+</li><li>
+The key text was amended to match the decisions, making v0.7.1 (<span class="qid">R-16</span>).
+</li><li>
+Kinds named with a regional word keep a provisional level until attested (<span class="qid">R-19</span>).
+</li><li>
+Designers are a maker class, and named forms record "designed by" (<span class="qid">R-24</span>).
+</li><li>
+An automatic fetch_status is never treated as attestation for a contested source (<span class="qid">R-40</span>).
+</li><li>
+Kind ids follow the tree path and are never renumbered (<span class="qid">R-58</span>).
+</li><li>
+Where a seller's material word conflicts with a technical source, the technical source wins (<span class="qid">R-62</span>).
+</li><li>
+The 687 kinds the kind-level test did not reach still need one fetched page each (<span class="qid">R-63</span>).
+</li><li>
+A seller's style word, such as "Oxford", is an alias, and the tree's construction test decides the kind (<span class="qid">R-64</span>).
+</li><li>
+The A2, B8 and G2 definitions were tightened after the kind-level test (<span class="qid">R-66</span>).
+</li><li>
+The G2 lodge is decided by its section count, and width is only an attribute (<span class="qid">R-67</span>).
+</li></ul>
+<h2 id="d-4-test-results">4. Test results</h2>
+<p><strong>Round 6 (v0.6, top level).</strong> 953 items went to 3 Sonnet placers: 99.8 % unanimous, κ 0.999, no splits, 95 of 96 gold.</p>
+<p><strong>Round 7 (v0.7.2, top level).</strong> Cold Opus checkers passed 480 of 493 regression candidates as they were. They rewrote 8 definitions, changed 1 expected home and dropped 4 duplicates. 470 new probes made 1,423 items. Of these, 1,417 were unanimous (99.6 %), none split, and κ was 0.997. Gold scored 470 of 470 for RG7 and 95 of 96 for RG2. The RG2 miss is T0036, a jar of bolognese sauce: it is J5 under the v0.6 sentence, but the old gold says OUT. Six items were non-unanimous: a bowling bag, a tricycle, an integrated dishwasher, a season ticket, a kite and a ten-class yoga card.</p>
+<p><strong>Kind-level test (11 categories, 330 items, 33 Sonnet placers).</strong></p>
+<ul><li>
+Before the rework, 327 of 330 items were unanimous. With item A2-07 corrected, 329 had a correct majority.
+</li><li>
+Nine categories were unanimous and 100 % right.
+</li><li>
+A2 had 28 of 30 unanimous (κ 0.954): the Kolhapuri sandal and the UGG Tasman each drew one stray vote.
+</li><li>
+B8 had 29 of 30 unanimous (κ 0.977, 96.7 % right by majority): the battery emanator was misplaced.
+</li><li>
+G2 was fully right, but its placers gave many medium-confidence ratings.
+</li><li>
+After the Opus rework, 9 fresh placers retested A2, B8 and G2: 90 of 90 unanimous and right, κ 1.000.
+</li></ul>
+<p><strong>AU4 (cold Opus audit, <span class="qid">R-69</span>).</strong> Of the six non-unanimous items and T0036, three came from definitions that left out the deciding fact (bowling bag, tricycle, ten-class yoga card), two from key wording (season ticket, kite), one was a placer slip (integrated dishwasher), and T0036 was an old gold home. v0.7.3 rewrites the two key sentences (the I3 entitlement note and the sport-kite note) and says that game launchers and their free accounts are OUT; the three definitions are fixed and T0036 moves to J5. v0.7.3 is not yet re-tested.</p>
+<h2 id="d-5-what-is-still-open-or-provisional">5. What is still open or provisional</h2>
+<ul><li>
+<strong>Attestation list.</strong> 3,600 † claims need one fetched page each at harvest. Decisions that rest on them stay provisional, for example A1's swimwear leaf and J3's dried-dairy leaf.
+</li><li>
+<strong>Untested kinds.</strong> 687 kinds in the 11 tested categories were not reached by any test item. The other 42 categories were tested at the top level only.
+</li><li>
+<strong>Gaps.</strong> Seven J5 leaves have no kinds yet, and F2's parts sub-family opens only once a part is attested.
+</li><li>
+<strong>After v0.7.3.</strong> v0.7.3 applied the two AU4 key changes and <span class="qid">R-65</span>(a) (game launchers OUT). The other seven ambiguous wordings (<span class="qid">R-65</span> b to h, for example headbands and gift bags) did not mislead any placer in round 7 and are kept as they are; the next blind round tests v0.7.3.
+</li><li>
+<strong>Stage 3 next.</strong>
+<ul><li>
+Design the data tables from CONVENTIONS_v1 with tools/ writers.
+</li><li>
+Pilot the harvest on A1 and D1 from their catalogues in data/source_catalogues.tsv (937 catalogues). Attest each kind and named form on one fetched page, with fetch_status recorded.
+</li><li>
+Then plan the other categories in the order STAGE2_SUMMARY.md §6 gives.
+</li></ul>
+</li></ul></article></main></div></section>
+<section id="view-summary" hidden>
 <div class="wrap"><nav class="rail" aria-label="Summary contents"><h2>Summary</h2><ol class="toc"><li class="l2"><a href="#s-1-what-stage-2-did-and-did-not-do">1. What stage 2 did and did not do</a></li><li class="l2"><a href="#s-2-categories-at-a-glance">2. Categories at a glance</a></li><li class="l2"><a href="#s-3-shared-conventions-awaiting-approval-cv-1-to-cv-46">3. Shared conventions awaiting approval (CV-1 to CV-46)</a></li><li class="l2"><a href="#s-4-framework-top-level-changes-awaiting-approval">4. Framework (top-level) changes awaiting approval</a></li><li class="l3"><a href="#s-4a-the-25-most-consequential-in-full">4a. The 25 most consequential, in full</a></li><li class="l3"><a href="#s-4b-the-other-171-one-line-each">4b. The other 171, one line each</a></li><li class="l2"><a href="#s-5-per-category-owner-questions">5. Per-category owner questions</a></li><li class="l3"><a href="#s-5a-the-15-most-consequential">5a. The 15 most consequential</a></li><li class="l3"><a href="#s-5b-questions-from-the-digests-by-domain">5b. ★ questions from the digests, by domain</a></li><li class="l2"><a href="#s-6-risks-and-next-steps">6. Risks and next steps</a></li></ol></nav>
-<main><div class="status"><div><b>53</b><span>categories with a structure memo</span></div><div><b>46</b><span>shared-rule questions (CV)</span></div><div><b>196</b><span>framework questions (K)</span></div><div><b>228</b><span>per-category questions</span></div><div><b>0</b><span>approved so far</span></div></div><p class="note">Research proposals for review. Nothing here is approved, and no stage-2 change has been tested by blind placement yet. † in the memos marks a claim that still needs a fetched source.</p>
+<main><div class="status"><div><b>53</b><span>categories with a structure memo</span></div><div><b>46</b><span>shared-rule questions (CV)</span></div><div><b>196</b><span>framework questions (K)</span></div><div><b>228</b><span>per-category questions</span></div><div><b>all</b><span>decided (delegated by the owner)</span></div></div><p class="note">The research summary as written for review, before the decisions. The answers are on the Decided tab and in framework/structure/decisions/.</p>
 <article><h1 id="s-stage-2-summary-owner-review-page">Stage 2 summary: owner review page</h1>
 <p>Batch S2S_SUMMARY, 2026-10-17. Written from BRIEF.md, framework/CATEGORIES_v0_6.md, _conventions.md, _framework_conflicts.md, verify/out/S2_stats.tsv and the seven domain digests verify/out/S2S_X*.md. Memo sections are cited as "A3 §10.9"; review items as "rev C X1". The complete question lists are in <a href="#questions" data-tab="questions">STAGE2_OWNER_QUESTIONS.md</a>.</p>
 <h2 id="s-1-what-stage-2-did-and-did-not-do">1. What stage 2 did and did not do</h2>
@@ -1688,9 +1829,10 @@ The 11 rework categories last, after the owner answers and the kind-level test.
 <script>
 (function () {
   const tabs = document.querySelectorAll('.tabs button');
-  const views = { summary: document.getElementById('view-summary'), questions: document.getElementById('view-questions') };
+  const views = { decided: document.getElementById('view-decided'), summary: document.getElementById('view-summary'), questions: document.getElementById('view-questions') };
+  const viewOf = id => id.startsWith('q-') ? 'questions' : id.startsWith('s-') ? 'summary' : 'decided';
   function show(name, scroll) {
-    if (!views[name]) name = 'summary';
+    if (!views[name]) name = 'decided';
     tabs.forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
     Object.entries(views).forEach(([k, v]) => { v.hidden = k !== name; });
     if (scroll) window.scrollTo(0, 0);
@@ -1698,10 +1840,10 @@ The 11 rework categories last, after the owner answers and the kind-level test.
   tabs.forEach(b => b.addEventListener('click', () => { show(b.dataset.tab, true); history.replaceState(null, '', '#' + b.dataset.tab); }));
   document.querySelectorAll('a[data-tab]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); show(a.dataset.tab, true); history.replaceState(null, '', '#' + a.dataset.tab); }));
   const h = location.hash.slice(1);
-  if (h === 'questions' || h.startsWith('q-')) show('questions'); else show('summary');
-  if (h.startsWith('q-') || h.startsWith('s-')) { const t = document.getElementById(h); if (t) t.scrollIntoView(); }
+  if (views[h]) show(h); else show(h ? viewOf(h) : 'decided');
+  if (/^[dqs]-/.test(h)) { const t = document.getElementById(h); if (t) t.scrollIntoView(); }
   document.querySelectorAll('nav.rail a').forEach(a => a.addEventListener('click', () => {
-    const id = a.getAttribute('href').slice(1); show(id.startsWith('q-') ? 'questions' : 'summary');
+    show(viewOf(a.getAttribute('href').slice(1)));
   }));
   const box = document.getElementById('q-search'), count = document.getElementById('q-count');
   const items = Array.from(document.querySelectorAll('#view-questions article li'));
