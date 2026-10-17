@@ -117,3 +117,70 @@ END G
 - H2 conformance entries: car first-aid kit against S3; coloured plano contact lenses and step 2.
 - Domain G C7 amendment (non-maker named forms first) is adopted in H2; C3 amendment for fragrance `concentration` variant if the owner chooses option (b).
 END H
+
+## Domain I
+### Table
+| code | name | sub-families | choice level | tier type | maker centrality | review verdict | kinds | daggers | OWNER marks |
+|---|---|---|---|---|---|---|---|---|---|
+| I1 | Software | System and device care, Security privacy and identity, Office and personal work, Creative production, Media playback, Money and business, Learning and reference, Development, Engineering and science, Assistants, Internet access tools, Add-ons and unlocks (exempt) | Generic program type that labs, "best X" lists and head-to-head pages compare; plans and editions are variants | mixed (lab ladders for security; preference elsewhere) | high (platform in C13 ledger) | minor fixes | 66 | 20 | 47 |
+| I2 | Digital Media & Items | Text and document files, Audio files, Moving-image files, Still-image files, Fonts and production assets, Game and platform items, Names and tokens | Layout form, compression, format family, asset class, item role or TLD class; formats and families are named forms | ladder (measured specs as attributes, not tiers) | medium (platform-driven) | needs rework | 51 (7 provisional) | 51 | 27 |
+| I3 | Subscriptions, Memberships & Online Services | Catalogue and play access, Online utility services, Connectivity plans, Member places and passes, Curated deliveries | The service type within which providers are compared; seat, tier, term and delivery are plan attributes | preference (maker ladders as tier entries on plans, pending C4(a)) | high | minor fixes | 42, plus 1 held for ruling | 46 | 29 |
+
+### What conformance changed
+- I1: Merged two exempt sub-families into one add-ons sub-family; dropped the market split in Money and business; added creative suite, graphic design app, database software, audio plug-in; lab results moved to named forms.
+- I2: Kinds renamed by layout form, not platform or region; rights state became an attribute (one audiobook, one video kind); fonts became one kind with licence-scope variants; level-1 axis restated.
+- I3: Periodicals recut by title count; member places recut by way of entering; delivery kinds recut by who chooses; goods rental held out; asset-library subscription added provisionally.
+
+### Owner questions (merged)
+1. ★ [I1] Function-first sub-families (Candidate A) or one "AI tools" sub-family (A2). [A with generated AI view]
+2. ★ [I2] Level 1 as "what the held data is for", or holding form first (Candidate B). [restated A]
+3. [I3] Five sub-families by what the plan gives access to (catalogue and play, utility, connection, member place or pass, curated delivery). [yes]
+4. ★ [I1] Business software depth: personal and prosumer only, Capterra headline depth (40 to 80 kinds), or G2 depth (about 2,000). [Capterra headline, leaf by business function, market tag]
+5. [I1] AI coding assistant and AI image generator as kinds, image generator one kind with `task_mode`; Arena rankings stored only as snapshots if model and product are the same thing. [kinds yes; one image kind]
+6. [I1] Confirm added kinds: creative suite, graphic design app, audio plug-in, database software, desktop search tool split from application launcher. [yes]
+7. [I2] E-book kinds by layout form, formats as named forms, Kindle, Apple Books, Apabi as C13 rows. [yes; applied]
+8. [I2] Music: one "digital music file" kind with compression attribute, two kinds (lossy, lossless), or three kinds kept. [one kind]
+9. [I2] Audio leaf by kind of recording (music, spoken word, podcast), a form of medium, not genre. [yes]
+10. [I2] Audiobooks and video one kind each, with rights state and unit as attributes. [yes; applied]
+11. [I2] Fonts: one "digital font" kind, licence scope as variant; variable fonts an attribute or a kind under C10(b). [yes; attribute]
+12. [I2] Domain names: kinds by TLD eligibility class with TLD as named form and premium a platform tag, or one kind. [by class]
+13. [I2, I1] New provisional kinds (sample libraries, presets and LUTs, MIDI, digital planners, sticker packs, AI model files); AI model weights in I2. [yes; I2]
+14. [I2] In-game items: game a ledger row and view, never a level; named forms on demand; CS2 wear class a `style` variant or nothing (C16). [yes; nothing]
+15. [I3] Member-place kinds by way of entering (facility membership, members' club, multi-site, multi-venue scheme, single-venue pass). [yes]
+16. [I3] Periodicals by title count, not print or digital; delivery kinds by who chooses (curated box, menu plan, producer club). [yes]
+17. [I3] Keep on-demand video, live-TV streaming and pay-TV as three kinds, and satellite internet as a kind (provisional). [yes, provisional]
+18. [I3, I2] Asset-library subscription kind in I3 for stock, font and sample plans; downloaded assets stay I2. [yes]
+19. [I3] Curated-delivery goods type is a link and view, not a kind (no separate "wine club"). [yes]
+20. [I1, I3, D5] Hosted clients: messaging and conferencing I3, email client I1; game stores and launchers I3, I1 or not filed. [launchers not filed]
+21. [I1, I3] Classes against learning apps: library of recorded lessons I3, interactive program I1. [yes]
+22. [I1, I3] Backup, maps and reference works boundary sentences (X7 b, c, i). [yes]
+23. [I1, I3] Device-tied plans: unlock I1, connection I3, class catalogue I3, free companion app part of the device; one exempt add-ons sub-family, unlock leaf empty until sourced. [yes]
+24. [I1, H2] Medical software is H2, and the step 2 wording names software. [yes]
+25. [I3] Credit plans filed as the plan with `credits_per_period`; credits bought alone OUT; ClassPass IN. [yes; yes]
+26. [I2, I3] A token carrying a game item, ticket or membership is I2 as token; access filed only if also sold as a plan. [yes]
+27. [I3] Goods rental subscriptions: an I3.5 kind or OUT as a rental service. [I3 kind]
+28. [I3] Hosting plans (web, game server): an I3.2 kind or OUT. [I3.2 kind, personal plans]
+29. [I3] Travel eSIM and other one-off packs OUT unless they renew. [yes]
+30. [I3] Creator memberships, SIM or eSIM profile, car-sharing memberships need rulings. [creator I3.1; SIM part of plan, F5 if kept; car-sharing I3.4]
+31. [I3] Seat structure a plan attribute; amend the step 5 note. [yes]
+32. [I1] Subject-taught software: subject is content genre, never a level. [yes]
+33. [I1, I2, I3, D5] One `maker_class` list and one maker row per company; pick a class for independent service companies (Spotify, Netflix, Proton). [yes]
+34. [I1, I2, I3] One variant ledger with types edition, version, plan, licence scope, style, and the plan columns. [yes]
+35. ★ [I1] Releases (Windows 95, Office 2024) are named forms; editions, plans and minor versions are variants; product lines in the lines table. [yes]
+36. ★ [I1, I3] C4(a) amendment: maker ladders as tier entries on variant or plan rows, exempt from C4(e); lab scores tier entries; seals certifications. [yes]
+37. [I1, I2, I3] C4(d) for domain I: annualised plan price, free band, full price for one-time and lifetime, renewal price for domains, named form banded by cheapest paid plan. [yes]
+38. [I1, I2, I3, D5] One C13 compatibility ledger and one `delivery` value list. [yes]
+39. [I1, I2] Store only products named by a fetched comparison, lab, directory or storefront page; game items on demand. [yes]
+40. [I2, I3] Kinds with no fetched source (podcast file and subscription, digital score, maps, zoo pass, season ticket) stay provisional and are not entered. [yes]
+41. [I2] Library of Congress `preservation_rank` as an attribute after a second source. [hold]
+42. [I1] Edge kinds: custom assistants built inside hosted AI products; software bundled with hardware kits. [no recommendation]
+
+### Shared-rule questions raised in this domain
+- C1 detail: one shared domain-I `maker_class` list and one maker row per company across I1, I2, I3 and D5.
+- C3 amendment: variant types edition, version, plan, licence scope, style, with plan columns (seat structure, term, price model).
+- C4(a) amendment: maker ladders on variant or plan rows, exempt from C4(e); C4(d) addition for recurring and free prices.
+- C13 detail: one ledger shared with D5 and one `delivery` list; platforms and app stores are never levels.
+- C5(b) `leaf = null` for small sub-families; C5(d) exemption: I1 keeps one add-ons sub-family, I3 has none.
+- C2(b), C10(b), C11, C14(b) (creative suite), C16 (no wear or serial facts), C17 as applied in I1 to I3.
+- _framework_conflicts.md, domain I review entries: seat structure in the step 5 note; "in-game and platform items" wording; home recordings in the F1 note; domain names in the step 1 note; medical software in step 2; gaps in the I3 branch; boundary sentences X7.
+END I
