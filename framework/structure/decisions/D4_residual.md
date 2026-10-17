@@ -26,6 +26,11 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
   - (e) E1 notes from E-13 (the 435 mm saddle-height cut, applied only to balance bikes and ride-ons, never to pedal bicycles, which are G1 by K-91; and the 400 mm paddling-pool cut), and the single trading-card-game card sentence (F3-O3: a TCG card is E1, graded or not).
   - (f) K-9 wording: "An album, binder, stock book, box or tray made to hold several collected objects (stamps, coins, cards, photographs) is B1 when empty; ring binders, lever-arch and box files and letter trays for papers are C5 filing supplies (step 31)" (R-29).
   - (g) C5 sentences: digital pen C5 (C5-O1); drawing compass C5 (C6-O2); abacus and slide rule C5 (C-17); a universal capacitive stylus D2 (R-30).
+  - (h) Step 12 note, first clause: "... is C2 or B10, except a tractor with a rear power take-off and a Category 1 or larger three-point hitch and the implements made for it, which are C7 whoever buys them; lawn and garden tractors without that take-off and hitch, and implements made only for them, are C2" (K-99).
+  - (i) Step 12, two-wheel tractors: "two-wheel tractors follow the same test (a rear power take-off and a Category 1 or larger three-point hitch makes one C7); a walk-behind tiller or cultivator without them is C2".
+  - (j) Step 29: "tractor-driven splitters and chippers, and chippers on or towed for forest machines, are C7; chippers made for tree surgery and grounds are C2" (C7-O1, R-34).
+  - (k) C1 note: "A telehandler is C1 even when sold for farm use; a machine built for a farm or forestry job (combine, forwarder, forestry excavator, knuckleboom loader) is C7" (K-194).
+  - (l) S3b vehicle electronics: add "guidance, auto-steer and monitor kits made for a tractor or farm machine follow it into C7" (K-6).
   - Further amendments raised by later S2U passes are appended here.
 - **R-17** J5 leaves: drinking bitters stay J7 (K-48), and bitters sold as a flavouring go to the condiments and sauces leaf. Mirin and cooking wines go to the vinegars and cooking-liquids leaf. Home-brewing ingredients (malt extract, hops, brewing yeast) go to the baking and fermenting-aids leaf. This adopts the S2U_J5 pass's own reading.
 - **R-18** CV-46 applies to food as well: a brand line spanning several kinds is a lines row; a line inside one kind is a maker-bound named form (C2(d)). This confirms the S2U_J5 treatment.
@@ -44,3 +49,4 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
 - **R-31** Wood crafts: carving, whittling and chip-carving knives and gouges are C1 hand tools, filed by their work. Pyrography pens, craft wood blanks, shapes and turning blanks sold for crafts are C4, in a wood-and-pyrography craft leaf (provisional until attested). Timber sold as building or joinery stock is C8. Raised by S2U_C4.
 - **R-32** C13 `platform_type` gains "presser-foot shank" and "interchangeable-needle system". Written into CONVENTIONS_v1. Raised by S2U_C4.
 - **R-33** Freehand pipe is a shape-family kind in the B9 pipe leaf (B-29 files pipes by shape family, and pipe retail treats freehand as one). Makers' freehand designs are maker-bound named forms under it. Raised by S2U_B9.
+- **R-34** A towed, self-engined chipper made for forestry work is C7 (forestry job); one made for tree surgery and grounds care is C2. Raised by S2U_C7.
