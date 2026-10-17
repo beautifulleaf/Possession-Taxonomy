@@ -8,3 +8,6 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
 - **R-3** Religious relics against "human specimens are OUT" (K-79): a relic housed in a reliquary, or sealed and documented as a relic (for example a theca with an authentication), is F4 by the step-7 relic sentence. Other human remains and anatomical specimens are OUT. Raised by S2U_F4.
 - **R-4** The mezuzah case stays a kind in F4.3c, not in the parts sub-family F4.7: the case is the visible devotional object (rev F X6). Raised by S2U_F4.
 - **R-5** Tarot and oracle decks: every published deck design is an uncapped, maker-bound named form under its kind, with its publisher as maker, as for board games (E-6) and per the depth rule. Confirmed as applied by S2U_F4.
+- **R-6** Traps: mouse, rat and insect traps and live-catch cage traps are B8.4 (pests). Snares, leg-hold and body-grip traps made for trapping game or fur go with hunting gear in E2 (K-163). Raised by S2U_B8.
+- **R-7** Bird netting and bird-proofing nets for buildings are B8.4.6 "Nets, screens & spikes"; garden crop netting stays C2. Raised by S2U_B8.
+- **R-8** A freestanding play yard (playpen) is B1. Key sentence for the next framework revision: "A freestanding play yard or playpen is B1; a gate or guard fitted to the home is B8." Raised by S2U_B8 (K-103).
