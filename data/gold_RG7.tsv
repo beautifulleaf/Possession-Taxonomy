@@ -1,0 +1,471 @@
+id	item	expected	k_ref
+K0001	four dinner plates	B5	K-1
+K0002	manicure set	H1	K-1
+K0003	three-piece sofa suite	B1	K-1
+K0004	smartwatch charging cable	D2	K-2
+K0005	usb-c to usb-c cable	D1	K-2
+K0006	guitar lead	D1	K-2
+K0007	qi charging pad	D1	K-3
+K0008	toothbrush charging stand	H1	K-3
+K0009	aa and aaa battery charger	C8	K-3
+K0010	cordless drill battery pack	C1	K-4
+K0011	vape pen battery	B9	K-4
+K0012	loose 18650 cell	C8	K-4
+K0013	phone-only gimbal	D2	K-5
+K0014	camera gimbal with phone clamp	D4	K-5
+K0015	console controller with phone clip	D5	K-5
+K0016	dashcam	G1	K-6
+K0017	car head unit	G1	K-6
+K0018	portable gps navigator	D2	K-6
+K0019	roof cargo box	G1	K-7
+K0020	car roof bars	G1	K-7
+K0021	freestanding bike rack	B1	K-7
+K0022	tv wall bracket	D3	K-8
+K0023	monitor desk arm	D1	K-8
+K0024	tv cabinet with shelves	B1	K-8
+K0025	empty coin album	B1	K-9
+K0026	filled photo album	F5	K-9
+K0027	blank scrapbook album	C4	K-9
+K0028	laundry basket	B6	K-10
+K0029	blanket storage basket	B1	K-10
+K0030	dishwasher salt	B6	K-11
+K0031	water softener salt	B7	K-11
+K0032	mothballs	B8	K-11
+K0033	contact lens solution	H2	K-11
+K0034	shoe waterproofing spray	B6	K-11
+K0035	welding electrodes	C1	K-12
+K0036	orbital sander discs	C1	K-12
+K0037	general-purpose sandpaper pack	C8	K-12
+K0038	spoke wrench	C1	K-13
+K0039	bicycle inner tube	G1	K-13
+K0040	oil filter strap wrench	C1	K-13
+K0041	camera recorder box	B8	K-14
+K0042	two-bay network drive	D1	K-14
+K0043	universal tripod	D4	K-15
+K0044	telescope eyepiece camera	C6	K-15
+K0045	interchangeable-lens camera	D4	K-15
+K0046	game character figure with chip	E1	K-16
+K0047	figure reader base	D5	K-16
+K0048	story figure for speaker box	D3	K-16
+K0049	paper photo backdrop	B2	K-17
+K0050	studio flash head	D4	K-17
+K0051	photographer's posing stool	B1	K-17
+K0052	workshop dust extractor	C1	K-18
+K0053	wet and dry vacuum	B6	K-18
+K0054	car first-aid kit	H2	K-19
+K0055	workplace first-aid cabinet	H2	K-19
+K0056	pocket watch chain	A5	K-20
+K0057	decorative fob	A3	K-20
+K0058	plain belt buckle	A1	K-21
+K0059	ornate rodeo belt buckle	A1	K-21
+K0060	alcohol-free lager	OUT	K-22
+K0061	dealcoholised wine	OUT	K-22
+K0062	pale lager bottle	J7	K-22
+K0063	frozen chips	OUT	K-23
+K0064	frozen hash browns	OUT	K-23
+K0065	frozen garden peas	J4	K-23
+K0066	instant noodle brick	J5	K-24
+K0067	instant noodle pot	OUT	K-24
+K0068	en primeur wine purchase	OUT	K-25
+K0069	delivered whisky cask	J7	K-25
+K0070	live carp at market	OUT	K-26
+K0071	dried shark fin	J2	K-26
+K0072	travellers cheques	F5	K-27
+K0073	sim card	F5	K-28
+K0074	domain name registration	I2	K-29
+K0075	harbour mooring licence	OUT	K-29
+K0076	fuel pumped into car	OUT	K-30
+K0077	hay fever nasal spray	H2	K-31
+K0078	sunscreen lotion	H1	K-31
+K0079	anti-dandruff shampoo	H1	K-31
+K0080	vibrating wand massager	H3	K-32
+K0081	tens pain unit	H2	K-32
+K0082	percussion massage gun	H1	K-32
+K0083	water-based personal lubricant	H1	K-33
+K0084	male condoms	H2	K-33
+K0085	menstrual cup	H1	K-33
+K0086	disposable nappies	H1	K-33
+K0087	period underwear	A1	K-33
+K0088	ed ring pleasure only	H3	K-33
+K0089	ready-made reading glasses	H2	K-34
+K0090	plano fashion frames	A4	K-34
+K0091	non-corrective sunglasses	A4	K-34
+K0092	tinted plano contact lenses	H2	K-35
+K0093	daily disposable contact lenses	H2	K-35
+K0094	collagen drink	H2	K-36
+K0095	face moisturiser	H1	K-36
+K0096	blood glucose monitoring app	H2	K-37
+K0097	step counting app	I1	K-37
+K0098	low-vision reading magnifier	H2	K-38
+K0099	stamp collector's magnifying glass	C6	K-38
+K0100	pressure-relief mattress	H2	K-39
+K0101	ordinary adjustable bed base	B1	K-39
+K0102	wide-seat electric recliner	B1	K-39
+K0103	weighted sleep blanket	B2	K-40
+K0104	orthopaedic neck pillow	B2	K-40
+K0105	weighted blanket for sensory disorder	H2	K-40
+K0106	diabetic shoes	A2	K-41
+K0107	orthotic insoles	H2	K-41
+K0108	hinged knee brace	H2	K-41
+K0109	surgical face mask	A1	K-42
+K0110	ffp2 respirator	A1	K-42
+K0111	fall detector pendant	H2	K-43
+K0112	burglar alarm panel	B8	K-43
+K0113	hummus tub	J5	K-44
+K0114	cream cheese tub	J3	K-44
+K0115	pork pate loaf	J1	K-44
+K0116	raw beef burger patties	J1	K-45
+K0117	breaded chicken nuggets	OUT	K-45
+K0118	plain fish balls	J2	K-45
+K0119	plant protein sausage	J5	K-45
+K0120	mixed dried fruit bag	J5	K-46
+K0121	cheese and ham gift box	J1	K-46
+K0122	frozen frog legs	J1	K-47
+K0123	tinned edible snails	J2	K-47
+K0124	bitter aperitif liqueur	J7	K-48
+K0125	cocoa-led drinking chocolate	J6	K-49
+K0126	sweet chai latte mix	OUT	K-49
+K0127	malted milk drink powder	OUT	K-49
+K0128	cocoa butter block	J6	K-50
+K0129	cocoa mass slab	J6	K-50
+K0130	couverture callets	J5	K-50
+K0131	dried hibiscus flowers	J6	K-51
+K0132	roasted barley tea	J6	K-51
+K0133	kava root powder	J6	K-51
+K0134	tinned corned beef	J1	K-52
+K0135	pastrami brisket piece	J1	K-52
+K0136	margarine tub	J5	K-53
+K0137	butter and oil blend spread	J3	K-53
+K0138	whole coconut	J5	K-54
+K0139	fresh green olives	J4	K-54
+K0140	aaruul	J3	K-55
+K0141	jameed	J3	K-55
+K0142	plain kefir bottle	J3	K-56
+K0143	strawberry milk drink	OUT	K-56
+K0144	pickled eggs jar	J3	K-57
+K0145	salted duck eggs	J3	K-57
+K0146	hopped malt extract can	J5	K-58
+K0147	glass demijohn with airlock	B5	K-58
+K0148	cake baking mix	J5	K-59
+K0149	cake sprinkles	OUT	K-59
+K0150	narrowboat	G1	K-60
+K0151	unpowered house barge	G2	K-60
+K0152	tiny house on wheels	G2	K-60
+K0153	park model rv	G2	K-61
+K0154	factory building	G2	K-62
+K0155	primary school building	G2	K-62
+K0156	garden annexe with kitchen and bathroom	G2	K-63
+K0157	garden office room	G2	K-63
+K0158	sauna cabin building	G2	K-64
+K0159	portable folding sauna	B7	K-64
+K0160	yurt	E2	K-65
+K0161	bell tent	E2	K-65
+K0162	tent platform deck	G2	K-65
+K0163	pergola kit	G2	K-66
+K0164	loose decking boards	C8	K-66
+K0165	gazebo kit with fixed roof	G2	K-66
+K0166	detached garage	G2	K-67
+K0167	freehold parking bay	G2	K-67
+K0168	rented car park permit	OUT	K-67
+K0169	family video streaming plan	I3	K-68
+K0170	student music streaming plan	I3	K-68
+K0171	game character cosmetic skin	I2	K-69
+K0172	messaging sticker pack	I2	K-69
+K0173	clothing rental subscription	I3	K-70
+K0174	web hosting plan	I3	K-70
+K0175	one-off travel eSIM pack	OUT	K-70
+K0176	game launcher free account	OUT	K-71
+K0177	email client program	I1	K-71
+K0178	licensed stock photo	I2	K-71
+K0179	asset library subscription	I3	K-71
+K0180	game mod	D5	K-71
+K0181	real cut christmas tree	C3	K-72
+K0182	orchid in ceramic pot	C3	K-73
+K0183	kokedama	C3	K-73
+K0184	preserved moss wall panel	B4	K-74
+K0185	artificial ficus tree	B4	K-74
+K0186	alfalfa sprouting seed for eating	J5	K-75
+K0187	vegetable seed packet	C3	K-75
+K0188	taxidermy fox mount	F6	K-76
+K0189	jackalope assembly	F2	K-76
+K0190	plaster bust cast	F2	K-77
+K0191	dinosaur skeleton model kit	E1	K-77
+K0192	single identified shell	F6	K-78
+K0193	mixed shells for crafts	C4	K-78
+K0194	strung pearl necklace	A3	K-78
+K0195	human skull teaching specimen	OUT	K-79
+K0196	raw elephant tusk specimen	F6	K-79
+K0197	blown bird eggshell collection	F6	K-80
+K0198	dried sea urchin test	F6	K-80
+K0199	locking leather wrist cuffs	H3	K-81
+K0200	ornamental choker collar	A3	K-81
+K0201	strap-on harness	A1	K-81
+K0202	door-frame suspension swing	H3	K-82
+K0203	positioning wedge cushion	B2	K-82
+K0204	butterfly knife	E4	K-83
+K0205	fighting dagger	E4	K-83
+K0206	everyday folding pocket knife	C1	K-83
+K0207	handgun holster	A4	K-84
+K0208	ballistic plate carrier vest	E4	K-84
+K0209	toy plastic slingshot	E1	K-84
+K0210	boomerang	E2	K-84
+K0211	deactivated hand grenade	B4	K-85
+K0212	live artillery shell	OUT	K-85
+K0213	bullet reloading press	C1	K-86
+K0214	box of rifle bullets	E4	K-86
+K0215	blunted steel practice sabre	E2	K-86
+K0216	foam padded sword	E1	K-86
+K0217	blunt wushu broadsword for practice	E2	K-87
+K0218	ornamental wall dao	B4	K-87
+K0219	pull-pin personal siren	B8	K-88
+K0220	pepper spray canister	E4	K-88
+K0221	electric kick scooter	G1	K-89
+K0222	unpowered kick scooter	E2	K-89
+K0223	hoverboard	G1	K-90
+K0224	unpowered unicycle	E2	K-90
+K0225	child's pedal bicycle with stabilisers	G1	K-91
+K0226	racing go-kart	G1	K-92
+K0227	motocross bike	G1	K-92
+K0228	quad bike with tow hitch	G1	K-93
+K0229	tool-carrier tractor	C7	K-93
+K0230	tipper trailer	G1	K-94
+K0231	slurry tanker	C7	K-94
+K0232	pet stroller	G1	K-95
+K0233	cat carrier bag	B10	K-95
+K0234	skydiving parachute rig	E2	K-96
+K0235	fpv racing drone	E1	K-97
+K0236	filming drone with gimbal camera	D4	K-97
+K0237	toy drone without camera	E1	K-97
+K0238	four-wheel mobility scooter	H2	K-98
+K0239	powered wheelchair	H2	K-98
+K0240	garden tractor with mower deck	C2	K-99
+K0241	compact utility tractor	C7	K-99
+K0242	centre pivot irrigator	C7	K-100
+K0243	oscillating garden sprinkler	C2	K-100
+K0244	sheep eid stick reader	C7	K-101
+K0245	pet microchip scanner	B10	K-101
+K0246	twelve-egg hobby incubator	B10	K-101
+K0247	cat scratching post	B10	K-102
+K0248	stair gate for toddlers	B8	K-103
+K0249	pet-only dog gate	B10	K-103
+K0250	child and pet gate	B8	K-103
+K0251	garden pond liner	C2	K-104
+K0252	indoor aquarium filter	B10	K-104
+K0253	beekeeper suit with veil	A1	K-105
+K0254	wooden beehive	B10	K-105
+K0255	hand-cranked honey extractor	B10	K-106
+K0256	kitchen honey dipper	B5	K-106
+K0257	loose devotional medal	F4	K-107
+K0258	saint medal on chain	A3	K-107
+K0259	orthodox icon on wood panel	F4	K-108
+K0260	wall crucifix	F4	K-108
+K0261	oil painting of madonna in landscape	F2	K-108
+K0262	divination tarot deck	F4	K-109
+K0263	french tarot card pack	E1	K-109
+K0264	temple chanting bell	F4	K-110
+K0265	mala with counter	F4	K-111
+K0266	fashion bead necklace	A3	K-111
+K0267	printed bible	F1	K-112
+K0268	torah scroll	F4	K-112
+K0269	printed baptism certificate	F5	K-112
+K0270	saint votive candle	F4	K-113
+K0271	meditation cushion	B2	K-113
+K0272	scented pillar candle	B4	K-113
+K0273	ouija board	F4	K-114
+K0274	crystal dowsing pendulum	F4	K-114
+K0275	fortune telling party board game	E1	K-114
+K0276	masonic apron	A1	K-115
+K0277	masonic lapel pin	A3	K-115
+K0278	japanese stone garden lantern	B4	K-116
+K0279	shrine offering stone lantern	F4	K-116
+K0280	omamori charm	F4	K-117
+K0281	evil-eye pendant	A3	K-117
+K0282	postally used envelope	F5	K-118
+K0283	prestamped postal envelope	F3	K-118
+K0284	championship ring	F3	K-119
+K0285	championship belt	F3	K-119
+K0286	board game play money	E1	K-120
+K0287	souvenir banknotes	F3	K-120
+K0288	football sticker collection	F3	K-121
+K0289	collectible card game booster	E1	K-121
+K0290	gold coin in bezel pendant	A3	K-122
+K0291	loose gold coin	F3	K-122
+K0292	bullion bar	F3	K-122
+K0293	wedding tiara	A3	K-123
+K0294	coronation crown	F3	K-123
+K0295	child's plastic crown	E1	K-123
+K0296	analogue sports watch with sensors	A5	K-124
+K0297	gps navigation sports watch	D2	K-124
+K0298	digital watch with pulse sensor	A5	K-124
+K0299	ballistic helmet	E4	K-125
+K0300	ski helmet	E2	K-125
+K0301	leather riding boots	A2	K-125
+K0302	bikini	A1	K-126
+K0303	competition racing swimsuit	E2	K-126
+K0304	track spike shoe	E2	K-127
+K0305	basketball sneakers worn daily	A2	K-127
+K0306	knee-high socks	A1	K-128
+K0307	rubber galoshes	A2	K-128
+K0308	hair comb	A3	K-129
+K0309	fabric headband	A1	K-129
+K0310	kumkum powder	H1	K-129
+K0311	plastic toy jewellery set	E1	K-130
+K0312	child-size silver ring	A3	K-130
+K0313	insulated lunch bag	B5	K-131
+K0314	canvas tote bag	A4	K-131
+K0315	school pencil case	C5	K-132
+K0316	toiletry wash bag	H1	K-132
+K0317	battery neck fan	B7	K-133
+K0318	folding paper hand fan	A4	K-133
+K0319	furoshiki cloth	B2	K-134
+K0320	drawstring gift cloth bag	C5	K-134
+K0321	head-worn binocular loupe	C6	K-135
+K0322	plush keyring figure	E1	K-136
+K0323	leather tassel bag charm	A4	K-136
+K0324	chalk bag	A4	K-137
+K0325	ski bag for one pair	E2	K-137
+K0326	skin insect repellent lotion	H1	K-138
+K0327	mosquito coil	B8	K-138
+K0328	unsigned family snapshot print	F5	K-139
+K0329	signed numbered art photograph	F2	K-139
+K0330	restaurant menu card	F5	K-140
+K0331	wedding invitation	F5	K-140
+K0332	home-recorded cassette tape	F5	K-141
+K0333	published album cd	F1	K-141
+K0334	pictorial wall map	F1	K-142
+K0335	art print of a city view	F2	K-142
+K0336	nearfield studio monitor speaker	E3	K-143
+K0337	bookshelf hi-fi speaker	D3	K-143
+K0338	usb mic stated for vocal recording	E3	K-144
+K0339	usb mic stated for streaming	D1	K-144
+K0340	stage moving-head light	B3	K-145
+K0341	adjustable piano bench	B1	K-145
+K0342	record jukebox	D3	K-146
+K0343	coin-operated arcade cabinet	D5	K-146
+K0344	digital multimeter	C1	K-147
+K0345	analytical laboratory balance	C6	K-147
+K0346	golf laser rangefinder	E2	K-148
+K0347	building laser distance measurer	C1	K-148
+K0348	rangefinding binoculars	C6	K-148
+K0349	chemistry experiment kit	C6	K-149
+K0350	programmable play robot	E1	K-149
+K0351	pocket flac audio player	D3	K-150
+K0352	pcie sound card	D1	K-150
+K0353	recording audio interface	E3	K-150
+K0354	camcorder	D4	K-151
+K0355	golf gps handheld	D2	K-151
+K0356	handheld gaming pc	D5	K-152
+K0357	standalone vr headset	D5	K-153
+K0358	smart glasses with camera and speakers	D2	K-153
+K0359	boxed console game disc	D5	K-154
+K0360	handheld cartridge game	D5	K-154
+K0361	coin-op driving arcade machine	D5	K-155
+K0362	pinball machine	E1	K-155
+K0363	claw crane machine	E1	K-155
+K0364	photographic paper	D4	K-156
+K0365	wildlife trail camera	D4	K-156
+K0366	portable power station	B7	K-157
+K0367	pocket power bank	D2	K-157
+K0368	copier paper ream	C5	K-158
+K0369	lcd writing tablet	D2	K-158
+K0370	fitness rebounder	E2	K-159
+K0371	child's toy kite	E1	K-160
+K0372	sport power kite	E2	K-160
+K0373	hydration bladder	B5	K-161
+K0374	hydration backpack	A4	K-161
+K0375	headtorch	B3	K-162
+K0376	rifle weapon light	E4	K-162
+K0377	duck decoys	E2	K-163
+K0378	clay pigeon trap	E2	K-163
+K0379	archery target butt	E2	K-163
+K0380	carbon arrows	E4	K-163
+K0381	leather cigar case	B9	K-164
+K0382	desktop cigar humidor cabinet	B1	K-164
+K0383	cbd muscle balm	B9	K-165
+K0384	plain shea body balm	H1	K-165
+K0385	butane refill canister	C8	K-166
+K0386	hookah charcoal	B9	K-166
+K0387	rolling tray	B9	K-167
+K0388	airtight stash jar	B1	K-167
+K0389	dried salvia leaves	B9	K-168
+K0390	dried psychoactive mushrooms	B9	K-168
+K0391	live peyote cactus	C3	K-168
+K0392	candle wax pellets and wicks	C4	K-169
+K0393	epoxy resin craft kit	C4	K-169
+K0394	wood chisel set	C1	K-169
+K0395	calligraphy brush pen	C5	K-170
+K0396	watercolour brush	C4	K-170
+K0397	date stamp for office	C5	K-171
+K0398	rubber stamp set for scrapbooks	C4	K-171
+K0399	washi tape	C4	K-171
+K0400	art-studio taboret	B1	K-172
+K0401	wall emulsion paint	C8	K-172
+K0402	hand-held petrol chainsaw	C2	K-173
+K0403	felling axe	C1	K-173
+K0404	tractor pto log splitter	C7	K-173
+K0405	bark chippings bag	C2	K-174
+K0406	sharp sand for mortar	C8	K-174
+K0407	paving slabs	C8	K-174
+K0408	garden hose water pump	C2	K-175
+K0409	submersible sump pump	C1	K-175
+K0410	pool chlorine tablets	C2	K-176
+K0411	robotic pool cleaner	C2	K-176
+K0412	hot tub filter cartridge	B7	K-176
+K0413	rain water butt	C2	K-177
+K0414	underground rain tank	C2	K-177
+K0415	weedkiller concentrate	C2	K-178
+K0416	ant killer powder	B8	K-178
+K0417	ceramic cachepot	C2	K-179
+K0418	plant stand	B1	K-179
+K0419	brass candlestick	B4	K-180
+K0420	wall candle sconce	B4	K-180
+K0421	enclosed storm lantern	B3	K-180
+K0422	under-cabinet led strip	B3	K-181
+K0423	decorative fairy lights	B4	K-181
+K0424	hand-painted wall plate	B5	K-182
+K0425	wooden serving tray	B5	K-182
+K0426	lavender essential oil for diffuser	B4	K-183
+K0427	chest rub eucalyptus oil	H2	K-183
+K0428	electric aroma diffuser	B4	K-183
+K0429	vanity unit with basin	B7	K-184
+K0430	vanity cabinet without basin	B1	K-184
+K0431	bathroom heated towel rail	B7	K-185
+K0432	free-standing heated airer	B6	K-185
+K0433	electric boiler	B7	K-186
+K0434	underfloor heating mat kit	B7	K-186
+K0435	shower tray	C8	K-186
+K0436	anti-burglar gravel	C2	K-187
+K0437	anti-climb spikes	B8	K-187
+K0438	security window film	B8	K-187
+K0439	freestanding letterbox on post	B8	K-188
+K0440	door letter plate	C8	K-188
+K0441	curtain pole with rings	B2	K-189
+K0442	rug underlay	B2	K-189
+K0443	workbench with vice	C1	K-190
+K0444	hospital bed	H2	K-190
+K0445	barber chair	H1	K-190
+K0446	bookends	B1	K-191
+K0447	fire exit safety sign	C8	K-192
+K0448	padded post envelope	C5	K-193
+K0449	bubble wrap roll	C8	K-193
+K0450	lidded storage box	B1	K-193
+K0451	mini excavator	C1	K-194
+K0452	skid steer loader	C1	K-194
+K0453	forestry harvester	C7	K-194
+K0454	electric fence energiser	C8	K-195
+K0455	wire mesh fence panel	C8	K-195
+K0456	cattle crush	C7	K-195
+K0457	cabinet knob	C8	K-196
+K0458	cabinet pull handle	C8	K-196
+K0459	door lockset with deadbolt	B8	K-196
+K0460	backdrop support stand	D4	R-1
+K0461	muslin photo backdrop	B2	R-1
+K0462	relic in reliquary	F4	R-3
+K0463	anatomical human spine specimen	OUT	R-3
+K0464	decorative mezuzah case	F4	R-4
+K0465	illustrated oracle deck	F4	R-5
+K0466	mouse snap trap	B8	R-6
+K0467	leg-hold fur trap	E2	R-6
+K0468	building bird netting	B8	R-7
+K0469	vegetable garden crop netting	C2	R-7
+K0470	freestanding play yard	B1	R-8
