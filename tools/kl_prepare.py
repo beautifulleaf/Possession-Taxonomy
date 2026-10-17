@@ -78,7 +78,8 @@ def normalise(code):
     write_tsv(ip, items, ITEM_FIELDS)
     return xw
 
-ITEM_FIXES = {  # R-62
+ITEM_FIXES = {  # R-62, R-64
+    "KL-A2-07": {"expected_kind": "A2.2.1.02"},
     "KL-F2-22": {"definition": "Hand-painted, clear-glazed slip-cast earthenware figure of a girl sitting in an apple tree, "
                                "10.25 in high, sculpted by Arthur Moeller in 1940, number 141 in a German maker's series."},
 }
