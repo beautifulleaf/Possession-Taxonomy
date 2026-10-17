@@ -119,3 +119,19 @@ Drafted by the domain A review (framework/structure/_review_A.md, section 4) and
 **Photographic prints** carry both `process` and `mount_format`.
 
 **Sources files.** Add a `fetch_status` column (full, partial, nav-only, failed) to every S2 sources TSV through a tool, and list excerpt-only facts in `S2_<CODE>_excerpts.tsv`. (Not yet done: needs a tools/ script.)
+
+## Proposed conventions for domain J (framework/structure/_review_J.md, section 5, JC1–JC7; owner approval needed)
+
+**JC1. Standards and designations.** Two tables: `standard` (measured or legal grading scheme; values attach as (`subject_id`, `standard_id`, `value`)) and `designation` (protected or legal name of origin or method; `scheme`, `register_id`, `authority` = consortium, never a maker). Placement: a designation binding one kind is a non-maker named form of that kind; one spanning several kinds is a tag; a designation is a kind only under C11 (owner may want a written exception for Champagne, Cognac and similar: J review question 2).
+
+**JC2. Unit-price band for groceries.** `unit_price_band` in USD per kg (solids) or per litre (liquids), from a dated sourced list price, bands set at first data load. J7 also keeps the C4(d) item band per 750/700 ml bottle.
+
+**JC3. Supply role.** `maker_class` keeps its C1 values; a multi-valued J column `supply_role` (farm or ranch; fishery or aquaculture; grower or marketing body; licensor; processor or packer; curer or smokehouse; cannery; cheesemaker or creamery; affineur; dairy or bottler; egg packing centre; mill; roaster; tea house or estate; winery or estate; négociant; cooperative; distillery; brewery; cider maker; independent bottler; importer or trader; retail own-label). Certifications on the named form or product.
+
+**JC4. State, process and pack.** Storage state is an attribute. A preserving process that makes a different product compared on its own may define a level, on that level's stated axis only. A pack that keeps the same product is an attribute; a single-serve pack made for a machine system is a kind with the system in C13. A quality ladder on the same product is an attribute with its `standard`; a legal name fixing a different composition is a kind.
+
+**JC5. Formed, spread and mixed products** follow the X2, X3 and X5 sentences (see _framework_conflicts.md, domain J).
+
+**JC6. Tradition tags and Culinary links.** One J `tradition` vocabulary; `origin` is the place of production; no `cuisine` tag. Every kind, and any named form, designation or variety row that Culinary names, carries `culinary_link` entries (target code; relation `same product`, `eaten as`, `used in`). Links may start from a designation or variety row.
+
+**JC7. One variety reference table** (species, cultivar, breed or varietal, holder, sources) shared by J1 breeds, J4 cultivars, J5 rice and dried crops, J6 coffee varietals and tea cultivars, and J7 grapes.
