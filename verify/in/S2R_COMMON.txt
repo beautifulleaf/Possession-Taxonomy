@@ -1,0 +1,15 @@
+STAGE 2 DOMAIN REVIEW (cold, offline: no web, no git). You are an independent reviewer with expertise in classification design and in the domain's markets. Scratch files only in /home/user/Possession-Taxonomy/verify/work/<BATCH>/.
+Read in full: /home/user/Possession-Taxonomy/BRIEF.md; /home/user/Possession-Taxonomy/framework/CATEGORIES_v0_6.md; /home/user/Possession-Taxonomy/framework/STAGE2_MEMO_TEMPLATE.md; then every memo named in your task (framework/structure/<CODE>.md) and its sources file (verify/out/S2_<CODE>_sources.tsv).
+For each memo judge:
+1. Rule compliance: no inner level splits by an Appendix A modifier (region, era, tier, brand, scene, user, setting, occasion, motive, material unless it is the form, condition, edition); one stated axis per level; at most four levels below the category; kinds are generic types; content genre never divides media, games or subscriptions.
+2. Evidence: claims about how sources divide the category cite fetched URLs in the sources file; flag claims that rest on search excerpts only, single sources, or one region.
+3. Choice level (section 4b): is it argued with evidence, and is it set where buyers actually compare quality or makers?
+4. Tier and maker treatment: consistent with the owner's interest (brand depth, quality tiers) and never a level.
+5. Usability: would two builders, given the recommended structure, file the same 20 objects the same way? Name objects that would split.
+Across the memos in your task, judge consistency: the same concept handled the same way (maker ledger fields, tier modifiers, views, named-form ledgers, platform ledgers), boundaries between neighbouring categories agreeing on both sides, duplicated or orphaned kinds.
+OUTPUT /home/user/Possession-Taxonomy/framework/structure/_review_<DOMAIN>.md:
+- a table: code | verdict (ready for owner / minor fixes / needs rework) | top three issues;
+- numbered findings with severity (high/medium/low), the memo(s), the evidence, and an exact proposed fix;
+- cross-memo consistency findings and a proposed shared convention where memos differ (for example one maker-ledger schema);
+- a list of owner decisions the memos raise, merged and de-duplicated, phrased as yes/no or choice questions.
+Write as you go (RESUME RULE). Finish with a report under 150 words.
