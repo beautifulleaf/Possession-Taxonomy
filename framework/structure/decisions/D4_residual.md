@@ -35,6 +35,7 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
   - (n) Step 5 note: replace "a free companion app is part of the device" with "a free companion app is I1 software and part of the device's C13 ecosystem row (R-14)".
   - (o) Step 25 E1 branch: "tabletop and coin-operated games (pinball machines, claw cranes, redemption games and casino slot machines; coin-operated video cabinets are D5, step 24)" (K-155).
   - (p) Step 24 D1 branch, "storage": add "(a memory card or drive in a format made only for one console follows it, S3b)" (D5-O1).
+  - (q) S3b K-8 sentence: "(S3: D3, monitors D1, studio and stage speakers E3)".
   - Further amendments raised by later S2U passes are appended here.
 - **R-17** J5 leaves: drinking bitters stay J7 (K-48), and bitters sold as a flavouring go to the condiments and sauces leaf. Mirin and cooking wines go to the vinegars and cooking-liquids leaf. Home-brewing ingredients (malt extract, hops, brewing yeast) go to the baking and fermenting-aids leaf. This adopts the S2U_J5 pass's own reading.
 - **R-18** CV-46 applies to food as well: a brand line spanning several kinds is a lines row; a line inside one kind is a maker-bound named form (C2(d)). This confirms the S2U_J5 treatment.
@@ -56,3 +57,4 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
 - **R-34** A towed, self-engined chipper made for forestry work is C7 (forestry job); one made for tree surgery and grounds care is C2. Raised by S2U_C7.
 - **R-35** Consumable brand lines (CV-46 against R-18): a brand line of everyday consumables is a lines row when it covers several products or more than one kind; a single product inside one kind is a maker-bound named form (C2(d)). CONVENTIONS_v1 C2(e) is reworded to match. Raised by S2U_C8.
 - **R-36** Custom keyboards: a keyboard kit (case, plate and PCB sold to be built) is a kind with keyboards in D1. Keycap sets, switches, plates and stabilisers are D1 parts made for keyboards (S3, CV-17), and keycap sets are uncapped named forms under the depth rule. Raised by S2U_D1.
+- **R-37** Music accessories not made for one instrument (music stand, metronome, tuner, practice mute for several instruments) go to a closing E3 multi-use sub-family "Music accessories" (C14(c)), not the parts sub-family. Parts and accessories made for one instrument stay in parts. Left-handedness is the attribute `handedness`. Dropping genre-based scene tags (bluegrass, folk) under BRIEF is confirmed. Raised by S2U_E3.
