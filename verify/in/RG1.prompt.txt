@@ -1,0 +1,6 @@
+BATCH RG1 — build a regression item set for a blind placement test. Offline: no web, no git.
+Read /home/user/Possession-Taxonomy/verify/out/AU1.md and /home/user/Possession-Taxonomy/verify/out/AU2.md (two audits of a taxonomy's top level). Also read /home/user/Possession-Taxonomy/verify/in/BP2A.tsv (items already tested; do not repeat any of them).
+Collect every distinct concrete EXAMPLE OBJECT named in the two audits' "Examples" lines (generic object types such as 'motorcycle helmet', 'kitchen scales', 'fencing foil', 'tile in a box', 'Funko Pop figure', 'sourdough starter'). Skip abstract or duplicate entries and anything already in BP2A.tsv (compare names loosely). Aim for 180–260 items.
+For each item write ONE plain definition sentence (8–25 words) saying what the object is and what it is made for, from general knowledge. Never name a category, department, step or code in the definition, and never repeat the audit's verdict (do not write 'a weapon', 'sport gear', 'a decoration', 'furniture', 'an appliance', 'a toy', 'a tool'); describe form and use.
+Output /home/user/Possession-Taxonomy/verify/out/RG1.tsv with header: item	definition
+Write rows as you go; if the file exists, continue without duplicating. Finish with a one-line count.

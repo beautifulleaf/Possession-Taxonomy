@@ -5,7 +5,7 @@ from common import ROOT, read_tsv, write_tsv
 P = sys.argv[1]
 nodes = {r["nid"]: r for r in read_tsv(ROOT / "data/source_nodes.tsv")}
 rows = []
-for f in sorted(glob.glob(str(ROOT / f"verify/out/{P}0[0-9].tsv"))):
+for f in sorted(glob.glob(str(ROOT / f"verify/out/{P}[0-9]*.tsv"))):
     rows += read_tsv(f)
 c = Counter()
 issues = []
