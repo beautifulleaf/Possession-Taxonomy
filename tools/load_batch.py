@@ -55,7 +55,8 @@ def main():
                 alt = ROOT / f"verify/work/load_{b}_{name}_status.tsv"; alt.parent.mkdir(parents=True, exist_ok=True)
                 write_tsv(alt, rows_, list(rows_[0].keys())); FIX[name] = alt
                 print(f"{name}: fetch_status rebuilt from the fetch log for {fixed} rows")
-    if not f("roster_only").exists() and f("untied").exists(): FIX["roster_only"] = f("untied")
+    for alt_name in ("untied", "makers_untied"):
+        if not f("roster_only").exists() and f(alt_name).exists(): FIX["roster_only"] = f(alt_name)
     if f("roster_only").exists():  # some batches put makers with no garment type in a reduced file: same rule (R-76)
         ro = read_tsv(f("roster_only"))
         mk_rows = read_tsv(f("makers")) if f("makers").exists() else []
