@@ -21,6 +21,7 @@ def main():
     out = ROOT / "verify/out"
     FIX = {}
     f = lambda s: FIX.get(s, out / f"{b}_{s}.tsv")
+    if not f("roster_only").exists() and (out / f"{b}_untied.tsv").exists(): FIX["roster_only"] = out / f"{b}_untied.tsv"
     if f("roster_only").exists():  # some batches put makers with no garment type in a reduced file: same rule (R-76)
         ro = read_tsv(f("roster_only"))
         mk_rows = read_tsv(f("makers")) if f("makers").exists() else []
