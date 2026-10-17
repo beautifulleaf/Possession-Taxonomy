@@ -1,0 +1,40 @@
+STAGE 2 DECISIONS (offline: no web, no git). The owner delegated the stage-2 answers on 2026-10-17 ("Your judgment for the answers"). You write those answers. Each one is recorded as a decision delegated by the owner and made by Claude, and the owner can overturn it. You are deciding, not proposing: give one answer to every question.
+
+RESUME RULE: if your output file exists, continue from the first question id not yet answered (the file is written in id order). Helper notes only in verify/work/<BATCH>/.
+
+Read: BRIEF.md (owner decisions: binding); framework/CATEGORIES_v0_6.md; framework/structure/_conventions.md; framework/structure/STAGE2_SUMMARY.md; framework/structure/STAGE2_OWNER_QUESTIONS.md (the questions); and any decision files named in your task. Open a memo (framework/structure/<CODE>.md, sections 9–11) or review only to understand a question.
+
+How to decide, in this order:
+1. BRIEF binds. Never contradict an owner decision. Standing owner preferences: very deep variety where it exists (clothing and its subculture brands); quality tiers recorded where they are clear (PC parts) and treated as preference elsewhere; the choice-level rule (a kind stops where buyers compare makers or quality; a brand can stand out for "frozen vegetables" without a kind "frozen peas"); groceries as quality ingredients, never dishes (dishes are Culinary); objects only, never genres; tickets and one-off services out; utility versus entertainment decides online services, not price.
+2. The object, not the motive (S5). Never adopt a test that depends on use, intent, who buys or a jurisdiction's legal class. Legal classes go to the C17 ledger.
+3. Default: adopt the recommendation given ([Rec: …] or the bracket). Depart only when it breaks 1 or 2, makes a home depend on a fact nobody can check on the object, or adds kinds or levels that buyers do not compare. When no recommendation is given, choose the option with the simpler one-sentence rule that keeps round-5 placements stable.
+4. Prefer attributes over kinds, fewer levels over more, one shared rule over per-category rules, and a written precedence sentence over a silent gap.
+5. No separate sourcing pass will be run (owner, 2026-10-17: † claims are attested when kinds are harvested in stage 3, as in the Culinary taxonomy). If a decision depends on an unverified fact, still decide, and mark it "provisional until attested: <fact>".
+
+Rulings already made (apply them; do not re-decide):
+- K-1 sets: the H/F sentence; a furniture suite or set sold as one unit is filed by its pieces with a unit-of-sale attribute (review B's tag), so no suite kinds.
+- K-2 cables, K-3 chargers, K-4 batteries, K-5 phone-only accessories: as proposed.
+- K-6: electronics made to be fitted to a vehicle (car audio, dashcam, mounted sat-nav, bike computer, OBD tracker) are G1; a portable sat-nav is D2.
+- K-9 albums and holders: as proposed.
+- K-24: sealed ready-to-drink alcoholic drinks (RTD cocktails, hard seltzer, canned gin and tonic) are J7; a dry noodle brick is J5; a noodle cup or pot is a ready meal (prepared, OUT, Culinary).
+- K-31 H1/H2 line and K-34 spectacles: as proposed.
+- K-44 spreads: as proposed, with the dairy exception: spreads and fresh cheeses made from milk (labneh, cream cheese, butter, ghee) are J3.
+- K-45 formed products: as proposed. A whole cut cooked, cured, glazed or herb-rolled and sold to slice (glazed ham, porchetta) is J1; "coated" means breaded or battered; "filled" means a pastry, dumpling or stuffed dish.
+- K-46 mixed products, K-47 edible insects (J1), snails (J2): as proposed.
+- K-60 houseboats: as proposed; the narrowboat is G1; the tiny house on wheels is G2.
+- K-62: commercial, industrial and institutional buildings are IN, in G2, as one leaf "other buildings by function" with a few kinds; no market sub-family.
+- K-73: a living plant in any container is C3.
+- K-99: the tractor design test (rear PTO plus Category 1 or larger three-point hitch makes it C7).
+- K-107 religious medals, K-118 cards, scrip and covers (narrow rule; a cover that passed through the post and is not administration-issued or first-day is F5): as proposed.
+- K-125: weapon threat E4; a helmet or goggles made for one sport E2 (an equestrian riding hat is E2); other hazard helmets A1, cycling and motorcycle helmets included; riding boots are A2.
+- K-127 court and gym shoes, K-139 photographs (step 19 drops "of the owner's own life"), K-170 writing against drawing: as proposed.
+- K-154: D5 game software kinds by carrier type; platform an attribute and a C13 row, with a by-platform view; reword the D5 line.
+- K-173: option (a): hand-held chainsaws and pole saws C2; axes, wedges and log splitters C1; tractor-driven splitters and chippers C7.
+- K-194 earth-moving machines: as proposed.
+- Open contradictions: workbench C1 (a work surface made for tool work; general tables B1); pencil case C5; Japanese stone lantern B4 (garden decor), F4 only for a lantern made as a shrine offering by its form (votive inscription and shape attested); labneh J3; hard seltzer J7.
+- B10: allow the animal group as B10's first axis (an Appendix A exception written into the key: K-102 yes).
+- Per-category top 15 (summary §5a): adopt all fifteen recommendations; J-1 is (b): cuts are kinds for meat, shape families for pasta.
+
+Output format (markdown): a short header (who decided, date, rules used), then one line per question in id order:
+`- **<ID>** <decision in ≤ 30 words>. <adopted | departed: reason ≤ 20 words> <provisional until attested: … (if any)>`
+For K items you adopt, the decision must quote or name the exact sentence to add to the key; for K items with options, name the option. End with "## Departures from recommendations" (a list of every departure with its reason) and "## Decisions that need attestation" (a list). Report the file path, size and counts (adopted, departed, provisional).
