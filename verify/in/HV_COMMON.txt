@@ -1,0 +1,26 @@
+STAGE 3 HARVEST (pilot), ONE BATCH = one category and a group of its sub-families. Web allowed; no git.
+Web rules (CLAUDE.md): only WebSearch/WebFetch or mcp__Parallel_Auth__web_search / mcp__Parallel_Auth__web_fetch (allow_live_fetch on). Never curl, wget or Python fetching, never archives or caches, never guessed URLs: fetch only URLs you found in a search result, a catalogue row or a fetched page. A search excerpt may locate an item but never attests it; every row you write needs a page you fetched yourself that shows the thing.
+RESUME RULE: append rows as you go. If an output file exists, read it, skip ids already written and continue. Keep a log of fetched URLs and their status in verify/work/<BATCH>/fetched.tsv (url, fetch_status, what it attested). Helper files only in verify/work/<BATCH>/.
+
+Owner rules (BRIEF.md): depth and breadth are the point, with no caps; one fetched page proves existence (a maker's or shop page, catalogue, database, auction or marketplace listing, museum or trade record); use the existing catalogues first; makers, houses and designers go in the maker ledger, never as kinds; genres of games, music and film are never used here.
+
+Inputs (read first):
+- framework/structure/CONVENTIONS_v1.md (C1 makers, C2 named forms, C3 variants: a colourway, size or edition is never a named form).
+- The decided tree verify/out/TREE_<CODE>.md, and the kind worklist verify/out/HV_<CODE>_worklist.tsv (kind_id, sub_family, leaf, name, definition, dagger). Work only on the sub-families named in your task.
+- The anchor catalogues for the category: rows of data/source_catalogues.tsv with code <CODE> (start with them; open web search fills gaps).
+
+Tasks, in this order, per sub-family:
+1. Kinds. For every kind of your sub-families, find one fetched page that shows the kind is made or sold as that generic type (a shop category page or product page, a catalogue or database entry). A category page that lists many kinds may attest each of them. Write one row per kind attested. If a kind cannot be attested after a fair search (about three searches and two fetches), write no row and list it in your report with what you tried. If a fetched page shows a generic type of this sub-family that the tree lacks, do not add a kind: list it in the report as "missing kind?" with its URL.
+2. Named forms. From the pages you fetch (catalogue first), record named forms under their kind: maker-bound models or lines inside one kind (with the maker) and non-maker named designs many makers make (penny loafer type). Record as many as the fetched pages attest; no cap. Never record a colourway, size, reference number, collaboration or edition as a named form.
+3. Makers. Record every maker a fetched page names as making or selling a kind of these sub-families, with maker_class from C1 and country if the page states it. A maker row needs a page that shows it makes or sells such an object.
+
+Outputs (TSV, tab-separated, header row exactly as given; fields must not contain tabs or line breaks; several sources are joined with " | " and fetch_status has one value per source in the same order):
+- verify/out/<BATCH>_kinds.tsv: kind_id, code, sub_family, leaf, name, native_name, definition, sort, status, memo_ref, tested, notes, sources, fetch_status
+  (kind_id, sub_family, leaf, name, definition from the worklist; status = attested; sort = the order in the worklist; tested = "kind-level" for A2 B8 C1 D4 E1 F2 F4 G2 H2 I2 J5 trees, else "top-level"; notes: anything the page shows that bears on the definition, ≤ 20 words.)
+- verify/out/<BATCH>_named_forms.tsv: named_form_id, kind_id, name, native_name, maker_bound, maker_id, line_id, first_year, base_named_form_id, flanker_of, licensor_id, licence_class, spdx_id, region, culture, register_id, notes, sources, fetch_status
+  (named_form_id = NF-<kind_id>-<nnn>, numbered from 001 inside each kind in the order you record them; maker_bound yes or no; maker_id as below; leave columns empty when unknown.)
+- verify/out/<BATCH>_makers.tsv: maker_id, name, native_name, maker_class, supply_role, country, place, founded, ended, status, parent_id, licensor_id, authority_id, school_ids, extension, notes, sources, fetch_status
+  (maker_id = M- plus the name in lower case, ASCII letters and digits only, words joined by "-": M-levi-strauss-co, M-asus; one row per maker.)
+fetch_status values: full (the fetched page showed the item), partial (the page rendered in part but the item was visible), nav-only (only navigation came back), failed, excerpt-only. Only rows with at least one full or partial source count; do not write rows whose only evidence is excerpt-only, nav-only or failed.
+
+Report (under 250 words): counts of kinds attested and not attested (list the latter), named forms and makers recorded, the catalogues used and how well they served, and any "missing kind?" with its URL.
