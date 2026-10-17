@@ -31,3 +31,7 @@ Agreed with the owner on 2026-10-17.
 - Grocery products that the Culinary taxonomy also holds (cheese, cured meats, fruit, tea, coffee, wine) are described here as bought, with their quality grade, and link to the Culinary kind.
 - Cannabis and nicotine products are in, with tobacco.
 - Baby and child goods have no category of their own; each goes to its functional home.
+
+## Owner decisions on stage 2 (2026-10-17)
+- **Stage-2 answers delegated to Claude:** "Your judgment for the answers." Claude answers the shared-convention, framework and per-category questions of framework/structure/STAGE2_OWNER_QUESTIONS.md and STAGE2_SUMMARY.md. The answers are in framework/structure/decisions/ (D1 shared and framework, D2 categories A–E, D3 categories F–J), each marked as delegated. The owner may overturn any of them; until then they bind like owner decisions.
+- **No separate sourcing pass:** the owner questioned the need for sourcing passes compared with the Culinary taxonomy. Claims marked † in the stage-2 memos are attested when kinds are harvested in stage 3, as in the Culinary taxonomy. A decision that rests on an unverified fact is marked "provisional until attested".
