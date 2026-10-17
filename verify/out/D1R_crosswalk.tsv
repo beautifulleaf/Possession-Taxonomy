@@ -1,0 +1,120 @@
+old_kind_id	new_kind_id	kind	reason
+D1.1.1.01	D1.1.02	Tower desktop PC	
+D1.1.1.02	D1.1.04	Mini PC	
+D1.1.1.03	D1.1.03	All-in-one PC	
+D1.1.1.04	D1.1.07	Keyboard computer	
+D1.1.2.01	D1.1.01	Laptop	
+D1.1.2.02	D1.1.08	Pocket computer	
+D1.1.3.01	D1.1.05	Barebone kit	
+D1.1.3.02	D1.1.09	Trainer kit	
+D1.2.1.01	D1.2.1.01	Processor	
+D1.2.2.01	D1.2.3.01	Motherboard [mainboard, Mainboard]	
+D1.2.2.02	D1.2.3.02	Board with CPU fitted	
+D1.2.3.01	D1.2.4.01	DIMM memory module	
+D1.2.3.02	D1.2.4.02	SODIMM memory module	
+D1.2.4.01	D1.2.6.01	Graphics card [video card; グラフィックボード; ビデオカード]	
+D1.2.4.02	D1.2.6.02	External GPU enclosure	
+D1.2.5.01	D1.2.8.01	PC power supply unit	
+D1.2.6.01	D1.2.7.01	PC case	
+D1.2.7.01	D1.2.2.01	Air CPU cooler	
+D1.2.7.02	D1.2.2.02	All-in-one liquid cooler	
+D1.2.7.03	D1.2.2.03	Custom-loop parts	
+D1.2.7.04	D1.2.2.04	Case fan	
+D1.2.7.05	D1.2.2.05	Thermal paste	
+D1.2.7.06	D1.2.2.07	M.2 heatsink	
+D1.2.7.07	D1.2.2.08	Fan controller	
+D1.2.7.08	D1.2.2.06	Thermal pad	
+D1.2.8.01	D1.2.9.01	Sound card	
+D1.2.8.02	D1.2.9.02	Network adapter card	
+D1.2.8.03	D1.2.9.03	Video capture card	
+D1.2.8.04	D1.2.9.04	I/O expansion card	
+D1.2.8.05	D1.2.9.05	TV tuner card	
+D1.2.9.01	D1.2.10.01	Internal PC cable	
+D1.3.1.01	D1.2.5.01	Internal SSD	internal storage is a build slot (PCPartPicker Storage in the parts list); external drives stay in External storage and media
+D1.3.1.02	D1.2.5.02	Internal HDD	internal storage is a build slot (PCPartPicker Storage in the parts list); external drives stay in External storage and media
+D1.3.1.03	D1.5.01	External SSD	
+D1.3.1.04	D1.5.02	External HDD	
+D1.3.2.01	D1.5.03	USB flash drive	
+D1.3.2.02	D1.5.04	Memory card	
+D1.3.3.01	D1.5.06	Drive enclosure	
+D1.3.3.02	D1.5.05	Memory-card reader	
+D1.3.4.01	D1.5.08	Optical drive	stays with storage and media, not the build's storage slot: disc drives are shopped as their own class (PCPartPicker lists them under accessories), bay or USB alike
+D1.3.4.02	D1.5.09	Floppy disk drive	stays with storage and media; the attested product is a USB drive, and connection is an attribute
+D1.3.5.01	D1.5.07	NAS	
+D1.4.1.01	D1.3.1.01	Keyboard	
+D1.4.1.02	D1.3.1.02	Numeric keypad	
+D1.4.1.03	D1.3.2.01	Keyboard kit	a kit is sold to be built, so it sits with the hobby's parts, not with ready-to-type keyboards
+D1.4.1.04	D1.3.1.03	Macro pad	
+D1.4.2.01	D1.3.2.02	Linear keyboard switch	loose switches join the keyboard kits and parts shelf
+D1.4.2.02	D1.3.2.03	Tactile keyboard switch	loose switches join the keyboard kits and parts shelf
+D1.4.2.03	D1.3.2.04	Clicky keyboard switch	loose switches join the keyboard kits and parts shelf
+D1.4.3.01	D1.3.3.01	Mouse	
+D1.4.3.02	D1.3.3.02	Trackball	
+D1.4.3.03	D1.3.3.03	Pen tablet	
+D1.4.4.01	D1.3.4.01	Monitor	
+D1.4.5.01	D1.4.01	Printer	
+D1.4.5.02	D1.4.04	Scanner	
+D1.4.5.03	D1.4.02	Multifunction printer	
+D1.4.5.04	D1.4.05	3D printer	
+D1.4.5.05	D1.9.04	Barcode scanner	read at a till or for stock, shopped in the point-of-sale aisle, not with document scanners
+D1.4.5.06	D1.4.03	Wide-format printer	
+D1.4.6.01	D1.3.5.01	Webcam	
+D1.4.6.02	D1.3.5.03	Video capture device	
+D1.4.6.03	D1.3.5.02	Speech microphone	
+D1.4.6.04	D1.3.6.02	KVM switch	shares keyboard, display and mouse across computers on one desk: desk setup, not capture or networking
+D1.5.01	D1.6.02	Wireless router	
+D1.5.02	D1.6.03	Access point	
+D1.5.03	D1.6.05	Network switch	
+D1.5.04	D1.6.08	UPS	power backup joins networking (the network and homelab setup); the old Network and power sub-family is renamed
+D1.5.05	D1.6.04	Range extender	
+D1.5.06	D1.6.06	Powerline adapter	
+D1.5.07	D1.6.01	Modem	
+D1.5.08	D1.6.07	PoE injector	
+D1.6.01	D1.7.01	USB cable	
+D1.6.02	D1.7.02	HDMI cable	
+D1.6.03	D1.7.04	LAN cable	
+D1.6.04	D1.7.05	Audio cable	
+D1.6.05	D1.7.06	Instrument cable	
+D1.6.06	D1.7.07	Microphone cable	
+D1.6.07	D1.7.08	MIDI cable	
+D1.6.08	D1.7.09	Adapter or hub	
+D1.6.09	D1.3.6.01	Docking station	a dock is the laptop's desk base (power and outputs), shopped with desk setup; adapters and hubs stay in Cables, adapters and chargers
+D1.6.10	D1.7.10	Generic charger	
+D1.6.11	D1.7.03	DisplayPort cable	
+D1.7.01	D1.9.01	Point-of-sale terminal	
+D1.7.02	D1.9.02	Payment card reader	
+D1.7.03	D1.9.03	Cash register	
+D1.7.04	D1.9.06	Hardware wallet	
+D1.7.05	D1.9.05	Security key	
+D1.8.1.01	D1.1.06	Single-board computer	owner shape puts single-board computers under Computers; a board that runs an operating system is sold as a computer, the microcontroller board stays in Electronics and maker parts
+D1.8.1.02	D1.8.1.01	Microcontroller board	
+D1.8.1.03	D1.8.1.03	Electronics component kit	
+D1.8.2.01	D1.8.2.01	Capacitor	
+D1.8.2.02	D1.8.2.02	Resistor	
+D1.8.2.03	D1.8.2.03	Inductor	
+D1.8.2.04	D1.8.2.04	Potentiometer	
+D1.8.2.05	D1.8.2.05	Thermistor	
+D1.8.2.06	D1.8.2.06	Varistor	
+D1.8.2.07	D1.8.2.07	Transformer	
+D1.8.2.08	D1.8.2.08	Crystal or oscillator	
+D1.8.3.01	D1.8.3.01	Microcontroller chip	
+D1.8.3.02	D1.8.3.02	MOSFET	
+D1.8.3.03	D1.8.3.03	Diode	
+D1.8.3.04	D1.8.3.04	LED	
+D1.8.4.01	D1.8.4.01	Relay	
+D1.8.4.02	D1.8.4.02	Component connector	
+D1.8.5.01	D1.8.5.01	Sensor	
+D1.8.5.02	D1.8.5.02	Blank RFID tag or card	
+D1.9.01	D1.4.06	Ink cartridge	printing supplies are shopped with printers (printers, ink and toner); no longer in the closing parts sub-family (C5(d))
+D1.9.02	D1.4.07	Toner cartridge	printing supplies are shopped with printers (printers, ink and toner); no longer in the closing parts sub-family (C5(d))
+D1.9.03	D1.4.08	3D-printer filament	printing supplies are shopped with printers; no longer in the closing parts sub-family (C5(d))
+D1.9.04	D1.10.01	Laptop AC adapter	
+D1.9.05	D1.10.02	Laptop battery	
+D1.9.06	D1.10.03	Laptop sleeve or case	
+D1.9.07	D1.3.6.03	Monitor arm or stand	desk accessory; no longer in the closing parts sub-family because it fits a shopper path (C5(d))
+D1.9.08	D1.3.6.05	Laptop cooler	desk accessory; no longer in the closing parts sub-family because it fits a shopper path (C5(d))
+D1.9.09	D1.3.2.05	Keycap set	mechanical-keyboard hobby shelf beside keyboards (owner shape); R-36 home in D1 unchanged, only the sub-family moves
+D1.9.10	D1.3.2.06	Keyboard plate	mechanical-keyboard hobby shelf beside keyboards (owner shape); R-36 home in D1 unchanged, only the sub-family moves
+D1.9.11	D1.3.2.07	Keyboard stabiliser	mechanical-keyboard hobby shelf beside keyboards (owner shape); R-36 home in D1 unchanged, only the sub-family moves
+D1.9.12	D1.8.1.02	Add-on board for a maker board	HATs and shields are shopped with maker boards; no longer in the closing parts sub-family (C5(d))
+D1.9.13	D1.3.6.04	Laptop stand	desk accessory; no longer in the closing parts sub-family because it fits a shopper path (C5(d))
