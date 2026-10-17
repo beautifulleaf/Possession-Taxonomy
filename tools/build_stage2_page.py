@@ -1,5 +1,5 @@
 """Build the stage-2 owner review page (pages/stage2_review.html) from
-framework/structure/STAGE2_SUMMARY.md and STAGE2_OWNER_QUESTIONS.md.
+framework/structure/STAGE2_DECIDED.md, STAGE2_SUMMARY.md and STAGE2_OWNER_QUESTIONS.md.
 
 The page is generated; edit the Markdown sources or this script, never the HTML.
 Converts the Markdown subset those files use: headings, rules, paragraphs,
@@ -11,7 +11,7 @@ from common import ROOT
 SRC = ROOT / "framework" / "structure"
 OUT = ROOT / "pages" / "stage2_review.html"
 
-ID_RE = re.compile(r"(?<![\w-])((?:CV|K|[A-J])-\d+)(?![\w-])")
+ID_RE = re.compile(r"(?<![\w-])((?:CV|K|R|[A-J])-\d+)(?![\w-])")
 
 
 def slug(prefix, text):
@@ -203,9 +203,10 @@ li.miss { display: none; }
 JS = """
 (function () {
   const tabs = document.querySelectorAll('.tabs button');
-  const views = { summary: document.getElementById('view-summary'), questions: document.getElementById('view-questions') };
+  const views = { decided: document.getElementById('view-decided'), summary: document.getElementById('view-summary'), questions: document.getElementById('view-questions') };
+  const viewOf = id => id.startsWith('q-') ? 'questions' : id.startsWith('s-') ? 'summary' : 'decided';
   function show(name, scroll) {
-    if (!views[name]) name = 'summary';
+    if (!views[name]) name = 'decided';
     tabs.forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
     Object.entries(views).forEach(([k, v]) => { v.hidden = k !== name; });
     if (scroll) window.scrollTo(0, 0);
@@ -213,10 +214,10 @@ JS = """
   tabs.forEach(b => b.addEventListener('click', () => { show(b.dataset.tab, true); history.replaceState(null, '', '#' + b.dataset.tab); }));
   document.querySelectorAll('a[data-tab]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); show(a.dataset.tab, true); history.replaceState(null, '', '#' + a.dataset.tab); }));
   const h = location.hash.slice(1);
-  if (h === 'questions' || h.startsWith('q-')) show('questions'); else show('summary');
-  if (h.startsWith('q-') || h.startsWith('s-')) { const t = document.getElementById(h); if (t) t.scrollIntoView(); }
+  if (views[h]) show(h); else show(h ? viewOf(h) : 'decided');
+  if (/^[dqs]-/.test(h)) { const t = document.getElementById(h); if (t) t.scrollIntoView(); }
   document.querySelectorAll('nav.rail a').forEach(a => a.addEventListener('click', () => {
-    const id = a.getAttribute('href').slice(1); show(id.startsWith('q-') ? 'questions' : 'summary');
+    show(viewOf(a.getAttribute('href').slice(1)));
   }));
   const box = document.getElementById('q-search'), count = document.getElementById('q-count');
   const items = Array.from(document.querySelectorAll('#view-questions article li'));
@@ -231,9 +232,11 @@ JS = """
 
 
 def main():
+    decided_md = (SRC / "STAGE2_DECIDED.md").read_text(encoding="utf-8").replace("<!-- end -->", "")
     summary_md = (SRC / "STAGE2_SUMMARY.md").read_text(encoding="utf-8")
     questions_md = (SRC / "STAGE2_OWNER_QUESTIONS.md").read_text(encoding="utf-8")
-    toc_s, toc_q = [], []
+    toc_d, toc_s, toc_q = [], [], []
+    d_html = convert(decided_md, "d", toc_d)
     s_html = convert(summary_md, "s", toc_s)
     q_html = convert(questions_md, "q", toc_q)
     k = len(re.findall(r"^- \*\*K-\d+", questions_md, re.M))
@@ -243,21 +246,26 @@ def main():
               f'<div><b>{cv}</b><span>shared-rule questions (CV)</span></div>'
               f'<div><b>{k}</b><span>framework questions (K)</span></div>'
               f'<div><b>{per}</b><span>per-category questions</span></div>'
-              f'<div><b>0</b><span>approved so far</span></div></div>')
+              f'<div><b>all</b><span>decided (delegated by the owner)</span></div></div>')
     page = f"""<title>Possession Taxonomy Stage 2</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=JetBrains+Mono:wght@500;600&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap">
 <style>{CSS}</style>
 <header class="bar"><div class="bar-inner">
-<div class="brand">Possession Taxonomy<small>Stage 2 · owner review · 2026-10-17</small></div>
+<div class="brand">Possession Taxonomy<small>Stage 2 · decided and tested · 2026-10-17</small></div>
 <div class="tabs" role="tablist">
-<button type="button" id="tab-summary" role="tab" data-tab="summary" aria-selected="true">Summary</button>
+<button type="button" id="tab-decided" role="tab" data-tab="decided" aria-selected="true">Decided</button>
+<button type="button" id="tab-summary" role="tab" data-tab="summary" aria-selected="false">Summary</button>
 <button type="button" id="tab-questions" role="tab" data-tab="questions" aria-selected="false">All questions</button>
 </div></div></header>
-<section id="view-summary">
+<section id="view-decided">
+<div class="wrap"><nav class="rail" aria-label="Decided contents"><h2>Decided</h2>{toc_html(toc_d)}</nav>
+<main><p class="note">The owner delegated the stage-2 answers to Claude. This tab gives the decided structures and how they tested; the owner may overturn any decision. † in the memos marks a claim that still needs a fetched source at the stage-3 harvest.</p>
+<article>{d_html}</article></main></div></section>
+<section id="view-summary" hidden>
 <div class="wrap"><nav class="rail" aria-label="Summary contents"><h2>Summary</h2>{toc_html(toc_s)}</nav>
-<main>{status}<p class="note">Research proposals for review. Nothing here is approved, and no stage-2 change has been tested by blind placement yet. † in the memos marks a claim that still needs a fetched source.</p>
+<main>{status}<p class="note">The research summary as written for review, before the decisions. The answers are on the Decided tab and in framework/structure/decisions/.</p>
 <article>{s_html}</article></main></div></section>
 <section id="view-questions" hidden>
 <div class="wrap"><nav class="rail" aria-label="Question lists"><h2>All questions</h2>{toc_html(toc_q)}</nav>
