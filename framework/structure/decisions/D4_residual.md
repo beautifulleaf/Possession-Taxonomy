@@ -17,3 +17,10 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
 - **R-12** H2 homes, by function: examination tables, treatment couches and dental chairs go to the sub-family holding care beds (care and nursing furniture). Therapeutic weighted blankets and pillows go to therapy and pain-relief aids. Medical software (K-37) goes to diagnostics and monitoring as the kind "medical app". Raised by S2U_H2.
 - **R-13** Head-worn magnifiers (K-38 against K-135): a head-worn loupe or magnifier on a headband or clip is C6. Magnifying, prismatic or telescopic low-vision spectacles in spectacle frames are H2 with spectacles. Raised by S2U_H2.
 - **R-14** Companion apps (K-37 against CV-30): an app that only records and shows a device's readings is part of that device's C13 ecosystem row and is I1 as software. Software that itself diagnoses, treats or is cleared as a medical device is H2 (medical app, R-12). Raised by S2U_H2.
+- **R-15** C13 `platform_type` gains "stacking tool-storage system". Written into CONVENTIONS_v1. Raised by S2U_C1.
+- **R-16** Amendments to the v0.7 key, so its text matches the decisions; they are applied together as v0.7.1 before round 7:
+  - (a) Step 10: replace "machetes and axes ... are C1 or C2" with "axes, splitting wedges and log splitters are C1 (K-173); machetes, billhooks and pruning saws are C2".
+  - (b) Workbench line (K-190): add "sawhorses and trestles are C1" (C1-O1).
+  - (c) C1 branch: "an airbrush compressor follows the airbrush; sharpening stones and systems are C1".
+  - (d) B1 or B8 note: "a freestanding play yard or playpen is B1" (R-8).
+  - Further amendments raised by later S2U passes are appended here.
