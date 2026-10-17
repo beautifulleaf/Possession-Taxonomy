@@ -156,3 +156,204 @@ Each finding gives severity, memo, evidence and an exact proposed fix. "Conforma
 **D5-12 (low) Evidence.** The VR kinds and the controller tiers rest on Adellion [S28, S30], a weak review site. The retro kinds rest on one UK guide [S27], and the arcade cabinet classes on one US museum [S33]. The pedal set, flight stick and light gun rest on Wikipedia lists [S15, S38]. The Korean page loaded its title only [S19], and the Chinese evidence is a consumer guide and a zh.wikipedia list [S23, S24]. The retail evidence (seven retailers in four regions) is strong for the platform-first navigation that the memo rightly keeps as a view.
 
 **D5 conformance list.** C1: maker roles (platform holder, licensed accessory maker, unlicensed or clone maker) become `maker_class` values, and "licence status for each platform" goes to maker relations (X-1). C2: `maker_bound`; arcade cabinet classes and controller forms are kinds, and Sega R-360 is a maker-bound named form. C3: D5-10. C4: D5-7. C5(b): consoles store kinds with `leaf = null` where a sub-family holds 12 kinds or fewer, which formalises the memo's "leaf and kind coincide". D5.5 has three kinds, so `leaf = null`. C5(d): D5.3 conforms; rename it "Parts and accessories made for one game machine". C7: "do not order by maker" contradicts C7 (X-6). C8: retro, FGC, competitive and sim-racing scenes need definition sources. C9: 本体 = console, 周辺機器 = peripherals, ソフト = game software, Joy-Con (a named form, not a kind label), candy cabinet = sit-down cabinet. C10: D5-2 and D5-4. C11: D5-5. C13: D5-1, and the platform ledger with backward-compatibility edges and regional release dates becomes the compatibility ledger plus relations (X-2).
+
+## 3. Cross-memo consistency and proposed shared conventions
+
+### X-1 Maker ledger and maker relations (medium: all five)
+The five maker ledgers differ. D1 has `role` and `brand-of` (an OEM map). D2 has lines with their tier ladder, OS or store, and an OEM map. D3 has marketing names, panel or OEM source and an ecosystem column. D4 has the standard set. D5 has `role` and licence status per platform. Three of them need the same thing, which is a relation between two makers or between a maker and a platform: D1 "Seasonic / Haiyun", FSP and CWT behind retail brands [D1 S14], Razer Green made by Kailh [D1 S24]; D2 one e-reader sold under several names [D2 S26]; D3 the panel supplier [D3 S05]; D5 first-party, licensed or unlicensed [D5 S29, S30].
+**Proposed convention (extends C1).**
+- *Core:* C1 as written.
+- *`maker_class` values for domain D:* platform holder (sets a platform: Sony, Nintendo, Apple, Intel); chip or panel supplier (C1's "supplier"); OEM or ODM builder; board partner or assembler; licensed accessory maker; unlicensed or clone maker; retail own-label (Dospara Select). Drop "distributor": Mouser is a source, not a maker.
+- *New table, maker relations:* `relation_id`, `maker_id`, `other_id` (a maker, line or platform), `relation` (builds for; supplies chip or panel to; board partner of; licensed by; rebrand of), `scope` (line, named form or range, such as "Prime TX, 850 to 1000 W"), `years`, `sources`.
+- *Lines table:* holds the maker ladders with a `line_rank` (Core i3 to i9; RTX xx50 to xx90; iPad, mini, Air, Pro; Garmin Entry, Advanced, Premium; Sony α1 to ZV; Series X and S).
+- *Marketing technology names* (QLED, Neo QLED, ULED) go to the C9 alias table with `relation = marketing name`. OS, store, assistant and finding network go to the compatibility ledger, not the maker ledger.
+
+### X-2 One compatibility ledger with relations (medium: all five)
+The memos name the same thing in five ways: D1 "platform ledger" with edges; D2 "ecosystem ledger"; D3 "ecosystem column"; D4 "platform ledger" (mounts and formats); D5 "platform ledger" with backward compatibility. C13 names one ledger.
+**Proposed convention (extends C13).**
+- *Columns:* C13's columns plus `platform_type`, `region` (where the standard is regional), `introduced` and `status`.
+- *`platform_type` values:* CPU socket; chipset; memory standard; bus; form factor; connector or port; operating system; app or book store; voice assistant; finding network; wireless audio or multi-room system; charging standard (MagSafe, Qi2); radio service; satellite service; lens mount; flash shoe; light-modifier mount; film format; instant film format; console platform.
+- *Extension columns per type:* `flange_mm`, `frame_size` and `bayonet_or_screw` for lens mounts [D4 S27]; `media_accepted` for console platforms [D5 S31]; `subscription` and dated `update_promise` for OS and service rows [D2 S06].
+- *New table, compatibility relations:* `from_id` (a platform or named form), `relation` (supports; requires; fits; backward compatible with; adapts to through an adapter), `to_id`, `sources`. It holds D1's edges, D4's adapters and D5's backward compatibility.
+- *Sensor format is not a platform.* It is an attribute (C4(b)), because no maker owns it and nothing is "fitted" to it.
+
+### X-3 Tier, measurement and price band (high: all five)
+Every memo stores at least one scale that C4 does not treat as a tier. Some stores also put a tier on a kind (D3). The memos read C4 differently mainly because C4 has no row for third-party measurements, the commonest scale in D (benchmarks, SINAD, RTINGS, DXOMARK, AnTuTu).
+**Proposed convention: C4(f) for domain D.** Every scale is put in one of six classes before it enters the data:
+
+| Class | Where it is stored | D examples |
+|---|---|---|
+| (i) Spec or certification measured on the object | attribute, with its standard named (C4(b)) | 80 PLUS, Cybenetics LAMBDA, PCIe and DDR generation, NAND type, IP code, MIL-STD-810, Wh, sensor format, ISO speed, resolution, display technology |
+| (ii) Third-party measured score or rank | tier entry, `scheme_type = measurement`, numeric value, `test_version` | Tom's Hardware hierarchies, CPU Rank List, mydrivers ladder, AnTuTu, ASR SINAD, RTINGS scores, DXOMARK scores |
+| (iii) Editorial or community class | tier entry, `scheme_type = editorial` | Cultists PSU tiers, Stereophile classes, Crinacle grades, ASR "Recommended", DXOMARK body classes |
+| (iv) Maker's own ladder | `line_rank` in the lines table; optionally a tier entry with `scheme_type = maker ladder` | Core i3 to i9, iPad line, Garmin Entry to Premium, Sony α ladder, Series X and S |
+| (v) Price-defined band | C4(d) price band only; never a tier | Alibaba phone ranges, Adellion controller bands, Crutchfield turntable tiers, retro handheld price bands |
+| (vi) A shop's or platform's own label | `platform_tag` (C4(c)) | Kimovil Range, Kakaku satisfaction rating |
+
+Add three optional tier-entry columns, taken from D1 and D3: `direction` (higher is better or lower is better), `scope` (the range of a series the entry covers) and `stale_after` (Stereophile drops items after about three years [D3 S03]; the Cultists list dates from 2023-04-11 [D1 S14]). No tier entry has a kind as its subject.
+
+### X-4 Condition is never a ledger of items (medium: D1, D2, D4, D5)
+D1 proposes a "condition ledger per listing", D2 "ledger rows", D4 a "separate ledger" and D5 `condition` and `grade` on a collector layer. BRIEF puts individual items out, and condition is an Appendix A modifier. **Proposed convention:** one `condition_scale` reference table (`scale`, `values` in order, `source`): eBay five values [D1 S09], Back Market [D1 S36], KEH [D4 S18], Iosys S to J [D2 S25], WATA and VGA [D5 S11]. It holds scales only, never items. Views such as "graded collecting" may describe it.
+
+### X-5 Variants for electronics (low: D1, D2, D5)
+The C3 variant types do not cover the commonest electronics variants. **Proposed addition to `variant_type`:** `configuration` (storage, RAM, VRAM, capacity, wattage: iPhone 17 Pro 256 GB [D2 S11]; RTX 5060 Ti 8 GB and 16 GB [D1 S28]; PSU wattages in one series [D1 S14]), `regional model`, `hardware revision`, `bundle` and `partner build` (D1-3). Named form against variant, D-wide: PLAYBACK's test [D5 S13]. A model or revision is a named form only when shell, display, format, market identity or compatibility makes it a distinct target; otherwise it is a variant.
+
+### X-6 Order of named forms (low: D1, D2, D4, D5)
+C7: named forms go by maker, then first-introduction year, then alphabetically. The memos differ. D1 uses "maker family, then generation newest first, then class high to low" and says stored order "must be maker-neutral". D2 uses maker line, newest first. D3 conforms. D4 uses spec order (ISO ascending, sensor format descending). D5 uses platform family and release date, "do not order by maker". **Proposed convention:** stored order is C7 with one D addition: maker, then line in `line_rank` order, then first-introduction year **ascending**, then alphabetical. Newest-first, spec-ladder and benchmark orders are generated views. D1's and D5's maker-neutral argument contradicts C7 itself. The owner should choose once (O-5); the reviewer recommends C7, because a platform family (D5) or a class ladder (D1) is in practice a maker line.
+
+### X-7 Rule T (C10) applied the same way (medium: D1, D2, D3, D4, D5)
+
+| Split | Memo | C10 result |
+|---|---|---|
+| LCD/OLED/Micro LED TV | D3 | attribute (same form and installation; ranked on one bench) |
+| LCD e-reader | D2 | attribute |
+| Push-to-talk over cellular radio | D2 | attribute |
+| Emulation against FPGA handheld | D5 | attribute |
+| Internal SSD against HDD | D1 | kind (M.2 form; separate ranking) |
+| Air against AIO liquid cooler | D1 | kind (radiator and mounting differ) |
+| True wireless earbuds | D3 | kind (separate buds and case) |
+| Electrostatic headphones | D3 | kind only if a source ranks them apart (energiser needed) |
+| Film against digital camera | D4 | kind (film, processing and body differ; shelved apart) |
+| Standalone against tethered VR | D5 | kind (onboard compute and battery) |
+| Smart speaker, smart display, hub | D3 | kind by C10(a) (the key names them) |
+| Bluetooth against GPS or cellular tracker | D2 | kind only if attested (GPS units need a SIM and a subscription and are larger) |
+
+### X-8 Spec, tier, scene, user, setting, market and occasion as kinds (medium: D2, D3, D5)
+Rugged smartphone (spec, D2-2), "for vehicle, child or pet" tracker (user, D2-6), portable projector and portable speaker (setting, D3-1, D3-6), party speaker (occasion, D3-1), gaming headset (scene, D3-3), pro gamepad (tier, D5-3), multi-platform third-party pad (maker, D5-3), home arcade machine (market, D5-5) and the retro leaf (era, D5-2). D1 already treats gaming as a tag ("a gaming keyboard is a keyboard"), and that is the reading to apply in all five: these become attributes, tags and generated views.
+
+### X-9 Regional standards and platforms as kinds (medium: D2, D4, D5)
+FRS, GMRS, PMR446 and Part 90 radios (D2-1), Instax-type and Polaroid cameras (D4-4), platform-specific game carriers (D5-1), Evercade (D5-2), candy cabinet (D5-5). One reading: the standard or platform goes into the compatibility ledger (X-2), and the kind is the generic object (C11, C13).
+
+### X-10 A parts sub-family in every D category (medium: D1, D2, D3)
+C5(d) gives every A category a final sub-family, "Parts and accessories made for one <object>". D4 (D4.7 Camera accessories) and D5 (D5.3 Accessories and parts) already have one. D3 proposes a parts leaf in each sub-family (owner question 11). D1 and D2 have none, although S3 sends them printer ink, laptop chargers, phone cases, straps and styluses. **Proposed convention:** extend C5(d) to domain D. D1.9, D2.8 and D3.8 are created, and D4.7 and D5.3 are renamed to the C5(d) wording. Each is the only sub-family exempt from the role axis.
+
+### X-11 S3 (step 8) against step 24 (high: D1, D2, D3, D4, D5)
+Step 8 is tried before step 24, so a part or accessory made for one kind of object goes to that object's category before any step-24 branch is read. The memos apply this unevenly.
+- **(a) Phone-only accessories.** D4 keeps phone gimbals and selfie sticks in D4.4 (D4-8). D5 sends phone clip-on controllers to D5 (D5-8). D4 sends clip-on phone lenses to D2 (correct), and D2 has no parts sub-family to receive any of them (D2-8). *Proposed:* phone-only accessories are D2 under S3; accessories made for cameras, consoles or computers that also take a phone stay with the camera, console or computer.
+- **(b) Cables.** The D1 branch says cables "whatever device they serve", but that clause is reached only after step 8. *Proposed:* a cable with a proprietary connector made for one kind of device (an N64 AV cable, a camera-specific remote cable) follows that device (D5, D4). Cables with standard connectors (USB, HDMI, audio, Ethernet) are D1. This settles D5's open point and agrees with D4 §9.1.
+- **(c) Chargers.** D1 question 7 and D2 question 7 ask the same thing. *Proposed:* a charger made for one kind of device (laptop adapter, console adapter, watch puck, camera battery charger) follows it under S3. A generic USB-C or GaN charger, or a Qi charging pad, serving many devices is D1 with cables and adapters. Power banks stay D2 (the key).
+- **(d) Vehicle-mounted electronics.** D3 asks whether car audio is G1 under S3. D4 asks the same about dashcams. D2 files aftermarket sat-navs, bike computers and hidden car trackers in D2. *Proposed:* electronics made to be fitted to or mounted on a vehicle (car stereo and car speakers, dashcam, sat-nav with a vehicle mount, bike computer with its bike mount, OBD tracker) are G1 under S3. Devices made for general use and only used in a vehicle (phone, portable speaker, handheld GPS, Bluetooth tag) stay in D. This needs the G1 memo's agreement.
+
+### X-12 One scene list for domain D (low: all five)
+C8 is written "for domain A". The D memos each name scenes without definition sources: gaming (D1, D2, D3, D5), overclocking, mechanical keyboards, homelab, retro (D1, D2, D5), audiophile, head-fi, vinyl, home theater, film revival, lo-fi, vlogging, the fighting-game community, sim racing. *Proposed:* extend C8 to one D list, with "gaming" and "retro" defined once for all five categories. "Silent", "small form factor", "rugged" and "sport watch" are views computed from attributes, not tags.
+
+### X-13 Boundaries between D memos: where the two sides agree or not
+
+| Object | Side 1 | Side 2 | State | Proposed sentence |
+|---|---|---|---|---|
+| Radio scanner | D2 §9.3: D3 | D3: no kind | orphan | add "radio scanner" to D3.6 (D3-5) |
+| Slide and cine projectors | D4 §9.8: D3 | D3: no kind | orphan | add to D3.1 Projectors (D3-5) |
+| Digital audio player | D3: D3 | D2: silent | one-sided | add to D2 §9.3: "a portable music player with no calling is D3" |
+| USB DAC or dongle against USB sound card | D3: DAC "including a USB-C dongle is D3" | D1 §9.1: "an internal or USB sound card is D1" | **conflict** (same object) | "an audio card fitted inside a computer is D1 (S3); any external audio converter or headphone amplifier is D3; an audio interface sold for recording music is E3" |
+| Smart and audio glasses; mixed-reality headsets | D2: smart glasses kind (Xiaomi audio glasses [D2 S15]) | D3: headphones D3; D5 Q8: Vision Pro "D5 if sold mainly for games" | **conflict** | "a headset that encloses the eyes (VR or MR) is D5, the key's 'VR headset', whatever it is sold for; glasses with a see-through display, camera or speakers are D2 smart glasses" |
+| Tablet with keyboard | D1 note: keyboard included → D1 | D2 kind 20 | **conflict** | drop D2 kind 20 (D2-3) |
+| Gaming headset | D1, D5: D3 | D3: D3, but a kind by use | agree on category | headset kind by form (D3-3) |
+| Handheld gaming PC | D1 Q6: D5? | D5 Q2: D5 | agree | D5 with `os = PC` (O-52) |
+| Pocket computer, PDA | D1 Q6: may be D2 | D2 §9.1: D1 unless sold as PDA or organiser | agree | state on D1 side (D1-7) |
+| Game controller on PC, capture card, gaming peripherals | D1 §9.2 | D5 §9.1 | agree | none |
+| Memory cards (standard against console-only) | D1 §9.8: D1 | D5 §9.1: proprietary → D5 | agree | none |
+| Monitor against TV | D1 §9.1 | D3 §9 | agree | none |
+| Webcam, film scanner, photo printer, camera cables | D1 | D4 §9.1 | agree | none |
+| Two-way radio against broadcast radio | D2 §9.3 | D3 §9 | agree | none |
+| Phone gimbal, clip-on lens, clip-on controller | D4, D5 | D2 (silent) | **conflict with S3** | X-11(a) |
+| Bike computer, car sat-nav, dashcam, car audio | D2: D2 | D3, D4: ask G1 | **inconsistent** | X-11(d) |
+| Portable power station | D2: B7 or D2, open | _review_B: B7 | align | D2 adopts B7 |
+| GPS pet tracker | D2: B10 if sold as pet equipment | _review_B: open | align | step 13 → B10 (D2-6) |
+| NVR or DVR for security cameras | D1: silent | _review_B: B8 or D1 | gap | D1 adds "an NVR made for security cameras is B8 under S3; a NAS is D1" |
+| Gaming chairs | D5: "B2" | key: B1 | error | D5-9 |
+
+## 4. Owner decisions raised by the D memos (merged, de-duplicated)
+
+### Cross-category rules (decide once, apply to all D memos)
+- **O-1.** Adopt the six-class scale rule of X-3 (spec attribute, measurement, editorial, maker ladder, price band, platform tag), with no tier on any kind. (yes/no)
+- **O-2.** Merge D1's and D4's platform ledgers, D2's ecosystem ledger and the D3 and D5 platform lists into one compatibility ledger with a relations table (X-2). (yes/no)
+- **O-3.** Add a maker-relations table (OEM, panel or chip supplier, board partner, licence) and the D `maker_class` values of X-1. (yes/no)
+- **O-4.** No per-item condition or grade data anywhere in D, only a condition-scale reference table (X-4). (yes/no)
+- **O-5.** Stored named-form order: C7 with line rank and year ascending, plus generated ladder views (recommended), or the maker-neutral order D1 and D5 ask for. (choice)
+- **O-6.** Extend C5(d) so that every D category ends with "Parts and accessories made for one <object>" (X-10). (yes/no)
+- **O-7.** Phone-only gimbals, selfie sticks, clip-on lenses, clip-on game controllers and battery cases go to D2 under S3 (recommended), or a key note makes game controllers an exception to S3. (choice)
+- **O-8.** Cables with a proprietary connector made for one kind of device follow the device, and standard-connector cables are D1 whatever device they serve. (yes/no)
+- **O-9.** Generic USB-C, GaN and Qi chargers: D1 (recommended) or D2. Device-specific chargers follow the device. (choice)
+- **O-10.** Electronics made to be fitted to or mounted on a vehicle (car audio, dashcam, mounted sat-nav, bike computer, OBD tracker) are G1 under S3. (yes/no; needs the G1 memo's agreement)
+- **O-11.** A head-mounted display that encloses the eyes is D5 (including Apple Vision Pro); see-through smart glasses and audio glasses are D2. (yes/no)
+- **O-12.** External audio converters and headphone amplifiers (including USB dongles) are D3; sound cards fitted inside a computer are D1. (yes/no)
+- **O-13.** Chinese evidence for all five memos: accept the maker catalogues and benchmark ladders, or run one more retail batch through a Chinese host the tools can read. (choice)
+- **O-14.** Run one sourcing batch for the attestation gaps listed in section 5 before any of those names is added (S6). (yes/no)
+- **O-15.** Apply Rule T (C10) as tabled in X-7: TV display technology, e-reader panel, cellular push-to-talk and emulation or FPGA become attributes; SSD and HDD, air and AIO coolers, true wireless earbuds, film and digital cameras, and standalone and tethered VR stay kinds. (yes/no)
+- **O-16.** Remove the kinds defined by spec, tier, scene, user, setting, market or occasion listed in X-8, and keep them as attributes, tags and views. (yes/no)
+- **O-17.** Extend the C8 scene list to domain D, with one shared definition of "gaming" and "retro". (yes/no)
+
+### D1 Computers & Components
+- **O-18.** Memory as two kinds (DIMM, SODIMM) under the form-factor rule of D1-6. (yes/no)
+- **O-19.** PC case size class as an attribute (recommended) or as kinds. (choice)
+- **O-20.** Keyboard switches as three kinds by feel (linear, tactile, clicky), or one kind with a feel attribute. (choice)
+- **O-21.** GPU named form = GPU model, with partner cards as `partner build` variants (D1-3). (yes/no)
+- **O-22.** Loose electronic components: a few class examples, the full Mouser class level (150 to 250 kinds), or a stage-2 memo of their own. (choice)
+- **O-23.** Third-party lists (Cultists, Stereophile, Crinacle, ASR, RTINGS, AnTuTu, DXOMARK) may be stored as dated, attributed tier entries with a stale date. (yes/no)
+- **O-24.** Bundles and sets (CPU and board combos, console and game bundles) are filed item by item, or as a `bundle` variant of the main item. (yes/no)
+
+### D2 Phones, Tablets & Personal Devices
+- **O-25.** Wrist devices: GPS sports watch folded into smartwatch with a `multisport_gps` attribute (recommended); smart band and fitness tracker as one kind; screenless band as a kind only with a second source. (yes/no for each)
+- **O-26.** Two-way radios as kinds by form (handheld, vehicle-mounted, base station), with the radio service in the compatibility ledger (D2-1). (yes/no)
+- **O-27.** SIM cards: F5 (the step-1 note on access cards, recommended) or D2 (S3). (choice)
+- **O-28.** Foldable phones as two kinds (flip, book), or one kind with a fold attribute; rugged as an attribute. (choice; yes/no)
+- **O-29.** Landline and cordless home phones in D2, or left unfiled. (choice)
+- **O-30.** A tracker made to attach to an animal is B10 by step 13. (yes/no)
+- **O-31.** The portable power station is B7, as review B recommends. (yes/no)
+- **O-32.** Add an "e-paper writing tablet" kind (reMarkable, Kindle Scribe, Boox Note), and drop the size- and panel-defined e-reader kinds. (yes/no)
+
+### D3 Audio & Video
+- **O-33.** Replace the "Powered and portable speakers" leaf with one "single-enclosure wireless speaker" kind, with active pairs filed by cabinet form (D3-1). (yes/no)
+- **O-34.** Digital audio players are D3, as the memo recommends (the key is silent). (yes/no)
+- **O-35.** Studio-against-listening tie-break for monitor headphones and IEMs: the maker's own product category (recommended), or always E3 when called "monitor". (choice)
+- **O-36.** Legacy objects: radiogram, cassette deck and boombox as kinds; CRT and plasma as display-technology values with an era tag. (yes/no)
+- **O-37.** Add a vintage-audio and resale sourcing pass. (yes/no)
+- **O-38.** Add streaming media player, set-top receiver, radio scanner, slide projector, cine projector and DAC/headphone-amplifier combo (D3-5). (yes/no)
+- **O-39.** Jukeboxes and coin-operated music machines: D3 unless sold as an arcade or coin-operated game (E1). (yes/no)
+
+### D4 Cameras & Photography
+- **O-40.** Sensor format (including medium format) is an attribute, not a kind. (yes/no)
+- **O-41.** Lens leaves by optical design, with format coverage as an attribute; prime and zoom as kinds, with a sourced focal-class attribute. (yes/no)
+- **O-42.** Film-camera kinds by viewing system, with film format as an attribute (D4-3). (yes/no)
+- **O-43.** Instant-camera kinds by film type (integral, peel-apart, hybrid), with the maker formats in the compatibility ledger. (yes/no)
+- **O-44.** Film kinds by process, with motion-picture gauges as format values. (yes/no)
+- **O-45.** Photographic paper: D4.6 (recommended), C4, C5, or D1 for inkjet paper. (choice)
+- **O-46.** Camera drones are D4 (as the key says), and camera-less toy drones are E1. (yes/no)
+- **O-47.** Wildlife trail cameras: D4, B8 or E2. (choice)
+- **O-48.** Studio backdrops and photo-studio furniture follow S3's furniture rule (B1, B2). (yes/no)
+- **O-49.** Cine and video cameras stay inside D4.1. (yes/no)
+
+### D5 Video Games
+- **O-51.** Game software: kinds by carrier type, with platform as a required attribute and a generated by-platform view (recommended), or platform-specific carrier kinds as the key's wording suggests. (choice)
+- **O-52.** Handheld gaming PCs (Steam Deck, ROG Ally) are D5 with a `PC operating system` attribute; D1 and D5 agree. (yes/no)
+- **O-53.** Game titles are kept off the tree, in an optional title ledger. (yes/no)
+- **O-54.** Toys-to-Life figures (amiibo) are E1, and their portal or reader is D5. (yes/no)
+- **O-55.** Gift and stored-value cards are F5; a code for one game or add-on is D5; a code for a subscription is I3. (yes/no)
+- **O-56.** Adopt PLAYBACK's revision test for named form against variant across domain D (X-5). (yes/no)
+- **O-57.** Retro and dedicated machines filed by form, with implementation (emulation, FPGA) as an attribute and Evercade as a platform (D5-2). (yes/no)
+- **O-58.** Controllers by form, with "pro", "third-party" and "retro" as attributes and views (D5-3). (yes/no)
+- **O-59.** Collector's and limited editions stay an edition tag or variant, never an object type. (yes/no)
+- **O-60.** Digital game licences with no carrier are held in D5.5. (yes/no)
+- **O-61.** Coin-operated video cabinets are D5; pinball and redemption machines are E1 (a key note for the next revision). (yes/no)
+
+(O-50 is not used: D4's ledger question is covered by O-2.)
+
+## 5. Gaps and framework items the owner should know before approving
+
+**Attestation gaps (no fetched page names the kind; S6).**
+- D1: point-of-sale terminal, payment card reader, cash register, hardware wallet, security key, printer, scanner, multifunction printer, 3D printer, barcode scanner, speech microphone, docking station.
+- D2: satellite phone, pager, CB and amateur handhelds, electronic dictionary, pocket translator, laptop-class power bank, GPS or cellular tracker, e-paper writing tablet, vehicle-mounted radio, base station.
+- D3: projection-screen named forms, boombox, streaming media player, set-top receiver, radio scanner, slide and cine projectors.
+- D4: camera drone, pocket gimbal camera, hybrid instant camera, Canon L and Sony G Master lines.
+- D5: magnetic game media, a second source for VR and retro kinds, Korean retail.
+
+**Framework items for the next revision (logged, not applied).**
+- (a) Step 24's D1 clause "cables and adapters ... whatever device they serve" against step 8 (X-11(b)).
+- (b) Chargers are not named (X-11(c)).
+- (c) Digital audio players, streaming and set-top boxes, DACs and headphone amplifiers are not named in the D3 branch.
+- (d) Camcorders, action cameras and 360 cameras are not named in the D4 branch.
+- (e) Bike computers, golf GPS and landline phones are not named in the D2 branch.
+- (f) "Handheld" in D5 against "laptop or convertible computer" in D1 for handheld gaming PCs.
+- (g) E1 "coin-operated games" against D5 "arcade machine".
+- (h) The key's "divided by platform and carrier" (D5 line) against C13 (O-51).
+- (i) The SIM card under the step-1 note (O-27).
