@@ -11,7 +11,7 @@ Table: `verify/out/S3C_G.tsv` (79 rows: G1 53, G2 26). All pages were fetched th
 - Prams, strollers, cargo bikes, mobility scooters, e-scooters: only small US-centred lists (Stroller Compass 102 models; escooterwise 10 brands). BabyOne and electricscooterfinder were seen but not fetched.
 - Rail: Wikipedia builder lists only; no model database; preserved rolling stock is museum territory.
 - Horse-drawn vehicles: builder directory only (CAA), no types or model register. PWC, ATV/UTV and golf cart makers are covered only inside vPIC and boats.com.
-- Pre-war and minor car and cycle makes: Ultimate Specs and Grace's Guide (British only) are the nearest; Wikipedia says 1,800 makers existed in the US alone and no list is complete.
+- Pre-war and minor car and cycle makes: Ultimate Specs and Grace's Guide (British only) are the nearest; Teoalida states that over 1,000 small makers existed before WWII and no list is complete.
 - Ready-made data to avoid scraping: vPIC (API/DB), FAA registry (CSV), ICAO Doc 8643 (registration), Auto-Data/Teoalida (paid). Terms of each need checking before bulk use.
 
 **G2 Property & Structures.** Harvest first: Rightmove's 66-value property type list plus the Wikipedia List of house types and List of building types for dwelling kinds and vernacular named forms; the Getty AAT and FISH thesauri to normalise terms; LandSale (100+ land types), LandWatch, REINZ and ALUM for land; Gartenbau.org, Hornbach, Dunster House and Bunnings for garden-building makers and lines; MHI and ManufacturedHomes.com for manufactured-home makers; LIFULL HOME'S for Japanese house makers; Dignity Memorial, PlotListings and Bestattungen.de for burial space. Gaps:
