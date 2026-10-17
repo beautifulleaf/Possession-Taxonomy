@@ -5,7 +5,7 @@ import re
 from common import ROOT, read_tsv
 from kl_prepare import CODES, tree_kinds, write_text
 
-FROZEN = {}  # code -> audit file name, when a fixed tree supersedes KL_<CODE>_tree.md
+FROZEN = {"A2": "KL_A2_tree_v2.md", "B8": "KL_B8_tree_v2.md", "G2": "KL_G2_tree_v2.md"}  # code -> audit file name, when a fixed tree supersedes KL_<CODE>_tree.md
 
 def main():
     xw = {}
