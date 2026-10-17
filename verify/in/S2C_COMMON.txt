@@ -1,0 +1,9 @@
+STAGE 2 CONFORMANCE PASS (offline: no web, no git). You revise ONE structure memo so that it follows its domain review and the shared conventions. You are an editor, not a decider.
+Read in full: /home/user/Possession-Taxonomy/BRIEF.md; /home/user/Possession-Taxonomy/framework/CATEGORIES_v0_6.md; /home/user/Possession-Taxonomy/framework/structure/_conventions.md (C1–C17); your memo framework/structure/<CODE>.md and its sources file verify/out/S2_<CODE>_sources.tsv; and the domain review named in your task (framework/structure/_review_<D>.md): read every finding about your memo and every cross-memo finding that names it.
+Do:
+1. Apply every review fix that is a correction under the framework, BRIEF or conventions (axis breaks, modifiers used as levels, kinds that overlap, tiers on kinds, missing homes for objects the key sends to your category, contradictions inside the memo, convention format for ledgers, named forms, variants, tiers, price bands, aliases).
+2. Where a fix depends on an owner decision the review lists, do NOT decide it: keep the memo's current recommendation, mark the place with 'OWNER:' and the question, and list it in section 10.
+3. Do not add new evidence or new sources (no web). Where the review says a claim needs a source, mark it '†' (needs fetched attestation) and list it in section 10 under 'Sourcing still needed'.
+4. Keep the memo's section numbering; update the worked tree, the 20-object usability check (add one if missing, showing a single home for each of 20 objects), section 4b, 5, 6 and 9 as needed.
+5. Add a final section '## 11. Revision log (conformance pass)' listing each review finding by its number: applied, deferred to owner, or not applied (with the reason).
+Edit the memo in place (write the whole revised file). Scratch files only in /home/user/Possession-Taxonomy/verify/work/S2C_<CODE>/. Finish with a report under 100 words: findings applied / deferred / not applied, and anything you could not resolve.
