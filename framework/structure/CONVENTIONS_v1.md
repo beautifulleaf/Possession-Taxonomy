@@ -36,7 +36,7 @@ Level names used throughout: category, sub-family, leaf, kind, named form (C5). 
 - Optional category extension columns: A2 `construction_policy`; A3 `marks` (maker's marks and hallmark notes); A5 `movement_policy`; any category `certifications`.
 
 **`maker_class` values.**
-- General: house or manufacture; independent; microbrand; retail own-label; licensee or diffusion; costume or fashion brand; artisan or atelier; supplier (such as a movement, fabric, chip or panel maker); perfumer or composer (a person, so that noses and composers are recorded).
+- General: house or manufacture; independent; microbrand; retail own-label; licensee or diffusion; costume or fashion brand; artisan or atelier; supplier (such as a movement, fabric, chip or panel maker); designer (a person or studio credited with a design that others make, R-24); perfumer or composer (a person, so that noses and composers are recorded).
 - Vehicles and property: builder (built to order or in small series); converter (builds on another maker's base); kit supplier.
 - Health: pharmaceutical company; medical-device manufacturer; supplement brand.
 - Software, digital and subscriptions: software publisher; community or foundation project; platform holder; storefront or marketplace (with a `resale` flag); game publisher; type foundry; format steward or standards body; registry operator; network operator; MVNO or reseller; membership body; venue, club or attraction operator; transport operator or association; aggregator; producer; curated-box company.
@@ -64,7 +64,7 @@ Tier entries for lines are in C4. Brand product lines of everyday consumables (c
 | `relation_id` | |
 | `maker_id` | |
 | `other_id` | a maker, line, named form or platform |
-| `relation` | OEM (builds for); supplies chip or panel to; board partner of; licensed by; rebrand of; composed by (perfumer or composer of a named form) |
+| `relation` | OEM (builds for); supplies chip or panel to; board partner of; licensed by; rebrand of; composed by (perfumer or composer of a named form); designed by (designer of a named form or line, R-24) |
 | `scope` | line, named form or range covered |
 | `years`, `sources` | |
 
