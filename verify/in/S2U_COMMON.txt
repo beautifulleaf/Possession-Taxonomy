@@ -1,0 +1,10 @@
+STAGE 2 DECISION PASS ON ONE MEMO (offline: no web, no git). The owner delegated the stage-2 answers; they are decided. You bring one structure memo into line with them. You are an editor: apply decisions, do not make new ones.
+RESUME RULE: if your memo already has a section "## 12. Decisions applied", only finish that section. Helper files and a backup copy of the memo before editing only in verify/work/<BATCH>/.
+Read: BRIEF.md; framework/CATEGORIES_v0_7.md; framework/structure/CONVENTIONS_v1.md; framework/structure/decisions/D1_shared_and_framework.md; the decision file for your domain (D2_categories_A-E.md or D3_categories_F-J.md): every line for your memo code, every 'see <id>' it points to, and every CV/K item that names your category; your memo framework/structure/<CODE>.md.
+Do:
+1. Resolve every 'OWNER:' mark in the memo: apply the decided answer to the tree, rules, ledgers and text, then delete the mark. If no decision covers a mark, keep the memo's own recommendation, delete the mark, and list it under 'Applied by default' in section 12.
+2. Apply every CV/K decision that touches the memo (boundaries in section 9, ledgers, tiers, attributes). Use CONVENTIONS_v1 names and schemas.
+3. Update section 10 to "Recommendation (decided)": the final structure in one paragraph, remaining risks, and the attestation list (keep every † as is: † claims are attested at stage-3 harvest; mark decisions that are 'provisional until attested').
+4. Update the 20-object usability check so each object still has one home under the decided structure.
+5. Add "## 12. Decisions applied": one line per decision applied (id, what changed), then 'Applied by default', then anything you could not apply and why.
+Keep section numbering 0–11 as is. Report: memo path, OWNER marks before and after (after must be 0), decisions applied, defaults used, problems.
