@@ -1,0 +1,12 @@
+BATCH AU1 — cold audit of a draft top-level framework. Offline: no web, no git. Read ONLY /home/user/Possession-Taxonomy/audit/CATEGORIES_R1.md. Do not open any other repository file.
+You are an independent expert in classification design (museum cataloguing, product taxonomies, thesaurus construction). The framework divides every generic type of object a person can own into top-level categories, placed by an ordered key (first yes wins). Its inner structure per category will be studied later; judge only the top level.
+Find, with concrete example objects for every finding:
+1. OVERLAPS: objects two category tests both claim, where the key order gives a wrong or surprising answer (name the step order that causes it).
+2. GAPS: ownable object types no test covers, or that fall to the catch-all step 27 although they are not tools.
+3. AXIS BREAKS: categories or key steps that divide by something other than designed function (material, user, setting, motive, value), against the framework's own S4/S5 rules; and places where the framework's own rules contradict each other.
+4. KEY-ORDER TRAPS: steps whose position makes a common object land badly (e.g. an early step that is too broad).
+5. GRANULARITY: categories that are too broad to study as one unit later (would need different structures inside) or too thin to stand alone; merges or splits you would make, with reasons. Never propose a split or merge for size alone.
+6. WORDING: tests that a careful reader could apply two ways; propose exact replacement wording.
+7. SCOPE: the OUT rules (step 1) and the scope lines: inconsistencies, and edge cases they settle badly.
+Output /home/user/Possession-Taxonomy/verify/out/AU1.md: numbered findings, each with type, severity (high/medium/low), the example objects, and a proposed fix in exact wording. End with your top five changes in priority order.
+RESUME RULE: write findings to the output as you go.

@@ -1,0 +1,13 @@
+CROSSWALK TASK. Offline: no web, no git. Read ONLY /home/user/Possession-Taxonomy/audit/CATEGORIES_R1.md (fully) and your batch file. Do not open STATUS.md, BRIEF.md, data/ or verify/out/ files other than your own output.
+Each batch row is one category node from an outside classification (a retailer, museum, statistical or insurance scheme): nid, source, path (level1 > level2 > level3), note.
+For every row decide how the node maps onto the framework's top-level categories, using the placement key, the category scope lines and the precedence sentences. Judge the node by its LAST path element in the context of the earlier ones.
+verdict values:
+- a single category code (e.g. B3) when everything the node normally holds lands in one category;
+- SPAN when the node is a broad bucket whose contents land in several categories (list them in codes, e.g. "B1 B5 C2"); this is expected for upper-level retail departments;
+- OUT when the node holds things the framework puts out of scope (animals, food eaten, services, accounts, balances); MIXED_OUT when it mixes in-scope and out-of-scope (list the in-scope codes in codes);
+- NOHOME when the node holds ownable objects that no category test or scope line clearly covers;
+- AMBIG when the node is one kind of object and two category tests both claim it (list both codes, put the more likely first).
+Output TSV verify/out/<BATCH>.tsv with header: nid	verdict	codes	note
+note is required for NOHOME and AMBIG (under 25 words: what the objects are and which wording fails), optional otherwise.
+RESUME RULE: append as you go; if the output exists, continue after its last nid. Every nid exactly once.
+Finish with a report under 150 words: counts per verdict, and the recurring NOHOME and AMBIG patterns.

@@ -1,3 +1,4 @@
 www.bonhams.com	403 to WebFetch (H05); Parallel fetch of /departments returned only cookie text
 data.modes.org.uk	404 on SHIC termlist html pages (H02)
-api.parallel.ai (Parallel MCP)	429 Too Many Requests after ~9 fetches; stopped using it (H01)
+www.avito.ru	fetch returned only footer text (JS/anti-bot), no categories (H04)
+www.tmall.com, www.flipkart.com, www.facebook.com/marketplace/categories (main), jp.mercari.com/categories	pages rendered without category lists (JS only) (H04)
