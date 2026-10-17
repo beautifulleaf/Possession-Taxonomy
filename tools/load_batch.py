@@ -111,7 +111,7 @@ def main():
             alt = ROOT / f"verify/work/load_{b}_scene_tags_known.tsv"; alt.parent.mkdir(parents=True, exist_ok=True)
             write_tsv(alt, [t for t in tg if t["scene_id"] in known_sc], list(tg[0].keys())); FIX["scene_tags"] = alt
             print(f"{len(wait)} tags on proposed scenes queued")
-    for extra_tags in ("scene_tags_proposed", "scene_proposal_tags"):
+    for extra_tags in ("scene_tags_proposed", "scene_proposal_tags", "scene_proposal_members"):
         if (out / f"{b}_{extra_tags}.tsv").exists():
             q = out / "scene_tags_proposed_all.tsv"
             tg = read_tsv(out / f"{b}_{extra_tags}.tsv")
