@@ -10,6 +10,13 @@ from common import ROOT, read_tsv, write_tsv
 from schema import TABLES
 
 def run(table, path):
+    if path.exists() and table != "makers":  # a row with no source never enters (one-source rule); set it aside
+        rows = read_tsv(path); bare = [r for r in rows if not (r.get("sources") or "").strip()]
+        if bare:
+            write_tsv(ROOT / f"verify/out/{path.stem}_nosource.tsv", bare, list(rows[0].keys()))
+            path = path.with_name(path.stem + "_withsource.tsv") if "verify/work" in str(path) else ROOT / f"verify/work/{path.stem}_withsource.tsv"
+            write_tsv(path, [r for r in rows if r not in bare], list(rows[0].keys()))
+            print(f"{table}: {len(bare)} rows without a source set aside")
     if path.exists() and len(read_tsv(path)):
         r = subprocess.run([sys.executable, str(ROOT / "tools/data_write.py"), "add", table, str(path)], capture_output=True, text=True)
         print((r.stdout + r.stderr).strip())
@@ -21,7 +28,34 @@ def main():
     out = ROOT / "verify/out"
     FIX = {}
     f = lambda s: FIX.get(s, out / f"{b}_{s}.tsv")
-    if not f("roster_only").exists() and (out / f"{b}_untied.tsv").exists(): FIX["roster_only"] = out / f"{b}_untied.tsv"
+    # repair: when a row gives one fetch_status for several sources, take each source's status from the batch's fetch log;
+    # a source the log does not hold stays unattested and is dropped from the row (the row needs one fetched source left)
+    log = ROOT / f"verify/work/{b}/fetched.tsv"
+    if log.exists():
+        st = {}
+        for r in read_tsv(log):
+            u = (r.get("url") or "").strip(); v = (r.get("fetch_status") or r.get("status") or "").strip().lower()
+            if u: st[u] = "full" if v in ("ok", "full", "200") else v
+        for name in ("makers", "roster_only", "untied", "maker_kinds", "named_forms", "lines", "scene_tags"):
+            src_file = out / f"{b}_{name}.tsv"
+            if not src_file.exists(): continue
+            rows_ = read_tsv(src_file); fixed = 0
+            for r in rows_:
+                us = [u.strip() for u in (r.get("sources") or "").split("|") if u.strip()]
+                fs = [x.strip() for x in (r.get("fetch_status") or "").split("|") if x.strip()]
+                if us and len(us) != len(fs):
+                    keep = [(u, st.get(u, "")) for u in us if st.get(u, "") in ("full", "partial")]
+                    r["sources"] = " | ".join(u for u, _ in keep); r["fetch_status"] = " | ".join(v for _, v in keep); fixed += 1
+            if fixed:
+                lost = [r for r in rows_ if not r["sources"].strip() and name not in ("makers", "roster_only", "untied")]
+                rows_ = [r for r in rows_ if r not in lost]
+                if lost:
+                    write_tsv(out / f"{b}_{name}_unattested.tsv", lost, list(lost[0].keys()))
+                    print(f"{name}: {len(lost)} rows lost their only source (not in the fetch log), set aside")
+                alt = ROOT / f"verify/work/load_{b}_{name}_status.tsv"; alt.parent.mkdir(parents=True, exist_ok=True)
+                write_tsv(alt, rows_, list(rows_[0].keys())); FIX[name] = alt
+                print(f"{name}: fetch_status rebuilt from the fetch log for {fixed} rows")
+    if not f("roster_only").exists() and f("untied").exists(): FIX["roster_only"] = f("untied")
     if f("roster_only").exists():  # some batches put makers with no garment type in a reduced file: same rule (R-76)
         ro = read_tsv(f("roster_only"))
         mk_rows = read_tsv(f("makers")) if f("makers").exists() else []
