@@ -295,3 +295,50 @@ The BRIEF rule is "Possession files the object as owned and kept, and groceries 
 - **J7: coherent at leaf level.** J7's sub-families follow Culinary DR-E to DR-H, and its grape kinds match Culinary's grape kinds. Culinary's s14 decision (a regional blend with no dominant grape "stands as its own style kind") supports J7's Champagne-as-kind. If the owner adopts JC1(c) without an exception, the link is many-to-one (Champagne named form → DR-F2-1), which is still coherent. Culinary drink families with no J7 target (J7-4) must be listed as unsourced kinds, so that each Culinary drink sold sealed has a J7 home.
 - **Links overall.** None of the memos plans a link that contradicts a Culinary leaf definition. The structural gaps are J6 (no plan), J2 and J5 (partial plans), and the X2 and X3 objects, whose home on the J side must be settled before the links can be written.
 
+## 7. Owner decisions raised by the memos (merged and de-duplicated)
+
+The memo questions each item absorbs are given in brackets.
+
+### A. Shared conventions (decide once for domain J)
+1. Adopt JC1: one `standard` table and one `designation` table, replacing the five memo ledgers? Yes or no. (J1 Q3, Q9; J3 Q9; J5 Q8; J7 section 6)
+2. Placement of designated names. Choose: (a) the JC1(c) rule with no exception: Champagne, Cognac, Port, Parmigiano Reggiano and Prosciutto di Parma become named forms under generic kinds; (b) the same rule with a written exception for wine and spirit names (Champagne, Port, Sherry, Cognac, Tequila stay kinds, as in Culinary's s14 rule); (c) J3 Rule P for cheese as well. (J3 Q9, J7 Q1, J7 Q2, J1-4)
+3. One unit-price band (USD per kg or per litre) for J1 to J6, with J7 also keeping the item band per 750 or 700 ml? Yes or no. (J1 Q4, J2 Q8, J4 Q7, J5 Q9, J6 Q11)
+4. One `supply_role` column, with consortia and appellation bodies held as designation authorities, not makers? Yes or no. (J1 section 6, J3 section 6, J4 Q10, J2 Q10, J7 Q11)
+5. Legal or measured quality ladders are attributes, and only names that fix a different composition or process are kinds? Yes or no. If yes: olive-oil categories, Ibérico sale names, caviar grades and the sake polishing classes become attributes, while junmai against sake with added alcohol, the JAS soy-sauce types and pressed caviar stay kinds. (J1 Q3, J5 Q3, J5 Q4, J7 Q3, J2 Q7)
+6. Cuts. Choose: (a) the cut is the kind for meat and for pasta; (b) the cut is the kind for meat, and the shape family the kind for pasta; (c) cuts are named forms everywhere (the literal BRIEF wording). (J1 Q2, J5 Q2)
+7. Minced, shaped and formed products of one main ingredient (sausages, raw burgers, meatballs, kamaboko, surimi sticks, fish sausage, plant burgers and sausages) are groceries in their source category, and coated, filled or sauced ones are prepared? Yes or no. (J1 Q5, J2 Q3)
+8. Spreads, pastes and dips of any origin (rillettes, liver pâté in a jar, potted shrimp, taramasalata, hummus, guacamole, tzatziki, pesto) are J5, and sliceable pâtés and terrines are J1-D or J2? Yes or no. (J1 J1-D, J2 P-J5, J5 J5-3)
+9. Mixed rule JC5(c): half by weight decides, otherwise a final "mixed" kind; no sub-family on pack composition? Yes or no. (J2 P6, J4 Q4)
+10. One J tradition vocabulary with sources, no cuisine tag, and Culinary links that may start from designation and variety rows? Yes or no. (J1 Q12, J2 section 7, J5 section 7)
+11. A shared variety table for breeds, cultivars, coffee varietals and grapes? Yes or no.
+
+### B. Framework changes (for the next CATEGORIES revision)
+12. Extend the J1 branch to "meat, poultry, game and other land animals eaten (frogs, insects)", with snails as J2 molluscs? Yes or no. (Without a change, edible insects run to X0.) (J2 Q4)
+13. Change the J6 test to "other plant parts brewed as infusions (leaves, flowers, fruit, roots, bark, roasted grains)" and add kava to the J6 line? Yes or no. (J6 Q8, J6 Q9)
+14. Reword step 1 as "alcohol-free versions of beer, wine and spirits"? Yes or no. (J6 conflict 5, J7 Q6)
+15. Cocoa butter and cocoa paste: J6 cocoa products, or J5 (fats and baking chocolate)? (J6 Q1, J6 Q2)
+16. A dry drink mix is J6 when coffee, tea or cocoa is its main ingredient by weight, and otherwise a prepared drink? Yes or no. (J6 Q3, J3 sentence 7)
+17. Plain fermented milk drinks (kefir, drinking yoghurt, buttermilk) are J3, and sweetened or flavoured milk drinks are OUT. Ayran and plain lassi: J3 or OUT? (J3 Q4)
+18. Plain-cooked meat and tinned plain meat go to J1-D (renamed "Cooked, tinned & potted meats")? Yes or no. (J1 Q6)
+19. Margarine and plant-only fat spreads go to J5, and spreads containing butter to J3? Yes or no. (J3 Q2, J5 Q5)
+20. Hard-boiled, pickled and preserved eggs go to J3 (plain cooking or curing of one ingredient)? Yes or no. (J3 Q4)
+21. Par-fried and coated frozen vegetables (chips, hash browns, battered vegetables) are prepared (OUT)? Yes or no. (Today they run to X0.) (J4 Q5)
+22. Instant noodles: a dry brick with a sachet is J5, and a cup or pot is a ready meal? Yes or no. (J5 Q6)
+23. Wine, spirits and casks bought but not delivered, en primeur offers and bonded-warehouse casks are OUT until delivered, and a delivered cask is J7? Yes or no. (J7 Q4)
+24. Sealed ready-to-drink cocktails and hard seltzer go to J7.7? Yes or no. (J7 Q5)
+25. Home-brewing and winemaking ingredients go to J5, and equipment to B5? Yes or no. (J7 Q8)
+26. Live fish sold to eat are OUT (as the key reads), and protected-species goods (shark fin) carry a flag attribute? Yes or no for each. (J2 Q4, J2 Q11)
+27. Sprouting seed sold to eat is J5 (already in `_framework_conflicts.md`)? Yes or no. (J4 Q5, J5 section 9)
+
+### C. Per-category structure
+- **J1.** First axis: state of preparation (recommended) or the animal (Q1). Veal: its own leaf or inside Beef (Q7). Offal under each animal (recommended) or one cross-species leaf (Q8). Primals and sides kept as kinds listed after the retail cuts (Q11). Add the cured kinds of J1-5 once sourced?
+- **J2.** Form first (recommended) or animal group first (Q1). Storage state as one attribute (Q2). Fresh seaweed in J4 and dried in J5, none in J2 (Q5). Whole salted-fermented seafood in J2.3, sauces and pastes in J5 (Q6). "Caviar" only for sturgeon and paddlefish roe, with uni in J2.1 (Q7). Scientific name as a required attribute (Q9).
+- **J3.** Plant alternatives as their own sub-family (recommended) or folded into each family (Q1). Evaporated and condensed milk in Milk (Q5). Growing-up milk in J3, and ranges labelled for a named condition in H2 (Q6). A tenth cheese leaf for dried dairy once sourced (Q7). Skyr and labneh as yoghurt, quark as cheese (Q8). Egg class, grade, size and farming code as attributes (Q10). Salted and unsalted as an attribute (Q11). The first-*yes* cheese key of J3-2 (Q12).
+- **J4.** Fruit or vegetable by sweetness as sold, so avocado goes to fruiting vegetables (Q1). Load only cultivars attested as sold (Q2). Frozen as an attribute (Q3). Keep the small sea-vegetable sub-family, or fold it (Q6). Commercial types (cherry and vine tomatoes, new potatoes) as named forms (Q8). Cherries in Stone fruit (Q9).
+- **J5.** The level-1 restructure of J5-1 (a preserved fruit and vegetables sub-family; tinned pulses with pulses)? Flour with grains (Q1). Honey with sweeteners (Q7). Roasted and salted nuts in J5, and coated nuts and trail mix (Q11). Cake mixes in J5 baking; sprinkles and decorations as confectionery, OUT (Q10). The rice kinds of J5-2?
+- **J6.** Whole bean and ground as one kind (Q5). Drip bags and tea bags as `pack_form`, and machine capsules as a kind (Q6, J6-2). Herb identity as the infusion kind (Q7). Matcha under green tea (Q10). Raw and ripe pu-erh as an attribute (Q12). Green-tea kinds by process, as in J6-6?
+- **J7.** Wine kind is the grape or blend type (Q2). Whisky kinds by production type, with country as a tag (J7-1)? Sake kinds as in J7-2? `variant_type` vintage and bottler edition (Q9). Bitters split by use (Q7). Approve the East Asian and wider second pass before the structure is approved (Q10). Load makers from attested lists only, at a stated cap (Q11).
+
+## 8. Report
+
+Seven J memos reviewed. Six need minor fixes; J5 needs rework at the sub-family level, because its level-1 axis is mixed and J5.10 is a preservation class, and in its rice kinds. The top cross-memo problems are five schemas for designations and grades (JC1 proposes one `standard` and one `designation` table and one placement rule), and three different answers each for spreads and pastes (J1, J2 and J5 against the key) and for formed products (sausage, fish sausage, burgers, plant burgers). Other findings: country-only whisky kinds (J7), caviar grades and sake designations stored as forms or kinds, six price-band proposals, seven maker-ledger extensions, and orphans (insects, plain-cooked and tinned meat, cocoa butter, par-fried chips). The Culinary links are coherent for J1, J3, J4 and J7, partial for J2 and J5, and missing for J6. Section 7 holds 27 owner questions.
