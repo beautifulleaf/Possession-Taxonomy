@@ -2,7 +2,7 @@
 
 *Batch S2R_I. Cold, offline review (no web, no git) of memos framework/structure/I1.md, I2.md and I3.md and their sources files verify/out/S2_I1_sources.tsv, S2_I2_sources.tsv and S2_I3_sources.tsv, against BRIEF.md, framework/CATEGORIES_v0_6.md, framework/STAGE2_MEMO_TEMPLATE.md and the draft shared conventions C1 to C13 in framework/structure/_conventions.md. The three memos say they were prepared under C1 to C13, so section 3 checks each convention and lists the changes still needed. This is a reviewer's judgement, not an owner decision. Severity: **high** = breaks a shared rule (BRIEF, Appendix A, a convention), or would file many objects in two places; **medium** = one rule break, one contradiction or a clear split; **low** = wording, evidence or tidy-up.*
 
-*Resume status: sections 1 and 2 are written. If a section below reads PENDING, continue from there.*
+*Resume status: complete (sections 1 to 5).*
 
 **Mechanical checks.**
 - *Sources match.* I1 cites S01 to S31, and the TSV has 31 rows in the same order. The header says "37 fetched pages (… 31 rows)"; the six other pages are the failed fetches it lists. I2 cites S01 to S32, and the TSV has 32 rows. The header says 33 fetched pages, the extra one being the blocked Steam Community Market. I3 cites S01 to S38, and the TSV has 38 rows. Its header says 40 fetches, two of which carry no claims. Every key table matches its TSV row for row.
@@ -414,4 +414,54 @@ Each memo has its own C1 to C13 notes: I2 and I3 have a conformance section, and
 - **Gaps in I3's key (I3 section 9).** Goods rental subscriptions, hosting plans, creator memberships, the physical SIM card or eSIM profile, and car-sharing memberships.
 
 ## 5. Owner decisions raised (merged and de-duplicated)
-PENDING
+
+Each item gives the memo questions and findings it merges, then the reviewer's recommendation in brackets.
+
+**Structure (one per memo)**
+1. I1: function-first sub-families (Candidate A), or one "AI tools" sub-family (A2)? (I1 Q1) [A, with a generated "AI tools" view]
+2. I2: level 1 as "what the held data is for" (read, heard, watched, viewed, built with, used in a game or platform, registered), or holding form first (Candidate B)? (I2 Q1, I2-5) [the restated A]
+3. I3: five sub-families by what the plan gives access to (catalogue and play, online utility, connectivity, member places and passes, curated deliveries). Yes or no? (I3 §10) [yes]
+
+**Kinds and choice level**
+4. I1 business software: personal and prosumer only, Capterra headline depth (40 to 80 kinds), or G2 depth (about 2,000)? (I1 Q2, I1-2) [Capterra headline, with the leaf by business function and a `market` tag]
+5. I1 AI: are "AI coding assistant" and "AI image generator" kinds, and is the image generator one kind with `task_mode`? (I1 Q1) [yes, both kinds; one image kind with `task_mode`]
+6. I1: add "creative suite", "graphic design app", "audio plug-in" and "database software", and split "application launcher" from "desktop search tool". Yes or no? (I1-5) [yes]
+7. I2 e-books: kinds by layout form (reflowable, fixed-layout, comic archive, plain text), with formats as named forms and Kindle, Apple Books and Apabi as platform rows. Yes or no? (I2-1) [yes]
+8. I2 music: one "digital music file" kind with formats as named forms and compression and resolution as attributes, or two kinds (lossy, lossless)? (I2-4) [one kind]
+9. I2 audio leaf by kind of recording (music, spoken word, podcast), as a form of medium (as I3's catalogue leaves also do), not a genre. Yes or no? (I2 Q2) [yes]
+10. I2 audiobooks and video: one kind each, with rights state and unit as attributes. Yes or no? (I2 Q7, Q8, I2-2) [yes]
+11. I2 fonts: one "font family" kind, with licence scope as a variant and the variable capability as an attribute. Yes or no? (I2 Q3, Q4, I2-3) [yes]
+12. I2 domain names: kinds by TLD eligibility class, with the TLD as named form and premium as a platform tag. Yes or no? (I2 Q9) [yes]
+13. I2: new kinds for sample and instrument libraries, presets and LUTs, MIDI files, digital planners, messaging sticker packs and AI model files (after sourcing). Yes or no? And are AI model weights I2? (I2-6, I1 Q10, X7h) [yes; model weights I2]
+14. I2 in-game items: game as a ledger row and a view, never a level; named forms entered only on demand. Yes or no? (I2 Q5) [yes]
+15. I3: merge or rename the place kinds by the way of entering (facility membership, members' club, multi-site membership, multi-venue pass scheme, single-venue annual pass). Yes or no? (I3-3) [yes]
+16. I3: periodicals by title count, not by print or digital; delivery kinds renamed by who chooses (curated box, member-selected menu plan, producer club). Yes or no? (I3-2, I3-4) [yes]
+17. I3 soft kinds: keep on-demand video, live-TV streaming and pay-TV as three kinds, and satellite internet as a kind under C10(b)? (I3-Q10, I3-8) [yes, provisional]
+18. I3: add an "asset-library subscription" kind for stock, font and sample plans, and keep the downloaded assets in I2. Yes or no? (I2 Q10, I3-6, X7f) [yes]
+19. I3 deliveries: goods type as a link and a view, not a kind (no separate "wine club" kind). Yes or no? (I3-Q1) [yes]
+
+**Boundaries and scope**
+20. Hosted clients: messaging and video conferencing in I3, an email client in I1. Are game store and launcher clients not filed (X7e), I1 or I3? (I1 Q3) [I3 for messaging; I1 for the email client; launchers not filed]
+21. Classes against learning apps: library of recorded lessons I3, interactive program I1 (X7a). Yes or no? [yes]
+22. Backup, maps and reference works: adopt sentences X7(b), X7(c) and X7(i). Yes or no? [yes]
+23. Device-tied plans: unlock I1, connection I3, class catalogue I3, free companion app part of the device (X7g). One exempt I1 sub-family for add-ons and unlocks, with the unlock leaf held until sourced. Yes or no? (I1 Q4, I1-1) [yes]
+24. Medical software is H2, and the step 2 wording names software. Yes or no? (I1 sentence 6, X9) [yes]
+25. Credit plans: filed as the plan with `credits_per_period`, and credits bought alone OUT. Is ClassPass IN as a pass? (I3-Q4, X7j) [yes; yes]
+26. NFTs that carry a game item, ticket or membership: I2 as the token, with the access filed only if it is also sold as a plan. Yes or no? (I2 Q6, X7k) [yes]
+27. Goods rental subscriptions: an I3.5 kind (goods lent and returned), or OUT as a rental service? (I3-Q3) [I3 kind]
+28. Hosting plans (web and game server): an I3.2 kind, or OUT? (I3-Q2) [I3.2 kind, personal plans]
+29. Travel eSIM and other one-off packs OUT unless they renew. Yes or no? (I3-Q6) [yes]
+30. Creator memberships, the SIM card or eSIM profile, and car-sharing memberships: rulings needed. (I3-Q7) [creator memberships an I3.1 kind; the SIM is part of the plan while active and F5 when kept; car-sharing an I3.4 kind]
+31. Seat structure is a plan attribute, and the step 5 note is amended. Yes or no? (I3-Q5, X9) [yes]
+32. Subject-taught software: is the subject content genre, and never a level? (I1 Q8) [yes]
+
+**Shared conventions (domain I)**
+33. One `maker_class` list and one maker row per company across I1, I2, I3 and D5 (X1). Yes or no? (I1 Q9) [yes]
+34. One variant ledger with the new types `edition`, `version`, `plan`, `licence scope` and `style`, and the plan columns (X2). Yes or no? (I1 Q6, I3-Q8) [yes]
+35. Releases are named forms, while editions, plans and minor versions are variants. Product lines go in the C1 lines table. Yes or no? (I1 Q6, I1-3) [yes]
+36. C4(a) amendment: maker ladders as tier entries on variant or plan rows, exempt from C4(e); lab scores as tier entries; seals as certifications (X3). Yes or no? (I1 Q5, I3-Q8, I1-4) [yes]
+37. C4(d) for domain I: annualised plan price, a free band, full price for one-time and lifetime, renewal price for domains, and a named form banded by its cheapest paid plan (X4). Yes or no? (I1 Q5, I3-Q9) [yes]
+38. One compatibility ledger shared with D5, and one `delivery` value list (X5). Yes or no? [yes]
+39. How many products to store: only those named by a fetched comparison, lab, directory or storefront page, and game items on demand. Yes or no? (I1 Q7, I2 Q5) [yes]
+40. Kinds without a fetched source are held as provisional and not entered: podcast file and subscription, digital score, maps, zoo pass, season ticket and the other key-only kinds. Yes or no? (I2 Q11, I3 limits, I3-5, X8) [yes]
+41. Adopt the Library of Congress `preservation_rank` after a second source? (I2 Q12) [hold until a second source]

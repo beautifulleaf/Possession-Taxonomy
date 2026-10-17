@@ -91,3 +91,15 @@ Drafted by the domain A review (framework/structure/_review_A.md, section 4) and
 **App ecosystems (C13 detail).** An app ecosystem that controls devices is a C13 row with `kinds_served`; the app itself is I1.
 
 **Maker tier ladders (C4 detail).** A maker's own technology or range level is a tier entry with `scheme` = the maker's name; a reviewer's grade needs a second source from another region before entry (C4e).
+
+## Proposed additions from the domain I review (framework/structure/_review_I.md, section 4; owner approval needed)
+
+**C1 detail: maker classes for domain I.** One maker row per company across I1, I2, I3 and D5. `maker_class` list: software publisher; community or foundation project; platform holder; storefront or marketplace (with `resale` flag); game publisher; type foundry; format steward or standards body; registry operator; network operator; MVNO or reseller; membership body; venue, club or attraction operator; transport operator or association; aggregator; producer; curated-box company. `platform_ids` leaves the maker ledger (C13 `owner` links them).
+
+**C3 amendment: variant types for plans and editions.** New types `edition`, `version`, `plan`, `licence scope`, `style`, with type-specific columns: `seat_structure`, `seat_count`, `eligibility`, `term`, `price_model` (free, freemium, one-time, subscription, bundle), `list_price`, `currency`, `price_date`, `annual_price_usd`, allowances (`storage_gb`, `data_gb`, `speed_mbps`, `devices`, `cloud_hours`, `credits_per_period`), `components`, `addon_of`, `status`. `licence_class` and `spdx_id` sit on the named form; a variant may override them.
+
+**C4(a) amendment: maker ladders on variants.** A tier entry may sit on a variant or plan row when (i) the scheme is the maker's own ladder for one named form (`scheme = maker ladder: <named_form_id>`, value and `rank`; attested by the maker's page alone, exempt from C4(e), never compared across named forms), or (ii) an external test scores a specific version. Pass marks and seals are C4(b) certification attributes.
+
+**C4(d) addition: recurring and free prices.** The band is computed per variant or plan row from the annualised list price of the plan as sold (all seats, `seat_count` recorded), at a dated USD rate; promotional first-year prices recorded but not used; one-time, perpetual, lifetime and multi-year terms at full price with term recorded; free plans band "0 (free)"; a domain name at the TLD's standard renewal price; a named form's band is that of its cheapest paid plan, plus `has_free_plan`.
+
+**C13 detail: one ledger for domain I and D5,** with shared `platform_id`s; and one `delivery` attribute list (download; boxed or carrier; app store; web or hosted; self-hosted; portable; stream; physical delivery; entry to a place; network connection). Delivery is never a C13 row.

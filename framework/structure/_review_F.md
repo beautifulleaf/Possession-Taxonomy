@@ -271,3 +271,89 @@ Each finding gives severity, memo, evidence, the objects that would split, and a
 | F5 | passport; diplomatic passport; Korean resident registration card; driving licence; birth certificate; house deed; share certificate; diploma; staff badge that opens doors; Visa debit card; Starbucks gift card; used phonecard; Suica card; gym membership card; hotel key card; letter; cabinet card of strangers; Super 8 home film; empty pocket album; Victorian trade card | 5: Korean card (named form or tag, F5-2); used phonecard (F3 or F5, X2); cabinet card of strangers (owner question O3, X3); empty album (F5-1, X5); trade card (F5-5) | all single once X2, X3 and X5 are ruled |
 | F6 | memo's own 20 (section 3), plus: faceted amethyst; ruby crystal in matrix; tourmaline rough; freshwater pearl; Akoya pearl; wet snake specimen; bird egg; coral skeleton; deer antler; Libyan desert glass | the memo's 20 are single (two wait for attestation: rose quartz and Megalodon); of the 10 added, 8 split or have no home: faceted amethyst, ruby in matrix, tourmaline rough (F6-1); freshwater and Akoya pearls (F6-2); wet specimen, egg, antler (F6-4) | all single after F6-1, F6-2 and F6-4; Libyan desert glass and the coral skeleton already fit (tektites and impact glass; F6.6) |
 
+## 3. Conformance to conventions C1 to C13
+
+The changes each memo needs to conform. "None" means the memo already conforms or the convention does not apply. Findings in brackets give the detail.
+
+**F1 Media & Publications.**
+- C1: replace the section 6 field list with the core columns; maker_class `publisher`, `imprint`, `record label`, `cartographic publisher`, `globe maker`; edition lines that span kinds become line rows; derive known-for lines (F1-6).
+- C2: mark each named form `maker_bound` (Marvel Masterworks yes; bunko, A-format no); size classes (B101 to B114, folio, quarto) and pressings (HDCD, SHM-CD) leave the named-form list (F1-4, F1-5).
+- C3: state that the variant ledger is not used, because a release, pressing or edition of one title is an individual work (S2); Steelbook, Record Store Day and numbered pressings are attributes.
+- C4: no tier on a kind; fidelity specs become attributes with their standard; premium lines get tier entries with two regions' sources (F1-5).
+- C5: four levels, fixed names; add F1.5 Parts and accessories (F1-7); the cartographic sub-family (about ten kinds) may skip the leaf under C5(b).
+- C6: trims, antiquarian formats and globe diameters become attributes; carrier sizes need the X11 ruling (F1-1, F1-4).
+- C7: kinds by canonical form then the stated secondary key (already done); named forms by maker then first year, not "by year of first issue" alone.
+- C8: audiophile, cassette culture, zine culture and home-video collecting need definition sources before they become scene tags.
+- C9: seed the alias table (bunko 文庫, tankōbon 単行本, broché, poche, relié, BD, Langspielplatte).
+- C10: illumination (globes), HDCD encoding, tape type I to IV are attributes (already stated for globes and tape).
+- C11: tankōbon, bunkoban, kanzenban and the BD album as named forms under generic edition kinds (F1-2).
+- C12: none.
+- C13: carrier systems as compatibility rows linked to D3 and D4 players (F1-6).
+
+**F2 Art.**
+- C1: core columns; maker_class `artist`, `print studio or atelier`, `print publisher`, `foundry`, `house or manufacture`; extension `authority_id` (ULAN); figurine series as line rows (F2-1, F2-7).
+- C2: Polaroid and Ilfochrome `maker_bound: yes`; ukiyo-e, oil sketch `maker_bound: no`; aliases leave the named-form list (F2-4).
+- C3: figurine model numbers (HUM, Lladró numbers) as `variant_code` (F2-1); otherwise unused.
+- C4: none on kinds (the memo already keeps edition and authenticity as attributes); adopt the C4(d) bands.
+- C5: Paintings and Drawings store `leaf = null` (C5(b)); state each sub-family's leaf axis (sculpture changes, F2-6); no parts sub-family is needed if frames stay B4 (the key's B4 list), but a plinth or stand made for one sculpture would follow it, so add the sub-family if such items are expected.
+- C6: size bands are views (already).
+- C7: chronology of process for prints and photographs is a stated secondary key (fine); sculpture "alphabetical unless the owner prefers" should become the material-family order.
+- C8: movements and scenes (Pop Art, Pictorialism, Outsider, street art) need a definition source each.
+- C9: giclée, serigraph, aquarelle, C-print, Cibachrome, 国画, 油画, 版画 as aliases.
+- C10: Iris, Piezograph, Imagegraph as `printing_system` (F2-4).
+- C11: "mineral-pigment painting (nihonga)", "brush and pen calligraphy" (F2-5).
+- C12, C13: none.
+
+**F3 Coins, Stamps, Medals & Trading Cards.**
+- C1: role list becomes maker_class values; issuers go to a shared issuer table; refiner accreditation is `certifications` (F3-10).
+- C2: series, issues and iconic designs as named forms with `maker_bound: yes` (issuer-bound) or `no` (Civil War token, Hard Times token); card product lines leave for line rows (F3-6).
+- C3: parallels and numbered cards, coin varieties (die varieties, errors) and banknote varieties (replacement, star notes) as variants if depth is wanted; catalogue numbers are an identifier on the named form, not a variant code (licensing question).
+- C4: grade scales go to the shared registry (X9); metal fineness and weight are attributes with their standard; no tier on kinds (already).
+- C5: add F3.10 Parts and accessories (F3-5); the regalia leaf moves into Medals (F3-8); several sub-families skip the leaf (bullion, regalia) under C5(b).
+- C6: full-size and miniature medals, coin diameter and stamp unit are attributes (already).
+- C7: named forms by issuer then first issue year (the memo uses first issue only); medals by a generic purpose order, national orders of wear as views (F3-9).
+- C8: thematic, zodiac, militaria and graded-registry collecting need definition sources.
+- C9: alias rows for exonumia terms (good-for, scrip), 特殊切手, Ganzsache, MiNr.
+- C10: polymer against paper notes is a substrate attribute (already).
+- C11: New Year and zodiac issues stay named forms with region tags (already).
+- C12: none.
+- C13: none (trading-card games are E1).
+
+**F4 Religious & Ceremonial Objects.**
+- C1: if a ledger is kept, core columns; tarot publishers in the shared publisher class; no plain maker column on named forms (F4-8).
+- C2: tradition names become named forms `maker_bound: no` with a required tradition tag (F4-1); Rider-Waite and Thoth are maker-bound designs (`maker_bound: yes`, publisher rows), Marseille is not.
+- C3: rudraksha and bodhi-seed malas, Sufi-order tasbihs and mezuzah script styles as variants or attributes (F4-1).
+- C4: gauge and wood as attributes; relic class as a classification attribute; kosher grade held until a second source (F4-5).
+- C5: state each sub-family's leaf axis (F4-2); leaves that are a single kind store `leaf = null`.
+- C6: urn capacity as an attribute or a stated exception (F4-4); mezuzah scroll sizes as an attribute with the fit rule (already).
+- C7: canonical kind first, then named forms grouped by tradition alphabetically (fine), then by first year where attested.
+- C8: the tradition list is the F4 scene vocabulary; each value needs a definition source and `core` or `adjacent` strength.
+- C9: alias rows for rosary or chaplet, tasbih or misbaha or subha, juzu or nenju, thurible or censer, butsudan 仏壇, kamidana 神棚.
+- C10: electric candles and LED eternal lights are a power attribute.
+- C11: as F4-1.
+- C12: a wall-mounted holy-water stoup against a standing font differs in body, so they may stay two kinds; a wall-hung butsudan is a style (installation attribute).
+- C13: none (the mezuzah fit is a size attribute, not a platform).
+
+**F5 Documents & Personal Records.**
+- C1: album makers as rows; issuers in the shared issuer table (F5-6).
+- C2: ICAO codes, photographic formats (carte de visite, cabinet card, RPPC) `maker_bound: no`; card systems `maker_bound: yes`; national ID designs leave the list (F5-2).
+- C3: not used.
+- C4: ISO 18902 conformity and ISO 7810 format are attributes (already); condition scales, if any, go to the X9 registry.
+- C5: four levels; leaf axes restated (F5-3); no parts sub-family is needed if wallets and covers stay A4 and archival boxes B1 or C5.
+- C6: card and passport formats are attributes (already).
+- C7: fine (canonical first, technology chronology for named forms).
+- C8: genealogy, deltiology and fusilately need definition sources.
+- C9: alias rows (Einsteckalbum = slip-in album; ポケット式 = pocket-type; RPPC = real photo postcard).
+- C10: optical, chip and magnetic as attributes (F5-2).
+- C11: does not apply to national ID designs (they are issuer, not regional forms); applies to hanko-type registration documents if added.
+- C12: none.
+- C13: card systems as compatibility rows (F5-2).
+
+**F6 Natural History & Specimens.**
+- C1 to C9: already applied (section 10 of the memo); the remaining changes are the certifier maker_class (X7) and the C9 seed, which is good.
+- C2: pearl trade names as `maker_bound: no` named forms (F6-2).
+- C5: F6.9 study sets is outside the axis and should go (F6-5); F6.10 is the C5(d) parts sub-family.
+- C10: UV-reactive and fluorescent are attributes (implicit; state it).
+- C11: Itoigawa jadeite and Herkimer diamond are handled correctly (tag and named form).
+- C12, C13: none.
+

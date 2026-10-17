@@ -47,3 +47,22 @@ Logged for the next framework revision; not yet applied.
 - **H1/H2 line (X3).** The step note uses "licensed as a medicine", which moves an object by jurisdiction. Proposed: "A product is H2 when its labelled main purpose is to treat, relieve or prevent a named condition, or when it contains an active ingredient sold only as a medicine in every sourced jurisdiction. Cosmetic purposes (clean, perfume, change appearance, protect, keep in good condition, correct body odour) are H1, sunscreens and anti-dandruff and anti-blemish products included. Legal status goes to C17 and does not move the object." (H review question 11.)
 - **Massagers (X4).** Proposed: "A powered massager is H3 under the H3-1 test; otherwise it is H2 when made to treat a condition (TENS, EMS units sold for pain), and H1 for comfort, including percussion and neck massagers."
 - **Intimate, menstrual and body-replacement goods (X5)** need explicit homes: lubricant and menstrual products H1; condoms and dental dams H2; period underwear A1; pelvic-floor trainers and vacuum devices H2 when a medical purpose is stated, else H3; packers and breast forms H1 with wigs or H2 with prostheses (owner question 8).
+
+## From the domain I review (framework/structure/_review_I.md, section 4, X7 and X9)
+- **Seat structure (step 5 note).** The note counts "the seat structure (individual, family, student)" as part of the kind of access, but C6 and Appendix A make user a tag. Fix: delete it and add "seat structure is a plan attribute".
+- **"In-game items" (I2 branch and D5 note)** should read "in-game and platform items" (Steam profile items, messaging stickers).
+- **Home recordings (F1 note):** "home recordings ... are F5" should read "home recordings on a physical carrier are F5".
+- **Domain names (step 1 note):** state that a domain name registration is I2, not a right in itself.
+- **Medical software (step 2):** add "software made to diagnose, treat or monitor a condition, such as a regulated medical app, is H2".
+- **Gaps in the I3 branch:** goods rental subscriptions, hosting plans, creator memberships, the SIM card or eSIM profile, car-sharing memberships.
+- **Boundary sentences proposed for the I branches (X7):**
+  - (a) recorded or streamed class libraries I3, interactive learning software I1;
+  - (b) local backup software I1, cloud backup plan I3;
+  - (c) map and navigation services I3, GIS software I1;
+  - (e) game launchers and their free accounts not filed (games D5, items I2, paid store subscription I3), owner to confirm;
+  - (f) asset-library plans I3, each licensed asset I2;
+  - (g) paid unlocks of built-in device functions I1, device data plans I3;
+  - (h) files a program loads without code (sample libraries, presets, LUTs, model weights) I2, plug-ins I1, game mods D5;
+  - (i) reference works as e-book files I2, as their own program I1;
+  - (j) credit-renewing plans filed as the plan, loose credits OUT;
+  - (k) NFT-carried memberships I2, unless also sold as a plan.
