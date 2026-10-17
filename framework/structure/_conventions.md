@@ -1,3 +1,5 @@
+**Superseded (2026-10-17) by framework/structure/CONVENTIONS_v1.md, which holds the conventions as decided; this draft is kept for the record.**
+
 # Stage 2 shared conventions (draft, pending owner approval)
 
 
