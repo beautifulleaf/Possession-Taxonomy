@@ -37,7 +37,8 @@ TABLES = {
     "prices": ("price_id", ["price_id", "subject_id", "subject_type", "list_price", "currency", "price_date",
                             "usd", "price_band", "unit", "unit_price_band"] + SRC),
     # C8 scenes, C9 aliases
-    "scenes": ("scene_id", ["scene_id", "name", "native_name", "domains", "definition_source"] + SRC),
+    "scenes": ("scene_id", ["scene_id", "name", "native_name", "cluster", "parent_id", "domains", "description",
+                            "definition_source"] + SRC),  # cluster and parent_id: scene-first navigation (R-71)
     "scene_tags": ("tag_id", ["tag_id", "subject_id", "subject_type", "scene_id", "strength"] + SRC),
     "aliases": ("alias_id", ["alias_id", "term", "language", "script", "target_id", "relation"] + SRC),
     # C13 compatibility
