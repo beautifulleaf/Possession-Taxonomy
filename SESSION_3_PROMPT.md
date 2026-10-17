@@ -9,14 +9,14 @@ Continue the Possession taxonomy in /home/user/Possession-Taxonomy on branch `cl
 - Owner rules: depth and breadth are the point, with no caps. One fetched page proves existence. Use existing catalogues first (data/source_catalogues.tsv, 937 sources). Genres of games, music and film are never levels or tags here; they belong to other taxonomies.
 
 ## Do, in order
-1. **Kind-level test, part 1 (11 rework categories: A2 B8 C1 D4 E1 F2 F4 G2 H2 I2 J5).**
+1. **Kind-level test, part 1 (11 rework categories: A2 B8 C1 D4 E1 F2 F4 G2 H2 I2 J5). All 11 trees and 30-item sets were built in session 2.**
    - Check that verify/out/KL_<CODE>_tree.md and KL_<CODE>_items.tsv exist for each. Re-run any missing builder with verify/in/KL_<CODE>.prompt.txt (Sonnet, web).
    - Copy each tree, frozen, to audit/KL_<CODE>_tree.md.
    - Write verify/in/KL_PLACE_COMMON.txt. A placer files each item into one kind id of the frozen tree (or "none fits"), with confidence and a note. It reads only the frozen tree and the item file without expected_kind; build that file with a tools/ script.
    - Run 3 Sonnet placers per category. Write tools/score_kl.py to score unanimity and accuracy against expected_kind per category.
    - Fix trees where agreement is low, by an Opus pass on that memo, and log the fix as an R-item.
    - Builder notes (session 2) to settle before placing, each as an R-item:
-     - Kind ids were assigned by the builders (the memos had none), each in its own scheme: A2/B8/C1/D4/H2/I2/J5/F4 use dotted paths, E1 keeps memo numbers as E1-Knn, F2 uses F2-Knn. J5's ids do not match the memo's 1–115 numbering. Adopt or normalise the ids, and write the chosen ids back into the memos.
+     - Kind ids were assigned by the builders (the memos had none), each in its own scheme: A2/B8/C1/D4/G2/H2/I2/J5/F4 use dotted paths, E1 keeps memo numbers as E1-Knn, F2 uses F2-Knn. J5's ids do not match the memo's 1–115 numbering. Adopt or normalise the ids, and write the chosen ids back into the memos.
      - J5 split multi-term memo lines into separate kinds (fermented seasonings, tomato products, sauerkraut/kimchi). It also placed mung bean and black gram under Beans, and pigeon pea under Chickpeas & other pulses. Seven J5 leaves have no kinds decided. J5 items 13, 18, 22 and 25 are partly settled by precedence sentences the tree itself carries.
      - Judgment-call expected answers that a split may reflect rather than a tree fault: C1-05 axe/maul, C1-20 ladder, C1-26 wheeled toolbox; H2-18 commode chair, H2-01 care pendant; F2-22 Hummel (K51 earthenware per memo, but the page says porcelain).
      - F2-26's "carved by hand" comes from a search excerpt; re-check it against a fetched page or drop it from the definition. F4 left the mezuzah case out (F4.3.3 or F4.7 is undecided).
