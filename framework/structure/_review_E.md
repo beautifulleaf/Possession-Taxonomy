@@ -71,7 +71,7 @@ Each finding gives severity, memo, evidence and an exact proposed fix. "Conforms
 **E2-1 (high) A kind used across sport families has no single home.**
 - *Evidence.* Section 3 fixes only kinds shared within one family: "each family may have a 'general (any sport in this family)' leaf". Many E2 kinds cross families: helmets (skiing, climbing, ice hockey, horse riding), mouthguards (boxing, rugby, hockey), knee pads (volleyball, skateboarding, goalkeeping), shin guards (football, field hockey, kickboxing), wetsuits (surfing, diving, triathlon, kayaking, which is G1), goggles (swimming, triathlon), skipping ropes and punch bags (boxing and fitness), crampons (mountaineering, ice climbing, hiking), snowshoes (hiking, winter sports), gymnastic rings (gymnastics, strength training). Two builders would put each of these in different leaves.
 - *Fix.* Add a tie-break to section 3 and to the shared conventions (proposed C14, section 3 below):
-  - (1) A kind goes to the leaf of the sport whose rules or standard define it, if there is one (fencing mask: FIE; climbing helmet: UIAA 106 and EN 12492, a source to fetch).
+  - (1) A kind goes to the leaf of the sport whose rules or standard define it, if there is one (fencing mask: FIE; climbing helmet: the UIAA helmet standard listed on the UIAA page).
   - (2) Otherwise it goes to the family "general" leaf when all its sports are in one family (ski goggles: Snow and ice, general).
   - (3) Otherwise it goes to a category-level sub-family "Multisport, fitness and protective gear", with leaves by body region protected or by function (mouthguard, knee pad, shin guard, sports goggles, skipping rope, punch bag).
   - A generated view lists the kind under every sport that uses it.
@@ -412,10 +412,10 @@ Each item gives the memo questions it merges, then the reviewer's recommendation
 
 **E2 homes**
 19. Ski, climbing, hockey and riding helmets, and swim and ski goggles: E2 by sport, or all in A1? (E2 Q3) [E2]
-20. Court and gym shoes sold by sport, and beach swimwear: where does "not suited to everyday wear" fall? Choose E2 for court shoes, A2 for court shoes, or decide shoe by shoe. (E2 Q4) [A2 unless sold with a sport-specific sole standard; beachwear A1]
+20. Court and gym shoes sold by sport, and beach swimwear: where does "not suited to everyday wear" fall? Choose E2 for court shoes, A2 for court shoes, or decide shoe by shoe. (E2 Q4) [A2 unless the shoe has a sole or fitting made only for the sport (spikes, studs, dance or climbing sole), as the key's "not suited to everyday wear" reads; beachwear A1]
 21. Archery targets and shooter's gear (E2), arrows (E4), quivers (A4 or E4), and clay throwers, decoys, game calls and hides (E2 or E4)? (E2 Q5, E4 Q4, X3) [as X3; hunting accessories E2]
 22. Dog-sport equipment and riding gear for the horse: B10. Yes or no? (E2 Q6) [yes]
-23. Touring, freeride and park skis: attribute or separate kinds? (E2 Q2) [touring ski a kind, because of its bindings and skins (C10b); the rest attributes]
+23. Touring, freeride and park skis: attribute or separate kinds? (E2 Q2) [touring ski a kind, because it is compared separately and used with its own bindings and skins (C2a); the rest attributes]
 24. Historical golf and racket forms (long-nose wood, wooden frame): named forms, or an era tag only? (E2 Q9) [non-maker-bound named forms]
 25. Cross-list sports nutrition (H2) in generated sport views. Yes or no? (E2 Q10) [yes, as a view only]
 

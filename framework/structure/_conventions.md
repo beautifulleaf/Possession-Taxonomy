@@ -47,3 +47,15 @@ Drafted by the domain A review (framework/structure/_review_A.md, section 4) and
 **C12. Rule M: mounting vs installation.** Mounting defines a kind when (a) the object is made only for that mount and its body differs (pendant vs floor lamp; window vs split air conditioner), or (b) the mount changes what the object can safely do, as a fetched source states (top-of-stairs gate). When the same body is offered with different fixings (wall or floor safe, built-in or freestanding oven, fitted or loose carpet), mounting is an installation attribute.
 
 **C13. Compatibility ledger.** Where makers or standards set compatibility (sockets, mounts, battery platforms, cap standards, hive systems, hitch categories), record it in one compatibility ledger: `platform_id`, `name`, `owner` (maker or standards body), `kinds_served`, `standard_ref`, `sources`. Platforms are never levels.
+
+## Additional rules from the domain E review (framework/structure/_review_E.md, section 3)
+
+**C14. Multi-use kinds.** A kind used in more than one sub-family or leaf goes, in this order, to: (a) the leaf whose rule or standard defines it; (b) the general leaf of the one family that holds all its uses; (c) a category-level "multi-use" sub-family whose leaf axis is stated. A generated view lists it under each use.
+
+**C15. Toy or real.** An object made for play by children that imitates a sport, music or weapon object is E1 when it cannot do the real object's job to that object's own standard (a regulation ball, a tuned instrument, a weapon that can injure). The real object made in a child's size stays in its category (size and user are attributes, C6).
+
+**C16. No individual-item facts.** Certificates, condition grades, provenance and serial numbers of one particular object are not stored. The data holds kinds, named forms and variants only (BRIEF: individual items are out). Grading scales may be recorded as the scheme a category uses, never as values for items.
+
+**C17. Jurisdiction ledger.** Legal classes (EU Firearms Directive categories, UK sections, US NFA classes, gambling and tobacco regimes) go in one ledger: `subject_id` (kind or named form), `jurisdiction`, `scheme`, `class`, `criteria`, `source_url`, `date`. Never a level or a tag on the tree.
+
+**Additions:** C1 gains `built_by_maker_id` on lines and an optional `school` table (for traditions such as nihonto smiths and luthier schools). C4 allows a category-specific skill or level scheme (for example player level for sports gear) as tier entries.
