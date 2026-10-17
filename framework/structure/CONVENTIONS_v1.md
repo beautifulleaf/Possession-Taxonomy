@@ -265,7 +265,7 @@ An object made for play by children that imitates a sport, music or weapon objec
 ## C16. No individual-item facts; grading-scale registry
 
 - Certificates, condition grades, provenance and serial numbers of one particular object are never stored. The data holds kinds, named forms, variants and the ledgers above only.
-- **Grading-scale registry** (condition scales included): `scale_id`, `name`, `owner`, `scale_type` (condition grade; measured spec; platform label), `steps` (values in order), `kinds_served`, `sources`. Examples: eBay condition values, Back Market, KEH, Iosys S to J, WATA and VGA, coin and card grading scales. Kinds link to scales; no grade value is ever stored.
+- **Grading-scale registry** (condition scales included): `scale_id`, `name`, `owner`, `scale_type` (condition grade; measured spec; platform label; classification: a class a kind or named form belongs to, such as an authenticity or reproduction class, never a grade of one object, R-2), `steps` (values in order), `kinds_served`, `sources`. Examples: eBay condition values, Back Market, KEH, Iosys S to J, WATA and VGA, coin and card grading scales. Kinds link to scales; no grade value is ever stored.
 
 ## C17. Jurisdiction ledger, standards and legal classes
 
