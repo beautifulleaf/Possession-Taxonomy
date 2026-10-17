@@ -83,3 +83,77 @@ Sources: framework/structure/D1-D5.md, E1-E4.md, _review_D.md, _review_E.md, ver
 - C8 scene list for domain D (X-12) with unsourced tags in every memo.
 - _framework_conflicts.md "From the domain D review" items (a) cables, (b) chargers, (c) DAPs and DACs, (d) camcorders and action cameras, (e) bike computers, golf GPS, landline phones, (f) handheld gaming PCs, (g) coin-operated games against arcade machines, (h) "platform and carrier" against C13, (i) SIM cards.
 END D
+
+## Domain E
+### Table
+| code | name | sub-families | choice level | tier type | maker centrality | review verdict | kinds | daggers | OWNER marks |
+|---|---|---|---|---|---|---|---|---|---|
+| E1 | Toys & Games | Dolls and figures; construction; scale models and railways; play vehicles; games; puzzles; role play and other toys; play equipment; parts for one toy or game | Form or component set; articulation for figures, system class for construction; scale and finish attributes (§4b) | preference (price bands, awards; figure format ladder as entries on lines) | high for figures, construction, TCG (identity, platform effects); low for novelty toys | needs rework (collectible half: figures, models, die-cast, trains) | 110 worked; est. 150 | 78 | 33 |
+| E2 | Sports, Fitness & Recreation | 16 activity families (racket, team and ball, water, snow, climbing, golf and cue, gym and others) plus a multi-use protective and training family; no parts sub-family | Equipment type within one sport; club type for golf, weapon for fencing (§4b) | mixed (measured attributes, maker ladders, certification, player_level entries) | medium (identity, small platform pockets) | minor fixes | 108 (44 unattested) | 74 | 41 |
+| E3 | Musical Instruments & Music Gear | Instruments; amplification and effects; sound capture, mixing and reproduction; parts, accessories and music aids | Construction type or instrument family member; design families as named forms (§4b) | ladder (consensus, set by maker line; entries on lines) | high (identity; Eurorack and amp pockets) | minor fixes | 94 sample; est. 250-400 | 61 | 23 |
+| E4 | Weapons & Armour | Firearms; air guns; bows; swords; knives; polearms and impact weapons; self-defence devices; armour and shields; ammunition; parts and fittings | Action type within form class; cartridge class for ammunition; tradition-named sword types (§4b) | mixed (NIJ protection attribute; preference elsewhere; no entries yet) | medium (identity for knives and smiths, platform for parts and cartridges) | minor fixes | 86 | 98 | 50 |
+
+### What conformance changed
+- E1: Kit and built models merged into one scale-model sub-family; figures cut by articulation, not scale or channel; TCG sealed and single kinds; parts sub-family E1.9, role-play and toy-instrument kinds added (§11).
+- E2: C14 tie-break added with general leaves and a multi-use sub-family; tiers off kinds; camping renamed shelter and sleep; airsoft, caving, dance, air-sport leaves added; platform pockets to the ledger (§11).
+- E3: Recording and Live merged into one sound sub-family; church organ became pipe organ; cymbal types kinds; USB and format kinds became attributes; Stratocaster split into design family and model (§11).
+- E4: Sword leaves by blade profile; tantō moved to swords; jian and dao made named forms; cartridges stop at class; NBTHK grade dropped; Taser renamed; armour leaves by body part (§11).
+
+### Owner questions (merged)
+1. ★ Approve E1 level 1 as "play family" with nine sub-families (dolls and figures, construction, scale models and railways, vehicles, games, puzzles, role play, play equipment, parts). [yes] E1 (rev 1)
+2. ★ E2 sport families as a level (16 families), or a flat sport list (about 130 leaves) with families as views. [families, with C14] E2 (rev 2)
+3. ★ E3 role-first sub-families with Recording and Live merged, or retail departments (guitars, keyboards, amplification, studio, PA, DJ). [role-first] E3 (rev 3)
+4. ★ Adopt C14 (multi-use kinds), C15 (toy or real), C16 (no individual-item facts) and C17 (jurisdiction ledger); each yes or no. [yes to all] E1-E4 (rev 8; E4 Q22)
+5. ★ C11 refinement for E: Japanese sword types, koto, sitar, hanafuda, mahjong as kinds; jian, dao, bayan, regional decks as named forms. Accept the Japanese-against-Chinese asymmetry, or one "nihonto" kind. [accept] E1, E3, E4 (rev 9; E4 Q3)
+6. E4 as ten sub-families, or swords and knives merged into one Blades sub-family. [ten, tantō placed by tradition] E4 (rev 4)
+7. Named forms stop at line, series, system, iconic design or standard cartridge; finer releases, titles, model years and loads are variants. [yes] E1-E4 (rev 5)
+8. Tiers never on kinds: maker ladders as entries on lines, measured ladders as attributes, one domain-E player_level scheme (second-region source still needed). [yes] E1-E4 (rev 6)
+9. Scale, gauge and calibre are attributes; railway gauges and cartridges are ledger rows; ammunition kinds stop at cartridge class. [yes] E1, E4 (rev 7; E4 Q5)
+10. World and traditional instruments as playing-family kinds with a region tag and a generated view, or a retail-style sub-family. [region tag and view] E3 (rev 10)
+11. Games divided by component set, never by mechanism, BGG type, theme, audience, player count or time; rules-only games are not objects. [yes] E1 (rev 17)
+12. Die-cast and train objects: one "die-cast scale model" kind with scale an attribute, or the memo's toy and collector split at 1:64 against 1:43. [one kind] E1 (rev 12)
+13. Pinball, claw cranes, casino slot machines: screen test (screen D5, none E1), slot machines E1 as gambling equipment. [screen test] E1, D5 (rev 11)
+14. Toniebox and its figures: D3 with figures as S3 parts, or E1 as one audio toy system. [D3] E1 (rev 13)
+15. Tarot pack sold for card play (tarock, French tarot): E1, leaving F4 for divination decks. [E1] E1 (rev 14)
+16. Wargame miniatures: games when sold in a system box, figure kits otherwise; combustion-engined hobby RC: E1 or G1. [games when boxed; E1] E1 (rev 15)
+17. Blind box a sales-format attribute and kidult a user tag. [yes] E1 (rev 16)
+18. External cut points as notes: ISO 8124 saddle height 435 mm for cycles as toys, EN 71-8 water depth 400 mm for paddling pools. [adopt] E1 (rev 18)
+19. Figure kits as a models leaf (finish as the cut) or static figures with a kit attribute; bisque or porcelain doll as a kind or a material attribute; plush bag charm E1 or A4. [open; memo keeps kit leaf and doll kind] E1 (E1 O15, O17, O18)
+20. Helmets and goggles made for one sport (ski, climbing, hockey, riding, swim): E2, or all A1. [E2] E2 (rev 19)
+21. Court, gym and dance shoes, beachwear: where "not suited to everyday wear" falls. [A2 unless sole made only for the sport; beachwear A1] E2 (rev 20)
+22. Archery targets, shooter's gear, arrows, quivers, clay throwers, decoys, game calls, hides: E2 or E4; arrows and bolts in E4.9 or with bows. [targets and hunting gear E2; arrows E4; quivers A4] E2, E4 (rev 21; E4 Q4, Q19)
+23. Dog-sport equipment and riding gear for the horse: B10. [yes] E2 (rev 22)
+24. Touring skis, and golf iron, cricket grade, ski use classes: kinds or attributes. [touring ski a kind per review; memo keeps attribute] E2 (rev 23)
+25. Historical golf and racket forms (long-nose wood, wooden frame): non-maker-bound named forms, or era tag only. [named forms] E2 (rev 24)
+26. Cross-list sports nutrition and braces (H2) in generated sport views. [view only] E2 (rev 25)
+27. Amend C5(d): a category whose leaf axis names the host object may file S3 parts in the host's leaf (E2 does), instead of a closing parts sub-family. [open] E2 (E2 item 12); E3 asks to confirm C5(d) for E3 (E3 item 3)
+28. Guitar construction types (solid, semi-hollow, hollow) as kinds; amp circuit technology (tube, solid-state, modelling) as attribute. [yes to both] E3 (rev 26, 27)
+29. Homes for accordion (free-reed), drum machine, sampler, DJ gear, MIDI controllers, amp modeller. [confirm as drafted] E3 (rev 28)
+30. Instrument and microphone cables D1 by the key (or an E3 exception); stage lighting B3; piano benches and racks B1; fog machines B4. [as listed] E3 (rev 29)
+31. Singing bowls and meditation instruments E3 unless made for a rite (F4). [yes] E3 (rev 30)
+32. Knife line with C1: fighting and hunting knives, daggers, butterfly and automatic knives E4; EDC and tactical folders C1; baton and tonfa in E4.6 by form or with self-defence devices. [C1 unless weapon blade style; E4.6] E4 (rev 31; E4 Q2, Q16)
+33. Muzzle-loading a kind for long guns only with ignition an attribute, or a separate leaf. [kind for long guns] E4 (rev 32)
+34. Loose sword fittings (tsuba, menuki) and loose armour pieces: E4 under S3, or F2 when sold as art. [E4] E4 (rev 33)
+35. Ordnance (bombs, grenades, mines, artillery) out of scope except deactivated display pieces (B4). [yes] E4 (rev 34)
+36. Slingshots, blowguns, boomerangs, shuriken: E4, E2 or E1 (toys). [no firm recommendation] E1, E2, E4 (rev 35; E1 O16)
+37. Reloading presses and dies C1; components (bullets, primers, powder) E4 ammunition. [yes] E4 (rev 36)
+38. E4 maker ledger scope: firearms, bows, knives, nihonto smiths only, or armour and ammunition makers too (when attested); schools as tags or an optional school table. [all, when attested; tags] E4 (rev 37; E4 Q18)
+39. Reproduction rule: E4 when battle-ready, E2 blunted for sport, B4 decorative, E1 foam. [yes] E4 (rev 38; E4 Q13)
+40. Ballistic and fragmentation helmets in E4.8, pending attestation. [yes] E4 (rev 39)
+41. Holsters and belt pouches worn on the body: A4 by S3's "never parts", or E4. [A4] E4 (rev 40; E4 Q17)
+42. Keep legal class in the C17 ledger, or omit it from the dataset; wushu practice implements E2, B4 or neither; "Olympic recurve" as named form or discipline tag. [keep ledger; others open] E2, E4 (E4 Q12, Q20, Q21)
+
+### Shared-rule questions raised in this domain
+- C14 multi-use kinds (general leaf, then multi-use sub-family): E2 builds a 16th sub-family on it; E4.10 uses it for scopes.
+- C15 toy or real: E1 (kites, toy balls, toy weapons, toy instruments), E2 (P17), E3 (child-size real instruments stay E3), E4 (foam and replica weapons).
+- C16 no individual-item facts: E1 TCG single card as a kind, E3 reissue and condition grades, E4 NBTHK grade dropped.
+- C17 jurisdiction ledger: E1 slot machines and gambling gear, E2 airsoft energy limits, E4 EU, UK and NFA classes; E3 does not use it.
+- C11 regional names and its proposed domain-E refinement: E1 (hanafuda, mahjong, regional decks), E3 (koto, sitar, bayan), E4 (katana, jian, dao).
+- C2(c) traditional types as kinds, and `maker_bound`: E3 S-type against Stratocaster, E4 typologies and cartridges as non-maker-bound forms.
+- C4 tier entries on lines and the player_level addition; C4(e) second-region sources missing in E1, E2, E3 (all US) and E4.
+- C1 additions `built_by_maker_id` and optional `school` table (E1 toy factories, E3 Boston built by Kawai, E4 nihonto schools).
+- C13 compatibility ledger rows: LEGO and railway gauges (E1), ISO 5355 soles and cleat systems (E2), Eurorack and MIDI (E3), cartridges, rails, magazine patterns (E4).
+- C5(d) parts sub-family (E1.9, E3.4, E4.10 present; E2 files parts in host leaves, see question 27); C5(b) leaf null in E1, E2, E4.
+- C10 and C12 (E3 USB and circuit technology, E4 air-gun powerplant, E1 swing seat against swing set); C7 typology order proposal (E4).
+- _framework_conflicts.md "From the domain E review": helmet order, quivers, ear defenders; plus D review items (g) coin-operated games and (a) cables as they touch E1 and E3.
+END E
