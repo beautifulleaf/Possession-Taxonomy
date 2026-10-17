@@ -151,5 +151,19 @@ Owner rulings this session (all in BRIEF.md, "Owner decisions on stage 2"): the 
 
 Open: R-57(d) card-sleeve wording in the key (for v0.7.2); trading-card sleeves are E1 parts.
 
-## Next (session 3)
-See SESSION_3_PROMPT.md.
+## Session 3 (2026-10-17) — kind-level test, round 7, owner page, stage-3 pilot
+Worked on branch `claude/stoic-ptolemy-4nctsh` (the branch named in SESSION_3_PROMPT.md, `claude/adoring-gates-42vva3`, does not exist; this session's designated branch holds all session-2 work). Decisions R-58 to R-70 in framework/structure/decisions/D4_residual.md.
+
+| Step | Result |
+|---|---|
+| 1. Kind-level test (A2 B8 C1 D4 E1 F2 F4 G2 H2 I2 J5) | Builder notes settled (R-58 to R-63): one tree-path id scheme (E1, F2, I2 converted, 223 ids, verify/out/KL_id_crosswalk.tsv); J5 splits adopted; tie rules for C1 tool storage, H2 commode chair and care pendant, F4 doorpost case; F2-26 "hand carved" confirmed on a fetched page; F2-22 Hummel is earthenware. Trees frozen to audit/KL_<CODE>_tree.md. 33 Sonnet placers: 327/330 unanimous, 329/330 majority-right (R-64; A2-07 was an item fault). Opus rework KLFIX1 of A2, B8, G2 (R-66; new kind A2.2.2.07 plain slip-on shoe), frozen as audit/KL_<CODE>_tree_v2.md; retest 90/90 unanimous and right (R-67). Kind ids written back to each memo as section 13. Tools: kl_prepare.py, score_kl.py, kl_memo_ids.py. |
+| 2. v0.7.2 | R-57(d) card sleeves (trading-card sleeves and toploaders E1). Frozen as audit/CATEGORIES_R7.md. |
+| 3. Round 7 | RG7V cold check of 493 candidates (R-65: 480 ok, 8 definitions, 1 expected, 4 dropped); 470 K probes, data/gold_RG7.tsv. 3 Sonnet placers on 1,423 items: 99.6 % unanimous (1,417), no splits, κ 0.997; gold RG7 470/470, RG2 95/96 (R-68). AU4 cold audit of the 7 cases (R-69) → framework/CATEGORIES_v0_7_3.md (I3 entitlement sentence, sport kite, game launchers OUT); probe definitions fixed and gold T0036 → J5 (tools/fix_probes.py). v0.7.3 not yet re-tested. |
+| 4. Owner page | framework/structure/STAGE2_DECIDED.md (Opus S2D): 53 decided structures, main decisions, test results. tools/build_stage2_page.py renders it as the first tab "Decided"; republished to https://claude.ai/artifact/WrwQ9sYpZYYg6YCd3FFdkN (version 2). |
+| 5. Stage 3 start | Tables designed from CONVENTIONS_v1 (tools/schema.py: 26 tables) with one validating writer (tools/data_write.py) and a tree loader (tools/load_tree.py). Structure of 13 categories in data/nodes.tsv. Pilot A1 + D1 (R-70): 209/209 kinds attested on fetched pages; 1,969 named forms, 262 lines, 1,362 makers after the Opus decision pass HVMK (270 named forms moved to lines, 71 dropped, 37 new kinds found, being attested by batch HV_NK). Plan for the other 51 categories: framework/structure/STAGE3_PLAN.md. |
+
+## Next (session 4)
+1. Load HV_NK (the 37 new A1 and D1 kinds) if it was not loaded in session 3; then the A1 and D1 depth passes (STAGE3_PLAN.md: chip, card and laptop models for D1; scene makers and C8 scene tags for A1).
+2. Wave 1 of STAGE3_PLAN.md (B10, C6, I1, D5, J4, J2, B3, J3): census check for kind-level sources, trees with R-58 ids, harvest, decision pass, new-kind attestation.
+3. A blind round on v0.7.3 when enough key changes have gathered (the AU4 sentences are untested).
+4. Open small items: Alienware maker relation (M-dell / M-alienware), kendo hakama (R-70), lodge width removed from the G2.2.4.5 kinds row when G2 is harvested (R-67).
