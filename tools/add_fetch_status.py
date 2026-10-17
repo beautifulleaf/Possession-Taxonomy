@@ -11,7 +11,7 @@ import re
 from common import ROOT, read_tsv, write_tsv
 
 RULES = [
-    ("failed", r"\b(fetch(ed)? failed|failed to (load|fetch)|40[134]\b|429\b|5\d\d\b|not reachable|unreachable|blocked|bot check|timed? ?out)"),
+    ("failed", r"\b(fetch(ed)? failed|failed to (load|fetch)|(webfetch|fetch\w*|http|error|status|returned|got|code|refused( with)?|with)\W{0,3}(40[134]|429|5\d\d)\b|(40[134]|429|5\d\d) (error|forbidden|not found|unauthori[sz]ed)|not reachable|unreachable|blocked|bot check|timed? ?out)"),
     ("excerpt", r"\b(search (result|excerpt|snippet)s?|excerpt only|seen only in search|from (a )?search excerpt|via search)\b"),
     ("nav-only", r"\b(nav(igation)?[- ]only|shell only|page shell|only (the )?(menu|navigation|footer)|script[- ]loaded|did not render)\b"),
     ("partial", r"\b(partial(ly)?|truncated|first page only|garbled|incomplete)\b"),
@@ -33,10 +33,13 @@ def main():
         if not rows:
             continue
         fields = list(rows[0].keys())
-        if "fetch_status" in fields:
-            continue
-        text_cols = [c for c in fields if c not in ("url",)]
+        redo = "fetch_status" in fields
+        if redo:
+            fields = [f for f in fields if f not in ("fetch_status", "fetch_status_basis")]
+        text_cols = [c for c in fields if c not in ("url", "fetch_status", "fetch_status_basis")]
         for r in rows:
+            if redo and r.get("fetch_status_basis") not in ("", "auto", None):
+                continue  # a checked value is never overwritten
             r["fetch_status"] = status(" ".join(r.get(c, "") for c in text_cols))
             r["fetch_status_basis"] = "auto"
         write_tsv(path, rows, fields + ["fetch_status", "fetch_status_basis"])
