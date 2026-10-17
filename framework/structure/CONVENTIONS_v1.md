@@ -55,7 +55,7 @@ Level names used throughout: category, sub-family, leaf, kind, named form (C5). 
 | `licensor_id` | licensor, if any |
 | `years`, `sources` | |
 
-Tier entries for lines are in C4. Brand product lines of everyday consumables (cleaning products, e-liquids, cigarette brands, feed recipes, insecticides) are lines rows, not named forms (C2).
+Tier entries for lines are in C4. Brand product lines of everyday consumables (cleaning products, e-liquids, cigarette brands, feed recipes, insecticides) are lines rows, not named forms, when they cover several products or kinds (C2(e), R-35).
 
 **Maker-relations table.**
 
@@ -88,7 +88,7 @@ Tier entries for lines are in C4. Brand product lines of everyday consumables (c
 
 **(d) Lines against named forms.** A maker's line spanning several kinds is a lines row (C1); a line or design inside one kind is a maker-bound named form.
 
-**(e) Consumable brand lines.** Brand product lines of everyday consumables (cleaning products, e-liquids, cigarette brands, feed recipes, insecticides) are ledger lines, not named forms. Fragrances, cigars, teas and wines keep named forms.
+**(e) Consumable brand lines.** Brand product lines of everyday consumables (cleaning products, e-liquids, cigarette brands, feed recipes, insecticides) are ledger lines, not named forms, when the line covers several products or more than one kind; a single product inside one kind is a maker-bound named form (C2(d); R-18, R-35). Fragrances, cigars, teas and wines keep named forms.
 
 **(f) Admission.** Every named form has one attested row (one fetched source). Named forms are harvested in stage 3 and grow without a cap; there is no per-category cap and no "load on demand only" rule.
 

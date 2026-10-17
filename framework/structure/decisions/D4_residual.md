@@ -31,6 +31,7 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
   - (j) Step 29: "tractor-driven splitters and chippers, and chippers on or towed for forest machines, are C7; chippers made for tree surgery and grounds are C2" (C7-O1, R-34).
   - (k) C1 note: "A telehandler is C1 even when sold for farm use; a machine built for a farm or forestry job (combine, forwarder, forestry excavator, knuckleboom loader) is C7" (K-194).
   - (l) S3b vehicle electronics: add "guidance, auto-steer and monitor kits made for a tractor or farm machine follow it into C7" (K-6).
+  - (m) B3 note (step 30): "Lamp cord sets are B3 and ceiling roses are C8" (B-18). B7 note: "Chimney and flue work is C8" (B7-O1). Step 32, C8 branch: "household batteries and chargers for them"; add ceiling roses, chimney and flue work, shower trays and enclosures, letter plates, regulatory and safety signs, gas cylinders and flints to the membership list.
   - Further amendments raised by later S2U passes are appended here.
 - **R-17** J5 leaves: drinking bitters stay J7 (K-48), and bitters sold as a flavouring go to the condiments and sauces leaf. Mirin and cooking wines go to the vinegars and cooking-liquids leaf. Home-brewing ingredients (malt extract, hops, brewing yeast) go to the baking and fermenting-aids leaf. This adopts the S2U_J5 pass's own reading.
 - **R-18** CV-46 applies to food as well: a brand line spanning several kinds is a lines row; a line inside one kind is a maker-bound named form (C2(d)). This confirms the S2U_J5 treatment.
@@ -50,3 +51,4 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
 - **R-32** C13 `platform_type` gains "presser-foot shank" and "interchangeable-needle system". Written into CONVENTIONS_v1. Raised by S2U_C4.
 - **R-33** Freehand pipe is a shape-family kind in the B9 pipe leaf (B-29 files pipes by shape family, and pipe retail treats freehand as one). Makers' freehand designs are maker-bound named forms under it. Raised by S2U_B9.
 - **R-34** A towed, self-engined chipper made for forestry work is C7 (forestry job); one made for tree surgery and grounds care is C2. Raised by S2U_C7.
+- **R-35** Consumable brand lines (CV-46 against R-18): a brand line of everyday consumables is a lines row when it covers several products or more than one kind; a single product inside one kind is a maker-bound named form (C2(d)). CONVENTIONS_v1 C2(e) is reworded to match. Raised by S2U_C8.
