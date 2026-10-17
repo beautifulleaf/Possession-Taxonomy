@@ -99,6 +99,23 @@ def main():
     ok &= run("maker_kinds", tmp)
     ok &= run("lines", f("lines"))
     ok &= run("named_forms", f("named_forms"))
+    if f("scene_tags").exists():  # tags on scenes not yet accepted wait with the proposals (R-76)
+        known_sc = {x["scene_id"] for x in read_tsv(ROOT / "data/scenes.tsv")}
+        tg = read_tsv(f("scene_tags"))
+        wait = [t for t in tg if t["scene_id"] not in known_sc]
+        if wait:
+            q = out / "scene_tags_proposed_all.tsv"
+            prev = [r for r in read_tsv(q) if r.get("batch") != b] if q.exists() else []
+            write_tsv(q, prev + [dict(t, batch=b) for t in wait], list(tg[0].keys()) + ["batch"])
+            alt = ROOT / f"verify/work/load_{b}_scene_tags_known.tsv"; alt.parent.mkdir(parents=True, exist_ok=True)
+            write_tsv(alt, [t for t in tg if t["scene_id"] in known_sc], list(tg[0].keys())); FIX["scene_tags"] = alt
+            print(f"{len(wait)} tags on proposed scenes queued")
+    for extra_tags in ("scene_tags_proposed", "scene_proposal_tags"):
+        if (out / f"{b}_{extra_tags}.tsv").exists():
+            q = out / "scene_tags_proposed_all.tsv"
+            tg = read_tsv(out / f"{b}_{extra_tags}.tsv")
+            prev = [r for r in read_tsv(q) if r.get("batch") != b or r.get("from") != extra_tags] if q.exists() else []
+            write_tsv(q, prev + [dict(t, batch=b, **{"from": extra_tags}) for t in tg], list(tg[0].keys()) + ["batch", "from"])
     ok &= run("scene_tags", f("scene_tags"))
     if f("scene_proposals").exists():
         props = [dict(r, batch=b) for r in read_tsv(f("scene_proposals"))]
