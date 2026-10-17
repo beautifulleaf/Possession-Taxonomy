@@ -19,11 +19,13 @@ def write_tsv(path, rows, fields):
         shutil.copy2(path, bak / f"{path.name}.{time.strftime('%Y%m%d-%H%M%S')}")
     tmp = path.with_suffix(path.suffix + ".tmp")
     with open(tmp, "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=fields, delimiter="\t", quoting=csv.QUOTE_NONE,
-                           escapechar="\\", extrasaction="ignore", lineterminator="\n")
+        # no quote or escape character: read_tsv reads fields literally, so an escape written here would be read back
+        # as data and doubled on every rewrite (R-82); tabs and line breaks, the only unsafe characters, are replaced
+        w = csv.DictWriter(f, fieldnames=fields, delimiter="\t", quoting=csv.QUOTE_NONE, quotechar=None,
+                           escapechar=None, extrasaction="ignore", lineterminator="\n")
         w.writeheader()
         for r in rows:
-            w.writerow({k: (str(r.get(k, "") or "").replace("\t", " ").replace("\n", " ")) for k in fields})
+            w.writerow({k: (str(r.get(k, "") or "").replace("\t", " ").replace("\r", " ").replace("\n", " ")) for k in fields})
     os.replace(tmp, path)
 
 def norm(s):
