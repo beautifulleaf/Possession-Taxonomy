@@ -15,5 +15,6 @@ Stage 2 research done for owner review: one structure memo per category (`framew
 - `BRIEF.md` – owner decisions. `STATUS.md` – session log, phases, owner queue.
 - `framework/` – the category framework (CATEGORIES_v*.md) and `framework/structure/` (stage-2 memos, reviews, conventions, summary).
 - `data/` – TSV data (source category harvest, probe samples, placements).
+- `pages/` – generated review pages (stage2_review.html, published as https://claude.ai/artifact/WrwQ9sYpZYYg6YCd3FFdkN; rebuild with tools/build_stage2_page.py).
 - `tools/` – scripts (backups to bak/, git-ignored).
 - `verify/in` – agent prompts and batches; `verify/out` – agent outputs; `verify/work` – scratch (git-ignored).
