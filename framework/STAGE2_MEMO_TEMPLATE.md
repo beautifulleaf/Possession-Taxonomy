@@ -1,6 +1,6 @@
 # Stage 2 — Category structure memo (template)
 
-One memo per top-level category: `framework/structure/<CODE>_<Name>.md`. The memo is research, not a decision. The owner approves a structure from it. Pilot: A1 Clothing and D1 Computers & Components.
+One memo per top-level category: `framework/structure/<CODE>_<Name>.md`. The memo is research, not a decision. The owner approves a structure from it. Pilot: A1 Clothing and D1 Computers & Components. The categories, membership tests and scope are in the highest-numbered framework/CATEGORIES_v*.md; owner decisions are in BRIEF.md.
 
 ## 0. Category
 Code, name, the membership test from the current CATEGORIES file, and the precedence sentences that touch it.
@@ -29,6 +29,13 @@ Two or three candidate inner structures. For each:
 - Rough count of named forms: models, cuts and iconic designs.
 - Where depth concentrates.
 - Which leaves are broad, medium and narrow.
+
+## 4b. Choice level
+State where kinds should stop. **A kind stops at the level where buyers actually compare quality or makers.** Finer distinctions below that level are named forms or attributes, not separate kinds.
+
+For example, frozen vegetables may be one kind with makers and tiers attached there, with peas and spinach as forms beneath it. Beef goes deeper, because buyers compare cut against cut and grade against grade.
+
+Give evidence for the level you choose: retailer filter facets, review-site groupings, enthusiast buying guides, and where comparison and "best X" lists are written. The choice level may differ between sub-families of the same category.
 
 ## 5. Quality and tier
 Is there a recognised tier ordering? Choose one:
