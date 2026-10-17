@@ -73,3 +73,21 @@ Drafted by the domain A review (framework/structure/_review_A.md, section 4) and
 **C7 amendment: named-form order.** Non-maker named forms come first, by first-attested year, then alphabetically; maker-bound named forms follow, by maker, then year, then alphabetically.
 
 **Domain-G attribute `propulsion`:** none, towed, muscle, wind, combustion engine, electric motor, hybrid, animal-drawn (with a primary flag where two apply).
+
+## Proposed additions from the domain H review (framework/structure/_review_H.md, section 4; owner approval needed)
+
+**C1 amendment: maker classes.** Add `pharmaceutical company`, `medical-device manufacturer` and `supplement brand`. Segment, owned platforms or apps, legal class and declared conformity are never maker columns.
+
+**C5(d) extension.** "Each category in domains A and H" ends with a sub-family "Parts and accessories made for one <object>", leaf axis = object served.
+
+**C17 extension.** Every legal class goes in the C17 ledger, including device class (FDA, EU MDR, NMPA), sale class (Rx, OTC, POM, P, GSL, Japanese classes) and cosmetic, quasi-drug or OTC-drug status. Voluntary product standards are attributes with the standard named. Customs headings are evidence only.
+
+**Named-form test (all categories).** A non-maker named form is a design that many makers make and that buyers ask for by name (C2a). A measuring mode, load or size class, fitting variant, active ingredient or material is an attribute.
+
+**Retail-facet test (C10(b) generalised).** A retailer facet becomes a kind only when the object's form differs and a fetched source compares or ranks the types separately.
+
+**User vocabulary (C6 detail).** One list (women, men, unisex, couples, baby, child, bariatric, adapted), tagged on kinds or named forms; no leaf name carries a user word. "Beginner" is a level scheme (C4 skill-level), not a user.
+
+**App ecosystems (C13 detail).** An app ecosystem that controls devices is a C13 row with `kinds_served`; the app itself is I1.
+
+**Maker tier ladders (C4 detail).** A maker's own technology or range level is a tier entry with `scheme` = the maker's name; a reviewer's grade needs a second source from another region before entry (C4e).

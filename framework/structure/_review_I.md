@@ -279,7 +279,139 @@ Each memo has its own C1 to C13 notes: I2 and I3 have a conformance section, and
 | C13 compatibility ledger | Remove delivery values from the ledger (I1-8). Share the platform rows (X5). | Main device; add Kindle, Apple Books, Apabi and Movies Anywhere rows after I2-1 and I2-2. Share the rows (X5). | OK. Share the rows (X5). |
 
 ## 4. Cross-memo consistency
-PENDING
+
+**X1 (medium) Maker ledger: three sets of `maker_class` values for one domain.**
+- *Evidence.*
+  - I1 adds "community or foundation project" (LibreOffice, Blender, KeePass).
+  - I2 adds storefront, platform holder, format steward, foundry, registry operator and game publisher.
+  - I3 adds platform owner, independent service, network operator, MVNO or reseller, non-profit membership body, venue or club operator, transport operator or association, marketplace operator, aggregator and resale marketplace. It also adds the columns `host_network_id`, `platform_ids` and `markets_served`.
+  - "Platform holder" (I2) and "platform owner" (I3) are the same class.
+  - Many makers appear in all three categories, and in D5: Apple, Google, Amazon, Microsoft, Adobe, Sony, Nintendo, Valve, Epic.
+- *Proposed shared convention (domain I).*
+  - One maker row per company across I1, I2, I3 and D5, with `known_for_kinds` derived from the named-form ledger (C1).
+  - One `maker_class` list:
+    - software publisher;
+    - community or foundation project;
+    - platform holder;
+    - storefront or marketplace (with a `resale` flag);
+    - game publisher;
+    - type foundry;
+    - format steward or standards body;
+    - registry operator;
+    - network operator;
+    - MVNO or reseller;
+    - membership body;
+    - venue, club or attraction operator;
+    - transport operator or association;
+    - aggregator;
+    - producer (for producer clubs);
+    - curated-box company.
+  - `platform_ids` leaves the maker ledger, because C13's `owner` links the two. `host_network_id` stays as an I3 extension. `markets_served` stays as a region-tag list.
+
+**X2 (high) Variant ledger: three shapes.**
+- *Evidence.*
+  - I1 question 6 asks for "`version`, `edition_or_plan`, `licence_model`, `seat_count` and `term`" as variant types. That mixes types with columns.
+  - I3 builds a plan ledger with variant type `plan` and about twenty columns.
+  - I2 needs styles, wear and StatTrak for game items, and (after I2-3) licence scope for fonts.
+  - C3 knows only colourway, material, print, size, reference, retro, collaboration and limited edition.
+- *Proposed shared convention.* One C3 ledger.
+  - **New variant types:** `edition`, `version`, `plan`, `licence scope`, `style`.
+  - **New columns, used only by those types:**
+    - `seat_structure`, `seat_count` and `eligibility`;
+    - `term`;
+    - `price_model` (free, freemium, one-time, subscription, bundle);
+    - `list_price`, `currency`, `price_date` and `annual_price_usd`;
+    - allowances (`storage_gb`, `data_gb`, `speed_mbps`, `devices`, `cloud_hours`, `credits_per_period`);
+    - `components` (kind ids, for bundles);
+    - `addon_of`;
+    - `status` (active, closed to new members).
+  - `licence_class` and `spdx_id` sit on the named form (I1), and a variant may override them (dual licensing).
+  - One row type then serves Microsoft 365 Family (I1), a webfont licence for a family (I2) and Spotify Duo (I3).
+
+**X3 (high) Tier entries from makers: I1 says no, I3 says yes, and C4(a) has no subject for them.**
+- *Evidence.*
+  - I1 section 5: maker edition ladders "are `edition` variants, not tiers, because the maker, not a third party, defines the order".
+  - I3 section 5: maker ladders are "tier entries … on the plan row".
+  - The domain E review (decision 6) adopted "maker ladders as tier entries" on lines.
+  - C4(a) allows maker, line and named form as subjects. C4(e) asks for a second source from another region.
+  - I1 also wants lab results on versions.
+- *Proposed amendment to C4(a).* A tier entry may sit on a variant or plan row in two cases:
+  - (i) The scheme is the maker's own ladder for one named form: `scheme = maker ladder: <named_form_id>`, value = the label, plus `rank`. Such a scheme is attested by the maker's page alone (exempt from C4(e)) and is never compared across named forms.
+  - (ii) An external test scores a specific version (AV-TEST rounds).
+  - Pass marks and seals are C4(b) `certification` attributes.
+  - I1 changes its section 5 to match. I3 stays as written, apart from citing the amendment.
+
+**X4 (high) Price band for free, recurring and per-seat prices: three rules.**
+- *Evidence.*
+  - I1 bands "from the first-year list price for one owner (one seat)", with a zero band and `price_model`.
+  - I3 bands from "the annualised list price in USD at a dated rate" of the plan as sold, which means all seats for a family plan, with lifetime terms at full price.
+  - I2 applies C4(d) unchanged, although domains renew every year and font prices vary by licence scope.
+  - The rules give different bands for the same object. Spotify Family is one seat's share under I1, and the whole plan under I3.
+- *Proposed addition to C4(d) for domain I.*
+  - The band is computed on each variant or plan row, from the annualised list price of that plan as sold (all seats included, `seat_count` recorded), at a dated USD rate.
+  - A promotional first-year price is recorded but not used.
+  - One-time and perpetual licences use the full price; lifetime and multi-year terms use the full price with the term recorded.
+  - Free plans get the band "0 (free)".
+  - A domain name uses the TLD's standard annual renewal price, with registry premium as a `platform_tag`.
+  - A named form's band is the band of its cheapest paid plan, plus a `has_free_plan` flag.
+
+**X5 (medium) One compatibility ledger, one delivery list.**
+- *Evidence.*
+  - I1 lists operating systems, host programs and package sources, and also "Online, SaaS, Self-Hosted".
+  - I2 lists Kindle, Kobo, tolino, Apple Books, Adobe DRM, Audible, Movies Anywhere, Steam, Fortnite, CS2, ERC-721 and ERC-1155, and the DNS root.
+  - I3 lists PlayStation, Xbox, Nintendo, Apple, Google and Amazon ecosystems, host mobile networks and transport associations.
+  - Several rows recur (Apple, Google, Amazon, Microsoft/Xbox, Sony, Nintendo, Valve), and D5 needs the same console rows.
+  - Delivery values differ: I1 has download, boxed, store app, web, self-hosted and portable; I3 has stream, download, physical, entry and network.
+- *Proposed shared convention.*
+  - One C13 ledger for domain I and D5, with shared `platform_id`s. Fortnite and CS2 are rows only as game platforms for items; Kindle is a row as a reading platform.
+  - One `delivery` attribute list: download; boxed or carrier; app store; web or hosted; self-hosted; portable; stream; physical delivery; entry to a place; network connection.
+  - Delivery is never a C13 row.
+
+**X6 (low) Scenes: none, a private list, and empty.**
+- *Evidence.* I1 turns FOSS, freeware, vintage collecting and regional ecosystems into attributes and views. I2 has its own list (hi-res audio, e-reader ecosystems, doujin goods, skin traders, NFT communities, domain investors, type design), whose sources are evidence pages. I3 has no scenes.
+- *Proposed.* Domain I uses the shared C8 list. Candidate tags are free and open-source software, retro software collecting, hi-res audio, doujin and creator goods, skin trading, NFT collecting and domain investing. Each tag needs a definition source (a community wiki or glossary) and is held back until it has one. Ecosystems and regions stay C13 rows and region tags, as the memos propose.
+
+**X7 (high) Boundaries the memos leave open or answer differently.** Each item gives a proposed precedence sentence for both memos' section 9.
+- **(a) Classes, wellness and learning apps (I1, I3).**
+  - *Evidence.* I1 sentence 6 says "wellness and meditation apps are I1 by function". I3's kind 13 and key branch (a) put "recorded and streamed classes" in I3.
+  - *Sentence.* *"A plan whose value is a library of recorded or streamed lessons, sessions or classes to watch or listen to (Apple Fitness+, Calm, Headspace, MasterClass, Peloton App) is I3, recorded class subscription. A program that does the exercise with the user, testing, correcting or adapting to the user's answers (Duolingo, Babbel, a typing tutor, a flashcard app), is I1, learning software."* I1 deletes "wellness and meditation apps are I1".
+- **(b) Backup (I1 row 6, I3 kind 19).**
+  - *Sentence.* *"Backup software that copies to the owner's own drives is I1. A plan whose value is keeping the backup on the provider's servers (Backblaze Personal Backup) is I3, even with its own client program. A package named and sold as a security or backup program that includes cloud space (Acronis) is I1."*
+- **(c) Maps (I1 row 51, I3 kind 22).**
+  - *Sentence.* *"A map or navigation service (Google Maps, Waze, Google Earth on the web, a paid navigation app with downloadable maps) is I3. A program that edits or analyses geographic data (QGIS, Google Earth Pro on the desktop) is I1, GIS software."*
+- **(d) VPN.** Both memos send VPN to I1. I1 renames its kind "VPN service and client" (I1-7). I3's P1 stays as written.
+- **(e) Game launchers and stores (I1 sentence 3, I1 question 3; nothing in I3).**
+  - *Sentence (owner to confirm).* *"A game store or launcher client and its free account (Steam, Epic Games Launcher, GOG Galaxy) are not filed: they are the way games and items are bought and held. The games are D5, the items I2, and a paid subscription on the store is I3."* This follows the step 5 note ("the item held in it is in") and I3's rule that a mere way of buying is not filed.
+- **(f) Production-asset plans (I2, I3).**
+  - *Evidence.* I2 sends the Adobe Stock plan to I3. I3 has no kind for it (I3-6).
+  - *Sentence (I3 P2).* *"A plan giving access to a library of images, video, sounds, fonts or templates for making work is I3, asset-library subscription; each asset downloaded and licensed under it is I2."*
+- **(g) Plans tied to one device (I1 SF13, I3.3, I3.1).**
+  - *Sentence.* *"A paid unlock or subscription that switches on a function of software built into one device (heated seats, driver assistance, a camera's extra recording mode) is I1. A plan whose value is a data connection for that device (car connected services, a smartwatch eSIM line) is I3, connectivity. A class catalogue for one device (Peloton All-Access) is I3, catalogue. Free companion apps are part of the device."*
+- **(h) Data loaded by programs (I1 sentence 4, I2 boundary with I1).**
+  - *Evidence.* The two sentences agree in general, but neither places presets, sample libraries, LUTs, MIDI files or AI model weights.
+  - *Sentence.* *"A file that a program loads but that adds no executable code (sample library, instrument library, preset, LUT, MIDI file, AI model weights) is I2. A plug-in that adds processing code to a host program (VST/AU instrument or effect, image-editor filter plug-in, browser extension) is I1, add-on. A mod that changes a game's play is D5."*
+- **(i) Reference works (I1 row 41, I2 text).**
+  - *Sentence.* *"A dictionary, encyclopedia or other reference work held as a file in an e-book format is I2. One delivered as its own program, or on a disc as a program (Encarta, a dictionary app with its own search), is I1."*
+- **(j) Credits (I1 object 10, I2 object 7, I3 object 8 and I3-Q4).**
+  - *Evidence.* Firefly and Audible credits are OUT, and the plans are in. ClassPass is recommended IN, yet its plan is nothing but credits.
+  - *Shared sentence.* *"A plan that renews credits each period is filed as the plan, by what the credits reach (I1 for software use, I3 for a catalogue or for venues), with `credits_per_period` as a plan attribute. Credits bought on their own, and balances that can be cashed or transferred, are OUT (step 1)."*
+- **(k) NFT memberships and tickets (I2 question 6; nothing in I3).**
+  - *Sentence (I3 P4).* *"A membership or pass carried by an NFT is I2 as the token. It is I3 only when the same access is also sold as a plan, which is then filed once, as the plan."*
+- **(l) Messaging and video calls (I1 edge object 4, I1 question 3, I3 kind 21).** I3 renames kind 21 "messaging, calling and video-conferencing service" (WhatsApp, Zoom, Slack, Discord). I1 keeps the email client in I1 and the mailbox in I3 (both agree).
+
+**X8 (low) Duplicated or doubly unsourced concepts.**
+- Podcasts: I2 kind 17 (file) and I3 kind 4 (paid podcast subscription) are both unsourced. Fetch one page that covers both, and keep both kinds provisional until then.
+- Audiobooks are consistent. The file is I2, the catalogue plan I3 and the credit OUT.
+- Bundles are consistent: Microsoft 365 Family is I1, Google AI Pro is I1 and Google One is I3.
+- No kind appears in two memos.
+
+**X9 (medium) Framework conflicts to log (for framework/structure/_framework_conflicts.md; not applied here).**
+- **Seat structure (I3 gap 5, I3-Q5).** The step 5 note counts "the seat structure (individual, family, student)" as part of the kind of access. C6 and Appendix A make user a tag. Both I1 and I3 treat seats as plan attributes. *Fix:* delete "and the seat structure (individual, family, student)" from the step 5 note, and add "seat structure is a plan attribute".
+- **"In-game items" (I2).** The I2 branch and the D5 note should read "in-game and platform items", to include Steam profile items and messaging stickers.
+- **Home recordings (I2).** The F1 note's "home recordings … are F5" should read "home recordings on a physical carrier are F5".
+- **Domain names (I2).** The step 1 note should say that a domain name registration is I2, not a right in itself.
+- **Medical software (I1 sentence 6).** Step 2 names devices and monitors, not software. *Fix:* add "software made to diagnose, treat or monitor a condition, such as a regulated medical app, is H2".
+- **Gaps in I3's key (I3 section 9).** Goods rental subscriptions, hosting plans, creator memberships, the physical SIM card or eSIM profile, and car-sharing memberships.
 
 ## 5. Owner decisions raised (merged and de-duplicated)
 PENDING
