@@ -341,3 +341,83 @@ These conventions resolve X1 to X11. Each is phrased so that the owner can appro
 **C8. One scene vocabulary for domain A.** One controlled list of `scene_tags`, each with a definition source (an MFA style guide, a Subculture Wiki page, or a community wiki), `core` or `adjacent` strength, and tagging at the maker, kind and named-form levels, without automatic inheritance (A1, owner question 9). A2 and A4 use this list instead of their own labels. A tag that has no source is held back (A2 already says its labels are "not attested").
 
 **C9. Alias and homonym table.** One table: `term`, `language` and `script`, `target_id`, `relation` (alias, regional name, homonym). For example: JSK = jumper dress; スカジャン = souvenir jacket; カバーオール = chore coat (JP), but coverall = boiler suit (US); longcase = grandfather clock; shopper = tote; wristlet → two targets. The labels are English, with a native-script label (A1, owner question 11).
+
+## 5. Owner decisions raised by the memos (merged and de-duplicated)
+
+Memo question numbers are given in brackets. Each one is phrased as yes/no or as a choice; where this review recommends an answer, the recommendation is given after the question.
+
+### A. Shared conventions (decide once for domain A)
+1. **Levels.** Approve C5: at most four levels below the category with the named form as one of them; the leaf level optional per sub-family; "one axis per level" read as one axis per level within each sub-family. Yes/no. [A1-13, A2 section 10, A4 section 3, A5 section 3]
+2. **Kind against named form.** Approve C2: the choice-level test decides; named forms are maker-bound or not; specs, sizes, prints and colourways are never named forms. Yes/no. [A1-7, A2-5, A3-3, A4-7, A5-6]
+3. **Traditional and regional forms.** Kinds when sold or compared as their own category, otherwise non-maker named forms; always with a region tag and a "by tradition" view; never a sub-family or leaf of their own. Yes/no. [A1-2, A2-6, A3-3]
+4. **Historical-only styles** (poulaine, chopine, caliga; antique-only clock forms). In scope as kinds or named forms when people own replicas or originals, or only as a "historical" tag on existing kinds? Choice. [A2-6]
+5. **Variant ledger.** Approve C3: one optional variant ledger for colourways, references, prints, collaborations and editions. Yes/no. [A2-5, A5-6, A1 named-form ledger]
+6. **Tier storage.** Approve C4(a) to (c): tiers never on kinds; entries per source with a disputed flag; spec ladders as attributes; platform segments as dated tags. Yes/no. [A1-8, A3-8, A5-5]
+7. **Tier vocabularies.** One domain-wide tier scale, or a scale per category (A1 mass … archive; A3 fine / demi-fine / fashion; A4 luxury / premium / mainstream; A5 per-source schemes)? Choice. Recommended: per category, stored per source.
+8. **Price band.** One domain-wide USD band scheme (C4(d)), or bands per category? Choice.
+9. **Maker ledger.** Approve the C1 core schema with category extensions and separate line, tier and named-form tables. Yes/no. [A1-10, A3-8, A2, A4, A5 section 6]
+10. **Maker-ledger seed.** Seed from the makers named in the owner-emphasis scenes, or crawl retailer brand lists (Musinsa alone lists 3,708)? Choice. Include retailers' own labels (Uniqlo, ZARA) as makers without named forms? Yes/no. [A1-10]
+11. **Scene vocabulary.** Approve C8: one shared, sourced list with core and adjacent strength, tagged at maker, kind and named-form level, with no automatic inheritance. Yes/no. [A1-9]
+12. **Alias table and labels.** Approve C9 (English label plus native-script label; homonyms with two targets). Yes/no. [A1-11, A5-9]
+13. **User and department.** Confirm that gender, child and baby are tags with generated department views in every A category, including children's clothing in A1. Yes/no. [A1-12, A5-8]
+14. **Parts sub-family.** Approve C5(d): each A category ends with a parts sub-family for the S3 items it receives; boxes and rolls holding several items stay B1. Yes/no. [A5-3]
+
+### B. Framework changes (for the next CATEGORIES revision)
+1. **Swimwear.** The key sends "swimming costumes" to E2. Should this mean only competition and sport swimwear (racing suits, wetsuits), with bikinis, swim trunks and beachwear staying A1? Yes/no. [A1-5]
+2. **Equestrian and cycling gear.** The key puts cycling helmets in A1 but equestrian riding hats in E2. Align them: either all riding and cycling helmets are A1 protective equipment, or equestrian helmets and tall riding boots are E2 and cycling helmets stay A1. Choice. [A1-5, F15]
+3. **Watch chains and fobs.** Adopt W1 (watch chains A5 under S3; fobs worn without a watch A3). Yes/no. [F21]
+4. **Head ornaments.** Adopt H1 (banded headwear including fascinators and headbows A1; pinned or clipped ornaments A3; plain clips, ties and bands H1). Yes/no. Separately: is a stick-on bindi or temporary jewel A3 or H1? Choice. [A3-9]
+5. **Furoshiki and other carry cloths.** A bag (A4) or a wrapping textile (B2)? Choice. [F29]
+6. **Lunch bags and cool bags** (already logged in _framework_conflicts.md). Adopt "insulated lunch and cool bags are B5". Yes/no. [A4-5]
+7. **Pencil cases and toiletry bags.** A4 by step 17 (recommended), or C5 and H1? Choice. [A4-5]
+8. **Powered handheld fans.** A4 (hand fan) or B7 (fans)? Choice. **Beach and patio umbrellas.** B1 or C2? Choice. [A4-5]
+9. **Prescription sunglasses** are H2 because they correct vision. Confirm. Yes/no. [A4-5]
+10. **Prayer-bead necklaces and malas.** F4 if sold as prayer beads, A3 if sold as a necklace (the memo's rule), or always F4? Choice. [A3-6]
+11. **Gold-ingot pendants and coin jewellery.** A3 when made with a bail or loop for wearing, F3 when it is bullion or coin without a mount (a form test, not "kept as bullion")? Yes/no. [A3-7]
+12. **Sensor-led outdoor watches** (altimeter, barometer, compass). A5 when time is the main display, D2 when sensing or navigation is the main function? Yes/no. [A5-4]
+13. **Performance basketball and tennis shoes.** E2 only when sold as performance or court models with sport-specific soles; A2 for lifestyle retros? Yes/no. [A2-7]
+14. **Shoe waterproofing sprays.** C8 (not a cleaning product, used on several kinds of object) or B6? Choice. [A2-7]
+
+These are already decided by the key, so they need no owner decision; record them as precedence sentences:
+- shoe horns (A2) and waders (E2) [F16];
+- chess and game clocks, attendance clocks, laboratory atomic clocks and tower clocks (A5), and pulse watches made to monitor a patient (H2) [F35];
+- bag charms (A4) and clip-on lenses for corrective spectacles (H2) [F30];
+- loose belt buckles (A1) [F23].
+
+### C. Per-category structure
+- **A1-1** Adopt Candidate A (form-first, seven sub-families, with the F3 tie-break). Yes/no.
+- **A1-2** Leaf 3.5 renamed "Draped and wrapped garments", holding draped and wrapped garments only, with the kurta in Shirts, the lehenga choli in Dresses and sets, the hakama in Trousers, and kimono types as named forms under "kimono" (F4). Yes/no. [A1-2, A1-3]
+- **A1-3** Protective equipment filed by body zone and form, with `hazard_rating` and a generated view; no protective sub-family (F2). Yes/no. [A1-4]
+- **A1-4** Delete the uniforms and costumes leaf, and file each garment by form with a uniform or costume tag (F1). Yes/no. [A1-6]
+- **A1-5** Confirm that gaiters, leg warmers, arm sleeves, the obi and the dupatta are A1 (F2 places them). Yes/no. [A1-14]
+- **A2-1** Adopt form families at level 1 (sneakers, shoes, boots, sandals, slippers by construction), with work and safety footwear as a certification attribute and view rather than a sub-family (F11). Yes/no. [A2-1, A2-2, A2-3]
+- **A2-2** Dress-shoe kinds by lacing and cut (oxford, derby, monk, loafer), with broguing and toe-cap as attributes; or toe-cap patterns as kinds (ABC-MART)? Choice. [A2-4]
+- **A2-3** Mules and clogs as kinds under Shoes, or with sandals? Choice. [A2-8]
+- **A2-4** Minimalist and barefoot shoes as a kind in Sneakers, or an attribute? Choice. [A2-9]
+- **A3-1** Two-step top (site, then form family) or flat form leaves (Candidate B)? Choice. [A3-1]
+- **A3-2** Adopt the piercing-fit rule by fitting, not channel (F19). Yes/no. [A3-2]
+- **A3-3** Wedding bands and engagement rings as occasion tags on band and solitaire rings (Appendix A), or as kinds? Choice. Recommended: tags. [A3-4]
+- **A3-4** Jewellery sets filed under the principal piece with contents recorded, or as a kind "jewellery set"? Choice. [A3-5]
+- **A4-1** Hardside and softside as an attribute (recommended) or as kinds? Choice. [A4-1]
+- **A4-2** Luggage size class (cabin, check-in) as an attribute with a view (F28, C6), or as kinds as the memo proposes? Choice. [A4-2]
+- **A4-3** Eyewear frame shape as a kind, shared by name with H2 frames, which are filed by whether they correct vision? Yes/no. [A4-3]
+- **A4-4** Home rule for a named form that sources place under two kinds: the maker's own category on a fetched maker page (F26). Yes/no. [A4-4]
+- **A4-5** One home each for the wristlet (by the F26 test) and for the two chain wallets (the belt-chain wallet in Wallets; the wallet on chain in Wallets as a named-form group). Yes/no. [A4-6]
+- **A4-6** Rare silhouettes (Modalina's 104) as named forms unless a source compares them. Yes/no. [A4-7]
+- **A4-7** Split A4.8 into Baby carriers and Small carried accessories (F27). Yes/no.
+- **A5-1** Movement and power as attributes only, with no horology exception. Yes/no. [A5-1]
+- **A5-2** Watch level 2 by defining complication or certified function, with pilot, field, racing, sailing, dress and sports as design-family tags (F33); or keep the memo's environment-first precedence? Choice. [A5-2]
+- **A5-3** Fashion watches and tie-in or collaboration editions as maker-type and variant tags, not kinds. Yes/no. [A5-7]
+
+## 6. Report
+
+All five memos in domain A put garment or object form first, carry makers in ledgers, and send scenes, regions and users to tags and views. That core is sound and attested in several regions. Verdicts: A1, A3, A4 and A5 need minor fixes; A2 needs rework of levels 1 and 2 only.
+
+The high-severity defects are:
+- a role-based leaf, and protective equipment with no home (A1);
+- setting and use sub-families, and mixed boot leaves (A2);
+- a self-contradictory piercing rule (A3);
+- overlapping bag kinds (A4);
+- a watch precedence rule that contradicts its own tree (A5).
+
+Across the memos, "named form", variants, tiers and the maker-ledger schema are handled inconsistently. Section 4 proposes nine shared conventions (C1 to C9). Section 5 merges 49 memo questions into 14 shared, 14 framework and 23 per-category decisions. Ten further cases are already decided by the key.

@@ -211,3 +211,252 @@ Either works. The memo must use one. I lean to (b), which matches its own "file 
 **B10-4 (low) Feed tier from one source.** Above the AAFCO or FEDIAF gate, the feed ordering rests on one rating site [S24]. *Fix:* record the rating as `rating(source=Dog Food Advisor, date)` on named forms only, with no category-wide tier. The required "complete or complementary" flag is good and should stay.
 
 **Objects that would split (B10):** dog-and-cat bowl; hay (horse vs rabbit vs several animals); cat litter (C-7, row 31); bird bath (C-7, row 32); pond pump (C2 vs B10); pet stroller (G1 vs B10, memo Q8); GPS pet tracker (D2 vs B10); honey extractor (B10 vs B5).
+
+## 3. Cross-memo consistency and proposed shared conventions
+
+### C-1 Ledgers (medium)
+
+The memos agree that a maker ledger is needed, never as a level, but they propose eight different column sets:
+
+| Memo | Ledger fields proposed |
+|---|---|
+| B1 | maker, known-for named forms, designer, country, era, licence status, scene tag, price band (no tier) |
+| B2 | maker, known-for kinds, tier, country, era, scene tag (price band "free") |
+| B3, B4, B6 | maker, known-for kinds, scene tags, tier, price band, country, era, attestation URL |
+| B5 | as B3, plus a separate pattern ledger (tableware, crystal, flatware) |
+| B7 | as B3, plus `made_by` (OEM behind the brand) |
+| B8 | maker, known-for kinds, tier or grade ceiling, ecosystem/platform tag, scene tags, country, era (no price band) |
+| B9 | maker, `maker_type`, known-for kinds, scene tags, tier, price band, country, era, `platform`, brand-owner and factory roles |
+| B10 | as B3 |
+
+**Proposed shared schema (C-1a), one table for all categories.** Columns:
+- `maker_id`, `name`;
+- `maker_type` (B9's list, extended with designer, workshop, OEM and own-label retailer);
+- `role_of` (the parent or brand owner) and `made_by` (OEM or factory): B7, B9;
+- `known_for_kinds` (kind ids), `known_for_named_forms` (ids);
+- `designers` (B1);
+- `scene_tags`;
+- `tier`, a typed value (see C-1b);
+- `price_band`;
+- `country`; `era_from` and `era_to`;
+- `licence_status` (authorised, licensed, original, reproduction maker: B1);
+- `platforms` (ids from C-1c);
+- `attestation_urls` (one per claim).
+
+Leave a column empty where a category does not need it. Never drop it.
+
+**Proposed shared tier object (C-1b).** It merges B6's "typed source", B7's "scheme plus value", B8's "standard plus grade" and B9's `rating_band`:
+- Store `tier = {scheme, value, scope_kind, source_url, date}`, for example `{EN 1143-1, III, safe, …}` or `{Cigar Aficionado 100-point, 90-94, named form, …}`.
+- Compare only within the stated kind (B6 [S14, S15] and B10 [S24] both say so).
+- Keep `price_band` as a separate field with one shared vocabulary: budget, mid, premium, luxury. B4 uses mass, mid, premium, luxury; B5 uses entry, mid, prosumer/premium, commercial; B3 uses budget, mid, premium.
+- `market` (domestic or commercial) is never a tier value (B5-2).
+- A pass/fail mark (EN 14604, NSF/ANSI, SCA certified, child-gate EN 1930) is a `certification` field, not a tier (B7 and B8 already say this for NSF and EN 14604).
+
+**Proposed compatibility ledger (C-1c).** Five memos describe a platform or fit system, each in its own way:
+- B3: cap-and-standard table (E27, GU10 and the rest);
+- B6: a `fits` field on vacuum parts;
+- B7: battery and inverter matching, and indoor and outdoor units;
+- B8: ecosystem tag (Ring, Nest), alarm interlink ranges;
+- B9: heated-tobacco device families, coils;
+- B10: hive systems (Langstroth, National, Zander);
+- B5: capsule systems (not yet sourced).
+
+One table covers them all: `platform_id, name, type (open standard | maker ecosystem), owner, dimension or spec, kinds_that_use_it, source_url`. Parts and consumables carry `fits = [platform_id]`, and named forms carry `platform = platform_id`. B3's cap table and B10's hive systems are its first rows.
+
+**Named-form registers (C-1d).** For very large sets of designs inside one kind, the memos already propose side tables: national and state flags in B4 (about 900), tableware patterns in B5 (tens of thousands), cigar marca-and-vitola in B9, feed recipe lines in B10. Proposed rule: when one kind has more than about 50 attested named forms of the same type, they go in a register keyed by kind, and the tree shows only the iconic or canonical ones.
+
+### C-2 Technology and power source as a kind (high: B2, B3, B4, B6, B7, B8)
+
+Appendix A makes power source and technology a modifier. Yet every memo in this domain meets objects where the technology seems to make a different thing, and each resolves it differently:
+- B3 makes LED tube vs fluorescent tube kinds, and solar lanterns too, against its own rule.
+- B6 asks the owner (dryers, washers).
+- B7 keeps the heat-pump water heater as a kind and asks the owner.
+- B8 keeps smart lock and keypad lock against its own table.
+- B4 puts the LED candle under candles.
+- B2 keeps the electric blanket (the key names it).
+- B6 keeps the sensor bin.
+
+**Proposed rule T.** Power source, technology and connectivity are attributes. They define a kind only when (a) the placement key names that kind (electric blanket, robot vacuum is a form anyway, heat pump), or (b) the technology changes the object's physical form or its installation needs, so that one cannot replace the other without new fittings, and a fetched comparison source tests or ranks the types separately.
+
+Applied:
+- **Kinds:** HID lamp (ballast); vented vs ventless dryer (duct); heat-pump water heater (compressor unit and space needs [CW, RM]); flued stove; electric shower (own circuit); robot vacuum (autonomous form).
+- **Attributes:** LED vs fluorescent tube; condenser vs heat-pump ventless dryer; smart or keypad lock; sensor bin; solar vs battery lantern.
+- **Not a candle at all:** the LED candle is a light (B4.9).
+
+Owner question Q-X1.
+
+### C-3 Regional names (medium: B1, B2, B4, B5, B6, B7, B8, B9)
+
+Japanese and other regional words appear as kinds (tansu, zaisu, kotatsu, kake-futon, kotatsu futon, chochin, andon, hina doll set, koinobori, kyusu, Yixing teapot, yanagiba, twin-tub, bathroom drying unit, warm-water toilet seat, 補助錠 supplementary lock, kiseru, kizami, kretek, Balkonkraftwerk), as a leaf (B2 "Futon bedding (Japan)") or as named forms. Each memo uses its own test.
+
+**Proposed rule R.** A regional name is a **kind** only when it names a form that no generic kind in the tree already covers, and its kind label is then the generic description, with the regional word as its name or synonym: warm-water toilet seat; kiseru (Japanese long pipe); kotatsu (heated low table). Where a generic kind exists, the regional name is a **named form** under it, tagged with the region: zaisu under floor chair; Yixing under teapot; koinobori under windsock; kake-futon under comforter; tansu types under their use kinds. A region never names a sub-family or a leaf.
+
+Applied, this changes B1-2, B2-1, B4-1, B4-6 (jharokha) and B5-3. It confirms kotatsu, kyusu, gaiwan, yanagiba, deba and usuba (knife forms with no Western equivalent), twin-tub, kiseru, kizami, kretek and the bidet seat as kinds.
+
+### C-4 Mounting vs the installation modifier (low: B3, B4, B7, B8)
+
+B3 (fixed vs standing; ceiling, wall, ground), B7 (wall, floor, ceiling-cassette and window air conditioners; rack vs wall battery), B8 (hardware- vs pressure-mounted gate; wall and floor safes) and B4 (wall vs leaner mirror) all divide by where the object is fixed. Appendix A lists "installation (freestanding, built-in, fitted)" as a modifier.
+
+**Proposed rule M.** Mounting defines a kind when (a) the object is made only for that mount and its body differs (pendant vs floor lamp; window vs split air conditioner; wall vs floor mirror stand), or (b) the mount changes what the object can safely do, as a fetched source states (top-of-stairs gate [S16]). When the same body is offered with different fixings (wall or floor safe, rack or wall battery, built-in or freestanding oven, fitted or loose carpet), mounting is the installation attribute.
+
+Applied: B3 and the B7 air-conditioner kinds stand; the B8 safes and the B7 batteries merge (B8-3, B7-4); the B8 gates stand.
+
+### C-5 Design series that span kinds (low: B1, B3, B5, B9)
+
+The CH22 to CH26 series (B1), PH lamps and Akari (B3), Riedel lines and dinnerware patterns (B5), IKEA lines such as HEMNES and KALLAX that run across beds, shelving and desks (B1), and the Dunhill shape numbers (B9) are families that cross kinds.
+
+**Proposed rule.** A series is a row in the maker ledger, as `series` with a maker id. Each member is a named form under its own kind, with `series_id`. A series is never a named form that spans two kinds.
+
+### C-6 Material as the form (low: B1, B2, B7, B9)
+
+Four memos ask the same question in four ways:
+- latex mattress (B1, accepted as construction);
+- hide rug (B2);
+- hot tub "by construction material" (B7 Q8);
+- pipe material vs shape (B9 Q2).
+
+**Proposed test.** Material is the form only when changing the material changes the object's construction method and what a buyer compares, and a fetched source divides the kind that way (mattress construction [S21]; hide rug [S17]). Otherwise material is an attribute. On that test the hot tub kinds should be "hard-shell hot tub", "inflatable hot tub" and "wood-fired tub", with material as an attribute. Pipes stay shape-first, with briar, meerschaum, corn cob and clay as material attributes, unless the owner says otherwise.
+
+### C-7 Boundaries between B memos: where the two sides agree or not
+
+| # | Object | Side 1 | Side 2 | Status and proposed sentence |
+|---|---|---|---|---|
+| 1 | Shiki-futon | B2: B1 | B1: no kind | **Orphan.** Add the B1 kind (B1-3). |
+| 2 | Tea and kitchen towel | B2: B2 (in Body textiles) | B5: B2 | Agree on the category; fix the B2 sub-family (B2-2). |
+| 3 | Textile placemat and napkin | B2: B2 (held back) | B5: textile B2, hard B5 | Agree; attest them in B2. |
+| 4 | Laundry basket | B1: B6 | B6: B6 | Agree. Add to the S3 "never parts" list: "laundry baskets are B6". |
+| 5 | Locker, filing cabinet vs safe | B1: B1 / B8 | B8: same | Agree. |
+| 6 | Gun cabinet | B1: open (E4 or B8) | B8: B8 ("safes for any contents") | **Settle as B8.** Delete it from B1's open list. |
+| 7 | Security floodlight (light only) | B3: open (B8 or B3) | B8: B3; floodlight camera B8 | **Settle:** a light is B3; with a camera it is B8. |
+| 8 | Candle holder, lantern-style holder | B3: candle lantern is a carried B3 kind; silent on holders | B4: holders B4, "lantern stays B3" | **Not agreed.** Proposed: "An open holder for a candle (candlestick, candelabrum, tealight holder, wall sconce for candles) is B4. An enclosed lantern with a handle, made to be carried as a light, is B3. A lantern made to stand or hang as decoration is B4." |
+| 9 | LED strip, string lights | B3: open | B4: string lights in B4.9 (unattested) | **Not agreed.** Proposed: "A light strip sold to light a space (under-cabinet, cove) is B3; string, fairy and novelty lights made mainly as decoration are B4 (key note)." |
+| 10 | Flameless candle | B3: B4 | B4: in Candles | Agree on the category; move it to B4.9 (B4-3). |
+| 11 | Neon or LED sign | key: B4 decorative lighting | B4: B4.8 Signs | Category agreed; leaf fixed in B4-3. |
+| 12 | Lighted makeup mirror | B4: H1 | B3: "mirror light" B3 | Agree if the B3 kind means a wall light over a mirror. State it. |
+| 13 | Decorative or commemorative plate | B4: B4 if made to hang | B5 and S5: B5 | **Conflict.** Owner (B4-2, Q-B4c). |
+| 14 | Room spray vs fabric freshener | B4: B4 vs B6 | B6: same | Agree. |
+| 15 | Essential oil for a diffuser | B4: B4 or H2 open | none | Open. Proposed: B4 unless sold for therapy (H2). |
+| 16 | Shower curtain | B2: open (B2 or B7) | B7: B2 | **Settle as B2.** |
+| 17 | Bath mat | B2: B2 | B7: B2 | Agree. |
+| 18 | Towel radiator | B7: B7 | B2: none | Agree. |
+| 19 | Kotatsu, kotatsu cover | B1: kotatsu B1 | B2: cover B2; B7: kotatsu B1 | Agree. |
+| 20 | Electric blanket, heated throw | B2: B2 | B7: B2 (key) | Agree. |
+| 21 | Vanity unit with a built-in basin | B1: basin B7, cabinet B1 | B7: "a vanity unit is B1" | **Not agreed.** Proposed: "A washbasin sold built into its cabinet is B7 (washbasin, with cabinet as an attribute); a vanity cabinet sold without a basin is B1." |
+| 22 | Dish rack | B6: B5 | B5: open | **Settle as B5** (holds tableware). |
+| 23 | Water filter jug | B7: B5 | B5: open | **Settle as B5;** plumbed filters are B7. |
+| 24 | Descaler | B6: B6 | B7: general descaler B6 | Agree. Softener salt is B7 under S3, and dishwasher salt is B6 (cleaning product). State both in one sentence. |
+| 25 | Moisture absorber | B6: B7 | B7: no kind | **Orphan.** Add the B7 kind (B7-6). |
+| 26 | Mothballs, moth repellent | B6: B8 | B8: no kind | **Orphan.** Add the B8 kind (B8-5). |
+| 27 | Heated airer vs heated towel rail | B6: heated airer B6 | B7: towel radiator B7 | **Not agreed** for the plug-in heated towel rail. Proposed: "A heated rail made to warm and dry towels in a bathroom, plumbed or wired, is B7; a free-standing heated airer made to dry laundry is B6." |
+| 28 | Ceiling fan with light | B3: B7 | B7: B7 | Agree. |
+| 29 | Heat lamp | B3: B7 if sold as a heater | B7: none | Agree in principle; add "infrared heat lamp" to the B7 radiant heaters. |
+| 30 | Pet bed, pet blanket | B1: B10 | B2: B10; B10: B10 | Agree. |
+| 31 | Cat litter | B10: open (B6 or B10) | B6: silent | **Settle as B10** (made for the animal's toilet). Pet-stain cleaners are B6 under S3. |
+| 32 | Bird bath, bird feeder | B4: open (B4, B10, C2) | B10: feeders B10, no bath | **Settle:** feeders, baths, nest boxes and feeding stations made for wild birds are B10; a fountain is B4 or C2. |
+| 33 | Humidor; travel humidor, cigar case | B1: humidor B1 (not in tree) | B9: open | Add humidor to B1 (B1-1); cases per B9-4. |
+| 34 | Aquarium and vivarium lamps, reptile thermostat | B10: B10 (S3) | B3: Q5 (special bulbs follow the appliance) | Agree if B3 Q5 is "yes". |
+| 35 | Incense burner | B4: home-fragrance burner B4 | B9: not an implement | Agree; rite burners are F4. |
+| 36 | Lanterns used camping, head torches | B3: B3 | (E2 not in batch) | Confirm with E2 (B3 Q3). |
+
+**Duplicated kind names to keep apart** (rename the kinds so a builder cannot confuse them):
+- "lantern": B3 fixed, B3 carried, B4 decorative;
+- "spotlight": a B3 fitting and a B3 bulb;
+- "futon": B1 sofa, B1 floor mattress, B2 quilt;
+- "cot": B1 crib, B1 camp bed;
+- "thermostat": B7 room thermostat, B10 reptile thermostat, both under S3;
+- "utility knife": B5 kitchen, C1 trade (B5 boundary 1 handles it).
+
+### C-8 Sets and kits (low: B1, B5, B6, B7, B8)
+
+- B1 makes a set an attribute ("sold as a set").
+- B5 makes it a unit-of-sale tag.
+- B6 calls a washer-plus-dryer set two objects.
+- B7 makes the balcony solar kit a kind.
+- B8 has "burglar alarm system" and "camera system kit" as kinds.
+
+**Proposed rule.** A set of separately usable kinds is a unit-of-sale tag, and each piece is filed as its kind. Step 3's "filed by its item of greatest value" applies only when the set is catalogued as one object. A kit is a kind only when its parts are sold to work together as one system and the trade rates or tests it as one: an alarm system graded as a system; a balcony solar kit sold under its own plug-in rules [AS]. Owner question Q-X4.
+
+### C-9 Codes and citation format (low)
+
+- Sub-family codes differ: B1.1 (B1), B4.1 (B4), B8.1 (B8), none (B6, B7), A1 to A14 and B1 to B7 (B9: collides). *Proposed:* `<category>.<sub-family>.<leaf>` with numbers only (B9.2.3).
+- Source citation differs: S-ids (B1, B2, B5, B6, B9, B10), letter tags (B3, B7), and B10 has no URL key in the memo. *Proposed:* S-id equals the TSV row number, and every memo prints the S-id to URL key at its end, so an auditor can read the memo alone.
+
+### C-10 Shared vocabularies between neighbours (low)
+
+- **Bed and mattress sizes.** B1 (Sealy AU [S11], Wikipedia bed size [S25]) and B2 (bedding single to super king, Japanese semi-double [S15]) need one size table with national names, used by both.
+- **Scent families.** B4 proposes the Edwards wheel, shared with H1. B9 (shisha flavour families, pipe aromatics) and J6 (tea and coffee flavour) should decide whether they join it. A smoking blend's flavour is not a scent family, so it stays a B9 attribute.
+- **Order inside a leaf.** All ten memos say "canonical form first". Named forms are ordered by chronology (B1, B3, B4, B6), alphabetically (B2, B9 fallback) or by ascending grade (B8). *Proposed default:* chronology where dates are attested, ascending grade where a grade ladder exists, otherwise alphabetical.
+
+## 4. Owner decisions raised by the B memos (merged, de-duplicated)
+
+### Cross-category rules (decide once, apply to all B memos)
+
+- **Q-X1.** Adopt rule T (C-2): technology and power source are attributes unless the key names the kind, or the technology changes form or installation and a source ranks the types separately? (yes / no)
+- **Q-X2.** Adopt rule M (C-4) for mounting vs installation? (yes / no)
+- **Q-X3.** Adopt rule R (C-3): a regional word is a kind only when no generic kind covers its form, and a region never names a sub-family or leaf? (yes / no)
+- **Q-X4.** Sets and kits (C-8): set = unit-of-sale tag, and kit = kind only when rated or tested as one system? (yes / no)
+- **Q-X5.** Material as the form (C-6). Choose for each case: latex mattress kind (yes / no); hide rug kind (yes / no); hot tub kinds by construction (hard-shell, inflatable, wood-fired) rather than by material (yes / no); pipes by shape (a) or by material (b)?
+- **Q-X6.** Adopt one maker-ledger schema (C-1a) for every category? (yes / no) Scope per category. Choose (a) identity and platform makers only, or (b) also mass-market and consumable houses:
+  - B1 designer-classic and modular makers only?
+  - B6 appliance makers only, or also consumable houses?
+  - B2 rug workshops and linen houses only?
+- **Q-X7.** Store tiers as a typed object (scheme, value, scope, source, date), with one price-band vocabulary (budget, mid, premium, luxury), and keep market and certification out of tier? (yes / no)
+- **Q-X8.** Adopt one compatibility ledger (C-1c) for caps, hive systems, device ecosystems, capsule and battery systems, with `fits` on parts? (yes / no)
+- **Q-X9.** Hold large sets of named forms in registers keyed by kind (flags, tableware patterns, cigar marca-and-vitola, feed recipe lines), with only iconic ones in the tree? (yes / no)
+- **Q-X10.** Brand product lines of consumables (cleaning products, e-liquids, feed recipes, cigarette brand families): named forms (a) or ledger only (b)?
+- **Q-X11.** Design series that span kinds as a ledger `series`, with members as named forms per kind (C-5)? (yes / no)
+- **Q-X12.** Record authenticity (licensed original, vintage original, reproduction) on named forms? (yes / no)
+
+### Top-level axis of each category
+
+- **Q-B1.** B1: function-first, six sub-families (yes / no). If yes, rename B1.6 "Display, division & shelter" (yes / no).
+- **Q-B2.** B2: "what the textile dresses", six sub-families, with the Japan leaf removed (yes / no).
+- **Q-B3.** B3: role, then placement (accepted under Q-X2), with bulbs by shape family and technology and cap as facets (yes / no).
+- **Q-B4.** B4: nine ornamental families, with B4.5 re-axed to "temporary display" by form and occasion as a tag (yes / no).
+- **Q-B5.** B5: stage of kitchen work, with "Serve, eat and drink at table" and "Make drinks" replacing "Serve and eat" and "Drink" (yes / no), and appliances as a generated view, never a sub-family (yes / no).
+- **Q-B6.** B6: "what is cleaned or cared for", five sub-families (yes / no).
+- **Q-B7.** B7: three media and twelve leaves (Candidate A) or flat job sub-families (Candidate B)?
+- **Q-B8.** B8: hazard-first (A) or object-type (B)? If A: replace "Young-child hazards" with "Household injury hazards", with child as a user tag (yes / no).
+- **Q-B9.** B9: role-first (products vs implements: A), substance-first (B) or route-first (C)? And Q-B9a: inside products, "substance and form" leaves (a) or form-only leaves with a substance tag (b)?
+- **Q-B10.** B10: may the animal group be the first axis (yes / no)? Q-B10a: "several animals" from two groups (recommended) or three?
+
+### Kind-level choices
+
+- **B1.** Sofa bed and futon sofa in Seating and daybed in Sleeping (yes / no). Mattress kinds = five construction types, with German sub-types as attributes (yes / no). Traditional names (Chesterfield, Windsor, highboy) as named forms (yes / no). Nightstand in storage furniture, tables or beds? Fitted cabinetry as kinds, with installation as an attribute (yes / no).
+- **B2.** Rug rule: construction = kind; city, village and tribal names = tags; travelling design names = named forms (yes / no). Blanket and throw as one kind (yes / no). Fitted carpet and rugs in one leaf (yes / no). Rug underlay: B2 or C8? Curtain poles, tracks and rings: B2 (S3) or C8? Store thread count, with the ply caveat (yes / no). Weighted blanket and orthopaedic pillow: B2 or H2?
+- **B3.** Head torches, dive lights in B3, and weapon lights in E4 under S3 (yes / no). Special-purpose bulbs follow their appliance under S3 (yes / no). Non-electric lamps as placement kinds with a fuel tag (yes / no). Stone toro and unlit decorative lanterns: B4 or F4? Lamp cord sets and holders: B3; ceiling roses: C8 (yes / no). One handheld-flashlight kind with an output class (yes / no).
+- **B4.** Decorative plate: (a) delete and file every plate in B5 under S5, or (b) keep a "wall plate" made only to hang in B4 (Q-B4c)? Cachepot and jardinière: C2 or B4? Shimenawa, kadomatsu, bon lanterns: B4 or F4? Fireworks and sparklers as kinds in festive and party (yes / no). Essential oils for diffusers B4, and therapy oils H2 (yes / no). Flagpole: part of the flag (S3) or C8? Regulatory and safety signs: B8 or C8? Edwards wheel as the scent vocabulary, shared with H1 (yes / no).
+- **B5.** Gyuto: named form of chef's knife (a) or kind (b)? Steak and butter knives: Tableware (a) or Kitchen knives (b)? Commercial-only forms (gastronorm pan, bain-marie) as kinds with a market tag (yes / no). Sport drink bottle: B5 or E2?
+- **B6.** Robot vacuum as one kind inside vacuums (yes / no). Stick and handheld as two kinds (yes / no). Washer-dryer as a kind of washing machine (yes / no). Parts (bags, filters, belts) as kinds with `fits` (a) or one parts leaf (b)? Shoe polish and waterproofing: B6 or A2? Hand-wash and antique tools as kinds now, or later?
+- **B7.** Reversible split: "file by the medium delivered", with "heat pump" as a synonym (yes / no). Homes for boilers, furnaces, stoves and underfloor kits (B7 Heating, yes / no); hot-water cylinders and solar thermal (B7 Water heating, yes / no). Portable generators stay C1 per the key (yes / no). Portable power station: B7, D2 or C1? Air-quality monitor: C6 (yes / no). Shower trays, enclosures and bath panels: C8 or B7? Pool heat pumps: C2 (yes / no). Store efficiency as scheme plus value, not normalised (yes / no). Humidifier mechanism as an attribute (a) or kinds (b)? Powered handheld fan: B7, with a step 17 note (yes / no). Generated views "Period and heritage" and "Off-grid and DIY" (yes / no).
+- **B8.** Personal attack alarm: B8 or E4? Fire blanket, water-leak and gas detectors: B8 (yes / no). NVR and DVR for security cameras: B8 under S3 or D1? Skin insect repellent: H1 or B8? Anti-burglar gravel, fence spikes, security film, bird spikes and netting: B8, C2 or C8? Letter plates in doors: C8, with freestanding letterboxes B8 (yes / no). Lock mechanisms as attributes (yes / no). Store only grade schemes that have a fetched source (yes / no).
+- **B9.** Cigar case and travel humidor: B9 when carried, B1 when standing (yes / no). Gas cylinders and flints: C8, with hookah charcoal B9 (yes / no). Every cannabinoid consumer product is B9, intimate oils are H3 (yes / no). Loose 18650 cells: C8, with device batteries B9 (yes / no). Cannabis cultivars as named forms (yes / no). Research betel, areca, khat, bidi, herbal blends and other psychoactive plants in a follow-up round (yes / no). Cannabis scales, trays and stash jars: B9, or by task (B5, C5, B1)? Disposable vape filed as hardware (yes / no).
+- **B10.** Saddle kinds by tradition, with discipline as a named form (yes / no). Poultry feed: starter, grower and layer as kinds (yes / no). Honey extraction and bottling gear: B10 or B5? Pet strollers and dog bike trailers: G1 (key order) or B10? GPS pet tracker and pet camera: D2, B8 or B10? Garden pond liners and pumps: C2 or B10? Bee suits and veils: A1 (step 13 note) or B10?
+
+### Boundary settlements to confirm in one answer (from C-7)
+
+Confirm all as proposed (yes / no):
+- gun cabinet B8;
+- light-only security floodlight B3;
+- shower curtain B2;
+- dish rack B5;
+- water filter jug B5;
+- cat litter B10;
+- wild-bird feeders and baths B10;
+- moisture absorber B7;
+- mothballs B8;
+- washbasin built into its cabinet B7;
+- heated towel rail B7, with heated airer B6;
+- candle holders B4, with carried lanterns B3;
+- task LED strips B3, with decorative string lights B4.
+
+## 5. Gaps the owner should know before approving
+
+- **Markets not reached.** No memo in this domain reached China or India retail trees beyond guides. B6 and B7 used Zhihu and Sohu guides; B8 used one Baidu page and one consumer-media article.
+- **Owner communities.** These are missing in B1, B4, B5 and B10; guides stand in for them.
+- **Unattested kinds the key names.** Sunrise lamp (B3); fireworks, sparklers and fairy lights (B4); betel, areca, khat and herbal smoking blends (B9); energy meter (B7). These must be attested before the data phase or carried as named gaps.
+- **Single-source tier and order claims.** Candle maker tiers (B4); knife steels, the espresso ladder and burr tiers (B5); bins (B6); tactical flashlight classes (B3); cigar ratings via a third-party explainer (B9); feed ratings (B10). These are adequate as modifiers with their source named. None should be presented as a consensus ladder yet.
+
+## 6. Report
+
+Ten B memos reviewed. All use four levels and keep tiers and makers off the tree. B10 is ready for owner review. B1 to B7 and B9 need minor fixes. B8 needs rework: its sub-family "Young-child hazards" is defined by the user, and its lock and safe kinds contradict its own choice-level table. The main issue across memos is technology and power source used as kinds in B3, B6, B7, B8 and B4 (rule T proposed). Regional words used as kinds or leaves come next (rule R), then mounting vs installation (rule M). The memos propose eight different maker-ledger schemas, so one schema, a typed tier object and a compatibility ledger are proposed. Thirteen boundaries between the B memos are settled or flagged, and five orphans are found: shiki-futon, moisture absorber, mothballs, humidor, ashtray. Owner questions are merged in section 4.
