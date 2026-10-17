@@ -1,0 +1,8 @@
+BATCH S2F_SWEEP. FRAMEWORK-CONFLICT SWEEP (offline: no web, no git). RESUME RULE: progress notes in verify/work/S2F_SWEEP/progress.txt (one line per file checked); skip files already listed. Helper files only in verify/work/S2F_SWEEP/.
+
+Goal: make /home/user/Possession-Taxonomy/framework/structure/_framework_conflicts.md complete. It lists top-level problems with the placement key (framework/CATEGORIES_v0_6.md): an object with no home (falls to X0), an object with two homes, a step note or branch wording that conflicts with another step or with S1–S5/Appendix A, or a proposed new precedence sentence for the key. Items that only change the inside of one category are NOT framework conflicts.
+
+1. Read _framework_conflicts.md in full.
+2. For each review framework/structure/_review_A.md … _review_J.md, read the cross-memo / boundary / gaps sections (and any section that names 'framework', 'key', 'step', 'X0' or 'orphan'). For each of the 53 memos framework/structure/<CODE>.md, grep section 9 and 10 for 'framework', 'step ', 'key', 'X0', 'conflict' and read those passages.
+3. Append, under a heading '## Added by the sweep (S2F_SWEEP)' and sub-headings per domain, every framework-level item not already in the file (match by object and step, not wording). One bullet each: bold short title, source (review id or memo code and section), the problem in one sentence, the proposed sentence if one is given. Do not edit or reorder existing entries; if an existing entry is contradicted by a later conformance decision, add a bullet saying so.
+4. Report how many items you added per domain and the file size.
