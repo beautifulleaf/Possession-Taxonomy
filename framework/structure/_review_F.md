@@ -357,3 +357,93 @@ The changes each memo needs to conform. "None" means the memo already conforms o
 - C11: Itoigawa jadeite and Herkimer diamond are handled correctly (tag and named form).
 - C12, C13: none.
 
+## 4. Cross-memo consistency
+
+### 4.1 Boundaries where the memos disagree or only one side speaks
+
+**X1 (high) Religious medals: F3 and F4 give opposite answers.**
+- *Evidence.* F3 section 9: "an object made for use in a rite, such as a blessed devotional medal, is F4 ... a historical or commemorative medal that merely has a religious subject is F3." F4 section 9, item 8: "a devotional medal on a chain is A3; a loose commemorative or religious medal is F3 ... a devotional medal is a kind only if worn as an ornament". A loose Miraculous Medal is F4 to F3's memo and F3 to F4's memo. "Blessed" is a motive and a ritual act, not a property of the object (S5).
+- *Proposed sentence (both memos):* *"A medal made for devotion (a saint's or scapular medal, a Miraculous Medal) is F4 under personal devotion aids when loose, and A3 when it is made with a chain or bail to be worn; a medal struck to commemorate or to reward, whatever its subject, is F3."* F4 adds the kind "devotional medal" to F4.2.
+
+**X2 (high) Cards, scrip and postal covers between F3 and F5 use motive tests and contradict each other.**
+- *Evidence.* F3: "a live payment, transit or gift card is F5, while an obsolete token or scrip collected for itself is F3"; "any envelope or card kept for its stamps and postal markings [is] F3"; the kind "Scrip or voucher (S1 'Trade vouchers')". F5: "a picture postcard is F5 used or not" (step 19); "telephone card" is an F5 kind with collector named forms; "a paper gift certificate redeemable only at its issuer is F5 while a money-substitute scrip used as currency is F3". The step 5 note already says "a card kept after it has expired or been used up is F5". "Collected for itself" and "kept for its stamps" test motive (S5).
+- *Proposed sentences (both memos):* *"Payment, gift, telephone, transit, membership and key cards are F5 whether live, used or expired. A token of metal, plastic or other material issued to stand for money or a service is F3. Paper issued to circulate as money (scrip, emergency money, Notgeld) is F3; a voucher or gift certificate redeemable only with its issuer is F5. Postal stationery with a printed stamp, and a cover issued by a postal administration or prepared as a first-day cover, are F3; any other used envelope, letter or picture postcard is F5, whatever stamps it carries."* The last clause sends postal-history covers to F5; the owner may prefer F3 for any cover that has passed through the post (owner question 3).
+
+**X3 (medium) Photographs: F2 and F5 use different axes and different tests.**
+- *Evidence.* F2 divides photographs by process (gelatin silver, albumen as GA lists, chromogenic) and proposes "whether the print is signed, numbered or catalogued as an edition" as the F2 test. F5 divides photographic prints by format (carte de visite, cabinet card, real photo postcard, snapshot) and asks (O3) whether strangers' vernacular photographs, which step 19 does not cover ("of the owner's own life"), go to F5. A 19th-century albumen cabinet card is thus a process kind in one memo and a format named form in the other.
+- *Proposed convention.* Every photographic print carries both `process` (F2's vocabulary, from GA) and `mount_format` (F5's named forms). Placement: *"A photographic print issued as an edition, or signed or stamped by its maker as a work, is F2; every other photographic print, slide or negative (snapshots, studio portraits, cartes de visite, cabinet cards, real photo postcards), whoever is shown, is F5."* This needs the framework to drop "of the owner's own life" from step 19 (framework conflict).
+
+**X4 (medium) Devotional images: F2 and F4 both test intent.**
+- *Evidence.* F2 boundary 4: "a picture or statue made for use in worship (icon, home-shrine image, devotional statue) is F4"; owner question 7 asks about thangka formats. F4 boundary 7: "the maker's purpose does" decide, with an owner question on old-master altarpieces. Neither gives an object test, and the antiques trade lists icons under painting (F4 S22).
+- *Proposed sentence.* *"The devotional forms are F4 by kind: icon (painted panel in the icon tradition), thangka and other devotional scroll paintings, altarpiece, devotional statue made for a shrine, crucifix. A painting or sculpture with a religious subject made in another form (an easel painting, a garden figure) is F2 or B4."* This files an old-master altarpiece in F4. The owner may instead keep "made before a cut-off date" out of it; age is a modifier, so the reviewer does not recommend that.
+
+**X5 (medium) Albums, binders and holders: three memos, three answers.**
+- *Evidence.* F3: single holders follow the coin or card (S3); albums, binders and trays are B1. F6: domes and stands for one specimen are F6.10; trays and cabinets are B1. F5: empty photo albums are F5 (P6). F1: says nothing about sleeves, bags and jewel cases.
+- *Proposed convention.* *"A holder, case, sleeve or stand made for one object follows it (S3) into that category's parts sub-family. An album, binder, stock book, box or tray made to hold several objects is B1 when empty, whatever it is made to hold. A filled photo album or scrapbook is F5 as a record; a blank scrapbook album is C4 (step 19 note)."* Changes: F5-1; F1-7; F3-5 (already B1 for albums).
+
+**X6 (medium) Parts sub-family.**
+- *Evidence.* Only F6 has one (F6.10). F3 has a parts leaf inside Medals and its holders in boundary text; F1 has none; F2, F4 and F5 have few S3 items.
+- *Proposed.* Apply C5(d) as extended by review C's K7 to every F category that receives S3 items: F1.5, F3.10 and F6.10 now; F2, F4 and F5 only when an item is attested (a plinth for one sculpture, a rosary pouch, a mezuzah case is already a kind in F4.3 and stays there because it is the visible object).
+
+**X7 (medium) Maker ledgers: six memos, five schemas.**
+- *Evidence.* F1 uses the pre-convention template fields. F2 adds `role` and an authority identifier. F3 adds `role` with seven values and mixes issuers with makers. F4 proposes "maker, known-for kinds, scene or tradition tags, tier, country and era" or a plain column on named forms. F5 proposes an `issuer` field and a card-systems ledger. F6 uses C1 with a new maker_class `certifier`.
+- *Proposed shared schema for domain F.* C1 core columns, with `maker_class` made multi-valued (a mint can also be a refiner; a publisher can issue cards and decks), and these F values added to C1's list: `publisher`, `imprint`, `record label`, `cartographic publisher`, `globe maker` (F1, F4 decks, F3 cards where the firm publishes); `artist`, `print studio or atelier`, `print publisher`, `foundry` (F2); `mint`, `refiner`, `banknote and security printer`, `medallist or engraver`, `card manufacturer`, `awards maker` (F3); `certifier or grader` (F3 graders PCGS, NGC, PMG, PSA, Beckett; F6 labs such as GIA; F1 comic graders if attested); `taxidermy studio` (F6). Extensions: `authority_id` (ULAN for artists; Numista, VIAF or ISNI where they exist), `certifications` (refiners' accreditation, already a C1 extension for A5). Issuing authorities (states, central banks, postal administrations, transit authorities) go in one **issuer table** shared by F3 and F5 (`issuer_id`, name, country, type, years, sources), linked to the region modifier; they are not makers.
+
+**X8 (medium) Lines and named forms.**
+- *Evidence.* F1 makes publisher lines named forms (Marvel Masterworks, DC Absolute, Replogle's National Geographic Collection), F3 makes card product lines named forms (Topps Flagship, BBM), F5 makes album lines named forms (Walther Fun, Goldbuch Florentine), F2 makes branded processes named forms (Polaroid, Ilfochrome). Some of these lines span several kinds.
+- *Proposed.* One test for all F memos (review C's K4): a maker's line that spans several kinds is a C1 line row; a line or design inside one kind is a maker-bound named form. Topps Flagship, Penguin Classics and Lladró series are lines; Polaroid integral print, Rider-Waite deck and a Replogle globe model are named forms.
+
+**X9 (medium) Condition and grading scales have no common place.**
+- *Evidence.* F3 has Sheldon 70, PMG 70, PSA 10, Beckett and IBNS scales and puts grade "in the user's holding record", which does not exist. F6 has GIA scales (attributes), a seller's aesthetic score and Conchology's star system (platform tags). F1 notes Goldmine and book-condition scales "not researched". F4 has the kosher scroll grade. F5 has "unused" as a condition tag.
+- *Proposed convention.* A **grading-scale registry**: `scale_id`, name, owner (standard body, grader or platform), `scale_type` (condition grade under Appendix A; measured spec under C4(b); platform label under C4(c)), `steps`, `kinds_served`, `sources`. Kinds link to the scales that apply; no grade value sits on a kind or named form; grade values belong to an owner's inventory, outside this taxonomy.
+
+**X10 (medium) Sets, rolls and lots.**
+- *Evidence.* F1 files box sets and combo packs by the primary carrier; F3 makes "coin roll or bag", "proof or mint set" and "complete set" kinds; F6 makes "study sets and lots" a sub-family; F4 makes "mass sets" and altar-fitting sets products only.
+- *Proposed.* Adopt review C's K6 across F: a set of like items is filed as the item (`unit` or `quantity` attribute: coin roll, stamp block, bulk shells); a kit of unlike items is filed by its item of greatest value; owner-approved exceptions are kinds: mint proof and mint sets (F3), rock and mineral teaching set (F6), and, if the owner wants them, factory card sets (F3). F1's primary-carrier rule is the same rule applied to media.
+
+**X11 (medium) Size against format.**
+- *Evidence.* F1 makes record diameter, paperback trim, magazine digest size and film gauge kinds; F4 makes urn capacity kinds; F3 (medal size) and F5 (card format) make size an attribute; F6 makes `size_class` an attribute. C6 says size is always an attribute, with luggage as the only proposed exception.
+- *Proposed addition to C6.* *"A size class names a kind only when it changes what the object can be used with, so that one size cannot be used in place of the other without different equipment (film gauge and projector; a 16-inch transcription disc; a 3-inch Mini-CD in a slot loader), and a fetched source sells the sizes apart."* By this rule film gauges stay kinds; 7, 10 and 12-inch records, paperback trims, digest magazines and urn capacities become attributes, unless the owner names them as exceptions beside luggage.
+
+**X12 (medium) Regional and traditional names.**
+- *Evidence.* C11 is applied correctly by F2 (ukiyo-e), F3 (New Year and zodiac issues) and F6 (Herkimer diamond, Itoigawa jadeite), partly by F1 (bunko named form, but tankōbon and bunkoban also kinds), and not by F4 (rosary, butsudan, koro, rin as kinds beside their generic kinds) or F6's pearls (Tahitian as a kind). F5 treats national ID designs as named forms although they are issuer differences, not regional forms.
+- *Proposed.* Apply C11 as in F1-2, F2-5, F4-1 and F6-2, and use F6's two-region variety test (F6-6) as the tie-break when a regional or variety name could be either a kind or a named form: it becomes a kind only when fetched sellers in two regions give it its own category and no generic kind covers its form.
+
+**X13 (low) Compatibility ledger.**
+- *Evidence.* F1 (proprietary carriers) and F5 (transit card systems) describe platforms without the C13 ledger; F4's mezuzah fit is a size match, not a platform.
+- *Proposed.* C13 rows for F1 carrier systems and F5 card systems; none elsewhere in F.
+
+**X14 (low) Evidence status is not recorded in the sources files.**
+- *Evidence.* All six TSVs have the columns url, source_type, region, what_it_shows; partial and failed fetches are noted in free text (F3 rows 6, 11, 13, 18; F4 rows 35 to 37), and excerpt-only facts are labelled only in the memos.
+- *Proposed.* Add a column `fetch_status` (full, partial, nav-only, failed) to every S2 sources TSV through a tool, and list excerpt-only facts in a separate `S2_<CODE>_excerpts.tsv` so that no structural claim rests on a row that was not fetched.
+
+### 4.2 Boundary agreement table (both sides)
+
+| Edge | Object | Side A says | Side B says | Status and proposed sentence |
+|---|---|---|---|---|
+| F1/F2 | poster | F1: poster is F2 | F2: poster is F2 (kind 31) | agree; F2 re-cuts the kind (F2-2) |
+| F1/F2 | pictorial or antique map sheet | F1: a map is F1 wherever it hangs | F2: silent | one-sided; F1-10(b) sentence in both |
+| F1/F2 | artist's book, portfolio | F1: book of art is F1 | F2: bound book F1, loose portfolio filed as the prints | agree |
+| F1/F4 | tarot deck; Torah scroll | F1: silent | F4: tarot F4; scroll used in a rite F4, printed text F1 | one-sided; F1 adds both sentences (F1-10(c)) |
+| F1/F5 | home movie reel; mixtape; programme | F1: home film F5, mixtape F1, programme F5 | F5: same | agree |
+| F2/F3 | artist trading card; art medal; figure trophy | F2: hand-made ATC F2, printed series card F3 | F3: ATC F2; art medal F3; figure trophy "sold as an award" F3 | agree on ATC and medals; replace "sold as an award" with "made with an award plate or inscription field" |
+| F2/F4 | icon, thangka, altarpiece | F2: made for worship F4 | F4: maker's purpose F4 | agree in effect; make it a kind list (X4) |
+| F2/F5 | photographs | F2: signed or editioned F2 | F5: own life F5; strangers' photos open | X3 |
+| F2/F6 | taxidermy as art; carved stone; replicas | F2: taxidermy listed as a sculpture material | F6: carved and replica F2; taxidermy F6 | F2-9(a) sentence in both |
+| F3/F4 | devotional medal | F3: blessed loose medal F4 | F4: loose religious medal F3 | conflict; X1 |
+| F3/F5 | phonecard, scrip and vouchers, covers, picture postcards, share certificates | F3: obsolete collected items F3; covers kept for stamps F3; share certificates F5 | F5: cards F5; gift certificate F5; picture postcard F5 used or not; share certificates F5 | conflict on cards, vouchers and covers; X2. Agree on share certificates and picture postcards |
+| F3/F6 | native gold, bullion bar, element cube | F3: bullion bars and rounds F3 | F6: specimen nugget F6, bar F3, element cube F6 | agree |
+| F4/F5 | baptism certificate, ketubah, prayer card | F4: certificates F5; ketubah document or art; prayer card F4 (owner) | F5: certificate F5 whatever it concerns; silent on prayer cards | agree on certificates; F5 should repeat the prayer-card rule once decided |
+| F4/F6 | relic, rudraksha, salagrama | F4: relics and rudraksha F4 | F6: same; salagrama owner question | agree; one shared owner question |
+| F3/E1 | trading-card-game card | F3: TCG cards E1 even graded | review E: TCG single card E1, non-game card F3 | agree |
+| F4/E1 | tarot for card play | F4: silent | review E: tarock E1 | F4-6 sentence |
+| F4/E3 | singing bowl | F4: owner question | review E: E3 unless made for a rite | align (F4-9) |
+| F4/A3 | prayer-bead necklace; ash jewellery | F4: worn ornament A3; ash jewellery owner question | review A: F4 if sold as prayer beads, A3 if a necklace | one question for the owner (section 5) |
+| F3/A3 | coin jewellery, worn medal | F3: a medal is F3 worn or not | review A: coin with a bail A3 | agree once A3-7 is answered by form |
+| F6/A3, F6/C4 | strung pearls, drilled beads | F6: strung A3, drilled C4, loose F6 | A3 and C4 memos: same, C4 asks the owner | agree |
+
+### 4.3 Duplicated and orphaned kinds
+
+- *Duplicated (one object, two kinds):* tankōbon and bunko (F1 books and comics, F1-2); offset lithograph and art poster (F2 kinds 27 and 31, F2-2); incense burner, censer and koro; altar bell, rin and singing bowl; thangka and kakejiku (F4-1); amethyst, garnet, tourmaline and corundum in F6.1 and F6.5 (F6-1); telephone card in F5 and in F3's exonumia list (S3); "scrip or voucher" in F3 and "gift certificate" in F5 (X2); award medal in F3 Medals and the trophy shops' medal line (settled by F3's own owner question 5).
+- *Orphaned (named by the key, a source or a memo, with no kind):* glass, crystal, resin and metal figurines (F2-1); animation cel and portrait miniature (F2); Franco-Belgian BD album, mook, cassette single, 8-track (F1); diya, seven-branch menorah, nativity set, Advent wreath, offering vessels, spirit board, runes (F4-3, F4-6); devotional medal (X1); Panini-type stickers (F3 or E1 or C5 "stickers"); elongated coins and wooden nickels (F3 section 4 only); chain of office and gavel (unattested); menus, invitations, trade cards, receipts, bookplates (F5-5); fluid-preserved specimens, eggs, antlers (F6-4); freshwater pearls (F6-2).
+
