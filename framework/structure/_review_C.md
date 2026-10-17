@@ -44,7 +44,7 @@ The retail evidence for hand/power as the first cut is strong [S1, S4, S13–S17
 - C1.10 Tool storage & carrying;
 - C1.11 Accessories & consumables (S3).
 
-Set the leaf to the tool family (saws, planes, sanders). Make each kind a generic type whose form differs, so that a panel saw, a circular saw and a cabinet table saw are three kinds in one leaf. Add two attributes, `drive` (manual | corded | cordless | pneumatic | hydraulic | engine) and `mount` (hand-held | bench | stationary). Generate the retail views "Hand tools", "Power tools" and "Workshop machinery" from them (convention K1). Tie-break for multi-action tools: file by the primary action the maker names. The oscillating multi-tool goes to Cutting, the rotary tool to Shaping and the heat gun to Joining & heat. If the owner prefers the retail cut, record it as an explicit, C1-only exception to Appendix A (owner question 1).
+Set the leaf to the tool family (saws, planes, sanders). Make each kind a generic type whose form differs, so that a panel saw, a circular saw and a cabinet table saw are three kinds in one leaf. Add two attributes, `drive` (manual | corded | cordless | pneumatic | hydraulic | engine) and `mount` (hand-held | bench | stationary). Generate the retail views "Hand tools", "Power tools" and "Workshop machinery" from them (convention K1). Tie-break for multi-action tools: file by the primary action the maker names. The oscillating multi-tool goes to Cutting, the rotary tool to Shaping and the heat gun to Joining & heat. If the owner prefers the retail cut, record it as an explicit, C1-only exception to Appendix A (section 5, Q1).
 
 **F2. (medium) The memo files Japanese tools at two different levels, and names kinds by region.** In C1 section 4b (item 1) the dozuki, ryoba and azebiki are "each ... a kind", and striking and paring chisels are kinds. The worked tree and section 7 make the same saws and chisels (oire-nomi, usu-nomi, tateguya) named forms under "pull saw (nokogiri)" and "nomi, Japanese chisel". Kanna, nomi and genno are kinds labelled "Japanese" beside a Western bench chisel and smoothing plane. Region is an Appendix A modifier unless the form differs. *Fix:* name kinds generically by form, keep native names as aliases and tag the region (convention K8):
 - saws: "double-edged pull saw" (alias ryoba), "backed pull saw" (alias dozuki), "flush-cut pull saw" (aliases azebiki, kugihiki);
@@ -52,7 +52,7 @@ Set the leaf to the tool family (saws, planes, sanders). Make each kind a generi
 - planes: "pull plane" (alias kanna) as a kind, because the pull stroke changes the construction, with awase-kanna as a named form;
 - hammers: "double-faced hammer" (alias genno), with ryōguchi, funate and kataguchi as named forms.
 
-Owner question 9 then becomes yes/no on this rule.
+C1 question 9 then becomes yes/no on this rule (section 5, Q16).
 
 **F3. (medium) Objects in the membership test, and common tools, have no leaf.**
 - Power nailers and staplers are a retail group at Screwfix and Bunnings [S1, S2], yet C1.2 has no fastening leaf.
@@ -71,7 +71,7 @@ Owner question 9 then becomes yes/no on this rule.
 - Home Depot was read only for batteries [S23], and Bunnings [S1] is a help-centre page.
 - The four-step grade vocabulary (DIY, Prosumer, Professional, Industrial) comes from two US review sites [S7, S8]. The three-step one comes from a single UK maker [S19].
 
-*Fix:* fetch a Bosch Professional measuring-tool family page (or drop Bosch from the claim), and mark ladder forms as single-source (Screwfix [S30]). In owner question 8, say which region each grade vocabulary comes from.
+*Fix:* fetch a Bosch Professional measuring-tool family page (or drop Bosch from the claim), and mark ladder forms as single-source (Screwfix [S30]). In C1 question 8 (section 5, Q13b), say which region each grade vocabulary comes from.
 
 **F6. (summary) Usability check, 20 objects.** The 20 objects: claw hammer, Stanley No. 4 plane, ryoba, dozuki, oire-nomi, cordless drill/driver, SDS rotary hammer, impact wrench, cordless nailer, sliding mitre saw, jobsite table saw, planer-thicknesser, multi-process welder, soldering iron, hot-glue gun, angle grinder, pocket multi-tool, trolley jack, mini excavator, and an 18 V platform battery pack.
 
@@ -80,7 +80,7 @@ As the memo stands, **13 of 20 would split** between builders:
 - between two homes: the mitre saw, soldering iron, glue gun and angle grinder;
 - with no leaf: the nailer, multi-tool and trolley jack;
 - across categories: the mini excavator (X2);
-- with no settled rule: the planer-thicknesser and multi-process welder (owner question 6).
+- with no settled rule: the planer-thicknesser and multi-process welder (C1 question 6; section 5, Q17).
 
 With F1 to F3 applied and the owner ruling on combination machines, every one of the 20 has a single home.
 
@@ -122,7 +122,7 @@ As the memo stands, **9 of 20 would split**:
 - the snow blower, spreader and sprayer (no leaf);
 - the water butt, pool heat pump and chlorine tablets (open boundaries with B7 and B6).
 
-With F7 and F8 applied and the owner rulings in section 5 (questions 25 and 26), all 20 have one home.
+With F7 and F8 applied and the owner rulings in section 5 (Q25 and Q26), all 20 have one home.
 
 ### C3 Plants & Living Cultures
 
@@ -161,7 +161,7 @@ The owner's question on edible leaves (C3 question 2) stays.
 - C3.2 holds "Cuttings & plugs", but section 3 (break 1) sets the rule "rooted in a medium and alive = growing plant". A plug plant is rooted in a cell of compost.
 - C3 P2 files a planted pot, kokedama or terrarium "as the plant when the plant is the item of greatest value". C2 section 9 files a plant "even when sold in a decorative pot or a planted basket" as C3 whatever the pot is worth. A cheap succulent in a costly glazed pot would get two answers.
 
-*Fix:* rename the C3.2 leaf "Unrooted cuttings & divisions" and file plug plants, liners and rooted tissue-culture plantlets in C3.1 under their group. Adopt C2's wording on both sides: *"A living plant sold in a container, basket, kokedama ball or terrarium is C3 whatever the container's value; the empty container is C2."* (Question 27 in section 5.)
+*Fix:* rename the C3.2 leaf "Unrooted cuttings & divisions" and file plug plants, liners and rooted tissue-culture plantlets in C3.1 under their group. Adopt C2's wording on both sides: *"A living plant sold in a container, basket, kokedama ball or terrarium is C3 whatever the container's value; the empty container is C2."* (Section 5, Q27.)
 
 **F15. (low) Two living plant products have no home.** Cultivated turf (sod) is sold by area to lay as a lawn (Bunnings Turf Grass & Lawn Care [C2 S2]; C2 has only artificial turf). Live moss is sold for terrariums, kokedama and moss gardens (Engei moss balls [S18]). *Fix:* add "turf (cultivated sod)" and "moss" as kinds under C3.1 leaf 11 (perennials, grasses and garden ferns), with lawn seed staying in C3.2.
 
@@ -203,7 +203,7 @@ Storage for craft supplies is B1 under S3's "never parts" sentence; say so in se
 - Jewellery soldering: C4 section 9 sends "a tool made for ... jewellery making ... [to] C4" but lists "soldering iron for jewellery" without a ruling, while C1 lists "welding and soldering equipment". By key order, step 28 (jewellery-making tools) is tried before step 32, so a torch or soldering kit made for jewellery is C4, and C1 should say so.
 - Quilting cotton: the kind "quilting cotton" is named by use and fibre.
 
-*Fix:* put grade on maker ranges only (named forms and line rows). Make the glass kiln's home depend on owner question 6 in section 5 (glass crafts in C4: yes, then C4; no, then C1). Add to both C1 and C4: *"Soldering, brazing and annealing torches and kits made for jewellery work are C4 (step 28 is tried before step 32); general soldering irons and stations are C1."* Rename the kind "plain-weave cotton (quilting cotton)", with the cloth name as the kind and "quilting" as an alias (convention K9).
+*Fix:* put grade on maker ranges only (named forms and line rows). Make the glass kiln's home depend on section 5, Q6 (glass crafts in C4: yes, then C4; no, then C1). Add to both C1 and C4: *"Soldering, brazing and annealing torches and kits made for jewellery work are C4 (step 28 is tried before step 32); general soldering irons and stations are C1."* Rename the kind "plain-weave cotton (quilting cotton)", with the cloth name as the kind and "quilting" as an alias (convention K9).
 
 **F20. (medium) Several kinds and two choice levels rest on key text or one thin page.**
 - Oil paint, easel, leather punch and model cement are marked "(key text)".
@@ -272,13 +272,13 @@ With F23 and F25 applied and the shared boundary rulings in section 3, only the 
 
 **F29. (medium) Science-education kits are divided by subject, and the kit boundary is open.** Leaf C6.4.1 "Kits by discipline" makes chemistry, physics and electricity, biology, and earth and space science kits into kinds, following Thames & Kosmos and Kosmos subject facets [S21, S22]. The BRIEF bars genre only for media, games and subscriptions, but the subject a kit teaches is the nearest analogue, and the memo itself calls discipline "close to genre of use" (C6 question 4). The boundary against D1 (loose electronic components and maker boards) and E1 (toys, construction toys) is not stated. The tree's "physics and electricity kit" (Kosmos Easy Elektro) and the robotics line in T&K's facets [S21] could be read as either.
 
-*Fix:* make one kind, "science experiment kit", with `discipline` as an attribute and a generated discipline view. Keep "crystal-growing kit" only if a second source shows it bought as a type. Add the precedence: *"A kit made to teach science through experiments is C6 whatever its parts (step 23 is tried before steps 24 and 25); a programmable robot or coding toy made for play is E1; a board or component kit sold without an experiment programme is D1."* (Question 39 in section 5.)
+*Fix:* make one kind, "science experiment kit", with `discipline` as an attribute and a generated discipline view. Keep "crystal-growing kit" only if a second source shows it bought as a type. Add the precedence: *"A kit made to teach science through experiments is C6 whatever its parts (step 23 is tried before steps 24 and 25); a programmable robot or coding toy made for play is E1; a board or component kit sold without an experiment programme is D1."* (Section 5, Q39.)
 
 **F30. (medium) Low-vision magnifiers and decorative working instruments have no precedence.**
 - *Low-vision magnifiers.* C6 section 9, sentence 5, covers worn eyewear but not magnifiers made as low-vision aids (electronic video magnifiers, high-power illuminated stand magnifiers). Step 2 (H2), "compensate for ... a disability", is tried before step 23, so these may be H2, while the step 2 note keeps "an ordinary object made in an adapted form" with its object.
 - *Decorative instruments.* Sentence 10 covers only the wind vane and windsock. A Galileo thermometer, a weather house or an ornamental barometer sits between C6 and B4.
 
-*Fix:* add *"A magnifier made and sold as a low-vision aid (video magnifier, prescribed stand magnifier) is H2; any other magnifier or loupe is C6 whoever uses it"* (question 38 in section 5). Extend sentence 10: *"A thermometer, barometer, hygrometer, wind vane or windsock that works is C6 however ornamental; a replica that cannot measure is B4."*
+*Fix:* add *"A magnifier made and sold as a low-vision aid (video magnifier, prescribed stand magnifier) is H2; any other magnifier or loupe is C6 whoever uses it"* (section 5, Q38). Extend sentence 10: *"A thermometer, barometer, hygrometer, wind vane or windsock that works is C6 however ornamental; a replica that cannot measure is B4."*
 
 **F31. (low) Tier is placed on kinds, and the platform claim is unproven.** Section 5: "A tier is a modifier on the kind or named form". Section 6 calls telescope mounts a platform case but admits that "the fetched pages do not state the connector standards". *Fix:* tier on named forms only (convention K5). Leave the platform out of the maker ledger until a page attests dovetail and eyepiece-barrel standards; record it then in the system ledger (convention K3).
 
@@ -299,7 +299,7 @@ The jeweller's loupe is C6 by key order (step 23 before step 28), and the eclips
 
 **F34. (high) Wheeled-tractor kinds mix two axes, and the maker decides the kind.** In the C7 worked tree, leaf "Wheeled tractors" holds sub-compact, compact utility, utility and row-crop (horsepower classes) beside orchard and vineyard narrow, high-clearance, slope and forestry (designs). The memo shows that the class boundaries overlap: Deere's compact runs to 65.9 HP and its utility from 50 [S12], Tractor Iron's compact is 25–50 [S13] and Wikipedia's is 20–50 [S21]. Section 5 then says "a model gets its maker's label ... never a forced slot". A 55 hp tractor is therefore "compact utility" if Deere made it and "utility" under Tractor Iron's bands, and the kind follows the brand, against S4 and Appendix A (brand). The horsepower class is also a spec band, which section 5 itself treats as an attribute.
 
-*Fix (recommended):* kinds by design only: standard four-wheel tractor, row-crop tractor (adjustable track and clearance for rows), narrow orchard and vineyard tractor, high-clearance tractor, slope tractor, forestry tractor, articulated 4WD tractor, crawler tractor, two-wheel tractor, implement carrier. Record the size as attributes: `hitch_category` (AD730 Cat 0, Limited 1, 1, 2, 3, 4 [S14, S15], a printed spec on every tractor), `engine_hp` and `pto_hp`. Generate a "size class" view that shows the maker's own label. *Alternative, if the owner wants size kinds:* define them by hitch category, not by horsepower or label (compact = Cat 0 to Cat 1; utility = Cat 2; large = Cat 3 and 4). This is C7 question 2, recast as a choice in section 5 (question 7).
+*Fix (recommended):* kinds by design only: standard four-wheel tractor, row-crop tractor (adjustable track and clearance for rows), narrow orchard and vineyard tractor, high-clearance tractor, slope tractor, forestry tractor, articulated 4WD tractor, crawler tractor, two-wheel tractor, implement carrier. Record the size as attributes: `hitch_category` (AD730 Cat 0, Limited 1, 1, 2, 3, 4 [S14, S15], a printed spec on every tractor), `engine_hp` and `pto_hp`. Generate a "size class" view that shows the maker's own label. *Alternative, if the owner wants size kinds:* define them by hitch category, not by horsepower or label (compact = Cat 0 to Cat 1; utility = Cat 2; large = Cat 3 and 4). This is C7 question 2, recast as a choice in section 5 (Q7).
 
 **F35. (medium) Carrier is an attribute in one place and a kind in another, and two sub-families are not jobs.**
 - *Carrier.* Section 4b says "mounted versus trailed ... stay as attributes of a kind", and Candidate B (break 1) says sprayers, mowers and balers "exist mounted, trailed and self-propelled; buyers compare them as one job". The tree nevertheless splits "Crop sprayer, mounted or trailed" from "Self-propelled sprayer", and lists the forage harvester only as "self-propelled".
@@ -358,7 +358,7 @@ With F34 to F37 applied and rulings X1, X2 and X5, all 20 have one home.
 1. State the battery rule, either "each standard size that buyers ask for by name is a kind (AA, AAA, C, D, 9 V, CR123A, 18650, 21700); coin and button cells are one kind whose designations are named forms, because they are dozens of sizes bought by code", or make every coin size a kind. This is C8 question 4, extended to this point.
 2. Make one kind "LPG cylinder", with `gas` (propane, butane) and `valve` (screw-on, clip-on) as attributes and the Calor bottles as named forms.
 3. Make paint kinds by surface and use only (wall and ceiling paint, masonry paint, wood and metal paint, floor paint, radiator paint, tile paint, fence and shed paint, primer and undercoat, spray paint as a form), with `binder` (water-based emulsion, solvent, alkyd) and the EN 13300 classes as attributes [S31].
-4. Make "wood finish" four kinds (stain, varnish, oil, wax), as Bunnings' Woodcare shelf divides [S4].
+4. Make "wood finish" four kinds (stain, varnish, oil, wax). Bunnings has a Woodcare shelf [S4], but the memo does not report how it is divided, so the split needs a source.
 
 **F42. (medium) The boundaries that neighbours raise are not answered on the C8 side.**
 - *Gravel and aggregate.* C2 sends garden stone to C2, while Komeri sells cement, sand and gravel as building materials [S26].
@@ -520,3 +520,71 @@ Section 5, Q15.
 
 Section 5, Q14.
 
+
+## 5. Owner decisions raised by the memos (merged and de-duplicated)
+
+Each question is phrased as yes/no or as a choice, with this review's recommendation first where it has one. The tag in brackets lists the memo questions it merges (C1-3 = C1 memo, question 3; P = a precedence sentence in the memo; F or X = the finding in this review that raises it).
+
+**Structure of each category**
+1. **C1 first level.** Sub-families by the work done, the verbs of the C1 test (F1; recommended), or keep hand / hand-held power / workshop machines as an approved C1-only exception to Appendix A? Choice. [C1-1, C1-2, C1-4, C1-7]
+2. **C2.** Approve the job-first tree, with the cutting leaves divided by the thing cut rather than by power (F7, F8)? Yes/no. [C2-1]
+3. **C3.** (a) Approve the first split by what is sold (rooted plant, propagule, cut, culture)? (b) Keep fruit, vegetable and herb plants as leaves (a use axis), with a written test for each leaf (F12)? (c) Give bonsai its own leaf? Yes/no each. [C3-1, C3-2, C3-4]
+4. **C3 kind rank.** Genus is the default kind, and species-level kinds are allowed only in an owner-approved, attested list of genera (F13)? Yes/no. [C3-3]
+5. **C4.** Approve the craft-first tree with an added sub-family "General craft tools & adhesives" and new leaves for spinning and weaving, and for printmaking (F18)? Yes/no. [C4-1 in part]
+6. **C4 scope.** Add candle and soap making, resin and casting, glass, mosaic, basketry, wood crafts and floristry to the step 28 test (already in `_framework_conflicts.md`)? Yes/no. If no, glass-fusing kilns are C1. [C4-1, F19]
+7. **C7 tractor kinds.** (a) Kinds by design, with hitch category and horsepower as attributes and the maker's class label in a view (recommended), or (b) size kinds defined by hitch category, or (c) the consensus horsepower classes as the memo has them? Choice. [C7-2, F34]
+8. **C8.** (a) Restate the sub-family axis as supply family? (b) Merge lighters and matches into Fuels? (c) Keep Packing as a sub-family pending a source? Yes/no each. [C8-3, F40]
+9. **C5 and C6.** Approve the recommended structures once findings F23 to F33 are applied? Yes/no. [C5, C6]
+
+**Shared conventions (section 4)**
+
+10. Power source and mounting as attributes (`drive`, `mount`) with generated Hand tools, Power tools and Machinery views, never as levels (K1)? Yes/no. [C1-2, C2-1, F7, F35]
+11. One maker ledger for domains A and C (review A's core schema plus the K2 additions)? Yes/no. [C1-11, C2-9, C3 section 6, C4 section 6, C5 section 6, C6 section 6, C7-8, C8 section 6]
+12. One system (compatibility) ledger for platforms, storage systems, head-and-handle systems, cartridge and refill standards, accessory fit codes, hitch categories and joint systems (K3)? Yes/no. [C1 section 6, C2-9, C5 section 6]
+13. (a) Tier entries only on makers, lines and named forms, with measured ladders kept as attributes and price band never used as a tier (K5)? Yes/no. (b) The C1 grade scheme: three values (Occasional, Regular, Frequent use; one UK maker [S19]) or four (DIY, Prosumer, Professional, Industrial; two US review sites [S7, S8])? Choice. (c) C5: a pen tier only where a non-price source exists? Yes/no. [C1-8, C2-10, C5-12, C6 section 5]
+14. Named forms (K10): models, patterns, cultivars and form-defining designations, loaded on demand with one attested row each, and no SKU, colour or size rows? Yes/no. [C2-2, C3-6, C5-13]
+15. Kits (K6): a set of like items is filed as the item, and a kit of unlike items by its item of greatest value, with tool kit (C1) and science experiment kit (C6) as the only kit kinds? Paper sewing patterns go to F1 and PDF patterns to I2? Yes/no. [C1-5, C2-8, C3-5 (P2), C4-2, C6-4]
+16. Regional types (K8): kinds when sold as their own category, named generically by form, with native names as aliases and region as a tag? Yes/no. [C1-9]
+17. Combination machines (planer-thicknesser, combination lathe-mill, multi-process welder, combination ladder): (a) their own kind where retailers list them as a class, or (b) filed by their primary action? Choice. [C1-6]
+18. Technology variants (X14): a kind of its own when the technology changes the form or operation (robotic mower, smart telescope, digital microscope), and otherwise an attribute? Yes/no. [C6-1, C2 tree]
+
+**Boundary rulings**
+
+19. **Chainsaws (X1).** (a) Hand-held chainsaws and pole saws are C2, and axes and mauls, wedges and log splitters for felled wood are C1 (recommended), or (b) all chainsaws are C1? In both cases tractor-driven and forest machines are C7. Choice. [C1-10, C2-3, C7 P4]
+20. **Earth-moving and handling machines (X2).** Excavators, skid steers, telehandlers, forklifts and dumpers go to C1 (a new part of C1.8)? Yes/no. Unimog-type trucks, ATVs and UTVs go to G1, and tool-carrier tractors to C7 (F37)? Yes/no. [C7-4]
+21. **The household line for tractors (X9).** (a) A design test (rear PTO plus a Category 1 or larger hitch makes it C7), applied also to two-wheel tractors and their implements, or (b) the user test of step 12's note as written? Choice. [C7-1, C7-3, C2 tree]
+22. **Field irrigation (X5).** Irrigation for field crops is C7, and garden and grounds irrigation C2? Yes/no. [C7-6]
+23. **Platform batteries (X3).** A battery pack or charger made for a cordless platform is C1, even when the platform runs garden machines? Yes/no. [C1 section 9, C8 boundary 1]
+24. **Vehicle and bicycle tools (F3).** Tools made to service a vehicle, bicycle or machine are C1, because S3 moves only parts, attachments and consumables? Yes/no.
+25. **Pools.** Pumps, filters, heaters, heat pumps, cleaners, covers and water-treatment chemicals made for a swimming pool are C2, even for an in-ground pool, and hot-tub equipment follows the hot tub to B7? Yes/no. [C2-4, C2-10]
+26. **Water butts and pumps (X13).** (a) Water butts and rain tanks: C2 (Hornbach and Bunnings put them with watering) or B7 (domestic water)? Choice. (b) Pond and water-feature pumps are C2, and drainage and general pumps C1? Yes/no. [C2-6, C2 section 9]
+27. **Planted containers (F14).** A living plant in any container, basket, kokedama or terrarium is C3 whatever the container's value, replacing C3 P2's greatest-value test? Yes/no. [C3-5]
+28. **Garden and building materials (X4).** Growing media, mulch and decorative stone and gravel are C2; aggregate, sand, paving, edging, weed membrane, fencing and gates are C8? Yes/no. [C2-5]
+29. **Writing against drawing (X7, F25).** File by the maker's first-named use: handwriting, lettering, calligraphy and shodo in C5; drawing, comics and painting in C4; both named, C5? Yes/no. [C4-4, C5-1, C5-9]
+30. **Hand tools by material worked (X8).** Adopt the matrix? And are general-purpose household scissors (a) C5 or (b) C1? Yes/no; choice. [C5-4]
+31. **Adhesives (X8).** Glue sticks and desk tape are C5, craft and model glues C4, building, repair and general-purpose adhesives C8? Yes/no. [C4-7, C5-5]
+32. **Stationery edge items.** (a) Office stamps C5 and decorative stamps with their ink pads C4? (b) Washi tape and origami paper C4? (c) Pencil cases C5 (by adding a note to step 17) or A4 (bags, as the key now reads)? Yes/no, yes/no, choice. [C5-2, C5-6]
+33. **Consumables (X6).** Welding wire and rods, solder, and discs or sheets cut for one tool are C1; sandpaper and abrasive sheets and rolls are C8? Yes/no. [C1-10]
+34. **Packing (X10).** Envelopes and mailing tubes C5; parcel tape, bubble wrap, film, void fill and flat-packed boxes C8; storage boxes B1? Yes/no. [C8-3]
+35. **Jewellery soldering (F19).** Torches and soldering kits made for jewellery work are C4, and general soldering equipment C1? Yes/no. [C4 section 9]
+36. **Measuring and testing (X11).** Multimeters, oscilloscopes, hardness testers, vision systems and coordinate measuring machines are C1, and instruments measuring a sample for science C6? Yes/no. [C1-4, C6-8]
+37. **Rangefinders and worn optics.** (a) Golf and hunting laser rangefinders are E2, building laser measurers C1, and rangefinding binoculars C6? (b) Eclipse glasses and head-worn loupes stay where the key now sends them (A4), or move to C6 (as in the framework log)? Yes/no; choice. [C6-6]
+38. **Low-vision magnifiers (F30).** Magnifiers made and sold as low-vision aids are H2, and all other magnifiers C6? Yes/no.
+39. **Science kits (F29).** One kind, "science experiment kit", with discipline as an attribute? And kits made to teach by experiment are C6 whatever their parts, coding toys E1, and component kits without an experiment programme D1? Yes/no. [C6-4]
+40. **Fencing and livestock devices (X12).** (a) Fence wire, posts, netting and electric-fence energisers are C8? (b) Should EID tag readers be C7 (herd handling) or B10 (identification)? (c) Confirm the herd-scale test for handling and milking equipment (C7 P9 and P10)? Yes/no; choice; yes/no. [C7-5]
+41. **C1 boundary items.** (a) Workbenches and sawhorses B1? (b) Dust extractors made for machines C1, and wet-dry vacuums B6? (c) Portable power stations: D2 (as a large power bank), B7 (home energy) or C1 (site power)? Yes/no; yes/no; choice. [C1-10]
+42. **C8 boundary items.** (a) Taps and valves C8, and basins and baths B7? (b) Cabinet knobs and pulls C8? (c) Any lockset that includes a lock is B8? (d) Is a leased gas cylinder a possession, or is only the gas bought? (e) Pump and delivered fuel out of scope? (f) Grout and tile adhesive with adhesives, and tiling as a view? Yes/no except (d), which is a choice. [C8-1, C8-2, C8-6, C8-7, C8-8]
+
+**Category-specific choices**
+
+43. **C1.** (a) Kit and bare unit as attributes of a model? (b) One maker row per regional entity, linked to its parent only by an attested page? Yes/no each. [C1-5, C1-11]
+44. **C2.** (a) Grow lights as one kind with lamp technology as an attribute? (b) Children's garden tool sets: E1 or C2? (c) Cachepots: C2 or B4? Yes/no; choice; choice. [C2-7, C2-8]
+45. **C3.** (a) Wine, beer and other brewing yeast cultures and algae cultures in C3, pending research? (b) Christmas trees, preserved plants, sprouting seed and live tobacco and cannabis plants as already logged in `_framework_conflicts.md`? Yes/no each. [C3-5, C3-7]
+46. **C4.** (a) Cutting plotters and heat presses: C4 or D1? (b) Art-studio furniture B1, with only easels in C4? (c) Drilled gemstone and pearl beads for stringing: C4? (d) Craft and furniture paints (chalk paint, furniture wax): C4 or C8? (e) Fix the brush choice level only after a brush-specific source is fetched? Choice; yes/no; yes/no; choice; yes/no. [C4-3, C4-5, C4-6, C4-7, C4-9]
+47. **C5.** (a) Hobonichi Techo and TRAVELER'S notebook as named forms, not kinds? (b) Copy and printer paper: C5 or D1? (c) Phone-driven label printers and smart reusable notebooks: C5 or D1/D2? (d) Abacus and slide rule: C5? Yes/no; choice; choice; yes/no. [C5-7, C5-8, C5-9, C5-11]
+48. **C6.** (a) Dobsonian: a kind, or a named form under Newtonian? (b) Binocular size class as an attribute? (c) Astronomy and microscope cameras: C6 parts or D4? (d) Planetarium projectors, orreries and astrolabes: C6, E1 or B4? (e) Laboratory freezers, fume hoods and lab furniture: C6, B5 or B1? (f) Universal tripods: D4? (g) Farm weather stations: C6 (C6 sentence 8, to be repeated in C7)? Choice; yes/no; choice; choice; choice; yes/no; yes/no. [C6-2, C6-3, C6-5, C6-7, C6-9, C6-10]
+49. **C7 and C8 housekeeping.** (a) Build the C7 maker ledger from TractorData and the marketplace maker filters? (b) Store UNSPSC and Uniclass codes on C8 kinds? (c) Plumbing fittings: kind = joint system with shape as an attribute? (d) Battery kinds by named standard size, with coin and button designations as named forms (F41)? Yes/no each. [C7-8, C8-4, C8-5, C8-9]
+
+## 6. Report
+
+Eight memos reviewed against the brief, the v0.6 framework and the template. One verdict is needs rework: C1, whose first level cuts by power source and mounting (Appendix A modifiers), with the levels below it standing. The other seven need minor fixes: C2 (power-split cutting leaves, missing snow, spreading and support kinds), C3 (a multi-axis leaf key and an unrepeatable kind-rank rule), C4 (no home for cross-craft tools), C5 (misfiled and occasion-named leaves, price used as tier), C6 (closest to ready), C7 (tractor kinds set by maker labels) and C8 (thin finishes and hardware, uneven kind rank). The largest cross-memo problems are contradictory chainsaw rules (C1/C2/C7), orphaned earth-moving machines (C1/C7), platform batteries (C1/C2/C8) and four memos claiming scissors, glue and stamps. Ten shared conventions (K1–K10), aligned with review A, and 49 merged owner questions follow.

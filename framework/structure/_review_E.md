@@ -247,3 +247,138 @@ Each finding gives severity, memo, evidence and an exact proposed fix. "Conforms
 
 **E4-11 (low) Order.** Section 8 orders named forms "by introduction date or typology number". *Fix.* Follow C7 for maker-bound forms (maker, then year). For non-maker-bound forms with a published typology (Oakeshott), use typology order. Propose that as a C7 addition (section 3).
 
+### Usability test: 20 objects per memo, filed by two builders from the memo as written
+
+"Same" means both builders would reach the same kind. "Split" names the two homes a builder could choose. The finding that fixes each split is given in brackets.
+
+- **E1.**
+  - *Same (7):* Barbie Fashionistas doll; LEGO Technic set; Squishmallow; Nerf blaster; Ticket to Ride; Ravensburger 1000-piece jigsaw; Little Tikes Cozy Coupe.
+  - *Split (13):* Hot Wheels Premium 1:64 (E1.2 collector or E1.3 toy) [E1-1]; Bburago 1:18 die-cast (same) [E1-1]; Hornby OO train set (model locomotive or toy train set) [E1-1]; Bandai HG Gunpla (scale kit or character kit) [E1-1]; S.H.Figuarts (1:12 action figure or figma-type) [E1-2]; Pop Up Parade (PVC scale or prize figure) [E1-2]; Labubu plush pendant (plush or designer vinyl) [E1-2]; Pokémon Elite Trainer Box (no kind) [E1-3]; Magic Commander deck (starter deck or booster product) [E1-3]; mahjong set (tile set or classic set) [E1-4]; Rubik's Cube (3D puzzle or mechanical puzzle; Ravensburger's "3D puzzle" is a 3D jigsaw) [state: twisty puzzles are mechanical puzzles]; garden trampoline (E1 or E2) [E1-10]; Sylvanian Families set (dolls, figures or figure-and-scene system) [state: small-figure playsets are "figure-and-scene playset", one kind].
+- **E2.**
+  - *Same (12):* tennis racket; shuttlecock; golf driver; iron set; football boot; cricket bat; treadmill; kettlebell; alpine ski; snowboard; climbing rope; fishing rod.
+  - *Split (8):* ski helmet (alpine, snowboarding or a general leaf; and E2 or A1) [E2-1, P2]; mouthguard (boxing, rugby or hockey) [E2-1]; wetsuit worn for triathlon (water general or multisport) [E2-1]; skipping rope (boxing or cardio) [E2-1]; crampons (climbing or trekking) [E2-1, E2-6]; tennis court shoe (E2 or A2) [P4]; metal detector (no sub-family) [E2-3]; paintball marker (no sub-family) [E2-3].
+- **E3.**
+  - *Same (11):* Fender Player Stratocaster (solid-body); Gibson ES-335; Martin D-28; Yamaha P-125 digital piano; violin; trumpet; Boss DS-1; Yamaha HS8 studio monitor; QSC K12 PA speaker; Focusrite Scarlett interface; acoustic drum kit.
+  - *Split (9):* Shure SM58 (Recording or Live) [E3-1]; Behringer X32 mixer (same) [E3-1]; Novation Launchpad (DJ or recording controller) [E3-1]; Line 6 Helix (multi-effects or amp modeller) [state: a floor modeller with amp models is "amp modeller", an Amplification kind]; Ibanez AZ (Stratocaster or ST-type named form) [E3-5]; melodica (keyboards or other winds) [E3-2]; harmonium (same) [E3-2]; Zildjian K hi-hats (kind or named form) [E3-3]; guzheng (named form of koto or own kind) [E3-9].
+- **E4.**
+  - *Same (11):* Glock 17; Remington 700; Beretta 686; Henry lever-action; PCP air rifle; compound bow; katana; Bowie knife; pepper spray; NIJ level IIIA soft vest; rifle scope.
+  - *Split (9):* Zweihänder (two-handed or straight double-edged) [E4-1]; rapier (thrusting or double-edged) [E4-1]; dao (dao kind or sabre kind) [E4-2]; fixed karambit (folding-knife leaf or fixed) [E4-4]; tomahawk (no kind; E4 or C1) [E4-4]; bō staff (polearm or impact) [E4-4]; Colt Walker percussion revolver (single-action or muzzle-loading) [E4-7]; gas-piston break-barrel (spring kind or new kind) [E4-7]; holster (E4 part or A4) [E4-10].
+
+## 3. Conformance to conventions C1 to C13
+
+The conventions were drafted after these memos. The table lists, for each convention, what each memo must change to conform. "OK" means no change is needed. Cells refer to the findings above.
+
+| Convention | E1 | E2 | E3 | E4 |
+|---|---|---|---|---|
+| C1 maker ledger core + lines table | Rename the columns to the C1 core. "Platform key" leaves the ledger for C13. Lines (Nendoroid, figma, Hot Wheels, Technic, Marvel Legends) go to the lines table. Banpresto gets `parent_id` = Bandai Namco [E1-2]. | The own-brand flag becomes `maker_class` = retail own-label. Series go to the lines table. Sport leaves are derived [E2-5]. | `maker_line` becomes the lines table. Maker types map to `maker_class`. Add `built_by_maker_id` [E3-6]. | Smiths are `maker_class` artisan. Schools become tags or a school table. "Platform or chambering" goes to C13 [E4-9]. |
+| C2 kind vs named form, `maker_bound` | Nendoroid and figma become maker-bound named forms. Chess, go and shogi are kinds under C2(c) [E1-2, E1-4]. | "Long-nose wood" and "blacksmith iron" are non-maker-bound forms (if kept). Series are maker-bound. Add the flag. | Add the flag. Separate design families (S-type, dreadnought) from maker models [E3-5]. | AR-15 pattern and Oakeshott types are non-maker-bound. Maker models are maker-bound. Add the flag. |
+| C3 variant ledger | LEGO set numbers, figure releases, card sets and prints become variants [E1-3]. | Model years and colourways become variants [E2-5]. | Reissues and model years (Vintage Guitar's "years of availability") become variants. | Ammunition loads (bullet type and weight) become variants [E4-6]. |
+| C4 tier entries, spec ladders, platform tags, price band | Remove the tier tag from the kind. Tier entries go on lines. Get a second-region source (C4e) [E1-2]. | Remove tier from kinds. Flex, grade and spec bands become attributes. Maker ladders become tier entries [E2-2]. | One `tier_band` field becomes tier entries with sources. Get a second-region source [E3-6]. | `protection_level` becomes a C4(b) attribute. Drop the certificate grade [E4-3, E4-9]. |
+| C4(d) USD price bands | The USD and yen figure bands map to C4(d). | BHQ price guide maps to C4(d). | Brassandwinds' USD bands map to C4(d). | Price band is a preference modifier. Map to C4(d). |
+| C5 levels and axes | State the leaf axis per sub-family. Leafless sub-families store `leaf = null`. Add the parts sub-family [E1-6, E1-7]. | State the leaf axis per family. Small families skip the leaf [E2-6]. | OK on the parts sub-family (E3.5). State the leaf axis of the gear sub-families [E3-1]. | E4.5 and E4.7 skip the leaf (C5b). The sword leaf gets one axis [E4-1, E4-4, E4-5]. E4.10 is the C5(d) parts sub-family. |
+| C6 size and user | Scale is an attribute (C6). Age and kidult are tags. OK otherwise. | Junior sizes and ball sizes are attributes. OK. | Fractional sizes are attributes. Voice members are kinds [E3-8]. | Calibre is an attribute on the weapon and a named form for ammunition [E4-6]. The length class needs a stated exception [E4-3]. |
+| C7 order | One scale direction. Named forms by maker, then year [E1-11]. | Drop spec as a named-form sort key [E2-7]. | Maker, then year, not pure chronology [E3-7]. | Typology order for non-maker forms (C7 addition) [E4-11]. |
+| C8 scene vocabulary | Scenes (anime figure collecting, designer toys, kidult, hobby board gaming, competitive TCG, scale modelling) need a definition source each. | Board culture, hickory golf, bushcraft: give each a source or hold it back. | Bluegrass, DJ, Eurorack: give each a source. | Hunting, target, HEMA, cowboy action, nihonto, wushu: give each a source. "Use" tags go to one shared list (X8). |
+| C9 alias and homonym table | Klemmbausteine, Sammelfigur, プライズ, ガンプラ; foosball, kicker and baby-foot = table football. | Soccer and football; table-tennis bat and paddle; judogi. | ST and スト type; エレアコ; Konzertgitarre; upright bass, double bass and contrabass; French horn and horn. | Nihontō terms; 软兵器; Schreckschusswaffe. Homonyms across memos: X7. |
+| C10 rule T | RC and slot cars pass (track and transmitter) and should say so. "Electronic toy" stays an attribute. | Motorised and manual treadmills: attribute. OK. | Digital and acoustic piano, electric and acoustic guitar, electronic and acoustic drum kit pass (form differs). USB fails [E3-4]. | Air-gun powerplants are partly kinds [E4-7]. Electric and chemical are not leaves [E4-5]. |
+| C11 rule R | Regional decks become named forms. Hanafuda and mahjong stay kinds [E1-4]. | Hurley, sliotar and kendo bogu stay kinds under their sport (no generic covers them). OK. | Apply the label rule. Bayan and garmon become named forms [E3-9]. | Jian and dao become named forms. Japanese types are kinds with a stated reason [E4-2]. |
+| C12 rule M | The swing seat and the swing set differ by body (a frame), so they stay kinds. OK. | Hoops, pull-up bars and tables: attribute [E2-9]. | Studio monitor against PA: body differs, so they stay kinds [E3-1]. | None. |
+| C13 compatibility ledger | LEGO, Duplo, Brio, TCG systems, railway gauges (NEM, NMRA) and Toniebox [E1-8]. | Ski soles and bindings, cleats and pedals, golf adapters [E2-4]. | Eurorack, MIDI, 500-series [E3-4]. | Cartridges (CIP, SAAMI), rails, AR-15 pattern, magazine patterns [E4-6, E4-9]. |
+
+## 4. Cross-memo consistency
+
+**X1 (high) Maker ledger: four schemas.**
+- *Evidence.* The four memos propose different columns:
+  - E1: maker, known-for kinds, platform key, scene tags, tier, price band, country, era.
+  - E2: adds sport leaves and an own-brand flag.
+  - E3: maker type (brand owner, OEM factory, luthier, second brand), parent or designer brand, and lines with `tier_band`.
+  - E4: adds platform or chambering, and a separate school-and-smith table.
+- *Convention.* Use C1 for all four.
+  - The platform and chambering columns move to C13.
+  - Tier moves to C4 tier entries.
+  - Lines (Nendoroid, Astrox, Player II, Pearl Masters, Hoyt Rx series) go to the lines table.
+  - Add one core column to C1, `built_by_maker_id` on the line. E3 needs it (Boston and Kawai, Fender Japan and FujiGen), and so do A5 (movement makers) and E1 (OEM toy factories).
+  - Add one optional extension for E4, a `school` table (`school_id`, name, `region`, era, sources), with smiths linked by `school_id`. This keeps schools from being entered as makers.
+
+**X2 (high) Tier: three memos put it on the kind.**
+- *Evidence.* E1 puts a figure-format tier on the kind. E2 has "a modifier on the kind or named form". E4 has `protection_level` "on the kind". E3 alone puts tier on lines, but in one field.
+- *Convention.* C4 throughout.
+  - Measured ladders are attributes with their standard named: NIJ, UIAA, FIE, ski-boot flex, U-weight, wetsuit thickness, cricket willow grade, piece count.
+  - Maker ladders are tier entries on lines: Fender Squier to Custom Shop; adidas Elite, Pro, League and Club; Pearl Decade to Masters.
+  - Generic player-level ladders share one domain-E scheme, `player_level` (starter, intermediate, advanced, professional). Every entry names its source: brassandwinds and Shar (E3), Thomann's beginner/advanced/professional text (E3), BHQ and TCOM player's frames (E2). C4(e) requires a second region before the scheme enters the data.
+
+**X3 (medium) Boundaries the two sides do not state alike.**
+
+| Pair | Object | E-side A says | E-side B says | Proposed sentence (both memos) |
+|---|---|---|---|---|
+| E1/E2 | table football, air hockey | E1 (E1 §9.1) | E1 (E2 P10) | agree; keep |
+| E1/E2 | trampoline | play trampoline E1, cut open (E1 conflict f) | fitness trampoline E2 (key) | E1-10(b) |
+| E1/E2 | kite, flying disc, toy ball | E1.6 if sold as toys, E2 if made for a sport (E1 Q12) | silent (kite sports "narrow") | C15 below |
+| E1/E3 | toy instrument | key and E3 §9.4 send to E1 | E1 has no kind | E1-5: kind "toy instrument" |
+| E1/E4 | foam LARP weapon, play sword | E1 "toy blaster" (includes play swords) | E4: foam is E1 | E1-5: kind "toy weapon" with blaster, play sword and foam replica as named forms |
+| E2/E4 | arrows, quivers | E2 P9: follow the bow to E4 | E4: arrows in E4.9; quivers silent | arrows and bolts E4.9; a quiver worn on the body is A4 by S3's "never parts: anything worn on the body"; owner to confirm |
+| E2/E4 | archery target, arm guard, finger tab | E2 P9: E2 | silent | E2, leaf "Archery (targets and shooter's gear)" under Golf, cue and target sports; add to E4 §9 |
+| E2/E4 | airsoft and paintball markers, spearguns | key E2, but no E2 leaf | E4: E2 | E2-3 leaves |
+| E2/E4 | clay throwers, decoys, game calls, hides | E2 P9 asks | silent | owner decision (section 5) |
+| E2/E4 | ear defenders, shooting glasses | silent | E4 lists them in the E2 row | A1 by step 17 (E4-10) |
+| E2/E4 | starting pistol | silent | E4 leaf "Blank-firing" | E4-10 sentence |
+| E2/A1/E4 | helmets | E2 P2: sport helmets E2 | E4: helmets against blows or bullets E4 | adopt both: weapon threat E4 > one-sport helmet E2 > other hazard A1; and the key's order (step 10 before 17) already gives E4 first |
+| E2/E3 | dance | dance shoes E2 (key); not in tree | none | E2-3 Dance leaf |
+| E1/F3, E1/D3, E1/D5, E3/F4, E3/D1, E3/D3 | | outside domain E | | one-sided, logged for the D and F reviews: TCG singles (E1-10a), Toniebox, pinball and slot machines, singing bowls, cables, studio headphones |
+
+**X4 (medium) Orphaned and duplicated kinds.**
+- *Orphans*, named by the key or sent by a neighbour but placed nowhere: toy instrument, piñata, play make-up, mechanical bank (E1); airsoft marker, paintball marker, speargun, metal detector, caving gear, sledge, dance shoe (E2); slingshot, blowgun, boomerang, shuriken (E4 Q9, and silent in E1 and E2); axe kinds (E4).
+- *Duplicates.* Die-cast cars and train sets (E1.2 and E1.3) [E1-1]. "Sabre" is both an E2 fencing kind and an E4 sword kind. That is legitimate, because they are different objects, but it needs a C9 homonym row (X7). The E4 "baton" and "tonfa" overlap [E4-4].
+- *Proposed home for the E4 Q9 group:* slingshot and blowgun E4 (made to shoot), unless sold as a toy (E1); boomerang E2 (a throwing sport) or E1 as a toy; shuriken E4.
+
+**X5 (medium) One toy-or-real test.** E1 (toy counterparts), E2 P10, E3 §9.4 and E4 §9 each state the cut differently.
+- *Convention C15 (proposed).* "An object made for play by children that imitates a sport, music or weapon object is E1 when it cannot do the real object's job to that object's own standard (a regulation ball, a tuned instrument, a weapon that can injure). The real object made in a child's size stays in its category (size and user are attributes, C6)."
+- Evidence: ISO 8124-1 includes "toys which are their counterparts" of sporting goods [E1 S32]. EU CN 9503 has headings for toy musical instruments and toy weapons [E1 S30].
+
+**X6 (medium) Tradition-named kinds: three readings of C11.**
+- *Evidence.* E1 makes German-suited decks kinds. E3 makes sitar, koto and oud kinds without a generic label. E4 makes jian and dao kinds but the sabre generic.
+- *Convention for domain E (refines C11).* A tradition-named object is a kind only when both tests hold:
+  - (a) a fetched source sells or compares it as its own category (C2c);
+  - (b) its form (construction, tuning, length class with its own mounting, or component set) differs from every generic kind in the leaf.
+- Its label is then "name (generic description)". Otherwise it is a named form under the generic kind, with a region tag. Applied:
+  - Kinds: katana, wakizashi, tantō, koto, sitar, shamisen, hanafuda, mahjong set, shogi set, go set.
+  - Named forms: jian (arming sword), dao (sabre), bayan (accordion), German-suited deck (playing-card deck), liuyedao (sabre).
+
+**X7 (low) Homonyms for C9.**
+- Rows to add:
+  - bow (E4 bow; E3 bow for strings, an S3 part);
+  - sabre (E2 fencing sabre; E4 sword);
+  - bat (cricket and baseball bat E2; table-tennis bat = paddle);
+  - blade (table-tennis blade, the bat without rubbers, E2; knife blade);
+  - deck (card deck E1; skateboard deck E2);
+  - kit (drum kit E3; model kit E1; football kit A1);
+  - board (game board E1; skateboard, surfboard E2);
+  - set (chess set; drum set; train set);
+  - tarot (game deck E1; divination deck F4);
+  - football (association; American; Australian rules).
+
+**X8 (low) Use, discipline and market tags.** E4 has `use` (hunting, competition, self-defence). E2 has discipline (Olympic recurve, 3D). E1 has market ("home game" or "casino"). E3 has studio or stage (after E3-1). *Convention.* One `use_tags` list per category, each tag with a source, never a level. "Market" values (law-enforcement, casino) use Appendix A's market modifier.
+
+**X9 (low) Parts sub-family (C5d).** E3 (E3.5) and E4 (E4.10) have one. E1 has none [E1-7]. E2 places parts inside the sport leaf (tennis string, ski binding, table-tennis rubber). *Convention.* C5(d) applies to E1, E3 and E4. Amend C5(d) so that a category whose leaf axis already names the host (E2: sport) may file S3 parts in the host's leaf instead, and says so in its definition.
+
+**X10 (low) Named-form granularity agrees.** All four memos stop named forms at the line, series, system or iconic design, and hold every release, title, kit number, model year or load outside the kinds (E1 Q2, E2 Q8, E3 Q9, E4 §4). *Convention.* Adopt that, with C3 variants for the finer rows where owner-emphasis scenes need depth (figure releases, TCG sets, vintage guitar years).
+
+**X11 (low) Individual-item facts.** NBTHK certificates (E4), "player grade vs collector grade" and originality (E3) and single named cards (E1) are facts about one particular object. *Convention C16 (proposed).* "Certificates, condition grades, provenance and serial numbers of one particular object are not stored. The data holds kinds, named forms and variants only (BRIEF: individual items are out)."
+
+**X12 (low) Jurisdiction.** E4 proposes a per-country legal-class ledger. E1 (slot machines, gambling equipment), E2 (airsoft energy limits, mentioned at Pyramyd) and B9 meet the same need. *Convention C17 (proposed).* A jurisdiction ledger: `subject_id` (kind or named form), `jurisdiction`, `scheme` (EU 2021/555 category, UK Firearms Act section, US NFA), `class`, `criteria`, `source_url`, `date`. Never a level or a tag on the tree.
+
+**Proposed shared conventions from this review (for _conventions.md):**
+- **C14 Multi-use kinds.** A kind used in more than one sub-family or leaf goes, in this order, to:
+  - (a) the leaf whose rule or standard defines it;
+  - (b) the general leaf of the one family that holds all its uses;
+  - (c) a category-level "multi-use" sub-family whose leaf axis is stated.
+  - A generated view lists it under each use. (E2-1; it applies to every category with a use or activity axis.)
+- **C15 Toy or real** (X5).
+- **C16 Individual-item facts** (X11).
+- **C17 Jurisdiction ledger** (X12).
+- **C1 addition:** `built_by_maker_id` on lines, and an optional `school` table (X1).
+- **C4 addition:** a domain-E `player_level` scheme (X2).
+- **C5(d) amendment** (X9).
+- **C7 addition:** non-maker-bound named forms with a published typology (Oakeshott, Japanese blade construction) go in typology order (E4-11).
+- **C11 refinement for domain E** (X6).
+
