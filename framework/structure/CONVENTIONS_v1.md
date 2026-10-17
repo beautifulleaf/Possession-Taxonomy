@@ -195,6 +195,7 @@ A subject may hold several entries from different sources. A named form does not
 - (b) A sub-family may skip the leaf level when it holds about 12 kinds or fewer; the kind is then stored with `leaf = null`, never under a dummy leaf.
 - (c) One stated axis per level within each sub-family. Each sub-family states the axis of its leaf level in its definition.
 - (d) **Parts sub-family.** Every category that receives S3 parts ends with the sub-family "Parts and accessories made for one <object>", leaf axis = object served. It is the only sub-family exempt from the level-1 axis. E2 files its parts there too (no host-leaf exception). J1–J7, G2, C3, C8 and I3 have none.
+- A final "mixed <class>" kind (K-46) sits at the end of the lowest level that holds all its parts. When its parts span sub-families, it may sit at category level with `sub_family = null` and `leaf = null` (R-55).
 
 ## C6. Size, fit and user
 
@@ -301,7 +302,7 @@ An object made for play by children that imitates a sport, music or weapon objec
 
 **JC2. Unit-price band.** Groceries carry `unit_price_band` in USD per kg (solids) or per litre (liquids), from a dated, sourced list price; the bands are set at first data load. J7 also keeps the C4(d) item band per 750 or 700 ml bottle.
 
-**JC3. Supply role.** `maker_class` keeps its C1 values; a multi-valued J column `supply_role` sits beside it: farm or ranch; fishery or aquaculture; grower or marketing body; licensor; processor or packer; curer or smokehouse; cannery; cheesemaker or creamery; affineur; dairy or bottler; egg packing centre; mill; roaster; tea house or estate; winery or estate; négociant; cooperative; distillery; brewery; cider maker; independent bottler; importer or trader; retail own-label. Certifications sit on the named form or product.
+**JC3. Supply role.** `maker_class` keeps its C1 values; a multi-valued J column `supply_role` sits beside it: farm or ranch; fishery or aquaculture; grower or marketing body; licensor; processor or packer; curer or smokehouse; cannery; cheesemaker or creamery; affineur; dairy or bottler; egg packing centre; mill; roaster; tea house or estate; winery or estate; négociant; cooperative; distillery; brewery; cider maker; independent bottler; importer or trader; retail own-label; butcher (J1-O3, R-55). Certifications sit on the named form or product.
 
 **JC4. State, process and pack.** Storage state is an attribute. A preserving process that makes a different product compared on its own may define a level, on that level's stated axis only. A pack that keeps the same product is an attribute; a single-serve pack made for a machine system is a kind, with the system in C13. A quality ladder on the same product is an attribute with its `standard`; a legal name fixing a different composition is a kind.
 
