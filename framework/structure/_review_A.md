@@ -169,3 +169,175 @@ Only performance basketball and tennis shoes, and waterproofing sprays, need a r
 - the phone pouch (A4, or D2 under S3).
 
 With F26 and F30 applied and two more sentences, all 20 have a single home. For the phone pouch: "a pouch made to hold one phone is D2 under S3; a small bag with a phone pocket is A4". For the camera backpack: "a backpack made with fitted dividers to carry a camera and its lenses is a camera bag, D4 under S3, which names camera bags; a general backpack with a padded sleeve is A4".
+
+### A5 Clocks & Watches
+
+**F33. (high) The level-2 precedence rule contradicts the memo's own tree.** A5, section 3: "Environment beats complication beats style … Navitimer is a pilot's watch with a chronograph tag". Applied to the memo's own examples:
+- The Rolex Daytona is a racing chronograph, and "racing watch" is a kind in A5.1.5, so the rule sends it to racing. The tree files it under A5.1.6 chronograph.
+- The GMT-Master II has a pilot lineage and a multi-zone complication.
+- The Yacht-Master would go to sailing watch, the Explorer to field watch, and the Santos to pilot.
+
+The rule hangs on an "environment" judged from marketing lineage, which builders will read differently. *Fix:* adopt the memo's own alternative (owner question 2, option b) in a stricter form. Level 2 for wristwatches is the **defining complication or certified function**, tested on the object:
+- *Dive:* a unidirectional timing bezel and at least 100 m, or ISO 6425.
+- *Chronograph:* a chronograph mechanism.
+- *Multi-zone:* a GMT or world-time display.
+- *Calendar and astronomical:* an annual or perpetual calendar, or a moon phase.
+- *Striking.*
+- *Tourbillon and grande complication.*
+- *Time-only and simple-date watches.*
+
+Pilot, field, racing, sailing, military, dress and sports become `design_family` tags with views. The Navitimer, Speedmaster and Daytona are then chronographs, the Submariner a diver's watch, the GMT-Master II multi-zone, and the Santos, Tank, Explorer, Royal Oak and Datejust time-only. This gives one home per object without reading lineage.
+
+**F34. (medium) The style leaves and some kinds are named by modifiers.** A5, tree A5.1.1 "Dress & formal" (occasion), A5.1.5 "Sports & tough" (setting), the "jewellery watch" (gem setting: material and decoration) and the "skeleton watch" (a finish). The F33 fix removes the first two. *Fix:* make `gem_set`, `skeleton` and `display: analogue | digital | ana-digi` attributes. Keep "digital watch" as a kind only under time-only, because its display is its form.
+
+**F35. (medium) Most of owner question 4 is already decided by key order.**
+- A chess or game clock "measures time" and step 16 is tried before step 25, so it is A5.
+- An attendance clock: step 16 is tried before step 31, so A5.
+- A laboratory atomic clock: step 16 is tried before step 23, so A5.
+- A tower or turret clock fixed to a building: the step-4 note says "installed machines … keep their own category", so A5.
+- A nurse's pulse watch made to monitor a patient: step 2 is tried before step 16, so H2.
+
+Only the sensor-led outdoor watch (Rangeman-type, with altimeter, barometer and compass) needs a ruling. *Fix:* write these as precedence sentences, and keep only the sensor-led watch in the owner queue. A proposed default: "a watch whose main display is time and whose sensors are secondary is A5; a device whose main function is sensing or navigation is D2". That matches the step-17 note.
+
+**F36. (low) Specifications are named forms.** A5, tree: "saturation-diver's watch [ISO 6425 Annex A]" and "military watch [MIL-W-46374]". A standard is not a model or a design. *Fix:* make `iso6425`, `iso6425_annex_a` and `mil_spec` attributes. MIL-W-46374 watches by named makers (for example a Marathon or Hamilton model, to be sourced) can be named forms.
+
+**F37. (low) Named-form order differs from the other memos.** A5, section 8: "alphabetical order by maker then model, not by chronology". A1, A2, A3 and A4 use maker or chronology. *Fix:* adopt the shared convention C7 (by maker, then by introduction year, falling back to alphabetical when no year is attested). The memo's reason, that "model families have no clean date", is met by using the first-introduction year that the maker's own page attests.
+
+**F38. (low) Evidence.**
+- The brand-tier table compares three English-language dealer or brand blogs (Bob's Watches, The Watch Scanner, Soner). The memo rightly refuses to pick a winner.
+- The point that the COSC certificate is optional, and the Chrono24 brand menu, come from search excerpts (disclosed).
+- The GPHG categories come through Wikipedia.
+- Some named forms in the tree have no source named (Greubel Forsey Nano Foudroyante, Vienna regulator as a named form).
+
+*Fix:* add one non-English tier or hierarchy source (for example a Japanese or German enthusiast ranking) before tiers enter the data. Attest every named form in the tree from a fetched page, or mark it.
+
+**F39. (summary) Usability check, 20 objects.** The Submariner, Daytona, Speedmaster, Navitimer, GMT-Master II, Royal Oak, Royal Oak Perpetual Calendar, Cartier Tank, Santos, Datejust, Explorer, Yacht-Master, G-Shock DW-5600, Casio F-91W, a Rangeman, a hunter pocket watch, a cuckoo clock, a Vienna regulator, a chess clock and an Albert watch chain. As the memo stands, **9 of 20 would split**:
+- the Daytona, GMT-Master II, Santos, Datejust, Explorer and Yacht-Master (F33);
+- the F-91W (digital watch or tough digital watch);
+- the chess clock (left open);
+- the Albert chain (A3 or A5, F21).
+
+The Rangeman is open by the memo's own account, which makes 10. With F21, F33 and F35 applied, 1 of 20 remains open: the Rangeman, for the owner.
+
+## 3. Cross-memo consistency findings
+
+**X1. (high) "Named form" means five different things.** The memos use the same level for different objects:
+- A1: a maker's model or an iconic design, with the rule "many makers → kind" (but the Shetland sweater is a named form; F7).
+- A2: a model or an iconic design, but also generic regional types (klompen, sabot) and scene forms (bovver boot, brothel creeper, winklepicker). Colourways are explicitly *not* named forms.
+- A3: a model, a collection piece, or a regional generic type (borla, ucu), plus the kihei link pattern.
+- A4: a maker line or model, plus regional generic types (sporran, uchiwa, furoshiki).
+- A5: a model family, specification classes (ISO 6425 Annex A, MIL-W-46374) and regional clock styles (Vienna, Black Forest). Reference numbers are left open.
+
+BRIEF says that "specific product models, cuts and iconic designs are named forms under a kind", so a named form need not have a maker. But each memo draws the kind / named-form line differently. *Fix:* convention C2 below.
+
+**X2. (high) Variants are handled four ways.**
+- A1: the variant relation sits inside a named-form ledger (Lot 1001 / 1001XX), and print series are named forms.
+- A2: a separate optional variant ledger keyed by style code, for colourways, collaborations and retros.
+- A4: size variants are an attribute of the named form (Speedy 25/30).
+- A5: reference numbers and colourways are an open question.
+
+*Fix:* convention C3 (one variant ledger schema for all of domain A).
+
+**X3. (high) Maker-ledger schemas differ.** All five memos recommend a maker ledger, with these field sets:
+
+| Field | A1 | A2 | A3 | A4 | A5 |
+|---|---|---|---|---|---|
+| native-script name, aliases | yes | – | – | – | – |
+| country | yes | yes | yes | yes | yes (and place) |
+| founded / ended / era | yes | founded or era | era | founding era | founded, era |
+| status (active, defunct, revived) | yes | – | – | – | – |
+| parent group, licensee | yes | – | – | – | group |
+| maker class or house type | – | – | yes | – | yes |
+| lines or collections | separate table | in-house lines field | collections and the forms they span | line names | – (series in known-for) |
+| known-for kinds / named forms | kinds | both | both | both | both |
+| scene tags (core / adjacent) | yes, with strength | yes | yes | yes | yes |
+| tier | one value | consensus tier with source; resale tier (dated) | one value | one value, inherited | per source, with a disputed flag |
+| price band | yes | yes | yes | yes | yes |
+| category-specific | – | construction | mark or hallmark notes | – | movement policy, certifications |
+| sources | URL, second if any | per row | URL | URL | per row |
+
+*Fix:* convention C1, one shared core schema with category extension columns.
+
+**X4. (high) The tier is placed and stored differently.**
+- A1: on maker and line, vocabulary open.
+- A2: on the maker, with source, for dress shoes and boots only.
+- A3: on the *kind* (F20).
+- A4: one value per maker, inherited by named forms, and unsourced (F28).
+- A5: one entry per source with a disputed flag.
+
+Grailed's Core / Grails / Hype / Sartorial is a "consensus" tier in A1 and "not quality tiers" in A2. *Fix:* convention C4. A5's model is the right one, and Grailed's labels become a dated platform tag.
+
+**X5. (medium) Regional and traditional forms are handled four ways.** As kinds (A1 sari and kimono types; A2 geta, zori and opanak; A3 maang tikka and mangalsutra), as named forms (A2 klompen; A3 borla and ucu; A4 sporran, uchiwa and furoshiki), and as a leaf of their own (A1 3.5). *Fix:* convention C2(c).
+
+**X6. (medium) The leaf level and "one axis per level" are interpreted differently.**
+- A1 skips the leaf in three sub-families.
+- A2 uses the leaf only in Shoes and Boots ("maximum depth three, optional fourth").
+- A3 always has four levels.
+- A4 never has a leaf (maximum three).
+- A5 uses a different leaf axis in different sub-families (function for watches, placement for clocks).
+
+All of these stay within "at most four levels". But they read "one stated axis per level" as *one axis per level within each sub-family*, and that reading is not written down anywhere. *Fix:* convention C5, and an owner yes/no on that reading (section 5, A1).
+
+**X7. (medium) S3 parts have a home in A5 only.** A5 has a parts sub-family (A5.5: straps, dials, movements, one-watch winders). A2 sends laces, insoles, shoe trees and heel grips to A2 under S3 (section 9) but its tree has no place for them. A4 does not mention replacement straps, bag organisers or bag charms (bag charms are A4, F30). A1 does not mention replacement hoods, detachable linings or collar stays. *Fix:* convention C5(c). Each A category gets a last sub-family, "Parts and accessories made for one <object>", with kinds such as laces, insoles, shoe trees and heel grips (A2); bag straps, organiser inserts and bag charms (A4); and straps, bracelets, dials, movements, crystals, cases, winders and watch chains (A5). A1 and A3 do the same only if the sourcing pass finds such parts sold on their own (detachable linings, replacement clasps). Otherwise they are C4 notions and findings.
+
+**X8. (medium) Named-form order differs.** A1: maker, then year. A2: chronology. A3: chronology. A4: maker, then chronology. A5: alphabetical by maker, then model. *Fix:* convention C7.
+
+**X9. (medium) Boundaries between neighbours in domain A that do not agree on both sides, or are stated on one side only.**
+
+| Pair | A side | Other side | Proposed single sentence |
+|---|---|---|---|
+| A3 / A5 watch chains | A3: chain or fob → A3 | A5: silent | **W1.** "A watch chain or fob chain made to attach a pocket watch is A5 under S3; a fob, seal or charm worn without a watch is A3." (F21) |
+| A1 / A3 head ornaments | A1: headbow (KC) and bonnet in the lolita alias table; P4 does not cover hair | A3: "hair ornaments"; owner question 9 on decorative hairbands | **H1.** "Worn on the head and held by its own band, crown, elastic or ties (hat, bonnet, headband, headbow on a band, fascinator on a band or headpiece) is A1 headwear; fixed into the hair by a pin, comb, clip or slide (hairpin, kanzashi, jewelled clip, hair comb, bow on a clip) is A3; plain functional clips, ties and bands are H1." |
+| A1 / A3 buckles | A1: belts A1 | A3: "plain buckles are A1" | **K1.** "A belt buckle, plain or decorative, is a part of a belt and is A1 under S3." (F23) |
+| A1 / A2 equestrian | A1: riding hats E2 (key) | A2: riding boots A2 | One rule for both (F15; owner question B2). |
+| A1 / A2 hosiery | A1 P3: "hosiery is A1, anything else worn on the feet is A2" | A2: socks, tights, leg warmers and gaiters are A1; spats, galoshes and overshoes are A2 | Agree. Add "tabi socks are A1; jika-tabi with a rubber sole are A2" to both. |
+| A3 / A4 bag charms | A3: "keyrings and bag charms are A4" | A4: "a charm hung on a bag has no named step (flag)" | Agree on A4. The reason is S3 (step 8): an accessory made for bags. Remove A4's flag. |
+| A1 / A4 packs and vests | A1 P5: chest rigs and waist packs A4; vest-form garments with pockets A1 | A4: belt bags A4 | Agree. Copy P5 into A4 section 9. |
+| A4 / A1 / H2 eyewear | A1 P6 | A4 boundary 2 | Agree. Add the clip-on lens sentence (F30) to both. |
+| A4 / A5 watch storage | A4: watch straps follow the watch | A5: boxes and rolls for several watches B1, a winder for one watch A5 | Agree. Add "watch roll" to A5's B1 sentence. |
+| A3 / A5 jewellery watches | A3: watches A5 | A5: a gem-set watch is A5 | Agree. |
+
+**X10. (low) Duplicated or orphaned kinds across the domain.**
+- *Orphans named by the key or by a memo's boundary text, with no kind in any tree:* the wearable baby sleeping bag, gloves, gaiters and leg warmers (A1; F2); overshoes, galoshes and spats (A2 says A2 but its tree has no kind); the fashion cane and the shopping trolley (A4; F27); shoe laces, insoles and shoe trees (A2; X7).
+- *Possible duplicates:* "belly chain" and "waist chain" (A3); "longcase" and "grandfather clock" (A5 handles these as synonyms); "shopper" and "tote" (A4); "trench watch" (A5.1.4 kind) and "wristlet" (A4 handbag and wallet type). These are different objects under one word. Add the word to the alias table as a homonym with two targets.
+- *Material-named kinds* in A1 (F5) and A2 ("shearling boot", "plimsoll and canvas shoe"): apply the same "material is the form" test in both. Rename the shearling boot "sheepskin-lined pull-on boot" or record it as a stated exception.
+
+**X11. (low) Scene vocabularies overlap but are separate.** A1 sets up scene tags with governance (core or adjacent, sources from MFA and Subculture Wiki). A2 proposes scene labels (skate, workwear, punk, classic menswear, streetwear) that it says are "not attested". A4 uses courier, biker and workwear, and streetwear. A3 and A5 use maker-type and era tags instead. *Fix:* convention C8, one shared scene vocabulary for domain A.
+
+## 4. Proposed shared conventions for domain A
+
+These conventions resolve X1 to X11. Each is phrased so that the owner can approve it once for all five categories. Later domains can reuse them.
+
+**C1. Maker ledger: one core schema and per-category extensions.**
+- *Core columns (every category):* `maker_id`; `name`; `native_name`; `aliases`; `maker_class` (house or manufacture; independent; microbrand; retail own-label; licensee or diffusion; costume or fashion brand; artisan or atelier; supplier, such as a movement or fabric maker); `country`; `place`; `founded`; `ended`; `status` (active, defunct, revived); `parent_id` (group or licensor); `known_for_kinds` (kind ids); `scene_tags` (with `core` or `adjacent` strength, from C8); `price_band` (C4); `sources` (at least one fetched URL, and a second where available).
+- *Separate tables, not columns:* **lines and collections** (`line_id`, `maker_id`, name, the kinds it spans, `tier` entries, years, sources: Momotaro Classic, Cartier Love, Seiko Prospex Sea, an Angelic Pretty print series, Rimowa Original); **tier entries** (C4); **named forms** (C2); **variants** (C3).
+- *Extensions (category columns, optional):* A2 `construction_policy`; A3 `marks` (maker's marks and hallmark notes); A5 `movement_policy` and `certifications`.
+- *Why:* A1's table is the fullest; A3 adds maker class and collections across forms; A5 adds per-source tiers. Putting known-for named forms in a column (as A2, A3, A4 and A5 do) duplicates the named-form ledger. Derive it from that ledger instead.
+
+**C2. Kind against named form.**
+- (a) The choice-level test in section 4b decides kind against named form. A **kind** is the level at which buyers compare quality or makers. A **named form** is a specific design below it. It is either **maker-bound** (a model or line: Levi's 501, Iron Ranger, Speedy, Submariner) or **not maker-bound** (a generic cut, iconic design or traditional variant that many makers make: penny loafer, Shetland sweater, klompen, furisode, kihei-style chain if kept, uchiwa, Vienna regulator). Record it with the field `maker_bound: yes | no`. This replaces A1's rule "many makers → kind". The number of makers is not the test; comparison is.
+- (b) **Not named forms:** specifications and certifications (ISO 6425, MIL-W, EN ISO 20345 classes: attributes), link patterns, motifs and prints (attributes or variants), sizes (attributes), and colourways, reference numbers, collaborations and editions (variants, C3).
+- (c) **Traditional and regional types** are kinds when a fetched source shows them sold or compared as their own category (sari, kurta, kimono, geta, maang tikka, mangalsutra, jhumka). Otherwise they are non-maker named forms under the nearest generic kind (borla under maang tikka; klompen under clog; uchiwa under rigid fan; sporran under pouch or belt bag). In both cases they carry a `region` or `culture` tag and appear in a generated "by tradition" view. Never put them in a leaf of their own (F4).
+
+**C3. Variant ledger (optional, sparse, one schema).** Columns: `variant_id`, `named_form_id`, `variant_code` (maker's style code, lot or reference number: Lot 1001XX, IQ5495-005, a Submariner reference), `variant_type` (colourway; material; print; size; reference; retro or re-issue; collaboration; limited edition), `partner` (for collaborations), `year`, `sources`. A variant is never a level and never a kind. It is filled only where an owner-emphasis scene needs depth (sneakers, Japanese denim, lolita prints, watch references).
+
+**C4. Tier and price band.**
+- (a) A `tier` never sits on a kind. It sits on a maker, a line or a named form, as **tier entries**: (`subject_id`, `scheme`, `value`, `source_url`, `date`). A subject may have several entries from different sources, with a computed `disputed` flag (A5's model). A named form does not inherit a maker's tier unless an entry says so.
+- (b) A spec ladder that is measured on the object (EN ISO 20345 class, COSC level, metal fineness, fill power, denim weight, Super number) is an **attribute** with its standard named, not a tier entry.
+- (c) A platform's own segment labels (Grailed Core / Grails / Hype / Sartorial; StockX premium) are a dated `platform_tag`, not a tier.
+- (d) A **price band** is one domain-wide scheme in one currency, so that A1 ($ to $$$$$), A5 (Jomashop USD bands) and A2, A3 and A4 (unspecified) share bands. Proposed: USD bands under 50, 50–150, 150–500, 500–1,500, 1,500–5,000, 5,000–15,000 and over 15,000. They are derived from a dated, sourced list price.
+- (e) A tier scheme enters the data only with at least one fetched source, and preferably a second from another region (A3 and A4 fail this today).
+
+**C5. Levels and axes.**
+- (a) Fixed level names: category, sub-family, leaf, kind, named form. At most four levels below the category, and the named form counts as one of them.
+- (b) A sub-family may skip the leaf level when it holds about 12 kinds or fewer. The data then stores the kind with `leaf = null`, not under a dummy leaf.
+- (c) "One stated axis per level" is read as one axis per level **within each sub-family**. Each sub-family states the axis of its leaf level in its definition (A5: function for watches, placement for clocks; A2: shaft height in Boots, closure in Shoes).
+- (d) Each A category ends with a sub-family "Parts and accessories made for one <object>" for the S3 items it receives (X7). It is the only sub-family exempt from the level-1 axis.
+
+**C6. Size, fit and user.** Size (garment size, shoe size, ring size, case diameter, luggage size class, frame size) is always an attribute with its standard (ISO 8559-1, ISO 19407, ISO 8653, ISO 8624, airline bands). User (gender, child, baby, adapted) is always a tag with generated department views. Luggage size class is the only proposed exception (owner question A4-2).
+
+**C7. Order inside a leaf.** Kinds go canonical form first, then the secondary key that the sub-family states (spec, height, formality or complexity). Named forms go by maker (in the order of the maker ledger's `name`), then by first-introduction year as attested, then alphabetically where no year is attested. Variants go by `variant_code` or year.
+
+**C8. One scene vocabulary for domain A.** One controlled list of `scene_tags`, each with a definition source (an MFA style guide, a Subculture Wiki page, or a community wiki), `core` or `adjacent` strength, and tagging at the maker, kind and named-form levels, without automatic inheritance (A1, owner question 9). A2 and A4 use this list instead of their own labels. A tag that has no source is held back (A2 already says its labels are "not attested").
+
+**C9. Alias and homonym table.** One table: `term`, `language` and `script`, `target_id`, `relation` (alias, regional name, homonym). For example: JSK = jumper dress; スカジャン = souvenir jacket; カバーオール = chore coat (JP), but coverall = boiler suit (US); longcase = grandfather clock; shopper = tote; wristlet → two targets. The labels are English, with a native-script label (A1, owner question 11).
