@@ -16,6 +16,6 @@ Stage 3 started: data tables in `data/` (schema `tools/schema.py`, written only 
 - `BRIEF.md` – owner decisions. `STATUS.md` – session log, phases, owner queue.
 - `framework/` – the category framework (CATEGORIES_v*.md) and `framework/structure/` (stage-2 memos, reviews, conventions, summary).
 - `data/` – TSV data: stage-1 sources and probes, gold sets, and the stage-3 tables (nodes, kinds, named_forms, lines, makers and the other CONVENTIONS_v1 tables).
-- `pages/` – generated review pages (stage2_review.html, published as https://claude.ai/artifact/WrwQ9sYpZYYg6YCd3FFdkN; rebuild with tools/build_stage2_page.py).
+- `pages/` – generated pages: stage2_review.html (https://claude.ai/artifact/WrwQ9sYpZYYg6YCd3FFdkN; tools/build_stage2_page.py) and pilot.html, the stage-3 data browser (https://claude.ai/artifact/69ipGh4sxukS45bxkDoSEk; tools/build_pilot_page.py).
 - `tools/` – scripts (backups to bak/, git-ignored).
 - `verify/in` – agent prompts and batches; `verify/out` – agent outputs; `verify/work` – scratch (git-ignored).
