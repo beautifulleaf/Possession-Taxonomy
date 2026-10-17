@@ -1,6 +1,6 @@
 maker_id	name	native_name	maker_class	supply_role	country	place	founded	ended	status	parent_id	licensor_id	authority_id	school_ids	extension	notes	sources	fetch_status
 M-lenovo	Lenovo		house or manufacture												Wikipedia hardware list names it under: computer monitors, webcams	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers | https://en.wikipedia.org/wiki/List_of_printer_companies	full | full
-M-hp	HP		house or manufacture						active						ink cartridges, laptop batteries	https://www.jbhifi.co.nz/products/hp-62-black-original-ink-cartridge | https://microcenter.com/site/products/all-laptop-batteries.aspx	full | full
+M-hp	HP		house or manufacture												DesignJet and PageWide XL large-format printers	https://www.hp.com/us-en/printers/large-format.html	full
 M-dell	Dell		house or manufacture						active						laptop AC adapters, batteries; listed under routers on Wikipedia networking hardware list	https://ldlc.com/en/product/PB00495610.html | https://microcenter.com/site/products/all-laptop-batteries.aspx | https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full | full | full
 M-apple	Apple		house or manufacture												Wikipedia hardware list names it under: computer monitors	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-asus	Asus		house or manufacture						active						listed under routers on Wikipedia networking hardware list; routers, ROG Cat7 cable	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers | https://asus.com/sg/networking-iot-servers/wifi-7/all-series	full | full
@@ -144,7 +144,7 @@ M-firebat	Firebat		house or manufacture												brand on mini-PC barebone cat
 M-asrock-industrial	ASRock Industrial		house or manufacture							M-asrock					brand on mini-PC barebone category	https://www.newegg.com/Mini-PC-Barebone/SubCategory/ID-309	full
 M-intel	Intel		house or manufacture												Wikipedia hardware list names it under: webcams	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-gmktec	GMKtec		house or manufacture												brand on mini-PC barebone category	https://www.newegg.com/Mini-PC-Barebone/SubCategory/ID-309	full
-M-raspberry-pi	Raspberry Pi		house or manufacture						active						Raspberry Pi 5 SBC	https://core-electronics.com.au/raspberry-pi-5-model-b-4gb.html.plain.md	full
+M-raspberry-pi	Raspberry Pi		house or manufacture												PoE+ Injector and HAT add-on boards	https://www.raspberrypi.com/products/	full
 M-bosgame	BOSGAME		house or manufacture												brand on mini-PC barebone category	https://www.newegg.com/Mini-PC-Barebone/SubCategory/ID-309	full
 M-nipogi	NIPOGI		house or manufacture												brand on mini-PC barebone category	https://www.newegg.com/Mini-PC-Barebone/SubCategory/ID-309	full
 M-shuttle	Shuttle		house or manufacture												brand on mini-PC barebone category; NVIDIA add-in card or nForce board partner (page undated)	https://www.newegg.com/Mini-PC-Barebone/SubCategory/ID-309 | https://www.nvidia.com/es-la/drivers/support-aic/	full | partial
@@ -208,7 +208,7 @@ M-cooler-master	Cooler Master		house or manufacture						active						laptop cool
 M-deepcool	Deepcool		house or manufacture												listed under computer cases; listed under computer cooling systems	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	partial
 M-dfi	DFI		house or manufacture												listed under computer cases	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	partial
 M-noctua	Noctua		house or manufacture												air coolers, fans, AIO, paste	https://www.noctua.at/en/products/browse/coolers | https://www.noctua.at/en/products/nh-d15-g2 | https://www.noctua.at/en/products/browse/fans	full | full | full
-M-arctic	ARCTIC		house or manufacture						active						laptop cooling pads	https://www.newegg.com/global/sa-en/Laptop-Cooling-Pads/SubCategory/ID-319/Page-2	full
+M-arctic	ARCTIC		house or manufacture												Thermal pads TP-3 and TP-4	https://www.arctic.de/us/MX-6/ACTCP00079A	full
 M-xpg	XPG		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-ebm-papst	ebm-papst		house or manufacture												listed under computer cooling systems	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	partial
 M-fractal-design	Fractal Design		house or manufacture												listed under computer cooling systems	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	partial
@@ -223,7 +223,7 @@ M-kingpin-cooling	Kingpin Cooling		house or manufacture												brand sold in
 M-thermal-grizzly	Thermal Grizzly		house or manufacture												brand sold in the custom water-cooling shop (logo list)	https://www.titanrig.com/water-cooling/aio-coolers.html	partial
 M-creative	Creative		house or manufacture												Sound Blaster AE-Series internal sound cards	https://us.creative.com/aeseries/	full
 M-elgato	Elgato		house or manufacture													https://www.elgato.com/ww/en/p/game-capture-hd60-x | https://www.elgato.com/ca/en/p/game-capture-4k-x | https://www.elgato.com/ww/es/p/wave-3	full | full | full
-M-startech-com	StarTech.com		house or manufacture						active						HDMI 2.1 cable, designed and tested by StarTech.com	https://ldlc.com/en/product/PB00488989.html	full
+M-startech-com	StarTech.com		house or manufacture												DisplayPort cables and adapter cables	https://www.startech.com/en-us/cables/audio-video/displayport	partial
 M-linkup	LINKUP		house or manufacture												PCIe riser cables	https://www.canadacomputers.com/en/721/pcie-riser-cables	full
 M-diane-von-furstenberg	Diane von Furstenberg		costume or fashion brand						active						Sells wrap dresses, shirt dresses, jumpsuits; OUTNET credits the 1974 wrap dress.	https://www.dvf.com/collections/wrap-dresses | https://www.theoutnet.com/en-us/shop/designers/diane-von-furstenberg/clothing/dresses	full | full
 M-zara	Zara		retail own-label												Listed in List of denim jeans brands	https://en.wikipedia.org/wiki/List_of_denim_jeans_brands	full
@@ -288,7 +288,7 @@ M-kimono-dream-shop	Kimono Dream Shop		storefront or marketplace						active				
 M-kimonoya-japan	Kimonoya Japan		storefront or marketplace		Japan				active						Secondhand kimono shop with category guide; resale yes.	https://www.kimonoya-japan.net/page/41	full
 M-ohio-kimono	Ohio Kimono		storefront or marketplace		United States	Ohio			active						Kimono store: yukata, komon, furisode, tomesode, houmongi, iromuji.	https://www.ohiokimono.com/japanesekimono	full
 M-dickies	Dickies		house or manufacture												Sells work pants (Original 874, double knee), cargo pants; page notes trademark W-D Apparel Company	https://www.dickies.com/mens-clothing/mens-pants?prefn1=product-features&prefn2=waist&prefv1=elastic-waist&prefv2=36&srule=category-position-predicitve-sorting	full
-M-carhartt	Carhartt		house or manufacture												Sells cargo trousers, work trousers, joggers	https://www.carhartt.com/en-gb/c/men/trousers-jeans/cargo/eum3000084	full
+M-carhartt	Carhartt		house or manufacture												Face masks, headbands and knit hats on the caps page	https://www.carhartt.com/category/carhartt-men-caps	partial
 M-blaklader	Blaklader		house or manufacture						active						Overalls and boiler suits at Workwear Gurus (56 items).	https://workweargurus.com/collections/work-overalls	full
 M-fristads	Fristads		house or manufacture						active						Overalls and boiler suits at Workwear Gurus (49 items).	https://workweargurus.com/collections/work-overalls	full
 M-mascot	Mascot		house or manufacture						active						Overalls and boiler suits at Workwear Gurus (28 items).	https://workweargurus.com/collections/work-overalls	full
@@ -351,21 +351,21 @@ M-love-trends	Love Trends		house or manufacture						active						Brand filter on
 M-amscan	Amscan		house or manufacture						active						Brand filter on I Love Fancy Dress adult costumes.	https://ilovefancydress.com/adult-costumes	full
 M-costume-super-center	Costume Super Center		storefront or marketplace						active						Adult complete costumes; resale no.	https://www.costumesupercenter.com/collections/adults	full
 M-baracuta	Baracuta		house or manufacture		United Kingdom				active						G9 Harrington maker; page says made in the UK; site run by WP Lavori in Corso srl, Bologna	https://www.baracuta.com/collections/g9-jacket	full
-M-alpha-industries	Alpha Industries		house or manufacture						active						MA-1, M-65, CWU 45/P, N-3B and B-15 heritage jackets	https://www.alphaindustries.com/collections/military-heritage	full
-M-schott-nyc	Schott N.Y.C.		house or manufacture		United States	Union, New Jersey			active						Perfecto motorcycle jackets made in Union NJ; earlier factory Perth Amboy; Irving Schott and son Mel	https://www.schottnyc.com/collections/all | https://www.schottnyc.com/products/613-one-star-perfecto-leather-motorcycle-jacket	full | full
-M-carhartt-wip	Carhartt WIP		house or manufacture						active						Chore coats, trucker, Detroit and Active jackets; page cites Detroit heritage	https://us.carhartt-wip.com/en-us/collections/men-jackets-and-coats | https://us.carhartt-wip.com/en-us/collections/men-jackets-chore-coat	full | full
-M-gloverall	Gloverall		house or manufacture		United Kingdom	London	1951		active						Founded by Harold and Freda Morris; duffle coats, peacoats, trench; Heritage coats made in England	https://www.gloverall.com/pages/heritage	full
+M-alpha-industries	Alpha Industries		house or manufacture												CWU 45/P and B-15 bomber jackets, N-3B and N-2B parkas, M-65	https://www.alphaindustries.com/collections/military-heritage	full
+M-schott-nyc	Schott N.Y.C.		house or manufacture		United States										A-2 flight jackets, bombers, overcoats, parkas	https://www.schottnyc.com/collections/all	full
+M-carhartt-wip	Carhartt WIP		house or manufacture												Detroit, Active and Santa Fe work jackets	https://us.carhartt-wip.com/en-us/collections/men-jackets-and-coats	full
+M-gloverall	Gloverall		house or manufacture		United Kingdom										Duffle coats, peacoats, overcoats, parkas, field jacket; founded London 1951	https://www.gloverall.com/pages/heritage	full
 M-golden-bear	Golden Bear		house or manufacture		United States	San Francisco			active						Varsity jackets handcrafted in San Francisco; page claims over 100 years of outerwear manufacture	https://www.goldenbearstore.com/collections/varsity-jackets/letterman-jacket	full
-M-the-north-face	The North Face		house or manufacture						active						Puffer, parka, mountain jacket, fleece, gilets	https://www.thenorthface.com/en-ie/c/men/jackets-and-coats/nuptse-and-puffer-jackets-798792 | https://www.thenorthface.com/en-us/o/mountain-jacket | https://www.thenorthface.com/en-us/o/parka-jacket | https://www.thenorthface.com/en-us/c/mens/mens-fleece-299285	full | full | full | full
+M-the-north-face	The North Face		house or manufacture												Parkas	https://www.thenorthface.com/en-us/o/parka-jacket	full
 M-arcteryx	Arc'teryx		house or manufacture						active						Shell jackets: hardshell, softshell, windshell	https://arcteryx.com/us/en/c/shell-jackets	partial
 M-chef-works	Chef Works		house or manufacture		United States	Poway, California			active						Chef coats and jackets; address on page	https://www.chefworks.com/chef-coats-jackets	partial
 M-chefuniforms	ChefUniforms		retail own-label						active						Chef coats under own and house lines Chef Uniforms, Chef 360, On the Line, Industry Line	https://www.chefuniforms.com/chef-coats-mens-chef-coats/	full
 M-mustang-survival	Mustang Survival		house or manufacture						active						Foam PFDs approved by US Coast Guard	https://mustangsurvival.com/collections/foam-pfds	full
 M-stohlquist	Stohlquist		house or manufacture						active						Kayak life jackets	https://stohlquist.com/collections/mens-pfds	full
-M-brooks-brothers	Brooks Brothers		house or manufacture												Began producing a button-down polo shirt in 1896; Oxford cloth button-down shirts	https://en.wikipedia.org/wiki/Polo_shirt | https://www.brooksbrothers.com/original-polo%C2%AE-button-down-oxford-short-sleeve-shirt/MG04008.html	full | full
+M-brooks-brothers	Brooks Brothers		house or manufacture												Pocket squares and ties	https://www.brooksbrothers.com/ties-accessories/men-ties/	full
 M-burberry	Burberry		house or manufacture		United Kingdom	Yorkshire			active						Kensington trench coat made in Yorkshire, England; gabardine woven at Burberry Mill	https://us.burberry.com/long-kensington-heritage-trench-coat-p80592681	full
 M-sterlingwear	Sterlingwear		house or manufacture		United States										Peacoat reproducing US Navy issue; page says made in USA, no longer in production	https://www.uswings.com/product/sterlingwear-authentic-peacoat/	full
-M-uniqlo	Uniqlo		retail own-label												Sells T-shirts, hoodies, sweatshirts, fleece, dress and casual shirts, polos; Listed in List of denim jeans brands	https://www.uniqlo.com/us/en/men/tops/t-shirts | https://www.uniqlo.com/us/en/men/tops/sweatshirts-and-hoodies | https://www.uniqlo.com/us/en/men/tops/fleece | https://www.uniqlo.com/us/en/men/shirts-and-polos/dress-shirts | https://www.uniqlo.com/us/en/men/shirts-and-polos/casual-shirts | https://www.uniqlo.com/us/en/men/shirts-and-polos/polo-shirts | https://en.wikipedia.org/wiki/List_of_denim_jeans_brands	full | full | full | full | full | full | full
+M-uniqlo	Uniqlo		retail own-label												Blouses, camisoles, dress pants, leggings, culottes	https://www.uniqlo.com/us/en/women/shirts-and-blouses | https://www.uniqlo.com/us/en/men/bottoms/dress-pants | https://www.uniqlo.com/us/en/women/bottoms/leggings-pants-and-jeggings | https://www.uniqlo.com/us/en/women/bottoms/shorts	full | full | full | full
 M-moncler	Moncler		house or manufacture						active						Men's down gilets; page footer Moncler S.P.A.	https://www.moncler.com/en-fr/men/outerwear/vests	full
 M-marks-and-spencer	Marks & Spencer		retail own-label						active						Waistcoats under M&S, Autograph and M&S SARTORIAL labels	https://www.marksandspencer.com/l/men/mens-waistcoats	full
 M-charles-tyrwhitt	Charles Tyrwhitt		house or manufacture												Brass collar stays, made in India per page; also shirts	https://www.charlestyrwhitt.com/us/3-pack-solid-brass-spread-collar-stays/ACL0057NON.html?pf=rv_pdp	full
@@ -417,7 +417,7 @@ M-outemu	Outemu		supplier	switch OEM												https://en.wikipedia.org/wiki/Li
 M-greetech	Greetech		supplier	switch OEM												https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
 M-dmet	DMET		supplier	optical switch OEM												https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
 M-omron	Omron		supplier	switch OEM												https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
-M-logitech	Logitech		house or manufacture													https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
+M-logitech	Logitech		house or manufacture												MX Creative Console	https://secure.logitech.com/en-ca/shop/c/logi-keyboards	full
 M-roccat	Roccat		house or manufacture													https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
 M-unicomp	Unicomp		house or manufacture													https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
 M-drop	Drop		house or manufacture													https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
@@ -499,7 +499,7 @@ M-happy-hacking-keyboard	Happy Hacking Keyboard		house or manufacture											
 M-hyperx	HyperX		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-iball	iBall		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-intex	Intex		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
-M-kensington	Kensington		house or manufacture						active						Thunderbolt docks	https://docking-stations.info/compare/caldigit-ts4-vs-kensington-sd5700t/	full
+M-kensington	Kensington		house or manufacture												SmartFit Easy Riser laptop riser stands	https://www.quill.com/laptop-cooling-pads/cbk/108343.html?page=2	full
 M-key-tronic	Key Tronic		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-saitek	Saitek		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-steelseries	SteelSeries		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
@@ -515,7 +515,7 @@ M-creative-technology	Creative Technology		house or manufacture												Wikip
 M-d-link	D-Link		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
 M-facevsion	FaceVsion		house or manufacture												Wikipedia hardware list names it under: webcams	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-labtec	Labtec		house or manufacture												Wikipedia hardware list names it under: webcams	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
-M-tp-link	TP-Link		house or manufacture						active						routers, access points, unmanaged switches; listed under routers on Wikipedia networking hardware list	https://www.tp-link.com/us/home-networking/all-router/ | https://www.tp-link.com/us/home-networking/access-point/ | https://www.tp-link.com/us/business-networking/soho-switch-unmanaged/ | https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full | full | full | full
+M-tp-link	TP-Link		house or manufacture												Range extenders and powerline adapters; access points	https://www.tp-link.com/us/home-networking/range-extender/ | https://www.tp-link.com/us/home-networking/powerline/ | https://www.tp-link.com/us/home-networking/access-point/	full | full | full
 M-adesso	Adesso		house or manufacture													https://www.shidirect.com/shop/search/Hardware/Computer-Accessories/Mice-and-Trackballs	full
 M-fellowes	Fellowes		house or manufacture													https://www.shidirect.com/shop/search/Hardware/Computer-Accessories/Mice-and-Trackballs	full
 M-goldtouch	Goldtouch		house or manufacture													https://www.shidirect.com/shop/search/Hardware/Computer-Accessories/Mice-and-Trackballs	full
@@ -609,7 +609,7 @@ M-rode	Rode		house or manufacture						active						mic cable	https://www.adorama
 M-stagg	Stagg		house or manufacture						active						XLR mic cables	https://www.scan.co.uk/shop/music-and-pro-audio/cables/xlr-cables	full
 M-adam-hall	Adam Hall		house or manufacture						active						REAN mic cable	https://www.scan.co.uk/shop/music-and-pro-audio/cables/xlr-cables	full
 M-elumen8	Elumen8		house or manufacture						active						XLR mic cable	https://www.scan.co.uk/shop/music-and-pro-audio/cables/xlr-cables	full
-M-cable-matters	Cable Matters		house or manufacture						active						Ethernet patch cables	https://cablematters.com/pc-732-160-cable-matters-snagless-cat6-ethernet-cable-cat6-cable-cat-6-cable-availble-25ft-150ft-in-length.aspx	partial
+M-cable-matters	Cable Matters		house or manufacture												DisplayPort and Mini DisplayPort cables	https://www.cablematters.com/c-154-displayport.aspx	full
 M-caldigit	CalDigit		house or manufacture						active						Thunderbolt docks	https://docking-stations.info/compare/caldigit-ts4-vs-kensington-sd5700t/	full
 M-esi	ESI		house or manufacture						active						MIDI cables	https://www.adorama.com/l/Audio/Cables-and-Adapters/Digital-and-Data-Cables/Hosa-Technology~MIDI-Cables	full
 M-on-stage	On-Stage		house or manufacture						active						MIDI cables	https://www.adorama.com/l/Audio/Cables-and-Adapters/Digital-and-Data-Cables/Hosa-Technology~MIDI-Cables	full
@@ -679,7 +679,7 @@ M-alaxala-networks	Alaxala Networks		house or manufacture						active						liste
 M-allied-telesis	Allied Telesis		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
 M-alcatel-lucent-enterprise	Alcatel Lucent Enterprise		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
 M-arcadyan	Arcadyan		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
-M-arris-international	Arris International		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-arris-international	Arris International		house or manufacture												SURFboard cable modems; page says ARRIS family	https://www.surfboard.com/products/cable-modems	full
 M-aruba-networks	Aruba Networks		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
 M-avaya	Avaya		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
 M-avm	AVM		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
@@ -887,7 +887,7 @@ M-rigby-peller	Rigby & Peller		house or manufacture		United Kingdom		1939							
 M-savage-x-fenty	Savage X Fenty		retail own-label		United States		2018								Wikipedia list of lingerie brands; made in Unknown	https://en.wikipedia.org/wiki/List_of_lingerie_brands	full
 M-schiesser	Schiesser		house or manufacture		Germany		1875								Wikipedia list of lingerie brands; made in Unknown; Listed in Wikipedia category Underwear brands	https://en.wikipedia.org/wiki/List_of_lingerie_brands | https://en.wikipedia.org/wiki/Category:Underwear_brands	full | full
 M-silhouette	Silhouette		house or manufacture		United Kingdom		1887								Wikipedia list of lingerie brands; made in Unknown	https://en.wikipedia.org/wiki/List_of_lingerie_brands	full
-M-spanx	Spanx		house or manufacture		United States		2000								Wikipedia list of lingerie brands; made in Thailand; Listed in Wikipedia category Hosiery brands	https://en.wikipedia.org/wiki/List_of_lingerie_brands | https://en.wikipedia.org/wiki/Category:Hosiery_brands	full | full
+M-spanx	Spanx		house or manufacture		United States										Shapewear bodysuits, shorts, tanks and camis	https://spanx.com/collections/shapewear	full
 M-thirdlove	ThirdLove		retail own-label		United States		2013								Wikipedia list of lingerie brands; made in China	https://en.wikipedia.org/wiki/List_of_lingerie_brands	full
 M-trashy-lingerie	Trashy Lingerie		retail own-label		United States		1973								Wikipedia list of lingerie brands; made in US	https://en.wikipedia.org/wiki/List_of_lingerie_brands	full
 M-true-co	True & Co.		retail own-label		United States		2012								Wikipedia list of lingerie brands; made in China	https://en.wikipedia.org/wiki/List_of_lingerie_brands	full
@@ -1043,7 +1043,7 @@ M-jackson-safety	Jackson Safety		house or manufacture												Welding helmets
 M-radnor-by-3m	RADNOR by 3M		retail own-label												Welding helmets on Airgas listing; Airgas own-label made with 3M Speedglas	https://www.airgas.com/Safety-Products/Head%2C-Eye-%26-Face-Protection/Welding-Helmets/Welding-Helmet---Auto-Darkening/category/422	full
 M-dadant-sons	Dadant & Sons		house or manufacture		United States										Beekeeping supplier; veils	https://www.dadant.com/catalog/protective-clothing/veils	full
 M-new-era	New Era		house or manufacture												Caps; END page says caps tied to sports culture	https://www.endclothing.com/ie/brands/new-era	partial
-M-3m	3M		house or manufacture												Peltor earmuffs and 6000 Series respirators	https://www.hillas.com/Categories/Peltor-Hearing-Protection/ | https://fishersci.ca/shop/products/3m-6000-series-resuable-half-facepiece-respirators-replaceable-p100-filters-3/p-56487	full | full
+M-3m	3M		house or manufacture												Tri-Flange corded earplugs, Peltor earmuffs	https://www.hillas.com/Categories/Peltor-Hearing-Protection/	full
 M-pyramex	Pyramex		house or manufacture												Safety glasses, earmuffs, earplugs, hard hats	https://www.discountsafetygear.com/pyramex-safety.html?page=6	full
 M-venture-gear	Venture Gear		house or manufacture												Pyramex sub-brand: Vallejo, Pagosa safety glasses; Amp BT earmuffs	https://www.discountsafetygear.com/pyramex-safety.html?page=6	full
 M-imask	iMask		house or manufacture												Surgical face masks ASTM Level 3; Benco lists them	https://shop.benco.com/Product/5738-347/imask-surgical-face-mask-astm-level-3-lavender-box	full
@@ -1068,7 +1068,7 @@ M-fruit-of-the-loom	Fruit of the Loom		house or manufacture												Listed in
 M-gerbe	Gerbe		house or manufacture												Listed in Wikipedia category Hosiery brands	https://en.wikipedia.org/wiki/Category:Hosiery_brands	full
 M-globe-international	Globe International		house or manufacture												Listed in Wikipedia category Hosiery brands	https://en.wikipedia.org/wiki/Category:Hosiery_brands	full
 M-gold-toe-brands	Gold Toe Brands		house or manufacture												Listed in Wikipedia category Hosiery brands; Listed in Wikipedia list of sock manufacturers	https://en.wikipedia.org/wiki/Category:Hosiery_brands | https://en.wikipedia.org/wiki/List_of_sock_manufacturers	full | full
-M-hanes	Hanes		house or manufacture												Beefy-T and fleece hoodies	https://www.hanes.com/men/tops	full
+M-hanes	Hanes		house or manufacture												Cotton tank tops and muscle tanks	https://www.hanes.com/men/tops	full
 M-hanesbrands	Hanesbrands		house or manufacture												Listed in Wikipedia category Hosiery brands; Listed in Wikipedia list of sock manufacturers	https://en.wikipedia.org/wiki/Category:Hosiery_brands | https://en.wikipedia.org/wiki/List_of_sock_manufacturers	full | full
 M-happy-socks	Happy Socks		house or manufacture												Listed in Wikipedia category Hosiery brands; Listed in Wikipedia list of sock manufacturers	https://en.wikipedia.org/wiki/Category:Hosiery_brands | https://en.wikipedia.org/wiki/List_of_sock_manufacturers	full | full
 M-holeproof-hosiery	Holeproof Hosiery		house or manufacture												Listed in Wikipedia category Hosiery brands; Listed in Wikipedia list of sock manufacturers	https://en.wikipedia.org/wiki/Category:Hosiery_brands | https://en.wikipedia.org/wiki/List_of_sock_manufacturers	full | full
@@ -1151,7 +1151,7 @@ M-blue-blue-japan	Blue Blue Japan		independent		Japan										Indigo-dyed five-
 M-boncoura	Boncoura		independent		Japan										Vintage-informed small-run jeans	https://denimhunters.com/japanese-denim-brands/	full
 M-burgus-plus	Burgus Plus		retail own-label		Japan	Tokyo	1997			M-hinoya					In-house brand of Tokyo retailer Hinoya; raw denim jeans	https://denimhunters.com/japanese-denim-brands/ | https://www.heddels.com/2019/08/raw-japanese-denim-beginners-guide-japans-biggest-labels	full | full
 M-hinoya	Hinoya		retail own-label		Japan	Tokyo									Tokyo denim and heritage retailer; makes Burgus Plus	https://www.heddels.com/2019/08/raw-japanese-denim-beginners-guide-japans-biggest-labels	full
-M-buzz-ricksons	Buzz Rickson's		independent		Japan										Military reproduction; jeans a small part	https://denimhunters.com/japanese-denim-brands/	full
+M-buzz-ricksons	Buzz Rickson's		independent		Japan										Type M-1943 field jacket reproduction, made in Japan	https://hinoya.shop/en/products/br15410	full
 M-canton	Canton		house or manufacture		Japan										First domestically produced Japanese jeans	https://denimhunters.com/japanese-denim-brands/	full
 M-deluxeware	Deluxeware		independent		Japan										Vintage-machine workwear, in-house production	https://denimhunters.com/japanese-denim-brands/	full
 M-denime	Denime		independent		Japan					M-warehouse-co					One of the Osaka Five; now produced by Warehouse	https://denimhunters.com/japanese-denim-brands/	full
@@ -1205,8 +1205,8 @@ M-aubin	Aubin		independent												Cardigans (Frampton, Helston, Studham, Lan
 M-joules	Joules		house or manufacture												Hillside cardigan	https://www.outdoorandcountry.co.uk/it/menswear/mens-knitwear/mens-cardigans.sub	full
 M-selected-homme	Selected Homme		house or manufacture		Denmark	Brande				M-bestseller-a-s					Men's overshirt range; products manufactured by Bestseller A/S	https://www.selected.com/en-fr/catalogue/men/shirts/overshirts	full
 M-bestseller-a-s	Bestseller A/S		house or manufacture		Denmark	Brande									Address Fredskovvej 5, DK-7330 Brande	https://www.selected.com/en-fr/catalogue/men/shirts/overshirts	full
-M-lands-end	Lands' End		retail own-label												Sells polo shirts, sweaters, button front shirts, sweater vests	https://www.landsend.com/shop/mens-sweaters-polo-shirts-clothing/S-xez-y5b-xh2-yqm-wq2-xec?pageQuantity=All	full
-M-stihl	STIHL		house or manufacture		Germany										Chainsaw protective trousers; shop page says German Engineered	https://www.stihl.co.uk/en/ap/function-core-trousers-199347 | https://shop.stihl.com.au/personal-protective-equipment/pants	full | full
+M-lands-end	Lands' End		retail own-label												Sweater vests	https://www.landsend.com/shop/mens-sweaters-polo-shirts-clothing/S-xez-y5b-xh2-yqm-wq2-xec?pageQuantity=All	full
+M-stihl	STIHL		house or manufacture		Germany										Chainsaw chaps and protective trousers	https://shop.stihl.com.au/personal-protective-equipment/pants	full
 M-kalki-fashion	Kalki Fashion		independent												Sells men's kurtas	https://www.kalkifashion.com/collections/mens-kurta	full
 M-japan-clothing	Japan Clothing		retail own-label												Sells hakama pants and skirts	https://japan-clothing.com/collections/hakama	full
 M-na-kd	NA-KD		retail own-label												Sells corset tops	https://www.na-kd.com/en/category/tops/corset-tops	full
@@ -1358,6 +1358,22 @@ M-our-legacy	Our Legacy		costume or fashion brand												European design-led
 M-sunflower	Sunflower		costume or fashion brand												European design-led denim	https://denimhunters.com/best-raw-denim-brands	full
 M-weirloom	Weirloom		independent												Jeans brand of Denimhunters founder Thomas Stege Bojer	https://denimhunters.com/best-raw-denim-brands	full
 M-levis-vintage-clothing	Levi's Vintage Clothing		licensee or diffusion							M-levi-strauss-co					Levi's archive reproduction line; most LVC jeans made in Japan; parent Levi Strauss & Co.	https://denimhunters.com/best-raw-denim-brands	full
-M-nike	Nike		house or manufacture												Club Fleece and Tech Fleece joggers	https://www.nike.com/t/club-fleece-mens-fleece-joggers-N44vfp | https://www.nike.com/at/en/t/tech-fleece-jogger-JfgcFv/HV0959-063	full | full
+M-nike	Nike		house or manufacture												Dri-FIT headbands	https://www.nike.com/w/headbands-58bbaz5e1x6znik1	full
 M-jamiesons-of-shetland	Jamieson's of Shetland		house or manufacture			Shetland Islands									Family knitwear business from the early 1890s; own spinning mill since 1981; Lerwick shop	https://www.jamiesonsknitwear.co.uk/ | https://baltzar.com/en-ca/journal/brand-stories/jamieson-s-of-shetland-a-living-legacy-of-heritage-knitwear	full | full
 M-aran-sweater-market	Aran Sweater Market		independent		Ireland	Aran Islands									Aran knitwear seller; stores on Inis Mor and Dublin	https://www.aran.com/gents-knitwear	full
+M-tbs	TBS		house or manufacture												PCIe TV tuner cards; shop at shop.tbsdtv.com	https://shop.tbsdtv.com/dvbt2-tv-tuner-pcie-c-12.html	full
+M-hauppauge	Hauppauge		house or manufacture												WinTV-quadHD PCIe TV tuner board	https://www.hauppauge.com/pages/webstore2/webstore_quadhd.html	full
+M-mouser	Mouser Electronics		storefront or marketplace												Distributor catalogue of loose passive and discrete components; resale	https://www.mouser.com/electronic-components/	full
+M-uncaged-ergonomics	Uncaged Ergonomics		house or manufacture												WorkEZ laptop stands	https://www.quill.com/laptop-cooling-pads/cbk/108343.html?page=2	full
+M-fjallraven	Fjallraven		house or manufacture												Anoraks, begun 1960 as backpack maker	https://www.fjallraven.com/us/en-us/men/jackets/anoraks/	full
+M-tolasmik	Tolasmik		house or manufacture												Balaclavas sold on Snowears	https://snowears.com/collections/balaclava-ski-masks	full
+M-renchill	RenChill		house or manufacture												Thermal balaclava ski mask sold on Snowears	https://snowears.com/collections/balaclava-ski-masks	full
+M-shunwei	SHUNWEI		house or manufacture												Arctic Veil balaclava sold on Snowears	https://snowears.com/collections/balaclava-ski-masks	full
+M-bcg	BCG		house or manufacture												UPF 50+ balaclavas sold on Snowears	https://snowears.com/collections/balaclava-ski-masks	full
+M-nandn	NANDN		house or manufacture												NANEND ski balaclavas sold on Snowears	https://snowears.com/collections/balaclava-ski-masks	full
+M-mutu	MUTU		house or manufacture												Merino wool balaclava sold on Snowears	https://snowears.com/collections/balaclava-ski-masks	full
+M-uhznus	Uhznus		house or manufacture												Merino wool balaclava sold on Snowears	https://snowears.com/collections/balaclava-ski-masks	full
+M-rauo	RAUO		house or manufacture												Fleece ski balaclavas sold on Snowears	https://snowears.com/collections/balaclava-ski-masks	full
+M-litan	LITAN		house or manufacture												Eco softshell snow balaclava sold on Snowears	https://snowears.com/collections/balaclava-ski-masks	full
+M-saffee	Saffee		house or manufacture												Balaclava face mask sold on Snowears	https://snowears.com/collections/balaclava-ski-masks	full
+M-heat-holders	Heat Holders		house or manufacture												Thermal knit headbands and earmuffs	https://www.heatholders.com/collections/womens-headbands-earmuffs	full
