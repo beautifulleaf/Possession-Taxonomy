@@ -103,3 +103,19 @@ Drafted by the domain A review (framework/structure/_review_A.md, section 4) and
 **C4(d) addition: recurring and free prices.** The band is computed per variant or plan row from the annualised list price of the plan as sold (all seats, `seat_count` recorded), at a dated USD rate; promotional first-year prices recorded but not used; one-time, perpetual, lifetime and multi-year terms at full price with term recorded; free plans band "0 (free)"; a domain name at the TLD's standard renewal price; a named form's band is that of its cheapest paid plan, plus `has_free_plan`.
 
 **C13 detail: one ledger for domain I and D5,** with shared `platform_id`s; and one `delivery` attribute list (download; boxed or carrier; app store; web or hosted; self-hosted; portable; stream; physical delivery; entry to a place; network connection). Delivery is never a C13 row.
+
+## Proposed additions from the domain F review (framework/structure/_review_F.md, section 4; owner approval needed)
+
+**C1 amendment: maker classes for domain F, multi-valued `maker_class`.** Add `publisher`, `imprint`, `record label`, `cartographic publisher`, `globe maker`; `artist`, `print studio or atelier`, `print publisher`, `foundry`; `mint`, `refiner`, `banknote and security printer`, `medallist or engraver`, `card manufacturer`, `awards maker`; `certifier or grader`; `taxidermy studio`. Extensions `authority_id` (ULAN, Numista, VIAF, ISNI) and `certifications`. Issuing authorities (states, central banks, postal administrations, transit authorities) go in one **issuer table** (`issuer_id`, name, country, type, years, sources) shared by F3 and F5; they are not makers.
+
+**Line vs named form (review C K4, all F).** A maker's line spanning several kinds is a C1 line row; a line or design inside one kind is a maker-bound named form.
+
+**Grading-scale registry (extends C16).** `scale_id`, name, owner, `scale_type` (condition grade; measured spec C4(b); platform label C4(c)), `steps`, `kinds_served`, `sources`. Kinds link to scales; no grade value is ever stored.
+
+**C6 addition: size against format.** A size class names a kind only when it changes what the object can be used with, so that one size cannot replace the other without different equipment (film gauge; 16-inch transcription disc; 3-inch Mini-CD), and a fetched source sells the sizes apart. Otherwise size is an attribute (record diameter, paperback trim, urn capacity).
+
+**C11 tie-break (two-region variety test).** A regional or variety name becomes a kind only when fetched sellers in two regions give it its own category and no generic kind covers its form.
+
+**Photographic prints** carry both `process` and `mount_format`.
+
+**Sources files.** Add a `fetch_status` column (full, partial, nav-only, failed) to every S2 sources TSV through a tool, and list excerpt-only facts in `S2_<CODE>_excerpts.tsv`. (Not yet done: needs a tools/ script.)
