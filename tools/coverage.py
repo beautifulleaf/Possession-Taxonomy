@@ -18,7 +18,7 @@ def main():
     linked = set()
     linked |= {n["maker_id"] for n in load("named_forms") if n["kind_id"] in kinds and n["maker_id"]}
     linked |= {l["maker_id"] for l in load("lines") if any(k in kinds for k in l["kinds"].split(";"))}
-    linked |= {m["maker_id"] for m in load("maker_kinds") if m["kind_id"] in kinds}
+    linked |= {m["maker_id"] for m in load("maker_kinds") if m["kind_id"] in kinds or m["kind_id"] == code}
     if code == "A1":
         linked |= {t["subject_id"] for t in load("scene_tags") if t["subject_type"] == "maker"}
     makers = {m["maker_id"]: m for m in load("makers")}
