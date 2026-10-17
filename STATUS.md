@@ -80,3 +80,13 @@ Search cap: `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` = 100000. Test WebFetch (
 
 ## Next (session 2)
 After the owner's answers to the queue: apply any category edits to v0.3, re-run one blind round if anything structural changed, then run the stage-2 pilot memos for the two approved categories (template in framework/STAGE2_MEMO_TEMPLATE.md; web research agents, Opus reviewer per memo).
+
+## Session 2 (2026-10-17) — Stage 2 pilot: A1 Clothing and D1 Computers & Components
+Owner approved the 44 categories "as of now" and raised no objection to queue items 2–6 (defaults recorded in BRIEF.md).
+
+| Phase | What | State |
+|---|---|---|
+| 0 | Research batches CL01–06 (clothing) and PC01–05 (computers) | running |
+| 1 | Memo drafts (Opus writer per category, from research outputs only) | |
+| 2 | Cold review of each memo (Opus), revisions | |
+| 3 | Present memos and owner decisions | |

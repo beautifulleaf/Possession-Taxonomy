@@ -1,0 +1,9 @@
+BATCH G01 — how groceries and ingredients are divided, and how their quality is graded. First read /home/user/Possession-Taxonomy/verify/in/COMMON.txt. (For this batch, food and drink ARE in scope.)
+TASK A (structure): record the top two or three levels of grocery divisions from:
+1. Google Product Taxonomy, the 'Food, Beverages & Tobacco > Food Items' and '> Beverages' branches, down to level 4 (file https://www.google.com/basepages/producttype/taxonomy.en-US.txt; read the right offset range with WebFetch, around characters 100000–160000, and ask for every line starting 'Food, Beverages & Tobacco').
+2. COICOP 2018 division 01 (Food and non-alcoholic beverages): groups and classes.
+3. Two large supermarkets' online department trees (e.g. Tesco or Waitrose, and one in Asia such as AEON, Coles, or Lotte Mart) and one specialty or premium grocer (e.g. Eataly, Whole Foods, a department-store food hall).
+OUTPUT A: verify/out/G01.tsv with header: source	url	level1	level2	level3	note
+TASK B (quality): for these ingredient groups find, from fetched pages, how quality is officially or commonly graded: beef (USDA grades; Japanese JMGA yield and meat-quality grades and BMS), pork and poultry (heritage breeds, label rouge, free range), fish and seafood (sashimi grade, MSC, caviar grades), eggs (grades, sizes), cheese and dairy (PDO, ageing), olive oil (IOC extra virgin grades), rice and grains, spices (saffron ISO 3632 categories), honey (manuka UMF/MGO), coffee (SCA specialty score), tea (orthodox leaf grades such as FTGFOP; matcha grades), chocolate/cocoa (fine-flavour), wine and spirits (appellation systems, age statements). Also the EU PDO/PGI/TSG scheme in general.
+OUTPUT B: verify/out/G01_quality.tsv with header: group	scheme	levels	url	note   (levels: the grade names in order, best first where the scheme orders them)
+CAPS: 18 searches, 45 fetches.

@@ -1,0 +1,11 @@
+STAGE 2 RESEARCH TASK (shared part). First read /home/user/Possession-Taxonomy/verify/in/COMMON.txt (web and file rules; they apply in full).
+Context: a taxonomy of everything people own. Its top level is fixed (read /home/user/Possession-Taxonomy/framework/CATEGORIES_v0_3.md, the "Categories" section and the shared rules S1–S6 and Appendix A; skim the key). Your batch researches how ONE category's world already organises itself, so that its inner structure can be designed from evidence. You do not design the structure. You collect evidence.
+Rules for this task:
+- Prefer primary pages: the retailer's own navigation and filter panels, the community's own wiki or FAQ, the standard body's own page, the museum's own thesaurus. Record every fetched URL you use.
+- Search in the local language where your batch names non-English sources.
+- Separate what a source SAYS (quote or paraphrase with URL) from what you infer (mark it "inference").
+- Keep counts honest: when you estimate a number, say how.
+Outputs (both required):
+1. verify/out/<BATCH>.tsv — the structured evidence your task specifies, with a source_url column on every row.
+2. verify/out/<BATCH>.md — findings under 900 words: what you found, patterns across sources, disagreements between sources, and anything that surprised you. Cite URLs inline.
+CAPS: 15 searches, 40 fetches (each URL counts as one fetch). Use verify/work/<BATCH>/ for scratch files only.
