@@ -453,7 +453,7 @@ Where the memos handle one concept in different ways, this section proposes one 
 
 Lines are a separate table (K4), and tiers are tier entries (K5). Every memo keeps its ledger scope (light in C8, originators only in C3) but uses these columns.
 
-**K3. One system (compatibility) ledger, shared across categories.** The same idea appears under five names:
+**K3. One system (compatibility) ledger, shared across categories.** The same idea appears in seven memos under different names:
 - C1: platform ledger and storage-system ledger;
 - C2: system column (combisystem, Micro-Drip, Stihl AK);
 - C4: compatibility codes and needle systems, with no field;
@@ -471,18 +471,18 @@ Lines are a separate table (K4), and tiers are tier entries (K5). Every memo kee
 
 Kinds and named forms point to it with a `system` attribute. Open standards that name non-interchangeable forms (IEC battery sizes, plug types A to O, ISO pipe threads, AD730 hitch categories) are rows with `openness = open standard`.
 
-**K4. Maker lines are rows, not levels or kinds.** C1 (Bosch blue and green; Axminster Trade, Industrial), C4 (Cotman against Professional; Tamiya LP, X, XF), C8 (Coppertop against Everyday) and C3 (Stark Bro's Exclusives) all describe a maker's range. *Convention:* a line is a row (maker, line name, kinds covered, grade within the maker's own ladder, attestation) that named forms point to. This is the same rule review A proposed for jewellery collections and lolita prints (its convention C3), so the whole taxonomy gets one line table.
+**K4. Maker lines are rows, not levels or kinds.** C1 (Bosch blue and green; Axminster Trade, Industrial), C4 (Cotman against Professional; Tamiya LP, X, XF), C8 (Coppertop against Everyday) and C3 (Stark Bro's Exclusives) all describe a maker's range. *Convention:* a line is a row in review A's lines-and-collections table (`line_id`, `maker_id`, name, the kinds it spans, years, sources; its convention C1), and named forms point to it. The maker's own grade for the line (Bosch blue or green, Cotman student, Axminster Trade) is a tier entry on the line (K5). The whole taxonomy then has one line table.
 
 **K5. Tier fields, on named forms and lines only.**
 - C2, C4, C5 and C6 put tier on kinds. C1, C3 and C7 put it on named forms or attributes only.
 - C5 builds its tier from price.
 - C1 and C6 propose per-leaf vocabularies.
 
-*Convention:*
-- Fields: `tier_scheme` (a controlled list per leaf: DIY / prosumer / professional / industrial; student / artist; alpha / high-end / mid / entry; AOS HCC / AM / FCC; RHS AGM), `tier_value`, `tier_basis` (spec | consensus | maker label | award), `tier_source` (URL).
-- They sit on a named form or line row, never on a kind.
-- `price_band` is a separate modifier and is never used as a tier basis.
-- Spec classes with units (property class 8.8, cone 6, PPE µmol/J, hitch category) are attributes, and they may also feed a spec-ranked tier.
+*Convention:* use review A's tier-entry model (its convention C4) in domain C:
+- A tier is a **tier entry** (`subject_id`, `scheme`, `value`, `source_url`, `date`) on a maker, a line or a named form, and never on a kind. Domain C adds one field, `basis` (consensus | maker label | award), so that the C1 grade (maker label), the C6 alpha ladder (consensus) and the C3 AOS and RHS awards (award) are kept apart.
+- Each leaf that has tiers names its `scheme` from a controlled list: DIY / prosumer / professional / industrial (C1); student / artist (C4); alpha / high-end / mid / entry (C6 binoculars); AOS HCC / AM / FCC and RHS AGM (C3).
+- A measured spec ladder (ISO 898-1 property class, cone number, PPE µmol/J, prism glass grade, hitch category, voltage) is an **attribute** with its standard named, not a tier entry. Categories the memos call "spec-ranked" (C6 telescopes, C7, C8 bolts) therefore order by attribute and need no tier entries.
+- `price_band` is review A's domain-wide band scheme. It is never a tier basis, which rules out C5's price ladder (F24).
 
 *Changes:* C2 (F9), C4 (F19), C5 (F24), C6 (F31).
 
@@ -501,9 +501,9 @@ Kinds and named forms point to it with a `system` attribute. Open standards that
 
 Section 5, Q15.
 
-**K7. Where S3 parts sit.** C5 and C6 put parts in a leaf inside the sub-family of the whole ("Ink and refills"; "Parts for optical instruments"). C1 and C7 use a closing sub-family ("Accessories"; "Tractor fittings"). C2 and C4 keep parts with their kind. *Convention:* parts go in a leaf "Parts & accessories" inside the sub-family of the object they fit. A closing sub-family "Parts, accessories & consumables" is used only when parts fit kinds in several sub-families (C1 bits and blades, C7 tractor fittings). Nothing that is not a part may sit in a parts leaf (the C5 eraser, F23).
+**K7. Where S3 parts sit.** C5 and C6 put parts in a leaf inside the sub-family of the whole ("Ink and refills"; "Parts for optical instruments"). C1 and C7 use a closing sub-family ("Accessories"; "Tractor fittings"). C2 and C4 keep parts with their kind. *Convention:* follow review A's rule (its convention C5(d)): each category that receives S3 items ends with one sub-family "Parts, accessories & consumables made for one <object>". This is the only sub-family exempt from the level-1 axis. Its leaves are the objects served (telescope parts, microscope parts; pen refills and converters; tractor fittings; tool bits and blades). In C2 and C4, where parts now sit with their kinds, they move there too. Nothing that is not a part may sit in it (the C5 eraser, F23). This replaces C5's "Ink and refills" leaf and C6's leaf C6.1.7, and it confirms C1's and C7's closing sub-families.
 
-**K8. Regional types.** C1 names kinds "Japanese chisel", "Japanese plane" and "Japanese hammer". C7 names "rice transplanter" generically, with a region tag. C5 names "seal (hanko)" and "abacus (soroban)" generically. *Convention:* a regional type is a kind only when its form differs. It is named generically by form, its native names are aliases, and region is a tag. Traditional sub-types made by many makers are kinds (or named forms where they differ only in proportion), never region leaves. Changes: C1 (F2). Review A applied the same test to traditional dress (its findings F4 and F11).
+**K8. Regional types.** C1 names kinds "Japanese chisel", "Japanese plane" and "Japanese hammer". C7 names "rice transplanter" generically, with a region tag. C5 names "seal (hanko)" and "abacus (soroban)" generically. *Convention:* take review A's rule (its convention C2(c)): a traditional or regional type is a kind when a fetched source shows it sold or compared as its own category, and otherwise a named form without a maker (`maker_bound = no`) under the nearest generic kind. It carries a region tag, appears in a "by tradition" view, and never gets a leaf of its own. Domain C adds one naming rule: a regional kind is named generically by its form ("double-edged pull saw", "pull plane"), with native names in the alias table, and never as "Japanese X". Japamart, Hida and Suzuki-ya [C1 S9–S11] sell pull saws, kanna and nomi as categories, so under this rule they are kinds (F2). Changes: C1 (F2).
 
 **K9. Material in kind names.** "Plastic toolbox" (C1) and "quilting cotton" (C4) carry material or use in the name. "Vegetable-tanned leather" (C4), "sawn timber" (C8) and "stoneware clay" (C4) are cases where material is the form. *Convention:* material names a kind only when the object is the material (leather, timber, clay body, fabric cloth) or when the material makes the form. Otherwise it is an attribute.
 
@@ -513,8 +513,8 @@ Section 5, Q15.
 - C8 treats battery designations, plug types and screw drives as named forms.
 
 *Convention:*
-- Named forms are models, lines, traditional patterns, cultivars, grex and strains, and standard designations that name a distinct, non-interchangeable form (Type G plug, CR2032, BSPP thread).
-- Colours, sizes, pack counts and SKUs are never named forms.
+- Named forms are models, traditional patterns, cultivars, grex and strains, and standard designations that name a distinct, non-interchangeable form (Type G plug, CR2032, BSPP thread). Each carries review A's `maker_bound` field (yes for Felco 2 or Lamy Safari; no for Stanley No. 4 as a pattern, ryōguchi genno, or a cultivar). Lines are K4 rows, not named forms.
+- Colours, sizes, pack counts and SKUs are never named forms. They are attributes, or variants in review A's sparse variant table (its convention C3).
 - Named forms are loaded on demand, one attested row each, and are not pre-enumerated.
 - Each kind may hold the iconic forms that sources name without a cap, but catalogue completeness is not a goal.
 

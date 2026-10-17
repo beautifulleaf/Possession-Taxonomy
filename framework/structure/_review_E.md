@@ -140,7 +140,7 @@ Each finding gives severity, memo, evidence and an exact proposed fix. "Conforms
     - Brass;
     - Free-reed instruments (harmonica, accordion, concertina, bandoneon, harmonium, melodica, shruti box);
     - Drums & percussion;
-    - Mechanical instruments (music box, player piano roll mechanism);
+    - Mechanical instruments (music box, barrel organ);
     - Other idiophones, including the musical saw.
   - A free-reed leaf ends the accordion dispute in decision 6 on a sound-source rule that customs (HS 9205) and H-S already use.
 
@@ -180,4 +180,70 @@ Each finding gives severity, memo, evidence and an exact proposed fix. "Conforms
 - (b) Fog and haze machines: the memo leaves them open. Proposed: B4 (decorative effects) or a new note. Owner question.
 - (c) Classroom Orff instruments: E3 when tuned and made to be played as instruments; E1 when sold as toys (with E1-5).
 - (d) Evidence gaps: tiers are US-only, and there is no Chinese or Indian retailer (the memo says so). Fetch one each before harvest.
+
+### E4 Weapons & Armour
+
+**E4-1 (high) The sword leaves mix three axes.**
+- *Evidence.* The E4.4 leaves are "Straight double-edged swords", "Single-edged swords", "Thrusting swords" and "Two-handed swords". These mix edge, use and hilt length. Wikipedia [S13] gives hilt and blade as two separate cuts. The katana is single-edged and two-handed. The Zweihänder is straight, double-edged and two-handed. The rapier is double-edged and thrusting. The nodachi and the longsword are both two-handed.
+- *Fix.* Use one leaf axis, blade profile:
+  - straight double-edged;
+  - single-edged, straight or curved;
+  - thrusting (edgeless or narrow).
+  - Hilt length (one-handed, hand-and-a-half, two-handed) becomes an attribute.
+  - "Greatsword" moves to straight double-edged.
+  - With about 12 kinds or fewer per leaf, E4.4 may skip the leaf level under C5(b).
+
+**E4-2 (high) C11 is applied to the sabre but not to the jian or the dao.**
+- *Evidence.* Section 3 makes "sabre" "a cross-cultural kind (single-edged curved cavalry sword); national patterns are named forms". Yet the jian sits beside the longsword, and the dao beside the katana, as kinds. C11: "Where a generic kind exists, the regional name is a named form under it, tagged with the region." By the memo's own logic, the dao (liuyedao, dadao) is a regional single-edged curved sword. The memo also says the sabre and rapier lack attestation (decision 15).
+- *Fix.*
+  - Kinds go by generic form, with the regional names as named forms and region tags: arming sword (jian, as a named form tagged China); longsword; greatsword; sabre (dao, shamshir, kilij, talwar, cavalry sabre: named forms with region tags); cutlass; rapier; smallsword.
+  - The Japanese types (katana, tachi, wakizashi, ōdachi) stay kinds, under C2(c), because fetched dealers sell and compare them as their own categories [S10][S11][S30]. Their C11 label is "katana (Japanese long sword)".
+  - Owner question: accept this asymmetry, or make "Japanese sword (nihontō)" one kind with length class and mounting as attributes (see E4-3).
+
+**E4-3 (medium) Length classes and individual-item grades.**
+- *Evidence.* Katana, wakizashi and tantō are separated by blade length in shaku ("arbitrary but necessary" thresholds [S30]). C6 says size is always an attribute. The tantō then moves to a different sub-family (E4.5) from the katana. NBTHK grades (Hozon to Tokubetsu Juyo) are certificates issued to one individual blade [S10]. BRIEF puts individual unique items out. The memo nevertheless proposes a modifier `certificate_grade`.
+- *Fix.* Keep katana, wakizashi and tantō as kinds and record why: the length class names a different carried object and mounting set (daishō), and it is the first browse path of the trade [S10]. That is the C2(a) comparison test, not size alone. Keep the tantō in E4.4 with the other Japanese blades, and add a sentence that a tantō is a sword kind by tradition, so that its sub-family does not depend on length. Drop `certificate_grade` from the data model, because it belongs to an individual item. School and era stay tags.
+
+**E4-4 (medium) The knife leaves mix form, use and mounting, and axes are missing.**
+- *Evidence.* The E4.5 leaves are Daggers, "Fixed fighting and hunting knives", "Folding fighting knives", Throwing knives and Bayonets. The karambit is sold both fixed and folding (Blade HQ lists it as a "style" across types [S07]). E4.6 is named "Polearms, axes and impact weapons" but has no axe kind. The tomahawk, battle axe, flail, rope dart and three-section staff (counted in section 4) are not placed. The bō staff is neither a spear nor a mace, and the tonfa overlaps with the baton.
+- *Fix.*
+  - E4.5 has about 12 kinds, so it takes no leaf (C5b). Kinds go by blade style: dagger, push dagger, Bowie or fighting knife, hunting knife, karambit, butterfly knife, automatic or out-the-front knife, throwing knife, bayonet. `deployment` (fixed, folding, automatic) is an attribute. The butterfly knife and the automatic knife stay kinds, because their opening mechanism is their form and the reason the key and the law name them.
+  - Under E4.6, use the leaves Polearms (spear, halberd, glaive, naginata); Axes (battle axe, tomahawk made for fighting or throwing); Staffs (bō, gun staff); Impact weapons (mace, war hammer, baton, tonfa, nunchaku, kubotan); Flexible weapons (flail, rope dart, chain whip, three-section staff), the last following the Chinese 软兵器 class [S19].
+
+**E4-5 (medium) A kind named after a brand, and leaves named by power source.**
+- *Evidence.* "Taser" is a kind, sourced to "Brownells Tasers and Accessories" [S03]. TASER is Axon's trademark. The E4.7 leaves are "Chemical" and "Electric", with one and two kinds.
+- *Fix.* Name the kinds "projectile electroshock weapon" (named form: TASER, maker-bound) and "contact stun gun". Drop the two leaves (C5b: E4.7 has fewer than 12 kinds). Pepper spray, pepper gel and pepper-ball launcher become kinds directly under the sub-family. The memo's "CO2 launcher" row joins them.
+
+**E4-6 (medium) Cartridge as a kind conflicts with C6 and C13.**
+- *Evidence.* E4.9 makes each cartridge, gauge or pellet calibre a kind ("9×19 mm Luger cartridge", "12-gauge shotshell"), which gives 100 to 150 kinds. The same memo makes calibre an attribute of the weapon. C6 makes sizes attributes, and C13 puts maker- or standard-set compatibility in a ledger. A cartridge is defined by a standard (CIP or SAAMI) and fixes which weapon it fits.
+- *Fix.* Kinds stop at cartridge class: centrefire handgun cartridge, centrefire rifle cartridge, rimfire cartridge, shotshell, muzzle-loading projectile and propellant, air-gun pellet, arrow, crossbow bolt. Each named cartridge (9×19 mm Parabellum, .308 Winchester, 12 gauge 70 mm) is a non-maker-bound named form (C2a) and a C13 ledger row (`owner` = CIP or SAAMI). A maker's load (bullet type, weight) is a C3 variant. Buyers still browse by calibre, through the named form. This keeps four levels and makes the rule "calibre is the same field on the weapon and on the ammunition" (decision 5).
+
+**E4-7 (medium) Overlapping kinds within firearms, and power source within air guns (C10).**
+- *Evidence.* The kinds "single-action revolver" (with the Colt Dragoon, a percussion revolver) and "muzzle-loading rifle" make the muzzle-loading action a kind under rifles but not under revolvers. A percussion revolver is both. The air-rifle kinds are PCP, spring-piston and CO2. The source also lists gas (nitro) piston and multi-pump [S27]. A gas-piston break-barrel has the same body as a spring-piston one.
+- *Fix.*
+  - Apply C10. PCP, CO2, spring or gas piston, and multi-pump are kinds only where the powerplant changes the body or needs new fittings (PCP: a reservoir and filling equipment; CO2: a capsule housing). Spring piston and gas piston are one kind, "piston air rifle", with the piston type as an attribute.
+  - For firearms, add one rule: "ignition system (flintlock, percussion, cartridge) is an attribute; 'muzzle-loading' is a kind only for long guns, where it changes the loading form". A percussion revolver is then a single-action revolver with `ignition` = percussion.
+
+**E4-8 (medium) Choice-level evidence rests on excerpts and on US retail.**
+- *Evidence.* The split of rifles by action at Euroshot, Pyramyd's powerplant split, Brownells' calibre list, Lancaster's bow types and archery styles, and NihontoWatch's Juyo share are all marked † (read from search excerpts). Section 4b admits "This batch did not fetch review-site 'best X' lists". Eighteen of the 37 sources are US-only, and three more are US or global.
+- *Fix.* Before the owner approves, fetch two comparison sources per sub-family, at least one outside the US: a German or UK review of rifle actions; a UK airgun magazine's powerplant tests; a Japanese or European archery retailer; a European sword dealer naming sabre and rapier (decision 15). Replace the † details with fetched text.
+
+**E4-9 (medium) Tier, protection level and the maker ledger (C1, C4).**
+- *Evidence.* Section 5 puts `protection_level` "on the kind" and makes the "Authenticity class" a modifier. The maker ledger has "tier (preference) … platform or chambering", plus "a parallel *school and smith* table". The compatibility table for platforms is only sketched.
+- *Fix.*
+  - NIJ HG1 to RF3 and NIJ 0115.00 are spec attributes with their standard named (C4b) on the named form, not tiers.
+  - `function_class` keeps only battle-ready and working replica. "Antique" is an era tag, and decorative or blunted objects leave E4 by the key.
+  - Ledger: smiths are C1 rows with `maker_class` = artisan. Schools (Bizen, Mino, Soshu) are not makers: record them as tradition tags (C8 vocabulary), or as a separate `school` table with smiths' `parent_id` pointing to it (owner choice).
+  - "Platform or chambering" moves to C13 ledger rows: AR-15 pattern, MIL-STD-1913/Picatinny and M-LOK rails, and Glock-pattern magazines. Each needs a fetched source.
+
+**E4-10 (low) Boundaries the memo does not close, and one key conflict.**
+- *Evidence.* The E2 row of section 9 lists "ear defenders for shooting", but step 17 names ear defenders in A1 (personal protective equipment against a hazard). Also unplaced: the blank-firing starting pistol (E4 leaf or E2 athletics), the flare gun (G1 under S3 for boats, or C8), the holster (S3 sends anything worn on the body to step 17, so A4?), the plate carrier (armour or part), the ballistic helmet (decision 14), slingshots, blowguns and shuriken (decision 9), reloading presses (decision 10), and quivers, archery targets and arm guards (E2 P9).
+- *Fix.* Add these sentences:
+  - "Ear defenders and shooting glasses are A1 (step 17), whatever the use."
+  - "A blank-firing pistol made for self-defence or deterrence is E4; one made to start races is E2."
+  - "A holster or belt pouch worn on the body is A4, because S3 never sends worn objects to a part; a hard case for one firearm is E4."
+  - "A plate carrier is E4 armour."
+  - For the rest, adopt E2's P9 jointly (cross-memo finding X3).
+
+**E4-11 (low) Order.** Section 8 orders named forms "by introduction date or typology number". *Fix.* Follow C7 for maker-bound forms (maker, then year). For non-maker-bound forms with a published typology (Oakeshott), use typology order. Propose that as a C7 addition (section 3).
 
