@@ -1,0 +1,346 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-A1.5.1.02-001	to_line	L-smartwool-classic-thermal-merino	Classic Thermal Merino	A1.5.1.02		Base-layer collection of tops and bottoms in one weight: a range of several models.
+NF-A1.5.1.02-002	to_line	L-smartwool-intraknit-thermal-merino	Intraknit Thermal Merino	A1.5.1.02		Base-layer collection of tops and bottoms in one weight: a range of several models.
+NF-A1.5.1.02-003	to_line	L-smartwool-classic-all-season-merino	Classic All-Season Merino	A1.5.1.02		Base-layer collection of tops and bottoms in one weight: a range of several models.
+NF-A1.5.1.04-001	to_line	L-modibodi-classic	Classic	A1.5.1.04		Line prefix spanning several cuts (Classic Bikini, Seamfree Thong): a range, not one design.
+NF-A1.5.1.04-002	to_line	L-modibodi-seamfree	Seamfree	A1.5.1.04		Line prefix spanning several cuts (Classic Bikini, Seamfree Thong): a range, not one design.
+NF-A1.5.1.04-003	to_line	L-modibodi-soft-stretch-seamless	Soft Stretch Seamless	A1.5.1.04		Line prefix spanning several cuts (Classic Bikini, Seamfree Thong): a range, not one design.
+NF-A1.5.1.04-004	to_line	L-modibodi-basic	Basic	A1.5.1.04		Line prefix spanning several cuts (Classic Bikini, Seamfree Thong): a range, not one design.
+NF-A1.5.4.01-003	to_line	L-calzedonia-premium-fit	Premium Fit	A1.5.4.01		Fit line covering several swimsuit models, per the harvested note.
+NF-A1.5.4.01-004	to_line	L-calzedonia-minimal-fit	Minimal Fit	A1.5.4.01		Fit line covering several swimsuit models, per the harvested note.
+NF-A1.5.3.04-001	to_line	L-oyaco-grobag	Grobag	A1.5.3.04		Grobag is a brand range of many sleeping-bag models (tog and size variants).
+NF-A1.6.07-001	to_line	L-miller-classic	Classic Series	A1.6.07		Series name covering several helmet models; Digital Elite and the others stay named forms.
+NF-A1.6.04-005	to_line	L-msa-v-gard	V-Gard	A1.6.04		V-Gard covers cap-style and full-brim shells; C1, 500 and H2 are models in it.
+NF-A1.4.1.13-002	to_line	L-the-north-face-glacier	Glacier	A1.4.1.13;A1.1.4.03		Glacier fleece line spans full-zip jackets and quarter-zip pullovers.
+NF-A1.1.2.02-001	to_line	L-uniqlo-super-non-iron	Super Non-Iron	A1.1.2.02		Dress-shirt line in several collar models.
+NF-A1.1.4.02-002	to_line	L-champion-powerblend	Powerblend	A1.1.4.01;A1.1.4.02;A1.2.2.04		Collection of hoodies, sweatshirts and sweatpants.
+NF-A1.1.1.01-004	to_line	L-hanes-beefy-t	Beefy-T	A1.1.1.01		T-shirt line with pocket, long-sleeve and Henley models; the Henley row is a named form in it.
+NF-A1.2.1.01-118	to_line	L-naked-famous-denim-elephant	Elephant	A1.2.1.01		Long-running series of different heavyweight denim models.
+NF-A1.2.2.03-018	to_line	L-dickies-skateboarding	Skateboarding	A1.2.2.03;A1.2.1.01		Skateboarding collection of pants and jeans (Wingville jeans), several fits.
+NF-A1.4.2.04-003	move_kind				A1.4.2.07	Smooth-shell hooded down parka: the new parka kind, not a quilted puffer coat.
+NF-A1.4.2.04-004	move_kind				A1.4.2.07	Smooth-shell hooded down parka: the new parka kind, not a quilted puffer coat.
+NF-A1.6.04-004	move_kind				A1.6.01	Bump cap is a cap with a shell insert, not a hard hat; form decides (P14).
+NF-A1.7.02-003	move_kind				A1.7.01	Folded square worn round the neck is a scarf by form, not a necktie.
+NF-A1.3.4.06-002	drop					Craft name (embroidery) on the cloth: attribute or variant under C2(b), not a form.
+NF-A1.3.4.06-003	drop					Craft name (tie-dye) on the cloth: attribute or variant under C2(b), not a form.
+NF-A1.3.4.06-004	drop					Craft name (embroidery) on the cloth: attribute or variant under C2(b), not a form.
+NF-A1.3.4.06-006	drop					Craft name (block print) on the cloth: attribute or variant under C2(b), not a form.
+NF-A1.3.4.06-009	drop					Craft name (tie-dye) on the cloth: attribute or variant under C2(b), not a form.
+NF-A1.3.4.06-010	drop					Craft name (painted or printed technique) on the cloth: attribute or variant under C2(b), not a form.
+NF-A1.3.4.07-002	drop					Aari is an embroidery technique: attribute under C2(b).
+NF-A1.1.2.05-006	drop					Chikan embroidery on a straight kurta: craft attribute (C2(b)).
+NF-A1.7.01-001	drop					Tartan is a pattern: attribute (C2(b)), as the row note says.
+NF-A1.7.01-002	drop					Material plus kind name; a stole is A1.3.4.07, cashmere an attribute.
+NF-A1.5.3.03-004	drop					Waffle weave is a material attribute.
+NF-A1.5.3.03-005	drop					Velour is a material attribute.
+NF-A1.5.2.02-017	drop					US name for tights: alias row (C9), not a form.
+NF-A1.5.2.02-018	drop					Fishnet is a mesh knit: material or pattern attribute (C2(b)).
+NF-A1.5.2.03-002	drop					Generic description restating the stockings kind; no model name.
+NF-A1.5.3.01-001	drop					Restates the pyjamas kind (top with shorts or trousers).
+NF-A1.5.3.01-003	drop					Duplicate of A1.5.3.02-001; a one-piece nightshirt is not two-piece pyjamas.
+NF-A1.5.1.04-011	drop					Rise (high waist) is a fit attribute, not a cut.
+NF-A1.5.1.03-005	drop					Theme (gothic, steampunk) is a scene tag, not a form.
+NF-A1.5.4.01-001	drop					Neckline is an attribute (as for dresses).
+NF-A1.5.4.01-002	drop					Leg line is a cut attribute.
+NF-A1.5.4.02-002	drop					Neckline is an attribute.
+NF-A1.5.4.02-005	drop					Tie fastening is an attribute.
+NF-A1.4.3.03-001	drop					Double-breasted front is a fastening attribute.
+NF-A1.4.3.05-015	drop					Buoyancy class (ISO 12402 level) is a certification attribute (C2(b)).
+NF-A1.6.02-008	drop					Restates the beanie kind.
+NF-A1.6.02-011	drop					Canadian regional name for a beanie: alias row (C9).
+NF-A1.6.02-012	drop					Canadian regional name for a beanie: alias row (C9).
+NF-A1.6.01-034	drop					Tweed is a material; the flat cap is already a named form.
+NF-A1.6.03-091	drop					Already an alias inside the songkok row A1.6.03-116.
+NF-A1.6.09-015	drop					Reader lens is a lens attribute; Pyramex reader models stay.
+NF-A1.6.10-006	drop					Headband position or fold is a mounting attribute of one cup design (C12).
+NF-A1.6.10-007	drop					Headband position or fold is a mounting attribute of one cup design (C12).
+NF-A1.6.10-008	drop					Headband position or fold is a mounting attribute of one cup design (C12).
+NF-A1.6.10-009	drop					Headband position or fold is a mounting attribute of one cup design (C12).
+NF-A1.6.12-001	drop					Earloop against tie-on is a fastening attribute.
+NF-A1.7.02-002	drop					Shop category name, not a form.
+NF-A1.7.03-002	drop					Cycling sleeve made for a sport is E2 (A-6); re-home at the E2 harvest.
+NF-A1.7.03-003	drop					Alias of the arm sleeve kind (C9).
+NF-A1.7.04-001	drop					Restates the arm warmer kind.
+NF-A1.7.07-008	drop					Generic material and construction words, not a model name.
+NF-A1.7.07-011	drop					Generic feature word, not a model name.
+NF-A1.8.02-001	drop					Collar fit is a size attribute (C6).
+NF-A1.8.03-001	drop					Material plus kind name, no model name.
+NF-A1.8.03-002	drop					Shop category name, not a model.
+NF-A1.1.2.01-001	drop					Flannel is a material (C2(b)).
+NF-A1.1.1.01-002	drop					Sleeve construction is an attribute (memo 4b, tops).
+NF-A1.1.1.01-003	drop					Neckline is an attribute (memo 4b, tops).
+NF-A1.1.1.01-008	drop					Neckline is an attribute (memo 4b, tops).
+NF-A1.2.4.01-008	drop					The skirt kind makes cut an attribute.
+NF-A1.2.4.01-009	drop					The skirt kind makes cut an attribute.
+NF-A1.2.4.01-010	drop					The skirt kind makes cut an attribute.
+NF-A1.2.4.01-011	drop					The skirt kind makes cut an attribute.
+NF-A1.2.2.05-009	drop					Armoured trousers are armour against weapons: E4 (P13).
+NF-A1.1.2.05-011	drop					Kurti is an alias of kurta (C11 one region); length is an attribute.
+NF-D1.2.1.01-001	to_line	L-intel-core-ultra-9	Core Ultra 9	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-002	to_line	L-intel-core-i9	Core i9	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-003	to_line	L-intel-core-ultra-7	Core Ultra 7	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-004	to_line	L-intel-core-i7	Core i7	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-005	to_line	L-intel-core-ultra-5	Core Ultra 5	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-006	to_line	L-intel-core-i5	Core i5	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-007	to_line	L-intel-core-i3	Core i3	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-008	to_line	L-intel-pentium	Pentium	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-009	to_line	L-intel-celeron	Celeron	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-010	to_line	L-intel-xeon	Xeon	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-011	to_line	L-amd-ryzen-9	Ryzen 9	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-012	to_line	L-amd-ryzen-7	Ryzen 7	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-013	to_line	L-amd-ryzen-5	Ryzen 5	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-014	to_line	L-amd-ryzen-3	Ryzen 3	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-015	to_line	L-amd-athlon	Athlon	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.1.01-016	to_line	L-amd-ryzen-threadripper	Ryzen Threadripper	D1.2.1.01		Maker class covering many chip models (memo 4b); chip models are the named forms.
+NF-D1.2.2.01-001	to_line	L-asus-rog-maximus	ROG Maximus	D1.2.2.01		Board series or tier across chipsets and models; board models are the named forms.
+NF-D1.2.2.01-002	to_line	L-asus-rog-strix	ROG Strix	D1.1.2.01;D1.2.2.01;D1.4.4.01		Board series across chipsets and models; also spans other kinds.
+NF-D1.2.2.01-003	to_line	L-asus-rog-crosshair	ROG Crosshair	D1.2.2.01		Board series or tier across chipsets and models; board models are the named forms.
+NF-D1.2.2.01-004	to_line	L-asus-tuf-gaming	TUF Gaming	D1.1.2.01;D1.2.2.01;D1.2.4.01;D1.2.6.01;D1.4.4.01		Board series across chipsets and models; also spans other kinds.
+NF-D1.2.2.01-005	to_line	L-asus-prime	Prime	D1.2.2.01;D1.2.6.01		Board series across chipsets and models; also spans other kinds.
+NF-D1.2.2.01-006	to_line	L-gigabyte-aorus-master	AORUS Master	D1.2.2.01		Board series or tier across chipsets and models; board models are the named forms.
+NF-D1.2.2.01-007	to_line	L-gigabyte-aorus-ultra	AORUS Ultra	D1.2.2.01		Board series or tier across chipsets and models; board models are the named forms.
+NF-D1.2.2.01-008	to_line	L-gigabyte-aorus-pro	AORUS Pro	D1.2.2.01		Board series or tier across chipsets and models; board models are the named forms.
+NF-D1.2.2.01-009	to_line	L-gigabyte-aorus-elite	AORUS Elite	D1.2.2.01		Board series or tier across chipsets and models; board models are the named forms.
+NF-D1.2.2.01-010	to_line	L-gigabyte-aorus-xtreme	AORUS Xtreme	D1.2.2.01		Board series or tier across chipsets and models; board models are the named forms.
+NF-D1.2.2.01-011	to_line	L-gigabyte-aero-g	Aero G	D1.2.2.01		Board series or tier across chipsets and models; board models are the named forms.
+NF-D1.2.2.01-012	to_line	L-gigabyte-gaming-x	Gaming X	D1.2.2.01		Board series or tier across chipsets and models; board models are the named forms.
+NF-D1.2.2.01-013	to_line	L-gigabyte-vision-g	Vision G	D1.2.2.01		Board series or tier across chipsets and models; board models are the named forms.
+NF-D1.2.2.01-014	to_line	L-asrock-challenger	Challenger	D1.2.2.01		Board series or tier across chipsets and models; board models are the named forms.
+NF-D1.2.3.01-001	to_line	L-corsair-vengeance	VENGEANCE	D1.2.3.01;D1.2.3.02		Memory family spanning desktop DIMM and notebook SODIMM kits.
+NF-D1.2.4.01-001	to_line	L-asus-rog-astral	ROG Astral	D1.2.4.01		Partner-board line under ASUS (memo 4b); GPU model is the named form.
+NF-D1.2.4.01-002	to_line	L-asus-rog-astral	ROG Astral	D1.2.4.01		Liquid-cooled Astral boards: part of the ROG Astral partner line.
+NF-D1.2.4.01-003	to_line	L-asus-rog-matrix	ROG Matrix	D1.2.4.01		Partner-board line under ASUS; GPU model is the named form.
+NF-D1.2.4.01-004	to_line	L-nvidia-geforce-rtx	GeForce RTX	D1.2.4.01		NVIDIA family covering many GPU models (memo: series are lines).
+NF-D1.2.4.01-005	to_line	L-nvidia-geforce-gtx	GeForce GTX	D1.2.4.01		NVIDIA family covering many GPU models (memo: series are lines).
+NF-D1.2.4.01-006	to_line	L-nvidia-geforce-gt	GeForce GT	D1.2.4.01		NVIDIA family covering many GPU models (memo: series are lines).
+NF-D1.2.4.01-007	to_line	L-nvidia-quadro	Quadro	D1.2.4.01		NVIDIA family covering many GPU models (memo: series are lines).
+NF-D1.2.6.01-001	to_line	L-lian-li-o11	O11	D1.2.6.01		O11 family of several case models (Dynamic, Mini, EVO, XL).
+NF-D1.2.6.01-003	to_line	L-lian-li-lancool	Lancool	D1.2.6.01		Case series of several models (206, 207 and others).
+NF-D1.2.6.01-004	to_line	L-lian-li-vector	Vector	D1.2.6.01		Case series of several models.
+NF-D1.2.6.01-006	to_line	L-asus-proart	ProArt	D1.1.2.01;D1.2.6.01		ProArt spans cases (PA401, PA602) and laptops.
+NF-D1.2.6.01-008	to_line	L-asus-tuf-gaming	TUF Gaming	D1.1.2.01;D1.2.2.01;D1.2.4.01;D1.2.6.01;D1.4.4.01		TUF Gaming spans boards, cards, cases, monitors, laptops.
+NF-D1.2.6.01-009	to_line	L-asus-prime	Prime	D1.2.2.01;D1.2.6.01		ASUS Prime spans boards and cases.
+NF-D1.2.7.02-006	to_line	L-lian-li-galahad-ii	Galahad II	D1.2.7.02		Cooler series of several distinct models, not one design in radiator sizes.
+NF-D1.2.7.02-009	to_line	L-arctic-liquid-freezer	Liquid Freezer	D1.2.7.02		Cooler series of several distinct models, not one design in radiator sizes.
+NF-D1.2.7.02-010	to_line	L-cooler-master-seidon	Seidon	D1.2.7.02		Cooler series of several distinct models, not one design in radiator sizes.
+NF-D1.2.7.02-011	to_line	L-corsair-h-series	H-Series	D1.2.7.02		Cooler series of several distinct models, not one design in radiator sizes.
+NF-D1.2.7.02-012	to_line	L-deepcool-captain	CAPTAIN	D1.2.7.02		Cooler series of several distinct models, not one design in radiator sizes.
+NF-D1.2.7.02-013	to_line	L-deepcool-maelstrom	MAELSTROM	D1.2.7.02		Cooler series of several distinct models, not one design in radiator sizes.
+NF-D1.2.7.02-014	to_line	L-thermaltake-water2-0	Water2.0	D1.2.7.02		Cooler series of several distinct models, not one design in radiator sizes.
+NF-D1.2.7.02-015	to_line	L-xpg-lavente	Lavente	D1.2.7.02		Cooler series of several distinct models, not one design in radiator sizes.
+NF-D1.1.1.01-008	to_line	L-dell-precision	Precision	D1.1.1.01;D1.1.2.01		Precision spans tower workstations and mobile workstations.
+NF-D1.1.1.02-006	to_line	L-beelink-sei	SEi	D1.1.1.02		SEi series of several mini PC models.
+NF-D1.1.1.02-011	to_line	L-minisforum-venus	Venus	D1.1.1.02		Series of several mini PC models.
+NF-D1.1.1.02-012	to_line	L-minisforum-mercury	Mercury	D1.1.1.02		Series of several mini PC models.
+NF-D1.1.1.04-007	to_line	L-commodore-amiga	Amiga	D1.1.1.04		Family of several machines (A500, A1200 and others).
+NF-D1.1.1.04-008	to_line	L-atari-corporation-st	ST	D1.1.1.04		Family of several machines (520ST, 1040ST and others).
+NF-D1.1.3.01-001	to_line	L-asrock-deskmini	DeskMini	D1.1.3.01		Barebone line across chipset models (B760, X600, X300).
+NF-D1.1.3.01-002	to_line	L-asrock-deskmeet	DeskMeet	D1.1.3.01		Barebone line across chipset models (X600, X300, B760).
+NF-D1.5.01-018	to_line	L-netgear-nighthawk	Nighthawk	D1.5.01		Router line of several models.
+NF-D1.7.05-001	to_line	L-yubico-yubikey-5	YubiKey 5	D1.7.05		Series of several key models (USB-A, USB-C, NFC, Nano).
+NF-D1.7.05-002	to_line	L-yubico-yubikey-bio	YubiKey Bio	D1.7.05		Series of several key models (USB-A, USB-C, NFC, Nano).
+NF-D1.7.05-003	to_line	L-yubico-yubikey-5-fips	YubiKey 5 FIPS	D1.7.05		Series of several key models (USB-A, USB-C, NFC, Nano).
+NF-D1.7.05-004	to_line	L-yubico-security-key	Security Key	D1.7.05		Series of several key models (USB-A, USB-C, NFC, Nano).
+NF-D1.8.1.02-006	to_line	L-raspberry-pi-pico-1	Pico 1	D1.8.1.02		Series of several boards (Pico, Pico W, Pico H).
+NF-D1.1.2.01-001	to_line	L-lenovo-ideapad	IdeaPad	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-002	to_line	L-lenovo-legion	Legion	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-003	to_line	L-lenovo-loq	LOQ	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-004	to_line	L-lenovo-thinkbook	ThinkBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-005	to_line	L-lenovo-thinkpad	ThinkPad	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-006	to_line	L-lenovo-thinkpad-yoga	ThinkPad Yoga	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-007	to_line	L-lenovo-yoga	Yoga	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-008	to_line	L-lenovo-flex	Flex	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-009	to_line	L-lenovo-miix	Miix	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-013	to_line	L-hp-elitebook	EliteBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-014	to_line	L-hp-omnibook	OmniBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-015	to_line	L-hp-probook	ProBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-016	to_line	L-hp-zbook	ZBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-017	to_line	L-hp-omen	Omen	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-018	to_line	L-hp-envy	Envy	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-019	to_line	L-hp-pavilion	Pavilion	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-020	to_line	L-hp-spectre	Spectre	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-022	to_line	L-dell-xps	XPS	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-025	to_line	L-dell-g-series	G Series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-026	to_line	L-dell-inspiron	Inspiron	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-027	to_line	L-dell-latitude	Latitude	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-028	to_line	L-dell-precision	Precision	D1.1.1.01;D1.1.2.01		Maker range of many laptop models, spanning other kinds as listed.
+NF-D1.1.2.01-029	to_line	L-dell-studio	Studio	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-030	to_line	L-dell-vostro	Vostro	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-034	to_line	L-apple-ibook	iBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-035	to_line	L-apple-powerbook	PowerBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-038	to_line	L-asus-expertbook	Expertbook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-039	to_line	L-asus-proart	ProArt	D1.1.2.01;D1.2.6.01		Maker range of many laptop models, spanning other kinds as listed.
+NF-D1.1.2.01-040	to_line	L-asus-rog	ROG	D1.1.2.01;D1.2.2.01;D1.2.4.01;D1.2.6.01;D1.4.4.01;D1.5.01;D1.6.03		Maker range of many laptop models, spanning other kinds as listed.
+NF-D1.1.2.01-041	to_line	L-asus-rog-strix	ROG Strix	D1.1.2.01;D1.2.2.01;D1.4.4.01		Maker range of many laptop models, spanning other kinds as listed.
+NF-D1.1.2.01-042	to_line	L-asus-rog-zephyrus	ROG Zephyrus	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-043	to_line	L-asus-tuf-gaming	TUF Gaming	D1.1.2.01;D1.2.2.01;D1.2.4.01;D1.2.6.01;D1.4.4.01		Maker range of many laptop models, spanning other kinds as listed.
+NF-D1.1.2.01-044	to_line	L-asus-vivobook	VivoBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-045	to_line	L-asus-zenbook	ZenBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-046	to_line	L-asus-eeebook	EeeBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-047	to_line	L-asus-transformer	Transformer	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-048	to_line	L-acer-aspire	Aspire	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-049	to_line	L-acer-enduro	Enduro	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-050	to_line	L-acer-extensa	Extensa	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-051	to_line	L-acer-nitro	Nitro	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-052	to_line	L-acer-predator	Predator	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-053	to_line	L-acer-spin	Spin	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-054	to_line	L-acer-swift	Swift	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-055	to_line	L-acer-travelmate	TravelMate	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-056	to_line	L-acer-acernote	AcerNote	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-057	to_line	L-acer-aspire-one	Aspire One	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-058	to_line	L-acer-aspire-timeline	Aspire Timeline	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-059	to_line	L-acer-conceptd	ConceptD	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-060	to_line	L-acer-ferrari	Ferrari	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-061	to_line	L-acer-gemstone	Gemstone	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-062	to_line	L-acer-switch	Switch	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-068	to_line	L-chuwi-herobook	Herobook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-069	to_line	L-chuwi-corebook	Corebook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-070	to_line	L-clevo-np70-series	NP70 series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-079	to_line	L-dynabook-e-series	E series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-080	to_line	L-dynabook-portege	Portégé	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-081	to_line	L-dynabook-satellite-pro	Satellite Pro	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-082	to_line	L-dynabook-tecra	Tecra	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-083	to_line	L-eurocom-sky	Sky	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-084	to_line	L-eurocom-tornado	Tornado	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-085	to_line	L-eurocom-nightsky	Nightsky	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-086	to_line	L-eurocom-commander	Commander	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-087	to_line	L-eurocom-monster	Monster	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-091	to_line	L-fujitsu-celsius	Celsius	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-092	to_line	L-fujitsu-lifebook	Lifebook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-096	drop					Rugged tablet with no keyboard sold with it: D2 (step 24).
+NF-D1.1.2.01-097	drop					Rugged tablet with no keyboard sold with it: D2 (step 24).
+NF-D1.1.2.01-099	to_line	L-gigabyte-aorus	Aorus	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-100	to_line	L-gigabyte-aero	Aero	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-101	to_line	L-haier-thunderobot	Thunderobot	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-102	to_line	L-hasee-z-series	Z-Series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-103	to_line	L-honor-magicbook	MagicBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-104	to_line	L-huawei-matebook	MateBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-105	to_line	L-huawei-qingyun	Qingyun	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-106	to_line	L-hyundai-technology-flip	Flip	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-107	to_line	L-hyundai-technology-flipnote	FlipNote	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-108	to_line	L-hyundai-technology-thinnote	ThinNote	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-109	to_line	L-infinix-mobile-inbook	InBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-110	to_line	L-infinix-mobile-gtbook	GTBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-111	to_line	L-itel-mobile-able	Able	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-112	to_line	L-itel-mobile-epic	Epic	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-114	to_line	L-lg-gram	Gram	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-115	to_line	L-lg-xnote	Xnote	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-116	to_line	L-medion-akoya	Akoya	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-117	to_line	L-medion-erazer	Erazer	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-118	to_line	L-msi-summit	Summit	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-119	to_line	L-msi-prestige	Prestige	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-120	to_line	L-msi-venture	Venture	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-121	to_line	L-msi-modern	Modern	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-122	to_line	L-msi-titan	Titan	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-123	to_line	L-msi-raider	Raider	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-124	to_line	L-msi-vector	Vector	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-125	to_line	L-msi-stealth	Stealth	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-126	to_line	L-msi-crosshair	Crosshair	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-127	to_line	L-msi-sword	Sword	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-128	to_line	L-msi-katana	Katana	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-129	to_line	L-msi-megabook	Megabook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-130	to_line	L-msi-gt	GT	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-131	to_line	L-msi-gs	GS	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-132	to_line	L-msi-gf	GF	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-133	to_line	L-msi-ge	GE	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-134	to_line	L-msi-gp	GP	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-135	to_line	L-msi-gl	GL	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-136	to_line	L-msi-wind	Wind	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-141	to_line	L-mouse-computer-luvbook	LuvBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-142	to_line	L-multilaser-ultra	Ultra	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-149	to_line	L-panasonic-lets-note	Let's Note	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-150	to_line	L-panasonic-toughbook	Toughbook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-152	drop					Toughpad models are tablets: D2 (step 24).
+NF-D1.1.2.01-153	to_line	L-polytron-luxia	Luxia	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-154	to_line	L-purism-librem	Librem	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-155	to_line	L-razer-blade	Blade	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-157	to_line	L-samsung-electronics-galaxy-book	Galaxy Book	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-159	drop					Slate tablet sold with an optional keyboard: D2 (step 24).
+NF-D1.1.2.01-160	to_line	L-samsung-electronics-ativ	Ativ	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-161	to_line	L-samsung-electronics-sens	Sens	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-173	to_line	L-tecno-megabook	MegaBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-174	to_line	L-tsinghua-tongfang-x-series	X-Series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-183	to_line	L-twinhead-durabook	Durabook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-184	to_line	L-umax-visionbook	VisionBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-185	to_line	L-vaio-z-series	Z series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-186	to_line	L-vaio-f-series	F series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-187	to_line	L-vaio-s-series	S series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-188	to_line	L-vaio-sx-series	SX series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-195	to_line	L-walton-prelude	Prelude	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-196	to_line	L-walton-passion	Passion	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-197	to_line	L-walton-tamarind	Tamarind	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-198	to_line	L-walton-karonda	Karonda	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-199	to_line	L-walton-waxjambu	Waxjambu	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-200	to_line	L-wortmann-terra	Terra	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-201	to_line	L-xiaomi-mi-notebook	Mi NoteBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-202	to_line	L-xiaomi-redmibook	RedmiBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-203	to_line	L-benq-joybook	Joybook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-205	to_line	L-canon-notejet	NoteJet	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-207	to_line	L-ctx-eznote	EzNote	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-208	to_line	L-cyberpowerpc-tracer-v-series	Tracer V Series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-211	to_line	L-epson-actionnote	ActionNote	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-212	to_line	L-epson-endeavor	Endeavor	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-219	to_line	L-hcl-me	Me	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-220	to_line	L-hitachi-visionbook	VisionBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-226	to_line	L-ibm-ps-note	PS/note	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-227	to_line	L-ibm-ps-2-note	PS/2 Note	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-228	to_line	L-ibm-ps-55-note	PS/55 Note	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-230	to_line	L-ibm-thinkpad	ThinkPad	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-233	to_line	L-lava-international-helium-series	Helium Series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-234	to_line	L-nec-lavie	LaVie	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-235	to_line	L-nec-multispeed	MultiSpeed	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-236	to_line	L-nec-prospeed	ProSpeed	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-237	to_line	L-nec-ultralite	UltraLite	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-238	to_line	L-nec-versa	Versa	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-239	to_line	L-nokia-purebook	PureBook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-240	to_line	L-olivetti-echos	Echos	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-242	to_line	L-olivetti-philos	Philos	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-243	to_line	L-olivetti-olibook	Olibook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-245	to_line	L-onkyo-sotec	Sotec	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-247	to_line	L-sharp-actius	Actius	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-248	drop					Smartphone-type handheld organiser: D2 (step 24).
+NF-D1.1.2.01-252	to_line	L-sony-vaio	Vaio	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-253	to_line	L-texas-instruments-extensa	Extensa	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-254	to_line	L-texas-instruments-travelmate	TravelMate	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-255	to_line	L-toshiba-dynabook	Dynabook	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-256	to_line	L-toshiba-libretto	Libretto	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-257	to_line	L-toshiba-portege	Portégé	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-258	to_line	L-toshiba-satellite	Satellite	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-259	to_line	L-toshiba-satellite-pro	Satellite Pro	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-260	to_line	L-toshiba-qosmio	Qosmio	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-261	to_line	L-toshiba-t-series	T series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-262	to_line	L-toshiba-tecra	Tecra	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-263	to_line	L-walmart-gateway	Gateway	D1.1.2.01		Brand name plus form category; the Gateway laptop range is a line.
+NF-D1.1.2.01-264	to_line	L-walmart-gateway	Gateway	D1.1.2.01		Brand name plus form category; the Gateway laptop range is a line.
+NF-D1.1.2.01-265	to_line	L-walmart-motile	Motile	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-271	to_line	L-ast-research-ascentia	Ascentia	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-272	to_line	L-ast-research-powerexec	PowerExec	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-273	to_line	L-ast-research-premium-exec	Premium Exec	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-280	to_line	L-compaq-armada	Armada	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-282	to_line	L-compaq-contura	Contura	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-283	to_line	L-compaq-evo	Evo	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-284	to_line	L-compaq-lte	LTE	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-285	to_line	L-compaq-presario	Presario	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-286	to_line	L-compaq-prosignia	ProSignia	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-287	to_line	L-compaq-slt	SLT	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-291	to_line	L-digital-equipment-corporation-decpc	DECpc	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-292	to_line	L-digital-equipment-corporation-hinote	HiNote	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-296	to_line	L-founder-technology-e-series	E-Series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-297	to_line	L-founder-technology-r-series	R-Series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-301	to_line	L-gateway-inc-solo	Solo	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-304	to_line	L-grid-systems-gridcase	GridCase	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-305	drop					Pen tablet computer without keyboard: D2 (step 24).
+NF-D1.1.2.01-314	to_line	L-psion-mc	MC	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-318	to_line	L-tandy-1400-series	1400 series	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-320	to_line	L-trigem-averatec	Averatec	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.1.2.01-328	to_line	L-zenith-data-systems-supersport	SupersPort	D1.1.2.01		Maker range of many laptop models (memo: G-GEAR-type ranges are lines rows).
+NF-D1.4.1.03-024	drop					Layout is a keyboard attribute (memo 4b); Keychron Q8 stays a named form.
+NF-D1.6.02-001	drop					Certification label plus category, no model; re-enter by the maker part number.
+NF-D1.6.03-001	drop					Spec plus category, no model; re-enter by the maker part number.
+NF-D1.6.01-004	drop					Spec plus category, no model name; re-enter by model number.
+NF-D1.6.04-001	drop					Spec plus category, no model; re-enter by the maker part number.
+NF-D1.6.06-003	drop					Category name; the listed part XF-25340-XM is the model to enter.
+NF-D1.3.3.01-008	drop					Maker plus category description, no model; re-enter by model number.
+NF-D1.4.3.01-025	drop					Maker plus category description, no model; re-enter by model number.
+NF-D1.3.4.01-003	drop					Maker plus category description, no model; re-enter by model number.
+NF-D1.3.4.02-001	drop					Maker plus category description, no model; re-enter by model number.
