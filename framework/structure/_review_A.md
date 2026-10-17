@@ -122,3 +122,50 @@ Only performance basketball and tennis shoes, and waterproofing sprays, need a r
 - the necklace set.
 
 *Fix for the last three:* "A pendant sold on its chain is a pendant (necklaces are pieces whose ornament is the strand itself)"; merge belly chain into waist chain as aliases; file sets as in owner question 5. "Rigid and closed or hinged" is the bangle test, and the Love bracelet passes it, so it is a bangle; record "bracelet" as an alias from the maker.
+
+### A4 Bags & Accessories
+
+**F26. (high) The bag kinds overlap across sub-families.** A4, section 3 (A4.1 and A4.2) and the memo's own edge objects.
+- The crossbody bag and messenger bag sit in A4.1, the sling bag in A4.2.
+- Tote and shopper are both kinds.
+- Duffel / Boston and wheeled duffel are kinds, and Zalando's "Sports bags" have no kind.
+- The wristlet sits in Handbags and is also a wallet type in Wikipedia.
+- The Birkin is a tote in Wikipedia and a top-handle bag in the retail typing.
+- Briefcase sits in A4.4, while "laptop bag" (Zalando "Business & laptop bags") has no kind.
+
+*Fix:* add one-line form tests and merge the near-duplicates.
+1. "Shoulder bag = a single strap worn on one shoulder; crossbody bag = a strap worn across the body, a soft body, no flap fastening at the front; messenger bag = a crossbody bag with a full front flap and a wide gusset; sling bag = a single-strap pack worn on the back or chest." Move the sling bag to A4.1 beside crossbody, or move all three to A4.2, so that they are siblings.
+2. Make "shopper" an alias of tote.
+3. Make "sports bag" an alias of duffel.
+4. File a laptop bag by form (messenger, briefcase or backpack), with `laptop_size` as an attribute.
+5. The wristlet goes to A4.5 if it has card slots inside and no separate interior compartment, else to A4.1.
+6. A named form goes under the kind its maker uses for it. Where the maker gives none, use the first retail category on a fetched maker page (the Birkin: to be read from Hermès' own bag pages, which the memo did not fetch).
+
+**F27. (medium) A4.8 "Carriers & attachments" is a catch-all, and two of its members have no source.** A4, section 3 and the line "not in the tree for lack of any fetched source: fashion canes …". The sub-family holds baby carriers, keyrings, canes and shopping trolleys, which share no axis value. *Fix:* split it into "A4.8 Baby carriers" (wraps, slings, mei tai, soft structured carriers, hip seats) and "A4.9 Small carried accessories" (keyring, bag charm, fashion cane, shopping trolley). Mark the cane and the trolley "named in the framework; attestation pending".
+
+**F28. (medium) The maker tier has no source, and luggage size is a kind.** A4, section 5: "No fetched page publishes a tier list". It proposes "luxury / premium / mainstream … one value per maker" and says that "a named form inherits the maker's tier". Section 4b makes the luggage size class (cabin, check-in) a kind, while A1 and A2 treat size strictly as an attribute. *Fix:* (a) Leave `tier` empty in the A4 ledger until a fetched source supplies one (convention C4). Do not let named forms inherit a tier: a house can have lines at several tiers. (b) Keep "suitcase" and "trunk" as kinds (trunk differs in form). Make `size_class: personal | cabin | check-in M | check-in L` an attribute, with a generated "Carry-on" view. This is the convention for size in C6. If the owner prefers size class as kinds (owner question 2), record it as a stated exception for luggage only.
+
+**F29. (medium) Generic regional types are named forms, and one of them is not a bag.** A4, section 7: furoshiki and azumabukuro, sporran, nubi bag, bilum, lycée sac, uchiwa, sensu, tuanshan and zheshan are named forms. These are generic types made by many makers (convention C2: named forms with `maker_bound = no`). A furoshiki is a wrapping cloth, not a bag. Step 17 lists "a bag … of any kind", and the cloth reaches step 30 (B2 "made to cover … or wrap"), or C8 as packing material. *Fix:* apply C2. File the furoshiki at B2 with a cross-reference, or ask the owner whether a carry cloth counts as a bag (section 5, B5).
+
+**F30. (low) Boundary items that the key already decides.**
+- A pencil case holds several objects and is not "carried on the person as a personal accessory" in the key's sense, but step 17 lists "a bag … of any kind". The memo proposes A4.
+- A toiletry or wash bag (Selfridges "Wash bags") is A4 by step 17, before H1.
+- A bag charm hangs on a bag, not on the body, so it is not A3. It is an accessory made for one kind of object (bags), so step 8 and S3 send it to A4, and A3 already says so (A3, section 9 item 5).
+- Clip-on sun lenses made to fit spectacles are parts of the spectacles (S3), so they are H2 when the spectacles correct vision, not A4 ("clip-on sunglasses" in A4.6).
+
+*Fix:* write these as precedence sentences. Remove the bag-charm and toiletry-bag cases from owner question 5. Keep in the owner queue only lunch bags (already logged in _framework_conflicts.md), powered hand fans (A4 or B7) and standing umbrellas.
+
+**F31. (low) Evidence.** The evidence is honestly disclosed but thin in places:
+- the kind placement of named forms is "proposed, not attested";
+- the Fashionphile and Vestiaire pages fetched thin;
+- the Chinese view rests on one encyclopedia page;
+- there is no source for umbrella quality, canes or trolleys.
+
+*Fix:* in the sourcing pass, fetch the maker pages for the five most-cited named forms (Hermès Birkin and Kelly, Louis Vuitton Speedy, Chanel Classic Flap, Fendi Baguette) to attest their kind.
+
+**F32. (summary) Usability check, 20 objects.** The Birkin, Speedy, Chanel Classic Flap, a messenger bag, a sling bag, a belt bag, a Fjällräven Kånken, a camera backpack, a Rimowa Original Cabin, a wheeled duffel, a laptop bag, a cardholder, a wristlet, a crossbody phone pouch, a Ray-Ban Wayfarer, clip-on sun lenses, a golf umbrella, an uchiwa, a toiletry bag and a tote/shopper. As the memo stands, **10 of 20 would split**:
+- the Birkin, the Classic Flap (shoulder or crossbody), the messenger bag, the sling bag, the laptop bag, the wristlet, the tote/shopper and the clip-on lenses (each with two candidate kinds or categories);
+- the camera backpack (left open by the memo);
+- the phone pouch (A4, or D2 under S3).
+
+With F26 and F30 applied and two more sentences, all 20 have a single home. For the phone pouch: "a pouch made to hold one phone is D2 under S3; a small bag with a phone pocket is A4". For the camera backpack: "a backpack made with fitted dividers to carry a camera and its lenses is a camera bag, D4 under S3, which names camera bags; a general backpack with a padded sleeve is A4".
