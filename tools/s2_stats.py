@@ -7,7 +7,7 @@ from common import ROOT, write_tsv
 
 def main():
     rows = []
-    for p in sorted((ROOT / "framework" / "structure").glob("[A-J]*.md")):
+    for p in sorted(q for q in (ROOT / "framework" / "structure").glob("[A-J]*.md") if re.fullmatch(r"[A-J]\d+", q.stem)):
         t = p.read_text(encoding="utf-8")
         verdict = ""
         rev = ROOT / "framework" / "structure" / f"_review_{p.stem[0]}.md"
