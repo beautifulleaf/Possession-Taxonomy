@@ -23,7 +23,12 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
   - (b) Workbench line (K-190): add "sawhorses and trestles are C1" (C1-O1).
   - (c) C1 branch: "an airbrush compressor follows the airbrush; sharpening stones and systems are C1".
   - (d) B1 or B8 note: "a freestanding play yard or playpen is B1" (R-8).
+  - (e) E1 notes from E-13 (the 435 mm saddle-height cut, applied only to balance bikes and ride-ons, never to pedal bicycles, which are G1 by K-91; and the 400 mm paddling-pool cut), and the single trading-card-game card sentence (F3-O3: a TCG card is E1, graded or not).
   - Further amendments raised by later S2U passes are appended here.
 - **R-17** J5 leaves: drinking bitters stay J7 (K-48), and bitters sold as a flavouring go to the condiments and sauces leaf. Mirin and cooking wines go to the vinegars and cooking-liquids leaf. Home-brewing ingredients (malt extract, hops, brewing yeast) go to the baking and fermenting-aids leaf. This adopts the S2U_J5 pass's own reading.
 - **R-18** CV-46 applies to food as well: a brand line spanning several kinds is a lines row; a line inside one kind is a maker-bound named form (C2(d)). This confirms the S2U_J5 treatment.
 - **R-19** Kinds named with a regional word (udon, soba, atta, besan, jaggery, and the like in any category) keep their level as provisional until attested (CV-27). Their generic label with the regional name as kind name (C11) is set at stage-3 harvest, not now.
+- **R-20** CV-19 user list gains "teen" and "adult" as age values. A kidult item takes user = adult (E-12). Raised by S2U_E1.
+- **R-21** E-13 saddle-height note: it decides only between E1 balance bikes and ride-on toys and G1 bicycles without pedals. Every pedal bicycle is G1 (K-91). Raised by S2U_E1.
+- **R-22** E1 homes for key-named objects with no kind yet: "toy robot" and "coding toy" are kinds in the science and construction play family; "toy light" (torch or nightlight shaped as a toy) is a kind with the party and novelty toys. All are provisional until attested. Raised by S2U_E1.
+- **R-23** Othello: "reversi" is the generic kind, and Othello is a maker-bound named form under it, as for other trade-marked versions of traditional games. Raised by S2U_E1.

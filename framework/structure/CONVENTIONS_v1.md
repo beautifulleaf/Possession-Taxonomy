@@ -200,7 +200,7 @@ A subject may hold several entries from different sources. A named form does not
 
 - Size (garment, shoe, ring and frame size, case diameter, luggage size class and the like) is always an attribute with its standard (ISO 8559-1, ISO 19407, ISO 8653, ISO 8624, airline bands). The luggage size class is the only case decided per category (question A-16, decision file D2).
 - **Size against format.** A size class names a kind only when it changes what the object works with, so that one size cannot replace the other without different equipment (film gauge; 16-inch transcription disc; 3-inch Mini-CD), and a fetched source sells the sizes apart. Otherwise size is an attribute (record diameter, paperback trim, urn capacity).
-- **User** is always a tag, with generated department views; no leaf name carries a user word. One user list: women, men, unisex, couples, baby, child, bariatric, adapted. "Beginner" is a level scheme (C4), not a user. (The kind of animal served is B10's first axis by a written exception in the key, Appendix A.)
+- **User** is always a tag, with generated department views; no leaf name carries a user word. One user list: women, men, unisex, couples, baby, child, teen, adult, bariatric, adapted (teen and adult added by R-20). "Beginner" is a level scheme (C4), not a user. (The kind of animal served is B10's first axis by a written exception in the key, Appendix A.)
 
 ## C7. Order inside a leaf
 
