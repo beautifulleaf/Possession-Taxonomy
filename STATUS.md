@@ -86,10 +86,10 @@ Owner approved the 44 categories "as of now" and raised no objection to queue it
 
 | Phase | What | State |
 |---|---|---|
-| 0 | Research batches CL01–06 (clothing) and PC01–05 (computers) | running |
-| 1 | Memo drafts (Opus writer per category, from research outputs only) | |
-| 2 | Cold review of each memo (Opus), revisions | |
-| 3 | Present memos and owner decisions | |
+| 0 | Research batches CL01–06 (clothing) and PC01–05 (computers) | done |
+| 1 | Memo drafts (Opus writer per category, from research outputs only) | done; then extended to all 53 categories (see Stage 2 below) |
+| 2 | Cold review of each memo (Opus), revisions | done as domain reviews and a conformance pass |
+| 3 | Present memos and owner decisions | framework/structure/STAGE2_SUMMARY.md |
 
 ## Session 1, continued — owner scope decisions and rounds 4–5
 Owner decisions (2026-10-17, BRIEF.md): groceries in as graded ingredients; software types in; media, games and subscriptions as objects and kinds of access, never by genre; subscriptions and streaming in; edge calls answered (pet food B10; supplements in; single tickets and one-off services out; crypto out, NFTs in; online services by utility vs entertainment, not price; overlapping foods link to Culinary; cannabis and nicotine with tobacco; baby goods distributed).
@@ -104,7 +104,7 @@ Owner decisions (2026-10-17, BRIEF.md): groceries in as graded ingredients; soft
 | Round 5 (953 items incl. 96 audit hard cases with intended homes) | 99.0 % unanimous, κ 0.993, no splits; 94 of 96 hard cases at their intended home (the two misses were the expectation: jarred pasta sauce is a sauce; a class card is a pass) |
 | Framework v0.6: one precedence sentence for each round-5 doubt (heated tables B1, soban B1, EV chargers and bike locks G1, cap tassels A1, piñatas E1, health tonics H2, mixtapes F1, pass cards I3, jarred pasta sauce J5); header history corrected (v0.4 and v0.5 files had kept the v0.3 header line) | not re-tested |
 
-## Owner queue (current)
+## Owner queue (stage 1, still open)
 1. **Approve, edit or reject the 53 categories** (framework/STAGE1_REVIEW.md). Stage 2 starts after this.
 2. **Phone and broadband plans** are in (I3, connectivity); home energy and water supply are out as services. Confirm.
 3. **Recurring personal services** (a cleaner on contract, weekly lessons) are out like one-off services. Confirm.
@@ -112,5 +112,27 @@ Owner decisions (2026-10-17, BRIEF.md): groceries in as graded ingredients; soft
 5. **Vitamins, supplements and sports nutrition** sit under H2 Health. Keep there or move to groceries?
 6. **Stage-2 pilot pair:** Clothing and Computers & Components proposed. Confirm or choose others.
 
-## Next (session 2)
-Apply any edits from the owner queue, re-run one blind round if anything structural changes, then start stage 2: add the 'choice level' section to framework/STAGE2_MEMO_TEMPLATE.md (a kind stops at the level where buyers compare quality or makers; finer distinctions are named forms or attributes), and run the pilot memos.
+## Stage 2 (2026-10-17, continued while the owner was away) — structure research for all 53 categories
+Owner instruction: "continue everything you can". Everything below is research for owner review; nothing is approved.
+
+| Phase | What | Result |
+|---|---|---|
+| Memos | One structure memo per category (framework/structure/<CODE>.md; Sonnet research and writing, template framework/STAGE2_MEMO_TEMPLATE.md incl. 4b choice level and a 20-object usability check); sources in verify/out/S2_<CODE>_sources.tsv | 53 memos, 3.9 MB |
+| Reviews | Ten cold domain reviews (Opus), framework/structure/_review_A.md … _review_J.md; J also checks the Culinary boundary and links | verdicts: 1 ready (B10), 41 minor fixes, 11 rework (A2, B8, C1, D4, E1, F2, F4, G2, H2, I2, J5) |
+| Conventions | Shared conventions C1–C17 adopted for drafting, plus proposed additions from reviews F, G, H, I and J (JC1–JC7) in _conventions.md | 46 convention questions (CV-1 … CV-46) |
+| Framework conflicts | Top-level key problems logged per review, then a sweep of all reviews and memo sections 9–10 (_framework_conflicts.md) | 229 entries, merged to 196 questions (K-1 … K-196); 20 would move 24 round-5 probe objects |
+| Conformance | Each memo revised to its review and the conventions (Sonnet; Opus for the 11 rework memos); owner-dependent items kept as the memo recommended and marked OWNER:, unsourced claims marked †; section 11 revision log in every memo | 53 of 53 done; 2,568 † and 1,925 OWNER marks (verify/out/S2_stats.tsv, tools/s2_stats.py) |
+| Summary | Seven domain digests (verify/out/S2S_X*.md) and a cold Opus summary | framework/structure/STAGE2_SUMMARY.md (owner page) and STAGE2_OWNER_QUESTIONS.md (K-1…K-196, then A-1…J-17: 228 per-category questions) |
+
+Known contradictions left open for the owner (summary §6): workbench B1/C1 (K-190), chainsaws C1/C2 (K-173), plants in pots (K-73), sets (K-1), labneh (K-44), Japanese lanterns (K-116), pencil cases (K-132), hard seltzer (K-24).
+Not done: no web sourcing in the conformance pass (all † remain); no `fetch_status` column in the sources files (needs a tools/ script, CV-39); v0.6 and every stage-2 change untested blind.
+
+## Owner queue (current)
+1. Stage-1 queue above (approve the 53 categories of v0.6; items 2–5).
+2. **Shared conventions:** CV-1 … CV-46 (STAGE2_SUMMARY.md §3), yes/no each.
+3. **Framework changes:** the 25 consequential K items in STAGE2_SUMMARY.md §4a, then the rest (STAGE2_OWNER_QUESTIONS.md part 1).
+4. **Per-category questions:** the 15 in STAGE2_SUMMARY.md §5a first, then domain by domain (STAGE2_OWNER_QUESTIONS.md part 2).
+5. **Owner question from B10:** allow the kind of animal served as B10's first axis (an Appendix A exception, K-102).
+
+## Next (session 3)
+Apply the owner's answers: write framework/CATEGORIES_v0_7.md from the approved K items, update _conventions.md and the memos (a short conformance pass per touched memo). Then run a v0.7 blind round (three Sonnet placers on the 953 round-5 items plus a regression set of the ~400 objects the K items name), one cold Opus audit, and a blind kind-level test for the 11 rework categories. Then start the data phase: shared tables and tools first (maker ledger, tiers, named forms, variants, aliases, compatibility, jurisdiction, standards/designations, varieties, issuers, grading scales, fetch_status), then the pilot pair A1 and D1, with sourcing batches to clear † before load.
