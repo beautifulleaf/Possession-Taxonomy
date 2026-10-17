@@ -52,3 +52,5 @@ Search cap: `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` = 100000. Test WebFetch (
 - Narrowed: specimens (step 6) to objects kept as specimens; science (C6) to observation and study; play (E1) to play and table/board/card/dice games, sports to E2; religious (F4) to religious practice and the dead, occasion a modifier.
 - Figures: ornamental figurines F2; character and collectible figures E1; garden statues B4; models and kits E1 built or not; F3 narrowed to money, postage, awards and non-game trading cards.
 - Scope: digital licences are not rights (I1); living cultures are in; burial plots however held; access and payment cards F5; human remains OUT; alcohol in sealed containers and smoking products (tobacco, cannabis, nicotine) in B9.
+
+- **Process fault (round 3):** the three placers shared the session scratchpad; placer C read about 174 of another placer's rows and wrote into its file. C's output is kept as verify/out/BP3x_C_contaminated.tsv and excluded; a fresh placer D replaces it. BLIND_COMMON.txt now confines scratch files to verify/work/<BATCH>/. A's and B's outputs were checked complete and are their own final files.
