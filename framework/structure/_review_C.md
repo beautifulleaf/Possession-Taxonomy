@@ -262,3 +262,126 @@ As the memo stands, **14 of 20 would split**:
 
 With F23 and F25 applied and the shared boundary rulings in section 3, only the pencil case and the label printer still depend on an owner ruling.
 
+### C6 Optical & Scientific Instruments
+
+**F28. (medium) Weather-station kinds are split by market, and magnifier kinds by use.**
+- *Weather stations.* The C6 tree, leaf C6.2.5, has "Home weather station" (AcuRite Iris) and "Professional weather station" (Davis Vantage Pro2). Market (domestic, professional) is an Appendix A modifier. The sources divide stations by sensor suite, cabling and shield (Davis sells Vue, Pro2 and Pro2 Plus, wireless or cabled, with or without fan aspiration [S13]; AcuRite counts sensors, 5-in-1 [S32]), not by buyer.
+- *Magnifiers.* Section 4b says magnifier kinds are "form and use (handheld, pocket, lighted, stand)", and Vixen's nine loupe classes include use classes (reading, stationery, observation, professional [S8]).
+
+*Fix:* make "weather station (multi-sensor)" one kind, with `sensor_suite`, `sensor_count`, `link` (wireless or cabled) and `shield` (passive or fan-aspirated) as spec attributes, a spec-ranked tier on named forms, and Davis and AcuRite models as named forms. Make magnifier kinds by form only: handheld magnifier, folding or pocket loupe, stand magnifier, lighted magnifier, head-worn magnifier (if the owner moves it here; framework log). Tag `use: reading | jewellery | stamps | botany`.
+
+**F29. (medium) Science-education kits are divided by subject, and the kit boundary is open.** Leaf C6.4.1 "Kits by discipline" makes chemistry, physics and electricity, biology, and earth and space science kits into kinds, following Thames & Kosmos and Kosmos subject facets [S21, S22]. The BRIEF bars genre only for media, games and subscriptions, but the subject a kit teaches is the nearest analogue, and the memo itself calls discipline "close to genre of use" (C6 question 4). The boundary against D1 (loose electronic components and maker boards) and E1 (toys, construction toys) is not stated. The tree's "physics and electricity kit" (Kosmos Easy Elektro) and the robotics line in T&K's facets [S21] could be read as either.
+
+*Fix:* make one kind, "science experiment kit", with `discipline` as an attribute and a generated discipline view. Keep "crystal-growing kit" only if a second source shows it bought as a type. Add the precedence: *"A kit made to teach science through experiments is C6 whatever its parts (step 23 is tried before steps 24 and 25); a programmable robot or coding toy made for play is E1; a board or component kit sold without an experiment programme is D1."* (Question 39 in section 5.)
+
+**F30. (medium) Low-vision magnifiers and decorative working instruments have no precedence.**
+- *Low-vision magnifiers.* C6 section 9, sentence 5, covers worn eyewear but not magnifiers made as low-vision aids (electronic video magnifiers, high-power illuminated stand magnifiers). Step 2 (H2), "compensate for ... a disability", is tried before step 23, so these may be H2, while the step 2 note keeps "an ordinary object made in an adapted form" with its object.
+- *Decorative instruments.* Sentence 10 covers only the wind vane and windsock. A Galileo thermometer, a weather house or an ornamental barometer sits between C6 and B4.
+
+*Fix:* add *"A magnifier made and sold as a low-vision aid (video magnifier, prescribed stand magnifier) is H2; any other magnifier or loupe is C6 whoever uses it"* (question 38 in section 5). Extend sentence 10: *"A thermometer, barometer, hygrometer, wind vane or windsock that works is C6 however ornamental; a replica that cannot measure is B4."*
+
+**F31. (low) Tier is placed on kinds, and the platform claim is unproven.** Section 5: "A tier is a modifier on the kind or named form". Section 6 calls telescope mounts a platform case but admits that "the fetched pages do not state the connector standards". *Fix:* tier on named forms only (convention K5). Leave the platform out of the maker ledger until a page attests dovetail and eyepiece-barrel standards; record it then in the system ledger (convention K3).
+
+**F32. (low) Some evidence is thinner than the text implies.** 16 of 37 sources are US. The binocular "alpha" ladder rests on one forum thread and one review site [S33, S34], and both doubt its edges, as the memo notes. The German test's entry-level and pocket classes [S36], and Astroshop's stereo, inverted and digital branches [S25], were seen in search excerpts. Teleskop-Express [S3] and the WMO guide [S12] returned thin text. *Fix:* keep the alpha ladder as a consensus tier with `tier_source` naming the forum, and mark the excerpt-only facts before entry. No change to the structure.
+
+**F33. (summary) Usability check, 20 objects.** The 20 objects: roof-prism binocular, image-stabilised binocular, rangefinding binocular, golf laser rangefinder, hunting laser rangefinder, spotting scope, Dobsonian, ZWO Seestar, equatorial mount, cooled astronomy camera, eclipse glasses, illuminated stand magnifier for low vision, jeweller's loupe, stereo microscope, USB digital microscope, AcuRite Iris 5-in-1, Davis Vantage Pro2, Galileo thermometer, beaker, robotics science kit.
+
+As the memo stands, **8 of 20 would split**:
+- the hunting rangefinder (E2's list of outdoor activities does not name hunting);
+- the Dobsonian, Seestar and astronomy camera (C6 questions 2, 1 and 5);
+- the low-vision magnifier and Galileo thermometer (F30);
+- the Davis station (F28);
+- the robotics kit (F29).
+
+The jeweller's loupe is C6 by key order (step 23 before step 28), and the eclipse glasses go to A4 by the key, as the memo says. With F28 to F30 applied and those four owner rulings, all 20 have one home.
+
+### C7 Farm & Forestry Equipment
+
+**F34. (high) Wheeled-tractor kinds mix two axes, and the maker decides the kind.** In the C7 worked tree, leaf "Wheeled tractors" holds sub-compact, compact utility, utility and row-crop (horsepower classes) beside orchard and vineyard narrow, high-clearance, slope and forestry (designs). The memo shows that the class boundaries overlap: Deere's compact runs to 65.9 HP and its utility from 50 [S12], Tractor Iron's compact is 25–50 [S13] and Wikipedia's is 20–50 [S21]. Section 5 then says "a model gets its maker's label ... never a forced slot". A 55 hp tractor is therefore "compact utility" if Deere made it and "utility" under Tractor Iron's bands, and the kind follows the brand, against S4 and Appendix A (brand). The horsepower class is also a spec band, which section 5 itself treats as an attribute.
+
+*Fix (recommended):* kinds by design only: standard four-wheel tractor, row-crop tractor (adjustable track and clearance for rows), narrow orchard and vineyard tractor, high-clearance tractor, slope tractor, forestry tractor, articulated 4WD tractor, crawler tractor, two-wheel tractor, implement carrier. Record the size as attributes: `hitch_category` (AD730 Cat 0, Limited 1, 1, 2, 3, 4 [S14, S15], a printed spec on every tractor), `engine_hp` and `pto_hp`. Generate a "size class" view that shows the maker's own label. *Alternative, if the owner wants size kinds:* define them by hitch category, not by horsepower or label (compact = Cat 0 to Cat 1; utility = Cat 2; large = Cat 3 and 4). This is C7 question 2, recast as a choice in section 5 (question 7).
+
+**F35. (medium) Carrier is an attribute in one place and a kind in another, and two sub-families are not jobs.**
+- *Carrier.* Section 4b says "mounted versus trailed ... stay as attributes of a kind", and Candidate B (break 1) says sprayers, mowers and balers "exist mounted, trailed and self-propelled; buyers compare them as one job". The tree nevertheless splits "Crop sprayer, mounted or trailed" from "Self-propelled sprayer", and lists the forage harvester only as "self-propelled".
+- *Sub-families.* "1 Power" is a class of machine and "10 Tractor fittings" is a part-status group under S3. Neither is a job in the crop cycle.
+
+*Fix:*
+1. State the rule: *"Carrier (mounted, trailed, self-propelled) is an attribute; a self-propelled machine is its own kind only when no mounted or trailed machine does the same job (combine harvester, forest harvester, forwarder, skidder)."* Under it, "crop sprayer" and "forage harvester" are one kind each, with `carrier`.
+2. Rename sub-family 1 "Tractors & carriers", and treat sub-family 10 as the closing parts sub-family under convention K7 ("Tractor parts & fittings": front loader, weights, tyres, guidance kits under S3).
+
+**F36. (medium) Objects named in the membership test, and core small-farm implements, have no kind.**
+- The step 12 test names shearing equipment, slaughter and stunning equipment (the step 10 note sends stunning tools here) and commercial poultry equipment. The tree has no kind for any of them, and the memo says no page was fetched (C7 question 7).
+- The feed mixer wagon (P10 says C7) is not in the tree.
+- The rotary cutter, box blade, rear grader blade, post-hole auger and trencher are absent, although P2 depends on them. TractorJunction's "Land Preparation" (48) and "Landscaping" (71) groups [S8] show them as a group.
+
+*Fix:*
+- Under 8 Livestock and dairy, add leaves "Shearing" (shearing machine, handpiece), "Slaughter & stunning" (captive-bolt stunner, scalder) and "Poultry" (poultry feeding line, egg collection system, incubator for commercial hatching), with a sourcing pass before entry.
+- Add the feed mixer wagon and the silage block cutter as a leaf "Feeding" under 8.
+- Add a leaf "Grading & earthworks" under 2 Soil tillage (box blade, rear blade, land leveller, post-hole auger, trencher).
+- Put the rotary cutter with the flail mower under 6 as "rotary cutter and flail mower".
+
+**F37. (medium) Two vehicle-like machines sit on the G1 line without a rule.** The Unimog is filed as "Implement carrier (Unimog type)" [S3, S4], but a Unimog with a load bed is a truck, made mainly to transport goods, so step 11 (G1) is tried first. P6 sends ATVs and quads to G1 but lists them only in the boundary. *Fix:* add *"A vehicle made mainly to carry people or goods (Unimog truck, ATV, quad, utility vehicle) is G1 even when it powers implements; an implement carrier without a load body, made to carry and drive implements (tool-carrier tractor), is C7."*
+
+**F38. (low) Evidence and ledger are sound.** The evidence is the broadest in the domain: eight regions, two standards and legal categories [S14–S19]. The weak points are flagged by the memo itself. Australia was blocked, the Mascus agriculture page was thin [S2], the Japanese attachment guide's detail came from a search excerpt [S11], and no performance-test source was fetched. Tier as numeric attributes, with no maker tier, follows the evidence. *Fix:* fold the "platform notes (hitch categories supported, quick-hitch system)" column into the shared system ledger (convention K3), with AD730 categories and John Deere iMatch as rows [S14, S15].
+
+**F39. (summary) Usability check, 20 objects.** The 20 objects: 25 hp sub-compact with loader, 55 hp tractor, vineyard tractor, Unimog, ATV, front loader, pallet forks, 3-point rotary cutter, box blade, snow blade on a compact tractor, mouldboard plough, mounted sprayer, self-propelled sprayer, round baler, feed mixer wagon, milking robot, sheep-shearing handpiece, PTO log splitter, telehandler, centre-pivot irrigation.
+
+As the memo stands, **10 of 20 would split**:
+- the 55 hp tractor (F34) and the Unimog (F37);
+- the rotary cutter, box blade, feed mixer wagon and shearing handpiece (F36);
+- the snow blade (P2 against the step 12 note);
+- the PTO log splitter (X1);
+- the telehandler (X2);
+- the irrigation pivot (X5).
+
+With F34 to F37 applied and rulings X1, X2 and X5, all 20 have one home.
+
+### C8 Building Materials & Hardware
+
+**F40. (medium) The sub-family axis does not fit four of the twelve sub-families, and three sub-families are near-empty.**
+- *Axis.* Section 3 states the axis as "the role the product plays in a build or repair job". Batteries (C8.9), fuels and lubricants (C8.10), packing (C8.11) and lighters and matches (C8.12) play no role in a build. They are supply classes that the key put in C8.
+- *Unsourced sub-families.* C8.11 and C8.12 "rest on the key alone" (no fetched page).
+- *Near-empty sub-families.* C8.2 Interior finishes has one kind (wallpaper), although Komeri's 建具・床材 group has 1,031 items [S26] and Toolstation groups tiling [S8]. C8.4 has two kinds.
+
+*Fix:*
+1. State the axis as "the supply family the product belongs to (structural, finishing, fixing, hardware, plumbing, electrical, coating, bonding, cells, fuels, packing)". This is a single product-class axis, and it is what the retailers show.
+2. Merge C8.12 into C8.10 as a leaf "Firelighting" (matches, firelighters, long lighters), as the memo offers.
+3. Keep C8.11 pending a source, and see X10 for its boundary.
+4. Before the owner sees the tree, add attested kinds to C8.2 (floor tile, wall tile, laminate flooring, plaster and skim, skirting and architrave, from S8 and S26) and to C8.4 (latch, door bolt, hasp, bracket, handle; hooks are B1 under S3).
+
+**F41. (medium) Kind rank is uneven in batteries, fuels and paint, and primer is missing.**
+- *Batteries.* Section 4b says "size class" is the kind. The tree then makes CR123A and 18650 kinds, while CR2032 is a named form under the kind "coin cell".
+- *Fuels.* "Propane bottle" and "patio gas bottle" are two kinds, but Calor's patio gas is propane in a different cylinder and valve [S28].
+- *Paint.* The kinds mix binder ("emulsion paint") with surface (masonry, fence), and Toolstation sells masonry emulsion [S8]. Primer and undercoat are absent.
+
+*Fix:*
+1. State the battery rule, either "each standard size that buyers ask for by name is a kind (AA, AAA, C, D, 9 V, CR123A, 18650, 21700); coin and button cells are one kind whose designations are named forms, because they are dozens of sizes bought by code", or make every coin size a kind. This is C8 question 4, extended to this point.
+2. Make one kind "LPG cylinder", with `gas` (propane, butane) and `valve` (screw-on, clip-on) as attributes and the Calor bottles as named forms.
+3. Make paint kinds by surface and use only (wall and ceiling paint, masonry paint, wood and metal paint, floor paint, radiator paint, tile paint, fence and shed paint, primer and undercoat, spray paint as a form), with `binder` (water-based emulsion, solvent, alkyd) and the EN 13300 classes as attributes [S31].
+4. Make "wood finish" four kinds (stain, varnish, oil, wax), as Bunnings' Woodcare shelf divides [S4].
+
+**F42. (medium) The boundaries that neighbours raise are not answered on the C8 side.**
+- *Gravel and aggregate.* C2 sends garden stone to C2, while Komeri sells cement, sand and gravel as building materials [S26].
+- *Paving, edging and weed membrane.* C2 (question 5) proposes C8, but C8 has no kind for them.
+- *Abrasives, solder and welding wire.* C1 asks whether these are C1 or C8, and C8 is silent.
+- *Envelopes, parcel tape, bubble wrap and cardboard boxes.* These are claimed by C5, C8.11 and B1 (boxes).
+- *Electric-fence energisers and fence wire.* C7 P11 sends them to C8, where only "fence panel" exists.
+- *Lubricants.* They are in the key with no source.
+
+*Fix:* adopt the sentences in X4, X6, X8, X10 and X12 on both sides, add the matching kinds (aggregate, paving slab, lawn edging, weed membrane, sandpaper, fence wire, fence post, electric-fence energiser), and source lubricants before entry.
+
+**F43. (low) There is no US retail source, and some cited pages are thin.** The Home Depot fasteners page returned nothing. 13 of 38 sources are international references or standards. S20, S21, S23, S25, S33 and S34 returned only part of the page, and EN 228 and GOV.UK gave titles only (the memo rightly does not use them for grades). Timber and board grades were not researched. *Fix:* fetch one US home-improvement category page (Lowe's or Ace) for fasteners and electrical before entry. Mark timber grade as an open attribute.
+
+**F44. (summary) Usability check, 20 objects.** The 20 objects: wood screw, wall plug, M10 bolt class 8.8, butt hinge, lockset, cabinet knob, 15 mm push-fit elbow, mixer tap, twin-and-earth cable, consumer unit, masonry emulsion, primer, silicone sealant, tile grout, laminate flooring, rechargeable AA cell, CR2032, Calor 13 kg patio gas, decorative gravel, sandpaper.
+
+As the memo stands, **9 of 20 would split**:
+- the cabinet knob and mixer tap (C8 questions 7 and 2);
+- the consumer unit (no kind, though the leaf is clear);
+- the masonry emulsion and primer (F41);
+- the tile grout (C8 question 6);
+- the patio gas (two kinds);
+- the gravel (C2 or C8);
+- the sandpaper (C1 or C8).
+
+With F41 and F42 applied and the three owner rulings, all 20 have one home.
+
