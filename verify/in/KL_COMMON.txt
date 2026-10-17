@@ -1,0 +1,8 @@
+STAGE 2 KIND-LEVEL TEST, BUILD STEP (web allowed for finding real objects; no git). For one rework category, build a blind test of its decided inner structure.
+Web rules (CLAUDE.md): WebSearch/WebFetch or mcp__Parallel_Auth__web_search / web_fetch (allow_live_fetch on) only; never curl/wget/python fetching; never guess URLs.
+RESUME RULE: outputs are written in full at the end; if both exist, stop. Helper files only in verify/work/<BATCH>/.
+Read framework/structure/<CODE>.md (sections 3, 4b, 9, 10 and 12: the decided tree and its rules).
+1. Write verify/out/KL_<CODE>_tree.md: the decided tree only, as placers will see it: sub-families, leaves and kinds with their ids and one-line kind definitions, the leaf axes, and the in-category precedence sentences from section 9. No evidence, no sources, no usability table, no intended answers.
+2. Find 30 real objects that belong in this category, spread over every sub-family (at least one per sub-family, more where the tree is dense, and at least 8 that sit near a line between two kinds or leaves). Each must be a real product or object seen on a fetched page (maker, shop, catalogue or museum page); prefer existing catalogues from data/source_catalogues.tsv for this code.
+3. Write verify/out/KL_<CODE>_items.tsv with columns id (KL-<CODE>-01 ...), item (plain name, brand allowed), definition (≤ 30 words, describing the object as made, never naming a kind id or the intended answer's words), expected_kind (kind id from the tree), source_url (the fetched page).
+Report the counts and any sub-family where you found no object.
