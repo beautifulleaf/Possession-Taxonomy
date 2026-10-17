@@ -46,3 +46,7 @@ www.iso.org	OBP page for ISO 9999:2022 returned only a terms-of-use splash (S2_H
 www.fancl.co.jp	functional-claim food page returned navigation text only (S2_H2)
 collection.sciencemuseumgroup.org.uk	search page returned only the 'Category' heading, no category list (S2_H2)
 music.163.com	fetch of /store/vip returned footer links only (JS), no plan list (S2_I3)
+www.capterra.com/categories	page returned only the review-methodology boilerplate, no category list via Parallel; home page worked (S2_I1)
+deepwiki.com	application-categories page returned only "Loading..." (S2_I1)
+www.g2.com/categories?view_hierarchy=true	Parallel fetch returned only marketing boilerplate; plain /categories with full_content worked (S2_I1)
+www.rewe.de	/shop/allcategories returned only header/brand menu, no category tree (S2_J3)
