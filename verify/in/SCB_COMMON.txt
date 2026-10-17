@@ -1,0 +1,17 @@
+SCENE MEMBERSHIP HARVEST FOR CLOTHING (web allowed; no git). Owner decision (BRIEF.md, "Owner decisions on navigation"; R-71): clothing is navigated scene first: scene clusters → the brands in each → their signature pieces. One batch = one cluster of scenes.
+Web rules (CLAUDE.md): only WebSearch/WebFetch or mcp__Parallel_Auth__web_search / mcp__Parallel_Auth__web_fetch (allow_live_fetch on); never curl, wget or Python fetching, archives or caches; never guessed URLs. A search excerpt may locate a brand but never attests it; every row needs a page you fetched yourself.
+RESUME RULE: append rows as you go; if an output exists, skip ids already written and continue. Log fetches in verify/work/<BATCH>/fetched.tsv (url, fetch_status, what it gave). Helper files only in verify/work/<BATCH>/.
+Owner rules: depth and breadth are the point, no caps: record every brand the fetched sources place in a scene, from big houses to one-person labels; one fetched page proves a row.
+
+Inputs: data/scenes.tsv (the scenes of your cluster: scene_id, name, cluster, description); verify/out/SC_A1_brand_sources.tsv (pages that list each scene's brands; start there, then search); data/makers.tsv (reuse an existing maker_id for a brand already there: search by name first); verify/out/TREE_A1.md and data/kinds.tsv (A1 kind ids, for signature pieces); framework/structure/CONVENTIONS_v1.md C1, C2, C8.
+
+Tasks, per scene of your cluster:
+1. Membership. For each brand a fetched page places in the scene, write a scene tag: strength "core" when the page names the brand as defining, founding or central to the scene (or the brand describes itself as of the scene), "adjacent" when the page lists it as worn in or popular with the scene. A brand may belong to several scenes, each tag on its own page.
+2. Makers. A brand not yet in data/makers.tsv gets a maker row (maker_class from C1: house or manufacture, independent, microbrand, designer, artisan or atelier, retail own-label and so on; country and founded only when a fetched page states them).
+3. Signature pieces. For each core brand, record up to the pieces its own site or a fetched guide names as its signature (a model, cut or design inside one A1 kind: Levi's 501 under jeans; a series spanning several kinds is a line, as in HV_COMMON). Garments only: footwear, bags, jewellery and watches go in the report as "for A2/A3/A4/A5" with their URL, not in the data.
+
+Outputs (TSV, tab-separated, header exactly as given; " | " joins several sources, with one fetch_status per source in the same order; full or partial only):
+- verify/out/<BATCH>_scene_tags.tsv: tag_id, subject_id, subject_type, scene_id, strength, sources, fetch_status  (tag_id = TG-<scene_id without SC->-<maker_id without M->; subject_type = maker)
+- verify/out/<BATCH>_makers.tsv: the makers columns of verify/in/HV_COMMON.txt (new makers only)
+- verify/out/<BATCH>_named_forms.tsv and <BATCH>_lines.tsv: the columns of HV_COMMON.txt; named_form_id = NF-<kind_id>-S<nnn> (the S keeps scene-harvest ids apart from earlier ones; number from S001 per kind, after checking data/named_forms.tsv for S ids already used).
+Report (under 250 words): brands tagged per scene (core / adjacent), new makers, signature pieces, scenes with no fetched brand list, and the non-garment pieces for other categories.

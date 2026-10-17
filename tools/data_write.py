@@ -40,6 +40,8 @@ def problems(table, r, known):
     for col, ft in FK.items():
         if col in cols and col != key and (r.get(col) or "").strip():
             if r[col].strip() not in known.setdefault(ft, ids(ft)): out.append(f"{col} {r[col]} unknown")
+    if table in ("scene_tags", "tier_entries") and (r.get("subject_type") or "").strip() == "maker":
+        if r["subject_id"].strip() not in known.setdefault("makers", ids("makers")): out.append(f"maker {r['subject_id']} unknown")
     return out
 
 def main():
