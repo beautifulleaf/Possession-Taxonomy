@@ -1,0 +1,20 @@
+REGIONAL CLOTHING BRAND HARVEST (web allowed; no git). Owner decision (BRIEF.md, "Regional coverage of clothing brands"): every region of the world must have its clothing brands represented; some regions have more brands, but none may be thin because our sources were English or Western. One batch = one world region (its countries are listed in your task).
+Web rules (CLAUDE.md): only WebSearch/WebFetch or mcp__Parallel_Auth__web_search / mcp__Parallel_Auth__web_fetch (allow_live_fetch on); never curl, wget or Python fetching, archives or caches; never build or guess a URL: fetch only URLs from a search result or a fetched page's links. A search excerpt may locate a brand but never attests it; every row needs a page you fetched yourself.
+RESUME RULE: append rows as you go; if an output exists, skip ids already written and continue. Log fetches in verify/work/<BATCH>/fetched.tsv (url, fetch_status, what it gave). Helper files only in verify/work/<BATCH>/.
+Owner rules: depth and breadth, no caps; one fetched page proves a row; makers go in the maker ledger, never as kinds.
+
+Sources, in this order, for each country of your region (search in the country's own languages as well as English):
+1. Fashion week and fashion council designer rosters (e.g. Lagos Fashion Week, SA Fashion Week, Arab Fashion Week, Lakmé Fashion Week, Jakarta Fashion Week, Mercedes-Benz Fashion Week Mexico, São Paulo Fashion Week, Copenhagen Fashion Week, Ukrainian Fashion Week, Tbilisi Fashion Week, Australian Fashion Week).
+2. Local retailer and marketplace brand directories (e.g. Jumia, Zando, Superbalist, Namshi, Ounass, Trendyol, Myntra, Ajio, Daraz, Zalora, Shopee Mall, Tokopedia, Lamoda, Wildberries, Answear, Dafiti, Mercado Libre, Falabella, THE ICONIC, Farfetch's designers-by-country pages).
+3. National and local-language Wikipedia categories and lists of clothing brands, fashion designers or fashion houses of the country.
+4. Fashion press lists of brands from the country (Vogue editions, local fashion magazines, Business of Fashion), and brand directories of national export or craft bodies.
+Cover every country of your region with at least one fetched source where any exists (countries over about one million people first); record all brands the sources name, big and small, mainstream and designer, streetwear and traditional.
+
+Rows:
+- Makers (verify/out/<BATCH>_makers.tsv, the makers columns of verify/in/HV_COMMON.txt): every clothing brand a fetched page names, with country as an ISO 3166-1 alpha-2 code (the page must state or clearly imply it: a "brands from Nigeria" list does). Search data/makers.tsv first and reuse the maker_id of a brand already there (add the country if it was empty). maker_class from CONVENTIONS_v1 C1.
+- Maker kinds (verify/out/<BATCH>_maker_kinds.tsv: offer_id, maker_id, kind_id, notes, sources, fetch_status): for each brand, the A1 kinds (verify/out/TREE_A1.md, data/kinds.tsv) a fetched page shows it makes or sells; offer_id = MK-<maker_id without M->-<kind_id>. Every brand needs at least one maker-kinds row or one scene tag, so it is tied to clothing.
+- Scene tags (verify/out/<BATCH>_scene_tags.tsv, columns of verify/in/SCB_COMMON.txt) only for scenes already in data/scenes.tsv, when a page places the brand in the scene.
+- New regional scenes (verify/out/<BATCH>_scene_proposals.tsv, the scenes columns of data/scenes.tsv): a style or subculture of your region with its own dress and brands that data/scenes.tsv lacks (for example a city's streetwear scene or a revival of traditional dress), each with a fetched defining page. They are checked before loading.
+- Signature pieces (optional, verify/out/<BATCH>_named_forms.tsv, HV_COMMON columns, named_form_id NF-<kind_id>-R<nnn>) when a brand page names a design.
+fetch_status per source: full or partial only.
+Report (under 300 words): brands per country (a table), countries where no source was found and what you tried, the strongest sources, and the new scenes proposed.

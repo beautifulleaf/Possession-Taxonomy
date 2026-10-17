@@ -24,6 +24,7 @@ TABLES = {
     "makers": ("maker_id", ["maker_id", "name", "native_name", "maker_class", "supply_role", "country", "place",
                             "founded", "ended", "status", "parent_id", "licensor_id", "authority_id", "school_ids",
                             "extension", "notes"] + SRC),
+    "maker_kinds": ("offer_id", ["offer_id", "maker_id", "kind_id", "notes"] + SRC),  # maker makes or sells this kind (R-75)
     "lines": ("line_id", ["line_id", "maker_id", "name", "kinds", "line_rank", "built_by_maker_id", "licensor_id",
                           "years", "notes"] + SRC),
     "maker_relations": ("relation_id", ["relation_id", "maker_id", "other_id", "relation", "scope", "years"] + SRC),

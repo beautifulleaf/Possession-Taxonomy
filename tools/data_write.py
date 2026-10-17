@@ -14,7 +14,8 @@ DATA = ROOT / "data"
 FK = {"kind_id": "kinds", "named_form_id": "named_forms", "maker_id": "makers", "line_id": "lines",
       "scheme_id": "schemes", "scene_id": "scenes", "standard_id": "standards", "register_id": "registers"}
 
-NO_SOURCE = {"nodes"}  # sub-families and leaves are structure from the decided memos, not attested objects
+NO_SOURCE = {"nodes"}
+MERGE = {"makers"}  # rows met by several batches are merged, not replaced  # sub-families and leaves are structure from the decided memos, not attested objects
 
 def path(t): return DATA / f"{t}.tsv"
 
@@ -53,6 +54,9 @@ def main():
         table, src = sys.argv[2], sys.argv[3]
         key, cols = TABLES[table]
         new = read_tsv(src)
+        if table == "makers":  # country as ISO 3166-1 alpha-2 (R-75); unresolvable values are kept for review
+            from regions import country
+            for r in new: r["country"] = country(r.get("country", "")) or (r.get("country") or "").strip()
         known, bad, seen = {}, [], set()
         for r in new:
             p = problems(table, r, known)
@@ -63,7 +67,18 @@ def main():
             write_tsv(ROOT / f"verify/out/data_rejects_{table}.tsv", bad, cols + ["reason"])
             sys.exit(f"{len(bad)} of {len(new)} rows rejected (verify/out/data_rejects_{table}.tsv); nothing written")
         rows = {r[key]: r for r in load(table)}
-        for r in new: rows[r[key]] = r
+        for r in new:
+            old = rows.get(r[key])
+            if old and table in MERGE:  # several batches meet the same maker: keep filled fields, union the sources (R-75)
+                merged = {c: (r.get(c) or "").strip() or old.get(c, "") for c in cols}
+                pairs = list(zip(*(x.split(" | ") for x in (old["sources"], old["fetch_status"])))) if old.get("sources") else []
+                for u, f in zip(r["sources"].split(" | "), r["fetch_status"].split(" | ")):
+                    if u.strip() and u.strip() not in [a for a, _ in pairs]: pairs.append((u.strip(), f.strip()))
+                merged["sources"] = " | ".join(a for a, _ in pairs); merged["fetch_status"] = " | ".join(b for _, b in pairs)
+                if old.get("notes") and r.get("notes") and r["notes"] not in old["notes"]: merged["notes"] = old["notes"] + "; " + r["notes"]
+                rows[r[key]] = merged
+            else:
+                rows[r[key]] = r
         write_tsv(path(table), list(rows.values()), cols)
         print(f"{table}: {len(new)} rows added or replaced, {len(rows)} stored")
     elif cmd == "check":
