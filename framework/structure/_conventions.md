@@ -37,3 +37,13 @@ Drafted by the domain A review (framework/structure/_review_A.md, section 4) and
 
 **C9. Alias and homonym table.** One table: `term`, `language` and `script`, `target_id`, `relation` (alias, regional name, homonym). For example: JSK = jumper dress; スカジャン = souvenir jacket; カバーオール = chore coat (JP), but coverall = boiler suit (US); longcase = grandfather clock; shopper = tote; wristlet → two targets. The labels are English, with a native-script label (A1, owner question 11).
 
+
+## Additional rules from the domain B review (framework/structure/_review_B.md, section 3)
+
+**C10. Rule T: technology and power source.** Power source, technology and connectivity are attributes. They define a kind only when (a) the placement key names that kind (electric blanket, heat pump), or (b) the technology changes the object's physical form or its installation needs, so that one cannot replace the other without new fittings, and a fetched comparison source tests or ranks the types separately.
+
+**C11. Rule R: regional names.** A regional name is a kind only when it names a form that no generic kind in the tree already covers; its kind label is then the generic description, with the regional word as its name or synonym (warm-water toilet seat; kiseru, Japanese long pipe; kotatsu, heated low table). Where a generic kind exists, the regional name is a named form under it, tagged with the region (zaisu under floor chair; Yixing under teapot). A region never names a sub-family or a leaf. (This refines C2(c).)
+
+**C12. Rule M: mounting vs installation.** Mounting defines a kind when (a) the object is made only for that mount and its body differs (pendant vs floor lamp; window vs split air conditioner), or (b) the mount changes what the object can safely do, as a fetched source states (top-of-stairs gate). When the same body is offered with different fixings (wall or floor safe, built-in or freestanding oven, fitted or loose carpet), mounting is an installation attribute.
+
+**C13. Compatibility ledger.** Where makers or standards set compatibility (sockets, mounts, battery platforms, cap standards, hive systems, hitch categories), record it in one compatibility ledger: `platform_id`, `name`, `owner` (maker or standards body), `kinds_served`, `standard_ref`, `sources`. Platforms are never levels.
