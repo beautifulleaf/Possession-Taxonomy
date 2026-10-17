@@ -24,3 +24,6 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
   - (c) C1 branch: "an airbrush compressor follows the airbrush; sharpening stones and systems are C1".
   - (d) B1 or B8 note: "a freestanding play yard or playpen is B1" (R-8).
   - Further amendments raised by later S2U passes are appended here.
+- **R-17** J5 leaves: drinking bitters stay J7 (K-48), and bitters sold as a flavouring go to the condiments and sauces leaf. Mirin and cooking wines go to the vinegars and cooking-liquids leaf. Home-brewing ingredients (malt extract, hops, brewing yeast) go to the baking and fermenting-aids leaf. This adopts the S2U_J5 pass's own reading.
+- **R-18** CV-46 applies to food as well: a brand line spanning several kinds is a lines row; a line inside one kind is a maker-bound named form (C2(d)). This confirms the S2U_J5 treatment.
+- **R-19** Kinds named with a regional word (udon, soba, atta, besan, jaggery, and the like in any category) keep their level as provisional until attested (CV-27). Their generic label with the regional name as kind name (C11) is set at stage-3 harvest, not now.
