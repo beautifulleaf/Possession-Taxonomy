@@ -33,15 +33,15 @@ Each finding gives severity, memo, evidence, the objects that would split, and a
 **F1-2 (high) Japanese and comic formats have two homes, and the Franco-Belgian album has none.**
 - *Evidence.* Kind 1 "Hardback book" lists "tankōbon A5, B5, B6 as the Japanese hardback trims [S04]", but the memo's own section 1.4 says ONIX B108 to B110 are "paperback size classes" (form detail). Kind 15 "Manga tankōbon" is a separate kind in F1.1.2. Kind 4 "Pocket paperback" lists "Japanese bunko A6 (B111)" as a named form, and kind 16 "Bunkoban (manga pocket reissue)" is a separate kind. Nothing says which leaf wins for a manga volume. The comics leaf rests on one US page for the edition ladder (CBR, S12) and on Japanese pages for manga; Fnac's BD department (S31) is cited only as a shelf name, and the bande dessinée album (hardcover, about A4, 46 to 64 pages) has no kind.
 - *Objects that would split.* A Shueisha Jump Comics volume (kind 1 named form or kind 15); a manga bunko reissue (kind 4 named form or kind 16); a Tintin or Astérix album (kind 1 hardback or kind 12 collected hardcover); a Dark Horse softcover "omnibus" (kind 11, 13 or the book leaf).
-- *Fix.* (a) Precedence: *"A comic or manga volume is filed in F1.1.2 whatever its binding or trim; F1.1.1 holds books that are not comics."* (b) Apply C11 inside F1.1.2: kinds by edition form, named generically: single-issue comic; collected softcover volume (named forms: US trade paperback, tankōbon, wide-ban); collected hardcover volume (named forms: bande dessinée album, US hardcover); omnibus or compendium; pocket-size reissue (named form: bunkoban); premium large-format edition (named forms: kanzenban, sōshūhen, the Absolute and Gallery formats as maker lines, F1-6). Remove the tankōbon trims from kind 1. (c) Bunko and shinsho stay non-maker named forms of "pocket paperback" for prose only, region-tagged (C11). (d) Fetch a French or Belgian BD source and a second, non-US comics source before the ladder enters the data.
+- *Fix.* (a) Precedence: *"A comic or manga volume is filed in F1.1.2 whatever its binding or trim; F1.1.1 holds books that are not comics."* (b) Apply C11 inside F1.1.2: kinds by edition form, named generically: single-issue comic; collected softcover volume (named forms: US trade paperback, tankōbon, wide-ban); collected hardcover volume (named form: bande dessinée album, album cartonné); omnibus or compendium; pocket-size reissue (named form: bunkoban); premium large-format edition (named forms: kanzenban, sōshūhen, the Absolute and Gallery formats as maker lines, F1-6). Remove the tankōbon trims from kind 1. (c) Bunko and shinsho stay non-maker named forms of "pocket paperback" for prose only, region-tagged (C11). (d) Fetch a French or Belgian BD source and a second, non-US comics source before the ladder enters the data.
 
 **F1-3 (medium) Cartographic kinds are split by content.**
 - *Evidence.* Atlases are "reference atlas", "road atlas" and "street atlas" (by scope, S13); globes include "celestial globe" beside "desktop globe" and "floor globe". The memo's section 4b says maps stop "at physical form (folded, wall, booklet, tear-off)" and Replogle (S22) treats the depicted body as a "map style" filter. Scope and depicted body are what the map shows: content, which BRIEF and step 21 keep off the tree.
 - *Objects that would split.* A 12-inch celestial desktop globe (37 or 39); an A–Z street atlas that also carries road maps (35 or 36); a moon globe (no kind).
-- *Fix.* Atlas kinds by format, as for books: "bound atlas" (hard or soft cover) and "spiral-bound atlas", with `scope` (reference, road, street, thematic) as an attribute. Globe kinds by mount: "desktop globe", "floor globe", "hanging or suspended globe"; `body` (terrestrial, celestial, lunar, planetary), `map_style`, `illuminated` (C10) and diameter (C6) are attributes. A mini globe is a desktop globe with a size attribute. Owner questions 4 and 5 are then answered by the conventions.
+- *Fix.* Atlas kinds by format, as for books: "bound atlas" (hard or soft cover) and "spiral-bound atlas", with `scope` (reference, road, street, thematic) as an attribute. Globe kinds by mount: "desktop globe", "floor globe", "hanging or suspended globe"; `body` (terrestrial, celestial, lunar, planetary), `map_style`, `illuminated` (C10) and diameter (C6) are attributes. A mini globe is a desktop globe with a size attribute. F1's owner questions 4 and 5 are then answered by the conventions.
 
 **F1-4 (medium) Size classes are named forms and kinds.**
-- *Evidence.* The named forms of kinds 3 and 4 are US trade (B102), UK trade (B106), UK A- and B-format (B104, B105), mass-market rack (B101), tall rack (B107) and Swedish pocket (B113, B114): trim sizes. Kind 20 "Digest-size magazine" differs from kind 19 only by trim (S27). Kind 1 offers folio, quarto and octavo as named forms (owner question 6). C2(b) says sizes are attributes, not named forms; C6 says size is always an attribute with its standard. The memo's own choice-level evidence says "ONIX stops at BB and BC and puts the size classes in a second list" (S03, S04).
+- *Evidence.* The named forms of kinds 3 and 4 are US trade (B102), UK trade (B106), UK A- and B-format (B104, B105), mass-market rack (B101), tall rack (B107) and Swedish pocket (B113, B114): trim sizes. Kind 20 "Digest-size magazine" differs from kind 19 only by trim (S27). Kind 1 offers folio, quarto and octavo as named forms (F1 question 6). C2(b) says sizes are attributes, not named forms; C6 says size is always an attribute with its standard. The memo's own choice-level evidence says "ONIX stops at BB and BC and puts the size classes in a second list" (S03, S04).
 - *Fix.* Add `trim_class` with ONIX list 175 codes (B101 to B114) as the standard, and `format_size` with the ABAA height scale (S17, S18) for antiquarian books. Merge "digest-size magazine" into "magazine". Keep hardback, trade paperback and pocket paperback as kinds only if the owner accepts paper and binding, not trim, as what separates them (B&N S05: pulp paper, rack size); otherwise "paperback" is one kind with `trim_class`. Conforms to C2(b), C6.
 
 **F1-5 (medium) A tier label sits on kinds, and pressing names are undecided.**
@@ -64,14 +64,14 @@ Each finding gives severity, memo, evidence, the objects that would split, and a
 - *Fix.* Make `binding` (cloth, paper over boards, leather, fine binding) an attribute of the hardback kind; ONIX BG is cited as the attribute's code. Conforms to review C's K9.
 
 **F1-10 (low) Boundaries that need the other side's sentence.**
-- *Fix.* (a) Playaway-type players (owner question 9): F1, because the work is published fixed on the device and the device plays only that work; D3 holds players of any content. (b) Pictorial and antique engraved maps: *"A map, including a single sheet from an atlas or a pictorial wall map, is F1; a print made as art that depicts a place is F2."* F2 needs the same sentence. (c) Tarot and oracle decks are F4 (step 14); a tarock pack for card play is E1 (review E). F1 should say both so that printed decks are not filed as books.
+- *Fix.* (a) Playaway-type players (F1 question 9): F1, because the work is published fixed on the device and the device plays only that work; D3 holds players of any content. (b) Pictorial and antique engraved maps: *"A map, including a single sheet from an atlas or a pictorial wall map, is F1; a print made as art that depicts a place is F2."* F2 needs the same sentence. (c) Tarot and oracle decks are F4 (step 14); a tarock pack for card play is E1 (review E). F1 should say both so that printed decks are not filed as books.
 
 ### F2 Art
 
 **F2-1 (high) Ornamental figurines are under-built, and their makers have no ledger.**
-- *Evidence.* Step 20 files "ornamental figurines of people and animals made in ceramic, glass, metal, stone, wood or resin, whatever the edition or price" in F2. The tree has one figurine kind, 47 "porcelain or ceramic figurine", under "Modelled and fired". Glass and crystal, resin, cast metal other than bronze, and carved figurines have no kind. Section 10 says "Ornamental figurines and animation cels have no retail or enthusiast page among the fetched sources" and "Lladró-type porcelain figurine makers, bronze foundries and poster printers are not evidenced". The maker ledger is designed for artists (role, ULAN). Yet figurines are where F2 has brand identity of the kind the owner asked for (manufactories and their numbered lines), and where most owned F2 objects sit by count.
+- *Evidence.* Step 20 files "ornamental figurines of people and animals made in ceramic, glass, metal, stone, wood or resin, whatever the edition or price" in F2. The tree has one figurine kind, 47 "porcelain or ceramic figurine", under "Modelled and fired". Glass and crystal, resin, cast metal other than bronze, and carved figurines have no kind. Section 10 says "Ornamental figurines and animation cels have no retail or enthusiast page among the fetched sources" and "Lladró-type porcelain figurine makers, bronze foundries and poster printers are not evidenced". The maker ledger is designed for artists (role, ULAN). Yet figurines are where F2 has brand identity of the kind the owner asked for (manufactories and their numbered lines), and probably where many owned F2 objects sit by count (no fetched source measures this).
 - *Objects that would split or have no home.* A Swarovski crystal figure; a Murano glass animal; a Willow Tree resin figure; a pewter or cold-painted metal figure; a Hummel (Goebel) figurine with its HUM number; a carved wooden or boxwood netsuke.
-- *Fix.* Re-cut the sculpture sub-family by the material that makes the form (F2-6), so that figurines and sculpture share one axis: leaves Metal; Stone; Wood and other carved organic material; Ceramic (terracotta, earthenware and stoneware, porcelain and bone china); Glass and crystal; Resin, plastic and composite; Textile and soft; Found and mixed; Light. Kinds name the form within the material, with figurine and statue as forms where sources sell them apart (porcelain figurine, glass figurine, resin figurine, cast-metal figurine). Size and edition stay attributes (C6, Appendix A). Add the manufactory to the maker ledger (C1 maker_class `house or manufacture`), make its series C1 line rows (Lladró, Hummel, Royal Doulton figures, Swarovski Silver Crystal), and put model numbers (HUM, Lladró numbers) in the C3 variant ledger as `variant_code`. Fetch a figurine retailer or replacement dealer and a collectors' club before data entry. Owner decision: this structure, or a separate sub-family "Figurines" (option b in section 5).
+- *Fix.* Re-cut the sculpture sub-family by the material that makes the form (F2-6), so that figurines and sculpture share one axis: leaves Metal; Stone; Wood and other carved organic material; Ceramic (terracotta, earthenware and stoneware, porcelain and bone china); Glass and crystal; Resin, plastic and composite; Textile and soft; Found and mixed; Light. Kinds name the form within the material, with figurine and statue as forms where sources sell them apart (porcelain figurine, glass figurine, resin figurine, cast-metal figurine). Size and edition stay attributes (C6, Appendix A). Add the manufactory to the maker ledger (C1 maker_class `house or manufacture`), make its series C1 line rows (Lladró, Hummel, Royal Doulton figures, Swarovski Silver Crystal), and put model numbers (HUM, Lladró numbers) in the C3 variant ledger as `variant_code`. Fetch a figurine retailer or replacement dealer and a collectors' club before data entry. Owner decision: this structure, or a separate sub-family "Figurines" (section 5, question 20).
 
 **F2-2 (medium) "Art poster" is a kind in a process axis.**
 - *Evidence.* Kind 31 "art poster (offset-printed)" sits in the leaf "Photomechanical"; the leaf axis is "printing-process family". Posters are also made by stone lithography (the classic French posters), screenprint and inkjet. Kind 27 "offset lithograph" already exists under Planographic, and GA lists offset lithography as photomechanical, so offset work has two leaves.
@@ -256,7 +256,7 @@ Each finding gives severity, memo, evidence, the objects that would split, and a
 - *Fix.* "Diamond" against "Fancy-colour diamond" can stay two kinds only because GIA grades them on separate reports and scales (S15); say so, or make colour an attribute. "Dinosaur tooth and bone" joins two parts; split it or call it "dinosaur fossil" with `part` as an attribute. The bulk-shell test ("identified specimen" against "bulk by weight") is a test of how the shells are sold; restate it as the object test "a single shell with its species identified" against "an unsorted assortment".
 
 **F6-8 (low) Boundaries that need the other side's sentence.**
-- *Fix.* Taxidermy presented as art (F2-9(a)); carved stone and polished objects (the memo's F2 and B4 sentence, which F2 should repeat); replicas of fossils and skulls (owner question 7: F2 if made as a sculpture, E1 if made as a toy or model kit, by review E's model rules).
+- *Fix.* Taxidermy presented as art (F2-9(a)); carved stone and polished objects (the memo's F2 and B4 sentence, which F2 should repeat); replicas of fossils and skulls (F6 question 7: F2 if made as a sculpture, E1 if made as a toy or model kit, by review E's model rules).
 
 ### Usability test: 20 objects per memo, filed by two builders from the memo as written
 
@@ -367,15 +367,15 @@ The changes each memo needs to conform. "None" means the memo already conforms o
 
 **X2 (high) Cards, scrip and postal covers between F3 and F5 use motive tests and contradict each other.**
 - *Evidence.* F3: "a live payment, transit or gift card is F5, while an obsolete token or scrip collected for itself is F3"; "any envelope or card kept for its stamps and postal markings [is] F3"; the kind "Scrip or voucher (S1 'Trade vouchers')". F5: "a picture postcard is F5 used or not" (step 19); "telephone card" is an F5 kind with collector named forms; "a paper gift certificate redeemable only at its issuer is F5 while a money-substitute scrip used as currency is F3". The step 5 note already says "a card kept after it has expired or been used up is F5". "Collected for itself" and "kept for its stamps" test motive (S5).
-- *Proposed sentences (both memos):* *"Payment, gift, telephone, transit, membership and key cards are F5 whether live, used or expired. A token of metal, plastic or other material issued to stand for money or a service is F3. Paper issued to circulate as money (scrip, emergency money, Notgeld) is F3; a voucher or gift certificate redeemable only with its issuer is F5. Postal stationery with a printed stamp, and a cover issued by a postal administration or prepared as a first-day cover, are F3; any other used envelope, letter or picture postcard is F5, whatever stamps it carries."* The last clause sends postal-history covers to F5; the owner may prefer F3 for any cover that has passed through the post (owner question 3).
+- *Proposed sentences (both memos):* *"Payment, gift, telephone, transit, membership and key cards are F5 whether live, used or expired. A token of metal, plastic or other material issued to stand for money or a service is F3. Paper issued to circulate as money (scrip, emergency money, Notgeld) is F3; a voucher or gift certificate redeemable only with its issuer is F5. Postal stationery with a printed stamp, and a cover issued by a postal administration or prepared as a first-day cover, are F3; any other used envelope, letter or picture postcard is F5, whatever stamps it carries."* The last clause sends postal-history covers to F5; the owner may prefer F3 for any cover that has passed through the post (owner question 34).
 
 **X3 (medium) Photographs: F2 and F5 use different axes and different tests.**
 - *Evidence.* F2 divides photographs by process (gelatin silver, albumen as GA lists, chromogenic) and proposes "whether the print is signed, numbered or catalogued as an edition" as the F2 test. F5 divides photographic prints by format (carte de visite, cabinet card, real photo postcard, snapshot) and asks (O3) whether strangers' vernacular photographs, which step 19 does not cover ("of the owner's own life"), go to F5. A 19th-century albumen cabinet card is thus a process kind in one memo and a format named form in the other.
 - *Proposed convention.* Every photographic print carries both `process` (F2's vocabulary, from GA) and `mount_format` (F5's named forms). Placement: *"A photographic print issued as an edition, or signed or stamped by its maker as a work, is F2; every other photographic print, slide or negative (snapshots, studio portraits, cartes de visite, cabinet cards, real photo postcards), whoever is shown, is F5."* This needs the framework to drop "of the owner's own life" from step 19 (framework conflict).
 
 **X4 (medium) Devotional images: F2 and F4 both test intent.**
-- *Evidence.* F2 boundary 4: "a picture or statue made for use in worship (icon, home-shrine image, devotional statue) is F4"; owner question 7 asks about thangka formats. F4 boundary 7: "the maker's purpose does" decide, with an owner question on old-master altarpieces. Neither gives an object test, and the antiques trade lists icons under painting (F4 S22).
-- *Proposed sentence.* *"The devotional forms are F4 by kind: icon (painted panel in the icon tradition), thangka and other devotional scroll paintings, altarpiece, devotional statue made for a shrine, crucifix. A painting or sculpture with a religious subject made in another form (an easel painting, a garden figure) is F2 or B4."* This files an old-master altarpiece in F4. The owner may instead keep "made before a cut-off date" out of it; age is a modifier, so the reviewer does not recommend that.
+- *Evidence.* F2 boundary 4: "a picture or statue made for use in worship (icon, home-shrine image, devotional statue) is F4"; F2's question 7 asks about thangka formats. F4 boundary 7: "the maker's purpose does" decide, with an owner question on old-master altarpieces. Neither gives an object test, and the antiques trade lists icons under painting (F4 S22).
+- *Proposed sentence.* *"The devotional forms are F4 by kind: icon (painted panel in the icon tradition), thangka and other devotional scroll paintings, altarpiece, devotional statue made for a shrine, crucifix. A painting or sculpture with a religious subject made in another form (an easel painting, a garden figure) is F2 or B4."* This files an old-master altarpiece in F4. The alternative, filing old altarpieces in F2 by age, would use era, an Appendix A modifier, and is not recommended.
 
 **X5 (medium) Albums, binders and holders: three memos, three answers.**
 - *Evidence.* F3: single holders follow the coin or card (S3); albums, binders and trays are B1. F6: domes and stands for one specimen are F6.10; trays and cabinets are B1. F5: empty photo albums are F5 (P6). F1: says nothing about sleeves, bags and jewel cases.
@@ -446,4 +446,96 @@ The changes each memo needs to conform. "None" means the memo already conforms o
 
 - *Duplicated (one object, two kinds):* tankōbon and bunko (F1 books and comics, F1-2); offset lithograph and art poster (F2 kinds 27 and 31, F2-2); incense burner, censer and koro; altar bell, rin and singing bowl; thangka and kakejiku (F4-1); amethyst, garnet, tourmaline and corundum in F6.1 and F6.5 (F6-1); telephone card in F5 and in F3's exonumia list (S3); "scrip or voucher" in F3 and "gift certificate" in F5 (X2); award medal in F3 Medals and the trophy shops' medal line (settled by F3's own owner question 5).
 - *Orphaned (named by the key, a source or a memo, with no kind):* glass, crystal, resin and metal figurines (F2-1); animation cel and portrait miniature (F2); Franco-Belgian BD album, mook, cassette single, 8-track (F1); diya, seven-branch menorah, nativity set, Advent wreath, offering vessels, spirit board, runes (F4-3, F4-6); devotional medal (X1); Panini-type stickers (F3 or E1 or C5 "stickers"); elongated coins and wooden nickels (F3 section 4 only); chain of office and gavel (unattested); menus, invitations, trade cards, receipts, bookplates (F5-5); fluid-preserved specimens, eggs, antlers (F6-4); freshwater pearls (F6-2).
+
+## 5. Owner decisions raised (merged and de-duplicated)
+
+Recommended answers are in brackets; the memo question or finding follows.
+
+**Domain-wide**
+1. Size rule: a size class names a kind only when it changes what the object can be used with (film gauge yes; record diameter, paperback trim, digest magazine, urn capacity no), with any exceptions named beside luggage? Yes/no, and which exceptions. [yes, no exceptions] (X11; F1-1, F1-4, F4-4)
+2. One maker schema for domain F: C1 core columns, multi-valued `maker_class` with the F values of X7, `authority_id`, and a separate issuer table shared by F3 and F5? Yes/no. [yes] (X7; F1-6, F2-7, F3-10, F4-8, F5-6, F6 Q12)
+3. Lines that span kinds are C1 line rows; lines inside one kind are maker-bound named forms? Yes/no. [yes] (X8; F1-6, F3-6)
+4. A shared grading-scale registry, with no grade value stored on a kind or named form? Yes/no. [yes] (X9; F3 section 5, F6 section 5)
+5. Sets: like items filed as the item with a quantity attribute; kits by greatest value; which owner-approved set kinds: mint proof and mint sets, rock and mineral teaching set, factory card set? Choice. [first two] (X10; F3-7, F6-5)
+6. Parts sub-families F1.5, F3.10 and F6.10 now, others when attested? Yes/no. [yes] (X6)
+7. Albums and holders: empty albums, binders and boxes for several objects are B1; filled photo albums and scrapbooks F5; blank scrapbook albums C4? Yes/no. [yes] (X5; F5 O1, F3 Q11)
+8. Regional and variety names: C11 everywhere, with the two-region test as the tie-break between kind and named form? Yes/no. [yes] (X12; F6 Q3)
+9. Add a `fetch_status` column to every S2 sources file, and an excerpts file? Yes/no. [yes] (X14)
+
+**F1 Media & Publications**
+10. Candidate A (carrier family, form of issue, format class, edition line)? Yes/no. [yes]
+11. Comics and manga: their own leaf, with generic edition kinds and tankōbon, bunkoban, kanzenban and the BD album as named forms? Yes/no. [yes] (F1 Q1, Q3, Q7; F1-2)
+12. Record kinds by groove standard with diameter, speed and release type as attributes, or diameter kinds as a stated exception? Choice. [groove standard] (F1-1)
+13. Paperbacks: pocket and trade paperback as two kinds (paper and binding), or one kind with `trim_class`? Choice. [two kinds only if B&N's paper difference is accepted; otherwise one] (F1-4); folio, quarto and octavo as a size attribute? Yes/no. [yes] (F1 Q6)
+14. Atlases and globes by form, with scope, depicted body and illumination as attributes; a bar globe stays F1? Yes/no. [yes] (F1 Q4, Q5; F1-3)
+15. Audiobooks filed by carrier with content type as an attribute; method and tutor books are books? Yes/no. [yes] (F1 Q2, Q10)
+16. Periodicals: no journal/magazine split; back issues are items; a bound volume of a periodical goes with periodicals (against HS) or with books? Choice. [periodicals] (F1 Q8; F1-8)
+17. Playaway-type pre-recorded players: F1 or D3? Choice. [F1] (F1 Q9)
+
+**F2 Art**
+18. Sub-families by discipline, including textile hangings, calligraphy, and collage and mosaic; kinds at medium or technique? Yes/no. [yes] (F2 Q1, Q2)
+19. Pastel: drawing or painting? Choice. [drawing] (F2 Q3)
+20. Figurines: material-family leaves in Sculpture, shared with sculpture (recommended), or a separate sub-family "Figurines"; manufactories in the maker ledger with their series as lines? Choice. [material-family leaves; yes] (F2-1, F2-6)
+21. Posters: filed by printing process with `issue_form = poster`, or one "poster" kind whatever the process? Choice. [process] (F2-2)
+22. Installation, video, light and kinetic art, and sculpture that is also a lamp: in F2 or out? Choice. [in when free-standing; video works I2] (F2 Q4)
+23. Reproductions (offset posters, inkjet reproductions, factory figurines) are F2 kinds with `authenticity_class`? Yes/no. [yes] (F2 Q5)
+24. Artists: an exemplar ledger with ULAN identifiers, or only an authority link? Choice. [exemplar ledger] (F2 Q6)
+25. Portrait miniature, hanging scroll, handscroll: kinds, named forms or attributes? Choice. [hanging scroll and handscroll attributes; portrait miniature a kind once attested] (F2 Q7)
+
+**F2, F4 and F5 together**
+26. Photographs: an editioned or maker-signed print is F2, every other print, slide or negative is F5 whoever is shown, and step 19 drops "of the owner's own life"? Yes/no. [yes] (X3; F2 Q8, F5 O3)
+27. Devotional images: icon, thangka and other devotional scrolls, altarpiece, shrine statue and crucifix are F4 by kind; religious subjects in other forms F2 or B4? Yes/no. [yes] (X4; F2 Q8, F4 Q3)
+28. Taxidermy: a mount of one animal is F6 however presented; a composition of animal parts with other materials is F2? Yes/no. [yes] (F2-9, F6-8)
+
+**F3 Coins, Stamps, Medals & Trading Cards**
+29. Nine sub-families by issuing function, with the collecting-discipline grouping as a view? Yes/no. [yes] (F3 Q1)
+30. Coin kinds by standing of the issue, denomination and currency as attributes, ancient coins in the same kinds with an `era` tag? Yes/no. [yes] (F3 Q2, Q3)
+31. Bullion or coin by the issue's finish and packaging, not by how it is priced? Yes/no. [yes] (F3 Q4; F3-4)
+32. A disc medal is Medals wherever sold; trophies by form with material as an attribute? Yes/no. [yes] (F3 Q5; F3-3)
+33. Stamps: two issue-class kinds with postal service as an attribute; miniature sheets and booklets as kinds; single, strip, block and sheet as attributes? Yes/no. [yes] (F3 Q7; F3-2)
+34. Postal covers: only postal stationery, administration-issued covers and first-day covers are F3, other used envelopes and postcards F5; or any cover that has passed through the post is F3? Choice. [the first] (X2)
+35. Cards: sport, league and franchise as tags; one "sealed card product" kind; graded game cards stay E1? Yes/no. [yes] (F3 Q6; F3-6)
+36. Token kinds stop at purpose class? Yes/no. [yes] (F3 Q8)
+37. Catalogue numbers (Scott, Michel, Gibbons, Pick, Numista) stored as identifiers only after a licence check? Yes/no. [yes] (F3 Q9)
+38. Regalia folded into Medals as the leaf "Insignia of office", with crowns of office there? Yes/no. [yes] (F3 Q10; F3-8; review A crowns)
+39. Championship rings and belts: F3 awards, or A3 and E2? Choice. [F3, named in the step 15 list] (F3 framework conflicts)
+40. Panini-type collectible stickers: F3, E1 or C5 ("stickers")? Choice. [F3 with the card kinds, if a source sells them as collectibles] (section 4.3)
+41. Play, prop and souvenir money: E1 for game money, F3 paper exonumia for prop and souvenir notes? Yes/no. [yes] (F3 framework conflicts)
+
+**F4 Religious & Ceremonial Objects**
+42. Tradition is a tag and a view, never a level; and kinds follow C11 (prayer beads, household altar, incense burner, bowl bell, devotional statue, devotional scroll painting) with tradition names as named forms, or butsudan and others kept as C2(c) exceptions? Choice. [C11, no exceptions] (F4 Q1; F4-1)
+43. Religious medals: loose devotional medal F4, worn A3, commemorative F3? Yes/no. [yes] (X1; F4 Q4)
+44. Prayer rugs F4 or B2; candles made for a rite F4 or B3; prayer and holy cards F4, F1 or F5? Choice for each. [F4, F4, F4] (F4 Q2)
+45. Singing bowls E3 unless made for a rite (as review E proposes)? Yes/no. [yes] (F4 Q2)
+46. Prayer-bead necklaces and malas: F4 when made with a counter, tassel or guru bead, A3 when made as a necklace; ash jewellery A3? Yes/no. [yes] (F4 Q4; review A A3-6)
+47. Masonic and fraternal ritual objects; smudge bundles: F4, F3 or B9 and B4? Choice. [worn Masonic regalia by the worn rules (A1, A3), ritual implements F4; smudge bundles B4 as home incense unless made for a named rite (F4)] (F4 Q5)
+48. The dead as one sub-family with pets as a user tag, and urn capacity as an attribute? Yes/no. [yes] (F4 Q6; F4-4)
+49. Tier ladders: casket gauge and wood as attributes, relic class as a classification attribute, the kosher grade held until a second source? Yes/no. [yes] (F4 Q7; F4-5)
+50. Spirit boards F4 or E1? Choice. [F4 when sold for divination] (F4-6)
+51. A fossil or stone kept for worship (salagrama): F4 or F6? Choice. [F4, as relics are] (F4 boundary 9, F6 Q13)
+52. A small ledger for Judaica silversmiths and tarot publishers? Yes/no. [yes, inside the shared ledger] (F4 Q8)
+
+**F5 Documents & Personal Records**
+53. Function first, with the leaf level kept? Yes/no. [yes] (F5 O7)
+54. Kept printed ephemera (menus, invitations, trade cards, receipts, labels, bookplates) as F5 kinds by form? Yes/no. [yes] (F5 O2; F5-5)
+55. The entitlement is I3 and the card F5; payment, gift, phone, transit, membership and key cards are F5 live or expired; scrip that circulates is F3, issuer-only vouchers F5? Yes/no. [yes] (F5 O4, O6; X2)
+56. Developed negatives, home audio and home film are F5? Yes/no. [yes] (F5 O5)
+57. National ID and licence designs as an issuer tag, not named forms? Yes/no. [yes] (F5 O8)
+58. Vaccination, school and tax papers are F5? Yes/no. [yes] (F5 O9)
+
+**F6 Natural History & Specimens**
+59. Candidate A with nine sub-families (F6.9 study sets removed under the set rule) and F6.10 as the parts sub-family? Yes/no. [yes] (F6 Q1)
+60. Mineral leaf by Strunz class, after the quartz placement is verified? Yes/no. [yes] (F6 Q2)
+61. Gems against minerals by cut state (faceted, cabochon or cutting rough to F6.5; everything else F6.1); drilled beads C4? Yes/no. [yes] (F6 Q4; F6-1)
+62. Pearls as saltwater and freshwater kinds, with Akoya, South Sea and Tahitian as named forms? Yes/no. [yes] (F6-2)
+63. Simulants out of F6; slab, sphere, egg and palm stone in; lamp, carved animal and pendant out; fossil and skull replicas F2 if sculpture, E1 if a toy or kit? Yes/no. [yes] (F6 Q5, Q6, Q7)
+64. Human remains, ivory and CITES-listed items: in scope with `legal_status`, or human specimens excluded? Choice. [in, with the flag; human specimens excluded as remains under step 1] (F6 Q8)
+65. Species and taxa loaded as named forms only when attested; element identity as an attribute; healing and birthstone views generated from tags? Yes/no. [yes] (F6 Q9, Q10, Q11)
+
+**Framework conflicts to log (not owner questions in themselves; for the next CATEGORIES revision)**
+- Step 19 "of the owner's own life" leaves strangers' photographs without a home (X3, question 26).
+- Step 15 does not name championship rings and belts (question 39); play and prop money (question 41); devotional medals (question 43).
+- Step 14 does not name prayer rugs, candles made for a rite or prayer cards (question 44).
+- Step 7 is silent on simulants, replicas of specimens and human specimens (questions 63, 64).
+- The step 5 note ("a card kept after it has expired ... is F5") and step 15 "tokens and scrip" need the X2 sentence.
 
