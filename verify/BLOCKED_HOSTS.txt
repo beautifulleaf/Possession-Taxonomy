@@ -4,3 +4,12 @@ www.avito.ru	fetch returned only footer text (JS/anti-bot), no categories (H04)
 www.tmall.com, www.flipkart.com, www.facebook.com/marketplace/categories (main), jp.mercari.com/categories	pages rendered without category lists (JS only) (H04)
 www.tesco.com	403 to WebFetch (G01)
 www.waitrose.com	403 to WebFetch (G01); Parallel fetch works
+list.jd.com	Parallel fetch of list.jd.com/list.html?cat=670,677,678 returned only footer text (JS), no categories (S2_D1)
+www.nitori-net.jp	parallel fetch network_error on keyword page (JS) (S2_B4)
+www.taobao.com	Taobao list page fetched via Parallel returned only intro text, no category tree (S2_D1)
+www.jd.com	hprm page returned product listings only, no category chips/tree (S2_D1)
+www.housebeautiful.com	WebFetch refused (S2_B1); Parallel fetch returned only first paragraph
+codeofchina.com	Parallel fetch_error on GBT3324-2024 page (S2_B1)
+list.jd.com	fetch returned only the login page (S2_A2)
+www.target.com	fetch returned only footer text, no clock categories (A5)
+www.muji.com	JP category page returned only consent/terms text, no category list (S2_B1)
