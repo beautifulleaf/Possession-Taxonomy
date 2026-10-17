@@ -25,6 +25,10 @@ def load(t):
 def ids(t):
     return {r[TABLES[t][0]] for r in load(t)}
 
+def cached(known, k, fn):
+    if k not in known: known[k] = fn()  # setdefault would rebuild the set for every row
+    return known[k]
+
 def problems(table, r, known):
     key, cols = TABLES[table]
     out = []
@@ -41,11 +45,11 @@ def problems(table, r, known):
     for col, ft in FK.items():
         if col in cols and col != key and (r.get(col) or "").strip():
             v = r[col].strip()
-            if table == "maker_kinds" and col == "kind_id" and v in known.setdefault("_cats", {n["node_id"] for n in load("nodes") if n["level"] == "category"}):
+            if table == "maker_kinds" and col == "kind_id" and v in cached(known, "_cats", lambda: {n["node_id"] for n in load("nodes") if n["level"] == "category"}):
                 continue  # category-level tie (R-76)
-            if v not in known.setdefault(ft, ids(ft)): out.append(f"{col} {r[col]} unknown")
+            if v not in cached(known, ft, lambda: ids(ft)): out.append(f"{col} {r[col]} unknown")
     if table in ("scene_tags", "tier_entries") and (r.get("subject_type") or "").strip() == "maker":
-        if r["subject_id"].strip() not in known.setdefault("makers", ids("makers")): out.append(f"maker {r['subject_id']} unknown")
+        if r["subject_id"].strip() not in cached(known, "makers", lambda: ids("makers")): out.append(f"maker {r['subject_id']} unknown")
     return out
 
 def main():

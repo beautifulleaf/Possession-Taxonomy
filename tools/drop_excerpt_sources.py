@@ -14,7 +14,9 @@ def main():
     for r in read_tsv(log):
         u = (r.get("url") or "").strip(); what = " ".join(str(v) for k, v in r.items() if k not in ("url", "fetch_status", "status"))
         if u: st[u] = "excerpt-only" if BAD.search(what) or (r.get("fetch_status") or "").strip() in ("blocked", "failed") else (r.get("fetch_status") or "").strip()
-    rows = read_tsv(out); cols = list(rows[0].keys()); keep, lost, n = [], [], 0
+    rows = read_tsv(out)
+    if not rows: print(f"{out.name}: empty"); return
+    cols = list(rows[0].keys()); keep, lost, n = [], [], 0
     for r in rows:
         pairs = list(zip([u.strip() for u in r["sources"].split("|")], [f.strip() for f in r["fetch_status"].split("|")]))
         good = [(u, f) for u, f in pairs if st.get(u, f) not in ("excerpt-only", "blocked", "failed")]

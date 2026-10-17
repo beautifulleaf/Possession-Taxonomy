@@ -1,0 +1,222 @@
+scene_id	source_file	decision	final_scene_id	merge_into	reason
+SC-surf	verify/out/scene_proposals_all.tsv	merge	SC-surf	SC-surf	Same scene as the re-located SC-surf (SC_A1R_1); sources merged there.
+SC-first-nations-fashion	verify/out/scene_proposals_all.tsv	accept	SC-australian-first-nations-fashion		Aboriginal and Torres Strait Islander designer fashion with its own awards and labels; renamed so it is not confused with Canadian First Nations.
+SC-pasifika-fashion	verify/out/scene_proposals_all.tsv	accept	SC-pasifika-fashion		Contemporary Pacific island wear with labels and fashion shows; absorbs robe mission and bilum dress.
+SC-robe-mission	verify/out/scene_proposals_all.tsv	merge	SC-pasifika-fashion	SC-pasifika-fashion	Single garment type (Mother Hubbard island dress) worn across the Pacific; folded into Pasifika fashion.
+SC-bilum-fashion	verify/out/scene_proposals_all.tsv	merge	SC-pasifika-fashion	SC-pasifika-fashion	A weaving technique used in Papua New Guinea dresses, not a separate style; folded into Pasifika fashion.
+SC-central-asian-ethno-modern	verify/out/scene_proposals_all.tsv	accept	SC-central-asian-ethno-modern		Designer movement reworking nomadic dress in Kazakhstan, Kyrgyzstan and Uzbekistan, with named brands and fashion weeks.
+SC-uzbek-ikat-suzani	verify/out/scene_proposals_all.tsv	accept	SC-central-asian-ikat-suzani		Ikat and suzani revival with many named labels; widened to the Tajik atlas and adras designers working the same textiles.
+SC-tbilisi-underground	verify/out/scene_proposals_all.tsv	merge	SC-post-soviet-streetwear	SC-post-soviet-streetwear	Georgian branch of the same post-Soviet aesthetic (Vetements, Demna); a city label, not a separate dress.
+SC-armenian-heritage-revival	verify/out/scene_proposals_all.tsv	accept	SC-armenian-heritage-revival		Yerevan designer revival of Armenian costume and ornament with several labels.
+SC-sri-lankan-batik-handloom	verify/out/scene_proposals_all.tsv	accept	SC-sri-lankan-batik-handloom		Designer scene of Sri Lankan batik, beeralu and handloom shown at Colombo fashion weeks.
+SC-newar-dhaka-dress-revival	verify/out/scene_proposals_all.tsv	accept	SC-newar-dhaka-dress-revival		Nepali designers selling revived Newar and Dhaka textiles as fashion.
+SC-bhutanese-contemporary-kira-gho	verify/out/scene_proposals_all.tsv	merge	SC-bhutanese-gho-kira-fashion	SC-bhutanese-gho-kira-fashion	Duplicate of the THIN_MEA proposal for the same Bhutanese scene; sources merged there.
+SC-khadi-revival-india	verify/out/scene_proposals_all.tsv	merge	SC-south-asian-ethnic-wear	SC-south-asian-ethnic-wear	A fabric revival inside Indian ethnic and handloom wear, not a separate dress; one fashion-week source.
+SC-himalayan-trekking-wear	verify/out/scene_proposals_all.tsv	merge	SC-gorpcore	SC-gorpcore	Outdoor gear made in Nepal for trekkers; a regional outdoor label, no style of its own.
+SC-pakistani-lawn	verify/out/scene_proposals_all.tsv	accept	SC-pakistani-lawn		Seasonal unstitched lawn and pret is a large brand-led market of its own within the salwar kameez.
+SC-bengali-festive-wear	verify/out/scene_proposals_all.tsv	merge	SC-south-asian-ethnic-wear	SC-south-asian-ethnic-wear	Bangladeshi regional label of South Asian ethnic wear (panjabi, sari, salwar kameez); region comes from maker country.
+SC-maldivian-libaas	verify/out/scene_proposals_all.tsv	merge	SC-folk-costume	SC-folk-costume	Single garment revived by one designer; tag moves to the folk-costume umbrella.
+SC-mexican-streetwear	verify/out/scene_proposals_all.tsv	merge	SC-streetwear	SC-streetwear	Regional label of streetwear; region comes from maker country.
+SC-brazilian-beachwear	verify/out/scene_proposals_all.tsv	reject			Swimwear and beachwear is a garment category, see kinds; Brazil comes from maker country. No style beyond the garment.
+SC-gaucho-dress	verify/out/scene_proposals_all.tsv	accept	SC-gaucho-dress		Gaucho country dress sold by shops (bombachas, alpargatas, ponchos); absorbs the re-located SC-gaucho.
+SC-antillean-madras	verify/out/scene_proposals_all.tsv	accept	SC-antillean-madras		Creole madras dress sold by named makers and worn on Creole Day.
+SC-andean-alpaca-knitwear	verify/out/scene_proposals_all.tsv	merge	SC-folk-knitwear	SC-folk-knitwear	Material-led regional knitwear, not a separate style; folded into a widened folk and heritage knitwear scene.
+SC-cholita-pollera	verify/out/scene_proposals_all.tsv	accept	SC-cholita-pollera		Pollera dress taken into designer fashion (Bolivia Moda, Cusco labels).
+SC-mexican-artisan-textile-fashion	verify/out/scene_proposals_all.tsv	accept	SC-mexican-artisan-textile-fashion		Mexican designer labels built with Indigenous artisans, wider than the huipil garment.
+SC-indigenous-fashion	verify/out/scene_proposals_all.tsv	accept	SC-indigenous-north-american-fashion		North American Indigenous designer scene with its own fashion weeks; renamed to state the region.
+SC-cowichan-sweater	verify/out/scene_proposals_all.tsv	merge	SC-folk-knitwear	SC-folk-knitwear	Single garment (Coast Salish hand-knit sweater); folded into the widened folk knitwear scene.
+SC-baju-melayu-kurung	verify/out/scene_proposals_all.tsv	accept	SC-baju-melayu-kurung		Malay national dress sold as Raya fashion by many local labels.
+SC-sinh-pha-sin	verify/out/scene_proposals_all.tsv	accept	SC-sinh-pha-sin		Lao national dress recut by Thai and Lao labels into contemporary clothing.
+SC-songket-tenun-ikat	verify/out/scene_proposals_all.tsv	accept	SC-songket-tenun-ikat		Woven-textile fashion of island Southeast Asia with many labels; absorbs Timorese tais.
+SC-batik-fashion	verify/out/scene_proposals_all.tsv	accept	SC-batik-fashion		Batik clothing sold as fashion by Indonesian, Malaysian and Singaporean houses.
+SC-modern-filipiniana	verify/out/scene_proposals_all.tsv	accept	SC-modern-filipiniana		Philippine women's national dress reworked by contemporary designers.
+SC-burmese-longyi-dress	verify/out/scene_proposals_all.tsv	accept	SC-burmese-longyi-dress		Myanmar national dress modernised by Yangon boutiques.
+SC-khmer-sampot-krama	verify/out/scene_proposals_all.tsv	accept	SC-khmer-sampot-krama		Cambodian dress and cloth reworked in contemporary Cambodian fashion.
+SC-habesha-kemis	verify/out/scene_proposals_all.tsv	accept	SC-habesha-kemis		Ethiopian and Eritrean dress sold by many designers.
+SC-herero-dress	verify/out/scene_proposals_all.tsv	accept	SC-herero-dress		A full dress tradition (gown and headdress) sewn by designers, not a single garment.
+SC-basotho-blanket-dress	verify/out/scene_proposals_all.tsv	merge	SC-folk-costume	SC-folk-costume	Single garment (the blanket) without a wider style; tag moves to the folk-costume umbrella.
+SC-pantsula	verify/out/scene_proposals_all.tsv	accept	SC-pantsula		Township dance subculture with a coordinated dress code and brand canon.
+SC-izikhothane	verify/out/scene_proposals_all.tsv	accept	SC-izikhothane		Township designer-brand display culture; absorbs the re-located SC-skhothane.
+SC-lamba-malagasy	verify/out/scene_proposals_all.tsv	merge	SC-folk-costume	SC-folk-costume	Single wrapped cloth without a wider style; tag moves to the folk-costume umbrella.
+SC-maasai-shuka	verify/out/scene_proposals_all.tsv	merge	SC-folk-costume	SC-folk-costume	Single wrapped cloth reworked by one label; tag moves to the folk-costume umbrella.
+SC-akorino-dress	verify/out/scene_proposals_all.tsv	reject			Religious dress code of one church; no brand sells it as fashion.
+SC-seshoeshoe-dress	verify/out/scene_proposals_all.tsv	accept	SC-seshoeshoe-dress		Shweshwe dresses are made by many South African labels; a cloth with a wider fashion scene.
+SC-post-soviet-streetwear	verify/out/scene_proposals_all.tsv	accept	SC-post-soviet-streetwear		Designer streetwear distinct from the gopnik dress it quotes; absorbs Tbilisi underground.
+SC-slavic-chic	verify/out/scene_proposals_all.tsv	accept	SC-slavic-chic		Polish and Ukrainian designer folk-craft revival with named labels.
+SC-paninari	verify/out/scene_proposals_all.tsv	accept	SC-paninaro		Italian 1980s brand-led youth subculture; renamed to the singular used by Wikipedia; absorbs the re-located SC-paninaro.
+SC-nautical-marine	verify/out/scene_proposals_all.tsv	accept	SC-nautical-marine		Navy-derived civilian style with its own makers (Saint James, Armor Lux); moved to Heritage & workwear.
+SC-folk-knitwear	verify/out/scene_proposals_all.tsv	accept	SC-folk-knitwear		Heritage knitwear with makers; widened to Andean alpaca and Coast Salish knits; moved to Heritage & workwear.
+SC-sape	verify/out/scene_proposals_all.tsv	accept	SC-sape		Congolese dandy subculture; absorbs the re-located SC-la-sape and the Johannesburg swenkas.
+SC-lagos-streetwear	verify/out/scene_proposals_all.tsv	merge	SC-streetwear	SC-streetwear	Regional label of streetwear; region comes from maker country.
+SC-accra-streetwear	verify/out/scene_proposals_all.tsv	merge	SC-streetwear	SC-streetwear	Regional label of streetwear; region comes from maker country.
+SC-abidjan-streetwear	verify/out/scene_proposals_all.tsv	merge	SC-streetwear	SC-streetwear	Regional label of streetwear; region comes from maker country.
+SC-faso-dan-fani	verify/out/scene_proposals_all.tsv	accept	SC-faso-dan-fani		Burkinabe strip cloth sold as fashion by many designers, with its own fashion week.
+SC-bogolan-fashion	verify/out/scene_proposals_all.tsv	accept	SC-bogolan-fashion		Malian mud-cloth couture and ready-to-wear by several labels.
+SC-abacost	verify/out/scene_proposals_all.tsv	merge	SC-folk-costume	SC-folk-costume	Single garment (Mobutu-era suit) revived by one workshop; tag moves to the folk-costume umbrella.
+SC-kaba-and-slit	verify/out/scene_proposals_all.tsv	accept	SC-kaba-and-slit		Ghanaian women's national ensemble made by couture houses.
+SC-adire-aso-oke	verify/out/scene_proposals_all.tsv	accept	SC-adire-aso-oke		Yoruba textile fashion sold by several Nigerian labels.
+SC-raffia-couture	verify/out/scene_proposals_all.tsv	merge	SC-folk-costume	SC-folk-costume	A fibre used by two designers, not a scene; tags move to the folk-costume umbrella.
+SC-panu-di-tera	verify/out/scene_proposals_all.tsv	merge	SC-west-african-dress	SC-west-african-dress	Cabo Verde hand-woven cloth used by two makers; folded into West African dress.
+SC-kanvo	verify/out/scene_proposals_all.tsv	merge	SC-west-african-dress	SC-west-african-dress	Benin hand-woven cloth from one producer; folded into West African dress.
+SC-new-chinese-style	verify/out/scene_proposals_all.tsv	merge	SC-neo-chinese	SC-neo-chinese	Same scene as the re-located SC-neo-chinese (xin zhongshi); guochao is decided separately.
+SC-taiwan-urban-outdoor	verify/out/scene_proposals_all.tsv	merge	SC-techwear	SC-techwear	Taiwanese label for functional city wear; same garments and logic as techwear.
+SC-taiwan-vernacular-pop	verify/out/scene_proposals_all.tsv	merge	SC-streetwear	SC-streetwear	Regional label of streetwear (graphics on local culture); region comes from maker country.
+SC-hong-kong-streetwear	verify/out/scene_proposals_all.tsv	merge	SC-streetwear	SC-streetwear	Regional label of streetwear; region comes from maker country.
+SC-korean-outdoor-fashion	verify/out/scene_proposals_all.tsv	merge	SC-gorpcore	SC-gorpcore	Korean label for mountain gear worn as everyday fashion, which is gorpcore.
+SC-mori-kei	verify/out/scene_proposals_all.tsv	merge	SC-mori-kei	SC-mori-kei	Same scene as the re-located SC-mori-kei (SC_A1R_1); source merged there.
+SC-fairy-kei	verify/out/scene_proposals_all.tsv	merge	SC-fairy-kei	SC-fairy-kei	Same scene as the re-located SC-fairy-kei (SC_A1R_1); source merged there.
+SC-dolly-kei	verify/out/scene_proposals_all.tsv	accept	SC-dolly-kei		Distinct J-fashion style tied to the Grimoire shop.
+SC-cult-party-kei	verify/out/scene_proposals_all.tsv	merge	SC-cult-party-kei	SC-cult-party-kei	Same scene as the re-located SC-cult-party-kei (SC_A1R_2); source merged there.
+SC-jirai-kei	verify/out/scene_proposals_all.tsv	merge	SC-jirai-kei	SC-jirai-kei	Same scene as the re-located SC-jirai-kei (SC_A1R_1); sources merged there.
+SC-genderless-kei	verify/out/scene_proposals_all.tsv	merge	SC-genderless-kei	SC-genderless-kei	Same scene as the re-located SC-genderless-kei (SC_A1R_3); sources merged there.
+SC-kogal	verify/out/scene_proposals_all.tsv	accept	SC-kogal		Recognised gyaru substyle with its own school-uniform-based dress.
+SC-angura-kei	verify/out/scene_proposals_all.tsv	merge	SC-angura-kei	SC-angura-kei	Same scene as the re-located SC-angura-kei (SC_A1R_1); source merged there.
+SC-oshare-kei	verify/out/scene_proposals_all.tsv	merge	SC-oshare-kei	SC-oshare-kei	Same scene as the re-located SC-oshare-kei (SC_A1R_1); source merged there.
+SC-heisei-retro	verify/out/scene_proposals_all.tsv	merge	SC-y2k	SC-y2k	Japanese label for the 1990s-2000s revival, which is Y2K; gyaru and kogal cover its Japanese substyles.
+SC-bhutanese-gho-kira-fashion	verify/out/scene_proposals_all.tsv	accept	SC-bhutanese-gho-kira-fashion		Bhutanese designers selling reworked national dress; absorbs the duplicate REG_SAS proposal.
+SC-timorese-tais-fashion	verify/out/scene_proposals_all.tsv	merge	SC-songket-tenun-ikat	SC-songket-tenun-ikat	Timorese hand-woven cloth; folded into the Southeast Asian handwoven-textile scene.
+SC-sudanese-toub-fashion	verify/out/scene_proposals_all.tsv	accept	SC-sudanese-toub-fashion		Designer labels selling the Sudanese toub as fashion.
+SC-tajik-atlas-chakan-fashion	verify/out/scene_proposals_all.tsv	merge	SC-central-asian-ikat-suzani	SC-central-asian-ikat-suzani	Same atlas and adras ikat textile scene as the Uzbek proposal, in Tajikistan; merged.
+SC-saudi-streetwear	verify/out/scene_proposals_all.tsv	merge	SC-streetwear	SC-streetwear	Regional label of streetwear; region comes from maker country.
+SC-palestinian-heritage-fashion	verify/out/scene_proposals_all.tsv	accept	SC-palestinian-heritage-fashion		Palestinian labels built on tatreez and keffiyeh with many named brands.
+SC-algerian-traditional-couture	verify/out/scene_proposals_all.tsv	accept	SC-algerian-traditional-couture		Algerian couture houses specialising in karakou, chedda and Kabyle dress; wider than the loaded kaftan.
+SC-tesettur	verify/out/scene_proposals_all.tsv	merge	SC-modest-fashion	SC-modest-fashion	Turkish name for modest fashion; generic covered garments; region comes from maker country.
+SC-iranian-manteau	verify/out/scene_proposals_all.tsv	accept	SC-iranian-manteau		A distinct garment set (manteau and rusari) with its own domestic brands.
+SC-kurdish-dress	verify/out/scene_proposals_all.tsv	accept	SC-kurdish-dress		Kurdish dress reworked and sold by ateliers in Erbil and Sulaymaniyah.
+SC-egyptian-streetwear	verify/out/scene_proposals_all.tsv	merge	SC-streetwear	SC-streetwear	Regional label of streetwear; region comes from maker country.
+SC-tunisian-streetwear	verify/out/scene_proposals_all.tsv	merge	SC-streetwear	SC-streetwear	Regional label of streetwear; region comes from maker country.
+SC-capulana-fashion	verify/out/scene_proposals_all.tsv	merge	SC-african-wax-print	SC-african-wax-print	Mozambican name for the same printed wrap cloth; region comes from maker country.
+SC-chitenge-fashion	verify/out/scene_proposals_all.tsv	merge	SC-african-wax-print	SC-african-wax-print	Zambian name (chitenge, kitenge) for the same printed wax cloth; region comes from maker country.
+SC-techwear	verify/out/SC_A1R_1_scenes.tsv	accept	SC-techwear		Established technical urban style with its own brands; absorbs darkwear and Taiwanese urban outdoor.
+SC-darkwear	verify/out/SC_A1R_1_scenes.tsv	merge	SC-techwear	SC-techwear	Techwear shops' name for the all-black variant; same garments and brands.
+SC-old-money	verify/out/SC_A1R_1_scenes.tsv	accept	SC-old-money		Recognised quiet-luxury style with its own brand canon; absorbs BCBG.
+SC-japanese-ivy	verify/out/SC_A1R_1_scenes.tsv	accept	SC-japanese-ivy		Japanese Ivy (Ametora) has its own makers from VAN Jacket on; parent set to the loaded SC-ivy.
+SC-bcbg	verify/out/SC_A1R_1_scenes.tsv	merge	SC-old-money	SC-old-money	French label for the same bourgeois classic dress (blazers, trench, cashmere, pearls).
+SC-dark-academia	verify/out/SC_A1R_1_scenes.tsv	accept	SC-dark-academia		Widely documented aesthetic with distinct clothing (tweed, pleats, knits).
+SC-cottagecore	verify/out/SC_A1R_1_scenes.tsv	accept	SC-cottagecore		Widely documented aesthetic with distinct clothing and labels (prairie dresses, hand-knits).
+SC-preppy	verify/out/SC_A1R_1_scenes.tsv	accept	SC-preppy		Distinct campus sportswear style with a brand canon; absorbs pijo and poppers.
+SC-hypebeast	verify/out/SC_A1R_1_scenes.tsv	merge	SC-streetwear	SC-streetwear	Consumer type inside streetwear (hyped drops); same brands as streetwear.
+SC-normcore	verify/out/SC_A1R_1_scenes.tsv	accept	SC-normcore		Distinct plain-dressing style, documented by press; absorbs dadcore.
+SC-military-chic	verify/out/SC_A1R_1_scenes.tsv	merge	SC-military-surplus	SC-military-surplus	Fashion side of the same military-derived dress covered by the loaded military-surplus scene.
+SC-neo-chinese	verify/out/SC_A1R_1_scenes.tsv	accept	SC-neo-chinese		Chinese contemporary dress style (xin zhongshi) with its own labels; absorbs New Chinese style.
+SC-guochao	verify/out/SC_A1R_1_scenes.tsv	accept	SC-guochao		National-trend Chinese brands with their own streetwear and sportswear; distinct from neo-Chinese dress.
+SC-han-yuansu	verify/out/SC_A1R_1_scenes.tsv	merge	SC-hanfu	SC-hanfu	Hanfu revival and Han-element wear is the fashion side of the loaded hanfu scene.
+SC-ulzzang	verify/out/SC_A1R_1_scenes.tsv	merge	SC-k-fashion	SC-k-fashion	Korean online-shop look inside K-fashion; same brands.
+SC-kkonminam	verify/out/SC_A1R_1_scenes.tsv	reject			A male beauty ideal; no dress or brands of its own.
+SC-mori-kei	verify/out/SC_A1R_1_scenes.tsv	accept	SC-mori-kei		Recognised J-fashion style; absorbs the REG_EAS duplicate and natural kei.
+SC-natural-kei	verify/out/SC_A1R_1_scenes.tsv	merge	SC-mori-kei	SC-mori-kei	Close relative of mori kei; only partial fan-wiki sources, application disputed.
+SC-fairy-kei	verify/out/SC_A1R_1_scenes.tsv	accept	SC-fairy-kei		Recognised Harajuku style tied to the Spank! shop; absorbs the REG_EAS duplicate.
+SC-oshare-kei	verify/out/SC_A1R_1_scenes.tsv	accept	SC-oshare-kei		Recognised visual kei branch; absorbs the REG_EAS duplicate.
+SC-girly-kei	verify/out/SC_A1R_1_scenes.tsv	accept	SC-girly-kei		Magazine-led Japanese style (LARME) with its own brands; absorbs French girly.
+SC-y2k	verify/out/SC_A1R_1_scenes.tsv	accept	SC-y2k		Documented revival style; absorbs Heisei retro and Chinese millennial feng.
+SC-western	verify/out/SC_A1R_1_scenes.tsv	merge	SC-western-workwear	SC-western-workwear	Same cowboy-derived dress as the loaded western-workwear scene.
+SC-minimalism	verify/out/SC_A1R_1_scenes.tsv	accept	SC-minimalism		Distinct designer minimalism (Jil Sander, The Row, Lemaire), not the forum monochrome look.
+SC-skate	verify/out/SC_A1R_1_scenes.tsv	accept	SC-skate		Skateboarding dress with its own brands.
+SC-surf	verify/out/SC_A1R_1_scenes.tsv	accept	SC-surf		Surf dress with its own brands; absorbs the REG_OCE proposal.
+SC-jirai-kei	verify/out/SC_A1R_1_scenes.tsv	accept	SC-jirai-kei		Documented Japanese style with its own brands; absorbs the REG_EAS duplicate.
+SC-jersey-maid	verify/out/SC_A1R_1_scenes.tsv	reject			Fan-wiki neologism: only fandom wiki pages show it.
+SC-ganguro	verify/out/SC_A1R_1_scenes.tsv	accept	SC-ganguro		Documented gyaru branch; absorbs manba.
+SC-hime-gyaru	verify/out/SC_A1R_1_scenes.tsv	accept	SC-hime-gyaru		Documented gyaru branch with its own brands; absorbs himekaji.
+SC-hime-lolita	verify/out/SC_A1R_1_scenes.tsv	accept	SC-hime-lolita		Recognised lolita substyle sold by lolita brands.
+SC-angura-kei	verify/out/SC_A1R_1_scenes.tsv	accept	SC-angura-kei		Recognised visual kei substyle; absorbs the REG_EAS duplicate.
+SC-biker	verify/out/SC_A1R_1_scenes.tsv	accept	SC-biker		Motorcycle-culture dress with its own makers; parent of the loaded SC-cafe-racer.
+SC-raggare	verify/out/SC_A1R_1_scenes.tsv	merge	SC-greaser	SC-greaser	Swedish counterpart of greaser dress; same garments.
+SC-la-sape	verify/out/SC_A1R_1_scenes.tsv	merge	SC-sape	SC-sape	Same scene as the REG_AFW proposal SC-sape; sources merged there.
+SC-paninaro	verify/out/SC_A1R_1_scenes.tsv	merge	SC-paninaro	SC-paninaro	Same scene as the REG_WEU proposal (renamed SC-paninaro); sources merged there.
+SC-rude-boy	verify/out/SC_A1R_1_scenes.tsv	accept	SC-rude-boy		Jamaican ska-era style, distinct from mod and skinhead which it fed.
+SC-rockabilly	verify/out/SC_A1R_1_scenes.tsv	accept	SC-rockabilly		Major revival scene with its own makers; parent of the loaded pin-up rockabilly.
+SC-gothabilly	verify/out/SC_A1R_1_scenes.tsv	accept	SC-gothabilly		Documented rockabilly-goth crossover sold by alternative labels.
+SC-psychobilly	verify/out/SC_A1R_1_scenes.tsv	accept	SC-psychobilly		Documented rockabilly-punk offshoot with its own dress.
+SC-acubi	verify/out/SC_A1R_1_scenes.tsv	accept	SC-acubi		Named Korean style with its own brands; sub-style of K-fashion.
+SC-cyber-grunge	verify/out/SC_A1R_1_scenes.tsv	reject			Fan-wiki neologism: only the Aesthetics Wiki defines it.
+SC-avant-basic	verify/out/SC_A1R_1_scenes.tsv	accept	SC-avant-basic		Press-documented style with named labels (Lisa Says Gah, Paloma Wool, House of Sunny).
+SC-avant-apocalypse	verify/out/SC_A1R_1_scenes.tsv	merge	SC-avant-garde	SC-avant-garde	TikTok label for deconstructed, asymmetric avant-garde dress.
+SC-eclectic-grandpa	verify/out/SC_A1R_1_scenes.tsv	reject			Short-lived 2024 microtrend of thrifted pieces; no dress or brands of its own.
+SC-brazilian-bombshell	verify/out/SC_A1R_2_scenes.tsv	reject			Retrospective label for a modelling look; no dress or brands of its own.
+SC-gen-z-maximalism	verify/out/SC_A1R_2_scenes.tsv	reject			A mood of cluttered dressing; no dress or brands of its own.
+SC-dadcore	verify/out/SC_A1R_2_scenes.tsv	merge	SC-normcore	SC-normcore	Normcore variant (deliberately plain dad clothes); same idea and brands.
+SC-berlin-techno	verify/out/SC_A1R_2_scenes.tsv	accept	SC-berlin-techno		Club dress with its own designers (Lueder, Ottolinger) and a press definition.
+SC-cult-party-kei	verify/out/SC_A1R_2_scenes.tsv	accept	SC-cult-party-kei		Recognised J-fashion style; absorbs the REG_EAS duplicate.
+SC-bodikon	verify/out/SC_A1R_2_scenes.tsv	accept	SC-bodikon		Bubble-era Japanese style worn in named brands (Pinky & Dianne).
+SC-buffalo	verify/out/SC_A1R_2_scenes.tsv	reject			One stylist's editorial look (Ray Petri); no wearer scene or brands of its own.
+SC-french-girly	verify/out/SC_A1R_2_scenes.tsv	merge	SC-girly-kei	SC-girly-kei	Substyle of girly kei with the same brand set.
+SC-balletcore	verify/out/SC_A1R_2_scenes.tsv	accept	SC-balletcore		Press-documented style with distinct garments and labels.
+SC-goth-punk-jp	verify/out/SC_A1R_2_scenes.tsv	accept	SC-goth-punk-jp		Japanese goth-punk brands (h.NAOTO, Sex Pot ReVeNGe) form their own scene.
+SC-han-yang-zhezhong	verify/out/SC_A1R_2_scenes.tsv	merge	SC-hanfu	SC-hanfu	A styling of Ming hanfu with Western accessories, sold by hanfu shops.
+SC-himekaji	verify/out/SC_A1R_2_scenes.tsv	merge	SC-hime-gyaru	SC-hime-gyaru	Casual hime gyaru; same brands (Liz Lisa).
+SC-hippie	verify/out/SC_A1R_2_scenes.tsv	accept	SC-hippie		Major subculture with distinct dress still sold as boho.
+SC-hippie-goth	verify/out/SC_A1R_2_scenes.tsv	merge	SC-goth	SC-goth	Goth with boho pieces; no brands of its own.
+SC-nu-goth	verify/out/SC_A1R_2_scenes.tsv	accept	SC-nu-goth		Documented 2010s goth branch with its own labels.
+SC-jojifuku	verify/out/SC_A1R_2_scenes.tsv	accept	SC-jojifuku		Japanese adult wear of named children's brands (Mezzo Piano), outside the fan wiki too.
+SC-kinderwhore	verify/out/SC_A1R_2_scenes.tsv	accept	SC-kinderwhore		Documented 1990s look with its own dress, sub-style of grunge.
+SC-krocha	verify/out/SC_A1R_2_scenes.tsv	merge	SC-tecktonik	SC-tecktonik	Austrian counterpart of the same 2000s electro-dance youth look.
+SC-marshmallow-girl	verify/out/SC_A1R_2_scenes.tsv	accept	SC-marshmallow-girl		Named Japanese style with magazine and brands for women outside the thin ideal.
+SC-messy-french-girl	verify/out/SC_A1R_2_scenes.tsv	reject			Fan-wiki neologism: only the Aesthetics Wiki defines it.
+SC-mob-wife	verify/out/SC_A1R_2_scenes.tsv	reject			Short-lived 2024 microtrend; no dress or brands of its own beyond fur and leopard print.
+SC-manba	verify/out/SC_A1R_2_scenes.tsv	merge	SC-ganguro	SC-ganguro	Extreme ganguro offshoot; same dress and brands.
+SC-maillard-style	verify/out/SC_A1R_2_scenes.tsv	reject			A colour microtrend (browns), not a style with dress or brands.
+SC-pastel-grunge	verify/out/SC_A1R_2_scenes.tsv	reject			Tumblr blend of grunge and pastel goth; no dress or brands of its own.
+SC-peeps	verify/out/SC_A1R_2_scenes.tsv	reject			Thrift-led look with no brands of its own; outside the fan wiki only partial pages.
+SC-pijo	verify/out/SC_A1R_2_scenes.tsv	merge	SC-preppy	SC-preppy	Spanish label for preppy dress; same garments and brands.
+SC-pink-pilates-princess	verify/out/SC_A1R_2_scenes.tsv	merge	SC-athleisure	SC-athleisure	Athleisure microtrend; same brands.
+SC-poppers	verify/out/SC_A1R_2_scenes.tsv	merge	SC-preppy	SC-preppy	German 1980s youth in preppy dress (Lacoste, loafers, cashmere); same brands.
+SC-regencycore	verify/out/SC_A1R_2_scenes.tsv	accept	SC-regencycore		Documented style with distinct garments (empire waists, puff sleeves) sold by labels.
+SC-millennial-feng	verify/out/SC_A1R_2_scenes.tsv	merge	SC-y2k	SC-y2k	Chinese label for the 2000s and Y2K look.
+SC-peacock-revolution	verify/out/SC_A1R_2_scenes.tsv	accept	SC-peacock-revolution		Documented 1960s menswear movement tied to designers and boutiques (V&A).
+SC-rockstar-gf	verify/out/SC_A1R_2_scenes.tsv	reject			TikTok mood board of existing pieces; no dress or brands of its own.
+SC-romantic-goth	verify/out/SC_A1R_2_scenes.tsv	accept	SC-romantic-goth		Documented goth branch with its own dress.
+SC-scandi-girl-winter	verify/out/SC_A1R_2_scenes.tsv	reject			Seasonal microtrend; Scandinavian brands come from maker country.
+SC-tanbi-kei	verify/out/SC_A1R_2_scenes.tsv	merge	SC-visual-kei	SC-visual-kei	Visual kei costume substyle; no brands of its own.
+SC-tecktonik	verify/out/SC_A1R_2_scenes.tsv	accept	SC-tecktonik		French electro-dance youth look with its own (trademarked) brand; absorbs krocha.
+SC-tenniscore	verify/out/SC_A1R_2_scenes.tsv	accept	SC-tenniscore		Press-documented style with distinct garments and labels.
+SC-that-girl	verify/out/SC_A1R_2_scenes.tsv	merge	SC-athleisure	SC-athleisure	Wellness look of matching workout sets, which is athleisure.
+SC-vsco-girl	verify/out/SC_A1R_2_scenes.tsv	accept	SC-vsco-girl		Documented teen look with its own brand canon (Brandy Melville, Fjallraven, Birkenstock).
+SC-yallternative	verify/out/SC_A1R_2_scenes.tsv	reject			TikTok mix of western and goth; one page, no brands of its own.
+SC-catholic-mexican-girl	verify/out/SC_A1R_2_scenes.tsv	reject			TikTok mood of dresses and religious accessories; no brands of its own.
+SC-succubus-chic	verify/out/SC_A1R_2_scenes.tsv	reject			TikTok mood (one press page); no dress or brands of its own.
+SC-anarcho-punk	verify/out/SC_A1R_2_scenes.tsv	merge	SC-punk	SC-punk	Political punk branch whose dress is punk's black DIY.
+SC-bikiniarze	verify/out/SC_A1R_2_scenes.tsv	reject			Historical youth dress; no maker sold or sells it.
+SC-new-look	verify/out/SC_A1R_2_scenes.tsv	reject			A single brand's collection (Dior 1947), not a scene.
+SC-black-ivy	verify/out/SC_A1R_3_scenes.tsv	accept	SC-black-ivy		Documented style (book, press) with its own makers; parent set to the loaded SC-ivy.
+SC-botswana-metalheads	verify/out/SC_A1R_3_scenes.tsv	merge	SC-metal	SC-metal	Regional label of heavy metal dress; only the fan wiki defines it.
+SC-bravu	verify/out/SC_A1R_3_scenes.tsv	merge	SC-punk	SC-punk	Galician music movement whose dress is punk and workwear.
+SC-club-kids	verify/out/SC_A1R_3_scenes.tsv	reject			Nightlife performance costume, DIY and brand-free; nothing to tag.
+SC-colorido	verify/out/SC_A1R_3_scenes.tsv	merge	SC-scene	SC-scene	Brazilian label for the scene-kid look (coloured skinny jeans, fringes).
+SC-cholo	verify/out/SC_A1R_3_scenes.tsv	accept	SC-cholo		Chicano style with its own dress and makers (Dickies, Pendleton); no parent, distinct from pachuco.
+SC-cholombiano	verify/out/SC_A1R_3_scenes.tsv	accept	SC-cholombiano		Monterrey subculture with distinct dress, documented outside the fan wiki.
+SC-cumbiero	verify/out/SC_A1R_3_scenes.tsv	reject			Only the Aesthetics Wiki defines it; generic tracksuit dress.
+SC-ah-beng	verify/out/SC_A1R_3_scenes.tsv	reject			Social stereotype; sources name no garments or brands of its own.
+SC-dandy	verify/out/SC_A1R_3_scenes.tsv	merge	SC-classic-tailoring	SC-classic-tailoring	A persona of tailored elegance; its dress and makers are classic tailoring.
+SC-deathrock	verify/out/SC_A1R_3_scenes.tsv	accept	SC-deathrock		Documented goth-punk branch with its own dress.
+SC-disco	verify/out/SC_A1R_3_scenes.tsv	accept	SC-disco		Documented 1970s style, still sold as revival.
+SC-dresiarz	verify/out/SC_A1R_3_scenes.tsv	merge	SC-gopnik	SC-gopnik	Polish label for the same tracksuit youth dress.
+SC-e-boy	verify/out/SC_A1R_3_scenes.tsv	accept	SC-e-boy		Documented look (Wikipedia: e-girls and e-boys) with distinct dress.
+SC-eshay	verify/out/SC_A1R_3_scenes.tsv	accept	SC-eshay		Australian subculture with a clear brand canon (Nike TN, Nautica, Lacoste).
+SC-flaite	verify/out/SC_A1R_3_scenes.tsv	accept	SC-flaite		Chilean subculture with a clear brand canon.
+SC-gabber	verify/out/SC_A1R_3_scenes.tsv	accept	SC-gabber		Dutch hardcore scene with its own brand canon (Australian tracksuits, Air Max).
+SC-garconne	verify/out/SC_A1R_3_scenes.tsv	accept	SC-garconne		Documented 1920s look repeatedly revived by designers.
+SC-gaucho	verify/out/SC_A1R_3_scenes.tsv	merge	SC-gaucho-dress	SC-gaucho-dress	Same scene as the REG_LAC proposal SC-gaucho-dress; sources merged there.
+SC-genderless-kei	verify/out/SC_A1R_3_scenes.tsv	accept	SC-genderless-kei		Documented Japanese style; absorbs the REG_EAS duplicate.
+SC-gopnik	verify/out/SC_A1R_3_scenes.tsv	accept	SC-gopnik		Post-Soviet tracksuit youth dress with a brand canon; absorbs dresiarz.
+SC-gutter-punk	verify/out/SC_A1R_3_scenes.tsv	merge	SC-crust-punk	SC-crust-punk	Same lived-in, patched DIY punk dress as crust punk.
+SC-post-punk	verify/out/SC_A1R_3_scenes.tsv	merge	SC-punk	SC-punk	Music genre; its dress is punk's secondhand and surplus look, toned down.
+SC-oi-skinhead	verify/out/SC_A1R_3_scenes.tsv	merge	SC-skinhead	SC-skinhead	Second-wave skinhead; same dress and brands as the loaded skinhead scene.
+SC-parisian-apaches	verify/out/SC_A1R_3_scenes.tsv	reject			Historical (Belle Epoque) street dress; no maker sold or sells it.
+SC-lad-culture	verify/out/SC_A1R_3_scenes.tsv	merge	SC-casuals	SC-casuals	Laddish football-shirt and terrace sportswear dress is the casuals look.
+SC-quinqui	verify/out/SC_A1R_3_scenes.tsv	reject			Only the Aesthetics Wiki defines its dress.
+SC-new-rave	verify/out/SC_A1R_3_scenes.tsv	accept	SC-new-rave		Documented 2000s club fashion with its own labels (Cassette Playa).
+SC-new-romantic	verify/out/SC_A1R_3_scenes.tsv	accept	SC-new-romantic		Documented club scene tied to designers (Westwood, BodyMap).
+SC-majismo	verify/out/SC_A1R_3_scenes.tsv	reject			Historical 18th-century Spanish dress; no maker sells it as fashion.
+SC-leather-subculture	verify/out/SC_A1R_3_scenes.tsv	accept	SC-leather-subculture		Distinct dress with specialist makers.
+SC-sloanie	verify/out/SC_A1R_3_scenes.tsv	merge	SC-british-countryside	SC-british-countryside	London social type wearing British countryside clothing in town; same brands.
+SC-suedehead	verify/out/SC_A1R_3_scenes.tsv	accept	SC-suedehead		Documented skinhead offshoot with its own smarter dress.
+SC-skhothane	verify/out/SC_A1R_3_scenes.tsv	merge	SC-izikhothane	SC-izikhothane	Same scene as the REG_AFE proposal SC-izikhothane; sources merged there.
+SC-yuppie	verify/out/SC_A1R_3_scenes.tsv	merge	SC-classic-tailoring	SC-classic-tailoring	1980s corporate power dressing; its makers are classic tailoring houses.
+SC-takenokozoku	verify/out/SC_A1R_3_scenes.tsv	reject			Costume from a single boutique (Takenoko); a single brand, not a scene.
+SC-shibuya-kei	verify/out/SC_A1R_3_scenes.tsv	reject			A music genre; its dress is generic 1960s revival with no brands of its own.
+SC-stilyagi	verify/out/SC_A1R_3_scenes.tsv	reject			Historical Soviet youth dress from black-market and home-made pieces; no maker to tag.
+SC-swenkas	verify/out/SC_A1R_3_scenes.tsv	merge	SC-sape	SC-sape	Johannesburg form of the same competitive dandy-suit culture.
+SC-ultras	verify/out/SC_A1R_3_scenes.tsv	accept	SC-ultras		Football-ultra dress codified by its own brands; sub-style of casuals.
+SC-sharpies	verify/out/SC_A1R_3_scenes.tsv	reject			Historical Australian youth dress; no maker sold or sells it.
+SC-swingjugend	verify/out/SC_A1R_3_scenes.tsv	reject			Historical youth dress; no maker sold or sells it.
+SC-ye-ye	verify/out/SC_A1R_3_scenes.tsv	merge	SC-mod	SC-mod	1960s French pop girls' mod-influenced dress; same scene as mod.
