@@ -21,3 +21,13 @@ Agreed with the owner on 2026-10-17.
 ## Stage 1 approval (owner, 2026-10-17)
 - **The 44 top-level categories of framework/CATEGORIES_v0_3.md are approved "as of now"** (open to later revision). Stage 2 may start.
 - Owner-queue items 2–6 were not objected to, so the proposed defaults stand provisionally: wine and spirits stay in scope as B9 stock by object (all alcoholic drinks in sealed containers); cannabis and nicotine products sit with tobacco in B9; accounts and cryptocurrency holdings are OUT while items held in accounts and NFTs are I1; baby and child goods have no category (user age is a modifier; a generated view may follow); the stage-2 pilot is A1 Clothing and D1 Computers & Components.
+
+## Owner decisions on edge calls (2026-10-17)
+- Pet food and animal feed are in, with animal equipment.
+- Vitamins, dietary supplements and protein powders are in (filed under health unless the owner says otherwise).
+- Tickets for a single event or journey, and one-off services, are out: the enjoyment is the experience, not the ticket. A kept ticket stub is in as a keepsake paper.
+- Cryptocurrency holdings are out, like a bank balance; NFTs are in.
+- Online services and accounts are in or out by **utility vs entertainment, not by price**: utility services (email, cloud storage, messaging, password vaults, maps and similar) are in whether free or paid; the internet as entertainment (social feeds, free video and content platforms) belongs to a separate taxonomy. Paid entertainment subscriptions are in as purchases.
+- Grocery products that the Culinary taxonomy also holds (cheese, cured meats, fruit, tea, coffee, wine) are described here as bought, with their quality grade, and link to the Culinary kind.
+- Cannabis and nicotine products are in, with tobacco.
+- Baby and child goods have no category of their own; each goes to its functional home.
