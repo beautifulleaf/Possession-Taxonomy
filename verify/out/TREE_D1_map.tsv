@@ -1,0 +1,102 @@
+kind_id	kind	memo_ref
+D1.1.1.01	Tower desktop PC	tree D1.1 Desktop computers
+D1.1.1.02	Mini PC	tree D1.1 Desktop computers
+D1.1.1.03	All-in-one PC	tree D1.1 Desktop computers
+D1.1.1.04	Keyboard computer	tree D1.1 Desktop computers; D1-O1
+D1.1.2.01	Laptop	tree D1.1 Portable computers
+D1.1.2.02	Pocket computer	tree D1.1 Portable computers; D1-O1
+D1.1.3.01	Barebone kit	tree D1.1 Kits; edge 1
+D1.1.3.02	Trainer kit	tree D1.1 Kits; D1-O1
+D1.2.1.01	Processor	tree D1.2 Processors
+D1.2.2.01	Motherboard	tree D1.2 Motherboards; alias table
+D1.2.2.02	Board with CPU fitted	tree D1.2 Motherboards; edge 2
+D1.2.3.01	DIMM memory module	tree D1.2 Memory; D-5
+D1.2.3.02	SODIMM memory module	tree D1.2 Memory; D-5
+D1.2.4.01	Graphics card	tree D1.2 Graphics; edge 4; alias table
+D1.2.4.02	External GPU enclosure	tree D1.2 Graphics
+D1.2.5.01	PC power supply unit	tree D1.2 Power
+D1.2.6.01	PC case	tree D1.2 Enclosures
+D1.2.7.01	Air CPU cooler	tree D1.2 Cooling
+D1.2.7.02	All-in-one liquid cooler	tree D1.2 Cooling
+D1.2.7.03	Custom-loop parts	tree D1.2 Cooling
+D1.2.7.04	Case fan	tree D1.2 Cooling
+D1.2.7.05	Thermal paste	tree D1.2 Cooling
+D1.2.7.06	M.2 heatsink	tree D1.2 Cooling
+D1.2.7.07	Fan controller	tree D1.2 Cooling (lighting controllers † not a kind)
+D1.2.8.01	Sound card	tree D1.2 Expansion cards; K-150, R-38
+D1.2.8.02	Network adapter card	tree D1.2 Expansion cards
+D1.2.8.03	Video capture card	tree D1.2 Expansion cards
+D1.2.8.04	I/O expansion card	tree D1.2 Expansion cards
+D1.2.9.01	Internal PC cable	tree D1.2 Internal cables; edge 6
+D1.3.1.01	Internal SSD	tree D1.3 Drives; D-3
+D1.3.1.02	Internal HDD	tree D1.3 Drives; D-3
+D1.3.1.03	External SSD	tree D1.3 Drives
+D1.3.1.04	External HDD	tree D1.3 Drives
+D1.3.2.01	USB flash drive	tree D1.3 Portable media
+D1.3.2.02	Memory card	tree D1.3 Portable media; D5-O1
+D1.3.3.01	Drive enclosure	tree D1.3 Enclosures and readers
+D1.3.3.02	Memory-card reader	tree D1.3 Enclosures and readers
+D1.3.4.01	Optical drive	tree D1.3 Optical and legacy
+D1.3.4.02	Floppy disk drive	tree D1.3 Optical and legacy
+D1.3.5.01	NAS	tree D1.3 Network storage; review D1-8; K-14
+D1.4.1.01	Keyboard	tree D1.4 Keyboards; D-7
+D1.4.1.02	Numeric keypad	tree D1.4 Keyboards
+D1.4.1.03	Keyboard kit	tree D1.4 Keyboards; R-36
+D1.4.2.01	Linear keyboard switch	tree D1.4 Keyboard switches; D-7
+D1.4.2.02	Tactile keyboard switch	tree D1.4 Keyboard switches; D-7
+D1.4.2.03	Clicky keyboard switch	tree D1.4 Keyboard switches; D-7
+D1.4.3.01	Mouse	tree D1.4 Pointing
+D1.4.3.02	Trackball	tree D1.4 Pointing
+D1.4.3.03	Pen tablet	tree D1.4 Pointing; K-158
+D1.4.4.01	Monitor	tree D1.4 Display
+D1.4.5.01	Printer	tree D1.4 Printing and scanning
+D1.4.5.02	Scanner	tree D1.4 Printing and scanning
+D1.4.5.03	Multifunction printer	tree D1.4 Printing and scanning
+D1.4.5.04	3D printer	tree D1.4 Printing and scanning; D1-O2
+D1.4.5.05	Barcode scanner	tree D1.4 Printing and scanning
+D1.4.6.01	Webcam	tree D1.4 Capture and switching
+D1.4.6.02	Video capture device	tree D1.4 Capture and switching
+D1.4.6.03	Speech microphone	tree D1.4 Capture and switching; K-143, K-144
+D1.4.6.04	KVM switch	tree D1.4 Capture and switching
+D1.5.01	Wireless router	tree D1.5
+D1.5.02	Access point	tree D1.5
+D1.5.03	Network switch	tree D1.5
+D1.5.04	UPS	tree D1.5; K-157
+D1.6.01	USB cable	tree D1.6
+D1.6.02	HDMI cable	tree D1.6
+D1.6.03	LAN cable	tree D1.6
+D1.6.04	Audio cable	tree D1.6; K-2
+D1.6.05	Instrument cable	tree D1.6; K-2
+D1.6.06	Microphone cable	tree D1.6; K-2
+D1.6.07	MIDI cable	tree D1.6; K-2
+D1.6.08	Adapter or hub	tree D1.6
+D1.6.09	Docking station	tree D1.6
+D1.6.10	Generic charger	tree D1.6; K-3
+D1.7.01	Point-of-sale terminal	tree D1.7
+D1.7.02	Payment card reader	tree D1.7
+D1.7.03	Cash register	tree D1.7
+D1.7.04	Hardware wallet	tree D1.7
+D1.7.05	Security key	tree D1.7
+D1.8.1.01	Single-board computer	tree D1.8 Maker boards and kits; edge 5
+D1.8.1.02	Microcontroller board	tree D1.8 Maker boards and kits
+D1.8.1.03	Electronics component kit	tree D1.8 Maker boards and kits; K-149
+D1.8.2.01	Capacitor	tree D1.8 Passive components
+D1.8.2.02	Resistor	tree D1.8 Passive components
+D1.8.2.03	Inductor	tree D1.8 Passive components; D-9
+D1.8.3.01	Microcontroller chip	tree D1.8 Semiconductors
+D1.8.3.02	MOSFET	tree D1.8 Semiconductors; D-9
+D1.8.4.01	Relay	tree D1.8 Electromechanical and interconnect; D-9
+D1.8.4.02	Component connector	tree D1.8 Electromechanical and interconnect; D-9
+D1.8.5.01	Sensor	tree D1.8 Sensors, RF and identification
+D1.8.5.02	Blank RFID tag or card	tree D1.8 Sensors, RF and identification; D1-O2
+D1.9.01	Ink cartridge	tree D1.9; S3
+D1.9.02	Toner cartridge	tree D1.9; S3
+D1.9.03	3D-printer filament	tree D1.9; D1-O2
+D1.9.04	Laptop AC adapter	tree D1.9; K-4
+D1.9.05	Laptop battery	tree D1.9; K-4
+D1.9.06	Laptop sleeve or case	tree D1.9
+D1.9.07	Monitor arm or stand	tree D1.9; K-8
+D1.9.08	Laptop cooler	tree D1.9
+D1.9.09	Keycap set	tree D1.9; R-36
+D1.9.10	Keyboard plate	tree D1.9; R-36
+D1.9.11	Keyboard stabiliser	tree D1.9; R-36

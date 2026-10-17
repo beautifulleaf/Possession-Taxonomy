@@ -374,3 +374,70 @@ C1.12.2	C1	leaf	C1.12	Saw blades		45	from audit/KL_C1_tree.md
 C1.12.3	C1	leaf	C1.12	Abrasives cut for one power tool		46	from audit/KL_C1_tree.md		
 C1.12.4	C1	leaf	C1.12	Welding and soldering consumables		47	from audit/KL_C1_tree.md		
 C1.12.5	C1	leaf	C1.12	Press tooling		48	from audit/KL_C1_tree.md		
+D1	D1	category				0	from verify/out/TREE_D1.md		
+D1.1	D1	sub_family	D1	Complete computers	Leaf axis: form of the machine (desktop, portable, kit). The historic classes carry an era tag.	1	from verify/out/TREE_D1.md		
+D1.1.1	D1	leaf	D1.1	Desktop computers		2	from verify/out/TREE_D1.md		
+D1.1.2	D1	leaf	D1.1	Portable computers		3	from verify/out/TREE_D1.md		
+D1.1.3	D1	leaf	D1.1	Kits		4	from verify/out/TREE_D1.md		
+D1.2	D1	sub_family	D1	Internal components	Leaf axis: part function (the shop category). Compatibility codes (socket, chipset, DDR and PCIe generation, M.2 length, board, case and PSU form factor) are attributes, not kinds.	5	from verify/out/TREE_D1.md		
+D1.2.1	D1	leaf	D1.2	Processors		6	from verify/out/TREE_D1.md		
+D1.2.2	D1	leaf	D1.2	Motherboards		7	from verify/out/TREE_D1.md		
+D1.2.3	D1	leaf	D1.2	Memory		8	from verify/out/TREE_D1.md		
+D1.2.4	D1	leaf	D1.2	Graphics		9	from verify/out/TREE_D1.md		
+D1.2.5	D1	leaf	D1.2	Power		10	from verify/out/TREE_D1.md		
+D1.2.6	D1	leaf	D1.2	Enclosures		11	from verify/out/TREE_D1.md		
+D1.2.7	D1	leaf	D1.2	Cooling		12	from verify/out/TREE_D1.md		
+D1.2.8	D1	leaf	D1.2	Expansion cards		13	from verify/out/TREE_D1.md		
+D1.2.9	D1	leaf	D1.2	Internal cables		14	from verify/out/TREE_D1.md		
+D1.3	D1	sub_family	D1	Storage and media	Leaf axis: how the storage is attached or carried (fixed drive, carried medium, housing or reader, disc drive, network storage).	15	from verify/out/TREE_D1.md		
+D1.3.1	D1	leaf	D1.3	Drives		16	from verify/out/TREE_D1.md		
+D1.3.2	D1	leaf	D1.3	Portable media		17	from verify/out/TREE_D1.md		
+D1.3.3	D1	leaf	D1.3	Enclosures and readers		18	from verify/out/TREE_D1.md		
+D1.3.4	D1	leaf	D1.3	Optical and legacy		19	from verify/out/TREE_D1.md		
+D1.3.5	D1	leaf	D1.3	Network storage		20	from verify/out/TREE_D1.md		
+D1.4	D1	sub_family	D1	Input, display and imaging	Leaf axis: device family (what the user handles).	21	from verify/out/TREE_D1.md		
+D1.4.1	D1	leaf	D1.4	Keyboards		22	from verify/out/TREE_D1.md		
+D1.4.2	D1	leaf	D1.4	Keyboard switches		23	from verify/out/TREE_D1.md		
+D1.4.3	D1	leaf	D1.4	Pointing		24	from verify/out/TREE_D1.md		
+D1.4.4	D1	leaf	D1.4	Display		25	from verify/out/TREE_D1.md		
+D1.4.5	D1	leaf	D1.4	Printing and scanning		26	from verify/out/TREE_D1.md		
+D1.4.6	D1	leaf	D1.4	Capture and switching		27	from verify/out/TREE_D1.md		
+D1.5	D1	sub_family	D1	Network and power		28	from verify/out/TREE_D1.md		
+D1.6	D1	sub_family	D1	Cables, adapters and hubs		29	from verify/out/TREE_D1.md		
+D1.7	D1	sub_family	D1	Transaction and authentication hardware		30	from verify/out/TREE_D1.md		
+D1.8	D1	sub_family	D1	Embedded, maker and loose components	Leaf axis: component family as the distributor catalogue groups it (provisional until the Mouser harvest; loose components are carried to the Mouser class level).	31	from verify/out/TREE_D1.md		
+D1.8.1	D1	leaf	D1.8	Maker boards and kits		32	from verify/out/TREE_D1.md		
+D1.8.2	D1	leaf	D1.8	Passive components		33	from verify/out/TREE_D1.md		
+D1.8.3	D1	leaf	D1.8	Semiconductors		34	from verify/out/TREE_D1.md		
+D1.8.4	D1	leaf	D1.8	Electromechanical and interconnect		35	from verify/out/TREE_D1.md		
+D1.8.5	D1	leaf	D1.8	Sensors, RF and identification		36	from verify/out/TREE_D1.md		
+D1.9	D1	sub_family	D1	Parts and accessories made for one computer or peripheral		37	from verify/out/TREE_D1.md		
+A1	A1	category				0	from verify/out/TREE_A1.md		
+A1.1	A1	sub_family	A1	Tops	Leaf axis: construction family of the top (cut-and-sew, woven shirt, knit, sweatshirt jersey).	1	from verify/out/TREE_A1.md		
+A1.1.1	A1	leaf	A1.1	T-shirts and cut-and-sew tops		2	from verify/out/TREE_A1.md		
+A1.1.2	A1	leaf	A1.1	Shirts and blouses		3	from verify/out/TREE_A1.md		
+A1.1.3	A1	leaf	A1.1	Knitwear		4	from verify/out/TREE_A1.md		
+A1.1.4	A1	leaf	A1.1	Sweatshirts and hoodies		5	from verify/out/TREE_A1.md		
+A1.2	A1	sub_family	A1	Bottoms	Leaf axis: garment form (jeans, trousers, shorts, skirts).	6	from verify/out/TREE_A1.md		
+A1.2.1	A1	leaf	A1.2	Jeans		7	from verify/out/TREE_A1.md		
+A1.2.2	A1	leaf	A1.2	Trousers		8	from verify/out/TREE_A1.md		
+A1.2.3	A1	leaf	A1.2	Shorts		9	from verify/out/TREE_A1.md		
+A1.2.4	A1	leaf	A1.2	Skirts		10	from verify/out/TREE_A1.md		
+A1.3	A1	sub_family	A1	Dresses, one-piece garments and sets	Leaf axis: garment form (dress or two-piece set; one-piece work or play garment; tailored set; draped or wrapped length).	11	from verify/out/TREE_A1.md		
+A1.3.1	A1	leaf	A1.3	Dresses and two-piece sets		12	from verify/out/TREE_A1.md		
+A1.3.2	A1	leaf	A1.3	Jumpsuits, overalls and costumes		13	from verify/out/TREE_A1.md		
+A1.3.3	A1	leaf	A1.3	Suits and tailored sets		14	from verify/out/TREE_A1.md		
+A1.3.4	A1	leaf	A1.3	Draped and wrapped garments		15	from verify/out/TREE_A1.md		
+A1.4	A1	sub_family	A1	Outerwear	Leaf axis: silhouette: sleeved and hip length or shorter; sleeved and below the hip; sleeveless; cape form.	16	from verify/out/TREE_A1.md		
+A1.4.1	A1	leaf	A1.4	Jackets (hip length or shorter)		17	from verify/out/TREE_A1.md		
+A1.4.2	A1	leaf	A1.4	Coats (below the hip)		18	from verify/out/TREE_A1.md		
+A1.4.3	A1	leaf	A1.4	Vests and waistcoats		19	from verify/out/TREE_A1.md		
+A1.4.4	A1	leaf	A1.4	Capes and ponchos		20	from verify/out/TREE_A1.md		
+A1.5	A1	sub_family	A1	Underwear, hosiery, sleepwear and swimwear	Leaf axis: garment form family (worn under; worn on legs and feet; worn to sleep or lounge; worn in or beside water).	21	from verify/out/TREE_A1.md		
+A1.5.1	A1	leaf	A1.5	Underwear and base layers		22	from verify/out/TREE_A1.md		
+A1.5.2	A1	leaf	A1.5	Hosiery		23	from verify/out/TREE_A1.md		
+A1.5.3	A1	leaf	A1.5	Sleepwear and loungewear		24	from verify/out/TREE_A1.md		
+A1.5.4	A1	leaf	A1.5	Swimwear and beachwear		25	from verify/out/TREE_A1.md		
+A1.6	A1	sub_family	A1	Headwear and head protection	Leaf axis: none: 12 kinds, so the leaf level is skipped; hats and caps first, then protective kinds by body zone from head to face.	26	from verify/out/TREE_A1.md		
+A1.7	A1	sub_family	A1	Hands, neck and waist wear	Leaf axis: none: 8 kinds, so the leaf level is skipped; kinds ordered by body zone (neck, arm, hand, waist).	27	from verify/out/TREE_A1.md		
+A1.8	A1	sub_family	A1	Parts and accessories made for one garment	Leaf axis: object served: the garment served; provisional and small; kinds ordered by the garment they serve.	28	from verify/out/TREE_A1.md		

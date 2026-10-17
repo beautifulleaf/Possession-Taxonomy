@@ -1,0 +1,102 @@
+kind_id	sub_family	leaf	name	definition	dagger
+D1.1.1.01	D1.1	D1.1.1	Tower desktop PC	complete desktop computer in a tower case, with the parts fitted.	
+D1.1.1.02	D1.1	D1.1.1	Mini PC	complete desktop computer in a small box, sold as a ready machine.	
+D1.1.1.03	D1.1	D1.1.1	All-in-one PC	complete computer with the screen and the computer in one body.	
+D1.1.1.04	D1.1	D1.1.1	Keyboard computer	computer built into its keyboard (historic class).	
+D1.1.2.01	D1.1	D1.1.2	Laptop	portable computer with its screen and keyboard in one folding body.	
+D1.1.2.02	D1.1	D1.1.2	Pocket computer	programmable pocket computer (historic class; provisional until attested).	yes
+D1.1.3.01	D1.1	D1.1.3	Barebone kit	case, board and power supply sold as the body of a machine, to which the buyer adds the rest.	
+D1.1.3.02	D1.1	D1.1.3	Trainer kit	kit sold to teach computing (historic class; provisional until attested).	yes
+D1.2.1.01	D1.2	D1.2.1	Processor	central processing chip (CPU) of a computer.	
+D1.2.2.01	D1.2	D1.2.2	Motherboard [mainboard, Mainboard]	main circuit board of a computer, sold alone.	
+D1.2.2.02	D1.2	D1.2.2	Board with CPU fitted	one object sold with the CPU soldered or fitted to the board.	
+D1.2.3.01	D1.2	D1.2.3	DIMM memory module	full-size memory module for desktop computers.	
+D1.2.3.02	D1.2	D1.2.3	SODIMM memory module	small-outline memory module for notebooks and small machines.	
+D1.2.4.01	D1.2	D1.2.4	Graphics card [video card; グラフィックボード; ビデオカード]	expansion card that renders images for a display or computes in place of a CPU, with or without display outputs.	
+D1.2.4.02	D1.2	D1.2.4	External GPU enclosure	housing that holds a graphics card outside the computer and connects to it.	yes
+D1.2.5.01	D1.2	D1.2.5	PC power supply unit	power supply fitted in a computer case to feed its parts.	
+D1.2.6.01	D1.2	D1.2.6	PC case	enclosure that holds a computer's board, drives and cards.	
+D1.2.7.01	D1.2	D1.2.7	Air CPU cooler	heatsink with a fan that cools a processor by air.	
+D1.2.7.02	D1.2	D1.2.7	All-in-one liquid cooler	sealed pump, radiator and block unit that cools a processor by liquid.	
+D1.2.7.03	D1.2	D1.2.7	Custom-loop parts	separate parts (blocks, radiators, pumps, tubing) for building a liquid cooling loop.	
+D1.2.7.04	D1.2	D1.2.7	Case fan	fan fitted to a computer case to move air.	
+D1.2.7.05	D1.2	D1.2.7	Thermal paste	paste applied between a chip and its cooler.	
+D1.2.7.06	D1.2	D1.2.7	M.2 heatsink	heat spreader fitted to an M.2 drive.	
+D1.2.7.07	D1.2	D1.2.7	Fan controller	unit that sets the speed of case fans.	
+D1.2.8.01	D1.2	D1.2.8	Sound card	card fitted inside the computer that handles audio (internal only; an external or USB one is D3).	
+D1.2.8.02	D1.2	D1.2.8	Network adapter card	card fitted inside the computer that adds a network connection.	
+D1.2.8.03	D1.2	D1.2.8	Video capture card	card fitted inside the computer that records a video signal.	
+D1.2.8.04	D1.2	D1.2.8	I/O expansion card	card fitted inside the computer that adds ports.	
+D1.2.9.01	D1.2	D1.2.9	Internal PC cable	cable that connects parts inside a computer case, including the PCIe riser cable by default.	
+D1.3.1.01	D1.3	D1.3.1	Internal SSD	solid-state drive fitted inside a computer, of any interface or size (M.2 or 2.5-inch).	
+D1.3.1.02	D1.3	D1.3.1	Internal HDD	spinning-disk drive fitted inside a computer.	
+D1.3.1.03	D1.3	D1.3.1	External SSD	solid-state drive in its own case, connected from outside.	
+D1.3.1.04	D1.3	D1.3.1	External HDD	spinning-disk drive in its own case, connected from outside.	
+D1.3.2.01	D1.3	D1.3.2	USB flash drive	small flash storage device that plugs into a USB port.	
+D1.3.2.02	D1.3	D1.3.2	Memory card	flash card of a standard format (SD, microSD, CompactFlash, CFexpress); a proprietary console-only card is D5.	
+D1.3.3.01	D1.3	D1.3.3	Drive enclosure	housing that turns a bare drive into an external drive.	
+D1.3.3.02	D1.3	D1.3.3	Memory-card reader	device that reads memory cards and connects to a computer.	yes
+D1.3.4.01	D1.3	D1.3.4	Optical drive	drive that reads or writes discs.	
+D1.3.4.02	D1.3	D1.3.4	Floppy disk drive	drive that reads or writes floppy disks.	
+D1.3.5.01	D1.3	D1.3.5	NAS	network-attached storage device that holds drives and serves files over a network (a recorder sold only to run security cameras is B8).	
+D1.4.1.01	D1.4	D1.4.1	Keyboard	key-based input device (size class is an attribute).	
+D1.4.1.02	D1.4	D1.4.1	Numeric keypad	separate input device with number keys.	
+D1.4.1.03	D1.4	D1.4.1	Keyboard kit	case, plate and circuit board sold to be built into a keyboard.	yes
+D1.4.2.01	D1.4	D1.4.2	Linear keyboard switch	loose keyboard switch with a smooth press and no bump or click.	
+D1.4.2.02	D1.4	D1.4.2	Tactile keyboard switch	loose keyboard switch with a felt bump and no click.	
+D1.4.2.03	D1.4	D1.4.2	Clicky keyboard switch	loose keyboard switch with a felt bump and an audible click.	
+D1.4.3.01	D1.4	D1.4.3	Mouse	hand-held pointing device moved over a surface.	
+D1.4.3.02	D1.4	D1.4.3	Trackball	pointing device operated by a fixed ball.	
+D1.4.3.03	D1.4	D1.4.3	Pen tablet	drawing tablet used with a pen, with or without a built-in screen (a pen display is a pen tablet with a screen).	
+D1.4.4.01	D1.4	D1.4.4	Monitor	display sold for use with a computer.	
+D1.4.5.01	D1.4	D1.4.5	Printer	machine that prints from a computer.	yes
+D1.4.5.02	D1.4	D1.4.5	Scanner	machine that scans documents or images into a computer.	yes
+D1.4.5.03	D1.4	D1.4.5	Multifunction printer	machine that prints and scans (and copies) for use with a computer.	yes
+D1.4.5.04	D1.4	D1.4.5	3D printer	machine that builds objects by additive manufacturing.	yes
+D1.4.5.05	D1.4	D1.4.5	Barcode scanner	device that reads barcodes.	yes
+D1.4.6.01	D1.4	D1.4.6	Webcam	camera made for use with a computer.	
+D1.4.6.02	D1.4	D1.4.6	Video capture device	external device that records a video signal into a computer (connection is an attribute).	yes
+D1.4.6.03	D1.4	D1.4.6	Speech microphone	microphone made for speech, calls or streaming.	yes
+D1.4.6.04	D1.4	D1.4.6	KVM switch	switch that shares one keyboard, display and mouse between several computers.	
+D1.5.01	D1.5		Wireless router	network device that routes traffic and provides wireless access.	
+D1.5.02	D1.5		Access point	network device that adds wireless access to a wired network.	
+D1.5.03	D1.5		Network switch	network device that connects wired devices on a local network.	
+D1.5.04	D1.5		UPS	uninterruptible power supply that keeps equipment running through a mains failure (a portable power station is B7).	
+D1.6.01	D1.6		USB cable	cable with USB connectors.	
+D1.6.02	D1.6		HDMI cable	cable with HDMI connectors.	
+D1.6.03	D1.6		LAN cable	network cable with standard patch connectors.	
+D1.6.04	D1.6		Audio cable	audio cable with standard connectors.	yes
+D1.6.05	D1.6		Instrument cable	cable with standard connectors for connecting an instrument.	yes
+D1.6.06	D1.6		Microphone cable	cable with standard connectors for connecting a microphone.	yes
+D1.6.07	D1.6		MIDI cable	cable with MIDI connectors.	yes
+D1.6.08	D1.6		Adapter or hub	device that converts one standard connector to another or splits one port into several.	
+D1.6.09	D1.6		Docking station	base that carries power delivery and several outputs for a laptop, which an adapter or hub does not.	yes
+D1.6.10	D1.6		Generic charger	charger for many devices (USB, GaN or Qi); a charger made for one device follows it.	yes
+D1.7.01	D1.7		Point-of-sale terminal	terminal at which a sale is rung up and paid.	yes
+D1.7.02	D1.7		Payment card reader	device that reads payment cards.	yes
+D1.7.03	D1.7		Cash register	till that records sales and holds cash.	yes
+D1.7.04	D1.7		Hardware wallet	device that holds cryptocurrency keys.	yes
+D1.7.05	D1.7		Security key	device used to prove identity when signing in.	yes
+D1.8.1.01	D1.8	D1.8.1	Single-board computer	board that runs an operating system (a board that does is this kind even with a microcontroller beside it).	
+D1.8.1.02	D1.8	D1.8.1	Microcontroller board	board that runs one program on a microcontroller.	
+D1.8.1.03	D1.8	D1.8.1	Electronics component kit	component kit without an experiment programme.	yes
+D1.8.2.01	D1.8	D1.8.2	Capacitor	passive component that stores charge.	
+D1.8.2.02	D1.8	D1.8.2	Resistor	passive component that resists current.	
+D1.8.2.03	D1.8	D1.8.2	Inductor	passive component that stores energy in a magnetic field.	yes
+D1.8.3.01	D1.8	D1.8.3	Microcontroller chip	loose integrated circuit that holds a processor, memory and ports.	
+D1.8.3.02	D1.8	D1.8.3	MOSFET	loose transistor used as a switch or amplifier.	yes
+D1.8.4.01	D1.8	D1.8.4	Relay	loose switch operated by an electromagnet.	yes
+D1.8.4.02	D1.8	D1.8.4	Component connector	loose connector for circuit boards and wiring.	yes
+D1.8.5.01	D1.8	D1.8.5	Sensor	loose component that senses a physical quantity.	
+D1.8.5.02	D1.8	D1.8.5	Blank RFID tag or card	unissued RFID tag or card (an issued card is F5).	yes
+D1.9.01	D1.9		Ink cartridge	ink supply made for one printer type.	yes
+D1.9.02	D1.9		Toner cartridge	toner supply made for one printer type.	yes
+D1.9.03	D1.9		3D-printer filament	filament made for 3D printers.	yes
+D1.9.04	D1.9		Laptop AC adapter	power adapter made for one laptop.	
+D1.9.05	D1.9		Laptop battery	battery made for one laptop.	
+D1.9.06	D1.9		Laptop sleeve or case	sleeve or case made to hold or protect one laptop.	
+D1.9.07	D1.9		Monitor arm or stand	arm, bracket or stand made to hold one screen.	yes
+D1.9.08	D1.9		Laptop cooler	pad or stand with fans that cools a laptop.	
+D1.9.09	D1.9		Keycap set	set of keycaps for a keyboard.	yes
+D1.9.10	D1.9		Keyboard plate	plate that holds switches in a keyboard.	yes
+D1.9.11	D1.9		Keyboard stabiliser	stabiliser for the long keys of a keyboard.	yes
