@@ -57,3 +57,63 @@
 - C10(b) / Rule T for watercraft propulsion leaves and airplane engine classes; C2 non-maker named forms (one-design classes, mamachari, riad); C13 open ledger for parts fit; C15 toy-or-real for children's bicycles.
 - _framework_conflicts.md entries from the domain G review: houseboats, narrowboats and tiny houses on wheels (X-1); park model RV (X-2); vehicle-mounted electronics (X-10a); carriers that power implements (X-10b); commercial buildings scope.
 END G
+
+## Domain H
+### Table
+| code | name | sub-families | choice level | tier type | maker centrality | review verdict | kinds | daggers | OWNER marks |
+|---|---|---|---|---|---|---|---|---|---|
+| H1 | Personal Care & Beauty | Skin care, Makeup, Hair care and styling, Fragrance, Shaving and hair removal, Body bath and hygiene, Oral care, Grooming implements mirrors and scales, Comfort warmth and massage | Retail product type that retailers filter and review sites rank; fragrance by strength class (OWNER) | preference (price band; SPF and PA as attributes) | high | minor fixes | 82 (31 marked dagger) | 56 | 27 |
+| H2 | Health, Medical & Mobility | Monitoring and testing, Therapy devices, Mobility and transfer, Daily-living and care, Sensory and communication, Medicines, Supplements, Sports meal and medical nutrition, Contraception barriers and breastfeeding, First aid and wound care, Supports braces and prostheses, Parts | Devices by physical or functional type; medicines by OTC use class; supplements by ingredient | mixed (spec attributes, legal classes in C17, sparse maker-line rankings) | medium | needs rework (Vision, Medicines, testing sub-families only) | 124 (87 attested) | 76 | 37 |
+| H3 | Adult Objects | Vibrators and suction stimulators, Dildos and non-powered insertables, Anal toys, Penis toys, Restraint impact and sensation gear, Sex machines, Dolls and body replicas, Parts | The type buyers compare within an action family; masturbators by form factor | preference (consensus material class; maker value tiers held back) | high | minor fixes | 53 (52 attested) | 40 | 29 |
+
+### What conformance changed
+- H1: Deleted the user-based "Baby hygiene" leaf for a function leaf; merged hair-tool leaves and face/body care; dropped the `segment` maker column. Fragrance strength left to the owner.
+- H2: Level 1 recast as two ordered tests (substance, then function); all tests in H2.1; spectacles added to Vision; legal classes moved to C17; brand products to lines table.
+- H3: Level 1 recast as one ordered placement test with a motor rule; sex machines redefined; "strap-on dildo" kind dropped; collars and cuffs with fixing points placed in H3.
+
+### Owner questions (merged)
+1. [H1] Everyday used-up toiletries (toothpaste, shampoo, soap) in scope, as step 18 says, although BRIEF names consumables "kept or collected". [yes]
+2. ★ [H2] Prescription-only medicines in scope: none, only classes kept at home (insulin, inhalers, antibiotics, pills), or all. [only home-kept classes]
+3. [H1, H2, H3] Named-form admission: only attested, iconic, rated or ledgered named forms with a cap per category; supplement kinds from the NIH list plus volume sellers. [cap; yes]
+4. ★ [H1] Fragrance kind: strength class as kind (memo), one format kind with strength as C3 `concentration` variant (review), or one kind with plain attribute; store each source's percent range. [format kind with variant; store ranges]
+5. [H1, B4] One fragrance family list shared with B4: Edwards wheel, SFP seven groups, or Perfume Society eight. [Edwards wheel]
+6. [H1] Sun care as a leaf of Skin care covering every area, or its own sub-family. [leaf in Skin care]
+7. [H1] Tools by area (a tools leaf per area sub-family, multi-area tools in sub-family 8), or one tools sub-family. [by area]
+8. ★ [H1, H2, H3] Parts: a final "Parts and accessories made for one object" sub-family in all three categories (extends C5(d) to domain H), or parts beside the device. [sub-family]
+9. ★ [H2] Medicines depth: kind at OTC use class, active ingredient an attribute with ATC code, only brand products as named forms; or ingredient as named form (memo). [attribute plus ATC]
+10. [H2] Level 1 as two ordered tests (substances by what they are, then devices by function), with every test and monitor, pregnancy and fertility included, in H2.1. [yes; applied]
+11. [H1, H2] Adopt the shared H1/H2 sentence (labelled purpose decides; cosmetic purposes H1; legal status to C17). [yes]
+12. [H1, H2, H3] Massagers: ordered test (maker names sexual use or specialist retailer lists it: H3; treatment: H2; comfort: H1). [yes]
+13. [H1, H2, H3] Lubricants, massage oil, anal douches, intimate washes H1; condoms and dental dams H2; toy cleaners B6. [H1; H2; B6]
+14. [H2, H3] Medical-purpose sexual-health items (ED rings and pumps, pelvic-floor trainers, vaginal dilators): H2 when the maker states a medical purpose, otherwise H3. [yes]
+15. [H1, H2, H3] Wigs, breast forms and packers: all H1, all H2, or wigs H1 and the rest H2. [wigs H1, rest H2]
+16. [H3, A1, A3] Harnesses, hoods, corsets, fetish clothing A1; collars, cuffs, armbinders with fixing points H3; ornamental collars A3; leash kind open. [confirm]
+17. [H3, B2] Sex furniture made to restrain or suspend is H3; positioning cushions B2. [yes]
+18. [H1, H2, H3] Adopt the shared set and kit rule (X11): one kind, else item of greatest value, standard kits as kinds. [yes]
+19. [H1, H2] Items the key does not name: nappies, menstrual products, baby wipes, cotton pads H1; incontinence products H2. [confirm]
+20. [H1] "Baby" is a user tag only; "Baby hygiene" leaf replaced by function leaf "Toileting and nappy changing". [yes; applied]
+21. [H2, B1] Care beds, pressure-relief mattresses, lift recliners: H2 when made for care, or B1. [H2 when made for care]
+22. [H2, B6] Contact-lens solution: H2 under S3, or B6. [H2]
+23. [H1, H2, A3] Coloured non-corrective contact lenses: H2 with `corrective: no` (needs key note), H1 cosmetic, or A3. [H2]
+24. [H2, A4] Add prescription spectacles, reading glasses, prescription sunglasses to H2.5 Vision, frames and lenses as parts, plano fashion frames A4. [yes; applied]
+25. [H2, A2] Therapeutic and diabetic footwear: A2 or H2. [A2]
+26. [H2, B8] Personal alarms, fall detectors, wandering detectors: H2.4 or B8. [no recommendation]
+27. [H2, A1] Medical and surgical face masks: A1 as PPE or H2. [A1]
+28. [H2] Medical-condition infant formula as its own kind in H2.8 or H2.7. [no recommendation]
+29. [H2, G1] First-aid kits made for a vehicle are H2 whatever they are made for (needs key note against S3). [yes]
+30. [H1, H2, H3] Legal classes (supply class, device class, cosmetic or drug status, scooter class) in the C17 ledger, voluntary standards as attributes. [yes]
+31. [H2, H3] Tier entries from maker schemes (hearing-aid levels) and reviewer grades enter only with a second source from another region; record `iso_3533_declared` per named form. [yes; optional]
+32. [H1, H2, H3] One domain-H user list (women, men, unisex, couples, baby, child, bariatric, adapted; "gay men" open) with generated department views. [yes]
+33. [H1, H2, H3] Fetch the missing sources (appliance and baby-care retailers, optician and second-region pharmacy trees, restraint, machine and doll catalogues) before approval, or after. [before]
+34. [H3] Unfetched edge items (dilators, electro-stimulation kits, urethral sounds, inflatable furniture, leashes) and proposals: C9 relation `genericised name`, `licensor_id` on lines. [decide at approval]
+
+### Shared-rule questions raised in this domain
+- C5(d) extension: a Parts sub-family in every domain H category (H2.12 already conforms).
+- C17 extension: every legal class in the ledger; voluntary standards (SPF, PA, first-aid kit class, ISO 3533) as attributes.
+- C1 amendment from the domain H review: maker classes pharmaceutical company, medical-device manufacturer, supplement brand.
+- Named-form test and retail-facet test (C10(b) generalised); C2(b) for measuring modes, load classes and sub-styles.
+- User vocabulary (C6 detail), app ecosystems as C13 rows (C13 detail), and maker tier ladders (C4 detail with C4(e)).
+- _framework_conflicts.md, domain H review entries: sets and kits (X11); H1/H2 line (X3); massagers (X4); intimate, menstrual and body-replacement goods (X5).
+- H2 conformance entries: car first-aid kit against S3; coloured plano contact lenses and step 2.
+- Domain G C7 amendment (non-maker named forms first) is adopted in H2; C3 amendment for fragrance `concentration` variant if the owner chooses option (b).
+END H
