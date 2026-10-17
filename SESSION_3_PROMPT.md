@@ -15,6 +15,12 @@ Continue the Possession taxonomy in /home/user/Possession-Taxonomy on branch `cl
    - Write verify/in/KL_PLACE_COMMON.txt. A placer files each item into one kind id of the frozen tree (or "none fits"), with confidence and a note. It reads only the frozen tree and the item file without expected_kind; build that file with a tools/ script.
    - Run 3 Sonnet placers per category. Write tools/score_kl.py to score unanimity and accuracy against expected_kind per category.
    - Fix trees where agreement is low, by an Opus pass on that memo, and log the fix as an R-item.
+   - Builder notes (session 2) to settle before placing, each as an R-item:
+     - Kind ids were assigned by the builders (the memos had none), each in its own scheme: A2/B8/C1/D4/H2/I2/J5/F4 use dotted paths, E1 keeps memo numbers as E1-Knn, F2 uses F2-Knn. J5's ids do not match the memo's 1–115 numbering. Adopt or normalise the ids, and write the chosen ids back into the memos.
+     - J5 split multi-term memo lines into separate kinds (fermented seasonings, tomato products, sauerkraut/kimchi). It also placed mung bean and black gram under Beans, and pigeon pea under Chickpeas & other pulses. Seven J5 leaves have no kinds decided. J5 items 13, 18, 22 and 25 are partly settled by precedence sentences the tree itself carries.
+     - Judgment-call expected answers that a split may reflect rather than a tree fault: C1-05 axe/maul, C1-20 ladder, C1-26 wheeled toolbox; H2-18 commode chair, H2-01 care pendant; F2-22 Hummel (K51 earthenware per memo, but the page says porcelain).
+     - F2-26's "carved by hand" comes from a search excerpt; re-check it against a fetched page or drop it from the definition. F4 left the mezuzah case out (F4.3.3 or F4.7 is undecided).
+     - Coverage was sub-family only. Untested kinds are listed in each builder's report: B8 locks, F4.7.2, E1.7/E1.9 and others. The harvest must still attest them.
 2. **v0.7.2.** Apply R-57(d) and any key fix from step 1, then freeze audit/CATEGORIES_R7.md.
 3. **Round 7.**
    - Run verify/in/RG7V.prompt.txt (Opus cold check of the 493 regression candidates; point it at the frozen R7 key).
