@@ -276,7 +276,7 @@ Appendix A makes power source and technology a modifier. Yet every memo in this 
 - B2 keeps the electric blanket (the key names it).
 - B6 keeps the sensor bin.
 
-**Proposed rule T.** Power source, technology and connectivity are attributes. They define a kind only when (a) the placement key names that kind (electric blanket, robot vacuum is a form anyway, heat pump), or (b) the technology changes the object's physical form or its installation needs, so that one cannot replace the other without new fittings, and a fetched comparison source tests or ranks the types separately.
+**Proposed rule T.** Power source, technology and connectivity are attributes. They define a kind only when (a) the placement key names that kind (electric blanket, heat pump), or (b) the technology changes the object's physical form or its installation needs, so that one cannot replace the other without new fittings, and a fetched comparison source tests or ranks the types separately.
 
 Applied:
 - **Kinds:** HID lamp (ballast); vented vs ventless dryer (duct); heat-pump water heater (compressor unit and space needs [CW, RM]); flued stove; electric shower (own circuit); robot vacuum (autonomous form).
