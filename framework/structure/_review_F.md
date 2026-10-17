@@ -89,7 +89,7 @@ Each finding gives severity, memo, evidence, the objects that would split, and a
 
 **F2-5 (medium) Regional kind names (C11).**
 - *Evidence.* Kind 6 is "nihonga"; kind 54 is "East Asian calligraphy", with the five scripts as named forms; section 7 mentions Arabic calligraphy but the tree has no home for it. C11 names a regional kind by its generic form, with the regional word as its name.
-- *Fix.* "Mineral-pigment painting (nihonga)", with iwa-enogu in the alias table. "Brush and pen calligraphy" as the kind; East Asian script styles, Arabic calligraphy and Western calligraphy are named forms with a region tag; seal carving (篆刻) is a separate kind only if a fetched source sells it apart from calligraphy (ZY lists it as a class). Hanging scroll and handscroll stay format attributes, as F4 does for devotional scrolls (F4-1).
+- *Fix.* "Mineral-pigment painting (nihonga)", with iwa-enogu in the alias table. "Brush and pen calligraphy" as the kind; East Asian script styles, Arabic calligraphy and Western calligraphy are named forms with a region tag; seal carving (篆刻) is a separate kind only if a fetched source sells it apart from calligraphy (ZY lists it as a class). Hanging scroll and handscroll stay format attributes here; F4 keeps the devotional scroll painting as a kind by form (F4-1), and X4 decides which category a scroll goes to.
 
 **F2-6 (medium) The sculpture leaves are the memo's own grouping.**
 - *Evidence.* The leaves "Cast, Carved, Modelled and fired, Assembled and found, Soft and light" are not in any fetched source: AAT-SC is "sculpture by material", Singulart filters by type and material (SGL-SC), and HS97 ignores material. "Soft and light" joins two unrelated things; "welded steel" sits under Assembled; the memo itself warns that the build team "must not re-split a kind by material" while every kind is named by material.
@@ -122,7 +122,7 @@ Each finding gives severity, memo, evidence, the objects that would split, and a
 - *Fix.* Kinds by form: cup trophy; shield; plaque; upright award (column, figure, star, block or obelisk on a base); bowl, tankard or salver; rosette or ribbon (S31 names award ribbons). `material` (metal, crystal, glass, acrylic, resin, wood) is an attribute. Championship belts and rings wait for the owner (framework conflict list).
 
 **F3-4 (medium) The bullion-or-coin rule tests the market.**
-- *Evidence.* Owner question 4 proposes "a coin struck to be priced by its metal weight ... is Bullion; a proof, commemorative or collector coin sold on its design and grade is Coins". How a coin is priced is the seller's market, which S5 and Appendix A (motive: investment) keep out of placement. The memo itself shows the same design in both worlds (Panda: S9; Britannia: S5).
+- *Evidence.* F3's owner question 4 proposes "a coin struck to be priced by its metal weight ... is Bullion; a proof, commemorative or collector coin sold on its design and grade is Coins". How a coin is priced is the seller's market, which S5 and Appendix A (motive: investment) keep out of placement. The memo itself shows the same design in both worlds (Panda: S9; Britannia: S5).
 - *Fix.* Test the issue: *"A coin struck in a mint's bullion programme, in the standard bullion finish, is a bullion coin; the same design struck as proof, reverse proof or another collector finish, or issued in a mint's presentation packaging, is a collector coin; a worn circulation coin sold for its silver content is a standard circulation coin with a `metal_content` attribute."* Finish and packaging are properties of the issue that the mint states.
 
 **F3-5 (medium) Parts sit in a leaf of the medal sub-family and in boundary text.**
@@ -182,7 +182,7 @@ Each finding gives severity, memo, evidence, the objects that would split, and a
 
 **F4-5 (medium) Tier labels on specs, materials and classifications.**
 - *Evidence.* The coffin line says "named forms by wood and steel gauge are tier attributes"; section 5 calls gauge "spec-ranked" and wood a "material ladder", the kosher scroll grade "consensus-ranked" from one vendor (aJudaica, S32), and relic class "consensus-ranked" from one vendor page (S31).
-- *Fix.* Steel gauge is an attribute with its standard named (C4(b)); wood is `material`. Relic class (first, second, third) is a classification attribute, not a quality tier. The kosher grade (basic, upgraded, mehudar) may enter only as C4 tier entries on the scroll kind's named forms with a second, independent source (C4(e)); until then it is held. Owner question 7 then reduces to the kosher grade.
+- *Fix.* Steel gauge is an attribute with its standard named (C4(b)); wood is `material`. Relic class (first, second, third) is a classification attribute, not a quality tier. The kosher grade (basic, upgraded, mehudar) may enter only as C4 tier entries on the scroll kind's named forms with a second, independent source (C4(e)); until then it is held. F4's question 7 then reduces to the kosher grade.
 
 **F4-6 (medium) Divination decks and boards against games.**
 - *Evidence.* F4.5 holds tarot, oracle and Lenormand decks. Review E proposes that a tarot pack sold for card play (tarock, French tarot) is E1. A spirit board (Ouija) is sold as a board game by a toy maker but used for divination; step 14's note says card and board games are E1. Pendulums, runes and I Ching sets are not placed.
@@ -196,7 +196,7 @@ Each finding gives severity, memo, evidence, the objects that would split, and a
 - *Fix.* No ledger at start is reasonable. If one is wanted, use C1 core columns: Judaica silversmiths and designers as `artisan or atelier`, church-candle makers as `house or manufacture`, and tarot publishers in the shared publisher class with F1 (Lo Scarabeo, Llewellyn, US Games; X7). "Church-candle and urn makers can be a plain column on named forms" should be dropped: a maker named anywhere is a ledger row (C1).
 
 **F4-9 (low) Boundaries other reviews have asked about.**
-- *Fix.* Give the F4 side of: prayer-bead necklaces and malas (review A, question A3-6: F4 if made as prayer beads with a counter or tassel, A3 if made as a necklace); singing bowls (review E: E3 unless made for a rite); bon lanterns and stone tōrō (review B: F4 when made for an altar or grave, B4 as garden lanterns); religious medals (X1).
+- *Fix.* Give the F4 side of: prayer-bead necklaces and malas (review A, question A3-6, asks F4 or A3; proposed: F4 if made as prayer beads with a counter, tassel or guru bead, A3 if made as a necklace); singing bowls (review E proposes E3 unless made for a rite); bon lanterns and stone tōrō (review B asks B4 or F4; proposed: F4 when made for an altar, a grave or the Obon rite, B4 as garden lanterns); religious medals (X1).
 
 ### F5 Documents & Personal Records
 
@@ -438,7 +438,7 @@ The changes each memo needs to conform. "None" means the memo already conforms o
 | F3/E1 | trading-card-game card | F3: TCG cards E1 even graded | review E: TCG single card E1, non-game card F3 | agree |
 | F4/E1 | tarot for card play | F4: silent | review E: tarock E1 | F4-6 sentence |
 | F4/E3 | singing bowl | F4: owner question | review E: E3 unless made for a rite | align (F4-9) |
-| F4/A3 | prayer-bead necklace; ash jewellery | F4: worn ornament A3; ash jewellery owner question | review A: F4 if sold as prayer beads, A3 if a necklace | one question for the owner (section 5) |
+| F4/A3 | prayer-bead necklace; ash jewellery | F4: worn ornament A3; ash jewellery owner question | A3 memo, via review A A3-6: F4 if sold as prayer beads, A3 if sold as a necklace | one question for the owner (section 5) |
 | F3/A3 | coin jewellery, worn medal | F3: a medal is F3 worn or not | review A: coin with a bail A3 | agree once A3-7 is answered by form |
 | F6/A3, F6/C4 | strung pearls, drilled beads | F6: strung A3, drilled C4, loose F6 | A3 and C4 memos: same, C4 asks the owner | agree |
 
