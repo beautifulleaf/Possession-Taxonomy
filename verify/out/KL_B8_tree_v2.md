@@ -120,10 +120,10 @@ Category B8 covers objects made to secure or protect a home, its people and its 
 - B8.4.3.3 insecticide powder: an insecticide dust.
 - B8.4.3.4 fogger: a can that releases insecticide as a fog to fill a room.
 - B8.4.3.5 mosquito coil: a burning spiral that gives off insecticidal smoke.
-- B8.4.3.6 electric vaporiser: a plug-in heater that vaporises a liquid or mat insecticide refill.
+- B8.4.3.6 electric vaporiser: a powered unit, plug-in or battery, that releases insecticide into room air from a liquid, mat or cartridge refill, by a heater or by a fan without heat; sold to kill or to repel.
 
 ### B8.4.4 Repellents
-- B8.4.4.1 pest repeller (electronic): a plug-in device that emits ultrasound or similar to drive pests away.
+- B8.4.4.1 pest repeller (electronic): a powered device that drives pests away by ultrasound or similar signals alone, with no insecticide or chemical refill.
 - B8.4.4.2 moth repellent: mothballs, cedar blocks or sachets that keep moths away.
 
 ### B8.4.5 Zappers & swatters
@@ -142,7 +142,7 @@ Category B8 covers objects made to secure or protect a home, its people and its 
 ## B8.6 Parts and accessories made for one B8 object (no leaf; ordered by the object served)
 - B8.6.1 network video recorder: a recorder made to store the video of security cameras.
 - B8.6.2 coil holder: a stand made to hold one mosquito coil.
-- B8.6.3 vaporiser refill: a bottle or mat made to be used in one electric vaporiser.
+- B8.6.3 vaporiser refill: a bottle, mat or cartridge of insecticide made to be used only in one maker's electric vaporiser units (one model or one range).
 
 ## Leaf axes
 - B8.1: the job the device does (lock a door; restrain a door or window; lock a loose item; store securely; detect and sound; watch and answer the door; receive mail; deter climbing and glass break).
@@ -162,5 +162,6 @@ Category B8 covers objects made to secure or protect a home, its people and its 
 8. A gate for stairs and doorways sold for children, or children and pets, is B8.3.1 with user tags; mounting (hardware, pressure, retractable) is the kind.
 9. Mouse, rat and insect traps and live-catch cage traps are B8.4.1; sprays, coils and traps for rooms are B8.4; bird spikes and bird nets for buildings are B8.4.6.
 10. A smoke, heat, CO or gas alarm is B8.2.1 by the signal it detects; a heat alarm is its own kind because it detects a different signal.
-11. A part or consumable made for one B8 object (recorder for cameras, refill for one vaporiser, holder for a coil) is B8.6.
+11. A part or consumable made for one B8 object (recorder for cameras, refill or cartridge for one maker's vaporiser units, holder for a coil) is B8.6.
 12. A lock sold as a locksport practice lock is a lock.
+13. A powered unit that releases an insecticide or repellent chemical into a room from a refill or cartridge is an electric vaporiser (B8.4.3.6), whether it heats or uses a fan, runs on mains or batteries, and is sold to kill or to repel; a pest repeller (B8.4.4.1) releases no chemical.

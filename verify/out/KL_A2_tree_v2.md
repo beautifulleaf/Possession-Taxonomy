@@ -12,6 +12,7 @@ Kind ids read A2.<sub-family>.<leaf, where used>.<kind number>.
 - Safety footwear and therapeutic or diabetic footwear are not kinds: the object is filed by its form (closure and cut, or shaft height) like any other shoe; the safety class or therapeutic type is an attribute.
 - A name for a setting or use ("house shoe", "room shoe", "work shoe", "school shoe") is not a form.
 - A regional or traditional name is a kind only where no generic kind covers its form; otherwise the object goes under the generic kind that covers its form.
+- A seller's style word (Oxford, loafer, slipper, boot) is a name, not a test: the kind follows the construction test of the tree. Oxford against Derby is decided by the lacing (eyelet facings under or on top of the vamp), not by what the maker calls the shoe.
 
 ## Precedence sentences
 
@@ -58,6 +59,7 @@ Leaf 2.2 Slip-on: no fastening; the vamp covers the instep.
 - A2.2.2.04 Espadrille: canvas or fabric shoe on a rope (jute) sole or wedge.
 - A2.2.2.05 Mule: any backless shoe with a closed toe; a backless shoe with a loafer upper is a mule.
 - A2.2.2.06 Clog: slip-on with a thick rigid sole of wood or moulded material, backed or backless.
+- A2.2.2.07 Plain slip-on shoe: laceless low shoe with a closed heel over a covered instep, on a moulded or stitched outsole, built as none of the kinds above (not moccasin-built, no siped deck sole, no rope sole, no thick rigid clog sole); includes elastic-gored, quilted and sheepskin-lined slip-ons on a moulded outsole.
 
 Leaf 2.3 Court cut and strap: a low-cut vamp leaves the instep open; the shoe is held by its cut or by a strap.
 - A2.2.3.01 Court shoe (pump): low-cut closed-heel shoe with a high or low heel and no fastening.
@@ -100,24 +102,24 @@ Test between the two riding kinds: what the boot is made for (riding features ag
 
 ## 4 Sandals and open footwear (no leaf)
 
-- A2.4.01 Flip-flop (thonged flat sandal): flat sandal held by a strap between the toes.
+- A2.4.01 Flip-flop (thonged flat sandal): flat sandal held only by a toe post between the first two toes and the strap that runs from it to the sides of the sole, with no other strap across or round the foot.
 - A2.4.02 Slide: backless sandal with a band or straps over the front of the foot.
-- A2.4.03 Flat strap sandal: flat sandal held by straps across and round the foot.
+- A2.4.03 Flat strap sandal: flat sandal held by straps across or round the foot, including one that adds a toe loop or toe post to a strap across the foot (T-strap).
 - A2.4.04 Heeled or wedge sandal: sandal on a heel or wedge.
 - A2.4.05 Sports and outdoor sandal: sandal with adjustable straps on a treaded sole.
 - A2.4.06 Gladiator sandal: flat or low sandal with multiple straps up the foot or leg.
 - A2.4.07 Woven leather sandal (huarache): sandal with a woven-leather upper.
 - A2.4.08 Raised wooden sandal (geta): sandal on a raised wooden base with teeth.
 
-A regional name is a kind only where no generic kind covers its form: thonged flat sandals and flat strap sandals go under kinds 01 and 03.
+A regional name is a kind only where no generic kind covers its form: thonged flat sandals and flat strap sandals go under kinds 01 and 03. A toe post or toe loop held by nothing but the strap from it to the sole is a flip-flop; a toe post or toe loop combined with a strap across the instep or round the heel or ankle is a flat strap sandal.
 
-## 5 Slippers (soft, unstructured footwear without a rigid outsole; no leaf)
+## 5 Slippers (soft, unstructured footwear without a rigid or moulded outsole: the sole is a thin, flexible layer of felt, fabric, leather, suede, foam or thin rubber; no leaf)
 
 - A2.5.01 Closed slipper: backed slipper.
 - A2.5.02 Open (backless) slipper: slipper without a back.
 - A2.5.03 Slipper boot: soft boot without a rigid outsole.
 
-A backless shoe on a rigid sole is a slide (sandals) or a mule (shoes), not a slipper. A soft boot without a rigid outsole is a slipper boot; a sheepskin-lined boot on a moulded outsole is a boot.
+A backless shoe on a rigid sole is a slide (sandals) or a mule (shoes), not a slipper. A soft boot without a rigid outsole is a slipper boot; a sheepskin-lined boot on a moulded outsole is a boot. Footwear on a moulded rubber or EVA outsole is not a slipper even when sheepskin-lined or sold as a slipper or for indoor wear: backed and laceless it is a plain slip-on shoe (A2.2.2.07), backless a mule.
 
 ## 6 Over-footwear (worn over another shoe to cover the foot; no leaf)
 

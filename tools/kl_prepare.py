@@ -1,6 +1,7 @@
 """Kind-level test, part 1: settle ids, freeze trees, build placer files (R-58 to R-63).
 usage: kl_prepare.py normalise   -> E1, F2, I2 builder ids (<CODE>-Knn) to tree-path ids; crosswalk to verify/out/KL_id_crosswalk.tsv
        kl_prepare.py fixitems    -> item fixes decided in R-62 (backup to bak/)
+       kl_prepare.py freeze2 A2 B8 G2 -> the same for reworked trees KL_<CODE>_tree_v2.md (R-66)
        kl_prepare.py freeze      -> audit/KL_<CODE>_tree.md (never overwritten), verify/in/KL_<CODE>_place.tsv (no expected_kind),
                                     verify/out/KL_untested.tsv (tree kinds no item expects); checks every expected_kind is a tree kind
 Tree-path ids (R-58): <CODE>.n sub-family, <CODE>.n.m leaf, kind <CODE>.n.m.kk, or <CODE>.n.kk where a sub-family has no leaf."""
@@ -80,6 +81,7 @@ def normalise(code):
 
 ITEM_FIXES = {  # R-62, R-64
     "KL-A2-07": {"expected_kind": "A2.2.1.02"},
+    "KL-A2-28": {"expected_kind": "A2.2.2.07"},  # KLFIX1: moulded EVA outsole is not a slipper (A-11); kind added in tree v2
     "KL-F2-22": {"definition": "Hand-painted, clear-glazed slip-cast earthenware figure of a girl sitting in an apple tree, "
                                "10.25 in high, sculpted by Arthur Moeller in 1940, number 141 in a German maker's series."},
 }
@@ -102,11 +104,12 @@ def tree_kinds(code, text):
         ks[m.group(1)] = re.split(r"[:.]\s|\*\*", m.group(2).strip("* "))[0].strip("* ")
     return {k: v for k, v in ks.items() if not any(o.startswith(k + ".") for o in ks)}  # an id with children is a leaf
 
-def freeze():
+def freeze(suffix="", codes=CODES):
+    """suffix '' freezes KL_<CODE>_tree.md; '_v2' freezes the reworked KL_<CODE>_tree_v2.md of the codes given."""
     AUD.mkdir(exist_ok=True)
     untested, bad = [], []
-    for code in CODES:
-        src, dst = OUT / f"KL_{code}_tree.md", AUD / f"KL_{code}_tree.md"
+    for code in codes:
+        src, dst = OUT / f"KL_{code}_tree{suffix}.md", AUD / f"KL_{code}_tree{suffix}.md"
         if dst.exists():
             if not filecmp.cmp(src, dst, shallow=False): sys.exit(f"{dst} exists and differs: frozen copies are never edited")
         else:
@@ -119,7 +122,7 @@ def freeze():
         untested += [{"code": code, "kind_id": k, "kind": v} for k, v in ks.items() if k not in exp]
         write_tsv(VIN / f"KL_{code}_place.tsv", items, ["id", "item", "definition"])
         print(f"{code}: {len(ks)} kinds in tree, {len(items)} items, {len(exp)} kinds expected, {len(ks) - len(exp & set(ks))} untested")
-    write_tsv(OUT / "KL_untested.tsv", untested, ["code", "kind_id", "kind"])
+    if not suffix: write_tsv(OUT / "KL_untested.tsv", untested, ["code", "kind_id", "kind"])
     if bad: sys.exit(f"expected kinds not found in the frozen tree: {bad}")
 
 if __name__ == "__main__":
@@ -132,4 +135,5 @@ if __name__ == "__main__":
         print(len(xw), "ids normalised")
     elif cmd == "fixitems": fixitems()
     elif cmd == "freeze": freeze()
+    elif cmd == "freeze2": freeze("_v2", sys.argv[2:])
     else: sys.exit(__doc__)

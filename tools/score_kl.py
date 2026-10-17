@@ -1,5 +1,5 @@
 """Score the kind-level placement test (session 3, step 1).
-usage: score_kl.py [CODE ...]   -> reads verify/out/KLP_<CODE>_[A-Z].tsv (id, kind, alt, confidence, note)
+usage: score_kl.py [--prefix KLP2] [CODE ...]   -> reads verify/out/<PREFIX>_<CODE>_[A-Z].tsv (default KLP) (id, kind, alt, confidence, note)
 and verify/out/KL_<CODE>_items.tsv (expected_kind). Writes verify/out/KLP_score.tsv (per item) and
 verify/out/KLP_summary.tsv (per category); prints unanimity, majority, Fleiss kappa and accuracy per category.
 Accuracy: a placer answer is right when it equals expected_kind. Majority accuracy counts the majority answer."""
@@ -7,7 +7,10 @@ import sys, glob, re
 from collections import Counter
 from common import ROOT, read_tsv, write_tsv
 
-CODES = sys.argv[1:] or "A2 B8 C1 D4 E1 F2 F4 G2 H2 I2 J5".split()
+ARGS = sys.argv[1:]
+PREFIX = "KLP"
+if ARGS[:1] == ["--prefix"]: PREFIX, ARGS = ARGS[1], ARGS[2:]
+CODES = ARGS or "A2 B8 C1 D4 E1 F2 F4 G2 H2 I2 J5".split()
 OUT = ROOT / "verify/out"
 
 def ans(r):
@@ -25,7 +28,7 @@ def kappa(table, n):
 
 rows, summ = [], []
 for code in CODES:
-    files = sorted(glob.glob(str(OUT / f"KLP_{code}_[A-Z].tsv")))
+    files = sorted(glob.glob(str(OUT / f"{PREFIX}_{code}_[A-Z].tsv")))
     if not files: print(f"{code}: no placer files"); continue
     placers = {re.search(r"_([A-Z])\.tsv$", f).group(1): {r["id"]: r for r in read_tsv(f)} for f in files}
     items = {r["id"]: r for r in read_tsv(OUT / f"KL_{code}_items.tsv")}
@@ -57,9 +60,9 @@ for code in CODES:
     summ.append(s)
     print(f"{code}: {N} items x {n} placers  unanimous {unan} ({100*unan/N:.0f}%)  majority {maj}  kappa {s['kappa']}  "
           f"placer accuracy {s['placer_accuracy']}%  majority accuracy {s['majority_accuracy']}%")
-if len(CODES) > 1 or not sys.argv[1:]:
-    write_tsv(OUT / "KLP_score.tsv", rows, ["code", "id", "item", "expected", "votes", "verdict", "majority_right", "conf", "alts", "notes"])
-    write_tsv(OUT / "KLP_summary.tsv", summ, ["code", "items", "placers", "unanimous", "majority", "kappa", "placer_accuracy", "majority_accuracy"])
+if len(CODES) > 1 or not ARGS:
+    write_tsv(OUT / f"{PREFIX}_score.tsv", rows, ["code", "id", "item", "expected", "votes", "verdict", "majority_right", "conf", "alts", "notes"])
+    write_tsv(OUT / f"{PREFIX}_summary.tsv", summ, ["code", "items", "placers", "unanimous", "majority", "kappa", "placer_accuracy", "majority_accuracy"])
     T = sum(s["items"] for s in summ)
     if T:
         print(f"ALL: {T} items  unanimous {sum(s['unanimous'] for s in summ)}  "
