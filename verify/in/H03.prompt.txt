@@ -1,0 +1,8 @@
+BATCH H03 — statistical and trade classifications of goods. First read /home/user/Possession-Taxonomy/verify/in/COMMON.txt.
+TASK: record how official classifications divide goods people own:
+1. COICOP 2018 (UN Classification of Individual Consumption According to Purpose): every division, group and class that covers durable, semi-durable or kept goods (clothing, footwear, furnishings, household appliances, tools, vehicles, audio-visual, recreational items, jewellery, personal effects, etc.). Record division > group > class.
+2. UNSPSC: the segments (level 1) that hold consumer-ownable goods, with their families (level 2).
+3. Harmonized System (HS) sections and chapters for manufactured goods (e.g. Section XI textiles chapters 61–63, Section XII footwear and headgear, Section XVI machinery, Section XVII vehicles, Section XX miscellaneous manufactured articles, Section XXI works of art, collectors' pieces and antiques).
+4. If budget remains: the US BEA/BLS consumer durable goods categories (e.g. CPI item structure for durable goods) top two levels.
+OUTPUT: verify/out/H03.tsv with header: source	url	level1	level2	level3	note
+CAPS: 10 searches, 35 fetches.

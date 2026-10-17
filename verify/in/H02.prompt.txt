@@ -1,0 +1,7 @@
+BATCH H02 — museum and heritage object classifications. First read /home/user/Possession-Taxonomy/verify/in/COMMON.txt.
+TASK: record how museum cataloguing systems divide man-made objects, top two or three levels:
+1. Getty Art & Architecture Thesaurus, Objects Facet: every hierarchy (e.g. Furnishings and Equipment > Costume, Containers, Tools and Equipment, Weapons and Ammunition, Measuring Devices, Sound Devices, Recreational Artifacts, Transportation Vehicles; Visual and Verbal Communication > Visual Works, Exchange Media, Information Forms; Built Environment; Object Groupings and Systems; Object Genres; Components) and the first level of guide terms or main terms beneath each. Start at https://www.getty.edu/vow/AATHierarchy?find=&logic=&note=&subjectid=300264092 and follow links you see.
+2. Nomenclature for Museum Cataloging (Nomenclature 4.0, nomenclature.info): its Categories (e.g. Category 1 Built Environment Objects ... Category 10 Unclassifiable Objects) and the Classifications under each, and the first sub-classifications where listed.
+3. If budget remains: the Spectrum/CIDOC or UK Social History and Industrial Classification (SHIC) object classes, top level.
+OUTPUT: verify/out/H02.tsv with header: source	url	level1	level2	level3	note
+CAPS: 10 searches, 40 fetches.

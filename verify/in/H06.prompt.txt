@@ -1,0 +1,9 @@
+BATCH H06 — household inventories, insurance, property and digital assets. First read /home/user/Possession-Taxonomy/verify/in/COMMON.txt.
+TASK: record how people and institutions list everything a person owns:
+1. Home inventory checklists and apps by insurers or regulators (NAIC home inventory, Insurance Information Institute, one or two large insurers' contents checklists, a UK contents-insurance list): their room or item categories and the items under each.
+2. Insurance 'scheduled personal property' / valuables classes (jewellery, fine art, furs, cameras, musical instruments, stamps, coins, silverware, golf equipment, etc.).
+3. Moving-company inventory lists (item categories) and estate/probate personal property schedules (the categories used to inventory a deceased person's property, e.g. tangible personal property classes).
+4. Property and land: the main types of real property a person can own (house types, land types, other structures such as sheds, garages, boathouses, mobile homes, houseboats, timeshares), from a real-estate glossary or land-registry page.
+5. Digital assets: how estate-planning, legal or accounting guidance classifies digital assets a person owns (domains, cryptocurrency, NFTs, in-game items and accounts, digital media libraries, software licences, social accounts).
+OUTPUT: verify/out/H06.tsv with header: source	url	level1	level2	note
+CAPS: 15 searches, 40 fetches.

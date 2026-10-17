@@ -1,0 +1,9 @@
+BATCH H01 — Google Product Taxonomy and other open product taxonomies. First read /home/user/Possession-Taxonomy/verify/in/COMMON.txt.
+TASK: record the top TWO levels (level 1 and level 2) of these product classifications exactly as published:
+1. Google Product Taxonomy (https://www.google.com/basepages/producttype/taxonomy.en-US.txt). The file is ~440,000 characters; read it all with WebFetch using offset 0, 100000, 200000, 300000, 400000, asking each time for every line with exactly zero or one '>' separator, verbatim.
+2. Shopify Standard Product Taxonomy (search for it; GitHub or shopify.github.io pages are fine) – level 1 and level 2.
+3. GS1 Global Product Classification (GPC) – segments and families (level 1 and 2) for consumer durable goods.
+4. If budget remains: the Amazon Browse Tree top departments and second level (any page that lists them), and eBay's top-level categories with their second level (pages.ebay.com/sellerinformation or similar listing pages).
+OUTPUT: verify/out/H01.tsv with header: source	url	level1	level2	note
+(note: leave empty, or write 'out:animal', 'out:food', 'out:service' where obvious.)
+CAPS: 12 searches, 30 fetches.

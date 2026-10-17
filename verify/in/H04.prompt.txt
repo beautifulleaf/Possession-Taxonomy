@@ -1,0 +1,4 @@
+BATCH H04 — retail and marketplace category trees across countries. First read /home/user/Possession-Taxonomy/verify/in/COMMON.txt.
+TASK: record the top TWO levels of the category trees of large general marketplaces, choosing ones from different regions: Etsy; Walmart; IKEA (its product range categories); Rakuten Japan or Mercari Japan (in Japanese, translate level names into English in the note column but keep the original in level1/level2); Taobao/Tmall or JD.com (Chinese, same handling); Flipkart or Amazon India; Mercado Libre; Allegro (Poland) or Avito (Russia); Jumia (Africa); Craigslist 'for sale' categories; Facebook Marketplace categories. Aim for at least 8 marketplaces.
+OUTPUT: verify/out/H04.tsv with header: source	url	level1	level2	note
+CAPS: 15 searches, 40 fetches.

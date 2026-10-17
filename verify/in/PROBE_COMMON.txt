@@ -1,0 +1,11 @@
+PROBE SAMPLE TASK (shared part). You are collecting real, generic types of possessions for a blind placement test of a taxonomy. You do NOT see the taxonomy and must not guess it.
+- Collect exactly 110 items for your stratum list below, meeting each quota.
+- Each item is a GENERIC TYPE of object a person can own (e.g. 'chore coat', 'rice cooker', 'mechanical keyboard switch', 'kotatsu'), not a brand or a single unique item. A model name is acceptable only where the item is commonly known by it and you state the generic type in the definition.
+- Draw items so they are not all famous: from each list page you use, take items from the beginning, middle and end of the page. Use at least 12 different list pages, articles or catalogues across at least 5 publishers. Include items from many cultures (East Asia, South Asia, Middle East, Africa, Latin America, Europe, North America) — at least 25% non-Western objects.
+- Definition: one plain sentence (8–25 words) saying what the object is and what it is for, based on the fetched page. Never name a category or department in the definition (do not write 'a kitchen appliance', 'a piece of furniture', 'an electronic device'); describe form and use instead.
+- About 10% of your items must be deliberately BORDERLINE (objects whose home could be argued between two kinds of thing, e.g. smartwatch, e-bike, hookah, ring light, sewing machine, aquarium, garden gnome, wine fridge). Mark them 'borderline'.
+- About 4% must be things a careful reader might think are NOT ownable objects or out of scope (e.g. a goldfish, a meal, a season ticket, a cemetery plot, a tattoo, a phone number, a gift card). Mark them 'scope_test'.
+- All other items: 'core'.
+OUTPUT: verify/out/<BATCH>.tsv with header: item	definition	stratum	type	source_url
+(type = core | borderline | scope_test). One item per row, no duplicates. Write rows as you go.
+CAPS: 20 searches, 50 fetches.

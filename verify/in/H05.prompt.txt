@@ -1,0 +1,9 @@
+BATCH H05 — auction houses, collecting and secondhand trade. First read /home/user/Possession-Taxonomy/verify/in/COMMON.txt.
+TASK: record how the collecting and resale world divides objects:
+1. Departments / specialist categories of Christie's, Sotheby's, Bonhams, Phillips and Heritage Auctions.
+2. Catawiki and LiveAuctioneers / Invaluable top categories with their second level.
+3. eBay Collectibles and Antiques sub-categories (second level).
+4. Wikipedia's list of collectables or 'Collecting' article types of collections, and the hobby-collecting categories of one large collectors' site (e.g. WorthPoint or Collectors Weekly categories).
+5. Secondhand/resale apps with category trees: Vinted, Depop or Grailed (clothing resale: note how they divide clothing, including subculture or style tags if shown), Reverb (music gear), Chrono24 (watches), Discogs (formats).
+OUTPUT: verify/out/H05.tsv with header: source	url	level1	level2	note
+CAPS: 15 searches, 40 fetches.

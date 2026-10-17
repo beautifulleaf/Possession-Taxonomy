@@ -1,0 +1,11 @@
+COMMON RULES (read before your task)
+- Repository root: /home/user/Possession-Taxonomy. Write ONLY your output file(s) named in your task and helper files under verify/work/<BATCH>/. Do not run git. Do not edit any other file.
+- Web pages only through WebSearch, WebFetch, or the Parallel MCP tools (load with ToolSearch "select:mcp__Parallel_Auth__web_search,mcp__Parallel_Auth__web_fetch"; always allow_live_fetch true; use one fixed session_id, any 32-hex string, for all your Parallel calls; model_name "claude-sonnet-5-5"). Never curl, wget, python fetching, archives or caches. Never guess URLs: only fetch URLs you saw in search results or on fetched pages.
+- Parallel web_search takes 2–4 related queries in one call and returns long excerpts: use it to find pages. Parallel web_fetch takes up to 20 URLs with one objective: use it for long list pages and for hosts that refuse WebFetch. WebFetch reads long pages in pieces with the offset parameter.
+- A source for a row must be a page you actually fetched (WebFetch or Parallel web_fetch). Search excerpts locate pages; they are not sources.
+- Read verify/BLOCKED_HOSTS.txt (if present) before fetching; append a line "host<TAB>reason" for every host that refuses you (403/429/503/robots). On a 429 stop using that host.
+- Keep a running count of your search and fetch calls in verify/work/<BATCH>/progress.txt and stop at the caps in your task.
+- Output TSV: UTF-8, tab-separated, header row as specified, no tabs or newlines inside fields.
+- RESUME RULE: write output rows as you go (append), and update progress.txt (calls used, sources done, sources left) after every source. If your output file and progress.txt already exist when you start, read them and continue from where they stop; never duplicate rows.
+- Scope of the taxonomy (for your judgement only, do not filter unless told): every kind of object a person can own and keep. In: clothing, accessories, furniture, household goods, tools, electronics, vehicles, property and land, plants, art, collectibles, media, digital goods (game items, domains, licences, NFTs), collected consumables (wine cellars, perfume, cigars), coins and banknotes as objects, adult objects. Out: animals; food and drink as eaten; services; bank balances.
+- Finish with a short report (under 150 words): rows written, sources covered, calls used, anything blocked.
