@@ -1,0 +1,376 @@
+node_id	code	level	parent_id	name	axis	sort	notes	sources	fetch_status
+A2	A2	category				0	from audit/KL_A2_tree_v2.md		
+B8	B8	category				0	from audit/KL_B8_tree_v2.md		
+B8.1	B8	sub_family	B8	Break-in, theft & attack (leaf axis: device job)		1	from audit/KL_B8_tree_v2.md		
+B8.1.1	B8	leaf	B8.1	Door locks (lock a door)		2	from audit/KL_B8_tree_v2.md		
+B8.1.2	B8	leaf	B8.1	Window & door restraints (hold a door or window shut)		3	from audit/KL_B8_tree_v2.md		
+B8.1.3	B8	leaf	B8.1	Padlocks, chains & anchors (lock a loose item)		4	from audit/KL_B8_tree_v2.md		
+B8.1.4	B8	leaf	B8.1	Safes & secure storage (store securely)		5	from audit/KL_B8_tree_v2.md		
+B8.1.5	B8	leaf	B8.1	Alarms & sensors (detect and sound)		6	from audit/KL_B8_tree_v2.md		
+B8.1.6	B8	leaf	B8.1	Cameras, doorbells & door entry (watch and answer the door)		7	from audit/KL_B8_tree_v2.md		
+B8.1.7	B8	leaf	B8.1	Mail & parcel boxes (receive mail)		8	from audit/KL_B8_tree_v2.md		
+B8.1.8	B8	leaf	B8.1	Anti-climb & glazing protection (deter climbing and glass break)		9	from audit/KL_B8_tree_v2.md		
+B8.2	B8	sub_family	B8	Fire, smoke & gas (leaf axis: device job, detect or suppress)		10	from audit/KL_B8_tree_v2.md		
+B8.2.1	B8	leaf	B8.2	Fire & gas alarms (detect)		11	from audit/KL_B8_tree_v2.md		
+B8.2.2	B8	leaf	B8.2	Fire suppression (suppress)		12	from audit/KL_B8_tree_v2.md		
+B8.3	B8	sub_family	B8	Household injury hazards (leaf axis: site of the hazard and device job; child, baby, older adult and pet are user tags)		13	from audit/KL_B8_tree_v2.md		
+B8.3.1	B8	leaf	B8.3	Gates & barriers (stairs and openings)		14	from audit/KL_B8_tree_v2.md		
+B8.3.2	B8	leaf	B8.3	Latches & restraints for cabinets, appliances and furniture		15	from audit/KL_B8_tree_v2.md		
+B8.3.3	B8	leaf	B8.3	Guards for edges, sockets & knobs		16	from audit/KL_B8_tree_v2.md		
+B8.3.4	B8	leaf	B8.3	Window & door guards		17	from audit/KL_B8_tree_v2.md		
+B8.3.5	B8	leaf	B8.3	Room monitors (watching a room)		18	from audit/KL_B8_tree_v2.md		
+B8.4	B8	sub_family	B8	Pests (leaf axis: control method; target pest is a tag)		19	from audit/KL_B8_tree_v2.md		
+B8.4.1	B8	leaf	B8.4	Traps		20	from audit/KL_B8_tree_v2.md		
+B8.4.2	B8	leaf	B8.4	Baits & poisons		21	from audit/KL_B8_tree_v2.md		
+B8.4.3	B8	leaf	B8.4	Sprays, foggers & vaporisers		22	from audit/KL_B8_tree_v2.md		
+B8.4.4	B8	leaf	B8.4	Repellents		23	from audit/KL_B8_tree_v2.md		
+B8.4.5	B8	leaf	B8.4	Zappers & swatters		24	from audit/KL_B8_tree_v2.md		
+B8.4.6	B8	leaf	B8.4	Nets, screens & spikes		25	from audit/KL_B8_tree_v2.md		
+B8.5	B8	sub_family	B8	Water leaks (no leaf)		26	from audit/KL_B8_tree_v2.md		
+B8.6	B8	sub_family	B8	Parts and accessories made for one B8 object (no leaf; ordered by the object served)		27	from audit/KL_B8_tree_v2.md		
+G2	G2	category				0	from audit/KL_G2_tree_v2.md		
+G2.1	G2	sub_family	G2	Land	Leaf axis: land cover and principal use. Land is filed by its principal land use whether or not it carries buildings or a house; dwellings and farm buildings on it are only an `improvements` facet.	1	from audit/KL_G2_tree_v2.md		
+G2.2	G2	sub_family	G2	Dwellings	Leaf axis: what is owned against the building around it (a whole house; a unit inside a building; a whole building of two or more dwellings; a dwelling kept in place that is not a building).	2	from audit/KL_G2_tree_v2.md		
+G2.3	G2	sub_family	G2	Other buildings & structures	Leaf axis: what the building or structure is for.	3	from audit/KL_G2_tree_v2.md		
+G2.4	G2	sub_family	G2	Burial places		4	from audit/KL_G2_tree_v2.md		
+G2.1.1	G2	leaf	G2.1	Building land		5	from audit/KL_G2_tree_v2.md		
+G2.1.2	G2	leaf	G2.1	Cropland		6	from audit/KL_G2_tree_v2.md		
+G2.1.3	G2	leaf	G2.1	Grassland		7	from audit/KL_G2_tree_v2.md		
+G2.1.4	G2	leaf	G2.1	Permanent crops		8	from audit/KL_G2_tree_v2.md		
+G2.1.5	G2	leaf	G2.1	Woodland		9	from audit/KL_G2_tree_v2.md		
+G2.1.6	G2	leaf	G2.1	Water and wetland		10	from audit/KL_G2_tree_v2.md		
+G2.1.7	G2	leaf	G2.1	Mixed holdings		11	from audit/KL_G2_tree_v2.md		
+G2.2.1	G2	leaf	G2.2	Houses** (kind axis	attachment to neighbouring dwellings)	12	from audit/KL_G2_tree_v2.md		
+G2.2.2	G2	leaf	G2.2	Flats and maisonettes** (kind axis	levels in the unit)	13	from audit/KL_G2_tree_v2.md		
+G2.2.3	G2	leaf	G2.2	Multi-unit residential buildings		14	from audit/KL_G2_tree_v2.md		
+G2.2.4	G2	leaf	G2.2	Dwellings kept in place that are not buildings** (kind axis	physical form; listed from least to most fixed)	15	from audit/KL_G2_tree_v2.md		
+G2.3.1	G2	leaf	G2.3	Vehicle shelter		16	from audit/KL_G2_tree_v2.md		
+G2.3.2	G2	leaf	G2.3	Storage and work		17	from audit/KL_G2_tree_v2.md		
+G2.3.3	G2	leaf	G2.3	Rooms for people** (garden buildings without their own sink, toilet or entrance; rule 4)		18	from audit/KL_G2_tree_v2.md		
+G2.3.4	G2	leaf	G2.3	Animal and crop buildings		19	from audit/KL_G2_tree_v2.md		
+G2.3.5	G2	leaf	G2.3	Shade and surface structures		20	from audit/KL_G2_tree_v2.md		
+G2.3.6	G2	leaf	G2.3	Pools		21	from audit/KL_G2_tree_v2.md		
+G2.3.7	G2	leaf	G2.3	Other buildings by function** (kind axis	the function the building is made for)	22	from audit/KL_G2_tree_v2.md		
+C1	C1	category				0	from audit/KL_C1_tree.md		
+C1.1	C1	sub_family	C1	Cutting & sawing (leaf axis: tool family)		1	from audit/KL_C1_tree.md		
+C1.2	C1	sub_family	C1	Drilling, driving & turning (leaf axis: tool family)		5	from audit/KL_C1_tree.md		
+C1.3	C1	sub_family	C1	Shaping & finishing (leaf axis: tool family)		9	from audit/KL_C1_tree.md		
+C1.4	C1	sub_family	C1	Striking & fastening (leaf axis: tool family)		17	from audit/KL_C1_tree.md		
+C1.5	C1	sub_family	C1	Joining & heat (leaf axis: joining process)		21	from audit/KL_C1_tree.md		
+C1.6	C1	sub_family	C1	Gripping, clamping & work holding (no leaf level; secondary key: work held, hand-held to floor-standing)		25	from audit/KL_C1_tree.md		
+C1.7	C1	sub_family	C1	Measuring, layout & testing (leaf axis: what is measured or marked)		26	from audit/KL_C1_tree.md		
+C1.8	C1	sub_family	C1	Lifting, access & materials handling (leaf axis: what is lifted, reached or moved)		31	from audit/KL_C1_tree.md		
+C1.9	C1	sub_family	C1	Power & air supply (leaf axis: what is supplied)		36	from audit/KL_C1_tree.md		
+C1.10	C1	sub_family	C1	Tool storage & carrying (no leaf level; secondary key: container form)	Kind key, first yes: drawered cabinet on casters: roller cabinet; box on wheels with a pull handle: wheeled toolbox; rigid case that locks onto other cases of a system: modular stackable tool case; rigid hand-carried box: portable toolbox; soft or hard-bodied bag: tool bag; flexible wrap: tool roll. Membership of a case system (PACKOUT, TSTAK and similar) is a platform attribute, not a kind.	41	from audit/KL_C1_tree.md		
+C1.11	C1	sub_family	C1	Multi-use tools & kits (no leaf level; secondary key: kits first, then equipment serving several tool families)		42	from audit/KL_C1_tree.md		
+C1.12	C1	sub_family	C1	Parts and accessories made for one tool (leaf axis: the tool family served; nothing that is not a part may sit here)		43	from audit/KL_C1_tree.md		
+D4	D4	category				0	from audit/KL_D4_tree.md		
+D4.1	D4	sub_family	D4	Cameras (the capture device)	Leaf axis: recording technology (what the image is recorded on).	1	from audit/KL_D4_tree.md		
+D4.1.1	D4	leaf	D4.1	Digital cameras		2	from audit/KL_D4_tree.md		
+D4.1.2	D4	leaf	D4.1	Film cameras		3	from audit/KL_D4_tree.md		
+D4.1.3	D4	leaf	D4.1	Instant cameras		4	from audit/KL_D4_tree.md		
+D4.2	D4	sub_family	D4	Lenses and optical attachments (no leaf)		5	from audit/KL_D4_tree.md		
+D4.3	D4	sub_family	D4	Light	Leaf axis: what the object does with light (makes a flash; gives continuous light; shapes light; holds the source or the studio backdrop).	6	from audit/KL_D4_tree.md		
+D4.3.1	D4	leaf	D4.3	Flash		7	from audit/KL_D4_tree.md		
+D4.3.2	D4	leaf	D4.3	Continuous light		8	from audit/KL_D4_tree.md		
+D4.3.3	D4	leaf	D4.3	Light modifiers		9	from audit/KL_D4_tree.md		
+D4.3.4	D4	leaf	D4.3	Light stands and mounts		10	from audit/KL_D4_tree.md		
+D4.4	D4	sub_family	D4	Support and stabilisation (no leaf)		11	from audit/KL_D4_tree.md		
+D4.5	D4	sub_family	D4	Film and sensitised media (no leaf)		12	from audit/KL_D4_tree.md		
+D4.6	D4	sub_family	D4	Darkroom and processing	Leaf axis: the stage of the darkroom process the object serves, with materials used across stages in the last leaf.	13	from audit/KL_D4_tree.md		
+D4.6.1	D4	leaf	D4.6	Film processing		14	from audit/KL_D4_tree.md		
+D4.6.2	D4	leaf	D4.6	Enlarging and exposure		15	from audit/KL_D4_tree.md		
+D4.6.3	D4	leaf	D4.6	Print processing		16	from audit/KL_D4_tree.md		
+D4.6.4	D4	leaf	D4.6	Darkroom materials		17	from audit/KL_D4_tree.md		
+D4.7	D4	sub_family	D4	Parts and accessories made for one camera or lens (no leaf)		18	from audit/KL_D4_tree.md		
+E1	E1	category				0	from audit/KL_E1_tree.md		
+E1.1	E1	sub_family	E1	Dolls, figures & soft toys	Leaf axis: the form of the figure played with or displayed.	1	from audit/KL_E1_tree.md		
+E1.1.1	E1	leaf	E1.1	Dolls		2	from audit/KL_E1_tree.md		
+E1.1.2	E1	leaf	E1.1	Figures (scale is a required attribute; prize channel and kit-or-built are attributes)		3	from audit/KL_E1_tree.md		
+E1.1.3	E1	leaf	E1.1	Soft toys		4	from audit/KL_E1_tree.md		
+E1.1.4	E1	leaf	E1.1	Dolls' houses & playsets		5	from audit/KL_E1_tree.md		
+E1.2	E1	sub_family	E1	Construction toys		6	from audit/KL_E1_tree.md		
+E1.3	E1	sub_family	E1	Scale models & model railways	Leaf axis: the object modelled at scale, by its form (two leaves). Kit or built, subject, material and scale are attributes.	7	from audit/KL_E1_tree.md		
+E1.3.1	E1	leaf	E1.3	Model vehicles & machines (cars, aircraft, ships, armour, mecha)		8	from audit/KL_E1_tree.md		
+E1.3.2	E1	leaf	E1.3	Model railways (scale and gauge are required attributes)		9	from audit/KL_E1_tree.md		
+E1.4	E1	sub_family	E1	Play vehicles & ride-ons		10	from audit/KL_E1_tree.md		
+E1.5	E1	sub_family	E1	Games	Leaf axis: the component set owned. Mechanism, theme, audience, player count and playing time are never kinds. Every published title is a named form of its kind.	11	from audit/KL_E1_tree.md		
+E1.5.1	E1	leaf	E1.5	Board games		12	from audit/KL_E1_tree.md		
+E1.5.2	E1	leaf	E1.5	Card games		13	from audit/KL_E1_tree.md		
+E1.5.3	E1	leaf	E1.5	Tile and dice games		14	from audit/KL_E1_tree.md		
+E1.5.4	E1	leaf	E1.5	Trading card games		15	from audit/KL_E1_tree.md		
+E1.5.5	E1	leaf	E1.5	Miniatures games (sold in a game-system box)		16	from audit/KL_E1_tree.md		
+E1.5.6	E1	leaf	E1.5	Table, cabinet & dexterity games (no screen)		17	from audit/KL_E1_tree.md		
+E1.5.7	E1	leaf	E1.5	Casino & gaming equipment		18	from audit/KL_E1_tree.md		
+E1.6	E1	sub_family	E1	Puzzles		19	from audit/KL_E1_tree.md		
+E1.7	E1	sub_family	E1	Role play & other toys	Leaf axis: the kind of play the toy is made for.	20	from audit/KL_E1_tree.md		
+E1.7.1	E1	leaf	E1.7	Role play & dress-up		21	from audit/KL_E1_tree.md		
+E1.7.2	E1	leaf	E1.7	Musical & sound toys		22	from audit/KL_E1_tree.md		
+E1.7.3	E1	leaf	E1.7	Rattles, stackers & activity toys		23	from audit/KL_E1_tree.md		
+E1.7.4	E1	leaf	E1.7	Skill & motion toys		24	from audit/KL_E1_tree.md		
+E1.7.5	E1	leaf	E1.7	Party & novelty toys		25	from audit/KL_E1_tree.md		
+E1.8	E1	sub_family	E1	Play equipment		26	from audit/KL_E1_tree.md		
+E1.9	E1	sub_family	E1	Parts and accessories made for one toy or game		27	from audit/KL_E1_tree.md		
+F2	F2	category				0	from audit/KL_F2_tree.md		
+F2.1	F2	sub_family	F2	Paintings	Leaf axis: none. Kind axis: binder or medium of the paint.	1	from audit/KL_F2_tree.md		
+F2.2	F2	sub_family	F2	Drawings	Leaf axis: none. Kind axis: drawing medium.	2	from audit/KL_F2_tree.md		
+F2.3	F2	sub_family	F2	Prints	Leaf axis: family of printing process, oldest first. Kind axis: the technique. Every print is filed by how it was printed.	3	from audit/KL_F2_tree.md		
+F2.3.1	F2	leaf	F2.3	Relief (ink taken from the raised surface of a block)		4	from audit/KL_F2_tree.md		
+F2.3.2	F2	leaf	F2.3	Intaglio (ink taken from lines or pits cut or bitten into a metal plate)		5	from audit/KL_F2_tree.md		
+F2.3.3	F2	leaf	F2.3	Planographic (printed from a flat surface)		6	from audit/KL_F2_tree.md		
+F2.3.4	F2	leaf	F2.3	Stencil		7	from audit/KL_F2_tree.md		
+F2.3.5	F2	leaf	F2.3	Other and hybrid processes		8	from audit/KL_F2_tree.md		
+F2.3.6	F2	leaf	F2.3	Digital		9	from audit/KL_F2_tree.md		
+F2.4	F2	sub_family	F2	Photographs	Leaf axis: process class, ordered by chronology of invention. Kind axis: the process. Every photographic print is filed by process.	10	from audit/KL_F2_tree.md		
+F2.4.1	F2	leaf	F2.4	Silver		11	from audit/KL_F2_tree.md		
+F2.4.2	F2	leaf	F2.4	Chromogenic and dye		12	from audit/KL_F2_tree.md		
+F2.4.3	F2	leaf	F2.4	Pigment and digital		13	from audit/KL_F2_tree.md		
+F2.4.4	F2	leaf	F2.4	Alternative and historic		14	from audit/KL_F2_tree.md		
+F2.4.5	F2	leaf	F2.4	Camera-less and instant		15	from audit/KL_F2_tree.md		
+F2.5	F2	sub_family	F2	Sculpture	Leaf axis: material family that makes the form. Kind axis: the material or material-defined type. Figurines are kinds in these leaves; there is no separate figurine sub-family. Form (freestanding, wall-object, bust, relief, outdoor) and size are attributes, not kinds.	16	from audit/KL_F2_tree.md		
+F2.5.1	F2	leaf	F2.5	Metal		17	from audit/KL_F2_tree.md		
+F2.5.2	F2	leaf	F2.5	Stone		18	from audit/KL_F2_tree.md		
+F2.5.3	F2	leaf	F2.5	Wood and other carved organic material		19	from audit/KL_F2_tree.md		
+F2.5.4	F2	leaf	F2.5	Ceramic		20	from audit/KL_F2_tree.md		
+F2.5.5	F2	leaf	F2.5	Glass and crystal		21	from audit/KL_F2_tree.md		
+F2.5.6	F2	leaf	F2.5	Resin, plaster, wax and plastic		22	from audit/KL_F2_tree.md		
+F2.5.7	F2	leaf	F2.5	Textile and soft		23	from audit/KL_F2_tree.md		
+F2.5.8	F2	leaf	F2.5	Found and mixed		24	from audit/KL_F2_tree.md		
+F2.5.9	F2	leaf	F2.5	Light		25	from audit/KL_F2_tree.md		
+F2.6	F2	sub_family	F2	Textile and fibre hangings	Leaf axis: none.	26	from audit/KL_F2_tree.md		
+F2.7	F2	sub_family	F2	Calligraphy	Leaf axis: none.	27	from audit/KL_F2_tree.md		
+F2.8	F2	sub_family	F2	Collage, mosaic and mixed work	Leaf axis: none.	28	from audit/KL_F2_tree.md		
+F4	F4	category				0	from audit/KL_F4_tree.md		
+F4.1	F4	sub_family	F4	Altars, shrines and sacred images		1	from audit/KL_F4_tree.md		
+F4.1.1	F4	leaf	F4.1	Altars and shrines		2	from audit/KL_F4_tree.md		
+F4.1.2	F4	leaf	F4.1	Flat images		3	from audit/KL_F4_tree.md		
+F4.1.3	F4	leaf	F4.1	Three-dimensional images		4	from audit/KL_F4_tree.md		
+F4.1.4	F4	leaf	F4.1	Relics and reliquaries		5	from audit/KL_F4_tree.md		
+F4.2	F4	sub_family	F4	Personal devotion aids		6	from audit/KL_F4_tree.md		
+F4.2.1	F4	leaf	F4.2	Counted		7	from audit/KL_F4_tree.md		
+F4.2.2	F4	leaf	F4.2	Knelt or sat on		8	from audit/KL_F4_tree.md		
+F4.2.3	F4	leaf	F4.2	Turned or flown		9	from audit/KL_F4_tree.md		
+F4.2.4	F4	leaf	F4.2	Held, carried or used to bless		10	from audit/KL_F4_tree.md		
+F4.3	F4	sub_family	F4	Ritual vessels, implements and instruments		11	from audit/KL_F4_tree.md		
+F4.3.1	F4	leaf	F4.3	Vessels		12	from audit/KL_F4_tree.md		
+F4.3.2	F4	leaf	F4.3	Hand implements		13	from audit/KL_F4_tree.md		
+F4.3.3	F4	leaf	F4.3	Text-bearing objects		14	from audit/KL_F4_tree.md		
+F4.3.4	F4	leaf	F4.3	Sound-makers		15	from audit/KL_F4_tree.md		
+F4.4	F4	sub_family	F4	Light, incense and offerings		16	from audit/KL_F4_tree.md		
+F4.4.1	F4	leaf	F4.4	Lamps and candles		17	from audit/KL_F4_tree.md		
+F4.4.2	F4	leaf	F4.4	Incense and burners		18	from audit/KL_F4_tree.md		
+F4.4.3	F4	leaf	F4.4	Offering vessels and stands		19	from audit/KL_F4_tree.md		
+F4.5	F4	sub_family	F4	Divination and esoteric tools		20	from audit/KL_F4_tree.md		
+F4.5.1	F4	leaf	F4.5	Decks		21	from audit/KL_F4_tree.md		
+F4.5.2	F4	leaf	F4.5	Other tools		22	from audit/KL_F4_tree.md		
+F4.6	F4	sub_family	F4	The dead		23	from audit/KL_F4_tree.md		
+F4.6.1	F4	leaf	F4.6	Coffins		24	from audit/KL_F4_tree.md		
+F4.6.2	F4	leaf	F4.6	Urns		25	from audit/KL_F4_tree.md		
+F4.6.3	F4	leaf	F4.6	Markers		26	from audit/KL_F4_tree.md		
+F4.6.4	F4	leaf	F4.6	Furnishings		27	from audit/KL_F4_tree.md		
+F4.7	F4	sub_family	F4	Parts and accessories made for one religious or funerary object	Leaf axis: the object served.	28	from audit/KL_F4_tree.md		
+F4.7.1	F4	leaf	F4.7	For Torah scrolls		29	from audit/KL_F4_tree.md		
+F4.7.2	F4	leaf	F4.7	For coffins		30	from audit/KL_F4_tree.md		
+F4.7.3	F4	leaf	F4.7	For cremation urns		31	from audit/KL_F4_tree.md		
+H2	H2	category				0	from audit/KL_H2_tree.md		
+H2.1	H2	sub_family	H2	Monitoring and testing devices	Leaf axis: quantity measured or condition tested. Every test and monitor is here, whatever condition it serves.	1	from audit/KL_H2_tree.md		
+H2.2	H2	sub_family	H2	Therapy devices	Leaf axis: therapy delivered.	2	from audit/KL_H2_tree.md		
+H2.3	H2	sub_family	H2	Mobility and transfer aids	Leaf axis: how the body is supported or moved.	3	from audit/KL_H2_tree.md		
+H2.4	H2	sub_family	H2	Daily-living and care aids	Leaf axis: daily task or care need.	4	from audit/KL_H2_tree.md		
+H2.5	H2	sub_family	H2	Sensory and communication aids	Leaf axis: sense or channel compensated.	5	from audit/KL_H2_tree.md		
+H2.6	H2	sub_family	H2	Medicines	Leaf axis: symptom or condition group (the one place in H2 where condition is the leaf axis). All medicines are here, prescription or not. The kind is the labelled use class. A product labelled for two uses is filed by the use printed first on the pack. Active ingredients, strength and dose form are attributes; only brand products are named forms.	6	from audit/KL_H2_tree.md		
+H2.7	H2	sub_family	H2	Supplements	Leaf axis: ingredient class. A single-ingredient product is the kind named by its ingredient; a product that mixes ingredient classes is a multi-ingredient supplement. Format (tablet, capsule, gummy, liquid, powder, spray), strength and ingredient list are attributes. Supplements sold for skin, hair or nails, collagen drinks included, are here.	7	from audit/KL_H2_tree.md		
+H2.8	H2	sub_family	H2	Sports, meal and medical nutrition	Leaf axis: role in training or meals. Sports and meal-replacement products are here in every form (powders, bars, gels, ready-to-drink shakes, tablets).	8	from audit/KL_H2_tree.md		
+H2.9	H2	sub_family	H2	Contraception, barriers and breastfeeding	Leaf axis: purpose, to prevent pregnancy or infection, or to feed. Tests are in H2.1 and medicines in H2.6.	9	from audit/KL_H2_tree.md		
+H2.10	H2	sub_family	H2	First aid and wound care	Leaf axis: form of supply.	10	from audit/KL_H2_tree.md		
+H2.11	H2	sub_family	H2	Supports, braces and prostheses	Leaf axis: what the object does to the body part. Body region is part of the kind name.	11	from audit/KL_H2_tree.md		
+H2.12	H2	sub_family	H2	Parts and accessories made for one device	Leaf axis: device family served. This sub-family is exempt from the sub-family axis above.	12	from audit/KL_H2_tree.md		
+H2.1.1	H2	leaf	H2.1	Blood pressure		13	from audit/KL_H2_tree.md		
+H2.1.2	H2	leaf	H2.1	Body temperature		14	from audit/KL_H2_tree.md		
+H2.1.3	H2	leaf	H2.1	Blood glucose		15	from audit/KL_H2_tree.md		
+H2.1.4	H2	leaf	H2.1	Oxygen saturation		16	from audit/KL_H2_tree.md		
+H2.1.5	H2	leaf	H2.1	Heart rhythm		17	from audit/KL_H2_tree.md		
+H2.1.6	H2	leaf	H2.1	Infection tests		18	from audit/KL_H2_tree.md		
+H2.1.7	H2	leaf	H2.1	Fertility and pregnancy		19	from audit/KL_H2_tree.md		
+H2.1.8	H2	leaf	H2.1	Software		20	from audit/KL_H2_tree.md		
+H2.2.1	H2	leaf	H2.2	Respiratory		21	from audit/KL_H2_tree.md		
+H2.2.2	H2	leaf	H2.2	Electrotherapy and pain		22	from audit/KL_H2_tree.md		
+H2.2.3	H2	leaf	H2.2	Weighted and orthopaedic therapy aids		23	from audit/KL_H2_tree.md		
+H2.2.4	H2	leaf	H2.2	Pelvic-floor and sexual function		24	from audit/KL_H2_tree.md		
+H2.3.1	H2	leaf	H2.3	Walking aids (ordered by support given, least to most)		25	from audit/KL_H2_tree.md		
+H2.3.2	H2	leaf	H2.3	Wheeled seating		26	from audit/KL_H2_tree.md		
+H2.3.3	H2	leaf	H2.3	Transfer and access		27	from audit/KL_H2_tree.md		
+H2.4.1	H2	leaf	H2.4	Bathing		28	from audit/KL_H2_tree.md		
+H2.4.2	H2	leaf	H2.4	Toileting, continence and stoma care		29	from audit/KL_H2_tree.md		
+H2.4.3	H2	leaf	H2.4	Bed and pressure care		30	from audit/KL_H2_tree.md		
+H2.4.4	H2	leaf	H2.4	Examination and treatment furniture		31	from audit/KL_H2_tree.md		
+H2.4.5	H2	leaf	H2.4	Alerting and identification		32	from audit/KL_H2_tree.md		
+H2.5.1	H2	leaf	H2.5	Hearing (ordered behind-the-ear to canal)		33	from audit/KL_H2_tree.md		
+H2.5.2	H2	leaf	H2.5	Vision (ordered worn, then held, then on the eye, then the cane)		34	from audit/KL_H2_tree.md		
+H2.5.3	H2	leaf	H2.5	Speech and communication		35	from audit/KL_H2_tree.md		
+H2.6.1	H2	leaf	H2.6	Allergy and sinus		36	from audit/KL_H2_tree.md		
+H2.6.2	H2	leaf	H2.6	Cough, cold and flu		37	from audit/KL_H2_tree.md		
+H2.6.3	H2	leaf	H2.6	Pain and inflammation		38	from audit/KL_H2_tree.md		
+H2.6.4	H2	leaf	H2.6	Sleep		39	from audit/KL_H2_tree.md		
+H2.6.5	H2	leaf	H2.6	Sexual and reproductive health		40	from audit/KL_H2_tree.md		
+H2.6.6	H2	leaf	H2.6	Mouth and teeth		41	from audit/KL_H2_tree.md		
+H2.6.7	H2	leaf	H2.6	Digestive		42	from audit/KL_H2_tree.md		
+H2.6.8	H2	leaf	H2.6	Smoking cessation		43	from audit/KL_H2_tree.md		
+H2.7.1	H2	leaf	H2.7	Vitamins		44	from audit/KL_H2_tree.md		
+H2.7.2	H2	leaf	H2.7	Minerals		45	from audit/KL_H2_tree.md		
+H2.7.3	H2	leaf	H2.7	Botanicals		46	from audit/KL_H2_tree.md		
+H2.7.4	H2	leaf	H2.7	Other single ingredients		47	from audit/KL_H2_tree.md		
+H2.7.5	H2	leaf	H2.7	Blends		48	from audit/KL_H2_tree.md		
+H2.8.1	H2	leaf	H2.8	Protein		49	from audit/KL_H2_tree.md		
+H2.8.2	H2	leaf	H2.8	Performance		50	from audit/KL_H2_tree.md		
+H2.8.3	H2	leaf	H2.8	Hydration and energy		51	from audit/KL_H2_tree.md		
+H2.8.4	H2	leaf	H2.8	Meal replacement		52	from audit/KL_H2_tree.md		
+H2.8.5	H2	leaf	H2.8	Medical nutrition		53	from audit/KL_H2_tree.md		
+H2.9.1	H2	leaf	H2.9	Contraception and barriers		54	from audit/KL_H2_tree.md		
+H2.9.2	H2	leaf	H2.9	Breastfeeding		55	from audit/KL_H2_tree.md		
+H2.10.1	H2	leaf	H2.10	Kits		56	from audit/KL_H2_tree.md		
+H2.10.2	H2	leaf	H2.10	Dressings and bandages		57	from audit/KL_H2_tree.md		
+H2.11.1	H2	leaf	H2.11	Support		58	from audit/KL_H2_tree.md		
+H2.11.2	H2	leaf	H2.11	Replacement		59	from audit/KL_H2_tree.md		
+H2.12.1	H2	leaf	H2.12	Monitor parts		60	from audit/KL_H2_tree.md		
+H2.12.2	H2	leaf	H2.12	Glucose-monitor consumables		61	from audit/KL_H2_tree.md		
+H2.12.3	H2	leaf	H2.12	Hearing-aid parts		62	from audit/KL_H2_tree.md		
+H2.12.4	H2	leaf	H2.12	Wheelchair parts		63	from audit/KL_H2_tree.md		
+H2.12.5	H2	leaf	H2.12	Spectacle parts		64	from audit/KL_H2_tree.md		
+H2.12.6	H2	leaf	H2.12	Contact-lens care		65	from audit/KL_H2_tree.md		
+I2	I2	category				0	from audit/KL_I2_tree.md		
+I2.1	I2	sub_family	I2	Text and document files (read). No leaf. Kind axis: layout form.		1	from audit/KL_I2_tree.md		
+I2.2	I2	sub_family	I2	Audio files (heard). Leaf axis: kind of recording.		2	from audit/KL_I2_tree.md		
+I2.2.1	I2	leaf	I2.2	Music recordings		3	from audit/KL_I2_tree.md		
+I2.2.2	I2	leaf	I2.2	Spoken-word books		4	from audit/KL_I2_tree.md		
+I2.2.3	I2	leaf	I2.2	Podcast episodes		5	from audit/KL_I2_tree.md		
+I2.3	I2	sub_family	I2	Moving-image files (watched). No leaf.		6	from audit/KL_I2_tree.md		
+I2.4	I2	sub_family	I2	Still-image files (viewed). No leaf. Kind axis: file-format family.		7	from audit/KL_I2_tree.md		
+I2.5	I2	sub_family	I2	Fonts and production assets (built with). Leaf axis: asset class.		8	from audit/KL_I2_tree.md		
+I2.5.1	I2	leaf	I2.5	Fonts		9	from audit/KL_I2_tree.md		
+I2.5.2	I2	leaf	I2.5	Templates and production packs (kind axis: file kind for the target tool)		10	from audit/KL_I2_tree.md		
+I2.5.3	I2	leaf	I2.5	3D assets (kind axis: asset part)		11	from audit/KL_I2_tree.md		
+I2.5.4	I2	leaf	I2.5	Sound, preset and model assets		12	from audit/KL_I2_tree.md		
+I2.6	I2	sub_family	I2	Game and platform items (used inside a game or platform account). Leaf axis: role of the item in the game or platform account. Game, platform and rarity are not levels; item designs are named forms.		13	from audit/KL_I2_tree.md		
+I2.6.1	I2	leaf	I2.6	Character and avatar wear		14	from audit/KL_I2_tree.md		
+I2.6.2	I2	leaf	I2.6	Tools, weapons and vehicles		15	from audit/KL_I2_tree.md		
+I2.6.3	I2	leaf	I2.6	Expression		16	from audit/KL_I2_tree.md		
+I2.6.4	I2	leaf	I2.6	Containers and unlocks		17	from audit/KL_I2_tree.md		
+I2.6.5	I2	leaf	I2.6	Collectibles and profile items		18	from audit/KL_I2_tree.md		
+I2.7	I2	sub_family	I2	Names and tokens (registered). Leaf axis: register.		19	from audit/KL_I2_tree.md		
+I2.7.1	I2	leaf	I2.7	Domain names (kind axis: eligibility class of the TLD)		20	from audit/KL_I2_tree.md		
+I2.7.2	I2	leaf	I2.7	Tokens (kind axis: token form)		21	from audit/KL_I2_tree.md		
+J5	J5	category				0	from audit/KL_J5_tree.md		
+J5.1	J5	sub_family	J5	Rice, grains & flours	Leaf axis, an ordered key, first yes: (1) milled to flour or meal: Flours & meals; (2) a rice grain, whole or flattened: Rice; (3) oats, or a cereal made to eat at breakfast: Oats & breakfast cereals; (4) otherwise: Other grains, pseudo-cereals & starch pearls.	1	from audit/KL_J5_tree.md		
+J5.1.1	J5	leaf	J5.1	Rice		2	from audit/KL_J5_tree.md		
+J5.1.2	J5	leaf	J5.1	Other grains, pseudo-cereals & starch pearls		3	from audit/KL_J5_tree.md		
+J5.1.3	J5	leaf	J5.1	Oats & breakfast cereals		4	from audit/KL_J5_tree.md		
+J5.1.4	J5	leaf	J5.1	Flours & meals		5	from audit/KL_J5_tree.md		
+J5.2	J5	sub_family	J5	Pasta & noodles	Leaf axis is the dough base, an ordered key, first yes: (1) potato dough: Gnocchi; (2) buckwheat in the dough: Buckwheat noodles; (3) egg dough: Egg pasta & egg noodles; (4) rice flour or a pure starch (mung bean, potato): Rice & starch noodles; (5) durum wheat semolina, including whole-wheat durum: Durum wheat pasta; (6) soft wheat flour: Soft-wheat noodles; (7) any other flour: Other-flour pasta & noodles. Fresh or dried is an attribute. Shapes within a family (spaghetti, penne, fusilli) are named forms of the family kind; a maker line is a named form with its cut recorded.	6	from audit/KL_J5_tree.md		
+J5.2.1	J5	leaf	J5.2	Durum wheat pasta		7	from audit/KL_J5_tree.md		
+J5.2.2	J5	leaf	J5.2	Egg pasta & egg noodles		8	from audit/KL_J5_tree.md		
+J5.2.3	J5	leaf	J5.2	Soft-wheat noodles		9	from audit/KL_J5_tree.md		
+J5.2.4	J5	leaf	J5.2	Buckwheat noodles		10	from audit/KL_J5_tree.md		
+J5.2.5	J5	leaf	J5.2	Rice & starch noodles		11	from audit/KL_J5_tree.md		
+J5.2.6	J5	leaf	J5.2	Other-flour pasta & noodles		12	from audit/KL_J5_tree.md		
+J5.2.7	J5	leaf	J5.2	Gnocchi		13	from audit/KL_J5_tree.md		
+J5.3	J5	sub_family	J5	Pulses	Leaf axis is the species group. Whole or split (dal) and dried or tinned are attributes: a dried and a tinned pulse of one species are one kind. Pulses cooked plain in water or brine stay here; cooked in a seasoned sauce they are prepared food and not in J5.	14	from audit/KL_J5_tree.md		
+J5.3.1	J5	leaf	J5.3	Beans		15	from audit/KL_J5_tree.md		
+J5.3.2	J5	leaf	J5.3	Lentils		16	from audit/KL_J5_tree.md		
+J5.3.3	J5	leaf	J5.3	Peas		17	from audit/KL_J5_tree.md		
+J5.3.4	J5	leaf	J5.3	Chickpeas & other pulses		18	from audit/KL_J5_tree.md		
+J5.4	J5	sub_family	J5	Nuts & seeds	Leaf axis is the plant group. Form (in shell, shelled, blanched, flaked, ground), roasting and salting are attributes, so ground almonds are almonds. Every nut, chestnut and coconut is here. Nuts coated in chocolate, sugar or batter are not in J5.	19	from audit/KL_J5_tree.md		
+J5.4.1	J5	leaf	J5.4	Tree nuts		20	from audit/KL_J5_tree.md		
+J5.4.2	J5	leaf	J5.4	Coconut		21	from audit/KL_J5_tree.md		
+J5.4.3	J5	leaf	J5.4	Peanuts		22	from audit/KL_J5_tree.md		
+J5.4.4	J5	leaf	J5.4	Seeds		23	from audit/KL_J5_tree.md		
+J5.5	J5	sub_family	J5	Oils, fats & vinegars	Leaf axis is the kind of product: plant oil, solid fat, vinegar or cooking liquid.	25	from audit/KL_J5_tree.md		
+J5.5.1	J5	leaf	J5.5	Plant oils		26	from audit/KL_J5_tree.md		
+J5.5.2	J5	leaf	J5.5	Animal & solid cooking fats		27	from audit/KL_J5_tree.md		
+J5.5.3	J5	leaf	J5.5	Vinegars & cooking liquids		28	from audit/KL_J5_tree.md		
+J5.6	J5	sub_family	J5	Spices, herbs & salt	Leaf axis is the form of the seasoning: single spice, dried herb, blend, salt. A dried chilli, whole, flaked or ground, sold to season food is a spice.	29	from audit/KL_J5_tree.md		
+J5.6.1	J5	leaf	J5.6	Single spices		30	from audit/KL_J5_tree.md		
+J5.6.2	J5	leaf	J5.6	Dried herbs		31	from audit/KL_J5_tree.md		
+J5.6.3	J5	leaf	J5.6	Spice blends & seasoning mixes		32	from audit/KL_J5_tree.md		
+J5.6.4	J5	leaf	J5.6	Salt		33	from audit/KL_J5_tree.md		
+J5.7	J5	sub_family	J5	Sugars, honey & syrups	Leaf axis is the sweetener type.	34	from audit/KL_J5_tree.md		
+J5.7.1	J5	leaf	J5.7	Sugars		35	from audit/KL_J5_tree.md		
+J5.7.2	J5	leaf	J5.7	Honey		36	from audit/KL_J5_tree.md		
+J5.7.3	J5	leaf	J5.7	Syrups & molasses		37	from audit/KL_J5_tree.md		
+J5.8	J5	sub_family	J5	Spreads, pastes & dips	Leaf axis is the kind of spread. A spread, paste or dip eaten with other food is here whatever it is made from.	38	from audit/KL_J5_tree.md		
+J5.8.1	J5	leaf	J5.8	Sweet spreads		39	from audit/KL_J5_tree.md		
+J5.8.2	J5	leaf	J5.8	Nut & seed butters		40	from audit/KL_J5_tree.md		
+J5.8.3	J5	leaf	J5.8	Savoury spreads, pastes & dips		41	from audit/KL_J5_tree.md		
+J5.9	J5	sub_family	J5	Sauces, condiments & stocks	Leaf axis is the product type as standards and shelves class it, an ordered key, first yes: (1) a soy sauce: Soy sauces; (2) another seasoning made by fermenting beans, grain or fish: Other fermented seasonings; (3) a stock or bouillon in any form: Stocks & bouillon; (4) a paste used as a cooking ingredient: Cooking & seasoning pastes; (5) a sauce to cook with or pour over pasta: Cooking & pasta sauces; (6) otherwise: Table sauces, condiments & dressings.	42	from audit/KL_J5_tree.md		
+J5.9.1	J5	leaf	J5.9	Soy sauces		43	from audit/KL_J5_tree.md		
+J5.9.2	J5	leaf	J5.9	Other fermented seasonings		44	from audit/KL_J5_tree.md		
+J5.9.3	J5	leaf	J5.9	Cooking & pasta sauces		45	from audit/KL_J5_tree.md		
+J5.9.4	J5	leaf	J5.9	Table sauces, condiments & dressings		46	from audit/KL_J5_tree.md		
+J5.9.5	J5	leaf	J5.9	Stocks & bouillon		47	from audit/KL_J5_tree.md		
+J5.9.6	J5	leaf	J5.9	Cooking & seasoning pastes		48	from audit/KL_J5_tree.md		
+J5.10	J5	sub_family	J5	Preserved fruit & vegetables		49	from audit/KL_J5_tree.md		
+J5.10.1	J5	leaf	J5.10	Dried		50	from audit/KL_J5_tree.md		
+J5.10.2	J5	leaf	J5.10	Tinned & jarred		51	from audit/KL_J5_tree.md		
+J5.10.3	J5	leaf	J5.10	Pickled in vinegar		52	from audit/KL_J5_tree.md		
+J5.10.4	J5	leaf	J5.10	Salted, brined & fermented		53	from audit/KL_J5_tree.md		
+J5.10.5	J5	leaf	J5.10	Preserved in oil & spices		54	from audit/KL_J5_tree.md		
+J5.11	J5	sub_family	J5	Baking ingredients	Leaf axis is the function in the bake or the brew. Holds only products no other family holds; flour, sugar and nuts stay in their own families.	55	from audit/KL_J5_tree.md		
+J5.11.1	J5	leaf	J5.11	Baking & fermenting aids		56	from audit/KL_J5_tree.md		
+J5.11.2	J5	leaf	J5.11	Flavourings, extracts & colourings		57	from audit/KL_J5_tree.md		
+J5.11.3	J5	leaf	J5.11	Setting agents, starches & thickeners		58	from audit/KL_J5_tree.md		
+J5.11.4	J5	leaf	J5.11	Baking chocolate, doughs & mixes		59	from audit/KL_J5_tree.md		
+J5.12	J5	sub_family	J5	Tofu, tempeh & meat alternatives	Leaf axis is how the protein food is made, an ordered key, first yes: (1) texturised or formed to imitate a meat product: Plant-based meat analogues; (2) washed from wheat dough: Seitan & wheat gluten; (3) a whole bean fermented: Tempeh & fermented beans; (4) set as a curd: Tofu & bean-curd products. Firmness and format are attributes.	60	from audit/KL_J5_tree.md		
+J5.12.1	J5	leaf	J5.12	Tofu & bean-curd products		61	from audit/KL_J5_tree.md		
+J5.12.2	J5	leaf	J5.12	Tempeh & fermented beans		62	from audit/KL_J5_tree.md		
+J5.12.3	J5	leaf	J5.12	Seitan & wheat gluten		63	from audit/KL_J5_tree.md		
+J5.12.4	J5	leaf	J5.12	Plant-based meat analogues		64	from audit/KL_J5_tree.md		
+A2.1	A2	sub_family	A2	Sneakers and athletic-style shoes (no leaf)		1	from audit/KL_A2_tree_v2.md		
+A2.2	A2	sub_family	A2	Shoes (closed, non-athletic)	Leaf axis: closure and vamp cut. Dress-shoe kinds are set by lacing and cut.	2	from audit/KL_A2_tree_v2.md		
+A2.2.1	A2	leaf	A2.2	Fastened: laces or a buckle close the shoe over a covered instep.		3	from audit/KL_A2_tree_v2.md		
+A2.2.2	A2	leaf	A2.2	Slip-on: no fastening; the vamp covers the instep.		4	from audit/KL_A2_tree_v2.md		
+A2.2.3	A2	leaf	A2.2	Court cut and strap: a low-cut vamp leaves the instep open; the shoe is held by its cut or by a strap.		5	from audit/KL_A2_tree_v2.md		
+A2.3	A2	sub_family	A2	Boots	Leaf axis: shaft height of the kind's canonical form. A kind keeps its name when one model departs from the canonical height.	6	from audit/KL_A2_tree_v2.md		
+A2.3.1	A2	leaf	A2.3	Ankle (shaft to the ankle bone)		7	from audit/KL_A2_tree_v2.md		
+A2.3.2	A2	leaf	A2.3	Mid (above the ankle, below mid-calf)		8	from audit/KL_A2_tree_v2.md		
+A2.3.3	A2	leaf	A2.3	Calf (to the calf, below the knee)		9	from audit/KL_A2_tree_v2.md		
+A2.3.4	A2	leaf	A2.3	Knee and over-knee		10	from audit/KL_A2_tree_v2.md		
+A2.4	A2	sub_family	A2	Sandals and open footwear (no leaf)		11	from audit/KL_A2_tree_v2.md		
+A2.5	A2	sub_family	A2	Slippers (soft, unstructured footwear without a rigid or moulded outsole: the sole is a thin, flexible layer of felt, fabric, leather, suede, foam or thin rubber; no leaf)		12	from audit/KL_A2_tree_v2.md		
+A2.6	A2	sub_family	A2	Over-footwear (worn over another shoe to cover the foot; no leaf)		13	from audit/KL_A2_tree_v2.md		
+A2.7	A2	sub_family	A2	Parts and accessories made for one pair of shoes (no leaf)		14	from audit/KL_A2_tree_v2.md		
+C1.1.1	C1	leaf	C1.1	Saws		2	from audit/KL_C1_tree.md		
+C1.1.2	C1	leaf	C1.1	Knives & multi-tools		3	from audit/KL_C1_tree.md		
+C1.1.3	C1	leaf	C1.1	Axes & splitting tools		4	from audit/KL_C1_tree.md		
+C1.2.1	C1	leaf	C1.2	Drills		6	from audit/KL_C1_tree.md		
+C1.2.2	C1	leaf	C1.2	Screwdrivers & drivers		7	from audit/KL_C1_tree.md		
+C1.2.3	C1	leaf	C1.2	Spanners, wrenches & sockets		8	from audit/KL_C1_tree.md		
+C1.3.1	C1	leaf	C1.3	Planes & planers		10	from audit/KL_C1_tree.md		
+C1.3.2	C1	leaf	C1.3	Chisels, gouges & mortisers		11	from audit/KL_C1_tree.md		
+C1.3.3	C1	leaf	C1.3	Files, rasps & sharpening		12	from audit/KL_C1_tree.md		
+C1.3.4	C1	leaf	C1.3	Grinders, sanders & polishers		13	from audit/KL_C1_tree.md		
+C1.3.5	C1	leaf	C1.3	Routers & moulders		14	from audit/KL_C1_tree.md		
+C1.3.6	C1	leaf	C1.3	Lathes, mills & presses		15	from audit/KL_C1_tree.md		
+C1.3.7	C1	leaf	C1.3	Surface preparation & decorating brushes		16	from audit/KL_C1_tree.md		
+C1.4.1	C1	leaf	C1.4	Hammers & mallets		18	from audit/KL_C1_tree.md		
+C1.4.2	C1	leaf	C1.4	Pry bars & wreckers		19	from audit/KL_C1_tree.md		
+C1.4.3	C1	leaf	C1.4	Nailers, staplers & riveters		20	from audit/KL_C1_tree.md		
+C1.5.1	C1	leaf	C1.5	Welders		22	from audit/KL_C1_tree.md		
+C1.5.2	C1	leaf	C1.5	Soldering & brazing		23	from audit/KL_C1_tree.md		
+C1.5.3	C1	leaf	C1.5	Glue & heat guns		24	from audit/KL_C1_tree.md		
+C1.7.1	C1	leaf	C1.7	Length & level		27	from audit/KL_C1_tree.md		
+C1.7.2	C1	leaf	C1.7	Precision gauging		28	from audit/KL_C1_tree.md		
+C1.7.3	C1	leaf	C1.7	Marking & layout		29	from audit/KL_C1_tree.md		
+C1.7.4	C1	leaf	C1.7	Test & inspection		30	from audit/KL_C1_tree.md		
+C1.8.1	C1	leaf	C1.8	Ladders		32	from audit/KL_C1_tree.md		
+C1.8.2	C1	leaf	C1.8	Jacks, hoists & winches (tools made to service a vehicle, bicycle or machine)		33	from audit/KL_C1_tree.md		
+C1.8.3	C1	leaf	C1.8	Hand trucks & carts		34	from audit/KL_C1_tree.md		
+C1.8.4	C1	leaf	C1.8	Earth-moving & site machines (self-propelled machine made to dig, lift, load or move material)		35	from audit/KL_C1_tree.md		
+C1.9.1	C1	leaf	C1.9	Generators		37	from audit/KL_C1_tree.md		
+C1.9.2	C1	leaf	C1.9	Compressed air		38	from audit/KL_C1_tree.md		
+C1.9.3	C1	leaf	C1.9	Pumps		39	from audit/KL_C1_tree.md		
+C1.9.4	C1	leaf	C1.9	Cordless platform batteries & chargers		40	from audit/KL_C1_tree.md		
+C1.12.1	C1	leaf	C1.12	Drill and driver bits		44	from audit/KL_C1_tree.md		
+C1.12.2	C1	leaf	C1.12	Saw blades		45	from audit/KL_C1_tree.md		
+C1.12.3	C1	leaf	C1.12	Abrasives cut for one power tool		46	from audit/KL_C1_tree.md		
+C1.12.4	C1	leaf	C1.12	Welding and soldering consumables		47	from audit/KL_C1_tree.md		
+C1.12.5	C1	leaf	C1.12	Press tooling		48	from audit/KL_C1_tree.md		

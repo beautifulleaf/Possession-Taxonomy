@@ -1,0 +1,10 @@
+STAGE 3 PILOT, TREE STEP (offline: no web, no git). For one category, write its decided tree with stable kind ids, as the input to the harvest.
+RESUME RULE: the output is written in full at the end; if it exists, stop. Helper files only in verify/work/TREE_<CODE>/.
+Read framework/structure/<CODE>.md sections 3, 4b, 9, 10 and 12 (the decided tree and its rules; section 12 overrides earlier sections where they differ) and framework/structure/decisions/D4_residual.md R-58 (id scheme). Use audit/KL_A2_tree_v2.md only as a format example.
+Write verify/out/TREE_<CODE>.md in exactly that format:
+- Title line, a category paragraph, and the line "Ids (R-58): <CODE>.n is a sub-family and <CODE>.n.m a leaf; a kind is <CODE>.n.m.kk, or <CODE>.n.kk where a sub-family has no leaf."
+- "## <CODE>.n <name>" per sub-family in the memo's order, with its leaf axis line; "### <CODE>.n.m <name>" per leaf (only where the memo has leaves); then one line per kind: "- <id> <kind name>: <one-line definition>". Kinds are numbered 01, 02 ... in the memo's order inside their parent. A final "mixed" kind with leaf = null uses leaf 0 (<CODE>.n.0.01).
+- Mark a kind the memo marks † by ending its line with " †". Keep native names in brackets after the kind name where the memo gives them.
+- No named forms, no makers, no sources, no evidence. Then "## Precedence inside <CODE>" with the memo's in-category precedence sentences, rewritten to cite the new ids where they name kinds.
+Also write verify/out/TREE_<CODE>_map.tsv with columns kind_id, kind, memo_ref (the memo's own number or label for the kind, if any).
+Report: counts of sub-families, leaves and kinds, and any memo kind you could not place (with the reason).
