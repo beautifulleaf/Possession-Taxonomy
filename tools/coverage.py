@@ -2,8 +2,11 @@
 usage: coverage.py [CODE]   (default A1) -> prints brands linked to the category per region and per country,
 and writes verify/out/coverage_<CODE>.tsv (region, country, brands). A maker counts for the category when a
 named form or maker_kinds row sits under one of its kinds, a line spans one of its kinds, or (A1 only) it has a
-scene tag. Makers without a country are counted as "unknown country" so the gap stays visible."""
-import sys
+scene tag. Makers without a country are counted as "unknown country" so the gap stays visible.
+With verify/out/coverage_reference_<CODE>.tsv (tools/coverage_ref.py, R-78) it also prints, per region and country,
+the actual share, the expected share and their ratio, and flags each country expected to hold at least 0.5 % of
+brands whose ratio is below 0.5 (owner principle: coverage proportional to the world's distribution)."""
+import math, sys
 from collections import Counter, defaultdict
 from common import ROOT, read_tsv, write_tsv
 from regions import REGIONS, REGION_OF, country
@@ -32,9 +35,31 @@ def main():
     for r in list(REGIONS) + ["other"]:
         cs = sorted(((c, n) for c, n in by_c.items() if REGION_OF.get(c, "other") == r), key=lambda x: -x[1])
         print(f"  {r:28s} {by_r[r]:5d}   " + ", ".join(f"{c} {n}" for c, n in cs[:12]))
-    rows = [{"region": REGION_OF.get(c, "other"), "country": c, "brands": n} for c, n in by_c.most_common()]
+    ref_p = ROOT / f"verify/out/coverage_reference_{code}.tsv"
+    ref = {r["country"]: float(r["expected_share"]) for r in read_tsv(ref_p)} if ref_p.exists() else {}
+    known = sum(by_c.values()) or 1
+    share = lambda n: n / known
+    ratio = lambda a, e: (a / e) if e else None
+    rows = []
+    for c in sorted(set(by_c) | set(ref), key=lambda c: (-by_c[c], c)):
+        a, e = share(by_c[c]), ref.get(c, 0.0); q = ratio(a, e)
+        flag = "LOW" if (e >= 0.005 and q is not None and q < 0.5) else ""
+        rows.append({"region": REGION_OF.get(c, "other"), "country": c, "brands": by_c[c], "share": f"{a:.4f}",
+                     "expected": f"{e:.4f}" if ref else "", "ratio": f"{q:.2f}" if q is not None else "", "flag": flag,
+                     "needed_for_half": max(0, math.ceil((0.5 * e * known - by_c[c]) / (1 - 0.5 * e))) if flag else ""})
     rows.append({"region": "unknown", "country": "", "brands": unknown})
-    write_tsv(ROOT / f"verify/out/coverage_{code}.tsv", rows, ["region", "country", "brands"])
+    write_tsv(ROOT / f"verify/out/coverage_{code}.tsv", rows,
+              ["region", "country", "brands", "share", "expected", "ratio", "flag", "needed_for_half"])
+    if ref:
+        print(f"\nAgainst the reference ({len(ref)} countries; actual share of the {known} brands with a country):")
+        print(f"  {'region':28s} {'actual':>7s} {'expected':>8s} {'ratio':>6s}")
+        for r in list(REGIONS) + ["other"]:
+            e = sum(v for c, v in ref.items() if REGION_OF.get(c, "other") == r); a = share(by_r[r]); q = ratio(a, e)
+            print(f"  {r:28s} {100 * a:6.1f}% {100 * e:7.1f}% {q:6.2f}" if q is not None else f"  {r:28s} {100 * a:6.1f}%        -")
+        flagged = [x for x in rows if x.get("flag")]
+        print(f"\n  {len(flagged)} countries flagged (expected >= 0.5 %, ratio < 0.5):")
+        for x in sorted(flagged, key=lambda x: float(x["ratio"])):
+            print(f"    {x['country']}  brands {x['brands']:>5}  actual {100 * float(x['share']):5.2f}%  expected {100 * float(x['expected']):5.2f}%  ratio {x['ratio']}  (+{x['needed_for_half']} brands to reach 0.5)")
 
 if __name__ == "__main__":
     main()
