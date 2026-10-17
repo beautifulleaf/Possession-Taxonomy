@@ -1,6 +1,6 @@
 maker_id	name	native_name	maker_class	supply_role	country	place	founded	ended	status	parent_id	licensor_id	authority_id	school_ids	extension	notes	sources	fetch_status
-M-tp-link	TP-Link		house or manufacture						active						routers, access points, unmanaged switches	https://www.tp-link.com/us/home-networking/all-router/ | https://www.tp-link.com/us/home-networking/access-point/ | https://www.tp-link.com/us/business-networking/soho-switch-unmanaged/	full | full | full
-M-ubiquiti	Ubiquiti (UniFi)		house or manufacture						active						UniFi WiFi access points	https://www.ui.com/wifi/flagship	full
+M-tp-link	TP-Link		house or manufacture						active						routers, access points, unmanaged switches; listed under routers on Wikipedia networking hardware list	https://www.tp-link.com/us/home-networking/all-router/ | https://www.tp-link.com/us/home-networking/access-point/ | https://www.tp-link.com/us/business-networking/soho-switch-unmanaged/ | https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full | full | full | full
+M-ubiquiti	Ubiquiti (UniFi)		house or manufacture						active						UniFi WiFi access points; listed under routers on Wikipedia networking hardware list	https://www.ui.com/wifi/flagship | https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full | full
 M-cyberpower	CyberPower Systems		house or manufacture						active						UPS systems	https://www.cyberpowersystems.com/product/ups/pfc-sinewave/cp1500pfclcd/	full
 M-eaton	Eaton		house or manufacture						active						UPS (5S line)	https://www.eaton.com/sg/en-us/catalog/backup-power-ups-surge-it-power-distribution/eaton-5s-ups.html	full
 M-apc	APC (Schneider Electric)		house or manufacture						active						Back-UPS and Smart-UPS	https://www.se.com/us/en/product/BX1500M/apc-backups-pro-1500va-900w-tower-120v-10-nema-515r-outlets-avr-lcd/	full
@@ -53,9 +53,9 @@ M-arduino	Arduino		house or manufacture						active						UNO boards	https://www.
 M-bourns	Bourns		supplier						active						resistor maker named by Mouser	https://www.mouser.com/c/passive-components/resistors/	full
 M-koa-speer	KOA Speer		supplier						active						resistors	https://www.mouser.com/c/passive-components/resistors/	full
 M-ohmite	Ohmite		supplier						active						resistors	https://www.mouser.com/c/passive-components/resistors/	full
-M-panasonic	Panasonic		supplier						active						resistors	https://www.mouser.com/c/passive-components/resistors/	full
+M-panasonic	Panasonic		supplier						active						resistors; aluminum electrolytic capacitor ECA-1EHG472	https://www.mouser.com/c/passive-components/resistors/ | https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full | full
 M-sei-stackpole	SEI Stackpole		supplier						active						resistors	https://www.mouser.com/c/passive-components/resistors/	full
-M-vishay	Vishay		supplier						active						resistors	https://www.mouser.com/c/passive-components/resistors/	full
+M-vishay	Vishay		supplier						active						resistors; aluminum electrolytic capacitors	https://www.mouser.com/c/passive-components/resistors/ | https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full | full
 M-yageo	Yageo		supplier						active						resistors	https://www.mouser.com/c/passive-components/resistors/	full
 M-te-connectivity	TE Connectivity		supplier						active						resistors, connectors	https://www.mouser.com/c/passive-components/resistors/ | https://www.mouser.com/electronic-components/	full | full
 M-sparkfun	SparkFun Electronics		house or manufacture						active						resistor kits	https://core-electronics.com.au/resistor-kit-1-4w-500-total.html.plain.md | https://www.robotshop.com/products/1-4w-resistor-kit-500pk	full | full
@@ -67,7 +67,7 @@ M-infineon	Infineon		supplier						active						IRF540N MOSFET listed with IR and
 M-hp	HP		house or manufacture						active						ink cartridges, laptop batteries	https://www.jbhifi.co.nz/products/hp-62-black-original-ink-cartridge | https://microcenter.com/site/products/all-laptop-batteries.aspx	full | full
 M-brother	Brother		house or manufacture						active						toner cartridges	https://Quill.com/brother-tn-760-black-high-yield-toner-cartridge-2-pack-tn7602pk/cbs/55371054.html	full
 M-polymaker	Polymaker		house or manufacture						active						PLA filament	https://shop.polymaker.com/fr/collections/filament-pla?page=1	full
-M-dell	Dell		house or manufacture						active						laptop AC adapters, batteries	https://ldlc.com/en/product/PB00495610.html | https://microcenter.com/site/products/all-laptop-batteries.aspx	full | full
+M-dell	Dell		house or manufacture						active						laptop AC adapters, batteries; listed under routers on Wikipedia networking hardware list	https://ldlc.com/en/product/PB00495610.html | https://microcenter.com/site/products/all-laptop-batteries.aspx | https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full | full | full
 M-thule	Thule		house or manufacture						active						laptop sleeves	https://www.thule.com/en-us/laptop-bags-sleeves/laptop-sleeves-and-cases/thule-gauntlet-macbook-pro-sleeve-14-_-3204903	full
 M-ergotron	Ergotron		house or manufacture						active						monitor arms	https://www.markertek.com/product/ergo-45-695-292/ergotron-45-695-292-lx-pro-arm-single-monitor-desk-mount-with-12-inch-pole-2-piece-clamp-black	full
 M-alienware	Alienware		house or manufacture						active						cooling pad for Alienware laptops named on Dell page	https://www.dell.com/en-us/shopping/laptop-cooling-pads	partial
@@ -110,3 +110,108 @@ M-meletrix	Meletrix		house or manufacture						active						keycap sets	https://m
 M-yunzii	Yunzii		house or manufacture						active						keycap sets	https://mechanicalkeyboards.com/pages/keycap-brands	full
 M-click-inc	Click Inc		house or manufacture						active						keycap sets	https://mechanicalkeyboards.com/pages/keycap-brands	full
 M-vividkey	Vividkey		house or manufacture						active						keycap sets	https://mechanicalkeyboards.com/pages/keycap-brands	full
+M-adtran	ADTRAN		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-aerohive-networks	Aerohive Networks		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-alaxala-networks	Alaxala Networks		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-allied-telesis	Allied Telesis		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-alcatel-lucent-enterprise	Alcatel Lucent Enterprise		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-arcadyan	Arcadyan		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-arris-international	Arris International		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-aruba-networks	Aruba Networks		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-asus	Asus		house or manufacture						active						listed under routers on Wikipedia networking hardware list; routers, ROG Cat7 cable	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers | https://asus.com/sg/networking-iot-servers/wifi-7/all-series	full | full
+M-avaya	Avaya		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-avm	AVM		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-barracuda-networks	Barracuda Networks		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-brocade	Brocade		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-digi-international	Digi International		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-draytek	DrayTek		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-d-link	D-Link		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-eci-telecom	ECI Telecom		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-enterasys	Enterasys		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-ericsson	Ericsson		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-extreme-networks	Extreme Networks		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-fiberhome	FiberHome		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-fortinet	Fortinet		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-hpe	HPE		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-hisense-broadband	Hisense Broadband		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-huawei	Huawei		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-juniper-networks	Juniper Networks		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-linksys	Linksys		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-meraki	Meraki		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-mikrotik	MikroTik		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-mitsubishi	Mitsubishi		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-motorola	Motorola		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-nec	NEC		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-netgear	Netgear		house or manufacture						active						listed under routers on Wikipedia networking hardware list; Nighthawk routers, cable modems, extenders	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers | https://www.netgear.com/hk-en/home/wifi/routers/nighthawk/	full | full
+M-nokia	Nokia		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-open-mesh	Open Mesh		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-qnap-systems	QNAP Systems		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-rad-data-communications	RAD Data Communications		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-ribbon-communications	Ribbon Communications		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-rohde-schwarz	Rohde & Schwarz		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-ruckus-networks	Ruckus Networks		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-ruijie-networks	Ruijie Networks		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-sagemcom	Sagemcom		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-sierra-wireless	Sierra Wireless		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-silver-peak	Silver Peak		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-technicolor	Technicolor		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-telco-systems	Telco Systems		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-teltonika	Teltonika		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-trendnet	TRENDnet		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-usrobotics	USRobotics		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-xiaomi	Xiaomi		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-xirrus	Xirrus		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-yamaha	Yamaha		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-zte	ZTE		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-zyxel	ZyXEL		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-airpro	AirPro		house or manufacture						active						listed under network switches or wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-amg-systems	AMG Systems		house or manufacture						active						listed under network switches or wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-arista-networks	Arista Networks		house or manufacture						active						listed under network switches or wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-ciena	Ciena		house or manufacture						active						listed under network switches or wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-cisco-systems	Cisco Systems		house or manufacture						active						listed under network switches or wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-control4	Control4		house or manufacture						active						listed under network switches or wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-engenius	EnGenius		house or manufacture						active						listed under network switches or wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-mellanox	Mellanox		house or manufacture						active						listed under network switches or wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-teledata-networks	Teledata Networks		house or manufacture						active						listed under network switches or wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-alvarion	Alvarion		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-belkin	Belkin		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-buffalo-technology	Buffalo Technology		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-ceragon	Ceragon		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-commscope	CommScope		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-meru	Meru		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-proxim	Proxim		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-siae-microelettronica	Siae Microelettronica		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-samsung	Samsung		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-siklu	Siklu		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-watchguard	WatchGuard		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-sapphire	Sapphire		house or manufacture						active						FS-FP5V single board computer on Board-DB	https://hackerboards.com/?gpu=Vega	partial
+M-verifone	Verifone		house or manufacture						active						countertop payment devices and PIN pads	https://www.verifone.com/en-us/product-type/countertop	full
+M-ingenico	Ingenico		house or manufacture						active						countertop and PIN pad payment terminals, card readers	https://ingenico.com/en/products-services/payment-terminals/countertop-pin-pad	full
+M-trezor	Trezor		house or manufacture						active						hardware wallets	https://trezor.io/store	full
+M-unexpected-maker	Unexpected Maker		independent						active						FeatherS3[D] sold on Adafruit	https://www.adafruit.com/category/943	full
+M-nichicon	Nichicon		supplier						active						aluminum electrolytic capacitors	https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full
+M-rubycon	Rubycon		supplier						active						aluminum electrolytic capacitors	https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full
+M-united-chemi-con	United Chemi-Con		supplier						active						aluminum electrolytic capacitors	https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full
+M-elna-america	Elna America		supplier						active						aluminum electrolytic capacitors	https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full
+M-kemet	KEMET		supplier						active						aluminum electrolytic capacitors	https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full
+M-kyocera-avx	KYOCERA AVX		supplier						active						aluminum electrolytic capacitors	https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full
+M-exxelia	EXXELIA		supplier						active						aluminum electrolytic capacitors	https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full
+M-man-yue	Man Yue		supplier						active						aluminum electrolytic capacitors	https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full
+M-epcos-tdk	EPCOS - TDK Electronics		supplier						active						aluminum electrolytic capacitors	https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full
+M-canon	Canon		house or manufacture						active						ink cartridges	https://www.staples.ca/products/222447-en-canon-pg-245-black-ink-cartridge	full
+M-epson	Epson		house or manufacture						active						ink bottles	https://www.quill.com/epson-ecotank-ink-bottle-black/cbs/54481746.html?&m=866891	full
+M-sunlu	Sunlu		house or manufacture						active						PLA and PETG filament	https://www.makerlab.ph/collections/3d-filaments?page=3	full
+M-creality	Creality		house or manufacture						active						Soleyin Ultra PLA filament	https://www.makerlab.ph/collections/3d-filaments?page=3	full
+M-esun	eSUN		house or manufacture						active						3D printer filament	https://www.makerlab.ph/collections/3d-filaments?page=3	full
+M-bambu-lab	Bambu Lab		house or manufacture						active						ABS filament	https://www.makerlab.ph/collections/3d-filaments?page=3	full
+M-elegoo	Elegoo		house or manufacture						active						filament listed at 3DJake	https://3djake.ch/en-CH/3d-printer-filaments/refill-pla-filament	partial
+M-targus	Targus		house or manufacture						active						laptop cooling pads	https://www.quill.com/laptop-cooling-pads/cbk/108343.html?page=2 | https://www.newegg.com/global/sa-en/Laptop-Cooling-Pads/SubCategory/ID-319/Page-2	full | full
+M-enhance	Enhance		house or manufacture						active						laptop cooling pads	https://www.quill.com/laptop-cooling-pads/cbk/108343.html?page=2	full
+M-cooler-master	Cooler Master		house or manufacture						active						laptop cooling pads	https://www.newegg.com/global/sa-en/Laptop-Cooling-Pads/SubCategory/ID-319/Page-2	full
+M-purely	Purely		house or manufacture						active						laptop cooling stands	https://www.quill.com/laptop-cooling-pads/cbk/108343.html?page=2	full
+M-thermaltake	Thermaltake		house or manufacture						active						laptop cooling pads	https://www.newegg.com/global/sa-en/Laptop-Cooling-Pads/SubCategory/ID-319/Page-2	full
+M-msi	MSI		house or manufacture						active						laptop cooling pads	https://www.newegg.com/global/sa-en/Laptop-Cooling-Pads/SubCategory/ID-319/Page-2	full
+M-amer-mounts	Amer Mounts		house or manufacture						active						laptop cooling pads	https://www.newegg.com/global/sa-en/Laptop-Cooling-Pads/SubCategory/ID-319/Page-2	full
+M-hypergear	HyperGear		house or manufacture						active						laptop cooling pads	https://www.newegg.com/global/sa-en/Laptop-Cooling-Pads/SubCategory/ID-319/Page-2	full
+M-arctic	ARCTIC		house or manufacture						active						laptop cooling pads	https://www.newegg.com/global/sa-en/Laptop-Cooling-Pads/SubCategory/ID-319/Page-2	full
+M-mount-it	Mount-It!		house or manufacture						active						laptop stand with cooling fans	https://www.quill.com/laptop-cooling-pads/cbk/108343.html?page=2	full
