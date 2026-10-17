@@ -1,6 +1,6 @@
 # S3C_A1S: fashion subcultures and their brands (A1-A4, scene tags C8)
 
-43 rows, 33 distinct fetched sources (A1 33 rows, A2 4, A3 3, A4 3). Japanese: 9 sources; Korean: 3 (KREAM, Global MUSINSA, via ZOZO K-FASHION lead); Chinese: 5. Every URL was fetched through mcp__Parallel_Auth__web_fetch (allow_live_fetch on). Namu Wiki (分류:대한민국의 패션 브랜드) was blocked as an IDC address and returned no content, so it is not kept. Mercari JP brand index and Grailed designers index are kept but rendered empty (script-loaded).
+43 rows, 33 distinct fetched sources (A1 33 rows, A2 4, A3 3, A4 3). Japanese-language: 9 sources; Korean: 2 (KREAM, Global MUSINSA); Chinese-language: 3 (CNPP, two Baidu Baike pages) plus one English-language Chinese lolita list (Stephano). Every URL was fetched through mcp__Parallel_Auth__web_fetch (allow_live_fetch on). Namu Wiki (分류:대한민국의 패션 브랜드) was blocked as an IDC address and returned no content, so it is not kept. Mercari JP brand index and Grailed designers index are kept but rendered empty (script-loaded).
 
 Format per scene: anchor source to harvest first; gaps no fetched catalogue covers.
 
