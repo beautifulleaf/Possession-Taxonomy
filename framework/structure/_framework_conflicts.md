@@ -7,3 +7,4 @@ Logged for the next framework revision; not yet applied.
 - **Animal kind as first axis in B10** (flagged by B10): retail opens with the animal, but Appendix A lists 'user' as a modifier. Owner question: allow the kind of animal served as B10's first axis.
 - **Pool pumps** (flagged by C2): step 29 lists pool pumps under C2 while S3 could send a pump made for one pool system to that system; harmless because both are C2.
 - **Candle-making, resin, glass and basketry crafts** (flagged by C4): the C4 test names textile, fibre, paper, bead, clay, paint and model crafts only, so these supplies have no home. Fix: add 'candle and soap making, resin, glass and basketry' to step 28's list.
+- **Worn optical instruments** (flagged by C6): step 17 (worn or carried) runs before step 23 (observe, magnify, measure), so head-worn magnifiers and binocular loupes can land in A4 eyewear. Fix: add 'head-worn magnifiers and loupes are C6' to the A4 branch note.
