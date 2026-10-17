@@ -52,7 +52,17 @@ def main():
                        "country": makers[m]["country"], "src": srcs(makers[m]), "kinds": sorted(mk_kinds[m])}
                    for m in sorted(used) if m in makers},
         "ledger": len([m for m in makers.values()]),
+        "scenes": [{"id": x["scene_id"], "name": x["name"], "native": x["native_name"], "cluster": x["cluster"],
+                    "parent": x["parent_id"], "desc": x["description"], "def": x["definition_source"]}
+                   for x in read_tsv(ROOT / "data/scenes.tsv")],
+        "tags": [{"maker": t["subject_id"], "scene": t["scene_id"], "strength": t["strength"], "src": srcs(t)}
+                 for t in read_tsv(ROOT / "data/scene_tags.tsv") if t["subject_type"] == "maker"],
     }
+    for t in data["tags"]:  # makers known only through a scene tag still need a ledger entry on the page
+        m = t["maker"]
+        if m not in data["makers"] and m in makers:
+            data["makers"][m] = {"name": makers[m]["name"], "native": makers[m]["native_name"], "cls": makers[m]["maker_class"],
+                                 "country": makers[m]["country"], "src": srcs(makers[m]), "kinds": sorted(mk_kinds[m])}
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     page = TEMPLATE.replace("__DATA__", blob)
     OUT.parent.mkdir(exist_ok=True)
@@ -142,6 +152,20 @@ table.mk { border-collapse: collapse; width: 100%; font: 13px/1.4 var(--display)
 .mk th { font: 600 11px/1.3 var(--mono); text-transform: uppercase; letter-spacing: .05em; color: var(--muted); background: var(--bg); position: sticky; top: 0; }
 .mk td:first-child { font-weight: 600; }
 .more { font: 600 13px/1 var(--display); margin-top: 12px; padding: 9px 14px; border-radius: 6px; border: 1px solid var(--rule); background: var(--surface); color: var(--fg); cursor: pointer; }
+.modes { display: flex; gap: 4px; margin: 0 0 16px; }
+.modes button { font: 600 13px/1 var(--display); padding: 8px 12px; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); color: var(--fg); cursor: pointer; }
+.modes button[aria-pressed="true"] { background: var(--fg); border-color: var(--fg); color: var(--surface); }
+h2.cl { font: 700 24px/1.2 var(--display); text-wrap: balance; margin: 30px 0 4px; padding-top: 12px; border-top: 2px solid var(--fg); }
+.scene { margin: 18px 0 8px; }
+.scene h3 { font: 650 17px/1.3 var(--display); color: var(--accent); margin: 0 0 2px; display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; }
+.scene p { margin: 0 0 8px; font: 14px/1.5 var(--body); max-width: 70ch; }
+.brands { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 6px; }
+details.brand { background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; min-width: 0; }
+details.brand > summary { cursor: pointer; padding: 7px 10px; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; list-style: none; font: 600 14px/1.3 var(--display); }
+details.brand > summary::-webkit-details-marker { display: none; }
+details.brand.core { border-left: 3px solid var(--accent); }
+.bbody { padding: 0 10px 10px; display: grid; gap: 8px; font: 13px/1.45 var(--display); }
+.sub { color: var(--muted); font: 12px/1.3 var(--mono); }
 @media (max-width: 860px) {
   .wrap { grid-template-columns: minmax(0, 1fr); gap: 16px; }
   nav.rail { position: static; max-height: 220px; border: 1px solid var(--rule); border-radius: 8px; padding: 12px; background: var(--surface); }
@@ -167,6 +191,8 @@ table.mk { border-collapse: collapse; width: 100%; font: 13px/1.4 var(--display)
   const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } };
   const srcList = src => $('div', { class: 'srcs' }, src.map(([u, f]) => $('a', { class: 'src' + (f === 'partial' ? ' part' : ''), href: u, target: '_blank', rel: 'noopener' }, host(u), $('i', { text: f }))));
   let view = 'A1';
+  let mode = {};  // per category: 'scene' or 'tree'
+  const hasScenes = code => D.tags.length && D.scenes.some(x => (x.cluster || '') !== '') && code === 'A1';
   const tabs = document.getElementById('tabs');
   [...D.codes.map(c => [c.code, c.code + ' ' + c.name]), ['makers', 'Makers']].forEach(([k, label]) => {
     const b = $('button', { type: 'button', role: 'tab', 'data-v': k, text: label });
@@ -231,6 +257,48 @@ table.mk { border-collapse: collapse; width: 100%; font: 13px/1.4 var(--display)
     rail.append($('h2', { text: code + ' sub-families' }), ol);
   }
 
+  function renderScenes(code) {
+    const main = document.getElementById('main'), rail = document.getElementById('rail');
+    const kinds = new Map(D.kinds.filter(k => k.code === code).map(k => [k.id, k]));
+    const piecesOf = m => D.nfs.filter(n => n.maker === m && kinds.has(n.kind));
+    const tagsOf = m => D.tags.filter(t => t.maker === m);
+    const sceneName = id => (D.scenes.find(x => x.id === id) || {}).name || id;
+    const clusters = [...new Set(D.scenes.map(x => x.cluster).filter(Boolean))];
+    const brandsIn = new Set(D.tags.map(t => t.maker));
+    main.append($('div', { class: 'stats' }, [[clusters.length, 'scene clusters'], [D.scenes.length, 'scenes'], [brandsIn.size, 'brands placed in a scene'], [D.tags.length, 'scene tags']]
+      .map(([n, l]) => $('div', {}, $('b', { text: n.toLocaleString('en') }), $('span', { text: l })))));
+    main.append($('p', { class: 'note', text: 'Clothing by scene: each scene is defined on a fetched page; each brand is placed in it on a fetched page, as core (defining the scene) or adjacent (worn in it). A brand can sit in several scenes. Open a brand for its signature pieces and its other scenes. The garment tree is under "By garment".' }));
+    const ol = $('ol');
+    clusters.forEach(cl => {
+      const sc = D.scenes.filter(x => x.cluster === cl);
+      const cid = 'cl-' + cl.replace(/[^A-Za-z0-9]+/g, '-');
+      ol.append($('li', {}, $('a', { href: '#' + cid }, cl, $('span', { text: sc.length }))));
+      main.append($('h2', { class: 'cl', id: cid, text: cl }));
+      sc.forEach(x => {
+        const tags = D.tags.filter(t => t.scene === x.id).sort((a, b) => (a.strength !== 'core') - (b.strength !== 'core') || mname(a.maker).localeCompare(mname(b.maker)));
+        const box = $('section', { class: 'scene', id: 's-' + x.id });
+        box.append($('h3', {}, x.name + (x.native ? ' [' + x.native + ']' : ''), x.parent ? $('span', { class: 'sub', text: 'in ' + sceneName(x.parent) }) : null,
+          $('span', { class: 'sub', text: tags.filter(t => t.strength === 'core').length + ' core · ' + tags.filter(t => t.strength !== 'core').length + ' adjacent' })));
+        if (x.desc) box.append($('p', { text: x.desc }));
+        if (x.def) box.append($('div', { class: 'srcs' }, $('a', { class: 'src', href: x.def, target: '_blank', rel: 'noopener' }, 'defined on ' + host(x.def))));
+        const grid = $('div', { class: 'brands' });
+        tags.forEach(t => {
+          const pcs = piecesOf(t.maker), other = tagsOf(t.maker).filter(o => o.scene !== x.id);
+          const body = $('div', { class: 'bbody' });
+          body.append($('div', {}, $('div', { class: 'label', text: 'Placed in this scene by' }), srcList(t.src)));
+          if (pcs.length) body.append($('div', {}, $('div', { class: 'label', text: 'Signature pieces' }), $('div', { class: 'nfs' }, pcs.map(n => $('a', { class: 'nf', href: (n.src[0] || [])[0] || '#', target: '_blank', rel: 'noopener' }, n.name, $('small', { text: (kinds.get(n.kind) || {}).name || n.kind }))))));
+          if (other.length) body.append($('div', {}, $('div', { class: 'label', text: 'Also in' }), $('div', { class: 'nfs' }, other.map(o => $('a', { class: 'nf', href: '#s-' + o.scene }, sceneName(o.scene), $('small', { text: o.strength }))))));
+          const d = $('details', { class: 'brand' + (t.strength === 'core' ? ' core' : '') }, $('summary', {}, $('span', { text: mname(t.maker) }), $('span', { class: 'sub', text: t.strength + (pcs.length ? ' · ' + pcs.length : '') })), body);
+          d.dataset.text = (mname(t.maker) + ' ' + x.name + ' ' + cl + ' ' + pcs.map(n => n.name).join(' ')).toLowerCase();
+          grid.append(d);
+        });
+        box.append(grid); box.dataset.text = (x.name + ' ' + cl + ' ' + (x.desc || '')).toLowerCase();
+        main.append(box);
+      });
+    });
+    rail.append($('h2', { text: 'Scene clusters' }), ol);
+  }
+
   function renderMakers() {
     const main = document.getElementById('main'), rail = document.getElementById('rail');
     const ids = Object.keys(D.makers).sort((a, b) => D.makers[a].name.localeCompare(D.makers[b].name));
@@ -260,6 +328,11 @@ table.mk { border-collapse: collapse; width: 100%; font: 13px/1.4 var(--display)
       else { main._tbody.replaceChildren(...main._allRows.slice(0, 200)); main._more.hidden = main._allRows.length <= 200; }
       return;
     }
+    main.querySelectorAll('section.scene').forEach(sec => {
+      let any = false;
+      sec.querySelectorAll('details.brand').forEach(d => { const hit = !q || d.dataset.text.includes(q) || sec.dataset.text.includes(q); d.classList.toggle('hidden-by-search', !hit); if (hit) any = true; });
+      sec.classList.toggle('hidden-by-search', !!q && !any);
+    });
     main.querySelectorAll('details.kind').forEach(d => { const hit = !q || d.dataset.text.includes(q); d.classList.toggle('hidden-by-search', !hit); d.open = !!q && hit; });
     main.querySelectorAll('h3.leaf, h2.sf').forEach(h => {
       let n = h.nextElementSibling, any = false;
@@ -271,7 +344,16 @@ table.mk { border-collapse: collapse; width: 100%; font: 13px/1.4 var(--display)
   function render() {
     tabs.querySelectorAll('button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.v === view)));
     document.getElementById('main').replaceChildren(); document.getElementById('rail').replaceChildren();
-    if (view === 'makers') renderMakers(); else renderTree(view);
+    if (view === 'makers') renderMakers();
+    else {
+      if (hasScenes(view)) {
+        const m = mode[view] || 'scene';
+        const bar = $('div', { class: 'modes', role: 'group', 'aria-label': 'Navigate by' });
+        [['scene', 'By scene'], ['tree', 'By garment']].forEach(([k, l]) => { const b = $('button', { type: 'button', 'aria-pressed': String(m === k), text: l }); b.addEventListener('click', () => { mode[view] = k; render(); }); bar.append(b); });
+        document.getElementById('main').append(bar);
+        if (m === 'scene') renderScenes(view); else renderTree(view);
+      } else renderTree(view);
+    }
     applyFilter();
   }
   document.getElementById('q').addEventListener('input', applyFilter);
