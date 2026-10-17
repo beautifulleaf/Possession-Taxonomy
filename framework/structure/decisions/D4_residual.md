@@ -64,3 +64,4 @@ Points the memo decision pass (S2U) found that no decision in D1–D3 covers. Sa
 - **R-40** Fetch-status overrides: where a memo states that a source rendered only partly (D3 S07, the Yodobashi Audio top page) but the auto basis says "full", the stage-3 harvest re-marks the row by hand (basis "checked"). The auto value is never treated as attestation for a contested source.
 - **R-41** C13 `platform_type` gains "carrier system" (MiniDisc, HD DVD, CED, VHD, Betamax). Written into CONVENTIONS_v1. Raised by S2U_F1.
 - **R-42** F1 gains the kind "sewing or knitting pattern (paper)", provisional until attested. Single-pattern sheets and envelopes are named forms by publisher (Vogue Patterns, Burda), with no cap. Raised by S2U_F1.
+- **R-43** C13 `platform_type` gains "cartridge standard" (CIP and SAAMI designations), "rail interface" (Picatinny, M-LOK, KeyMod) and "bow cam or limb system". Written into CONVENTIONS_v1. Raised by S2U_E4.
