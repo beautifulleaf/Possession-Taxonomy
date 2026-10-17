@@ -1,0 +1,494 @@
+item	definition	expected	k_ref	why
+four dinner plates	Four matching ceramic dinner plates sold together in one box.	B5	K-1	A set of one kind is filed as that kind.
+manicure set	Zip case holding nail clippers, a file, tweezers and cuticle scissors, sold as one standard grooming kit.	H1	K-1	Standardised kit sold as one object is a kind; grooming tools.
+three-piece sofa suite	A two-seat sofa and two armchairs in matching fabric, sold as one unit.	B1	K-1	Suite is filed by its pieces; no suite kinds.
+smartwatch charging cable	Short cable ending in a round magnetic pad with spring pins that fits only one model of wrist-worn device, USB plug at the other end.	D2	K-2	Proprietary-connector cable made for one device follows that device.
+usb-c to usb-c cable	One-metre cable with a standard USB-C plug at both ends, used to charge and move data between many kinds of device.	D1	K-2	Cable with standard connectors is D1.
+guitar lead	Shielded cable with a quarter-inch plug at each end, for connecting an electric guitar to an amplifier.	D1	K-2	Instrument cable is a standard-connector cable.
+qi charging pad	Flat disc that charges any compatible phone laid on it, powered by a USB lead.	D1	K-3	Generic charger (Qi) is D1.
+toothbrush charging stand	Small base with a recess shaped to hold one model of electric toothbrush handle while it charges.	H1	K-3	Charger made for one device follows that device.
+aa and aaa battery charger	Mains-plug unit with four slots that recharges standard AA and AAA rechargeable cells.	C8	K-3	Charger for standard-size cells is C8.
+cordless drill battery pack	Slide-in 18-volt battery pack that fits one maker's range of cordless drills, saws and hedge trimmers.	C1	K-4	Platform battery pack is C1 whatever tools it runs.
+vape pen battery	Small rechargeable cell in a threaded tube that screws onto one type of vaping cartridge.	B9	K-4	Battery made for one device follows it; vape battery B9.
+loose 18650 cell	Loose rechargeable lithium cylinder, 18 mm by 65 mm, sold alone with no device.	C8	K-4	Loose standard-size cell, 18650 included, is C8.
+phone-only gimbal	Handheld three-axis stabiliser with a spring clamp sized only for mobile phones.	D2	K-5	Gimbal made only for phones is D2.
+camera gimbal with phone clamp	Handheld stabiliser with a counterweight plate for mirrorless cameras and an included adapter that can also hold a phone.	D4	K-5	Made for cameras and also takes a phone: stays with cameras.
+console controller with phone clip	Wireless gamepad for a games console, with a detachable arm that can also hold a phone.	D5	K-5	Made for consoles and also takes a phone: stays there.
+dashcam	Windscreen-mounted camera that records the road ahead, powered from the car's 12-volt socket.	G1	K-6	Electronics fitted to a vehicle are G1.
+car head unit	Radio and media player sized to slot into a standard car dashboard opening.	G1	K-6	Car audio is electronics fitted to a vehicle.
+portable gps navigator	Battery-powered handheld GPS map unit with a suction windscreen bracket, carried from vehicle to vehicle or on foot.	D2	K-6	A portable sat-nav is D2.
+roof cargo box	Hard-shell lockable box of 400 litres that clamps to the roof bars of a car.	G1	K-7	Roof box made to be fitted to a vehicle is G1.
+car roof bars	Pair of aluminium crossbars with feet shaped to fit one model of car roof.	G1	K-7	Roof rack fitted to one vehicle is G1.
+freestanding bike rack	Steel stand holding four bicycles upright on a garage floor, attached to no vehicle.	B1	K-7	A free-standing rack is B1.
+tv wall bracket	Wall-fixed swivelling arm that holds one flat-screen television.	D3	K-8	Bracket made to hold one screen follows it.
+monitor desk arm	Desk-clamp gas-spring arm that holds one computer monitor.	D1	K-8	Mount for one screen follows it; monitors are D1.
+tv cabinet with shelves	Floor-standing unit with shelves and drawers and a flat top for a television.	B1	K-8	A stand with shelves or storage is B1.
+empty coin album	Binder with clear pockets for sixty coins, nothing in it yet.	B1	K-9	Empty multi-object album is B1.
+filled photo album	Bound album with sleeves holding printed family photographs.	F5	K-9	A filled photo album is F5.
+blank scrapbook album	Bound album of heavy blank pages for pasting in paper and photographs, empty.	C4	K-9	Blank scrapbook album is C4.
+laundry basket	Plastic hamper with two handles for holding and carrying dirty washing.	B6	K-10	Laundry baskets are B6.
+blanket storage basket	Woven seagrass basket with a lid, for holding blankets and toys in a living room.	B1	K-10	Storage that holds several objects is B1.
+dishwasher salt	Coarse salt granules poured into a dishwasher's softener reservoir.	B6	K-11	Dishwasher salt is B6.
+water softener salt	Salt tablets poured into the brine tank of a household water softener unit.	B7	K-11	Softener salt is B7.
+mothballs	Small white naphthalene balls placed in wardrobes to keep moths off clothes.	B8	K-11	Mothballs are B8.
+contact lens solution	Bottle of saline for rinsing and storing contact lenses.	H2	K-11	Lens solution is H2.
+shoe waterproofing spray	Aerosol that coats leather and fabric shoes to repel rain.	B6	K-11	Shoe and textile care sprays are B6.
+welding electrodes	Box of fifty coated steel rods used in stick welding.	C1	K-12	Welding rods are C1 under S3.
+orbital sander discs	Hook-and-loop sanding discs punched to fit one size of orbital sander.	C1	K-12	A sanding sheet cut for one sander is C1.
+general-purpose sandpaper pack	Assorted-grit paper sheets for sanding wood and walls by hand, sold in a pack.	C8	K-12	Abrasive sheets for general use are C8.
+spoke wrench	Small slotted tool for tightening bicycle wheel spokes.	C1	K-13	Tools made to service a bicycle are C1.
+bicycle inner tube	Rubber tube with a valve that sits inside a 700c bicycle tyre.	G1	K-13	Parts and consumables follow the vehicle.
+oil filter strap wrench	Rubber strap on a handle used to remove a car's oil filter.	C1	K-13	Tools made to service a vehicle are C1.
+camera recorder box	Box with a hard drive and four camera inputs, sold only with its matching security cameras.	B8	K-14	Recorder sold only to run security cameras follows them.
+two-bay network drive	Enclosure holding two hard disks that stores files for any computers on a home network.	D1	K-14	A general network drive is D1.
+universal tripod	Three-legged aluminium stand with a standard mounting screw that holds cameras, phones or small telescopes.	D4	K-15	A universal tripod is D4.
+telescope eyepiece camera	Small sensor in a tube that slides into a telescope's eyepiece holder, with no body for general use.	C6	K-15	Camera made only to fit a telescope follows it.
+interchangeable-lens camera	Mirrorless camera body with screen and shutter, for general photography; a ring adapter also lets it attach to a telescope.	D4	K-15	Camera made for general photography as well is D4.
+game character figure with chip	Painted plastic character figure with an embedded chip that unlocks the character in a video game when placed on a base.	E1	K-16	A toys-to-life figure is E1.
+figure reader base	Plug-in platform that reads the chips of game figures placed on it and passes them to a console.	D5	K-16	Its portal or reader is a D5 part.
+story figure for speaker box	Small painted figure that plays a recorded story when set on top of one speaker box, useless without it.	D3	K-16	Toniebox-type figures are D3 parts.
+paper photo backdrop	Wide roll of seamless coloured paper hung behind subjects in a photographer's studio.	B2	K-17	Studio backdrops are B2.
+studio flash head	Mains-powered strobe light with a modelling lamp, for portrait photography.	D4	K-17	Studio flashes are D4.
+photographer's posing stool	Adjustable-height stool with a padded seat for sitters in a portrait studio.	B1	K-17	Studio furniture is B1.
+workshop dust extractor	Mobile unit with a large filter and hose that starts automatically when a sander or saw is plugged into its socket.	C1	K-18	Dust extractor for workshop machines is C1.
+wet and dry vacuum	Barrel-shaped steel-tank vacuum that picks up dust, spills and debris around a home.	B6	K-18	A wet-and-dry vacuum is B6.
+car first-aid kit	Box of bandages, plasters, gloves and a foil blanket, sized to stay in a car boot.	H2	K-19	First-aid kits are H2 whatever vehicle they are for.
+workplace first-aid cabinet	Wall-mounted cabinet holding dressings, eyewash and burn gel for an office or workshop.	H2	K-19	First-aid kits are H2 whatever workplace they are for.
+pocket watch chain	Metal chain with a T-bar at one end and a clip for a pocket watch ring at the other, worn across a waistcoat.	A5	K-20	Chain made to attach a pocket watch follows the watch.
+decorative fob	Small engraved metal medallion on a short strap hung from a belt loop, with no watch attached.	A3	K-20	Decorative fob worn without a watch is A3.
+plain belt buckle	Loose rectangular steel frame with a prong, to be fitted to a leather strap.	A1	K-21	A belt buckle is a part of a belt.
+ornate rodeo belt buckle	Large oval silver-plated buckle engraved with a bull-rider scene.	A1	K-21	Decorative belt buckle is still a belt part.
+alcohol-free lager	Sealed 330 ml bottle of brewed lager from which the alcohol has been removed, 0.0 per cent.	OUT	K-22	Alcohol-free versions of beer are prepared drinks.
+dealcoholised wine	Sealed bottle of wine with the alcohol taken out, 0.0 per cent.	OUT	K-22	Alcohol-free versions of wine are prepared drinks.
+pale lager bottle	Sealed 330 ml bottle of brewed pale lager at five per cent alcohol.	J7	K-22	Beer in a sealed container is J7.
+frozen chips	Bag of frozen potato strips that have been part-fried in oil, to be finished in the oven.	OUT	K-23	Par-fried frozen vegetables are prepared.
+frozen hash browns	Frozen shaped potato patties coated in crumb and part-fried.	OUT	K-23	Coated frozen vegetables are prepared.
+frozen garden peas	Bag of plain frozen peas with nothing added.	J4	K-23	Plain frozen vegetables are J4.
+canned gin and tonic	Sealed 250 ml can of gin mixed with tonic water at five per cent alcohol.	J7	K-24	Sealed ready-to-drink alcoholic drinks are J7.
+instant noodle brick	Dried block of fried wheat noodles in a wrapper with a flavour sachet, cooked by boiling in a pan.	J5	K-24	A dry noodle brick is J5.
+instant noodle pot	Foam pot filled with dry noodles, dried vegetables and sauce powder, made ready by adding boiling water.	OUT	K-24	A noodle cup or pot is a ready meal.
+en primeur wine purchase	Purchase of twelve bottles of a new vintage still in barrel, to be bottled and delivered in two years; the buyer holds an invoice only.	OUT	K-25	En primeur offers are OUT until delivered.
+delivered whisky cask	A 200-litre oak cask of maturing spirit that now stands in the buyer's own warehouse.	J7	K-25	A delivered cask is J7.
+live carp at market	Carp swimming in a tank at a fishmonger, sold alive by weight to be taken home and cooked.	OUT	K-26	Live fish sold to eat stay OUT.
+dried shark fin	Bag of dried shark fins sold for making soup.	J2	K-26	Protected-species goods are filed by what they are.
+share certificate	Printed paper certificate from 1920 showing ownership of shares in a railway company, no longer valid.	F5	K-27	Printed share certificate kept as an object is F5.
+travellers cheques	Booklet of printed fixed-value cheques made for foreign travel, unused.	F5	K-27	Traveller's cheque kept as an object is F5.
+sim card	Small plastic chip card inserted in a phone to connect it to a mobile network.	F5	K-28	A physical SIM card is F5.
+esim profile	Downloadable mobile network profile activated by a QR code, tied to a monthly phone plan.	I3	K-28	An eSIM profile is part of its I3 plan.
+domain name registration	Registered right to use a web address, renewed yearly in the owner's name at a registrar.	I2	K-29	Domain-name registration is I2, not a right.
+harbour mooring licence	Yearly licence to keep a boat at a numbered mooring in a harbour.	OUT	K-29	A mooring is a right to a place, OUT.
+propane cylinder	Refillable steel bottle filled with propane for a barbecue.	C8	K-30	Fuel in its own container is C8.
+fuel pumped into car	Diesel dispensed into a car's tank at a filling station pump.	OUT	K-30	Fuel pumped into a vehicle is energy supply, OUT.
+hay fever nasal spray	Bottle of nasal spray whose label says it relieves hay fever symptoms, containing a steroid sold only as a medicine.	H2	K-31	Labelled main purpose to relieve a named condition is H2.
+sunscreen lotion	Bottle of factor 50 lotion that protects skin from sunburn.	H1	K-31	Cosmetic purpose including sunscreens is H1.
+anti-dandruff shampoo	Bottle of shampoo for scalp that removes flakes.	H1	K-31	Anti-dandruff products are cosmetic, H1.
+vibrating wand massager	Mains-powered vibrating wand; the box says it is made for sexual stimulation.	H3	K-32	Massager is H3 when its maker names sexual use.
+tens pain unit	Pad stimulator with electrodes, sold to relieve back pain.	H2	K-32	Massager made to treat a condition is H2.
+percussion massage gun	Cordless hand-held massager that pulses against muscles for relaxation.	H1	K-32	Percussion massagers are H1.
+water-based personal lubricant	Tube of water-based gel used during sex.	H1	K-33	Lubricants are H1.
+male condoms	Box of latex condoms for contraception and infection prevention.	H2	K-33	Condoms are H2.
+menstrual cup	Flexible silicone cup worn inside the body to collect menstrual flow.	H1	K-33	Menstrual products are H1.
+disposable nappies	Pack of absorbent disposable nappies for babies.	H1	K-33	Nappies are H1.
+period underwear	Cotton briefs with a built-in absorbent layer, worn instead of pads.	A1	K-33	Period underwear is A1.
+ed ring pleasure only	Silicone ring worn at the base of the penis; packaging claims enhanced pleasure and makes no medical claim.	H3	K-33	ED rings without stated medical purpose are H3.
+ready-made reading glasses	Plastic-framed glasses with +2.0 lenses sold from a shop rack, no prescription needed.	H2	K-34	Ready-made reading glasses are H2.
+plano fashion frames	Round frames with clear glass lenses that do not change vision, sold as a fashion accessory.	A4	K-34	Plano-lens fashion frames are A4.
+non-corrective sunglasses	Dark-lensed sunglasses with ultraviolet filter and no focusing power.	A4	K-34	Non-corrective sunglasses are A4.
+tinted plano contact lenses	Monthly lenses with a coloured iris pattern and no focusing power, to change eye colour.	H2	K-35	Contact lenses of every kind are H2.
+daily disposable contact lenses	Thirty pairs of single-use soft lenses that correct short sight.	H2	K-35	Contact lenses are H2.
+collagen drink	Small bottle of liquid with collagen peptides, sold to improve skin firmness.	H2	K-36	Skin supplements, collagen drinks included, are H2.
+face moisturiser	Jar of cream applied to the face to soften skin.	H1	K-36	Topical cosmetic stays H1.
+blood glucose monitoring app	Phone app registered as a medical device that reads sensor data to track a diabetic person's blood sugar and alerts on lows.	H2	K-37	Software made to monitor a condition is H2.
+step counting app	Phone app that counts daily steps and shows a weekly chart.	I1	K-37	Non-medical software is I1.
+low-vision reading magnifier	Lit hand-held magnifier whose box says it is made for people with macular degeneration.	H2	K-38	Magnifier sold as a low-vision aid is H2.
+stamp collector's magnifying glass	Round hand glass with wooden handle for examining stamps.	C6	K-38	Any other magnifier is C6.
+pressure-relief mattress	Air-cell mattress with pump, labelled to prevent pressure sores in people confined to bed.	H2	K-39	Mattress made to treat a condition is H2.
+ordinary adjustable bed base	Double bed base that raises head and foot by remote control, sold for general comfort.	B1	K-39	Ordinary bed in an adapted form is B1.
+wide-seat electric recliner	Standard reclining armchair made in a larger size with a deeper seat, sold for comfort.	B1	K-39	Ordinary recliner in an adapted form is B1.
+weighted sleep blanket	Quilted blanket with glass-bead pockets weighing seven kilograms, sold for cosy pressure when sleeping.	B2	K-40	Weighted blankets are B2.
+orthopaedic neck pillow	Contoured memory-foam pillow sold for neck comfort in bed.	B2	K-40	Orthopaedic pillows are B2.
+weighted blanket for sensory disorder	Weighted blanket whose packaging states it treats sensory processing disorder.	H2	K-40	Made to treat a stated condition is H2.
+diabetic shoes	Extra-depth leather shoes with seamless lining and removable insole, made for people with diabetic feet.	A2	K-41	Therapeutic and diabetic footwear is A2.
+orthotic insoles	Rigid arch-support inserts prescribed to treat plantar fasciitis.	H2	K-41	Orthotic inserts are H2.
+hinged knee brace	Neoprene knee support with side hinges for ligament injury.	H2	K-41	Braces are H2.
+surgical face mask	Three-layer pleated disposable mask with ear loops, worn in operating rooms.	A1	K-42	Medical and surgical face masks are A1.
+ffp2 respirator	Moulded filter mask with two head straps that blocks fine dust.	A1	K-42	Respirator is personal protective equipment, A1.
+fall detector pendant	Neck pendant with a sensor that detects a fall and calls a carer.	H2	K-43	Worn alarm to call help after a fall is H2.
+burglar alarm panel	Wall panel with door and window sensors and a siren to scare off intruders.	B8	K-43	Alarm to deter intrusion is B8.
+hummus tub	Chilled tub of mashed chickpea and sesame dip.	J5	K-44	Spreads and dips are J5.
+cream cheese tub	Tub of soft white spreadable cheese made from cow's milk.	J3	K-44	Fresh cheeses and milk spreads are J3.
+pork pate loaf	Baked pork pâté in loaf form cut into slices at a deli counter.	J1	K-44	A pâté sold as a loaf or slice is J1.
+raw beef burger patties	Pack of raw ground beef formed into round patties, seasoned only.	J1	K-45	Shaped meat product, uncoated, is J1.
+breaded chicken nuggets	Frozen pieces of minced chicken shaped and coated in crumb.	OUT	K-45	Coated shaped products are prepared.
+plain fish balls	Chilled pack of seasoned fish paste rolled into balls, uncoated.	J2	K-45	Shaped fish product, uncoated, is J2.
+plant protein sausage	Seasoned sausage made from wheat gluten and soy, uncoated.	J5	K-45	Shaped plant protein product is J5.
+mixed dried fruit bag	Bag holding equal parts raisins, sultanas and currants.	J5	K-46	Mix of kinds in one category is "mixed" class.
+cheese and ham gift box	Gift box holding an eight-pound wedge of cheese and a larger cured ham worth far more.	J1	K-46	Cross-category mix is filed by its item of greatest value.
+frozen frog legs	Pack of skinned frozen frog legs for cooking.	J1	K-47	Frogs are land animals eaten, J1.
+tinned edible snails	Tin of plain cooked edible land snails in brine.	J2	K-47	Snails are molluscs, J2.
+aromatic bitters	Small dropper bottle of herbal bitter extract; a few dashes flavour a cocktail.	J5	K-48	Bitters sold as a flavouring by the dash are J5.
+bitter aperitif liqueur	Seventy-centilitre bottle of red bitter liqueur, 25 per cent, poured over ice in a glass.	J7	K-48	Bitter liqueur sold to drink by the glass is J7.
+cocoa-led drinking chocolate	Tin of powder that is 70 per cent cocoa with a little sugar, stirred into hot milk.	J6	K-49	Dry drink mix led by cocoa is J6.
+sweet chai latte mix	Sachets of instant powder, mostly sugar and milk powder with a little tea extract.	OUT	K-49	Mix led by sugar or creamer is a prepared drink.
+malted milk drink powder	Jar of powder, mostly malt extract and sugar, stirred into milk.	OUT	K-49	Mix led by malt is a prepared drink.
+cocoa butter block	Pale solid block of pure fat pressed from cacao beans.	J6	K-50	Cocoa butter is J6.
+cocoa mass slab	Slab of ground roasted cacao nibs, one hundred per cent cacao paste.	J6	K-50	Cocoa paste is J6.
+couverture callets	Bag of 70 per cent dark chocolate discs for melting and tempering in baking.	J5	K-50	Couverture and baking chocolate stay J5.
+dried hibiscus flowers	Bag of dried red petals steeped in hot water as an infusion.	J6	K-51	Brewed flowers are J6.
+roasted barley tea	Bag of roasted barley grains boiled to make a drink.	J6	K-51	Roasted grains brewed as infusions are J6.
+kava root powder	Pouch of ground kava root mixed with water to drink.	J6	K-51	Kava is named in J6.
+tinned corned beef	Tin of cooked salted beef packed in its own jelly.	J1	K-52	Tinned and cooked meat is J1.
+pastrami brisket piece	Cooked, spiced, smoked piece of beef brisket sold by weight.	J1	K-52	Pastrami pieces are J1.
+margarine tub	Tub of spread made only from vegetable oils.	J5	K-53	Margarine and plant-only fat spreads are J5.
+butter and oil blend spread	Tub of spread made from 60 per cent butter and rapeseed oil.	J3	K-53	A spread containing butter is J3.
+whole coconut	Brown husked coconut with water inside, sold fresh.	J5	K-54	Every coconut is J5.
+fresh green olives	Bunch of unprocessed fresh olives straight from the tree.	J4	K-54	Fresh olives are J4.
+aaruul	Hard dried curds of soured milk cut into small pieces, a Mongolian food.	J3	K-55	Dried and preserved dairy is J3 cheese.
+jameed	Hard dried balls of salted strained goat's yoghurt, rehydrated for cooking.	J3	K-55	Dried preserved dairy is J3 cheese.
+plain kefir bottle	One-litre bottle of unsweetened fermented milk drink.	J3	K-56	Plain fermented milk drinks are J3.
+strawberry milk drink	Bottle of milk flavoured with strawberry and sugar.	OUT	K-56	Sweetened or flavoured milk drinks are OUT.
+pickled eggs jar	Jar of hard-boiled eggs pickled in vinegar.	J3	K-57	Pickled eggs stay J3.
+salted duck eggs	Box of duck eggs cured in brine.	J3	K-57	Preserved eggs stay J3.
+hopped malt extract can	Can of thick hopped malt syrup to which water and yeast are added to make beer at home.	J5	K-58	Home-brewing ingredients are J5.
+glass demijohn with airlock	Five-litre glass jar with a narrow neck and airlock for fermenting wine at home.	B5	K-58	Home-brewing equipment is B5.
+cake baking mix	Box of dry flour, sugar and raising agent to make a sponge cake by adding eggs.	J5	K-59	Cake and baking mixes are J5.
+cake sprinkles	Jar of tiny coloured sugar strands for decorating cakes.	OUT	K-59	Sprinkles are OUT.
+narrowboat	Long steel canal boat with a diesel engine, rudder and a bed, kitchen and stove inside.	G1	K-60	Hull with own propulsion and steering made to navigate is G1.
+unpowered house barge	Floating home on a pontoon hull with no engine, towed once and moored permanently.	G2	K-60	Floating home without propulsion is G2.
+tiny house on wheels	Small timber house built on a trailer chassis, sited permanently and connected to services.	G2	K-60	Tiny house on wheels is G2.
+park model rv	Single-storey 400 square foot cabin on a chassis, delivered to a leisure park and kept there.	G2	K-61	A park model RV is G2.
+factory building	Large steel-framed building with loading bays used to manufacture goods.	G2	K-62	Commercial and industrial buildings are G2.
+primary school building	Brick building with classrooms and hall used as a school.	G2	K-62	Institutional buildings are G2.
+garden annexe with kitchen and bathroom	Timber outbuilding in a garden with its own sink, toilet, door and bedroom.	G2	K-63	A unit with own sink, toilet and entrance is a dwelling.
+garden office room	Insulated timber garden room with a desk and electric sockets, no plumbing.	G2	K-63	Otherwise it is a garden room, still a building.
+sauna cabin building	Timber cabin built on a concrete base with a changing room, heater and benches.	G2	K-64	A sauna cabin that stands as a building is G2.
+portable folding sauna	Fabric tent for one seated person with a steam generator, folded away after use.	B7	K-64	A portable sauna is B7.
+yurt	Round lattice-walled felt-covered tent with a roof wheel, set on a timber floor.	E2	K-65	Yurts are E2 as made.
+bell tent	Cotton canvas tent with a central pole and rope guys, pitched on a platform.	E2	K-65	Tents are E2 whatever platform they stand on.
+tent platform deck	Raised timber deck built on posts in a field to carry a bell tent.	G2	K-65	A platform or deck built for tents is G2.
+pergola kit	Flat-packed posts and beams that bolt together to make a covered garden frame.	G2	K-66	A pergola kit is filed by the structure it makes.
+loose decking boards	Bundle of treated softwood boards sold by length.	C8	K-66	Boards sold loose are C8.
+gazebo kit with fixed roof	Flat-packed steel posts and polycarbonate roof that bolt into a permanent garden gazebo.	G2	K-66	A gazebo kit is filed by the structure it makes.
+detached garage	Brick building for storing cars, with door and roof.	G2	K-67	A garage building is G2.
+freehold parking bay	Marked parking space in a block, sold freehold with its own title deeds.	G2	K-67	A parking bay held as land is G2.
+rented car park permit	Yearly permit allowing a car to park in a numbered bay in a council car park.	OUT	K-67	A rented bay or permit is OUT.
+family video streaming plan	Monthly plan giving six household profiles access to a catalogue of films and series by stream.	I3	K-68	Seat structure is a plan attribute; kind of access decides.
+student music streaming plan	Discounted monthly plan giving a student access to a catalogue of songs by stream.	I3	K-68	Seat structure (student) is a plan attribute.
+game character cosmetic skin	Appearance item for a character inside an online game, held in the player's account.	I2	K-69	In-game cosmetic items are I2.
+messaging sticker pack	Set of animated stickers bought for use inside a chat app.	I2	K-69	Messaging stickers are I2 platform items.
+clothing rental subscription	Monthly plan sending a changing selection of dresses by post and taking them back.	I3	K-70	Goods-rental subscriptions are I3.
+web hosting plan	Yearly plan renting server space on which the owner's personal website runs.	I3	K-70	Personal hosting plans are I3.
+one-off travel eSIM pack	A single 5 GB mobile data pack for a holiday that expires after thirty days and does not renew.	OUT	K-70	Travel eSIM and one-off packs are OUT unless they renew.
+game launcher free account	Free user account on a store application used to download and start video games, holding no purchases.	OUT	K-71	Game launchers and their free accounts are not filed.
+email client program	Desktop application for reading and writing email from several mailboxes.	I1	K-71	An email client is software.
+licensed stock photo	Single photograph bought under a licence from an asset library, kept as a file.	I2	K-71	Each licensed asset is I2.
+asset library subscription	Monthly plan giving a design studio downloads from a library of stock images and fonts.	I3	K-71	An asset-library plan is I3.
+game mod	Downloadable add-on that changes the maps of an existing video game.	D5	K-71	Game mods are D5.
+real cut christmas tree	Fresh-cut spruce trunk with branches, sold to be stood indoors at Christmas.	C3	K-72	Real Christmas trees are C3.
+artificial christmas tree	Plastic tree in folding sections with a metal stand, which looks like a fir.	B4	K-72	Artificial Christmas trees are B4.
+orchid in ceramic pot	Living orchid in a hand-glazed art pottery cachepot worth more than the plant.	C3	K-73	A living plant in any container is C3.
+kokedama	Houseplant with roots wrapped in a moss ball hung on string.	C3	K-73	Kokedama is C3.
+preserved moss wall panel	Framed panel of moss treated with glycerine so that it stays soft and green without living.	B4	K-74	Preserved plants are B4.
+artificial ficus tree	Two-metre tree with plastic leaves and fabric trunk in a pot of stones.	B4	K-74	Artificial plants are B4.
+alfalfa sprouting seed for eating	Bag of seeds to soak and grow into sprouts for salads.	J5	K-75	Sprouting seed sold to eat is J5.
+vegetable seed packet	Paper packet of lettuce seed to sow in a garden bed.	C3	K-75	Seed to grow is C3.
+taxidermy fox mount	A whole fox stuffed and set on a log in a lifelike pose.	F6	K-76	A mount of one animal prepared as in life is F6.
+jackalope assembly	Sculpture made from a stuffed rabbit body glued with antlers from another animal and glass eyes, sold as art.	F2	K-76	A work combining animal parts is F2.
+plaster bust cast	Plaster copy cast from a mould of a classical marble head, sold as a sculpture for a shelf.	F2	K-77	A cast or replica is filed by what it is: sculpture.
+dinosaur skeleton model kit	Plastic bones to be glued together into a ninety-centimetre dinosaur skeleton.	E1	K-77	A replica sold as a kit is E1.
+single identified shell	One cowrie shell labelled with its species and place of collection.	F6	K-78	A single identified shell is F6.
+mixed shells for crafts	Bag of assorted unsorted small shells sold for craft decoration.	C4	K-78	Unsorted shell assortment is C4.
+strung pearl necklace	Pearls knotted on a silk thread with a clasp.	A3	K-78	Strung, it is jewellery.
+human skull teaching specimen	Real adult human skull on a stand, used in anatomy teaching.	OUT	K-79	Human specimens are OUT.
+raw elephant tusk specimen	Whole uncarved antique tusk kept as a specimen on a stand.	F6	K-79	Ivory and CITES goods stay in; filed by what they are.
+blown bird eggshell collection	Case of emptied wild birds' eggshells, labelled by species.	F6	K-80	A preserved or emptied specimen kept as a specimen is F6.
+dried sea urchin test	Cleaned empty skeleton of a sea urchin kept in a display box.	F6	K-80	An emptied specimen is F6.
+locking leather wrist cuffs	Pair of padded leather cuffs with buckles and rings that lock, made to bind the wrists.	H3	K-81	Cuffs made to restrain are H3.
+ornamental choker collar	Velvet band worn at the neck purely as a fashion ornament.	A3	K-81	Collar made only as an ornament is A3.
+strap-on harness	Leather harness worn around the hips to hold an attachment.	A1	K-81	Harness garments are A1.
+door-frame suspension swing	Strap swing with cuffs hung from a ceiling hook, made to suspend a person during sex.	H3	K-82	Furniture made to restrain or suspend is H3.
+positioning wedge cushion	Foam wedge cushion used to prop the hips in bed.	B2	K-82	Positioning cushions are B2.
+butterfly knife	Folding knife with two split handles that swing around the blade, used for fighting and flourishing.	E4	K-83	Butterfly knives are E4.
+fighting dagger	Double-edged knife with a cross-guard, made for stabbing.	E4	K-83	Fighting knives are E4.
+everyday folding pocket knife	Single-blade locking folding knife with clip, for opening boxes and cutting rope.	C1	K-83	EDC locking folders are C1.
+handgun holster	Leather belt holster moulded to carry a pistol.	A4	K-84	Holsters are A4.
+ballistic plate carrier vest	Vest with pockets for hard plates stopping rifle bullets.	E4	K-84	Plate carriers are E4 armour.
+toy plastic slingshot	Bright plastic catapult firing soft foam pellets, sold to children.	E1	K-84	Slingshot made as a toy is E1.
+boomerang	Curved wooden throwing stick that returns to the thrower, for sport.	E2	K-84	Boomerangs are E2.
+deactivated hand grenade	Cast metal grenade body with live parts removed and drilled, mounted on a stand.	B4	K-85	Deactivated display pieces are B4.
+live artillery shell	Charged 75 mm shell with explosive filling.	OUT	K-85	Bombs, mines and artillery are OUT.
+bullet reloading press	Bench press with dies that seats new bullets into cartridge cases.	C1	K-86	Reloading presses are C1.
+box of rifle bullets	Box of 100 lead projectiles of .308 calibre for loading into cases.	E4	K-86	Bullets and components are E4.
+blunted steel practice sabre	Steel sabre with blunted edge and rounded tip made for fencing sport.	E2	K-86	Reproduction blunted for sport is E2.
+foam padded sword	Soft latex-covered foam sword for costume and foam combat play.	E1	K-86	Foam reproduction is E1.
+blunt wushu broadsword for practice	Lightweight flexible unsharpened broadsword used for forms in wushu competition.	E2	K-87	Blunt wushu implements for practice are E2.
+ornamental wall dao	Chinese broadsword with painted dragon scabbard, blunt and made to hang on a wall.	B4	K-87	Decorative wushu implements are B4.
+pull-pin personal siren	Pocket siren on a keyring that screams at 120 decibels when a pin is pulled.	B8	K-88	A personal attack alarm is B8.
+pepper spray canister	Pocket canister that sprays irritant at an attacker.	E4	K-88	Pepper spray is a weapon, E4.
+electric kick scooter	Folding two-wheeled scooter with a motor in the front wheel and a handlebar throttle.	G1	K-89	An electric kick scooter is G1.
+unpowered kick scooter	Folding two-wheeled push scooter, no motor.	E2	K-89	Unpowered kick scooters are E2.
+hoverboard	Two-wheeled self-balancing electric board that the rider stands on.	G1	K-90	Hoverboards are G1.
+electric unicycle	Single-wheel self-balancing electric vehicle with foot pedals.	G1	K-90	Electric unicycles are G1.
+unpowered unicycle	One-wheel pedal cycle with a saddle, for learning to ride.	E2	K-90	An unpowered unicycle is E2.
+child's pedal bicycle with stabilisers	Small pedal bicycle with 16-inch wheels and training wheels.	G1	K-91	Children's pedal bicycles are G1.
+balance bike	Two-wheeled small bike with no pedals, pushed along by the feet.	E1	K-91	Balance bikes are E1.
+racing go-kart	Low open frame with engine and steering wheel, built for track racing.	G1	K-92	Racing motor vehicles are G1.
+motocross bike	Two-wheeled petrol off-road competition motorcycle with long suspension.	G1	K-92	Off-road sport motor vehicles are G1.
+quad bike with tow hitch	Four-wheeled all-terrain vehicle with a rack and a hitch, which can also drive a sprayer.	G1	K-93	A vehicle made mainly to carry is G1 even when it powers implements.
+tool-carrier tractor	Self-propelled frame with a central seat and hydraulic mounts carrying mowers, ploughs and loaders.	C7	K-93	Tool-carrier tractors are C7.
+tipper trailer	Two-axle trailer with hydraulic tipping body for carrying gravel and grain.	G1	K-94	Carry-only trailers are G1.
+slurry tanker	Tank on wheels with a pump and spreader plate for spraying slurry on fields.	C7	K-94	A tank that also spreads what it carries is C7.
+pet stroller	Pushchair with a covered cabin for carrying a small dog.	G1	K-95	Pet strollers are G1.
+cat carrier bag	Soft bag with mesh window and strap for carrying a cat by hand.	B10	K-95	A carrier held by hand is not a vehicle.
+skydiving parachute rig	Harness and container with main and reserve canopies worn by a skydiver.	E2	K-96	Parachutes and skydiving rigs are E2.
+powered paraglider	Wing and harness with an engine frame worn on the back to take off from flat ground.	G1	K-96	Powered paragliders are aircraft.
+fpv racing drone	Small quadcopter with goggles and controller flown for racing as a hobby, no camera for filming.	E1	K-97	RC and FPV drone sold as a hobby model is E1.
+filming drone with gimbal camera	Folding quadcopter with a stabilised 4K camera for aerial video.	D4	K-97	A drone made for filming is D4.
+toy drone without camera	Small plastic quadcopter with a hand controller for children.	E1	K-97	Camera-less toy drones are E1.
+four-wheel mobility scooter	Battery-powered four-wheeled seat scooter with tiller, for people who struggle to walk.	H2	K-98	Mobility scooters stay H2.
+powered wheelchair	Battery wheelchair with a joystick for a disabled user.	H2	K-98	Mobility aids are H2.
+garden tractor with mower deck	Small ride-on with a 100 cm deck and no rear power take-off, for a lawn.	C2	K-99	Lawn tractors without rear PTO and cat 1 hitch are C2.
+compact utility tractor	25-horsepower tractor with rear power take-off and a category-1 three-point linkage for implements.	C7	K-99	Tractor with PTO and cat 1 hitch is C7.
+centre pivot irrigator	Long wheeled pipe frame with sprinklers rotating around a field.	C7	K-100	Field-crop irrigation is C7.
+oscillating garden sprinkler	Hose-fed sprinkler on a spike that sprays a lawn.	C2	K-100	Garden irrigation is C2.
+sheep eid stick reader	Wand reader that scans ear-tag chips in a flock and stores the numbers for herd records.	C7	K-101	Livestock EID stick readers are C7.
+pet microchip scanner	Small hand scanner that reads the implanted chip number in a cat or dog.	B10	K-101	Pet microchip scanners are B10.
+twelve-egg hobby incubator	Small tabletop incubator holding twelve eggs for backyard hens.	B10	K-101	Small incubators are B10.
+rabbit hutch	Wooden cage on legs with a run and a nest box for pet rabbits.	B10	K-102	Animal equipment, divided by animal served.
+cat scratching post	Carpeted post on a base for cats to scratch.	B10	K-102	Animal equipment, axis is the animal.
+stair gate for toddlers	Pressure-fit mesh gate stopping young children reaching stairs.	B8	K-103	A gate sold for stairs for children is B8.
+pet-only dog gate	Pressure-fit gate sold only to keep dogs out of rooms.	B10	K-103	A gate sold only for pets is B10.
+child and pet gate	Wall-mounted swing gate sold for use on stairs by families with babies and pets.	B8	K-103	Gate sold for children and pets is B8.
+garden pond liner	Heavy rubber sheet laid in a hole to make a fish pond.	C2	K-104	Garden fish pond liners are C2.
+indoor aquarium filter	Internal sponge filter for a glass fish tank.	B10	K-104	Aquarium equipment stays B10.
+beekeeper suit with veil	White cotton hooded suit with a mesh face guard, worn to inspect hives.	A1	K-105	Bee suits and veils are A1.
+wooden beehive	Stack of wooden boxes with frames that a honeybee colony lives in.	B10	K-105	Beekeeping equipment is B10.
+hand-cranked honey extractor	Stainless drum that spins honeycomb frames to throw out honey.	B10	K-106	Honey extraction gear is B10.
+kitchen honey dipper	Wooden stick with grooves for drizzling honey on toast.	B5	K-106	Table use is kitchen and dining.
+loose devotional medal	Small unmounted aluminium medal showing a saint, with no ring or chain.	F4	K-107	Devotional medal loose is F4.
+saint medal on chain	Small silver medal of a saint with a bail and neck chain.	A3	K-107	Medal made with chain or bail to be worn is A3.
+orthodox icon on wood panel	Egg tempera painting of a saint on a gilded wooden board for home worship.	F4	K-108	Icons are F4.
+wall crucifix	Wooden cross with a carved figure of Christ, hung on a wall for prayer.	F4	K-108	Crucifixes are F4.
+oil painting of madonna in landscape	Framed oil canvas of a mother and child in a rural scene, painted as an artwork.	F2	K-108	Religious-subject work in another form is F2.
+divination tarot deck	Deck of 78 illustrated cards with a guidebook, made for readings.	F4	K-109	A deck sold for divination is F4.
+french tarot card pack	Pack of 78 playing cards used to play the card game of tarot.	E1	K-109	A pack sold for card play is E1.
+tibetan singing bowl	Hand-beaten metal bowl struck with a mallet for sound meditation, sold to anyone.	E3	K-110	Singing bowls are E3 unless made for a rite.
+temple chanting bell	Bronze bowl-shaped bell on a cushion, made for use in a Buddhist rite.	F4	K-110	Made for a rite is F4.
+mala with counter	108 wooden beads strung with a guru bead, tassel and two counters, for counting mantras.	F4	K-111	A strand made for counting prayers is F4.
+fashion bead necklace	Wooden beads like a mala strung as a long necklace with no counter or guru bead, sold as jewellery.	A3	K-111	Same beads made as jewellery are A3.
+printed bible	Hardback printed book of scripture.	F1	K-112	A printed religious text is F1.
+torah scroll	Parchment scroll handwritten with the five books of Moses on wooden rollers.	F4	K-112	Torah scrolls are F4.
+printed baptism certificate	Printed paper certificate recording a christening, to be filled in.	F5	K-112	A baptism certificate is F5.
+saint votive candle	Tall glass-encased candle printed with a saint, made for devotion.	F4	K-113	Candles made for devotion are F4.
+meditation cushion	Round buckwheat-filled cushion to sit on cross-legged.	B2	K-113	Meditation cushions are B2.
+scented pillar candle	Plain vanilla scented candle for the home.	B4	K-113	Ordinary candles are decor.
+ouija board	Wooden board printed with letters and a pointer, made to contact spirits.	F4	K-114	Spirit boards made for divination are F4.
+crystal dowsing pendulum	Pointed crystal hung on a chain for answering questions by swing.	F4	K-114	Pendulums made for divination are F4.
+fortune telling party board game	Boxed board game with a spirit board and play rules for a party.	E1	K-114	Made as a board game is E1.
+masonic apron	Leather apron embroidered with lodge symbols, worn at lodge meetings.	A1	K-115	Worn fraternal regalia follows A1.
+masonic lapel pin	Small enamel pin with compass and square worn on a jacket.	A3	K-115	Worn fraternal regalia follows A3.
+japanese stone garden lantern	Granite lantern with a roof and a hollow for a candle, for a garden.	B4	K-116	Japanese stone lantern is B4 garden decor.
+shrine offering stone lantern	Carved stone lantern with a votive inscription naming a donor, shaped for a shrine approach.	F4	K-116	Made as a shrine offering by form is F4.
+omamori charm	Small brocade pouch with a prayer inside, carried in a bag for safety.	F4	K-117	Carried luck or protection charm is F4.
+evil-eye pendant	Blue glass eye charm on a necklace chain.	A3	K-117	Worn charm is A3.
+postally used envelope	Envelope with stamps that passed through the post and carries a postmark, not issued by a postal service.	F5	K-118	Used cover neither administration-issued nor first-day is F5.
+first-day cover	Envelope prepared by a postal administration with a new stamp cancelled on its issue date.	F3	K-118	First-day covers are F3.
+prestamped postal envelope	Envelope with a printed stamp issued by a postal service.	F3	K-118	Postal stationery with printed stamp is F3.
+championship ring	Large gold ring awarded to the winning team of a league final.	F3	K-119	Championship rings are awards, F3.
+championship belt	Leather belt with a large metal plate awarded to the winner of a boxing title.	F3	K-119	Championship belts are awards, F3.
+board game play money	Printed paper notes and coins supplied inside a property board game.	E1	K-120	Game money is E1.
+souvenir banknotes	Printed fake notes sold as film props or tourist souvenirs.	F3	K-120	Prop and souvenir notes are F3.
+football sticker collection	Packets of stickers and an album, completed by swapping, depicting players.	F3	K-121	Collectible sticker series are F3.
+collectible card game booster	Sealed packet of cards for a fantasy battle card game.	E1	K-121	Trading card games are E1.
+gold coin in bezel pendant	Gold coin mounted in a bezel with a bail on a chain.	A3	K-122	A coin mounted with a bail or bezel to be worn is A3.
+loose gold coin	Unmounted one-ounce gold bullion coin in a capsule.	F3	K-122	A coin without a mount is F3.
+bullion bar	One-kilogram minted silver bar.	F3	K-122	Bullion is F3.
+wedding tiara	Silver-toned headpiece with crystals worn by a bride.	A3	K-123	A tiara worn as an ornament is A3.
+coronation crown	State crown with jewels that is part of the regalia of a monarchy, displayed in a vault.	F3	K-123	Regalia crown is F3.
+child's plastic crown	Gold-coloured plastic crown with plastic jewels, for dress-up.	E1	K-123	A toy crown is E1.
+analogue sports watch with sensors	Wristwatch whose main display is hands telling the time, with a heart-rate sensor and step counter.	A5	K-124	Main display the time is A5 whatever sensors.
+gps navigation sports watch	Wrist device whose main screen is a map with route tracking, also shows the time.	D2	K-124	Device whose main function is navigation is D2.
+digital watch with pulse sensor	Digital display wristwatch showing time and date with a heart rate sensor.	A5	K-124	Main display the time is A5.
+ballistic helmet	Hard helmet of aramid fibre designed to stop bullet fragments.	E4	K-125	Weapon-threat helmet is E4.
+ski helmet	Hard-shell helmet with vents and goggle clip for downhill skiing.	E2	K-125	One-sport helmet is E2.
+cycling helmet	Vented foam helmet for road cycling.	A1	K-125	General cycling helmet is A1.
+leather riding boots	Tall leather boots with a heel for horse riders.	A2	K-125	Riding boots are A2.
+bikini	Two-piece swimsuit of stretch fabric worn on a beach.	A1	K-126	Bikinis and beachwear are A1.
+competition racing swimsuit	Tight low-drag swimsuit made for timed pool races.	E2	K-126	Competition swimwear is E2.
+track spike shoe	Light running shoe with a plate and screw-in metal spikes for sprinting on a track.	E2	K-127	Performance model with sport-specific spikes is E2.
+basketball sneakers worn daily	High-top cushioned trainers of a basketball design, bought for walking around town.	A2	K-127	Basketball-lineage sneakers worn every day are A2.
+knee-high socks	Pair of long cotton socks reaching below the knee.	A1	K-128	Hosiery is A1.
+rubber galoshes	Waterproof rubber overshoes pulled on over shoes.	A2	K-128	Anything worn over a shoe is A2.
+hair comb	Decorative metal comb slid into a bun to hold it.	A3	K-129	Fixed into the hair by a comb is A3.
+fabric headband	Elastic fabric band worn around the head.	A1	K-129	Held on the head by its own band is A1.
+kumkum powder	Jar of red powder applied to the skin as a mark.	H1	K-129	Powder applied to the skin is H1.
+plastic toy jewellery set	Pack of plastic play rings, bracelets and necklace for dress-up.	E1	K-130	An accessory made as a toy is E1.
+child-size silver ring	Real sterling silver ring in a small size for a child.	A3	K-130	A real ornament in a child's size stays A3.
+insulated lunch bag	Zipped bag lined with foil to keep a packed lunch cold.	B5	K-131	Insulated lunch bags are B5.
+canvas tote bag	Cotton bag with two handles for shopping.	A4	K-131	Tote bag is an ordinary bag, A4.
+school pencil case	Zipped fabric pouch for pens, pencils and a ruler.	C5	K-132	A case for the small items of one task follows the task.
+toiletry wash bag	Waterproof zipped bag for toothbrush, razor and soap.	H1	K-132	Toiletry bag follows the task, H1.
+battery neck fan	Rechargeable fan worn around the neck blowing at the face.	B7	K-133	Powered hand-held or neck fan is B7.
+folding paper hand fan	Pleated paper and bamboo fan waved by hand.	A4	K-133	Hand fan is A4.
+furoshiki cloth	Square of patterned cotton cloth knotted around objects to carry them.	B2	K-134	Furoshiki are B2.
+drawstring gift cloth bag	Cloth gift wrapper that ties around a parcel and can be reused.	B2	K-134	Carry cloths are B2.
+head-worn binocular loupe	Magnifier lenses on a head strap leaving the hands free for fine work.	C6	K-135	Head-worn magnifiers are C6.
+opera glasses	Small handheld binoculars on a stick for theatre seats.	C6	K-135	Opera glasses are C6.
+plush keyring figure	Small stuffed character with a metal clip and chain for hanging on a bag.	E1	K-136	A plush or figure pendant with clip is E1.
+leather tassel bag charm	Leather tassel with a clasp hung on a handbag.	A4	K-136	Any other bag charm is A4.
+chalk bag	Drawstring pouch worn at the waist by climbers to hold chalk.	A4	K-137	Chalk bags are A4.
+ski bag for one pair	Padded zipped bag sized for a single pair of skis.	E2	K-137	Bag made for one pair of equipment follows it.
+skin insect repellent lotion	Bottle of lotion rubbed on the arms and legs to keep off mosquitoes.	H1	K-138	Repellent applied to the skin is H1.
+mosquito coil	Spiral of incense-like paste burned in a room to keep insects out.	B8	K-138	Coils for rooms are B8.
+unsigned family snapshot print	Colour print of a family on a beach, made at a photo shop, no edition marks.	F5	K-139	Every other photographic print is F5.
+signed numbered art photograph	Large black-and-white print of a landscape signed and numbered 3/25 by the photographer.	F2	K-139	A print issued as an edition or signed as a work is F2.
+restaurant menu card	Printed card menu from a restaurant, kept by a diner.	F5	K-140	Kept printed ephemera is F5.
+wedding invitation	Printed card inviting guests to a wedding, kept.	F5	K-140	Invitations are kept ephemera, F5.
+home-recorded cassette tape	Cassette with a family's voices recorded at home.	F5	K-141	Home recordings on a physical carrier are F5.
+published album cd	Compact disc of commercially issued music in a jewel case.	F1	K-141	Published recordings are F1.
+pictorial wall map	Illustrated map of a country printed on paper for wall display.	F1	K-142	A pictorial wall map is F1.
+art print of a city view	Limited edition lithograph depicting a town skyline, made as an artwork.	F2	K-142	A print made as art that depicts a place is F2.
+nearfield studio monitor speaker	Active powered speaker with flat response, sold for mixing music in a studio.	E3	K-143	Studio gear is filed by the maker's own product category.
+bookshelf hi-fi speaker	Passive wood-cabinet speaker sold for home music listening.	D3	K-143	Speakers for listening are D3.
+usb mic stated for vocal recording	USB condenser microphone whose maker markets it first for recording vocals and instruments, also usable for calls.	E3	K-144	Dual-use microphone by maker's stated first use.
+usb mic stated for streaming	USB microphone whose maker markets it first for streaming and video calls, also usable to record songs.	D1	K-144	Dual-use microphone by maker's stated first use.
+stage moving-head light	Motorised light on a yoke projecting beams and colours for concert stages.	B3	K-145	Stage lighting is B3.
+adjustable piano bench	Padded stool with screw height adjustment for a pianist.	B1	K-145	Piano benches are B1.
+record jukebox	Cabinet with glass front that plays vinyl singles from a stack.	D3	K-146	A jukebox is D3.
+coin-operated arcade cabinet	Upright cabinet with a screen and joystick that runs video games for coins.	D5	K-146	Sold as an arcade or coin-operated game is D5.
+digital multimeter	Hand-held meter measuring volts, amps and resistance for electrical work.	C1	K-147	Instruments for electrical quantities in trade work are C1.
+analytical laboratory balance	Precision balance reading to 0.1 mg, enclosed in a draft shield, for weighing samples in a laboratory.	C6	K-147	Instruments that measure a sample for science are C6.
+golf laser rangefinder	Hand-held monocular that measures yards to the flag.	E2	K-148	Golf laser rangefinders are E2.
+building laser distance measurer	Hand-held laser tool measuring room lengths.	C1	K-148	Building laser measurers are C1.
+rangefinding binoculars	Binoculars with a built-in laser distance reading in the eyepiece.	C6	K-148	Rangefinding binoculars are C6.
+chemistry experiment kit	Box of test tubes, chemicals and a manual of experiments teaching children chemistry.	C6	K-149	Kit made to teach science through experiments is C6.
+programmable play robot	Rolling robot toy a child programs with colour cards in games.	E1	K-149	Robot or coding toy made for play is E1.
+pocket flac audio player	Small battery device with a screen that plays music files from memory card.	D3	K-150	Digital audio players are D3.
+pcie sound card	Circuit board that plugs inside a desktop computer to provide audio outputs.	D1	K-150	An audio card fitted inside a computer is D1.
+recording audio interface	Desk box with microphone preamps and instrument inputs that connects to a computer for recording music.	E3	K-150	An audio interface sold for recording music is E3.
+camcorder	Hand-held digital video camera with a flip screen and zoom.	D4	K-151	Camcorders are D4.
+360 degree camera	Small camera with two fisheye lenses recording all directions.	D4	K-151	360 cameras are D4.
+golf gps handheld	Pocket unit showing distances to greens on a course map.	D2	K-151	Golf GPS units are D2.
+handheld gaming pc	Handheld computer with built-in controls and screen running a PC operating system, made for playing PC games.	D5	K-152	Handheld gaming PCs are D5.
+convertible laptop	Laptop whose keyboard folds back to make a tablet, sold with the keyboard.	D1	K-152	Computer with keyboard included is D1.
+standalone vr headset	Eye-enclosing headset with displays and hand controllers, no computer needed.	D5	K-153	A headset that encloses the eyes is D5.
+smart glasses with camera and speakers	Spectacle frames with a tiny camera and open-ear speakers, no display over the eye.	D2	K-153	Glasses with see-through display, camera or speakers are D2.
+boxed console game disc	Disc in a case with a game for a home console.	D5	K-154	Game on a carrier is D5, divided by carrier type.
+handheld cartridge game	Cartridge with a game for a handheld console.	D5	K-154	Game software is D5 by carrier type.
+coin-op driving arcade machine	Sit-in video cabinet with wheel and pedals taking coins.	D5	K-155	Coin-operated video cabinets are D5.
+pinball machine	Slanted table cabinet with flippers, bumpers and a steel ball.	E1	K-155	Pinball machines are E1.
+claw crane machine	Coin-operated glass box with a claw to grab prizes.	E1	K-155	Claw cranes are E1.
+photographic paper	Box of light-sensitive paper sheets for printing in a darkroom.	D4	K-156	Photographic paper is D4.
+wildlife trail camera	Weatherproof motion-triggered camera strapped to a tree to photograph animals.	D4	K-156	Trail cameras are D4.
+portable power station	Box with a battery and mains inverter in one, outlets on the front, for camping or outages.	B7	K-157	Portable power station is B7.
+pocket power bank	Slim 10,000 mAh battery with a USB port for recharging phones.	D2	K-157	Power banks are D2.
+copier paper ream	Ream of 500 sheets of plain white paper for printers and copiers.	C5	K-158	Copy and printer paper is C5.
+lcd writing tablet	Thin tablet with a pressure-sensitive screen for handwritten notes, erased by a button.	D2	K-158	Electronic writing tablet is D2.
+fitness rebounder	Round 100 cm spring trampoline on short legs for jogging exercise.	E2	K-159	Frame about 1.2 m or less sold for exercise is E2.
+garden trampoline	Round three-metre trampoline with safety net for children to jump on in a garden.	E1	K-159	Garden or play trampoline is E1.
+child's toy kite	Cheap plastic kite for young children on a short string.	E1	K-160	Toy kite is E1.
+sport power kite	Two-line steerable traction kite for kitesurfing.	E2	K-160	Sport kite stays E2.
+hydration bladder	Collapsible plastic water reservoir with a drinking tube, sold alone.	B5	K-161	Drink bottles and bladders are B5.
+hydration backpack	Small running pack sold with its water bladder and tube.	A4	K-161	A hydration pack sold with its bag is A4.
+headtorch	Elastic head strap with an LED beam.	B3	K-162	Head torches are B3.
+rifle weapon light	Rail-mounted tactical flashlight for a firearm.	E4	K-162	Weapon-mounted lights are E4.
+duck decoys	Set of painted floating plastic ducks to lure waterfowl.	E2	K-163	Decoys are E2.
+clay pigeon trap	Spring thrower that launches clay targets.	E2	K-163	Clay throwers are E2.
+archery target butt	Straw boss with printed paper face for arrows.	E2	K-163	Archery targets are E2.
+carbon arrows	Half-dozen carbon shafts with feathers and points for a compound bow.	E4	K-163	Arrows follow the weapon to E4.
+leather cigar case	Pocket case holding three cigars.	B9	K-164	A case made to carry smoking products is B9.
+desktop cigar humidor cabinet	Large wooden cabinet with a humidifier, standing on a desk, holding fifty cigars.	B1	K-164	A humidor that stands in a room is B1.
+cbd muscle balm	Tub of balm containing cannabidiol rubbed on the skin.	B9	K-165	Cannabinoid products, balm included, are B9.
+plain shea body balm	Tub of balm made from shea butter with no cannabinoid.	H1	K-165	Skin-care product without cannabinoid is H1.
+butane refill canister	Can of butane gas for refilling lighters.	C8	K-166	Gas cylinders are C8.
+hookah charcoal	Box of quick-light coal discs used on a hookah bowl.	B9	K-166	Hookah charcoal is B9.
+rolling tray	Metal tray with a lip for rolling cigarettes.	B9	K-167	Rolling trays are B9.
+airtight stash jar	Glass jar with a smell-proof lid for storing dried herbs.	B1	K-167	Stash jars and boxes are B1.
+dried salvia leaves	Bag of dried leaves taken for a hallucinogenic effect.	B9	K-168	Psychoactive plant products are B9.
+dried psychoactive mushrooms	Bag of dried mushrooms eaten for a hallucinogenic effect.	B9	K-168	Psychoactive fungus products are B9.
+live peyote cactus	Potted living cactus plant of a psychoactive species.	C3	K-168	Living plants and fungi are C3.
+candle wax pellets and wicks	Bag of soy wax flakes with wicks for making candles.	C4	K-169	Candle making is C4.
+epoxy resin craft kit	Two-part clear resin with moulds and pigments for casting trinkets.	C4	K-169	Resin craft is C4.
+wood chisel set	Four steel chisels for shaping wood.	C1	K-169	Tools for shaping wood stay C1.
+calligraphy brush pen	Felt pen with a flexible brush tip sold for lettering and handwriting.	C5	K-170	Maker's first-named use is calligraphy: C5.
+watercolour brush	Sable round brush for painting pictures.	C4	K-170	Painting is C4.
+date stamp for office	Self-inking rubber stamp printing a date on invoices.	C5	K-171	Office stamps are C5.
+rubber stamp set for scrapbooks	Set of decorative stamps of flowers with an ink pad for cards.	C4	K-171	Decorative stamps are C4.
+washi tape	Roll of patterned paper masking tape for crafts.	C4	K-171	Washi tape is C4.
+pottery wheel	Electric wheel with pedal for throwing clay pots.	C4	K-172	Pottery wheels are C4.
+art-studio taboret	Wheeled cabinet with drawers for holding paints beside an easel.	B1	K-172	Art-studio furniture is B1.
+wall emulsion paint	Five-litre tin of white paint for house walls.	C8	K-172	Paint for walls is C8.
+hand-held petrol chainsaw	Small petrol saw used for logs in a garden.	C2	K-173	Hand-held chainsaws are C2.
+felling axe	Long-handled steel axe for splitting wood.	C1	K-173	Axes are C1.
+tractor pto log splitter	Splitter driven from a tractor's power take-off.	C7	K-173	Tractor-driven splitters are C7.
+bark chippings bag	Bag of decorative bark chips for covering flower beds.	C2	K-174	Decorative ground cover is C2.
+sharp sand for mortar	Bulk bag of sand sold for mixing mortar.	C8	K-174	Sand sold for mortar is C8.
+paving slabs	Concrete slabs laid to make a patio.	C8	K-174	Paving is C8.
+garden hose water pump	Electric pump that draws water from a water butt to a hose.	C2	K-175	Pumps to move water for watering are C2.
+submersible sump pump	Electric pump for emptying flooded cellars.	C1	K-175	Drainage pumps are C1.
+pool chlorine tablets	Tub of chlorine tablets for a swimming pool.	C2	K-176	Pool chemicals are C2.
+robotic pool cleaner	Self-moving cleaner robot for swimming pool floors.	C2	K-176	Pool cleaning equipment is C2.
+hot tub filter cartridge	Pleated filter that fits one model of hot tub.	B7	K-176	Hot-tub equipment follows the hot tub.
+rain water butt	200-litre plastic barrel with tap collecting roof water.	C2	K-177	Water butts are C2.
+underground rain tank	Large buried tank to store rainwater for a garden.	C2	K-177	Rain tanks are C2.
+weedkiller concentrate	Bottle of herbicide for killing weeds on paths.	C2	K-178	Made to kill weeds is C2.
+ant killer powder	Tub of insecticide dust for ants in the house.	B8	K-178	Made to kill household pests is B8.
+ceramic cachepot	Glazed decorative outer pot that a plant pot sits inside.	C2	K-179	Cachepots are C2.
+plant stand	Tiered wooden stand for pots in a room.	B1	K-179	Plant stands are B1.
+brass candlestick	Tall brass holder with an open cup for one candle.	B4	K-180	An open holder for a candle is B4.
+wall candle sconce	Metal bracket on a wall holding an open candle.	B4	K-180	Wall sconce for candles is B4.
+enclosed storm lantern	Glass-chimney metal lantern with a carrying handle burning paraffin or batteries.	B3	K-180	An enclosed lantern made to be carried is B3.
+under-cabinet led strip	Adhesive strip of LEDs to light a kitchen worktop.	B3	K-181	A light strip sold to light a space is B3.
+decorative fairy lights	String of tiny warm lights to drape on a shelf.	B4	K-181	String and fairy lights as decoration are B4.
+hand-painted wall plate	Ceramic plate painted with flowers, made with a hole to hang on a wall.	B5	K-182	Every plate made to hold food is B5; display is a tag.
+wooden serving tray	Rectangular tray with handles for carrying drinks.	B5	K-182	Trays made to hold food are B5.
+lavender essential oil for diffuser	Small bottle of oil dropped in a fragrance burner.	B4	K-183	Diffuser essential oil is B4.
+chest rub eucalyptus oil	Bottle of oil whose label says it relieves congestion from colds.	H2	K-183	Sold to treat a condition is H2.
+electric aroma diffuser	Ultrasonic mist unit with a water tank.	B4	K-183	Electric diffusers are B4.
+vanity unit with basin	Bathroom cabinet with a ceramic basin built into its top.	B7	K-184	A washbasin built into its cabinet is B7.
+vanity cabinet without basin	Bathroom cabinet with a bare worktop, to take any basin.	B1	K-184	A cabinet without a basin is B1.
+bathroom heated towel rail	Wall-mounted heated rail that warms towels.	B7	K-185	A heated towel rail is B7.
+free-standing heated airer	Folding rack with heated bars drying washing in a room.	B6	K-185	A heated airer is B6.
+electric boiler	Wall-hung unit heating radiators and hot water.	B7	K-186	Boilers are B7.
+underfloor heating mat kit	Roll of heating cable mat to lay under tiles.	B7	K-186	Underfloor heating kits are B7.
+shower tray	Ceramic base tray for a shower.	C8	K-186	Shower trays are C8.
+anti-burglar gravel	Bulk bag of sharp gravel to lay by walls so footsteps are noisy.	C2	K-187	Gravel of any kind is stone, C2.
+anti-climb spikes	Plastic spikes fixed to a fence top.	B8	K-187	Anti-climb spikes are B8.
+security window film	Clear film stuck to glass to hold it when smashed.	B8	K-187	Security window film is B8.
+freestanding letterbox on post	Metal mailbox on its own post at the gate.	B8	K-188	Freestanding letterboxes are B8.
+door letter plate	Brass flap with an opening fitted in the door itself.	C8	K-188	Letter plates fitted in a door are C8.
+curtain pole with rings	Wooden pole with finials and rings for hanging curtains.	B2	K-189	Curtain poles and rings are B2.
+rug underlay	Felt sheet laid beneath a rug.	B2	K-189	Rug underlay is B2.
+workbench with vice	Heavy wooden bench with a vice for working with tools.	C1	K-190	A workbench is C1.
+hospital bed	Electric adjustable bed with side rails for patients.	H2	K-190	Hospital beds are H2.
+barber chair	Reclining chair with a footrest for cutting hair.	H1	K-190	Barber chairs are H1.
+bookends	Pair of metal supports holding books upright on a shelf.	B1	K-191	Bookends are B1.
+soy wax for candle making	Bag of wax for candle making.	C4	K-191	Candle-making supplies are C4.
+flagpole	Tall aluminium pole with halyard for a flag.	B4	K-192	Flagpole follows the flag, B4.
+fire exit safety sign	Green running man sign with regulation text.	C8	K-192	Regulatory and safety signs are C8.
+padded post envelope	Bubble-lined envelope for mailing small items.	C5	K-193	Padded envelopes are C5.
+bubble wrap roll	Roll of plastic bubble wrap for packing.	C8	K-193	Packing materials are C8.
+lidded storage box	Cardboard archive box with lid for keeping files at home.	B1	K-193	Boxes made for storing things are B1.
+mini excavator	Tracked machine with a bucket and boom, for digging trenches.	C1	K-194	Self-propelled machine made to dig is C1.
+skid steer loader	Small wheeled loader with lift arms for moving soil.	C1	K-194	Machines made to load or move material are C1.
+forestry harvester	Forest machine with a crane and cutting head felling and trimming trees.	C7	K-194	Farm or forestry job goes to C7.
+electric fence energiser	Mains unit that sends pulses along fence wire to keep livestock in.	C8	K-195	Electric-fence energisers are C8.
+wire mesh fence panel	Galvanised wire panel for fencing a field.	C8	K-195	Fence panels are C8.
+cattle crush	Steel cage with squeeze gates to hold cattle for treatment.	C7	K-195	Livestock handling systems are C7.
+cabinet knob	Ceramic round knob screwed to a kitchen cupboard door.	C8	K-196	Cabinet knobs are C8.
+cabinet pull handle	Steel bar handle for drawers.	C8	K-196	Cabinet pulls are C8.
+door lockset with deadbolt	Door handle set with a key cylinder lock and latch.	B8	K-196	A lockset that includes a lock is B8.
+backdrop support stand	Pair of telescoping uprights with a crossbar for holding a studio backdrop.	D4	R-1	Studio stands are D4.
+muslin photo backdrop	Large painted cotton cloth hung behind sitters in a studio.	B2	R-1	The backdrop itself is B2.
+relic in reliquary	Gilded casket containing a small bone fragment of a saint, housed for veneration.	F4	R-3	Relic housed in a reliquary is F4.
+anatomical human spine specimen	Real human vertebral column wired and mounted for anatomy teaching.	OUT	R-3	Other human remains and anatomical specimens are OUT.
+decorative mezuzah case	Silver tube-shaped case with a window for the scroll, to fix to a doorpost.	F4	R-4	The mezuzah case stays a kind in F4.
+plain plastic mezuzah case	Clear plastic case for a mezuzah scroll.	F4	R-4	The mezuzah case is F4.
+illustrated oracle deck	Deck of 44 cards painted with woodland creatures and a guide book for readings, published by a small press.	F4	R-5	Published oracle deck is a named form under F4.
+tarot deck with art-nouveau designs	78-card divination deck with art-nouveau illustrations by a publisher.	F4	R-5	Every published deck design is a named form under its kind.
+mouse snap trap	Wooden spring trap with bait pedal for house mice.	B8	R-6	Mouse, rat and insect traps are B8.
+leg-hold fur trap	Steel jaw trap set to catch foxes for fur.	E2	R-6	Traps for game or fur go with hunting gear, E2.
+building bird netting	Plastic mesh net fixed over eaves to stop pigeons nesting on a house.	B8	R-7	Bird netting for buildings is B8.
+vegetable garden crop netting	Fine net draped over cabbages to stop birds and butterflies.	C2	R-7	Garden crop netting stays C2.
+freestanding play yard	Folding mesh playpen standing on the floor for a baby.	B1	R-8	A freestanding play yard is B1.
+fitted safety gate for stairs	Gate screwed into a stairway wall to stop toddlers.	B8	R-8	A gate fitted to the home is B8.
