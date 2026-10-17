@@ -7,6 +7,9 @@ A taxonomy of the things people own and keep: every generic type of object a per
 - **Stage 2 – one structure study per category.** A research memo per category on how the domain itself is organised (axes, depth, tiers, makers, scenes, order), from which the owner approves that category's structure. Pilot on Clothing and PC components.
 - **Stage 3 – build.** Harvest kinds under the approved structures, attest, audit, publish.
 
+## State
+Stage 1 done for owner review: `framework/CATEGORIES_v0_3.md` (44 categories) and `framework/STAGE1_REVIEW.md`. See STATUS.md for test results and the owner queue.
+
 ## Layout
 - `BRIEF.md` – owner decisions. `STATUS.md` – session log, phases, owner queue.
 - `framework/` – the category framework (CATEGORIES_v*.md) and, later, per-category structure memos.

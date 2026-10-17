@@ -8,8 +8,8 @@ Search cap: `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` = 100000. Test WebFetch (
 | 0 | Scaffold repo (CLAUDE, BRIEF, settings, layout) | done |
 | 1 | Harvest source classifications H01–H06; collect probe items P01–P04 | done: 4,007 source nodes (data/source_nodes.tsv); 438 probe items (data/probes.tsv: 300 round 1, 138 round 2) |
 | 2 | Draft category framework v0 | done: framework/CATEGORIES_v0.md (9 domains, 37 categories, 27-step key); frozen copy audit/CATEGORIES_R1.md |
-| 3 | Blind placement round 1 (BP1 A–C), source crosswalk (CW01–04), cold audit (AU1); fixes; round 2 on fresh items | running |
-| 4 | Close: results, owner queue, stage-2 memo template | |
+| 3 | Round 1 (BP1, CW01–04, AU1) → v0.1; round 2 (BP2, CWR1–2, AU2) → v0.2; round 3 (BP3 + audit regression set) → v0.3 | done |
+| 4 | Close: results, owner queue, stage-2 memo template, review page | done |
 
 ### Harvest notes (phase 1)
 - Sources reached: Google Product Taxonomy (complete), Shopify (level 1, partial level 2), GS1 GPC segments; Getty AAT Objects facet, Nomenclature 4.0 (complete), SHIC sections; COICOP 2018, UNSPSC, HS 2022, BLS CPI; Etsy, Walmart, IKEA, Mercari, Rakuten, JD, Mercado Libre, Allegro, Jumia, Craigslist, Facebook Marketplace; Christie's, Sotheby's, Heritage, Phillips, Catawiki, LiveAuctioneers, Invaluable, eBay collectibles, Depop, Grailed, Reverb, Chrono24, Discogs; NAIC, III, State Farm, UK contents lists, ISO scheduled property, US bankruptcy Schedule B, a probate inventory, property and digital-asset guidance.
@@ -54,3 +54,29 @@ Search cap: `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION` = 100000. Test WebFetch (
 - Scope: digital licences are not rights (I1); living cultures are in; burial plots however held; access and payment cards F5; human remains OUT; alcohol in sealed containers and smoking products (tobacco, cannabis, nicotine) in B9.
 
 - **Process fault (round 3):** the three placers shared the session scratchpad; placer C read about 174 of another placer's rows and wrote into its file. C's output is kept as verify/out/BP3x_C_contaminated.tsv and excluded; a fresh placer D replaces it. BLIND_COMMON.txt now confines scratch files to verify/work/<BATCH>/. A's and B's outputs were checked complete and are their own final files.
+
+### Round 3 results (framework v0.2, audit/CATEGORIES_R3.md)
+| Test | Result |
+|---|---|
+| Blind placement BP3, 698 items (438 probes + 260 regression objects from both audits), placers A, B, D | 97.4 % unanimous, 100 % majority, no splits, Fleiss κ 0.982 |
+| Probes only (438) | 98.4 % unanimous |
+| Audit regression objects (260) | 95.8 % unanimous |
+
+- Non-unanimous (18): computer speakers, Dictabelt, meditation mat, steel-toe and safety boots, scrapbook, tricycle, medical alert bracelet, riding hat, cigarette case, Easter basket, ceremonial mace, judge's gavel, sack truck, shirt button, animal hide, empty picture frame, jeweller's saw. Majority homes for the regression set were checked by hand; the questionable ones (garden tractor in C7, hide in F6, mace and gavel in X0 or B4) are fixed in v0.3.
+- **v0.3** adds one precedence sentence for each of these (footwear branch before protective clothing; equestrian riding hats E2; medical alert tags H2; sack trucks and hand carts C1; shopping trolleys A4; garden tractors C2; regalia of office F3; computer speakers D3; all recording carriers F1; meditation mats B2; blank scrapbooks C4; children's tricycles E1; cigarette cases B9; picture frames B4; festival baskets B1; loose notions and tanned hides C4). v0.3 has not been re-tested.
+
+### Session 1 summary
+- Stage 1 delivered: framework/CATEGORIES_v0_3.md (44 categories in 9 domains, 32-step key, S1–S6, Appendix A modifiers) and framework/STAGE1_REVIEW.md (one-page review). Stage-2 memo template: framework/STAGE2_MEMO_TEMPLATE.md.
+- Data: data/source_nodes.tsv (4,007 outside nodes from 30 classifications), data/probes.tsv (438 sourced probe items + 260 audit regression objects). Tools: tools/build_probes.py, build_nodes.py, score_blind.py, score_crosswalk.py.
+- Agents: 6 harvest, 4 probe collectors, 13 blind placers (one excluded), 6 crosswalk, 2 Opus cold auditors, 1 regression builder. Web use: about 90 searches and 260 fetches; no cap notice.
+
+## OWNER QUEUE
+1. **Approve, edit or reject the 44 categories** (framework/STAGE1_REVIEW.md). Stage 2 starts only after this.
+2. **Wine and spirits.** Kept in scope as B9 (your decision: wine cellars are in), now by object: every alcoholic drink in a sealed container that a person owns. AU2 suggests moving drink stock to the Culinary taxonomy and leaving B9 as Smoking & Vaping. Keep, or move?
+3. **Cannabis and nicotine products** are in B9 alongside tobacco. Confirm.
+4. **Accounts and currency:** game, social and email accounts are OUT, but items held in them are I1. Cryptocurrency holdings are OUT like a bank balance; NFTs are in. Confirm.
+5. **Baby and child goods** have no category; the user's age is a modifier, and a generated 'baby & child' view could follow later. Confirm, or ask for a category.
+6. **Stage-2 pilot.** Proposed: one study for A1 Clothing (with A2, A3 and A4 as neighbours) and one for D1 Computers & Components, using the memo template. Confirm the pair.
+
+## Next (session 2)
+After the owner's answers to the queue: apply any category edits to v0.3, re-run one blind round if anything structural changed, then run the stage-2 pilot memos for the two approved categories (template in framework/STAGE2_MEMO_TEMPLATE.md; web research agents, Opus reviewer per memo).
