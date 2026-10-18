@@ -25,6 +25,9 @@ def main():
     if code == "A1":
         linked |= {t["subject_id"] for t in load("scene_tags") if t["subject_type"] == "maker"}
     makers = {m["maker_id"]: m for m in load("makers")}
+    # brands only: makers recorded only as manufacturers in a producers' directory are attested makers but not brands,
+    # and the reference counts brands (R-91)
+    linked = {m for m in linked if "manufacturer" not in makers.get(m, {}).get("supply_role", "")}
     by_c = Counter(); by_r = Counter(); unknown = 0
     for m in linked:
         c = country(makers.get(m, {}).get("country", ""))

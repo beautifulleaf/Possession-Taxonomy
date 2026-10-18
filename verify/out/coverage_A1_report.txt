@@ -1,40 +1,39 @@
-A1: 21717 brands linked; 563 without a country (3 %)
-  West & Central Africa          651   NG 141, GH 101, SN 67, CM 40, SL 35, AO 31, TG 27, BJ 25, CI 21, TD 21, BF 20, ML 17
-  East & Southern Africa        1093   ZA 706, UG 49, ET 41, KE 41, BW 30, TZ 30, MW 25, MZ 24, NA 22, ZM 20, ZW 17, SZ 17
-  North Africa & Middle East     933   TR 304, IR 74, SA 74, DZ 52, QA 43, AE 39, EG 38, LB 34, TN 34, KW 28, BH 28, CY 27
+A1: 22633 brands linked; 563 without a country (2 %)
+  West & Central Africa          651   NG 141, GH 101, SN 67, CM 40, SL 35, AO 31, TG 27, BJ 25, TD 21, CI 21, BF 20, ML 17
+  East & Southern Africa        1093   ZA 706, UG 49, KE 41, ET 41, BW 30, TZ 30, MW 25, MZ 24, NA 22, ZM 20, ZW 17, SZ 17
+  North Africa & Middle East     933   TR 304, SA 74, IR 74, DZ 52, QA 43, AE 39, EG 38, TN 34, LB 34, BH 28, KW 28, CY 27
   Central Asia & Caucasus        339   KZ 61, AM 50, AZ 48, UZ 47, GE 46, TM 25, TJ 24, KG 21, AF 17
   South Asia                     701   IN 433, PK 87, LK 69, BD 37, NP 36, BT 24, MV 15
-  Southeast Asia                 727   ID 135, VN 123, SG 101, MY 92, PH 88, TH 82, KH 34, LA 24, MM 24, BN 19, TL 5
+  Southeast Asia                 727   ID 135, VN 123, SG 101, MY 92, PH 88, TH 82, KH 34, MM 24, LA 24, BN 19, TL 5
   East Asia                     2320   CN 1022, JP 676, KR 352, HK 120, TW 90, MN 34, MO 25, KP 1
-  Eastern Europe                1298   RU 149, BG 145, PL 141, UA 132, RS 105, EE 96, BY 85, RO 65, HU 56, LT 55, CZ 48, HR 37
+  Eastern Europe                2214   RU 1065, BG 145, PL 141, UA 132, RS 105, EE 96, BY 85, RO 65, HU 56, LT 55, CZ 48, HR 37
   Western & Northern Europe     6803   GB 2148, IT 1008, ES 988, FR 812, NL 442, BE 355, GR 223, DE 177, CH 158, SE 88, AT 86, DK 67
   North America                 3755   US 3391, CA 346, BM 10, GL 7, PM 1
-  Latin America & Caribbean     1683   BR 709, MX 109, AR 98, CO 84, PE 51, VE 45, PR 43, BO 43, CR 40, HN 37, CL 37, PA 37
-  Oceania                        851   AU 655, NZ 62, FJ 30, PG 26, WS 19, SB 16, VU 15, GU 9, NC 7, TO 5, CK 2, PF 2
+  Latin America & Caribbean     1683   BR 709, MX 109, AR 98, CO 84, PE 51, VE 45, PR 43, BO 43, CR 40, PA 37, HN 37, CL 37
+  Oceania                        851   AU 655, NZ 62, FJ 30, PG 26, WS 19, SB 16, VU 15, GU 9, NC 7, TO 5, PF 2, CK 2
   other                            0   
 
-Against the reference (222 countries; actual share of the 21154 brands with a country):
+Against the reference (222 countries; actual share of the 22070 brands with a country):
   region                        actual expected  ratio
-  West & Central Africa           3.1%     0.3%   9.13
-  East & Southern Africa          5.2%     0.7%   7.01
-  North Africa & Middle East      4.4%     5.4%   0.82
-  Central Asia & Caucasus         1.6%     0.8%   2.13
-  South Asia                      3.3%     5.4%   0.62
-  Southeast Asia                  3.4%     2.5%   1.37
-  East Asia                      11.0%    20.4%   0.54
-  Eastern Europe                  6.1%     5.5%   1.11
-  Western & Northern Europe      32.2%    26.6%   1.21
-  North America                  17.8%    23.4%   0.76
-  Latin America & Caribbean       8.0%     6.1%   1.31
-  Oceania                         4.0%     3.0%   1.34
+  West & Central Africa           2.9%     0.3%   8.75
+  East & Southern Africa          5.0%     0.7%   6.72
+  North Africa & Middle East      4.2%     5.4%   0.79
+  Central Asia & Caucasus         1.5%     0.8%   2.04
+  South Asia                      3.2%     5.4%   0.59
+  Southeast Asia                  3.3%     2.5%   1.31
+  East Asia                      10.5%    20.4%   0.52
+  Eastern Europe                 10.0%     5.5%   1.82
+  Western & Northern Europe      30.8%    26.6%   1.16
+  North America                  17.0%    23.4%   0.73
+  Latin America & Caribbean       7.6%     6.1%   1.26
+  Oceania                         3.9%     3.0%   1.29
   other                           0.0%        -
 
-  8 countries flagged (expected >= 0.5 %, ratio < 0.5):
-    DE  brands   177  actual  0.84%  expected  3.98%  ratio 0.21  (+250 brands to reach 0.5)
-    RU  brands   149  actual  0.70%  expected  2.28%  ratio 0.31  (+94 brands to reach 0.5)
-    CN  brands  1022  actual  4.83%  expected 13.20%  ratio 0.37  (+401 brands to reach 0.5)
-    IR  brands    74  actual  0.35%  expected  0.92%  ratio 0.38  (+24 brands to reach 0.5)
-    TW  brands    90  actual  0.43%  expected  0.97%  ratio 0.44  (+13 brands to reach 0.5)
-    MX  brands   109  actual  0.52%  expected  1.11%  ratio 0.46  (+9 brands to reach 0.5)
-    SE  brands    88  actual  0.42%  expected  0.91%  ratio 0.46  (+9 brands to reach 0.5)
-    IN  brands   433  actual  2.05%  expected  4.30%  ratio 0.48  (+23 brands to reach 0.5)
+  7 countries flagged (expected >= 0.5 %, ratio < 0.5):
+    DE  brands   177  actual  0.80%  expected  3.98%  ratio 0.20  (+268 brands to reach 0.5)
+    CN  brands  1022  actual  4.63%  expected 13.20%  ratio 0.35  (+466 brands to reach 0.5)
+    IR  brands    74  actual  0.34%  expected  0.92%  ratio 0.37  (+28 brands to reach 0.5)
+    TW  brands    90  actual  0.41%  expected  0.97%  ratio 0.42  (+18 brands to reach 0.5)
+    MX  brands   109  actual  0.49%  expected  1.11%  ratio 0.44  (+14 brands to reach 0.5)
+    SE  brands    88  actual  0.40%  expected  0.91%  ratio 0.44  (+13 brands to reach 0.5)
+    IN  brands   433  actual  1.96%  expected  4.30%  ratio 0.46  (+43 brands to reach 0.5)
