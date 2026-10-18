@@ -5,7 +5,9 @@ figures, each on a fetched page) and writes verify/out/coverage_reference_<CODE>
 basis, sources, fetch_status). Method (R-80):
 - market: the category's market size. P1 (one consistent market-research family) where it covers the country;
   else P1b (other market figures) scaled by the median P1/P1b ratio of the countries both cover; else modelled as
-  GDP (proxy G) times the median P1/GDP ratio, so every country has a market estimate.
+  GDP (proxy G) times the median P1/GDP ratio, so every country has a market estimate. Export or production
+  figures are not a market (they favour producer countries and re-export hubs): P1b rows whose unit or notes say
+  export are set aside and GDP fills those countries instead (R-98).
 - trademarks: P2 when it covers at least MIN_COUNTRIES countries, else P2b (all-class filing activity by origin).
 - wikipedia: P3 + P3b page counts (brand and company categories by country).
 - A family covering under half of world GDP (a regional source such as an EU-only count) is left out: its shares
@@ -31,6 +33,7 @@ def main():
         except ValueError: continue
         if not c or v <= 0: continue
         p = r["proxy"].strip()
+        if p == "P1b" and "export" in (r.get("unit", "") + " " + r.get("notes", "")).lower(): continue  # R-98
         raw[p][c].append(v); src[c][p].add((r["source"].strip(), (r.get("fetch_status") or "").strip()))
     val = {p: {c: statistics.median(vs) for c, vs in d.items()} for p, d in raw.items()}  # one figure per country
     gdp = val.get("G", {}); world = sum(gdp.values()) or 1
