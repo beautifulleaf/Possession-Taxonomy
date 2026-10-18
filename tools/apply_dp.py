@@ -57,7 +57,7 @@ def main():
         if kid in known: continue
         if u in log:
             p = r["parent"].strip(); parts = kid.split(".")
-            ready.append({"kind_id": kid, "code": code, "sub_family": ".".join(parts[:2]), "leaf": ".".join(parts[:3]) if len(parts) == 4 and parts[2] != "0" or (len(parts) == 4 and p.count(".") == 2) else "",
+            ready.append({"kind_id": kid, "code": code, "sub_family": ".".join(parts[:2]), "leaf": ".".join(parts[:3]) if len(parts) == 4 else "",
                           "name": r["name"].strip(), "native_name": "", "definition": r["definition"].strip(), "sort": parts[-1].lstrip("0") or "0",
                           "status": "attested", "memo_ref": b, "tested": "top-level", "notes": r["reason"].strip()[:120],
                           "sources": u, "fetch_status": log[u]})
