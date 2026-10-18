@@ -1,0 +1,3 @@
+# MOD_D1_1 report
+1,154 models as named forms under all 62 lines. Thin: ASRock Challenger (asrock.com empty, TechPowerUp 403), Nitro, Beelink, Corsair H-series; ROG/Prime/TUF partial listings; AMD Ryzen rows from one summarised Wikipedia read, all partial (Ryzen AI, Z-series, embedded not written). Compaq Presario/Armada rows partly series-level (review).
+Line fixes for the D1 review: L-asrock-challenger lists D1.2.3.01 but Challenger is a graphics card (D1.2.6.01); L-asus-rog-strix and L-asus-prime lack D1.2.6.01; L-asus-proart lacks D1.2.3.01 (rows filed under the real kind). Amiga 1000–4000, CDTV, CD32, Atari Mega ST, TT030, STacy fit no kind on their lines (verify/out/MOD_D1_1_problems.txt).
