@@ -2,10 +2,13 @@
 usage: build_pilot_page.py [CODE ...]   (default A1 D1)
 Reads data/nodes.tsv, kinds.tsv, named_forms.tsv, lines.tsv and makers.tsv; embeds them as JSON and renders the
 trees in the browser: category tabs, sub-family rail, kinds with definition and attesting pages, named forms by
-maker, lines, and a maker ledger tab. The page is generated; edit this script, never the HTML."""
-import html, json, sys
+maker, lines, and a maker ledger tab. A1 opens "By scene" (R-71); its "Coverage" view shows brands per region and
+country against the reference distribution (tools/coverage.py, R-80, R-94). The page is generated; edit this script,
+never the HTML."""
+import html, json, subprocess, sys
 from collections import defaultdict
 from common import ROOT, read_tsv
+from regions import REGIONS, REGION_OF
 
 CODES = sys.argv[1:] or ["A1", "D1"]
 OUT = ROOT / "pages" / "pilot.html"
@@ -34,7 +37,11 @@ def main():
     for l in lines:
         for k in l["kinds"].split(";"):
             if k in kind_ids: mk_kinds[l["maker_id"]].add(k)
-    used = {m for m in mk_kinds}
+    for r in read_tsv(ROOT / "data/maker_kinds.tsv"):  # garment-level and category-level ties (R-75, R-76)
+        if r["kind_id"] in kind_ids or r["kind_id"] in CODES:
+            mk_kinds[r["maker_id"]].add(r["kind_id"])
+    brand_only = {m for m in makers if "manufacturer" in makers[m].get("supply_role", "")}
+    used = {m for m in mk_kinds if m not in brand_only}
     data = {
         "codes": [{"code": c, "name": NAMES.get(c, c)} for c in CODES],
         "nodes": [{"id": n["node_id"], "code": n["code"], "level": n["level"], "parent": n["parent_id"], "name": n["name"],
@@ -49,7 +56,7 @@ def main():
         "lines": [{"id": l["line_id"], "maker": l["maker_id"], "name": l["name"], "kinds": [k for k in l["kinds"].split(";") if k],
                    "src": srcs(l)} for l in lines],
         "makers": {m: {"name": makers[m]["name"], "native": makers[m]["native_name"], "cls": makers[m]["maker_class"],
-                       "country": makers[m]["country"], "src": srcs(makers[m]), "kinds": sorted(mk_kinds[m])}
+                       "country": makers[m]["country"], "src": srcs(makers[m])[:1], "kinds": sorted(mk_kinds[m])}
                    for m in sorted(used) if m in makers},
         "ledger": len([m for m in makers.values()]),
         "scenes": [{"id": x["scene_id"], "name": x["name"], "native": x["native_name"], "cluster": x["cluster"],
@@ -62,13 +69,33 @@ def main():
         m = t["maker"]
         if m not in data["makers"] and m in makers:
             data["makers"][m] = {"name": makers[m]["name"], "native": makers[m]["native_name"], "cls": makers[m]["maker_class"],
-                                 "country": makers[m]["country"], "src": srcs(makers[m]), "kinds": sorted(mk_kinds[m])}
-    blob = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
-    page = TEMPLATE.replace("__DATA__", blob)
+                                 "country": makers[m]["country"], "src": srcs(makers[m])[:1], "kinds": sorted(mk_kinds[m])}
+    data["coverage"] = coverage()
+    blob = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
     OUT.parent.mkdir(exist_ok=True)
+    dp = OUT.with_name("pilot-data.json"); tmpd = dp.with_suffix(".tmp"); tmpd.write_text(blob, encoding="utf-8"); tmpd.replace(dp)
+    page = TEMPLATE  # the data ships beside the page as pilot-data.json (published with it), so the page itself stays small
     tmp = OUT.with_suffix(".tmp"); tmp.write_text(page, encoding="utf-8"); tmp.replace(OUT)
-    print(OUT, round(OUT.stat().st_size / 1024), "KB;", len(kinds), "kinds,", len(nfs), "named forms,", len(lines), "lines,",
+    print(OUT, round(OUT.stat().st_size / 1024), "KB page +", round(len(blob.encode()) / 1024), "KB data;", len(kinds), "kinds,", len(nfs), "named forms,", len(lines), "lines,",
           len(data["makers"]), "makers linked")
+
+def coverage(code="A1"):
+    """Per region and country: brands, actual share, expected share, ratio (tools/coverage.py writes the table)."""
+    subprocess.run([sys.executable, str(ROOT / "tools/coverage.py"), code], capture_output=True, text=True)
+    rows = read_tsv(ROOT / f"verify/out/coverage_{code}.tsv")
+    unknown = sum(int(r["brands"] or 0) for r in rows if r["region"] == "unknown")
+    cs = [r for r in rows if r["country"]]
+    known = sum(int(r["brands"] or 0) for r in cs) or 1
+    regs = []
+    for reg in REGIONS:
+        rr = [r for r in cs if REGION_OF.get(r["country"]) == reg]
+        b = sum(int(r["brands"] or 0) for r in rr); e = sum(float(r["expected"] or 0) for r in rr)
+        regs.append({"region": reg, "brands": b, "share": b / known, "expected": e, "ratio": (b / known) / e if e else None,
+                     "countries": len([r for r in rr if int(r["brands"] or 0)])})
+    ctr = [{"c": r["country"], "region": r["region"], "brands": int(r["brands"] or 0), "share": float(r["share"] or 0),
+            "expected": float(r["expected"] or 0), "ratio": float(r["ratio"]) if r["ratio"] else None, "flag": r["flag"]}
+           for r in cs]
+    return {"code": code, "known": known, "unknown": unknown, "regions": regs, "countries": ctr}
 
 TEMPLATE = r"""<title>Possession Taxonomy Pilot</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -166,6 +193,17 @@ details.brand > summary::-webkit-details-marker { display: none; }
 details.brand.core { border-left: 3px solid var(--accent); }
 .bbody { padding: 0 10px 10px; display: grid; gap: 8px; font: 13px/1.45 var(--display); }
 .sub { color: var(--muted); font: 12px/1.3 var(--mono); }
+.cov td.num, .cov th.num { text-align: right; font-variant-numeric: tabular-nums; font-family: var(--mono); font-size: 12.5px; }
+.bars { position: relative; height: 18px; min-width: 140px; }
+.bars span { position: absolute; left: 0; height: 8px; border-radius: 2px; }
+.bars .act { top: 1px; background: var(--accent); }
+.bars .exp { top: 10px; background: var(--muted); opacity: .55; }
+.ratio { font: 600 12px/1 var(--mono); padding: 3px 6px; border-radius: 4px; font-variant-numeric: tabular-nums; }
+.ratio.low { background: var(--mark-soft); color: var(--mark); }
+.ratio.okr { background: var(--ok-soft); color: var(--ok); }
+.ratio.mid { background: var(--accent-soft); color: var(--accent); }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font: 12px/1.3 var(--display); color: var(--muted); margin: 0 0 12px; }
+.legend i { display: inline-block; width: 18px; height: 8px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
 @media (max-width: 860px) {
   .wrap { grid-template-columns: minmax(0, 1fr); gap: 16px; }
   nav.rail { position: static; max-height: 220px; border: 1px solid var(--rule); border-radius: 8px; padding: 12px; background: var(--surface); }
@@ -178,11 +216,12 @@ details.brand.core { border-left: 3px solid var(--accent); }
 <div class="tabs" role="tablist" id="tabs"></div>
 <input class="search" id="q" type="search" placeholder="Filter kinds, models, makers" aria-label="Filter kinds, models and makers">
 </div></header>
-<div class="wrap"><nav class="rail" aria-label="Sub-families" id="rail"></nav><main id="main"></main></div>
-<script id="data" type="application/json">__DATA__</script>
+<div class="wrap"><nav class="rail" aria-label="Sub-families" id="rail"></nav><main id="main"><p class="note">Loading the taxonomy data (about 8 MB)…</p></main></div>
 <script>
-(function () {
-  const D = JSON.parse(document.getElementById('data').textContent);
+fetch('pilot-data.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(start).catch(e => {
+  document.getElementById('main').textContent = 'The data file did not load (' + e.message + '). Reload the page to try again.';
+});
+function start(D) {
   const $ = (t, a = {}, ...kids) => { const e = document.createElement(t); for (const [k, v] of Object.entries(a)) { if (k === 'class') e.className = v; else if (k === 'text') e.textContent = v; else e.setAttribute(k, v); } kids.flat().forEach(c => c != null && e.append(c)); return e; };
   const nfByKind = {}, linesByKind = {};
   D.nfs.forEach(n => (nfByKind[n.kind] ||= []).push(n));
@@ -299,11 +338,41 @@ details.brand.core { border-left: 3px solid var(--accent); }
     rail.append($('h2', { text: 'Scene clusters' }), ol);
   }
 
+  function renderCoverage() {
+    const main = document.getElementById('main'), rail = document.getElementById('rail'), C = D.coverage;
+    const pct = x => (100 * x).toFixed(x >= 0.1 ? 1 : 2) + ' %';
+    const maxShare = Math.max(...C.regions.map(r => Math.max(r.share, r.expected)), ...C.countries.map(r => Math.max(r.share, r.expected)));
+    const bars = (a, e) => $('div', { class: 'bars', role: 'img', 'aria-label': 'actual ' + pct(a) + ', expected ' + pct(e) },
+      $('span', { class: 'act', style: 'width:' + (100 * a / maxShare).toFixed(1) + '%' }), $('span', { class: 'exp', style: 'width:' + (100 * e / maxShare).toFixed(1) + '%' }));
+    const ratioChip = q => q == null ? $('span', { class: 'sub', text: 'no reference' }) : $('span', { class: 'ratio ' + (q < 0.5 ? 'low' : q < 1 ? 'mid' : 'okr'), text: q.toFixed(2) });
+    const flagged = C.countries.filter(r => r.flag);
+    main.append($('div', { class: 'stats' }, [[C.known + C.unknown, 'clothing brands'], [C.countries.filter(r => r.brands).length, 'countries with brands'], [C.unknown, 'without a country'], [flagged.length, 'countries below half their share']]
+      .map(([n, l]) => $('div', {}, $('b', { text: n.toLocaleString('en') }), $('span', { text: l })))));
+    main.append($('p', { class: 'note', text: 'Coverage of clothing brands against a reference distribution of the world\'s brands, built from fetched figures: apparel market size (GDP where no market figure was found), trademark filing activity by origin, and Wikipedia brand counts, combined as a geometric mean. A ratio of 1 means a country holds its expected share; a country expected to hold at least 0.5 % of brands is flagged below 0.5. Thin countries were raised with depth passes; no attested brand was removed to balance the count.' }));
+    main.append($('div', { class: 'legend' }, $('span', {}, $('i', { style: 'background:var(--accent)' }), 'actual share'), $('span', {}, $('i', { style: 'background:var(--muted);opacity:.55' }), 'expected share')));
+    main.append($('h2', { class: 'sf', id: 'cov-regions', text: 'By region' }));
+    const rt = $('tbody');
+    C.regions.forEach(r => rt.append($('tr', {}, $('td', { text: r.region }), $('td', { class: 'num', text: r.brands.toLocaleString('en') }), $('td', { class: 'num', text: r.countries }),
+      $('td', { class: 'num', text: pct(r.share) }), $('td', { class: 'num', text: pct(r.expected) }), $('td', {}, ratioChip(r.ratio)), $('td', {}, bars(r.share, r.expected)))));
+    main.append($('div', { class: 'tw' }, $('table', { class: 'mk cov' }, $('thead', {}, $('tr', {}, [['Region'], ['Brands', 'num'], ['Countries', 'num'], ['Actual', 'num'], ['Expected', 'num'], ['Ratio'], ['Shares']].map(([h, c]) => $('th', c ? { class: c, text: h } : { text: h })))), rt)));
+    main.append($('h2', { class: 'sf', id: 'cov-countries', text: 'By country' }));
+    const ct = $('tbody');
+    const rows = C.countries.slice().sort((a, b) => b.expected - a.expected || b.brands - a.brands).map(r => {
+      const tr = $('tr', {}, $('td', { text: r.c }), $('td', { text: r.region }), $('td', { class: 'num', text: r.brands.toLocaleString('en') }), $('td', { class: 'num', text: pct(r.share) }),
+        $('td', { class: 'num', text: r.expected ? pct(r.expected) : '–' }), $('td', {}, ratioChip(r.ratio)), $('td', {}, bars(r.share, r.expected)));
+      tr.dataset.text = (r.c + ' ' + r.region).toLowerCase(); return tr; });
+    rows.forEach(r => ct.append(r));
+    main.append($('div', { class: 'tw' }, $('table', { class: 'mk cov' }, $('thead', {}, $('tr', {}, [['Country'], ['Region'], ['Brands', 'num'], ['Actual', 'num'], ['Expected', 'num'], ['Ratio'], ['Shares']].map(([h, c]) => $('th', c ? { class: c, text: h } : { text: h })))), ct)));
+    main._covRows = rows;
+    const ol = $('ol', {}, $('li', {}, $('a', { href: '#cov-regions' }, 'By region', $('span', { text: C.regions.length }))), $('li', {}, $('a', { href: '#cov-countries' }, 'By country', $('span', { text: C.countries.length }))));
+    rail.append($('h2', { text: 'Coverage' }), ol, $('p', { class: 'empty', text: 'Filter countries by code or region with the search box.' }));
+  }
+
   function renderMakers() {
     const main = document.getElementById('main'), rail = document.getElementById('rail');
     const ids = Object.keys(D.makers).sort((a, b) => D.makers[a].name.localeCompare(D.makers[b].name));
     main.append($('div', { class: 'stats' }, [[D.ledger, 'makers in the ledger'], [ids.length, 'linked to a pilot kind']].map(([n, l]) => $('div', {}, $('b', { text: n.toLocaleString('en') }), $('span', { text: l })))));
-    main.append($('p', { class: 'note', text: 'One maker ledger serves the whole domain. This list shows the makers tied to a pilot kind through a named form or a line; makers recorded only from brand lists are in data/makers.tsv.' }));
+    main.append($('p', { class: 'note', text: 'One maker ledger serves the whole domain. This list shows the makers tied to a pilot kind or category: through a named form, a line, a garment tie, or a category-level tie from a brand list (R-76). Producers known only from factory directories are in data/makers.tsv but not listed here.' }));
     const tb = $('tbody');
     const rows = ids.map(id => { const m = D.makers[id];
       const kn = m.kinds.map(k => (D.kinds.find(x => x.id === k) || {}).name || k);
@@ -328,6 +397,7 @@ details.brand.core { border-left: 3px solid var(--accent); }
       else { main._tbody.replaceChildren(...main._allRows.slice(0, 200)); main._more.hidden = main._allRows.length <= 200; }
       return;
     }
+    if (main._covRows) main._covRows.forEach(r => r.classList.toggle('hidden-by-search', !!q && !r.dataset.text.includes(q)));
     main.querySelectorAll('section.scene').forEach(sec => {
       let any = false;
       sec.querySelectorAll('details.brand').forEach(d => { const hit = !q || d.dataset.text.includes(q) || sec.dataset.text.includes(q); d.classList.toggle('hidden-by-search', !hit); if (hit) any = true; });
@@ -349,9 +419,9 @@ details.brand.core { border-left: 3px solid var(--accent); }
       if (hasScenes(view)) {
         const m = mode[view] || 'scene';
         const bar = $('div', { class: 'modes', role: 'group', 'aria-label': 'Navigate by' });
-        [['scene', 'By scene'], ['tree', 'By garment']].forEach(([k, l]) => { const b = $('button', { type: 'button', 'aria-pressed': String(m === k), text: l }); b.addEventListener('click', () => { mode[view] = k; render(); }); bar.append(b); });
+        [['scene', 'By scene'], ['tree', 'By garment'], ['coverage', 'Coverage']].forEach(([k, l]) => { const b = $('button', { type: 'button', 'aria-pressed': String(m === k), text: l }); b.addEventListener('click', () => { mode[view] = k; render(); }); bar.append(b); });
         document.getElementById('main').append(bar);
-        if (m === 'scene') renderScenes(view); else renderTree(view);
+        if (m === 'scene') renderScenes(view); else if (m === 'coverage') renderCoverage(); else renderTree(view);
       } else renderTree(view);
     }
     applyFilter();
@@ -359,7 +429,7 @@ details.brand.core { border-left: 3px solid var(--accent); }
   document.getElementById('q').addEventListener('input', applyFilter);
   if (!D.codes.some(c => c.code === view) && view !== 'makers') view = D.codes[0].code;
   render();
-})();
+}
 </script>
 """
 
