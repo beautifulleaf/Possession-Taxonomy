@@ -1,0 +1,70 @@
+kind_id	kind	memo_ref
+J3.1.01	Cow's milk	tree 1 Milk > Cow's milk
+J3.1.02	Buffalo milk	tree 1 Milk > Buffalo milk
+J3.1.03	Goat's milk	tree 1 Milk > Goat's milk
+J3.1.04	Sheep's milk	tree 1 Milk > Sheep's milk
+J3.1.05	Buttermilk	tree 1 Milk > Buttermilk
+J3.1.06	Evaporated and condensed milk	tree 1 Milk > Evaporated and condensed milk; J-7
+J3.1.07	Dulce de leche	tree 1 Milk > Dulce de leche; default 1 (section 12)
+J3.2.1.01	Single (light) cream	tree 2 Cream and butter > Cream > Single (light) cream
+J3.2.1.02	Whipping cream	tree 2 Cream and butter > Cream > Whipping cream
+J3.2.1.03	Thickened cream	tree 2 Cream and butter > Cream > Thickened cream
+J3.2.1.04	Double cream	tree 2 Cream and butter > Cream > Double cream
+J3.2.1.05	Soured cream	tree 2 Cream and butter > Cream > Soured cream
+J3.2.1.06	Crème fraîche	tree 2 Cream and butter > Cream > Crème fraîche
+J3.2.2.01	Butter	tree 2 Cream and butter > Butter and ghee > Butter
+J3.2.2.02	Spreadable butter blend	tree 2 Cream and butter > Butter and ghee > Spreadable butter blend; K-53
+J3.2.2.03	Clarified butter	tree 2 Cream and butter > Butter and ghee > Clarified butter
+J3.2.2.04	Ghee	tree 2 Cream and butter > Butter and ghee > Ghee
+J3.3.01	Yoghurt	tree 3 Yoghurt and fermented milks > Yoghurt
+J3.3.02	Drinking yoghurt, plain	tree 3 Yoghurt and fermented milks > Drinking yoghurt, plain; K-56, default 2
+J3.3.03	Kefir	tree 3 Yoghurt and fermented milks > Kefir
+J3.3.04	Kumys	tree 3 Yoghurt and fermented milks > Kumys
+J3.3.05	Strained (Greek-style) yoghurt	tree 3 Yoghurt and fermented milks > Strained (Greek-style) yoghurt
+J3.3.06	Skyr	tree 3 Yoghurt and fermented milks > Skyr
+J3.3.07	Other concentrated fermented milk	tree 3 Yoghurt and fermented milks > Other concentrated fermented milk
+J3.4.1.01	Cottage cheese	tree 4 Cheese > Fresh and whey cheeses > Cottage cheese
+J3.4.1.02	Cream cheese	tree 4 Cheese > Fresh and whey cheeses > Cream cheese
+J3.4.1.03	Paneer	tree 4 Cheese > Fresh and whey cheeses > Paneer
+J3.4.1.04	Quark	tree 4 Cheese > Fresh and whey cheeses > Quark
+J3.4.1.05	Spreadable soft cheese	tree 4 Cheese > Fresh and whey cheeses > Spreadable soft cheese
+J3.4.2.01	Feta	tree 4 Cheese > Brined cheeses > Feta
+J3.4.3.01	Burrata	tree 4 Cheese > Stretched-curd cheeses > Burrata
+J3.4.3.02	Mozzarella	tree 4 Cheese > Stretched-curd cheeses > Mozzarella
+J3.4.4.01	Brie	tree 4 Cheese > Bloomy-rind soft cheeses > Brie
+J3.4.4.02	Camembert	tree 4 Cheese > Bloomy-rind soft cheeses > Camembert
+J3.4.5.01	Limburger	tree 4 Cheese > Washed-rind cheeses > Limburger
+J3.4.6.01	Cheddar	tree 4 Cheese > Semi-hard pressed cheeses > Cheddar
+J3.4.6.02	Emmental	tree 4 Cheese > Semi-hard pressed cheeses > Emmental
+J3.4.6.03	Gouda	tree 4 Cheese > Semi-hard pressed cheeses > Gouda
+J3.4.6.04	Havarti	tree 4 Cheese > Semi-hard pressed cheeses > Havarti
+J3.4.7.01	Grana-type hard cheese (parmesan)	tree 4 Cheese > Hard and long-aged cheeses > Grana-type hard cheese (parmesan); Rule P (1)
+J3.4.7.02	Pecorino	tree 4 Cheese > Hard and long-aged cheeses > Pecorino
+J3.4.8.01	Aaruul	tree 4 Cheese > Dried and preserved dairy > Aaruul; K-55
+J3.4.8.02	Chhurpi	tree 4 Cheese > Dried and preserved dairy > Chhurpi; K-55
+J3.4.8.03	Jameed	tree 4 Cheese > Dried and preserved dairy > Jameed; K-55
+J3.4.8.04	Kashk	tree 4 Cheese > Dried and preserved dairy > Kashk; K-55
+J3.4.8.05	Qurut	tree 4 Cheese > Dried and preserved dairy > Qurut; K-55
+J3.4.9.01	Blue cheese (Gorgonzola)	tree 4 Cheese > Blue cheeses > Blue cheese (Gorgonzola); Rule P (3), default 9
+J3.4.9.02	Blue cheese (Stilton)	tree 4 Cheese > Blue cheeses > Blue cheese (Stilton); Rule P (3), default 9
+J3.4.10.01	Processed cheese	tree 4 Cheese > Processed cheese > Processed cheese
+J3.4.0.01	Mixed cheeses	tree 4 Cheese > Mixed cheeses > Mixed cheeses; K-46, default 8
+J3.5.01	Hen's egg	tree 5 Eggs > Hen's egg
+J3.5.02	Duck egg	tree 5 Eggs > Duck egg
+J3.5.03	Quail egg	tree 5 Eggs > Quail egg
+J3.5.04	Preserved or plain-cooked egg	tree 5 Eggs > Preserved or plain-cooked egg; K-57, default 3
+J3.6.01	Skimmed milk powder	tree 6 Milk powders and infant formula > Skimmed milk powder
+J3.6.02	Whole milk powder	tree 6 Milk powders and infant formula > Whole milk powder
+J3.6.03	Infant formula	tree 6 Milk powders and infant formula > Infant formula
+J3.6.04	Follow-on formula	tree 6 Milk powders and infant formula > Follow-on formula
+J3.6.05	Growing-up milk	tree 6 Milk powders and infant formula > Growing-up milk; J-7
+J3.7.1.01	Almond drink	tree 7 Plant-based alternatives > Plant drinks > Almond drink
+J3.7.1.02	Coconut drink	tree 7 Plant-based alternatives > Plant drinks > Coconut drink
+J3.7.1.03	Oat drink	tree 7 Plant-based alternatives > Plant drinks > Oat drink
+J3.7.1.04	Soy drink	tree 7 Plant-based alternatives > Plant drinks > Soy drink
+J3.7.2.01	Plant yoghurt	tree 7 Plant-based alternatives > Plant yoghurts > Plant yoghurt
+J3.7.3.01	Plant cheese, firm style	tree 7 Plant-based alternatives > Plant cheeses > Plant cheese, firm style
+J3.7.3.02	Plant cheese, soft style	tree 7 Plant-based alternatives > Plant cheeses > Plant cheese, soft style
+J3.7.4.01	Plant cream	tree 7 Plant-based alternatives > Plant creams and creamers > Plant cream
+J3.7.4.02	Plant creamer	tree 7 Plant-based alternatives > Plant creams and creamers > Plant creamer
+J3.7.5.01	Plant egg alternative	tree 7 Plant-based alternatives > Plant egg alternatives > Plant egg alternative

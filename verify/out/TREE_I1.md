@@ -12,13 +12,27 @@ Programs that look after the computer itself: the operating system, its upkeep a
 
 Leaf axis: layer of the machine (operating environments, maintenance and recovery, files and remote access).
 
+### I1.1.1 Operating environments
+
+Systems that run the machine and software that hosts other systems.
+
 - I1.1.1.01 Desktop operating system: Operating system that runs a desktop or laptop computer and its applications.
 - I1.1.1.02 Virtualisation software: Program that runs one or more virtual machines or whole guest systems on the owner's computer.
+
+### I1.1.2 Maintenance and recovery
+
+Upkeep, clean-up, backup and erasure.
+
 - I1.1.2.01 System cleaner and optimiser: Program that removes junk files and tunes settings to keep a computer clean and fast.
 - I1.1.2.02 Uninstaller: Program that removes installed applications together with their leftover files and settings.
 - I1.1.2.03 Driver updater: Program that finds out-of-date device drivers and installs newer ones.
 - I1.1.2.04 Backup and disk-cloning software: Program that copies files, a disk or a whole system image to the owner's own drives (backup to the provider's servers is a plan, I3).
 - I1.1.2.05 Data-erasure software: Program that overwrites storage so that the erased data cannot be recovered.
+
+### I1.1.3 Files and remote access
+
+Archives, discs, remote control, launching and finding files.
+
 - I1.1.3.01 File archiver: Program that packs files into compressed archives and unpacks them.
 - I1.1.3.02 Disc-burning software: Program that writes data, audio or disc images to optical discs.
 - I1.1.3.03 Remote-desktop software: Program that shows and controls another computer's screen over a network.
@@ -54,6 +68,10 @@ Programs for making images, video, audio and music.
 
 Leaf axis: medium (images and design; video and animation; audio and music), plus one leaf for an all-apps bundle across media (C14(b)).
 
+### I1.4.1 Images and design
+
+Still images, drawing, design, photos, 3D, fonts and print projects.
+
 - I1.4.1.01 Raster image editor: Program for editing and painting pixel-based images.
 - I1.4.1.02 Vector graphics editor: Program for drawing and editing shape-based graphics that scale without loss.
 - I1.4.1.03 Graphic design app: Template-driven design app for flyers, social posts, resumes and similar layouts, fitting neither raster nor vector editing alone.
@@ -63,11 +81,26 @@ Leaf axis: medium (images and design; video and animation; audio and music), plu
 - I1.4.1.07 Font manager: Program that installs, organises and previews fonts.
 - I1.4.1.08 Home-publishing software: Program for making cards, calendars, labels and similar printed items at home.
 - I1.4.1.09 AI image generator: Program or hosted tool that makes or alters images from a text or image prompt; text-to-image and image-editing modes are one kind (task_mode attribute).
+
+### I1.4.2 Video and animation
+
+Video editing, recording and conversion.
+
 - I1.4.2.01 Video editor: Program for cutting, arranging and finishing video.
 - I1.4.2.02 Screen recorder and live-streaming software: Program that records the screen or camera and streams it live; kept as one kind until a source separates the two.
 - I1.4.2.03 Video converter: Program that converts video and audio files between formats and settings.
+
+### I1.4.3 Audio and music
+
+Sound editing and music making.
+
 - I1.4.3.01 Audio editor: Program for recording, editing and mastering sound.
 - I1.4.3.02 Music-creation and recording software: Program for composing, arranging and recording music.
+
+### I1.4.4 Suites across media
+
+One maker's all-apps creative bundle.
+
 - I1.4.4.01 Creative suite: All-apps bundle of one maker's creative programs, named for no single component; its edition and plan are variants.
 
 ## I1.5 Media playback
@@ -85,10 +118,24 @@ Programs for money and the running of a business, opened at Capterra's headline 
 
 Leaf axis: business function (never market: market is a tag). The three leaves are Capterra headline-group names, provisional on the recount of the headline groups; further leaves open at stage-3 harvest.
 
+### I1.6.1 Finance and accounting
+
+Tax, personal finance and accounting.
+
 - I1.6.1.01 Tax-preparation software: Program that prepares and files a tax return.
 - I1.6.1.02 Personal-finance manager [家計簿]: Program for tracking accounts, budgets and household money.
 - I1.6.1.03 Accounting software: Program for bookkeeping, invoicing and financial reporting for a business or a freelancer.
+
+### I1.6.2 Marketing and sales
+
+Customer and sales tools.
+
 - I1.6.2.01 CRM software: Program for managing customer contacts, deals and sales follow-up.
+
+### I1.6.3 Operations
+
+Day-to-day business operations.
+
 - I1.6.3.01 Point-of-sale software: Program that runs a shop or restaurant till: sales, receipts, stock and payments.
 
 ## I1.7 Learning and reference
@@ -106,10 +153,19 @@ Programs for building software and running data and servers.
 
 Leaf axis: part of the work (writing code; data and servers).
 
+### I1.8.1 Writing code
+
+Tools for writing and building code.
+
 - I1.8.1.01 Code editor and IDE: Program for writing, running and debugging source code.
 - I1.8.1.02 AI coding assistant: Assistant sold or used as a tool that suggests, writes or reviews code.
 - I1.8.1.03 Version-control client: Program for tracking and sharing changes to source code.
 - I1.8.1.04 Language runtime and compiler: Program that compiles or runs code in a programming language.
+
+### I1.8.2 Data and servers
+
+Databases, servers and network tools.
+
 - I1.8.2.01 Database software: Program that stores, queries and manages structured data.
 - I1.8.2.02 SSH and file-transfer client: Program that connects to remote servers by SSH or transfers files by FTP or SFTP.
 - I1.8.2.03 Network protocol analyser: Program that captures and inspects network traffic.
@@ -151,10 +207,34 @@ Add-ons and unlocks made for one program or device (S3: parts follow the whole).
 
 Leaf axis: the host or device the add-on is made for (the one sub-family exempt from the level-1 axis; a leaf with one kind is allowed, R-11).
 
+### I1.12.1 Browser
+
+Add-ons for a web browser.
+
 - I1.12.1.01 Browser extension: Add-on that adds features to one web browser.
+
+### I1.12.2 Code editor or IDE
+
+Add-ons for a code editor or IDE.
+
 - I1.12.2.01 Editor or IDE plug-in: Add-on that adds features to one code editor or development environment.
+
+### I1.12.3 Office or productivity suite
+
+Add-ins for an office or workspace suite.
+
 - I1.12.3.01 Productivity-suite add-in: Add-in that adds features to an office or workspace suite.
+
+### I1.12.4 Audio or graphics host
+
+Plug-ins for an audio or graphics host program.
+
 - I1.12.4.01 Audio plug-in: Plug-in (instrument or effect) that adds sound or image processing to an audio or graphics host program. †
+
+### I1.12.5 Software for one device
+
+Unlocks and companion apps for one device (provisional until one fetched page shows each kind sold).
+
 - I1.12.5.01 Paid feature unlock for built-in device software: Paid unlock or subscription that switches on a function of software built into one device. †
 - I1.12.5.02 Device companion app: App that records and shows the readings of one device and does nothing medical; the device's app ecosystem is a ledger row. †
 
@@ -167,7 +247,7 @@ Leaf axis: the host or device the add-on is made for (the one sub-family exempt 
 - Antivirus, internet-security and total-security editions are one kind, I1.2.01; a consumer VPN is I1.2.03; a password manager is I1.2.02 on every platform, plan and licence (section 4b).
 - Backup software that copies to the owner's own drives (including disk cloning) is I1.1.2.04. A package named and sold as a security or backup program that includes cloud space is I1 (I1.2.01 or I1.1.2.04, by the name it is sold under); a plan whose value is keeping the backup on the provider's servers is I3 (sentence 9, K-71(b)).
 - Software that edits or analyses geographic data on the owner's machine is I1.9.04 GIS and earth-mapping software; a map or navigation service is I3 (sentence 10, K-71(c)).
-- A program that does the exercise with the user, testing, correcting or adapting to the user's answers, is I1.7.01 Language-learning software (or the learning-software kind for its method); the subject taught is never a level. A library of recorded or streamed lessons is I3 (sentence 8, K-71(a); I-20).
+- A program that does the exercise with the user, testing, correcting or adapting to the user's answers, is I1.7.01 Language-learning software; the subject taught is never a level. A library of recorded or streamed lessons is I3 (sentence 8, K-71(a); I-20).
 - A dictionary, encyclopedia or other reference work delivered as its own program, or on a disc as a program, is I1.7.02 Reference software; held as a file in an e-book format it is I2 (sentence 13, K-71(i)).
 - An email client is I1.11.02 and a web browser I1.11.01; the mailbox and messaging or conferencing services are I3 (sentence 1; K-71(k)). A game launcher or store client and its free account are not filed (sentence 3, K-71(e)).
 - A plug-in that adds processing code to a host program is I1 in sub-family I1.12, by its host: browser extension I1.12.1.01, code editor or IDE plug-in I1.12.2.01, office or productivity-suite add-in I1.12.3.01, VST/AU or image-editor filter plug-in I1.12.4.01. A file that a program loads but that adds no executable code (sample library, preset, LUT, MIDI file, AI model weights) is I2 (sentence 12, K-71(h), I-6).

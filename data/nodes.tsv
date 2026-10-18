@@ -510,3 +510,48 @@ B10.12	B10	sub_family	B10	Parts and accessories made for one B10 object	Leaf axi
 B10.12.1	B10	leaf	B10.12	Hive		56	from verify/out/TREE_B10.md		
 B10.12.2	B10	leaf	B10.12	Saddle		57	from verify/out/TREE_B10.md		
 B10.12.3	B10	leaf	B10.12	Aquarium filter		58	from verify/out/TREE_B10.md		
+C6	C6	category				0	from verify/out/TREE_C6.md		
+C6.1	C6	sub_family	C6	Optical & astronomical instruments	Leaf axis: instrument type. Sub-family test: look through it or model the sky.	1	from verify/out/TREE_C6.md		
+C6.1.1	C6	leaf	C6.1	Binoculars & monoculars	Kind axis: prism design or form. Magnification x aperture size class, ED glass, prism glass grade, coating, waterproofing, stabilisation and rangefinding are attributes.	2	from verify/out/TREE_C6.md		
+C6.1.2	C6	leaf	C6.1	Night-vision & thermal viewers		3	from verify/out/TREE_C6.md		
+C6.1.3	C6	leaf	C6.1	Astronomical telescopes	Kind axis: optical design. Aperture, glass class (achromat, ED, APO), GoTo or manual, and the `mount` of a complete set (alt-az, Dobsonian, equatorial) are attributes.	4	from verify/out/TREE_C6.md		
+C6.1.4	C6	leaf	C6.1	Spotting scopes		5	from verify/out/TREE_C6.md		
+C6.1.5	C6	leaf	C6.1	Microscopes	Kind axis: principle. Mono, bino or trinocular head, objective grade and illumination are attributes; antique stand forms are named forms.	6	from verify/out/TREE_C6.md		
+C6.1.6	C6	leaf	C6.1	Magnifiers & loupes	Kind axis: form in which the lens is held. Power, lens material, illumination and use (reading, jewellery, stamps, botany) are attributes or tags.	7	from verify/out/TREE_C6.md		
+C6.1.7	C6	leaf	C6.1	Solar viewing glasses		8	from verify/out/TREE_C6.md		
+C6.1.8	C6	leaf	C6.1	Astronomical models & sky instruments		9	from verify/out/TREE_C6.md		
+C6.2	C6	sub_family	C6	Weather instruments	Leaf axis: quantity measured, with one leaf for stations that measure several (C14(c)). The sub-family reads the air and is C6 for a household or a farm alike.	10	from verify/out/TREE_C6.md		
+C6.2.1	C6	leaf	C6.2	Temperature & humidity		11	from verify/out/TREE_C6.md		
+C6.2.2	C6	leaf	C6.2	Pressure	Kind axis: mechanism.	12	from verify/out/TREE_C6.md		
+C6.2.3	C6	leaf	C6.2	Wind		13	from verify/out/TREE_C6.md		
+C6.2.4	C6	leaf	C6.2	Precipitation & radiation		14	from verify/out/TREE_C6.md		
+C6.2.5	C6	leaf	C6.2	Multi-quantity stations		15	from verify/out/TREE_C6.md		
+C6.2.6	C6	leaf	C6.2	Air quality		16	from verify/out/TREE_C6.md		
+C6.3	C6	sub_family	C6	Laboratory apparatus	Leaf axis: what the item does to a sample (hold or measure it; weigh, separate, warm, cool, enclose or dissect it).	17	from verify/out/TREE_C6.md		
+C6.3.1	C6	leaf	C6.3	Vessels & volumetric ware		18	from verify/out/TREE_C6.md		
+C6.3.2	C6	leaf	C6.3	Sample-handling equipment		19	from verify/out/TREE_C6.md		
+C6.4	C6	sub_family	C6	Science-education kits	Leaf axis: none; the sub-family holds one kind, so the data stores `leaf = null` (C5(b)).	20	from verify/out/TREE_C6.md		
+C6.5	C6	sub_family	C6	Parts and accessories made for one instrument	Leaf axis: instrument served (S3; the closing sub-family, exempt from the level-1 axis, C5(d), CV-17).	21	from verify/out/TREE_C6.md		
+C6.5.1	C6	leaf	C6.5	Telescope parts		22	from verify/out/TREE_C6.md		
+C6.5.2	C6	leaf	C6.5	Microscope parts		23	from verify/out/TREE_C6.md		
+B3	B3	category				0	from verify/out/TREE_B3.md		
+B3.1	B3	sub_family	B3	Fixed fittings	Leaf axis: where the fitting mounts (ceiling, wall, recessed or track, ground or post, rigged for a performance). Placement is a level here because each fitting is made only for its mount and its body differs.	1	from verify/out/TREE_B3.md		
+B3.1.1	B3	leaf	B3.1	Ceiling-mounted		2	from verify/out/TREE_B3.md		
+B3.1.2	B3	leaf	B3.1	Wall-mounted		3	from verify/out/TREE_B3.md		
+B3.1.3	B3	leaf	B3.1	Recessed, spot and track		4	from verify/out/TREE_B3.md		
+B3.1.4	B3	leaf	B3.1	Ground-mounted and post		5	from verify/out/TREE_B3.md		
+B3.1.5	B3	leaf	B3.1	Rigged and stage		6	from verify/out/TREE_B3.md		
+B3.2	B3	sub_family	B3	Standing lamps	Leaf axis: where the lamp stands (table or desk, floor). A lamp that plugs in or stands in place stays here whatever its power source.	7	from verify/out/TREE_B3.md		
+B3.2.1	B3	leaf	B3.2	Table and desk		8	from verify/out/TREE_B3.md		
+B3.2.2	B3	leaf	B3.2	Floor-standing		9	from verify/out/TREE_B3.md		
+B3.3	B3	sub_family	B3	Carried and worn lights	Leaf axis: how the light is carried or used (hand, head, lantern, work light). Power source and setting (camping) are attributes.	10	from verify/out/TREE_B3.md		
+B3.3.1	B3	leaf	B3.3	Hand torches		11	from verify/out/TREE_B3.md		
+B3.3.2	B3	leaf	B3.3	Head-worn		12	from verify/out/TREE_B3.md		
+B3.3.3	B3	leaf	B3.3	Lanterns (carried)		13	from verify/out/TREE_B3.md		
+B3.3.4	B3	leaf	B3.3	Work and inspection lights		14	from verify/out/TREE_B3.md		
+B3.4	B3	sub_family	B3	Light sources	Leaf axis: shape and cap form (general bulbs, reflector and spot and capsule bulbs, forms with their own holder or ballast, strips), in the order of the bulb shape codes. Technology, cap code, filament style, connectivity and colour are attributes.	15	from verify/out/TREE_B3.md		
+B3.4.1	B3	leaf	B3.4	General bulbs (screw and bayonet caps)		16	from verify/out/TREE_B3.md		
+B3.4.2	B3	leaf	B3.4	Reflector, spot and capsule bulbs		17	from verify/out/TREE_B3.md		
+B3.4.3	B3	leaf	B3.4	Forms that need their own holder or ballast		18	from verify/out/TREE_B3.md		
+B3.4.4	B3	leaf	B3.4	Strips		19	from verify/out/TREE_B3.md		
+B3.5	B3	sub_family	B3	Parts and accessories made for one lamp or fitting		20	from verify/out/TREE_B3.md		

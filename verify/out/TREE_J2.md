@@ -19,7 +19,7 @@ Leaf axis: animal group (finfish, crustaceans, molluscs, other aquatic invertebr
 - J2.1.1.07 Arctic char [Saibling]: Raw char of the genus Salvelinus, a cold-water relative of salmon and trout.
 - J2.1.1.08 Cod [Kabeljau]: Raw Atlantic or Pacific cod of the genus Gadus.
 - J2.1.1.09 Haddock: Raw haddock, Melanogrammus aeglefinus.
-- J2.1.1.10 Pollock (saithe) [Seelachs]: Raw pollock or saithe, Pollachius and Gadus chalcogrammus types sold as white fish.
+- J2.1.1.10 Pollock (saithe) [Seelachs]: Raw pollock or saithe (Pollachius virens, Gadus chalcogrammus), sold as white fish.
 - J2.1.1.11 Hake: Raw hake of the genus Merluccius.
 - J2.1.1.12 European sea bass [Wolfsbarsch]: Raw sea bass, Dicentrarchus labrax.
 - J2.1.1.13 Gilthead sea bream [Dorade]: Raw sea bream, Sparus aurata.
