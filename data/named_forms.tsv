@@ -142,8 +142,8 @@ NF-D1.1.02-002	D1.1.02	Dell Tower Plus		yes	M-dell												https://www.dell.c
 NF-D1.1.02-003	D1.1.02	Dell Pro Tower		yes	M-dell												https://www.dell.com/en-us/shop/desktop-computers/scr/desktop/appref=tower-form-factor	full
 NF-D1.1.02-004	D1.1.02	Dell Pro Tower Plus		yes	M-dell												https://www.dell.com/en-us/shop/desktop-computers/scr/desktop/appref=tower-form-factor	full
 NF-D1.1.02-005	D1.1.02	Dell Pro Essential Tower		yes	M-dell												https://www.dell.com/en-us/shop/desktop-computers/scr/desktop/appref=tower-form-factor	full
-NF-D1.1.02-006	D1.1.02	Alienware Aurora		yes	M-dell											Alienware gaming tower	https://www.dell.com/en-us/shop/desktop-computers/scr/desktop/appref=tower-form-factor	full
-NF-D1.1.02-007	D1.1.02	Alienware Area-51		yes	M-dell											Alienware gaming tower	https://www.dell.com/en-us/shop/desktop-computers/scr/desktop/appref=tower-form-factor	full
+NF-D1.1.02-006	D1.1.02	Alienware Aurora		yes	M-alienware											Alienware gaming tower	https://www.dell.com/en-us/shop/desktop-computers/scr/desktop/appref=tower-form-factor	full
+NF-D1.1.02-007	D1.1.02	Alienware Area-51		yes	M-alienware											Alienware gaming tower	https://www.dell.com/en-us/shop/desktop-computers/scr/desktop/appref=tower-form-factor	full
 NF-D1.1.04-001	D1.1.04	Dell Pro Micro		yes	M-dell												https://www.dell.com/en-us/shop/desktop-computers/scr/desktop/appref=micro-form-factor	full
 NF-D1.1.04-002	D1.1.04	Dell Pro Micro Plus		yes	M-dell												https://www.dell.com/en-us/shop/desktop-computers/scr/desktop/appref=micro-form-factor	full
 NF-D1.1.04-003	D1.1.04	Dell Pro Essential Micro		yes	M-dell												https://www.dell.com/en-us/shop/desktop-computers/scr/desktop/appref=micro-form-factor	full
@@ -746,7 +746,7 @@ NF-D1.3.4.01-025	D1.3.4.01	Samsung Odyssey G3 G30D		yes	M-samsung												htt
 NF-D1.3.4.01-026	D1.3.4.01	Samsung Odyssey S55C Ark		yes	M-samsung												https://www.adorama.com/l/Gaming/PC-Gaming/Gaming-Monitors?startAt=25	full
 NF-D1.3.4.01-027	D1.3.4.01	MSI MPG 491CQPX QD-OLED		yes	M-msi												https://www.adorama.com/l/Gaming/PC-Gaming/Gaming-Monitors?startAt=25	full
 NF-D1.3.4.01-028	D1.3.4.01	MSI MPG 271QRX QD-OLED		yes	M-msi												https://www.adorama.com/l/Gaming/PC-Gaming/Gaming-Monitors?startAt=25	full
-NF-D1.3.4.01-029	D1.3.4.01	Dell Alienware AW2725DF		yes	M-dell												https://www.adorama.com/l/Gaming/PC-Gaming/Gaming-Monitors?startAt=25	full
+NF-D1.3.4.01-029	D1.3.4.01	Dell Alienware AW2725DF		yes	M-alienware												https://www.adorama.com/l/Gaming/PC-Gaming/Gaming-Monitors?startAt=25	full
 NF-D1.3.5.02-004	D1.3.5.02	Shure MV7		yes	M-shure												https://www.zzounds.com/pagearea--61/item--SHUMV7	full
 NF-D1.3.5.02-005	D1.3.5.02	Shure MV7+		yes	M-shure												https://www.zzounds.com/pagearea--61/item--SHUMV7	full
 NF-D1.3.5.02-006	D1.3.5.02	Blue Yeti		yes	M-logitech											sold as Logitech for Creators Blue Yeti	https://shopsavvy.com/products/logitech-blue-yeti-usb-microphone	partial
@@ -1470,7 +1470,6 @@ NF-A1.6.03-079	A1.6.03	Half hat		no												Style named in Wikipedia list of 
 NF-A1.6.03-080	A1.6.03	Hennin		no												Style named in Wikipedia list of hat styles (brimless table)	https://en.wikipedia.org/wiki/List_of_hat_styles	full
 NF-A1.6.03-081	A1.6.03	Icelandic tail-cap		no												Style named in Wikipedia list of hat styles (brimless table)	https://en.wikipedia.org/wiki/List_of_hat_styles	full
 NF-A1.6.03-082	A1.6.03	Karakul		no												Style named in Wikipedia list of hat styles (brimless table)	https://en.wikipedia.org/wiki/List_of_hat_styles	full
-NF-A1.6.03-083	A1.6.03	Keffiyah or Ghutrah		no												Style named in Wikipedia list of hat styles (brimless table)	https://en.wikipedia.org/wiki/List_of_hat_styles	full
 NF-A1.6.03-084	A1.6.03	Kippah or Yarmulke		no												Style named in Wikipedia list of hat styles (brimless table)	https://en.wikipedia.org/wiki/List_of_hat_styles	full
 NF-A1.6.03-085	A1.6.03	Kłobuk		no												Style named in Wikipedia list of hat styles (brimless table)	https://en.wikipedia.org/wiki/List_of_hat_styles	full
 NF-A1.6.03-086	A1.6.03	Kofia		no												Style named in Wikipedia list of hat styles (brimless table)	https://en.wikipedia.org/wiki/List_of_hat_styles	full
@@ -1906,12 +1905,6 @@ NF-A1.2.2.05-017	A1.2.2.05	Habahiro Wide-Cut Aikido Hakama		yes	M-tozando-intern
 NF-A1.2.2.05-018	A1.2.2.05	Organic Aikido Hakama		yes	M-tozando-international								Japan	Japanese			https://tozandoshop.com/collections/hakama	full
 NF-A1.2.2.05-019	A1.2.2.05	Basic Tetron Hakama		yes	M-tozando-international								Japan	Japanese		Tetron polyester-rayon; for kendo, iaido, naginata, kyudo	https://tozandoshop.com/collections/hakama	full
 NF-A1.2.2.05-020	A1.2.2.05	Vixia Traditional Cotton Style Synthetic Hakama		yes	M-tozando-international								Japan	Japanese		Looks like #7000 cotton hakama	https://tozandoshop.com/collections/hakama	full
-NF-A1.2.2.05-021	A1.2.2.05	Aizome Cotton Kendo Hakama		yes	M-tozando								Japan	Japanese		Classic #6000 lightweight	https://tozandoshop.com/collections/hakama	full
-NF-A1.2.2.05-022	A1.2.2.05	Unbleached Cotton Kendo Hakama		yes	M-tozando								Japan	Japanese		Made in Japan medium-weight cotton	https://tozandoshop.com/collections/hakama	full
-NF-A1.2.2.05-023	A1.2.2.05	Wakon Bushu Aizome Cotton Kendo Hakama		yes	M-tozando								Japan	Japanese		Bushu indigo from Saitama	https://tozandoshop.com/collections/hakama	full
-NF-A1.2.2.05-024	A1.2.2.05	Aoi Kendo Hakama		yes	M-tozando								Japan	Japanese		Machine-stitched high end	https://tozandoshop.com/collections/hakama	full
-NF-A1.2.2.05-025	A1.2.2.05	Safflower Kendo Hakama		yes	M-tozando-international								Japan	Japanese			https://tozandoshop.com/collections/hakama	full
-NF-A1.2.2.05-026	A1.2.2.05	Tailored Kendo Hakama		yes	M-tozando-heian-tailors								Japan	Japanese		Made to order by Heian Tailors	https://tozandoshop.com/collections/hakama	full
 NF-A1.2.2.05-027	A1.2.2.05	Embu Striped Silket Iaido Hakama		yes	M-tozando-heian-tailors								Japan	Japanese		Named after demonstrations	https://tozandoshop.com/collections/hakama	full
 NF-A1.2.2.05-028	A1.2.2.05	Mitsuboshi Memory Pleats Deluxe Tetron Aikido Hakama		yes	M-mitsuboshi								Japan	Japanese		Permanent pleats	https://tozandoshop.com/collections/hakama	full
 NF-A1.2.2.05-029	A1.2.2.05	Memory Pleats Tetron Iaido Hakama		yes	M-mitsuboshi								Japan	Japanese		Permanent pleats	https://tozandoshop.com/collections/hakama	full
@@ -1927,7 +1920,6 @@ NF-A1.2.2.05-038	A1.2.2.05	Boys Tetron Aikido Hakama	少年用 テトロン合�
 NF-A1.2.2.05-039	A1.2.2.05	Lightweight Linen-Polyester Aikido Hakama	軽量 麻ポリエステル合気道袴	yes	M-seidoshop								Japan	Japanese		English name is a gloss of the Japanese product name	https://www.seidoshop.jp/collections/aikido-classic-hakama	full
 NF-A1.2.2.05-040	A1.2.2.05	Cashmere-style Polyester Aikido Hakama	カシミヤ風 ポリエステル合気道袴	yes	M-seidoshop								Japan	Japanese		English name is a gloss of the Japanese product name	https://www.seidoshop.jp/collections/aikido-classic-hakama	full
 NF-A1.2.2.05-041	A1.2.2.05	Premium Striped Tetron Hakama	高級 縞テトロン袴	yes	M-seidoshop								Japan	Japanese		English name is a gloss of the Japanese product name	https://www.seidoshop.jp/collections/aikido-classic-hakama	full
-NF-A1.2.2.05-042	A1.2.2.05	Kendo hakama	剣道袴	no									Japan	Japanese		Hakama for kendo; seven-pleat umanori cut	https://tozandoshop.com/collections/hakama | https://www.seidoshop.com/collections/iaido-kendo-hakama	full | full
 NF-A1.2.2.05-043	A1.2.2.05	Aikido hakama	合気道袴	no									Japan	Japanese		Soft koshi-ita and reinforced stitching for ukemi; differs from kendo and iaido hakama	https://tozandoshop.com/collections/hakama | https://www.seidoshop.jp/collections/aikido-classic-hakama	full | full
 NF-A1.2.2.05-044	A1.2.2.05	Iaido hakama	居合道袴	no									Japan	Japanese		Hakama for iaido	https://www.seidoshop.com/collections/iaido-kendo-hakama	full
 NF-A1.1.1.01-009	A1.1.1.01	Bella+Canvas 3001 Unisex Jersey Short Sleeve Tee		yes	M-bella-canvas											Best-selling blank tee; Airlume combed ring-spun cotton, 4.2 oz	https://www.bellacanvas.com/3001 | https://theparkwholesale.com/collections/wholesale-shirts	full | full
@@ -2110,7 +2102,6 @@ NF-A1.3.4.04-R002	A1.3.4.04	Sulu	sulu	no									Fiji	iTaukei		hand-printed sulu
 NF-A1.1.2.06-R001	A1.1.2.06	Tibuta	tibuta	no									Kiribati	I-Kiribati		crocheted blouse made in Kiribati 2011-2012 held by Te Papa; page shows only title	https://collections.tepapa.govt.nz/object/1276653	partial
 NF-A1.5.1.01-R001	A1.5.1.01	Chesty Bond		yes	M-bonds		1920						Australia			Bonds men's athletic singlet from 1920, also referred to as Chesty Bond	https://en.wikipedia.org/wiki/Hanes_Australasia	full
 NF-A1.6.03-R001	A1.6.03	Tembel hat	כובע טמבל	no									IL	Israeli		khaki hat of early settlers, revived by ATA	https://en.wikipedia.org/wiki/ATA_(Israeli_company)	full
-NF-A1.4.2.06-R001	A1.4.2.06	Manteau	مانتو	no									IR	Iranian		Iranian women's long or short overcoat (manto); no dedicated A1 kind	https://globalvoices.org/2014/04/22/irans-new-wave-of-women-fashion-designers	full
 NF-A1.1.2.03-R001	A1.1.2.03	Swanndri bush shirt		yes	M-swanndri		1913						New Zealand			original long heavy bush shirt, used informally as the name Swanndri	https://en.wikipedia.org/wiki/Swanndri	full
 NF-A1.2.3.01-R001	A1.2.3.01	Stubbies		yes	M-stubbies		1972						Australia			fashion shorts for men introduced 1972; brand name became generic for short shorts in Australia and NZ	https://en.wikipedia.org/wiki/Stubbies_(brand)	full
 NF-A1.2.2.04-R001	A1.2.2.04	Salt and Pepper sweatpants		yes	M-roots								Canada			classic heritage sweatpants made in Canada	https://permanentpress.substack.com/p/canadian-made-menswear-clothing-brands	full
@@ -2131,7 +2122,6 @@ NF-A1.3.1.01-R008	A1.3.1.01	Blouza wahrania		no									DZ	Oranais		traditional 
 NF-A1.3.1.01-R009	A1.3.1.01	Caftan	قفطان	no									MA	Moroccan		Moroccan caftan sold as its own category by FENNA, New Tangier, Hanout Boutique; no dedicated A1 kind	https://fennaofficial.com/	full
 NF-A1.3.1.01-R010	A1.3.1.01	Şemlek	شه‌مه‌لك	no									IQ	Kurdish		long full Kurdish women's robe, silk or velvet	https://heritage.krd/clothing	full
 NF-A1.4.3.03-R001	A1.4.3.03	Qurte		no									IQ	Kurdish		heavily embroidered bolero-style vest of Kurdish women's dress	https://heritage.krd/clothing	full
-NF-A1.7.01-R001	A1.7.01	Keffiyeh	كوفية	no									PS	Palestinian		checked headscarf; Hirbawi makes original Palestinian keffiyehs, Jdeed Labs reworks it	https://www.thenationalnews.com/lifestyle/fashion-beauty/2024/04/07/palestinian-brands-to-support-gaza	full
 NF-A1.4.1.07-R401	A1.4.1.07	Abhinandan Chore Coat		yes	M-our-own-pace											signature piece named on From The Labels	https://fromthelabels.com/categories/clothing-brands/indian-clothing-brands	full
 NF-A1.4.1.06-R401	A1.4.1.06	Type II Denim Jacket		yes	M-our-own-pace											signature piece named on From The Labels	https://fromthelabels.com/categories/clothing-brands/indian-clothing-brands	full
 NF-A1.1.2.01-R401	A1.1.2.01	Synapse Shirt		yes	M-margn											shirt named on From The Labels	https://fromthelabels.com/categories/clothing-brands/indian-clothing-brands	full
@@ -2397,3 +2387,34 @@ NF-A1.4.4.02-GB2001	A1.4.4.02	Hegarty Cloak		yes	M-hegarty											Hegarty (Lo
 NF-A1.4.2.04-US3001	A1.4.2.04	Sleeping Bag Coat		yes	M-norma-kamali											CFDA member bio names the Sleeping Bag Coat as an iconic Kamali look	https://cfda.com/member/norma-kamali/	full
 NF-A1.3.1.01-US3001	A1.3.1.01	Wrap dress		yes	M-diane-von-furstenberg											CFDA member bio: clothing (wrap dress)	https://cfda.com/member/diane-von-furstenberg/	full
 NF-A1.3.1.01-US3002	A1.3.1.01	Carissima dress		yes	M-byron-lars-beauty-mark											Byron Lars label; Carissima dress sold via Anthropologie	https://lofficielusa.com/fashion/black-designers-fashion-history-virgil-abloh-telfar-clemens	full
+NF-A1.3.1.06-D001	A1.3.1.06	Kandura	كندورة	no									AE; OM	Emirati		Emirati and Omani name of the thobe; Riwaya FAQ names kandura for the UAE and Oman	https://riwaya.riwaya.co.uk/riwaya-blog/thobe-and-dishdasha/	partial
+NF-A1.3.1.06-D002	A1.3.1.06	Dishdasha	دشداشة	no									KW; OM; IQ; BH	Gulf		Kuwaiti and Omani thobe; Omani collarless with chest tassel, Kuwaiti stiff collar; Riwaya sells Omani Mint Dishdasha	https://riwaya.riwaya.co.uk/riwaya-blog/thobe-and-dishdasha/	full
+NF-A1.3.1.06-D003	A1.3.1.06	Jalabiya (galabeya)	جلابية	no									EG; SD	Egyptian		Loose wide-sleeved men's robe; Jumia Egypt Men Galabeya category, 59 products	https://www.jumia.com.eg/mlp-men-galabeya/	full
+NF-A1.3.1.06-D004	A1.3.1.06	Djellaba	جلابة	no									MA	Moroccan		Hooded long robe of the Maghreb; FENNA has a Gandoras & Djellabas category	https://fennaofficial.com/	partial
+NF-A1.3.1.06-D005	A1.3.1.06	Gandoura	قندورة	no									MA; DZ; TN	Maghrebi		Loose short-sleeved or sleeveless robe of the Maghreb; FENNA Gandoras & Djellabas category	https://fennaofficial.com/	partial
+NF-A1.3.1.07-D001	A1.3.1.07	Agbada	agbádá	no									NG; BJ; SL	Yoruba		Men's wide robe sold as a set with tunic (buba) and trousers (sokoto); Mumini Fashion Empire sells men's agbadas	https://fambul.com/muminifashionempire	full
+NF-A1.3.1.08-D001	A1.3.1.08	Kurta pyjama	कुर्ता पजामा	no									IN; PK; BD	South Asian		Knee-length kurta with matching pyjama; Manyavar White Kurta Pajama category; replaces the kurta-set named form of HVMK	https://www.manyavar.com/men/white-kurta-pajama	full
+NF-A1.3.1.08-D002	A1.3.1.08	Ao dai	áo dài	no									VN	Vietnamese		Long tunic split to the waist worn over trousers; two-piece set sold on Weee	https://www.weee.com/en/product/Red-Embroidered-Floral-Vietnamese-Ao-Dai-H7-3XL/2823189	full
+NF-A1.3.1.08-D003	A1.3.1.08	Baju kurung		no									MY; BN; SG; ID	Malay		Loose knee-length tunic worn over a long skirt; POPLOOK, Jakel, AEON Puteri Baju Kurung Set	https://says.com/my/lifestyle/baju-kurung-under-rm100	full
+NF-A1.3.1.08-D004	A1.3.1.08	Baju Melayu		no									MY; BN; SG	Malay		Men's tunic and trouser set, worn with a sampin; Jakel sells baju kurung and baju Melayu	https://says.com/my/lifestyle/baju-kurung-under-rm100	full
+NF-A1.3.1.08-D005	A1.3.1.08	Puletasi		no									WS	Samoan		Two-piece long tunic and skirt; Samoa Island Designs usually sells puletasi and shirts	https://www.samoaobserver.ws/category/samoa/35207	full
+NF-A1.3.1.01-D001	A1.3.1.01	Qipao (cheongsam)	旗袍	no									CN; HK; MY; SG	Chinese		Fitted one-piece dress with a mandarin collar and side slits; Dreamscaped qipaos in short and three-quarter sleeves	https://says.com/my/lifestyle/where-to-buy-cheongsam-qipao-cny-2024	full
+NF-A1.3.4.08-D001	A1.3.4.08	Deel	дээл	no									MN	Mongolian		Side-fastened belted robe; MD Mongolia deel category	https://mdmongolia.com/en/shop?category=deel	full
+NF-A1.3.4.08-D002	A1.3.4.08	Gho	གོ	no									BT	Bhutanese		Men's robe hitched to the knee and belted; sold in Thimphu (Sephub Gyeltsen Tsongkhang); Wangpe Couture collection centred on gho and kira	https://www.darjeeling-tourism.com/darj_0001bb.htm | https://www.dailybhutan.com/article/bhutan-to-host-its-first-ever-fashion-week-in-october-2025	full | full
+NF-A1.3.4.08-D003	A1.3.4.08	Chapan	чапан	no									UZ; KZ; KG; AF	Central Asian		Long open-front robe-coat with sash, often adras or ikat; Mursak Chapans for men and women	https://mursak.com/en	partial
+NF-A1.3.4.04-D001	A1.3.4.04	Kira	དཀྱི་ར	no									BT	Bhutanese		Rectangular cloth wrapped round the body as an ankle-length dress, clasped at the shoulders; 1stdibs kira listings; Thimphu shops	https://www.1stdibs.com/buy/bhutanese-kira | https://www.darjeeling-tourism.com/darj_0001bb.htm	full | full
+NF-A1.3.4.01-D001	A1.3.4.01	Toub (lafaya)	توب	no									SD	Sudanese		Length of cloth wrapped at the waist and draped over head and shoulder, worn over a dress; Sonjiki sells Toubs / Lafayas	https://sonjiki.co.uk/?p=6810	full
+NF-A1.4.2.08-D001	A1.4.2.08	Manteau (manto)	مانتو	no									IR	Iranian		Iranian women's long or short coat worn for modest dress; replaces NF-A1.4.2.06-R001 under overcoat	https://globalvoices.org/2014/04/22/irans-new-wave-of-women-fashion-designers	full
+NF-A1.6.17-D001	A1.6.17	Keffiyeh (shemagh, ghutra)	كوفية	no									PS; JO; SA; AE	Arab		Checked square cloth worn on the head (with agal) or round the neck; Hirbawi, Hebron, since 1961; replaces NF-A1.6.03-083 and NF-A1.7.01-R001	https://www.thenationalnews.com/lifestyle/fashion-beauty/2024/04/07/palestinian-brands-to-support-gaza	full
+NF-A1.1.2.05-D001	A1.1.2.05	Dashiki		no									NG; GH; SL	West African		Loose pullover tunic shirt with embroidered V-neck; Mumini Fashion Empire sells dashikis	https://fambul.com/muminifashionempire	full
+NF-A1.1.2.05-D002	A1.1.2.05	Barong tagalog		no									PH	Filipino		Sheer embroidered formal tunic shirt worn untucked; Barongs R Us pina-jusi, jusi, organza barong categories	https://barongsrus.com/product-category/barong-tagalog-for-men/pina-jusi-barong-tagalog/	full
+NF-A1.1.2.05-D003	A1.1.2.05	Vyshyvanka	вишиванка	no									UA	Ukrainian		Embroidered linen or cotton tunic shirt; Rozetka lists over 10,000 men's vyshyvankas (UkrModa)	https://news.telegraf.com.ua/ukr/ukraina/2025-05-13/5908739-gde-kupit-nedoroguyu-vyshivanku-samye-populyarnye-modeli-dlya-muzhchin-zhenshchin-i-detey-v-2025-godu	full
+NF-A1.1.2.05-D004	A1.1.2.05	Huipil		no									MX; GT	Mesoamerican		Loose woven or embroidered women's tunic; Huipil de mi corazón sells traditional and stylised huipiles	https://foodandpleasure.com/ropa-artesanal-mexicana/	full
+NF-A1.1.2.01-D001	A1.1.2.01	Aloha shirt		no									US-HI	Hawaiian		Printed camp-collar button-up shirt; Kahala, Honolulu, first brand to manufacture aloha shirts	https://saltatkakaako.com/portfolio/kahala/	full
+NF-A1.1.2.01-D002	A1.1.2.01	Guayabera		no									CU; MX; NI; PR	Caribbean		Button-up shirt with pleats or embroidery, worn untucked; Nora Quintana Luna makes guayaberas in Granada	https://eldiarionica.com/2022/09/22/la-guayabera-vestuario-tradicional-de-nicaragua/	full
+NF-A1.1.2.06-D001	A1.1.2.06	Kebaya		no									MY; SG; ID; BN	Malay and Peranakan		Fitted front-opening blouse often embroidered, worn with a sarong or pareo; Moleq, Anya Kebaya, Ang Eng Nyonya Kebaya	https://says.com/my/lifestyle/where-to-find-beautiful-baju-kebaya-online	full
+NF-A1.4.4.02-D001	A1.4.4.02	Bisht	بشت	no									SA; QA; AE; KW	Gulf		Men's cloak worn over the thobe; Al Bisht Al Fakhir, Souq Waqif, Doha; Al Qiyafa (Libya) makes bisht	https://gulf-times.com/story/412412/bisht-and-tradition | https://qiyafa.ly/	full | full
+NF-A1.2.4.01-D001	A1.2.4.01	Pollera		no									BO; PE	Andean		Full gathered skirt worn over petticoats by cholas; Diseños Esmeralda and Cecilia Paco make and sell polleras, La Paz	https://www.lostiempos.com/node/32167	full
+NF-A1.2.4.01-D002	A1.2.4.01	Kilt		no									GB-SCT	Scottish		Men's pleated wrapped tartan skirt, 8-yard traditional; St Kilda Store (Glasgow), USA Kilts	https://stkildastore.com/Kilts/Kilt-8-yard-traditional-kilt | https://www.usakilts.com/kilts-and-packages/kilts-for-men/8-yard-kilts.html	full | full
+NF-A1.2.3.01-D001	A1.2.3.01	Lederhosen	Lederhose	no									DE; AT	Alpine		Leather shorts or knee breeches, often with braces; trachten.de men's lederhosen category	https://trachten.de/en/men/lederhosen	full
+NF-A1.3.3.01-D001	A1.3.3.01	Traje de charro		no									MX	Mexican		Mariachi or charro suit of short jacket and fitted trousers with silver botonadura; Mariachi Depot trajes charros	https://www.mariachidepot.com/category/trajes-charros	full
