@@ -435,3 +435,78 @@ D1.8.4	D1	leaf	D1.8	Electromechanical and interconnect		28	from verify/out/TREE_
 D1.8.5	D1	leaf	D1.8	Sensors, RF and identification		29	from verify/out/TREE_D1_v2.md		
 D1.9	D1	sub_family	D1	Point of sale and security devices	Leaf axis: none (6 kinds, C5(b)). Kind order: the till and what reads at it, then the devices that hold a person's keys. This sub-family is not in the owner's list of eight: the key names these objects for D1 and none of the eight aisles is where a buyer looks for them (shops sell them as a point-of-sale aisle and as security keys).	30	from verify/out/TREE_D1_v2.md		
 D1.10	D1	sub_family	D1	Parts and accessories made for one computer or peripheral	Leaf axis: none (3 kinds); object served; exempt from the level-1 axis (C5(d)). It holds only parts made for one computer or peripheral that fit none of the shopper paths above.	31	from verify/out/TREE_D1_v2.md		
+D5	D5	category				0	from verify/out/TREE_D5.md		
+D5.1	D5	sub_family	D5	Game machines	Leaf axis: form of the machine (home, handheld, VR headset, arcade cabinet style, console add-on).	1	from verify/out/TREE_D5.md		
+D5.1.1	D5	leaf	D5.1	Home consoles		2	from verify/out/TREE_D5.md		
+D5.1.2	D5	leaf	D5.1	Handheld consoles		3	from verify/out/TREE_D5.md		
+D5.1.3	D5	leaf	D5.1	VR headsets		4	from verify/out/TREE_D5.md		
+D5.1.4	D5	leaf	D5.1	Arcade machines		5	from verify/out/TREE_D5.md		
+D5.1.5	D5	leaf	D5.1	Console add-ons		6	from verify/out/TREE_D5.md		
+D5.2	D5	sub_family	D5	Controllers and input devices	Leaf axis: type of input (the physical form of the controller).	7	from verify/out/TREE_D5.md		
+D5.2.1	D5	leaf	D5.2	Gamepads		8	from verify/out/TREE_D5.md		
+D5.2.2	D5	leaf	D5.2	Arcade sticks		9	from verify/out/TREE_D5.md		
+D5.2.3	D5	leaf	D5.2	Wheels, pedals and sticks		10	from verify/out/TREE_D5.md		
+D5.2.4	D5	leaf	D5.2	Pointing, motion and camera input		11	from verify/out/TREE_D5.md		
+D5.2.5	D5	leaf	D5.2	Music and body		12	from verify/out/TREE_D5.md		
+D5.3	D5	sub_family	D5	Game software on physical carriers		13	from verify/out/TREE_D5.md		
+D5.4	D5	sub_family	D5	Downloadable games and add-on content		14	from verify/out/TREE_D5.md		
+D5.5	D5	sub_family	D5	Parts and accessories made for one game machine		15	from verify/out/TREE_D5.md		
+B10	B10	category				0	from verify/out/TREE_B10.md		
+B10.1	B10	sub_family	B10	Dogs	Leaf axis: the function the object serves for a dog.	1	from verify/out/TREE_B10.md		
+B10.1.1	B10	leaf	B10.1	Feed and treats		2	from verify/out/TREE_B10.md		
+B10.1.2	B10	leaf	B10.1	Housing and containment		3	from verify/out/TREE_B10.md		
+B10.1.3	B10	leaf	B10.1	Beds and furniture		4	from verify/out/TREE_B10.md		
+B10.1.4	B10	leaf	B10.1	Steering and restraint		5	from verify/out/TREE_B10.md		
+B10.1.5	B10	leaf	B10.1	Worn by the animal		6	from verify/out/TREE_B10.md		
+B10.1.6	B10	leaf	B10.1	Toys and training		7	from verify/out/TREE_B10.md		
+B10.2	B10	sub_family	B10	Cats	Leaf axis: the function the object serves for a cat.	8	from verify/out/TREE_B10.md		
+B10.2.1	B10	leaf	B10.2	Feed and treats		9	from verify/out/TREE_B10.md		
+B10.2.2	B10	leaf	B10.2	Beds and furniture		10	from verify/out/TREE_B10.md		
+B10.2.3	B10	leaf	B10.2	Care and hygiene		11	from verify/out/TREE_B10.md		
+B10.3	B10	sub_family	B10	Small mammals	Leaf axis: the function the object serves for a small mammal.	12	from verify/out/TREE_B10.md		
+B10.3.1	B10	leaf	B10.3	Feed and treats		13	from verify/out/TREE_B10.md		
+B10.3.2	B10	leaf	B10.3	Housing and containment		14	from verify/out/TREE_B10.md		
+B10.4	B10	sub_family	B10	Horses and other equines	Leaf axis: the function the object serves for a horse or other equine.	15	from verify/out/TREE_B10.md		
+B10.4.1	B10	leaf	B10.4	Carrying a rider or load		16	from verify/out/TREE_B10.md		
+B10.4.2	B10	leaf	B10.4	Steering and restraint		17	from verify/out/TREE_B10.md		
+B10.4.3	B10	leaf	B10.4	Worn by the animal		18	from verify/out/TREE_B10.md		
+B10.4.4	B10	leaf	B10.4	Care and hygiene		19	from verify/out/TREE_B10.md		
+B10.5	B10	sub_family	B10	Fish and aquaria	Leaf axis: the function the object serves for fish and their aquarium.	20	from verify/out/TREE_B10.md		
+B10.5.1	B10	leaf	B10.5	Feed and treats		21	from verify/out/TREE_B10.md		
+B10.5.2	B10	leaf	B10.5	Housing and containment		22	from verify/out/TREE_B10.md		
+B10.5.3	B10	leaf	B10.5	Habitat life-support		23	from verify/out/TREE_B10.md		
+B10.5.4	B10	leaf	B10.5	Habitat furnishing		24	from verify/out/TREE_B10.md		
+B10.5.5	B10	leaf	B10.5	Care and hygiene		25	from verify/out/TREE_B10.md		
+B10.6	B10	sub_family	B10	Reptiles and amphibians	Leaf axis: the function the object serves for a reptile or amphibian and its enclosure.	26	from verify/out/TREE_B10.md		
+B10.6.1	B10	leaf	B10.6	Feed and treats		27	from verify/out/TREE_B10.md		
+B10.6.2	B10	leaf	B10.6	Housing and containment		28	from verify/out/TREE_B10.md		
+B10.6.3	B10	leaf	B10.6	Habitat life-support		29	from verify/out/TREE_B10.md		
+B10.6.4	B10	leaf	B10.6	Habitat furnishing		30	from verify/out/TREE_B10.md		
+B10.7	B10	sub_family	B10	Cage and aviary birds	Leaf axis: the function the object serves for a caged or aviary bird. No kind is decided in the memo; the kinds come from the stage-3 harvest.	31	from verify/out/TREE_B10.md		
+B10.8	B10	sub_family	B10	Wild birds and wildlife	Leaf axis: the function the object serves for a wild bird or wild animal.	32	from verify/out/TREE_B10.md		
+B10.8.1	B10	leaf	B10.8	Feed and treats		33	from verify/out/TREE_B10.md		
+B10.8.2	B10	leaf	B10.8	Feeding equipment		34	from verify/out/TREE_B10.md		
+B10.8.3	B10	leaf	B10.8	Housing and containment		35	from verify/out/TREE_B10.md		
+B10.8.4	B10	leaf	B10.8	Care and hygiene		36	from verify/out/TREE_B10.md		
+B10.9	B10	sub_family	B10	Bees	Leaf axis: the function the object serves for bees or the beekeeper.	37	from verify/out/TREE_B10.md		
+B10.9.1	B10	leaf	B10.9	Feeding equipment		38	from verify/out/TREE_B10.md		
+B10.9.2	B10	leaf	B10.9	Housing and containment		39	from verify/out/TREE_B10.md		
+B10.9.3	B10	leaf	B10.9	Keeper's tools		40	from verify/out/TREE_B10.md		
+B10.9.4	B10	leaf	B10.9	Produce handling		41	from verify/out/TREE_B10.md		
+B10.10	B10	sub_family	B10	Poultry and other livestock (backyard)	Leaf axis: the function the object serves for backyard poultry or other livestock.	42	from verify/out/TREE_B10.md		
+B10.10.1	B10	leaf	B10.10	Feed and treats		43	from verify/out/TREE_B10.md		
+B10.10.2	B10	leaf	B10.10	Feeding equipment		44	from verify/out/TREE_B10.md		
+B10.10.3	B10	leaf	B10.10	Housing and containment		45	from verify/out/TREE_B10.md		
+B10.10.4	B10	leaf	B10.10	Habitat life-support		46	from verify/out/TREE_B10.md		
+B10.11	B10	sub_family	B10	Several animals	Leaf axis: the function the object serves; the same vocabulary as the animal sub-families. For objects made for two or more animal groups.	47	from verify/out/TREE_B10.md		
+B10.11.1	B10	leaf	B10.11	Feed and treats		48	from verify/out/TREE_B10.md		
+B10.11.2	B10	leaf	B10.11	Feeding equipment		49	from verify/out/TREE_B10.md		
+B10.11.3	B10	leaf	B10.11	Housing and containment		50	from verify/out/TREE_B10.md		
+B10.11.4	B10	leaf	B10.11	Keeper's tools		51	from verify/out/TREE_B10.md		
+B10.11.5	B10	leaf	B10.11	Carrying and travel		52	from verify/out/TREE_B10.md		
+B10.11.6	B10	leaf	B10.11	Health and veterinary		53	from verify/out/TREE_B10.md		
+B10.11.7	B10	leaf	B10.11	Identification and tracking		54	from verify/out/TREE_B10.md		
+B10.12	B10	sub_family	B10	Parts and accessories made for one B10 object	Leaf axis: the B10 object the part is made for (the only sub-family exempt from the animal-group axis).	55	from verify/out/TREE_B10.md		
+B10.12.1	B10	leaf	B10.12	Hive		56	from verify/out/TREE_B10.md		
+B10.12.2	B10	leaf	B10.12	Saddle		57	from verify/out/TREE_B10.md		
+B10.12.3	B10	leaf	B10.12	Aquarium filter		58	from verify/out/TREE_B10.md		
