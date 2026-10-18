@@ -58,7 +58,7 @@ for b in sys.argv[1:]:
         if log.exists() and any(f.stem.endswith(s) for s in ("makers", "maker_kinds", "scene_tags", "named_forms", "lines", "roster_only")):
             run(ROOT / "tools/drop_excerpt_sources.py", f, log)
     if (ROOT / f"verify/out/{b}_scene_tags.tsv").exists(): run(ROOT / "tools/defer_unknown_tags.py", b)
-    code = b.split("_")[1] if b.startswith("HV_") else "A1"
+    code = b.split("_")[1] if b.startswith(("HV_", "MKH_")) else "A1"
     kf = ROOT / f"verify/out/{b}_kinds.tsv"
     if code != "A1" and kf.exists() and read_tsv(kf): run(ROOT / "tools/data_write.py", "add", "kinds", kf)
     run(ROOT / "tools/load_batch.py", b, code)
