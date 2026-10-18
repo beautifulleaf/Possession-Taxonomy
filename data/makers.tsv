@@ -1,10 +1,10 @@
 maker_id	name	native_name	maker_class	supply_role	country	place	founded	ended	status	parent_id	licensor_id	authority_id	school_ids	extension	notes	sources	fetch_status
-M-lenovo	Lenovo		house or manufacture												Wikipedia hardware list names it under: computer monitors, webcams	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers | https://en.wikipedia.org/wiki/List_of_printer_companies	full | full
-M-hp	HP		house or manufacture												DesignJet and PageWide XL large-format printers	https://www.hp.com/us-en/printers/large-format.html	full
+M-lenovo	Lenovo		house or manufacture		HK										Wikipedia hardware list names it under: computer monitors, webcams; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers | https://en.wikipedia.org/wiki/List_of_printer_companies | https://www.reality-atlas.com/hardware | https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue	full | full | full | full
+M-hp	HP		house or manufacture		US										DesignJet and PageWide XL large-format printers; maker_id already in data/makers.tsv	https://www.hp.com/us-en/printers/large-format.html | https://www.reality-atlas.com/hardware | https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue	full | full | full
 M-dell	Dell		house or manufacture						active						laptop AC adapters, batteries; listed under routers on Wikipedia networking hardware list	https://ldlc.com/en/product/PB00495610.html | https://microcenter.com/site/products/all-laptop-batteries.aspx | https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full | full | full
-M-apple	Apple		house or manufacture												Wikipedia hardware list names it under: computer monitors	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
-M-asus	Asus		house or manufacture						active						listed under routers on Wikipedia networking hardware list; routers, ROG Cat7 cable	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers | https://asus.com/sg/networking-iot-servers/wifi-7/all-series	full | full
-M-acer	Acer		house or manufacture												Wikipedia hardware list names it under: computer monitors	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
+M-apple	Apple		house or manufacture		US										Wikipedia hardware list names it under: computer monitors; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers | https://www.reality-atlas.com/hardware | https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue	full | full | full
+M-asus	Asus		house or manufacture						active						listed under routers on Wikipedia networking hardware list; routers, ROG Cat7 cable; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers | https://asus.com/sg/networking-iot-servers/wifi-7/all-series | https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full | full | full
+M-acer	Acer		house or manufacture												Wikipedia hardware list names it under: computer monitors; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers | https://www.reality-atlas.com/hardware	full | full
 M-acemagic	Acemagic		house or manufacture		CN										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-alienware	Alienware		house or manufacture		US				active	M-dell					cooling pad for Alienware laptops named on Dell page	https://www.dell.com/en-us/shopping/laptop-cooling-pads	partial
 M-chuwi	Chuwi		house or manufacture		CN										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
@@ -16,7 +16,7 @@ M-dynabook	Dynabook		house or manufacture		JP										listed as laptop maker; l
 M-eurocom	Eurocom		house or manufacture		CA										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-falcon-northwest	Falcon Northwest		house or manufacture		US										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-framework-computer	Framework Computer		house or manufacture		US										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
-M-fujitsu	Fujitsu		house or manufacture													https://www.walmart.com/browse/electronics/scanners/3944_3951_37807_4439	full
+M-fujitsu	Fujitsu		house or manufacture		JP										maker_id already in data/makers.tsv	https://www.walmart.com/browse/electronics/scanners/3944_3951_37807_4439 | https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full | full
 M-getac	Getac		house or manufacture		TW										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-gigabyte	Gigabyte		house or manufacture													https://www.adorama.com/l/Gaming/PC-Gaming/Gaming-Monitors?startAt=25	full
 M-haier	Haier		house or manufacture		CN										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
@@ -29,12 +29,12 @@ M-itel-mobile	Itel Mobile		house or manufacture		HK										listed as laptop ma
 M-jio	Jio		house or manufacture		IN										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-lg	LG		house or manufacture													https://pccasegear.com/category/789/external-optical-drives	full
 M-medion	Medion		house or manufacture		DE										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
-M-msi	MSI		house or manufacture						active						laptop cooling pads	https://www.newegg.com/global/sa-en/Laptop-Cooling-Pads/SubCategory/ID-319/Page-2	full
-M-microsoft	Microsoft		house or manufacture												Wikipedia hardware list names it under: keyboards, webcams	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
+M-msi	MSI		house or manufacture						active						laptop cooling pads; maker_id already in data/makers.tsv	https://www.newegg.com/global/sa-en/Laptop-Cooling-Pads/SubCategory/ID-319/Page-2 | https://en.wikipedia.org/wiki/Category:Handheld_gaming_computers	full | full
+M-microsoft	Microsoft		house or manufacture		US										Wikipedia hardware list names it under: keyboards, webcams; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers | https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue	full | full | full
 M-mouse-computer	Mouse Computer		house or manufacture		JP										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-multilaser	Multilaser		house or manufacture		BR										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-origin-pc	Origin PC		house or manufacture		US										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
-M-panasonic	Panasonic		supplier						active						resistors; aluminum electrolytic capacitor ECA-1EHG472	https://www.mouser.com/c/passive-components/resistors/ | https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2	full | full
+M-panasonic	Panasonic		house or manufacture		JP				active						resistors; aluminum electrolytic capacitor ECA-1EHG472; maker_id already in data/makers.tsv	https://www.mouser.com/c/passive-components/resistors/ | https://www.dasenic.com/category/capacitors/aluminum-electrolytic-capacitors?page=2 | https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue	full | full | full | full
 M-polytron	Polytron		house or manufacture		ID										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-positivo	Positivo		house or manufacture		BR										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-purism	Purism		house or manufacture		US										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
@@ -60,34 +60,34 @@ M-canon	Canon		house or manufacture						active						ink cartridges	https://www.
 M-ctx	CTX		house or manufacture		TW										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-cyberpowerpc	CyberPowerPC		house or manufacture		US										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-epson	Epson		house or manufacture						active						ink bottles	https://www.quill.com/epson-ecotank-ink-bottle-black/cbs/54481746.html?&m=866891	full
-M-google	Google		house or manufacture		US										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
+M-google	Google		house or manufacture		US										listed as laptop maker; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers | https://en.wikipedia.org/wiki/List_of_game_controllers | https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue	full | full | full
 M-grundig	Grundig		house or manufacture		TR										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-hcl	HCL		house or manufacture		IN										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-hisense	Hisense		house or manufacture		TW										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-hitachi	Hitachi		house or manufacture		JP										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
-M-htc	HTC		house or manufacture		TW										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
+M-htc	HTC		house or manufacture		TW										listed as laptop maker; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers | https://www.reality-atlas.com/hardware | https://en.wikipedia.org/wiki/HTC	full | full | full
 M-ibm	IBM		house or manufacture													https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
 M-lava-international	Lava International		house or manufacture		IN										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
-M-nec	NEC		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
-M-nokia	Nokia		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-nec	NEC		house or manufacture		JP				active						listed under routers on Wikipedia networking hardware list; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers | https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full | full
+M-nokia	Nokia		house or manufacture						active						listed under routers on Wikipedia networking hardware list; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers | https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full | full
 M-olivetti	Olivetti		house or manufacture												printer maker per Wikipedia list	https://en.wikipedia.org/wiki/List_of_printer_companies	full
 M-onkyo	Onkyo		house or manufacture		JP										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
-M-philips	Philips		house or manufacture												Wikipedia hardware list names it under: computer monitors, webcams	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
+M-philips	Philips		house or manufacture		NL										Wikipedia hardware list names it under: computer monitors, webcams; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers | https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full | full
 M-sharp	Sharp		house or manufacture												Wikipedia hardware list names it under: computer monitors	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
-M-sony	Sony		house or manufacture													https://www.cdw.com/category/storage-hard-drives/memory-cards?w=KC	full
+M-sony	Sony		house or manufacture		JP										maker_id already in data/makers.tsv	https://www.cdw.com/category/storage-hard-drives/memory-cards?w=KC | https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue	full | full | full
 M-texas-instruments	Texas Instruments		house or manufacture		US										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-toshiba	Toshiba		house or manufacture													https://www.bestbuy.ca/en-ca/category/internal-hard-drives/20239 | https://www.bestbuy.ca/en-ca/category/external-hard-drives/20237	full | full
 M-vestel	Vestel		house or manufacture		TR										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-walmart	Walmart		retail own-label		US										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers | https://en.wikipedia.org/wiki/List_of_Walmart_brands	full | full
 M-wipro	Wipro		house or manufacture		IN										listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-acorn-computers	Acorn Computers		house or manufacture		GB				defunct						listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
-M-amstrad	Amstrad		house or manufacture		GB				defunct						listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
+M-amstrad	Amstrad		house or manufacture		GB				defunct						listed as laptop maker; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers | https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full | full
 M-ast-research	AST Research		house or manufacture		US				defunct						listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-atari-corporation	Atari Corporation		house or manufacture		US				defunct						listed as laptop maker; Atari ST named as built inside a keyboard	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers | https://www.c64-wiki.com/wiki/Keyboard	full | partial
 M-athena-computer-electronic-systems	Athena Computer & Electronic Systems		house or manufacture		US				defunct						listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-bondwell	Bondwell		house or manufacture		United States–Hong Kong				defunct						listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-cambridge-computer	Cambridge Computer		house or manufacture		GB				defunct						listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
-M-commodore	Commodore		house or manufacture		US				defunct						listed as laptop maker; keyboard computers (C64 and others)	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers | https://www.c64-wiki.com/wiki/Keyboard	full | partial
+M-commodore	Commodore		house or manufacture		CA				defunct						listed as laptop maker; keyboard computers (C64 and others); maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers | https://www.c64-wiki.com/wiki/Keyboard | https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full | partial | full
 M-compaq	Compaq		house or manufacture		US				defunct						listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-data-general	Data General		house or manufacture		US				defunct						listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
 M-digital-equipment-corporation	Digital Equipment Corporation		house or manufacture		US				defunct						listed as laptop maker	https://en.wikipedia.org/wiki/List_of_laptop_brands_and_manufacturers	full
@@ -137,7 +137,7 @@ M-schenker	Schenker		house or manufacture												laptop in review table	http
 M-geo-computers	Geo Computers		house or manufacture												laptop in review table	https://www.notebookcheck.net/Reviews-by-product-rating.160898.0.html	full
 M-prime-computer	Prime Computer		house or manufacture												laptop in review table	https://www.notebookcheck.net/Reviews-by-product-rating.160898.0.html	full
 M-cuk	CUK		house or manufacture												laptop in review table	https://www.notebookcheck.net/Reviews-by-product-rating.160898.0.html	full
-M-casio	Casio		house or manufacture						active						cash registers	https://www.posmarket.com.au/products/cash-registers/mid-range/casio/se-s400_7085.html	full
+M-casio	Casio		house or manufacture		JP				active						cash registers; maker_id already in data/makers.tsv	https://www.posmarket.com.au/products/cash-registers/mid-range/casio/se-s400_7085.html | https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full | full
 M-asrock	ASRock		house or manufacture												brand on mini-PC barebone category; brand in the Kakaku motherboard maker facet; PSU brand filter on UK shop	https://www.newegg.com/Mini-PC-Barebone/SubCategory/ID-309 | https://kakaku.com/pc/motherboard/ | https://www.overclockers.co.uk/pc-components/pc-power-supplies	full | full | full
 M-azulle	Azulle		house or manufacture												brand on mini-PC barebone category	https://www.adorama.com/l/Computers/Desktop-Computers/Barebone-and-Mini-PCs | https://www.bhphotovideo.com/c/buy/barebone-pcs/ci/31007 | https://www.newegg.com/Mini-PC-Barebone/SubCategory/ID-309	full | full | full
 M-firebat	Firebat		house or manufacture												brand on mini-PC barebone category	https://www.newegg.com/Mini-PC-Barebone/SubCategory/ID-309	full
@@ -167,7 +167,7 @@ M-lanner-inc	Lanner Inc		house or manufacture												listed under motherboar
 M-leadtek	Leadtek		house or manufacture												listed under motherboards; NVIDIA add-in card or nForce board partner (page undated)	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers | https://www.nvidia.com/es-la/drivers/support-aic/	partial | partial
 M-lite-on	Lite-On		house or manufacture												Wikipedia hardware list names it under: keyboards, optical disc drives	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-1st-embedded	1ST-embedded		house or manufacture												embedded Mini-ITX board with CPU soldered	https://1st-embedded.com/en_US/shop/product/mini-itx-embedded-motherboard-1st-mitx-aln10-510	full
-M-nvidia	NVIDIA		supplier	GPU maker											GPU families sold as graphics cards	https://shop.tsukumo.co.jp/dir/20 | https://www.nvidia.com/es-la/drivers/support-aic/	full | partial
+M-nvidia	Nvidia		house or manufacture	GPU maker	US										GPU families sold as graphics cards; maker_id already in data/makers.tsv	https://shop.tsukumo.co.jp/dir/20 | https://www.nvidia.com/es-la/drivers/support-aic/ | https://en.wikipedia.org/wiki/List_of_handheld_game_consoles | https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue	full | partial | full | full
 M-colorful	Colorful		house or manufacture												listed under video cards (graphics cards)	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	partial
 M-elsa-technology	ELSA Technology		house or manufacture												listed under video cards (graphics cards)	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	partial
 M-gainward	Gainward		house or manufacture												listed under video cards (graphics cards); NVIDIA add-in card or nForce board partner (page undated)	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers | https://www.nvidia.com/es-la/drivers/support-aic/	partial | partial
@@ -402,7 +402,7 @@ M-ugreen	Ugreen		house or manufacture						active						GaN wall chargers	https:/
 M-sandisk	SanDisk		house or manufacture													https://www.bhphotovideo.com/c/buy/USB-Flash-Drives/ci/5699	full
 M-kingston	Kingston		house or manufacture													https://www.bhphotovideo.com/c/buy/USB-Flash-Drives/ci/5699	full
 M-lexar	Lexar		house or manufacture													https://www.bhphotovideo.com/c/buy/USB-Flash-Drives/ci/5699	full
-M-samsung	Samsung		house or manufacture						active						listed under wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-samsung	Samsung		house or manufacture		KR				active						listed under wireless on Wikipedia networking hardware list; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers | https://www.reality-atlas.com/hardware | https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue	full | full | full
 M-western-digital	Western Digital		house or manufacture													https://www.cdw.com/category/storage-hard-drives/memory-cards?w=KC	full
 M-seagate	Seagate		house or manufacture													https://www.bestbuy.ca/en-ca/category/network-attached-storage-nas/29582	full
 M-vantec	Vantec		house or manufacture													https://www.memoryexpress.com/Category/ExternalEnclosures	full
@@ -416,7 +416,7 @@ M-outemu	Outemu		supplier	switch OEM												https://en.wikipedia.org/wiki/Li
 M-greetech	Greetech		supplier	switch OEM												https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
 M-dmet	DMET		supplier	optical switch OEM												https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
 M-omron	Omron		supplier	switch OEM												https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
-M-logitech	Logitech		house or manufacture												MX Creative Console	https://secure.logitech.com/en-ca/shop/c/logi-keyboards	full
+M-logitech	Logitech		house or manufacture		CH										MX Creative Console; maker_id already in data/makers.tsv	https://secure.logitech.com/en-ca/shop/c/logi-keyboards | https://secure.logitech.com/en-ph/shop/p/driving-force-racing-wheel | https://en.wikipedia.org/wiki/Logitech	full | full | full
 M-roccat	Roccat		house or manufacture													https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
 M-unicomp	Unicomp		house or manufacture													https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
 M-drop	Drop		house or manufacture													https://en.wikipedia.org/wiki/List_of_keyboard_switches	full
@@ -471,7 +471,7 @@ M-verbatim-corporation	Verbatim Corporation		house or manufacture												Wik
 M-hitachi-lg-data-storage	Hitachi-LG Data Storage		house or manufacture												Wikipedia hardware list names it under: optical disc drives	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-lg-electronics	LG Electronics		house or manufacture												Wikipedia hardware list names it under: computer monitors, optical disc drives	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-optiarc	Optiarc		house or manufacture												Wikipedia hardware list names it under: optical disc drives	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
-M-pioneer	Pioneer		house or manufacture												Wikipedia hardware list names it under: optical disc drives	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
+M-pioneer	Pioneer		house or manufacture		JP										Wikipedia hardware list names it under: optical disc drives; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers | https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full | full
 M-teac	TEAC		house or manufacture												Wikipedia hardware list names it under: optical disc drives	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-toshiba-samsung-storage-technology	Toshiba Samsung Storage Technology		house or manufacture												Wikipedia hardware list names it under: optical disc drives	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-aoc-international	AOC International		house or manufacture												Wikipedia hardware list names it under: computer monitors	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
@@ -499,7 +499,7 @@ M-iball	iBall		house or manufacture												Wikipedia hardware list names it 
 M-intex	Intex		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-kensington	Kensington		house or manufacture												SmartFit Easy Riser laptop riser stands	https://www.quill.com/laptop-cooling-pads/cbk/108343.html?page=2	full
 M-key-tronic	Key Tronic		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
-M-saitek	Saitek		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
+M-saitek	Saitek		house or manufacture												Wikipedia hardware list names it under: keyboards; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers | https://en.wikipedia.org/wiki/Saitek_X52	full | full
 M-steelseries	SteelSeries		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-trust	Trust		house or manufacture												Wikipedia hardware list names it under: keyboards, webcams	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
 M-wooting	Wooting		house or manufacture												Wikipedia hardware list names it under: keyboards	https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers	full
@@ -716,7 +716,7 @@ M-teltonika	Teltonika		house or manufacture						active						listed under router
 M-trendnet	TRENDnet		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
 M-usrobotics	USRobotics		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
 M-xirrus	Xirrus		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
-M-yamaha	Yamaha		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
+M-yamaha	Yamaha		house or manufacture						active						listed under routers on Wikipedia networking hardware list; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers | https://en.wikipedia.org/wiki/GD-ROM	full | full
 M-zte	ZTE		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
 M-zyxel	ZyXEL		house or manufacture						active						listed under routers on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
 M-airpro	AirPro		house or manufacture						active						listed under network switches or wireless on Wikipedia networking hardware list	https://en.wikipedia.org/wiki/List_of_networking_hardware_manufacturers	full
@@ -12211,7 +12211,7 @@ M-wirehead	WireHead		costume or fashion brand												Lolibrary brand	https:/
 M-dear-celine	Dear Celine		independent		CN										Chinese indie lolita label on the Taobao/Weibo brand list; listed as classic/ouji; Lolibrary brand; also on the Chinese lolita list	https://lolibrary.org/ | https://stephano.me/blog/chinese-lolita-brands	full | full
 M-na-h	Na+H		costume or fashion brand		JP	Kobe									Lolibrary brand; also on J-fashion wiki; Lolibrary wiki: Country Japan; launched in Kobe	https://lolibrary.org/ | https://j-fashion.fandom.com/wiki/Brands | https://wiki.lolibrary.org/index.php/Na%2BH	full | full | full
 M-chocochip-cookie	Chocochip Cookie		costume or fashion brand		JP										Lolibrary brand; Lolibrary wiki infobox country Japan	https://lolibrary.org/ | https://wiki.lolibrary.org/index.php/Chocochip_Cookie	full | full
-M-spica	Spica		costume or fashion brand		JP										Lolibrary brand; Listed in the Lolibrary wiki Japanese Indie Brand Directory (bags and headwear stocked by Putumayo); country from that directory	https://lolibrary.org/ | https://wiki.lolibrary.org/index.php/Japanese_Indie_Brand_Directory	full | partial
+M-spica	Spica		house or manufacture		JP										Lolibrary brand; Listed in the Lolibrary wiki Japanese Indie Brand Directory (bags and headwear stocked by Putumayo); country from that directory; maker_id already in data/makers.tsv	https://lolibrary.org/ | https://wiki.lolibrary.org/index.php/Japanese_Indie_Brand_Directory | https://en.wikipedia.org/wiki/FamiCoin	full | partial | full
 M-violet-fane	Violet Fane		costume or fashion brand		ES	Barcelona	2014								Lolibrary brand; Lolibrary wiki: infobox Spain; launched 2014 in Barcelona, Spain	https://lolibrary.org/ | https://wiki.lolibrary.org/index.php/Violet_Fane	full | full
 M-hell-cat-punks	Hell Cat Punks	ヘルキャットパンクス	costume or fashion brand		JP										Punk brand inspired by 1970s London; plaid, leopard, cat motifs	https://stephano.me/blog/visual-kei-fashion-brands | https://j-fashion.fandom.com/wiki/Brands | https://woman.mynavi.jp/article/190926-8/2/	full | full | full
 M-sex-pot-revenge	SEX POT ReVeNGe	セックスポットリベンジ	costume or fashion brand		JP		2003								Punk, rock and gothic brand since 2003; for 2000s visual kei 'SEX POT always comes to mind'	https://stephano.me/blog/visual-kei-fashion-brands | https://j-fashion.fandom.com/wiki/Brands | https://woman.mynavi.jp/article/190926-8/2/	full | full | full
@@ -31360,3 +31360,313 @@ M-cropwell-bishop-creamery	Cropwell Bishop Creamery		house or manufacture	cheese
 M-eggland-s-best	Eggland's Best		house or manufacture	egg packing centre	US	Malvern, Pennsylvania									Eggland's Best LLC, hen eggs white and brown	https://www.egglandsbest.com/product/classic-eggs	full
 M-abbott	Abbott		house or manufacture	processor or packer											Similac infant formula; page shows ©2026 Abbott	https://www.similac.com/home.html	full
 M-anchor	Anchor		house or manufacture	dairy or bottler											Anchor butter, made from New Zealand ingredients per Pacific site; footer credits Lactalis Group	https://www.anchordairy.com/pacific/en/products/butter-and-spreads.html	full
+M-synta-technology-corporation	Synta Technology Corporation of Taiwan		house or manufacture		TW	Taoyuan	1980		active						parent of Sky-Watcher and Celestron; makes telescopes for several brands; founded around 1980	https://en.wikipedia.org/wiki/Synta_Technology_Corporation_of_Taiwan	full
+M-celestron	Celestron		house or manufacture		US	Torrance, California	1964		active	M-synta-technology-corporation					telescopes, binoculars, spotting scopes, microscopes, weather stations, eyepieces	https://en.wikipedia.org/wiki/Celestron | https://www.highpointscientific.com/telescopes/refracting-telescopes	full | full
+M-meade-instruments	Meade Instruments		house or manufacture		US	Watsonville, California	1972	2024	defunct						telescopes, binoculars; Coronado solar brand; assets listed for auction Dec 2024	https://en.wikipedia.org/wiki/Meade_Instruments | https://www.highpointscientific.com/telescopes/catadioptric-telescopes/maksutov-cassegrain-telescopes	full | full
+M-sky-watcher	Sky-Watcher		house or manufacture		CN	Suzhou	1999		active	M-synta-technology-corporation					telescopes, mounts, eyepieces, spotting scopes; sells Synta optics	https://en.wikipedia.org/wiki/Sky-Watcher | https://www.astroshop.eu/telescopes/10/a,Teleskope.Optik.Bauart=Cassegrain/a,Teleskope.Optik.Bauart=Maksutov-Newton/a,Teleskope.Optik.Bauart=Newton/a,Teleskope.Optik.Bauart=Schmidt-Cassegrain/a,Teleskope.Optik.Bauart=Schmidt-Newton	full | full
+M-takahashi	Takahashi Seisakusho	高橋製作所	house or manufacture		JP	Tokyo	1932		active						apochromatic refractors, reflectors, eyepieces, equatorial mounts	https://en.wikipedia.org/wiki/Takahashi_Seisakusho | https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full | full
+M-vixen	Vixen	ビクセン	house or manufacture		JP				active						telescopes, binoculars, monoculars, microscopes, loupes, mounts; sold via Vixen Marketing Co Ltd	https://en.wikipedia.org/wiki/Vixen_(telescopes) | https://www.vixen-m.co.jp/ | https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full | full | full
+M-bresser	Bresser		house or manufacture		DE	Rhede	1957		active						binoculars, telescopes, microscopes, weather stations, night vision	https://en.wikipedia.org/wiki/Bresser | https://www.astroshop.eu/microscopy/23	full | full
+M-bushnell	Bushnell		house or manufacture		US	Overland Park, Kansas	1948		active						binoculars, spotting scopes, riflescopes; subsidiary of Revelyst (formerly Vista Outdoor)	https://en.wikipedia.org/wiki/Bushnell_Corporation | https://www.astroshop.eu/instruments/bushnell-binoculars-powerview-10x42-roof-prism/p,12788	full | full
+M-kowa	Kowa	興和	house or manufacture		JP	Nagoya	1894		active						binoculars and spotting scopes (TSN Prominar)	https://en.wikipedia.org/wiki/Kowa_(company) | https://www.adorama.com/l/Binoculars-and-Telescopes/Spotting-Scopes | https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full | full | full
+M-explore-scientific	Explore Scientific		house or manufacture		US	Springdale, Arkansas	2008		active						telescopes, spotting scopes, eyepieces; made in China by JOC; owner JourneyNorth	https://en.wikipedia.org/wiki/Explore_Scientific | https://www.highpointscientific.com/telescopes/refracting-telescopes	full | full
+M-orion-telescopes-and-binoculars	Orion Telescopes & Binoculars		house or manufacture		US	Watsonville, California	1975	2024	defunct						telescopes, binoculars, microscopes; Synta made much of range	https://en.wikipedia.org/wiki/Orion_Telescopes_%26_Binoculars	full
+M-questar	Questar Corporation		house or manufacture		US	New Hope, Pennsylvania	1950	2026	defunct						Maksutov-Cassegrain telescopes; closed May 2026	https://en.wikipedia.org/wiki/Questar_Corporation	full
+M-steiner-optik	Steiner-Optik		house or manufacture		DE	Bayreuth	1947		active						military, hunting and marine binoculars; owned by Beretta Holding since 2008	https://en.wikipedia.org/wiki/Steiner-Optik	full
+M-swarovski-optik	Swarovski Optik		house or manufacture		AT	Absam, Tyrol	1949		active						binoculars, spotting scopes, riflescopes	https://en.wikipedia.org/wiki/Swarovski_Optik | https://www.adorama.com/l/Binoculars-and-Telescopes/Spotting-Scopes	full | full
+M-tasco	Tasco		house or manufacture		US	Miami, Florida	1954		active						consumer telescopes, binoculars, spotting scopes, microscopes	https://en.wikipedia.org/wiki/Tasco_(company)	full
+M-tele-vue-optics	Tele Vue Optics		house or manufacture		US	Chester, New York	1977		active						eyepieces (Plossl, Nagler, Ethos, Delos) and apochromatic refractors	https://en.wikipedia.org/wiki/Tele_Vue | https://www.highpointscientific.com/tele-vue-40-mm-plossl-1-25-quot-eyepiece-epl-400	full | full
+M-unistellar	Unistellar		house or manufacture		FR	Marseille	2015		active						eVscope smart telescopes	https://en.wikipedia.org/wiki/Unistellar | https://www.highpointscientific.com/telescopes/smart-telescopes	full | full
+M-astro-physics	Astro-Physics		house or manufacture		US	Machesney Park, Illinois	1975		active						StarFire apochromatic refractors, equatorial mounts	https://en.wikipedia.org/wiki/Astro-Physics	full
+M-obsession-telescopes	Obsession Telescopes		house or manufacture		US	Lake Mills, Wisconsin	1989		active						truss Dobsonian telescopes 12.5 to 25 inch	https://en.wikipedia.org/wiki/Obsession_Telescopes	full
+M-unitron	Unitron		house or manufacture		US	Commack, New York	1952		active						began importing refractors; now industrial microscopes and brass presentation telescopes	https://en.wikipedia.org/wiki/Unitron	full
+M-officina-stellare	Officina Stellare		house or manufacture		IT	Sarcedo	2009		active						Ritchey-Chretien, Riccardi-Honders, Maksutov and refractor telescopes	https://en.wikipedia.org/wiki/Officina_Stellare	full
+M-halfmann-teleskoptechnik	Halfmann Teleskoptechnik		house or manufacture		DE	Neusass	1996		active						professional robotic telescopes and retractable enclosures	https://en.wikipedia.org/wiki/Halfmann_Teleskoptechnik	full
+M-novosibirsk-instrument-building-plant	Novosibirsk Instrument-Building Plant (NPZ)		house or manufacture		RU	Novosibirsk	1905		active						TAL telescopes: Klevtsov catadioptrics, refractors, reflectors; part of Shvabe Holding	https://en.wikipedia.org/wiki/Novosibirsk_Instrument-Building_Plant | https://en.wikipedia.org/wiki/TAL_telescope	full | full
+M-dfm-engineering	DFM Engineering		house or manufacture		US	Longmont, Colorado	1979		active						Cassegrain telescopes 16 to 50 inch, optics, mounts	https://en.wikipedia.org/wiki/DFM_Engineering	full
+M-rc-optical-systems	RC Optical Systems		house or manufacture		US	Flagstaff, Arizona	1998	2013	defunct						Ritchey-Chretien telescopes with carbon fiber trusses	https://en.wikipedia.org/wiki/RC_Optical_Systems	full
+M-edmund-scientific	Edmund Scientific		house or manufacture		US	Barrington, New Jersey	1942	2025	defunct						retailer and maker of telescopes, microscopes, science kits; industrial division is Edmund Optics	https://en.wikipedia.org/wiki/Edmund_Scientific_Corporation	full
+M-nikon	Nikon	ニコン	house or manufacture		JP	Tokyo	1917		active						binoculars, monoculars, microscopes	https://en.wikipedia.org/wiki/Nikon | https://www.astroshop.eu/binoculars/20/a,Fernglaeser.Allgemein.Serie=Habicht/a,Fernglaeser.Leistung.Bauart=Porro+prisms | https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full | full | full
+M-carl-zeiss	Carl Zeiss		house or manufacture		DE	Oberkochen	1846		active						binoculars (Conquest, Victory), microscopes, planetarium projectors, magnifiers	https://en.wikipedia.org/wiki/Carl_Zeiss_AG | https://www.astroshop.eu/microscopy/magnifying-glasses/26	full | full
+M-leica-camera	Leica Camera		house or manufacture		DE	Wetzlar	1869		active						binoculars, spotting scopes (Televid), rangefinders; founded as Ernst Leitz optical institute	https://en.wikipedia.org/wiki/Leica_Camera | https://www.adorama.com/l/Binoculars-and-Telescopes/Spotting-Scopes	full | full
+M-vortex-optics	Vortex Optics		house or manufacture		US	Barneveld, Wisconsin	2004		active						binoculars (Razor, Viper, Diamondback, Crossfire), spotting scopes	https://en.wikipedia.org/wiki/Vortex_Optics | https://www.adorama.com/l/Binoculars-and-Telescopes/Spotting-Scopes	full | full
+M-evident-olympus	Evident (formerly Olympus Scientific)		house or manufacture				2022		active						microscope business split from Olympus; sold to Bain Capital 2023; CX43 POL polarising microscope	https://en.wikipedia.org/wiki/Olympus_Corporation | https://www.astroshop.eu/microscopy/microscopes/upright-microscopes/polarising-microscopes/23_11_10_60/a,Mikroskope.Mechanik.Bauart=binocular	full | full
+M-eschenbach-optik	Eschenbach Optik		house or manufacture		DE	Nuremberg	1913		active						magnifiers, magnifying spectacles, binoculars, opera glasses, microscopes; owned by Inspecs Group (UK)	https://de.wikipedia.org/wiki/Eschenbach_Optik | https://www.astroshop.eu/microscopy/magnifying-glasses/26	full | full
+M-pentax	Pentax	ペンタックス	house or manufacture		JP				active						binoculars, spotting scopes; brand now with Ricoh Imaging after Hoya merger	https://en.wikipedia.org/wiki/Pentax | https://www.adorama.com/l/Binoculars-and-Telescopes/Spotting-Scopes | https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full | full | full
+M-leupold	Leupold & Stevens		house or manufacture		US	Beaverton, Oregon	1907		active						binoculars, spotting scopes (Mark 4, Gold Ring), riflescopes	https://en.wikipedia.org/wiki/Leupold_&_Stevens | https://www.adorama.com/l/Binoculars-and-Telescopes/Spotting-Scopes	full | full
+M-kosmos	Kosmos (Franckh-Kosmos)		publisher;house or manufacture		DE	Stuttgart	1822		active						publisher of Experimentierkasten science kits since the 1920s	https://de.wikipedia.org/wiki/Franckh-Kosmos | https://www.alternate.de/Spielzeug/KOSMOS/KOSMOS-Experimentierkasten?page=3	full | full
+M-airthings	Airthings		house or manufacture		NO	Oslo	2008		active						radon, CO2 and indoor air quality monitors	https://www.airthings.com/newsroom/airthings-debuts-space-co2-monitor | https://www.airthings.com/en/spring-allergy-bundle	full | full
+M-labconco	Labconco		house or manufacture		US	Kansas City, Missouri			active						fume hoods made in Fort Scott, Kansas; ducted and ductless	https://m.labconco.com/category/chemical-ventilation-furniture	full
+M-thermo-fisher-scientific	Thermo Fisher Scientific		house or manufacture		US	Waltham, Massachusetts	1956		active						formed 2006 from Thermo Electron and Fisher Scientific; brands Thermo Scientific, Kendro	https://en.wikipedia.org/wiki/Thermo_Fisher_Scientific	full
+M-thermo-scientific	Thermo Scientific		house or manufacture		US				active	M-thermo-fisher-scientific					brand of Thermo Fisher; Thermo Kendro TSX freezers, CryoPlus	https://www.labfriend.co.za/ultra-low-temperature-freezers	full
+M-levenhuk	Levenhuk		house or manufacture		US	Tampa, Florida			active						microscopes, binoculars, opera glasses, headband magnifiers, weather stations; page gives Tampa FL address	https://levenhuk.com/reviews/opera_binoculars_buying_guide/ | https://www.astroshop.eu/microscopy/23	full | full
+M-sega-toys	Sega Toys (Sega Fave Corporation)	セガトイズ	house or manufacture		JP	Tokyo			active						Homestar home planetarium projectors	https://www.astroshop.eu/p,61017 | https://www.astroshop.eu/planetaria-sundials/planetaria/42_20 | https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	partial | full | full
+M-vaonis	Vaonis		house or manufacture		FR	Montpellier	2016		active						Stellina, Vespera, Hestia smart telescopes; made in Montpellier	https://support.vaonis.com/portal/en/kb/articles/where-is-vespera-passengers-manufactured | https://www.highpointscientific.com/telescopes/smart-telescopes	full | full
+M-omegon	Omegon		house or manufacture						active						astroshop house brand: binoculars, telescopes, microscopes, mounts	https://www.astroshop.eu/binoculars/20/a,Fernglaeser.Allgemein.Serie=Habicht/a,Fernglaeser.Leistung.Bauart=Porro+prisms | https://www.astroshop.eu/telescopes/10/a,Teleskope.Optik.Bauart=Cassegrain/a,Teleskope.Optik.Bauart=Maksutov-Newton/a,Teleskope.Optik.Bauart=Newton/a,Teleskope.Optik.Bauart=Schmidt-Cassegrain/a,Teleskope.Optik.Bauart=Schmidt-Newton | https://www.astroshop.eu/microscopy/23	full | full | full
+M-zwo	ZWO		house or manufacture						active						Seestar smart telescopes, ASI cameras, harmonic equatorial mounts	https://www.highpointscientific.com/telescopes/smart-telescopes | https://www.astroshop.eu/astrophotography/cameras/15_35_10/m,ZWO	full | full
+M-dwarflab	DwarfLab		house or manufacture						active						DWARF Mini and DWARF 3 smart telescopes	https://www.highpointscientific.com/telescopes/smart-telescopes	full
+M-lunt-solar-systems	Lunt Solar Systems		house or manufacture						active						LS series H-alpha solar telescopes	https://www.astroshop.eu/solar-observation/solar-telescopes/10_80/m,Coronado	full
+M-daystar	DayStar Filters		house or manufacture						active						SolarScout and Sol 60 H-alpha telescopes	https://www.astroshop.eu/solar-observation/solar-telescopes/10_80/m,Coronado	full
+M-william-optics	William Optics		house or manufacture		TW	Taipei	1996		active						Fluorostar and RedCat refractors	https://www.highpointscientific.com/telescopes/refracting-telescopes | https://www.company7.com/wo/index.html	full | full
+M-askar	Askar		house or manufacture						active						apochromatic refractors	https://www.highpointscientific.com/telescopes/refracting-telescopes	full
+M-ioptron	iOptron		house or manufacture						active						Rumak Maksutov, SkyGuider and SkyTracker mounts	https://www.highpointscientific.com/telescopes/catadioptric-telescopes/maksutov-cassegrain-telescopes | https://www.astroshop.eu/mounts-accessories/15_55	full | full
+M-zoomion	Zoomion		house or manufacture						active						Cassini Dobsonian, Stardust and Genesis telescopes	https://www.astroshop.eu/telescopes/10/a,Teleskope.Optik.Bauart=Cassegrain/a,Teleskope.Optik.Bauart=Maksutov-Newton/a,Teleskope.Optik.Bauart=Newton/a,Teleskope.Optik.Bauart=Schmidt-Cassegrain/a,Teleskope.Optik.Bauart=Schmidt-Newton	full
+M-baader-planetarium	Baader Planetarium		house or manufacture						active						AstroSolar filters; Planetarium NV 110/220 projector	https://www.highpointscientific.com/baader-astf-100-astrosolar-clearwhite-telescope-solar-filter-100-mm | https://www.astroshop.eu/binoculars/20/a,Fernglaeser.Allgemein.Serie=Inception/a,Fernglaeser.Anwendungsgebiete=Theatre	full | full
+M-fujinon	Fujinon	フジノン	house or manufacture		JP				active						Techno-Stabi and LB ED-SX binoculars; brand name as shown by the shop	https://www.astroshop.eu/binoculars/20/a,Fernglaeser.Allgemein.Serie=Habicht/a,Fernglaeser.Leistung.Bauart=Porro+prisms | https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full | full
+M-hawke	Hawke Sport Optics		house or manufacture		GB				active						spotting scopes (Vantage, Nature-Trek) and Endurance ED monoculars	https://www.adorama.com/l/Binoculars-and-Telescopes/Spotting-Scopes | https://www.astroshop.eu/binoculars/20/a,Fernglaeser.Allgemein.Serie=Inception/a,Fernglaeser.Anwendungsgebiete=Theatre | https://www.hawkeoptics.com/about.html	full | full | full
+M-athlon-optics	Athlon Optics		house or manufacture						active						Ares G2 and Talos spotting scopes	https://www.adorama.com/l/Binoculars-and-Telescopes/Spotting-Scopes	full
+M-sun-optics	Sun Optics		house or manufacture						active						Range Pro spotting scopes	https://www.adorama.com/l/Binoculars-and-Telescopes/Spotting-Scopes	full
+M-armasight	Armasight		house or manufacture						active						PVS-14 monoculars and BNVD-51 night vision goggles; ITAR-labelled	https://shop.armasight.com/night-vision/shop-by-series/?page=2	full
+M-pulsar-optics	Pulsar		house or manufacture						active						thermal imaging monoculars; described as a European-based manufacturer	https://pulsarvision.com/products/thermal-imaging-monoculars/	full
+M-buki	Buki		house or manufacture						active						Planetarium HD	https://www.astroshop.eu/planetaria-sundials/planetaria/42_20	full
+M-national-geographic	National Geographic (licensed optics)		licensee or diffusion						active						Astro Planetarium; also Porro binoculars in the shop	https://www.astroshop.eu/planetaria-sundials/planetaria/42_20	full
+M-fischer-barometerfabrik	Fischer		house or manufacture						active						aneroid barometers, hygrometers, thermometers and outdoor weather stations	https://www.astroshop.eu/miscellaneous/weather-stations/44	full
+M-short-and-mason	Short & Mason		house or manufacture						active						Stormoguide barometer c.1930 and recording barometers	https://www.1stdibs.com/buy/aneroid-barometer	full
+M-apogee-instruments	Apogee Instruments		house or manufacture						active						SP-110 silicon pyranometer; page does not name the maker beyond the product name	https://campbellsci.com.au/sp-110	full
+M-davis-instruments	Davis Instruments		house or manufacture						active						Vantage Vue and Vantage Pro2 weather stations	https://www.davisinstruments.com/collections/weather-stations	full
+M-nordiclab	Nordiclab		house or manufacture						active						ULT-C and LT-C laboratory chest freezers	https://www.labfriend.co.za/ultra-low-temperature-freezers	full
+M-fryka-kaltetechnik	Fryka Kaltetechnik		house or manufacture						active						Ultra Freezer Box B 35-85 and freezer boxes	https://www.labfriend.co.za/ultra-low-temperature-freezers	full
+M-trippensee-planetarium-company	Trippensee Planetarium Company		house or manufacture						active						orrery planetary model 1968-1969 in museum	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-euromex	Euromex		house or manufacture						active						iScope, NexiusZoom, MacroZoom microscopes; CMEX cameras	https://www.astroshop.eu/microscopy/23	full
+M-motic	Motic		house or manufacture						active						BA410, BA310 POL, SMZ stereo, Panthera microscopes; A1 and A2 cameras	https://www.astroshop.eu/microscopy/23	full
+M-optika	Optika		house or manufacture						active						SLX, SZR stereo microscopes, B-series, C-B cameras	https://www.astroshop.eu/microscopy/23	full
+M-kern-and-sohn	Kern & Sohn		house or manufacture						active						OIV 345 digital microscope	https://www.astroshop.eu/microscopy/microscopes/digital-microscopes/23_11_40	full
+M-vision-engineering	Vision Engineering		house or manufacture						active						EVO Cam II digital microscope	https://www.astroshop.eu/microscopy/microscopes/digital-microscopes/23_11_40	full
+M-touptek	ToupTek		house or manufacture						active						ToupCam microscope cameras and HCAM hand-held microscope	https://www.astroshop.eu/microscopy/23	full
+M-windaus	Windaus		house or manufacture						active						HPS 6 binocular dissecting microscope	https://www.astroshop.eu/microscopy/microscopes/stereo-microscope/23_11_20/s,green	full
+M-dino-lite	Dino-Lite		house or manufacture						active						digital microscope line sold by Microscope Central	https://www.microscope.com/education-center/buyers-guides/how-to-buy	full
+M-schweizer	Schweizer		house or manufacture						active						Tech-Line headband, stand and watchmaker magnifiers	https://www.astroshop.eu/microscopy/magnifying-glasses/26	full
+M-carson-optical	Carson Optical		house or manufacture						active						LumiLoupe, BigEye, TriView magnifiers; pocket, digital and biological microscopes	https://www.astroshop.eu/microscopy/magnifying-glasses/26 | https://www.carson.com/product-directory/microscopes	full | full
+M-goto-optical	Goto Optical Mfg	五藤光学研究所	house or manufacture		JP				active						Japanese planetarium and telescope maker listed on the Japanese makers list	https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full
+M-konica-minolta-planetarium	Konica Minolta Planetarium	コニカミノルタプラネタリウム	house or manufacture		JP				active						planetarium projector maker listed on the Japanese list	https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full
+M-mizar-tec	Mizar-Tec	ミザールテック	house or manufacture		JP				active						telescope, binocular and microscope maker listed on the Japanese list	https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full
+M-meiji-techno	Meiji Techno	メイジテクノ	house or manufacture		JP				active						microscope maker; polarizing microscopes sold in US shop	https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7 | https://www.microscope.com/education-center/buyers-guides/how-to-buy	full | full
+M-mitaka-kohki	Mitaka Kohki	三鷹光器	house or manufacture		JP				active						optical instrument maker listed on the Japanese list	https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full
+M-kenko-optics	Kenko Optics	ケンコーオプティックス	house or manufacture		JP				active						optics maker listed on the Japanese makers list	https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full
+M-hamamatsu-photonics	Hamamatsu Photonics	浜松ホトニクス	house or manufacture		JP				active						listed on the Japanese list of observation instrument makers	https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	partial
+M-watanabe-kyogu-seisakusho	Watanabe Kyogu Seisakusho	渡辺教具製作所	house or manufacture		JP				active						educational astronomical instruments maker listed on the Japanese list	https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7	full
+M-borg	Borg	ボーグ	house or manufacture		JP				active						telescope maker listed on the Japanese list; Borg refractors also seen on firstlight retailer page	https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7 | https://www.firstlightoptics.com/telescopes.html	full | full
+M-olympus	Olympus	オリンパス	house or manufacture		JP	Hachioji, Tokyo	1919		active						microscopes and binoculars maker; microscope business now Evident	https://ja.wikipedia.org/wiki/%E6%9C%9B%E9%81%A0%E9%8F%A1%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%B8%80%E8%A6%A7 | https://en.wikipedia.org/wiki/Olympus_Corporation	full | full
+M-hettich	Hettich		house or manufacture						active						benchtop, microliter and small centrifuges; Hettich Benelux B.V. page shows a Geldermalsen address	https://www.hettichlab.com/en-nl/products/centrifuges/benchtop-centrifuges/	full
+M-w-and-s-jones	W & S Jones		house or manufacture						defunct						orrery planetary models c.1792-1847 in museum	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-newton-and-son	Newton & Son		house or manufacture						defunct						orrery planetary models 1846-1857 in museum	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-space-educational-aids	Space Educational Aids Limited		house or manufacture						active						orrery planetary model 1967-1969 and manual orrery in museum	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-laing-planetarium-company	Laing Planetarium Company		house or manufacture						defunct						orrery planetary model 1910-1920 in museum	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-parkes-and-hadley	Parkes and Hadley		house or manufacture						defunct						orrery planetary model 1889-1894 in museum	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-benjamin-martin	Benjamin Martin		artisan or atelier						defunct						orrery planetary model 1738-1777 in museum	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-james-ferguson	James Ferguson		artisan or atelier						defunct						orrery planetary model 1755-1756 in museum	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-john-rowley	John Rowley		artisan or atelier						defunct						orrery made 1712-1713 for the Earl of Orrery	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-thomas-wright	Thomas Wright		artisan or atelier						defunct						Grand Orrery 1715-1728 and orrery planetary models	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-william-pearson	William Pearson		artisan or atelier						defunct						orrery planetary model designed 1813-1822	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-john-hansford	John Hansford		artisan or atelier						defunct						orrery planetary model 1785-1810	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-bahram-momeny	Bahram Momeny		artisan or atelier						active						orrery planetary model 2002 and Transit of Venus model 2004	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-heyden-and-son	Heyden & Son Ltd.		house or manufacture						defunct						Baader planetarium model 1968-1969 in museum	https://collection.sciencemuseumgroup.org.uk/search/objects/object_type/orreries	full
+M-p-adie	P Adie		house or manufacture		GB	Westminster, London	1874	1936	defunct						Kew pattern mercury marine barometer; page says UK firm at Westminster 1874-1936	https://analogweather.com/-p-adie-kew-pattern-mercury-barometer.html	full
+M-daniel-quare	Daniel Quare		artisan or atelier						defunct						first patent for a portable (cistern) barometer 1695	https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/meteorology/barometers/types-barometer	full
+M-thomas-page-of-norwich	Thomas Page of Norwich		artisan or atelier						defunct						angle barometer; died 1784	https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/meteorology/barometers/types-barometer	full
+M-angelo-lovi	Angelo Lovi		artisan or atelier						defunct						angle mercury barometer and thermometer, Edinburgh, c.1730-1805	https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/meteorology/barometers/types-barometer	full
+M-lucien-vidie	Lucien Vidie		artisan or atelier						defunct						first metallic aneroid barometer 1844; 1805-1866	https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/meteorology/barometers/types-barometer	full
+M-edward-john-dent	Edward John Dent		artisan or atelier						defunct						popularised the aneroid barometer; 1790-1853	https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/meteorology/barometers/types-barometer	full
+M-negretti-and-zambra	Negretti & Zambra		house or manufacture						defunct						aneroid barometers listed by antique dealers	https://www.1stdibs.com/buy/aneroid-barometer	full
+M-stanley-london	Stanley of London		house or manufacture						defunct						Victorian brass aneroid barometer in leather case	https://www.1stdibs.com/buy/aneroid-barometer	full
+M-elkington-and-company	Elkington and Company		house or manufacture						defunct						made 1876 electrotype copy of the 1566 Arsenius astrolabe	https://collection.sciencemuseumgroup.org.uk/objects/co56280/european-astrolabe-by-arsenius-1566-astrolabe-replica-electrotype	full
+M-walter-arsenius	Gualterus (Walter) Arsenius		artisan or atelier						defunct						maker of planispheric astrolabe dated 1566	https://collection.sciencemuseumgroup.org.uk/objects/co56280/european-astrolabe-by-arsenius-1566-astrolabe-replica-electrotype	full
+M-moritz-hensoldt	Moritz Hensoldt		artisan or atelier						defunct						began marketing roof-prism binoculars in 1897	https://en.wikipedia.org/wiki/Binoculars	full
+M-g-and-s-merz	G. & S. Merz		house or manufacture						defunct						made 1800s Keplerian binoculars with erecting lenses	https://en.wikipedia.org/wiki/Binoculars	full
+M-the-custom-windsock-company	The Custom Windsock Company		house or manufacture						active						airport windsocks in orange polyester, FAA-compliant sizes	https://www.aviationpros.com/directory/airport-facilities-buildings/product/55403700/the-custom-windsock-company-airport-windsock-faa-compliant-orange	full
+M-good-directions	Good Directions		house or manufacture						active						copper rooster garden weathervane with brass directionals	https://tools.woot.com/offers/rooster-weathervane-pure-copper-w-garden-pole	full
+M-extech-instruments	Extech Instruments		house or manufacture						active						45168CP mini thermo-anemometer	https://datatec.eu/de/en/extech-45168cp	full
+M-campbell-scientific	Campbell Scientific		house or manufacture		AU	Queensland			active						sells Apogee SP-110 pyranometer; page lists an Australian address and a US arm	https://campbellsci.com.au/sp-110	full
+M-wiltronics	Wiltronics		retail own-label		AU				active						sells a 10-piece dissecting set; Australian school supplier	https://www.wiltronics.com.au/product/92418/dissecting-set-10-piece/	full
+M-chemglass	Chemglass		house or manufacture						active						round bottom, Erlenmeyer, volumetric and boiling flasks	https://chemglass.com/flasks?orderby=11&pagenumber=2&pagesize=36	full
+M-dwk-life-sciences	DWK Life Sciences		house or manufacture						active						featured glassware brand at Lab Depot; DURAN brand glassware	https://www.labdepotinc.com/laboratory-glassware	full
+M-j-g-finneran	J. G. Finneran		house or manufacture						active						featured glassware brand at Lab Depot	https://www.labdepotinc.com/laboratory-glassware	full
+M-edmund-optics	Edmund Optics		house or manufacture		GB	York			active						sells solar eclipse glasses and viewers; page footer gives a York UK address	http://www.edmundoptics.es/f/solar-eclipse-glasses-and-viewers/40100	full
+M-omano	Omano		retail own-label		US	Roanoke, Virginia			active						own-brand microscopes, slides and cover slips of Microscope Central; page says based in the USA, Roanoke VA	https://www.microscope.com/education-center/buyers-guides/how-to-buy | https://www.microscope.com/all-products/slides-and-accessories	full | full
+M-fairchild	Fairchild		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-rca	RCA		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-midway	Midway		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-atari-inc	Atari Inc.		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/Atari,_Inc.	full | full
+M-apf	APF		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-unisonic	Unisonic		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-interton	Interton		house or manufacture		DE											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-audiosonic	Audiosonic		house or manufacture													https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-magnavox	Magnavox		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-bandai	Bandai		house or manufacture		JP											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-mattel	Mattel		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/Mattel	full | full
+M-vtech	VTech		house or manufacture		HK											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/VTech	full | full
+M-epoch	Epoch		house or manufacture		JP	Tokyo	1958									https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/Epoch_Co.	full | full
+M-emerson	Emerson		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-coleco	Coleco		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/Coleco	full | full
+M-gce	GCE		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-gakken	Gakken		house or manufacture		JP											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-nichibutsu	Nichibutsu		house or manufacture		JP											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-tomy	Tomy		house or manufacture		JP											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-sega	Sega		house or manufacture		JP											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue	full | full
+M-nintendo	Nintendo		house or manufacture		JP											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue	full | full
+M-heber	Heber		house or manufacture		GB											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-ljn	LJN		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-daewoo	Daewoo		house or manufacture		KR											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-atari-corp	Atari Corp.		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/Atari_Corporation	full | full
+M-worlds-of-wonder	Worlds of Wonder		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-view-master-ideal-group	View-Master Ideal Group		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-snk	SNK		house or manufacture		JP	Osaka	1978									https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/SNK	full | full
+M-konami	Konami		house or manufacture		JP											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue	full | full
+M-memorex	Memorex		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-capcom	Capcom		house or manufacture		JP											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue	full | full
+M-funtech	Funtech		house or manufacture		TW											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-vm-labs	VM Labs		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-3-plus	3-Plus		house or manufacture		IS											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-ssd-company	SSD Company		house or manufacture		JP											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-zapit	ZAPiT		house or manufacture		CA											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-jungletac	JungleTac		house or manufacture		CN											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-envizions	Envizions		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-zeebo-inc	Zeebo Inc.		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-blaze-entertainment	Blaze Entertainment		house or manufacture		GB											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles | https://en.wikipedia.org/wiki/Evercade	full | full
+M-nex-team	Nex Team		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_home_video_game_consoles	full
+M-milton-bradley	Milton Bradley		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-entex	Entex		house or manufacture		US	Compton	1970									https://en.wikipedia.org/wiki/List_of_handheld_game_consoles | https://en.wikipedia.org/wiki/Entex_Industries	full | full
+M-palmtex	Palmtex		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-atari	Atari		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_handheld_game_consoles | https://en.wikipedia.org/wiki/Atari,_Inc.	full | full
+M-bit-corporation	Bit Corporation		house or manufacture		TW	Taipei		1992								https://en.wikipedia.org/wiki/List_of_handheld_game_consoles | https://en.wikipedia.org/wiki/Bit_Corporation	full | full
+M-hartung	Hartung		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-watara	Watara		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-welback-holdings	Welback Holdings		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-tiger-electronics	Tiger Electronics		house or manufacture		US											https://en.wikipedia.org/wiki/Tiger_Electronics	full
+M-game-park	Game Park		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-aquaplus	Aquaplus		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-tapwave	Tapwave		house or manufacture		US	Mountain View	2001	2005								https://en.wikipedia.org/wiki/List_of_handheld_game_consoles | https://en.wikipedia.org/wiki/Tapwave_Zodiac	full | full
+M-tiger-telematics	Tiger Telematics		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-gamepark-holdings	GamePark Holdings		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-dingo-digital-technology	Dingo Digital Technology		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-openpandora	OpenPandora		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-tommo	Tommo		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-game-consoles-worldwide	Game Consoles Worldwide		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-gamepad-digital	GamePad Digital		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-analogue	Analogue		house or manufacture												page calls it Hong Kong based and American; country left blank	https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-tinycircuits	TinyCircuits		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-panic	Panic		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-ayaneo	Ayaneo		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-valve	Valve		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_handheld_game_consoles | https://en.wikipedia.org/wiki/Steam_(service)	full | full
+M-tecno-mobile	Tecno Mobile		house or manufacture													https://en.wikipedia.org/wiki/List_of_handheld_game_consoles	full
+M-anbernic	Anbernic		house or manufacture		CN											https://retrohandheldhq.com/devices/ | https://en.wikipedia.org/wiki/Anbernic	full | full
+M-ayn	AYN		house or manufacture													https://retrohandheldhq.com/devices/	full
+M-mangmi	Mangmi		independent													https://retrohandheldhq.com/devices/	full
+M-miyoo	Miyoo		independent													https://retrohandheldhq.com/devices/	full
+M-powkiddy	Powkiddy		independent													https://retrohandheldhq.com/devices/	full
+M-goretroid	GoRetroid		house or manufacture													https://retrohandheldhq.com/devices/	full
+M-trimui	TrimUI		independent													https://retrohandheldhq.com/devices/	full
+M-atari-sa	Atari SA		licensee or diffusion		LU										licensor of Flashback line; Luxembourg holding since 2026, founded in Lyon France 1983 as Infogrames	https://en.wikipedia.org/wiki/Atari_Flashback | https://en.wikipedia.org/wiki/Atari_SA	full | full
+M-legacy-engineering-group	Legacy Engineering Group		house or manufacture													https://en.wikipedia.org/wiki/Atari_Flashback	full
+M-atgames	AtGames		licensee or diffusion		US											https://en.wikipedia.org/wiki/Atari_Flashback | https://en.wikipedia.org/wiki/AtGames	full | full
+M-jakks-pacific	Jakks Pacific		house or manufacture		US											https://en.wikipedia.org/wiki/Handheld_TV_game | https://en.wikipedia.org/wiki/Jakks_Pacific	full | full
+M-radica-games	Radica Games		house or manufacture													https://en.wikipedia.org/wiki/Handheld_TV_game	full
+M-majesco	Majesco		house or manufacture		US	Hazlet	1986									https://en.wikipedia.org/wiki/Handheld_TV_game | https://en.wikipedia.org/wiki/Majesco	full | full
+M-toy-lobster	Toy:Lobster		house or manufacture													https://en.wikipedia.org/wiki/Handheld_TV_game	full
+M-exa-arcadia	exA-Arcadia		house or manufacture		JP										maker of cabinets on List of Japanese arcade cabinets	https://en.wikipedia.org/wiki/List_of_Japanese_arcade_cabinets	full
+M-jaleco	Jaleco		house or manufacture		JP										maker of cabinets on List of Japanese arcade cabinets	https://en.wikipedia.org/wiki/List_of_Japanese_arcade_cabinets	full
+M-irem	Irem		house or manufacture		JP										maker of cabinets on List of Japanese arcade cabinets	https://en.wikipedia.org/wiki/List_of_Japanese_arcade_cabinets	full
+M-sigma	Sigma		house or manufacture		JP										maker of cabinets on List of Japanese arcade cabinets	https://en.wikipedia.org/wiki/List_of_Japanese_arcade_cabinets	full
+M-taito	Taito		house or manufacture		JP	Tokyo	1953								maker of cabinets on List of Japanese arcade cabinets	https://en.wikipedia.org/wiki/List_of_Japanese_arcade_cabinets | https://en.wikipedia.org/wiki/Taito	full | full
+M-namco	Namco		house or manufacture		JP										maker of cabinets on List of Japanese arcade cabinets	https://en.wikipedia.org/wiki/List_of_Japanese_arcade_cabinets	full
+M-tecmo	Tecmo		house or manufacture		JP										maker of cabinets on List of Japanese arcade cabinets	https://en.wikipedia.org/wiki/List_of_Japanese_arcade_cabinets	full
+M-sammy	Sammy		house or manufacture		JP										maker of cabinets on List of Japanese arcade cabinets	https://en.wikipedia.org/wiki/List_of_Japanese_arcade_cabinets	full
+M-sunsoft	Sunsoft		house or manufacture		JP										maker of cabinets on List of Japanese arcade cabinets	https://en.wikipedia.org/wiki/List_of_Japanese_arcade_cabinets	full
+M-river-service	River Service		house or manufacture		JP										maker of cabinets on List of Japanese arcade cabinets	https://en.wikipedia.org/wiki/List_of_Japanese_arcade_cabinets	full
+M-lucky	Lucky		house or manufacture		JP										maker of cabinets on List of Japanese arcade cabinets	https://en.wikipedia.org/wiki/List_of_Japanese_arcade_cabinets	full
+M-arcade1up	Arcade1Up		licensee or diffusion		US											https://www.adorama.com/arc7030.html | https://en.wikipedia.org/wiki/Arcade1Up	full | full
+M-bandai-namco-entertainment	Bandai Namco Entertainment		house or manufacture		JP										listing says built by Namco	https://www.libertygames.co.uk/store/video_arcade_machines/latest/pixel-bash-cabaret/ | https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue | https://en.wikipedia.org/wiki/Power_Pad | https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full | full | full | full
+M-simuline	Simuline		builder													https://www.libertygames.co.uk/store/video_arcade_machines/classic_arcade_machines/cycraft/	full
+M-gravis	Gravis		house or manufacture													https://en.wikipedia.org/wiki/List_of_game_controllers	full
+M-ouya	Ouya		house or manufacture													https://en.wikipedia.org/wiki/List_of_game_controllers	full
+M-amazon	Amazon		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_game_controllers | https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue	full | full
+M-hori	Hori		house or manufacture		JP											https://www.hlj.com/nintendo-switch-real-arcade-pro-v-hayabusa-hrinsw-006 | https://en.wikipedia.org/wiki/Hori_(company)	full | full
+M-thrustmaster	Thrustmaster		house or manufacture		FR											https://www.coolblue.nl/en/product/858301/thrustmaster-t-lcm-pedals-set.html | https://en.wikipedia.org/wiki/Thrustmaster	full | full
+M-sinden	Sinden		house or manufacture													https://en.wikipedia.org/wiki/List_of_game_controllers	full
+M-redoctane	RedOctane		house or manufacture		US	Mountain View	1999									https://en.wikipedia.org/wiki/Rhythm_game_accessories | https://en.wikipedia.org/wiki/RedOctane	full | full
+M-mad-catz	Mad Catz		house or manufacture		HK										founded Toronto 1989, infobox San Diego; brand now owned by Hong Kong company; country is current owner	https://en.wikipedia.org/wiki/Rhythm_game_accessories | https://en.wikipedia.org/wiki/Mad_Catz	full | full
+M-fender	Fender		house or manufacture													https://en.wikipedia.org/wiki/Rhythm_game_accessories	full
+M-you-rock-digital	You Rock Digital		house or manufacture													https://en.wikipedia.org/wiki/Rhythm_game_accessories	full
+M-hit-box	Hit Box		independent													https://en.wikipedia.org/wiki/Smash_Box_controller	full
+M-mixbox	Mixbox		independent													https://en.wikipedia.org/wiki/Arcade_controller	full
+M-haute42	Haute42		independent													https://thearcadestick.com/top-mini-hitboxes	full
+M-sunga	Sunga		independent													https://thearcadestick.com/top-mini-hitboxes	full
+M-doio	DOIO		independent													https://thearcadestick.com/top-mini-hitboxes	full
+M-lber	LBER		independent													https://thearcadestick.com/top-mini-hitboxes	full
+M-brook	Brook		independent													https://thearcadestick.com/top-mini-hitboxes	full
+M-cd-projekt	CD Projekt		storefront or marketplace		PL											https://en.wikipedia.org/wiki/Digital_distribution_of_video_games	full
+M-epic-games	Epic Games		storefront or marketplace		US											https://en.wikipedia.org/wiki/Digital_distribution_of_video_games	full
+M-electronic-arts	Electronic Arts		game publisher		US											https://en.wikipedia.org/wiki/Digital_distribution_of_video_games | https://en.wikipedia.org/wiki/List_of_largest_video_game_companies_by_revenue	full | full
+M-maxis	Maxis		game publisher													https://en.wikipedia.org/wiki/The_Sims_4_expansion_packs	full
+M-moddb	ModDB		storefront or marketplace		AU											https://en.wikipedia.org/wiki/ModDB	full
+M-meta	Meta		house or manufacture		US											https://www.reality-atlas.com/hardware | https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue	full | full
+M-oculus	Oculus		house or manufacture													https://www.reality-atlas.com/hardware	full
+M-pico-interactive	Pico Interactive		house or manufacture													https://www.reality-atlas.com/hardware	full
+M-iqiyi	iQIYI		house or manufacture													https://www.reality-atlas.com/hardware	full
+M-lynx	Lynx		independent													https://www.reality-atlas.com/hardware	full
+M-dpvr	DPVR		house or manufacture													https://www.reality-atlas.com/hardware	full
+M-pimax	Pimax		house or manufacture		CN											https://www.reality-atlas.com/hardware | https://en.wikipedia.org/wiki/Pimax	full | full
+M-play-for-dream	Play For Dream		independent													https://www.reality-atlas.com/hardware	full
+M-simulavr	SimulaVR		independent													https://www.reality-atlas.com/hardware	full
+M-bigscreen	Bigscreen		independent													https://www.reality-atlas.com/hardware	full
+M-varjo	Varjo		house or manufacture		FI											https://www.reality-atlas.com/hardware | https://en.wikipedia.org/wiki/Varjo	full | full
+M-shiftall	Shiftall		independent													https://www.reality-atlas.com/hardware	full
+M-vrgineers	VRgineers		independent													https://www.reality-atlas.com/hardware	full
+M-somnium-space	Somnium Space		independent													https://www.reality-atlas.com/hardware	full
+M-xeo	XEO		independent													https://www.reality-atlas.com/hardware	full
+M-immersed	Immersed		independent													https://www.reality-atlas.com/hardware	full
+M-guillemot-corporation	Guillemot Corporation		house or manufacture		FR											https://en.wikipedia.org/wiki/Thrustmaster	full
+M-dbrand	dbrand		independent													https://dbrand.com/shop/devices/nintendo-skins	full
+M-ifixit	iFixit		independent													https://www.ifixit.com/Parts/Nintendo_Switch	full
+M-activision	Activision		game publisher													https://skylanderswiki.com/wiki/Portal_of_Power	full
+M-toys-for-bob	Toys for Bob		game publisher													https://skylanderswiki.com/wiki/Portal_of_Power	full
+M-ivoler	Ivoler		independent													https://www.pcgamesn.com/best-steam-deck-screen-protector	full
+M-codemasters	Codemasters		game publisher		GB											https://en.wikipedia.org/wiki/Game_Genie | https://en.wikipedia.org/wiki/Code_Masters	full | full
+M-datel	Datel		house or manufacture													https://en.wikipedia.org/wiki/List_of_Super_Nintendo_Entertainment_System_accessories	full
+M-powera	PowerA		house or manufacture		US											https://powera.com/p/nintendo/nintendo-switch/protection/protection-case-for-nintendo-switch	full
+M-hudson-soft	Hudson Soft		game publisher		JP	Tokyo	1973									https://en.wikipedia.org/wiki/List_of_Super_Nintendo_Entertainment_System_accessories | https://en.wikipedia.org/wiki/Hudson_Soft	full | full
+M-ascii-corporation	ASCII Corporation		house or manufacture		JP	Tokyo	1977									https://en.wikipedia.org/wiki/FamiCoin | https://en.wikipedia.org/wiki/List_of_Super_Nintendo_Entertainment_System_accessories | https://en.wikipedia.org/wiki/ASCII_Corporation	full | full | full
+M-toyo	Toyo		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-beeshu-inc	Beeshu, Inc.		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-camerica	Camerica		house or manufacture		CA	Ontario	1987	1993								https://en.wikipedia.org/wiki/FamiCoin | https://en.wikipedia.org/wiki/Stunt_Kids	full | full
+M-quickshot	QuickShot		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-konix	Konix		house or manufacture		GB											https://en.wikipedia.org/wiki/FamiCoin | https://en.wikipedia.org/wiki/Konix_Multisystem	full | full
+M-multicorp	Multicorp		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-bullet-proof-software	Bullet-Proof Software		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-innovation-entertainment	Innovation Entertainment		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-triax	Triax		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-acclaim	Acclaim		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-dominator	Dominator		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-honey-bee	Honey Bee		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-wu-ho	Wu Ho		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-horeleg	Horeleg		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-home-entertainment-suppliers	Home Entertainment Suppliers		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-magic-key	Magic Key		house or manufacture													https://en.wikipedia.org/wiki/FamiCoin	full
+M-dragonbox	DragonBox		independent													https://en.wikipedia.org/wiki/Category:Handheld_gaming_computers	full
+M-gamesir	GameSir		independent													https://prod.danawa.com/list/?cate=11238050	full
+M-8bitdo	8BitDo		independent		CN											https://prod.danawa.com/list/?cate=11238050 | https://en.wikipedia.org/wiki/8BitDo	full | full
+M-easysmx	EasySMX		independent													https://prod.danawa.com/list/?cate=11238050	full
+M-jamjake	JAMJAKE		independent													https://prod.danawa.com/list/?cate=11238050	full
+M-toymax-international	Toymax International		licensee or diffusion													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles | https://en.wikipedia.org/wiki/Handheld_TV_game	full | full
+M-techno-source	Techno Source		licensee or diffusion													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-tectoy	Tectoy		house or manufacture													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-retro-bit	Retro-Bit		licensee or diffusion													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-hal-laboratory	HAL Laboratory		house or manufacture													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-retro-games-ltd	Retro Games Ltd.		house or manufacture													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-msi-entertainment	MSI Entertainment		house or manufacture													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-team-neo	Team-Neo		house or manufacture													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-zuiki	Zuiki		house or manufacture													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-dempa-micomsoft	Dempa Micomsoft		house or manufacture													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-hyperkin	Hyperkin		house or manufacture		US											https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles | https://en.wikipedia.org/wiki/Hyperkin	full | full
+M-playmaji	Playmaji		independent													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-plaion	Plaion		house or manufacture													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-modretro	ModRetro		independent													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-chromatic	Chromatic		house or manufacture													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-super-impulse	Super Impulse		house or manufacture													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-basic-fun	Basic Fun		house or manufacture													https://en.wikipedia.org/wiki/List_of_retro_style_video_game_consoles	full
+M-fanatec	Fanatec		independent													https://fanatec.com/us-en/csl-dd-8-nm	full
+M-nyko	Nyko		independent													https://en.wikipedia.org/wiki/List_of_Xbox_360_accessories	full
+M-agetec	Agetec		independent													https://en.wikipedia.org/wiki/Dreamcast_accessories	full
+M-interact	InterAct		independent													https://en.wikipedia.org/wiki/Dreamcast_accessories	full
+M-plantronics	Plantronics		house or manufacture													https://en.wikipedia.org/wiki/List_of_Xbox_360_accessories	full
+M-3do-company	3DO Company		game publisher													https://en.wikipedia.org/wiki/List_of_accessories_to_video_games_by_system	full

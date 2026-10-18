@@ -16,10 +16,10 @@ NF-I1.2.02-014	I1.2.02	SafeInCloud		yes													https://en.wikipedia.org/wik
 NF-I1.2.02-015	I1.2.02	Keychain		yes	M-apple											Apple built-in	https://en.wikipedia.org/wiki/List_of_password_managers	full
 NF-I1.2.02-016	I1.2.02	KWallet		yes	M-kde												https://en.wikipedia.org/wiki/List_of_password_managers	full
 NF-I1.2.02-017	I1.2.02	GNOME Keyring		yes	M-gnome-project												https://en.wikipedia.org/wiki/List_of_password_managers	full
-NF-I1.2.02-018	I1.2.02	Norton Password Manager		yes	M-norton												https://en.wikipedia.org/wiki/List_of_password_managers	full
-NF-I1.1.1.02-001	I1.1.1.02	VMware Workstation		yes	M-vmware												https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software	full
-NF-I1.1.1.02-002	I1.1.1.02	VMware Fusion		yes	M-vmware												https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software	full
-NF-I1.1.1.02-003	I1.1.1.02	VMware Player		yes	M-vmware												https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software	full
+NF-I1.2.02-018	I1.2.02	Norton Password Manager		yes	M-norton	L-norton-norton											https://en.wikipedia.org/wiki/List_of_password_managers	full
+NF-I1.1.1.02-001	I1.1.1.02	VMware Workstation		yes	M-vmware	L-vmware-desktop-hypervisors											https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software	full
+NF-I1.1.1.02-002	I1.1.1.02	VMware Fusion		yes	M-vmware	L-vmware-desktop-hypervisors											https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software	full
+NF-I1.1.1.02-003	I1.1.1.02	VMware Player		yes	M-vmware	L-vmware-desktop-hypervisors											https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software	full
 NF-I1.1.1.02-004	I1.1.1.02	VirtualBox		yes	M-oracle												https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software	full
 NF-I1.1.1.02-005	I1.1.1.02	Parallels Desktop for Mac		yes	M-parallels												https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software	full
 NF-I1.1.1.02-006	I1.1.1.02	Hyper-V		yes	M-microsoft												https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software	full
@@ -54,7 +54,7 @@ NF-I1.1.3.01-020	I1.1.3.01	B1 Free Archiver		yes													https://en.wikipedi
 NF-I1.1.3.01-021	I1.1.3.01	WinAce		yes	M-e-merge												https://en.wikipedia.org/wiki/Comparison_of_file_archivers	full
 NF-I1.1.2.04-001	I1.1.2.04	Acronis True Image		yes	M-acronis												https://en.wikipedia.org/wiki/List_of_backup_software	full
 NF-I1.1.2.04-002	I1.1.2.04	Macrium Reflect		yes	M-paramount-software-uk												https://en.wikipedia.org/wiki/List_of_backup_software	full
-NF-I1.1.2.04-003	I1.1.2.04	Norton Ghost		yes	M-symantec												https://en.wikipedia.org/wiki/List_of_backup_software	full
+NF-I1.1.2.04-003	I1.1.2.04	Norton Ghost		yes	M-symantec	L-norton-norton											https://en.wikipedia.org/wiki/List_of_backup_software	full
 NF-I1.1.2.04-004	I1.1.2.04	Image for Windows		yes	M-terabyte-unlimited												https://en.wikipedia.org/wiki/List_of_backup_software	full
 NF-I1.1.2.04-005	I1.1.2.04	Time Machine		yes	M-apple												https://en.wikipedia.org/wiki/List_of_backup_software	full
 NF-I1.1.2.04-006	I1.1.2.04	Retrospect		yes	M-retrospect-inc												https://en.wikipedia.org/wiki/List_of_backup_software	full
@@ -75,8 +75,8 @@ NF-I1.1.2.05-004	I1.1.2.05	ShredIt		yes	M-mireth-technology												https://e
 NF-I1.1.2.05-005	I1.1.2.05	nwipe		yes													https://en.wikipedia.org/wiki/List_of_data-erasing_software	full
 NF-I1.1.2.05-006	I1.1.2.05	Parted Magic		yes	M-parted-magic-llc												https://en.wikipedia.org/wiki/List_of_data-erasing_software	full
 NF-I1.1.3.02-001	I1.1.3.02	Nero Burning ROM		yes	M-nero												https://en.wikipedia.org/wiki/List_of_optical_disc_authoring_software	full
-NF-I1.1.3.02-002	I1.1.3.02	Roxio Creator		yes	M-roxio												https://en.wikipedia.org/wiki/List_of_optical_disc_authoring_software	full
-NF-I1.1.3.02-003	I1.1.3.02	Roxio Toast		yes	M-roxio												https://en.wikipedia.org/wiki/List_of_optical_disc_authoring_software	full
+NF-I1.1.3.02-002	I1.1.3.02	Roxio Creator		yes	M-roxio	L-roxio-creator-toast											https://en.wikipedia.org/wiki/List_of_optical_disc_authoring_software	full
+NF-I1.1.3.02-003	I1.1.3.02	Roxio Toast		yes	M-roxio	L-roxio-creator-toast											https://en.wikipedia.org/wiki/List_of_optical_disc_authoring_software	full
 NF-I1.1.3.02-004	I1.1.3.02	ImgBurn		yes													https://en.wikipedia.org/wiki/List_of_optical_disc_authoring_software	full
 NF-I1.1.3.02-005	I1.1.3.02	CDBurnerXP		yes													https://en.wikipedia.org/wiki/List_of_optical_disc_authoring_software	full
 NF-I1.1.3.02-006	I1.1.3.02	InfraRecorder		yes													https://en.wikipedia.org/wiki/List_of_optical_disc_authoring_software	full
@@ -202,20 +202,20 @@ NF-I1.4.2.02-017	I1.4.2.02	Xbox Game Bar		yes	M-microsoft												https://en.
 NF-I1.4.2.02-018	I1.4.2.02	SimpleScreenRecorder		yes													https://en.wikipedia.org/wiki/Comparison_of_screencasting_software	full
 NF-I1.4.2.02-019	I1.4.2.02	recordMyDesktop		yes													https://en.wikipedia.org/wiki/Comparison_of_screencasting_software	full
 NF-I1.4.2.02-020	I1.4.2.02	Peek		yes													https://en.wikipedia.org/wiki/Comparison_of_screencasting_software	full
-NF-I1.6.1.03-001	I1.6.1.03	QuickBooks Online		yes	M-intuit												https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
-NF-I1.6.1.03-002	I1.6.1.03	QuickBooks Pro/Premier		yes	M-intuit												https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
-NF-I1.6.1.03-003	I1.6.1.03	QuickBooks Enterprise		yes	M-intuit												https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
+NF-I1.6.1.03-001	I1.6.1.03	QuickBooks Online		yes	M-intuit	L-intuit-quickbooks											https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
+NF-I1.6.1.03-002	I1.6.1.03	QuickBooks Pro/Premier		yes	M-intuit	L-intuit-quickbooks											https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
+NF-I1.6.1.03-003	I1.6.1.03	QuickBooks Enterprise		yes	M-intuit	L-intuit-quickbooks											https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
 NF-I1.6.1.03-004	I1.6.1.03	FreshBooks		yes													https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
 NF-I1.6.1.03-005	I1.6.1.03	FreeAgent		yes													https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
-NF-I1.6.1.03-006	I1.6.1.03	Sage 50cloud		yes	M-sage												https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
-NF-I1.6.1.03-007	I1.6.1.03	Sage Accounting		yes	M-sage												https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
-NF-I1.6.1.03-008	I1.6.1.03	Sage Intacct		yes	M-sage												https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
+NF-I1.6.1.03-006	I1.6.1.03	Sage 50cloud		yes	M-sage	L-sage-sage											https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
+NF-I1.6.1.03-007	I1.6.1.03	Sage Accounting		yes	M-sage	L-sage-sage											https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
+NF-I1.6.1.03-008	I1.6.1.03	Sage Intacct		yes	M-sage	L-sage-sage											https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
 NF-I1.6.1.03-009	I1.6.1.03	MYOB AccountRight		yes	M-myob												https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
 NF-I1.6.1.03-010	I1.6.1.03	MYOB Business		yes	M-myob												https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
 NF-I1.6.1.03-011	I1.6.1.03	GnuCash		yes	M-gnucash-developers												https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
 NF-I1.6.1.03-012	I1.6.1.03	Dolibarr		yes													https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
 NF-I1.6.1.03-013	I1.6.1.03	LedgerSMB		yes													https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
-NF-I1.6.1.03-014	I1.6.1.03	Microsoft Dynamics 365 Business Central		yes	M-microsoft												https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
+NF-I1.6.1.03-014	I1.6.1.03	Microsoft Dynamics 365 Business Central		yes	M-microsoft	L-microsoft-dynamics											https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
 NF-I1.6.1.03-015	I1.6.1.03	Aplos		yes													https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
 NF-I1.6.1.03-016	I1.6.1.03	24SevenOffice		yes													https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
 NF-I1.6.1.03-017	I1.6.1.03	Acumatica		yes													https://en.wikipedia.org/wiki/Comparison_of_accounting_software	full
@@ -228,8 +228,8 @@ NF-I1.6.2.01-006	I1.6.2.01	SuiteCRM		yes	M-suitecrm-ltd												https://en.wi
 NF-I1.6.2.01-007	I1.6.2.01	Act!		yes													https://en.wikipedia.org/wiki/Comparison_of_CRM_systems	full
 NF-I1.6.2.01-008	I1.6.2.01	Capsule		yes	M-zestia												https://en.wikipedia.org/wiki/Comparison_of_CRM_systems	full
 NF-I1.6.2.01-009	I1.6.2.01	Close		yes	M-close-inc												https://en.wikipedia.org/wiki/Comparison_of_CRM_systems	full
-NF-I1.6.2.01-010	I1.6.2.01	Microsoft Dynamics CRM		yes	M-microsoft												https://en.wikipedia.org/wiki/Comparison_of_CRM_systems	full
-NF-I1.6.2.01-011	I1.6.2.01	SageCRM		yes	M-sage												https://en.wikipedia.org/wiki/Comparison_of_CRM_systems	full
+NF-I1.6.2.01-010	I1.6.2.01	Microsoft Dynamics CRM		yes	M-microsoft	L-microsoft-dynamics											https://en.wikipedia.org/wiki/Comparison_of_CRM_systems	full
+NF-I1.6.2.01-011	I1.6.2.01	SageCRM		yes	M-sage	L-sage-sage											https://en.wikipedia.org/wiki/Comparison_of_CRM_systems	full
 NF-I1.6.2.01-012	I1.6.2.01	SuperOffice CRM		yes	M-superoffice												https://en.wikipedia.org/wiki/Comparison_of_CRM_systems	full
 NF-I1.6.2.01-013	I1.6.2.01	CiviCRM		yes													https://en.wikipedia.org/wiki/Comparison_of_CRM_systems	full
 NF-I1.6.2.01-014	I1.6.2.01	SAP CRM		yes	M-sap												https://en.wikipedia.org/wiki/Comparison_of_CRM_systems	full
@@ -257,9 +257,9 @@ NF-I1.8.1.03-017	I1.8.1.03	Dimensions CM		yes	M-opentext												https://en.w
 NF-I1.8.1.03-018	I1.8.1.03	PVCS		yes	M-opentext												https://en.wikipedia.org/wiki/Comparison_of_version-control_software	full
 NF-I1.4.1.01-001	I1.4.1.01	GIMP		yes	M-gimp-developers												https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
 NF-I1.4.1.01-002	I1.4.1.01	Krita		yes	M-kde												https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
-NF-I1.4.1.01-003	I1.4.1.01	Adobe Photoshop		yes	M-adobe												https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
+NF-I1.4.1.01-003	I1.4.1.01	Adobe Photoshop		yes	M-adobe	L-adobe-creative-suite											https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
 NF-I1.4.1.01-004	I1.4.1.01	Adobe Photoshop Elements		yes	M-adobe												https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
-NF-I1.4.1.01-005	I1.4.1.01	Affinity Photo		yes	M-serif												https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
+NF-I1.4.1.01-005	I1.4.1.01	Affinity Photo		yes	M-serif	L-serif-affinity											https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
 NF-I1.4.1.01-006	I1.4.1.01	Paint.NET		yes	M-rick-brewster												https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
 NF-I1.4.1.01-007	I1.4.1.01	Pixelmator		yes	M-pixelmator-team												https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
 NF-I1.4.1.01-008	I1.4.1.01	Corel PaintShop Pro		yes	M-corel												https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
@@ -291,9 +291,9 @@ NF-I1.4.1.01-033	I1.4.1.01	PicMonkey		yes													https://en.wikipedia.org/w
 NF-I1.4.1.01-034	I1.4.1.01	Kid Pix		yes													https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
 NF-I1.4.1.01-035	I1.4.1.01	Pencil2D		yes													https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
 NF-I1.4.1.01-036	I1.4.1.01	Retouch4me		yes													https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
-NF-I1.4.1.02-001	I1.4.1.02	Adobe Illustrator		yes	M-adobe												https://en.wikipedia.org/wiki/Comparison_of_vector_graphics_editors	full
+NF-I1.4.1.02-001	I1.4.1.02	Adobe Illustrator		yes	M-adobe	L-adobe-creative-suite											https://en.wikipedia.org/wiki/Comparison_of_vector_graphics_editors	full
 NF-I1.4.1.02-002	I1.4.1.02	CorelDRAW		yes	M-corel												https://en.wikipedia.org/wiki/Comparison_of_vector_graphics_editors	full
-NF-I1.4.1.02-003	I1.4.1.02	Affinity Designer		yes	M-serif												https://en.wikipedia.org/wiki/Comparison_of_vector_graphics_editors	full
+NF-I1.4.1.02-003	I1.4.1.02	Affinity Designer		yes	M-serif	L-serif-affinity											https://en.wikipedia.org/wiki/Comparison_of_vector_graphics_editors	full
 NF-I1.4.1.02-004	I1.4.1.02	Inkscape		yes	M-inkscape-team												https://en.wikipedia.org/wiki/Comparison_of_vector_graphics_editors	full
 NF-I1.4.1.02-005	I1.4.1.02	Sketch		yes	M-bohemian-coding												https://en.wikipedia.org/wiki/Comparison_of_vector_graphics_editors	full
 NF-I1.4.1.02-006	I1.4.1.02	Figma		yes	M-figma												https://en.wikipedia.org/wiki/Comparison_of_vector_graphics_editors	full
@@ -371,7 +371,7 @@ NF-I1.2.03-010	I1.2.03	PureVPN		yes	M-purevpn												https://en.wikipedia.or
 NF-I1.2.03-011	I1.2.03	IVPN		yes	M-ivpn												https://en.wikipedia.org/wiki/VPN_service	full
 NF-I1.2.03-012	I1.2.03	PrivadoVPN		yes													https://en.wikipedia.org/wiki/VPN_service	full
 NF-I1.2.03-013	I1.2.03	SaferVPN		yes													https://en.wikipedia.org/wiki/VPN_service	full
-NF-I1.2.03-014	I1.2.03	Avast SecureLine		yes	M-avast												https://en.wikipedia.org/wiki/VPN_service	full
+NF-I1.2.03-014	I1.2.03	Avast SecureLine		yes	M-avast	L-avast-avast											https://en.wikipedia.org/wiki/VPN_service	full
 NF-I1.2.03-015	I1.2.03	Amnezia VPN		yes													https://en.wikipedia.org/wiki/VPN_service	full
 NF-I1.2.03-016	I1.2.03	NymVPN		yes													https://en.wikipedia.org/wiki/VPN_service	full
 NF-I1.1.3.03-001	I1.1.3.03	TeamViewer		yes	M-teamviewer												https://en.wikipedia.org/wiki/Desktop_sharing	full
@@ -383,20 +383,20 @@ NF-I1.1.3.03-006	I1.1.3.03	GoToMyPC		yes													https://en.wikipedia.org/wi
 NF-I1.1.3.03-007	I1.1.3.03	Remote Utilities		yes													https://en.wikipedia.org/wiki/Desktop_sharing	full
 NF-I1.1.3.03-008	I1.1.3.03	Mikogo		yes													https://en.wikipedia.org/wiki/Desktop_sharing	full
 NF-I1.1.3.03-009	I1.1.3.03	Apple Remote Desktop		yes	M-apple												https://en.wikipedia.org/wiki/Desktop_sharing	full
-NF-I1.2.01-001	I1.2.01	Avast Antivirus		yes	M-avast												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
-NF-I1.2.01-002	I1.2.01	Avast One		yes	M-avast												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
+NF-I1.2.01-001	I1.2.01	Avast Antivirus		yes	M-avast	L-avast-avast											https://en.wikipedia.org/wiki/Category:Antivirus_software	full
+NF-I1.2.01-002	I1.2.01	Avast One		yes	M-avast	L-avast-avast											https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-003	I1.2.01	AVG AntiVirus		yes	M-avg												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-004	I1.2.01	Avira		yes	M-avira												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-005	I1.2.01	Bitdefender		yes	M-bitdefender												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-006	I1.2.01	ESET NOD32		yes	M-eset												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-007	I1.2.01	F-Secure		yes	M-f-secure												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-008	I1.2.01	G Data		yes	M-g-data-cyberdefense												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
-NF-I1.2.01-009	I1.2.01	Kaspersky Anti-Virus		yes	M-kaspersky												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
-NF-I1.2.01-010	I1.2.01	Kaspersky Internet Security		yes	M-kaspersky												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
+NF-I1.2.01-009	I1.2.01	Kaspersky Anti-Virus		yes	M-kaspersky	L-kaspersky-consumer											https://en.wikipedia.org/wiki/Category:Antivirus_software	full
+NF-I1.2.01-010	I1.2.01	Kaspersky Internet Security		yes	M-kaspersky	L-kaspersky-consumer											https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-011	I1.2.01	McAfee Antivirus		yes	M-mcafee												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
-NF-I1.2.01-012	I1.2.01	Norton 360		yes	M-norton												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
-NF-I1.2.01-013	I1.2.01	Norton AntiVirus		yes	M-norton												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
-NF-I1.2.01-014	I1.2.01	Norton Internet Security		yes	M-norton												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
+NF-I1.2.01-012	I1.2.01	Norton 360		yes	M-norton	L-norton-norton											https://en.wikipedia.org/wiki/Category:Antivirus_software	full
+NF-I1.2.01-013	I1.2.01	Norton AntiVirus		yes	M-norton	L-norton-norton											https://en.wikipedia.org/wiki/Category:Antivirus_software	full
+NF-I1.2.01-014	I1.2.01	Norton Internet Security		yes	M-norton	L-norton-norton											https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-015	I1.2.01	Malwarebytes		yes	M-malwarebytes												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-016	I1.2.01	Sophos		yes	M-sophos												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-017	I1.2.01	Trend Micro Internet Security		yes	M-trend-micro												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
@@ -415,7 +415,7 @@ NF-I1.2.01-029	I1.2.01	360 Total Security		yes													https://en.wikipedia.
 NF-I1.2.01-030	I1.2.01	Surfshark Antivirus		yes	M-surfshark												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-031	I1.2.01	ZoneAlarm		yes													https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-032	I1.2.01	NANO Antivirus		yes													https://en.wikipedia.org/wiki/Category:Antivirus_software	full
-NF-I1.2.01-033	I1.2.01	IObit Malware Fighter		yes	M-iobit												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
+NF-I1.2.01-033	I1.2.01	IObit Malware Fighter		yes	M-iobit	L-iobit-iobit											https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.2.01-034	I1.2.01	Lavasoft		yes	M-lavasoft												https://en.wikipedia.org/wiki/Category:Antivirus_software	full
 NF-I1.1.3.03-010	I1.1.3.03	AnyDesk		yes	M-anydesk-software												https://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software	full
 NF-I1.1.3.03-011	I1.1.3.03	Ammyy Admin		yes	M-ammyy												https://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software	full
@@ -878,18 +878,18 @@ NF-I1.4.1.08-001	I1.4.1.08	The Print Shop		yes													https://en.wikipedia.
 NF-I1.7.02-001	I1.7.02	Encyclopaedia Britannica Ultimate Reference Suite		yes													https://en.wikipedia.org/wiki/List_of_educational_software	full
 NF-I1.7.02-002	I1.7.02	Encarta		yes													https://en.wikipedia.org/wiki/List_of_educational_software	full
 NF-I1.1.2.01-001	I1.1.2.01	CCleaner		yes	M-piriform											CCleaner Professional on cleaner roundup	https://en.wikipedia.org/wiki/List_of_data-erasing_software | https://thesweetbits.com/best-pc-cleaner-software/	full | full
-NF-I1.1.2.01-002	I1.1.2.01	Avast Cleanup		yes	M-avast												https://thesweetbits.com/best-pc-cleaner-software/	full
+NF-I1.1.2.01-002	I1.1.2.01	Avast Cleanup		yes	M-avast	L-avast-avast											https://thesweetbits.com/best-pc-cleaner-software/	full
 NF-I1.1.2.01-003	I1.1.2.01	Avira System Speedup		yes	M-avira												https://thesweetbits.com/best-pc-cleaner-software/	full
-NF-I1.1.2.01-004	I1.1.2.01	Advanced SystemCare		yes	M-iobit												https://thesweetbits.com/best-pc-cleaner-software/	full
+NF-I1.1.2.01-004	I1.1.2.01	Advanced SystemCare		yes	M-iobit	L-iobit-iobit											https://thesweetbits.com/best-pc-cleaner-software/	full
 NF-I1.1.2.01-005	I1.1.2.01	AVG TuneUp		yes	M-avg												https://thesweetbits.com/best-pc-cleaner-software/	full
 NF-I1.1.2.01-006	I1.1.2.01	System Mechanic		yes	M-iolo												https://thesweetbits.com/best-pc-cleaner-software/	full
 NF-I1.1.2.01-007	I1.1.2.01	CleanGenius		yes	M-easeus												https://thesweetbits.com/best-pc-cleaner-software/	full
 NF-I1.1.2.01-008	I1.1.2.01	PrivaZer		yes													https://thesweetbits.com/best-pc-cleaner-software/	full
 NF-I1.1.2.01-009	I1.1.2.01	CleanMyPC		yes	M-macpaw												https://thesweetbits.com/best-pc-cleaner-software/	full
 NF-I1.1.2.01-010	I1.1.2.01	Windows Storage Sense		yes	M-microsoft												https://thesweetbits.com/best-pc-cleaner-software/	full
-NF-I1.1.2.02-001	I1.1.2.02	IObit Uninstaller		yes	M-iobit												https://www.iobit.com/en-blog/revo-uninstaller-vs-iobit-uninstaller.php	full
+NF-I1.1.2.02-001	I1.1.2.02	IObit Uninstaller		yes	M-iobit	L-iobit-iobit											https://www.iobit.com/en-blog/revo-uninstaller-vs-iobit-uninstaller.php	full
 NF-I1.1.2.02-002	I1.1.2.02	Revo Uninstaller		yes													https://www.iobit.com/en-blog/revo-uninstaller-vs-iobit-uninstaller.php	full
-NF-I1.1.2.03-001	I1.1.2.03	Driver Booster		yes	M-iobit												https://www.fosshub.com/Driver-Booster.html	full
+NF-I1.1.2.03-001	I1.1.2.03	Driver Booster		yes	M-iobit	L-iobit-iobit											https://www.fosshub.com/Driver-Booster.html	full
 NF-I1.9.02-001	I1.9.02	PrusaSlicer		yes	M-prusa-research												https://libe.net/en/cura-vs-slic3r-prusa	full
 NF-I1.9.02-002	I1.9.02	Cura		yes	M-ultimaker												https://libe.net/en/cura-vs-slic3r-prusa | https://3dprinterly.com/cura-vs-prusaslicer-which-is-better-for-3d-printing/	full | full
 NF-I1.9.02-003	I1.9.02	OrcaSlicer		yes													https://libe.net/en/cura-vs-slic3r-prusa	full
@@ -944,9 +944,9 @@ NF-I1.4.1.04-011	I1.4.1.04	Photo Mechanic		yes													https://en.wikipedia.
 NF-I1.4.1.04-012	I1.4.1.04	ACDSee		yes													https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
 NF-I1.4.1.04-013	I1.4.1.04	Zoner Photo Studio		yes	M-zoner												https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
 NF-I1.4.1.04-014	I1.4.1.04	XnView		yes													https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors	full
-NF-I1.4.1.07-001	I1.4.1.07	Connect		yes	M-extensis												https://en.wikipedia.org/wiki/Font_management_software	full
-NF-I1.4.1.07-002	I1.4.1.07	Suitcase Fusion		yes	M-extensis												https://en.wikipedia.org/wiki/Font_management_software	full
-NF-I1.4.1.07-003	I1.4.1.07	Universal Type Server		yes	M-extensis												https://en.wikipedia.org/wiki/Font_management_software	full
+NF-I1.4.1.07-001	I1.4.1.07	Connect		yes	M-extensis	L-extensis-font-managers											https://en.wikipedia.org/wiki/Font_management_software	full
+NF-I1.4.1.07-002	I1.4.1.07	Suitcase Fusion		yes	M-extensis	L-extensis-font-managers											https://en.wikipedia.org/wiki/Font_management_software	full
+NF-I1.4.1.07-003	I1.4.1.07	Universal Type Server		yes	M-extensis	L-extensis-font-managers											https://en.wikipedia.org/wiki/Font_management_software	full
 NF-I1.4.1.07-004	I1.4.1.07	FontBase		yes	M-dominik-levitsky-studio												https://en.wikipedia.org/wiki/Font_management_software	full
 NF-I1.4.1.07-005	I1.4.1.07	MainType		yes	M-high-logic												https://en.wikipedia.org/wiki/Font_management_software	full
 NF-I1.4.1.07-006	I1.4.1.07	FontAgent Server		yes	M-insider-software												https://en.wikipedia.org/wiki/Font_management_software	full
@@ -1118,13 +1118,13 @@ NF-I1.12.3.01-022	I1.12.3.01	Form Builder Plus		yes	M-jivrus-technologies							
 NF-I1.12.3.01-023	I1.12.3.01	Flat for Education		yes	M-tutteo												https://workspace.google.com/marketplace/category/docs	full
 NF-I1.12.3.01-024	I1.12.3.01	WeVideo Classroom Add On		yes	M-wevideo												https://workspace.google.com/marketplace/category/docs	full
 NF-I1.12.3.01-025	I1.12.3.01	Read AI		yes	M-read-ai												https://workspace.google.com/marketplace/category/docs	full
-NF-I1.12.5.01-001	I1.12.5.01	BMW heated seats activation		yes	M-bmw												https://driveteslacanada.ca/?p=9812 | https://tech.slashdot.org/story/23/09/07/1545202/bmw-drops-controversial-heated-seats-subscription-to-refocus-on-software-services	full | full
-NF-I1.12.5.01-002	I1.12.5.01	BMW heated steering wheel		yes	M-bmw												https://driveteslacanada.ca/?p=9812	full
-NF-I1.12.5.01-003	I1.12.5.01	BMW adaptive cruise control subscription		yes	M-bmw												https://driveteslacanada.ca/?p=9812	full
-NF-I1.12.5.01-004	I1.12.5.01	BMW real-time traffic information		yes	M-bmw												https://driveteslacanada.ca/?p=9812	full
-NF-I1.12.5.01-005	I1.12.5.01	BMW remote engine start		yes	M-bmw												https://driveteslacanada.ca/?p=9812	full
-NF-I1.12.5.01-006	I1.12.5.01	BMW IconicSounds Sport		yes	M-bmw												https://driveteslacanada.ca/?p=9812	full
-NF-I1.12.5.01-007	I1.12.5.01	BMW adaptive M Suspension		yes	M-bmw												https://driveteslacanada.ca/?p=9812	full
+NF-I1.12.5.01-001	I1.12.5.01	BMW heated seats activation		yes	M-bmw	L-bmw-connecteddrive-store											https://driveteslacanada.ca/?p=9812 | https://tech.slashdot.org/story/23/09/07/1545202/bmw-drops-controversial-heated-seats-subscription-to-refocus-on-software-services	full | full
+NF-I1.12.5.01-002	I1.12.5.01	BMW heated steering wheel		yes	M-bmw	L-bmw-connecteddrive-store											https://driveteslacanada.ca/?p=9812	full
+NF-I1.12.5.01-003	I1.12.5.01	BMW adaptive cruise control subscription		yes	M-bmw	L-bmw-connecteddrive-store											https://driveteslacanada.ca/?p=9812	full
+NF-I1.12.5.01-004	I1.12.5.01	BMW real-time traffic information		yes	M-bmw	L-bmw-connecteddrive-store											https://driveteslacanada.ca/?p=9812	full
+NF-I1.12.5.01-005	I1.12.5.01	BMW remote engine start		yes	M-bmw	L-bmw-connecteddrive-store											https://driveteslacanada.ca/?p=9812	full
+NF-I1.12.5.01-006	I1.12.5.01	BMW IconicSounds Sport		yes	M-bmw	L-bmw-connecteddrive-store											https://driveteslacanada.ca/?p=9812	full
+NF-I1.12.5.01-007	I1.12.5.01	BMW adaptive M Suspension		yes	M-bmw	L-bmw-connecteddrive-store											https://driveteslacanada.ca/?p=9812	full
 NF-I1.12.5.02-001	I1.12.5.02	Garmin Connect		yes	M-garmin												https://www8.garmin.com/manuals/webhelp/GUID-8674F17E-62B2-48DE-927A-251611664658/EN-US/GUID-5B08E695-21AC-45AF-AA49-64F6C80D37FC.html	full
 NF-I1.3.01-001	I1.3.01	LibreOffice		yes	M-the-document-foundation												https://en.wikipedia.org/wiki/List_of_office_suites	full
 NF-I1.3.01-002	I1.3.01	Apache OpenOffice		yes	M-apache-software-foundation												https://en.wikipedia.org/wiki/List_of_office_suites	full
@@ -1156,7 +1156,7 @@ NF-I1.3.01-027	I1.3.01	QuickOffice		yes													https://en.wikipedia.org/wik
 NF-I1.3.01-028	I1.3.01	Gobe Productive		yes													https://en.wikipedia.org/wiki/List_of_office_suites	full
 NF-I1.3.01-029	I1.3.01	EasyOffice		yes													https://en.wikipedia.org/wiki/List_of_office_suites	full
 NF-I1.3.01-030	I1.3.01	Picsel Smart Office		yes													https://en.wikipedia.org/wiki/List_of_office_suites	full
-NF-I1.3.02-001	I1.3.02	Adobe Acrobat		yes	M-adobe												https://en.wikipedia.org/wiki/List_of_PDF_software	full
+NF-I1.3.02-001	I1.3.02	Adobe Acrobat		yes	M-adobe	L-adobe-creative-suite											https://en.wikipedia.org/wiki/List_of_PDF_software	full
 NF-I1.3.02-002	I1.3.02	Adobe Reader		yes	M-adobe												https://en.wikipedia.org/wiki/List_of_PDF_software	full
 NF-I1.3.02-003	I1.3.02	Foxit PDF Editor		yes	M-foxit-software												https://en.wikipedia.org/wiki/List_of_PDF_software	full
 NF-I1.3.02-004	I1.3.02	Foxit PDF Reader		yes	M-foxit-software												https://en.wikipedia.org/wiki/List_of_PDF_software	full
@@ -1201,20 +1201,20 @@ NF-I1.6.1.02-009	I1.6.1.02	MoneyWiz		yes													https://en.wikipedia.org/wi
 NF-I1.6.1.02-010	I1.6.1.02	Personal Capital		yes	M-personal-capital												https://en.wikipedia.org/wiki/List_of_personal_finance_software	full
 NF-I1.6.1.02-011	I1.6.1.02	Quicken		yes													https://en.wikipedia.org/wiki/List_of_personal_finance_software	full
 NF-I1.6.1.02-012	I1.6.1.02	You Need a Budget		yes													https://en.wikipedia.org/wiki/List_of_personal_finance_software	full
-NF-I1.8.1.01-001	I1.8.1.01	IntelliJ IDEA		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-002	I1.8.1.01	PyCharm		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-003	I1.8.1.01	CLion		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-004	I1.8.1.01	DataGrip		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-005	I1.8.1.01	DataSpell		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-006	I1.8.1.01	GoLand		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-007	I1.8.1.01	PhpStorm		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-008	I1.8.1.01	Rider		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-009	I1.8.1.01	RubyMine		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-010	I1.8.1.01	RustRover		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-011	I1.8.1.01	WebStorm		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-012	I1.8.1.01	AppCode		yes	M-jetbrains												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-013	I1.8.1.01	Microsoft Visual Studio		yes	M-microsoft												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
-NF-I1.8.1.01-014	I1.8.1.01	Visual Studio Community		yes	M-microsoft												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-001	I1.8.1.01	IntelliJ IDEA		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-002	I1.8.1.01	PyCharm		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-003	I1.8.1.01	CLion		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-004	I1.8.1.01	DataGrip		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-005	I1.8.1.01	DataSpell		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-006	I1.8.1.01	GoLand		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-007	I1.8.1.01	PhpStorm		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-008	I1.8.1.01	Rider		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-009	I1.8.1.01	RubyMine		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-010	I1.8.1.01	RustRover		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-011	I1.8.1.01	WebStorm		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-012	I1.8.1.01	AppCode		yes	M-jetbrains	L-jetbrains-ides											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-013	I1.8.1.01	Microsoft Visual Studio		yes	M-microsoft	L-microsoft-visual-studio											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
+NF-I1.8.1.01-014	I1.8.1.01	Visual Studio Community		yes	M-microsoft	L-microsoft-visual-studio											https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
 NF-I1.8.1.01-015	I1.8.1.01	Visual Studio Code		yes	M-microsoft												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
 NF-I1.8.1.01-016	I1.8.1.01	Visual Basic		yes	M-microsoft												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
 NF-I1.8.1.01-017	I1.8.1.01	Xcode		yes	M-apple												https://en.wikipedia.org/wiki/List_of_integrated_development_environments	full
