@@ -1,6 +1,8 @@
 """Session-4 batch load in one step (R-78, R-79): for BATCH, drop sources its fetch log shows were not fetched, defer
 scene tags whose maker is not yet anywhere, load with load_batch.py, then load any deferred scene tags and named forms
-whose makers now exist, and tidy category-level ties. usage: load_s4.py BATCH [BATCH ...]"""
+whose makers now exist, and tidy category-level ties. usage: load_s4.py BATCH [BATCH ...]
+A stage-3 harvest batch HV_<CODE>_n loads its attested kinds first and ties untied makers at category <CODE>
+(R-97); every other batch is an A1 batch."""
 import subprocess, sys
 from common import ROOT, read_tsv, write_tsv
 from schema import TABLES
@@ -56,6 +58,9 @@ for b in sys.argv[1:]:
         if log.exists() and any(f.stem.endswith(s) for s in ("makers", "maker_kinds", "scene_tags", "named_forms", "lines", "roster_only")):
             run(ROOT / "tools/drop_excerpt_sources.py", f, log)
     if (ROOT / f"verify/out/{b}_scene_tags.tsv").exists(): run(ROOT / "tools/defer_unknown_tags.py", b)
-    run(ROOT / "tools/load_batch.py", b)
+    code = b.split("_")[1] if b.startswith("HV_") else "A1"
+    kf = ROOT / f"verify/out/{b}_kinds.tsv"
+    if code != "A1" and kf.exists() and read_tsv(kf): run(ROOT / "tools/data_write.py", "add", "kinds", kf)
+    run(ROOT / "tools/load_batch.py", b, code)
 retry("scene_tags", "scene_tags"); retry("named_forms", "named_forms")
 run(ROOT / "tools/tidy_ties.py")
