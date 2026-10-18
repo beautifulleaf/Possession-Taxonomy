@@ -7,7 +7,8 @@ basis, sources, fetch_status). Method (R-80):
   else P1b (other market figures) scaled by the median P1/P1b ratio of the countries both cover; else modelled as
   GDP (proxy G) times the median P1/GDP ratio, so every country has a market estimate. Export or production
   figures are not a market (they favour producer countries and re-export hubs): P1b rows whose unit or notes say
-  export are set aside and GDP fills those countries instead (R-98).
+  export are set aside and GDP fills those countries instead (R-98). Production in tonnes (P1/P1b rows whose unit
+  says tonne) is its own family, kept when it covers 15 countries (R-99).
 - trademarks: P2 when it covers at least MIN_COUNTRIES countries, else P2b (all-class filing activity by origin).
 - wikipedia: P3 + P3b page counts (brand and company categories by country).
 - A family covering under half of world GDP (a regional source such as an EU-only count) is left out: its shares
@@ -33,7 +34,9 @@ def main():
         except ValueError: continue
         if not c or v <= 0: continue
         p = r["proxy"].strip()
-        if p == "P1b" and "export" in (r.get("unit", "") + " " + r.get("notes", "")).lower(): continue  # R-98
+        txt = (r.get("unit", "") + " " + r.get("notes", "")).lower()
+        if p in ("P1", "P1b") and "export" in txt: continue  # R-98: trade is not a market
+        if p in ("P1", "P1b") and "tonne" in txt: p = "P5"  # R-99: physical production, its own family
         raw[p][c].append(v); src[c][p].add((r["source"].strip(), (r.get("fetch_status") or "").strip()))
     val = {p: {c: statistics.median(vs) for c, vs in d.items()} for p, d in raw.items()}  # one figure per country
     gdp = val.get("G", {}); world = sum(gdp.values()) or 1
@@ -57,6 +60,9 @@ def main():
     for p in ("P3", "P3b"):
         for c, v in val.get(p, {}).items(): w[c] += v; used["wikipedia"].setdefault(c, []).append(p)
     if len(w) >= MIN_COUNTRIES: fam["wikipedia"] = dict(w)
+    # production (R-99: for categories whose makers are the producers, e.g. growers and fisheries in J2, J4)
+    if len(val.get("P5", {})) >= MIN_COUNTRIES:
+        fam["production"] = dict(val["P5"]); used["production"] = {c: ["P5"] for c in val["P5"]}
     # firms (kept only if global)
     if val.get("P4"): fam["firms"] = dict(val["P4"]); used["firms"] = {c: ["P4"] for c in val["P4"]}
     for f in list(fam):
