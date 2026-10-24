@@ -54,7 +54,7 @@ REVIEWED = ROOT / "verify/out/reviewed_batches.txt"  # batches whose reused make
 for b in sys.argv[1:]:
     print(f"== {b}")
     remap(b)
-    if b.startswith(("MKH_", "HV_", "GD_", "SIG_", "REG_")) and (ROOT / f"verify/out/{b}_makers.tsv").exists():
+    if b.startswith(("MKH_", "HV_", "GD_", "SIG_", "REG_", "SCF_")) and (ROOT / f"verify/out/{b}_makers.tsv").exists():
         chk = subprocess.run([sys.executable, str(ROOT / "tools/check_batch.py"), b, b.split("_")[1] if b.startswith(("MKH_", "HV_")) else "A1"],
                              capture_output=True, text=True, cwd=ROOT / "tools").stdout
         flagged = [l for l in chk.splitlines() if l.startswith("  M-")]
