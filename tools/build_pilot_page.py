@@ -10,8 +10,8 @@ from collections import defaultdict
 from common import ROOT, read_tsv
 from regions import REGIONS, REGION_OF
 
-CODES = sys.argv[1:] or ["A1", "A2", "A3", "A4", "A5", "D1", "B10", "B3", "B9", "C6", "D5", "E3", "H1", "I1", "J2", "J3",
-                          "J4", "J7"]  # wave 2 added in session 7 (R-121)
+CODES = sys.argv[1:] or sorted({k["code"] for k in read_tsv(ROOT / "data/kinds.tsv")},
+                                key=lambda c: (c[0], int(c[1:])))  # every category with kinds (session 8: wave 3)
 OUT = ROOT / "pages" / "pilot.html"
 NAMES = {"A1": "Clothing", "D1": "Computers & Components", "B10": "Animal Equipment", "B3": "Lighting",
          "C6": "Optical & Scientific Instruments", "D5": "Video Games", "I1": "Software", "J2": "Fish & Seafood",
@@ -19,6 +19,9 @@ NAMES = {"A1": "Clothing", "D1": "Computers & Components", "B10": "Animal Equipm
          "A4": "Bags, Luggage & Carried Accessories", "A5": "Watches & Clocks", "B9": "Smoking & Tobacco",
          "E3": "Musical Instruments & Audio Gear", "H1": "Cosmetics, Fragrance & Grooming", "J7": "Wine, Beer & Spirits"}
 # the main way in per category (R-71, R-104; owner 2026-10-24: by object type, by genre where scenes exist, never by country)
+import re as _re
+for _m in _re.finditer(r"^- \*\*([A-J]\d+) ([^*]+)\*\*", (ROOT / "framework/CATEGORIES_v0_7_3.md").read_text(), _re.M):
+    NAMES.setdefault(_m.group(1), _m.group(2).strip())  # categories without a hand-set name take the framework's
 WAY_IN = {"A1": ["Which scene?", "Which brand?", "Which signature piece?"],
           "D1": ["What are you building or buying?", "Which part or device?", "Which model?"],
           "B10": ["Which animal?", "What do you need?", "Which type?"],
@@ -294,7 +297,7 @@ details.brand.core { border-left: 3px solid var(--accent); }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 </style>
 <header class="bar"><div class="bar-inner">
-<div class="brand">Possession Taxonomy<small>Stage 3 · eighteen categories, harvested data</small></div>
+<div class="brand">Possession Taxonomy<small>Stage 3 · every built category, harvested data</small></div>
 <div class="tabs" role="tablist" id="tabs"></div>
 <input class="search" id="q" type="search" placeholder="Filter kinds, models, makers" aria-label="Filter kinds, models and makers">
 </div></header>
