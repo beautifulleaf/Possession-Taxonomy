@@ -20,23 +20,35 @@ def main():
     mp = ROOT / f"verify/out/{b}_moves.tsv"
     moves = {r["named_form_id"]: r for r in read_tsv(mp)} if mp.exists() else {}
     nf = read_tsv(ROOT / "data/named_forms.tsv")
-    keep, dropped, lines = [], [], {}
+    known = {k["kind_id"] for k in read_tsv(ROOT / "data/kinds.tsv")}
+    old_lines = {l["line_id"]: l for l in read_tsv(ROOT / "data/lines.tsv")}
+    keep, dropped, lines, pending = [], [], {}, []
     for r in nf:
         m = moves.get(r["named_form_id"])
         if not m: keep.append(r); continue
         act = m["action"].strip()
         if act == "to_line":
             lid = m["line_id"].strip()
-            L = lines.setdefault(lid, {"line_id": lid, "maker_id": r["maker_id"], "name": m["line_name"].strip(),
-                                       "kinds": m["kinds"].strip() or r["kind_id"], "line_rank": "", "built_by_maker_id": "",
-                                       "licensor_id": "", "years": "", "notes": "from " + r["named_form_id"],
-                                       "sources": r["sources"], "fetch_status": r["fetch_status"]})
-            if r["kind_id"] not in L["kinds"].split(";"): L["kinds"] += ";" + r["kind_id"]
+            if not r["maker_id"] and lid not in old_lines:  # a line needs its maker (C1): keep the row until one is known
+                keep.append(r); pending.append(m); continue
+            base = dict(old_lines[lid]) if lid in old_lines else {
+                "line_id": lid, "maker_id": r["maker_id"], "name": m["line_name"].strip(), "kinds": "", "line_rank": "",
+                "built_by_maker_id": "", "licensor_id": "", "years": "", "notes": "from " + r["named_form_id"],
+                "sources": r["sources"], "fetch_status": r["fetch_status"]}
+            L = lines.setdefault(lid, base)  # an existing line keeps its row and gains kinds (R-101)
+            ks = [k for k in L["kinds"].split(";") if k]
+            for k in (m["kinds"].strip().split(";") if m["kinds"].strip() else []) + [r["kind_id"]]:
+                if k in known and k not in ks: ks.append(k)
+                elif k not in known: pending.append({**m, "reason": f"line kind {k} not yet attested"})
+            L["kinds"] = ";".join(ks)
             dropped.append({**r, "notes": f"to line {lid}"})
         elif act == "drop":
             dropped.append({**r, "notes": "dropped: " + m["reason"]})
         elif act == "move_kind":
-            r["kind_id"] = m["new_kind_id"].strip(); keep.append(r)
+            nk = m["new_kind_id"].strip()
+            if nk in known: r["kind_id"] = nk
+            else: pending.append(m)  # the target kind waits for attestation (HV_NK); re-run after it loads
+            keep.append(r)
         else:
             sys.exit(f"unknown action {act} for {r['named_form_id']}")
     lines = {k: v for k, v in lines.items() if v["maker_id"]}  # a line needs its maker (C1)
@@ -50,7 +62,6 @@ def main():
             if u and s in ("full", "partial"): log[u] = s
     kp = ROOT / f"verify/out/{b}_kinds.tsv"
     new = [r for r in read_tsv(kp) if r["decision"].strip() == "new_kind"] if kp.exists() else []
-    known = {k["kind_id"] for k in read_tsv(ROOT / "data/kinds.tsv")}
     ready, wait = [], []
     for r in new:
         u = r["source_url"].strip(); kid = r["kind_id"].strip()
@@ -64,7 +75,8 @@ def main():
         else: wait.append(r)
     add("kinds", ready, b)
     write_tsv(ROOT / f"verify/out/{b}_new_kinds_worklist.tsv", wait, list(wait[0].keys()) if wait else ["candidate"])
-    print(f"{b}: lines {len(lines)}, named forms kept {len(keep)}, moved out {len(dropped)}, new kinds added {len(ready)}, to attest {len(wait)}")
+    write_tsv(ROOT / f"verify/out/{b}_moves_pending.tsv", pending, list(moves[next(iter(moves))].keys()) if moves else ["named_form_id"])
+    print(f"{b}: pending moves {len(pending)}; lines {len(lines)}, named forms kept {len(keep)}, moved out {len(dropped)}, new kinds added {len(ready)}, to attest {len(wait)}")
 
 if __name__ == "__main__":
     main()
