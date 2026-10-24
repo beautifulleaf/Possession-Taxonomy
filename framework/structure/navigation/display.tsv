@@ -2717,3 +2717,798 @@ G2.1.8.4	Solar farm			RD_G2
 G2.1.8.2	Golf course		Land laid out as a golf course, with or without a clubhouse.	RD_G2
 G2.1.8.6	Airstrip		Land laid out as a runway or landing strip for light aircraft, with or without hangars.	RD_G2
 G2.1.8.5	Wind farm			RD_G2
+C7.1.1.01	Utility tractor	standard four-wheel tractor · compact tractor · sub-compact tractor	General-purpose wheeled tractor with a rear power take-off and a three-point hitch, made to pull, carry and drive implements. Makers label sizes sub-compact, compact or utility.	RD_C7
+C7.1.1.02	Row-crop tractor			RD_C7
+C7.1.1.03	Orchard and vineyard tractor	narrow tractor · tracteur fruitier · tracteur vigneron · Schmalspurtraktor		RD_C7
+C7.1.1.04	High-clearance tractor	straddle tractor · enjambeur		RD_C7
+C7.1.1.05	Slope tractor	mower-carrier tractor · Mähtrak · Bergtrak		RD_C7
+C7.1.1.06	Forestry tractor	tracteur forestier · Forsttraktor	Wheeled tractor built and guarded for forest work such as winching and skidding; also shown under Forestry.	RD_C7
+C7.1.2.01	Articulated 4WD tractor	articulated four-wheel-drive tractor		RD_C7
+C7.1.3.01	Crawler tractor	full-track tractor		RD_C7
+C7.1.5.01	Implement carrier	tool-carrier tractor	Self-propelled carrier made to carry and drive implements, with no load body. A Unimog with a load bed is in Vehicles.	RD_C7
+C7.2.1.01	Mouldboard plough			RD_C7
+C7.2.1.02	Chisel and tine cultivator			RD_C7
+C7.2.1.03	Disc harrow			RD_C7
+C7.2.1.04	Power harrow			RD_C7
+C7.2.1.05	Rotary tiller	rotavator		RD_C7
+C7.2.1.06	Subsoiler	deep ripper		RD_C7
+C7.2.1.07	Land roller	packer		RD_C7
+C7.2.1.08	Spading machine			RD_C7
+C7.2.1.09	Puddling harrow	rice paddy harrow		RD_C7
+C7.2.1.10	Seedbed combination			RD_C7
+C7.2.2.01	Box blade			RD_C7
+C7.2.2.02	Rear grader blade	land leveller		RD_C7
+C7.2.2.03	Post-hole auger			RD_C7
+C7.2.2.04	Trencher			RD_C7
+C7.2.2.06	Snow blade and blower	tractor snow blade · tractor snow blower	Snow blade or blower mounted on or driven from a tractor.	RD_C7
+C7.3.01	Seed drill		Implement that sows seed in rows at a set rate and depth; the coulters may be tine, disc or no-till.	RD_C7
+C7.3.02	Single-seed planter	precision planter		RD_C7
+C7.3.03	Potato planter			RD_C7
+C7.3.04	Transplanter			RD_C7
+C7.3.05	Rice transplanter		Machine that plants rice seedlings into a flooded paddy; usually four to eight rows.	RD_C7
+C7.4.01	Fertiliser spreader			RD_C7
+C7.4.02	Manure spreader			RD_C7
+C7.4.03	Slurry tanker			RD_C7
+C7.4.04	Slurry injector			RD_C7
+C7.4.05	Crop sprayer		Sprayer that applies crop-protection liquids through a boom; it may be mounted, trailed or self-propelled.	RD_C7
+C7.4.06	Inter-row hoe	tine weeder		RD_C7
+C7.4.07	Irrigation reel	sprinkler set	Hose reel and field sprinkler line made for irrigating field crops.	RD_C7
+C7.4.08	Centre-pivot irrigator	linear-move irrigation machine	Self-moving span of sprinkler pipe that irrigates a field in a circle or a strip.	RD_C7
+C7.4.09	Irrigation pump	field irrigation pump	Pump made to move water for field irrigation.	RD_C7
+C7.5.01	Combine harvester	moissonneuse-batteuse · Mähdrescher · colheitadeira	Self-propelled machine that reaps, threshes and cleans grain; threshing may be head-feeding, conventional or axial rotor.	RD_C7
+C7.5.02	Combine header	plataforma colheitadeira		RD_C7
+C7.5.03	Forage harvester	ensileuse	Machine that cuts and chops forage crops for silage; it may be self-propelled or trailed.	RD_C7
+C7.5.04	Potato harvester			RD_C7
+C7.5.05	Sugar-beet harvester			RD_C7
+C7.5.06	Grape harvester			RD_C7
+C7.5.07	Carrot harvester			RD_C7
+C7.6.01	Disc mower	drum mower		RD_C7
+C7.6.02	Hay tedder			RD_C7
+C7.6.03	Hay rake	windrower		RD_C7
+C7.6.04	Baler			RD_C7
+C7.6.05	Bale wrapper			RD_C7
+C7.6.06	Flail mower	rotary cutter · mulcher	Implement that cuts and shreds standing vegetation on grassland, verges, vineyards and scrub.	RD_C7
+C7.6.07	Forage wagon	loader wagon		RD_C7
+C7.7.01	Grain dryer			RD_C7
+C7.7.02	Grain cleaner			RD_C7
+C7.7.03	Grain conveyor			RD_C7
+C7.7.04	Rice huller			RD_C7
+C7.8.1.01	Bucket milking machine			RD_C7
+C7.8.1.02	Pipeline milking installation			RD_C7
+C7.8.1.03	Static milking parlour		Fixed parlour in which cows stand in stalls to be milked; one unit may serve two stalls or each stall, and stalls may sit abreast or in herringbone.	RD_C7
+C7.8.1.04	Rotary milking parlour			RD_C7
+C7.8.1.05	Trigon milking parlour			RD_C7
+C7.8.1.06	Polygon milking parlour			RD_C7
+C7.8.1.07	Milking robot			RD_C7
+C7.8.2.01	Bulk milk cooling tank			RD_C7
+C7.8.2.02	Milk meter			RD_C7
+C7.8.3.01	Cattle crush	headgate		RD_C7
+C7.8.3.02	Sheep handler	sheep drafter		RD_C7
+C7.8.4.01	Livestock scale indicator	weigh-scale indicator		RD_C7
+C7.8.4.02	Livestock weigh platform	load bars		RD_C7
+C7.8.5.01	Livestock EID stick reader		Handheld reader for livestock electronic ear tags, sold for herd recording; pet microchip scanners are in Animal Equipment.	RD_C7
+C7.8.6.01	Shearing machine			RD_C7
+C7.8.7.01	Captive-bolt stunner			RD_C7
+C7.8.7.02	Scalder			RD_C7
+C7.8.8.01	Poultry feeding line			RD_C7
+C7.8.8.02	Egg collection system			RD_C7
+C7.8.8.03	Commercial hatching incubator		Commercial hatcher for eggs at flock scale; small incubators are in Animal Equipment.	RD_C7
+C7.8.9.01	Feed mixer wagon			RD_C7
+C7.8.9.02	Silage block cutter			RD_C7
+C7.8.9.03	Bedding spreader			RD_C7
+C7.9.01	Forest harvester			RD_C7
+C7.9.02	Forwarder			RD_C7
+C7.9.03	Skidder			RD_C7
+C7.9.04	Feller buncher		Machine that fells trees and gathers them into bunches; it may drive to each tree or swing a boom.	RD_C7
+C7.9.05	Harvester head			RD_C7
+C7.9.06	Wood chipper		Chipper that is tractor-driven (PTO or mounted) or part of a forest machine; a towed or self-propelled tree-surgery chipper is in Garden & Grounds.	RD_C7
+C7.9.07	Forestry mulcher			RD_C7
+C7.9.08	Stump grinder			RD_C7
+C7.9.09	Forestry winch			RD_C7
+C7.9.10	Harwarder			RD_C7
+C7.9.11	Delimber			RD_C7
+C7.9.12	Forestry knuckleboom loader			RD_C7
+C7.9.13	Forestry excavator		Excavator-based machine built for forestry work.	RD_C7
+C7.9.14	Tractor log splitter	PTO log splitter	Log splitter driven from or mounted on a tractor; hand and engine log splitters are in Tools & Workshop Equipment.	RD_C7
+C7.10.1.01	Front-end loader			RD_C7
+C7.10.1.02	Loader attachment	pallet forks · bucket · bale spike		RD_C7
+C7.10.1.03	Wheel weight			RD_C7
+C7.10.1.04	Tractor tyre			RD_C7
+C7.10.1.05	Tractor rim and wheel	complete wheel		RD_C7
+C7.10.1.06	Rubber track unit			RD_C7
+C7.10.1.07	Guidance and auto-steer system		Guidance receiver, display or auto-steer kit made for a tractor or farm machine.	RD_C7
+C7.10.2.01	Shearing handpiece			RD_C7
+C7.10.2.02	Shearing comb and cutter			RD_C7
+C7.2.2.07	Stone picker and collector			RD_C7
+C7.3.06	Seed potato cutter			RD_C7
+C7.10.3.01	Forestry crane		Hydraulic loading crane made to be fitted to a forwarder, harvester or timber trailer.	RD_C7
+C7.10.3.02	Log grapple	rotator		RD_C7
+C7.8.5.02	Livestock EID panel reader			RD_C7
+C7.8.3.03	Cattle race and handling system			RD_C7
+C7.1.3.03	Four-track tractor			RD_C7
+C7.10.1.08	Front ballast weight			RD_C7
+C7.1.3.02	Half-track tractor	delta tractor		RD_C7
+C7.2.2.05	Bund plasterer	rice paddy bund plasterer		RD_C7
+D2.1.1.01	Touchscreen smartphone	bar smartphone · slate		RD_D2
+D2.1.1.02	Keyboard smartphone	keyboard-bar smartphone	Smartphone in one piece with a fixed physical keyboard below the screen.	RD_D2
+D2.1.1.03	Flip foldable phone	flip foldable smartphone		RD_D2
+D2.1.1.04	Book foldable phone	book foldable smartphone		RD_D2
+D2.1.1.05	Dual-screen phone	dual-screen smartphone		RD_D2
+D2.1.2.01	Keypad phone	bar feature phone	Basic mobile phone in one rigid body with a keypad and no smartphone features; taco and other one-piece shapes included.	RD_D2
+D2.1.2.02	Flip phone	flip feature phone · clamshell		RD_D2
+D2.1.2.03	Slider phone		Mobile phone whose screen half slides over the keypad half.	RD_D2
+D2.1.2.04	Swivel phone		Mobile phone whose screen half rotates on a pivot to show the keypad.	RD_D2
+D2.1.3.01	Satellite phone			RD_D2
+D2.1.4.01	Landline phone	corded phone · cordless phone · DECT phone	Telephone for a fixed line, corded or cordless (DECT).	RD_D2
+D2.2.01	Walkie-talkie	handheld two-way radio		RD_D2
+D2.2.02	Vehicle two-way radio	vehicle-mounted two-way radio	Two-way radio made to be installed in a vehicle.	RD_D2
+D2.2.03	Base-station radio	base-station transceiver	Fixed two-way radio run from mains power at one site.	RD_D2
+D2.2.04	Pager			RD_D2
+D2.3.01	Tablet	slate tablet	Touchscreen computer in one flat body, sold without a keyboard; an optional keyboard cover is sold separately.	RD_D2
+D2.4.1.01	E-reader		Device sold for reading e-books, usually on an e-paper screen.	RD_D2
+D2.4.1.02	E-paper writing tablet		E-paper device sold for taking notes and handwriting with a stylus.	RD_D2
+D2.4.2.01	Electronic organiser	digital diary		RD_D2
+D2.4.2.02	PDA	palmtop · personal digital assistant		RD_D2
+D2.4.3.01	Electronic dictionary			RD_D2
+D2.4.3.02	Pocket translator			RD_D2
+D2.4.3.03	Translator earbuds		Pair of earbuds sold for translating speech between languages through a phone app; ordinary earbuds with a translate feature are in Audio & Video.	RD_D2
+D2.5.01	Smartwatch		Wrist device with a display that runs apps and notifications; GPS sports watches are included.	RD_D2
+D2.5.02	Hybrid smartwatch			RD_D2
+D2.5.03	Fitness band	smart band · fitness tracker · activity tracker		RD_D2
+D2.5.04	Screenless band			RD_D2
+D2.5.05	Smart ring			RD_D2
+D2.5.06	Smart glasses		Glasses with a see-through display, camera or speakers; a headset that encloses the eyes is in Video Games.	RD_D2
+D2.6.1.01	Hiking GPS	handheld hiking GPS		RD_D2
+D2.6.1.02	Handheld GPS with two-way radio		Handheld GPS unit with a two-way radio in the same case.	RD_D2
+D2.6.1.03	Golf GPS			RD_D2
+D2.6.1.04	Car sat-nav	portable sat-nav · car navigation unit	Portable navigation unit with road maps, sold to be moved between vehicles; a mounted one is in Vehicles.	RD_D2
+D2.6.2.01	Satellite messenger			RD_D2
+D2.6.2.02	Personal locator beacon			RD_D2
+D2.6.2.03	Satellite hotspot			RD_D2
+D2.6.3.01	Bluetooth item tracker			RD_D2
+D2.6.3.02	GPS tracker	cellular tracker	Tracker with its own GPS and cellular link (SIM, subscription), carried by a person or put in a bag; animal trackers are in Animal Equipment, vehicle trackers in Vehicles.	RD_D2
+D2.7.01	Power bank		Portable rechargeable battery that charges phones and other devices.	RD_D2
+D2.7.02	Magnetic power bank	MagSafe power bank · Qi2 power bank	Power bank that attaches magnetically to the back of a phone and charges it wirelessly.	RD_D2
+D2.8.01	Phone case			RD_D2
+D2.8.02	Tablet case			RD_D2
+D2.8.03	Screen protector			RD_D2
+D2.8.04	Watch strap	watch band · smartwatch strap · band		RD_D2
+D2.8.05	Charging dock	charging puck · charging stand		RD_D2
+D2.8.06	Stylus		Pen made for the screen of one range of tablets or phones.	RD_D2
+D2.8.07	Tablet keyboard cover		Cover with a keyboard made for one range of tablets.	RD_D2
+D2.8.08	E-reader cover			RD_D2
+D2.8.09	Phone battery case			RD_D2
+D2.8.10	Clip-on phone lens			RD_D2
+D2.8.11	Phone gimbal			RD_D2
+D2.8.12	Selfie stick			RD_D2
+D2.8.13	Phone game controller	clip-on phone game controller		RD_D2
+D2.8.14	Phone microphone	smartphone microphone	Microphone made to plug into or clip onto a phone and record through it; one made for cameras that also takes a phone is in Cameras & Photography or Musical Instruments & Music Gear.	RD_D2
+D2.8.15	DECT repeater			RD_D2
+D4.1.1.01	Mirrorless camera	mirrorless interchangeable-lens camera · MILC		RD_D4
+D4.1.1.02	DSLR camera	digital single-lens reflex camera		RD_D4
+D4.1.1.03	Digital rangefinder camera			RD_D4
+D4.1.1.04	Compact camera	compact fixed-lens camera · point-and-shoot		RD_D4
+D4.1.1.05	Bridge camera	superzoom camera		RD_D4
+D4.1.1.06	Camcorder			RD_D4
+D4.1.1.07	Cinema camera	digital cinema camera		RD_D4
+D4.1.1.08	Action camera			RD_D4
+D4.1.1.09	360-degree camera			RD_D4
+D4.1.1.10	Pocket gimbal camera			RD_D4
+D4.1.1.11	Trail camera		Weatherproof camera left outdoors and triggered by motion, mainly to film wildlife.	RD_D4
+D4.1.1.12	Photo booth		Cabinet or stand that combines a camera, light and printer to take pictures of guests.	RD_D4
+D4.1.1.13	Camera drone		Unmanned aircraft made for filming, carrying a stabilised camera.	RD_D4
+D4.1.2.01	Film SLR camera	film single-lens reflex camera		RD_D4
+D4.1.2.02	Film rangefinder camera			RD_D4
+D4.1.2.03	Film point-and-shoot camera	viewfinder film camera · lo-fi film camera		RD_D4
+D4.1.2.04	Twin-lens reflex camera	TLR		RD_D4
+D4.1.2.05	View camera	large-format camera		RD_D4
+D4.1.2.06	Box or folding camera			RD_D4
+D4.1.2.07	Single-use camera	disposable camera		RD_D4
+D4.1.2.08	Pinhole camera			RD_D4
+D4.1.3.01	Integral instant camera	integral-film instant camera		RD_D4
+D4.1.3.02	Peel-apart instant camera			RD_D4
+D4.1.3.03	Hybrid instant camera			RD_D4
+D4.2.01	Prime lens	fixed focal length lens		RD_D4
+D4.2.02	Zoom lens			RD_D4
+D4.2.03	Macro lens			RD_D4
+D4.2.04	Fisheye lens			RD_D4
+D4.2.05	Tilt-shift lens			RD_D4
+D4.2.06	Anamorphic lens			RD_D4
+D4.2.07	Special-effect lens			RD_D4
+D4.2.08	Cine lens			RD_D4
+D4.2.09	Teleconverter			RD_D4
+D4.2.10	Close-up lens			RD_D4
+D4.2.11	Lens filter			RD_D4
+D4.2.12	Mount adapter	lens adapter		RD_D4
+D4.2.13	Focal reducer			RD_D4
+D4.3.1.01	Speedlight	flashgun		RD_D4
+D4.3.1.02	Studio monolight	strobe head		RD_D4
+D4.3.1.03	Studio flash pack and head			RD_D4
+D4.3.2.01	LED panel			RD_D4
+D4.3.2.02	COB LED light			RD_D4
+D4.3.2.03	Fresnel light			RD_D4
+D4.3.2.04	Ring light			RD_D4
+D4.3.3.01	Softbox	strip box · octabox	Fabric box with a diffusion front that softens a light placed behind it; strip boxes and octaboxes are shapes of softbox.	RD_D4
+D4.3.3.02	Umbrella			RD_D4
+D4.3.3.03	Reflector dish			RD_D4
+D4.3.3.04	Portable reflector	collapsible diffuser · portable diffuser		RD_D4
+D4.3.3.05	Beauty dish			RD_D4
+D4.3.3.06	Snoot			RD_D4
+D4.3.3.07	Grid	honeycomb · egg-crate		RD_D4
+D4.3.3.08	Barn doors			RD_D4
+D4.3.3.09	Gobo			RD_D4
+D4.3.3.10	Colour gel			RD_D4
+D4.3.4.01	Light stand	C-stand	Adjustable stand that carries a light or modifier; the C-stand is a heavier variant.	RD_D4
+D4.3.4.02	Boom arm			RD_D4
+D4.3.4.03	Backdrop stand		Stand and crossbar that hold a studio backdrop; the backdrop itself is in Soft Furnishings.	RD_D4
+D4.4.01	Tripod			RD_D4
+D4.4.02	Tabletop tripod			RD_D4
+D4.4.03	Tripod head			RD_D4
+D4.4.04	Quick-release plate	quick-release system · L-bracket		RD_D4
+D4.4.05	Monopod			RD_D4
+D4.4.06	Handheld gimbal	handheld gimbal stabiliser		RD_D4
+D4.4.07	Camera rig	shoulder rig		RD_D4
+D4.4.08	Camera cage			RD_D4
+D4.4.09	Camera clamp	camera mount		RD_D4
+D4.5.01	Black-and-white film	black-and-white negative film		RD_D4
+D4.5.02	Colour negative film	C-41 film		RD_D4
+D4.5.03	Cine colour negative film	ECN-2 film		RD_D4
+D4.5.04	Slide film	colour reversal film · E-6 film		RD_D4
+D4.5.05	Integral instant film			RD_D4
+D4.5.06	Peel-apart instant film			RD_D4
+D4.6.1.01	Developing tank			RD_D4
+D4.6.1.02	Developing reel			RD_D4
+D4.6.1.03	Changing bag			RD_D4
+D4.6.2.01	Enlarger		Darkroom projector that exposes a negative onto paper; condenser, diffusion and colour (dichroic) types.	RD_D4
+D4.6.2.02	Enlarging lens			RD_D4
+D4.6.2.03	Enlarging easel			RD_D4
+D4.6.2.04	Focus finder			RD_D4
+D4.6.2.05	Darkroom timer			RD_D4
+D4.6.2.06	Enlarger filter			RD_D4
+D4.6.3.01	Developing tray			RD_D4
+D4.6.3.02	Safelight			RD_D4
+D4.6.3.03	Print dryer			RD_D4
+D4.6.4.01	Photographic chemistry	developer · stop bath · fixer	Developer, stop bath, fixer and related chemistry for film and prints.	RD_D4
+D4.6.4.02	Photographic paper	printing paper	Light-sensitive paper for prints, including silver-gelatin (fibre or resin-coated), colour and inkjet photo paper.	RD_D4
+D4.7.01	Camera bag	camera case		RD_D4
+D4.7.02	Camera strap			RD_D4
+D4.7.03	Camera battery			RD_D4
+D4.7.04	Battery charger	camera battery charger		RD_D4
+D4.7.05	Battery grip			RD_D4
+D4.7.06	Viewfinder or eyepiece			RD_D4
+D4.7.07	Remote shutter release	cable release		RD_D4
+D4.7.08	Light meter	exposure meter · flash meter		RD_D4
+D4.7.09	Camera cleaning kit			RD_D4
+D4.7.10	Underwater housing			RD_D4
+D4.7.11	Lens hood			RD_D4
+D4.7.12	Lens cap			RD_D4
+D4.7.13	Telescope camera adapter	T-ring		RD_D4
+D4.1.2.09	Panoramic film camera			RD_D4
+D4.2.14	Extension tube		Lensless spacer ring or tube fitted between body and lens so the lens focuses closer; bellows units are a variant.	RD_D4
+D4.3.2.05	LED tube light	light wand		RD_D4
+D4.3.3.11	Flag or net	flag · cutter · net		RD_D4
+D4.3.3.12	Overhead frame	butterfly		RD_D4
+D4.3.3.13	Speed ring			RD_D4
+D4.4.14	Body-worn camera support	Easyrig · Steadicam		RD_D4
+D4.6.3.04	Print washer			RD_D4
+D4.6.2.07	Negative carrier			RD_D4
+D4.6.2.08	Contact printing frame	proof printer		RD_D4
+D4.1.1.14	Digital back			RD_D4
+D4.3.2.06	Tungsten light	redhead · blonde	Constant light with a tungsten-halogen lamp in an open-face or focusing housing; a tungsten Fresnel is listed under Fresnel light.	RD_D4
+D4.3.2.07	HMI light		Daylight constant light with a metal-halide arc lamp run from a separate ballast; an HMI Fresnel is listed under Fresnel light.	RD_D4
+D4.4.10	Camera dolly			RD_D4
+D4.4.11	Camera slider			RD_D4
+D4.4.12	Camera crane	jib		RD_D4
+D4.4.13	Camera pedestal	studio column stand		RD_D4
+D4.5.07	Black-and-white reversal film			RD_D4
+D4.6.1.04	Film dryer			RD_D4
+D4.6.4.03	Darkroom thermometer			RD_D4
+D4.6.4.04	Darkroom graduate			RD_D4
+D4.6.3.05	Print tongs			RD_D4
+D4.7.14	Screen protector	camera screen protector		RD_D4
+D4.7.15	Focusing screen			RD_D4
+D4.7.16	Camera dry cabinet			RD_D4
+E4.1.1.01	Semi-automatic pistol			RD_E4
+E4.1.2.01	Double-action revolver			RD_E4
+E4.1.2.02	Single-action revolver		Handgun with a revolving cylinder whose hammer is cocked by hand before each shot; percussion revolvers are listed here too.	RD_E4
+E4.1.3.01	Bolt-action rifle			RD_E4
+E4.1.3.02	Lever-action rifle			RD_E4
+E4.1.3.03	Semi-automatic rifle			RD_E4
+E4.1.3.04	Single-shot rifle			RD_E4
+E4.1.3.05	Muzzle-loading rifle		Rifled long gun loaded with powder and bullet from the muzzle.	RD_E4
+E4.1.4.01	Over-under shotgun	Bockdoppelflinte		RD_E4
+E4.1.4.02	Side-by-side shotgun			RD_E4
+E4.1.4.03	Pump-action shotgun			RD_E4
+E4.1.4.04	Semi-automatic shotgun	Selbstladeflinte		RD_E4
+E4.1.4.05	Muzzle-loading shotgun		Smoothbore long gun loaded with powder and shot from the muzzle.	RD_E4
+E4.1.5.01	Combination gun	drilling · rifle-shotgun combination gun · Kombinierte Waffen		RD_E4
+E4.1.6.01	Blank-firing pistol	Schreckschusswaffe		RD_E4
+E4.2.1.01	PCP air rifle			RD_E4
+E4.2.1.02	Piston air rifle		Air rifle that compresses its charge with a spring or gas piston at each cocking stroke.	RD_E4
+E4.2.1.03	CO2 air rifle			RD_E4
+E4.2.2.01	CO2 air pistol			RD_E4
+E4.2.2.02	PCP air pistol			RD_E4
+E4.3.1.01	Recurve bow			RD_E4
+E4.3.1.02	Compound bow			RD_E4
+E4.3.1.03	Longbow			RD_E4
+E4.3.2.01	Recurve crossbow			RD_E4
+E4.3.2.02	Compound crossbow			RD_E4
+E4.3.3.01	Slingshot		Hand-held fork with elastic bands that launches a small projectile. A toy one is in Toys & Games.	RD_E4
+E4.3.3.02	Blowgun		Tube through which a dart is propelled by the breath. A toy one is in Toys & Games.	RD_E4
+E4.4.1.01	Arming sword			RD_E4
+E4.4.1.02	Longsword			RD_E4
+E4.4.1.03	Greatsword			RD_E4
+E4.4.2.01	Sabre		Single-edged, usually curved cavalry sword; national and regional patterns are sold under their own names.	RD_E4
+E4.4.2.02	Cutlass			RD_E4
+E4.4.2.03	Katana	Japanese long sword		RD_E4
+E4.4.2.04	Tachi	Japanese long sword		RD_E4
+E4.4.2.05	Wakizashi	Japanese short sword		RD_E4
+E4.4.2.06	Tanto	tantō · Japanese dagger-length sword	Single-edged Japanese blade under one shaku (about 30 cm), counted as a sword by tradition.	RD_E4
+E4.4.3.01	Rapier			RD_E4
+E4.4.3.02	Smallsword			RD_E4
+E4.5.01	Dagger			RD_E4
+E4.5.02	Push dagger			RD_E4
+E4.5.03	Bowie knife	fighting knife		RD_E4
+E4.5.04	Hunting knife	skinning knife · caping knife	Knife made for dressing and skinning game; skinning and caping knives are listed here too.	RD_E4
+E4.5.05	Karambit			RD_E4
+E4.5.06	Butterfly knife			RD_E4
+E4.5.07	Automatic knife			RD_E4
+E4.5.08	Throwing knife			RD_E4
+E4.5.09	Bayonet			RD_E4
+E4.5.10	Shuriken		Hand-thrown star or spike with sharpened points. A toy one is in Toys & Games.	RD_E4
+E4.6.1.01	Spear	yari · qiang	Shaft with a pointed head made for thrusting or throwing.	RD_E4
+E4.6.1.02	Halberd			RD_E4
+E4.6.1.03	Naginata			RD_E4
+E4.6.1.04	Glaive			RD_E4
+E4.6.2.01	Battle axe			RD_E4
+E4.6.2.02	Tomahawk			RD_E4
+E4.6.3.01	Bo staff	bō staff · long wooden staff		RD_E4
+E4.6.3.02	Chinese staff	gun staff · 棍		RD_E4
+E4.6.4.01	Mace			RD_E4
+E4.6.4.02	War hammer			RD_E4
+E4.6.4.03	Baton			RD_E4
+E4.6.4.04	Tonfa			RD_E4
+E4.6.4.05	Nunchaku			RD_E4
+E4.6.4.06	Kubotan			RD_E4
+E4.6.5.01	Flail			RD_E4
+E4.6.5.02	Rope dart			RD_E4
+E4.6.5.03	Chain whip			RD_E4
+E4.6.5.04	Three-section staff			RD_E4
+E4.7.01	Pepper spray			RD_E4
+E4.7.02	Pepper gel			RD_E4
+E4.7.03	Pepper-ball launcher			RD_E4
+E4.7.04	CO2 launcher		Compact CO2-powered launcher that fires self-defence projectiles; it may turn out to be the same product as the pepper-ball launcher.	RD_E4
+E4.7.05	Taser-type stun gun	projectile electroshock weapon · TASER	Device that fires wired darts to deliver an incapacitating electric shock; Taser is the best-known brand.	RD_E4
+E4.7.06	Contact stun gun			RD_E4
+E4.8.1.01	Plate helmet	burgonet		RD_E4
+E4.8.1.02	Ballistic helmet		Helmet made against bullets and fragments; sold by protection level.	RD_E4
+E4.8.2.01	Soft ballistic vest			RD_E4
+E4.8.2.02	Hard ballistic plate			RD_E4
+E4.8.2.03	Stab-resistant vest		Body armour made against knife and spike attacks (NIJ 0115.00 standard).	RD_E4
+E4.8.2.04	Plate carrier		Vest made to hold hard armour plates; it counts as armour in its own right.	RD_E4
+E4.8.3.01	Gauntlet			RD_E4
+E4.8.3.02	Arm armour	vambrace · couter		RD_E4
+E4.8.3.03	Leg armour	greave · cuisse		RD_E4
+E4.8.4.01	Plate armour harness	garniture	Complete suit of plate armour.	RD_E4
+E4.8.5.01	Shield			RD_E4
+E4.9.01	Centrefire handgun cartridge			RD_E4
+E4.9.02	Centrefire rifle cartridge			RD_E4
+E4.9.03	Rimfire cartridge			RD_E4
+E4.9.04	Shotshell			RD_E4
+E4.9.05	Muzzle-loading projectile			RD_E4
+E4.9.06	Black powder	black powder substitute	Black powder and its substitutes for muzzle-loading guns.	RD_E4
+E4.9.07	Air-gun pellet			RD_E4
+E4.9.08	Arrow		Shafted projectile shot from a bow.	RD_E4
+E4.9.09	Crossbow bolt			RD_E4
+E4.9.10	Loose bullet		Bullet sold on its own for loading cartridges.	RD_E4
+E4.9.11	Primer		Ignition cap sold on its own for loading cartridges.	RD_E4
+E4.9.12	Smokeless powder		Smokeless powder sold for loading cartridges.	RD_E4
+E4.10.1.01	Magazine			RD_E4
+E4.10.2.01	Bowstring			RD_E4
+E4.10.2.02	Arrow rest			RD_E4
+E4.10.3.01	Scabbard	sheath		RD_E4
+E4.10.3.02	Sword guard	tsuba	Loose guard for a sword hilt.	RD_E4
+E4.10.3.03	Sword grip ornament	menuki		RD_E4
+E4.10.4.01	Rifle scope	telescopic sight		RD_E4
+E4.10.4.02	Weapon light			RD_E4
+E4.10.4.03	Bipod			RD_E4
+E4.10.4.04	Shooting rest			RD_E4
+E4.4.1.04	Short sword	gladius · xiphos	Straight double-edged one-handed sword with a blade clearly shorter than an arming sword, often without a cross guard.	RD_E4
+E4.4.2.07	Falchion	messer · grosse messer	Broad single-edged one-handed European sword, straight or slightly curved, often widening towards the point.	RD_E4
+E4.4.3.03	Sword cane	shikomizue	Walking stick whose shaft hides a sword blade drawn from it. A cane without a blade is in Bags & Accessories or Health, Medical & Mobility.	RD_E4
+E4.1.4.06	Single-shot shotgun			RD_E4
+E4.1.1.02	Single-shot pistol	derringer	Handgun with no magazine or cylinder, loaded by hand into one or two barrels (break-open, tip-up or falling block). Flintlock pistols are listed here too.	RD_E4
+E4.8.2.05	Mail shirt	hauberk · haubergeon	Shirt of interlinked metal rings worn as body armour; a mail coif goes with head armour.	RD_E4
+E4.8.2.06	Cuirass		Rigid plate defence of the torso, a breastplate alone or with its backplate, sold apart from a full harness.	RD_E4
+E4.8.2.07	Brigandine			RD_E4
+E4.8.1.03	Gorget	bevor	Loose plate or mail armour for the neck and throat.	RD_E4
+E4.10.3.04	Hilt collar and pommel cap	fuchi-kashira	Loose collar and pommel cap made for a sword hilt, sold as a set; the Japanese pair is called fuchi-kashira.	RD_E4
+E4.10.3.05	Scabbard pocket fitting	kozuka · kogai		RD_E4
+E4.6.4.07	Sai	pronged truncheon		RD_E4
+E4.6.2.03	Kama	fighting sickle	Short-handled sickle blade made as a weapon, often used in pairs. A garden sickle is in Garden & Grounds.	RD_E4
+E4.10.1.02	Iron sight			RD_E4
+E4.10.1.03	Barrel			RD_E4
+E4.10.1.04	Trigger			RD_E4
+E4.10.1.05	Suppressor		Device fitted to a firearm muzzle that reduces the sound of a shot; its legal class varies by place.	RD_E4
+E4.10.2.04	Arrowhead	broadhead · field point · bodkin	Point fitted to an arrow or bolt shaft.	RD_E4
+E4.9.13	Cartridge case			RD_E4
+E4.9.14	Shotshell wad			RD_E4
+E4.10.4.06	Scope mount	scope rings · scope bases		RD_E4
+E4.10.4.05	Red-dot sight	reflex sight · holographic sight		RD_E4
+E4.10.2.03	Bow riser		Centre section of a take-down bow, sold without limbs, that holds the grip, sight and rest.	RD_E4
+E4.10.4.07	CO2 capsule		Sealed carbon dioxide cartridge (8 g, 12 g, 88 g) that powers CO2 air guns and launchers.	RD_E4
+E4.6.1.05	Poleaxe			RD_E4
+F1.3.1.01	Vinyl record	microgroove record · LP · EP · single	Vinyl disc with fine grooves played at 33 1/3, 45 or another speed (LP, EP, single); diameter, speed, release type, weight and mastering are noted.	RD_F1
+F1.3.1.02	78 rpm record	coarse-groove record · shellac record	Shellac or early disc with wide grooves, played at about 78 rpm with a coarse stylus.	RD_F1
+F1.3.1.03	Flexi-disc			RD_F1
+F1.3.1.04	Acetate or lathe-cut disc	instantaneous disc · lacquer		RD_F1
+F1.3.1.06	Cylinder record			RD_F1
+F1.3.2.01	Compact cassette		Audio tape in the standard two-hub compact cassette shell, pre-recorded or blank; the tape type is noted.	RD_F1
+F1.3.2.02	Microcassette	minicassette · picocassette	Audio tape in a cassette smaller than the compact cassette (microcassette, minicassette, picocassette).	RD_F1
+F1.3.3.01	CD	compact disc · audio CD · HDCD · SHM-CD · Blu-spec CD2 · HQCD	12 cm optical disc in the Compact Disc Digital Audio system (16-bit, 44.1 kHz), audiobook CDs included; HDCD and special pressings such as SHM-CD are noted.	RD_F1
+F1.3.3.02	SACD	Super Audio CD	Super Audio CD carrying DSD audio, single-layer or hybrid with a CD layer; whether it is hybrid is noted.	RD_F1
+F1.3.3.03	DVD-Audio			RD_F1
+F1.3.3.04	Mini CD	3 inch CD	8 cm compact disc needing a tray recess or adapter.	RD_F1
+F1.3.4.01	Audiobook player	Playaway · pre-recorded digital audio player	Self-contained device sold with one work, usually an audiobook, fixed on it; it plays only that work.	RD_F1
+F1.4.1.01	VHS cassette			RD_F1
+F1.4.1.02	Betamax cassette			RD_F1
+F1.4.2.01	LaserDisc			RD_F1
+F1.4.2.02	DVD			RD_F1
+F1.4.2.03	Blu-ray			RD_F1
+F1.4.2.04	Ultra HD Blu-ray		12 cm optical disc in the Ultra HD Blu-ray system, sold apart from Blu-ray.	RD_F1
+F1.4.3.01	35 mm print			RD_F1
+F1.4.3.02	16 mm print			RD_F1
+F1.4.3.03	Super 8 print			RD_F1
+F1.5.1.01	Loose dust jacket			RD_F1
+F1.5.1.02	Slipcase			RD_F1
+F1.5.2.01	Comic bag			RD_F1
+F1.5.2.02	Backing board			RD_F1
+F1.5.3.01	Record inner sleeve			RD_F1
+F1.5.3.02	Record outer sleeve			RD_F1
+F1.5.4.01	CD jewel case			RD_F1
+F1.5.5.01	Globe stand	meridian		RD_F1
+F1.1.1.01	Hardback book	relié	Book bound in rigid boards; binding (trade cloth, library or reinforced, leather or fine binding) and size are noted.	RD_F1
+F1.1.1.02	Paperback book	broché · poche · trade paperback · mass-market paperback	Book bound in a flexible paper cover, trade and mass-market alike; trim size and paper class are noted.	RD_F1
+F1.1.1.03	Spiral-bound book		Book whose leaves are held by a wire or plastic spiral or comb.	RD_F1
+F1.1.1.04	Loose-leaf book		Book issued as punched loose leaves held in a ring binder or post binding.	RD_F1
+F1.1.1.05	Pamphlet	booklet	Short publication of a few sheets bound by staples or saddle-stitching.	RD_F1
+F1.1.1.06	Board book		Book printed on thick laminated paperboard pages, made for young children.	RD_F1
+F1.1.1.07	Cloth, bath or foam book	rag book	Book with pages of cloth, waterproof plastic or foam, made for babies.	RD_F1
+F1.1.1.08	Sewing or knitting pattern		Printed single-pattern sheet or envelope for sewing or knitting, issued loose rather than bound; craft, size range and garment are noted.	RD_F1
+F1.1.2.01	Single-issue comic	floppy	Comic issue of one serial number, stapled through the fold (the "floppy").	RD_F1
+F1.1.2.02	Collected softcover volume	trade paperback · tankobon	Softcover volume collecting several issues or chapters of a comic or manga.	RD_F1
+F1.1.2.03	Collected hardcover volume			RD_F1
+F1.1.2.04	Omnibus	compendium	Thick single volume collecting a long run of issues or several collected volumes; the binding is noted.	RD_F1
+F1.1.2.05	Pocket-size reissue	bunkoban		RD_F1
+F1.1.2.06	Premium large-format edition	Absolute · kanzenban		RD_F1
+F1.1.3.01	Newspaper		Periodical issued daily or weekly on unbound newsprint sheets; page format (broadsheet, Berliner, tabloid) is noted.	RD_F1
+F1.1.3.02	Magazine		Periodical issue bound as a stapled or perfect-bound paper-covered booklet, digest-size magazines included; page format is noted.	RD_F1
+F1.1.3.03	Bound periodical volume		Book-form volume binding together a run of issues of one periodical.	RD_F1
+F1.1.3.04	Zine	fanzine		RD_F1
+F1.1.4.01	Full score			RD_F1
+F1.1.4.02	Miniature score	study score · pocket score · Studienpartitur		RD_F1
+F1.1.4.03	Vocal score	piano-vocal score		RD_F1
+F1.1.4.04	Score and parts			RD_F1
+F1.1.4.05	Set of parts			RD_F1
+F1.1.4.06	Choral octavo			RD_F1
+F1.1.4.07	Songbook	collection		RD_F1
+F1.2.1.01	Folded map		Printed map sheet folded to pocket size for carrying; the area covered is noted.	RD_F1
+F1.2.1.02	Wall map			RD_F1
+F1.2.1.03	Map booklet			RD_F1
+F1.2.2.01	Bound atlas		Book of maps bound in boards, a flexible cover or flexi-binding; the area covered is noted.	RD_F1
+F1.2.2.02	Spiral-bound atlas			RD_F1
+F1.2.3.01	Desktop globe			RD_F1
+F1.2.3.02	Floor globe			RD_F1
+F1.2.3.03	Hanging globe	suspended globe		RD_F1
+F1.1.1.09	Fold-out book	leporello		RD_F1
+F1.1.1.10	Part-work		Publication issued as numbered parts sold weekly or monthly that together build one complete work; binders and models are sold apart.	RD_F1
+F1.1.1.11	Novelty book			RD_F1
+F1.1.4.08	Piano reduction			RD_F1
+F1.1.4.09	Single part			RD_F1
+F1.2.1.04	Tear-off map pad			RD_F1
+F1.1.3.05	Bookazine	mook	One-off magazine-style publication with a book number, sold in bookshops and newsstands, often in a numbered series.	RD_F1
+F1.4.3.04	Regular 8 mm print	double 8 print	Commercially released film print on regular (double) 8 mm stock, needing a regular 8 projector.	RD_F1
+F1.5.1.03	Book jacket cover			RD_F1
+F1.5.1.04	Book box	clamshell · dropover		RD_F1
+F1.4.1.03	S-VHS cassette			RD_F1
+F1.4.1.04	VHS-C cassette			RD_F1
+F1.4.1.05	W-VHS cassette			RD_F1
+F1.3.3.05	CD-R	recordable compact disc		RD_F1
+F1.3.1.07	Vertical-cut disc		Disc record cut with a vertical (hill-and-dale) groove, played with its own reproducer; Edison Diamond Disc and Pathé discs are examples.	RD_F1
+F1.3.1.05	16-inch transcription disc	transcription disc	16-inch disc made for broadcast playback on a transcription deck.	RD_F1
+F4.1.1.01	Household altar	home shrine · butsudan	Cabinet, shelf or box shrine kept in a home or room to hold sacred images, name tablets or talismans. Comes in modern, karaki or gold-leaf styles, wall-hung or mini.	RD_F4
+F4.1.1.02	Shrine rope	shimenawa	Rope hung to mark a sacred space or object in a rite. A seasonal festival decoration such as the kadomatsu is in Decor.	RD_F4
+F4.1.1.03	Paper-streamer wand	gohei · kinpei		RD_F4
+F4.1.2.01	Devotional panel painting	icon	Sacred picture painted on a rigid panel, framed or mounted to stand or hang.	RD_F4
+F4.1.2.02	Devotional scroll painting	thangka · kakejiku · pata		RD_F4
+F4.1.2.03	Altarpiece		Large sacred picture or carved screen made to stand behind or above an altar, old-master altarpieces included.	RD_F4
+F4.1.3.01	Devotional statue		Sculpted figure of a holy person, deity or saint made to be venerated.	RD_F4
+F4.1.3.02	Devotional cross	crucifix	Cross, with or without a figure on it, made to stand, hang or be held in veneration.	RD_F4
+F4.1.3.03	Nativity set	crib · creche	Boxed or composed set of figures and a stable showing the birth of Jesus, sold as one set.	RD_F4
+F4.1.3.04	Miniature stupa	chorten	Small model of a stupa or chorten made to stand on an altar as a sacred focus, filled with relics or mantras or not.	RD_F4
+F4.1.4.01	Relic		Body part or belonging of a holy person, or a thing touched to one, kept for veneration. Relics are classed first, second or third class.	RD_F4
+F4.1.4.02	Reliquary			RD_F4
+F4.2.1.01	Prayer beads	rosary · chaplet · tasbih · mala · juzu	String or loop of beads, knots or counters made to count prayers, with or without a cross, counter, tassel or guru bead. A necklace of the same beads made as jewellery is in Jewellery.	RD_F4
+F4.2.2.01	Prayer rug	prayer mat · sajada	Rug or mat made to kneel, stand or prostrate on in prayer. Padding, non-slip base and surface fabric vary; a meditation cushion or mat is in Soft Furnishings.	RD_F4
+F4.2.3.01	Prayer wheel			RD_F4
+F4.2.3.02	Prayer flag			RD_F4
+F4.2.4.01	Devotional medal		Loose medal of a saint or sacred subject made for devotion. One made with a chain or bail to be worn is in Jewellery; one struck to commemorate or reward is in Coins, Stamps, Medals & Trading Cards.	RD_F4
+F4.2.4.02	Prayer card	holy card	Printed card with a sacred image or prayer, kept or carried for devotion.	RD_F4
+F4.2.4.03	Holy-water font	stoup		RD_F4
+F4.2.4.04	Holy-water bottle			RD_F4
+F4.2.4.05	Protective charm	omamori · evil-eye charm	Small charm carried, not worn as jewellery, for luck, protection or a named blessing. A worn one is in Jewellery; one issued for money is in Coins, Stamps, Medals & Trading Cards.	RD_F4
+F4.3.1.01	Ritual cup	chalice · kiddush cup	Cup or goblet made to hold wine or another drink used in a rite.	RD_F4
+F4.3.1.02	Monstrance			RD_F4
+F4.3.1.03	Seder plate	ritual food plate	Plate or tray made to hold the symbolic foods of a rite. The food itself is not included.	RD_F4
+F4.3.1.04	Host vessel	ciborium · pyx · host box	Lidded cup, bowl or box made to hold consecrated or unconsecrated hosts.	RD_F4
+F4.3.1.05	Ritual washing cup	netilat yadayim cup	Cup, usually two-handled, made to pour water over the hands in ritual washing.	RD_F4
+F4.3.1.06	Spice box	besamim box	Small box or tower made to hold fragrant spices smelled in the Havdalah rite.	RD_F4
+F4.3.2.01	Aspergillum	holy-water sprinkler		RD_F4
+F4.3.2.02	Torah pointer	yad		RD_F4
+F4.3.2.03	Ritual sceptre	vajra		RD_F4
+F4.3.2.04	Ritual knife	athame · boline	Knife or blade made to be held in a rite, not to cut.	RD_F4
+F4.3.2.05	Ritual spoon or ladle	achamani · fire-offering ladle · communion spoon	Spoon or ladle made to pour or offer water, ghee or a sacrament in a rite.	RD_F4
+F4.3.3.01	Mezuzah case	doorpost scroll case	Case made to hold a doorpost scroll and be fixed to a doorpost. Comes in several materials.	RD_F4
+F4.3.3.02	Mezuzah scroll	doorpost scroll	Handwritten parchment strip of sacred text made to be put in a case and fixed to a doorpost. Script style and size (to fit the case) vary.	RD_F4
+F4.3.3.03	Tefillin	phylacteries		RD_F4
+F4.3.3.04	Torah scroll	handwritten Torah scroll	Handwritten scroll of the Five Books on parchment, made to be read in the rite. A printed Torah or Bible is in Media & Publications.	RD_F4
+F4.3.4.01	Shofar	ritual horn		RD_F4
+F4.3.4.02	Hand bell	altar bell · sanctus bell · ghanta	Bell held by a handle and rung in a rite or service.	RD_F4
+F4.3.4.03	Standing bowl bell	rin	Bowl-shaped bell that rests on a cushion or stand and is struck with a striker, made for a rite. A singing bowl made for music is in Musical Instruments & Music Gear.	RD_F4
+F4.3.4.04	Slit drum	mokugyo		RD_F4
+F4.3.4.05	Ritual hand drum	damaru	Small two-headed hand drum, often hourglass-shaped with pellets on cords, rattled or struck in a rite. One sold for music is in Musical Instruments & Music Gear.	RD_F4
+F4.3.4.06	Ritual hand cymbals	tingsha	Pair of small thick cymbals joined by a cord, struck together in a rite. Ones sold for meditation are in Musical Instruments & Music Gear.	RD_F4
+F4.4.1.01	Hanukkah lamp	hanukkiah · Hanukkah menorah		RD_F4
+F4.4.1.02	Seven-branch menorah			RD_F4
+F4.4.1.03	Oil lamp for worship	diya · butter lamp	Lamp burning oil or ghee, made for worship.	RD_F4
+F4.4.1.04	Eternal light	sanctuary lamp	Lamp kept burning before a sanctuary or altar. Electric or LED versions exist.	RD_F4
+F4.4.1.05	Altar candlestick		Candle holder made to stand on or by an altar in a rite. An open candle holder for the home is in Decor.	RD_F4
+F4.4.1.06	Ritual candle	altar candle · votive candle · Easter candle · Yahrzeit candle	Candle made for a rite or devotion, including altar, votive, procession, Easter, grave, Yahrzeit and memorial candles.	RD_F4
+F4.4.1.07	Advent wreath			RD_F4
+F4.4.1.08	Ritual lantern	bon lantern · votive stone toro	Lantern made to be hung or set out in a rite or as a shrine offering. A garden stone lantern or decorative lantern is in Decor; a lantern made to be carried as a light is in Lighting.	RD_F4
+F4.4.2.01	Ritual incense	senko · agarbatti	Incense made for a rite, in stick, cone, resin or church grade. A smudge bundle made for a named rite is included.	RD_F4
+F4.4.2.02	Incense burner	koro · joss-stick pot · dhoop stand	Standing or hanging vessel for burning incense, including holders for the grave.	RD_F4
+F4.4.2.03	Swung censer	thurible	Incense burner hung on chains, to be swung.	RD_F4
+F4.4.3.01	Offering vessel	rice vessel · tea cup · altar flower vase	Bowl, cup or vase made to hold water, rice, tea, flowers or other offerings, including flower vases for the grave.	RD_F4
+F4.4.3.02	Offering stand			RD_F4
+F4.4.3.03	Alms box	church collection box · tzedakah box · saisen box		RD_F4
+F4.5.1.01	Tarot deck		78-card deck with major and minor suits, sold for divination. Each published deck design is listed under its publisher. A pack sold for card play is in Toys & Games.	RD_F4
+F4.5.1.02	Oracle deck			RD_F4
+F4.5.1.03	Lenormand deck			RD_F4
+F4.5.2.01	Crystal ball			RD_F4
+F4.5.2.02	Spirit board	Ouija board	Lettered board with a pointer, made for divination. One made as a board game is in Toys & Games.	RD_F4
+F4.5.2.03	Rune set			RD_F4
+F4.5.2.04	I Ching coin set			RD_F4
+F4.5.2.05	Divination pendulum			RD_F4
+F4.5.2.06	Dowsing rod		Rod, pair of L-rods or forked rod made to be held for dowsing or divination. One sold as a survey or pipe-finding tool is in Tools & Workshop Equipment.	RD_F4
+F4.6.1.01	Coffin	casket	Box that holds a body for burial or cremation. Material, steel gauge, shape, sealing and biodegradable options vary; rental caskets are included.	RD_F4
+F4.6.2.01	Cremation urn		Container for cremated remains, of any capacity from a keepsake portion to a companion pair. Not a worn piece of jewellery; pet urns are included.	RD_F4
+F4.6.2.02	Scattering urn			RD_F4
+F4.6.2.03	Urn vault			RD_F4
+F4.6.3.01	Grave marker	tombstone · tomb slab		RD_F4
+F4.6.3.02	Memorial tablet	ihai	Tablet that stands for a dead person, inscribed with a name, kept at an altar or home.	RD_F4
+F4.6.3.03	Memorial register	kakocho	Book or folding album made to record the names and death dates of the dead, kept at a household altar.	RD_F4
+F4.6.4.01	Funeral pall	coffin cover		RD_F4
+F4.6.4.02	Burial shroud			RD_F4
+F4.7.1.01	Torah finial		Ornament fitted to the top of the rollers of a Torah scroll.	RD_F4
+F4.7.2.01	Coffin plate			RD_F4
+F4.7.2.02	Coffin pillow			RD_F4
+F4.7.3.01	Urn plaque or medallion	urn appliqué		RD_F4
+F5.1.1.01	Passport		Booklet issued by a state to identify its holder for international travel.	RD_F5
+F5.1.1.02	National identity card	Jumindeungrokjeung · Nafnskírteini · CURP card · Carteira Nacional de Identificação · My Number card · Personalausweis	Card issued by a state to prove the holder's identity and citizenship or residence.	RD_F5
+F5.1.1.03	Driving licence		Document issued to permit its holder to drive.	RD_F5
+F5.1.1.04	Residence permit	Alien Resident Certificate	Document issued to a non-citizen to prove the right to reside.	RD_F5
+F5.1.1.05	Visa		Label, stamp or sheet issued to permit entry to or stay in a country.	RD_F5
+F5.1.2.01	Birth certificate			RD_F5
+F5.1.2.02	Marriage certificate	ketubah	Certificate recording a marriage, including the ketubah; one made as a picture is in Art.	RD_F5
+F5.1.2.03	Death certificate			RD_F5
+F5.1.2.04	Divorce papers			RD_F5
+F5.1.2.05	Baptism certificate	christening certificate	Certificate recording a baptism or christening; one made as a picture is in Art.	RD_F5
+F5.1.2.06	Vaccination certificate		Paper record or card certifying vaccinations received.	RD_F5
+F5.1.3.01	Deed		Document that conveys or proves title to property; the land itself is in Property & Structures.	RD_F5
+F5.1.3.02	Will			RD_F5
+F5.1.3.03	Promissory note			RD_F5
+F5.1.3.04	Share certificate		Printed certificate of ownership of shares in a company.	RD_F5
+F5.1.3.05	Bond certificate			RD_F5
+F5.1.3.06	Cheque		Printed order to a bank to pay a sum, kept as an object.	RD_F5
+F5.1.3.07	Traveller's cheque		Pre-paid cheque in a fixed amount for travellers, kept as an object.	RD_F5
+F5.1.3.08	Postal order		Money order issued by a post office, kept as an object.	RD_F5
+F5.1.3.09	Tax paper	tax return · assessment notice	Paper tax return or assessment notice kept as a record.	RD_F5
+F5.1.4.01	Diploma			RD_F5
+F5.1.4.02	Certificate of achievement	training certificate · membership certificate		RD_F5
+F5.1.4.03	School report		Report issued by a school on a pupil's progress.	RD_F5
+F5.1.5.01	Identity badge		Badge or card bearing the holder's name or photograph, carried to show who the holder is.	RD_F5
+F5.1.5.02	Access badge			RD_F5
+F5.1.5.03	Crew member certificate		Identity document issued to airline crew in the standard international card formats.	RD_F5
+F5.2.1.01	Credit card			RD_F5
+F5.2.1.02	Debit card			RD_F5
+F5.2.1.03	Charge card			RD_F5
+F5.2.1.04	ATM card			RD_F5
+F5.2.2.01	Gift card		Card holding a prepaid value redeemable for goods or services.	RD_F5
+F5.2.2.02	Gift certificate		Paper voucher or gift token redeemable only with its issuer; circulating scrip is in Coins, Stamps, Medals & Trading Cards.	RD_F5
+F5.2.2.03	Telephone card		Prepaid card for public telephones; optical, chip or magnetic.	RD_F5
+F5.2.3.01	Transit card	farecard · Suica · Octopus · EZ-Link · China T-Union · SUBE · Beep · Washington Metro farecard	Stored-value or pass card for public transport fares.	RD_F5
+F5.2.4.01	Membership card			RD_F5
+F5.2.4.02	Loyalty card			RD_F5
+F5.2.5.01	Key card		Card that opens a lock and names no holder, such as a hotel key card.	RD_F5
+F5.2.5.02	SIM card		Physical card that identifies a subscriber on a mobile network; an eSIM profile is part of a plan in Subscriptions, Memberships & Online Services.	RD_F5
+F5.3.1.01	Letter		Written or typed message sent or kept on paper, signed letters included.	RD_F5
+F5.3.1.02	Diary or journal			RD_F5
+F5.3.1.03	Written-in greeting card		Greeting card that has been written in and kept; a blank one is in Office & Stationery.	RD_F5
+F5.3.1.04	Written-in notebook		Notebook that has been written in and kept; a blank one is in Office & Stationery.	RD_F5
+F5.3.1.05	House plans			RD_F5
+F5.3.1.06	Posted envelope	postally used cover	Envelope that passed through the post, other than a first-day cover or one issued by a postal administration.	RD_F5
+F5.3.2.01	Photograph	carte de visite · cabinet card · real photo postcard · snapshot	Photograph printed on paper or card.	RD_F5
+F5.3.2.02	Slide		Developed transparency mounted for projection or viewing.	RD_F5
+F5.3.2.03	Negative		Developed photographic negative on film or plate.	RD_F5
+F5.3.3.01	Home film reel	8 mm · Super 8 · 16 mm		RD_F5
+F5.3.3.02	Home videotape			RD_F5
+F5.3.4.01	Photo album			RD_F5
+F5.3.4.02	Scrapbook		Album filled with kept papers of every kind; a blank scrapbook album is in Craft & Art Supplies.	RD_F5
+F5.3.5.01	Picture postcard		Printed picture postcard, used or not; a real photo postcard is listed under Photograph.	RD_F5
+F5.3.5.02	Ticket stub			RD_F5
+F5.3.5.03	Programme			RD_F5
+F5.3.5.04	Autograph	cut signature	Signature collected on a card or page.	RD_F5
+F5.3.5.05	Menu			RD_F5
+F5.3.5.06	Invitation			RD_F5
+F5.3.5.07	Advertising trade card		Card issued by a business to advertise it; a card issued in a numbered series to be collected is in Coins, Stamps, Medals & Trading Cards.	RD_F5
+F5.3.5.08	Handbill	flyer · leaflet · printed advertisement	Single printed advertising item kept after use, such as a handbill, flyer, leaflet or detached magazine or newspaper advertisement page; a poster is in Art, a catalogue or booklet in Media & Publications.	RD_F5
+F5.3.5.09	Business card			RD_F5
+F5.3.5.10	Receipt	billhead		RD_F5
+F5.3.5.11	Label			RD_F5
+F5.3.5.12	Broadside			RD_F5
+F5.3.5.13	Bookplate		Printed label pasted in a book to mark its owner.	RD_F5
+F5.3.5.14	Timetable		Printed timetable of a transport service, kept.	RD_F5
+F5.3.5.15	Bookmark		Printed or card bookmark, kept as ephemera.	RD_F5
+F5.2.1.05	Charge plate			RD_F5
+F5.3.5.16	Visiting card	calling card		RD_F5
+F5.1.2.07	Confirmation certificate	first communion certificate	Certificate recording a confirmation or first communion; one made as a picture is in Art.	RD_F5
+F5.3.5.17	Lottery ticket	scratch card		RD_F5
+F5.1.1.06	Citizenship certificate	naturalisation certificate		RD_F5
+F5.2.2.04	Prepaid e-money card		Reloadable stored-value card for small payments at many merchants, not drawing on a bank account.	RD_F5
+F5.1.1.07	Social security card	social insurance card		RD_F5
+G1.1.1.01	Saloon	sedan		RD_G1
+G1.1.1.02	Hatchback			RD_G1
+G1.1.1.03	Estate	station wagon		RD_G1
+G1.1.1.04	Coupé			RD_G1
+G1.1.1.05	Convertible	cabriolet		RD_G1
+G1.1.1.06	SUV			RD_G1
+G1.1.1.07	MPV	minivan		RD_G1
+G1.1.1.08	Microcar	quadricycle		RD_G1
+G1.1.2.01	Panel van			RD_G1
+G1.1.2.03	Pickup truck			RD_G1
+G1.1.2.04	Rigid truck	chassis-cab with fitted body		RD_G1
+G1.1.2.05	Tractor unit			RD_G1
+G1.1.2.06	Minibus			RD_G1
+G1.1.1.09	Limousine			RD_G1
+G1.1.2.02	Window van	kombi		RD_G1
+G1.1.2.07	Bus or coach			RD_G1
+G1.1.3.01	Standard motorcycle	naked motorcycle		RD_G1
+G1.1.3.02	Cruiser motorcycle			RD_G1
+G1.1.3.03	Sport motorcycle			RD_G1
+G1.1.3.04	Touring motorcycle			RD_G1
+G1.1.3.05	Adventure motorcycle	dual-sport motorcycle		RD_G1
+G1.1.3.08	Moped			RD_G1
+G1.1.3.06	Scooter			RD_G1
+G1.1.3.07	Electric kick scooter			RD_G1
+G1.1.3.11	Motorcycle with sidecar			RD_G1
+G1.1.3.13	Electric unicycle			RD_G1
+G1.1.3.15	Powered skateboard			RD_G1
+G1.1.3.09	Off-road motorcycle	enduro · motocross · trials		RD_G1
+G1.1.3.10	Trike			RD_G1
+G1.1.3.14	Hoverboard	self-balancing board		RD_G1
+G1.1.4.01	Quad bike	ATV		RD_G1
+G1.1.4.02	Snowmobile			RD_G1
+G1.1.4.03	Side-by-side	UTV		RD_G1
+G1.1.4.04	Golf cart			RD_G1
+G1.1.4.05	Go-kart			RD_G1
+G1.1.4.06	Dune buggy			RD_G1
+G1.1.3.12	Mini bike	pocket bike		RD_G1
+G1.1.5.02	Gravel bike		Drop-bar bicycle with wide tyre clearance, made for mixed paved and unpaved roads.	RD_G1
+G1.1.5.03	Cross-country mountain bike			RD_G1
+G1.1.5.04	Downhill mountain bike			RD_G1
+G1.1.5.06	City bike			RD_G1
+G1.1.5.08	Mini-velo	small-wheel bicycle		RD_G1
+G1.1.5.09	Cargo bike			RD_G1
+G1.1.5.10	Trail mountain bike			RD_G1
+G1.1.5.11	Enduro mountain bike			RD_G1
+G1.1.5.12	Dirt-jump mountain bike			RD_G1
+G1.1.5.14	Track bike	fixed-gear bike		RD_G1
+G1.1.5.15	Time-trial bike			RD_G1
+G1.1.5.17	Hybrid bike	cross bike		RD_G1
+G1.1.5.01	Road bike			RD_G1
+G1.1.5.05	BMX bike			RD_G1
+G1.1.5.07	Folding bike			RD_G1
+G1.1.5.13	Cyclocross bike			RD_G1
+G1.1.5.16	Touring bike	trekking bike		RD_G1
+G1.1.5.18	Fat bike			RD_G1
+G1.1.6.01	Adult tricycle			RD_G1
+G1.1.6.02	Recumbent bicycle			RD_G1
+G1.1.6.03	Tandem			RD_G1
+G1.1.6.04	Handcycle			RD_G1
+G1.1.6.05	Velomobile			RD_G1
+G1.1.6.06	Cycle rickshaw			RD_G1
+G1.1.7.02	Boat trailer			RD_G1
+G1.1.7.03	Horsebox	horse trailer		RD_G1
+G1.1.7.04	Car transporter trailer			RD_G1
+G1.1.7.05	Tipper trailer			RD_G1
+G1.1.8.01	Touring caravan	travel trailer		RD_G1
+G1.1.8.03	Fifth-wheel caravan	fifth-wheel		RD_G1
+G1.1.8.04	Truck camper			RD_G1
+G1.1.8.05	Campervan	van conversion		RD_G1
+G1.1.8.08	A-class motorhome	integrated motorhome		RD_G1
+G1.1.7.01	Box trailer	cargo trailer		RD_G1
+G1.1.7.06	Motorcycle trailer			RD_G1
+G1.1.7.07	Bicycle trailer			RD_G1
+G1.1.8.02	Folding camper	pop-up		RD_G1
+G1.1.8.06	Low-profile motorhome	coachbuilt motorhome		RD_G1
+G1.1.8.07	Overcab motorhome	Luton motorhome		RD_G1
+G1.1.8.09	Expandable-end trailer			RD_G1
+G1.1.8.10	Sport utility RV			RD_G1
+G1.1.2.08	Special-purpose body vehicle			RD_G1
+G1.1.9.01	Horse-drawn carriage			RD_G1
+G1.1.9.02	Horse-drawn wagon	cart		RD_G1
+G1.1.9.03	Sleigh		Vehicle on runners, pulled by an animal or machine, that carries people or goods over snow.	RD_G1
+G1.1.10.01	Pram			RD_G1
+G1.1.10.02	Stroller	pushchair	Wheeled seat for a baby or child, pushed by hand; includes a frame sold with a carrycot and seat unit.	RD_G1
+G1.1.10.03	Jogging stroller			RD_G1
+G1.1.10.04	Double stroller	tandem stroller		RD_G1
+G1.1.10.05	Pet stroller		Wheeled carrier made to push a pet.	RD_G1
+G1.2.01	Locomotive			RD_G1
+G1.2.02	Railway carriage or wagon			RD_G1
+G1.2.03	Handcar	draisine · railbike		RD_G1
+G1.2.04	Railcar	multiple unit		RD_G1
+G1.2.05	Tram			RD_G1
+G1.2.06	Motor trolley			RD_G1
+G1.3.1.01	Kayak		Narrow paddle craft driven by a double-bladed paddle, rigid or inflatable.	RD_G1
+G1.3.1.02	Canoe			RD_G1
+G1.3.1.03	Rowing boat			RD_G1
+G1.3.1.04	Rowing shell			RD_G1
+G1.3.1.05	Pedal boat			RD_G1
+G1.3.2.01	Sailing dinghy			RD_G1
+G1.3.2.02	Open keelboat	daysailer		RD_G1
+G1.3.2.03	Cruising monohull			RD_G1
+G1.3.2.04	Beach catamaran			RD_G1
+G1.3.2.05	Cruising multihull		Sailing catamaran or trimaran with accommodation.	RD_G1
+G1.3.2.06	Motorsailer		Sailing craft with an engine strong enough to cruise under power as well as sail.	RD_G1
+G1.3.2.07	Racer-cruiser			RD_G1
+G1.3.2.08	Gulet			RD_G1
+G1.3.3.01	Bowrider	runabout		RD_G1
+G1.3.3.02	Centre console boat			RD_G1
+G1.3.3.03	Cabin cruiser			RD_G1
+G1.3.3.04	Rigid inflatable boat	RIB		RD_G1
+G1.3.3.05	Personal watercraft	PWC · jet ski		RD_G1
+G1.3.3.06	Houseboat	cruising houseboat · navigating house barge	Hull with its own engine and steering, made to be lived aboard and navigated.	RD_G1
+G1.3.3.07	Trawler			RD_G1
+G1.3.3.08	Motor yacht			RD_G1
+G1.3.3.09	Sport-fishing boat			RD_G1
+G1.3.3.10	Pontoon boat			RD_G1
+G1.3.3.11	Jon boat			RD_G1
+G1.3.3.12	Jet boat			RD_G1
+G1.3.3.13	Tender			RD_G1
+G1.3.3.14	eFoil		Electric hydrofoil board ridden standing.	RD_G1
+G1.4.1.01	Single-engine piston airplane			RD_G1
+G1.4.1.02	Turboprop airplane			RD_G1
+G1.4.1.03	Multi-engine piston airplane			RD_G1
+G1.4.1.04	Jet			RD_G1
+G1.4.1.05	Floatplane	amphibian		RD_G1
+G1.4.2.01	Glider	sailplane		RD_G1
+G1.4.2.02	Motor-glider			RD_G1
+G1.4.2.03	Helicopter			RD_G1
+G1.4.2.04	Gyroplane			RD_G1
+G1.4.2.05	Hot-air balloon			RD_G1
+G1.4.2.06	Gas balloon			RD_G1
+G1.4.2.07	Airship			RD_G1
+G1.4.2.08	Powered parachute			RD_G1
+G1.4.2.09	Weight-shift trike			RD_G1
+G1.1.6.08	Trailer bike	trailercycle		RD_G1
+G1.3.3.15	Performance powerboat			RD_G1
+G1.3.3.16	Bass boat			RD_G1
+G1.3.3.17	Ski and wakeboard boat	tow boat		RD_G1
+G1.3.3.18	Deck boat			RD_G1
+G1.1.6.07	Recumbent tricycle	tadpole trike · delta trike		RD_G1
+G1.1.8.11	Teardrop trailer			RD_G1
+G1.1.10.06	Stroller wagon			RD_G1
+G1.3.3.19	Flats boat	bay boat		RD_G1
+G1.3.1.06	River raft			RD_G1
+G1.4.2.10	Paramotor	powered paraglider		RD_G1
