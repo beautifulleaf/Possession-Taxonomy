@@ -69,7 +69,7 @@ for b in sys.argv[1:]:
     if (ROOT / f"verify/out/{b}_scene_tags.tsv").exists(): run(ROOT / "tools/defer_unknown_tags.py", b)
     code = b.split("_")[1] if b.startswith(("HV_", "MKH_")) else "A1"
     kf = ROOT / f"verify/out/{b}_kinds.tsv"
-    if code != "A1" and kf.exists() and read_tsv(kf): run(ROOT / "tools/data_write.py", "add", "kinds", kf)
+    if (code != "A1" or b.startswith("HV_")) and kf.exists() and read_tsv(kf): run(ROOT / "tools/data_write.py", "add", "kinds", kf)
     run(ROOT / "tools/load_batch.py", b, code)
 retry("scene_tags", "scene_tags"); retry("named_forms", "named_forms")
 run(ROOT / "tools/tidy_ties.py")
