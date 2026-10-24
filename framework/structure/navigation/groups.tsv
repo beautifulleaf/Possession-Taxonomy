@@ -6,7 +6,7 @@ I1	G-I1-15	Back up and recover	2	G-I1-1	I1.1.2.04; I1.1.2.06
 I1	G-I1-16	Files and remote access	2	G-I1-1	I1.1.3.01; I1.1.3.02; I1.1.3.03; I1.1.3.05; I1.1.3.07
 I1	G-I1-17	Launchers and desktop tweaks	2	G-I1-1	I1.1.3.04; I1.1.1.05; I1.1.3.08
 I1	G-I1-2	Protect my data and logins	1		I1.2; I1.1.2.05
-I1	G-I1-18	Malware and network protection	2	G-I1-2	I1.2.01
+I1	G-I1-18	Malware and network protection	2	G-I1-2	I1.2.01; I1.2.07
 I1	G-I1-19	Passwords and logins	2	G-I1-2	I1.2.02; I1.2.06
 I1	G-I1-20	Privacy and encryption	2	G-I1-2	I1.2.03; I1.2.04; I1.1.2.05
 I1	G-I1-21	Family safety	2	G-I1-2	I1.2.05
@@ -119,7 +119,7 @@ D1	G-D1-19	Keyboards	2	G-D1-17	D1.3.1.01; D1.3.1.02; D1.3.1.03
 D1	G-D1-20	Mechanical keyboard kits, switches and keycaps	2	G-D1-17	D1.3.2.01; D1.3.2.02; D1.3.2.03; D1.3.2.04; D1.3.2.05; D1.3.2.06; D1.3.2.07
 D1	G-D1-21	Mice, trackballs and pen tablets	2	G-D1-17	D1.3.3.01; D1.3.3.02; D1.3.3.03
 D1	G-D1-22	Webcams, microphones and capture	2	G-D1-17	D1.3.5.01; D1.3.5.02; D1.3.5.03
-D1	G-D1-23	Docks and desk accessories	2	G-D1-17	D1.3.6.01; D1.3.6.02; D1.3.6.03; D1.3.6.04; D1.3.6.05
+D1	G-D1-23	Docks and desk accessories	2	G-D1-17	D1.3.6.01; D1.3.6.02; D1.3.6.03; D1.3.6.04; D1.3.6.05; D1.3.6.06
 D1	G-D1-24	Printing and scanning	1		D1.4
 D1	G-D1-25	Printers and scanners	2	G-D1-24	D1.4.01; D1.4.02; D1.4.03; D1.4.04
 D1	G-D1-26	Ink and toner	2	G-D1-24	D1.4.06; D1.4.07
@@ -163,7 +163,7 @@ D5	G-D5-10	Arcade system boards	2	G-D5-8	D5.5.19
 D5	G-D5-11	Controllers	1		D5.2
 D5	G-D5-12	Gamepads	2	G-D5-11	D5.2.1.01; D5.2.1.02
 D5	G-D5-13	Arcade sticks and leverless controllers	2	G-D5-11	D5.2.2.01; D5.2.2.02
-D5	G-D5-14	Wheels, pedals and flight controls	2	G-D5-11	D5.2.3.01; D5.2.3.02; D5.2.3.03; D5.2.3.04; D5.2.3.05; D5.2.3.06; D5.2.3.07
+D5	G-D5-14	Wheels, pedals and flight controls	2	G-D5-11	D5.2.3.01; D5.2.3.02; D5.2.3.03; D5.2.3.04; D5.2.3.05; D5.2.3.06; D5.2.3.07; D5.2.3.08; D5.5.22
 D5	G-D5-15	Light guns, motion, mice and cameras	2	G-D5-11	D5.2.4.01; D5.2.4.02; D5.2.4.03; D5.2.4.04; D5.2.4.05
 D5	G-D5-16	Music, dance and voice controllers	2	G-D5-11	D5.2.5.01; D5.2.5.02; D5.2.5.03
 D5	G-D5-17	Games	1		D5.3; D5.4
@@ -186,7 +186,7 @@ B10	G-B10-6	Dog coats	2	G-B10-1	B10.1.5.01
 B10	G-B10-7	Toys and training	2	G-B10-1	B10.1.6.01; B10.1.6.02
 B10	G-B10-8	Clean-up and hygiene	2	G-B10-1	B10.1.7.01
 B10	G-B10-9	Cats	1		B10.2
-B10	G-B10-10	Cat food and treats	2	G-B10-9	B10.2.1.01; B10.2.1.02; B10.2.1.03; B10.2.1.04
+B10	G-B10-10	Cat food and treats	2	G-B10-9	B10.2.1.01; B10.2.1.02; B10.2.1.03; B10.2.1.04; B10.2.1.05; B10.2.1.06
 B10	G-B10-11	Litter	2	G-B10-9	B10.2.3.01
 B10	G-B10-12	Cat trees, scratchers and beds	2	G-B10-9	B10.2.2.01; B10.2.2.02
 B10	G-B10-13	Small animals	1		B10.3
@@ -195,7 +195,7 @@ B10	G-B10-15	Cages and hutches	2	G-B10-13	B10.3.2.01
 B10	G-B10-16	Horses	1		B10.4; B10.12.2; B10.12.5
 B10	G-B10-17	Saddles, pads and saddle fittings	2	G-B10-16	B10.4.1.01; B10.4.1.02; B10.4.1.04; B10.4.1.05; B10.4.1.03; B10.12.2.01; B10.12.2.02
 B10	G-B10-18	Driving harness	2	G-B10-16	B10.4.1.06
-B10	G-B10-19	Bridles, bits, reins, halters and lungeing	2	G-B10-16	B10.4.2.01; B10.4.2.02; B10.4.2.03; B10.4.2.04; B10.4.2.05; B10.4.2.06; B10.4.2.07
+B10	G-B10-19	Bridles, bits, reins, halters and lungeing	2	G-B10-16	B10.4.2.01; B10.4.2.02; B10.4.2.03; B10.4.2.04; B10.4.2.05; B10.4.2.06; B10.4.2.07; B10.4.2.08; B10.12.5.01
 B10	G-B10-20	Rugs, fly masks and boots	2	G-B10-16	B10.4.3.01; B10.4.3.02; B10.4.3.05; B10.4.3.06; B10.4.3.03; B10.4.3.04; B10.4.3.07
 B10	G-B10-21	Grooming and hoof care	2	G-B10-16	B10.4.4.01; B10.4.4.02; B10.4.4.03
 B10	G-B10-22	Horse feed, supplements and hay nets	2	G-B10-16	B10.4.5.01; B10.4.5.02; B10.4.6.01
@@ -223,7 +223,7 @@ B10	G-B10-43	Bees and beekeeping	1		B10.9; B10.12.1
 B10	G-B10-44	Hives	2	G-B10-43	B10.9.2.01; B10.9.2.02; B10.9.2.03; B10.9.2.04
 B10	G-B10-45	Hive parts (boxes, frames, foundation, excluders)	2	G-B10-43	B10.12.1.01; B10.12.1.02; B10.12.1.04; B10.12.1.03
 B10	G-B10-46	Feeding and bee health	2	G-B10-43	B10.9.1.01; B10.9.5.01
-B10	G-B10-47	Beekeeper's tools and queen rearing	2	G-B10-43	B10.9.3.01
+B10	G-B10-47	Beekeeper's tools and queen rearing	2	G-B10-43	B10.9.3.01; B10.9.3.02; B10.9.3.03; B10.9.3.04; B10.9.3.05
 B10	G-B10-48	Honey harvesting	2	G-B10-43	B10.9.4.01; B10.9.4.02; B10.9.4.03
 B10	G-B10-49	Poultry and backyard livestock	1		B10.10
 B10	G-B10-50	Poultry feed	2	G-B10-49	B10.10.1.01; B10.10.1.02; B10.10.1.03; B10.10.1.04
@@ -270,12 +270,12 @@ C6	G-C6-4	Opera glasses and monoculars	2	G-C6-1	C6.1.1.04; C6.1.1.05
 C6	G-C6-5	Telescopes	1		C6.1.3
 C6	G-C6-6	Refractors	2	G-C6-5	C6.1.3.01
 C6	G-C6-7	Reflectors	2	G-C6-5	C6.1.3.02; C6.1.3.07
-C6	G-C6-8	Catadioptric telescopes	2	G-C6-5	C6.1.3.03; C6.1.3.04
+C6	G-C6-8	Catadioptric telescopes	2	G-C6-5	C6.1.3.03; C6.1.3.04; C6.1.3.08
 C6	G-C6-9	Smart and solar telescopes	2	G-C6-5	C6.1.3.06; C6.1.3.05
 C6	G-C6-10	Mounts, eyepieces and telescope accessories	1		C6.5.1; C6.1.7
 C6	G-C6-11	Mounts and tripods	2	G-C6-10	C6.5.1.02; C6.5.1.03; C6.5.1.06; C6.5.1.10; C6.5.1.07; C6.5.1.08; C6.5.1.09
-C6	G-C6-12	Eyepieces, finders, Barlows and focusers	2	G-C6-10	C6.5.1.01; C6.5.1.12; C6.5.1.11
-C6	G-C6-13	Filters and eclipse glasses	2	G-C6-10	C6.5.1.04; C6.1.7.01
+C6	G-C6-12	Eyepieces, finders, Barlows and focusers	2	G-C6-10	C6.5.1.01; C6.5.1.12; C6.5.1.11; C6.5.1.13; C6.5.1.14
+C6	G-C6-13	Filters and eclipse glasses	2	G-C6-10	C6.5.1.04; C6.1.7.01; C6.5.1.15
 C6	G-C6-14	Astronomy cameras	2	G-C6-10	C6.5.1.05
 C6	G-C6-15	Spotting scopes, night vision and thermal	1		C6.1.4; C6.1.2
 C6	G-C6-16	Spotting scopes	2	G-C6-15	C6.1.4.01
@@ -284,7 +284,7 @@ C6	G-C6-18	Microscopes	1		C6.1.5; C6.5.2
 C6	G-C6-19	Compound, stereo and polarizing microscopes	2	G-C6-18	C6.1.5.01; C6.1.5.02; C6.1.5.05
 C6	G-C6-20	Digital and pocket microscopes	2	G-C6-18	C6.1.5.03; C6.1.5.04
 C6	G-C6-21	Electron and scanning-probe microscopes	2	G-C6-18	C6.1.5.06; C6.1.5.07
-C6	G-C6-22	Objectives, eyepieces and other microscope parts	2	G-C6-18	C6.5.2.01; C6.5.2.03; C6.5.2.02
+C6	G-C6-22	Objectives, eyepieces and other microscope parts	2	G-C6-18	C6.5.2.01; C6.5.2.03; C6.5.2.02; C6.5.2.04; C6.5.2.05
 C6	G-C6-23	Magnifiers and loupes	1		C6.1.6
 C6	G-C6-24	Handheld and stand magnifiers	2	G-C6-23	C6.1.6.01; C6.1.6.03
 C6	G-C6-25	Loupes and head-worn magnifiers	2	G-C6-23	C6.1.6.02; C6.1.6.05; C6.1.6.04
@@ -345,13 +345,13 @@ J2	G-J2-5	Roe & caviar	1
 J2	G-J2-6	Fish cakes, surimi & pâtés	1		J2.6.01; J2.6.02; J2.6.03; J2.6.04; J2.6.05; J2.6.06; J2.6.07
 J2	G-J2-7	Salmon and trout	2	G-J2-1	J2.1.1.01; J2.1.1.02; J2.1.1.03; J2.1.1.04; J2.1.1.05; J2.1.1.06; J2.1.1.07; J2.1.1.50
 J2	G-J2-8	White fish	2	G-J2-1	J2.1.1.08; J2.1.1.09; J2.1.1.10; J2.1.1.11; J2.1.1.12; J2.1.1.13; J2.1.1.14; J2.1.1.17; J2.1.1.25; J2.1.1.26; J2.1.1.27; J2.1.1.28; J2.1.1.29; J2.1.1.30; J2.1.1.33; J2.1.1.36; J2.1.1.37; J2.1.1.40; J2.1.1.41; J2.1.1.42; J2.1.1.43; J2.1.1.44; J2.1.1.46; J2.1.1.47; J2.1.1.49; J2.1.1.52; J2.1.1.54
-J2	G-J2-9	Oily fish	2	G-J2-1	J2.1.1.21; J2.1.1.22; J2.1.1.23; J2.1.1.31; J2.1.1.32; J2.1.1.35; J2.1.1.53
+J2	G-J2-9	Oily fish	2	G-J2-1	J2.1.1.21; J2.1.1.22; J2.1.1.23; J2.1.1.31; J2.1.1.32; J2.1.1.35; J2.1.1.53; J2.1.1.55
 J2	G-J2-10	Flatfish	2	G-J2-1	J2.1.1.15; J2.1.1.16; J2.1.1.34; J2.1.1.38; J2.1.1.39; J2.1.1.45
 J2	G-J2-11	Tuna and swordfish	2	G-J2-1	J2.1.1.18; J2.1.1.19; J2.1.1.20
 J2	G-J2-12	Prawns and shrimp	2	G-J2-1	J2.1.2.01; J2.1.2.02; J2.1.2.03; J2.1.2.07; J2.1.2.08; J2.1.2.09; J2.1.2.10; J2.1.2.11; J2.1.2.12; J2.1.2.13
 J2	G-J2-13	Crab and lobster	2	G-J2-1	J2.1.2.04; J2.1.2.05; J2.1.2.06
 J2	G-J2-14	Shellfish	2	G-J2-1	J2.1.3.01; J2.1.3.02; J2.1.3.03; J2.1.3.06; J2.1.3.07; J2.1.3.08; J2.1.3.09; J2.1.3.10; J2.1.3.11; J2.1.3.12; J2.1.3.13; J2.1.3.14; J2.1.3.15
-J2	G-J2-15	Squid, cuttlefish and octopus	2	G-J2-1	J2.1.3.04; J2.1.3.05
+J2	G-J2-15	Squid, cuttlefish and octopus	2	G-J2-1	J2.1.3.04; J2.1.3.05; J2.1.3.16
 J2	G-J2-16	Other (eel, sea urchin, sea cucumber, mixed)	2	G-J2-1	J2.1.1.24; J2.1.4.01; J2.1.4.02; J2.1.0.01
 J2	G-J2-17	Salted, cured & fermented fish	2	G-J2-3	J2.3.01; J2.3.02; J2.3.07; J2.3.12; J2.3.16
 J2	G-J2-18	Dried seafood	2	G-J2-3	J2.3.03; J2.3.04; J2.3.05; J2.3.06; J2.3.08; J2.3.09; J2.3.10; J2.3.11; J2.3.13; J2.3.14; J2.3.15; J2.3.18
@@ -382,7 +382,7 @@ J3	G-J3-15	Fresh & whey cheeses	2	G-J3-4	J3.4.1.04; J3.4.1.02; J3.4.1.05; J3.4.1
 J3	G-J3-16	Mozzarella, stretched & brined cheeses	2	G-J3-4	J3.4.2.01; J3.4.3.01; J3.4.3.02; J3.4.2.02; J3.4.3.03; J3.4.2.03; J3.4.2.04; J3.4.3.04; J3.4.3.05
 J3	G-J3-17	Soft white-rind cheeses	2	G-J3-4	J3.4.4.01; J3.4.4.02; J3.4.4.03; J3.4.4.04
 J3	G-J3-18	Washed-rind cheeses	2	G-J3-4	J3.4.5.01; J3.4.5.02; J3.4.5.03
-J3	G-J3-19	Semi-hard cheeses	2	G-J3-4	J3.4.6.01; J3.4.6.03; J3.4.6.02; J3.4.6.04; J3.4.6.05; J3.4.6.06; J3.4.6.07; J3.4.6.08; J3.4.6.11; J3.4.6.09; J3.4.6.10; J3.4.6.12; J3.4.6.13; J3.4.6.14
+J3	G-J3-19	Semi-hard cheeses	2	G-J3-4	J3.4.6.01; J3.4.6.03; J3.4.6.02; J3.4.6.04; J3.4.6.05; J3.4.6.06; J3.4.6.07; J3.4.6.08; J3.4.6.11; J3.4.6.09; J3.4.6.10; J3.4.6.12; J3.4.6.13; J3.4.6.14; J3.4.6.15; J3.4.6.16; J3.4.6.17; J3.4.6.18; J3.4.6.19; J3.4.6.20; J3.4.6.21; J3.4.6.22
 J3	G-J3-20	Hard & long-aged cheeses	2	G-J3-4	J3.4.7.01; J3.4.7.02; J3.4.7.03; J3.4.7.04; J3.4.7.05; J3.4.7.06
 J3	G-J3-21	Blue cheeses	2	G-J3-4	J3.4.9.01; J3.4.9.02; J3.4.9.03; J3.4.9.04
 J3	G-J3-22	Dried dairy (aaruul, chhurpi, qurut, kashk)	2	G-J3-4	J3.4.8.03; J3.4.8.04; J3.4.8.01; J3.4.8.02; J3.4.8.05; J3.4.8.06
@@ -419,7 +419,7 @@ J4	G-J4-19	Squash, cucumbers & gourds	2	G-J4-2	J4.2.5.06; J4.2.5.07; J4.2.5.11; 
 J4	G-J4-20	Peas & beans	2	G-J4-2	J4.2.6.01; J4.2.6.02; J4.2.6.03; J4.2.6.04
 J4	G-J4-21	Asparagus, stems & shoots	2	G-J4-2	J4.2.7.01; J4.2.7.02; J4.2.7.04; J4.2.7.05; J4.2.7.06; J4.2.7.07; J4.2.7.08; J4.2.7.09; J4.2.7.10
 J4	G-J4-22	Salad leaves & sprouts	2	G-J4-3	J4.2.1.01; J4.2.1.04; J4.2.1.05; J4.2.1.06; J4.2.1.07; J4.2.1.08; J4.2.7.03
-J4	G-J4-23	Fresh herbs	2	G-J4-3	J4.3.01; J4.3.02; J4.3.03; J4.3.04; J4.3.05; J4.3.06; J4.3.07; J4.3.0.01
+J4	G-J4-23	Fresh herbs	2	G-J4-3	J4.3.01; J4.3.02; J4.3.03; J4.3.04; J4.3.05; J4.3.06; J4.3.07; J4.3.0.01; J4.3.08; J4.3.09; J4.3.10; J4.3.11
 J4	G-J4-24	Cultivated mushrooms	2	G-J4-4	J4.4.01; J4.4.02; J4.4.06; J4.4.07; J4.4.10
 J4	G-J4-25	Wild mushrooms & truffles	2	G-J4-4	J4.4.03; J4.4.04; J4.4.08; J4.4.09
 J4	G-J4-26	Sea vegetables	2	G-J4-4	J4.4.05

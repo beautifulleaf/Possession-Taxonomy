@@ -8,7 +8,7 @@ import subprocess, sys
 from common import ROOT, read_tsv, write_tsv
 from schema import TABLES
 
-ORDER = ["schemes", "standards", "makers", "maker_kinds", "lines", "named_forms", "platforms", "tier_entries",
+ORDER = ["schemes", "standards", "makers", "maker_kinds", "lines", "named_forms", "platforms", "scene_tags", "tier_entries",
          "standard_values", "attributes", "compatibility"]
 
 def run(*a):

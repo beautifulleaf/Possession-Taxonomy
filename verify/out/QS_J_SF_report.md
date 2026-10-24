@@ -1,8 +1,12 @@
-# QS_J_SF report
-Result: 0 rows written in every table (no schemes, tier_entries, named_forms, makers, maker_kinds). No output TSVs created.
-Reason: no Slow Food Presidium page could be fetched, so nothing could be attested.
-- 6 WebFetch calls, all failed (logged in verify/work/QS_J_SF/fetched.tsv): fondazioneslowfood.com project page, Lombardy region page, fish category page (settori-presidi/fish-sea-food-and-fish-products-en), Noli Gulf presidium page, France nation page, and the 2014 presidia PDF all returned empty content (JavaScript-rendered or blocked); slowfood.com press release returned HTTP 403.
-- 2 WebSearches located category/nation/region URLs (e.g. settori-presidi/fish-sea-food-and-fish-products-en, nazioni-presidi/*, regioni-presidi/*, slow-food-presidia/*) but excerpts only locate items; they do not attest.
-- Skips to other categories: none counted (no list obtained). Unplaced products: none.
-- Proxy status checked: healthy, so the failure is on the site side, not the proxy.
-Next step: need a working fetch route for fondazioneslowfood.com (Parallel tools out of credit, WebFetch returns empty), or the owner supplying saved list pages.
+# QS_J_SF report (PARTIAL: resume needed)
+Tool: WebSearch to find URLs; Parallel web_fetch (coordinator-approved) for pages. fondazioneslowfood.com list pages are cut at 10 items per page; only region pages expose /page/N/ links. The site then began throttling (network_error, 202, 403) and stayed blocked to the end.
+
+Rows written (verify/out/QS_J_SF_*): schemes 1 (SCH-slowfood-presidia, iii, Presidium, stale_after 2029-12-31); named_forms 188 (J2 22, J3 66, J4 100); tier_entries 188 (Presidium, edition 2026). No makers, maker_kinds, standards or attributes. Founding year is not on the pages, so date is empty. Association (notes) set only for Messina fishers and Cabras (presidium pages fetched); all other notes empty. Sources are the list pages where each Presidium was seen.
+
+Coverage: fully read Sicily (6 pp), Puglia (pp 1-3), Sardinia, Umbria, Lazio, Toscana, Campania (5 pp), Basilicata, Molise, Lombardia, Emilia-Romagna(it p1), Piemonte(it p1), Friuli(it p1), Trentino(it p1), Abruzzo (en p1, p3), Marche(en), Veneto p1, Calabria p1; nation pages Bulgaria, Turkey, Morocco, Romania, Sweden, Netherlands, Norway, Austria, Kenya, Mexico, Spain, Germany, USA, Argentina, France (first 10 each where capped), plus the 4 sector/world lists (first 10 only).
+NOT reached (failed, logged in verify/work/QS_J_SF/fetched.tsv): Piemonte pp 2-4, Friuli pp 2-3, Trentino p2, Abruzzo p2, Calabria p2, Veneto p2, Puglia p4, Emilia p2, Liguria (all), Marche-it, Lombardy-en; nations Ireland, UK, Scotland, Poland, Croatia, Lebanon, Albania, Georgia, Slovakia, Switzerland (Bale-Ville), Sao Tome, Uganda, Bosnia/N Macedonia; all other countries never located. Countries with exactly 10 shown (Austria, Kenya, Mexico, Spain, France) may be truncated.
+Known not yet entered (search-located only): Zincarlin, Sbrinz, Vacherin, Emmentaler, Somerset Cheddar, Irish raw milk cheeses, Stilton, Oscypek, Bryndza, Kechek el Fouqara, Herve, Skyr, Jämtland, Torbole etc. were not all fetched.
+
+Skips (34): missing kind?: nut (Bronte pistachio, Noto and Tondina almond, Sorrento walnut, Licuri), caper (Ballobar, Salina), yacon, umbu, pompia citron; olives 7 (oil or table olives); breeds 9; preserves/syrups 4 (Saxon Village Preserves, Pozegaca slatko, Limburg syrup, Rose syrup); torrone, agave, pumpkin seeds, pasture project 1 each.
+Approximate placements (missing kind?): salted sardinella and salted anchovies (put under tinned sardines/anchovies J2.4.02, J2.4.05), dried Iseo lake fish and multi-species fishery Presidia (J2.1.0.01 mixed seafood), sheep cheeses (J3.4.7.02 pecorino), mountain cheeses (J3.4.6.08), Cacioricotta (J3.4.1.06), citrus groups (J4.1.0.01).
+Possible Italian/English duplicates may remain for Italian-only list pages; 8 known duplicates were removed. Rerun gen.py in verify/work/QS_J_SF after adding rows to raw.tsv.
