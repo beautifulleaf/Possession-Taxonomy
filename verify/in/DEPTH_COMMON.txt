@@ -7,3 +7,4 @@ Output verify/out/<BATCH>_named_forms.tsv with header: named_form_id, kind_id, n
 - named_form_id = NF-<kind_id>-<PREFIX><nnn>, with <PREFIX> given in your task and nnn numbered from 001 inside each kind in the order you record them; maker_bound = yes; maker_id from your list; kind_id must exist in data/kinds.tsv; first_year when the page states it; notes ≤ 15 words.
 - fetch_status per source: full or partial only (rows on excerpt-only, nav-only or failed pages are not written).
 Report (under 200 words): list rows done, named forms written, list rows with none found, and any line or kind problem seen (e.g. a model that fits no kind: give its URL).
+Added session 5 (R-101): every URL you write must be logged in verify/work/<BATCH>/fetched.tsv with fetch_status full or partial (at load a source missing from the log is dropped); write list rows found empty to verify/work/<BATCH>/done.tsv as "none found" as you go, and the report to verify/out/<BATCH>_report.md as well.
