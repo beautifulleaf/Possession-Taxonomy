@@ -1,0 +1,3 @@
+Cards added: Telescope mount (CARD-C6-G1): C6.5.1.02 Alt-azimuth mount; C6.5.1.03 Equatorial mount. Adorama lists them on one 153-item category with a Mount Type filter; Starizona shows both on one Mounts collection.
+Shops checked: starizona.com mounts, adorama.com telescope mounts (both fetched full). Parallel search was out of credit; WebSearch used.
+Considered and left: magnifier kinds (handheld, stand, head-worn, loupes: shops give headband and stand their own category pages); giant vs porro/roof binoculars (different use, tripod); telescope optical designs and microscope types (chosen as different tools); GC vs HPLC, UV-Vis vs FTIR (different instruments); incubator/oven/water bath (different use).

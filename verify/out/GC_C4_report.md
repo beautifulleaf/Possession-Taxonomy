@@ -1,0 +1,3 @@
+GC_C4 report. Card added: Knitting needles: C4.3.2.01; C4.3.2.02; C4.3.2.06 (straight, circular, double-pointed). No pre-existing C4 cards.
+Shops checked (fetched): yarn.com knitting-needles (one listing, "Needle Type" filter with single pointed, circular, double pointed); seattlepotterysupply.com search-by-type (clay types on separate pages).
+Left: earthenware/stoneware/porcelain clay (separate shop pages, chosen as different bodies); looms (rigid heddle, floor, table, inkle: weavers choose as different tools); acrylic/enamel/lacquer model paint (different chemistries); sewing/overlock/embroidery machines (different use); soft vs oil pastels; leather tannages.
