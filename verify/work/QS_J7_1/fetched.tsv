@@ -2,3 +2,12 @@ url	fetch_status	gave
 https://gcc-1855.fr/en/	partial	counts per growth only, no names
 https://en.wikipedia.org/wiki/Classification_of_Graves_wine	full	16 Graves crus classes table 1959
 https://en.wikipedia.org/wiki/Cru_Bourgeois	partial	2020 Exceptionnel 14 names; no Superieur list
+https://gcc-1855.fr/the-1855-grand-cru-classification/	full	1855 Medoc/Haut-Brion 61 and Sauternes/Barsac 27 listed by class
+https://en.wikipedia.org/wiki/Classification_of_Saint-%C3%89milion_wine	full	2022 Saint-Emilion: 2 A, 12 B, GCC list
+https://www.inao.gouv.fr/en/saint-emilion-grand-cru-classement-next-decade	failed	HTTP 503
+https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/list-of-crus-bourgeois-classification/	failed	HTTP 403
+https://napavalleywineacademy.com/blogs/pouring-points/the-2025-crus-bourgeois-du-medoc-classification-key-changes-and-insights	failed	no list on page
+https://www.decanter.com/wine-news/eight-new-estates-upgraded-to-top-of-cru-bourgeois-classification-as-2025-results-revealed-550748/	failed	title only
+https://www.thedrinksbusiness.com/2025/02/the-2025-cru-bourgeois-reclassification-part-2-the-groucho-marx-problem/	failed	HTTP 403
+https://vertdevin.com/en/the-new-2025-classification-of-the-crus-bourgeois-du-medoc/	partial	tier counts only; links the PDF
+https://www.crus-bourgeois.com/wp-content/uploads/2025/02/Liste-Classement-2025-Crus-Bourgeois-du-Medoc-web.pdf	full	WebFetch could not read PDF; mcp__888719e7 web_fetch gave all 170 chateaux 2025 (Exceptionnel and Superieur blocks jumbled; tier split inferred from counts 14/36 and appellation counts)

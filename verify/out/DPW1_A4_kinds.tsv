@@ -1,0 +1,39 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Parasol (sun umbrella)	A4	new_kind	A4.7.07	A4.7	Parasol	Hand-held umbrella made to shade its carrier from the sun, with a canopy of lace, paper, silk or sun-blocking fabric not made to shed rain; folding or stick shaft is an attribute.		https://www.kohls.com/product/prd-8653640/lace-embroidery-sun-parasol-folding-wedding-umbrella.jsp	Sold under its own name (Kohl's "Sun Parasol"); canopy form and purpose differ from rain umbrellas; memo §3 and R-121 left it unplaced.
+Sun umbrella (UV-coated rain umbrella)	A4	attribute	A4.7.01			UV-coated canopy on a rain umbrella: attribute uv_protection on the mechanism kind (A4.7.01 to A4.7.04).			An umbrella made for rain and sun keeps its mechanism home; only a canopy not made for rain is A4.7.07.
+Folding umbrella	A4	covered	A4.7.01						Same kind as compact (folding) umbrella; alias.
+Compact umbrella	A4	covered	A4.7.01						Tree kind A4.7.01.
+Golf umbrella	A4	covered	A4.7.03						Tree kind A4.7.03; not a golf bag.
+Stick umbrella	A4	covered	A4.7.02						Tree kind A4.7.02.
+Bubble umbrella	A4	covered	A4.7.04						Tree kind A4.7.04 (dome umbrella alias).
+Inverted (reverse) umbrella	A4	new_kind	A4.7.08	A4.7	Inverted umbrella	Umbrella with a double canopy that closes upward and inside out, so the wet outer face folds inward.		https://besttravelumbrella.com/types-of-umbrellas/	Different opening mechanism, the sub-family axis; guide lists it as its own type; memo expected 8-14 umbrella and fan kinds.
+Vented umbrella	A4	attribute	A4.7.03						Vented double canopy is a wind feature on golf, stick or compact umbrellas, not a form (C2(b)).
+Flat umbrella	A4	attribute	A4.7.01						Ultra-flat folding umbrella is a compact umbrella; thinness is a size attribute (C6).
+Automatic umbrella	A4	attribute	A4.7.01						Memo and tree: automatic opening is an attribute of every umbrella kind.
+Packing cube	A4	new_kind	A4.3.07	A4.3	Packing cube	Zipped fabric case packed inside luggage to hold and compress clothes, sold in sets of sizes.		https://en.wikipedia.org/wiki/Baggage	Travel container with no home (not made for one bag, so not A4.10); Wikipedia Baggage lists packing cubes; Rimowa organisers.
+Luggage tag	A4	new_kind	A4.10.04	A4.10	Luggage tag	Tag fixed to a bag or suitcase to show its owner's name and address.			Accessory serving bags with no home; harvest shows Weigh To Go tag; no harvester page for plain tags: attest in HV_A4_NK.
+Luggage charm (Rimowa)	A4	covered	A4.10.01						A pendant hung on luggage is a bag charm.
+Bag organiser (Rimowa organisers)	A4	covered	A4.10.03						Insert with pockets is A4.10.03; a zipped cube for clothes is A4.3.07.
+Gate-check bag	A4	other_category					G1	https://en.wikipedia.org/wiki/Baggage	Bag made for one stroller or car seat follows that object (S3); prams and strollers are G1.
+Pouch (LV small leather goods)	A4	covered	A4.1.01						A pouch carried as a bag is a clutch; cosmetic and toiletry pouches are H1, pencil cases C5 (K-132).
+Compact wallet (Hermes, LV)	A4	attribute	A4.5.01						Size of a bifold, trifold or zip wallet (C6); not a format.
+Nano or mini bag	A4	attribute	A4.1.07						Size is an attribute (tree: "mini" is an attribute).
+Underseater (Samsonite)	A4	attribute	A4.3.01						A size_class value of suitcase (airline bands), never a kind.
+Business trolley	A4	attribute	A4.4.03						Wheeled pilot case or briefcase; wheel_count is a §14 attribute; rows stay at A4.4.03.
+Hydration vest	A4	covered	A4.2.06						Running vest with reservoir or bottles is a hydration pack (Kiprun Vest row).
+Running belt	A4	covered	A4.2.05						Waist-worn small bag is a belt bag.
+Sling pack	A4	covered	A4.1.10						Tree kind sling bag.
+Weekender bag	A4	covered	A4.3.04						Weekender is a holdall: duffel bag alias.
+Key case	A4	covered	A4.5.08						Key pouch.
+Key chain	A4	covered	A4.9.01						Keyring.
+Key pendant	A4	covered	A4.10.01						Bag charm if made to hang on a bag, keyring if it holds keys; plush pendants E1.
+Wallet band	A4	named_form	A4.5.05						Elastic band holding cards, no note section: non-maker named form of cardholder.
+Breast wallet	A4	named_form	A4.5.03						Long wallet carried in a jacket breast pocket: non-maker named form.
+Travel wallet	A4	covered	A4.5.09						Wallet made to hold a passport and tickets is the passport cover kind.
+Slim wallet	A4	covered	A4.5.05						Leatherology slim wallet is a cardholder.
+Rimless or half-rim sunglasses	A4	attribute	A4.6.01						Rim structure is an attribute of every frame shape (tree).
+Clip-on or flip-up sunglasses	A4	other_category					H2		Parts of spectacles, sent to H2 by the memo (F30).
+Inside or outside waistband holster	A4	attribute	A4.9.05						Carry position of a holster is an attribute.
+Hip or back quiver	A4	attribute	A4.2.08						Carry position of a quiver is an attribute.
+Frameless or internal-frame hiking pack	A4	attribute	A4.2.03						Frame type is construction, an attribute.
+Trolley bag	A4	covered	A4.9.03						Memo item 3: shopping trolley.
