@@ -1,0 +1,54 @@
+code	scope	role	provisional	reason
+A1	*	way_in	no	clothing is navigated by scene and brand (owner, 2026-10-17)
+A2	*	way_in	yes	footwear is scene-driven like clothing
+A3	*	way_in	yes	jewellery houses and makers signal style and provenance
+A4	*	way_in	yes	bag and accessory houses signal style
+A5	*	way_in	yes	watch houses define the object (owner names watches as scene-driven)
+B1	*	owner	yes	models and design classics carry the maker; design houses as a side tab
+B2	*	owner	yes	textile makers matter through named designs
+B3	*	owner	no	shoppers choose fixture types; design houses and torch makers as side tabs (R-104)
+B4	*	owner	yes	decor is chosen by object and style; makers through named designs
+B5	*	owner	yes	cookware and knife models carry the maker
+B6	*	owner	yes	cleaning products are chosen by task; brands through named products
+B7	*	owner	yes	appliance models carry the maker
+B8	*	owner	yes	devices are chosen by function; makers through models
+B9	*	way_in	yes	cigar, pipe and tobacco houses define the object
+B10	*	owner	no	shoppers choose by animal and need; makers through products (R-104, R-109)
+C1	*	owner	yes	tool platforms and models carry the maker
+C2	*	owner	yes	garden equipment models carry the maker
+C3	*	none	yes	plants are chosen by species and cultivar; a breeder enters only through a protected cultivar
+C4	*	owner	yes	craft supplies are chosen by medium; makers through named products
+C5	*	owner	yes	stationery models carry the maker; fountain-pen houses may become a side tab
+C6	*	owner	no	consumer optics brands are few; laboratory suppliers sell to institutions (R-108, R-109)
+C7	*	owner	yes	machinery models carry the maker
+C8	*	none	yes	building materials and hardware are commodities chosen by specification
+D1	*	owner	no	shopper paths; models and lines carry the maker (owner, 2026-10-17)
+D2	*	owner	yes	device models carry the maker
+D3	*	owner	yes	audio and video models carry the maker
+D4	*	owner	yes	camera and lens systems carry the maker
+D5	*	owner	no	hardware makers only (consoles, controllers, accessories); game studios are not recorded as makers because titles are out of scope (owner, 2026-10-24)
+E1	*	owner	yes	toy lines carry the maker; craft puzzle makers may become a way in (owner example: Japanese puzzle-box makers)
+E2	*	owner	yes	sports equipment models carry the maker
+E3	*	way_in	yes	instrument makers and luthiers define the object
+E4	*	owner	yes	models carry the maker
+F1	*	owner	yes	publishers and labels through editions and formats
+F2	*	way_in	yes	artists, studios and workshops are how art is sought
+F3	*	owner	yes	issuers and mints through issues (issuer ledger)
+F4	*	owner	yes	workshops through named forms
+F5	*	none	yes	personal records have no maker in the shopper's sense
+F6	*	none	yes	specimens are chosen by species and locality
+G1	*	owner	yes	vehicle models carry the maker
+G2	*	none	yes	property is chosen by type and place; builders through named designs only
+H1	*	way_in	yes	cosmetics and fragrance houses define the object
+H2	*	owner	yes	devices and products are chosen by condition; makers through products
+H3	*	owner	yes	products carry the maker
+I1	*	owner	no	shoppers choose the tool; vendors only own named products (R-109)
+I2	*	owner	yes	items carry their platform or issuer
+I3	*	owner	yes	the service is the named form; the provider owns it
+J1	*	none	yes	grocery rule: breed, cut, grade and origin replace the maker; makers only through branded products (owner, 2026-10-24)
+J2	*	none	no	grocery rule; canneries and caviar houses enter through their branded products (R-109)
+J3	*	none	no	grocery rule; cheese houses and dairies enter through their branded products (R-109)
+J4	*	none	no	grocery rule; variety and protected origin replace the grower; club-cultivar owners through their cultivars (R-109)
+J5	*	none	yes	grocery rule; makers through branded products
+J6	*	none	yes	grocery rule: origin, estate and grade; roasters and estates through branded products
+J7	*	way_in	yes	wine estates, breweries and distilleries are the object's identity
