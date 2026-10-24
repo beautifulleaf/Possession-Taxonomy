@@ -122,6 +122,15 @@ def main():
         groups[g["code"]].append({"id": g["group_id"], "name": g["group_name"], "level": g["level"], "parent": g["parent_group"],
                                   "kinds": list(dict.fromkeys(ks))})
     data["groups"] = groups
+    cat_names = {}
+    for line in (ROOT / "framework/CATEGORIES_v0_7_3.md").read_text(encoding="utf-8").splitlines():
+        import re as _re
+        for m in _re.finditer(r"\*\*([A-J]\d+) ([^*]+)\*\*", line): cat_names.setdefault(m.group(1), m.group(2).strip())
+    data["allcats"] = [{"code": r["code"], "name": cat_names.get(r["code"], r["code"]), "way": r["main_way_in"], "reason": r["reason"],
+                        "ladder": r["ladder"], "groups": r["level1_groups"], "qm": r["quality_markers"], "qs": r["quality_signals"],
+                        "role": r["maker_role"], "side": r["side_view"], "facets": r["facets"], "flags": r["structure_flags"],
+                        "built": r["code"] in CODES}
+                       for r in sorted(props.values(), key=lambda r: (r["code"][0], int(r["code"][1:])))]
     data["markers"] = defaultdict(list)
     for m in rd("markers"):
         data["markers"][m["code"]].append({"group": m["group_id"], "marker": m["marker"], "values": m["values"], "why": m["why"]})
@@ -293,7 +302,7 @@ function start(D) {
   let mode = {};  // per category: 'scene' or 'tree'
   const hasScenes = code => D.tags.length && D.scenes.some(x => (x.cluster || '') !== '') && code === 'A1';
   const tabs = document.getElementById('tabs');
-  [...D.codes.map(c => [c.code, c.code + ' ' + c.name]), ['makers', 'Makers']].forEach(([k, label]) => {
+  [...D.codes.map(c => [c.code, c.code + ' ' + c.name]), ['makers', 'Makers'], ['all', 'All 53 categories']].forEach(([k, label]) => {
     const b = $('button', { type: 'button', role: 'tab', 'data-v': k, text: label });
     b.addEventListener('click', () => { view = k; render(); try { localStorage.setItem('pilot-view', k); } catch (e) {} });
     tabs.append(b);
@@ -514,6 +523,7 @@ function start(D) {
     tabs.querySelectorAll('button').forEach(b => b.setAttribute('aria-selected', String(b.dataset.v === view)));
     document.getElementById('main').replaceChildren(); document.getElementById('rail').replaceChildren();
     if (view === 'makers') renderMakers();
+    else if (view === 'all') renderAll();
     else {
       if (hasScenes(view)) {
         const m = mode[view] || 'scene';
@@ -526,7 +536,20 @@ function start(D) {
     applyFilter();
   }
   document.getElementById('q').addEventListener('input', applyFilter);
-  if (!D.codes.some(c => c.code === view) && view !== 'makers') view = D.codes[0].code;
+  function renderAll() {
+    const main = document.getElementById('main'), rail = document.getElementById('rail'), ol = $('ol');
+    main.append($('p', { class: 'note', text: 'How each of the 53 categories is organised for someone who wants to find and buy the best thing of its kind (owner, 2026-10-24; R-115). From fetched retailer, specialist, buying-guide and quality-signal pages, then an Opus proposal per category. Categories marked "built" have kinds on this page; the others are the plan for their build. Countries never divide a category.' }));
+    (D.allcats || []).forEach(c => {
+      ol.append($('li', {}, $('a', { href: '#all-' + c.code }, c.code + ' ' + c.name, $('span', { text: c.built ? 'built' : '' }))));
+      const row = (l, t) => t ? $('p', {}, $('span', { class: 'label', text: l }), ' ' + t) : null;
+      main.append($('details', { class: 'kind', id: 'all-' + c.code },
+        $('summary', {}, $('span', { class: 'kname' }, c.code + ' ' + c.name), $('span', { class: 'count', text: c.way })),
+        $('div', { class: 'kbody' }, row('Ladder', c.ladder), row('First groups', c.groups), row('What makes the best', c.qm), row('Who vouches', c.qs),
+          row('Makers', c.role + (c.side ? ' · beside it: ' + c.side : '')), row('Filters', c.facets), row('Why', c.reason), row('Open structure points', c.flags))));
+    });
+    rail.append($('h2', { text: 'Categories' }), ol);
+  }
+  if (!D.codes.some(c => c.code === view) && view !== 'makers' && view !== 'all') view = D.codes[0].code;
   render();
 }
 </script>
