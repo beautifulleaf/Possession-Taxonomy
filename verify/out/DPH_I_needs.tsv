@@ -1,0 +1,20 @@
+code	need_type	name	owner	scale_class	kinds_served	reason
+I1	scheme	AV-TEST home-user test results (Protection, Performance, Usability 0-6; TOP PRODUCT at 17.5)	AV-TEST GmbH (Magdeburg)	ii	I1.2.01	Measured per product version; tier entries with test_version and stale_after (memo §5).
+I1	scheme	AV-TEST Awards (annual, per dimension)	AV-TEST GmbH	ii	I1.2.01	Annual awards from the measured rounds; tier entries on the named form.
+I1	scheme	AV-Comparatives test awards (Standard < Advanced < Advanced+; Top-Rated; Gold, Silver, Bronze)	AV-Comparatives (Innsbruck)	ii	I1.2.01	Second lab; disagreements feed the computed disputed flag (C4(a)).
+I1	standard	AV-TEST Certified seal (10 of 18 points)	AV-TEST GmbH	i	I1.2.01	Pass mark against a published test: certification, not tier (memo §5).
+I1	standard	AV-Comparatives Approved Security Product	AV-Comparatives	i	I1.2.01	Pass mark: certification, not tier.
+I1	standard	SOC 2 Type II report	AICPA	i	I1.2.02; I1.2.03; I1.10.01; I1.10.02; I1.10.03	Service-organisation control attestation named by buyers of password managers, VPNs and AI services.
+I1	standard	ISO/IEC 27001 certification	ISO/IEC	i	I1.2.02; I1.2.03; I1.10.01; I1.10.02; I1.10.03	Information-security management certification of the service.
+I1	scheme	Arena leaderboards (text, WebDev, search, agent, image)	LMArena	ii	I1.10.01; I1.10.02; I1.10.03; I1.8.1.02; I1.4.1.09	Dated snapshots only where model and product coincide (I-5); provisional class (vote-based score).
+I1	scheme	Subger editorial picks (Recommended, Niche pick)	Subger	iii	I1.2.02; I1.2.03; I1.10.01	Editorial class, low weight (no own tests).
+I1	platform	Operating systems for the platform facet (Windows, macOS, Linux, iOS, Android, ChromeOS)	Microsoft; Apple; Linux community; Google		I1 (all kinds)	C13 rows platform_type operating system; not in PF_1 to PF_4, so a PF batch must add them.
+I2	platform	E-book and audiobook stores and readers (Kindle, Kobo, tolino, Apple Books, Audible, BookWalker)	Amazon; Rakuten Kobo; tolino alliance; Apple; Kadokawa		I2.1.01; I2.1.02; I2.1.03; I2.2.2.01	C13 rows (app or book store; DRM scheme; content locker) for the by-platform and 'files I can keep' views.
+I2	platform	Game platforms for items (Steam, Fortnite, Counter-Strike 2)	Valve; Epic Games		I2.6 (all kinds)	C13 'game platform for items' rows (I-14).
+I2	platform	Blockchains and naming roots (Ethereum; DNS root)	Ethereum community; ICANN		I2.7.1.01; I2.7.1.02; I2.7.1.03; I2.7.2.01; I2.7.2.02	C13 'blockchain' and 'naming root' rows (R-10).
+I2	standard	Library of Congress Recommended Formats (preferred, acceptable)	Library of Congress	i	I2 (all file kinds)	preservation_rank attribute source (I-23); provisional until the LoC pages are fetched again.
+I3	scheme	Expert Reviews Mobile Network Awards	Expert Reviews (UK)	iii	I3 kinds 25, 26, 27	User-survey awards; editorial or community class.
+I3	scheme	RootMetrics network test results	RootMetrics	ii	I3 kinds 25, 26	Measured network tests.
+I3	scheme	Ofcom complaints data (telecom and pay-TV)	Ofcom	ii	I3 kinds 7, 25, 27, 29, 30	Measured complaint rates per provider.
+I3	scheme	Showcase-TV VOD reviewer scores (to 5.0)	Showcase-TV (JP)	iii	I3 kinds 5, 6	Own web survey, low weight.
+I3	platform	Host mobile networks (platform_type mobile network)	network operators		I3 kinds 25, 26, 31	MVNO plans link to their host network (R-53); filled when I3 is built.

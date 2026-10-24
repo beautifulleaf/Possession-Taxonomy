@@ -1,0 +1,31 @@
+code	need_type	name	owner	scale_class	kinds_served	reason
+D1	platform	CPU sockets (LGA 1700, LGA 1851, AM4, AM5 and earlier)	Intel; AMD		D1.2.1.01; D1.2.3.01; D1.2.3.02; D1.2.2.01; D1.2.2.02	What fits view and socket facet (PF_1).
+D1	platform	chipsets (Intel 600/700/800 series, AMD 500/600/800 series and earlier)	Intel; AMD		D1.2.3.01; D1.2.3.02; D1.2.1.01	Chipset facet; supports-relations to sockets (PF_1).
+D1	platform	memory standards (DDR3, DDR4, DDR5; DIMM, SODIMM, CAMM2)	JEDEC		D1.2.4.01; D1.2.4.02; D1.2.3.01	Memory type facet (PF_1).
+D1	platform	form factors (ATX, Micro-ATX, Mini-ITX, E-ATX boards; ATX and SFX power supplies; M.2 lengths)	Intel; PCI-SIG; SFF		D1.2.3.01; D1.2.7.01; D1.2.8.01; D1.2.5.01; D1.2.2.07	Board, case and PSU fit (PF_1).
+D1	platform	buses and ports (PCIe generations, NVMe, SATA, USB, Thunderbolt, HDMI, DisplayPort)	PCI-SIG; NVM Express; SATA-IO; USB-IF; Intel; HDMI Licensing; VESA		D1.2.5.01; D1.2.6.01; D1.2.9.01-05; D1.3.4.01; D1.3.6.01; D1.7.01-03; D1.7.09	PCIe generation and interface facets (PF_1).
+D1	platform	keyboard switch mounts (MX-style stem, Topre, Alps)	Cherry; Topre; Alps		D1.3.2.02; D1.3.2.03; D1.3.2.04; D1.3.2.05; D1.3.2.01; D1.3.1.01	Keycaps and hot-swap sockets fit by stem (memo 6); proposed platform_type 'keyboard switch mount'.
+D1	standard	80 PLUS efficiency levels (Standard to Ruby)	CLEAResult	(i)	D1.2.8.01	PSU efficiency marker; standard_values, not tiers.
+D1	standard	Cybenetics ETA efficiency and LAMBDA noise grades	Cybenetics	(i)	D1.2.8.01	PSU efficiency and noise markers.
+D1	standard	ATX 3.x power-supply design guide and 12V-2x6 connector	Intel; PCI-SIG	(i)	D1.2.8.01; D1.2.6.01	Connector standard marker.
+D1	scheme	SPL PSU tier list (A to F)	SPL (Cultists Network)	(iii)	D1.2.8.01	Build-quality tier on PSU named forms (QS_).
+D1	scheme	CPU and GPU hierarchy (benchmark rank)	Tom's Hardware	(ii)	D1.2.1.01; D1.2.6.01	Measured performance in class; dated, test_version (QS_).
+D1	scheme	PassMark CPU Mark and G3D Mark	PassMark Software	(ii)	D1.2.1.01; D1.2.6.01	Second measured benchmark; feeds disputed.
+D1	scheme	Notebookcheck rating	Notebookcheck	(ii)	D1.1.01; D1.1.12; D1.1.03	Laptop quality order by use class (QS_).
+D2	scheme	DXOMARK camera, display, audio and battery scores	DXOMARK	(ii)	D2 memo kinds 1-4, 15	Register with an opacity note (method partly commercial).
+D2	scheme	Notebookcheck smartphone and tablet rating	Notebookcheck	(ii)	D2 memo kinds 1-4, 15	Weights match the quality markers (proposal).
+D2	scheme	AnTuTu benchmark ranking	AnTuTu	(ii)	D2 memo kinds 1-4, 15	Already in memo 5; China data in scope column.
+D2	platform	operating systems, app stores, finding networks, charging standards (Qi2, MagSafe), radio services	Apple; Google; Huawei; Amazon; WPC; FCC; ETSI		D2 memo kinds 1-38	By-platform side view needs them (memo 6 item 3; PF_ batch for D2 when built).
+D2	grading_scale	Iosys S to J; Swappa condition; Back Market grades	Iosys; Swappa; Back Market		D2 memo kinds 1-28	Resale condition scales (memo 5); no grade values stored.
+D3	scheme	Stereophile Recommended Components classes	Stereophile	(iii)	D3 memo kinds 7-34	Reviewer class for hi-fi and speakers (quality marker).
+D3	scheme	ASR SINAD measurements	Audio Science Review	(ii)	D3 memo kinds 8-25	Measured distortion and noise; higher is better.
+D3	scheme	RTINGS test scores	RTINGS	(ii)	D3 memo kinds 1-4, 26-43	Dated, test_version recorded.
+D3	scheme	Crinacle IEM and headphone ranking	Crinacle	(iii)	D3 memo kinds 35-43	Community rank for headphones and earphones.
+D3	platform	Bluetooth codecs; multi-room systems (Sonos, AirPlay 2, Chromecast); voice assistants; Matter and Thread; HDMI eARC	Bluetooth SIG; Sonos; Apple; Google; Amazon; CSA; HDMI Licensing		D3 memo kinds 11-14, 26-43, 52-54	Codec and platform-pairing facets (memo 6.3).
+D3	standard	IEC 60268 sound-system equipment parts	IEC	(i)	D3 memo kinds 16-43	Spec-ladder reference (memo 10 attestation list).
+D4	platform	lens mounts, flash shoes, film formats, instant film formats, light-modifier mounts, camera battery platforms	camera makers; Fujifilm; Polaroid; Bowens		D4.1.*; D4.2.*; D4.3.*; D4.5.*	By system view is the buyer's first choice; load with the D4 tree (PF_4).
+D4	scheme	DXOMARK camera sensor and lens scores	DXOMARK	(ii)	D4.1.1.01-D4.1.1.05; D4.2.01-D4.2.08	Lens and sensor quality markers.
+D4	grading_scale	KEH condition grades; Map Camera condition ranks	KEH; Map Camera		D4.1.*; D4.2.*	Used-camera condition scales (memo 5).
+D5	platform	console platforms with backward-compatibility relations; cartridge and disc standards	Nintendo; Sony; Microsoft; Sega; Valve and others		D5.1.*; D5.2.*; D5.3.*; D5.5.*	Level-2 'which system' question and By system view (PF_2).
+D5	grading_scale	completeness (loose, complete in box, new or sealed)	PriceCharting		D5.3.01-D5.3.04; D5.1.*	Collectors' completeness marker (C16; no item grades stored).
+D5	grading_scale	sealed and graded game scales (WATA, VGA)	WATA Games; Video Game Authority		D5.3.01-D5.3.04	Condition grade registry rows only (C16).

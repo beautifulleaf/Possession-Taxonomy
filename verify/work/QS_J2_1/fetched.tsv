@@ -8,3 +8,9 @@ https://www.mcsuk.org/goodfishguide/	failed	HTTP 403
 https://www.undercurrentnews.com/2026/04/09/latest-mcs-good-fish-guide-has-no-recommended-choices-for-uk-caught-cod/	partial	news article no per-fishery ratings; not used for rows
 https://www.mcsuk.org/documents/1132/New_sustainability_ratings_show_affordable_ocean-friendly_seafood_options_are_possible.pdf	failed	HTTP 403 (after cronus.mcsuk.org redirect, server-given)
 https://fishchoice.com/ratings-partners/Good-Fish-Guide	partial	FishChoice scale only, no species ratings; not used
+https://www.seafoodwatch.org/recommendation/salmon/atlantic-salmon-38270	full	parallel web_fetch: Atlantic salmon, Scotland Western Isles, marine net pen, Avoid
+https://www.mcsuk.org/goodfishguide/species/atlantic-salmon/	full	parallel web_fetch: 11 GFG Atlantic salmon ratings (loc, method, cert, 1-5)
+https://www.mcsuk.org/goodfishguide/	full	parallel web_fetch: GFG index page 1 (species list; pagination ?page=2-5)
+https://www.seafoodwatch.org/recommendations/search?query=	full	parallel web_fetch: SFW search page 1 of entries
+https://www.seafoodwatch.org/recommendations/download-consumer-guides/sardine-anchovy-herring	failed	parallel web_fetch: object moved only
+https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	full	parallel web_fetch: complete SFW recommendation list (Feb 2024 edition per search metadata)

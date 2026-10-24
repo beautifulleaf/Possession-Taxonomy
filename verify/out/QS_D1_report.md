@@ -1,0 +1,7 @@
+QS_D1 report (PSU, 80 PLUS and Cybenetics)
+Rows: named_forms 33, standard_values 33 (all STD-80-plus: Gold 24, Platinum 8, Bronze 1), standards 3 (STD-80-plus, STD-cybenetics-eta, STD-cybenetics-lambda), makers 2 new (M-chieftec, M-enermax), maker_kinds 18 (reused makers: corsair, seasonic, be-quiet, cooler-master, evga, msi, asus, thermaltake, fsp, super-flower, nzxt, lian-li, fractal-design, silverstone, antec, gigabyte plus the two new). Source: CLEAResult per-model pages only (one fetched page per model).
+Cybenetics: 0 standard_values. Evaluation pages (cybenetics.com/evaluations/psus/N/) show the ETA and LAMBDA grades only as badge images (/photos/badges/N.png), no level text; the report PDFs found by search returned 404. The two Cybenetics standards rows are therefore from partial pages and carry steps given by the task.
+Failed pages: CLEAResult all-certified-psus, manufacturer pages and node?page= listings are JavaScript-only (Loading...); one Gigabyte page redirected to a preprod host (not followed); a DeepCool PDF was unreadable.
+Not entered (maker not stated on page): DeepCool PN850M-FC, PN850D-FC (Gold); ADATA COREREACTOR850G (Gold; XPG not named). No XPG or DeepCool rows. Seasonic entered under existing M-seasonic though pages say Sea Sonic Electronics Co., Ltd.
+Skips to other categories: 0. Unplaced products: none.
+Not covered: XPG, DeepCool; Cybenetics levels for all brands; many more models per brand.
