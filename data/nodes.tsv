@@ -1311,3 +1311,32 @@ C8.10.2	C8	leaf	C8.10	Solid fuels		51	from verify/out/TREE_C8.md
 C8.10.3	C8	leaf	C8.10	Liquid fuels & lubricants		52	from verify/out/TREE_C8.md		
 C8.10.4	C8	leaf	C8.10	Firelighting		53	from verify/out/TREE_C8.md		
 C8.11	C8	sub_family	C8	Packing & protection materials		54	from verify/out/TREE_C8.md		
+C7	C7	category				0	from verify/out/TREE_C7.md		
+C7.1	C7	sub_family	C7	Tractors & carriers	Leaf axis: running gear. Kind axis: design for a task, canonical form first, then by increasing specialisation; size and power are attributes (C-6). Display group: Tractors and carriers.	1	from verify/out/TREE_C7.md		
+C7.1.1	C7	leaf	C7.1	Wheeled tractors		2	from verify/out/TREE_C7.md		
+C7.1.2	C7	leaf	C7.1	Articulated 4WD		3	from verify/out/TREE_C7.md		
+C7.1.3	C7	leaf	C7.1	Tracked		4	from verify/out/TREE_C7.md		
+C7.1.4	C7	leaf	C7.1	Two-wheel		5	from verify/out/TREE_C7.md		
+C7.1.5	C7	leaf	C7.1	Carrier		6	from verify/out/TREE_C7.md		
+C7.2	C7	sub_family	C7	Soil tillage	Leaf axis: operation on the ground. Kind axis: implement type, most generic first; working width, mounted or trailed and reversible or fixed are attributes. Display group: Soil tillage.	7	from verify/out/TREE_C7.md		
+C7.2.1	C7	leaf	C7.2	Tillage and seedbed		8	from verify/out/TREE_C7.md		
+C7.2.2	C7	leaf	C7.2	Ground shaping and clearing		9	from verify/out/TREE_C7.md		
+C7.3	C7	sub_family	C7	Seeding and planting (no leaf)	Kind axis: machine type. Display group: Seeding and planting.	10	from verify/out/TREE_C7.md		
+C7.4	C7	sub_family	C7	Crop care (no leaf)	Kind axis: machine type; `carrier` is an attribute. Display group: Spreading, spraying and irrigation.	11	from verify/out/TREE_C7.md		
+C7.5	C7	sub_family	C7	Harvesting (no leaf)	Kind axis: machine type; a header or head that does a job of its own is its own kind. Display group: Harvesting.	12	from verify/out/TREE_C7.md		
+C7.6	C7	sub_family	C7	Hay and forage (no leaf)	Kind axis: machine type. Display group: Hay and forage.	13	from verify/out/TREE_C7.md		
+C7.7	C7	sub_family	C7	Post-harvest handling (no leaf)	Kind axis: machine type. Display group: Grain and post-harvest.	14	from verify/out/TREE_C7.md		
+C7.8	C7	sub_family	C7	Livestock and dairy	Leaf axis: stage of the herd, flock or dairy chain. Kind axis: herd-scale function and installation form. Display group: Livestock and dairy.	15	from verify/out/TREE_C7.md		
+C7.8.1	C7	leaf	C7.8	Milking installations		16	from verify/out/TREE_C7.md		
+C7.8.2	C7	leaf	C7.8	Milk cooling and metering		17	from verify/out/TREE_C7.md		
+C7.8.3	C7	leaf	C7.8	Handling		18	from verify/out/TREE_C7.md		
+C7.8.4	C7	leaf	C7.8	Weighing		19	from verify/out/TREE_C7.md		
+C7.8.5	C7	leaf	C7.8	Identification and recording		20	from verify/out/TREE_C7.md		
+C7.8.6	C7	leaf	C7.8	Shearing		21	from verify/out/TREE_C7.md		
+C7.8.7	C7	leaf	C7.8	Slaughter and stunning		22	from verify/out/TREE_C7.md		
+C7.8.8	C7	leaf	C7.8	Poultry		23	from verify/out/TREE_C7.md		
+C7.8.9	C7	leaf	C7.8	Feeding		24	from verify/out/TREE_C7.md		
+C7.9	C7	sub_family	C7	Forestry (no leaf)	Kind axis: machine type; `boom_type` and the forestry system (cut-to-length against whole-tree) are an attribute and a view. Forestry holds 14 kinds with `leaf = null` (CV-16, A-21). Display group: Forestry machines.	25	from verify/out/TREE_C7.md		
+C7.10	C7	sub_family	C7	Parts and accessories made for one machine	Leaf axis: the machine served (exempt from the job axis, C5(d), CV-17). A fitting with no job of its own away from its host machine is here; an attachment that does a job of its own keeps its job sub-family. Display group: Loaders, tyres and tractor fittings.	26	from verify/out/TREE_C7.md		
+C7.10.1	C7	leaf	C7.10	Tractor fittings		27	from verify/out/TREE_C7.md		
+C7.10.2	C7	leaf	C7.10	Shearing machine parts		28	from verify/out/TREE_C7.md		

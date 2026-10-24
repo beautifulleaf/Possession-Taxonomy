@@ -1,0 +1,106 @@
+kind_id	sub_family	leaf	name	definition	dagger
+C7.1.1.01	C7.1	C7.1.1	Standard four-wheel tractor	general-purpose wheeled tractor with a rear power take-off and a Category 1 or larger three-point hitch, made to draw, carry and drive implements; the maker's size label (sub-compact, compact, utility) is `size_class` on the named form.	
+C7.1.1.02	C7.1	C7.1.1	Row-crop tractor	wheeled tractor built with adjustable track and clearance to work between crop rows.	
+C7.1.1.03	C7.1	C7.1.1	Narrow orchard and vineyard tractor [tracteur fruitier, tracteur vigneron, Schmalspurtraktor]	wheeled tractor with a narrow track and low profile, made to work between rows of vines and fruit trees.	
+C7.1.1.04	C7.1	C7.1.1	High-clearance (straddle) tractor [enjambeur]	tractor with high ground clearance that straddles rows of vines or crops.	
+C7.1.1.05	C7.1	C7.1.1	Slope (mower-carrier) tractor [Mähtrak, Bergtrak]	low, wide tractor with a low centre of gravity, made to carry mowers and implements on steep ground.	
+C7.1.1.06	C7.1	C7.1.1	Forestry tractor [tracteur forestier, Forsttraktor]	wheeled tractor built and guarded for forest work such as winching and skidding; filed here by C14(b) and shown in Forestry by a view.	
+C7.1.2.01	C7.1	C7.1.2	Articulated four-wheel-drive tractor	large tractor with four equal driven wheels that steers by bending at a central pivot.	
+C7.1.3.01	C7.1	C7.1.3	Crawler (full-track) tractor	tractor running on two full-length tracks instead of wheels.	
+C7.1.3.02	C7.1	C7.1.3	Half-track tractor (delta tractor)	tractor with front tyres and rear crawler tracks.	
+C7.1.4.01	C7.1	C7.1.4	Two-wheel (walk-behind) tractor (power tiller)	single-axle tractor steered from behind by handles, in C7 only with a rear power take-off and a Category 1 or larger three-point hitch; any other walk-behind tractor or tiller is C2 (K-99).	
+C7.1.5.01	C7.1	C7.1.5	Implement carrier (tool-carrier tractor, no load body)	self-propelled carrier made to carry and drive implements, with no load body; a Unimog with a load bed is G1 (K-93).	
+C7.2.1.01	C7.2	C7.2.1	Mouldboard plough	plough whose curved mouldboards cut and turn the soil over.	
+C7.2.1.02	C7.2	C7.2.1	Chisel and tine cultivator	implement with rigid or sprung tines that loosen the soil without turning it.	
+C7.2.1.03	C7.2	C7.2.1	Disc harrow	implement with gangs of concave discs that cut and mix the surface soil.	
+C7.2.1.04	C7.2	C7.2.1	Power harrow	PTO-driven harrow whose rotating vertical tines break clods into a seedbed.	
+C7.2.1.05	C7.2	C7.2.1	Rotary tiller (rotavator)	PTO-driven implement whose blades on a horizontal rotor churn the soil.	
+C7.2.1.06	C7.2	C7.2.1	Subsoiler and deep ripper	implement with heavy legs that break compacted layers below plough depth.	
+C7.2.1.07	C7.2	C7.2.1	Land roller and packer	roller or packer that firms and levels the soil surface.	
+C7.2.1.08	C7.2	C7.2.1	Spading machine	PTO-driven implement whose spades dig and turn the soil.	
+C7.2.1.09	C7.2	C7.2.1	Puddling harrow (rice paddy)	implement that churns flooded paddy soil into a puddle before transplanting.	yes
+C7.2.1.10	C7.2	C7.2.1	Seedbed combination	implement that combines tines, levelling bars and rollers to make a seedbed in one pass.	
+C7.2.2.01	C7.2	C7.2.2	Box blade	tractor-mounted open box with a blade and scarifier teeth, for grading and moving soil.	yes
+C7.2.2.02	C7.2	C7.2.2	Rear grader blade and land leveller	rear-mounted blade or levelling frame for grading, levelling and ditching.	yes
+C7.2.2.03	C7.2	C7.2.2	Post-hole auger	tractor-driven auger that bores holes for posts and planting.	yes
+C7.2.2.04	C7.2	C7.2.2	Trencher	tractor-driven implement that cuts narrow trenches.	yes
+C7.2.2.05	C7.2	C7.2.2	Bund plasterer (rice paddy)	implement that forms and smooths the earth bunds round paddy fields.	yes
+C7.2.2.06	C7.2	C7.2.2	Tractor snow blade and snow blower	snow blade or blower made to be mounted on or driven from a tractor; C7 whoever buys it (K-99).	
+C7.3.01	C7.3		Seed drill	implement that sows seed in rows at a set rate and depth; tine, disc and no-till coulters are attributes.	
+C7.3.02	C7.3		Precision single-seed planter	planter that places single seeds at a set spacing in the row.	
+C7.3.03	C7.3		Potato planter	implement that plants seed potatoes in ridges.	
+C7.3.04	C7.3		Transplanter	implement that sets seedlings or young plants into the field.	
+C7.3.05	C7.3		Rice transplanter	machine that plants rice seedlings into a flooded paddy; `rows` (4 to 8) is an attribute.	
+C7.4.01	C7.4		Fertiliser spreader	implement that broadcasts or places granular fertiliser.	
+C7.4.02	C7.4		Manure spreader	wagon that shreds and spreads solid manure.	
+C7.4.03	C7.4		Slurry tanker	tank that carries and spreads liquid slurry.	
+C7.4.04	C7.4		Slurry injector	implement that places slurry into the soil.	
+C7.4.05	C7.4		Crop sprayer	sprayer that applies crop-protection liquids through a boom; `carrier` (mounted, trailed, self-propelled) is an attribute.	
+C7.4.06	C7.4		Inter-row hoe and tine weeder	implement that weeds mechanically between and within crop rows.	
+C7.4.07	C7.4		Irrigation reel and sprinkler set	hose reel and field sprinkler line made for field-crop irrigation (K-100).	
+C7.4.08	C7.4		Centre-pivot and linear-move irrigation machine	self-moving span of sprinkler pipe that irrigates a field in a circle or a strip (K-100).	yes
+C7.4.09	C7.4		Field irrigation pump	pump made to move water for field irrigation (K-175).	yes
+C7.5.01	C7.5		Combine harvester [moissonneuse-batteuse, Mähdrescher, colheitadeira]	self-propelled machine that reaps, threshes and cleans grain; `threshing_type` (head-feeding, conventional, axial rotor) is an attribute.	
+C7.5.02	C7.5		Combine header [plataforma colheitadeira]	interchangeable front cutting or pick-up unit for a combine harvester.	
+C7.5.03	C7.5		Forage harvester [ensileuse]	machine that cuts and chops forage crops for silage; `carrier` (self-propelled, trailed) is an attribute.	
+C7.5.04	C7.5		Potato harvester	machine that lifts potatoes and separates them from soil and haulm.	
+C7.5.05	C7.5		Sugar-beet harvester	machine that tops, lifts and cleans sugar or fodder beet.	
+C7.5.06	C7.5		Grape harvester	machine that straddles vine rows and shakes off the grapes.	
+C7.5.07	C7.5		Carrot harvester	machine that lifts carrots by their tops.	
+C7.6.01	C7.6		Disc and drum mower	mower whose rotating discs or drums cut grass for hay or silage.	
+C7.6.02	C7.6		Hay tedder	implement with rotating tines that spreads and turns cut grass to dry.	
+C7.6.03	C7.6		Hay rake and windrower	implement that gathers cut grass into windrows.	
+C7.6.04	C7.6		Baler	machine that picks up hay, straw or silage and presses it into round or square bales.	
+C7.6.05	C7.6		Bale wrapper	machine that wraps bales in stretch film for silage.	
+C7.6.06	C7.6		Rotary cutter and flail mower (mulcher)	implement that cuts and shreds standing vegetation on grassland, verges, vineyards and scrub; C7 whoever buys it (K-99).	
+C7.6.07	C7.6		Loader and forage wagon	wagon that picks up, cuts and carries grass or silage.	
+C7.7.01	C7.7		Grain dryer	installation that dries harvested grain.	
+C7.7.02	C7.7		Grain cleaner	machine that separates grain from chaff, weed seed and dirt.	
+C7.7.03	C7.7		Grain conveyor	auger, belt or elevator that moves grain.	
+C7.7.04	C7.7		Rice huller	machine that removes the husk from paddy rice.	
+C7.8.1.01	C7.8	C7.8.1	Bucket milking machine	portable milking unit that milks into a bucket.	
+C7.8.1.02	C7.8	C7.8.1	Pipeline milking installation	milking system that carries the milk from the stalls through a pipeline to the dairy.	
+C7.8.1.03	C7.8	C7.8.1	Static milking parlour	fixed parlour in which cows stand in stalls to be milked; `units_per_stalls` (one per two stalls, one per stall) and `stall_layout` (abreast, herringbone; provisional) are attributes.	
+C7.8.1.04	C7.8	C7.8.1	Rotary milking parlour	parlour whose stalls ride on a rotating platform.	
+C7.8.1.05	C7.8	C7.8.1	Trigon milking parlour	parlour with stalls on three sides of the milker's pit.	
+C7.8.1.06	C7.8	C7.8.1	Polygon milking parlour	parlour with stalls on four sides of the milker's pit.	
+C7.8.1.07	C7.8	C7.8.1	Milking robot	automatic milking system that attaches the cups and milks without a milker.	
+C7.8.2.01	C7.8	C7.8.2	Bulk milk cooling tank	refrigerated tank that cools and holds the milk on the farm.	
+C7.8.2.02	C7.8	C7.8.2	Milk meter	meter that measures each cow's milk yield.	
+C7.8.3.01	C7.8	C7.8.3	Cattle crush and headgate	crate or gate that restrains one animal for treatment.	
+C7.8.3.02	C7.8	C7.8.3	Sheep handler and drafter	race unit that holds, turns or sorts sheep into pens.	
+C7.8.4.01	C7.8	C7.8.4	Livestock weigh-scale indicator	electronic indicator that reads, shows and records livestock weights from load bars or a platform.	
+C7.8.4.02	C7.8	C7.8.4	Livestock weigh platform and load bars	platform or pair of load bars on which animals are weighed.	
+C7.8.5.01	C7.8	C7.8.5	Livestock EID stick reader	handheld reader for livestock electronic ear tags, sold for herd recording; pet microchip scanners are B10 (K-101).	yes
+C7.8.6.01	C7.8	C7.8.6	Shearing machine	powered machine with its motor and drive that runs a shearing handpiece, for flock-scale shearing.	yes
+C7.8.7.01	C7.8	C7.8.7	Captive-bolt stunner	tool that stuns livestock by driving a bolt into the skull.	yes
+C7.8.7.02	C7.8	C7.8.7	Scalder	tank or machine that scalds slaughtered pigs or poultry to loosen hair or feathers.	yes
+C7.8.8.01	C7.8	C7.8.8	Poultry feeding line	automatic feed line for a commercial poultry house.	yes
+C7.8.8.02	C7.8	C7.8.8	Egg collection system	belt or conveyor system that collects eggs in a commercial laying house.	yes
+C7.8.8.03	C7.8	C7.8.8	Commercial hatching incubator	commercial hatcher for eggs at flock scale; small incubators are B10 (K-101).	yes
+C7.8.9.01	C7.8	C7.8.9	Feed mixer wagon	wagon that mixes and dispenses a feed ration.	
+C7.8.9.02	C7.8	C7.8.9	Silage block cutter	tractor implement that cuts and carries blocks from a silage clamp.	
+C7.8.9.03	C7.8	C7.8.9	Bedding spreader	machine that spreads straw or other bedding in housing.	
+C7.9.01	C7.9		Forest harvester	self-propelled machine that fells, delimbs and cuts trees to length.	
+C7.9.02	C7.9		Forwarder	self-propelled machine that carries cut logs clear of the ground on its own load bed.	
+C7.9.03	C7.9		Skidder	machine that drags felled trees or logs to the roadside.	
+C7.9.04	C7.9		Feller buncher	machine that fells trees and gathers them into bunches; `boom_type` (drive-to-tree, swing-boom) is an attribute.	
+C7.9.05	C7.9		Harvester head	felling, delimbing and cross-cutting head made for a forest harvester or excavator base.	
+C7.9.06	C7.9		Wood chipper	chipper that is tractor-driven (PTO or mounted) or part of a forest machine; a towed or self-propelled tree-surgery chipper is C2 (C7-O1).	
+C7.9.07	C7.9		Forestry mulcher	heavy mulcher that shreds trees, brush and stumps on forest and clearing land.	
+C7.9.08	C7.9		Stump grinder	machine that grinds tree stumps below ground level.	
+C7.9.09	C7.9		Forestry winch	tractor-mounted winch for pulling felled trees and logs.	
+C7.9.10	C7.9		Harwarder	combined forest machine that both harvests trees and forwards the logs.	
+C7.9.11	C7.9		Delimber	machine that strips the limbs from felled trees.	
+C7.9.12	C7.9		Forestry knuckleboom loader	loader with a jointed boom and grapple for lifting and loading logs.	
+C7.9.13	C7.9		Forestry excavator	excavator-based machine built for a forestry job (K-194).	
+C7.9.14	C7.9		Log splitter, tractor-driven (PTO or mounted)	log splitter driven from or mounted on a tractor; hand and engine log splitters are C1 (K-173).	
+C7.10.1.01	C7.10	C7.10.1	Front-end loader	loader arms and frame made to be fitted to a tractor.	
+C7.10.1.02	C7.10	C7.10.1	Loader attachment (pallet forks, bucket, bale spike)	tool made to be fitted to a tractor's front loader.	yes
+C7.10.1.03	C7.10	C7.10.1	Wheel weight	ballast weight fitted to a tractor wheel.	
+C7.10.1.04	C7.10	C7.10.1	Tractor tyre	tyre made for a tractor.	
+C7.10.1.05	C7.10	C7.10.1	Tractor rim and complete wheel	rim or tyred wheel made for a tractor.	
+C7.10.1.06	C7.10	C7.10.1	Rubber track unit	rubber track system fitted to a tractor in place of wheels.	
+C7.10.1.07	C7.10	C7.10.1	Guidance and auto-steer system	guidance receiver, display or auto-steer kit made for a tractor or farm machine.	
+C7.10.2.01	C7.10	C7.10.2	Shearing handpiece	handpiece that holds and drives the comb and cutter, made for a shearing machine.	yes
+C7.10.2.02	C7.10	C7.10.2	Shearing comb and cutter	comb and cutter blades made for a shearing handpiece.	yes
