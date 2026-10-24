@@ -1,6 +1,6 @@
 # DPW1_E1 report: E1 Toys & Games (wave 3, offline)
 
-Inputs: HV_E1_1 and HV_E1_2 reports and fetch logs, TREE_E1 and its map, memo sections 13 and 14, 298 named forms, 227 lines, 898 makers (all tied at category level only). There is no DPMK_1_E1 file.
+No DPMK_1_E1 file exists.
 
 ## Task 1: missing kinds (34 items; DPW1_E1_kinds.tsv)
 new_kind 8, named_form 12, covered 6, attribute 3, other_category 5.
@@ -40,14 +40,14 @@ No move_kind.
 I confirm R-116: the way in is by type (play family), with a brand and publisher tab beside it.
 
 The data supports this:
-- Named forms spread over all nine families: games 93, role play and other toys 55, dolls and figures 54.
-- All 898 makers are tied at category level only. A brand-first root would show brands with no types under them.
-- Lines cluster in construction (137, LEGO themes) and in figures and dolls (66). Those shelves are better served by the brand tab and the character view.
+- Named forms span all nine families (games 93, role play 55, dolls and figures 54).
+- All 898 makers are tied at category level only. Brand-first would show brands without types.
+- Lines cluster in construction (137, LEGO themes) and in figures and dolls (66). The brand tab and character view serve them.
 
 Sketch:
-1. **Level 1, the nine groups:** Dolls, figures & soft toys; Building & construction; Models, kits & railways; Play vehicles & ride-ons; Board, card & tabletop games; Puzzles; Pretend play & other toys; Outdoor play equipment; Parts & accessories.
-2. **Level 2, the leaves.** For example, under Games: Board, Card, Tile & dice, TCG, Miniatures, Table & dexterity, Casino. Leafless families go straight to their kinds.
-3. **Level 3, the kinds.** For example Chess set, Go set, Boxed board game. Named forms sit under each kind by maker or line, and an age-band filter applies everywhere.
+1. **Level 1:** Dolls, figures & soft toys; Building & construction; Models, kits & railways; Play vehicles & ride-ons; Board, card & tabletop games; Puzzles; Pretend play & other toys; Outdoor play equipment; Parts & accessories.
+2. **Level 2, the leaves.** For example, under Games: Board, Card, Tile & dice, TCG, Miniatures, Table & dexterity, Casino. Leafless families show kinds.
+3. **Level 3, the kinds.** For example Chess set, Go set, Boxed board game. Named forms below by maker or line; age-band filter everywhere.
 
 Side tabs: brands, game systems, characters.
 
@@ -56,12 +56,9 @@ Side tabs: brands, game systems, characters.
 - R-70(a): a series covering several models is a line
 - C11 tie-break
 - S3 and the E1.9 parts rule
-- K-9
-- Key steps 11 and 18
-- Precedence 2 and 8
-- R-58 ids
+- K-9, key steps 11 and 18, precedence 2 and 8, R-58 ids
 
-Note: R-70(a) moves Ken, Skipper and Licca-chan to lines, although the memo kept Blythe as a named form.
+Note: R-70(a) moves Ken, Skipper and Licca-chan to lines (the memo kept Blythe a named form).
 
 ## Decisions resting on † claims
 - L-jumbo-wasgij: Jumbo is not on the fetched page.
