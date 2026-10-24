@@ -10,9 +10,22 @@ from collections import defaultdict
 from common import ROOT, read_tsv
 from regions import REGIONS, REGION_OF
 
-CODES = sys.argv[1:] or ["A1", "D1"]
+CODES = sys.argv[1:] or ["A1", "D1", "B10", "B3", "C6", "D5", "I1", "J2", "J3", "J4"]
 OUT = ROOT / "pages" / "pilot.html"
-NAMES = {"A1": "Clothing", "D1": "Computers & Components"}
+NAMES = {"A1": "Clothing", "D1": "Computers & Components", "B10": "Animal Equipment", "B3": "Lighting",
+         "C6": "Optical & Scientific Instruments", "D5": "Video Games", "I1": "Software", "J2": "Fish & Seafood",
+         "J3": "Dairy, Eggs & Alternatives", "J4": "Fruit & Vegetables"}
+# the main way in per category (R-71, R-104; owner 2026-10-24: by object type, by genre where scenes exist, never by country)
+WAY_IN = {"A1": ["Which scene?", "Which brand?", "Which signature piece?"],
+          "D1": ["What are you building or buying?", "Which part or device?", "Which model?"],
+          "B10": ["Which animal?", "What do you need?", "Which type?"],
+          "B3": ["Where does the light go?", "Which fixture?", "Which model?"],
+          "C6": ["Which instrument?", "Which design?", "Which model?"],
+          "D5": ["What are you shopping for?", "Which form?", "Which model?"],
+          "I1": ["What do you want to do?", "Which tool?", "Which product?"],
+          "J2": ["How is it sold?", "Which animal?", "Which species, origin and grade?"],
+          "J3": ["What are you buying?", "Which type?", "Which variety or protected name?"],
+          "J4": ["What are you buying?", "Which crop group?", "Which produce and variety?"]}
 
 def srcs(r):
     s = [x.strip() for x in (r.get("sources") or "").split("|") if x.strip()]
@@ -26,6 +39,10 @@ def main():
     nfs = [n for n in read_tsv(ROOT / "data/named_forms.tsv") if n["kind_id"] in kind_ids]
     lines = [l for l in read_tsv(ROOT / "data/lines.tsv") if any(k in kind_ids for k in l["kinds"].split(";"))]
     makers = {m["maker_id"]: m for m in read_tsv(ROOT / "data/makers.tsv")}
+    # maker roles (owner 2026-10-24, R-109): way_in shows every attested maker; owner and none show a maker only as the
+    # owner of a named form or line; the others stay in the ledger but off the page
+    roles = {r["code"]: r["role"] for r in read_tsv(ROOT / "framework/structure/maker_roles.tsv") if r["scope"] == "*"}
+    code_of = {k["kind_id"]: k["code"] for k in kinds}
     worklist = {}
     for c in CODES:
         p = ROOT / f"verify/out/HV_{c}_worklist.tsv"
@@ -37,19 +54,20 @@ def main():
     for l in lines:
         for k in l["kinds"].split(";"):
             if k in kind_ids: mk_kinds[l["maker_id"]].add(k)
-    for r in read_tsv(ROOT / "data/maker_kinds.tsv"):  # garment-level and category-level ties (R-75, R-76)
-        if r["kind_id"] in kind_ids or r["kind_id"] in CODES:
+    for r in read_tsv(ROOT / "data/maker_kinds.tsv"):  # garment-level and category-level ties (R-75, R-76), way-in only
+        c = code_of.get(r["kind_id"], r["kind_id"] if r["kind_id"] in CODES else None)
+        if c and roles.get(c, "way_in") == "way_in":
             mk_kinds[r["maker_id"]].add(r["kind_id"])
-    brand_only = {m for m in makers if "manufacturer" in makers[m].get("supply_role", "")}
+    brand_only = {m for m in makers if any(x in makers[m].get("supply_role", "") for x in ("manufacturer", "retailer (multi-brand)"))}
     used = {m for m in mk_kinds if m not in brand_only}
     data = {
-        "codes": [{"code": c, "name": NAMES.get(c, c)} for c in CODES],
+        "codes": [{"code": c, "name": NAMES.get(c, c), "role": roles.get(c, "way_in"), "way": WAY_IN.get(c, [])} for c in CODES],
         "nodes": [{"id": n["node_id"], "code": n["code"], "level": n["level"], "parent": n["parent_id"], "name": n["name"],
                    "sort": int(n["sort"] or 0)} for n in nodes],
         "kinds": [{"id": k["kind_id"], "code": k["code"], "sf": k["sub_family"], "leaf": k["leaf"], "name": k["name"],
                    "native": k["native_name"], "def": k["definition"], "notes": k["notes"], "src": srcs(k),
-                   "dagger": (worklist.get(k["kind_id"], {}).get("dagger") == "yes"), "new": k["memo_ref"] == "HVMK"}
-                  for k in sorted(kinds, key=lambda k: [int(x) if x.isdigit() else x for x in k["kind_id"].replace("A", "").replace("D", "").split(".")])],
+                   "dagger": (worklist.get(k["kind_id"], {}).get("dagger") == "yes"), "new": k["memo_ref"].startswith(("HVMK", "DPW1", "DP_A1K", "R-102"))}
+                  for k in sorted(kinds, key=lambda k: (CODES.index(k["code"]), [int(x) if x.isdigit() else 0 for x in k["kind_id"].split(".")[1:]]))],
         "nfs": [{"id": n["named_form_id"], "kind": n["kind_id"], "name": n["name"], "native": n["native_name"],
                  "bound": n["maker_bound"] == "yes", "maker": n["maker_id"], "line": n["line_id"], "region": n["region"],
                  "src": srcs(n)} for n in nfs],
@@ -97,7 +115,7 @@ def coverage(code="A1"):
            for r in cs]
     return {"code": code, "known": known, "unknown": unknown, "regions": regs, "countries": ctr}
 
-TEMPLATE = r"""<title>Possession Taxonomy Pilot</title>
+TEMPLATE = r"""<meta charset="utf-8"><title>Possession Taxonomy Pilot</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=JetBrains+Mono:wght@500;600&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap">
@@ -142,6 +160,8 @@ main { min-width: 0; }
 .stats div { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 10px 14px; display: grid; }
 .stats b { font: 700 24px/1.1 var(--display); font-variant-numeric: tabular-nums; }
 .stats span { color: var(--muted); font: 13px/1.3 var(--display); }
+.way { font: 600 15px/1.4 var(--display); margin: 0 0 10px; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+.way .label { margin: 0; }
 .note { font: 14px/1.5 var(--display); color: var(--muted); margin: 0 0 18px; max-width: 75ch; }
 h2.sf { font: 700 22px/1.25 var(--display); text-wrap: balance; margin: 34px 0 6px; padding-top: 12px; border-top: 2px solid var(--fg); display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
 h3.leaf { font: 650 16px/1.3 var(--display); color: var(--accent); margin: 22px 0 8px; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
@@ -212,11 +232,11 @@ details.brand.core { border-left: 3px solid var(--accent); }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 </style>
 <header class="bar"><div class="bar-inner">
-<div class="brand">Possession Taxonomy<small>Stage 3 pilot · harvested data</small></div>
+<div class="brand">Possession Taxonomy<small>Stage 3 · ten categories, harvested data</small></div>
 <div class="tabs" role="tablist" id="tabs"></div>
 <input class="search" id="q" type="search" placeholder="Filter kinds, models, makers" aria-label="Filter kinds, models and makers">
 </div></header>
-<div class="wrap"><nav class="rail" aria-label="Sub-families" id="rail"></nav><main id="main"><p class="note">Loading the taxonomy data (about 8 MB)…</p></main></div>
+<div class="wrap"><nav class="rail" aria-label="Sub-families" id="rail"></nav><main id="main"><p class="note">Loading the taxonomy data…</p></main></div>
 <script>
 fetch('pilot-data.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(start).catch(e => {
   document.getElementById('main').textContent = 'The data file did not load (' + e.message + '). Reload the page to try again.';
@@ -239,12 +259,12 @@ function start(D) {
     tabs.append(b);
   });
   try { const v = localStorage.getItem('pilot-view'); if (v) view = v; } catch (e) {}
-  if (location.hash && /^#(A1|D1|makers)$/.test(location.hash)) view = location.hash.slice(1);
+  if (location.hash && (D.codes.some(c => '#' + c.code === location.hash) || location.hash === '#makers')) view = location.hash.slice(1);
 
   function kindCard(k) {
     const nf = nfByKind[k.id] || [], ln = linesByKind[k.id] || [];
     const sum = $('summary', {}, $('span', { class: 'kname' }, k.name + (k.native ? ' [' + k.native + ']' : ''), $('span', { class: 'id', text: k.id })),
-      $('span', {}, k.new ? $('span', { class: 'chip new', title: 'Added by the pilot decision pass (R-70)', text: 'new' }) : null,
+      $('span', {}, k.new ? $('span', { class: 'chip new', title: "Added by a decision pass after the harvest", text: 'new' }) : null,
         k.dagger ? $('span', { class: 'chip dag', title: 'Marked † in the memo: now attested by the harvest', text: '† attested' }) : null),
       $('span', { class: 'count', text: nf.length + ' forms · ' + ln.length + ' lines' }));
     const body = $('div', { class: 'kbody' });
@@ -278,7 +298,10 @@ function start(D) {
     main.append($('div', { class: 'stats' },
       [[kinds.length, 'kinds attested'], [nfs.length, 'named forms'], [lines.length, 'lines'], [mk.size, 'makers linked'], [kinds.filter(k => k.new).length, 'kinds added in the pilot']]
         .map(([n, l]) => $('div', {}, $('b', { text: n.toLocaleString('en') }), $('span', { text: l })))));
-    main.append($('p', { class: 'note', text: code + ' ' + cname + ': every kind below is attested on a fetched page (blue source: full fetch, amber: partial). Open a kind for its definition, sources, maker lines and named forms; a named form with a green border is a design many makers make, the others are one maker\'s models. Counts are the pilot\'s first layer: depth passes come next.' }));
+    const C = D.codes.find(c => c.code === code);
+    if (C.way.length && code !== 'A1') main.append($('p', { class: 'way' }, $('span', { class: 'label', text: 'Way in' }), C.way.join('  →  ')));
+    const roleText = { way_in: 'Makers are a way in here: every attested maker is listed.', owner: 'Makers appear here only as owners of a model or line: shoppers choose the model.', none: 'Makers appear here only through a branded product: origin, variety and grade lead.' }[C.role] || '';
+    main.append($('p', { class: 'note', text: code + ' ' + cname + ': every kind below is attested on a fetched page (blue source: full fetch, amber: partial). Open a kind for its definition, sources, maker lines and named forms; a named form with a green border is a design many makers make or a protected name, the others are one maker\'s products. ' + roleText }));
     const ol = $('ol');
     nodes.filter(n => n.level === 'sub_family').forEach(sf => {
       const ks = kinds.filter(k => k.sf === sf.id);
@@ -348,7 +371,7 @@ function start(D) {
     const flagged = C.countries.filter(r => r.flag);
     main.append($('div', { class: 'stats' }, [[C.known + C.unknown, 'clothing brands'], [C.countries.filter(r => r.brands).length, 'countries with brands'], [C.unknown, 'without a country'], [flagged.length, 'countries below half their share']]
       .map(([n, l]) => $('div', {}, $('b', { text: n.toLocaleString('en') }), $('span', { text: l })))));
-    main.append($('p', { class: 'note', text: 'Coverage of clothing brands against a reference distribution of the world\'s brands, built from fetched figures: apparel market size (GDP where no market figure was found), trademark filing activity by origin, and Wikipedia brand counts, combined as a geometric mean. A ratio of 1 means a country holds its expected share; a country expected to hold at least 0.5 % of brands is flagged below 0.5. Thin countries were raised with depth passes; no attested brand was removed to balance the count.' }));
+    main.append($('p', { class: 'note', text: 'For information only: countries never divide the taxonomy (owner, 2026-10-24); brands were harvested region by region so every part of the world is found. This report compares the clothing brands that have a country with a reference distribution built from fetched figures (apparel market size, trademark filings by origin, Wikipedia brand counts; geometric mean). A ratio of 1 means a country holds its expected share. No attested brand was removed to balance the count, and per-country balancing passes are no longer run.' }));
     main.append($('div', { class: 'legend' }, $('span', {}, $('i', { style: 'background:var(--accent)' }), 'actual share'), $('span', {}, $('i', { style: 'background:var(--muted);opacity:.55' }), 'expected share')));
     main.append($('h2', { class: 'sf', id: 'cov-regions', text: 'By region' }));
     const rt = $('tbody');
@@ -372,7 +395,7 @@ function start(D) {
     const main = document.getElementById('main'), rail = document.getElementById('rail');
     const ids = Object.keys(D.makers).sort((a, b) => D.makers[a].name.localeCompare(D.makers[b].name));
     main.append($('div', { class: 'stats' }, [[D.ledger, 'makers in the ledger'], [ids.length, 'linked to a pilot kind']].map(([n, l]) => $('div', {}, $('b', { text: n.toLocaleString('en') }), $('span', { text: l })))));
-    main.append($('p', { class: 'note', text: 'One maker ledger serves the whole domain. This list shows the makers tied to a pilot kind or category: through a named form, a line, a garment tie, or a category-level tie from a brand list (R-76). Producers known only from factory directories are in data/makers.tsv but not listed here.' }));
+    main.append($('p', { class: 'note', text: 'One maker ledger serves the whole domain. Each category gives makers a role (owner, 2026-10-24): in clothing every attested brand is listed (by garment tie, scene tag or brand list); in the other categories a maker is listed only as the owner of a named form or line. Factory directories, storefronts, and makers hidden by their category\'s role stay in the ledger (data/makers.tsv) but are not listed here.' }));
     const tb = $('tbody');
     const rows = ids.map(id => { const m = D.makers[id];
       const kn = m.kinds.map(k => (D.kinds.find(x => x.id === k) || {}).name || k);
@@ -419,7 +442,7 @@ function start(D) {
       if (hasScenes(view)) {
         const m = mode[view] || 'scene';
         const bar = $('div', { class: 'modes', role: 'group', 'aria-label': 'Navigate by' });
-        [['scene', 'By scene'], ['tree', 'By garment'], ['coverage', 'Coverage']].forEach(([k, l]) => { const b = $('button', { type: 'button', 'aria-pressed': String(m === k), text: l }); b.addEventListener('click', () => { mode[view] = k; render(); }); bar.append(b); });
+        [['scene', 'By scene'], ['tree', 'By garment'], ['coverage', 'Coverage report']].forEach(([k, l]) => { const b = $('button', { type: 'button', 'aria-pressed': String(m === k), text: l }); b.addEventListener('click', () => { mode[view] = k; render(); }); bar.append(b); });
         document.getElementById('main').append(bar);
         if (m === 'scene') renderScenes(view); else if (m === 'coverage') renderCoverage(); else renderTree(view);
       } else renderTree(view);
