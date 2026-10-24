@@ -1,0 +1,29 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-J2.4.02-G024	drop					Flour-battered sardines are coated, so prepared and OUT (P-P, K-45), even in a tin.
+NF-J2.4.13-G002	drop					Stuffed squid is a filled seafood product, so prepared and OUT (P-P, K-45).
+NF-J2.4.02-S039	drop					Sardines with vegetables in tagine sauce: a stew in a tin is a ready meal (step 3 note).
+NF-J2.4.02-S032	to_line	L-rio-de-oro-conserverie-palomar	Palomar	J2.4.02;J2.4.07;J2.4.01		Brand of sardines, mackerel and tuna on the exhibitor page: a line spanning kinds (C2(d)).
+NF-J2.4.02-S033	to_line	L-rio-de-oro-conserverie-keita	Keita	J2.4.02;J2.4.07;J2.4.01		Brand of sardines, mackerel and tuna on the exhibitor page: a line spanning kinds (C2(d)).
+NF-J2.4.02-S034	to_line	L-rio-de-oro-conserverie-safari	Safari	J2.4.02;J2.4.07;J2.4.01		Brand of sardines, mackerel and tuna on the exhibitor page: a line spanning kinds (C2(d)).
+NF-J2.4.02-S035	to_line	L-rio-de-oro-conserverie-abha	Abha	J2.4.02;J2.4.07;J2.4.01		Brand of sardines, mackerel and tuna on the exhibitor page: a line spanning kinds (C2(d)).
+NF-J2.4.02-S036	to_line	L-damsa-tamima	Tamima	J2.4.02;J2.4.07;J2.4.01		Brand of sardines, mackerel and tuna on the exhibitor page: a line spanning kinds (C2(d)).
+NF-J2.4.02-S037	to_line	L-damsa-joky	Joky	J2.4.02;J2.4.07;J2.4.01		Brand of sardines, mackerel and tuna on the exhibitor page: a line spanning kinds (C2(d)).
+NF-J2.4.02-H011	to_line	L-xiamen-gulong-food-co-ltd-gulong	Gulong	J2.4.02;J2.4.07;J2.4.01		Canned-fish brand covering sardines, mackerel, tuna and croaker (row note); tinned croaker has no kind.
+NF-J2.4.01-H002	to_line	L-century-pacific-food-555	555	J2.4.01;J2.4.02		555 brand rows exist for tuna and sardines: one brand line across kinds.
+NF-J2.4.02-H001	to_line	L-century-pacific-food-555	555	J2.4.01;J2.4.02		555 brand rows exist for tuna and sardines: one brand line across kinds.
+NF-J2.4.01-H004	to_line	L-century-pacific-food-fresca	Fresca	J2.4.01;J2.4.02		Fresca brand rows exist for tuna and sardines: one brand line across kinds.
+NF-J2.4.02-H004	to_line	L-century-pacific-food-fresca	Fresca	J2.4.01;J2.4.02		Fresca brand rows exist for tuna and sardines: one brand line across kinds.
+NF-J2.4.01-H003	to_line	L-century-pacific-food-blue-bay	Blue Bay	J2.4.01;J2.4.02		Blue Bay brand rows exist for tuna and sardines: one brand line across kinds.
+NF-J2.4.02-H005	to_line	L-century-pacific-food-blue-bay	Blue Bay	J2.4.01;J2.4.02		Blue Bay brand rows exist for tuna and sardines: one brand line across kinds.
+NF-J2.4.01-S027	to_line	L-nirsa-real	Real	J2.4.01;J2.4.02		The Real brand covers tuna and sardines (S050); this row and S031 are brand-level duplicates.
+NF-J2.4.01-S031	to_line	L-nirsa-real	Real	J2.4.01;J2.4.02		Same Real brand row as S027; it joins the same line.
+NF-J2.4.01-S030	to_line	L-gw-yichang-florida	Florida	J2.4.01;J2.4.07		Florida brand covers tuna and mackerel (Trozos de Caballa, J2.4.07-S002).
+NF-J2.4.01-S045	to_line	L-pacific-fish-del-peru-marini	Marini	J2.4.01;J2.4.24		Marini covers tuna, jurel, bonito and anchoveta (row note); J2.4.24 waits for attestation.
+NF-J2.4.02-H007	to_line	L-thai-union-group-king-oscar	King Oscar	J2.4.02;J2.4.09		Brand-level row; brisling are sprats (J2.4.09) beside sardines; further kinds need the brand page.
+NF-J2.5.1.01-H001	to_line	L-hangzhou-qiandaohu-xunlong-sci-tech-co-ltd-kaluga-queen	Kaluga Queen	J2.5.1.01;J2.5.1.06		Row note: brand spanning five sturgeon species, including beluga and schrenckii; add the others from its page.
+NF-J2.5.1.01-S002	to_line	L-acipenser-rova-caviar-rova	Rova Caviar	J2.5.1.01;J2.5.1.03;J2.5.1.02		Row note: the brand also covers sevruga and persicus caviar.
+NF-J2.4.07-S004	move_kind				J2.4.24	Jack mackerel (Trachurus) from Chile, not Scomber: goes to the new jurel kind.
+NF-J2.4.07-S005	move_kind				J2.4.24	Jack mackerel (Trachurus) from Chile, not Scomber: goes to the new jurel kind.
+NF-J2.4.07-S006	move_kind				J2.4.24	Maasbanker is horse mackerel (Trachurus): goes to the new jurel kind.
+NF-J2.5.1.01-001	move_kind				J2.5.1.12	A Huso huso x A. ruthenus cross, not pure beluga: goes to the new hybrid kind.
+NF-J2.5.1.02-001	move_kind				J2.5.1.11	Siberian osetra is the trade name for Acipenser baerii caviar: goes to the new Baerii kind.

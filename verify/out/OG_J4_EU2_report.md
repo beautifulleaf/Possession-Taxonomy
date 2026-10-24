@@ -1,0 +1,13 @@
+# OG_J4_EU2 report
+
+Tables: designations only. Output verify/out/OG_J4_EU2_designations.tsv, 104 rows. Fetch log verify/work/OG_J4_EU2/fetched.tsv; generator verify/work/OG_J4_EU2/gen.py.
+
+Rows by country: FR 42, DE 20, GB 11, HU 10, PL 5, AT 4, NL 4, BE 2, FI 1, DK 1, CZ 1, SI 1, SK 1, CH 1. Schemes: mostly PGI and PDO/AOP; 2 French AOC (Carotte des sables de Créances, Truffe noire du Tricastin), 1 TSG (Watercress), 1 UK PGI (Welsh Leeks), 4 Hungarian rows with scheme not shown on the page (left blank).
+
+Sources that served: fr.wikipedia lists (EU fruit/veg/cereal list with dates, French IGP list, French AOC list), de.wikipedia Herkunftsbezeichnung, Austrian ministry GUGGA page, aop-igp.ch Swiss register, en.wikipedia UK protected list (first 100k chars), legislation.gov.uk 251/2010, Slovenian ministry brochure (PDF via pdftotext), penzcentrum.hu, RVO and DutchNews (Netherlands), eAmbrosia attachment PDF (Lapin puikula).
+Failed: eAmbrosia register (JavaScript app, title only), EUR-Lex pages (field labels only), Parallel tools (402 no credit, unused), dorsetcouncil (403), parlament.hu (CAPTCHA), draaf PDF (unreadable). One typed Wikipedia URL returned 404 and was discarded.
+Weak spots: the fr.wikipedia EU list is c.2012, so post-2012 registrations are thin; page text came through a summarising fetch tool, so dates are as that tool reported them. Not found in any fetched page: Ireland, Luxembourg, Sweden, Romania, Bulgaria, Estonia, Latvia, Lithuania fresh produce (nothing written; a Danish Lammefjordskartofler and Dutch cranberry application were only in excerpts or unregistered, so not written). Slovakia: one row. Poland: Jabłka krajeńskie (2026) seen only in a search excerpt, not written.
+
+Skips to other categories (about 55): nuts and chestnut products 5, table olives 5, dried pulses 12 (haricots, lentils, Fasola, Käferbohne, Bruna bönor), dried or processed fruit and veg 9 (Pruneaux d'Agen, Suska sechlońska, smoked garlic, sauerkraut, jams, Apfelkraut, lyutenitsa), cereals/rice/flour/hops/poppy/spice/saffron/chamomile/cumin about 20, Swiss fruit spirits 3; Damassine and Poire à Botzi left out because the page does not show a fresh-fruit form.
+
+Missing kind? (16): fig (Figue de Solliès), artichoke (Artichaut du Roussillon), lamb's lettuce (Mâche nantaise, Feldsalat von der Insel Reichenau), fresh shelled bean (Coco de Paimpol), herb thyme (Thym de Provence), herb mixture (Frankfurter Grüne Soße), horseradish (Bayerischer Meerrettich, Spreewälder Meerrettich, Steirischer Kren, Hajdúsági torma), chicory (Brussels grondwitloof), parsley root (Makói and Hegykői petrezselyemgyökér), cardoon (Cardon épineux genevois), watercress (Watercress). Sources are the URLs in each row.

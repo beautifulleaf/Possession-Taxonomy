@@ -8,3 +8,20 @@ https://fr.wikipedia.org/wiki/Liste_des_indications_g%C3%A9ographiques_prot%C3%A
 https://fr.wikipedia.org/wiki/Liste_des_AOC_agroalimentaires_fran%C3%A7aises	full	French AOC fruit/veg with years
 https://en.wikipedia.org/wiki/List_of_Protected_Designation_of_Origin_products_by_country	partial	first 100k chars only, no useful produce
 https://www.bmluk.gv.at/themen/lebensmittel/herkunft-von-lebensmitteln/herkunft-spezialitaetenschutz/GUGGA.html	full	Austrian gU/ggA list with years
+https://en.wikipedia.org/wiki/List_of_Protected_Designation_of_Origin_products_by_country	partial	offsets 100k-352k fetched, no produce rows for scope except Yorkshire Forced Rhubarb/Jersey Royal
+https://de.wikipedia.org/wiki/Herkunftsbezeichnung	full	German/Austrian/Polish/Hungarian etc. produce names with g.U./g.g.A.
+https://www.aop-igp.ch/en/about-pdo-pgi/register-of-the-swiss-designations-of-origin-and-geographical-indications/	full	Swiss AOP/IGP register names (no dates)
+https://www.legislation.gov.uk/eur/2010/251/data.html	full	Yorkshire Forced Rhubarb PDO regulation 24 Mar 2010
+https://www.greatbritishchefs.com/features/uk-protected-food-classifications	partial	two UK produce names
+https://www.dorsetcouncil.gov.uk/w/protected-geographical-food-and-drink-names	failed	403
+https://www.worcestershirets.gov.uk/business-development/protected-geographical-indication.aspx	full	Vale of Evesham Asparagus PGI
+https://en.wikipedia.org/wiki/List_of_United_Kingdom_food_and_drink_products_with_protected_status	partial	first 100k chars; UK produce table with years
+https://en.wikipedia.org/wiki/Geographically_indicated_foods_of_the_United_Kingdom	full	no scheme/year; not used for rows
+https://eur-lex.europa.eu/eli/reg_impl/2014/242/oj/eng	failed	field labels only
+https://eur-lex.europa.eu/eli/reg_impl/2011/1362/oj	failed	field labels only
+https://www.gov.si/assets/ministrstva/MKGP/PODROCJA/HRANA/SHEME-KAKOVOSTI/PUBLIKACIJA/Protected_Slovenian_Agricultural_Products_and_Foodstuffs_2021.pdf	full	PDF read with pdftotext; Ptujski luk PGI 2011
+https://www.penzcentrum.hu/gazdasag/20210807/ismet-bovult-a-lista-ujabb-igazi-magyar-termek-kerult-unios-oltalom-ala-1116811	full	Hungarian protected fruit/veg names, no scheme except Tuzseri alma
+https://www.parlament.hu/documents/10181/1789217/Infojegyzet_2019_30_elelmiszerek_borok_szeszes_italok_oltalma.pdf/d969a417-890f-2357-1e6c-734e87523c1a	failed	CAPTCHA
+https://www.dutchnews.nl/features/2017/08/dutch-food-which-has-officially-protected-status-within-the-eu/	full	Dutch names with BOB/BGA, no years
+https://www.rvo.nl/onderwerpen/landbouwproducten-verwerken-verhandelen-produceren/kwaliteitsaanduidingen/landbouw	full	Dutch BOB/BGA names
+https://ec.europa.eu/geographical-indications-register/eambrosia-public-api/api/v1/attachments/61072	full	eAmbrosia attachment PDF (scan, pdftotext): Lapin puikula application, PDO, class 1.6 table potato, Ministry of Agriculture and Forestry
