@@ -1,0 +1,35 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-I3.1.3.01-119	drop					Duplicate of NF-I3.1.3.01-033 U-Next (same service, same maker).
+NF-I3.1.3.01-120	drop					Duplicate of NF-I3.1.3.01-043 Telasa (same service, same maker).
+NF-I3.3.01-218	drop					Duplicate of NF-I3.3.01-033 O2 (same name, same maker id).
+NF-I3.3.01-104	drop					Duplicate of NF-I3.3.01-020 DIGI (same name, same maker id).
+NF-I3.3.01-093	drop					Duplicate of NF-I3.3.01-022 m:tel (same name, same maker id).
+NF-I3.3.01-219	drop					Duplicate of NF-I3.3.01-134 Lebara (same maker).
+NF-I3.3.01-220	drop					Duplicate of NF-I3.3.01-138 spusu (same maker).
+NF-I3.3.01-179	drop					Duplicate of NF-I3.3.01-135 Lyca Mobile; M-lycamobile and M-lyca-mobile are one brand.
+NF-I3.1.3.01-067	drop					Free ad-supported video platform (internet as entertainment, OUT) †.
+NF-I3.1.3.01-116	drop					Free public-broadcaster OTT, no paid plan known (OUT) †.
+NF-I3.1.1.01-001	drop					Free ad-supported internet radio from the free table; no paid plan (OUT) †.
+NF-I3.1.1.01-013	drop					Free ad-supported internet radio from the free table; no paid plan (OUT) †.
+NF-I3.1.1.01-006	drop					Storefront selling downloads (I2, storefront maker class), not a catalogue subscription †.
+NF-I3.2.01-002	drop					Developer object storage sold as business infrastructure, no sync plan; Backblaze consumer plan is I3.2.02 †.
+NF-I3.3.01-216	drop					Phone and contract shop reselling other networks' plans: a shop, not a plan †.
+NF-I3.3.01-173	drop					Phone and SIM rental for trips: one-off rental (OUT) †.
+NF-I3.3.01-166	drop					Wholesale operator on the ARCEP list; sells no consumer plan †.
+NF-I3.3.01-193	drop					Wholesale operator for integrators; sells no consumer plan †.
+NF-I3.3.01-191	drop					MVNE and IoT connectivity enabler; sells no consumer plan †.
+NF-I3.3.01-175	drop					Connected-car and IoT connectivity supplier; sells no consumer plan †.
+NF-I3.3.01-176	drop					Business telephony operator; sells no consumer plan †.
+NF-I3.3.01-187	drop					Business telecom operator; sells no consumer plan †.
+NF-I3.3.01-186	drop					Business telecom operator; sells no consumer plan †.
+NF-I3.3.01-188	drop					Business telecom operator; sells no consumer plan †.
+NF-I3.4.1.01-015	drop					Holding company name; its gym chains (New York Sports Clubs etc.) are the named forms †.
+NF-I3.1.1.01-012	move_kind				I3.1.1.02	Internet radio network of live stations, paid tier, not an on-demand library.
+NF-I3.1.1.01-032	move_kind				I3.1.1.02	Internet radio network of stations with a Premium plan, not an on-demand library.
+NF-I3.1.1.01-021	move_kind				I3.1.1.02	Internet radio aggregator app with a paid ad-free plan.
+NF-I3.1.1.01-020	move_kind				I3.1.1.02	Network of linear music channels delivered through pay-TV and apps.
+NF-I3.1.1.01-030	move_kind				I3.1.1.02	Network of linear music channels (radio-style), not an on-demand library.
+NF-I3.1.3.01-060	move_kind				I3.1.3.03	Albanian satellite and cable pay-TV platform: channel package, not on-demand library †.
+NF-I3.1.3.01-106	move_kind				I3.1.3.03	Indian DTH satellite pay-TV package provider †.
+NF-I3.1.3.01-118	move_kind				I3.1.3.02	Sells packages of live linear Indian TV channels over the internet (vMVPD) †.
+NF-I3.1.3.01-066	move_kind				I3.1.9.01	Xstream Play bundles many OTT services in one plan, named for none †.

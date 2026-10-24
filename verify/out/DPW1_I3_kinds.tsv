@@ -1,0 +1,14 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Mobile satellite internet plan (Starlink Roam)	I3	attribute	I3.3.04	I3.3				https://starlink.com/service-plans	Same connection (satellite dish); Roam is a plan of Starlink. Mobility (fixed or portable) is a plan attribute; widen I3.3.04 wording beyond 'home'.
+Fixed-wireless 4G/5G home broadband plan	I3	covered	I3.3.02	I3.3				https://www.three.co.uk/broadband/mobile-broadband	Kind axis is the connection; I3.3.02 already names the router; home use and 4G/5G are attributes (memo C10: technology attribute).
+VPN subscription	I3	other_category					I1	https://proton.me/pricing	P1: a hosted tool valued for what the program does is I1 even when subscribed.
+Password-manager subscription	I3	other_category					I1	https://proton.me/pricing	P1: password manager is I1 software however it is licensed.
+AI-assistant subscription	I3	other_category					I1	https://proton.me/pricing	P1: AI assistant is I1 software, subscribed or not.
+AI plan with bundled storage (Google AI Plus 2 TB)	I3	other_category					I1	https://apps.apple.com/us/app/google-maps/id585027354	P1: a plan named and sold for an AI assistant but carrying storage is I1; Google One storage alone is I3.2.01.
+Home security monitoring plan (sold in a bundle)	I3	other_category					OUT	https://www.allconnect.com/providers/xfinity/bundles	Fails the membership test: staffed monitoring is a service (step 1 OUT); a camera's cloud or app plan is I1 by P11.
+Add-on channel or pack subscription inside another service (Lemino channels, U-NEXT packs, DMM x DAZN, DIRECTV Genre Packs)	I3	attribute	I3.1.3.01	I3.1.3				https://life.oricon.co.jp/rank-svod/special/comparison/vod/	Memo 3.1: add-ons made for one service are plan rows with addon_of (C3); a channel sold on its own stays its own named form.
+Free internet radio (Wikipedia free radio table)	I3	covered	I3.1.1.02	I3.1.1				https://en.wikipedia.org/wiki/Comparison_of_music_streaming_services	Paid radio-network plans are I3.1.1.02; a free tier is a plan row in band 0; free-only ad-supported radio is OUT.
+Livestreaming platforms (paid channel subscriptions)	I3	covered	I3.1.9.02	I3.1.9				https://en.wikipedia.org/wiki/List_of_streaming_media_services	A paid subscription to one channel is a creator membership; the free platform is internet as entertainment (OUT).
+Stock credit packs (Adobe Stock)	I3	other_category					OUT	https://stock.adobe.com/jm/plans	P12: credits bought on their own are OUT; the renewing stock plan is I3.1.8.01.
+Short-visit heritage pass (National Trust Explorer Pass)	I3	covered	I3.4.2.01	I3.4.2				https://www.nationaltrust.org.uk/membership	Same way of entering (one body's sites) for a shorter period; term is a plan attribute.
+Single-game membership bundle (Fortnite Crew)	I3	covered	I3.1.7.02	I3.1.7				https://www.xbox.com/en-US/xbox-game-pass	A subscription sold to play one game is I3.1.7.02; V-Bucks it delivers are OUT (P2), skins I2.
