@@ -1,0 +1,9 @@
+# HOL_DP_10 report (I1, I2, I3; evidence HOL_EV_10)
+
+Offline proposal pass. Outputs: HOL_DP_10_proposals.tsv (3 rows) and HOL_DP_10_groups.tsv (I1 only, the one built category: 12 level-1 and 36 level-2 groups, all 120 kinds placed once, checked by script). Retailer evidence is thin: eBay, Kobo store, Audible, Amazon, Best Buy and Office Depot were blocked. I2 and I3 calls therefore lean on the memos and stage-2 sources and are marked provisional.
+
+**I1 Software.** Main way in: the job the software does, as in heise's tree and Subger's directory. OS and price model are filters. The ladder is job > family of tools > tool > product. Display-only moves, with no id changes: data erasure goes to privacy, diagramming to notes, and screenshot to screen capture. Quality signals are the AV-TEST and AV-Comparatives ladders and the password-manager audit evidence (Cure53, SOC 2, jurisdiction). Maker role stays owner, with a maker-lines tab and a lab-results view by vendor. Flags: a possible firewall kind, and an attribute for adware-free installers.
+
+**I2 Digital media and items.** Shops lead with genre, which the brief bars. So the way in is use (read, listen, watch, view, create with, use in a game, register), and this is provisional. Ownership comes first among the quality markers: DRM-free above watermark, account-locked and locker. Audie Awards rank titles, and I2 does not store titles, so they give no tier entries. Fonts get a foundry tab. Flags: an abridgement attribute, and a decision on how to file comics and manga.
+
+**I3 Subscriptions.** Way in: what the plan gives access to. Level 1 lifts the media leaves (watch, listen, read, play) and puts providers third. Stiftung Warentest does not rank services, so maker ladders and the mobile-network awards are the signals. Flags: sport services, warehouse clubs, and attesting kind 6.
