@@ -1,0 +1,11 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Ribbon microphone (AEA N28)	E3	covered	E3.3.1.05						Added by DPW1_E3.
+Mic preamp / channel strip (RND Shelford 5053, SSL Revival 4000)	E3	new_kind	E3.3.2.03	E3.3.2	Microphone preamp and channel strip	unit that raises a microphone signal to line level, alone or with EQ and dynamics in one channel strip.			Studio outboard sold as its own type; not an interface or mixer; no harvester URL, to HV_E3_NK.
+Hardware audio recorder (Zoom H5studio)	E3	new_kind	E3.3.2.04	E3.3.2	Portable audio recorder	handheld or field recorder with built-in or plug-in microphones that records to a memory card.			Sold as handy or field recorders, compared apart from interfaces; no harvester URL, to HV_E3_NK.
+DAW controller (SSL UC1)	E3	new_kind	E3.3.7.05	E3.3.7	DAW control surface	control surface of faders, knobs and buttons that controls recording software or plug-ins.			Controllers leaf has keyboard, pad, wind and foot types; mixing surfaces are sold apart; to HV_E3_NK.
+Outboard compressor (Warm Audio WA76)	E3	covered	E3.2.2.12						Effect type is the kind; rack format is an attribute (memo 4b).
+Condenser microphone SM4	E3	covered	E3.3.1.01						Condenser microphone; diaphragm size sets .01 or .04 at named-form entry.
+In-ear monitors (Audio-Technica 3000 IEM)	E3	covered	E3.3.4.03						In-ear monitors kind; a set with transmitter is E3.3.4.02.
+Smartwatch (Apple Watch)	E3	other_category	D2.5.01				D2		Smartwatches are D2 (CATEGORIES D2).
+Mixing console software (Waves eMotion LV1)	E3	other_category					I1		Software is I1 by job (E3-4).
+500-series module (API 500; outboard channel-strip module)	E3	new_kind	E3.3.2.05	E3.3.2	500-series module	preamp, EQ or dynamics module built to mount in an API 500-series rack (lunchbox).			Made for one mount system, like the modular synth module (C12(a)); API 500 is a C13 row; to HV_E3_NK.

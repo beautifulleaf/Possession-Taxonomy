@@ -1,0 +1,360 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Western headstall	B10	covered	B10.4.2.01						A headstall is the bridle headgear; Western style is the riding_discipline attribute.
+Gag bit	B10	new_kind	B10.4.2.09	B10.4.2	Gag bit	bit whose cheekpieces slide through rings on the mouthpiece so rein pressure raises it in the mouth (elevator or gag action).		https://millbryhill.co.uk/collections/equestrian-tack-bits	Third bit action beside direct (snaffle) and leverage (curb); sold as its own bit type; gag bridle NF already exists.
+Bradoon (Sprenger)	B10	named_form	B10.4.2.02						Small snaffle of a double bridle; NF-B10.4.2.02-001 Bradoon already stored.
+Wall-mounted cat climbing wall	B10	new_kind	B10.2.2.03	B10.2.2	Wall-mounted cat furniture	shelves, steps, bridges and beds fixed to a wall for a cat to climb and rest on.		https://www.zooplus.ie/shop/cats/scratching_posts/solid_wood_cat_trees	Cat tree is free-standing or pole-fixed; wall systems are sold under their own name and compared apart.
+Robot cat toilet	B10	new_kind	B10.2.3.02	B10.2.3	Self-cleaning litter box	powered cat litter box that rakes, sifts or rotates waste into a sealed bin after use.			Sold as its own category (Litter-Robot type); a product for the animal toilet is B10 (B-33); no fetched page, to HV_B10_NK.
+Cat-litter pail	B10	new_kind	B10.2.3.03	B10.2.3	Litter disposal pail	lidded bin that seals used cat litter in a bag or film until it is emptied.			Sold under its own name (Litter Genie type); toilet product, B-33; no fetched page, to HV_B10_NK.
+Dog or cat life jacket	B10	covered	B10.1.5.01						A garment worn by the dog; buoyancy is an attribute of the dog coat kind.
+Platform feeder	B10	new_kind	B10.8.2.09	B10.8.2	Platform feeder	open tray feeder raised on a pole, hung or fixed to a feeder, from which birds take seed.		https://www.perkypet.com/droll-yankees	Raised tray is not the ground feeder; Droll Yankees Seed Saver Platform shown on the fetched page.
+Droll Yankees Seed Saver	B10	named_form	B10.8.2.09						Product sold as Seed Saver Platform on the fetched page.
+Gardman seed flip-top feeder	B10	named_form	B10.8.2.01						Hanging seed tube with ports; other Gardman Flip Top feeders already sit under nyjer, peanut and suet kinds.
+Horseware Rambo Airmax cooler	B10	named_form	B10.4.3.05						Cooler rug model; Rambo Sport Cooler already stored under this kind.
+Cat-door props and replacement flaps	B10	covered	B10.11.3.03						Spare parts sold for one pet door; stays with the pet door kind (parts note), no kind.
+Frame grip (Mule Frame Grip, Dadant Frame Grip)	B10	new_kind	B10.9.3.06	B10.9.3	Frame grip	hand tool that grips the top bar of a hive frame so it can be lifted out of the box.		https://www.dadant.com/catalog/tools?p=5	Keeper tool sold under its own name; hive tool is a lever, not a grip.
+Mule Frame Holder	B10	covered	B10.9.3.06						Frame-handling keeper tool; filed with the frame grip until a page shows holders as a separate type.
+Queen marking cage	B10	covered	B10.9.3.04						Kind definition names cages in which a queen is marked.
+Queen catcher	B10	covered	B10.9.3.04						Clip cage that holds a caught queen; same function as the queen cage kind.
+Cell cups (JZ-BZ Wide-Base)	B10	named_form	B10.9.3.03						Cell cups are parts of the queen-rearing system kind; JZ-BZ is a maker-bound form.
+Cage-bird nectar and treats	B10	covered	B10.7.5.01						Cage-bird food kind covers treats; lory nectar is a bird_food_form value.
+Weapon-mounted light (Streamlight TLR)	B3	other_category					E4		Made to fit a firearm rail: a weapon accessory (key step, made for one weapon).
+Camera floodlight (Ring Floodlight Cam)	B3	other_category	B8.1.6.3				B8		Camera with built-in lights is a security camera; B8 tree has Floodlight camera; move the stored NF.
+Monitor light bar (BenQ ScreenBar Halo 2)	B3	new_kind	B3.2.1.05	B3.2.1	Monitor light bar	slim bar lamp that clips on top of a computer monitor and throws task light onto the desk without screen glare.			Own retail type, compared apart from arm desk lamps; no harvester URL in fetched.tsv, to HV_B3_NK.
+Smart track bars (Hue Perifo)	B3	covered	B3.1.3.03						Powered rail system; smart control is the connectivity attribute.
+Eschenbach Visolux DIGITAL, Smartlux DIGITAL, Mobilux DIGITAL touch	C6	other_category					H2		Electronic video magnifiers made and sold as low-vision aids: H2 (K-38).
+TFA Monsun and Horizon weather stations	C6	covered	C6.2.5.01						Weather station kind.
+ZWO Seestar S50 Pro smart telescope	C6	covered	C6.1.3.06						Smart telescope kind; NF Seestar S50 Pro already stored.
+Explore Scientific FirstLight 127 Mak-Cassegrain	C6	covered	C6.1.3.04						Maksutov-Cassegrain kind; NF FirstLight Mak-Cass already stored.
+Thames and Kosmos KAI robot kit; fischertechnik Smart Robots Pro	C6	other_category					E1		Programmable robot kit made for play is E1 (K-149, R-22), not a science experiment kit.
+Davis WeatherLink Live gateway	C6	covered	C6.2.5.01						Console or gateway sold for one weather-station system; connectivity is an attribute; no part kind.
+Geoptik Eartha dobsonian platform	C6	named_form	C6.5.1.10						Tilting platform that sets an alt-az (Dobsonian) mount to the sky axis: maker-bound form of the wedge kind.
+FIB-SEM systems (Helios 5 CX, Scios 3, Aquilos 2, Ethos NX5000, Crossbeam)	C6	attribute	C6.1.5.06						A focused ion beam is a column added to an SEM; column_type attribute (single or dual beam); stays electron microscope.
+Telescope focus motor (FocusCube v3, SESTO SENSO 3)	C6	new_kind	C6.5.1.16	C6.5.1	Focus motor	motor unit fitted to the knob shaft of an existing telescope focuser and driven from a computer or hand box to focus.		https://www.astroshop.eu/telescope-accessories/focusers/15_57/m,Explore-Scientific	Fits a focuser rather than being one; sold and compared as motor focusers; the focuser kind is the draw-tube unit.
+Forte VFX1, VPL EyePhone (early VR)	D5	covered	D5.1.3.02						Encloses the eyes and needs a PC or workstation host: tethered VR headset.
+Virtuality 1000CS (arcade VR)	D5	covered	D5.1.4.05						Coin-op pod built around a standing or seated player: environmental cabinet.
+Sega Mega Drive Arcade Ultimate Portable	D5	covered	D5.1.2.03						Handheld with built-in games and LCD; AV out is an attribute.
+N64 Transfer Pak	D5	covered	D5.5.08						Expansion in a format made only for one console.
+N64 Controller Pak and memory cards	D5	covered	D5.5.08						Proprietary memory card kind.
+Mig Flash flash cartridge	D5	new_kind	D5.5.23	D5.5	Flash cartridge	cartridge that loads game images from a memory card so they run on original console hardware.		https://en.wikipedia.org/wiki/Mig_Flash	Not a cheat device or converter; a carrier-loading add-on sold and compared by itself (EverDrive type).
+Thrustmaster rudder pedals	D5	covered	D5.2.3.02						Memo 14: rudder pedals are covered by the pedal set.
+Thrustmaster Viper Panel, MFD Cougar Pack; Saitek Pro Flight Switch, Radio and Multi panels	D5	new_kind	D5.2.3.09	D5.2.3	Flight-sim control panel	panel of switches, knobs, displays or MFD bezels that sends cockpit inputs to a flight simulator.		https://pilotmall.com/collections/flight-simulation-hardware	Not a stick, throttle or yoke; sold as its own type of flight-sim hardware on the fetched page.
+Nyko Zoom for Kinect	D5	named_form	D5.2.4.03						Clip-on lens made only for one console camera; filed with the camera it serves (S3); too few forms for a kind.
+Dreamcast Karaoke	D5	covered	D5.2.5.03						Game microphone made for one console.
+Dreamcast RF Adapter	D5	covered	D5.5.07						Proprietary cable or adapter for one console.
+Super Game Boy	D5	covered	D5.1.5.02						Cartridge converter; NF-D5.1.5.02-001 already stored.
+Satellaview	D5	covered	D5.5.15						Satellite data receiver: network or modem adapter made for one console.
+Music notation software (Finale, Sibelius, Dorico, MuseScore, LilyPond)	I1	new_kind	I1.4.3.06	I1.4.3	Music notation software	Program for writing, engraving and playing back sheet music in standard notation.		https://en.wikipedia.org/wiki/List_of_music_software	Own section of the fetched list; a DAW records and arranges audio, not engraved scores.
+Photo manager and RAW developer (darktable, Lightroom, Capture One, DxO)	I1	covered	I1.4.1.04						Existing kind.
+CAD software (AutoCAD, SolidWorks, FreeCAD)	I1	covered	I1.9.01						Existing kind.
+Download managers (FlashGet, Free Download Manager, KGet)	I1	covered	I1.11.04						Existing kind.
+Business-process and ERP suites	I1	covered	I1.6.3.02						Existing ERP kind.
+Web tax services (WISO, Taxfix, ELSTER, IRS Free File)	I1	covered	I1.6.1.01						Software is filed by job however delivered (owner); hosted tax filing is tax-preparation software.
+DNS and gateway filters (OpenDNS, Zscaler)	I1	covered	I1.2.05						Kind definition includes a hosted filter that blocks web content.
+Mermaid (diagram as code)	I1	covered	I1.4.1.12						Draws flowcharts and diagrams; text input is an attribute.
+Lucidspark (online whiteboard)	I1	new_kind	I1.3.14	I1.3	Online whiteboard	Program or hosted tool giving a shared infinite canvas for sticky notes, sketches and workshops.		https://lucid.co/alternative/visio/best-visio-alternatives	Miro, FigJam and Lucidspark are compared as whiteboards, not diagramming; no I1.3 kind covers a free canvas.
+quiver	I1	covered	I1.3.03						Notebook app for programmers: note-taking app.
+NetGuard, AFWall+	I1	covered	I1.2.07						Android firewalls: firewall software (memo 14).
+Simcenter testing hardware (SCADAS)	I1	other_category					C6		Data-acquisition hardware is a measuring instrument, not software; Testlab software stays I1.9.07.
+Shrimp: whiteleg	J2	covered	J2.1.2.10						White shrimp kind names L. vannamei (whiteleg).
+Shrimp: northern	J2	covered	J2.1.2.08						Northern prawn kind.
+Shrimp: pink	J2	new_kind	J2.1.2.14	J2.1.2	Pink shrimp	Shrimp sold as pink shrimp (Pandalus jordani, Farfantepenaeus duorarum), raw or cooked and peeled.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Crustacean kind is the commercial species or trade name (memo 4b); no kind covers pink shrimp.
+Shrimp: white	J2	covered	J2.1.2.10						White shrimp kind.
+Shrimp: brown (Crangon; GFG brown shrimp)	J2	new_kind	J2.1.2.15	J2.1.2	Brown shrimp [grey shrimp; Nordseekrabben]	Small brown or grey shrimp Crangon crangon, sold cooked and peeled or potted.		https://www.mcsuk.org/goodfishguide/species/brown-shrimp/	Own commercial species and product (potted shrimps); GFG species page fetched.
+Shrimp: brown (Gulf, Farfantepenaeus aztecus)	J2	new_kind	J2.1.2.16	J2.1.2	Gulf brown shrimp	Brown shrimp Farfantepenaeus aztecus of the Gulf of Mexico and US Atlantic, sold raw or frozen.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Sold and rated apart from white and pink Gulf shrimp; Crangon brown shrimp is a different animal.
+Shrimp: blue	J2	new_kind	J2.1.2.17	J2.1.2	Blue shrimp	Shrimp Litopenaeus stylirostris sold as blue shrimp (crevette bleue), raw or frozen.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Commercial species sold under its own name; white shrimp kind names only vannamei and setiferus.
+Shrimp: giant tiger	J2	covered	J2.1.2.11						Tiger prawn kind (Penaeus monodon).
+Shrimp: brown tiger	J2	covered	J2.1.2.11						Sold under the name tiger prawn; scientific_name records P. esculentus.
+Shrimp: Argentine red	J2	covered	J2.1.2.09						Existing kind.
+Shrimp: royal red	J2	new_kind	J2.1.2.18	J2.1.2	Royal red shrimp	Deep-water shrimp Pleoticus robustus sold as royal red, raw or frozen.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Commercial species with its own trade name; Argentine red shrimp is P. muelleri.
+Shrimp: spot	J2	covered	J2.1.2.07						Existing kind.
+Pink salmon	J2	new_kind	J2.1.1.56	J2.1.1	Pink salmon [humpback]	Raw Pacific salmon Oncorhynchus gorbuscha, sold whole, in pieces or as fillets.		https://www.mcsuk.org/goodfishguide/species/pink-salmon/	Salmon species are sold and priced apart (memo 4b); GFG species page fetched.
+Brook trout	J2	covered	J2.1.1.07						Salvelinus fontinalis: the char kind covers the genus Salvelinus.
+Lake trout	J2	covered	J2.1.1.07						Salvelinus namaycush: the char kind covers the genus Salvelinus.
+Brown trout	J2	covered	J2.1.1.50						Sea trout or brown trout kind.
+Albacore tuna	J2	new_kind	J2.1.1.57	J2.1.1	Albacore tuna [white tuna; bonito del norte]	Raw albacore tuna Thunnus alalunga, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Tuna species each a kind (HS sub-headings, memo 4b); memo 14 notes no raw albacore kind.
+Skipjack tuna	J2	new_kind	J2.1.1.58	J2.1.1	Skipjack tuna [katsuo]	Raw skipjack tuna Katsuwonus pelamis, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Bigeye tuna	J2	new_kind	J2.1.1.59	J2.1.1	Bigeye tuna [mebachi]	Raw bigeye tuna Thunnus obesus, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Tuna species each a kind (memo 4b); memo 14 notes no raw bigeye kind.
+Blackfin, longtail and frigate tuna	J2	new_kind	J2.1.1.60	J2.1.1	Small tunas [blackfin; longtail (tongol); frigate; bullet]	Raw tuna of the smaller species (Thunnus atlanticus, T. tonggol, Auxis), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Minor tunas grouped at the trade level, as snapper and grouper are; J2.1.1 ids would pass .99 otherwise.
+Blackfin tuna	J2	covered	J2.1.1.60						Thunnus atlanticus: small tunas kind.
+Longtail tuna	J2	covered	J2.1.1.60						Thunnus tonggol: small tunas kind.
+Frigate tuna	J2	covered	J2.1.1.60						Auxis: small tunas kind.
+Marlins	J2	new_kind	J2.1.1.61	J2.1.1	Marlin [kajiki]	Raw marlin (Makaira, Istiompax, Kajikia) or spearfish (Tetrapturus), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Billfish sold as marlin steaks; swordfish has its own kind; species group kept at the trade name.
+Spearfish	J2	covered	J2.1.1.61						Billfish sold beside marlin (hebi); the marlin kind definition includes it.
+Sharks (incl. spurdog, dogfish)	J2	new_kind	J2.1.1.62	J2.1.1	Shark [huss; dogfish; mako]	Raw shark meat (Squalus, Isurus, Scyliorhinus and relatives), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Sold as shark steaks or huss; no kind covers shark flesh (smoked dogfish belly is J2.2.07).
+Spurdog	J2	covered	J2.1.1.62						Spiny dogfish Squalus acanthias: shark kind.
+Skates and rays (incl. blonde ray)	J2	new_kind	J2.1.1.63	J2.1.1	Skate or ray [wings]	Raw skate or ray wings (Rajidae), sold whole, in pieces or as fillets.		https://www.directseafoods.co.uk/wp-content/uploads/pdf/direct-seafoods-seasonality-chart.pdf	Sold as skate wings under its own name; no kind covers rays.
+Blonde ray	J2	covered	J2.1.1.63						Raja brachyura: skate or ray kind.
+Mahi-mahi	J2	new_kind	J2.1.1.64	J2.1.1	Mahi-mahi [dolphinfish; dorado]	Raw mahi-mahi Coryphaena hippurus, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Snappers	J2	covered	J2.1.1.37						Snapper kind (Lutjanus and relatives).
+Groupers	J2	covered	J2.1.1.36						Grouper kind.
+Rockfish	J2	covered	J2.1.1.47						Rockfish kind (Sebastes).
+Redfish	J2	covered	J2.1.1.47						Kind alias redfish; Sebastes.
+Flounders	J2	covered	J2.1.1.34						Flounder kind.
+Soles (US Pacific soles)	J2	covered	J2.1.1.34						"US ""sole"" is Pleuronectid flounder (petrale, rex); common sole is Dover sole J2.1.1.38."
+Alaska plaice, American plaice	J2	covered	J2.1.1.34						Pleuronectid flatfish other than Pleuronectes platessa: flounder kind and relatives.
+Turbot	J2	covered	J2.1.1.45						Existing kind.
+White, red and southern hake (Urophycis)	J2	new_kind	J2.1.1.65	J2.1.1	Phycid hake [white hake; red hake]	Raw phycid hake (Urophycis), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Sold as hake but not Merluccius, which the hake kind is limited to; species test (memo 4b).
+Hoki	J2	new_kind	J2.1.1.66	J2.1.1	Hoki [blue grenadier]	Raw hoki Macruronus novaezelandiae and relatives, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Ling	J2	new_kind	J2.1.1.67	J2.1.1	Ling	Raw ling (Molva), sold whole, in pieces or as fillets.		https://www.directseafoods.co.uk/wp-content/uploads/pdf/direct-seafoods-seasonality-chart.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Lingcod	J2	new_kind	J2.1.1.68	J2.1.1	Lingcod	Raw lingcod Ophiodon elongatus, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Cusk (tusk)	J2	new_kind	J2.1.1.69	J2.1.1	Tusk [cusk; torsk]	Raw tusk or cusk Brosme brosme, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Tusk	J2	covered	J2.1.1.69						Brosme brosme: same species as cusk.
+Wolffish	J2	new_kind	J2.1.1.70	J2.1.1	Wolffish [Atlantic catfish; Steinbeisser]	Raw wolffish (Anarhichas), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Black sea bass	J2	new_kind	J2.1.1.71	J2.1.1	Black sea bass	Raw black sea bass Centropristis striata, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Striped bass	J2	new_kind	J2.1.1.72	J2.1.1	Striped bass [rockfish (US East)]	Raw striped bass Morone saxatilis or its farmed hybrid, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Sunshine bass (hybrid striped bass)	J2	covered	J2.1.1.72						Farmed Morone hybrid: the striped bass kind definition includes it.
+US bass (national guide)	J2	covered	J2.1.1.72						Guide row scoped to bass; enter per species (striped bass, black sea bass).
+White seabass	J2	covered	J2.1.1.30						Atractoscion nobilis is a croaker (Sciaenidae).
+Meagre	J2	covered	J2.1.1.30						Argyrosomus regius is a croaker (Sciaenidae).
+Catfish	J2	covered	J2.1.1.33						Existing kind.
+Basa	J2	covered	J2.1.1.27						Pangasius kind alias basa.
+Carp	J2	covered	J2.1.1.44						Existing kind.
+Perch	J2	new_kind	J2.1.1.73	J2.1.1	Perch [Barsch; yellow perch]	Raw perch (Perca), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Walleye	J2	covered	J2.1.1.43						Sander vitreus, the American pike-perch; zander kind with scientific_name.
+Pike	J2	new_kind	J2.1.1.74	J2.1.1	Pike [Hecht]	Raw pike (Esox), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Whitefish	J2	covered	J2.1.1.52						Existing kind.
+Smelt	J2	covered	J2.1.1.35						Existing kind.
+Capelin	J2	covered	J2.1.1.35						Mallotus villosus is an Osmerid: smelt kind and relatives; roe is J2.5.3.03.
+Anchovy	J2	covered	J2.1.1.55						Existing kind.
+Sprat	J2	new_kind	J2.1.1.75	J2.1.1	Sprat [brisling]	Raw sprat Sprattus sprattus, sold whole, in pieces or as fillets.		https://www.directseafoods.co.uk/wp-content/uploads/pdf/direct-seafoods-seasonality-chart.pdf	Fresh sprats sold by name; smoked and tinned sprats already have kinds.
+Menhaden	J2	covered	J2.1.1.22						Herring-family fish (Brevoortia) taken mostly for oil and bait; where sold to eat, herring kind and relatives.
+Scad and horse mackerel	J2	covered	J2.1.1.31						Scad kind names Trachurus.
+Atka mackerel	J2	new_kind	J2.1.1.76	J2.1.1	Atka mackerel [hokke]	Raw Atka mackerel (Pleurogrammus), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	A greenling, not Scomber; sold as hokke in Japan; species test.
+King and Spanish mackerel	J2	new_kind	J2.1.1.77	J2.1.1	Spanish mackerel [king mackerel; seer fish; sawara]	Raw Spanish or king mackerel (Scomberomorus), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Mackerel kind is Scomber only; Scomberomorus is sold apart as kingfish, seer or sawara.
+Wahoo	J2	new_kind	J2.1.1.78	J2.1.1	Wahoo [ono]	Raw wahoo Acanthocybium solandri, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Cobia	J2	new_kind	J2.1.1.79	J2.1.1	Cobia	Raw cobia Rachycentron canadum, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Pompano	J2	new_kind	J2.1.1.80	J2.1.1	Pompano [golden pompano]	Raw pompano (Trachinotus), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Carangid sold as pompano; pomfret kind covers Pampus and Bramidae only.
+Amberjack (incl. Almaco jack)	J2	new_kind	J2.1.1.81	J2.1.1	Amberjack and yellowtail [kampachi; buri; hamachi; kingfish]	Raw amberjack or yellowtail of the genus Seriola (S. dumerili, S. rivoliana, S. quinqueradiata, S. lalandi), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Seriola sold as amberjack, buri or kingfish; one genus kind, as snapper; growth-stage names are named forms.
+Almaco jack	J2	covered	J2.1.1.81						Seriola rivoliana: amberjack kind definition names it.
+Yellowtail (buri)	J2	covered	J2.1.1.81						Seriola quinqueradiata: amberjack and yellowtail kind; hamachi and buri are growth-stage named forms.
+Patagonian toothfish (Chilean seabass)	J2	covered	J2.1.1.46						Existing kind.
+Orange roughy	J2	new_kind	J2.1.1.82	J2.1.1	Orange roughy	Raw orange roughy Hoplostethus atlanticus, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Croaker and drum	J2	covered	J2.1.1.30						Croaker kind names drums (Sciaenidae).
+Bluefish	J2	new_kind	J2.1.1.83	J2.1.1	Bluefish	Raw bluefish Pomatomus saltatrix, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Sturgeon (flesh)	J2	new_kind	J2.1.1.84	J2.1.1	Sturgeon	Raw sturgeon or paddlefish flesh (Acipenseriformes), sold whole, in pieces or as fillets.		https://www.mcsuk.org/goodfishguide/species/sturgeon/	Raw sturgeon is sold apart from its roe; tinned sturgeon has a kind; GFG species page fetched.
+Paddlefish (flesh)	J2	covered	J2.1.1.84						Acipenseriform; sturgeon kind definition names paddlefish; its roe is J2.5.1.10.
+Clams and quahogs	J2	covered	J2.1.3.13						Mollusc kind is the animal type; quahog is a named form of clam (memo 4b).
+Cockles	J2	covered	J2.1.3.15						Existing kind.
+Geoduck	J2	named_form	J2.1.3.13						Clam species sold by name; mollusc species are named forms (memo 4b).
+Whelk	J2	covered	J2.1.3.07						Existing kind.
+Conch	J2	new_kind	J2.1.3.17	J2.1.3	Conch	Large sea snail of the conch family (Strombidae, queen conch) sold as meat for eating.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	A different animal type from whelks (Buccinidae); tinned conch shares J2.4.25, raw conch had no kind.
+Krill	J2	other_category					H2		Sold to shoppers as krill oil supplement (H2); frozen krill is feed (B10); no grocery kind.
+Crayfish	J2	covered	J2.1.2.13						Existing kind.
+Squat lobster and langostino	J2	new_kind	J2.1.2.19	J2.1.2	Squat lobster [langostino]	Squat lobster (Munida, Pleuroncodes, Cervimunida) sold as langostino tails, raw or cooked.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Not a lobster or langoustine by species; sold under its own trade name.
+Mullet (grey); tainha; sea mullet	J2	new_kind	J2.1.1.85	J2.1.1	Grey mullet [tainha; sea mullet]	Raw grey mullet (Mugil and relatives), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Grey mullet is sold by name; red mullet (Mullus) is J2.1.1.40.
+Tainha	J2	covered	J2.1.1.85						Mugil liza, Brazilian grey mullet.
+Sea mullet	J2	covered	J2.1.1.85						Mugil cephalus (Australia).
+Milkfish	J2	covered	J2.1.1.32						Existing kind.
+Opah	J2	new_kind	J2.1.1.86	J2.1.1	Opah [moonfish]	Raw opah (Lampris), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Lionfish	J2	new_kind	J2.1.1.87	J2.1.1	Lionfish	Raw lionfish (Pterois), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Hagfish	J2	new_kind	J2.1.1.88	J2.1.1	Hagfish [kkomjangeo]	Raw hagfish (Myxinidae), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Sold as food in Korea and rated by Seafood Watch; no kind covers it.
+Conger eel	J2	new_kind	J2.1.1.89	J2.1.1	Conger eel [anago]	Raw conger eel (Conger), sold whole, in pieces or as fillets.		https://www.mcsuk.org/goodfishguide/species/conger-eel/	Eel kind is Anguilla only; conger sold by name (anago); GFG species page fetched.
+Northern prawn (GFG)	J2	covered	J2.1.2.08						Existing kind.
+Tiger prawn (GFG)	J2	covered	J2.1.2.11						Existing kind.
+Pollack	J2	covered	J2.1.1.10						Pollachius pollachus; pollock kind holds Pollachius; scientific_name records the species.
+Whiting	J2	new_kind	J2.1.1.90	J2.1.1	Whiting	Raw whiting Merlangius merlangus, sold whole, in pieces or as fillets.		https://www.directseafoods.co.uk/wp-content/uploads/pdf/direct-seafoods-seasonality-chart.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Red mullet	J2	covered	J2.1.1.40						Existing kind.
+Dab	J2	covered	J2.1.1.34						Limanda limanda is a pleuronectid: flounder kind and relatives, as Alaska and American plaice.
+Cuttlefish	J2	covered	J2.1.3.16						Existing kind.
+Crawfish (UK spiny lobster)	J2	covered	J2.1.2.05						Lobster kind covers spiny lobster.
+Wreckfish	J2	new_kind	J2.1.1.91	J2.1.1	Wreckfish [stone bass; cherne]	Raw wreckfish Polyprion americanus, sold whole, in pieces or as fillets.			Sold as stone bass; no fetched page, to HV_J2_NK.
+John Dory	J2	covered	J2.1.1.42						Existing kind.
+Black bream; yellowfin bream	J2	new_kind	J2.1.1.92	J2.1.1	Black sea bream	Raw black sea bream (Spondyliosoma, Acanthopagrus), sold whole, in pieces or as fillets.			Sparid sold apart from gilthead bream; no fetched page names it, to HV_J2_NK.
+Yellowfin bream	J2	covered	J2.1.1.92						Acanthopagrus australis: black sea bream kind (Acanthopagrus).
+Brill	J2	covered	J2.1.1.45						Scophthalmus rhombus, same genus as turbot; scientific_name records it; turbot kind.
+Seaweed (national guide)	J2	other_category					J4		Edible seaweeds are J4 (fresh) or J5.10.1.02 (dried).
+Unspecified salmon, trout, tuna (guide rows)	J2	attribute							Guide rows scoped to a whole group; enter one tier row per species kind (scope), no fallback finfish kind.
+Sea trout	J2	covered	J2.1.1.50						Existing kind.
+Skrei	J2	named_form	J2.1.1.08						Seasonal Norwegian spawning cod sold under a quality-label name: non-maker named form of cod.
+Pouting	J2	new_kind	J2.1.1.93	J2.1.1	Pouting [bib]	Raw pouting Trisopterus luscus, sold whole, in pieces or as fillets.		https://www.directseafoods.co.uk/wp-content/uploads/pdf/direct-seafoods-seasonality-chart.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Japanese sea bream (madai)	J2	new_kind	J2.1.1.94	J2.1.1	Red sea bream [madai]	Raw red sea bream (Pagrus major, Pagrus pagrus), sold whole, in pieces or as fillets.		https://www.pref.shimane.lg.jp/industry/suisan/chiho_kikan/matsue_suisan/suisansinkou/shun/index.html	Premium sparid sold by name; gilthead bream kind is Sparus aurata only.
+Tiger flathead	J2	new_kind	J2.1.1.95	J2.1.1	Flathead	Raw flathead (Platycephalidae), sold whole, in pieces or as fillets.		https://www.sydneyfishmarket.com.au/wp-content/uploads/2026/01/Summer-Review-2023-004.pdf	Australian staple sold as flathead fillets; species group at trade name.
+King George whiting	J2	new_kind	J2.1.1.96	J2.1.1	Sillago whiting [King George whiting; kisu]	Raw sillago or King George whiting (Sillaginidae), sold whole, in pieces or as fillets.			Not Merlangius; sold by name in Australia and Japan; no fetched page, to HV_J2_NK.
+Garfish	J2	new_kind	J2.1.1.97	J2.1.1	Garfish [sayori]	Raw garfish or halfbeak (Belonidae, Hemiramphidae), sold whole, in pieces or as fillets.			Sold by name in Europe, Australia and Japan; no fetched page, to HV_J2_NK.
+Snoek	J2	new_kind	J2.1.1.98	J2.1.1	Snoek [barracouta]	Raw snoek Thyrsites atun, sold whole, in pieces or as fillets.			South African and NZ staple sold by name; no fetched page, to HV_J2_NK.
+Blue cod	J2	new_kind	J2.1.1.99	J2.1.1	Blue cod	Raw New Zealand blue cod Parapercis colias, sold whole, in pieces or as fillets.			Not a gadid cod; sold by name in New Zealand; no fetched page, to HV_J2_NK.
+Parsnip	J4	new_kind	J4.2.3.16	J4.2.3	Parsnip	fresh or frozen parsnip root (Pastinaca sativa).		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	Species or commodity sold under its own name (memo 4b); no J4 kind covers it.
+Swede	J4	new_kind	J4.2.3.17	J4.2.3	Swede [rutabaga]	fresh swede (Brassica napus var. napobrassica); turnip is J4.2.3.11.		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	A different species from turnip, sold under its own name; species test.
+Celeriac	J4	new_kind	J4.2.3.18	J4.2.3	Celeriac [celery root]	fresh celeriac root (Apium graveolens var. rapaceum).		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	Sold as its own root commodity apart from stalk celery J4.2.7.02.
+Jerusalem artichoke	J4	new_kind	J4.2.3.19	J4.2.3	Jerusalem artichoke [sunchoke]	fresh tubers of Helianthus tuberosus.		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	Species or commodity sold under its own name (memo 4b); no J4 kind covers it.
+Salsify	J4	new_kind	J4.2.3.20	J4.2.3	Salsify [scorzonera]	fresh salsify or black salsify roots (Tragopogon, Scorzonera).		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	Species or commodity sold under its own name (memo 4b); no J4 kind covers it.
+Chard / silver beet	J4	new_kind	J4.2.1.11	J4.2.1	Chard [Swiss chard, silver beet]	fresh chard leaves and stalks (Beta vulgaris, Cicla group).		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	Species or commodity sold under its own name (memo 4b); no J4 kind covers it.
+Pak choi	J4	new_kind	J4.2.2.07	J4.2.2	Pak choi [bok choy]	fresh pak choi (Brassica rapa, Chinensis group).		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	Species or commodity sold under its own name (memo 4b); no J4 kind covers it.
+Asian greens	J4	covered	J4.2.2.07						Shop group name, not a type: each green is its own kind (pak choi, gai lan, komatsuna, mizuna, Chinese cabbage).
+Komatsuna	J4	new_kind	J4.2.2.08	J4.2.2	Komatsuna [Japanese mustard spinach]	fresh komatsuna (Brassica rapa var. perviridis).		https://www.maff.go.jp/tohoku/monosiritai/syokutaku/tabemono.html	Species or commodity sold under its own name (memo 4b); no J4 kind covers it.
+Mizuna	J4	new_kind	J4.2.1.12	J4.2.1	Mizuna	fresh mizuna leaves (Brassica rapa var. nipposinica), sold as a salad or cooking green.		https://www.maff.go.jp/tohoku/monosiritai/syokutaku/tabemono.html	Species or commodity sold under its own name (memo 4b); no J4 kind covers it.
+Napa cabbage	J4	new_kind	J4.2.2.09	J4.2.2	Chinese cabbage [napa cabbage, hakusai, Chinese leaf]	fresh Chinese cabbage (Brassica rapa, Pekinensis group); head cabbage is J4.2.2.02.		https://www.maff.go.jp/tohoku/monosiritai/syokutaku/tabemono.html	A different species from head cabbage, sold under its own name in every region; species test.
+Welsh onion (negi)	J4	new_kind	J4.2.4.09	J4.2.4	Welsh onion [negi, Japanese long onion]	fresh Allium fistulosum sold as long white-shanked negi; young salad onions stay J4.2.4.04.		https://www.maff.go.jp/tohoku/monosiritai/syokutaku/tabemono.html	Own species and commodity in East Asia; C11 label with regional name.
+Gooseberry	J4	new_kind	J4.1.4.09	J4.1.4	Gooseberry	fresh or frozen gooseberry (Ribes uva-crispa).		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	Species or commodity sold under its own name (memo 4b); no J4 kind covers it.
+Greengage	J4	named_form	J4.1.2.03						A plum cultivar group (Reine Claude): cultivar is a variety under plum, not a kind.
+Damson	J4	named_form	J4.1.2.03						A plum type (Prunus insititia) sold beside plums: variety under plum.
+Redcurrant	J4	new_kind	J4.1.4.10	J4.1.4	Redcurrant and white currant	fresh or frozen red or white currants (Ribes rubrum).		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	Different species from blackcurrant J4.1.4.06; sold under its own name.
+Quince	J4	new_kind	J4.1.1.06	J4.1.1	Quince [membrillo]	fresh quince (Cydonia oblonga), sold to cook.		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	Species or commodity sold under its own name (memo 4b); no J4 kind covers it.
+Elderberry	J4	new_kind	J4.1.4.11	J4.1.4	Elderberry	fresh or frozen elderberries (Sambucus).		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	Species or commodity sold under its own name (memo 4b); no J4 kind covers it.
+Broad bean	J4	new_kind	J4.2.6.05	J4.2.6	Broad bean [fava bean]	fresh or frozen broad beans (Vicia faba), in or out of the pod; dried beans are J5.		https://hubbub.org.uk/how-to-eat-seasonally-in-the-uk-a-month-by-month-guide	Species or commodity sold under its own name (memo 4b); no J4 kind covers it.
+Bordeaux white blend (dry white)	J7	covered	J7.1.2.07						White blend kind; Graves white estates get it, not Sauvignon Blanc.
+Gin: Classic, Contemporary, Flavoured	J7	covered	J7.5.4.02						Distilled and compound gin (DPW1_J7).
+Rum, base not stated (Hampden)	J7	covered	J7.5.3.03						Molasses is the default rum base; cane-juice rum and cachaca are filed only when stated.
+Franciacorta	J7	named_form	J7.1.5.05						Designation binding one kind (other sparkling wine): non-maker named form with designation_id (JC1).
+English sparkling wine	J7	attribute	J7.1.5.05						Origin is a tag, not a kind or form (CATEGORIES J7: other appellations are tags).
+Vinsanto / Vin Santo	J7	named_form	J7.1.6.05						Traditional dried-grape wine named by many makers: non-maker named form.
+Passito	J7	covered	J7.1.6.05						Dried-grape wine kind.
+Cabernet Franc	J7	new_kind	J7.1.1.13	J7.1.1	Cabernet Franc	still red wine made mainly from the Cabernet Franc grape.			Grape is the still-wine kind (J-16); IWSC and DWWA winners; no harvester URL, to HV_J7_NK.
+Malbec	J7	covered	J7.1.1.08						Added by DPW1_J7.
+Merlot	J7	covered	J7.1.1.07						Added by DPW1_J7.
+Riesling	J7	covered	J7.1.2.04						Added by DPW1_J7.
+Gruner Veltliner	J7	new_kind	J7.1.2.08	J7.1.2	Gruner Veltliner	still white wine made mainly from the Gruner Veltliner grape.			Grape kind (J-16); competition winner; no harvester URL, to HV_J7_NK.
+Semillon	J7	new_kind	J7.1.2.09	J7.1.2	Semillon	still dry white wine made mainly from the Semillon grape; sweet Sauternes stays J7.1.6.02.			Grape kind (J-16); Hunter Semillon winners; no harvester URL, to HV_J7_NK.
+Carmenere	J7	new_kind	J7.1.1.14	J7.1.1	Carmenere	still red wine made mainly from the Carmenere grape.			Grape kind (J-16); Chilean winners; no harvester URL, to HV_J7_NK.
+Chablis (grape not stated)	J7	covered	J7.1.2.01						Chablis is made only from Chardonnay; appellation is a tag, grand crus are named forms (J-16).
+Burgundy (grape not stated)	J7	covered	J7.1.2.01						White Burgundy is Chardonnay, red is Pinot Noir J7.1.1.01; appellation a tag.
+Pouilly-Fume	J7	covered	J7.1.2.02						Made only from Sauvignon Blanc; appellation a tag.
+Barolo	J7	covered	J7.1.1.05						Nebbiolo kind (already placed by QS_J7_2).
+Canadian whisky	J7	new_kind	J7.5.1.10	J7.5.1	Canadian whisky	grain whisky made and aged at least three years in Canada under the Canadian whisky rule, often blended.			Legal production type sold as its own shop category; no grain kind holds it; to HV_J7_NK.
+Tennessee whiskey	J7	named_form	J7.5.1.06						One-kind state designation under bourbon (DPW1_J7).
+Wheat whiskey	J7	new_kind	J7.5.1.11	J7.5.1	Wheat whiskey	whiskey distilled mainly from wheat.			Grain base decides the kind, as rye and corn; SFWSC class; no harvester URL, to HV_J7_NK.
+American whiskey (style not stated)	J7	attribute							Country is a tag; the row takes the grain or production kind its page states (bourbon, rye, single malt).
+Sparkling sake	J7	new_kind	J7.4.09	J7.4	Sparkling sake [awa sake]	sake carbonated by bottle fermentation or added gas.			Carbonation changes the product as for wine; IWC and Kura Master class; no harvester URL, to HV_J7_NK.
+Aged sake (koshu)	J7	attribute	J7.4.01						Age is an attribute (CATEGORIES J7); koshu takes its designation kind.
+Ginjo and daiginjo sake (non-junmai)	J7	covered	J7.4.02						Sake with brewer's alcohol; polishing grade is an attribute.
+Munich Dunkel	J7	new_kind	J7.2.2.02	J7.2.2	Munich Dunkel	dark, malty Bavarian lager (BJCP 8A).			BJCP style in the dark lager family; World Beer Cup class; no harvester URL, to HV_J7_NK.
+Schwarzbier	J7	new_kind	J7.2.2.03	J7.2.2	Schwarzbier	very dark, dry German lager with a restrained roast (BJCP 8B).			BJCP style in the dark lager family; no harvester URL, to HV_J7_NK.
+Bock	J7	new_kind	J7.2.6.02	J7.2.6	Dunkles Bock	strong, dark, malty German lager, the traditional bock (BJCP 6C).			BJCP style in the bock leaf beside doppelbock; no harvester URL, to HV_J7_NK.
+Weissbier	J7	covered	J7.2.3.02						Added by DPW1_J7.
+Mexican lager	J7	covered	J7.2.1.02						BJCP International Pale Lager includes the Mexican pale lagers.
+Kolsch	J7	new_kind	J7.2.7.03	J7.2.7	Kolsch	pale, clean, top-fermented and cold-conditioned ale of Cologne (BJCP 5B).			BJCP style in the pale ale family; World Beer Cup class; no harvester URL, to HV_J7_NK.
+IPA and other ales	J7	covered	J7.2.8.02						IPA has four kinds (DPW1_J7); other ales enter as BJCP styles when a fetched page names one.
+RTD wine-based drinks	J7	covered	J7.7.04						Canned spritzer or ready-to-drink mixed drink J7.7.01.
+Aromatised wine other than vermouth	J7	new_kind	J7.1.8.04	J7.1.8	Aromatised wine-based drink [sangria; Gluhwein]	wine flavoured with fruit, spices or herbs and not fortified, sold as sangria, mulled wine and the like.			EU aromatised wine-based drink class; vermouth, retsina and quinquina do not cover it; to HV_J7_NK.
+Ribbon microphone (AEA N28)	E3	covered	E3.3.1.05						Added by DPW1_E3.
+Mic preamp / channel strip (RND Shelford 5053, SSL Revival 4000)	E3	new_kind	E3.3.2.03	E3.3.2	Microphone preamp and channel strip	unit that raises a microphone signal to line level, alone or with EQ and dynamics in one channel strip.			Studio outboard sold as its own type; not an interface or mixer; no harvester URL, to HV_E3_NK.
+Hardware audio recorder (Zoom H5studio)	E3	new_kind	E3.3.2.04	E3.3.2	Portable audio recorder	handheld or field recorder with built-in or plug-in microphones that records to a memory card.			Sold as handy or field recorders, compared apart from interfaces; no harvester URL, to HV_E3_NK.
+DAW controller (SSL UC1)	E3	new_kind	E3.3.7.05	E3.3.7	DAW control surface	control surface of faders, knobs and buttons that controls recording software or plug-ins.			Controllers leaf has keyboard, pad, wind and foot types; mixing surfaces are sold apart; to HV_E3_NK.
+Outboard compressor (Warm Audio WA76)	E3	covered	E3.2.2.12						Effect type is the kind; rack format is an attribute (memo 4b).
+Condenser microphone SM4	E3	covered	E3.3.1.01						Condenser microphone; diaphragm size sets .01 or .04 at named-form entry.
+In-ear monitors (Audio-Technica 3000 IEM)	E3	covered	E3.3.4.03						In-ear monitors kind; a set with transmitter is E3.3.4.02.
+Smartwatch (Apple Watch)	E3	other_category	D2.5.01				D2		Smartwatches are D2 (CATEGORIES D2).
+Mixing console software (Waves eMotion LV1)	E3	other_category					I1		Software is I1 by job (E3-4).
+500-series module (API 500; outboard channel-strip module)	E3	new_kind	E3.3.2.05	E3.3.2	500-series module	preamp, EQ or dynamics module built to mount in an API 500-series rack (lunchbox).			Made for one mount system, like the modular synth module (C12(a)); API 500 is a C13 row; to HV_E3_NK.
+Automaton watch (Dior Grand Soir Automate, Van Cleef Lady Arpels)	A5	attribute	A5.1.1.01						Automaton is a complication value; not among the A-23 defining tests, so time-only unless another test applies.
+Day/night indicator	A5	attribute							Display complication value; the watch takes its kind by A-23 precedence.
+Seasons display (Chopard Imperiale Four Seasons)	A5	attribute							Astronomical display value, as tellurium (DPW1_A5); kind by precedence.
+Foudroyante (jumping seconds)	A5	attribute							Complication value; a foudroyante is not a chronograph mechanism.
+Greubel Forsey Nano Foudroyante	A5	covered	A5.1.7.01						Memo tree lists it under tourbillon watch.
+Repeater / sonnerie (Christopher Ward Bel Canto, Bovet Recital)	A5	new_kind	A5.1.6.03	A5.1.6	Sonnerie watch	wristwatch that strikes the hours, and in a grande sonnerie the quarters, on its own as they pass.			Striking leaf tests a repeater or alarm; striking in passing is its own complication class; to HV_A5_NK.
+Minute repeater (repeater part of the item)	A5	covered	A5.1.6.02						Repeater on demand is the minute-repeater kind.
+Hautlence Sphere	A5	covered	A5.1.1.04						Jumping hours on a sphere: jumping-hours watch (display is the form, A-23).
+Ulysse Nardin Freak One; MB&F HM6	A5	covered	A5.1.7.01						Rotating escapement carrier (carrousel, flying tourbillon): tourbillon leaf.
+Pieces with no defining test stated (M.A.D.2, Dennison, Otsuka Lotec No.6, Berneron Mirage, Maison Alcee Persee, Fam Al Hut Mobius, Voutilainen 28GML, Bovet Recital 28/20)	A5	covered	A5.1.1.01						Time-only fallback until a fetched page shows an A-23 complication; check at named-form entry.
+Striking clock	A5	attribute							Strike is a movement attribute; placement decides the clock kind (memo FindArtInfo note).
+Mechanical clocks (L'Epee x MB&F Albatross, L'Epee Time Fast II, Anton Suhanov clock)	A5	covered	A5.3.2.04						Clocks standing on a desk or table: placement kind desk clock.
+Beef flank	J1	new_kind	J1.1.1.17	J1.1.1	Flank steak	beef steak cut from the flank, the abdominal muscle behind the plate.		https://www.44steaks.com/collections/butchers-cuts	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Beef hanger	J1	new_kind	J1.1.1.18	J1.1.1	Hanger steak	beef steak from the hanging tender of the diaphragm (onglet).			Named retail cut (J-1); hanger not shown in the fetched summaries; to HV_J1_NK.
+Beef tri-tip	J1	new_kind	J1.1.1.19	J1.1.1	Tri-tip	triangular beef roast or steak from the bottom sirloin.		https://www.44steaks.com/collections/butchers-cuts	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Bavette	J1	named_form	J1.1.1.17						National name below the retail cut (French flank or flap): non-maker named form (memo 4b).
+Standing rib roast / prime rib	J1	new_kind	J1.1.1.20	J1.1.1	Rib roast (standing rib, prime rib)	beef roasting joint from the rib section, bone-in or boneless.		https://www.dartagnan.com/buy/meat-game	Roast and steak from one section are different retail cuts (ribeye is the steak); J-1.
+Eye of round roast	J1	new_kind	J1.1.1.21	J1.1.1	Eye of round	lean cylindrical beef roast from the round (hindquarter).		https://www.blackwing.com/beef.html	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Top round roast	J1	new_kind	J1.1.1.22	J1.1.1	Top round (topside)	beef roasting joint or steak from the inside of the round.		https://www.blackwing.com/beef.html	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Oxtail	J1	new_kind	J1.1.1.23	J1.1.1	Oxtail	the tail of cattle, sold raw in sections to braise.		https://www.blackwing.com/beef.html	Offal is the organ or part per animal (memo 4b, J-3); no beef kind covers the tail.
+Beef liver	J1	new_kind	J1.1.1.24	J1.1.1	Beef liver	the liver of cattle, sold raw.		https://www.blackwing.com/beef.html	Offal is the organ per animal (memo 4b, J-3).
+Beef heart	J1	new_kind	J1.1.1.25	J1.1.1	Beef heart	the heart of cattle, sold raw.		https://www.blackwing.com/beef.html	Offal is the organ per animal (memo 4b, J-3).
+Beef kidney	J1	new_kind	J1.1.1.26	J1.1.1	Beef kidney	the kidney of cattle, sold raw.		https://www.blackwing.com/beef.html	Offal is the organ per animal (memo 4b, J-3).
+Veal chops	J1	new_kind	J1.1.2.02	J1.1.2	Veal chop	veal chop cut from the rib or loin, bone-in.		https://www.dartagnan.com/buy/meat-game	Veal leaf follows the beef rule: named retail cut (J-1); only sweetbreads stored.
+Veal flank	J1	new_kind	J1.1.2.03	J1.1.2	Veal flank	veal cut from the flank, sold as a steak or to roll.		https://www.dartagnan.com/buy/meat-game	Veal leaf follows the beef rule: named retail cut (J-1).
+Pork shoulder	J1	new_kind	J1.1.3.12	J1.1.3	Pork shoulder joint (picnic)	the front leg and lower shoulder of a pig (picnic, arm) or the whole shoulder as one joint; the collar alone is J1.1.3.02.		https://usameats.com/	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Pork loin roast	J1	new_kind	J1.1.3.13	J1.1.3	Pork loin joint	boneless or bone-in pork loin roasting joint; chops cut across it are J1.1.3.03.		https://www.themeatman.co.uk/collections/pork	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Pork leg / fresh ham	J1	new_kind	J1.1.3.14	J1.1.3	Pork leg (fresh ham)	the raw, uncured hind leg of a pig, whole or as a joint.		https://www.themeatman.co.uk/collections/pork	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Pork stomach	J1	new_kind	J1.1.3.15	J1.1.3	Pork stomach (maw)	the stomach of a pig, sold raw.		https://omnifrozenfood.com.sg/products/pork-hock-knuckle-cut-1kg-pkt	Offal is the organ per animal (memo 4b, J-3).
+Iberico secreto	J1	named_form	J1.1.3.06						Spanish sub-cut from the fat side of the belly and loin: national name under the retail cut.
+Iberico presa	J1	named_form	J1.1.3.02						Spanish sub-cut at the collar end of the shoulder: national name under collar.
+Iberico pluma	J1	named_form	J1.1.3.13						Spanish sub-cut at the head of the loin: national name under the loin.
+Lamb chops	J1	new_kind	J1.1.4.05	J1.1.4	Lamb chops	lamb chops cut from the loin or rib, bone-in.		https://meatpeoplebutcher.com/price-list	Named lamb cut shown sold on a fetched page (memo 4b).
+Lamb shoulder	J1	new_kind	J1.1.4.06	J1.1.4	Lamb shoulder	the shoulder of a lamb, whole or part, on or off the bone.		https://meatpeoplebutcher.com/price-list	Named lamb cut shown sold on a fetched page (memo 4b).
+Lamb shanks	J1	new_kind	J1.1.4.07	J1.1.4	Lamb shank	the lower leg of a lamb, sold raw to braise.		https://meatpeoplebutcher.com/price-list	Named lamb cut shown sold on a fetched page (memo 4b).
+Lamb offal	J1	attribute	J1.1.4.03						Organ not named; each lamb organ becomes a kind when a page names it (J-3); until then the cut attribute.
+Chicken wings	J1	new_kind	J1.1.6.04	J1.1.6	Chicken wings	the wings of a chicken, whole or as flats and drumettes, sold raw.		https://meatpeoplebutcher.com/price-list	Poultry kind is species x joint where a page shows the joint (memo 4b).
+Chicken thighs, drumsticks	J1	covered	J1.1.6.03						Chicken leg kind names thigh and drumstick together or apart.
+Duck legs	J1	new_kind	J1.1.8.04	J1.1.8	Duck leg	the leg of a duck, sold raw.		https://hudsonvalleyfoiegras.com/collections/duck	Poultry joint shown on a fetched page (Moulard legs); species x joint (memo 4b).
+Goose	J1	new_kind	J1.1.8.05	J1.1.8	Goose, whole or jointed	goose sold whole or as any cut (the cut is the attribute `cut`).		https://www.dartagnan.com/buy/comfort-foie-gras-poultry	Duck and goose leaf; species placeholder kind (memo 4b).
+Quail	J1	new_kind	J1.1.9.03	J1.1.9	Quail, whole or jointed	quail sold whole, spatchcocked or boned (the cut is the attribute `cut`).		https://www.dartagnan.com/buy/comfort-foie-gras-poultry	Game-bird species placeholder kind (memo 4b).
+Guinea fowl	J1	new_kind	J1.1.9.04	J1.1.9	Guinea fowl, whole or jointed	guinea fowl sold whole or as any cut (the cut is the attribute `cut`).		https://www.salterandking.co.uk/collections/game-meat	Game-bird species placeholder kind (memo 4b).
+Grouse	J1	new_kind	J1.1.9.05	J1.1.9	Grouse, whole or jointed	grouse sold whole or as any cut (the cut is the attribute `cut`).		https://swaledale.co.uk/collections/wild-british-game-meat	Game-bird species placeholder kind (memo 4b).
+Wood pigeon	J1	new_kind	J1.1.9.06	J1.1.9	Wood pigeon, whole or jointed	wood pigeon or squab sold whole or as breasts (the cut is the attribute `cut`).			Game-bird species placeholder kind; pigeon not in the fetched summaries; to HV_J1_NK.
+Mallard (wild duck)	J1	new_kind	J1.1.9.07	J1.1.9	Wild duck, whole or jointed	wild duck (mallard, teal, wigeon) sold whole or as any cut (the cut is the attribute `cut`).		https://swaledale.co.uk/collections/wild-british-game-meat	Sold as game, apart from farmed duck; game-bird placeholder kind.
+Squirrel	J1	new_kind	J1.1.14.05	J1.1.14	Squirrel	squirrel meat sold whole or jointed to eat.			Other land animals leaf; not in the fetched summaries; to HV_J1_NK.
+Blood sausage / black pudding	J1	new_kind	J1.3.4.02	J1.3.4	Blood sausage [black pudding; Blutwurst; morcilla]	cooked sausage made mainly of blood with fat, grain or meat, sliced or heated to eat.		https://farmfetch.co.uk/collections/sausages	Sausage type is the kind (memo 4b); liver sausage does not cover blood.
+Gammon	J1	new_kind	J1.2.1.09	J1.2.1	Gammon	pork hind leg wet- or dry-cured and sold raw as a joint or steaks to be cooked.		https://farmfetch.co.uk/collections/ham-gammon	Cured piece type (memo 4b): raw, to cook, unlike dry-cured or cooked ham.
+Cooked ox tongue slices	J1	new_kind	J1.2.2.04	J1.2.2	Cooked cured tongue	ox or pork tongue brined, cooked and pressed, sold whole or sliced.		https://www.waitrose.com/ecom/shop/browse/groceries/fresh_and_chilled/cooked_meats_deli_and_dips/cooked_meats	Cooked-cured piece type sold under its own name beside cooked ham.
+Pulled cooked ham hock	J1	covered	J1.2.2.01						Cured and cooked pork leg; hock and pulled are cut and presentation attributes.
+Liver mousse / parfait	J1	covered	J1.4.01						Sliced from a loaf it is pate; a tub or jar is a J5 spread (kind definition).
+Teewurst (spreadable raw-smoked sausage)	J1	named_form	J1.3.2.03						Spreadable fermented pork sausage in a casing; German regional variety (C11).
+Leberkase	J1	named_form	J1.3.3.02						Emulsified scalded meat baked as a loaf: regional variety of the large emulsified type.
+Kasekrainer	J1	named_form	J1.3.3.01						Scalded smoked sausage with cheese: regional variety of the scalded class.
+Dried beef slices (Armour)	J1	covered	J1.2.1.08						Salted and dried beef muscle; chipped and jarred are attributes.
+Tinned Vienna sausage	J1	attribute	J1.3.3.01						Pack keeps the same product (JC4): frankfurter in a tin.
+Lachsschinken (cured pork loin)	J1	named_form	J1.2.1.04						Cured, smoked pork loin: regional form of the cured loin kind.
+Barley (pearled)	J5	new_kind	J5.1.2.05	J5.1.2	Pearl barley	barley grains with the hull and bran polished off, sold to cook.		https://store.edenfoods.com/whole-grain/shop-all-whole-grain/	Generic type sold under its own name; the J5 leaf has no kind for it (R-59 c).
+Buckwheat groats	J5	new_kind	J5.1.2.06	J5.1.2	Buckwheat groats [kasha]	hulled buckwheat seeds, raw or roasted.		https://store.edenfoods.com/whole-grain/shop-all-whole-grain/	Generic type sold under its own name; the J5 leaf has no kind for it (R-59 c).
+Popcorn grain	J5	new_kind	J5.1.2.07	J5.1.2	Popcorn kernels	dried kernels of popping maize sold to pop.		https://store.edenfoods.com/whole-grain/shop-all-whole-grain/	Generic type sold under its own name; the J5 leaf has no kind for it (R-59 c).
+Rolled oats	J5	new_kind	J5.1.3.01	J5.1.3	Rolled oats	oat groats steamed and rolled flat (jumbo, porridge or quick).		https://essentialorganicingredients.com/products/nuts-fruits-cacao-nuts-nut-butters-coconut-desiccated-shredded	First kind of the empty oats leaf (R-59 c).
+Maize flour (makki)	J5	new_kind	J5.1.4.10	J5.1.4	Maize flour [makki atta]	flour milled from whole maize; cornflour starch is not this kind.		https://punjabigroceries.com/collections/atta-flour	Flour kind is the grain milled (rye, spelt, rice already); no maize flour kind.
+Bajri / millet flour	J5	new_kind	J5.1.4.11	J5.1.4	Millet flour [bajra]	flour milled from pearl or other millets.		https://punjabigroceries.com/collections/atta-flour	Flour kind is the grain milled.
+Urad flour	J5	new_kind	J5.1.4.12	J5.1.4	Urad flour	flour milled from black gram.		https://www.kesargrocery.com/speciality-flour/?page=2&sort=title	Flour kind is the grain or pulse milled, as besan.
+Moong flour	J5	new_kind	J5.1.4.13	J5.1.4	Moong flour	flour milled from mung beans.		https://www.kesargrocery.com/speciality-flour/?page=2&sort=title	Flour kind is the grain or pulse milled, as besan.
+Buckwheat flour	J5	new_kind	J5.1.4.14	J5.1.4	Buckwheat flour	flour milled from buckwheat.		https://www.kesargrocery.com/speciality-flour/?page=2&sort=title	Flour kind is the grain milled.
+Dalia (cracked wheat)	J5	new_kind	J5.1.2.08	J5.1.2	Cracked wheat [dalia]	whole wheat grains cracked into coarse pieces, sold to cook as a grain.		https://www.kesargrocery.com/speciality-flour/?page=2&sort=title	Sold as a grain, not a flour; semolina is endosperm; no grain kind covers it.
+Dried peas (green split peas)	J5	new_kind	J5.3.3.01	J5.3.3	Dried peas (split peas)	dried field peas, whole or split, green or yellow.		https://stopandshop.com/groceries/browse-aisles/1088-dried-beans-lentils	First kind of the empty peas leaf (R-59 c).
+Black-eyed peas / lobia	J5	new_kind	J5.3.1.06	J5.3.1	Black-eyed peas [lobia]	dried cowpeas (Vigna unguiculata) with a dark eye.		https://www.distacart.com/collections/pulses-dals	Vigna beans sit under Beans (R-59 b); pulse type is the kind.
+Horse gram	J5	new_kind	J5.3.4.03	J5.3.4	Horse gram [kulthi]	dried horse gram seeds (Macrotyloma uniflorum).		https://www.distacart.com/collections/pulses-dals	Generic type sold under its own name; the J5 leaf has no kind for it (R-59 c).
+Whole soybeans	J5	new_kind	J5.3.4.04	J5.3.4	Dried soybeans	whole dried soybeans sold to cook.		https://www.laxmidals.com/	Generic type sold under its own name; the J5 leaf has no kind for it (R-59 c).
+Black beans	J5	new_kind	J5.3.1.07	J5.3.1	Black beans [turtle beans]	small black Phaseolus beans.		https://stopandshop.com/groceries/browse-aisles/1088-dried-beans-lentils	Phaseolus types sold by name are kinds, as red kidney and small red beans.
+Navy beans	J5	new_kind	J5.3.1.08	J5.3.1	Navy (haricot) beans	small white Phaseolus beans.		https://stopandshop.com/groceries/browse-aisles/1088-dried-beans-lentils	Phaseolus types sold by name are kinds, as red kidney beans.
+Pinto beans	J5	new_kind	J5.3.1.09	J5.3.1	Pinto beans	mottled beige Phaseolus beans.		https://stopandshop.com/groceries/browse-aisles/1088-dried-beans-lentils	Phaseolus types sold by name are kinds, as red kidney beans.
+Cannellini beans	J5	new_kind	J5.3.1.10	J5.3.1	Cannellini beans	large white kidney-shaped Phaseolus beans.		https://stopandshop.com/groceries/browse-aisles/1088-dried-beans-lentils	Phaseolus types sold by name are kinds, as red kidney beans.
+Pine nuts	J5	new_kind	J5.4.1.07	J5.4.1	Pine nuts	edible pine seeds in any form.		https://www.tierrafarm.com/collections/raw-nuts	Tree nut kind is the nut (memo); no kind covers it.
+Pistachios	J5	new_kind	J5.4.1.08	J5.4.1	Pistachios	pistachio nuts in any form.		https://www.tierrafarm.com/collections/raw-nuts	Tree nut kind is the nut (memo); no kind covers it.
+Macadamias	J5	new_kind	J5.4.1.09	J5.4.1	Macadamias	macadamia nuts in any form.		https://www.tierrafarm.com/collections/raw-nuts	Tree nut kind is the nut (memo); no kind covers it.
+Brazil nuts	J5	new_kind	J5.4.1.10	J5.4.1	Brazil nuts	Brazil nuts in any form.		https://www.tierrafarm.com/collections/raw-nuts	Tree nut kind is the nut (memo); no kind covers it.
+Sunflower seeds	J5	new_kind	J5.4.4.02	J5.4.4	Sunflower seeds	shelled or in-shell sunflower seeds sold as food.			Seed kind; only a search result, no fetched page; to HV_J5_NK.
+Broad beans (faba) PGI	J5	new_kind	J5.3.4.05	J5.3.4	Dried broad beans [fava, ful]	dried broad beans (Vicia faba), whole or split.		https://www.foodswinesfromspain.com/en/food/products/legumes---rice/calasparra-pdo	Pulse type sold dried; fresh broad beans are J4; partial nav-list source.
+Sherry vinegar	J5	named_form	J5.5.3.01						Vinagre de Jerez is a wine vinegar under a designation binding one kind (JC1).
+Distilled white vinegar	J5	new_kind	J5.5.3.09	J5.5.3	Distilled (spirit) vinegar	clear vinegar made from distilled grain or cane alcohol.		https://www.ubereats.com/gb/shopping/vinegar-221	Base liquid decides the vinegar kind (wine, malt, cider, rice); spirit base had none.
+Chinkiang / black rice vinegar	J5	covered	J5.5.3.03						Rice vinegar kind; Chinkiang vinegar named form already stored.
+Balsamic glaze or condiment	J5	covered	J5.5.3.02						Cooked-must vinegar; reduced glaze is a form attribute.
+Granulated and caster sugar	J5	new_kind	J5.7.1.04	J5.7.1	White sugar (granulated)	refined white cane or beet sugar crystals; crystal size (caster, granulated) is an attribute.		https://www.billingtons.co.uk/our-products	Generic type sold under its own name; the J5 leaf has no kind for it (R-59 c).
+Icing sugar	J5	new_kind	J5.7.1.05	J5.7.1	Icing sugar [powdered sugar]	white sugar milled to a fine powder, often with an anti-caking agent.		https://www.billingtons.co.uk/our-products	A different product form from granulated sugar, sold under its own name.
+Light and dark brown soft sugar	J5	new_kind	J5.7.1.06	J5.7.1	Soft brown sugar	fine moist brown sugar, light or dark, of refined sugar with molasses.		https://www.billingtons.co.uk/our-products	Demerara and muscovado kinds cover neither; shade is an attribute.
+Syrups (brown sugar, caramel, hazelnut)	J5	new_kind	J5.7.3.01	J5.7.3	Flavoured syrup	sugar syrup flavoured with caramel, nuts, vanilla or the like, for coffee and desserts.		https://www.billingtons.co.uk/our-products	First kind of the empty syrups leaf (R-59 c); memo 14 J6 sends coffee syrup here.
+Molasses	J5	new_kind	J5.7.3.02	J5.7.3	Molasses and treacle	thick dark syrup left from sugar refining, sold as molasses or black treacle.		https://www.billingtons.co.uk/our-products	Syrups and molasses leaf names it (R-59 c).
+Coarse rock salt	J5	new_kind	J5.6.4.05	J5.6.4	Rock salt	mined salt sold coarse for grinders or cooking.		https://groceries.morrisons.com/products/saxa-fine-salt-750g/100398749	Salt kind is source and crystal form; table and kosher salt do not cover it.
+Sea salt	J5	new_kind	J5.6.4.06	J5.6.4	Sea salt	salt evaporated from sea water, fine or coarse crystals; flake salt and fleur de sel keep their kinds.		https://groceries.morrisons.com/products/saxa-fine-salt-750g/100398749	Generic type sold under its own name; the J5 leaf has no kind for it (R-59 c).
+Low-sodium salt	J5	new_kind	J5.6.4.07	J5.6.4	Low-sodium salt	salt blended with potassium chloride or other minerals to lower its sodium.		https://groceries.morrisons.com/products/saxa-fine-salt-750g/100398749	Generic type sold under its own name; the J5 leaf has no kind for it (R-59 c).
+Infused / flavoured oils (truffle, smoked chilli rapeseed)	J5	attribute	J5.5.1.04						Flavouring is an attribute of the base-oil kind (harvester and C2(b)); chilli oil keeps J5.9.4.06.
+Jal-jeera masala and other named blends	J5	new_kind	J5.6.3.02	J5.6.3	Jal-jeera masala	ground spice blend of cumin, black salt, mint and mango powder for drinks and snacks.			Named blends are kinds beside garam masala; page not in fetched.tsv; to HV_J5_NK.
+Hot sauce (Tabasco, Frank's RedHot, Cholula, sriracha)	J5	new_kind	J5.9.4.08	J5.9.4	Hot sauce [chilli sauce]	pourable table sauce of chillies with vinegar or salt, fermented or not.		https://stopandshop.com/groceries/browse-aisles/7714-hot-sauces	Own shop aisle; chilli oil is oil-based; no table-sauce kind covers it.
+Barbecue sauce	J5	new_kind	J5.9.4.09	J5.9.4	Barbecue sauce	thick sweet, smoky or tangy tomato or vinegar sauce for grilled meat.		https://stopandshop.com/groceries/browse-aisles/7714-hot-sauces	Generic type sold under its own name; the J5 leaf has no kind for it (R-59 c).
+Sweet chili sauce	J5	new_kind	J5.9.4.10	J5.9.4	Sweet chilli sauce	thick sweet sauce of chilli, sugar, garlic and vinegar in the Thai style.		https://stopandshop.com/groceries/browse-aisles/7714-hot-sauces	Generic type sold under its own name; the J5 leaf has no kind for it (R-59 c).
+Worcestershire sauce	J5	new_kind	J5.9.4.11	J5.9.4	Worcestershire sauce	fermented brown sauce of vinegar, molasses, tamarind and anchovy.		https://stopandshop.com/groceries/browse-aisles/8387-worcestershire-sauce	Generic type sold under its own name; the J5 leaf has no kind for it (R-59 c).
+Salad cream	J5	new_kind	J5.9.4.12	J5.9.4	Salad cream	pourable egg, oil and vinegar emulsion, sharper and thinner than mayonnaise.		https://shop.supervalu.ie/sm/delivery/rsid/1734/categories/food-cupboard/condiments-table-sauces-id-O200310	Sold beside but apart from mayonnaise in UK and Irish shops.
+Wasabi sauce / paste	J5	new_kind	J5.9.4.13	J5.9.4	Prepared wasabi	wasabi or wasabi-style horseradish paste or sauce in a tube or bottle.		https://stopandshop.com/groceries/browse-aisles/7794-horseradish	Sold under its own name; prepared horseradish is the Western grated root.
+Curry paste (Thai Kitchen Red Curry style)	J5	new_kind	J5.9.6.01	J5.9.6	Curry paste	paste of chillies, aromatics and spices sold to start a curry.		https://stopandshop.com/groceries/browse-aisles/7714-hot-sauces	First kind of the empty cooking-pastes leaf (R-59 c).
+Chilli paste (non-fermented, roasted)	J5	new_kind	J5.9.6.02	J5.9.6	Chilli paste [nam prik pao; sambal; harissa]	unfermented paste of chillies, roasted or raw, with oil, garlic or spices; gochujang is J5.9.2.02.		https://stopandshop.com/groceries/browse-aisles/7714-hot-sauces	Cooking-pastes leaf; fermented chilli paste has its own kind.
+Ssamjang	J5	named_form	J5.9.2.01						Korean seasoned soybean paste: regional form of fermented soybean paste (C11).
+Chunjang (black bean paste)	J5	named_form	J5.9.2.01						Roasted fermented soybean paste: regional form (C11).
+Chinese soybean paste	J5	covered	J5.9.2.01						Fermented soybean paste kind.
+Baked / flavoured tofu	J5	attribute	J5.12.1.01						Baking and flavouring are attributes of tofu.
+Pie crust mix	J5	covered	J5.11.4.03						Dry baking mix kind.
+Honeybush	J6	new_kind	J6.4.1.05	J6.4.1	Honeybush	dried, usually oxidised leaves and stems of Cyclopia sold for infusion.		https://happyluckys.com/collections/rooibos	A separate plant from rooibos (Cyclopia), sold under its own name.
+Guayusa	J6	new_kind	J6.4.1.06	J6.4.1	Guayusa	dried leaves of Ilex guayusa sold for infusion.		https://happyluckys.com/collections/yerba-mate	Another Ilex than yerba mate, sold under its own name.
+Lemongrass (dried)	J6	new_kind	J6.4.1.07	J6.4.1	Lemongrass (dried)	dried lemongrass leaves sold for infusion; fresh stalks are J4.3.05.		https://www.adagio.com/herbal/loose_leaf_herbal_teas.html	Infusion plant sold under its own name; the kind is the plant and part (memo); no J6.4 kind covers it.
+Spearmint	J6	new_kind	J6.4.1.08	J6.4.1	Spearmint	dried spearmint leaves sold for infusion.		https://www.adagio.com/herbal/loose_leaf_herbal_teas.html	A different mint from peppermint, sold under its own name.
+Sideritis (Greek mountain tea)	J6	new_kind	J6.4.1.09	J6.4.1	Mountain tea [sideritis]	dried flowering stems of Sideritis sold for infusion.		https://www.adagio.com/herbal/loose_leaf_herbal_teas.html	Infusion plant sold under its own name; the kind is the plant and part (memo); no J6.4 kind covers it.
+Nettle	J6	new_kind	J6.4.1.10	J6.4.1	Nettle leaf	dried stinging-nettle leaves sold for infusion.		https://camphillstore.com/collections/medicinal-herbs-teas?page=1	Infusion plant sold under its own name; the kind is the plant and part (memo); no J6.4 kind covers it.
+Birch leaves	J6	new_kind	J6.4.1.11	J6.4.1	Birch leaf	dried birch leaves sold for infusion.		https://camphillstore.com/collections/medicinal-herbs-teas?page=1	Infusion plant sold under its own name; the kind is the plant and part (memo); no J6.4 kind covers it.
+Yarrow	J6	new_kind	J6.4.2.05	J6.4.2	Yarrow	dried yarrow flowering tops sold for infusion.		https://camphillstore.com/collections/medicinal-herbs-teas?page=1	Infusion plant sold under its own name; the kind is the plant and part (memo); no J6.4 kind covers it.
+Calendula	J6	new_kind	J6.4.2.06	J6.4.2	Calendula	dried calendula (pot marigold) flowers sold for infusion.		https://camphillstore.com/collections/medicinal-herbs-teas?page=1	Infusion plant sold under its own name; the kind is the plant and part (memo); no J6.4 kind covers it.
+Marjoram leaves and flowers	J6	new_kind	J6.4.1.12	J6.4.1	Marjoram (for infusion)	dried marjoram leaves and flowers sold for infusion; a jar of culinary dried herb is J5.6.2.		https://camphillstore.com/collections/medicinal-herbs-teas?page=1	Infusion plant sold under its own name; the kind is the plant and part (memo); no J6.4 kind covers it.
+Chrysanthemum flowers	J6	new_kind	J6.4.2.07	J6.4.2	Chrysanthemum	dried chrysanthemum flowers sold for infusion.		https://www.summittea.com/product-category/tea-types/herbal-tea/	Infusion plant sold under its own name; the kind is the plant and part (memo); no J6.4 kind covers it.
+Kuding	J6	new_kind	J6.4.1.13	J6.4.1	Kuding [bitter nail tea]	rolled dried leaves of Ilex kaushue or Ligustrum sold for infusion.		https://en.wikipedia.org/wiki/List_of_Chinese_teas	Infusion plant sold under its own name; the kind is the plant and part (memo); no J6.4 kind covers it.
+Cinnamon-plum style botanical blends	J6	covered	J6.4.0.01						Herbal blend kind (harvester note).
+Blooming tea	J6	covered	J6.2.7.01						Scented, flavoured and blended tea (harvester note).

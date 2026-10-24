@@ -1,0 +1,13 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Music notation software (Finale, Sibelius, Dorico, MuseScore, LilyPond)	I1	new_kind	I1.4.3.06	I1.4.3	Music notation software	Program for writing, engraving and playing back sheet music in standard notation.		https://en.wikipedia.org/wiki/List_of_music_software	Own section of the fetched list; a DAW records and arranges audio, not engraved scores.
+Photo manager and RAW developer (darktable, Lightroom, Capture One, DxO)	I1	covered	I1.4.1.04						Existing kind.
+CAD software (AutoCAD, SolidWorks, FreeCAD)	I1	covered	I1.9.01						Existing kind.
+Download managers (FlashGet, Free Download Manager, KGet)	I1	covered	I1.11.04						Existing kind.
+Business-process and ERP suites	I1	covered	I1.6.3.02						Existing ERP kind.
+Web tax services (WISO, Taxfix, ELSTER, IRS Free File)	I1	covered	I1.6.1.01						Software is filed by job however delivered (owner); hosted tax filing is tax-preparation software.
+DNS and gateway filters (OpenDNS, Zscaler)	I1	covered	I1.2.05						Kind definition includes a hosted filter that blocks web content.
+Mermaid (diagram as code)	I1	covered	I1.4.1.12						Draws flowcharts and diagrams; text input is an attribute.
+Lucidspark (online whiteboard)	I1	new_kind	I1.3.14	I1.3	Online whiteboard	Program or hosted tool giving a shared infinite canvas for sticky notes, sketches and workshops.		https://lucid.co/alternative/visio/best-visio-alternatives	Miro, FigJam and Lucidspark are compared as whiteboards, not diagramming; no I1.3 kind covers a free canvas.
+quiver	I1	covered	I1.3.03						Notebook app for programmers: note-taking app.
+NetGuard, AFWall+	I1	covered	I1.2.07						Android firewalls: firewall software (memo 14).
+Simcenter testing hardware (SCADAS)	I1	other_category					C6		Data-acquisition hardware is a measuring instrument, not software; Testlab software stays I1.9.07.

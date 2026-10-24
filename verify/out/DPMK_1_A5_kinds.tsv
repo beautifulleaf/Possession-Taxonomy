@@ -1,0 +1,13 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Automaton watch (Dior Grand Soir Automate, Van Cleef Lady Arpels)	A5	attribute	A5.1.1.01						Automaton is a complication value; not among the A-23 defining tests, so time-only unless another test applies.
+Day/night indicator	A5	attribute							Display complication value; the watch takes its kind by A-23 precedence.
+Seasons display (Chopard Imperiale Four Seasons)	A5	attribute							Astronomical display value, as tellurium (DPW1_A5); kind by precedence.
+Foudroyante (jumping seconds)	A5	attribute							Complication value; a foudroyante is not a chronograph mechanism.
+Greubel Forsey Nano Foudroyante	A5	covered	A5.1.7.01						Memo tree lists it under tourbillon watch.
+Repeater / sonnerie (Christopher Ward Bel Canto, Bovet Recital)	A5	new_kind	A5.1.6.03	A5.1.6	Sonnerie watch	wristwatch that strikes the hours, and in a grande sonnerie the quarters, on its own as they pass.			Striking leaf tests a repeater or alarm; striking in passing is its own complication class; to HV_A5_NK.
+Minute repeater (repeater part of the item)	A5	covered	A5.1.6.02						Repeater on demand is the minute-repeater kind.
+Hautlence Sphere	A5	covered	A5.1.1.04						Jumping hours on a sphere: jumping-hours watch (display is the form, A-23).
+Ulysse Nardin Freak One; MB&F HM6	A5	covered	A5.1.7.01						Rotating escapement carrier (carrousel, flying tourbillon): tourbillon leaf.
+Pieces with no defining test stated (M.A.D.2, Dennison, Otsuka Lotec No.6, Berneron Mirage, Maison Alcee Persee, Fam Al Hut Mobius, Voutilainen 28GML, Bovet Recital 28/20)	A5	covered	A5.1.1.01						Time-only fallback until a fetched page shows an A-23 complication; check at named-form entry.
+Striking clock	A5	attribute							Strike is a movement attribute; placement decides the clock kind (memo FindArtInfo note).
+Mechanical clocks (L'Epee x MB&F Albatross, L'Epee Time Fast II, Anton Suhanov clock)	A5	covered	A5.3.2.04						Clocks standing on a desk or table: placement kind desk clock.

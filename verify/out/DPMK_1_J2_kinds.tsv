@@ -1,0 +1,119 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Shrimp: whiteleg	J2	covered	J2.1.2.10						White shrimp kind names L. vannamei (whiteleg).
+Shrimp: northern	J2	covered	J2.1.2.08						Northern prawn kind.
+Shrimp: pink	J2	new_kind	J2.1.2.14	J2.1.2	Pink shrimp	Shrimp sold as pink shrimp (Pandalus jordani, Farfantepenaeus duorarum), raw or cooked and peeled.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Crustacean kind is the commercial species or trade name (memo 4b); no kind covers pink shrimp.
+Shrimp: white	J2	covered	J2.1.2.10						White shrimp kind.
+Shrimp: brown (Crangon; GFG brown shrimp)	J2	new_kind	J2.1.2.15	J2.1.2	Brown shrimp [grey shrimp; Nordseekrabben]	Small brown or grey shrimp Crangon crangon, sold cooked and peeled or potted.		https://www.mcsuk.org/goodfishguide/species/brown-shrimp/	Own commercial species and product (potted shrimps); GFG species page fetched.
+Shrimp: brown (Gulf, Farfantepenaeus aztecus)	J2	new_kind	J2.1.2.16	J2.1.2	Gulf brown shrimp	Brown shrimp Farfantepenaeus aztecus of the Gulf of Mexico and US Atlantic, sold raw or frozen.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Sold and rated apart from white and pink Gulf shrimp; Crangon brown shrimp is a different animal.
+Shrimp: blue	J2	new_kind	J2.1.2.17	J2.1.2	Blue shrimp	Shrimp Litopenaeus stylirostris sold as blue shrimp (crevette bleue), raw or frozen.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Commercial species sold under its own name; white shrimp kind names only vannamei and setiferus.
+Shrimp: giant tiger	J2	covered	J2.1.2.11						Tiger prawn kind (Penaeus monodon).
+Shrimp: brown tiger	J2	covered	J2.1.2.11						Sold under the name tiger prawn; scientific_name records P. esculentus.
+Shrimp: Argentine red	J2	covered	J2.1.2.09						Existing kind.
+Shrimp: royal red	J2	new_kind	J2.1.2.18	J2.1.2	Royal red shrimp	Deep-water shrimp Pleoticus robustus sold as royal red, raw or frozen.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Commercial species with its own trade name; Argentine red shrimp is P. muelleri.
+Shrimp: spot	J2	covered	J2.1.2.07						Existing kind.
+Pink salmon	J2	new_kind	J2.1.1.56	J2.1.1	Pink salmon [humpback]	Raw Pacific salmon Oncorhynchus gorbuscha, sold whole, in pieces or as fillets.		https://www.mcsuk.org/goodfishguide/species/pink-salmon/	Salmon species are sold and priced apart (memo 4b); GFG species page fetched.
+Brook trout	J2	covered	J2.1.1.07						Salvelinus fontinalis: the char kind covers the genus Salvelinus.
+Lake trout	J2	covered	J2.1.1.07						Salvelinus namaycush: the char kind covers the genus Salvelinus.
+Brown trout	J2	covered	J2.1.1.50						Sea trout or brown trout kind.
+Albacore tuna	J2	new_kind	J2.1.1.57	J2.1.1	Albacore tuna [white tuna; bonito del norte]	Raw albacore tuna Thunnus alalunga, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Tuna species each a kind (HS sub-headings, memo 4b); memo 14 notes no raw albacore kind.
+Skipjack tuna	J2	new_kind	J2.1.1.58	J2.1.1	Skipjack tuna [katsuo]	Raw skipjack tuna Katsuwonus pelamis, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Bigeye tuna	J2	new_kind	J2.1.1.59	J2.1.1	Bigeye tuna [mebachi]	Raw bigeye tuna Thunnus obesus, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Tuna species each a kind (memo 4b); memo 14 notes no raw bigeye kind.
+Blackfin, longtail and frigate tuna	J2	new_kind	J2.1.1.60	J2.1.1	Small tunas [blackfin; longtail (tongol); frigate; bullet]	Raw tuna of the smaller species (Thunnus atlanticus, T. tonggol, Auxis), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Minor tunas grouped at the trade level, as snapper and grouper are; J2.1.1 ids would pass .99 otherwise.
+Blackfin tuna	J2	covered	J2.1.1.60						Thunnus atlanticus: small tunas kind.
+Longtail tuna	J2	covered	J2.1.1.60						Thunnus tonggol: small tunas kind.
+Frigate tuna	J2	covered	J2.1.1.60						Auxis: small tunas kind.
+Marlins	J2	new_kind	J2.1.1.61	J2.1.1	Marlin [kajiki]	Raw marlin (Makaira, Istiompax, Kajikia) or spearfish (Tetrapturus), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Billfish sold as marlin steaks; swordfish has its own kind; species group kept at the trade name.
+Spearfish	J2	covered	J2.1.1.61						Billfish sold beside marlin (hebi); the marlin kind definition includes it.
+Sharks (incl. spurdog, dogfish)	J2	new_kind	J2.1.1.62	J2.1.1	Shark [huss; dogfish; mako]	Raw shark meat (Squalus, Isurus, Scyliorhinus and relatives), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Sold as shark steaks or huss; no kind covers shark flesh (smoked dogfish belly is J2.2.07).
+Spurdog	J2	covered	J2.1.1.62						Spiny dogfish Squalus acanthias: shark kind.
+Skates and rays (incl. blonde ray)	J2	new_kind	J2.1.1.63	J2.1.1	Skate or ray [wings]	Raw skate or ray wings (Rajidae), sold whole, in pieces or as fillets.		https://www.directseafoods.co.uk/wp-content/uploads/pdf/direct-seafoods-seasonality-chart.pdf	Sold as skate wings under its own name; no kind covers rays.
+Blonde ray	J2	covered	J2.1.1.63						Raja brachyura: skate or ray kind.
+Mahi-mahi	J2	new_kind	J2.1.1.64	J2.1.1	Mahi-mahi [dolphinfish; dorado]	Raw mahi-mahi Coryphaena hippurus, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Snappers	J2	covered	J2.1.1.37						Snapper kind (Lutjanus and relatives).
+Groupers	J2	covered	J2.1.1.36						Grouper kind.
+Rockfish	J2	covered	J2.1.1.47						Rockfish kind (Sebastes).
+Redfish	J2	covered	J2.1.1.47						Kind alias redfish; Sebastes.
+Flounders	J2	covered	J2.1.1.34						Flounder kind.
+Soles (US Pacific soles)	J2	covered	J2.1.1.34						"US ""sole"" is Pleuronectid flounder (petrale, rex); common sole is Dover sole J2.1.1.38."
+Alaska plaice, American plaice	J2	covered	J2.1.1.34						Pleuronectid flatfish other than Pleuronectes platessa: flounder kind and relatives.
+Turbot	J2	covered	J2.1.1.45						Existing kind.
+White, red and southern hake (Urophycis)	J2	new_kind	J2.1.1.65	J2.1.1	Phycid hake [white hake; red hake]	Raw phycid hake (Urophycis), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Sold as hake but not Merluccius, which the hake kind is limited to; species test (memo 4b).
+Hoki	J2	new_kind	J2.1.1.66	J2.1.1	Hoki [blue grenadier]	Raw hoki Macruronus novaezelandiae and relatives, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Ling	J2	new_kind	J2.1.1.67	J2.1.1	Ling	Raw ling (Molva), sold whole, in pieces or as fillets.		https://www.directseafoods.co.uk/wp-content/uploads/pdf/direct-seafoods-seasonality-chart.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Lingcod	J2	new_kind	J2.1.1.68	J2.1.1	Lingcod	Raw lingcod Ophiodon elongatus, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Cusk (tusk)	J2	new_kind	J2.1.1.69	J2.1.1	Tusk [cusk; torsk]	Raw tusk or cusk Brosme brosme, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Tusk	J2	covered	J2.1.1.69						Brosme brosme: same species as cusk.
+Wolffish	J2	new_kind	J2.1.1.70	J2.1.1	Wolffish [Atlantic catfish; Steinbeisser]	Raw wolffish (Anarhichas), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Black sea bass	J2	new_kind	J2.1.1.71	J2.1.1	Black sea bass	Raw black sea bass Centropristis striata, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Striped bass	J2	new_kind	J2.1.1.72	J2.1.1	Striped bass [rockfish (US East)]	Raw striped bass Morone saxatilis or its farmed hybrid, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Sunshine bass (hybrid striped bass)	J2	covered	J2.1.1.72						Farmed Morone hybrid: the striped bass kind definition includes it.
+US bass (national guide)	J2	covered	J2.1.1.72						Guide row scoped to bass; enter per species (striped bass, black sea bass).
+White seabass	J2	covered	J2.1.1.30						Atractoscion nobilis is a croaker (Sciaenidae).
+Meagre	J2	covered	J2.1.1.30						Argyrosomus regius is a croaker (Sciaenidae).
+Catfish	J2	covered	J2.1.1.33						Existing kind.
+Basa	J2	covered	J2.1.1.27						Pangasius kind alias basa.
+Carp	J2	covered	J2.1.1.44						Existing kind.
+Perch	J2	new_kind	J2.1.1.73	J2.1.1	Perch [Barsch; yellow perch]	Raw perch (Perca), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Walleye	J2	covered	J2.1.1.43						Sander vitreus, the American pike-perch; zander kind with scientific_name.
+Pike	J2	new_kind	J2.1.1.74	J2.1.1	Pike [Hecht]	Raw pike (Esox), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Whitefish	J2	covered	J2.1.1.52						Existing kind.
+Smelt	J2	covered	J2.1.1.35						Existing kind.
+Capelin	J2	covered	J2.1.1.35						Mallotus villosus is an Osmerid: smelt kind and relatives; roe is J2.5.3.03.
+Anchovy	J2	covered	J2.1.1.55						Existing kind.
+Sprat	J2	new_kind	J2.1.1.75	J2.1.1	Sprat [brisling]	Raw sprat Sprattus sprattus, sold whole, in pieces or as fillets.		https://www.directseafoods.co.uk/wp-content/uploads/pdf/direct-seafoods-seasonality-chart.pdf	Fresh sprats sold by name; smoked and tinned sprats already have kinds.
+Menhaden	J2	covered	J2.1.1.22						Herring-family fish (Brevoortia) taken mostly for oil and bait; where sold to eat, herring kind and relatives.
+Scad and horse mackerel	J2	covered	J2.1.1.31						Scad kind names Trachurus.
+Atka mackerel	J2	new_kind	J2.1.1.76	J2.1.1	Atka mackerel [hokke]	Raw Atka mackerel (Pleurogrammus), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	A greenling, not Scomber; sold as hokke in Japan; species test.
+King and Spanish mackerel	J2	new_kind	J2.1.1.77	J2.1.1	Spanish mackerel [king mackerel; seer fish; sawara]	Raw Spanish or king mackerel (Scomberomorus), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Mackerel kind is Scomber only; Scomberomorus is sold apart as kingfish, seer or sawara.
+Wahoo	J2	new_kind	J2.1.1.78	J2.1.1	Wahoo [ono]	Raw wahoo Acanthocybium solandri, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Cobia	J2	new_kind	J2.1.1.79	J2.1.1	Cobia	Raw cobia Rachycentron canadum, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Pompano	J2	new_kind	J2.1.1.80	J2.1.1	Pompano [golden pompano]	Raw pompano (Trachinotus), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Carangid sold as pompano; pomfret kind covers Pampus and Bramidae only.
+Amberjack (incl. Almaco jack)	J2	new_kind	J2.1.1.81	J2.1.1	Amberjack and yellowtail [kampachi; buri; hamachi; kingfish]	Raw amberjack or yellowtail of the genus Seriola (S. dumerili, S. rivoliana, S. quinqueradiata, S. lalandi), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Seriola sold as amberjack, buri or kingfish; one genus kind, as snapper; growth-stage names are named forms.
+Almaco jack	J2	covered	J2.1.1.81						Seriola rivoliana: amberjack kind definition names it.
+Yellowtail (buri)	J2	covered	J2.1.1.81						Seriola quinqueradiata: amberjack and yellowtail kind; hamachi and buri are growth-stage named forms.
+Patagonian toothfish (Chilean seabass)	J2	covered	J2.1.1.46						Existing kind.
+Orange roughy	J2	new_kind	J2.1.1.82	J2.1.1	Orange roughy	Raw orange roughy Hoplostethus atlanticus, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Croaker and drum	J2	covered	J2.1.1.30						Croaker kind names drums (Sciaenidae).
+Bluefish	J2	new_kind	J2.1.1.83	J2.1.1	Bluefish	Raw bluefish Pomatomus saltatrix, sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Sturgeon (flesh)	J2	new_kind	J2.1.1.84	J2.1.1	Sturgeon	Raw sturgeon or paddlefish flesh (Acipenseriformes), sold whole, in pieces or as fillets.		https://www.mcsuk.org/goodfishguide/species/sturgeon/	Raw sturgeon is sold apart from its roe; tinned sturgeon has a kind; GFG species page fetched.
+Paddlefish (flesh)	J2	covered	J2.1.1.84						Acipenseriform; sturgeon kind definition names paddlefish; its roe is J2.5.1.10.
+Clams and quahogs	J2	covered	J2.1.3.13						Mollusc kind is the animal type; quahog is a named form of clam (memo 4b).
+Cockles	J2	covered	J2.1.3.15						Existing kind.
+Geoduck	J2	named_form	J2.1.3.13						Clam species sold by name; mollusc species are named forms (memo 4b).
+Whelk	J2	covered	J2.1.3.07						Existing kind.
+Conch	J2	new_kind	J2.1.3.17	J2.1.3	Conch	Large sea snail of the conch family (Strombidae, queen conch) sold as meat for eating.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	A different animal type from whelks (Buccinidae); tinned conch shares J2.4.25, raw conch had no kind.
+Krill	J2	other_category					H2		Sold to shoppers as krill oil supplement (H2); frozen krill is feed (B10); no grocery kind.
+Crayfish	J2	covered	J2.1.2.13						Existing kind.
+Squat lobster and langostino	J2	new_kind	J2.1.2.19	J2.1.2	Squat lobster [langostino]	Squat lobster (Munida, Pleuroncodes, Cervimunida) sold as langostino tails, raw or cooked.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Not a lobster or langoustine by species; sold under its own trade name.
+Mullet (grey); tainha; sea mullet	J2	new_kind	J2.1.1.85	J2.1.1	Grey mullet [tainha; sea mullet]	Raw grey mullet (Mugil and relatives), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Grey mullet is sold by name; red mullet (Mullus) is J2.1.1.40.
+Tainha	J2	covered	J2.1.1.85						Mugil liza, Brazilian grey mullet.
+Sea mullet	J2	covered	J2.1.1.85						Mugil cephalus (Australia).
+Milkfish	J2	covered	J2.1.1.32						Existing kind.
+Opah	J2	new_kind	J2.1.1.86	J2.1.1	Opah [moonfish]	Raw opah (Lampris), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Lionfish	J2	new_kind	J2.1.1.87	J2.1.1	Lionfish	Raw lionfish (Pterois), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Hagfish	J2	new_kind	J2.1.1.88	J2.1.1	Hagfish [kkomjangeo]	Raw hagfish (Myxinidae), sold whole, in pieces or as fillets.		https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	Sold as food in Korea and rated by Seafood Watch; no kind covers it.
+Conger eel	J2	new_kind	J2.1.1.89	J2.1.1	Conger eel [anago]	Raw conger eel (Conger), sold whole, in pieces or as fillets.		https://www.mcsuk.org/goodfishguide/species/conger-eel/	Eel kind is Anguilla only; conger sold by name (anago); GFG species page fetched.
+Northern prawn (GFG)	J2	covered	J2.1.2.08						Existing kind.
+Tiger prawn (GFG)	J2	covered	J2.1.2.11						Existing kind.
+Pollack	J2	covered	J2.1.1.10						Pollachius pollachus; pollock kind holds Pollachius; scientific_name records the species.
+Whiting	J2	new_kind	J2.1.1.90	J2.1.1	Whiting	Raw whiting Merlangius merlangus, sold whole, in pieces or as fillets.		https://www.directseafoods.co.uk/wp-content/uploads/pdf/direct-seafoods-seasonality-chart.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Red mullet	J2	covered	J2.1.1.40						Existing kind.
+Dab	J2	covered	J2.1.1.34						Limanda limanda is a pleuronectid: flounder kind and relatives, as Alaska and American plaice.
+Cuttlefish	J2	covered	J2.1.3.16						Existing kind.
+Crawfish (UK spiny lobster)	J2	covered	J2.1.2.05						Lobster kind covers spiny lobster.
+Wreckfish	J2	new_kind	J2.1.1.91	J2.1.1	Wreckfish [stone bass; cherne]	Raw wreckfish Polyprion americanus, sold whole, in pieces or as fillets.			Sold as stone bass; no fetched page, to HV_J2_NK.
+John Dory	J2	covered	J2.1.1.42						Existing kind.
+Black bream; yellowfin bream	J2	new_kind	J2.1.1.92	J2.1.1	Black sea bream	Raw black sea bream (Spondyliosoma, Acanthopagrus), sold whole, in pieces or as fillets.			Sparid sold apart from gilthead bream; no fetched page names it, to HV_J2_NK.
+Yellowfin bream	J2	covered	J2.1.1.92						Acanthopagrus australis: black sea bream kind (Acanthopagrus).
+Brill	J2	covered	J2.1.1.45						Scophthalmus rhombus, same genus as turbot; scientific_name records it; turbot kind.
+Seaweed (national guide)	J2	other_category					J4		Edible seaweeds are J4 (fresh) or J5.10.1.02 (dried).
+Unspecified salmon, trout, tuna (guide rows)	J2	attribute							Guide rows scoped to a whole group; enter one tier row per species kind (scope), no fallback finfish kind.
+Sea trout	J2	covered	J2.1.1.50						Existing kind.
+Skrei	J2	named_form	J2.1.1.08						Seasonal Norwegian spawning cod sold under a quality-label name: non-maker named form of cod.
+Pouting	J2	new_kind	J2.1.1.93	J2.1.1	Pouting [bib]	Raw pouting Trisopterus luscus, sold whole, in pieces or as fillets.		https://www.directseafoods.co.uk/wp-content/uploads/pdf/direct-seafoods-seasonality-chart.pdf	Finfish kind is the species sold under its own name (memo 4b); no J2.1.1 kind covers it.
+Japanese sea bream (madai)	J2	new_kind	J2.1.1.94	J2.1.1	Red sea bream [madai]	Raw red sea bream (Pagrus major, Pagrus pagrus), sold whole, in pieces or as fillets.		https://www.pref.shimane.lg.jp/industry/suisan/chiho_kikan/matsue_suisan/suisansinkou/shun/index.html	Premium sparid sold by name; gilthead bream kind is Sparus aurata only.
+Tiger flathead	J2	new_kind	J2.1.1.95	J2.1.1	Flathead	Raw flathead (Platycephalidae), sold whole, in pieces or as fillets.		https://www.sydneyfishmarket.com.au/wp-content/uploads/2026/01/Summer-Review-2023-004.pdf	Australian staple sold as flathead fillets; species group at trade name.
+King George whiting	J2	new_kind	J2.1.1.96	J2.1.1	Sillago whiting [King George whiting; kisu]	Raw sillago or King George whiting (Sillaginidae), sold whole, in pieces or as fillets.			Not Merlangius; sold by name in Australia and Japan; no fetched page, to HV_J2_NK.
+Garfish	J2	new_kind	J2.1.1.97	J2.1.1	Garfish [sayori]	Raw garfish or halfbeak (Belonidae, Hemiramphidae), sold whole, in pieces or as fillets.			Sold by name in Europe, Australia and Japan; no fetched page, to HV_J2_NK.
+Snoek	J2	new_kind	J2.1.1.98	J2.1.1	Snoek [barracouta]	Raw snoek Thyrsites atun, sold whole, in pieces or as fillets.			South African and NZ staple sold by name; no fetched page, to HV_J2_NK.
+Blue cod	J2	new_kind	J2.1.1.99	J2.1.1	Blue cod	Raw New Zealand blue cod Parapercis colias, sold whole, in pieces or as fillets.			Not a gadid cod; sold by name in New Zealand; no fetched page, to HV_J2_NK.

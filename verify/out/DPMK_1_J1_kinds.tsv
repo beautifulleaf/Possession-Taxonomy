@@ -1,0 +1,46 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Beef flank	J1	new_kind	J1.1.1.17	J1.1.1	Flank steak	beef steak cut from the flank, the abdominal muscle behind the plate.		https://www.44steaks.com/collections/butchers-cuts	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Beef hanger	J1	new_kind	J1.1.1.18	J1.1.1	Hanger steak	beef steak from the hanging tender of the diaphragm (onglet).			Named retail cut (J-1); hanger not shown in the fetched summaries; to HV_J1_NK.
+Beef tri-tip	J1	new_kind	J1.1.1.19	J1.1.1	Tri-tip	triangular beef roast or steak from the bottom sirloin.		https://www.44steaks.com/collections/butchers-cuts	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Bavette	J1	named_form	J1.1.1.17						National name below the retail cut (French flank or flap): non-maker named form (memo 4b).
+Standing rib roast / prime rib	J1	new_kind	J1.1.1.20	J1.1.1	Rib roast (standing rib, prime rib)	beef roasting joint from the rib section, bone-in or boneless.		https://www.dartagnan.com/buy/meat-game	Roast and steak from one section are different retail cuts (ribeye is the steak); J-1.
+Eye of round roast	J1	new_kind	J1.1.1.21	J1.1.1	Eye of round	lean cylindrical beef roast from the round (hindquarter).		https://www.blackwing.com/beef.html	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Top round roast	J1	new_kind	J1.1.1.22	J1.1.1	Top round (topside)	beef roasting joint or steak from the inside of the round.		https://www.blackwing.com/beef.html	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Oxtail	J1	new_kind	J1.1.1.23	J1.1.1	Oxtail	the tail of cattle, sold raw in sections to braise.		https://www.blackwing.com/beef.html	Offal is the organ or part per animal (memo 4b, J-3); no beef kind covers the tail.
+Beef liver	J1	new_kind	J1.1.1.24	J1.1.1	Beef liver	the liver of cattle, sold raw.		https://www.blackwing.com/beef.html	Offal is the organ per animal (memo 4b, J-3).
+Beef heart	J1	new_kind	J1.1.1.25	J1.1.1	Beef heart	the heart of cattle, sold raw.		https://www.blackwing.com/beef.html	Offal is the organ per animal (memo 4b, J-3).
+Beef kidney	J1	new_kind	J1.1.1.26	J1.1.1	Beef kidney	the kidney of cattle, sold raw.		https://www.blackwing.com/beef.html	Offal is the organ per animal (memo 4b, J-3).
+Veal chops	J1	new_kind	J1.1.2.02	J1.1.2	Veal chop	veal chop cut from the rib or loin, bone-in.		https://www.dartagnan.com/buy/meat-game	Veal leaf follows the beef rule: named retail cut (J-1); only sweetbreads stored.
+Veal flank	J1	new_kind	J1.1.2.03	J1.1.2	Veal flank	veal cut from the flank, sold as a steak or to roll.		https://www.dartagnan.com/buy/meat-game	Veal leaf follows the beef rule: named retail cut (J-1).
+Pork shoulder	J1	new_kind	J1.1.3.12	J1.1.3	Pork shoulder joint (picnic)	the front leg and lower shoulder of a pig (picnic, arm) or the whole shoulder as one joint; the collar alone is J1.1.3.02.		https://usameats.com/	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Pork loin roast	J1	new_kind	J1.1.3.13	J1.1.3	Pork loin joint	boneless or bone-in pork loin roasting joint; chops cut across it are J1.1.3.03.		https://www.themeatman.co.uk/collections/pork	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Pork leg / fresh ham	J1	new_kind	J1.1.3.14	J1.1.3	Pork leg (fresh ham)	the raw, uncured hind leg of a pig, whole or as a joint.		https://www.themeatman.co.uk/collections/pork	Named retail cut is the kind for beef and pork (J-1, memo 4b); no kind covers it.
+Pork stomach	J1	new_kind	J1.1.3.15	J1.1.3	Pork stomach (maw)	the stomach of a pig, sold raw.		https://omnifrozenfood.com.sg/products/pork-hock-knuckle-cut-1kg-pkt	Offal is the organ per animal (memo 4b, J-3).
+Iberico secreto	J1	named_form	J1.1.3.06						Spanish sub-cut from the fat side of the belly and loin: national name under the retail cut.
+Iberico presa	J1	named_form	J1.1.3.02						Spanish sub-cut at the collar end of the shoulder: national name under collar.
+Iberico pluma	J1	named_form	J1.1.3.13						Spanish sub-cut at the head of the loin: national name under the loin.
+Lamb chops	J1	new_kind	J1.1.4.05	J1.1.4	Lamb chops	lamb chops cut from the loin or rib, bone-in.		https://meatpeoplebutcher.com/price-list	Named lamb cut shown sold on a fetched page (memo 4b).
+Lamb shoulder	J1	new_kind	J1.1.4.06	J1.1.4	Lamb shoulder	the shoulder of a lamb, whole or part, on or off the bone.		https://meatpeoplebutcher.com/price-list	Named lamb cut shown sold on a fetched page (memo 4b).
+Lamb shanks	J1	new_kind	J1.1.4.07	J1.1.4	Lamb shank	the lower leg of a lamb, sold raw to braise.		https://meatpeoplebutcher.com/price-list	Named lamb cut shown sold on a fetched page (memo 4b).
+Lamb offal	J1	attribute	J1.1.4.03						Organ not named; each lamb organ becomes a kind when a page names it (J-3); until then the cut attribute.
+Chicken wings	J1	new_kind	J1.1.6.04	J1.1.6	Chicken wings	the wings of a chicken, whole or as flats and drumettes, sold raw.		https://meatpeoplebutcher.com/price-list	Poultry kind is species x joint where a page shows the joint (memo 4b).
+Chicken thighs, drumsticks	J1	covered	J1.1.6.03						Chicken leg kind names thigh and drumstick together or apart.
+Duck legs	J1	new_kind	J1.1.8.04	J1.1.8	Duck leg	the leg of a duck, sold raw.		https://hudsonvalleyfoiegras.com/collections/duck	Poultry joint shown on a fetched page (Moulard legs); species x joint (memo 4b).
+Goose	J1	new_kind	J1.1.8.05	J1.1.8	Goose, whole or jointed	goose sold whole or as any cut (the cut is the attribute `cut`).		https://www.dartagnan.com/buy/comfort-foie-gras-poultry	Duck and goose leaf; species placeholder kind (memo 4b).
+Quail	J1	new_kind	J1.1.9.03	J1.1.9	Quail, whole or jointed	quail sold whole, spatchcocked or boned (the cut is the attribute `cut`).		https://www.dartagnan.com/buy/comfort-foie-gras-poultry	Game-bird species placeholder kind (memo 4b).
+Guinea fowl	J1	new_kind	J1.1.9.04	J1.1.9	Guinea fowl, whole or jointed	guinea fowl sold whole or as any cut (the cut is the attribute `cut`).		https://www.salterandking.co.uk/collections/game-meat	Game-bird species placeholder kind (memo 4b).
+Grouse	J1	new_kind	J1.1.9.05	J1.1.9	Grouse, whole or jointed	grouse sold whole or as any cut (the cut is the attribute `cut`).		https://swaledale.co.uk/collections/wild-british-game-meat	Game-bird species placeholder kind (memo 4b).
+Wood pigeon	J1	new_kind	J1.1.9.06	J1.1.9	Wood pigeon, whole or jointed	wood pigeon or squab sold whole or as breasts (the cut is the attribute `cut`).			Game-bird species placeholder kind; pigeon not in the fetched summaries; to HV_J1_NK.
+Mallard (wild duck)	J1	new_kind	J1.1.9.07	J1.1.9	Wild duck, whole or jointed	wild duck (mallard, teal, wigeon) sold whole or as any cut (the cut is the attribute `cut`).		https://swaledale.co.uk/collections/wild-british-game-meat	Sold as game, apart from farmed duck; game-bird placeholder kind.
+Squirrel	J1	new_kind	J1.1.14.05	J1.1.14	Squirrel	squirrel meat sold whole or jointed to eat.			Other land animals leaf; not in the fetched summaries; to HV_J1_NK.
+Blood sausage / black pudding	J1	new_kind	J1.3.4.02	J1.3.4	Blood sausage [black pudding; Blutwurst; morcilla]	cooked sausage made mainly of blood with fat, grain or meat, sliced or heated to eat.		https://farmfetch.co.uk/collections/sausages	Sausage type is the kind (memo 4b); liver sausage does not cover blood.
+Gammon	J1	new_kind	J1.2.1.09	J1.2.1	Gammon	pork hind leg wet- or dry-cured and sold raw as a joint or steaks to be cooked.		https://farmfetch.co.uk/collections/ham-gammon	Cured piece type (memo 4b): raw, to cook, unlike dry-cured or cooked ham.
+Cooked ox tongue slices	J1	new_kind	J1.2.2.04	J1.2.2	Cooked cured tongue	ox or pork tongue brined, cooked and pressed, sold whole or sliced.		https://www.waitrose.com/ecom/shop/browse/groceries/fresh_and_chilled/cooked_meats_deli_and_dips/cooked_meats	Cooked-cured piece type sold under its own name beside cooked ham.
+Pulled cooked ham hock	J1	covered	J1.2.2.01						Cured and cooked pork leg; hock and pulled are cut and presentation attributes.
+Liver mousse / parfait	J1	covered	J1.4.01						Sliced from a loaf it is pate; a tub or jar is a J5 spread (kind definition).
+Teewurst (spreadable raw-smoked sausage)	J1	named_form	J1.3.2.03						Spreadable fermented pork sausage in a casing; German regional variety (C11).
+Leberkase	J1	named_form	J1.3.3.02						Emulsified scalded meat baked as a loaf: regional variety of the large emulsified type.
+Kasekrainer	J1	named_form	J1.3.3.01						Scalded smoked sausage with cheese: regional variety of the scalded class.
+Dried beef slices (Armour)	J1	covered	J1.2.1.08						Salted and dried beef muscle; chipped and jarred are attributes.
+Tinned Vienna sausage	J1	attribute	J1.3.3.01						Pack keeps the same product (JC4): frankfurter in a tin.
+Lachsschinken (cured pork loin)	J1	named_form	J1.2.1.04						Cured, smoked pork loin: regional form of the cured loin kind.
