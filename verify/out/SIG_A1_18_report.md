@@ -1,0 +1,5 @@
+# SIG_A1_18 report
+List rows done: 40 of 40.
+Named forms written: 5 (SLAM: Sailing Jacket, High Seas [shell jacket], Mickey Bear [fleece pullover, 1979]; Andersen-Andersen: Seaman, Sailor [pullover sweater], partial forum source). Scene tags: 3 (SLAM, SC-nautical-marine, from fetched SLAM pages: Sardinia Cup 1988 / Winter Championship).
+None found (done.tsv): all other 35 brands. Pages were history/press only, closed, or showed no standing model names; several (Awaylee, Hemu, Juliana Studios, Jillian Joy, Top Gear, Johnsons, A.Hallucination, Helen David, Azagury, PX, Carri Munden, Double Standard Clothing, Lilidia, Kebramar, Antonio Caggiula, Crescent, Al-Zohaib) returned no usable search result at all.
+Problems: Common Projects Achilles Low is a sneaker (footwear, no A1 kind; not fetched). Muji product names are descriptive, not model names. Redgreen "September jacket"/"Solvej" appear only on resale listings. Rubinacci/permanentstyle returned 403 (Parallel fallback not tried). SLAM Sailing Jacket first year conflicts (1980s vs early 1990s) so left blank. Andersen-Andersen scene tags not written (forum does not tie to scene). No lines written.

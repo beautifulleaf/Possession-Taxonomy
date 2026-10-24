@@ -1,0 +1,21 @@
+code	group_id	marker	values	why	evidence_rows
+F5	G-F5-1	identity of the writer		First; one sheet's fact, shown only through named forms, never stored per sheet (C16).	proposals.tsv F5 row (quality_markers); Richmond Autographs collector guide
+F5	G-F5-1	rarity of that writer's material		Second.	proposals.tsv F5 row (quality_markers); Richmond Autographs collector guide
+F5	G-F5-1	content		Third.	proposals.tsv F5 row (quality_markers); Richmond Autographs collector guide
+F5	G-F5-1	condition		Fourth.	proposals.tsv F5 row (quality_markers); Richmond Autographs collector guide
+F5	G-F5-1	document class	ALS > LS > TLS > DS > AL > AQS > AMQS > cut signature	Wholly handwritten above secretarial and typed; a classification scale used as a filter (provisional order, R-2).	proposals.tsv F5 row (quality_markers); proposals.tsv F5 row (quality_signals); Richmond Autographs collector guide
+F5	G-F5-2	historical insight		First for ephemera generally; applies to every level-2 group below unless a group has its own markers.	proposals.tsv F5 row (quality_markers); AbeBooks ephemera collecting guide
+F5	G-F5-2	notable creators or signers		Second.	proposals.tsv F5 row (quality_markers); AbeBooks ephemera collecting guide
+F5	G-F5-2	beauty and design		Third.	proposals.tsv F5 row (quality_markers); AbeBooks ephemera collecting guide
+F5	G-F5-2	rarity and condition		Fourth.	proposals.tsv F5 row (quality_markers); AbeBooks ephemera collecting guide
+F5	G-F5-2	significance		Weighed last.	proposals.tsv F5 row (quality_markers); AbeBooks ephemera collecting guide
+F5	G-F5-9	age	golden age (1895 to the First World War) first; postcard eras Pioneer, Divided Back as facets	First.	proposals.tsv F5 row (quality_markers); proposals.tsv F5 row (facets); Briefmarkenmesse Essen postcards
+F5	G-F5-9	motif and artist	topographic views, Jugendstil and artist cards (tags)	Subject tags, never kinds.	proposals.tsv F5 row (quality_markers); Briefmarkenmesse Essen postcards
+F5	G-F5-9	condition		Third; Japanese prewar listings note dirt and folds.	proposals.tsv F5 row (quality_markers); Briefmarkenmesse Essen postcards; Yahoo Auctions Japan postcard listing
+F5	G-F5-9	print process	chromolithograph, real photo (print_process values)	Fourth; attribute flagged in structure_flags.	proposals.tsv F5 row (quality_markers); Briefmarkenmesse Essen postcards
+F5	G-F5-9	intact stamp	posted or unposted, stamp intact	Weighed last.	proposals.tsv F5 row (quality_markers); Briefmarkenmesse Essen postcards
+F5	G-F5-4	condition	Excellent > Very good > Good > Fair > Needs restoration	First for old documents; platform label scale (registry row).	proposals.tsv F5 row (quality_markers); proposals.tsv F5 row (quality_signals); Antiques in France old documents
+F5	G-F5-4	period	century	Second.	proposals.tsv F5 row (quality_markers); Antiques in France old documents
+F5	G-F5-5	preference, no ranking		Held as one's own papers; no quality ladder (memo).	proposals.tsv F5 row (quality_markers); memo F5
+F5	G-F5-6	preference, no ranking		Held as one's own papers; no grading body, award or rating found (memo).	proposals.tsv F5 row (quality_markers); proposals.tsv F5 row (quality_signals); memo F5
+F5	G-F5-7	archival conformity	ISO 18902; PAT passed	Memo attribute for albums; the only signal named.	proposals.tsv F5 row (quality_signals); memo F5
