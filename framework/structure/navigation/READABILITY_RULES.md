@@ -19,3 +19,9 @@ These rules govern what a shopper sees: display names, display groups and the re
 
 ## Test
 Each regrouped category passes a blind findability test before it ships: everyday shopper requests written by one agent from the kind list (never the group names), and a finder agent who sees only the reader structure (group names, display names, also-called, definitions) picks the group and kind for each. The test runs on the old and the new layout with the same requests; the new layout must find more, and every miss is reviewed.
+
+## Granularity (R-129, session 12; owner: "Fidget toys are a massive diverse umbrella whereas some of the more utility things are divided past consumer interest")
+1. A shopper-facing item is a type a shopper asks for by name and compares within. The test is the category's shops: a type that has its own category page, filter value or aisle label, with its own products, is its own item; types that shops sell as one listing with options (size, power, mount, fitting) are one item.
+2. Too coarse: a kind whose products fall into several such shop types (fidget toys: spinners, pop-its, cubes, stress balls, squishies) is split into new kinds, each attested on a fetched shop page; its named forms move to the new kinds; the old kind stays for what fits none of them, under a plain name ("Other fidget toys") or is left as the general type when shops keep a general page.
+3. Too fine: sibling kinds that shops sell as one item stay kinds in the data (one home, attested, ids never reused) but show as one card on the reader page, with a "Types" line naming them (framework/structure/navigation/cards.tsv; display.tsv column card).
+4. Neither direction changes a kind's home category.
