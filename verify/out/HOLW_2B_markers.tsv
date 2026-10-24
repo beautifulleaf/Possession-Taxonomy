@@ -1,0 +1,122 @@
+code	group_id	marker	values	why	evidence_rows
+C1	G-C1-2	measured performance under load (torque, drilling and driving speed)		Tests weigh this first: CR power score; CHOICE drilling 30 percent and torque 30 percent. Holds for powered kinds in every group (Power/Cordless toggle).	proposals.tsv C1 row (quality_markers); Consumer Reports cordless drill buying guide; CHOICE Australia how we test cordless drills
+C1	G-C1-2	handling and ergonomics (weight, balance with battery)		CHOICE gives handling 40 percent.	proposals.tsv C1 row (quality_markers); CHOICE Australia how we test cordless drills
+C1	G-C1-2	run time and battery capacity (Ah), with breadth of the platform	higher Ah and wider platform > lower Ah and narrow platform	Shoppers choose the tool, then the battery platform.	proposals.tsv C1 row (quality_markers); Klium (Belgium) battery technology compared; Fine Homebuilding forum Milwaukee V18 vs Makita LXT
+C1	G-C1-2	durability and safety (battery cycles, kick-back cut-off)		Endurance and safety are tested separately.	proposals.tsv C1 row (quality_markers); test.de Stiftung Warentest cordless drill-driver test
+C1	G-C1-2	motor and warranty	brushless > brushed	A spec rung after the measured results.	proposals.tsv C1 row (quality_markers); Consumer Reports cordless drill buying guide
+C1	G-C1-2	voltage		Last: only a rough guide to power (CR).	proposals.tsv C1 row (quality_markers); Consumer Reports cordless drill buying guide
+C1	G-C1-3	steel and heat treatment (hand tools)	Aogami Super > Blue #1 > Blue #2 > White #1 > White #2	Edge steel leads for planes, chisels and other edged hand tools (memo dealer order).	proposals.tsv C1 row (quality_markers); C1 memo; Highland Woodworking (Lie-Nielsen planes)
+C1	G-C1-3	machining accuracy and fit (hand tools)		Flat soles, square sides and a tight fit follow the steel.	proposals.tsv C1 row (quality_markers); Highland Woodworking (Lie-Nielsen planes)
+C1	G-C1-3	maker or smith (hand tools)		Premium hand tools are compared by maker line (named forms).	proposals.tsv C1 row (quality_markers); Highland Woodworking (Lie-Nielsen planes)
+C1	G-C1-3	duty class (machines)	Frequent use > Regular use > Occasional use	Stationary machines in every group are first sorted by duty.	proposals.tsv C1 row (quality_markers)
+C1	G-C1-3	construction class and motor power (machines)		Weighed inside the duty class.	proposals.tsv C1 row (quality_markers)
+C1	G-C1-5	accuracy and resolution		The one marker for measuring and test tools.	proposals.tsv C1 row (quality_markers)
+C2	G-C2-101	cut quality		Which? gives it 50 to 51 percent; Consumer NZ tests long grass.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
+C2	G-C2-101	ease of use (weight, handling, starting, emptying)		Which? gives it 30 percent.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers
+C2	G-C2-101	battery run time and spare-battery availability		Consumer NZ about 50 minutes; part of the Which? Best Buy rule.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
+C2	G-C2-101	reliability and durability		Consumer NZ brand reliability survey; owner community reports.	proposals.tsv C2 row (quality_markers); Consumer NZ lawnmower guide; GummySearch Reddit lawnmower brand summary
+C2	G-C2-101	noise		Measured in the mower tests.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
+C2	G-C2-101	build and deck material		A build marker after the tested results.	proposals.tsv C2 row (quality_markers); Toolstation UK lawnmower buying guide
+C2	G-C2-101	energy		Last of the machine markers.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
+C2	G-C2-106	blade sharpness and steel		Hand cutting tools are compared on the blade first.	proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
+C2	G-C2-106	clean cut		Second in the proposals order for hand cutting tools.	proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
+C2	G-C2-106	durability, serviceability and spare parts		The compared lines (Felco against Okatsune) differ on it.	proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
+C2	G-C2-106	balance and fit to hand size		Sizes are offered by hand.	proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
+C2	G-C2-106	warranty		Last of the hand-tool markers.	proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
+C2	G-C2-130	light output (PPE and PPFD)		Grow lights are judged on efficacy and light at the plant (memo).	proposals.tsv C2 row (quality_markers); C2 memo
+C2	G-C2-120	frost-hardiness and drainage		"Provisional (memo; no ""best pot"" list fetched)."	proposals.tsv C2 row (quality_markers); C2 memo
+C3	G-C3-3	proven garden performance	RHS AGM > no award	AGM marks a strong performer in suitable conditions.	proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit
+C3	G-C3-3	health and pest and disease resistance		Second in the proposals order.	proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit; Sunset houseplant buying guide
+C3	G-C3-3	true to type, consistent colour and form		A named form must look as named.	proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit
+C3	G-C3-3	hardiness rating matched to the site		Matched to the site, not a ladder.	proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit
+C3	G-C3-1	proven room performance	RHS AGM > no award	Proposals row: proven garden or room performance.	proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit
+C3	G-C3-1	health and pest and disease resistance		No gnats, mould or yellowing at purchase.	proposals.tsv C3 row (quality_markers); Sunset houseplant buying guide
+C3	G-C3-1	true to type, consistent colour and form		Stable variegation for collector aroids.	proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit; Thursd rare aroid article
+C3	G-C3-1	light and humidity match		Place and light are the first filter for houseplants.	proposals.tsv C3 row (quality_markers); Sunset houseplant buying guide
+C3	G-C3-1	condition at purchase (page checklist, never stored per plant, C16)		No brown, yellow or droopy leaves, no gnats or mould, buds over open blooms.	proposals.tsv C3 row (quality_markers); Sunset houseplant buying guide
+C3	G-C3-104	variegation stability	stable > unstable	Collector plants are priced on it.	proposals.tsv C3 row (quality_markers); Thursd rare aroid article; PLNTS (Netherlands) rare houseplants
+C3	G-C3-104	leaf colour and texture		Next after variegation for collector aroids.	proposals.tsv C3 row (quality_markers); Thursd rare aroid article
+C3	G-C3-104	scarcity		Weighed last for collector plants.	proposals.tsv C3 row (quality_markers); Thursd rare aroid article; PLNTS (Netherlands) rare houseplants
+C3	G-C3-112	variety		Fruit is chosen by variety first (memo).	proposals.tsv C3 row (quality_markers); C3 memo
+C3	G-C3-112	rootstock and tree form		After variety (memo).	proposals.tsv C3 row (quality_markers); C3 memo
+C3	G-C3-114	seed type		Seeds are chosen by type (memo).	proposals.tsv C3 row (quality_markers); C3 memo
+C3	G-C3-114	trial awards	award > no award	Trial awards mark the proven forms (memo).	proposals.tsv C3 row (quality_markers); C3 memo
+C4	G-C4-101	lightfastness	ASTM I (excellent) > II > III > IV > V; I and II as artist quality	The first test of an artist colour.	proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
+C4	G-C4-101	pigment load and tint strength		More pigment, stronger colour.	proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
+C4	G-C4-101	single-pigment colours (Colour Index code)	single pigment > mixture	The CI code shows what is in the tube.	proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
+C4	G-C4-101	artist against student range	artist > student	Grade sits on the maker range (tier entry), never on the kind.	proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
+C4	G-C4-101	opacity, staining and granulation		Chosen by need, not a ladder.	proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
+C4	G-C4-110	fibre content		Knitters identify yarns by company and fibre.	proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
+C4	G-C4-110	weight matched to the pattern		A fit, not a ladder; yarn shops go by weight first (DPW1_C4).	proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
+C4	G-C4-110	colour and texture		Weighed after fibre and weight.	proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
+C4	G-C4-110	care		Washability last.	proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
+C4	G-C4-105	build, motor and stability		A solid frame and motor lead.	proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
+C4	G-C4-105	stitch quality and tension		Even stitches and tension next.	proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
+C4	G-C4-105	features for the use and skill		Matched to the sewer, not more is better.	proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
+C4	G-C4-105	brand reliability and servicing		Dealer service counts.	proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
+C4	G-C4-122	firing range (cone)		A fit to the kiln and glaze, not a ladder.	proposals.tsv C4 row (quality_markers)
+C4	G-C4-114	tannage		Leather is chosen by tannage first (memo).	proposals.tsv C4 row (quality_markers); C4 memo
+C4	G-C4-114	grain grade		Grade after tannage (memo).	proposals.tsv C4 row (quality_markers); C4 memo
+C4	G-C4-114	weight (oz)		A fit to the project (memo).	proposals.tsv C4 row (quality_markers); C4 memo
+C4	G-C4-116	shape consistency of the maker's line		Seed beads are compared by maker line (memo).	proposals.tsv C4 row (quality_markers); C4 memo
+C5	G-C5-101	writes at once, without skipping, with smooth and steady flow		The nib must write first time.	proposals.tsv C5 row (quality_markers); YARD-O-LED how to choose a fountain pen
+C5	G-C5-101	nib material	18k gold > 14k gold > steel	Gold nibs mark the higher rungs.	proposals.tsv C5 row (quality_markers); Cult Pens; YARD-O-LED how to choose a fountain pen
+C5	G-C5-101	nib width and shape offered		EF, F, M, B; stub, italic, flex; Japanese nibs run a size finer.	proposals.tsv C5 row (quality_markers); Goulet Pens; YARD-O-LED how to choose a fountain pen
+C5	G-C5-101	filling system	piston or vacuum > cartridge or converter	Capacity rises with piston and vacuum fillers.	proposals.tsv C5 row (quality_markers); Goulet Pens best sellers at every price point
+C5	G-C5-101	body material and craft	hallmarked 925 silver, urushi, maki-e, engine turning > ebonite or celluloid > resin	Material and decoration mark the luxury rungs.	proposals.tsv C5 row (quality_markers); Goulet Pens; YARD-O-LED how to choose a fountain pen
+C5	G-C5-101	weight and balance		A fit to the hand.	proposals.tsv C5 row (quality_markers); YARD-O-LED how to choose a fountain pen
+C5	G-C5-101	long production history and reliability		Long-made models lead the best-seller lists.	proposals.tsv C5 row (quality_markers); Goulet Pens best sellers at every price point
+C5	G-C5-111	coated or calendered surface: bleed-through and show-through resistance, dry time, shading and sheen shown		Fountain-pen paper is judged on how ink sits.	proposals.tsv C5 row (quality_markers); Pure Pens fountain pen paper guide
+C5	G-C5-111	paper weight (gsm)	120+ premium > 90-100 sweet spot > 80 minimum > 52-60 thin (prized only in coated stocks such as Tomoe River)	Weight follows the surface.	proposals.tsv C5 row (quality_markers); Pure Pens fountain pen paper guide
+C5	G-C5-111	binding lies flat	sewn > glued > wire	A notebook must open flat.	proposals.tsv C5 row (quality_markers); Fountain Pen Network favorite notebooks thread
+C5	G-C5-107	ink saturation		Bottled ink markers in the memo's order.	proposals.tsv C5 row (quality_markers); C5 memo
+C5	G-C5-107	ink shading		Bottled ink markers in the memo's order.	proposals.tsv C5 row (quality_markers); C5 memo
+C5	G-C5-107	ink sheen		Bottled ink markers in the memo's order.	proposals.tsv C5 row (quality_markers); C5 memo
+C5	G-C5-107	ink flow		Bottled ink markers in the memo's order.	proposals.tsv C5 row (quality_markers); C5 memo
+C5	G-C5-107	ink water resistance		Bottled ink markers in the memo's order.	proposals.tsv C5 row (quality_markers); C5 memo
+C5	G-C5-123	capability class	graphing > scientific > printing > basic	A class to match the need (memo).	proposals.tsv C5 row (quality_markers); C5 memo
+C5	G-C5-124	shredder cut type	micro-cut > cross-cut > strip-cut	Ladder from the memo.	proposals.tsv C5 row (quality_markers); C5 memo
+C5	G-C5-7	preference and build		Desk and filing goods carry no quality ladder.	proposals.tsv C5 row (quality_markers)
+C7	G-C7-1	measured PTO and drawbar power against need, hitch category and implement compatibility		Fit to the job comes first.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data; Purple Wave tractor buying guide
+C7	G-C7-1	lift and hydraulic capacity		Measured in the Nebraska test.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
+C7	G-C7-1	fuel efficiency (hp-hr per gallon at 75 and 50 percent pull)	higher > lower	Nebraska test figures.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
+C7	G-C7-1	dealer proximity, service and parts		Dealer support also leads the chainsaw evidence.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data; Stihl USA chainsaw buying guide
+C7	G-C7-1	reliability and repair frequency		Weighed with dealer support.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
+C7	G-C7-1	operator comfort and noise (cab, A/C, sound level in dB)	lower dB > higher dB	Cab and sound level are compared.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data; Purple Wave tractor buying guide
+C7	G-C7-1	transmission and drive (2WD, FWA, 4WD)		Matched to the work, not a ladder.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data; Purple Wave tractor buying guide
+C7	G-C7-1	stability and tyres		Last of the tractor markers.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
+C7	G-C7-2	required tractor power and working width		The tillage implement must match the tractor (memo).	proposals.tsv C7 row (quality_markers); C7 memo
+C7	G-C7-3	required tractor power and working width		The seeding implement must match the tractor (memo).	proposals.tsv C7 row (quality_markers); C7 memo
+C7	G-C7-4	required tractor power and working width		The spreading and spraying implement must match the tractor (memo).	proposals.tsv C7 row (quality_markers); C7 memo
+C7	G-C7-6	required tractor power and working width		The hay and forage implement must match the tractor (memo).	proposals.tsv C7 row (quality_markers); C7 memo
+C7	G-C7-9	cutting performance		Provisional, by analogy with the chainsaw test.	proposals.tsv C7 row (quality_markers); top agrar chainsaw field test (KWF mark)
+C7	G-C7-9	handling		Provisional, by analogy.	proposals.tsv C7 row (quality_markers); top agrar chainsaw field test (KWF mark)
+C7	G-C7-9	maintenance access		Provisional, by analogy.	proposals.tsv C7 row (quality_markers); top agrar chainsaw field test (KWF mark)
+C8	G-C8-101	strength class	C24 > C16	Structural timber is sold by class.	proposals.tsv C8 row (quality_markers); Howarth Timber C24 listing (UK)
+C8	G-C8-101	treatment	higher use classes > UC2 > untreated	Treatment for exposure.	proposals.tsv C8 row (quality_markers); Howarth Timber C24 listing (UK)
+C8	G-C8-101	kiln dried and regularised	kiln dried and regularised > not	Stable, even sizes.	proposals.tsv C8 row (quality_markers); Howarth Timber C24 listing (UK)
+C8	G-C8-101	certified sourcing		An attribute, not a grade.	proposals.tsv C8 row (quality_markers); Howarth Timber C24 listing (UK)
+C8	G-C8-110	tile material	porcelain > ceramic (natural stone apart)	Porcelain is dense and moisture-resistant.	proposals.tsv C8 row (quality_markers); Victorian Plumbing floor tile guide (UK); Tile Outlets learn about tile (US)
+C8	G-C8-110	water absorption	impervious (0.5% or less) > vitreous > semi-vitreous > non-vitreous	Ladder as in the proposals row.	proposals.tsv C8 row (quality_markers); Tile Outlets learn about tile (US)
+C8	G-C8-110	PEI wear rating	5 > 4 > 3 > 2 > 1 > 0	Matched to foot traffic.	proposals.tsv C8 row (quality_markers); Tile Outlets learn about tile (US)
+C8	G-C8-110	slip resistance	R11 and up > R10 > R9; DCOF 0.42 or higher for wet areas	Wet areas need the higher ratings.	proposals.tsv C8 row (quality_markers); Victorian Plumbing floor tile guide (UK); Tile Outlets learn about tile (US)
+C8	G-C8-110	underfloor-heating compatibility		A yes or no fit.	proposals.tsv C8 row (quality_markers); Victorian Plumbing floor tile guide (UK)
+C8	G-C8-131	hiding power, wet and dry	Deckklasse 1 > 2 > 3 > 4	The first test result.	proposals.tsv C8 row (quality_markers); Stiftung Warentest white wall paint test
+C8	G-C8-131	scrub resistance	Nassabriebklasse 1 > 2 > 3 > 4 > 5	EN 13300 class.	proposals.tsv C8 row (quality_markers); Stiftung Warentest white wall paint test
+C8	G-C8-131	ease of application and spatter		Tested by Warentest.	proposals.tsv C8 row (quality_markers); Stiftung Warentest white wall paint test
+C8	G-C8-131	low emissions and preservatives, correct declaration		Health and labelling.	proposals.tsv C8 row (quality_markers); Stiftung Warentest white wall paint test
+C8	G-C8-131	gloss level	gloss > satin > matt > flat (harder and more durable as gloss rises)	A choice by room; durability rises with gloss.	proposals.tsv C8 row (quality_markers); Choice interior paint buying guide (Australia)
+C8	G-C8-131	low or zero VOC	zero > low	Choice lists it.	proposals.tsv C8 row (quality_markers); Choice interior paint buying guide (Australia)
+C8	G-C8-131	mould resistance		For wet rooms.	proposals.tsv C8 row (quality_markers); Choice interior paint buying guide (Australia)
+C8	G-C8-131	spreading rate	8 to 16 sq m per litre	Coverage per litre.	proposals.tsv C8 row (quality_markers); Choice interior paint buying guide (Australia)
+C8	G-C8-112	application-matched design		Screws are chosen by what they fasten into.	proposals.tsv C8 row (quality_markers); Tooled-Up fixings and fasteners (UK)
+C8	G-C8-112	material and coating	A4 stainless > A2 stainless > galvanised > zinc	Ladder as in the proposals row.	proposals.tsv C8 row (quality_markers); Tooled-Up fixings and fasteners (UK)
+C8	G-C8-112	size and gauge		A fit, not a ladder.	proposals.tsv C8 row (quality_markers); Tooled-Up fixings and fasteners (UK)
+C8	G-C8-114	property class (ISO 898-1)	12.9 > 10.9 > 8.8 > 5.8 > 4.6	Bolt strength class (memo).	proposals.tsv C8 row (quality_markers); C8 memo
+C8	G-C8-114	material and coating	A4 stainless > A2 stainless > galvanised > zinc	As for screws.	proposals.tsv C8 row (quality_markers); Tooled-Up fixings and fasteners (UK)
+C8	G-C8-136	chemistry and capacity (mAh)		Batteries by chemistry, then capacity (memo).	proposals.tsv C8 row (quality_markers); C8 memo
+C8	G-C8-136	maker line ladder		Each maker's lines rank within the maker (memo).	proposals.tsv C8 row (quality_markers); C8 memo
+C8	G-C8-5	spec match (memo attributes)		No quality evidence in HOL; spec attributes only.	proposals.tsv C8 row (quality_markers)
+C8	G-C8-6	spec match (memo attributes)		No quality evidence in HOL; spec attributes only.	proposals.tsv C8 row (quality_markers)
+C8	G-C8-8	spec match (memo attributes)		No quality evidence in HOL; spec attributes only.	proposals.tsv C8 row (quality_markers)
+C8	G-C8-10	spec match (memo attributes)		No quality evidence in HOL; spec attributes only.	proposals.tsv C8 row (quality_markers)

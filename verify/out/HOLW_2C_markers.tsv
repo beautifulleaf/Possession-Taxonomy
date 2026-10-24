@@ -1,0 +1,243 @@
+code	group_id	marker	values	why	evidence_rows
+D2	G-D2-9	tested rating weights (handling, battery, display first)	weight 18, input 16, battery 16, display 12, camera 8 (Notebookcheck weights)	Handling, battery and display weigh most in the tested smartphone rating.	proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+D2	G-D2-9	display panel	OLED > LCD	The panel is weighed after the overall tested rating.	proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+D2	G-D2-9	software update support	more promised years (dated) > fewer	Years of updates promised, recorded with a date.	proposals.tsv D2 row (quality_markers); Digital Trends cell phone buying guide
+D2	G-D2-9	battery life measured in tests		Tested runtime counts, not the mAh figure.	proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+D2	G-D2-9	camera image quality	DXOMARK sub-scores: exposure, colour, autofocus, texture, noise, night, zoom	Image quality as tested, not megapixels.	proposals.tsv D2 row (quality_markers); Wikipedia DXOMARK
+D2	G-D2-9	processor		The processor is weighed over RAM.	proposals.tsv D2 row (quality_markers); Digital Trends cell phone buying guide
+D2	G-D2-9	durability	IP68 > IP67 > IP54; MIL-STD-810	Ingress rating and drop standard.	proposals.tsv D2 row (quality_markers)
+D2	G-D2-9	storage		Weighed last.	proposals.tsv D2 row (quality_markers)
+D2	G-D2-2	display		Display first for tablets.	proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+D2	G-D2-2	battery		Second for tablets.	proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+D2	G-D2-2	performance		Third for tablets.	proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+D2	G-D2-2	accessory support		Pen and keyboard by line.	proposals.tsv D2 row (quality_markers)
+D2	G-D2-13	store ecosystem		Chosen by preference first (Kindle, Kobo); provisional, memo only.	proposals.tsv D2 row (quality_markers); memo D2
+D2	G-D2-13	screen generation and size		Provisional, memo only.	proposals.tsv D2 row (quality_markers); memo D2
+D2	G-D2-13	front light, waterproofing, buttons, stylus		Provisional, memo only.	proposals.tsv D2 row (quality_markers); memo D2
+D2	G-D2-3	platform pairing		Works with my phone first; provisional, memo only.	proposals.tsv D2 row (quality_markers); memo D2
+D2	G-D2-3	battery days		Provisional, memo only.	proposals.tsv D2 row (quality_markers); memo D2
+D2	G-D2-3	sensor and GPS accuracy		Provisional, memo only.	proposals.tsv D2 row (quality_markers); memo D2
+D2	G-D2-3	finding network		Provisional, memo only.	proposals.tsv D2 row (quality_markers); memo D2
+D2	G-D2-5	platform pairing		Same order as wearables; provisional, memo only.	proposals.tsv D2 row (quality_markers); memo D2
+D2	G-D2-5	battery days		Provisional, memo only.	proposals.tsv D2 row (quality_markers); memo D2
+D2	G-D2-5	sensor and GPS accuracy		Provisional, memo only.	proposals.tsv D2 row (quality_markers); memo D2
+D2	G-D2-5	finding network		Find My or Find Hub network for trackers; provisional, memo only.	proposals.tsv D2 row (quality_markers); memo D2
+D2	G-D2-6	capacity	Wh; under 100 Wh for air travel	Capacity first, stated in watt-hours.	proposals.tsv D2 row (quality_markers)
+D2	G-D2-6	output wattage		Second.	proposals.tsv D2 row (quality_markers)
+D2	G-D2-6	charging standard		Third.	proposals.tsv D2 row (quality_markers)
+D3	G-D3-1	tonal balance	closeness to a neutral target	First in the reviewer scorecard; neutral, warm or bright describes, it does not rank.	proposals.tsv D3 row (quality_markers); The Absolute Sound review of Sennheiser HD 800
+D3	G-D3-1	clarity and detail		Second in the scorecard.	proposals.tsv D3 row (quality_markers); The Absolute Sound review of Sennheiser HD 800
+D3	G-D3-1	dynamics		Third in the scorecard.	proposals.tsv D3 row (quality_markers); The Absolute Sound review of Sennheiser HD 800
+D3	G-D3-1	soundstage	open back wider than closed back	Fourth; enclosure shapes it.	proposals.tsv D3 row (quality_markers); The Absolute Sound review of Sennheiser HD 800; World Wide Stereo how to choose headphones
+D3	G-D3-1	comfort and fit		After sound.	proposals.tsv D3 row (quality_markers); World Wide Stereo how to choose headphones
+D3	G-D3-1	isolation or noise cancelling		Matters by use (travel, gym).	proposals.tsv D3 row (quality_markers); World Wide Stereo how to choose headphones
+D3	G-D3-1	sensitivity and amplifier needs		Whether a separate amplifier is needed.	proposals.tsv D3 row (quality_markers); Apos Audio guide and Absolute Sound HD 800 review (community)
+D3	G-D3-1	value against similarly priced models		Weighed last.	proposals.tsv D3 row (quality_markers); The Absolute Sound review of Sennheiser HD 800
+D3	G-D3-3	reviewer class	Class A > B > C > D (Stereophile), with a bass-reach sub-class for speakers	Class from listening and test bench comes first.	proposals.tsv D3 row (quality_markers)
+D3	G-D3-3	measured distortion and noise	higher SINAD is better	Bench measurement after class.	proposals.tsv D3 row (quality_markers)
+D3	G-D3-3	build and matching		Weighed last.	proposals.tsv D3 row (quality_markers)
+D3	G-D3-4	reviewer class	Class A > B > C > D (Stereophile)	Class from listening and test bench comes first.	proposals.tsv D3 row (quality_markers)
+D3	G-D3-4	measured distortion and noise	higher SINAD is better	Bench measurement after class.	proposals.tsv D3 row (quality_markers)
+D3	G-D3-4	build and matching		Weighed last.	proposals.tsv D3 row (quality_markers)
+D3	G-D3-11	display technology and contrast		Provisional: no TV evidence fetched (memo S05, S22, S27, S35).	proposals.tsv D3 row (quality_markers); memo D3
+D3	G-D3-11	brightness and colour		Provisional (memo).	proposals.tsv D3 row (quality_markers); memo D3
+D3	G-D3-11	motion and processing		Provisional (memo).	proposals.tsv D3 row (quality_markers); memo D3
+D3	G-D3-11	size		Provisional (memo).	proposals.tsv D3 row (quality_markers); memo D3
+D3	G-D3-12	use		Provisional (memo S18, S32).	proposals.tsv D3 row (quality_markers); memo D3
+D3	G-D3-12	throw type		Provisional (memo).	proposals.tsv D3 row (quality_markers); memo D3
+D3	G-D3-12	light source		Provisional (memo).	proposals.tsv D3 row (quality_markers); memo D3
+D3	G-D3-12	brightness		Provisional (memo).	proposals.tsv D3 row (quality_markers); memo D3
+D3	G-D3-19	drive and operation		Memo S16.	proposals.tsv D3 row (quality_markers); memo D3
+D3	G-D3-19	tonearm and cartridge		Memo S16.	proposals.tsv D3 row (quality_markers); memo D3
+D4	G-D4-1	sensor size	medium format > full frame > APS-C > Micro Four Thirds > 1-inch > 1/2.3-inch	Sensor size first; brand does not change image quality.	proposals.tsv D4 row (quality_markers); Shotkit camera buying guide; Wikipedia DXOMARK
+D4	G-D4-1	pixel size		Weighed over megapixel count.	proposals.tsv D4 row (quality_markers); Shotkit camera buying guide
+D4	G-D4-1	lens quality and lens availability in the system		The system's lenses follow the sensor.	proposals.tsv D4 row (quality_markers); Adorama choosing the best camera
+D4	G-D4-1	stabilisation	in-body, then lens	After the lens system.	proposals.tsv D4 row (quality_markers); Digital Trends digital camera buying guide
+D4	G-D4-1	autofocus and speed		After stabilisation.	proposals.tsv D4 row (quality_markers); Digital Trends digital camera buying guide
+D4	G-D4-1	video features		After autofocus.	proposals.tsv D4 row (quality_markers); Digital Trends digital camera buying guide
+D4	G-D4-1	build, weather sealing and long-term support		Weighed last.	proposals.tsv D4 row (quality_markers); Adorama choosing the best camera
+D4	G-D4-2	sharpness		First of the DXOMARK lens criteria.	proposals.tsv D4 row (quality_markers); Wikipedia DXOMARK
+D4	G-D4-2	distortion		DXOMARK lens criterion.	proposals.tsv D4 row (quality_markers); Wikipedia DXOMARK
+D4	G-D4-2	vignetting		DXOMARK lens criterion.	proposals.tsv D4 row (quality_markers); Wikipedia DXOMARK
+D4	G-D4-2	transmission (T-stop)		DXOMARK lens criterion.	proposals.tsv D4 row (quality_markers); Wikipedia DXOMARK
+D4	G-D4-2	chromatic aberration		DXOMARK lens criterion.	proposals.tsv D4 row (quality_markers); Wikipedia DXOMARK
+D4	G-D4-2	maximum aperture		After the measured criteria.	proposals.tsv D4 row (quality_markers)
+D4	G-D4-2	build		Weighed last.	proposals.tsv D4 row (quality_markers)
+D4	G-D4-5	process and speed (ISO)		Memo S21, S31.	proposals.tsv D4 row (quality_markers); memo D4
+D4	G-D4-5	grain and latitude		Memo S21, S31.	proposals.tsv D4 row (quality_markers); memo D4
+D4	G-D4-3	power and recycle time		Provisional, memo only.	proposals.tsv D4 row (quality_markers); memo D4
+D4	G-D4-3	colour accuracy		Provisional, memo only.	proposals.tsv D4 row (quality_markers); memo D4
+D4	G-D4-4	load capacity		Provisional, memo only.	proposals.tsv D4 row (quality_markers); memo D4
+D4	G-D4-4	stability		Provisional, memo only.	proposals.tsv D4 row (quality_markers); memo D4
+I2	G-I2-1	rights state (all media files)	DRM-free open file > personalised watermark > account-locked > locker licence	Ownership ranks above catalogue size.	proposals.tsv I2 row (quality_markers); Libro.fm (own case against Audible); Subger audiobook subscriptions guide
+I2	G-I2-1	format fit for my device (all media files)		Weighed after rights state.	proposals.tsv I2 row (quality_markers); Kobo help: My Books filter
+I2	G-I2-2	technical quality (music)	lossless 24-bit/192 kHz > 24/96 > 16/44.1 > lossy 320 kbps > V0 > 128 kbps	Measured attributes, never tiers.	proposals.tsv I2 row (quality_markers)
+I2	G-I2-2	abridgement (audiobooks)	unabridged > abridged	First for audiobooks.	proposals.tsv I2 row (quality_markers); Subger audiobook subscriptions guide
+I2	G-I2-2	narration and production quality (audiobooks)		Audie categories.	proposals.tsv I2 row (quality_markers); Audie Awards (Wikipedia)
+I2	G-I2-2	length (audiobooks)		Weighed last.	proposals.tsv I2 row (quality_markers)
+I2	G-I2-3	technical quality	4K > HD > SD	Measured attributes, never tiers.	proposals.tsv I2 row (quality_markers)
+I2	G-I2-8	typeface		The design is chosen first.	proposals.tsv I2 row (quality_markers); Monotype Fonts browse help
+I2	G-I2-8	licence scope fit	desktop, web, app, server (a fit, not a ladder)	Second.	proposals.tsv I2 row (quality_markers); Monotype Fonts browse help
+I2	G-I2-8	script and language coverage		Third.	proposals.tsv I2 row (quality_markers); Monotype Fonts browse help
+I2	G-I2-8	variable capability		Fourth.	proposals.tsv I2 row (quality_markers); Monotype Fonts browse help
+I2	G-I2-8	foundry		Weighed last.	proposals.tsv I2 row (quality_markers); Monotype Fonts browse help
+I2	G-I2-17	TLD eligibility class		Open, country-code or restricted.	proposals.tsv I2 row (quality_markers)
+I2	G-I2-17	standard renewal price		Second.	proposals.tsv I2 row (quality_markers)
+I2	G-I2-17	registry premium status		Third.	proposals.tsv I2 row (quality_markers)
+I2	G-I2-6	rarity label		The platform's own tag.	proposals.tsv I2 row (quality_markers)
+I2	G-I2-6	tradability on the platform		Second.	proposals.tsv I2 row (quality_markers)
+I3	G-I3-1	has the titles you want (all streaming and catalogue groups)		Availability checked by title comes first; dated catalogue size is context only.	proposals.tsv I3 row (quality_markers); Choice Australia streaming guide (2021); Stiftung Warentest streaming overview (test.de)
+I3	G-I3-1	annualised price and price of the ad-free tier (all streaming and catalogue groups)		Second.	proposals.tsv I3 row (quality_markers); Choice Australia streaming guide (2021); Subger video streaming guide
+I3	G-I3-1	picture and sound quality (all streaming and catalogue groups)	4K HDR > HD > SD	Third.	proposals.tsv I3 row (quality_markers); Stiftung Warentest streaming overview (test.de)
+I3	G-I3-1	simultaneous streams and seats (all streaming and catalogue groups)	family > duo > individual	Fourth.	proposals.tsv I3 row (quality_markers); Spotify Premium plans (NL)
+I3	G-I3-1	devices supported (all streaming and catalogue groups)		Fifth.	proposals.tsv I3 row (quality_markers); DSLWEB on Stiftung Warentest streaming
+I3	G-I3-1	contract term and ease of cancelling (all streaming and catalogue groups)		Sixth.	proposals.tsv I3 row (quality_markers); Choice Australia streaming guide (2021)
+I3	G-I3-1	free trial (all streaming and catalogue groups)		Weighed last.	proposals.tsv I3 row (quality_markers); Choice Australia streaming guide (2021)
+I3	G-I3-8	coverage		First of the award categories.	proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+I3	G-I3-8	speed		Award category.	proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+I3	G-I3-8	reliability		Award category.	proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+I3	G-I3-8	customer satisfaction and complaints		Award category.	proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+I3	G-I3-8	value and price		Award category.	proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+I3	G-I3-8	roaming		Award category.	proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+I3	G-I3-8	perks and family plans		Weighed last.	proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+I3	G-I3-9	reach of sites or venues		Chosen by preference; provisional, memo only.	proposals.tsv I3 row (quality_markers); memo I3
+I3	G-I3-9	price		Provisional, memo only.	proposals.tsv I3 row (quality_markers); memo I3
+I3	G-I3-9	flexibility		Provisional, memo only.	proposals.tsv I3 row (quality_markers); memo I3
+I3	G-I3-10	curation		Chosen by preference; provisional, memo only.	proposals.tsv I3 row (quality_markers); memo I3
+I3	G-I3-10	price		Provisional, memo only.	proposals.tsv I3 row (quality_markers); memo I3
+I3	G-I3-10	flexibility		Provisional, memo only.	proposals.tsv I3 row (quality_markers); memo I3
+F1	G-F1-1	importance of the work (collectible books)		Title-level, out of scope: shown only as context.	proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+F1	G-F1-1	edition and printing (collectible books)	first edition, first printing > later printing	Stored as an attribute.	proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+F1	G-F1-1	condition (collectible books)	book condition scale	Graded on the scale, linked to the registry.	proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+F1	G-F1-1	contemporary binding (collectible books)		After condition.	proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+F1	G-F1-1	completeness (collectible books)		Plates, maps, dust jacket.	proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+F1	G-F1-1	provenance and association (collectible books)		One copy's facts, never stored (C16).	proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+F1	G-F1-1	quality of printing (collectible books)		After provenance.	proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+F1	G-F1-1	quality of binding (collectible books)	fine binding, fine press (attribute values)	After printing.	proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+F1	G-F1-1	illustration (collectible books)		After binding.	proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+F1	G-F1-1	rarity (collectible books)		Weighed last.	proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+F1	G-F1-1	binding class (new books)	hardback > trade paperback > mass-market	Stored as paper_class and binding values.	proposals.tsv F1 row (quality_markers); Hugendubel Bücher (Germany)
+F1	G-F1-1	language (new books)		A choice, no ladder.	proposals.tsv F1 row (quality_markers); Hugendubel Bücher (Germany)
+F1	G-F1-2	edition	premium large format > omnibus > hardcover > trade > single issue	Memo edition ladder (CBR S12); tier entries on lines.	proposals.tsv F1 row (quality_markers); memo F1
+F1	G-F1-2	condition		After edition.	proposals.tsv F1 row (quality_markers)
+F1	G-F1-6	mastering and source	D2D and all-analog, UHQR, audiophile reissue label	First for records.	proposals.tsv F1 row (quality_markers); Acoustic Sounds vinyl
+F1	G-F1-6	pressing plant		Second.	proposals.tsv F1 row (quality_markers); Acoustic Sounds vinyl
+F1	G-F1-6	weight	200 g, 180 g > 140-150 g	Third.	proposals.tsv F1 row (quality_markers); Acoustic Sounds vinyl
+F1	G-F1-6	speed	45 rpm audiophile cut > 33 1/3 rpm	Fourth.	proposals.tsv F1 row (quality_markers); Acoustic Sounds vinyl
+F1	G-F1-6	sealed, out of print, low serial number		One copy's facts, not stored.	proposals.tsv F1 row (quality_markers); Acoustic Sounds vinyl
+F1	G-F1-6	condition of disc and of jacket	M > NM > VG+ > VG > G/G+ > F/P (Goldmine)	Disc and jacket graded separately.	proposals.tsv F1 row (quality_markers); Jazz Collector record grading
+F1	G-F1-8	format spec	SACD and DVD-Audio > HDCD > CD 16-bit/44.1 kHz	A measured attribute.	proposals.tsv F1 row (quality_markers); Tower Records Japan
+F1	G-F1-8	pressing material	SHM-CD, Blu-spec CD2, HQCD	With the format spec.	proposals.tsv F1 row (quality_markers); Tower Records Japan
+F1	G-F1-8	domestic or import pressing		A tag.	proposals.tsv F1 row (quality_markers); Tower Records Japan; Disk Union used shop (Japan)
+F1	G-F1-8	condition		Weighed last.	proposals.tsv F1 row (quality_markers); Disk Union used shop (Japan)
+F1	G-F1-14	resolution format	Ultra HD Blu-ray > Blu-ray > DVD	An attribute; provisional, no fetched spec page.	proposals.tsv F1 row (quality_markers)
+F1	G-F1-14	packaging		Steelbook as an attribute.	proposals.tsv F1 row (quality_markers)
+F1	G-F1-14	region code		Weighed last.	proposals.tsv F1 row (quality_markers)
+F2	G-F2-1	authenticity and originality (all art)	original > interpretive > reproduction > restrike (authenticity_class)	First; HS97 \"wholly executed by hand\".	proposals.tsv F2 row (quality_markers); Abstract House painting checklist
+F2	G-F2-1	condition (all art)		Cracks, fading, restoration; one work's facts, never stored.	proposals.tsv F2 row (quality_markers); Abstract House painting checklist
+F2	G-F2-1	artist reputation and auction record (all art)		Held at maker level.	proposals.tsv F2 row (quality_markers); Abstract House painting checklist
+F2	G-F2-1	market value against comparables (all art)		After the artist.	proposals.tsv F2 row (quality_markers); Abstract House painting checklist
+F2	G-F2-1	style and appeal (all art)		Weighed last.	proposals.tsv F2 row (quality_markers); Abstract House painting checklist
+F2	G-F2-1	era (paintings)	antique or contemporary (a tag)	After original against reproduction.	proposals.tsv F2 row (quality_markers); eBay Germany Kunst Ratgeber
+F2	G-F2-1	artist and attribution (paintings)		Forgery risk stressed for Japanese and Chinese painting.	proposals.tsv F2 row (quality_markers); Nanboya (Japan) paintings guide
+F2	G-F2-2	edition size	unique > limited > open; small (under 50) before large	First for prints.	proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+F2	G-F2-2	hand signature in pencil and numbering		Second.	proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+F2	G-F2-2	documentation		Certificate, chop mark, blind stamp; one edition's facts, not stored.	proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+F2	G-F2-2	original hand technique over photomechanical		Recorded as authenticity_class.	proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+F2	G-F2-2	production quality		Paper and ink.	proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+F2	G-F2-2	market demand		Weighed last.	proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+F2	G-F2-2	proof status	bon à tirer; artist's proof (capped about 10 percent); hors commerce	Per CAA guidelines.	proposals.tsv F2 row (quality_markers); College Art Association print guidelines
+F2	G-F2-3	process and print date against image date		Vintage print as an era tag (memo).	proposals.tsv F2 row (quality_markers); memo F2
+F2	G-F2-3	edition class	unique > limited > open	After process and date.	proposals.tsv F2 row (quality_markers); memo F2
+F3	G-F3-1	wear (circulated grades)	MS-60 to MS-70 > AU-50/58 > XF-40 > VF-20 > F-12 > VG-8 > G-4 > AG-3 > FR-2 > P-1 (Sheldon; 70 = no flaw at 5x)	Wear first; proof and uncirculated describe manufacture (finish), not condition.	proposals.tsv F3 row (quality_markers); Numismatic News Sheldon scale; Provident Metals coin grading guide
+F3	G-F3-1	strike		Second.	proposals.tsv F3 row (quality_markers); Numismatic News Sheldon scale
+F3	G-F3-1	contact marks		Third.	proposals.tsv F3 row (quality_markers); Numismatic News Sheldon scale
+F3	G-F3-1	luster		Fourth.	proposals.tsv F3 row (quality_markers); Numismatic News Sheldon scale
+F3	G-F3-1	eye appeal		Fifth.	proposals.tsv F3 row (quality_markers); Provident Metals coin grading guide
+F3	G-F3-1	mintage and die varieties		Add rarity; die varieties are C3 variants.	proposals.tsv F3 row (quality_markers)
+F3	G-F3-2	metal and fineness		An attribute with its standard.	proposals.tsv F3 row (quality_markers)
+F3	G-F3-2	weight		Second.	proposals.tsv F3 row (quality_markers)
+F3	G-F3-2	mint or refiner		Third.	proposals.tsv F3 row (quality_markers)
+F3	G-F3-2	premium over spot		A price, not stored.	proposals.tsv F3 row (quality_markers)
+F3	G-F3-3	grade	PMG 70-point scale with EPQ	From the memo.	proposals.tsv F3 row (quality_markers); memo F3
+F3	G-F3-4	correct identification		Catalogue type comes first.	proposals.tsv F3 row (quality_markers); Huntington Stamp and Coin Shop; Wikipedia stamp condition
+F3	G-F3-4	condition and faults		Thins, tears, repairs, re-perforation, regumming.	proposals.tsv F3 row (quality_markers); Warwick and Warwick stamp grading (UK)
+F3	G-F3-4	gum	MNH > LH > HH > HR > OG > NG > RG	Third.	proposals.tsv F3 row (quality_markers); Wikipedia stamp condition
+F3	G-F3-4	centering and margins	Gem > Superb > XF > VF > F > VG/average > poor	Fourth.	proposals.tsv F3 row (quality_markers); Mystic Stamp premium grading guidelines
+F3	G-F3-4	perforations		Fifth.	proposals.tsv F3 row (quality_markers); Mystic Stamp premium grading guidelines
+F3	G-F3-4	colour		Sixth.	proposals.tsv F3 row (quality_markers); Wikipedia stamp condition
+F3	G-F3-4	cancellation	light, clear, or first-day	Seventh.	proposals.tsv F3 row (quality_markers); Wikipedia stamp condition
+F3	G-F3-4	scarcity		Weighed last.	proposals.tsv F3 row (quality_markers); Huntington Stamp and Coin Shop
+F3	G-F3-4	Japanese issues: weighing order	issue era > unused full sheet with margins > gum > issue quantity > imprint > first-day postmark (an order, not a ladder)	The Japanese dealer's order.	proposals.tsv F3 row (quality_markers); Otakaraya stamps (Japan)
+F3	G-F3-5	centering		First of the four grading criteria.	proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+F3	G-F3-5	corners		Second.	proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+F3	G-F3-5	edges		Third.	proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+F3	G-F3-5	surface		Fourth.	proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+F3	G-F3-5	grader		PSA is the most liquid.	proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+F3	G-F3-5	grade	10 Gem Mint or Pristine > 9 Mint > ...	On the grader's scale.	proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+F3	G-F3-6	place in an order of wear		A scheme.	proposals.tsv F3 row (quality_markers)
+F3	G-F3-6	condition		No scale fetched.	proposals.tsv F3 row (quality_markers)
+F3	G-F3-7	preference		No quality ladder.	proposals.tsv F3 row (quality_markers)
+F3	G-F3-8	preference		No quality ladder.	proposals.tsv F3 row (quality_markers)
+F4	G-F4-18	validity (scroll goods)		First: rests on the scribe's reliability and rabbinical certification.	proposals.tsv F4 row (quality_markers); HaSofer STaM warning page
+F4	G-F4-18	inspection of the item (scroll goods)		Second.	proposals.tsv F4 row (quality_markers); HaSofer STaM warning page
+F4	G-F4-18	script grade (scroll goods)	mehudar > upgraded > basic	Memo S32.	proposals.tsv F4 row (quality_markers); memo F4
+F4	G-F4-18	fit of scroll to case (scroll goods)		Weighed last.	proposals.tsv F4 row (quality_markers); HaSofer STaM warning page
+F4	G-F4-18	fit to scroll, doorway and mounting (mezuzah case)		First for the case.	proposals.tsv F4 row (quality_markers); David Roytman how to choose a mezuzah case
+F4	G-F4-18	material (mezuzah case)		Second.	proposals.tsv F4 row (quality_markers); David Roytman how to choose a mezuzah case
+F4	G-F4-18	style and symbolism (mezuzah case)		Third.	proposals.tsv F4 row (quality_markers); David Roytman how to choose a mezuzah case
+F4	G-F4-18	personalisation (mezuzah case)		Weighed last.	proposals.tsv F4 row (quality_markers); David Roytman how to choose a mezuzah case
+F4	G-F4-12	right for the use and tradition	108 beads or shorter; juzu by sect and wearer	First.	proposals.tsv F4 row (quality_markers); Art of Tibet mala guide; Rakuten Kyoto Butsudan shop (Japan)
+F4	G-F4-12	material		Bodhi seed, sandalwood, stone; perfectly uniform colour may mean treated or imitation.	proposals.tsv F4 row (quality_markers); Art of Tibet mala guide
+F4	G-F4-12	craftsmanship		Cord, knots, drill holes, guru bead.	proposals.tsv F4 row (quality_markers); Art of Tibet mala guide
+F4	G-F4-12	bead size	about 7-8 mm	Fourth.	proposals.tsv F4 row (quality_markers); Art of Tibet mala guide
+F4	G-F4-12	care		Weighed last.	proposals.tsv F4 row (quality_markers); Art of Tibet mala guide
+F4	G-F4-13	use	home or travel	First.	proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+F4	G-F4-13	padding		Second.	proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+F4	G-F4-13	non-slip base		Third.	proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+F4	G-F4-13	surface fabric	velvet, cotton, synthetic	Fourth.	proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+F4	G-F4-13	size and portability		Fifth.	proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+F4	G-F4-13	design		Weighed last.	proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+F4	G-F4-10	form and style for the rite		Standing, Tau, St Benedict crosses and the like.	proposals.tsv F4 row (quality_markers); Holyart crucifixes (Italy)
+F4	G-F4-10	material		Second.	proposals.tsv F4 row (quality_markers); Holyart crucifixes (Italy)
+F4	G-F4-10	hand-finishing and craftsmanship		Third.	proposals.tsv F4 row (quality_markers); Holyart crucifixes (Italy)
+F4	G-F4-10	made-in tag		Origin as a tag, never a level.	proposals.tsv F4 row (quality_markers); Holyart crucifixes (Italy)
+F4	G-F4-8	form and style for the rite		Butsudan mini, modern, karaki, kin.	proposals.tsv F4 row (quality_markers); Rakuten Kyoto Butsudan shop (Japan)
+F4	G-F4-8	material		Second.	proposals.tsv F4 row (quality_markers); Rakuten Kyoto Butsudan shop (Japan)
+F4	G-F4-8	hand-finishing and craftsmanship		Third.	proposals.tsv F4 row (quality_markers); Rakuten Kyoto Butsudan shop (Japan)
+F4	G-F4-8	made-in tag		Origin as a tag, never a level.	proposals.tsv F4 row (quality_markers); Rakuten Kyoto Butsudan shop (Japan)
+F4	G-F4-3	hand-finishing (Judaica)		First for Judaica gifts.	proposals.tsv F4 row (quality_markers); Judaica guide by Roytman holidays
+F4	G-F4-3	permanence (Judaica)		Second.	proposals.tsv F4 row (quality_markers); Judaica guide by Roytman holidays
+F4	G-F4-3	suitability for use (Judaica)		Third.	proposals.tsv F4 row (quality_markers); Judaica guide by Roytman holidays
+F4	G-F4-25	material and steel gauge		Attributes (memo).	proposals.tsv F4 row (quality_markers); memo F4
+F4	G-F4-26	material		An attribute (memo).	proposals.tsv F4 row (quality_markers); memo F4
+F6	G-F6-1	colour		First.	proposals.tsv F6 row (quality_markers); Intelligent Collector guide to fine minerals; iRocks mineral guide and shop
+F6	G-F6-1	form		Crystal habit and matrix presentation.	proposals.tsv F6 row (quality_markers); Intelligent Collector guide to fine minerals
+F6	G-F6-1	condition		Damage and disclosed repair.	proposals.tsv F6 row (quality_markers); Intelligent Collector guide to fine minerals
+F6	G-F6-1	luster and clarity or transparency		Fourth.	proposals.tsv F6 row (quality_markers); Intelligent Collector guide to fine minerals
+F6	G-F6-1	locality		A classic locality adds value.	proposals.tsv F6 row (quality_markers); iRocks mineral guide and shop
+F6	G-F6-1	provenance		Old labels; one piece's facts, not stored.	proposals.tsv F6 row (quality_markers); Intelligent Collector guide to fine minerals
+F6	G-F6-1	size	thumbnail, miniature, small cabinet, cabinet, large cabinet (size classes)	A small fine piece beats a large poor one.	proposals.tsv F6 row (quality_markers); iRocks mineral guide and shop
+F6	G-F6-2	authenticity		First.	proposals.tsv F6 row (quality_markers); Buried Treasure Fossils condition guide; FossilEra
+F6	G-F6-2	completeness		Second.	proposals.tsv F6 row (quality_markers); Buried Treasure Fossils condition guide
+F6	G-F6-2	surface detail and preservation		Third.	proposals.tsv F6 row (quality_markers); Buried Treasure Fossils condition guide
+F6	G-F6-2	natural or repaired	natural > repaired or restored (extent disclosed)	Fourth.	proposals.tsv F6 row (quality_markers); Buried Treasure Fossils condition guide
+F6	G-F6-2	matrix quality		Fifth.	proposals.tsv F6 row (quality_markers); Buried Treasure Fossils condition guide
+F6	G-F6-2	legal sourcing with ID		Species, age, locality, formation.	proposals.tsv F6 row (quality_markers); FossilEra
+F6	G-F6-2	size		Weighed last.	proposals.tsv F6 row (quality_markers); FossilEra
+F6	G-F6-3	class and official name		Meteoritical Society classification first.	proposals.tsv F6 row (quality_markers); Mini Museum how to buy a meteorite
+F6	G-F6-3	form	individual, cut slice, etched	A form attribute.	proposals.tsv F6 row (quality_markers); Peltram Minerals stony meteorites
+F6	G-F6-3	seller guarantee		Third.	proposals.tsv F6 row (quality_markers); Mini Museum how to buy a meteorite
+F6	G-F6-3	known fall or find history		Weighed last.	proposals.tsv F6 row (quality_markers); Mini Museum how to buy a meteorite
+F6	G-F6-16	identity	natural > lab-grown	Species first, and natural, not lab-grown.	proposals.tsv F6 row (quality_markers); Spectra gem certification article; GemSelect loose gemstones
+F6	G-F6-16	treatment	untreated and unheated > heated > other treatments	Second.	proposals.tsv F6 row (quality_markers); Spectra gem certification article; Gem Rock Auctions
+F6	G-F6-16	geographic origin		Third.	proposals.tsv F6 row (quality_markers); Spectra gem certification article
+F6	G-F6-16	visual quality	clarity VVS > VS > SI; with colour, cut, life and fire	Fourth.	proposals.tsv F6 row (quality_markers); GemSelect loose gemstones
+F6	G-F6-16	carat and calibrated size		Weighed last.	proposals.tsv F6 row (quality_markers); GemSelect loose gemstones
+F6	G-F6-15	shape		GIA factor (memo).	proposals.tsv F6 row (quality_markers); memo F6
+F6	G-F6-15	colour		GIA factor (memo).	proposals.tsv F6 row (quality_markers); memo F6
+F6	G-F6-15	clarity		GIA factor (memo).	proposals.tsv F6 row (quality_markers); memo F6
+F6	G-F6-15	cut		GIA factor (memo).	proposals.tsv F6 row (quality_markers); memo F6
+F6	G-F6-15	carat		GIA factor (memo).	proposals.tsv F6 row (quality_markers); memo F6
+F6	G-F6-17	luster		First of the GIA seven value factors (memo).	proposals.tsv F6 row (quality_markers); memo F6
+F6	G-F6-17	the other GIA value factors		The remaining six of the seven factors (memo).	proposals.tsv F6 row (quality_markers); memo F6
