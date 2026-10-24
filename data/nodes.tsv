@@ -1,33 +1,33 @@
 node_id	code	level	parent_id	name	axis	sort	notes	sources	fetch_status
 A2	A2	category				0	from audit/KL_A2_tree_v2.md		
-B8	B8	category				0	from audit/KL_B8_tree_v2.md		
-B8.1	B8	sub_family	B8	Break-in, theft & attack (leaf axis: device job)		1	from audit/KL_B8_tree_v2.md		
-B8.1.1	B8	leaf	B8.1	Door locks (lock a door)		2	from audit/KL_B8_tree_v2.md		
-B8.1.2	B8	leaf	B8.1	Window & door restraints (hold a door or window shut)		3	from audit/KL_B8_tree_v2.md		
-B8.1.3	B8	leaf	B8.1	Padlocks, chains & anchors (lock a loose item)		4	from audit/KL_B8_tree_v2.md		
-B8.1.4	B8	leaf	B8.1	Safes & secure storage (store securely)		5	from audit/KL_B8_tree_v2.md		
-B8.1.5	B8	leaf	B8.1	Alarms & sensors (detect and sound)		6	from audit/KL_B8_tree_v2.md		
-B8.1.6	B8	leaf	B8.1	Cameras, doorbells & door entry (watch and answer the door)		7	from audit/KL_B8_tree_v2.md		
-B8.1.7	B8	leaf	B8.1	Mail & parcel boxes (receive mail)		8	from audit/KL_B8_tree_v2.md		
-B8.1.8	B8	leaf	B8.1	Anti-climb & glazing protection (deter climbing and glass break)		9	from audit/KL_B8_tree_v2.md		
-B8.2	B8	sub_family	B8	Fire, smoke & gas (leaf axis: device job, detect or suppress)		10	from audit/KL_B8_tree_v2.md		
-B8.2.1	B8	leaf	B8.2	Fire & gas alarms (detect)		11	from audit/KL_B8_tree_v2.md		
-B8.2.2	B8	leaf	B8.2	Fire suppression (suppress)		12	from audit/KL_B8_tree_v2.md		
-B8.3	B8	sub_family	B8	Household injury hazards (leaf axis: site of the hazard and device job; child, baby, older adult and pet are user tags)		13	from audit/KL_B8_tree_v2.md		
-B8.3.1	B8	leaf	B8.3	Gates & barriers (stairs and openings)		14	from audit/KL_B8_tree_v2.md		
-B8.3.2	B8	leaf	B8.3	Latches & restraints for cabinets, appliances and furniture		15	from audit/KL_B8_tree_v2.md		
-B8.3.3	B8	leaf	B8.3	Guards for edges, sockets & knobs		16	from audit/KL_B8_tree_v2.md		
-B8.3.4	B8	leaf	B8.3	Window & door guards		17	from audit/KL_B8_tree_v2.md		
-B8.3.5	B8	leaf	B8.3	Room monitors (watching a room)		18	from audit/KL_B8_tree_v2.md		
-B8.4	B8	sub_family	B8	Pests (leaf axis: control method; target pest is a tag)		19	from audit/KL_B8_tree_v2.md		
-B8.4.1	B8	leaf	B8.4	Traps		20	from audit/KL_B8_tree_v2.md		
-B8.4.2	B8	leaf	B8.4	Baits & poisons		21	from audit/KL_B8_tree_v2.md		
-B8.4.3	B8	leaf	B8.4	Sprays, foggers & vaporisers		22	from audit/KL_B8_tree_v2.md		
-B8.4.4	B8	leaf	B8.4	Repellents		23	from audit/KL_B8_tree_v2.md		
-B8.4.5	B8	leaf	B8.4	Zappers & swatters		24	from audit/KL_B8_tree_v2.md		
-B8.4.6	B8	leaf	B8.4	Nets, screens & spikes		25	from audit/KL_B8_tree_v2.md		
-B8.5	B8	sub_family	B8	Water leaks (no leaf)		26	from audit/KL_B8_tree_v2.md		
-B8.6	B8	sub_family	B8	Parts and accessories made for one B8 object (no leaf; ordered by the object served)		27	from audit/KL_B8_tree_v2.md		
+B8	B8	category				0	from verify/out/TREE_B8.md		
+B8.1	B8	sub_family	B8	Break-in, theft & attack	Leaf axis: the job the device does (lock a door; restrain a door or window; lock a loose item; store securely; detect and sound; watch and answer the door; receive mail; deter climbing and glass break).	1	from verify/out/TREE_B8.md		
+B8.1.1	B8	leaf	B8.1	Door locks		2	from verify/out/TREE_B8.md		
+B8.1.2	B8	leaf	B8.1	Window & door restraints		3	from verify/out/TREE_B8.md		
+B8.1.3	B8	leaf	B8.1	Padlocks, chains & anchors		4	from verify/out/TREE_B8.md		
+B8.1.4	B8	leaf	B8.1	Safes & secure storage		5	from verify/out/TREE_B8.md		
+B8.1.5	B8	leaf	B8.1	Alarms & sensors		6	from verify/out/TREE_B8.md		
+B8.1.6	B8	leaf	B8.1	Cameras, doorbells & door entry		7	from verify/out/TREE_B8.md		
+B8.1.7	B8	leaf	B8.1	Mail & parcel boxes		8	from verify/out/TREE_B8.md		
+B8.1.8	B8	leaf	B8.1	Anti-climb & glazing protection		9	from verify/out/TREE_B8.md		
+B8.2	B8	sub_family	B8	Fire, smoke & gas	Leaf axis: the device job, detect or suppress.	10	from verify/out/TREE_B8.md		
+B8.2.1	B8	leaf	B8.2	Fire & gas alarms		11	from verify/out/TREE_B8.md		
+B8.2.2	B8	leaf	B8.2	Fire suppression		12	from verify/out/TREE_B8.md		
+B8.3	B8	sub_family	B8	Household injury hazards	Leaf axis: the site of the hazard and the job done there (stairs and openings; cabinets, appliances and furniture; edges, sockets and knobs; windows and doors; watching a room). Child, baby, older adult and pet are user tags.	13	from verify/out/TREE_B8.md		
+B8.3.1	B8	leaf	B8.3	Gates & barriers		14	from verify/out/TREE_B8.md		
+B8.3.2	B8	leaf	B8.3	Latches & restraints for cabinets, appliances and furniture		15	from verify/out/TREE_B8.md		
+B8.3.3	B8	leaf	B8.3	Guards for edges, sockets & knobs		16	from verify/out/TREE_B8.md		
+B8.3.4	B8	leaf	B8.3	Window & door guards		17	from verify/out/TREE_B8.md		
+B8.3.5	B8	leaf	B8.3	Room monitors		18	from verify/out/TREE_B8.md		
+B8.4	B8	sub_family	B8	Pests	Leaf axis: the control method (trap; bait; spray or vaporise; repel; kill on contact; exclude). Target pest is a tag.	19	from verify/out/TREE_B8.md		
+B8.4.1	B8	leaf	B8.4	Traps		20	from verify/out/TREE_B8.md		
+B8.4.2	B8	leaf	B8.4	Baits & poisons		21	from verify/out/TREE_B8.md		
+B8.4.3	B8	leaf	B8.4	Sprays, foggers & vaporisers		22	from verify/out/TREE_B8.md		
+B8.4.4	B8	leaf	B8.4	Repellents		23	from verify/out/TREE_B8.md		
+B8.4.5	B8	leaf	B8.4	Zappers & swatters		24	from verify/out/TREE_B8.md		
+B8.4.6	B8	leaf	B8.4	Nets, screens & spikes		25	from verify/out/TREE_B8.md		
+B8.5	B8	sub_family	B8	Water leaks		26	from verify/out/TREE_B8.md		
+B8.6	B8	sub_family	B8	Parts and accessories made for one B8 object		27	from verify/out/TREE_B8.md		
 G2	G2	category				0	from audit/KL_G2_tree_v2.md		
 G2.1	G2	sub_family	G2	Land	Leaf axis: land cover and principal use. Land is filed by its principal land use whether or not it carries buildings or a house; dwellings and farm buildings on it are only an `improvements` facet.	1	from audit/KL_G2_tree_v2.md		
 G2.2	G2	sub_family	G2	Dwellings	Leaf axis: what is owned against the building around it (a whole house; a unit inside a building; a whole building of two or more dwellings; a dwelling kept in place that is not a building).	2	from audit/KL_G2_tree_v2.md		
