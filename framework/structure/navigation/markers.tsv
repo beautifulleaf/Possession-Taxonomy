@@ -154,64 +154,6 @@ F6	G-F6-15	cut		GIA factor (memo).	proposals.tsv F6 row (quality_markers); memo 
 F6	G-F6-15	carat		GIA factor (memo).	proposals.tsv F6 row (quality_markers); memo F6
 F6	G-F6-17	luster		First of the GIA seven value factors (memo).	proposals.tsv F6 row (quality_markers); memo F6
 F6	G-F6-17	the other GIA value factors		The remaining six of the seven factors (memo).	proposals.tsv F6 row (quality_markers); memo F6
-H2	G-H2-1	active ingredient and strength		Attributes of the medicine (memo).	proposals.tsv H2 row (quality_markers); memo H2 sections 2, 5-7
-H2	G-H2-1	sale class	(C17 rows; a filter)	After the active ingredient.	proposals.tsv H2 row (quality_markers, quality_signals); memo H2 sections 2, 5-7
-H2	G-H2-2	ingredients and form		Supplements are judged on what is in them first.	proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
-H2	G-H2-2	third-party testing seal	USP Verified; NSF Certified; ConsumerLab; Clean Label Project; GMP (certification attributes)	After ingredients.	proposals.tsv H2 row (quality_markers, quality_signals); Medical News Today vitamin brands
-H2	G-H2-2	certificate of analysis		After the seal.	proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
-H2	G-H2-2	clear labelling		After the certificate.	proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
-H2	G-H2-2	company reputation		Marketing claims count last of all.	proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
-H2	G-H2-3	ingredient type	whey; isolate; clear; vegan (a choice)	Sports nutrition starts from the ingredient.	proposals.tsv H2 row (quality_markers); Myprotein (sports nutrition)
-H2	G-H2-3	batch testing for banned substances	Informed Sport; NSF Certified for Sport; Informed Choice	Batch tested by an anti-doping lab.	proposals.tsv H2 row (quality_markers, quality_signals); Myprotein (sports nutrition)
-H2	G-H2-4	accuracy validated independently to international standards	on a validated list (BIHS for blood pressure)	Validation comes first for every monitor.	proposals.tsv H2 row (quality_markers); British and Irish Hypertension Society validated monitors
-H2	G-H2-33	validated accuracy	on the BIHS validated list (recommended by NHS and NICE)	First for blood-pressure monitors.	proposals.tsv H2 row (quality_markers, quality_signals); British and Irish Hypertension Society validated monitors
-H2	G-H2-33	cuff type and fit	upper arm > wrist	After validation (memo).	proposals.tsv H2 row (quality_markers); memo H2 sections 2, 5-7
-H2	G-H2-33	age of the monitor	replace a home monitor within four years	Last in the order.	proposals.tsv H2 row (quality_markers); British and Irish Hypertension Society validated monitors
-H2	G-H2-6	fit to the user	handle height; seat	Fit comes first.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK); Vitality Medical (US)
-H2	G-H2-6	user weight capacity		After fit; bariatric is a user tag.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
-H2	G-H2-6	width and fit indoors		After capacity.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
-H2	G-H2-6	place of use and surfaces	indoor; outdoor; all-terrain (a choice)	After width.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
-H2	G-H2-6	wheel size		After surfaces.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
-H2	G-H2-6	portability and weight		After wheels.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
-H2	G-H2-6	brakes		After portability.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
-H2	G-H2-6	warranty		Last in the order.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
-H2	G-H2-54	style for the hearing loss	BTE; RIC; ITE; canal (a choice)	Style is chosen for the loss first.	proposals.tsv H2 row (quality_markers); memo H2 sections 2, 5-7
-H2	G-H2-54	lab-measured performance	HearingTracker lab scores	After style (memo).	proposals.tsv H2 row (quality_markers, quality_signals); memo H2 sections 2, 5-7
-H3	G-H3-1	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material is the safety variable and comes first; body_safe_class is computed from it. Price is not a guarantee of material.	proposals.tsv H3 row (quality_markers, quality_signals); Healthline how to buy a vibrator; MysteryVibe sex toy materials guide
-H3	G-H3-1	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-1	material disclosure and maker reputation	full ingredient or material disclosure > none	No independent grade exists, so disclosure carries weight.	proposals.tsv H3 row (quality_markers, quality_signals); MysteryVibe sex toy materials guide
-H3	G-H3-1	construction	no cracks, seams or pores	After disclosure.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-1	motor strength and range of settings		Powered products.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-1	noise, waterproofing and charging		Powered products, after the motor.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-1	size and fit	length; diameter	Last in the order.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-2	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material comes first.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-2	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-2	material disclosure and maker reputation	full ingredient or material disclosure > none	After the material checks.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-2	construction	no cracks, seams or pores	After disclosure.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-2	size and fit	length; diameter	Last in the order.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-3	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material comes first.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-3	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-3	material disclosure and maker reputation	full ingredient or material disclosure > none	After the material checks.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-3	construction	no cracks, seams or pores	After disclosure.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-3	size and fit, with a flared base	flared base for anal use; length; diameter	Last in the order; the flared base is named for anal use.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-4	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material comes first.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-4	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-4	material disclosure and maker reputation	full ingredient or material disclosure > none	After the material checks.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-4	construction	no cracks, seams or pores	After disclosure.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-4	size and fit	length; diameter	Last in the order.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-6	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material of the parts that touch the body comes first.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-6	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-6	material disclosure and maker reputation	full ingredient or material disclosure > none	After the material checks.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-6	construction	no cracks, seams or pores	After disclosure.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-6	motor strength and range of settings		Powered products.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-6	noise, waterproofing and charging		Powered products, after the motor.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-7	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material comes first.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-7	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-7	material disclosure and maker reputation	full ingredient or material disclosure > none	After the material checks.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
-H3	G-H3-7	construction	no cracks, seams or pores	Last of the markers that apply.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
-H3	G-H3-15	safe, easy release		Restraints: release comes first.	proposals.tsv H3 row (quality_markers); Bustle beginner restraint guide
-H3	G-H3-15	comfort and circulation protection		After release.	proposals.tsv H3 row (quality_markers); Bustle beginner restraint guide
-H3	G-H3-15	material	neoprene or padded cuffs > rope and metal (for beginners)	Last in the order.	proposals.tsv H3 row (quality_markers); Bustle beginner restraint guide
 C1	G-C1-R1	How hard it works under load	torque, drilling and driving speed	Tests weigh this first (Consumer Reports power score; CHOICE gives drilling and torque 30 percent each).	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
 C1	G-C1-R1	How it handles	weight and balance with the battery fitted	CHOICE gives handling 40 percent.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
 C1	G-C1-R1	Battery run time and platform	higher amp-hours and a wider range of tools on the same battery	Most people buy into one battery platform, then choose tools within it.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
@@ -942,3 +884,37 @@ I3	G-I3-R7	Flexibility		Provisional, for the memo only.	rewritten from the store
 I3	G-I3-R8	Curation		Chosen by preference; provisional, for the memo only.	rewritten from the stored I3 markers (G-I3-10), RD_I3
 I3	G-I3-R8	Price		Provisional, for the memo only.	rewritten from the stored I3 markers (G-I3-10), RD_I3
 I3	G-I3-R8	Flexibility		Provisional, for the memo only.	rewritten from the stored I3 markers (G-I3-10), RD_I3
+H2	G-H2-R1	Active ingredient and strength		What the medicine contains comes first.	rewritten from the stored H2 markers (G-H2-1), RD_H2
+H2	G-H2-R1	Sale class	pharmacy-only, pharmacy or general sale (a filter)	Checked after the active ingredient.	rewritten from the stored H2 markers (G-H2-1), RD_H2
+H2	G-H2-R2-1; G-H2-R2-2	Ingredients and form		Supplements are judged first on what is in them.	rewritten from the stored H2 markers (G-H2-2), RD_H2
+H2	G-H2-R2-1; G-H2-R2-2	Independent testing seal	USP Verified; NSF Certified; ConsumerLab; Clean Label Project; GMP	Checked after the ingredients.	rewritten from the stored H2 markers (G-H2-2), RD_H2
+H2	G-H2-R2-1; G-H2-R2-2	Certificate of analysis		Checked after the seal.	rewritten from the stored H2 markers (G-H2-2), RD_H2
+H2	G-H2-R2-1; G-H2-R2-2	Clear labelling		Checked after the certificate.	rewritten from the stored H2 markers (G-H2-2), RD_H2
+H2	G-H2-R2-1; G-H2-R2-2	Company reputation		Marketing claims count last of all.	rewritten from the stored H2 markers (G-H2-2), RD_H2
+H2	G-H2-R2-3; G-H2-R2-4; G-H2-R2-5	Type of ingredient	whey; isolate; clear; vegan (a choice)	Sports nutrition starts from the ingredient.	rewritten from the stored H2 markers (G-H2-3), RD_H2
+H2	G-H2-R2-3; G-H2-R2-4; G-H2-R2-5	Batch tested for banned substances	Informed Sport; NSF Certified for Sport; Informed Choice	Each batch is tested by an anti-doping lab.	rewritten from the stored H2 markers (G-H2-3), RD_H2
+H2	G-H2-R3	Accuracy checked independently	on a validated list (BIHS for blood pressure)	Independent checking comes first for every monitor.	rewritten from the stored H2 markers (G-H2-4), RD_H2
+H2	G-H2-R3-1	Accuracy on the validated list	on the BIHS validated list (recommended by NHS and NICE)	First for blood-pressure monitors.	rewritten from the stored H2 markers (G-H2-33), RD_H2
+H2	G-H2-R3-1	Cuff type and fit	upper arm over wrist	Checked after validation.	rewritten from the stored H2 markers (G-H2-33), RD_H2
+H2	G-H2-R3-1	Age of the monitor	replace a home monitor within four years	Last in the order.	rewritten from the stored H2 markers (G-H2-33), RD_H2
+H2	G-H2-R7-1; G-H2-R7-2	Fit to the user	handle height; seat	Fit comes first.	rewritten from the stored H2 markers (G-H2-6), RD_H2
+H2	G-H2-R7-1; G-H2-R7-2	Weight the user can put on it	bariatric models are a user type	Checked after fit.	rewritten from the stored H2 markers (G-H2-6), RD_H2
+H2	G-H2-R7-1; G-H2-R7-2	Width and fit indoors		Checked after the weight limit.	rewritten from the stored H2 markers (G-H2-6), RD_H2
+H2	G-H2-R7-1; G-H2-R7-2	Where it is used	indoor; outdoor; all-terrain (a choice)	Checked after width.	rewritten from the stored H2 markers (G-H2-6), RD_H2
+H2	G-H2-R7-1; G-H2-R7-2	Wheel size		Checked after where it is used.	rewritten from the stored H2 markers (G-H2-6), RD_H2
+H2	G-H2-R7-1; G-H2-R7-2	Weight and portability		Checked after wheels.	rewritten from the stored H2 markers (G-H2-6), RD_H2
+H2	G-H2-R7-1; G-H2-R7-2	Brakes		Checked after portability.	rewritten from the stored H2 markers (G-H2-6), RD_H2
+H2	G-H2-R7-1; G-H2-R7-2	Warranty		Last in the order.	rewritten from the stored H2 markers (G-H2-6), RD_H2
+H2	G-H2-R9-1	Style for the hearing loss	behind the ear; receiver in canal; in the ear; in the canal (a choice)	The style is chosen for the loss first.	rewritten from the stored H2 markers (G-H2-54), RD_H2
+H2	G-H2-R9-1	Lab-measured performance	HearingTracker lab scores	Checked after style.	rewritten from the stored H2 markers (G-H2-54), RD_H2
+H3	G-H3-R1; G-H3-R2; G-H3-R3; G-H3-R4; G-H3-R6	Body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material is the safety question, so it comes first. Price is no guarantee of material.	rewritten from the stored H3 markers (G-H3-1, G-H3-2, G-H3-3, G-H3-4, G-H3-6, G-H3-7), RD_H3
+H3	G-H3-R1; G-H3-R2; G-H3-R3; G-H3-R4; G-H3-R6	Free of phthalates and latex	phthalate-free > contains phthalates	Checked after the material.	rewritten from the stored H3 markers (G-H3-1, G-H3-2, G-H3-3, G-H3-4, G-H3-6, G-H3-7), RD_H3
+H3	G-H3-R1; G-H3-R2; G-H3-R3; G-H3-R4; G-H3-R6	Material disclosure and maker reputation	full ingredient or material disclosure > none	No independent grade exists, so openness about materials carries weight.	rewritten from the stored H3 markers (G-H3-1, G-H3-2, G-H3-3, G-H3-4, G-H3-6, G-H3-7), RD_H3
+H3	G-H3-R1; G-H3-R2; G-H3-R3; G-H3-R4; G-H3-R6	Construction	no cracks, seams or pores	Checked after disclosure.	rewritten from the stored H3 markers (G-H3-1, G-H3-2, G-H3-3, G-H3-4, G-H3-6, G-H3-7), RD_H3
+H3	G-H3-R1; G-H3-R6	Motor strength and range of settings		For powered products.	rewritten from the stored H3 markers (G-H3-1, G-H3-6), RD_H3
+H3	G-H3-R1; G-H3-R6	Noise, waterproofing and charging		For powered products, after the motor.	rewritten from the stored H3 markers (G-H3-1, G-H3-6), RD_H3
+H3	G-H3-R1; G-H3-R2; G-H3-R4	Size and fit	length; diameter	Last in the order.	rewritten from the stored H3 markers (G-H3-1, G-H3-2, G-H3-4), RD_H3
+H3	G-H3-R3	Size and fit, with a flared base	flared base for anal use; length; diameter	Last in the order; the flared base matters for anal use.	rewritten from the stored H3 markers (G-H3-3), RD_H3
+H3	G-H3-R5	Safe, easy release		For restraints, release comes first.	rewritten from the stored H3 markers (G-H3-15), RD_H3
+H3	G-H3-R5	Comfort and circulation protection		After release.	rewritten from the stored H3 markers (G-H3-15), RD_H3
+H3	G-H3-R5	Material	neoprene or padded cuffs > rope and metal (for beginners)	Last in the order.	rewritten from the stored H3 markers (G-H3-15), RD_H3
