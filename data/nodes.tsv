@@ -1256,3 +1256,58 @@ C5.5.4	C5	leaf	C5.5	For one pen at a time		27	from verify/out/TREE_C5.md
 C5.5.5	C5	leaf	C5.5	For planners and refillable notebooks		28	from verify/out/TREE_C5.md		
 C5.5.6	C5	leaf	C5.5	For staplers		29	from verify/out/TREE_C5.md		
 C5.5.7	C5	leaf	C5.5	For label makers		30	from verify/out/TREE_C5.md		
+C8	C8	category				0	from verify/out/TREE_C8.md		
+C8.1	C8	sub_family	C8	Structure, envelope & openings	Leaf axis: the building-product group a seller shelves it in (frame and boards; sections; masonry; groundworks; roof, cladding and insulation; chimney and flue; openings; boundary). Kind axis: sheet, section or product type; species, thickness, grade and treatment are attributes.	1	from verify/out/TREE_C8.md		
+C8.1.1	C8	leaf	C8.1	Timber & boards		2	from verify/out/TREE_C8.md		
+C8.1.2	C8	leaf	C8.1	Structural sections		3	from verify/out/TREE_C8.md		
+C8.1.3	C8	leaf	C8.1	Masonry & concrete		4	from verify/out/TREE_C8.md		
+C8.1.4	C8	leaf	C8.1	Groundworks & landscaping materials		5	from verify/out/TREE_C8.md		
+C8.1.5	C8	leaf	C8.1	Roofing, cladding & insulation		6	from verify/out/TREE_C8.md		
+C8.1.6	C8	leaf	C8.1	Chimney & flue		7	from verify/out/TREE_C8.md		
+C8.1.7	C8	leaf	C8.1	Openings		8	from verify/out/TREE_C8.md		
+C8.1.8	C8	leaf	C8.1	Fencing & gates		9	from verify/out/TREE_C8.md		
+C8.2	C8	sub_family	C8	Interior finishes & floors	Leaf axis: the surface finished (wall, floor, trim). Kind axis: finish product type; tile material, PEI, slip and water-absorption ratings are attributes.	10	from verify/out/TREE_C8.md		
+C8.2.1	C8	leaf	C8.2	Wall		11	from verify/out/TREE_C8.md		
+C8.2.2	C8	leaf	C8.2	Floor		12	from verify/out/TREE_C8.md		
+C8.2.3	C8	leaf	C8.2	Trim		13	from verify/out/TREE_C8.md		
+C8.3	C8	sub_family	C8	Fixings & fasteners	Leaf axis: fastener type (screw, nail and staple, bolt-nut-washer, rivet, anchor, connector). Kind axis per leaf: screws by application (what they fasten into; provisional until attested, CV-25), anchors by mechanism, the rest by form; diameter, length, drive, head, material, coating and `property_class` (ISO 898-1) are attributes.	14	from verify/out/TREE_C8.md		
+C8.3.1	C8	leaf	C8.3	Screws		15	from verify/out/TREE_C8.md		
+C8.3.2	C8	leaf	C8.3	Nails & staples		16	from verify/out/TREE_C8.md		
+C8.3.3	C8	leaf	C8.3	Bolts, nuts & washers		17	from verify/out/TREE_C8.md		
+C8.3.4	C8	leaf	C8.3	Rivets		18	from verify/out/TREE_C8.md		
+C8.3.5	C8	leaf	C8.3	Anchors		19	from verify/out/TREE_C8.md		
+C8.3.6	C8	leaf	C8.3	Connectors & supports		20	from verify/out/TREE_C8.md		
+C8.4	C8	sub_family	C8	Door, window & building hardware	Leaf axis: the hardware function (hinge, handle or knob, latch or bolt, bracket, plate or sign). Kind axis: hardware type; finish, material and era are attributes or tags.	21	from verify/out/TREE_C8.md		
+C8.4.1	C8	leaf	C8.4	Hinges		22	from verify/out/TREE_C8.md		
+C8.4.2	C8	leaf	C8.4	Handles, knobs & pulls		23	from verify/out/TREE_C8.md		
+C8.4.3	C8	leaf	C8.4	Latches, bolts & hasps		24	from verify/out/TREE_C8.md		
+C8.4.4	C8	leaf	C8.4	Brackets & supports		25	from verify/out/TREE_C8.md		
+C8.4.5	C8	leaf	C8.4	Plates & signs		26	from verify/out/TREE_C8.md		
+C8.5	C8	sub_family	C8	Plumbing & drainage supplies	Leaf axis: the part of the plumbing system (joint fittings, pipe, valves and taps, waste and drainage, shower and bath surrounds). Kind axis: joint fittings by joint system with shape an attribute (C-19, provisional until a fetched source compares the joint types); pipe diameter, material and `thread_standard` are attributes.	27	from verify/out/TREE_C8.md		
+C8.5.1	C8	leaf	C8.5	Joint fittings		28	from verify/out/TREE_C8.md		
+C8.5.2	C8	leaf	C8.5	Pipe		29	from verify/out/TREE_C8.md		
+C8.5.3	C8	leaf	C8.5	Valves & taps		30	from verify/out/TREE_C8.md		
+C8.5.4	C8	leaf	C8.5	Waste & drainage		31	from verify/out/TREE_C8.md		
+C8.5.5	C8	leaf	C8.5	Shower & bath surrounds		32	from verify/out/TREE_C8.md		
+C8.6	C8	sub_family	C8	Electrical supplies	Leaf axis: the electrical function (cable and flex, wiring accessory, distribution and leads). Kind axis: device or cable family; rating, gang count, core count and cross-section are attributes, plug and socket types named forms.	33	from verify/out/TREE_C8.md		
+C8.6.1	C8	leaf	C8.6	Cable & flex		34	from verify/out/TREE_C8.md		
+C8.6.2	C8	leaf	C8.6	Wiring accessories		35	from verify/out/TREE_C8.md		
+C8.6.3	C8	leaf	C8.6	Distribution & leads		36	from verify/out/TREE_C8.md		
+C8.7	C8	sub_family	C8	Paints, coatings & wood finishes	Leaf axis: the coating or preparation job (paint, wood finish, surface preparation). Kind axis: paints by surface and use (provisional until attested, CV-25); `binder` (emulsion, solvent, alkyd), EN 13300 classes, `gloss_level`, colour and special properties such as anti-mould are attributes.	37	from verify/out/TREE_C8.md		
+C8.7.1	C8	leaf	C8.7	Paints		38	from verify/out/TREE_C8.md		
+C8.7.2	C8	leaf	C8.7	Wood finishes		39	from verify/out/TREE_C8.md		
+C8.7.3	C8	leaf	C8.7	Surface preparation		40	from verify/out/TREE_C8.md		
+C8.8	C8	sub_family	C8	Adhesives, sealants & fillers	Leaf axis: the bonding or sealing job (adhesives; sealants and fillers). Kind axis: adhesives by use (provisional until attested, CV-25); `chemistry` (silicone, acrylic, polyurethane), pack size and interior or exterior are attributes.	41	from verify/out/TREE_C8.md		
+C8.8.1	C8	leaf	C8.8	Adhesives		42	from verify/out/TREE_C8.md		
+C8.8.2	C8	leaf	C8.8	Sealants & fillers		43	from verify/out/TREE_C8.md		
+C8.9	C8	sub_family	C8	Batteries & chargers	Leaf axis: cell shape (cylindrical, button and coin, rectangular and block; the shape letter of the IEC designation), plus the leaf Chargers (K-3). Kind axis: the standard size class buyers ask for by name (CV-19); chemistry, `rechargeable`, voltage and capacity are attributes; coin designations are named forms, product lines are lines rows.	44	from verify/out/TREE_C8.md		
+C8.9.1	C8	leaf	C8.9	Cylindrical cells		45	from verify/out/TREE_C8.md		
+C8.9.2	C8	leaf	C8.9	Button & coin cells		46	from verify/out/TREE_C8.md		
+C8.9.3	C8	leaf	C8.9	Rectangular & block batteries		47	from verify/out/TREE_C8.md		
+C8.9.4	C8	leaf	C8.9	Chargers		48	from verify/out/TREE_C8.md		
+C8.10	C8	sub_family	C8	Fuels, lubricants & firelighting	Leaf axis: the role in burning: fuel by form (bottled gas, solid fuel, liquid fuel and lubricant) or the means of lighting it (Firelighting, C-7). Kind axis: fuel form and product, or lighting means; `gas`, `valve`, bottle size, wood species, bag weight and brand are attributes.	49	from verify/out/TREE_C8.md		
+C8.10.1	C8	leaf	C8.10	Bottled gas		50	from verify/out/TREE_C8.md		
+C8.10.2	C8	leaf	C8.10	Solid fuels		51	from verify/out/TREE_C8.md		
+C8.10.3	C8	leaf	C8.10	Liquid fuels & lubricants		52	from verify/out/TREE_C8.md		
+C8.10.4	C8	leaf	C8.10	Firelighting		53	from verify/out/TREE_C8.md		
+C8.11	C8	sub_family	C8	Packing & protection materials		54	from verify/out/TREE_C8.md		
