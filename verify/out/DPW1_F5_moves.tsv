@@ -1,0 +1,12 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-F5.1.1.02-001	drop					Ausweis is the German generic word for an identity card: a C11 alias of the kind, not a named form.
+NF-F5.1.2.01-001	drop					Title variant of Taufschein (NF-F5.1.2.05-001); one home per form, keep as its alias.
+NF-F5.1.2.02-001	drop					Fraktur is a decorative lettering style (attribute or tag); the object is a marriage certificate.
+NF-F5.1.4.02-002	move_kind				F5.1.4.01	Certifies a completed course of primary studies: a diploma; the harvester's own source was an antique diploma page.
+NF-F5.2.3.01-103	move_kind				F5.2.2.04	Edy is a general prepaid e-money card, not a transit farecard (†).
+NF-F5.2.3.01-104	move_kind				F5.2.2.04	nanaco is a retailer's prepaid e-money card, not a transit farecard (†).
+NF-F5.2.3.01-139	move_kind				F5.2.2.04	Smart Purse is a general e-purse card used across merchants (†).
+NF-F5.2.3.01-212	move_kind				F5.2.2.04	miniCash is an electronic purse, not a transit card (†).
+NF-F5.2.3.01-100	move_kind				F5.2.2.04	Flazz is a bank's prepaid e-money card accepted also on transit (†).
+NF-F5.2.3.01-101	move_kind				F5.2.2.04	BRIZZI is a bank's prepaid e-money card accepted also on transit (†).
+NF-F5.2.3.01-097	to_line	L-npci-ncmc	National Common Mobility Card	F5.2.1.01;F5.2.1.02;F5.2.2.04		NCMC is a card standard banks issue as debit, credit and prepaid cards: spans several kinds (†).

@@ -1,0 +1,6 @@
+STAGE 3 DEPTH HARVEST (SESSION_10 step 3). Web allowed; no git; never write to data/.
+Follow verify/in/HV_COMMON.txt for the web rules, resume rule, output formats (kinds, named forms, lines, makers) and the report, and verify/in/S10_ADD.txt (issuers, new kinds, Parallel fetch), with <CODE> and <BATCH> from your task. Differences from HV_COMMON:
+- Your task names the kinds, leaves or sources to deepen. Kinds already attested are not re-attested: do not write rows for kinds already in data/kinds.tsv.
+- Named forms: named_form_id = NF-<kind_id>-<PREFIX><nnn> with the PREFIX your task gives (numbered from 001 inside each kind), so ids never collide with stored ones. Search data/named_forms.tsv for the kind first and skip names already stored.
+- Makers follow the category's maker role (framework/structure/maker_roles.tsv): owner only = a maker enters only as the owner of a named form or line you write; none = only through a branded product.
+- Write rows as you go; a cut-off run must lose little.

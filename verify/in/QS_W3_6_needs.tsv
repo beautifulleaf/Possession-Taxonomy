@@ -1,0 +1,32 @@
+code	need_type	name	owner	scale_class	kinds_served	reason
+I2	standard	Library of Congress Recommended Formats (preferred, acceptable)	Library of Congress	i	I2 (all file kinds)	preservation_rank attribute source (I-23); provisional until the LoC pages are fetched again.
+I3	scheme	Expert Reviews Mobile Network Awards	Expert Reviews (UK)	iii	I3 kinds 25, 26, 27	User-survey awards; editorial or community class.
+I3	scheme	RootMetrics network test results	RootMetrics	ii	I3 kinds 25, 26	Measured network tests.
+I3	scheme	Ofcom complaints data (telecom and pay-TV)	Ofcom	ii	I3 kinds 7, 25, 27, 29, 30	Measured complaint rates per provider.
+I3	scheme	Showcase-TV VOD reviewer scores (to 5.0)	Showcase-TV (JP)	iii	I3 kinds 5, 6	Own web survey, low weight.
+J1	grading_scale	USDA beef quality grades	USDA AMS	i	J1-A beef kinds	Carcass grade buyers trust; steps from the fetched page (Prime > Choice > Select and lower).
+J1	grading_scale	JMGA yield and quality grades (A-C, 5-1)	Japan Meat Grading Association	i	J1-A beef kinds	Wagyu grade; quality number is the lowest of four sub-scores.
+J1	grading_scale	Beef Marbling Standard (BMS 1-12)	Japan Meat Grading Association	i	J1-A beef kinds	Marbling marker behind the JMGA quality grade.
+J1	grading_scale	Hanwoo beef quality grades	Korea Institute for Animal Products Quality Evaluation	i	J1-A beef kinds	Memo source is a restaurant guide; needs the institute page.
+J1	grading_scale	Ibérico sale-name colour labels	Spain (Real Decreto 4/2014)	C16 classification	J1-B ham, shoulder and loin kinds	Breed and feeding class of the label; never a named form.
+J1	grading_scale	EU poultry farming terms	European Commission	C16 classification	J1-A chicken, turkey, duck kinds	Farming method ladder for poultry.
+J1	grading_scale	Global Animal Partnership steps	Global Animal Partnership	C16 classification	J1-A kinds	Welfare step labels used by shops.
+J1	standard	USDA Organic and Certified Humane	USDA AMS; Humane Farm Animal Care	i	J1	Certifications measured on the product: standard_values, not tiers.
+J5	grading_scale	EU olive-oil categories	European Commission (Reg. 2022/2104), IOC	i	J5.5.1.01	Extra virgin > virgin > olive oil > pomace.
+J5	grading_scale	JAS soy sauce grades (JAS 1703)	MAFF	i	J5.9.1	Cho-tokusen > Tokusen > Tokkyu > Jokyu > Hyojun.
+J5	grading_scale	ISO 3632-1 saffron categories	ISO	i	J5.6.1.01	I > II > III.
+J5	grading_scale	UMF and MGO honey grades	UMF Honey Association	i	J5.7.2.01	Measured manuka grade.
+J5	grading_scale	USDA nut grades	USDA AMS	i	J5.4	Provisional: per nut and form.
+J5	grading_scale	Japanese rice taste ranking	Japan Grain Inspection Association	iii	J5.1.1.04	Toku-A > A > A' > B > B' by area and cultivar.
+J5	standard	APEDA basmati grain-length minimum	APEDA (India)	i	J5.1.1.02	Serves grain_length_mm.
+J5	standard	COOC seal	California Olive Oil Council	i	J5.5.1.01	Certification attribute, not a tier.
+J5	scheme	Great Taste	Guild of Fine Food	iii	J5	Same scheme as the J3 row; kinds_served widened, one scheme row.
+J5	scheme	NYIOOC Gold and Silver	New York International Olive Oil Competition	iii	J5.5.1.01	Provisional: fetched page showed no criteria.
+J5	scheme	Olive Oil Times World Ranking	Olive Oil Times	iii	J5.5.1.01	Producer ranking; tier entries on producers named by the source (R-115 b).
+J5	scheme	Slow Food Ark of Taste and Presidia	Slow Food Foundation	iii	J5	Classification of heritage products; same Presidia scheme as J3.
+J6	grading_scale	SCA cupping score and specialty grade	Specialty Coffee Association (Q Graders, CQI)	ii	J6.1	100-point scale with the 350 g defect gate; serves specialty_grade.
+J6	scheme	Cup of Excellence	Alliance for Coffee Excellence	iii	J6.1	Competition label: 87+ winners, 90+ Presidential Award.
+J6	standard	Orthodox and CTC black tea leaf grades	tea trade (no body named)	i	J6.2 black tea	Leaf size and tip, not cup quality.
+J6	standard	Japanese regional tea name rule (100% local leaf)	Japanese labelling rule	i	J6.2 green tea	Area name only with all-local leaf.
+J6	grading_scale	ICCO fine or flavour cocoa class	International Cocoa Organization	C16 classification	J6.3	Provisional (memo S18).
+J6	standard	Coffee and tea certifications	Fairtrade, Rainforest Alliance, Smithsonian, USDA and EU Organic	i	J6	Serve the certification attribute.

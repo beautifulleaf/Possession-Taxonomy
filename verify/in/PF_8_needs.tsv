@@ -1,0 +1,15 @@
+code	need_type	name	owner	scale_class	kinds_served	reason
+B7	platform	Battery-inverter compatibility lists	inverter and battery makers		B7.3.2; B7.3.3	Proposal: battery-inverter matching is a C13 view; provisional.
+B8	platform	Camera and doorbell ecosystems (Ring, Nest, Eufy, Wyze, Arlo)	makers		B8.1.6; B8.6.1	Side view 'camera and doorbell ecosystems' needs C13 rows.
+C1	platform	Tool battery platforms (Milwaukee M18 and M12, Makita LXT and XGT, DeWalt 20V MAX and FlexVolt, Bosch 18V, CAS, Power for All)	the makers and alliances		C1.9.4.01; C1.9.4.02 and every cordless C1 kind	Battery platform tab; PF_4 harvests them with kinds_served empty until C1 is built.
+C1	platform	SDS-plus and SDS-max tool-holder systems	Bosch (originator)		C1.2.1.04; C1.4.1.04; C1.12.1.01	Bits fit hammers by holder; platform_type 'tool-holder system' is a new value to add.
+C1	platform	Stacking tool-storage systems (PACKOUT, TSTAK, ToughSystem and others)	the makers		C1.10.03	Memo C13 rows (R-15 type); owed by PF_4.
+C2	platform	Garden battery platforms (Stihl AK and AP, EGO 56V and shared C1 platforms)	the makers		C2 cordless machine kinds	Battery tab shared with C1; PF_4 scope note.
+C2	platform	Split-shaft attachment systems (Stihl KombiSystem, Ryobi Expand-It and similar) and Gardena combisystem	the makers		garden multi-tool; C2.10 attachments; C2.1 hand tool heads	What fits the new garden multi-tool kind; Gardena combisystem named in memo.
+C5	platform	Fountain-pen cartridge standards (international short and long; Pilot, Platinum, Lamy, Parker proprietary)	the makers		fountain pen; C5.5 for fountain pens	Cartridge standard type exists in C13; what ink fits which pen.
+C5	platform	Label-tape cassette systems (Brother TZe, DYMO D1, DYMO LetraTag, Epson LK)	the makers		label maker; label tape	What fits the new label tape kind.
+C5	platform	Planner and refill systems (ring sizes, Traveler's notebook refills, Hobonichi sizes)	the makers		refillable notebook system; planner or notebook cover; refill notebook	Memo system collections; refill fit.
+C7	platform	Three-point hitch categories (0, Limited 1, 1, 2, 3, 4) and PTO speeds	ISO 730; ISO 500		C7.1 tractors; every mounted implement; C2 lawn tractors (K-99 test)	Memo hitch_category join; K-99 test rows.
+D2	platform	operating systems, app stores, finding networks, charging standards (Qi2, MagSafe), radio services	Apple; Google; Huawei; Amazon; WPC; FCC; ETSI		D2 memo kinds 1-38	By-platform side view needs them (memo 6 item 3; PF_ batch for D2 when built).
+D3	platform	Bluetooth codecs; multi-room systems (Sonos, AirPlay 2, Chromecast); voice assistants; Matter and Thread; HDMI eARC	Bluetooth SIG; Sonos; Apple; Google; Amazon; CSA; HDMI Licensing		D3 memo kinds 11-14, 26-43, 52-54	Codec and platform-pairing facets (memo 6.3).
+D4	platform	lens mounts, flash shoes, film formats, instant film formats, light-modifier mounts, camera battery platforms	camera makers; Fujifilm; Polaroid; Bowens		D4.1.*; D4.2.*; D4.3.*; D4.5.*	By system view is the buyer's first choice; load with the D4 tree (PF_4).

@@ -1,0 +1,48 @@
+code	need_type	name	owner	scale_class	kinds_served	reason
+C1	scheme	Consumer Reports power tool ratings	Consumer Reports	ii	C1.2.1.02; C1.2.1.03; C1.2.2.03; C1.1.1.06	Named in C1 structure_flags; scores for power, speed, run time, handling.
+C1	scheme	CHOICE Expert Rating (power tools)	CHOICE (Australia)	ii	C1.2.1.02; C1.2.1.03	Named in C1 structure_flags; recommended at 80 percent or more.
+C1	scheme	Stiftung Warentest Qualitaetsurteil (cordless drills)	Stiftung Warentest	ii	C1.2.1.02	Named in C1 structure_flags; test.de grades with Haltbarkeit and Schadstoffe.
+C1	scheme	Pro Tool Reviews scores and classes	Pro Tool Reviews	ii	C1.1; C1.2; C1.3	Quality signal in proposal (memo); scores out of 100, Pro / Prosumer / DIY.
+C1	scheme	CordlessPicker platform tiers	CordlessPicker	iii	C1.9.4.01	Platform tiers Professional / Prosumer / DIY / Budget (memo); provisional until fetched.
+C2	scheme	Which? Best Buy, Great Value, Eco Buy, Don't Buy	Which?	ii	C2.3 mowers; C2.2 hedge trimmers; C2.4 leaf blowers and pressure washers	Proposal quality signal; Which? test page fetched (HOL).
+C2	scheme	Consumer NZ test results and brand reliability	Consumer NZ	ii	C2.3 mowers	Proposal quality signal; Consumer NZ guide fetched (HOL).
+C2	scheme	BBC Gardeners' World secateurs test rating	BBC Gardeners' World	iii	secateurs	Memo S14; tier entries on named forms.
+C2	standard	DLC qualified product list (horticultural lighting)	DesignLights Consortium	i	grow light	Proposal; provisional until attested.
+C3	scheme	RHS Award of Garden Merit	Royal Horticultural Society	iii	C3.1; C3.2	Proposal; RHS AGM page fetched (HOL).
+C3	scheme	AOS flower awards (HCC, AM, FCC)	American Orchid Society	iii	C3.1 leaf 1 orchids	Memo; tier entries on named forms.
+C3	scheme	All-America Selections winner	All-America Selections	iii	C3.2 seeds; C3.1 leaves 7 and 12	Provisional: AAS judging page not fetched.
+C3	standard	RHS hardiness rating H1a to H7	Royal Horticultural Society	i	C3.1; C3.2	Feeds hardiness_rating.
+C3	standard	USDA plant hardiness zones	US Department of Agriculture	i	C3.1; C3.2	Feeds hardiness_rating; kept apart from the RHS scale.
+C4	standard	ASTM D4303 lightfastness I to V	ASTM International	i	C4.1 colours and drawing media	Proposal; definition only from a search excerpt, provisional.
+C4	standard	Colour Index pigment names	Society of Dyers and Colourists and AATCC	i	C4.1 colours	Golden technical page fetched (HOL).
+C4	standard	CYC Standard Yarn Weight System 0 to 7	Craft Yarn Council	i	knitting and crochet yarn; crochet thread	Proposal (memo); yarn weight facet.
+C4	standard	ACMI AP and CL seals	Art and Creative Materials Institute	i	C4.1; C4.7; C4.8	Safety standard_met; memo, to attest.
+C5	scheme	Fountain-pen paper consensus (gold standards)	community and retailer consensus	iii	paper-stock lines; notebook	Memo S25; tier entries on paper-stock lines (MD Paper, Tomoe River).
+C5	scheme	Fountain Pen Network favourite notebooks	Fountain Pen Network members	iii	notebook	HOL thread fetched; tier entries on named forms.
+C5	standard	British hallmark and 925 sterling standard	UK assay offices	i	fountain pen; ballpoint pen	YARD-O-LED; body_material value sterling silver 925.
+C5	standard	ISO 216 and JIS P 0138 paper sizes	ISO; JISC	i	C5.2 paper goods	Memo paper_size attribute standard.
+C5	standard	DIN 66399 shredder security levels	DIN	i	shredder	Proposal; not attested, to fetch.
+C5	grading_scale	Exam-approved calculator lists	exam boards		calculator kinds	Classification scale_type; not attested, to fetch.
+C7	scheme	Nebraska Tractor Test (OECD tractor codes)	University of Nebraska Tractor Test Laboratory	ii	C7.1 wheeled tractor kinds	Proposal; extension guide fetched (HOL).
+C7	scheme	DLG test reports	DLG	ii	C7 machines	Candidate, not in evidence; to fetch.
+C7	scheme	top agrar field tests	top agrar	ii	C7 machines	Trade magazine tests; class ii or iii.
+C7	standard	KWF test mark	Kuratorium fuer Waldarbeit und Forsttechnik	i	C7.9 forestry machines; C2 chainsaws	Seen only as mentioned in top agrar; provisional.
+C8	scheme	Stiftung Warentest wall paint test	Stiftung Warentest	ii	wall and ceiling paint	Proposal; test.de page fetched (HOL).
+C8	scheme	Choice interior paint tests	CHOICE (Australia)	ii	wall and ceiling paint	Proposal; test pages not fetched yet.
+C8	standard	EN 13300 hiding, scrub and gloss classes	CEN	i	C8.7 paints	Memo S31.
+C8	standard	EN 338 timber strength classes	CEN	i	sawn timber	Named from memory; to attest.
+C8	standard	EN 335 timber use classes	CEN	i	sawn timber; decking board; fence post	Feeds treatment_class; to attest.
+C8	standard	PEI wear rating 0 to 5	Porcelain Enamel Institute	i	floor tile; wall tile	Tile Outlets.
+C8	standard	DIN 51130 R ratings and ANSI A326.3 DCOF	DIN; ANSI	i	floor tile	Named from memory; to attest.
+C8	standard	ISO 898-1 property classes	ISO	i	bolt; nut; machine screw	Memo.
+D2	scheme	DXOMARK camera, display, audio and battery scores	DXOMARK	(ii)	D2 memo kinds 1-4, 15	Register with an opacity note (method partly commercial).
+D2	scheme	Notebookcheck smartphone and tablet rating	Notebookcheck	(ii)	D2 memo kinds 1-4, 15	Weights match the quality markers (proposal).
+D2	scheme	AnTuTu benchmark ranking	AnTuTu	(ii)	D2 memo kinds 1-4, 15	Already in memo 5; China data in scope column.
+D2	grading_scale	Iosys S to J; Swappa condition; Back Market grades	Iosys; Swappa; Back Market		D2 memo kinds 1-28	Resale condition scales (memo 5); no grade values stored.
+D3	scheme	Stereophile Recommended Components classes	Stereophile	(iii)	D3 memo kinds 7-34	Reviewer class for hi-fi and speakers (quality marker).
+D3	scheme	ASR SINAD measurements	Audio Science Review	(ii)	D3 memo kinds 8-25	Measured distortion and noise; higher is better.
+D3	scheme	RTINGS test scores	RTINGS	(ii)	D3 memo kinds 1-4, 26-43	Dated, test_version recorded.
+D3	scheme	Crinacle IEM and headphone ranking	Crinacle	(iii)	D3 memo kinds 35-43	Community rank for headphones and earphones.
+D3	standard	IEC 60268 sound-system equipment parts	IEC	(i)	D3 memo kinds 16-43	Spec-ladder reference (memo 10 attestation list).
+D4	scheme	DXOMARK camera sensor and lens scores	DXOMARK	(ii)	D4.1.1.01-D4.1.1.05; D4.2.01-D4.2.08	Lens and sensor quality markers.
+D4	grading_scale	KEH condition grades; Map Camera condition ranks	KEH; Map Camera		D4.1.*; D4.2.*	Used-camera condition scales (memo 5).

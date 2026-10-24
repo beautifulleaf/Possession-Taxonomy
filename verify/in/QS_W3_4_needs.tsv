@@ -1,0 +1,35 @@
+code	need_type	name	owner	scale_class	kinds_served	reason
+G1	scheme	Euro NCAP safety rating (0 to 5 stars)	Euro NCAP	ii	G1.1.1; G1.1.2	Tier entries on the variant with test_version; protocol revised about every three years (https://www.euroncap.com/faq/), so stale_after needed.
+G1	scheme	J.D. Power Initial Quality Study (problems per 100 vehicles, 90 days)	J.D. Power	ii	G1.1.1; G1.1.2	Reliability is the first car marker (AAA guide); lower is better; scope = model year; on named form or variant.
+G1	scheme	J.D. Power Vehicle Dependability Study (problems per 100 vehicles, 3 years)	J.D. Power	ii	G1.1.1; G1.1.2	Second reliability yardstick named by AAA; lower is better; scope = model year; provisional until a J.D. Power page is fetched.
+G1	scheme	eBay Motors Exotics list	eBay	vi	G1.1.1	Brand-status label: dated platform_tag on makers, never a tier (C4c vi; memo §5).
+G1	scheme	CCCA Full Classic list	Classic Car Club of America	iii	G1.1.1	Club-approved status list on named forms (model and years); editorial class; memo calls it a status tag (HAG); provisional.
+G1	scheme	Polaris snowmobile trim ladder	Polaris	iv	G1.1.4	Maker's own ladder (line_rank plus tier entries scheme = Polaris), attested on the maker page (memo POL).
+G1	scheme	Bicycle groupset ladders (Shimano road and MTB, SRAM, Campagnolo)	each groupset maker	iv	G1.5.1; G1.1.5	Component level is a bike quality marker; ladder sits on groupset lines; not yet attested, provisional.
+G1	standard	CE design category A to D (Recreational Craft Directive 2013/53/EU)	European Union	i	G1.3	standard_met on boat named forms; a design classification, not a navigation authorisation (memo RCD).
+G1	standard	ISO 4210 / ISO 8098 bicycle safety	ISO	i	G1.1.5; G1.1.6	standard_met on bicycle named forms; saddle-height bands (memo ISO4210).
+G1	standard	EN 15194 electrically power assisted cycles	CEN	i	G1.1.5	standard_met for e-bikes; EPAC legal class itself is a C17 row (G-4).
+G2	grading_scale	Energy Performance Certificate bands A to G (England and Wales)	UK government (EPC register)	i	G2.2.1; G2.2.2; G2.2.3	Measured spec scale for guidance (A 92+ to G 1-20, https://www.fuseenergy.com/blog/epc-meaning); never stored for a home (C16); CO2 rating noted.
+G2	grading_scale	RICS Home Survey levels 1 to 3 and condition ratings	RICS	iii	G2.2.1; G2.2.2; G2.2.3	Survey levels named on e.surv; condition ratings 1 to 3 from memory, provisional; guidance only, no value stored (C16).
+G2	standard	Building and pest inspection (Australia, AS 4349 series)	Standards Australia	i	G2.2.1; G2.2.2	Named due-diligence check (ANZ checklist); no tier; AS 4349 numbering from memory, provisional.
+G2	standard	LIM report (Land Information Memorandum, New Zealand)	NZ territorial authorities	i	G2.1; G2.2	Named due-diligence check (Barfoot and Thompson checklist); scheme row, no tier, no value stored.
+G2	grading_scale	Agricultural Land Classification grades 1 > 2 > 3a > 3b > 4 > 5	Natural England	i	G2.1.2.1; G2.1.3.1; G2.1.4.1; G2.1.4.2; G2.1.7.1	Classification scale for the land buying guide (vantageland.co.uk via memo); never a value on a parcel (C16).
+G2	standard	BS 3632 residential park homes	BSI	i	G2.2.4.5	standard_met on park-home named forms (memo Bawtry).
+G2	standard	BS EN 1647 leisure accommodation vehicles (caravan holiday homes)	CEN	i	G2.2.4.4; G2.2.4.5	standard_met on static caravan and lodge models (memo Bawtry).
+G2	standard	HUD code (US manufactured home construction and safety standards)	US HUD	i	G2.2.4.4; G2.2.4.5; G2.2.1.1	standard_met on manufactured-home models; a manufactured home on a foundation is a detached house (G-16).
+G2	standard	IRC Appendix Q tiny houses	International Code Council	i	G2.2.1.1	Tiny house on a foundation (memo tinyhomesnest); the tiny house on wheels takes RV standards.
+G2	standard	RV standards for park model RVs and tiny houses on wheels (ANSI A119.5, NFPA 1192)	RVIA / NFPA	i	G2.2.4.2; G2.2.4.3	Memo names 'RV standards'; the two standard numbers are Claude's from memory, provisional until fetched.
+G2	scheme	China office building grades (Grade A, 5A)	Chinese industry bodies (sohu source)	iii	G2.3.7.1	Registry row only; never a value on a building (C16; memo §5).
+H2	standard	USP Verified Mark	United States Pharmacopeia	i	H2.7; H2.8	Supplement seal (proposal: needs registry rows); standard_values on named forms feed the third-party-tested view.
+H2	standard	NSF/ANSI 173 Certified and NSF Certified for Sport	NSF	i	H2.7; H2.8	Supplement and sports-nutrition seals; Medical News Today and Myprotein pages.
+H2	standard	Informed Sport and Informed Choice	LGC	i	H2.8; H2.7	Batch testing for banned substances; Myprotein batch-tested range page.
+H2	standard	ConsumerLab Approved Quality	ConsumerLab.com	i	H2.7	Pass or fail product test seal; proposal quality signals.
+H2	standard	Clean Label Project certification; Non-GMO Project Verified	Clean Label Project; Non-GMO Project	i	H2.7; H2.8	Product seals named in the proposal; one fetched page each before entry.
+H2	standard	GMP registration (dietary supplements)	NSF and other registrars	i	H2.7; H2.8	Facility seal printed on products; proposal quality signals; provisional which registrar is named.
+H2	standard	BIHS validated blood-pressure monitor list	British and Irish Hypertension Society	i	H2.1.1.1; H2.1.1.2; H2.1.1.3	standard_met with the list named (memo section 10 provisional now answered by the fetched BIHS page).
+H2	standard	First-aid kit standards ANSI/ISEA Z308.1, BS 8599-1, DIN 13157, DIN 13164, DIN 13169	ISEA; BSI; DIN	i	H2.10.1.1	standard_met with class or size (memo section 3.4).
+H2	scheme	HearingTracker lab scores	HearingTracker	ii	H2.5.1.1; H2.5.1.2; H2.5.1.3; H2.5.1.4	Measured hearing-aid performance (memo); test_version needed.
+H2	scheme	U.S. News pharmacist brand survey	U.S. News & World Report	iii	H2.6; H2.7	Pharmacist recommendations by condition (memo S8).
+H3	standard	ISO 3533:2021 Sex toys: design and safety requirements	ISO	i	H3 all kinds	standard_met on named forms when the maker declares it (H-12).
+H3	grading_scale	body_safe_class (body-safe non-porous > porous > avoid)	computed from the two guides of memo S20 and S21	classification	H3 sub-families A, B, C, D	Classification computed from the material attribute, never a grade of one object (C16, R-2).
+H3	scheme	my-best Japan rankings (adult products)	my-best	iii	H3 sub-families A, D; H2.9.1.1; H1 personal lubricant	Editorial ranking with no published method: low weight (proposal).
