@@ -1,0 +1,9 @@
+# QS_W2_7 report (Allure Best of Beauty 2026: fragrance, hair tools, makeup brushes; H1)
+Scheme reused: SCH-allure-best-of-beauty (2026, date 2026-09-17, stale_after 2029-12-31, value Winner). No schemes file.
+Rows: tier_entries 33 (all 2026), named_forms 31 new (2 winners reused existing ids: ghd Chronos Curve Grand Tong NF-H1.3.5.02-003, Tweezerman Slant Tweezer NF-H1.5.3.01-001), makers 13 new, maker_kinds 33. Existing makers reused (M-ysl-beauty comes from QS_W2_2 output).
+By page: fragrance 13 (10 eau de parfum/fragrance H1.4.01, solid H1.4.02, oil H1.4.03, mist H1.4.04); tools 20 (dryers 2, multi-styler, hot brushes 2, flat iron, curling iron, hairbrushes 3, pony tube, claw clips 2, makeup brushes 6, lash curler, tweezers).
+Fetches: Parallel only (WebFetch blocked); every call returns 1-3 fragments, so coverage is PARTIAL. Items taken only where a "Best X: product" line, a "Why It Won" paragraph or a product heading appeared. Headings without a label (Laura Mercier, Saie, Rose and Ben brushes; British M, L. Erickson pony tube) were taken as winners of their section (judgement). Never reached: Best Marine/Floral etc. were found, but Best Diffuser, Room Spray, Laundry Detergent winners and any further hairbrush/comb, sponge-adjacent and foundation-brush labels were not.
+Skips (no kind; missing kind?): candle x2 (Cereria Mollá 1899 Bulgarian Rose & Oud, Voluspa California Summers), makeup sponge (Beautyblender Original), hair towel (Crown Affair The Hair Towel).
+Judgement: ghd "Chronos Curve Grand Iron" matched to existing "Chronos Curve Grand Tong"; Tangle Teezer Extra Gentle added as new form; claw clips under H1.3.5.08; Lore (fragrance) given M-lore-fragrance since M-lore is a clothing brand.
+Scheme kinds_served additions needed: H1.2.7.01 H1.2.7.02 H1.3.5.01-05 H1.3.5.07 H1.3.5.08 H1.3.5.12 H1.5.3.01 (H1.4.01-04 already present).
+Helpers: verify/work/QS_W2_7/build.py, fetched.tsv.
