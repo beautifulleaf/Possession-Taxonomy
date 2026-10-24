@@ -1,0 +1,46 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-D5.3.02-001	to_line	L-nintendo-game-pak	Game Pak	D5.3.02		Nintendo trade name for several incompatible cartridge formats; each platform format is the named form.
+NF-D5.1.4.01-016	to_line	L-arcade1up-full-size-cabinets	Arcade1Up Full-size cabinets	D5.1.4.01		Range of several full-size cabinet models, not one model (C2(d)).
+NF-D5.1.4.03-007	to_line	L-arcade1up-arcade1up-head-to-head-tables	Arcade1Up Head-to-head tables	D5.1.4.03		Restates the existing line; Ms. Pac-Man Head to Head is a named form of it.
+NF-D5.1.4.06-001	to_line	L-arcade1up-arcade1up-counter-cades	Arcade1Up Counter-cades	D5.1.4.06		Restates the existing line; page says two to five games per model, so several models.
+NF-D5.2.1.01-059	drop					Series X|S revision of the Xbox Wireless Controller NF-D5.2.1.01-028: hardware revision variant (C3).
+NF-D5.2.1.01-040	drop					Same pad as NF-D5.2.1.01-001 NES / Famicom controller; regional names share one row (memo 7).
+NF-D5.2.1.01-050	drop					Same pad as NF-D5.2.1.01-001 NES / Famicom controller; regional names share one row (memo 7).
+NF-D5.2.1.01-037	drop					Regional name of NF-D5.2.1.01-003 Genesis controller; alias row with region tag (memo 7, C9).
+NF-D5.2.1.01-036	drop					Regional name of NF-D5.2.1.01-006 Genesis 6-Button Arcade Pad; alias row (memo 7, C9).
+NF-D5.1.1.01-096	drop					Regional name of NF-D5.1.1.01-105 Sega Genesis II (Model 2); alias row (memo 7).
+NF-D5.1.1.02-024	drop					Regional name of NF-D5.1.1.02-030 Super NES Classic Edition; alias row with region tag (memo 7).
+NF-D5.1.1.02-053	drop					Regional name of NF-D5.1.1.02-030 Super NES Classic Edition; alias row with region tag (memo 7).
+NF-D5.1.1.02-050	drop					Regional name of NF-D5.1.1.02-001 NES Classic Edition; alias row with region tag (memo 7).
+NF-D5.1.1.02-060	drop					Regional name of NF-D5.1.1.02-002 Sega Genesis Mini (cf. Mini 2 row); alias row (memo 7).
+NF-D5.1.1.02-067	drop					Regional name of NF-D5.1.1.02-066 PC Engine Mini; alias row with region tag (memo 7).
+NF-D5.1.1.02-068	drop					European name of NF-D5.1.1.02-066 PC Engine Mini; alias row with region tag (memo 7).
+NF-D5.1.1.02-085	drop					Duplicate of NF-D5.1.1.02-004 Pong (home version).
+NF-D5.1.1.02-033	drop					Same Jakks 10-in-1 joystick unit as NF-D5.1.1.02-018 Atari Classic 10-in-1 TV.
+NF-D5.2.4.01-009	drop					Duplicate of NF-D5.2.4.01-001 NES Zapper; Famicom name is an alias.
+NF-D5.2.4.02-008	drop					Duplicate of NF-D5.2.4.02-002 PlayStation Move; model CECH-ZCM1E is a variant code.
+NF-D5.2.4.03-008	drop					Duplicate of NF-D5.2.4.03-002 Kinect for Xbox One; model 1520 is a variant code.
+NF-D5.2.5.01-014	drop					Duplicate of NF-D5.2.5.01-021 Taru Konga (DK Bongos), which carries maker and model.
+NF-D5.2.5.01-018	drop					Same Dreamcast controller as NF-D5.2.5.01-015 Samba de Amigo maracas.
+NF-D5.2.5.02-002	drop					Earlier North American name of the same mat as NF-D5.2.5.02-001 (row notes say so); alias.
+NF-D5.1.5.02-010	drop					North American name of NF-D5.1.5.02-004 Master System Converter; alias row.
+NF-D5.5.02-002	drop					Same set as NF-D5.5.01-001 Switch Carry Case & Screen Protector; one home per object.
+NF-D5.1.1.01-133	drop					MiSTer is an FPGA platform project (a C13 platform row); its sold boards are the named forms.
+NF-D5.1.1.01-130	drop					Vague name; ModRetro's home console is the M64 (NF-D5.1.1.01-129, maker should be ModRetro).
+NF-D5.2.5.01-008	move_kind				D5.5.07	Adapter linking a MIDI instrument to one console; not itself a controller.
+NF-D5.5.12-009	move_kind				D5.1.5.02	Region converter letting a Mega Drive play import cartridges; a cartridge converter, not a cheat device.
+NF-D5.5.13-010	move_kind				D5.1.5.02	N64 import adapter (region converter with codes); a cartridge converter, not a repair tool.
+NF-D5.1.5.01-007	move_kind				D5.1.1.01	Standalone console combining Mega Drive and Mega-CD; not an add-on to another console.
+NF-D5.5.07-015	move_kind				D1.7.01	USB-A to USB-C: standard connectors are D1 whatever device (memo 9.1, K-2).
+NF-D5.5.07-016	move_kind				D1.7.01	USB-C to USB-C: standard connectors are D1 whatever device (memo 9.1, K-2).
+NF-D5.5.07-020	move_kind				D1.7.01	Standard USB charging cable: D1 whatever device it is sold for (memo 9.1, K-2).
+NF-D5.1.1.02-063	move_kind				D1.1.07	Full-size replica with working keyboard: a keyboard computer like the C64 (D1.1.07).
+NF-D5.1.1.02-069	move_kind				D1.1.07	Full-size VIC-20 replica with working keyboard: keyboard computer (D1.1.07).
+NF-D5.1.1.02-081	move_kind				D1.1.07	Full-size ZX Spectrum replica with working keyboard: keyboard computer (D1.1.07).
+NF-D5.1.1.02-083	move_kind				D1.1.07	Full-size A1200 replica with working keyboard (no 'Mini' in the maker's naming): keyboard computer.
+NF-D5.1.1.02-084	move_kind				D1.1.07	Full-size 800XL replica with working keyboard (no 'Mini' in the maker's naming): keyboard computer.
+NF-D5.1.1.02-056	move_kind				D5.1.1.01	Loads further games from USB storage, so carrier-based (tree precedence), not dedicated.
+NF-D5.1.1.02-075	move_kind				D5.1.1.01	Loads further games from USB storage, so carrier-based (tree precedence), not dedicated.
+NF-D5.1.1.02-080	move_kind				D5.1.1.01	Loads further games from USB storage, so carrier-based (tree precedence), not dedicated.
+NF-D5.1.1.02-078	move_kind				D5.1.1.01	Runs disk images loaded from SD card, so carrier-based (tree precedence), not dedicated.
+NF-D5.5.01-005	move_kind				B1	Storage holding several cartridges is never a part (S3 never-parts): B1; hold until B1 is built.
