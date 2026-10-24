@@ -1,0 +1,3 @@
+GC_E2 report. Cards added: Tent: E2.10.2.05; E2.10.2.09; E2.10.2.10. Sleeping mat: E2.10.2.03; E2.10.2.12; E2.10.2.13. (E2 had no existing cards.)
+Shops checked: Go Outdoors tents and Decathlon UK sleeping mats; both fetches failed (HTTP 403, logged in fetched.tsv), and the Parallel tools had no credit. Both cards rest on conditions 1 and 2 alone; search results showed Go Outdoors tents by size/style and Decathlon mats as self-inflating/foam/air.
+Considered and left: bell tent (different style, own retailers), exercise bikes and cross trainers (different use or posture), fishing rods, golf clubs, fencing weapons, ski types, hockey sticks (different tools or sports), swim aids, dance shoes.

@@ -1,0 +1,3 @@
+Cards added: Toy train set: E1.4.02 (Wooden toy railway); E1.4.08 (Plastic toy railway). Same shelf (Toy vehicles & ride-ons), differ by material; "Toy Trains" is one Best Buy Canada category (title only; listings unread). Rests on conditions 1 and 2, condition 3 not confirmed (fetches partial/failed).
+Shops checked: Best Buy CA toy trains (partial), My Happy Helpers wooden trains (partial; wooden-only collection), DollarDays and aio.lv blasters (failed).
+Left: foam dart vs water blasters (shops page them separately; differ by use); wooden vs metal construction sets (different systems); Wooden/plastic railways are borderline since track systems are incompatible; owner may drop the card. Existing E1 cards: none.

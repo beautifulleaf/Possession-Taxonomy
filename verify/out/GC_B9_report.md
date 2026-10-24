@@ -10,3 +10,4 @@ Shops: jamesfox.ie humidor collection (partial: one page, types in intro, brand 
 Considered and left: pipe shapes and cigar vitolas (enthusiasts choose by shape or size), pocket/table/pipe/cigar lighters (different uses), prefilled pod vs cartridge (different fittings), edibles/gummies/chocolate, filtered vs plain cigarette, concentrates, vape kit types.
 
 apply_granularity --check: no errors, 5 cards.
+- Editor (integration): CARD-B9-G3 Vaporizer dropped. Desktop and portable vaporizers were split by GR_B9 on shop pages, and they are different devices.
