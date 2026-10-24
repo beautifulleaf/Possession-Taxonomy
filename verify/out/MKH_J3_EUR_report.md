@@ -1,0 +1,9 @@
+# MKH_J3_EUR report
+
+Makers 867 (RU 282, GB 195, FR 69, TR 54, CH 42, IT 36, ES 33, IE 29, DE 27, UA 16, AT 15, NL 14, PL 12, DK 11, GR 6, NO 5, 3 each BE/SE/LT, 2 each RS/PT/CZ, 1 each GG/LU/IS/RO/HR/SK). Maker-kind rows 733. Named forms 96 (R-109 scope change: branded cheeses, butters and infant formulas, plus 6 non-maker PDO/PGI forms). 187 logged fetches (163 full, 22 partial).
+
+Served best: Specialist Cheesemakers Association directory (GB/IE, county shown, cheese listing names makers); productcenter.ru dairy catalogue (RU, 8 pages, city and products); SFDA approved-exporter PDFs (TR 62 plants, CH 26, AT 23, PT 3; city and product types); revenuebase.ai country lists (top 12-25 only); Wikipedia category and company pages (EN, DE, CS, IT, FR); World Cheese Awards 2023 report (meat-milk.ro).
+
+Failed or thin: SFDA PDFs for DE, BE, UK, FI (timeouts); danskindustri.dk, strefaagro.pl, kariyer.net, cdn domains (403); uniter.by (verification page); polandtastesgood.pl (empty); dnb.com (no names); search is weak at finding national lists. Not reached: BY, BG, HU, HR, SI, SK, RO, Baltics (beyond three LT firms), Finland. Plant-milk and egg makers barely covered (Alpro only). The German approved-dairy list (de.wikipedia, ~700 rows) was read for BY, BW, NI, NW only and, after R-109, not entered.
+
+Missing kind? Kajmak (https://en.wikipedia.org/wiki/Mlekara_Subotica); brunost / whey cheese (https://en.wikipedia.org/wiki/Synn%C3%B8ve_Finden, Gjetost at https://en.wikipedia.org/wiki/Ardagh_Castle_Cheese); raclette cheese (https://www.macommune.info/cancoillotte-comte-meilleur-concours-general-agricole-medaille-or-argent-bronze-fromage-salo/); labneh (https://www.sfda.gov.sa/sites/default/files/2026-03/Turkey-Milk.pdf); ryazhenka / varenets fermented baked milk (https://productcenter.ru/producers/catalog-molochnyie-produkty-316); Caerphilly and Cheshire/Lancashire (SCA directory).
