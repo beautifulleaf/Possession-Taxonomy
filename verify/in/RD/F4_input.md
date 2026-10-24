@@ -1,0 +1,160 @@
+# F4 Religious & Ceremonial Objects: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: use or need (the role the object plays in the practice: altar and images, devotion aids, rite vessels and implements, light and incense, divination, funeral and memorial), with tradition as a front-door filter, never a level
+- reason: Shops inside one tradition open on the object the rite needs (Rakuten Kyoto Butsudan: altar, ritual implements, tablets, beads, incense and candles; Exotic India Art ritual and puja items; Holyart crucifixes by material and form), and every buying guide opens on use (Art of Tibet mala guide; Sajada prayer mat guide; David Roytman mezuzah case guide), while tradition is settled by the shop chosen, so role leads as the memo decided (F-3) and tradition is a tag that pages offer as an optional first filter.
+- ladder: What is it for (home altar and sacred images; prayer and devotion; rite vessels and scrolls; lamps, candles and incense; divination; funeral and memorial)? > Which object (kind: prayer beads, mezuzah case, butsudan, censer)? > Which form for my tradition, sect and use, and how well made (named form, sect variant, size to fit, material, craftsmanship, certification where the rite requires it)
+- level1_groups: Home altars, shrines and sacred images; Prayer and devotion aids; Ritual vessels, implements and sacred scrolls; Lamps, candles, incense and offerings; Tarot, oracle and divination; Funeral and memorial; Fittings for one sacred or funerary object
+- quality_markers: Scroll goods (mezuzah scroll, tefillin, Torah scroll; HaSofer): validity first, resting on the scribe's reliability and rabbinical certification > inspection of the item > script grade (basic < upgraded < mehudar, memo S32) > fit of scroll to case; Mezuzah case (Roytman): fit to scroll and doorway and mounting > material > style and symbolism > personalisation; Prayer beads (Art of Tibet; Rakuten): right for the use and tradition (count 108 or shorter; juzu by sect and wearer) > material (bodhi seed, sandalwood, stone; natural variation, since perfectly uniform colour may mean treated or imitation) > craftsmanship (cord, knots, drill holes, guru bead) > bead size (about 7-8 mm) > care; Prayer rug (Sajada): use (home or travel) > padding > non-slip base > surface fabric (velvet, cotton, synthetic) > size and portability > design; Crosses, statues, altars (Holyart; Rakuten): form and style for the rite (standing, Tau, St Benedict; butsudan mini, modern, karaki, kin) > material > hand-finishing and craftsmanship > made-in tag (origin, never a level); Judaica gifts (Roytman): hand-finishing > permanence > suitability for use; Coffins and urns: material and steel gauge as attributes (memo)
+- quality_signals: Rabbinical certification of scribes by recognised Orthodox organisations (HaSofer): a certifications value on the scribe's maker row and, where a seller states it, on the named form; kosher scroll grade basic > upgraded > mehudar (memo, C16 registry row on one vendor page); relic class (memo, classification attribute); steel gauge with its standard (memo dagger); no awards, ratings, tests or tier lists found for any F4 kind; seller statements (HaSofer self-describes) carry low weight
+- maker_role: owner (confirm; maker_roles.tsv F4): workshops, scribes, candle makers, Judaica designers and tarot publishers enter through named forms and lines
+- side_view: Tradition front-door filter as a generated view (Jewish, Catholic and other Christian, Buddhist with sect, Hindu, Islamic, Shinto, esoteric; memo F-3), an occasion view (holidays, sacraments, life cycle: Catholic Company 'Shop by Sacrament' and 'Occasion'; Roytman by holiday), and a tarot publisher tab (R-5: decks are maker-bound named forms by publisher)
+- evidence_rows: The Catholic Company rosaries; Holyart crucifixes (Italy); Exotic India Art ritual and puja items; Rakuten Kyoto Butsudan shop (Japan); David Roytman how to choose a mezuzah case; Sajada prayer mat guide; Art of Tibet mala guide; Judaica guide by Roytman holidays; HaSofer STaM warning page
+- maker role row: {'code': 'F4', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'workshops through named forms'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-F4-1 | Home altars, shrines and sacred images | 1 |  | F4.1
+- G-F4-8 | Altars and shrines | 2 | G-F4-1 | F4.1.1.01; F4.1.1.02; F4.1.1.03
+- G-F4-9 | Flat images | 2 | G-F4-1 | F4.1.2.01; F4.1.2.02; F4.1.2.03
+- G-F4-10 | Statues and crosses | 2 | G-F4-1 | F4.1.3.01; F4.1.3.02; F4.1.3.03; F4.1.3.04
+- G-F4-11 | Relics and reliquaries | 2 | G-F4-1 | F4.1.4.01; F4.1.4.02
+- G-F4-2 | Prayer and devotion aids | 1 |  | F4.2
+- G-F4-12 | Prayer beads | 2 | G-F4-2 | F4.2.1.01
+- G-F4-13 | Prayer rugs | 2 | G-F4-2 | F4.2.2.01
+- G-F4-14 | Prayer wheels and flags | 2 | G-F4-2 | F4.2.3.01; F4.2.3.02
+- G-F4-15 | Medals, cards, holy water and charms | 2 | G-F4-2 | F4.2.4.01; F4.2.4.02; F4.2.4.03; F4.2.4.04; F4.2.4.05
+- G-F4-3 | Ritual vessels, implements and sacred scrolls | 1 |  | F4.3
+- G-F4-16 | Vessels | 2 | G-F4-3 | F4.3.1.01; F4.3.1.02; F4.3.1.03; F4.3.1.04; F4.3.1.05; F4.3.1.06
+- G-F4-17 | Hand implements | 2 | G-F4-3 | F4.3.2.01; F4.3.2.02; F4.3.2.03; F4.3.2.04; F4.3.2.05
+- G-F4-18 | Scrolls and scroll cases | 2 | G-F4-3 | F4.3.3.01; F4.3.3.02; F4.3.3.03; F4.3.3.04
+- G-F4-19 | Bells, horns and drums | 2 | G-F4-3 | F4.3.4.01; F4.3.4.02; F4.3.4.03; F4.3.4.04; F4.3.4.05; F4.3.4.06
+- G-F4-4 | Lamps, candles, incense and offerings | 1 |  | F4.4
+- G-F4-20 | Lamps and candles | 2 | G-F4-4 | F4.4.1.01; F4.4.1.02; F4.4.1.03; F4.4.1.04; F4.4.1.05; F4.4.1.06; F4.4.1.07; F4.4.1.08
+- G-F4-21 | Incense and burners | 2 | G-F4-4 | F4.4.2.01; F4.4.2.02; F4.4.2.03
+- G-F4-22 | Offering vessels | 2 | G-F4-4 | F4.4.3.01; F4.4.3.03; F4.4.3.02
+- G-F4-5 | Tarot, oracle and divination | 1 |  | F4.5
+- G-F4-23 | Decks | 2 | G-F4-5 | F4.5.1.01; F4.5.1.02; F4.5.1.03
+- G-F4-24 | Other divination tools | 2 | G-F4-5 | F4.5.2.01; F4.5.2.02; F4.5.2.03; F4.5.2.04; F4.5.2.05; F4.5.2.06
+- G-F4-6 | Funeral and memorial | 1 |  | F4.6
+- G-F4-25 | Coffins | 2 | G-F4-6 | F4.6.1.01
+- G-F4-26 | Urns | 2 | G-F4-6 | F4.6.2.01; F4.6.2.02; F4.6.2.03
+- G-F4-27 | Markers and memorial tablets | 2 | G-F4-6 | F4.6.3.01; F4.6.3.02; F4.6.3.03
+- G-F4-28 | Palls and shrouds | 2 | G-F4-6 | F4.6.4.01; F4.6.4.02
+- G-F4-7 | Fittings for one sacred or funerary object | 1 |  | F4.7
+- G-F4-29 | For Torah scrolls | 2 | G-F4-7 | F4.7.1.01
+- G-F4-30 | For coffins | 2 | G-F4-7 | F4.7.2.01; F4.7.2.02
+- G-F4-31 | For cremation urns | 2 | G-F4-7 | F4.7.3.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-F4-18 | validity (scroll goods) |  | First: rests on the scribe's reliability and rabbinical certification. | proposals.tsv F4 row (quality_markers); HaSofer STaM warning page
+- G-F4-18 | inspection of the item (scroll goods) |  | Second. | proposals.tsv F4 row (quality_markers); HaSofer STaM warning page
+- G-F4-18 | script grade (scroll goods) | mehudar > upgraded > basic | Memo S32. | proposals.tsv F4 row (quality_markers); memo F4
+- G-F4-18 | fit of scroll to case (scroll goods) |  | Weighed last. | proposals.tsv F4 row (quality_markers); HaSofer STaM warning page
+- G-F4-18 | fit to scroll, doorway and mounting (mezuzah case) |  | First for the case. | proposals.tsv F4 row (quality_markers); David Roytman how to choose a mezuzah case
+- G-F4-18 | material (mezuzah case) |  | Second. | proposals.tsv F4 row (quality_markers); David Roytman how to choose a mezuzah case
+- G-F4-18 | style and symbolism (mezuzah case) |  | Third. | proposals.tsv F4 row (quality_markers); David Roytman how to choose a mezuzah case
+- G-F4-18 | personalisation (mezuzah case) |  | Weighed last. | proposals.tsv F4 row (quality_markers); David Roytman how to choose a mezuzah case
+- G-F4-12 | right for the use and tradition | 108 beads or shorter; juzu by sect and wearer | First. | proposals.tsv F4 row (quality_markers); Art of Tibet mala guide; Rakuten Kyoto Butsudan shop (Japan)
+- G-F4-12 | material |  | Bodhi seed, sandalwood, stone; perfectly uniform colour may mean treated or imitation. | proposals.tsv F4 row (quality_markers); Art of Tibet mala guide
+- G-F4-12 | craftsmanship |  | Cord, knots, drill holes, guru bead. | proposals.tsv F4 row (quality_markers); Art of Tibet mala guide
+- G-F4-12 | bead size | about 7-8 mm | Fourth. | proposals.tsv F4 row (quality_markers); Art of Tibet mala guide
+- G-F4-12 | care |  | Weighed last. | proposals.tsv F4 row (quality_markers); Art of Tibet mala guide
+- G-F4-13 | use | home or travel | First. | proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+- G-F4-13 | padding |  | Second. | proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+- G-F4-13 | non-slip base |  | Third. | proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+- G-F4-13 | surface fabric | velvet, cotton, synthetic | Fourth. | proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+- G-F4-13 | size and portability |  | Fifth. | proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+- G-F4-13 | design |  | Weighed last. | proposals.tsv F4 row (quality_markers); Sajada prayer mat guide
+- G-F4-10 | form and style for the rite |  | Standing, Tau, St Benedict crosses and the like. | proposals.tsv F4 row (quality_markers); Holyart crucifixes (Italy)
+- G-F4-10 | material |  | Second. | proposals.tsv F4 row (quality_markers); Holyart crucifixes (Italy)
+- G-F4-10 | hand-finishing and craftsmanship |  | Third. | proposals.tsv F4 row (quality_markers); Holyart crucifixes (Italy)
+- G-F4-10 | made-in tag |  | Origin as a tag, never a level. | proposals.tsv F4 row (quality_markers); Holyart crucifixes (Italy)
+- G-F4-8 | form and style for the rite |  | Butsudan mini, modern, karaki, kin. | proposals.tsv F4 row (quality_markers); Rakuten Kyoto Butsudan shop (Japan)
+- G-F4-8 | material |  | Second. | proposals.tsv F4 row (quality_markers); Rakuten Kyoto Butsudan shop (Japan)
+- G-F4-8 | hand-finishing and craftsmanship |  | Third. | proposals.tsv F4 row (quality_markers); Rakuten Kyoto Butsudan shop (Japan)
+- G-F4-8 | made-in tag |  | Origin as a tag, never a level. | proposals.tsv F4 row (quality_markers); Rakuten Kyoto Butsudan shop (Japan)
+- G-F4-3 | hand-finishing (Judaica) |  | First for Judaica gifts. | proposals.tsv F4 row (quality_markers); Judaica guide by Roytman holidays
+- G-F4-3 | permanence (Judaica) |  | Second. | proposals.tsv F4 row (quality_markers); Judaica guide by Roytman holidays
+- G-F4-3 | suitability for use (Judaica) |  | Third. | proposals.tsv F4 row (quality_markers); Judaica guide by Roytman holidays
+- G-F4-25 | material and steel gauge |  | Attributes (memo). | proposals.tsv F4 row (quality_markers); memo F4
+- G-F4-26 | material |  | An attribute (memo). | proposals.tsv F4 row (quality_markers); memo F4
+
+## Kinds (kind_id | stored name | native name | definition)
+- F4.1.1.01 | Household altar or shrine |  | cabinet, shelf or box shrine kept in a home or room to hold sacred images, name tablets or talismans; style (modern, karaki, gold-leaf), wall-hung installation and compact or mini size are attributes.
+- F4.1.1.02 | Shrine boundary rope |  | rope hung to mark a sacred space or object in a rite (shimenawa a named form); a seasonal festival decoration such as the kadomatsu is B4.
+- F4.1.2.01 | Devotional panel painting |  | sacred picture painted on a rigid panel, framed or mounted to stand or hang (icon a named form).
+- F4.1.2.02 | Devotional scroll painting |  | sacred picture painted or printed on cloth or paper and mounted as a hanging scroll or rolled for hanging (thangka, kakejiku honzon scroll, pata).
+- F4.1.2.03 | Altarpiece |  | large sacred picture or carved screen made to stand behind or above an altar, old-master altarpieces included (K-108).
+- F4.1.3.01 | Devotional statue |  | sculpted figure of a holy person, deity or saint made to be venerated; the figure is an iconography tag, not a kind.
+- F4.1.3.02 | Devotional cross |  | cross, with or without a figure on it, made to stand, hang or be held in veneration (crucifix a named form).
+- F4.1.3.03 | Nativity set |  | boxed or composed set of figures and a stable showing the birth of Jesus, sold and compared as one set (K-1).
+- F4.1.4.01 | Relic |  | body part or belonging of a holy person, or a thing touched to one, kept for veneration; `relic_class` (first, second, third) is a classification attribute.
+- F4.1.4.02 | Reliquary |  | case or container made to hold and show a relic.
+- F4.2.1.01 | Prayer beads |  | string or loop of beads, knots or counters made to count prayers, with or without a cross, counter, tassel or guru bead (rosary, chaplet, tasbih, mala, juzu named forms); a necklace of the same beads made as jewellery is A3 (K-111).
+- F4.2.2.01 | Prayer rug |  | rug or mat made to kneel, stand or prostrate on in prayer; `padding`, `non_slip_base` and `surface_fabric` are attributes, travel and children's are setting and user tags; a meditation cushion or mat is B2 (K-113).
+- F4.2.3.01 | Prayer wheel |  | cylinder holding written prayers, turned by hand, wind or water.
+- F4.2.3.02 | Prayer flag |  | cloth flag printed with prayers or sacred images, hung to be blown by the wind.
+- F4.2.4.01 | Devotional medal |  | loose medal of a saint or sacred subject made for devotion; one made with a chain or bail to be worn is A3, one struck to commemorate or reward F3 (K-107).
+- F4.2.4.02 | Prayer card |  | printed card with a sacred image or prayer, kept or carried for devotion (K-112).
+- F4.2.4.03 | Holy-water font [stoup] |  | small basin for holy water, hung or stood by a door or in a room.
+- F4.2.4.04 | Holy-water bottle |  | bottle or flask made to hold blessed water.
+- F4.2.4.05 | Carried protective charm |  | small charm carried, not worn as jewellery, for luck, protection or a named blessing (omamori, carried evil-eye charm); worn A3, issued for money F3 (K-117).
+- F4.3.1.01 | Ritual cup |  | cup or goblet made to hold wine or another drink used in a rite (chalice, kiddush cup named forms).
+- F4.3.1.02 | Monstrance |  | display vessel with a window or frame, made to show a consecrated host.
+- F4.3.1.03 | Ritual food plate [seder plate] |  | plate or tray made to hold the symbolic foods of a rite; the food itself is not F4.
+- F4.3.2.01 | Aspergillum |  | sprinkler for holy water.
+- F4.3.2.02 | Torah pointer [yad] |  | slim rod ending in a pointing hand, held to follow the text when reading a scroll aloud.
+- F4.3.2.03 | Ritual sceptre [vajra] |  | short sceptre held in the hand in a rite.
+- F4.3.2.04 | Ritual knife |  | knife or blade made to be held in a rite, not to cut (athame, boline named forms).
+- F4.3.3.01 | Doorpost scroll case [mezuzah case] |  | case made to hold a doorpost scroll and be fixed to a doorpost; material is an attribute.
+- F4.3.3.02 | Doorpost scroll [mezuzah scroll] |  | handwritten parchment strip of sacred text made to be put in a case and fixed to a doorpost; `script_style` and size class (to fit the case) are attributes, the kosher grade a registry row only.
+- F4.3.3.03 | Phylacteries [tefillin] |  | pair of small boxes holding handwritten sacred passages, with straps, made to be strapped to the arm and head in prayer.
+- F4.3.4.01 | Ritual horn [shofar] |  | horn made to be blown in a rite.
+- F4.3.4.02 | Hand bell |  | bell held by a handle and rung in a rite or service (altar bell, sanctus bell, ghanta named forms).
+- F4.3.4.03 | Standing bowl bell |  | bowl-shaped bell that rests on a cushion or stand and is struck with a striker, made for a rite (rin; singing bowl only when made for a rite, otherwise E3, K-110).
+- F4.3.4.04 | Slit drum |  | hollow wooden block struck to keep rhythm in chanting (mokugyo a named form).
+- F4.4.1.01 | Hanukkah lamp |  | nine-branch lamp or candle holder, eight places for the festival lights and one for the helper light.
+- F4.4.1.02 | Seven-branch menorah |  | seven-branch lamp or candle holder.
+- F4.4.1.03 | Oil lamp for worship |  | lamp burning oil or ghee, made for worship (diya, butter-lamp holder named forms).
+- F4.4.1.04 | Eternal light [sanctuary lamp] |  | lamp kept burning before a sanctuary or altar; electric or LED is a power attribute.
+- F4.4.1.05 | Altar candlestick |  | candle holder made to stand on or by an altar in a rite; an open candle holder for the home is B4 (K-180).
+- F4.4.1.06 | Ritual candle |  | candle made for a rite or devotion, including altar, votive, procession, Easter, grave, Yahrzeit and memorial candles (K-113); occasion is a tag, wax content and power attributes.
+- F4.4.1.07 | Advent wreath |  | wreath with candles used to count the weeks before Christmas.
+- F4.4.1.08 | Ritual lantern |  | lantern made to be hung or set out in a rite or as a shrine offering (bon lantern, votive stone tōrō named forms); a garden tōrō or decorative lantern is B4, a lantern made to be carried as a light B3 (K-116, K-180).
+- F4.4.2.01 | Ritual incense |  | incense made for a rite, in stick, cone, resin or church grade (senko, agarbatti named forms; a smudge bundle made for a named rite, K-115).
+- F4.4.2.02 | Incense burner |  | standing or hanging vessel for burning incense (koro, joss-stick pot, dhoop stand named forms; grave incense holders with setting tag grave).
+- F4.4.2.03 | Swung censer |  | incense burner hung on chains, to be swung.
+- F4.4.3.01 | Offering vessel |  | bowl, cup or vase made to hold water, rice, tea, flowers or other offerings (rice vessel, tea cup, altar flower vase; grave flower vases with setting tag grave).
+- F4.5.1.01 | Tarot deck |  | 78-card deck with major and minor suits, sold for divination; each published deck design is a maker-bound named form under its publisher; a pack sold for card play is E1 (K-109).
+- F4.5.1.02 | Oracle deck |  | deck of cards with its own set of images and messages, any number of cards, sold for divination.
+- F4.5.1.03 | Lenormand deck |  | 36-card deck of the Lenormand pattern, sold for divination.
+- F4.5.2.01 | Crystal ball |  | sphere used for scrying.
+- F4.5.2.02 | Spirit board |  | lettered board with a pointer, made for divination; made as a board game it is E1 (K-114).
+- F4.5.2.03 | Rune set |  | set of stones, wood or tiles marked with runes, made for casting.
+- F4.5.2.04 | I Ching coin set |  | coins or sticks made for casting the I Ching.
+- F4.5.2.05 | Divination pendulum |  | weight on a chain or cord, made to be dangled for divination.
+- F4.6.1.01 | Coffin or casket |  | box that holds a body for burial or cremation; material, steel gauge, shape, sealing and biodegradable are attributes (rental casket a named form).
+- F4.6.2.01 | Cremation urn |  | container for cremated remains, of any capacity from a keepsake portion to a companion pair (`capacity_class`); not a worn piece of jewellery (F4-O1); pet urns carry a user tag.
+- F4.6.2.02 | Scattering urn |  | container made to release ashes on land, water or from the air.
+- F4.6.2.03 | Urn vault |  | outer box or liner made to hold an urn in the ground.
+- F4.6.3.01 | Grave marker |  | stone or plaque set on or at a grave (tombstone, tomb slab named forms).
+- F4.6.3.02 | Memorial tablet |  | tablet that stands for a dead person, inscribed with a name, kept at an altar or home (ihai a named form).
+- F4.6.4.01 | Funeral pall |  | cloth laid over a coffin (coffin cover a named form).
+- F4.6.4.02 | Burial shroud |  | cloth or set of cloths that wrap the body.
+- F4.7.1.01 | Torah finial |  | ornament fitted to the top of a scroll's rollers.
+- F4.7.2.01 | Coffin plate |  | plate fixed to a coffin, naming the dead.
+- F4.7.2.02 | Coffin pillow |  | pillow made for the inside of a coffin.
+- F4.7.3.01 | Urn appliqué or medallion |  | plaque, appliqué or medallion made to be fixed to an urn.
+- F4.3.4.05 | Ritual hand drum |  | Small two-headed hand drum, often hourglass-shaped with pellets on cords, rattled or struck in a rite (damaru a named form); one sold for music is E3.
+- F4.3.4.06 | Ritual hand cymbals |  | Pair of small thick cymbals joined by a cord, struck together in a rite (tingsha a named form); ones sold for meditation are E3.
+- F4.6.3.03 | Memorial register [kakocho] |  | Book or folding album made to record the names and death dates of the dead, kept at a household altar (kakocho a named form).
+- F4.5.2.06 | Dowsing rod |  | Rod, pair of L-rods or forked rod made to be held for dowsing or divination; one sold as a survey or pipe-finding tool goes with tools.
+- F4.1.1.03 | Paper-streamer wand [gohei] |  | Wand of zigzag paper or metal-foil streamers set at a shrine or household altar as the sign of the kami's presence (gohei, kinpei named forms).
+- F4.3.2.05 | Ritual spoon or ladle |  | Spoon or ladle made to pour or offer water, ghee or a sacrament in a rite (achamani, fire-offering ladle, communion spoon named forms).
+- F4.1.3.04 | Miniature stupa |  | Small model of a stupa or chorten made to stand on an altar as a sacred focus, filled with relics or mantras or not (chorten a named form).
+- F4.3.1.04 | Host vessel |  | Lidded cup, bowl or box made to hold consecrated or unconsecrated hosts (ciborium, pyx, host box named forms).
+- F4.4.3.03 | Alms box |  | Box, plate or basket made to collect money given as alms, charity or offering in religious practice (church collection box, tzedakah box, saisen box named forms).
+- F4.3.1.06 | Spice box [besamim box] |  | Small box or tower made to hold fragrant spices smelled in the Havdalah rite (besamim box a named form).
+- F4.3.1.05 | Ritual washing cup |  | Cup, usually two-handled, made to pour water over the hands in ritual washing (netilat yadayim cup a named form).
+- F4.3.3.04 | Handwritten Torah scroll |  | handwritten scroll of the Five Books on parchment, made to be read in the rite; a printed Torah or Bible is F1 (K-112).
+- F4.4.3.02 | Offering stand |  | stand or tray made to hold offerings.

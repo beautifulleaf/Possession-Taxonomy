@@ -1,0 +1,150 @@
+# D3 Audio & Video: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (device type in the setup: headphones, TV and projector, speakers and soundbars, hi-fi separates, players, all-in-one, smart speakers)
+- reason: Shops open on device type and the fetched headphone guides ask use first only inside a type, calling form the biggest decision (World Wide Stereo: use > over-ear/on-ear/in-ear > open or closed > wired or wireless > ANC; Apos By Product Category groups DACs and amplifiers apart from headphones; RTINGS best lists mix form and use), so type leads and use is the second question.
+- ladder: What are you setting up or replacing (device type)? > What will you use it for and which form (headphones: travel, home, gym, gaming then over-ear, on-ear, in-ear; TV: size and display technology; speakers: stereo or home cinema then cabinet form)? > What makes the best one (sound or picture quality as reviewers rate it, then comfort and value)?
+- level1_groups: Headphones and earphones; TVs and projectors; Speakers and soundbars; Hi-fi amplifiers and DACs; Turntables, players and streamers; All-in-one systems and radios; Smart speakers and displays; Parts and accessories made for one audio or video device
+- quality_markers: Headphones and earphones: tonal balance (closeness to a neutral target) > clarity and detail > dynamics > soundstage (open back wider) > comfort and fit > isolation or noise cancelling > sensitivity and amplifier needs > value against similarly priced models (Absolute Sound scorecard order; sound signature neutral, warm, bright is the description, not a rank); Speakers and hi-fi separates: reviewer class from performance and test bench (Stereophile Class A > B > C > D, with bass-reach sub-class for speakers) > measured distortion and noise (SINAD, higher is better) > build and matching; TVs: display technology and contrast > brightness and colour > motion and processing > size (provisional: no TV evidence fetched; memo S05, S22, S27, S35); Projectors: use, throw type, light source, brightness (provisional, memo S18, S32); Turntables: drive and operation, tonearm and cartridge (memo S16)
+- quality_signals: Stereophile Recommended Components classes A+ > A > B > C > D (magazine panel; class (iii), stale_after about three years; memo S03, S34); The Absolute Sound per-criterion scorecards (class (iii) editorial tier entries on named forms); RTINGS lab test-bench usage scores (class (ii), test_version; memo S05, S32); DXOMARK audio playback and recording, display and wireless-speaker scores (class (ii)); Audio Science Review SINAD and Recommended (class (ii) and (iii); memo S08); Crinacle IEM and headphone ranks S to F with tone and technical grades (class (iii); memo S04); Kakaku satisfaction rating (platform_tag class (vi)); Crutchfield turntable price tiers (price band only)
+- maker_role: owner (keep maker_roles.tsv D3, owner list of 2026-10-24 names audio; set provisional = no): models carry the maker; identity strand in hi-fi, headphones and turntables is served by a brand tab, not by a maker way in or regional maker harvests
+- side_view: By brand tab for headphones, hi-fi separates and turntables (Apos By Brand beside By Category; memo: audiophiles build systems maker by maker), listing makers through their lines and named forms; plus generated views Home cinema and By display technology
+- evidence_rows: World Wide Stereo how to choose headphones; The Absolute Sound review of Sennheiser HD 800; Apos Audio shop navigation; RTINGS Best lists menu; Wikipedia DXOMARK (audio, display); Apos Audio guide and Absolute Sound HD 800 review (community); memo D3 sections 2, 5, 6 (S03-S05, S08, S16, S22, S28, S32)
+- maker role row: {'code': 'D3', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'audio and video models carry the maker'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-D3-1 | Headphones and earphones | 1 |  | D3.5
+- G-D3-9 | Headphones | 2 | G-D3-1 | D3.5.1.01; D3.5.1.02; D3.5.1.03; D3.5.1.04
+- G-D3-10 | Earphones | 2 | G-D3-1 | D3.5.2.01; D3.5.2.02; D3.5.2.03; D3.5.2.04; D3.5.2.05
+- G-D3-2 | TVs and projectors | 1 |  | D3.1
+- G-D3-11 | Televisions | 2 | G-D3-2 | D3.1.1.01; D3.1.1.02
+- G-D3-12 | Digital projectors | 2 | G-D3-2 | D3.1.2.01; D3.1.2.02
+- G-D3-13 | Film and slide projectors | 2 | G-D3-2 | D3.1.3.01; D3.1.3.02
+- G-D3-3 | Speakers and soundbars | 1 |  | D3.4
+- G-D3-14 | Speakers | 2 | G-D3-3 | D3.4.1.01; D3.4.1.02; D3.4.1.03; D3.4.1.04; D3.4.1.05; D3.4.1.06; D3.4.1.07; D3.4.1.08
+- G-D3-15 | Soundbars and TV sound | 2 | G-D3-3 | D3.4.2.01; D3.4.2.02
+- G-D3-4 | Hi-fi amplifiers and DACs | 1 |  | D3.3
+- G-D3-16 | Stereo amplifiers | 2 | G-D3-4 | D3.3.1.01; D3.3.1.02; D3.3.1.03; D3.3.1.04
+- G-D3-17 | AV amplification | 2 | G-D3-4 | D3.3.2.01; D3.3.2.02; D3.3.2.03; D3.3.2.04
+- G-D3-18 | Converters and headphone amplifiers | 2 | G-D3-4 | D3.3.3.01; D3.3.3.02; D3.3.3.03; D3.3.3.04; D3.3.3.05; D3.3.3.06; D3.3.3.07
+- G-D3-5 | Turntables, players and streamers | 1 |  | D3.2
+- G-D3-19 | Record players | 2 | G-D3-5 | D3.2.1.01
+- G-D3-20 | Disc and tape players | 2 | G-D3-5 | D3.2.2.01; D3.2.2.02; D3.2.2.03; D3.2.2.04; D3.2.2.05; D3.2.2.06; D3.2.2.07
+- G-D3-21 | Streamers and set-top boxes | 2 | G-D3-5 | D3.2.3.01; D3.2.3.02; D3.2.3.03; D3.2.3.04
+- G-D3-22 | Portable players | 2 | G-D3-5 | D3.2.4.01; D3.2.4.02; D3.2.4.03
+- G-D3-23 | Tuners | 2 | G-D3-5 | D3.2.5.01
+- G-D3-6 | All-in-one systems and radios | 1 |  | D3.6
+- G-D3-24 | Music systems | 2 | G-D3-6 | D3.6.1.01; D3.6.1.02; D3.6.1.03; D3.6.1.04; D3.6.1.05
+- G-D3-25 | Radios | 2 | G-D3-6 | D3.6.2.01; D3.6.2.02; D3.6.2.03
+- G-D3-7 | Smart speakers and displays | 1 |  | D3.7.01; D3.7.02; D3.7.03
+- G-D3-8 | Parts and accessories made for one audio or video device | 1 |  | D3.8.01; D3.8.02; D3.8.03; D3.8.04; D3.8.05; D3.8.06; D3.8.07; D3.8.08; D3.8.09; D3.8.10; D3.8.11; D3.8.12; D3.8.13; D3.8.14; D3.8.15
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-D3-1 | tonal balance | closeness to a neutral target | First in the reviewer scorecard; neutral, warm or bright describes, it does not rank. | proposals.tsv D3 row (quality_markers); The Absolute Sound review of Sennheiser HD 800
+- G-D3-1 | clarity and detail |  | Second in the scorecard. | proposals.tsv D3 row (quality_markers); The Absolute Sound review of Sennheiser HD 800
+- G-D3-1 | dynamics |  | Third in the scorecard. | proposals.tsv D3 row (quality_markers); The Absolute Sound review of Sennheiser HD 800
+- G-D3-1 | soundstage | open back wider than closed back | Fourth; enclosure shapes it. | proposals.tsv D3 row (quality_markers); The Absolute Sound review of Sennheiser HD 800; World Wide Stereo how to choose headphones
+- G-D3-1 | comfort and fit |  | After sound. | proposals.tsv D3 row (quality_markers); World Wide Stereo how to choose headphones
+- G-D3-1 | isolation or noise cancelling |  | Matters by use (travel, gym). | proposals.tsv D3 row (quality_markers); World Wide Stereo how to choose headphones
+- G-D3-1 | sensitivity and amplifier needs |  | Whether a separate amplifier is needed. | proposals.tsv D3 row (quality_markers); Apos Audio guide and Absolute Sound HD 800 review (community)
+- G-D3-1 | value against similarly priced models |  | Weighed last. | proposals.tsv D3 row (quality_markers); The Absolute Sound review of Sennheiser HD 800
+- G-D3-3 | reviewer class | Class A > B > C > D (Stereophile), with a bass-reach sub-class for speakers | Class from listening and test bench comes first. | proposals.tsv D3 row (quality_markers)
+- G-D3-3 | measured distortion and noise | higher SINAD is better | Bench measurement after class. | proposals.tsv D3 row (quality_markers)
+- G-D3-3 | build and matching |  | Weighed last. | proposals.tsv D3 row (quality_markers)
+- G-D3-4 | reviewer class | Class A > B > C > D (Stereophile) | Class from listening and test bench comes first. | proposals.tsv D3 row (quality_markers)
+- G-D3-4 | measured distortion and noise | higher SINAD is better | Bench measurement after class. | proposals.tsv D3 row (quality_markers)
+- G-D3-4 | build and matching |  | Weighed last. | proposals.tsv D3 row (quality_markers)
+- G-D3-11 | display technology and contrast |  | Provisional: no TV evidence fetched (memo S05, S22, S27, S35). | proposals.tsv D3 row (quality_markers); memo D3
+- G-D3-11 | brightness and colour |  | Provisional (memo). | proposals.tsv D3 row (quality_markers); memo D3
+- G-D3-11 | motion and processing |  | Provisional (memo). | proposals.tsv D3 row (quality_markers); memo D3
+- G-D3-11 | size |  | Provisional (memo). | proposals.tsv D3 row (quality_markers); memo D3
+- G-D3-12 | use |  | Provisional (memo S18, S32). | proposals.tsv D3 row (quality_markers); memo D3
+- G-D3-12 | throw type |  | Provisional (memo). | proposals.tsv D3 row (quality_markers); memo D3
+- G-D3-12 | light source |  | Provisional (memo). | proposals.tsv D3 row (quality_markers); memo D3
+- G-D3-12 | brightness |  | Provisional (memo). | proposals.tsv D3 row (quality_markers); memo D3
+- G-D3-19 | drive and operation |  | Memo S16. | proposals.tsv D3 row (quality_markers); memo D3
+- G-D3-19 | tonearm and cartridge |  | Memo S16. | proposals.tsv D3 row (quality_markers); memo D3
+
+## Kinds (kind_id | stored name | native name | definition)
+- D3.1.1.01 | Television |  | screen sold with television reception or as a television, of any display technology.
+- D3.1.1.02 | Rear-projection television |  | television whose picture is projected onto the screen from inside its cabinet; a kind only if a fetched source shows its body differs.
+- D3.1.2.01 | Digital projector |  | projector that throws a picture from a video or computer signal onto a screen or wall from a distance.
+- D3.1.2.02 | Ultra-short-throw projector |  | digital projector made to sit at the wall just below the image it throws (C12(a)).
+- D3.1.3.01 | Slide projector |  | projector that shows photographic slides.
+- D3.1.3.02 | Cine film projector |  | projector that shows motion-picture film.
+- D3.2.1.01 | Turntable |  | record-playing deck with platter and tonearm.
+- D3.2.2.01 | CD player |  | player for compact discs.
+- D3.2.2.02 | Blu-ray/DVD player |  | player (or recorder) for Blu-ray and DVD video discs.
+- D3.2.2.03 | Cassette deck |  | hi-fi component that plays and records compact cassettes.
+- D3.2.3.01 | Network streamer |  | hi-fi source that plays music from the network or streaming services into an audio system.
+- D3.2.3.02 | Streaming media player |  | stick or box that plays streamed video and audio on a television (K-150).
+- D3.2.3.03 | Set-top receiver (terrestrial, satellite or cable) |  | box that receives broadcast television for a screen (K-150).
+- D3.2.4.01 | Digital audio player |  | portable device sold mainly to play stored or streamed music, with no calling (K-150); a Toniebox-type player for children is filed here by default with `user = child`.
+- D3.2.5.01 | FM/DAB tuner (separate component) |  | hi-fi separate that receives radio broadcasts for an amplifier, with no speaker of its own.
+- D3.3.1.01 | Integrated amplifier |  | stereo amplifier with preamplifier and power stage in one box.
+- D3.3.1.02 | Stereo receiver |  | stereo amplifier with a built-in radio tuner.
+- D3.3.1.03 | Preamplifier |  | control and switching stage that feeds a separate power amplifier.
+- D3.3.1.04 | Power amplifier (incl. monoblock) |  | amplifier stage that drives speakers from a preamplifier signal, stereo or one channel per box.
+- D3.3.2.01 | AV receiver |  | multichannel amplifier with surround decoding, video switching and a tuner in one box.
+- D3.3.2.02 | AV processor |  | multichannel surround preamplifier and decoder that feeds separate power amplifiers.
+- D3.3.3.01 | DAC |  | external device whose designed function is converting digital audio to analogue.
+- D3.3.3.02 | Headphone amplifier |  | external device whose designed function is amplifying a headphone signal.
+- D3.3.3.03 | DAC/headphone amplifier combo |  | external device that converts digital audio and drives headphones in one unit.
+- D3.3.3.04 | Phono preamplifier |  | stage that raises and equalises a phono cartridge signal to line level.
+- D3.4.1.01 | Standmount (bookshelf) speaker |  | compact speaker cabinet made to stand on a stand, shelf or desk, passive or active.
+- D3.4.1.02 | Floor-standing speaker |  | tall speaker cabinet that stands on the floor.
+- D3.4.1.03 | Centre-channel speaker |  | speaker made to carry the centre channel of a surround system, placed at the screen.
+- D3.4.1.04 | Surround speaker |  | speaker made for the side, rear or height channels of a surround system.
+- D3.4.1.05 | In-wall/in-ceiling speaker |  | speaker without a cabinet, with a mounting flange, built into a wall or ceiling (C12(a)).
+- D3.4.1.06 | Subwoofer |  | speaker that reproduces only bass.
+- D3.4.1.07 | Single-enclosure speaker |  | self-contained speaker in one box that is neither a bar nor a bass-only speaker; wireless streaming, battery and multi-room membership are attributes, and a party speaker is a non-maker named form here (D-18).
+- D3.4.2.01 | Soundbar |  | speaker made as a bar for a TV, with or without a separate subwoofer.
+- D3.4.2.02 | Home-cinema speaker system |  | package of speakers for a TV sold and compared as one system.
+- D3.5.1.01 | Over-ear open-back headphone |  | headphone whose cups enclose the ear and are open at the back; semi-open files here.
+- D3.5.1.02 | Over-ear closed-back headphone |  | headphone whose sealed cups enclose the ear.
+- D3.5.1.03 | On-ear headphone |  | headphone whose pads rest on the ear.
+- D3.5.1.04 | Headset |  | headphones with an attached microphone, whatever they are used for (D1-O2).
+- D3.5.2.01 | Universal in-ear monitor |  | sealing in-ear earphone with standard tips, sold for listening (K-143).
+- D3.5.2.02 | Custom in-ear monitor |  | in-ear earphone with shells moulded to one listener's ear, sold for listening (K-143).
+- D3.5.2.03 | Earbud (non-sealing) |  | earphone that rests in the outer ear without sealing the canal.
+- D3.5.2.04 | True wireless earbuds |  | two separate wireless buds sold with a charging case (C10(b), D-3).
+- D3.5.2.05 | Bone-conduction / open-ear earphones |  | earphones that leave the ear canal open, by bone conduction or an open-ear driver.
+- D3.6.1.01 | Compact hi-fi system |  | music system with source, amplifier and speakers sold as one unit (`size_label`: mini, midi, lifestyle, music centre).
+- D3.6.1.02 | Radiogram |  | furniture-style cabinet combining a radio and a record player with speakers.
+- D3.6.1.03 | Boombox |  | portable radio-cassette or CD system with built-in speakers and a carry handle (D-15).
+- D3.6.1.04 | Karaoke machine |  | machine that plays music for singing along with a microphone input.
+- D3.6.1.05 | Jukebox |  | machine that plays a selected record or track, however it is paid for, unless sold as an arcade or coin-operated game (K-146).
+- D3.6.2.01 | Radio |  | broadcast receiver with a built-in speaker (`placement`: table, portable; D-18).
+- D3.6.2.02 | Clock radio |  | radio combined with a clock or alarm.
+- D3.6.2.03 | Radio scanner |  | receiver that scans and listens to radio frequencies (D2 §9.3).
+- D3.7.01 | Smart speaker |  | speaker whose designed function is a voice assistant.
+- D3.7.02 | Smart display |  | voice-assistant device with a screen.
+- D3.7.03 | Smart-home hub |  | device that links and controls smart-home devices.
+- D3.8.01 | Phono cartridge |  | pickup cartridge made to fit a turntable tonearm.
+- D3.8.02 | Turntable stylus |  | replacement stylus made for a phono cartridge.
+- D3.8.03 | Tonearm |  | arm that carries the cartridge across the record, sold separately for a turntable.
+- D3.8.04 | Headphone ear pads |  | replacement cushions made for a headphone.
+- D3.8.05 | Earphone ear tips |  | replacement tips made for in-ear earphones.
+- D3.8.06 | Detachable headphone cable with a proprietary or model-specific connector |  | cable made for one headphone model (K-2; standard-connector cables are D1).
+- D3.8.07 | Projection screen |  | screen made for a projector to throw its image onto.
+- D3.8.08 | Remote control |  | remote made for one TV or audio system; a universal remote is filed here by default (◇).
+- D3.8.09 | TV antenna |  | aerial made to receive broadcast television for a TV or receiver.
+- D3.8.10 | Speaker stand made for one speaker model |  | stand made to hold one speaker model.
+- D3.8.11 | Screen or speaker mount |  | bracket, arm, wall mount or table stand made to hold one TV or speaker (K-8).
+- D3.8.12 | Audio figure (Toniebox type) |  | figure that plays its stored content when placed on its player (K-16).
+- D3.2.4.02 | Portable cassette player |  | Battery-powered personal player for compact cassettes, worn or carried and listened to through headphones (Walkman type); a hi-fi deck is D3.2.2.03.
+- D3.2.4.03 | Portable CD player |  | Battery-powered personal player for compact discs, carried and listened to through headphones (Discman type); a hi-fi CD player is D3.2.2.01.
+- D3.2.2.04 | MiniDisc deck |  | Hi-fi component that plays and records MiniDiscs.
+- D3.2.2.05 | DAT deck |  | Hi-fi component that plays and records digital audio tape (DAT) cassettes.
+- D3.2.2.06 | Reel-to-reel tape deck |  | Hi-fi component that plays and records open-reel magnetic tape.
+- D3.2.2.07 | 8-track player |  | Home component that plays (and may record) 8-track tape cartridges; an 8-track player fitted in a car is G1.
+- D3.3.3.06 | Equaliser or sound processor |  | Stereo component whose designed function is shaping the tone or sound field of a signal (graphic or parametric equaliser, DSP sound processor); a surround decoder is D3.3.2.02.
+- D3.8.13 | Turntable plinth |  | Base or chassis made to hold one turntable mechanism and its tonearm, sold separately.
+- D3.3.3.05 | Bluetooth audio transmitter or receiver |  | External unit whose designed function is sending audio from a TV or player to wireless headphones or speakers, or receiving Bluetooth audio for an amplifier.
+- D3.4.1.08 | On-wall speaker |  | Slim speaker cabinet made to hang flat on a wall, often beside a TV; an in-wall speaker without a cabinet is D3.4.1.05.
+- D3.3.2.03 | Multichannel power amplifier |  | Power stage with three or more channels that drives home-cinema speakers from an AV processor.
+- D3.2.3.04 | Movie server |  | Box that stores a library of films and plays them on a television or projector (Kaleidescape type).
+- D3.3.3.07 | Master clock |  | External unit whose designed function is supplying a reference clock signal to a DAC, streamer or transport in a hi-fi system.
+- D3.3.2.04 | Video processor |  | External unit that scales and tone-maps video between a source and a TV or projector.
+- D3.8.15 | Headphone stand |  | Stand or hanger made to hold headphones when not worn, for one model or any.
+- D3.8.14 | Earbud charging case |  | Replacement charging case made for one model of true wireless earbuds.

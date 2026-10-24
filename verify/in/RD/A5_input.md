@@ -1,0 +1,116 @@
+# A5 Clocks & Watches: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: maker or house within watch worlds (owner names watches as scene-driven: world > house > collection > reference); clocks by placement
+- reason: Retail and marketplace menus lead with the brand, then collection, then reference (Watches of Switzerland, Rakuten), enthusiasts group by tool-watch family (Grailr) and beginners by taste and use (Hour Passion), so the owner's scene-first rule takes the form 'watch world > house': the world is the genre, the house is the first real choice; clocks have no such evidence and stay by placement.
+- ladder: Which kind of watch world? (tool watches, dress and classic, haute horlogerie, independents and microbrands, tough digital, fashion and jewellery, vintage and pocket) > Which house? > Which collection and reference?; clocks: Where will it stand or hang? > Which type? > Which maker or design?
+- level1_groups: Tool watches (dive A5.1.2, chronograph A5.1.3, GMT and world time A5.1.4, plus pilot, field and military, racing and sailing design_family tags on A5.1.1); Dress and classic watches (design_family dress on A5.1.1); Haute horlogerie and complications (A5.1.5 calendar, A5.1.6 striking, A5.1.7 tourbillon and grande complication, Geneva Seal view); Independents and microbrands (maker_class independent, microbrand); Tough and digital watches (digital watch, sports or tough tag); Fashion and jewellery watches (maker_class costume or fashion; gem_set); Vintage and pocket watches (A5.2 and era tag); Clocks (A5.3 by placement); Timing instruments (A5.4); Straps, winders and parts (A5.5)
+- quality_markers: Movement first (mechanical or automatic as the enthusiast default; in-house calibre for prestige and servicing > reputable supplier calibre), then accuracy and certification, then finishing and decoration, then case and bracelet build (screw bars, clasp), crystal (sapphire with anti-reflective coating > mineral > hesalite), lume (Super-LumiNova), water resistance (ISO 6425 for divers), anti-magnetism, then brand pedigree, design and value retention; beginners start with taste, wrist size (38-42 mm) and lifestyle. Accuracy ladder (fetched figures only): Rolex Superlative Chronometer -2/+2 s/day > COSC -4/+6 s/day > uncertified
+- quality_signals: COSC chronometer (Swiss independent body; 15 days, five positions, three temperatures; attribute, class i); METAS Master Chronometer (federal metrology institute; attribute); Geneva Seal; Fleurier Quality Foundation; Chronofiable; maker seals (Patek Philippe Seal, JLC 1000 Hours, Montblanc 500 h, Rolex Superlative Chronometer; attributes with the maker named as owner); ISO 6425 (divers; standard_met); Swiss Made (origin_label and C17 row); brand tier lists (The Watch Scanner, Soner pyramid: class iii; Bob's S/A/B/C: platform_tag; memo); A Blog To Watch entry, medium, high-end tiers (class iii); Rolex Certified Pre-Owned (platform programme, platform_tag); GPHG prizes (memo; award entries)
+- maker_role: way_in (confirm; drop provisional for watches); clocks keep way_in provisionally (memo collector evidence only, none in HOL_EV_1)
+- side_view: Complication tab (memo tree: time-only, dive, chronograph, multi-zone, calendar, striking, tourbillon); certification view (COSC, Geneva Seal, METAS); pre-owned and vintage view; brand-tier view showing every source's entry with disputed flags
+- evidence_rows: Watches of Switzerland; Rakuten Japan watch shop page (partial); A Blog To Watch: luxury watch factors (mid range); WatchGecko COSC guide; Monochrome Watches certification guide; Grailr tool watch guide; Hour Passion first watch guide (FR)
+- maker role row: {'code': 'A5', 'scope': '*', 'role': 'way_in', 'provisional': 'yes', 'reason': 'watch houses define the object (owner names watches as scene-driven)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-A5-1 | Tool watches | 1 |  | A5.1.2; A5.1.3; A5.1.4
+- G-A5-11 | Dive watches | 2 | G-A5-1 | A5.1.2.01
+- G-A5-12 | Chronographs | 2 | G-A5-1 | A5.1.3.01; A5.1.3.02; A5.1.3.03
+- G-A5-13 | GMT and world-time watches | 2 | G-A5-1 | A5.1.4.01; A5.1.4.02
+- G-A5-2 | Dress and classic watches | 1 |  | A5.1.1.01; A5.1.1.03; A5.1.1.04
+- G-A5-3 | Haute horlogerie and complications | 1 |  | A5.1.5; A5.1.6; A5.1.7
+- G-A5-14 | Calendar and astronomical watches | 2 | G-A5-3 | A5.1.5.01; A5.1.5.02; A5.1.5.03
+- G-A5-15 | Striking watches | 2 | G-A5-3 | A5.1.6.01; A5.1.6.02; A5.1.6.03
+- G-A5-16 | Tourbillon and grande-complication watches | 2 | G-A5-3 | A5.1.7.01; A5.1.7.02
+- G-A5-4 | Independents and microbrands | 1 |  | 
+- G-A5-5 | Tough and digital watches | 1 |  | A5.1.1.02
+- G-A5-6 | Fashion and jewellery watches | 1 |  | 
+- G-A5-7 | Vintage and pocket watches | 1 |  | A5.2.01; A5.2.02; A5.2.03; A5.2.04
+- G-A5-8 | Clocks | 1 |  | A5.3
+- G-A5-17 | Floor-standing clocks | 2 | G-A5-8 | A5.3.1.01
+- G-A5-18 | Table and shelf clocks | 2 | G-A5-8 | A5.3.2.01; A5.3.2.02; A5.3.2.03; A5.3.2.04; A5.3.2.05; A5.3.2.06; A5.3.2.07
+- G-A5-19 | Wall clocks | 2 | G-A5-8 | A5.3.3.01; A5.3.3.02; A5.3.3.03; A5.3.3.04; A5.3.3.05; A5.3.3.06
+- G-A5-20 | Portable and marine clocks | 2 | G-A5-8 | A5.3.4.01; A5.3.4.02
+- G-A5-21 | Building-mounted clocks | 2 | G-A5-8 | A5.3.5.01
+- G-A5-9 | Timing instruments | 1 |  | A5.4.01; A5.4.02; A5.4.03; A5.4.04; A5.4.05; A5.4.06; A5.4.07
+- G-A5-10 | Straps, winders and parts | 1 |  | A5.5
+- G-A5-22 | Straps, bracelets, chains and winders | 2 | G-A5-10 | A5.5.01; A5.5.02; A5.5.08; A5.5.03; A5.5.1.03; A5.5.1.04
+- G-A5-23 | Watch parts | 2 | G-A5-10 | A5.5.04; A5.5.05; A5.5.06; A5.5.07; A5.5.1.01; A5.5.1.02
+- G-A5-24 | Clock parts | 2 | G-A5-10 | A5.5.2.01; A5.5.2.02; A5.5.2.03; A5.5.2.04; A5.5.2.05
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-A5-1 | movement (all watch groups) | in-house calibre > reputable supplier calibre; mechanical or automatic the enthusiast default | Movement is weighed first, for prestige and servicing. | proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
+- G-A5-1 | accuracy and certification (all watch groups) | Rolex Superlative Chronometer -2/+2 s/day > COSC -4/+6 s/day > uncertified | Fetched accuracy figures only; maker-owned seals stay attributes, not tiers. | proposals.tsv A5 row (quality_markers); WatchGecko COSC guide; Monochrome Watches certification guide
+- G-A5-1 | finishing and decoration (all watch groups) |  | Weighed after movement and accuracy. | proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
+- G-A5-1 | case and bracelet build (all watch groups) |  | Screw bars and clasp quality. | proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
+- G-A5-1 | crystal (all watch groups) | sapphire with anti-reflective coating > mineral > hesalite | Crystal ladder as fetched. | proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
+- G-A5-1 | lume (all watch groups) |  | Super-LumiNova named as the reference lume. | proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range); Grailr tool watch guide
+- G-A5-11 | water resistance | ISO 6425 diver's watch > not certified | ISO 6425 sets the diver's standard. | proposals.tsv A5 row (quality_markers); Grailr tool watch guide; A Blog To Watch: luxury watch factors (mid range)
+- G-A5-1 | anti-magnetism (all watch groups) |  | Weighed with the build markers. | proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
+- G-A5-1 | brand pedigree, design and value retention (all watch groups) |  | Weighed last by enthusiasts. | proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
+- G-A5-1 | first-watch fit (all watch groups) | wrist size 38-42 mm | Beginners start with taste, wrist size and lifestyle. | proposals.tsv A5 row (quality_markers); Hour Passion first watch guide (FR)
+
+## Kinds (kind_id | stored name | native name | definition)
+- A5.1.1.01 | Time-only watch |  | analogue wristwatch with two or three hands, with or without a date window, and none of the defining functions of the other leaves.
+- A5.1.1.02 | Digital watch |  | wristwatch whose time display is digital; stopwatch and alarm modes standard on the form do not move it.
+- A5.1.1.03 | One-hand watch |  | wristwatch that shows the time with a single hand.
+- A5.1.1.04 | Jumping-hours watch |  | wristwatch that shows the hour as a numeral that jumps in a window.
+- A5.1.2.01 | Diver's watch |  | wristwatch with a unidirectional timing bezel and at least 100 m water resistance, or conforming to ISO 6425.
+- A5.1.3.01 | Chronograph |  | wristwatch with a chronograph mechanism that starts, stops and resets an elapsed-time hand or register.
+- A5.1.3.02 | Flyback chronograph |  | chronograph that can be reset and restarted with one push while running.
+- A5.1.3.03 | Split-seconds chronograph (double chronograph, rattrapante) |  | chronograph with a second seconds hand that can be stopped separately to time intermediate intervals.
+- A5.1.4.01 | GMT watch |  | wristwatch with an extra hand or display showing a second time zone, usually on a 24-hour scale.
+- A5.1.4.02 | World-time watch |  | wristwatch that shows the time in all world time zones at once, with a city ring.
+- A5.1.5.01 | Moon-phase watch |  | wristwatch with a moon-phase display.
+- A5.1.5.02 | Annual-calendar watch |  | wristwatch whose calendar corrects itself for months of 30 and 31 days and needs setting once a year.
+- A5.1.5.03 | Perpetual-calendar watch |  | wristwatch whose calendar corrects itself for month lengths and leap years.
+- A5.1.6.01 | Alarm watch |  | wristwatch with a mechanical alarm that sounds at a set time.
+- A5.1.6.02 | Minute-repeater watch |  | wristwatch that strikes the hours, quarters and minutes on demand.
+- A5.1.7.01 | Tourbillon watch |  | wristwatch whose escapement turns in a rotating cage (tourbillon).
+- A5.1.7.02 | Grande-complication watch |  | wristwatch with at least one timing, one astronomical and one striking complication.
+- A5.2.01 | Open-face pocket watch |  | pocket watch whose crystal has no protective cover.
+- A5.2.02 | Hunter-case pocket watch |  | pocket watch with a hinged metal lid that covers the crystal.
+- A5.2.03 | Demi-hunter pocket watch |  | hunter-case pocket watch whose lid has a window or glazed centre through which the hands can be read.
+- A5.2.04 | Coin watch |  | watch built into a case made from or shaped as a coin.
+- A5.3.1.01 | Longcase clock (grandfather clock) |  | tall floor-standing clock with the pendulum and weights in a long case.
+- A5.3.2.01 | Mantel clock |  | clock made to stand on a mantelpiece or shelf.
+- A5.3.2.02 | Bracket clock |  | portable spring-driven table clock with a carrying handle, made to stand on a table or wall bracket.
+- A5.3.2.03 | Carriage clock |  | small spring-driven travelling clock in a glazed metal case with a top handle.
+- A5.3.2.04 | Desk clock |  | small clock made to stand on a desk.
+- A5.3.2.05 | Alarm clock |  | table or bedside clock that sounds at a set time.
+- A5.3.2.06 | Digital clock |  | table or shelf clock with a digital time display.
+- A5.3.2.07 | Skeleton clock |  | clock whose open frame shows the movement with no case around it (A-25).
+- A5.3.3.01 | Wall clock |  | wall-mounted clock with no distinctive case form of the kinds below.
+- A5.3.3.02 | Dial clock |  | wall clock with a large dial in a round case, with or without a drop case below.
+- A5.3.3.03 | Wall regulator |  | precision wall clock with a long pendulum in a tall glazed case.
+- A5.3.3.04 | Cuckoo clock |  | wall clock whose striking sounds a cuckoo call, with a moving bird.
+- A5.3.3.05 | Lantern clock |  | weight-driven wall clock in a brass lantern-shaped case with a bell on top.
+- A5.3.3.06 | Tavern clock |  | large wall clock with a big painted dial and a trunk below, made for public rooms.
+- A5.3.4.01 | Travel clock |  | small clock made to be carried on journeys, often folding or in a case.
+- A5.3.4.02 | Marine chronometer |  | precision timekeeper made to keep time at sea for navigation.
+- A5.3.5.01 | Tower or turret clock |  | clock fixed to a building, with a movement driving one or more exterior dials.
+- A5.4.01 | Stopwatch |  | hand-held instrument that measures an elapsed interval.
+- A5.4.02 | Hourglass |  | timepiece that measures an interval by sand running between two glass bulbs.
+- A5.4.03 | Sundial |  | instrument that shows the time by the sun's shadow on a scale, portable, pocket, wall, horizontal or equatorial.
+- A5.4.04 | Garden sundial |  | sundial made to stand or hang in a garden or park, including those sold as garden ornaments, with a working gnomon.
+- A5.4.05 | Game clock (chess clock) |  | pair of linked clocks that times each player's moves in a game.
+- A5.4.06 | Time clock (attendance clock) |  | clock that records the times workers arrive and leave.
+- A5.4.07 | Atomic clock |  | laboratory time standard regulated by an atomic resonance.
+- A5.5.01 | Watch strap |  | band of leather, textile, rubber or other flexible material made to hold a watch on the wrist.
+- A5.5.02 | Watch bracelet |  | metal link band made to hold a watch on the wrist.
+- A5.5.03 | Watch winder |  | powered stand that holds one automatic watch and keeps it wound.
+- A5.5.04 | Watch dial |  | dial made to be fitted to a watch.
+- A5.5.05 | Watch movement |  | movement (calibre) made to be fitted in a watch.
+- A5.5.06 | Watch crystal |  | glass, sapphire or plastic crystal made to cover a watch dial.
+- A5.5.07 | Watch case |  | case made to house a watch movement.
+- A5.5.08 | Watch chain |  | chain (Albert chain, fob chain) made to attach a pocket watch.
+- A5.5.2.01 | Clock movement |  | Movement made to be fitted in a clock case, mechanical or quartz, including pendulum, chime and cuckoo movements.
+- A5.5.2.02 | Clock hands |  | Set of hands made to be fitted to a clock movement.
+- A5.5.2.03 | Clock dial |  | Dial made to be fitted to a clock.
+- A5.5.2.04 | Clock pendulum |  | Pendulum (rod and bob) made to be hung on a clock movement.
+- A5.5.2.05 | Clock insert (fit-up) |  | Small self-contained clock unit, movement, dial and bezel in one capsule, made to be pressed into a hole in a clock body.
+- A5.5.1.01 | Watch hands |  | Set of hands made to be fitted to a watch movement.
+- A5.5.1.02 | Watch crown |  | Crown, with its stem or tube, made to be fitted to a watch case to wind and set it.
+- A5.5.1.03 | Watch clasp or buckle |  | Buckle or folding (deployant) clasp made to close a watch strap or bracelet.
+- A5.5.1.04 | Watch spring bar |  | Spring-loaded bar made to hold a strap or bracelet between a watch case's lugs.
+- A5.1.6.03 | Sonnerie watch |  | wristwatch that strikes the hours, and in a grande sonnerie the quarters, on its own as they pass.

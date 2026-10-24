@@ -1,0 +1,119 @@
+# G2 Property & Structures: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of property (home, mobile or floating home, land, outbuilding, commercial building, burial place); location is the main filter, never a level
+- reason: Portals and their apps divide by property type, and Japan's also divides by new or pre-owned (SUUMO categories; immowelt property type after rent or buy). Rightmove asks for location first, but the owner rule says countries and places never divide a category, so location is the main filter and type is the way in. Every buying guide checks condition, legal title and fit after location (Barfoot and Thompson; ANZ; e.surv).
+- ladder: What kind of property? > Which type (house by attachment, flat or maisonette, park or floating home, land by use, building by function)? > What makes a good one, filtered by location, price, bedrooms, tenure, new or pre-owned and energy band?
+- level1_groups: Houses and flats; Park, mobile and floating homes; Land and farms; Garden buildings and outbuildings; Commercial buildings; Burial places
+- quality_markers: Homes: location and neighbourhood (filter and map, weighed first by every guide) > structural condition (roof, walls, damp and plumbing, wiring and heating) > legal title and tenure (freehold > share of freehold > leasehold; title and LIM checks) > energy performance and orientation (EPC A to G) > fit to the household (bedrooms, layout, garden, parking). Land: principal use and land quality (ALC grade 1 > 2 > 3a > 3b > 4 > 5, memo) > access and water > area. Factory-built homes and garden buildings: build standard (residential BS 3632 against holiday BS EN 1647, HUD code; memo) > maker's range and materials (provisional). Burial places: memo only (in-ground or above, capacity); provisional
+- quality_signals: Energy Performance Certificate bands A (92+) to G (1-20), by an accredited assessor, in the government EPC register, with a separate CO2 rating (class i scheme; never stored for a particular home, C16); RICS Home Survey Levels 1, 2 and 3 (RICS; a survey level, recorded as a scheme for guidance); building and pest inspection (Australia) and the LIM report (NZ) as named due-diligence checks (scheme rows, no tier); Agricultural Land Classification grades (Natural England via memo; facet alc_grade); build standards BS 3632, BS EN 1647, HUD code and IRC Appendix Q (standard_met on factory-built named forms); China Grade A or 5A offices (scheme only, memo); Trusted Shops-style portal ratings: none found
+- maker_role: none (confirmed) for land, houses, flats and burial places, where the builder is invisible to the buyer. Proposed scoped revision: owner for factory-built kinds (G2.2.4 park homes, lodges, static caravans, park models, tiny houses on wheels and floating homes; the kit-built G2.3 garden buildings; pool shells in G2.3.6). There the maker enters as the owner of a range or model (memo section 6). Provisional.
+- side_view: Makers' ranges tab only for factory-built homes and garden buildings (lines and maker models). A 'by tradition' view of regional house forms (riad, finca, trullo), plus tiny-house and liveaboard views (memo section 7).
+- evidence_rows: Rightmove (UK); SUUMO (Japan, app store page); immowelt (Germany, app store page); Barfoot and Thompson (NZ) inspection checklist; ANZ property inspection checklist (Australia); e.surv house purchase checklist (UK); Energy performance certificate bands (Fuse Energy); memo G2 sections 2 and 5
+- maker role row: {'code': 'G2', 'scope': 'factory-built homes, garden buildings, pool shells', 'role': 'owner', 'provisional': 'yes', 'reason': 'models carry the builder (HOL_DP_9, R-116)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-G2-1 | Houses and flats | 1 |  | G2.2.1; G2.2.2; G2.2.3
+- G-G2-7 | Houses | 2 | G-G2-1 | G2.2.1.1; G2.2.1.2; G2.2.1.3
+- G-G2-8 | Flats and maisonettes | 2 | G-G2-1 | G2.2.2.1; G2.2.2.2
+- G-G2-9 | Whole residential buildings | 2 | G-G2-1 | G2.2.3.1
+- G-G2-2 | Park, mobile and floating homes | 1 |  | G2.2.4.2; G2.2.4.3; G2.2.4.4; G2.2.4.5; G2.2.4.1; G2.2.4.6
+- G-G2-3 | Land and farms | 1 |  | G2.1
+- G-G2-10 | Building plots | 2 | G-G2-3 | G2.1.1.1
+- G-G2-11 | Farm land | 2 | G-G2-3 | G2.1.2.1; G2.1.3.1; G2.1.4.1; G2.1.4.2
+- G-G2-12 | Woodland | 2 | G-G2-3 | G2.1.5.1
+- G-G2-13 | Lakes and water | 2 | G-G2-3 | G2.1.6.1
+- G-G2-14 | Mixed holdings and smallholdings | 2 | G-G2-3 | G2.1.7.1
+- G-G2-15 | Leisure, energy and parking land | 2 | G-G2-3 | G2.1.8.1; G2.1.8.2; G2.1.8.3; G2.1.8.4; G2.1.8.6; G2.1.8.5
+- G-G2-4 | Garden buildings and outbuildings | 1 |  | G2.3.1; G2.3.2; G2.3.3; G2.3.4; G2.3.5; G2.3.6
+- G-G2-16 | Garages, carports and boathouses | 2 | G-G2-4 | G2.3.1.1; G2.3.1.2; G2.3.1.3; G2.3.1.4
+- G-G2-17 | Sheds, workshops and containers | 2 | G-G2-4 | G2.3.2.1; G2.3.2.2; G2.3.2.3
+- G-G2-18 | Garden rooms, cabins and huts | 2 | G-G2-4 | G2.3.3.1; G2.3.3.2; G2.3.3.3; G2.3.3.4; G2.3.3.5; G2.3.3.6; G2.3.3.7
+- G-G2-19 | Barns, stables and field shelters | 2 | G-G2-4 | G2.3.4.1; G2.3.4.2; G2.3.4.3; G2.3.4.4; G2.3.4.5
+- G-G2-20 | Gazebos, pergolas, patios and decks | 2 | G-G2-4 | G2.3.5.1; G2.3.5.2; G2.3.5.3; G2.3.5.4; G2.3.5.5; G2.3.5.6
+- G-G2-21 | Swimming pools | 2 | G-G2-4 | G2.3.6.1
+- G-G2-5 | Commercial buildings | 1 |  | G2.3.7.1; G2.3.7.2; G2.3.7.3; G2.3.7.4; G2.3.7.5; G2.3.7.6; G2.3.7.7
+- G-G2-6 | Burial places | 1 |  | G2.4.1; G2.4.2; G2.4.3; G2.4.4; G2.4.5; G2.4.6; G2.4.7; G2.4.8
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-G2-1 | location and neighbourhood |  | Weighed first by every guide; a filter and map, never a level. | proposals.tsv G2 row (quality_markers); Barfoot and Thompson (NZ) inspection checklist; ANZ property inspection checklist (Australia); e.surv house purchase checklist (UK)
+- G-G2-1 | structural condition | roof, walls, damp and plumbing, wiring and heating | Survey after location (RICS Home Survey Levels 1-3 as guidance). | proposals.tsv G2 row (quality_markers, quality_signals); Barfoot and Thompson (NZ) inspection checklist; e.surv house purchase checklist (UK)
+- G-G2-1 | legal title and tenure | freehold > share of freehold > leasehold | Title and LIM checks follow condition. | proposals.tsv G2 row (quality_markers); e.surv house purchase checklist (UK)
+- G-G2-1 | energy performance and orientation | EPC A (92+) > B > C > D > E > F > G (1-20) | Never stored for a particular home (C16). | proposals.tsv G2 row (quality_markers, quality_signals); Energy performance certificate bands (Fuse Energy)
+- G-G2-1 | fit to the household | bedrooms, layout, garden, parking | Last in the order. | proposals.tsv G2 row (quality_markers); Rightmove (UK)
+- G-G2-3 | principal use and land quality | ALC grade 1 > 2 > 3a > 3b > 4 > 5 | Land is judged by use and grade first (memo). | proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+- G-G2-3 | access and water |  | After use and grade. | proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+- G-G2-3 | area |  | Last in the order. | proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+- G-G2-2 | build standard | residential BS 3632 > holiday BS EN 1647; HUD code; IRC Appendix Q | Factory-built homes are judged by build standard first (memo). | proposals.tsv G2 row (quality_markers, quality_signals); memo G2 sections 2 and 5
+- G-G2-2 | maker's range and materials |  | Provisional. | proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+- G-G2-4 | maker's range and materials |  | Kit-built garden buildings; provisional. | proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+- G-G2-6 | placement and capacity | in-ground or above-ground; capacity (a choice) | Memo only; provisional. | proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+
+## Kinds (kind_id | stored name | native name | definition)
+- G2.2.4.4 | static caravan |  | a home made as one section on a chassis, whatever its width, kept on one pitch and not built as a park model RV.
+- G2.2.4.5 | lodge or park home |  | a factory-built home made as two or more sections joined on the pitch (twin-unit), for holiday or residential use.
+- G2.2.4.3 | park model |  | a single-section dwelling or cabin built on an RV trailer chassis and sold as a park model RV.
+- G2.2.4.2 | tiny house on wheels |  | a small dwelling built on a trailer chassis, however often it is towed.
+- G2.3.3.5 | sauna cabin |  | a sauna that stands as a building.
+- G2.3.2.3 | shipping container (kept in place) |  | a shipping container fixed on a site as a store or room.
+- G2.3.1.1 | garage |  | an enclosed building for vehicles, attached or freestanding.
+- G2.3.2.1 | garden shed |  | a small outbuilding for tools and garden storage that a person can enter.
+- G2.3.2.2 | workshop |  | a building made for repair or craft work, domestic or commercial.
+- G2.3.3.1 | summerhouse |  | a garden building for sitting and relaxing in.
+- G2.3.3.2 | garden office |  | an insulated garden building made to work in.
+- G2.3.3.3 | garden log cabin |  | a log-walled garden building made as a general room or retreat, not fitted for one purpose.
+- G2.3.3.4 | garden bar |  | a garden building fitted as a bar, with a bar counter or serving hatch, whatever its walls.
+- G2.3.1.2 | carport |  | a roofed, open-sided shelter for vehicles.
+- G2.3.5.1 | gazebo |  | a freestanding, open-sided structure with a roof (boarded, shingled, tiled or a fixed canopy).
+- G2.3.5.2 | pergola |  | an open frame of posts and beams or rafters whose top is open, slatted or planted.
+- G2.3.6.1 | in-ground swimming pool |  | a swimming pool built into the ground.
+- G2.1.1.1 | building plot |  | a parcel of land sold to build on, with or without planning permission.
+- G2.1.2.1 | arable land |  | land used or sold for growing field crops such as cereals, roots or oilseeds.
+- G2.1.3.1 | grazing land |  | pasture, paddock or meadow held for livestock or horses.
+- G2.1.4.1 | orchard |  | land planted with fruit or nut trees.
+- G2.1.4.2 | vineyard |  | land planted with grape vines.
+- G2.1.5.1 | woodland |  | land under trees, whether managed for timber, amenity or conservation (`managed_for`).
+- G2.1.6.1 | lake |  | a body of water, pond, fishery or wetland held as the property.
+- G2.2.1.1 | detached house |  | a whole house standing free of neighbours; a factory-built home on a permanent foundation and a unit that meets the dwelling test are filed here.
+- G2.2.1.2 | semi-detached house |  | a house joined to one neighbour on one side.
+- G2.2.1.3 | terraced house |  | a house in a row, joined to neighbours on both sides or, at the end of the row, on one side.
+- G2.2.2.1 | flat |  | one dwelling unit on a single level inside a larger building.
+- G2.2.2.2 | maisonette |  | one dwelling unit whose rooms are on two or more full levels inside a larger building.
+- G2.2.3.1 | multi-unit residential building |  | a whole building of two or more dwellings held as one object.
+- G2.1.7.1 | mixed holding |  | a holding with no single principal use (no one use covers more than half the area, or areas are not given and several uses are combined with none sold as the main one); area (`plot_area`) and enterprises (`enterprises`) are attributes.
+- G2.4.1 | ground burial plot |  | an in-ground grave space for a casket, of single, companion or family capacity.
+- G2.4.3 | lawn crypt |  | an underground pre-built vault set in a lawn section.
+- G2.4.4 | mausoleum crypt |  | an above-ground chamber for a casket inside a community mausoleum.
+- G2.4.5 | private mausoleum |  | a freestanding building holding crypts for one family.
+- G2.4.6 | columbarium niche |  | a compartment in a wall, stele or building for an urn.
+- G2.4.2 | cremation (urn) plot |  | an in-ground plot for cremated remains.
+- G2.4.7 | green burial plot |  | one person's or one family's own grave space in a natural setting, including one of several sites at a shared tree.
+- G2.4.8 | communal grave space [goshi-bo, 合祀墓] |  | a shared burial space where the remains of many people are placed together, with no separate site for each.
+- G2.2.4.6 | floating home |  | a dwelling on a float or hull moored in a slip, connected to shore utilities, not made to navigate.
+- G2.2.4.1 | moored houseboat |  | a hull without its own propulsion and steering, made to stay moored as a dwelling.
+- G2.3.4.1 | barn |  | a large farm building with an open interior for hay, grain, machinery or loose-housed livestock.
+- G2.3.4.2 | stable block |  | a building whose floor is laid out mainly as stalls or loose boxes, even when sold as a horse barn or built with a hay loft or tack room.
+- G2.3.5.5 | jetty or pontoon |  | a fixed or floating structure for mooring or access over water, held as a structure (not a mooring right).
+- G2.3.7.2 | shop |  | a building made for retail trade.
+- G2.3.7.5 | hotel |  | a building made for letting rooms to guests.
+- G2.3.7.1 | office building |  | a building made for offices.
+- G2.3.7.3 | warehouse |  | a building made for storing goods in bulk.
+- G2.3.7.4 | industrial unit |  | a building made for producing goods (manufacturing, processing, assembly).
+- G2.3.1.4 | boathouse |  | a building for keeping boats, on or beside water.
+- G2.3.1.3 | cart shed |  | an open-fronted farm building for carts and farm machinery.
+- G2.3.4.3 | granary |  | a building for storing grain that a person can stand in.
+- G2.3.4.4 | dovecote |  | a building for housing doves or pigeons that a person can enter.
+- G2.3.5.3 | decking |  | a raised timber or composite platform built in place, including one built for a tent, yurt or tipi.
+- G2.3.5.4 | patio |  | a laid paved or hard surface outside a building.
+- G2.3.7.6 | data centre |  | a building made to house computer servers and their power and cooling plant.
+- G2.3.3.7 | shepherd's hut |  | a small timber or tin-clad hut on a wheeled chassis made to stand in a garden or field as a room; with its own sink, toilet and entrance it is a tiny house on wheels.
+- G2.3.7.7 | bunker |  | an underground or blast-hardened shelter structure, such as a former military or civil-defence bunker or a buried survival shelter.
+- G2.3.3.6 | garden kitchen |  | a garden building or roofed structure fitted as a kitchen with worktops for cooking, whatever its walls.
+- G2.3.4.5 | field shelter |  | an open-fronted shelter for horses or livestock standing in a field, fixed or on skids, that a person can stand in.
+- G2.3.5.6 | patio cover |  | a roofed open-sided structure on posts made to fix to a house wall over a patio or deck (veranda, Terrassenueberdachung).
+- G2.1.8.1 | parking space |  | a bay or space for parking a vehicle held as land (freehold or long lease); a rented bay or permit is OUT.
+- G2.1.8.3 | campsite |  | land laid out and held for camping, touring pitches or glamping units, with or without amenity buildings.
+- G2.1.8.4 | solar farm |  | land whose principal use is a ground-mounted photovoltaic array, sold with or as a site for it.
+- G2.1.8.2 | golf course |  | land laid out as a golf course, with or without a clubhouse (`improvements`).
+- G2.1.8.6 | airstrip |  | land laid out as a runway or landing strip for light aircraft, with or without hangars (`improvements`).
+- G2.1.8.5 | wind farm |  | land whose principal use is wind turbines for power generation, sold with or as a site for them.

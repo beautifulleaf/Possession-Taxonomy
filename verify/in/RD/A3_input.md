@@ -1,0 +1,124 @@
+# A3 Jewellery: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object first in practice, under a provisional style-world door: owner lists jewellery among scene-driven categories (BRIEF 2026-10-24), so a style door opens the page, but piece type is the working first choice
+- reason: Every retail source opens on piece type with metal and stone as parallel axes and bridal and diamonds first (Blue Nile, Perth Mint, Kisna); only collectors lead with era and maker (Estate Sales), and no jewellery scene has a definition source, so the scene door is honoured but kept thin and provisional.
+- ladder: What piece? (rings, earrings, necklaces, bracelets...) > Which kind? (solitaire, hoop, tennis bracelet...) > What makes the best one? (stone 4Cs and certificate, metal purity, maker); style-world door: Which world? (bridal, fine houses, everyday and fashion, traditional and ceremonial, vintage and costume, body jewellery, subculture) > Which house or maker? > Which piece?
+- level1_groups: Piece tab (memo tree, renamed to shop words): Rings (A3.6); Earrings (A3.2); Necklaces, chains and pendants (A3.4); Bracelets, bangles and armlets (A3.5); Brooches, pins and cufflinks (A3.7 less waist chains); Hair and head jewellery (A3.1); Body and piercing jewellery (A3.3); Anklets, toe rings and body chains (A3.8 with the waist chain); Jewellery parts (A3.9). Style door (views, provisional): Bridal and engagement; Fine jewellery houses; Everyday, demi-fine and fashion; Traditional and ceremonial; Vintage, antique and costume; Body modification; Subculture and street
+- quality_markers: Stone-set pieces: cut first, then colour, clarity, carat weight (4Cs; higher carat is not automatically better), then the certificate and who issued it; metal: purity or fineness (gold 24K 995 > 22K 916 > 20K 833 > 18K 750 > 14K 585; silver 990 to 800; platinum 950 in the memo) and solid against plated; antiques: maker's mark (signed > unsigned), then period, materials, rarity; workmanship of setting and finish (memo)
+- quality_signals: GIA 4Cs scales and D-to-Z colour (GIA; grading-scale registry, C16); IGI, HRD and EGL reports (labs; registry rows; no certificate of one stone stored); BIS hallmark with six-digit HUID (Bureau of Indian Standards; attribute and jurisdiction row); karat and fineness stamps 333 to 999 (attribute); UK hallmarking table (memo); Borsheims fine / demi-fine / fashion (memo; class iii); signed makers (Tiffany, Cartier, Eisenberg, Weiss) through the maker ledger; 1stDibs fine/fashion filter (platform_tag)
+- maker_role: way_in (keep, provisional): houses lead for fine and signed antique jewellery (Estate Sales, memo Cartier), but mass retail chooses by piece, stone and metal (Blue Nile, Kisna); a house view sits beside the piece tab
+- side_view: House and maker view (fine houses, costume makers by mark); bridal view; metal view (Blue Nile 'Shop by metal'); gemstone view; tradition view (region tags); era view
+- evidence_rows: Blue Nile; Kisna buying and price guide (India); BIS hallmarking FAQ (India); GIA diamond colour scale; Perth Mint diamond buying guide; Estate Sales jewellery guide (antique and vintage)
+- maker role row: {'code': 'A3', 'scope': '*', 'role': 'way_in', 'provisional': 'yes', 'reason': 'jewellery houses and makers signal style and provenance'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-A3-1 | Rings and hand jewellery | 1 |  | A3.6
+- G-A3-10 | Finger rings | 2 | G-A3-1 | A3.6.1.01; A3.6.1.02; A3.6.1.03; A3.6.1.04; A3.6.1.05
+- G-A3-11 | Hand ornaments | 2 | G-A3-1 | A3.6.2.01
+- G-A3-2 | Earrings and ear cuffs | 1 |  | A3.2
+- G-A3-12 | Earrings | 2 | G-A3-2 | A3.2.1.01; A3.2.1.02; A3.2.1.03; A3.2.1.04
+- G-A3-13 | Ear cuffs and climbers | 2 | G-A3-2 | A3.2.2.01; A3.2.2.02
+- G-A3-3 | Necklaces, pendants and chains | 1 |  | A3.4
+- G-A3-14 | Necklaces | 2 | G-A3-3 | A3.4.1.01; A3.4.1.02; A3.4.1.03; A3.4.1.04; A3.4.1.05; A3.4.1.06; A3.4.1.07; A3.4.1.08; A3.4.1.09
+- G-A3-15 | Chains | 2 | G-A3-3 | A3.4.2.01
+- G-A3-16 | Pendants and charms | 2 | G-A3-3 | A3.4.3.01; A3.4.3.02; A3.4.3.03
+- G-A3-4 | Bracelets, bangles and armlets | 1 |  | A3.5
+- G-A3-17 | Bracelets | 2 | G-A3-4 | A3.5.1.01; A3.5.1.02; A3.5.1.03; A3.5.1.04; A3.5.1.05
+- G-A3-18 | Bangles | 2 | G-A3-4 | A3.5.2.01
+- G-A3-19 | Armlets | 2 | G-A3-4 | A3.5.3.01
+- G-A3-5 | Brooches, pins and cufflinks | 1 |  | A3.7.1; A3.7.2
+- G-A3-20 | Brooches and pins | 2 | G-A3-5 | A3.7.1.01; A3.7.1.02; A3.7.1.03; A3.7.1.04; A3.7.1.05
+- G-A3-21 | Cufflinks and tie accessories | 2 | G-A3-5 | A3.7.2.01; A3.7.2.02; A3.7.2.03
+- G-A3-6 | Hair and head jewellery | 1 |  | A3.1
+- G-A3-22 | Crowns and tiaras | 2 | G-A3-6 | A3.1.1.01; A3.1.1.02
+- G-A3-23 | Forehead and parting ornaments | 2 | G-A3-6 | A3.1.2.01; A3.1.2.02
+- G-A3-24 | Hair ornaments | 2 | G-A3-6 | A3.1.3.01; A3.1.3.02
+- G-A3-7 | Body jewellery (piercing) | 1 |  | A3.3
+- G-A3-25 | Barbells | 2 | G-A3-7 | A3.3.1.01; A3.3.1.02; A3.3.1.03
+- G-A3-26 | Rings and clickers | 2 | G-A3-7 | A3.3.2.01; A3.3.2.02; A3.3.2.03
+- G-A3-27 | Studs and labrets | 2 | G-A3-7 | A3.3.3.01; A3.3.3.02; A3.3.3.03
+- G-A3-28 | Navel jewellery | 2 | G-A3-7 | A3.3.4.01
+- G-A3-29 | Stretched-ear jewellery | 2 | G-A3-7 | A3.3.5.01; A3.3.5.02; A3.3.5.03; A3.3.5.04
+- G-A3-8 | Anklets, toe rings and body chains | 1 |  | A3.8.1.01; A3.8.1.02; A3.7.3.01
+- G-A3-9 | Jewellery parts | 1 |  | A3.9.01; A3.9.02; A3.9.03
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-A3-1 | diamond cut (all stone-set pieces) |  | Cut is weighed first of the 4Cs. | proposals.tsv A3 row (quality_markers); GIA diamond colour scale; Perth Mint diamond buying guide; Blue Nile
+- G-A3-1 | diamond colour (all stone-set pieces) |  | Second of the 4Cs; graded on the GIA colour scale. | proposals.tsv A3 row (quality_markers); GIA diamond colour scale; Perth Mint diamond buying guide
+- G-A3-1 | diamond clarity (all stone-set pieces) |  | Third of the 4Cs. | proposals.tsv A3 row (quality_markers); Perth Mint diamond buying guide; Blue Nile
+- G-A3-1 | carat weight (all stone-set pieces) |  | Last of the 4Cs; higher carat is not automatically better. | proposals.tsv A3 row (quality_markers); Perth Mint diamond buying guide; Blue Nile
+- G-A3-1 | certificate and issuing lab (all stone-set pieces) |  | Buyers trust a grading certificate and weigh who issued it. | proposals.tsv A3 row (quality_markers); Perth Mint diamond buying guide; Blue Nile
+- G-A3-1 | metal purity or fineness (all A3 groups) | gold 24K 995 > 22K 916 > 20K 833 > 18K 750 > 14K 585; silver 990 down to 800; platinum 950 | Fineness is the hallmarked measure of the metal. | proposals.tsv A3 row (quality_markers); BIS hallmarking FAQ (India); Kisna buying and price guide (India); A3 memo
+- G-A3-1 | solid against plated (all A3 groups) | solid > plated | Solid precious metal outranks a plated base metal. | proposals.tsv A3 row (quality_markers); Kisna buying and price guide (India); Blue Nile
+- G-A3-1 | maker's mark (vintage and antique view) | signed > unsigned | Collectors weigh the signature first. | proposals.tsv A3 row (quality_markers); Estate Sales jewellery guide (antique and vintage)
+- G-A3-1 | period, materials and rarity (vintage and antique view) |  | Weighed after the maker's mark. | proposals.tsv A3 row (quality_markers); Estate Sales jewellery guide (antique and vintage)
+- G-A3-1 | workmanship of setting and finish (all A3 groups) |  | Memo marker; no fetched ladder. | proposals.tsv A3 row (quality_markers); A3 memo
+
+## Kinds (kind_id | stored name | native name | definition)
+- A3.1.1.01 | Tiara |  | jewelled ornamental half-circlet worn on the head, open at the back.
+- A3.1.1.02 | Crown |  | closed or full-circle ornamental headpiece worn as jewellery, not as regalia of an office.
+- A3.1.2.01 | Maang tikka |  | ornament hung on a chain along the hair parting with a pendant resting on the forehead.
+- A3.1.3.01 | Hairpin |  | decorative pin or stick pushed into the hair to hold or adorn it (kanzashi-type pins included).
+- A3.1.3.02 | Decorative hair clip |  | jewelled or ornamental clip, comb or slide fixed into the hair (a plain functional clip is H1).
+- A3.2.1.01 | Stud earring |  | earring whose ornament sits on the lobe, held by a post and back.
+- A3.2.1.02 | Hoop earring |  | earring formed as a circle or part-circle of metal through the lobe.
+- A3.2.1.03 | Drop earring |  | earring whose ornament hangs below the lobe, still or swinging.
+- A3.2.1.04 | Jhumka |  | bell- or dome-shaped hanging earring, often with a fringe of small beads.
+- A3.2.2.01 | Ear cuff |  | piece that clips or wraps round the outer ear, usually without a piercing.
+- A3.2.2.02 | Ear climber |  | earring that runs up the edge of the ear from a lobe post.
+- A3.3.1.01 | Straight barbell |  | straight bar with an end at each side, for tongue, cartilage, nipple and similar piercings.
+- A3.3.1.02 | Curved barbell |  | bent bar with an end at each side, for brow, rook, daith and similar piercings.
+- A3.3.2.01 | Captive bead ring |  | ring held closed by a bead or ball captured between its ends by tension.
+- A3.3.3.01 | Labret stud |  | post with a flat disc back inside and a decorative end outside, for lip and cartilage piercings.
+- A3.3.3.02 | Nose stud (nose pin, nosepin) |  | small stud worn in a nostril piercing on an L-shape, screw, pin or bone post.
+- A3.3.3.03 | Nose ring |  | ring or hoop worn through a nostril or septum piercing.
+- A3.3.4.01 | Navel curve |  | curved barbell made for a navel piercing, usually with a larger or dangling lower end.
+- A3.3.5.01 | Plug |  | solid cylinder worn in a stretched piercing (double, single or no flare).
+- A3.3.5.02 | Tunnel |  | hollow cylinder worn in a stretched piercing.
+- A3.3.5.03 | Taper |  | tapered spike or crescent used to stretch a piercing or worn as ornament.
+- A3.4.1.01 | Beaded necklace |  | necklace of beads strung together, of glass, stone, wood or other material.
+- A3.4.1.02 | Collar necklace |  | flat, wide necklace that lies round the base of the neck and over the collarbone.
+- A3.4.1.03 | Pearl necklace |  | strand of pearls worn as a necklace.
+- A3.4.1.04 | Choker |  | necklace that fits closely round the neck.
+- A3.4.1.05 | Lariat |  | long necklace without a clasp, worn looped, knotted or threaded through itself.
+- A3.4.1.06 | Neck ring (torque) |  | rigid ring of metal worn round the neck, open or closed.
+- A3.4.1.07 | Mangalsutra |  | marriage necklace of black beads on a gold chain, usually with a pendant.
+- A3.4.2.01 | Chain |  | linked metal chain worn on its own as a necklace (the link pattern is an attribute).
+- A3.4.3.01 | Pendant |  | ornament hung from a bail on a chain or cord, sold on its own or with its chain.
+- A3.4.3.02 | Locket |  | pendant that opens to hold a picture or keepsake.
+- A3.4.3.03 | Charm |  | small ornament made to hang from a bracelet, chain or pendant loop.
+- A3.5.1.01 | Chain bracelet |  | bracelet of linked chain.
+- A3.5.1.02 | Tennis bracelet |  | flexible line of evenly set stones round the wrist.
+- A3.5.1.03 | Charm bracelet |  | bracelet made to carry hanging or threaded charms.
+- A3.5.1.04 | Cuff bracelet |  | rigid bracelet with an opening, slipped on over the side of the wrist.
+- A3.5.1.05 | Beaded bracelet |  | bracelet of strung beads or stones, stretch or clasped (power-stone bracelets included).
+- A3.5.2.01 | Bangle |  | rigid bracelet, closed or hinged, worn round the wrist (whatever a maker calls it).
+- A3.5.3.01 | Armlet |  | band or ornament worn round the upper arm.
+- A3.6.1.01 | Band ring |  | ring of uniform band, plain or set, without a raised head (wedding bands included).
+- A3.6.1.02 | Solitaire ring |  | ring set with a single prominent stone (engagement solitaires included).
+- A3.6.1.03 | Signet ring |  | ring with a flat face for an engraved crest, monogram or seal.
+- A3.6.1.04 | Stackable ring |  | slim ring made to be worn in a stack with others.
+- A3.6.1.05 | Thumb ring |  | ring made to be worn on the thumb.
+- A3.6.2.01 | Hand harness [haath phool] |  | ornament joining one or more finger rings by chains to a bracelet across the back of the hand.
+- A3.7.1.01 | Brooch |  | decorative ornament fixed to clothing by a hinged pin and catch.
+- A3.7.1.02 | Lapel pin |  | small pin with a post and clutch worn in a jacket lapel.
+- A3.7.1.03 | Pin badge |  | small badge, usually enamelled metal, pinned on as ornament (an identity badge is F5).
+- A3.7.1.04 | Patch |  | embroidered or woven patch sewn or ironed on as ornament.
+- A3.7.2.01 | Cufflink |  | ornament that fastens a shirt cuff through its buttonholes.
+- A3.7.2.02 | Tie clip |  | bar or clip that holds a tie to the shirt (tie bars and tie pins included).
+- A3.7.3.01 | Waist chain (belly chain) |  | chain or ornament worn round the waist or hips.
+- A3.8.1.01 | Anklet |  | chain or band worn round the ankle.
+- A3.8.1.02 | Toe ring |  | ring made to be worn on a toe.
+- A3.9.01 | Earring back |  | replacement back or stopper made for an earring post.
+- A3.9.02 | Chain extender |  | short chain with a clasp made to lengthen a necklace or bracelet.
+- A3.9.03 | Ring guard or sizer |  | insert or band fitted to a ring to make it smaller or keep it in place.
+- A3.1.2.02 | Stick-on bindi (face jewel) |  | decorative jewel or ornament stuck on the forehead or skin with adhesive, not fixed by chain, pin or piercing.
+- A3.3.1.03 | Surface bar |  | staple-shaped bar with two upturned ends, made for a surface piercing.
+- A3.3.2.02 | Hinged segment ring (clicker) |  | piercing ring closed by a hinged segment that clicks into place.
+- A3.3.2.03 | Circular barbell (horseshoe) |  | open ring-shaped bar with a threaded or pressed ball or end at each tip.
+- A3.3.5.04 | Ear hanger or weight |  | heavy hanging piece hooked through a stretched lobe, worn instead of a plug or tunnel.
+- A3.4.1.08 | Statement necklace (bib necklace) |  | necklace built of large fixed ornamental elements, stones or metalwork along its front, not hung from a bail and not a bead strand.
+- A3.4.1.09 | Tennis necklace (rivière) |  | flexible line of evenly set stones worn round the neck.
+- A3.7.1.05 | Hat pin |  | long ornamental pin with a decorative head, pushed through a hat to hold it to the hair.
+- A3.7.2.03 | Shirt stud (dress stud) |  | ornamental stud that fastens a formal shirt front or a detachable collar through its buttonholes (collar studs included).

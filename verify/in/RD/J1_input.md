@@ -1,0 +1,196 @@
+# J1 Meat & Poultry: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object: the animal for fresh meat, the product type for made meats
+- reason: Whole Foods and Crowd Cow open with species and REWE lists Wurst by product type; grades and breed then decide (Allen Brothers, Crowd Cow wagyu guide, Jamón ibérico).
+- ladder: What are you buying (animal or made product)? > Which cut or type? > What makes the best (grade, breed, feeding, cure)? > Who vouches? > The named best
+- level1_groups: P-J1-1 Beef & veal; P-J1-2 Pork; P-J1-3 Lamb & goat; P-J1-4 Chicken; P-J1-5 Turkey, duck & other poultry; P-J1-6 Game; P-J1-7 Ham, bacon & cured meats; P-J1-8 Sausages & salami; P-J1-9 Deli, cooked & tinned meats
+- quality_markers: beef: marbling and grade (USDA, JMGA/BMS); animal age; breed; feeding; ageing; pork: breed then farming; poultry: farming method and claims; ham: breed x feeding label, cure time, protected origin; sausages: named type, organic
+- quality_signals: USDA beef grades (USDA AMS); JMGA A5-A1 and BMS 1-12 (Japan Meat Grading Association); Hanwoo grades (memo); Ibérico colour labels (Spanish law, since 2014); DOP Guijuelo, Jabugo, Dehesa de Extremadura, Los Pedroches (EU); Kobe Beef (association); EU poultry farming terms; USDA Organic; Certified Humane; GAP Certified; No Antibiotics Ever claim
+- maker_role: none (confirm maker_roles.tsv; R-115 b exception: a ranch or ham house enters when a quality source names it)
+- side_view: wagyu by origin (prefecture) view from designation tags, as Crowd Cow does; no house tab
+- evidence_rows: Whole Foods Market Meat & Seafood (US); Crowd Cow shop (US); REWE Wurst range via supermarktcheck.de (DE); High Plains Journal beef grades 101 (US); Allen Brothers USDA grading guide (US); Crowd Cow wagyu grading guide (JP system); Reluctant Gourmet jamon iberico de bellota guide (ES); Wikipedia Jamón ibérico (ES)
+- maker role row: {'code': 'J1', 'scope': '*', 'role': 'none', 'provisional': 'yes', 'reason': 'grocery rule: breed, cut, grade and origin replace the maker; makers only through branded products (owner, 2026-10-24)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-J1-1 | Beef & veal | 1 |  | J1.1.1; J1.1.2; J1.1.2.02; J1.1.2.03
+- G-J1-11 | Beef steaks | 2 | G-J1-1 | J1.1.1.02; J1.1.1.03; J1.1.1.04; J1.1.1.05; J1.1.1.06; J1.1.1.07; J1.1.1.08; J1.1.1.09; J1.1.1.17; J1.1.1.18; J1.1.1.19
+- G-J1-12 | Roasting joints and primals | 2 | G-J1-1 | J1.1.1.01; J1.1.1.13; J1.1.1.20; J1.1.1.21; J1.1.1.22
+- G-J1-13 | Slow-cook cuts | 2 | G-J1-1 | J1.1.1.10; J1.1.1.11; J1.1.1.12; J1.1.1.23
+- G-J1-14 | Mince and burgers | 2 | G-J1-1 | J1.1.1.14; J1.1.1.15
+- G-J1-15 | Offal | 2 | G-J1-1 | J1.1.1.16; J1.1.2.01; J1.1.1.24; J1.1.1.25; J1.1.1.26
+- G-J1-2 | Pork | 1 |  | J1.1.3
+- G-J1-16 | Chops, steaks and roasting joints | 2 | G-J1-2 | J1.1.3.02; J1.1.3.03; J1.1.3.04; J1.1.3.09; J1.1.3.13; J1.1.3.14; J1.1.3.16
+- G-J1-17 | Belly, ribs and slow-cook cuts | 2 | G-J1-2 | J1.1.3.01; J1.1.3.05; J1.1.3.06; J1.1.3.07; J1.1.3.08; J1.1.3.12; J1.1.3.15
+- G-J1-18 | Mince and burgers | 2 | G-J1-2 | J1.1.3.10; J1.1.3.11
+- G-J1-3 | Lamb & goat | 1 |  | J1.1.4.01; J1.1.4.02; J1.1.4.03; J1.1.4.04; J1.1.5.01; J1.1.4.05; J1.1.4.06; J1.1.4.07; J1.1.5.02; J1.1.5.03; J1.1.5.04; J1.1.5.05; J1.1.5.06
+- G-J1-4 | Chicken | 1 |  | J1.1.6.01; J1.1.6.02; J1.1.6.03; J1.1.6.04
+- G-J1-5 | Turkey, duck & other poultry | 1 |  | J1.1.7.01; J1.1.8.01; J1.1.8.02; J1.1.8.03; J1.1.8.04; J1.1.8.05; J1.1.8.06
+- G-J1-6 | Game & other meats | 1 |  | J1.1.9; J1.1.10; J1.1.11; J1.1.12; J1.1.13; J1.1.14
+- G-J1-19 | Game birds | 2 | G-J1-6 | J1.1.9.01; J1.1.9.02; J1.1.9.03; J1.1.9.04; J1.1.9.05; J1.1.9.06; J1.1.9.07
+- G-J1-20 | Venison | 2 | G-J1-6 | J1.1.10.01; J1.1.10.02; J1.1.10.03; J1.1.10.04; J1.1.10.05; J1.1.10.06; J1.1.10.07; J1.1.10.08
+- G-J1-21 | Rabbit, hare and wild boar | 2 | G-J1-6 | J1.1.11.01; J1.1.11.02; J1.1.12.01; J1.1.11.03; J1.1.11.04
+- G-J1-22 | Other meats (horse, bison, frogs' legs, turtle, insects) | 2 | G-J1-6 | J1.1.13.01; J1.1.14.01; J1.1.14.02; J1.1.14.03; J1.1.14.04; J1.1.13.02; J1.1.13.03; J1.1.13.04; J1.1.13.05; J1.1.13.06; J1.1.14.05
+- G-J1-7 | Ham, bacon & cured meats | 1 |  | J1.2
+- G-J1-23 | Dry-cured ham and cured pieces | 2 | G-J1-7 | J1.2.1.01; J1.2.1.02; J1.2.1.03; J1.2.1.04; J1.2.1.06; J1.2.1.08; J1.2.1.09
+- G-J1-24 | Bacon and pancetta | 2 | G-J1-7 | J1.2.1.05; J1.2.1.07
+- G-J1-25 | Cooked ham, pastrami and corned beef | 2 | G-J1-7 | J1.2.2.01; J1.2.2.02; J1.2.2.03; J1.2.2.04
+- G-J1-26 | Jerky, cured fat, pickled and mixed cured meats | 2 | G-J1-7 | J1.2.3.01; J1.2.4.01; J1.2.5.01; J1.2.0.01
+- G-J1-8 | Sausages & salami | 1 |  | J1.3.1.01; J1.3.2.01; J1.3.2.02; J1.3.2.03; J1.3.3.01; J1.3.3.02; J1.3.4.01; J1.3.0.01; J1.3.3.03; J1.3.4.02; J1.3.4.03
+- G-J1-9 | Deli, cooked & tinned meats | 1 |  | J1.4.03; J1.4.04; J1.4.05; J1.4.06; J1.4.07; J1.4.08; J1.4.09; J1.4.01; J1.4.02; J1.4.10
+- G-J1-10 | Mixed meat boxes | 1 |  | J1.1.0.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-J1-1 | marbling and USDA quality grade | USDA Prime > USDA Choice > USDA Select > Standard > Commercial > Utility > Cutter > Canner | USDA grade rests on marbling and maturity; Prime is rare, mostly at specialist counters. | Allen Brothers USDA grading guide (US); High Plains Journal beef grades 101 (US)
+- G-J1-1 | JMGA grade and BMS (wagyu) | A5 > A4 > A3 > A2 > A1 | Quality number is the lowest of four sub-scores; A5 needs BMS 8-12. | Crowd Cow wagyu grading guide (JP system)
+- G-J1-1 | breed |  | Wagyu, Angus and heritage breeds lead premium shops; wagyu label alone is not top grade. | Crowd Cow shop (US); High Plains Journal beef grades 101 (US)
+- G-J1-1 | feeding |  | Grass-fed, grain-finished and pasture-raised are the first premium filters. | Crowd Cow shop (US); Whole Foods Market Meat & Seafood (US)
+- G-J1-1 | animal age (maturity) |  | Younger carcasses grade higher at equal marbling in the USDA system. | High Plains Journal beef grades 101 (US); Allen Brothers USDA grading guide (US)
+- G-J1-2 | breed |  | Pork is sold by breed: Heritage, Ibérico, Mangalitsa. | Crowd Cow shop (US)
+- G-J1-2 | farming and production claims |  | Pasture-raised, organic, no antibiotics and humane labels sit on labels, not levels. | Whole Foods Market Meat & Seafood (US)
+- G-J1-4 | farming method and production claims |  | Organic, Certified Humane, GAP and no-antibiotics claims are the buyer signals for poultry. | Whole Foods Market Meat & Seafood (US)
+- G-J1-7 | Ibérico colour label (breed x feeding) | Black (100% ibérico de bellota) > Red (ibérico de bellota) > Green (cebo de campo) > White (cebo) | Official ham tier combining breed percentage and acorn diet; pata negra only black. | Wikipedia Jamón ibérico (ES); Reluctant Gourmet jamon iberico de bellota guide (ES)
+- G-J1-7 | cure time | 36 months or more > 24 months | Longer cure marks the top hams; time is part of the label rules. | Wikipedia Jamón ibérico (ES); Reluctant Gourmet jamon iberico de bellota guide (ES)
+- G-J1-7 | protected origin |  | DOP Guijuelo, Jabugo, Dehesa de Extremadura, Los Pedroches name the dehesa regions; unranked. | Wikipedia Jamón ibérico (ES); Reluctant Gourmet jamon iberico de bellota guide (ES)
+- G-J1-8 | product type and organic |  | Wurst is chosen by named type; Bio is the main quality filter, brand a filter. | REWE Wurst range via supermarktcheck.de (DE)
+
+## Kinds (kind_id | stored name | native name | definition)
+- J1.1.1.01 | Chuck roast |  | beef roasting or braising joint from the chuck (shoulder).
+- J1.1.1.02 | Flat iron steak |  | beef steak cut from the top blade muscle of the chuck.
+- J1.1.1.03 | Ribeye steak |  | beef steak cut from the rib section, bone-in or boneless.
+- J1.1.1.04 | Striploin steak |  | beef steak cut from the short loin (strip loin).
+- J1.1.1.05 | Tenderloin |  | the beef tenderloin (fillet), whole or cut into steaks.
+- J1.1.1.06 | T-bone / porterhouse steak |  | bone-in beef steak from the short loin holding both striploin and tenderloin across a T-shaped bone.
+- J1.1.1.07 | Top sirloin steak |  | beef steak cut from the top sirloin (rump side of the loin).
+- J1.1.1.08 | Rump cap (picanha) |  | the beef rump cap muscle with its fat cap, whole or sliced.
+- J1.1.1.09 | Skirt steak |  | beef steak cut from the diaphragm muscles (outer or inner skirt).
+- J1.1.1.10 | Short rib |  | beef rib section cut short across or along the bones.
+- J1.1.1.11 | Brisket |  | beef joint from the breast, whole or as point or flat.
+- J1.1.1.12 | Shin / shank |  | beef cut from the lower leg, on or off the bone.
+- J1.1.1.13 | Beef primal or side |  | beef sold as a primal (chuck, rib, loin, round, flank, plate, brisket, shank), side or carcass.
+- J1.1.1.14 | Ground beef |  | raw minced beef sold loose or packed.
+- J1.1.1.15 | Shaped raw mince, beef (burgers, meatballs) |  | raw minced beef shaped into burgers, meatballs or similar, plain or only seasoned.
+- J1.1.1.16 | Beef tongue |  | the tongue of cattle, sold raw.
+- J1.1.2.01 | Sweetbreads |  | the thymus or pancreas glands of a calf, sold raw (the animal is not stated on the fetched page; veal assumed).
+- J1.1.3.01 | Pork jowl |  | the cheek and jowl of a pig, sold raw.
+- J1.1.3.02 | Pork collar |  | pork cut from the neck and upper shoulder (collar, Boston butt).
+- J1.1.3.03 | Pork loin chop |  | pork chop cut across the loin, bone-in or boneless.
+- J1.1.3.04 | Pork tenderloin |  | the pork tenderloin (fillet), whole or in medallions.
+- J1.1.3.05 | Pork ribs |  | pork rib sections (spare ribs, baby back ribs), sold raw.
+- J1.1.3.06 | Pork belly |  | raw, uncured pork belly, skin-on or skinless.
+- J1.1.3.07 | Pork hock |  | the lower leg joint of a pig above the trotter, sold raw.
+- J1.1.3.08 | Pork trotter |  | the foot of a pig, sold raw.
+- J1.1.3.09 | Suckling pig |  | a whole milk-fed young pig, sold whole.
+- J1.1.3.10 | Ground pork |  | raw minced pork sold loose or packed.
+- J1.1.3.11 | Shaped raw mince, pork (burgers, meatballs) |  | raw minced pork shaped into burgers, meatballs or similar, plain or only seasoned.
+- J1.1.4.01 | Lamb rack |  | the rib section of a lamb with its chops joined, sold raw.
+- J1.1.4.02 | Lamb leg |  | the hind leg of a lamb, whole or part, on or off the bone.
+- J1.1.4.03 | Lamb, whole or jointed |  | lamb or mutton sold whole or as any cut not yet a kind (the cut is the attribute `cut`).
+- J1.1.4.04 | Suckling lamb |  | a whole milk-fed young lamb, sold whole.
+- J1.1.5.01 | Goat, whole or jointed |  | goat meat sold whole or as any cut (the cut is the attribute `cut`).
+- J1.1.6.01 | Whole chicken |  | a whole dressed chicken carcass, including poussin and capon.
+- J1.1.6.02 | Chicken breast |  | the breast meat of a chicken, on or off the bone, skin-on or skinless.
+- J1.1.6.03 | Chicken leg |  | the leg of a chicken (thigh and drumstick together or apart).
+- J1.1.7.01 | Turkey, whole or jointed |  | turkey sold whole or as any cut (the cut is the attribute `cut`).
+- J1.1.8.01 | Duck breast |  | the breast of a duck, skin-on, sold raw.
+- J1.1.8.02 | Whole duck |  | a whole dressed duck carcass.
+- J1.1.8.03 | Fatty liver (foie gras) |  | the enlarged liver of a duck or goose, sold raw.
+- J1.1.9.01 | Pheasant, whole or jointed |  | pheasant sold whole or as any cut (the cut is the attribute `cut`).
+- J1.1.9.02 | Partridge, whole or jointed |  | partridge sold whole or as any cut (the cut is the attribute `cut`).
+- J1.1.10.01 | Venison saddle |  | the saddle (loin section) of a deer, on or off the bone.
+- J1.1.10.02 | Venison medallions |  | round slices cut from the venison loin.
+- J1.1.10.03 | Venison, whole or jointed |  | venison sold whole or as any cut not yet a kind (the cut is the attribute `cut`).
+- J1.1.11.01 | Rabbit, whole or jointed |  | rabbit sold whole or as any cut (the cut is the attribute `cut`).
+- J1.1.11.02 | Hare, whole or jointed |  | hare sold whole or as any cut (the cut is the attribute `cut`).
+- J1.1.12.01 | Wild boar, whole or jointed |  | wild boar sold whole or as any cut (the cut is the attribute `cut`; wild or farmed is an attribute).
+- J1.1.13.01 | Horse meat, whole or jointed |  | horse meat sold whole or as any cut, including raw slices for eating raw (the cut is the attribute `cut`).
+- J1.1.14.01 | Bison, whole or jointed |  | bison sold whole or as any cut (the cut is the attribute `cut`).
+- J1.1.14.02 | Frogs' legs |  | the hind legs of edible frogs, sold raw or frozen.
+- J1.1.14.03 | Turtle meat |  | the meat of turtles sold to eat.
+- J1.1.14.04 | Edible insects |  | crickets, mealworms and other insects sold to eat, fresh, frozen, dried or roasted (attribute `storage_state`; K-47).
+- J1.1.0.01 | Mixed fresh meats |  | a pack of raw meats of several J1.1 kinds, none of which makes up half or more of its weight.
+- J1.2.1.01 | Dry-cured ham, bone-in leg |  | the hind leg of a pig, salted and air-dried raw, sold whole or sliced.
+- J1.2.1.06 | Cured pork jowl (guanciale) |  | pork jowl salted and air-dried raw.
+- J1.2.1.02 | Cured pork neck |  | the pork neck (collar) salted and air-dried raw, sold whole or sliced (coppa).
+- J1.2.1.03 | Cured pork shoulder |  | the front leg of a pig salted and air-dried raw (paleta).
+- J1.2.1.04 | Cured pork loin |  | the pork loin salted, seasoned and air-dried raw in a casing or net (lomo).
+- J1.2.1.05 | Bacon |  | cured pork belly, back or loin sold in rashers or a piece to be cooked, smoked or unsmoked.
+- J1.2.1.07 | Cured pork belly (pancetta) |  | pork belly salted and air-dried raw, eaten without cooking or used in cooking (not the fresh Spanish panceta).
+- J1.2.1.08 | Cured beef (bresaola, cecina) |  | a beef whole muscle salted and air-dried raw.
+- J1.2.2.01 | Cooked ham |  | pork leg cured then cooked, sold whole or sliced, bone-in or boneless, glazed or plain.
+- J1.2.2.02 | Pastrami |  | beef cured, seasoned, smoked and cooked, sold as a piece or sliced.
+- J1.2.2.03 | Corned beef brisket |  | beef brine-cured and cooked, usually brisket, also silverside (salt beef) or another cut, sold as a piece or sliced.
+- J1.2.3.01 | Dried meat strips (jerky, biltong) |  | strips or slabs of meat seasoned and dried, sold to eat as they are.
+- J1.2.4.01 | Cured back fat (lardo, salo) |  | pork back fat cured with salt and seasoning, not rendered.
+- J1.2.5.01 | Pickled or fermented meat (pickled chicken feet, nem) |  | meat preserved by pickling in vinegar or brine, or by lactic fermentation, outside a sausage casing.
+- J1.2.0.01 | Mixed cured meats |  | a pack of cured meats of several J1.2 kinds, none of which makes up half or more of its weight.
+- J1.3.1.01 | Fresh pork sausage |  | raw seasoned minced pork in a casing, sold to be cooked.
+- J1.3.2.01 | Dry-cured salami |  | fermented, air-dried sausage of chopped meat and fat, eaten without cooking.
+- J1.3.2.02 | Paprika dry-cured sausage (chorizo) |  | dry-cured sausage seasoned with paprika.
+- J1.3.2.03 | Spreadable dry-cured sausage ('nduja) |  | soft, spreadable fermented pork sausage with chilli, sold in a casing (a jar of spread is J5).
+- J1.3.3.01 | Frankfurter / wiener |  | thin scalded sausage of finely emulsified meat, usually smoked, heated or eaten cold.
+- J1.3.3.02 | Large emulsified scalded sausage (mortadella) |  | large-calibre scalded sausage of finely emulsified meat, often with cubes of fat, sold for slicing.
+- J1.3.4.01 | Liver sausage |  | cooked sausage made mainly of liver and meat, sliced or spread from the casing.
+- J1.3.0.01 | Mixed sausages |  | a pack of sausages of several J1.3 kinds, none of which makes up half or more of its weight.
+- J1.4.03 | Plain-cooked whole bird (rotisserie chicken) |  | a whole bird roasted or cooked plain or only seasoned, sold ready to eat.
+- J1.4.04 | Plain-cooked sliced meat (roast beef, roast turkey) |  | a cut roasted or cooked plain or only seasoned, sold whole or sliced to eat cold (porchetta a named form).
+- J1.4.05 | Plain-cooked shaped mince (cooked meatball, patty, meat loaf) |  | minced meat of one animal shaped and cooked, plain or only seasoned, not coated, filled or sauced.
+- J1.4.06 | Corned beef in a tin |  | cured, cooked beef sealed and cooked in its tin.
+- J1.4.07 | Luncheon meat |  | cured, seasoned minced meat formed into a block and cooked in a sealed tin.
+- J1.4.08 | Confit |  | meat (duck, goose, pork) cooked slowly and preserved in its own fat, in a tin, jar or pot.
+- J1.4.09 | Head cheese (brawn) |  | pieces of head meat set in their own jelly, sold as a loaf or slice.
+- J1.4.01 | Pâté (loaf or slice) |  | a cooked, finely or coarsely ground meat mixture sold as a loaf or slice to be cut (a spread in a jar or tub is J5).
+- J1.4.02 | Terrine |  | a cooked meat preparation set in a terrine mould, sold whole or sliced (duck, game, poultry terrine).
+- J1.4.10 | Mixed cooked meats |  | a pack of cooked meats of several J1.4 kinds, none of which makes up half or more of its weight (final kind, K-46; J1.4 has no leaf, so it takes the sub-family's next number).
+- J1.1.1.17 | Flank steak |  | beef steak cut from the flank, the abdominal muscle behind the plate.
+- J1.1.1.19 | Tri-tip |  | triangular beef roast or steak from the bottom sirloin.
+- J1.1.1.20 | Rib roast (standing rib, prime rib) |  | beef roasting joint from the rib section, bone-in or boneless.
+- J1.1.1.21 | Eye of round |  | lean cylindrical beef roast from the round (hindquarter).
+- J1.1.1.22 | Top round (topside) |  | beef roasting joint or steak from the inside of the round.
+- J1.1.1.23 | Oxtail |  | the tail of cattle, sold raw in sections to braise.
+- J1.1.1.24 | Beef liver |  | the liver of cattle, sold raw.
+- J1.1.1.25 | Beef heart |  | the heart of cattle, sold raw.
+- J1.1.1.26 | Beef kidney |  | the kidney of cattle, sold raw.
+- J1.1.2.02 | Veal chop |  | veal chop cut from the rib or loin, bone-in.
+- J1.1.2.03 | Veal flank |  | veal cut from the flank, sold as a steak or to roll.
+- J1.1.3.12 | Pork shoulder joint (picnic) |  | the front leg and lower shoulder of a pig (picnic, arm) or the whole shoulder as one joint; the collar alone is J1.1.3.02.
+- J1.1.3.13 | Pork loin joint |  | boneless or bone-in pork loin roasting joint; chops cut across it are J1.1.3.03.
+- J1.1.3.14 | Pork leg (fresh ham) |  | the raw, uncured hind leg of a pig, whole or as a joint.
+- J1.1.3.15 | Pork stomach (maw) |  | the stomach of a pig, sold raw.
+- J1.1.4.05 | Lamb chops |  | lamb chops cut from the loin or rib, bone-in.
+- J1.1.4.06 | Lamb shoulder |  | the shoulder of a lamb, whole or part, on or off the bone.
+- J1.1.4.07 | Lamb shank |  | the lower leg of a lamb, sold raw to braise.
+- J1.1.6.04 | Chicken wings |  | the wings of a chicken, whole or as flats and drumettes, sold raw.
+- J1.1.8.04 | Duck leg |  | the leg of a duck, sold raw.
+- J1.1.8.05 | Goose, whole or jointed |  | goose sold whole or as any cut (the cut is the attribute `cut`).
+- J1.1.9.03 | Quail, whole or jointed |  | quail sold whole, spatchcocked or boned (the cut is the attribute `cut`).
+- J1.1.9.04 | Guinea fowl, whole or jointed |  | guinea fowl sold whole or as any cut (the cut is the attribute `cut`).
+- J1.1.9.05 | Grouse, whole or jointed |  | grouse sold whole or as any cut (the cut is the attribute `cut`).
+- J1.1.9.07 | Wild duck, whole or jointed |  | wild duck (mallard, teal, wigeon) sold whole or as any cut (the cut is the attribute `cut`).
+- J1.3.4.02 | Blood sausage [black pudding; Blutwurst; morcilla] |  | cooked sausage made mainly of blood with fat, grain or meat, sliced or heated to eat.
+- J1.2.1.09 | Gammon |  | pork hind leg wet- or dry-cured and sold raw as a joint or steaks to be cooked.
+- J1.2.2.04 | Cooked cured tongue |  | ox or pork tongue brined, cooked and pressed, sold whole or sliced.
+- J1.1.1.18 | Hanger steak |  | beef steak from the hanging tender of the diaphragm (onglet).
+- J1.1.9.06 | Wood pigeon, whole or jointed |  | wood pigeon or squab sold whole or as breasts (the cut is the attribute `cut`).
+- J1.1.14.05 | Squirrel |  | squirrel meat sold whole or jointed to eat.
+- J1.1.3.16 | Pork primal or side |  | pork sold as a primal (shoulder, loin, leg, belly), side or carcass.
+- J1.1.5.02 | Goat chops |  | goat chops cut from the rib or loin, bone-in.
+- J1.1.5.03 | Goat shank |  | the lower leg of a goat, sold raw to braise.
+- J1.1.5.04 | Goat leg |  | the hind leg of a goat, whole or part, on or off the bone.
+- J1.1.5.05 | Ground goat |  | raw minced goat meat sold loose or packed.
+- J1.1.5.06 | Shaped raw mince, goat (burgers) |  | raw minced goat shaped into burgers or similar, plain or only seasoned.
+- J1.1.8.06 | Ground duck |  | raw minced duck meat sold loose or packed.
+- J1.1.10.04 | Venison haunch |  | the hind leg of a deer, whole or as a roasting joint or steaks, on or off the bone.
+- J1.1.10.05 | Venison fillet (tenderloin) |  | the tenderloin of a deer, whole or cut into steaks.
+- J1.1.10.06 | Venison rack |  | the rib section of a deer with its chops joined, sold raw.
+- J1.1.10.07 | Ground venison |  | raw minced venison sold loose or packed.
+- J1.1.10.08 | Shaped raw mince, venison (burgers) |  | raw minced venison shaped into burgers, meatballs or similar, plain or only seasoned.
+- J1.1.11.03 | Rabbit saddle |  | the loin section of a rabbit, on or off the bone, sold raw.
+- J1.1.11.04 | Rabbit leg |  | the hind or front legs of a rabbit, sold raw.
+- J1.1.13.02 | Horse ribeye steak |  | horse steak cut from the rib section.
+- J1.1.13.03 | Horse tenderloin |  | the tenderloin of a horse, whole or cut into steaks.
+- J1.1.13.04 | Horse sirloin steak |  | horse steak cut from the sirloin (loin).
+- J1.1.13.05 | Horse flank steak |  | horse steak cut from the flank.
+- J1.1.13.06 | Ground horse meat |  | raw minced horse meat sold loose or packed.
+- J1.3.3.03 | Smoked scalded sausage (kielbasa) |  | coarse or medium-ground scalded sausage, smoked, sold in links or rings to heat or slice.
+- J1.3.4.03 | White pudding |  | cooked sausage of pork, fat and oatmeal or other grain, without blood, sliced or heated to eat.

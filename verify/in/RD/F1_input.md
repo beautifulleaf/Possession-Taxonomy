@@ -1,0 +1,145 @@
+# F1 Media & Publications: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (the carrier and format: books, comics, periodicals, printed music, maps and globes, records, tapes, audio discs, film and video); provisional
+- reason: The specialist shops open on the carrier and its pressing or binding (Acoustic Sounds vinyl by weight, speed and pressing; AbeBooks splits comics, magazines, maps, sheet music and fine bindings as their own carriers; Hugendubel opens on its product lines, Buecher, eBooks, Hoerbuecher, before genre), while the shops that lead with genre (Tower Records Japan; Disk Union; Hugendubel's genre menu) are using an axis BRIEF bars from dividing F1, so carrier leads, as the memo decided (Candidate A); provisional because Waterstones, Fnac, HMV, Amazon and Discogs were blocked.
+- ladder: What are you buying (books, comics, records, discs, maps)? > Which format (hardback or paperback; microgroove record, CD or SACD; DVD, Blu-ray or Ultra HD Blu-ray)? > Which edition or pressing is the best (first edition, fine binding, premium comic line; 180 g, 45 rpm, all-analog or D2D mastering, Japanese pressing), then condition, graded on its scale
+- level1_groups: Books; Comics and manga; Magazines, newspapers and zines; Sheet music; Maps, atlases and globes; Vinyl and other records; Cassettes and tapes; CDs and other audio discs; Films and video (tape, disc, film print); Sleeves, jackets and cases for one item
+- quality_markers: Collectible books (Sotheby's order): importance of the work and first books (title-level, out of scope: shown only as context) > edition and printing (first edition, first printing > later printing; attribute) > condition (book condition scale, registry link) > contemporary binding > completeness (plates, maps, dust jacket) > provenance and association (one copy's facts, never stored, C16) > quality of printing > quality of binding (fine binding, fine press; attribute values) > illustration > rarity; New books: binding class (hardback > trade paperback > mass-market, as paper_class and binding values) and language; Records (Acoustic Sounds; Jazz Collector): mastering and source (D2D and all-analog, UHQR, audiophile reissue label) > pressing plant > weight (200 g, 180 g > 140-150 g) > speed (45 rpm audiophile cut over 33 1/3) > sealed or out of print, low serial number (one copy's facts, not stored) > condition of disc and of jacket, each on the Goldmine ladder M > NM > VG+ > VG > G/G+ > F/P; CDs and audio discs: format spec as measured attribute (SACD and DVD-Audio > HDCD > CD 16-bit/44.1 kHz) and pressing material (SHM-CD, Blu-spec CD2, HQCD; Tower) > domestic or import pressing (tag) > condition; Video discs: resolution format as attribute (Ultra HD Blu-ray > Blu-ray > DVD; provisional, no fetched spec page) > packaging (Steelbook, attribute) > region code; Comics: edition ladder from the memo (premium large format > omnibus > hardcover > trade > single issue, CBR S12, tier entries on lines) > condition
+- quality_signals: Goldmine Grading Guide (Goldmine magazine): record condition scale M > NM > VG+ > VG > G/G+ > F/P, disc and jacket graded separately; C16 registry row, scale_type condition grade, kinds served F1.3.1 (Jazz Collector says dealers disagree and Mint is rarely used); Disk Union used grade S (sealed) > A (near mint) > B+ > B > C, with NM/EX/VG/G plus or minus: shop scale, C16 registry row scale_type platform label; Quality Record Pressings and audiophile reissue labels (Analogue Productions, Mobile Fidelity) as maker rows (record label; pressing plant) whose maker-bound named forms can carry an editorial tier entry (class iii) once a fetched page ranks them; Acoustic Sounds badges as a dated platform_tag (class vi), never a tier; CBR premium comics lines as editorial tier entries on lines (memo F-9); ABAA and ILAB membership of sellers (trust badge on the seller, recorded as a note on the source, not a tier on any object); bestseller lists (Hugendubel, #BookTok) rank titles, which F1 does not store, so no tier entries; book condition scale (Fine to Poor) owed: not fetched, registry row waits
+- maker_role: owner (confirm; maker_roles.tsv F1): publishers, imprints, labels, cartographic houses and globe makers enter through lines and named forms
+- side_view: Labels and imprints tab for edition-makers whom shoppers seek by name (Acoustic Sounds 'Shop Labels' and 'Brands': Analogue Productions, Mobile Fidelity; premium book and comics lines), plus three generated views: audiophile pressings (weight, speed, mastering), collectible books (first edition, signed, fine binding, fine press: AbeBooks collections) and Japanese formats (bunko, tankobon, SHM-CD)
+- evidence_rows: AbeBooks collections browse; Acoustic Sounds vinyl; Jazz Collector record grading; Sotheby's 10 things that make books valuable; Hugendubel Bücher (Germany); Tower Records Japan; Disk Union used shop (Japan); The Audio Keeper turntable guide (D3, not used for F1)
+- maker role row: {'code': 'F1', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'publishers and labels through editions and formats'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-F1-1 | Books | 1 |  | F1.1.1.01; F1.1.1.02; F1.1.1.03; F1.1.1.04; F1.1.1.05; F1.1.1.06; F1.1.1.07; F1.1.1.08; F1.1.1.09; F1.1.1.10; F1.1.1.11
+- G-F1-2 | Comics and manga | 1 |  | F1.1.2.01; F1.1.2.02; F1.1.2.03; F1.1.2.04; F1.1.2.05; F1.1.2.06
+- G-F1-3 | Magazines, newspapers and zines | 1 |  | F1.1.3.01; F1.1.3.02; F1.1.3.03; F1.1.3.04; F1.1.3.05
+- G-F1-4 | Sheet music | 1 |  | F1.1.4.01; F1.1.4.02; F1.1.4.03; F1.1.4.04; F1.1.4.05; F1.1.4.06; F1.1.4.07; F1.1.4.08; F1.1.4.09
+- G-F1-5 | Maps, atlases and globes | 1 |  | F1.2
+- G-F1-11 | Maps | 2 | G-F1-5 | F1.2.1.01; F1.2.1.02; F1.2.1.03; F1.2.1.04
+- G-F1-12 | Atlases | 2 | G-F1-5 | F1.2.2.01; F1.2.2.02
+- G-F1-13 | Globes | 2 | G-F1-5 | F1.2.3.01; F1.2.3.02; F1.2.3.03
+- G-F1-6 | Vinyl and other records | 1 |  | F1.3.1.01; F1.3.1.02; F1.3.1.03; F1.3.1.04; F1.3.1.06; F1.3.1.07; F1.3.1.05
+- G-F1-7 | Cassettes and tapes | 1 |  | F1.3.2.01; F1.3.2.02
+- G-F1-8 | CDs and other audio discs | 1 |  | F1.3.3.01; F1.3.3.02; F1.3.3.03; F1.3.3.04; F1.3.3.05; F1.3.4.01
+- G-F1-9 | Films and video (tape, disc, film print) | 1 |  | F1.4
+- G-F1-14 | Video discs | 2 | G-F1-9 | F1.4.2.01; F1.4.2.02; F1.4.2.03; F1.4.2.04
+- G-F1-15 | Videotape | 2 | G-F1-9 | F1.4.1.01; F1.4.1.02; F1.4.1.03; F1.4.1.04; F1.4.1.05
+- G-F1-16 | Film prints | 2 | G-F1-9 | F1.4.3.01; F1.4.3.02; F1.4.3.03; F1.4.3.04
+- G-F1-10 | Sleeves, jackets and cases for one item | 1 |  | F1.5
+- G-F1-17 | For books | 2 | G-F1-10 | F1.5.1.01; F1.5.1.02; F1.5.1.03; F1.5.1.04
+- G-F1-18 | For comics | 2 | G-F1-10 | F1.5.2.01; F1.5.2.02
+- G-F1-19 | For records | 2 | G-F1-10 | F1.5.3.01; F1.5.3.02
+- G-F1-20 | For discs | 2 | G-F1-10 | F1.5.4.01
+- G-F1-21 | For globes | 2 | G-F1-10 | F1.5.5.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-F1-1 | importance of the work (collectible books) |  | Title-level, out of scope: shown only as context. | proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+- G-F1-1 | edition and printing (collectible books) | first edition, first printing > later printing | Stored as an attribute. | proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+- G-F1-1 | condition (collectible books) | book condition scale | Graded on the scale, linked to the registry. | proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+- G-F1-1 | contemporary binding (collectible books) |  | After condition. | proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+- G-F1-1 | completeness (collectible books) |  | Plates, maps, dust jacket. | proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+- G-F1-1 | provenance and association (collectible books) |  | One copy's facts, never stored (C16). | proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+- G-F1-1 | quality of printing (collectible books) |  | After provenance. | proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+- G-F1-1 | quality of binding (collectible books) | fine binding, fine press (attribute values) | After printing. | proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+- G-F1-1 | illustration (collectible books) |  | After binding. | proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+- G-F1-1 | rarity (collectible books) |  | Weighed last. | proposals.tsv F1 row (quality_markers); Sotheby's 10 things that make books valuable
+- G-F1-1 | binding class (new books) | hardback > trade paperback > mass-market | Stored as paper_class and binding values. | proposals.tsv F1 row (quality_markers); Hugendubel Bücher (Germany)
+- G-F1-1 | language (new books) |  | A choice, no ladder. | proposals.tsv F1 row (quality_markers); Hugendubel Bücher (Germany)
+- G-F1-2 | edition | premium large format > omnibus > hardcover > trade > single issue | Memo edition ladder (CBR S12); tier entries on lines. | proposals.tsv F1 row (quality_markers); memo F1
+- G-F1-2 | condition |  | After edition. | proposals.tsv F1 row (quality_markers)
+- G-F1-6 | mastering and source | D2D and all-analog, UHQR, audiophile reissue label | First for records. | proposals.tsv F1 row (quality_markers); Acoustic Sounds vinyl
+- G-F1-6 | pressing plant |  | Second. | proposals.tsv F1 row (quality_markers); Acoustic Sounds vinyl
+- G-F1-6 | weight | 200 g, 180 g > 140-150 g | Third. | proposals.tsv F1 row (quality_markers); Acoustic Sounds vinyl
+- G-F1-6 | speed | 45 rpm audiophile cut > 33 1/3 rpm | Fourth. | proposals.tsv F1 row (quality_markers); Acoustic Sounds vinyl
+- G-F1-6 | sealed, out of print, low serial number |  | One copy's facts, not stored. | proposals.tsv F1 row (quality_markers); Acoustic Sounds vinyl
+- G-F1-6 | condition of disc and of jacket | M > NM > VG+ > VG > G/G+ > F/P (Goldmine) | Disc and jacket graded separately. | proposals.tsv F1 row (quality_markers); Jazz Collector record grading
+- G-F1-8 | format spec | SACD and DVD-Audio > HDCD > CD 16-bit/44.1 kHz | A measured attribute. | proposals.tsv F1 row (quality_markers); Tower Records Japan
+- G-F1-8 | pressing material | SHM-CD, Blu-spec CD2, HQCD | With the format spec. | proposals.tsv F1 row (quality_markers); Tower Records Japan
+- G-F1-8 | domestic or import pressing |  | A tag. | proposals.tsv F1 row (quality_markers); Tower Records Japan; Disk Union used shop (Japan)
+- G-F1-8 | condition |  | Weighed last. | proposals.tsv F1 row (quality_markers); Disk Union used shop (Japan)
+- G-F1-14 | resolution format | Ultra HD Blu-ray > Blu-ray > DVD | An attribute; provisional, no fetched spec page. | proposals.tsv F1 row (quality_markers)
+- G-F1-14 | packaging |  | Steelbook as an attribute. | proposals.tsv F1 row (quality_markers)
+- G-F1-14 | region code |  | Weighed last. | proposals.tsv F1 row (quality_markers)
+
+## Kinds (kind_id | stored name | native name | definition)
+- F1.3.1.01 | Microgroove record |  | vinyl disc with fine grooves played with a microgroove stylus at 33 1/3, 45 or another speed (LP, EP, single); `diameter`, `speed`, `release_type`, `weight_g` and `mastering` are attributes.
+- F1.3.1.02 | Coarse-groove (78 rpm) record |  | shellac or early disc with wide grooves played at about 78 rpm with a coarse stylus (memo † on the term 'coarse-groove' only; the 78 rpm shellac disc is attested).
+- F1.3.1.03 | Flexi-disc |  | thin flexible vinyl sheet record, often bound into magazines.
+- F1.3.1.04 | Instantaneous disc, acetate or lathe cut |  | disc cut one at a time on a recording lathe, as an acetate or lacquer, not pressed.
+- F1.3.1.06 | Cylinder record |  | sound recorded in the groove of a cylinder (wax or celluloid) for a phonograph.
+- F1.3.2.01 | Compact cassette |  | audio tape in the standard two-hub compact cassette shell, pre-recorded or blank; `tape_type` is an attribute.
+- F1.3.2.02 | Microcassette family |  | audio tape in a cassette smaller than the compact cassette (microcassette, minicassette, picocassette; label_source: memo).
+- F1.3.3.01 | Compact disc, 12 cm |  | 12 cm optical disc in the Compact Disc Digital Audio system (16-bit, 44.1 kHz), audiobook CDs included; `encoding` (HDCD) and `pressing_material` (SHM-CD, Blu-spec CD2, HQCD) are attributes.
+- F1.3.3.02 | SACD |  | Super Audio CD carrying DSD audio, single-layer or hybrid with a CD layer; `hybrid` is an attribute.
+- F1.3.3.03 | DVD-Audio |  | DVD-format disc carrying high-resolution audio (up to 24-bit/192 kHz).
+- F1.3.3.04 | Mini-CD, 3 inch |  | 8 cm compact disc needing a tray recess or adapter (provisional under F-6: if no seller lists it apart, it is F1.3.3.01 with `diameter` 3 in).
+- F1.3.4.01 | Pre-recorded digital audio player |  | self-contained device sold with one work (usually an audiobook) fixed on it and able to play only that work (Playaway type; ONIX AK).
+- F1.4.1.01 | VHS cassette |  | video recording on half-inch tape in a VHS cassette.
+- F1.4.1.02 | Betamax cassette |  | video recording on half-inch tape in a Betamax cassette.
+- F1.4.2.01 | LaserDisc |  | 30 cm (or 20 cm) optical disc carrying analogue video.
+- F1.4.2.02 | DVD |  | 12 cm optical disc carrying standard-definition digital video.
+- F1.4.2.03 | Blu-ray |  | 12 cm optical disc in the Blu-ray system carrying high-definition video.
+- F1.4.2.04 | Ultra HD Blu-ray |  | 12 cm optical disc in the Ultra HD Blu-ray system, listed apart from Blu-ray.
+- F1.4.3.01 | 35 mm print |  | commercially released film print on 35 mm stock.
+- F1.4.3.02 | 16 mm print |  | commercially released film print on 16 mm stock.
+- F1.4.3.03 | Super 8 print |  | commercially released film print on Super 8 stock.
+- F1.5.1.01 | Dust jacket sold alone |  | loose paper wrapper made to cover one hardback book, sold apart from the book.
+- F1.5.1.02 | Slipcase |  | open-ended box made to hold and protect one book or one set issued together.
+- F1.5.2.01 | Comic bag |  | clear plastic bag sized to hold one comic issue.
+- F1.5.2.02 | Backing board |  | stiff board placed behind one comic in its bag to keep it flat.
+- F1.5.3.01 | Record inner sleeve |  | paper or poly sleeve that holds one record disc inside its jacket.
+- F1.5.3.02 | Record outer sleeve |  | clear protective sleeve made to cover one record jacket.
+- F1.5.4.01 | CD jewel case |  | hinged plastic case made to hold one compact disc with its booklet and tray card.
+- F1.5.5.01 | Globe stand or meridian |  | stand, cradle or meridian ring sold for one globe.
+- F1.1.1.01 | Hardback book |  | book bound in rigid boards (ONIX BB, trade cloth, relié); `binding` (trade cloth, library or reinforced binding, leather or fine binding) and `format_size` are attributes.
+- F1.1.1.02 | Paperback book |  | book bound in a flexible paper cover (ONIX BC, broché, poche), trade and mass-market alike; `trim_class` and `paper_class` are attributes.
+- F1.1.1.03 | Spiral-bound book |  | book whose leaves are held by a wire or plastic spiral or comb (ONIX BE).
+- F1.1.1.04 | Loose-leaf book |  | book issued as punched loose leaves held in a ring binder or post binding (ONIX BD).
+- F1.1.1.05 | Pamphlet or booklet, stapled |  | short publication of a few sheets bound by staples or saddle-stitching (ONIX BF).
+- F1.1.1.06 | Board book |  | book printed on thick laminated paperboard pages, made for young children (ONIX BH).
+- F1.1.1.07 | Rag, bath or foam book |  | book with pages of cloth, waterproof plastic or foam, made for babies (ONIX BI, BJ, BP).
+- F1.1.1.08 | Sewing or knitting pattern (paper) |  | printed single-pattern sheet or envelope for sewing or knitting, issued as a loose sheet rather than bound (R-42; memo kind 7a; provisional until attested); craft, size range and garment made are attributes.
+- F1.1.2.01 | Single-issue comic |  | saddle-stitched comic issue of one serial number (the 'floppy'; ONIX pamphlet).
+- F1.1.2.02 | Collected softcover volume |  | softcover volume collecting several issues or chapters of a comic or manga (trade paperback, tankōbon; label_source: memo).
+- F1.1.2.03 | Collected hardcover volume |  | hardcover volume collecting several issues or chapters (label_source: memo).
+- F1.1.2.04 | Omnibus or compendium |  | thick single volume collecting a long run of issues or several collected volumes; `binding` is an attribute.
+- F1.1.2.05 | Pocket-size reissue |  | small-format reprint edition of a comic or manga already issued in collected volumes (bunkoban; label_source: memo).
+- F1.1.2.06 | Premium large-format edition |  | oversized deluxe edition on large trim and heavier paper (Absolute, kanzenban; label_source: memo).
+- F1.1.3.01 | Newspaper |  | periodical issued daily or weekly on unbound newsprint sheets; `page_format` (broadsheet, Berliner, tabloid) is an attribute.
+- F1.1.3.02 | Magazine |  | periodical issue bound as a stapled or perfect-bound paper-covered booklet, digest-size magazines included; `page_format` is an attribute.
+- F1.1.3.03 | Bound periodical volume |  | book-form volume binding together a run of issues of one periodical (filed with periodicals against HS, F-8).
+- F1.1.3.04 | Zine or fanzine |  | small self-published or fan-made periodical, usually photocopied or short-run and stapled.
+- F1.1.4.01 | Full score |  | printed score showing every part of an ensemble work on the page at full size.
+- F1.1.4.02 | Miniature (study) score |  | full score reduced to pocket size for study (pocket score, Studienpartitur).
+- F1.1.4.03 | Vocal or piano-vocal score |  | score with the vocal parts in full and the accompaniment reduced for piano.
+- F1.1.4.04 | Score and parts |  | score issued together with the separate parts for each performer.
+- F1.1.4.05 | Set of parts |  | the separate performers' parts of a work issued without the score.
+- F1.1.4.06 | Choral octavo |  | single choral work printed in octavo format for choir use.
+- F1.1.4.07 | Songbook or collection |  | bound collection of songs or pieces, in notation for voice, piano or another instrument, lead-sheet books included.
+- F1.2.1.01 | Folded map |  | printed map sheet folded to pocket size for carrying; `scope` is an attribute.
+- F1.2.1.02 | Wall map |  | map printed or mounted to hang flat on a wall, laminated or not.
+- F1.2.1.03 | Map booklet |  | map issued as a small stapled or bound booklet of map sections.
+- F1.2.2.01 | Bound atlas, hard or soft cover |  | book of maps bound in boards, a flexible cover or flexi-binding; `scope` is an attribute.
+- F1.2.2.02 | Spiral-bound atlas |  | book of maps held by a wire or plastic spiral so it lies flat (road atlases).
+- F1.2.3.01 | Desktop globe |  | globe on a short base or stand made to sit on a desk or table, mini globes included.
+- F1.2.3.02 | Floor globe |  | globe on a tall floor-standing stand or frame.
+- F1.2.3.03 | Hanging or suspended globe |  | globe made to hang from a ceiling or bracket.
+- F1.1.1.09 | Fold-out book |  | Book printed on one long sheet folded concertina-wise into pages (leporello), opening out to its full length.
+- F1.1.1.10 | Part-work |  | Publication issued as numbered parts sold weekly or monthly that together build one complete work; binders and models follow S3a.
+- F1.1.1.11 | Novelty book |  | Book built with moving or added parts (pop-up, lift-the-flap, pull-tab, sound or touch-and-feel pages).
+- F1.1.4.08 | Piano reduction |  | Edition of an ensemble or concerto work with the orchestra or ensemble reduced for piano, usually with the solo part.
+- F1.1.4.09 | Single part |  | One performer's part of an ensemble work issued and sold alone, without score or other parts.
+- F1.2.1.04 | Tear-off map pad |  | Pad of identical printed map sheets bound at one edge so each sheet can be torn off and carried.
+- F1.1.3.05 | Mook or bookazine |  | One-off magazine-style publication with a book number, sold in bookshops and newsstands, often in a numbered label run.
+- F1.4.3.04 | Regular 8 mm print |  | Commercially released film print on regular (double) 8 mm stock, needing a regular 8 projector.
+- F1.5.1.03 | Book jacket cover |  | Clear polyester or film cover made to fit over one book's dust jacket to protect it.
+- F1.5.1.04 | Book box, clamshell or dropover |  | Closed box made to hold and protect one book or one set, lid dropping over or hinged as a clamshell.
+- F1.4.1.03 | S-VHS cassette |  | Video recording on half-inch tape in the Super VHS system, needing an S-VHS deck for its full resolution.
+- F1.4.1.04 | VHS-C cassette |  | Compact VHS cassette, mainly blank for camcorders, played in a VHS deck through an adapter.
+- F1.4.1.05 | W-VHS cassette |  | Video recording on half-inch tape in JVC's high-definition W-VHS system, needing a W-VHS deck.
+- F1.3.3.05 | CD-R, recordable compact disc |  | Recordable compact disc, sold blank or as a short-run release, written once in a CD burner.
+- F1.3.1.07 | Vertical-cut disc record |  | Disc record cut with a vertical (hill-and-dale) groove, played with its own reproducer; Edison Diamond Disc and Pathé discs are named forms.
+- F1.3.1.05 | Transcription disc, 16 inch |  | 16-inch disc made for broadcast playback on a transcription deck (provisional under F-6: if no seller lists it apart, it is F1.3.1.01 with `diameter` 16 in).

@@ -1,0 +1,158 @@
+# F3 Coins, Stamps, Medals & Trading Cards: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (the collecting field: coins, bullion, banknotes, stamps, cards, medals, tokens, trophies), then the standing of the issue; grade is the quality step, never a level
+- reason: The coin and stamp shop opens by splitting stamps from coins and bullion before anything else (Huntington Stamp and Coin Shop), the Japanese buyer opens stamps by issue class (Otakaraya: commemorative, premium, mini sheets, first-day covers), and every quality source then turns to grade (Numismatic News Sheldon scale; Mystic Stamp; TCGTalk), so field leads, issue standing comes second, and country, which the US shop uses next, stays a filter by owner rule.
+- ladder: Which field (coins, bullion, banknotes, stamps, cards, medals)? > What standing or form of issue (circulation or collector coin; definitive or commemorative stamp, miniature sheet, first-day cover; base card or sealed product)? > Which issue and grade (named issue or design, then the grade on the field's scale and who graded it)
+- level1_groups: Coins; Bullion; Banknotes and paper money; Stamps and postal items; Trading cards and stickers; Medals, orders and insignia; Tokens and scrip; Trophies and awards; Holders, slabs and mounts for one item
+- quality_markers: Coins (Numismatic News; Provident): wear (circulated grades) > strike > contact marks > luster > eye appeal; ladder P-1 > FR-2 > AG-3 > G-4 > VG-8 > F-12 > VF-20 > XF-40 > AU-50/58 > MS-60 to MS-70 (higher is better; 70 = no flaw at 5x); proof and uncirculated describe manufacture (finish attribute), not condition; mintage and die varieties (C3 variants) add rarity; Stamps (Huntington; Warwick and Warwick; Mystic; Wikipedia): correct identification (catalogue type) > condition and faults (thins, tears, repairs, re-perforation, regumming) > gum (MNH > LH > HH > HR > OG > NG > RG) > centering and margins (Gem > Superb > XF > VF > F > VG/average > poor) > perforations > colour > cancellation (light, clear, or first-day) > scarcity; Japan (Otakaraya): issue era > unused full sheet with margins > gum > issue quantity > imprint > first-day postmark; Cards (TCGTalk): centering > corners > edges > surface, then the grader (PSA most liquid) and the grade (10 Gem Mint or Pristine > 9 Mint ...); Bullion: metal and fineness (attribute with standard) > weight > mint or refiner > premium over spot (price, not stored); Banknotes: PMG 70-point scale with EPQ (memo); Medals: place in an order of wear (scheme) > condition (no scale fetched); Tokens and trophies: preference
+- quality_signals: Sheldon 70-point scale (W. Sheldon late 1940s, adopted by the ANA in the 1970s): C16 registry row, coin condition grade; NGC and PCGS third-party grading and encapsulation (certifier or grader maker rows; slab is kind F3.9 grading slab; NGC called most respected, two graders per coin, Provident); PMG 70-point and IBNS standards for notes (memo); PSA 1-10, BGS with four subgrades and Black Label, SGC (Pristine 10), CGC, ACE, TAG for cards: registry rows serving F3.8 and the E1 trading-card-game kinds; population reports and set registries (PSA): grader data, generated views only, never stored per card; stamp centering scale and gum scale (Mystic premium grades as platform label; Wikipedia stamp condition and Stanley Gibbons gum terms): two registry rows; no official stamp grading body (Warwick and Warwick), expertizing certificates are one-item facts, not stored; Scott catalogue values assume VF (catalogue numbers as identifiers after the licence check, memo F-14); Deutsche Bundesbank 'Stempelglanz' issue quality: a finish value, not a grade; UK order of wear (memo, class iii tier entries on UK named forms); LBMA Good Delivery for refiners (memo dagger, certifications extension)
+- maker_role: owner (confirm; maker_roles.tsv F3): issuers in the issuer table, mints, refiners, printers and card manufacturers through issues and lines; graders as certifier rows
+- side_view: Mint and refiner tab for bullion (shoppers buy bars and coins by mint or refiner: memo S4, S5) and a card brand tab (Topps, Panini, EPOCH, BBM: memo); generated views by issuer, era, theme and series (memo Candidates B and C), plus a 'graded by' view over the scale registry; country is a filter inside these views, never the front door
+- evidence_rows: Huntington Stamp and Coin Shop; Numismatic News Sheldon scale; Provident Metals coin grading guide; Mystic Stamp premium grading guidelines; Warwick and Warwick stamp grading (UK); TCGTalk grading companies 2026; Otakaraya stamps (Japan); Wikipedia stamp condition; Bundesbank collector coins
+- maker role row: {'code': 'F3', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'issuers and mints through issues (issuer ledger)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-F3-1 | Coins | 1 |  | F3.1
+- G-F3-10 | Circulating coins | 2 | G-F3-1 | F3.1.1.01; F3.1.1.02
+- G-F3-11 | Collector coins, mint and proof sets | 2 | G-F3-1 | F3.1.2.01; F3.1.2.02
+- G-F3-12 | Local and emergency issues | 2 | G-F3-1 | F3.1.3.01; F3.1.3.02
+- G-F3-13 | Copies | 2 | G-F3-1 | F3.1.4.01
+- G-F3-2 | Bullion | 1 |  | F3.3.01; F3.3.02; F3.3.03
+- G-F3-3 | Banknotes and paper money | 1 |  | F3.2
+- G-F3-14 | Circulating notes | 2 | G-F3-3 | F3.2.1.01; F3.2.1.02
+- G-F3-15 | Non-circulating notes | 2 | G-F3-3 | F3.2.2.01; F3.2.2.02
+- G-F3-16 | Local notes | 2 | G-F3-3 | F3.2.3.01
+- G-F3-17 | Copies | 2 | G-F3-3 | F3.2.4.01; F3.2.4.02
+- G-F3-4 | Stamps and postal items | 1 |  | F3.5
+- G-F3-18 | Adhesive stamps | 2 | G-F3-4 | F3.5.1.01; F3.5.1.02
+- G-F3-19 | Stamp units (sheets and booklets) | 2 | G-F3-4 | F3.5.2.01; F3.5.2.02
+- G-F3-20 | Postal stationery | 2 | G-F3-4 | F3.5.3.01; F3.5.3.02; F3.5.3.03; F3.5.3.04
+- G-F3-21 | Covers | 2 | G-F3-4 | F3.5.4.01; F3.5.4.02
+- G-F3-22 | Revenue stamps | 2 | G-F3-4 | F3.5.5.01
+- G-F3-5 | Trading cards and stickers | 1 |  | F3.8
+- G-F3-23 | Single cards | 2 | G-F3-5 | F3.8.1.01; F3.8.1.02; F3.8.1.03
+- G-F3-24 | Collectible stickers | 2 | G-F3-5 | F3.8.2.01
+- G-F3-25 | Sealed product | 2 | G-F3-5 | F3.8.3.01
+- G-F3-6 | Medals, orders and insignia | 1 |  | F3.6
+- G-F3-26 | Honours and decorations | 2 | G-F3-6 | F3.6.1.01; F3.6.1.02
+- G-F3-27 | Service medals | 2 | G-F3-6 | F3.6.2.01; F3.6.2.02
+- G-F3-28 | Commemorative and art medals | 2 | G-F3-6 | F3.6.3.01; F3.6.3.02; F3.6.3.03
+- G-F3-29 | Award and membership medals | 2 | G-F3-6 | F3.6.4.01; F3.6.4.02
+- G-F3-30 | Insignia of office | 2 | G-F3-6 | F3.6.5.01; F3.6.5.04; F3.6.5.03; F3.6.5.02
+- G-F3-7 | Tokens and scrip | 1 |  | F3.4
+- G-F3-31 | Service tokens | 2 | G-F3-7 | F3.4.1.01; F3.4.1.02; F3.4.1.03
+- G-F3-32 | Trade and wage tokens | 2 | G-F3-7 | F3.4.2.01; F3.4.2.02
+- G-F3-33 | Tax tokens | 2 | G-F3-7 | F3.4.3.01
+- G-F3-34 | Emergency money and scrip | 2 | G-F3-7 | F3.4.4.01
+- G-F3-35 | Admission and voting tokens | 2 | G-F3-7 | F3.4.5.01
+- G-F3-8 | Trophies and awards | 1 |  | F3.7.01; F3.7.02; F3.7.03; F3.7.04; F3.7.05; F3.7.06; F3.7.07; F3.7.08
+- G-F3-9 | Holders, slabs and mounts for one item | 1 |  | F3.9
+- G-F3-36 | For coins and notes | 2 | G-F3-9 | F3.9.1.01; F3.9.1.02; F3.9.1.03
+- G-F3-37 | For stamps | 2 | G-F3-9 | F3.9.2.01
+- G-F3-38 | For medals | 2 | G-F3-9 | F3.9.3.01; F3.9.3.02; F3.9.3.03
+- G-F3-39 | For cards | 2 | G-F3-9 | F3.9.4.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-F3-1 | wear (circulated grades) | MS-60 to MS-70 > AU-50/58 > XF-40 > VF-20 > F-12 > VG-8 > G-4 > AG-3 > FR-2 > P-1 (Sheldon; 70 = no flaw at 5x) | Wear first; proof and uncirculated describe manufacture (finish), not condition. | proposals.tsv F3 row (quality_markers); Numismatic News Sheldon scale; Provident Metals coin grading guide
+- G-F3-1 | strike |  | Second. | proposals.tsv F3 row (quality_markers); Numismatic News Sheldon scale
+- G-F3-1 | contact marks |  | Third. | proposals.tsv F3 row (quality_markers); Numismatic News Sheldon scale
+- G-F3-1 | luster |  | Fourth. | proposals.tsv F3 row (quality_markers); Numismatic News Sheldon scale
+- G-F3-1 | eye appeal |  | Fifth. | proposals.tsv F3 row (quality_markers); Provident Metals coin grading guide
+- G-F3-1 | mintage and die varieties |  | Add rarity; die varieties are C3 variants. | proposals.tsv F3 row (quality_markers)
+- G-F3-2 | metal and fineness |  | An attribute with its standard. | proposals.tsv F3 row (quality_markers)
+- G-F3-2 | weight |  | Second. | proposals.tsv F3 row (quality_markers)
+- G-F3-2 | mint or refiner |  | Third. | proposals.tsv F3 row (quality_markers)
+- G-F3-2 | premium over spot |  | A price, not stored. | proposals.tsv F3 row (quality_markers)
+- G-F3-3 | grade | PMG 70-point scale with EPQ | From the memo. | proposals.tsv F3 row (quality_markers); memo F3
+- G-F3-4 | correct identification |  | Catalogue type comes first. | proposals.tsv F3 row (quality_markers); Huntington Stamp and Coin Shop; Wikipedia stamp condition
+- G-F3-4 | condition and faults |  | Thins, tears, repairs, re-perforation, regumming. | proposals.tsv F3 row (quality_markers); Warwick and Warwick stamp grading (UK)
+- G-F3-4 | gum | MNH > LH > HH > HR > OG > NG > RG | Third. | proposals.tsv F3 row (quality_markers); Wikipedia stamp condition
+- G-F3-4 | centering and margins | Gem > Superb > XF > VF > F > VG/average > poor | Fourth. | proposals.tsv F3 row (quality_markers); Mystic Stamp premium grading guidelines
+- G-F3-4 | perforations |  | Fifth. | proposals.tsv F3 row (quality_markers); Mystic Stamp premium grading guidelines
+- G-F3-4 | colour |  | Sixth. | proposals.tsv F3 row (quality_markers); Wikipedia stamp condition
+- G-F3-4 | cancellation | light, clear, or first-day | Seventh. | proposals.tsv F3 row (quality_markers); Wikipedia stamp condition
+- G-F3-4 | scarcity |  | Weighed last. | proposals.tsv F3 row (quality_markers); Huntington Stamp and Coin Shop
+- G-F3-4 | Japanese issues: weighing order | issue era > unused full sheet with margins > gum > issue quantity > imprint > first-day postmark (an order, not a ladder) | The Japanese dealer's order. | proposals.tsv F3 row (quality_markers); Otakaraya stamps (Japan)
+- G-F3-5 | centering |  | First of the four grading criteria. | proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+- G-F3-5 | corners |  | Second. | proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+- G-F3-5 | edges |  | Third. | proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+- G-F3-5 | surface |  | Fourth. | proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+- G-F3-5 | grader |  | PSA is the most liquid. | proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+- G-F3-5 | grade | 10 Gem Mint or Pristine > 9 Mint > ... | On the grader's scale. | proposals.tsv F3 row (quality_markers); TCGTalk grading companies 2026
+- G-F3-6 | place in an order of wear |  | A scheme. | proposals.tsv F3 row (quality_markers)
+- G-F3-6 | condition |  | No scale fetched. | proposals.tsv F3 row (quality_markers)
+- G-F3-7 | preference |  | No quality ladder. | proposals.tsv F3 row (quality_markers)
+- G-F3-8 | preference |  | No quality ladder. | proposals.tsv F3 row (quality_markers)
+
+## Kinds (kind_id | stored name | native name | definition)
+- F3.1.1.01 | Standard circulation coin |  | legal-tender coin struck for everyday circulation; a worn coin sold for its silver content (junk silver) is this kind with `metal_content` an attribute.
+- F3.1.1.02 | Circulating commemorative coin |  | legal-tender coin with a commemorative design issued into circulation at face value.
+- F3.1.2.01 | Non-circulating legal-tender coin |  | legal-tender coin issued for collectors, not circulation, including any coin struck in proof, reverse proof or another collector finish or issued in a mint's presentation packaging, even in gold.
+- F3.1.2.02 | Proof or mint set |  | set of coins issued and sold by a mint as one packaged product (the only set kind, K-1, S3a).
+- F3.1.3.01 | Emergency coin |  | coin struck by an official authority in an emergency, such as a siege coin or official necessity coin.
+- F3.1.3.02 | Pattern or trial strike |  | coin struck to test a design, die or metal and not issued for circulation.
+- F3.1.4.01 | Replica, fantasy or counterfeit coin |  | copy of a coin, a coin-like piece of an issue that never existed, or a contemporary counterfeit made to pass as money.
+- F3.2.1.01 | Standard circulation note |  | banknote issued by a currency authority for everyday circulation.
+- F3.2.1.02 | Circulating commemorative note |  | banknote with a commemorative design issued into circulation at face value.
+- F3.2.2.01 | Non-circulating note |  | legal-tender note issued for collectors and not put into circulation.
+- F3.2.2.02 | Specimen, trial or pattern note |  | note printed as a specimen, proof, trial or pattern, or prepared and never issued.
+- F3.2.3.01 | Local or obsolete note |  | note issued by a local or private bank, or of an issue that is no longer current, such as US obsolete currency and National Banknotes.
+- F3.2.4.01 | Facsimile, fantasy or counterfeit note |  | facsimile of a real note, a note of an issue that never existed, or a contemporary counterfeit.
+- F3.2.4.02 | Prop or souvenir note |  | note-like piece made as a film prop, demonstration note or souvenir and not legal tender (K-120).
+- F3.3.01 | Bullion bar |  | cast or minted bar of precious metal sold by metal content and weight.
+- F3.3.02 | Bullion round |  | coin-shaped piece of precious metal that is not legal tender, sold by metal content.
+- F3.3.03 | Bullion coin |  | legal-tender coin struck in a mint's bullion programme in the standard bullion finish.
+- F3.4.1.01 | Transit and toll token |  | token issued to pay one fare or toll on a transit system, road or bridge.
+- F3.4.1.02 | Deposit token (locker or shopping cart) |  | token issued to release a locker, shopping cart or similar deposit mechanism.
+- F3.4.2.01 | Trade token or good-for piece |  | token issued by a merchant or private issuer to be exchanged for goods or a stated value.
+- F3.4.2.02 | Wage, work or ration token |  | token issued to workers as wages or work tally, or as a ration entitlement.
+- F3.4.3.01 | Tax token |  | token issued to pay sales tax or another tax in fractions of the smallest coin.
+- F3.4.4.01 | Emergency money and scrip |  | paper or other money issued to circulate as money by a non-currency issuer (F-16).
+- F3.5.1.01 | Definitive stamp |  | everyday postage stamp of an ongoing series with no specific subject or issue code.
+- F3.5.1.02 | Commemorative or special-issue stamp [特殊切手] |  | postage stamp issued for a limited period to mark an event, subject or season.
+- F3.5.2.01 | Miniature or souvenir sheet |  | small sheet issued as a unit with one or more stamps and a decorated margin.
+- F3.5.2.02 | Stamp booklet |  | folded booklet of stamps issued by a postal administration as one unit.
+- F3.5.3.01 | Stamped envelope |  | envelope with a printed stamp issued by a postal administration.
+- F3.5.3.02 | Postal card with printed stamp |  | postcard with a printed stamp issued by a postal administration.
+- F3.5.4.01 | First-day cover |  | cover issued by a postal administration or prepared as a first-day cover, carrying stamps cancelled on their day of issue (K-118).
+- F3.5.5.01 | Revenue stamp |  | stamp issued to show payment of a tax or fee rather than postage.
+- F3.6.1.01 | Order, badge or star |  | insignia of an order of chivalry or merit (badge, star, collar or sash badge).
+- F3.6.1.02 | Gallantry decoration |  | decoration awarded for a specific act of gallantry or distinguished service.
+- F3.6.2.01 | Campaign medal |  | medal awarded for service in a named campaign or operation.
+- F3.6.2.02 | Long-service and good-conduct medal |  | medal awarded for a length of service or record of conduct.
+- F3.6.3.01 | Commemorative medal |  | medal struck to mark an event, person or anniversary, such as a coronation, jubilee, birth or visit.
+- F3.6.3.02 | Art medal |  | medal or plaquette struck or cast as a work of medallic art.
+- F3.6.3.03 | Souvenir medal or elongated coin |  | souvenir piece struck or rolled for a place or event, including a coin rolled out with a new design.
+- F3.6.4.01 | Award medal |  | disc medal given for achievement in sport, school, military or other competition, sports finisher's medals included (F3-O2).
+- F3.6.4.02 | Challenge coin or membership medal |  | coin-shaped medal issued to members of a unit, club or organisation.
+- F3.6.5.01 | Mace |  | ceremonial staff carried as insignia of a parliamentary, civic, academic or judicial office.
+- F3.6.5.04 | Gavel |  | mallet used as insignia of a presiding office.
+- F3.7.01 | Cup trophy |  | cup-shaped trophy on a base, perpetual cups included.
+- F3.7.02 | Shield |  | shield-shaped award, usually with plates for engraved names.
+- F3.7.03 | Plaque |  | flat award panel with an inscription, made to hang or stand.
+- F3.7.04 | Upright award |  | column, figure, star, block or obelisk award on a base.
+- F3.7.05 | Bowl, tankard or salver |  | bowl, tankard, tray or salver given as an award.
+- F3.7.06 | Rosette or ribbon |  | rosette or ribbon given as an award.
+- F3.7.07 | Championship belt |  | belt awarded to a champion (K-119).
+- F3.7.08 | Championship ring |  | ring awarded to the members of a championship team or to a champion (K-119).
+- F3.8.1.01 | Base card |  | standard card of a numbered sports or non-sports series issued by a card manufacturer.
+- F3.8.1.02 | Insert or autograph card |  | card inserted at a lower rate than the base set, including signed and relic cards.
+- F3.8.1.03 | Product-issued card |  | card printed on the box, panel or packaging of another product and cut from it (hand-cut cards).
+- F3.8.2.01 | Collectible sticker |  | sticker of a numbered series of the Panini type made to be collected into an album (K-121).
+- F3.8.3.01 | Sealed card product |  | unopened pack, box, blaster, hanger or case of cards, with `product_form` an attribute.
+- F3.9.1.01 | Coin capsule or holder |  | capsule, flip or holder made to hold one coin or note.
+- F3.9.1.02 | Grading slab |  | sealed holder in which a grader encapsulates one coin, note or card.
+- F3.9.2.01 | Stamp hinge or mount |  | hinge or clear mount made to fix one stamp in place.
+- F3.9.3.01 | Medal bar or ribbon bar | Ordenspange, Bandspange | bar on which medals or their ribbons are mounted for wear.
+- F3.9.3.02 | Medal ribbon |  | length of ribbon made for one medal or decoration.
+- F3.9.3.03 | Medal case |  | case made to hold one medal or decoration.
+- F3.9.4.01 | Card toploader or sleeve |  | rigid toploader or soft sleeve made to hold one card.
+- F3.5.3.03 | Aerogram or letter sheet |  | sheet or card with a printed stamp, issued by a postal administration, that folds and seals to form its own envelope; aerograms, letter sheets and lettercards.
+- F3.5.3.04 | Newspaper wrapper |  | paper band with a printed stamp, issued by a postal administration, to wrap newspapers or printed matter for posting.
+- F3.5.4.02 | Philatelic numismatic cover |  | cover issued by a postal administration that carries stamps cancelled for an issue together with a coin or medal mounted in it.
+- F3.4.1.03 | Vending or service-machine token |  | token issued to buy a product or a service from a coin-operated machine that is not a game, such as a dispenser, parking meter, car wash, laundry or telephone.
+- F3.9.1.03 | Coin weight |  | weight made to check the weight of one coin denomination on a balance.
+- F3.4.5.01 | Admission, attendance or voting token |  | token issued to admit the holder to a meeting, place or rite, to record attendance, or to cast a vote, communion tokens included.
+- F3.6.5.03 | Chain of office |  | chain or collar worn as insignia of a civic or other office.
+- F3.6.5.02 | Crown of office |  | crown that is regalia of an office (K-123).

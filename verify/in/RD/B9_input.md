@@ -1,0 +1,207 @@
+# B9 Smoking & Vaping: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (product family), then house or maker for cigars and pipes, blend style for pipe tobacco, device type for vapes, product form for cannabis
+- reason: The first click is the product family everywhere; then specialist cigar shops lead with brand (SmokingPipes cigars, Neptune 'Shop by Brand'), pipe tobacco is sorted by blend style (SmokingPipes university, TobaccoReviews), vapes by kit type (Resident) and cannabis by form with lab results (Leafly).
+- ladder: What do you smoke or use? (cigars, pipes and pipe tobacco, cigarettes and rolling, vapes, heated tobacco, pouches and snus, cannabis and hemp, hookah, lighters and accessories) > Which family? (cigars: house, then vitola; pipe tobacco: blend style; vapes: kit type; cannabis: product form) > What makes the best one? (rating, wrapper and origin, strength, ring gauge; style ranking; lab results)
+- level1_groups: Cigars and cigarillos; Pipes and pipe tobacco; Cigarettes and roll-your-own; Vapes and e-liquids; Heated tobacco; Snus, nicotine pouches and other oral products; Cannabis and hemp; Hookah and shisha; Lighters, cutters, ashtrays and cases; Other plant products (kratom, herbal blends, betel, khat)
+- quality_markers: Cigars: blind panel score (Cigar Aficionado: appearance and construction, draw and burn, flavour, overall impression; 90+ outstanding, 95+ classic, with the warning that 43% scored 90+ in 2021); construction and draw; wrapper type and wrapper/binder/filler origin; strength fit (very mild > very strong, a label); vitola size (length, ring gauge); handmade against machine-made; freshness and storage. Pipe tobacco: blend style fit (Virginia, Virginia/Perique, Burley, English/Latakia, Aromatic), then leaf quality and cut, then the member rating with enough reviews (TobaccoReviews), still available. Pipes: the maker's own grade (class iv, never compared across makers), briar and drilling, shape; grain is a value cue, not a smoking one (memo S29). Cannabis and CBD: third-party lab Certificate of Analysis by batch (potency THC and CBD; pesticides, residual solvents, microbials, heavy metals; moisture), then terpene profile; a refused COA is a red flag. Vapes: durable build and a reputable brand, kit type matched to draw (MTL or DTL), features for the budget (evidence thin, provisional). E-liquids and pouches: nicotine type and strength, compliance (memo, provisional)
+- quality_signals: Cigar Aficionado 100-point blind rating, bands 90+ / 93-95 / 95+ Classic, Cigar of the Year and Top 25 (Cigar Aficionado; class iii tier entry on marca-and-vitola named forms); TobaccoReviews member rating filtered by review count (community; class iii tier entry on pipe-tobacco named forms); maker pipe grades (each maker; class iv, line_rank); third-party lab COA (testing labs under state regulators; a class i attribute per product, not a tier); retailer labels such as SmokingPipes 'Boutique' or 'Famous Exclusives' (platform_tag only); Trusted Shops seal (shop trust, not a product signal: not used). Vapes: no certification or rating found (gap)
+- maker_role: revise: way_in for cigars, cigarillos, pipes and pipe tobacco (cigar houses and marcas, pipe makers and carvers, tobacco blenders; SmokingPipes, Neptune); owner for vapes, e-liquids, heated tobacco, pouches, cigarettes, cannabis and accessories (models and lines carry the maker; platforms in C13). Proposed scoped rows in maker_roles.tsv: B9 P2;P3;P4;H1 way_in, B9 * owner
+- side_view: House view for cigars (brands, then their vitolas; also by country of origin as a filter, never a level) and makers for pipes (with the school table: Danish, Japanese); platform view for heated tobacco and pod systems (IQOS, Ploom, glo; C13)
+- evidence_rows: SmokingPipes.com cigars; SmokingPipes university: tobacco families; Cigar Aficionado ratings; Leafly how to read a cannabis label; Resident vape kit guide; Neptune Cigar; Trusted Shops Germany tobacco search; TobaccoReviews.com pipe tobacco lists
+- maker role row: {'code': 'B9', 'scope': 'vapes, cannabis products, other tobacco and nicotine products', 'role': 'owner', 'provisional': 'yes', 'reason': 'chosen by device type or product form and lab certificate (HOL_DP_3, R-116)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-B9-1 | Cigars and cigarillos | 1 |  | B9.1.2; B9.1.3
+- G-B9-11 | Parejos | 2 | G-B9-1 | B9.1.2.01; B9.1.2.02; B9.1.2.03; B9.1.2.04; B9.1.2.05; B9.1.2.06; B9.1.2.07; B9.1.2.08; B9.1.2.09; B9.1.2.10; B9.1.2.11
+- G-B9-12 | Figurados | 2 | G-B9-1 | B9.1.2.12; B9.1.2.13; B9.1.2.14; B9.1.2.15; B9.1.2.16
+- G-B9-13 | Cigarillos and little cigars | 2 | G-B9-1 | B9.1.3.01; B9.1.3.02
+- G-B9-2 | Pipes and pipe tobacco | 1 |  | B9.2.1; B9.1.4
+- G-B9-14 | Pipes | 2 | G-B9-2 | B9.2.1.01; B9.2.1.02; B9.2.1.03; B9.2.1.04; B9.2.1.05; B9.2.1.06; B9.2.1.07; B9.2.1.08; B9.2.1.09; B9.2.1.10; B9.2.1.11; B9.2.1.12; B9.2.1.13
+- G-B9-15 | Pipe tobacco | 2 | G-B9-2 | B9.1.4.01; B9.1.4.02; B9.1.4.03; B9.1.4.04; B9.1.4.05
+- G-B9-3 | Cigarettes and roll-your-own | 1 |  | B9.1.1; B9.1.5; B9.2.5
+- G-B9-16 | Cigarettes | 2 | G-B9-3 | B9.1.1.01; B9.1.1.02; B9.1.1.03; B9.1.1.06
+- G-B9-17 | Rolling tobacco | 2 | G-B9-3 | B9.1.5.01; B9.1.5.02; B9.1.5.06; B9.1.5.08
+- G-B9-18 | Papers, rolling machines, trays and holders | 2 | G-B9-3 | B9.2.5.01; B9.2.5.03; B9.2.5.04; B9.2.5.07; B9.3.21; B9.2.5.05; B9.2.5.06
+- G-B9-4 | Vapes and e-liquids | 1 |  | B9.2.3; B9.1.9; B9.3
+- G-B9-19 | Vape kits | 2 | G-B9-4 | B9.2.3.01; B9.2.3.02; B9.2.3.03; B9.2.3.06
+- G-B9-20 | E-liquids and prefilled pods | 2 | G-B9-4 | B9.1.9.01; B9.1.9.02; B9.1.9.03; B9.1.9.04; B9.1.9.05
+- G-B9-21 | Coils, tanks, pods and batteries | 2 | G-B9-4 | B9.3.01; B9.3.02; B9.3.03; B9.3.04; B9.3.14; B9.3.17; B9.3.18; B9.3.19; B9.3.20
+- G-B9-5 | Heated tobacco | 1 |  | B9.1.7.01; B9.1.7.02; B9.2.3.04
+- G-B9-6 | Snus, nicotine pouches and other oral products | 1 |  | B9.1.8
+- G-B9-22 | Snus and nicotine pouches | 2 | G-B9-6 | B9.1.8.04; B9.1.8.05; B9.1.8.06; B9.1.8.07; B9.1.8.08; B9.1.8.09
+- G-B9-23 | Chewing tobacco and snuff | 2 | G-B9-6 | B9.1.8.01; B9.1.8.02; B9.1.8.03; B9.1.8.10
+- G-B9-7 | Cannabis and hemp | 1 |  | B9.1.10; B9.1.11; B9.1.5; B9.1.1; B9.2.2
+- G-B9-24 | Flower and pre-rolls | 2 | G-B9-7 | B9.1.5.03; B9.1.1.04; B9.1.1.05
+- G-B9-25 | Concentrates and hash | 2 | G-B9-7 | B9.1.10.01; B9.1.10.02; B9.1.10.03; B9.1.10.04; B9.1.10.05; B9.1.10.06; B9.1.10.07; B9.1.10.08
+- G-B9-26 | Edibles, drinks, tinctures and topicals | 2 | G-B9-7 | B9.1.11.01; B9.1.11.02; B9.1.11.03; B9.1.11.04; B9.1.11.05
+- G-B9-27 | Bongs, dab rigs, grinders and vaporizers | 2 | G-B9-7 | B9.2.2.02; B9.2.2.03; B9.3.15; B9.3.16; B9.2.5.02; B9.2.3.05
+- G-B9-8 | Hookah and shisha | 1 |  | B9.1.6; B9.2.2; B9.3
+- G-B9-28 | Hookahs and shisha | 2 | G-B9-8 | B9.2.2.01; B9.1.6.01; B9.1.6.02
+- G-B9-29 | Bowls, hoses, heat management and coals | 2 | G-B9-8 | B9.3.05; B9.3.06; B9.3.07; B9.3.08; B9.3.09; B9.3.10; B9.3.11; B9.3.12; B9.3.13
+- G-B9-9 | Lighters, cutters, ashtrays and cases | 1 |  | B9.2.4; B9.2.6
+- G-B9-30 | Lighters | 2 | G-B9-9 | B9.2.4.01; B9.2.4.02; B9.2.4.03; B9.2.4.04
+- G-B9-31 | Cutters, ashtrays, cases and humidors | 2 | G-B9-9 | B9.2.6.01; B9.2.6.02; B9.2.6.03; B9.2.6.04; B9.2.6.05; B9.2.6.06; B9.2.6.07
+- G-B9-10 | Other plant products (kratom, herbal blends, betel, khat) | 1 |  | B9.1.5.04; B9.1.5.05; B9.1.5.07; B9.1.8.11; B9.1.8.12; B9.1.8.13
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-B9-1 | blind panel score | 95+ classic > 90-94 outstanding > below 90 | Panel scores appearance and construction, draw and burn, flavour, overall; 43% scored 90+ in 2021. | proposals.tsv B9 row (quality_markers); Cigar Aficionado ratings
+- G-B9-1 | construction and draw |  | Even burn and draw follow the score. | proposals.tsv B9 row (quality_markers); Cigar Aficionado ratings; SmokingPipes.com cigars
+- G-B9-1 | wrapper type and wrapper, binder and filler origin |  | Shops sort cigars by wrapper and leaf origin. | proposals.tsv B9 row (quality_markers); SmokingPipes.com cigars; Neptune Cigar
+- G-B9-1 | strength fit | very mild to very strong (a label, not a quality ladder) | Strength is matched to the smoker. | proposals.tsv B9 row (quality_markers); SmokingPipes.com cigars; Neptune Cigar
+- G-B9-1 | vitola size |  | Length and ring gauge set the smoke; a choice. | proposals.tsv B9 row (quality_markers); Cigar Aficionado ratings; Neptune Cigar
+- G-B9-1 | handmade against machine-made | handmade > machine-made | Handmade is the premium class. | proposals.tsv B9 row (quality_markers); SmokingPipes.com cigars
+- G-B9-1 | freshness and storage |  | Humidor storage keeps the cigar in condition. | proposals.tsv B9 row (quality_markers); SmokingPipes.com cigars
+- G-B9-15 | blend style fit | Virginia; Virginia/Perique; Burley; English/Latakia; Aromatic (a choice) | Pipe tobacco is chosen by blend family first. | proposals.tsv B9 row (quality_markers); SmokingPipes university: tobacco families
+- G-B9-15 | leaf quality and cut |  | Weighed inside the chosen family. | proposals.tsv B9 row (quality_markers); SmokingPipes university: tobacco families
+- G-B9-15 | member rating | higher rating with enough reviews > few reviews | Community ratings rank blends. | proposals.tsv B9 row (quality_markers); TobaccoReviews.com pipe tobacco lists
+- G-B9-15 | still available | in production > discontinued | Lists flag blends no longer made. | proposals.tsv B9 row (quality_markers); TobaccoReviews.com pipe tobacco lists
+- G-B9-14 | maker's own grade | class iv in each maker's grade ladder; never compared across makers | Pipe makers grade their own pipes. | proposals.tsv B9 row (quality_markers); B9 memo S29
+- G-B9-14 | briar and drilling |  | Material and airway drilling decide smoking quality. | proposals.tsv B9 row (quality_markers); B9 memo S29
+- G-B9-14 | shape |  | A choice, not a ladder. | proposals.tsv B9 row (quality_markers); B9 memo S29
+- G-B9-14 | grain |  | A value cue, not a smoking one. | proposals.tsv B9 row (quality_markers); B9 memo S29
+- G-B9-7 | third-party lab Certificate of Analysis by batch | batch COA > no COA (a refused COA is a red flag) | COA shows THC and CBD potency and tests for pesticides, residual solvents, microbials, heavy metals and moisture. | proposals.tsv B9 row (quality_markers); Leafly how to read a cannabis label
+- G-B9-7 | terpene profile |  | Read after the COA. | proposals.tsv B9 row (quality_markers); Leafly how to read a cannabis label
+- G-B9-19 | durable build and reputable brand |  | Evidence thin, provisional. | proposals.tsv B9 row (quality_markers); Resident vape kit guide
+- G-B9-19 | kit type matched to draw | MTL; DTL (a choice) | Kit type is matched to the draw wanted; provisional. | proposals.tsv B9 row (quality_markers); Resident vape kit guide
+- G-B9-19 | features for the budget |  | Provisional. | proposals.tsv B9 row (quality_markers); Resident vape kit guide
+- G-B9-20 | nicotine type and strength |  | Memo marker for e-liquids; provisional. | proposals.tsv B9 row (quality_markers); B9 memo
+- G-B9-20 | compliance |  | Legal compliance of e-liquids; memo, provisional. | proposals.tsv B9 row (quality_markers); B9 memo
+- G-B9-22 | nicotine type and strength |  | Memo marker for pouches; provisional. | proposals.tsv B9 row (quality_markers); B9 memo
+- G-B9-22 | compliance |  | Legal compliance of pouches; memo, provisional. | proposals.tsv B9 row (quality_markers); B9 memo
+
+## Kinds (kind_id | stored name | native name | definition)
+- B9.1.1.01 | Filtered cigarette |  | manufactured cigarette of cut tobacco in a paper tube with a filter tip.
+- B9.1.1.02 | Plain cigarette |  | manufactured cigarette with no filter.
+- B9.1.1.03 | Clove cigarette [kretek] |  | cigarette of tobacco blended with cloves.
+- B9.1.1.04 | Pre-roll |  | ready-rolled smoke of cannabis or other plant material, including the joint and the pre-rolled blunt.
+- B9.1.1.05 | Infused pre-roll |  | pre-roll whose material is coated or mixed with a concentrate.
+- B9.1.1.06 | Bidi |  | thin hand-rolled smoke of tobacco wrapped in a leaf and tied with thread (provisional until attested, B-31).
+- B9.1.2.01 | Corona |  | the benchmark straight-sided cigar, about 5.5 to 6 inches by ring gauge 42 to 44.
+- B9.1.2.02 | Petit corona [Mareva] |  | short straight-sided corona-gauge cigar.
+- B9.1.2.03 | Corona gorda |  | corona-length cigar of a thicker gauge.
+- B9.1.2.04 | Lonsdale |  | long, slender straight-sided cigar (provisional until a page shows it, section 14).
+- B9.1.2.05 | Robusto |  | short, thick straight-sided cigar.
+- B9.1.2.06 | Toro |  | medium-long straight-sided cigar of a thick gauge.
+- B9.1.2.07 | Churchill [Julieta No. 2] |  | long straight-sided cigar of a medium-thick gauge.
+- B9.1.2.08 | Double corona |  | very long straight-sided cigar of a thick gauge.
+- B9.1.2.09 | Gordo [Grande] |  | straight-sided cigar of a very large ring gauge.
+- B9.1.2.10 | Panatela |  | long, thin straight-sided cigar.
+- B9.1.2.11 | Lancero |  | very long, very thin straight-sided cigar.
+- B9.1.2.12 | Torpedo [Pyramid, Pirámide] |  | figurado tapering to a pointed head.
+- B9.1.2.13 | Belicoso |  | figurado with a short tapered, rounded head.
+- B9.1.2.14 | Perfecto |  | figurado tapered at both ends, bulging in the middle.
+- B9.1.2.15 | Diadema [Salomón] |  | very large figurado with a tapered head and a closed or tapered foot.
+- B9.1.2.16 | Culebra |  | three thin cigars braided together and sold as one.
+- B9.1.3.01 | Cigarillo |  | small, thin cigar.
+- B9.1.3.02 | Little cigar |  | cigarette-sized cigar wrapped in tobacco leaf or leaf-based paper, usually filtered.
+- B9.1.4.01 | Virginia blend |  | pipe tobacco blend led by Virginia leaf.
+- B9.1.4.02 | Virginia/Perique blend |  | Virginia-led blend with Perique leaf.
+- B9.1.4.03 | Burley-based blend [American blend] |  | pipe tobacco blend led by Burley leaf (merge with American blend provisional, section 14).
+- B9.1.4.04 | English blend [Balkan] |  | unflavoured blend with Latakia and oriental leaf.
+- B9.1.4.05 | Aromatic blend |  | pipe tobacco blend flavoured or cased for aroma.
+- B9.1.5.01 | Fine-cut roll-your-own tobacco |  | loose finely cut tobacco sold for hand-rolling or filling tubes.
+- B9.1.5.02 | Kizami [kizami] |  | Japanese very fine-cut tobacco leaf for the kiseru (regional kind, C11; provisional until attested in a second region).
+- B9.1.5.03 | Flower |  | dried cannabis flower sold loose.
+- B9.1.5.04 | Kratom powder |  | dried and ground kratom leaf, the dried leaf included.
+- B9.1.5.05 | Herbal smoking blend |  | loose non-tobacco herbal mixture sold for smoking (provisional until attested, B-31).
+- B9.1.5.07 | Salvia |  | dried salvia divinorum leaf or extract taken for a psychoactive effect (K-168; provisional until attested).
+- B9.1.6.01 | Shisha tobacco |  | moist, usually flavoured tobacco for smoking in a hookah.
+- B9.1.6.02 | Tobacco-free shisha |  | shisha of non-tobacco material for the hookah, filed with the form it imitates.
+- B9.1.7.01 | Heating stick |  | tobacco or tobacco-free stick made to be heated, not burned, in a heated-tobacco device.
+- B9.1.7.02 | Capsule-type heated product |  | heated product in which vapour passes through a tobacco capsule.
+- B9.1.8.01 | Chewing tobacco |  | loose leaf, plug or twist tobacco made for chewing.
+- B9.1.8.02 | Dry snuff |  | finely ground dry tobacco taken through the nose.
+- B9.1.8.03 | Moist snuff [dip] |  | moist ground tobacco placed between lip and gum.
+- B9.1.8.04 | Loose snus |  | moist, unportioned snus.
+- B9.1.8.05 | Original portion snus |  | snus in moist portion bags.
+- B9.1.8.06 | White portion snus |  | snus in drier, lighter portion bags.
+- B9.1.8.07 | Dissolvable |  | tobacco product made to dissolve in the mouth.
+- B9.1.8.08 | Nicotine pouch |  | tobacco-free portion pouch holding nicotine.
+- B9.1.8.09 | Nicotine pearl |  | small tobacco-free nicotine bead for the mouth.
+- B9.1.8.11 | Betel quid |  | areca nut with additions wrapped in betel leaf, sold for chewing (provisional until attested, B-31).
+- B9.1.8.12 | Areca nut |  | areca nut sold for chewing (provisional until attested, B-31).
+- B9.1.8.13 | Khat |  | khat leaf sold for chewing (provisional until attested, B-31).
+- B9.1.9.01 | Freebase e-liquid |  | e-liquid with freebase nicotine.
+- B9.1.9.02 | Nic-salt e-liquid |  | e-liquid with nicotine salt.
+- B9.1.9.03 | Zero-nicotine e-liquid |  | e-liquid without nicotine, shortfill bottles included.
+- B9.1.9.04 | Prefilled pod |  | sealed pod filled with e-liquid for a pod device.
+- B9.1.9.05 | Prefilled vape cartridge |  | filled cartridge for a vape pen, the substance (nicotine or cannabinoid) being the tag.
+- B9.1.10.01 | Kief |  | loose resin glands sifted from cannabis.
+- B9.1.10.02 | Ice water hash |  | resin glands separated with ice water and collected as hash.
+- B9.1.10.03 | Rosin |  | resin pressed from cannabis with heat and pressure, without solvent.
+- B9.1.10.04 | Shatter |  | solvent-extracted concentrate set as a brittle glassy sheet.
+- B9.1.10.05 | Badder [wax] |  | solvent-extracted concentrate whipped to a soft, waxy texture.
+- B9.1.10.06 | Live resin |  | solvent extract made from fresh-frozen cannabis.
+- B9.1.10.07 | Distillate |  | refined cannabinoid oil distilled to high purity.
+- B9.1.11.01 | Edible |  | food item infused with a cannabinoid, kratom or other B9 substance (gummies, chocolates, baked goods, mints).
+- B9.1.11.02 | Drink |  | beverage infused with a cannabinoid, kratom or other B9 substance, shots included.
+- B9.1.11.03 | Tincture |  | liquid extract taken by drops, CBD oil included.
+- B9.1.11.04 | Capsule or tablet |  | dosed capsule or tablet of a cannabinoid, kratom or other B9 substance.
+- B9.1.11.05 | Topical |  | balm, lotion or cream containing a cannabinoid, applied to the skin.
+- B9.2.1.01 | Billiard |  | straight pipe with a cylindrical bowl and a straight shank, the baseline shape.
+- B9.2.1.02 | Bulldog |  | pipe with an angular, tapering bowl and a diamond-section shank.
+- B9.2.1.03 | Canadian |  | pipe with a long oval shank and a short stem.
+- B9.2.1.04 | Freehand |  | pipe shaped freely by the carver rather than to a classic shape family (R-33).
+- B9.2.1.05 | Kiseru [kiseru] |  | Japanese long pipe with a small metal bowl and mouthpiece (regional kind, C11; provisional until attested in a second region).
+- B9.2.1.06 | Hand pipe and chillum |  | small dry pipe or straight conical pipe made for cannabis (shape axis not yet stated).
+- B9.2.2.01 | Hookah |  | water pipe with a bowl, body, water base and one or more hoses, for shisha.
+- B9.2.2.02 | Bong |  | water pipe with a bowl and a tube, drawn through water, for dry material.
+- B9.2.2.03 | Dab rig |  | water pipe made to vaporise concentrates on a heated nail or banger.
+- B9.2.3.01 | Disposable vape [big puff] |  | sealed vape sold prefilled and charged, used up and discarded.
+- B9.2.3.02 | Refillable pod kit |  | device with a battery body and refillable or replaceable pods.
+- B9.2.3.03 | Box mod kit |  | box-shaped battery device with a separate tank, adjustable output.
+- B9.2.3.04 | Heated-tobacco device |  | device that heats tobacco sticks or capsules without burning them.
+- B9.2.3.05 | Portable or desktop vaporizer |  | device that vaporises dry herb or concentrate by heat.
+- B9.2.4.01 | Pocket lighter |  | lighter carried on the person.
+- B9.2.4.02 | Table lighter |  | lighter made to stand on a table.
+- B9.2.4.03 | Pipe lighter |  | lighter with a side flame for lighting a pipe bowl.
+- B9.2.4.04 | Cigar lighter |  | lighter made for lighting cigars (the torch or jet flame wording needs a fetched page).
+- B9.2.5.01 | Rolling paper |  | thin paper for hand-rolling a cigarette or joint; empty blunt wraps included.
+- B9.2.5.02 | Grinder |  | device with teeth for grinding herb or tobacco.
+- B9.2.5.03 | Rolling machine |  | hand device for rolling cigarettes or joints.
+- B9.2.5.04 | Rolling tray |  | tray made for rolling and holding material.
+- B9.2.6.01 | Cigar cutter |  | tool for cutting the cap of a cigar.
+- B9.2.6.02 | Ashtray |  | receptacle for ash and stubs.
+- B9.2.6.03 | Cigarette case |  | case for carrying cigarettes on the person.
+- B9.2.6.04 | Cigar case |  | case for carrying cigars on the person.
+- B9.2.6.05 | Travel humidor |  | portable humidified box for carrying cigars.
+- B9.2.6.06 | Tobacco pouch |  | pouch for carrying loose or roll-your-own tobacco.
+- B9.3.01 | Vape coil |  | replaceable heating coil for a vape tank or pod.
+- B9.3.02 | Vape tank |  | refillable tank or clearomizer for a vape device.
+- B9.3.03 | Vape pen battery |  | battery made for one vape pen or cartridge.
+- B9.3.04 | Refillable pod |  | empty pod for a pod device, filled by the user.
+- B9.3.05 | Hookah bowl |  | bowl that holds shisha on a hookah, the phunnel included.
+- B9.3.06 | Hookah charcoal [hookah coals] |  | charcoal made to heat shisha on a hookah.
+- B9.3.07 | Hookah hose |  | Flexible hose, with its mouthpiece handle, that carries smoke from a hookah to the smoker.
+- B9.3.08 | Hookah mouth tip |  | Small disposable or reusable tip fitted over a hookah hose mouthpiece for hygiene.
+- B9.3.09 | Heat management device [HMD] |  | Cap set on a hookah bowl that holds the charcoal in place of foil and controls the heat.
+- B9.3.10 | Hookah tongs |  | Tongs made for handling hookah charcoal.
+- B9.3.11 | Molasses catcher |  | Small chamber fitted between hookah stem and hose that traps syrup and liquid.
+- B9.3.12 | Hookah diffuser |  | Attachment on the end of a hookah downstem that breaks smoke into small bubbles.
+- B9.3.13 | Hookah grommet |  | Rubber or silicone seal that fits a bowl, hose or base to a hookah.
+- B9.3.15 | Bong bowl piece [slide] |  | Removable bowl that fits a bong's downstem or joint and holds dry material.
+- B9.3.16 | Dab nail [banger] |  | Heated surface fitted to a dab rig on which concentrate is vaporised; quartz bangers included.
+- B9.2.1.07 | Calabash |  | Pipe with a gourd-shaped bowl, traditionally a gourd body with a separate cup, the briar calabash shape included.
+- B9.2.1.08 | Apple |  | Pipe with a rounded, apple-shaped bowl.
+- B9.2.1.09 | Cavalier |  | Pipe whose bowl rises from a long horizontal shank chamber.
+- B9.2.1.10 | Dublin |  | Pipe with a conical bowl widening toward the rim.
+- B9.2.1.11 | Sitter |  | Pipe with a flat base that stands upright on its own, the poker included.
+- B9.2.1.12 | Tyrolean pipe |  | Alpine long pipe with a bowl set over a separate sump and a long stem.
+- B9.2.1.13 | Vest pocket |  | Small, flat pipe made to fit a waistcoat pocket.
+- B9.2.3.06 | Vape pen kit |  | Pen-shaped battery with a tank or cartridge, sold together as a kit.
+- B9.1.10.08 | Hashish [hash, charas] |  | Cannabis resin pressed into blocks or balls from dry-sifted or hand-rubbed glands; ice water hash excluded.
+- B9.3.21 | Cigarette holder |  | Tube in which a cigarette is held while smoked.
+- B9.2.5.07 | Tube injector |  | Hand device that fills empty cigarette tubes with fine-cut tobacco.
+- B9.3.14 | Hookah windcover |  | Perforated cover set over a hookah bowl and its coals to shield them from wind.
+- B9.3.17 | Pipe tamper |  | Small tool for pressing down burning tobacco in a pipe bowl.
+- B9.3.18 | Pipe cleaner |  | Absorbent wire-cored cleaner made for cleaning a pipe's stem and shank.
+- B9.3.19 | Pipe filter |  | Charcoal, balsa or paper filter insert for a filter pipe.
+- B9.3.20 | Pipe stand [pipe rack] |  | Stand or rack that holds tobacco pipes when not in use.
+- B9.2.5.05 | Filter tip [roach, crutch] |  | Loose filter or card tip for a hand-rolled cigarette or joint.
+- B9.2.5.06 | Cigarette tube |  | Empty filtered paper tube filled with fine-cut tobacco by an injector.
+- B9.2.6.07 | Snuff box |  | Small box for carrying snuff on the person.
+- B9.1.5.06 | Dried opium |  | dried opium poppy product taken for a psychoactive effect (K-168; provisional until attested).
+- B9.1.8.10 | Nicotine toothpick |  | toothpick infused with nicotine.
+- B9.1.5.08 | Psychoactive mushroom product |  | dried psychoactive mushroom material (K-168; provisional until attested).

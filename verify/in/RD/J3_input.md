@@ -1,0 +1,189 @@
+# J3 Dairy, Eggs & Alternatives: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object: product family, cheese by family
+- reason: Shops sell dairy, eggs and chilled as one department split by product (FairPrice, ALDI); cheese specialists and testers group by firmness and make (Mons, Butlers, Stiftung Warentest, lecker.de).
+- ladder: What are you buying? > Which family or type? > Which cheese or product? > What makes the best (milk, make, maturing, condition)? > Who vouches? > The named best (protected names, breeds, makers)
+- level1_groups: G-J3-1 Milk; G-J3-2 Cream & butter; G-J3-3 Yoghurt & fermented milks; G-J3-4 Cheese; G-J3-5 Eggs; G-J3-6 Baby milks & milk powders; G-J3-7 Dairy-free alternatives
+- quality_markers: cheese: milk provenance, traditional make and rind, maturing and age, condition, flavour length; eggs: housing, grade, feed, size; milk: animal and breed, treatment, fat class; butter: grade, cultured, PDO; plant: base ingredient, use, ethics score; infant formula: no tier
+- quality_signals: PDO, PGI, TSG, AOP (EU, INAO); World Cheese Awards (Guild of Fine Food); Great Taste (Guild of Fine Food); USDA cheese, butter, egg and dry milk grades; CFIA grades; EU egg classes and farming codes; Parmigiano Reggiano marks, Grana Padano classes, Comté bands (consortia); Ethical Consumer scores; Stiftung Warentest tests; Slow Food Presidia (R-115 a, to harvest)
+- maker_role: none, with R-115 b: cheesemakers and affineurs enter when an award list, Presidium or specialist selection names them
+- side_view: by maker for cheese and butter (Butlers brand route); award-winners collection; goat and sheep view from milk_species
+- evidence_rows: NTUC FairPrice (SG); ALDI Australia all products (AU); Mons Cheesemongers (UK/FR); Butlers Farmhouse Cheeses (UK); Stiftung Warentest test.de cheese Q and A (DE); lecker.de Käsesorten im Überblick (DE); Gourmet Traveller how to choose great cheese (AU); Syndicat PDO dairy products France what is a PDO (FR); World Cheese Awards via KSL (intl); eatright.org understanding egg labels (US); Ethical Consumer plant milk shopping guide (UK); Farm Sanctuary guide to plant-based milks (US)
+- maker role row: {'code': 'J3', 'scope': '*', 'role': 'none', 'provisional': 'no', 'reason': 'grocery rule; cheese houses and dairies enter through their branded products (R-109)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-J3-1 | Milk | 1 |  | 
+- G-J3-2 | Cream & butter | 1 |  | 
+- G-J3-3 | Yoghurt & fermented milks | 1 |  | 
+- G-J3-4 | Cheese | 1 |  | 
+- G-J3-5 | Eggs | 1 |  | 
+- G-J3-6 | Baby milks & milk powders | 1 |  | 
+- G-J3-7 | Dairy-free alternatives | 1 |  | 
+- G-J3-8 | Cow's milk | 2 | G-J3-1 | J3.1.01
+- G-J3-9 | Goat's, sheep's & buffalo milk | 2 | G-J3-1 | J3.1.02; J3.1.03; J3.1.04
+- G-J3-10 | Buttermilk, evaporated & condensed milk, dulce de leche | 2 | G-J3-1 | J3.1.05; J3.1.06; J3.1.07
+- G-J3-11 | Cream | 2 | G-J3-2 | J3.2.1.02; J3.2.1.01; J3.2.1.04; J3.2.1.03; J3.2.1.05; J3.2.1.06; J3.2.1.07; J3.2.1.08; J3.2.1.09
+- G-J3-12 | Butter & ghee | 2 | G-J3-2 | J3.2.2.04; J3.2.2.02; J3.2.2.01; J3.2.2.03
+- G-J3-13 | Yoghurts (set, stirred, strained, skyr) | 2 | G-J3-3 | J3.3.01; J3.3.05; J3.3.06; J3.3.07
+- G-J3-14 | Drinking & cultured milks (kefir, kumys, soured milk) | 2 | G-J3-3 | J3.3.02; J3.3.03; J3.3.04; J3.3.08; J3.3.09
+- G-J3-15 | Fresh & whey cheeses | 2 | G-J3-4 | J3.4.1.04; J3.4.1.02; J3.4.1.05; J3.4.1.01; J3.4.1.03; J3.4.1.06; J3.4.1.07; J3.4.1.08; J3.4.1.09; J3.4.1.10
+- G-J3-16 | Mozzarella, stretched & brined cheeses | 2 | G-J3-4 | J3.4.2.01; J3.4.3.01; J3.4.3.02; J3.4.2.02; J3.4.3.03; J3.4.2.03; J3.4.2.04; J3.4.3.04; J3.4.3.05
+- G-J3-17 | Soft white-rind cheeses | 2 | G-J3-4 | J3.4.4.01; J3.4.4.02; J3.4.4.03; J3.4.4.04
+- G-J3-18 | Washed-rind cheeses | 2 | G-J3-4 | J3.4.5.01; J3.4.5.02; J3.4.5.03
+- G-J3-19 | Semi-hard cheeses | 2 | G-J3-4 | J3.4.6.01; J3.4.6.03; J3.4.6.02; J3.4.6.04; J3.4.6.05; J3.4.6.06; J3.4.6.07; J3.4.6.08; J3.4.6.11; J3.4.6.09; J3.4.6.10; J3.4.6.12; J3.4.6.13; J3.4.6.14; J3.4.6.15; J3.4.6.16; J3.4.6.17; J3.4.6.18; J3.4.6.19; J3.4.6.20; J3.4.6.21; J3.4.6.22
+- G-J3-20 | Hard & long-aged cheeses | 2 | G-J3-4 | J3.4.7.01; J3.4.7.02; J3.4.7.03; J3.4.7.04; J3.4.7.05; J3.4.7.06
+- G-J3-21 | Blue cheeses | 2 | G-J3-4 | J3.4.9.01; J3.4.9.02; J3.4.9.03; J3.4.9.04
+- G-J3-22 | Dried dairy (aaruul, chhurpi, qurut, kashk) | 2 | G-J3-4 | J3.4.8.03; J3.4.8.04; J3.4.8.01; J3.4.8.02; J3.4.8.05; J3.4.8.06
+- G-J3-23 | Processed cheese & selections | 2 | G-J3-4 | J3.4.10.01; J3.4.0.01
+- G-J3-24 | Hen's eggs | 2 | G-J3-5 | J3.5.01
+- G-J3-25 | Duck & quail eggs | 2 | G-J3-5 | J3.5.02; J3.5.03
+- G-J3-26 | Preserved, liquid & dried egg | 2 | G-J3-5 | J3.5.04; J3.5.05; J3.5.06
+- G-J3-27 | Infant, follow-on & growing-up milks | 2 | G-J3-6 | J3.6.03; J3.6.04; J3.6.05
+- G-J3-28 | Milk powders | 2 | G-J3-6 | J3.6.01; J3.6.02
+- G-J3-29 | Plant drinks | 2 | G-J3-7 | J3.7.1.01; J3.7.1.02; J3.7.1.03; J3.7.1.04; J3.7.1.05; J3.7.1.06
+- G-J3-30 | Plant yoghurts | 2 | G-J3-7 | J3.7.2.01
+- G-J3-31 | Plant cheeses | 2 | G-J3-7 | J3.7.3.01; J3.7.3.02
+- G-J3-32 | Plant creams & creamers | 2 | G-J3-7 | J3.7.4.01; J3.7.4.02
+- G-J3-33 | Plant egg alternatives | 2 | G-J3-7 | J3.7.5.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-J3-4 | milk provenance (single farm or herd, pasture-fed) |  | Single-farm, pasture-fed milk is the first mark of a great cheese. | Gourmet Traveller how to choose great cheese (AU); Butlers Farmhouse Cheeses (UK); Mons Cheesemongers (UK/FR)
+- G-J3-4 | traditional make and natural rind |  | Natural or clothbound rind, not plastic or wax; handmade by named producers. | Gourmet Traveller how to choose great cheese (AU); Butlers Farmhouse Cheeses (UK); Mons Cheesemongers (UK/FR)
+- G-J3-4 | condition at purchase (rind, paste, smell) |  | Smooth rind, sound paste, no ammonia; soft cheese yields to finger. | Gourmet Traveller how to choose great cheese (AU); Stiftung Warentest test.de cheese Q and A (DE)
+- G-J3-4 | flavour complexity and length |  | Judges score appearance, aroma, flavour and mouthfeel; length marks the best. | Gourmet Traveller how to choose great cheese (AU); World Cheese Awards via KSL (intl)
+- G-J3-4 | award medal | Super Gold > Gold > Silver > Bronze | World Cheese Awards medals by judge tables; Super Gold goes to final 16. | World Cheese Awards via KSL (intl)
+- G-J3-4 | protected origin |  | PDO/AOP fixes milk origin, method and maturing area; unranked, not a grade. | Syndicat PDO dairy products France what is a PDO (FR)
+- G-J3-19 | USDA Cheddar grade | U.S. Grade AA > U.S. Grade A > U.S. Grade B > U.S. Grade C | Statutory grade for Cheddar (GS-usda-cheddar-us-grades). | data/grading_scales.tsv
+- G-J3-20 | Parmigiano Reggiano selection | Scelto > Mezzano > Scarto | Consorzio selection at 12 months (GS-parmigiano-reggiano-selection-marks). | data/grading_scales.tsv
+- G-J3-20 | age class (Grana Padano) | Riserva over 24 months > Riserva over 20 months > over 16 months > from 9 months | Ageing classes of the consortium (GS-grana-padano-ageing-classes). | data/grading_scales.tsv
+- G-J3-20 | Comté band | Green band Comté clochette (14 to 20/20) > Brown band Comté (12 to 14/20) | Comté scored out of 20 by the interprofession (GS-cigc-comte-band-classes). | data/grading_scales.tsv
+- G-J3-12 | USDA butter grade | U.S. Grade AA > U.S. Grade A > U.S. Grade B | Statutory butter grade (GS-usda-butter-us-grades); PDO butters beside. | data/grading_scales.tsv; Syndicat PDO dairy products France what is a PDO (FR)
+- G-J3-24 | hen housing | 0 organic > 1 free range > 2 barn > 3 enriched cage | Eggs graded by housing as much as quality; EU code on shell. | eatright.org understanding egg labels (US); data/grading_scales.tsv
+- G-J3-24 | US housing labels |  | Organic, pasture-raised, free-range, cage-free; pasture-raised is unregulated. | eatright.org understanding egg labels (US)
+- G-J3-24 | egg quality grade | USDA Grade AA > USDA Grade A > USDA Grade B | Lowest of shell, white and yolk sets the grade; colour is only breed. | eatright.org understanding egg labels (US)
+- G-J3-8 | herd breed and milk origin |  | Breed (Jersey, Guernsey) and milk origin are the stored named best (varieties, PDO). | Syndicat PDO dairy products France what is a PDO (FR); data/varieties.tsv
+- G-J3-28 | USDA nonfat dry milk grade | U.S. Extra Grade > U.S. Standard Grade | Statutory grade (GS-usda-nonfat-dry-milk-spray-us-grades). | data/grading_scales.tsv
+- G-J3-27 | regulated composition (no quality tier) |  | All first infant formula meets one standard; stage and protein base only. | framework/structure/J3.md
+- G-J3-29 | base ingredient and use |  | Plant milks chosen by base and use (coffee, frothing, cooking); no grades. | Farm Sanctuary guide to plant-based milks (US); Ethical Consumer plant milk shopping guide (UK)
+- G-J3-29 | company and ingredient ethics score |  | Ethical Consumer scores out of 100 by ownership, ingredient impact, packaging. | Ethical Consumer plant milk shopping guide (UK)
+
+## Kinds (kind_id | stored name | native name | definition)
+- J3.1.04 | Sheep's milk |  | liquid milk of the sheep.
+- J3.1.06 | Evaporated and condensed milk |  | milk with part of its water removed, unsweetened (evaporated) or sweetened (condensed), sold tinned or tubed.
+- J3.1.07 | Dulce de leche |  | sweetened milk cooked down to a thick caramel-like milk spread.
+- J3.2.1.02 | Whipping cream |  | cream of a fat content that whips.
+- J3.2.1.01 | Single (light) cream |  | pouring cream of lower fat content that does not whip.
+- J3.2.1.04 | Double cream |  | cream of the highest pouring and whipping fat tier.
+- J3.2.1.03 | Thickened cream |  | cream with a thickener added to a whipping fat tier so that it holds its shape when whipped.
+- J3.2.1.05 | Soured cream |  | cream cultured to a sour, thick finish.
+- J3.1.03 | Goat's milk |  | liquid milk of the goat.
+- J3.2.1.06 | Crème fraîche |  | thick cultured cream with a mild sour taste.
+- J3.2.2.04 | Ghee |  | clarified butter cooked until its milk solids brown, with a nutty flavour and long shelf life.
+- J3.2.2.02 | Spreadable butter blend |  | spread of butter blended with vegetable oil; a spread that contains butter.
+- J3.2.2.01 | Butter |  | churned milk fat and water, salted or unsalted.
+- J3.6.02 | Whole milk powder |  | dried whole milk.
+- J3.3.03 | Kefir |  | milk fermented with kefir culture (grains), a tart drinkable fermented milk.
+- J3.4.6.01 | Cheddar |  | semi-hard pressed cheese made by cheddaring the curd, mild to vintage by age.
+- J3.4.6.03 | Gouda |  | semi-hard pressed round cheese of Dutch type, young to aged.
+- J3.4.6.02 | Emmental |  | semi-hard Alpine cooked-pressed cheese with large holes.
+- J3.4.1.04 | Quark [Speisequark] |  | fresh, soft, strained sour-milk cheese, spoonable.
+- J3.4.2.01 | Feta |  | white cheese matured in brine, crumbly and salty.
+- J3.4.3.01 | Burrata |  | stretched-curd pouch filled with strands of curd and cream.
+- J3.4.3.02 | Mozzarella |  | stretched-curd cheese, moist and mild, fresh or low-moisture.
+- J3.4.4.01 | Brie |  | large, flat white-mould soft cheese.
+- J3.4.4.02 | Camembert |  | small, round white-mould soft cheese.
+- J3.4.5.01 | Limburger |  | soft cheese with a washed rind and a strong smell.
+- J3.4.6.04 | Havarti |  | semi-hard, smooth, buttery pressed cheese with small irregular holes.
+- J3.4.7.01 | Grana-type hard cheese (parmesan) |  | hard, granular, long-aged cheese of the grana kind.
+- J3.4.7.02 | Pecorino |  | hard sheep's-milk cheese, salted and aged.
+- J3.4.9.01 | Blue cheese (Gorgonzola) |  | blue-veined cheese of the Gorgonzola type, creamy to firm.
+- J3.1.01 | Cow's milk [牛乳] |  | liquid milk of the cow, whatever its fat level or treatment, including lactose-free cow's milk.
+- J3.3.01 | Yoghurt [ヨーグルト] |  | milk fermented with yoghurt culture, set or stirred, plain or fruited, spoon-eaten.
+- J3.3.05 | Strained (Greek-style) yoghurt |  | yoghurt with whey strained off to a thick, concentrated texture.
+- J3.3.06 | Skyr |  | strained cultured milk product of Nordic origin, sold as a yoghurt.
+- J3.4.1.02 | Cream cheese |  | soft, spreadable fresh cheese of milk and cream.
+- J3.4.10.01 | Processed cheese |  | cheese melted with emulsifiers and re-formed as slices, blocks or spread.
+- J3.4.1.05 | Spreadable soft cheese |  | fresh soft cheese sold to spread, seasoned or plain, other than cream cheese.
+- J3.4.0.01 | Mixed cheeses |  | selection of cheeses (for example a selection box) none of which is half or more of the weight.
+- J3.5.02 | Duck egg |  | egg of the duck in the shell, raw.
+- J3.5.04 | Preserved or plain-cooked egg |  | egg of any species salted, pickled, cured (century) or plainly boiled in the shell.
+- J3.5.01 | Hen's egg [たまご] |  | egg of the domestic hen in the shell, raw.
+- J3.6.01 | Skimmed milk powder |  | dried milk with the fat removed.
+- J3.6.03 | Infant formula |  | breast-milk substitute for babies in the first months, a normal food (first or stage 1 formula).
+- J3.6.04 | Follow-on formula |  | milk formula for babies from about six months.
+- J3.6.05 | Growing-up milk |  | milk drink for toddlers and young children, outside the infant formula categories.
+- J3.7.1.01 | Almond drink |  | drink made from almonds.
+- J3.7.1.02 | Coconut drink |  | coconut drink sold as a milk alternative (coconut milk and cream for cooking are J5).
+- J3.7.1.03 | Oat drink |  | drink made from oats.
+- J3.7.1.04 | Soy drink |  | drink made from soya beans.
+- J3.7.2.01 | Plant yoghurt |  | fermented or cultured plant product sold as a yoghurt alternative, whatever its base.
+- J3.7.3.01 | Plant cheese, firm style |  | block, sliced or grated plant cheese alternative.
+- J3.7.3.02 | Plant cheese, soft style |  | spreadable, soft, camembert- or blue-style plant cheese alternative.
+- J3.7.4.01 | Plant cream |  | plant product sold as a replacement for cream.
+- J3.7.4.02 | Plant creamer |  | plant product sold as a replacement for cream or milk in coffee or tea.
+- J3.7.5.01 | Plant egg alternative |  | plant product sold as a replacement for egg (for example aquafaba).
+- J3.4.1.01 | Cottage cheese |  | fresh curd cheese in loose curds with a cream dressing.
+- J3.4.9.02 | Blue cheese (Stilton) |  | blue-veined, crumbly, firm cheese of the Stilton type.
+- J3.4.8.03 | Jameed |  | hard dried salted yoghurt of the Levant.
+- J3.4.8.04 | Kashk |  | dried whey or strained yoghurt product of Iran and the Middle East.
+- J3.1.02 | Buffalo milk |  | liquid milk of the buffalo.
+- J3.5.03 | Quail egg |  | egg of the quail in the shell, raw.
+- J3.4.1.03 | Paneer |  | fresh, unsalted, non-melting acid-set curd cheese of South Asia.
+- J3.1.05 | Buttermilk |  | plain fermented or cultured liquid left from or made to resemble the churning of butter, sold as a drink or cooking liquid.
+- J3.3.02 | Drinking yoghurt, plain |  | plain unsweetened drinkable fermented milk (ayran and plain lassi are named forms); sweetened or flavoured drinks are not in J3.
+- J3.3.07 | Other concentrated fermented milk |  | concentrated fermented milk that is neither strained yoghurt nor skyr (labneh, ymer, ylette).
+- J3.2.2.03 | Clarified butter |  | butter with its water and milk solids removed.
+- J3.4.8.01 | Aaruul |  | sun-dried hard curd of Mongolia.
+- J3.4.8.02 | Chhurpi |  | hard dried cheese of the Himalaya.
+- J3.4.8.05 | Qurut |  | dried salted yoghurt balls of Central Asia.
+- J3.3.04 | Kumys |  | fermented mare's or other milk of the Central Asian type, defined by its culture.
+- J3.4.9.03 | Blue cheese (generic) |  | blue-veined cheese sold as blue cheese or under a variety name with no kind of its own (Danish blue, Cambozola); not the Gorgonzola, Stilton or Roquefort types.
+- J3.4.9.04 | Blue cheese (Roquefort) |  | blue-veined sheep's-milk cheese of the Roquefort type, cave-ripened, moist and crumbly.
+- J3.2.1.07 | Dairy coffee creamer |  | milk- or cream-based liquid or powder made to whiten coffee or tea, often sweetened or flavoured; plain cream goes by its fat tier.
+- J3.2.1.08 | Clotted cream |  | cream heated and slowly cooled until a thick crusted layer of fat forms, spooned rather than poured, of the highest cream fat tier.
+- J3.2.1.09 | Aerosol whipped cream |  | cream, usually sweetened and stabilised, packed under propellant gas in a can that whips it as it is dispensed.
+- J3.4.1.06 | Ricotta |  | whey cheese made by reheating whey, often with milk added, and lifting the fine curd; soft, moist and mild.
+- J3.4.1.07 | Mascarpone |  | soft, thick fresh cheese of cream set with acid, rich and mild.
+- J3.4.2.02 | Halloumi |  | semi-hard cheese kept in brine whose curd is heated in whey and folded; firm, squeaky and non-melting when grilled.
+- J3.4.3.03 | Provolone |  | stretched-curd cheese moulded in pear, sausage or cylinder shapes and aged, mild (dolce) to sharp (piccante).
+- J3.4.6.05 | Edam |  | semi-hard pressed round cheese of Dutch type, mild, often sold in a wax coat.
+- J3.4.7.03 | Gruyère |  | hard Alpine cooked-pressed cheese with a brushed or smear rind and few or no holes, nutty, aged for months.
+- J3.4.7.04 | Hard cooked-pressed cheese (Comté) |  | hard cooked-pressed cheese of the Jura type, made in large wheels from raw cow's milk and aged for months.
+- J3.4.6.06 | Manchego |  | firm pressed cheese with a basket-weave rind, of sheep's milk in Spain (cow's or mixed milk in Mexican manchego), sold fresh to aged.
+- J3.3.08 | Soured milk (mesophilic cultured milk) |  | milk fermented whole by a mesophilic lactic culture at room temperature, mild, thick or ropy, poured or spooned; not buttermilk (filmjölk, viili, piimä).
+- J3.4.1.08 | Fresh white cheese (queso fresco) |  | fresh, unripened, salted white cheese of pressed or drained rennet or acid curd, crumbly or sliceable, mild (queso fresco, queso blanco, panela, Minas frescal, kesong puti).
+- J3.4.1.09 | Grilling cheese |  | fresh or briefly ripened rennet cheese with a high melting point, sold to grill, fry or bake without melting, not kept in brine (queijo coalho, juustoleipä, kalari); halloumi is J3.4.2.02.
+- J3.4.1.10 | Brown whey cheese (brunost) |  | whey, often with milk or cream, boiled down until the sugars caramelise and set into a brown, sweet, fudge-like block (brunost, mysost, geitost, gjetost).
+- J3.4.2.03 | Brined white cheese |  | white cheese ripened and kept in brine, soft to semi-hard, salty, sold as white cheese or under a regional name, not as feta (beyaz peynir, sirene, telemea, Domiati, Lighvan, Imeruli).
+- J3.4.2.04 | Brined stretched-curd cheese (sulguni) |  | elastic, layered stretched-curd cheese salted and kept in brine, sold fresh or smoked (sulguni, Megruli and Svanuri sulguni).
+- J3.4.3.04 | Kashkaval (kaşar) |  | scalded, kneaded-curd cheese pressed in wheels or blocks and ripened, mild (fresh) to sharp (aged) (kaşar, kashkaval, caşcaval, kasseri, kačkavalj).
+- J3.4.3.05 | String cheese, braided or wound |  | stretched curd pulled into strands or a ribbon and braided, wound or coiled, peeled apart to eat, often brined or smoked (çeçil, chechil, Oaxaca, dil, örgü, korbáčik); stick-format mozzarella is mozzarella.
+- J3.4.5.02 | Washed-rind cheese (generic) |  | soft or semi-soft cheese with a washed or smear rind sold as washed-rind cheese or under a name with no kind of its own (Époisses, Munster, Taleggio, Reblochon, brick).
+- J3.4.6.07 | Raclette |  | semi-hard pressed cheese with a washed or smear rind, made to melt and be scraped (Raclette du Valais AOP, Raclette de Savoie PGI).
+- J3.4.6.08 | Semi-hard pressed cheese (tomme and farmhouse types) |  | firm or semi-hard pressed cheese sold as tomme or under a maker's or regional name that has no kind of its own (Tomme de Savoie, Cantal, Caerphilly, Minas padrão, mantecoso).
+- J3.4.6.11 | Skin-ripened cheese (tulum) |  | crumbly salted cheese packed and ripened in an animal skin or a casing (tulum, guda, motal).
+- J3.4.7.05 | Roomi (gebna rumi) |  | hard, sharp, aged cow's-milk cheese of the Egyptian type, often with peppercorns.
+- J3.4.7.06 | Cotija |  | dry, salty, crumbly cow's-milk cheese of the Mexican type, sold young or aged for grating.
+- J3.4.8.06 | Rushan (dried milk-fan cheese) |  | thin sheets of stretched cow's-milk curd wrapped on rods and air-dried to a shelf-stable fan.
+- J3.3.09 | Fermented baked milk (ryazhenka) |  | milk baked for hours until browned, then fermented to a thick, caramel-tasting drink or spoonable product (ryazhenka, varenets).
+- J3.5.05 | Liquid egg |  | pasteurised egg out of the shell, whole, white or yolk, sold chilled or frozen in cartons.
+- J3.5.06 | Dried egg (egg powder) |  | egg out of the shell dried to a powder, whole, white or yolk.
+- J3.7.1.05 | Walnut drink |  | drink made from walnuts, sold as a plant milk or plant-protein drink.
+- J3.7.1.06 | Peanut drink |  | drink made from peanuts, sold as a plant milk or plant-protein drink.
+- J3.4.4.03 | Bloomy-rind soft cheese (generic) |  | white-mould soft cheese sold as soft-ripened cheese or under a name with no kind of its own (Chaource, Neufchâtel, Brillat-Savarin); not brie or camembert.
+- J3.4.4.04 | Lactic soft-ripened cheese (crottin type) |  | small soft cheese of slow acid-set (lactic) curd, mostly goat's milk, ripened with a natural, geotrichum, mould or ash rind (crottin, Sainte-Maure, Valençay, Picodon, Saint-Marcellin).
+- J3.4.5.03 | Sour-milk cheese (Harzer, Handkäse) |  | small cheese of ripened acid curd (quark), ripened with a smear or mould to a translucent, pungent body (Harzer, Handkäse, Olomoucké tvarůžky, Graukäse, gamalost).
+- J3.4.6.09 | Colby |  | mild, moist, washed-curd semi-hard cheese of the American type, often orange.
+- J3.4.6.10 | Monterey Jack |  | mild, pale, semi-soft to semi-hard pressed cheese of the Californian type, aged to dry Jack.
+- J3.4.6.12 | Fontina |  | semi-hard, supple washed-rind cow's-milk cheese of the Aosta type, melting well (Fontina DOP; Danish and US fontina).
+- J3.4.6.13 | Asiago |  | pressed cow's-milk cheese of the Asiago type, fresh (pressato) or aged (d'allevo).
+- J3.4.6.14 | Tilsit |  | semi-hard smear-ripened cheese with small holes, of the Tilsit type.
+- J3.4.6.15 | Tomme [toma] |  | semi-hard pressed cheese of the Alpine or Pyrenean tomme type, in small wheels with a natural grey rind, mild to earthy (Tomme de Savoie, Tome des Bauges, Toma Piemontese); fresh tomme curd is J3.4.1.08.
+- J3.4.6.16 | Soft thistle-rennet cheese (torta) |  | sheep's-milk cheese set with thistle (Cynara) rennet and ripened under a firm natural rind until the paste is soft and spoonable (Serra da Estrela, La Serena, Azeitão, Torta del Casar).
+- J3.4.6.17 | Wensleydale |  | crumbly, moist, mild pressed cow's-milk cheese of the Wensleydale type; Wensleydale Blue is J3.4.9.03.
+- J3.4.6.18 | Caerphilly |  | moist, crumbly, lightly pressed cow's-milk cheese of the Caerphilly type, young and mild or ripened with a soft rim.
+- J3.4.6.19 | Lancashire |  | crumbly or creamy pressed cow's-milk cheese of the Lancashire type, made by mixing curds of more than one day.
+- J3.4.6.20 | Cheshire |  | dense, crumbly, slightly salty pressed cow's-milk cheese of the Cheshire type, white or coloured red.
+- J3.4.6.21 | Gloucester (Double and Single) |  | smooth, firm pressed cow's-milk cheese of the Gloucester type, Double (full milk, often coloured) or Single (part-skimmed).
+- J3.4.6.22 | Spiced Dutch cheese (Leyden, nagelkaas) |  | Dutch-type pressed cheese of partly skimmed milk with cumin or cloves worked into the curd (Leidse kaas, Friese nagelkaas, komijnekaas).

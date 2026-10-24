@@ -1,0 +1,137 @@
+# F5 Documents & Personal Records: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (the kind of paper or record: letters and autographs, postcards, photographs, certificates and documents, cards and passes, other ephemera, albums); provisional
+- reason: The dealers that divide this material at all divide it by type of paper (Richmond Autographs classes letters and signed documents by type; AbeBooks ephemera collecting guide lists ephemera by type; Yahoo Auctions Japan files postcards as their own class under antiques), the marketplaces otherwise keep one flat class (AbeBooks Manuscripts & Paper Collectables; Antiques in France old documents), and the one scene-like split, postcards by motif (Briefmarkenmesse Essen), is a subject tag, so type leads; the memo's function tree stays the home, grouped for display; provisional because the evidence is thin.
+- ladder: What kind of paper or record (letters and autographs; postcards and printed ephemera; photographs; certificates and documents; cards and passes; albums and scrapbooks; home recordings)? > Which form (ALS, LS, TLS, cut signature; picture or real photo postcard; cabinet card, slide; share certificate, diploma)? > Which subject, era and condition (motif and topic tags, period, condition scale)
+- level1_groups: Letters, autographs and manuscripts; Postcards and printed ephemera; Photographs, slides and negatives; Certificates, deeds and financial papers; Identity and travel papers; Cards and passes; Albums and scrapbooks; Home recordings
+- quality_markers: Letters and autographs (Richmond): identity of the writer (individual-item fact: a view only through named forms, never stored per sheet) > rarity of that writer's material > content > condition; document class ladder as the dealer lists it, wholly handwritten above secretarial and typed: ALS > LS > TLS > DS > AL > AQS > AMQS > cut signature (classification, provisional order); Postcards (Briefmarkenmesse Essen): age (golden age 1895 to the First World War) > motif and artist (topographic views, Jugendstil and artist cards) > condition > print process (chromolithograph, real photo) > intact stamp; Japanese prewar postcards (Yahoo): dirt and folds noted; Ephemera generally (AbeBooks guide): historical insight > notable creators or signers > beauty and design > rarity and condition > significance; Documents and cards held as one's own papers: preference, no ranking (memo); Old documents (Antiques in France): condition > period
+- quality_signals: Autograph document classes ALS, LS, TLS, DS, AL, AQS, AMQS, cut signature (Richmond Autographs): C16 registry row, scale_type classification (R-2), kinds served letter and autograph; ABA and ILAB membership of autograph and ephemera dealers: seller trust, a note on the source, never a tier; Antiques in France condition steps Excellent > Very good > Good > Fair > Needs restoration: registry row, scale_type platform label; Maurice Rickards' definition of ephemera (scope reference, not a signal); no grading body, award or rating found for any F5 kind; archival conformity ISO 18902 and PAT for albums (memo attribute)
+- maker_role: none (confirm; maker_roles.tsv F5): issuers sit in the issuer table; card makers, security printers, postcard publishers and album makers appear only through named forms
+- side_view: Generated views by motif and topic (Briefmarkenmesse collecting areas: place views, Jugendstil and artist cards, railway and ships, military), by period (century; postcard eras), and by issuer for cards and documents; no maker tab
+- evidence_rows: Antiques in France old documents; AbeBooks Manuscripts & Paper Collectables; Yahoo Auctions Japan postcard listing; Richmond Autographs collector guide; Briefmarkenmesse Essen postcards; AbeBooks ephemera collecting guide
+- maker role row: {'code': 'F5', 'scope': '*', 'role': 'none', 'provisional': 'yes', 'reason': "personal records have no maker in the shopper's sense"}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-F5-1 | Letters, autographs & manuscripts | 1 |  | F5.3.1.01; F5.3.1.02; F5.3.1.03; F5.3.1.04; F5.3.1.05; F5.3.1.06; F5.3.5.04
+- G-F5-2 | Postcards & printed ephemera | 1 |  | F5.3.5
+- G-F5-3 | Photographs, slides & negatives | 1 |  | F5.3.2.01; F5.3.2.02; F5.3.2.03
+- G-F5-4 | Certificates, deeds & financial papers | 1 |  | F5.1.2; F5.1.3; F5.1.4
+- G-F5-5 | Identity & travel papers | 1 |  | F5.1.1; F5.1.5
+- G-F5-6 | Cards & passes | 1 |  | F5.2
+- G-F5-7 | Albums & scrapbooks | 1 |  | F5.3.4.01; F5.3.4.02
+- G-F5-8 | Home recordings | 1 |  | F5.3.3.01; F5.3.3.02
+- G-F5-9 | Postcards | 2 | G-F5-2 | F5.3.5.01
+- G-F5-10 | Tickets, programmes and timetables | 2 | G-F5-2 | F5.3.5.02; F5.3.5.03; F5.3.5.14; F5.3.5.17
+- G-F5-11 | Advertising and trade ephemera | 2 | G-F5-2 | F5.3.5.07; F5.3.5.08; F5.3.5.12; F5.3.5.11; F5.3.5.10; F5.3.5.09
+- G-F5-12 | Menus, invitations and visiting cards | 2 | G-F5-2 | F5.3.5.05; F5.3.5.06; F5.3.5.16
+- G-F5-13 | Bookplates and bookmarks | 2 | G-F5-2 | F5.3.5.13; F5.3.5.15
+- G-F5-14 | Civil-status certificates | 2 | G-F5-4 | F5.1.2.01; F5.1.2.02; F5.1.2.03; F5.1.2.04; F5.1.2.05; F5.1.2.07; F5.1.2.06
+- G-F5-15 | Share and bond certificates (scripophily) | 2 | G-F5-4 | F5.1.3.04; F5.1.3.05
+- G-F5-16 | Cheques and money orders | 2 | G-F5-4 | F5.1.3.06; F5.1.3.07; F5.1.3.08; F5.1.3.03
+- G-F5-17 | Deeds, wills and tax papers | 2 | G-F5-4 | F5.1.3.01; F5.1.3.02; F5.1.3.09
+- G-F5-18 | Diplomas, certificates and school reports | 2 | G-F5-4 | F5.1.4.01; F5.1.4.02; F5.1.4.03
+- G-F5-19 | Passports, visas and identity papers | 2 | G-F5-5 | F5.1.1.01; F5.1.1.02; F5.1.1.03; F5.1.1.04; F5.1.1.05; F5.1.1.06; F5.1.1.07
+- G-F5-20 | Badges and crew papers | 2 | G-F5-5 | F5.1.5.01; F5.1.5.02; F5.1.5.03
+- G-F5-21 | Payment cards | 2 | G-F5-6 | F5.2.1.01; F5.2.1.02; F5.2.1.03; F5.2.1.05; F5.2.1.04
+- G-F5-22 | Gift, phone and prepaid cards | 2 | G-F5-6 | F5.2.2.01; F5.2.2.02; F5.2.2.04; F5.2.2.03
+- G-F5-23 | Transit cards | 2 | G-F5-6 | F5.2.3.01
+- G-F5-24 | Membership and loyalty cards | 2 | G-F5-6 | F5.2.4.01; F5.2.4.02
+- G-F5-25 | Key and SIM cards | 2 | G-F5-6 | F5.2.5.01; F5.2.5.02
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-F5-1 | identity of the writer |  | First; one sheet's fact, shown only through named forms, never stored per sheet (C16). | proposals.tsv F5 row (quality_markers); Richmond Autographs collector guide
+- G-F5-1 | rarity of that writer's material |  | Second. | proposals.tsv F5 row (quality_markers); Richmond Autographs collector guide
+- G-F5-1 | content |  | Third. | proposals.tsv F5 row (quality_markers); Richmond Autographs collector guide
+- G-F5-1 | condition |  | Fourth. | proposals.tsv F5 row (quality_markers); Richmond Autographs collector guide
+- G-F5-1 | document class | ALS > LS > TLS > DS > AL > AQS > AMQS > cut signature | Wholly handwritten above secretarial and typed; a classification scale used as a filter (provisional order, R-2). | proposals.tsv F5 row (quality_markers); proposals.tsv F5 row (quality_signals); Richmond Autographs collector guide
+- G-F5-2 | historical insight |  | First for ephemera generally; applies to every level-2 group below unless a group has its own markers. | proposals.tsv F5 row (quality_markers); AbeBooks ephemera collecting guide
+- G-F5-2 | notable creators or signers |  | Second. | proposals.tsv F5 row (quality_markers); AbeBooks ephemera collecting guide
+- G-F5-2 | beauty and design |  | Third. | proposals.tsv F5 row (quality_markers); AbeBooks ephemera collecting guide
+- G-F5-2 | rarity and condition |  | Fourth. | proposals.tsv F5 row (quality_markers); AbeBooks ephemera collecting guide
+- G-F5-2 | significance |  | Weighed last. | proposals.tsv F5 row (quality_markers); AbeBooks ephemera collecting guide
+- G-F5-9 | age | golden age (1895 to the First World War) first; postcard eras Pioneer, Divided Back as facets | First. | proposals.tsv F5 row (quality_markers); proposals.tsv F5 row (facets); Briefmarkenmesse Essen postcards
+- G-F5-9 | motif and artist | topographic views, Jugendstil and artist cards (tags) | Subject tags, never kinds. | proposals.tsv F5 row (quality_markers); Briefmarkenmesse Essen postcards
+- G-F5-9 | condition |  | Third; Japanese prewar listings note dirt and folds. | proposals.tsv F5 row (quality_markers); Briefmarkenmesse Essen postcards; Yahoo Auctions Japan postcard listing
+- G-F5-9 | print process | chromolithograph, real photo (print_process values) | Fourth; attribute flagged in structure_flags. | proposals.tsv F5 row (quality_markers); Briefmarkenmesse Essen postcards
+- G-F5-9 | intact stamp | posted or unposted, stamp intact | Weighed last. | proposals.tsv F5 row (quality_markers); Briefmarkenmesse Essen postcards
+- G-F5-4 | condition | Excellent > Very good > Good > Fair > Needs restoration | First for old documents; platform label scale (registry row). | proposals.tsv F5 row (quality_markers); proposals.tsv F5 row (quality_signals); Antiques in France old documents
+- G-F5-4 | period | century | Second. | proposals.tsv F5 row (quality_markers); Antiques in France old documents
+- G-F5-5 | preference, no ranking |  | Held as one's own papers; no quality ladder (memo). | proposals.tsv F5 row (quality_markers); memo F5
+- G-F5-6 | preference, no ranking |  | Held as one's own papers; no grading body, award or rating found (memo). | proposals.tsv F5 row (quality_markers); proposals.tsv F5 row (quality_signals); memo F5
+- G-F5-7 | archival conformity | ISO 18902; PAT passed | Memo attribute for albums; the only signal named. | proposals.tsv F5 row (quality_signals); memo F5
+
+## Kinds (kind_id | stored name | native name | definition)
+- F5.1.1.01 | Passport |  | booklet issued by a state to identify its holder for international travel; ICAO codes (PP, PE, PD, PO, PR, PT, PS, PL, PM) and issuer designs are named forms.
+- F5.1.1.02 | National identity card |  | card issued by a state to prove the holder's identity and citizenship or residence (Jumindeungrokjeung, Nafnskírteini, CURP card, Carteira Nacional de Identificação as named forms; My Number card and Personalausweis named forms †).
+- F5.1.1.03 | Driving licence |  | document issued to permit its holder to drive; licence categories are a C17 entry, issuer designs named forms.
+- F5.1.1.04 | Residence permit |  | document issued to a non-citizen to prove the right to reside (Taiwan's Alien Resident Certificate as a named form).
+- F5.1.1.05 | Visa |  | label, stamp or sheet issued to permit entry to or stay in a country; visa types are a C17 entry.
+- F5.1.2.01 | Birth certificate |  | certificate recording a person's birth.
+- F5.1.2.02 | Marriage certificate |  | certificate recording a marriage (ketubah a named form †; F2 when made as a picture).
+- F5.1.2.03 | Death certificate |  | certificate recording a person's death.
+- F5.1.2.04 | Divorce papers |  | decree or certificate recording the dissolution of a marriage.
+- F5.1.2.05 | Baptism certificate |  | certificate recording a baptism or christening (F2 when made as a picture, K-112).
+- F5.1.2.06 | Vaccination certificate |  | paper record or card certifying vaccinations received (F-22; H2 holds only devices and supplies).
+- F5.1.3.01 | Deed |  | document that conveys or proves title to property (the land itself is G2).
+- F5.1.3.02 | Will |  | document setting out how a person's estate is to be disposed of after death.
+- F5.1.3.03 | Promissory note |  | signed written promise to pay a sum to a named party.
+- F5.1.3.04 | Share certificate |  | printed certificate of ownership of shares in a company (F5, not F3, K-27).
+- F5.1.3.05 | Bond certificate |  | printed certificate of a bond or debt owed by its issuer.
+- F5.1.3.06 | Cheque |  | printed order to a bank to pay a sum, kept as an object (K-27).
+- F5.1.3.07 | Traveller's cheque |  | pre-paid cheque in a fixed amount for travellers, kept as an object (K-27).
+- F5.1.3.08 | Postal order |  | money order issued by a post office, kept as an object (K-27).
+- F5.1.3.09 | Tax paper (return, assessment) |  | paper tax return or assessment notice kept as a record (F-22).
+- F5.1.4.01 | Diploma |  | document issued by a school or university to certify a degree or completed course.
+- F5.1.4.02 | Certificate (of achievement, training or membership) |  | document certifying an achievement, a qualification or membership of a body.
+- F5.1.4.03 | School report |  | report issued by a school on a pupil's progress (F-22).
+- F5.1.5.01 | Identity badge |  | badge or card bearing the holder's name or photograph, carried to show who the holder is (a door-opening function is an attribute, P5).
+- F5.1.5.02 | Access badge |  | badge or pass bearing the holder's name or photograph, carried to show what site or event the holder may enter.
+- F5.1.5.03 | Crew member certificate |  | identity document issued to airline crew under the ICAO and ISO/IEC 7810 formats.
+- F5.2.1.01 | Credit card |  | card that draws on a line of credit from its issuer.
+- F5.2.1.02 | Debit card |  | card that draws directly on the holder's bank account.
+- F5.2.1.03 | Charge card |  | card whose balance must be paid in full each period.
+- F5.2.1.04 | ATM card |  | card that gives access to a bank account at cash machines only.
+- F5.2.2.01 | Gift card |  | card holding a prepaid value redeemable for goods or services (`acceptance` closed-system or semi-closed is an attribute).
+- F5.2.2.02 | Gift certificate |  | paper voucher or gift token redeemable only with its issuer (circulating scrip is F3).
+- F5.2.2.03 | Telephone card |  | prepaid card for public telephones (`technology` optical, chip or magnetic is an attribute).
+- F5.2.3.01 | Transit farecard |  | stored-value or pass card for public transport fares (Suica, Octopus, EZ-Link, China T-Union, SUBE, Beep, Washington Metro farecard as maker-bound named forms tied to C13 rows).
+- F5.2.4.01 | Membership card |  | card issued to show the holder's membership of a club or body.
+- F5.2.4.02 | Loyalty card |  | card issued by a retailer to collect discounts or points.
+- F5.2.5.01 | Key card |  | card that opens a lock and names no holder (a hotel key card, P5).
+- F5.2.5.02 | SIM card |  | physical subscriber identity module card for a mobile network (an eSIM profile is part of its I3 plan, K-28).
+- F5.3.1.01 | Letter |  | written or typed message sent or kept on paper, signed letters included (`document_class`).
+- F5.3.1.02 | Diary or journal |  | written personal diary or journal.
+- F5.3.1.03 | Kept greeting card (written in) |  | greeting card that has been written in and kept (a blank one is C5).
+- F5.3.1.04 | Filled notebook |  | notebook that has been written in and kept (a blank one is C5).
+- F5.3.1.05 | House plans |  | drawn or printed plans of a dwelling kept as a record.
+- F5.3.1.06 | Postally used cover |  | envelope that passed through the post, neither administration-issued nor a first-day cover (K-118).
+- F5.3.2.01 | Photographic print |  | photograph printed on paper or card (carte de visite, cabinet card, real photo postcard, snapshot as named forms).
+- F5.3.2.02 | Slide |  | developed transparency mounted for projection or viewing.
+- F5.3.2.03 | Negative (developed) |  | developed photographic negative on film or plate.
+- F5.3.3.01 | Home film reel |  | film shot by the owner or family on a reel (8 mm, Super 8, 16 mm).
+- F5.3.3.02 | Home videotape |  | videotape recorded by the owner or family.
+- F5.3.4.01 | Photo album (filled) |  | album holding photographic prints.
+- F5.3.4.02 | Scrapbook (filled) |  | album filled with kept papers of every kind (a blank scrapbook album is C4).
+- F5.3.5.01 | Picture postcard |  | printed picture postcard, used or not (`postcard_era` and `print_process` are attributes; a real photo postcard is F5.3.2.01).
+- F5.3.5.02 | Ticket stub |  | used ticket kept after the event or journey.
+- F5.3.5.03 | Programme |  | printed programme of a performance or event, kept.
+- F5.3.5.04 | Autograph |  | signature collected on a card or page (`document_class` cut signature, SP and the like).
+- F5.3.5.05 | Menu |  | printed menu of a restaurant, banquet or voyage, kept.
+- F5.3.5.06 | Invitation |  | printed invitation to an event, kept.
+- F5.3.5.07 | Advertising trade card |  | card issued by a business to advertise it (a card issued in a numbered series to be collected is F3).
+- F5.3.5.08 | Printed advertisement or handbill |  | single printed advertising item kept after use (handbill, flyer, leaflet, a detached magazine or newspaper advertisement page); a large public notice is a broadside, a poster F2, a catalogue or booklet F1 (section 14; a named form of broadside if not attested as its own category).
+- F5.3.5.09 | Business card |  | printed card giving a person's or firm's name and contact details.
+- F5.3.5.10 | Receipt (billheads included) |  | printed or written receipt or billhead, kept.
+- F5.3.5.11 | Label |  | printed product or trade label, kept.
+- F5.3.5.12 | Broadside |  | large single printed sheet issued as a public notice or announcement.
+- F5.3.5.13 | Bookplate |  | printed label pasted in a book to mark its owner (level provisional).
+- F5.3.5.14 | Timetable |  | printed timetable of a transport service, kept (level provisional).
+- F5.3.5.15 | Bookmark |  | printed or card bookmark, kept as ephemera (level provisional).
+- F5.2.1.05 | Charge plate |  | embossed metal or plastic plate issued by a store or company to identify a customer's charge account, the forerunner of the charge card
+- F5.3.5.16 | Visiting card (calling card) |  | small printed or engraved card bearing a person's name, left or exchanged on social calls (die-cut and hidden-name cards included); a card giving contact details for trade is the business card
+- F5.1.2.07 | Confirmation or first communion certificate |  | certificate recording a confirmation or first communion (F2 when made as a picture)
+- F5.3.5.17 | Lottery ticket |  | printed lottery ticket or scratch card kept after the draw
+- F5.1.1.06 | Citizenship or naturalisation certificate |  | certificate issued by a state recording that the holder is, or has become, its citizen
+- F5.2.2.04 | Prepaid e-money card |  | reloadable stored-value card for small payments at many merchants, not drawing on a bank account (transit use an attribute)
+- F5.1.1.07 | Social security or insurance card |  | card issued by a state showing the holder's social security or social insurance number

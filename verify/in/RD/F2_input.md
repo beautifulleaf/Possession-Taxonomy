@@ -1,0 +1,136 @@
+# F2 Art: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (the discipline and medium: painting, print, photograph, sculpture, drawing), with the artist as a co-equal tab
+- reason: Every art shop fetched opens on medium and then subject or style (Artfinder shop all art; Singulart online gallery; eBay Germany Kunst Ratgeber), and the Japanese dealer splits by tradition then technique (Nanboya), while Singulart keeps Artists as a top-level tab beside the media, so medium leads and the artist sits beside it, matching the memo's Candidate A and the way-in maker role.
+- ladder: What kind of artwork (painting, print, photograph, sculpture, drawing)? > Which medium or technique (oil, watercolour; etching, screenprint; gelatin silver, pigment print; bronze, ceramic)? > Original, limited edition or reproduction, then by artist, subject and style, size and price
+- level1_groups: Paintings; Prints; Photographs; Sculpture and figurines; Drawings; Textile and fibre art; Calligraphy; Collage, mosaic and mixed work
+- quality_markers: All art (Abstract House checklist order): authenticity and originality (authenticity_class: original > interpretive > reproduction > restrike; HS97 'wholly executed by hand') > condition (cracks, fading, restoration; one work's facts, never stored) > artist reputation and auction record (maker level) > market value against comparables > style and appeal; Prints (Mark Gray; CAA): edition size (small, under 50, above large; edition class unique > limited > open) > hand signature in pencil and numbering > documentation (certificate, chop mark, blind stamp; one edition's facts, not stored) > original hand technique over photomechanical (authenticity_class) > production quality (paper and ink) > market demand; proof status per CAA (bon a tirer, artist's proof capped about 10 percent, hors commerce); Paintings (eBay.de, Nanboya): original against reproduction first > era (antique or contemporary, tag) > artist and attribution, with forgery risk stressed for Japanese and Chinese painting; Photographs: process and print date against image date (memo; vintage print as era tag) > edition class
+- quality_signals: College Art Association print guidelines (CAA, adopted 1978, revised 2015): proof and edition documentation (artist's proofs about 10 percent of edition, hors commerce, bon a tirer, blind stamp); C16 registry row scale_type classification for proof_status, recommended not binding; authenticity_class scale (memo, R-2, classification); edition class schemes (Artsy Rarity, LUMAS: platform labels, memo); certificate of authenticity and expert certificate (Gutachten): facts of one work, never stored, shown as buying guidance; auction records: one sale each, not stored; usable only as dated list or sale prices for the C4(d) price band of a maker or named form; Artfinder 'Artworks from famous artists' filter: dated platform_tag (class vi) on maker rows
+- maker_role: way in (confirm; maker_roles.tsv F2): artists, print studios, print publishers and figurine manufactories, full ledger uncapped
+- side_view: Artist tab co-equal with the medium tree (Singulart top-level Artists; ULAN-linked ledger), a figurine manufactory tab (Lladro, Goebel, Royal Doulton, all memo dagger), and generated views by tradition (Japanese and East Asian painting: nihonga, ukiyo-e, ink wash, scrolls; Nanboya), by movement or style (scene tags) and by subject
+- evidence_rows: Artfinder shop all art; Singulart online gallery; Mark Gray what makes a fine art print collectible; eBay Germany Kunst Ratgeber; College Art Association print guidelines; Nanboya (Japan) paintings guide; Abstract House painting checklist
+- maker role row: {'code': 'F2', 'scope': '*', 'role': 'way_in', 'provisional': 'yes', 'reason': 'artists, studios and workshops are how art is sought'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-F2-1 | Paintings | 1 |  | F2.1.01; F2.1.02; F2.1.03; F2.1.04; F2.1.05; F2.1.06; F2.1.07; F2.1.08; F2.1.09; F2.1.10; F2.1.11; F2.1.12; F2.1.13; F2.1.14
+- G-F2-2 | Prints | 1 |  | F2.3
+- G-F2-10 | Relief prints | 2 | G-F2-2 | F2.3.1.01; F2.3.1.02; F2.3.1.03
+- G-F2-11 | Intaglio prints | 2 | G-F2-2 | F2.3.2.01; F2.3.2.02; F2.3.2.03; F2.3.2.04; F2.3.2.05
+- G-F2-12 | Lithographs (planographic) | 2 | G-F2-2 | F2.3.3.01; F2.3.3.02
+- G-F2-13 | Screenprints (stencil) | 2 | G-F2-2 | F2.3.4.01
+- G-F2-14 | Monotypes and other processes | 2 | G-F2-2 | F2.3.5.01; F2.3.5.02; F2.3.5.03; F2.3.5.04
+- G-F2-15 | Digital prints | 2 | G-F2-2 | F2.3.6.01
+- G-F2-3 | Photographs | 1 |  | F2.4
+- G-F2-16 | Silver prints | 2 | G-F2-3 | F2.4.1.01; F2.4.1.02
+- G-F2-17 | Chromogenic and dye prints | 2 | G-F2-3 | F2.4.2.01; F2.4.2.02; F2.4.2.03
+- G-F2-18 | Pigment and digital prints | 2 | G-F2-3 | F2.4.3.01
+- G-F2-19 | Alternative and historic processes | 2 | G-F2-3 | F2.4.4.01; F2.4.4.02; F2.4.4.03; F2.4.4.04
+- G-F2-20 | Camera-less and instant | 2 | G-F2-3 | F2.4.5.01; F2.4.5.02
+- G-F2-4 | Sculpture and figurines | 1 |  | F2.5
+- G-F2-21 | Metal | 2 | G-F2-4 | F2.5.1.01; F2.5.1.02; F2.5.1.03
+- G-F2-22 | Stone | 2 | G-F2-4 | F2.5.2.01; F2.5.2.02
+- G-F2-23 | Wood, ivory and bone | 2 | G-F2-4 | F2.5.3.01; F2.5.3.02
+- G-F2-24 | Ceramic and porcelain | 2 | G-F2-4 | F2.5.4.01; F2.5.4.02; F2.5.4.03
+- G-F2-25 | Glass and crystal | 2 | G-F2-4 | F2.5.5.01
+- G-F2-26 | Resin, plaster and wax | 2 | G-F2-4 | F2.5.6.01; F2.5.6.02; F2.5.6.03
+- G-F2-27 | Soft sculpture | 2 | G-F2-4 | F2.5.7.01
+- G-F2-28 | Found and mixed | 2 | G-F2-4 | F2.5.8.01
+- G-F2-29 | Light and neon | 2 | G-F2-4 | F2.5.9.01
+- G-F2-5 | Drawings | 1 |  | F2.2.01; F2.2.02; F2.2.03; F2.2.04; F2.2.05
+- G-F2-6 | Textile and fibre art | 1 |  | F2.6.01; F2.6.02
+- G-F2-7 | Calligraphy | 1 |  | F2.7.01; F2.7.02
+- G-F2-8 | Collage, mosaic and mixed work | 1 |  | F2.8.01; F2.8.02; F2.8.03
+- G-F2-9 | Plinths and stands for one artwork | 1 |  | F2.9.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-F2-1 | authenticity and originality (all art) | original > interpretive > reproduction > restrike (authenticity_class) | First; HS97 \"wholly executed by hand\". | proposals.tsv F2 row (quality_markers); Abstract House painting checklist
+- G-F2-1 | condition (all art) |  | Cracks, fading, restoration; one work's facts, never stored. | proposals.tsv F2 row (quality_markers); Abstract House painting checklist
+- G-F2-1 | artist reputation and auction record (all art) |  | Held at maker level. | proposals.tsv F2 row (quality_markers); Abstract House painting checklist
+- G-F2-1 | market value against comparables (all art) |  | After the artist. | proposals.tsv F2 row (quality_markers); Abstract House painting checklist
+- G-F2-1 | style and appeal (all art) |  | Weighed last. | proposals.tsv F2 row (quality_markers); Abstract House painting checklist
+- G-F2-1 | era (paintings) | antique or contemporary (a tag) | After original against reproduction. | proposals.tsv F2 row (quality_markers); eBay Germany Kunst Ratgeber
+- G-F2-1 | artist and attribution (paintings) |  | Forgery risk stressed for Japanese and Chinese painting. | proposals.tsv F2 row (quality_markers); Nanboya (Japan) paintings guide
+- G-F2-2 | edition size | unique > limited > open; small (under 50) before large | First for prints. | proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+- G-F2-2 | hand signature in pencil and numbering |  | Second. | proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+- G-F2-2 | documentation |  | Certificate, chop mark, blind stamp; one edition's facts, not stored. | proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+- G-F2-2 | original hand technique over photomechanical |  | Recorded as authenticity_class. | proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+- G-F2-2 | production quality |  | Paper and ink. | proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+- G-F2-2 | market demand |  | Weighed last. | proposals.tsv F2 row (quality_markers); Mark Gray what makes a fine art print collectible
+- G-F2-2 | proof status | bon à tirer; artist's proof (capped about 10 percent); hors commerce | Per CAA guidelines. | proposals.tsv F2 row (quality_markers); College Art Association print guidelines
+- G-F2-3 | process and print date against image date |  | Vintage print as an era tag (memo). | proposals.tsv F2 row (quality_markers); memo F2
+- G-F2-3 | edition class | unique > limited > open | After process and date. | proposals.tsv F2 row (quality_markers); memo F2
+
+## Kinds (kind_id | stored name | native name | definition)
+- F2.1.01 | oil painting |  | pigment bound in a drying oil, on canvas, panel or a similar support.
+- F2.1.02 | acrylic painting |  | pigment bound in acrylic polymer emulsion.
+- F2.1.03 | watercolour |  | transparent pigment in gum arabic, applied wet, normally on paper.
+- F2.1.04 | gouache |  | opaque, chalk-bodied water-based colour, normally on paper.
+- F2.1.05 | ink wash painting |  | black or coloured ink brushed in graded washes on paper or silk, in the East Asian manner.
+- F2.1.06 | mineral-pigment painting (nihonga) |  | ground mineral pigments fixed with animal glue on paper or silk (kind status provisional under CV-27 until a seller outside Japan lists it apart).
+- F2.1.07 | tempera painting |  | pigment bound in egg yolk or another egg or glue medium, usually on a prepared panel.
+- F2.1.08 | encaustic painting |  | pigment in hot beeswax, fused to a support.
+- F2.1.09 | fresco (detached or transferred) |  | pigment applied to wet or dry lime plaster, now removed from its wall.
+- F2.1.10 | mixed-media painting |  | a painting in which several paint media or added materials are used together and the image is painted, not built from pasted elements.
+- F2.1.11 | spray-paint painting |  | an image made mainly with aerosol or spray paint on canvas, panel or another support.
+- F2.1.12 | portrait miniature |  | a small painted portrait made as a work of its own, often on vellum, ivory, card or metal (provisional until a page sells it as its own category, F-13).
+- F2.1.13 | animation cel |  | an image hand-painted in acrylic on a transparent acetate sheet, made for an animated film (provisional until a page sells it as such, F2-O2).
+- F2.2.01 | graphite (pencil) drawing |  | an image drawn with graphite pencils.
+- F2.2.02 | charcoal drawing |  | an image drawn with charcoal.
+- F2.2.03 | pastel drawing |  | an image drawn with pigment sticks (soft pastel, oil pastel) on paper or a similar ground.
+- F2.2.04 | coloured-pencil drawing |  | an image drawn with pigmented pencils.
+- F2.2.05 | pen-and-ink drawing |  | an image drawn with pen, nib or marker in ink.
+- F2.3.1.01 | woodcut |  | an image cut with knives and gouges into the side grain of a wood block and printed from the raised surface.
+- F2.3.1.02 | linocut |  | an image cut into a linoleum sheet and printed from the raised surface.
+- F2.3.1.03 | wood engraving |  | an image cut with gravers into the end grain of a hardwood block.
+- F2.3.2.01 | etching |  | lines bitten into a coated metal plate with acid.
+- F2.3.2.02 | line engraving |  | lines cut into a metal plate with a burin.
+- F2.3.2.03 | drypoint |  | lines scratched directly into a plate with a needle, without acid.
+- F2.3.2.04 | mezzotint |  | a plate roughened all over with a rocker, then burnished from dark to light.
+- F2.3.2.05 | aquatint |  | tone made by acid biting through a porous ground of resin dust.
+- F2.3.3.01 | stone lithograph |  | an image drawn with a greasy medium on limestone and printed from the stone.
+- F2.3.3.02 | offset lithograph |  | an image transferred from a plate through a rubber blanket to paper.
+- F2.3.4.01 | screenprint |  | ink pushed through a mesh stencil, one stencil per colour.
+- F2.3.5.01 | monotype |  | a single unique impression pulled from a painted or inked blank surface.
+- F2.3.5.02 | monoprint |  | a unique impression from a reusable matrix, varied by inking or additions each time.
+- F2.3.5.03 | collagraph |  | a print from a plate built up by gluing materials onto a board.
+- F2.3.6.01 | inkjet print |  | an image sprayed from a print head with pigment or dye inks onto paper, canvas or another sheet; the printer system is the attribute `printing_system`.
+- F2.4.1.01 | gelatin silver print |  | silver halide in a gelatin layer on paper, exposed and developed in a darkroom.
+- F2.4.1.02 | daguerreotype |  | an image on a silvered copper plate.
+- F2.4.2.01 | chromogenic print |  | colour dyes formed in the layers of colour paper by development.
+- F2.4.2.02 | dye-transfer print |  | colour made by transferring dyes from matrices onto paper.
+- F2.4.2.03 | silver dye bleach print |  | colour dyes already in the paper, bleached away where not wanted.
+- F2.4.3.01 | archival pigment print |  | a pigment inkjet print of a photograph on fine-art paper.
+- F2.4.4.01 | platinum or palladium print |  | an image in platinum or palladium metal on paper.
+- F2.4.4.02 | cyanotype |  | an iron-salt print giving a blue image.
+- F2.4.4.03 | tintype |  | a positive image on a thin iron plate.
+- F2.4.5.01 | photogram |  | an image made without a camera by placing objects on light-sensitive material.
+- F2.4.5.02 | instant print |  | a self-developing print from an instant camera or film pack.
+- F2.5.1.01 | bronze sculpture |  | cast copper-tin alloy, usually patinated.
+- F2.5.1.02 | steel and iron sculpture |  | steel, iron or other ferrous metal welded, forged, cut or bent to form.
+- F2.5.1.03 | pewter and other cast-metal figurine |  | an ornamental figure cast in pewter, zinc, tin or another non-bronze metal.
+- F2.5.2.01 | stone carving |  | marble, limestone, alabaster or other stone carved to form.
+- F2.5.2.02 | jade carving |  | a figure or object carved from jade.
+- F2.5.3.01 | wood carving |  | a figure or sculpture carved from wood.
+- F2.5.3.02 | ivory and bone carving |  | a figure or sculpture carved from ivory, bone, horn or antler.
+- F2.5.4.01 | terracotta sculpture |  | modelled or moulded clay fired without a glaze.
+- F2.5.4.02 | glazed earthenware and stoneware sculpture and figurine |  | a figure or sculpture in glazed fired clay other than porcelain.
+- F2.5.4.03 | porcelain and bone china figurine and sculpture |  | a figure or sculpture in porcelain or bone china.
+- F2.5.5.01 | glass and crystal sculpture and figurine |  | a blown, cast, fused or cut glass or lead-crystal figure or sculpture.
+- F2.5.6.01 | resin sculpture and figurine |  | a cast resin figure or sculpture, usually painted.
+- F2.5.6.02 | plaster sculpture |  | cast or modelled plaster.
+- F2.5.6.03 | wax sculpture |  | modelled or cast wax.
+- F2.5.7.01 | soft sculpture |  | a three-dimensional sculpture of fabric, fibre or other soft material, stuffed, wrapped or stitched.
+- F2.5.8.01 | found-object assemblage |  | a sculpture assembled from found, salvaged or discarded objects, or from several materials none of which governs.
+- F2.5.9.01 | neon sculpture |  | a sculpture in which a lit gas-discharge tube or an equivalent light source is the medium.
+- F2.6.01 | tapestry |  | a picture or pattern woven on a loom to hang on a wall.
+- F2.6.02 | embroidered picture |  | a picture worked in thread with a needle on a fabric ground.
+- F2.7.01 | brush and pen calligraphy |  | writing made as the picture, in brush or pen script.
+- F2.7.02 | seal carving [篆刻] |  | script characters carved into a seal of stone or another material as a work of art, sold as the seal or its impressions (provisional until a fetched seller sells it apart from calligraphy).
+- F2.8.01 | collage |  | a picture built from pasted or bonded elements (paper, cloth, photographs, found flat material).
+- F2.8.02 | mosaic picture |  | a picture set in small pieces (tesserae) of stone, glass or ceramic.
+- F2.9.01 | sculpture plinth or stand |  | a base, plinth or stand made for one sculpture (provisional until a page attests it).
+- F2.4.4.04 | ambrotype |  | a collodion positive image on a glass plate, backed with a dark ground so the negative reads as a positive.
+- F2.1.14 | lacquer painting |  | an image built in layers of natural or synthetic lacquer on a rigid panel, sanded and polished, often with inlaid shell or metal leaf.
+- F2.3.5.04 | embossed print |  | an image made by pressing damp paper into a carved or built-up matrix so the design stands in relief, mainly without ink; embossing added to an inked print is an attribute.
+- F2.8.03 | paper cut |  | a picture made by cutting one or more sheets of paper so the image is formed by the cuts, mounted for display (jianzhi, Scherenschnitte, kirie as named forms).

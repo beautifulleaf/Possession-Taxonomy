@@ -1,0 +1,178 @@
+# B5 Kitchen & Dining: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (product family as sold: cookware, knives, kitchen tools, appliances, coffee and tea, tableware, glassware)
+- reason: Every retailer opens on product family, then type, then hob and care filters (IKEA Singapore cookware; Rakuten Seasonal Living Fair kitchen; Knivesandtools (NL) Japanese chef's knives), so the memo's stage-of-work sub-families (Cook, Prepare, Serve) stay the placement index while display uses shop families; makers lead only among knife, cast-iron and rice-cooker specialists, a side view (Cutlery and More: Wusthof vs Zwilling; Cast Iron Collector forum).
+- ladder: What are you buying? (cookware, knives, tools, appliances, coffee and tea, tableware, glassware) > Which type? (kind: frying pan, wok; gyuto under chef's knife; semi-automatic espresso machine) > What makes the best one? (cookware: material and construction, then heat evenness and release; knives: construction, steel and hardness, then maker line; appliances: technology tier and capacity)
+- level1_groups: Cookware & bakeware; Knives & cutting; Kitchen tools & measuring; Cooking & food appliances; Fridges & dishwashers; Coffee, tea & water; Bar & home brewing; Tableware & serveware; Glasses, cups & mugs; Food storage & on-the-go; Aprons, gloves & clean-up; Replacement parts
+- quality_markers: Cookware: heat evenness (Consumer Reports test); food release and cleanup (egg release); searing and simmering; coating durability (2,000-scrub abrasion test) for non-stick; construction (clad ply count, base thickness; enamelled or bare cast iron); hob compatibility (induction) and oven safety; weight and handle; value. Knives: construction (forged one-piece full tang > stamped); steel and hardness (56-58 HRC German > lower; 60-62 HRC Japanese); edge geometry by pattern; handle and balance; maker line (stamped entry < forged mid < premium, the maker's own ladder). Rice cookers and similar appliances: technology tier (conventional < micom < induction heating < pressure induction heating); inner-pot construction; capacity fit (3, 5.5, 10 cup); programs. Espresso machines and grinders: capability ladder (entry all-in-one < grinder upgrade < prosumer dual boiler < commercial-grade home, memo); burr size and geometry. Stemware: shape for the drink; maker tier. Vintage cast iron: maker; mark (gate, single notch); era (pre-1957 preferred by collectors).
+- quality_signals: Consumer Reports ratings and lab tests (Consumer Reports; class ii tier entries on named forms); SCA Certified Home Brewer (Specialty Coffee Association; certification attribute, memo); RCM electrical compliance mark (Australian regulators; C17 or standard_met); maker warranty (limited lifetime; attribute); maker line ladders (Wüsthof, Zwilling; class iv line_rank); Food Network Best-of picks by material (class iii); knife-steel comparison and stemware maker tiers (class iii, memo S21 and S37); espresso capability ladder (class iii, memo S25); Rakuten review score 4.0 and up (platform tag, class vi); cast-iron collector marks and eras (grading-scale registry, classification). NSF certification not fetched (†).
+- maker_role: owner (confirm; provisional): shoppers choose a type and model, and makers enter through lines and named forms; knife, cast-iron, espresso and stemware buyers lean on makers, served by a side view rather than a way-in role
+- side_view: Makers & lines: knives (Wüsthof, Zwilling, Japanese makers and the Seki school) > lines by construction; cookware (Le Creuset, Lodge) > lines; espresso and grinders (Breville, Rancilio, Eureka) > models; stemware (Riedel, Zalto) > shapes; china patterns (register). A collector view of vintage cast iron by maker, mark and era (Griswold, Wagner).
+- evidence_rows: IKEA Singapore cookware; Rakuten Seasonal Living Fair kitchen; Knivesandtools (NL) Japanese chef's knives; Cutlery and More: Wusthof vs Zwilling; Minimaru (AU) Zojirushi vs Tiger rice cookers; Gear Patrol Lodge cast iron guide; Food Network best cookware sets; Consumer Reports cookware (via ABC7); Cast Iron Collector forum: Griswold vs Wagner; Hungry Onion: cookware brands in restaurants
+- maker role row: {'code': 'B5', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'cookware and knife models carry the maker'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-B5-1 | Cookware & bakeware | 1 |  | 
+- G-B5-1-1 | Cookware sets | 2 | G-B5-1 | B5.1.0.01
+- G-B5-1-2 | Pans | 2 | G-B5-1 | B5.1.1.01; B5.1.1.02; B5.1.1.03; B5.1.1.04
+- G-B5-1-3 | Pots | 2 | G-B5-1 | B5.1.2.01; B5.1.2.02; B5.1.2.03; B5.1.2.04; B5.1.2.05
+- G-B5-1-4 | Ovenware & bakeware | 2 | G-B5-1 | B5.1.3.01; B5.1.3.02; B5.1.3.03
+- G-B5-2 | Knives & cutting | 1 |  | 
+- G-B5-2-1 | Kitchen knives | 2 | G-B5-2 | B5.2.1.01; B5.2.1.02; B5.2.1.03; B5.2.1.04; B5.2.1.05; B5.2.1.06; B5.2.1.07; B5.2.1.08; B5.2.1.09; B5.2.1.10; B5.2.1.11; B5.2.1.12
+- G-B5-2-2 | Cutting boards & sharpeners | 2 | G-B5-2 | B5.2.2.01; B5.2.2.02
+- G-B5-3 | Kitchen tools & measuring | 1 |  | 
+- G-B5-3-1 | Hand tools | 2 | G-B5-3 | B5.2.3.01; B5.2.3.02; B5.2.3.03; B5.2.3.04; B5.2.3.05; B5.2.3.06; B5.2.3.07
+- G-B5-3-2 | Measuring | 2 | G-B5-3 | B5.2.4.01; B5.2.4.02; B5.2.4.03; B5.2.4.04
+- G-B5-4 | Cooking & food appliances | 1 |  | 
+- G-B5-4-1 | Cooking appliances | 2 | G-B5-4 | B5.1.4.01; B5.1.4.02; B5.1.4.05; B5.1.4.06; B5.1.4.07; B5.1.4.08; B5.1.4.09; B5.1.4.10
+- G-B5-4-2 | Food machines | 2 | G-B5-4 | B5.2.5.01; B5.2.5.02; B5.2.5.03
+- G-B5-5 | Fridges & dishwashers | 1 |  | 
+- G-B5-5-1 | Refrigerators & wine fridges | 2 | G-B5-5 | B5.3.01; B5.3.02
+- G-B5-5-2 | Ovens & hobs | 2 | G-B5-5 | B5.1.4.03; B5.1.4.04
+- G-B5-5-3 | Dishwashers | 2 | G-B5-5 | B5.6.01
+- G-B5-5-4 | Vending machines | 2 | G-B5-5 | B5.6.05
+- G-B5-6 | Coffee, tea & water | 1 |  | 
+- G-B5-6-1 | Coffee equipment | 2 | G-B5-6 | B5.5.1.01; B5.5.1.02; B5.5.1.03; B5.5.1.04; B5.5.1.05; B5.5.1.06; B5.5.1.07
+- G-B5-6-2 | Tea equipment | 2 | G-B5-6 | B5.5.2.01; B5.5.2.02; B5.5.2.03
+- G-B5-6-3 | Kettles & water filters | 2 | G-B5-6 | B5.5.3.01; B5.5.3.02
+- G-B5-7 | Bar & home brewing | 1 |  | 
+- G-B5-7-1 | Bar tools | 2 | G-B5-7 | B5.5.4.01; B5.5.4.02
+- G-B5-8 | Tableware & serveware | 1 |  | 
+- G-B5-8-1 | Dinnerware | 2 | G-B5-8 | B5.4.1.01
+- G-B5-8-2 | Flatware | 2 | G-B5-8 | B5.4.2.01; B5.4.2.02; B5.4.2.03; B5.4.2.04; B5.4.2.05
+- G-B5-8-3 | Serveware & table accessories | 2 | G-B5-8 | B5.4.5.01; B5.4.5.02; B5.4.5.03
+- G-B5-9 | Glasses, cups & mugs | 1 |  | 
+- G-B5-9-1 | Glassware | 2 | G-B5-9 | B5.4.3.01; B5.4.3.02; B5.4.3.03
+- G-B5-9-2 | Cups & mugs | 2 | G-B5-9 | B5.4.4.01; B5.4.4.02; B5.4.4.03
+- G-B5-10 | Food storage & on-the-go | 1 |  | 
+- G-B5-10-1 | Food storage | 2 | G-B5-10 | B5.3.03
+- G-B5-10-2 | Lunch bags & bottles | 2 | G-B5-10 | B5.3.04; B5.3.05; B5.3.06
+- G-B5-11 | Aprons, gloves & clean-up | 1 |  | 
+- G-B5-11-1 | Aprons & oven gloves | 2 | G-B5-11 | B5.6.03; B5.6.04
+- G-B5-11-2 | Dish racks | 2 | G-B5-11 | B5.6.02
+- G-B5-12 | Replacement parts | 1 |  | 
+- G-B5-12-1 | Coffee machine parts | 2 | G-B5-12 | B5.7.01; B5.7.02
+- G-B5-12-2 | Blender parts | 2 | G-B5-12 | B5.7.03
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-B5-1 | heat evenness |  | Leads the Consumer Reports cookware test. | proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
+- G-B5-1 | food release and cleanup | egg release test | Second in the test. | proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
+- G-B5-1 | searing and simmering |  | Cooking performance. | proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
+- G-B5-1 | coating durability (non-stick) | 2,000-scrub abrasion test | Durability of non-stick. | proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
+- G-B5-1 | construction | clad ply count, base thickness; enamelled or bare cast iron | Construction underlies evenness. | proposals.tsv B5 row (quality_markers); Food Network best cookware sets; Gear Patrol Lodge cast iron guide
+- G-B5-1 | hob compatibility and oven safety | induction | Material and hob are the first filters. | proposals.tsv B5 row (quality_markers); IKEA Singapore cookware
+- G-B5-1 | weight and handle |  | Handling. | proposals.tsv B5 row (quality_markers); Food Network best cookware sets
+- G-B5-1 | value |  | Last. | proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
+- G-B5-1 | maker (vintage cast iron) |  | Collectors choose vintage cast iron by maker. | proposals.tsv B5 row (quality_markers); Cast Iron Collector forum: Griswold vs Wagner
+- G-B5-1 | mark (vintage cast iron) | gate; single notch | Marks date the piece. | proposals.tsv B5 row (quality_markers); Cast Iron Collector forum: Griswold vs Wagner
+- G-B5-1 | era (vintage cast iron) | pre-1957 preferred by collectors | Era follows mark. | proposals.tsv B5 row (quality_markers); Cast Iron Collector forum: Griswold vs Wagner
+- G-B5-2-1 | construction | forged one-piece full tang > stamped | Knife construction first. | proposals.tsv B5 row (quality_markers); Cutlery and More: Wusthof vs Zwilling
+- G-B5-2-1 | steel and hardness | 56-58 HRC German > lower; 60-62 HRC Japanese | Hardness by tradition. | proposals.tsv B5 row (quality_markers); Knivesandtools (NL) Japanese chef's knives; Cutlery and More: Wusthof vs Zwilling
+- G-B5-2-1 | edge geometry by pattern |  | Pattern is the first filter, then steel. | proposals.tsv B5 row (quality_markers); Knivesandtools (NL) Japanese chef's knives
+- G-B5-2-1 | handle and balance |  | Handling. | proposals.tsv B5 row (quality_markers); Cutlery and More: Wusthof vs Zwilling
+- G-B5-2-1 | maker line | premium > forged mid > stamped entry (the maker's own ladder) | Knife buyers lean on maker lines (side view). | proposals.tsv B5 row (quality_markers); Cutlery and More: Wusthof vs Zwilling
+- G-B5-4-1 | technology tier (rice cookers and similar) | pressure induction heating > induction heating > micom > conventional | Technology tier is the first filter. | proposals.tsv B5 row (quality_markers); Minimaru (AU) Zojirushi vs Tiger rice cookers
+- G-B5-4-1 | inner-pot construction |  | Follows the heating tier. | proposals.tsv B5 row (quality_markers); Minimaru (AU) Zojirushi vs Tiger rice cookers
+- G-B5-4-1 | capacity fit | 3; 5.5; 10 cup | Matched to the household. | proposals.tsv B5 row (quality_markers); Minimaru (AU) Zojirushi vs Tiger rice cookers
+- G-B5-4-1 | programs |  | Last. | proposals.tsv B5 row (quality_markers); Minimaru (AU) Zojirushi vs Tiger rice cookers
+- G-B5-6-1 | capability ladder (espresso machines) | commercial-grade home > prosumer dual boiler > grinder upgrade > entry all-in-one | Memo ladder for espresso buyers. | proposals.tsv B5 row (quality_markers); framework/structure/B5.md
+- G-B5-6-1 | burr size and geometry (grinders) |  | Grinders are judged by burrs. | proposals.tsv B5 row (quality_markers); framework/structure/B5.md
+- G-B5-9-1 | shape for the drink (stemware) |  | Stemware is chosen for the drink first. | proposals.tsv B5 row (quality_markers)
+- G-B5-9-1 | maker tier (stemware) |  | Stemware buyers lean on makers (side view). | proposals.tsv B5 row (quality_markers)
+
+## Kinds (kind_id | stored name | native name | definition)
+- B5.1.1.01 | Frying pan or skillet |  | shallow, flat-bottomed pan with sloped sides and a long handle, for frying and searing; material is an attribute.
+- B5.1.1.02 | Wok |  | deep, round-bottomed or flat-bottomed pan with high flaring sides, for stir-frying.
+- B5.1.1.03 | Grill pan or griddle |  | pan with a ridged or flat cooking plate, for grilling or searing on a hob.
+- B5.1.1.04 | Saute pan |  | a wide pan with straight or high sides and usually a lid, for frying, braising and reducing (section 14).
+- B5.1.2.01 | Saucepan |  | deep round pot with one long handle, for boiling and making sauces.
+- B5.1.2.02 | Stockpot |  | tall, large pot with two handles, for stock, soup and boiling in quantity.
+- B5.1.2.03 | Dutch oven or casserole |  | heavy lidded pot, often cast iron, for braising and slow cooking on the hob or in the oven.
+- B5.1.2.04 | Pressure cooker |  | sealed pot that cooks under steam pressure; stovetop or electric is a power-source tag.
+- B5.1.3.01 | Roasting pan |  | deep, open oven pan for roasting meat and vegetables.
+- B5.1.3.02 | Baking tray |  | flat oven sheet with low or no rim, for baking.
+- B5.1.3.03 | Gastronorm pan |  | container made to the gastronorm size standard for commercial kitchens and serving counters (`market = commercial`, B-20).
+- B5.1.4.01 | Air fryer |  | countertop appliance that cooks food in a basket by circulating hot air.
+- B5.1.4.02 | Toaster |  | appliance that browns slices of bread with radiant elements.
+- B5.1.4.03 | Oven |  | enclosed cooking appliance that bakes and roasts by heating the air in a chamber.
+- B5.1.4.04 | Hob or cooktop |  | cooking surface of burners or heating zones on which pans are set.
+- B5.1.4.05 | Barbecue grill |  | grill that cooks food over a fire, charcoal, gas or electric heat; fuel is a tag.
+- B5.1.4.06 | Rice cooker |  | appliance that cooks rice in an inner pot under automatic control; `heating_technology` (conventional, micom, IH, pressure IH) is an attribute (section 14).
+- B5.1.4.07 | Bain-marie |  | heated water bath that keeps food warm or cooks it gently (`market = commercial`, B-20).
+- B5.1.0.01 | Cookware set |  | a set of pots and pans of one maker line, sold and rated as one object; the pieces are listed in `set_contents` (S3a, K-1, section 14).
+- B5.2.1.01 | Chef's knife |  | general-purpose kitchen knife with a broad, curved blade for chopping, slicing and mincing.
+- B5.2.1.02 | Santoku |  | Japanese general-purpose knife with a flat edge and a sheep's-foot tip.
+- B5.2.1.03 | Nakiri |  | Japanese vegetable knife with a straight, rectangular blade.
+- B5.2.1.04 | Paring knife |  | small knife with a short blade for peeling and fine work in the hand.
+- B5.2.1.05 | Kitchen utility knife [petty] |  | mid-size kitchen knife between the paring and the chef's knife (not the trade utility knife of C1).
+- B5.2.1.06 | Bread knife |  | long knife with a serrated edge for cutting bread.
+- B5.2.1.07 | Boning knife |  | narrow, flexible or stiff knife for taking meat and fish off the bone.
+- B5.2.1.08 | Slicer [sujihiki] |  | long, narrow knife for slicing cooked meat and raw fish.
+- B5.2.1.09 | Cleaver |  | heavy, broad, rectangular blade for chopping through bone or, in the Chinese form, for all-purpose cutting.
+- B5.2.1.10 | Deba |  | thick, single-bevel Japanese knife for butchering fish (rule R).
+- B5.2.1.11 | Yanagiba |  | long, single-bevel Japanese knife for slicing raw fish (rule R).
+- B5.2.1.12 | Usuba |  | thin, single-bevel Japanese vegetable knife with a straight edge (rule R).
+- B5.2.2.01 | Cutting board |  | board of wood, plastic or composite to cut food on.
+- B5.2.2.02 | Knife sharpener |  | stone, rod or device that sharpens or hones a kitchen knife's edge.
+- B5.2.3.01 | Grater |  | hand tool with a surface of sharp-edged holes for shredding food.
+- B5.2.3.02 | Colander or strainer |  | perforated or mesh bowl for draining or sieving food.
+- B5.2.3.03 | Spatula |  | hand tool with a flat, broad blade for turning, lifting or scraping food.
+- B5.2.3.04 | Spice or pepper mill |  | hand mill that grinds pepper or spices; a grinder made for coffee is B5.5.1.06.
+- B5.2.4.01 | Kitchen scale |  | scale for weighing ingredients; app connection is an attribute.
+- B5.2.4.02 | Kitchen thermometer |  | thermometer for the temperature of food, oil or an oven.
+- B5.2.4.03 | Kitchen timer |  | timer that signals when a set cooking time has passed.
+- B5.2.5.01 | Stand mixer |  | countertop mixer with a bowl and a head that drives beaters, whisk or dough hook.
+- B5.2.5.02 | Food processor |  | appliance with a bowl and interchangeable blades and discs for chopping, slicing and mixing.
+- B5.3.01 | Refrigerator |  | insulated, powered cabinet that keeps food and drink cold; built-in or freestanding is an installation attribute.
+- B5.3.02 | Wine fridge |  | refrigerated cabinet made to keep wine at storage or serving temperature.
+- B5.3.03 | Food storage container |  | lidded container for keeping food.
+- B5.3.04 | Lunch bag |  | insulated bag for carrying a meal and keeping it cool; "cool bag" is its synonym row (K-131).
+- B5.3.05 | Drink bottle |  | reusable bottle for carrying a drink, whether or not made for a sport (K-161).
+- B5.3.06 | Hydration bladder |  | flexible drink reservoir with a drinking tube, sold on its own (K-161).
+- B5.4.1.01 | Dinner plate |  | large flat plate on which a main meal is served and eaten; a commemorative or display plate is this plate with a display tag (S5, K-182).
+- B5.4.2.01 | Table fork |  | fork laid at the place setting for eating (replaces the memo placeholder "Table flatware").
+- B5.4.2.02 | Spoon |  | spoon laid at the place setting for eating (replaces the memo placeholder "Table flatware").
+- B5.4.2.03 | Table knife |  | knife laid at the place setting for eating (replaces the memo placeholder "Table flatware").
+- B5.4.2.04 | Steak knife |  | sharp, often serrated table knife for cutting meat at the plate (B-20).
+- B5.4.2.05 | Butter knife |  | blunt table knife for spreading butter (B-20).
+- B5.4.3.01 | Wine glass |  | glass with a bowl shaped for drinking wine, stemmed or stemless.
+- B5.4.3.02 | Tumbler |  | flat-bottomed glass without a stem.
+- B5.4.3.03 | Decanter |  | glass vessel into which wine or spirits are poured to serve.
+- B5.4.4.01 | Mug |  | large cup with a handle, used without a saucer.
+- B5.4.4.02 | Cup [tea or coffee cup] |  | handled cup for tea or coffee, usually used with a saucer; a cup and saucer sold together is filed here (S3a).
+- B5.4.4.03 | Saucer |  | small shallow dish on which a cup stands.
+- B5.4.5.01 | Serving tray |  | tray made to carry and serve food and drink (K-182, K-191).
+- B5.4.5.02 | Hard placemat |  | rigid mat set under a place setting; a textile placemat is B2 (B5-O1).
+- B5.4.5.03 | Coaster |  | small hard mat set under a glass or cup (B5-O1).
+- B5.5.1.01 | Semi-automatic espresso machine |  | espresso machine with a pump in which the user grinds, doses, tamps and starts and stops the shot.
+- B5.5.1.02 | Super-automatic espresso machine |  | espresso machine with a built-in grinder that grinds, doses, tamps and brews at one touch.
+- B5.5.1.03 | Manual lever espresso machine |  | espresso machine in which a hand lever drives the water through the coffee.
+- B5.5.1.04 | Drip coffee maker |  | machine that drips hot water over ground coffee in a filter into a carafe.
+- B5.5.1.05 | Moka pot |  | stovetop pot that pushes boiling water by steam pressure up through ground coffee.
+- B5.5.1.06 | Coffee grinder |  | burr or blade grinder made for coffee beans; hand or electric is a tag, burr size an attribute.
+- B5.5.2.01 | Teapot |  | lidded vessel with a spout and handle for brewing and pouring tea; Yixing is a non-maker named form.
+- B5.5.2.02 | Kyusu |  | Japanese teapot with a side handle (rule R).
+- B5.5.2.03 | Gaiwan |  | lidded bowl on a saucer for brewing tea (rule R).
+- B5.5.3.01 | Kettle |  | vessel that boils water; stovetop or electric is a tag; tetsubin is a provisional non-maker named form.
+- B5.5.3.02 | Water filter jug |  | jug with a filter cartridge that treats water for drinking (B-33; the cartridge is B7, K-11).
+- B5.5.4.01 | Cocktail shaker |  | closed vessel in which a cocktail is shaken with ice.
+- B5.5.4.02 | Jigger |  | double-ended measure for spirits.
+- B5.6.01 | Dishwasher |  | appliance that washes and dries dishes, cookware and cutlery.
+- B5.6.02 | Dish rack |  | rack on which washed dishes stand to drain and dry (B-33).
+- B5.6.03 | Oven glove |  | insulated glove or mitt for handling hot cookware.
+- B5.6.04 | Apron |  | garment worn over clothes to protect them while cooking.
+- B5.6.05 | Vending machine for food and drink |  | machine that dispenses food or drink on payment.
+- B5.1.4.08 | Countertop oven [toaster oven] |  | small plug-in oven that stands on the worktop, for toasting, baking, roasting and air frying
+- B5.1.2.05 | Steamer |  | basket or tiered vessel set over boiling water to cook food in steam; bamboo steamer is a named form
+- B5.2.3.05 | Kitchen shears |  | scissors made to cut food, herbs and poultry in the kitchen
+- B5.5.1.07 | French press [cafetiere] |  | coffee maker that steeps ground coffee in hot water and presses it out with a plunger mesh filter
+- B5.7.01 | Portafilter |  | handled filter holder made for one espresso machine, locked into its group head
+- B5.7.02 | Coffee machine water tank |  | replacement water reservoir made for one coffee machine model
+- B5.7.03 | Blender jar or lid |  | jar, lid or blade assembly made for one blender family
+- B5.1.4.09 | Deep fryer |  | appliance that cooks food immersed in hot oil in a thermostatic tank or basket
+- B5.1.4.10 | Microwave oven |  | enclosed appliance that heats food with microwaves; combination microwave ovens included
+- B5.2.5.03 | Blender |  | appliance with a jar and fast spinning blade that purees, blends and crushes food and drink
+- B5.2.3.06 | Ladle |  | deep-bowled long-handled spoon for serving and pouring soup, sauce and liquid
+- B5.2.3.07 | Cooking spoon |  | long-handled spoon for stirring and serving in cooking, solid or slotted; table spoons are B5.4.2.02
+- B5.2.4.04 | Pocket scale |  | small portable scale for weighing small amounts (K-167).

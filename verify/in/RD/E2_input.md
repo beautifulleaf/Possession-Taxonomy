@@ -1,0 +1,389 @@
+# E2 Sports, Fitness & Recreation: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: use or need (the sport or activity the gear is for)
+- reason: Sport or activity leads at the shops and guides read (Kakaku Magazine groups by activity: outdoor, golf, running, fitness, bicycles; Tennis Warehouse is one sport then product type; RunRepeat, OutdoorGearLab and UIAA all start from the use; Dynamo Fitness and Lifelong start from the workout); Rebel Sport's women / men / kids first is the user tag, not a level (C6).
+- ladder: Which sport or activity? (activity family > sport leaf) > What equipment? (kind) > What makes the best one? (certification gate for safety gear, then fit and the sport's measured specs, then player level and maker ladder)
+- level1_groups: Gym, fitness & exercise; Hiking, camping & trail; Climbing, caving & navigation; Cycling gear; Racket & paddle sports; Team & ball sports; Golf, cue & target sports; Water sports; Snow & ice sports; Rolling & board sports; Combat & marker sports; Athletics, gymnastics & dance; Fishing & hunting; Equestrian (rider); Air sports; Protective gear & training aids (multisport); Parts & accessories for one object
+- quality_markers: Safety gear (climbing, helmets, ropes): certification present and genuine, then fit and compatibility with existing gear, then activity and skill match; avoid second-hand (UIAA). Fitness machines: flywheel weight and frame stability, then resistance type (magnetic, direct contact, fan: noise, upkeep, cost), then weight capacity and adjustability, then hands-on test (Dynamo Fitness, Lifelong: flywheel 6-8 kg, capacity 100-120 kg). Sport boots and shoes (ski, cycling, football; running and hiking shoes are A2): comfort, support, traction, water resistance, durability, weight in that order (OutdoorGearLab); lab-measured cushioning, stack, drop and energy return where tested (RunRepeat). Rackets and implements: head size, weight and balance against player level (memo); demo before buying (Tennis Warehouse).
+- quality_signals: UIAA Safety Label and UIAA Certified Equipment Database (UIAA Safety Commission; class i standard_met; UIAA); CE mark and EN standards for PPE (class i; UIAA); ISO 20957 for fitness machines (class i; search excerpt only: provisional until a page is fetched); FIE homologation 800 N / 1600 N (class i; memo); OutdoorGearLab field-test scores and awards (class ii; award rules not stated; OutdoorGearLab); RunRepeat lab score 0-100 with Superb / Great labels (class ii, test_version; mostly A2 footwear; RunRepeat); maker ladders such as Elite / Pro / League / Club boot levels (class iv; memo); player_level scheme starter to professional (class iii; memo); real-world user reviews (class vi; Kakaku Magazine)
+- maker_role: owner (confirm, provisional): shoppers choose the sport and the kind first; makers enter through models and lines (Tennis Warehouse puts brand inside the racquet shelf); no regional maker harvest. Artisan rows (cue makers, rod builders, bat makers, board shapers) stay in the ledger as owners of their named forms.
+- side_view: Brand tab inside each sport leaf (Tennis Warehouse Shop By Brand: Babolat, Wilson, Head, Yonex); a selector or finder view per implement (racquet finder) built from attributes; Decathlon own-label brands as maker rows, not a view.
+- evidence_rows: Dynamo Fitness (Australia) exercise bike guide pt 2; Lifelong India spin bike guide; OutdoorGearLab hiking boot test method; RunRepeat running shoe lab guide; Rebel Sport (Australia); Tennis Warehouse (US); UIAA buying climbing gear advice; Kakaku Magazine sports section (Japan)
+- maker role row: {'code': 'E2', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'sports equipment models carry the maker'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-E2-1 | Gym, fitness & exercise | 1 |  | E2.9
+- G-E2-18 | Cardio | 2 | G-E2-1 | E2.9.1.01; E2.9.1.02; E2.9.1.03; E2.9.1.04; E2.9.1.05; E2.9.1.06; E2.9.1.07; E2.9.1.08; E2.9.1.09
+- G-E2-19 | Strength training | 2 | G-E2-1 | E2.9.2.01; E2.9.2.02
+- G-E2-20 | Yoga and Pilates | 2 | G-E2-1 | E2.9.3.01
+- G-E2-2 | Hiking, camping & trail | 1 |  | E2.10
+- G-E2-21 | Shelter and sleep | 2 | G-E2-2 | E2.10.2.01; E2.10.2.02; E2.10.2.03; E2.10.2.04; E2.10.2.05; E2.10.2.06; E2.10.2.07; E2.10.2.08
+- G-E2-22 | Trekking | 2 | G-E2-2 | E2.10.3.01
+- G-E2-23 | Metal detecting | 2 | G-E2-2 | E2.10.1.01; E2.10.1.02; E2.10.1.03
+- G-E2-3 | Climbing, caving & navigation | 1 |  | E2.3
+- G-E2-24 | Climbing | 2 | G-E2-3 | E2.3.2.01; E2.3.2.02; E2.3.2.03; E2.3.2.04; E2.3.2.05; E2.3.2.06; E2.3.2.07; E2.3.2.08; E2.3.2.09; E2.3.2.10; E2.3.2.11; E2.3.2.12; E2.3.2.13; E2.3.2.14; E2.3.2.15; E2.3.2.16; E2.3.2.17; E2.3.2.18; E2.3.2.19; E2.3.2.20; E2.3.2.21; E2.3.2.22; E2.3.2.23; E2.3.2.24; E2.3.2.25; E2.3.2.26; E2.3.2.27; E2.3.2.28
+- G-E2-25 | Orienteering and navigation | 2 | G-E2-3 | E2.3.3.01; E2.3.3.02
+- G-E2-4 | Cycling gear | 1 |  | E2.5.01; E2.5.02; E2.5.03
+- G-E2-5 | Racket & paddle sports | 1 |  | E2.11
+- G-E2-26 | Tennis | 2 | G-E2-5 | E2.11.3.01; E2.11.3.02; E2.11.3.03
+- G-E2-27 | Badminton | 2 | G-E2-5 | E2.11.1.01; E2.11.1.02; E2.11.1.03
+- G-E2-28 | Table tennis | 2 | G-E2-5 | E2.11.2.01; E2.11.2.02; E2.11.2.03; E2.11.2.04
+- G-E2-29 | Padel | 2 | G-E2-5 | E2.11.4.01; E2.11.4.02
+- G-E2-30 | Pickleball | 2 | G-E2-5 | E2.11.5.01; E2.11.5.02; E2.11.5.03
+- G-E2-6 | Team & ball sports | 1 |  | E2.14
+- G-E2-31 | Football (soccer) | 2 | G-E2-6 | E2.14.3.01; E2.14.3.02; E2.14.3.03; E2.14.3.04
+- G-E2-32 | Baseball and softball | 2 | G-E2-6 | E2.14.1.01; E2.14.1.02; E2.14.1.03; E2.14.1.04
+- G-E2-33 | Cricket | 2 | G-E2-6 | E2.14.2.01; E2.14.2.02; E2.14.2.03; E2.14.2.04; E2.14.2.05; E2.14.2.06; E2.14.2.07
+- G-E2-34 | Rugby | 2 | G-E2-6 | E2.14.4.01; E2.14.4.02
+- G-E2-7 | Golf, cue & target sports | 1 |  | E2.8
+- G-E2-35 | Golf | 2 | G-E2-7 | E2.8.6.01; E2.8.6.02; E2.8.6.03; E2.8.6.04; E2.8.6.05; E2.8.6.06; E2.8.6.07; E2.8.6.08; E2.8.6.09; E2.8.6.10
+- G-E2-36 | Cue sports | 2 | G-E2-7 | E2.8.4.01; E2.8.4.02
+- G-E2-37 | Darts | 2 | G-E2-7 | E2.8.5.01
+- G-E2-38 | Archery | 2 | G-E2-7 | E2.8.1.01; E2.8.1.02; E2.8.1.03; E2.8.1.04; E2.8.1.05
+- G-E2-39 | Clay shooting | 2 | G-E2-7 | E2.8.3.01; E2.8.3.02
+- G-E2-40 | Boomerang | 2 | G-E2-7 | E2.8.2.01
+- G-E2-8 | Water sports | 1 |  | E2.15
+- G-E2-41 | Swimming and general water gear | 2 | G-E2-8 | E2.15.1.01; E2.15.1.02; E2.15.1.03; E2.15.1.04; E2.15.1.05; E2.15.1.06; E2.15.1.07
+- G-E2-42 | Diving and snorkelling | 2 | G-E2-8 | E2.15.2.01; E2.15.2.02
+- G-E2-43 | Surfing | 2 | G-E2-8 | E2.15.5.01
+- G-E2-44 | Paddleboarding and bodyboarding | 2 | G-E2-8 | E2.15.4.01; E2.15.4.02
+- G-E2-45 | Kite and wind sports | 2 | G-E2-8 | E2.15.3.01; E2.15.3.02; E2.15.3.03; E2.15.3.04; E2.15.3.05
+- G-E2-9 | Snow & ice sports | 1 |  | E2.13
+- G-E2-46 | Snow and ice, general (goggles, helmets, poles) | 2 | G-E2-9 | E2.13.1.01; E2.13.1.02; E2.13.1.03
+- G-E2-47 | Alpine skiing | 2 | G-E2-9 | E2.13.2.01; E2.13.2.02
+- G-E2-48 | Snowboarding | 2 | G-E2-9 | E2.13.7.01; E2.13.7.02; E2.13.7.03
+- G-E2-49 | Ski touring | 2 | G-E2-9 | E2.13.5.01
+- G-E2-50 | Cross-country skiing | 2 | G-E2-9 | E2.13.3.01; E2.13.3.02
+- G-E2-51 | Ice skating | 2 | G-E2-9 | E2.13.4.01
+- G-E2-52 | Sledging | 2 | G-E2-9 | E2.13.6.01
+- G-E2-10 | Rolling & board sports | 1 |  | E2.12
+- G-E2-53 | Skateboarding | 2 | G-E2-10 | E2.12.3.01
+- G-E2-54 | Inline and roller skating | 2 | G-E2-10 | E2.12.1.01
+- G-E2-55 | Kick scootering | 2 | G-E2-10 | E2.12.2.01
+- G-E2-56 | Unicycling | 2 | G-E2-10 | E2.12.4.01
+- G-E2-11 | Combat & marker sports | 1 |  | E2.4
+- G-E2-57 | Boxing | 2 | G-E2-11 | E2.4.2.01
+- G-E2-58 | Fencing | 2 | G-E2-11 | E2.4.3.01; E2.4.3.02; E2.4.3.03; E2.4.3.04; E2.4.3.05; E2.4.3.06; E2.4.3.07; E2.4.3.08; E2.4.3.09; E2.4.3.10; E2.4.3.11
+- G-E2-59 | Historical European martial arts (HEMA) | 2 | G-E2-11 | E2.4.7.01; E2.4.7.02; E2.4.7.03; E2.4.7.04; E2.4.7.05; E2.4.7.06
+- G-E2-60 | Judo | 2 | G-E2-11 | E2.4.4.01
+- G-E2-61 | Kendo | 2 | G-E2-11 | E2.4.5.01; E2.4.5.02; E2.4.5.03
+- G-E2-62 | Wushu | 2 | G-E2-11 | E2.4.6.01
+- G-E2-63 | Airsoft and paintball | 2 | G-E2-11 | E2.4.1.01; E2.4.1.02; E2.4.1.03; E2.4.1.04
+- G-E2-12 | Athletics, gymnastics & dance | 1 |  | E2.2
+- G-E2-64 | Track and field | 2 | G-E2-12 | E2.2.2.01; E2.2.2.02; E2.2.2.03; E2.2.2.04; E2.2.2.05
+- G-E2-65 | Gymnastics | 2 | G-E2-12 | E2.2.3.01; E2.2.3.02; E2.2.3.03; E2.2.3.04; E2.2.3.05; E2.2.3.06
+- G-E2-66 | Dance | 2 | G-E2-12 | E2.2.1.01; E2.2.1.02; E2.2.1.03; E2.2.1.04; E2.2.1.05; E2.2.1.06
+- G-E2-13 | Fishing & hunting | 1 |  | E2.7
+- G-E2-67 | Angling | 2 | G-E2-13 | E2.7.1.01
+- G-E2-68 | Hunting | 2 | G-E2-13 | E2.7.2.01; E2.7.2.02; E2.7.2.03; E2.7.2.04; E2.7.2.05
+- G-E2-69 | Spearfishing | 2 | G-E2-13 | E2.7.3.01
+- G-E2-14 | Equestrian (rider) | 1 |  | E2.6.01
+- G-E2-15 | Air sports | 1 |  | E2.1
+- G-E2-70 | Free flight | 2 | G-E2-15 | E2.1.1.01; E2.1.1.02; E2.1.1.03
+- G-E2-71 | Land kiting | 2 | G-E2-15 | E2.1.2.01
+- G-E2-72 | Skydiving | 2 | G-E2-15 | E2.1.3.01
+- G-E2-16 | Protective gear & training aids (multisport) | 1 |  | E2.16
+- G-E2-73 | Protective guards | 2 | G-E2-16 | E2.16.1.01; E2.16.1.02; E2.16.1.03; E2.16.1.04
+- G-E2-74 | Training aids | 2 | G-E2-16 | E2.16.3.01; E2.16.3.02; E2.16.3.03
+- G-E2-75 | Traction and snow travel | 2 | G-E2-16 | E2.16.4.01; E2.16.4.02; E2.16.4.03; E2.16.4.04
+- G-E2-76 | Signalling and safety | 2 | G-E2-16 | E2.16.2.01; E2.16.2.02
+- G-E2-17 | Parts & accessories for one object | 1 |  | E2.17
+- G-E2-77 | Golf bags | 2 | G-E2-17 | E2.17.1.01
+- G-E2-78 | Ski and snowboard bags, bindings and skins | 2 | G-E2-17 | E2.17.2.01; E2.17.2.02; E2.17.2.03; E2.17.2.04
+- G-E2-79 | Racket parts, strings and cases | 2 | G-E2-17 | E2.17.4.01; E2.17.4.02; E2.17.3.01; E2.17.6.01; E2.17.5.01
+- G-E2-80 | Kite, board and foil parts | 2 | G-E2-17 | E2.17.10.01; E2.17.10.02; E2.17.10.03; E2.17.8.01; E2.17.7.01; E2.17.9.01
+- G-E2-81 | Caving | 2 | G-E2-3 | E2.3.1.01; E2.3.1.02; E2.3.1.03; E2.3.1.04; E2.3.1.05; E2.3.1.06; E2.3.1.07; E2.3.1.08; E2.3.1.09
+- G-E2-82 | Hockey (ice, field and bandy) | 2 | G-E2-6 | E2.14.5.01; E2.14.5.02; E2.14.5.03; E2.14.5.04; E2.14.5.05; E2.14.5.06; E2.14.5.07; E2.14.5.08; E2.14.5.09; E2.14.5.10; E2.14.5.11; E2.14.5.12; E2.14.5.13; E2.14.5.14; E2.14.5.15; E2.14.5.16; E2.14.5.17; E2.14.5.18; E2.14.5.19; E2.14.5.20; E2.17.11.01; E2.17.12.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-E2-24 | certification present and genuine (gate) | UIAA Safety Label; CE mark and EN standard met | Safety gear is checked for genuine certification first. | proposals.tsv E2 row (quality_markers, quality_signals); UIAA buying climbing gear advice
+- G-E2-24 | fit and compatibility with existing gear |  | After certification. | proposals.tsv E2 row (quality_markers); UIAA buying climbing gear advice
+- G-E2-24 | activity and skill match |  | The gear must suit the climbing done and the climber. | proposals.tsv E2 row (quality_markers); UIAA buying climbing gear advice
+- G-E2-24 | condition | new > second-hand (avoid second-hand safety gear) | The UIAA advises against second-hand safety gear; condition stays a shop facet. | proposals.tsv E2 row (quality_markers); UIAA buying climbing gear advice
+- G-E2-46 | certification present and genuine (helmets; gate) | CE mark and EN standard met | Helmets count as safety gear: certification first. | proposals.tsv E2 row (quality_markers, quality_signals); UIAA buying climbing gear advice
+- G-E2-46 | fit and compatibility with existing gear |  | After certification. | proposals.tsv E2 row (quality_markers); UIAA buying climbing gear advice
+- G-E2-14 | certification present and genuine (riding hat; gate) | CE mark and EN standard met | Helmets count as safety gear: certification first. | proposals.tsv E2 row (quality_markers, quality_signals); UIAA buying climbing gear advice
+- G-E2-14 | fit |  | After certification. | proposals.tsv E2 row (quality_markers)
+- G-E2-18 | flywheel weight and frame stability | flywheel 6-8 kg | Fitness machines are judged first by flywheel and frame. | proposals.tsv E2 row (quality_markers); Dynamo Fitness (Australia) exercise bike guide pt 2; Lifelong India spin bike guide
+- G-E2-18 | resistance type | magnetic; direct contact; fan (a choice by noise, upkeep and cost) | The resistance system sets noise, upkeep and cost. | proposals.tsv E2 row (quality_markers); Dynamo Fitness (Australia) exercise bike guide pt 2
+- G-E2-18 | weight capacity and adjustability | 100-120 kg capacity | Capacity and adjustment follow the drive. | proposals.tsv E2 row (quality_markers); Lifelong India spin bike guide
+- G-E2-18 | hands-on test |  | Last: try the machine. | proposals.tsv E2 row (quality_markers); Dynamo Fitness (Australia) exercise bike guide pt 2
+- G-E2-47 | boot comfort |  | Sport boots: comfort first (OutdoorGearLab order). | proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+- G-E2-47 | boot support and traction |  | Support, then traction. | proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+- G-E2-47 | boot water resistance, durability and weight |  | Last in the order. | proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+- G-E2-4 | shoe comfort |  | Sport shoes: comfort first (OutdoorGearLab order). | proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+- G-E2-4 | shoe support and traction |  | Support, then traction. | proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+- G-E2-4 | shoe water resistance, durability and weight |  | Last in the order. | proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+- G-E2-31 | boot comfort |  | Sport boots: comfort first (OutdoorGearLab order). | proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+- G-E2-31 | boot support and traction |  | Support, then traction. | proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+- G-E2-31 | boot water resistance, durability and weight |  | Last in the order. | proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+- G-E2-26 | head size, weight and balance against player level | player level starter to professional | Rackets are matched to the player's level. | proposals.tsv E2 row (quality_markers, quality_signals); Tennis Warehouse (US)
+- G-E2-26 | demo before buying |  | Tennis Warehouse advises a demo. | proposals.tsv E2 row (quality_markers); Tennis Warehouse (US)
+- G-E2-27 | head size, weight and balance against player level | player level starter to professional | Rackets are matched to the player's level. | proposals.tsv E2 row (quality_markers, quality_signals)
+- G-E2-29 | head size, weight and balance against player level | player level starter to professional | Rackets are matched to the player's level. | proposals.tsv E2 row (quality_markers, quality_signals)
+- G-E2-30 | head size, weight and balance against player level | player level starter to professional | Paddles are matched to the player's level. | proposals.tsv E2 row (quality_markers, quality_signals)
+- G-E2-28 | head size, weight and balance against player level | player level starter to professional | Bats are matched to the player's level. | proposals.tsv E2 row (quality_markers, quality_signals)
+
+## Kinds (kind_id | stored name | native name | definition)
+- E2.1.1.01 | Hang glider |  | unpowered, foot-launched glider with a rigid frame under a fabric wing, steered by the pilot's weight shift.
+- E2.1.1.02 | Paraglider |  | unpowered, foot-launched glider with a flexible ram-air fabric wing hung on suspension lines; a powered paraglider is G1.
+- E2.1.1.03 | Free-flight harness |  | harness that suspends and carries the pilot under a hang glider or paraglider.
+- E2.1.2.01 | Traction kite |  | steerable kite made to pull a rider on land (on a buggy, board or skis) or to train for kite sports.
+- E2.1.3.01 | Parachute |  | canopy, container and harness system for descending from an aircraft, skydiving rigs included (K-96).
+- E2.2.1.01 | Ballet shoe |  | soft, flexible slipper made for ballet practice and performance.
+- E2.2.1.02 | Pointe shoe |  | ballet shoe with a stiffened box and shank for dancing on the tips of the toes.
+- E2.2.1.03 | Tap shoe |  | dance shoe with metal plates at toe and heel that sound the steps.
+- E2.2.1.04 | Dance practice wear |  | garment made for the demands of dance practice and not suited to everyday wear; E2 only if the P1 test holds, otherwise A1.
+- E2.2.2.01 | Hurdle |  | barrier on a base that athletes clear in hurdle races, height-adjustable to the race standard.
+- E2.2.2.02 | Starting block |  | pair of angled foot plates fixed to the track that sprinters push off at the start.
+- E2.2.2.03 | Starting pistol |  | blank-firing pistol made to start races; one made for self-defence or deterrence is E4 (P15).
+- E2.2.2.04 | Track spike |  | lightweight running shoe with a spike plate made for track competition.
+- E2.3.2.01 | Climbing harness |  | sit harness with leg loops and belay loop that ties the climber into the rope; the UIAA or EN standard is `standard_met`.
+- E2.3.2.02 | Climbing helmet |  | helmet made for climbing and mountaineering against falling objects and falls, certified to the UIAA or EN climbing-helmet standard.
+- E2.3.2.03 | Climbing rope |  | dynamic or static kernmantle rope made for climbing, rated to UIAA 101 or its EN equivalent.
+- E2.3.2.04 | Climbing shoe |  | tight-fitting shoe with a sticky rubber sole and rand made for climbing rock or walls.
+- E2.3.3.01 | Compass |  | magnetic compass made for navigation on foot (baseplate, thumb or sighting compass); a drawing compass is C5 (C6-O2).
+- E2.3.3.02 | Map case |  | waterproof transparent case that holds a map for use outdoors.
+- E2.4.1.01 | Airsoft marker |  | replica gun that fires plastic BB pellets by spring, gas or electric power, made for airsoft play; energy limits go to the jurisdiction ledger (C17).
+- E2.4.1.02 | Paintball hopper |  | feed container mounted on a paintball marker that holds the paintballs and feeds them to it.
+- E2.4.1.03 | Paintball marker |  | compressed-gas gun that fires paint-filled balls, made for paintball play.
+- E2.4.1.04 | Paintball mask |  | full-face mask with a goggle lens made to protect the eyes and face from paintballs or airsoft pellets.
+- E2.4.2.01 | Boxing glove |  | padded glove worn for boxing sparring, bagwork or competition.
+- E2.4.3.01 | Foil |  | light thrusting fencing weapon with a flexible rectangular blade, made to FIE rules for the foil.
+- E2.4.3.02 | Epee |  | thrusting fencing weapon with a stiff triangular blade and a large bell guard, made to FIE rules for the epee.
+- E2.4.3.03 | Sabre (fencing) |  | cutting and thrusting fencing weapon with a knuckle guard, made to FIE rules for the sabre; the sabre sword is E4 (homonym, C9).
+- E2.4.3.04 | Fencing mask |  | mesh mask with a bib that protects a fencer's face, head and neck; the FIE 1600 N bib is `standard_met`.
+- E2.4.3.05 | Fencing jacket |  | protective jacket made for fencing, rated to a puncture resistance such as FIE 800 N.
+- E2.4.4.01 | Judo uniform (judogi) |  | heavy cotton jacket and trousers made for judo grips and throws; level provisional until attested in two regions (R-19).
+- E2.4.5.01 | Bokken |  | solid wooden sword made for kendo and other Japanese sword-art practice.
+- E2.4.5.02 | Kendo armour |  | protective armour set made for kendo (head guard, gloves, breastplate and waist guard).
+- E2.4.5.03 | Shinai |  | practice sword of bamboo or carbon staves made for kendo sparring.
+- E2.4.6.01 | Wushu practice weapon |  | blunt or unsharpened wushu implement (sword, broadsword, staff, spear) made for practice or competition (K-87).
+- E2.4.7.01 | HEMA training sword |  | blunt steel or synthetic sword made for HEMA sparring and drills (section 14, provisional).
+- E2.4.7.02 | HEMA fencing jacket |  | padded jacket made for HEMA, rated to a puncture resistance such as 350 N or 800 N, recorded as `standard_met` (section 14, provisional).
+- E2.4.7.03 | HEMA protective gloves |  | padded or plated gloves that protect the hands from sword blows in HEMA sparring (section 14, provisional).
+- E2.5.01 | Cycling shoe |  | stiff-soled shoe made for cycling, usually with a cleat interface for clipless pedals (cleat systems are C13 rows).
+- E2.5.02 | Padded cycling shorts |  | close-fitting shorts with a sewn-in chamois pad made for riding a bicycle.
+- E2.6.01 | Riding hat |  | helmet made for horse riding, certified to an equestrian helmet standard (K-125).
+- E2.12.1.01 | Inline skate |  | boot with a single line of wheels in a frame, made for skating.
+- E2.13.1.01 | Ski goggles |  | goggles made for skiing and snowboarding against glare, wind and snow (K-125).
+- E2.13.1.02 | Ski helmet |  | helmet made for skiing and snowboarding (K-125).
+- E2.13.2.01 | Alpine ski |  | ski made for downhill skiing with a fixed-heel binding; use class, width and radius are attributes.
+- E2.13.2.02 | Ski boot |  | rigid plastic-shell boot made to drive an alpine or touring ski through the binding; flex index on the maker's scale is an attribute.
+- E2.13.3.01 | Cross-country ski |  | long, narrow ski made for Nordic touring or racing with a free-heel binding.
+- E2.13.4.01 | Ice skate |  | boot with a steel blade made for skating on ice.
+- E2.13.5.01 | Touring ski |  | light ski made for climbing with skins and descending, used with a touring binding and boot interface (E-16).
+- E2.13.7.01 | Snowboard |  | single wide board ridden sideways down snow with both feet bound to it.
+- E2.17.2.01 | Ski bag |  | bag that carries one pair of skis; a bag for several pieces is A4 (K-137).
+- E2.17.2.02 | Ski binding |  | binding that fixes a boot to a ski and releases it in a fall.
+- E2.14.1.02 | Baseball glove |  | padded leather glove or mitt made for catching in baseball or softball.
+- E2.14.2.01 | Cricket ball |  | hard, leather-covered cork-core ball with a raised seam, made for cricket.
+- E2.14.2.02 | Cricket bat |  | flat-faced willow bat made for cricket; willow grade 1 to 4 is an attribute (a retailer convention).
+- E2.14.3.01 | Football |  | inflated ball made for association football; size is an attribute.
+- E2.14.4.01 | Rugby ball |  | oval inflated ball made for rugby; official-ball class and size are attributes.
+- E2.15.1.01 | Competition swimsuit |  | racing suit made for competitive swimming; bikinis, trunks and beachwear are A1 (K-126).
+- E2.15.5.01 | Surfboard |  | board ridden standing on breaking waves.
+- E2.15.3.01 | Kitesurf kite |  | large steerable kite made to pull a rider on a board across water.
+- E2.15.4.01 | Bodyboard |  | short foam board ridden lying prone on waves.
+- E2.15.4.02 | Stand-up paddleboard |  | large board ridden standing and propelled with a paddle, rigid or inflatable.
+- E2.16.1.02 | Mouthguard |  | moulded guard worn over the teeth to protect them in contact sports.
+- E2.16.1.01 | Knee pad |  | padded guard worn over the knee to protect it in sport.
+- E2.16.1.03 | Shin guard |  | rigid or padded guard worn over the shin in sport.
+- E2.15.1.02 | Swim goggles |  | watertight goggles made for swimming (K-125).
+- E2.16.2.01 | Distress flare |  | pyrotechnic flare that signals distress by light or smoke (K-84).
+- E2.16.3.01 | Gymnastic rings |  | pair of rings hung on straps for gymnastic and bodyweight training.
+- E2.16.3.02 | Punch bag |  | heavy hanging or free-standing bag struck in boxing and fitness training.
+- E2.16.3.03 | Skipping rope |  | rope with handles turned and jumped over in training.
+- E2.16.4.01 | Crampon |  | spiked frame fitted to a boot for grip on ice and hard snow.
+- E2.16.4.02 | Ice axe |  | axe with a pick and adze made for climbing and travel on snow and ice.
+- E2.17.1.01 | Golf bag |  | bag that carries one set of golf clubs (K-137).
+- E2.17.3.01 | Table-tennis rubber |  | rubber sheet, with or without sponge, glued to a table-tennis blade; surface (inverted, pimples-out, long pimples) is an attribute.
+- E2.17.4.02 | Tennis string |  | string sold to string a tennis racket, by the set or the reel.
+- E2.13.6.01 | Sledge |  | unpowered sled or toboggan ridden downhill on snow or ice for play or sport; a horse-drawn or machine-drawn sleigh is G1 (G-10).
+- E2.16.4.03 | Snowshoe |  | wide frame strapped to a boot to walk on deep snow.
+- E2.14.1.01 | Baseball bat |  | rounded bat made for baseball or softball; hard-ball or soft-ball and material are attributes.
+- E2.14.3.02 | Football boot |  | studded or bladed boot made for football; the ground code (FG, AG, SG, MG, TF, IC) is an attribute.
+- E2.12.2.01 | Kick scooter |  | unpowered scooter with a deck and handlebar, pushed along by foot; a powered kick scooter is G1.
+- E2.12.3.01 | Skateboard |  | unpowered board on two trucks and four wheels, ridden standing; a powered board is G1.
+- E2.12.4.01 | Unicycle |  | unpowered single-wheel cycle pedalled and balanced by the rider; an electric unicycle is G1 (K-90).
+- E2.15.1.03 | Wetsuit |  | neoprene suit that insulates the wearer in water, for surfing, diving, triathlon and paddling; thickness is an attribute.
+- E2.15.2.01 | Diving mask |  | mask with a glass lens and nose pocket made for diving and snorkelling.
+- E2.15.3.02 | Wing-foil wing |  | hand-held inflatable wing that powers a rider on a foil board.
+- E2.16.2.02 | Flare pistol |  | pistol made to fire distress or signal flares (K-84).
+- E2.17.4.01 | Racket case |  | case or cover that holds one racket (K-137).
+- E2.7.1.01 | Fishing rod |  | flexible rod made to cast and play a fish on a line; power and action are attributes.
+- E2.7.2.01 | Decoy |  | model or replica of a bird or animal set out to lure game within range (K-163).
+- E2.7.2.02 | Game call |  | device blown, struck or played electronically that imitates an animal's sound to attract game (K-163).
+- E2.7.2.03 | Game trap |  | snare, leg-hold or body-grip trap made for trapping game or fur animals; mouse, rat, insect and live-catch cage traps are B8.4 (R-6; level provisional, R-19).
+- E2.7.2.04 | Hunting blind |  | portable hide or screen that conceals a hunter from game (K-163).
+- E2.7.2.05 | Hunting rangefinder |  | handheld laser rangefinder made to measure the distance to game (K-148).
+- E2.7.3.01 | Speargun |  | underwater gun powered by rubber bands or compressed air that fires a spear at fish.
+- E2.8.1.01 | Archery target |  | boss, butt or block made to stop arrows, with or without a target face (K-163).
+- E2.8.1.02 | Arm guard |  | guard strapped to the bow arm that protects it from the bowstring (K-163).
+- E2.8.1.03 | Finger tab |  | leather or synthetic pad worn on the drawing fingers to hold and release the string (K-163).
+- E2.8.2.01 | Boomerang |  | curved throwing wing made to return to the thrower or fly for distance, in every form (K-84).
+- E2.8.3.01 | Clay target |  | frangible disc thrown as a flying target for clay shooting.
+- E2.8.3.02 | Clay thrower |  | hand or machine trap that launches clay targets.
+- E2.8.4.01 | Cue |  | tapered stick used to strike the balls in pool, snooker and billiards.
+- E2.8.4.02 | Pool table |  | cloth-covered slate or board table with cushions, with or without pockets, made for pool, snooker or billiards.
+- E2.8.5.01 | Dartboard |  | target board made for darts, of bristle, cork or electronic segments.
+- E2.8.6.01 | Driver |  | lowest-lofted wood with the largest head, made to hit the ball off the tee for maximum distance.
+- E2.8.6.02 | Fairway wood |  | wood with more loft and a smaller head than the driver, made to be hit from the fairway or tee.
+- E2.8.6.03 | Hybrid (utility) |  | club with a compact wood-like head that replaces a long iron.
+- E2.8.6.04 | Iron set |  | matched set of irons of graded loft with flat-faced heads; iron category (game improvement, players distance, blade) is an attribute.
+- E2.8.6.05 | Wedge |  | high-lofted club made for short approach, pitch, chip and bunker shots.
+- E2.8.6.06 | Putter |  | low-lofted club made to roll the ball on the green.
+- E2.8.6.07 | Golf ball |  | dimpled ball made to the rules of golf.
+- E2.8.6.08 | Golf rangefinder |  | handheld laser rangefinder made to measure the distance to the flag; golf GPS units are D2 (K-148).
+- E2.9.1.01 | Upright exercise bike |  | stationary pedal machine with an upright seat and handlebar, the canonical exercise bike; resistance type is the attribute `resistance_type` (section 14 E2-1; the memo's "exercise bike").
+- E2.9.1.02 | Spin bike (indoor cycling bike) |  | stationary bike with a heavy front flywheel and a road-bike riding position that allows riding out of the saddle (section 14 E2-1, provisional).
+- E2.9.1.03 | Recumbent exercise bike |  | stationary bike with a seat with a backrest and the pedals set forward (section 14 E2-1, provisional).
+- E2.9.1.04 | Fitness trampoline |  | small trampoline (rebounder) with a frame of about 1.2 m or less, sold for exercise; a garden or play trampoline is E1 (K-159, cut provisional).
+- E2.9.1.05 | Rowing machine |  | stationary machine that simulates rowing with a sliding seat and a resisted pull handle.
+- E2.9.1.06 | Treadmill |  | machine with a moving belt for walking or running in place; motorised or manual drive is an attribute (C10).
+- E2.9.2.01 | Kettlebell |  | cast weight shaped as a ball with a handle, swung and lifted in training.
+- E2.9.2.02 | Weight bar |  | bar made to carry weight plates for lifting (barbell or dumbbell bar).
+- E2.9.3.01 | Yoga mat |  | thin, non-slip mat made for yoga and floor exercise.
+- E2.10.1.01 | Metal detector |  | handheld search coil and control unit made to find buried metal objects for treasure hunting.
+- E2.10.1.02 | Pinpointer |  | small handheld probe detector that locates a find inside a dug hole.
+- E2.10.1.03 | Digging tool |  | trowel, spade or knife made to dig out finds in metal detecting.
+- E2.10.2.01 | Bivvy bag |  | waterproof, breathable sleeping-bag cover used as a minimal shelter.
+- E2.10.2.02 | Sleeping bag |  | insulated bag to sleep in outdoors; season or temperature rating is an attribute.
+- E2.10.2.03 | Sleeping mat |  | foam, self-inflating or air pad that insulates and cushions a sleeper from the ground.
+- E2.10.2.04 | Tarp shelter |  | waterproof sheet pitched with poles or lines as a roof shelter.
+- E2.10.2.05 | Tent |  | portable fabric shelter pitched on poles or frames, yurts and tipis included (K-65); a platform built for it is G2.
+- E2.10.3.01 | Trekking pole |  | adjustable walking pole used for support on trails; grip type (I-type, T-type, Nordic) is an attribute.
+- E2.11.1.01 | Badminton racket |  | light, long-shafted racket strung for badminton; balance, U-weight and flex are attributes.
+- E2.11.1.02 | Shuttlecock |  | feathered or plastic-skirted projectile hit in badminton.
+- E2.11.2.01 | Table-tennis bat |  | wooden blade, with or without rubbers, used to hit the ball in table tennis; grip (shakehand, penholder) is an attribute.
+- E2.11.2.02 | Table-tennis table |  | regulation-surface table with a net made for table tennis; indoor or outdoor is an attribute (C12).
+- E2.11.3.01 | Tennis ball |  | felt-covered rubber ball made for tennis; pressurised or pressureless is an attribute.
+- E2.11.3.02 | Tennis racket |  | strung racket made for tennis; head size, weight and balance are attributes.
+- E2.11.3.03 | Tennis shoe |  | court shoe sold as a performance model with a court-specific sole for tennis; an everyday tennis-lineage sneaker is A2 (K-127).
+- E2.11.4.01 | Padel racket |  | solid, stringless perforated racket made for padel (section 14 E2-2, provisional).
+- E2.11.4.02 | Padel ball |  | pressurised felt ball made for padel, slightly less pressurised than a tennis ball (section 14 E2-2, provisional).
+- E2.11.5.01 | Pickleball paddle |  | solid, flat-faced paddle made for pickleball (section 14 E2-2, provisional).
+- E2.11.5.02 | Pickleball ball |  | perforated plastic ball made for pickleball (section 14 E2-2, provisional).
+- E2.2.3.01 | Balance beam |  | raised narrow beam on supports made for gymnastics balance training and competition.
+- E2.2.3.02 | Parallel bars |  | pair of equal-height rails on uprights made for men's gymnastics and training.
+- E2.2.3.03 | Uneven bars |  | pair of rails set at different heights made for women's gymnastics.
+- E2.2.3.04 | Horizontal bar |  | single high or training bar on uprights for swings and release moves; a kids' single training bar is a named form.
+- E2.2.3.05 | Pommel horse |  | padded body on legs with two handles (pommels) made for gymnastics circles and swings.
+- E2.2.3.06 | Vault board (springboard) |  | sprung take-off board used for vaulting and gymnastics jumps.
+- E2.4.7.04 | HEMA chest protector (plastron) |  | rigid or padded chest guard worn under a HEMA jacket.
+- E2.4.7.05 | HEMA gorget |  | rigid neck and throat guard worn for HEMA sparring.
+- E2.4.7.06 | HEMA fencing trousers |  | padded trousers or breeches made for HEMA sparring, rated as standard_met where given.
+- E2.4.3.06 | Lamé |  | conductive jacket worn over the fencing jacket so electric scoring registers hits (foil and sabre).
+- E2.4.3.07 | Fencing glove |  | padded glove with a cuff worn on the weapon hand in fencing.
+- E2.4.3.08 | Underarm protector (fencing plastron) |  | half-jacket worn under the fencing jacket on the weapon-arm side, rated to FIE 800 N where certified.
+- E2.4.3.09 | Fencing chest protector |  | rigid plastic chest guard worn under the fencing jacket.
+- E2.4.3.10 | Fencing breeches |  | knee-length protective breeches made for fencing, rated to FIE 800 N where certified.
+- E2.4.3.11 | Fencing shoe |  | flat, reinforced shoe made for fencing footwork.
+- E2.2.1.05 | Jazz shoe |  | soft split-sole slip-on or lace-up shoe made for jazz dance.
+- E2.2.1.06 | Character shoe |  | heeled dance shoe with a strap, made for stage and character dance.
+- E2.9.1.07 | Air bike (fan bike) |  | stationary bike whose fan gives the resistance and whose handles move with the pedals.
+- E2.9.1.09 | Recumbent cross trainer (recumbent stepper) |  | seated machine with a backrest whose pedals step back and forth, linked to moving arm handles.
+- E2.10.2.06 | Camping hammock |  | suspended fabric bed hung between trees for sleeping outdoors; a garden hammock is not E2.
+- E2.10.2.07 | Sleeping-bag liner |  | thin bag of silk, cotton or fleece used inside a sleeping bag for warmth or hygiene.
+- E2.10.2.08 | Bothy bag (group shelter) |  | windproof fabric bag that several people sit inside as an emergency shelter.
+- E2.11.2.03 | Table-tennis ball |  | 40 mm celluloid-free plastic ball made for table tennis; star rating is an attribute.
+- E2.11.2.04 | Table-tennis robot |  | ball-throwing machine that feeds table-tennis balls for practice.
+- E2.17.6.01 | Badminton string |  | string sold to string a badminton racket, by the set or the reel.
+- E2.11.1.03 | Badminton net |  | net and posts or net alone sold for badminton.
+- E2.8.6.09 | Complete golf set |  | packaged set of clubs, usually with a bag, sold as one product.
+- E2.8.6.10 | Utility iron (driving iron) |  | long iron with a hollow or wide-soled iron head made to replace a long iron or hybrid.
+- E2.8.1.04 | Archery shooting glove |  | three-finger glove worn on the drawing hand to draw and release the string.
+- E2.8.1.05 | Bow sling |  | wrist or finger strap that keeps a bow in the archer's hand at release.
+- E2.13.1.03 | Ski pole |  | pole with a grip, strap and basket used in alpine and touring skiing.
+- E2.17.2.04 | Climbing skin |  | strip of mohair or nylon plush fixed to a ski or splitboard base for climbing.
+- E2.17.2.03 | Snowboard binding |  | non-release binding with highback and straps that fixes a boot to a snowboard.
+- E2.13.7.02 | Snowboard boot |  | soft or stiff boot made to fit a snowboard binding.
+- E2.13.3.02 | Cross-country ski boot |  | light boot with a Nordic binding interface made for cross-country skiing.
+- E2.13.7.03 | Splitboard |  | snowboard that splits into two ski-like halves for climbing and rejoins for descent.
+- E2.15.1.04 | Swim fins |  | rubber or silicone fins worn on the feet for swimming, snorkelling or diving.
+- E2.15.2.02 | Snorkel |  | breathing tube with mouthpiece for swimming face-down at the surface.
+- E2.15.1.05 | Swim cap |  | silicone, latex or fabric cap worn for swimming.
+- E2.15.1.06 | Pull buoy |  | foam float held between the legs for arm-only swim training.
+- E2.15.1.07 | Kickboard |  | foam board held in front for kick-only swim training.
+- E2.17.7.01 | Kite control bar |  | bar with lines and safety release used to steer one kite.
+- E2.15.3.03 | Kite harness |  | waist or seat harness that hooks the rider to the kite bar.
+- E2.15.3.04 | Kiteboard |  | twin-tip or directional board ridden while pulled by a kite.
+- E2.17.8.01 | SUP paddle |  | single-blade paddle made for stand-up paddleboarding.
+- E2.15.3.05 | Foilboard |  | short buoyant board made to carry a hydrofoil for wing, kite or surf foiling.
+- E2.17.9.01 | Hydrofoil |  | mast, fuselage and wings fitted under a foilboard.
+- E2.17.10.01 | Surf leash |  | cord that ties a surfboard to the rider's ankle.
+- E2.17.10.02 | Surf fin |  | fin fitted to a surfboard's fin box.
+- E2.17.10.03 | Surf wax |  | wax rubbed on a surfboard deck for grip.
+- E2.14.1.03 | Batting helmet |  | helmet made for batting in baseball or softball.
+- E2.14.1.04 | Catcher's gear |  | catcher's helmet or mask, chest protector and leg guards, as a set or piece.
+- E2.14.2.03 | Batting pads (cricket) |  | leg guards worn by a cricket batter.
+- E2.14.2.04 | Cricket helmet |  | helmet with face grille made for cricket batting and close fielding.
+- E2.14.2.05 | Cricket batting gloves |  | padded gloves worn by a cricket batter.
+- E2.14.2.06 | Wicket-keeping gloves |  | webbed padded gloves worn by a cricket wicket-keeper.
+- E2.14.2.07 | Stumps (wicket set) |  | set of stumps and bails, fixed or on a base, made for cricket.
+- E2.14.3.03 | Goalkeeper gloves |  | padded latex-palm gloves worn by a football goalkeeper.
+- E2.14.3.04 | Football goal |  | goal frame with net made for football.
+- E2.3.2.05 | Ice tool |  | technical axe with a curved shaft and steep pick made for ice and mixed climbing.
+- E2.3.2.06 | Ice screw |  | threaded tube screwed into ice as climbing protection.
+- E2.16.4.04 | Traction device (microspikes) |  | slip-on elastomer harness with chains and short spikes for walking on ice.
+- E2.14.4.02 | Kicking tee |  | stand that holds a rugby ball upright for place kicks.
+- E2.17.5.01 | Padel racket cover |  | cover or case that holds one padel racket (K-137).
+- E2.11.5.03 | Pickleball shoe |  | court shoe sold as a performance model with a pickleball-specific sole; everyday lineage is A2 (K-127).
+- E2.2.2.05 | Electronic starting system |  | electronic start unit that gives the start signal by sound and light in place of a blank pistol.
+- E2.9.1.08 | Elliptical cross trainer |  | standing cardio machine with foot pedals on an elliptical path and moving arm handles.
+- E2.14.5.01 | Hockey stick |  | long-shafted stick with a flat blade, made to carry and shoot the puck in ice hockey; flex, kick point, blade pattern and hand are attributes.
+- E2.14.5.02 | Hockey helmet |  | hard-shell helmet with chin strap made for ice hockey; sold alone or as a combo with a cage.
+- E2.14.5.03 | Hockey cage or visor |  | face cage or clear shield that clips to a hockey helmet.
+- E2.14.5.04 | Hockey shoulder pads |  | padded shoulder, chest and upper-arm protector worn under the jersey in ice hockey.
+- E2.14.5.05 | Hockey elbow pads |  | padded elbow and forearm guard worn in ice hockey.
+- E2.14.5.06 | Hockey gloves |  | padded glove with a segmented cuff made for skaters in ice hockey.
+- E2.14.5.07 | Hockey pants |  | padded pants or girdle with shell worn over the hips and thighs in ice hockey.
+- E2.14.5.08 | Goalie leg pads |  | pair of large rigid-faced pads strapped over the goalie shins and knees in ice hockey.
+- E2.14.5.09 | Goalie blocker |  | rectangular pad on the goalie stick hand, used to deflect shots and hold the stick.
+- E2.14.5.10 | Goalie catcher |  | large pocketed glove on the goalie non-stick hand, made to catch the puck.
+- E2.14.5.11 | Goalie mask |  | face mask or helmet-cage worn by the goalie in ice hockey.
+- E2.14.5.12 | Hockey puck |  | vulcanised rubber disc struck in ice hockey; mini and training pucks are variants.
+- E2.14.5.13 | Hockey goal |  | steel-framed goal with netting set on the ice or floor for ice or street hockey; replacement net is a part.
+- E2.14.5.14 | Field hockey stick |  | curved composite or wood stick with a hooked head, made for field hockey.
+- E2.14.5.15 | Bandy stick |  | light slim stick with a long narrow blade, made for bandy.
+- E2.3.1.01 | Caving oversuit |  | abrasion-resistant one-piece suit (Cordura or PVC) worn over the undersuit in caves.
+- E2.3.1.02 | Caving tackle bag |  | round or oval bag with shoulder straps and drawstring or roll-top closure for hauling rope and gear through caves.
+- E2.3.1.03 | Caving descender |  | bobbin or rack descender made for single rope technique in caves, often with assisted braking.
+- E2.3.1.04 | Cowstail |  | short lanyard with a carabiner used to clip into rebelays and traverse lines on single rope technique.
+- E2.3.1.05 | Foot loop |  | adjustable loop of webbing or cord that holds a foot ascender and the foot for climbing a rope.
+- E2.3.1.06 | SRT kit |  | set of harness-mounted rope-climbing gear (ascenders, descender, cowstails, foot loop) sold or assembled as one single rope technique kit.
+- E2.3.2.07 | Carabiner |  | metal snap link with a spring or screw gate used to connect rope, protection and harness in climbing.
+- E2.3.2.08 | Quickdraw |  | two carabiners joined by a short sewn sling, used to clip the rope to bolts and protection.
+- E2.3.2.09 | Belay device |  | friction or assisted-braking device that controls the rope when belaying or abseiling.
+- E2.3.2.10 | Camming device |  | spring-loaded active protection whose lobes expand to grip a crack.
+- E2.3.2.11 | Nut (chock) |  | passive wedge of metal on a wire placed in a crack as climbing protection.
+- E2.3.2.12 | Piton |  | steel spike hammered into a rock crack as a fixed or temporary anchor.
+- E2.3.2.13 | Bolt hanger |  | metal plate fixed on an expansion or glue-in bolt to give a rope anchor point.
+- E2.3.2.14 | Climbing sling |  | closed or sewn loop of webbing or Dyneema used as a runner or anchor extension.
+- E2.3.2.15 | Climbing chalk |  | magnesium carbonate powder, block or liquid applied to the hands for grip.
+- E2.3.2.16 | Chalk bag |  | small bag or bucket that holds chalk, worn at the waist or set on the ground.
+- E2.3.2.17 | Bouldering crash pad |  | folding foam pad placed under a boulder problem to cushion falls.
+- E2.3.2.18 | Hangboard |  | wall-mounted board with grips of set depth used to train finger strength.
+- E2.3.2.19 | Daisy chain |  | chain of loops or adjustable lanyard that links the harness to an anchor in aid climbing.
+- E2.3.2.20 | Etrier |  | short webbing ladder with steps clipped to gear to stand on in aid climbing.
+- E2.3.2.21 | Rope ascender |  | mechanical clamp that slides up a rope and locks under load, held in the hand, on the chest or on the foot.
+- E2.3.2.22 | Climbing pulley |  | sheave in a side plate that redirects or hauls rope, with or without a progress-capture cam.
+- E2.3.2.23 | Maillon rapide |  | steel screw-link connector for permanent rigging of anchors.
+- E2.3.2.24 | Via ferrata lanyard |  | energy-absorbing Y lanyard with two carabiners made for clipping along a via ferrata cable.
+- E2.3.2.25 | Rope bag |  | bag or tarp that holds the rope at the foot of a climb or when carried.
+- E2.3.2.26 | Climbing brush |  | brush used to clean holds on boulders and routes.
+- E2.3.2.27 | Belay glove |  | leather or reinforced glove worn to belay and abseil, protecting the hands from rope burn.
+- E2.3.1.07 | Caving ladder (electron ladder) |  | light flexible ladder of wire rope and alloy rungs rigged down pitches in caves.
+- E2.3.1.08 | Caving chest harness |  | chest strap or harness that holds the chest ascender upright for single rope technique.
+- E2.3.1.09 | Caving undersuit |  | thermal one-piece fleece or pile suit worn under a caving oversuit.
+- E2.14.5.16 | Goalie chest and arm protector |  | padded chest, shoulder and arm protector worn by the goalie in ice hockey.
+- E2.14.5.17 | Goalie pants |  | padded pants with thigh and hip protection cut for the goalie in ice hockey.
+- E2.14.5.18 | Goalie stick |  | hockey stick with a widened paddle and large blade, made for the goalie in ice hockey.
+- E2.14.5.19 | Hockey neck guard |  | cut-resistant collar or bib worn round the neck against skate blades in ice hockey.
+- E2.16.1.04 | Protective cup (athletic cup, box) |  | rigid cup worn over the groin, alone or in a jock or jill supporter, to protect it in contact and ball sports.
+- E2.17.12.01 | Hockey pant shell |  | removable outer shell pulled over a hockey girdle to make full hockey pants.
+- E2.17.11.01 | Skate guard |  | hard or soft guard fitted over an ice-skate blade to protect it off the ice.
+- E2.14.5.20 | Hockey shooting pad |  | slick synthetic sheet laid on the floor for practising stickhandling and shooting off the ice.
+- E2.3.2.28 | Clip stick |  | telescopic pole with a clip head that pre-clips a quickdraw or the rope to a bolt from below.
+- E2.5.03 | Cycling jersey |  | close-fitting top with a full or part zip and rear pockets made for riding a bicycle.

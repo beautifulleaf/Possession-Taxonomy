@@ -1,0 +1,165 @@
+# C6 Optical & Scientific Instruments: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (instrument type)
+- reason: Every optics shop opens on the instrument and then its optical design, with maker and use as facets (Astroshop telescopes and microscopes, High Point Scientific), while guides start from what you want to observe, which is the second filter, not the first (The Conversation, Astronomy.com forum, Conduct Science).
+- ladder: Which instrument? > Which design (prism type; refractor, reflector or catadioptric; compound, stereo or digital)? > What makes the best one (aperture and glass, optics then mechanics), then models by maker
+- level1_groups: Binoculars and monoculars (C6.1.1); Telescopes (C6.1.3); Mounts, eyepieces and telescope accessories (C6.5.1; eclipse glasses C6.1.7); Spotting scopes, night vision and thermal (C6.1.4; C6.1.2); Microscopes (C6.1.5; C6.5.2); Magnifiers and loupes (C6.1.6); Weather and air instruments (C6.2); Laboratory equipment (C6.3); Science kits and sky models (C6.4; C6.1.8)
+- quality_markers: Telescopes: aperture first, larger gathers more light (Conversation, Astronomy.com: floor 70 mm refractor or 100 mm reflector); optics quality over magnification; glass class achromat < ED < apochromat (Astroshop build type; memo); mount stability and type: shaky tripod < alt-az or Dobsonian < equatorial, GoTo for imaging (Conversation, forum); ease of use and portability (forum); Binoculars: free of pollutants first (Stiftung Warentest gate); optical performance: resolution, sharpness, edge clarity, light transmission, colour, flare, field of view, close focus (Outdoor Life, Warentest); prism glass BK7 < BaK4 < SK15 and coatings single < multi < fully multi and phase-corrected (memo, Vixen); mechanics and build: focus, diopter, eyecups, waterproofing, balance (Outdoor Life); Microscopes: objective quality achromat < plan achromat < plan apochromat (Microscope Master; memo); sturdy metal construction (Microscope Master, Conduct Science); illumination LED or halogen, Abbe condenser with iris, smooth mechanical stage, fine focus without backlash; WF or SWF eyepieces; DIN-compatible objectives; Weather stations (memo): sensor count, shielded and aspirated sensors, WMO-style siting; Lab ware: accuracy class (not yet sourced)
+- quality_signals: Stiftung Warentest binocular test, grades sehr gut to mangelhaft, pollutants as a fail gate (test.de) class (ii); Outdoor Life binocular scorecard with 1951 USAF resolution chart, Excellent to Fair, best-by-category (magazine test team) class (ii); BirdForum 'alpha' class (Swarovski EL and NL, Leica Noctivid, Zeiss SF, Nikon EDG), community class (iii), disputed (memo S33; HOL excerpt only); Best Binocular Reviews 'high-end' class (memo S34) class (iii); Fotosiegl premium classes as platform_tag (vi) (memo S36); achromat, ED and apochromat glass classes as attribute class (i); DIN objective standard and JIS B7157 field of view as attribute class (i); Astroshop 'Recommended for beginners' as platform_tag (vi); Astronomy club or society advice as guidance, not a scheme
+- maker_role: owner, confirmed (consumer optics brands are few and type leads every shop; Astroshop and High Point put the manufacturer after type)
+- side_view: Alpha binoculars tier tab (R-104) and a brand index for binoculars, telescopes and microscopes (High Point brand pages, Astroshop manufacturer facet, First Light Optics brand-first tree in memo); use views: astronomy (visual, imaging, solar), birding, hunting and marine, home weather, school science, antique instruments
+- evidence_rows: Astroshop.eu (telescope facets); Microscope Master buyer guide; Conduct Science microscope buying guide; Outdoor Life binocular test; Stiftung Warentest (test.de) binocular test; The Conversation astronomer guide to a home telescope (Swinburne); High Point Scientific (US); Astroshop.eu microscopes (Germany); Astronomy.com forum first telescope thread
+- maker role row: {'code': 'C6', 'scope': '*', 'role': 'owner', 'provisional': 'no', 'reason': 'consumer optics brands are few; laboratory suppliers sell to institutions (R-108, R-109)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-C6-1 | Binoculars and monoculars | 1 |  | C6.1.1
+- G-C6-2 | Hand binoculars (Porro and roof prism) | 2 | G-C6-1 | C6.1.1.01; C6.1.1.02
+- G-C6-3 | Giant and astronomy binoculars | 2 | G-C6-1 | C6.1.1.03
+- G-C6-4 | Opera glasses and monoculars | 2 | G-C6-1 | C6.1.1.04; C6.1.1.05
+- G-C6-5 | Telescopes | 1 |  | C6.1.3
+- G-C6-6 | Refractors | 2 | G-C6-5 | C6.1.3.01
+- G-C6-7 | Reflectors | 2 | G-C6-5 | C6.1.3.02; C6.1.3.07
+- G-C6-8 | Catadioptric telescopes | 2 | G-C6-5 | C6.1.3.03; C6.1.3.04; C6.1.3.08
+- G-C6-9 | Smart and solar telescopes | 2 | G-C6-5 | C6.1.3.06; C6.1.3.05
+- G-C6-10 | Mounts, eyepieces and telescope accessories | 1 |  | C6.5.1; C6.1.7
+- G-C6-11 | Mounts and tripods | 2 | G-C6-10 | C6.5.1.02; C6.5.1.03; C6.5.1.06; C6.5.1.10; C6.5.1.07; C6.5.1.08; C6.5.1.09
+- G-C6-12 | Eyepieces, finders, Barlows and focusers | 2 | G-C6-10 | C6.5.1.01; C6.5.1.12; C6.5.1.11; C6.5.1.13; C6.5.1.14; C6.5.1.16
+- G-C6-13 | Filters and eclipse glasses | 2 | G-C6-10 | C6.5.1.04; C6.1.7.01; C6.5.1.15
+- G-C6-14 | Astronomy cameras | 2 | G-C6-10 | C6.5.1.05
+- G-C6-15 | Spotting scopes, night vision and thermal | 1 |  | C6.1.4; C6.1.2
+- G-C6-16 | Spotting scopes | 2 | G-C6-15 | C6.1.4.01
+- G-C6-17 | Night-vision and thermal viewers | 2 | G-C6-15 | C6.1.2.01; C6.1.2.02
+- G-C6-18 | Microscopes | 1 |  | C6.1.5; C6.5.2
+- G-C6-19 | Compound, stereo and polarizing microscopes | 2 | G-C6-18 | C6.1.5.01; C6.1.5.02; C6.1.5.05
+- G-C6-20 | Digital and pocket microscopes | 2 | G-C6-18 | C6.1.5.03; C6.1.5.04
+- G-C6-21 | Electron and scanning-probe microscopes | 2 | G-C6-18 | C6.1.5.06; C6.1.5.07
+- G-C6-22 | Objectives, eyepieces and other microscope parts | 2 | G-C6-18 | C6.5.2.01; C6.5.2.03; C6.5.2.02; C6.5.2.04; C6.5.2.05
+- G-C6-23 | Magnifiers and loupes | 1 |  | C6.1.6
+- G-C6-24 | Handheld and stand magnifiers | 2 | G-C6-23 | C6.1.6.01; C6.1.6.03
+- G-C6-25 | Loupes and head-worn magnifiers | 2 | G-C6-23 | C6.1.6.02; C6.1.6.05; C6.1.6.04
+- G-C6-26 | Weather and air instruments | 1 |  | C6.2
+- G-C6-27 | Weather stations | 2 | G-C6-26 | C6.2.5.01
+- G-C6-28 | Thermometers and hygrometers | 2 | G-C6-26 | C6.2.1.01; C6.2.1.02
+- G-C6-29 | Barometers | 2 | G-C6-26 | C6.2.2.03; C6.2.2.01; C6.2.2.02
+- G-C6-30 | Wind instruments | 2 | G-C6-26 | C6.2.3.01; C6.2.3.02; C6.2.3.03
+- G-C6-31 | Rain, sun and sky sensors | 2 | G-C6-26 | C6.2.4.01; C6.2.4.02; C6.2.4.03; C6.2.4.04
+- G-C6-32 | Air-quality monitors | 2 | G-C6-26 | C6.2.6.01
+- G-C6-33 | Laboratory equipment | 1 |  | C6.3
+- G-C6-34 | Glassware and volumetric ware | 2 | G-C6-33 | C6.3.1.01; C6.3.1.02; C6.3.1.03; C6.3.1.04; C6.3.1.05; C6.3.1.06; C6.3.1.07; C6.3.1.08; C6.3.1.09
+- G-C6-35 | Weighing and measuring | 2 | G-C6-33 | C6.3.2.01; C6.3.2.26; C6.3.2.23; C6.3.2.24
+- G-C6-36 | Analytical instruments | 2 | G-C6-33 | C6.3.2.14; C6.3.2.15; C6.3.2.16; C6.3.2.17; C6.3.2.25
+- G-C6-37 | Heating, cooling and incubation | 2 | G-C6-33 | C6.3.2.03; C6.3.2.04; C6.3.2.05; C6.3.2.21; C6.3.2.22; C6.3.2.19; C6.3.2.09
+- G-C6-38 | Mixing, separating and sample preparation | 2 | G-C6-33 | C6.3.2.02; C6.3.2.10; C6.3.2.20; C6.3.2.11; C6.3.2.08; C6.3.2.07
+- G-C6-39 | Fume hoods, clean benches and enclosures | 2 | G-C6-33 | C6.3.2.06; C6.3.2.12; C6.3.2.13; C6.3.2.18
+- G-C6-40 | Science kits and sky models | 1 |  | C6.4; C6.1.8
+- G-C6-41 | Science and model kits | 2 | G-C6-40 | C6.4.01; C6.4.02
+- G-C6-42 | Orreries, astrolabes and planetariums | 2 | G-C6-40 | C6.1.8.01; C6.1.8.02; C6.1.8.03
+
+## Current quality markers (group_id | marker | values | why | evidence)
+
+## Kinds (kind_id | stored name | native name | definition)
+- C6.1.1.01 | Porro-prism binoculars |  | twin-barrel binoculars with Porro prisms, giving an offset, Z-shaped body.
+- C6.1.1.03 | Giant binoculars |  | binoculars of 70 to 150 mm aperture, used on a tripod.
+- C6.1.1.04 | Opera glasses |  | small Galilean-design binoculars for the theatre and opera.
+- C6.1.1.05 | Monocular |  | single-tube handheld viewing instrument, not a telescope on a mount.
+- C6.1.2.01 | Night-vision viewer |  | viewer that intensifies available light to show a scene in the dark (rule T(b), C6-O1: provisional until attested).
+- C6.1.2.02 | Thermal-imaging viewer |  | viewer that shows a scene by the heat it gives off (rule T(b), C6-O1: provisional until attested).
+- C6.1.1.02 | Roof-prism binoculars |  | twin-barrel binoculars with roof prisms, giving a straight, slim body.
+- C6.1.3.01 | Refractor telescope |  | telescope that gathers light with a lens objective.
+- C6.1.3.02 | Newtonian reflector telescope |  | telescope that gathers light with a primary mirror and a flat secondary mirror at the side of the tube; the Dobsonian is a named form of it, not a kind (C-18).
+- C6.1.3.03 | Schmidt-Cassegrain telescope |  | catadioptric telescope with a corrector plate and a folded mirror light path.
+- C6.1.3.04 | Maksutov-Cassegrain telescope |  | catadioptric telescope with a meniscus corrector and a folded mirror light path.
+- C6.1.3.06 | Smart (imaging) telescope |  | telescope with a sensor and no eyepiece that shows the sky on a screen or app (rule T(b), C6-O1: provisional until attested).
+- C6.1.3.05 | Solar (H-alpha) telescope |  | telescope made to observe the Sun in hydrogen-alpha light (rule T(b), C6-O1: provisional until attested).
+- C6.1.4.01 | Spotting scope |  | compact single-tube telescope for daytime viewing of distant things, used on a tripod or rest.
+- C6.1.5.01 | Compound light microscope |  | microscope with an objective and an eyepiece in series, for thin specimens on a slide.
+- C6.1.5.02 | Stereo (dissecting) microscope |  | low-power microscope with two optical paths giving an upright three-dimensional view of solid objects.
+- C6.1.5.03 | Digital microscope |  | microscope with its own sensor that shows the image on a screen or computer (rule T(b), C6-O1: provisional until attested).
+- C6.1.5.05 | Polarizing microscope |  | microscope that lights the specimen with polarized light, for minerals and crystals.
+- C6.1.6.01 | Handheld magnifier |  | magnifying lens on a handle held in the hand.
+- C6.1.6.02 | Pocket (folding) loupe |  | small loupe that folds into a case or holder to be carried.
+- C6.1.6.03 | Stand magnifier |  | magnifier on a desk, floor or neck-cord stand.
+- C6.1.6.04 | Head-worn magnifier |  | loupe or magnifier on a headband or clip, also called a binocular loupe (K-135, R-13).
+- C6.1.7.01 | Eclipse viewing glasses |  | glasses with a solar filter made for looking at the Sun (K-135).
+- C6.1.8.01 | Orrery |  | mechanical model of the Sun, planets and moons (C-18).
+- C6.1.8.02 | Astrolabe |  | instrument that models the sky for finding the positions of stars and the time (C-18).
+- C6.1.8.03 | Planetarium projector |  | projector that shows the night sky on a dome or wall (C-18).
+- C6.2.1.01 | Thermometer (air) |  | instrument that reads the air temperature indoors or outdoors; a working Galileo thermometer is this kind.
+- C6.2.1.02 | Hygrometer |  | instrument that reads the humidity of the air.
+- C6.2.2.01 | Cistern barometer |  | mercury barometer whose column stands in an open cistern.
+- C6.2.2.02 | Angle (diagonal) barometer |  | mercury barometer whose tube is bent or sloped to lengthen the scale.
+- C6.2.2.03 | Aneroid barometer |  | barometer that reads pressure from a sealed flexible capsule.
+- C6.2.3.02 | Wind vane |  | instrument that shows the wind direction.
+- C6.2.3.03 | Windsock |  | tapered fabric sleeve that shows wind direction and strength.
+- C6.2.4.01 | Rain gauge |  | instrument that collects and measures rainfall.
+- C6.2.4.02 | Pyranometer |  | instrument that measures solar radiation.
+- C6.2.5.01 | Weather station |  | instrument set that measures several weather quantities together; `sensor_suite`, `sensor_count`, `link`, `shield` and display type are attributes (C14(c)).
+- C6.2.6.01 | Air-quality monitor |  | instrument that measures pollutants or particles in the air (K-147).
+- C6.2.3.01 | Anemometer |  | instrument that measures wind speed.
+- C6.3.1.01 | Beaker |  | wide cylindrical open vessel with a spout, for holding, mixing and heating liquids.
+- C6.3.1.02 | Erlenmeyer flask |  | conical flask with a narrow neck, for mixing and heating.
+- C6.3.1.03 | Volumetric flask |  | flat-bottomed flask with a long neck and a single mark, for making a solution to an exact volume.
+- C6.3.1.04 | Round-bottom flask |  | round flask for heating and boiling liquids.
+- C6.3.1.05 | Test tube |  | small tube closed at one end, for holding or heating a small sample.
+- C6.3.1.06 | Graduated cylinder |  | tall cylinder with a volume scale, for measuring liquid volume.
+- C6.3.1.07 | Pipette |  | tube for drawing up and delivering a measured amount of liquid.
+- C6.3.1.08 | Burette |  | graduated tube with a tap, for delivering liquid in controlled amounts.
+- C6.3.1.09 | Petri dish |  | shallow lidded dish for culturing cells or microbes.
+- C6.3.2.01 | Laboratory balance |  | balance made to weigh samples in a laboratory.
+- C6.3.2.02 | Centrifuge |  | machine that spins samples to separate their parts.
+- C6.3.2.03 | Laboratory incubator |  | chamber that holds samples at a set warm temperature.
+- C6.3.2.04 | Laboratory oven |  | oven for drying or heating samples at a set temperature.
+- C6.3.2.05 | Laboratory freezer |  | freezer or ultra-low-temperature unit made for cold storage of samples (C-18; R-28 includes laboratory refrigerators).
+- C6.3.2.06 | Fume hood |  | ventilated cabinet that draws fumes from work on samples away from the user (C-18).
+- C6.3.2.07 | Dissection set |  | set of instruments for dissecting specimens.
+- C6.4.01 | Science experiment kit |  | kit made to teach science through an experiment programme; `discipline` is an attribute (chemistry, physics and electricity, biology, earth and space, crystals and materials and others as sold) with a generated view (C-11, K-149).
+- C6.5.1.01 | Telescope eyepiece |  | eyepiece made for a telescope.
+- C6.5.1.02 | Alt-azimuth mount |  | telescope mount that moves up-down and left-right.
+- C6.5.1.03 | Equatorial mount |  | telescope mount with an axis aligned to the Earth's axis for following the sky.
+- C6.5.1.04 | Solar filter |  | filter made to fit a telescope or binocular for safe viewing of the Sun.
+- C6.5.1.05 | Astronomy imaging camera |  | camera made only to fit a telescope (K-15).
+- C6.5.2.01 | Microscope slide |  | slide made to hold a specimen under a microscope.
+- C6.5.2.02 | Microscope camera |  | camera or adapter made to fit only one kind of microscope (S3 reading as in K-15).
+- C6.1.5.04 | Pocket microscope |  | small handheld microscope carried in the pocket.
+- C6.1.3.07 | Cassegrain reflector telescope |  | Telescope whose concave primary and convex secondary mirror fold the light back through a hole in the primary, with no full-aperture corrector plate.
+- C6.5.1.06 | Telescope tripod |  | Tripod made to carry a telescope mount head, sold apart from the mount; a universal photo tripod is D4.
+- C6.5.1.07 | Mount counterweight |  | Weight fitted on the counterweight shaft of a telescope mount to balance the tube.
+- C6.5.1.08 | Tube rings (tube clamps) |  | Pair of rings or a clamp that holds a telescope tube on a mount dovetail.
+- C6.5.1.09 | Polar scope (pole finder) |  | Small sighting scope fitted in an equatorial mount's polar axis to align it on the celestial pole.
+- C6.5.1.10 | Equatorial wedge |  | Tilting plate that sets a fork or alt-az telescope mount at the latitude angle to track equatorially.
+- C6.1.6.05 | Eye loupe |  | Loupe in a short tube held in the eye socket, leaving both hands free; also called watchmaker's loupe.
+- C6.3.2.08 | Laboratory condenser |  | Jacketed glass tube through which coolant flows to turn vapour back into liquid in distillation or reflux.
+- C6.3.2.09 | Laboratory autoclave |  | Pressure chamber that sterilises laboratory ware, media and waste with steam.
+- C6.3.2.10 | Laboratory shaker |  | Device that mixes samples in vessels by orbital, reciprocating or rocking motion.
+- C6.3.2.11 | Rotary evaporator |  | Device that removes solvent from a sample by rotating a flask in a heated bath under reduced pressure.
+- C6.3.2.12 | Laminar-flow cabinet (clean bench) |  | Cabinet that blows HEPA-filtered air over the work surface to keep samples free of contamination.
+- C6.3.2.13 | Biosafety cabinet |  | HEPA-filtered enclosed cabinet that protects the user, the sample and the room when handling biological material.
+- C6.1.5.06 | Electron microscope |  | Microscope that forms an image with a beam of electrons instead of light (scanning or transmission; tabletop models included).
+- C6.1.5.07 | Scanning probe microscope |  | Microscope that maps a surface by scanning it with a fine physical probe (atomic force, scanning tunnelling).
+- C6.3.2.14 | Spectrometer |  | Instrument that splits light from a sample into a spectrum and measures it (UV-Vis, infrared, Raman, emission); a hand spectroscope is this kind.
+- C6.3.2.15 | Mass spectrometer |  | Instrument that ionises a sample and sorts the ions by mass to charge to identify its components.
+- C6.3.2.16 | Chromatograph |  | Instrument that separates the components of a sample by passing it through a column (gas or liquid chromatography, HPLC).
+- C6.3.2.17 | Elemental analyser |  | Instrument that measures the elements (carbon, hydrogen, nitrogen, sulphur and others) a sample contains, usually by combustion.
+- C6.3.2.18 | Glove box |  | Sealed cabinet with fitted gloves for working on samples in an inert or isolated atmosphere.
+- C6.3.2.19 | Climatic chamber |  | Cabinet that holds samples at a set temperature and humidity, below or above room temperature, for stability or ageing tests.
+- C6.3.2.20 | Laboratory stirrer |  | Device that mixes a liquid sample with a stirring bar or paddle, magnetic or overhead, often with a heating plate.
+- C6.3.2.21 | Laboratory water bath |  | Heated tank of water that holds sample vessels at a set temperature.
+- C6.3.2.22 | Laboratory circulator (thermostat) |  | Unit that heats or cools a liquid and pumps it to hold a bath or connected apparatus at a set temperature.
+- C6.3.2.23 | Viscometer |  | Instrument that measures the viscosity of a liquid sample.
+- C6.3.2.24 | Rheometer |  | Instrument that measures how a sample flows and deforms under applied stress or strain.
+- C6.3.2.25 | Microplate reader |  | Instrument that measures absorbance, fluorescence or luminescence of samples in the wells of a microplate.
+- C6.3.2.26 | Laboratory thermometer |  | Thermometer made to read the temperature of a sample, liquid-in-glass or digital probe.
+- C6.2.4.03 | Cloud sensor |  | Instrument that detects cloud cover by measuring the infrared temperature of the sky.
+- C6.2.4.04 | Sky-quality meter |  | Instrument that measures the brightness of the night sky.
+- C6.5.2.03 | Microscope stage |  | Stage made to fit a microscope, manual or motorised, that holds and moves the specimen.
+- C6.5.1.11 | Dew shield |  | Tube fitted to the front of a telescope to keep dew and stray light off the objective.
+- C6.5.1.12 | Telescope focuser |  | Draw-tube unit fitted to a telescope that moves the eyepiece or camera to focus (Crayford, rack and pinion, motorised).
+- C6.4.02 | Molecular model kit |  | Set of atom and bond pieces for building models of molecules, made to teach chemistry.
+- C6.1.3.08 | Schmidt astrograph (Schmidt camera) |  | Catadioptric imaging telescope with a full-aperture Schmidt corrector and a spherical primary that forms the image on a camera at prime focus inside the tube, with no eyepiece position.
+- C6.5.1.13 | Telescope finder |  | Small sighting device fitted on a telescope tube to aim it: optical finderscope, right-angle finder, red-dot or ring sight; the polar scope is C6.5.1.09.
+- C6.5.1.14 | Barlow lens |  | Negative lens unit fitted in a telescope's eyepiece barrel that multiplies the effective focal length, and so the magnification, by a stated factor.
+- C6.5.1.15 | Astronomical filter |  | Filter threaded or mounted for a telescope eyepiece barrel, filter wheel or camera train that passes chosen wavelengths (colour, moon, light-pollution, nebula, narrowband); solar filters are C6.5.1.04.
+- C6.5.2.04 | Microscope objective |  | Objective lens made to screw into a microscope nosepiece (RMS or M25 thread), sold apart from the stand; objective class and tube-length standard are attributes.
+- C6.5.2.05 | Microscope eyepiece (ocular) |  | Eyepiece made for a microscope tube (23.2 or 30 mm and other barrels), sold apart from the stand; WF or SWF field and power are attributes.
+- C6.5.1.16 | Focus motor |  | motor unit fitted to the knob shaft of an existing telescope focuser and driven from a computer or hand box to focus.

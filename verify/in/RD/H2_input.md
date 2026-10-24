@@ -1,0 +1,271 @@
+# H2 Health, Medical & Mobility: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: use or need (what the health need is: medicines by symptom, vitamins and supplements, sports nutrition, monitoring, mobility, daily living, hearing and vision, first aid); device type next
+- reason: Pharmacy and directory trees open on need and on who it is for (Boots health tree; Trusted Shops: pain, cold, diabetes). Specialist shops then go straight to device or ingredient type (Vitality Medical mobility; Myprotein). Guides decide on fit and testing inside the type (Manage at Home; Medical News Today), so need leads and type comes second.
+- ladder: What do you need help with? > Which kind of product (symptom, ingredient class or device type)? > Which variant and product (fit variant, validated or certified products, brand)?
+- level1_groups: Medicines; Vitamins and supplements; Sports and meal nutrition; Monitors and tests; Therapy devices; Mobility aids; Daily living and care; Hearing and vision; Contraception, sexual health and breastfeeding; First aid and wound care; Supports, braces and prostheses; Parts, refills and consumables
+- quality_markers: Monitors: accuracy validated independently to international standards (BIHS list) > cuff type and fit (upper arm over wrist; memo) > replace home monitors within four years. Mobility aids: fit to the user (handle height, seat) > user weight capacity > width and fit indoors > place of use and surfaces > wheel size > portability and weight > brakes > warranty. Supplements: ingredients and form > third-party testing seal > certificate of analysis > clear labelling > company reputation, with marketing claims last. Sports nutrition: ingredient type (whey, isolate, clear, vegan) > batch testing for banned substances. Medicines: active ingredient and strength (attributes; memo) > sale class. Hearing aids: style for the hearing loss > lab-measured performance (HearingTracker, memo)
+- quality_signals: BIHS validated blood-pressure monitor list (British and Irish Hypertension Society, recommended by NHS and NICE; standard_met with the list named); USP Verified; NSF Certified and NSF Certified for Sport; Informed Sport (batch tested by an anti-doping lab) and Informed Choice; UL; ConsumerLab; Clean Label Project; Non-GMO Project; GMP (all certification attributes, class i, on the named form); U.S. News pharmacist brand survey and HearingTracker lab scores (memo; class iii and ii tier entries); first-aid kit standards ANSI/ISEA Z308.1, BS 8599-1, DIN 13157 (standard_met); device risk class and drug sale class (C17 rows); Trusted Shops seal and 5-point shop rating (a storefront signal, not a product tier; dated platform_tag on storefront makers at most)
+- maker_role: owner (confirmed): shoppers choose a product by need and fit, and the brand sits on it. Brand products are named forms and own-label ranges are lines (H-8). Myprotein's own range and the brand-led supplement guides keep a brand tab, but give no reason for a way-in role.
+- side_view: Brand tab for supplements, sports nutrition, hearing aids and contact lenses. A 'no prescription needed' view from C17. A 'third-party tested' view (USP, NSF, Informed Sport) across supplements and sports nutrition.
+- evidence_rows: Boots UK; Vitality Medical (US); Trusted Shops Germany, Sanitaetshaus directory; Myprotein (sports nutrition); Medical News Today vitamin brands; Manage at Home rollator guide (UK); British and Irish Hypertension Society validated monitors; memo H2 sections 2, 5-7
+- maker role row: {'code': 'H2', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'devices and products are chosen by condition; makers through products'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-H2-1 | Medicines | 1 |  | H2.6
+- G-H2-13 | Allergy and sinus | 2 | G-H2-1 | H2.6.1.1; H2.6.1.2
+- G-H2-14 | Cough, cold and flu | 2 | G-H2-1 | H2.6.2.1; H2.6.2.2; H2.6.2.3; H2.6.2.4
+- G-H2-15 | Pain and inflammation | 2 | G-H2-1 | H2.6.3.1; H2.6.3.2; H2.6.3.3; H2.6.3.4
+- G-H2-16 | Sleep | 2 | G-H2-1 | H2.6.4.1
+- G-H2-17 | Sexual and reproductive health medicines | 2 | G-H2-1 | H2.6.5.1; H2.6.5.2
+- G-H2-18 | Mouth and teeth | 2 | G-H2-1 | H2.6.6.1
+- G-H2-19 | Digestive | 2 | G-H2-1 | H2.6.7.1
+- G-H2-20 | Skin and foot | 2 | G-H2-1 | H2.6.9.1
+- G-H2-21 | Smoking cessation | 2 | G-H2-1 | H2.6.8.1
+- G-H2-22 | Homeopathic remedies | 2 | G-H2-1 | H2.6.0.1
+- G-H2-2 | Vitamins and supplements | 1 |  | H2.7
+- G-H2-23 | Vitamins | 2 | G-H2-2 | H2.7.1.1; H2.7.1.2; H2.7.1.3
+- G-H2-24 | Minerals | 2 | G-H2-2 | H2.7.2.1
+- G-H2-25 | Botanicals | 2 | G-H2-2 | H2.7.3.1
+- G-H2-26 | Other single ingredients (probiotics, fish oil, collagen) | 2 | G-H2-2 | H2.7.4.1; H2.7.4.2; H2.7.4.3; H2.7.4.4
+- G-H2-27 | Blends | 2 | G-H2-2 | H2.7.5.1
+- G-H2-3 | Sports and meal nutrition | 1 |  | H2.8
+- G-H2-28 | Protein | 2 | G-H2-3 | H2.8.1.1; H2.8.1.2; H2.8.1.3
+- G-H2-29 | Performance | 2 | G-H2-3 | H2.8.2.1; H2.8.2.2; H2.8.2.3; H2.8.2.4
+- G-H2-30 | Hydration and energy | 2 | G-H2-3 | H2.8.3.1
+- G-H2-31 | Meal replacement | 2 | G-H2-3 | H2.8.4.1
+- G-H2-32 | Medical nutrition | 2 | G-H2-3 | H2.8.5.1
+- G-H2-4 | Monitors and tests | 1 |  | H2.1
+- G-H2-33 | Blood pressure monitors | 2 | G-H2-4 | H2.1.1.1; H2.1.1.2; H2.1.1.3; H2.1.1.4
+- G-H2-34 | Thermometers | 2 | G-H2-4 | H2.1.2.1; H2.1.2.2; H2.1.2.3
+- G-H2-35 | Blood glucose monitors | 2 | G-H2-4 | H2.1.3.1; H2.1.3.2; H2.1.3.3; H2.1.3.4
+- G-H2-36 | Pulse oximeters | 2 | G-H2-4 | H2.1.4.1
+- G-H2-37 | Lung function (peak flow) | 2 | G-H2-4 | H2.1.9.1
+- G-H2-38 | Heart rhythm (ECG) | 2 | G-H2-4 | H2.1.5.1
+- G-H2-39 | Infection tests | 2 | G-H2-4 | H2.1.6.1
+- G-H2-40 | Fertility and pregnancy tests | 2 | G-H2-4 | H2.1.7.1; H2.1.7.2; H2.1.7.3; H2.1.7.4
+- G-H2-41 | Health software | 2 | G-H2-4 | H2.1.8.1
+- G-H2-5 | Therapy devices | 1 |  | H2.2
+- G-H2-42 | Respiratory therapy | 2 | G-H2-5 | H2.2.1.1; H2.2.1.2
+- G-H2-43 | Electrotherapy and pain relief devices | 2 | G-H2-5 | H2.2.2.1; H2.2.2.2; H2.2.2.3
+- G-H2-44 | Weighted and orthopaedic therapy aids | 2 | G-H2-5 | H2.2.3.1; H2.2.3.2
+- G-H2-45 | Pelvic-floor and sexual function devices | 2 | G-H2-5 | H2.2.4.1; H2.2.4.2; H2.2.4.3; H2.2.4.4; H2.2.4.5
+- G-H2-6 | Mobility aids | 1 |  | H2.3
+- G-H2-46 | Walking aids | 2 | G-H2-6 | H2.3.1.1; H2.3.1.2; H2.3.1.3; H2.3.1.4; H2.3.1.6; H2.3.1.7
+- G-H2-47 | Wheelchairs and mobility scooters | 2 | G-H2-6 | H2.3.2.1; H2.3.2.2; H2.3.2.3
+- G-H2-48 | Transfer and access | 2 | G-H2-6 | H2.3.3.1; H2.3.3.2; H2.3.3.3; H2.3.3.4
+- G-H2-7 | Daily living and care | 1 |  | H2.4
+- G-H2-49 | Bathing aids | 2 | G-H2-7 | H2.4.1.1; H2.4.1.2; H2.4.1.3; H2.4.1.4
+- G-H2-50 | Toileting, continence and stoma care | 2 | G-H2-7 | H2.4.2.1; H2.4.2.2; H2.4.2.3; H2.4.2.4; H2.4.2.5
+- G-H2-51 | Bed and pressure care | 2 | G-H2-7 | H2.4.3.1; H2.4.3.2; H2.4.3.3; H2.4.3.4
+- G-H2-52 | Examination and treatment furniture | 2 | G-H2-7 | H2.4.4.1; H2.4.4.2; H2.4.4.3
+- G-H2-53 | Alerting and medical ID | 2 | G-H2-7 | H2.4.5.1; H2.4.5.2; H2.4.5.3; H2.4.5.4; H2.4.5.5
+- G-H2-8 | Hearing and vision | 1 |  | H2.5
+- G-H2-54 | Hearing aids | 2 | G-H2-8 | H2.5.1.1; H2.5.1.2; H2.5.1.3; H2.5.1.4
+- G-H2-55 | Spectacles and reading glasses | 2 | G-H2-8 | H2.5.2.1; H2.5.2.2; H2.5.2.3; H2.5.2.4
+- G-H2-56 | Contact lenses | 2 | G-H2-8 | H2.5.2.7; H2.5.2.8; H2.5.2.9; H2.5.2.10
+- G-H2-57 | Low-vision aids | 2 | G-H2-8 | H2.5.2.5; H2.5.2.6; H2.5.2.12; H2.5.2.13; H2.5.2.11
+- G-H2-58 | Speech and communication aids | 2 | G-H2-8 | H2.5.3.1; H2.5.3.2
+- G-H2-9 | Contraception, sexual health and breastfeeding | 1 |  | H2.9
+- G-H2-59 | Contraception and barriers | 2 | G-H2-9 | H2.9.1.1; H2.9.1.2
+- G-H2-60 | Breastfeeding | 2 | G-H2-9 | H2.9.2.1; H2.9.2.2; H2.9.2.3; H2.9.2.4; H2.9.2.5
+- G-H2-10 | First aid and wound care | 1 |  | H2.10
+- G-H2-61 | First-aid kits | 2 | G-H2-10 | H2.10.1.1
+- G-H2-62 | Dressings, plasters and bandages | 2 | G-H2-10 | H2.10.2.1; H2.10.2.2; H2.10.2.4; H2.10.2.5; H2.10.2.6; H2.10.2.7; H2.10.2.3
+- G-H2-11 | Supports, braces and prostheses | 1 |  | H2.11
+- G-H2-63 | Supports, insoles and compression | 2 | G-H2-11 | H2.11.1.1; H2.11.1.3; H2.11.1.4; H2.11.1.5; H2.11.1.6; H2.11.1.2
+- G-H2-64 | Prostheses | 2 | G-H2-11 | H2.11.2.1; H2.11.2.2; H2.11.2.3; H2.11.2.4; H2.11.2.5
+- G-H2-12 | Parts, refills and consumables | 1 |  | H2.12
+- G-H2-65 | Monitor parts | 2 | G-H2-12 | H2.12.1.1
+- G-H2-66 | Glucose strips and sensors | 2 | G-H2-12 | H2.12.2.1; H2.12.2.2
+- G-H2-67 | Hearing-aid batteries and tips | 2 | G-H2-12 | H2.12.3.1; H2.12.3.2
+- G-H2-68 | Wheelchair parts | 2 | G-H2-12 | H2.12.4.1
+- G-H2-69 | Spectacle frames and lenses | 2 | G-H2-12 | H2.12.5.1; H2.12.5.2
+- G-H2-70 | Contact-lens care | 2 | G-H2-12 | H2.12.6.1; H2.12.6.2
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-H2-1 | active ingredient and strength |  | Attributes of the medicine (memo). | proposals.tsv H2 row (quality_markers); memo H2 sections 2, 5-7
+- G-H2-1 | sale class | (C17 rows; a filter) | After the active ingredient. | proposals.tsv H2 row (quality_markers, quality_signals); memo H2 sections 2, 5-7
+- G-H2-2 | ingredients and form |  | Supplements are judged on what is in them first. | proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
+- G-H2-2 | third-party testing seal | USP Verified; NSF Certified; ConsumerLab; Clean Label Project; GMP (certification attributes) | After ingredients. | proposals.tsv H2 row (quality_markers, quality_signals); Medical News Today vitamin brands
+- G-H2-2 | certificate of analysis |  | After the seal. | proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
+- G-H2-2 | clear labelling |  | After the certificate. | proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
+- G-H2-2 | company reputation |  | Marketing claims count last of all. | proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
+- G-H2-3 | ingredient type | whey; isolate; clear; vegan (a choice) | Sports nutrition starts from the ingredient. | proposals.tsv H2 row (quality_markers); Myprotein (sports nutrition)
+- G-H2-3 | batch testing for banned substances | Informed Sport; NSF Certified for Sport; Informed Choice | Batch tested by an anti-doping lab. | proposals.tsv H2 row (quality_markers, quality_signals); Myprotein (sports nutrition)
+- G-H2-4 | accuracy validated independently to international standards | on a validated list (BIHS for blood pressure) | Validation comes first for every monitor. | proposals.tsv H2 row (quality_markers); British and Irish Hypertension Society validated monitors
+- G-H2-33 | validated accuracy | on the BIHS validated list (recommended by NHS and NICE) | First for blood-pressure monitors. | proposals.tsv H2 row (quality_markers, quality_signals); British and Irish Hypertension Society validated monitors
+- G-H2-33 | cuff type and fit | upper arm > wrist | After validation (memo). | proposals.tsv H2 row (quality_markers); memo H2 sections 2, 5-7
+- G-H2-33 | age of the monitor | replace a home monitor within four years | Last in the order. | proposals.tsv H2 row (quality_markers); British and Irish Hypertension Society validated monitors
+- G-H2-6 | fit to the user | handle height; seat | Fit comes first. | proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK); Vitality Medical (US)
+- G-H2-6 | user weight capacity |  | After fit; bariatric is a user tag. | proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+- G-H2-6 | width and fit indoors |  | After capacity. | proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+- G-H2-6 | place of use and surfaces | indoor; outdoor; all-terrain (a choice) | After width. | proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+- G-H2-6 | wheel size |  | After surfaces. | proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+- G-H2-6 | portability and weight |  | After wheels. | proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+- G-H2-6 | brakes |  | After portability. | proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+- G-H2-6 | warranty |  | Last in the order. | proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+- G-H2-54 | style for the hearing loss | BTE; RIC; ITE; canal (a choice) | Style is chosen for the loss first. | proposals.tsv H2 row (quality_markers); memo H2 sections 2, 5-7
+- G-H2-54 | lab-measured performance | HearingTracker lab scores | After style (memo). | proposals.tsv H2 row (quality_markers, quality_signals); memo H2 sections 2, 5-7
+
+## Kinds (kind_id | stored name | native name | definition)
+- H2.9.1.1 | condom |  | sheath worn on the penis or in the vagina as a contraceptive and barrier.
+- H2.9.1.2 | dental dam |  | thin sheet used as an oral barrier.
+- H2.9.2.1 | breast pump |  | pump that expresses milk (power source and single or double are attributes).
+- H2.9.2.2 | wearable breast pump |  | pump worn inside the bra, whose form differs from a corded pump.
+- H2.9.2.3 | nursing pad |  | pad worn in the bra to absorb leaked milk.
+- H2.9.2.4 | nipple cream |  | cream for sore nipples while breastfeeding.
+- H2.10.1.1 | first-aid kit [Verbandkasten] |  | kit sold, standardised and compared as one object, whatever place or vehicle it is made for; the standard and class it meets are `standard_met`.
+- H2.10.2.1 | adhesive bandage |  | small dressing on an adhesive strip (UK plaster).
+- H2.10.2.2 | triangular bandage |  | triangle of cloth used as a sling or to hold a dressing.
+- H2.11.1.1 | neck support |  | collar or brace that supports the neck.
+- H2.11.1.3 | elbow support |  | brace or sleeve that supports the elbow.
+- H2.11.1.4 | wrist and hand support |  | brace, splint or sleeve that supports the wrist or hand.
+- H2.11.1.5 | orthotic insole |  | insole made to treat or support the foot.
+- H2.11.1.6 | compression stocking |  | stocking with graded pressure made for a labelled medical purpose.
+- H2.11.2.1 | leg prosthesis |  | artificial leg or part of a leg.
+- H2.11.2.2 | arm prosthesis |  | artificial arm, hand or part of one.
+- H2.11.2.3 | breast prosthesis |  | artificial breast, including breast forms and packers.
+- H2.11.2.4 | eye prosthesis |  | artificial eye.
+- H2.11.2.5 | epithesis |  | prosthesis replacing a facial or other external part.
+- H2.12.1.1 | blood-pressure monitor cuff or part |  | cuff, tube or other part made for a blood-pressure monitor.
+- H2.12.2.1 | glucose test strip |  | one-use strip read by a blood glucose meter.
+- H2.12.2.2 | CGM sensor |  | replacement sensor for a continuous or flash glucose monitor.
+- H2.12.3.1 | hearing-aid battery |  | battery made to power a hearing aid.
+- H2.12.3.2 | ear tip |  | dome or tip fitted to a hearing aid in the ear canal.
+- H2.12.4.1 | wheelchair accessory made for one model |  | part or accessory made to fit one wheelchair model, including a cushion shaped for it.
+- H2.12.5.1 | spectacle frame |  | frame sold for glazing (a frame with plano or no lenses sold as fashion is not here).
+- H2.12.5.2 | spectacle lens |  | lens sold for glazing.
+- H2.12.6.1 | contact-lens solution |  | solution for cleaning, storing or rinsing contact lenses.
+- H2.1.1.1 | upper-arm blood-pressure monitor |  | home device whose cuff wraps the upper arm and which reads blood pressure and pulse.
+- H2.1.1.2 | wrist blood-pressure monitor |  | home device worn on the wrist for a blood-pressure reading.
+- H2.1.1.3 | wearable blood-pressure monitor |  | watch-style or band-style device that measures blood pressure while worn.
+- H2.1.2.1 | electronic stick thermometer |  | electronic probe thermometer read orally, rectally or under the arm.
+- H2.1.2.2 | ear thermometer |  | infrared thermometer that reads the eardrum.
+- H2.1.2.3 | forehead thermometer |  | infrared thermometer that reads the temple or forehead.
+- H2.1.3.1 | blood glucose meter |  | handheld meter that reads a drop of blood on a test strip (fingerstick).
+- H2.1.3.2 | continuous glucose monitor |  | worn sensor that measures glucose under the skin and sends readings on its own at short intervals.
+- H2.1.3.3 | flash glucose monitor |  | worn sensor whose readings are fetched by scanning it with a reader or phone.
+- H2.1.4.1 | pulse oximeter |  | clip or band device that reads blood oxygen saturation and pulse.
+- H2.1.5.1 | personal ECG monitor |  | handheld or worn device that records an electrocardiogram.
+- H2.1.6.1 | at-home infection test kit |  | self-test kit for an infection (for example COVID-19 or flu; a combined test is this one kind).
+- H2.1.7.1 | pregnancy test |  | one-use urine test that shows whether the user is pregnant.
+- H2.1.7.2 | ovulation test |  | one-use urine test that finds the hormone surge before ovulation.
+- H2.1.7.3 | fertility monitor |  | reusable reader with test sticks or sensors that tracks the fertile window.
+- H2.1.7.4 | basal-body thermometer |  | sensitive thermometer made to track resting body temperature for fertility.
+- H2.1.8.1 | medical app |  | software that itself diagnoses, treats or is cleared as a medical device; an app that only records and shows readings from a separate device is not this kind.
+- H2.2.1.1 | nebuliser |  | device that turns liquid medicine into a mist to be breathed in.
+- H2.2.2.1 | TENS unit |  | pulse generator with skin pads, sold to relieve pain by nerve stimulation.
+- H2.2.2.2 | EMS unit sold for pain |  | muscle-stimulation unit with skin pads, sold to relieve pain.
+- H2.2.3.1 | weighted blanket |  | blanket loaded with weight, made to treat a stated condition.
+- H2.2.3.2 | orthopaedic pillow |  | shaped pillow made to treat a stated condition (a therapeutic weighted pillow is this kind with a `weight` value).
+- H2.2.4.1 | pelvic-floor trainer |  | device that trains the pelvic-floor muscles, sold with a stated medical purpose.
+- H2.2.4.2 | vacuum erection device |  | vacuum cylinder and pump used to obtain an erection, sold with a stated medical purpose.
+- H2.2.4.3 | ED ring |  | ring worn at the base of the penis to keep an erection, sold with a stated medical purpose.
+- H2.2.4.4 | vaginal dilator |  | graduated dilator used to widen or restore vaginal capacity (provisional as a sold kind, H-14).
+- H2.3.1.1 | walking stick |  | single hand-held stick or cane.
+- H2.3.1.2 | forearm crutch |  | crutch with a forearm cuff and a handgrip.
+- H2.3.1.3 | underarm crutch |  | crutch that rests under the armpit.
+- H2.3.1.4 | walking frame |  | frame without wheels, or with two front wheels, that the user lifts or pushes (`wheel_count` 0 or 2).
+- H2.3.1.6 | rollator |  | walking support on three or four wheels with hand brakes; four-wheeled models usually have a seat and bag (`wheel_count` 3 or 4; Deltarad, delta walker, tri-walker and 3-wheel rollator are aliases of the three-wheel form).
+- H2.3.1.7 | knee walker |  | wheeled frame with a knee rest, used in place of crutches for a lower-leg injury.
+- H2.3.2.1 | manual wheelchair |  | wheelchair propelled by the user or a pusher.
+- H2.3.2.2 | powered wheelchair |  | wheelchair driven by an electric motor.
+- H2.3.2.3 | mobility scooter |  | electric seated vehicle with tiller steering made for a person with limited mobility.
+- H2.3.3.1 | portable ramp |  | ramp for a wheelchair or scooter over steps or kerbs.
+- H2.3.3.2 | patient lift |  | hoist or lift that raises and moves a person.
+- H2.3.3.3 | stairlift |  | chair or platform that carries a person up and down a staircase (installed or free-standing is an attribute).
+- H2.4.1.1 | shower chair |  | chair, stool or bench for sitting while washing.
+- H2.4.1.2 | grab bar |  | rail fixed or clamped to give a hand-hold, for example by a bath or toilet (UK grab rail).
+- H2.4.2.1 | commode chair |  | chair with a seat opening and a removable pail, used as a toilet, also when it is made to be used in a shower.
+- H2.4.2.2 | raised toilet seat |  | seat that raises the height of a toilet.
+- H2.4.2.3 | incontinence product |  | absorbent pad, brief or similar made for urinary or bowel leakage.
+- H2.4.2.4 | stoma appliance |  | bag, flange or similar supply for a stoma.
+- H2.4.3.1 | care bed |  | adjustable bed for nursing care (a hospital bed is this kind).
+- H2.4.3.2 | pressure-relief mattress |  | mattress made to prevent or treat pressure sores.
+- H2.4.3.3 | pressure-relief cushion |  | seat cushion made to prevent or treat pressure sores, including cushions used in wheelchairs.
+- H2.4.4.1 | examination table |  | table for a clinical examination.
+- H2.4.4.2 | treatment couch |  | couch for therapy or treatment.
+- H2.4.4.3 | dental chair |  | chair for dental treatment.
+- H2.4.5.1 | medical ID bracelet |  | wrist band carrying medical information.
+- H2.4.5.2 | medical ID tag |  | tag, card or keyring carrying medical information.
+- H2.4.5.3 | fall detector |  | worn device made mainly to sense a fall and call for help.
+- H2.4.5.4 | care pendant |  | worn call button that summons help after a fall or medical event; automatic fall sensing on it is an attribute.
+- H2.4.5.5 | wandering detector |  | device that alerts carers when a person leaves a place.
+- H2.5.1.1 | BTE hearing aid |  | case behind the ear with a tube to an ear mould.
+- H2.5.1.2 | RIC hearing aid |  | case behind the ear with a thin wire to a receiver in the ear canal.
+- H2.5.1.3 | ITE hearing aid |  | custom shell filling the outer ear.
+- H2.5.1.4 | canal hearing aid |  | custom device sitting in or deep in the ear canal (ITC, CIC and IIC are `shell_style` values).
+- H2.5.2.1 | prescription spectacles |  | glasses with lenses made to the wearer's prescription.
+- H2.5.2.2 | ready-made reading glasses |  | glasses with fixed magnifying power, sold without a prescription.
+- H2.5.2.3 | prescription sunglasses |  | tinted spectacles with lenses made to a prescription.
+- H2.5.2.4 | low-vision spectacles |  | spectacles with magnifying, prismatic or telescopic lenses in a spectacle frame, including flip-down magnifiers mounted on a frame.
+- H2.5.2.5 | handheld magnifier |  | magnifier held in the hand, made and sold as a low-vision aid.
+- H2.5.2.6 | stand magnifier |  | magnifier on a stand or flat base resting on the page, made and sold as a low-vision aid.
+- H2.5.2.7 | soft contact lens |  | flexible lens worn on the eye, of any schedule, correction or colour; a coloured lens without power is this kind with `corrective: no`.
+- H2.5.2.8 | rigid gas-permeable contact lens |  | rigid lens worn on the eye.
+- H2.5.2.9 | orthokeratology lens |  | rigid lens worn overnight to reshape the cornea.
+- H2.5.2.10 | scleral lens |  | large rigid lens resting on the white of the eye.
+- H2.5.2.11 | white cane |  | cane made for a blind or low-vision person to detect obstacles.
+- H2.5.3.1 | communication aid |  | device or board that helps a person speak or communicate.
+- H2.6.1.1 | oral antihistamine |  | tablet, capsule or liquid taken for allergy symptoms.
+- H2.6.1.2 | allergy nasal spray |  | spray used in the nose for allergy symptoms.
+- H2.6.2.1 | cough suppressant |  | medicine that suppresses cough.
+- H2.6.2.2 | expectorant |  | medicine that loosens phlegm.
+- H2.6.2.3 | nasal decongestant |  | medicine that clears a blocked nose.
+- H2.6.2.4 | cold and flu remedy |  | combined medicine for cold and flu symptoms.
+- H2.6.3.1 | oral analgesic |  | tablet, capsule or liquid taken for pain or fever.
+- H2.6.3.2 | topical pain-relief gel |  | gel or cream rubbed on for joint or muscle pain.
+- H2.6.3.3 | lidocaine patch |  | adhesive patch with a local anaesthetic.
+- H2.6.3.4 | migraine medicine |  | medicine labelled for migraine.
+- H2.6.4.1 | sleep aid |  | medicine labelled first as an aid to fall asleep (the same ingredient labelled first for allergy is an oral antihistamine).
+- H2.6.5.1 | delay spray |  | topical anaesthetic spray to delay ejaculation.
+- H2.6.5.2 | emergency contraceptive pill |  | pill taken after unprotected sex to prevent pregnancy.
+- H2.6.6.1 | teething gel |  | gel applied to the gums of a teething baby.
+- H2.6.7.1 | medicinal enema |  | enema containing a medicine (a plain enema bulb or anal douche is not a medicine).
+- H2.6.8.1 | nicotine replacement product |  | patch, gum, lozenge, spray or inhaler that supplies nicotine to help stop smoking.
+- H2.6.0.1 | homeopathic single remedy (no labelled use) |  | registered single homeopathic remedy sold with no indication; provisional, issued only if a fetched pharmacy page sells such remedies as their own category (memo section 14).
+- H2.7.1.1 | multivitamin |  | supplement that combines many vitamins in one product.
+- H2.7.1.2 | vitamin D supplement |  | supplement whose single active ingredient is vitamin D.
+- H2.7.1.3 | vitamin C supplement |  | supplement whose single active ingredient is vitamin C.
+- H2.7.2.1 | magnesium supplement |  | supplement whose single active ingredient is magnesium.
+- H2.7.3.1 | ashwagandha supplement |  | supplement made from ashwagandha root or extract.
+- H2.7.4.1 | probiotic |  | live-microbe supplement.
+- H2.7.4.2 | fish oil |  | omega-3 oil supplement from fish.
+- H2.7.4.3 | collagen supplement |  | collagen in powder, drink or capsule, including those sold for skin, hair and nails.
+- H2.7.4.4 | restorative essence |  | tonic or essence sold for health (for example essence of chicken).
+- H2.7.5.1 | multi-ingredient supplement |  | product mixing ingredient classes (for example a joint formula, or a hair, skin and nails formula).
+- H2.8.1.1 | protein powder |  | powder sold for its protein, for training or recovery.
+- H2.8.1.2 | protein bar |  | bar sold for its protein.
+- H2.8.2.1 | creatine |  | creatine sold as a training supplement.
+- H2.8.2.2 | pre-workout |  | powder or drink taken before training.
+- H2.8.2.3 | amino-acid supplement |  | amino acids (for example BCAA, arginine, glutamine) sold for training.
+- H2.8.3.1 | electrolyte or energy gel |  | gel, tablet or drink mix for hydration or energy during exercise.
+- H2.8.4.1 | meal-replacement shake |  | shake or powder sold to replace a meal.
+- H2.8.5.1 | medical-condition formula |  | formula made for a medical condition (hypoallergenic, amino-acid or metabolic formulas); a food, not a supplement.
+- H2.4.2.5 | toilet safety frame |  | free-standing or toilet-fixed frame with armrests round a toilet that helps a person sit down and rise.
+- H2.4.1.3 | bath lift |  | powered seat that lowers a person into the bath and raises them out again.
+- H2.4.1.4 | tub transfer bench |  | bench that straddles the bath wall so a person sits outside the bath and slides across into it.
+- H2.4.3.4 | bed rail |  | rail or assist handle fitted to a bed to prevent falls or help a person sit up and stand.
+- H2.2.4.5 | penile traction device |  | device that stretches the penis, sold with a stated medical purpose such as Peyronie's disease or length after surgery.
+- H2.3.3.4 | mobility vehicle lift |  | powered lift fitted inside a car or on its hitch that raises a mobility scooter or wheelchair into or onto the vehicle.
+- H2.5.2.13 | low-vision monocular |  | small handheld telescope made and sold as a low-vision aid for seeing at a distance.
+- H2.5.3.2 | eye-gaze access device |  | eye tracker fixed to a computer or tablet so a person with little movement can control it and communicate by gaze.
+- H2.10.2.4 | tubular bandage |  | elastic or gauze tube pulled over a limb to support it or hold a dressing.
+- H2.10.2.5 | blister plaster |  | hydrocolloid cushion plaster made to protect and heal a blister.
+- H2.6.9.1 | corn and callus remover |  | medicated plaster, pad or liquid (for example salicylic acid) labelled to remove corns or calluses.
+- H2.10.2.6 | wound-closure strip |  | thin adhesive strips that hold the edges of a cut together while it heals.
+- H2.2.2.3 | heat patch sold for pain |  | self-heating patch stuck on the body and sold to relieve muscle or joint pain.
+- H2.10.2.7 | liquid bandage |  | spray or liquid that dries to a protective film over a small wound.
+- H2.9.2.5 | milk collector |  | cup worn in the bra that catches milk leaking from the other breast, without suction.
+- H2.1.1.4 | manual blood-pressure kit |  | gauge with arm cuff and hand bulb, read by listening with a stethoscope (aneroid sphygmomanometer, with or without stethoscope).
+- H2.1.9.1 | peak flow meter |  | handheld tube with a scale that measures how fast a person can breathe out, used to monitor asthma.
+- H2.1.3.4 | HbA1c home test kit |  | one-use kit that measures average blood glucose (HbA1c) from a fingerstick blood sample.
+- H2.2.1.2 | steam inhaler |  | device that makes warm steam to be breathed in for cold, cough or sinus relief, without liquid medicine.
+- H2.5.2.12 | electronic magnifier |  | camera-and-screen device, handheld or desktop, that enlarges print and images for a low-vision user (video magnifier, CCTV).
+- H2.8.2.4 | fat burner |  | thermogenic supplement sold to support fat loss alongside training.
+- H2.8.1.3 | protein snack |  | snack other than a bar (chips, crisps, cookies) sold for its protein.
+- H2.12.6.2 | contact-lens rewetting drops |  | drops put in the eye with lenses in place to rewet and soothe them.
+- H2.10.2.3 | roller bandage |  | long strip of bandage wound on a roll.
+- H2.11.1.2 | back support |  | brace or belt that supports the back.

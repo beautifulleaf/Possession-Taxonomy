@@ -1,0 +1,107 @@
+# I2 Digital Media & Items: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: use or need (what the held data is for: read, listen, watch, view, create with, use in a game or platform, register); provisional
+- reason: Stores lead with genre (Audiolibrix advanced search; BookWalker Japan; Goodreads post on Kindle store categories; Hypebot on Bandcamp Discover), which BRIEF bars, so the next axis the evidence shows is taken: medium and use (Kobo help splits eBooks from audiobooks; Monotype browses fonts by style and foundry), the memo's decided I-2 axis; provisional because the major stores (Kobo store, Audible, Amazon) were blocked.
+- ladder: What will you do with it? > What form is it (e-book layout, music, audiobook, font, template, skin, domain, token)? > Which format or design, and can I keep it (rights state, device)?
+- level1_groups: Read; Listen; Watch; View and keep images; Create with (fonts and assets); Use in a game or platform; Register (names and tokens)
+- quality_markers: All media files: rights state (DRM-free open file > personalised watermark > account-locked > locker licence) first, because ownership ranks above catalogue size (Libro.fm; Subger audiobook guide); then format fit for my device; Music and video: technical quality (uncompressed or lossless 24-bit/192 kHz > 24/96 > 16/44.1 > lossy 320 kbps > V0 > 128; video 4K > HD > SD), measured attributes, never tiers; Audiobooks: unabridged > abridged; narration and production quality (Audie categories); length; Fonts: typeface first, then licence scope fit (desktop, web, app, server), script and language coverage, variable capability, foundry; Domain names: TLD eligibility class, standard renewal price, registry premium status; Game and platform items: rarity label (platform tag), tradability on the platform
+- quality_signals: Audie Awards (Audio Publishers Association, 27 categories, narration and genre) - signals for titles, which I2 does not store, so no tier entries; may enter only as a publisher or narrator note if a maker row is credited; Library of Congress Recommended Formats preservation rank (preferred, acceptable) as attribute (I-23); store ratings and rankings (Audiolibrix rating sort and Audiobook of the Year collection, BookWalker readership rankings) as dated platform tags, not tiers; Certified B Corp (seller certification on the storefront maker row, Libro.fm); Fortnite and CS2 rarity, registry premium tiers as platform tags (memo)
+- maker_role: owner (confirm; maker_roles.tsv I2 stays provisional)
+- side_view: Foundry tab inside fonts (Monotype browses by foundries); a by-platform view from C13 (Kindle, Kobo, tolino, Apple Books, Audible, Steam) and a 'files I can keep' view on rights state
+- evidence_rows: Audiolibrix advanced search; BookWalker Japan; Goodreads post on Kindle store categories; Monotype Fonts browse help; Libro.fm (own case against Audible); Subger audiobook subscriptions guide; GIGA audiobook apps comparison (DE); Audie Awards (Wikipedia); Hypebot on Bandcamp Discover; Kobo help: My Books filter
+- maker role row: {'code': 'I2', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'items carry their platform or issuer'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-I2-1 | Read | 1 |  | I2.1.01; I2.1.02; I2.1.03; I2.1.04; I2.1.05
+- G-I2-2 | Listen | 1 |  | I2.2.1.01; I2.2.2.01; I2.2.3.01
+- G-I2-3 | Watch | 1 |  | I2.3.01
+- G-I2-4 | View and keep images | 1 |  | I2.4.01; I2.4.02; I2.4.03; I2.4.04; I2.4.05
+- G-I2-5 | Create with (fonts and assets) | 1 |  | I2.5
+- G-I2-8 | Fonts | 2 | G-I2-5 | I2.5.1.01
+- G-I2-9 | Templates and production packs | 2 | G-I2-5 | I2.5.2.01; I2.5.2.02; I2.5.2.03; I2.5.2.04; I2.5.2.05
+- G-I2-10 | 3D assets | 2 | G-I2-5 | I2.5.3.01; I2.5.3.02; I2.5.3.03
+- G-I2-11 | Sound, preset and model assets | 2 | G-I2-5 | I2.5.4.01; I2.5.4.02; I2.5.4.03; I2.5.4.04
+- G-I2-6 | Use in a game or platform | 1 |  | I2.6
+- G-I2-12 | Character and avatar wear | 2 | G-I2-6 | I2.6.1.01; I2.6.1.02; I2.6.1.03
+- G-I2-13 | Tools, weapons and vehicles | 2 | G-I2-6 | I2.6.2.01; I2.6.2.02; I2.6.2.03; I2.6.2.04
+- G-I2-14 | Expression | 2 | G-I2-6 | I2.6.3.01; I2.6.3.02; I2.6.3.03; I2.6.3.04; I2.6.3.05; I2.6.3.06
+- G-I2-15 | Containers and unlocks | 2 | G-I2-6 | I2.6.4.01; I2.6.4.02
+- G-I2-16 | Collectibles and profile items | 2 | G-I2-6 | I2.6.5.01; I2.6.5.02; I2.6.5.03; I2.6.5.04; I2.6.5.05; I2.6.5.06
+- G-I2-7 | Register (names and tokens) | 1 |  | I2.7
+- G-I2-17 | Domain names | 2 | G-I2-7 | I2.7.1.01; I2.7.1.02; I2.7.1.03
+- G-I2-18 | Tokens | 2 | G-I2-7 | I2.7.2.01; I2.7.2.02
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-I2-1 | rights state (all media files) | DRM-free open file > personalised watermark > account-locked > locker licence | Ownership ranks above catalogue size. | proposals.tsv I2 row (quality_markers); Libro.fm (own case against Audible); Subger audiobook subscriptions guide
+- G-I2-1 | format fit for my device (all media files) |  | Weighed after rights state. | proposals.tsv I2 row (quality_markers); Kobo help: My Books filter
+- G-I2-2 | technical quality (music) | lossless 24-bit/192 kHz > 24/96 > 16/44.1 > lossy 320 kbps > V0 > 128 kbps | Measured attributes, never tiers. | proposals.tsv I2 row (quality_markers)
+- G-I2-2 | abridgement (audiobooks) | unabridged > abridged | First for audiobooks. | proposals.tsv I2 row (quality_markers); Subger audiobook subscriptions guide
+- G-I2-2 | narration and production quality (audiobooks) |  | Audie categories. | proposals.tsv I2 row (quality_markers); Audie Awards (Wikipedia)
+- G-I2-2 | length (audiobooks) |  | Weighed last. | proposals.tsv I2 row (quality_markers)
+- G-I2-3 | technical quality | 4K > HD > SD | Measured attributes, never tiers. | proposals.tsv I2 row (quality_markers)
+- G-I2-8 | typeface |  | The design is chosen first. | proposals.tsv I2 row (quality_markers); Monotype Fonts browse help
+- G-I2-8 | licence scope fit | desktop, web, app, server (a fit, not a ladder) | Second. | proposals.tsv I2 row (quality_markers); Monotype Fonts browse help
+- G-I2-8 | script and language coverage |  | Third. | proposals.tsv I2 row (quality_markers); Monotype Fonts browse help
+- G-I2-8 | variable capability |  | Fourth. | proposals.tsv I2 row (quality_markers); Monotype Fonts browse help
+- G-I2-8 | foundry |  | Weighed last. | proposals.tsv I2 row (quality_markers); Monotype Fonts browse help
+- G-I2-17 | TLD eligibility class |  | Open, country-code or restricted. | proposals.tsv I2 row (quality_markers)
+- G-I2-17 | standard renewal price |  | Second. | proposals.tsv I2 row (quality_markers)
+- G-I2-17 | registry premium status |  | Third. | proposals.tsv I2 row (quality_markers)
+- G-I2-6 | rarity label |  | The platform's own tag. | proposals.tsv I2 row (quality_markers)
+- G-I2-6 | tradability on the platform |  | Second. | proposals.tsv I2 row (quality_markers)
+
+## Kinds (kind_id | stored name | native name | definition)
+- I2.1.01 | Reflowable e-book file |  | a book package whose text reflows to the screen.
+- I2.1.02 | Fixed-layout e-book or document file |  | a file that keeps a fixed page, including a fixed-page text book and a scanned document saved as PDF or DjVu.
+- I2.1.03 | Digital comic or manga file (image-page book) [manga; webtoon; BD; 漫画; 만화] |  | a book whose pages are drawn or photographed images, read page by page or by vertical scroll (comic, manga, bande dessinée, webtoon), held in any container.
+- I2.1.04 | Plain and rich text file |  | a bare text or word-processor file with no e-book package.
+- I2.1.05 | Digital score file |  | a music score held as a file.
+- I2.2.1.01 | Digital music file |  | music held as an audio file, lossy, lossless compressed or uncompressed (compression and resolution are attributes, I-8).
+- I2.2.2.01 | Audiobook file |  | a book read aloud, held as a file or file set, open or account-locked (`rights_state`), abridged or unabridged (`abridgement`).
+- I2.2.3.01 | Podcast episode file |  | an episode of a podcast kept as a file.
+- I2.3.01 | Digital video |  | film, TV, home video or video artwork held as a video file or as a purchased locker entitlement with no file held, any unit (title, episode, season).
+- I2.4.01 | Camera raw photo file |  | an unprocessed image as recorded by a camera's sensor.
+- I2.4.02 | Lossy compressed photo file |  | a photograph or raster image saved with lossy compression.
+- I2.4.03 | Lossless raster image file |  | a pixel image saved uncompressed or with lossless compression.
+- I2.4.04 | Layered image file |  | a raster image file that keeps separate editable layers.
+- I2.4.05 | Vector graphic file |  | an image made of shapes and paths that scales without loss.
+- I2.5.1.01 | Digital font |  | a typeface family held as font files under a licence (the family is the named form, licence scope a variant, I-11).
+- I2.5.2.01 | Design template file |  | a layout file sold to be filled in or adapted in a design tool, including a PDF sewing or knitting pattern.
+- I2.5.2.02 | Brush pack |  | a set of brushes for a drawing or painting program.
+- I2.5.2.03 | Background, texture and frame pack |  | a pack of image materials sold for use in making other work.
+- I2.5.2.04 | Motion graphics template |  | an editable animated-graphics project file for a video or motion tool.
+- I2.5.2.05 | Digital planner |  | a planner or organiser held as a file to write in on a device.
+- I2.5.3.01 | 3D model file |  | a three-dimensional model held as a file to import into tools, including an avatar model.
+- I2.5.3.02 | 3D material file |  | a surface material or shader definition for 3D rendering.
+- I2.5.3.03 | 3D light file |  | an environment lighting map or light setup for 3D rendering.
+- I2.5.4.01 | Audio sample pack or instrument library |  | recorded sounds or a sampled instrument held as files for a music program.
+- I2.5.4.02 | Preset or LUT pack |  | saved settings or colour look-up tables loaded by an editing or sound program.
+- I2.5.4.03 | MIDI file |  | a file of note and control data that a program plays or edits.
+- I2.5.4.04 | AI model file |  | AI model weights held as a file.
+- I2.6.1.01 | Character outfit or skin |  | an item that changes the look of a player's character or agent.
+- I2.6.1.02 | Avatar accessory |  | a worn add-on item for a character, such as back items, shoes, gloves or banners.
+- I2.6.1.03 | Companion |  | a pet or sidekick that accompanies a player's character.
+- I2.6.2.01 | Weapon skin |  | a finish that changes the look of an in-game weapon.
+- I2.6.2.02 | Tool and traversal skin |  | an item that changes the look of an in-game tool or traversal gear (pickaxe, glider, trails).
+- I2.6.2.03 | Wrap or surface finish |  | a finish applied across the surfaces of vehicles, weapons or other items.
+- I2.6.3.01 | Emote |  | an animation or dance a player's character performs on command.
+- I2.6.3.02 | Spray or graffiti |  | an image a player places on surfaces in the game world.
+- I2.6.3.03 | In-game sticker or charm |  | a sticker, patch or charm applied to an in-game item.
+- I2.6.3.04 | Chat emoticon |  | a small image used in a game's or platform's chat.
+- I2.6.3.05 | Music kit or lobby music |  | an item that replaces a game's music or lobby track.
+- I2.6.3.06 | Messaging sticker pack |  | a set of stickers used in a messaging platform's chats.
+- I2.6.4.01 | Loot container |  | an item that opens to give one or more random items.
+- I2.6.4.02 | Unlock key |  | an item that opens a loot container.
+- I2.6.5.01 | Platform trading card |  | a collectible card held as data in a game platform account (foil is a style variant).
+- I2.6.5.02 | Profile background |  | an image item shown behind a platform profile.
+- I2.6.5.03 | Badge or pin |  | a badge or pin item shown on a platform profile or in a game.
+- I2.7.1.01 | Open generic-TLD domain name |  | a domain-name registration under a generic TLD open to any registrant.
+- I2.7.1.02 | Country-code domain name |  | a domain-name registration under a country-code TLD that is not reserved to a registrant class.
+- I2.7.1.03 | Eligibility-restricted domain name |  | a domain-name registration under a second-level name reserved to a registrant class, or in a sponsored or restricted gTLD.
+- I2.7.2.01 | Unique (1/1) NFT |  | a non-fungible token that is the only one of its token ID.
+- I2.7.2.02 | Semi-fungible NFT |  | a token issued in several identical copies under one token ID.
+- I2.6.5.06 | Loading screen |  | An image item collected in a game account and shown on the player's screen while a match loads.
+- I2.6.2.04 | Vehicle skin |  | An item that changes the body or parts (wheels) of an in-game vehicle.
+- I2.6.5.04 | Profile avatar |  | A picture item, still or animated, used as the account's profile picture on a platform.
+- I2.6.5.05 | Avatar frame |  | A decorative frame item shown around a platform profile picture.

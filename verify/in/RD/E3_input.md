@@ -1,0 +1,226 @@
+# E3 Musical Instruments & Music Gear: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (instrument family, or the gear job: amps and effects, recording and live sound, DJ)
+- reason: Retailers open on instrument family and then gear shelves (Thomann home: guitars and basses, drums, keys, studio, PA, DJ ...; Shimamura: acoustic, electric, bass, amps); below the family, guitars split by named body design, not maker (Thomann guitar guide, Bonedo); music genre, which Andertons and Bonedo use as a step, never divides E3 (owner, BRIEF), so the sound engine and form factor take its place.
+- ladder: What do you play or need? (instrument family or gear job) > Which type? (kind: solid-body electric, digital piano, keyboard synth, audio interface) > Which design or build? (named body design S-type, T-type, single-cut, double-cut, hollowbody, superstrat; sound engine; grand size) > What makes the best one? (build and playability, pickups or sound, maker's line on its ladder)
+- level1_groups: Guitars & basses; Pianos & keyboards; Synths, drum machines & controllers; Drums & percussion; Orchestral strings; Woodwind & brass; Other instruments (plucked strings, harps, accordions and free reeds, mechanical, other idiophones); Amps & effects; Recording & live sound; DJ equipment; Parts, cases & accessories
+- quality_markers: Guitars and basses: playability and build played in hand (neck, frets, set-up; used checks for neck, frets, electronics); pickups (type, layout, switching); body construction and woods, then scale length (wood influence debated); hardware and upgradability; line and place of build within a maker's ladder (Thomann, Bonedo). Pianos: overall build quality, soundboard and plate, action and touch, then size; a first-rate upright beats an inferior grand; condition of the single instrument (not stored, C16) (Steinway EU). Synths: sound engine (analogue, VA, FM, wavetable, granular, PCM) and its emulation quality, voice count (mono, paraphonic, poly), hands-on control (one knob per function), form factor, connectivity, effects (Andertons). Interfaces and converters: equivalent input noise, A-weighted dynamic range, THD+N, frequency response last; figures only comparable with stated test conditions (Focusrite). Band and orchestral: student, step-up, professional build (memo).
+- quality_signals: Maker line ladders (class iv line_rank: Fender Squier to Custom Shop; Pearl, TAMA, DW drum lines; memo); player_level scheme starter / intermediate / advanced / professional (class iii; memo); piano reviewer ladders pianobrands.org five-tier and pianoanswers three-tier, disputed (class iii; memo); retailer price tiers up to EUR 200 / 200-600 / 600-1000 / traditional makers from about EUR 1000 (class v price band only, never a tier; Bonedo); EIN, dynamic range, THD+N (class i measured attributes, maker-stated; Focusrite); maker certificate for pre-owned pianos and authorised dealer (one-object facts, not stored, C16; dealer status a dated platform_tag at most; Steinway EU); Vintage Guitar and Reverb price guides (value references, not tiers; memo)
+- maker_role: way_in (confirm, provisional) for instruments: makers define pianos (Steinway EU guide is maker-led) and own the named body designs and line ladders guitar buyers compare; every store keeps a manufacturer A to Z (memo). Propose owner only for E3.3 sound capture, mixing and reproduction and E3.2 effects hardware, where buyers pick a model and spec (Focusrite) and a few global brands dominate (provisional; needs a decision pass row in maker_roles.tsv with scope E3.2, E3.3).
+- side_view: Brand tab beside the type path (maker A to Z with its line ladder as a generated ladder view); a body-design index for guitars (all S-type, T-type, single-cut ... across makers); a used and vintage view from era tags and variants.
+- evidence_rows: Thomann (home page category list); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany); Shimamura Gakki (Japan) beginner guide index; Andertons (UK) synthesizer guide; Focusrite specs article (manufacturer); Steinway EU piano buying guide (maker)
+- maker role row: {'code': 'E3', 'scope': 'studio, PA and effects gear', 'role': 'owner', 'provisional': 'yes', 'reason': 'chosen by job and spec; instrument makers stay way in (HOL_DP_7, R-116)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-E3-1 | Guitars & basses | 1 |  | E3.1.3
+- G-E3-12 | Electric guitars | 2 | G-E3-1 | E3.1.3.01; E3.1.3.02; E3.1.3.03
+- G-E3-13 | Acoustic, classical and resonator guitars | 2 | G-E3-1 | E3.1.3.04; E3.1.3.05; E3.1.3.06
+- G-E3-14 | Bass guitars | 2 | G-E3-1 | E3.1.3.07
+- G-E3-2 | Pianos & keyboards | 1 |  | E3.1.1
+- G-E3-15 | Acoustic pianos | 2 | G-E3-2 | E3.1.1.01; E3.1.1.02
+- G-E3-16 | Digital and electric pianos | 2 | G-E3-2 | E3.1.1.03; E3.1.1.08
+- G-E3-17 | Organs and harpsichords | 2 | G-E3-2 | E3.1.1.04; E3.1.1.05; E3.1.1.06; E3.1.1.07
+- G-E3-3 | Synths, drum machines & controllers | 1 |  | E3.1.2; E3.3.7
+- G-E3-18 | Synthesizers | 2 | G-E3-3 | E3.1.2.01; E3.1.2.02; E3.1.2.05
+- G-E3-19 | Drum machines, samplers and grooveboxes | 2 | G-E3-3 | E3.1.2.03; E3.1.2.04; E3.1.2.06
+- G-E3-20 | MIDI and performance controllers | 2 | G-E3-3 | E3.3.7.01; E3.3.7.02; E3.3.7.03; E3.3.7.04; E3.3.7.05
+- G-E3-4 | Drums & percussion | 1 |  | E3.1.10
+- G-E3-21 | Drum kits and electronic drums | 2 | G-E3-4 | E3.1.10.01; E3.1.10.02; E3.1.10.17; E3.1.10.18
+- G-E3-22 | Snares and cymbals | 2 | G-E3-4 | E3.1.10.03; E3.1.10.04; E3.1.10.05; E3.1.10.06; E3.1.10.07; E3.1.10.08
+- G-E3-23 | Hand percussion | 2 | G-E3-4 | E3.1.10.09; E3.1.10.10; E3.1.10.13; E3.1.10.16
+- G-E3-24 | Orchestral and mallet percussion | 2 | G-E3-4 | E3.1.10.11; E3.1.10.12; E3.1.10.14; E3.1.10.15
+- G-E3-5 | Orchestral strings | 1 |  | E3.1.6.01; E3.1.6.02; E3.1.6.03; E3.1.6.04; E3.1.6.05; E3.1.6.06
+- G-E3-6 | Woodwind & brass | 1 |  | E3.1.7; E3.1.8
+- G-E3-25 | Woodwinds | 2 | G-E3-6 | E3.1.7.01; E3.1.7.02; E3.1.7.03; E3.1.7.04; E3.1.7.05; E3.1.7.06; E3.1.7.07; E3.1.7.08; E3.1.7.09; E3.1.7.10; E3.1.7.12; E3.1.7.13; E3.1.7.14; E3.1.7.15; E3.1.7.16; E3.1.7.11; E3.1.7.17
+- G-E3-26 | Brass | 2 | G-E3-6 | E3.1.8.01; E3.1.8.02; E3.1.8.03; E3.1.8.04; E3.1.8.05; E3.1.8.06
+- G-E3-7 | Other instruments | 1 |  | E3.1.4; E3.1.5; E3.1.9; E3.1.11; E3.1.12
+- G-E3-27 | Lutes and other plucked strings | 2 | G-E3-7 | E3.1.4.01; E3.1.4.02; E3.1.4.03; E3.1.4.04; E3.1.4.05; E3.1.4.06; E3.1.4.07; E3.1.4.08; E3.1.4.09
+- G-E3-28 | Zithers and harps | 2 | G-E3-7 | E3.1.5.01; E3.1.5.02; E3.1.5.03; E3.1.5.04
+- G-E3-29 | Accordions, harmonicas and free reeds | 2 | G-E3-7 | E3.1.9.01; E3.1.9.02; E3.1.9.03; E3.1.9.04; E3.1.9.05; E3.1.9.06
+- G-E3-30 | Mechanical instruments and other idiophones | 2 | G-E3-7 | E3.1.11.01; E3.1.11.02; E3.1.12.01; E3.1.12.02; E3.1.12.03
+- G-E3-8 | Amps & effects | 1 |  | E3.2
+- G-E3-31 | Amplifiers and cabinets | 2 | G-E3-8 | E3.2.1.01; E3.2.1.02; E3.2.1.03; E3.2.1.04; E3.2.1.05
+- G-E3-32 | Effects | 2 | G-E3-8 | E3.2.2.01; E3.2.2.02; E3.2.2.03; E3.2.2.04; E3.2.2.05; E3.2.2.07; E3.2.2.06; E3.2.2.08; E3.2.2.09; E3.2.2.10; E3.2.2.11; E3.2.2.12; E3.2.2.13; E3.2.2.14; E3.2.2.15; E3.2.2.16; E3.2.2.17; E3.2.2.18
+- G-E3-9 | Recording & live sound | 1 |  | E3.3.1; E3.3.2; E3.3.3; E3.3.4; E3.3.5
+- G-E3-33 | Microphones and wireless systems | 2 | G-E3-9 | E3.3.1.01; E3.3.1.02; E3.3.1.03; E3.3.1.04; E3.3.1.05
+- G-E3-34 | Mixers and audio interfaces | 2 | G-E3-9 | E3.3.2.01; E3.3.2.02; E3.3.2.03; E3.3.2.04; E3.3.2.05
+- G-E3-35 | Loudspeakers and monitors | 2 | G-E3-9 | E3.3.3.01; E3.3.3.02; E3.3.3.03
+- G-E3-36 | Headphones and in-ear monitors | 2 | G-E3-9 | E3.3.4.01; E3.3.4.02; E3.3.4.03
+- G-E3-37 | Signal processors | 2 | G-E3-9 | E3.3.5.01
+- G-E3-10 | DJ equipment | 1 |  | E3.3.6.01; E3.3.6.02
+- G-E3-11 | Parts, cases & accessories | 1 |  | E3.4; E3.5
+- G-E3-38 | Strings, cases and instrument parts | 2 | G-E3-11 | E3.4.1.01; E3.4.1.02; E3.4.2.01
+- G-E3-39 | Stands, metronomes, tuners and mutes | 2 | G-E3-11 | E3.5.1.01; E3.5.2.01; E3.5.2.02; E3.5.3.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-E3-1 | playability and build in hand |  | Neck, frets and set-up first; used checks neck, frets, electronics. | proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany); Shimamura Gakki (Japan) beginner guide index
+- G-E3-1 | pickups |  | Type, layout and switching. | proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
+- G-E3-1 | body construction and woods |  | Weighed after pickups. | proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
+- G-E3-1 | scale length |  | Wood influence debated. | proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
+- G-E3-1 | hardware and upgradability |  | Weighed after body. | proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
+- G-E3-1 | line and place of build within the maker's ladder |  | Compared inside one maker's lines. | proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
+- G-E3-15 | overall build quality | a first-rate upright > an inferior grand | Build quality outranks size. | proposals.tsv E3 row (quality_markers); Steinway EU piano buying guide (maker)
+- G-E3-15 | soundboard and plate |  | Weighed after overall build. | proposals.tsv E3 row (quality_markers); Steinway EU piano buying guide (maker)
+- G-E3-15 | action and touch |  | Weighed after soundboard. | proposals.tsv E3 row (quality_markers); Steinway EU piano buying guide (maker)
+- G-E3-15 | size |  | Grand size 1.55-2.74 m; weighed last. | proposals.tsv E3 row (quality_markers); Steinway EU piano buying guide (maker)
+- G-E3-15 | condition of the instrument |  | Judged on the single instrument; not stored (C16). | proposals.tsv E3 row (quality_markers); Steinway EU piano buying guide (maker)
+- G-E3-18 | sound engine and emulation quality | analogue; VA; FM; wavetable; granular; PCM (a choice) | Engine first. | proposals.tsv E3 row (quality_markers); Andertons (UK) synthesizer guide
+- G-E3-18 | voice count | mono; paraphonic; poly (a choice) | Polyphony after engine. | proposals.tsv E3 row (quality_markers); Andertons (UK) synthesizer guide
+- G-E3-18 | hands-on control | one knob per function preferred | Hands-on control is valued. | proposals.tsv E3 row (quality_markers); Andertons (UK) synthesizer guide
+- G-E3-18 | form factor | keyboard; module; desktop; groovebox; modular | A choice. | proposals.tsv E3 row (quality_markers); Andertons (UK) synthesizer guide
+- G-E3-18 | connectivity and effects |  | Weighed last. | proposals.tsv E3 row (quality_markers); Andertons (UK) synthesizer guide
+- G-E3-34 | equivalent input noise (EIN) | lower > higher | Figures comparable only with stated test conditions. | proposals.tsv E3 row (quality_markers); Focusrite specs article (manufacturer)
+- G-E3-34 | A-weighted dynamic range | higher > lower | Second converter figure. | proposals.tsv E3 row (quality_markers); Focusrite specs article (manufacturer)
+- G-E3-34 | THD+N | lower > higher | Third figure. | proposals.tsv E3 row (quality_markers); Focusrite specs article (manufacturer)
+- G-E3-34 | frequency response |  | Weighed last. | proposals.tsv E3 row (quality_markers); Focusrite specs article (manufacturer)
+- G-E3-5 | build level | professional > step-up > student | Band and orchestral instruments are sold on a build ladder (memo). | proposals.tsv E3 row (quality_markers); E3 memo
+- G-E3-6 | build level | professional > step-up > student | Band and orchestral instruments are sold on a build ladder (memo). | proposals.tsv E3 row (quality_markers); E3 memo
+
+## Kinds (kind_id | stored name | native name | definition)
+- E3.1.1.01 | Upright piano |  | acoustic piano with a vertical frame and strings, hammers striking the strings from the front.
+- E3.1.1.02 | Grand piano |  | acoustic piano with a horizontal frame and strings in a wing-shaped case; grand size is an attribute.
+- E3.1.1.03 | Digital piano |  | electronic keyboard instrument made to reproduce the piano, with a weighted or piano-style action and built-in sound.
+- E3.1.1.04 | Harpsichord |  | keyboard instrument whose strings are plucked by quills or plectra.
+- E3.1.1.05 | Pipe organ |  | keyboard instrument sounding through ranks of pipes fed by wind, including church and chamber organs also played outside worship.
+- E3.1.1.06 | Tonewheel organ |  | electromechanical organ that generates its tones with rotating tonewheels.
+- E3.1.2.01 | Synthesizer |  | electronic instrument that generates sound with its own engine and is played or sequenced as a whole unit; `form_factor` (keyboard, desktop module, rack module) and synthesis method are attributes (memo "keyboard synthesizer", renamed by section 14 E3-3a).
+- E3.1.2.02 | Modular synthesizer module |  | single synthesizer function built to be mounted with others in one mount system (the format, such as Eurorack, is a C13 platform row).
+- E3.1.2.03 | Drum machine |  | electronic instrument that produces drum and percussion sounds and plays them from a built-in sequencer.
+- E3.1.2.04 | Sampler |  | electronic instrument that records, stores and plays back sound samples from its pads or keys.
+- E3.1.2.05 | Theremin |  | electronic instrument played without contact, pitch and volume set by the hands' distance from two antennas.
+- E3.1.2.06 | Groovebox |  | all-in-one instrument combining synth, drum and sample voices with a built-in pattern sequencer, sold as a groovebox (section 14 E3-3b, provisional).
+- E3.1.3.01 | Solid-body electric guitar |  | electric guitar with a solid body and magnetic pickups.
+- E3.1.3.02 | Semi-hollow electric guitar |  | electric guitar with a hollow body around a solid centre block.
+- E3.1.3.03 | Hollow-body electric guitar |  | electric guitar with a fully hollow, archtop-style body.
+- E3.1.3.04 | Steel-string acoustic guitar |  | acoustic guitar with a hollow body strung with steel strings.
+- E3.1.3.05 | Classical guitar |  | acoustic guitar with a wide neck strung with nylon or gut strings.
+- E3.1.3.06 | Resonator guitar |  | acoustic guitar whose sound is projected by one or more metal resonator cones.
+- E3.1.3.07 | Bass guitar |  | electric or acoustic fretted bass instrument tuned an octave below the guitar's lowest strings.
+- E3.1.4.01 | Ukulele |  | small four-string plucked lute of the guitar family.
+- E3.1.4.02 | Banjo |  | plucked lute with a drum-like membrane soundtable on a round frame.
+- E3.1.4.03 | Mandolin |  | small plucked lute with paired strings, usually tuned in fifths.
+- E3.1.4.04 | Oud (short-necked fretless lute) |  | short-necked, fretless, pear-bodied plucked lute; region tag; level provisional until attested (R-19).
+- E3.1.4.05 | Sitar (long-necked plucked lute) |  | long-necked plucked lute with movable frets and sympathetic strings; region tag India; kind by E-4, level provisional until attested (R-19).
+- E3.1.4.06 | Shamisen (three-string lute) |  | long-necked, three-string plucked lute with a skin-covered body; region tag Japan; level provisional until attested (R-19).
+- E3.1.5.01 | Koto (long zither) |  | long board zither with movable bridges under each string; region tag Japan; kind by E-4, level provisional until attested (R-19).
+- E3.1.5.02 | Guzheng (long zither) |  | long board zither with movable bridges; region tag China; a kind only if CV-27 holds, otherwise a non-maker named form under koto (E3.1.5.01); provisional until attested (R-19).
+- E3.1.5.03 | Harp |  | plucked string instrument whose strings run from a soundboard to a neck at an angle, in an open or framed body.
+- E3.1.6.01 | Violin |  | four-string bowed instrument held under the chin, the treble of the violin family; fractional size is an attribute.
+- E3.1.6.02 | Viola |  | four-string bowed instrument held under the chin, larger and lower than the violin.
+- E3.1.6.03 | Cello |  | four-string bowed instrument played seated with an endpin, the tenor-bass of the violin family.
+- E3.1.6.04 | Double bass (upright bass, contrabass) |  | largest and lowest bowed string instrument, played standing or on a high stool.
+- E3.1.7.01 | Flute |  | concert flute in C: transverse flute sounded by blowing across an embouchure hole.
+- E3.1.7.02 | B-flat clarinet |  | single-reed clarinet pitched in B-flat.
+- E3.1.7.03 | Bass clarinet |  | single-reed clarinet pitched an octave below the B-flat clarinet, with its own body and mouthpiece.
+- E3.1.7.04 | Soprano saxophone |  | single-reed saxophone of the soprano voice.
+- E3.1.7.05 | Alto saxophone |  | single-reed saxophone of the alto voice.
+- E3.1.7.06 | Tenor saxophone |  | single-reed saxophone of the tenor voice.
+- E3.1.7.07 | Baritone saxophone |  | single-reed saxophone of the baritone voice.
+- E3.1.7.08 | Oboe |  | double-reed woodwind with a conical bore.
+- E3.1.7.09 | Bagpipes |  | reed pipes (chanter and drones) sounded from a bag of air; regional variants are named forms with a region tag.
+- E3.1.8.01 | Trumpet |  | valved brass instrument in the treble range with a mostly cylindrical bore.
+- E3.1.8.02 | Trombone |  | brass instrument whose pitch is changed mainly with a slide.
+- E3.1.8.03 | French horn (horn) |  | valved brass instrument with a coiled conical tube and a wide flared bell.
+- E3.1.8.04 | Tuba |  | largest and lowest valved brass instrument.
+- E3.1.9.01 | Harmonica |  | mouth-blown free-reed instrument with reeds in a row of channels.
+- E3.1.9.02 | Accordion |  | bellows-driven free-reed instrument with keyboard or buttons and bass buttons; bayan and garmon are named forms with a region tag (E-4, E-20).
+- E3.1.9.03 | Concertina |  | small bellows-driven free-reed instrument with buttons on both ends.
+- E3.1.9.04 | Harmonium |  | free-reed instrument with a keyboard and hand- or foot-pumped bellows; E3 also when played in worship (step 14 note).
+- E3.1.9.05 | Melodica |  | mouth-blown free-reed instrument played from a small keyboard.
+- E3.1.9.06 | Shruti box |  | bellows-driven free-reed drone instrument without a keyboard.
+- E3.1.10.01 | Acoustic drum kit |  | set of acoustic drums (and usually cymbals and hardware) played by one drummer.
+- E3.1.10.02 | Electronic drum kit |  | drum kit of pads or mesh heads that trigger electronic sounds from a sound module.
+- E3.1.10.03 | Snare drum |  | shallow double-headed drum with snare wires across the lower head.
+- E3.1.10.04 | Crash cymbal |  | cymbal made for loud accents.
+- E3.1.10.05 | Ride cymbal |  | large cymbal made for a sustained ride pattern.
+- E3.1.10.06 | Hi-hat cymbal |  | pair of cymbals mounted on a stand and closed by a pedal (sold as a pair).
+- E3.1.10.07 | Splash cymbal |  | small, thin cymbal with a short, quick decay.
+- E3.1.10.08 | China cymbal |  | cymbal with an upturned edge and a trashy, cutting tone.
+- E3.1.10.09 | Cajon (box drum) |  | box-shaped wooden drum played by hand while sitting on it; level provisional until attested (R-19).
+- E3.1.10.10 | Djembe (goblet drum) |  | goblet-shaped hand drum with a skin head; level provisional until attested (R-19).
+- E3.1.10.11 | Timpani |  | tuned kettle drum with a bowl-shaped shell, played with mallets.
+- E3.1.10.12 | Marimba |  | tuned mallet percussion instrument with wooden bars and resonators.
+- E3.1.10.13 | Singing bowl |  | standing bowl bell sounded by striking or rubbing the rim; E3 unless made for a rite (K-110).
+- E3.1.11.01 | Music box |  | mechanism that plays a tune by a pinned cylinder or disc plucking a tuned steel comb.
+- E3.1.11.02 | Barrel organ |  | organ played mechanically by turning a pinned barrel.
+- E3.1.12.01 | Musical saw |  | saw blade bent and bowed or struck to sound a sustained tone.
+- E3.1.12.02 | Glass harmonica |  | set of graded glass bowls on a spindle, sounded by rubbing the rims with wet fingers.
+- E3.2.1.01 | Combo amp |  | instrument amplifier and loudspeaker in one cabinet; circuit technology (tube, solid-state, modelling, hybrid), wattage and speaker size are attributes.
+- E3.2.1.02 | Amp head |  | instrument amplifier without a loudspeaker, made to drive a separate cabinet.
+- E3.2.1.03 | Speaker cabinet |  | loudspeaker enclosure made to be driven by an amp head.
+- E3.2.1.04 | Amp modeller |  | floor or desktop unit that carries amplifier models (usually with effects) in place of an amplifier.
+- E3.2.2.01 | Distortion effect |  | unit that clips the instrument signal hard for a distorted sound; format (pedal, rack, desktop) is an attribute.
+- E3.2.2.02 | Overdrive effect |  | unit that clips the signal softly to emulate a driven amplifier.
+- E3.2.2.03 | Delay effect |  | unit that repeats the signal after a set time.
+- E3.2.2.04 | Multi-effects processor |  | unit offering several effect types in one housing and no amplifier models.
+- E3.3.1.01 | Large-diaphragm condenser microphone |  | condenser microphone with a large capsule, sold for recording music; connectivity (USB, XLR) is an attribute.
+- E3.3.1.02 | Dynamic microphone |  | moving-coil microphone sold for music on stage or in the studio.
+- E3.3.1.03 | Wireless microphone system |  | microphone or bodypack transmitter with its receiver, sold for music performance.
+- E3.3.2.01 | Audio interface |  | external unit that converts microphone and instrument signals for recording music on a computer (K-150).
+- E3.3.2.02 | Mixer |  | console that combines, levels and routes several audio channels; analogue or digital and channel count are attributes.
+- E3.3.3.01 | Studio monitor |  | near-field loudspeaker cabinet made for monitoring in recording and mixing.
+- E3.3.3.02 | PA speaker |  | pole-mount or flown loudspeaker cabinet made for live sound; powered or passive is an attribute.
+- E3.3.4.01 | Studio headphones |  | headphones sold by their maker as studio, stage or DJ equipment.
+- E3.3.4.02 | In-ear monitor system |  | stage in-ear monitoring kit with a transmitter and a bodypack receiver (K-143); provisional until attested.
+- E3.3.5.01 | DI box |  | direct-input box that converts an instrument signal to a balanced microphone-level signal.
+- E3.3.6.01 | DJ controller |  | control surface with jog wheels, faders and pads for DJ software.
+- E3.3.6.02 | DJ turntable |  | direct-drive record turntable sold for DJ performance.
+- E3.3.7.01 | MIDI keyboard controller |  | keyboard that makes no sound of its own and sends MIDI or other control data to sound sources.
+- E3.3.7.02 | Pad controller |  | grid or bank of pads that sends control data to software or hardware, for beat-making, recording or DJing alike.
+- E3.4.1.01 | Guitar strings |  | set or single string made for a guitar or bass.
+- E3.4.1.02 | Guitar case |  | hard or soft case made to hold one guitar or bass.
+- E3.4.2.01 | Drumstick |  | stick made for playing drums and cymbals, sold as a pair.
+- E3.5.1.01 | Music stand |  | stand that holds sheet music or a tablet at reading height for the player.
+- E3.5.2.01 | Metronome |  | device that sounds or shows a steady, settable beat.
+- E3.5.2.02 | Tuner |  | device that shows how far a played note is from the target pitch.
+- E3.5.3.01 | Practice mute |  | mute that quiets an instrument for practice, made for several instruments.
+- E3.2.2.05 | Reverb effect |  | unit that adds simulated room, hall, plate or spring reverberation to the signal; format (pedal, rack, desktop) is an attribute.
+- E3.2.2.07 | Boost effect |  | unit that raises the signal level with little or no added clipping; format is an attribute.
+- E3.3.3.03 | Subwoofer |  | loudspeaker cabinet for low frequencies only, sold to extend studio monitors or a PA system; studio or stage is a use tag.
+- E3.1.7.10 | Bassoon |  | double-reed woodwind with a folded conical bore, the bass of the woodwind section.
+- E3.1.4.07 | Tanpura (long-necked drone lute) |  | long-necked unfretted plucked lute sounding a drone on open strings; region tag India; level provisional (R-19).
+- E3.1.5.04 | Hammered dulcimer |  | trapezoid box zither whose strings are struck with light hammers; santoor and yangqin are named forms with a region tag.
+- E3.1.4.08 | Bouzouki |  | long-necked plucked lute with paired metal strings, Greek or Irish; region tag.
+- E3.1.1.07 | Electronic organ |  | organ that generates its tones electronically (analogue or digital), including home, combo and church organs without pipes.
+- E3.1.1.08 | Electric piano |  | electromechanical piano whose hammers strike tines, reeds or strings read by pickups (Rhodes, Wurlitzer type).
+- E3.2.1.05 | Rotary speaker cabinet |  | amplified speaker cabinet with rotating horn and drum, made for organs and keyboards.
+- E3.1.4.09 | Veena (South Indian long-necked lute) |  | long-necked fretted plucked lute with one or two gourd resonators; region tag India; level provisional (R-19).
+- E3.1.6.05 | Taus (Indian fretted bowed lute) |  | bowed long-necked fretted lute with sympathetic strings (taus, esraj, dilruba); region tag India; level provisional.
+- E3.1.7.12 | Piccolo |  | small transverse flute sounding an octave above the concert flute.
+- E3.1.7.13 | Alto flute |  | transverse flute pitched in G, a fourth below the concert flute.
+- E3.1.7.14 | Bass flute |  | transverse flute pitched an octave below the concert flute, with a folded head.
+- E3.1.7.15 | Alto clarinet |  | single-reed clarinet pitched in E-flat between the B-flat and bass clarinets.
+- E3.1.7.16 | C clarinet |  | single-reed soprano clarinet pitched in C.
+- E3.1.10.14 | Xylophone |  | tuned mallet percussion with hard wooden or synthetic bars, brighter and higher than the marimba.
+- E3.1.10.15 | Vibraphone |  | tuned mallet percussion with metal bars, resonators and motor-driven vibrato fans, with a damper pedal.
+- E3.1.10.16 | Tongue drum |  | steel or wooden drum with cut tuned tongues struck by hand or mallet.
+- E3.1.10.17 | Electronic percussion pad |  | self-contained pad unit with built-in or sampled sounds, played with sticks or hands.
+- E3.1.12.03 | Jaw harp |  | lamella in a frame held to the mouth and plucked, the mouth shaping the overtones.
+- E3.3.4.03 | In-ear monitors |  | stage or studio earphones (universal or custom-moulded) sold as monitoring gear, without transmitter.
+- E3.3.7.03 | Wind controller |  | breath-driven controller with keys that sends MIDI or control data, often with its own sounds.
+- E3.3.7.04 | MIDI foot controller |  | floor unit of footswitches or pedals that sends MIDI or control data to other gear.
+- E3.2.2.06 | Fuzz effect |  | unit that squares the signal into a saturated, buzzing fuzz tone; format is an attribute.
+- E3.2.2.08 | Chorus effect |  | unit that mixes the signal with slightly delayed, pitch-modulated copies; format is an attribute.
+- E3.2.2.09 | Flanger effect |  | unit that mixes the signal with a very short, swept delay for a jet-like comb sweep; format is an attribute.
+- E3.2.2.10 | Phaser effect |  | unit that sweeps notches through the signal with all-pass filter stages; format is an attribute.
+- E3.2.2.11 | Tremolo effect |  | unit that modulates the signal volume (or pitch, as vibrato) at a set rate; format is an attribute.
+- E3.2.2.12 | Compressor effect |  | unit that narrows the dynamic range of the instrument signal; format is an attribute.
+- E3.2.2.13 | Wah effect |  | foot-rocked or envelope-driven unit that sweeps a resonant filter across the signal.
+- E3.2.2.14 | Looper |  | unit that records and plays back loops of the live signal for overdubbing.
+- E3.2.2.15 | Pitch-shifter effect |  | unit that adds or replaces the signal with a shifted pitch (octave, harmony, whammy); format is an attribute.
+- E3.2.2.16 | EQ effect |  | unit that boosts or cuts set frequency bands of the instrument signal; format is an attribute.
+- E3.2.2.17 | Noise gate |  | unit that mutes the signal below a set threshold to cut hum and hiss.
+- E3.2.2.18 | Volume pedal |  | foot-rocked pedal that sets the level of the instrument signal.
+- E3.1.8.05 | Euphonium |  | valved tenor brass instrument with a wide conical bore, pitched in B-flat.
+- E3.1.7.11 | Recorder |  | duct flute blown at the end through a fipple, with thumb hole; voice size is an attribute.
+- E3.1.10.18 | Bar chimes |  | row of hanging metal bars or tubes swept or struck for a shimmering effect.
+- E3.3.1.04 | Small-diaphragm condenser microphone |  | condenser microphone with a small capsule, sold for recording instruments.
+- E3.3.1.05 | Ribbon microphone |  | velocity microphone with a thin metal ribbon element, sold for music recording.
+- E3.1.8.06 | Flugelhorn |  | valved brass instrument in B-flat with a wide conical bore and mellow tone.
+- E3.1.6.06 | Kokyu (Japanese bowed lute) |  | small bowed spike lute with a skin body; region tag Japan; level provisional (R-19).
+- E3.1.7.17 | Hichiriki (Japanese double-reed pipe) |  | short cylindrical double-reed pipe of gagaku; region tag Japan; level provisional (R-19).
+- E3.3.2.03 | Microphone preamp and channel strip |  | unit that raises a microphone signal to line level, alone or with EQ and dynamics in one channel strip.
+- E3.3.2.04 | Portable audio recorder |  | handheld or field recorder with built-in or plug-in microphones that records to a memory card.
+- E3.3.7.05 | DAW control surface |  | control surface of faders, knobs and buttons that controls recording software or plug-ins.
+- E3.3.2.05 | 500-series module |  | preamp, EQ or dynamics module built to mount in an API 500-series rack (lunchbox).

@@ -1,0 +1,192 @@
+# I1 Software: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: use or need (the job the software does)
+- reason: Both download-library trees and the subscription directory open on the job (security, office, photo, system, AI) and keep OS and price model as filters (heise Download Windows and Mac pages; Subger category tree), while the labs and guides that rank makers work only inside one job (AV-TEST; AV-Comparatives; Subger password managers guide), so job leads and maker comes at the product step.
+- ladder: What do you want to do? > Which family of tools? > Which tool (kind)? > Which product, filtered by platform and price model, ranked by lab score or audit where one exists
+- level1_groups: Look after my computer; Protect my data and logins; Write, plan and organise; Make images, video and music; Play and read my media; Run money and business; Learn, translate and look up; Build software, sites and games; Design, engineer and research; Ask an AI; Get online; Add-ons for one program or device
+- quality_markers: Security suites: protection (0-6) > performance impact (0-6) > usability and false positives (0-6), total 18 (AV-TEST order); repair after infection for awards; Password managers: audit history (none < one audit < regular repeated audits plus bug bounty) > open-source clients and reproducible builds > encryption design (zero-knowledge) > price and free tier > jurisdiction (outside 5/9/14 Eyes ranked higher); VPN: same security-evidence order (audits, jurisdiction, open-source clients), provisional (no VPN guide fetched); AI assistants: price tier ladder > model access > training-data policy > API access > model choice > jurisdiction; All other tool kinds: does the job on my platform > price model (open source, free, freemium, one-time, subscription) > clean installer (no adware) > editorial and community ratings (preference, no tier)
+- quality_signals: AV-TEST lab scores (protection, performance, usability; Certified at 10 of 18 as a certification attribute; TOP PRODUCT at 17.5 as a tier entry; annual AV-TEST Awards per dimension), set by AV-TEST, Magdeburg; AV-Comparatives (Approved Security Product as certification; Standard < Advanced < Advanced+ per test, Top-Rated, Gold/Silver/Bronze awards as tier entries), set by AV-Comparatives, Innsbruck (ISO 9001, EICAR Trusted); Independent security audits and penetration tests (Cure53, ISE) as dated certification attributes on the named form; SOC 2 Type II and ISO 27001 as certification attributes of the service; Bug bounty programme as an attribute; Arena leaderboards for AI tasks as dated snapshots (memo S22, I-5); Subger Recommended or Niche pick as an editorial class (iii), low weight (no own tests)
+- maker_role: owner (confirm; R-109, maker_roles.tsv I1)
+- side_view: Maker-lines tab (as DPW1_I1) plus a by-vendor lab-results view for security kinds, because labs publish results by manufacturer; an 'alternatives to' switch between named forms
+- evidence_rows: heise Download (Windows, Sicherheit); heise Download (Mac, Passwortverwaltung); Subger category tree; Subger password managers guide; Privacy Guides forum thread on password manager criteria; AV-TEST home Windows results; AV-TEST Award 2015; AV-Comparatives awards 2024 (AVG page); Subger AI assistants guide; Steam Community thread on finding software; Steam store tag page
+- maker role row: {'code': 'I1', 'scope': '*', 'role': 'owner', 'provisional': 'no', 'reason': 'shoppers choose the tool; vendors only own named products (R-109)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-I1-1 | Look after my computer | 1 |  | I1.1
+- G-I1-13 | Operating systems and environments | 2 | G-I1-1 | I1.1.1.01; I1.1.1.02; I1.1.1.03; I1.1.1.04
+- G-I1-14 | Clean, tune and repair | 2 | G-I1-1 | I1.1.2.01; I1.1.2.02; I1.1.2.03; I1.1.2.07; I1.1.2.08; I1.1.3.06
+- G-I1-15 | Back up and recover | 2 | G-I1-1 | I1.1.2.04; I1.1.2.06
+- G-I1-16 | Files and remote access | 2 | G-I1-1 | I1.1.3.01; I1.1.3.02; I1.1.3.03; I1.1.3.05; I1.1.3.07
+- G-I1-17 | Launchers and desktop tweaks | 2 | G-I1-1 | I1.1.3.04; I1.1.1.05; I1.1.3.08
+- G-I1-2 | Protect my data and logins | 1 |  | I1.2; I1.1.2.05
+- G-I1-18 | Malware and network protection | 2 | G-I1-2 | I1.2.01; I1.2.07
+- G-I1-19 | Passwords and logins | 2 | G-I1-2 | I1.2.02; I1.2.06
+- G-I1-20 | Privacy and encryption | 2 | G-I1-2 | I1.2.03; I1.2.04; I1.1.2.05
+- G-I1-21 | Family safety | 2 | G-I1-2 | I1.2.05
+- G-I1-3 | Write, plan and organise | 1 |  | I1.3; I1.4.1.12
+- G-I1-22 | Office suites and documents | 2 | G-I1-3 | I1.3.01; I1.3.08; I1.3.09; I1.3.10; I1.3.02; I1.3.06; I1.3.14
+- G-I1-23 | Notes, tasks and diagrams | 2 | G-I1-3 | I1.3.03; I1.3.04; I1.3.05; I1.3.11; I1.4.1.12; I1.3.13
+- G-I1-24 | Typing and dictation | 2 | G-I1-3 | I1.3.07; I1.3.12
+- G-I1-4 | Make images, video and music | 1 |  | I1.4
+- G-I1-25 | Photo and image editing | 2 | G-I1-4 | I1.4.1.01; I1.4.1.04; I1.4.1.09
+- G-I1-26 | Graphic design and publishing | 2 | G-I1-4 | I1.4.1.02; I1.4.1.03; I1.4.1.10; I1.4.1.08; I1.4.1.07
+- G-I1-27 | 3D and scanning | 2 | G-I1-4 | I1.4.1.05; I1.4.1.11
+- G-I1-28 | Video and animation | 2 | G-I1-4 | I1.4.2.01; I1.4.2.03; I1.4.2.04; I1.4.2.05; I1.4.2.06
+- G-I1-29 | Screen capture and streaming | 2 | G-I1-4 | I1.4.2.02; I1.4.1.06
+- G-I1-30 | Music and audio | 2 | G-I1-4 | I1.4.3.01; I1.4.3.02; I1.4.3.03; I1.4.3.04; I1.4.3.05; I1.4.3.06
+- G-I1-31 | All-in-one creative suites | 2 | G-I1-4 | I1.4.4.01
+- G-I1-5 | Play and read my media | 1 |  | I1.5
+- G-I1-32 | Players and readers | 2 | G-I1-5 | I1.5.01; I1.5.02; I1.5.03
+- G-I1-33 | Live show control | 2 | G-I1-5 | I1.5.04
+- G-I1-6 | Run money and business | 1 |  | I1.6
+- G-I1-34 | Budgets and tax | 2 | G-I1-6 | I1.6.1.02; I1.6.1.01
+- G-I1-35 | Accounting and ERP | 2 | G-I1-6 | I1.6.1.03; I1.6.3.02
+- G-I1-36 | Sales and marketing | 2 | G-I1-6 | I1.6.2.01; I1.6.2.02; I1.6.2.03
+- G-I1-37 | Operations and staff | 2 | G-I1-6 | I1.6.3.01; I1.6.3.03; I1.6.3.04; I1.6.3.05
+- G-I1-7 | Learn, translate and look up | 1 |  | I1.7
+- G-I1-38 | Learn and teach | 2 | G-I1-7 | I1.7.01; I1.7.03; I1.7.06
+- G-I1-39 | Translate | 2 | G-I1-7 | I1.7.04; I1.7.05
+- G-I1-40 | Look up | 2 | G-I1-7 | I1.7.02
+- G-I1-8 | Build software, sites and games | 1 |  | I1.8
+- G-I1-41 | Write code | 2 | G-I1-8 | I1.8.1.01; I1.8.1.02; I1.8.1.03; I1.8.1.04; I1.8.1.07
+- G-I1-42 | Build websites and games | 2 | G-I1-8 | I1.8.1.06; I1.8.1.05
+- G-I1-43 | Data, servers and operations | 2 | G-I1-8 | I1.8.2.01; I1.8.2.07; I1.8.2.02; I1.8.2.06; I1.8.2.03; I1.8.2.04; I1.8.2.05
+- G-I1-9 | Design, engineer and research | 1 |  | I1.9
+- G-I1-44 | Design and make | 2 | G-I1-9 | I1.9.01; I1.9.07; I1.9.05; I1.9.02
+- G-I1-45 | Science, maps and sky | 2 | G-I1-9 | I1.9.03; I1.9.04; I1.9.06
+- G-I1-10 | Ask an AI | 1 |  | I1.10
+- G-I1-46 | AI assistants and agents | 2 | G-I1-10 | I1.10.01; I1.10.02; I1.10.03
+- G-I1-11 | Get online | 1 |  | I1.11
+- G-I1-47 | Browse and mail | 2 | G-I1-11 | I1.11.01; I1.11.02
+- G-I1-48 | Download and share files | 2 | G-I1-11 | I1.11.04; I1.11.03; I1.11.05
+- G-I1-12 | Add-ons for one program or device | 1 |  | I1.12
+- G-I1-49 | Add-ons for a program | 2 | G-I1-12 | I1.12.1.01; I1.12.2.01; I1.12.3.01; I1.12.4.01
+- G-I1-50 | Software for one device | 2 | G-I1-12 | I1.12.5.02; I1.12.5.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+
+## Kinds (kind_id | stored name | native name | definition)
+- I1.1.1.02 | Virtualisation software |  | Program that runs one or more virtual machines or whole guest systems on the owner's computer.
+- I1.1.2.04 | Backup and disk-cloning software |  | Program that copies files, a disk or a whole system image to the owner's own drives (backup to the provider's servers is a plan, I3).
+- I1.1.2.05 | Data-erasure software |  | Program that overwrites storage so that the erased data cannot be recovered.
+- I1.1.3.01 | File archiver |  | Program that packs files into compressed archives and unpacks them.
+- I1.1.3.02 | Disc-burning software |  | Program that writes data, audio or disc images to optical discs.
+- I1.2.02 | Password manager |  | Program or hosted tool that stores, generates and fills passwords and logins; family, premium and free plans are variants.
+- I1.3.01 | Office suite |  | Bundle of word-processing, spreadsheet and presentation programs sold as one product.
+- I1.3.02 | PDF reader and editor |  | Program that views, annotates, edits, fills or signs PDF files.
+- I1.6.1.02 | Personal-finance manager [家計簿] |  | Program for tracking accounts, budgets and household money.
+- I1.8.1.01 | Code editor and IDE |  | Program for writing, running and debugging source code.
+- I1.1.3.04 | Application launcher |  | Program that opens applications, files and commands from a typed name or shortcut.
+- I1.4.1.05 | 3D modelling software |  | Program for modelling, sculpting and rendering three-dimensional objects.
+- I1.4.2.02 | Screen recorder and live-streaming software |  | Program that records the screen or camera and streams it live; kept as one kind until a source separates the two.
+- I1.4.3.01 | Audio editor |  | Program for recording, editing and mastering sound.
+- I1.4.3.02 | Music-creation and recording software |  | Program for composing, arranging and recording music.
+- I1.6.1.03 | Accounting software |  | Program for bookkeeping, invoicing and financial reporting for a business or a freelancer.
+- I1.6.2.01 | CRM software |  | Program for managing customer contacts, deals and sales follow-up.
+- I1.8.1.03 | Version-control client |  | Program for tracking and sharing changes to source code.
+- I1.4.1.01 | Raster image editor |  | Program for editing and painting pixel-based images.
+- I1.4.1.02 | Vector graphics editor |  | Program for drawing and editing shape-based graphics that scale without loss.
+- I1.4.2.01 | Video editor |  | Program for cutting, arranging and finishing video.
+- I1.4.2.03 | Video converter |  | Program that converts video and audio files between formats and settings.
+- I1.2.03 | VPN service and client |  | VPN client, with the service it connects to, that encrypts the owner's connection and routes it through a private network.
+- I1.1.3.03 | Remote-desktop software |  | Program that shows and controls another computer's screen over a network.
+- I1.2.01 | Antivirus and security suite |  | Program that protects a computer or phone from malware and online threats; free antivirus, internet-security and total-security editions are one kind.
+- I1.5.01 | Media player |  | Program that plays video and audio files of many formats.
+- I1.5.02 | Music player and library manager |  | Program that plays music and organises the owner's music library.
+- I1.3.03 | Note-taking app |  | App for writing, organising and searching personal notes.
+- I1.11.01 | Web browser |  | Program for viewing websites.
+- I1.11.02 | Email client |  | Program that reads and sends email from a mailbox hosted elsewhere (the mailbox is I3).
+- I1.11.03 | BitTorrent client |  | Program that downloads and shares files over the BitTorrent protocol.
+- I1.8.2.02 | SSH and file-transfer client |  | Program that connects to remote servers by SSH or transfers files by FTP or SFTP.
+- I1.8.2.03 | Network protocol analyser |  | Program that captures and inspects network traffic.
+- I1.8.2.01 | Database software |  | Program that stores, queries and manages structured data.
+- I1.10.01 | Conversational AI assistant |  | AI assistant the user talks or writes to for answers, drafting, coding and other general tasks.
+- I1.8.1.02 | AI coding assistant |  | Assistant sold or used as a tool that suggests, writes or reviews code.
+- I1.9.01 | CAD software |  | Program for computer-aided design and drafting of parts, buildings and drawings.
+- I1.9.04 | GIS and earth-mapping software |  | Program on the owner's machine that edits, analyses or views geographic data (a hosted map or navigation service is I3).
+- I1.8.1.04 | Language runtime and compiler |  | Program that compiles or runs code in a programming language.
+- I1.4.1.08 | Home-publishing software |  | Program for making cards, calendars, labels and similar printed items at home.
+- I1.3.04 | Task and project manager |  | App for listing tasks, tracking their progress and planning projects.
+- I1.9.03 | Scientific and analytical software |  | Program for scientific computation, statistics and data analysis.
+- I1.12.1.01 | Browser extension |  | Add-on that adds features to one web browser.
+- I1.7.02 | Reference software |  | Dictionary, encyclopedia or similar reference work delivered as its own program, or on a disc as a program (as an e-book file it is I2).
+- I1.1.2.01 | System cleaner and optimiser |  | Program that removes junk files and tunes settings to keep a computer clean and fast.
+- I1.1.2.02 | Uninstaller |  | Program that removes installed applications together with their leftover files and settings.
+- I1.1.2.03 | Driver updater |  | Program that finds out-of-date device drivers and installs newer ones.
+- I1.9.02 | 3D-printing slicer |  | Program that prepares a 3D model for printing by slicing it into printer instructions.
+- I1.6.1.01 | Tax-preparation software |  | Program that prepares and files a tax return.
+- I1.6.3.01 | Point-of-sale software |  | Program that runs a shop or restaurant till: sales, receipts, stock and payments.
+- I1.7.01 | Language-learning software |  | Interactive program that teaches a language by testing, correcting or adapting to the user's answers.
+- I1.4.1.04 | Photo manager and RAW developer |  | Program that catalogues, views and develops photographs, including camera RAW files.
+- I1.4.1.07 | Font manager |  | Program that installs, organises and previews fonts.
+- I1.4.1.09 | AI image generator |  | Program or hosted tool that makes or alters images from a text or image prompt; text-to-image and image-editing modes are one kind (task_mode attribute).
+- I1.1.3.05 | Desktop search tool |  | Program that indexes a computer's files and finds them by name or content.
+- I1.4.1.06 | Screenshot tool |  | Program that captures and annotates what is shown on the screen.
+- I1.3.05 | Calendar and scheduling app |  | App for keeping a calendar and scheduling appointments.
+- I1.12.4.01 | Audio plug-in |  | Plug-in (instrument or effect) that adds sound or image processing to an audio or graphics host program.
+- I1.4.4.01 | Creative suite |  | All-apps bundle of one maker's creative programs, named for no single component; its edition and plan are variants.
+- I1.4.1.03 | Graphic design app |  | Template-driven design app for flyers, social posts, resumes and similar layouts, fitting neither raster nor vector editing alone.
+- I1.1.1.01 | Desktop operating system |  | Operating system that runs a desktop or laptop computer and its applications.
+- I1.1.3.06 | System utility suite |  | Bundle of small system tools (window, file, keyboard and settings utilities) sold or distributed as one set, not as a cleaner.
+- I1.10.02 | AI answer and research engine |  | AI tool that answers questions or researches a topic with cited sources.
+- I1.10.03 | AI agent platform |  | AI tool that carries out multi-step tasks on the user's behalf.
+- I1.12.2.01 | Editor or IDE plug-in |  | Add-on that adds features to one code editor or development environment.
+- I1.12.3.01 | Productivity-suite add-in |  | Add-in that adds features to an office or workspace suite.
+- I1.12.5.01 | Paid feature unlock for built-in device software |  | Paid unlock or subscription that switches on a function of software built into one device.
+- I1.12.5.02 | Device companion app |  | App that records and shows the readings of one device and does nothing medical; the device's app ecosystem is a ledger row.
+- I1.1.1.03 | Game emulator |  | Program that imitates a game console's, arcade board's or home computer's hardware so that its games run on the owner's computer or phone.
+- I1.8.1.05 | Game engine |  | Program and framework for building video games, with rendering, physics, scripting and an editor (Unity, Unreal Engine, Godot).
+- I1.1.3.08 | Mod manager |  | Program that downloads, installs, orders and switches game mods in a game's files without being a game or a mod itself.
+- I1.11.04 | Download manager |  | Program that queues, accelerates, pauses and resumes file downloads over HTTP, FTP and similar protocols.
+- I1.1.3.07 | File manager |  | Program for browsing, copying, moving, renaming and organising files and folders, often in two panes.
+- I1.2.04 | Disk and file encryption software |  | Program that encrypts whole drives, partitions, containers or single files so they open only with a key or password.
+- I1.2.05 | Parental-control and content-filter software |  | Program or hosted filter that blocks or limits web content, apps and screen time for chosen users or devices.
+- I1.3.06 | OCR software |  | Program that turns scanned pages, images and image-only PDFs into editable, searchable text.
+- I1.4.1.10 | Desktop-publishing software |  | Program for laying out multi-page documents such as magazines, books and brochures from text and images for print or screen.
+- I1.3.07 | Input method editor |  | Program that converts keystrokes into the characters of a language such as Japanese or Chinese, with conversion dictionaries.
+- I1.9.05 | EDA and PCB design software |  | Program for drawing electronic schematics, laying out printed circuit boards and checking them for manufacture.
+- I1.3.08 | Word processor |  | Program for writing, editing and formatting text documents, sold or distributed on its own, not only inside an office suite.
+- I1.6.3.03 | Groupware |  | Program suite that shares schedules, workflows, bulletin boards and files among the staff of one organisation.
+- I1.4.3.04 | Singing voice synthesiser |  | Program that sings entered lyrics and melody with a synthetic or sampled voice (Vocaloid type).
+- I1.4.2.04 | 2D animation software |  | Program for drawing, rigging and timing two-dimensional animation, frame by frame or with cut-out puppets.
+- I1.4.3.03 | DJ software |  | Program for mixing and beat-matching music tracks live on two or more virtual decks, often with a controller.
+- I1.3.11 | Mind-mapping software |  | Program for laying out ideas as branching maps around a central topic.
+- I1.1.2.06 | Data-recovery software |  | Program that recovers deleted, lost or corrupted files from drives, memory cards and damaged partitions.
+- I1.6.3.02 | ERP software |  | Business-management suite that joins accounting, inventory, purchasing, sales and staff records in one system.
+- I1.7.04 | Machine-translation software |  | Program that translates text between languages automatically.
+- I1.7.05 | Computer-assisted translation tool |  | Program that helps a human translator with translation memories, term bases and segment-by-segment editing.
+- I1.8.1.06 | Web-design software |  | Program for designing and building websites visually or in code, then publishing them.
+- I1.7.06 | E-learning authoring tool |  | Program for building interactive courses, quizzes and slide lessons packaged for learning systems (SCORM).
+- I1.2.06 | Password-recovery software |  | Program that recovers or removes forgotten passwords of files, archives, accounts or devices.
+- I1.6.3.04 | Time-tracking software |  | Program that records time spent on tasks and projects for billing, payroll or review.
+- I1.4.2.05 | Compositing and visual-effects software |  | Program that layers, keys and tracks video and CG elements into finished shots.
+- I1.4.1.11 | Photogrammetry software |  | Program that builds 3D models or measured maps from sets of overlapping photographs.
+- I1.3.09 | Spreadsheet program |  | Program for entering, calculating and charting data in grids of cells, sold or distributed on its own.
+- I1.3.10 | Presentation program |  | Program for making slide presentations and showing them, sold or distributed on its own.
+- I1.1.2.07 | Partition manager |  | Program that creates, resizes, moves, merges and converts disk partitions.
+- I1.9.06 | Planetarium software |  | Program that shows the sky for a chosen place and time and simulates the motion of sky objects.
+- I1.7.03 | Typing tutor |  | Program that teaches touch typing with drills that test and correct the user's keystrokes.
+- I1.4.3.05 | Text-to-speech and AI voice generator |  | Program or hosted tool that turns written text into spoken audio with synthetic voices.
+- I1.5.03 | E-book reader app |  | Program that opens and shows e-book files (EPUB, MOBI and similar) and manages the owner's e-book library.
+- I1.8.2.04 | Web and application server |  | Program that serves websites or runs web applications for clients over a network.
+- I1.8.2.05 | Application and infrastructure monitoring software |  | Program or hosted tool that measures the performance, uptime and errors of running applications, servers and networks.
+- I1.1.1.04 | Compatibility layer |  | Program that runs another operating system's applications directly, without a virtual machine or emulated hardware.
+- I1.1.2.08 | PC-migration software |  | Program that moves installed applications, settings and files from one computer to another.
+- I1.8.1.07 | Software-modelling tool |  | Program for drawing and keeping UML or similar models of software systems, often generating code from them.
+- I1.9.07 | CAE and simulation software |  | Program that simulates stress, flow, heat or other physics on a design before it is built.
+- I1.4.1.12 | Diagramming software |  | Program for drawing flowcharts, org charts and network or floor diagrams from connected shapes.
+- I1.3.12 | Speech-recognition and dictation software |  | Program that turns the user's speech into typed text and voice commands.
+- I1.4.2.06 | Screenwriting software |  | Program that formats scripts for film, TV and stage and manages scenes and characters.
+- I1.5.04 | Show-control software |  | Program that plays audio, video and lighting cues in order for a live show.
+- I1.11.05 | Peer-to-peer file-sharing client |  | Program that shares and downloads files over Gnutella, eDonkey and similar networks other than BitTorrent.
+- I1.8.2.06 | Terminal emulator |  | Program that shows a text terminal for a local shell, serial line or dial-up connection.
+- I1.6.2.02 | Survey and form software |  | Program or hosted tool for building questionnaires and forms, collecting answers and reporting them.
+- I1.1.1.05 | Screen saver |  | Program that shows animation or images on an idle screen, sold or distributed as its own product.
+- I1.3.13 | Collection-cataloguing software |  | Program that catalogues the owner's books, media or other collections, often by barcode scan.
+- I1.6.2.03 | Digital-signage software |  | Program that schedules and plays content on public screens and displays.
+- I1.8.2.07 | Business-intelligence software |  | Program that joins data sources into dashboards, reports and visual analyses.
+- I1.6.3.05 | Workforce-management software |  | Program for scheduling staff shifts, recording attendance and planning labour.
+- I1.2.07 | Firewall software |  | Program that allows or blocks a computer's or phone's network connections by application, port or address, sold or distributed on its own rather than inside a security suite (a firewall appliance is D1).
+- I1.4.3.06 | Music notation software |  | Program for writing, engraving and playing back sheet music in standard notation.
+- I1.3.14 | Online whiteboard |  | Program or hosted tool giving a shared infinite canvas for sticky notes, sketches and workshops.

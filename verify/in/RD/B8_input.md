@@ -1,0 +1,176 @@
+# B8 Home Safety & Security: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: use or need (the hazard guarded against), then device type, then the rated grade
+- reason: Shops and guides open on the device type inside a hazard department (Testsieger Sicherheitstechnik lists padlocks, safes, alarms, extinguishers as peers; CHOICE smoke alarms by sensor type; Consumer Reports cameras by indoor/outdoor/floodlight/doorbell), and the grade is the next choice (Liberty Safe, Door Furniture Direct); the memo's hazard-first tree (B-9) matches.
+- ladder: What are you protecting against? (break-in and theft, fire and gas, injuries at home, pests, water leaks) > Which device? (lock, padlock, safe, alarm, camera, detector, extinguisher, gate, trap...) > Which rated grade do you need? (insurer or standard grade, fire class, certification), then fit
+- level1_groups: Break-in and theft; Fire, smoke and gas; Injuries at home (child, baby, older adult and pet safety as a user view); Pest control; Water leaks; Parts and refills
+- quality_markers: Locks, padlocks, safes and anchors: the third-party rated grade first (burglary rating: EN 1143-1, UL RSC I-III, TL-15/TL-30/TL-30x6; locks: TS 007 1-3 stars, BS 3621, Sold Secure Bronze > Silver > Gold > Diamond, CEN 1-6, ANSI/BHMA 3 > 2 > 1; VdS classes), then the specific attacks resisted (anti-snap, anti-pick, anti-drill, anti-bump), then the fire class if wanted (UL Class 350/150/125 with minutes; a fire safe is not a burglary safe), then fit (door type, cylinder length, bolting down); pick difficulty for enthusiasts (LPU belts). Smoke and CO alarms: sensor type (photoelectric preferred) and certification (AS 3786, EN 14604), sealed 10-year battery, interconnection, hush and test features. Cameras and doorbells: video quality day and night, alert speed, smart detection, data security and privacy (Consumer Reports), local against cloud storage. Extinguishers: fire class rating (13A, 34B). Child gates and guards: standard met (EN 1930, ASTM F1004), mount type for top of stairs. Pests: preference, by target pest and form (no grade)
+- quality_signals: Sold Secure Bronze-Diamond (Sold Secure; certification attribute); TS 007 stars and BS 3621 (BSI; attribute); CEN padlock grades 1-6 and EN 1143-1 grades 0-X (CEN; attribute); UL RSC, TL-15, TL-30, TL-30x6, UL Class 350/150/125, ETL Verified (UL, Intertek; attribute); VdS classes (VdS; attribute); ANSI/BHMA grades (BHMA; attribute); AS 3786 and ActivFire (Standards Australia, CSIRO; attribute); EN 14604 and BS 5839-6 grade (memo; attribute); Consumer Reports camera and doorbell ratings with Smart IQ (CR; class ii tier entry on named forms); LockPickers United belt ranking White > Black (LockWiki community; class iii tier entry on named forms); Testsieger.de aggregate score bands 70+/80+/90+ (a platform label, class vi, dated tag only). Most B8 grades are measured specs: attributes with the standard named, never tier entries (C4 c i); an 'insurer-approved' view orders them
+- maker_role: owner (confirmed): device type and grade lead, makers do not (Testsieger, CHOICE, Liberty Safe, Door Furniture Direct); high-security lock makers are an identity pocket
+- side_view: Two side views: 'High-security locks' by maker (ASSA, Abloy, Medeco, Mul-T-Lock; LockWiki belt lists name them), and camera and doorbell ecosystems (Ring, Nest, Eufy, Wyze) from C13 platform rows; 'Insurer-approved' and 'Baby and child safety' generated views (memo §7)
+- evidence_rows: Testsieger.de Sicherheitstechnik; CHOICE Australia smoke alarm guide; Liberty Safe (maker blog on UL and ETL ratings); Door Furniture Direct cylinder guide; Consumer Reports security cameras; LockWiki LPU belt ranking
+- maker role row: {'code': 'B8', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'devices are chosen by function; makers through models'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-B8-1 | Break-in and theft | 1 |  | 
+- G-B8-1-1 | Door locks | 2 | G-B8-1 | B8.1.1.1; B8.1.1.2; B8.1.1.3; B8.1.1.4; B8.1.1.5; B8.1.1.6; B8.1.1.7; B8.1.1.8; B8.1.1.9; B8.1.1.10; B8.1.1.12; B8.1.1.11; B8.1.1.13; B8.1.1.14
+- G-B8-1-2 | Window and door restraints | 2 | G-B8-1 | B8.1.2.1; B8.1.2.2; B8.1.2.3; B8.1.2.4
+- G-B8-1-3 | Padlocks, chains and anchors | 2 | G-B8-1 | B8.1.3.1; B8.1.3.2; B8.1.3.3; B8.1.3.4; B8.1.3.5; B8.1.3.6; B8.1.3.7
+- G-B8-1-4 | Safes and secure storage | 2 | G-B8-1 | B8.1.4.1; B8.1.4.2; B8.1.4.3; B8.1.4.4; B8.1.4.5; B8.1.4.6
+- G-B8-1-5 | Alarms and sensors | 2 | G-B8-1 | B8.1.5.1; B8.1.5.2; B8.1.5.3; B8.1.5.4
+- G-B8-1-6 | Cameras, doorbells and door entry | 2 | G-B8-1 | B8.1.6.1; B8.1.6.2; B8.1.6.3; B8.1.6.4; B8.1.6.5; B8.1.6.6; B8.1.6.7; B8.1.6.8
+- G-B8-1-7 | Mail and parcel boxes | 2 | G-B8-1 | B8.1.7.1; B8.1.7.2
+- G-B8-1-8 | Anti-climb and glazing protection | 2 | G-B8-1 | B8.1.8.1; B8.1.8.2
+- G-B8-2 | Fire, smoke and gas | 1 |  | 
+- G-B8-2-1 | Fire and gas alarms | 2 | G-B8-2 | B8.2.1.1; B8.2.1.2; B8.2.1.3; B8.2.1.4; B8.2.1.5
+- G-B8-2-2 | Fire suppression | 2 | G-B8-2 | B8.2.2.1; B8.2.2.2; B8.2.2.3; B8.2.2.4; B8.2.2.5; B8.2.2.6; B8.2.2.7; B8.2.2.8; B8.2.2.9
+- G-B8-3 | Injuries at home | 1 |  | 
+- G-B8-3-1 | Gates and barriers | 2 | G-B8-3 | B8.3.1.1; B8.3.1.2; B8.3.1.3
+- G-B8-3-2 | Latches and restraints | 2 | G-B8-3 | B8.3.2.1; B8.3.2.2; B8.3.2.3
+- G-B8-3-3 | Guards for edges, sockets and knobs | 2 | G-B8-3 | B8.3.3.1; B8.3.3.2; B8.3.3.3
+- G-B8-3-4 | Window and door guards | 2 | G-B8-3 | B8.3.4.1; B8.3.4.2
+- G-B8-3-5 | Room monitors | 2 | G-B8-3 | B8.3.5.1
+- G-B8-4 | Pest control | 1 |  | 
+- G-B8-4-1 | Rats, mice and small animals | 2 | G-B8-4 | B8.4.1.1; B8.4.1.3; B8.4.1.4; B8.4.2.1; B8.4.2.2; B8.4.1.5
+- G-B8-4-2 | Insects: traps, baits and sprays | 2 | G-B8-4 | B8.4.1.2; B8.4.2.3; B8.4.3.1; B8.4.3.2; B8.4.3.3; B8.4.3.4
+- G-B8-4-3 | Mosquitoes, flies and moths | 2 | G-B8-4 | B8.4.3.5; B8.4.3.6; B8.4.4.2; B8.4.5.1; B8.4.5.2; B8.4.6.1; B8.4.6.2; B8.4.6.5
+- G-B8-4-4 | Birds | 2 | G-B8-4 | B8.4.6.3; B8.4.6.4
+- G-B8-4-5 | Electronic repellers | 2 | G-B8-4 | B8.4.4.1; B8.4.4.3
+- G-B8-5 | Water leaks | 1 |  | 
+- G-B8-5-1 | Water-leak detectors | 2 | G-B8-5 | B8.5.1
+- G-B8-6 | Parts and refills | 1 |  | 
+- G-B8-6-1 | Camera and lock parts | 2 | G-B8-6 | B8.6.1; B8.6.6; B8.6.5
+- G-B8-6-2 | Pest-control refills and parts | 2 | G-B8-6 | B8.6.2; B8.6.3; B8.6.4
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-B8-1-1 | third-party rated grade | TS 007 3 stars > 1 star; BS 3621; Sold Secure Diamond > Gold > Silver > Bronze; ANSI/BHMA Grade 1 > 2 > 3; CEN 1-6; VdS classes | The rated grade comes first. | proposals.tsv B8 row (quality_markers); Door Furniture Direct cylinder guide; Testsieger.de Sicherheitstechnik
+- G-B8-1-1 | attacks resisted | anti-snap; anti-pick; anti-drill; anti-bump | After the grade. | proposals.tsv B8 row (quality_markers); Door Furniture Direct cylinder guide
+- G-B8-1-1 | fit | door type; cylinder length | Then fit. | proposals.tsv B8 row (quality_markers); Door Furniture Direct cylinder guide
+- G-B8-1-1 | pick difficulty (enthusiasts) | LPU belt ranking | Lock enthusiasts rank by picking difficulty. | proposals.tsv B8 row (quality_markers); LockWiki LPU belt ranking
+- G-B8-1-3 | third-party rated grade | Sold Secure Diamond > Gold > Silver > Bronze; CEN 1-6 | Padlocks, chains and anchors are bought by rated grade. | proposals.tsv B8 row (quality_markers); Testsieger.de Sicherheitstechnik
+- G-B8-1-3 | attacks resisted | anti-pick; anti-drill | After the grade. | proposals.tsv B8 row (quality_markers)
+- G-B8-1-3 | pick difficulty (enthusiasts) | LPU belt ranking | Enthusiast ranking. | proposals.tsv B8 row (quality_markers); LockWiki LPU belt ranking
+- G-B8-1-4 | burglary rating | EN 1143-1 grades; UL RSC I-III; TL-30x6 > TL-30 > TL-15 | Burglary rating first. | proposals.tsv B8 row (quality_markers); Liberty Safe (maker blog on UL and ETL ratings)
+- G-B8-1-4 | fire class (if wanted) | UL Class 350; 150; 125, with minutes (a fire safe is not a burglary safe) | Fire rating is separate from burglary rating. | proposals.tsv B8 row (quality_markers); Liberty Safe (maker blog on UL and ETL ratings)
+- G-B8-1-4 | fit | bolting down | Last. | proposals.tsv B8 row (quality_markers); Liberty Safe (maker blog on UL and ETL ratings)
+- G-B8-2-1 | sensor type | photoelectric preferred | Sensor type leads. | proposals.tsv B8 row (quality_markers); CHOICE Australia smoke alarm guide
+- G-B8-2-1 | certification | AS 3786; EN 14604 | Certified to the national standard. | proposals.tsv B8 row (quality_markers); CHOICE Australia smoke alarm guide
+- G-B8-2-1 | sealed 10-year battery |  | Battery life. | proposals.tsv B8 row (quality_markers); CHOICE Australia smoke alarm guide
+- G-B8-2-1 | interconnection |  | Linked alarms. | proposals.tsv B8 row (quality_markers); CHOICE Australia smoke alarm guide
+- G-B8-2-1 | hush and test features |  | Last. | proposals.tsv B8 row (quality_markers); CHOICE Australia smoke alarm guide
+- G-B8-1-6 | video quality day and night |  | Consumer Reports order for cameras and doorbells. | proposals.tsv B8 row (quality_markers); Consumer Reports security cameras
+- G-B8-1-6 | alert speed |  | Consumer Reports order for cameras and doorbells. | proposals.tsv B8 row (quality_markers); Consumer Reports security cameras
+- G-B8-1-6 | smart detection |  | Consumer Reports order for cameras and doorbells. | proposals.tsv B8 row (quality_markers); Consumer Reports security cameras
+- G-B8-1-6 | data security and privacy |  | Consumer Reports order for cameras and doorbells. | proposals.tsv B8 row (quality_markers); Consumer Reports security cameras
+- G-B8-1-6 | local against cloud storage | local; cloud (a choice) | Consumer Reports order for cameras and doorbells. | proposals.tsv B8 row (quality_markers); Consumer Reports security cameras
+- G-B8-2-2 | fire class rating | e.g. 13A, 34B | Extinguishers are rated by fire class. | proposals.tsv B8 row (quality_markers)
+- G-B8-3-1 | standard met | EN 1930; ASTM F1004 | Child gates first by standard. | proposals.tsv B8 row (quality_markers)
+- G-B8-3-1 | mount type for top of stairs | hardware-mounted for the top of stairs | Then mounting. | proposals.tsv B8 row (quality_markers)
+- G-B8-4 | target pest and form | preference (no grade) | Pest control has no grade ladder. | proposals.tsv B8 row (quality_markers)
+
+## Kinds (kind_id | stored name | native name | definition)
+- B8.2.1.1 | Smoke alarm |  | a ceiling alarm that senses smoke and sounds.
+- B8.2.1.2 | Heat alarm |  | an alarm that senses a rise in temperature and sounds, for kitchens and garages.
+- B8.2.1.3 | CO alarm |  | an alarm that senses carbon monoxide gas.
+- B8.2.1.4 | Combined smoke and CO alarm |  | one alarm unit that senses both smoke and carbon monoxide.
+- B8.2.1.5 | Gas detector |  | a detector for natural gas or LPG leaks.
+- B8.2.2.1 | Water extinguisher |  | a portable extinguisher discharging water.
+- B8.2.2.2 | Water-mist extinguisher |  | a portable extinguisher discharging a fine water mist.
+- B8.2.2.3 | Foam extinguisher |  | a portable extinguisher discharging foam.
+- B8.2.2.4 | CO2 extinguisher |  | a portable extinguisher discharging carbon dioxide gas.
+- B8.2.2.5 | Dry-powder extinguisher |  | a portable extinguisher discharging dry powder.
+- B8.2.2.6 | Wet-chemical extinguisher |  | a portable extinguisher discharging wet chemical, for cooking-oil fires.
+- B8.2.2.7 | Extinguisher spray |  | a small aerosol-can fire-extinguishing spray.
+- B8.2.2.8 | Fire blanket |  | a fabric sheet in a pouch that is pulled out to smother a small fire.
+- B8.3.1.1 | Hardware-mounted gate |  | a gate screwed to the wall or frame, usable at the top of stairs.
+- B8.3.1.2 | Pressure-mounted gate |  | a gate held in an opening by pressure alone, with no screws.
+- B8.3.1.3 | Retractable gate |  | a gate whose panel retracts into a housing at the side of the opening.
+- B8.3.2.1 | Cabinet and drawer latch |  | a latch or catch that keeps a cabinet door or drawer from being opened.
+- B8.3.2.2 | Toilet lock |  | a catch that holds a toilet lid down.
+- B8.3.2.3 | Furniture anti-tip strap |  | a strap or bracket that fixes furniture or a television to a wall.
+- B8.3.3.1 | Corner and edge guard |  | a soft cushion fitted on furniture corners or edges.
+- B8.3.3.2 | Outlet cover |  | a cover or plug that blocks the holes of a wall socket.
+- B8.3.3.3 | Stove knob cover |  | a cover over the control knobs of a cooker.
+- B8.3.4.1 | Window guard |  | a bar, grille or restrictor that stops a window opening wide enough for a fall.
+- B8.3.4.2 | Door stop |  | a wedge, spring or holder that holds a door open or keeps it from slamming or being pushed.
+- B8.3.5.1 | Video room monitor (baby monitor) |  | a camera and receiver or app for watching and hearing a baby or person in another room.
+- B8.4.1.1 | Snap trap |  | a spring-loaded trap that kills a mouse or rat.
+- B8.4.1.2 | Insect trap |  | a sticky, baited or light trap that catches insects.
+- B8.4.1.3 | Live-catch cage trap |  | a cage trap that catches an animal alive.
+- B8.4.2.1 | Rodenticide bait |  | poison bait for mice and rats.
+- B8.4.2.2 | Bait station |  | a box or tray that holds bait so that only the pest can reach it.
+- B8.4.2.3 | Insect bait |  | a gel, paste or granule bait for ants, cockroaches or similar.
+- B8.4.3.1 | Aerosol insecticide |  | an insecticide sold in a spray can.
+- B8.4.3.2 | Insecticide foam |  | an insecticide that is applied as foam.
+- B8.4.3.3 | Insecticide powder |  | an insecticide dust.
+- B8.4.3.4 | Fogger |  | a can that releases insecticide as a fog to fill a room.
+- B8.4.3.5 | Mosquito coil |  | a burning spiral that gives off insecticidal smoke.
+- B8.4.3.6 | Electric vaporiser |  | a powered unit, plug-in or battery, that releases insecticide into room air from a liquid, mat or cartridge refill, by a heater or by a fan without heat; sold to kill or to repel.
+- B8.4.4.1 | Pest repeller (electronic) |  | a powered device that drives pests away by ultrasound or similar signals alone, with no insecticide or chemical refill.
+- B8.4.4.2 | Moth repellent |  | mothballs, cedar blocks or sachets that keep moths away.
+- B8.4.5.1 | Electric fly killer |  | a lamp-and-grid or racket device that electrocutes insects.
+- B8.4.5.2 | Fly swatter |  | a hand-held paddle for killing insects.
+- B8.4.6.1 | Bed mosquito net |  | a net hung over a bed to keep insects off the sleeper.
+- B8.4.6.2 | Insect screen |  | a mesh screen fitted to a window or door opening.
+- B8.4.6.3 | Bird spike |  | spikes fitted on ledges to stop birds perching.
+- B8.4.6.4 | Bird netting for buildings |  | netting and bird-proofing nets that keep birds out of buildings and structures.
+- B8.5.1 | Water-leak detector |  | a sensor that detects water on the floor or in a pipe run and warns.
+- B8.6.1 | Network video recorder |  | a recorder made to store the video of security cameras.
+- B8.6.2 | Coil holder |  | a stand made to hold one mosquito coil.
+- B8.6.3 | Vaporiser refill |  | a bottle, mat or cartridge of insecticide made to be used only in one maker's electric vaporiser units (one model or one range).
+- B8.1.1.1 | Night latch |  | a rim-mounted latch lock on the inside face of a door, with a latch bolt and a key cylinder or snib.
+- B8.1.1.2 | Rim lock |  | a box lock fixed to the surface of the door, with a bolt that shoots into a staple or keep.
+- B8.1.1.3 | Euro cylinder |  | a profile cylinder (the key-operated barrel) that fits a euro-profile mortice lock case.
+- B8.1.1.4 | Mortice deadlock |  | a lock case sunk into the door edge whose bolt is thrown by key only and does not spring back.
+- B8.1.1.5 | Mortice sashlock |  | a lock case sunk into the door edge with both a spring latch and a key-thrown deadbolt.
+- B8.1.1.6 | Deadbolt |  | a stand-alone bolt lock (single or double cylinder, or thumb-turn) fitted through the door with a throw bolt.
+- B8.1.1.7 | Knob or lever lockset |  | a handle set (knob or lever) that includes a lock, fitted through the door.
+- B8.1.1.8 | Multipoint lock |  | a door lock that throws bolts or hooks into the frame at several points along the door edge.
+- B8.1.1.9 | Patio door lock |  | a lock made for a sliding or French (patio) door.
+- B8.1.2.1 | Door bolt |  | a sliding bolt fixed to a door to hold it shut.
+- B8.1.2.2 | Door chain |  | a short chain that limits how far a door can open.
+- B8.1.2.3 | Window lock |  | a lock or catch fixed to a window or sash to stop it opening, lockable window handles included.
+- B8.1.3.1 | Open-shackle padlock |  | a padlock whose shackle is largely exposed above the body.
+- B8.1.3.2 | Closed-shackle padlock |  | a padlock whose body shrouds most of the shackle to resist cutting.
+- B8.1.3.3 | Hasp and staple |  | a hinged strap and eye fixed to a door and frame, through which a padlock is passed.
+- B8.1.3.4 | Security chain |  | a heavy hardened chain made to secure gates, sheds or loose items with a padlock.
+- B8.1.3.5 | Cable lock |  | a flexible steel cable with a lock, used to secure loose items.
+- B8.1.3.6 | Ground anchor |  | a heavy anchor fixed in a floor or wall that an item is chained or locked to.
+- B8.1.4.1 | Safe [金庫] |  | a steel strongbox with a lock, built to resist forced entry (and often fire), in any installation (freestanding, wall, floor, furniture) and any grade.
+- B8.1.4.2 | Fire-resistant safe, document box or chest |  | a container rated against fire only, cabinet or portable lid-opening chest, made to protect papers and media from fire.
+- B8.1.4.3 | Key safe (outdoor key box) [キーボックス] |  | a small lockable box, often wall-mounted outdoors, holding a door key.
+- B8.1.4.4 | Key cabinet |  | a lockable cabinet fitted with hooks for many keys, sold among security goods.
+- B8.1.4.5 | Cash box |  | a small portable lockable box for money.
+- B8.1.4.6 | Firearms cabinet or gun safe [Waffenschrank] |  | a lockable steel cabinet or safe made to store guns.
+- B8.1.5.1 | Intruder alarm system |  | a kit of control panel, sensors and sounder sold and compared as one burglar-alarm system (provisional until attested, K-1).
+- B8.1.5.2 | Motion sensor |  | a detector that senses movement in a room and signals or sounds.
+- B8.1.5.3 | Door and window contact alarm |  | a magnetic contact that sounds or signals when a door or window opens.
+- B8.1.5.4 | Personal attack alarm |  | a hand-held device that makes a loud noise to deter an attacker.
+- B8.1.6.1 | Security camera |  | a fixed camera made to watch and record a place for protection.
+- B8.1.6.2 | Pan-tilt security camera |  | a security camera with a motor that turns and tilts it.
+- B8.1.6.3 | Floodlight camera |  | a security camera built into a floodlight.
+- B8.1.6.4 | Video doorbell |  | a doorbell with a camera that shows and records the caller.
+- B8.1.6.5 | Doorbell and chime |  | a push button with a sounder that announces a caller, without a camera.
+- B8.1.6.6 | Door phone |  | an entry panel with speaker (and screen) linked to an indoor unit for speaking to a caller.
+- B8.1.6.7 | Camera system kit |  | a set of cameras and recorder sold and compared as one system (provisional until attested, K-1).
+- B8.1.7.1 | Letterbox |  | a freestanding, wall or post mailbox for letters.
+- B8.1.7.2 | Parcel box |  | a larger lockable box for receiving deliveries.
+- B8.1.8.1 | Anti-climb spike [忍び返し] |  | spikes fixed on top of a wall or fence to deter climbing.
+- B8.1.8.2 | Security window film |  | a clear film applied to glass to hold it together when struck.
+- B8.1.1.10 | Rim cylinder |  | A key cylinder fixed through the door from outside to work a night latch or rim lock, sold apart from the lock.
+- B8.1.1.12 | Gate lock |  | A lock made to fit a garden or yard gate, surface-mounted or set into the gate profile, with a latch or bolt.
+- B8.4.1.4 | Rodent glue trap |  | A sticky board or tray that holds a mouse or rat that steps on it.
+- B8.2.2.9 | Lithium-battery extinguisher |  | A portable extinguisher with an agent made for lithium-battery fires, such as aqueous vermiculite dispersion.
+- B8.6.4 | Bait station key |  | A key made to open one maker's tamper-resistant bait stations.
+- B8.6.6 | Multipoint lock gearbox |  | A replacement centre case (gearbox) made for one maker's multipoint door locks.
+- B8.1.1.11 | Mortice latch |  | A latch case sunk into the door edge with a spring latch worked by handles, with no key-thrown bolt.
+- B8.1.1.13 | Cabinet or cam lock |  | A small keyed lock fitted to a cupboard door, drawer, locker or mailbox, turning a cam or bolt.
+- B8.1.1.14 | Shutter or garage door lock |  | A lock made for a roller shutter or up-and-over garage door, such as a bullet lock or shutter lock.
+- B8.1.2.4 | Garage door defender |  | A lockable steel bar or post fixed in the ground in front of a garage door to stop it being opened.
+- B8.1.3.7 | Locking bar |  | A steel bar fixed across a door or gate and secured with one or more padlocks.
+- B8.1.6.8 | Door viewer |  | A lens fitted through a door so that a caller can be seen from inside without opening it.
+- B8.4.1.5 | Electronic rodent trap |  | A battery-powered box trap that kills a mouse or rat by electric shock.
+- B8.4.4.3 | Chemical pest repellent |  | Granules, sachets or a spray of a repellent substance set around a home to keep rodents or other pests away, not applied to the skin.
+- B8.4.6.5 | Ledge bird deterrent |  | A strip, wire coil, slope, gel dish or low-voltage track fixed on ledges and roofs to stop birds landing, other than spikes.
+- B8.6.5 | Bait applicator gun |  | A plunger gun made to dispense one maker's gel-bait cartridges or syringes.

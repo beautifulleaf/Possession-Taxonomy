@@ -1,0 +1,202 @@
+# C3 Plants & Living Cultures: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (the plant group as plant shops group it), with place and light as the first filter
+- reason: Shops and growers open on what is sold and its group (houseplants, rare plants, grow-outdoors and grow-indoors mushrooms: PLNTS, North Spore), shoppers then match spot and light (Sunset, PLNTS filters), and collectors and the RHS AGM work at genus and cultivar (Thursd, RHS AGM); place and light are tags and filters, never a level (C-3).
+- ladder: What are you growing? (houseplants, garden plants, food to grow, bonsai, seeds and bulbs, cut flowers, cultures) > Which group? (orchids, succulents, tropical foliage, shrubs...) > Which plant and which named form is best? (genus or crop, then cultivar with AGM, hardiness and fit to your light)
+- level1_groups: Houseplants & collector plants (C3.1 leaves 1 orchids, 2 carnivorous, 4 cacti and succulents, 8 tropical foliage); Bonsai (leaf 3); Garden plants (leaves 5 aquatic, 9 trees, 10 shrubs and climbers, 11 perennials and grasses, 12 annuals and bedding); Grow your own food (leaves 6 fruit and nut, 7 vegetable and herb plants); Seeds, bulbs & cuttings (C3.2); Cut flowers & Christmas trees (C3.3); Mushrooms & living cultures (C3.4)
+- quality_markers: Named form: proven garden or room performance (RHS AGM: strong performer in suitable conditions); health and pest and disease resistance; true to type, consistent colour and form (stable variegation for collector aroids); hardiness rating matched to the site; light and humidity match. Collector plants: variegation stability, leaf colour and texture, scarcity (Thursd). Fruit: variety, then rootstock and tree form (memo). Seeds: seed type and trial awards. Buying checklist shown on the page but never stored per plant (C16): no brown, yellow or droopy leaves, no gnats or mould, buds over open blooms (Sunset).
+- quality_signals: RHS Award of Garden Merit, trial or roundtable, ratified by expert group, rolling review (class iii; RHS); RHS hardiness rating (attribute; RHS); AOS flower awards HCC / AM / FCC (class iii; memo); All-America Selections winner badge (class iii; provisional, AAS judging not fetched); plant patent, PVP and breeders' rights (C17 jurisdiction rows, not tiers); skill level easy to expert (level scheme; North Spore, PLNTS); shop seals and review ratings are shop trust, not object quality (Trusted Shops; not stored as tiers)
+- maker_role: none (confirmed): plants are chosen by group, genus and cultivar; breeders, registrants and seed houses enter only through registered or protected named forms and seller-owned selection lines
+- side_view: 'Find a plant for your spot' finder over place, light, care and pet-safety tags; collector tab by genus with variegated and rare named forms; an AGM plants tab
+- evidence_rows: RHS Award of Garden Merit; Sunset houseplant buying guide; Trusted Shops Germany houseplant shop directory; PLNTS (Netherlands) rare houseplants; North Spore (mushroom spawn and kits); Thursd rare aroid article
+- maker role row: {'code': 'C3', 'scope': '*', 'role': 'none', 'provisional': 'yes', 'reason': 'plants are chosen by species and cultivar; a breeder enters only through a protected cultivar'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-C3-1 | Houseplants & collector plants | 1 |  | C3.1.1; C3.1.2; C3.1.4; C3.1.8; C3.1.11
+- G-C3-101 | Orchids | 2 | G-C3-1 | C3.1.1.01; C3.1.1.02; C3.1.1.03; C3.1.1.04
+- G-C3-102 | Carnivorous plants | 2 | G-C3-1 | C3.1.2.01; C3.1.2.02; C3.1.2.03; C3.1.2.04; C3.1.2.05
+- G-C3-103 | Cacti & succulents | 2 | G-C3-1 | C3.1.4.01; C3.1.4.02; C3.1.4.03; C3.1.4.04; C3.1.4.05; C3.1.4.06; C3.1.4.07; C3.1.4.08; C3.1.4.09; C3.1.4.10; C3.1.4.11; C3.1.4.12; C3.1.4.13; C3.1.4.14; C3.1.4.15; C3.1.4.16; C3.1.4.17; C3.1.4.18; C3.1.4.19
+- G-C3-104 | Tropical foliage & collector aroids | 2 | G-C3-1 | C3.1.8.01; C3.1.8.02; C3.1.8.03; C3.1.8.04; C3.1.8.05; C3.1.8.06; C3.1.8.07; C3.1.8.08; C3.1.8.09; C3.1.8.10; C3.1.8.11; C3.1.8.12; C3.1.8.13; C3.1.8.14; C3.1.8.15; C3.1.8.16; C3.1.8.17; C3.1.8.18; C3.1.8.19; C3.1.8.20; C3.1.8.21; C3.1.8.22; C3.1.8.23; C3.1.8.24; C3.1.8.25; C3.1.8.26; C3.1.8.27; C3.1.8.28; C3.1.8.29; C3.1.8.30
+- G-C3-105 | Small foliage houseplants | 2 | G-C3-1 | C3.1.11.06; C3.1.11.07; C3.1.11.08; C3.1.11.09
+- G-C3-2 | Bonsai | 1 |  | C3.1.3
+- G-C3-106 | Bonsai trees | 2 | G-C3-2 | C3.1.3.01; C3.1.3.02; C3.1.3.03; C3.1.3.04
+- G-C3-3 | Garden plants | 1 |  | C3.1.5; C3.1.9; C3.1.10; C3.1.11; C3.1.12
+- G-C3-107 | Trees | 2 | G-C3-3 | C3.1.9.01; C3.1.9.02
+- G-C3-108 | Shrubs & climbers | 2 | G-C3-3 | C3.1.10.01; C3.1.10.02; C3.1.10.03; C3.1.10.04; C3.1.10.05
+- G-C3-109 | Perennials, grasses, turf & moss | 2 | G-C3-3 | C3.1.11.01; C3.1.11.02; C3.1.11.03; C3.1.11.04; C3.1.11.05
+- G-C3-110 | Annuals & bedding | 2 | G-C3-3 | C3.1.12.01; C3.1.12.02; C3.1.12.03
+- G-C3-111 | Pond & bog plants | 2 | G-C3-3 | C3.1.5.01; C3.1.5.02
+- G-C3-4 | Grow your own food | 1 |  | C3.1.6; C3.1.7
+- G-C3-112 | Fruit & nut plants | 2 | G-C3-4 | C3.1.6.01; C3.1.6.02; C3.1.6.03; C3.1.6.04; C3.1.6.05; C3.1.6.06; C3.1.6.07; C3.1.6.08; C3.1.6.09; C3.1.6.10; C3.1.6.11; C3.1.6.12; C3.1.6.13; C3.1.6.14; C3.1.6.15; C3.1.6.16; C3.1.6.17; C3.1.6.18; C3.1.6.19; C3.1.6.20; C3.1.6.21
+- G-C3-113 | Vegetable & herb plants | 2 | G-C3-4 | C3.1.7.01; C3.1.7.02; C3.1.7.03
+- G-C3-5 | Seeds, bulbs & cuttings | 1 |  | C3.2.1; C3.2.2; C3.2.3
+- G-C3-114 | Seeds | 2 | G-C3-5 | C3.2.1.01; C3.2.1.02; C3.2.1.03
+- G-C3-115 | Bulbs, corms & tubers | 2 | G-C3-5 | C3.2.2.01; C3.2.2.02; C3.2.2.03; C3.2.2.04; C3.2.2.05; C3.2.2.06; C3.2.2.07
+- G-C3-116 | Cuttings & divisions | 2 | G-C3-5 | C3.2.3.01
+- G-C3-6 | Cut flowers & Christmas trees | 1 |  | C3.3.1; C3.3.2; C3.3.3
+- G-C3-117 | Cut flowers | 2 | G-C3-6 | C3.3.1.01; C3.3.1.02; C3.3.1.03
+- G-C3-118 | Christmas trees | 2 | G-C3-6 | C3.3.2.01; C3.3.2.02; C3.3.2.03; C3.3.2.04; C3.3.2.05
+- G-C3-119 | Wreaths, foliage & bouquets | 2 | G-C3-6 | C3.3.3.01; C3.3.3.02
+- G-C3-7 | Mushrooms & living cultures | 1 |  | C3.4.1; C3.4.2; C3.4.3; C3.4.4
+- G-C3-120 | Mushroom spawn & grow kits | 2 | G-C3-7 | C3.4.1.01; C3.4.1.02
+- G-C3-121 | Ferment cultures | 2 | G-C3-7 | C3.4.2.01; C3.4.2.02; C3.4.2.03; C3.4.2.04
+- G-C3-122 | Yeast & brewing cultures | 2 | G-C3-7 | C3.4.3.01; C3.4.3.02
+- G-C3-123 | Algae cultures | 2 | G-C3-7 | C3.4.4.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-C3-3 | proven garden performance | RHS AGM > no award | AGM marks a strong performer in suitable conditions. | proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit
+- G-C3-3 | health and pest and disease resistance |  | Second in the proposals order. | proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit; Sunset houseplant buying guide
+- G-C3-3 | true to type, consistent colour and form |  | A named form must look as named. | proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit
+- G-C3-3 | hardiness rating matched to the site |  | Matched to the site, not a ladder. | proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit
+- G-C3-1 | proven room performance | RHS AGM > no award | Proposals row: proven garden or room performance. | proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit
+- G-C3-1 | health and pest and disease resistance |  | No gnats, mould or yellowing at purchase. | proposals.tsv C3 row (quality_markers); Sunset houseplant buying guide
+- G-C3-1 | true to type, consistent colour and form |  | Stable variegation for collector aroids. | proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit; Thursd rare aroid article
+- G-C3-1 | light and humidity match |  | Place and light are the first filter for houseplants. | proposals.tsv C3 row (quality_markers); Sunset houseplant buying guide
+- G-C3-1 | condition at purchase (page checklist, never stored per plant, C16) |  | No brown, yellow or droopy leaves, no gnats or mould, buds over open blooms. | proposals.tsv C3 row (quality_markers); Sunset houseplant buying guide
+- G-C3-104 | variegation stability | stable > unstable | Collector plants are priced on it. | proposals.tsv C3 row (quality_markers); Thursd rare aroid article; PLNTS (Netherlands) rare houseplants
+- G-C3-104 | leaf colour and texture |  | Next after variegation for collector aroids. | proposals.tsv C3 row (quality_markers); Thursd rare aroid article
+- G-C3-104 | scarcity |  | Weighed last for collector plants. | proposals.tsv C3 row (quality_markers); Thursd rare aroid article; PLNTS (Netherlands) rare houseplants
+- G-C3-112 | variety |  | Fruit is chosen by variety first (memo). | proposals.tsv C3 row (quality_markers); C3 memo
+- G-C3-112 | rootstock and tree form |  | After variety (memo). | proposals.tsv C3 row (quality_markers); C3 memo
+- G-C3-114 | seed type |  | Seeds are chosen by type (memo). | proposals.tsv C3 row (quality_markers); C3 memo
+- G-C3-114 | trial awards | award > no award | Trial awards mark the proven forms (memo). | proposals.tsv C3 row (quality_markers); C3 memo
+
+## Kinds (kind_id | stored name | native name | definition)
+- C3.1.1.01 | Phalaenopsis | kochoran, 胡蝶蘭 | living moth orchid of the genus Phalaenopsis, the canonical orchid kind.
+- C3.1.1.02 | Cattleya |  | living orchid of the genus Cattleya.
+- C3.1.1.03 | Paphiopedilum (slipper orchid) |  | living slipper orchid of the genus Paphiopedilum.
+- C3.1.1.04 | Cymbidium |  | living orchid of the genus Cymbidium.
+- C3.1.2.01 | Dionaea (Venus flytrap) |  | living Venus flytrap, genus Dionaea.
+- C3.1.2.02 | Nepenthes |  | living tropical pitcher plant of the genus Nepenthes (genus heading until its species kinds are attested).
+- C3.1.2.03 | Sarracenia |  | living North American pitcher plant of the genus Sarracenia (genus heading until its species kinds are attested).
+- C3.1.3.01 | Juniper bonsai |  | living juniper trained and sold as a bonsai.
+- C3.1.3.02 | Pine bonsai |  | living pine trained and sold as a bonsai.
+- C3.1.3.03 | Tropical bonsai |  | living tropical tree or shrub (Ficus, jade and others) trained and sold as a bonsai, usually kept indoors.
+- C3.1.4.01 | Echeveria |  | living rosette succulent of the genus Echeveria.
+- C3.1.4.02 | Haworthia |  | living succulent of the genus Haworthia.
+- C3.1.4.03 | Sempervivum |  | living hardy rosette succulent (houseleek, hens and chicks) of the genus Sempervivum.
+- C3.1.4.04 | Lithops |  | living stone-like succulent (living stones) of the genus Lithops.
+- C3.1.4.05 | Aloe |  | living succulent of the genus Aloe.
+- C3.1.4.06 | Mammillaria |  | living cactus of the genus Mammillaria.
+- C3.1.6.01 | Apple tree |  | living apple tree (Malus) grown for fruit.
+- C3.1.6.02 | Citrus tree |  | living citrus tree or bush (lemon, orange, lime and others) grown for fruit, compact ones kept as houseplants included.
+- C3.1.6.03 | Fig tree |  | living fig tree (Ficus carica) grown for fruit.
+- C3.1.6.04 | Blueberry bush |  | living blueberry bush grown for fruit.
+- C3.1.6.05 | Strawberry plant |  | living strawberry plant grown for fruit.
+- C3.1.7.01 | Basil plant |  | living basil plant sold growing in a pot or tray, also when sold to eat.
+- C3.1.8.01 | Monstera deliciosa |  | living Swiss cheese plant, species Monstera deliciosa.
+- C3.1.8.02 | Philodendron gloriosum |  | living Philodendron of the species P. gloriosum.
+- C3.1.8.03 | Anthurium clarinervium |  | living Anthurium of the species A. clarinervium.
+- C3.1.8.04 | Alocasia reginula |  | living Alocasia of the species A. reginula.
+- C3.1.8.05 | Epipremnum |  | living climbing aroid of the genus Epipremnum (pothos, E. aureum, as a named form).
+- C3.1.8.06 | Dracaena |  | living plant of the genus Dracaena (snake plant, D. trifasciata, formerly Sansevieria, as a named form).
+- C3.1.8.07 | Ficus elastica |  | living rubber plant, species Ficus elastica.
+- C3.1.8.08 | Tillandsia (air plant) |  | living epiphytic bromeliad of the genus Tillandsia, grown without soil; species are named forms.
+- C3.1.9.01 | Japanese maple |  | living Japanese maple tree (Acer palmatum and allies).
+- C3.1.9.02 | Flowering cherry |  | living ornamental cherry tree (Prunus) grown for its flowers.
+- C3.1.10.01 | Rose (Rosa) |  | living rose plant, bare-root or potted, of any class (hybrid tea, floribunda, climbing, shrub, miniature).
+- C3.1.10.02 | Hydrangea |  | living shrub of the genus Hydrangea.
+- C3.1.10.03 | Camellia |  | living shrub of the genus Camellia.
+- C3.1.10.04 | Clematis |  | living climber of the genus Clematis.
+- C3.1.10.05 | Lavender |  | living lavender plant (Lavandula).
+- C3.1.11.01 | Hosta |  | living herbaceous perennial of the genus Hosta.
+- C3.1.11.02 | Peony |  | living peony plant (Paeonia), herbaceous or tree peony.
+- C3.1.11.03 | Bamboo |  | living bamboo plant, any genus.
+- C3.1.11.04 | Turf (cultivated sod) |  | living grass sold as rolls or slabs of cultivated sod to lay as a lawn.
+- C3.1.11.05 | Moss (live) |  | living moss sold to grow, as sheets, cushions or moss balls.
+- C3.1.12.01 | Petunia |  | living bedding plant of the genus Petunia.
+- C3.1.12.02 | Cannabis plant |  | living cannabis plant (Cannabis) sold to grow; cultivars in the shared variety table.
+- C3.1.12.03 | Nicotiana (tobacco plant) |  | living tobacco or flowering tobacco plant of the genus Nicotiana.
+- C3.2.1.01 | Tomato seed |  | seed of tomato sold for growing.
+- C3.2.1.02 | Zinnia seed |  | seed of zinnia sold for growing.
+- C3.2.1.03 | Daikon radish seed |  | seed of daikon radish sold for growing.
+- C3.2.2.01 | Tulip bulb |  | dormant tulip bulb sold for planting.
+- C3.2.2.02 | Daffodil bulb |  | dormant Narcissus bulb sold for planting; the RHS division is an attribute.
+- C3.2.2.03 | Seed potato |  | potato tuber sold for planting, not for eating.
+- C3.2.3.01 | Succulent cutting |  | unrooted cutting or offset of a succulent sold for rooting.
+- C3.3.1.01 | Cut rose |  | fresh-cut rose stems, singly or as a bouquet.
+- C3.3.1.02 | Cut chrysanthemum |  | fresh-cut chrysanthemum stems.
+- C3.3.1.03 | Cut lily |  | fresh-cut lily stems.
+- C3.3.2.01 | Nordmann fir |  | fresh-cut or pot-grown Nordmann fir sold as a Christmas tree.
+- C3.3.2.02 | Fraser fir |  | fresh-cut or pot-grown Fraser fir sold as a Christmas tree.
+- C3.3.3.01 | Fresh wreath |  | wreath made of fresh-cut living foliage.
+- C3.4.1.01 | Mushroom spawn |  | living mushroom mycelium on a carrier (plug, sawdust, grain, liquid culture) sold to inoculate a substrate.
+- C3.4.1.02 | Mushroom grow kit |  | inoculated log, block or bag of substrate sold to fruit mushrooms at home; `species` and `substrate` are attributes.
+- C3.4.2.01 | Sourdough starter |  | living culture of wild yeast and lactic bacteria kept to leaven bread.
+- C3.4.2.02 | Kombucha SCOBY |  | living culture of bacteria and yeast kept to ferment sweet tea into kombucha.
+- C3.4.2.03 | Water kefir grains |  | living culture grains kept to ferment sugar water.
+- C3.4.2.04 | Milk kefir grains |  | living culture grains kept to ferment milk into kefir.
+- C3.4.3.01 | Beer yeast culture |  | living liquid or slant yeast culture kept to propagate and ferment beer; dried yeast sachets are J5.
+- C3.4.3.02 | Wine yeast culture |  | living liquid or slant yeast culture kept to propagate and ferment wine; dried yeast sachets are J5.
+- C3.4.4.01 | Algae culture |  | living algae culture kept to grow or propagate.
+- C3.1.8.09 | Hoya carnosa [wax plant] |  | living wax plant, species Hoya carnosa; cultivars (Krimson Queen, Compacta) are named forms.
+- C3.1.2.04 | Drosera (sundew) |  | living sundew of the genus Drosera; species and cultivars are named forms.
+- C3.1.2.05 | Pinguicula (butterwort) |  | living butterwort of the genus Pinguicula; species and cultivars are named forms.
+- C3.1.4.07 | Aeonium |  | living rosette succulent of the genus Aeonium.
+- C3.1.4.08 | Agave |  | living succulent of the genus Agave.
+- C3.1.4.09 | Crassula |  | living succulent of the genus Crassula (jade plant, C. ovata, as a named form).
+- C3.1.4.10 | Kalanchoe |  | living succulent of the genus Kalanchoe, flowering kinds included.
+- C3.1.4.11 | Graptopetalum |  | living rosette succulent of the genus Graptopetalum.
+- C3.1.4.12 | Sedum |  | living succulent of the genus Sedum (stonecrop), hardy and tender.
+- C3.1.4.13 | Gasteria |  | living succulent of the genus Gasteria.
+- C3.1.4.14 | Euphorbia (succulent) |  | living succulent or cactus-like spurge of the genus Euphorbia (E. trigona, E. milii).
+- C3.1.4.15 | Astrophytum |  | living cactus of the genus Astrophytum.
+- C3.1.4.16 | Echinopsis |  | living cactus of the genus Echinopsis.
+- C3.1.4.17 | Gymnocalycium |  | living cactus of the genus Gymnocalycium.
+- C3.1.4.18 | Opuntia |  | living prickly-pear cactus of the genus Opuntia.
+- C3.1.4.19 | Rhipsalis |  | living epiphytic cactus of the genus Rhipsalis (mistletoe cactus).
+- C3.1.8.10 | Calathea [Goeppertia] |  | living prayer plant of the genus Calathea (most now Goeppertia), Marantaceae.
+- C3.1.8.11 | Aglaonema |  | living Chinese evergreen, genus Aglaonema (Araceae).
+- C3.1.8.12 | Dieffenbachia |  | living dumb cane, genus Dieffenbachia (Araceae).
+- C3.1.8.13 | Syngonium |  | living arrowhead vine, genus Syngonium (Araceae).
+- C3.1.11.06 | Peperomia |  | living herbaceous plant of the genus Peperomia (Piperaceae), sold as a houseplant.
+- C3.1.11.07 | Pilea |  | living herbaceous plant of the genus Pilea (Chinese money plant, P. peperomioides, as a named form).
+- C3.1.11.08 | Begonia |  | living plant of the genus Begonia, foliage (rex) and flowering, houseplant or bedding.
+- C3.1.6.06 | Pear tree |  | living pear tree (Pyrus), European and Asian, grown for fruit.
+- C3.1.6.07 | Peach tree |  | living peach tree (Prunus persica), nectarines included, grown for fruit.
+- C3.1.6.08 | Plum tree |  | living plum tree (Prunus domestica, P. salicina and allies) grown for fruit.
+- C3.1.6.09 | Cherry tree (fruiting) |  | living sweet or sour cherry tree grown for fruit; ornamental cherries are C3.1.9.02.
+- C3.1.6.10 | Apricot tree |  | living apricot tree (Prunus armeniaca) grown for fruit.
+- C3.1.6.11 | Banana plant |  | living banana plant (Musa) grown for fruit, dwarf indoor ones included.
+- C3.1.6.12 | Olive tree |  | living olive tree (Olea europaea) grown for fruit, also kept as an ornamental.
+- C3.1.6.13 | Pomegranate |  | living pomegranate tree or bush (Punica granatum) grown for fruit.
+- C3.1.6.14 | Persimmon tree |  | living persimmon tree (Diospyros kaki, D. virginiana) grown for fruit.
+- C3.1.6.15 | Pecan tree |  | living pecan tree (Carya illinoinensis) grown for nuts.
+- C3.1.6.16 | Walnut tree |  | living walnut tree (Juglans) grown for nuts.
+- C3.1.6.17 | Almond tree |  | living almond tree (Prunus dulcis) grown for nuts.
+- C3.1.6.18 | Raspberry plant |  | living raspberry cane (Rubus idaeus) grown for fruit.
+- C3.1.6.19 | Blackberry plant |  | living blackberry plant (Rubus), thornless kinds included, grown for fruit.
+- C3.1.6.20 | Grapevine |  | living grapevine (Vitis) grown for fruit, table and wine grapes.
+- C3.1.6.21 | Elderberry |  | living elderberry shrub (Sambucus) grown for fruit.
+- C3.1.7.02 | Rhubarb plant |  | living rhubarb crown or potted plant (Rheum) grown for its edible stalks.
+- C3.1.7.03 | Asparagus plant |  | living asparagus crown or plant grown for its edible spears.
+- C3.2.2.04 | Garlic bulb (seed garlic) |  | garlic bulb or clove sold for planting, not for eating.
+- C3.2.2.05 | Crocus corm |  | dormant Crocus corm sold for planting.
+- C3.2.2.06 | Hyacinth bulb |  | dormant Hyacinthus bulb sold for planting or forcing.
+- C3.2.2.07 | Dahlia tuber |  | dormant Dahlia tuber sold for planting; a potted dahlia in growth is C3.1.
+- C3.3.2.03 | Norway spruce |  | fresh-cut or pot-grown Norway spruce (Picea abies) sold as a Christmas tree.
+- C3.3.2.04 | Noble fir |  | fresh-cut or pot-grown noble fir (Abies procera) sold as a Christmas tree.
+- C3.3.2.05 | Blue spruce |  | fresh-cut or pot-grown blue spruce (Picea pungens) sold as a Christmas tree.
+- C3.1.3.04 | Maple bonsai |  | living maple (Acer palmatum, A. buergerianum) trained and sold as a bonsai.
+- C3.1.11.09 | Selaginella (spikemoss) |  | living spikemoss of the genus Selaginella, sold for terrariums and shade.
+- C3.3.3.02 | Mixed fresh bouquet or arrangement |  | made-up bouquet or arrangement of fresh-cut flowers of several genera; single-genus bunches go to their cut-flower kind.
+- C3.1.8.14 | Scindapsus |  | living climbing aroid of the genus Scindapsus (satin pothos, S. pictus, as a named form).
+- C3.1.8.15 | Monstera adansonii |  | living Swiss cheese vine, species Monstera adansonii.
+- C3.1.8.16 | Philodendron erubescens |  | living Philodendron of the species P. erubescens (Pink Princess as a named form).
+- C3.1.8.17 | Philodendron hederaceum |  | living heartleaf Philodendron, species P. hederaceum (Brasil, Micans as named forms).
+- C3.1.8.18 | Philodendron billietiae |  | living Philodendron of the species P. billietiae.
+- C3.1.8.19 | Philodendron hybrid |  | living Philodendron cultivar of hybrid or unresolved parentage sold under its cultivar name (Birkin).
+- C3.1.8.20 | Thaumatophyllum |  | living aroid of the genus Thaumatophyllum (Philodendron Xanadu, T. xanadu, as a named form).
+- C3.1.8.21 | Anthurium crystallinum |  | living Anthurium of the species A. crystallinum.
+- C3.1.8.22 | Anthurium regale |  | living Anthurium of the species A. regale.
+- C3.1.8.23 | Anthurium warocqueanum |  | living queen Anthurium, species A. warocqueanum.
+- C3.1.8.24 | Anthurium veitchii |  | living king Anthurium, species A. veitchii.
+- C3.1.8.25 | Anthurium luxurians |  | living Anthurium of the species A. luxurians.
+- C3.1.8.26 | Alocasia micholitziana |  | living Alocasia of the species A. micholitziana (Frydek as a named form).
+- C3.1.8.27 | Alocasia baginda |  | living Alocasia of the species A. baginda (Dragon Scale as a named form).
+- C3.1.8.28 | Alocasia cuprea |  | living Alocasia of the species A. cuprea.
+- C3.1.8.29 | Alocasia zebrina |  | living Alocasia of the species A. zebrina.
+- C3.1.8.30 | Alocasia × amazonica |  | living Alocasia of the hybrid A. × amazonica (Polly as a named form).
+- C3.1.5.01 | Water lily (Nymphaea) |  | living hardy or tropical water lily of the genus Nymphaea sold to grow in a pond or tub.
+- C3.1.5.02 | Lotus (Nelumbo) |  | living lotus of the genus Nelumbo sold as a tuber or potted plant to grow in water.

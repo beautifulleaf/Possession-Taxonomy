@@ -1,0 +1,288 @@
+# J2 Fish & Seafood: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object: how it is sold, then the counter group
+- reason: Fish shops split fresh, smoked, frozen and caviar first and then group species at the counter (Crowd Cow seafood, Woolworths SA fish vs shellfish, Kolikof); R-104 and R-115 a keep form first.
+- ladder: How is it sold? > Which counter group? > Which fish or product? > What makes the best (freshness, wild or farmed, method, size)? > Who vouches? > The named best (protected names, strains, houses)
+- level1_groups: G-J2-1 Fresh & frozen (fish counter); G-J2-2 Smoked; G-J2-3 Salted, cured & dried; G-J2-4 Tins & jars; G-J2-5 Roe & caviar; G-J2-6 Fish cakes, surimi & pâtés
+- quality_markers: freshness (EU Extra > A > B); species identity; wild or farmed and catch method; sustainability rating; handling for raw eating; size or count; salmon grade; tuna grade and fat cut; oyster size and claire class; caviar: species, egg size and colour, salt level; tins: presentation and cannery
+- quality_signals: MSC blue label (Marine Stewardship Council); ASC (memo); Seafood Watch Best Choice to Avoid (Monterey Bay Aquarium); EU freshness and size categories (Reg. 2406/96); Norwegian salmon grades; Japanese tuna number grades (trade); French oyster sizes and claire classes (trade); shrimp and scallop count bands (US trade); Codex canned tuna styles; PDO, PGI and national GIs (EU, MAFF, Korea, China); CITES caviar label; caviar grain grade 000-00-0 (FAO)
+- maker_role: none, with house tabs for tins and caviar (R-115 a, R-109); smokehouses enter when a quality source names them (R-115 b)
+- side_view: by cannery (Tins & jars) and by caviar house (Roe & caviar), beside the main way in
+- evidence_rows: Crowd Cow shop seafood section (US); Woolworths South Africa how to shop for fish (ZA); Seafood Watch via Wikipedia (US); Marine Stewardship Council FAQ (UK/intl); Kolikof Caviar guide and shop (US); Food Republic sushi grade vs sashimi grade (US); Whole Foods Market Meat & Seafood (US)
+- maker role row: {'code': 'J2', 'scope': '*', 'role': 'none', 'provisional': 'no', 'reason': 'grocery rule; canneries and caviar houses enter through their branded products (R-109)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-J2-1 | Fresh & frozen (fish counter) | 1 |  | 
+- G-J2-2 | Smoked | 1 |  | J2.2.01; J2.2.02; J2.2.03; J2.2.04; J2.2.05; J2.2.06; J2.2.07; J2.2.08; J2.2.09; J2.2.10; J2.2.11
+- G-J2-3 | Salted, cured & dried | 1 |  | 
+- G-J2-4 | Tins & jars | 1 |  | 
+- G-J2-5 | Roe & caviar | 1 |  | 
+- G-J2-6 | Fish cakes, surimi & pâtés | 1 |  | J2.6.01; J2.6.02; J2.6.03; J2.6.04; J2.6.05; J2.6.06; J2.6.07
+- G-J2-7 | Salmon and trout | 2 | G-J2-1 | J2.1.1.01; J2.1.1.02; J2.1.1.03; J2.1.1.04; J2.1.1.05; J2.1.1.06; J2.1.1.07; J2.1.1.50; J2.1.1.56; J2.1.1.57; J2.1.1.58; J2.1.1.59; J2.1.1.60; J2.1.1.61; J2.1.1.62; J2.1.1.64; J2.1.1.65; J2.1.1.66; J2.1.1.68; J2.1.1.69; J2.1.1.70; J2.1.1.71; J2.1.1.72; J2.1.1.73; J2.1.1.74; J2.1.1.76; J2.1.1.77; J2.1.1.78; J2.1.1.79; J2.1.1.80; J2.1.1.81; J2.1.1.82; J2.1.1.83; J2.1.1.84; J2.1.1.85; J2.1.1.86; J2.1.1.87; J2.1.1.88; J2.1.1.89; J2.1.1.63; J2.1.1.67; J2.1.1.75; J2.1.1.90; J2.1.1.92; J2.1.1.93; J2.1.1.94; J2.1.1.95; J2.1.1.96; J2.1.1.97; J2.1.1.99; J2.1.1.91; J2.1.1.98
+- G-J2-8 | White fish | 2 | G-J2-1 | J2.1.1.08; J2.1.1.09; J2.1.1.10; J2.1.1.11; J2.1.1.12; J2.1.1.13; J2.1.1.14; J2.1.1.17; J2.1.1.25; J2.1.1.26; J2.1.1.27; J2.1.1.28; J2.1.1.29; J2.1.1.30; J2.1.1.33; J2.1.1.36; J2.1.1.37; J2.1.1.40; J2.1.1.41; J2.1.1.42; J2.1.1.43; J2.1.1.44; J2.1.1.46; J2.1.1.47; J2.1.1.49; J2.1.1.52; J2.1.1.54
+- G-J2-9 | Oily fish | 2 | G-J2-1 | J2.1.1.21; J2.1.1.22; J2.1.1.23; J2.1.1.31; J2.1.1.32; J2.1.1.35; J2.1.1.53; J2.1.1.55
+- G-J2-10 | Flatfish | 2 | G-J2-1 | J2.1.1.15; J2.1.1.16; J2.1.1.34; J2.1.1.38; J2.1.1.39; J2.1.1.45
+- G-J2-11 | Tuna and swordfish | 2 | G-J2-1 | J2.1.1.18; J2.1.1.19; J2.1.1.20
+- G-J2-12 | Prawns and shrimp | 2 | G-J2-1 | J2.1.2.01; J2.1.2.02; J2.1.2.03; J2.1.2.07; J2.1.2.08; J2.1.2.09; J2.1.2.10; J2.1.2.11; J2.1.2.12; J2.1.2.13; J2.1.2.14; J2.1.2.15; J2.1.2.16; J2.1.2.17; J2.1.2.18; J2.1.2.19
+- G-J2-13 | Crab and lobster | 2 | G-J2-1 | J2.1.2.04; J2.1.2.05; J2.1.2.06
+- G-J2-14 | Shellfish | 2 | G-J2-1 | J2.1.3.01; J2.1.3.02; J2.1.3.03; J2.1.3.06; J2.1.3.07; J2.1.3.08; J2.1.3.09; J2.1.3.10; J2.1.3.11; J2.1.3.12; J2.1.3.13; J2.1.3.14; J2.1.3.15; J2.1.3.17
+- G-J2-15 | Squid, cuttlefish and octopus | 2 | G-J2-1 | J2.1.3.04; J2.1.3.05; J2.1.3.16
+- G-J2-16 | Other (eel, sea urchin, sea cucumber, mixed) | 2 | G-J2-1 | J2.1.1.24; J2.1.4.01; J2.1.4.02; J2.1.0.01
+- G-J2-17 | Salted, cured & fermented fish | 2 | G-J2-3 | J2.3.01; J2.3.02; J2.3.07; J2.3.12; J2.3.16
+- G-J2-18 | Dried seafood | 2 | G-J2-3 | J2.3.03; J2.3.04; J2.3.05; J2.3.06; J2.3.08; J2.3.09; J2.3.10; J2.3.11; J2.3.13; J2.3.14; J2.3.15; J2.3.18
+- G-J2-19 | Tinned tuna | 2 | G-J2-4 | J2.4.01
+- G-J2-20 | Sardines, mackerel & other small oily fish | 2 | G-J2-4 | J2.4.02; J2.4.07; J2.4.08; J2.4.09; J2.4.20; J2.4.24
+- G-J2-21 | Anchovies | 2 | G-J2-4 | J2.4.05
+- G-J2-22 | Salmon, trout, cod & other fish | 2 | G-J2-4 | J2.4.10; J2.4.18; J2.4.19; J2.4.21; J2.4.22; J2.4.23; J2.4.26; J2.4.27; J2.4.28
+- G-J2-23 | Shellfish, crab, squid & octopus | 2 | G-J2-4 | J2.4.03; J2.4.11; J2.4.12; J2.4.13; J2.4.14; J2.4.15; J2.4.16; J2.4.17; J2.4.25; J2.4.29; J2.4.30
+- G-J2-24 | Marinated fish (chilled jars & tubs) | 2 | G-J2-4 | J2.4.04; J2.4.06; J2.4.31
+- G-J2-25 | Sturgeon caviar | 2 | G-J2-5 | J2.5.1.01; J2.5.1.02; J2.5.1.03; J2.5.1.04; J2.5.1.05; J2.5.1.06; J2.5.1.07; J2.5.1.08; J2.5.1.09; J2.5.1.10; J2.5.1.11; J2.5.1.12
+- G-J2-26 | Salmon & trout roe | 2 | G-J2-5 | J2.5.2.01; J2.5.2.02
+- G-J2-27 | Other roe | 2 | G-J2-5 | J2.5.3.01; J2.5.3.02; J2.5.3.03; J2.5.3.04; J2.5.3.05; J2.5.3.06; J2.5.3.07; J2.5.3.08; J2.5.3.09
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-J2-1 | freshness | Extra > A > B | Firmness, bright eyes and sea smell come first; EU freshness categories (GS-ec-fish-freshness-categories). | Woolworths South Africa how to shop for fish (ZA)
+- G-J2-1 | wild or farmed, and catch or farming method |  | Shops split wild-caught from farmed early; MSC certifies wild capture only. | Crowd Cow shop seafood section (US); Marine Stewardship Council FAQ (UK/intl)
+- G-J2-1 | sustainability rating | Best Choice > Certified > Good Alternative > Avoid | Seafood Watch rates fishing or farming impact; the main buyer signal besides MSC. | Seafood Watch via Wikipedia (US)
+- G-J2-1 | handling for raw eating |  | Sashimi grade has no standard; seller trust and parasite freezing decide. | Food Republic sushi grade vs sashimi grade (US); Crowd Cow shop seafood section (US)
+- G-J2-7 | farmed salmon quality grade | Superior > Ordinary > Production | Norwegian grade for farmed salmon (GS-no-salmon-quality-grades). | data/grading_scales.tsv
+- G-J2-11 | tuna grade | 1 > 2+ > 2 > 3 | Japanese-market number grade used in sashimi trade (GS-trade-tuna-number-grades). | data/grading_scales.tsv
+- G-J2-11 | fat cut (bluefin) | Ōtoro > Chūtoro > Akami | Fat and texture ladder of the Japanese trade (memo J2 section 5). | Food Republic sushi grade vs sashimi grade (US); framework/structure/J2.md
+- G-J2-12 | size (count per pound) | U/10 > U/12 > U/15 > 16/20 > 21/25 > 26/30 > 31/35 > 36/40 > 41/50 > 51/60 > 61/70 > 71+ | Fewer per pound means larger and dearer (GS-trade-shrimp-count-bands). | data/grading_scales.tsv
+- G-J2-13 | alive and full shell |  | Shellfish shell tight to flesh; live or just cooked is the freshness test. | Woolworths South Africa how to shop for fish (ZA)
+- G-J2-14 | alive and closed shell |  | Shell tight to flesh is the freshness sign for shellfish. | Woolworths South Africa how to shop for fish (ZA)
+- G-J2-14 | oyster size number | No. 0 > No. 1 > No. 2 > No. 3 > No. 4 > No. 5 | French cupped oyster sizes, largest first (GS-fr-oyster-cupped-size-numbers). | data/grading_scales.tsv
+- G-J2-14 | oyster refinement in claires | Pousse en claire > Spéciale de claire > Fine de claire | French refinement classes (GS-fr-oyster-claire-classes); growing water names the best. | data/grading_scales.tsv; data/varieties.tsv
+- G-J2-14 | scallop size (count per pound) | U/10 > 10/20 > 20/30 > 30/40 > 60/80 > over 120 | Larger scallops sell dearer (GS-trade-scallop-count-bands). | data/grading_scales.tsv
+- G-J2-19 | presentation | Solid > Chunk > Flake > Grated or shredded | Codex canned tuna styles (GS-codex-tuna-canned-presentations); cannery house leads beside. | data/grading_scales.tsv
+- G-J2-25 | sturgeon species | Beluga > Osetra > Sevruga | Species leads caviar; only sturgeon eggs are caviar; FAO and CITES order. | Kolikof Caviar guide and shop (US); framework/structure/J2.md
+- G-J2-25 | egg size, colour and maturity | 000 > 00 > 0 | Larger, lighter, firmer grains rank higher; FAO grain grade, producer terms vary. | Kolikof Caviar guide and shop (US); framework/structure/J2.md
+- G-J2-25 | salt level |  | Malossol (low salt) is the premium cure; taste and price then decide. | Kolikof Caviar guide and shop (US)
+
+## Kinds (kind_id | stored name | native name | definition)
+- J2.1.1.01 | Atlantic salmon |  | Whole fish or cuts of the salmon Salmo salar sold raw.
+- J2.1.1.02 | Sockeye salmon |  | Raw red salmon of the Pacific, Oncorhynchus nerka, sold apart from other salmon.
+- J2.1.1.03 | Coho salmon |  | Raw Pacific salmon Oncorhynchus kisutch.
+- J2.1.1.04 | King (chinook) salmon |  | Raw Pacific salmon Oncorhynchus tshawytscha, the largest salmon.
+- J2.1.1.05 | Chum (keta) salmon |  | Raw Pacific salmon Oncorhynchus keta.
+- J2.1.1.06 | Rainbow trout |  | Raw freshwater trout Oncorhynchus mykiss.
+- J2.1.1.07 | Arctic char [Saibling] |  | Raw char of the genus Salvelinus, a cold-water relative of salmon and trout.
+- J2.1.1.08 | Cod [Kabeljau] |  | Raw Atlantic or Pacific cod of the genus Gadus.
+- J2.1.1.09 | Haddock |  | Raw haddock, Melanogrammus aeglefinus.
+- J2.1.1.10 | Pollock (saithe) [Seelachs] |  | Raw pollock or saithe (Pollachius virens, Gadus chalcogrammus), sold as white fish.
+- J2.1.1.11 | Hake |  | Raw hake of the genus Merluccius.
+- J2.1.1.12 | European sea bass [Wolfsbarsch] |  | Raw sea bass, Dicentrarchus labrax.
+- J2.1.1.13 | Gilthead sea bream [Dorade] |  | Raw sea bream, Sparus aurata.
+- J2.1.1.14 | Barramundi |  | Raw barramundi, Lates calcarifer.
+- J2.1.1.15 | Plaice [Scholle] |  | Raw flatfish Pleuronectes platessa.
+- J2.1.1.16 | Halibut [Heilbutt] |  | Raw large flatfish of the genus Hippoglossus.
+- J2.1.1.17 | Monkfish [Seeteufel] |  | Raw monkfish or anglerfish of the genus Lophius.
+- J2.1.1.18 | Bluefin tuna |  | Raw bluefin tuna of the genus Thunnus, sold whole or in cuts.
+- J2.1.1.19 | Yellowfin tuna |  | Raw tuna Thunnus albacares.
+- J2.1.1.20 | Swordfish |  | Raw swordfish, Xiphias gladius.
+- J2.1.1.21 | Mackerel |  | Raw mackerel of the genus Scomber.
+- J2.1.1.22 | Herring |  | Raw herring, Clupea harengus and relatives; a whole herring sold with its roe inside is this kind.
+- J2.1.1.23 | Sardine |  | Raw sardine or pilchard, Sardina pilchardus and relatives.
+- J2.1.2.01 | Prawn or shrimp, species not stated |  | Prawn or shrimp whose pack does not name the species; the first kind and the fallback for unnamed prawns.
+- J2.1.2.02 | Banana prawn |  | Prawn sold under the trade name banana prawn (a trade name that may cover several species).
+- J2.1.2.03 | King prawn |  | Prawn sold under the trade name king prawn (a trade name that may cover several species).
+- J2.1.2.04 | Langoustine |  | Small clawed lobster Nephrops norvegicus, sold whole or as tails.
+- J2.1.2.05 | Lobster |  | Clawed or spiny lobster sold for eating.
+- J2.1.2.06 | Crab (edible crab and others) |  | Crab sold for eating, whole or as white or brown meat.
+- J2.1.3.01 | Oyster |  | Oyster sold for eating, live in the shell or shucked.
+- J2.1.3.02 | Mussel |  | Mussel sold for eating, live in the shell or shelled.
+- J2.1.3.03 | Scallop |  | Scallop sold for eating, in the shell or as the adductor muscle with or without roe.
+- J2.1.3.04 | Squid |  | Squid sold for eating, whole, in tubes or in rings.
+- J2.1.3.05 | Octopus |  | Octopus sold for eating.
+- J2.1.3.06 | Abalone |  | Abalone sold for eating, live, chilled or frozen.
+- J2.1.4.01 | Sea cucumber |  | Sea cucumber sold fresh or frozen for eating.
+- J2.1.4.02 | Sea urchin [uni] |  | Sea urchin sold whole or as the gonads (uni) for eating.
+- J2.1.0.01 | Mixed seafood |  | A mix of seafood kinds sold as one product, where no single kind makes up half or more of the weight (P6).
+- J2.2.01 | Smoked salmon (cold-smoked) |  | Salmon cured and smoked at low temperature, sold sliced or in pieces, ready to eat without cooking.
+- J2.2.02 | Hot-smoked salmon |  | Salmon smoked at a temperature that cooks it, sold as fillets, portions or flakes.
+- J2.2.03 | Smoked trout |  | Trout smoked cold or hot, sold as fillets or whole fish.
+- J2.2.04 | Smoked mackerel |  | Mackerel smoked cold or hot, sold as fillets or whole fish.
+- J2.2.05 | Smoked herring |  | Herring split or whole and smoked.
+- J2.2.06 | Smoked eel [Räucheraal] |  | Eel smoked whole or in pieces.
+- J2.2.07 | Smoked dogfish belly [Schillerlocke] |  | Smoked belly flaps of dogfish; the German word is a regional name with no generic kind of its own, and its level is provisional until attested.
+- J2.3.01 | Salt cod |  | Cod preserved by salting and drying, sold to be soaked and cooked.
+- J2.3.02 | Salted herring |  | Herring cured in brine or salt and sold chilled, to be eaten as the fish itself.
+- J2.3.03 | Dried scallop [干贝] |  | Scallop adductor muscle dried for eating or cooking.
+- J2.3.04 | Dried shrimp [虾米] |  | Shrimp dried whole or shelled for eating or cooking.
+- J2.3.05 | Dried squid [鱿鱼干] |  | Squid dried whole, in pieces or in shreds.
+- J2.3.06 | Dried sea cucumber [刺参] |  | Sea cucumber dried for rehydrating and cooking.
+- J2.3.07 | Salted-fermented seafood, whole or in pieces [jeotgal; shiokara; bagoong] |  | Whole or cut seafood preserved by salting and fermenting and sold to be eaten as the seafood itself; a paste or sauce is J5.
+- J2.4.01 | Tinned tuna |  | Tuna packed in a sealed tin, jar or pouch that keeps it shelf-stable.
+- J2.4.02 | Tinned sardines |  | Sardines packed in a sealed tin or jar.
+- J2.4.03 | Tinned crab meat |  | Crab meat packed in a sealed tin or jar.
+- J2.4.04 | Marinated herring |  | Herring marinated in vinegar, oil or a sauce and sold in a jar or tub.
+- J2.5.1.01 | Beluga caviar |  | Roe of the beluga sturgeon Huso huso, sold as grain caviar.
+- J2.5.1.02 | Osetra caviar |  | Roe of Acipenser gueldenstaedtii or A. persicus (osetra sturgeon), sold as grain caviar; Siberian and hybrid sturgeon caviars are their own kinds.
+- J2.5.1.03 | Sevruga caviar |  | Roe of the sevruga sturgeon Acipenser stellatus, sold as grain caviar.
+- J2.5.1.04 | Pressed caviar |  | Sturgeon roe pressed into a mass instead of sold as separate grains, including mixed-species roe.
+- J2.5.2.01 | Salmon roe [ikura] |  | Roe of salmon, whole eggs sold loose or marinated.
+- J2.5.2.02 | Trout roe |  | Roe of trout, sold fresh, cured or smoked.
+- J2.5.3.01 | Lumpfish roe |  | Roe of the lumpfish Cyclopterus lumpus, sold as small dyed or natural eggs.
+- J2.5.3.02 | Flying-fish roe [tobiko] |  | Roe of flying fish, small crunchy eggs.
+- J2.6.01 | Surimi stick (crab stick) |  | Stick of formed and seasoned fish paste, not coated, filled or sauced.
+- J2.6.02 | Kamaboko |  | Steamed, formed cake of fish paste.
+- J2.6.03 | Chikuwa |  | Tube of fish paste cooked on a rod or by roasting.
+- J2.6.04 | Fish ball |  | Round ball of ground fish paste, not coated, filled or sauced.
+- J2.6.05 | Fish sausage |  | Sausage-shaped formed fish paste in a casing.
+- J2.6.06 | Fish pâté or terrine (sold as a loaf or slice) |  | Pâté, terrine or galantine of fish sold as a loaf or slice to be cut; a spread or dip in a jar or tub is J5.
+- J2.4.14 | Tinned clams |  | Clams packed in a sealed tin or jar.
+- J2.4.15 | Tinned cockles |  | Cockles packed in a sealed tin or jar.
+- J2.4.16 | Tinned razor clams |  | Razor clams packed in a sealed tin or jar.
+- J2.4.17 | Tinned scallops |  | Scallops packed in a sealed tin or jar.
+- J2.4.18 | Tinned eel |  | Eel or elver packed in a sealed tin or jar.
+- J2.4.19 | Tinned cod |  | Cod flesh packed in a sealed tin or jar; tinned cod liver is its own kind.
+- J2.1.1.24 | Eel |  | Raw freshwater eel of the genus Anguilla, sold whole or as fillets; CITES status is a C17 row.
+- J2.1.1.25 | Sablefish (black cod) |  | Raw sablefish Anoplopoma fimbria, sold as fillets or steaks.
+- J2.1.1.26 | Tilapia |  | Raw tilapia (Oreochromis and relatives), sold whole or as fillets.
+- J2.1.1.27 | Pangasius [swai; basa] |  | Raw pangasius catfish (Pangasius hypophthalmus, P. bocourti), sold as fillets under the names swai or basa.
+- J2.1.1.28 | Snakehead |  | Raw snakehead fish of the genus Channa, sold whole or as fillets.
+- J2.1.1.29 | Pomfret |  | Raw pomfret (Pampus and Bramidae), sold whole.
+- J2.1.1.30 | Croaker |  | Raw croaker or drum (Sciaenidae), including yellow croaker, sold whole or as fillets.
+- J2.1.1.31 | Scad |  | Raw scad or horse mackerel (Decapterus, Trachurus), sold whole.
+- J2.1.1.32 | Milkfish |  | Raw milkfish Chanos chanos, sold whole or deboned.
+- J2.1.1.33 | Catfish |  | Raw catfish of the Ictaluridae and Clariidae, sold whole or as fillets; pangasius is J2.1.1.27.
+- J2.1.1.34 | Flounder |  | Raw flounder (Paralichthys, Platichthys and relatives), sold whole or as fillets.
+- J2.1.1.35 | Smelt |  | Raw smelt (Osmerus and relatives), small fish sold whole.
+- J2.1.1.36 | Grouper |  | Raw grouper (Epinephelus and relatives), sold whole or as fillets.
+- J2.1.1.37 | Snapper |  | Raw snapper (Lutjanus and relatives), sold whole or as fillets.
+- J2.1.1.38 | Dover sole |  | Raw common sole Solea solea, sold whole or as fillets.
+- J2.1.1.39 | Lemon sole |  | Raw lemon sole Microstomus kitt, sold whole or as fillets.
+- J2.1.1.40 | Red mullet |  | Raw red mullet (Mullus), sold whole or as fillets.
+- J2.1.1.41 | Gurnard |  | Raw gurnard (Triglidae), sold whole or as fillets.
+- J2.1.1.42 | John Dory |  | Raw John Dory Zeus faber, sold whole or as fillets.
+- J2.1.1.43 | Zander [pike-perch] |  | Raw zander Sander lucioperca, sold whole or as fillets.
+- J2.1.1.44 | Carp |  | Raw carp (Cyprinus carpio and other carps), sold whole or as fillets.
+- J2.1.1.45 | Turbot |  | Raw turbot Scophthalmus maximus, sold whole or as fillets.
+- J2.1.1.46 | Patagonian toothfish [Chilean sea bass] |  | Raw Patagonian toothfish Dissostichus eleginoides, sold as fillets under the name Chilean sea bass.
+- J2.1.2.07 | Spot prawn |  | Spot prawn Pandalus platyceros, sold whole, raw or frozen.
+- J2.1.2.08 | Northern prawn [sweet shrimp; amaebi] |  | Northern or sweet prawn Pandalus borealis, small cold-water prawn sold raw or cooked.
+- J2.1.2.09 | Argentine red shrimp |  | Argentine red shrimp Pleoticus muelleri, sold frozen whole or peeled.
+- J2.1.2.10 | White shrimp |  | Shrimp sold as white or whiteleg shrimp (Litopenaeus vannamei, L. setiferus).
+- J2.1.2.11 | Tiger prawn |  | Black tiger prawn Penaeus monodon sold under the name tiger; a pack saying only king prawn is J2.1.2.03.
+- J2.1.2.12 | Giant freshwater prawn |  | Giant river prawn Macrobrachium rosenbergii, sold whole.
+- J2.1.2.13 | Crayfish [crawfish] |  | Freshwater crayfish (Procambarus, Astacus and relatives) sold whole or as tail meat.
+- J2.6.07 | Fried fish cake [satsuma-age] |  | Formed cake of seasoned fish paste deep-fried without batter or crumb, not filled or sauced.
+- J2.1.3.07 | Whelk [bulot] |  | Sea snail of the whelk family (Buccinum and relatives) sold for eating, whole in the shell or as meat.
+- J2.1.3.08 | Periwinkle [winkle] |  | Small sea snail Littorina littorea and relatives sold for eating, whole in the shell or as meat.
+- J2.1.3.09 | Mud snail |  | Small mud or field snail (Bullacta and freshwater relatives) sold plain for eating, whole or as meat.
+- J2.1.3.10 | Apple snail |  | Large freshwater snail of Pila or Pomacea sold for eating, whole or as meat.
+- J2.1.3.11 | Top shell (top snail) |  | Sea snail of the top-shell or turban-shell families sold for eating, whole or as meat.
+- J2.1.3.12 | Land snail [escargot] |  | Land snail of Helix, Cornu or Achatina sold for eating, live, plain cooked or brined; snails in garlic butter are prepared.
+- J2.1.3.13 | Clam |  | Hard- or soft-shell clam (Meretrix, Ruditapes, Mercenaria and relatives) sold for eating, live, chilled or frozen.
+- J2.1.3.14 | Razor clam |  | Long-shelled razor clam (Ensis, Solen, Sinonovacula) sold for eating.
+- J2.1.3.15 | Cockle |  | Cockle (Cerastoderma and relatives) sold for eating, in the shell or as meat.
+- J2.5.3.03 | Capelin roe [masago] |  | Roe of the capelin Mallotus villosus, very small eggs sold plain or seasoned.
+- J2.5.3.04 | Herring roe [kazunoko] |  | Roe of herring sold separately from the fish, as whole skeins or flakes, salted or seasoned.
+- J2.5.3.05 | Pollock roe [tarako; myeongran] |  | Roe of Alaska pollock Gadus chalcogrammus, sold as salted or seasoned whole sacs.
+- J2.5.3.06 | Cod roe |  | Roe of cod Gadus morhua and relatives sold whole, fresh, salted or smoked.
+- J2.5.1.05 | Kaluga caviar |  | Roe of the kaluga sturgeon Huso dauricus, sold as grain caviar.
+- J2.5.1.06 | Amur sturgeon caviar |  | Roe of the Amur sturgeon Acipenser schrenckii, sold as grain caviar.
+- J2.5.1.07 | White sturgeon caviar |  | Roe of the white sturgeon Acipenser transmontanus, sold as grain caviar.
+- J2.5.1.08 | Sterlet caviar |  | Roe of the sterlet Acipenser ruthenus, sold as small-grain caviar.
+- J2.5.1.09 | Hackleback caviar |  | Roe of the shovelnose sturgeon Scaphirhynchus platorynchus, sold as grain caviar.
+- J2.5.1.10 | Paddlefish caviar |  | Roe of the American paddlefish Polyodon spathula, sold as grain caviar.
+- J2.5.3.07 | Bowfin roe [choupique] |  | Roe of the bowfin Amia calva, sold as black small-grain roe and often labelled caviar.
+- J2.5.3.08 | Grey mullet roe |  | Roe of grey mullet (Mugil) sold whole, fresh or salted, pressed and dried.
+- J2.3.08 | Dried abalone |  | Abalone dried whole for rehydrating and cooking, sold by count per catty.
+- J2.3.09 | Fish maw |  | Dried swim bladder of croaker, sturgeon or other fish, sold for rehydrating and cooking.
+- J2.3.10 | Dried shark fin |  | Shark fin dried for rehydrating and cooking; protected-species status goes to the C17 ledger.
+- J2.3.11 | Dried bonito [katsuobushi] |  | Skipjack tuna boiled, smoked and dried hard, sold as whole blocks or shaved flakes.
+- J2.3.12 | Cured salmon [gravlax] |  | Salmon cured in salt and sugar, often with dill, not smoked, sold chilled and sliced.
+- J2.2.08 | Smoked haddock |  | Haddock cold- or hot-smoked, sold as fillets or whole split fish.
+- J2.2.09 | Smoked sprats [Sprotten] |  | Sprats Sprattus sprattus smoked whole and sold chilled; tinned smoked sprats are J2.4 (P3).
+- J2.4.05 | Tinned anchovies [anchoas] |  | Salt-cured anchovy fillets or whole anchovies packed in oil or salt in a sealed tin or jar.
+- J2.4.06 | Marinated anchovies [boquerones] |  | Raw anchovy fillets marinated in vinegar, oil and garlic, sold chilled in a tray or jar.
+- J2.4.07 | Tinned mackerel |  | Mackerel (Scomber) fillets or pieces packed in a sealed tin or jar; jack and horse mackerel are their own kind.
+- J2.4.08 | Tinned herring |  | Herring fillets or pieces packed in a sealed tin, smoked or not; jarred marinated herring is J2.4.04.
+- J2.4.09 | Tinned sprats |  | Sprats or brisling (Sprattus) or Caspian kilka (Clupeonella) packed in a sealed tin, often smoked.
+- J2.4.10 | Tinned salmon |  | Salmon packed in a sealed tin or jar.
+- J2.4.11 | Tinned mussels |  | Cooked mussels packed in a sealed tin or jar, in brine, oil or sauce.
+- J2.4.12 | Tinned octopus |  | Cooked octopus packed in a sealed tin or jar.
+- J2.4.13 | Tinned squid |  | Squid packed in a sealed tin or jar, often in its ink.
+- J2.2.10 | Smoked milkfish [tinapang bangus] |  | Milkfish Chanos chanos smoked whole or butterflied, sold chilled or frozen; tinned smoked milkfish is J2.4 (P3).
+- J2.4.20 | Tinned saury [sanma; saira] |  | Pacific saury Cololabis saira packed in a sealed tin, in oil, its own juice or a sauce such as kabayaki.
+- J2.3.13 | Dried filefish [jwipo] |  | Filefish (Monacanthidae) fillets dried, plain or lightly seasoned and pressed, sold to eat or to grill.
+- J2.3.14 | Dried cuttlefish |  | Cuttlefish (Sepia) dried whole, in pieces or shredded; dried squid is J2.3.05.
+- J2.3.15 | Fish floss [yu song] |  | Fish cooked, shredded and dry-fried with light seasoning into a fine dry floss; a blend led by seaweed, sesame or flour is a J5 topping.
+- J2.4.21 | Tinned cod liver [pechen treski] |  | Cod liver cooked and packed in its own oil in a sealed tin; cod flesh is J2.4.19, cod liver oil H2.
+- J2.4.22 | Tinned hake [merluza] |  | Hake (Merluccius) packed in a sealed tin or jar.
+- J2.4.23 | Tinned sea bass [lubina] |  | European sea bass Dicentrarchus labrax packed in a sealed tin or jar.
+- J2.3.16 | Salt-dried tuna loin [mojama] |  | Tuna loin salted and air-dried, sold whole or sliced; Mojama de Barbate and de Isla Cristina are named forms (JC1).
+- J2.5.1.11 | Siberian sturgeon caviar [Baerii] |  | Roe of the Siberian sturgeon Acipenser baerii, sold as grain caviar.
+- J2.4.26 | Tinned sturgeon |  | Sturgeon flesh (Acipenseridae) packed in a sealed tin; its roe is J2.5.1.
+- J2.4.27 | Tinned trout |  | Trout (Oncorhynchus, Salmo) packed in a sealed tin, smoked or not.
+- J2.4.28 | Tinned whitefish [sig] |  | Whitefish (Coregonus) packed in a sealed tin.
+- J2.5.1.12 | Hybrid sturgeon caviar |  | Roe of farmed sturgeon crosses (Huso dauricus x Acipenser schrenckii, Huso huso x A. ruthenus and others), sold as grain caviar; the cross is the scientific_name.
+- J2.4.29 | Tinned oysters |  | Oysters, often smoked, packed in oil or water in a sealed tin.
+- J2.4.30 | Tinned abalone |  | Abalone (Haliotis, including paua) cooked and packed in a sealed tin.
+- J2.1.1.47 | Rockfish [ocean perch; redfish] |  | Raw rockfish or redfish of the genus Sebastes, sold whole or as fillets.
+- J2.4.24 | Tinned jack or horse mackerel [jurel; maasbanker] |  | Jack or horse mackerel (Trachurus) packed in a sealed tin; Scomber mackerel is J2.4.07.
+- J2.4.25 | Tinned whelk or conch [golbaengi] |  | Sea snails (whelk, conch) cooked and packed in a sealed tin.
+- J2.1.1.49 | Pufferfish [fugu; fuku] |  | Raw pufferfish (Takifugu and relatives), sold whole or dressed with toxic organs removed, or as sashimi cuts; live fish are OUT (K-26).
+- J2.1.1.50 | Sea trout or brown trout [sewin] |  | Raw trout Salmo trutta, sea-run (sea trout, sewin) or river-resident (brown trout), sold whole or as fillets; rainbow trout is J2.1.1.06.
+- J2.1.1.52 | Whitefish [vendace; pollan; muikku] |  | Raw whitefish of the genus Coregonus (vendace, pollan, lake whitefish), sold whole or as fillets; tinned whitefish is J2.4.28.
+- J2.1.1.53 | Whitebait [shirasu] |  | Juvenile small fish (anchovy, sardine, sprat, herring or galaxiid fry) sold whole, raw or plain boiled; uncoated only, semi-dried fry is J2.3.
+- J2.1.1.54 | Cutlassfish [hairtail; tachiuo; galchi] |  | Raw cutlassfish or hairtail (Trichiurus), sold whole, in pieces or as fillets.
+- J2.3.18 | Dried rockfish [geonureok] |  | Rockfish (Sebastes) salted and dried or half-dried, sold whole to grill or steam; raw rockfish is J2.1.1.47.
+- J2.4.31 | Vinegar-marinated sea bream [sasazuke] |  | Small sea bream fillets salted, then marinated in vinegar and sold chilled in a tub or tray; Wakasa Obama kodai sasazuke is a named form (JC1).
+- J2.5.3.09 | Vendace roe [löjrom] |  | Roe of the vendace Coregonus albula, small orange eggs sold lightly salted, chilled or frozen.
+- J2.2.11 | Smoked shad [scrumbie afumată] |  | Shad (Alosa) salted and smoked, cold or hot, sold whole or as fillets; tinned smoked shad is J2.4 (P3).
+- J2.1.1.55 | Anchovy [boquerón; bocarte] |  | Raw anchovy of the genus Engraulis, sold whole, chilled or frozen; fry sold as whitebait is J2.1.1.53, marinated J2.4.06, tinned J2.4.05.
+- J2.1.3.16 | Cuttlefish [sepia; seiche] |  | Raw cuttlefish of the genus Sepia, sold whole or cleaned, chilled or frozen; dried cuttlefish is J2.3.14, squid J2.1.3.04.
+- J2.1.2.14 | Pink shrimp |  | Shrimp sold as pink shrimp (Pandalus jordani, Farfantepenaeus duorarum), raw or cooked and peeled.
+- J2.1.2.15 | Brown shrimp [grey shrimp; Nordseekrabben] |  | Small brown or grey shrimp Crangon crangon, sold cooked and peeled or potted.
+- J2.1.2.16 | Gulf brown shrimp |  | Brown shrimp Farfantepenaeus aztecus of the Gulf of Mexico and US Atlantic, sold raw or frozen.
+- J2.1.2.17 | Blue shrimp |  | Shrimp Litopenaeus stylirostris sold as blue shrimp (crevette bleue), raw or frozen.
+- J2.1.2.18 | Royal red shrimp |  | Deep-water shrimp Pleoticus robustus sold as royal red, raw or frozen.
+- J2.1.1.56 | Pink salmon [humpback] |  | Raw Pacific salmon Oncorhynchus gorbuscha, sold whole, in pieces or as fillets.
+- J2.1.1.57 | Albacore tuna [white tuna; bonito del norte] |  | Raw albacore tuna Thunnus alalunga, sold whole, in pieces or as fillets.
+- J2.1.1.58 | Skipjack tuna [katsuo] |  | Raw skipjack tuna Katsuwonus pelamis, sold whole, in pieces or as fillets.
+- J2.1.1.59 | Bigeye tuna [mebachi] |  | Raw bigeye tuna Thunnus obesus, sold whole, in pieces or as fillets.
+- J2.1.1.60 | Small tunas [blackfin; longtail (tongol); frigate; bullet] |  | Raw tuna of the smaller species (Thunnus atlanticus, T. tonggol, Auxis), sold whole, in pieces or as fillets.
+- J2.1.1.61 | Marlin [kajiki] |  | Raw marlin (Makaira, Istiompax, Kajikia) or spearfish (Tetrapturus), sold whole, in pieces or as fillets.
+- J2.1.1.62 | Shark [huss; dogfish; mako] |  | Raw shark meat (Squalus, Isurus, Scyliorhinus and relatives), sold whole, in pieces or as fillets.
+- J2.1.1.64 | Mahi-mahi [dolphinfish; dorado] |  | Raw mahi-mahi Coryphaena hippurus, sold whole, in pieces or as fillets.
+- J2.1.1.65 | Phycid hake [white hake; red hake] |  | Raw phycid hake (Urophycis), sold whole, in pieces or as fillets.
+- J2.1.1.66 | Hoki [blue grenadier] |  | Raw hoki Macruronus novaezelandiae and relatives, sold whole, in pieces or as fillets.
+- J2.1.1.68 | Lingcod |  | Raw lingcod Ophiodon elongatus, sold whole, in pieces or as fillets.
+- J2.1.1.69 | Tusk [cusk; torsk] |  | Raw tusk or cusk Brosme brosme, sold whole, in pieces or as fillets.
+- J2.1.1.70 | Wolffish [Atlantic catfish; Steinbeisser] |  | Raw wolffish (Anarhichas), sold whole, in pieces or as fillets.
+- J2.1.1.71 | Black sea bass |  | Raw black sea bass Centropristis striata, sold whole, in pieces or as fillets.
+- J2.1.1.72 | Striped bass [rockfish (US East)] |  | Raw striped bass Morone saxatilis or its farmed hybrid, sold whole, in pieces or as fillets.
+- J2.1.1.73 | Perch [Barsch; yellow perch] |  | Raw perch (Perca), sold whole, in pieces or as fillets.
+- J2.1.1.74 | Pike [Hecht] |  | Raw pike (Esox), sold whole, in pieces or as fillets.
+- J2.1.1.76 | Atka mackerel [hokke] |  | Raw Atka mackerel (Pleurogrammus), sold whole, in pieces or as fillets.
+- J2.1.1.77 | Spanish mackerel [king mackerel; seer fish; sawara] |  | Raw Spanish or king mackerel (Scomberomorus), sold whole, in pieces or as fillets.
+- J2.1.1.78 | Wahoo [ono] |  | Raw wahoo Acanthocybium solandri, sold whole, in pieces or as fillets.
+- J2.1.1.79 | Cobia |  | Raw cobia Rachycentron canadum, sold whole, in pieces or as fillets.
+- J2.1.1.80 | Pompano [golden pompano] |  | Raw pompano (Trachinotus), sold whole, in pieces or as fillets.
+- J2.1.1.81 | Amberjack and yellowtail [kampachi; buri; hamachi; kingfish] |  | Raw amberjack or yellowtail of the genus Seriola (S. dumerili, S. rivoliana, S. quinqueradiata, S. lalandi), sold whole, in pieces or as fillets.
+- J2.1.1.82 | Orange roughy |  | Raw orange roughy Hoplostethus atlanticus, sold whole, in pieces or as fillets.
+- J2.1.1.83 | Bluefish |  | Raw bluefish Pomatomus saltatrix, sold whole, in pieces or as fillets.
+- J2.1.1.84 | Sturgeon |  | Raw sturgeon or paddlefish flesh (Acipenseriformes), sold whole, in pieces or as fillets.
+- J2.1.3.17 | Conch |  | Large sea snail of the conch family (Strombidae, queen conch) sold as meat for eating.
+- J2.1.2.19 | Squat lobster [langostino] |  | Squat lobster (Munida, Pleuroncodes, Cervimunida) sold as langostino tails, raw or cooked.
+- J2.1.1.85 | Grey mullet [tainha; sea mullet] |  | Raw grey mullet (Mugil and relatives), sold whole, in pieces or as fillets.
+- J2.1.1.86 | Opah [moonfish] |  | Raw opah (Lampris), sold whole, in pieces or as fillets.
+- J2.1.1.87 | Lionfish |  | Raw lionfish (Pterois), sold whole, in pieces or as fillets.
+- J2.1.1.88 | Hagfish [kkomjangeo] |  | Raw hagfish (Myxinidae), sold whole, in pieces or as fillets.
+- J2.1.1.89 | Conger eel [anago] |  | Raw conger eel (Conger), sold whole, in pieces or as fillets.
+- J2.1.1.63 | Skate or ray [wings] |  | Raw skate or ray wings (Rajidae), sold whole, in pieces or as fillets.
+- J2.1.1.67 | Ling |  | Raw ling (Molva), sold whole, in pieces or as fillets.
+- J2.1.1.75 | Sprat [brisling] |  | Raw sprat Sprattus sprattus, sold whole, in pieces or as fillets.
+- J2.1.1.90 | Whiting |  | Raw whiting Merlangius merlangus, sold whole, in pieces or as fillets.
+- J2.1.1.92 | Black sea bream |  | Raw black sea bream (Spondyliosoma, Acanthopagrus), sold whole, in pieces or as fillets.
+- J2.1.1.93 | Pouting [bib] |  | Raw pouting Trisopterus luscus, sold whole, in pieces or as fillets.
+- J2.1.1.94 | Red sea bream [madai] |  | Raw red sea bream (Pagrus major, Pagrus pagrus), sold whole, in pieces or as fillets.
+- J2.1.1.95 | Flathead |  | Raw flathead (Platycephalidae), sold whole, in pieces or as fillets.
+- J2.1.1.96 | Sillago whiting [King George whiting; kisu] |  | Raw sillago or King George whiting (Sillaginidae), sold whole, in pieces or as fillets.
+- J2.1.1.97 | Garfish [sayori] |  | Raw garfish or halfbeak (Belonidae, Hemiramphidae), sold whole, in pieces or as fillets.
+- J2.1.1.99 | Blue cod |  | Raw New Zealand blue cod Parapercis colias, sold whole, in pieces or as fillets.
+- J2.1.1.91 | Wreckfish [stone bass; cherne] |  | Raw wreckfish Polyprion americanus, sold whole, in pieces or as fillets.
+- J2.1.1.98 | Snoek [barracouta] |  | Raw snoek Thyrsites atun, sold whole, in pieces or as fillets.

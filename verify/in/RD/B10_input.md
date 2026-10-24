@@ -1,0 +1,232 @@
+# B10 Animal Equipment: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: use or need: which animal first, then what it is for
+- reason: Shops open on the animal and then the need (zooplus: Hund > Hundefutter > trocken; Dadant and the Country Smallholder for bees; System Equine tack by discipline), and AAFCO and PetMD tell buyers to choose a food labelled for the species and life stage first (PetMD).
+- ladder: Which animal? (dogs, cats, small animals, horses, fish, reptiles, cage birds, garden birds, bees, poultry, every pet) > What do you need? (food, walking and restraint, beds and housing, tack, habitat set-up, care, health, toys, travel, ID) > Which type? (dry or wet food; saddle by discipline; filter by tank size; hive by system), then what makes the best one
+- level1_groups: Dogs; Cats; Small animals; Horses; Fish and aquariums; Reptiles and amphibians; Cage and aviary birds; Garden birds and wildlife; Bees and beekeeping; Poultry and backyard livestock; For every pet (several animals)
+- quality_markers: Feed: complete and balanced for the species and life stage (AAFCO statement, nutrient profile or feeding trial; FEDIAF in Europe) first; then protein level well above the minimum and a named meat or fish first in the ingredients (PetMD); then fit to the animal (size, breed, life stage, digestion, allergies, kidney or weight needs, vet diet; zooplus, GummySearch); a known manufacturer and no recalls (WDJ, GummySearch); palatability and stool and coat results (GummySearch); price per kilo (brand price does not track quality: test.de found 9 of 12 private labels gut or better). Tack: the riding discipline first (English, Western; System Equine), then fit (saddle gullet to withers, seat size, bit width, horse size pony/cob/full), then materials and build. Beekeeping: hive type and frame system first (National, Langstroth; Country Smallholder, Dadant), then material (cedar), smoker with guard, comfortable hive tool and gloves. Aquarium and vivarium gear: fit to tank volume and water type, filter turnover 6-10x per hour, UVB output (memo §5). Toys, beds and bowls: preference and durability
+- quality_signals: AAFCO nutrient profiles and feeding trials (AAFCO; attribute standard_met on every feed kind, a gate not a tier); FEDIAF nutritional guidelines (FEDIAF; standard_met, memo); WSAVA guidance on choosing a food (WSAVA; buyer guidance, memo and GummySearch); Whole Dog Journal Approved Foods list (WDJ; class iii tier entry on lines and makers, inclusion only); Stiftung Warentest pet-food grades sehr gut to mangelhaft (test.de; class ii tier entry on named forms); Dog Food Advisor 1-5 stars (memo S24; class iii); Reddit community scores 1-5 (GummySearch; community, weak, small samples); retailer words 'premium' and 'holistic' are unregulated (platform_tag only, memo)
+- maker_role: owner (confirmed, R-104, R-109): shoppers choose by animal and need; makers enter through products and feed lines
+- side_view: Food-brand tab for dog and cat food only (zooplus brand list is its longest filter; WDJ lists by company; GummySearch ranks by brand), with private labels shown beside brands since tests find them equal; saddle houses and aquarium-technology brands stay filters
+- evidence_rows: zooplus.de dry dog food; PetMD how to choose dog food; Whole Dog Journal approved dry foods; Stiftung Warentest cat wet food; System Equine tack guide; Dadant beekeeping supplies; The Country Smallholder: beginning with bees; GummySearch Reddit dog food
+- maker role row: {'code': 'B10', 'scope': '*', 'role': 'owner', 'provisional': 'no', 'reason': 'shoppers choose by animal and need; makers through products (R-104, R-109)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-B10-1 | Dogs | 1 |  | B10.1
+- G-B10-2 | Dog food | 2 | G-B10-1 | B10.1.1.01; B10.1.1.02; B10.1.1.03; B10.1.1.04; B10.1.1.05
+- G-B10-3 | Dog treats | 2 | G-B10-1 | B10.1.1.06
+- G-B10-4 | Collars, leads and harnesses | 2 | G-B10-1 | B10.1.4.01; B10.1.4.02; B10.1.4.03; B10.1.4.04
+- G-B10-5 | Crates, kennels and beds | 2 | G-B10-1 | B10.1.2.01; B10.1.2.02; B10.1.3.01
+- G-B10-6 | Dog coats | 2 | G-B10-1 | B10.1.5.01
+- G-B10-7 | Toys and training | 2 | G-B10-1 | B10.1.6.01; B10.1.6.02
+- G-B10-8 | Clean-up and hygiene | 2 | G-B10-1 | B10.1.7.01
+- G-B10-9 | Cats | 1 |  | B10.2
+- G-B10-10 | Cat food and treats | 2 | G-B10-9 | B10.2.1.01; B10.2.1.02; B10.2.1.03; B10.2.1.04; B10.2.1.05; B10.2.1.06
+- G-B10-11 | Litter | 2 | G-B10-9 | B10.2.3.01; B10.2.3.02; B10.2.3.03
+- G-B10-12 | Cat trees, scratchers and beds | 2 | G-B10-9 | B10.2.2.01; B10.2.2.02; B10.2.2.03
+- G-B10-13 | Small animals | 1 |  | B10.3
+- G-B10-14 | Small-animal food | 2 | G-B10-13 | B10.3.1.01
+- G-B10-15 | Cages and hutches | 2 | G-B10-13 | B10.3.2.01
+- G-B10-16 | Horses | 1 |  | B10.4; B10.12.2; B10.12.5
+- G-B10-17 | Saddles, pads and saddle fittings | 2 | G-B10-16 | B10.4.1.01; B10.4.1.02; B10.4.1.04; B10.4.1.05; B10.4.1.03; B10.12.2.01; B10.12.2.02
+- G-B10-18 | Driving harness | 2 | G-B10-16 | B10.4.1.06
+- G-B10-19 | Bridles, bits, reins, halters and lungeing | 2 | G-B10-16 | B10.4.2.01; B10.4.2.02; B10.4.2.03; B10.4.2.04; B10.4.2.05; B10.4.2.06; B10.4.2.07; B10.4.2.08; B10.12.5.01; B10.4.2.09
+- G-B10-20 | Rugs, fly masks and boots | 2 | G-B10-16 | B10.4.3.01; B10.4.3.02; B10.4.3.05; B10.4.3.06; B10.4.3.03; B10.4.3.04; B10.4.3.07
+- G-B10-21 | Grooming and hoof care | 2 | G-B10-16 | B10.4.4.01; B10.4.4.02; B10.4.4.03
+- G-B10-22 | Horse feed, supplements and hay nets | 2 | G-B10-16 | B10.4.5.01; B10.4.5.02; B10.4.6.01
+- G-B10-23 | Fish and aquariums | 1 |  | B10.5; B10.12.3
+- G-B10-24 | Aquariums | 2 | G-B10-23 | B10.5.2.01
+- G-B10-25 | Filters, media and aeration | 2 | G-B10-23 | B10.5.3.01; B10.5.3.02; B10.5.3.03; B10.5.3.04; B10.5.3.05; B10.12.3.01; B10.5.3.08
+- G-B10-26 | Heating and lighting | 2 | G-B10-23 | B10.5.3.06; B10.5.3.07
+- G-B10-27 | Water testing and treatment | 2 | G-B10-23 | B10.5.5.01; B10.5.5.02
+- G-B10-28 | Substrate and decoration | 2 | G-B10-23 | B10.5.4.01; B10.5.4.02
+- G-B10-29 | Fish food | 2 | G-B10-23 | B10.5.1.01
+- G-B10-30 | Reptiles and amphibians | 1 |  | B10.6
+- G-B10-31 | Vivariums and terrariums | 2 | G-B10-30 | B10.6.2.01
+- G-B10-32 | Heating, UVB lighting and thermostats | 2 | G-B10-30 | B10.6.3.01; B10.6.3.02; B10.6.3.03; B10.6.3.04; B10.6.3.06; B10.6.3.05
+- G-B10-33 | Substrate and hides | 2 | G-B10-30 | B10.6.4.01; B10.6.4.02
+- G-B10-34 | Reptile food and feeders | 2 | G-B10-30 | B10.6.1.01; B10.6.1.02
+- G-B10-35 | Cage and aviary birds | 1 |  | B10.7
+- G-B10-36 | Cages and nest boxes | 2 | G-B10-35 | B10.7.2.01; B10.7.2.02
+- G-B10-37 | Feeders and drinkers | 2 | G-B10-35 | B10.7.1.01; B10.7.5.01
+- G-B10-38 | Perches and toys | 2 | G-B10-35 | B10.7.3.01; B10.7.4.01
+- G-B10-39 | Garden birds and wildlife | 1 |  | B10.8; B10.12.4
+- G-B10-40 | Bird seed and suet | 2 | G-B10-39 | B10.8.1.01; B10.8.1.02
+- G-B10-41 | Bird feeders and fittings | 2 | G-B10-39 | B10.8.2.01; B10.8.2.02; B10.8.2.03; B10.8.2.04; B10.8.2.05; B10.8.2.06; B10.8.2.08; B10.8.2.07; B10.12.4.01; B10.8.2.09
+- G-B10-42 | Nest boxes and bird baths | 2 | G-B10-39 | B10.8.3.01; B10.8.4.01
+- G-B10-43 | Bees and beekeeping | 1 |  | B10.9; B10.12.1
+- G-B10-44 | Hives | 2 | G-B10-43 | B10.9.2.01; B10.9.2.02; B10.9.2.03; B10.9.2.04
+- G-B10-45 | Hive parts (boxes, frames, foundation, excluders) | 2 | G-B10-43 | B10.12.1.01; B10.12.1.02; B10.12.1.04; B10.12.1.03
+- G-B10-46 | Feeding and bee health | 2 | G-B10-43 | B10.9.1.01; B10.9.5.01
+- G-B10-47 | Beekeeper's tools and queen rearing | 2 | G-B10-43 | B10.9.3.01; B10.9.3.02; B10.9.3.03; B10.9.3.04; B10.9.3.05; B10.9.3.06
+- G-B10-48 | Honey harvesting | 2 | G-B10-43 | B10.9.4.01; B10.9.4.02; B10.9.4.03
+- G-B10-49 | Poultry and backyard livestock | 1 |  | B10.10
+- G-B10-50 | Poultry feed | 2 | G-B10-49 | B10.10.1.01; B10.10.1.02; B10.10.1.03; B10.10.1.04
+- G-B10-51 | Feeders and waterers | 2 | G-B10-49 | B10.10.2.01
+- G-B10-52 | Coops | 2 | G-B10-49 | B10.10.3.01
+- G-B10-53 | Hatching and brooding | 2 | G-B10-49 | B10.10.4.01; B10.10.4.02
+- G-B10-54 | For every pet (several animals) | 1 |  | B10.11
+- G-B10-55 | Hay and supplements | 2 | G-B10-54 | B10.11.1.01; B10.11.1.02
+- G-B10-56 | Bowls, fountains and automatic feeders | 2 | G-B10-54 | B10.11.2.01; B10.11.2.02; B10.11.2.03
+- G-B10-57 | Gates, pens, pet doors and fences | 2 | G-B10-54 | B10.11.3.01; B10.11.3.02; B10.11.3.03; B10.11.3.04
+- G-B10-58 | Carriers and travel | 2 | G-B10-54 | B10.11.5.01
+- G-B10-59 | Health, flea and grooming care | 2 | G-B10-54 | B10.11.6.01; B10.11.8.01
+- G-B10-60 | ID, tracking and pet cameras | 2 | G-B10-54 | B10.11.7.01; B10.11.7.02; B10.11.7.03; B10.11.7.04; B10.11.4.01
+- G-B10-61 | Cage-bird food | 2 | G-B10-35 | 
+
+## Current quality markers (group_id | marker | values | why | evidence)
+
+## Kinds (kind_id | stored name | native name | definition)
+- B10.1.1.01 | Dry dog food |  | complete dry kibble food made for dogs.
+- B10.1.1.02 | Wet dog food |  | complete canned or pouched moist food made for dogs.
+- B10.1.1.03 | Fresh or frozen dog food |  | chilled or frozen prepared or raw food made for dogs.
+- B10.1.1.04 | Freeze-dried or air-dried dog food |  | dehydrated raw or cooked food made for dogs.
+- B10.1.1.05 | Veterinary diet (dog) |  | food formulated for a dog's health need and sold as a diet beside dry and wet.
+- B10.1.1.06 | Dog treat |  | a reward or snack for dogs that is not a complete food.
+- B10.1.2.01 | Dog crate |  | a box or cage in which a dog is kept or transported at home.
+- B10.1.2.02 | Dog kennel |  | an outdoor house for a dog.
+- B10.1.3.01 | Dog bed |  | a bed, cushion or basket made for a dog to sleep on.
+- B10.1.4.01 | Dog collar |  | a band worn round a dog's neck.
+- B10.1.4.02 | Dog lead |  | a line used to hold or walk a dog.
+- B10.1.4.03 | Dog harness |  | straps worn round a dog's body to hold or walk it.
+- B10.1.5.01 | Dog coat |  | a garment made to be worn by a dog.
+- B10.1.6.01 | Dog toy |  | an object made for a dog to chew, fetch, tug or play with.
+- B10.1.6.02 | Dog agility equipment |  | obstacles and gear for dog sport and training.
+- B10.2.1.01 | Dry cat food |  | complete dry kibble food made for cats.
+- B10.2.2.01 | Cat tree |  | a free-standing or pole-fixed climbing and resting structure made for cats.
+- B10.2.3.01 | Cat litter |  | absorbent material made for a cat's toilet.
+- B10.3.1.01 | Small-animal food |  | food made for rabbits, guinea pigs, hamsters and other small mammals.
+- B10.3.2.01 | Small-animal cage or hutch |  | a cage, habitat or hutch in which a small mammal is housed.
+- B10.4.1.01 | English saddle |  | a saddle of the English riding tradition.
+- B10.4.1.02 | Western saddle |  | a saddle of the Western riding tradition.
+- B10.4.1.03 | Saddle pad or numnah |  | a pad worn under a saddle.
+- B10.4.2.01 | Bridle |  | headgear with reins by which a horse is steered.
+- B10.4.2.02 | Snaffle bit |  | a direct-pressure bit.
+- B10.4.2.03 | Curb bit |  | a leverage bit.
+- B10.4.2.04 | Bitless bridle (hackamore) |  | headgear that steers without a mouthpiece.
+- B10.4.2.05 | Headcollar or halter |  | headgear used to lead or tie a horse.
+- B10.4.3.01 | Turnout rug |  | a waterproof rug (blanket) worn by a horse outdoors.
+- B10.4.3.02 | Stable rug |  | a rug (blanket) worn by a horse indoors.
+- B10.4.3.03 | Fly mask |  | a mesh mask worn over a horse's face against flies.
+- B10.4.3.04 | Tendon boot |  | a protective boot worn on a horse's leg.
+- B10.4.4.01 | Horse grooming brush |  | a brush made for grooming a horse.
+- B10.5.1.01 | Fish food |  | food made for aquarium or pond fish.
+- B10.5.2.01 | Aquarium (tank) |  | a glass or acrylic tank in which fish are kept.
+- B10.5.3.01 | Canister filter |  | an external filter in a closed canister fed by hoses.
+- B10.5.3.02 | Hang-on-back filter |  | a filter hung on the rear of the tank.
+- B10.5.3.03 | Internal filter |  | a filter placed inside the tank.
+- B10.5.3.04 | Sump |  | a separate tank below the aquarium that holds filtration.
+- B10.5.3.05 | Under-gravel filter |  | a filter plate laid under the gravel.
+- B10.5.3.06 | Aquarium heater |  | a heater that warms aquarium water.
+- B10.5.3.07 | Aquarium light |  | a lamp or light unit made for an aquarium.
+- B10.5.4.01 | Aquarium substrate |  | gravel, sand or other bed material for the tank floor.
+- B10.5.4.02 | Aquarium decoration |  | ornaments, rock, wood and other furnishings for a tank.
+- B10.5.5.01 | Water test kit |  | a kit that tests aquarium water.
+- B10.6.1.01 | Reptile food |  | prepared food made for reptiles and amphibians.
+- B10.6.1.02 | Frozen feeder animal |  | a dead frozen animal sold as food for reptiles; live feeders are out.
+- B10.6.2.01 | Vivarium or terrarium |  | an empty enclosure in which reptiles or amphibians are kept.
+- B10.6.3.01 | Basking lamp |  | a lamp that gives a reptile a heated basking spot.
+- B10.6.3.02 | Ceramic heat emitter |  | a heat source that gives heat without light.
+- B10.6.3.03 | Deep heat projector |  | a heat source that projects infrared heat.
+- B10.6.3.04 | Heat mat |  | a heating pad fitted on or against the enclosure.
+- B10.6.3.05 | Reptile thermostat |  | a control that regulates enclosure heat.
+- B10.6.3.06 | UVB lamp |  | a lamp that gives ultraviolet B light to a reptile.
+- B10.6.4.01 | Reptile substrate |  | floor material for a reptile enclosure.
+- B10.6.4.02 | Reptile hide |  | a shelter in which a reptile hides.
+- B10.8.1.01 | Wild bird seed |  | seed or seed mix made for wild birds.
+- B10.8.1.02 | Suet or fat ball |  | a fat-based wild bird food.
+- B10.8.2.01 | Tube feeder |  | a hanging seed tube with ports.
+- B10.8.2.02 | Hopper feeder |  | a seed feeder with a hopper and a tray.
+- B10.8.2.03 | Suet feeder |  | a feeder that holds suet blocks or cakes.
+- B10.8.2.04 | Nyjer feeder |  | a feeder made for fine nyjer seed.
+- B10.8.2.05 | Peanut mesh feeder |  | a steel-mesh feeder for peanuts.
+- B10.8.2.06 | Ground feeder |  | a feeder or tray set at ground level.
+- B10.8.2.07 | Bird feeding station |  | a stand or table carrying several feeders.
+- B10.8.3.01 | Nest box |  | a box made for wild birds to nest in.
+- B10.8.4.01 | Bird bath |  | a basin that gives wild birds water to drink and bathe in.
+- B10.9.1.01 | Bee feeder |  | a device that gives bees syrup or other feed.
+- B10.9.2.01 | Framed vertical hive |  | a hive that grows upward with frames in stacked boxes.
+- B10.9.2.02 | Long hive |  | a horizontal frame hive.
+- B10.9.2.03 | Top-bar hive |  | a hive whose combs hang from bars.
+- B10.9.2.04 | Warre hive |  | a vertical hive that grows downward with bars in stacked boxes.
+- B10.9.3.01 | Smoker |  | a tool that blows smoke to calm bees.
+- B10.9.4.01 | Honey extractor |  | a machine that spins honey from combs.
+- B10.9.4.02 | Uncapping knife or fork |  | a tool that removes wax cappings from combs.
+- B10.9.4.03 | Honey bottling bucket or tank |  | a bucket or tank that holds honey for bottling.
+- B10.10.1.01 | Poultry starter feed |  | complete feed for chicks.
+- B10.10.1.02 | Poultry grower feed |  | complete feed for growing birds.
+- B10.10.1.03 | Poultry layer feed |  | complete feed for laying hens.
+- B10.10.1.04 | Scratch grain |  | a grain mix fed to poultry as a supplement.
+- B10.10.2.01 | Poultry feeder or waterer |  | a feeder or drinker made for poultry.
+- B10.10.3.01 | Chicken coop |  | a house for backyard hens.
+- B10.10.4.01 | Small incubator |  | a small egg incubator for pet or backyard use; commercial hatchers are not here.
+- B10.11.1.01 | Hay |  | dried grass fed to horses, small mammals and other animals.
+- B10.11.2.01 | Food and water bowl |  | a bowl or dish for food or water, made for more than one animal group.
+- B10.11.3.01 | Pet gate |  | a gate sold only for pets.
+- B10.11.3.02 | Pet pen |  | a pen sold only for pets.
+- B10.11.4.01 | Pet camera |  | a camera sold only for pets.
+- B10.11.5.01 | Pet carrier |  | a carrier that holds an animal and is not a vehicle.
+- B10.11.6.01 | Flea, tick and worm treatment |  | a medicine against parasites in pets.
+- B10.11.7.01 | Pet ID tag |  | a tag worn by a pet that carries its identity.
+- B10.11.7.02 | Identification microchip |  | an implanted chip that identifies an animal.
+- B10.11.7.03 | Microchip scanner |  | a reader of pet identification microchips.
+- B10.11.7.04 | GPS pet tracker |  | a device that tracks a pet's location by GPS.
+- B10.12.1.01 | Hive body or super |  | a box of a hive.
+- B10.12.1.02 | Frame |  | a hive frame that carries comb.
+- B10.12.2.01 | Girth |  | a strap that holds a saddle on a horse.
+- B10.12.3.01 | Aquarium filter media |  | filter material made for one aquarium filter.
+- B10.1.4.04 | Dog muzzle |  | a basket, cage or strap fitted over a dog's muzzle to stop it biting or scavenging.
+- B10.1.7.01 | Dog waste bag |  | a bag made for picking up and disposing of a dog's droppings.
+- B10.11.3.03 | Pet door or cat flap |  | a flap or small door fitted in a door, wall or window that lets a cat or small dog pass in and out.
+- B10.2.2.02 | Cat scratcher |  | a post, pad or board of sisal, cardboard or carpet made for a cat to scratch.
+- B10.12.2.02 | Stirrup |  | a foot rest hung from a saddle for the rider, with or without its leather.
+- B10.4.2.06 | Martingale |  | a strap or straps from the girth to the reins or noseband that limit how high a horse carries its head.
+- B10.4.3.05 | Cooler rug |  | a wicking rug worn by a horse to dry and cool off after work or washing.
+- B10.4.3.06 | Fly rug |  | a light mesh rug (fly sheet) worn by a horse against flies.
+- B10.4.3.07 | Overreach boot |  | a bell-shaped boot (bell boot) worn round a horse's pastern to protect heel and coronet.
+- B10.4.4.02 | Curry comb |  | a rubber, plastic or metal comb with rows of teeth used to loosen dirt and hair from a horse's coat.
+- B10.4.2.07 | Lunge line |  | a long line fixed to a horse's headgear by which it is worked in a circle round the handler.
+- B10.4.1.04 | Australian stock saddle |  | a saddle of the Australian stock-riding tradition, with knee pads (poleys) and a deep seat.
+- B10.4.1.05 | Pack saddle |  | a frame saddle that carries a load, not a rider, on a pack animal.
+- B10.5.3.08 | Aquarium air pump |  | a pump that blows air into an aquarium through a line and air stone.
+- B10.5.5.02 | Aquarium water treatment |  | a liquid or additive that conditions aquarium water (dechlorinator, bacterial starter, clarifier, algae control).
+- B10.7.2.01 | Bird cage |  | a wire cage in which a pet bird is kept.
+- B10.7.3.01 | Bird perch |  | a rod, branch or platform fitted in a cage for a bird to stand on.
+- B10.7.4.01 | Bird toy |  | an object made for a cage bird to chew, forage, climb or play with.
+- B10.7.1.01 | Cage-bird feeder or drinker |  | a cup, dish, hopper or drinker fitted to a bird cage.
+- B10.7.2.02 | Cage-bird nest box |  | a nest box or nest pan fitted to a cage or aviary for breeding birds.
+- B10.12.4.01 | Feeder hook or bracket |  | a hook, bracket or hanger made to hang one bird feeder.
+- B10.8.2.08 | Hummingbird feeder |  | a feeder with ports that gives nectar or sugar water to hummingbirds.
+- B10.12.1.03 | Queen excluder |  | a grid laid between hive boxes that keeps the queen out of the honey supers.
+- B10.12.1.04 | Comb foundation |  | a wax or plastic sheet embossed with cell bases, fitted in a hive frame.
+- B10.9.5.01 | Varroa treatment |  | a medicine, strip or vapour that controls varroa mites in a honey bee colony.
+- B10.10.4.02 | Brooder heating plate |  | a heated plate on legs under which chicks keep warm.
+- B10.11.2.02 | Pet water fountain |  | a powered bowl that circulates and filters drinking water for pets.
+- B10.11.2.03 | Automatic pet feeder |  | a timed or app-controlled dispenser that releases portions of dry food for pets.
+- B10.4.1.06 | Driving harness |  | the set of harness a horse, pony or donkey wears to draw a vehicle or implement: collar or breastplate, harness saddle, traces, breeching and reins.
+- B10.11.3.04 | Electronic pet fence |  | a boundary-wire, wireless or GPS system that keeps a dog or cat inside a set area by signalling a receiver collar it wears.
+- B10.2.1.02 | Wet cat food |  | a moist cat food in a can, pouch or tray.
+- B10.2.1.03 | Fresh or frozen cat food |  | a lightly cooked or raw cat food kept chilled or frozen.
+- B10.2.1.04 | Cat treat |  | a snack fed to a cat apart from its meals; complementary, not a complete diet.
+- B10.4.5.01 | Compound horse feed |  | a manufactured concentrate feed for horses: pellets, cubes, coarse mix or muesli; complete or complementary is an attribute.
+- B10.4.4.03 | Hoof care product |  | an oil, balm, conditioner, packing or poultice applied to a horse's hoof.
+- B10.4.5.02 | Horse supplement |  | a nutritional supplement fed to a horse (joint, hoof, coat, digestive, electrolyte).
+- B10.4.6.01 | Hay net |  | a net or bag of rope or mesh that holds hay for a horse to pull from.
+- B10.11.1.02 | Pet supplement |  | a nutritional supplement for dogs or cats (joint, skin and coat, digestive, calming).
+- B10.11.8.01 | Pet shampoo or coat-care product |  | a shampoo, conditioner, spray or wipe for cleaning a pet's coat and skin.
+- B10.2.1.05 | Veterinary diet (cat) |  | food formulated for a cat's health need and sold as a diet beside dry and wet.
+- B10.2.1.06 | Freeze-dried or air-dried cat food |  | dehydrated raw or cooked food made for cats.
+- B10.4.2.08 | Lead rope |  | a rope or strap with a clip or snap that is fixed to a headcollar to lead or tie up a horse.
+- B10.12.5.01 | Reins |  | a pair of straps or a rope fixed to the bit or noseband, by which a rider or driver steers; sold apart from the bridle.
+- B10.9.3.02 | Hive tool |  | a flat steel lever with a scraper or hook end used to prise apart hive boxes and frames.
+- B10.9.3.03 | Queen-rearing kit |  | a cell-cup system (cups, cell plugs, holders and cell bars) sold as one kit to raise queen bees, with or without grafting.
+- B10.9.3.04 | Queen cage |  | a small cage in which a queen bee is introduced, shipped or marked.
+- B10.9.3.05 | Grafting tool |  | a fine spoon, needle or spring tool that lifts young larvae into queen cups.
+- B10.7.5.01 | Cage-bird food |  | seed mix, pellets, egg food, millet spray or treats made for pet cage and aviary birds; wild-bird food is B10.8.1.
+- B10.4.2.09 | Gag bit |  | bit whose cheekpieces slide through rings on the mouthpiece so rein pressure raises it in the mouth (elevator or gag action).
+- B10.2.2.03 | Wall-mounted cat furniture |  | shelves, steps, bridges and beds fixed to a wall for a cat to climb and rest on.
+- B10.8.2.09 | Platform feeder |  | open tray feeder raised on a pole, hung or fixed to a feeder, from which birds take seed.
+- B10.9.3.06 | Frame grip |  | hand tool that grips the top bar of a hive frame so it can be lifted out of the box.
+- B10.2.3.02 | Self-cleaning litter box |  | powered cat litter box that rakes, sifts or rotates waste into a sealed bin after use.
+- B10.2.3.03 | Litter disposal pail |  | lidded bin that seals used cat litter in a bag or film until it is emptied.

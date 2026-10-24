@@ -1,0 +1,313 @@
+# C4 Craft & Art Supplies: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: use or need (the craft discipline)
+- reason: Craft shops and product-data guidance open on the craft (art, sewing, knitting, papercraft: Hobbycraft UK departments; WisePIM), and grade, difficulty and quality tier are attributes there; Yuzawaya also groups by material and craft; the decided tree is already craft-first (Candidate A).
+- ladder: Which craft? > What do you need? (material, support, tool, machine, notion) > Which medium or type, and which range is best? (grade, lightfastness, fibre and weight, machine type)
+- level1_groups: Art & painting (C4.1); Sewing & quilting (C4.2); Knitting, crochet & needlecraft (C4.3); Leathercraft (C4.4); Jewellery & beading (C4.5); Papercraft & card making (C4.6); Pottery & clay (C4.7); Model-making (C4.8); Candle, soap & resin (C4.9, C4.10); Glass & mosaic (C4.11); Basketry, floristry & woodcraft (C4.12, C4.13, C4.14); Craft tools, cutters & glue (C4.15); Machine parts & accessories (C4.16)
+- quality_markers: Artist colours: lightfastness (ASTM I excellent to V; I and II as artist quality); pigment load and tint strength; single-pigment colours (Colour Index code); artist against student range; opacity, staining and granulation by need. Yarn: fibre content; weight matched to the pattern; colour and texture; care. Sewing machines: build, motor and stability; stitch quality and tension; features for the use and skill; brand reliability and servicing. Clay: firing range (cone). Leather: tannage, grain grade, weight (memo). Beads: shape consistency of the maker's line (memo).
+- quality_signals: ASTM lightfastness rating I to V, ASTM D4303 based, printed by makers (class i attribute with standard_met; Golden; definition only from a search excerpt, provisional); Colour Index pigment name (attribute; Golden); artist against student grade (class iv maker range ladder; Stephen Berry, memo Winsor & Newton and Sennelier); CYC Standard Yarn Weight System 0 to 7 (attribute; memo); ACMI AP and CL seals (safety, standard_met; memo); no independent test body found for machines or yarn (evidence gap)
+- maker_role: owner, revised to way_in for yarn (scope C4.3 yarn and fibre kinds; provisional): knitters identify yarns by yarn company and fibre (Ravelry) and indie dyers are a long local tail (BRIEF lists crafts for later regional harvests); colours, machines and tools stay owner, ranges carrying the maker
+- side_view: Yarn companies and dyers tab (way in for yarn); colour makers tab grouped by artist and student ranges; sewing-machine brands tab
+- evidence_rows: Hobbycraft UK departments; WisePIM crafts and hobbies category guide (Germany); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications; The Loopy Ewe yarn guide; Ravelry yarns tab; The Sewing Studio (UK) sewing machine guide; Yuzawaya (Japan) online store
+- maker role row: {'code': 'C4', 'scope': 'yarn', 'role': 'way_in', 'provisional': 'yes', 'reason': 'yarn companies are how knitters choose (Ravelry evidence, HOL_DP_4, R-116)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-C4-1 | Art & painting | 1 |  | C4.1; C4.1.1; C4.1.2; C4.1.3
+- G-C4-101 | Colours & drawing media | 2 | G-C4-1 | C4.1.1.01; C4.1.1.02; C4.1.1.03; C4.1.1.04; C4.1.1.05; C4.1.1.06; C4.1.1.07; C4.1.1.08; C4.1.1.09; C4.1.1.10; C4.1.1.11; C4.1.1.12; C4.1.1.13
+- G-C4-102 | Canvas, paper & supports | 2 | G-C4-1 | C4.1.2.01; C4.1.2.02; C4.1.2.03; C4.1.2.04; C4.1.2.05; C4.1.2.06; C4.1.2.07
+- G-C4-103 | Brushes, easels & printmaking tools | 2 | G-C4-1 | C4.1.3.01; C4.1.3.02; C4.1.3.03; C4.1.3.04; C4.1.3.05; C4.1.3.06; C4.1.3.07; C4.1.3.08
+- G-C4-104 | Painting kits | 2 | G-C4-1 | C4.1.0.01; C4.1.0.02
+- G-C4-2 | Sewing & quilting | 1 |  | C4.2.1; C4.2.2; C4.2.3; C4.2.4; C4.2.5
+- G-C4-105 | Sewing machines | 2 | G-C4-2 | C4.2.1.01; C4.2.1.02; C4.2.1.03; C4.2.1.04
+- G-C4-106 | Fabric | 2 | G-C4-2 | C4.2.2.01; C4.2.2.02; C4.2.2.03; C4.2.2.04; C4.2.2.05; C4.2.2.06
+- G-C4-107 | Fabric dye & paint | 2 | G-C4-2 | C4.2.3.01; C4.2.3.02
+- G-C4-108 | Thread & haberdashery | 2 | G-C4-2 | C4.2.4.01; C4.2.4.02; C4.2.4.03; C4.2.4.04; C4.2.4.05; C4.2.4.06; C4.2.4.07; C4.2.4.08
+- G-C4-109 | Hand tools & dress forms | 2 | G-C4-2 | C4.2.5.01; C4.2.5.02; C4.2.5.03; C4.2.5.04; C4.2.5.05
+- G-C4-3 | Knitting, crochet & needlecraft | 1 |  | C4.3; C4.3.0; C4.3.1; C4.3.2; C4.3.3
+- G-C4-110 | Yarn, fibre & needlecraft cloth | 2 | G-C4-3 | C4.3.1.01; C4.3.1.02; C4.3.1.03; C4.3.1.04; C4.3.1.05; C4.3.1.06; C4.3.1.07
+- G-C4-111 | Needles, hooks & hand tools | 2 | G-C4-3 | C4.3.2.01; C4.3.2.02; C4.3.2.03; C4.3.2.04; C4.3.2.05; C4.3.2.06; C4.3.2.07; C4.3.2.08; C4.3.2.09; C4.3.2.10; C4.3.2.11; C4.3.2.12
+- G-C4-112 | Knitting machines, wheels & looms | 2 | G-C4-3 | C4.3.3.01; C4.3.3.02; C4.3.3.03
+- G-C4-113 | Needlecraft & yarn kits | 2 | G-C4-3 | C4.3.0.01; C4.3.0.02
+- G-C4-4 | Leathercraft | 1 |  | C4.4.1; C4.4.2
+- G-C4-114 | Leather | 2 | G-C4-4 | C4.4.1.01; C4.4.1.02; C4.4.1.03; C4.4.1.04; C4.4.1.05
+- G-C4-115 | Leather finishes & tools | 2 | G-C4-4 | C4.4.2.01; C4.4.2.02; C4.4.2.03; C4.4.2.04; C4.4.2.05; C4.4.2.06
+- G-C4-5 | Jewellery & beading | 1 |  | C4.5.1; C4.5.2; C4.5.3
+- G-C4-116 | Beads & craft stones | 2 | G-C4-5 | C4.5.1.01; C4.5.1.02; C4.5.1.03; C4.5.1.04; C4.5.1.05; C4.5.1.06
+- G-C4-117 | Findings & stringing | 2 | G-C4-5 | C4.5.2.01; C4.5.2.02; C4.5.2.03; C4.5.2.04; C4.5.2.05; C4.5.2.06; C4.5.2.07; C4.5.2.08; C4.5.2.09; C4.5.2.10; C4.5.2.11; C4.5.2.12
+- G-C4-118 | Jewellery-making tools | 2 | G-C4-5 | C4.5.3.01; C4.5.3.02; C4.5.3.03; C4.5.3.04; C4.5.3.05
+- G-C4-6 | Papercraft & card making | 1 |  | C4.6
+- G-C4-119 | Paper, card & tapes | 2 | G-C4-6 | C4.6.01; C4.6.02; C4.6.06; C4.6.07; C4.6.08; C4.6.13
+- G-C4-120 | Stamping & embossing | 2 | G-C4-6 | C4.6.04; C4.6.05; C4.6.09; C4.6.10
+- G-C4-121 | Die cutting, punching & folding | 2 | G-C4-6 | C4.6.03; C4.6.11; C4.6.12; C4.6.14; C4.6.15
+- G-C4-7 | Pottery & clay | 1 |  | C4.7.1; C4.7.2
+- G-C4-122 | Kiln clays | 2 | G-C4-7 | C4.7.1.01; C4.7.1.02; C4.7.1.03; C4.7.1.04
+- G-C4-123 | Air-dry, polymer & modelling clays | 2 | G-C4-7 | C4.7.1.05; C4.7.1.06; C4.7.1.07
+- G-C4-124 | Wheels, kilns & studio equipment | 2 | G-C4-7 | C4.7.2.01; C4.7.2.02; C4.7.2.03; C4.7.2.05
+- G-C4-125 | Glazes & underglazes | 2 | G-C4-7 | C4.7.2.04; C4.7.2.06; C4.7.2.07
+- G-C4-8 | Model-making | 1 |  | C4.8
+- G-C4-126 | Model paints | 2 | G-C4-8 | C4.8.01; C4.8.02; C4.8.03
+- G-C4-127 | Primers, thinners & varnishes | 2 | G-C4-8 | C4.8.06; C4.8.07; C4.8.08
+- G-C4-128 | Cement & putty | 2 | G-C4-8 | C4.8.04; C4.8.05
+- G-C4-9 | Candle, soap & resin | 1 |  | C4.9; C4.10
+- G-C4-129 | Candle making | 2 | G-C4-9 | C4.9.01; C4.9.02; C4.9.03; C4.9.06
+- G-C4-130 | Soap making | 2 | G-C4-9 | C4.9.04; C4.9.05
+- G-C4-131 | Resin & casting | 2 | G-C4-9 | C4.10.01; C4.10.02; C4.10.03; C4.10.04; C4.10.05; C4.10.06
+- G-C4-10 | Glass & mosaic | 1 |  | C4.11
+- G-C4-132 | Glass & mosaic materials | 2 | G-C4-10 | C4.11.01; C4.11.02; C4.11.06; C4.11.07; C4.11.10
+- G-C4-133 | Glass tools & kilns | 2 | G-C4-10 | C4.11.03; C4.11.04; C4.11.05; C4.11.08; C4.11.09
+- G-C4-11 | Basketry, floristry & woodcraft | 1 |  | C4.12; C4.13; C4.14
+- G-C4-134 | Basketry & caning | 2 | G-C4-11 | C4.12.01; C4.12.02; C4.12.03; C4.12.04; C4.12.05; C4.12.06; C4.12.07; C4.12.08
+- G-C4-135 | Floristry sundries | 2 | G-C4-11 | C4.13.01; C4.13.02; C4.13.03; C4.13.04
+- G-C4-136 | Wood blanks & pyrography | 2 | G-C4-11 | C4.14.01; C4.14.02; C4.14.03
+- G-C4-12 | Craft tools, cutters & glue | 1 |  | C4.15.1; C4.15.2; C4.15.3; C4.15.4; C4.15.5
+- G-C4-137 | Cutting tools & machines | 2 | G-C4-12 | C4.15.1.01; C4.15.1.02; C4.15.1.03; C4.15.1.04; C4.15.1.05; C4.15.1.06
+- G-C4-138 | Heat press | 2 | G-C4-12 | C4.15.2.01
+- G-C4-139 | Glue & adhesives | 2 | G-C4-12 | C4.15.3.01; C4.15.3.02; C4.15.3.03; C4.15.3.04; C4.15.3.05
+- G-C4-140 | Airbrushes | 2 | G-C4-12 | C4.15.4.01
+- G-C4-141 | Decorating materials | 2 | G-C4-12 | C4.15.5.01; C4.15.5.02; C4.15.5.03
+- G-C4-13 | Machine parts & accessories | 1 |  | C4.16.1; C4.16.2; C4.16.3; C4.16.4; C4.16.5
+- G-C4-142 | Sewing-machine parts | 2 | G-C4-13 | C4.16.1.01; C4.16.1.02; C4.16.1.03; C4.16.1.04; C4.16.1.05; C4.16.1.06; C4.16.1.07
+- G-C4-143 | Airbrush parts | 2 | G-C4-13 | C4.16.2.01; C4.16.2.02; C4.16.2.03
+- G-C4-144 | Kiln parts | 2 | G-C4-13 | C4.16.3.01; C4.16.3.02
+- G-C4-145 | Cutting-tool parts | 2 | G-C4-13 | C4.16.4.01
+- G-C4-146 | Glue-gun supplies | 2 | G-C4-13 | C4.16.5.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-C4-101 | lightfastness | ASTM I (excellent) > II > III > IV > V; I and II as artist quality | The first test of an artist colour. | proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
+- G-C4-101 | pigment load and tint strength |  | More pigment, stronger colour. | proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
+- G-C4-101 | single-pigment colours (Colour Index code) | single pigment > mixture | The CI code shows what is in the tube. | proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
+- G-C4-101 | artist against student range | artist > student | Grade sits on the maker range (tier entry), never on the kind. | proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
+- G-C4-101 | opacity, staining and granulation |  | Chosen by need, not a ladder. | proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
+- G-C4-110 | fibre content |  | Knitters identify yarns by company and fibre. | proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
+- G-C4-110 | weight matched to the pattern |  | A fit, not a ladder; yarn shops go by weight first (DPW1_C4). | proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
+- G-C4-110 | colour and texture |  | Weighed after fibre and weight. | proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
+- G-C4-110 | care |  | Washability last. | proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
+- G-C4-105 | build, motor and stability |  | A solid frame and motor lead. | proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
+- G-C4-105 | stitch quality and tension |  | Even stitches and tension next. | proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
+- G-C4-105 | features for the use and skill |  | Matched to the sewer, not more is better. | proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
+- G-C4-105 | brand reliability and servicing |  | Dealer service counts. | proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
+- G-C4-122 | firing range (cone) |  | A fit to the kiln and glaze, not a ladder. | proposals.tsv C4 row (quality_markers)
+- G-C4-114 | tannage |  | Leather is chosen by tannage first (memo). | proposals.tsv C4 row (quality_markers); C4 memo
+- G-C4-114 | grain grade |  | Grade after tannage (memo). | proposals.tsv C4 row (quality_markers); C4 memo
+- G-C4-114 | weight (oz) |  | A fit to the project (memo). | proposals.tsv C4 row (quality_markers); C4 memo
+- G-C4-116 | shape consistency of the maker's line |  | Seed beads are compared by maker line (memo). | proposals.tsv C4 row (quality_markers); C4 memo
+
+## Kinds (kind_id | stored name | native name | definition)
+- C4.7.1.01 | Earthenware clay |  | low-fired clay body.
+- C4.7.1.02 | Stoneware clay |  | mid-to-high-fired dense clay body.
+- C4.7.1.03 | Porcelain clay |  | high-fired white translucent clay body.
+- C4.7.1.04 | Paper clay |  | clay body mixed with paper fibre.
+- C4.7.1.05 | Air-dry clay |  | clay that hardens in air without firing.
+- C4.7.1.06 | Polymer clay |  | PVC-based modelling clay hardened in a home oven.
+- C4.7.2.01 | Potter's wheel |  | powered or kick wheel made for throwing pots.
+- C4.7.2.02 | Slab roller |  | machine that rolls clay into even slabs (K-172).
+- C4.7.2.03 | Pugmill |  | machine that mixes and de-airs clay (K-172).
+- C4.7.2.04 | Glaze |  | glassy coating made to be fired onto ceramics.
+- C4.7.2.05 | Ceramic kiln (clay) |  | kiln made for firing clay; `fuel`, `loading` and `chamber_size` are attributes.
+- C4.8.01 | Acrylic model paint |  | water-based acrylic paint made for models.
+- C4.8.02 | Enamel model paint |  | solvent-based enamel paint made for models.
+- C4.8.03 | Lacquer model paint |  | lacquer paint made for models.
+- C4.8.04 | Model cement |  | plastic cement made for joining model parts.
+- C4.8.05 | Modelling putty |  | filler putty made for model surfaces.
+- C4.9.01 | Candle wax |  | wax sold for making candles (K-191).
+- C4.9.02 | Candle wick |  | wick sold for making candles.
+- C4.9.03 | Candle mould |  | mould made for casting candles.
+- C4.9.04 | Soap base |  | melt-and-pour or other soap base sold for making soap.
+- C4.10.01 | Casting resin |  | two-part resin sold for craft casting.
+- C4.10.02 | Craft mould (silicone and other) |  | mould made for craft casting in resin or plaster.
+- C4.11.01 | Stained-glass sheet |  | coloured glass sheet sold for stained-glass work.
+- C4.11.02 | Mosaic tile |  | small tile or tessera sold for mosaic work.
+- C4.11.03 | Glass cutter |  | hand tool made for scoring glass.
+- C4.11.04 | Glass-fusing kiln |  | kiln made only for fusing and slumping glass.
+- C4.12.01 | Basketry cane and reed |  | cane or reed sold for weaving baskets.
+- C4.12.02 | Raffia |  | palm-fibre strand sold for weaving and craft.
+- C4.13.01 | Floral foam |  | absorbent foam made to hold stems in arrangements.
+- C4.13.02 | Florist wire |  | wire made for binding and supporting stems.
+- C4.14.01 | Craft wood blank and shape |  | wooden plaque, shape or blank sold for crafts.
+- C4.14.02 | Turning blank |  | wood blank sold for craft turning.
+- C4.14.03 | Pyrography pen |  | heated pen made for burning designs into wood.
+- C4.15.1.01 | Craft scissors |  | scissors made for craft cutting (K-171).
+- C4.15.1.02 | Rotary cutter |  | wheel-bladed hand cutter for fabric and paper.
+- C4.15.1.03 | Craft knife (hobby knife) |  | small replaceable-blade knife for craft cutting.
+- C4.15.1.04 | Cutting mat |  | self-healing mat that protects the work surface during cutting.
+- C4.15.1.05 | Craft cutting machine (Cricut-type) |  | electronic cutting plotter for paper, vinyl and fabric (K-172).
+- C4.15.2.01 | Heat press |  | press that applies heat and pressure to transfer designs onto fabric and other blanks (K-172).
+- C4.15.3.01 | Craft glue (PVA and other liquid craft glues) |  | liquid glue made for crafts (K-171).
+- C4.15.3.02 | Hot-glue gun |  | electric gun that melts glue sticks for craft bonding.
+- C4.15.3.03 | Spray adhesive |  | aerosol adhesive made for crafts.
+- C4.15.4.01 | Airbrush |  | compressed-air spray tool made for fine painting of pictures and models.
+- C4.15.5.01 | Craft paint (for decorating objects, by surface) |  | paint made for decorating craft objects (K-172).
+- C4.16.1.01 | Presser foot |  | interchangeable foot that holds fabric under a sewing-machine needle.
+- C4.16.1.02 | Machine needle |  | needle made for a sewing machine.
+- C4.16.1.03 | Extension table |  | table that clips to a sewing machine to enlarge the bed.
+- C4.16.1.04 | Bobbin |  | spool that holds the lower thread of a sewing machine.
+- C4.16.2.01 | Airbrush compressor |  | compressor made to drive an airbrush (S3).
+- C4.1.1.01 | Watercolour paint |  | transparent water-soluble paint in tubes or pans made for painting pictures.
+- C4.1.1.02 | Acrylic paint |  | water-based paint with an acrylic polymer binder made for painting pictures.
+- C4.1.1.03 | Oil paint |  | artists' paint with pigment bound in drying oil.
+- C4.1.1.04 | Gouache |  | opaque water-based paint made for painting pictures.
+- C4.1.1.05 | Art ink |  | liquid ink made for drawing and painting pictures.
+- C4.1.1.06 | Printing ink |  | ink made for relief and other hand printmaking.
+- C4.1.1.07 | Paint medium (acrylic medium, gesso, primer) |  | medium, ground or primer mixed with or laid under artists' paint.
+- C4.1.1.08 | Coloured pencil |  | pencil with a coloured core made for drawing.
+- C4.1.1.09 | Pastel |  | stick of pigment and binder (soft, oil or hard pastel) made for drawing and painting.
+- C4.1.1.10 | Drawing pen and marker |  | pen, fineliner or marker whose maker's first-named use is drawing, comics or painting (K-170).
+- C4.1.2.01 | Stretched canvas |  | artists' canvas stretched on a frame, ready to paint.
+- C4.1.2.02 | Watercolour paper pad |  | pad or block of paper made for watercolour painting.
+- C4.1.2.03 | Sketchbook |  | bound book of blank drawing paper made for sketching.
+- C4.1.3.01 | Artist brush |  | brush made for painting pictures; hair and shape are attributes (brush choice level provisional, C-16).
+- C4.1.3.02 | Easel |  | stand that holds a canvas or board while it is painted (K-172).
+- C4.1.3.03 | Relief-cutting tool (lino and wood) |  | hand cutter made for carving lino or wood blocks for printing.
+- C4.1.3.04 | Brayer |  | hand roller made for rolling ink onto a printing block.
+- C4.1.3.05 | Printing press |  | hand press made for pulling relief or intaglio prints.
+- C4.1.0.01 | Paint-by-numbers kit |  | kit of a numbered printed outline with matching numbered paints and brush, sold and compared as one object (K-1).
+- C4.1.0.02 | Diamond-painting kit |  | kit of a coded adhesive canvas with resin drills and applicator, sold and compared as one object (K-1).
+- C4.2.1.01 | Sewing machine (lockstitch) |  | machine that sews seams with a lockstitch.
+- C4.2.1.02 | Overlock machine (serger) |  | machine that trims, seams and overcasts an edge in one pass with looper threads.
+- C4.2.1.03 | Embroidery machine |  | machine that stitches embroidery designs automatically from a hoop.
+- C4.2.1.04 | Longarm quilting machine |  | long-throat machine on a frame made for quilting through layered fabric.
+- C4.2.2.01 | Plain-weave cotton (alias quilting cotton) |  | plain-woven cotton cloth sold by the metre or as cuts for sewing and quilting.
+- C4.2.2.02 | Denim |  | twill-woven cotton cloth sold for sewing.
+- C4.2.2.03 | Jersey |  | knitted stretch cloth sold for sewing.
+- C4.2.2.04 | Felt |  | non-woven matted cloth sold as craft or sewing material.
+- C4.2.2.05 | Interfacing |  | stiffening fabric, fusible or sew-in, made to back other cloth.
+- C4.2.3.01 | Textile dye |  | dye made for colouring fabric and fibre (B6-O1).
+- C4.2.3.02 | Fabric paint |  | paint made to decorate fabric.
+- C4.2.4.01 | Sewing thread |  | thread made for hand or machine sewing.
+- C4.2.4.02 | Zip |  | zip fastener sold loose for sewing in.
+- C4.2.4.03 | Button |  | button sold loose for sewing on.
+- C4.2.4.04 | Ribbon |  | narrow woven strip sold for trimming and sewing.
+- C4.2.5.01 | Dress form (dressmaking mannequin) |  | adjustable or fixed body form for fitting garments.
+- C4.2.5.02 | Dressmaking shears |  | long-bladed shears made for cutting fabric (K-171).
+- C4.3.1.01 | Knitting and crochet yarn |  | spun yarn sold in balls, skeins or cones for knitting and crochet.
+- C4.3.1.02 | Crochet thread |  | fine tightly spun thread made for crochet and lacework.
+- C4.3.1.03 | Embroidery floss |  | divisible stranded thread made for hand embroidery and cross stitch.
+- C4.3.1.04 | Unspun fibre |  | fleece, roving or top sold for spinning or felting.
+- C4.3.1.05 | Needlecraft cloth (Aida, evenweave, needlepoint canvas) |  | counted-thread cloth or canvas made for hand stitching.
+- C4.3.2.01 | Straight knitting needle |  | single-pointed rigid needle sold in pairs for flat knitting.
+- C4.3.2.02 | Circular knitting needle |  | two needle tips joined by a flexible cable.
+- C4.3.2.03 | Crochet hook |  | hooked tool made for crochet.
+- C4.3.2.04 | Embroidery hoop |  | pair of rings that holds cloth taut for hand stitching.
+- C4.3.2.05 | Drop spindle |  | weighted hand spindle made for spinning yarn.
+- C4.3.3.01 | Knitting machine |  | machine that knits fabric with a bed of latch needles.
+- C4.3.3.02 | Spinning wheel |  | wheel-driven device made for spinning fibre into yarn.
+- C4.3.3.03 | Loom (hand or mechanical, by `drive`) |  | frame or machine made for weaving cloth.
+- C4.3.0.01 | Needlecraft kit (cross-stitch, embroidery, needlepoint) |  | kit of printed or counted cloth, floss and needle for one design, sold and compared as one object (K-1).
+- C4.4.1.01 | Vegetable-tanned leather |  | leather tanned with plant tannins, sold as hides, sides or pieces for craft.
+- C4.4.1.02 | Chrome-tanned leather |  | leather tanned with chromium salts, sold for craft.
+- C4.4.1.03 | Suede |  | leather finished on the flesh side to a napped surface, sold for craft.
+- C4.4.1.04 | Hair-on hide |  | tanned hide with the hair left on, sold as craft material.
+- C4.4.2.01 | Leather dye |  | dye made for colouring leather.
+- C4.4.2.02 | Leather punch |  | hand tool made for punching holes in leather.
+- C4.5.1.01 | Seed bead |  | small uniform glass bead sold for bead weaving and stringing.
+- C4.5.1.02 | Fire-polished glass bead |  | faceted glass bead with fire-polished edges.
+- C4.5.1.03 | Gemstone bead, drilled |  | gemstone bead drilled for stringing (K-78).
+- C4.5.1.04 | Pearl bead, drilled |  | pearl drilled for stringing (K-78).
+- C4.5.1.05 | Rhinestone and craft stone |  | faceted glass or synthetic stone made to set or glue on (K-77).
+- C4.5.1.06 | Craft shell assortment |  | unsorted assortment of shells sold for crafts (K-78).
+- C4.5.2.01 | Clasp |  | fastening finding made to close a necklace or bracelet.
+- C4.5.2.02 | Beading wire |  | flexible coated wire made for stringing beads.
+- C4.5.3.01 | Jewellery soldering torch and kit |  | torch or kit made for soldering, brazing or annealing jewellery (C4-O2, K-171).
+- C4.5.3.02 | Jeweller's saw |  | fine-bladed frame saw made for cutting metal in jewellery work.
+- C4.5.3.03 | Jewellery pliers |  | small pliers made for bending wire and closing findings.
+- C4.6.01 | Cardstock |  | heavy paper sold in sheets for card making and scrapbooking.
+- C4.6.02 | Scrapbook album, blank |  | empty album made for scrapbooking (K-9).
+- C4.6.03 | Cutting die |  | shaped metal die used in a die-cutting machine to cut paper.
+- C4.6.04 | Craft stamp |  | decorative rubber, clear or wooden stamp made for paper craft (K-171).
+- C4.6.05 | Ink pad |  | ink pad made for decorative stamps (K-171).
+- C4.6.06 | Washi tape |  | decorative paper masking tape (K-171).
+- C4.6.07 | Origami paper |  | square paper sheets made for paper folding (K-171).
+- C4.1.1.11 | Drawing charcoal |  | Vine, willow or compressed charcoal stick made for drawing pictures.
+- C4.1.1.12 | Crayon |  | Wax crayon made for drawing and colouring pictures.
+- C4.1.1.13 | Fixative |  | Spray or liquid sealer made to fix charcoal, pastel and pencil drawings.
+- C4.1.3.06 | Brush cleaner |  | Soap, solvent or washer made for cleaning artists' brushes.
+- C4.1.2.04 | Canvas board and painting panel |  | Canvas laid on board, or a rigid primed panel, made to paint on.
+- C4.1.2.05 | Stretcher bar |  | Wooden bar sold in pairs to build a frame for stretching canvas.
+- C4.1.2.06 | Canvas roll |  | Unstretched artists' canvas sold by the roll or metre.
+- C4.1.3.07 | Baren |  | Hand pad made for burnishing paper onto an inked block in relief printing.
+- C4.1.2.07 | Printing block and plate |  | Lino, wood, soft-cut or metal block or plate made to be cut or etched for printing.
+- C4.1.3.08 | Screen-printing screen |  | Mesh screen on a frame made for hand screen printing.
+- C4.2.5.03 | Hand sewing needle |  | Needle made for hand sewing with thread (sharps, betweens, quilting).
+- C4.2.5.04 | Pin and fabric clip |  | Pin or clip made to hold fabric layers while sewing.
+- C4.2.4.05 | Bias binding |  | Bias-cut fabric tape sold loose for binding edges.
+- C4.2.4.06 | Elastic |  | Stretch tape or cord sold loose for sewing into garments.
+- C4.2.4.07 | Trim (lace, braid, fringe) |  | Lace, braid, fringe or pom-pom edging sold by the metre for sewing on.
+- C4.15.5.02 | Sequin |  | Small shiny disc or shape sold loose to sew or glue on.
+- C4.2.4.08 | Patch (iron-on and sew-on) |  | Fabric patch or appliqué sold loose to iron or sew onto cloth.
+- C4.2.2.06 | Batting (wadding) |  | Non-woven filling sheet sold by the metre or pack for quilting and padding.
+- C4.3.2.06 | Double-pointed knitting needle |  | Short needle pointed at both ends, sold in sets for knitting in the round.
+- C4.3.2.07 | Knitting loom |  | Peg frame, round or long, made for knitting with yarn by hand.
+- C4.3.2.08 | Pom-pom maker |  | Hand tool made for winding and cutting yarn pom-poms.
+- C4.3.2.09 | Yarn bowl |  | Bowl with a slot that holds a ball of yarn while knitting or crocheting.
+- C4.3.1.06 | Macramé cord |  | Twisted or braided cord sold for macramé knotting.
+- C4.3.2.10 | Punch needle |  | Hollow needle tool made for punching yarn or floss loops through cloth.
+- C4.3.0.02 | Yarn and fibre craft kit (knitting, crochet, amigurumi, needle felting) |  | Kit of yarn or fibre with needles, hook or felting needle and pattern for one project, sold and compared as one object (K-1).
+- C4.3.2.11 | Tapestry and embroidery needle |  | Large-eyed hand needle made for stitching with yarn or floss.
+- C4.3.2.12 | Felting needle |  | Barbed needle made for felting unspun fibre by hand.
+- C4.3.1.07 | Non-divisible embroidery thread (pearl cotton, tapestry wool) |  | Twisted thread or wool not divided into strands, made for hand embroidery and needlepoint.
+- C4.4.1.05 | Leather lace |  | Leather cut into lacing strips, sold for stitching and lacing.
+- C4.4.2.03 | Leathercraft hardware (rivet, snap, buckle) |  | Rivets, snaps, buckles and similar fittings sold loose for leatherwork.
+- C4.4.2.04 | Leather stamping tool |  | Metal stamp struck to tool patterns into damp leather.
+- C4.4.2.05 | Swivel knife |  | Knife with a rotating barrel made for carving leather.
+- C4.4.2.06 | Leather finish |  | Sealer, antique or conditioner made to finish leather in leathercraft.
+- C4.5.2.03 | Crimp bead and tube |  | Soft metal bead or tube crushed to secure stringing wire.
+- C4.5.2.04 | Head pin and eye pin |  | Wire pin with a flat head or loop made to hang beads.
+- C4.5.2.05 | Jump ring |  | Open or closed wire ring made to link jewellery parts.
+- C4.5.2.06 | Earring finding |  | Ear wire, post, hoop or clip made to build earrings.
+- C4.5.2.07 | Bail |  | Finding that hangs a pendant on a chain or cord.
+- C4.5.2.08 | Bead cap |  | Cup-shaped metal finding that caps a bead.
+- C4.5.2.09 | Connector and link |  | Finding with loops at each end that joins jewellery parts.
+- C4.5.2.10 | Beading thread and cord |  | Thread, stretch cord or cord made for stringing beads.
+- C4.5.2.11 | Jewellery wire |  | Solid metal wire sold for wire-wrapping and jewellery making.
+- C4.5.2.12 | Jewellery solder |  | Solder wire, sheet or paste made for joining jewellery metal.
+- C4.5.3.04 | Bead loom |  | Frame made for weaving seed beads on warp threads.
+- C4.5.3.05 | Bead design board |  | Flocked tray with channels made for laying out bead designs.
+- C4.15.5.03 | Shrink plastic sheet |  | Plastic sheet that shrinks and hardens when baked, sold for making charms.
+- C4.6.08 | Patterned craft paper |  | Printed decorative paper sold in sheets or pads for scrapbooking and card making.
+- C4.6.09 | Embossing powder |  | Powder melted by heat over stamped ink to raise a design.
+- C4.6.10 | Embossing heat tool |  | Hot-air tool made to melt embossing powder.
+- C4.6.11 | Craft paper punch |  | Punch that cuts a decorative shape or border from paper.
+- C4.6.12 | Craft paper trimmer |  | Sliding or rotary trimmer made for cutting paper and card in paper craft.
+- C4.6.13 | Quilling paper |  | Narrow paper strips sold for rolling into quilled shapes.
+- C4.6.15 | Die-cutting machine (manual) |  | Hand-cranked roller press that cuts paper with cutting dies.
+- C4.10.03 | Mould-making rubber (silicone, latex) |  | Liquid or putty rubber sold to make flexible moulds.
+- C4.10.04 | Alginate moulding powder |  | Seaweed-based powder mixed with water for quick life-casting moulds.
+- C4.10.05 | Casting plaster |  | Plaster powder sold for craft casting and modelling.
+- C4.8.06 | Model primer and surfacer |  | Primer or filler-primer made to prepare model surfaces for paint.
+- C4.8.07 | Model paint thinner |  | Thinner made for one model-paint chemistry.
+- C4.8.08 | Model varnish (clear coat) |  | Clear gloss, satin or matt topcoat made for finished models.
+- C4.11.05 | Mosaic nippers |  | Nippers made for shaping tile and glass tesserae.
+- C4.11.06 | Mosaic grout |  | Grout sold for filling the joints of mosaic work.
+- C4.11.07 | Mosaic base |  | Backer board, mesh or form sold as the base for a mosaic.
+- C4.11.08 | Glass grinder |  | Bench grinder made for smoothing cut stained glass.
+- C4.11.09 | Glass pliers (running and grozing) |  | Pliers made for breaking and nibbling scored glass.
+- C4.11.10 | Stained-glass solder and flux |  | Solder and flux made for joining stained-glass pieces.
+- C4.16.3.01 | Kiln furniture |  | Shelves, posts and stilts made to load work in a kiln.
+- C4.16.3.02 | Kiln element and component |  | Element, thermocouple, relay or controller made for a kiln.
+- C4.7.2.07 | Wax resist |  | Liquid wax painted on ceramics to keep glaze off.
+- C4.7.2.06 | Underglaze |  | Coloured slip-based decoration applied under or without glaze.
+- C4.9.06 | Wick holder |  | Bar or clip that keeps a candle wick centred while wax sets.
+- C4.7.1.07 | Oil-based modelling clay (plasticine) |  | Non-hardening oil- or wax-based clay for modelling and sculpting.
+- C4.10.06 | Plaster bandage |  | Gauze impregnated with plaster, sold for casting and modelling.
+- C4.9.05 | Soap mould |  | Mould made for casting soap.
+- C4.12.03 | Seagrass cord |  | Twisted seagrass cord sold for weaving baskets and seats.
+- C4.12.04 | Fibre rush |  | Twisted paper cord sold for rush seating and basketry.
+- C4.12.05 | Shaker tape |  | Woven cotton tape sold for weaving chair seats.
+- C4.12.06 | Ash splint |  | Thin strip of ash wood sold for splint basketry.
+- C4.12.07 | Cane webbing |  | Pre-woven cane sheet sold for seating and panels.
+- C4.12.08 | Basketry and caning tool |  | Packing tool, awl, reed gauge or peg made for basketry and caning.
+- C4.13.03 | Floral stem tape |  | Stretchy waxed tape made for wrapping flower stems.
+- C4.13.04 | Floral pin |  | U-pin or foam pin made to fix stems and moss in arrangements.
+- C4.15.1.06 | Hot knife |  | Heated-blade tool for cutting foam, stencils and synthetic cord.
+- C4.2.5.05 | Quilting ruler |  | Clear acrylic ruler made for measuring and guiding rotary cuts in patchwork.
+- C4.16.4.01 | Rotary cutter blade |  | Replacement circular blade made for a rotary cutter.
+- C4.16.5.01 | Hot-melt glue stick |  | Glue stick made to be melted in a hot-glue gun.
+- C4.15.3.04 | Glue skillet |  | Electric pan that melts hot-melt glue for dipping.
+- C4.15.3.05 | Decoupage medium |  | Glue and sealer in one, made for decoupage.
+- C4.16.2.02 | Airbrush nozzle and needle |  | Replacement nozzle, needle or cap made for an airbrush.
+- C4.16.2.03 | Airbrush hose |  | Air hose made to connect an airbrush to its compressor.
+- C4.16.1.05 | Bobbin case |  | Case that holds the bobbin in a sewing machine.
+- C4.16.1.06 | Needle plate |  | Throat plate under the needle of a sewing machine.
+- C4.16.1.07 | Sewing-machine oil |  | Light oil made for lubricating sewing machines.
+- C4.6.14 | Bone folder |  | Smooth flat tool made for creasing and folding paper in bookbinding and card making.

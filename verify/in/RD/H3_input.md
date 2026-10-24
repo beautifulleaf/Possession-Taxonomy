@@ -1,0 +1,137 @@
+# H3 Adult Objects: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of product (what the object is designed to do: vibrator, dildo, anal toy, penis toy, restraint and sensation gear, machine, doll); the area of contact or action comes second (provisional: thin evidence)
+- reason: The one fetched comparison site sorts by product type, then material and need (my-best Japan). The buying guide starts from the kind of stimulation wanted inside the type, then size and material (Healthline). The memo's six-market retailer trees agree on type first (memo section 1.7). Evidence in HOL_EV_9 is thin: one marketplace, with no tree seen, and one ranking site.
+- ladder: What type of product? > Which contact or action (external, internal or dual; enclosing, ring or pump; restrain, deprive, impact, lock or electro-stimulate)? > Which kind and model, filtered by material, size and power?
+- level1_groups: Vibrators and suction stimulators; Dildos and non-powered insertables; Anal products; Penile products; Restraint, impact and sensation gear; Machines; Dolls and body replicas; Parts and accessories
+- quality_markers: Body-safe, non-porous material first (medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC, avoid) > phthalate-free and latex-free > full ingredient or material disclosure and maker reputation > construction (no cracks, seams or pores) > for powered products: motor strength and range of settings, noise, waterproofing, charging > size and fit (length, diameter; flared base for anal use). Restraints: safe, easy release first > comfort and circulation protection > material (neoprene or padded cuffs before rope and metal for beginners). Price is not a guarantee of material (Healthline)
+- quality_signals: No independent grade exists (MysteryVibe: no firm material rules in the EU, US, Canada or Japan). The material class is computed from the material attribute by the memo's two-guide scheme (body_safe_class). ISO 3533:2021 declared conformity (standard_met on the named form). USP Class VI and ISO 10993 biocompatibility and the EU phthalate limit of 0.1 percent (class i attributes, memo). Lovehoney Awards (Customer Favorite, Staff Favorite, Couples' Choice, Best Innovation; judging not stated): a retailer label, so dated platform_tag (class vi), not a tier. my-best in-house rankings (no published method): class iii editorial tier entries with low weight. Reviewer maker-value lists and grades (memo S20-S22): class iii. Healthline price tiers (beginner under 25, mid 25-75, high-end 75-250, luxury): price band only (class v)
+- maker_role: owner (confirmed, provisional): shoppers pick a type and model, and makers carry models and lines (Tenga, LELO, Hismith in the memo). A brand door exists at retailers (memo: Babeland's 181-brand facet), but it is a filter, not the first choice. No regional maker harvest.
+- side_view: Brand filter and tab beside the type tree. A 'material' view (silicone, glass, steel) built from the material attribute, since retailers and guides treat material as the safety variable. A beginner view from dated platform tags.
+- evidence_rows: Qoo10 Japan, Lovetoy shop; my-best Japan (ranking site); Healthline how to buy a vibrator; MysteryVibe sex toy materials guide; Bustle beginner restraint guide; Lovehoney Awards (via InsideHook); memo H3 sections 1.7, 2, 5-7
+- maker role row: {'code': 'H3', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'products carry the maker'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-H3-1 | Vibrators and suction stimulators | 1 |  | H3.1
+- G-H3-9 | External vibrators and stimulators | 2 | G-H3-1 | H3.1.1.01; H3.1.1.02; H3.1.1.03; H3.1.1.04; H3.1.1.05; H3.1.1.06; H3.1.1.07; H3.1.1.08; H3.1.1.09
+- G-H3-10 | Internal vibrators | 2 | G-H3-1 | H3.1.2.01; H3.1.2.02; H3.1.2.03; H3.1.2.04
+- G-H3-11 | Dual-contact vibrators | 2 | G-H3-1 | H3.1.3.01; H3.1.3.02
+- G-H3-2 | Dildos and non-powered insertables | 1 |  | H3.2.01; H3.2.02; H3.2.03; H3.2.04; H3.2.05
+- G-H3-3 | Anal products | 1 |  | H3.3.01; H3.3.02; H3.3.03; H3.3.04; H3.3.05
+- G-H3-4 | Penile products | 1 |  | H3.4
+- G-H3-12 | Enclosing devices (masturbators) | 2 | G-H3-4 | H3.4.1.02; H3.4.1.03; H3.4.1.04; H3.4.1.05; H3.4.1.06; H3.4.1.01
+- G-H3-13 | Rings and sleeves | 2 | G-H3-4 | H3.4.2.01; H3.4.2.02; H3.4.2.03
+- G-H3-14 | Pumps | 2 | G-H3-4 | H3.4.3.01
+- G-H3-5 | Restraint, impact and sensation gear | 1 |  | H3.5
+- G-H3-15 | Restraints | 2 | G-H3-5 | H3.5.1.01; H3.5.1.02; H3.5.1.03; H3.5.1.04; H3.5.1.05; H3.5.1.06; H3.5.1.07; H3.5.1.10; H3.5.1.08; H3.5.1.09
+- G-H3-16 | Deprivation and gags | 2 | G-H3-5 | H3.5.2.01; H3.5.2.02
+- G-H3-17 | Impact and sensation | 2 | G-H3-5 | H3.5.3.02; H3.5.3.03; H3.5.3.04; H3.5.3.05; H3.5.3.06; H3.5.3.01
+- G-H3-18 | Chastity and genital restraint | 2 | G-H3-5 | H3.5.4.01; H3.5.4.02
+- G-H3-19 | Electro-stimulation | 2 | G-H3-5 | H3.5.5.01; H3.5.5.02
+- G-H3-6 | Machines | 1 |  | H3.6.01; H3.6.02
+- G-H3-7 | Dolls and body replicas | 1 |  | H3.7.01; H3.7.02
+- G-H3-8 | Parts and accessories | 1 |  | H3.8.01; H3.8.02; H3.8.03
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-H3-1 | body-safe, non-porous material | medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid) | Material is the safety variable and comes first; body_safe_class is computed from it. Price is not a guarantee of material. | proposals.tsv H3 row (quality_markers, quality_signals); Healthline how to buy a vibrator; MysteryVibe sex toy materials guide
+- G-H3-1 | phthalate-free and latex-free | phthalate-free > contains phthalates | After material. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-1 | material disclosure and maker reputation | full ingredient or material disclosure > none | No independent grade exists, so disclosure carries weight. | proposals.tsv H3 row (quality_markers, quality_signals); MysteryVibe sex toy materials guide
+- G-H3-1 | construction | no cracks, seams or pores | After disclosure. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-1 | motor strength and range of settings |  | Powered products. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-1 | noise, waterproofing and charging |  | Powered products, after the motor. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-1 | size and fit | length; diameter | Last in the order. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-2 | body-safe, non-porous material | medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid) | Material comes first. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-2 | phthalate-free and latex-free | phthalate-free > contains phthalates | After material. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-2 | material disclosure and maker reputation | full ingredient or material disclosure > none | After the material checks. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-2 | construction | no cracks, seams or pores | After disclosure. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-2 | size and fit | length; diameter | Last in the order. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-3 | body-safe, non-porous material | medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid) | Material comes first. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-3 | phthalate-free and latex-free | phthalate-free > contains phthalates | After material. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-3 | material disclosure and maker reputation | full ingredient or material disclosure > none | After the material checks. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-3 | construction | no cracks, seams or pores | After disclosure. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-3 | size and fit, with a flared base | flared base for anal use; length; diameter | Last in the order; the flared base is named for anal use. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-4 | body-safe, non-porous material | medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid) | Material comes first. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-4 | phthalate-free and latex-free | phthalate-free > contains phthalates | After material. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-4 | material disclosure and maker reputation | full ingredient or material disclosure > none | After the material checks. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-4 | construction | no cracks, seams or pores | After disclosure. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-4 | size and fit | length; diameter | Last in the order. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-6 | body-safe, non-porous material | medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid) | Material of the parts that touch the body comes first. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-6 | phthalate-free and latex-free | phthalate-free > contains phthalates | After material. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-6 | material disclosure and maker reputation | full ingredient or material disclosure > none | After the material checks. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-6 | construction | no cracks, seams or pores | After disclosure. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-6 | motor strength and range of settings |  | Powered products. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-6 | noise, waterproofing and charging |  | Powered products, after the motor. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-7 | body-safe, non-porous material | medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid) | Material comes first. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-7 | phthalate-free and latex-free | phthalate-free > contains phthalates | After material. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-7 | material disclosure and maker reputation | full ingredient or material disclosure > none | After the material checks. | proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+- G-H3-7 | construction | no cracks, seams or pores | Last of the markers that apply. | proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+- G-H3-15 | safe, easy release |  | Restraints: release comes first. | proposals.tsv H3 row (quality_markers); Bustle beginner restraint guide
+- G-H3-15 | comfort and circulation protection |  | After release. | proposals.tsv H3 row (quality_markers); Bustle beginner restraint guide
+- G-H3-15 | material | neoprene or padded cuffs > rope and metal (for beginners) | Last in the order. | proposals.tsv H3 row (quality_markers); Bustle beginner restraint guide
+
+## Kinds (kind_id | stored name | native name | definition)
+- H3.1.1.01 | Wand vibrator [電マ, denma] |  | long-handled vibrator with a large rounded head, made for external use; a wand-type massager is this kind only when its maker names sexual use (K-32), otherwise H1.
+- H3.1.1.02 | Palm vibrator |  | vibrator shaped to rest in the palm, like a computer mouse, for external use.
+- H3.1.1.03 | Bullet vibrator |  | small cylindrical vibrator with a rounded tip, for focused external stimulation.
+- H3.1.1.04 | Finger vibrator |  | small vibrator worn on or held by one or two fingers.
+- H3.1.1.05 | Tongue vibrator |  | vibrator with a soft flicking or tongue-shaped tip that imitates oral stimulation.
+- H3.1.1.06 | Clitoral air-pulse stimulator |  | stimulator that works by pulses of air or suction over the clitoris without contact pressure; worn or not is an attribute.
+- H3.1.1.07 | Wearable (panty) vibrator |  | flat vibrator made to be worn in or clipped to underwear during use.
+- H3.1.1.08 | External suction pump |  | hand or powered vacuum pump with a cup placed over the vulva or nipples; the target is an attribute.
+- H3.1.2.01 | G-spot vibrator |  | insertable vibrator with a curved tip made to reach the front vaginal wall.
+- H3.1.2.02 | Egg vibrator [跳蛋] |  | small egg-shaped insertable vibrator, wired or wireless; control mode and wearing are attributes.
+- H3.1.2.03 | Thrusting vibrator |  | hand-held insertable whose motor moves the shaft in and out; one that takes attachments through a C13 connector is a sex machine (H3.6).
+- H3.1.2.04 | Realistic vibrator |  | insertable vibrator with an integral motor and a body-shaped shaft.
+- H3.1.3.01 | Rabbit vibrator |  | insertable vibrator with an external arm that stimulates the clitoris at the same time.
+- H3.1.3.02 | Couples vibrator |  | vibrator made to be worn or used by two partners at once during intercourse.
+- H3.2.01 | Dildo |  | insertable shaft made for penetration, usually without a motor; `harness_compatible`, `suction_base`, `vibration` (none, optional) and realism are attributes.
+- H3.2.02 | Double-ended dildo |  | dildo with an insertable end at each side, for two users or two openings.
+- H3.2.03 | Dilator |  | graduated insertable sold as a sex toy; one whose maker states a medical purpose is H2 (K-33).
+- H3.2.04 | Kegel or Ben Wa balls [縮陰球, Liebeskugeln] |  | weighted balls held in the vagina, with or without a retrieval cord; with a motor they stay this kind.
+- H3.2.05 | Urethral sound |  | smooth rod made to be inserted into the urethra for sexual stimulation; one made to carry a current is H3.5.5.02, one with a stated medical purpose H2.
+- H3.3.01 | Butt plug [肛塞] |  | tapered insertable with a narrow neck and a flared base, made to be held in the anus.
+- H3.3.02 | Anal dildo or probe |  | slim straight or curved anal stick with a flared base, for penetration rather than holding.
+- H3.3.03 | Anal beads [拉珠] |  | three or more beads in a row on a cord or flexible stem, with a retrieval handle or ring.
+- H3.3.04 | Prostate massager |  | curved anal insertable shaped to press on the prostate, often with a perineum arm.
+- H3.3.05 | Anal vibrator |  | vibrating anal insertable with a flared base that is not a prostate massager.
+- H3.4.1.02 | Handheld masturbator [onahole, オナホール, 飛機杯; stroker] |  | reusable sleeve with an internal channel, held in the hand; weight class, internal structure and imitated opening are attributes.
+- H3.4.1.03 | Stationary masturbator |  | large, heavy masturbator moulded as a torso or lower body without head or limbs, made to rest on a surface.
+- H3.4.1.04 | Breast-type masturbator |  | masturbator moulded as a pair of breasts, not an enclosure held in the hand.
+- H3.4.1.05 | Automatic masturbator |  | masturbator whose motor moves, strokes or sucks the sleeve; a stand or mount is a mounting attribute.
+- H3.4.1.06 | Glans vibrator |  | vibrating device that holds or wraps the head of the penis.
+- H3.4.2.01 | Penis ring [鎖精環, 持久環; cock ring, Penisringe] |  | ring worn at the base of the penis, or the penis and testicles, to keep an erection; the vibrating type is an attribute.
+- H3.4.2.02 | Penis sleeve or extension |  | open sleeve worn over the penis to add length, girth or texture.
+- H3.4.2.03 | Scrotum strap |  | strap or ring worn around the scrotum alone.
+- H3.4.3.01 | Penis pump |  | cylinder with a hand or powered vacuum pump placed over the penis; one whose maker states a medical (erectile) purpose is H2 (K-33).
+- H3.5.1.01 | Cuffs |  | pair of wrist or ankle cuffs joined or with fixing points, made to restrain; metal and neoprene cuffs are values of `material`.
+- H3.5.1.02 | Restraint collar |  | neck collar made with fixing points to restrain; an ornamental collar is A3, a garment A1.
+- H3.5.1.03 | Spreader bar |  | rigid bar with cuffs or fixing points at each end that holds the limbs apart.
+- H3.5.1.04 | Bondage rope |  | soft rope sold for tying a partner.
+- H3.5.1.05 | Bondage tape |  | tape that sticks only to itself, sold for binding a partner.
+- H3.5.1.06 | Bed restraint set |  | straps that run under or around a mattress with cuffs at the corners (alias: under-bed restraint system).
+- H3.5.1.07 | Restraint harness |  | body harness made with fixing points to restrain a person; a strap-on harness is A1 (K-81).
+- H3.5.1.10 | Suspension swing or sling |  | swing or sling hung from a frame, door or ceiling that holds a person during sex (K-82).
+- H3.5.2.01 | Blindfold |  | blindfold that covers only the eyes; a hood or mask is A1.
+- H3.5.2.02 | Gag |  | object held in the mouth by a strap to stop speech (ball, bit or ring gag).
+- H3.5.3.02 | Flogger |  | handle with many falls of leather or other material, for impact play.
+- H3.5.3.03 | Crop or whip |  | single-tail striking implement, a stiff crop with a flap or a flexible whip.
+- H3.5.3.04 | Feather tickler |  | feather or soft-tipped wand for light sensation play.
+- H3.5.3.05 | Nipple clamp |  | adjustable clamp applied to the nipples, often joined by a chain.
+- H3.5.3.06 | Intimate oil |  | an oil or gel made and labelled for application to the genitals to heighten sensation (arousal or stimulating oil), cannabinoid or not; a product labelled as a lubricant, or a massage oil or lotion for the body, is H1 (K-165, memo section 14).
+- H3.5.4.01 | Chastity device |  | locking cage or belt that prevents touching or erection of the genitals.
+- H3.5.5.01 | Violet wand |  | hand-held high-voltage, low-current device that sends a spark through a glass electrode for sensation play.
+- H3.5.5.02 | Electro-stimulation kit |  | control unit with pads or insertable electrodes made for sexual electro-stimulation; a TENS or EMS unit sold for pain is H2 (K-32).
+- H3.6.01 | Thrusting sex machine |  | motor on a frame or base that drives a dildo or attachment back and forth.
+- H3.7.01 | Inflatable doll |  | inflatable life-size body replica made for sexual use, usually with three openings.
+- H3.7.02 | Solid body doll |  | life-size body replica of solid silicone or TPE on an internal frame, made for sexual use.
+- H3.8.01 | Machine attachment |  | dildo, adapter or masturbator made to fit a sex machine's connector.
+- H3.8.02 | Masturbator accessory |  | replacement liner, warmer, drying stick or other accessory made for a masturbator.
+- H3.8.03 | Restraint leash |  | leash made to clip to a restraint collar or cuff (K-81, S3).
+- H3.1.1.09 | Vibrating cushion |  | Cushion or pad with a built-in vibrator that the user sits or lies on for external stimulation; a cushion that only positions the body is B2.
+- H3.5.4.02 | Labia spreader |  | Straps or a frame with clamps or hooks that hold the labia apart, made to restrain the genitals during sex play.
+- H3.4.1.01 | Disposable masturbator |  | single-use sleeve in a closed shell, made to be used once and thrown away.
+- H3.5.1.08 | Armbinder |  | single sleeve that binds both arms together behind the back (K-81).
+- H3.5.3.01 | Paddle |  | flat, rigid striking implement with a handle, for impact play.
+- H3.5.1.09 | Restraint furniture |  | bench, cross or frame made to restrain a person during sex; a positioning cushion is B2 (K-82).
+- H3.6.02 | Riding saddle machine |  | saddle the user sits astride, with a vibrating or rotating insert or pad (form: Sybian).

@@ -1,0 +1,194 @@
+# C7 Farm & Forestry Equipment: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (the job the machine does), provisional
+- reason: Marketplaces and guides open on the machine type and job, then size or power class, then maker (Landwirt.com Traktoren > type > Marke, Purple Wave kind > horsepower > size class, memo's Machinery Pete and traktorpool), and the Nebraska test guide starts from the power the job needs; HOL evidence inside C7 is thin (three rows), so this leans on the memo.
+- ladder: What job? > Which machine (for tractors the design for the task, with size class as a filter)? > What makes the best one (power and fit to the job, test data, dealer support), then maker and model
+- level1_groups: Tractors and carriers (C7.1); Soil tillage (C7.2); Seeding and planting (C7.3); Spreading, spraying and irrigation (C7.4 crop care); Harvesting (C7.5); Hay and forage (C7.6); Grain and post-harvest (C7.7); Livestock and dairy (C7.8); Forestry machines (C7.9); Loaders, tyres and tractor fittings (C7.10)
+- quality_markers: Fit to the job: measured PTO and drawbar power against need, hitch category and implement compatibility (Nebraska guide, Purple Wave); lift and hydraulic capacity (Nebraska guide); fuel efficiency hp-hr per gallon at 75 and 50 percent pull (Nebraska guide); dealer proximity, service and parts (Nebraska guide; dealer support also leads the chainsaw evidence); reliability and repair frequency (Nebraska guide); operator comfort and noise: cab, A/C, sound level in dB (Purple Wave, Nebraska guide); transmission and drive (2WD, FWA, 4WD) (Purple Wave, Nebraska guide); stability and tyres (Nebraska guide); Implements: required tractor power and working width (memo); Forestry machines: cutting performance, handling, maintenance access (top agrar test, provisional by analogy)
+- quality_signals: Nebraska Tractor Test Laboratory (University of Nebraska; OECD tractor codes) measured power, fuel, noise, class (ii); KWF test mark (Kuratorium für Waldarbeit und Forsttechnik, Germany) for forestry machines and equipment, provisional: seen only as mentioned in top agrar; Makers' own size or user ladders (Deere and Yanmar horsepower classes in memo; Stihl homeowner, farm and ranch, professional for C2 saws) class (iv); Trade-magazine field tests (top agrar) class (ii) or (iii); DLG test reports: candidate, not in evidence, to fetch
+- maker_role: owner, confirmed (models carry the maker; shoppers pick the machine type and power first)
+- side_view: Maker tab for tractors and forestry machines, since owners identify with makers (WheelHorse forum loyalty; memo TractorByNet and TractorData are maker-first; Landwirt.com Marke facet with 69 makers); views for size class, crop (vine, orchard, potato, rice), vintage and precision farming
+- evidence_rows: Landwirt.com tractors (Austria); Purple Wave tractor buying guide; Extension guide to Nebraska Tractor Test data; Stihl USA chainsaw buying guide; SlashGear what makes a pro chainsaw; top agrar chainsaw field test (KWF mark); WheelHorse forum Stihl vs Husqvarna chain saws
+- maker role row: {'code': 'C7', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'machinery models carry the maker'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-C7-1 | Tractors & carriers | 1 |  | C7.1.1; C7.1.2; C7.1.3; C7.1.5
+- G-C7-101 | Wheeled tractors | 2 | G-C7-1 | C7.1.1.01; C7.1.1.02; C7.1.1.03; C7.1.1.04; C7.1.1.05; C7.1.1.06
+- G-C7-102 | Articulated tractors | 2 | G-C7-1 | C7.1.2.01
+- G-C7-103 | Tracked tractors | 2 | G-C7-1 | C7.1.3.01; C7.1.3.03; C7.1.3.02
+- G-C7-104 | Implement carriers | 2 | G-C7-1 | C7.1.5.01
+- G-C7-2 | Soil tillage | 1 |  | C7.2.1; C7.2.2
+- G-C7-105 | Ploughs, cultivators & subsoilers | 2 | G-C7-2 | C7.2.1.01; C7.2.1.02; C7.2.1.06; C7.2.1.08
+- G-C7-106 | Harrows, tillers & rollers | 2 | G-C7-2 | C7.2.1.03; C7.2.1.04; C7.2.1.05; C7.2.1.07; C7.2.1.09; C7.2.1.10
+- G-C7-107 | Ground shaping & clearing | 2 | G-C7-2 | C7.2.2.01; C7.2.2.02; C7.2.2.03; C7.2.2.04; C7.2.2.06; C7.2.2.07; C7.2.2.05
+- G-C7-3 | Seeding & planting | 1 |  | C7.3
+- G-C7-108 | Seed drills & planters | 2 | G-C7-3 | C7.3.01; C7.3.02
+- G-C7-109 | Potato planting | 2 | G-C7-3 | C7.3.03; C7.3.06
+- G-C7-110 | Transplanters | 2 | G-C7-3 | C7.3.04; C7.3.05
+- G-C7-4 | Spreading, spraying & irrigation | 1 |  | C7.4
+- G-C7-111 | Fertiliser & manure spreading | 2 | G-C7-4 | C7.4.01; C7.4.02; C7.4.03; C7.4.04
+- G-C7-112 | Sprayers & weeders | 2 | G-C7-4 | C7.4.05; C7.4.06
+- G-C7-113 | Irrigation | 2 | G-C7-4 | C7.4.07; C7.4.08; C7.4.09
+- G-C7-5 | Harvesting | 1 |  | C7.5
+- G-C7-114 | Combines & headers | 2 | G-C7-5 | C7.5.01; C7.5.02
+- G-C7-115 | Forage harvesters | 2 | G-C7-5 | C7.5.03
+- G-C7-116 | Root & speciality crop harvesters | 2 | G-C7-5 | C7.5.04; C7.5.05; C7.5.06; C7.5.07
+- G-C7-6 | Hay & forage | 1 |  | C7.6
+- G-C7-117 | Mowers & mulchers | 2 | G-C7-6 | C7.6.01; C7.6.06
+- G-C7-118 | Tedders & rakes | 2 | G-C7-6 | C7.6.02; C7.6.03
+- G-C7-119 | Balers & wrappers | 2 | G-C7-6 | C7.6.04; C7.6.05
+- G-C7-120 | Forage wagons | 2 | G-C7-6 | C7.6.07
+- G-C7-7 | Grain & post-harvest | 1 |  | C7.7
+- G-C7-121 | Grain drying, cleaning & handling | 2 | G-C7-7 | C7.7.01; C7.7.02; C7.7.03; C7.7.04
+- G-C7-8 | Livestock & dairy | 1 |  | C7.8.1; C7.8.2; C7.8.3; C7.8.4; C7.8.5; C7.8.6; C7.8.7; C7.8.8; C7.8.9
+- G-C7-122 | Milking | 2 | G-C7-8 | C7.8.1.01; C7.8.1.02; C7.8.1.03; C7.8.1.04; C7.8.1.05; C7.8.1.06; C7.8.1.07
+- G-C7-123 | Milk cooling & metering | 2 | G-C7-8 | C7.8.2.01; C7.8.2.02
+- G-C7-124 | Handling | 2 | G-C7-8 | C7.8.3.01; C7.8.3.02; C7.8.3.03
+- G-C7-125 | Weighing & identification | 2 | G-C7-8 | C7.8.4.01; C7.8.4.02; C7.8.5.01; C7.8.5.02
+- G-C7-126 | Shearing | 2 | G-C7-8 | C7.8.6.01
+- G-C7-127 | Slaughter & stunning | 2 | G-C7-8 | C7.8.7.01; C7.8.7.02
+- G-C7-128 | Poultry | 2 | G-C7-8 | C7.8.8.01; C7.8.8.02; C7.8.8.03
+- G-C7-129 | Feeding & bedding | 2 | G-C7-8 | C7.8.9.01; C7.8.9.02; C7.8.9.03
+- G-C7-9 | Forestry machines | 1 |  | C7.9
+- G-C7-130 | Felling & processing | 2 | G-C7-9 | C7.9.01; C7.9.04; C7.9.05; C7.9.11
+- G-C7-131 | Extraction & loading | 2 | G-C7-9 | C7.9.02; C7.9.03; C7.9.10; C7.9.12; C7.9.13
+- G-C7-132 | Chippers, mulchers & stump grinders | 2 | G-C7-9 | C7.9.06; C7.9.07; C7.9.08
+- G-C7-133 | Winches & log splitters | 2 | G-C7-9 | C7.9.09; C7.9.14
+- G-C7-10 | Loaders, tyres & tractor fittings | 1 |  | C7.10.1; C7.10.2; C7.10.3
+- G-C7-134 | Front loaders & attachments | 2 | G-C7-10 | C7.10.1.01; C7.10.1.02
+- G-C7-135 | Tyres, wheels, tracks & ballast | 2 | G-C7-10 | C7.10.1.03; C7.10.1.04; C7.10.1.05; C7.10.1.06; C7.10.1.08
+- G-C7-136 | Guidance & auto-steer | 2 | G-C7-10 | C7.10.1.07
+- G-C7-137 | Shearing machine parts | 2 | G-C7-10 | C7.10.2.01; C7.10.2.02
+- G-C7-138 | Forest machine fittings | 2 | G-C7-10 | C7.10.3.01; C7.10.3.02
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-C7-1 | measured PTO and drawbar power against need, hitch category and implement compatibility |  | Fit to the job comes first. | proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data; Purple Wave tractor buying guide
+- G-C7-1 | lift and hydraulic capacity |  | Measured in the Nebraska test. | proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
+- G-C7-1 | fuel efficiency (hp-hr per gallon at 75 and 50 percent pull) | higher > lower | Nebraska test figures. | proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
+- G-C7-1 | dealer proximity, service and parts |  | Dealer support also leads the chainsaw evidence. | proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data; Stihl USA chainsaw buying guide
+- G-C7-1 | reliability and repair frequency |  | Weighed with dealer support. | proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
+- G-C7-1 | operator comfort and noise (cab, A/C, sound level in dB) | lower dB > higher dB | Cab and sound level are compared. | proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data; Purple Wave tractor buying guide
+- G-C7-1 | transmission and drive (2WD, FWA, 4WD) |  | Matched to the work, not a ladder. | proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data; Purple Wave tractor buying guide
+- G-C7-1 | stability and tyres |  | Last of the tractor markers. | proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
+- G-C7-2 | required tractor power and working width |  | The tillage implement must match the tractor (memo). | proposals.tsv C7 row (quality_markers); C7 memo
+- G-C7-3 | required tractor power and working width |  | The seeding implement must match the tractor (memo). | proposals.tsv C7 row (quality_markers); C7 memo
+- G-C7-4 | required tractor power and working width |  | The spreading and spraying implement must match the tractor (memo). | proposals.tsv C7 row (quality_markers); C7 memo
+- G-C7-6 | required tractor power and working width |  | The hay and forage implement must match the tractor (memo). | proposals.tsv C7 row (quality_markers); C7 memo
+- G-C7-9 | cutting performance |  | Provisional, by analogy with the chainsaw test. | proposals.tsv C7 row (quality_markers); top agrar chainsaw field test (KWF mark)
+- G-C7-9 | handling |  | Provisional, by analogy. | proposals.tsv C7 row (quality_markers); top agrar chainsaw field test (KWF mark)
+- G-C7-9 | maintenance access |  | Provisional, by analogy. | proposals.tsv C7 row (quality_markers); top agrar chainsaw field test (KWF mark)
+
+## Kinds (kind_id | stored name | native name | definition)
+- C7.1.1.01 | Standard four-wheel tractor |  | general-purpose wheeled tractor with a rear power take-off and a Category 1 or larger three-point hitch, made to draw, carry and drive implements; the maker's size label (sub-compact, compact, utility) is `size_class` on the named form.
+- C7.1.1.02 | Row-crop tractor |  | wheeled tractor built with adjustable track and clearance to work between crop rows.
+- C7.1.1.03 | Narrow orchard and vineyard tractor [tracteur fruitier, tracteur vigneron, Schmalspurtraktor] |  | wheeled tractor with a narrow track and low profile, made to work between rows of vines and fruit trees.
+- C7.1.1.04 | High-clearance (straddle) tractor [enjambeur] |  | tractor with high ground clearance that straddles rows of vines or crops.
+- C7.1.1.05 | Slope (mower-carrier) tractor [Mähtrak, Bergtrak] |  | low, wide tractor with a low centre of gravity, made to carry mowers and implements on steep ground.
+- C7.1.1.06 | Forestry tractor [tracteur forestier, Forsttraktor] |  | wheeled tractor built and guarded for forest work such as winching and skidding; filed here by C14(b) and shown in Forestry by a view.
+- C7.1.2.01 | Articulated four-wheel-drive tractor |  | large tractor with four equal driven wheels that steers by bending at a central pivot.
+- C7.1.3.01 | Crawler (full-track) tractor |  | tractor running on two full-length tracks instead of wheels.
+- C7.1.5.01 | Implement carrier (tool-carrier tractor, no load body) |  | self-propelled carrier made to carry and drive implements, with no load body; a Unimog with a load bed is G1 (K-93).
+- C7.2.1.01 | Mouldboard plough |  | plough whose curved mouldboards cut and turn the soil over.
+- C7.2.1.02 | Chisel and tine cultivator |  | implement with rigid or sprung tines that loosen the soil without turning it.
+- C7.2.1.03 | Disc harrow |  | implement with gangs of concave discs that cut and mix the surface soil.
+- C7.2.1.04 | Power harrow |  | PTO-driven harrow whose rotating vertical tines break clods into a seedbed.
+- C7.2.1.05 | Rotary tiller (rotavator) |  | PTO-driven implement whose blades on a horizontal rotor churn the soil.
+- C7.2.1.06 | Subsoiler and deep ripper |  | implement with heavy legs that break compacted layers below plough depth.
+- C7.2.1.07 | Land roller and packer |  | roller or packer that firms and levels the soil surface.
+- C7.2.1.08 | Spading machine |  | PTO-driven implement whose spades dig and turn the soil.
+- C7.2.1.09 | Puddling harrow (rice paddy) |  | implement that churns flooded paddy soil into a puddle before transplanting.
+- C7.2.1.10 | Seedbed combination |  | implement that combines tines, levelling bars and rollers to make a seedbed in one pass.
+- C7.2.2.01 | Box blade |  | tractor-mounted open box with a blade and scarifier teeth, for grading and moving soil.
+- C7.2.2.02 | Rear grader blade and land leveller |  | rear-mounted blade or levelling frame for grading, levelling and ditching.
+- C7.2.2.03 | Post-hole auger |  | tractor-driven auger that bores holes for posts and planting.
+- C7.2.2.04 | Trencher |  | tractor-driven implement that cuts narrow trenches.
+- C7.2.2.06 | Tractor snow blade and snow blower |  | snow blade or blower made to be mounted on or driven from a tractor; C7 whoever buys it (K-99).
+- C7.3.01 | Seed drill |  | implement that sows seed in rows at a set rate and depth; tine, disc and no-till coulters are attributes.
+- C7.3.02 | Precision single-seed planter |  | planter that places single seeds at a set spacing in the row.
+- C7.3.03 | Potato planter |  | implement that plants seed potatoes in ridges.
+- C7.3.04 | Transplanter |  | implement that sets seedlings or young plants into the field.
+- C7.3.05 | Rice transplanter |  | machine that plants rice seedlings into a flooded paddy; `rows` (4 to 8) is an attribute.
+- C7.4.01 | Fertiliser spreader |  | implement that broadcasts or places granular fertiliser.
+- C7.4.02 | Manure spreader |  | wagon that shreds and spreads solid manure.
+- C7.4.03 | Slurry tanker |  | tank that carries and spreads liquid slurry.
+- C7.4.04 | Slurry injector |  | implement that places slurry into the soil.
+- C7.4.05 | Crop sprayer |  | sprayer that applies crop-protection liquids through a boom; `carrier` (mounted, trailed, self-propelled) is an attribute.
+- C7.4.06 | Inter-row hoe and tine weeder |  | implement that weeds mechanically between and within crop rows.
+- C7.4.07 | Irrigation reel and sprinkler set |  | hose reel and field sprinkler line made for field-crop irrigation (K-100).
+- C7.4.08 | Centre-pivot and linear-move irrigation machine |  | self-moving span of sprinkler pipe that irrigates a field in a circle or a strip (K-100).
+- C7.4.09 | Field irrigation pump |  | pump made to move water for field irrigation (K-175).
+- C7.5.01 | Combine harvester [moissonneuse-batteuse, Mähdrescher, colheitadeira] |  | self-propelled machine that reaps, threshes and cleans grain; `threshing_type` (head-feeding, conventional, axial rotor) is an attribute.
+- C7.5.02 | Combine header [plataforma colheitadeira] |  | interchangeable front cutting or pick-up unit for a combine harvester.
+- C7.5.03 | Forage harvester [ensileuse] |  | machine that cuts and chops forage crops for silage; `carrier` (self-propelled, trailed) is an attribute.
+- C7.5.04 | Potato harvester |  | machine that lifts potatoes and separates them from soil and haulm.
+- C7.5.05 | Sugar-beet harvester |  | machine that tops, lifts and cleans sugar or fodder beet.
+- C7.5.06 | Grape harvester |  | machine that straddles vine rows and shakes off the grapes.
+- C7.5.07 | Carrot harvester |  | machine that lifts carrots by their tops.
+- C7.6.01 | Disc and drum mower |  | mower whose rotating discs or drums cut grass for hay or silage.
+- C7.6.02 | Hay tedder |  | implement with rotating tines that spreads and turns cut grass to dry.
+- C7.6.03 | Hay rake and windrower |  | implement that gathers cut grass into windrows.
+- C7.6.04 | Baler |  | machine that picks up hay, straw or silage and presses it into round or square bales.
+- C7.6.05 | Bale wrapper |  | machine that wraps bales in stretch film for silage.
+- C7.6.06 | Rotary cutter and flail mower (mulcher) |  | implement that cuts and shreds standing vegetation on grassland, verges, vineyards and scrub; C7 whoever buys it (K-99).
+- C7.6.07 | Loader and forage wagon |  | wagon that picks up, cuts and carries grass or silage.
+- C7.7.01 | Grain dryer |  | installation that dries harvested grain.
+- C7.7.02 | Grain cleaner |  | machine that separates grain from chaff, weed seed and dirt.
+- C7.7.03 | Grain conveyor |  | auger, belt or elevator that moves grain.
+- C7.7.04 | Rice huller |  | machine that removes the husk from paddy rice.
+- C7.8.1.01 | Bucket milking machine |  | portable milking unit that milks into a bucket.
+- C7.8.1.02 | Pipeline milking installation |  | milking system that carries the milk from the stalls through a pipeline to the dairy.
+- C7.8.1.03 | Static milking parlour |  | fixed parlour in which cows stand in stalls to be milked; `units_per_stalls` (one per two stalls, one per stall) and `stall_layout` (abreast, herringbone; provisional) are attributes.
+- C7.8.1.04 | Rotary milking parlour |  | parlour whose stalls ride on a rotating platform.
+- C7.8.1.05 | Trigon milking parlour |  | parlour with stalls on three sides of the milker's pit.
+- C7.8.1.06 | Polygon milking parlour |  | parlour with stalls on four sides of the milker's pit.
+- C7.8.1.07 | Milking robot |  | automatic milking system that attaches the cups and milks without a milker.
+- C7.8.2.01 | Bulk milk cooling tank |  | refrigerated tank that cools and holds the milk on the farm.
+- C7.8.2.02 | Milk meter |  | meter that measures each cow's milk yield.
+- C7.8.3.01 | Cattle crush and headgate |  | crate or gate that restrains one animal for treatment.
+- C7.8.3.02 | Sheep handler and drafter |  | race unit that holds, turns or sorts sheep into pens.
+- C7.8.4.01 | Livestock weigh-scale indicator |  | electronic indicator that reads, shows and records livestock weights from load bars or a platform.
+- C7.8.4.02 | Livestock weigh platform and load bars |  | platform or pair of load bars on which animals are weighed.
+- C7.8.5.01 | Livestock EID stick reader |  | handheld reader for livestock electronic ear tags, sold for herd recording; pet microchip scanners are B10 (K-101).
+- C7.8.6.01 | Shearing machine |  | powered machine with its motor and drive that runs a shearing handpiece, for flock-scale shearing.
+- C7.8.7.01 | Captive-bolt stunner |  | tool that stuns livestock by driving a bolt into the skull.
+- C7.8.7.02 | Scalder |  | tank or machine that scalds slaughtered pigs or poultry to loosen hair or feathers.
+- C7.8.8.01 | Poultry feeding line |  | automatic feed line for a commercial poultry house.
+- C7.8.8.02 | Egg collection system |  | belt or conveyor system that collects eggs in a commercial laying house.
+- C7.8.8.03 | Commercial hatching incubator |  | commercial hatcher for eggs at flock scale; small incubators are B10 (K-101).
+- C7.8.9.01 | Feed mixer wagon |  | wagon that mixes and dispenses a feed ration.
+- C7.8.9.02 | Silage block cutter |  | tractor implement that cuts and carries blocks from a silage clamp.
+- C7.8.9.03 | Bedding spreader |  | machine that spreads straw or other bedding in housing.
+- C7.9.01 | Forest harvester |  | self-propelled machine that fells, delimbs and cuts trees to length.
+- C7.9.02 | Forwarder |  | self-propelled machine that carries cut logs clear of the ground on its own load bed.
+- C7.9.03 | Skidder |  | machine that drags felled trees or logs to the roadside.
+- C7.9.04 | Feller buncher |  | machine that fells trees and gathers them into bunches; `boom_type` (drive-to-tree, swing-boom) is an attribute.
+- C7.9.05 | Harvester head |  | felling, delimbing and cross-cutting head made for a forest harvester or excavator base.
+- C7.9.06 | Wood chipper |  | chipper that is tractor-driven (PTO or mounted) or part of a forest machine; a towed or self-propelled tree-surgery chipper is C2 (C7-O1).
+- C7.9.07 | Forestry mulcher |  | heavy mulcher that shreds trees, brush and stumps on forest and clearing land.
+- C7.9.08 | Stump grinder |  | machine that grinds tree stumps below ground level.
+- C7.9.09 | Forestry winch |  | tractor-mounted winch for pulling felled trees and logs.
+- C7.9.10 | Harwarder |  | combined forest machine that both harvests trees and forwards the logs.
+- C7.9.11 | Delimber |  | machine that strips the limbs from felled trees.
+- C7.9.12 | Forestry knuckleboom loader |  | loader with a jointed boom and grapple for lifting and loading logs.
+- C7.9.13 | Forestry excavator |  | excavator-based machine built for a forestry job (K-194).
+- C7.9.14 | Log splitter, tractor-driven (PTO or mounted) |  | log splitter driven from or mounted on a tractor; hand and engine log splitters are C1 (K-173).
+- C7.10.1.01 | Front-end loader |  | loader arms and frame made to be fitted to a tractor.
+- C7.10.1.02 | Loader attachment (pallet forks, bucket, bale spike) |  | tool made to be fitted to a tractor's front loader.
+- C7.10.1.03 | Wheel weight |  | ballast weight fitted to a tractor wheel.
+- C7.10.1.04 | Tractor tyre |  | tyre made for a tractor.
+- C7.10.1.05 | Tractor rim and complete wheel |  | rim or tyred wheel made for a tractor.
+- C7.10.1.06 | Rubber track unit |  | rubber track system fitted to a tractor in place of wheels.
+- C7.10.1.07 | Guidance and auto-steer system |  | guidance receiver, display or auto-steer kit made for a tractor or farm machine.
+- C7.10.2.01 | Shearing handpiece |  | handpiece that holds and drives the comb and cutter, made for a shearing machine.
+- C7.10.2.02 | Shearing comb and cutter |  | comb and cutter blades made for a shearing handpiece.
+- C7.2.2.07 | Stone picker and collector |  | Tractor implement that lifts stones from a field and collects them in a hopper or windrows them for removal.
+- C7.3.06 | Seed potato cutter |  | Machine that cuts seed potatoes into planting pieces before they go into the potato planter.
+- C7.10.3.01 | Forestry crane |  | Hydraulic loading crane made to be fitted to a forwarder, harvester or timber trailer; new leaf C7.10.3 Forest machine fittings.
+- C7.10.3.02 | Log grapple and rotator |  | Grapple, with its rotator, made to be fitted to a forestry crane or knuckleboom to grip logs.
+- C7.8.5.02 | Livestock EID panel reader |  | Fixed reader mounted on a race or crush that reads livestock electronic ear tags as animals pass.
+- C7.8.3.03 | Cattle race and handling system |  | Race, forcing pen or circular tub that moves and lines up cattle at herd scale toward a crush.
+- C7.1.3.03 | Four-track tractor |  | Tractor running on four separate track units, one at each corner, in place of wheels; articulated or rigid frame.
+- C7.10.1.08 | Front ballast weight |  | Ballast weight block or set of suitcase weights fitted to a tractor's front frame or three-point hitch.
+- C7.1.3.02 | Half-track tractor (delta tractor) |  | tractor with front tyres and rear crawler tracks.
+- C7.2.2.05 | Bund plasterer (rice paddy) |  | implement that forms and smooths the earth bunds round paddy fields.

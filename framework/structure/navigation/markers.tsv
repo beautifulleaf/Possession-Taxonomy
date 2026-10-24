@@ -421,18 +421,6 @@ B8	G-B8-2-2	fire class rating	e.g. 13A, 34B	Extinguishers are rated by fire clas
 B8	G-B8-3-1	standard met	EN 1930; ASTM F1004	Child gates first by standard.	proposals.tsv B8 row (quality_markers)
 B8	G-B8-3-1	mount type for top of stairs	hardware-mounted for the top of stairs	Then mounting.	proposals.tsv B8 row (quality_markers)
 B8	G-B8-4	target pest and form	preference (no grade)	Pest control has no grade ladder.	proposals.tsv B8 row (quality_markers)
-C1	G-C1-2	measured performance under load (torque, drilling and driving speed)		Tests weigh this first: CR power score; CHOICE drilling 30 percent and torque 30 percent. Holds for powered kinds in every group (Power/Cordless toggle).	proposals.tsv C1 row (quality_markers); Consumer Reports cordless drill buying guide; CHOICE Australia how we test cordless drills
-C1	G-C1-2	handling and ergonomics (weight, balance with battery)		CHOICE gives handling 40 percent.	proposals.tsv C1 row (quality_markers); CHOICE Australia how we test cordless drills
-C1	G-C1-2	run time and battery capacity (Ah), with breadth of the platform	higher Ah and wider platform > lower Ah and narrow platform	Shoppers choose the tool, then the battery platform.	proposals.tsv C1 row (quality_markers); Klium (Belgium) battery technology compared; Fine Homebuilding forum Milwaukee V18 vs Makita LXT
-C1	G-C1-2	durability and safety (battery cycles, kick-back cut-off)		Endurance and safety are tested separately.	proposals.tsv C1 row (quality_markers); test.de Stiftung Warentest cordless drill-driver test
-C1	G-C1-2	motor and warranty	brushless > brushed	A spec rung after the measured results.	proposals.tsv C1 row (quality_markers); Consumer Reports cordless drill buying guide
-C1	G-C1-2	voltage		Last: only a rough guide to power (CR).	proposals.tsv C1 row (quality_markers); Consumer Reports cordless drill buying guide
-C1	G-C1-3	steel and heat treatment (hand tools)	Aogami Super > Blue #1 > Blue #2 > White #1 > White #2	Edge steel leads for planes, chisels and other edged hand tools (memo dealer order).	proposals.tsv C1 row (quality_markers); C1 memo; Highland Woodworking (Lie-Nielsen planes)
-C1	G-C1-3	machining accuracy and fit (hand tools)		Flat soles, square sides and a tight fit follow the steel.	proposals.tsv C1 row (quality_markers); Highland Woodworking (Lie-Nielsen planes)
-C1	G-C1-3	maker or smith (hand tools)		Premium hand tools are compared by maker line (named forms).	proposals.tsv C1 row (quality_markers); Highland Woodworking (Lie-Nielsen planes)
-C1	G-C1-3	duty class (machines)	Frequent use > Regular use > Occasional use	Stationary machines in every group are first sorted by duty.	proposals.tsv C1 row (quality_markers)
-C1	G-C1-3	construction class and motor power (machines)		Weighed inside the duty class.	proposals.tsv C1 row (quality_markers)
-C1	G-C1-5	accuracy and resolution		The one marker for measuring and test tools.	proposals.tsv C1 row (quality_markers)
 C2	G-C2-101	cut quality		Which? gives it 50 to 51 percent; Consumer NZ tests long grass.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
 C2	G-C2-101	ease of use (weight, handling, starting, emptying)		Which? gives it 30 percent.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers
 C2	G-C2-101	battery run time and spare-battery availability		Consumer NZ about 50 minutes; part of the Which? Best Buy rule.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
@@ -971,3 +959,15 @@ F5	G-F5-4	period	century	Second.	proposals.tsv F5 row (quality_markers); Antique
 F5	G-F5-5	preference, no ranking		Held as one's own papers; no quality ladder (memo).	proposals.tsv F5 row (quality_markers); memo F5
 F5	G-F5-6	preference, no ranking		Held as one's own papers; no grading body, award or rating found (memo).	proposals.tsv F5 row (quality_markers); proposals.tsv F5 row (quality_signals); memo F5
 F5	G-F5-7	archival conformity	ISO 18902; PAT passed	Memo attribute for albums; the only signal named.	proposals.tsv F5 row (quality_signals); memo F5
+C1	G-C1-R1	How hard it works under load	torque, drilling and driving speed	Tests weigh this first (Consumer Reports power score; CHOICE gives drilling and torque 30 percent each).	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+C1	G-C1-R1	How it handles	weight and balance with the battery fitted	CHOICE gives handling 40 percent.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+C1	G-C1-R1	Battery run time and platform	higher amp-hours and a wider range of tools on the same battery	Most people buy into one battery platform, then choose tools within it.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+C1	G-C1-R1	Durability and safety	battery life over many charges; kick-back cut-off	Tested separately from power.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+C1	G-C1-R1	Motor and warranty	brushless beats brushed	Checked after the measured results.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+C1	G-C1-R1	Voltage		Only a rough guide to power (Consumer Reports).	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+C1	G-C1-R2	Steel and hardening of the edge	Aogami Super > Blue #1 > Blue #2 > White #1 > White #2 (Japanese edge steels)	Leads for planes, chisels and other edged tools.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+C1	G-C1-R2	Accuracy and fit	flat soles, square sides, no play	Comes right after the steel.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+C1	G-C1-R2	Maker or smith		Premium hand tools are compared maker by maker.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+C1	G-C1-R3	Duty class	frequent use > regular use > occasional use	Workshop machines are sorted by duty first.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+C1	G-C1-R3	Build and motor power		Compared within the same duty class.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+C1	G-C1-R4	Accuracy and resolution		The one thing that matters for measuring and test tools.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1

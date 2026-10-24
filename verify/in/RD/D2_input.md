@@ -1,0 +1,118 @@
+# D2 Phones, Tablets & Personal Devices: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (device role: phone, tablet, wearable, e-reader, GPS and trackers, power bank, radio)
+- reason: Retail trees open on device type and the fetched guides then ask budget, needs and platform inside it (Digital Trends: price > features > operating system > specs > carrier; Digital Unite: fit to needs; Notebookcheck rates smartphones and tablets as separate device types), so device type leads and platform and budget are the first filters, not levels (C13, C4(d)).
+- ladder: What device do you need? > Which kind (smartphone, feature phone, foldable; smartwatch, band, ring; e-reader, writing tablet ...)? > What makes the best one for you (platform and budget first as filters, then display, battery, updates, camera)?
+- level1_groups: Phones; Tablets; Wearables; E-readers and pocket devices; GPS, trackers and safety devices; Power banks; Two-way radios and pagers; Accessories made for one phone, tablet or wearable
+- quality_markers: Smartphones: handling, battery and display weigh most (Notebookcheck smartphone weights: weight 18, input 16, battery 16, display 12, camera 8) > display panel (OLED over LCD) > software update support (years promised, dated) > battery life measured in tests, not mAh > camera image quality, not megapixels (DXOMARK exposure, colour, autofocus, texture, noise, night, zoom) > processor over RAM > durability (IP68 > IP67 > IP54; MIL-STD-810) > storage; Tablets: display > battery > performance > accessory support (pen, keyboard by line); E-readers: store ecosystem first (preference) > screen generation and size > front light, waterproofing, buttons, stylus (provisional, memo only); Wearables and trackers: platform pairing > battery days > sensor and GPS accuracy > finding network (provisional, memo only); Power banks: capacity (Wh, under 100 Wh for air travel) > output wattage > charging standard
+- quality_signals: DXOMARK Camera, Display, Battery and Audio scores (DXOMARK, France; class (ii) tier entries on named forms, method commercially secret and the firm also consults for makers: record as caveat, feeds disputed); Notebookcheck rating with bands Insufficient to Excellent (class (ii)/(iii)); AnTuTu benchmark score (AnTuTu, monthly, China data; class (ii), memo S18-S19); IP code IEC 60529 and MIL-STD-810 (class (i) attributes / standard_met); maker update promise (dated attribute on the OS C13 row); Kimovil Range (platform_tag class (vi)); Swappa and Iosys condition grades (C16 registry)
+- maker_role: owner (confirm maker_roles.tsv D2; set provisional = no): models carry the maker; platform (OS, store, finding network) leads over maker and lives in C13, never as a maker column
+- side_view: By platform view (iOS, Android, HarmonyOS; Kindle or Kobo store; Find My or Find Hub network) beside the device tree, generated from C13 rows; a brand tab second (GSMArena-style brand index) through named forms only
+- evidence_rows: Digital Trends cell phone buying guide; Digital Unite how to choose a smartphone; Wikipedia DXOMARK; Notebookcheck Our Rating Criteria (smartphone and tablet columns); memo D2 sections 2, 5, 6 (S01, S04, S08, S12, S14, S17-S19, S28-S32, S39, S40)
+- maker role row: {'code': 'D2', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'device models carry the maker'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-D2-1 | Phones | 1 |  | D2.1
+- G-D2-9 | Smartphones | 2 | G-D2-1 | D2.1.1.01; D2.1.1.02; D2.1.1.03; D2.1.1.04; D2.1.1.05
+- G-D2-10 | Feature phones | 2 | G-D2-1 | D2.1.2.01; D2.1.2.02; D2.1.2.03; D2.1.2.04
+- G-D2-11 | Satellite phones | 2 | G-D2-1 | D2.1.3.01
+- G-D2-12 | Landline phones | 2 | G-D2-1 | D2.1.4.01
+- G-D2-2 | Tablets | 1 |  | D2.3.01
+- G-D2-3 | Wearables | 1 |  | D2.5.01; D2.5.02; D2.5.03; D2.5.04; D2.5.05; D2.5.06
+- G-D2-4 | E-readers and pocket devices | 1 |  | D2.4
+- G-D2-13 | Reading and writing devices | 2 | G-D2-4 | D2.4.1.01; D2.4.1.02
+- G-D2-14 | Organisers and PDAs | 2 | G-D2-4 | D2.4.2.01; D2.4.2.02
+- G-D2-15 | Language devices | 2 | G-D2-4 | D2.4.3.01; D2.4.3.02; D2.4.3.03
+- G-D2-5 | GPS, trackers and safety devices | 1 |  | D2.6
+- G-D2-16 | GPS units | 2 | G-D2-5 | D2.6.1.01; D2.6.1.02; D2.6.1.03; D2.6.1.04
+- G-D2-17 | Satellite communicators | 2 | G-D2-5 | D2.6.2.01; D2.6.2.02; D2.6.2.03
+- G-D2-18 | Trackers | 2 | G-D2-5 | D2.6.3.01; D2.6.3.02
+- G-D2-6 | Power banks | 1 |  | D2.7.01; D2.7.02
+- G-D2-7 | Two-way radios and pagers | 1 |  | D2.2.01; D2.2.02; D2.2.03; D2.2.04
+- G-D2-8 | Accessories made for one phone, tablet or wearable | 1 |  | D2.8.01; D2.8.02; D2.8.03; D2.8.04; D2.8.05; D2.8.06; D2.8.07; D2.8.08; D2.8.09; D2.8.10; D2.8.11; D2.8.12; D2.8.13; D2.8.14; D2.8.15
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-D2-9 | tested rating weights (handling, battery, display first) | weight 18, input 16, battery 16, display 12, camera 8 (Notebookcheck weights) | Handling, battery and display weigh most in the tested smartphone rating. | proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+- G-D2-9 | display panel | OLED > LCD | The panel is weighed after the overall tested rating. | proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+- G-D2-9 | software update support | more promised years (dated) > fewer | Years of updates promised, recorded with a date. | proposals.tsv D2 row (quality_markers); Digital Trends cell phone buying guide
+- G-D2-9 | battery life measured in tests |  | Tested runtime counts, not the mAh figure. | proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+- G-D2-9 | camera image quality | DXOMARK sub-scores: exposure, colour, autofocus, texture, noise, night, zoom | Image quality as tested, not megapixels. | proposals.tsv D2 row (quality_markers); Wikipedia DXOMARK
+- G-D2-9 | processor |  | The processor is weighed over RAM. | proposals.tsv D2 row (quality_markers); Digital Trends cell phone buying guide
+- G-D2-9 | durability | IP68 > IP67 > IP54; MIL-STD-810 | Ingress rating and drop standard. | proposals.tsv D2 row (quality_markers)
+- G-D2-9 | storage |  | Weighed last. | proposals.tsv D2 row (quality_markers)
+- G-D2-2 | display |  | Display first for tablets. | proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+- G-D2-2 | battery |  | Second for tablets. | proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+- G-D2-2 | performance |  | Third for tablets. | proposals.tsv D2 row (quality_markers); Notebookcheck Our Rating Criteria
+- G-D2-2 | accessory support |  | Pen and keyboard by line. | proposals.tsv D2 row (quality_markers)
+- G-D2-13 | store ecosystem |  | Chosen by preference first (Kindle, Kobo); provisional, memo only. | proposals.tsv D2 row (quality_markers); memo D2
+- G-D2-13 | screen generation and size |  | Provisional, memo only. | proposals.tsv D2 row (quality_markers); memo D2
+- G-D2-13 | front light, waterproofing, buttons, stylus |  | Provisional, memo only. | proposals.tsv D2 row (quality_markers); memo D2
+- G-D2-3 | platform pairing |  | Works with my phone first; provisional, memo only. | proposals.tsv D2 row (quality_markers); memo D2
+- G-D2-3 | battery days |  | Provisional, memo only. | proposals.tsv D2 row (quality_markers); memo D2
+- G-D2-3 | sensor and GPS accuracy |  | Provisional, memo only. | proposals.tsv D2 row (quality_markers); memo D2
+- G-D2-3 | finding network |  | Provisional, memo only. | proposals.tsv D2 row (quality_markers); memo D2
+- G-D2-5 | platform pairing |  | Same order as wearables; provisional, memo only. | proposals.tsv D2 row (quality_markers); memo D2
+- G-D2-5 | battery days |  | Provisional, memo only. | proposals.tsv D2 row (quality_markers); memo D2
+- G-D2-5 | sensor and GPS accuracy |  | Provisional, memo only. | proposals.tsv D2 row (quality_markers); memo D2
+- G-D2-5 | finding network |  | Find My or Find Hub network for trackers; provisional, memo only. | proposals.tsv D2 row (quality_markers); memo D2
+- G-D2-6 | capacity | Wh; under 100 Wh for air travel | Capacity first, stated in watt-hours. | proposals.tsv D2 row (quality_markers)
+- G-D2-6 | output wattage |  | Second. | proposals.tsv D2 row (quality_markers)
+- G-D2-6 | charging standard |  | Third. | proposals.tsv D2 row (quality_markers)
+
+## Kinds (kind_id | stored name | native name | definition)
+- D2.1.1.01 | Bar smartphone (slate) |  | touchscreen smartphone in one rigid slab-shaped body.
+- D2.1.1.02 | Keyboard-bar smartphone |  | one-piece smartphone with a fixed physical keyboard below the screen (`era` tag).
+- D2.1.1.03 | Flip foldable smartphone |  | smartphone whose flexible screen folds across its width into a compact square.
+- D2.1.1.04 | Book foldable smartphone |  | smartphone whose flexible screen folds along its length and opens like a book into a tablet-sized screen.
+- D2.1.2.01 | Bar feature phone |  | non-smartphone mobile phone in one rigid body with a keypad (taco and other one-piece shapes carry a `form_tag`).
+- D2.1.2.02 | Flip feature phone |  | non-smartphone mobile phone whose body folds on a hinge (clamshell).
+- D2.1.2.03 | Slider phone |  | mobile phone whose screen half slides over the keypad half (`era` tag).
+- D2.1.2.04 | Swivel phone |  | mobile phone whose screen half rotates on a pivot to show the keypad (`era` tag).
+- D2.1.3.01 | Satellite phone |  | handheld phone that places calls through satellites rather than a cellular network.
+- D2.1.4.01 | Landline phone |  | telephone for a fixed line, corded or cordless (DECT); `handset` is an attribute (the corded half is attested at the harvest).
+- D2.2.01 | Handheld two-way radio (walkie-talkie) |  | battery-powered push-to-talk transceiver held in the hand.
+- D2.2.02 | Vehicle-mounted two-way radio |  | two-way transceiver made to be installed in a vehicle (provisional until attested).
+- D2.2.03 | Base-station transceiver |  | fixed two-way transceiver run from mains power at one site (provisional until attested).
+- D2.2.04 | Pager |  | small receiver that alerts its carrier and shows short messages sent over a paging network.
+- D2.3.01 | Slate tablet |  | touchscreen computer in one flat body, sold without a keyboard (an optional keyboard cover is a part); size is an attribute.
+- D2.4.1.01 | E-reader |  | device sold for reading e-books, usually on an e-paper screen; size class, `panel` and `platform` are attributes.
+- D2.4.1.02 | E-paper writing tablet |  | e-paper device sold for stylus note-taking and handwriting (provisional until attested).
+- D2.4.2.01 | Electronic organiser |  | pocket device that keeps a diary, address book and notes (digital diary).
+- D2.4.2.02 | PDA or palmtop |  | handheld personal digital assistant running applications on a small screen with stylus or keyboard.
+- D2.4.3.01 | Electronic dictionary |  | handheld device holding one or more dictionaries for look-up.
+- D2.4.3.02 | Pocket translator |  | handheld device that translates speech or text between languages.
+- D2.5.01 | Smartwatch |  | wrist device with a display that runs apps and notifications; a GPS sports watch is this kind with `multisport_gps`.
+- D2.5.02 | Hybrid smartwatch |  | analogue-hand watch with built-in sensors and phone connection.
+- D2.5.03 | Smart band (fitness tracker, activity tracker) |  | slim wrist band with a small display that tracks activity, sleep and heart rate.
+- D2.5.04 | Screenless band |  | wrist band with sensors and no display, read through a phone app.
+- D2.5.05 | Smart ring |  | finger ring with sensors that tracks health and activity.
+- D2.5.06 | Smart glasses |  | glasses with a see-through display, camera or speakers (a headset that encloses the eyes is D5).
+- D2.6.1.01 | Handheld hiking GPS |  | portable satellite-navigation unit with maps made to be carried on foot outdoors.
+- D2.6.1.02 | Handheld GPS with two-way radio |  | handheld GPS unit with a two-way radio in the same case; `radio_service` is recorded.
+- D2.6.1.03 | Golf GPS device |  | handheld or clip-on GPS unit that gives distances on golf courses.
+- D2.6.1.04 | Portable sat-nav (car navigation unit) |  | portable navigation unit with road maps, sold to be moved between vehicles (a mounted one is G1).
+- D2.6.2.01 | Satellite messenger |  | handheld device that sends and receives text messages and SOS alerts through satellites.
+- D2.6.2.02 | Personal locator beacon |  | one-way distress beacon that sends a position to rescue services via satellite.
+- D2.6.3.01 | Bluetooth item tracker |  | small tag attached to an item and located through a phone's finding network.
+- D2.6.3.02 | GPS or cellular tracker |  | tracker with its own GPS and cellular link (SIM, subscription) carried by a person or put in a bag (`user` tag: child or adult; an animal tracker is B10, a vehicle tracker G1).
+- D2.7.01 | Power bank |  | portable rechargeable battery that charges phones and other devices; `capacity_wh`, `output_w` and `built_in_cable` are attributes.
+- D2.7.02 | Magnetic power bank |  | power bank that attaches magnetically to the back of a phone and charges it wirelessly (MagSafe, Qi2); stays a kind only if a comparison source ranks it apart (C10(b)).
+- D2.8.01 | Phone case |  | case or cover made to hold and protect one phone model.
+- D2.8.02 | Tablet case |  | case or cover made to hold and protect one tablet model.
+- D2.8.03 | Screen protector |  | film or glass sheet cut to cover the screen of one device.
+- D2.8.04 | Watch strap or band |  | replacement strap made for one smartwatch or band.
+- D2.8.05 | Device charging dock or puck |  | dock, stand or puck charger made for one device.
+- D2.8.06 | Stylus |  | pen made for the screen of one tablet or phone line.
+- D2.8.07 | Tablet keyboard cover |  | cover with a keyboard made for one tablet line.
+- D2.8.08 | E-reader cover |  | case or cover made to protect one e-reader model.
+- D2.8.09 | Phone battery case |  | phone case with a built-in battery that charges the phone.
+- D2.8.10 | Clip-on phone lens |  | add-on lens that clips over a phone camera.
+- D2.8.11 | Phone gimbal |  | motorised handheld stabiliser made for a phone.
+- D2.8.12 | Selfie stick |  | extendable pole that holds a phone for self-portraits.
+- D2.8.13 | Clip-on phone game controller |  | game controller that clips onto a phone.
+- D2.6.2.03 | Satellite hotspot |  | portable unit that links phones over Wi-Fi to a satellite network for calls, messages and data, with no keypad or screen of its own.
+- D2.8.14 | Smartphone microphone |  | microphone made to plug into or clip onto a phone and record through it; one made for cameras that also takes a phone stays D4 or E3.
+- D2.4.3.03 | Translator earbuds |  | pair of earbuds sold for translating speech between languages through a phone app; ordinary earbuds with a translate feature stay D3.
+- D2.1.1.05 | Dual-screen smartphone |  | smartphone with two rigid touchscreens joined by a hinge, used apart or as one larger screen (not a flexible foldable screen).
+- D2.8.15 | DECT repeater |  | unit that extends the range of a cordless (DECT) phone's base station to its handsets.

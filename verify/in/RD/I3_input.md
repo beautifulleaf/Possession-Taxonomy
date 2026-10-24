@@ -1,0 +1,98 @@
+# I3 Subscriptions, Memberships & Online Services: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: use or need (what the plan gives access to: watch, listen, read, play, store and communicate, connect, enter places, receive deliveries); provider at the third step
+- reason: The German test body and its reporting split by what you watch (films and series, sport, TV) before a provider table (Stiftung Warentest streaming overview; DSLWEB on Stiftung Warentest), the subscription directory splits by medium or function (Subger category tree) and the plan pages put seats and tiers after the service (Spotify Premium plans), so access type leads and providers are compared inside it; sport and genre shortlists (Showcase-TV VOD ranking) are barred as divisions.
+- ladder: What do you want access to? > Which kind of service? > Which provider? > Which plan (seats, ads, tier, term)?
+- level1_groups: Watch; Listen; Read; Play; Classes and wellness; Bundles and creator memberships; Online services and storage; Phone and internet; Memberships and passes; Boxes and clubs
+- quality_markers: Streaming and catalogues: has the titles you want (availability, checked by title) > annualised price and price of the ad-free tier > picture and sound quality (SD < HD < 4K HDR) > simultaneous streams and seats (individual < duo < family) > devices supported > contract term and ease of cancelling > free trial; dated catalogue size as context only; Connectivity: coverage > speed > reliability > customer satisfaction and complaints > value and price > roaming > perks and family plans (Expert Reviews award categories); Memberships, passes and boxes: preference; reach of sites or venues, price, curation and flexibility, provisional (memo only)
+- quality_signals: Maker tier ladders on plan rows (Essential < Extra < Premium; Individual, Duo, Family, Student) as C4(b)(i) tier entries; Stiftung Warentest: 2025 overview of 47 services gives no grade or winner, so no scheme now; a graded test (2020) enters only if fetched; Expert Reviews Mobile Network Awards (survey of 1,500 users), class (iii); Ofcom complaints data, class (ii) measured; RootMetrics network tests, class (ii) measured; Showcase-TV reviewer scores to 5.0 (JP, own web survey), class (iii) low weight; Choice Australia gives no ranking (refers to JustWatch for availability)
+- maker_role: owner (confirm; the provider owns the service named form)
+- side_view: Provider tab beside the main way in (providers lead every comparison table), and a 'my subscriptions' view by annualised price and term
+- evidence_rows: Spotify Premium plans (NL); Choice Australia streaming guide (2021); Stiftung Warentest streaming overview (test.de); DSLWEB on Stiftung Warentest streaming; Showcase-TV VOD ranking (JP); Subger video streaming guide; Subger category tree (subscriptions); Expert Reviews mobile network awards (UK)
+- maker role row: {'code': 'I3', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'the service is the named form; the provider owns it'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-I3-1 | Watch | 1 |  | I3.1.3.01; I3.1.3.02; I3.1.3.03
+- G-I3-2 | Listen | 1 |  | I3.1.1.01; I3.1.1.02; I3.1.2.01; I3.1.2.02
+- G-I3-3 | Read | 1 |  | I3.1.4.01; I3.1.4.02; I3.1.4.03; I3.1.4.04; I3.1.5.01
+- G-I3-4 | Play | 1 |  | I3.1.7.01; I3.1.7.02; I3.1.7.03
+- G-I3-5 | Classes and wellness | 1 |  | I3.1.6.01
+- G-I3-6 | Bundles and creator memberships | 1 |  | I3.1.9.01; I3.1.9.02
+- G-I3-7 | Online services and storage | 1 |  | I3.2.01; I3.2.02; I3.2.03; I3.2.04; I3.2.05; I3.2.06; I3.1.8.01
+- G-I3-8 | Phone and internet | 1 |  | I3.3.01; I3.3.02; I3.3.03; I3.3.04; I3.3.05; I3.3.06; I3.3.07
+- G-I3-9 | Memberships and passes | 1 |  | I3.4
+- G-I3-11 | Gyms, clubs and class passes | 2 | G-I3-9 | I3.4.1.01; I3.4.1.02; I3.4.1.03
+- G-I3-12 | Sites, venues and collections | 2 | G-I3-9 | I3.4.2.01; I3.4.2.02; I3.4.2.03
+- G-I3-13 | Travel and car-sharing | 2 | G-I3-9 | I3.4.3.01; I3.4.3.02
+- G-I3-14 | Season tickets | 2 | G-I3-9 | I3.4.4.01
+- G-I3-10 | Boxes and clubs | 1 |  | I3.5.01; I3.5.02; I3.5.03; I3.5.04
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-I3-1 | has the titles you want (all streaming and catalogue groups) |  | Availability checked by title comes first; dated catalogue size is context only. | proposals.tsv I3 row (quality_markers); Choice Australia streaming guide (2021); Stiftung Warentest streaming overview (test.de)
+- G-I3-1 | annualised price and price of the ad-free tier (all streaming and catalogue groups) |  | Second. | proposals.tsv I3 row (quality_markers); Choice Australia streaming guide (2021); Subger video streaming guide
+- G-I3-1 | picture and sound quality (all streaming and catalogue groups) | 4K HDR > HD > SD | Third. | proposals.tsv I3 row (quality_markers); Stiftung Warentest streaming overview (test.de)
+- G-I3-1 | simultaneous streams and seats (all streaming and catalogue groups) | family > duo > individual | Fourth. | proposals.tsv I3 row (quality_markers); Spotify Premium plans (NL)
+- G-I3-1 | devices supported (all streaming and catalogue groups) |  | Fifth. | proposals.tsv I3 row (quality_markers); DSLWEB on Stiftung Warentest streaming
+- G-I3-1 | contract term and ease of cancelling (all streaming and catalogue groups) |  | Sixth. | proposals.tsv I3 row (quality_markers); Choice Australia streaming guide (2021)
+- G-I3-1 | free trial (all streaming and catalogue groups) |  | Weighed last. | proposals.tsv I3 row (quality_markers); Choice Australia streaming guide (2021)
+- G-I3-8 | coverage |  | First of the award categories. | proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+- G-I3-8 | speed |  | Award category. | proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+- G-I3-8 | reliability |  | Award category. | proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+- G-I3-8 | customer satisfaction and complaints |  | Award category. | proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+- G-I3-8 | value and price |  | Award category. | proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+- G-I3-8 | roaming |  | Award category. | proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+- G-I3-8 | perks and family plans |  | Weighed last. | proposals.tsv I3 row (quality_markers); Expert Reviews mobile network awards (UK)
+- G-I3-9 | reach of sites or venues |  | Chosen by preference; provisional, memo only. | proposals.tsv I3 row (quality_markers); memo I3
+- G-I3-9 | price |  | Provisional, memo only. | proposals.tsv I3 row (quality_markers); memo I3
+- G-I3-9 | flexibility |  | Provisional, memo only. | proposals.tsv I3 row (quality_markers); memo I3
+- G-I3-10 | curation |  | Chosen by preference; provisional, memo only. | proposals.tsv I3 row (quality_markers); memo I3
+- G-I3-10 | price |  | Provisional, memo only. | proposals.tsv I3 row (quality_markers); memo I3
+- G-I3-10 | flexibility |  | Provisional, memo only. | proposals.tsv I3 row (quality_markers); memo I3
+
+## Kinds (kind_id | stored name | native name | definition)
+- I3.1.1.01 | Music streaming subscription |  | plan giving on-demand access to a library of recorded music.
+- I3.1.1.02 | Satellite and internet radio subscription |  | paid subscription to a network of radio channels received by satellite or over the internet.
+- I3.1.2.01 | Audiobook catalogue subscription |  | plan giving access to a catalogue of audiobooks to listen to while subscribed (credits it renews are a plan attribute; titles bought with them are I2).
+- I3.1.2.02 | Paid podcast subscription |  | paid plan giving access to one or more podcasts' paid episodes or feeds.
+- I3.1.3.01 | On-demand streaming video subscription |  | plan giving on-demand access to a streamed library of film, series or sport (SVOD, OTT; a live-sport service is here).
+- I3.1.3.02 | Live-TV streaming bundle |  | plan streaming a bundle of linear TV channels over the internet (vMVPD).
+- I3.1.3.03 | Pay-TV package (cable, satellite, IPTV) |  | subscription package of TV channels delivered by cable, satellite or IPTV, unless named for the line.
+- I3.1.4.01 | Newspaper subscription (one title) |  | subscription to one newspaper title, delivered in print, digitally or both.
+- I3.1.4.02 | Magazine subscription (one title) |  | subscription to one magazine title, delivered in print, digitally or both.
+- I3.1.4.03 | News and magazine library subscription (many titles) |  | plan giving access to a library of many newspaper and magazine titles.
+- I3.1.4.04 | E-book library subscription |  | plan giving access to a library of e-books to read while subscribed.
+- I3.1.5.01 | Comic and manga library subscription |  | plan giving access to a library of comics or manga to read while subscribed.
+- I3.1.6.01 | Recorded class subscription |  | plan giving access to a library of recorded or streamed lessons, sessions or classes to watch or listen to (the subject divides nothing, I-20).
+- I3.1.7.01 | Game subscription (catalogue, online play, cloud) |  | plan giving access to a catalogue of games, online play or cloud play on a platform or store.
+- I3.1.7.02 | Single-game subscription |  | subscription required or sold to play one game.
+- I3.1.7.03 | In-game season or battle pass |  | pass bought for a season of one game that unlocks its reward track.
+- I3.1.8.01 | Asset-library subscription |  | plan giving access to a library of images, video, sounds, fonts or templates for making work (each asset licensed under it is I2).
+- I3.1.9.01 | Multi-service bundle |  | one plan bundling several subscription services, filed here when named for none of its components.
+- I3.1.9.02 | Creator membership |  | paid membership giving one creator's paid posts, channel or feed, whatever the medium (a free follow is OUT).
+- I3.2.01 | Cloud storage and sync plan |  | plan giving online storage for the user's files, with sync between devices.
+- I3.2.02 | Online backup plan |  | plan keeping the user's backup on the provider's servers, even with its own client program.
+- I3.2.03 | Email service |  | mailbox and address service, free or paid (a program used only to read and send mail is I1).
+- I3.2.04 | Messaging, calling and video-conferencing service |  | service for sending messages and making voice or video calls and meetings over the internet.
+- I3.2.05 | Maps and navigation service |  | online map and route-finding service, free or paid.
+- I3.2.06 | Personal hosting plan (web hosting, game server) |  | plan renting server space for a personal website or game server (hosting sold as business infrastructure is not filed).
+- I3.3.01 | Mobile phone plan (Handytarif) |  | mobile plan for calls, texts and data on a SIM or eSIM, contract or prepaid, with or without a handset (the handset is its own object).
+- I3.3.02 | Mobile data plan (data-only SIM, dongle, router) |  | mobile plan giving data only, for a data SIM, dongle or mobile router.
+- I3.3.03 | Fixed-line broadband plan |  | home internet plan over a fixed line (fibre, copper or cable as `technology`).
+- I3.3.04 | Satellite internet plan |  | internet plan delivered by satellite through a dish, at home or on the move (roaming and mobility as attributes).
+- I3.3.05 | Home phone line plan |  | plan for a fixed home telephone line.
+- I3.3.06 | Bundled connectivity package (phone, internet, TV) (Kombi-Tarif) |  | one plan bundling a connection with phone or TV, named and sold for the line.
+- I3.3.07 | Renewing travel eSIM plan |  | travel data plan on an eSIM that renews each period (one-off packs are OUT).
+- I3.4.1.01 | Facility membership |  | membership of one operator's facility or facilities (gym, pool, sports centre, climbing wall).
+- I3.4.1.02 | Members' club |  | membership of a club joined to take part in its activity (sports, social or hobby).
+- I3.4.1.03 | Multi-studio class pass |  | pass giving bookings at classes across many studios, often paid in renewing credits (`credits_per_period` a plan attribute).
+- I3.4.2.01 | Multi-site membership |  | membership giving entry to one body's network of sites.
+- I3.4.2.02 | Multi-venue pass scheme |  | pass giving entry to many bodies' venues under one scheme.
+- I3.4.2.03 | Single-venue annual pass |  | annual pass or membership for one museum, zoo, garden, aquarium or theme park.
+- I3.4.3.01 | Period transit pass (定期券) |  | pass for travel on a network or route valid for a period or a number of journeys (alias: season ticket, UK rail).
+- I3.4.3.02 | Car-sharing membership |  | membership giving access to a shared vehicle fleet (trips, hire fees and fuel are one-off services, OUT).
+- I3.4.4.01 | Season ticket (venue, club or event series) |  | ticket giving entry to a season or series of events at a venue or of a club.
+- I3.5.01 | Provider-curated box |  | recurring delivery whose contents the provider picks, including a merchant's case plan.
+- I3.5.02 | Member-selected menu plan |  | recurring delivery whose contents the member picks from the provider's menu (meal kits, coffee, books).
+- I3.5.03 | Producer allocation club |  | a producer's own club that allocates its own goods to members on a schedule.
+- I3.5.04 | Goods rental subscription |  | subscription lending goods to be used and returned (clothes, furniture, toys, instruments, art; the rented goods are not owned and not filed).

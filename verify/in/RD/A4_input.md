@@ -1,0 +1,134 @@
+# A4 Bags & Accessories: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object, grouped by what it carries (use)
+- reason: The luggage retailer splits first by what the object holds or how it is carried (Markenkoffer: luggage, backpacks, bags, school, accessories); inside luggage and packs the evidence chooses by use and tests (Matador, OutdoorGearLab, Travelpro), and the maker leads only for luxury handbags and buy-it-for-life bags (Saclab, Carryology), so the house view sits beside.
+- ladder: What do you need to carry? (luggage, backpacks, handbags, work bags, wallets, sunglasses, umbrellas, baby carriers) > Which type? (by size class and shell for luggage, by use for packs, by silhouette for handbags) > What makes the best one? (materials, construction, hardware, warranty; for luxury: house and model)
+- level1_groups: Luggage and travel bags (A4.3); Backpacks and packs (A4.2); Handbags and shoulder bags (A4.1); Work bags and document cases (A4.4); Wallets and small leather goods (A4.5); Sunglasses (A4.6); Umbrellas and fans (A4.7); Baby carriers (A4.8); Small carried accessories and bag parts (A4.9, A4.10)
+- quality_markers: Fabric first (type and weave, e.g. CORDURA or X-PAC; 420D-500D for travel packs; denier alone does not decide), then construction (double stitch lines, bar tacks, reinforced bottom and strap anchors), then hardware (large YKK or other coil zippers, which fail first; wheels, wheel housings, telescoping handle, corners for luggage), then design and fit, then warranty and repairability (lifetime > limited). Luxury handbags: craftsmanship (hand labour, e.g. about 48 h per Hermes bag), leather (exotic and full-grain > top-grain), classic silhouette and house model, scarcity, resale value
+- quality_signals: OutdoorGearLab hands-on tests (drop, stairs, water soak; class ii/iii, no weights stated); maker-published tests (Travelpro rolling, drop, handle-cycle and seam tests; maker claims, class iv, low weight); bluesign SYSTEM PARTNER and APPROVED (attribute, class i; owner not named on the fetched page); CORDURA fabric (trademark fabric, attribute); YKK zippers (supplier relation); lifetime warranties (GORUCK, Red Oxx, Patagonia, Osprey, Filson, Tom Bihn; attribute); Carryology buy-it-for-life selection (editorial, class iii); expert authentication and resale value for luxury (platform_tag). Provisional: no formal test standard exists for bags
+- maker_role: way_in (keep, provisional) for handbags, small leather goods, sunglasses, luggage and buy-it-for-life packs; propose owner-only scope rows for A4.7 umbrellas and fans, A4.8 baby carriers, A4.9 small carried accessories and A4.10 parts (chosen by type and spec; no maker evidence)
+- side_view: House view for handbags and small leather goods (house > icon models: Birkin, Kelly, Classic Flap); buy-it-for-life makers view (warranty); carry-on view (size_class); laptop-bag view (laptop_size across messenger, briefcase, backpack)
+- evidence_rows: Markenkoffer (DE); Matador: what makes a bag durable; OutdoorGearLab carry-on luggage test; Travelpro: how to shop for quality luggage; bluesign explainer (Eagle's Nest Outfitters); Carryology buy-it-for-life bags; Saclab: why designer handbags cost so much
+- maker role row: {'code': 'A4', 'scope': 'umbrellas and fans, baby carriers, small accessories, parts (A4.7 to A4.10)', 'role': 'owner', 'provisional': 'yes', 'reason': 'chosen by function (HOL_DP_1, R-116)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-A4-1 | Luggage and travel bags | 1 |  | A4.3
+- G-A4-10 | Suitcases and trunks | 2 | G-A4-1 | A4.3.01; A4.3.02
+- G-A4-11 | Duffels, garment bags and dry bags | 2 | G-A4-1 | A4.3.03; A4.3.04; A4.3.05; A4.3.06
+- G-A4-12 | Packing cubes | 2 | G-A4-1 | A4.3.07
+- G-A4-2 | Backpacks and packs | 1 |  | A4.2
+- G-A4-13 | Everyday and school packs | 2 | G-A4-2 | A4.2.01; A4.2.02; A4.2.09; A4.2.05
+- G-A4-14 | Travel packs | 2 | G-A4-2 | A4.2.04
+- G-A4-15 | Outdoor and sport packs | 2 | G-A4-2 | A4.2.03; A4.2.06; A4.2.07; A4.2.08
+- G-A4-3 | Handbags and shoulder bags | 1 |  | A4.1
+- G-A4-16 | Clutches, evening and small bags | 2 | G-A4-3 | A4.1.01; A4.1.02; A4.1.03; A4.1.13
+- G-A4-17 | Totes, satchels and top-handle bags | 2 | G-A4-3 | A4.1.04; A4.1.05; A4.1.06
+- G-A4-18 | Shoulder, hobo, bucket and saddle bags | 2 | G-A4-3 | A4.1.07; A4.1.11; A4.1.12; A4.1.14
+- G-A4-19 | Crossbody, messenger and sling bags | 2 | G-A4-3 | A4.1.08; A4.1.09; A4.1.10
+- G-A4-4 | Work bags and document cases | 1 |  | A4.4.01; A4.4.02; A4.4.03
+- G-A4-5 | Wallets and small leather goods | 1 |  | A4.5
+- G-A4-20 | Wallets | 2 | G-A4-5 | A4.5.01; A4.5.02; A4.5.03; A4.5.04; A4.5.10; A4.5.11; A4.5.12
+- G-A4-21 | Cardholders, money clips, purses and covers | 2 | G-A4-5 | A4.5.05; A4.5.06; A4.5.07; A4.5.08; A4.5.09
+- G-A4-6 | Sunglasses | 1 |  | A4.6.01; A4.6.02; A4.6.03; A4.6.04; A4.6.05; A4.6.06; A4.6.07
+- G-A4-7 | Umbrellas, parasols and fans | 1 |  | A4.7
+- G-A4-22 | Umbrellas and parasols | 2 | G-A4-7 | A4.7.01; A4.7.02; A4.7.03; A4.7.04; A4.7.07; A4.7.08
+- G-A4-23 | Hand fans | 2 | G-A4-7 | A4.7.05; A4.7.06
+- G-A4-8 | Baby carriers | 1 |  | A4.8.01; A4.8.02; A4.8.03; A4.8.04; A4.8.05; A4.8.06
+- G-A4-9 | Small carried accessories and bag parts | 1 |  | A4.9; A4.10
+- G-A4-24 | Small carried accessories | 2 | G-A4-9 | A4.9.01; A4.9.02; A4.9.03; A4.9.04; A4.9.05
+- G-A4-25 | Bag parts and accessories | 2 | G-A4-9 | A4.10.01; A4.10.02; A4.10.03; A4.10.04
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-A4-1 | fabric | type and weave first (e.g. CORDURA, X-PAC); 420D-500D for travel packs | Fabric is weighed first; denier alone does not decide. | proposals.tsv A4 row (quality_markers); OutdoorGearLab carry-on luggage test; Travelpro: how to shop for quality luggage; Matador: what makes a bag durable
+- G-A4-1 | construction |  | Double stitch lines, bar tacks, reinforced bottom and strap anchors. | proposals.tsv A4 row (quality_markers); OutdoorGearLab carry-on luggage test; Travelpro: how to shop for quality luggage; Matador: what makes a bag durable
+- G-A4-1 | hardware |  | Hardware: large YKK or other coil zippers (fail first); wheels, wheel housings, telescoping handle, corners. | proposals.tsv A4 row (quality_markers); OutdoorGearLab carry-on luggage test; Travelpro: how to shop for quality luggage; Matador: what makes a bag durable
+- G-A4-1 | design and fit |  | Weighed after materials and build. | proposals.tsv A4 row (quality_markers); OutdoorGearLab carry-on luggage test; Travelpro: how to shop for quality luggage; Matador: what makes a bag durable
+- G-A4-1 | warranty and repairability | lifetime > limited | Long warranty and repair service signal a bag built to last. | proposals.tsv A4 row (quality_markers); Carryology buy-it-for-life bags; Travelpro: how to shop for quality luggage
+- G-A4-2 | fabric | type and weave first (e.g. CORDURA, X-PAC); 420D-500D for travel packs | Fabric is weighed first; denier alone does not decide. | proposals.tsv A4 row (quality_markers); Matador: what makes a bag durable; Carryology buy-it-for-life bags; bluesign explainer (Eagle's Nest Outfitters)
+- G-A4-2 | construction |  | Double stitch lines, bar tacks, reinforced bottom and strap anchors. | proposals.tsv A4 row (quality_markers); Matador: what makes a bag durable; Carryology buy-it-for-life bags; bluesign explainer (Eagle's Nest Outfitters)
+- G-A4-2 | hardware |  | Hardware: large YKK or other coil zippers (fail first); buckles and strap anchors. | proposals.tsv A4 row (quality_markers); Matador: what makes a bag durable; Carryology buy-it-for-life bags; bluesign explainer (Eagle's Nest Outfitters)
+- G-A4-2 | design and fit |  | Weighed after materials and build. | proposals.tsv A4 row (quality_markers); Matador: what makes a bag durable; Carryology buy-it-for-life bags; bluesign explainer (Eagle's Nest Outfitters)
+- G-A4-2 | warranty and repairability | lifetime > limited | Long warranty and repair service signal a bag built to last. | proposals.tsv A4 row (quality_markers); Carryology buy-it-for-life bags; Travelpro: how to shop for quality luggage
+- G-A4-3 | craftsmanship (luxury handbags) |  | Hand labour leads (about 48 h per Hermes bag). | proposals.tsv A4 row (quality_markers); Saclab: why designer handbags cost so much
+- G-A4-3 | leather | exotic and full-grain > top-grain | Leather grade follows craftsmanship. | proposals.tsv A4 row (quality_markers); Saclab: why designer handbags cost so much
+- G-A4-3 | classic silhouette and house model |  | Icon models hold value. | proposals.tsv A4 row (quality_markers); Saclab: why designer handbags cost so much
+- G-A4-3 | scarcity |  | Limited supply raises desirability. | proposals.tsv A4 row (quality_markers); Saclab: why designer handbags cost so much
+- G-A4-3 | resale value |  | Resale value is weighed last. | proposals.tsv A4 row (quality_markers); Saclab: why designer handbags cost so much
+
+## Kinds (kind_id | stored name | native name | definition)
+- A4.1.01 | Clutch bag |  | small handle-less bag carried in the hand or under the arm.
+- A4.1.02 | Minaudière |  | small rigid, often ornamented evening case carried in the hand.
+- A4.1.03 | Wristlet bag |  | small bag with a wrist strap and its own interior compartment (homonym with A4.5.12).
+- A4.1.04 | Tote bag |  | open-topped bag with two parallel handles and an unstructured body.
+- A4.1.05 | Satchel |  | structured bag with a flap front, usually with top handles and a shoulder strap.
+- A4.1.06 | Top-handle bag |  | structured bag carried mainly by one or two short handles on top.
+- A4.1.07 | Shoulder bag |  | bag on a single strap worn on one shoulder.
+- A4.1.08 | Crossbody bag |  | bag with a soft body and no front flap, on a strap worn across the body.
+- A4.1.09 | Messenger bag |  | crossbody bag with a full front flap and a wide gusset.
+- A4.1.10 | Sling bag |  | single-strap pack worn on the back or chest.
+- A4.1.11 | Hobo bag |  | slouchy crescent-shaped bag on a single shoulder strap.
+- A4.1.12 | Bucket bag |  | bucket-shaped bag with a round or oval base, closed by a drawstring or open top.
+- A4.1.13 | Baguette bag |  | small, long, narrow bag carried close under the arm on a short strap.
+- A4.1.14 | Saddle bag |  | bag shaped like a rider's saddlebag, with a curved body and front flap.
+- A4.2.01 | Daypack |  | general backpack sized for one day's personal items.
+- A4.2.02 | Laptop backpack |  | backpack built around a padded laptop compartment.
+- A4.2.03 | Hiking backpack |  | backpack with a load-bearing harness and hip belt for walking on trails.
+- A4.2.04 | Carry-on travel backpack |  | backpack sized to airline cabin limits that opens like a suitcase.
+- A4.2.05 | Belt bag (bum bag) |  | small bag worn on a belt round the waist or across the chest.
+- A4.2.06 | Hydration pack |  | pack sold with its bag that carries a drink reservoir with a drinking tube.
+- A4.2.07 | Chalk bag |  | small pouch worn at the waist to hold climbing chalk.
+- A4.2.08 | Quiver |  | case worn on the body to carry arrows.
+- A4.2.09 | School satchel (rigid school backpack) |  | backpack with a rigid or reinforced box-shaped body and frame, a padded back system and reflective panels, made for a schoolchild to carry books and sold as its own category.
+- A4.3.01 | Suitcase |  | rigid or semi-rigid case with a lid for carrying clothes on a journey, usually on wheels with a telescoping handle.
+- A4.3.02 | Travel trunk |  | large box-shaped case made to travel with its owner.
+- A4.3.03 | Wheeled duffel |  | duffel bag on a wheeled frame with a telescoping handle.
+- A4.3.04 | Duffel bag |  | soft, roughly cylindrical bag with a long top opening and carry handles.
+- A4.3.05 | Garment bag |  | bag that carries clothes on hangers, folded once or hung.
+- A4.3.06 | Dry bag |  | waterproof roll-top bag that keeps its contents dry.
+- A4.4.01 | Briefcase |  | flat case with a handle for carrying papers and work items.
+- A4.4.02 | Attaché case |  | hard-sided, box-shaped briefcase with a hinged lid.
+- A4.4.03 | Pilot case |  | deep, box-shaped hard case with a top opening and a handle.
+- A4.5.01 | Bifold wallet |  | wallet folded once, with card slots and a note section.
+- A4.5.02 | Trifold wallet |  | wallet folded twice into three panels.
+- A4.5.03 | Long (continental) wallet |  | long flat wallet that holds notes unfolded.
+- A4.5.04 | Zip-around wallet |  | wallet closed by a zip running round three sides.
+- A4.5.05 | Cardholder |  | slim holder with card slots and no note section.
+- A4.5.06 | Money clip |  | clip that holds folded notes, sometimes with card slots.
+- A4.5.07 | Coin purse |  | small pouch or purse for coins.
+- A4.5.08 | Key pouch |  | small pouch holding keys, usually on an inner ring or hooks.
+- A4.5.09 | Passport cover |  | cover or wallet made to hold a passport.
+- A4.5.10 | Wallet on chain |  | small bag-like wallet carried on a shoulder or cross-body chain (homonym with A4.5.11).
+- A4.5.11 | Chain wallet |  | wallet fixed by a chain to a belt loop.
+- A4.5.12 | Wristlet wallet |  | wallet with a wrist strap, card slots inside and no separate interior compartment (homonym with A4.1.03).
+- A4.6.01 | Aviator |  | teardrop-shaped frame with a double or triple bridge.
+- A4.6.02 | Wayfarer-style |  | trapezoidal frame, wider at the top, usually in thick plastic.
+- A4.6.03 | Browline |  | frame with a bold upper rim and a thin or rimless lower part.
+- A4.6.04 | Round |  | frame with circular lenses.
+- A4.6.05 | Cat-eye |  | frame that sweeps upward at the outer top corners.
+- A4.6.06 | Square |  | frame with square or rectangular lenses.
+- A4.6.07 | Geometric (hexagonal) |  | frame with angular, many-sided lenses.
+- A4.7.01 | Compact (folding) umbrella |  | umbrella whose shaft and ribs collapse to a short length.
+- A4.7.02 | Stick umbrella |  | umbrella with a fixed full-length shaft, often with a crook handle.
+- A4.7.03 | Golf umbrella |  | large stick umbrella with a wide canopy.
+- A4.7.04 | Bubble umbrella |  | umbrella with a deep dome-shaped clear canopy.
+- A4.7.05 | Folding fan |  | hand fan of ribs and leaf that folds closed.
+- A4.7.06 | Rigid fan |  | hand fan with a fixed flat leaf on a handle.
+- A4.8.01 | Soft structured baby carrier |  | buckled carrier with a padded panel, shoulder straps and waistband.
+- A4.8.02 | Woven wrap |  | long length of woven, non-stretch fabric tied round the wearer to hold a baby.
+- A4.8.03 | Stretchy wrap |  | long length of stretch fabric tied round the wearer to hold a baby.
+- A4.8.04 | Ring sling |  | length of fabric threaded through two rings and worn over one shoulder.
+- A4.8.05 | Mei tai |  | panel carrier with four straps that are tied rather than buckled.
+- A4.8.06 | Hip seat |  | waist belt with a seat on which a child sits on the wearer's hip.
+- A4.9.01 | Keyring |  | ring or clip that holds keys and is carried on the person.
+- A4.9.02 | Fashion cane |  | cane carried as a dress accessory, not as a mobility aid.
+- A4.9.03 | Shopping trolley |  | wheeled bag on a frame with a handle, pulled to carry shopping.
+- A4.9.04 | Luggage scale |  | hand-held scale for weighing a packed bag.
+- A4.9.05 | Holster |  | case worn on the body to carry a handgun.
+- A4.10.01 | Bag charm |  | decorative pendant made to hang on a bag, sold apart from keyrings.
+- A4.10.02 | Bag strap |  | separate shoulder or crossbody strap made to attach to a bag.
+- A4.10.03 | Bag organiser insert |  | insert with pockets and dividers placed inside a bag to arrange its contents.
+- A4.7.07 | Parasol |  | Hand-held umbrella made to shade its carrier from the sun, with a canopy of lace, paper, silk or sun-blocking fabric not made to shed rain; folding or stick shaft is an attribute.
+- A4.7.08 | Inverted umbrella |  | Umbrella with a double canopy that closes upward and inside out, so the wet outer face folds inward.
+- A4.3.07 | Packing cube |  | Zipped fabric case packed inside luggage to hold and compress clothes, sold in sets of sizes.
+- A4.10.04 | Luggage tag |  | Tag fixed to a bag or suitcase to show its owner's name and address.

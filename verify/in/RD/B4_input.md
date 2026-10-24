@@ -1,0 +1,164 @@
+# B4 Decor: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (decor item: vases, candles, mirrors, frames, home fragrance, seasonal, plants, garden ornaments, flags and signs)
+- reason: Decor departments are flat lists of item types, seasonal first, with colour, material, style and shape as filters (IKEA Germany Decoration; Hoeffner (DE) Accessoires); only dealers and collectors lead with period, material, origin and creator, which is a side view (1stDibs ikebana vase search; Bon Traveler: vases on Etsy).
+- ladder: What kind of decor? (vases and ornaments, candles, home fragrance, mirrors and frames, seasonal) > Which item? (kind: ginger jar, pillar candle, reed diffuser, cheval mirror) > What makes the best one? (differs by group: throw and clean burn for candles; glass and backing for mirrors; material, finish and maker for vases)
+- level1_groups: Vases, bowls & ornaments; Mirrors & frames; Candles & holders; Home fragrance & incense; Seasonal & party decorations; Artificial & dried plants; Garden ornaments; Flags & signs; Decorative lighting; Flagpoles & parts
+- quality_markers: Candles: scent throw (cold and hot); clean, even burn (no soot or tunnelling); scent quality and house; burn time; wax and fragrance load (attributes). Home fragrance: scent and house (perfumer where named); throw; longevity. Mirrors: fit to the space and placement first; flat, undistorted glass; silvering and a sealed, humidity-resistant backing; frame or edge; mounting; warranty (1-2 years). Vases and ceramics: material and regional craftsmanship; finish and patina (matte, glaze); maker or creator; age (vintage or new) and period; form and size fit; condition (never stored). Flags: material grade (standard nylon, polyester, reinforced, commercial) and construction. Wind chimes: tuned or untuned (scale attribute). Collectible ornaments: maker series and era (condition codes in the grading registry only).
+- quality_signals: Luxury-candle house tiers from one specialist retailer (Voluspa 30-50 USD tier; Diptyque and Trudon luxury; Jo Malone, Byredo, Le Labo premium; class iii tier entries on makers, memo S28); reviewer tests (Real Homes, over 100 candles tested; class iii tier entries on named forms); 1stDibs recognised and top-seller flags (platform tag on sellers, not stored); ornament condition codes MIB, SDB, DB, NT, NB (grading-scale registry, never stored per object); flag material grades (maker; attribute). Provisional: no award, grade or certification for decor was found in the evidence.
+- maker_role: owner (confirm; provisional): decor is chosen by object, style and colour; makers matter through named forms (candle scents, ornament series), and creators lead only in the dealer market
+- side_view: Makers & creators: candle and home-fragrance houses (Diptyque, Trudon, Voluspa) > their scents and lines; art glass, studio ceramics and ornament series by creator and period (1stDibs creator and period facets). A by-tradition view (Japanese seasonal display, Chinese vase shapes) and a by-occasion view.
+- evidence_rows: IKEA Germany Decoration; Hoeffner (DE) Accessoires; 1stDibs ikebana vase search; Bon Traveler: vases on Etsy; Lazada SG mirror guide; Real Homes best candles
+- maker role row: {'code': 'B4', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'decor is chosen by object and style; makers through named designs'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-B4-1 | Vases, bowls & ornaments | 1 |  | 
+- G-B4-1-1 | Vases & jars | 2 | G-B4-1 | B4.1.1.01; B4.1.1.02; B4.1.1.03; B4.1.1.04; B4.1.1.05; B4.1.1.06
+- G-B4-1-2 | Bowls & decorative objects | 2 | G-B4-1 | B4.1.2.01; B4.1.2.02; B4.1.2.03; B4.1.2.04; B4.1.2.05; B4.1.2.06
+- G-B4-2 | Mirrors & frames | 1 |  | 
+- G-B4-2-1 | Mirrors | 2 | G-B4-2 | B4.2.1.01; B4.2.1.02; B4.2.1.03; B4.2.1.04
+- G-B4-2-2 | Frames | 2 | G-B4-2 | B4.2.2.01
+- G-B4-3 | Candles & holders | 1 |  | 
+- G-B4-3-1 | Candles | 2 | G-B4-3 | B4.3.1.01; B4.3.1.02; B4.3.1.03; B4.3.1.04; B4.3.1.05; B4.3.1.06
+- G-B4-3-2 | Candle holders | 2 | G-B4-3 | B4.3.2.01; B4.3.2.02; B4.3.2.03
+- G-B4-3-3 | Candle tools | 2 | G-B4-3 | B4.3.3.01
+- G-B4-4 | Home fragrance & incense | 1 |  | 
+- G-B4-4-1 | Diffusers, melts, sprays & oils | 2 | G-B4-4 | B4.4.1.01; B4.4.1.02; B4.4.1.03; B4.4.1.04; B4.4.1.05; B4.4.1.06; B4.4.1.07; B4.4.1.08
+- G-B4-4-2 | Incense | 2 | G-B4-4 | B4.4.2.01; B4.4.2.02; B4.4.2.03; B4.4.2.04; B4.4.2.05; B4.4.2.06
+- G-B4-5 | Seasonal & party decorations | 1 |  | 
+- G-B4-5-1 | Hung & strung | 2 | G-B4-5 | B4.5.1.01; B4.5.1.02; B4.5.1.03; B4.5.1.04; B4.5.1.05; B4.5.1.06; B4.5.1.07
+- G-B4-5-2 | Standing displays | 2 | G-B4-5 | B4.5.2.01; B4.5.2.02; B4.5.2.03; B4.5.2.04; B4.5.2.05
+- G-B4-5-3 | Party consumables | 2 | G-B4-5 | B4.5.3.01; B4.5.3.02; B4.5.3.03; B4.5.3.04; B4.5.3.05
+- G-B4-5-4 | Party effects | 2 | G-B4-5 | B4.5.4.01; B4.5.4.02
+- G-B4-6 | Artificial & dried plants | 1 |  | 
+- G-B4-6-1 | Artificial flowers & plants | 2 | G-B4-6 | B4.6.01; B4.6.02
+- G-B4-6-2 | Preserved & dried plants | 2 | G-B4-6 | B4.6.03; B4.6.04
+- G-B4-7 | Garden ornaments | 1 |  | 
+- G-B4-7-1 | Statues & standing ornaments | 2 | G-B4-7 | B4.7.01; B4.7.02; B4.7.03; B4.7.08
+- G-B4-7-2 | Wind & weather ornaments | 2 | G-B4-7 | B4.7.04; B4.7.05; B4.7.07
+- G-B4-7-3 | Fountains & water features | 2 | G-B4-7 | B4.7.06
+- G-B4-8 | Flags & signs | 1 |  | 
+- G-B4-8-1 | Flags | 2 | G-B4-8 | B4.8.1.01; B4.8.1.02; B4.8.1.03; B4.8.1.04; B4.8.1.05; B4.8.1.06; B4.8.1.07
+- G-B4-8-2 | Signs | 2 | G-B4-8 | B4.8.2.01; B4.8.2.02; B4.8.2.03
+- G-B4-9 | Decorative lighting | 1 |  | 
+- G-B4-9-1 | String lights & lanterns | 2 | G-B4-9 | B4.9.01; B4.9.04
+- G-B4-9-2 | Flameless candles & lava lamps | 2 | G-B4-9 | B4.9.02; B4.9.03
+- G-B4-10 | Flagpoles & parts | 1 |  | 
+- G-B4-10-1 | Flagpoles & hooks | 2 | G-B4-10 | B4.10.01; B4.10.02
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-B4-1 | material and regional craftsmanship |  | Vases and ceramics are judged by material and craft first. | proposals.tsv B4 row (quality_markers); 1stDibs ikebana vase search; Bon Traveler: vases on Etsy
+- G-B4-1 | finish and patina | matte; glaze (a choice) | Surface follows material. | proposals.tsv B4 row (quality_markers); Bon Traveler: vases on Etsy
+- G-B4-1 | maker or creator |  | Creators lead only in the dealer market. | proposals.tsv B4 row (quality_markers); 1stDibs ikebana vase search
+- G-B4-1 | age and period | vintage or new | Dealers sort by period. | proposals.tsv B4 row (quality_markers); 1stDibs ikebana vase search
+- G-B4-1 | form and size fit |  | Fit to the place. | proposals.tsv B4 row (quality_markers); Bon Traveler: vases on Etsy
+- G-B4-1 | condition | never stored | Judged on the piece. | proposals.tsv B4 row (quality_markers); 1stDibs ikebana vase search
+- G-B4-2-1 | fit to the space and placement |  | Mirrors are chosen for the place first. | proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
+- G-B4-2-1 | glass | flat, undistorted glass | Distortion is the first quality fault. | proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
+- G-B4-2-1 | silvering and backing | sealed, humidity-resistant backing | Backing keeps the silvering from failing. | proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
+- G-B4-2-1 | frame or edge |  | Follows the glass. | proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
+- G-B4-2-1 | mounting |  | Secure fixing for the size. | proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
+- G-B4-2-1 | warranty | 1-2 years | Last. | proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
+- G-B4-3-1 | scent throw | cold and hot throw | Throw leads candle tests. | proposals.tsv B4 row (quality_markers); Real Homes best candles
+- G-B4-3-1 | clean, even burn | no soot or tunnelling | Burn quality follows throw. | proposals.tsv B4 row (quality_markers); Real Homes best candles
+- G-B4-3-1 | scent quality and house |  | The house and scent family (a filter, never a level). | proposals.tsv B4 row (quality_markers); Real Homes best candles
+- G-B4-3-1 | burn time |  | Hours per candle. | proposals.tsv B4 row (quality_markers); Real Homes best candles
+- G-B4-3-1 | wax and fragrance load | (attributes) | Recorded as attributes. | proposals.tsv B4 row (quality_markers); Real Homes best candles
+- G-B4-4 | scent and house | perfumer where named | Home fragrance is chosen by scent and house. | proposals.tsv B4 row (quality_markers)
+- G-B4-4 | throw |  | How far the scent carries. | proposals.tsv B4 row (quality_markers)
+- G-B4-4 | longevity |  | How long it lasts. | proposals.tsv B4 row (quality_markers)
+- G-B4-5-1 | maker series and era (collectible ornaments) | condition codes in the grading registry only | Collectible ornaments are chosen by series and era. | proposals.tsv B4 row (quality_markers)
+- G-B4-7-2 | tuned or untuned (wind chimes) | tuned; untuned (scale is an attribute) | Wind chimes split on tuning. | proposals.tsv B4 row (quality_markers)
+- G-B4-8-1 | material grade | standard nylon; polyester; reinforced; commercial | Flags are chosen by material grade. | proposals.tsv B4 row (quality_markers)
+- G-B4-8-1 | construction |  | Follows material. | proposals.tsv B4 row (quality_markers)
+
+## Kinds (kind_id | stored name | native name | definition)
+- B4.1.1.01 | Vase |  | open vessel made to hold cut or artificial flowers or to stand as an ornament; a tulip vase is a vase.
+- B4.1.1.02 | Ginger jar |  | rounded lidded jar made for display.
+- B4.1.1.03 | Decorative urn |  | large footed vessel made as an ornament, indoors or in the garden (a cremation urn is F4).
+- B4.1.1.04 | Decorative bottle |  | bottle made to be displayed, not to hold a drink.
+- B4.1.2.01 | Decorative bowl |  | bowl made to be looked at or to hold small decorative items (a bowl made to hold food is B5).
+- B4.1.2.02 | Snow globe |  | sealed liquid-filled globe holding a scene and loose particles that fall when shaken.
+- B4.1.2.03 | Decorative wall panel |  | carved, fretted or moulded panel made to hang on a wall as ornament.
+- B4.1.2.04 | Wall sticker or decal |  | a self-adhesive vinyl or film motif, pattern or lettering applied to a wall, window or furniture to decorate it (DPH; provisional until a shop page shows wall stickers sold as a type).
+- B4.1.2.05 | Decorative replica weapon |  | replica sword, gun or other weapon made for display that cannot injure, decorative wushu implements included (K-86, K-87).
+- B4.1.2.06 | Deactivated ordnance (display piece) |  | bomb, grenade, mine or artillery piece made inert and kept for display (K-85).
+- B4.2.1.01 | Wall mirror |  | mirror with a hanging fitting, made to hang on a wall.
+- B4.2.1.02 | Floor mirror [leaner mirror] |  | full-length mirror made to lean against a wall from the floor, with no hanging fitting.
+- B4.2.1.03 | Standing mirror [cheval mirror] |  | full-length mirror held in its own free-standing frame, often tilting.
+- B4.2.1.04 | Table mirror [dresser mirror] |  | plain mirror on a stand made to sit on a table or dresser (a grooming mirror is H1).
+- B4.2.2.01 | Picture frame |  | empty frame made to hold and display a picture or photograph.
+- B4.3.1.01 | Container candle [jar candle] |  | candle poured into and burned in its own jar or vessel.
+- B4.3.1.02 | Tealight |  | small candle in a shallow metal or plastic cup.
+- B4.3.1.03 | Votive candle |  | short candle made to burn standing in a holder that contains the melted wax.
+- B4.3.1.04 | Taper candle |  | long, slender candle made for a candlestick.
+- B4.3.1.05 | Pillar candle |  | thick free-standing candle that burns without a container.
+- B4.3.2.01 | Candle holder |  | open holder made to hold a lit candle; holder form is an attribute (provisional: a holder form becomes a kind if fetched shops sell and compare it as its own category).
+- B4.3.3.01 | Candle snuffer |  | tool with a small bell on a handle made to put out a candle flame.
+- B4.4.1.01 | Reed diffuser |  | vessel of scented oil with reeds that draw it up and release it into a room.
+- B4.4.1.02 | Electric diffuser [plug-in diffuser] |  | powered device made to release fragrance into a room (K-183, B4-O3).
+- B4.4.1.03 | Wax melt |  | scented wax piece made to be melted in a warmer, not burned.
+- B4.4.1.04 | Wax warmer |  | burner or electric warmer made to melt wax melts or oil (K-183).
+- B4.4.1.05 | Room spray |  | aerosol or pump spray made to scent a room.
+- B4.4.1.06 | Potpourri |  | mixture of dried scented plant material displayed to scent a room.
+- B4.4.1.07 | Diffuser oil |  | essential or fragrance oil sold for a diffuser or burner (K-183; an oil sold to treat a condition is H2).
+- B4.4.2.01 | Stick incense |  | incense formed on or as a stick, burned to scent a room.
+- B4.4.2.02 | Cone incense |  | incense pressed into a cone.
+- B4.4.2.03 | Coil incense |  | incense formed as a long-burning coil.
+- B4.4.2.04 | Incense burner |  | holder or burner made to burn home-fragrance incense (a rite burner is F4).
+- B4.4.2.05 | Smudge bundle |  | bound bundle of dried herbs burned to scent or cleanse a room, not made for a named rite (K-115).
+- B4.5.1.01 | Tree ornament [bauble] |  | ornament made to hang on a tree or festive display, whatever its theme.
+- B4.5.1.02 | Tree topper |  | ornament made to sit on the top of a tree.
+- B4.5.1.03 | Garland |  | long strand of foliage, tinsel, beads or other decoration made to drape or hang.
+- B4.5.1.04 | Bunting |  | string of pennant-shaped flags hung as a festive decoration.
+- B4.5.1.05 | Paper streamer |  | long strip or roll of paper hung or thrown as a party decoration.
+- B4.5.2.01 | Artificial Christmas tree |  | manufactured tree made to be decorated for Christmas (a real tree is C3, K-72).
+- B4.5.2.02 | Festival doll display |  | set of dolls made to be displayed on tiers for a festival, not made for worship.
+- B4.5.2.03 | Entrance decoration [kadomatsu] |  | seasonal arrangement made to stand at an entrance for a festival (B4-O2, K-116).
+- B4.5.3.01 | Christmas cracker |  | paper tube pulled apart by two people with a snap, holding small gifts.
+- B4.5.3.02 | Party popper |  | hand-held device that bursts with a bang and throws out streamers.
+- B4.5.3.03 | Sparkler |  | hand-held wire coated with a slow-burning pyrotechnic that throws sparks (B-19).
+- B4.5.3.04 | Firework |  | pyrotechnic device made to give a display of light, colour or noise (B-19).
+- B4.5.4.01 | Fog or haze machine |  | machine that makes fog or haze for a party or display effect (K-145).
+- B4.6.01 | Artificial flower |  | manufactured imitation of a flower, single stem or arranged.
+- B4.6.02 | Artificial plant |  | manufactured imitation of a plant other than a flower, foliage and trees included (K-74).
+- B4.6.03 | Preserved plant [stabilised plant] |  | real plant or moss treated so that it keeps its look without growing or care (K-74).
+- B4.6.04 | Dried flowers |  | real flowers dried for display.
+- B4.7.01 | Garden statue |  | statue made to stand outdoors as a garden ornament.
+- B4.7.02 | Garden gnome |  | figure of a gnome made as a garden ornament.
+- B4.7.03 | Gazing ball [yard globe] |  | reflective sphere on a stand made as a garden ornament.
+- B4.7.04 | Weathervane |  | rotating ornament on a rod that turns to show the wind direction.
+- B4.7.05 | Wind chime |  | set of hanging tubes, rods or bells that sound when moved by the wind.
+- B4.7.06 | Garden fountain or water feature |  | ornamental fountain or flowing-water feature for a garden (B4-O1; its pump is C2, K-175).
+- B4.8.1.01 | National flag |  | flag of a country, made to fly or hang.
+- B4.8.1.02 | State or territory flag |  | flag of a state, province or territory.
+- B4.8.1.03 | Garden flag |  | small flag made to hang from a garden stake or stand.
+- B4.8.1.04 | Pennant |  | tapering flag, usually triangular.
+- B4.8.1.05 | Decorative windsock or wind streamer |  | windsock or streamer made as a garden, festive or decorative ornament (DPH rename; a windsock made to show wind direction or strength is C6).
+- B4.8.2.01 | Hanging sign |  | sign made to hang from a bracket, chain or cord.
+- B4.8.2.03 | Illuminated sign |  | neon or LED sign made to show a lit word or motif, a decorative light that spells a message included.
+- B4.9.01 | String light [fairy light] |  | string of small lights made mainly as decoration (K-181).
+- B4.9.02 | Flameless candle |  | battery or LED light made in the shape of a candle.
+- B4.9.03 | Lava lamp |  | lamp in which heated wax rises and falls in a liquid, made mainly as decoration.
+- B4.9.04 | Decorative lantern |  | lantern made to stand or hang as decoration, lit or unlit, stone garden lanterns included (K-116, K-180).
+- B4.10.01 | Flagpole |  | pole made to fly a flag (K-192).
+- B4.5.1.06 | Wreath |  | ring of foliage, flowers or other decoration made to hang on a door or wall as a seasonal or festive ornament (an Advent wreath made for worship is F4).
+- B4.1.1.06 | Apothecary jar |  | straight-sided glass jar with a lid, often footed, made to stand on display (a jar made to store food is B5).
+- B4.8.1.06 | Feather banner |  | tall narrow flag carried on a curved pole with a ground spike or base, made to stand outside as a sign or decoration.
+- B4.7.07 | Wind spinner |  | garden ornament of vanes, cups or spirals that turns in the wind, staked or hung.
+- B4.7.08 | Garden pedestal or column |  | ornamental pedestal, plinth or column made to stand in a garden, alone or carrying an urn, statue or gazing ball.
+- B4.4.1.08 | Scented sachet |  | small bag or pouch of scented material made to scent a drawer, wardrobe or room (an odour absorber is B6).
+- B4.3.1.06 | Floating candle |  | small, wide, flat candle made to float and burn on water in a bowl or vase.
+- B4.5.2.04 | Tree skirt |  | cloth or mat laid round the foot of a Christmas tree to decorate it and hide the stand.
+- B4.5.1.07 | Christmas stocking |  | large decorative sock made to hang at a fireplace or wall at Christmas and be filled with gifts.
+- B4.5.2.05 | Advent calendar (reusable) |  | reusable display calendar of fabric, wood or card with numbered doors or pockets for the days before Christmas (one sold filled with confectionery is food; an Advent wreath is F4).
+- B4.10.02 | Ornament hook |  | wire or clip hook made to hang a tree ornament.
+- B4.5.4.02 | Mirror ball [disco ball] |  | sphere covered in small mirrors, often turned by a motor, that scatters light as a party or display effect.
+- B4.1.1.05 | Wall vase |  | flat-backed vase with a hanging fitting, made to hang on a wall.
+- B4.8.1.07 | House flag [decorative flag] |  | decorative or seasonal flag made to fly from a pole bracket on a house (a polity's flag is B4.8.1.01 or B4.8.1.02).
+- B4.5.3.05 | Confetti |  | small pieces of paper, foil or other material thrown or scattered as a party decoration.
+- B4.3.2.02 | Candlestick |  | holder with a socket or spike made to hold one or more taper or pillar candles upright on a stem or base.
+- B4.3.2.03 | Tealight holder |  | small open holder made to hold a tealight.
+- B4.4.2.06 | Loose incense [bakhoor] |  | scented wood chips, resin or powder burned on charcoal or a heater to scent a room (rite incense is F4).
+- B4.8.2.02 | Wall sign or plaque |  | flat sign or plaque made to fix to or stand against a wall.

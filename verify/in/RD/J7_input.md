@@ -1,0 +1,240 @@
+# J7 Wine, Beer & Spirits: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (the drink: wine by style or colour, spirits by spirit type, beer by style), with the maker kept as a way in at the named-best step and as a side tab
+- reason: Mass retailers open on drink family then colour, grape or spirit type (BWS (Australia); Country Wine and Spirits), fine-wine merchants and collector databases then turn to region, estate, distillery and bottler (Bordeaux Index; Whiskybase), and beer communities sort by style (Good Beer Hunting on Untappd ratings; BJCP), so type leads and the maker carries the choice of the best.
+- ladder: Wine, beer, spirits, cider or sake? > Which style (wine colour or style, spirit type, beer style family)? > Which grape, designation or type (kind, CV-40 designation kinds included)? > What makes the best one? > Who vouches for it? > The named best (estate, house, distillery, bottler or brewery and its cuvee or expression)
+- level1_groups: G-J7-1 Wine; G-J7-2 Beer; G-J7-3 Cider, perry & mead; G-J7-4 Spirits & liqueurs; G-J7-5 Sake & rice wines; G-J7-6 Premix & ready-to-drink
+- quality_markers: Fine wine: official classification of the estate or vineyard where one exists (Burgundy grand cru > premier cru > village; Bordeaux 1855 first > second > third > fourth > fifth growth; Saint-Emilion premier grand cru classe A > B) > producer > vintage and age-worthiness (5-10+ years) > critic score > community and customer rating; everyday wine: grape and style (choice) > award winners > customer rating > price; Whisky: distillery > bottler (distillery or independent) > stated age > single cask and cask type > cask strength > natural presentation (non-chill-filtered, no added colour) > vintage > community rating; Other spirits: type and style (choice) > age (stated age or legal age class) > single barrel or small batch > flavour profile > rating; Beer: style (choice) > community score read within its style (Untappd 4.0+ > 3.7+ > below) > brewery; Sake: composition (junmai or with brewer's alcohol: choice) > polishing ratio (50% or less > 60% or less > 70% or less; memo S8, provisional)
+- quality_signals: Official classifications as tier entries on estates or vineyard named forms: Bordeaux 1855 (set in 1855 by price, revised 1856 and 1973), Burgundy grand cru and premier cru (appellation rules, INAO), Saint-Emilion classification, Alsace grand cru; critic 100-point scores (Wine Advocate, Wine Spectator, James Suckling and others, memo S1) as tier entries on named forms and vintage variants; Liv-ex index membership (memo S28); Whiskybase community rating; Untappd, RateBeer and BeerAdvocate user scores (style-biased); BJCP style guidelines (2021) as the style vocabulary for kinds and judging; competition medals (award-winners filter); designation registers (AOC, DOCG, TTB distinctive products, Scotch categories) as designation rows; age statements and ABV as standards; platform tags: Top Rated, Ultra-premium, Featured First Growth, customer rating
+- maker_role: way_in (confirm; CV-40 designation kinds kept): estates and houses for wine, distilleries and independent bottlers for spirits (bottling maker plus built_by_maker_id), breweries, cider makers and sake breweries; maker ledger harvested as deep as sources go (regional harvests later, BRIEF 2026-10-24)
+- side_view: Producer tab beside the type path (estate or house, distillery, bottler, brewery; Whiskybase leads with distillery and bottler); fine-wine region browsing as a generated view from designation kinds and origin tags (Bordeaux Index browses by region), never a level; generated views: classified growths and grand crus, critic top scores, award winners, independent bottlings
+- evidence_rows: BWS (Australia); Bordeaux Index (UK fine wine); Country Wine and Spirits (US spirits shop); Wikipedia Cru (wine) article; Wine Folly Bordeaux 1855 guide; Whiskybase support page (Netherlands community database); Good Beer Hunting on Untappd ratings; BJCP 1999 style categories (Beer Judge Certification Program); J7 memo S1, S7, S8, S9, S28, S29
+- maker role row: {'code': 'J7', 'scope': '*', 'role': 'way_in', 'provisional': 'yes', 'reason': "wine estates, breweries and distilleries are the object's identity"}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-J7-1 | Wine | 1 |  | J7.1
+- G-J7-10 | Red wine | 2 | G-J7-1 | J7.1.1.01; J7.1.1.02; J7.1.1.03; J7.1.1.04; J7.1.1.05; J7.1.1.06; J7.1.1.07; J7.1.1.08; J7.1.1.09; J7.1.1.10; J7.1.1.11; J7.1.1.12; J7.1.1.13; J7.1.1.14; J7.1.1.15; J7.1.1.16; J7.1.1.17; J7.1.1.18; J7.1.1.19; J7.1.1.20; J7.1.1.21; J7.1.1.22; J7.1.1.23; J7.1.1.24; J7.1.1.25
+- G-J7-11 | White wine | 2 | G-J7-1 | J7.1.2.01; J7.1.2.02; J7.1.2.03; J7.1.2.04; J7.1.2.05; J7.1.2.06; J7.1.2.07; J7.1.2.08; J7.1.2.09; J7.1.2.10; J7.1.2.11; J7.1.2.12; J7.1.2.13; J7.1.2.14; J7.1.2.15; J7.1.2.16; J7.1.2.17; J7.1.2.18; J7.1.2.19; J7.1.2.20; J7.1.2.21; J7.1.2.22; J7.1.2.23; J7.1.2.24
+- G-J7-12 | Rosé and orange wine | 2 | G-J7-1 | J7.1.3.01; J7.1.4.01
+- G-J7-13 | Champagne and sparkling wine | 2 | G-J7-1 | J7.1.5.01; J7.1.5.02; J7.1.5.03; J7.1.5.04; J7.1.5.05
+- G-J7-14 | Sweet and dessert wine | 2 | G-J7-1 | J7.1.6.01; J7.1.6.02; J7.1.6.03; J7.1.6.04; J7.1.6.05
+- G-J7-15 | Fortified and aromatised wine | 2 | G-J7-1 | J7.1.7.01; J7.1.7.02; J7.1.7.03; J7.1.8.01; J7.1.8.02; J7.1.8.03; J7.1.7.04; J7.1.8.04
+- G-J7-27 | Mixed wine cases | 2 | G-J7-1 | J7.1.0.01
+- G-J7-2 | Beer | 1 |  | J7.2
+- G-J7-16 | Lagers and bocks | 2 | G-J7-2 | J7.2.1.01; J7.2.1.02; J7.2.1.03; J7.2.1.04; J7.2.1.05; J7.2.2.01; J7.2.5.01; J7.2.5.02; J7.2.6.01; J7.2.2.02; J7.2.2.03; J7.2.6.02
+- G-J7-17 | Wheat beer | 2 | G-J7-2 | J7.2.3.01; J7.2.3.02; J7.2.3.03
+- G-J7-18 | Pale ales and IPA | 2 | G-J7-2 | J7.2.7.01; J7.2.7.02; J7.2.8.01; J7.2.8.02; J7.2.8.03; J7.2.8.04; J7.2.7.03
+- G-J7-28 | Porter and stout | 2 | G-J7-2 | J7.2.9.01; J7.2.9.02; J7.2.10.01; J7.2.10.02; J7.2.10.03
+- G-J7-29 | Traditional grain, root and fruit beers; mixed beer | 2 | G-J7-2 | J7.2.4.01; J7.2.4.02; J7.2.4.04; J7.2.4.05; J7.2.0.01; J7.2.4.03
+- G-J7-3 | Cider, perry & mead | 1 |  | J7.3.1.01; J7.3.1.02; J7.3.1.03; J7.3.1.04; J7.3.2.01; J7.3.3.01; J7.3.4.01; J7.3.3.02; J7.3.3.03; J7.3.1.05; J7.3.1.06; J7.3.5.01
+- G-J7-4 | Spirits & liqueurs | 1 |  | J7.5; J7.6
+- G-J7-19 | Whisky | 2 | G-J7-4 | J7.5.1.01; J7.5.1.02; J7.5.1.03; J7.5.1.04; J7.5.1.05; J7.5.1.06; J7.5.1.07; J7.5.1.09; J7.5.1.08; J7.5.1.10; J7.5.1.11
+- G-J7-20 | Brandy | 2 | G-J7-4 | J7.5.2.01; J7.5.2.02; J7.5.2.03; J7.5.2.04; J7.5.2.05; J7.5.2.06; J7.5.2.07
+- G-J7-21 | Rum and cachaça | 2 | G-J7-4 | J7.5.3.01; J7.5.3.02; J7.5.3.03
+- G-J7-22 | Gin | 2 | G-J7-4 | J7.5.4.01; J7.5.4.02
+- G-J7-23 | Tequila, mezcal and other agave spirits | 2 | G-J7-4 | J7.5.5.01; J7.5.5.02; J7.5.5.03
+- G-J7-24 | Vodka | 2 | G-J7-4 | J7.5.6.01
+- G-J7-25 | Other spirits (baijiu, shochu, soju, arrack, anise, genever, aquavit, absinthe) | 2 | G-J7-4 | J7.5.7.01; J7.5.7.02; J7.5.7.03; J7.5.7.04; J7.5.8.01; J7.5.9.01; J7.5.9.02; J7.5.9.03; J7.5.9.04; J7.5.0.01
+- G-J7-26 | Liqueurs, bitters and flavoured spirits | 2 | G-J7-4 | J7.6.01; J7.6.02; J7.6.03; J7.6.04; J7.6.05; J7.6.06; J7.6.07; J7.6.08; J7.6.10; J7.6.11; J7.6.09
+- G-J7-5 | Sake & rice wines | 1 |  | J7.4.01; J7.4.02; J7.4.03; J7.4.05; J7.4.07; J7.4.08; J7.4.04; J7.4.06; J7.4.09
+- G-J7-6 | Premix & ready-to-drink | 1 |  | J7.7.01; J7.7.02; J7.7.03; J7.7.04; J7.7.05
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-J7-1 | official classification | Burgundy grand cru > premier cru > village | Cru tier names vineyard potential, not guaranteed quality. | Wikipedia Cru (wine) article; Bordeaux Index (UK fine wine)
+- G-J7-1 | Bordeaux 1855 growth | first > second > third > fourth > fifth growth | Ranking set by 1855 prices; changed only twice. | Wine Folly Bordeaux 1855 guide; Wikipedia Cru (wine) article
+- G-J7-1 | Saint-Emilion classification | premier grand cru classe A > premier grand cru classe B > grand cru classe | Regional estate ranking buyers recognise. | Wikipedia Cru (wine) article
+- G-J7-1 | producer |  | Fine wine is bought by named estate within region. | Bordeaux Index (UK fine wine); J7 memo S1, S28
+- G-J7-1 | vintage and age-worthiness |  | Classed wines need 5-10+ years; vintage sets value. | Wine Folly Bordeaux 1855 guide; J7 memo S1
+- G-J7-1 | critic score | higher 100-point score > lower | Critic scores filter fine wine; dated, sit on vintage variants. | J7 memo S1
+- G-J7-1 | award and customer rating | award winner > high customer rating > unrated | Mass retail ranks everyday wine by awards and ratings. | BWS (Australia)
+- G-J7-19 | distillery |  | Collectors start from the distillery. | Whiskybase support page (Netherlands community database); Bordeaux Index (UK fine wine)
+- G-J7-19 | bottler |  | Distillery and independent bottlings are compared apart. | Whiskybase support page (Netherlands community database); Bordeaux Index (UK fine wine)
+- G-J7-19 | stated age | older stated age > younger > no age statement | Age is a main filter on whisky lists. | Country Wine and Spirits (US spirits shop); Whiskybase support page (Netherlands community database)
+- G-J7-19 | cask and strength | single cask, cask strength > small batch > standard | Collectors filter on single cask and cask strength. | Whiskybase support page (Netherlands community database); Country Wine and Spirits (US spirits shop)
+- G-J7-19 | natural presentation | non-chill-filtered, no added colour > chill-filtered or coloured | Whiskybase records both as filters enthusiasts use. | Whiskybase support page (Netherlands community database)
+- G-J7-19 | community rating |  | Whiskybase member scores rank bottlings. | Whiskybase support page (Netherlands community database)
+- G-J7-4 | flavour profile |  | Shops let buyers pick smoky and peaty or sweet and smooth. | Country Wine and Spirits (US spirits shop)
+- G-J7-4 | retailer tier |  | Shop labels only; stored as platform tags, not tiers. | Country Wine and Spirits (US spirits shop)
+- G-J7-2 | beer style |  | Communities and judges sort beer by style first. | BJCP 1999 style categories (Beer Judge Certification Program); Good Beer Hunting on Untappd ratings
+- G-J7-2 | community score within style | Untappd 4.0+ > 3.7-3.99 > below 3.7 | Buyers screen on score; strong IPAs and stouts rate higher. | Good Beer Hunting on Untappd ratings
+- G-J7-5 | sake composition and polishing | polished to 50% or less > 60% or less > 70% or less (provisional) | Polishing ratio ladder fixed by Japan's NTA; no HOL evidence. | J7 memo S8
+
+## Kinds (kind_id | stored name | native name | definition)
+- J7.1.1.01 | Pinot Noir |  | still red wine made mainly from the Pinot Noir grape.
+- J7.1.1.02 | Cabernet Sauvignon |  | still red wine made mainly from the Cabernet Sauvignon grape.
+- J7.1.1.03 | Bordeaux red blend |  | still red wine of the Bordeaux blend of grapes (Cabernet Sauvignon, Merlot, Cabernet Franc and their partners), a blend type and a CV-40 designation kind.
+- J7.1.1.04 | Sangiovese |  | still red wine made mainly from the Sangiovese grape.
+- J7.1.1.05 | Nebbiolo |  | still red wine made mainly from the Nebbiolo grape.
+- J7.1.1.06 | Syrah/Shiraz |  | still red wine made mainly from the Syrah grape, under either name.
+- J7.1.2.01 | Chardonnay |  | still white wine made mainly from the Chardonnay grape.
+- J7.1.2.02 | Sauvignon Blanc |  | still white wine made mainly from the Sauvignon Blanc grape.
+- J7.1.2.03 | Pinot Gris/Grigio |  | still white wine made mainly from the Pinot Gris grape, under either name.
+- J7.1.3.01 | Rosé wine |  | still pink wine of any grape, made with brief skin contact or by the methods the rosé class allows.
+- J7.1.4.01 | Orange wine |  | still white-grape wine made with long skin contact, as a red wine is.
+- J7.1.5.01 | Champagne |  | sparkling wine of the Champagne designation, a CV-40 designation kind.
+- J7.1.5.02 | Cava |  | sparkling wine of the Cava designation, made by the traditional method, a CV-40 designation kind.
+- J7.1.5.03 | Prosecco |  | sparkling wine of the Prosecco designation, a CV-40 designation kind.
+- J7.1.5.04 | Crémant |  | traditional-method sparkling wine of a French Crémant designation, a CV-40 designation kind.
+- J7.1.6.01 | Late-harvest wine |  | sweet wine made from grapes left on the vine past normal ripeness.
+- J7.1.6.02 | Sauternes |  | sweet white wine of the Sauternes designation, a CV-40 designation kind.
+- J7.1.6.03 | Tokaj |  | sweet wine of the Tokaj designation, a CV-40 designation kind.
+- J7.1.7.01 | Port |  | wine of the Port designation, fortified with grape spirit, a CV-40 designation kind.
+- J7.1.7.02 | Sherry |  | wine of the Sherry designation, fortified, a CV-40 designation kind.
+- J7.1.7.03 | Madeira |  | wine of the Madeira designation, fortified, a CV-40 designation kind.
+- J7.1.8.01 | Vermouth |  | wine flavoured with wormwood and other botanicals and fortified, sold to drink.
+- J7.1.8.02 | Retsina |  | wine flavoured with pine resin.
+- J7.1.8.03 | Quinquina |  | wine aromatised with cinchona bark.
+- J7.1.0.01 | Mixed wine |  | mixed case or pack of wines of several kinds, none of which makes up half or more of its volume or weight.
+- J7.2.1.01 | American Light Lager |  | very pale, highly carbonated, light-bodied lager of low strength (BJCP 1A).
+- J7.2.1.02 | International Pale Lager |  | pale, clean, well-attenuated lager of standard strength (BJCP 2A).
+- J7.2.1.03 | Czech Premium Pale Lager |  | golden Czech lager of ležák strength with a soft malt and Saaz hop character (BJCP 3B).
+- J7.2.1.04 | Munich Helles |  | pale, malt-forward Bavarian lager (BJCP 4A).
+- J7.2.2.01 | Czech Dark Lager |  | dark Czech lager with roasted malt character (BJCP 3D).
+- J7.2.3.01 | American Wheat Beer |  | pale beer brewed with a large share of wheat and a clean American yeast (BJCP 1D).
+- J7.2.4.01 | Sorghum beer |  | traditional beer brewed from sorghum.
+- J7.2.4.02 | Millet beer |  | traditional beer brewed from millet.
+- J7.2.4.04 | Root beer (fermented) |  | alcoholic beer fermented from roots and their extracts; an alcohol-free root beer is not in J7.
+- J7.2.4.05 | Banana beer |  | traditional beer fermented from bananas, often with grain.
+- J7.2.0.01 | Mixed beer |  | mixed case or pack of beers of several kinds, none of which makes up half or more of its volume or weight.
+- J7.3.1.01 | Common cider |  | cider of culinary or table apples, of moderate strength (BJCP C1A).
+- J7.3.1.02 | English cider |  | cider in the English style, from bittersweet and bittersharp apples (BJCP C1C).
+- J7.3.1.03 | French cider [cidre] |  | cider in the French style, often keeved, sweet and low in alcohol (BJCP C1D).
+- J7.3.1.04 | Spanish cider [sidra] |  | cider in the Spanish and Basque style, tart and still or lightly sparkling (BJCP C1E).
+- J7.3.2.01 | Perry |  | fermented drink of pear juice (BJCP C4).
+- J7.3.3.01 | Traditional mead |  | mead fermented from honey and water with no added fruit or spice (BJCP M1).
+- J7.3.4.01 | Fruit wine |  | wine fermented from a fruit other than the grape, apple or pear (plum, berry and others; the fruit is an attribute).
+- J7.4.01 | Junmai sake |  | sake made only from rice, koji and water, with no brewer's alcohol added.
+- J7.4.02 | Sake with brewer's alcohol |  | sake to which brewer's alcohol is added within the legal limit (the ginjo, daiginjo and honjozo types).
+- J7.4.03 | Cloudy sake [nigori] |  | sake coarsely filtered so that rice solids stay in it.
+- J7.4.05 | Makgeolli |  | Korean milky, lightly sparkling rice wine.
+- J7.4.07 | Huangjiu and other amber rice wines |  | Chinese amber or yellow grain wine and its relatives.
+- J7.4.08 | Infused rice wine |  | rice wine infused with fruit, herbs or other flavourings.
+- J7.5.1.01 | Single malt whisky |  | malt whisky distilled at one distillery.
+- J7.5.1.02 | Single grain whisky |  | grain whisky distilled at one distillery.
+- J7.5.1.03 | Blended malt whisky |  | blend of single malt whiskies from more than one distillery.
+- J7.5.1.04 | Blended whisky |  | blend of one or more malt whiskies with one or more grain whiskies.
+- J7.5.1.05 | Pot still whisky |  | whiskey of malted and unmalted barley distilled in pot stills.
+- J7.5.1.06 | Bourbon |  | American whiskey of mainly corn, aged in new charred oak containers.
+- J7.5.1.07 | Rye whiskey |  | whiskey distilled mainly from rye.
+- J7.5.1.09 | Corn whisky |  | whiskey distilled mainly from corn, with no new charred oak ageing required.
+- J7.5.2.01 | Cognac |  | grape brandy of the Cognac designation, a CV-40 designation kind.
+- J7.5.2.02 | Armagnac |  | grape brandy of the Armagnac designation, a CV-40 designation kind.
+- J7.5.2.03 | Calvados |  | apple and pear brandy of the Calvados designation, a CV-40 designation kind.
+- J7.5.2.04 | Pisco |  | grape brandy of the Pisco designation, a CV-40 designation kind.
+- J7.5.2.05 | Grappa |  | brandy distilled from grape pomace.
+- J7.5.2.06 | Fruit brandy [eau de vie] |  | clear brandy distilled from fermented fruit other than grape wine.
+- J7.5.2.07 | Grape brandy |  | brandy distilled from grape wine outside the designation kinds above (Brandy de Jerez and other protected brandies are its named forms); added by R-121.
+- J7.5.3.01 | Rum from cane juice [rhum agricole] |  | rum distilled from fresh sugar-cane juice.
+- J7.5.3.02 | Cachaça |  | Brazilian sugar-cane spirit of the Cachaça designation, a CV-40 designation kind.
+- J7.5.3.03 | Rum from molasses |  | rum distilled from molasses or other sugar-cane by-products, the common rum type; added by R-121.
+- J7.5.4.01 | London dry gin |  | gin distilled with juniper and natural botanicals, with nothing but a little sweetening added after distillation.
+- J7.5.5.01 | Tequila |  | agave spirit of the Tequila designation, a CV-40 designation kind.
+- J7.5.5.02 | Mezcal |  | agave spirit of the Mezcal designation, a CV-40 designation kind.
+- J7.5.6.01 | Vodka |  | neutral spirit without distinctive character, aroma or taste.
+- J7.5.7.01 | Baijiu |  | Chinese spirit distilled from fermented grain, usually sorghum.
+- J7.5.7.02 | Shochu |  | Japanese spirit distilled from rice, barley, sweet potato or other starch.
+- J7.5.7.03 | Soju |  | Korean spirit distilled from rice or other starch.
+- J7.5.7.04 | Awamori |  | Okinawan spirit distilled from long-grain rice with black koji.
+- J7.5.8.01 | Arrack and palm spirit |  | spirit distilled from palm sap and related bases.
+- J7.5.9.01 | Anise spirit |  | spirit flavoured mainly with anise (ouzo, pastis, rakı and the like; absinthe is J7.5.9.04).
+- J7.5.9.02 | Genever |  | juniper-flavoured spirit made with malt wine.
+- J7.5.9.03 | Aquavit |  | spirit flavoured mainly with caraway or dill.
+- J7.6.01 | Triple sec and curaçao |  | orange-peel liqueur.
+- J7.6.02 | Amaretto |  | almond-flavoured liqueur.
+- J7.6.03 | Sloe gin |  | liqueur of gin flavoured with sloes.
+- J7.6.04 | Cream liqueur |  | liqueur made with cream.
+- J7.6.05 | Fruit liqueur |  | liqueur flavoured with fruit.
+- J7.6.06 | Herb and spice liqueur |  | liqueur flavoured with herbs and spices.
+- J7.6.07 | Bitter liqueur and amaro |  | bitter liqueur or drinking bitters sold to drink by the glass (amaro, Fernet and similar).
+- J7.7.01 | Ready-to-drink mixed alcoholic drink [blanddryck] |  | sealed mix of a spirit, wine or malt base with a flavouring that no other J7.7 kind covers.
+- J7.7.02 | Hard seltzer |  | sealed carbonated water with alcohol and flavouring.
+- J7.7.03 | Ready-to-drink cocktail |  | sealed premixed cocktail, such as canned gin and tonic.
+- J7.7.04 | Canned spritzer |  | sealed mix of wine with soda water or a mixer.
+- J7.7.05 | Radler and shandy |  | sealed mix of beer with lemonade, fruit soda or juice, sold as radler, shandy or another beer mix.
+- J7.5.5.03 | Sotol |  | spirit distilled from the desert spoon plant (Dasylirion), made and shelved like an agave spirit.
+- J7.5.9.04 | Absinthe |  | spirit flavoured with grand wormwood, green anise and fennel, sold as absinthe (verte or blanche).
+- J7.6.08 | Nut liqueur |  | liqueur flavoured mainly with nuts other than the almond of amaretto (hazelnut, walnut and others).
+- J7.5.4.02 | Distilled and compound gin |  | juniper-led gin outside the London dry definition: flavoured, coloured or sweetened after distillation, or compounded.
+- J7.6.10 | Spiced rum |  | rum compounded with spices and usually sweetened, sold as spiced rum.
+- J7.6.11 | Flavoured vodka |  | vodka compounded with a natural or added flavouring, sold as flavoured vodka.
+- J7.3.3.02 | Fruit mead [melomel] |  | mead fermented with fruit (BJCP M2).
+- J7.3.3.03 | Spice mead [metheglin] |  | mead fermented or flavoured with spices or herbs (BJCP M3).
+- J7.2.1.05 | German Pils |  | pale, crisp, hop-bitter German lager (BJCP 5D).
+- J7.2.3.02 | Weissbier |  | pale, cloudy German wheat ale with banana and clove yeast character (BJCP 10A).
+- J7.2.3.03 | Witbier |  | pale Belgian wheat ale spiced with coriander and orange peel (BJCP 24A).
+- J7.2.5.01 | Märzen |  | amber, malty German lager, the Oktoberfest type (BJCP 6A).
+- J7.2.5.02 | Vienna Lager |  | amber, moderately strong lager with a toasty malt character (BJCP 7A).
+- J7.2.6.01 | Doppelbock |  | strong, rich, malty Bavarian lager (BJCP 9A).
+- J7.2.7.01 | Best Bitter |  | amber British ale of moderate strength with balanced hop bitterness (BJCP 11B).
+- J7.2.7.02 | American Pale Ale |  | pale, hop-forward American ale of standard strength (BJCP 18B).
+- J7.2.8.01 | English IPA |  | hoppy, moderately strong pale ale in the English tradition (BJCP 12C).
+- J7.2.8.02 | American IPA |  | hop-forward, bitter, moderately strong American pale ale (BJCP 21A).
+- J7.2.8.03 | Hazy IPA |  | cloudy, juicy, low-bitterness IPA, the New England type (BJCP 21C).
+- J7.2.8.04 | Double IPA |  | strong, intensely hoppy IPA (BJCP 22A).
+- J7.2.9.01 | English Porter |  | brown to dark British ale with chocolate and caramel malt (BJCP 13C).
+- J7.2.9.02 | American Porter |  | dark, roasty, hoppier American ale of the porter type (BJCP 20A).
+- J7.2.10.01 | Irish Stout |  | black, dry, roasty ale of moderate strength (BJCP 15B).
+- J7.2.10.02 | Sweet Stout |  | dark, sweet stout, often made with lactose, the milk-stout type (BJCP 16A).
+- J7.2.10.03 | Imperial Stout |  | very strong, intensely roasty and malty stout (BJCP 20C).
+- J7.6.09 | Coffee liqueur |  | liqueur flavoured mainly with coffee.
+- J7.3.1.06 | Fruit cider |  | apple cider fermented or flavoured with other fruit (berry, cherry, citrus and the like).
+- J7.1.5.05 | Other sparkling wine |  | sparkling wine outside the Champagne, Cava, Prosecco and Crémant kinds (Sekt, Lambrusco, Asti and others are its named forms).
+- J7.1.6.04 | Ice wine |  | sweet wine pressed from grapes frozen on the vine (Eiswein, Icewine).
+- J7.1.6.05 | Dried-grape wine [passito] |  | sweet wine made from grapes dried after picking (passito, vin santo, straw wine).
+- J7.1.7.04 | Other fortified wine |  | wine fortified with spirit outside the Port, Sherry and Madeira kinds (vin doux naturel, Marsala, Rutherglen Muscat and others).
+- J7.1.1.07 | Merlot |  | still red wine made mainly from the Merlot grape.
+- J7.1.1.08 | Malbec |  | still red wine made mainly from the Malbec grape.
+- J7.1.1.09 | Zinfandel/Primitivo |  | still red wine made mainly from the Zinfandel grape, under either name.
+- J7.1.1.10 | Tempranillo |  | still red wine made mainly from the Tempranillo grape.
+- J7.1.1.11 | Grenache/Garnacha |  | still red wine made mainly from the Grenache grape, under either name.
+- J7.1.1.12 | Other red blend |  | still red wine blended from several grapes outside the Bordeaux blend (Rhône, Tuscan and other red blends).
+- J7.1.2.04 | Riesling |  | still white wine made mainly from the Riesling grape.
+- J7.1.2.05 | Chenin Blanc |  | still white wine made mainly from the Chenin Blanc grape.
+- J7.1.2.06 | Gewürztraminer |  | still white wine made mainly from the Gewürztraminer grape.
+- J7.1.2.07 | White blend |  | still white wine blended from several grapes, such as white Bordeaux of Sauvignon Blanc and Sémillon.
+- J7.4.04 | Non-designated sake [futsūshu] |  | ordinary sake outside the eight special designations.
+- J7.4.06 | Cheongju |  | Korean clear refined rice wine.
+- J7.5.1.08 | Blended grain whisky |  | blend of single grain whiskies from more than one distillery.
+- J7.5.0.01 | Mixed spirits |  | mixed pack of spirits of several kinds, none of which makes up half or more of its volume or weight.
+- J7.1.1.13 | Cabernet Franc |  | still red wine made mainly from the Cabernet Franc grape.
+- J7.1.2.08 | Gruner Veltliner |  | still white wine made mainly from the Gruner Veltliner grape.
+- J7.1.2.09 | Semillon |  | still dry white wine made mainly from the Semillon grape; sweet Sauternes stays J7.1.6.02.
+- J7.1.1.14 | Carmenere |  | still red wine made mainly from the Carmenere grape.
+- J7.5.1.10 | Canadian whisky |  | grain whisky made and aged at least three years in Canada under the Canadian whisky rule, often blended.
+- J7.5.1.11 | Wheat whiskey |  | whiskey distilled mainly from wheat.
+- J7.4.09 | Sparkling sake [awa sake] |  | sake carbonated by bottle fermentation or added gas.
+- J7.2.2.02 | Munich Dunkel |  | dark, malty Bavarian lager (BJCP 8A).
+- J7.2.2.03 | Schwarzbier |  | very dark, dry German lager with a restrained roast (BJCP 8B).
+- J7.2.6.02 | Dunkles Bock |  | strong, dark, malty German lager, the traditional bock (BJCP 6C).
+- J7.2.7.03 | Kolsch |  | pale, clean, top-fermented and cold-conditioned ale of Cologne (BJCP 5B).
+- J7.1.8.04 | Aromatised wine-based drink [sangria; Gluhwein] |  | wine flavoured with fruit, spices or herbs and not fortified, sold as sangria, mulled wine and the like.
+- J7.3.1.05 | Strong cider |  | apple cider of higher strength than the traditional styles (BJCP C2).
+- J7.2.4.03 | Maize beer |  | traditional beer brewed from maize.
+- J7.3.5.01 | Palm or sap wine |  | wine fermented from palm or tree sap.
+- J7.1.1.15 | Pinotage |  | still red wine made mainly from the Pinotage grape.
+- J7.1.1.16 | Mencía |  | still red wine made mainly from the Mencía grape.
+- J7.1.1.17 | Petit Verdot |  | still red wine made mainly from the Petit Verdot grape.
+- J7.1.1.18 | Tannat |  | still red wine made mainly from the Tannat grape.
+- J7.1.1.19 | Graciano |  | still red wine made mainly from the Graciano grape.
+- J7.1.1.20 | Plavac Mali |  | still red wine made mainly from the Plavac Mali grape.
+- J7.1.2.10 | Verdejo |  | still white wine made mainly from the Verdejo grape.
+- J7.1.2.11 | Albariño/Alvarinho |  | still white wine made mainly from the Albariño grape, under either name.
+- J7.1.2.12 | Malvazija Istarska |  | still white wine made mainly from the Malvazija Istarska (Malvasia Istriana) grape.
+- J7.1.2.13 | Furmint |  | still white wine made mainly from the Furmint grape.
+- J7.1.2.14 | Pinot Blanc/Bianco |  | still white wine made mainly from the Pinot Blanc grape, under either name.
+- J7.1.2.15 | Kerner |  | still white wine made mainly from the Kerner grape.
+- J7.1.1.21 | Blaufränkisch |  | red wine made mainly from the Blaufränkisch grape.
+- J7.1.1.22 | País (Listán Prieto) |  | red wine made mainly from the País grape.
+- J7.1.1.23 | Prokupac |  | red wine made mainly from the Prokupac grape.
+- J7.1.1.24 | Refošk (Refosco) |  | red wine made mainly from the Refošk grape.
+- J7.1.1.25 | Aleksandrouli |  | red wine made mainly from the Aleksandrouli grape.
+- J7.1.2.16 | Altesse |  | white wine made mainly from the Altesse grape.
+- J7.1.2.17 | Kisi |  | white wine made mainly from the Kisi grape.
+- J7.1.2.18 | Albillo Mayor |  | white wine made mainly from the Albillo Mayor grape.
+- J7.1.2.19 | Petite Arvine |  | white wine made mainly from the Petite Arvine grape.
+- J7.1.2.20 | Savagnin (Heida) |  | white wine made mainly from the Savagnin grape.
+- J7.1.2.21 | Loureiro |  | white wine made mainly from the Loureiro grape.
+- J7.1.2.22 | Friulano |  | white wine made mainly from the Friulano grape.
+- J7.1.2.23 | Falanghina |  | white wine made mainly from the Falanghina grape.
+- J7.1.2.24 | Pecorino |  | white wine made mainly from the Pecorino grape.

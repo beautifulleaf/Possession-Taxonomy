@@ -1,0 +1,119 @@
+# A2 Footwear: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: genre or scene (owner ruling names footwear as scene-driven), with shoe style as an equal second tab and a use door for performance footwear
+- reason: Owner rule (BRIEF 2026-10-17: footwear like clothing) puts scene > brand > model first, and enthusiast evidence supports it (sneakerheads buy by silhouette and release, Nylon; fine shoes are sold maker > grade line > last, Robert Old); but every mainstream tree opens on shoe style (Zalando DE) and running shoes are bought by terrain and gait (Zappos), so style and use stay first-rank tabs.
+- ladder: Which scene? (sneaker culture, classic menswear, heritage boots, subculture boots...) > Which maker? > Which model (and grade line or last)?; second tab: What style? (sneakers, shoes, boots, sandals, slippers) > Which kind? > What makes the best one? (construction, leather, last); use door: What for? (road or trail running, walking, hiking, work and safety) > fit and support > model
+- level1_groups: Scene door (C8 clusters that carry A2 tags): Street, skate & surf (sneaker culture); Tailoring & classic (dress shoes); Heritage & workwear (heritage boots); Subcultures & music scenes (Dr. Martens, creepers, winklepickers); Outdoor, technical & sport; Rider, military & surplus; Japanese street fashion; Luxury & designer; Traditional & regional dress (geta, jutti, klompen). Style tab (memo tree): Sneakers and athletic-style shoes (A2.1); Shoes (A2.2); Boots (A2.3); Sandals and open footwear (A2.4); Slippers (A2.5); Over-footwear (A2.6); Shoe care and parts (A2.7). Use door: Running and trail; Walking; Hiking and outdoor; Work and safety; Water
+- quality_markers: Dress shoes and boots: construction first (hand-welted > Goodyear welted > Blake / Blake Rapid > cemented; resoleability, lifespan, day-one comfort), then leather quality (full-grain calf, shell cordovan > corrected grain), then last shape, then workmanship and hand finishing (maker grade line, e.g. Hand Grade over main line), then value. Sneakers: model and release, authenticity, condition, rarity. Running and walking: fit (thumb width at toe), cushioning matched to distance, support type (neutral, stability, motion control), drop and stack, replace at 300-500 miles
+- quality_signals: Gentleman's Gazette RTW ranking A to F (editorial, class iii; single author: low weight); Styleforum maker hierarchy (memo; class iii); maker grade lines (Crockett & Jones Hand Grade over main line; class iv, line_rank); StockX, GOAT and eBay authentication (platform programme: dated platform_tag, never a tier); Grailed Market labels (class vi); EN ISO 20345 safety classes SB to S5 (attribute, class i; memo)
+- maker_role: way_in (confirm; drop provisional): makers lead for dress shoes, boots and sneakers (Robert Old, Gentleman's Gazette, Nylon); for running and safety shoes use comes first but the choice is still a maker's model
+- side_view: Maker A-Z with each maker's grade lines and lasts (Robert Old order); construction view (Goodyear welted, Blake, cemented); safety footwear view (protection_class); sneaker release and resale view from the variant ledger
+- evidence_rows: Zalando DE men's shoes; A Fine Pair of Shoes (UK); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; Zappos running shoe buyers guide; Nylon on sneakerhead culture
+- maker role row: {'code': 'A2', 'scope': '*', 'role': 'way_in', 'provisional': 'yes', 'reason': 'footwear is scene-driven like clothing'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-A2-1 | Sneakers and athletic-style shoes | 1 |  | A2.1
+- G-A2-8 | Lifestyle sneakers | 2 | G-A2-1 | A2.1.01; A2.1.02; A2.1.03; A2.1.07; A2.1.08; A2.1.09
+- G-A2-9 | Running, walking, hiking and water shoes | 2 | G-A2-1 | A2.1.04; A2.1.05; A2.1.06; A2.1.10; A2.1.11
+- G-A2-2 | Shoes | 1 |  | A2.2
+- G-A2-10 | Lace-ups and monks | 2 | G-A2-2 | A2.2.1.01; A2.2.1.02; A2.2.1.03; A2.2.1.04
+- G-A2-11 | Loafers and slip-ons | 2 | G-A2-2 | A2.2.2.01; A2.2.2.02; A2.2.2.03; A2.2.2.04; A2.2.2.05; A2.2.2.06; A2.2.2.07
+- G-A2-12 | Heels and flats | 2 | G-A2-2 | A2.2.3.01; A2.2.3.02; A2.2.3.03; A2.2.3.04; A2.2.3.05
+- G-A2-3 | Boots | 1 |  | A2.3
+- G-A2-13 | Ankle and Chelsea boots | 2 | G-A2-3 | A2.3.1.01; A2.3.1.02; A2.3.1.03
+- G-A2-14 | Lace-up, work and combat boots | 2 | G-A2-3 | A2.3.2.01; A2.3.2.02; A2.3.2.04; A2.3.2.08
+- G-A2-15 | Hiking boots | 2 | G-A2-3 | A2.3.2.05
+- G-A2-16 | Western and biker boots | 2 | G-A2-3 | A2.3.3.01; A2.3.2.06; A2.3.2.03
+- G-A2-17 | Rain and winter boots | 2 | G-A2-3 | A2.3.3.02; A2.3.3.03; A2.3.2.07
+- G-A2-18 | Knee-high and riding boots | 2 | G-A2-3 | A2.3.4.01; A2.3.4.02; A2.3.4.03; A2.3.4.04
+- G-A2-4 | Sandals and open footwear | 1 |  | A2.4.01; A2.4.02; A2.4.03; A2.4.04; A2.4.05; A2.4.06; A2.4.07; A2.4.08
+- G-A2-5 | Slippers | 1 |  | A2.5.01; A2.5.02; A2.5.03
+- G-A2-6 | Over-footwear | 1 |  | A2.6.01; A2.6.02
+- G-A2-7 | Shoe care and parts | 1 |  | A2.7.01; A2.7.02; A2.7.03; A2.7.04; A2.7.05
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-A2-2 | construction | hand-welted > Goodyear welted > Blake / Blake Rapid > cemented | Construction comes first for dress shoes: resoleability, lifespan and day-one comfort. | proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
+- G-A2-2 | leather quality | full-grain calf, shell cordovan > corrected grain | Leather is weighed after construction. | proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
+- G-A2-2 | last shape |  | Fit and look of the last follow leather; a choice, no ladder. | proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
+- G-A2-2 | workmanship and hand finishing | maker's hand grade line > main line (e.g. Hand Grade) | Grade lines within one maker mark finishing; compared inside a maker only. | proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
+- G-A2-2 | value |  | Price against the markers above, weighed last. | proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
+- G-A2-3 | construction | hand-welted > Goodyear welted > Blake / Blake Rapid > cemented | Construction comes first for boots: resoleability, lifespan and day-one comfort. | proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
+- G-A2-3 | leather quality | full-grain calf, shell cordovan > corrected grain | Leather is weighed after construction. | proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
+- G-A2-3 | last shape |  | Fit and look of the last follow leather; a choice, no ladder. | proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
+- G-A2-3 | workmanship and hand finishing | maker's hand grade line > main line (e.g. Hand Grade) | Grade lines within one maker mark finishing; compared inside a maker only. | proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
+- G-A2-3 | value |  | Price against the markers above, weighed last. | proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
+- G-A2-8 | model and release |  | Sneakers are chosen by model and release first. | proposals.tsv A2 row (quality_markers); Nylon on sneakerhead culture
+- G-A2-8 | authenticity |  | Resale buying turns on a verified genuine pair. | proposals.tsv A2 row (quality_markers); Nylon on sneakerhead culture
+- G-A2-8 | condition |  | Condition sets resale value. | proposals.tsv A2 row (quality_markers); Nylon on sneakerhead culture
+- G-A2-8 | rarity |  | Limited releases rank above general releases for collectors. | proposals.tsv A2 row (quality_markers); Nylon on sneakerhead culture
+- G-A2-9 | fit | about a thumb's width at the toe | Fit is checked first for running and walking shoes. | proposals.tsv A2 row (quality_markers); Zappos running shoe buyers guide
+- G-A2-9 | cushioning matched to distance |  | Cushioning is chosen for the distance run; a choice. | proposals.tsv A2 row (quality_markers); Zappos running shoe buyers guide
+- G-A2-9 | support type | neutral; stability; motion control | Support is matched to the runner's gait; a choice, not a ladder. | proposals.tsv A2 row (quality_markers); Zappos running shoe buyers guide
+- G-A2-9 | drop and stack |  | Heel-to-toe drop and stack height are compared last. | proposals.tsv A2 row (quality_markers); Zappos running shoe buyers guide
+- G-A2-9 | wear life | replace at 300-500 miles | Worn-out cushioning ends a running shoe's use. | proposals.tsv A2 row (quality_markers); Zappos running shoe buyers guide
+
+## Kinds (kind_id | stored name | native name | definition)
+- A2.4.01 | Flip-flop (thonged flat sandal) |  | flat sandal held only by a toe post between the first two toes and the strap that runs from it to the sides of the sole, with no other strap across or round the foot.
+- A2.4.02 | Slide |  | backless sandal with a band or straps over the front of the foot.
+- A2.4.03 | Flat strap sandal |  | flat sandal held by straps across or round the foot, including one that adds a toe loop or toe post to a strap across the foot (T-strap).
+- A2.4.04 | Heeled or wedge sandal |  | sandal on a heel or wedge.
+- A2.4.05 | Sports and outdoor sandal |  | sandal with adjustable straps on a treaded sole.
+- A2.4.06 | Gladiator sandal |  | flat or low sandal with multiple straps up the foot or leg.
+- A2.4.07 | Woven leather sandal (huarache) |  | sandal with a woven-leather upper.
+- A2.4.08 | Raised wooden sandal (geta) |  | sandal on a raised wooden base with teeth.
+- A2.5.01 | Closed slipper |  | backed slipper.
+- A2.5.02 | Open (backless) slipper |  | slipper without a back.
+- A2.5.03 | Slipper boot |  | soft boot without a rigid outsole.
+- A2.6.01 | Overshoe and galosh |  | waterproof covering worn over a shoe.
+- A2.6.02 | Spat |  | cloth or leather covering for the instep and ankle worn over a shoe.
+- A2.7.01 | Shoelace. |  | 
+- A2.7.02 | Removable insole, non-medical. |  | 
+- A2.7.03 | Heel grip. |  | 
+- A2.7.04 | Shoe tree. |  | 
+- A2.7.05 | Shoe horn. |  | 
+- A2.1.01 | Low-top sneaker |  | lace-up athletic-style shoe cut below the ankle bone.
+- A2.1.02 | High-top sneaker |  | lace-up athletic-style shoe whose upper rises over the ankle bone.
+- A2.1.03 | Slip-on sneaker |  | laceless athletic-style shoe with elastic panels or a stretch collar.
+- A2.1.04 | Running shoe |  | cushioned road-running shoe.
+- A2.1.05 | Trail running shoe |  | running shoe with a lugged outsole for off-road ground.
+- A2.1.06 | Walking shoe |  | cushioned shoe made for walking.
+- A2.1.07 | Skate shoe |  | shoe with a durable upper and flat grip sole made for skateboarding.
+- A2.1.08 | Chunky (dad) sneaker |  | sneaker with an oversized, sculpted midsole as the main design feature.
+- A2.1.09 | Minimalist (barefoot) shoe |  | very thin, flexible, low or zero-drop sole shaped to the foot, including five-toe designs.
+- A2.1.10 | Hiking shoe (low) |  | low-cut lace-up shoe made for walking on rough ground, with a flexible lugged sole.
+- A2.1.11 | Water shoe (aqua shoe) |  | drainable shoe made for use in and beside water.
+- A2.2.1.01 | Oxford |  | fastened shoe with the lace eyelets stitched under the vamp (closed lacing).
+- A2.2.1.02 | Derby |  | fastened shoe with the lace eyelets stitched on top of the vamp (open lacing).
+- A2.2.1.03 | Monk strap |  | fastened shoe closed by a buckled strap across the instep instead of laces.
+- A2.2.1.04 | Saddle shoe |  | lace-up shoe with a contrasting saddle-shaped band across the instep.
+- A2.2.2.01 | Loafer |  | laceless low shoe with a moccasin-style construction and a closed heel.
+- A2.2.2.02 | Boat (deck) shoe |  | low shoe with a siped non-marking sole, usually with a leather lace running round the upper.
+- A2.2.2.03 | Moccasin |  | shoe made of a soft sole-and-upper wrap with a plug or apron at the toe.
+- A2.2.2.04 | Espadrille |  | canvas or fabric shoe on a rope (jute) sole or wedge.
+- A2.2.2.05 | Mule |  | any backless shoe with a closed toe; a backless shoe with a loafer upper is a mule.
+- A2.2.2.06 | Clog |  | slip-on with a thick rigid sole of wood or moulded material, backed or backless.
+- A2.2.2.07 | Plain slip-on shoe |  | laceless low shoe with a closed heel over a covered instep, on a moulded or stitched outsole, built as none of the kinds above (not moccasin-built, no siped deck sole, no rope sole, no thick rigid clog sole); includes elastic-gored, quilted and sheepskin-lined slip-ons on a moulded outsole.
+- A2.2.3.01 | Court shoe (pump) |  | low-cut closed-heel shoe with a high or low heel and no fastening.
+- A2.2.3.02 | Slingback |  | court-cut shoe held by a strap round the back of the heel.
+- A2.2.3.03 | Mary Jane |  | low-cut shoe with a strap across the instep.
+- A2.2.3.04 | Ballet flat |  | flat or near-flat low-cut shoe with a thin sole and a rounded, shallow vamp.
+- A2.2.3.05 | Peep-toe shoe |  | court-cut shoe with an opening at the toe.
+- A2.3.1.01 | Ankle boot (bootie) |  | short boot ending at or just above the ankle, any closure.
+- A2.3.1.02 | Chelsea boot |  | ankle boot with elastic side gussets and no laces.
+- A2.3.1.03 | Chukka (desert boot) |  | ankle boot with two or three eyelet pairs and an unlined or soft construction.
+- A2.3.2.01 | Service and dress lace-up boot |  | lace-up boot on a plain, sleeker last, without a heavy lugged or wedge work sole.
+- A2.3.2.02 | Work boot |  | lace-up boot with a heavy lugged or wedge outsole made for labour, usually Goodyear-welted or stitch-down.
+- A2.3.2.03 | Engineer boot |  | pull-on boot with a strap and buckle at the instep and the top, no laces.
+- A2.3.2.04 | Combat (military) boot |  | lace-up boot made to a military service pattern.
+- A2.3.2.05 | Hiking boot |  | lace-up boot made for walking on rough ground: padded collar, flexible lugged sole; not made for labour.
+- A2.3.2.06 | Motorcycle boot |  | boot with reinforced ankle and shin and a gear-shift area, made for riding a motorcycle.
+- A2.3.2.07 | Sheepskin-lined pull-on boot |  | pull-on boot of sheepskin with a fleece lining and a soft, moulded sole.
+- A2.3.2.08 | Split-toe work boot (jika-tabi) |  | boot with a separated big toe and a rubber sole, fastened by hooks or a zip up the lower leg.
+- A2.3.3.01 | Cowboy (western) boot |  | pull-on boot with a stitched shaft, pointed or rounded toe and angled heel in the western pattern.
+- A2.3.3.02 | Rain boot (wellington) |  | waterproof rubber or synthetic boot made for wet ground.
+- A2.3.3.03 | Snow and winter boot |  | insulated, waterproof boot with a lugged sole made for cold and snow.
+- A2.3.4.01 | Knee-high boot |  | boot with the shaft reaching to the knee.
+- A2.3.4.02 | Over-the-knee (thigh) boot |  | boot with the shaft above the knee.
+- A2.3.4.03 | Equestrian riding boot |  | tall field or dress boot made for riding (smooth sole, spur rest, close fit).
+- A2.3.4.04 | Riding-style boot |  | tall boot in the equestrian pattern made for everyday wear.

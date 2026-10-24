@@ -1,0 +1,174 @@
+# C5 Office & Stationery: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (writing instrument or paper type)
+- reason: Every shop fetched opens on the instrument or paper type and keeps brands in a separate menu or filter (Cult Pens, Pulp Addiction, Muji, Goulet Pens), while makers lead only in enthusiast talk (Fountain Pen Network), so type is the first choice and the house a second door.
+- ladder: What do you write with or on? > Which type? > What makes the best one (nib, filling and material for pens; weight, coating and binding for paper), then models by price band and house
+- level1_groups: Pens (C5.1 nib pens; ball and gel pens; porous-tip pens and markers; calligraphy brush and ink); Pencils, erasers and correction (C5.1 pencils; erasers, correction and sharpeners); Ink, refills and pen parts (C5.5 for fountain pens; for ball, gel and rollerball pens; for mechanical pencils; for one pen at a time); Notebooks and journals (C5.2 bound books; C5.5 for planners and refillable notebooks); Diaries, planners and calendars (C5.2 diaries, planners and calendars); Paper, cards and post (C5.2 loose paper, pads and envelopes; printed and decorated paper); Desk, filing and office supplies (C5.3 all leaves; C5.5 for staplers); Calculators and office machines (C5.4)
+- quality_markers: Fountain pens: nib writes at once without skipping, smooth and steady flow (YARD-O-LED); nib material steel < 14k gold < 18k gold (Cult Pens via memo; YARD-O-LED); nib width and shape offered (EF, F, M, B; stub, italic, flex; Japanese runs a size finer); filling system cartridge or converter < piston or vacuum (capacity; Goulet best sellers); body material and craft: resin < ebonite or celluloid < hallmarked 925 silver, urushi, maki-e, engine turning (YARD-O-LED, Goulet categories); weight and balance; long production history and reliability (Goulet best sellers); Paper: coated or calendered surface, bleed-through and show-through resistance, dry time, shading and sheen shown (Pure Pens); weight gsm 52-60 thin (prized only in coated stocks such as Tomoe River) < 80 minimum < 90-100 sweet spot < 120+ premium (Pure Pens); binding lies flat: sewn > glued > wire (Fountain Pen Network); Ink (memo): saturation, shading, sheen, flow, water resistance; Calculators: capability class basic < printing < scientific < graphing (memo); Shredders: cut type strip < cross < micro (memo); Desk and filing: preference and build only
+- quality_signals: No certification body for pens or paper (all evidence rows); British hallmark and 925 sterling standard (assay offices; YARD-O-LED) as attribute, class (i); Shop experience tiers Starter, Next level, Entry-level gold nib, Luxury (Goulet, Cult Pens) as platform_tag, class (vi); Best seller per price band over 365 days (Goulet shop data) as platform_tag, class (vi); Community favourites (Fountain Pen Network notebook thread: Nanami Seven Seas, Rhodia, Life, Apica) as class (iii) tier entries; Fountain-pen paper consensus 'gold standards' MD Paper and Tomoe River (memo, Journal Shop) class (iii); Montblanc luxury market position (memo collector guide) class (iii); Fabrication France made-in label (Greenweez) as attribute; Exam-approved calculator lists and DIN 66399 shredder security levels: not attested, to fetch
+- maker_role: owner, confirmed for the category; proposed scoped revision (provisional): fountain pens, bottled fountain-pen ink, notebooks and planners as way_in, since the house is part of what is sought there (Goulet and Cult Pens Brands menus, Fountain Pen Network, memo section 6 identity, collector market by maker)
+- side_view: Pen and paper houses tab (fountain-pen houses, ink makers, notebook and planner houses, paper stocks) beside the type tree; price-band ladder view of fountain pens; scene views japanese-stationery, fountain-pen-hobby, vintage-pen-collecting, planner-and-journaling
+- evidence_rows: Goulet Pens; Cult Pens; YARD-O-LED how to choose a fountain pen; Pure Pens fountain pen paper guide; Muji Australia stationery; Pulp Addiction (Australia); Greenweez Rhodia brand page (France); Fountain Pen Network favorite notebooks thread; Goulet Pens best sellers at every price point
+- maker role row: {'code': 'C5', 'scope': 'fountain pens, fountain-pen ink, notebooks, planners and paper stocks', 'role': 'way_in', 'provisional': 'yes', 'reason': 'pen houses, ink makers and paper mills are what enthusiasts choose (R-116 c, DPH_C; R-119)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-C5-1 | Pens | 1 |  | C5.1.1; C5.1.2; C5.1.3; C5.1.4
+- G-C5-101 | Fountain & dip pens | 2 | G-C5-1 | C5.1.1.01; C5.1.1.02
+- G-C5-102 | Ballpoint, gel & rollerball pens | 2 | G-C5-1 | C5.1.2.01; C5.1.2.02; C5.1.2.03; C5.1.2.04
+- G-C5-103 | Fineliners, markers & highlighters | 2 | G-C5-1 | C5.1.3.01; C5.1.3.02; C5.1.3.03; C5.1.3.04
+- G-C5-104 | Calligraphy brush & ink | 2 | G-C5-1 | C5.1.4.01; C5.1.4.02; C5.1.4.03; C5.1.4.04
+- G-C5-2 | Pencils, erasers & correction | 1 |  | C5.1.5; C5.1.6
+- G-C5-105 | Pencils | 2 | G-C5-2 | C5.1.5.01; C5.1.5.02; C5.1.5.03
+- G-C5-106 | Erasers, correction & sharpeners | 2 | G-C5-2 | C5.1.6.01; C5.1.6.02; C5.1.6.03; C5.1.6.04
+- G-C5-3 | Ink, refills & pen parts | 1 |  | C5.5.1; C5.5.2; C5.5.3; C5.5.4
+- G-C5-107 | Fountain-pen ink & parts | 2 | G-C5-3 | C5.5.1.01; C5.5.1.02; C5.5.1.03; C5.5.1.04
+- G-C5-108 | Pen refills | 2 | G-C5-3 | C5.5.2.01
+- G-C5-109 | Pencil leads | 2 | G-C5-3 | C5.5.3.01
+- G-C5-110 | Pen sleeves | 2 | G-C5-3 | C5.5.4.01
+- G-C5-4 | Notebooks & journals | 1 |  | C5.2.1; C5.5.5
+- G-C5-111 | Notebooks | 2 | G-C5-4 | C5.2.1.01; C5.2.1.02; C5.2.1.03
+- G-C5-112 | Planner & notebook covers and refills | 2 | G-C5-4 | C5.5.5.01; C5.5.5.02; C5.5.5.03
+- G-C5-5 | Diaries, planners & calendars | 1 |  | C5.2.2
+- G-C5-113 | Diaries, planners & calendars | 2 | G-C5-5 | C5.2.2.01; C5.2.2.02; C5.2.2.03
+- G-C5-6 | Paper, cards & post | 1 |  | C5.2.3; C5.2.4
+- G-C5-114 | Writing & printer paper, pads & notes | 2 | G-C5-6 | C5.2.3.01; C5.2.3.02; C5.2.3.03; C5.2.3.04; C5.2.3.05; C5.2.3.09
+- G-C5-115 | Envelopes & mailing | 2 | G-C5-6 | C5.2.3.06; C5.2.3.07; C5.2.3.08
+- G-C5-116 | Cards, gift wrap & stickers | 2 | G-C5-6 | C5.2.4.01; C5.2.4.02; C5.2.4.03
+- G-C5-7 | Desk, filing & office supplies | 1 |  | C5.3.1; C5.3.2; C5.3.3; C5.3.4; C5.3.5; C5.3.6; C5.5.6
+- G-C5-117 | Desk organisers | 2 | G-C5-7 | C5.3.1.01; C5.3.1.02; C5.3.1.03; C5.3.1.04; C5.3.1.05; C5.3.1.06
+- G-C5-118 | Boards | 2 | G-C5-7 | C5.3.2.01; C5.3.2.02; C5.3.2.03; C5.3.2.04
+- G-C5-119 | Staplers, punches, scissors & stamps | 2 | G-C5-7 | C5.3.3.01; C5.3.3.02; C5.3.3.03; C5.3.3.04; C5.3.3.05; C5.3.3.06; C5.3.3.07; C5.5.6.01
+- G-C5-120 | Clips, pins, tape & glue | 2 | G-C5-7 | C5.3.4.01; C5.3.4.02; C5.3.4.03; C5.3.4.04; C5.3.4.05; C5.3.4.06; C5.3.4.07; C5.3.4.08; C5.3.4.09; C5.3.4.10
+- G-C5-121 | Files & folders | 2 | G-C5-7 | C5.3.5.01; C5.3.5.02; C5.3.5.03; C5.3.5.04; C5.3.5.05
+- G-C5-122 | Rulers, geometry & postal scales | 2 | G-C5-7 | C5.3.6.01; C5.3.6.02; C5.3.6.03; C5.3.6.04
+- G-C5-8 | Calculators & office machines | 1 |  | C5.4.1; C5.4.2; C5.5.7; C5.5.8
+- G-C5-123 | Calculators | 2 | G-C5-8 | C5.4.1.01; C5.4.1.02; C5.4.1.03; C5.4.1.04; C5.4.1.05; C5.4.1.06; C5.4.1.07
+- G-C5-124 | Office machines | 2 | G-C5-8 | C5.4.2.01; C5.4.2.02; C5.4.2.03; C5.4.2.04; C5.4.2.05
+- G-C5-125 | Office-machine supplies | 2 | G-C5-8 | C5.5.7.01; C5.5.8.01; C5.5.8.02; C5.5.8.03; C5.5.8.04; C5.5.8.05
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-C5-101 | writes at once, without skipping, with smooth and steady flow |  | The nib must write first time. | proposals.tsv C5 row (quality_markers); YARD-O-LED how to choose a fountain pen
+- G-C5-101 | nib material | 18k gold > 14k gold > steel | Gold nibs mark the higher rungs. | proposals.tsv C5 row (quality_markers); Cult Pens; YARD-O-LED how to choose a fountain pen
+- G-C5-101 | nib width and shape offered |  | EF, F, M, B; stub, italic, flex; Japanese nibs run a size finer. | proposals.tsv C5 row (quality_markers); Goulet Pens; YARD-O-LED how to choose a fountain pen
+- G-C5-101 | filling system | piston or vacuum > cartridge or converter | Capacity rises with piston and vacuum fillers. | proposals.tsv C5 row (quality_markers); Goulet Pens best sellers at every price point
+- G-C5-101 | body material and craft | hallmarked 925 silver, urushi, maki-e, engine turning > ebonite or celluloid > resin | Material and decoration mark the luxury rungs. | proposals.tsv C5 row (quality_markers); Goulet Pens; YARD-O-LED how to choose a fountain pen
+- G-C5-101 | weight and balance |  | A fit to the hand. | proposals.tsv C5 row (quality_markers); YARD-O-LED how to choose a fountain pen
+- G-C5-101 | long production history and reliability |  | Long-made models lead the best-seller lists. | proposals.tsv C5 row (quality_markers); Goulet Pens best sellers at every price point
+- G-C5-111 | coated or calendered surface: bleed-through and show-through resistance, dry time, shading and sheen shown |  | Fountain-pen paper is judged on how ink sits. | proposals.tsv C5 row (quality_markers); Pure Pens fountain pen paper guide
+- G-C5-111 | paper weight (gsm) | 120+ premium > 90-100 sweet spot > 80 minimum > 52-60 thin (prized only in coated stocks such as Tomoe River) | Weight follows the surface. | proposals.tsv C5 row (quality_markers); Pure Pens fountain pen paper guide
+- G-C5-111 | binding lies flat | sewn > glued > wire | A notebook must open flat. | proposals.tsv C5 row (quality_markers); Fountain Pen Network favorite notebooks thread
+- G-C5-107 | ink saturation |  | Bottled ink markers in the memo's order. | proposals.tsv C5 row (quality_markers); C5 memo
+- G-C5-107 | ink shading |  | Bottled ink markers in the memo's order. | proposals.tsv C5 row (quality_markers); C5 memo
+- G-C5-107 | ink sheen |  | Bottled ink markers in the memo's order. | proposals.tsv C5 row (quality_markers); C5 memo
+- G-C5-107 | ink flow |  | Bottled ink markers in the memo's order. | proposals.tsv C5 row (quality_markers); C5 memo
+- G-C5-107 | ink water resistance |  | Bottled ink markers in the memo's order. | proposals.tsv C5 row (quality_markers); C5 memo
+- G-C5-123 | capability class | graphing > scientific > printing > basic | A class to match the need (memo). | proposals.tsv C5 row (quality_markers); C5 memo
+- G-C5-124 | shredder cut type | micro-cut > cross-cut > strip-cut | Ladder from the memo. | proposals.tsv C5 row (quality_markers); C5 memo
+- G-C5-7 | preference and build |  | Desk and filing goods carry no quality ladder. | proposals.tsv C5 row (quality_markers)
+
+## Kinds (kind_id | stored name | native name | definition)
+- C5.3.1.01 | Pen cup |  | open pot that stands pens and pencils upright on a desk.
+- C5.3.1.02 | Pencil case |  | pouch, box or roll that holds several pens and pencils (K-132; a one-pen sleeve is C5.5.4.01).
+- C5.3.1.03 | Document tray (letter tray) |  | flat open tray, often stackable, that holds papers on a desk.
+- C5.3.1.04 | Magazine holder (desktop magazine file) |  | upright open-sided box that holds magazines or files on a desk or shelf.
+- C5.3.1.05 | Desk pad / blotter |  | large mat or blotting pad laid on the desk top to write on.
+- C5.3.2.01 | Noticeboard |  | cork or fabric board to which notices are pinned.
+- C5.3.2.02 | Whiteboard |  | smooth board written on with dry-erase markers.
+- C5.3.3.01 | Stapler [ホチキス] | ホチキス | device that drives a wire staple through sheets to join them; `drive` is an attribute.
+- C5.3.3.02 | Hole punch |  | device that cuts filing holes in sheets.
+- C5.3.3.03 | Paper trimmer |  | guillotine or rotary cutter that trims sheets straight.
+- C5.3.3.04 | Scissors (household and office) |  | general-purpose scissors for paper and household use (K-171).
+- C5.3.3.05 | Rubber stamp (office) |  | hand stamp with a rubber die for dates, words or marks on office papers (decorative stamps are C4).
+- C5.3.3.06 | Stamp ink pad (office) |  | inked pad for office stamps (ink pads for decorative stamps are C4).
+- C5.3.3.07 | Name seal [印鑑, hanko] | 印鑑 | personal seal stamped as a signature (region Japan; level provisional, C11).
+- C5.3.4.01 | Paper clip |  | bent wire loop that clips sheets together.
+- C5.3.4.02 | Bulldog clip |  | sprung metal clip that grips a thick stack of sheets.
+- C5.3.4.03 | Drawing pin |  | short pin with a flat head pressed into a board to hold paper.
+- C5.3.4.04 | Glue stick |  | solid glue in a twist-up tube for sticking paper (K-171).
+- C5.3.4.05 | Desk tape (sticky tape) |  | narrow transparent adhesive tape for paper and desk use (K-171).
+- C5.3.4.06 | Tape dispenser |  | weighted holder with a cutting edge for desk tape.
+- C5.3.5.01 | Ring binder |  | stiff cover with a ring mechanism that holds punched sheets.
+- C5.3.5.02 | Lever arch file |  | binder with a lever-operated two-ring arch mechanism for large volumes of sheets.
+- C5.3.5.03 | Box file |  | lidded box-shaped file with a spring clip that holds loose papers.
+- C5.3.6.01 | Ruler |  | straight strip with a graduated scale for measuring and ruling lines.
+- C5.3.6.02 | Geometry set (compasses, protractor) |  | case of drawing compass, protractor, set squares and ruler sold as one set.
+- C5.3.6.03 | Drawing compass |  | two-legged instrument that draws circles and arcs (a navigation compass is E2).
+- C5.3.6.04 | Postal scale |  | small scale for weighing letters and parcels for postage (K-167).
+- C5.4.1.01 | Basic desktop calculator |  | calculator for the four operations and percentages, with a display.
+- C5.4.1.02 | Printing calculator |  | desktop calculator that prints its figures on a paper roll.
+- C5.4.1.03 | Scientific calculator |  | calculator with trigonometric, logarithmic and statistical functions.
+- C5.4.1.04 | Graphing calculator |  | programmable calculator that plots functions on a graphic display.
+- C5.4.1.05 | Financial calculator |  | calculator with time-value-of-money and other finance functions.
+- C5.4.1.06 | Abacus [そろばん, soroban] | そろばん | frame of beads on rods moved by hand to calculate (soroban is a non-maker named form).
+- C5.4.1.07 | Slide rule |  | pair of sliding logarithmic scales for multiplying and dividing (C-17).
+- C5.4.2.01 | Shredder |  | machine that cuts paper into strips or particles; cut type is an attribute.
+- C5.4.2.02 | Laminator |  | machine that seals a sheet between plastic films by heat or pressure.
+- C5.4.2.03 | Binding machine |  | machine that punches and binds sheets with combs, wires or covers.
+- C5.4.2.04 | Label maker (label printer of any connection) |  | device that prints adhesive labels on tape; `connection` (standalone, computer, phone) is an attribute (K-158).
+- C5.4.2.05 | Typewriter |  | machine that prints characters on paper as keys are struck; `drive` (manual, electric) is an attribute.
+- C5.5.1.01 | Bottled fountain-pen ink |  | bottled ink made for fountain pens; dye or pigment, wetness, saturation, shading, sheen, water resistance and colour are attributes.
+- C5.5.1.02 | Ink cartridge |  | sealed ink cartridge that fits a fountain pen's cartridge standard.
+- C5.5.1.03 | Converter |  | refillable piston or squeeze reservoir that fits in place of a cartridge.
+- C5.5.1.04 | Replacement nib |  | nib or nib unit sold to fit a fountain pen.
+- C5.5.2.01 | Pen refill |  | ink refill made to fit a ballpoint, gel, rollerball or multi pen.
+- C5.5.3.01 | Pencil lead refill |  | tube of leads made for mechanical pencils; grade and diameter are attributes.
+- C5.5.4.01 | Single-pen sleeve |  | sleeve or case that holds one pen (K-132).
+- C5.5.5.01 | Planner or notebook cover |  | cover made for one planner or notebook system, sold separately.
+- C5.5.5.02 | Refill notebook |  | refill book made for one cover or notebook system.
+- C5.5.5.03 | Index tabs (for a planner system) |  | tabs made to fit one planner system.
+- C5.5.6.01 | Staple |  | wire staples in strips made to fit a stapler.
+- C5.5.7.01 | Label tape cassette |  | tape cartridge made to fit one label-maker system (Brother TZe, DYMO D1, DYMO LetraTag and Epson LK are C13 cartridge-standard rows; provisional until attested).
+- C5.1.1.01 | Fountain pen [万年筆] |  | pen that feeds liquid ink from a reservoir to a split nib; filling system, nib size, shape and material and body material are attributes.
+- C5.1.1.02 | Dip pen (nib holder and nibs) |  | holder with loose nibs dipped in a separate bottle of ink; a dip pen or nib whose maker names comics or drawing only is C4.
+- C5.1.2.01 | Ballpoint pen [ボールペン] |  | pen that rolls viscous oil-based ink onto paper through a ball tip; a digital pen that writes in ink and records it carries `recording`.
+- C5.1.2.02 | Gel pen |  | ball-tip pen with water-based gel ink.
+- C5.1.2.03 | Rollerball pen |  | ball-tip pen with liquid water-based ink; a recording digital pen of this type carries `recording`.
+- C5.1.2.04 | Multi pen |  | one barrel holding several ball or gel refills (and sometimes a pencil) selected in turn.
+- C5.1.3.01 | Felt-tip pen (fineliner) |  | fine fibre-tip pen made for writing, or for writing and drawing both.
+- C5.1.3.02 | Marker pen |  | broad fibre or felt-tip pen for marking and labelling.
+- C5.1.3.03 | Highlighter [蛍光ペン] |  | broad-tip pen with translucent fluorescent ink for marking text.
+- C5.1.3.04 | Brush pen |  | pen with a flexible brush tip whose maker names handwriting, lettering or calligraphy first or both (a fudepen is here); drawing-only brush pens are C4.
+- C5.1.4.01 | Calligraphy brush (shodo brush) |  | hair brush made for East Asian calligraphy.
+- C5.1.4.02 | Ink stick |  | solid stick of soot and binder ground on an inkstone to make calligraphy ink.
+- C5.1.4.03 | Inkstone |  | stone slab with a well on which an ink stick is ground with water.
+- C5.1.4.04 | Calligraphy set |  | brush, ink and inkstone sold and compared as one kit (S3a).
+- C5.1.5.01 | Wooden pencil (wood-cased) |  | graphite core cased in wood, sharpened to use.
+- C5.1.5.02 | Mechanical pencil [シャープペンシル] |  | refillable holder that advances a thin lead by a mechanism.
+- C5.1.6.01 | Eraser |  | block of rubber or plastic that rubs out pencil or ink marks.
+- C5.1.6.02 | Correction tape |  | dispenser that lays a dry white film over a written mark.
+- C5.1.6.03 | Correction fluid |  | quick-drying white liquid brushed or penned over a written mark.
+- C5.1.6.04 | Pencil sharpener |  | device that sharpens a wooden pencil; `drive` (manual, electric) is an attribute of the one kind.
+- C5.2.1.01 | Notebook |  | bound book of blank, lined, dot or graph sheets for notes ("journal" is an alias); size, ruling, binding, paper stock and `reusable` are attributes.
+- C5.2.1.02 | Composition book |  | sewn notebook with a stiff marbled-style board cover and lined pages.
+- C5.2.1.03 | Refillable notebook system |  | cover plus refill books sold together as one system (TRAVELER'S notebook is a named form); covers and refills sold separately are C5.5.5.
+- C5.2.2.01 | Diary / planner [手帳, techo] |  | bound book ruled by date or for dates (daily, weekly, monthly), dated or undated; Hobonichi Techo is a named form.
+- C5.2.2.02 | Calendar |  | printed sheets of the days, weeks or months of a year; `format` (wall, desk, pocket) is an attribute.
+- C5.2.2.03 | Sticky-note calendar [ひめくり, himekuri] |  | tear-off or sticky-note day calendar, one sheet per day (level provisional, C11).
+- C5.2.3.01 | Loose-leaf paper |  | punched loose sheets made for a binder.
+- C5.2.3.02 | Memo pad |  | glued or bound pad of tear-off sheets for short notes.
+- C5.2.3.03 | Sticky notes |  | pad of small sheets with a repositionable adhesive strip ("adhesive notes" in Australia).
+- C5.2.3.04 | Letter-writing paper set |  | writing sheets sold with matching envelopes for letters ("letter set").
+- C5.2.3.05 | Copy and printer paper |  | plain cut sheets sold by the ream for copiers and printers (K-158; photographic paper is D4).
+- C5.2.3.06 | Envelope |  | folded paper cover for posting a letter or document (K-193).
+- C5.2.3.07 | Padded envelope |  | envelope lined with bubble or paper padding for posting small items (K-193).
+- C5.2.3.08 | Mailing tube |  | rigid tube for posting rolled documents (K-193).
+- C5.2.4.01 | Greeting card |  | folded printed card with envelope, sold blank inside or with a message, to be written and sent.
+- C5.2.4.02 | Gift wrap |  | printed or decorated paper sold for wrapping presents.
+- C5.2.4.03 | Sticker sheet |  | sheet of printed self-adhesive stickers sold as stationery (a collectible sticker series is F3).
+- C5.2.3.09 | Index card |  | Cut card of plain or ruled stock sold in packs for notes, filing and revision (aliases revision card and, when blank, flash card).
+- C5.3.5.04 | Folder (file folder) |  | Card or plastic cover, folded, pocketed or flapped, that holds loose unpunched sheets without a ring or clip mechanism; closure is an attribute.
+- C5.3.4.07 | Treasury tag |  | Short cord with a metal or plastic tag at each end, threaded through punched holes to hold sheets together.
+- C5.3.4.08 | Paper fastener (split pin) |  | Brass or metal pin with two flat legs pushed through sheets and bent back to join them.
+- C5.3.5.05 | Punched pocket (sheet protector) |  | Clear plastic sleeve, open at one edge and punched to file a sheet in a ring binder.
+- C5.3.4.09 | Rubber band |  | Loop of rubber sold in boxes or bags for holding papers and desk items together.
+- C5.3.4.10 | Office magnet |  | Small magnet button or strip for holding papers on a whiteboard or magnetic board.
+- C5.3.1.06 | Desk organiser |  | Desk-top unit with several compartments for pens, notes and small supplies.
+- C5.5.8.01 | Laminating pouch |  | Pair of plastic films joined at one edge, made to be sealed round a sheet in a laminator; size and micron are attributes.
+- C5.5.8.02 | Binding comb or spine |  | Plastic comb, wire or slide spine made to bind punched sheets in a binding machine; diameter is an attribute.
+- C5.5.8.03 | Binding cover |  | Clear or card front and back sheet made to cover a machine-bound document.
+- C5.5.8.04 | Shredder bag |  | Bag made to line the bin of a paper shredder.
+- C5.5.8.05 | Calculator ink roller |  | Ink roller made to fit a printing calculator.
+- C5.3.2.03 | Clipboard |  | Rigid board with a spring clip at the top that holds paper to write on.
+- C5.3.2.04 | Chalkboard (blackboard) |  | Board with a dark surface written on with chalk.
+- C5.1.5.03 | Lead holder (clutch pencil) |  | Holder whose clutch grips a thick graphite lead (2 mm or more) that drops when the button is pressed; sharpened in a lead pointer.

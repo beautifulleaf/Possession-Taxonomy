@@ -1,0 +1,533 @@
+# F6 Natural History & Specimens: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (the natural class: minerals, fossils, meteorites, gemstones and pearls, shells, rocks, preserved specimens), then species
+- reason: Specimen shops and gem marketplaces open on the natural class and then the kind or species (FossilEra: fossils, crystals and minerals, meteorites, then ammonites, trilobites; Peltram Minerals stony meteorites by class; Gem Rock Auctions and GemSelect by gem species), and the guides then judge each class on its own markers (Intelligent Collector guide to fine minerals; Buried Treasure Fossils; Spectra gem certification), so class then species leads, as the memo decided (Candidate A).
+- ladder: Which natural class (mineral, fossil, meteorite, gemstone or pearl, shell, rock, preserved specimen)? > Which species, taxon or class (fluorite, ammonite, pallasite, sapphire)? > What makes this piece the best (the class's own markers: colour and form, completeness and restoration, treatment and origin, with locality and size)
+- level1_groups: Minerals and crystals; Fossils and amber; Meteorites and impact glass; Gemstones and pearls (unset); Shells and coral; Rocks and teaching sets; Taxidermy, bones and preserved specimens; Element samples; Display domes and stands for one specimen
+- quality_markers: Minerals (Intelligent Collector; iRocks): colour > form (crystal habit, matrix presentation) > condition (damage and disclosed repair) > luster and clarity or transparency > locality (classic locality adds value) > provenance (old labels; one piece's facts, not stored) > size (a small fine piece beats a large poor one; size class thumbnail, miniature, small cabinet, cabinet, large cabinet); Fossils (Buried Treasure; FossilEra): authenticity > completeness > surface detail and preservation > natural against repaired or restored (extent disclosed) > matrix quality > legal sourcing with ID (species, age, locality, formation) > size; Meteorites (Mini Museum; Peltram): class and official name (Meteoritical Society) > form (individual, cut slice, etched) > seller guarantee > known fall or find history; Coloured gemstones (Spectra; Gem Rock; GemSelect): identity (species; natural, not lab-grown) > treatment (untreated and unheated > heated > other treatments) > geographic origin > visual quality (colour, clarity grade VVS > VS > SI, cut, life and fire) > carat and calibrated size; Diamonds: GIA shape, colour, clarity, cut, carat (memo); Pearls: GIA seven value factors, luster first (memo)
+- quality_signals: GIA, SSEF, Guebelin and AGL laboratory reports (identity, treatment, origin; Spectra) and AIGS and GFCO (Gem Rock approved labs): labs are certifier or grader maker rows; one stone's report is never stored (C16); GIA diamond 4Cs, coloured-diamond and pearl systems as C16 registry rows (memo F6-SC1 to SC3); Meteoritical Society database (Meteoritical Bulletin) for class and approved names, carried on meteorite named forms; Gem Rock Auctions Verified Sellers Program and Gemstone Sheriff audits: seller trust, a dated platform_tag at most; FossilEra ID card (species, age, location, formation): a seller's documentation of one piece, not stored; Geolitho score, Conchology stars, seller 'Top Grade' lists (memo platform labels); no formal grade exists for minerals or fossils (Intelligent Collector; Buried Treasure)
+- maker_role: none (confirm; maker_roles.tsv F6), with the memo's two exceptions: certifying labs (certifier or grader) and taxidermy studios as maker rows
+- side_view: A gem-lab view (gemstones by the lab that reports them, since buyers filter by certified stones: Gem Rock, GemSelect) and a named-fall view for meteorites (Gibeon, Campo del Cielo, Sikhote-Alin as named forms); no maker tab
+- evidence_rows: Intelligent Collector guide to fine minerals; iRocks mineral guide and shop; FossilEra; Buried Treasure Fossils condition guide; Mini Museum how to buy a meteorite; Peltram Minerals stony meteorites; Gem Rock Auctions; Spectra gem certification article; GemSelect loose gemstones
+- maker role row: {'code': 'F6', 'scope': '*', 'role': 'none', 'provisional': 'yes', 'reason': 'specimens are chosen by species and locality'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-F6-1 | Minerals and crystals | 1 |  | F6.1.4.03; F6.1.4.02; F6.1.5.04; F6.1.5.03; F6.1.7.01; F6.1.9.03; F6.1.5.01; F6.1.4.06; F6.1.9.07; F6.1.3.01; F6.1.4.08; F6.1.9.02; F6.1.3.02; F6.1.4.07; F6.1.4.04; F6.1.9.05; F6.1.5.02; F6.1.1.01; F6.1.4.05; F6.1.2.01; F6.1.4.01; F6.1.9.06; F6.1.9.04; F6.1.9.01; F6.1.8.01; F6.1.1.02; F6.1.1.03; F6.1.1.04; F6.1.1.05; F6.1.1.06; F6.1.1.07; F6.1.2.02; F6.1.2.03; F6.1.2.04; F6.1.2.05; F6.1.2.06; F6.1.2.07; F6.1.2.08; F6.1.2.09; F6.1.2.10; F6.1.2.11; F6.1.2.12; F6.1.2.13; F6.1.2.14; F6.1.2.15; F6.1.3.03; F6.1.3.04; F6.1.4.09; F6.1.4.10; F6.1.4.11; F6.1.4.12; F6.1.4.13; F6.1.4.14; F6.1.4.15; F6.1.4.16; F6.1.4.17; F6.1.4.18; F6.1.4.19; F6.1.5.05; F6.1.5.06; F6.1.5.07; F6.1.5.08; F6.1.5.09; F6.1.5.10; F6.1.5.11; F6.1.5.12; F6.1.7.02; F6.1.7.03; F6.1.7.04; F6.1.7.05; F6.1.7.06; F6.1.7.07; F6.1.7.08; F6.1.7.09; F6.1.7.10; F6.1.7.11; F6.1.7.12; F6.1.7.13; F6.1.7.14; F6.1.7.15; F6.1.7.16; F6.1.7.17; F6.1.7.18; F6.1.7.19; F6.1.7.20; F6.1.7.21; F6.1.7.22; F6.1.7.23; F6.1.7.24; F6.1.7.25; F6.1.7.26; F6.1.7.27; F6.1.7.28; F6.1.7.29; F6.1.7.30; F6.1.7.31; F6.1.7.32; F6.1.7.33; F6.1.7.34; F6.1.7.35; F6.1.7.36; F6.1.7.37; F6.1.7.38; F6.1.7.39; F6.1.7.40; F6.1.8.02; F6.1.8.03; F6.1.8.04; F6.1.8.05; F6.1.8.06; F6.1.8.07; F6.1.8.08; F6.1.8.09; F6.1.8.10; F6.1.8.11; F6.1.8.12; F6.1.8.13; F6.1.8.14; F6.1.8.15; F6.1.8.16; F6.1.8.17; F6.1.8.18; F6.1.8.19; F6.1.8.20; F6.1.8.21; F6.1.8.22; F6.1.8.23; F6.1.8.24; F6.1.8.25; F6.1.8.26; F6.1.8.27; F6.1.8.28; F6.1.8.29; F6.1.8.30; F6.1.8.31; F6.1.8.32; F6.1.8.33; F6.1.8.34; F6.1.8.35; F6.1.8.36; F6.1.8.37; F6.1.8.38; F6.1.8.39; F6.1.8.40; F6.1.8.41; F6.1.8.42; F6.1.8.43; F6.1.8.44; F6.1.8.45; F6.1.8.46; F6.1.8.47; F6.1.8.48; F6.1.8.49; F6.1.8.50; F6.1.8.51; F6.1.8.52; F6.1.8.53; F6.1.8.54; F6.1.8.55; F6.1.8.56; F6.1.8.57; F6.1.8.58; F6.1.8.59; F6.1.8.60; F6.1.8.61; F6.1.8.62; F6.1.8.63; F6.1.8.64; F6.1.8.65; F6.1.8.66; F6.1.8.67; F6.1.8.68; F6.1.8.69; F6.1.8.70; F6.1.8.71; F6.1.8.72; F6.1.8.73; F6.1.8.74; F6.1.8.75; F6.1.8.76; F6.1.8.77; F6.1.8.78; F6.1.8.79; F6.1.8.80; F6.1.8.81; F6.1.8.82; F6.1.8.83; F6.1.8.84; F6.1.8.85; F6.1.8.86; F6.1.8.87; F6.1.8.88; F6.1.8.89; F6.1.8.90; F6.1.8.91; F6.1.8.92; F6.1.8.93; F6.1.8.94; F6.1.8.95; F6.1.8.96; F6.1.8.97; F6.1.8.98; F6.1.8.99; F6.1.8.100; F6.1.8.101; F6.1.8.102; F6.1.8.103; F6.1.8.104; F6.1.8.105; F6.1.9.08; F6.1.9.09; F6.1.9.10; F6.1.9.11; F6.1.9.12; F6.1.9.13; F6.1.9.14; F6.1.9.15; F6.1.9.16; F6.1.9.17; F6.1.9.18; F6.1.9.19; F6.1.9.20; F6.1.9.21; F6.1.9.22; F6.1.9.23; F6.1.9.24; F6.1.9.25; F6.1.9.26; F6.1.9.27; F6.1.9.28; F6.1.9.29; F6.1.9.30; F6.1.9.31; F6.1.9.32; F6.1.9.33; F6.1.9.34; F6.1.9.35; F6.1.9.36; F6.1.9.37; F6.1.9.38; F6.1.9.39; F6.1.9.40; F6.1.9.41; F6.1.9.42; F6.1.9.43; F6.1.9.44; F6.1.9.45; F6.1.9.46; F6.1.9.47; F6.1.9.48; F6.1.9.49; F6.1.9.50; F6.1.9.51; F6.1.9.52; F6.1.9.53; F6.1.9.54; F6.1.9.55; F6.1.9.56; F6.1.9.57; F6.1.9.58; F6.1.9.59; F6.1.9.60; F6.1.9.61; F6.1.9.62; F6.1.9.63; F6.1.9.64; F6.1.9.65; F6.1.9.66; F6.1.9.67; F6.1.9.68; F6.1.9.69; F6.1.9.70; F6.1.9.71; F6.1.9.72; F6.1.9.73; F6.1.9.74; F6.1.9.75; F6.1.9.76; F6.1.9.77; F6.1.9.78; F6.1.9.79; F6.1.9.80; F6.1.9.81; F6.1.9.82; F6.1.9.83; F6.1.9.84; F6.1.9.85; F6.1.9.86; F6.1.9.87; F6.1.9.88; F6.1.9.89; F6.1.9.90; F6.1.9.91; F6.1.9.92; F6.1.9.93; F6.1.9.94; F6.1.9.95; F6.1.9.96; F6.1.9.97; F6.1.9.98; F6.1.9.99; F6.1.9.100; F6.1.9.101; F6.1.9.102; F6.1.9.103; F6.1.9.104; F6.1.9.105; F6.1.9.106; F6.1.9.107; F6.1.9.108; F6.1.9.109; F6.1.9.110; F6.1.9.111; F6.1.9.112; F6.1.9.113; F6.1.9.114; F6.1.9.115; F6.1.9.116; F6.1.9.117; F6.1.9.118; F6.1.9.119; F6.1.9.120; F6.1.9.121; F6.1.9.122; F6.1.9.123; F6.1.9.124; F6.1.9.125; F6.1.9.126; F6.1.9.127; F6.1.9.128; F6.1.9.129; F6.1.9.130; F6.1.6.01; F6.1.6.02; F6.1.6.03; F6.1.6.04; F6.1.6.05; F6.1.6.06; F6.1.6.07; F6.1.6.08; F6.1.6.09; F6.1.6.10; F6.1.6.11; F6.1.6.12; F6.1.6.13; F6.1.6.14; F6.1.6.15; F6.1.6.16; F6.1.6.17; F6.1.6.18; F6.1.6.19; F6.1.6.20; F6.1.6.21; F6.1.6.22; F6.1.6.23; F6.1.6.24; F6.1.6.25; F6.1.10.01; F6.1.10.02
+- G-F6-2 | Fossils and amber | 1 |  | F6.3
+- G-F6-10 | Invertebrate fossils | 2 | G-F6-2 | F6.3.1.01; F6.3.1.02; F6.3.1.03; F6.3.1.04; F6.3.1.05; F6.3.1.06; F6.3.1.07; F6.3.1.08; F6.3.1.09; F6.3.1.10; F6.3.1.11; F6.3.1.12; F6.3.1.13; F6.3.1.14; F6.3.1.15
+- G-F6-11 | Vertebrate fossils | 2 | G-F6-2 | F6.3.2.01; F6.3.2.02; F6.3.2.03; F6.3.2.04; F6.3.2.05
+- G-F6-12 | Plant fossils | 2 | G-F6-2 | F6.3.3.01; F6.3.3.02
+- G-F6-13 | Trace and microbial fossils | 2 | G-F6-2 | F6.3.4.01; F6.3.4.02
+- G-F6-14 | Amber and copal | 2 | G-F6-2 | F6.3.5.01; F6.3.5.02
+- G-F6-3 | Meteorites and impact glass | 1 |  | F6.4.01; F6.4.02; F6.4.03; F6.4.04; F6.4.05; F6.4.06; F6.4.07; F6.4.08; F6.4.09; F6.4.10
+- G-F6-4 | Gemstones and pearls (unset) | 1 |  | F6.5
+- G-F6-15 | Diamonds | 2 | G-F6-4 | F6.5.1.01; F6.5.1.02
+- G-F6-16 | Coloured gemstones | 2 | G-F6-4 | F6.5.2.01; F6.5.2.02; F6.5.2.03; F6.5.2.04; F6.5.2.05; F6.5.2.06; F6.5.2.07; F6.5.2.08; F6.5.2.09; F6.5.2.10
+- G-F6-17 | Pearls | 2 | G-F6-4 | F6.5.3.01; F6.5.3.02
+- G-F6-5 | Shells and coral | 1 |  | F6.6
+- G-F6-18 | Gastropod shells | 2 | G-F6-5 | F6.6.1.01; F6.6.1.02; F6.6.1.03; F6.6.1.04
+- G-F6-19 | Bivalve shells | 2 | G-F6-5 | F6.6.2.01
+- G-F6-20 | Echinoderms and coral | 2 | G-F6-5 | F6.6.4.01; F6.6.4.02; F6.6.4.03
+- G-F6-21 | Brachiopods | 2 | G-F6-5 | F6.6.5.01
+- G-F6-6 | Rocks and teaching sets | 1 |  | F6.2
+- G-F6-22 | Igneous rocks | 2 | G-F6-6 | F6.2.1.01; F6.2.1.02; F6.2.1.03; F6.2.1.04; F6.2.1.05
+- G-F6-23 | Sedimentary rocks | 2 | G-F6-6 | F6.2.2.01
+- G-F6-24 | Metamorphic rocks | 2 | G-F6-6 | F6.2.3.01; F6.2.3.02
+- G-F6-25 | Teaching sets | 2 | G-F6-6 | F6.2.4.01
+- G-F6-7 | Taxidermy, bones and preserved specimens | 1 |  | F6.7
+- G-F6-26 | Taxidermy mounts | 2 | G-F6-7 | F6.7.1.01; F6.7.1.02; F6.7.1.03
+- G-F6-27 | Skulls, skeletons and other hard parts | 2 | G-F6-7 | F6.7.2.01; F6.7.2.02; F6.7.2.03; F6.7.2.04; F6.7.2.05; F6.7.2.06; F6.7.2.07; F6.7.2.08; F6.7.2.09; F6.7.2.10
+- G-F6-28 | Pinned and dried | 2 | G-F6-7 | F6.7.3.01; F6.7.3.02
+- G-F6-29 | Pressed (herbarium) | 2 | G-F6-7 | F6.7.4.01
+- G-F6-30 | Encased in resin | 2 | G-F6-7 | F6.7.5.01
+- G-F6-31 | Fluid-preserved | 2 | G-F6-7 | F6.7.6.01
+- G-F6-8 | Element samples | 1 |  | F6.8.01; F6.8.02; F6.8.03; F6.8.04
+- G-F6-9 | Display domes and stands for one specimen | 1 |  | F6.10.01; F6.10.02; F6.10.03; F6.10.04
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-F6-1 | colour |  | First. | proposals.tsv F6 row (quality_markers); Intelligent Collector guide to fine minerals; iRocks mineral guide and shop
+- G-F6-1 | form |  | Crystal habit and matrix presentation. | proposals.tsv F6 row (quality_markers); Intelligent Collector guide to fine minerals
+- G-F6-1 | condition |  | Damage and disclosed repair. | proposals.tsv F6 row (quality_markers); Intelligent Collector guide to fine minerals
+- G-F6-1 | luster and clarity or transparency |  | Fourth. | proposals.tsv F6 row (quality_markers); Intelligent Collector guide to fine minerals
+- G-F6-1 | locality |  | A classic locality adds value. | proposals.tsv F6 row (quality_markers); iRocks mineral guide and shop
+- G-F6-1 | provenance |  | Old labels; one piece's facts, not stored. | proposals.tsv F6 row (quality_markers); Intelligent Collector guide to fine minerals
+- G-F6-1 | size | thumbnail, miniature, small cabinet, cabinet, large cabinet (size classes) | A small fine piece beats a large poor one. | proposals.tsv F6 row (quality_markers); iRocks mineral guide and shop
+- G-F6-2 | authenticity |  | First. | proposals.tsv F6 row (quality_markers); Buried Treasure Fossils condition guide; FossilEra
+- G-F6-2 | completeness |  | Second. | proposals.tsv F6 row (quality_markers); Buried Treasure Fossils condition guide
+- G-F6-2 | surface detail and preservation |  | Third. | proposals.tsv F6 row (quality_markers); Buried Treasure Fossils condition guide
+- G-F6-2 | natural or repaired | natural > repaired or restored (extent disclosed) | Fourth. | proposals.tsv F6 row (quality_markers); Buried Treasure Fossils condition guide
+- G-F6-2 | matrix quality |  | Fifth. | proposals.tsv F6 row (quality_markers); Buried Treasure Fossils condition guide
+- G-F6-2 | legal sourcing with ID |  | Species, age, locality, formation. | proposals.tsv F6 row (quality_markers); FossilEra
+- G-F6-2 | size |  | Weighed last. | proposals.tsv F6 row (quality_markers); FossilEra
+- G-F6-3 | class and official name |  | Meteoritical Society classification first. | proposals.tsv F6 row (quality_markers); Mini Museum how to buy a meteorite
+- G-F6-3 | form | individual, cut slice, etched | A form attribute. | proposals.tsv F6 row (quality_markers); Peltram Minerals stony meteorites
+- G-F6-3 | seller guarantee |  | Third. | proposals.tsv F6 row (quality_markers); Mini Museum how to buy a meteorite
+- G-F6-3 | known fall or find history |  | Weighed last. | proposals.tsv F6 row (quality_markers); Mini Museum how to buy a meteorite
+- G-F6-16 | identity | natural > lab-grown | Species first, and natural, not lab-grown. | proposals.tsv F6 row (quality_markers); Spectra gem certification article; GemSelect loose gemstones
+- G-F6-16 | treatment | untreated and unheated > heated > other treatments | Second. | proposals.tsv F6 row (quality_markers); Spectra gem certification article; Gem Rock Auctions
+- G-F6-16 | geographic origin |  | Third. | proposals.tsv F6 row (quality_markers); Spectra gem certification article
+- G-F6-16 | visual quality | clarity VVS > VS > SI; with colour, cut, life and fire | Fourth. | proposals.tsv F6 row (quality_markers); GemSelect loose gemstones
+- G-F6-16 | carat and calibrated size |  | Weighed last. | proposals.tsv F6 row (quality_markers); GemSelect loose gemstones
+- G-F6-15 | shape |  | GIA factor (memo). | proposals.tsv F6 row (quality_markers); memo F6
+- G-F6-15 | colour |  | GIA factor (memo). | proposals.tsv F6 row (quality_markers); memo F6
+- G-F6-15 | clarity |  | GIA factor (memo). | proposals.tsv F6 row (quality_markers); memo F6
+- G-F6-15 | cut |  | GIA factor (memo). | proposals.tsv F6 row (quality_markers); memo F6
+- G-F6-15 | carat |  | GIA factor (memo). | proposals.tsv F6 row (quality_markers); memo F6
+- G-F6-17 | luster |  | First of the GIA seven value factors (memo). | proposals.tsv F6 row (quality_markers); memo F6
+- G-F6-17 | the other GIA value factors |  | The remaining six of the seven factors (memo). | proposals.tsv F6 row (quality_markers); memo F6
+
+## Kinds (kind_id | stored name | native name | definition)
+- F6.1.1.01 | Native gold |  | native gold sold as a mineral specimen (nugget, crystal or wire, on or off matrix); a refined bar, round or coin sold by weight is F3.
+- F6.1.2.01 | Pyrite |  | iron sulfide mineral specimen (cubes, clusters, suns, on or off matrix).
+- F6.1.3.01 | Fluorite |  | calcium fluoride mineral specimen (crystals, clusters, octahedra, specimens on matrix, polished pieces).
+- F6.1.4.01 | Quartz |  | uncut quartz specimen that no separate quartz kind covers (rock crystal points and clusters, tumbled and polished quartz).
+- F6.1.4.02 | Amethyst |  | uncut purple quartz specimen (geode, point, cluster, tumbled stone, slab, sphere); a faceted or cabochon amethyst is F6.5.2.05.
+- F6.1.4.03 | Agate |  | uncut or polished banded chalcedony specimen (nodule, geode, slab, tumbled stone).
+- F6.1.4.04 | Jasper |  | uncut or polished opaque microcrystalline quartz specimen (rough, tumbled stone, slab, sphere); a cut cabochon of jasper falls under the F-4 test into F6.5 when attested.
+- F6.1.4.05 | Opal |  | opal specimen, matrix piece or uncut nodule; a loose opal cut en cabochon or faceted, or opal rough sold as cutting material, is F6.5.2.10.
+- F6.1.4.06 | Corundum |  | uncut corundum specimen, including ruby and sapphire crystals on or off matrix; cut stones and cutting rough are F6.5.2.01 and F6.5.2.02.
+- F6.1.5.01 | Calcite |  | calcium carbonate mineral specimen (crystals, clusters, specimens on matrix).
+- F6.1.5.02 | Malachite |  | copper carbonate mineral specimen (botryoidal or banded rough, polished pieces, slabs).
+- F6.1.7.01 | Barite |  | barium sulfate mineral specimen (bladed crystals, clusters, roses); level provisional (CV-27).
+- F6.1.9.01 | Tourmaline |  | uncut tourmaline specimen (crystals, clusters, on or off matrix); facet-grade rough sold by weight and cut stones are F6.5.2.07.
+- F6.1.9.02 | Garnet |  | uncut garnet-group specimen (crystals on or off matrix, tumbled stones); cut stones and cutting rough are F6.5.2.06.
+- F6.2.1.01 | Granite |  | coarse-grained intrusive igneous rock sample.
+- F6.2.1.02 | Basalt |  | fine-grained extrusive igneous rock sample.
+- F6.2.1.03 | Obsidian |  | natural volcanic glass sample.
+- F6.2.2.01 | Sandstone |  | sedimentary rock sample of cemented sand grains.
+- F6.2.3.01 | Marble |  | metamorphic rock sample of recrystallised carbonate.
+- F6.2.3.02 | Slate |  | fine-grained foliated metamorphic rock sample.
+- F6.2.4.01 | Rock and mineral teaching set |  | kit of unlike labelled specimens (rocks across classes, and minerals or fossils) sold, standardised and compared as one object, usually for teaching (S3a, K-1); a mixed set not sold as a teaching kit is filed by its item of greatest value.
+- F6.3.1.01 | Ammonite |  | fossil ammonoid shell, whole, split, polished or on matrix, including unworked stones kept for a religious tradition (F-17).
+- F6.3.1.02 | Trilobite |  | fossil trilobite, prepared on or off matrix.
+- F6.3.1.03 | Belemnite |  | fossil belemnite guard or other straight cephalopod.
+- F6.3.1.04 | Echinoderm fossil |  | fossil echinoderm (crinoid, starfish, sea urchin, blastoid).
+- F6.3.1.05 | Ammolite |  | gem-quality iridescent ammonite shell material, rough or cut (F-4).
+- F6.3.2.01 | Fossil shark tooth |  | fossil tooth of a shark or ray.
+- F6.3.2.02 | Dinosaur fossil |  | fossil tooth, bone or claw of a dinosaur (`part` attribute).
+- F6.3.2.03 | Fossil fish |  | fossil fish, whole or partial, usually on matrix.
+- F6.3.3.01 | Petrified wood |  | fossil wood replaced by silica or other minerals, rough, slab or polished.
+- F6.3.4.01 | Stromatolite |  | layered fossil structure built by microbial mats, rough or polished.
+- F6.3.5.01 | Amber |  | fossilised tree resin, raw, polished or cut, with or without inclusions (the inclusion's taxon is a tag).
+- F6.3.5.02 | Copal |  | young, partly fossilised tree resin, sold beside amber.
+- F6.4.01 | Iron meteorite |  | meteorite made mainly of iron-nickel metal.
+- F6.4.02 | Pallasite |  | stony-iron meteorite of olivine crystals in iron-nickel metal.
+- F6.4.03 | Carbonaceous chondrite |  | chondrite rich in carbon compounds and water-bearing minerals.
+- F6.4.04 | Ordinary chondrite |  | the common stony meteorite of chondrules (H, L, LL groups).
+- F6.4.05 | Lunar meteorite |  | achondrite meteorite ejected from the Moon.
+- F6.4.06 | Martian meteorite |  | achondrite meteorite ejected from Mars.
+- F6.4.07 | Tektite and impactite |  | natural glass or rock formed by a meteorite impact (tektites, impact glass, impactites).
+- F6.5.1.01 | Diamond |  | loose cut diamond, or diamond cutting rough, graded on the colourless-to-light-colour scale.
+- F6.5.1.02 | Fancy-colour diamond |  | loose diamond of natural fancy colour, graded on the separate coloured-diamond scale (F-23).
+- F6.5.2.01 | Sapphire |  | loose cut corundum of any colour but red, or sapphire cutting rough.
+- F6.5.2.02 | Ruby |  | loose cut red corundum, or ruby cutting rough; level provisional (CV-27).
+- F6.5.2.03 | Emerald |  | loose cut green beryl, or emerald cutting rough.
+- F6.5.2.04 | Spinel |  | loose cut spinel, or spinel cutting rough; level provisional (CV-27).
+- F6.5.2.05 | Amethyst (cut) |  | loose faceted or cabochon amethyst, or amethyst cutting rough; shares `species_id` with F6.1.4.02.
+- F6.5.2.06 | Garnet (cut) |  | loose faceted or cabochon garnet of any species, or garnet cutting rough; shares `species_id` with F6.1.9.02.
+- F6.5.2.07 | Tourmaline (cut) |  | loose faceted or cabochon tourmaline, or facet-grade tourmaline rough sold by weight; shares `species_id` with F6.1.9.01.
+- F6.5.2.08 | Topaz |  | loose cut topaz, or topaz cutting rough.
+- F6.5.2.09 | Tanzanite |  | loose cut blue-violet zoisite, or tanzanite cutting rough.
+- F6.5.2.10 | Opal (cut) |  | loose opal cut en cabochon or faceted, or opal rough sold as cutting material; an opal specimen, matrix piece or uncut nodule is F6.1.4.05 (section 14; provisional until a page shows cut opal sold).
+- F6.5.3.01 | Saltwater pearl |  | loose undrilled pearl grown in a saltwater mollusc, natural or cultured.
+- F6.5.3.02 | Freshwater pearl |  | loose undrilled pearl grown in a freshwater mussel, natural or cultured.
+- F6.6.1.01 | Cowrie |  | shell of a cowrie (Cypraeidae).
+- F6.6.1.02 | Cone shell |  | shell of a cone snail (Conidae).
+- F6.6.2.01 | Scallop shell |  | shell or valve of a scallop (Pectinidae).
+- F6.6.4.01 | Coral skeleton |  | dead, dried skeleton of a coral (living coral is out under step 1; fossil coral is F6.3).
+- F6.6.4.02 | Sea urchin test |  | dried, emptied shell (test) of a sea urchin.
+- F6.7.1.01 | Taxidermy bird mount |  | bird skin preserved and mounted as in life.
+- F6.7.1.02 | Taxidermy mammal mount |  | mammal skin preserved and mounted as in life (full mount, shoulder or head mount).
+- F6.7.2.01 | Mammal skull |  | cleaned real skull of a mammal kept as a specimen.
+- F6.7.2.02 | Tusk specimen |  | real tusk or tusk section kept as a specimen (ivory regimes in the C17 ledger).
+- F6.7.2.03 | Egg or nest specimen |  | blown or emptied egg shell, or a dried nest, kept as a specimen (an egg for hatching is out under step 1).
+- F6.7.2.04 | Antler or horn |  | real antler or horn kept as a specimen (an antler chew for dogs is B10).
+- F6.7.2.05 | Fish jaw or tooth set |  | dried jaw or set of teeth of a fish or shark kept as a specimen.
+- F6.7.3.01 | Pinned butterfly or moth |  | dried, pinned or spread lepidopteran specimen, framed or unframed (a frame fixed to the one specimen is part of the object).
+- F6.7.3.02 | Feather specimen |  | feather kept and labelled as a specimen (craft feathers are C4).
+- F6.7.4.01 | Herbarium sheet |  | pressed, dried plant mounted on a sheet as a specimen (dried flowers for decor are B4).
+- F6.7.5.01 | Insect in resin |  | real insect or small animal specimen embedded in a clear resin block.
+- F6.7.6.01 | Fluid-preserved specimen |  | wet specimen of an animal or other organism kept in preserving fluid in a jar; the animal group is an attribute.
+- F6.8.01 | Element ampoule |  | sample of a chemical element sealed in a glass ampoule.
+- F6.8.02 | Element cube |  | sample of a chemical element machined or cast as a cube of standard size.
+- F6.8.03 | Encased element sample |  | sample of a chemical element embedded in a clear acrylic (Lucite) block.
+- F6.8.04 | Element crystal |  | sample of a refined chemical element sold as a grown crystal or crystal fragment for its identity.
+- F6.10.01 | Specimen display dome |  | glass or acrylic dome with a base, made to cover and display one specimen.
+- F6.10.02 | Specimen stand |  | stand or mount made to hold and display one specimen.
+- F6.10.03 | Single-specimen box |  | box made to hold one specimen (such as a thumbnail box, if it holds one specimen; one holding several is B1).
+- F6.3.1.06 | Fossil coral |  | fossil coral, solitary or colonial, rough, polished or on matrix (a dead modern coral skeleton is F6.6.4.01).
+- F6.3.1.07 | Fossil bivalve |  | fossil clam, oyster, scallop or other bivalve shell, whole, opalised or on matrix.
+- F6.3.1.08 | Fossil brachiopod |  | fossil lamp shell (brachiopod), loose, pyritised or on matrix.
+- F6.3.1.09 | Bryozoan fossil |  | fossil bryozoan colony (moss animal), such as Archimedes screw or fenestrate lace, on or off matrix.
+- F6.3.1.10 | Fossil crustacean |  | fossil crab, lobster, shrimp or other crustacean, usually in a nodule or on matrix.
+- F6.3.1.11 | Fossil insect |  | fossil insect or other terrestrial arthropod preserved in rock (an insect in amber or copal stays F6.3.5).
+- F6.3.1.12 | Fossil gastropod |  | fossil snail shell (gastropod), whole, agatised or on matrix.
+- F6.3.1.13 | Graptolite |  | fossil graptolite colony, usually on a shale slab.
+- F6.3.1.14 | Fossil nautiloid |  | fossil coiled nautiloid shell, whole, split or polished (straight nautiloids such as Orthoceras stay F6.3.1.03).
+- F6.3.1.15 | Fossil sponge |  | fossil sponge, whole or sectioned, loose or on matrix.
+- F6.3.4.02 | Trace fossil |  | fossil track, footprint, burrow, boring or coprolite left by an organism rather than its body.
+- F6.3.2.04 | Fossil mammal |  | fossil tooth, bone or other part of a mammal, such as mammoth, cave bear or whale (`part` attribute).
+- F6.3.3.02 | Plant fossil |  | fossil leaf, fern, frond, seed or cone, as an impression, compression or nodule (petrified wood is F6.3.3.01).
+- F6.3.2.05 | Fossil reptile, amphibian or synapsid |  | fossil tooth, bone or skeleton of a non-dinosaur reptile (mosasaur, crocodile, plesiosaur), amphibian or synapsid.
+- F6.1.5.03 | Azurite |  | copper carbonate hydroxide mineral specimen (blue crystals, nodules, with or without malachite).
+- F6.1.5.04 | Aragonite |  | calcium carbonate (orthorhombic) mineral specimen (sputniks, clusters, flos-ferri).
+- F6.1.3.02 | Halite |  | sodium chloride mineral specimen (cubic crystals, coloured or clear).
+- F6.1.4.07 | Hematite |  | iron oxide mineral specimen (specular, botryoidal or rose crystals, tumbled pieces).
+- F6.1.9.03 | Beryl |  | uncut beryl specimen (aquamarine, morganite, heliodor, emerald crystals on or off matrix); cut stones are F6.5.
+- F6.1.9.04 | Topaz (specimen) |  | uncut topaz crystal or specimen on or off matrix; a faceted stone or cutting rough is F6.5.2.08, sharing its species_id.
+- F6.1.8.01 | Turquoise |  | copper aluminium phosphate mineral specimen (nuggets, veins on matrix, rough or polished, stabilised or not).
+- F6.1.9.05 | Lapis lazuli |  | uncut or polished lapis lazuli (lazurite-rich rock) specimen, with a Rocks alias; a cabochon is F6.5.
+- F6.1.9.06 | Serpentine |  | serpentine-group mineral or serpentinite specimen, rough, tumbled or polished, with a rock alias serpentinite.
+- F6.1.9.07 | Feldspar |  | uncut feldspar-group specimen (microcline, amazonite, labradorite, orthoclase, moonstone and sunstone rough or polished); cut stones are F6.5.
+- F6.2.1.04 | Rhyolite |  | fine-grained silica-rich extrusive igneous rock sample (including rainforest and wonderstone rhyolite).
+- F6.2.1.05 | Porphyry |  | igneous rock sample with large crystals in a fine-grained groundmass (e.g. Chinese writing stone).
+- F6.1.4.08 | Fulgurite |  | natural tube or crust of silica glass fused by lightning in sand or rock.
+- F6.4.08 | HED meteorite |  | achondrite of the howardite, eucrite and diogenite group, from asteroid Vesta.
+- F6.4.09 | Mesosiderite |  | stony-iron meteorite of silicate breccia and iron-nickel metal in roughly equal parts.
+- F6.4.10 | Achondrite |  | stony meteorite without chondrules not covered by the lunar, Martian or HED kinds (aubrites, angrites, ureilites, primitive achondrites).
+- F6.6.4.03 | Starfish (dried) |  | dried whole starfish (sea star) kept as a specimen (a fossil starfish is F6.3.1.04; craft assortments C4).
+- F6.6.1.03 | Murex shell |  | shell of a murex or rock snail (Muricidae).
+- F6.6.1.04 | Volute shell |  | shell of a volute (Volutidae).
+- F6.6.5.01 | Brachiopod shell |  | shell of a living-species brachiopod (lamp shell) kept as a specimen; fossil brachiopods are F6.3.1.08.
+- F6.7.2.09 | Articulated skeleton |  | real animal skeleton cleaned and articulated on a stand or in a case; animal group is an attribute.
+- F6.7.2.10 | Claw or tooth specimen |  | real modern animal claw, talon or tooth kept as a specimen (fossil teeth are F6.3).
+- F6.7.1.03 | Taxidermy reptile mount |  | reptile skin preserved and mounted as in life (full mount or head).
+- F6.10.04 | Specimen frame case |  | glazed floating frame or case made to hold and display one specimen; one holding several (Riker tray) is B1.
+- F6.7.2.06 | Bird skull |  | cleaned real skull of a bird kept as a specimen.
+- F6.7.2.07 | Reptile skull |  | cleaned real skull of a reptile (alligator, turtle, snake, lizard) kept as a specimen.
+- F6.7.2.08 | Fish skull |  | cleaned real skull of a bony fish kept as a specimen (a dried jaw or tooth set is F6.7.2.05).
+- F6.1.1.02 | Native copper |  | native copper mineral specimen (arborescent, crystalline or sheet copper, on or off matrix).
+- F6.1.1.03 | Native silver |  | native silver mineral specimen (wires, crystals, sheets, on or off matrix).
+- F6.1.1.04 | Sulfur |  | native sulfur mineral specimen (yellow crystals and clusters, on or off matrix).
+- F6.1.1.05 | Native bismuth |  | native bismuth mineral specimen (crystal plates, hopper crystals, on or off matrix).
+- F6.1.1.06 | Native tellurium |  | native tellurium mineral specimen (crystals on or off matrix).
+- F6.1.1.07 | Native platinum |  | native platinum mineral specimen (crystal, nugget or grain, on or off matrix).
+- F6.1.2.02 | Bournonite |  | lead copper antimony sulfosalt mineral specimen (cogwheel twins, crystals on matrix).
+- F6.1.2.03 | Chalcocite |  | copper sulfide mineral specimen (crystals, massive pieces, on or off matrix).
+- F6.1.2.04 | Chalcopyrite |  | copper iron sulfide mineral specimen (crystals, clusters, on or off matrix).
+- F6.1.2.05 | Cubanite |  | copper iron sulfide mineral specimen (crystals, massive pieces, on or off matrix).
+- F6.1.2.06 | Galena |  | lead sulfide mineral specimen (cubes, octahedra, clusters, on or off matrix).
+- F6.1.2.07 | Marcasite |  | iron sulfide (orthorhombic) mineral specimen (cockscomb, spearhead, nodules, on or off matrix).
+- F6.1.2.08 | Orpiment |  | arsenic sulfide mineral specimen (yellow crystals, massive pieces, on or off matrix).
+- F6.1.2.09 | Pyrrhotite |  | iron sulfide mineral specimen (tabular crystals, clusters, on or off matrix).
+- F6.1.2.10 | Realgar |  | arsenic sulfide mineral specimen (red crystals, massive pieces, on or off matrix).
+- F6.1.2.11 | Sphalerite |  | zinc sulfide mineral specimen (crystals, clusters, on or off matrix).
+- F6.1.2.12 | Stibnite |  | antimony sulfide mineral specimen (blade and needle clusters, on or off matrix).
+- F6.1.2.13 | Stromeyerite |  | silver copper sulfide mineral specimen (massive or crystalline, on or off matrix).
+- F6.1.2.14 | Stephanite |  | silver antimony sulfosalt mineral specimen (black crystals, on or off matrix).
+- F6.1.2.15 | Proustite |  | silver arsenic sulfosalt mineral specimen (red crystals, on or off matrix).
+- F6.1.3.03 | Botallackite |  | copper hydroxide chloride mineral specimen (blue-green crystals, on or off matrix).
+- F6.1.3.04 | Iowaite |  | magnesium iron hydroxide chloride mineral specimen (massive or crystalline, on or off matrix).
+- F6.1.4.09 | Bixbyite |  | manganese iron oxide mineral specimen (black cubic crystals, on or off matrix).
+- F6.1.4.10 | Cassiterite |  | tin oxide mineral specimen (crystals, twins, on or off matrix).
+- F6.1.4.11 | Goethite |  | iron oxyhydroxide mineral specimen (botryoidal, crystalline or pseudomorph pieces).
+- F6.1.4.12 | Magnetite |  | iron oxide mineral specimen (octahedra, clusters, on or off matrix).
+- F6.1.4.13 | Pyrolusite |  | manganese dioxide mineral specimen (dendritic, crystalline or massive pieces).
+- F6.1.4.14 | Ramsdellite |  | manganese dioxide mineral specimen (crystals or massive pieces).
+- F6.1.4.15 | Rutile |  | titanium oxide mineral specimen (needles, crystals, rutilated pieces, on or off matrix).
+- F6.1.4.16 | Spinel |  | magnesium aluminium oxide mineral specimen (octahedral crystals, on or off matrix); cut stones are F6.5.2.04.
+- F6.1.4.17 | Uraninite |  | uranium oxide mineral specimen (pitchblende, crystals or botryoidal pieces; radioactive).
+- F6.1.4.18 | Wodginite |  | tin tantalum manganese oxide mineral specimen (crystals, on or off matrix).
+- F6.1.4.19 | Cuprite |  | copper oxide mineral specimen (red crystals, chalcotrichite, on or off matrix).
+- F6.1.5.05 | Aurichalcite |  | zinc copper carbonate hydroxide mineral specimen (blue-green tufts, on or off matrix).
+- F6.1.5.06 | Cerussite |  | lead carbonate mineral specimen (crystals, twins, on or off matrix).
+- F6.1.5.07 | Dolomite |  | calcium magnesium carbonate mineral specimen (saddle crystals, clusters, on or off matrix).
+- F6.1.5.08 | Eitelite |  | sodium magnesium carbonate mineral specimen (crystals, on or off matrix).
+- F6.1.5.09 | Magnesite |  | magnesium carbonate mineral specimen (crystals, massive or polished pieces).
+- F6.1.5.10 | Rhodochrosite |  | manganese carbonate mineral specimen (rhombs, stalactite slices, on or off matrix).
+- F6.1.5.11 | Siderite |  | iron carbonate mineral specimen (rhombs, clusters, on or off matrix).
+- F6.1.5.12 | Smithsonite |  | zinc carbonate mineral specimen (botryoidal or crystalline pieces, on or off matrix).
+- F6.1.6.01 | Boracite |  | Boracite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.02 | Borax |  | Borax mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.03 | Colemanite |  | Colemanite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.04 | Ulexite |  | Ulexite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.05 | Hambergite |  | Hambergite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.06 | Hydroboracite |  | Hydroboracite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.07 | Inderite |  | Inderite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.08 | Inyoite |  | Inyoite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.09 | Kurnakovite |  | Kurnakovite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.10 | Meyerhofferite |  | Meyerhofferite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.11 | Probertite |  | Probertite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.12 | Tincalconite |  | Tincalconite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.13 | Sulfoborite |  | Sulfoborite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.14 | Tunellite |  | Tunellite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.15 | Olshanskyite |  | Olshanskyite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.16 | Londonite |  | Londonite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.17 | Rhodizite |  | Rhodizite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.18 | Painite |  | Painite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.19 | Ludwigite |  | Ludwigite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.20 | Jeremejevite |  | Jeremejevite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.21 | Gaudefroyite |  | Gaudefroyite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.22 | Nifontovite |  | Nifontovite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.23 | Hilgardite |  | Hilgardite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.24 | Hulsite |  | Hulsite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.6.25 | Borcarite |  | Borcarite mineral specimen (borate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.02 | Alunite |  | Alunite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.03 | Alunogen |  | Alunogen mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.04 | Anglesite |  | Anglesite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.05 | Anhydrite |  | Anhydrite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.06 | Antlerite |  | Antlerite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.07 | Aphthitalite |  | Aphthitalite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.08 | Blödite |  | Blödite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.09 | Botryogen |  | Botryogen mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.10 | Brochantite |  | Brochantite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.11 | Caledonite |  | Caledonite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.12 | Celestine |  | Celestine mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.13 | Chalcoalumite |  | Chalcoalumite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.14 | Copiapite |  | Copiapite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.15 | Coquimbite |  | Coquimbite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.16 | Cyanotrichite |  | Cyanotrichite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.17 | Despujolsite |  | Despujolsite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.18 | Devilline |  | Devilline mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.19 | Ettringite |  | Ettringite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.20 | Gypsum |  | Gypsum mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.21 | Jarosite |  | Jarosite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.22 | Jouravskite |  | Jouravskite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.23 | Kobyashevite |  | Kobyashevite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.24 | Langite |  | Langite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.25 | Leadhillite |  | Leadhillite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.26 | Leonite |  | Leonite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.27 | Linarite |  | Linarite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.28 | Posnjakite |  | Posnjakite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.29 | Serpierite |  | Serpierite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.30 | Sulphohalite |  | Sulphohalite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.31 | Tamarugite |  | Tamarugite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.32 | Thaumasite |  | Thaumasite mineral specimen (sulfate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.33 | Crocoite |  | Crocoite mineral specimen (chromate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.34 | Wulfenite |  | Wulfenite mineral specimen (molybdate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.35 | Powellite |  | Powellite mineral specimen (molybdate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.36 | Szenicsite |  | Szenicsite mineral specimen (molybdate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.37 | Scheelite |  | Scheelite mineral specimen (tungstate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.38 | Stolzite |  | Stolzite mineral specimen (tungstate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.39 | Ferberite |  | Ferberite mineral specimen (tungstate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.7.40 | Hübnerite |  | Hübnerite mineral specimen (tungstate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.02 | Augelite |  | Augelite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.03 | Barbosalite |  | Barbosalite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.04 | Beraunite |  | Beraunite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.05 | Brazilianite |  | Brazilianite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.06 | Cacoxenite |  | Cacoxenite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.07 | Chalcophyllite |  | Chalcophyllite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.08 | Chalcosiderite |  | Chalcosiderite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.09 | Childrenite |  | Childrenite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.10 | Cornetite |  | Cornetite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.11 | Crandallite |  | Crandallite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.12 | Eosphorite |  | Eosphorite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.13 | Fairfieldite |  | Fairfieldite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.14 | Florencite-(Ce) |  | Florencite-(Ce) mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.15 | Fluellite |  | Fluellite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.16 | Fluorapatite |  | Fluorapatite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.17 | Apatite |  | Apatite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.18 | Goyazite |  | Goyazite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.19 | Hopeite |  | Hopeite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.20 | Hureaulite |  | Hureaulite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.21 | Hydroxylapatite |  | Hydroxylapatite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.22 | Hydroxylherderite |  | Hydroxylherderite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.23 | Jahnsite-(CaMnFe) |  | Jahnsite-(CaMnFe) mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.24 | Kidwellite |  | Kidwellite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.25 | Kipushite |  | Kipushite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.26 | Kosnarite |  | Kosnarite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.27 | Lazulite |  | Lazulite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.28 | Libethenite |  | Libethenite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.29 | Ludlamite |  | Ludlamite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.30 | Matioliite |  | Matioliite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.31 | Metatorbernite |  | Metatorbernite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.32 | Minyulite |  | Minyulite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.33 | Monazite-(Ce) |  | Monazite-(Ce) mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.34 | Montebrasite |  | Montebrasite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.35 | Nahpoite |  | Nahpoite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.36 | Ojuelaite |  | Ojuelaite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.37 | Parahopeite |  | Parahopeite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.38 | Paravauxite |  | Paravauxite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.39 | Phosphohedyphane |  | Phosphohedyphane mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.40 | Phosphosiderite |  | Phosphosiderite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.41 | Plumbogummite |  | Plumbogummite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.42 | Pseudomalachite |  | Pseudomalachite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.43 | Pyromorphite |  | Pyromorphite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.44 | Reddingite |  | Reddingite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.45 | Rockbridgeite |  | Rockbridgeite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.46 | Scorzalite |  | Scorzalite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.47 | Senegalite |  | Senegalite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.48 | Strengite |  | Strengite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.49 | Struvite |  | Struvite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.50 | Tarbuttite |  | Tarbuttite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.51 | Torbernite |  | Torbernite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.52 | Triphylite |  | Triphylite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.53 | Triplite |  | Triplite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.54 | Väyrynenite |  | Väyrynenite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.55 | Vashegyite |  | Vashegyite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.56 | Vauxite |  | Vauxite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.57 | Veszelyite |  | Veszelyite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.58 | Viitaniemiite |  | Viitaniemiite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.59 | Vivianite |  | Vivianite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.60 | Wardite |  | Wardite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.61 | Wavellite |  | Wavellite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.62 | Whitlockite |  | Whitlockite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.63 | Xenotime-(Y) |  | Xenotime-(Y) mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.64 | Zincolibethenite |  | Zincolibethenite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.65 | Zincolivenite |  | Zincolivenite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.66 | Johnsomervilleite |  | Johnsomervilleite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.67 | Heterosite |  | Heterosite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.68 | Kulanite |  | Kulanite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.69 | Landesite |  | Landesite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.70 | Bobierrite |  | Bobierrite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.71 | Newberyite |  | Newberyite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.72 | Gormanite |  | Gormanite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.73 | Ernstite |  | Ernstite mineral specimen (phosphate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.74 | Adamite |  | Adamite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.75 | Agardite-(Ce) |  | Agardite-(Ce) mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.76 | Arsendescloizite |  | Arsendescloizite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.77 | Arseniopleite |  | Arseniopleite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.78 | Austinite |  | Austinite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.79 | Bayldonite |  | Bayldonite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.80 | Cahnite |  | Cahnite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.81 | Chernovite-(Y) |  | Chernovite-(Y) mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.82 | Clinoclase |  | Clinoclase mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.83 | Conichalcite |  | Conichalcite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.84 | Duftite |  | Duftite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.85 | Erythrite |  | Erythrite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.86 | Euchroite |  | Euchroite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.87 | Annabergite |  | Annabergite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.88 | Allactite |  | Allactite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.89 | Köttigite |  | Köttigite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.90 | Parasymplesite |  | Parasymplesite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.91 | Talmessite |  | Talmessite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.92 | Legrandite |  | Legrandite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.93 | Olivenite |  | Olivenite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.94 | Mimetite |  | Mimetite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.95 | Wendwilsonite |  | Wendwilsonite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.96 | Zeunerite |  | Zeunerite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.97 | Scorodite |  | Scorodite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.98 | Tsumcorite |  | Tsumcorite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.99 | Picropharmacolite |  | Picropharmacolite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.100 | Roselite |  | Roselite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.101 | Paradamite |  | Paradamite mineral specimen (arsenate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.102 | Vanadinite |  | Vanadinite mineral specimen (vanadate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.103 | Descloizite |  | Descloizite mineral specimen (vanadate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.104 | Mottramite |  | Mottramite mineral specimen (vanadate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.8.105 | Volborthite |  | Volborthite mineral specimen (vanadate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.08 | Actinolite |  | Actinolite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.09 | Afwillite |  | Afwillite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.10 | Albite |  | Albite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.11 | Allanite-(Ce) |  | Allanite-(Ce) mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.12 | Almandine |  | Almandine mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.13 | Amesite |  | Amesite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.14 | Analcime |  | Analcime mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.15 | Andalusite |  | Andalusite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.16 | Andradite |  | Andradite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.17 | Augite |  | Augite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.18 | Axinite-(Fe) |  | Axinite-(Fe) mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.19 | Babingtonite |  | Babingtonite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.20 | Bannisterite |  | Bannisterite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.21 | Barylite |  | Barylite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.22 | Bavenite |  | Bavenite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.23 | Benitoite |  | Benitoite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.24 | Bertrandite |  | Bertrandite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.25 | Biotite |  | Biotite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.26 | Bityite |  | Bityite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.27 | Bikitaite |  | Bikitaite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.28 | Bultfonteinite |  | Bultfonteinite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.29 | Carletonite |  | Carletonite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.30 | Catapleiite |  | Catapleiite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.31 | Cavansite |  | Cavansite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.32 | Celadonite |  | Celadonite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.33 | Chabazite |  | Chabazite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.34 | Charoite |  | Charoite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.35 | Chloritoid |  | Chloritoid mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.36 | Chondrodite |  | Chondrodite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.37 | Chrysocolla |  | Chrysocolla mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.38 | Clinochlore |  | Clinochlore mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.39 | Clinohumite |  | Clinohumite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.40 | Clinozoisite |  | Clinozoisite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.41 | Cookeite |  | Cookeite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.42 | Cordierite |  | Cordierite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.43 | Danburite |  | Danburite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.44 | Datolite |  | Datolite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.45 | Diopside |  | Diopside mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.46 | Dioptase |  | Dioptase mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.47 | Dravite |  | Dravite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.48 | Edingtonite |  | Edingtonite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.49 | Elbaite |  | Elbaite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.50 | Enstatite |  | Enstatite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.51 | Epidote |  | Epidote mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.52 | Epistilbite |  | Epistilbite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.53 | Eudialyte |  | Eudialyte mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.54 | Eudidymite |  | Eudidymite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.55 | Euclase |  | Euclase mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.56 | Forsterite |  | Forsterite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.57 | Fresnoite |  | Fresnoite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.58 | Fluorapophyllite-(K) |  | Fluorapophyllite-(K) mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.59 | Genthelvite |  | Genthelvite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.60 | Grandidierite |  | Grandidierite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.61 | Grossular |  | Grossular mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.62 | Harmotome |  | Harmotome mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.63 | Haüyne |  | Haüyne mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.64 | Hedenbergite |  | Hedenbergite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.65 | Helvine |  | Helvine mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.66 | Hemimorphite |  | Hemimorphite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.67 | Hubeite |  | Hubeite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.68 | Ilvaite |  | Ilvaite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.69 | Inesite |  | Inesite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.70 | Johannsenite |  | Johannsenite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.71 | Kyanite |  | Kyanite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.72 | Laumontite |  | Laumontite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.73 | Lazurite |  | Lazurite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.74 | Liddicoatite |  | Liddicoatite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.75 | Lizardite |  | Lizardite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.76 | Marsturite |  | Marsturite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.77 | Mesolite |  | Mesolite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.78 | Microcline |  | Microcline mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.79 | Milarite |  | Milarite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.80 | Mordenite |  | Mordenite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.81 | Muscovite |  | Muscovite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.82 | Natrolite |  | Natrolite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.83 | Neptunite |  | Neptunite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.84 | Nepheline |  | Nepheline mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.85 | Okenite |  | Okenite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.86 | Olmiite |  | Olmiite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.87 | Orthoclase |  | Orthoclase mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.88 | Pargasite |  | Pargasite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.89 | Pectolite |  | Pectolite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.90 | Pentagonite |  | Pentagonite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.91 | Petalite |  | Petalite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.92 | Pezzottaite |  | Pezzottaite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.93 | Phenakite |  | Phenakite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.94 | Phlogopite |  | Phlogopite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.95 | Poldervaartite |  | Poldervaartite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.96 | Pollucite |  | Pollucite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.97 | Poudretteite |  | Poudretteite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.98 | Prehnite |  | Prehnite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.99 | Rhodonite |  | Rhodonite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.100 | Richterite |  | Richterite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.101 | Sanidine |  | Sanidine mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.102 | Sapphirine |  | Sapphirine mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.103 | Schorl |  | Schorl mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.104 | Scolecite |  | Scolecite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.105 | Serandite |  | Serandite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.106 | Serendibite |  | Serendibite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.107 | Sillimanite |  | Sillimanite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.108 | Sodalite |  | Sodalite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.109 | Spessartine |  | Spessartine mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.110 | Spodumene |  | Spodumene mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.111 | Staurolite |  | Staurolite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.112 | Stellerite |  | Stellerite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.113 | Stilbite-Ca |  | Stilbite-Ca mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.114 | Sugilite |  | Sugilite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.115 | Talc |  | Talc mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.116 | Thorite |  | Thorite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.117 | Thortveitite |  | Thortveitite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.118 | Titanite |  | Titanite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.119 | Tobermorite |  | Tobermorite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.120 | Tremolite |  | Tremolite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.121 | Uvarovite |  | Uvarovite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.122 | Uvite |  | Uvite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.123 | Vesuvianite |  | Vesuvianite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.124 | Willemite |  | Willemite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.125 | Winchite |  | Winchite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.126 | Wollastonite |  | Wollastonite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.127 | Xonotlite |  | Xonotlite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.128 | Yugawaralite |  | Yugawaralite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.129 | Zircon |  | Zircon mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.9.130 | Zoisite |  | Zoisite mineral specimen (silicate; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.10.01 | Mellite |  | Mellite mineral specimen (organic compound; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.
+- F6.1.10.02 | Whewellite |  | Whewellite mineral specimen (organic compound; crystals, clusters or pieces, on or off matrix); species sold as a specimen, never as a cut stone.

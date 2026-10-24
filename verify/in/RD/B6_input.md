@@ -1,0 +1,208 @@
+# B6 Cleaning & Laundry: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (machine or product), grouped by the cleaning job
+- reason: Every test and dealer source opens on the machine type and form (Which? washers by drum type and capacity, test.de vacuums cable against battery, RTINGS stick/canister/upright/handheld, Kakaku drum against vertical, Ristenbatt canisters/uprights/sticks/central), while consumables are shelved by task (memo §2: dm, wilko, Askul).
+- ladder: What are you cleaning? (floors, laundry, surfaces, dishes, waste) > What kind of machine or product? (vacuum, washer, dryer, iron, mop, detergent...) > Which form and use? (stick, robot, upright; front-load, top-load; powder, liquid, capsule; then pet hair, floor type, capacity)
+- level1_groups: Vacuums and floor machines; Mops, brooms and floor tools; Washing machines and dryers; Irons, steamers and drying; Laundry detergents and care products; Household cleaners; Cloths, sponges, brushes and window or steam cleaners; Dishwashing products; Bins and bin bags; Bags, filters and spare parts
+- quality_markers: Machines: cleaning result first (Which? stain removal 40%; test.de suction 45%; dust pick-up on carpet and hard floor); rinsing and spin-drying (Which? 15% each; EU spin class A-G); handling and ease of use (test.de 30%; Which? 7.5%); energy and water per cycle or per kg (EU A-G label; Which? 10%); programme length; noise (dB); durability and reliability (test.de 10%; Which? reliability survey); robot vacuums add navigation and obstacle avoidance, mopping, carpet and threshold climbing, dock level (1 charging > 2 auto-empty > 3 mop wash and dry); Consumables: cleaning performance in tests, then value; no grade ladder (memo §5, provisional)
+- quality_signals: Which? Best Buy (75%+), Great Value, Eco Buy (60%+ with reliability record), Don't Buy (45% or below) (Which?, editorial class iii); Stiftung Warentest Qualitätsurteil school grades 1.0-5.0 (test.de, class ii); RTINGS lab scores and robot tiers best/upper mid/mid/budget (RTINGS, class ii/iii); Consumer Reports Overall Score, comparable only within a type (memo S15, class ii); EU energy label A-G for washers, washer-dryers, dryers (EU Regulations 2019/2014 and 2019/2023, class i attribute); EN 60312-1 dust pick-up and HEPA H12-H14 (standards, class i attributes); RedditRecs community sentiment share by brand (community, weak; small samples)
+- maker_role: owner (confirmed): machines are chosen by type and use, the maker enters through models and lines (Dyson V-series, Henry, Roomba); consumable houses through lines (Ariel, Fairy, Cif)
+- side_view: Brand tab for vacuums and robot vacuums only (Ristenbatt offers brand-first beside type-first; RedditRecs brand ranking; MediaMarkt brand pages); no maker tab for consumables, tools or bins
+- evidence_rows: Which? washing machine tests; Stiftung Warentest vacuum test; RTINGS vacuum test page; MediaMarkt Austria (Miele brand page); Ristenbatt vacuum dealer site index; RedditRecs robot vacuums; Kakaku.com magazine washing machine guide
+- maker role row: {'code': 'B6', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'cleaning products are chosen by task; brands through named products'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-B6-1 | Vacuums and floor machines | 1 |  | 
+- G-B6-1-1 | Vacuum cleaners | 2 | G-B6-1 | B6.1.1.01; B6.1.1.02; B6.1.1.03; B6.1.1.04; B6.1.1.05; B6.1.1.06; B6.1.1.07; B6.1.1.08; B6.1.1.09
+- G-B6-1-2 | Floor machines | 2 | G-B6-1 | B6.1.2.01; B6.1.2.02; B6.1.2.03; B6.1.2.04
+- G-B6-2 | Mops, brooms and floor tools | 1 |  | 
+- G-B6-2-1 | Mops | 2 | G-B6-2 | B6.1.3.01; B6.1.3.02; B6.1.3.03; B6.1.3.04; B6.1.3.05; B6.1.3.06; B6.1.3.07; B6.1.3.08; B6.1.3.09; B6.1.3.10
+- G-B6-2-2 | Brooms, sweepers and buckets | 2 | G-B6-2 | B6.1.4.01; B6.1.4.02; B6.1.4.03; B6.1.4.04
+- G-B6-3 | Washing machines and dryers | 1 |  | 
+- G-B6-3-1 | Washing machines | 2 | G-B6-3 | B6.3.1.01; B6.3.1.02; B6.3.1.03; B6.3.1.04; B6.3.1.05; B6.3.1.06; B6.3.1.07; B6.3.1.08
+- G-B6-3-2 | Dryers | 2 | G-B6-3 | B6.3.2.01; B6.3.2.02; B6.3.2.03; B6.3.2.04; B6.3.2.05
+- G-B6-4 | Irons, steamers and drying | 1 |  | 
+- G-B6-4-1 | Irons, steamers and ironing boards | 2 | G-B6-4 | B6.3.3.01; B6.3.3.02; B6.3.3.03; B6.3.3.04
+- G-B6-4-2 | Airers, pegs and baskets | 2 | G-B6-4 | B6.3.4.01; B6.3.4.02; B6.3.4.03; B6.3.4.04
+- G-B6-4-3 | Hand-wash and manual laundry tools | 2 | G-B6-4 | B6.3.7.01; B6.3.7.02; B6.3.7.03
+- G-B6-5 | Laundry detergents and care products | 1 |  | 
+- G-B6-5-1 | Laundry detergents | 2 | G-B6-5 | B6.3.5.01; B6.3.5.02; B6.3.5.03; B6.3.5.04
+- G-B6-5-2 | Other laundry and textile-care products | 2 | G-B6-5 | B6.3.6.01; B6.3.6.02; B6.3.6.03; B6.3.6.04; B6.3.6.05; B6.3.6.06; B6.3.6.07; B6.3.6.08; B6.3.6.09
+- G-B6-6 | Household cleaners | 1 |  | 
+- G-B6-6-1 | Chemical cleaners | 2 | G-B6-6 | B6.2.4.01; B6.2.4.02; B6.2.4.03; B6.2.4.04; B6.2.4.05; B6.2.4.06; B6.2.4.07; B6.2.4.08
+- G-B6-6-2 | Floor and carpet products | 2 | G-B6-6 | B6.1.5.01
+- G-B6-6-3 | Care products for other objects | 2 | G-B6-6 | B6.2.5.01; B6.2.5.02; B6.2.5.03; B6.2.5.04; B6.2.5.05; B6.2.5.06; B6.2.5.07; B6.2.5.08
+- G-B6-7 | Cloths, sponges, brushes and window or steam cleaners | 1 |  | 
+- G-B6-7-1 | Cloths and dusters | 2 | G-B6-7 | B6.2.1.01; B6.2.1.02; B6.2.1.03; B6.2.1.04; B6.2.1.05
+- G-B6-7-2 | Sponges, scourers and brushes | 2 | G-B6-7 | B6.2.2.01; B6.2.2.02; B6.2.2.03; B6.2.2.04
+- G-B6-7-3 | Window and steam machines | 2 | G-B6-7 | B6.2.3.01; B6.2.3.02; B6.2.3.03
+- G-B6-8 | Dishwashing products | 1 |  | 
+- G-B6-8-1 | Hand dishwashing | 2 | G-B6-8 | B6.4.01
+- G-B6-8-2 | Dishwasher products | 2 | G-B6-8 | B6.4.02; B6.4.03; B6.4.04; B6.4.05; B6.4.06
+- G-B6-9 | Bins and bin bags | 1 |  | 
+- G-B6-9-1 | Bins | 2 | G-B6-9 | B6.5.1.01; B6.5.1.02; B6.5.1.03; B6.5.1.04; B6.5.1.05
+- G-B6-9-2 | Bags and liners | 2 | G-B6-9 | B6.5.2.01
+- G-B6-9-3 | Waste machines | 2 | G-B6-9 | B6.5.3.01; B6.5.3.02
+- G-B6-10 | Bags, filters and spare parts | 1 |  | 
+- G-B6-10-1 | Vacuum cleaner parts | 2 | G-B6-10 | B6.6.1.01; B6.6.1.02; B6.6.1.03; B6.6.1.04; B6.6.1.05; B6.6.1.06; B6.6.1.07; B6.6.1.08; B6.6.1.09; B6.6.1.10
+- G-B6-10-2 | Washing-machine and dryer parts | 2 | G-B6-10 | B6.6.2.01; B6.6.2.02; B6.6.2.03; B6.6.2.04; B6.6.2.05; B6.6.2.06; B6.6.2.07; B6.6.2.08; B6.6.2.09; B6.6.2.10; B6.6.2.11; B6.6.2.12; B6.6.2.13
+- G-B6-10-3 | Iron and steam-generator parts | 2 | G-B6-10 | B6.6.3.01; B6.6.3.02
+- G-B6-10-4 | Ironing-board parts | 2 | G-B6-10 | B6.6.4.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-B6-1 | cleaning result | dust pick-up on carpet and hard floor; suction 45% of the test.de score | Cleaning result leads every test. | proposals.tsv B6 row (quality_markers); Stiftung Warentest vacuum test; RTINGS vacuum test page
+- G-B6-1 | handling and ease of use | 30% of the test.de score | Second in the test. | proposals.tsv B6 row (quality_markers); Stiftung Warentest vacuum test
+- G-B6-1 | energy |  | Running cost. | proposals.tsv B6 row (quality_markers); Stiftung Warentest vacuum test
+- G-B6-1 | noise | dB | Lower is better. | proposals.tsv B6 row (quality_markers); RTINGS vacuum test page
+- G-B6-1 | durability and reliability | 10% of the test.de score | Lasting value. | proposals.tsv B6 row (quality_markers); Stiftung Warentest vacuum test
+- G-B6-1 | navigation, obstacle avoidance, mopping, carpet and threshold climbing (robot vacuums) |  | Robot vacuums add these. | proposals.tsv B6 row (quality_markers); RedditRecs robot vacuums
+- G-B6-1 | dock level (robot vacuums) | 3 mop wash and dry > 2 auto-empty > 1 charging | Dock sets how hands-off the robot is. | proposals.tsv B6 row (quality_markers); RedditRecs robot vacuums
+- G-B6-3 | cleaning result | stain removal 40% of the Which? score | Washing result leads. | proposals.tsv B6 row (quality_markers); Which? washing machine tests
+- G-B6-3 | rinsing and spin-drying | 15% each at Which?; EU spin class A > B > C > D > E > F > G | Next in the test. | proposals.tsv B6 row (quality_markers); Which? washing machine tests; Kakaku.com magazine washing machine guide
+- G-B6-3 | handling and ease of use | 7.5% of the Which? score | Ease of use. | proposals.tsv B6 row (quality_markers); Which? washing machine tests
+- G-B6-3 | energy and water per cycle or per kg | EU A-G label (A best); 10% of the Which? score | Running cost. | proposals.tsv B6 row (quality_markers); Which? washing machine tests
+- G-B6-3 | programme length |  | Time per cycle. | proposals.tsv B6 row (quality_markers); Which? washing machine tests
+- G-B6-3 | noise | dB | Lower is better. | proposals.tsv B6 row (quality_markers); Which? washing machine tests
+- G-B6-3 | durability and reliability | Which? reliability survey | Lasting value. | proposals.tsv B6 row (quality_markers); Which? washing machine tests
+- G-B6-5 | cleaning performance in tests | no grade ladder (memo section 5, provisional) | Consumables are compared by tested performance. | proposals.tsv B6 row (quality_markers); framework/structure/B6.md
+- G-B6-5 | value |  | After performance. | proposals.tsv B6 row (quality_markers); framework/structure/B6.md
+- G-B6-6 | cleaning performance in tests | no grade ladder (memo section 5, provisional) | Consumables are compared by tested performance. | proposals.tsv B6 row (quality_markers); framework/structure/B6.md
+- G-B6-6 | value |  | After performance. | proposals.tsv B6 row (quality_markers); framework/structure/B6.md
+- G-B6-8 | cleaning performance in tests | no grade ladder (memo section 5, provisional) | Consumables are compared by tested performance. | proposals.tsv B6 row (quality_markers); framework/structure/B6.md
+- G-B6-8 | value |  | After performance. | proposals.tsv B6 row (quality_markers); framework/structure/B6.md
+
+## Kinds (kind_id | stored name | native name | definition)
+- B6.3.1.01 | Front-load washer |  | washing machine with a horizontal drum loaded through a front door.
+- B6.3.1.02 | Top-load washer with agitator |  | top-loading washing machine with a central post that moves the wash.
+- B6.3.1.03 | Top-load washer with impeller (pulsator) |  | top-loading washing machine with a low disc or cone at the bottom of the drum that moves the wash.
+- B6.3.1.04 | Twin-tub (2槽式) |  | washing machine with separate tubs for washing and spin-drying (region tag JP; level provisional, C11).
+- B6.3.1.05 | Washer-dryer |  | washing machine that also dries the load in the same drum.
+- B6.3.1.06 | Mini washer |  | small portable washing machine for small loads.
+- B6.3.1.07 | Pedestal washer |  | small washing machine built into a pedestal set under a main washer.
+- B6.3.1.08 | Laundry center |  | washer and dryer stacked and built as one unit (one appliance, not a set, K-1).
+- B6.3.2.01 | Vented tumble dryer |  | tumble dryer that blows moist air out through a duct.
+- B6.3.2.02 | Ventless tumble dryer |  | tumble dryer that removes moisture from the air without a duct, by condenser or heat pump.
+- B6.3.2.03 | Spin dryer |  | machine that removes water from laundry by spinning it at high speed, without heat.
+- B6.3.2.04 | Bathroom clothes-drying unit |  | unit installed in a bathroom ceiling or wall made to dry laundry, even when it also ventilates (region tag JP; K-185; level provisional, C11).
+- B6.3.2.05 | Bedding dryer (futon dryer) |  | appliance that blows warm air into a bag or mat to dry and warm bedding (region tag JP; level provisional, C11).
+- B6.3.3.01 | Steam iron |  | hand iron with a built-in water tank that steams through its soleplate.
+- B6.3.3.02 | Steam generator iron (steam station) |  | iron connected by a hose to a separate base that boils water and supplies steam under pressure.
+- B6.3.3.03 | Garment steamer |  | appliance that removes creases from hanging clothes with a jet of steam.
+- B6.3.3.04 | Ironing board |  | folding padded board on which clothes are ironed.
+- B6.3.4.01 | Clothes airer |  | rack or line on which washing is hung to dry, heated or not.
+- B6.3.4.02 | Clothes peg |  | clip that holds washing on a line or airer.
+- B6.3.4.03 | Laundry basket |  | basket, hamper or bag made to hold or carry washing (K-10).
+- B6.3.5.01 | Detergent powder |  | laundry detergent in powder form.
+- B6.3.5.02 | Detergent liquid |  | laundry detergent in liquid or gel form.
+- B6.3.5.03 | Detergent capsule (pod) |  | pre-dosed laundry detergent in a dissolving film pouch.
+- B6.3.6.01 | Fabric conditioner |  | product added to the rinse to soften and scent fabrics.
+- B6.3.6.02 | Stain remover |  | product made to remove stains from textiles before or during washing.
+- B6.3.6.03 | Fabric freshener |  | spray made to remove odours from fabrics (boundary 16).
+- B6.3.6.04 | Scent booster |  | beads or liquid added to the wash to add scent to laundry.
+- B6.3.6.05 | Washing-machine cleaner |  | product made to clean the inside of a washing machine.
+- B6.3.6.06 | Lint remover |  | roller, brush or powered shaver that removes lint, fluff and pilling from fabric.
+- B6.3.6.07 | Textile waterproofing and care spray |  | spray made to waterproof or protect textiles (K-11(c)).
+- B6.3.7.01 | Washboard |  | ridged board on which clothes are scrubbed by hand.
+- B6.3.7.02 | Wash copper |  | large vessel in which laundry is boiled.
+- B6.3.7.03 | Carpet beater |  | hand tool used to beat dust out of carpets and rugs.
+- B6.4.01 | Washing-up liquid |  | liquid detergent for washing dishes by hand.
+- B6.4.02 | Dishwasher tablet |  | pre-dosed detergent tablet for a dishwasher.
+- B6.4.03 | Dishwasher rinse aid |  | liquid added to a dishwasher to help water run off and dishes dry.
+- B6.4.04 | Dishwasher salt |  | salt that regenerates a dishwasher's built-in water softener (K-11(a)).
+- B6.5.1.01 | Kitchen bin |  | lidded bin made for household waste in the kitchen.
+- B6.5.1.02 | Wheelie bin (outdoor bin) |  | large wheeled bin kept outdoors for collection.
+- B6.5.1.03 | Waste-paper basket |  | small open bin for paper and dry waste.
+- B6.5.1.04 | Food-waste caddy |  | small lidded bin made to collect food waste for composting or collection.
+- B6.5.2.01 | Bin liner (bin bag) |  | plastic or paper bag made to line a bin and hold waste.
+- B6.5.3.01 | Garbage disposer |  | electric unit fitted under a sink that grinds food waste into the drain.
+- B6.5.3.02 | Trash compactor |  | appliance that compresses household waste into a smaller volume.
+- B6.6.1.01 | Vacuum bag |  | disposable or reusable dust bag made for a vacuum cleaner.
+- B6.6.1.02 | Vacuum filter |  | filter made for a vacuum cleaner (HEPA class is an attribute).
+- B6.6.1.03 | Vacuum belt |  | drive belt made for a vacuum cleaner's brush roll.
+- B6.6.1.04 | Vacuum battery |  | battery pack made for a cordless or robot vacuum cleaner.
+- B6.6.1.05 | Nozzle and attachment |  | floor head, brush, nozzle or tool made to fit a vacuum cleaner.
+- B6.6.2.01 | Lint filter |  | filter made to catch lint in a washing machine or dryer.
+- B6.6.2.02 | Inlet or drain hose |  | hose made to feed water to or drain it from a washing machine.
+- B6.6.2.03 | Door seal |  | rubber seal made for a washing-machine door.
+- B6.6.2.04 | Dryer belt |  | drive belt made for a tumble dryer's drum.
+- B6.6.3.01 | Anti-scale cartridge |  | cartridge made to fit an iron or steam generator and remove scale from its water.
+- B6.6.3.02 | Water tank |  | water tank made for an iron or steam generator.
+- B6.1.1.01 | Upright vacuum |  | vacuum cleaner whose motor, dust container and powered floor head form one standing body pushed across the floor.
+- B6.1.1.02 | Cylinder vacuum (canister) |  | vacuum cleaner with a body on wheels or runners pulled behind on a hose and wand.
+- B6.1.1.03 | Stick vacuum |  | light vacuum cleaner with the motor and dust container on a long wand ending in a floor head.
+- B6.1.1.04 | Handheld vacuum |  | small vacuum cleaner held in one hand and used without a floor wand, including car and mattress vacuums.
+- B6.1.1.05 | Robot vacuum |  | self-driving vacuum cleaner that navigates the floor on its own and returns to a dock; mopping and dock functions are attributes.
+- B6.1.1.06 | Wet-and-dry vacuum (shop vacuum) |  | vacuum cleaner made to pick up liquids as well as dry dirt and debris, wherever it is used.
+- B6.1.1.07 | Central vacuum |  | vacuum unit installed in a building and used through hose inlets connected by fixed piping.
+- B6.1.1.08 | Backpack vacuum |  | vacuum cleaner whose body is carried on the user's back on a harness.
+- B6.1.2.01 | Floor washer (wet-dry scrubber, 洗地机) |  | cordless upright machine that wets the floor, scrubs it with a powered roller and sucks the dirty water back into a tank.
+- B6.1.2.02 | Carpet cleaning machine (carpet extractor) |  | machine that sprays cleaning solution into carpet or upholstery and extracts it with the loosened dirt.
+- B6.1.2.03 | Floor scrubber |  | machine with powered pads or brushes that scrubs hard floors with water and solution.
+- B6.1.2.04 | Floor polisher |  | machine with rotating pads or brushes that polishes or buffs hard floors.
+- B6.1.3.01 | Dry mop (dust mop) |  | mop with a wide dry head that collects dust from hard floors.
+- B6.1.3.02 | Flat mop (wet mop) |  | mop with a flat rectangular pad on a swivel plate for wet cleaning.
+- B6.1.3.03 | Sponge mop |  | mop with a sponge head, usually wrung by a lever on the handle.
+- B6.1.3.04 | Steam mop |  | powered mop whose body carries a steam generator and cleans the floor with steam through a pad.
+- B6.1.3.05 | Spin mop |  | mop with a round head wrung by spinning it in a basket of its bucket.
+- B6.1.3.06 | Cloth mop (Cuban mop) |  | floor cloth worked over the floor with a squeegee or T-shaped stick.
+- B6.1.3.07 | Spray mop |  | flat mop with a refillable tank that sprays cleaning liquid ahead of the head.
+- B6.1.3.08 | Robot mop |  | self-driving floor cleaner that mops with a driven pad or roller, carries a water tank and has no suction; a robot vacuum that also mops is B6.1.1.05 (section 14, provisional).
+- B6.1.4.01 | Broom |  | brush of bristles or fibres on a long handle for sweeping floors.
+- B6.1.4.02 | Carpet sweeper |  | unpowered push sweeper whose rotating brushes, driven by its wheels, lift dirt from carpet into a box.
+- B6.1.4.03 | Dustpan |  | flat scoop, often with a hand brush, into which sweepings are brushed.
+- B6.1.4.04 | Mop bucket |  | bucket made to hold water for a mop, often with a wringer.
+- B6.1.5.01 | Floor and carpet cleaning product |  | liquid, foam or powder made to clean floors and carpets.
+- B6.2.1.01 | Microfibre cloth |  | cleaning cloth of fine split synthetic fibres that picks up dust and grease.
+- B6.2.1.02 | Chamois |  | soft absorbent leather or leather-like cloth used to dry and polish glass and paintwork.
+- B6.2.1.03 | Feather duster |  | bundle of feathers or fibres on a handle for dusting.
+- B6.2.1.04 | Dishcloth |  | cloth made for washing dishes and wiping kitchen surfaces.
+- B6.2.2.01 | Sponge or scourer |  | absorbent or abrasive pad used by hand to wipe and scrub surfaces and dishes.
+- B6.2.2.02 | Scrub brush |  | stiff-bristled hand brush made for household scrubbing.
+- B6.2.2.03 | Squeegee |  | rubber-bladed tool drawn across glass or tiles to remove water.
+- B6.2.3.01 | Window vacuum (Fenstersauger) |  | handheld battery device with a squeegee blade that sucks water off windows and tiles.
+- B6.2.3.02 | Window-cleaning robot |  | self-driving device that holds itself to a window and cleans the glass.
+- B6.2.3.03 | Steam cleaner |  | appliance that cleans floors and hard surfaces with steam through a hose or nozzle.
+- B6.2.4.01 | Multi-purpose cleaner |  | cleaning product made for most hard surfaces in the home.
+- B6.2.4.02 | Bleach and disinfectant |  | product made to kill germs, bleach or sanitise surfaces.
+- B6.2.4.03 | Glass cleaner |  | product made to clean glass and mirrors without streaks.
+- B6.2.4.04 | Toilet cleaner |  | product made to clean and descale the toilet bowl.
+- B6.2.4.05 | Limescale remover |  | product made to dissolve limescale on taps, tiles and sanitaryware.
+- B6.2.4.06 | Degreaser and oven cleaner |  | product made to dissolve grease and baked-on soil on hobs, ovens and kitchen surfaces.
+- B6.2.4.07 | Mould remover |  | product made to remove mould and mildew from surfaces.
+- B6.2.5.01 | Furniture and upholstery cleaner |  | product made to clean or care for furniture surfaces and upholstery.
+- B6.2.5.02 | Shoe cleaner |  | product made to clean shoes.
+- B6.2.5.03 | Shoe polish and waterproofing |  | polish, conditioner or spray made to care for, colour or waterproof shoes (B-23, K-11(c)).
+- B6.2.5.04 | Car-wash shampoo |  | product made to wash a vehicle's paintwork.
+- B6.2.5.05 | Descaler for kettles and machines |  | product or tablet made to remove limescale from kettles, coffee machines and other appliances (K-11(a)).
+- B6.2.5.06 | Pet-stain cleaner |  | product made to clean stains and odours left by pets.
+- B6.2.5.07 | Sex-toy cleaner |  | product made to clean sex toys (K-11(d)).
+- B6.1.1.09 | Ash vacuum |  | vacuum cleaner with a metal container and fire-resistant filter made to pick up cold ash from fireplaces, stoves and grills.
+- B6.1.3.09 | Electric mop (powered rotating mop) |  | cordless mop whose motor drives rotating pads or rollers that wipe the floor, with no suction and no steam.
+- B6.1.3.10 | String mop (strand mop) |  | mop whose head is a bundle of cotton or synthetic strands, wrung by hand or in a bucket wringer.
+- B6.2.4.08 | Drain unblocker |  | gel, liquid or granules poured into a sink or drain to dissolve blockages of grease, hair and soap.
+- B6.2.1.05 | Cleaning wipe |  | disposable cloth sold pre-moistened with a cleaning or disinfecting liquid.
+- B6.2.2.04 | Toilet brush |  | long-handled round brush, usually kept in a holder, made to scrub the toilet bowl.
+- B6.3.5.04 | Detergent sheet (laundry sheet or tile) |  | pre-dosed dry laundry detergent pressed into a dissolving sheet or tile.
+- B6.4.05 | Dishwasher cleaner |  | product made to clean the inside of a dishwasher, its filter, spray arms and pipes.
+- B6.4.06 | Dishwasher freshener |  | clip-in or hanging product made to remove odours from inside a dishwasher.
+- B6.6.4.01 | Ironing board cover |  | padded fabric cover made to fit an ironing board.
+- B6.2.5.08 | Iron soleplate cleaner |  | stick, paste or kit made to clean residue and scale from an iron's soleplate.
+- B6.5.1.05 | Sack holder (bin-bag holder) |  | open frame or hoop on a stand that holds a bin bag or refuse sack open, with or without a lid.
+- B6.6.2.12 | Laundry pedestal |  | drawer or stand made to raise a washing machine or dryer, with no washer inside.
+- B6.6.2.13 | Stacking kit |  | frame or bracket kit made to stack a dryer on top of a washing machine.
+- B6.6.1.06 | Vacuum hose |  | flexible hose made to fit a vacuum cleaner.
+- B6.6.1.07 | Brush roll |  | rotating brush bar made to fit a vacuum cleaner's floor head.
+- B6.6.1.08 | Vacuum motor |  | suction motor made to fit a vacuum cleaner.
+- B6.6.1.09 | Vacuum wheel |  | wheel or castor made to fit a vacuum cleaner body or head.
+- B6.6.1.10 | Vacuum wand (extension tube) |  | rigid tube made to join a vacuum cleaner's hose or body to its floor head.
+- B6.6.2.05 | Drain pump |  | pump made to empty water from a washing machine or dryer.
+- B6.6.2.06 | Drum paddle (lifter) |  | ribbed paddle fixed inside a washing-machine or dryer drum that lifts the load.
+- B6.6.2.07 | Carbon brush |  | carbon motor brush made for a washing machine or dryer motor.
+- B6.6.2.08 | Heater element |  | heating element made for a washing machine or tumble dryer.
+- B6.6.2.09 | Door lock (interlock) |  | lock or interlock made to hold a washing-machine or dryer door shut while it runs.
+- B6.6.2.10 | Condenser water container |  | removable tank made to collect water in a condenser or heat-pump dryer.
+- B6.6.2.11 | Dryer vent hose |  | flexible duct made to carry moist air from a vented dryer.
+- B6.3.4.04 | Peg bag |  | bag or basket made to hold clothes pegs, often hung on the line.
+- B6.3.6.08 | Dryer sheet |  | non-woven sheet carrying softener and scent, tumbled with laundry in a dryer.
+- B6.3.6.09 | Crease-release and ironing spray |  | spray (crease releaser, starch or ironing water) that relaxes creases or eases ironing.

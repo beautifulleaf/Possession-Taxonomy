@@ -1,0 +1,166 @@
+# B7 Climate, Water & Energy: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: use or need (the job: heat, cool, treat air, hot water, bathroom, power), then device type
+- reason: Buyers start from the job and pick a type inside it (Wickes central heating by product type; Hydro-Québec and MyMove heat pumps split by heat source; Green Building Advisor room > central > mini-split; Solar Store panels, inverters, batteries, kits), and the memo's leaves are already jobs.
+- ladder: What job? (heat, cool, fans and ventilation, clean or dry the air, hot water, water treatment, bathroom, solar and power) > Which type? (heat source and delivery; form and mounting) > What size for your room or home? (BTU or kW, tatami room size, litres or go number, pints per day, kWh), then efficiency
+- level1_groups: Heating; Heat pumps and air conditioning; Fans and ventilation; Air purifiers, humidifiers and dehumidifiers; Thermostats and controls; Water heating; Water treatment; Baths, showers, toilets and basins; Hot tubs and saunas; Solar panels, inverters and batteries; Filters, salt and spare parts
+- quality_markers: Correct sizing to the room, climate and insulation first (Green Building Advisor ranks it above efficiency; Toshiba tatami room size; Hydro-Québec needs first); efficiency at the stated standard (SEER2, EER2, HSPF2 in the US; APF in Japan and China; EU letter classes; UEF and first-hour rating for water heaters; test.de heat pump efficiency 70%); cold-climate performance (Hydro-Québec, Fine Homebuilding); installation quality (vacuum, charge, ducts; Fine Homebuilding); noise (dB; Toshiba, test.de); controls and features (filter self-cleaning, app, data protection 5% at test.de); reliability and warranty (MyMove; memo §5 guarantee years). Water treatment: the NSF/ANSI standard met for the contaminant. Batteries: usable kWh, power kW, cycle life, compatibility with the inverter. Bathroom fixtures: durability and finish (Which? survey), otherwise preference
+- quality_signals: ENERGY STAR certified and ENERGY STAR Most Efficient, 14 product categories (US EPA; certification, class i attribute); ENERGY STAR cold-climate heat pump designation and NEEP list (memo); EU energy label classes (EU, class i); China APF grades 1-3 and Japan's multi-stage rating 1-5 (governments, class i, memo); Stiftung Warentest heat pump grades and noise grade (test.de, class ii tier entry); NSF/ANSI 42, 44, 53, 55, 58, 62 (NSF; standard_met, not a ranking); UL, ETL, CSA, UL9540 safety marks (standard_met); Which? bathroom retailer and brand survey scores (Which?; a retailer score, kept as a note until a product scheme exists); Consumer Reports owner survey (second-hand in Fine Homebuilding; held back)
+- maker_role: owner (confirmed): type leads (all B7 evidence rows lead with type or use); makers enter through models and lines (Kirigamine, Washlet, ProTerra) and through OEM relations for rebadged mini-splits
+- side_view: No main maker tab. A brand filter in solar and batteries (Solar Store splits by brand, and battery-inverter matching is a C13 platform view); an OEM lineage view for mini-splits from maker_relations (memo §6)
+- evidence_rows: Wickes UK Central Heating; The Solar Store (US); Hydro-Québec heat pump tips; Green Building Advisor AC guide; MyMove heat pump guide; Stiftung Warentest heat pump test; ENERGY STAR Most Efficient 2024; Toshiba Lifestyle Japan air conditioner guide; Fine Homebuilding forum: picking a heat pump; Which? on Victorian Plumbing bathrooms
+- maker role row: {'code': 'B7', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'appliance models carry the maker'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-B7-1 | Heating | 1 |  | 
+- G-B7-1-1 | Boilers, furnaces and underfloor heating | 2 | G-B7-1 | B7.1.1.01; B7.1.1.02; B7.1.1.15
+- G-B7-1-2 | Radiators | 2 | G-B7-1 | B7.1.1.03; B7.1.1.04; B7.1.1.05
+- G-B7-1-3 | Portable and electric heaters | 2 | G-B7-1 | B7.1.1.06; B7.1.1.07; B7.1.1.08; B7.1.1.09; B7.1.1.10; B7.1.1.11
+- G-B7-1-4 | Stoves and fires | 2 | G-B7-1 | B7.1.1.12; B7.1.1.13; B7.1.1.14
+- G-B7-2 | Heat pumps and air conditioning | 1 |  | 
+- G-B7-2-1 | Air conditioners (air-to-air) | 2 | G-B7-2 | B7.1.2.01; B7.1.2.02; B7.1.2.03; B7.1.2.04; B7.1.2.05; B7.1.2.06
+- G-B7-2-2 | Air-to-water and ground-source heat pumps | 2 | G-B7-2 | B7.1.1.16; B7.1.1.17
+- G-B7-3 | Fans and ventilation | 1 |  | 
+- G-B7-3-1 | Fans | 2 | G-B7-3 | B7.1.3.01; B7.1.3.02; B7.1.3.03; B7.1.3.04; B7.1.3.05; B7.1.3.06; B7.1.3.07; B7.1.3.10; B7.1.3.11
+- G-B7-3-2 | Ventilation | 2 | G-B7-3 | B7.1.3.08; B7.1.3.09
+- G-B7-4 | Air purifiers, humidifiers and dehumidifiers | 1 |  | 
+- G-B7-4-1 | Air purifiers and deodorisers | 2 | G-B7-4 | B7.1.4.01; B7.1.4.06; B7.1.4.07
+- G-B7-4-2 | Humidifiers | 2 | G-B7-4 | B7.1.4.02
+- G-B7-4-3 | Dehumidifiers and moisture absorbers | 2 | G-B7-4 | B7.1.4.03; B7.1.4.04; B7.1.4.05; B7.1.4.08
+- G-B7-5 | Thermostats and controls | 1 |  | 
+- G-B7-5-1 | Thermostats | 2 | G-B7-5 | B7.1.5.01
+- G-B7-6 | Water heating | 1 |  | 
+- G-B7-6-1 | Tank, tankless and point-of-use heaters | 2 | G-B7-6 | B7.2.1.01; B7.2.1.02; B7.2.1.06; B7.2.1.07
+- G-B7-6-2 | Heat-pump and solar water heating | 2 | G-B7-6 | B7.2.1.03; B7.2.1.04; B7.2.1.05
+- G-B7-7 | Water treatment | 1 |  | 
+- G-B7-7-1 | Softeners, filters and purifiers | 2 | G-B7-7 | B7.2.2.01; B7.2.2.02; B7.2.2.03; B7.2.2.04; B7.2.2.05
+- G-B7-8 | Baths, showers, toilets and basins | 1 |  | 
+- G-B7-8-1 | Baths, showers and basins | 2 | G-B7-8 | B7.2.3.01; B7.2.3.02; B7.2.3.03
+- G-B7-8-2 | Toilets and bidets | 2 | G-B7-8 | B7.2.3.04; B7.2.3.05; B7.2.3.06; B7.2.3.07
+- G-B7-9 | Hot tubs and saunas | 1 |  | 
+- G-B7-9-1 | Hot tubs and swim spas | 2 | G-B7-9 | B7.2.3.08; B7.2.3.09; B7.2.3.10; B7.2.3.12
+- G-B7-9-2 | Saunas | 2 | G-B7-9 | B7.2.3.11
+- G-B7-10 | Solar panels, inverters and batteries | 1 |  | 
+- G-B7-10-1 | Solar panels and generation kits | 2 | G-B7-10 | B7.3.1.01; B7.3.1.02; B7.3.1.03; B7.3.1.04
+- G-B7-10-2 | Inverters and controllers | 2 | G-B7-10 | B7.3.2.01; B7.3.2.02; B7.3.2.03; B7.3.2.04
+- G-B7-10-3 | Home batteries | 2 | G-B7-10 | B7.3.3.01
+- G-B7-10-4 | Energy meters and monitors | 2 | G-B7-10 | B7.3.4.01
+- G-B7-11 | Filters, salt and spare parts | 1 |  | 
+- G-B7-11-1 | Air filters | 2 | G-B7-11 | B7.4.1.01
+- G-B7-11-2 | Softener salt and filter cartridges | 2 | G-B7-11 | B7.4.2.01; B7.4.2.02
+- G-B7-11-3 | Solar mounts and electrical parts | 2 | G-B7-11 | B7.4.3.01; B7.4.3.02; B7.4.3.03
+- G-B7-11-4 | Battery enclosures | 2 | G-B7-11 | B7.4.4.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-B7-2 | correct sizing to the room, climate and insulation | BTU or kW; tatami room size | Sizing comes before efficiency. | proposals.tsv B7 row (quality_markers); Green Building Advisor AC guide; Toshiba Lifestyle Japan air conditioner guide; Hydro-Québec heat pump tips
+- G-B7-2 | efficiency at the stated standard | SEER2, EER2, HSPF2 (US); APF (Japan, China); EU letter classes; efficiency 70% of the test.de heat-pump score | Rated efficiency follows sizing. | proposals.tsv B7 row (quality_markers); Stiftung Warentest heat pump test; ENERGY STAR Most Efficient 2024
+- G-B7-2 | cold-climate performance |  | Heat output in cold weather. | proposals.tsv B7 row (quality_markers); Hydro-Québec heat pump tips; Fine Homebuilding forum: picking a heat pump
+- G-B7-2 | installation quality | vacuum, charge, ducts | Poor installation undoes a good unit. | proposals.tsv B7 row (quality_markers); Fine Homebuilding forum: picking a heat pump
+- G-B7-2 | noise | dB | Indoor and outdoor units. | proposals.tsv B7 row (quality_markers); Toshiba Lifestyle Japan air conditioner guide; Stiftung Warentest heat pump test
+- G-B7-2 | controls and features | filter self-cleaning; app; data protection 5% at test.de | Features follow performance. | proposals.tsv B7 row (quality_markers); Toshiba Lifestyle Japan air conditioner guide; Stiftung Warentest heat pump test
+- G-B7-2 | reliability and warranty | guarantee years (memo section 5) | Last. | proposals.tsv B7 row (quality_markers); MyMove heat pump guide
+- G-B7-1 | correct sizing to the room, climate and insulation | BTU or kW; tatami room size | Sizing comes before efficiency. | proposals.tsv B7 row (quality_markers); Green Building Advisor AC guide; Toshiba Lifestyle Japan air conditioner guide; Hydro-Québec heat pump tips
+- G-B7-1 | efficiency at the stated standard | EU letter classes | Rated efficiency follows sizing. | proposals.tsv B7 row (quality_markers)
+- G-B7-1 | installation quality | vacuum, charge, ducts | Poor installation undoes a good unit. | proposals.tsv B7 row (quality_markers); Fine Homebuilding forum: picking a heat pump
+- G-B7-1 | noise | dB | Indoor and outdoor units. | proposals.tsv B7 row (quality_markers); Toshiba Lifestyle Japan air conditioner guide; Stiftung Warentest heat pump test
+- G-B7-1 | controls and features | filter self-cleaning; app; data protection 5% at test.de | Features follow performance. | proposals.tsv B7 row (quality_markers); Toshiba Lifestyle Japan air conditioner guide; Stiftung Warentest heat pump test
+- G-B7-1 | reliability and warranty | guarantee years (memo section 5) | Last. | proposals.tsv B7 row (quality_markers); MyMove heat pump guide
+- G-B7-6 | correct sizing to the home | litres or go number | Sizing first. | proposals.tsv B7 row (quality_markers); Hydro-Québec heat pump tips
+- G-B7-6 | efficiency at the stated standard | UEF and first-hour rating (US); EU letter classes | Water heaters are rated by UEF and first-hour rating. | proposals.tsv B7 row (quality_markers); ENERGY STAR Most Efficient 2024
+- G-B7-6 | installation quality |  | As for heating. | proposals.tsv B7 row (quality_markers); Fine Homebuilding forum: picking a heat pump
+- G-B7-6 | reliability and warranty | guarantee years (memo section 5) | Last. | proposals.tsv B7 row (quality_markers); MyMove heat pump guide
+- G-B7-4 | correct sizing to the room | pints per day (dehumidifiers); room size | The ladder asks size first. | proposals.tsv B7 row (quality_markers)
+- G-B7-4 | noise | dB | Room appliances run near people. | proposals.tsv B7 row (quality_markers)
+- G-B7-7 | NSF/ANSI standard met for the contaminant |  | Water treatment is chosen by the contaminant certified against. | proposals.tsv B7 row (quality_markers)
+- G-B7-10-3 | usable kWh |  | Home batteries are compared on these, in this order. | proposals.tsv B7 row (quality_markers); The Solar Store (US)
+- G-B7-10-3 | power kW |  | Home batteries are compared on these, in this order. | proposals.tsv B7 row (quality_markers); The Solar Store (US)
+- G-B7-10-3 | cycle life |  | Home batteries are compared on these, in this order. | proposals.tsv B7 row (quality_markers); The Solar Store (US)
+- G-B7-10-3 | compatibility with the inverter |  | Home batteries are compared on these, in this order. | proposals.tsv B7 row (quality_markers); The Solar Store (US)
+- G-B7-8 | durability and finish |  | Which? survey; otherwise preference. | proposals.tsv B7 row (quality_markers); Which? on Victorian Plumbing bathrooms
+
+## Kinds (kind_id | stored name | native name | definition)
+- B7.1.1.01 | Central-heating boiler |  | appliance that heats water for a home's radiators or underfloor circuit; heating-only or combi is a function attribute, fuel a tag, and a combi boiler pack is a unit-of-sale attribute (section 14).
+- B7.1.1.02 | Furnace |  | warm-air heating plant that heats air and sends it through ducts; fuel is a tag (B7-O1).
+- B7.1.1.03 | Panel radiator |  | flat-panel heat emitter, usually fed by hot water.
+- B7.1.1.04 | Column radiator |  | heat emitter built of upright columns or sections; material and era are attributes.
+- B7.1.1.05 | Towel radiator | Badheizkörper | heated rail made to warm and dry towels in a bathroom; hot-water or electric is a power attribute.
+- B7.1.1.06 | Fan heater |  | room heater that blows air over a heating element; fuel is a tag.
+- B7.1.1.07 | Convector heater |  | room heater that warms air by natural convection over an element.
+- B7.1.1.08 | Oil-filled radiator |  | portable electric heater with sealed oil-filled fins.
+- B7.1.1.09 | Radiant heater |  | heater with an exposed bar, quartz or halogen element and reflector (split from the panel heater by form, provisional).
+- B7.1.1.10 | Infrared panel heater |  | flat wall- or ceiling-hung panel that heats by infrared radiation; picture-motif prints are variants.
+- B7.1.1.11 | Infrared heat lamp |  | lamp sold as a heater, not a bulb sold as a part.
+- B7.1.1.12 | Flued stove |  | solid-fuel stove with a firebox vented through a flue (rule T(b), provisional until a fetched source ranks it apart).
+- B7.1.1.13 | Flueless room heater |  | kerosene or gas room heater with no flue (rule T(b), provisional as above).
+- B7.1.1.14 | Flued fire |  | inset or wall-hung fire vented through a flue; fuel is a tag (B7-O1; rule T(b), provisional).
+- B7.1.1.15 | Underfloor heating kit |  | electric mat or hydronic pipe kit sold to heat a floor (B7-O1).
+- B7.1.1.16 | Hydronic heat pump |  | air-to-water heat pump that heats water for radiators or a floor; heat source is an attribute.
+- B7.1.1.17 | Ground-source heat pump |  | heat pump drawing heat from a ground loop, a kind whatever it delivers (B-24).
+- B7.1.2.01 | Wall-mounted split air conditioner | mini-split heat pump; 挂机 | indoor wall unit linked by refrigerant lines to an outdoor unit; reversible is a tag.
+- B7.1.2.02 | Floor-standing air conditioner | 柜机 | split air conditioner whose indoor unit stands on the floor as a cabinet.
+- B7.1.2.03 | Ceiling-cassette air conditioner |  | split air conditioner whose indoor unit is set into the ceiling.
+- B7.1.2.04 | Window air conditioner |  | single-box unit fitted in a window or wall opening.
+- B7.1.2.05 | Portable air conditioner |  | movable single-box unit venting through a hose.
+- B7.1.2.06 | Ducted or central system | 中央空调 | multi-split or ducted plant cooling several rooms, a ducted heat pump included.
+- B7.1.3.01 | Desk fan |  | small fan made to stand on a desk or table.
+- B7.1.3.02 | Stationary fan | pedestal fan | fan on a stand or pedestal of adjustable height.
+- B7.1.3.03 | Tower fan |  | tall, narrow fan blowing through a vertical grille.
+- B7.1.3.04 | Wall or clip fan |  | fan made to mount on a wall or clip to an edge (body test against the desk fan provisional, C12(a)).
+- B7.1.3.05 | Handheld fan |  | powered hand-held or neck fan; a manual hand fan is A4 (K-133).
+- B7.1.3.06 | Air circulator |  | fan made to move air round a whole room in a focused stream.
+- B7.1.3.07 | Ceiling fan |  | fan hung from the ceiling, with or without a light.
+- B7.1.3.08 | Ventilating fan | extractor fan | fan fitted to draw stale air out of a room.
+- B7.1.3.09 | Ventilation unit |  | ventilation unit for a room or home, with or without heat recovery.
+- B7.1.4.01 | Air purifier |  | appliance that filters particles and pollutants from room air; tower or desktop and filter grade are attributes.
+- B7.1.4.02 | Humidifier |  | appliance that adds moisture to room air; mechanism (ultrasonic, evaporative, warm mist) is an attribute (B-25).
+- B7.1.4.03 | Portable dehumidifier |  | movable appliance that draws moisture from room air.
+- B7.1.4.04 | Whole-house dehumidifier |  | dehumidifier installed to treat a whole home, usually ducted.
+- B7.1.4.05 | Mini dehumidifier |  | small-capacity dehumidifier; Peltier is a technology attribute.
+- B7.1.4.06 | Deodoriser |  | appliance made to remove odours from room air.
+- B7.1.4.07 | Ion generator |  | appliance that releases ions into room air.
+- B7.1.4.08 | Desiccant moisture absorber |  | unpowered container of desiccant that absorbs room moisture (K-11).
+- B7.1.5.01 | Thermostat |  | device that switches heating or cooling to hold a set temperature; smart or plain is a connectivity attribute, and a smart radiator head is filed here.
+- B7.2.1.01 | Storage water heater [tank water heater] |  | water heater that heats and holds water in its own tank.
+- B7.2.1.02 | Tankless water heater [instant water heater] |  | water heater that heats water on demand as it flows.
+- B7.2.1.03 | Heat-pump water heater |  | water heater that heats water with a compressor heat pump (C10(b), CV-24).
+- B7.2.1.04 | Solar water heater |  | system that heats household water from solar collectors.
+- B7.2.1.05 | Solar thermal collector |  | flat-plate or evacuated-tube collector sold on its own (B7-O1).
+- B7.2.1.06 | Point-of-use water heater |  | small water heater fitted at one tap or outlet.
+- B7.2.1.07 | Hot-water cylinder |  | indirect or buffer tank heated by a boiler, with no heat source of its own (B7-O1; provisional until attested as a retail kind).
+- B7.2.2.01 | Water softener |  | unit that removes hardness from the home supply; salt-based or salt-free is a technology attribute.
+- B7.2.2.02 | Plumbed water filter |  | filter plumbed to the supply or fitted to a tap; whole-house, under-sink, shower or tap-mounted is an installation attribute (a jug filter is B5).
+- B7.2.2.03 | Reverse-osmosis system |  | unit that purifies water through a reverse-osmosis membrane.
+- B7.2.2.04 | UV water treatment system |  | unit that disinfects water with ultraviolet light.
+- B7.2.2.05 | Distiller |  | appliance that purifies water by boiling and condensing it.
+- B7.2.3.01 | Bathtub |  | fixed or freestanding tub for bathing in; era and material are attributes.
+- B7.2.3.02 | Shower |  | shower unit or set for washing under running water; power source is an attribute (electric shower provisional as a kind only on a ranking source).
+- B7.2.3.03 | Washbasin |  | basin for washing hands and face; sold built into its cabinet is an attribute (K-184).
+- B7.2.3.04 | Cistern-flush toilet [water closet] |  | toilet flushed by water from a cistern.
+- B7.2.3.05 | Waterless or composting toilet |  | toilet that uses no flush water, composting or storing the waste.
+- B7.2.3.06 | Bidet |  | separate low basin for washing the lower body.
+- B7.2.3.07 | Warm-water toilet seat [bidet seat; Washlet] |  | powered toilet seat with a warm-water wash (rule R, C11).
+- B7.2.3.08 | Hard-shell hot tub |  | hot tub with a moulded rigid shell and built-in heater and pumps; construction material is an attribute (B-26; provisional).
+- B7.2.3.09 | Inflatable hot tub |  | portable hot tub with an inflatable body and plug-in heater pump (B-26; provisional).
+- B7.2.3.10 | Wood-fired hot tub |  | wooden tub heated by a wood-burning stove (B-26; provisional, mapping checked at harvest).
+- B7.2.3.11 | Portable sauna |  | sauna that is set up or folded inside a home, not a cabin standing as a building (K-64).
+- B7.3.1.01 | Solar panel |  | photovoltaic module that turns sunlight into electricity.
+- B7.3.1.02 | Plug-in balcony solar kit [Balkonkraftwerk] |  | panel plus micro-inverter sold as one set to plug into a home socket and feed the grid, with no storage (B-25, S3a).
+- B7.3.1.03 | Off-grid solar kit |  | panels, charge controller or inverter and usually a battery, sold as one kit to power a place without a grid connection; RV, van, boat and cabin are use tags (section 14; provisional until the kit page itself is fetched).
+- B7.3.1.04 | Small wind turbine |  | wind turbine sized to generate power for a home or site.
+- B7.3.2.01 | Inverter |  | device that converts DC from panels or batteries to household AC.
+- B7.3.2.02 | Charge controller |  | device that regulates charging of a battery from solar panels.
+- B7.3.3.01 | Home battery |  | rechargeable battery that stores electricity for a home; the portable power station (battery and inverter in one carried box) is its portable form (K-157; provisional as a retail kind).
+- B7.3.4.01 | Energy meter or monitor |  | device that measures and shows a home's electricity use or generation.
+- B7.4.1.01 | Replacement air filter |  | filter made to fit a purifier, humidifier or dehumidifier (S3).
+- B7.4.2.01 | Softener salt |  | salt used up in a water softener (S3, K-11; dishwasher salt is B6).
+- B7.4.2.02 | Replacement filter cartridge |  | cartridge made to fit a water filter or treatment unit (S3, K-11).
+- B7.4.3.01 | Solar panel mount |  | mounting frame or bracket made for solar panels (S3).
+- B7.1.3.11 | Window fan |  | fan made to fit in a window opening to draw air in or blow it out, single or twin, often reversible.
+- B7.1.3.10 | Box fan |  | portable fan with its blade set in a square box frame, standing on the floor or in a window.
+- B7.4.3.03 | Rapid shutdown device |  | module-level switch that cuts a solar array's DC voltage on command or loss of grid, made for PV panels.
+- B7.3.2.03 | Power optimizer |  | module-level DC-DC converter fitted to each solar panel to maximise its output before the inverter.
+- B7.4.3.02 | PV combiner box |  | enclosure that joins several solar panel strings into one output, with fuses or breakers, made for a PV array.
+- B7.3.2.04 | Battery-bank charger |  | mains- or generator-fed charger made to charge a home or off-grid battery bank.
+- B7.4.4.01 | Battery enclosure |  | box or cabinet made to house the cells or modules of a home or off-grid battery bank.
+- B7.2.3.12 | Swim spa |  | long hard-shell spa with a swim current, heated and filtered like a hot tub, for swimming in place.

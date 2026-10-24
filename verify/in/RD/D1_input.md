@@ -1,0 +1,195 @@
+# D1 Computers & Components: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (the shopper aisle: computers, PC parts by build slot, desk setup, printing, storage, network, cables, maker parts)
+- reason: Every fetched shop and price tool opens on part or device type and leaves fit to an automatic check (PCPartsPicker part-type ladder with cross-part compatibility; Geizhals type then about 150 editorial filters; Apos By Product Category), which is the R-71 shopper-path tree as built; for complete computers the second question is use (Notebookcheck device classes).
+- ladder: What are you buying (aisle)? > Which part or device (build slot or device family; for computers, which use: office, multimedia, gaming, workstation, subnotebook, convertible)? > What makes the best one (spec and tested tier, filtered by what fits your build)?
+- level1_groups: Computers; Build a PC (PC parts); Peripherals and desk setup; Printing and scanning; External storage and media; Home network and backup power; Cables, adapters and chargers; Electronics and maker parts; Point of sale and security keys; Laptop power and protection
+- quality_markers: Processors and graphics cards: measured performance in the class (benchmark rank) > efficiency (power draw, TDP) > platform life and features (socket, PCIe generation, VRAM for cards) > cooling and noise of the partner build; maker class ladder is only a guide (Core Ultra 9 > 7 > 5; Ryzen 9 > 7 > 5 > 3; RTX xx90 > xx80 > xx70 > xx60 > xx50); Power supplies: build quality and protections (Cultists tier A > B > C > D > E > F) > efficiency (80 PLUS Ruby > Titanium > Platinum > Gold > Silver > Bronze > Standard) > noise (Cybenetics LAMBDA A++ > A+ > A > A- > Standard) > connector standard (ATX 3.x, 12V-2x6) > warranty; Internal SSD: sustained speed and PCIe generation (Gen5 > Gen4 > Gen3 > SATA) > NAND type (SLC > MLC > TLC > QLC) > DRAM cache and endurance (TBW); Laptops and complete computers: Notebookcheck weights by use: display > keyboard and pointing > battery > performance for the use > temperature and noise > case and build > connectivity, weight; Keyboards and switches: feel is preference, not rank (linear, tactile, clicky) > switch technology (mechanical, optical, Hall effect with adjustable actuation, capacitive/Topre) > hot-swap and build (plate, case, stabilisers) > keycaps; Monitors, networking, printers: panel, refresh and colour; Wi-Fi standard and coverage; print cost per page (provisional: no evidence fetched in HOL_EV_6, memo only)
+- quality_signals: 80 PLUS (CLEAResult; voluntary; class (i) attribute psu_efficiency, never a tier); Cybenetics ETA and LAMBDA (Cybenetics; class (i) attributes, memo S16); Cultists PSU tier list (community editorial, class (iii) tier entry on PSU series, dated, stale_after; memo S14); Notebookcheck rating (Notebookcheck; percentage score with bands Excellent 88-100 > Good 75-87 > Satisfactory 63-74 > Sufficient 50-62 > Insufficient 0-49; class (ii)/(iii) tier entry on laptop named forms, price excluded); Tom's Hardware CPU, GPU and SSD hierarchies (class (ii), memo S17-S19, thin fetch); Chinese CPU and GPU rank ladders (memo S20, S21, class (ii)); Geizhals editorial test reports and user ratings (platform_tag class (vi)); JEDEC DDR speed grades and USB-IF certification (class (i) attributes); Cherry MX colour code (reference naming for switch feel: an alias and attribute, not a tier); condition scales New / Open box / Refurbished / Used (C16 registry rows)
+- maker_role: owner (confirm maker_roles.tsv D1; no change): shoppers choose a part type and model; makers enter as owners of lines (Core i7, RTX 50, Prime) and named forms; chip maker vs board maker vs OEM stay maker_relations
+- side_view: By brand tab beside the aisles (Apos By Brand beside By Category; Kakaku maker and chip-maker facets), listing makers only through their lines and models; plus a generated 'What fits' compatibility view from C13 (socket, chipset, memory, form factor) once platform rows exist
+- evidence_rows: PCPartsPicker component categories reference; Wikipedia 80 Plus; Geizhals (via Wikipedia article); Notebookcheck Our Rating Criteria; Wikipedia Mechanical keyboard; Apos Audio (keyboards and desk products); Kakaku.com (via Wikipedia article); memo D1 S01-S37 (sections 2, 5, 6)
+- maker role row: {'code': 'D1', 'scope': '*', 'role': 'owner', 'provisional': 'no', 'reason': 'shopper paths; models and lines carry the maker (owner, 2026-10-17)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-D1-1 | Computers | 1 |  | D1.1
+- G-D1-2 | Laptops and 2-in-1s | 2 | G-D1-1 | D1.1.01; D1.1.12
+- G-D1-3 | Desktops and servers | 2 | G-D1-1 | D1.1.02; D1.1.10; D1.1.04; D1.1.03; D1.1.11
+- G-D1-4 | Build-it-yourself bodies and single-board computers | 2 | G-D1-1 | D1.1.05; D1.1.06
+- G-D1-5 | Vintage and historic computers | 2 | G-D1-1 | D1.1.07; D1.1.08; D1.1.09
+- G-D1-6 | Build a PC (PC parts) | 1 |  | D1.2
+- G-D1-7 | Processors | 2 | G-D1-6 | D1.2.1.01
+- G-D1-8 | Cooling | 2 | G-D1-6 | D1.2.2.01; D1.2.2.02; D1.2.2.03; D1.2.2.04; D1.2.2.05; D1.2.2.06; D1.2.2.07; D1.2.2.08
+- G-D1-9 | Motherboards | 2 | G-D1-6 | D1.2.3.01; D1.2.3.02
+- G-D1-10 | Memory | 2 | G-D1-6 | D1.2.4.01; D1.2.4.02
+- G-D1-11 | Internal storage | 2 | G-D1-6 | D1.2.5.01; D1.2.5.02
+- G-D1-12 | Graphics cards | 2 | G-D1-6 | D1.2.6.01; D1.2.6.02
+- G-D1-13 | Cases | 2 | G-D1-6 | D1.2.7.01
+- G-D1-14 | Power supplies | 2 | G-D1-6 | D1.2.8.01
+- G-D1-15 | Expansion cards | 2 | G-D1-6 | D1.2.9.01; D1.2.9.02; D1.2.9.03; D1.2.9.04; D1.2.9.05
+- G-D1-16 | Internal cables | 2 | G-D1-6 | D1.2.10.01
+- G-D1-17 | Peripherals and desk setup | 1 |  | D1.3
+- G-D1-18 | Monitors | 2 | G-D1-17 | D1.3.4.01
+- G-D1-19 | Keyboards | 2 | G-D1-17 | D1.3.1.01; D1.3.1.02; D1.3.1.03
+- G-D1-20 | Mechanical keyboard kits, switches and keycaps | 2 | G-D1-17 | D1.3.2.01; D1.3.2.02; D1.3.2.03; D1.3.2.04; D1.3.2.05; D1.3.2.06; D1.3.2.07
+- G-D1-21 | Mice, trackballs and pen tablets | 2 | G-D1-17 | D1.3.3.01; D1.3.3.02; D1.3.3.03
+- G-D1-22 | Webcams, microphones and capture | 2 | G-D1-17 | D1.3.5.01; D1.3.5.02; D1.3.5.03
+- G-D1-23 | Docks and desk accessories | 2 | G-D1-17 | D1.3.6.01; D1.3.6.02; D1.3.6.03; D1.3.6.04; D1.3.6.05; D1.3.6.06
+- G-D1-24 | Printing and scanning | 1 |  | D1.4
+- G-D1-25 | Printers and scanners | 2 | G-D1-24 | D1.4.01; D1.4.02; D1.4.03; D1.4.04
+- G-D1-26 | Ink and toner | 2 | G-D1-24 | D1.4.06; D1.4.07
+- G-D1-27 | 3D printers and filament | 2 | G-D1-24 | D1.4.05; D1.4.08
+- G-D1-28 | External storage and media | 1 |  | D1.5
+- G-D1-29 | External drives and enclosures | 2 | G-D1-28 | D1.5.01; D1.5.02; D1.5.06
+- G-D1-30 | Flash drives, memory cards and readers | 2 | G-D1-28 | D1.5.03; D1.5.04; D1.5.05
+- G-D1-31 | Network storage (NAS) | 2 | G-D1-28 | D1.5.07
+- G-D1-32 | Disc and legacy drives | 2 | G-D1-28 | D1.5.08; D1.5.09
+- G-D1-33 | Home network and backup power | 1 |  | D1.6
+- G-D1-34 | Modems and routers | 2 | G-D1-33 | D1.6.01; D1.6.02
+- G-D1-35 | Wi-Fi coverage | 2 | G-D1-33 | D1.6.03; D1.6.04
+- G-D1-36 | Wired network | 2 | G-D1-33 | D1.6.05; D1.6.06; D1.6.07
+- G-D1-37 | Backup power (UPS) | 2 | G-D1-33 | D1.6.08
+- G-D1-38 | Cables, adapters and chargers | 1 |  | D1.7
+- G-D1-39 | Video and data cables | 2 | G-D1-38 | D1.7.01; D1.7.02; D1.7.03
+- G-D1-40 | Network cables | 2 | G-D1-38 | D1.7.04
+- G-D1-41 | Audio and music cables | 2 | G-D1-38 | D1.7.05; D1.7.06; D1.7.07; D1.7.08
+- G-D1-42 | Adapters, hubs and chargers | 2 | G-D1-38 | D1.7.09; D1.7.10
+- G-D1-43 | Electronics and maker parts | 1 |  | D1.8
+- G-D1-44 | Maker boards and kits | 2 | G-D1-43 | D1.8.1.01; D1.8.1.02; D1.8.1.03
+- G-D1-45 | Passive components | 2 | G-D1-43 | D1.8.2.01; D1.8.2.02; D1.8.2.03; D1.8.2.04; D1.8.2.05; D1.8.2.06; D1.8.2.07; D1.8.2.08
+- G-D1-46 | Semiconductors | 2 | G-D1-43 | D1.8.3.01; D1.8.3.02; D1.8.3.03; D1.8.3.04
+- G-D1-47 | Electromechanical and interconnect | 2 | G-D1-43 | D1.8.4.01; D1.8.4.02
+- G-D1-48 | Sensors, RF and identification | 2 | G-D1-43 | D1.8.5.01; D1.8.5.02
+- G-D1-49 | Point of sale and security keys | 1 |  | D1.9
+- G-D1-50 | Point of sale | 2 | G-D1-49 | D1.9.01; D1.9.02; D1.9.03; D1.9.04
+- G-D1-51 | Security keys and hardware wallets | 2 | G-D1-49 | D1.9.05; D1.9.06
+- G-D1-52 | Laptop power and protection | 1 |  | D1.10
+- G-D1-53 | Laptop chargers, batteries and sleeves | 2 | G-D1-52 | D1.10.01; D1.10.02; D1.10.03
+
+## Current quality markers (group_id | marker | values | why | evidence)
+
+## Kinds (kind_id | stored name | native name | definition)
+- D1.1.02 | Tower desktop PC |  | complete desktop computer in a tower case, with the parts fitted.
+- D1.1.04 | Mini PC |  | complete desktop computer in a small box, sold as a ready machine.
+- D1.1.03 | All-in-one PC |  | complete computer with the screen and the computer in one body.
+- D1.1.07 | Keyboard computer |  | computer built into its keyboard (historic class).
+- D1.1.01 | Laptop |  | portable computer with its screen and keyboard in one folding body.
+- D1.1.08 | Pocket computer |  | programmable pocket computer (historic class; provisional until attested).
+- D1.1.05 | Barebone kit |  | case, board and power supply sold as the body of a machine, to which the buyer adds the rest.
+- D1.1.09 | Trainer kit |  | kit sold to teach computing (historic class; provisional until attested).
+- D1.2.1.01 | Processor |  | central processing chip (CPU) of a computer.
+- D1.2.3.01 | Motherboard [mainboard, Mainboard] | マザーボード | main circuit board of a computer, sold alone.
+- D1.2.3.02 | Board with CPU fitted |  | one object sold with the CPU soldered or fitted to the board, to be built into a machine.
+- D1.2.4.01 | DIMM memory module |  | full-size memory module for desktop computers.
+- D1.2.4.02 | SODIMM memory module |  | small-outline memory module for notebooks and small machines.
+- D1.2.6.01 | Graphics card [video card; グラフィックボード; ビデオカード] | グラフィックボード・ビデオカード | expansion card that renders images for a display or computes in place of a CPU, with or without display outputs.
+- D1.2.6.02 | External GPU enclosure |  | housing that holds a graphics card outside the computer and connects to it.
+- D1.2.8.01 | PC power supply unit | 電源ユニット | power supply fitted in a computer case to feed its parts.
+- D1.2.7.01 | PC case | PCケース | enclosure that holds a computer's board, drives and cards.
+- D1.2.2.01 | Air CPU cooler |  | heatsink with a fan that cools a processor by air.
+- D1.2.2.02 | All-in-one liquid cooler |  | sealed pump, radiator and block unit that cools a processor or graphics chip by liquid.
+- D1.2.2.03 | Custom-loop parts |  | separate parts (blocks, radiators, pumps, tubing) for building a liquid cooling loop.
+- D1.2.2.04 | Case fan |  | fan fitted to a computer case to move air.
+- D1.2.2.05 | Thermal paste | グリス・熱伝導シート | paste applied between a chip and its cooler.
+- D1.2.2.07 | M.2 heatsink |  | heat spreader fitted to an M.2 drive.
+- D1.2.2.08 | Fan controller | ファンコントローラー | unit that sets the speed of case fans.
+- D1.2.9.01 | Sound card |  | card fitted inside the computer that handles audio (internal only; an external or USB one is D3).
+- D1.2.9.02 | Network adapter card |  | card fitted inside the computer that adds a network connection.
+- D1.2.9.03 | Video capture card | ビデオキャプチャー | card fitted inside the computer that records a video signal.
+- D1.2.9.04 | I/O expansion card |  | card fitted inside the computer that adds ports.
+- D1.2.10.01 | Internal PC cable |  | cable that connects parts inside a computer case, including the PCIe riser cable by default.
+- D1.2.5.01 | Internal SSD |  | solid-state drive fitted inside a computer, of any interface or size (M.2 or 2.5-inch).
+- D1.2.5.02 | Internal HDD |  | spinning-disk drive fitted inside a computer.
+- D1.5.01 | External SSD |  | solid-state drive in its own case, connected from outside.
+- D1.5.02 | External HDD |  | spinning-disk drive in its own case, connected from outside.
+- D1.5.03 | USB flash drive |  | small flash storage device that plugs into a USB port.
+- D1.5.04 | Memory card |  | flash card of a standard format (SD, microSD, CompactFlash, CFexpress); a proprietary console-only card is D5.
+- D1.5.06 | Drive enclosure |  | housing, sold empty, that turns a bare drive into an external drive.
+- D1.5.08 | Optical drive |  | drive that reads or writes discs, fitted in a drive bay or in its own case (connection is an attribute).
+- D1.5.07 | NAS |  | network-attached storage device that holds drives and serves files over a network (a recorder sold only to run security cameras is B8).
+- D1.3.1.01 | Keyboard |  | key-based input device sold ready to type (size class is an attribute).
+- D1.3.2.02 | Linear keyboard switch |  | loose keyboard switch with a smooth press and no bump or click.
+- D1.3.2.03 | Tactile keyboard switch |  | loose keyboard switch with a felt bump and no click.
+- D1.3.2.04 | Clicky keyboard switch |  | loose keyboard switch with a felt bump and an audible click.
+- D1.3.3.01 | Mouse |  | hand-held pointing device moved over a surface.
+- D1.3.3.02 | Trackball |  | pointing device operated by a fixed ball.
+- D1.3.4.01 | Monitor |  | display sold for use with a computer.
+- D1.3.5.01 | Webcam |  | camera made for use with a computer.
+- D1.3.3.03 | Pen tablet |  | drawing tablet used with a pen, with or without a built-in screen (a pen display is a pen tablet with a screen).
+- D1.4.05 | 3D printer |  | machine that builds objects by additive manufacturing.
+- D1.5.05 | Memory-card reader |  | device that reads memory cards and connects to a computer.
+- D1.9.04 | Barcode scanner |  | device that reads barcodes, at a till or for stock.
+- D1.3.6.02 | KVM switch |  | switch that shares one keyboard, display and mouse between several computers.
+- D1.4.02 | Multifunction printer |  | machine that prints and scans (and copies) for use with a computer.
+- D1.4.04 | Scanner |  | machine that scans documents or images into a computer.
+- D1.3.2.01 | Keyboard kit |  | case, plate and circuit board sold to be built into a keyboard.
+- D1.3.1.02 | Numeric keypad |  | separate input device with number keys.
+- D1.3.5.03 | Video capture device |  | external device that records a video signal into a computer (connection is an attribute).
+- D1.5.09 | Floppy disk drive |  | drive that reads or writes floppy disks, internal or in its own case (connection is an attribute).
+- D1.4.01 | Printer |  | machine that prints from a computer.
+- D1.3.5.02 | Speech microphone |  | microphone made for speech, calls or streaming.
+- D1.6.02 | Wireless router |  | network device that routes traffic and provides wireless access.
+- D1.6.03 | Access point |  | network device that adds wireless access to a wired network.
+- D1.6.05 | Network switch |  | network device that connects wired devices on a local network.
+- D1.6.08 | UPS |  | uninterruptible power supply that keeps equipment running through a mains failure (a portable power station is B7).
+- D1.7.01 | USB cable |  | cable with USB connectors.
+- D1.7.02 | HDMI cable |  | cable with HDMI connectors.
+- D1.7.06 | Instrument cable |  | cable with standard connectors for connecting an instrument.
+- D1.7.07 | Microphone cable |  | cable with standard connectors for connecting a microphone.
+- D1.7.04 | LAN cable |  | network cable with standard patch connectors.
+- D1.7.08 | MIDI cable |  | cable with MIDI connectors.
+- D1.7.09 | Adapter or hub |  | device that converts one standard connector to another or splits one port into several.
+- D1.3.6.01 | Docking station |  | base that carries power delivery and several outputs for a laptop, which an adapter or hub does not.
+- D1.7.10 | Generic charger |  | charger for many devices (USB, GaN or Qi); a charger made for one device follows it.
+- D1.7.05 | Audio cable |  | audio cable with standard connectors.
+- D1.9.01 | Point-of-sale terminal |  | terminal at which a sale is rung up and paid.
+- D1.9.02 | Payment card reader |  | device that reads payment cards.
+- D1.9.03 | Cash register |  | till that records sales and holds cash.
+- D1.9.05 | Security key |  | device used to prove identity when signing in.
+- D1.9.06 | Hardware wallet |  | device that holds cryptocurrency keys.
+- D1.1.06 | Single-board computer |  | complete computer on one board that runs an operating system (a board that does is this kind even with a microcontroller beside it).
+- D1.8.1.01 | Microcontroller board |  | board that runs one program on a microcontroller.
+- D1.8.2.01 | Capacitor |  | passive component that stores charge.
+- D1.8.2.02 | Resistor |  | passive component that resists current.
+- D1.8.2.03 | Inductor |  | passive component that stores energy in a magnetic field.
+- D1.8.3.01 | Microcontroller chip |  | loose integrated circuit that holds a processor, memory and ports.
+- D1.8.3.02 | MOSFET |  | loose transistor used as a switch or amplifier.
+- D1.8.4.01 | Relay |  | loose switch operated by an electromagnet.
+- D1.8.4.02 | Component connector |  | loose connector for circuit boards and wiring.
+- D1.8.5.01 | Sensor |  | loose component that senses a physical quantity.
+- D1.8.1.03 | Electronics component kit |  | component kit without an experiment programme.
+- D1.8.5.02 | Blank RFID tag or card |  | unissued RFID tag or card (an issued card is F5).
+- D1.4.06 | Ink cartridge |  | ink supply made for one printer type.
+- D1.4.07 | Toner cartridge |  | toner supply made for one printer type.
+- D1.4.08 | 3D-printer filament |  | filament made for 3D printers.
+- D1.10.01 | Laptop AC adapter |  | power adapter made for one laptop.
+- D1.10.02 | Laptop battery |  | battery made for one laptop.
+- D1.10.03 | Laptop sleeve or case |  | sleeve or case made to hold or protect one laptop.
+- D1.3.6.03 | Monitor arm or stand |  | arm, bracket or stand made to hold one screen.
+- D1.3.6.05 | Laptop cooler |  | pad or stand with fans that cools a laptop.
+- D1.3.2.05 | Keycap set |  | set of keycaps for a keyboard.
+- D1.3.2.06 | Keyboard plate |  | plate that holds switches in a keyboard.
+- D1.3.2.07 | Keyboard stabiliser |  | stabiliser for the long keys of a keyboard.
+- D1.2.2.06 | Thermal pad |  | solid sheet of thermal interface material cut to sit between a chip or drive and its cooler.
+- D1.2.9.05 | TV tuner card |  | card fitted inside the computer that receives broadcast television.
+- D1.3.1.03 | Macro pad |  | separate input device of a few programmable keys, dials or sliders used for shortcuts, not for typing.
+- D1.4.03 | Wide-format printer |  | printer that prints on roll or sheet media wider than A3, for drawings and posters.
+- D1.6.04 | Range extender |  | network device that receives a wireless signal and rebroadcasts it to widen coverage.
+- D1.6.06 | Powerline adapter |  | adapter that carries a network connection over a building's mains wiring, sold in pairs or kits.
+- D1.6.01 | Modem |  | device that connects a home network to a provider's cable, DSL, fibre or cellular line; one with a built-in router is this kind.
+- D1.6.07 | PoE injector |  | device that adds power to an Ethernet cable to feed a powered network device.
+- D1.7.03 | DisplayPort cable |  | cable with DisplayPort or Mini DisplayPort connectors.
+- D1.8.2.04 | Potentiometer |  | loose variable resistor set by a shaft, slider or trimmer screw.
+- D1.8.2.05 | Thermistor |  | loose resistor whose resistance changes with temperature (NTC or PTC).
+- D1.8.2.06 | Varistor |  | loose voltage-dependent resistor used to absorb surges.
+- D1.8.2.07 | Transformer |  | loose component that transfers power or signal between coils.
+- D1.8.2.08 | Crystal or oscillator |  | loose frequency-control component (quartz crystal, resonator or oscillator).
+- D1.8.3.03 | Diode |  | loose semiconductor that lets current pass one way (rectifier, Zener, Schottky).
+- D1.8.3.04 | LED |  | loose light-emitting diode component for circuits (a lamp or bulb is B-lighting).
+- D1.8.1.02 | Add-on board for a maker board |  | board made to plug onto one maker-board family's header (HAT, shield, FeatherWing).
+- D1.3.6.04 | Laptop stand |  | stand or riser without fans made to hold one laptop at a height or angle.
+- D1.1.10 | Desktop-case PC |  | complete desktop computer in a low horizontal case made to sit flat on the desk, often under the monitor (historic desktop and small-form-factor desktop).
+- D1.1.11 | Rack-mount server |  | complete computer in a rack-mount chassis (1U to 4U) made to be fitted in a 19-inch rack.
+- D1.1.12 | Detachable 2-in-1 computer |  | portable computer whose screen unit detaches from a keyboard that comes with it (a tablet sold with an optional keyboard is D2).
+- D1.3.6.06 | Mouse pad or desk mat |  | pad or mat with a surface made for moving a computer mouse on, from a mouse-sized pad to a desk mat that lies under keyboard and mouse; size and surface are attributes.

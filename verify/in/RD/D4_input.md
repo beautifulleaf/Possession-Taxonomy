@@ -1,0 +1,181 @@
+# D4 Cameras & Photography: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (what you are buying: camera, lens, lighting, support, film, darkroom), with camera type first inside cameras
+- reason: The fetched guides put camera type straight after budget and need (Shotkit: camera type DSLR, mirrorless, Micro Four Thirds, compact, bridge, action; Digital Trends: point-and-shoot, mirrorless, DSLR; Adorama: goals > analog or digital > interchangeable or fixed lens > DSLR or mirrorless), and the system (lens mount) is the next filter, carried by a C13 view because platforms are never levels.
+- ladder: What are you buying (cameras, lenses, lighting, support, film, darkroom, accessories)? > Which type (digital, film or instant, then body class: mirrorless, DSLR, rangefinder, compact, bridge, action, cine; for lenses the optical design) and which system (mount or film format, as a filter)? > What makes the best one (sensor size, lens, stabilisation, build and support)?
+- level1_groups: Cameras; Lenses and optical attachments; Lighting; Tripods, gimbals and support; Film and instant film; Darkroom and processing; Camera accessories made for one camera or lens
+- quality_markers: Cameras: sensor size first (medium format > full frame > APS-C > Micro Four Thirds > 1-inch > 1/2.3-inch) > pixel size over megapixel count > lens quality and lens availability in the system > stabilisation (in-body, then lens) > autofocus and speed > video features > build, weather sealing and long-term support; brand does not change image quality (Shotkit); Lenses: sharpness > distortion > vignetting > transmission (T-stop) > chromatic aberration (DXOMARK lens criteria) > maximum aperture > build; Film: process and speed (ISO) with grain and latitude (memo S21, S31); Lighting and support: power and recycle, colour accuracy; load capacity and stability (provisional, memo only)
+- quality_signals: DXOMARK sensor score (colour depth, dynamic range, low-light ISO) and lens score (sharpness, distortion, vignetting, transmission, chromatic aberration) (DXOMARK; class (ii) tier entries on named forms, secret weighting: caveat); DXOMARK body classes entry-level, semi-pro, professional (class (iii)); maker lens lines Canon L, Sony G Master, Sigma Art and Sony body ladder (class (iv) lines with line_rank; L and G Master still †); editorial Best labels (Shotkit, Digital Trends; class (iii), weak); ISO 12232 speed and film box speed (class (i) attributes); KEH, MPB and Map Camera condition grades (C16 registry rows)
+- maker_role: owner (confirm maker_roles.tsv D4; set provisional = no): body and lens models carry the maker; identity makers (Leica, Hasselblad, Polaroid, Kodak, Ilford, Lomography) shown through their lines and named forms
+- side_view: By system (lens mount and film format) view beside the type tree, generated from C13 rows (B&H, Map Camera and KEH lead lenses by mount, memo S04, S15, S25; Shotkit: lens availability weighs heavily); a brand tab second
+- evidence_rows: Shotkit camera buying guide; Adorama choosing the best camera; Digital Trends digital camera buying guide; Wikipedia DXOMARK (sensor and lens scores); memo D4 sections 2, 5, 6 (S03, S04, S15, S18, S21, S24-S26, S29, S31-S33)
+- maker role row: {'code': 'D4', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'camera and lens systems carry the maker'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-D4-1 | Cameras | 1 |  | D4.1
+- G-D4-8 | Digital cameras | 2 | G-D4-1 | D4.1.1.01; D4.1.1.02; D4.1.1.03; D4.1.1.04; D4.1.1.05; D4.1.1.06; D4.1.1.07; D4.1.1.08; D4.1.1.09; D4.1.1.10; D4.1.1.11; D4.1.1.12; D4.1.1.13; D4.1.1.14
+- G-D4-9 | Film cameras | 2 | G-D4-1 | D4.1.2.01; D4.1.2.02; D4.1.2.03; D4.1.2.04; D4.1.2.05; D4.1.2.06; D4.1.2.07; D4.1.2.08; D4.1.2.09
+- G-D4-10 | Instant cameras | 2 | G-D4-1 | D4.1.3.01; D4.1.3.02; D4.1.3.03
+- G-D4-2 | Lenses and optical attachments | 1 |  | D4.2.01; D4.2.02; D4.2.03; D4.2.04; D4.2.05; D4.2.06; D4.2.07; D4.2.08; D4.2.09; D4.2.10; D4.2.11; D4.2.12; D4.2.13; D4.2.14
+- G-D4-3 | Lighting | 1 |  | D4.3
+- G-D4-11 | Flash | 2 | G-D4-3 | D4.3.1.01; D4.3.1.02; D4.3.1.03
+- G-D4-12 | Continuous light | 2 | G-D4-3 | D4.3.2.01; D4.3.2.02; D4.3.2.03; D4.3.2.04; D4.3.2.05; D4.3.2.06; D4.3.2.07
+- G-D4-13 | Light modifiers | 2 | G-D4-3 | D4.3.3.01; D4.3.3.02; D4.3.3.03; D4.3.3.04; D4.3.3.05; D4.3.3.06; D4.3.3.07; D4.3.3.08; D4.3.3.09; D4.3.3.10; D4.3.3.11; D4.3.3.12; D4.3.3.13
+- G-D4-14 | Light stands and mounts | 2 | G-D4-3 | D4.3.4.01; D4.3.4.02; D4.3.4.03
+- G-D4-4 | Tripods, gimbals and support | 1 |  | D4.4.01; D4.4.02; D4.4.03; D4.4.04; D4.4.05; D4.4.06; D4.4.07; D4.4.08; D4.4.09; D4.4.10; D4.4.11; D4.4.12; D4.4.13; D4.4.14
+- G-D4-5 | Film and instant film | 1 |  | D4.5.01; D4.5.02; D4.5.03; D4.5.04; D4.5.05; D4.5.06; D4.5.07
+- G-D4-6 | Darkroom and processing | 1 |  | D4.6
+- G-D4-15 | Film processing | 2 | G-D4-6 | D4.6.1.01; D4.6.1.02; D4.6.1.03; D4.6.1.04
+- G-D4-16 | Enlarging and exposure | 2 | G-D4-6 | D4.6.2.01; D4.6.2.02; D4.6.2.03; D4.6.2.04; D4.6.2.05; D4.6.2.06; D4.6.2.07; D4.6.2.08
+- G-D4-17 | Print processing | 2 | G-D4-6 | D4.6.3.01; D4.6.3.02; D4.6.3.03; D4.6.3.04; D4.6.3.05
+- G-D4-18 | Darkroom materials | 2 | G-D4-6 | D4.6.4.01; D4.6.4.02; D4.6.4.03; D4.6.4.04
+- G-D4-7 | Camera accessories made for one camera or lens | 1 |  | D4.7.01; D4.7.02; D4.7.03; D4.7.04; D4.7.05; D4.7.06; D4.7.07; D4.7.08; D4.7.09; D4.7.10; D4.7.11; D4.7.12; D4.7.13; D4.7.14; D4.7.15; D4.7.16
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-D4-1 | sensor size | medium format > full frame > APS-C > Micro Four Thirds > 1-inch > 1/2.3-inch | Sensor size first; brand does not change image quality. | proposals.tsv D4 row (quality_markers); Shotkit camera buying guide; Wikipedia DXOMARK
+- G-D4-1 | pixel size |  | Weighed over megapixel count. | proposals.tsv D4 row (quality_markers); Shotkit camera buying guide
+- G-D4-1 | lens quality and lens availability in the system |  | The system's lenses follow the sensor. | proposals.tsv D4 row (quality_markers); Adorama choosing the best camera
+- G-D4-1 | stabilisation | in-body, then lens | After the lens system. | proposals.tsv D4 row (quality_markers); Digital Trends digital camera buying guide
+- G-D4-1 | autofocus and speed |  | After stabilisation. | proposals.tsv D4 row (quality_markers); Digital Trends digital camera buying guide
+- G-D4-1 | video features |  | After autofocus. | proposals.tsv D4 row (quality_markers); Digital Trends digital camera buying guide
+- G-D4-1 | build, weather sealing and long-term support |  | Weighed last. | proposals.tsv D4 row (quality_markers); Adorama choosing the best camera
+- G-D4-2 | sharpness |  | First of the DXOMARK lens criteria. | proposals.tsv D4 row (quality_markers); Wikipedia DXOMARK
+- G-D4-2 | distortion |  | DXOMARK lens criterion. | proposals.tsv D4 row (quality_markers); Wikipedia DXOMARK
+- G-D4-2 | vignetting |  | DXOMARK lens criterion. | proposals.tsv D4 row (quality_markers); Wikipedia DXOMARK
+- G-D4-2 | transmission (T-stop) |  | DXOMARK lens criterion. | proposals.tsv D4 row (quality_markers); Wikipedia DXOMARK
+- G-D4-2 | chromatic aberration |  | DXOMARK lens criterion. | proposals.tsv D4 row (quality_markers); Wikipedia DXOMARK
+- G-D4-2 | maximum aperture |  | After the measured criteria. | proposals.tsv D4 row (quality_markers)
+- G-D4-2 | build |  | Weighed last. | proposals.tsv D4 row (quality_markers)
+- G-D4-5 | process and speed (ISO) |  | Memo S21, S31. | proposals.tsv D4 row (quality_markers); memo D4
+- G-D4-5 | grain and latitude |  | Memo S21, S31. | proposals.tsv D4 row (quality_markers); memo D4
+- G-D4-3 | power and recycle time |  | Provisional, memo only. | proposals.tsv D4 row (quality_markers); memo D4
+- G-D4-3 | colour accuracy |  | Provisional, memo only. | proposals.tsv D4 row (quality_markers); memo D4
+- G-D4-4 | load capacity |  | Provisional, memo only. | proposals.tsv D4 row (quality_markers); memo D4
+- G-D4-4 | stability |  | Provisional, memo only. | proposals.tsv D4 row (quality_markers); memo D4
+
+## Kinds (kind_id | stored name | native name | definition)
+- D4.1.1.01 | Mirrorless interchangeable-lens camera |  | digital stills and video body with exchangeable lenses and no reflex mirror; any sensor size, medium format included.
+- D4.1.1.02 | Digital single-lens reflex camera |  | digital body with exchangeable lenses and a mirror-and-prism optical viewfinder.
+- D4.1.1.03 | Digital rangefinder camera |  | digital body with a rangefinder focusing and framing window and exchangeable lenses.
+- D4.1.1.04 | Compact fixed-lens camera |  | digital stills camera with a lens that cannot be removed, built small for pocket or carry use.
+- D4.1.1.05 | Bridge or superzoom camera |  | digital stills camera with a fixed long-range zoom lens in a larger, SLR-like body.
+- D4.1.1.06 | Camcorder |  | handheld camera built mainly to record video for long takes, with a fixed or built-in zoom lens.
+- D4.1.1.07 | Digital cinema camera |  | professional motion-picture camera body for cinema or high-end video, with cine mount and cine connectors.
+- D4.1.1.08 | Action camera |  | small rugged camera made to be mounted on a person, helmet, bike or vehicle for video.
+- D4.1.1.09 | 360-degree camera |  | camera with two or more lenses that records a full spherical view.
+- D4.1.1.10 | Pocket gimbal camera |  | small handheld device with a camera fixed to a built-in motorised stabilising gimbal.
+- D4.1.1.11 | Trail camera |  | camera in a weatherproof housing that is left outdoors and triggered by motion, mainly for wildlife (K-156; wildlife is a setting tag).
+- D4.1.1.12 | Photo booth |  | cabinet or stand that combines a camera, light and printer to take pictures of guests (D4-O1).
+- D4.1.1.13 | Camera drone |  | unmanned aircraft made for filming, carrying a stabilised camera (K-97).
+- D4.1.2.01 | Film single-lens reflex camera |  | film body with a mirror-and-prism viewfinder that shows the picture through the taking lens.
+- D4.1.2.02 | Film rangefinder camera |  | film body with a rangefinder window for focusing and framing.
+- D4.1.2.03 | Viewfinder or point-and-shoot film camera |  | film camera with a separate viewfinder and simple controls, including plastic lo-fi cameras that take real pictures.
+- D4.1.2.04 | Twin-lens reflex camera |  | film body with two lenses, one for the waist-level viewing screen and one for taking.
+- D4.1.2.05 | View camera |  | large-format camera with bellows, ground-glass back and lens movements.
+- D4.1.2.06 | Box or folding camera |  | simple box-shaped camera, or one with a folding bellows body, for roll film.
+- D4.1.2.07 | Single-use camera |  | pre-loaded film camera sold to be used once and sent for processing.
+- D4.1.2.08 | Pinhole camera |  | camera whose lens is a small aperture with no glass.
+- D4.1.3.01 | Integral-film instant camera |  | camera that makes a self-developing print on integral instant film.
+- D4.1.3.02 | Peel-apart instant camera |  | camera that uses pack film with a separate negative and positive that are peeled apart.
+- D4.1.3.03 | Hybrid instant camera |  | camera with a digital sensor and screen that also prints on instant film.
+- D4.2.01 | Prime lens |  | lens with one fixed focal length.
+- D4.2.02 | Zoom lens |  | lens with a variable focal length.
+- D4.2.03 | Macro lens |  | lens built to focus close and reproduce small subjects at high magnification.
+- D4.2.04 | Fisheye lens |  | ultra-wide lens with a very strong curved (non-rectilinear) projection.
+- D4.2.05 | Tilt-shift lens |  | lens whose optics tilt or shift to control perspective and the plane of focus.
+- D4.2.06 | Anamorphic lens |  | lens that squeezes the image horizontally for later de-squeezing to a wider frame.
+- D4.2.07 | Special-effect lens |  | lens made to give a deliberate effect such as soft focus, swirl or selective blur.
+- D4.2.08 | Cine lens |  | lens built for motion-picture work, marked in T-stops, with geared rings and a cine mount.
+- D4.2.09 | Teleconverter |  | optical unit fitted between camera and lens that lengthens the focal length.
+- D4.2.10 | Close-up lens |  | simple glass element fitted in front of a lens to focus closer.
+- D4.2.11 | Lens filter |  | glass or resin disc or plate that fits a lens front to alter the light reaching it.
+- D4.2.12 | Mount adapter |  | ring with no optics that fits a lens of one mount to a body of another.
+- D4.2.13 | Focal reducer |  | mount adapter with optics that shorten the focal length and widen the aperture while changing mounts.
+- D4.3.1.01 | Speedlight (flashgun) |  | small battery flash that mounts on the camera hot shoe or a stand.
+- D4.3.1.02 | Studio monolight (strobe head) |  | self-contained studio flash head with its own power supply and modelling lamp.
+- D4.3.1.03 | Studio flash pack and head |  | studio flash whose power pack is separate from one or more flash heads.
+- D4.3.2.01 | LED panel |  | flat panel of LEDs giving constant light.
+- D4.3.2.02 | COB LED light |  | single chip-on-board LED source, usually in a reflector or with a modifier mount.
+- D4.3.2.03 | Fresnel light |  | constant light with a stepped Fresnel lens that focuses the beam.
+- D4.3.2.04 | Ring light |  | circular light source made to surround the lens or the subject's face.
+- D4.3.3.01 | Softbox |  | fabric box with a diffusion front that softens a light placed behind it (strip box and octabox are non-maker named forms).
+- D4.3.3.02 | Umbrella |  | umbrella-shaped reflector or shoot-through diffuser for a light.
+- D4.3.3.03 | Reflector dish |  | metal bowl that directs light from a flash head.
+- D4.3.3.04 | Portable reflector or diffuser |  | collapsible disc or panel that bounces or diffuses light.
+- D4.3.3.05 | Beauty dish |  | shallow dish with a central deflector that gives a crisp, wrapped light.
+- D4.3.3.06 | Snoot |  | tube that narrows a light to a small circle.
+- D4.3.3.07 | Grid |  | honeycomb or egg-crate that narrows and straightens a beam.
+- D4.3.3.08 | Barn doors |  | hinged flaps fitted to a light to cut and shape the beam.
+- D4.3.3.09 | Gobo |  | pattern or shape cutout placed in a beam to project a shadow or pattern.
+- D4.3.3.10 | Colour gel |  | coloured or correction sheet fitted over a light.
+- D4.3.4.01 | Light stand |  | adjustable stand that carries a light or modifier (the C-stand is a non-maker named form).
+- D4.3.4.02 | Boom arm |  | counterweighted arm that carries a light overhead.
+- D4.3.4.03 | Backdrop stand |  | stand and crossbar that hold a studio backdrop (R-1; the backdrop itself is B2).
+- D4.4.01 | Tripod |  | three-legged stand for a camera.
+- D4.4.02 | Tabletop tripod |  | very short tripod for a table or surface.
+- D4.4.03 | Tripod head |  | separate head (ball, pan-and-tilt, fluid, gimbal, panoramic) that mounts on a tripod or monopod.
+- D4.4.04 | Quick-release system |  | plate, L-bracket or collar that lets a camera or lens click on and off a support.
+- D4.4.05 | Monopod |  | single-leg support.
+- D4.4.06 | Handheld gimbal stabiliser |  | motorised handheld stabiliser for a camera.
+- D4.4.07 | Camera rig |  | shoulder or frame system that carries a camera with accessories.
+- D4.4.08 | Camera cage |  | frame that fits around a camera body and gives it mounting points.
+- D4.4.09 | Camera mount and clamp |  | clamp or bracket that fixes a camera to a pole, rail, window or vehicle.
+- D4.5.01 | Black-and-white negative film |  | panchromatic negative film processed in black-and-white chemistry.
+- D4.5.02 | Colour negative film (C-41) |  | still-photography colour negative film processed in the C-41 process.
+- D4.5.03 | Colour negative film (ECN-2, motion picture) |  | cinema colour negative stock processed in the ECN-2 process.
+- D4.5.04 | Colour reversal film (E-6) |  | slide film processed in the E-6 process to a positive.
+- D4.5.05 | Integral instant film |  | self-developing film in a frame that develops in the print itself.
+- D4.5.06 | Peel-apart instant film |  | instant film pack whose negative and positive are separated after development.
+- D4.6.1.01 | Developing tank |  | light-tight tank in which film is processed.
+- D4.6.1.02 | Developing reel |  | spiral reel that holds film in a tank.
+- D4.6.1.03 | Changing bag |  | light-proof bag for loading film into a tank.
+- D4.6.2.01 | Enlarger |  | darkroom projector that exposes a negative onto paper (condenser, diffusion or colour dichroic: `enlarger_type` attribute).
+- D4.6.2.02 | Enlarging lens |  | lens made to project a negative in an enlarger.
+- D4.6.2.03 | Enlarging easel |  | frame that holds paper flat under an enlarger.
+- D4.6.2.04 | Focus finder |  | magnifier used to focus the projected grain.
+- D4.6.2.05 | Darkroom timer |  | timer that controls the enlarger or safelight.
+- D4.6.2.06 | Enlarger filter |  | multigrade or colour filter for the enlarger.
+- D4.6.3.01 | Developing tray |  | shallow tray for print chemistry.
+- D4.6.3.02 | Safelight |  | darkroom lamp that does not fog paper.
+- D4.6.3.03 | Print dryer |  | equipment for drying prints.
+- D4.6.4.01 | Photographic chemistry |  | developer, stop, fixer and related chemistry (`chemical_type` attribute).
+- D4.6.4.02 | Photographic printing paper |  | light-sensitive paper for prints (K-156; `paper_process`: silver-gelatin fibre or resin-coated, chromogenic, inkjet photo paper).
+- D4.7.01 | Camera bag or case |  | bag, backpack or case made to carry a camera and lenses.
+- D4.7.02 | Camera strap |  | strap or sling that carries a camera.
+- D4.7.03 | Camera battery |  | rechargeable battery made for a camera.
+- D4.7.04 | Camera battery charger |  | charger made for a camera battery.
+- D4.7.05 | Battery grip |  | grip that adds a second battery and controls to a camera body.
+- D4.7.06 | Viewfinder or eyepiece |  | viewfinder, eyepiece or magnifier fitted to a camera.
+- D4.7.07 | Remote shutter release |  | cable or wireless release for a camera, including camera-specific cables.
+- D4.7.08 | Light meter (exposure and flash) |  | handheld meter that measures light for exposure.
+- D4.7.09 | Camera cleaning kit |  | kit for cleaning a lens or sensor.
+- D4.7.10 | Underwater housing |  | waterproof case made for a camera.
+- D4.7.11 | Lens hood |  | shade that fits the front of a lens.
+- D4.7.12 | Lens cap |  | cover for the front or rear of a lens.
+- D4.7.13 | Telescope camera adapter |  | T-ring or adapter that fits a camera to a telescope.
+- D4.1.2.09 | Panoramic film camera |  | film camera whose lens swings or whose body rotates to expose a wide panoramic frame (swing-lens and rotating cameras).
+- D4.2.14 | Extension tube |  | lensless spacer ring or tube fitted between body and lens so the lens focuses closer; bellows units are a named form.
+- D4.3.2.05 | LED tube light |  | handheld or mountable LED tube or bar giving constant light along its length (light wand).
+- D4.3.3.11 | Flag or net |  | framed panel of opaque fabric or open net placed in front of a light to block or cut it (flags, cutters, single and double nets).
+- D4.3.3.12 | Overhead frame (butterfly) |  | large frame, with stand mounts, that stretches a silk, solid or net over or beside a scene.
+- D4.3.3.13 | Speed ring |  | ring that holds the rods of a softbox and fixes it to a light's modifier mount.
+- D4.4.14 | Body-worn camera support |  | vest with a spring arm or overhead strut that takes a camera's weight onto the operator's body (Easyrig, Steadicam).
+- D4.6.3.04 | Print washer |  | tank or archival washer that removes fixer from prints with running water.
+- D4.6.2.07 | Negative carrier |  | frame that holds a negative flat in an enlarger, made per enlarger and format.
+- D4.6.2.08 | Contact printing frame (proof printer) |  | glass-topped frame that holds negatives against paper for contact sheets.
+- D4.1.1.14 | Digital back |  | digital capture unit with sensor that replaces the film back of a medium- or large-format camera.
+- D4.3.2.06 | Tungsten light |  | constant light with a tungsten-halogen lamp in an open-face or focusing housing (redhead, blonde); a tungsten Fresnel stays D4.3.2.03.
+- D4.3.2.07 | HMI light |  | daylight constant light with a metal-halide arc lamp run from a separate ballast; an HMI Fresnel stays D4.3.2.03.
+- D4.4.10 | Camera dolly |  | wheeled platform or track dolly that moves a camera smoothly during a shot.
+- D4.4.11 | Camera slider |  | short rail with a carriage that slides a camera in a straight line.
+- D4.4.12 | Camera crane or jib |  | counterweighted arm on a stand or base that raises, lowers and swings a camera.
+- D4.4.13 | Camera pedestal or studio column stand |  | wheeled column stand that raises and lowers a camera in a studio.
+- D4.5.07 | Black-and-white reversal film |  | black-and-white film processed by reversal to a positive slide or cine print.
+- D4.6.1.04 | Film dryer |  | cabinet or heated unit that dries developed film hanging in strips.
+- D4.6.4.03 | Darkroom thermometer |  | thermometer for chemistry temperature in film and print processing.
+- D4.6.4.04 | Darkroom graduate |  | measuring cylinder or jug for mixing photographic chemistry.
+- D4.6.3.05 | Print tongs |  | tongs for moving prints between trays without touching the chemistry.
+- D4.7.14 | Camera screen protector |  | film or glass sheet cut to protect one camera's rear screen.
+- D4.7.15 | Focusing screen |  | interchangeable ground-glass screen fitted in a camera's viewfinder.
+- D4.7.16 | Camera dry cabinet |  | humidity-controlled cabinet made to store cameras and lenses against fungus.

@@ -53,7 +53,7 @@ def item(k):
     dn, also = name_of(k)
     models = sorted(([n["name"], who(n)] for n in nfs[k["kind_id"]]), key=lambda x: (x[1] or "~", x[0]))
     ranges = sorted([l["name"], mk.get(l["maker_id"], "")] for l in lns[k["kind_id"]])
-    d = k["definition"].strip()
+    d = ((disp.get(k["kind_id"]) or {}).get("description") or k["definition"]).strip()
     return {"n": dn, "a": also, "d": d[:1].upper() + d[1:], "m": models, "r": ranges, "s": (k["sources"].split(" | ") or [""])[0].strip()}
 
 (ROOT / "pages/reader").mkdir(exist_ok=True)
@@ -76,7 +76,7 @@ for c in CATS:
             s["k"] = [item(K[kid]) for kid in s["k"]]
             for i, it in enumerate(s["k"]): index.append([code, it["n"], it["a"]])
     counts[code] = len(K)
-    (ROOT / f"pages/reader/{code}.json").write_text(json.dumps({"c": code, "rev": code in props or any(k in disp for k in K), "depts": depts}, ensure_ascii=False, separators=(",", ":")))
+    (ROOT / f"pages/reader/{code}.json").write_text(json.dumps({"c": code, "rev": code in props or (bool(K) and all(k in disp for k in K)), "depts": depts}, ensure_ascii=False, separators=(",", ":")))
 for c in CATS: c["k"] = counts.get(c["c"], 0)
 shell = {"domains": DOMAINS, "cats": CATS, "index": index}
 tpl = (ROOT / "tools/reader_template.html").read_text()

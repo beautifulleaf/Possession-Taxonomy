@@ -1,0 +1,233 @@
+# H1 Personal Care & Beauty: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of product by area (skincare, makeup, hair, fragrance, bath and body, shaving, oral, tools); fragrance opens on scent family and house (scene-driven, owner rule); a brand door sits beside it
+- reason: Sephora opens on body area or product type, with concern and hair type as second-level shortcuts and brands as a separate door (Sephora Middle East). Douglas groups brands under broad areas (Douglas app page). Enthusiast shaving shops group by razor type (Lamnia). So area leads and brand comes next, except in fragrance, which the owner names as scene-driven.
+- ladder: Which area (skin, makeup, hair, fragrance, bath and body, shaving, oral, tools)? > Which product or need (routine step with concern shortcuts; face area; hair job with hair-type shortcuts; scent family; razor type)? > Which brand and product, filtered by skin or hair type, shade, finish, SPF and certification?
+- level1_groups: Skincare; Makeup; Hair; Fragrance; Bath, body and hygiene; Shaving and hair removal; Oral care; Grooming tools, mirrors and scales; Comfort and massage; Parts and refills
+- quality_markers: Skincare and makeup: suitability to skin type and concern > ingredients and formulation (certified share of organic or natural ingredients) > UV protection (SPF and PA grade) > cruelty-free and vegan status. Shaving implements: blade steel and edge keeping > comb type, matched to skill (closed > open > slant; adjustable) > handle material and durability > brush hair grade (badger > boar > horse; synthetic apart; grade ladder not attested). Hair dryers: wattage (more airflow, less heat) > speed and heat settings > attachments > heating technology (ionic, ceramic, tourmaline, titanium) matched to hair type > cool shot. Electric toothbrushes: cleaning or plaque removal (Which?, Consumer Reports; excerpt only) > ease of use > feel > charging and run time. Fragrance: thin in this evidence, so the memo's concentration and house markers stand, provisional
+- quality_signals: COSMOS Organic and COSMOS Natural (COSMOS-standard; certifiers such as Soil Association) and NATRUE (certification attributes, class i); Leaping Bunny / Cruelty Free International (audit every 2-3 years) and Vegan Society trademark (class i attributes); CHOICE Expert Rating for electric toothbrushes (use 45, feel 45, charging 10; 80 percent or more recommended; class ii tier entry with test_version); Which? and Consumer Reports plaque-removal tests (provisional, search excerpt only); SPF and PA grade (standard_met); retailer edits Douglas K-Beauty, Clean Beauty, Naturkosmetik, Nischendüfte, Sephora bestsellers (dated platform_tag, class vi)
+- maker_role: Revise way_in for all of H1 into scoped rows. way_in for H1.4 Fragrance (scene, then house, then scent) and for H1.1, H1.2 and H1.3 preparations (brand door; Douglas leads with brands). Provisional way_in pocket for H1.5 blade shaving (artisan razor, brush and soap makers; Lamnia). owner for appliances and implements (H1.3 hair tools, H1.5 electric shaving, H1.7 Oral, H1.8, H1.9) and for everyday toiletries (H1.6) and parts (H1.10), where shoppers choose a model. The regional maker harvest runs only in the way-in scopes.
+- side_view: Brands A to Z door beside the area tree (Sephora 'Brands'; Douglas brand pages). The fragrance house tab is primary inside Fragrance. K-beauty and J-beauty are routine-philosophy views (scene tags), never a country split.
+- evidence_rows: Sephora Middle East; Douglas Germany (app store page); Lamnia (traditional shaving, Europe); NBC Select hair dryers; CHOICE electric toothbrush test (Australia); Ethical Consumer cosmetics labels; New Beauty K-beauty vs J-beauty; memo H1 sections 2, 5-7
+- maker role row: {'code': 'H1', 'scope': 'appliances, toiletries and parts', 'role': 'owner', 'provisional': 'yes', 'reason': 'chosen by type and test results; fragrance and cosmetics houses stay way in (HOL_DP_9, R-116)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-H1-1 | Skincare | 1 |  | H1.1
+- G-H1-11 | Cleansing | 2 | G-H1-1 | H1.1.1.01; H1.1.1.02; H1.1.1.03
+- G-H1-12 | Toning and prep | 2 | G-H1-1 | H1.1.2.01; H1.1.2.02
+- G-H1-13 | Treatment | 2 | G-H1-1 | H1.1.3.01; H1.1.3.02; H1.1.3.03
+- G-H1-14 | Moisturising | 2 | G-H1-1 | H1.1.4.02; H1.1.4.04; H1.1.4.01; H1.1.4.03
+- G-H1-15 | Masks | 2 | G-H1-1 | H1.1.5.02; H1.1.5.01; H1.1.5.03
+- G-H1-16 | Sun care and skin protection | 2 | G-H1-1 | H1.1.6.01; H1.1.6.02; H1.1.6.03
+- G-H1-17 | Skin tools and devices | 2 | G-H1-1 | H1.1.7.01
+- G-H1-2 | Makeup | 1 |  | H1.2
+- G-H1-18 | Complexion | 2 | G-H1-2 | H1.2.1.01; H1.2.1.02; H1.2.1.03; H1.2.1.04; H1.2.1.05; H1.2.1.06; H1.2.1.07; H1.2.1.08; H1.2.1.09
+- G-H1-19 | Body paint and skin powders | 2 | G-H1-2 | H1.2.2.01
+- G-H1-20 | Eyes | 2 | G-H1-2 | H1.2.3.01; H1.2.3.02; H1.2.3.03
+- G-H1-21 | Brows and lashes | 2 | G-H1-2 | H1.2.4.01; H1.2.4.02; H1.2.4.03; H1.2.4.04
+- G-H1-22 | Lips | 2 | G-H1-2 | H1.2.5.01; H1.2.5.02
+- G-H1-23 | Nails | 2 | G-H1-2 | H1.2.6.01; H1.2.6.02
+- G-H1-24 | Makeup tools and devices | 2 | G-H1-2 | H1.2.7.01; H1.2.7.02; H1.2.7.03
+- G-H1-3 | Hair | 1 |  | H1.3
+- G-H1-25 | Wash and condition | 2 | G-H1-3 | H1.3.1.01; H1.3.1.02; H1.3.1.03; H1.3.1.04; H1.3.1.05; H1.3.1.06; H1.3.1.07; H1.3.1.08; H1.3.1.09
+- G-H1-26 | Colour and chemical | 2 | G-H1-3 | H1.3.2.01
+- G-H1-27 | Styling products | 2 | G-H1-3 | H1.3.3.01; H1.3.3.02; H1.3.3.03; H1.3.3.04; H1.3.3.05; H1.3.3.06; H1.3.3.07
+- G-H1-28 | Wigs and hairpieces | 2 | G-H1-3 | H1.3.4.01; H1.3.4.02
+- G-H1-29 | Hair dryers and styling appliances | 2 | G-H1-3 | H1.3.5.01; H1.3.5.02; H1.3.5.03; H1.3.5.04; H1.3.5.09; H1.3.5.12
+- G-H1-30 | Brushes, combs, scissors and hair accessories | 2 | G-H1-3 | H1.3.5.05; H1.3.5.06; H1.3.5.07; H1.3.5.08; H1.3.5.10; H1.3.5.11
+- G-H1-4 | Fragrance | 1 |  | H1.4.02; H1.4.03; H1.4.05; H1.4.01; H1.4.04
+- G-H1-5 | Bath, body and hygiene | 1 |  | H1.6
+- G-H1-31 | Bathing and cleansing | 2 | G-H1-5 | H1.6.1.01; H1.6.1.02; H1.6.1.03; H1.6.1.04; H1.6.1.05
+- G-H1-32 | Deodorants | 2 | G-H1-5 | H1.6.2.01
+- G-H1-33 | Intimate and menstrual hygiene | 2 | G-H1-5 | H1.6.3.01; H1.6.3.02; H1.6.3.03; H1.6.3.04; H1.6.3.05; H1.6.3.06; H1.6.3.07
+- G-H1-34 | Toileting and nappy changing | 2 | G-H1-5 | H1.6.4.01; H1.6.4.02; H1.6.4.03; H1.6.4.04
+- G-H1-35 | Bath equipment | 2 | G-H1-5 | H1.6.5.01; H1.6.5.02; H1.6.5.03
+- G-H1-6 | Shaving and hair removal | 1 |  | H1.5
+- G-H1-36 | Blade shaving | 2 | G-H1-6 | H1.5.1.01; H1.5.1.02; H1.5.1.03; H1.5.1.04; H1.5.1.05; H1.5.1.06; H1.5.1.07
+- G-H1-37 | Electric shaving and trimming | 2 | G-H1-6 | H1.5.2.01; H1.5.2.02; H1.5.2.03
+- G-H1-38 | Depilation and epilation | 2 | G-H1-6 | H1.5.3.01; H1.5.3.02; H1.5.3.03
+- G-H1-39 | Shaving preparations and aftercare | 2 | G-H1-6 | H1.5.4.01; H1.5.4.02; H1.5.4.03; H1.5.4.04; H1.5.4.05; H1.5.4.06
+- G-H1-7 | Oral care | 1 |  | H1.7.01; H1.7.02; H1.7.03; H1.7.04
+- G-H1-8 | Grooming tools, mirrors and scales | 1 |  | H1.8.01; H1.8.02; H1.8.03; H1.8.04; H1.8.05; H1.8.06; H1.8.07; H1.8.08
+- G-H1-9 | Comfort and massage | 1 |  | H1.9.01; H1.9.02; H1.9.03; H1.9.04; H1.9.05; H1.9.06; H1.9.07; H1.9.08
+- G-H1-10 | Parts and refills | 1 |  | H1.10
+- G-H1-40 | Blades, cartridges, strops and hones | 2 | G-H1-10 | H1.10.1.01; H1.10.2.01; H1.10.3.01; H1.10.8.01; H1.10.8.02; H1.10.8.03
+- G-H1-41 | Shaver and clipper parts | 2 | G-H1-10 | H1.10.4.01; H1.10.4.02; H1.10.5.01
+- G-H1-42 | Toothbrush heads and dryer attachments | 2 | G-H1-10 | H1.10.6.01; H1.10.7.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-H1-1 | suitability to skin type and concern |  | Matched first. | proposals.tsv H1 row (quality_markers); Sephora Middle East
+- G-H1-1 | ingredients and formulation |  | Certified share of organic or natural ingredients. | proposals.tsv H1 row (quality_markers); Sephora Middle East; Ethical Consumer cosmetics labels
+- G-H1-1 | UV protection |  | SPF and PA grade. | proposals.tsv H1 row (quality_markers); Sephora Middle East
+- G-H1-1 | cruelty-free and vegan status |  | Certification labels (COSMOS, NATRUE, Leaping Bunny, vegan) as filters. | proposals.tsv H1 row (quality_markers); Ethical Consumer cosmetics labels
+- G-H1-2 | suitability to skin type and concern |  | Matched first. | proposals.tsv H1 row (quality_markers); Sephora Middle East
+- G-H1-2 | ingredients and formulation |  | Certified share of organic or natural ingredients. | proposals.tsv H1 row (quality_markers); Sephora Middle East; Ethical Consumer cosmetics labels
+- G-H1-2 | UV protection |  | SPF and PA grade. | proposals.tsv H1 row (quality_markers); Sephora Middle East
+- G-H1-2 | cruelty-free and vegan status |  | Certification labels (COSMOS, NATRUE, Leaping Bunny, vegan) as filters. | proposals.tsv H1 row (quality_markers); Ethical Consumer cosmetics labels
+- G-H1-36 | blade steel and edge keeping |  | Weighed first for razors. | proposals.tsv H1 row (quality_markers); Lamnia (traditional shaving, Europe)
+- G-H1-36 | comb type matched to skill | closed > open > slant (mild to aggressive); adjustable | Matched to the shaver's skill. | proposals.tsv H1 row (quality_markers); Lamnia (traditional shaving, Europe)
+- G-H1-36 | handle material and durability |  | Weighed after the head. | proposals.tsv H1 row (quality_markers); Lamnia (traditional shaving, Europe)
+- G-H1-36 | brush hair | badger > boar > horse; synthetic apart | Badger grade ladder not attested. | proposals.tsv H1 row (quality_markers); Lamnia (traditional shaving, Europe)
+- G-H1-29 | wattage | higher > lower (more airflow, less heat) | Hair dryers: weighed first. | proposals.tsv H1 row (quality_markers); NBC Select hair dryers
+- G-H1-29 | speed and heat settings |  | Weighed after wattage. | proposals.tsv H1 row (quality_markers); NBC Select hair dryers
+- G-H1-29 | attachments |  | Weighed after settings. | proposals.tsv H1 row (quality_markers); NBC Select hair dryers
+- G-H1-29 | heating technology | ionic; ceramic; tourmaline; titanium (matched to hair type) | A choice by hair type. | proposals.tsv H1 row (quality_markers); NBC Select hair dryers
+- G-H1-29 | cool shot |  | Weighed last. | proposals.tsv H1 row (quality_markers); NBC Select hair dryers
+- G-H1-7 | cleaning or plaque removal (electric toothbrushes) |  | Which? and Consumer Reports yardstick (excerpt only); separate schemes. | proposals.tsv H1 row (quality_markers); CHOICE electric toothbrush test (Australia)
+- G-H1-7 | ease of use (electric toothbrushes) |  | CHOICE yardstick. | proposals.tsv H1 row (quality_markers); CHOICE electric toothbrush test (Australia)
+- G-H1-7 | feel (electric toothbrushes) |  | CHOICE yardstick. | proposals.tsv H1 row (quality_markers); CHOICE electric toothbrush test (Australia)
+- G-H1-7 | charging and run time (electric toothbrushes) |  | Weighed last. | proposals.tsv H1 row (quality_markers); CHOICE electric toothbrush test (Australia)
+- G-H1-4 | concentration | parfum or extrait > eau de parfum > eau de toilette > eau de cologne > eau fraiche (strength, not quality) | Memo marker; evidence thin, provisional. | proposals.tsv H1 row (quality_markers); memo H1 sections 2, 5-7
+- G-H1-4 | house |  | Memo marker; provisional until a fragrance source is fetched. | proposals.tsv H1 row (quality_markers); memo H1 sections 2, 5-7
+
+## Kinds (kind_id | stored name | native name | definition)
+- H1.1.4.02 | Lotion or emulsion [乳液] |  | fluid leave-on moisturiser for any area.
+- H1.1.4.04 | Body oil or massage oil |  | oil applied to the skin to moisturise it or for massage.
+- H1.1.5.02 | Sleeping mask |  | leave-on mask worn overnight.
+- H1.1.7.01 | Cotton pad |  | pad of cotton or fibre for applying or removing skin-care products and makeup.
+- H1.2.1.01 | Foundation |  | tinted product that evens the colour of the face (cushion is a format).
+- H1.2.1.02 | Concealer |  | high-coverage tinted product that hides spots, marks and shadows.
+- H1.2.1.03 | Blush |  | coloured powder, cream or liquid that adds colour to the cheeks.
+- H1.2.1.04 | Primer |  | product applied before makeup to prepare the skin for it.
+- H1.2.1.05 | Setting spray |  | spray applied over makeup to fix it.
+- H1.2.2.01 | Skin paint or powder |  | powder or paint applied to the skin as colour, including kumkum and sindoor.
+- H1.2.3.01 | Mascara |  | coloured product brushed onto the lashes.
+- H1.2.3.02 | Eyeliner |  | pencil, liquid or gel that draws a line along the lash line.
+- H1.2.4.01 | Eyebrow gel |  | tinted or clear gel that shapes and sets the brows.
+- H1.2.4.02 | False eyelashes |  | strip or individual artificial lashes attached to the lash line.
+- H1.2.4.03 | Lash and brow serum |  | leave-on serum applied to lashes or brows to condition them.
+- H1.2.7.01 | Makeup brush |  | brush made for applying makeup.
+- H1.2.7.02 | Eyelash curler |  | hand tool that clamps and curls the lashes.
+- H1.3.1.01 | Shampoo |  | rinse-off product that washes the hair and scalp.
+- H1.3.1.02 | Conditioner |  | rinse-off or leave-in product that softens and detangles hair after washing.
+- H1.3.1.03 | Hair mask [Haarkur] |  | intensive treatment left on the hair for a time and rinsed.
+- H1.3.2.01 | Hair dye |  | product that changes the colour of the hair.
+- H1.3.3.01 | Hairspray |  | spray that holds a hairstyle in place.
+- H1.3.4.01 | Wig |  | full head covering of real or synthetic hair worn as hair.
+- H1.3.4.02 | Hairpiece |  | partial piece of hair (extension, topper, fall) attached to the wearer's hair.
+- H1.3.5.01 | Flat iron |  | heated plates that straighten hair by clamping it.
+- H1.3.5.02 | Curling iron |  | heated barrel around which hair is wound to curl it.
+- H1.3.5.03 | Hair dryer |  | appliance that blows heated air to dry hair.
+- H1.3.5.04 | Hot brush |  | heated round or paddle brush that dries or styles hair.
+- H1.3.5.05 | Hairbrush |  | brush with bristles or pins for brushing hair.
+- H1.3.5.06 | Comb |  | toothed strip for combing and parting hair.
+- H1.3.5.07 | Hair tie |  | plain elastic band that holds hair in place.
+- H1.3.5.08 | Plain hair clip |  | plain clip or grip that holds hair, without jewels or ornament.
+- H1.4.02 | Solid perfume |  | fragrance set in a wax or balm base, rubbed on the skin.
+- H1.4.03 | Perfume oil |  | fragrance in an oil base with no alcohol, applied to the skin.
+- H1.4.05 | Hair perfume |  | fragrance made to be sprayed on the hair.
+- H1.1.1.01 | Face cleanser |  | rinse-off product made to wash the skin of the face.
+- H1.1.1.02 | Cleansing oil |  | oil-based cleanser that dissolves makeup and sebum and emulsifies on rinsing.
+- H1.1.2.01 | Toner |  | watery leave-on product applied after cleansing to prepare the skin (a toner pad is a toner with format = pad).
+- H1.1.3.01 | Serum |  | concentrated leave-on treatment applied before moisturising (ampoule and essence are formulations).
+- H1.1.4.01 | Cream |  | thick leave-on moisturiser for any area (face, eye, hand, foot, body by `area`).
+- H1.1.4.03 | Lip balm |  | solid or soft balm with no colour that softens and protects the lips.
+- H1.1.5.01 | Sheet mask |  | single-use sheet soaked in a treatment, laid on the face.
+- H1.1.6.01 | Sunscreen |  | product applied to the skin to protect it from UV, any area and any format (stick, lotion, spray).
+- H1.1.6.02 | Skin repellent |  | insect repellent applied to the skin.
+- H1.2.5.01 | Lipstick |  | coloured product applied to the lips (gloss and liquid forms are formats).
+- H1.2.6.01 | Nail polish |  | coloured or clear lacquer painted on the nails.
+- H1.2.6.02 | Artificial nails |  | press-on or glued nail tips or covers worn over the natural nail.
+- H1.4.01 | Fine fragrance (alcohol-based) |  | fragrance in an alcohol base, sprayed or splashed on the body.
+- H1.4.04 | Body mist |  | light fragrance spray made for the body.
+- H1.5.1.01 | Straight razor |  | single open blade that folds into its handle, honed and stropped by the user.
+- H1.5.1.02 | Shavette |  | open-blade razor that holds a disposable blade.
+- H1.5.1.03 | Single-edge safety razor |  | guarded razor holding a blade with one cutting edge.
+- H1.5.1.04 | Double-edge safety razor |  | guarded razor holding a blade with two cutting edges.
+- H1.5.1.05 | Cartridge razor |  | razor with a handle that takes a multi-blade cartridge (a disposable razor is this kind with `disposable` = yes).
+- H1.5.1.06 | Shaving brush |  | brush made for lathering soap or cream on the face.
+- H1.5.1.07 | Wet-shaving kit |  | starter kit of razor, brush and preparation sold and compared as one object.
+- H1.5.2.01 | Electric shaver |  | powered shaver with foil or rotary heads.
+- H1.5.2.02 | Hair clipper |  | powered clipper that cuts head hair to a set length.
+- H1.5.2.03 | Beard trimmer |  | powered trimmer made for beards and body grooming.
+- H1.5.3.01 | Tweezers |  | hand tool that grips and plucks single hairs.
+- H1.5.4.01 | Shaving soap |  | soap made to be lathered with a shaving brush, sold as a hard puck or tub, a soft soap (croap) or a shaving stick.
+- H1.5.4.02 | Shaving cream |  | cream applied before shaving that lathers by hand or brush.
+- H1.5.4.03 | Aftershave |  | product applied to the skin after shaving (an aftershave balm is this kind with format = balm).
+- H1.6.1.01 | Body wash |  | liquid bath and shower preparation for washing the body.
+- H1.6.1.02 | Toilet soap bar |  | bar of soap made for washing the body.
+- H1.6.1.03 | Wet wipe |  | moist wipe for cleaning the skin (baby wipes carry user = baby).
+- H1.6.2.01 | Deodorant |  | product that masks or reduces body odour, antiperspirants included (a deodorant wipe is this kind with format = wipe).
+- H1.6.3.01 | Intimate wash |  | wash made for external intimate hygiene.
+- H1.6.3.02 | Menstrual pad |  | disposable or reusable pad worn to absorb menstrual flow.
+- H1.6.3.03 | Tampon |  | absorbent plug inserted to absorb menstrual flow.
+- H1.6.3.04 | Menstrual cup |  | reusable cup inserted to collect menstrual flow.
+- H1.6.3.05 | Personal lubricant |  | lubricant applied to the intimate area.
+- H1.6.3.06 | Anal douche |  | bulb or device for rinsing the rectum.
+- H1.6.4.01 | Potty |  | small free-standing toilet bowl for a child.
+- H1.6.4.02 | Toilet-training seat |  | child seat that fits on an adult toilet.
+- H1.6.4.03 | Changing mat |  | padded mat on which a baby is changed.
+- H1.6.4.04 | Nappy |  | disposable or cloth garment that absorbs a baby's urine and faeces.
+- H1.6.5.01 | Baby bath |  | small tub made for bathing a baby.
+- H1.6.5.02 | Loofah or bath sponge |  | natural or synthetic sponge or loofah sold for washing the body.
+- H1.6.5.03 | Pumice |  | pumice stone sold for smoothing the skin.
+- H1.7.01 | Toothpaste (dentifrice) |  | paste or gel for cleaning the teeth.
+- H1.7.02 | Electric toothbrush |  | powered toothbrush with an oscillating or vibrating head.
+- H1.8.01 | Grooming mirror |  | mirror made for grooming, lit or magnifying (a wall or dresser mirror is B4).
+- H1.8.02 | Bathroom scale |  | scale for weighing the body.
+- H1.8.03 | Nail clippers |  | hand tool that cuts finger or toe nails.
+- H1.8.04 | Nail file |  | file or emery board that shapes nails.
+- H1.8.05 | Manicure set |  | kit of nail implements sold and compared as one object.
+- H1.8.06 | Toiletry bag |  | case made to carry toiletries.
+- H1.8.07 | Make-up bag |  | case made to carry makeup.
+- H1.8.08 | Barber chair |  | reclining, height-adjustable chair made for cutting hair and shaving.
+- H1.9.01 | Hot-water bottle |  | sealed rubber or plastic bottle filled with hot water for warmth.
+- H1.9.02 | Massager |  | handheld or powered massager made for comfort, percussion and neck massagers included.
+- H1.9.03 | Pacifier |  | teat for a baby to suck that is not used for feeding.
+- H1.9.04 | Massage chair |  | powered chair that massages the seated user.
+- H1.10.1.01 | Razor cartridge |  | replaceable multi-blade cartridge for a cartridge razor.
+- H1.10.2.01 | Double-edge blade |  | replacement blade with two cutting edges for a double-edge safety razor.
+- H1.10.3.01 | Single-edge blade |  | replacement blade with one cutting edge for a single-edge safety razor.
+- H1.10.4.01 | Shaver foil or head |  | replacement foil, cutter or rotary head for an electric shaver.
+- H1.10.5.01 | Clipper guard |  | attachment comb that sets the cutting length of a clipper or trimmer.
+- H1.10.6.01 | Toothbrush head |  | replacement brush head for an electric toothbrush.
+- H1.10.7.01 | Dryer attachment |  | nozzle or diffuser made to fit a hair dryer.
+- H1.10.8.01 | Razor strop |  | strip of leather or canvas, hanging, paddle or loom type, on which the edge of a straight razor is realigned before shaving (the strop type is not a kind).
+- H1.5.4.04 | Pre-shave oil or cream |  | oil, cream or gel applied to the beard before lathering to soften it and protect the skin (oil and cream are the attribute format).
+- H1.5.4.05 | Alum block |  | block of potassium alum rubbed on wet skin after shaving as an astringent.
+- H1.5.4.06 | Styptic pencil |  | stick of alum or other astringent pressed on a shaving nick to stop the bleeding.
+- H1.10.8.02 | Razor hone |  | fine sharpening stone or barber's hone sold for setting the edge of a straight razor (natural or synthetic, grit is an attribute).
+- H1.10.8.03 | Strop paste |  | abrasive paste or compound rubbed on a razor strop to polish the edge of a straight razor.
+- H1.9.05 | Teether |  | ring, key or toy of silicone, rubber or wood made for a baby to chew to soothe teething gums.
+- H1.9.06 | Heat pack |  | reusable or single-use pack (gel, wheat or chemical) heated and laid on the body for warmth; neck warmers included.
+- H1.9.07 | Hand warmer |  | small pouch or device held in the hand or pocket to warm it, chemical, reusable or rechargeable.
+- H1.7.03 | Manual toothbrush |  | toothbrush with a fixed head and no motor (baby and training brushes carry the user tag).
+- H1.7.04 | Water flosser |  | powered device that cleans between teeth with a pulsed jet of water.
+- H1.6.3.07 | Menstrual disc |  | flat flexible disc worn in the vaginal fornix to collect menstrual flow.
+- H1.1.1.03 | Exfoliator |  | rinse-off scrub or peel that removes dead skin, for face or body (grains or acids are attributes).
+- H1.6.1.04 | Bath bomb |  | compressed ball of bicarbonate, acid and scent that fizzes and dissolves in bath water.
+- H1.3.5.09 | Crimping iron |  | heated ridged plates that press a zigzag wave into hair.
+- H1.3.5.10 | Hair-cutting scissors |  | scissors made for cutting hair, thinning scissors included.
+- H1.3.5.11 | Hair roller |  | cylinder around which hair is wound to set curls, heated, velcro or foam.
+- H1.10.4.02 | Shaver cleaning cartridge |  | fluid cartridge made for one maker's electric-shaver cleaning station.
+- H1.5.3.02 | Epilator |  | powered device whose rotating tweezer discs pull hairs out by the root.
+- H1.3.5.12 | Multi-styler |  | powered hot-air styler sold with interchangeable drying, curling and smoothing attachments.
+- H1.2.3.03 | Eyeshadow |  | coloured powder, cream or liquid applied to the eyelids (palette and single are formats).
+- H1.2.4.04 | Brow pencil |  | pencil or powder that fills and shapes the eyebrows with colour.
+- H1.2.5.02 | Lip liner |  | pencil that outlines the lips with colour.
+- H1.2.1.06 | Bronzer |  | warm-toned powder or cream that adds a tanned colour to the face.
+- H1.2.1.07 | Face powder |  | loose or pressed powder that sets makeup or mattifies the face.
+- H1.3.1.04 | Hair oil |  | leave-in oil or oil serum applied to lengths and ends to condition and smooth hair.
+- H1.3.3.02 | Heat protectant |  | spray or cream applied before heat styling to shield hair.
+- H1.6.1.05 | Bath salts |  | mineral salt crystals, often scented, dissolved in bath water.
+- H1.1.5.03 | Wash-off face mask |  | cream, clay, gel or peel mask spread on the face and rinsed off after a set time.
+- H1.1.6.03 | Self-tanner |  | lotion, mousse, drops or spray that tans the skin without sun, usually by DHA.
+- H1.3.3.03 | Styling cream |  | leave-in cream worked through hair to define, smooth or hold a style.
+- H1.1.2.02 | Face mist |  | water-based spray misted onto the face to hydrate or refresh skin, over or under make-up.
+- H1.1.3.02 | Acne spot treatment |  | paste, gel or cream dabbed on a single blemish to dry or calm it.
+- H1.1.3.03 | Pimple patch |  | small hydrocolloid sticker worn over a blemish, plain or with an active ingredient.
+- H1.9.08 | Facial skin-care device |  | hand-held powered device for facial skin (microcurrent toning, LED, cooling or depuffing wand); a plain massager is H1.9.02.
+- H1.5.3.03 | Facial razor (dermaplaning razor) |  | small single-blade razor for brows, peach fuzz and dermaplaning the face.
+- H1.2.1.08 | Highlighter |  | shimmering powder, cream or liquid placed on the high points of the face to catch light.
+- H1.2.1.09 | Contour |  | cool-toned stick, cream, liquid or powder used to shade and sculpt the face; a warm bronzer is H1.2.1.06.
+- H1.2.7.03 | Makeup sponge |  | sponge or blender used damp or dry to apply and blend foundation, concealer and cream products.
+- H1.3.1.05 | Leave-in conditioner |  | conditioner in cream, milk, foam or spray form left in the hair after washing.
+- H1.3.1.06 | Detangling spray |  | spray or lotion that loosens knots so wet or dry hair can be combed.
+- H1.3.1.07 | Scalp scrub |  | exfoliating scrub with salt, sugar or grains massaged into the scalp before shampoo.
+- H1.3.1.08 | Scalp treatment |  | serum, tonic or acid treatment applied to the scalp (detox, soothing, oil control); a minoxidil medicine is not this kind.
+- H1.3.1.09 | Dry shampoo |  | powder or aerosol that absorbs oil at the roots without water.
+- H1.3.3.04 | Hair mousse |  | foam styling product for volume, curl definition or light hold.
+- H1.3.3.05 | Hair gel |  | gel styling product that sets hair or curls with firm hold.
+- H1.3.3.06 | Texturizing or sea-salt spray |  | spray giving grit, texture or beachy waves, with salt or polymers.
+- H1.3.3.07 | Volumizing spray |  | spray applied at the roots of damp hair to lift and thicken before drying.

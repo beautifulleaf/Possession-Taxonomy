@@ -1,0 +1,146 @@
+# B2 Soft Furnishings: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (item type: bedding, rugs, curtains and blinds, cushions, throws, table linen, towels)
+- reason: Retailers split soft furnishings by item type inside one textiles department (IKEA UK Home textiles & rugs) or reach the item through the room (Manor bedding sets; Rakuten Seasonal Living Fair), with fabric, size and colour as filters (Manor); only handmade rugs lead with weave origin and tier, which is a side view (Chairish Persian rug guide; Rugs.com).
+- ladder: What item? (bedding, rugs, curtains and blinds, cushions, towels, table linen) > Which type? (kind: duvet, comforter; knotted-pile rug, flatweave; roller blind) > What makes the best one? (fibre and weave; fill and tog; for rugs material, knot density, weave tradition)
+- level1_groups: Bed linen & bedding; Blankets & throws; Rugs & mats; Curtains & blinds; Cushions & seat covers; Table & kitchen linen; Towels & bath; Curtain & rug fittings
+- quality_markers: Bed linen: fibre (extra-long-staple cotton, linen, silk > long-staple > short-staple and blends); weave and finish (percale, sateen, Renforcé, jersey, flannel; singeing, mercerising); ply (single > multi-ply); weight; thread count last (weak above about 400, ply counting inflates it); colourfastness. Duvets and pillows: fill (down fill power, about 300 feathers < 600 < 900 best goose down); tog for warmth (by season, not a quality rank); casing fibre. Handmade rugs: material (silk > wool > synthetic); knot density (80 kpsi or fewer poor < 120-330 medium to good < 330+ very good); weaving tradition and tier (city or workshop, village, nomadic or tribal: a classification, not a ladder); natural dyes and materials; age, rarity and condition (condition never stored). Machine rugs and fitted carpet: EN 1307 use class. Upholstery, curtains and cushion covers: abrasion (Martindale; 20,000 rubs for domestic use); pilling grade 1-5; lining and opacity (blackout, thermal). Towels: fibre and staple; GSM (bands held until a fetched page shows them).
+- quality_signals: OEKO-TEX Standard 100, product classes 1-4, and STeP (International OEKO-TEX Association; certification attribute); GOTS (Global Organic Textile Standard; certification attribute); OCS, BCI, Bluesign (certification attributes); Egyptian cotton seal (Cotton Egypt Association; certification attribute); GoodWeave label, no child, forced or bonded labour (GoodWeave; certification attribute on rugs and home textiles); Martindale rub count (ISO 12947) and pilling grade 1-5 (Consumer NZ lab tests; class i attributes); EN 1307 and EN ISO 10874 use class for fitted carpet (class i attribute); Consumer NZ and Consumer Reports bedding tests (class ii tier entries on makers and named forms); rug authenticity checks (back, fringe, burn test; dealer advice only, not stored); Rakuten review score 4.0 and up (platform tag, class vi)
+- maker_role: owner (confirm; provisional): mass bedding, towels and curtains are bought by item and spec, makers enter through named lines; hand-woven rug workshops and weaving centres are recorded but are not the way in (the weave tradition is)
+- side_view: Handmade rugs by weave and tradition: weaving environment (city or workshop, village, nomadic or tribal) > named weave (Isfahan, Heriz, Gabbeh, Kilim, Beni Ourain; non-maker named forms and tags) > workshop or designer where known; this is a tradition view, never a division of the category by country. A brand filter on bedding and towels.
+- evidence_rows: IKEA UK Home textiles & rugs; Manor (CH) bedding sets; Rakuten Seasonal Living Fair; Rugs.com (retailer guide); Chairish Persian rug guide; BAUR (DE) bed linen advice; Consumer NZ buying bed linen; Parachute: OEKO-TEX explained; GoodWeave label (press release)
+- maker role row: {'code': 'B2', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'textile makers matter through named designs'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-B2-1 | Bed linen & bedding | 1 |  | 
+- G-B2-1-1 | Bed linen | 2 | G-B2-1 | B2.1.1.01; B2.1.1.02; B2.1.1.03; B2.1.1.04; B2.1.1.05; B2.1.1.06
+- G-B2-1-2 | Duvets & bed covers | 2 | G-B2-1 | B2.1.2.01; B2.1.2.02; B2.1.2.03; B2.1.2.04; B2.1.2.05; B2.1.2.08
+- G-B2-1-3 | Pillows | 2 | G-B2-1 | B2.1.3.01; B2.1.3.02; B2.1.3.03
+- G-B2-1-4 | Mattress covers | 2 | G-B2-1 | B2.1.4.01; B2.1.4.02; B2.1.4.03
+- G-B2-2 | Blankets & throws | 1 |  | 
+- G-B2-2-1 | Blankets, throws & electric blankets | 2 | G-B2-2 | B2.1.2.06; B2.1.2.07
+- G-B2-3 | Rugs & mats | 1 |  | 
+- G-B2-3-1 | Handmade rugs | 2 | G-B2-3 | B2.2.1.01; B2.2.1.02; B2.2.1.05
+- G-B2-3-2 | Machine-made rugs & carpet | 2 | G-B2-3 | B2.2.1.03; B2.2.1.04; B2.2.1.07
+- G-B2-3-3 | Hide, felt & rag rugs | 2 | G-B2-3 | B2.2.1.06; B2.2.1.08; B2.2.1.09
+- G-B2-3-4 | Mats | 2 | G-B2-3 | B2.2.2.01; B2.2.2.03; B2.2.2.04; B2.2.2.05
+- G-B2-4 | Curtains & blinds | 1 |  | 
+- G-B2-4-1 | Curtains | 2 | G-B2-4 | B2.3.1.01; B2.3.1.02; B2.3.1.04
+- G-B2-4-2 | Blinds & shades | 2 | G-B2-4 | B2.3.2.01; B2.3.2.02; B2.3.2.03; B2.3.2.04; B2.3.2.05; B2.3.2.06; B2.3.2.07; B2.3.2.08
+- G-B2-5 | Cushions & seat covers | 1 |  | 
+- G-B2-5-1 | Cushions & pads | 2 | G-B2-5 | B2.4.01; B2.4.02; B2.4.03; B2.4.07; B2.4.08
+- G-B2-5-2 | Cushion, sofa & chair covers | 2 | G-B2-5 | B2.4.04; B2.4.05; B2.4.06
+- G-B2-6 | Table & kitchen linen | 1 |  | 
+- G-B2-6-1 | Table linen | 2 | G-B2-6 | B2.5.01; B2.5.02; B2.5.03; B2.5.04
+- G-B2-6-2 | Kitchen & tea towels | 2 | G-B2-6 | B2.5.05
+- G-B2-7 | Towels & bath | 1 |  | 
+- G-B2-7-1 | Towels | 2 | G-B2-7 | B2.6.01; B2.6.02; B2.6.03; B2.6.04; B2.6.05; B2.6.06; B2.6.09
+- G-B2-7-2 | Bath mats & shower curtains | 2 | G-B2-7 | B2.2.2.02; B2.3.1.03
+- G-B2-7-3 | Swaddling & carry cloths | 2 | G-B2-7 | B2.6.07; B2.6.08
+- G-B2-8 | Curtain & rug fittings | 1 |  | 
+- G-B2-8-1 | Curtain poles, tracks & fittings | 2 | G-B2-8 | B2.7.01; B2.7.02; B2.7.03; B2.7.05; B2.7.06
+- G-B2-8-2 | Rug pads & underlay | 2 | G-B2-8 | B2.7.04
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-B2-1-1 | fibre | extra-long-staple cotton, linen, silk > long-staple > short-staple and blends | Fibre leads bed-linen quality. | proposals.tsv B2 row (quality_markers); BAUR (DE) bed linen advice; Consumer NZ buying bed linen
+- G-B2-1-1 | weave and finish | percale; sateen; Renforcé; jersey; flannel; finishes singeing, mercerising (a choice) | Weave sets the feel; finishing adds quality. | proposals.tsv B2 row (quality_markers); BAUR (DE) bed linen advice
+- G-B2-1-1 | ply | single > multi-ply | Single-ply yarn is the better construction. | proposals.tsv B2 row (quality_markers); Consumer NZ buying bed linen
+- G-B2-1-1 | weight |  | Fabric weight follows ply. | proposals.tsv B2 row (quality_markers); Consumer NZ buying bed linen
+- G-B2-1-1 | thread count | weak above about 400; ply counting inflates it | Weighed last. | proposals.tsv B2 row (quality_markers); Consumer NZ buying bed linen
+- G-B2-1-1 | colourfastness |  | Durability of the dye. | proposals.tsv B2 row (quality_markers); Consumer NZ buying bed linen
+- G-B2-1-2 | fill | down fill power: about 900 best goose down > 600 > about 300 feathers | Fill decides duvets and pillows. | proposals.tsv B2 row (quality_markers)
+- G-B2-1-2 | tog (warmth) | by season, not a quality rank | Season is a filter on bedding. | proposals.tsv B2 row (quality_markers)
+- G-B2-1-2 | casing fibre |  | The shell follows the fill. | proposals.tsv B2 row (quality_markers)
+- G-B2-1-3 | fill | down fill power: about 900 best goose down > 600 > about 300 feathers | Fill decides duvets and pillows. | proposals.tsv B2 row (quality_markers)
+- G-B2-1-3 | tog (warmth) | by season, not a quality rank | Season is a filter on bedding. | proposals.tsv B2 row (quality_markers)
+- G-B2-1-3 | casing fibre |  | The shell follows the fill. | proposals.tsv B2 row (quality_markers)
+- G-B2-3-1 | material | silk > wool > synthetic | Material leads handmade rugs. | proposals.tsv B2 row (quality_markers); Rugs.com (retailer guide); Chairish Persian rug guide
+- G-B2-3-1 | knot density | 330+ kpsi very good > 120-330 medium to good > 80 or fewer poor | Knots per square inch rate the weave. | proposals.tsv B2 row (quality_markers); Rugs.com (retailer guide); Chairish Persian rug guide
+- G-B2-3-1 | weaving tradition and tier | city or workshop; village; nomadic or tribal (a classification, not a ladder) | The rug side view: weaving environment > named weave > workshop. | proposals.tsv B2 row (quality_markers); Chairish Persian rug guide
+- G-B2-3-1 | natural dyes and materials |  | Dealers value natural dyes. | proposals.tsv B2 row (quality_markers); Chairish Persian rug guide
+- G-B2-3-1 | age, rarity and condition | condition never stored | Antique and rare pieces carry a premium. | proposals.tsv B2 row (quality_markers); Chairish Persian rug guide
+- G-B2-3-2 | use class | EN 1307 use class | Machine-made rugs and fitted carpet are rated by use class. | proposals.tsv B2 row (quality_markers)
+- G-B2-4-1 | abrasion (Martindale) | 20,000 rubs for domestic use | Durability of curtain and cover fabric. | proposals.tsv B2 row (quality_markers)
+- G-B2-4-1 | pilling grade | grade 1-5 | Pilling follows abrasion. | proposals.tsv B2 row (quality_markers)
+- G-B2-5-2 | abrasion (Martindale) | 20,000 rubs for domestic use | Durability of curtain and cover fabric. | proposals.tsv B2 row (quality_markers)
+- G-B2-5-2 | pilling grade | grade 1-5 | Pilling follows abrasion. | proposals.tsv B2 row (quality_markers)
+- G-B2-4-1 | lining and opacity | blackout; thermal | Lining sets light and heat control. | proposals.tsv B2 row (quality_markers)
+- G-B2-7-1 | fibre and staple |  | Towels are judged by fibre first. | proposals.tsv B2 row (quality_markers)
+- G-B2-7-1 | GSM | bands held until a fetched page shows them | Towel weight follows fibre. | proposals.tsv B2 row (quality_markers)
+
+## Kinds (kind_id | stored name | native name | definition)
+- B2.1.1.01 | Sheet |  | a flat or fitted sheet of woven or knitted fabric laid over the mattress or under the top cover; fitted or flat is an attribute.
+- B2.1.1.02 | Pillowcase |  | a removable fabric case that covers a bed pillow.
+- B2.1.1.03 | Duvet cover |  | a removable fabric bag, closed by buttons, ties or a zip, that encloses a duvet or comforter.
+- B2.1.1.04 | Valance or dust ruffle |  | a fabric skirt fitted between mattress and bed base that hides the base and legs.
+- B2.1.2.01 | Duvet (insert) |  | a filled top cover with loose fill in stitched channels or boxes, made to be used inside a removable duvet cover; fill, fill power and tog are attributes.
+- B2.1.2.02 | Comforter |  | a thick filled top cover sewn closed with the fill built in, used without a separate cover.
+- B2.1.2.03 | Quilt |  | a thinner top cover of two fabric layers with a light batting, held together by visible quilted stitching.
+- B2.1.2.04 | Bedspread or coverlet |  | a single-layer or lightly lined decorative cover laid over the made bed.
+- B2.1.2.05 | Featherbed |  | a thick feather- or down-filled pad laid on top of the mattress to sleep on.
+- B2.1.2.06 | Blanket or throw |  | a woven, knitted or fleece cover without fill, for a bed or a sofa; size, weight (weighted blankets, unless sold to treat a stated condition) and setting are attributes.
+- B2.1.2.07 | Electric blanket (heated throw) |  | a blanket or throw with built-in electric heating wires and a controller, laid on or under the sleeper or used on a sofa.
+- B2.1.3.01 | Bed pillow |  | a stuffed pillow made to support the head in bed; fill, firmness and orthopaedic shaping are attributes.
+- B2.1.3.02 | Travel pillow |  | a pillow, often U-shaped or inflatable, made to support the head and neck while sitting in transit.
+- B2.1.3.03 | Positioning cushion |  | a shaped foam or inflatable cushion made to hold the body in a chosen position (wedges and ramps); fill is an attribute.
+- B2.1.4.01 | Mattress protector |  | a thin, often waterproof cover fitted over or around the mattress to guard it against spills and wear.
+- B2.1.4.02 | Mattress pad |  | a thin quilted or padded layer fitted over the mattress for light extra comfort.
+- B2.1.4.03 | Mattress topper |  | a thicker removable layer of foam, latex, fibre or down laid on the mattress to change its feel.
+- B2.2.1.01 | Knotted-pile rug |  | a rug or carpet whose pile is formed by knots tied around the warps, by hand or machine.
+- B2.2.1.02 | Flatweave rug |  | a rug woven without pile, the pattern made by the weft (kilim, soumak, dhurrie constructions).
+- B2.2.1.03 | Woven pile rug or carpet |  | a rug or carpet whose pile is woven in with the backing on a loom (Wilton, Axminster constructions).
+- B2.2.1.04 | Tufted rug or carpet |  | a rug or carpet whose pile yarn is punched through a pre-made backing and fixed with adhesive, by hand gun or machine.
+- B2.2.1.05 | Hooked rug |  | a rug made by pulling loops of yarn or fabric strips through a woven backing with a hook.
+- B2.2.1.06 | Felt rug or carpet |  | a rug or carpet of matted fibre, made by felting rather than weaving.
+- B2.2.1.07 | Needlepunched carpet |  | a carpet or carpet tile whose fibres are interlocked by barbed needles into a dense non-woven sheet.
+- B2.2.1.08 | Hide rug |  | a rug that is a tanned animal hide with its hair, or a patchwork of hides (cowhide, sheepskin).
+- B2.2.1.09 | Rag rug |  | a rug braided, woven or hooked from strips of reused cloth.
+- B2.2.2.01 | Door mat |  | a hard-wearing mat laid at a door to wipe shoes and catch dirt.
+- B2.2.2.02 | Bath mat |  | an absorbent mat laid beside a bath or shower to stand on with wet feet.
+- B2.2.2.03 | Kitchen mat |  | a mat or runner laid in front of a kitchen counter or sink to stand on while working.
+- B2.2.2.04 | Chair mat |  | a mat laid under a desk chair to protect the floor and let castors roll.
+- B2.2.2.05 | Meditation mat |  | a flat padded mat laid on the floor under a meditation cushion or to sit on for meditation.
+- B2.3.1.01 | Curtain |  | a panel of fabric hung from a pole or track to cover a window or door, lined or unlined.
+- B2.3.1.02 | Sheer, voile or net curtain |  | a curtain of light translucent fabric that filters light and gives daytime privacy.
+- B2.3.1.03 | Shower curtain |  | a water-resistant curtain hung from a rail to close a shower or bath opening.
+- B2.3.1.04 | Studio backdrop |  | a large cloth or paper-like textile sheet hung or stretched behind a subject in a photo or video studio.
+- B2.3.2.01 | Roller blind |  | a single panel of fabric that rolls up onto a tube at the head of the window.
+- B2.3.2.02 | Roman blind |  | a fabric blind that folds up into horizontal pleats as it is raised by cords.
+- B2.3.2.03 | Venetian blind |  | a blind of horizontal slats that tilt and lift on cords or tapes.
+- B2.3.2.04 | Vertical blind |  | a blind of vertical vanes hung from a track that rotate and draw to one side.
+- B2.3.2.05 | Pleated blind |  | a blind of crisply pleated fabric that concertinas up or down.
+- B2.3.2.06 | Cellular shade |  | a pleated blind of two or more fabric layers forming insulating cells (honeycomb).
+- B2.3.2.07 | Panel blind |  | wide flat fabric panels that slide side to side on a multi-channel track.
+- B2.4.01 | Scatter cushion |  | a loose stuffed decorative cushion for a sofa, chair or bed.
+- B2.4.07 | Chair pad (seat pad) |  | a thin cushion, usually with ties or a non-slip back, made to lie on the seat of a chair.
+- B2.4.02 | Floor cushion [zabuton] |  | a large flat cushion with no frame, made to sit on at floor level.
+- B2.4.03 | Meditation cushion |  | a firm cushion with no frame, round or crescent, made to sit on for meditation (zafu).
+- B2.4.04 | Cushion cover |  | a removable fabric case for a cushion, sold without or with the insert.
+- B2.4.05 | Sofa cover |  | a removable fabric cover (slipcover, throw-over or stretch cover) for a sofa, also when made to fit one model (the model in `fits`).
+- B2.4.06 | Chair cover |  | a removable fabric cover for a chair, dining and event chairs included, also when made to fit one model.
+- B2.5.01 | Tablecloth |  | a cloth laid over a table top to protect and dress it.
+- B2.5.02 | Table runner |  | a long narrow cloth laid along the centre of a table.
+- B2.5.03 | Placemat (textile) |  | a fabric mat laid under one place setting; hard placemats are B5.
+- B2.5.04 | Cloth napkin |  | a square of fabric for wiping hands and mouth at table.
+- B2.5.05 | Kitchen towel or tea towel |  | a cloth for drying dishes and hands in the kitchen.
+- B2.6.01 | Bath sheet |  | the largest bath towel, big enough to wrap the whole body.
+- B2.6.02 | Bath towel |  | a large absorbent towel for drying the body after bathing.
+- B2.6.03 | Hand towel |  | a mid-size towel for drying hands and face.
+- B2.6.04 | Washcloth |  | a small square towel (face cloth, flannel) for washing the face and body.
+- B2.6.05 | Beach towel |  | a large towel made to lie on at the beach or pool and dry off.
+- B2.6.06 | Flat-woven towel [peshtemal, hammam towel] |  | a thin flat-woven towel without terry loops, light and quick-drying.
+- B2.6.07 | Swaddling cloth |  | a square of soft fabric made to wrap a baby snugly.
+- B2.6.08 | Carry cloth [furoshiki] |  | a square cloth made to wrap and carry goods or gifts by knotting its corners.
+- B2.7.01 | Curtain pole |  | a rod fixed above a window or door from which curtains hang on rings or by their heading.
+- B2.7.02 | Curtain track or rail |  | a fixed track with runners or gliders along which curtains are drawn.
+- B2.7.03 | Curtain rings and hooks |  | rings, hooks, gliders and clips that attach a curtain heading to its pole or track.
+- B2.7.04 | Rug pad or underlay |  | a pad laid under a rug or carpet to stop slipping, cushion it and protect the floor.
+- B2.7.05 | Curtain tieback or holdback |  | a fabric or cord tie, or a fixed wall hook or arm, that holds a drawn curtain back to the side of the window
+- B2.7.06 | Curtain pole bracket or finial |  | a bracket that fixes a curtain pole to wall or ceiling, or an end piece fitted to the pole end, sold apart from the pole
+- B2.4.08 | Cushion pad (insert) |  | a plain stuffed inner sold without a decorative cover, made to fill a cushion cover
+- B2.1.1.05 | Pillow protector |  | a zipped, often waterproof or anti-allergy cover fitted under the pillowcase to guard a bed pillow
+- B2.1.1.06 | Bed frame or headboard cover |  | a removable fabric cover for an upholstered bed frame or headboard, also when made to fit one model (fits)
+- B2.3.2.08 | Tie-up shade (roll-up shade) |  | a fabric shade rolled or gathered up by hand and held by straps or ties, with no roller tube or cord pleats
+- B2.1.2.08 | Kotatsu cover [kotatsu futon] |  | a quilted cover made to drape over a heated low table (kotatsu) and hold its warmth in.
+- B2.6.09 | Hair towel |  | towel or wrap shaped or sized for drying hair, often microfibre or turban-shaped.

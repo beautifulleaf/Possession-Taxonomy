@@ -1,0 +1,205 @@
+# A1 Clothing: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: genre or scene (owner ruling: scene clusters > brands > signature pieces), with garment form as an equal second tab and brand as the first filter
+- reason: Owner rulings stand (BRIEF 2026-10-17 scene-first; 2026-10-24 s6 genre framing first); the evidence shows why both other doors must sit beside it: identity shoppers go scene > items > brand (Field Mag gorpcore) or brand first (END.), while the mainstream shop opens on garment form with brand as its first filter and Streetwear and Designer as parallel tabs (Zalando DE).
+- ladder: Which scene or style? (cluster > scene) > Which brands? (core, then adjacent) > Which piece? (signature named forms, filterable by garment group); second tab: What garment? (G-A1 level 1) > Which kind? (G-A1 level 2 > kind) > What makes the best one? (markers, then brands)
+- level1_groups: Scene door (data/scenes.tsv clusters, order by tag count): Traditional & regional dress; Japanese street fashion; Street, skate & surf; Luxury & designer; Tailoring & classic; Heritage & workwear; Outdoor, technical & sport; Subcultures & music scenes; Rider, military & surplus; Avant-garde & archive; Korean & Chinese contemporary; Minimal & modern; Festival & club; Revival & retro; Online aesthetics. Garment tab (HOL_DP_1_groups.tsv): Tops; Jeans, trousers and shorts; Dresses, skirts, jumpsuits and sets; Suits and tailoring; Jackets and coats; Underwear, socks, sleep and swim; Hats, scarves, gloves and belts; Traditional dress; Workwear and protective gear
+- quality_markers: Fabric and fibre first (fibre content, weight, hand, resistance to pilling and loss of shape); construction (stitching, seams, hems; zips and buttons); fit and pattern; durable, versatile design; maker transparency and repair. Kind groups that differ: jeans: loom (shuttle-loom selvedge > projectile loom), fabric weight in oz (13.5-15 oz typical raw), mill, sanforized or raw, yarn character; down outerwear: fill power then fill weight (memo); tailoring: cloth (Super number, mill) then construction (memo); technical outerwear: membrane and face fabric (Gore-Tex, Pertex, X-PAC)
+- quality_signals: GOTS (Global Organic Textile Standard; 95% organic / made-with-organic 70%; attribute, class i); OEKO-TEX Standard 100 (harmful-substance test; attribute, class i); Fair Trade (attribute, class i); Good On You brand rating (We Avoid / It's a Start / Good / Great; Good On You; tier entry on makers, class iii); brand warranty and repair offer (attribute); denim mill as supplier (Kaihara, Kurabo, Kuroki, Candiani, Cone Mills; maker-relations 'supplies to', not a tier); techwear three tiers and Osaka Five lineage (memo; class iii); Grailed Market labels (platform_tag, class vi). Provisional: no garment-level test or ranking body was found in this evidence
+- maker_role: way_in (confirmed, not provisional)
+- side_view: Garment tab (G-A1 groups) and brand A-Z index beside the scene door; Designer, Sport and Pre-owned as cross-cutting edits (Zalando tabs) generated from tags and price band, not separate trees; 'Traditional dress by tradition' and 'Uniforms' views as in the memo
+- evidence_rows: Zalando DE men; END. Clothing; Good On You: high quality clothing; OEKO-TEX and GOTS (Wicked Fabrics explainer); Gear Patrol selvedge denim guide; Field Mag gorpcore guide
+- maker role row: {'code': 'A1', 'scope': '*', 'role': 'way_in', 'provisional': 'no', 'reason': 'clothing is navigated by scene and brand (owner, 2026-10-17)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-A1-1 | Tops | 1 |  | A1.1.1; A1.1.2; A1.1.3; A1.1.4
+- G-A1-10 | T-shirts, tanks and polos | 2 | G-A1-1 | A1.1.1.01; A1.1.1.03; A1.1.1.04; A1.1.1.02; A1.1.2.04; A1.1.1.06
+- G-A1-11 | Shirts and blouses | 2 | G-A1-1 | A1.1.2.01; A1.1.2.02; A1.1.2.03; A1.1.2.05; A1.1.2.06
+- G-A1-12 | Knitwear | 2 | G-A1-1 | A1.1.3.01; A1.1.3.02; A1.1.3.03
+- G-A1-13 | Sweatshirts, hoodies and fleece | 2 | G-A1-1 | A1.1.4.01; A1.1.4.02; A1.1.4.03
+- G-A1-2 | Jeans, trousers and shorts | 1 |  | A1.2.1; A1.2.2; A1.2.3
+- G-A1-14 | Jeans | 2 | G-A1-2 | A1.2.1.01
+- G-A1-15 | Trousers | 2 | G-A1-2 | A1.2.2.07; A1.2.2.01; A1.2.2.02; A1.2.2.03; A1.2.2.04; A1.2.2.08; A1.2.2.09; A1.2.2.11
+- G-A1-16 | Shorts | 2 | G-A1-2 | A1.2.3.01
+- G-A1-3 | Dresses, skirts, jumpsuits and sets | 1 |  | A1.2.4; A1.3.1; A1.3.2
+- G-A1-17 | Dresses and skirts | 2 | G-A1-3 | A1.3.1.01; A1.3.1.02; A1.2.4.01
+- G-A1-18 | Jumpsuits, overalls, co-ords and costumes | 2 | G-A1-3 | A1.3.2.02; A1.3.2.01; A1.3.1.10; A1.3.2.05
+- G-A1-4 | Suits and tailoring | 1 |  | A1.3.3; A1.4.1; A1.4.3
+- G-A1-19 | Suits and tuxedos | 2 | G-A1-4 | A1.3.3.01; A1.3.3.02
+- G-A1-20 | Blazers and waistcoats | 2 | G-A1-4 | A1.4.1.01; A1.4.3.03
+- G-A1-5 | Jackets and coats | 1 |  | A1.4.1; A1.4.2; A1.4.3; A1.4.4
+- G-A1-21 | Casual and heritage jackets and vests | 2 | G-A1-5 | A1.4.1.22; A1.4.1.18; A1.4.1.02; A1.4.1.20; A1.4.1.03; A1.4.1.04; A1.4.1.05; A1.4.1.06; A1.4.1.07; A1.4.1.17; A1.4.1.08; A1.4.1.09; A1.4.1.10; A1.4.1.21; A1.4.3.02
+- G-A1-22 | Outdoor and weather jackets | 2 | G-A1-5 | A1.4.1.12; A1.4.1.11; A1.4.1.19; A1.4.1.13; A1.4.1.14; A1.4.3.01; A1.4.4.01; A1.4.4.03
+- G-A1-23 | Coats | 2 | G-A1-5 | A1.4.2.06; A1.4.2.01; A1.4.2.02; A1.4.2.03; A1.4.2.04; A1.4.2.07; A1.4.2.10; A1.4.2.11; A1.4.4.02
+- G-A1-6 | Underwear, socks, sleep and swim | 1 |  | A1.5.1; A1.5.2; A1.5.3; A1.5.4
+- G-A1-24 | Underwear, base layers and shapewear | 2 | G-A1-6 | A1.5.1.01; A1.5.1.02; A1.5.1.03; A1.5.1.04; A1.5.1.05
+- G-A1-25 | Socks and hosiery | 2 | G-A1-6 | A1.5.2.01; A1.5.2.02; A1.5.2.03; A1.5.2.04; A1.5.2.05
+- G-A1-26 | Sleep and lounge | 2 | G-A1-6 | A1.5.3.01; A1.5.3.02; A1.5.3.03; A1.5.3.04
+- G-A1-27 | Swim and beach | 2 | G-A1-6 | A1.5.4.01; A1.5.4.02; A1.5.4.03; A1.5.4.04
+- G-A1-7 | Hats, scarves, gloves and belts | 1 |  | A1.3.4; A1.6; A1.7; A1.8
+- G-A1-28 | Hats, caps and head coverings | 2 | G-A1-7 | A1.6.01; A1.6.02; A1.6.03; A1.6.15; A1.6.16; A1.6.17
+- G-A1-29 | Scarves, shawls, ties and pocket squares | 2 | G-A1-7 | A1.7.01; A1.3.4.07; A1.7.02; A1.7.09
+- G-A1-30 | Gloves and arm wear | 2 | G-A1-7 | A1.7.05; A1.7.06; A1.7.03; A1.7.04
+- G-A1-31 | Belts, braces and sashes | 2 | G-A1-7 | A1.7.07; A1.8.01; A1.7.10; A1.7.08
+- G-A1-32 | Garment add-ons | 2 | G-A1-7 | A1.8.02; A1.8.03
+- G-A1-8 | Traditional dress | 1 |  | A1.2.2; A1.3.1; A1.3.4; A1.4.1; A1.4.2
+- G-A1-33 | Draped and wrapped garments | 2 | G-A1-8 | A1.3.4.01; A1.3.4.04; A1.3.4.05; A1.3.4.06
+- G-A1-34 | Kimono, robes and long tunics | 2 | G-A1-8 | A1.3.4.02; A1.3.4.03; A1.4.1.16; A1.2.2.05; A1.3.4.08; A1.3.1.06; A1.3.1.07; A1.4.2.08
+- G-A1-35 | Traditional dresses, suits and sets | 2 | G-A1-8 | A1.3.1.03; A1.3.1.04; A1.3.1.05; A1.3.1.08; A1.3.1.09; A1.4.2.05; A1.4.2.09
+- G-A1-9 | Workwear and safety | 1 |  | A1.1.1; A1.2.2; A1.3.2; A1.4.1; A1.4.2; A1.4.3; A1.6
+- G-A1-36 | Work and uniform clothing | 2 | G-A1-9 | A1.1.1.05; A1.4.1.15; A1.4.2.12; A1.3.2.03; A1.4.3.04
+- G-A1-37 | Protective clothing | 2 | G-A1-9 | A1.2.2.06; A1.2.2.10; A1.3.2.04; A1.3.2.06; A1.4.3.05
+- G-A1-38 | Head, eye, ear and face protection | 2 | G-A1-9 | A1.6.04; A1.6.05; A1.6.06; A1.6.07; A1.6.08; A1.6.09; A1.6.10; A1.6.11; A1.6.12; A1.6.13; A1.6.14
+
+## Current quality markers (group_id | marker | values | why | evidence)
+
+## Kinds (kind_id | stored name | native name | definition)
+- A1.3.1.01 | Dress |  | One-piece garment covering the torso and extending below the waist, with or without sleeves; length and neckline are attributes.
+- A1.3.1.02 | Jumper dress (pinafore) [JSK] |  | Sleeveless dress made to be worn over a blouse or top.
+- A1.3.1.03 | Dirndl |  | Traditional Alpine dress of bodice, full skirt and apron.
+- A1.3.1.04 | Lehenga choli |  | South Asian outfit of a long flared skirt (lehenga) and a fitted short blouse (choli), usually with a dupatta.
+- A1.3.1.05 | Ruqun | 襦裙 | Traditional Chinese two-piece dress of an upper garment and a wrapped skirt.
+- A1.3.2.01 | Overalls (dungarees) |  | Trousers with a bib and shoulder straps, worn over or without a top.
+- A1.3.2.02 | Jumpsuit |  | One-piece garment joining a top and trousers.
+- A1.3.2.03 | Boiler suit |  | One-piece work garment with sleeves and legs, worn over other clothing.
+- A1.3.2.04 | Bee suit |  | One-piece protective suit with a veil or hood, worn by beekeepers.
+- A1.3.2.05 | Costume |  | Dress-up outfit sold as a set, with no single garment form.
+- A1.3.3.01 | Business suit |  | Tailored set of a jacket with matching trousers or skirt, for business and formal day wear.
+- A1.3.3.02 | Tuxedo |  | Formal evening suit with satin or grosgrain facings, worn with a bow tie.
+- A1.3.4.01 | Sari |  | Long unstitched length of cloth draped round the body over a blouse and petticoat.
+- A1.3.4.02 | Kimono |  | Traditional Japanese T-shaped wrapped robe; type (furisode, houmongi, komon, tomesode, iromuji) is a named form and formality an attribute.
+- A1.3.4.03 | Yukata |  | Unlined cotton summer robe of Japanese dress.
+- A1.3.4.04 | Sarong (kanga) |  | Length of cloth wrapped round the waist or body.
+- A1.3.4.05 | Dhoti |  | Length of cloth wrapped and tied round the waist and legs by men in South Asian dress.
+- A1.3.4.06 | Dupatta |  | Long scarf-like length of cloth worn over the shoulders or head with South Asian dress.
+- A1.3.4.07 | Shawl (stole) |  | Rectangular or triangular length of cloth worn over the shoulders or arms.
+- A1.4.1.01 | Blazer (sport coat) |  | Tailored jacket worn without matching trousers, including school and club blazers.
+- A1.4.1.02 | MA-1 flight jacket |  | Short nylon bomber jacket with ribbed collar, cuffs and hem, in the MA-1 pattern.
+- A1.4.1.03 | M-65 field jacket |  | Cotton field jacket with four pockets and a concealed hood, in the M-65 pattern.
+- A1.4.1.04 | Harrington jacket |  | Short lightweight zip jacket with a stand collar and a tartan lining.
+- A1.4.1.05 | Coach jacket |  | Short unlined nylon jacket with a snap front and a collar.
+- A1.4.1.06 | Trucker jacket |  | Short work jacket with a pointed collar, chest pockets and button front, in denim, corduroy or other fabric.
+- A1.4.1.07 | Chore coat |  | Boxy workwear jacket with a button front and patch pockets.
+- A1.4.1.08 | Souvenir jacket [sukajan] |  | Embroidered satin bomber-style jacket in the Japanese souvenir jacket tradition.
+- A1.4.1.09 | Varsity jacket |  | Wool body and leather sleeves jacket with a ribbed collar, cuffs and hem, as worn by school and college teams.
+- A1.4.1.10 | Rider's jacket (biker jacket) |  | Close-fitting short jacket of leather or other tough material cut for motorcycle riding, with an asymmetric zip front.
+- A1.4.1.11 | Mountain parka |  | Hooded outdoor jacket of waterproof or windproof fabric, cut for hill and mountain use.
+- A1.4.1.12 | Shell jacket |  | waterproof or windproof jacket with no insulation, for rain and wind, softshell included.
+- A1.4.1.13 | Fleece jacket |  | Zip-front jacket of napped synthetic pile; the material is the form.
+- A1.4.1.14 | Puffer jacket |  | Quilted insulated jacket, down or synthetic filled, ending at the hip or above; fill and fill power are attributes.
+- A1.4.1.15 | Chef's jacket |  | Double-breasted, white or dark cotton jacket worn by cooks.
+- A1.4.1.16 | Haori |  | Traditional Japanese hip-length jacket worn over a kimono.
+- A1.4.2.01 | Trench coat |  | Belted, double-breasted raincoat with shoulder straps and a storm flap.
+- A1.4.2.02 | Pea coat |  | Short, double-breasted wool coat with wide lapels and slash pockets.
+- A1.4.2.03 | Duffle coat |  | Hooded wool coat fastened with toggles and loops.
+- A1.4.2.04 | Puffer coat |  | Quilted insulated coat, down or synthetic filled, ending below the hip; fill and fill power are attributes.
+- A1.4.2.05 | Beizi | 褙子 | Traditional Chinese long side-opening outer garment.
+- A1.4.3.01 | Puffer vest |  | Sleeveless quilted insulated vest, down or synthetic filled.
+- A1.4.3.02 | Cut-off vest (battle vest) |  | Sleeveless denim or leather vest with its sleeves cut off, worn as a base for patches.
+- A1.4.3.03 | Waistcoat |  | Fitted sleeveless tailored garment worn under a jacket or alone.
+- A1.4.3.04 | Hi-vis vest |  | Sleeveless fluorescent vest with reflective bands, worn for visibility.
+- A1.4.3.05 | Life jacket |  | Buoyant vest or jacket worn to keep the wearer afloat.
+- A1.4.4.01 | Poncho |  | Outer garment of a single piece of cloth with a head opening and no sleeves.
+- A1.4.4.02 | Cape (cloak) |  | Sleeveless outer garment hanging from the shoulders, open at the front.
+- A1.5.1.01 | Underwear |  | Garments worn next to the skin under other clothing, such as briefs, boxers, bras and vests.
+- A1.5.1.02 | Thermal base layer |  | Close-fitting garment worn next to the skin for warmth.
+- A1.5.1.03 | Corset (foundation garment) |  | Shaping garment worn under clothing to mould the figure.
+- A1.5.2.01 | Socks |  | Knitted covering for the foot and ankle or lower leg.
+- A1.5.2.02 | Tights |  | Close-fitting knitted covering for the feet, legs and hips in one piece.
+- A1.5.2.04 | Leg warmers |  | Tubes of knitted fabric worn over the lower leg without a foot.
+- A1.5.2.05 | Gaiters |  | Covering for the lower leg and ankle worn over trousers or boots.
+- A1.5.1.04 | Period underwear |  | Underwear made with absorbent layers for use during menstruation.
+- A1.5.2.03 | Stockings |  | Close-fitting knitted covering for the foot and leg, held up by a garter or a band.
+- A1.5.3.01 | Pyjamas |  | Two-piece sleep garment of a top and trousers.
+- A1.5.3.02 | Nightdress |  | One-piece loose sleep garment of dress form.
+- A1.5.3.03 | Bathrobe |  | Absorbent or soft robe worn before or after bathing or at home.
+- A1.5.3.04 | Wearable baby sleeping bag |  | Sleeveless or sleeved sleep sack worn by a baby in place of blankets.
+- A1.5.4.01 | Swimsuit |  | One-piece garment for swimming and bathing.
+- A1.5.4.02 | Bikini |  | Two-piece swimwear of a top and a brief.
+- A1.5.4.03 | Swim trunks |  | Shorts or briefs for swimming, worn by men and boys.
+- A1.5.4.04 | Beach cover-up |  | Loose garment worn over swimwear at the beach or pool.
+- A1.6.05 | Motorcycle helmet |  | Helmet made for motorcycle riders.
+- A1.6.06 | Cycling helmet |  | Helmet made for riders of bicycles.
+- A1.6.04 | Hard hat |  | Rigid helmet made to protect the head at work from falling objects and impact.
+- A1.6.07 | Welding helmet |  | Helmet with a darkening visor made to protect the face and eyes of a welder.
+- A1.6.08 | Bee veil |  | Mesh veil worn over the head and face by beekeepers.
+- A1.6.01 | Cap |  | Brimmed or peaked head covering fitted to the head, without a full brim.
+- A1.6.02 | Beanie |  | Close-fitting knitted head covering with no brim.
+- A1.6.09 | Safety glasses |  | Eyewear made to protect the eyes from a hazard.
+- A1.6.10 | Ear defenders |  | Ear muffs made to reduce noise reaching the ears.
+- A1.6.11 | Respirator |  | Face-worn device made to filter or supply air against dust, fumes or gas.
+- A1.6.12 | Face mask (medical or surgical) |  | Mask worn over the nose and mouth for medical or surgical protection.
+- A1.6.03 | Hat |  | Head covering with a crown and a brim, or a shaped crown.
+- A1.7.01 | Scarf |  | Length of cloth or knitted fabric worn round the neck.
+- A1.7.02 | Necktie |  | Strip of cloth worn round the collar and knotted at the front.
+- A1.7.03 | Arm sleeve |  | Tube of fabric worn over the forearm or arm; one made for a sport is E2.
+- A1.7.04 | Arm warmer |  | Tube of knitted fabric worn over the forearm for warmth.
+- A1.7.05 | Glove |  | Covering for the hand with a separate sheath for each finger.
+- A1.7.06 | Mitten |  | Covering for the hand with one sheath for the thumb and one for the fingers.
+- A1.7.07 | Belt |  | Strip of leather, fabric or other material worn round the waist.
+- A1.7.08 | Sash |  | Wide band of cloth worn round the waist or over a shoulder.
+- A1.8.01 | Belt buckle |  | Buckle sold loose and made to be fitted to a belt.
+- A1.8.02 | Collar stay |  | Stiffener slipped into the underside of a shirt collar.
+- A1.8.03 | Detachable lining or hood |  | Lining or hood made to be fitted to and removed from one garment.
+- A1.1.1.01 | T-shirt |  | Pullover top of jersey fabric with short or long sleeves and no collar or full-length front opening (a short neck placket, as on a Henley, is allowed).
+- A1.1.1.02 | Corset top |  | Corset-shaped bustier or corset made to be worn visible as a top (a foundation corset is A1.5.1.03).
+- A1.1.2.01 | Button-up shirt |  | Woven shirt with a collar and a full-length button front, in casual or smart-casual use.
+- A1.1.2.02 | Dress shirt |  | Woven shirt made to be worn with a tie or under a suit, with a stiffer collar and button cuffs or cufflink cuffs.
+- A1.1.2.03 | Overshirt (shacket) |  | Heavier shirt-construction garment worn as a light outer layer; a garment sold as a shacket with shirt construction.
+- A1.1.2.04 | Polo shirt |  | Knit or piqué pullover shirt with a collar and a short button placket.
+- A1.1.2.05 | Tunic shirt (kurta) [kurti] |  | Loose woven tunic shirt pulled over the head, collarless or short-collared, hip to knee length and worn untucked; the South Asian kurta, with dashiki, barong tagalog, vyshyvanka and huipil as named forms.
+- A1.1.3.01 | Pullover sweater |  | Knitted top with no full-length front opening (a quarter-zip or button neck is allowed), worn as a mid layer or outer layer.
+- A1.1.3.02 | Cardigan |  | Knitted top with a front opening fastened by buttons, a zip or a tie, or left open.
+- A1.1.4.01 | Sweatshirt |  | Pullover top of sweatshirt jersey with a ribbed neck, cuffs and hem and no hood.
+- A1.1.4.02 | Hoodie |  | Sweatshirt-type top with an attached hood, with or without a front zip.
+- A1.1.4.03 | Fleece pullover |  | pullover of napped synthetic pile with no full-length front opening (a short button, snap or zip neck is allowed); the material is the form.
+- A1.2.1.01 | Jeans |  | Five-pocket trousers of denim or denim-like twill; fit, weight and selvedge are attributes.
+- A1.2.2.01 | Chinos |  | Lightweight cotton twill trousers with a flat front and slanted pockets.
+- A1.2.2.02 | Cargo trousers |  | Trousers with large patch pockets on the thighs or legs.
+- A1.2.2.03 | Work pants |  | hard-wearing trousers made for work in cotton twill, duck or similar fabric, scrub trousers included.
+- A1.2.2.04 | Joggers |  | Casual trousers of jersey or fleece with an elasticated or ribbed waist and ankle cuffs.
+- A1.2.2.05 | Hakama |  | Pleated, wide-legged or divided traditional Japanese trousers tied at the waist.
+- A1.2.2.06 | Chainsaw trousers |  | Trousers with cut-resistant protective layers, worn for chainsaw work; hazard rating is an attribute.
+- A1.2.3.01 | Shorts |  | Garment for the lower body with short legs ending at or above the knee.
+- A1.2.4.01 | Skirt |  | Garment hanging from the waist or hips, open or closed below, without leg divisions; length and cut are attributes.
+- A1.4.2.06 | Overcoat |  | cloth, wool or leather coat ending below the hip, tailored or plain, that no other coat kind covers (worn over a suit or jacket, or on its own).
+- A1.4.1.17 | Work jacket |  | short hard-wearing jacket of duck canvas or similar, zip or button front, made for work; chore coat and trucker patterns keep their kinds.
+- A1.4.1.18 | Flight jacket (bomber) |  | short jacket with a gathered or ribbed waist and cuffs in a flight or bomber pattern other than the MA-1 (A-2, B-15, CWU-45/P, G-1).
+- A1.4.1.19 | Anorak |  | hooded pullover jacket of windproof or waterproof fabric with a part-length front opening.
+- A1.4.2.07 | Parka |  | hooded insulated coat with a smooth outer shell, ending below the hip, cut for cold weather; a quilted face is the puffer coat.
+- A1.4.1.20 | Field jacket |  | hip-length military-style cotton jacket with four front pockets in a pattern other than the M-65 (M-43, M-51, safari-style).
+- A1.7.09 | Pocket square |  | square of cloth folded and worn in the breast pocket of a jacket.
+- A1.6.13 | Face shield |  | clear visor on a headband or hard-hat mount that protects the whole face from impact or splash.
+- A1.6.14 | Earplugs |  | plugs worn in the ear canal to reduce noise reaching the ears.
+- A1.6.15 | Balaclava |  | close-fitting head covering that also covers the neck and part or all of the face.
+- A1.6.16 | Headband |  | band of fabric or knit worn round the head or ears, held by its own elastic or ties.
+- A1.5.1.05 | Shapewear |  | elastic garment without boning worn under clothing to smooth or shape the figure; a boned shaping garment is the corset.
+- A1.1.1.03 | Tank top (camisole) |  | sleeveless top held by shoulder straps or narrow shoulders, of jersey or light fabric.
+- A1.1.2.06 | Blouse |  | woven top cut for women, with a placket, tie, yoke or collar detail but not a full collared button front; that is the button-up shirt.
+- A1.2.2.07 | Trousers (tailored or casual) |  | trousers with a fly and waistband sold apart from a suit, tailored or casual, of any leg shape (wide-leg, straight, pleated), that no more specific trouser kind covers.
+- A1.2.2.08 | Leggings |  | close-fitting stretch trousers without feet; footed versions are tights.
+- A1.2.2.09 | Culottes |  | wide-legged trousers cut to hang like a skirt, ending between knee and ankle.
+- A1.1.3.03 | Sweater vest |  | sleeveless knitted top, pullover or buttoned.
+- A1.2.2.10 | Chainsaw chaps |  | cut-resistant leg aprons strapped over ordinary trousers for chainsaw work; hazard rating is an attribute.
+- A1.1.1.04 | Bodysuit |  | Close-fitting one-piece top of jersey or stretch fabric that covers the torso and fastens under the crotch, worn as a top (baby bodysuits included); a body sold as lingerie is underwear.
+- A1.2.2.11 | Bondage trousers |  | Close-cut punk trousers with straps joining the legs, zips and D-rings, often with a detachable bum flap; tartan or black cotton is an attribute.
+- A1.3.1.06 | Thobe (thawb) | ثوب | Loose ankle-length robe with long sleeves, pulled over the head and worn as the main garment, mostly by men in Arab, North African and Sudanese dress; collar and cuffs are attributes (kandura, dishdasha, jalabiya, djellaba and gandoura are named forms).
+- A1.3.1.07 | Boubou |  | Very wide flowing robe cut from a broad length of cloth with a neck opening and sides left open or sewn low, worn over a tunic and trousers in men's sets or alone as a gown in West African dress; agbada is a named form.
+- A1.3.1.08 | Tunic suit (shalwar kameez) | شلوار قمیض | Set of a long tunic reaching the hip or below worn over matching trousers or a skirt and sold together (shalwar kameez, kurta pyjama, ao dai, baju kurung, puletasi); the tunic alone is the kurta.
+- A1.3.1.09 | Hanbok | 한복 | Korean traditional outfit of a short jacket (jeogori) tied with a ribbon worn over a full high-waisted wrap skirt (chima) or wide trousers (baji); the long coat (durumagi) is worn over it.
+- A1.3.4.08 | Wrap robe (deel, chapan) | дээл | Long-sleeved robe whose fronts overlap and are held by a sash, belt or side fastenings, worn as the main garment or as a coat (Mongolian deel, Bhutanese gho, Central Asian chapan); kimono and yukata keep their kinds.
+- A1.4.1.21 | Track jacket |  | Zip-front jacket of tricot or other smooth synthetic knit with a stand collar and ribbed or elastic cuffs and hem, worn alone or as the top of a tracksuit; tracksuit trousers are joggers.
+- A1.4.2.08 | Abaya | عباية | Loose long-sleeved over-garment reaching the knee or ankle, worn by women over other clothes for modest dress in public, open-front or closed; the Iranian manteau is a named form.
+- A1.4.2.09 | Sherwani | शेरवानी | Fitted knee-length coat with a standing collar, buttoned down the front and worn over close trousers such as churidar for weddings and formal South Asian dress; achkan is a named form.
+- A1.6.17 | Headscarf (hijab) | حجاب | Scarf or sewn covering worn over the head to cover the hair and often the neck, wrapped and pinned or pulled on (instant hijab, underscarf, tudung); a scarf worn round the neck is the scarf.
+- A1.1.1.05 | Scrub top |  | Loose pullover top of woven or stretch-woven fabric with a V-neck or crew neck, short sleeves and patch pockets, worn as a medical or care uniform; scrub trousers are work pants.
+- A1.4.2.12 | Lab coat (white coat) |  | Knee-length or longer button-front work coat of white or coloured cotton or polyester, worn over clothing in laboratories, clinics and workshops; splash or chemical rating is an attribute.
+- A1.4.2.11 | Fur coat (shuba) |  | Coat made of fur pelts or faux fur worn pile-out (mink, fox, sable or faux fur coat); fur type is an attribute; fur-trimmed or fur-lined coats and suede-out sheepskin coats are filed by cut.
+- A1.4.2.10 | Raincoat (mac) |  | Coat ending below the hip of waterproof, rubberised, coated or water-repellent fabric made to keep off rain, without the trench coat's belt, epaulettes and storm flap; a hip-length rain jacket is the shell jacket.
+- A1.3.1.10 | Co-ord set |  | Matching top and bottom (trousers, shorts or skirt) cut from the same fabric or print and sold together as one outfit; a tailored jacket set is the business suit, a long-tunic set the tunic suit; tracksuits are filed by their pieces (R-84).
+- A1.4.1.22 | Casual jacket (blouson) |  | Sleeved jacket ending at the hip or above, worn over other clothing and fastened at the front, in a cut no other jacket kind covers (blouson, short or cropped jacket, leather or suede jacket not cut for riding); cut and material are attributes.
+- A1.1.1.06 | Team jersey |  | Pullover top in a team's colours and badges, of knitted jersey or mesh, with or without a collar, sold as a team, replica, retro or fan shirt (football, rugby, hockey, basketball); a cycling jersey is E2.
+- A1.3.2.06 | Firefighter suit (turnout gear) |  | Protective coat-and-trousers set or one-piece suit with flame-, heat- and water-resistant layers worn by firefighters, aluminised proximity suits included; hazard rating is an attribute.
+- A1.7.10 | Braces (suspenders) |  | Pair of straps worn over the shoulders and clipped or buttoned to the trousers to hold them up; stocking suspenders (garters) are hosiery accessories, not this kind.
+- A1.4.4.03 | Changing robe |  | Oversized hooded robe or coat, often with a waterproof shell and fleece or towelling lining, worn to change under and keep warm before and after outdoor swimming, surfing and other outdoor activity.

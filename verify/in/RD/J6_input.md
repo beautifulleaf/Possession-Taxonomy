@@ -1,0 +1,111 @@
+# J6 Coffee, Tea & Cocoa: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (the plant, then the form or tea type it is sold as)
+- reason: Shops and guides open on coffee or tea, then coffee by format or roast and tea by processing type (Kaldi Coffee Farm, Netherlands; Coffee Bros; iTeaworld loose-leaf tea guide; Joybuy Germany international tea guide; my-best.com Japanese tea ranking), and two guides say origin alone does not predict tea quality.
+- ladder: Coffee, tea, cocoa or infusion? > Coffee: which format; tea: which type; cocoa: which product? > What makes the best one? > Who vouches for it? > The named best (origin or estate name, variety, competition lot, producer named by a quality source)
+- level1_groups: G-J6-1 Coffee; G-J6-2 Tea; G-J6-3 Cocoa & drinking chocolate; G-J6-4 Herbal & other infusions
+- quality_markers: Coffee: green-bean defects (0 Category 1 and at most 5 Category 2 per 350 g) > SCA cup score (90+ Outstanding > 85-89.99 Excellent > 80-84.99 Very Good > below 80 not specialty) > traceability (farm or lot > region > country > blend) > variety (rare varieties such as Geisha) > process (washed, natural, honey: choice) > roast matched to brew (choice); Tea: type and processing for the taste wanted (choice) > harvest season (spring or first flush > summer) > dry leaf (whole, even, good colour) > liquor clear, aroma, no bitterness > area named only when 100% local leaf > short ingredient list, pack and storage; black tea leaf grade (size and tip, not cup quality); Cocoa: process for the recipe (Dutch or natural: choice) > fat content > fine grind > producer publishes fat and pH; fine-or-flavour bean class (provisional); Infusions: plant and part, then freshness (provisional, no evidence fetched)
+- quality_signals: SCA cupping protocol and 100-point scale, scored by Q Graders (Specialty Coffee Association, CQI) as a scheme on the specialty grade attribute; Cup of Excellence (Alliance for Coffee Excellence: 87+ winners, 90+ Presidential Award, National Winners, blind cupped, auctioned) as a competition label; ICCO fine or flavour cocoa class (memo S18); Japanese labelling rule (regional tea name needs 100% local leaf) as a standard; orthodox and CTC leaf grades as a standard; certification attributes, not tiers: Fairtrade/Max Havelaar, Rainforest Alliance (UTZ merged 2019), Smithsonian Bird Friendly, USDA and EU Organic; platform tags: Direct Trade (no certifier), award-winning shelf, matcha ceremonial or culinary
+- maker_role: none (confirm, provisional) with the R-115 b exception: roasters, estates, tea houses and pu-erh factories enter when a quality source names them (Cup of Excellence winner lists, specialist shop selections, awards); capsule-system owners stay C13 platform rows
+- side_view: Coffee: by brewer or machine (capsule systems from C13) beside format; generated views: specialty and competition coffee (specialty grade, Cup of Excellence label), rare varieties (from the variety table), Japanese tea, pu-erh by vintage; origin only as a filter or a generated view
+- evidence_rows: Kaldi Coffee Farm, Netherlands (coffee shop menu); Coffee Bros (US specialty roaster); Klatch Coffee (US roaster) labels page; SCA grading and cupping (Colipse Coffee explainer); Alliance for Coffee Excellence, Cup of Excellence rules; Kaldi certifications page (Netherlands); iTeaworld loose-leaf tea guide (US shop); Joybuy Germany international tea guide; my-best.com Japanese tea ranking (Japan); Chowhound cocoa powder article; J6 memo S14, S18
+- maker role row: {'code': 'J6', 'scope': '*', 'role': 'none', 'provisional': 'yes', 'reason': 'grocery rule: origin, estate and grade; roasters and estates through branded products'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-J6-1 | Coffee | 1 |  | J6.1
+- G-J6-10 | Beans and ground coffee | 2 | G-J6-1 | J6.1.01
+- G-J6-11 | Capsules and pods | 2 | G-J6-1 | J6.1.04
+- G-J6-12 | Instant and concentrate | 2 | G-J6-1 | J6.1.03; J6.1.05
+- G-J6-13 | Green coffee for home roasting | 2 | G-J6-1 | J6.1.02
+- G-J6-2 | Tea | 1 |  | J6.2
+- G-J6-14 | White tea | 2 | G-J6-2 | J6.2.1.01
+- G-J6-15 | Green tea and matcha | 2 | G-J6-2 | J6.2.2.01; J6.2.2.02; J6.2.2.03; J6.2.2.04; J6.2.2.05
+- G-J6-16 | Yellow tea | 2 | G-J6-2 | J6.2.3.01
+- G-J6-17 | Oolong | 2 | G-J6-2 | J6.2.4.01
+- G-J6-18 | Black tea | 2 | G-J6-2 | J6.2.5.01
+- G-J6-19 | Pu-erh and dark tea | 2 | G-J6-2 | J6.2.6.01; J6.2.6.02
+- G-J6-20 | Flavoured, scented and chai | 2 | G-J6-2 | J6.2.7.01; J6.2.7.02
+- G-J6-3 | Cocoa & drinking chocolate | 1 |  | J6.3
+- G-J6-21 | Cocoa powder and drinking chocolate | 2 | G-J6-3 | J6.3.06; J6.3.07
+- G-J6-22 | Cacao beans, nibs, paste and butter | 2 | G-J6-3 | J6.3.01; J6.3.02; J6.3.03; J6.3.04; J6.3.05
+- G-J6-4 | Herbal & other infusions | 1 |  | J6.4
+- G-J6-23 | Rooibos, mate and herb leaves | 2 | G-J6-4 | J6.4.1.01; J6.4.1.02; J6.4.1.03; J6.4.1.04; J6.4.1.05; J6.4.1.06; J6.4.1.07; J6.4.1.08; J6.4.1.09; J6.4.1.10; J6.4.1.11; J6.4.1.12; J6.4.1.13
+- G-J6-24 | Flower, fruit, root and grain infusions | 2 | G-J6-4 | J6.4.2.01; J6.4.2.02; J6.4.2.03; J6.4.2.04; J6.4.3.01; J6.4.3.02; J6.4.4.01; J6.4.4.02; J6.4.4.03; J6.4.4.04; J6.4.5.01; J6.4.2.05; J6.4.2.06; J6.4.2.07
+- G-J6-25 | Herbal blends | 2 | G-J6-4 | J6.4.0.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-J6-10 | green-bean defects | 0 Category 1 and at most 5 Category 2 per 350 g > more | Defect count is the first gate before cupping. | SCA grading and cupping (Colipse Coffee explainer); Kaldi Coffee Farm, Netherlands (coffee shop menu)
+- G-J6-10 | SCA cup score | 90-100 Outstanding > 85-89.99 Excellent > 80-84.99 Very Good > under 80 not specialty | Q Graders' 100-point score defines specialty and drives price. | SCA grading and cupping (Colipse Coffee explainer); Coffee Bros (US specialty roaster); Kaldi Coffee Farm, Netherlands (coffee shop menu)
+- G-J6-10 | competition result | Cup of Excellence Presidential Award (90+) > Cup of Excellence winner (87+) > National Winner > none | Blind national competitions with auctioned winning lots. | Alliance for Coffee Excellence, Cup of Excellence rules
+- G-J6-10 | traceability | farm or lot > region > country > blend | Roasters and shops price by how precisely origin is known. | Kaldi Coffee Farm, Netherlands (coffee shop menu); Coffee Bros (US specialty roaster)
+- G-J6-10 | variety | rare variety (Geisha) > named variety > unnamed | Rare varieties get their own shelves. | Klatch Coffee (US roaster) labels page
+- G-J6-10 | process |  | Washed, natural or honey sets flavour; a choice, not a ladder. | Kaldi Coffee Farm, Netherlands (coffee shop menu); Coffee Bros (US specialty roaster)
+- G-J6-10 | roast level |  | Roast matched to brew; Agtron number measures it; choice. | Coffee Bros (US specialty roaster); SCA grading and cupping (Colipse Coffee explainer)
+- G-J6-1 | ethical-sourcing labels |  | Fairtrade, Rainforest Alliance, Bird Friendly sit beside score; secondary. | Kaldi certifications page (Netherlands); Klatch Coffee (US roaster) labels page
+- G-J6-2 | tea type and processing |  | Type sets taste; guides choose type before area. | iTeaworld loose-leaf tea guide (US shop); Joybuy Germany international tea guide; my-best.com Japanese tea ranking (Japan)
+- G-J6-2 | harvest season | spring or first flush > summer | Spring leaf is called best for most teas. | iTeaworld loose-leaf tea guide (US shop); J6 memo S7, S8
+- G-J6-2 | dry leaf and liquor | whole, even leaf, clear liquor, rich aroma, no bitterness > broken, dull, bitter | Guides judge tea by leaf, liquor, aroma and spent leaf. | iTeaworld loose-leaf tea guide (US shop)
+- G-J6-2 | named area purity | 100% local leaf > blended or unclear origin | Japanese rule: regional name needs all-local leaf; avoid unclear origin. | my-best.com Japanese tea ranking (Japan)
+- G-J6-2 | ingredients and storage | short ingredient list, airtight pack > long list, loose storage | German guide: origin alone predicts little; freshness and purity matter. | Joybuy Germany international tea guide
+- G-J6-18 | black tea leaf grade | SFTGFOP > FTGFOP > TGFOP > GFOP > FOP > OP > broken > fannings > dust | Size and tip grade; not a cup-quality score. | J6 memo S14
+- G-J6-15 | shade and processing | gyokuro and kabusecha > sencha > hojicha and genmaicha (by sweetness) | Japanese guide ranks green teas by sweetness wanted from shading. | my-best.com Japanese tea ranking (Japan)
+- G-J6-21 | cocoa process |  | Dutch or natural chosen by recipe; no grade ladder found. | Chowhound cocoa powder article
+- G-J6-21 | fat content and grind | higher fat, finer grind > fat-reduced, coarse | Producers publishing fat and pH signal a better powder. | Chowhound cocoa powder article; J6 memo S17, S19
+- G-J6-22 | bean class | fine or flavour > bulk (provisional) | ICCO class describes a country's exports, disputed. | J6 memo S18
+- G-J6-4 | plant and part (infusions) |  | Infusions are chosen by plant and flavour; provisional, no HOL evidence. | J6 memo S11, S25
+
+## Kinds (kind_id | stored name | native name | definition)
+- J6.1.01 | Roasted coffee |  | roasted coffee beans sold whole or ground (grind an attribute), including drip bags (a pack form).
+- J6.1.02 | Green (unroasted) coffee |  | raw, unroasted coffee beans sold to roast.
+- J6.1.03 | Instant coffee |  | soluble dried coffee extract, including a dry mix whose largest ingredient by weight is coffee (attribute `mix`, K-49).
+- J6.1.04 | Coffee capsule or pod (machine system) |  | single-serve capsule, E.S.E. pod or paper pad of coffee made for one machine system (system in the C13 ledger).
+- J6.1.05 | Liquid coffee concentrate |  | liquid coffee extract sold to dilute, coffee its main ingredient; a sweetened or milk ready-to-drink is OUT (J6-O1).
+- J6.3.01 | Cocoa beans |  | whole cacao beans, raw, fermented and dried, or roasted.
+- J6.3.02 | Cocoa nibs |  | cocoa beans cracked and shelled into pieces, raw or roasted.
+- J6.3.03 | Cocoa shells and husks |  | the shell of the cocoa bean, sold for infusion.
+- J6.3.04 | Cocoa paste or mass |  | ground cocoa nibs set in a block or drops (cocoa liquor, ceremonial cacao); couverture and baking chocolate are J5 (K-50).
+- J6.3.05 | Cocoa butter |  | the fat pressed from cocoa paste (K-50).
+- J6.3.06 | Cocoa powder |  | unsweetened powder of pressed cocoa solids, natural, Dutch-process or black (alkalisation and fat content attributes).
+- J6.3.07 | Drinking chocolate powder |  | sweetened cocoa powder for a drink, cocoa its largest ingredient by weight; a sugar-led mix is OUT (K-49).
+- J6.2.1.01 | White tea |  | Camellia sinensis buds or young leaves withered and dried with little processing.
+- J6.2.2.01 | Steamed green tea |  | unoxidised tea fixed by steaming, rolled and dried (sencha, bancha).
+- J6.2.2.02 | Shade-grown steamed green tea |  | green tea from bushes shaded before harvest, then steamed (gyokuro).
+- J6.2.2.03 | Pan-fired green tea |  | unoxidised tea fixed by heating in a pan or drum (Long Jing, Bi Luo Chun).
+- J6.2.2.04 | Roasted green tea |  | green tea roasted after fixing (hojicha).
+- J6.2.2.05 | Powdered green tea (matcha) |  | shade-grown, steamed, unrolled tea leaf stone-ground to a fine powder.
+- J6.2.3.01 | Yellow tea |  | green-processed tea given a slow sealed yellowing step before drying.
+- J6.2.4.01 | Oolong tea |  | partly oxidised tea, bruised and rolled between withering and fixing.
+- J6.2.5.01 | Black tea (orthodox or CTC) |  | fully oxidised tea, made orthodox or by CTC (leaf grade an attribute).
+- J6.2.6.01 | Pu-erh tea |  | post-fermented Yunnan large-leaf tea, raw (sheng) or ripe (shou), loose or pressed into cakes, tuo cha or bricks (attributes). Level provisional until attested (R-19).
+- J6.2.6.02 | Other dark tea |  | post-fermented tea other than pu-erh (Liu Bao, Liu'an).
+- J6.2.7.01 | Scented, flavoured and blended tea |  | tea of any base type scented, flavoured or blended with other ingredients (Earl Grey, jasmine tea, blooming tea, genmaicha).
+- J6.2.7.02 | Spiced tea blend (chai) |  | tea blended with spices to brew as chai.
+- J6.4.1.01 | Lemon verbena |  | dried lemon verbena leaves sold for infusion.
+- J6.4.1.02 | Peppermint |  | dried peppermint leaves sold for infusion.
+- J6.4.1.03 | Rooibos |  | dried, usually oxidised leaves and stems of Aspalathus linearis sold for infusion. Level provisional until attested (R-19).
+- J6.4.1.04 | Yerba mate |  | dried, usually aged leaves and stems of Ilex paraguariensis sold for infusion (con palo, despalada, chimarrão, barbacuá). Level provisional until attested (R-19).
+- J6.4.2.01 | Chamomile |  | dried chamomile flowers sold for infusion.
+- J6.4.2.02 | Elderflower |  | dried elder flowers sold for infusion.
+- J6.4.2.03 | Hibiscus |  | dried hibiscus calyces and petals sold for infusion.
+- J6.4.2.04 | Lavender |  | dried lavender flowers sold for infusion.
+- J6.4.3.01 | Fruit tea (dried-fruit blend) |  | blend of dried fruit pieces sold for infusion.
+- J6.4.3.02 | Rose hip |  | dried rose hips sold for infusion.
+- J6.4.4.01 | Ginger |  | dried ginger root sold for infusion (in a jar as a cooking spice it is J5).
+- J6.4.4.02 | Kava (root powder) |  | ground root of Piper methysticum sold to prepare as a drink. Level provisional until attested (R-19).
+- J6.4.4.03 | Roasted chicory root (coffee substitute) |  | roasted chicory root sold to brew as a coffee substitute (K-51).
+- J6.4.4.04 | Turmeric |  | dried turmeric root sold for infusion (in a jar as a cooking spice it is J5).
+- J6.4.5.01 | Roasted barley tea |  | roasted barley grains sold to brew (K-51).
+- J6.4.0.01 | Herbal blend |  | blend of infusion plants from more than one plant part, none of which makes up half or more of its weight (final kind, K-46).
+- J6.4.1.05 | Honeybush |  | dried, usually oxidised leaves and stems of Cyclopia sold for infusion.
+- J6.4.1.06 | Guayusa |  | dried leaves of Ilex guayusa sold for infusion.
+- J6.4.1.07 | Lemongrass (dried) |  | dried lemongrass leaves sold for infusion; fresh stalks are J4.3.05.
+- J6.4.1.08 | Spearmint |  | dried spearmint leaves sold for infusion.
+- J6.4.1.09 | Mountain tea [sideritis] |  | dried flowering stems of Sideritis sold for infusion.
+- J6.4.1.10 | Nettle leaf |  | dried stinging-nettle leaves sold for infusion.
+- J6.4.1.11 | Birch leaf |  | dried birch leaves sold for infusion.
+- J6.4.2.05 | Yarrow |  | dried yarrow flowering tops sold for infusion.
+- J6.4.2.06 | Calendula |  | dried calendula (pot marigold) flowers sold for infusion.
+- J6.4.1.12 | Marjoram (for infusion) |  | dried marjoram leaves and flowers sold for infusion; a jar of culinary dried herb is J5.6.2.
+- J6.4.2.07 | Chrysanthemum |  | dried chrysanthemum flowers sold for infusion.
+- J6.4.1.13 | Kuding [bitter nail tea] |  | rolled dried leaves of Ilex kaushue or Ligustrum sold for infusion.

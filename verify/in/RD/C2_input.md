@@ -1,0 +1,215 @@
+# C2 Garden & Grounds: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: use or need (the garden job)
+- reason: Shoppers start from the job and the garden, not the tool or brand: Castorama groups machines by garden task, Architectural Plants groups Niwaki tools by job, and Toolstation's guide runs lawn size > power type > grass conditions with brand last; the decided tree is already job-first (C-2).
+- ladder: Which garden job? (lawn, cutting and pruning, digging...) > Which tool or machine? (kind: rotary, cylinder, robotic mower; secateurs, loppers) > What fits your garden and what makes the best one? (lawn size, power and battery, cut quality, maker line for hand tools)
+- level1_groups: Lawn care; Cutting, pruning & hedges; Digging & planting; Clearing, cleaning & snow; Watering, irrigation & ponds; Pots, beds & plant supports; Soil, feed & plant protection; Greenhouses & indoor growing; Pools & pool care; Parts & spares
+- quality_markers: Machines: cut quality (Which? 50 to 51 percent; Consumer NZ long-grass performance); ease of use (Which? 30 percent: weight, handling, starting, emptying); battery run time and spare-battery availability (Consumer NZ about 50 min; Which? Best Buy rule); reliability and durability (Consumer NZ brand reliability; community); noise; build and deck material; energy. Hand cutting tools: blade sharpness and steel; clean cut; durability, serviceability and spare parts (Felco against Okatsune); balance and fit to hand size; warranty. Grow lights: PPE and PPFD (memo). Pots: frost-hardiness and drainage (memo, provisional).
+- quality_signals: Which? Best Buy, Great Value, Eco Buy and Don't Buy with test percent (class ii and iii; Which?); Consumer NZ test results and brand reliability ratings (class ii; Consumer NZ); BBC Gardeners' World secateurs test rating (class iii; memo); Coolblue's Choice (class vi platform_tag; Coolblue); DLC qualified list for grow lights (standard_met; memo, provisional until attested)
+- maker_role: owner (confirmed): brand is explicitly the last step for machines (Toolstation), so makers enter through models and lines; for secateurs and Japanese hand tools the maker line is what is compared, which the named forms carry
+- side_view: Battery platform tab shared with C1 (Stihl AK, EGO and other C13 rows) because owners buy within the battery they have (Coolblue facet; GummySearch summary); a hand-tool makers tab (Felco, Okatsune, Niwaki) for pruning tools
+- evidence_rows: Castorama France motorised garden tools; Coolblue mower filters; Toolstation UK lawnmower buying guide; Consumer NZ lawnmower guide; Which? how we test lawn mowers; Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools); GummySearch Reddit lawnmower brand summary
+- maker role row: {'code': 'C2', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'garden equipment models carry the maker'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-C2-1 | Lawn care | 1 |  | C2.3.1; C2.3.2; C2.3.3; C2.3.4; C2.3.5
+- G-C2-101 | Mowers | 2 | G-C2-1 | C2.3.1.01; C2.3.1.02; C2.3.1.03; C2.3.1.04; C2.3.1.05; C2.3.1.06
+- G-C2-102 | Edging & trimming | 2 | G-C2-1 | C2.3.2.01; C2.3.2.02; C2.3.2.03
+- G-C2-103 | Scarifying & aerating | 2 | G-C2-1 | C2.3.3.01; C2.3.4.03
+- G-C2-104 | Feeding & rolling | 2 | G-C2-1 | C2.3.4.01; C2.3.4.02
+- G-C2-105 | Turf & ground cover | 2 | G-C2-1 | C2.3.5.01; C2.3.5.02
+- G-C2-2 | Cutting, pruning & hedges | 1 |  | C2.2.1; C2.2.2; C2.2.3
+- G-C2-106 | Secateurs, loppers & saws | 2 | G-C2-2 | C2.2.1.01; C2.2.1.02; C2.2.1.03; C2.2.1.04; C2.2.1.05; C2.2.1.06; C2.2.1.07; C2.2.1.08
+- G-C2-107 | Hedge cutting | 2 | G-C2-2 | C2.2.2.01; C2.2.2.02
+- G-C2-108 | Grass, brush & scrub cutters | 2 | G-C2-2 | C2.2.3.01; C2.2.3.02; C2.2.3.03; C2.2.3.04; C2.2.3.05; C2.2.3.06
+- G-C2-3 | Digging & planting | 1 |  | C2.1
+- G-C2-109 | Spades, forks & shovels | 2 | G-C2-3 | C2.1.01; C2.1.02; C2.1.03; C2.1.04; C2.1.13
+- G-C2-110 | Hand tools & planting | 2 | G-C2-3 | C2.1.05; C2.1.06; C2.1.08; C2.1.11; C2.1.12
+- G-C2-111 | Hoes, rakes, sieves & tillers | 2 | G-C2-3 | C2.1.07; C2.1.09; C2.1.10; C2.1.14
+- G-C2-4 | Clearing, cleaning & snow | 1 |  | C2.4
+- G-C2-112 | Leaves, shredding & stumps | 2 | G-C2-4 | C2.4.01; C2.4.02; C2.4.03; C2.4.04; C2.4.09
+- G-C2-113 | Cleaning & hauling | 2 | G-C2-4 | C2.4.05; C2.4.06
+- G-C2-114 | Snow clearing | 2 | G-C2-4 | C2.4.07; C2.4.08
+- G-C2-5 | Watering, irrigation & ponds | 1 |  | C2.5.1; C2.5.2; C2.5.3; C2.5.4; C2.5.5; C2.5.6
+- G-C2-115 | Hoses & reels | 2 | G-C2-5 | C2.5.1.01; C2.5.1.02; C2.5.1.03
+- G-C2-116 | Sprinklers & irrigation systems | 2 | G-C2-5 | C2.5.2.01; C2.5.3.01; C2.5.3.02; C2.5.3.03; C2.5.3.04
+- G-C2-117 | Hand watering | 2 | G-C2-5 | C2.5.4.01; C2.5.4.02
+- G-C2-118 | Water & pond pumps | 2 | G-C2-5 | C2.5.5.01; C2.5.5.02
+- G-C2-119 | Water storage & ponds | 2 | G-C2-5 | C2.5.6.01; C2.5.6.02; C2.5.6.03
+- G-C2-6 | Pots, beds & plant supports | 1 |  | C2.6.1; C2.6.2; C2.6.3
+- G-C2-120 | Pots & planters | 2 | G-C2-6 | C2.6.1.01; C2.6.1.02; C2.6.1.03; C2.6.1.04; C2.6.1.05; C2.6.1.06; C2.6.1.07; C2.6.1.08; C2.6.1.09; C2.6.1.10
+- G-C2-121 | Raised beds | 2 | G-C2-6 | C2.6.2.01
+- G-C2-122 | Supports, ties & labels | 2 | G-C2-6 | C2.6.3.01; C2.6.3.02; C2.6.3.03; C2.6.3.07; C2.6.3.08; C2.6.3.09; C2.6.3.10; C2.6.3.11
+- G-C2-123 | Covers, fleece & netting | 2 | G-C2-6 | C2.6.3.04; C2.6.3.05; C2.6.3.06
+- G-C2-7 | Soil, feed & plant protection | 1 |  | C2.7.1; C2.7.2; C2.7.3; C2.7.4; C2.7.5
+- G-C2-124 | Compost, mulch & soil | 2 | G-C2-7 | C2.7.1.01; C2.7.1.02; C2.7.1.03; C2.7.1.04; C2.7.1.05
+- G-C2-125 | Feeds & fertilisers | 2 | G-C2-7 | C2.7.2.01
+- G-C2-126 | Weed, pest & disease control | 2 | G-C2-7 | C2.7.3.01; C2.7.3.02; C2.7.3.03
+- G-C2-127 | Sprayers & soil tests | 2 | G-C2-7 | C2.7.4.01; C2.7.4.02
+- G-C2-128 | Composting | 2 | G-C2-7 | C2.7.5.01
+- G-C2-8 | Greenhouses & indoor growing | 1 |  | C2.8
+- G-C2-129 | Greenhouses, polytunnels & cold frames | 2 | G-C2-8 | C2.8.01; C2.8.02; C2.8.03
+- G-C2-130 | Grow lights, tents & propagation | 2 | G-C2-8 | C2.8.04; C2.8.05; C2.8.06; C2.8.07; C2.8.08
+- G-C2-9 | Pools & pool care | 1 |  | C2.9.1; C2.9.2; C2.9.3; C2.9.4; C2.9.5
+- G-C2-131 | Pools | 2 | G-C2-9 | C2.9.1.01; C2.9.1.02
+- G-C2-132 | Pumps, filters & chlorinators | 2 | G-C2-9 | C2.9.2.01; C2.9.2.02; C2.9.2.03; C2.9.2.04; C2.9.2.05
+- G-C2-133 | Pool heating | 2 | G-C2-9 | C2.9.3.01; C2.9.3.02
+- G-C2-134 | Pool cleaners & covers | 2 | G-C2-9 | C2.9.4.01; C2.9.4.02; C2.9.4.03; C2.9.4.04; C2.9.4.06; C2.9.4.07
+- G-C2-135 | Water treatment & testing | 2 | G-C2-9 | C2.9.4.05; C2.9.5.01
+- G-C2-10 | Parts & spares | 1 |  | C2.10
+- G-C2-136 | Mower & trimmer spares | 2 | G-C2-10 | C2.10.01; C2.10.02
+- G-C2-137 | Scythe parts | 2 | G-C2-10 | C2.10.04; C2.10.05
+- G-C2-138 | Pool-filter spares | 2 | G-C2-10 | C2.10.03; C2.10.06
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-C2-101 | cut quality |  | Which? gives it 50 to 51 percent; Consumer NZ tests long grass. | proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
+- G-C2-101 | ease of use (weight, handling, starting, emptying) |  | Which? gives it 30 percent. | proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers
+- G-C2-101 | battery run time and spare-battery availability |  | Consumer NZ about 50 minutes; part of the Which? Best Buy rule. | proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
+- G-C2-101 | reliability and durability |  | Consumer NZ brand reliability survey; owner community reports. | proposals.tsv C2 row (quality_markers); Consumer NZ lawnmower guide; GummySearch Reddit lawnmower brand summary
+- G-C2-101 | noise |  | Measured in the mower tests. | proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
+- G-C2-101 | build and deck material |  | A build marker after the tested results. | proposals.tsv C2 row (quality_markers); Toolstation UK lawnmower buying guide
+- G-C2-101 | energy |  | Last of the machine markers. | proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
+- G-C2-106 | blade sharpness and steel |  | Hand cutting tools are compared on the blade first. | proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
+- G-C2-106 | clean cut |  | Second in the proposals order for hand cutting tools. | proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
+- G-C2-106 | durability, serviceability and spare parts |  | The compared lines (Felco against Okatsune) differ on it. | proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
+- G-C2-106 | balance and fit to hand size |  | Sizes are offered by hand. | proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
+- G-C2-106 | warranty |  | Last of the hand-tool markers. | proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
+- G-C2-130 | light output (PPE and PPFD) |  | Grow lights are judged on efficacy and light at the plant (memo). | proposals.tsv C2 row (quality_markers); C2 memo
+- G-C2-120 | frost-hardiness and drainage |  | "Provisional (memo; no ""best pot"" list fetched)." | proposals.tsv C2 row (quality_markers); C2 memo
+
+## Kinds (kind_id | stored name | native name | definition)
+- C2.1.01 | Garden spade |  | long-handled tool with a flat, sharp-edged blade pushed in by foot to dig and cut soil.
+- C2.1.02 | Garden fork |  | long-handled tool with stout tines to dig, loosen and turn soil.
+- C2.1.03 | Shovel |  | long-handled tool with a broad, dished blade to lift and move loose soil or material.
+- C2.1.04 | Mattock |  | swung tool with a heavy head carrying an adze blade, used to break hard ground and cut roots.
+- C2.1.05 | Hand trowel |  | short-handled scoop-shaped blade for digging small planting holes.
+- C2.1.06 | Bulb planter |  | tool that cuts and lifts a plug of soil to make a hole for a bulb.
+- C2.1.07 | Hoe |  | long-handled tool with a blade drawn or pushed through the soil surface to weed and loosen it.
+- C2.1.08 | Hand cultivator |  | tined tool, hand-held or on a handle, that breaks up and aerates the soil surface.
+- C2.1.09 | Garden rake (soil rake) |  | rake with short rigid teeth on a straight head to level and break soil.
+- C2.1.10 | Garden sieve |  | framed mesh riddle that sifts soil or compost.
+- C2.2.1.01 | Secateurs |  | one-handed scissor-action pruning shears for stems and small branches, manual or powered; bypass, anvil and ratchet are the attribute `cutting_action`.
+- C2.2.1.02 | Loppers |  | long-handled two-handed pruning shears for thicker branches.
+- C2.2.1.03 | Pruning saw |  | hand saw with a toothed blade made to cut living branches.
+- C2.2.1.04 | Pole pruner (high-branch shears) |  | pruning head on a long pole, worked from the ground to cut high branches.
+- C2.2.1.05 | Chainsaw |  | hand-held saw with a powered toothed chain running round a guide bar, for felling, pruning and cutting wood (`drive` petrol, cordless or corded; K-173).
+- C2.2.1.06 | Pole saw |  | powered saw head on a long pole for cutting high branches from the ground (K-173).
+- C2.2.2.01 | Hedge shears |  | two-handed long-bladed shears for clipping hedges and shrubs.
+- C2.2.2.02 | Hedge trimmer |  | powered tool with a reciprocating toothed blade bar for cutting hedges.
+- C2.2.3.01 | Sickle |  | one-handed curved blade for cutting grass and crops.
+- C2.2.3.02 | Scythe |  | long-shafted two-handed tool with a long curved blade swung to mow grass.
+- C2.2.3.03 | Brush cutter |  | powered shaft machine with a metal blade or line head for clearing brush, scrub and long grass.
+- C2.2.3.04 | Billhook |  | hooked chopping blade on a short handle for cutting brush, hedge laying and coppice work.
+- C2.2.3.05 | Machete |  | long heavy-bladed knife swung to cut vegetation.
+- C2.2.3.06 | Garden multi-tool (split-shaft powerhead) |  | powered handle and motor unit that takes interchangeable cutting attachments (grass trimmer, hedge trimmer, pole pruner, brush cutter); provisional until a harvested seller page shows the class (memo section 14, C-10).
+- C2.3.1.01 | Cylinder mower |  | mower that cuts with a rotating reel of blades against a fixed bottom blade.
+- C2.3.1.02 | Rotary mower |  | wheeled mower that cuts with a blade spinning horizontally under a deck.
+- C2.3.1.03 | Hover mower |  | rotary mower that floats on a cushion of air instead of wheels.
+- C2.3.1.04 | Robotic mower |  | self-guided battery mower that mows a set area on its own (a kind under C10(b)).
+- C2.3.1.05 | Ride-on mower |  | mower that carries its seated operator while it cuts.
+- C2.3.1.06 | Lawn tractor |  | lawn or garden tractor with a mowing deck, without a rear power take-off and a Category 1 or larger three-point hitch (with both it is C7; K-99).
+- C2.3.2.01 | Lawn trimmer / string trimmer |  | powered tool that cuts grass at lawn edges and around obstacles with a spinning line or light blade.
+- C2.3.3.01 | Scarifier |  | machine or tool that rakes thatch and moss out of a lawn with blades or tines.
+- C2.3.4.01 | Broadcast spreader |  | wheeled or hand-held hopper that spreads seed or granular feed over a lawn.
+- C2.3.4.02 | Lawn roller |  | weighted drum pushed or pulled to firm and level a lawn.
+- C2.3.4.03 | Lawn aerator |  | tool or machine that spikes or cores a lawn to let air and water into the soil.
+- C2.3.5.01 | Artificial turf |  | synthetic grass surface sold in rolls or tiles to lay as a lawn.
+- C2.3.5.02 | Garden stone |  | stone, gravel included, and bark sold as decorative ground cover (K-174, K-187).
+- C2.4.01 | Leaf rake |  | wide fan-shaped rake with springy tines for gathering leaves and debris.
+- C2.4.02 | Leaf blower |  | powered machine that blows leaves and debris into heaps; a blower-vac that also sucks and shreds is this kind with the vacuum function an attribute.
+- C2.4.03 | Garden shredder |  | machine that shreds garden prunings and green waste into small pieces.
+- C2.4.04 | Wood chipper |  | chipper for branches and brush that is not tractor-driven, towed or self-propelled, for tree surgery and grounds (C7-O1).
+- C2.4.05 | Pressure washer |  | powered pump that sprays water at high pressure to clean paths, drives, patios and vehicles.
+- C2.4.06 | Wheelbarrow |  | wheeled container with handles for carrying soil, waste and materials in a garden; a garden cart is this kind.
+- C2.4.07 | Snow shovel / pusher |  | wide-bladed hand shovel or pusher for clearing snow.
+- C2.4.08 | Snow blower |  | powered machine that gathers snow and throws it clear of a path or drive.
+- C2.5.1.01 | Garden hose |  | flexible hose for carrying water in a garden.
+- C2.5.1.02 | Hose reel |  | reel or cart on which a garden hose is wound and stored.
+- C2.5.2.01 | Lawn sprinkler |  | device that sprays water over an area of lawn or bed; pop-up, oscillating and rotary heads are attributes.
+- C2.5.3.01 | Drip irrigation kit |  | set of pipe, drippers and fittings that delivers water drop by drop to plants (balcony and terrace set sizes are variants).
+- C2.5.3.02 | Soaker hose |  | porous hose that seeps water along its length into the soil.
+- C2.5.3.03 | Irrigation controller |  | timer or controller that switches the water supply to a garden irrigation system.
+- C2.5.4.01 | Watering can |  | hand-carried vessel with a spout, often with a rose, for watering plants.
+- C2.5.5.01 | Garden water pump |  | pump made to move water for watering and irrigation in a garden (K-175).
+- C2.5.5.02 | Pond and fountain pump |  | pump made to circulate water in a garden pond, fountain or water feature (K-175, K-104, B4-O1).
+- C2.5.6.01 | Water butt / rain tank |  | container that collects and stores rainwater for garden use (K-177).
+- C2.5.6.02 | Pond liner |  | flexible waterproof sheet laid to form a garden pond (K-104).
+- C2.5.6.03 | Preformed pond |  | rigid moulded pond shell set into the ground (K-104).
+- C2.6.1.01 | Plant pot |  | container with drainage in which a plant grows.
+- C2.6.1.02 | Window box |  | long narrow planter made to sit on or hang from a window sill or railing.
+- C2.6.1.03 | Hanging basket |  | basket or container hung from a bracket or chain to grow plants in.
+- C2.6.1.04 | Bonsai pot |  | shallow glazed or unglazed pot with drainage and wire holes, made for growing bonsai.
+- C2.6.1.05 | Fabric grow pot / grow bag |  | pot made of breathable fabric that air-prunes roots.
+- C2.6.1.06 | Plant saucer |  | shallow dish set under a pot to catch drained water.
+- C2.6.1.07 | Cachepot (overpot) |  | decorative outer container without drainage that holds a potted plant (K-179).
+- C2.6.1.08 | Self-watering planter |  | planter with a built-in reservoir that feeds water to the roots.
+- C2.6.2.01 | Raised bed |  | framed bed standing above ground level, filled with soil to grow plants in.
+- C2.6.3.01 | Plant stake (cane) |  | rod or cane pushed into the soil to hold up a plant.
+- C2.6.3.02 | Plant tie |  | tie, twine or clip that fastens a plant to its support.
+- C2.6.3.03 | Plant label |  | tag or marker that names a plant in a pot or bed.
+- C2.6.3.04 | Plant netting |  | netting made to support climbing plants or protect crops from birds and pests (K-187).
+- C2.6.3.05 | Horticultural fleece |  | light non-woven fabric laid over plants to protect them from frost and pests.
+- C2.6.3.06 | Cloche |  | small transparent cover placed over plants to shelter and warm them.
+- C2.6.3.07 | Trellis |  | open lattice panel on which climbing plants are trained (B4-O1).
+- C2.6.3.08 | Garden arch |  | arched frame over a path on which climbing plants are grown (B4-O1).
+- C2.6.3.09 | Obelisk |  | free-standing tapering frame on which climbing plants are grown (B4-O1).
+- C2.7.1.01 | Potting compost |  | prepared growing medium for pots and containers.
+- C2.7.1.02 | Mulch |  | material spread on the soil surface to hold moisture and suppress weeds, bark mulch included (K-174).
+- C2.7.1.03 | Topsoil |  | screened upper soil sold for beds, lawns and filling.
+- C2.7.1.04 | Soil improver |  | material dug into soil to improve its structure or fertility (K-174).
+- C2.7.2.01 | Fertiliser |  | product that supplies plant nutrients, granular, liquid or slow-release.
+- C2.7.3.01 | Herbicide |  | weed killer made to kill or control unwanted plants (K-178).
+- C2.7.3.02 | Insecticide (pest killer) |  | product that kills or repels insects and other pests on plants (K-178).
+- C2.7.3.03 | Fungicide |  | product that prevents or treats fungal disease on plants.
+- C2.7.4.01 | Garden sprayer (pump sprayer) |  | hand-pumped or powered sprayer for applying liquid feeds and plant-protection products.
+- C2.7.4.02 | Soil test kit |  | kit for testing garden soil for pH or nutrients.
+- C2.7.5.01 | Compost bin |  | container in which garden and kitchen waste is composted.
+- C2.8.01 | Greenhouse |  | glazed framed structure in which plants are grown under shelter.
+- C2.8.02 | Polytunnel |  | hoop-framed tunnel covered in polythene film for growing plants under cover.
+- C2.8.03 | Cold frame |  | low glazed box that shelters plants and seedlings outdoors.
+- C2.8.04 | Grow light |  | lamp made to give light for plant growth; LED, HPS, CMH and fluorescent are the attribute lamp technology (C-14).
+- C2.8.05 | Grow tent |  | lightproof reflective fabric tent on a frame for growing plants indoors under lights.
+- C2.8.06 | Propagator |  | covered tray, heated or not, for raising seeds and cuttings.
+- C2.8.07 | Hydroponic system |  | system that grows plants without soil, roots fed by a nutrient solution.
+- C2.9.1.01 | Above-ground pool |  | framed swimming pool that stands on the ground.
+- C2.9.1.02 | Soft-sided pool |  | "swimming pool with flexible walls, held by an inflatable ring or by the water (the alias ""inflatable pool"" is † until attested)."
+- C2.9.2.01 | Pool pump |  | pump that circulates pool water through the filter.
+- C2.9.2.02 | Sand filter |  | pool filter that traps dirt in a bed of sand or glass media.
+- C2.9.2.03 | Cartridge filter |  | pool filter that traps dirt in a pleated cartridge.
+- C2.9.2.04 | DE filter |  | pool filter that traps dirt on grids coated with diatomaceous earth.
+- C2.9.2.05 | Salt chlorinator (salt cell) |  | device that makes chlorine from salt dissolved in the pool water by electrolysis.
+- C2.9.3.01 | Pool heater |  | gas, electric or solar heater that warms pool water.
+- C2.9.3.02 | Pool heat pump |  | heat pump that warms pool water with heat drawn from the air (K-176).
+- C2.9.4.01 | Robotic pool cleaner |  | self-powered cleaner with its own motor that scrubs and vacuums the pool.
+- C2.9.4.02 | Suction-side pool cleaner |  | cleaner driven by the suction of the pool pump.
+- C2.9.4.03 | Pressure-side pool cleaner |  | cleaner driven by water pressure from the pool's return line or a booster pump.
+- C2.9.4.04 | Pool cover |  | cover laid over a pool to keep out debris, hold heat or make it safe.
+- C2.9.4.05 | Pool test kit |  | kit for testing pool water for chlorine, pH and other values (K-176).
+- C2.9.5.01 | Pool sanitiser |  | chemical that disinfects pool water, chlorine tablets and granules included (K-176).
+- C2.10.01 | Mower blade |  | replacement cutting blade made for a mower (S3).
+- C2.10.02 | Trimmer line |  | replacement cutting line made for a string trimmer or brush cutter head (S3).
+- C2.10.03 | Pool-filter cartridge element |  | replacement pleated element made for a pool cartridge filter (S3).
+- C2.2.1.07 | Pruning knife (garden knife) |  | fixed or folding knife with a curved or straight blade made to cut stems, prune and graft plants.
+- C2.1.11 | Hand weeder |  | short-handled tool with a forked or notched blade that levers tap-rooted weeds out of soil or paving joints.
+- C2.1.12 | Dibber |  | pointed hand tool pushed into soil to make holes for seeds, seedlings and cuttings.
+- C2.5.3.04 | Tree watering bag |  | bag filled with water and strapped round a tree trunk that releases water slowly into the root zone.
+- C2.4.09 | Stump grinder |  | machine with a toothed cutting wheel that grinds tree stumps below ground, not tractor-driven.
+- C2.10.04 | Scythe blade |  | replacement blade made to fit a scythe snath (S3).
+- C2.10.05 | Scythe snath |  | shaft with grips made to carry a scythe blade, sold alone (S3).
+- C2.6.1.09 | Vertical garden planter |  | wall-hung or stacked pocket or module system in which plants grow in a vertical surface.
+- C2.6.1.10 | Hanging-basket liner |  | coir, moss or fibre liner made to line a wire hanging basket or planter, sold alone.
+- C2.6.3.10 | Plant support frame (cage or ring) |  | wire or plastic cage, ring or grow-through grid that holds up a whole plant or clump.
+- C2.6.3.11 | Plant tying tool (tapener) |  | hand tool that wraps tape round a stem and its support and staples it.
+- C2.7.1.05 | Grow bag (compost-filled) |  | plastic sack of growing medium laid flat and planted into directly.
+- C2.9.4.06 | Pool cleaner booster pump |  | pump that raises water pressure to drive a pressure-side pool cleaner.
+- C2.9.4.07 | Robotic pool skimmer |  | self-powered, often solar, floating robot that skims debris from the water surface.
+- C2.10.06 | Pool DE filter grid |  | replacement grid or grid set made for a pool DE filter (S3).
+- C2.8.08 | Grow environment controller |  | controller that switches lights, fans and humidity devices of a grow tent or room on set values.
+- C2.2.1.08 | Garden snips |  | scissor-form shears with finger loops and straight blades for herbs, flowers and soft stems.
+- C2.3.2.02 | Half-moon edger (edging iron) |  | long-handled tool with a flat half-moon blade pushed in by foot to cut a clean lawn edge.
+- C2.1.13 | Broadfork |  | two-handled wide fork with long tines, rocked back to loosen soil deeply without turning it.
+- C2.3.2.03 | Grass shears |  | shears with short blades, one-handed or on long handles, for trimming grass at lawn edges by hand.
+- C2.1.14 | Garden tiller (rotavator) |  | powered machine with rotating tines that digs and breaks up soil for beds and plots.
+- C2.5.4.02 | Hose spray gun (hose nozzle) |  | hand-held nozzle or gun fitted to a hose end to shape and stop the water jet for hand watering.
+- C2.5.1.03 | Hose connector (hose fitting) |  | click-on or screw connector, tap connector or coupling that joins garden hoses to taps, tools and each other.

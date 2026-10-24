@@ -1,0 +1,99 @@
+# B3 Lighting: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object by placement and role (ceiling and wall, lamps, outdoor, portable lights, bulbs)
+- reason: Lighting shops open on fixture type by where it goes, ceiling, wall, table, floor, spot, outdoor, with bulbs as a sibling and light source, colour temperature, IP rating and style as filters (Hoeffner (DE) Lampen & Leuchten; IKEA Belgium Lamps); this confirms R-104, with maker leading only for vintage design lamps and torches (1stDibs Stilnovo table lamp listing; Budget Light Forum: brand impressions).
+- ladder: Where does the light go, or how is it carried? (ceiling and wall, lamps, outdoor, portable, bulbs) > Which fixture type? (kind: pendant, desk lamp, headlamp, candle bulb) > What makes the best one? (light quality: lumens, colour temperature, CRI; torches by FL1 figures; bulbs by cap first, then output)
+- level1_groups: Ceiling & wall lights; Lamps; Outdoor lights; Torches, headlamps, lanterns & work lights; Bulbs & strips; Stage lighting; Shades & lamp parts
+- quality_markers: Fittings and lamps: light quality (CRI mid-to-high 80s or better, 90+ for colour-critical rooms); output matched to the room (lumens); colour temperature matched to use (warm 2700-3000 K for living, cooler for task); build and materials (base and shade material); IP rating where wet or outdoor; for design pieces, maker and model, period and condition (condition not stored). Torches and headlamps (in the ANSI/NEMA FL1 order): light output (lumens); peak intensity (candela); beam distance; runtime (graph, to 10 percent); water resistance (IPX); impact resistance (drop height); then, as enthusiasts weigh them, build and finish, tint and CRI options, modability and firmware, customer service and spare supply, value for money. Bulbs: cap fit first (compatibility, not quality); lumens; colour temperature; CRI; efficiency (ENERGY STAR, EU energy class A-G once fetched); smart features.
+- quality_signals: ANSI/NEMA FL1-2009 (NEMA; voluntary, maker-tested; class i attribute standard_met); IP code (IEC 60529; class i attribute); ENERGY STAR (US EPA; certification attribute); DLC listing (DesignLights Consortium; certification attribute); UL, ETL (Intertek), CSA, CE, RoHS (safety and conformity marks; C17 or standard_met, never tiers); EU energy label A-G (EU Regulation 2019/2015; † until fetched); GearJunkie and Switchback Travel picks and spec tables (class iii tier entries on named forms, memo); Budget Light Forum brand reputation (community class iii, on makers, only once a fetched page states a ranking); 1stDibs seller rating (platform, about sellers, not stored)
+- maker_role: owner (confirm maker_roles.tsv and R-104): fixtures are bought by type; house and retailer brands (IKEA, Lindby, Paulmann) dominate and makers hold few named forms each
+- side_view: Two tabs beside the main way in (R-104): Design houses & designers (Louis Poulsen, Artemide, Flos, Stilnovo, Anglepoise; designer and era tags; signature named forms); Torch makers (Fenix, Nitecore, Olight, Streamlight, SureFire; models, then FL1 figures).
+- evidence_rows: Hoeffner (DE) Lampen & Leuchten; IKEA Belgium Lamps; 1stDibs Stilnovo table lamp listing; Save On Energy (CA) lighting guide; Nitecore ANSI/NEMA FL1 guide; Revolve LED lighting certifications; Budget Light Forum: brand impressions
+- maker role row: {'code': 'B3', 'scope': '*', 'role': 'owner', 'provisional': 'no', 'reason': 'shoppers choose fixture types; design houses and torch makers as side tabs (R-104)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-B3-1 | Ceiling & wall lights | 1 |  | 
+- G-B3-1-1 | Ceiling lights | 2 | G-B3-1 | B3.1.1.01; B3.1.1.02; B3.1.1.03; B3.1.1.04; B3.1.1.05
+- G-B3-1-2 | Indoor wall lights | 2 | G-B3-1 | B3.1.2.01; B3.1.2.02
+- G-B3-1-3 | Spots, downlights, track & cabinet lights | 2 | G-B3-1 | B3.1.3.01; B3.1.3.02; B3.1.3.03; B3.1.3.04
+- G-B3-2 | Lamps | 1 |  | 
+- G-B3-2-1 | Table & desk lamps | 2 | G-B3-2 | B3.2.1.01; B3.2.1.02; B3.2.1.05
+- G-B3-2-2 | Night lights & wake-up lamps | 2 | G-B3-2 | B3.2.1.03; B3.2.1.04
+- G-B3-2-3 | Floor lamps | 2 | G-B3-2 | B3.2.2.01; B3.2.2.02
+- G-B3-3 | Outdoor lights | 1 |  | 
+- G-B3-3-1 | Wall lanterns & floodlights | 2 | G-B3-3 | B3.1.2.03; B3.1.4.05
+- G-B3-3-2 | Path, post & bollard lights | 2 | G-B3-3 | B3.1.4.01; B3.1.4.02
+- G-B3-3-3 | Spike & plinth lights | 2 | G-B3-3 | B3.1.4.03; B3.1.4.04
+- G-B3-4 | Torches, headlamps, lanterns & work lights | 1 |  | 
+- G-B3-4-1 | Hand torches | 2 | G-B3-4 | B3.3.1.01; B3.3.1.02; B3.3.1.03; B3.3.1.04; B3.3.1.05
+- G-B3-4-2 | Headlamps | 2 | G-B3-4 | B3.3.2.01
+- G-B3-4-3 | Lanterns | 2 | G-B3-4 | B3.3.3.01; B3.3.3.02; B3.3.3.03; B3.3.3.04; B3.3.3.05
+- G-B3-4-4 | Work & site lights | 2 | G-B3-4 | B3.3.4.01; B3.3.4.02; B3.3.4.03
+- G-B3-5 | Bulbs & strips | 1 |  | 
+- G-B3-5-1 | Everyday bulbs | 2 | G-B3-5 | B3.4.1.01; B3.4.1.02; B3.4.1.03
+- G-B3-5-2 | Reflector, spot & capsule bulbs | 2 | G-B3-5 | B3.4.2.01; B3.4.2.02; B3.4.2.03
+- G-B3-5-3 | Tubes, CFL & HID lamps | 2 | G-B3-5 | B3.4.3.01; B3.4.3.02; B3.4.3.03
+- G-B3-5-4 | LED strips | 2 | G-B3-5 | B3.4.4.01
+- G-B3-6 | Stage lighting | 1 |  | 
+- G-B3-6-1 | Stage fixtures | 2 | G-B3-6 | B3.1.5.01
+- G-B3-7 | Shades & lamp parts | 1 |  | 
+- G-B3-7-1 | Shades, bases, cords & holders | 2 | G-B3-7 | B3.5.01; B3.5.02; B3.5.03; B3.5.04; B3.5.05
+
+## Current quality markers (group_id | marker | values | why | evidence)
+
+## Kinds (kind_id | stored name | native name | definition)
+- B3.1.1.01 | Flush ceiling light |  | Fitting fixed directly against the ceiling that lights the room from a shade or diffuser close to it.
+- B3.1.1.02 | Pendant light |  | Fitting hung from the ceiling on a cord, chain or rod, with the light source and shade below the ceiling.
+- B3.1.1.03 | Chandelier |  | Branched or tiered hanging fitting that carries several light sources, lit by electricity, gas, oil or candles.
+- B3.1.1.04 | Panel light |  | Flat or shallow ceiling fitting set in a suspended-ceiling grid module or surface-mounted, giving an even spread of light; the troffer is this kind.
+- B3.1.2.01 | Wall light (sconce) |  | Fitting fixed to a wall that lights the room, a wall or a passage, whatever its source or fuel.
+- B3.1.2.02 | Mirror light |  | Wall light made to light the face at a mirror (the lighted mirror itself is not a lamp kind).
+- B3.1.2.03 | Wall-mounted lantern light |  | Fixed fitting in the form of a lantern, bracketed to a wall or post, not made to be carried.
+- B3.1.3.01 | Recessed downlight |  | Fitting sunk into a ceiling so that only its trim shows, casting light downward.
+- B3.1.3.02 | Spot fitting |  | Directional fitting with a swivelling head, fixed to a ceiling or a track head (the bulb of the same name is a spot bulb).
+- B3.1.3.03 | Track or rail lighting system |  | Powered rail or cable that carries movable heads along its length, sold as a system.
+- B3.1.4.01 | Bollard or path light |  | Low outdoor fitting standing on the ground to light a path or edge; the power source, solar included, is an attribute.
+- B3.1.4.02 | Post or mast light |  | Tall outdoor fitting on a post or mast that lights a yard, drive or area.
+- B3.1.4.03 | Ground-spike light |  | Outdoor fitting pushed into the soil on a spike, to light a plant, tree or wall from below.
+- B3.1.4.04 | Plinth light |  | Small outdoor or step fitting set into a surface or low base to light a step, edge or wall.
+- B3.1.4.05 | Floodlight |  | Wide-beam outdoor or area fitting fixed on a wall, post or ground bracket, including the light-only security floodlight and the searchlight.
+- B3.1.5.01 | Stage lighting fixture |  | Fixture rigged on a truss, bar or stand to light a stage or event; fixture types stay named forms until a catalogue compares them separately.
+- B3.2.1.01 | Table lamp |  | Lamp with a base and a fixed shade or head that stands on a table; oil, gas and candle table lamps are this kind with a fuel tag.
+- B3.2.1.02 | Desk lamp |  | Lamp with an adjustable arm or head made for task light, standing or clamped; a clip-on desk lamp is this kind with a clamp installation attribute.
+- B3.2.1.03 | Night light |  | Small low-output lamp that plugs in or stands to give dim light overnight; baby use is a user tag.
+- B3.2.1.04 | Sunrise lamp |  | Bedside lamp that brightens gradually to wake the sleeper, with or without a radio.
+- B3.2.2.01 | Floor lamp |  | Tall lamp on a base that stands on the floor beside furniture, with a shade or head near head height.
+- B3.2.2.02 | Floor uplighter |  | Floor-standing lamp whose light is thrown upward to the ceiling.
+- B3.3.1.01 | Handheld flashlight |  | Hand torch from pocket size to duty size; output class, cell, beam and water or depth rating (a dive light included) are attributes, and EDC and tactical are scene tags.
+- B3.3.1.02 | Penlight |  | Slim pen-shaped hand light for close work or inspection.
+- B3.3.1.03 | Keychain light |  | Very small light made to hang from a key ring.
+- B3.3.1.04 | Clip-on light |  | Small light with a clip made to attach to a cap, pocket, strap or bag.
+- B3.3.1.05 | Handheld searchlight |  | Large-head or pistol-grip hand spotlight, a form apart from the cylindrical torch.
+- B3.3.2.01 | Headlamp |  | Light worn on the head on a band or cap mount, also called a head torch; running, ultralight and caving versions are named forms or an attribute.
+- B3.3.3.01 | Electric lantern |  | Carried lantern lit by a battery, rechargeable cell or solar panel; the power source is an attribute.
+- B3.3.3.02 | Mantle fuel lantern |  | Carried lantern in which a gas or liquid fuel heats a mantle to give light (propane, liquid fuel, dual fuel).
+- B3.3.3.03 | Hurricane lantern |  | Carried lantern with a wick, a fuel reservoir and a tubular glass globe, burning oil.
+- B3.3.3.04 | Candle lantern |  | Enclosed lantern with a handle that holds a candle, made to be carried.
+- B3.3.3.05 | Paper lantern [chochin] |  | Collapsible or rigid paper-covered lantern made to be carried as a light; one made to hang as decoration is not a lamp kind.
+- B3.3.4.01 | Clamp work light |  | Portable work light with a guard and hook, clamped or hung at the job, sold as work or commercial lighting.
+- B3.3.4.02 | Trouble (inspection) light |  | Portable corded or cordless light on a hook or handle for inspecting dark spaces such as engine bays and crawl spaces.
+- B3.4.1.01 | General-service bulb |  | Pear-shaped (A-shape, GLS) bulb for ordinary lamps and fittings; filament style is an attribute and a smart bulb is this kind with a connectivity attribute.
+- B3.4.1.02 | Candle bulb |  | Slim bulb in the shape of a candle flame, for chandeliers and small fittings.
+- B3.4.1.03 | Globe bulb |  | Round, ball-shaped bulb.
+- B3.4.2.01 | Reflector bulb |  | Bulb with a built-in reflector that throws the light forward (R, BR and PAR shapes).
+- B3.4.2.02 | Spot bulb |  | Small directional bulb for spot fittings, with pin or twist-lock caps (GU10, GU5.3 and MR16 types); the fitting of the same name is a spot fitting.
+- B3.4.2.03 | Capsule bulb |  | Very small bulb with a pin cap, for low-voltage lamps and small fittings (G4 and G9 types).
+- B3.4.3.01 | Linear tube lamp |  | Long straight tube light source with its own cap and holder; fluorescent, LED and halogen versions are one kind and technology is an attribute.
+- B3.4.3.02 | Compact fluorescent lamp |  | Folded or coiled fluorescent source, of the pin-base types that need their own holder.
+- B3.4.3.03 | High-intensity discharge lamp |  | Discharge source that needs a ballast and cannot be swapped for another source.
+- B3.4.4.01 | Strip light |  | Flexible strip of light sources sold to light a space (under-cabinet, cove); technology is an attribute.
+- B3.5.01 | Lamp shade |  | Shade made to be fitted to a lamp or fitting.
+- B3.5.02 | Lamp base |  | Base or stand sold alone to carry a lamp.
+- B3.5.03 | Lamp cord set |  | Cord with a plug and switch or socket made for a lamp; a pendant cord set is this kind with fits set to pendant.
+- B3.5.04 | Lamp holder or socket |  | Holder or socket that carries a light source in a lamp or fitting.
+- B3.5.05 | Chandelier crystal or glass diffuser |  | Crystal drop or glass diffuser made to be fitted to a chandelier or fitting.
+- B3.1.3.04 | Under-cabinet light (puck or bar) |  | Small or slim fitting, a puck or a rigid bar, fixed under or inside a cabinet, shelf or piece of furniture to light a worktop or interior; a flexible strip is the strip light.
+- B3.3.4.03 | Mobile light tower |  | Towed or wheeled unit with a raised mast of floodlights, often with its own generator, set up to light a work or event site.
+- B3.1.1.05 | High-bay light |  | Heavy fitting with a wide reflector or heat-sink body, hung or fixed under a high roof to light a large floor (warehouse, workshop, garage); mounting height is an attribute.
+- B3.2.1.05 | Monitor light bar |  | slim bar lamp that clips on top of a computer monitor and throws task light onto the desk without screen glare.

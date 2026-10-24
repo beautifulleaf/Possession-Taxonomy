@@ -1,0 +1,118 @@
+# D5 Video Games: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (what you are shopping for: something to play on, VR, arcade, controllers, games, accessories), then the system (platform) as the second question
+- reason: Retail leads with games against hardware and then the system (Genki: Games > platform and Hardware > platform; Nintendo eShop filters platform, genre, publisher, price), and the memo shows platform as the first filter for software and controllers; the system is a C13 view, not a level, and Steam's genre-first browsing is out of scope because game genres belong to the Interactive Entertainment taxonomy (BRIEF).
+- ladder: What are you shopping for (something to play on, VR, arcade, controllers, games, accessories and parts)? > Which system (platform view; for machines: home, handheld or hybrid, built-in or loadable games)? > Which kind and model, and what makes the best one?
+- level1_groups: Consoles and handhelds; VR headsets; Arcade machines; Controllers; Games; Accessories and parts
+- quality_markers: Consoles and handhelds: the system and its library first (compatibility and backward compatibility) > performance for the price (resolution and frame rate; Pro against standard model) > disc or digital edition and storage > controller and screen; retro handhelds: implementation (original hardware > FPGA > emulation) > screen > build (memo S27); Controllers: works on your system first (licensed for Xbox and PS5) > stick technology (Hall effect or TMR over potentiometer, against drift) > build and ergonomics > latency and polling rate > rear paddles and remapping; arcade sticks: lever or leverless layout, buttons (memo S29, S30); VR headsets: display > comfort > tracking > library > value (memo S28); Games as objects (collectors): platform > region > completeness (loose, complete, sealed) > edition (memo S08, S40)
+- quality_signals: Metacritic Metascore bands 90-100 universal acclaim > 75-89 favourable > 50-74 mixed > 20-49 unfavourable > 0-19 dislike (Metacritic; rates titles, which are out of scope: no tier subject in this tree, link field only if the optional title ledger is built); ESRB age ratings E > E10+ > T > M > AO (ESRB, self-regulatory, IARC for digital; an age class, not quality: C17 jurisdiction ledger, title-level, same limit; PEGI not fetched); editorial controller rankings (IGN, Adellion; class (iii), none seeded; memo S26, S30); WATA and VGA collector grading scales (C16 registry only, no item grades); Steam Deck Verified (Valve; platform_tag class (vi); not fetched, provisional); Nintendo, Sony and Microsoft licensing ('Designed for Xbox', officially licensed) as maker_relations licensed by
+- maker_role: owner, hardware makers only (confirm maker_roles.tsv D5 as decided 2026-10-24): console, controller, accessory and arcade makers own lines and named forms; game studios and publishers stay hidden (titles out of scope)
+- side_view: By system (platform) view, the strongest secondary path (generated from C13 console-platform rows, with backward-compatibility relations), plus the brand tab of R-104; generation and region as further generated views
+- evidence_rows: Steam store browsing (via GameDiscover deep dive); Nintendo eShop (3DS support page); Nintendo Life eShop critique; Genki Video Games; Wikipedia Metacritic; Wikipedia ESRB; Wikipedia Video game genre; memo D5 sections 2, 5, 6 (S01-S07, S08, S11, S26-S30, S40); DPW1_D5_report.md
+- maker role row: {'code': 'D5', 'scope': '*', 'role': 'owner', 'provisional': 'no', 'reason': 'hardware makers only (consoles, controllers, accessories); game studios are not recorded as makers because titles are out of scope (owner, 2026-10-24)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-D5-1 | Consoles and handhelds | 1 |  | D5.1.1; D5.1.2; D5.1.5
+- G-D5-2 | Home consoles | 2 | G-D5-1 | D5.1.1.01; D5.1.1.02
+- G-D5-3 | Handhelds and hybrids | 2 | G-D5-1 | D5.1.2.01; D5.1.2.02
+- G-D5-4 | Dedicated handheld and tabletop electronic games | 2 | G-D5-1 | D5.1.2.03; D5.1.1.03
+- G-D5-5 | Console add-ons | 2 | G-D5-1 | D5.1.5.01; D5.1.5.02; D5.1.5.03
+- G-D5-6 | VR headsets | 1 |  | D5.1.3
+- G-D5-7 | VR and mixed-reality headsets | 2 | G-D5-6 | D5.1.3.01; D5.1.3.02; D5.1.3.03
+- G-D5-8 | Arcade machines | 1 |  | D5.1.4; D5.5.19
+- G-D5-9 | Arcade cabinets | 2 | G-D5-8 | D5.1.4.01; D5.1.4.02; D5.1.4.03; D5.1.4.04; D5.1.4.05; D5.1.4.06
+- G-D5-10 | Arcade system boards | 2 | G-D5-8 | D5.5.19
+- G-D5-11 | Controllers | 1 |  | D5.2
+- G-D5-12 | Gamepads | 2 | G-D5-11 | D5.2.1.01; D5.2.1.02
+- G-D5-13 | Arcade sticks and leverless controllers | 2 | G-D5-11 | D5.2.2.01; D5.2.2.02
+- G-D5-14 | Wheels, pedals and flight controls | 2 | G-D5-11 | D5.2.3.01; D5.2.3.02; D5.2.3.03; D5.2.3.04; D5.2.3.05; D5.2.3.06; D5.2.3.07; D5.2.3.08; D5.5.22; D5.2.3.09
+- G-D5-15 | Light guns, motion, mice and cameras | 2 | G-D5-11 | D5.2.4.01; D5.2.4.02; D5.2.4.03; D5.2.4.04; D5.2.4.05
+- G-D5-16 | Music, dance and voice controllers | 2 | G-D5-11 | D5.2.5.01; D5.2.5.02; D5.2.5.03
+- G-D5-17 | Games | 1 |  | D5.3; D5.4
+- G-D5-18 | Games on disc, cartridge, card or tape | 2 | G-D5-17 | D5.3.01; D5.3.02; D5.3.03; D5.3.04
+- G-D5-19 | Game-key cards and download codes | 2 | G-D5-17 | D5.3.05; D5.3.06
+- G-D5-20 | Digital games, expansions and mods | 2 | G-D5-17 | D5.4.01; D5.4.02; D5.4.03; D5.4.04
+- G-D5-21 | Accessories and parts | 1 |  | D5.5
+- G-D5-22 | Protection and looks | 2 | G-D5-21 | D5.5.01; D5.5.02; D5.5.03; D5.5.23
+- G-D5-23 | Power and charging | 2 | G-D5-21 | D5.5.04; D5.5.05; D5.5.06
+- G-D5-24 | Docks, stands and cooling | 2 | G-D5-21 | D5.5.09; D5.5.10; D5.5.21
+- G-D5-25 | Cables, memory and connectivity | 2 | G-D5-21 | D5.5.07; D5.5.08; D5.5.15; D5.5.20
+- G-D5-26 | Add-ons and extras | 2 | G-D5-21 | D5.5.11; D5.5.12; D5.5.14; D5.5.16; D5.5.17; D5.5.18
+- G-D5-27 | Repair | 2 | G-D5-21 | D5.5.13
+
+## Current quality markers (group_id | marker | values | why | evidence)
+
+## Kinds (kind_id | stored name | native name | definition)
+- D5.1.1.01 | Carrier-based home console |  | home console on which the owner loads different games from a carrier, card, download or storage.
+- D5.1.1.02 | Dedicated home console |  | home console with built-in games that the owner cannot load (includes plug-and-play minis).
+- D5.1.2.01 | Carrier-based handheld |  | handheld in which games are loaded, not built in; the operating system is an attribute, so a handheld gaming PC is a named form of this kind with os = PC.
+- D5.1.2.02 | Hybrid console |  | console that works both docked to a TV and as a handheld.
+- D5.1.2.03 | Dedicated LCD handheld |  | handheld with its game built in on an LCD.
+- D5.1.3.01 | Standalone VR or mixed-reality headset |  | headset that encloses the eyes and has its own compute and battery.
+- D5.1.3.02 | Tethered VR headset |  | headset that encloses the eyes and needs a console or PC as its host (host platform is an attribute).
+- D5.1.4.01 | Upright cabinet |  | coin-operated video arcade cabinet that stands upright, played standing.
+- D5.1.4.02 | Cabaret (mini) cabinet |  | smaller upright coin-operated video cabinet.
+- D5.1.4.03 | Cocktail table cabinet |  | coin-operated video cabinet built as a table, played seated across or beside it.
+- D5.1.4.04 | Sit-down cabinet (candy cabinet) |  | coin-operated video cabinet with a seat for the player.
+- D5.1.4.05 | Cockpit or environmental cabinet |  | enclosed or motion cabinet built around the player.
+- D5.1.4.06 | Counter-top or bar-top cabinet |  | small cabinet made to stand on a counter or bar.
+- D5.1.5.01 | Disk-drive add-on |  | unit that adds a disk drive to a console.
+- D5.1.5.02 | Cartridge converter |  | unit that lets a console play cartridges of another system or region.
+- D5.2.1.01 | Gamepad |  | hand-held controller with a directional pad, buttons and sticks or triggers, held in both hands.
+- D5.2.1.02 | Detachable split controller |  | controller made as two detachable halves that can be used apart.
+- D5.2.2.01 | Levered arcade stick |  | arcade-style controller with a joystick lever and buttons.
+- D5.2.3.01 | Racing wheel |  | steering-wheel controller for driving games.
+- D5.2.3.02 | Pedal set |  | set of foot pedals sold as a controller.
+- D5.2.4.01 | Light gun |  | gun-shaped pointing controller.
+- D5.2.4.02 | Motion controller |  | controller that senses its own movement in the player's hand.
+- D5.2.4.03 | Console camera |  | camera made to track the player as game input.
+- D5.2.5.01 | Rhythm instrument controller |  | controller shaped like a musical instrument, made to control a game.
+- D5.2.5.02 | Dance or balance mat |  | floor mat or board that reads the player's steps or weight as game input.
+- D5.2.2.02 | Leverless (all-button) controller |  | arcade-style controller with all-button directional input and no lever.
+- D5.3.01 | Game disc |  | game on an optical disc.
+- D5.3.02 | Game cartridge |  | game on a cartridge holding memory chips.
+- D5.3.03 | Game card |  | game on a small flash-memory card.
+- D5.3.04 | Magnetic game media |  | game on a cassette, floppy or disk-system card.
+- D5.3.05 | Game-key card |  | physical card that holds only a key to a game, not the game.
+- D5.3.06 | Download-code card or voucher |  | card or box that unlocks one game as a download.
+- D5.4.01 | Digital game licence |  | full game downloaded on a console or PC store, held with no carrier.
+- D5.4.02 | Expansion |  | downloadable content that adds a large part to a base game.
+- D5.4.03 | Add-on pack |  | downloadable maps, levels, characters, artbook or wallpaper content for a game.
+- D5.4.04 | Game mod |  | modification that adds to or changes one game.
+- D5.5.01 | Case or pouch |  | case or pouch made to hold or protect one game machine.
+- D5.5.02 | Screen protector film |  | film for the screen of one game machine.
+- D5.5.04 | Battery pack made for one machine |  | rechargeable battery pack made for one game machine or controller.
+- D5.5.05 | AC adapter |  | power adapter made for one game machine.
+- D5.5.06 | Charging stand or dock (charging only) |  | stand or dock that only charges the machine or controller.
+- D5.5.07 | Proprietary cable or adapter |  | cable or adapter with a proprietary connector made for one console.
+- D5.5.08 | Proprietary memory card or expansion |  | memory card, drive or expansion in a format made only for one console.
+- D5.5.09 | TV dock |  | dock that gives video output to a TV as well as charging.
+- D5.5.10 | Stand or mount |  | stand or mount made to hold one game machine.
+- D5.5.11 | Multitap |  | unit that adds controller ports to a console.
+- D5.5.12 | Cheat device |  | cartridge or unit that alters a game (Game Genie type).
+- D5.5.13 | Replacement part or repair tool |  | spare part or tool for repairing a game machine or controller.
+- D5.2.3.03 | Flight stick |  | joystick controller for flight games.
+- D5.5.03 | Faceplate, skin or decal |  | cover plate, skin or decal that changes the outside of one game machine or controller.
+- D5.5.14 | Toys-to-Life portal or reader |  | portal or reader that reads Toys-to-Life figures for a game.
+- D5.1.5.03 | Hardware upgrade add-on |  | Unit that plugs into a console to add processors, graphics or memory hardware so that it runs games made for the upgraded system (32X type).
+- D5.5.15 | Network or modem adapter made for one console |  | Adapter that adds a dial-up modem, broadband or wireless network connection to one console through its own port or bay; a standard USB network adapter is D1.
+- D5.2.5.03 | Game microphone |  | Microphone made and sold to plug into a console as game input, for singing or voice commands (SingStar type); a headset is D3 and a speech microphone sold for computers is D1.
+- D5.5.16 | Media add-on made for one console |  | Remote control, playback kit or TV tuner made to add disc, video or TV functions to one console.
+- D5.2.4.04 | Console mouse |  | Mouse or trackball made to plug into one console as pointing input; a mouse with a standard connector sold for computers is D1.
+- D5.5.17 | Keyboard made for one console |  | Keyboard made to plug into one console for typing, programming or text entry in games; a keyboard with a standard connector is D1.
+- D5.2.4.05 | Paddle or spinner controller |  | Controller with a rotary knob whose turn sets a position on screen (paddle, spinner, Vaus type).
+- D5.1.3.03 | Phone VR viewer |  | Headset that encloses the eyes and holds a phone as its display and compute (Cardboard, Gear VR type).
+- D5.5.18 | Rumble pack |  | Add-on that plugs into one console's controller to make it vibrate (Rumble Pak, Jump Pack, Vibration Pack).
+- D5.5.19 | Arcade system board |  | Circuit board, with its game ROMs, cartridge or disc slot, that runs games inside a coin-operated video cabinet (JAMMA, Naomi, Atomiswave, MVS type).
+- D5.5.20 | Controller converter |  | Dongle, adapter or board that translates a controller's signals so it works on a console or computer it was not made for (Brook Wingman, Mayflash Magic type); a plain cable is D5.5.07 or D1.
+- D5.2.3.04 | Gear shifter |  | Lever controller sold apart from a wheel that changes gear in driving games (H-pattern or sequential).
+- D5.2.3.05 | Handbrake controller |  | Lever controller sold apart from a wheel that works the handbrake in driving games.
+- D5.2.3.06 | Racing wheelbase |  | Force-feedback motor base sold without a rim, onto which interchangeable rims mount by a quick release; drive type (direct, belt, gear) is an attribute.
+- D5.1.1.03 | Tabletop electronic game |  | Dedicated game machine with its game built in and its own screen (VFD, LCD or LED), made to stand on a table, not held and not linked to a TV.
+- D5.5.21 | Cooling unit made for one console |  | External fan, cooling stand or clip-on unit made to cool one console; a replacement internal fan is D5.5.13.
+- D5.2.3.07 | Flight yoke |  | controller with a yoke handle on a column that pushes, pulls and turns, made for flying aircraft in games and simulators; sold alone or packed with a throttle.
+- D5.2.3.08 | Flight throttle |  | lever unit sold apart from a stick or yoke that sets engine power, often with flap or trim levers, in flight games and simulators; a stick-and-throttle set (HOTAS) is a flight stick.
+- D5.5.22 | Sim cockpit or wheel stand |  | frame, stand or seat rig made to hold a racing wheel, pedals, shifter or flight controls for play; a gaming chair without controller mounts is B1.
+- D5.5.23 | Flash cartridge |  | cartridge that loads game images from a memory card so they run on original console hardware.
+- D5.2.3.09 | Flight-sim control panel |  | panel of switches, knobs, displays or MFD bezels that sends cockpit inputs to a flight simulator.

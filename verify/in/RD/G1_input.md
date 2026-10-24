@@ -1,0 +1,232 @@
+# G1 Vehicles: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (what you travel in or on: car, motorcycle, bicycle, boat, caravan, aircraft); maker and model at the product step
+- reason: Every fetched shop opens on the vehicle type and puts size, price and make after it (YachtWay vessel types; Cycle King's use-type bike tree; Autohome size classes within body type). Buyers' guides start from intended use inside the type (SlashGear motorcycles; AAA), and only the maker's own site leads with its ranges (Raleigh).
+- ladder: What do you want to travel in or on? > Which type (body style, riding discipline, hull or layout)? > Which model, filtered by size class, fit, power and price and ranked by reliability and safety scores?
+- level1_groups: Cars; Vans, trucks and buses; Motorcycles, scooters and powered light rides; Bicycles and other cycles; Off-road, snow and utility vehicles; Caravans, motorhomes and trailers; Boats and watercraft; Aircraft; Rail and horse-drawn vehicles; Prams and strollers; Parts and accessories
+- quality_markers: Cars: reliability (few problems in daily use: problems per 100 vehicles at 90 days, then at 3 years) > safety (Euro NCAP stars, 0 to 5) > proven, mature technology over new and untried > build quality > size class against need (Autohome micro to large; separate ladders for SUV and MPV) > running costs. Bicycles: fit (frame size XS to XL) > intended riding (geometry for the discipline) > component level (groupset ladder, not yet attested) > frame material and weight. Motorcycles: intended riding > fit, checked on a test ride > running and ownership costs; looks and spec come last. Boats, caravans and aircraft: length or size and layout > condition and age (memo only; provisional)
+- quality_signals: J.D. Power Initial Quality Study and Dependability Study, problems per 100 vehicles (J.D. Power; class ii tier entry on model or variant, with test_version); Euro NCAP 0 to 5 stars over four assessment areas (Euro NCAP; class ii on variant, test_version, protocol revised about every three years); expert magazine tests (AAA cites them; not fetched); CE design category A to D for boats (attribute, class i); legal and licence classes (EPAC, kei, UNECE L/M/N/O, FAA): C17 rows, not tiers; brand-status lists (eBay Exotics, CCCA Full Classics) as dated platform_tag; maker trim ladders (Polaris) and bicycle groupset ladders as maker-ladder tier entries on lines (groupsets not yet attested)
+- maker_role: owner (confirmed): shoppers choose a model, and the make sits on the model (YachtWay brand catalogue; eBay make and model in the memo). No regional maker harvest. Provisional pocket: hand-built frame makers, coachbuilders and boat yards may justify a way-in scope later; no evidence fetched.
+- side_view: Make tab beside the type tree (YachtWay 'Brand Catalog'; marketplaces by make and model): the makes that own models in each type, then their models. Also a 'Camping and van life' view across caravans, motorhomes and campers.
+- evidence_rows: YachtWay (boats); Cycle King (UK bikes); Raleigh UK; Autohome vehicle levels (China); AAA choosing a quality car; Euro NCAP; Adventure.cc gravel opinion; SlashGear first motorcycle; memo G1 sections 1-2 (eBay, mobile.de, Goo-net, Rose, Buychari, Polaris)
+- maker role row: {'code': 'G1', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'vehicle models carry the maker'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-G1-1 | Cars | 1 |  | G1.1.1
+- G-G1-12 | Saloons, hatchbacks and estates | 2 | G-G1-1 | G1.1.1.01; G1.1.1.02; G1.1.1.03
+- G-G1-13 | Coupés and convertibles | 2 | G-G1-1 | G1.1.1.04; G1.1.1.05
+- G-G1-14 | SUVs and MPVs | 2 | G-G1-1 | G1.1.1.06; G1.1.1.07
+- G-G1-15 | Microcars | 2 | G-G1-1 | G1.1.1.08
+- G-G1-16 | Limousines | 2 | G-G1-1 | G1.1.1.09
+- G-G1-2 | Vans, trucks and buses | 1 |  | G1.1.2
+- G-G1-17 | Vans | 2 | G-G1-2 | G1.1.2.01; G1.1.2.02
+- G-G1-18 | Pickup trucks | 2 | G-G1-2 | G1.1.2.03
+- G-G1-19 | Trucks and special bodies | 2 | G-G1-2 | G1.1.2.04; G1.1.2.05; G1.1.2.08
+- G-G1-20 | Minibuses, buses and coaches | 2 | G-G1-2 | G1.1.2.06; G1.1.2.07
+- G-G1-3 | Motorcycles, scooters and powered light rides | 1 |  | G1.1.3
+- G-G1-21 | Road motorcycles | 2 | G-G1-3 | G1.1.3.01; G1.1.3.02; G1.1.3.03; G1.1.3.04; G1.1.3.05
+- G-G1-22 | Off-road motorcycles | 2 | G-G1-3 | G1.1.3.09
+- G-G1-23 | Scooters and mopeds | 2 | G-G1-3 | G1.1.3.06; G1.1.3.08
+- G-G1-24 | Trikes and sidecar outfits | 2 | G-G1-3 | G1.1.3.10; G1.1.3.11
+- G-G1-25 | Mini bikes and personal electric rides | 2 | G-G1-3 | G1.1.3.12; G1.1.3.07; G1.1.3.13; G1.1.3.14; G1.1.3.15
+- G-G1-4 | Bicycles and other cycles | 1 |  | G1.1.5; G1.1.6
+- G-G1-26 | Road, track and time-trial bikes | 2 | G-G1-4 | G1.1.5.01; G1.1.5.13; G1.1.5.14; G1.1.5.15
+- G-G1-27 | Gravel and touring bikes | 2 | G-G1-4 | G1.1.5.02; G1.1.5.16
+- G-G1-28 | Mountain bikes | 2 | G-G1-4 | G1.1.5.03; G1.1.5.10; G1.1.5.11; G1.1.5.04; G1.1.5.12; G1.1.5.18
+- G-G1-29 | BMX bikes | 2 | G-G1-4 | G1.1.5.05
+- G-G1-30 | City, hybrid, folding and cargo bikes | 2 | G-G1-4 | G1.1.5.06; G1.1.5.17; G1.1.5.07; G1.1.5.08; G1.1.5.09
+- G-G1-31 | Tricycles, tandems, recumbents and other cycles | 2 | G-G1-4 | G1.1.6.01; G1.1.6.02; G1.1.6.03; G1.1.6.04; G1.1.6.05; G1.1.6.06; G1.1.6.07; G1.1.6.08
+- G-G1-5 | Off-road, snow and utility vehicles | 1 |  | G1.1.4
+- G-G1-32 | Quads, side-by-sides and buggies | 2 | G-G1-5 | G1.1.4.01; G1.1.4.03; G1.1.4.06
+- G-G1-33 | Snowmobiles | 2 | G-G1-5 | G1.1.4.02
+- G-G1-34 | Golf carts and go-karts | 2 | G-G1-5 | G1.1.4.04; G1.1.4.05
+- G-G1-6 | Caravans, motorhomes and trailers | 1 |  | G1.1.8; G1.1.7
+- G-G1-35 | Towed caravans and campers | 2 | G-G1-6 | G1.1.8.01; G1.1.8.02; G1.1.8.03; G1.1.8.09; G1.1.8.10; G1.1.8.11
+- G-G1-36 | Motorhomes, campervans and truck campers | 2 | G-G1-6 | G1.1.8.05; G1.1.8.06; G1.1.8.07; G1.1.8.08; G1.1.8.04
+- G-G1-37 | Trailers | 2 | G-G1-6 | G1.1.7.01; G1.1.7.02; G1.1.7.03; G1.1.7.04; G1.1.7.05; G1.1.7.06; G1.1.7.07
+- G-G1-7 | Boats and watercraft | 1 |  | G1.3
+- G-G1-38 | Paddle and rowing craft | 2 | G-G1-7 | G1.3.1.01; G1.3.1.02; G1.3.1.03; G1.3.1.04; G1.3.1.05; G1.3.1.06
+- G-G1-39 | Sailing boats | 2 | G-G1-7 | G1.3.2.01; G1.3.2.02; G1.3.2.03; G1.3.2.04; G1.3.2.05; G1.3.2.06; G1.3.2.07; G1.3.2.08
+- G-G1-40 | Day, sport and watersports boats | 2 | G-G1-7 | G1.3.3.01; G1.3.3.18; G1.3.3.10; G1.3.3.17; G1.3.3.15; G1.3.3.12; G1.3.3.05; G1.3.3.14
+- G-G1-41 | Fishing boats | 2 | G-G1-7 | G1.3.3.02; G1.3.3.09; G1.3.3.16; G1.3.3.19; G1.3.3.11
+- G-G1-42 | Cruisers, yachts and houseboats | 2 | G-G1-7 | G1.3.3.03; G1.3.3.07; G1.3.3.08; G1.3.3.06
+- G-G1-43 | Tenders and RIBs | 2 | G-G1-7 | G1.3.3.13; G1.3.3.04
+- G-G1-8 | Aircraft | 1 |  | G1.4
+- G-G1-44 | Airplanes | 2 | G-G1-8 | G1.4.1.01; G1.4.1.02; G1.4.1.03; G1.4.1.04; G1.4.1.05
+- G-G1-45 | Gliders, balloons and airships | 2 | G-G1-8 | G1.4.2.01; G1.4.2.02; G1.4.2.05; G1.4.2.06; G1.4.2.07
+- G-G1-46 | Helicopters and gyroplanes | 2 | G-G1-8 | G1.4.2.03; G1.4.2.04
+- G-G1-47 | Powered parachutes, paramotors and weight-shift trikes | 2 | G-G1-8 | G1.4.2.08; G1.4.2.10; G1.4.2.09
+- G-G1-9 | Rail and horse-drawn vehicles | 1 |  | G1.2; G1.1.9
+- G-G1-48 | Rail vehicles | 2 | G-G1-9 | G1.2.01; G1.2.02; G1.2.03; G1.2.04; G1.2.05; G1.2.06
+- G-G1-49 | Horse-drawn vehicles | 2 | G-G1-9 | G1.1.9.01; G1.1.9.02; G1.1.9.03
+- G-G1-10 | Prams and strollers | 1 |  | G1.1.10.01; G1.1.10.02; G1.1.10.03; G1.1.10.04; G1.1.10.05; G1.1.10.06
+- G-G1-11 | Parts and accessories | 1 |  | G1.5
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-G1-1 | reliability | fewer problems per 100 vehicles > more (at 90 days, then at 3 years) | Few problems in daily use comes first (J.D. Power studies, dated). | proposals.tsv G1 row (quality_markers, quality_signals); AAA choosing a quality car
+- G-G1-1 | safety | Euro NCAP 5 > 4 > 3 > 2 > 1 > 0 stars (protocol dated) | Safety after reliability. | proposals.tsv G1 row (quality_markers, quality_signals); Euro NCAP
+- G-G1-1 | proven, mature technology | proven > new and untried | After safety. | proposals.tsv G1 row (quality_markers); AAA choosing a quality car
+- G-G1-1 | build quality |  | After technology. | proposals.tsv G1 row (quality_markers); AAA choosing a quality car
+- G-G1-1 | size class against need | micro to large (a choice; separate ladders for SUV and MPV) | A size_class attribute, never a level. | proposals.tsv G1 row (quality_markers); Autohome vehicle levels (China)
+- G-G1-1 | running costs |  | Last in the order. | proposals.tsv G1 row (quality_markers); AAA choosing a quality car
+- G-G1-4 | fit | frame size XS to XL (a choice) | Fit comes first. | proposals.tsv G1 row (quality_markers); Cycle King (UK bikes)
+- G-G1-4 | intended riding | geometry for the discipline | Then the discipline. | proposals.tsv G1 row (quality_markers); Cycle King (UK bikes)
+- G-G1-4 | component level | groupset ladder (not yet attested) | Groupset ladders are maker-ladder tier entries on lines. | proposals.tsv G1 row (quality_markers, quality_signals)
+- G-G1-4 | frame material and weight |  | Last in the order. | proposals.tsv G1 row (quality_markers); Raleigh UK
+- G-G1-3 | intended riding |  | The guide starts from the riding done. | proposals.tsv G1 row (quality_markers); SlashGear first motorcycle
+- G-G1-3 | fit, checked on a test ride |  | After intended riding. | proposals.tsv G1 row (quality_markers); SlashGear first motorcycle
+- G-G1-3 | running and ownership costs |  | Looks and spec come after this. | proposals.tsv G1 row (quality_markers); SlashGear first motorcycle
+- G-G1-7 | length or size and layout |  | Memo only; provisional. | proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+- G-G1-7 | condition and age |  | Memo only; provisional. | proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+- G-G1-6 | length or size and layout |  | Memo only; provisional. | proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+- G-G1-6 | condition and age |  | Memo only; provisional. | proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+- G-G1-8 | length or size and layout |  | Memo only; provisional. | proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+- G-G1-8 | condition and age |  | Memo only; provisional. | proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+
+## Kinds (kind_id | stored name | native name | definition)
+- G1.1.1.01 | Saloon (sedan) |  | passenger car with a separate boot behind a fixed roof over two rows of seats.
+- G1.1.1.02 | Hatchback |  | passenger car whose rear door is a top-hinged tailgate opening onto the load space.
+- G1.1.1.03 | Estate (station wagon) |  | passenger car with the roof carried back to the rear and a tailgate over a long load space.
+- G1.1.1.04 | Coupé |  | closed passenger car with a fixed roof, two doors and a sloping rear.
+- G1.1.1.05 | Convertible (cabriolet) |  | passenger car whose roof folds or comes off.
+- G1.1.1.06 | SUV |  | passenger car with a tall body, raised ground clearance and often four-wheel drive.
+- G1.1.1.07 | MPV (minivan) |  | passenger car with a tall one-box body and up to three rows of seats where the load space would be.
+- G1.1.1.08 | Microcar (quadricycle) |  | light enclosed four-wheeled car below the ordinary car class, sold as its own category.
+- G1.1.2.01 | Panel van |  | goods vehicle with an enclosed windowless load box behind the cab.
+- G1.1.2.03 | Pickup truck |  | light goods vehicle with a cab and an open load bed.
+- G1.1.2.04 | Chassis-cab with fitted body (rigid truck) |  | truck built on one chassis with its body fitted (box, dropside, tipper).
+- G1.1.2.05 | Tractor unit |  | truck made to tow a semi-trailer on a fifth-wheel coupling.
+- G1.1.2.06 | Minibus |  | passenger vehicle with four or more rows of seats, below bus size.
+- G1.1.1.09 | Limousine |  | long-wheelbase chauffeur-driven car with a partition or extended rear passenger compartment.
+- G1.1.2.02 | Window van (kombi) |  | van with side windows and seats or space for passengers and goods.
+- G1.1.2.07 | Bus / coach |  | large passenger vehicle for many seated or standing passengers.
+- G1.1.3.01 | Standard (naked) motorcycle |  | general-purpose motorcycle with an upright riding position and little or no fairing.
+- G1.1.3.02 | Cruiser motorcycle |  | low-seated motorcycle with feet-forward controls and a laid-back riding position.
+- G1.1.3.03 | Sport motorcycle |  | motorcycle built for speed and handling, with a forward-leaning position and full fairing.
+- G1.1.3.04 | Touring motorcycle |  | large motorcycle made for long distances, with wind protection, luggage and passenger comfort.
+- G1.1.3.05 | Adventure / dual-sport motorcycle |  | motorcycle made for both road and unpaved riding, with long suspension travel.
+- G1.1.3.08 | Moped |  | light low-powered two-wheeler with a small engine or motor and no working pedal drive.
+- G1.1.3.06 | Scooter |  | motor scooter with a step-through frame, floorboard and small wheels.
+- G1.1.3.07 | Electric kick scooter |  | stand-up scooter with an electric motor, made to carry a rider from place to place.
+- G1.1.3.11 | Motorcycle with sidecar |  | motorcycle sold with a one-wheeled passenger car attached at the side.
+- G1.1.3.13 | Electric unicycle |  | one-wheeled self-balancing electric vehicle ridden standing.
+- G1.1.3.15 | Powered skateboard |  | skateboard with an electric motor, made to carry a rider from place to place.
+- G1.1.3.09 | Off-road motorcycle (enduro, motocross, trials) |  | motorcycle made for off-road riding or off-road sport.
+- G1.1.3.10 | Trike |  | three-wheeled motorcycle.
+- G1.1.3.14 | Hoverboard (self-balancing board) |  | two-wheeled self-balancing electric board ridden standing.
+- G1.1.4.01 | Quad (ATV) |  | four-wheeled straddle-seat all-terrain vehicle with handlebars, off-road or road-registered.
+- G1.1.4.02 | Snowmobile |  | tracked vehicle with front skis made to travel over snow.
+- G1.1.4.03 | UTV (side-by-side) |  | off-road utility vehicle with side-by-side seats and a steering wheel.
+- G1.1.4.04 | Golf cart |  | small low-speed vehicle made to carry players and their bags over a golf course.
+- G1.1.4.05 | Go-kart |  | small open single-seat four-wheeled vehicle with a low chassis.
+- G1.1.4.06 | Dune buggy |  | light open off-road car made for sand and rough ground.
+- G1.1.3.12 | Mini and pocket bike |  | scaled-down motorcycle with small wheels and a small engine.
+- G1.1.5.02 | Gravel bike |  | drop-bar bicycle with wide tyre clearance made for mixed paved and unpaved roads (kept provisionally, section 14).
+- G1.1.5.03 | Cross-country mountain bike |  | light mountain bike with short suspension travel made for climbing and fast off-road riding.
+- G1.1.5.04 | Downhill mountain bike |  | mountain bike with long-travel full suspension made for steep descents.
+- G1.1.5.06 | City bike |  | upright everyday bicycle for town riding, usually with mudguards and a chain guard.
+- G1.1.5.08 | Mini-velo (small-wheel bicycle) |  | non-folding bicycle with small wheels and a full-size frame fit.
+- G1.1.5.09 | Cargo bike |  | bicycle built to carry loads or passengers on a platform, box or extended rear.
+- G1.1.5.10 | Trail mountain bike |  | mid-travel mountain bike made for all-round trail riding.
+- G1.1.5.11 | Enduro mountain bike |  | long-travel mountain bike made for timed descents and the climbs between them.
+- G1.1.5.12 | Dirt-jump mountain bike |  | small hardtail mountain bike made for jumps and pump tracks.
+- G1.1.5.14 | Track (fixed-gear) bike |  | fixed-gear bicycle without brakes made for velodrome racing.
+- G1.1.5.15 | Time-trial bike |  | aerodynamic road bicycle with aero bars made for racing against the clock.
+- G1.1.5.17 | Hybrid (cross) bike |  | flat-bar bicycle mixing road and mountain-bike features for general riding.
+- G1.1.5.01 | Road bike |  | drop-bar bicycle made for speed on paved roads.
+- G1.1.5.05 | BMX bike |  | small-wheeled single-speed bicycle made for racing, tricks and park riding.
+- G1.1.5.07 | Folding bike |  | bicycle whose frame folds to a compact size for carrying or storage.
+- G1.1.5.13 | Cyclocross bike |  | drop-bar bicycle made for cyclocross racing on mixed off-road courses.
+- G1.1.5.16 | Touring (trekking) bike |  | sturdy bicycle made to carry luggage on long rides.
+- G1.1.5.18 | Fat bike |  | bicycle with oversized tyres made for snow and sand.
+- G1.1.6.01 | Adult tricycle |  | three-wheeled pedal cycle made for an adult rider.
+- G1.1.6.02 | Recumbent bicycle |  | bicycle ridden in a reclined seat with the pedals in front.
+- G1.1.6.03 | Tandem |  | bicycle made for two or more riders pedalling one behind the other.
+- G1.1.6.04 | Handcycle |  | cycle driven by the arms through hand cranks.
+- G1.1.6.05 | Velomobile |  | recumbent cycle enclosed in an aerodynamic body shell.
+- G1.1.6.06 | Cycle rickshaw |  | pedal tricycle made to carry paying passengers or goods.
+- G1.1.7.02 | Boat trailer |  | towed trailer made to carry, launch and recover a boat.
+- G1.1.7.03 | Horsebox (horse trailer) |  | towed trailer made to carry horses.
+- G1.1.7.04 | Car transporter trailer |  | towed trailer made to carry one or more cars.
+- G1.1.7.05 | Tipper trailer |  | towed goods trailer whose body tips to unload.
+- G1.1.8.01 | Touring caravan (travel trailer) |  | towed living trailer with a fixed body.
+- G1.1.8.03 | Fifth-wheel |  | towed living trailer whose raised front rides over a pickup bed on a fifth-wheel hitch.
+- G1.1.8.04 | Truck camper |  | living body made only to be carried in a pickup bed.
+- G1.1.8.05 | Campervan (van conversion) |  | van converted for living and sleeping, keeping the van body.
+- G1.1.8.08 | A-class (integrated) motorhome |  | motorhome whose body is built over a bare chassis with its own integrated cab.
+- G1.1.7.01 | Box (cargo) trailer |  | towed trailer with an open or closed box for goods.
+- G1.1.7.06 | Motorcycle trailer |  | towed trailer made to carry motorcycles.
+- G1.1.7.07 | Bicycle trailer |  | trailer towed by a bicycle, for a child, a dog or goods.
+- G1.1.8.02 | Folding camper (pop-up) |  | towed camper whose walls and roof fold down for travel.
+- G1.1.8.06 | Low-profile motorhome |  | coachbuilt motorhome with a low roofline and no over-cab bed.
+- G1.1.8.07 | Overcab (Luton) motorhome |  | coachbuilt motorhome with a sleeping area over the driving cab.
+- G1.1.8.09 | Expandable-end trailer |  | towed living trailer with fold-out tent ends over a hard body.
+- G1.1.8.10 | Sport utility RV |  | towed or driven RV with a built-in garage for carrying vehicles or gear.
+- G1.1.2.08 | Special-purpose body vehicle |  | vehicle with a body made for one service, such as a fire engine, ambulance or hearse.
+- G1.1.9.01 | Horse-drawn carriage |  | wheeled passenger vehicle drawn by horses.
+- G1.1.9.02 | Horse-drawn wagon or cart |  | wheeled goods vehicle drawn by an animal.
+- G1.1.9.03 | Sleigh |  | runner-borne vehicle drawn by an animal or machine to carry people or goods over snow (P6).
+- G1.1.10.01 | Pram |  | wheeled baby carriage whose only body is a lying carrycot, pushed by hand.
+- G1.1.10.02 | Stroller (pushchair) |  | wheeled seat for a baby or child pushed by hand, including a frame sold with carrycot and seat unit (P14).
+- G1.1.10.03 | Jogging stroller |  | three-wheeled stroller made to be pushed while running.
+- G1.1.10.04 | Double or tandem stroller |  | stroller seating two children side by side or one behind the other.
+- G1.1.10.05 | Pet stroller |  | wheeled carrier made to push a pet (K-95).
+- G1.2.01 | Locomotive |  | rail vehicle that provides the power to haul a train.
+- G1.2.02 | Railway carriage or wagon |  | unpowered rail vehicle for passengers or goods.
+- G1.2.03 | Handcar (draisine, railbike) |  | small rail vehicle moved by its riders' muscle (pumped or pedalled).
+- G1.2.04 | Railcar (multiple unit) |  | self-propelled rail vehicle carrying passengers.
+- G1.2.05 | Tram |  | rail vehicle running on street track to carry passengers.
+- G1.2.06 | Motor trolley |  | small motorised rail vehicle for track inspection or maintenance crews.
+- G1.3.1.01 | Kayak |  | narrow paddle craft driven by a double-bladed paddle, rigid or inflatable (`construction`, G-8).
+- G1.3.1.02 | Canoe |  | open paddle craft driven by a single-bladed paddle.
+- G1.3.1.03 | Rowing boat |  | small boat driven by oars.
+- G1.3.1.04 | Rowing shell |  | long narrow racing boat rowed with oars on sliding seats.
+- G1.3.1.05 | Pedal boat |  | small boat driven by pedals turning a paddle wheel or propeller.
+- G1.3.2.01 | Sailing dinghy |  | small open sailing monohull with a centreboard.
+- G1.3.2.02 | Open keelboat (daysailer) |  | sailing monohull with a ballast keel and no or minimal cabin.
+- G1.3.2.03 | Cruising monohull |  | sailing monohull with accommodation for living aboard.
+- G1.3.2.04 | Beach catamaran |  | open sailing multihull launched from a beach.
+- G1.3.2.05 | Cruising multihull |  | sailing catamaran or trimaran with accommodation (`hull_count`).
+- G1.3.2.06 | Motorsailer |  | sailing craft with an engine strong enough to cruise under power (`propulsion` = wind + combustion engine, primary flag, G-2).
+- G1.3.2.07 | Racer-cruiser |  | sailing yacht with accommodation, made to both race and cruise.
+- G1.3.2.08 | Gulet |  | traditional wooden two- or three-masted motor-sailing yacht for charter cruising.
+- G1.3.3.01 | Bowrider (runabout) |  | open powerboat with seating in the bow ahead of the helm.
+- G1.3.3.02 | Centre console boat |  | open powerboat with the helm on a console in the middle of the deck.
+- G1.3.3.03 | Cabin cruiser |  | powerboat with an enclosed cabin for overnight use.
+- G1.3.3.04 | Rigid inflatable boat (RIB) |  | powerboat with a rigid hull and inflatable tubes.
+- G1.3.3.05 | Personal watercraft (PWC) |  | small sit-on or stand-up jet-driven craft ridden like a motorcycle.
+- G1.3.3.06 | Cruising houseboat (navigating house barge) |  | hull with its own propulsion and steering, made to be lived aboard and navigated (K-60).
+- G1.3.3.07 | Trawler |  | displacement motor yacht with a trawler-style hull made for economical long-range cruising.
+- G1.3.3.08 | Motor yacht |  | large powerboat with accommodation for cruising.
+- G1.3.3.09 | Sport-fishing boat |  | powerboat made for offshore fishing.
+- G1.3.3.10 | Pontoon boat |  | flat-decked powerboat on two or more pontoons.
+- G1.3.3.11 | Jon boat |  | flat-bottomed small powerboat for shallow water.
+- G1.3.3.12 | Jet boat |  | powerboat driven by a water jet.
+- G1.3.3.13 | Tender |  | small boat made to carry people and goods between a larger vessel and the shore.
+- G1.3.3.14 | eFoil |  | electric powered hydrofoil board ridden standing (K-90).
+- G1.4.1.01 | Single-engine piston airplane |  | fixed-wing airplane with one piston engine.
+- G1.4.1.02 | Turboprop airplane |  | fixed-wing airplane driven by one or more turboprop engines.
+- G1.4.1.03 | Multi-engine piston airplane |  | fixed-wing airplane with two or more piston engines.
+- G1.4.1.04 | Jet |  | fixed-wing airplane driven by jet engines, from light and business jets to airliners.
+- G1.4.1.05 | Amphibian or floatplane |  | fixed-wing airplane made to take off from and land on water.
+- G1.4.2.01 | Sailplane (glider) |  | unpowered fixed-wing aircraft that flies by soaring.
+- G1.4.2.02 | Motor-glider |  | glider with an engine for take-off or sustaining flight.
+- G1.4.2.03 | Helicopter |  | rotorcraft lifted and driven by powered rotors.
+- G1.4.2.04 | Gyroplane |  | rotorcraft with an unpowered rotor and a separate propeller.
+- G1.4.2.05 | Hot-air balloon |  | lighter-than-air aircraft lifted by heated air in an envelope.
+- G1.4.2.06 | Gas balloon |  | lighter-than-air aircraft lifted by a light gas, without propulsion.
+- G1.4.2.07 | Airship |  | powered, steerable lighter-than-air aircraft.
+- G1.4.2.08 | Powered parachute |  | aircraft with a parachute wing and a motorised cart below it.
+- G1.4.2.09 | Weight-shift trike |  | powered hang-glider-type wing over a trike, steered by shifting weight.
+- G1.1.6.08 | Trailer bike (trailercycle) |  | one-wheeled half bicycle with saddle, bars and pedals, hitched to an adult bicycle so a child can ride and pedal behind.
+- G1.3.3.15 | Performance powerboat |  | open or cuddy powerboat with a deep-V or stepped hull and high power, made for speed.
+- G1.3.3.16 | Bass boat |  | low, flat-decked freshwater fishing boat with raised casting decks, livewells and a high-power outboard.
+- G1.3.3.17 | Ski and wakeboard boat (tow boat) |  | inboard powerboat built to tow water-skiers or wakeboarders, with a tow pylon or tower and a tuned wake.
+- G1.3.3.18 | Deck boat |  | open powerboat with a wide beam carried forward to a large open bow deck, seating many on a V or tri-hull.
+- G1.1.6.07 | Recumbent tricycle |  | three-wheeled pedal cycle ridden in a reclined seat with the pedals in front (tadpole or delta layout).
+- G1.1.8.11 | Teardrop trailer |  | small towed living trailer with a teardrop profile, a sleeping cabin and a rear-hatch galley, without standing room inside.
+- G1.1.10.06 | Stroller wagon |  | wheeled box-bodied carrier with harnessed seats for two or more children, pushed like a stroller or pulled by a handle.
+- G1.3.3.19 | Flats and bay boat |  | shallow-draft open saltwater fishing boat with a poling or casting platform, made for bays and tidal flats.
+- G1.3.1.06 | River raft |  | inflatable open boat of large tubes, paddled or rowed by a group, made for whitewater rivers.
+- G1.4.2.10 | Paramotor (powered paraglider) |  | backpack engine and propeller worn by a foot-launched pilot under a paraglider wing.

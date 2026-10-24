@@ -1,0 +1,221 @@
+# E4 Weapons & Armour: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (weapon or protection family by how it acts: firearms, air guns, bows and crossbows, swords, knives, polearms and impact weapons, self-defence devices, armour, ammunition, parts and optics), with a parallel 'what is it for?' start (hunting, target sport, self-defence, collecting, martial arts) as a use view
+- reason: Shops shelve by weapon family and then form or action (4komma5: crossbow, bow, air guns; US Armor catalogue: ballistics, plates, carriers, helmets, shields; japanesesword.net: antique katana, modern fine art, newly forged), while the guides start from use or quarry (Lancaster Archery, Crate Club, Outdoor Life) and the same rifle or knife serves several uses, so use is a view and a tag, never the tree (one home; memo candidate B rejected).
+- ladder: What kind of weapon or protection? (family) > Which type? (form class and action, blade profile, protection class) > What makes the best one? (fit to the user and use, then material and construction: steel and heat treatment, draw weight and length, action and calibre for the quarry, protection level as a floor)
+- level1_groups: Firearms; Air & gas guns; Bows, crossbows & arrows; Swords; Knives & daggers; Polearms, axes & impact weapons; Self-defence devices; Body armour, historical armour & shields; Ammunition & reloading; Parts, optics & fittings
+- quality_markers: Knives: steel by edge retention, toughness, hardness (HRC) and corrosion resistance, and the maker's heat treatment above the steel name (Outdoor Life); tang (full > half > rat-tail), blade shape and length for the job, handle material and balance, fit in hand (Bowhunter). Bows: intended use, then fit and draw length, then a draw weight the archer can hold, handedness, budget (Lancaster). Hunting rifles: shooter build and recoil, quarry size, action, weight and balance, calibre, stock fit; accuracy guarantee (Crate Club). Body armour: threat level faced (NIJ level is a floor, not a ceiling), then mobility and wear time, materials and construction, plate curvature, weight, fit (US Armor). Japanese swords (as kinds and named forms; individual blades out): verifiable licensed smith, clear attribution, genuine hamon, polish, tang; certified paper (japanesesword.net). HEMA swords: maker reputation, customisation, lead time, repair (Academie Duello).
+- quality_signals: NIJ 0101.06 levels II, IIIA, III, IV and NIJ 0101.07 / 0123.00 HG1-RF3; NIJ 0115.00 stab (US NIJ; class i standard_met as protection_level on named forms; US Armor, memo); NBTHK Hozon, Tokubetsu Hozon, Juyo, Tokubetsu Juyo and NBSK papers (grading-scale registry rows only, never stored per blade, C16; japanesesword.net); HRC hardness (class i attribute; Outdoor Life, Bowhunter); Outdoor Life steel scores out of 10 (class iii editorial; they rate a steel, so they need a steel reference table, not a tier entry; Outdoor Life); community reputation of HEMA makers, Albion called the gold standard (class iii tier entry on the maker on one source, provisional; Academie Duello); maker accuracy guarantees and optics warranties (maker claims, attribute only; Crate Club); state minimum hunting draw weights and weapon licence classes (C17 jurisdiction ledger, not quality; Lancaster Archery)
+- maker_role: split (revise from owner, provisional): way_in for blades and armour craft (custom knifemakers and knife brands, HEMA swordsmiths, nihonto smiths with their schools, armourers' workshops), where buyers choose by maker or smith (Academie Duello; Bowhunter names Kershaw, Spyderco, Gerber, Buck, Benchmade; japanesesword.net attribution; memo: Blade HQ brand shelf, NihontoWatch schools); owner for firearms, air guns, bows and crossbows, ammunition, body armour, self-defence devices and parts, where the model leads (Crate Club models: Ruger, Savage, Tikka). Needs scoped rows in maker_roles.tsv (E4.4, E4.5, E4.8 historical armour way_in; rest owner).
+- side_view: Knife-maker and swordsmith tab (makers and smiths, with the school table for nihonto); a nihonto view by period and school; a use view (hunting, target and competition, self-defence, HEMA and re-enactment, collecting) built from use tags; a platform view for parts (AR-15 pattern, Picatinny, M-LOK, bow cam systems as C13 rows).
+- evidence_rows: Lancaster Archery first bow guide (US); US Armor NIJ ratings guide (US); Japanese Sword (japanesesword.net) katana decision tree; Academie Duello HEMA sword buyer guide (Canada); Crate Club first hunting rifle guide (US); Outdoor Life knife steel guide (US); 4komma5 (Germany) via all4shooters article; Bowhunter hunting knife guide (US)
+- maker role row: {'code': 'E4', 'scope': 'firearms, air guns, archery and other weapons; modern ballistic armour', 'role': 'owner', 'provisional': 'yes', 'reason': 'models carry the maker (HOL_DP_7, R-116)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-E4-1 | Firearms | 1 |  | E4.1
+- G-E4-11 | Pistols | 2 | G-E4-1 | E4.1.1.01; E4.1.1.02
+- G-E4-12 | Revolvers | 2 | G-E4-1 | E4.1.2.01; E4.1.2.02
+- G-E4-13 | Rifles | 2 | G-E4-1 | E4.1.3.01; E4.1.3.02; E4.1.3.03; E4.1.3.04; E4.1.3.05
+- G-E4-14 | Shotguns | 2 | G-E4-1 | E4.1.4.01; E4.1.4.02; E4.1.4.03; E4.1.4.04; E4.1.4.05; E4.1.4.06
+- G-E4-15 | Combination guns | 2 | G-E4-1 | E4.1.5.01
+- G-E4-16 | Blank-firing pistols | 2 | G-E4-1 | E4.1.6.01
+- G-E4-2 | Air & gas guns | 1 |  | E4.2
+- G-E4-17 | Air rifles | 2 | G-E4-2 | E4.2.1.01; E4.2.1.02; E4.2.1.03
+- G-E4-18 | Air pistols | 2 | G-E4-2 | E4.2.2.01; E4.2.2.02
+- G-E4-19 | Pellets and CO2 capsules | 2 | G-E4-2 | E4.9.07; E4.10.4.07
+- G-E4-3 | Bows, crossbows & arrows | 1 |  | E4.3
+- G-E4-20 | Bows | 2 | G-E4-3 | E4.3.1.01; E4.3.1.02; E4.3.1.03
+- G-E4-21 | Crossbows | 2 | G-E4-3 | E4.3.2.01; E4.3.2.02
+- G-E4-22 | Slingshots and blowguns | 2 | G-E4-3 | E4.3.3.01; E4.3.3.02
+- G-E4-23 | Arrows, bolts and archery parts | 2 | G-E4-3 | E4.9.08; E4.9.09; E4.10.2.01; E4.10.2.02; E4.10.2.03; E4.10.2.04
+- G-E4-4 | Swords | 1 |  | E4.4
+- G-E4-24 | Straight double-edged swords | 2 | G-E4-4 | E4.4.1.01; E4.4.1.02; E4.4.1.03; E4.4.1.04
+- G-E4-25 | Single-edged swords (sabres, katana) | 2 | G-E4-4 | E4.4.2.01; E4.4.2.02; E4.4.2.03; E4.4.2.04; E4.4.2.05; E4.4.2.06; E4.4.2.07
+- G-E4-26 | Thrusting swords | 2 | G-E4-4 | E4.4.3.01; E4.4.3.02; E4.4.3.03
+- G-E4-5 | Knives & daggers | 1 |  | E4.5.01; E4.5.02; E4.5.03; E4.5.04; E4.5.05; E4.5.06; E4.5.07; E4.5.08; E4.5.09; E4.5.10
+- G-E4-6 | Polearms, axes & impact weapons | 1 |  | E4.6
+- G-E4-27 | Polearms | 2 | G-E4-6 | E4.6.1.01; E4.6.1.02; E4.6.1.03; E4.6.1.04; E4.6.1.05
+- G-E4-28 | Axes | 2 | G-E4-6 | E4.6.2.01; E4.6.2.02; E4.6.2.03
+- G-E4-29 | Staffs | 2 | G-E4-6 | E4.6.3.01; E4.6.3.02
+- G-E4-30 | Impact weapons | 2 | G-E4-6 | E4.6.4.01; E4.6.4.02; E4.6.4.03; E4.6.4.04; E4.6.4.05; E4.6.4.06; E4.6.4.07
+- G-E4-31 | Flexible weapons | 2 | G-E4-6 | E4.6.5.01; E4.6.5.02; E4.6.5.03; E4.6.5.04
+- G-E4-7 | Self-defence devices | 1 |  | E4.7.01; E4.7.02; E4.7.03; E4.7.04; E4.7.05; E4.7.06
+- G-E4-8 | Body armour, historical armour & shields | 1 |  | E4.8
+- G-E4-32 | Body armour (ballistic and stab) | 2 | G-E4-8 | E4.8.2.01; E4.8.2.02; E4.8.2.03; E4.8.2.04; E4.8.1.02
+- G-E4-33 | Historical armour | 2 | G-E4-8 | E4.8.1.01; E4.8.1.03; E4.8.2.05; E4.8.2.06; E4.8.2.07; E4.8.3.01; E4.8.3.02; E4.8.3.03; E4.8.4.01
+- G-E4-34 | Shields | 2 | G-E4-8 | E4.8.5.01
+- G-E4-9 | Ammunition & reloading | 1 |  | E4.9
+- G-E4-35 | Cartridges and shotshells | 2 | G-E4-9 | E4.9.01; E4.9.02; E4.9.03; E4.9.04
+- G-E4-36 | Muzzle-loading projectiles and black powder | 2 | G-E4-9 | E4.9.05; E4.9.06
+- G-E4-37 | Reloading components | 2 | G-E4-9 | E4.9.10; E4.9.11; E4.9.12; E4.9.13; E4.9.14
+- G-E4-10 | Parts, optics & fittings | 1 |  | E4.10
+- G-E4-38 | Firearm parts | 2 | G-E4-10 | E4.10.1.01; E4.10.1.02; E4.10.1.03; E4.10.1.04; E4.10.1.05
+- G-E4-39 | Optics and mounts | 2 | G-E4-10 | E4.10.4.01; E4.10.4.05; E4.10.4.06
+- G-E4-40 | Lights, bipods and rests | 2 | G-E4-10 | E4.10.4.02; E4.10.4.03; E4.10.4.04
+- G-E4-41 | Sword fittings | 2 | G-E4-10 | E4.10.3.01; E4.10.3.02; E4.10.3.03; E4.10.3.04; E4.10.3.05
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-E4-5 | steel | edge retention, toughness, hardness (HRC) and corrosion resistance | Knife steel comes first, read by its properties. | proposals.tsv E4 row (quality_markers); Outdoor Life knife steel guide (US)
+- G-E4-5 | maker's heat treatment |  | Weighed above the steel name. | proposals.tsv E4 row (quality_markers); Outdoor Life knife steel guide (US)
+- G-E4-5 | tang | full > half > rat-tail | Construction after steel. | proposals.tsv E4 row (quality_markers); Bowhunter hunting knife guide (US)
+- G-E4-5 | blade shape and length for the job |  | Chosen by use. | proposals.tsv E4 row (quality_markers); Bowhunter hunting knife guide (US)
+- G-E4-5 | handle material and balance |  | Follows the blade. | proposals.tsv E4 row (quality_markers); Bowhunter hunting knife guide (US)
+- G-E4-5 | fit in hand |  | Last: checked in the hand. | proposals.tsv E4 row (quality_markers); Bowhunter hunting knife guide (US)
+- G-E4-20 | intended use |  | The archery guide starts from use. | proposals.tsv E4 row (quality_markers); Lancaster Archery first bow guide (US)
+- G-E4-20 | fit and draw length |  | After use. | proposals.tsv E4 row (quality_markers); Lancaster Archery first bow guide (US)
+- G-E4-20 | draw weight the archer can hold |  | Not the heaviest, the one held steadily. | proposals.tsv E4 row (quality_markers); Lancaster Archery first bow guide (US)
+- G-E4-20 | handedness |  | Matched to the archer. | proposals.tsv E4 row (quality_markers); Lancaster Archery first bow guide (US)
+- G-E4-20 | budget |  | Last in the guide's order. | proposals.tsv E4 row (quality_markers); Lancaster Archery first bow guide (US)
+- G-E4-13 | shooter build and recoil |  | The hunting-rifle guide starts from the shooter. | proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+- G-E4-13 | quarry size | small, medium, large game (a choice) | Calibre and action follow the quarry. | proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+- G-E4-13 | action |  | After quarry. | proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+- G-E4-13 | weight and balance |  | After action. | proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+- G-E4-13 | calibre |  | Chosen for the quarry. | proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+- G-E4-13 | stock fit |  | Fit to the shooter. | proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+- G-E4-13 | accuracy guarantee |  | A maker claim, recorded as an attribute only. | proposals.tsv E4 row (quality_markers, quality_signals); Crate Club first hunting rifle guide (US)
+- G-E4-32 | threat level faced | NIJ 0101.06 IV > III > IIIA > II; NIJ 0101.07 HG1-RF3; NIJ 0115.00 stab (a floor, not a ceiling) | Buy for the threat faced; the NIJ level is a floor. | proposals.tsv E4 row (quality_markers, quality_signals); US Armor NIJ ratings guide (US)
+- G-E4-32 | mobility and wear time |  | After protection level. | proposals.tsv E4 row (quality_markers); US Armor NIJ ratings guide (US)
+- G-E4-32 | materials and construction |  | After mobility. | proposals.tsv E4 row (quality_markers); US Armor NIJ ratings guide (US)
+- G-E4-32 | plate curvature |  | For hard plates. | proposals.tsv E4 row (quality_markers); US Armor NIJ ratings guide (US)
+- G-E4-32 | weight and fit |  | Last in the guide's order. | proposals.tsv E4 row (quality_markers); US Armor NIJ ratings guide (US)
+- G-E4-25 | verifiable licensed smith and clear attribution (Japanese swords) |  | Japanese swords as kinds and named forms; individual blades stay out. | proposals.tsv E4 row (quality_markers); Japanese Sword (japanesesword.net) katana decision tree
+- G-E4-25 | genuine hamon (Japanese swords) |  | After attribution. | proposals.tsv E4 row (quality_markers); Japanese Sword (japanesesword.net) katana decision tree
+- G-E4-25 | polish and tang (Japanese swords) |  | After the hamon. | proposals.tsv E4 row (quality_markers); Japanese Sword (japanesesword.net) katana decision tree
+- G-E4-25 | certified paper (Japanese swords) | NBTHK Tokubetsu Juyo > Juyo > Tokubetsu Hozon > Hozon; NBSK papers | Grading-scale registry rows only, never stored per blade (C16). | proposals.tsv E4 row (quality_markers, quality_signals); Japanese Sword (japanesesword.net) katana decision tree
+- G-E4-24 | maker reputation (HEMA swords) |  | HEMA buyers choose by maker first (Albion called the gold standard, one source, provisional). | proposals.tsv E4 row (quality_markers, quality_signals); Academie Duello HEMA sword buyer guide (Canada)
+- G-E4-24 | customisation, lead time and repair (HEMA swords) |  | After maker reputation. | proposals.tsv E4 row (quality_markers); Academie Duello HEMA sword buyer guide (Canada)
+- G-E4-26 | maker reputation (HEMA swords) |  | HEMA buyers choose by maker first (provisional). | proposals.tsv E4 row (quality_markers, quality_signals); Academie Duello HEMA sword buyer guide (Canada)
+- G-E4-26 | customisation, lead time and repair (HEMA swords) |  | After maker reputation. | proposals.tsv E4 row (quality_markers); Academie Duello HEMA sword buyer guide (Canada)
+
+## Kinds (kind_id | stored name | native name | definition)
+- E4.1.1.01 | Semi-automatic pistol |  | handgun with the chamber in the barrel that reloads itself from a magazine after each shot.
+- E4.1.2.01 | Double-action revolver |  | handgun with a revolving cylinder whose trigger pull both cocks the hammer and fires.
+- E4.1.2.02 | Single-action revolver |  | handgun with a revolving cylinder whose hammer is cocked by hand before each shot; a percussion revolver is this kind with `ignition` = percussion.
+- E4.1.3.01 | Bolt-action rifle |  | rifled long gun loaded and cycled by a hand-operated rotating or straight-pull bolt.
+- E4.1.3.02 | Lever-action rifle |  | rifled long gun cycled by a lever below the receiver.
+- E4.1.3.03 | Semi-automatic rifle |  | rifled long gun that reloads itself from a magazine after each shot.
+- E4.1.3.04 | Single-shot rifle |  | rifled long gun that holds one cartridge and is reloaded by hand after each shot.
+- E4.1.3.05 | Muzzle-loading rifle |  | rifled long gun loaded with powder and projectile from the muzzle (E-21).
+- E4.1.4.01 | Over-under shotgun [Bockdoppelflinte] |  | smoothbore long gun with two barrels stacked one above the other.
+- E4.1.4.02 | Side-by-side shotgun |  | smoothbore long gun with two barrels placed beside each other.
+- E4.1.4.03 | Pump-action shotgun |  | smoothbore long gun cycled by sliding the fore-end back and forth.
+- E4.1.4.04 | Semi-automatic shotgun [Selbstladeflinte] |  | smoothbore long gun that reloads itself after each shot.
+- E4.1.4.05 | Muzzle-loading shotgun |  | smoothbore long gun loaded with powder and shot from the muzzle (E-21).
+- E4.1.5.01 | Drilling or rifle-shotgun combination gun [Kombinierte Waffen] |  | long gun with at least one rifled and one smoothbore barrel in one action.
+- E4.1.6.01 | Blank-firing pistol [Schreckschusswaffe] |  | pistol that fires only blank, irritant or signal cartridges, made for self-defence or deterrence.
+- E4.2.1.01 | PCP air rifle |  | air rifle fired from an on-board reservoir pre-charged with compressed air.
+- E4.2.1.02 | Piston air rifle |  | air rifle that compresses its charge with a spring or gas piston at each cocking stroke; `piston_type` is an attribute.
+- E4.2.1.03 | CO2 air rifle |  | air rifle powered by carbon dioxide from a capsule or cylinder.
+- E4.2.2.01 | CO2 air pistol |  | air pistol powered by carbon dioxide from a capsule.
+- E4.2.2.02 | PCP air pistol |  | air pistol fired from an on-board reservoir pre-charged with compressed air.
+- E4.3.1.01 | Recurve bow |  | hand-drawn bow whose limb tips curve away from the archer.
+- E4.3.1.02 | Compound bow |  | hand-drawn bow whose limbs are bent by a system of cams and cables that gives let-off at full draw.
+- E4.3.1.03 | Longbow |  | tall hand-drawn bow with straight, narrow limbs.
+- E4.3.2.01 | Recurve crossbow |  | crossbow with recurved limbs mounted across a stock and released by a trigger.
+- E4.3.2.02 | Compound crossbow |  | crossbow whose limbs work through cams and cables.
+- E4.3.3.01 | Slingshot |  | hand-held fork with elastic bands that launches a small projectile; E1 when made as a toy (K-84).
+- E4.3.3.02 | Blowgun |  | tube through which a dart is propelled by the breath; E1 when made as a toy (K-84).
+- E4.4.1.01 | Arming sword |  | one-handed straight double-edged sword with a cross guard.
+- E4.4.1.02 | Longsword |  | straight double-edged sword with a hilt long enough for one or two hands.
+- E4.4.1.03 | Greatsword |  | large straight double-edged sword wielded with two hands.
+- E4.4.2.01 | Sabre |  | single-edged, usually curved cavalry sword; national and regional patterns are named forms.
+- E4.4.2.02 | Cutlass |  | short, broad single-edged sword with a basket or cup guard.
+- E4.4.2.03 | Katana (Japanese long sword) |  | curved single-edged Japanese long sword worn edge up through the sash.
+- E4.4.2.04 | Tachi (Japanese long sword) |  | curved single-edged Japanese long sword slung edge down from the belt.
+- E4.4.2.05 | Wakizashi (Japanese short sword) |  | single-edged Japanese short sword, the shorter blade of the daishō pair.
+- E4.4.2.06 | Tantō (Japanese dagger-length sword) |  | single-edged Japanese blade under one shaku, a sword kind by tradition.
+- E4.4.3.01 | Rapier |  | long, slender sword with a complex hilt made mainly for the thrust.
+- E4.4.3.02 | Smallsword |  | light, short thrusting sword with a small guard.
+- E4.5.01 | Dagger |  | short double-edged thrusting blade with a hilt.
+- E4.5.02 | Push dagger |  | short blade set at right angles to a T-handle gripped in the fist.
+- E4.5.03 | Bowie or fighting knife |  | large fixed-blade knife made for fighting, typically with a clip point and guard.
+- E4.5.04 | Hunting knife |  | knife made for dressing and skinning game; skinning and caping knives are non-maker named forms (section 14 E4-5).
+- E4.5.05 | Karambit |  | knife with a curved, claw-like blade and a finger ring, fixed or folding.
+- E4.5.06 | Butterfly knife |  | folding knife whose two handles rotate around the tang to cover or expose the blade.
+- E4.5.07 | Automatic knife |  | knife whose blade opens by a spring at the press of a button or switch, side-opening or out-the-front.
+- E4.5.08 | Throwing knife |  | balanced knife made to be thrown at a target.
+- E4.5.09 | Bayonet |  | blade made to fix to the muzzle of a firearm.
+- E4.5.10 | Shuriken |  | hand-thrown star or spike with sharpened points; E1 when made as a toy (K-84).
+- E4.6.1.01 | Spear |  | shaft with a pointed head made for thrusting or throwing; yari and qiang are named forms.
+- E4.6.1.02 | Halberd |  | polearm combining an axe blade, a spike and a hook on one head.
+- E4.6.1.03 | Naginata |  | Japanese polearm with a long curved single-edged blade.
+- E4.6.1.04 | Glaive |  | polearm with a single-edged blade on the end of the shaft.
+- E4.6.2.01 | Battle axe |  | axe made for fighting, not for cutting wood.
+- E4.6.2.02 | Tomahawk |  | light one-handed axe made for fighting or throwing.
+- E4.6.3.01 | Bō staff |  | long wooden staff used as a weapon.
+- E4.6.3.02 | Gun staff [棍] |  | Chinese long staff weapon of the apparatus lists.
+- E4.6.4.01 | Mace |  | club with a heavy head, often flanged or spiked.
+- E4.6.4.02 | War hammer |  | hafted weapon with a hammer head, often backed by a spike.
+- E4.6.4.03 | Baton |  | rigid or telescoping club made for striking.
+- E4.6.4.04 | Tonfa |  | baton with a side handle set at right angles to the shaft.
+- E4.6.4.05 | Nunchaku |  | two short sticks joined by a cord or chain.
+- E4.6.4.06 | Kubotan |  | short rod held in the fist to strike or apply pressure.
+- E4.6.5.01 | Flail |  | striking head joined to a handle by a chain.
+- E4.6.5.02 | Rope dart |  | dart or blade on the end of a long rope, swung and cast.
+- E4.6.5.03 | Chain whip |  | jointed steel segments ending in a dart, swung as a whip.
+- E4.6.5.04 | Three-section staff |  | three staff sections joined end to end by chains or cords.
+- E4.7.01 | Pepper spray |  | canister that sprays an irritant agent as a mist or stream.
+- E4.7.02 | Pepper gel |  | canister that sprays an irritant agent as a sticky gel.
+- E4.7.03 | Pepper-ball launcher |  | launcher that fires frangible projectiles filled with an irritant powder.
+- E4.7.04 | CO2 launcher |  | compact CO2-powered launcher made for self-defence projectiles; may merge with E4.7.03 when attested.
+- E4.7.05 | Projectile electroshock weapon |  | device that fires wired darts to deliver an incapacitating electric shock; TASER is a maker-bound named form.
+- E4.7.06 | Contact stun gun |  | hand-held device that delivers an electric shock through electrodes pressed against the body.
+- E4.8.1.01 | Plate helmet |  | metal helmet made against blows; burgonet is a named form.
+- E4.8.1.02 | Ballistic helmet |  | helmet made against bullets and fragments; `protection_level` is an attribute (E-23, provisional).
+- E4.8.2.01 | Soft ballistic vest |  | flexible body armour against handgun rounds.
+- E4.8.2.02 | Hard ballistic plate |  | rigid armour plate against rifle rounds, worn alone or in a carrier.
+- E4.8.2.03 | Stab-resistant vest |  | body armour made against knife and spike attacks (NIJ 0115.00).
+- E4.8.2.04 | Plate carrier |  | vest made to hold hard armour plates, armour in its own right (K-84).
+- E4.8.3.01 | Gauntlet |  | armoured glove protecting the hand and wrist.
+- E4.8.3.02 | Arm armour |  | loose armour for the arm, such as vambrace and couter.
+- E4.8.3.03 | Leg armour |  | loose armour for the leg, such as greave and cuisse.
+- E4.8.4.01 | Plate armour harness |  | complete suit of plate armour; a garniture is a named form.
+- E4.8.5.01 | Shield |  | hand-held protective barrier carried on the arm.
+- E4.9.01 | Centrefire handgun cartridge |  | complete cartridge with a central primer made for handguns.
+- E4.9.02 | Centrefire rifle cartridge |  | complete cartridge with a central primer made for rifles.
+- E4.9.03 | Rimfire cartridge |  | complete cartridge whose priming compound sits in the rim.
+- E4.9.04 | Shotshell |  | cartridge for a shotgun loaded with shot or a slug.
+- E4.9.05 | Muzzle-loading projectile |  | ball or conical bullet loaded from the muzzle.
+- E4.9.06 | Black powder and substitute propellant |  | black powder and its substitutes for muzzle-loading arms (E4-O2).
+- E4.9.07 | Air-gun pellet |  | lead or alloy projectile made for air guns.
+- E4.9.08 | Arrow |  | shafted projectile shot from a bow (E4-O1).
+- E4.9.09 | Crossbow bolt |  | short shafted projectile shot from a crossbow.
+- E4.9.10 | Loose bullet |  | projectile sold on its own for loading cartridges (K-86).
+- E4.9.11 | Primer |  | ignition cap sold on its own for loading cartridges (K-86).
+- E4.9.12 | Smokeless propellant powder |  | smokeless powder sold for loading cartridges (K-86).
+- E4.10.1.01 | Magazine |  | detachable or fixed container that feeds cartridges into a firearm.
+- E4.10.2.01 | Bowstring |  | string made to fit a bow or crossbow.
+- E4.10.2.02 | Arrow rest |  | device on the bow riser that supports the arrow before release.
+- E4.10.3.01 | Scabbard |  | sheath made to hold a sword or knife.
+- E4.10.3.02 | Sword guard |  | loose guard for a sword hilt; tsuba is a non-maker named form.
+- E4.10.3.03 | Grip ornament (menuki) |  | loose ornament fitted under the grip wrapping of a Japanese sword.
+- E4.10.4.01 | Rifle scope |  | telescopic sight made to mount on a firearm, air rifle or crossbow.
+- E4.10.4.02 | Weapon light |  | light made to mount on a weapon (K-162).
+- E4.10.4.03 | Bipod |  | two-legged support made to mount on a weapon (K-163).
+- E4.10.4.04 | Shooting rest |  | support on which a weapon is laid to steady the aim (K-163).
+- E4.4.1.04 | Short sword |  | Straight double-edged one-handed sword with a blade clearly shorter than an arming sword, often without a cross guard; gladius and xiphos are named forms.
+- E4.4.2.07 | Falchion |  | Broad single-edged one-handed European sword, straight or slightly curved, often widening towards the point; messer and grosse messer are named forms.
+- E4.4.3.03 | Sword cane |  | Walking stick whose shaft hides a sword blade drawn from it; shikomizue is a Japanese named form; a cane without a blade is A4 or H2.
+- E4.1.4.06 | Single-shot shotgun |  | Smoothbore long gun with one barrel loaded by hand with one shell for each shot, usually break-open.
+- E4.1.1.02 | Single-shot or derringer pistol |  | Handgun with no magazine or cylinder, loaded by hand into one or two barrels (break-open, tip-up or falling block); flintlock pistols take ignition as attribute.
+- E4.8.2.05 | Mail shirt |  | Shirt of interlinked metal rings worn as body armour; hauberk and haubergeon are named forms; a mail coif goes with head armour.
+- E4.8.2.06 | Cuirass |  | Rigid plate defence of the torso, a breastplate alone or with its backplate, sold apart from a full harness.
+- E4.8.2.07 | Brigandine |  | Torso armour of cloth or leather lined with small riveted steel plates.
+- E4.8.1.03 | Gorget |  | Loose plate or mail armour for the neck and throat; bevor is a named form.
+- E4.10.3.04 | Hilt collar and pommel cap (fuchi-kashira) |  | Loose collar and pommel cap made for a sword hilt, sold as a set; the Japanese pair is the named form.
+- E4.10.3.05 | Scabbard pocket fitting (kozuka, kogai) |  | Loose fitting made to sit in a pocket of a Japanese sword scabbard: a small-knife handle (kozuka) with its blade, or a hair spike (kogai).
+- E4.6.4.07 | Pronged truncheon (sai) |  | Metal truncheon with a central rod and two curved side prongs, used in pairs.
+- E4.6.2.03 | Fighting sickle (kama) |  | Short-hafted sickle blade made as a weapon, often used in pairs; a garden sickle is C2.
+- E4.10.1.02 | Iron sight |  | Fixed or adjustable open or aperture sight fitted to a firearm, sold as front, rear or set.
+- E4.10.1.03 | Barrel |  | Replacement or upgrade barrel made to fit a firearm model or platform.
+- E4.10.1.04 | Trigger |  | Drop-in trigger or trigger group made to fit a firearm model or platform.
+- E4.10.1.05 | Suppressor |  | Device fitted to a firearm muzzle that reduces the report of a shot; legal class in the C17 ledger.
+- E4.10.2.04 | Arrowhead |  | Point fitted to an arrow or bolt shaft; broadhead, field point and bodkin are named forms.
+- E4.9.13 | Cartridge case |  | Empty case, new or once-fired, sold on its own for loading cartridges.
+- E4.9.14 | Shotshell wad |  | Plastic or fibre wad sold on its own for loading shotshells or muzzle-loaders.
+- E4.10.4.06 | Scope mount |  | Rings, bases or one-piece mount that fix a sight to a weapon.
+- E4.10.4.05 | Red-dot sight |  | Non-magnifying reflex or holographic sight that shows an aiming dot, made to mount on a weapon.
+- E4.10.2.03 | Bow riser |  | Centre section of a take-down bow, sold without limbs, that holds grip, sight and rest; ILF is a C13 fitting row.
+- E4.10.4.07 | CO2 capsule |  | Sealed carbon dioxide cartridge (8 g, 12 g, 88 g) that powers CO2 air guns and launchers.
+- E4.6.1.05 | Poleaxe |  | Polearm with an axe or hammer head backed by a spike or fluke and topped by a spike, made for armoured foot combat.

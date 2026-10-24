@@ -1,0 +1,293 @@
+# C8 Building Materials & Hardware: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (supply family and product type)
+- reason: Merchants open on the product type and then on dimensions, grade and material, with brand only as a filter (Tooled-Up fixings, Howarth Timber by strength grade, Tile Outlets by material), while guides add the room and use as the question inside a type (Choice paint, Victorian Plumbing tiles), which is a view, not the way in.
+- ladder: What are you building or fixing with? > Which product type (by what it fastens into, the surface it covers or where it goes)? > Which grade or class fits (strength class, PEI and slip rating, hiding and scrub class), then size and brand as filters
+- level1_groups: Timber, boards and building products (C8.1); Floors, tiles and wall finishes (C8.2); Screws, nails and fixings (C8.3); Door, window and building hardware (C8.4); Plumbing and drainage (C8.5); Electrical supplies (C8.6); Paint and wood finishes (C8.7); Adhesives, sealants and fillers (C8.8); Batteries and chargers (C8.9); Fuels, lubricants and firelighting (C8.10); Packing and moving materials (C8.11)
+- quality_markers: Timber: strength class C16 < C24 (Howarth); treatment untreated < UC2 and higher use classes; kiln dried and regularised; certified sourcing (attribute, not grade); Tiles: material porcelain (dense, moisture-resistant) > ceramic, natural stone apart (Tile Outlets, Victorian Plumbing); water absorption impervious 0.5% or less > vitreous > semi-vitreous > non-vitreous (Tile Outlets); PEI wear rating 0 to 5 for traffic (Tile Outlets); slip resistance R9 < R10 < R11 and up, DCOF 0.42 or higher for wet areas (Victorian Plumbing, Tile Outlets); underfloor-heating compatibility; Paint: hiding power wet and dry (Deckklasse 1 best to 4), scrub resistance (Nassabriebklasse 1 best to 5), ease of application and spatter, low emissions and preservatives, correct declaration (Stiftung Warentest); gloss level flat < matt < satin < gloss, harder and more durable as gloss rises; low or zero VOC; mould resistance; spreading rate 8 to 16 sq m per litre (Choice); Fixings: application-matched design, material and coating zinc < galvanised < A2 < A4 stainless, size and gauge (Tooled-Up); property class 4.6 < 5.8 < 8.8 < 10.9 < 12.9 (memo ISO 898-1); Batteries (memo): chemistry and capacity mAh, maker line ladder; Plumbing, electrical, adhesives, fuels: memo spec attributes only; no HOL evidence
+- quality_signals: Stiftung Warentest wall paint test, grades sehr gut to mangelhaft, weights 40/30/20/10, poor health grade caps the total (test.de) class (ii); Choice lab tests of interior paint (Australia) class (ii); test pages not fetched; EN 13300 hiding, scrub and gloss classes as attributes class (i) (memo; Warentest); Timber strength classes C16 and C24 (EN 338 named from memory, to attest) class (i); PEI 0-5 wear rating (Porcelain Enamel Institute) class (i); DCOF and R ratings for slip (standards ANSI A326.3 and DIN 51130 named from memory, to attest) class (i); Water absorption classes class (i); FSC and PEFC chain-of-custody marks: sourcing attributes, not quality grades; ISO 898-1 property classes (memo) class (i); Maker line ladders for batteries (Duracell, Energizer, Varta; memo) class (iv)
+- maker_role: none, confirmed: brand is a filter only (Tooled-Up brand facet, Howarth none); makers appear through branded products, and a product named by a test (Warentest, Choice) enters as a named form with its tier entry
+- side_view: No maker view; project views (tiling, bathroom, painting a room, decking and fencing, barbecue and fireplace fuel) and the battery-cell finder (which cell a device takes) beside the type tree
+- evidence_rows: Tooled-Up fixings and fasteners (UK); Choice interior paint buying guide (Australia); Stiftung Warentest white wall paint test; Howarth Timber C24 listing (UK); Victorian Plumbing floor tile guide (UK); Tile Outlets learn about tile (US)
+- maker role row: {'code': 'C8', 'scope': '*', 'role': 'none', 'provisional': 'yes', 'reason': 'building materials and hardware are commodities chosen by specification'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-C8-1 | Timber, boards & building products | 1 |  | C8.1.1; C8.1.2; C8.1.3; C8.1.4; C8.1.5; C8.1.6; C8.1.7; C8.1.8
+- G-C8-101 | Timber & boards | 2 | G-C8-1 | C8.1.1.01; C8.1.1.02; C8.1.1.03; C8.1.1.04
+- G-C8-102 | Structural sections | 2 | G-C8-1 | C8.1.2.01; C8.1.2.02
+- G-C8-103 | Masonry & concrete | 2 | G-C8-1 | C8.1.3.01; C8.1.3.02; C8.1.3.03; C8.1.3.04
+- G-C8-104 | Groundworks & landscaping | 2 | G-C8-1 | C8.1.4.01; C8.1.4.02; C8.1.4.03; C8.1.4.04; C8.1.4.05; C8.1.4.06; C8.1.4.07
+- G-C8-105 | Roofing, cladding & insulation | 2 | G-C8-1 | C8.1.5.01; C8.1.5.02; C8.1.5.03; C8.1.5.04; C8.1.5.05; C8.1.5.06
+- G-C8-106 | Chimney & flue | 2 | G-C8-1 | C8.1.6.01; C8.1.6.02; C8.1.6.03
+- G-C8-107 | Doors & windows | 2 | G-C8-1 | C8.1.7.01; C8.1.7.02; C8.1.7.03; C8.1.7.04; C8.1.7.05
+- G-C8-108 | Fencing & gates | 2 | G-C8-1 | C8.1.8.01; C8.1.8.02; C8.1.8.03; C8.1.8.04; C8.1.8.05; C8.1.8.06; C8.1.8.07; C8.1.8.08; C8.1.8.09
+- G-C8-2 | Floors, tiles & wall finishes | 1 |  | C8.2.1; C8.2.2; C8.2.3
+- G-C8-109 | Wallpaper, plaster & wall tiles | 2 | G-C8-2 | C8.2.1.01; C8.2.1.02; C8.2.1.03
+- G-C8-110 | Floor tiles & flooring | 2 | G-C8-2 | C8.2.2.01; C8.2.2.02; C8.2.2.03; C8.2.2.04; C8.2.2.05
+- G-C8-111 | Skirting & architrave | 2 | G-C8-2 | C8.2.3.01; C8.2.3.02
+- G-C8-3 | Screws, nails & fixings | 1 |  | C8.3.1; C8.3.2; C8.3.3; C8.3.4; C8.3.5; C8.3.6
+- G-C8-112 | Screws | 2 | G-C8-3 | C8.3.1.01; C8.3.1.02; C8.3.1.03; C8.3.1.04; C8.3.1.05; C8.3.1.06; C8.3.1.07; C8.3.1.08
+- G-C8-113 | Nails & staples | 2 | G-C8-3 | C8.3.2.01; C8.3.2.02; C8.3.2.03
+- G-C8-114 | Bolts, nuts & washers | 2 | G-C8-3 | C8.3.3.01; C8.3.3.02; C8.3.3.03
+- G-C8-115 | Rivets | 2 | G-C8-3 | C8.3.4.01
+- G-C8-116 | Anchors & wall plugs | 2 | G-C8-3 | C8.3.5.01; C8.3.5.02; C8.3.5.03; C8.3.5.04; C8.3.5.05
+- G-C8-117 | Connectors & supports | 2 | G-C8-3 | C8.3.6.01; C8.3.6.02; C8.3.6.03; C8.3.6.04; C8.3.6.05
+- G-C8-4 | Door, window & building hardware | 1 |  | C8.4.1; C8.4.2; C8.4.3; C8.4.4; C8.4.5
+- G-C8-118 | Hinges | 2 | G-C8-4 | C8.4.1.01
+- G-C8-119 | Handles, knobs & pulls | 2 | G-C8-4 | C8.4.2.01; C8.4.2.02
+- G-C8-120 | Latches, bolts & hasps | 2 | G-C8-4 | C8.4.3.01; C8.4.3.02; C8.4.3.03
+- G-C8-121 | Brackets | 2 | G-C8-4 | C8.4.4.01
+- G-C8-122 | Plates, knockers & signs | 2 | G-C8-4 | C8.4.5.01; C8.4.5.02; C8.4.5.03
+- G-C8-5 | Plumbing & drainage | 1 |  | C8.5.1; C8.5.2; C8.5.3; C8.5.4; C8.5.5
+- G-C8-123 | Pipe fittings | 2 | G-C8-5 | C8.5.1.01; C8.5.1.02; C8.5.1.03; C8.5.1.04; C8.5.1.05
+- G-C8-124 | Pipe, clips & hoses | 2 | G-C8-5 | C8.5.2.01; C8.5.2.02; C8.5.2.03
+- G-C8-125 | Taps & valves | 2 | G-C8-5 | C8.5.3.01; C8.5.3.02; C8.5.3.03
+- G-C8-126 | Waste, drainage & guttering | 2 | G-C8-5 | C8.5.4.01; C8.5.4.02; C8.5.4.03; C8.5.4.04; C8.5.4.05
+- G-C8-127 | Shower & bath surrounds | 2 | G-C8-5 | C8.5.5.01; C8.5.5.02; C8.5.5.03; C8.5.5.04; C8.5.5.05
+- G-C8-6 | Electrical supplies | 1 |  | C8.6.1; C8.6.2; C8.6.3
+- G-C8-128 | Cable, flex & cable management | 2 | G-C8-6 | C8.6.1.01; C8.6.1.02; C8.6.1.03; C8.6.1.04; C8.6.1.05; C8.6.1.06; C8.6.1.07
+- G-C8-129 | Switches, sockets & wiring accessories | 2 | G-C8-6 | C8.6.2.01; C8.6.2.02; C8.6.2.03; C8.6.2.04; C8.6.2.05; C8.6.2.06
+- G-C8-130 | Consumer units, breakers & leads | 2 | G-C8-6 | C8.6.3.01; C8.6.3.02; C8.6.3.03; C8.6.3.04
+- G-C8-7 | Paint & wood finishes | 1 |  | C8.7.1; C8.7.2; C8.7.3
+- G-C8-131 | Paints | 2 | G-C8-7 | C8.7.1.01; C8.7.1.02; C8.7.1.03; C8.7.1.04; C8.7.1.05; C8.7.1.06; C8.7.1.07; C8.7.1.08; C8.7.1.09; C8.7.1.10
+- G-C8-132 | Wood finishes | 2 | G-C8-7 | C8.7.2.01; C8.7.2.02; C8.7.2.03; C8.7.2.04; C8.7.2.05
+- G-C8-133 | Surface preparation | 2 | G-C8-7 | C8.7.3.01
+- G-C8-8 | Adhesives, sealants & fillers | 1 |  | C8.8.1; C8.8.2
+- G-C8-134 | Adhesives & tapes | 2 | G-C8-8 | C8.8.1.01; C8.8.1.02; C8.8.1.03; C8.8.1.04; C8.8.1.05; C8.8.1.06; C8.8.1.07; C8.8.1.08; C8.8.1.09
+- G-C8-135 | Sealants, grout & fillers | 2 | G-C8-8 | C8.8.2.01; C8.8.2.02; C8.8.2.03
+- G-C8-9 | Batteries & chargers | 1 |  | C8.9.1; C8.9.2; C8.9.3; C8.9.4
+- G-C8-136 | Cylindrical cells | 2 | G-C8-9 | C8.9.1.01; C8.9.1.02; C8.9.1.03; C8.9.1.04; C8.9.1.05; C8.9.1.06; C8.9.1.07; C8.9.1.08
+- G-C8-137 | Button & coin cells | 2 | G-C8-9 | C8.9.2.01
+- G-C8-138 | Rectangular & block batteries | 2 | G-C8-9 | C8.9.3.01; C8.9.3.03; C8.9.3.02
+- G-C8-139 | Chargers | 2 | G-C8-9 | C8.9.4.01
+- G-C8-10 | Fuels, lubricants & firelighting | 1 |  | C8.10.1; C8.10.2; C8.10.3; C8.10.4
+- G-C8-140 | Bottled gas | 2 | G-C8-10 | C8.10.1.01; C8.10.1.02; C8.10.1.03
+- G-C8-141 | Firewood, coal & charcoal | 2 | G-C8-10 | C8.10.2.01; C8.10.2.02; C8.10.2.03; C8.10.2.04; C8.10.2.05; C8.10.2.06; C8.10.2.07
+- G-C8-142 | Liquid fuels & lubricants | 2 | G-C8-10 | C8.10.3.01; C8.10.3.02; C8.10.3.03
+- G-C8-143 | Firelighting | 2 | G-C8-10 | C8.10.4.01; C8.10.4.02; C8.10.4.03; C8.10.4.04; C8.10.4.05
+- G-C8-11 | Packing & moving materials | 1 |  | C8.11
+- G-C8-144 | Boxes & protective wrap | 2 | G-C8-11 | C8.11.02; C8.11.03; C8.11.04; C8.11.05; C8.11.06
+- G-C8-145 | Tapes & strapping | 2 | G-C8-11 | C8.11.01; C8.11.07; C8.11.08
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-C8-101 | strength class | C24 > C16 | Structural timber is sold by class. | proposals.tsv C8 row (quality_markers); Howarth Timber C24 listing (UK)
+- G-C8-101 | treatment | higher use classes > UC2 > untreated | Treatment for exposure. | proposals.tsv C8 row (quality_markers); Howarth Timber C24 listing (UK)
+- G-C8-101 | kiln dried and regularised | kiln dried and regularised > not | Stable, even sizes. | proposals.tsv C8 row (quality_markers); Howarth Timber C24 listing (UK)
+- G-C8-101 | certified sourcing |  | An attribute, not a grade. | proposals.tsv C8 row (quality_markers); Howarth Timber C24 listing (UK)
+- G-C8-110 | tile material | porcelain > ceramic (natural stone apart) | Porcelain is dense and moisture-resistant. | proposals.tsv C8 row (quality_markers); Victorian Plumbing floor tile guide (UK); Tile Outlets learn about tile (US)
+- G-C8-110 | water absorption | impervious (0.5% or less) > vitreous > semi-vitreous > non-vitreous | Ladder as in the proposals row. | proposals.tsv C8 row (quality_markers); Tile Outlets learn about tile (US)
+- G-C8-110 | PEI wear rating | 5 > 4 > 3 > 2 > 1 > 0 | Matched to foot traffic. | proposals.tsv C8 row (quality_markers); Tile Outlets learn about tile (US)
+- G-C8-110 | slip resistance | R11 and up > R10 > R9; DCOF 0.42 or higher for wet areas | Wet areas need the higher ratings. | proposals.tsv C8 row (quality_markers); Victorian Plumbing floor tile guide (UK); Tile Outlets learn about tile (US)
+- G-C8-110 | underfloor-heating compatibility |  | A yes or no fit. | proposals.tsv C8 row (quality_markers); Victorian Plumbing floor tile guide (UK)
+- G-C8-131 | hiding power, wet and dry | Deckklasse 1 > 2 > 3 > 4 | The first test result. | proposals.tsv C8 row (quality_markers); Stiftung Warentest white wall paint test
+- G-C8-131 | scrub resistance | Nassabriebklasse 1 > 2 > 3 > 4 > 5 | EN 13300 class. | proposals.tsv C8 row (quality_markers); Stiftung Warentest white wall paint test
+- G-C8-131 | ease of application and spatter |  | Tested by Warentest. | proposals.tsv C8 row (quality_markers); Stiftung Warentest white wall paint test
+- G-C8-131 | low emissions and preservatives, correct declaration |  | Health and labelling. | proposals.tsv C8 row (quality_markers); Stiftung Warentest white wall paint test
+- G-C8-131 | gloss level | gloss > satin > matt > flat (harder and more durable as gloss rises) | A choice by room; durability rises with gloss. | proposals.tsv C8 row (quality_markers); Choice interior paint buying guide (Australia)
+- G-C8-131 | low or zero VOC | zero > low | Choice lists it. | proposals.tsv C8 row (quality_markers); Choice interior paint buying guide (Australia)
+- G-C8-131 | mould resistance |  | For wet rooms. | proposals.tsv C8 row (quality_markers); Choice interior paint buying guide (Australia)
+- G-C8-131 | spreading rate | 8 to 16 sq m per litre | Coverage per litre. | proposals.tsv C8 row (quality_markers); Choice interior paint buying guide (Australia)
+- G-C8-112 | application-matched design |  | Screws are chosen by what they fasten into. | proposals.tsv C8 row (quality_markers); Tooled-Up fixings and fasteners (UK)
+- G-C8-112 | material and coating | A4 stainless > A2 stainless > galvanised > zinc | Ladder as in the proposals row. | proposals.tsv C8 row (quality_markers); Tooled-Up fixings and fasteners (UK)
+- G-C8-112 | size and gauge |  | A fit, not a ladder. | proposals.tsv C8 row (quality_markers); Tooled-Up fixings and fasteners (UK)
+- G-C8-114 | property class (ISO 898-1) | 12.9 > 10.9 > 8.8 > 5.8 > 4.6 | Bolt strength class (memo). | proposals.tsv C8 row (quality_markers); C8 memo
+- G-C8-114 | material and coating | A4 stainless > A2 stainless > galvanised > zinc | As for screws. | proposals.tsv C8 row (quality_markers); Tooled-Up fixings and fasteners (UK)
+- G-C8-136 | chemistry and capacity (mAh) |  | Batteries by chemistry, then capacity (memo). | proposals.tsv C8 row (quality_markers); C8 memo
+- G-C8-136 | maker line ladder |  | Each maker's lines rank within the maker (memo). | proposals.tsv C8 row (quality_markers); C8 memo
+- G-C8-5 | spec match (memo attributes) |  | No quality evidence in HOL; spec attributes only. | proposals.tsv C8 row (quality_markers)
+- G-C8-6 | spec match (memo attributes) |  | No quality evidence in HOL; spec attributes only. | proposals.tsv C8 row (quality_markers)
+- G-C8-8 | spec match (memo attributes) |  | No quality evidence in HOL; spec attributes only. | proposals.tsv C8 row (quality_markers)
+- G-C8-10 | spec match (memo attributes) |  | No quality evidence in HOL; spec attributes only. | proposals.tsv C8 row (quality_markers)
+
+## Kinds (kind_id | stored name | native name | definition)
+- C8.1.1.01 | sawn timber |  | timber sawn to section for building and joinery, sold by length (species, `strength_class`, `treatment_class`, kiln-dried and regularised are attributes).
+- C8.1.1.02 | plywood |  | board of thin wood veneers glued in cross-grained layers.
+- C8.1.1.03 | building board |  | manufactured sheet for building (chipboard, MDF, OSB, plasterboard, cement board), sold loose.
+- C8.1.1.04 | decking board |  | profiled timber or composite board sold loose for building a deck (K-66).
+- C8.1.2.01 | steel section |  | steel bar, angle, channel, box or tube section sold by length for building and fabrication.
+- C8.1.2.02 | aluminium section |  | aluminium bar, angle, channel or tube section sold by length.
+- C8.1.3.01 | cement |  | powdered binder mixed with water and aggregate to make concrete or mortar (ready-mix bags included).
+- C8.1.3.02 | concrete block |  | moulded block of concrete for building walls.
+- C8.1.3.03 | brick |  | fired clay or concrete unit laid in mortar to build walls.
+- C8.1.4.01 | aggregate |  | sand, gravel or ballast sold for concrete, mortar or sub-base (K-174).
+- C8.1.4.02 | paving slab |  | flat slab of concrete or stone laid as a path, patio or drive surface.
+- C8.1.4.03 | sett |  | small dressed block of stone or concrete laid as paving.
+- C8.1.4.04 | lawn edging |  | strip or border of metal, plastic, timber or stone set along a lawn or bed edge.
+- C8.1.4.05 | weed membrane |  | permeable sheet laid under paving, gravel or mulch to suppress weeds.
+- C8.1.5.01 | roofing sheet |  | corrugated or profiled sheet of metal, bitumen, fibre cement or plastic laid as a roof or cladding.
+- C8.1.5.02 | insulation |  | roll, slab or board of thermal or acoustic insulating material for a building (acoustic panels included).
+- C8.1.6.01 | flue pipe |  | pipe that carries smoke and gases from a stove, boiler or fire to the outside.
+- C8.1.6.02 | chimney liner |  | flexible or rigid liner fitted inside a chimney.
+- C8.1.6.03 | chimney pot |  | pot or terminal set on top of a chimney stack.
+- C8.1.7.01 | door |  | door leaf or door set for a building opening, installed or not.
+- C8.1.7.02 | window |  | window frame and glazing unit for a building opening, installed or not.
+- C8.1.8.01 | fence panel |  | prefabricated panel of timber, metal or composite fixed between posts.
+- C8.1.8.02 | gate |  | hinged or sliding barrier for an opening in a fence or wall.
+- C8.1.8.03 | fence post |  | post set in the ground to carry fence panels, rails or wire.
+- C8.1.8.04 | fence wire |  | plain, barbed or high-tensile wire sold for fencing.
+- C8.1.8.05 | stock netting |  | woven or welded wire mesh sold for fencing animals in or out.
+- C8.1.8.06 | electric-fence energiser |  | unit that sends pulses of current along an electric fence (follows the fence under S3).
+- C8.1.8.07 | electric-fence tape |  | conductive tape, rope or polywire strung as an electric fence.
+- C8.1.8.08 | electric-fence insulator |  | insulator that holds an electric-fence wire or tape on a post.
+- C8.2.1.01 | wallpaper |  | paper, vinyl or textile wall covering sold in rolls for hanging.
+- C8.2.1.02 | plaster |  | powdered plaster or skim coat mixed with water to finish walls and ceilings.
+- C8.2.1.03 | wall tile |  | tile made and rated for walls.
+- C8.2.2.01 | floor tile |  | tile made and rated for floors (wear and slip rating on the object).
+- C8.2.2.02 | laminate flooring |  | click-together boards with a printed decorative layer on a fibreboard core.
+- C8.2.3.01 | skirting and architrave |  | moulded board that trims the base of a wall or the frame of a door or window.
+- C8.3.1.01 | wood screw |  | tapered, coarse-threaded screw for fixing into timber and boards.
+- C8.3.1.02 | decking screw |  | corrosion-resistant screw made to fix decking boards to joists.
+- C8.3.1.03 | drywall screw |  | fine- or coarse-threaded bugle-head screw for fixing plasterboard to studs.
+- C8.3.1.04 | masonry/concrete screw |  | hardened screw that cuts its own thread into a drilled hole in masonry or concrete.
+- C8.3.1.05 | self-drilling screw |  | screw with a drill point that drills and taps sheet metal in one pass.
+- C8.3.1.06 | machine screw |  | parallel-threaded screw for a tapped hole or a nut.
+- C8.3.2.01 | nail |  | plain steel pin with a head, driven by hammer or nail gun (loose or collated).
+- C8.3.2.02 | concrete nail |  | hardened nail made to be driven into concrete or masonry.
+- C8.3.2.03 | staple |  | U-shaped wire fastener driven by a stapler or tacker.
+- C8.3.3.01 | bolt |  | externally threaded fastener with a head, used with a nut (`property_class` an attribute).
+- C8.3.3.02 | nut |  | internally threaded fastener that mates with a bolt or stud.
+- C8.3.3.03 | washer |  | flat or spring ring set under a nut or head to spread load or lock it.
+- C8.3.4.01 | rivet |  | fastener set by deforming its tail, including blind (pop) rivets.
+- C8.3.5.01 | wall plug |  | plastic or fibre sleeve that expands in a drilled hole to hold a screw.
+- C8.3.5.02 | cavity fixing |  | fixing that opens or grips behind a hollow wall or board.
+- C8.3.5.03 | chemical anchor |  | resin cartridge or capsule that bonds a stud or bar into a drilled hole (resin sold alone is this kind).
+- C8.3.5.04 | frame fixing |  | long plug and screw that fix a frame through to masonry in one pass.
+- C8.3.5.05 | steel anchor |  | metal expansion anchor or anchor bolt for heavy fixings in concrete or masonry.
+- C8.3.6.01 | timber connector |  | pressed-steel plate, hanger or bracket that joins timber members.
+- C8.3.6.02 | post support |  | metal shoe, spike or base that holds a post in the ground or on a surface.
+- C8.3.6.03 | dowel (dowel pin) |  | wooden, plastic or metal pin set into holes to join or align two parts.
+- C8.3.6.04 | packer (shim) |  | thin plate or wedge set under or behind a frame or fixing to level or space it.
+- C8.4.1.01 | door hinge |  | hinge on which a door, gate or window leaf swings (butt and other patterns are named forms).
+- C8.4.2.01 | cabinet knob or pull |  | knob or pull handle fitted to a cabinet door or drawer (K-196).
+- C8.4.2.02 | door handle |  | lever, knob or pull handle set for a door, without a lock (a lockset with a lock is B8).
+- C8.4.3.01 | latch |  | catch that holds a door or gate shut without a key.
+- C8.4.3.02 | door bolt |  | sliding bolt that secures a door or gate from one side.
+- C8.4.3.03 | hasp |  | hinged slotted plate and staple that take a padlock.
+- C8.4.4.01 | bracket |  | general bracket or shelf support fixed to a wall or structure (not one made for one screen or speaker).
+- C8.4.5.01 | letter plate |  | letter flap and plate fitted in a door (K-188).
+- C8.4.5.02 | regulatory and safety sign |  | sign that gives a safety, fire, hazard or legal instruction (K-192).
+- C8.5.1.01 | compression fitting |  | fitting that seals on a pipe by a nut squeezing an olive.
+- C8.5.1.02 | push-fit fitting |  | fitting that grips and seals a pipe pushed into it, with no tools or heat.
+- C8.5.1.03 | solder-ring fitting |  | copper fitting with an integral ring of solder, sealed by heating.
+- C8.5.1.04 | end-feed fitting |  | copper fitting sealed by solder fed into the joint while heated.
+- C8.5.1.05 | press-fit fitting |  | fitting sealed by crimping onto the pipe with a press tool.
+- C8.5.2.01 | pipe |  | plumbing, heating, gas or water supply pipe of copper, plastic or steel, sold by length or coil.
+- C8.5.2.02 | pipe clip |  | clip or bracket that holds a pipe to a wall or joist.
+- C8.5.3.01 | tap |  | hand-operated valve that delivers water at a basin, sink, bath or outside (mixer taps included; K-186).
+- C8.5.3.02 | valve |  | valve that shuts off or controls flow in a pipe (stop cock, isolating and radiator valves).
+- C8.5.4.01 | waste fitting |  | pipe and fitting for the waste outlet of a basin, sink or bath.
+- C8.5.4.02 | trap |  | water-sealed bend under an outlet that blocks drain gases.
+- C8.5.4.03 | guttering |  | gutter and downpipe sections and fittings that carry rainwater from a roof.
+- C8.5.5.01 | shower tray |  | base set under a shower that collects water to its waste (K-186).
+- C8.5.5.02 | shower enclosure |  | glass or panel walls and door around a shower.
+- C8.5.5.03 | bath panel |  | panel that covers the side or end of a bath.
+- C8.6.1.01 | cable |  | fixed-wiring mains cable (twin and earth and the like).
+- C8.6.1.02 | flex |  | flexible mains cord for connecting appliances and fittings.
+- C8.6.1.03 | armoured cable |  | mains cable with a steel-wire armour layer for burial or exposed runs.
+- C8.6.1.04 | cable clip |  | clip that fixes a cable to a wall or surface.
+- C8.6.2.01 | switch |  | wall switch for a mains circuit or light.
+- C8.6.2.02 | socket-outlet |  | wall socket that takes mains plugs (types A to O are named forms).
+- C8.6.2.03 | mains plug |  | rewireable or moulded plug for a mains flex (types A to O are named forms).
+- C8.6.2.04 | fuse |  | cartridge or rewireable fuse that breaks a circuit on overload.
+- C8.6.2.05 | ceiling rose |  | ceiling fitting where a pendant flex joins the fixed wiring (B-18).
+- C8.6.3.01 | extension lead |  | flex with a mains plug and one or more sockets, on a reel or not.
+- C8.6.3.02 | consumer unit |  | fuse box or board that holds a building's breakers or fuses.
+- C8.7.1.01 | wall and ceiling paint |  | interior paint for walls and ceilings (emulsion is a binder, not a kind).
+- C8.7.1.02 | masonry paint |  | exterior paint for brick, render and masonry.
+- C8.7.1.03 | fence paint |  | paint or treatment for timber fences and sheds.
+- C8.7.1.04 | floor paint |  | hard-wearing paint for concrete, wood or garage floors.
+- C8.7.1.05 | radiator paint |  | heat-resistant paint for radiators and pipes.
+- C8.7.1.06 | tile paint |  | paint made to adhere to glazed tiles.
+- C8.7.1.07 | furniture paint |  | paint made for furniture and cabinets.
+- C8.7.1.08 | woodwork and metal paint (trim paint) |  | gloss, satin or eggshell paint for doors, trim and metalwork (gloss and satinwood are `gloss_level` values).
+- C8.7.1.09 | spray paint |  | paint in an aerosol can.
+- C8.7.1.10 | primer |  | primer or undercoat, the preparatory coat under a top coat (`coat_role` primer, undercoat, primer-undercoat, sealer).
+- C8.7.2.01 | stain |  | coloured finish that soaks into wood and shows its grain.
+- C8.7.2.02 | varnish |  | clear or tinted film-forming finish for wood.
+- C8.7.2.03 | wood oil |  | penetrating oil finish for wood (decking and furniture oils).
+- C8.7.2.04 | wax |  | wax finish rubbed into wood.
+- C8.7.3.01 | sandpaper |  | abrasive sheet or roll for hand or general use, not cut for one sander (K-12).
+- C8.8.1.01 | grab adhesive |  | high-tack construction adhesive from a cartridge that holds on contact.
+- C8.8.1.02 | general adhesive or glue |  | general-purpose glue for household and building repairs.
+- C8.8.1.03 | wood glue |  | adhesive made to bond wood (PVA and others).
+- C8.8.1.04 | wallpaper adhesive |  | paste for hanging wallpaper.
+- C8.8.1.05 | tile adhesive |  | adhesive for fixing wall and floor tiles (C-12).
+- C8.8.2.01 | sealant (caulk) |  | flexible compound that seals joints and gaps against water and air.
+- C8.8.2.02 | tile grout |  | compound that fills the joints between tiles (C-12).
+- C8.9.1.01 | AA cell |  | cylindrical cell of IEC size R6 (aliases LR6, UM-3, Mignon, penlight).
+- C8.9.1.02 | AAA cell |  | cylindrical cell of IEC size R03.
+- C8.9.1.03 | C cell |  | cylindrical cell of IEC size R14.
+- C8.9.1.04 | D cell |  | cylindrical cell of IEC size R20.
+- C8.9.1.05 | CR123A cell |  | 3 V primary lithium cylindrical cell used in lights and cameras.
+- C8.9.1.06 | 18650 cell |  | lithium-ion cylindrical cell 18 mm by 65 mm, sold loose.
+- C8.9.1.07 | 21700 cell |  | lithium-ion cylindrical cell 21 mm by 70 mm, sold loose.
+- C8.9.2.01 | coin cell |  | flat button or coin cell (designations such as CR2032 are named forms).
+- C8.9.3.01 | 9 V battery |  | rectangular 9 V battery with snap terminals (IEC 6F22 and kin).
+- C8.9.4.01 | battery charger for standard-size cells |  | charger for loose standard cells such as AA, AAA and 18650 (K-3).
+- C8.10.1.01 | LPG cylinder |  | refillable propane or butane bottle, owned or leased (`gas` and `valve` attributes; K-30).
+- C8.10.1.02 | gas canister |  | small disposable gas canister for stoves, torches and lighters (K-30, K-166).
+- C8.10.2.01 | firewood logs |  | split logs sold for burning (kiln-dried an attribute).
+- C8.10.2.02 | kindling |  | small dry sticks for starting a fire.
+- C8.10.2.03 | coal |  | coal or manufactured smokeless fuel sold in bags.
+- C8.10.2.04 | charcoal briquettes |  | moulded briquettes of compressed charcoal for barbecues.
+- C8.10.2.05 | lump charcoal |  | natural lumpwood charcoal (binchotan included).
+- C8.10.2.06 | wood pellets |  | compressed wood pellets for pellet grills, stoves and boilers.
+- C8.10.2.07 | smoking chips and chunks |  | wood chips or chunks for smoking food, by wood species.
+- C8.10.3.01 | lubricant |  | general oil, grease or penetrating lubricant sold in a can or tube.
+- C8.10.3.02 | lighter fluid |  | liquid fuel for refilling lighters or lighting barbecues.
+- C8.10.3.03 | fuel can |  | container made to carry and store fuel.
+- C8.10.4.01 | firelighter |  | block, cube or bag of fuel made to start a fire.
+- C8.10.4.02 | match |  | safety or strike-anywhere match.
+- C8.10.4.03 | long utility lighter |  | long-nozzle lighter for barbecues, stoves and fires (pocket lighters are B9).
+- C8.10.4.04 | candle lighter |  | long lighter made to light candles.
+- C8.10.4.05 | lighter flint |  | replacement flint for a lighter (K-166).
+- C8.11.01 | parcel tape |  | wide adhesive tape for sealing parcels and boxes.
+- C8.11.02 | bubble wrap |  | plastic sheet of air bubbles for cushioning goods.
+- C8.11.03 | stretch film |  | clinging plastic film wound round goods or pallets.
+- C8.11.04 | void fill |  | loose fill, paper or air pillows packed round goods in a box.
+- C8.11.05 | packing box |  | cardboard box sold flat for packing or moving (boxes made for storing things are B1).
+- C8.1.3.04 | Lintel |  | beam of steel, concrete or timber set over a door or window opening to carry the wall above.
+- C8.1.5.03 | Roof tile |  | clay, concrete or slate unit laid in overlapping courses as a roof covering (slates included).
+- C8.1.5.04 | Roof shingle |  | strip of bitumen felt or wood laid in overlapping courses as a roof covering (shed and garden-building roofs).
+- C8.1.5.05 | Roofing felt or membrane |  | roll of bitumen felt or synthetic membrane laid as a roof covering or underlay.
+- C8.1.5.06 | Draught excluder (draught-proofing strip) |  | foam, rubber or brush strip or seal fitted round a door or window to stop draughts.
+- C8.1.4.06 | Garden sleeper |  | heavy timber or composite beam sold loose for edging, steps and landscaping.
+- C8.1.8.09 | Gravel board |  | concrete or timber board fixed at the foot of a fence panel to keep it off the ground.
+- C8.1.7.03 | Garage door |  | up-and-over, roller, sectional or side-hinged door made for a garage opening.
+- C8.1.7.04 | Door frame (door lining) |  | frame or lining set sold to hang a door in an opening.
+- C8.1.7.05 | Roof window |  | window made to be fitted in the slope or flat of a roof (flat-roof windows included).
+- C8.3.1.07 | Coach screw |  | heavy hexagon-head wood screw driven with a spanner for structural timber fixings.
+- C8.3.1.08 | Self-tapping screw |  | screw that forms its own thread in a pre-drilled hole in sheet metal or plastic (no drill point).
+- C8.3.6.05 | Jointing biscuit |  | compressed wooden wafer glued into matching slots to join two boards.
+- C8.4.5.03 | Door knocker |  | hinged knocker and plate fixed to an outside door.
+- C8.6.1.05 | Conduit |  | rigid or flexible tube through which mains cables are run.
+- C8.6.1.06 | Trunking |  | surface channel with a clip-on lid that carries and hides cables.
+- C8.6.2.06 | Junction box |  | enclosure in which mains cables are joined.
+- C8.6.1.07 | Cable tie |  | plastic or metal strap with a ratchet that bundles or fixes cables.
+- C8.6.3.03 | Circuit breaker |  | automatic switch for a consumer unit that breaks a circuit on overload or earth leakage (MCB, RCD, RCBO).
+- C8.6.3.04 | Plug adaptor |  | plug-in unit that gives one socket-outlet two or more outlets or a different socket type.
+- C8.5.2.03 | Flexible hose (tap connector) |  | braided flexible hose with fittings that connects a tap, cistern or appliance to the supply pipe.
+- C8.5.3.03 | Water hammer arrester |  | device fitted in a supply pipe that absorbs pressure shocks (water hammer).
+- C8.5.4.04 | Soil and drain pipe |  | large-bore pipe and fittings that carry waste from toilets and drains to the sewer, above or below ground.
+- C8.5.4.05 | Drainage channel |  | surface channel with a grating that collects water from a drive, patio or floor.
+- C8.5.5.04 | Bath or shower screen |  | fixed or hinged glass panel fitted to a bath edge or as a walk-in screen, without a full enclosure.
+- C8.5.5.05 | Shower wall panel |  | waterproof panel that lines a shower or bath wall in place of tiles.
+- C8.7.2.05 | Wood preservative |  | clear or tinted treatment that protects wood against rot, insects and weather.
+- C8.8.1.06 | Spray adhesive |  | adhesive in an aerosol can sprayed onto sheets, fabrics or insulation.
+- C8.8.1.07 | Flooring adhesive |  | adhesive for laying vinyl, wood or other floor coverings.
+- C8.8.1.08 | Contact (impact) adhesive |  | adhesive spread on both surfaces that bond on contact once touch-dry.
+- C8.8.2.03 | Expanding foam |  | polyurethane foam from a can or gun that expands to fill and seal gaps.
+- C8.8.1.09 | Duct tape (cloth tape) |  | strong cloth-backed adhesive tape for repairs and sealing.
+- C8.11.08 | Packing tape dispenser (tape gun) |  | hand dispenser with a cutting edge that lays parcel tape on boxes.
+- C8.11.06 | Foam packing |  | foam sheet, roll, corner or insert that cushions goods in transit.
+- C8.11.07 | Strapping |  | plastic or steel band tensioned round boxes or pallets.
+- C8.9.3.03 | 6 V lantern battery |  | rectangular 6 V battery with spring or screw terminals (IEC 4R25 and kin).
+- C8.9.1.08 | A23 cell (12 V) |  | small 12 V cylindrical alkaline cell (A23, MN21, 23A) used in remotes and key fobs.
+- C8.10.1.03 | LPG regulator |  | valve fitted to a gas cylinder that lowers its pressure for an appliance, sold with or without hose.
+- C8.1.4.07 | Macadam (bagged asphalt) |  | bitumen-bound aggregate sold in bags to lay or repair paths and drives.
+- C8.2.3.02 | Coving (cornice) |  | moulding fixed where wall meets ceiling to finish the joint.
+- C8.2.2.03 | Wood flooring |  | solid or engineered wood boards laid as a floor (solid or engineered an attribute).
+- C8.2.2.04 | Vinyl flooring |  | vinyl planks, tiles or sheet laid as a floor (LVT, click or glue-down; sheet vinyl included).
+- C8.2.2.05 | Flooring underlay |  | foam, fibre or cork layer laid under laminate, wood or vinyl flooring.
+- C8.9.3.02 | sealed lead-acid block |  | general sealed lead-acid battery block sold loose (6 V, 12 V).

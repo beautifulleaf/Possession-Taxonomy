@@ -1,0 +1,233 @@
+# J4 Fruit & Vegetables: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object: fruit, vegetables, salad and herbs, mushrooms; then crop family
+- reason: Instacart opens with fresh fruit and fresh vegetables and treats brand and organic as filters; species then cultivar decide quality (Orange Pippin, UNECE classes).
+- ladder: What are you buying? > Which family? > Which produce? > What makes the best (variety, ripeness and season, freshness, class)? > Who vouches? > The named best (protected names, cultivars)
+- level1_groups: G-J4-1 Fruit; G-J4-2 Vegetables; G-J4-3 Salad & herbs; G-J4-4 Mushrooms & sea vegetables; G-J4-5 Mixed boxes & packs
+- quality_markers: variety (cultivar); ripeness and season; freshness and condition; marketing class; growing method; heirloom status; heat (chillies); size class
+- quality_signals: UNECE and EU classes Extra, I, II; USDA AMS grades; CFIA grades; Japanese prefectural grades; PDO, PGI and national GIs (EU, China, Korea, Japan); organic certification (PLU prefix 9); RHS AGM (Royal Horticultural Society); club-cultivar programmes (owners); Label Rouge (memo)
+- maker_role: none; club-cultivar owners only through their cultivars
+- side_view: in season view; by variety lists per kind (taste, use, keeping filters)
+- evidence_rows: Instacart Fresh Produce (US); UNECE fruit and vegetables standards via FAO (intl); Whats Cooking America vegetable buying guide (US); Mental Floss how to choose 13 fruits and vegetables (US); Riverford Organic (UK); Seed Savers Exchange via Wikipedia (US); Orange Pippin variety database (UK)
+- maker role row: {'code': 'J4', 'scope': '*', 'role': 'none', 'provisional': 'no', 'reason': 'grocery rule; variety and protected origin replace the grower; club-cultivar owners through their cultivars (R-109)'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-J4-1 | Fruit | 1 |  | 
+- G-J4-2 | Vegetables | 1 |  | 
+- G-J4-3 | Salad & herbs | 1 |  | 
+- G-J4-4 | Mushrooms & sea vegetables | 1 |  | 
+- G-J4-5 | Mixed boxes & packs | 1 |  | J4.0.01; J4.1.0.01; J4.2.0.01
+- G-J4-6 | Apples & pears | 2 | G-J4-1 | J4.1.1.01; J4.1.1.02; J4.1.1.03; J4.1.1.05; J4.1.1.04; J4.1.1.06
+- G-J4-7 | Stone fruit & cherries | 2 | G-J4-1 | J4.1.2.01; J4.1.2.02; J4.1.2.03; J4.1.2.04; J4.1.2.05; J4.1.2.06
+- G-J4-8 | Citrus | 2 | G-J4-1 | J4.1.3.01; J4.1.3.02; J4.1.3.03; J4.1.3.04; J4.1.3.05; J4.1.3.06; J4.1.3.07; J4.1.3.08; J4.1.3.09; J4.1.3.10; J4.1.3.11; J4.1.3.12; J4.1.3.13
+- G-J4-9 | Berries | 2 | G-J4-1 | J4.1.4.01; J4.1.4.02; J4.1.4.03; J4.1.4.04; J4.1.4.05; J4.1.4.06; J4.1.4.07; J4.1.4.08; J4.1.4.09; J4.1.4.10; J4.1.4.11
+- G-J4-10 | Grapes & kiwi | 2 | G-J4-1 | J4.1.5.01; J4.1.5.02
+- G-J4-11 | Melons | 2 | G-J4-1 | J4.1.6.01; J4.1.6.02
+- G-J4-12 | Tropical & exotic fruit | 2 | G-J4-1 | J4.1.7.01; J4.1.7.02; J4.1.7.04; J4.1.7.03; J4.1.7.05; J4.1.7.06; J4.1.7.07; J4.1.7.08; J4.1.7.09; J4.1.7.12; J4.1.7.13; J4.1.7.14; J4.1.7.15; J4.1.7.16; J4.1.7.17; J4.1.7.18; J4.1.7.19; J4.1.7.20; J4.1.7.21; J4.1.7.10; J4.1.7.11
+- G-J4-13 | Other fruit (figs, dates, persimmons, pomegranates) | 2 | G-J4-1 | J4.1.8.01; J4.1.8.02; J4.1.8.03; J4.1.8.04; J4.1.8.05; J4.1.8.06; J4.1.8.07
+- G-J4-14 | Leafy greens (cooking greens) | 2 | G-J4-2 | J4.2.1.02; J4.2.1.03; J4.2.1.09; J4.2.1.10
+- G-J4-15 | Cabbage family | 2 | G-J4-2 | J4.2.2.01; J4.2.2.02; J4.2.2.03; J4.2.2.04; J4.2.2.05; J4.2.2.06; J4.2.2.07; J4.2.2.09; J4.2.2.08
+- G-J4-16 | Potatoes & roots | 2 | G-J4-2 | J4.2.3.01; J4.2.3.02; J4.2.3.03; J4.2.3.04; J4.2.3.05; J4.2.3.06; J4.2.3.07; J4.2.3.08; J4.2.3.09; J4.2.3.10; J4.2.3.11; J4.2.3.12; J4.2.3.13; J4.2.3.14; J4.2.3.15; J4.2.3.16; J4.2.3.17; J4.2.3.18; J4.2.3.19; J4.2.3.20
+- G-J4-17 | Onions & garlic | 2 | G-J4-2 | J4.2.4.01; J4.2.4.02; J4.2.4.03; J4.2.4.04; J4.2.4.05; J4.2.4.06; J4.2.4.07; J4.2.4.08; J4.2.4.09
+- G-J4-18 | Tomatoes, peppers & fruiting vegetables | 2 | G-J4-2 | J4.2.5.01; J4.2.5.02; J4.2.5.03; J4.2.5.04; J4.2.5.05; J4.2.5.08; J4.2.5.09; J4.2.5.10
+- G-J4-19 | Squash, cucumbers & gourds | 2 | G-J4-2 | J4.2.5.06; J4.2.5.07; J4.2.5.11; J4.2.5.12; J4.2.5.13; J4.2.5.14
+- G-J4-20 | Peas & beans | 2 | G-J4-2 | J4.2.6.01; J4.2.6.02; J4.2.6.03; J4.2.6.04; J4.2.6.05
+- G-J4-21 | Asparagus, stems & shoots | 2 | G-J4-2 | J4.2.7.01; J4.2.7.02; J4.2.7.04; J4.2.7.05; J4.2.7.06; J4.2.7.07; J4.2.7.08; J4.2.7.09; J4.2.7.10
+- G-J4-22 | Salad leaves & sprouts | 2 | G-J4-3 | J4.2.1.01; J4.2.1.04; J4.2.1.05; J4.2.1.06; J4.2.1.07; J4.2.1.08; J4.2.7.03; J4.2.1.11; J4.2.1.12
+- G-J4-23 | Fresh herbs | 2 | G-J4-3 | J4.3.01; J4.3.02; J4.3.03; J4.3.04; J4.3.05; J4.3.06; J4.3.07; J4.3.0.01; J4.3.08; J4.3.09; J4.3.10; J4.3.11
+- G-J4-24 | Cultivated mushrooms | 2 | G-J4-4 | J4.4.01; J4.4.02; J4.4.06; J4.4.07; J4.4.10
+- G-J4-25 | Wild mushrooms & truffles | 2 | G-J4-4 | J4.4.03; J4.4.04; J4.4.08; J4.4.09
+- G-J4-26 | Sea vegetables | 2 | G-J4-4 | J4.4.05
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-J4-1 | variety (cultivar) |  | Cultivar is the unit; filters by flavour, season, keeping and use. | Orange Pippin variety database (UK)
+- G-J4-1 | ripeness and season |  | Each fruit has its ripeness test: smell at stem, colour, sugar spots. | Mental Floss how to choose 13 fruits and vegetables (US); Riverford Organic (UK)
+- G-J4-1 | freshness and condition |  | Firm, heavy for size, unbruised; intact, sound and typical of the variety. | Mental Floss how to choose 13 fruits and vegetables (US); UNECE fruit and vegetables standards via FAO (intl)
+- G-J4-1 | marketing class | 'Extra' Class > Class I > Class II | UNECE and EU classes by defects and sizing; some products use fewer. | UNECE fruit and vegetables standards via FAO (intl); data/grading_scales.tsv
+- G-J4-6 | USDA apple grade | U.S. Extra Fancy > U.S. Fancy > U.S. No. 1 > U.S. Utility | US voluntary grade for apples (GS-usda-ams-apple-grades). | data/grading_scales.tsv
+- G-J4-6 | variety award |  | RHS AGM marks recommended varieties in the Orange Pippin database. | Orange Pippin variety database (UK)
+- G-J4-7 | Japanese cherry grade | 特秀 > 秀 > 丸秀 | Prefectural shipping grade (GS-yamagata-cherry-grades); size classes 5L to M stored too. | data/grading_scales.tsv
+- G-J4-10 | table grape grade | 秀 > 優 > 良 | Yamagata grade (GS-yamagata-grape-grades); USDA Extra Fancy ladder also stored. | data/grading_scales.tsv
+- G-J4-2 | freshness and maturity |  | Bright colour, crisp, firm, heavy for size; mature, no yellowing or mould. | Whats Cooking America vegetable buying guide (US); Mental Floss how to choose 13 fruits and vegetables (US)
+- G-J4-2 | growing method (organic) |  | Organic is a filter and the house claim of box schemes. | Instacart Fresh Produce (US); Riverford Organic (UK)
+- G-J4-2 | heirloom variety |  | Seed savers value heirloom varieties with recorded history. | Seed Savers Exchange via Wikipedia (US)
+- G-J4-16 | USDA potato grade | U.S. No. 1 > U.S. Commercial > U.S. No. 2 | US potato grade (GS-usda-ams-potato-grades); variety leads potatoes. | data/grading_scales.tsv
+- G-J4-17 | USDA onion grade | U.S. No. 1 > U.S. Export No. 1 > U.S. Commercial > U.S. No. 1 Boilers > U.S. No. 1 Picklers > U.S. No. 2 | US onion grade (GS-usda-ams-onion-grades). | data/grading_scales.tsv
+- G-J4-18 | USDA tomato grade | U.S. No. 1 > U.S. Combination > U.S. No. 2 > U.S. No. 3 | US tomato grade (GS-usda-ams-tomato-grades); chilli heat is a measured facet. | data/grading_scales.tsv
+- G-J4-22 | lettuce class | Class I > Class II | EU lettuce and endive classes have no Extra class (GS-eu-lettuce-endive-marketing-classes-2023-2429). | UNECE fruit and vegetables standards via FAO (intl); data/grading_scales.tsv
+- G-J4-24 | mushroom class | 'Extra' Class > Class I > Class II | EU cultivated mushroom classes; size closed, veiled, open stored separately. | data/grading_scales.tsv
+
+## Kinds (kind_id | stored name | native name | definition)
+- J4.1.1.01 | Apple |  | fresh or frozen apple, eaten or cooked, sold as the fruit.
+- J4.1.1.02 | Pear |  | fresh or frozen European-type pear.
+- J4.1.1.03 | Asian pear [nashi] |  | fresh round, crisp-fleshed Asian pear, a different fruit from the European pear.
+- J4.1.2.01 | Peach |  | fresh or frozen peach.
+- J4.1.2.02 | Nectarine |  | fresh or frozen smooth-skinned nectarine.
+- J4.1.2.03 | Plum |  | fresh or frozen plum.
+- J4.1.2.04 | Cherry |  | fresh or frozen cherry, filed with stone fruit.
+- J4.1.3.01 | Orange |  | fresh sweet orange.
+- J4.1.3.02 | Blood orange |  | red-fleshed sweet orange.
+- J4.1.3.03 | Clementine |  | small seedless, easy-peel mandarin type sold as clementine.
+- J4.1.3.04 | Satsuma [mikan] |  | loose-skinned, seedless mandarin type sold as satsuma or mikan.
+- J4.1.3.05 | Lemon |  | fresh lemon.
+- J4.1.4.01 | Strawberry |  | fresh or frozen strawberry.
+- J4.1.4.02 | Blueberry |  | fresh or frozen blueberry.
+- J4.1.5.01 | Grape |  | fresh table grape, sold to eat.
+- J4.1.5.02 | Kiwifruit |  | fresh kiwifruit.
+- J4.1.6.01 | Melon |  | fresh melon other than watermelon, sold whole or cut.
+- J4.1.6.02 | Watermelon |  | fresh watermelon, sold whole or cut.
+- J4.1.7.01 | Banana |  | fresh eating banana.
+- J4.1.7.02 | Mango |  | fresh or frozen mango.
+- J4.1.7.04 | Plantain |  | starchy cooking banana, green or ripe, filed with tropical fruit; the cooking use is an attribute.
+- J4.1.3.06 | Grapefruit |  | fresh grapefruit.
+- J4.1.3.07 | Pomelo |  | fresh pomelo (pummelo), the large thick-skinned citrus.
+- J4.1.7.03 | Pineapple |  | fresh pineapple, whole or cut.
+- J4.1.8.01 | Persimmon |  | fresh persimmon (kaki).
+- J4.2.1.01 | Lettuce |  | fresh lettuce, whole or as cut leaves.
+- J4.2.1.02 | Spinach |  | fresh or frozen spinach, leaf or bunched.
+- J4.2.1.03 | Kale |  | fresh or frozen kale.
+- J4.2.1.04 | Rocket |  | fresh rocket (arugula) leaves, filed with leaf vegetables, not herbs.
+- J4.2.1.05 | Mixed salad leaves |  | final kind of the leaf: an undressed mix of salad leaves in which no one leaf is half or more of the weight.
+- J4.2.2.01 | Broccoli |  | fresh or frozen broccoli.
+- J4.2.2.02 | Cabbage |  | fresh cabbage of any head type.
+- J4.2.3.01 | Carrot |  | fresh or frozen carrot.
+- J4.2.3.02 | Potato |  | fresh potato.
+- J4.2.3.03 | Sweet potato |  | fresh sweet potato.
+- J4.2.3.04 | Ginger |  | fresh ginger root.
+- J4.2.3.05 | Beetroot [beet] |  | fresh or frozen beetroot.
+- J4.2.4.01 | Onion |  | fresh bulb onion.
+- J4.2.4.02 | Garlic |  | fresh garlic bulb.
+- J4.2.4.03 | Shallot |  | fresh shallot.
+- J4.2.4.04 | Spring onion [scallion, green onion, salad onion] |  | fresh young onion eaten with its green stems.
+- J4.2.5.01 | Tomato |  | fresh tomato.
+- J4.2.5.02 | Sweet pepper [capsicum, bell pepper] |  | fresh sweet, non-pungent pepper; measured heat is not part of this kind.
+- J4.2.5.03 | Chilli [hot pepper] |  | fresh or frozen pungent pepper; heat is a measured attribute.
+- J4.2.5.04 | Aubergine [eggplant] |  | fresh aubergine.
+- J4.2.5.05 | Avocado |  | fresh avocado, filed with vegetables because it is not sweet as sold.
+- J4.2.5.06 | Cucumber |  | fresh cucumber.
+- J4.2.5.07 | Courgette [zucchini] |  | fresh courgette, with squash of the same culinary use.
+- J4.2.5.08 | Sweetcorn [corn] |  | fresh or frozen sweetcorn, on the cob or as kernels.
+- J4.2.6.01 | Pea |  | fresh or frozen green pea, in or out of the pod.
+- J4.2.7.01 | Asparagus |  | fresh or frozen asparagus spears.
+- J4.2.7.02 | Celery |  | fresh celery.
+- J4.2.7.03 | Sprouts and cut microgreens |  | sprouts and cut microgreens sold to eat; the split between bean sprouts and microgreens is open.
+- J4.3.01 | Coriander [cilantro] |  | fresh or frozen coriander leaf, sold in bunches or packs to flavour food.
+- J4.3.02 | Parsley |  | fresh or frozen parsley.
+- J4.3.03 | Basil |  | fresh cut basil.
+- J4.3.04 | Mint |  | fresh mint.
+- J4.3.05 | Lemongrass |  | fresh lemongrass stalks.
+- J4.4.01 | Button mushroom |  | fresh cultivated button mushroom.
+- J4.4.02 | Shiitake |  | fresh shiitake.
+- J4.4.03 | Chanterelle |  | fresh chanterelle.
+- J4.1.4.03 | Mixed berries |  | final kind of the leaf: a mix of berries or small fruit in which no one kind is half or more of the weight, such as a forest-fruit mix.
+- J4.1.0.01 | Mixed fruit |  | final kind of the sub-family: a mix of fruit from several crop groups in which no one kind is half or more of the weight, such as a smoothie mix.
+- J4.2.0.01 | Mixed vegetables |  | final kind of the sub-family: a plain mix of vegetables from several crop groups, such as frozen mixed vegetables, in which no one kind is half or more of the weight.
+- J4.2.5.09 | Olive, fresh |  | fresh uncured olive; cured table olives are J5.
+- J4.2.6.02 | Edamame |  | fresh or frozen green soya beans in the pod.
+- J4.4.04 | Truffle |  | fresh truffle.
+- J4.4.05 | Wakame |  | fresh or frozen wakame seaweed; dried is J5.
+- J4.0.01 | Mixed fruit and vegetables |  | final kind of J4: a mix of fruit and vegetables, such as a party tray, in which no one kind is half or more of the weight.
+- J4.2.7.04 | Rhubarb |  | fresh or frozen rhubarb stalks (leaf stems), sold forced or field-grown, cooked with sugar.
+- J4.2.5.10 | Okra [lady's finger, bhindi] |  | fresh or frozen okra, the immature green seed capsule eaten whole.
+- J4.2.5.11 | Pumpkin and winter squash [winter squash] |  | fresh or frozen pumpkin or winter squash, hard-rinded and eaten mature (butternut, kabocha, acorn, spaghetti); soft-skinned summer squash is courgette.
+- J4.1.3.08 | Mandarin [tangerine] |  | fresh mandarin or tangerine other than clementine and satsuma, including mandarin hybrids sold as mandarins (Murcott, Nadorcott).
+- J4.1.2.05 | Apricot |  | fresh or frozen apricot.
+- J4.1.3.09 | Lime |  | fresh lime, Persian (Tahiti) or Key (Mexican) types.
+- J4.2.2.03 | Cauliflower |  | fresh or frozen cauliflower, whole head or florets, of any curd colour.
+- J4.2.4.05 | Leek |  | fresh or frozen leek.
+- J4.2.3.06 | Radish |  | fresh radish of any type, small red or long white (daikon).
+- J4.2.6.03 | Green bean [French bean, string bean] |  | fresh or frozen immature bean pods eaten whole (French, runner, yardlong beans); dried beans are J5.
+- J4.4.06 | Oyster mushroom |  | fresh oyster mushroom (Pleurotus), including king oyster.
+- J4.4.07 | Enoki |  | fresh enoki mushroom (Flammulina), sold in clusters.
+- J4.4.08 | Morel |  | fresh morel; dried morels are J5.
+- J4.4.09 | Cep [porcini] |  | fresh cep or porcini (Boletus edulis group); dried is J5.
+- J4.1.7.05 | Papaya [pawpaw] |  | fresh papaya (Carica papaya), ripe or green; green papaya sold to cook is the same kind.
+- J4.1.4.04 | Blackberry |  | fresh or frozen blackberry, including trailing hybrid brambles sold as blackberries (marionberry, boysenberry).
+- J4.1.4.05 | Raspberry |  | fresh or frozen raspberry, red, yellow or black (Rubus idaeus, R. occidentalis, R. coreanus).
+- J4.2.7.05 | Nopal [cactus pad, nopalitos] |  | fresh Opuntia pads, whole or cut, sold to cook as a vegetable; the fruit is prickly pear.
+- J4.1.7.06 | Guava |  | fresh guava (Psidium guajava and relatives).
+- J4.1.7.07 | Litchi [lychee] |  | fresh litchi (Litchi chinensis).
+- J4.1.7.08 | Longan |  | fresh longan (Dimocarpus longan); dried longan flesh is J5.
+- J4.1.7.09 | Durian |  | fresh durian, whole or as packed pulp.
+- J4.1.7.12 | Dragon fruit [pitahaya, pitaya] |  | fresh fruit of Selenicereus, red, white or yellow fleshed.
+- J4.1.7.13 | Passion fruit [maracuja, granadilla] |  | fresh Passiflora fruit, purple, yellow or sweet granadilla types (cholupa a named form).
+- J4.1.7.14 | Custard apple [cherimoya, sugar apple, atemoya] |  | fresh Annona fruit of any species; species names overlap by region, so one kind.
+- J4.1.7.15 | Sapodilla [chikoo, naseberry] |  | fresh sapodilla (Manilkara zapota).
+- J4.1.7.16 | Tamarillo [tree tomato] |  | fresh tamarillo (Solanum betaceum), eaten as fruit.
+- J4.1.7.17 | Star apple [caimito, vú sữa] |  | fresh star apple (Chrysophyllum cainito).
+- J4.1.7.18 | Marian plum [maprang, plum mango] |  | fresh Bouea macrophylla fruit.
+- J4.1.7.19 | Jamun [Java plum, black plum] |  | fresh fruit of Syzygium cumini.
+- J4.1.7.20 | Amla [Indian gooseberry, aonla] |  | fresh Phyllanthus emblica fruit.
+- J4.1.7.21 | Karonda [Bengal currant] |  | fresh fruit of Carissa carandas.
+- J4.1.8.02 | Fig |  | fresh fig; dried figs are J5.
+- J4.1.8.03 | Pomegranate |  | fresh pomegranate, whole or as packed arils.
+- J4.1.8.04 | Prickly pear [cactus pear, ficodindia] |  | fresh Opuntia fruit; the pad is nopal.
+- J4.1.8.05 | Date |  | dates sold as fresh fruit (khalal, rutab, fresh soft dates on the branch or chilled); packed dried dates are J5.
+- J4.1.1.05 | Hawthorn fruit [shanzha] |  | fresh Crataegus fruit sold to eat or cook.
+- J4.1.1.04 | Loquat [níspero, biwa] |  | fresh loquat (Eriobotrya japonica).
+- J4.1.2.06 | Ume [Japanese apricot] |  | fresh Prunus mume fruit, sold to pickle or steep.
+- J4.1.3.10 | Kumquat |  | fresh kumquat (Fortunella).
+- J4.1.3.11 | Yuzu |  | fresh yuzu (Citrus junos).
+- J4.1.3.12 | Bitter orange [Seville orange, sour orange, daidai] |  | fresh Citrus aurantium, sold for marmalade and seasoning.
+- J4.1.3.13 | Sudachi |  | fresh Citrus sudachi, a small acid citrus.
+- J4.1.4.06 | Blackcurrant |  | fresh or frozen blackcurrant (Ribes nigrum).
+- J4.1.4.07 | Mulberry |  | fresh mulberry (Morus).
+- J4.1.4.08 | Sea buckthorn |  | fresh or frozen Hippophae berries.
+- J4.2.1.06 | Lamb's lettuce [mâche, corn salad] |  | fresh Valerianella leaves.
+- J4.2.1.07 | Watercress |  | fresh watercress (Nasturtium officinale).
+- J4.2.1.08 | Chicory [radicchio, witloof, Belgian endive] |  | fresh Cichorium leaves and forced chicons: radicchio, witloof, sugarloaf, curly endive.
+- J4.2.1.09 | Water spinach [kangkong, ong choy] |  | fresh Ipomoea aquatica shoots.
+- J4.2.1.10 | Water dropwort [seri, minari] |  | fresh Oenanthe javanica stems and leaves.
+- J4.2.2.04 | Brussels sprout |  | fresh or frozen Brussels sprouts.
+- J4.2.2.05 | Kohlrabi |  | fresh kohlrabi.
+- J4.2.2.06 | Gai lan [Chinese broccoli, kai lan] |  | fresh Brassica oleracea var. alboglabra.
+- J4.2.3.07 | Lotus root [renkon] |  | fresh Nelumbo rhizome.
+- J4.2.3.08 | Taro [eddo, dasheen, satoimo] |  | fresh Colocasia corms.
+- J4.2.3.09 | Yam [Dioscorea; nagaimo] |  | fresh Dioscorea tubers; sweet potato sold as yam stays sweet potato.
+- J4.2.3.10 | Burdock [gobo] |  | fresh burdock root.
+- J4.2.3.11 | Turnip |  | fresh turnip, round or long (hinona, kabu).
+- J4.2.3.12 | Horseradish [kren] |  | fresh horseradish root; grated horseradish in jars is J5.
+- J4.2.3.13 | Parsley root [Hamburg parsley] |  | fresh root of Petroselinum crispum var. tuberosum.
+- J4.2.3.14 | Arrowhead [kuwai, ci gu] |  | fresh Sagittaria corms.
+- J4.2.3.15 | Maca |  | fresh maca root; dried maca and maca flour are J5, capsules H2.
+- J4.2.4.06 | Rakkyo [Chinese onion] |  | fresh Allium chinense bulbs sold to pickle.
+- J4.2.4.07 | Garlic chive [nira, Chinese chive] |  | fresh Allium tuberosum leaves and flower stems.
+- J4.2.4.08 | Wild garlic and wild chive [ramsons, dallae] |  | fresh leaves and bulbs of wild Allium species gathered or grown (ramsons, dallae).
+- J4.2.5.12 | Wax gourd [winter melon, togan] |  | fresh Benincasa hispida.
+- J4.2.5.13 | Luffa [sponge gourd, sigua] |  | fresh young Luffa fruit eaten as a vegetable; the dried sponge is not food.
+- J4.2.5.14 | Chayote [choko, mirliton] |  | fresh Sechium edule.
+- J4.2.6.04 | Fresh shelling bean [coco, fresh borlotti] |  | fresh Phaseolus beans sold in or out of the pod to shell; green bean is the pod eaten whole, dried beans J5.
+- J4.2.7.06 | Globe artichoke |  | fresh artichoke heads; artichoke hearts in jars or tins are J5.
+- J4.2.7.07 | Cardoon |  | fresh Cynara cardunculus leaf stalks.
+- J4.2.7.08 | Florence fennel [finocchio] |  | fresh fennel bulb; fennel seed is J5.
+- J4.2.7.09 | Bamboo shoot |  | fresh bamboo shoots; tinned or boiled-packed shoots are J5.
+- J4.2.7.10 | Wild shoots and fiddleheads [sansai] |  | fresh wild edible shoots and fern fronds: warabi, urui, kogomi, fiddleheads, taranome.
+- J4.3.06 | Perilla [shiso, kkaennip] |  | fresh Perilla frutescens leaves, green or red.
+- J4.3.07 | Thyme |  | fresh thyme; dried thyme is J5.
+- J4.3.0.01 | Mixed herbs [herb bundle] |  | a fresh bundle of several herbs, none half or more of the weight (Frankfurter Grüne Soße).
+- J4.1.7.10 | Mangosteen |  | fresh mangosteen (Garcinia mangostana).
+- J4.1.7.11 | Jackfruit |  | fresh jackfruit, whole or cut, ripe or young green; tinned jackfruit is J5.
+- J4.1.8.06 | Jujube [Chinese date] |  | fresh Ziziphus jujuba fruit; dried red dates are J5.
+- J4.1.8.07 | Pepino [pepino melon] |  | fresh Solanum muricatum fruit.
+- J4.4.10 | Wood ear [black fungus, kikurage] |  | fresh Auricularia fungus; dried wood ear is J5.
+- J4.3.08 | Dill |  | fresh or frozen dill leaf (Anethum graveolens), sold in bunches or packs; dill seed and dried dill are J5.
+- J4.3.09 | Rosemary |  | fresh rosemary sprigs (Salvia rosmarinus); dried rosemary is J5.
+- J4.3.10 | Sage |  | fresh sage leaves (Salvia officinalis); dried sage is J5.
+- J4.3.11 | Chives |  | fresh chives (Allium schoenoprasum) sold in bunches or packs as a herb; garlic chive is J4.2.4.07, wild chives J4.2.4.08.
+- J4.2.3.16 | Parsnip |  | fresh or frozen parsnip root (Pastinaca sativa).
+- J4.2.3.17 | Swede [rutabaga] |  | fresh swede (Brassica napus var. napobrassica); turnip is J4.2.3.11.
+- J4.2.3.18 | Celeriac [celery root] |  | fresh celeriac root (Apium graveolens var. rapaceum).
+- J4.2.3.19 | Jerusalem artichoke [sunchoke] |  | fresh tubers of Helianthus tuberosus.
+- J4.2.3.20 | Salsify [scorzonera] |  | fresh salsify or black salsify roots (Tragopogon, Scorzonera).
+- J4.2.1.11 | Chard [Swiss chard, silver beet] |  | fresh chard leaves and stalks (Beta vulgaris, Cicla group).
+- J4.2.2.07 | Pak choi [bok choy] |  | fresh pak choi (Brassica rapa, Chinensis group).
+- J4.2.1.12 | Mizuna |  | fresh mizuna leaves (Brassica rapa var. nipposinica), sold as a salad or cooking green.
+- J4.2.2.09 | Chinese cabbage [napa cabbage, hakusai, Chinese leaf] |  | fresh Chinese cabbage (Brassica rapa, Pekinensis group); head cabbage is J4.2.2.02.
+- J4.2.4.09 | Welsh onion [negi, Japanese long onion] |  | fresh Allium fistulosum sold as long white-shanked negi; young salad onions stay J4.2.4.04.
+- J4.1.4.09 | Gooseberry |  | fresh or frozen gooseberry (Ribes uva-crispa).
+- J4.1.4.10 | Redcurrant and white currant |  | fresh or frozen red or white currants (Ribes rubrum).
+- J4.1.1.06 | Quince [membrillo] |  | fresh quince (Cydonia oblonga), sold to cook.
+- J4.1.4.11 | Elderberry |  | fresh or frozen elderberries (Sambucus).
+- J4.2.6.05 | Broad bean [fava bean] |  | fresh or frozen broad beans (Vicia faba), in or out of the pod; dried beans are J5.
+- J4.2.2.08 | Komatsuna [Japanese mustard spinach] |  | fresh komatsuna (Brassica rapa var. perviridis).

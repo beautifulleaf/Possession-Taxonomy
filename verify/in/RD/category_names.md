@@ -1,0 +1,54 @@
+# Category names (for plain cross-references)
+- A1: Clothing
+- A2: Footwear
+- A3: Jewellery
+- A4: Bags & Accessories
+- A5: Clocks & Watches
+- B1: Furniture & Storage
+- B2: Soft Furnishings
+- B3: Lighting
+- B4: Decor
+- B5: Kitchen & Dining
+- B6: Cleaning & Laundry
+- B7: Climate, Water & Energy
+- B8: Home Safety & Security
+- B9: Smoking & Vaping
+- B10: Animal Equipment
+- C1: Tools & Workshop Equipment
+- C2: Garden & Grounds
+- C3: Plants & Living Cultures
+- C4: Craft & Art Supplies
+- C5: Office & Stationery
+- C6: Optical & Scientific Instruments
+- C7: Farm & Forestry Equipment
+- C8: Building Materials & Hardware
+- D1: Computers & Components
+- D2: Phones, Tablets & Personal Devices
+- D3: Audio & Video
+- D4: Cameras & Photography
+- D5: Video Games
+- E1: Toys & Games
+- E2: Sports, Fitness & Recreation
+- E3: Musical Instruments & Music Gear
+- E4: Weapons & Armour
+- F1: Media & Publications
+- F2: Art
+- F3: Coins, Stamps, Medals & Trading Cards
+- F4: Religious & Ceremonial Objects
+- F5: Documents & Personal Records
+- F6: Natural History & Specimens
+- G1: Vehicles
+- G2: Property & Structures
+- H1: Personal Care & Beauty
+- H2: Health, Medical & Mobility
+- H3: Adult Objects
+- I1: Software
+- I2: Digital Media & Items
+- I3: Subscriptions, Memberships & Online Services
+- J1: Meat & Poultry
+- J2: Fish & Seafood
+- J3: Dairy, Eggs & Alternatives
+- J4: Fruit & Vegetables
+- J5: Pantry Staples
+- J6: Coffee, Tea & Cocoa
+- J7: Wine, Beer & Spirits

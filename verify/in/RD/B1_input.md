@@ -1,0 +1,195 @@
+# B1 Furniture & Storage: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (furniture family: sofas and armchairs, beds and mattresses, tables, chairs, storage)
+- reason: Retailers open furniture on the piece family and then type and size (IKEA Singapore furniture; IKEA India sofa beds; Stylight home24 furniture), with room and material as filters (Stylight); maker and designer lead only for design and vintage pieces, a parallel door rather than the first (Cult Design Fritz Hansen; 1stDibs Vitra listing).
+- ladder: What piece of furniture? (family) > Which type? (kind: sofa, sectional, sofa bed; platform bed; hybrid mattress) > What makes the best one? (construction from the inside out; for mattresses construction type then firmness)
+- level1_groups: Sofas & armchairs; Chairs, stools & benches; Beds & mattresses; Tables & desks; Storage furniture; Boxes, racks & organisers; Albums & collection holders; Screens, stands & shelters; Replacement parts
+- quality_markers: Upholstered seating: frame (kiln-dried hardwood, corner-blocked, dowelled or jointed > stapled softwood or particleboard); suspension (eight-way hand-tied springs > sinuous springs > webbing); cushion filling (high-density foam, 1.8 lb per cubic foot or more); upholstery fabric (Martindale class: under 10,000 decorative < 10,000-15,000 light domestic < 15,000-25,000 general domestic < 25,000-40,000 heavy domestic < 40,000+ contract < 100,000+ severe contract); stitching and finish; frame warranty (5-10 years). Case furniture and tables: material (solid wood > veneer on plywood > veneer on particleboard or MDF); joinery (dovetail > dowel or mortise > cam-lock or staple); sturdiness (no wobble); finish. Mattresses: construction type (innerspring, foam, hybrid, latex, airbed; a choice, not a ladder); firmness (1-10 scale or H1-H5; never compared across scales); support and pressure relief; durability and materials. Design classics: authenticity (licensed original > reproduction, on maker or line); maker and licensor; designer and period; materials and repairability.
+- quality_signals: Red Dot Award: Product Design, furniture group (Red Dot jury; award, class iii tier entry on named forms); FSC certified wood (Forest Stewardship Council; certification attribute); GECA certified (Good Environmental Choice Australia; certification attribute); frame and mattress warranty years (maker; attribute); Martindale rub class (ISO 12947; class i attribute); mattress firmness scales (Sleep Foundation 1-10, German H1-H5; class i attribute with the scale named, not a tier); CPSC crib-mattress standard (US CPSC; standard_met); licence status authorised, licensed or reproduction (maker; on maker and line rows, not a tier); reviewer picks for mattresses (class iii, at harvest; none fetched yet); 1stDibs recognised-seller status (platform; concerns sellers, not stored)
+- maker_role: owner (confirm maker_roles.tsv; provisional until harvest): mass-market furniture is bought by type and model (IKEA lines); the maker leads only for design classics and vintage, which a side view serves
+- side_view: Design houses & designers: house (Fritz Hansen, Vitra, Carl Hansen & Søn, USM, Vitsœ) or designer (Jacobsen, Wegner, Eames) > icon model (named form) > authorised maker against replicas; scene and era tags (Mid-Century Modern, Danish design) as a filter once defined. Also a generated room view.
+- evidence_rows: IKEA Singapore furniture; IKEA India sofa beds; Stylight (German aggregator, home24 shop) furniture; Cult Design (AU) Fritz Hansen collection; 1stDibs vintage Vitra/Herman Miller listing; Houzz sofa buying guide; Mega Furniture (SG) high-quality sofa guide; Bob Vila red flags of low quality furniture; Sleep Foundation how to choose a mattress; Interior Insider brands like HAY; Kinstore brand guides (Danish design); Red Dot Award Product Design 2025 (furniture group); Manhattan Nest: real vs fake Eames lounge
+- maker role row: {'code': 'B1', 'scope': '*', 'role': 'owner', 'provisional': 'yes', 'reason': 'models and design classics carry the maker; design houses as a side tab'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-B1-1 | Sofas & armchairs | 1 |  | 
+- G-B1-1-1 | Sofas & settees | 2 | G-B1-1 | B1.1.1.01; B1.1.1.02; B1.1.1.03; B1.1.1.04
+- G-B1-1-2 | Armchairs & lounge chairs | 2 | G-B1-1 | B1.1.2.01; B1.1.2.02; B1.1.2.03; B1.1.2.04; B1.1.2.05; B1.1.2.06; B1.1.2.07; B1.1.2.08
+- G-B1-1-3 | Floor & soft seating | 2 | G-B1-1 | B1.1.6.01; B1.1.6.02
+- G-B1-2 | Chairs, stools & benches | 1 |  | 
+- G-B1-2-1 | Dining & side chairs | 2 | G-B1-2 | B1.1.3.01; B1.1.3.02; B1.1.3.03; B1.1.3.04
+- G-B1-2-2 | Stools, benches & footrests | 2 | G-B1-2 | B1.1.4.01; B1.1.4.02; B1.1.4.03
+- G-B1-2-3 | Work & task seating | 2 | G-B1-2 | B1.1.5.01
+- G-B1-3 | Beds & mattresses | 1 |  | 
+- G-B1-3-1 | Beds & cots | 2 | G-B1-3 | B1.2.1.01; B1.2.1.02; B1.2.1.03; B1.2.1.04; B1.2.1.05; B1.2.1.06; B1.2.1.07; B1.2.1.08; B1.2.1.09; B1.2.1.10; B1.2.1.11
+- G-B1-3-2 | Mattresses (by construction) | 2 | G-B1-3 | B1.2.2.01; B1.2.2.02; B1.2.2.03; B1.2.2.04; B1.2.2.05; B1.2.2.06
+- G-B1-3-3 | Bed bases | 2 | G-B1-3 | B1.2.3.01; B1.2.3.02
+- G-B1-4 | Tables & desks | 1 |  | 
+- G-B1-4-1 | Dining & kitchen tables | 2 | G-B1-4 | B1.3.1.01; B1.3.1.02; B1.3.1.03
+- G-B1-4-2 | Occasional tables | 2 | G-B1-4 | B1.3.2.01; B1.3.2.02; B1.3.2.03; B1.3.2.04; B1.3.2.05
+- G-B1-4-3 | Desks & work tables | 2 | G-B1-4 | B1.3.3.01; B1.3.3.02; B1.3.3.03; B1.3.3.04; B1.3.3.05
+- G-B1-4-4 | Folding & floor tables | 2 | G-B1-4 | B1.3.4.01; B1.3.4.02
+- G-B1-4-5 | Carts & islands | 2 | G-B1-4 | B1.3.5.01; B1.3.5.02; B1.3.5.03
+- G-B1-5 | Storage furniture | 1 |  | 
+- G-B1-5-1 | Chests of drawers & bedside | 2 | G-B1-5 | B1.4.1.01; B1.4.1.02
+- G-B1-5-2 | Cupboards & cabinets | 2 | G-B1-5 | B1.4.2.01; B1.4.2.02; B1.4.2.03; B1.4.2.04; B1.4.2.05; B1.4.2.06; B1.4.2.07; B1.4.2.08; B1.4.2.09; B1.4.2.10; B1.4.2.11
+- G-B1-5-3 | Wardrobes & closets | 2 | G-B1-5 | B1.4.3.01
+- G-B1-5-4 | Shelving | 2 | G-B1-5 | B1.4.4.01; B1.4.4.02; B1.4.4.03
+- G-B1-5-5 | Chests & trunks | 2 | G-B1-5 | B1.4.5.01; B1.4.5.02
+- G-B1-6 | Boxes, racks & organisers | 1 |  | 
+- G-B1-6-1 | Boxes, bins, baskets & bags | 2 | G-B1-6 | B1.5.1.01; B1.5.1.02; B1.5.1.03; B1.5.1.04
+- G-B1-6-2 | Racks, hooks & hangers | 2 | G-B1-6 | B1.5.2.01; B1.5.2.02; B1.5.2.03; B1.5.2.04; B1.5.2.05; B1.5.2.06; B1.5.2.07; B1.5.2.08
+- G-B1-7 | Albums & collection holders | 1 |  | 
+- G-B1-7-1 | Albums, stock books & collection trays | 2 | G-B1-7 | B1.5.3.01; B1.5.3.02; B1.5.3.03; B1.5.3.04; B1.5.3.05; B1.5.3.06; B1.5.3.07
+- G-B1-8 | Screens, stands & shelters | 1 |  | 
+- G-B1-8-1 | Screens & room dividers | 2 | G-B1-8 | B1.6.01; B1.6.02; B1.6.07
+- G-B1-8-2 | Stands & shop fittings | 2 | G-B1-8 | B1.6.03; B1.6.04; B1.6.05
+- G-B1-8-3 | Shelters | 2 | G-B1-8 | B1.6.06
+- G-B1-9 | Replacement parts | 1 |  | 
+- G-B1-9-1 | Bed parts | 2 | G-B1-9 | B1.7.01; B1.7.02
+- G-B1-9-2 | Table and shelf parts | 2 | G-B1-9 | B1.7.03; B1.7.04
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-B1-1 | frame | kiln-dried hardwood, corner-blocked, dowelled or jointed > stapled softwood or particleboard | Upholstered pieces are judged from the inside out, frame first. | proposals.tsv B1 row (quality_markers); Houzz sofa buying guide; Mega Furniture (SG) high-quality sofa guide; Bob Vila red flags of low quality furniture
+- G-B1-1 | suspension | eight-way hand-tied springs > sinuous springs > webbing | Spring system comes after the frame. | proposals.tsv B1 row (quality_markers); Houzz sofa buying guide; Mega Furniture (SG) high-quality sofa guide
+- G-B1-1 | cushion filling | high-density foam, 1.8 lb per cubic foot or more | Foam density sets how the seat holds up. | proposals.tsv B1 row (quality_markers); Houzz sofa buying guide; Mega Furniture (SG) high-quality sofa guide
+- G-B1-1 | upholstery fabric abrasion (Martindale class) | 100,000+ severe contract > 40,000+ contract > 25,000-40,000 heavy domestic > 15,000-25,000 general domestic > 10,000-15,000 light domestic > under 10,000 decorative | Rub count rates the cover for its use. | proposals.tsv B1 row (quality_markers); Houzz sofa buying guide
+- G-B1-1 | stitching and finish |  | Visible workmanship follows the hidden construction. | proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
+- G-B1-1 | frame warranty | 5-10 years | A long frame warranty backs the construction. | proposals.tsv B1 row (quality_markers); Mega Furniture (SG) high-quality sofa guide
+- G-B1-2 | frame (upholstered and wooden chairs) | kiln-dried hardwood, corner-blocked, dowelled or jointed > stapled softwood or particleboard | The proposals row judges upholstered seating frame first; chairs share it. | proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
+- G-B1-2 | upholstery fabric abrasion (Martindale class) | 100,000+ severe contract > 40,000+ contract > 25,000-40,000 heavy domestic > 15,000-25,000 general domestic > 10,000-15,000 light domestic > under 10,000 decorative | Applies to upholstered chairs and stools. | proposals.tsv B1 row (quality_markers); Houzz sofa buying guide
+- G-B1-3-2 | construction type | innerspring; foam; hybrid; latex; airbed (a choice, not a ladder) | Mattresses are chosen by construction first. | proposals.tsv B1 row (quality_markers); Sleep Foundation how to choose a mattress
+- G-B1-3-2 | firmness | 1-10 scale or H1-H5 (never compared across scales) | Firmness is matched to the sleeper. | proposals.tsv B1 row (quality_markers); Sleep Foundation how to choose a mattress
+- G-B1-3-2 | support and pressure relief |  | Follows construction and firmness. | proposals.tsv B1 row (quality_markers); Sleep Foundation how to choose a mattress
+- G-B1-3-2 | durability and materials |  | Material quality sets lifespan. | proposals.tsv B1 row (quality_markers); Sleep Foundation how to choose a mattress
+- G-B1-4 | material | solid wood > veneer on plywood > veneer on particleboard or MDF | Case furniture and tables are judged by the carcass material first. | proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
+- G-B1-4 | joinery | dovetail > dowel or mortise > cam-lock or staple | Joints come after material. | proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
+- G-B1-4 | sturdiness | no wobble | A test at the shop. | proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
+- G-B1-4 | finish |  | Last of the case-furniture markers. | proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
+- G-B1-5 | material | solid wood > veneer on plywood > veneer on particleboard or MDF | Case furniture and tables are judged by the carcass material first. | proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
+- G-B1-5 | joinery | dovetail > dowel or mortise > cam-lock or staple | Joints come after material. | proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
+- G-B1-5 | sturdiness | no wobble | A test at the shop. | proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
+- G-B1-5 | finish |  | Last of the case-furniture markers. | proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
+- G-B1-1 | authenticity (design classics) | licensed original > reproduction | For design classics, on the maker or line; served by the Design houses & designers side view. | proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge; 1stDibs vintage Vitra/Herman Miller listing; Cult Design (AU) Fritz Hansen collection
+- G-B1-1 | maker and licensor (design classics) |  | Who holds the licence follows authenticity. | proposals.tsv B1 row (quality_markers); Cult Design (AU) Fritz Hansen collection; Kinstore brand guides (Danish design)
+- G-B1-1 | designer and period (design classics) |  | Collectors place a classic by designer and period. | proposals.tsv B1 row (quality_markers); 1stDibs vintage Vitra/Herman Miller listing
+- G-B1-1 | materials and repairability (design classics) |  | Last of the design-classic markers. | proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge
+- G-B1-2 | authenticity (design classics) | licensed original > reproduction | For design classics, on the maker or line; served by the Design houses & designers side view. | proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge; 1stDibs vintage Vitra/Herman Miller listing; Cult Design (AU) Fritz Hansen collection
+- G-B1-2 | maker and licensor (design classics) |  | Who holds the licence follows authenticity. | proposals.tsv B1 row (quality_markers); Cult Design (AU) Fritz Hansen collection; Kinstore brand guides (Danish design)
+- G-B1-2 | designer and period (design classics) |  | Collectors place a classic by designer and period. | proposals.tsv B1 row (quality_markers); 1stDibs vintage Vitra/Herman Miller listing
+- G-B1-2 | materials and repairability (design classics) |  | Last of the design-classic markers. | proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge
+- G-B1-4 | authenticity (design classics) | licensed original > reproduction | For design classics, on the maker or line; served by the Design houses & designers side view. | proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge; 1stDibs vintage Vitra/Herman Miller listing; Cult Design (AU) Fritz Hansen collection
+- G-B1-4 | maker and licensor (design classics) |  | Who holds the licence follows authenticity. | proposals.tsv B1 row (quality_markers); Cult Design (AU) Fritz Hansen collection; Kinstore brand guides (Danish design)
+- G-B1-4 | designer and period (design classics) |  | Collectors place a classic by designer and period. | proposals.tsv B1 row (quality_markers); 1stDibs vintage Vitra/Herman Miller listing
+- G-B1-4 | materials and repairability (design classics) |  | Last of the design-classic markers. | proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge
+
+## Kinds (kind_id | stored name | native name | definition)
+- B1.3.1.01 | Dining table |  | a table made for eating meals at, seated.
+- B1.3.2.01 | Coffee table |  | a low table set in front of a sofa.
+- B1.3.2.02 | Side table |  | a small table set beside a seat or bed (accent or end table).
+- B1.3.3.01 | Desk |  | a table made to work, write or study at, often with drawers.
+- B1.3.4.01 | Folding table |  | a table whose legs or top fold for storage or carrying.
+- B1.3.4.02 | Heated low table [kotatsu] |  | a low floor table with a built-in heater beneath, covered by a quilt.
+- B1.3.5.02 | Kitchen island |  | a freestanding or fitted work-surface unit standing clear of the kitchen walls.
+- B1.4.1.01 | Chest of drawers (dresser) |  | a case of stacked drawers for clothes or linen.
+- B1.4.1.02 | Nightstand |  | a small bedside cabinet or table with a drawer or shelf.
+- B1.4.2.01 | Sideboard |  | a long low cabinet with doors and drawers for dining-room storage (buffet, credenza).
+- B1.4.2.03 | TV unit |  | a low cabinet made to hold a television and media equipment.
+- B1.4.2.04 | Filing cabinet |  | a cabinet of deep drawers for hanging files and papers.
+- B1.4.2.05 | Locker |  | a tall narrow lockable cupboard, often in banks, for personal storage.
+- B1.4.2.06 | Kitchen cabinet |  | a base, wall or tall cupboard made for kitchen storage, fitted or freestanding.
+- B1.4.3.01 | Wardrobe (armoire) |  | a tall cupboard with a hanging rail for clothes, freestanding or built in.
+- B1.4.4.01 | Bookcase |  | a freestanding unit of open shelves.
+- B1.4.4.02 | Wall shelf |  | a shelf made only to be fixed to a wall.
+- B1.4.5.01 | Blanket chest (hope chest) |  | a lidded box chest for linen and blankets.
+- B1.5.2.01 | Wine rack |  | a free-standing or wall rack that holds wine bottles lying down.
+- B1.5.2.03 | Magazine rack |  | a rack or holder for magazines and newspapers.
+- B1.6.01 | Room divider |  | a freestanding partition or open shelving unit that divides a room.
+- B1.7.04 | Replacement shelf |  | a shelf made for one shelving or cabinet model.
+- B1.7.03 | Table leg |  | a leg sold to be fitted to a table top.
+- B1.3.1.02 | Gateleg table |  | a table with hinged leaves held up by legs that swing out like gates.
+- B1.3.3.02 | Sit-stand desk |  | a desk whose height adjusts between sitting and standing (drive is an attribute).
+- B1.3.5.01 | Rolling cart |  | a small wheeled unit of shelves or baskets.
+- B1.3.2.03 | Console table |  | a narrow table set against a wall.
+- B1.3.3.03 | Dressing table |  | a table with drawers and often a mirror, made to sit at while dressing or grooming.
+- B1.5.1.01 | Storage box |  | a lidded or open box or bin made to hold several objects in a home.
+- B1.5.1.02 | Storage basket |  | a woven or wire basket made to hold several objects.
+- B1.5.2.02 | Shoe rack |  | an open rack of tiers that holds pairs of shoes.
+- B1.5.2.05 | Coat rack |  | a free-standing stand or wall rail of hooks for coats and hats.
+- B1.5.2.04 | Wall hook |  | a hook or row of hooks fixed to a wall or door for hanging things.
+- B1.4.2.02 | Display cabinet |  | a cabinet with glass doors or sides for showing what it holds.
+- B1.5.2.06 | Clothes hanger |  | a shaped frame from which a garment hangs on a rail.
+- B1.4.4.03 | Modular shelving system |  | a system of uprights, shelves and units that combine and extend within one maker's system.
+- B1.3.3.04 | Lap desk |  | a small portable surface made to rest on the lap.
+- B1.3.2.04 | Tray table |  | a small low table whose top is a tray, often removable or folding.
+- B1.3.5.03 | Bar cart |  | a wheeled cart made to hold and serve drinks.
+- B1.5.3.05 | Coin album |  | an album or folder of pages with holes or pockets made to hold coins.
+- B1.5.3.03 | Stamp album |  | an album with printed or blank pages made to hold postage stamps.
+- B1.5.3.04 | Stock book |  | a book of strip pockets in which stamps are slotted and held loose.
+- B1.5.3.06 | Card binder |  | a binder of pocket pages made to hold trading cards and similar cards.
+- B1.6.04 | Plant stand |  | a stand that raises one or more plant pots.
+- B1.4.2.08 | Humidor (standing) |  | a cabinet that stands in a room and keeps cigars at a set humidity.
+- B1.5.1.03 | Shoe bag |  | a hanging or zipped bag with pockets made to store shoes.
+- B1.7.02 | Bed guard rail |  | a rail made to be fitted to one bed to keep a child from rolling out.
+- B1.6.05 | Shop counter and fitting |  | a counter, gondola or shelving fitting made for a shop.
+- B1.6.03 | Display stand |  | a stand made to show objects or goods.
+- B1.5.3.07 | Collection tray |  | a tray of compartments made to hold coins, stamps or specimens.
+- B1.7.01 | Bed slats |  | loose slats made for one bed frame.
+- B1.4.2.07 | Bathroom vanity cabinet |  | a bathroom cabinet made to carry a basin, sold without the basin.
+- B1.4.5.02 | Trunk |  | a large strong lidded chest, kept as storage.
+- B1.6.02 | Folding screen |  | a freestanding screen of hinged panels that folds.
+- B1.6.06 | Pop-up gazebo |  | a portable frame-and-canopy shelter that opens and folds without being built.
+- B1.5.3.01 | Photo album (empty) |  | a bound or binder album made to hold photographic prints, sold empty (page mechanism is an attribute).
+- B1.5.3.02 | Film album |  | an album of sleeves made to hold negatives and slides.
+- B1.1.1.01 | Sofa |  | an upholstered seat with back and arms for two or more people.
+- B1.1.1.02 | Sectional sofa |  | a sofa made of joined sections that can form a corner or L shape (corner sofa is an alias; configuration is an attribute).
+- B1.1.1.03 | Sofa bed |  | a sofa sold as a seat that unfolds or pulls out into a bed with a hidden mattress (sleeper sofa).
+- B1.1.1.04 | Futon sofa |  | "a convertible frame whose seat cushion is the mattress, folding flat into a bed (the US ""futon""), sold with or without its mattress."
+- B1.1.2.01 | Armchair |  | an upholstered single seat with arms and back.
+- B1.1.2.02 | Hanging chair |  | a single seat suspended from a ceiling or a stand.
+- B1.1.2.03 | Recliner |  | an armchair whose back tilts and footrest rises, manually or by motor.
+- B1.1.2.04 | Rocking chair |  | a chair on curved rockers or a glider base that rocks.
+- B1.1.2.05 | Chaise longue |  | an upholstered indoor seat long enough to support the legs.
+- B1.1.2.06 | Sun lounger |  | an outdoor reclining seat with an adjustable backrest, often on wheels, made to lie on in the sun.
+- B1.1.3.01 | Dining chair |  | an upright chair with a back, made for a dining or side table.
+- B1.1.3.02 | Folding chair |  | a chair that folds flat for storage or carrying.
+- B1.1.3.03 | High chair |  | a raised chair with a tray or harness that holds a small child at table height.
+- B1.1.4.01 | Bar stool |  | a tall seat without arms for a bar or counter.
+- B1.1.4.02 | Bench |  | a long seat for several people, with or without a back (with storage is an attribute).
+- B1.1.4.03 | Ottoman |  | a padded seat or footrest without back or arms (pouf; with storage is an attribute).
+- B1.1.5.01 | Office chair |  | an adjustable seat made for desk work, usually swivelling on castors.
+- B1.1.6.01 | Bean bag chair |  | a soft seat of a fabric bag filled with loose beads that takes the sitter's shape.
+- B1.1.6.02 | Floor chair |  | a legless seat with a back that rests directly on the floor.
+- B1.2.1.01 | Platform bed |  | a bed frame with a solid or slatted platform that takes a mattress without a separate base.
+- B1.2.1.02 | Bunk bed |  | two or more beds stacked one above the other on one frame.
+- B1.2.1.03 | Daybed |  | a bed sold as a bed that also serves as a seat, with a back and sides.
+- B1.2.1.04 | Four-poster bed |  | a bed with a tall post at each corner, often carrying a canopy.
+- B1.2.1.05 | Baby cot (crib) |  | a barred bed made for an infant or toddler.
+- B1.2.1.06 | Camp bed |  | "a light folding bed on a frame, used for camping or guests (US ""cot"")."
+- B1.2.1.07 | Playpen (play yard) |  | a freestanding enclosure that holds a small child in place to play or sleep.
+- B1.2.2.01 | Innerspring mattress |  | a mattress whose support core is a unit of metal springs.
+- B1.2.2.02 | Foam mattress |  | a mattress whose core is polyurethane, memory or other foam.
+- B1.2.2.03 | Hybrid mattress |  | a mattress with a spring core under substantial foam or latex comfort layers.
+- B1.2.2.04 | Latex mattress |  | a mattress whose core is natural or synthetic latex.
+- B1.2.2.05 | Airbed |  | a mattress whose support is an inflatable air chamber, sold as a bed for a room.
+- B1.2.2.06 | Floor or futon mattress [shiki-futon] |  | a thin mattress that folds or rolls away, used on the floor or on a futon sofa frame.
+- B1.2.3.01 | Slatted bed base |  | a frame of sprung or flat slats that supports a mattress.
+- B1.2.3.02 | Divan base |  | an upholstered box base on which a mattress sits, often with drawers.
+- B1.2.1.09 | Loft bed |  | a single bed raised high on a frame with a ladder, leaving open space beneath for a desk, storage or play.
+- B1.2.1.08 | Bed frame |  | a bed of headboard, side rails and usually a footboard that holds the mattress on a separate slatted base, box spring or slat set (panel bed).
+- B1.2.1.10 | Bassinet (cradle) |  | a small basket-like or rocking bed for a newborn, on legs or a stand, used for the first months.
+- B1.1.2.07 | Chair bed |  | a single armchair sold as a seat that unfolds or pulls out into a single bed.
+- B1.2.1.11 | Hammock |  | a sling of fabric, rope or net hung between two points or on a stand, made to lie or rest in.
+- B1.1.2.08 | Slipper chair |  | a low armless upholstered single chair, used as an occasional or bedroom seat.
+- B1.1.3.04 | Booster seat |  | a seat with straps fixed on an adult chair to raise a small child to table height.
+- B1.4.2.11 | Storage cabinet |  | a freestanding cupboard with doors and shelves for general storage, not made for one room's use.
+- B1.5.2.08 | Clothes rail |  | a freestanding frame with a hanging bar, often on castors, for clothes on hangers.
+- B1.3.1.03 | Bar table |  | a tall table made to stand at or to sit at on bar stools.
+- B1.6.07 | Desk screen |  | a panel set on or clamped to a desk, alone or in a cubicle system, to divide or shield a work place.
+- B1.3.3.05 | Drafting table |  | a work table whose top tilts and often rises, made for drawing, drafting or art work.
+- B1.3.2.05 | Game table |  | a table made for playing cards or games, often with a felt or reversible top and cup holders.
+- B1.5.2.07 | Umbrella stand |  | a stand or holder that keeps several umbrellas upright, usually by a door.
+- B1.4.2.10 | Shoe cabinet |  | a cabinet with doors or tilting compartments made to store shoes.
+- B1.5.1.04 | Hanging organiser |  | a fabric unit of shelves, pockets or compartments that hangs from a rail, hook or door to store clothes and small items.
+- B1.4.2.09 | Bar cabinet |  | a cabinet made to hold bottles and glasses, often with bottle racks and a pull-out or fold-down surface (liquor or wine cabinet).

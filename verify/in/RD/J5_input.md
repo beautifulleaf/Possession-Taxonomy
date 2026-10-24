@@ -1,0 +1,253 @@
+# J5 Pantry Staples: readability review input
+
+## How shops and buyers approach it (stored proposal, from fetched pages, R-115)
+- main_way_in: type of object (the product as the shop aisle groups it)
+- reason: Both fetched shop trees open on aisle then product (Carrefour Market Morocco via Glovo; Thrive Market), and every buying guide judges quality inside one product by grade, designation and age, not by origin or maker (Chowhound olive oil guide; Chowhound balsamic vinegar article; Nutrada basmati rice guide).
+- ladder: Which aisle? > Which product? > What makes the best one? > Who vouches for it? > The named best (variety, protected name, then producers named by a quality source)
+- level1_groups: G-J5-1 Oils, fats & vinegars; G-J5-2 Rice, pasta, grains & pulses; G-J5-3 Flour, sugar & baking; G-J5-4 Spices, salt & stocks; G-J5-5 Sauces & condiments; G-J5-6 Tins, jars & preserves; G-J5-7 Nuts, seeds & dried fruit; G-J5-8 Honey, syrups & spreads; G-J5-9 Tofu & meat alternatives
+- quality_markers: Olive oil: legal grade (extra virgin > virgin > olive oil > pomace) > harvest date and freshness > flavour (bitterness, pepper) and cultivar > dark glass or tin > origin (said not to decide); Balsamic: designation (Tradizionale DOP > Modena IGP > condiment) > age (DOP Extravecchio 25 y > Affinato 12 y; IGP Riserva 5 y > Invecchiato 3 y > 60 days) > clean label (no caramel or thickener); Rice (basmati): variety > grain length > broken grains (0-2% premium) > age (12-24 months) > moisture (13% max) > chalky grains; Rice (Japanese): area-by-cultivar rank (Toku-A > A > A' > B > B'); Soy sauce: JAS type (choice) > JAS grade (Cho-tokusen > Tokusen > Tokkyu > Jokyu > Hyojun) > brewing method; Saffron: ISO 3632 category (I > II > III) > cut; Honey: floral source > measured grade where one exists (manuka UMF/MGO); Spices: traceable single origin > freshness and harvest (provisional); Nuts: USDA grade by nut and form (provisional); Pasta, sauces, tins, spreads, baking: product type, then clean label and awards (preference, provisional); all products: blind-tasting awards (Great Taste 3 > 2 > 1 star)
+- quality_signals: Protected designations DOP/IGP (EU register, product consortia; e.g. Consorzio Aceto Balsamico); EU olive-oil categories (EU Reg. 2022/2104, IOC) as a standard; California Olive Oil Council seal (COOC) as a certification; NYIOOC Gold and Silver (provisional: fetched page showed no criteria); Olive Oil Times World Ranking (memo S31) as a tier entry; Great Taste Awards 1, 2, 3 stars (Guild of Fine Food, blind judged) as tier entries on products; Slow Food Ark of Taste listing and Presidia (Slow Food Foundation) as a classification; JAS 1703 soy-sauce grades (MAFF); ISO 3632-1 saffron categories; UMF and MGO (UMF Honey Association); USDA nut grades (USDA AMS); APEDA basmati grain-length minimum (India); Japan Grain Inspection Association rice taste ranking (memo S29); certification attributes, not tiers: USDA Organic, Non-GMO Project Verified, Regenerative Organic Certified, Fairtrade
+- maker_role: none (confirm, provisional) with the R-115 b exception: a producer enters when a quality source names it (Great Taste winner, Slow Food Presidium, NYIOOC or Olive Oil Times ranking, consortium list of acetaie, JAS-certified brewery, specialist shop selection); never by regional harvest
+- side_view: Olive oil and balsamic also open by producer (ranked and consortium-listed producers only, as R-115 a does for tinned fish houses); generated views: protected designations (from designations), award winners (Great Taste, NYIOOC), heritage foods (Ark of Taste, Presidia), by tradition (from culinary links, standing in for the shops' world-cuisine aisle); origin and region only as a filter or a generated view, never a level
+- evidence_rows: Carrefour Market Morocco via Glovo (epicerie); Thrive Market (US online grocer); Chowhound olive oil guide; Chowhound balsamic vinegar article; Nutrada basmati rice guide (trade); Olio2go (Virginia, US) olive oil and Italian pantry shop; Great Taste Awards (Guild of Fine Food, UK); Slow Food Ark of Taste (Slow Food Foundation, Italy); NYIOOC help centre (New York International Olive Oil Competition); J5 memo S1 Waitrose, S4 EDEKA24, S16 Carrefour, S6, S17, S18, S22, S23, S29, S31
+- maker role row: {'code': 'J5', 'scope': '*', 'role': 'none', 'provisional': 'yes', 'reason': 'grocery rule; makers through branded products'}
+
+## Current display groups (group_id | name | level | parent | members)
+- G-J5-1 | Oils, fats & vinegars | 1 |  | J5.5
+- G-J5-10 | Olive oil | 2 | G-J5-1 | J5.5.1.01
+- G-J5-11 | Other cooking and finishing oils | 2 | G-J5-1 | J5.5.1.02; J5.5.1.03; J5.5.1.04; J5.5.1.05
+- G-J5-12 | Cooking fats | 2 | G-J5-1 | J5.5.2.01; J5.5.2.02
+- G-J5-13 | Vinegars and cooking wines | 2 | G-J5-1 | J5.5.3.01; J5.5.3.02; J5.5.3.03; J5.5.3.04; J5.5.3.05; J5.5.3.06; J5.5.3.07; J5.5.3.08; J5.5.3.09
+- G-J5-2 | Rice, pasta, grains & pulses | 1 |  | J5.1.1; J5.1.2; J5.1.3; J5.2; J5.3
+- G-J5-14 | Rice | 2 | G-J5-2 | J5.1.1.01; J5.1.1.02; J5.1.1.03; J5.1.1.04; J5.1.1.05; J5.1.1.06; J5.1.1.07; J5.1.1.08; J5.1.1.09
+- G-J5-15 | Pasta and noodles | 2 | G-J5-2 | J5.2.1.01; J5.2.1.02; J5.2.1.03; J5.2.1.04; J5.2.2.01; J5.2.3.01; J5.2.3.02; J5.2.3.03; J5.2.4.01; J5.2.5.01; J5.2.7.01
+- G-J5-16 | Other grains and breakfast cereals | 2 | G-J5-2 | J5.1.2.01; J5.1.2.02; J5.1.2.03; J5.1.2.04; J5.1.2.05; J5.1.2.06; J5.1.2.07; J5.1.2.08; J5.1.3.01
+- G-J5-17 | Pulses | 2 | G-J5-2 | J5.3.1.01; J5.3.1.02; J5.3.1.03; J5.3.1.04; J5.3.1.05; J5.3.2.01; J5.3.4.01; J5.3.4.02; J5.3.1.06; J5.3.4.03; J5.3.4.04; J5.3.1.07; J5.3.1.08; J5.3.1.09; J5.3.1.10; J5.3.4.05; J5.3.3.01
+- G-J5-3 | Flour, sugar & baking | 1 |  | J5.1.4; J5.7.1; J5.11
+- G-J5-18 | Flour | 2 | G-J5-3 | J5.1.4.01; J5.1.4.02; J5.1.4.03; J5.1.4.04; J5.1.4.05; J5.1.4.06; J5.1.4.07; J5.1.4.08; J5.1.4.09; J5.1.4.10; J5.1.4.11; J5.1.4.12; J5.1.4.13; J5.1.4.14
+- G-J5-19 | Sugar | 2 | G-J5-3 | J5.7.1.01; J5.7.1.02; J5.7.1.03; J5.7.1.04; J5.7.1.05; J5.7.1.06; J5.7.3.01; J5.7.3.02
+- G-J5-20 | Baking aids, flavourings and mixes | 2 | G-J5-3 | J5.11.1.02; J5.11.1.03; J5.11.1.04; J5.11.1.05; J5.11.2.01; J5.11.3.01; J5.11.1.01; J5.11.4.01; J5.11.4.02; J5.11.4.03
+- G-J5-4 | Spices, salt & stocks | 1 |  | J5.6; J5.9.5
+- G-J5-21 | Spices and dried herbs | 2 | G-J5-4 | J5.6.1.01; J5.6.1.02; J5.6.1.03; J5.6.1.04; J5.6.3.01; J5.6.3.02
+- G-J5-22 | Salt | 2 | G-J5-4 | J5.6.4.01; J5.6.4.02; J5.6.4.03; J5.6.4.04; J5.6.4.05; J5.6.4.06; J5.6.4.07
+- G-J5-23 | Stocks and bouillon | 2 | G-J5-4 | J5.9.5.01
+- G-J5-5 | Sauces & condiments | 1 |  | J5.9.1; J5.9.2; J5.9.3; J5.9.4; J5.9.6
+- G-J5-24 | Soy sauce and fermented seasonings | 2 | G-J5-5 | J5.9.1.01; J5.9.1.02; J5.9.1.03; J5.9.1.04; J5.9.1.05; J5.9.2.02; J5.9.2.03; J5.9.2.01; J5.9.2.04
+- G-J5-25 | Cooking sauces and pastes | 2 | G-J5-5 | J5.9.3.02; J5.9.3.01; J5.9.6.01; J5.9.6.02
+- G-J5-26 | Table sauces, condiments and dressings | 2 | G-J5-5 | J5.9.4.01; J5.9.4.02; J5.9.4.03; J5.9.4.04; J5.9.4.07; J5.9.4.06; J5.9.4.05; J5.9.4.08; J5.9.4.09; J5.9.4.10; J5.9.4.11; J5.9.4.12; J5.9.4.13
+- G-J5-6 | Tins, jars & preserves | 1 |  | J5.10.2; J5.10.3; J5.10.4; J5.10.5
+- G-J5-27 | Tinned and jarred | 2 | G-J5-6 | J5.10.2.01; J5.10.2.02; J5.10.2.03; J5.10.2.04; J5.10.2.05
+- G-J5-28 | Pickles, ferments and preserves in oil | 2 | G-J5-6 | J5.10.3.02; J5.10.3.01; J5.10.4.01; J5.10.4.02; J5.10.4.03
+- G-J5-7 | Nuts, seeds & dried fruit | 1 |  | J5.4; J5.10.1
+- G-J5-29 | Nuts and seeds | 2 | G-J5-7 | J5.4.1.01; J5.4.1.02; J5.4.1.03; J5.4.1.04; J5.4.1.05; J5.4.1.06; J5.4.2.01; J5.4.2.02; J5.4.3.01; J5.4.4.01; J5.4.0.01; J5.4.1.07; J5.4.1.08; J5.4.1.09; J5.4.1.10; J5.4.4.02
+- G-J5-30 | Dried fruit, vegetables and mushrooms | 2 | G-J5-7 | J5.10.1.01; J5.10.1.02
+- G-J5-8 | Honey, syrups & spreads | 1 |  | J5.7.2; J5.7.3; J5.8
+- G-J5-31 | Honey | 2 | G-J5-8 | J5.7.2.01; J5.7.2.02; J5.7.2.03; J5.7.2.04
+- G-J5-32 | Syrups and molasses | 2 | G-J5-8 | J5.7.3
+- G-J5-33 | Sweet spreads and nut butters | 2 | G-J5-8 | J5.8.1.01; J5.8.1.02; J5.8.2.01
+- G-J5-34 | Savoury spreads and dips | 2 | G-J5-8 | J5.8.3.01
+- G-J5-9 | Tofu & meat alternatives | 1 |  | J5.12.1.01; J5.12.1.02; J5.12.2.01; J5.12.2.02; J5.12.3.01; J5.12.4.01
+
+## Current quality markers (group_id | marker | values | why | evidence)
+- G-J5-10 | legal grade | extra virgin > virgin > olive oil (refined blend) > pomace | Less refined oil keeps flavour; grade is read first on the label. | Chowhound olive oil guide; J5 memo S6
+- G-J5-10 | harvest date and freshness | this season's harvest > last season's > undated | Freshest oil is for finishing; older oil for cooking. | Chowhound olive oil guide; Olio2go (Virginia, US) olive oil and Italian pantry shop
+- G-J5-10 | flavour and cultivar |  | Bitterness and pepper show good oil; cultivar sets the style. | Chowhound olive oil guide; Olio2go (Virginia, US) olive oil and Italian pantry shop
+- G-J5-10 | container | dark glass or tin > clear glass or plastic | Light-proof packs keep oil from spoiling. | Chowhound olive oil guide
+- G-J5-10 | competition result | NYIOOC Gold > Silver; Olive Oil Times ranking (provisional) | Competitions name the best oils; NYIOOC criteria not shown on fetched page. | NYIOOC help centre (New York International Olive Oil Competition); J5 memo S31
+- G-J5-13 | balsamic designation | Tradizionale di Modena DOP > Balsamico di Modena IGP > condiment or imitation | Designation fixes method and ingredients; imitations use additives. | Chowhound balsamic vinegar article; J5 memo S17, S18
+- G-J5-13 | balsamic age | DOP Extravecchio 25 y > DOP Affinato 12 y > IGP Riserva 5 y > IGP Invecchiato 3 y > IGP 60 days | Longer ageing gives the dense, complex vinegar buyers pay for. | Chowhound balsamic vinegar article; J5 memo S17, S18
+- G-J5-13 | clean label | must and vinegar only > added caramel or thickener | Supermarket versions imitate colour and body with additives. | Chowhound balsamic vinegar article
+- G-J5-14 | variety |  | Variety (1121, Pusa, Super Kernel; Koshihikari) sets grain and taste. | Nutrada basmati rice guide (trade); J5 memo S11, S29
+- G-J5-14 | broken grains | 0-2% > 2-5% > over 5% | Trade grades premium rice by its share of broken grains. | Nutrada basmati rice guide (trade)
+- G-J5-14 | grain length | longer > shorter (basmati minimum 6.61 mm) | Length after the APEDA minimum marks premium basmati. | Nutrada basmati rice guide (trade)
+- G-J5-14 | age | aged 12-24 months > new crop | Aged basmati cooks longer grains and costs 10-20% more. | Nutrada basmati rice guide (trade); J5 memo S11
+- G-J5-14 | moisture and chalky grains | moisture 13% max; chalky under 3-5% > more | Physical trade limits separate sound rice from poor lots. | Nutrada basmati rice guide (trade)
+- G-J5-14 | Japanese rice taste rank | Toku-A > A > A' > B > B' | Grain inspection ranks area-by-cultivar rice against a Koshihikari blend. | J5 memo S29, S30
+- G-J5-24 | JAS soy-sauce grade | Cho-tokusen > Tokusen > Tokkyu > Jokyu > Hyojun | JAS grades by nitrogen, extract and colour within each type. | J5 memo S22, S23
+- G-J5-21 | saffron ISO category | Category I > II > III | ISO lab tests colour, taste and aroma strength. | J5 memo S15, S19
+- G-J5-21 | traceable single origin and freshness |  | Direct-trade sellers sell by farm and harvest; provisional, no HOL evidence. | J5 memo S20
+- G-J5-31 | floral source |  | Called the single most important factor in honey; choice, not ladder. | J5 memo S26
+- G-J5-31 | manuka measured grade | higher UMF or MGO > lower | Measured markers grade manuka strength. | J5 memo S7
+- G-J5-29 | USDA grade by nut and form |  | Voluntary USDA grades exist per nut; steps not fetched (provisional). | J5 memo S24
+- G-J5-1 | protected origin | DOP > IGP > none | Protected names bind method and place; shoppers filter by them. | Chowhound balsamic vinegar article; Olio2go (Virginia, US) olive oil and Italian pantry shop
+- G-J5-1 | blind-tasting award (all J5 groups) | Great Taste 3 stars > 2 stars > 1 star > none | Blind-judged award across food types; under 2% reach three stars. | Great Taste Awards (Guild of Fine Food, UK)
+- G-J5-1 | heritage listing (all J5 groups) | Presidium > Ark of Taste listing > none | Slow Food selects distinctive local products at risk. | Slow Food Ark of Taste (Slow Food Foundation, Italy)
+- G-J5-2 | certifications and values filters (all J5 groups) |  | Organic and non-GMO lead US filters; facets, not quality ladder. | Thrive Market (US online grocer)
+
+## Kinds (kind_id | stored name | native name | definition)
+- J5.1.1.01 | Long-grain rice |  | slender non-aromatic rice grains that stay separate when cooked.
+- J5.1.1.02 | Basmati rice |  | the long, aromatic, aged grain of the basmati group.
+- J5.1.1.03 | Jasmine rice |  | the long, soft, fragrant grain of the jasmine group.
+- J5.1.1.04 | Medium- and short-grain rice |  | rounder rice that cooks tender and clings, including sushi and pudding rice and the Indian table rices.
+- J5.1.1.05 | Risotto rice |  | rice sold for risotto because it gives up starch as it cooks.
+- J5.1.1.06 | Paella rice |  | rice sold for paella because it absorbs a lot of stock and stays whole.
+- J5.1.1.07 | Glutinous (sticky) rice |  | rice that turns sticky and translucent when cooked, of any bran colour.
+- J5.1.1.08 | Red and black rice |  | non-glutinous rice with a red or black bran layer left on.
+- J5.1.1.09 | Flattened rice (poha) |  | rice grains steamed or parboiled and rolled flat.
+- J5.1.2.01 | Millet |  | small whole millet grains (finger, foxtail, kodo and others).
+- J5.1.2.02 | Quinoa |  | the seed of the quinoa plant sold as a grain.
+- J5.1.2.03 | Wild rice |  | the long dark grain of the aquatic grass Zizania, not a rice plant.
+- J5.1.2.04 | Tapioca pearls (sabudana) |  | dried pearls of cassava starch.
+- J5.1.4.01 | Plain / all-purpose wheat flour |  | refined soft-wheat flour for general baking and cooking.
+- J5.1.4.02 | Bread and pizza wheat flour |  | stronger wheat flour for yeast doughs.
+- J5.1.4.03 | Wholemeal wheat flour |  | wheat flour milled from the whole grain.
+- J5.1.4.04 | Rye flour |  | flour milled from rye.
+- J5.1.4.05 | Spelt flour |  | flour milled from spelt.
+- J5.1.4.06 | Whole-wheat atta |  | finely ground whole-wheat flour for South Asian flatbreads.
+- J5.1.4.07 | Semolina (sooji, rava) |  | coarse granular milled wheat endosperm.
+- J5.1.4.08 | Chickpea flour (besan) |  | flour milled from chickpeas.
+- J5.1.4.09 | Rice flour |  | flour milled from rice.
+- J5.2.1.01 | Long-strand pasta |  | long cut strands of durum pasta, solid or hollow.
+- J5.2.1.02 | Tube pasta |  | short hollow cuts of durum pasta.
+- J5.2.1.03 | Short and twisted pasta |  | short solid shapes of durum pasta, twisted, shell or bow.
+- J5.2.1.04 | Soup pasta (pastina) |  | very small shapes of durum pasta for cooking in broth.
+- J5.2.2.01 | Egg pasta, ribbons and nests |  | pasta or noodles made with egg in the dough, cut into ribbons or coiled nests.
+- J5.2.3.01 | Udon |  | thick Japanese wheat noodles.
+- J5.2.3.02 | Somen |  | very thin Japanese wheat noodles.
+- J5.2.3.03 | Ramen noodles |  | alkaline wheat noodles, fresh, dried or in an instant brick.
+- J5.2.4.01 | Soba |  | Japanese noodles made with buckwheat flour; the buckwheat share is an attribute.
+- J5.2.5.01 | Glass noodles (harusame) |  | transparent noodles made from mung bean, potato or a similar pure starch.
+- J5.2.7.01 | Potato gnocchi |  | small unfilled dumplings of potato dough.
+- J5.3.1.01 | Red kidney beans (rajma) |  | the dark red, kidney-shaped Phaseolus bean.
+- J5.3.1.02 | Small red beans |  | small red Phaseolus beans.
+- J5.3.1.03 | Lima beans |  | flat, pale lima (butter) beans.
+- J5.3.1.04 | Mung beans |  | small green mung beans, whole or split.
+- J5.3.1.05 | Black gram (urad) |  | black gram beans, whole or split.
+- J5.3.2.01 | Lentils (masoor) |  | lentils of any colour, whole or split.
+- J5.3.4.01 | Chickpeas |  | kabuli or desi chickpeas, dried or tinned.
+- J5.3.4.02 | Pigeon peas (toor, arhar) |  | pigeon peas, whole or split as dal.
+- J5.4.1.01 | Almonds |  | almonds in any form.
+- J5.4.1.02 | Walnuts |  | walnuts in any form.
+- J5.4.1.03 | Pecans |  | pecans in any form.
+- J5.4.1.04 | Hazelnuts (filberts) |  | hazelnuts in any form.
+- J5.4.1.05 | Cashews |  | cashew nuts in any form.
+- J5.4.1.06 | Chestnuts |  | chestnuts, fresh, dried, roasted or peeled.
+- J5.4.2.01 | Desiccated coconut |  | dried shredded or grated coconut flesh.
+- J5.4.2.02 | Coconut milk and cream |  | the pressed milk or cream of coconut flesh sold in a tin or carton for cooking; a coconut drink is J3.
+- J5.4.3.01 | Peanuts |  | peanuts in any form; the Virginia, Runner or Spanish type is an attribute.
+- J5.4.4.01 | Hemp seeds |  | shelled or whole hemp seeds sold as food.
+- J5.4.0.01 | Mixed nuts |  | a mix of several nuts in which no one nut makes up half or more of the weight (K-46).
+- J5.5.1.01 | Olive oil |  | oil pressed from olives, all legal categories together.
+- J5.5.1.02 | Sesame (gingelly) oil |  | oil pressed from sesame seed.
+- J5.5.1.03 | Mustard oil |  | oil pressed from mustard seed.
+- J5.5.1.04 | Rapeseed oil |  | oil pressed from rapeseed.
+- J5.5.1.05 | Sunflower oil |  | oil pressed from sunflower seed.
+- J5.5.2.01 | Lard and dripping |  | rendered pork or beef fat.
+- J5.5.2.02 | Margarine and plant-only fat spreads |  | spreadable fat made from plant oils and water, with no butter (K-53).
+- J5.5.3.01 | Wine vinegar |  | vinegar made from wine.
+- J5.5.3.02 | Balsamic vinegar |  | vinegar of cooked grape must, alone or with wine vinegar, including the protected Modena types.
+- J5.5.3.03 | Rice vinegar |  | vinegar made from rice.
+- J5.5.3.04 | Malt vinegar |  | vinegar made from malted barley.
+- J5.5.3.05 | Cider vinegar |  | vinegar made from apple cider.
+- J5.5.3.06 | Mirin |  | sweet rice seasoning sold for cooking, hon-mirin and mirin-style seasoning.
+- J5.5.3.07 | Cooking wine |  | wine made or sold for cooking.
+- J5.5.3.08 | Cooking sake |  | sake made or sold for cooking.
+- J5.6.1.01 | Saffron |  | dried stigmas of the saffron crocus.
+- J5.6.1.02 | Cinnamon |  | dried cinnamon or cassia bark, whole or ground.
+- J5.6.1.03 | Dried chilli and paprika |  | dried chillies and paprika, whole, flaked or ground.
+- J5.6.1.04 | Cumin (jeera) |  | cumin seed, whole or ground.
+- J5.6.3.01 | Garam masala |  | the North Indian ground spice blend.
+- J5.6.4.01 | Table salt |  | fine, free-flowing salt, iodised or not.
+- J5.6.4.02 | Kosher salt |  | coarse, light-crystal cooking salt.
+- J5.6.4.03 | Flake salt |  | thin hollow or pyramid flakes used to finish dishes.
+- J5.6.4.04 | Fleur de sel |  | the fine crust of sea salt skimmed by hand from the pans.
+- J5.7.1.01 | Demerara sugar |  | large-crystal pale-brown cane sugar.
+- J5.7.1.02 | Muscovado sugar |  | moist dark unrefined cane sugar.
+- J5.7.1.03 | Whole cane sugar blocks (jaggery, piloncillo) |  | unrefined cane juice boiled down and set in blocks or cones.
+- J5.7.2.01 | Manuka honey |  | honey from manuka flowers.
+- J5.7.2.02 | Acacia honey |  | honey from acacia flowers.
+- J5.7.2.03 | Clover honey |  | honey from clover flowers.
+- J5.7.2.04 | Buckwheat honey |  | honey from buckwheat flowers.
+- J5.8.1.01 | Jam and fruit spreads |  | fruit cooked with sugar to a spread.
+- J5.8.1.02 | Hazelnut-chocolate spread |  | a sweet spread of hazelnuts with chocolate or cocoa.
+- J5.8.2.01 | Peanut butter |  | ground roasted peanuts as a spread.
+- J5.8.3.01 | Pesto |  | a paste of basil or other herbs with oil and nuts or cheese, jarred or chilled.
+- J5.9.1.01 | Koikuchi soy sauce |  | the common dark Japanese soy sauce of soybeans and wheat.
+- J5.9.1.02 | Usukuchi soy sauce |  | light-coloured, saltier Japanese soy sauce.
+- J5.9.1.03 | Tamari soy sauce |  | soy sauce brewed mainly from soybeans, with little or no wheat.
+- J5.9.1.04 | Saishikomi soy sauce |  | twice-brewed soy sauce, made with soy sauce in place of brine.
+- J5.9.1.05 | Shiro soy sauce |  | very pale soy sauce made mostly from wheat.
+- J5.9.2.02 | Fermented chilli paste (gochujang) |  | a fermented paste of chilli, glutinous rice and soybeans used to season.
+- J5.9.2.03 | Broad-bean chilli paste (doubanjiang) |  | a fermented paste of broad beans and chilli used to season.
+- J5.9.2.01 | Fermented soybean paste |  | a fermented paste of soybeans, with or without grain, used to season.
+- J5.9.3.02 | Oyster sauce and hoisin sauce |  | thick dark Chinese cooking sauces of oyster extract or of fermented soybeans.
+- J5.9.3.01 | Tomato pasta sauces |  | tomato-based sauces for pasta, in jars, with or without meat.
+- J5.9.2.04 | Fish sauce |  | the liquid drawn from salted, fermented fish.
+- J5.9.4.01 | Ketchup |  | thick sweet-sour tomato table sauce.
+- J5.9.4.02 | Mayonnaise |  | an emulsion of egg yolk and oil.
+- J5.9.4.03 | Mustard |  | prepared mustard, a paste of mustard seed.
+- J5.9.4.04 | Horseradish |  | prepared grated horseradish.
+- J5.9.4.07 | Bitters sold as a flavouring by the dash |  | concentrated bitter flavouring used a few drops at a time; a bitter liqueur or drinking bitters sold by the glass is J7.
+- J5.9.5.01 | Stock cubes and bouillon |  | cubes, powders, pastes and liquids for making stock, from any source.
+- J5.9.4.06 | Chilli oil |  | oil infused with chilli, with or without solids.
+- J5.9.4.05 | Salad dressing |  | pourable dressings for salad.
+- J5.10.1.01 | Dried mushrooms |  | dried edible fungi.
+- J5.10.1.02 | Dried seaweed |  | dried edible seaweed (cross-linked from J4 G-J4-26).
+- J5.10.2.01 | Whole peeled tomatoes |  | whole peeled tomatoes, heat-processed in the pack.
+- J5.10.2.02 | Chopped tomatoes |  | chopped tomatoes, heat-processed in the pack.
+- J5.10.2.03 | Passata |  | sieved raw tomato pulp, heat-processed in the pack.
+- J5.10.2.04 | Tomato purée and paste |  | concentrated tomato purée or paste.
+- J5.10.2.05 | Tinned sweetcorn |  | sweetcorn kernels, heat-processed in the pack.
+- J5.10.3.02 | Pickled peppers |  | peppers pickled in vinegar.
+- J5.10.3.01 | Gherkins (cornichons) |  | small cucumbers pickled in vinegar.
+- J5.10.4.01 | Table olives |  | olives cured in brine, salt or by another cure.
+- J5.10.4.02 | Sauerkraut |  | salt-fermented shredded cabbage.
+- J5.10.4.03 | Kimchi |  | salt- and chilli-fermented vegetables, usually napa cabbage.
+- J5.11.1.02 | Dried yeast |  | dried baker's yeast.
+- J5.11.1.03 | Malt extract |  | concentrated malt wort, liquid or dry, for brewing or baking.
+- J5.11.1.04 | Hops |  | hops sold for brewing.
+- J5.11.1.05 | Brewing yeast |  | yeast for home brewing and winemaking.
+- J5.11.2.01 | Vanilla and baking flavourings |  | vanilla extract, paste and essences and other flavourings for baking.
+- J5.11.3.01 | Gelatine and setting agents |  | gelatine, agar and similar agents that set a liquid.
+- J5.11.1.01 | Baking powder |  | chemical raising agent.
+- J5.11.4.01 | Baking chocolate and couverture |  | chocolate, chips included, sold to melt, temper or bake with.
+- J5.11.4.02 | Unbaked pastry |  | unbaked dough or pastry sheets and blocks.
+- J5.11.4.03 | Cake and baking mixes |  | dry mixes to which only liquid, egg or fat is added before baking.
+- J5.12.1.01 | Tofu |  | soybean curd set from soy milk.
+- J5.12.1.02 | Fermented bean curd |  | tofu cubes fermented in brine.
+- J5.12.2.01 | Tempeh |  | whole beans cultured into a firm cake.
+- J5.12.2.02 | Natto |  | whole soybeans fermented to a sticky mass.
+- J5.12.3.01 | Seitan |  | wheat gluten prepared as a meat-like protein food.
+- J5.12.4.01 | Plant-based burgers and sausages |  | formed plant-protein patties, sausages and similar shapes imitating meat, seasoned but not coated, filled or sauced.
+- J5.1.2.05 | Pearl barley |  | barley grains with the hull and bran polished off, sold to cook.
+- J5.1.2.06 | Buckwheat groats [kasha] |  | hulled buckwheat seeds, raw or roasted.
+- J5.1.2.07 | Popcorn kernels |  | dried kernels of popping maize sold to pop.
+- J5.1.3.01 | Rolled oats |  | oat groats steamed and rolled flat (jumbo, porridge or quick).
+- J5.1.4.10 | Maize flour [makki atta] |  | flour milled from whole maize; cornflour starch is not this kind.
+- J5.1.4.11 | Millet flour [bajra] |  | flour milled from pearl or other millets.
+- J5.1.4.12 | Urad flour |  | flour milled from black gram.
+- J5.1.4.13 | Moong flour |  | flour milled from mung beans.
+- J5.1.4.14 | Buckwheat flour |  | flour milled from buckwheat.
+- J5.1.2.08 | Cracked wheat [dalia] |  | whole wheat grains cracked into coarse pieces, sold to cook as a grain.
+- J5.3.3.01 | Dried peas (split peas) |  | dried field peas, whole or split, green or yellow.
+- J5.3.1.06 | Black-eyed peas [lobia] |  | dried cowpeas (Vigna unguiculata) with a dark eye.
+- J5.3.4.03 | Horse gram [kulthi] |  | dried horse gram seeds (Macrotyloma uniflorum).
+- J5.3.4.04 | Dried soybeans |  | whole dried soybeans sold to cook.
+- J5.3.1.07 | Black beans [turtle beans] |  | small black Phaseolus beans.
+- J5.3.1.08 | Navy (haricot) beans |  | small white Phaseolus beans.
+- J5.3.1.09 | Pinto beans |  | mottled beige Phaseolus beans.
+- J5.3.1.10 | Cannellini beans |  | large white kidney-shaped Phaseolus beans.
+- J5.4.1.07 | Pine nuts |  | edible pine seeds in any form.
+- J5.4.1.08 | Pistachios |  | pistachio nuts in any form.
+- J5.4.1.09 | Macadamias |  | macadamia nuts in any form.
+- J5.4.1.10 | Brazil nuts |  | Brazil nuts in any form.
+- J5.3.4.05 | Dried broad beans [fava, ful] |  | dried broad beans (Vicia faba), whole or split.
+- J5.5.3.09 | Distilled (spirit) vinegar |  | clear vinegar made from distilled grain or cane alcohol.
+- J5.7.1.04 | White sugar (granulated) |  | refined white cane or beet sugar crystals; crystal size (caster, granulated) is an attribute.
+- J5.7.1.05 | Icing sugar [powdered sugar] |  | white sugar milled to a fine powder, often with an anti-caking agent.
+- J5.7.1.06 | Soft brown sugar |  | fine moist brown sugar, light or dark, of refined sugar with molasses.
+- J5.7.3.01 | Flavoured syrup |  | sugar syrup flavoured with caramel, nuts, vanilla or the like, for coffee and desserts.
+- J5.7.3.02 | Molasses and treacle |  | thick dark syrup left from sugar refining, sold as molasses or black treacle.
+- J5.6.4.05 | Rock salt |  | mined salt sold coarse for grinders or cooking.
+- J5.6.4.06 | Sea salt |  | salt evaporated from sea water, fine or coarse crystals; flake salt and fleur de sel keep their kinds.
+- J5.6.4.07 | Low-sodium salt |  | salt blended with potassium chloride or other minerals to lower its sodium.
+- J5.9.4.08 | Hot sauce [chilli sauce] |  | pourable table sauce of chillies with vinegar or salt, fermented or not.
+- J5.9.4.09 | Barbecue sauce |  | thick sweet, smoky or tangy tomato or vinegar sauce for grilled meat.
+- J5.9.4.10 | Sweet chilli sauce |  | thick sweet sauce of chilli, sugar, garlic and vinegar in the Thai style.
+- J5.9.4.11 | Worcestershire sauce |  | fermented brown sauce of vinegar, molasses, tamarind and anchovy.
+- J5.9.4.12 | Salad cream |  | pourable egg, oil and vinegar emulsion, sharper and thinner than mayonnaise.
+- J5.9.4.13 | Prepared wasabi |  | wasabi or wasabi-style horseradish paste or sauce in a tube or bottle.
+- J5.9.6.01 | Curry paste |  | paste of chillies, aromatics and spices sold to start a curry.
+- J5.9.6.02 | Chilli paste [nam prik pao; sambal; harissa] |  | unfermented paste of chillies, roasted or raw, with oil, garlic or spices; gochujang is J5.9.2.02.
+- J5.4.4.02 | Sunflower seeds |  | shelled or in-shell sunflower seeds sold as food.
+- J5.6.3.02 | Jal-jeera masala |  | ground spice blend of cumin, black salt, mint and mango powder for drinks and snacks.
