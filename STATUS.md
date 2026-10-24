@@ -333,3 +333,11 @@ Owner reads the reader page and the queue; moves between categories change the t
 | Scenes | Clothing opens by scene on the reader page (20 groups, 233 scenes, 9,486 brand placements, signature pieces), by garment on a toggle. |
 | Final page | The Possession Taxonomy: https://claude.ai/artifact/C1cQq1ygVd7bWfw7Duem6n (6,456 kinds in 53 categories). |
 | Branches | main now holds everything: this branch merged with main, claude/stoic-ptolemy-4nctsh and claude/adoring-gates-42vva3 (their files are all present here in later versions; histories kept, nothing rewritten). |
+
+## Session 12, continued — granularity (R-129)
+| Step | Result |
+|---|---|
+| Splits | GR_<CODE> reviews for all 53 categories: 286 new kinds, each attested on a fetched shop page (fidget toys into spinners, pop-its, cubes, squishies and the rest; lettuce, onion, tomato, cabbage; crab species; rigid trucks). Named forms re-filed; old kinds kept as "Other …" or the general type. |
+| Cards | GC_<CODE> card passes for all 53: 81 cards over 207 kinds that shops sell as one item with options (table saw, bench plane, mattress, kitchen bin, baler…), shown as one card with a "Types" line. 5 proposed cards dropped at integration (hot tub, vaporizer, toy train, accordion, sake). |
+| Page | "Where this was checked" and "Where this scene is described" links removed. Reader republished: 6,742 kinds; every live kind on one shelf with a display row. |
+| Open | Undecided splits the reviewers left for lack of a fetched shop page are listed in verify/out/GR_<CODE>_report.md (e.g. makeup and hair brushes, melons, potatoes, special-purpose vehicles). |

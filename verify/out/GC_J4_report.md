@@ -1,0 +1,3 @@
+GC_J4 (J4 fresh produce): no cards added; cards file holds the header only (J4 has no existing cards).
+Shops checked (fetched): Stop & Shop lettuce, fresh onions, onions & garlic aisles; Hannaford cabbage aisle. Walmart.ca, Walmart.com and Uber Eats failed (bot check/403). Stop & Shop tomato aisle seen in search excerpt only.
+Cases considered and left: lettuce (iceberg, romaine, butterhead, other), onions (red, white, sweet, yellow), tomatoes (cherry, grape, plum, beefsteak, vine, other), cabbage (green/white, red, savoy). Each has its own subcategory page at the shops fetched, so condition 3 fails; shoppers shop them as separate types. Citrus easy-peelers (clementine, satsuma, mandarin) left: distinct named fruits with their own PLU rows, not size or feature variants.
