@@ -23,9 +23,10 @@ WAY_IN = {"A1": ["Which scene?", "Which brand?", "Which signature piece?"],
           "C6": ["Which instrument?", "Which design?", "Which model?"],
           "D5": ["What are you shopping for?", "Which form?", "Which model?"],
           "I1": ["What do you want to do?", "Which tool?", "Which product?"],
-          "J2": ["How is it sold?", "Which animal?", "Which species, origin and grade?"],
-          "J3": ["What are you buying?", "Which type?", "Which variety or protected name?"],
-          "J4": ["What are you buying?", "Which crop group?", "Which produce and variety?"]}
+          "J2": ["How is it sold?", "Which animal?", "Which origin and grade?"],
+          "J3": ["What are you buying?", "Which type?", "Which origin, breed and grade?"],
+          "J4": ["What are you buying?", "Which produce?", "Which variety, origin and grade?"]}
+# groceries: origin and grade replace the maker step (owner, 2026-10-24; R-109 d, R-112)
 
 def srcs(r):
     s = [x.strip() for x in (r.get("sources") or "").split("|") if x.strip()]
@@ -88,6 +89,17 @@ def main():
         if m not in data["makers"] and m in makers:
             data["makers"][m] = {"name": makers[m]["name"], "native": makers[m]["native_name"], "cls": makers[m]["maker_class"],
                                  "country": makers[m]["country"], "src": srcs(makers[m])[:1], "kinds": sorted(mk_kinds[m])}
+    og = defaultdict(lambda: {"d": [], "v": [], "g": []})
+    for d in read_tsv(ROOT / "data/designations.tsv"):
+        for k in ([d["kind_id"]] if d["kind_id"] else []) + [x.strip() for x in d["kinds_served"].split("|") if x.strip()]:
+            if k in kind_ids: og[k]["d"].append({"name": d["name"], "scheme": d["scheme"], "country": d["country"], "src": srcs(d)})
+    for v in read_tsv(ROOT / "data/varieties.tsv"):
+        if v["kind_id"] in kind_ids: og[v["kind_id"]]["v"].append({"name": v["name"], "native": v["native_name"], "type": v["variety_type"],
+                                                                 "holder": v["holder"], "src": srcs(v)})
+    for g in read_tsv(ROOT / "data/grading_scales.tsv"):
+        for k in [x.strip() for x in g["kinds_served"].split("|") if x.strip()]:
+            if k in kind_ids: og[k]["g"].append({"name": g["name"], "owner": g["owner"], "steps": g["steps"], "where": g["jurisdiction"], "src": srcs(g)})
+    data["og"] = og
     data["coverage"] = coverage()
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
     OUT.parent.mkdir(exist_ok=True)
@@ -187,6 +199,7 @@ details.kind[open] > summary::before { content: "▾"; }
 .src i { font-style: normal; color: var(--muted); margin-left: 6px; }
 .src.part { background: var(--mark-soft); color: var(--mark); }
 .nfs { display: flex; flex-wrap: wrap; gap: 5px; }
+.grades { margin: 4px 0 0; padding-left: 18px; font-size: 13px; }
 .nf { font: 13px/1.3 var(--display); border: 1px solid var(--rule); border-radius: 4px; padding: 3px 7px; color: var(--fg); text-decoration: none; background: var(--bg); }
 .nf small { color: var(--muted); margin-left: 4px; }
 .nf.free { border-color: var(--ok); }
@@ -266,11 +279,21 @@ function start(D) {
     const sum = $('summary', {}, $('span', { class: 'kname' }, k.name + (k.native ? ' [' + k.native + ']' : ''), $('span', { class: 'id', text: k.id })),
       $('span', {}, k.new ? $('span', { class: 'chip new', title: "Added by a decision pass after the harvest", text: 'new' }) : null,
         k.dagger ? $('span', { class: 'chip dag', title: 'Marked † in the memo: now attested by the harvest', text: '† attested' }) : null),
-      $('span', { class: 'count', text: nf.length + ' forms · ' + ln.length + ' lines' }));
+      $('span', { class: 'count', text: ((D.og || {})[k.id] ? ((D.og[k.id].d.length + D.og[k.id].v.length) + ' origins & varieties · ') : '') + nf.length + ' forms · ' + ln.length + ' lines' }));
     const body = $('div', { class: 'kbody' });
     if (k.def) body.append($('p', { text: k.def }));
     if (k.notes) body.append($('p', { class: 'empty', text: k.notes }));
     body.append($('div', {}, $('div', { class: 'label', text: 'Attested on' }), srcList(k.src)));
+    const og = (D.og || {})[k.id];
+    if (og) {
+      const chip = (href, txt, small, free) => $('a', { class: 'nf' + (free ? ' free' : ''), href: href || '#', target: '_blank', rel: 'noopener' }, txt, small ? $('small', { text: small }) : null);
+      if (og.d.length) body.append($('div', {}, $('div', { class: 'label', text: 'Protected origins (' + og.d.length + ')' }),
+        $('div', { class: 'nfs' }, og.d.sort((a, b) => a.name.localeCompare(b.name)).map(d => chip((d.src[0] || [])[0], d.name, [d.scheme, d.country].filter(Boolean).join(' · '), true)))));
+      if (og.v.length) body.append($('div', {}, $('div', { class: 'label', text: 'Varieties and breeds (' + og.v.length + ')' }),
+        $('div', { class: 'nfs' }, og.v.sort((a, b) => a.name.localeCompare(b.name)).map(v => chip((v.src[0] || [])[0], v.name + (v.native ? ' [' + v.native + ']' : ''), [v.type, v.holder].filter(Boolean).join(' · '), v.type !== 'club cultivar')))));
+      if (og.g.length) body.append($('div', {}, $('div', { class: 'label', text: 'Grades' }),
+        $('ul', { class: 'grades' }, og.g.map(g => $('li', {}, $('a', { href: (g.src[0] || [])[0] || '#', target: '_blank', rel: 'noopener', text: g.name }), ' (' + [g.owner, g.where].filter(Boolean).join(', ') + '): ' + g.steps)))));
+    }
     if (ln.length) body.append($('div', {}, $('div', { class: 'label', text: 'Lines (maker series spanning models)' }),
       $('div', { class: 'nfs' }, ln.map(l => $('a', { class: 'nf', href: (l.src[0] || [])[0] || '#', target: '_blank', rel: 'noopener' }, l.name, $('small', { text: mname(l.maker) }))))));
     const byMaker = {};
@@ -283,7 +306,8 @@ function start(D) {
     if (nf.length) nfBox.append(wrapNf);
     body.append(nfBox);
     const d = $('details', { class: 'kind', id: 'k-' + k.id }, sum, body);
-    d.dataset.text = [k.id, k.name, k.native, k.def, ...nf.map(n => n.name + ' ' + mname(n.maker)), ...ln.map(l => l.name + ' ' + mname(l.maker))].join(' ').toLowerCase();
+    const ogt = og ? [...og.d.map(d => d.name), ...og.v.map(v => v.name + ' ' + (v.native || ''))] : [];
+    d.dataset.text = [k.id, k.name, k.native, k.def, ...ogt, ...nf.map(n => n.name + ' ' + mname(n.maker)), ...ln.map(l => l.name + ' ' + mname(l.maker))].join(' ').toLowerCase();
     return d;
   }
 
@@ -296,7 +320,8 @@ function start(D) {
     const mk = new Set([...nfs.map(n => n.maker), ...lines.map(l => l.maker)].filter(Boolean));
     const cname = D.codes.find(c => c.code === code).name;
     main.append($('div', { class: 'stats' },
-      [[kinds.length, 'kinds attested'], [nfs.length, 'named forms'], [lines.length, 'lines'], [mk.size, 'makers linked'], [kinds.filter(k => k.new).length, 'kinds added in the pilot']]
+      [[kinds.length, 'kinds attested'], [nfs.length, 'named forms'], [lines.length, 'lines'], [mk.size, 'makers linked'], [kinds.filter(k => k.new).length, 'kinds added in the pilot'],
+       ...(code.startsWith('J') ? [[kinds.reduce((a, k) => a + (((D.og || {})[k.id] || {}).d || []).length, 0), 'protected-origin ties'], [kinds.reduce((a, k) => a + (((D.og || {})[k.id] || {}).v || []).length, 0), 'varieties and breeds']] : [])]
         .map(([n, l]) => $('div', {}, $('b', { text: n.toLocaleString('en') }), $('span', { text: l })))));
     const C = D.codes.find(c => c.code === code);
     if (C.way.length && code !== 'A1') main.append($('p', { class: 'way' }, $('span', { class: 'label', text: 'Way in' }), C.way.join('  →  ')));
