@@ -1,0 +1,44 @@
+url	fetch_status	gave
+https://www.consumerreports.org/cordless-drills/best-cordless-drills-of-the-year/	partial	WebFetch: CR drill testing described in words, no numeric scale, members-only ratings
+https://www.choice.com.au/home-improvement/building-and-renovating/tools/articles/how-we-test-cordless-drills	partial	WebFetch: Expert Rating weights, recommended at 80% or more (first 100000 chars)
+https://www.protoolreviews.com/about-us	failed	WebFetch HTTP 403
+https://www.protoolreviews.com/about-us	partial	Parallel web_fetch: about page, no score or class definition
+https://www.which.co.uk/reviews/lawn-mowers/article/how-we-test-lawn-mowers	full	WebFetch: Best Buy, Great Value, Eco Buy, Don't Buy thresholds
+https://consumer.org.nz/products/lawnmowers/how-we-test	partial	WebFetch: Lifetime score and highest-to-lowest reliability levels, no products
+https://www.gardenersworld.com/reviews/tools/pruning/best-secateurs	failed	WebFetch 307 redirect to tollbit host
+https://tollbit.gardenersworld.com/reviews/tools/pruning/best-secateurs	full	WebFetch (redirect target given by server): 5-star ratings and awards of 19 secateurs
+https://www.rhs.org.uk/plants/trials-awards/award-of-garden-merit	partial	WebFetch: AGM definition and criteria; hardiness ratings not on page
+https://aos.org/aos-awards	full	WebFetch: HCC 75-79, AM 80-89, FCC 90+ and other awards
+https://www.rhs.org.uk/advice/rhs-hardiness-rating	full	WebFetch: H1a to H7 table with temperatures
+https://designlights.org/our-work/horticultural-lighting/technical-requirements/	partial	WebFetch: V4.0 effective 2025-04-18, QPL location, percentage thresholds only
+https://craftyarncouncil.com/node/3179	full	WebFetch: CYC categories 0 to 7 with names and gauges
+https://cpsa.org/?p=863	partial	WebFetch: page covers ASTM D6901 not D4303; categories I to V
+https://www.astm.org/Standards/D4303.htm	failed	WebFetch HTTP 403
+https://www.astm.org/Standards/D4303.htm	partial	Parallel web_fetch: D4303-10(2022) scope, categories by color difference; category names not on page
+https://planthardiness.ars.usda.gov/pages/map-creation	partial	WebFetch: mean annual extreme minimum, 1991-2020, zones 12 and 13
+https://www.acmiart.org/acmi-seals	failed	WebFetch HTTP 404
+https://www.acmiart.org/acmi-seals	full	Parallel web_fetch: AP and CL seal definitions, ASTM D 4236, LHAMA
+https://colour-index.com/assets/files/upl/Introduction_to_the_Colour_Index_Revised_March_2021.pdf	failed	WebFetch HTTP 404
+https://colour-index.com/assets/files/upl/Introduction_to_the_Colour_Index_Revised_March_2021.pdf	full	Parallel web_fetch: CIGN and CICN definitions
+https://education.goldenpaints.com/technicaldata/pigment.php	failed	WebFetch DNS error
+https://digitalcommons.unl.edu/tractormuseumlit/3425/	partial	WebFetch: Fendt 930 S1177 record, OECD/SAE/ASABE codes, no measured values
+https://typo3.dlg.org/fileadmin/downloads/ueber-uns/broschueren/Flyer_TZ_Technik_Betriebsmittel.pdf	failed	WebFetch HTTP 503 and Parallel network error
+https://www.topagrar.com/technik/aus-dem-heft/top-agrar-test-sieben-zweitklaessler-9666047.html	partial	WebFetch: seven tractors named, no scores, paywalled
+https://planthardiness.ars.usda.gov/pages/how-to-use-the-maps	full	Parallel web_fetch: 10F zones 1 to 13, a and b half zones, 1991-2020
+https://www.stereophile.com/content/recommended-components-2019-edition-how-use-listings	failed	WebFetch HTTP 403
+https://www.stereophile.com/content/recommended-components-2019-edition-how-use-listings	full	Parallel web_fetch: Class A, A+, B, C, D, E, K definitions
+https://rtings.com/company/test-benches-and-scoring-system	partial	WebFetch: nav only
+https://rtings.com/company/test-benches-and-scoring-system	full	Parallel web_fetch: scale 0-10, 0-5.9 / 6.0-7.4 / 7.5-10, test bench versions
+https://crinacle.com/rankings/iems/	partial	WebFetch: tier definitions S to F, 2023-08-19 update, first 100000 chars
+https://www.dxomark.com/dxomark-mobile-scores-smartphone-cameras/	full	WebFetch: overall score not weighted sum, no cap, sub-scores
+https://www.dxomark.com/dxomark-lens-camera-sensor-testing-protocol	full	WebFetch: lens score definition, linear open-ended scale
+https://www.notebookcheck.net/Our-Rating-Criteria.16002.0.html	full	WebFetch: percent bands Insufficient to Excellent; 12/2016 weights
+https://www.antutu.com/web/news/detail?id=135950	full	WebFetch: Global Top 10 Android devices December 2025 with scores
+https://www.keh.com/grading-system	failed	WebFetch HTTP 403
+https://www.keh.com/grading-system	full	Parallel web_fetch: New, Like New, Like New Minus, Excellent Plus, Excellent, Bargain, Ugly, As Is
+https://www.mapcamera.com/html/mapquality/used.html	failed	WebFetch HTTP 403
+https://www.mapcamera.com/html/mapquality/used.html	full	Parallel web_fetch: ranks 新同品 美品 良品 並品 難有品・ジャンク品
+https://swappa.com/blog/guide-condition-grades-explained	full	WebFetch: New, Mint, Good, Fair
+https://backmarket.com/en-us/c/smartphones/what-are-back-market-phone-grades	full	WebFetch: Premium, Excellent, Good, Fair
+https://k-tai-iosys.com/helps/item/criterion.php	full	WebFetch: ranks S A B C D J definitions
+https://webstore.iec.ch/en/publication/1204	partial	WebFetch: IEC 60268-1:1985 scope only, no levels

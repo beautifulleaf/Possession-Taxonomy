@@ -8,7 +8,7 @@ import subprocess, sys
 from common import ROOT, read_tsv, write_tsv
 from schema import TABLES
 
-ORDER = ["schemes", "standards", "makers", "maker_kinds", "lines", "named_forms", "platforms", "scene_tags", "tier_entries",
+ORDER = ["kinds", "issuers", "grading_scales", "schemes", "standards", "makers", "maker_kinds", "lines", "named_forms", "platforms", "scene_tags", "tier_entries",
          "standard_values", "attributes", "compatibility"]
 
 def run(*a):
@@ -27,6 +27,7 @@ def main():
         if not p.exists(): continue
         rows = [r for r in read_tsv(p) if (r.get(TABLES[t][0]) or "").strip()]
         if t == "named_forms":
+            kinds = {k["kind_id"] for k in read_tsv(ROOT / "data/kinds.tsv")}  # kinds this batch added count
             bad = [r for r in rows if r["kind_id"].strip() not in kinds]
             if bad:
                 write_tsv(ROOT / f"verify/out/{b}_named_forms_held.tsv", bad, TABLES[t][1])

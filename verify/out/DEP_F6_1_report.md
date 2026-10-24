@@ -1,0 +1,7 @@
+# DEP_F6_1 report
+Kinds written: 41 new (F6.1.1: 6, F6.1.2: 14, F6.1.3: 2, F6.1.4: 11, F6.1.5: 8) in verify/out/DEP_F6_1_kinds.tsv. No named forms, makers, lines or issuers (maker role none).
+Sources: FossilEra minerals-for-sale category list (fetched, 31 kinds); EarthWonders/Crystal Classics specimen pages (native bismuth 67646, native tellurium 81021, cuprite 95206); iRocks 54195 (native platinum); Mineral Auctions lots (stephanite, proustite). Many EarthWonders pages returned 404 and Weinrich/most Mineral Auctions pages 403 (also via Parallel); not reached: Mineral Seek, Arkenstone, Spirifer, Kristalle, Crystal Classics own site.
+Not attested, no row: cinnabar, native mercury, native arsenic, acanthite, tetrahedrite, brucite, anatase, brookite (FossilEra page empty), molybdenite, arsenopyrite (only search excerpts or failed fetches).
+Noted, not kinds: varieties on FossilEra (Smoky quartz, Rose quartz, Tiger's eye, Chalcedony, Chrysoprase, Ocean/Bumblebee jasper, Mookaite, Martite as hematite variety, Opal common/precious); Limonite (field name, not a species); Ammolite (F6.3); Selenite/Angelite (sulfate, other leaf). Ruby/sapphire stay under Corundum F6.1.4.06. Spinel F6.1.4.16 is the uncut specimen kind; cut spinel is F6.5.2.04.
+Missing kind?: none found for these leaves. Halides leaf: no other species beyond Botallackite and Iowaite on FossilEra.
+Fetch log: verify/work/DEP_F6_1/fetched.tsv.

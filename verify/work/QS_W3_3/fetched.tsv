@@ -1,0 +1,41 @@
+url	fetch_status	gave
+https://uk.airfix.com/community/advice/skill-level	full	WebFetch: Airfix skill levels 1-4 definitions
+https://boardgamegeek.com/wiki/page/More_About_Rankings	partial	Parallel: page is RPGGeek-oriented ranking text (Geek Rating, Bayesian); not board-game steps
+https://www.spiel-des-jahres.com/de/spieldesjahres	failed	WebFetch: redirect to a png
+https://www.spiel-des-jahres.com/en/faq/	full	WebFetch: categories, longlist, shortlist=nominated, recommendation list, jury
+https://global.bandai-hobby.net/en-us/gunpla/	failed	WebFetch: 403
+https://global.bandai-hobby.net/en-us/brand/entry_grade_g/	failed	WebFetch: 403
+https://global.bandai-hobby.net/en-us/gunpla/	partial	Parallel: Gunpla brand list EG HG RG MG MG Ver.Ka MGSD PG etc; no skill description
+https://global.bandai-hobby.net/en-us/brand/entry_grade_g/	partial	Parallel: Entry Grade item list only
+https://global.bandai-hobby.net/en-us/brand/mg/	partial	Parallel: nav only
+https://boardgamegeek.com/wiki/page/BoardGameGeek_FAQ	partial	Parallel: Average Rating, BGG Rating (Geek Rating) orders ranking charts; 30 ratings
+https://www.spiel-des-jahres.com?idart=1479	full	Parallel: 2026 front page links
+https://www.spiel-des-jahres.de/preistraeger2026/	full	WebFetch: 2026 winners nominated recommended in three categories
+https://www.psacard.com/services/baseballgradingstandards	partial	WebFetch 403; Parallel: PSA ball grading 10 Gem-Mint 9 Mint 8 NM-MT 7 NM 6 EX-MT 5 EX 4 VG-EX 3 VG 2 Good 1 PR-FR; half grades occur
+https://www.beckett.com/gaming-grading	full	WebFetch 403; Parallel: Beckett 10 Pristine 9.5 Gem Mint 9 Mint 8 NM-MT 7 NM 6 EX-MT 5 EX 4 VG-EX 3 VG 2 Good 1 Poor; half points
+https://www.cgccards.com/card-grading/grading-scale/	full	WebFetch: CGC 20 steps Pristine 10 to Poor 1
+https://www.cpsc.gov/toysafety	full	WebFetch: ASTM F963 mandatory 16 CFR 1250 CPSIA 106 third-party testing CPC
+https://www.iso.org/es/contents/data/ics/97.200.50/x/	partial	Parallel: ISO 8124 parts list with status
+https://tumama-kids.com/en/blogs/tumama-news/toy-safety-regulations-and-standards	full	WebFetch: EN 71 / ISO 8124 / ASTM F963 / CPSIA comparison
+https://eur-lex.europa.eu/eli/dec_impl/2019/1728/oj/eng	partial	Parallel (WebFetch empty): Decision 2019/1728 EN 71-1 -2 -3 -4 -5 -7 -8 -12 -13 -14 harmonised toy standards, CEN
+https://www.theuiaa.org/what-is-the-uiaa-safety-label	full	WebFetch: UIAA Safety Label, SafeCom, 25+ gear types, Certified Equipment database
+https://static.fie.org/uploads/3/18833-Handbook_homologation_fencing_equipment.pdf	partial	WebFetch binary; Parallel and local pdftotext: FIE homologation handbook Aug 2009: 800 Newton clothing, 1600 Newton masks, blades
+https://www.theuiaa.org/safety-resources-for-climbers-and-mountaineers/	partial	WebFetch: UIAA tools; Certified Equipment database
+https://www.theuiaa.org/safety/safety-standards/	full	Parallel: UIAA standards 101-171 by equipment; collaborates with CEN
+https://outdoorgearlab.com/about	full	WebFetch: awards Editors' Choice, Best Buy, Top Pick; scores relative to competitors; independence
+https://runrepeat.com/runscore	partial	WebFetch: lab test inputs and methodology 2.5 June 2026; no 0-100 score bands
+https://www.iso.org/standard/81908.html?browse=ics	failed	WebFetch 403
+https://nij.ojp.gov/standard-0123-00	full	WebFetch: HG1 HG2 RF1 RF2 RF3 threats and mapping to old levels; 0101.07 relation
+https://nij.ojp.gov/topics/equipment-and-technology/ballistic-resistance-body-armor-nij-standard-010107	full	WebFetch: 0101.06 to 0101.07 level mapping; CPL kept to 2029
+https://armor-os.com/standards/nij/nij-0115	partial	WebFetch: NIJ 0115.00 stab levels 1-3 impact energy 24 33 43 J (secondary site, not NIJ)
+https://nij.ojp.gov/library/publications/stab-resistance-personal-body-armor-nij-standard-011500	partial	WebFetch: NIJ Standard-0115.00 Sept 2000 stab resistance; levels not on page
+https://www.ojp.gov/pdffiles1/nij/223054.pdf	partial	WebFetch binary: only summary line armor types I IIA II IIIA III IV; test threats by bullet and velocity
+https://www.outdoorlife.com/gear/knife-steel/	full	WebFetch: Outdoor Life 0-10 scores edge retention toughness corrosion for steels; sharpening qualitative only
+https://academieduello.com/blog/which-sword-to-buy	full	WebFetch: Albion gold standard; Regenyei tournament feders best amongst HEMA practitioners
+https://worldarchery.org/fr/rulebook/article/793	failed	WebFetch: redirect
+https://www.worldarchery.sport/fr/rulebook/article/793	failed	WebFetch: navigation only
+https://www.kultofathena.com/sword-buying-tips/	full	WebFetch: Class Battle Ready, Sport Combat (Stage Combat), Decorative, LARP definitions
+https://www.kultofathena.com/frequently-asked-questions/	full	WebFetch: Class definitions and grades Standard, Blemished, Munitions
+https://www.touken.or.jp/english/explanation/informationcorner.html	failed	WebFetch: unrelated tatara content
+https://www.touken.or.jp/english/aboutus.html	partial	WebFetch: fee table names Hozon, Tokubetsu Hozon (needs Hozon paper), Juyo, Tokubetsu Juyo, Horyu; no definitions
+https://worldarchery.sport/equipment	partial	WebFetch: recurve Olympic style, compound, barebow; rules deferred to rulebook
