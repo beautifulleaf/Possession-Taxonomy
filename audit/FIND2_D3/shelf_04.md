@@ -1,0 +1,11 @@
+# Speakers & soundbars > Speakers & soundbars
+- 017 · Soundbar (also called: TV soundbar)
+- 018 · Portable and wireless speakers (also called: single-enclosure speaker · Bluetooth speaker · party speaker)
+- 019 · Bookshelf speakers (also called: standmount speaker)
+- 020 · Floor-standing speakers
+- 021 · Subwoofer
+- 022 · Home cinema speaker system (also called: home-cinema speaker package)
+- 023 · Centre speaker (also called: centre-channel speaker)
+- 024 · Surround speakers
+- 025 · In-wall and in-ceiling speakers
+- 026 · On-wall speakers

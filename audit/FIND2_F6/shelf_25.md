@@ -1,0 +1,16 @@
+# Minerals & crystals > Zinc & magnesium phosphates
+- 281 · Hopeite
+- 282 · Parahopeite
+- 283 · Tarbuttite
+- 284 · Zincolibethenite
+- 285 · Zincolivenite
+- 286 · Vauxite
+- 287 · Paravauxite
+- 288 · Vashegyite
+- 289 · Whitlockite
+- 290 · Struvite
+- 291 · Newberyite
+- 292 · Bobierrite
+- 293 · Gormanite
+- 294 · Ernstite
+- 295 · Nahpoite

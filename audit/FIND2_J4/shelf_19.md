@@ -1,0 +1,13 @@
+# Salad & herbs > Fresh herbs
+- 148 · Coriander (also called: cilantro)
+- 149 · Parsley
+- 150 · Basil
+- 151 · Mint
+- 152 · Thyme
+- 153 · Chives
+- 154 · Dill
+- 155 · Rosemary
+- 156 · Sage
+- 157 · Lemongrass
+- 158 · Perilla (also called: shiso · kkaennip)
+- 159 · Mixed herbs (also called: herb bundle)

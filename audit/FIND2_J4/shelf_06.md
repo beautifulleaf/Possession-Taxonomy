@@ -1,0 +1,14 @@
+# Fruit > Tropical fruit
+- 041 · Banana
+- 042 · Mango
+- 043 · Pineapple
+- 044 · Papaya (also called: pawpaw)
+- 045 · Plantain
+- 046 · Litchi (also called: lychee)
+- 047 · Guava
+- 048 · Dragon fruit (also called: pitahaya · pitaya)
+- 049 · Passion fruit (also called: maracuja · granadilla)
+- 050 · Jackfruit
+- 051 · Durian
+- 052 · Mangosteen
+- 053 · Longan

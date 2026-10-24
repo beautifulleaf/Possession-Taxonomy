@@ -1,0 +1,11 @@
+# Necklaces & pendants > Necklaces & chains
+- 012 · Choker
+- 013 · Pearl necklace
+- 014 · Necklace chain
+- 015 · Beaded necklace
+- 016 · Collar necklace
+- 017 · Tennis necklace (also called: rivière)
+- 018 · Statement necklace (also called: bib necklace)
+- 019 · Lariat
+- 020 · Neck ring (also called: torque)
+- 021 · Mangalsutra

@@ -1,0 +1,15 @@
+# Fresh & frozen fish > Bass, bream & snapper
+- 050 · European sea bass (also called: Wolfsbarsch)
+- 051 · Gilthead sea bream (also called: Dorade)
+- 052 · Black sea bream
+- 053 · Red sea bream (also called: madai)
+- 054 · Black sea bass
+- 055 · Striped bass (also called: rockfish (US East))
+- 056 · Grouper
+- 057 · Snapper
+- 058 · Barramundi
+- 059 · Wreckfish (also called: stone bass · cherne)
+- 060 · Red mullet
+- 061 · Gurnard
+- 062 · John Dory
+- 063 · Pompano (also called: golden pompano)

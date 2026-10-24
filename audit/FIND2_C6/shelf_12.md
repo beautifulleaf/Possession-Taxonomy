@@ -1,0 +1,11 @@
+# Laboratory equipment > Glassware & labware
+- 065 · Beaker
+- 066 · Erlenmeyer flask
+- 067 · Test tube
+- 068 · Graduated cylinder
+- 069 · Pipette
+- 070 · Volumetric flask
+- 071 · Round-bottom flask
+- 072 · Burette
+- 073 · Petri dish
+- 074 · Dissection set

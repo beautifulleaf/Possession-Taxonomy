@@ -1,0 +1,11 @@
+# White wine > Popular white grapes
+- 026 · Chardonnay
+- 027 · Sauvignon Blanc
+- 028 · Pinot Grigio (also called: Pinot Gris)
+- 029 · Riesling
+- 030 · Chenin Blanc
+- 031 · Gewürztraminer
+- 032 · Semillon
+- 033 · Pinot Blanc (also called: Pinot Bianco)
+- 034 · Gruner Veltliner
+- 035 · White blend

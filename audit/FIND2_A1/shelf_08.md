@@ -1,0 +1,11 @@
+# Coats & jackets > Casual jackets
+- 042 · Casual jacket (also called: blouson)
+- 043 · Trucker jacket
+- 044 · Bomber jacket (also called: flight jacket)
+- 045 · MA-1 flight jacket
+- 046 · Harrington jacket
+- 047 · Coach jacket
+- 048 · Varsity jacket
+- 049 · Biker jacket (also called: rider's jacket)
+- 050 · Souvenir jacket (also called: sukajan)
+- 051 · Track jacket

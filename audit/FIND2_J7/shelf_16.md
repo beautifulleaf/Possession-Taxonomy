@@ -1,0 +1,12 @@
+# Spirits & liqueurs > Whisky
+- 114 · Single malt whisky
+- 115 · Blended whisky
+- 116 · Bourbon
+- 117 · Rye whiskey
+- 118 · Canadian whisky
+- 119 · Blended malt whisky
+- 120 · Single grain whisky
+- 121 · Blended grain whisky
+- 122 · Pot still whisky
+- 123 · Corn whisky
+- 124 · Wheat whiskey

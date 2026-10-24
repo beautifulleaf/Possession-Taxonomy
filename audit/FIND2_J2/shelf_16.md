@@ -1,0 +1,12 @@
+# Smoked fish > Smoked fish
+- 137 · Smoked salmon (also called: cold-smoked salmon)
+- 138 · Hot-smoked salmon
+- 139 · Smoked trout
+- 140 · Smoked mackerel
+- 141 · Smoked haddock
+- 142 · Smoked herring
+- 143 · Smoked sprats (also called: Sprotten)
+- 144 · Smoked eel (also called: Räucheraal)
+- 145 · Smoked milkfish (also called: tinapang bangus)
+- 146 · Smoked shad (also called: scrumbie afumată)
+- 147 · Smoked dogfish belly (also called: Schillerlocke)

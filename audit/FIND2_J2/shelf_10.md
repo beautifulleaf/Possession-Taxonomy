@@ -1,0 +1,15 @@
+# Shellfish & seafood > Prawns & shrimp
+- 098 · Prawns or shrimp, species not named
+- 099 · Banana prawn
+- 100 · King prawn
+- 101 · White shrimp
+- 102 · Tiger prawn
+- 103 · Spot prawn
+- 104 · Northern prawn (also called: sweet shrimp · amaebi)
+- 105 · Pink shrimp
+- 106 · Brown shrimp (also called: grey shrimp · Nordseekrabben)
+- 107 · Argentine red shrimp
+- 108 · Gulf brown shrimp
+- 109 · Blue shrimp
+- 110 · Royal red shrimp
+- 111 · Giant freshwater prawn

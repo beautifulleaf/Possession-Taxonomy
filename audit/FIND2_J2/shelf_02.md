@@ -1,0 +1,13 @@
+# Fresh & frozen fish > Cod, haddock & hake
+- 010 · Cod (also called: Kabeljau)
+- 011 · Haddock
+- 012 · Pollock (also called: saithe · Seelachs)
+- 013 · Hake
+- 014 · Whiting
+- 015 · White or red hake (also called: phycid hake)
+- 016 · Hoki (also called: blue grenadier)
+- 017 · Ling
+- 018 · Tusk (also called: cusk · torsk)
+- 019 · Pouting (also called: bib)
+- 020 · Lingcod
+- 021 · Blue cod

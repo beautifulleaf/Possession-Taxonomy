@@ -1,0 +1,15 @@
+# Fresh & frozen fish > Other sea fish
+- 084 · Mahi-mahi (also called: dolphinfish · dorado)
+- 085 · Cobia
+- 086 · Amberjack and yellowtail (also called: kampachi · buri · hamachi · kingfish)
+- 087 · Grey mullet (also called: tainha · sea mullet)
+- 088 · Lionfish
+- 089 · Conger eel (also called: anago)
+- 090 · Eel
+- 091 · Pomfret
+- 092 · Croaker
+- 093 · Milkfish
+- 094 · King George whiting (also called: sillago whiting · kisu)
+- 095 · Garfish (also called: sayori)
+- 096 · Pufferfish (also called: fugu · fuku)
+- 097 · Cutlassfish (also called: hairtail · tachiuo · galchi)

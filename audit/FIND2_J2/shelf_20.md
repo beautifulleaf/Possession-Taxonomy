@@ -1,0 +1,12 @@
+# Tinned & jarred fish > Tinned shellfish & squid
+- 168 · Tinned crab meat
+- 169 · Tinned mussels
+- 170 · Tinned scallops
+- 171 · Tinned clams
+- 172 · Tinned cockles
+- 173 · Tinned razor clams
+- 174 · Tinned octopus
+- 175 · Tinned squid
+- 176 · Tinned oysters
+- 177 · Tinned abalone
+- 178 · Tinned whelk or conch (also called: golbaengi)

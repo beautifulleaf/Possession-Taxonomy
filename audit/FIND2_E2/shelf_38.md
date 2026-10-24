@@ -1,0 +1,12 @@
+# Snow, ice & wheeled sports > Skis & ski gear
+- 213 · Alpine ski
+- 214 · Ski boot
+- 215 · Ski pole
+- 216 · Ski helmet
+- 217 · Ski goggles
+- 218 · Ski binding
+- 219 · Cross-country ski
+- 220 · Cross-country ski boot
+- 221 · Touring ski
+- 222 · Climbing skin
+- 223 · Ski bag

@@ -1,0 +1,11 @@
+# Fresh & frozen fish > Freshwater fish
+- 064 · Tilapia
+- 065 · Pangasius (also called: swai · basa)
+- 066 · Catfish
+- 067 · Snakehead
+- 068 · Zander (also called: pike-perch)
+- 069 · Carp
+- 070 · Perch (also called: Barsch · yellow perch)
+- 071 · Pike (also called: Hecht)
+- 072 · Whitefish (also called: vendace · pollan · muikku)
+- 073 · Sturgeon

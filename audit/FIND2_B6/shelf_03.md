@@ -1,0 +1,12 @@
+# Mops, brooms & buckets > Mops & buckets
+- 015 · Flat mop (also called: wet mop)
+- 016 · Spin mop
+- 017 · Sponge mop
+- 018 · Dust mop (also called: dry mop)
+- 019 · String mop (also called: strand mop)
+- 020 · Spray mop
+- 021 · Steam mop
+- 022 · Electric mop (also called: powered rotating mop)
+- 023 · Robot mop
+- 024 · Cloth mop (also called: Cuban mop)
+- 025 · Mop bucket

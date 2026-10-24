@@ -1,0 +1,14 @@
+# Vegetables > Root vegetables
+- 076 · Carrot
+- 077 · Beetroot (also called: beet)
+- 078 · Parsnip
+- 079 · Radish
+- 080 · Turnip
+- 081 · Swede (also called: rutabaga)
+- 082 · Celeriac (also called: celery root)
+- 083 · Ginger
+- 084 · Salsify (also called: scorzonera)
+- 085 · Burdock (also called: gobo)
+- 086 · Parsley root (also called: Hamburg parsley)
+- 087 · Horseradish (also called: kren)
+- 088 · Maca

@@ -1,0 +1,12 @@
+# Stamps & postal items > Stamps & postal items
+- 019 · Definitive stamp
+- 020 · Commemorative stamp (also called: special-issue stamp · 特殊切手)
+- 021 · Souvenir sheet (also called: miniature sheet)
+- 022 · Stamp booklet
+- 023 · First-day cover
+- 024 · Philatelic numismatic cover
+- 025 · Stamped envelope
+- 026 · Postal card (also called: postcard with printed stamp)
+- 027 · Aerogram (also called: letter sheet · lettercard)
+- 028 · Newspaper wrapper
+- 029 · Revenue stamp

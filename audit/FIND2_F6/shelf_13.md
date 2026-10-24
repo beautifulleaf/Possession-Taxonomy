@@ -1,0 +1,14 @@
+# Minerals & crystals > Oxides
+- 149 · Corundum (also called: ruby · sapphire)
+- 150 · Hematite
+- 151 · Bixbyite
+- 152 · Cassiterite
+- 153 · Goethite
+- 154 · Magnetite
+- 155 · Pyrolusite
+- 156 · Ramsdellite
+- 157 · Rutile
+- 158 · Spinel
+- 159 · Uraninite
+- 160 · Wodginite
+- 161 · Cuprite

@@ -1,0 +1,12 @@
+# Sewing & fabric > Sewing machines & parts
+- 031 · Sewing machine (also called: lockstitch machine)
+- 032 · Overlock machine (also called: serger)
+- 033 · Embroidery machine
+- 034 · Longarm quilting machine
+- 035 · Sewing machine needle
+- 036 · Presser foot
+- 037 · Bobbin
+- 038 · Bobbin case
+- 039 · Needle plate
+- 040 · Extension table
+- 041 · Sewing machine oil

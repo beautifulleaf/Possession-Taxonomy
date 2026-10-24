@@ -1,0 +1,11 @@
+# Deli, cooked & tinned meats > Deli, cooked & tinned meats
+- 130 · Rotisserie chicken (also called: plain-cooked whole bird)
+- 131 · Cooked sliced roast meat (also called: roast beef · roast turkey)
+- 132 · Cooked meatballs & patties (also called: cooked meatball · patty · meat loaf)
+- 133 · Pâté
+- 134 · Terrine
+- 135 · Luncheon meat
+- 136 · Tinned corned beef
+- 137 · Confit
+- 138 · Head cheese (also called: brawn)
+- 139 · Mixed cooked meats

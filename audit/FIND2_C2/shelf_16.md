@@ -1,0 +1,12 @@
+# Pots, beds & plant supports > Pots, planters & raised beds
+- 073 · Plant pot
+- 074 · Window box
+- 075 · Hanging basket
+- 076 · Self-watering planter
+- 077 · Fabric grow pot (also called: fabric grow bag)
+- 078 · Plant saucer
+- 079 · Cachepot (also called: overpot)
+- 080 · Vertical garden planter
+- 081 · Hanging basket liner
+- 082 · Bonsai pot
+- 083 · Raised bed

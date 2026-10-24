@@ -1,0 +1,16 @@
+# Minerals & crystals > Pyroxenes & amphiboles
+- 085 · Diopside
+- 086 · Augite
+- 087 · Hedenbergite
+- 088 · Johannsenite
+- 089 · Enstatite
+- 090 · Spodumene
+- 091 · Rhodonite
+- 092 · Serandite
+- 093 · Actinolite
+- 094 · Tremolite
+- 095 · Pargasite
+- 096 · Richterite
+- 097 · Winchite
+- 098 · Neptunite
+- 099 · Babingtonite

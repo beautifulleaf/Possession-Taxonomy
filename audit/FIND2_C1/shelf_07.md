@@ -1,0 +1,11 @@
+# Hand tools > Hammers & punches
+- 034 · Claw hammer
+- 035 · Japanese hammer (also called: genno · double-faced hammer)
+- 036 · Mallet
+- 037 · Club hammer (also called: lump hammer)
+- 038 · Brick hammer
+- 039 · Ball-pein hammer (also called: engineer's hammer)
+- 040 · Cross-pein hammer (also called: Warrington hammer)
+- 041 · Slater's hammer
+- 042 · Sledgehammer
+- 043 · Punch

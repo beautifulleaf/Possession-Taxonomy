@@ -1,0 +1,15 @@
+# White wine > Other white grapes
+- 036 · Albariño (also called: Alvarinho)
+- 037 · Verdejo
+- 038 · Furmint
+- 039 · Malvazija Istarska (also called: Malvasia Istriana)
+- 040 · Kerner
+- 041 · Altesse
+- 042 · Kisi
+- 043 · Albillo Mayor
+- 044 · Petite Arvine
+- 045 · Savagnin (also called: Heida)
+- 046 · Loureiro
+- 047 · Friulano
+- 048 · Falanghina
+- 049 · Pecorino

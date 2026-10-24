@@ -1,0 +1,11 @@
+# Fossils & amber > Trilobites & other sea fossils
+- 364 · Trilobite
+- 365 · Fossil crustacean
+- 366 · Fossil coral
+- 367 · Echinoderm fossil
+- 368 · Fossil brachiopod (also called: lamp shell)
+- 369 · Fossil bivalve
+- 370 · Fossil gastropod
+- 371 · Bryozoan fossil
+- 372 · Graptolite
+- 373 · Fossil sponge

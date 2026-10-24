@@ -1,0 +1,11 @@
+# Armour & shields > Historical armour & shields
+- 100 · Shield
+- 101 · Plate helmet (also called: burgonet)
+- 102 · Cuirass
+- 103 · Mail shirt (also called: hauberk · haubergeon)
+- 104 · Brigandine
+- 105 · Gorget (also called: bevor)
+- 106 · Gauntlet
+- 107 · Arm armour (also called: vambrace · couter)
+- 108 · Leg armour (also called: greave · cuisse)
+- 109 · Plate armour harness (also called: garniture)

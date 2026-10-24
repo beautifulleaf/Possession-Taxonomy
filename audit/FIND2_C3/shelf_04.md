@@ -1,0 +1,14 @@
+# Houseplants > Succulents
+- 022 · Echeveria
+- 023 · Haworthia
+- 024 · Aloe
+- 025 · Crassula (also called: jade plant)
+- 026 · Kalanchoe
+- 027 · Houseleek (also called: Sempervivum · hens and chicks)
+- 028 · Aeonium
+- 029 · Sedum (also called: stonecrop)
+- 030 · Lithops (also called: living stones)
+- 031 · Agave
+- 032 · Graptopetalum
+- 033 · Gasteria
+- 034 · Succulent euphorbia (also called: Euphorbia · E. trigona · E. milii)

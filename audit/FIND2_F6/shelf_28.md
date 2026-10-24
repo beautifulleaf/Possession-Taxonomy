@@ -1,0 +1,15 @@
+# Minerals & crystals > Cobalt, nickel, iron & other arsenates
+- 321 · Erythrite
+- 322 · Annabergite
+- 323 · Scorodite
+- 324 · Parasymplesite
+- 325 · Roselite
+- 326 · Talmessite
+- 327 · Picropharmacolite
+- 328 · Agardite-(Ce)
+- 329 · Arseniopleite
+- 330 · Austinite
+- 331 · Cahnite
+- 332 · Chernovite-(Y)
+- 333 · Allactite
+- 334 · Wendwilsonite

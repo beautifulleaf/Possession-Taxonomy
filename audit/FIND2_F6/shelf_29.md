@@ -1,0 +1,12 @@
+# Minerals & crystals > Common borates
+- 335 · Borax
+- 336 · Colemanite
+- 337 · Ulexite
+- 338 · Probertite
+- 339 · Tincalconite
+- 340 · Inderite
+- 341 · Kurnakovite
+- 342 · Meyerhofferite
+- 343 · Inyoite
+- 344 · Hydroboracite
+- 345 · Boracite

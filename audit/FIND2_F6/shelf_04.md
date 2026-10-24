@@ -1,0 +1,12 @@
+# Minerals & crystals > Feldspars & lapis
+- 033 · Feldspar (also called: microcline · amazonite · labradorite · orthoclase · moonstone · sunstone)
+- 034 · Microcline
+- 035 · Orthoclase
+- 036 · Sanidine
+- 037 · Albite
+- 038 · Nepheline
+- 039 · Sodalite
+- 040 · Haüyne
+- 041 · Lazurite
+- 042 · Lapis lazuli
+- 043 · Pollucite

@@ -1,0 +1,14 @@
+# Minerals & crystals > Micas, serpentine & clays
+- 044 · Muscovite
+- 045 · Biotite
+- 046 · Phlogopite
+- 047 · Celadonite
+- 048 · Talc
+- 049 · Clinochlore
+- 050 · Amesite
+- 051 · Cookeite
+- 052 · Serpentine (also called: serpentinite)
+- 053 · Lizardite
+- 054 · Bityite
+- 055 · Bannisterite
+- 056 · Carletonite

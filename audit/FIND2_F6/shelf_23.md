@@ -1,0 +1,15 @@
+# Minerals & crystals > Iron & manganese phosphates
+- 252 · Ludlamite
+- 253 · Strengite
+- 254 · Phosphosiderite
+- 255 · Rockbridgeite
+- 256 · Barbosalite
+- 257 · Beraunite
+- 258 · Cacoxenite
+- 259 · Hureaulite
+- 260 · Triplite
+- 261 · Heterosite
+- 262 · Reddingite
+- 263 · Fairfieldite
+- 264 · Landesite
+- 265 · Jahnsite-(CaMnFe)

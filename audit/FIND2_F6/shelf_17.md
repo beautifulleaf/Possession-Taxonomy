@@ -1,0 +1,14 @@
+# Minerals & crystals > Barite, gypsum & common sulfates
+- 190 · Barite
+- 191 · Gypsum
+- 192 · Celestine
+- 193 · Anhydrite
+- 194 · Anglesite
+- 195 · Alunite
+- 196 · Jarosite
+- 197 · Thaumasite
+- 198 · Ettringite
+- 199 · Alunogen
+- 200 · Aphthitalite
+- 201 · Blödite
+- 202 · Leonite

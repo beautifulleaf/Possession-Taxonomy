@@ -1,0 +1,11 @@
+# Cookware & bakeware > Pots & pans
+- 001 · Frying pan (also called: skillet)
+- 002 · Saucepan
+- 003 · Wok
+- 004 · Stockpot
+- 005 · Sauté pan (also called: saute pan)
+- 006 · Dutch oven (also called: casserole)
+- 007 · Grill pan (also called: griddle)
+- 008 · Pressure cooker
+- 009 · Food steamer (also called: steamer · bamboo steamer)
+- 010 · Cookware set

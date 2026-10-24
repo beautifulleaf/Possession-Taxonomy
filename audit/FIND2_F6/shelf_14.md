@@ -1,0 +1,16 @@
+# Minerals & crystals > Sulfides
+- 162 · Pyrite
+- 163 · Bournonite
+- 164 · Chalcocite
+- 165 · Chalcopyrite
+- 166 · Cubanite
+- 167 · Galena
+- 168 · Marcasite
+- 169 · Orpiment
+- 170 · Pyrrhotite
+- 171 · Realgar
+- 172 · Sphalerite
+- 173 · Stibnite
+- 174 · Stromeyerite
+- 175 · Stephanite
+- 176 · Proustite

@@ -1,0 +1,11 @@
+# Makeup > Face makeup
+- 021 · Foundation
+- 022 · Concealer
+- 023 · Face powder
+- 024 · Primer
+- 025 · Setting spray
+- 026 · Blush
+- 027 · Bronzer
+- 028 · Highlighter
+- 029 · Contour
+- 030 · Skin paint (also called: skin powder · kumkum · sindoor)

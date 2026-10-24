@@ -1,0 +1,12 @@
+# Combat sports > Fencing
+- 235 · Fencing foil
+- 236 · Fencing epee
+- 237 · Fencing sabre
+- 238 · Fencing mask
+- 239 · Fencing jacket
+- 240 · Fencing lame
+- 241 · Fencing glove
+- 242 · Fencing underarm protector (also called: fencing plastron)
+- 243 · Fencing chest protector
+- 244 · Fencing breeches
+- 245 · Fencing shoe

@@ -1,0 +1,11 @@
+# Decorating, floors & tiles > Paints & primers
+- 149 · Wall and ceiling paint
+- 150 · Woodwork and metal paint (also called: trim paint · gloss · satinwood · eggshell)
+- 151 · Primer (also called: undercoat · sealer)
+- 152 · Masonry paint
+- 153 · Fence paint
+- 154 · Floor paint
+- 155 · Furniture paint
+- 156 · Spray paint
+- 157 · Radiator paint
+- 158 · Tile paint

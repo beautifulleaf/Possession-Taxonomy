@@ -1,0 +1,13 @@
+# Grow your own food > Fruit trees
+- 063 · Apple tree
+- 064 · Pear tree
+- 065 · Plum tree
+- 066 · Peach tree
+- 067 · Cherry tree (also called: sweet or sour cherry)
+- 068 · Apricot tree
+- 069 · Citrus tree
+- 070 · Fig tree
+- 071 · Olive tree
+- 072 · Pomegranate tree (also called: Punica granatum)
+- 073 · Persimmon tree
+- 074 · Banana plant

@@ -1,0 +1,11 @@
+# Beds & mattresses > Beds & bed bases
+- 013 · Platform bed
+- 014 · Bed frame (also called: panel bed)
+- 015 · Slatted bed base
+- 016 · Divan base
+- 017 · Bunk bed
+- 018 · Loft bed
+- 019 · Daybed
+- 020 · Four-poster bed
+- 021 · Camp bed (also called: cot (US))
+- 022 · Hammock

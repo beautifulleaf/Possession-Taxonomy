@@ -1,0 +1,11 @@
+# Grains & pulses > Dried beans
+- 046 · Black beans (also called: turtle beans)
+- 047 · Red kidney beans (also called: rajma)
+- 048 · Cannellini beans
+- 049 · Pinto beans
+- 050 · Navy (haricot) beans
+- 051 · Small red beans
+- 052 · Lima beans
+- 053 · Black-eyed peas (also called: lobia)
+- 054 · Dried broad beans (also called: fava · ful)
+- 055 · Dried soybeans

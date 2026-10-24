@@ -1,0 +1,11 @@
+# Fresh & frozen fish > Monkfish & deep-sea fish
+- 074 · Monkfish (also called: Seeteufel)
+- 075 · Sablefish (also called: black cod)
+- 076 · Chilean sea bass (also called: Patagonian toothfish)
+- 077 · Wolffish (also called: Atlantic catfish · Steinbeisser)
+- 078 · Orange roughy
+- 079 · Rockfish (also called: ocean perch · redfish)
+- 080 · Shark (also called: huss · dogfish · mako)
+- 081 · Opah (also called: moonfish)
+- 082 · Hagfish (also called: kkomjangeo)
+- 083 · Flathead

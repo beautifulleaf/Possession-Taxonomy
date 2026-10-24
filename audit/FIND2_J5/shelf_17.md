@@ -1,0 +1,11 @@
+# Sauces & condiments > Asian sauces & pastes
+- 119 · Koikuchi soy sauce
+- 120 · Tamari soy sauce
+- 121 · Usukuchi soy sauce
+- 122 · Shiro soy sauce
+- 123 · Saishikomi soy sauce
+- 124 · Fish sauce
+- 125 · Oyster sauce and hoisin sauce
+- 126 · Fermented soybean paste
+- 127 · Gochujang (also called: fermented chilli paste)
+- 128 · Doubanjiang (also called: broad-bean chilli paste)

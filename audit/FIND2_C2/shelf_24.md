@@ -1,0 +1,11 @@
+# Pools & pool care > Pumps, filters & heating
+- 119 · Pool pump
+- 120 · Sand filter
+- 121 · Cartridge filter
+- 122 · DE filter
+- 123 · Salt chlorinator (also called: salt cell)
+- 124 · Pool heater
+- 125 · Pool heat pump
+- 126 · Pool cleaner booster pump
+- 127 · Pool filter cartridge
+- 128 · DE filter grid

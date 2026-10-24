@@ -1,0 +1,13 @@
+# Nuts, honey & spreads > Nuts
+- 147 · Almonds
+- 148 · Walnuts
+- 149 · Cashews
+- 150 · Peanuts
+- 151 · Pistachios
+- 152 · Hazelnuts (also called: filberts)
+- 153 · Pecans
+- 154 · Macadamias
+- 155 · Brazil nuts
+- 156 · Pine nuts
+- 157 · Chestnuts
+- 158 · Mixed nuts

@@ -1,0 +1,13 @@
+# Pipes & pipe tobacco > Pipes
+- 048 · Billiard pipe
+- 049 · Freehand pipe
+- 050 · Bulldog pipe
+- 051 · Canadian pipe
+- 052 · Apple pipe
+- 053 · Dublin pipe
+- 054 · Cavalier pipe
+- 055 · Calabash pipe
+- 056 · Sitter pipe
+- 057 · Vest pocket pipe
+- 058 · Tyrolean pipe
+- 059 · Kiseru

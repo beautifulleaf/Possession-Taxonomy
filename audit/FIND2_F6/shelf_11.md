@@ -1,0 +1,12 @@
+# Minerals & crystals > Olivine, humite & rare gem silicates
+- 126 · Forsterite
+- 127 · Chondrodite
+- 128 · Clinohumite
+- 129 · Chloritoid
+- 130 · Grandidierite
+- 131 · Pezzottaite
+- 132 · Poudretteite
+- 133 · Serendibite
+- 134 · Helvine
+- 135 · Genthelvite
+- 136 · Petalite

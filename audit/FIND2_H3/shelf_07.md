@@ -1,0 +1,12 @@
+# Bondage & restraints > Restraints & ropes
+- 037 · Bondage cuffs
+- 038 · Bondage rope
+- 039 · Bondage tape
+- 040 · Restraint collar
+- 041 · Leash (also called: restraint leash)
+- 042 · Spreader bar
+- 043 · Bed restraint set (also called: under-bed restraint system)
+- 044 · Restraint harness
+- 045 · Armbinder
+- 046 · Sex swing (also called: sling · suspension swing)
+- 047 · Restraint furniture

@@ -1,0 +1,12 @@
+# Cigars & cigarillos > Straight-sided cigars
+- 030 · Robusto
+- 031 · Toro
+- 032 · Corona
+- 033 · Churchill (also called: Julieta No. 2)
+- 034 · Corona gorda
+- 035 · Petit corona (also called: Mareva)
+- 036 · Panatela
+- 037 · Double corona
+- 038 · Gordo (also called: Grande)
+- 039 · Lancero
+- 040 · Lonsdale

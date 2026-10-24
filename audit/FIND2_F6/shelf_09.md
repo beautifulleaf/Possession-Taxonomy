@@ -1,0 +1,15 @@
+# Minerals & crystals > Epidote, vesuvianite & related
+- 100 · Epidote
+- 101 · Clinozoisite
+- 102 · Zoisite
+- 103 · Allanite-(Ce)
+- 104 · Vesuvianite
+- 105 · Ilvaite
+- 106 · Hemimorphite
+- 107 · Bertrandite
+- 108 · Barylite
+- 109 · Hubeite
+- 110 · Marsturite
+- 111 · Olmiite
+- 112 · Poldervaartite
+- 113 · Thortveitite

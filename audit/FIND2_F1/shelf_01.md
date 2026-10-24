@@ -1,0 +1,12 @@
+# Books > Books
+- 001 · Hardback book (also called: relié)
+- 002 · Paperback book (also called: broché · poche · trade paperback · mass-market paperback)
+- 003 · Board book
+- 004 · Cloth, bath or foam book (also called: rag book)
+- 005 · Novelty book
+- 006 · Fold-out book (also called: leporello)
+- 007 · Spiral-bound book
+- 008 · Loose-leaf book
+- 009 · Pamphlet (also called: booklet)
+- 010 · Part-work
+- 011 · Sewing or knitting pattern

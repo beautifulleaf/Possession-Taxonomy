@@ -1,0 +1,10 @@
+# Electrical & batteries > Everyday batteries
+- 136 · AA battery (also called: AA cell · R6 · LR6 · UM-3 · Mignon · penlight)
+- 137 · AAA battery (also called: AAA cell · R03)
+- 138 · C battery (also called: C cell · R14)
+- 139 · D battery (also called: D cell · R20)
+- 140 · 9 V battery (also called: 6F22)
+- 141 · CR123A battery (also called: CR123A cell)
+- 142 · 18650 battery (also called: 18650 cell)
+- 143 · 21700 battery (also called: 21700 cell)
+- 144 · A23 battery (also called: A23 cell · 12 V · MN21 · 23A)

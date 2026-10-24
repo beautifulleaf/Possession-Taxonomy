@@ -1,0 +1,13 @@
+# Red wine > Other red grapes
+- 014 · Carmenere
+- 015 · Pinotage
+- 016 · Mencía
+- 017 · Petit Verdot
+- 018 · Tannat
+- 019 · Graciano
+- 020 · Plavac Mali
+- 021 · Blaufränkisch
+- 022 · País (also called: Listán Prieto)
+- 023 · Prokupac
+- 024 · Refošk (also called: Refosco)
+- 025 · Aleksandrouli

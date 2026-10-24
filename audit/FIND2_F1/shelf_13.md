@@ -1,0 +1,11 @@
+# Sleeves, cases & covers > Sleeves, cases & covers
+- 069 · Slipcase
+- 070 · Loose dust jacket
+- 071 · Book jacket cover
+- 072 · Book box (also called: clamshell · dropover)
+- 073 · Comic bag
+- 074 · Backing board
+- 075 · Record inner sleeve
+- 076 · Record outer sleeve
+- 077 · CD jewel case
+- 078 · Globe stand (also called: meridian)

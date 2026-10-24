@@ -1,0 +1,13 @@
+# Minerals & crystals > Copper & lead sulfates
+- 203 · Brochantite
+- 204 · Antlerite
+- 205 · Langite
+- 206 · Posnjakite
+- 207 · Devilline
+- 208 · Serpierite
+- 209 · Cyanotrichite
+- 210 · Chalcoalumite
+- 211 · Linarite
+- 212 · Caledonite
+- 213 · Leadhillite
+- 214 · Kobyashevite

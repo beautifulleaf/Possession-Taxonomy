@@ -1,0 +1,12 @@
+# Workwear & safety > Helmets, masks & ear protection
+- 138 · Hard hat
+- 139 · Motorcycle helmet
+- 140 · Cycling helmet
+- 141 · Welding helmet
+- 142 · Bee veil
+- 143 · Safety glasses
+- 144 · Face shield
+- 145 · Medical face mask (also called: surgical face mask)
+- 146 · Respirator
+- 147 · Ear defenders
+- 148 · Earplugs

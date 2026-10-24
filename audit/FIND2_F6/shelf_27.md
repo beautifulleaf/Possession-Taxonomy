@@ -1,0 +1,14 @@
+# Minerals & crystals > Copper & zinc arsenates
+- 308 · Olivenite
+- 309 · Clinoclase
+- 310 · Euchroite
+- 311 · Conichalcite
+- 312 · Adamite
+- 313 · Legrandite
+- 314 · Köttigite
+- 315 · Paradamite
+- 316 · Tsumcorite
+- 317 · Ojuelaite
+- 318 · Zeunerite
+- 319 · Duftite
+- 320 · Bayldonite

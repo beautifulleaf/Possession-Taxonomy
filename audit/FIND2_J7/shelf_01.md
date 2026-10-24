@@ -1,0 +1,14 @@
+# Red wine > Popular red grapes
+- 001 · Cabernet Sauvignon
+- 002 · Pinot Noir
+- 003 · Merlot
+- 004 · Syrah (also called: Shiraz)
+- 005 · Malbec
+- 006 · Zinfandel (also called: Primitivo)
+- 007 · Tempranillo
+- 008 · Sangiovese
+- 009 · Grenache (also called: Garnacha)
+- 010 · Nebbiolo
+- 011 · Cabernet Franc
+- 012 · Bordeaux red blend
+- 013 · Other red blend

@@ -1,0 +1,13 @@
+# Climbing, caving & air sports > Climbing essentials
+- 061 · Climbing harness
+- 062 · Climbing rope
+- 063 · Climbing helmet
+- 064 · Climbing shoe
+- 065 · Carabiner
+- 066 · Quickdraw
+- 067 · Belay device
+- 068 · Climbing sling
+- 069 · Climbing chalk
+- 070 · Chalk bag
+- 071 · Belay glove
+- 072 · Climbing rope bag

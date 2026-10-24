@@ -1,0 +1,11 @@
+# Spare parts > Vacuum cleaner parts
+- 109 · Vacuum cleaner bags
+- 110 · Vacuum cleaner filter
+- 111 · Vacuum cleaner belt
+- 112 · Vacuum cleaner battery
+- 113 · Vacuum nozzles and attachments
+- 114 · Vacuum cleaner hose
+- 115 · Brush roll (also called: brush bar)
+- 116 · Vacuum wand (also called: extension tube)
+- 117 · Vacuum cleaner motor
+- 118 · Vacuum cleaner wheel

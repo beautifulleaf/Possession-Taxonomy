@@ -1,21 +1,4 @@
 code	group_id	marker	values	why	evidence_rows
-J2	G-J2-1	freshness	Extra > A > B	Firmness, bright eyes and sea smell come first; EU freshness categories (GS-ec-fish-freshness-categories).	Woolworths South Africa how to shop for fish (ZA)
-J2	G-J2-1	wild or farmed, and catch or farming method		Shops split wild-caught from farmed early; MSC certifies wild capture only.	Crowd Cow shop seafood section (US); Marine Stewardship Council FAQ (UK/intl)
-J2	G-J2-1	sustainability rating	Best Choice > Certified > Good Alternative > Avoid	Seafood Watch rates fishing or farming impact; the main buyer signal besides MSC.	Seafood Watch via Wikipedia (US)
-J2	G-J2-1	handling for raw eating		Sashimi grade has no standard; seller trust and parasite freezing decide.	Food Republic sushi grade vs sashimi grade (US); Crowd Cow shop seafood section (US)
-J2	G-J2-7	farmed salmon quality grade	Superior > Ordinary > Production	Norwegian grade for farmed salmon (GS-no-salmon-quality-grades).	data/grading_scales.tsv
-J2	G-J2-11	tuna grade	1 > 2+ > 2 > 3	Japanese-market number grade used in sashimi trade (GS-trade-tuna-number-grades).	data/grading_scales.tsv
-J2	G-J2-11	fat cut (bluefin)	Ōtoro > Chūtoro > Akami	Fat and texture ladder of the Japanese trade (memo J2 section 5).	Food Republic sushi grade vs sashimi grade (US); framework/structure/J2.md
-J2	G-J2-12	size (count per pound)	U/10 > U/12 > U/15 > 16/20 > 21/25 > 26/30 > 31/35 > 36/40 > 41/50 > 51/60 > 61/70 > 71+	Fewer per pound means larger and dearer (GS-trade-shrimp-count-bands).	data/grading_scales.tsv
-J2	G-J2-13	alive and full shell		Shellfish shell tight to flesh; live or just cooked is the freshness test.	Woolworths South Africa how to shop for fish (ZA)
-J2	G-J2-14	alive and closed shell		Shell tight to flesh is the freshness sign for shellfish.	Woolworths South Africa how to shop for fish (ZA)
-J2	G-J2-14	oyster size number	No. 0 > No. 1 > No. 2 > No. 3 > No. 4 > No. 5	French cupped oyster sizes, largest first (GS-fr-oyster-cupped-size-numbers).	data/grading_scales.tsv
-J2	G-J2-14	oyster refinement in claires	Pousse en claire > Spéciale de claire > Fine de claire	French refinement classes (GS-fr-oyster-claire-classes); growing water names the best.	data/grading_scales.tsv; data/varieties.tsv
-J2	G-J2-14	scallop size (count per pound)	U/10 > 10/20 > 20/30 > 30/40 > 60/80 > over 120	Larger scallops sell dearer (GS-trade-scallop-count-bands).	data/grading_scales.tsv
-J2	G-J2-19	presentation	Solid > Chunk > Flake > Grated or shredded	Codex canned tuna styles (GS-codex-tuna-canned-presentations); cannery house leads beside.	data/grading_scales.tsv
-J2	G-J2-25	sturgeon species	Beluga > Osetra > Sevruga	Species leads caviar; only sturgeon eggs are caviar; FAO and CITES order.	Kolikof Caviar guide and shop (US); framework/structure/J2.md
-J2	G-J2-25	egg size, colour and maturity	000 > 00 > 0	Larger, lighter, firmer grains rank higher; FAO grain grade, producer terms vary.	Kolikof Caviar guide and shop (US); framework/structure/J2.md
-J2	G-J2-25	salt level		Malossol (low salt) is the premium cure; taste and price then decide.	Kolikof Caviar guide and shop (US)
 C1	G-C1-R1	How hard it works under load	torque, drilling and driving speed	Tests weigh this first (Consumer Reports power score; CHOICE gives drilling and torque 30 percent each).	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
 C1	G-C1-R1	How it handles	weight and balance with the battery fitted	CHOICE gives handling 40 percent.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
 C1	G-C1-R1	Battery run time and platform	higher amp-hours and a wider range of tools on the same battery	Most people buy into one battery platform, then choose tools within it.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
@@ -936,3 +919,19 @@ J7	G-J7-R7	Shop quality labels		Shop labels only, not a real quality grade.	rewr
 J7	G-J7-R5	Beer style		Communities and judges sort beer by style first.	rewritten from the stored J7 markers (G-J7-2), RD_J7
 J7	G-J7-R5	Community score within the style	Untappd 4.0+ > 3.7-3.99 > below 3.7	Buyers screen on score; strong IPAs and stouts rate higher.	rewritten from the stored J7 markers (G-J7-2), RD_J7
 J7	G-J7-R8	Sake type and rice polishing	polished to 50% or less > 60% or less > 70% or less (tentative)	The polishing ratio ladder is fixed by Japan's tax agency; not yet confirmed from shop pages.	rewritten from the stored J7 markers (G-J7-5), RD_J7
+J2	G-J2-R1; G-J2-R2	Freshness	best to lowest EU category: Extra, A, B	Firmness, bright eyes and a sea smell come first (EU freshness categories).	rewritten from the stored J2 markers (G-J2-1), RD_J2
+J2	G-J2-R1; G-J2-R2	Wild or farmed, and how it was caught or farmed		Shops split wild-caught from farmed early; the MSC blue label certifies wild catch only.	rewritten from the stored J2 markers (G-J2-1), RD_J2
+J2	G-J2-R1; G-J2-R2	Sustainability rating	Best Choice > Certified > Good Alternative > Avoid	Seafood Watch rates the impact of the fishing or farming; the main buyer signal besides the MSC label.	rewritten from the stored J2 markers (G-J2-1), RD_J2
+J2	G-J2-R1	Fit for eating raw		Sashimi grade has no standard; trust in the seller and freezing against parasites decide.	rewritten from the stored J2 markers (G-J2-1), RD_J2
+J2	G-J2-R1	Farmed salmon quality grade	Superior > Ordinary > Production	Norwegian grade for farmed salmon.	rewritten from the stored J2 markers (G-J2-7), RD_J2
+J2	G-J2-R1	Tuna grade	1 > 2+ > 2 > 3	Number grade of the Japanese market, used in the sashimi trade.	rewritten from the stored J2 markers (G-J2-11), RD_J2
+J2	G-J2-R1	Fat cut of bluefin tuna	Ōtoro > Chūtoro > Akami	Fat and texture ladder of the Japanese trade.	rewritten from the stored J2 markers (G-J2-11), RD_J2
+J2	G-J2-R2	Size (count per pound)	U/10 > U/12 > U/15 > 16/20 > 21/25 > 26/30 > 31/35 > 36/40 > 41/50 > 51/60 > 61/70 > 71+	Fewer per pound means larger and dearer.	rewritten from the stored J2 markers (G-J2-12), RD_J2
+J2	G-J2-R2	Alive, with the shell shut tight		The shell tight to the flesh, and the animal live or just cooked, is the freshness test for shellfish.	rewritten from the stored J2 markers (G-J2-13, G-J2-14), RD_J2
+J2	G-J2-R2	Oyster size number	No. 0 > No. 1 > No. 2 > No. 3 > No. 4 > No. 5	French cupped oyster sizes, largest first.	rewritten from the stored J2 markers (G-J2-14), RD_J2
+J2	G-J2-R2	Oyster refinement in claires	Pousse en claire > Spéciale de claire > Fine de claire	French refinement classes; the growing water names the best.	rewritten from the stored J2 markers (G-J2-14), RD_J2
+J2	G-J2-R2	Scallop size (count per pound)	U/10 > 10/20 > 20/30 > 30/40 > 60/80 > over 120	Larger scallops sell dearer.	rewritten from the stored J2 markers (G-J2-14), RD_J2
+J2	G-J2-R4	How the fish is cut	Solid > Chunk > Flake > Grated or shredded	Codex canned tuna styles; the cannery house leads beside this.	rewritten from the stored J2 markers (G-J2-19), RD_J2
+J2	G-J2-R5	Sturgeon species	Beluga > Osetra > Sevruga	The species leads for caviar; only sturgeon eggs are caviar.	rewritten from the stored J2 markers (G-J2-25), RD_J2
+J2	G-J2-R5	Egg size, colour and maturity	000 > 00 > 0	Larger, lighter, firmer grains rank higher; producers use their own terms too.	rewritten from the stored J2 markers (G-J2-25), RD_J2
+J2	G-J2-R5	Salt level		Malossol (low salt) is the premium cure; taste and price then decide.	rewritten from the stored J2 markers (G-J2-25), RD_J2

@@ -1,0 +1,14 @@
+# Fruit > Citrus
+- 013 · Orange
+- 014 · Clementine
+- 015 · Satsuma (also called: mikan)
+- 016 · Mandarin (also called: tangerine)
+- 017 · Lemon
+- 018 · Lime
+- 019 · Grapefruit
+- 020 · Blood orange
+- 021 · Pomelo (also called: pummelo)
+- 022 · Kumquat
+- 023 · Yuzu
+- 024 · Bitter orange (also called: Seville orange · sour orange · daidai)
+- 025 · Sudachi

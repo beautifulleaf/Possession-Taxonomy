@@ -1,0 +1,14 @@
+# Sauces & condiments > Table sauces & dressings
+- 106 · Ketchup
+- 107 · Mayonnaise
+- 108 · Mustard
+- 109 · Hot sauce (also called: chilli sauce)
+- 110 · Barbecue sauce
+- 111 · Salad dressing
+- 112 · Salad cream
+- 113 · Worcestershire sauce
+- 114 · Sweet chilli sauce
+- 115 · Horseradish
+- 116 · Prepared wasabi
+- 117 · Chilli oil
+- 118 · Cooking bitters (also called: bitters sold as a flavouring by the dash)

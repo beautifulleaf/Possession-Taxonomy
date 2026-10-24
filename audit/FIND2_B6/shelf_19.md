@@ -1,0 +1,16 @@
+# Spare parts > Washer, dryer & iron parts
+- 119 · Lint filter
+- 120 · Inlet or drain hose
+- 121 · Door seal
+- 122 · Drain pump
+- 123 · Dryer belt
+- 124 · Drum paddle (also called: lifter)
+- 125 · Carbon brushes
+- 126 · Heater element
+- 127 · Door lock (also called: interlock)
+- 128 · Condenser water container
+- 129 · Dryer vent hose
+- 130 · Laundry pedestal
+- 131 · Stacking kit
+- 132 · Anti-scale cartridge
+- 133 · Iron water tank (also called: steam generator water tank)

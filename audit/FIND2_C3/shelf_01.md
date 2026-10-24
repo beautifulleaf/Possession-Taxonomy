@@ -1,0 +1,15 @@
+# Houseplants > Foliage houseplants
+- 001 · Pothos (also called: Epipremnum · E. aureum)
+- 002 · Dracaena (also called: snake plant · Sansevieria · D. trifasciata)
+- 003 · Rubber plant (also called: Ficus elastica)
+- 004 · Swiss cheese plant (also called: Monstera deliciosa)
+- 005 · Swiss cheese vine (also called: Monstera adansonii)
+- 006 · Heartleaf philodendron (also called: Philodendron hederaceum · Brasil · Micans)
+- 007 · Satin pothos (also called: Scindapsus · S. pictus)
+- 008 · Arrowhead vine (also called: Syngonium)
+- 009 · Chinese evergreen (also called: Aglaonema)
+- 010 · Dumb cane (also called: Dieffenbachia)
+- 011 · Calathea (also called: prayer plant · Goeppertia)
+- 012 · Peperomia
+- 013 · Pilea (also called: Chinese money plant · P. peperomioides)
+- 014 · Begonia

@@ -1,0 +1,11 @@
+# Mushrooms & sea vegetables > Mushrooms & sea vegetables
+- 160 · Button mushroom
+- 161 · Shiitake
+- 162 · Oyster mushroom
+- 163 · Enoki
+- 164 · Chanterelle
+- 165 · Porcini (also called: cep)
+- 166 · Morel
+- 167 · Wood ear (also called: black fungus · kikurage)
+- 168 · Truffle
+- 169 · Wakame

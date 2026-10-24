@@ -1,0 +1,13 @@
+# Minerals & crystals > Copper & rare phosphates
+- 296 · Libethenite
+- 297 · Pseudomalachite
+- 298 · Cornetite
+- 299 · Chalcosiderite
+- 300 · Kidwellite
+- 301 · Kipushite
+- 302 · Veszelyite
+- 303 · Chalcophyllite
+- 304 · Viitaniemiite
+- 305 · Väyrynenite
+- 306 · Kosnarite
+- 307 · Johnsomervilleite

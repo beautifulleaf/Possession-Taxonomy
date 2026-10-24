@@ -1,0 +1,11 @@
+# Knives & daggers > Knives & daggers
+- 060 · Hunting knife (also called: skinning knife · caping knife)
+- 061 · Bowie knife (also called: fighting knife)
+- 062 · Dagger
+- 063 · Automatic knife
+- 064 · Butterfly knife
+- 065 · Karambit
+- 066 · Throwing knife
+- 067 · Push dagger
+- 068 · Bayonet
+- 069 · Shuriken

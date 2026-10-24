@@ -1,0 +1,13 @@
+# Minerals & crystals > Charoite, dioptase & other silicates
+- 114 · Charoite
+- 115 · Sugilite
+- 116 · Dioptase
+- 117 · Willemite
+- 118 · Chrysocolla
+- 119 · Milarite
+- 120 · Eudialyte
+- 121 · Titanite
+- 122 · Thorite
+- 123 · Eudidymite
+- 124 · Fresnoite
+- 125 · Catapleiite

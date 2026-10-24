@@ -1,0 +1,13 @@
+# Beef & veal > Steaks
+- 001 · Ribeye steak
+- 002 · Striploin steak
+- 003 · Beef tenderloin (also called: fillet)
+- 004 · Top sirloin steak
+- 005 · T-bone steak (also called: porterhouse steak)
+- 006 · Flank steak
+- 007 · Flat iron steak
+- 008 · Skirt steak
+- 009 · Hanger steak (also called: onglet)
+- 010 · Rump cap (also called: picanha)
+- 011 · Tri-tip
+- 012 · Veal chop

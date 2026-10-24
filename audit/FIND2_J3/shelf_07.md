@@ -1,0 +1,11 @@
+# Cheese > Fresh & whey cheese
+- 030 · Cream cheese
+- 031 · Cottage cheese
+- 032 · Ricotta
+- 033 · Mascarpone
+- 034 · Spreadable soft cheese
+- 035 · Quark (also called: Speisequark)
+- 036 · Paneer
+- 037 · Queso fresco (also called: fresh white cheese · queso blanco · panela · Minas frescal · kesong puti)
+- 038 · Grilling cheese (also called: queijo coalho · juustoleipä · kalari)
+- 039 · Brunost (also called: brown whey cheese · mysost · geitost · gjetost)

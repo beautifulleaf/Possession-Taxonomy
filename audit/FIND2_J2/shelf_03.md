@@ -1,0 +1,13 @@
+# Fresh & frozen fish > Mackerel, herring & sardines
+- 022 · Mackerel
+- 023 · Herring
+- 024 · Sardine
+- 025 · Anchovy (also called: boquerón · bocarte)
+- 026 · Sprat (also called: brisling)
+- 027 · Whitebait (also called: shirasu)
+- 028 · Smelt
+- 029 · Scad
+- 030 · Atka mackerel (also called: hokke)
+- 031 · Spanish mackerel (also called: king mackerel · seer fish · sawara)
+- 032 · Bluefish
+- 033 · Snoek (also called: barracouta)
