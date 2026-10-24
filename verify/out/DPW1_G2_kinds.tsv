@@ -1,0 +1,58 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Parking (freehold parking space)	G2	new_kind	G2.1.8.1	G2.1.8 Other land by principal use (new leaf)	parking space	a bay or space for parking a vehicle held as land (freehold or long lease); a rented bay or permit is OUT.		https://customerfaq.rightmove.co.uk/support/solutions/articles/7000099510-which-residential-property-type-best-fits-my-property-	Settles the memo's open freehold-bay kind (K-67, G2.1 Land); Rightmove sells Parking as its own type; no Land leaf fits.
+Equestrian Facility	G2	covered	G2.1.3.1						Land by principal use (grazing), stables and arena as `improvements` (G-13); a stable building alone is G2.3.4.2.
+Plot	G2	covered	G2.1.1.1						Rightmove Plot is the building plot.
+Ruins	G2	attribute	G2.2.1.1						Condition of one property (C16); filed as the building it was, or as building plot when only land is sold.
+Retirement Property	G2	attribute	G2.2.2.1						User and market tag (C6); memo lists retirement as a display-only filter; filed by its house or flat kind.
+Sheltered Housing	G2	attribute	G2.2.2.1						A flat with warden service: user tag (C6) and service, not a form; filed as flat or house.
+Mobile Home	G2	covered	G2.2.4.5						Alias table: mobile home = lodge or park home (twin-unit); single-section one is static caravan G2.2.4.4.
+Allotment	G2	other_category					OUT		Step 1 names an allotment as a use right (rule 18); freehold allotment land is filed by use (cropland).
+Island	G2	named_form	G2.1.7.1						Memo (G2-17): island is a named form of the mixed holding (LandSale).
+Peatland	G2	named_form	G2.1.6.1						Wetland cover; the water-and-wetland kind covers it, like fishery; buyers ask for it by name.
+Camping Land	G2	new_kind	G2.1.8.3	G2.1.8 Other land by principal use (new leaf)	campsite	land laid out and held for camping, touring pitches or glamping units, with or without amenity buildings.		https://www.landsale.co.uk/	Principal use is camping (G-12: LandSale filter stops here); no Land leaf holds leisure uses; pitches are not a dwelling.
+Solar Farm	G2	new_kind	G2.1.8.4	G2.1.8 Other land by principal use (new leaf)	solar farm	land whose principal use is a ground-mounted photovoltaic array, sold with or as a site for it.		https://www.landsale.co.uk/	LandSale type; principal use energy generation, no existing Land leaf; panels as installed equipment go with the site.
+Wind Farm	G2	new_kind	G2.1.8.5	G2.1.8 Other land by principal use (new leaf)	wind farm	land whose principal use is wind turbines for power generation, sold with or as a site for them.		https://www.landsale.co.uk/	LandSale type; principal use energy generation; a lease of the site to an operator is a right (OUT).
+Golf Course	G2	new_kind	G2.1.8.2	G2.1.8 Other land by principal use (new leaf)	golf course	land laid out as a golf course, with or without a clubhouse (`improvements`).		https://www.landsale.co.uk/	A use of the ground, not a motive (unlike the recreational tag); LandSale filter; no Land leaf fits.
+Pub	G2	named_form	G2.3.7.5						Memo names pub a finer function (named form); portals file pubs under Hotels and Leisure (tiltcommercial, commercialproperty2sell).
+Data Centre	G2	new_kind	G2.3.7.6	G2.3.7 Other buildings by function	data centre	a building made to house computer servers and their power and cooling plant.		https://www.landsale.co.uk/	No function kind covers it (not storing goods, not producing goods, not offices); leaf allows 5-10 kinds (memo 4).
+Glamping Site	G2	named_form	G2.1.8.3						A campsite with fixed units (pods, huts); tents and yurts are E2, decks for them G2.3.5.3 (K-65).
+Wedding Venue	G2	attribute	G2.3.7.5						A business use of a house, barn or hotel, filed by the building; motive, not form.
+Kennels	G2	attribute	G2.1.3.1						Business use of a holding (`improvements`); kennels that are not buildings a person enters are B10.
+Shepherd's Hut	G2	new_kind	G2.3.3.7	G2.3.3 Rooms for people	shepherd's hut	a small timber or tin-clad hut on a wheeled chassis made to stand in a garden or field as a room; with its own sink, toilet and entrance it is a tiny house on wheels.		https://www.landsale.co.uk/	Sold under its own name by many makers; no garden-room kind fits a wheeled hut; dwelling test (K-63) keeps one home.
+Annexe	G2	named_form	G2.2.1.1						Memo and K-63: annexe is a named form of detached house when the dwelling test is met, else a garden room.
+Bunker	G2	new_kind	G2.3.7.7	G2.3.7 Other buildings by function	bunker	an underground or blast-hardened shelter structure, such as a former military or civil-defence bunker or a buried survival shelter.		https://www.landsale.co.uk/	LandSale type; function is shelter, which no kind covers; a bunker converted to a dwelling is a detached house.
+Airstrip	G2	new_kind	G2.1.8.6	G2.1.8 Other land by principal use (new leaf)	airstrip	land laid out as a runway or landing strip for light aircraft, with or without hangars (`improvements`).		https://www.landsale.co.uk/	LandSale type; principal use of the ground is aviation; no Land leaf fits.
+Showrooms/Bulky Goods	G2	named_form	G2.3.7.2						A large-format retail building (AU term); finer function under shop (K-62).
+Medical/Consulting	G2	named_form	G2.3.7.1						Consulting rooms and medical suites are office-type buildings; finer function as named form (K-62).
+Porches and canopies (Dunster)	G2	other_category					C8		Memo section 9: canopies and porches sold as building parts are C8 (step 4 note, K-66).
+Conservatory alternatives (Dunster)	G2	attribute	G2.3.3.1						Insulated timber garden room; attached or freestanding is an installation attribute (C12); built onto the house it is part of the house.
+Garden kitchens (Dunster)	G2	new_kind	G2.3.3.6	G2.3.3 Rooms for people	garden kitchen	a garden building or roofed structure fitted as a kitchen with worktops for cooking, whatever its walls.		https://dunsterhouse.co.uk/help-centre/what-products-do-you-sell	Parallel to the garden bar (filed by fitted purpose, KLFIX1); outdoor kitchen cabinetry sold alone stays B1.
+Log store (Radnor Oak)	G2	other_category					B1		Open storage a person does not enter: garden storage (rule 16); an enterable store is a garden shed.
+Bin store (Radnor Oak)	G2	other_category					B1		Outdoor storage for bins, not a building a person enters (rule 16).
+Bike store (Radnor Oak)	G2	other_category					B1		Bike storage unit is garden storage (rule 16); an enterable bike shed is G2.3.2.1.
+Machinery store (Radnor Oak)	G2	covered	G2.3.1.3						Open-fronted building for farm machinery is the cart shed.
+Garden pavilion (Radnor Oak; Hornbach Pavillon)	G2	covered	G2.3.5.1						Roofed open-sided garden structure: the gazebo (Pavillon is the German word, C9 alias).
+Annexe / garden cottage (Radnor Oak)	G2	named_form	G2.2.1.1						As Annexe: dwelling test (K-63); without sink, toilet or entrance a garden room by purpose.
+Field shelter (Campion)	G2	new_kind	G2.3.4.5	G2.3.4 Animal and crop buildings	field shelter	an open-fronted shelter for horses or livestock standing in a field, fixed or on skids, that a person can stand in.		https://campionequestrian.co.uk/stable-blocks-barn-shelters	Sold as its own category beside stable blocks; no stalls (not a stable block), no open store (not a barn).
+Terrassenueberdachung (Hornbach)	G2	new_kind	G2.3.5.6	G2.3.5 Shade and surface structures	patio cover	a roofed open-sided structure on posts made to fix to a house wall over a patio or deck (veranda, Terrassenueberdachung).		https://www.hornbach.de/c/garten/gartenhaeuser-carports/S1911	Made only for the wall mount, solid roof (C12a): not a freestanding gazebo, not an open-topped pergola.
+Dutch barn	G2	named_form	G2.3.4.1						Memo worked tree: Dutch barn is a named form of barn (Historic England).
+Hay barn	G2	named_form	G2.3.4.1						Memo worked tree: hay barn is a named form of barn.
+Coach house	G2	named_form	G2.3.1.1						Enclosed building for carriages: a heritage garage form; converted to a dwelling it is filed as the dwelling.
+Forge	G2	named_form	G2.3.2.2						Building for smith's work is a craft workshop (rule 24).
+Mill	G2	named_form	G2.3.7.4						Built to process grain into flour: producing goods (rule 24); a converted mill house is a dwelling.
+Well house	G2	named_form	G2.3.2.1						Small enterable outbuilding housing a well or pump; heritage form tagged heritage. Weak fit, provisional.
+Stack stand	G2	named_form	G2.3.4.3						Raised staddle platform for storing ricks off the ground: a crop store, heritage form.
+Cremation pedestals	G2	named_form	G2.4.6						Above-ground urn compartment in a pedestal, like the Urnenstele; the pedestal as memorial is F4.
+Cremation benches	G2	named_form	G2.4.6						Urn compartment in a bench: a niche form; the bench as memorial is F4.
+Cremation boulders	G2	named_form	G2.4.6						Urn compartment in a boulder: a niche form; the stone as memorial is F4.
+Community mausoleum	G2	covered	G2.4.4						What is held is the crypt in it (mausoleum crypt); the building is the cemetery's.
+Gruft	G2	named_form	G2.4.4						Memo: Gruft is a named form of mausoleum crypt (bestattungen.de).
+Roese (Rosengrab, urn at a rose)	G2	named_form	G2.4.7						Urn site at a rose in a natural setting, like the Baumgrab. Name read from the report only.
+Felsengrab	G2	named_form	G2.4.7						Urn site at a rock in a natural setting, like the Baumgrab.
+anonymes Grab	G2	attribute	G2.4.1						Memo section 7: anonymous is an `allocation` value (DE), not a form.
+Rasengrab (bestattungen.de gave column)	G2	named_form	G2.4.1						Lawn grave without a raised mound: in-ground plot form, region DE.
+Kolumbarium (bestattungen.de gave column)	G2	covered	G2.4.6						The columbarium niche.
+Cart lodge (foxframing gave column)	G2	named_form	G2.3.1.2						East Anglian name for an open-fronted car shelter; open sides fit the carport.
+Container home, office, bar (Bob's Containers gave column)	G2	covered	G2.3.2.3						Container construction is an attribute: dwelling test sends a home to detached house, office and bar to their garden kinds.
+Gartenlaube, Blockhaus, Gartensauna (gartenbau.org gave column)	G2	covered	G2.3.3.1						Summerhouse, garden log cabin G2.3.3.3, sauna cabin G2.3.3.5 (C9 aliases).
+Static Houseboat (apolloduck gave column)	G2	covered	G2.2.4.1						Moored houseboat without propulsion (K-60).

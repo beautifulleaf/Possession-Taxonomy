@@ -1,0 +1,66 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Teardrop trailer	G1	new_kind	G1.1.8.11	G1.1.8	Teardrop trailer	small towed living trailer with a teardrop profile, a sleeping cabin and a rear-hatch galley, without standing room inside.			RV dealers list teardrops as their own type; no standing interior, so not a touring caravan; folding camper does not fold.
+Destination trailer	G1	covered	G1.1.8.01						A large road-towable travel trailer kept on seasonal sites; same fixed body as the touring caravan, length an attribute.
+Cargo trailer	G1	covered	G1.1.7.01						Box (cargo) trailer already names it.
+Dump trailer	G1	covered	G1.1.7.05						US name of the tipper trailer; C9 regional alias.
+Fully enclosed trailer	G1	covered	G1.1.7.01						Closed goods trailer is the box (cargo) trailer; enclosed car haulers stay car transporter trailers.
+A-frame trailer	G1	named_form	G1.1.8.02						Hard-sided camper whose walls fold to an A shape; a folding-camper design many makers build (non-maker named form).
+Park model	G1	other_category					G2		P4: a park model is a dwelling made to stay on a pitch, G2.
+Crossover (car type)	G1	attribute	G1.1.1.06						body_substyle on a named form (G-5); never a kind.
+4x4 (car type)	G1	attribute	G1.1.1.06						Drivetrain is an attribute; the 4x4 body is the SUV or pickup.
+Stagecoach	G1	named_form	G1.1.9.01						Concord stagecoach already stored as a named form of horse-drawn carriage.
+Gig	G1	named_form	G1.1.9.01						Light two-wheeled one-horse carriage; a traditional carriage design (non-maker named form).
+Sulky	G1	named_form	G1.1.9.01						Light two-wheeled cart for harness driving; a traditional design of the carriage kind.
+Pony carriage or cart	G1	attribute	G1.1.9.01						Size for a pony is an attribute (C6), not a form.
+Driving-school cart	G1	covered	G1.1.9.01						A training use of the horse-drawn carriage; use is never a kind.
+Trailercycle (trailer bike)	G1	new_kind	G1.1.6.08	G1.1.6	Trailer bike (trailercycle)	one-wheeled half bicycle with saddle, bars and pedals, hitched to an adult bicycle so a child can ride and pedal behind.		https://www.tikesbikes.com/collections/burley-trailers	Burley sells trailercycles (Piccolo, Kazoo) apart from child trailers; the child rides and pedals, unlike a bicycle trailer.
+Balance bike	G1	other_category					E1		P3: a balance bike is E1.
+Cage trailer	G1	covered	G1.1.7.01						An open goods box with mesh sides; box (cargo) trailer.
+Camper trailer (Australia)	G1	covered	G1.1.8.02						Australian name for a folding tent camper on a box trailer; C9 regional alias of the folding camper.
+Low-speed street-legal vehicle	G1	covered	G1.1.4.04						LSV is a US legal class (C17 row); the vehicles are golf-cart bodies (Club Car).
+Stroller-wagon	G1	new_kind	G1.1.10.06	G1.1.10	Stroller wagon	wheeled box-bodied carrier with harnessed seats for two or more children, pushed like a stroller or pulled by a handle.			Box body with facing seats differs from a double stroller; sold as its own type (Wonderfold, Keenz).
+Retro motorcycle	G1	attribute	G1.1.3.01						Modern-classic styling on a standard motorcycle; a style attribute or scene tag, never a kind.
+Mini-naked motorcycle	G1	covered	G1.1.3.01						Small-displacement standard motorcycle; engine size is a variant.
+Light-sport airplane	G1	covered	G1.4.1.01						LSA is a certification class (C17); Controller's LSA list mixes airplanes, gliders, gyroplanes and trikes, so no design type (section 14).
+Express cruiser	G1	covered	G1.3.3.03						Cabin cruiser with an open helm; sub-style of the cabin cruiser.
+Flybridge	G1	attribute	G1.3.3.08						An upper helm deck on a motor yacht or cruiser; layout attribute.
+Performance powerboat	G1	new_kind	G1.3.3.15	G1.3.3	Performance powerboat	open or cuddy powerboat with a deep-V or stepped hull and high power, made for speed.		https://yachtway.com/vessel-types/	Marketplaces list high-performance boats as their own class; hull and power differ from a bowrider or cruiser.
+Power catamaran	G1	attribute	G1.3.3.08						hull_count = 2 on a motor craft named form; motor-craft kinds go by use, hull_count is a listed attribute.
+Superyacht	G1	attribute	G1.3.3.08						Size name: length_band on the motor yacht (memo 4b).
+Classic sailing yacht	G1	attribute	G1.3.2.03						Era and construction; a classic or vintage tag and view (memo section 7).
+Bass boat	G1	new_kind	G1.3.3.16	G1.3.3	Bass boat	low, flat-decked freshwater fishing boat with raised casting decks, livewells and a high-power outboard.		https://aceboater.com/boat-types	Sold and listed as its own class; built for inland casting, unlike the offshore sport-fishing boat.
+Ski boat	G1	new_kind	G1.3.3.17	G1.3.3	Ski and wakeboard boat (tow boat)	inboard powerboat built to tow water-skiers or wakeboarders, with a tow pylon or tower and a tuned wake.		https://aceboater.com/boat-types	Ski and wake boats are a listed class with their own makers (MasterCraft, Malibu); inboard tow form.
+Wakeboard boat	G1	covered	G1.3.3.17						Same tow-boat kind; wake shaping and tower are attributes.
+Deck boat	G1	new_kind	G1.3.3.18	G1.3.3	Deck boat	open powerboat with a wide beam carried forward to a large open bow deck, seating many on a V or tri-hull.		https://aceboater.com/boat-types	Listed apart from the bowrider and pontoon boat; wide-bow hull differs from both.
+Runabout	G1	covered	G1.3.3.01						Bowrider (runabout) names it.
+Lifeboat	G1	covered	G1.3.3.13						A boat carried by a larger vessel to take people off; nearest is the tender. Weak call.
+Dual console	G1	covered	G1.3.3.01						Bowrider with a split windscreen and two consoles; console layout is an attribute.
+Walkaround	G1	covered	G1.3.3.09						Cuddy fishing boat with side decks; a sport-fishing layout.
+Pilothouse	G1	attribute	G1.3.3.08						An enclosed helm house; layout attribute on motor yachts and trawlers.
+Downeast	G1	named_form	G1.3.3.03						Maine lobster-boat-derived cruiser hull; a regional design many yards build (non-maker named form, C11).
+Skiff	G1	covered	G1.3.3.11						Small open flat-bottomed boat; jon boat leaf (C9 alias).
+Sports cruiser	G1	covered	G1.3.3.03						Cabin cruiser sub-style.
+Aft cabin	G1	attribute	G1.3.3.08						Cabin layout of a motor yacht.
+Flats boat	G1	new_kind	G1.3.3.19	G1.3.3	Flats and bay boat	shallow-draft open saltwater fishing boat with a poling or casting platform, made for bays and tidal flats.			Shops list bay and flats boats apart from offshore sport-fishing and bass boats; shallow-draft inshore form.
+Bay boat	G1	covered	G1.3.3.19						Same inshore kind as the flats boat.
+Cuddy cabin	G1	covered	G1.3.3.03						Small cabin cruiser; cabin size is an attribute.
+Ketch	G1	attribute	G1.3.2.03						Rig is an attribute (memo 4b).
+Mega yacht	G1	attribute	G1.3.3.08						Size name: length_band (memo 4b).
+Raft	G1	new_kind	G1.3.1.06	G1.3.1	River raft	inflatable open boat of large tubes, paddled or rowed by a group, made for whitewater rivers.			A distinct tube-boat hull sold as rafts; inflatable kayaks stay kayaks (G-8).
+Paddleboard	G1	other_category					E2		Step 11 note and P1: an unpowered board is E2.
+Powered paraglider (paramotor)	G1	new_kind	G1.4.2.10	G1.4.2	Paramotor (powered paraglider)	backpack engine and propeller worn by a foot-launched pilot under a paraglider wing.			Foot-launched, no cart, so not a powered parachute; motor makes it G1 (P1 logic), as unpowered paragliders are E2.
+Powered hang glider	G1	covered	G1.4.2.09						A powered hang-glider wing over a trike is the weight-shift trike.
+Three-axis microlight	G1	covered	G1.4.1.01						Microlight is a legal class (C17); a three-axis microlight is a single-engine piston airplane.
+Recumbent trike (from named forms and gave column)	G1	new_kind	G1.1.6.07	G1.1.6	Recumbent tricycle	three-wheeled pedal cycle ridden in a reclined seat with the pedals in front (tadpole or delta layout).		https://www.springtowncycles.com/blank-1	Shops sell recumbent trikes apart from recumbent bikes and upright adult tricycles; 11 harvested trike models misfiled.
+Toy hauler (gave column)	G1	covered	G1.1.8.10						Sport utility RV with a garage.
+Travel system (gave column)	G1	covered	G1.1.10.02						Stroller sold with an infant car seat; the seat is a G1.5.1 part (P10).
+Crew van (gave column)	G1	covered	G1.1.2.02						Van with a second seat row and a goods area; window van.
+Luton, dropside and tipper bodies (gave column)	G1	covered	G1.1.2.04						Fitted bodies on a chassis-cab.
+Sand rail or sand car (gave column)	G1	covered	G1.1.4.06						Dune buggy.
+Onewheel (gave column)	G1	covered	G1.1.3.15						Self-balancing one-wheeled board ridden sideways; powered skateboard as maker-bound named form.
+Sport-touring motorcycle (named-form notes)	G1	attribute	G1.1.3.03						Gradient between sport and touring; filed under sport with a sub-style note.
+Bagger (named-form notes)	G1	attribute	G1.1.3.02						A cruiser with fairing and hard bags; sub-style attribute.
+Dirt bike (gave column)	G1	covered	G1.1.3.09						Off-road motorcycle.
+Pedal kayak (gave column)	G1	covered	G1.3.1.01						P13: drive is propulsion; stays a kayak.
+Tram-train (named-form notes)	G1	covered	G1.2.05						A tram that also runs on main lines; tram kind, Citadis Dualis a named form.
+ARFF airport fire vehicle (named-form notes)	G1	covered	G1.1.2.08						Special-purpose body vehicle.
