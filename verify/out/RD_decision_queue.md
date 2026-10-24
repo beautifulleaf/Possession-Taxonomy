@@ -2,26 +2,23 @@
 
 ## 1. Items that may belong in another category
 - Bags & Accessories: Holster may belong in Weapons & Armour.
-- Jewellery: Patch and Pin badge look closer to clothing trim or accessories.
+- Jewellery: Patch and Pin badge look closer to clothing trim.
 - Soft Furnishings: Studio backdrop may belong in Cameras & Photography; Positioning cushion in Health, Medical & Mobility.
-- Furniture & Storage: Pop-up gazebo looks like Garden & Grounds; standing Humidor may belong in Smoking & Vaping; Kitchen island and Kitchen cabinet may overlap Kitchen & Dining.
-- Decor: Replica weapon and Deactivated ordnance may fit Weapons & Armour; Sparkler and Firework may belong elsewhere.
+- Furniture & Storage: Pop-up gazebo looks like Garden & Grounds; standing Humidor may belong in Smoking & Vaping.
+- Decor: Replica weapon and Deactivated ordnance may fit Weapons & Armour.
 - Home Safety & Security: Letterbox and Parcel box may fit Building Materials & Hardware or Property & Structures.
 - Cleaning & Laundry: Sex-toy cleaner may belong in Adult Objects.
 - Smoking & Vaping: kratom, salvia, opium, mushroom, betel and khat kinds look like a different category.
-- Building Materials & Hardware: Electric-fence energisers, stock netting and wire may belong in Farm & Forestry Equipment; garden sleeper, weed membrane and lawn edging overlap Garden & Grounds.
+- Building Materials & Hardware: Electric-fence energisers and stock netting may belong in Farm & Forestry Equipment; garden sleeper and weed membrane overlap Garden & Grounds.
 - Plants & Living Cultures: Cannabis plant may not belong here at all.
 - Office & Stationery: Calligraphy brush, ink stick and inkstone could sit in Craft & Art Supplies.
 - Phones, Tablets & Personal Devices: Landline phone and DECT repeater are fixed-line gear.
-- Toys & Games: Toy musical instrument may belong in Musical Instruments & Music Gear; Casino and slot machine kinds may belong outside Toys & Games.
+- Toys & Games: Toy musical instrument may belong in Musical Instruments & Music Gear; Casino and slot machine kinds may belong outside the category.
 - Vehicles: eFoil, electric unicycle, hoverboard and powered skateboard may belong in Sports, Fitness & Recreation.
 - Sports, Fitness & Recreation: Dance practice wear may belong in Clothing.
-- Weapons & Armour: Sword cane and shuriken overlap other categories.
 - Musical Instruments & Music Gear: Singing bowl moves to Religious & Ceremonial Objects if made for a rite.
-- Media & Publications: Sewing or knitting pattern may belong in Craft & Art Supplies.
 - Documents & Personal Records: Gift certificate and Prepaid e-money card could sit with money papers.
-- Personal Care & Beauty: Hot-water bottle, heat pack and hand warmer may fit Health, Medical & Mobility.
-- Coffee, Tea & Cocoa: Kava and roasted chicory or barley could sit elsewhere.
+- Personal Care & Beauty: Hot-water bottle and heat pack may fit Health, Medical & Mobility.
 - Pantry Staples: Home-brewing kits may belong with Wine, Beer & Spirits.
 
 ## 2. Possible duplicates or near-duplicates
@@ -29,20 +26,17 @@
 - Footwear: Sheepskin-lined pull-on boot and Slipper boot.
 - Kitchen & Dining: Pocket scale and Kitchen scale.
 - Cleaning & Laundry: Pedestal washer and Laundry pedestal.
-- Jewellery: Tennis bracelet and tennis necklace (same build, separate kinds).
 - Bags & Accessories: Wristlet bag and wristlet wallet; wallet on chain and chain wallet.
 - Craft & Art Supplies: Hot-glue gun, glue stick and glue skillet.
-- Software: AI coding assistant and AI assistant; Graphic design app and Home publishing software.
+- Software: AI coding assistant and AI assistant.
 - Art: Inkjet print (Prints) and archival pigment print (Photographs).
-- Musical Instruments & Music Gear and Audio & Video: studio headphones and in-ear monitors vs headphones; subwoofer, studio monitor and PA speaker vs speakers.
+- Musical Instruments & Music Gear and Audio & Video: studio headphones and in-ear monitors vs headphones; subwoofer and studio monitor vs speakers.
 - Media & Publications: Mini CD and 16-inch transcription disc may merge into CD and Vinyl records.
 - Fish & Seafood: Tinned sprats and herring vs Marinated herring.
-- Dairy, Eggs & Alternatives: Tomme and other tomme-type cheese.
 - Weapons & Armour: CO2 launcher and Pepper-ball launcher.
 - Plants & Living Cultures: Collector plants department overlaps Houseplants.
-- Religious & Ceremonial Objects: Hanukkah lamp and Seven-branch menorah; Eternal light and Ritual lantern.
+- Religious & Ceremonial Objects: Hanukkah lamp and Seven-branch menorah.
 - Building Materials & Hardware: Duct tape and Parcel tape.
-- Toys & Games: Plastic toy railway, wooden toy railway and model railway overlap by buyer intent.
 - Subscriptions, Memberships & Online Services and Documents & Personal Records: "Season ticket" alias shared by transit and event tickets.
 
 ## 3. Categories with no quality markers
@@ -56,43 +50,32 @@
 
 ## 4. Placement calls worth a second look
 - Clothing: Necktie, Pocket square and Collar sit under Suits & formalwear, not Accessories.
-- Footwear: Shoe care items (shoelace, insole, shoe tree, shoe horn, heel grip) may not belong in Footwear.
-- Furniture & Storage: Game table sits on a folding shelf for want of a home; Hammock under Beds.
+- Footwear: Shoe care items may not belong in Footwear.
+- Furniture & Storage: Game table sits on a folding shelf for want of a home.
 - Soft Furnishings: Swaddling cloth and Carry cloth sit under Towels & wraps for want of a home.
-- Lighting: Work, site & stage shelf mixes a single stage light with work lights.
-- Kitchen & Dining: Vending machine, Gastronorm pan and Bain-marie are commercial items.
-- Climate, Water & Energy: Flueless room heater, hot-water cylinder and solar thermal collector may belong in plumbing or building.
-- Home Safety & Security: Door viewer, garage door defender and locking bar fit Locks only loosely.
-- Plants & Living Cultures: Succulent cutting sits with Seeds as its only cutting; Vegetable & herb plants is thin (3).
+- Kitchen & Dining: Vending machine and Bain-marie are commercial items.
+- Climate, Water & Energy: Flueless room heater and hot-water cylinder may belong in plumbing or building.
+- Plants & Living Cultures: Succulent cutting is the only cutting and sits with Seeds.
 - Garden & Grounds: Pressure washer and wheelbarrow sit on a leaf and waste shelf as loose fits.
-- Craft & Art Supplies: Rotary cutter and quilting ruler could sit in Sewing; floral foam and wire may need a floristry home.
-- Optical & Scientific Instruments: Dissection set sits in Glassware & labware as the nearest fit.
-- Computers & Components: Laptops & 2-in-1s is a two-kind shelf; could merge with desktops.
-- Phones, Tablets & Personal Devices: Magnetic power bank may not be a separate kind.
-- Audio & Video: Audio figure (Toniebox type) sits on Portable players; Set-top box and streaming stick could sit with TVs.
-- Cameras & Photography: Camcorder and action cameras sit under Cameras; Light meter sits in accessories.
-- Video Games: Replacement part department of one was merged into Extras.
-- Sports, Fitness & Recreation: Riding hat sits in Protective guards; Metal detecting sits under Camping; Cycling clothing sits beside exercise bikes.
+- Craft & Art Supplies: Rotary cutter and quilting ruler could sit in Sewing.
+- Computers & Components: Laptops & 2-in-1s is a two-kind shelf.
+- Audio & Video: Audio figure (Toniebox type) sits on Portable players; Set-top box could sit with TVs.
+- Sports, Fitness & Recreation: Riding hat sits in Protective guards; Metal detecting sits under Camping.
 - Weapons & Armour: Slingshots & blowguns is a shelf of two.
-- Media & Publications: Sewing or knitting pattern and Part-work sit under Books as odd fits.
-- Art: Sculpture stand sits on a sculpture shelf; Animation cel and Portrait miniature sit under Paintings as provisional kinds.
-- Coins, Stamps, Medals & Trading Cards: Coin weight sits in Holders.
-- Religious & Ceremonial Objects: Dowsing rod and Spirit board sit in divination; Seder plate, Ritual cup and Spice box are shelved by form.
-- Documents & Personal Records: Picture postcard sits with photographs; House plans sit with diaries.
+- Art: Sculpture stand sits on a sculpture shelf; Animation cel and Portrait miniature sit under Paintings.
+- Religious & Ceremonial Objects: Dowsing rod and Spirit board sit in divination; Seder plate is shelved by form.
+- Documents & Personal Records: Picture postcard sits with photographs.
 - Natural History & Specimens: rarer minerals were placed without a fetched page, so they need a spot check.
 - Vehicles: Prams & strollers sit with rail and horse-drawn vehicles only for want of a home.
-- Property & Structures: Bunker sits under Commercial buildings; Swimming pool is the only pool kind.
-- Personal Care & Beauty: Insect repellent sits in Sun care; Barber chair and cutting scissors sit in Hair accessories.
-- Health, Medical & Mobility: Fertility tests and basal thermometers sit under Monitors & tests; contraceptive pill, condoms and dental dams share one shelf.
+- Property & Structures: Bunker sits under Commercial buildings.
+- Health, Medical & Mobility: Contraceptive pill, condoms and dental dams share one shelf.
 - Adult Objects: Electro-stimulation kit and urethral sound sit in different departments.
 - Software: Screen saver, mod manager and emulator are odd fits.
-- Digital Media & Items: Wrap and Digital planner are loose fits.
-- Subscriptions, Memberships & Online Services: Asset-library, multi-service bundle and creator membership fit no shelf well.
+- Subscriptions, Memberships & Online Services: Asset-library, bundle and creator membership fit no shelf well.
 - Meat & Poultry: Mixed fresh meats sit in Bison, frogs & more; three shelves hold only two kinds.
 - Fish & Seafood: Salted herring sits under Salted, dried & cured although it is sold chilled.
-- Dairy, Eggs & Alternatives: Coconut drink and dried dairy sit in Cheese.
-- Pantry Staples: Dried mushrooms and dried seaweed sit on the pickles shelf; no dried-fruit kind exists.
-- Wine, Beer & Spirits: Root beer sits with traditional beers; Flavoured vodka and Spiced rum sit with vodka and rum.
+- Pantry Staples: Dried mushrooms and seaweed sit on the pickles shelf; no dried-fruit kind exists.
+- Wine, Beer & Spirits: Root beer sits with traditional beers.
 
 ## 5. Weak shop evidence
 - Footwear: all live shop checks failed.
