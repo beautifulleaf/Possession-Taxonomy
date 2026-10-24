@@ -1,0 +1,64 @@
+kind_id	sub_family	leaf	name	definition	dagger
+F1.1.1.01	F1.1	F1.1.1	Hardback book	book bound in rigid boards (ONIX BB, trade cloth, relié); `binding` (trade cloth, library or reinforced binding, leather or fine binding) and `format_size` are attributes.	
+F1.1.1.02	F1.1	F1.1.1	Paperback book	book bound in a flexible paper cover (ONIX BC, broché, poche), trade and mass-market alike; `trim_class` and `paper_class` are attributes.	
+F1.1.1.03	F1.1	F1.1.1	Spiral-bound book	book whose leaves are held by a wire or plastic spiral or comb (ONIX BE).	
+F1.1.1.04	F1.1	F1.1.1	Loose-leaf book	book issued as punched loose leaves held in a ring binder or post binding (ONIX BD).	
+F1.1.1.05	F1.1	F1.1.1	Pamphlet or booklet, stapled	short publication of a few sheets bound by staples or saddle-stitching (ONIX BF).	
+F1.1.1.06	F1.1	F1.1.1	Board book	book printed on thick laminated paperboard pages, made for young children (ONIX BH).	
+F1.1.1.07	F1.1	F1.1.1	Rag, bath or foam book	book with pages of cloth, waterproof plastic or foam, made for babies (ONIX BI, BJ, BP).	
+F1.1.1.08	F1.1	F1.1.1	Sewing or knitting pattern (paper)	printed single-pattern sheet or envelope for sewing or knitting, issued as a loose sheet rather than bound (R-42; memo kind 7a; provisional until attested); craft, size range and garment made are attributes.	yes
+F1.1.2.01	F1.1	F1.1.2	Single-issue comic	saddle-stitched comic issue of one serial number (the "floppy"; ONIX pamphlet).	
+F1.1.2.02	F1.1	F1.1.2	Collected softcover volume	softcover volume collecting several issues or chapters of a comic or manga (trade paperback, tankōbon; label_source: memo).	
+F1.1.2.03	F1.1	F1.1.2	Collected hardcover volume	hardcover volume collecting several issues or chapters (label_source: memo).	
+F1.1.2.04	F1.1	F1.1.2	Omnibus or compendium	thick single volume collecting a long run of issues or several collected volumes; `binding` is an attribute.	
+F1.1.2.05	F1.1	F1.1.2	Pocket-size reissue	small-format reprint edition of a comic or manga already issued in collected volumes (bunkoban; label_source: memo).	
+F1.1.2.06	F1.1	F1.1.2	Premium large-format edition	oversized deluxe edition on large trim and heavier paper (Absolute, kanzenban; label_source: memo).	
+F1.1.3.01	F1.1	F1.1.3	Newspaper	periodical issued daily or weekly on unbound newsprint sheets; `page_format` (broadsheet, Berliner, tabloid) is an attribute.	
+F1.1.3.02	F1.1	F1.1.3	Magazine	periodical issue bound as a stapled or perfect-bound paper-covered booklet, digest-size magazines included; `page_format` is an attribute.	
+F1.1.3.03	F1.1	F1.1.3	Bound periodical volume	book-form volume binding together a run of issues of one periodical (filed with periodicals against HS, F-8).	
+F1.1.3.04	F1.1	F1.1.3	Zine or fanzine	small self-published or fan-made periodical, usually photocopied or short-run and stapled.	yes
+F1.1.4.01	F1.1	F1.1.4	Full score	printed score showing every part of an ensemble work on the page at full size.	
+F1.1.4.02	F1.1	F1.1.4	Miniature (study) score	full score reduced to pocket size for study (pocket score, Studienpartitur).	
+F1.1.4.03	F1.1	F1.1.4	Vocal or piano-vocal score	score with the vocal parts in full and the accompaniment reduced for piano.	
+F1.1.4.04	F1.1	F1.1.4	Score and parts	score issued together with the separate parts for each performer.	
+F1.1.4.05	F1.1	F1.1.4	Set of parts	the separate performers' parts of a work issued without the score.	
+F1.1.4.06	F1.1	F1.1.4	Choral octavo	single choral work printed in octavo format for choir use.	
+F1.1.4.07	F1.1	F1.1.4	Songbook or collection	bound collection of songs or pieces, in notation for voice, piano or another instrument, lead-sheet books included.	
+F1.2.1.01	F1.2	F1.2.1	Folded map	printed map sheet folded to pocket size for carrying; `scope` is an attribute.	
+F1.2.1.02	F1.2	F1.2.1	Wall map	map printed or mounted to hang flat on a wall, laminated or not.	
+F1.2.1.03	F1.2	F1.2.1	Map booklet	map issued as a small stapled or bound booklet of map sections.	
+F1.2.2.01	F1.2	F1.2.2	Bound atlas, hard or soft cover	book of maps bound in boards, a flexible cover or flexi-binding; `scope` is an attribute.	
+F1.2.2.02	F1.2	F1.2.2	Spiral-bound atlas	book of maps held by a wire or plastic spiral so it lies flat (road atlases).	
+F1.2.3.01	F1.2	F1.2.3	Desktop globe	globe on a short base or stand made to sit on a desk or table, mini globes included.	
+F1.2.3.02	F1.2	F1.2.3	Floor globe	globe on a tall floor-standing stand or frame.	
+F1.2.3.03	F1.2	F1.2.3	Hanging or suspended globe	globe made to hang from a ceiling or bracket.	yes
+F1.3.1.01	F1.3	F1.3.1	Microgroove record	vinyl disc with fine grooves played with a microgroove stylus at 33 1/3, 45 or another speed (LP, EP, single); `diameter`, `speed`, `release_type`, `weight_g` and `mastering` are attributes.	
+F1.3.1.02	F1.3	F1.3.1	Coarse-groove (78 rpm) record	shellac or early disc with wide grooves played at about 78 rpm with a coarse stylus (memo † on the term "coarse-groove" only; the 78 rpm shellac disc is attested).	yes
+F1.3.1.03	F1.3	F1.3.1	Flexi-disc	thin flexible vinyl sheet record, often bound into magazines.	
+F1.3.1.04	F1.3	F1.3.1	Instantaneous disc, acetate or lathe cut	disc cut one at a time on a recording lathe, as an acetate or lacquer, not pressed.	yes
+F1.3.1.05	F1.3	F1.3.1	Transcription disc, 16 inch	16-inch disc made for broadcast playback on a transcription deck (provisional under F-6: if no seller lists it apart, it is F1.3.1.01 with `diameter` 16 in).	
+F1.3.1.06	F1.3	F1.3.1	Cylinder record	sound recorded in the groove of a cylinder (wax or celluloid) for a phonograph.	
+F1.3.2.01	F1.3	F1.3.2	Compact cassette	audio tape in the standard two-hub compact cassette shell, pre-recorded or blank; `tape_type` is an attribute.	
+F1.3.2.02	F1.3	F1.3.2	Microcassette family	audio tape in a cassette smaller than the compact cassette (microcassette, minicassette, picocassette; label_source: memo).	
+F1.3.3.01	F1.3	F1.3.3	Compact disc, 12 cm	12 cm optical disc in the Compact Disc Digital Audio system (16-bit, 44.1 kHz), audiobook CDs included; `encoding` (HDCD) and `pressing_material` (SHM-CD, Blu-spec CD2, HQCD) are attributes.	
+F1.3.3.02	F1.3	F1.3.3	SACD	Super Audio CD carrying DSD audio, single-layer or hybrid with a CD layer; `hybrid` is an attribute.	
+F1.3.3.03	F1.3	F1.3.3	DVD-Audio	DVD-format disc carrying high-resolution audio (up to 24-bit/192 kHz).	
+F1.3.3.04	F1.3	F1.3.3	Mini-CD, 3 inch	8 cm compact disc needing a tray recess or adapter (provisional under F-6: if no seller lists it apart, it is F1.3.3.01 with `diameter` 3 in).	
+F1.3.4.01	F1.3	F1.3.4	Pre-recorded digital audio player	self-contained device sold with one work (usually an audiobook) fixed on it and able to play only that work (Playaway type; ONIX AK).	yes
+F1.4.1.01	F1.4	F1.4.1	VHS cassette	video recording on half-inch tape in a VHS cassette.	
+F1.4.1.02	F1.4	F1.4.1	Betamax cassette	video recording on half-inch tape in a Betamax cassette.	
+F1.4.2.01	F1.4	F1.4.2	LaserDisc	30 cm (or 20 cm) optical disc carrying analogue video.	
+F1.4.2.02	F1.4	F1.4.2	DVD	12 cm optical disc carrying standard-definition digital video.	
+F1.4.2.03	F1.4	F1.4.2	Blu-ray	12 cm optical disc in the Blu-ray system carrying high-definition video.	
+F1.4.2.04	F1.4	F1.4.2	Ultra HD Blu-ray	12 cm optical disc in the Ultra HD Blu-ray system, listed apart from Blu-ray.	
+F1.4.3.01	F1.4	F1.4.3	35 mm print	commercially released film print on 35 mm stock.	
+F1.4.3.02	F1.4	F1.4.3	16 mm print	commercially released film print on 16 mm stock.	
+F1.4.3.03	F1.4	F1.4.3	Super 8 print	commercially released film print on Super 8 stock.	
+F1.5.1.01	F1.5	F1.5.1	Dust jacket sold alone	loose paper wrapper made to cover one hardback book, sold apart from the book.	yes
+F1.5.1.02	F1.5	F1.5.1	Slipcase	open-ended box made to hold and protect one book or one set issued together.	yes
+F1.5.2.01	F1.5	F1.5.2	Comic bag	clear plastic bag sized to hold one comic issue.	yes
+F1.5.2.02	F1.5	F1.5.2	Backing board	stiff board placed behind one comic in its bag to keep it flat.	yes
+F1.5.3.01	F1.5	F1.5.3	Record inner sleeve	paper or poly sleeve that holds one record disc inside its jacket.	yes
+F1.5.3.02	F1.5	F1.5.3	Record outer sleeve	clear protective sleeve made to cover one record jacket.	yes
+F1.5.4.01	F1.5	F1.5.4	CD jewel case	hinged plastic case made to hold one compact disc with its booklet and tray card.	yes
+F1.5.5.01	F1.5	F1.5.5	Globe stand or meridian	stand, cradle or meridian ring sold for one globe.	yes
