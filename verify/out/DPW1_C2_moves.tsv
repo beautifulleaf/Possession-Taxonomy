@@ -1,0 +1,15 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-C2.3.1.05-003	move_kind				C2.3.1.06	John Deere X350R is an X300-series lawn tractor (no rear PTO or three-point hitch), K-99.
+NF-C2.3.1.05-004	move_kind				C2.3.1.06	John Deere X107 is an X100-series lawn tractor, K-99.
+NF-C2.2.1.02-002	move_kind				C2.2.1.04	Gardena StarCut is a telescopic tree pruner on a pole, not two-handed loppers.
+NF-C2.2.1.02-003	move_kind				C2.2.1.01	Makita DUP181 is one-handed cordless pruning shears; drive is an attribute.
+NF-C2.6.3.07-001	move_kind				C2.6.3.04	Hortonova is crop-support mesh netting, not a lattice trellis panel.
+NF-C2.6.1.06-001	to_line	L-northcote-pottery-villa	Villa	C2.6.1.01;C2.6.1.06		Villa range covers saucer, bowl and pot: more than one kind.
+NF-C2.10.03-001	to_line	L-leslies-elite-cartridge	Elite Replacement Cartridge	C2.10.03		Range of cartridges by filter fit, many models; line row already exists.
+NF-C2.5.3.01-004	to_line	L-hozelock-easy-drip	Easy Drip	C2.5.3.01		Hozelock micro-irrigation range of many kits and parts, not one model.
+NF-C2.2.1.02-006	drop					Name 'Loppers' restates the kind; no model identity.
+NF-C2.5.4.01-001	drop					Maker name plus kind (Haws watering can); models are not named.
+NF-C2.5.5.02-001	drop					Kind plus flow size (560 GPH); size is an attribute.
+NF-C2.5.5.02-002	drop					Type word 'waterfall pump' with sizes only; no model identity.
+NF-C2.1.06-002	drop					Name restates the kind (hand bulb planter); no model identity.
+NF-C2.5.1.02-008	drop					Name 'Hose Cart' restates a hose reel form; model codes are variants.
