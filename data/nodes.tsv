@@ -1340,3 +1340,42 @@ C7.9	C7	sub_family	C7	Forestry (no leaf)	Kind axis: machine type; `boom_type` an
 C7.10	C7	sub_family	C7	Parts and accessories made for one machine	Leaf axis: the machine served (exempt from the job axis, C5(d), CV-17). A fitting with no job of its own away from its host machine is here; an attachment that does a job of its own keeps its job sub-family. Display group: Loaders, tyres and tractor fittings.	26	from verify/out/TREE_C7.md		
 C7.10.1	C7	leaf	C7.10	Tractor fittings		27	from verify/out/TREE_C7.md		
 C7.10.2	C7	leaf	C7.10	Shearing machine parts		28	from verify/out/TREE_C7.md		
+E4	E4	category				0	from verify/out/TREE_E4.md		
+E4.1	E4	sub_family	E4	Firearms	Leaf axis: form class of the whole firearm (pistol, revolver, rifle, shotgun, combination gun, blank-firing pistol). Kinds by action within the form, from the simplest action to self-loading; `ignition` (flintlock, percussion, cartridge), calibre, capacity and barrel length are attributes. Display group: Firearms.	1	from verify/out/TREE_E4.md		
+E4.1.1	E4	leaf	E4.1	Pistols		2	from verify/out/TREE_E4.md		
+E4.1.2	E4	leaf	E4.1	Revolvers		3	from verify/out/TREE_E4.md		
+E4.1.3	E4	leaf	E4.1	Rifles		4	from verify/out/TREE_E4.md		
+E4.1.4	E4	leaf	E4.1	Shotguns		5	from verify/out/TREE_E4.md		
+E4.1.5	E4	leaf	E4.1	Combination guns		6	from verify/out/TREE_E4.md		
+E4.1.6	E4	leaf	E4.1	Blank-firing pistols		7	from verify/out/TREE_E4.md		
+E4.2	E4	sub_family	E4	Air and gas guns	Leaf axis: form class (rifle, pistol). Powerplant is a kind only where it changes the body or needs new fittings (C10): a reservoir and filling equipment for PCP, a capsule housing for CO2; spring and gas piston are one kind with `piston_type` an attribute. Display group: Air & gas guns.	8	from verify/out/TREE_E4.md		
+E4.2.1	E4	leaf	E4.2	Air rifles		9	from verify/out/TREE_E4.md		
+E4.2.2	E4	leaf	E4.2	Air pistols		10	from verify/out/TREE_E4.md		
+E4.3	E4	sub_family	E4	Bows and crossbows	Leaf axis: bow (hand-drawn), crossbow (stock-mounted) or other hand-held launcher (K-84). Draw weight, draw length, let-off and handedness are attributes; Olympic, 3D and bowhunting are disciplines (use tags). Display group: Bows, crossbows & arrows.	11	from verify/out/TREE_E4.md		
+E4.3.1	E4	leaf	E4.3	Bows		12	from verify/out/TREE_E4.md		
+E4.3.2	E4	leaf	E4.3	Crossbows		13	from verify/out/TREE_E4.md		
+E4.3.3	E4	leaf	E4.3	Other hand-held launchers		14	from verify/out/TREE_E4.md		
+E4.4	E4	sub_family	E4	Swords	Leaf axis: blade profile (straight double-edged; single-edged; thrusting). Hilt length (one-handed, hand-and-a-half, two-handed) and `function_class` are attributes; region and era are tags; school is a school-table link. Regional names (jian, dao, liuyedao, dadao, shamshir, kilij, talwar) and lettered typologies (Oakeshott types, blade-construction names) are named forms. Display group: Swords.	15	from verify/out/TREE_E4.md		
+E4.4.1	E4	leaf	E4.4	Straight double-edged		16	from verify/out/TREE_E4.md		
+E4.4.2	E4	leaf	E4.4	Single-edged		17	from verify/out/TREE_E4.md		
+E4.4.3	E4	leaf	E4.4	Thrusting		18	from verify/out/TREE_E4.md		
+E4.5	E4	sub_family	E4	Knives and daggers		19	from verify/out/TREE_E4.md		
+E4.6	E4	sub_family	E4	Polearms, axes and impact weapons	Leaf axis: form class by handling (polearm; axe; staff; impact; flexible), following the long, short and flexible classes of the Chinese apparatus lists. Display group: Polearms, axes & impact weapons.	20	from verify/out/TREE_E4.md		
+E4.6.1	E4	leaf	E4.6	Polearms		21	from verify/out/TREE_E4.md		
+E4.6.2	E4	leaf	E4.6	Axes		22	from verify/out/TREE_E4.md		
+E4.6.3	E4	leaf	E4.6	Staffs		23	from verify/out/TREE_E4.md		
+E4.6.4	E4	leaf	E4.6	Impact weapons		24	from verify/out/TREE_E4.md		
+E4.6.5	E4	leaf	E4.6	Flexible weapons [软兵器]		25	from verify/out/TREE_E4.md		
+E4.7	E4	sub_family	E4	Self-defence devices		26	from verify/out/TREE_E4.md		
+E4.8	E4	sub_family	E4	Armour and shields	Leaf axis: part of the body protected, or hand-held (head; torso; limbs and hands; full body; shields). Era is not a leaf; `protection_level` is an attribute with the standard and edition named. Display group: Body armour, historical armour & shields.	27	from verify/out/TREE_E4.md		
+E4.8.1	E4	leaf	E4.8	Head		28	from verify/out/TREE_E4.md		
+E4.8.2	E4	leaf	E4.8	Torso		29	from verify/out/TREE_E4.md		
+E4.8.3	E4	leaf	E4.8	Limbs and hands		30	from verify/out/TREE_E4.md		
+E4.8.4	E4	leaf	E4.8	Full body		31	from verify/out/TREE_E4.md		
+E4.8.5	E4	leaf	E4.8	Shields		32	from verify/out/TREE_E4.md		
+E4.9	E4	sub_family	E4	Ammunition and projectiles		33	from verify/out/TREE_E4.md		
+E4.10	E4	sub_family	E4	Parts, fittings and accessories	Leaf axis: weapon class served (C5(d)), with one leaf for fittings made for more than one weapon class (C14(b); axis inside it: fitting function). The platform (AR-15 pattern, rail interface, magazine pattern, bow cam system) is a C13 row. Display group: Parts, optics & fittings.	34	from verify/out/TREE_E4.md		
+E4.10.1	E4	leaf	E4.10	Parts for firearms		35	from verify/out/TREE_E4.md		
+E4.10.2	E4	leaf	E4.10	Parts for bows and crossbows		36	from verify/out/TREE_E4.md		
+E4.10.3	E4	leaf	E4.10	Fittings for blades		37	from verify/out/TREE_E4.md		
+E4.10.4	E4	leaf	E4.10	Fittings for more than one weapon class		38	from verify/out/TREE_E4.md		

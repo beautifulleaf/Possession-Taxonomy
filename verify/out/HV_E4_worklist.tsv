@@ -1,0 +1,106 @@
+kind_id	sub_family	leaf	name	definition	dagger
+E4.1.1.01	E4.1	E4.1.1	Semi-automatic pistol	handgun with the chamber in the barrel that reloads itself from a magazine after each shot.	
+E4.1.2.01	E4.1	E4.1.2	Double-action revolver	handgun with a revolving cylinder whose trigger pull both cocks the hammer and fires.	
+E4.1.2.02	E4.1	E4.1.2	Single-action revolver	handgun with a revolving cylinder whose hammer is cocked by hand before each shot; a percussion revolver is this kind with `ignition` = percussion.	
+E4.1.3.01	E4.1	E4.1.3	Bolt-action rifle	rifled long gun loaded and cycled by a hand-operated rotating or straight-pull bolt.	
+E4.1.3.02	E4.1	E4.1.3	Lever-action rifle	rifled long gun cycled by a lever below the receiver.	
+E4.1.3.03	E4.1	E4.1.3	Semi-automatic rifle	rifled long gun that reloads itself from a magazine after each shot.	
+E4.1.3.04	E4.1	E4.1.3	Single-shot rifle	rifled long gun that holds one cartridge and is reloaded by hand after each shot.	
+E4.1.3.05	E4.1	E4.1.3	Muzzle-loading rifle	rifled long gun loaded with powder and projectile from the muzzle (E-21).	
+E4.1.4.01	E4.1	E4.1.4	Over-under shotgun [Bockdoppelflinte]	smoothbore long gun with two barrels stacked one above the other.	
+E4.1.4.02	E4.1	E4.1.4	Side-by-side shotgun	smoothbore long gun with two barrels placed beside each other.	
+E4.1.4.03	E4.1	E4.1.4	Pump-action shotgun	smoothbore long gun cycled by sliding the fore-end back and forth.	
+E4.1.4.04	E4.1	E4.1.4	Semi-automatic shotgun [Selbstladeflinte]	smoothbore long gun that reloads itself after each shot.	
+E4.1.4.05	E4.1	E4.1.4	Muzzle-loading shotgun	smoothbore long gun loaded with powder and shot from the muzzle (E-21).	yes
+E4.1.5.01	E4.1	E4.1.5	Drilling or rifle-shotgun combination gun [Kombinierte Waffen]	long gun with at least one rifled and one smoothbore barrel in one action.	
+E4.1.6.01	E4.1	E4.1.6	Blank-firing pistol [Schreckschusswaffe]	pistol that fires only blank, irritant or signal cartridges, made for self-defence or deterrence.	
+E4.2.1.01	E4.2	E4.2.1	PCP air rifle	air rifle fired from an on-board reservoir pre-charged with compressed air.	
+E4.2.1.02	E4.2	E4.2.1	Piston air rifle	air rifle that compresses its charge with a spring or gas piston at each cocking stroke; `piston_type` is an attribute.	
+E4.2.1.03	E4.2	E4.2.1	CO2 air rifle	air rifle powered by carbon dioxide from a capsule or cylinder.	
+E4.2.2.01	E4.2	E4.2.2	CO2 air pistol	air pistol powered by carbon dioxide from a capsule.	
+E4.2.2.02	E4.2	E4.2.2	PCP air pistol	air pistol fired from an on-board reservoir pre-charged with compressed air.	
+E4.3.1.01	E4.3	E4.3.1	Recurve bow	hand-drawn bow whose limb tips curve away from the archer.	
+E4.3.1.02	E4.3	E4.3.1	Compound bow	hand-drawn bow whose limbs are bent by a system of cams and cables that gives let-off at full draw.	
+E4.3.1.03	E4.3	E4.3.1	Longbow	tall hand-drawn bow with straight, narrow limbs.	
+E4.3.2.01	E4.3	E4.3.2	Recurve crossbow	crossbow with recurved limbs mounted across a stock and released by a trigger.	
+E4.3.2.02	E4.3	E4.3.2	Compound crossbow	crossbow whose limbs work through cams and cables.	
+E4.3.3.01	E4.3	E4.3.3	Slingshot	hand-held fork with elastic bands that launches a small projectile; E1 when made as a toy (K-84).	
+E4.3.3.02	E4.3	E4.3.3	Blowgun	tube through which a dart is propelled by the breath; E1 when made as a toy (K-84).	yes
+E4.4.1.01	E4.4	E4.4.1	Arming sword	one-handed straight double-edged sword with a cross guard.	yes
+E4.4.1.02	E4.4	E4.4.1	Longsword	straight double-edged sword with a hilt long enough for one or two hands.	
+E4.4.1.03	E4.4	E4.4.1	Greatsword	large straight double-edged sword wielded with two hands.	
+E4.4.2.01	E4.4	E4.4.2	Sabre	single-edged, usually curved cavalry sword; national and regional patterns are named forms.	yes
+E4.4.2.02	E4.4	E4.4.2	Cutlass	short, broad single-edged sword with a basket or cup guard.	
+E4.4.2.03	E4.4	E4.4.2	Katana (Japanese long sword)	curved single-edged Japanese long sword worn edge up through the sash.	
+E4.4.2.04	E4.4	E4.4.2	Tachi (Japanese long sword)	curved single-edged Japanese long sword slung edge down from the belt.	
+E4.4.2.05	E4.4	E4.4.2	Wakizashi (Japanese short sword)	single-edged Japanese short sword, the shorter blade of the daishō pair.	
+E4.4.2.06	E4.4	E4.4.2	Tantō (Japanese dagger-length sword)	single-edged Japanese blade under one shaku, a sword kind by tradition.	
+E4.4.3.01	E4.4	E4.4.3	Rapier	long, slender sword with a complex hilt made mainly for the thrust.	yes
+E4.4.3.02	E4.4	E4.4.3	Smallsword	light, short thrusting sword with a small guard.	
+E4.5.01	E4.5		Dagger	short double-edged thrusting blade with a hilt.	
+E4.5.02	E4.5		Push dagger	short blade set at right angles to a T-handle gripped in the fist.	
+E4.5.03	E4.5		Bowie or fighting knife	large fixed-blade knife made for fighting, typically with a clip point and guard.	yes
+E4.5.04	E4.5		Hunting knife	knife made for dressing and skinning game; skinning and caping knives are non-maker named forms (section 14 E4-5).	
+E4.5.05	E4.5		Karambit	knife with a curved, claw-like blade and a finger ring, fixed or folding.	
+E4.5.06	E4.5		Butterfly knife	folding knife whose two handles rotate around the tang to cover or expose the blade.	
+E4.5.07	E4.5		Automatic knife	knife whose blade opens by a spring at the press of a button or switch, side-opening or out-the-front.	
+E4.5.08	E4.5		Throwing knife	balanced knife made to be thrown at a target.	
+E4.5.09	E4.5		Bayonet	blade made to fix to the muzzle of a firearm.	
+E4.5.10	E4.5		Shuriken	hand-thrown star or spike with sharpened points; E1 when made as a toy (K-84).	yes
+E4.6.1.01	E4.6	E4.6.1	Spear	shaft with a pointed head made for thrusting or throwing; yari and qiang are named forms.	
+E4.6.1.02	E4.6	E4.6.1	Halberd	polearm combining an axe blade, a spike and a hook on one head.	
+E4.6.1.03	E4.6	E4.6.1	Naginata	Japanese polearm with a long curved single-edged blade.	
+E4.6.1.04	E4.6	E4.6.1	Glaive	polearm with a single-edged blade on the end of the shaft.	yes
+E4.6.2.01	E4.6	E4.6.2	Battle axe	axe made for fighting, not for cutting wood.	
+E4.6.2.02	E4.6	E4.6.2	Tomahawk	light one-handed axe made for fighting or throwing.	yes
+E4.6.3.01	E4.6	E4.6.3	Bō staff	long wooden staff used as a weapon.	yes
+E4.6.3.02	E4.6	E4.6.3	Gun staff [棍]	Chinese long staff weapon of the apparatus lists.	
+E4.6.4.01	E4.6	E4.6.4	Mace	club with a heavy head, often flanged or spiked.	
+E4.6.4.02	E4.6	E4.6.4	War hammer	hafted weapon with a hammer head, often backed by a spike.	
+E4.6.4.03	E4.6	E4.6.4	Baton	rigid or telescoping club made for striking.	
+E4.6.4.04	E4.6	E4.6.4	Tonfa	baton with a side handle set at right angles to the shaft.	yes
+E4.6.4.05	E4.6	E4.6.4	Nunchaku	two short sticks joined by a cord or chain.	
+E4.6.4.06	E4.6	E4.6.4	Kubotan	short rod held in the fist to strike or apply pressure.	yes
+E4.6.5.01	E4.6	E4.6.5	Flail	striking head joined to a handle by a chain.	
+E4.6.5.02	E4.6	E4.6.5	Rope dart	dart or blade on the end of a long rope, swung and cast.	
+E4.6.5.03	E4.6	E4.6.5	Chain whip	jointed steel segments ending in a dart, swung as a whip.	
+E4.6.5.04	E4.6	E4.6.5	Three-section staff	three staff sections joined end to end by chains or cords.	yes
+E4.7.01	E4.7		Pepper spray	canister that sprays an irritant agent as a mist or stream.	
+E4.7.02	E4.7		Pepper gel	canister that sprays an irritant agent as a sticky gel.	yes
+E4.7.03	E4.7		Pepper-ball launcher	launcher that fires frangible projectiles filled with an irritant powder.	yes
+E4.7.04	E4.7		CO2 launcher	compact CO2-powered launcher made for self-defence projectiles; may merge with E4.7.03 when attested.	
+E4.7.05	E4.7		Projectile electroshock weapon	device that fires wired darts to deliver an incapacitating electric shock; TASER is a maker-bound named form.	
+E4.7.06	E4.7		Contact stun gun	hand-held device that delivers an electric shock through electrodes pressed against the body.	
+E4.8.1.01	E4.8	E4.8.1	Plate helmet	metal helmet made against blows; burgonet is a named form.	
+E4.8.1.02	E4.8	E4.8.1	Ballistic helmet	helmet made against bullets and fragments; `protection_level` is an attribute (E-23, provisional).	yes
+E4.8.2.01	E4.8	E4.8.2	Soft ballistic vest	flexible body armour against handgun rounds.	
+E4.8.2.02	E4.8	E4.8.2	Hard ballistic plate	rigid armour plate against rifle rounds, worn alone or in a carrier.	
+E4.8.2.03	E4.8	E4.8.2	Stab-resistant vest	body armour made against knife and spike attacks (NIJ 0115.00).	
+E4.8.2.04	E4.8	E4.8.2	Plate carrier	vest made to hold hard armour plates, armour in its own right (K-84).	yes
+E4.8.3.01	E4.8	E4.8.3	Gauntlet	armoured glove protecting the hand and wrist.	yes
+E4.8.3.02	E4.8	E4.8.3	Arm armour	loose armour for the arm, such as vambrace and couter.	yes
+E4.8.3.03	E4.8	E4.8.3	Leg armour	loose armour for the leg, such as greave and cuisse.	yes
+E4.8.4.01	E4.8	E4.8.4	Plate armour harness	complete suit of plate armour; a garniture is a named form.	
+E4.8.5.01	E4.8	E4.8.5	Shield	hand-held protective barrier carried on the arm.	
+E4.9.01	E4.9		Centrefire handgun cartridge	complete cartridge with a central primer made for handguns.	
+E4.9.02	E4.9		Centrefire rifle cartridge	complete cartridge with a central primer made for rifles.	
+E4.9.03	E4.9		Rimfire cartridge	complete cartridge whose priming compound sits in the rim.	
+E4.9.04	E4.9		Shotshell	cartridge for a shotgun loaded with shot or a slug.	
+E4.9.05	E4.9		Muzzle-loading projectile	ball or conical bullet loaded from the muzzle.	
+E4.9.06	E4.9		Black powder and substitute propellant	black powder and its substitutes for muzzle-loading arms (E4-O2).	
+E4.9.07	E4.9		Air-gun pellet	lead or alloy projectile made for air guns.	
+E4.9.08	E4.9		Arrow	shafted projectile shot from a bow (E4-O1).	
+E4.9.09	E4.9		Crossbow bolt	short shafted projectile shot from a crossbow.	yes
+E4.9.10	E4.9		Loose bullet	projectile sold on its own for loading cartridges (K-86).	yes
+E4.9.11	E4.9		Primer	ignition cap sold on its own for loading cartridges (K-86).	yes
+E4.9.12	E4.9		Smokeless propellant powder	smokeless powder sold for loading cartridges (K-86).	yes
+E4.10.1.01	E4.10	E4.10.1	Magazine	detachable or fixed container that feeds cartridges into a firearm.	
+E4.10.2.01	E4.10	E4.10.2	Bowstring	string made to fit a bow or crossbow.	
+E4.10.2.02	E4.10	E4.10.2	Arrow rest	device on the bow riser that supports the arrow before release.	yes
+E4.10.3.01	E4.10	E4.10.3	Scabbard	sheath made to hold a sword or knife.	
+E4.10.3.02	E4.10	E4.10.3	Sword guard	loose guard for a sword hilt; tsuba is a non-maker named form.	yes
+E4.10.3.03	E4.10	E4.10.3	Grip ornament (menuki)	loose ornament fitted under the grip wrapping of a Japanese sword.	yes
+E4.10.4.01	E4.10	E4.10.4	Rifle scope	telescopic sight made to mount on a firearm, air rifle or crossbow.	
+E4.10.4.02	E4.10	E4.10.4	Weapon light	light made to mount on a weapon (K-162).	yes
+E4.10.4.03	E4.10	E4.10.4	Bipod	two-legged support made to mount on a weapon (K-163).	yes
+E4.10.4.04	E4.10	E4.10.4	Shooting rest	support on which a weapon is laid to steady the aim (K-163).	yes
