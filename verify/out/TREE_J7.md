@@ -138,10 +138,12 @@ Leaf axis: legal class or base spirit. Kinds are production or legal types; coun
 - J7.5.2.04 Pisco: grape brandy of the Pisco designation, a CV-40 designation kind.
 - J7.5.2.05 Grappa: brandy distilled from grape pomace.
 - J7.5.2.06 Fruit brandy [eau de vie]: clear brandy distilled from fermented fruit other than grape wine.
+- J7.5.2.07 Grape brandy: brandy distilled from grape wine outside the designation kinds above (Brandy de Jerez and other protected brandies are its named forms); added by R-121.
 
 ### J7.5.3 Rum
 - J7.5.3.01 Rum from cane juice [rhum agricole]: rum distilled from fresh sugar-cane juice.
 - J7.5.3.02 Cachaça: Brazilian sugar-cane spirit of the Cachaça designation, a CV-40 designation kind.
+- J7.5.3.03 Rum from molasses: rum distilled from molasses or other sugar-cane by-products, the common rum type; added by R-121.
 
 ### J7.5.4 Gin
 - J7.5.4.01 London dry gin: gin distilled with juniper and natural botanicals, with nothing but a little sweetening added after distillation.
