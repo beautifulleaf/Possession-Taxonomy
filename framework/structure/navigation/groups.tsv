@@ -1,54 +1,4 @@
 code	group_id	group_name	level	parent_group	members
-I1	G-I1-1	Look after my computer	1		I1.1
-I1	G-I1-13	Operating systems and environments	2	G-I1-1	I1.1.1.01; I1.1.1.02; I1.1.1.03; I1.1.1.04
-I1	G-I1-14	Clean, tune and repair	2	G-I1-1	I1.1.2.01; I1.1.2.02; I1.1.2.03; I1.1.2.07; I1.1.2.08; I1.1.3.06
-I1	G-I1-15	Back up and recover	2	G-I1-1	I1.1.2.04; I1.1.2.06
-I1	G-I1-16	Files and remote access	2	G-I1-1	I1.1.3.01; I1.1.3.02; I1.1.3.03; I1.1.3.05; I1.1.3.07
-I1	G-I1-17	Launchers and desktop tweaks	2	G-I1-1	I1.1.3.04; I1.1.1.05; I1.1.3.08
-I1	G-I1-2	Protect my data and logins	1		I1.2; I1.1.2.05
-I1	G-I1-18	Malware and network protection	2	G-I1-2	I1.2.01; I1.2.07
-I1	G-I1-19	Passwords and logins	2	G-I1-2	I1.2.02; I1.2.06
-I1	G-I1-20	Privacy and encryption	2	G-I1-2	I1.2.03; I1.2.04; I1.1.2.05
-I1	G-I1-21	Family safety	2	G-I1-2	I1.2.05
-I1	G-I1-3	Write, plan and organise	1		I1.3; I1.4.1.12
-I1	G-I1-22	Office suites and documents	2	G-I1-3	I1.3.01; I1.3.08; I1.3.09; I1.3.10; I1.3.02; I1.3.06; I1.3.14
-I1	G-I1-23	Notes, tasks and diagrams	2	G-I1-3	I1.3.03; I1.3.04; I1.3.05; I1.3.11; I1.4.1.12; I1.3.13
-I1	G-I1-24	Typing and dictation	2	G-I1-3	I1.3.07; I1.3.12
-I1	G-I1-4	Make images, video and music	1		I1.4
-I1	G-I1-25	Photo and image editing	2	G-I1-4	I1.4.1.01; I1.4.1.04; I1.4.1.09
-I1	G-I1-26	Graphic design and publishing	2	G-I1-4	I1.4.1.02; I1.4.1.03; I1.4.1.10; I1.4.1.08; I1.4.1.07
-I1	G-I1-27	3D and scanning	2	G-I1-4	I1.4.1.05; I1.4.1.11
-I1	G-I1-28	Video and animation	2	G-I1-4	I1.4.2.01; I1.4.2.03; I1.4.2.04; I1.4.2.05; I1.4.2.06
-I1	G-I1-29	Screen capture and streaming	2	G-I1-4	I1.4.2.02; I1.4.1.06
-I1	G-I1-30	Music and audio	2	G-I1-4	I1.4.3.01; I1.4.3.02; I1.4.3.03; I1.4.3.04; I1.4.3.05; I1.4.3.06
-I1	G-I1-31	All-in-one creative suites	2	G-I1-4	I1.4.4.01
-I1	G-I1-5	Play and read my media	1		I1.5
-I1	G-I1-32	Players and readers	2	G-I1-5	I1.5.01; I1.5.02; I1.5.03
-I1	G-I1-33	Live show control	2	G-I1-5	I1.5.04
-I1	G-I1-6	Run money and business	1		I1.6
-I1	G-I1-34	Budgets and tax	2	G-I1-6	I1.6.1.02; I1.6.1.01
-I1	G-I1-35	Accounting and ERP	2	G-I1-6	I1.6.1.03; I1.6.3.02
-I1	G-I1-36	Sales and marketing	2	G-I1-6	I1.6.2.01; I1.6.2.02; I1.6.2.03
-I1	G-I1-37	Operations and staff	2	G-I1-6	I1.6.3.01; I1.6.3.03; I1.6.3.04; I1.6.3.05
-I1	G-I1-7	Learn, translate and look up	1		I1.7
-I1	G-I1-38	Learn and teach	2	G-I1-7	I1.7.01; I1.7.03; I1.7.06
-I1	G-I1-39	Translate	2	G-I1-7	I1.7.04; I1.7.05
-I1	G-I1-40	Look up	2	G-I1-7	I1.7.02
-I1	G-I1-8	Build software, sites and games	1		I1.8
-I1	G-I1-41	Write code	2	G-I1-8	I1.8.1.01; I1.8.1.02; I1.8.1.03; I1.8.1.04; I1.8.1.07
-I1	G-I1-42	Build websites and games	2	G-I1-8	I1.8.1.06; I1.8.1.05
-I1	G-I1-43	Data, servers and operations	2	G-I1-8	I1.8.2.01; I1.8.2.07; I1.8.2.02; I1.8.2.06; I1.8.2.03; I1.8.2.04; I1.8.2.05
-I1	G-I1-9	Design, engineer and research	1		I1.9
-I1	G-I1-44	Design and make	2	G-I1-9	I1.9.01; I1.9.07; I1.9.05; I1.9.02
-I1	G-I1-45	Science, maps and sky	2	G-I1-9	I1.9.03; I1.9.04; I1.9.06
-I1	G-I1-10	Ask an AI	1		I1.10
-I1	G-I1-46	AI assistants and agents	2	G-I1-10	I1.10.01; I1.10.02; I1.10.03
-I1	G-I1-11	Get online	1		I1.11
-I1	G-I1-47	Browse and mail	2	G-I1-11	I1.11.01; I1.11.02
-I1	G-I1-48	Download and share files	2	G-I1-11	I1.11.04; I1.11.03; I1.11.05
-I1	G-I1-12	Add-ons for one program or device	1		I1.12
-I1	G-I1-49	Add-ons for a program	2	G-I1-12	I1.12.1.01; I1.12.2.01; I1.12.3.01; I1.12.4.01
-I1	G-I1-50	Software for one device	2	G-I1-12	I1.12.5.02; I1.12.5.01
 J2	G-J2-1	Fresh & frozen (fish counter)	1		
 J2	G-J2-2	Smoked	1		J2.2.01; J2.2.02; J2.2.03; J2.2.04; J2.2.05; J2.2.06; J2.2.07; J2.2.08; J2.2.09; J2.2.10; J2.2.11
 J2	G-J2-3	Salted, cured & dried	1		
@@ -76,151 +26,6 @@ J2	G-J2-24	Marinated fish (chilled jars & tubs)	2	G-J2-4	J2.4.04; J2.4.06; J2.4.
 J2	G-J2-25	Sturgeon caviar	2	G-J2-5	J2.5.1.01; J2.5.1.02; J2.5.1.03; J2.5.1.04; J2.5.1.05; J2.5.1.06; J2.5.1.07; J2.5.1.08; J2.5.1.09; J2.5.1.10; J2.5.1.11; J2.5.1.12
 J2	G-J2-26	Salmon & trout roe	2	G-J2-5	J2.5.2.01; J2.5.2.02
 J2	G-J2-27	Other roe	2	G-J2-5	J2.5.3.01; J2.5.3.02; J2.5.3.03; J2.5.3.04; J2.5.3.05; J2.5.3.06; J2.5.3.07; J2.5.3.08; J2.5.3.09
-J3	G-J3-1	Milk	1		
-J3	G-J3-2	Cream & butter	1		
-J3	G-J3-3	Yoghurt & fermented milks	1		
-J3	G-J3-4	Cheese	1		
-J3	G-J3-5	Eggs	1		
-J3	G-J3-6	Baby milks & milk powders	1		
-J3	G-J3-7	Dairy-free alternatives	1		
-J3	G-J3-8	Cow's milk	2	G-J3-1	J3.1.01
-J3	G-J3-9	Goat's, sheep's & buffalo milk	2	G-J3-1	J3.1.02; J3.1.03; J3.1.04
-J3	G-J3-10	Buttermilk, evaporated & condensed milk, dulce de leche	2	G-J3-1	J3.1.05; J3.1.06; J3.1.07
-J3	G-J3-11	Cream	2	G-J3-2	J3.2.1.02; J3.2.1.01; J3.2.1.04; J3.2.1.03; J3.2.1.05; J3.2.1.06; J3.2.1.07; J3.2.1.08; J3.2.1.09
-J3	G-J3-12	Butter & ghee	2	G-J3-2	J3.2.2.04; J3.2.2.02; J3.2.2.01; J3.2.2.03
-J3	G-J3-13	Yoghurts (set, stirred, strained, skyr)	2	G-J3-3	J3.3.01; J3.3.05; J3.3.06; J3.3.07
-J3	G-J3-14	Drinking & cultured milks (kefir, kumys, soured milk)	2	G-J3-3	J3.3.02; J3.3.03; J3.3.04; J3.3.08; J3.3.09
-J3	G-J3-15	Fresh & whey cheeses	2	G-J3-4	J3.4.1.04; J3.4.1.02; J3.4.1.05; J3.4.1.01; J3.4.1.03; J3.4.1.06; J3.4.1.07; J3.4.1.08; J3.4.1.09; J3.4.1.10
-J3	G-J3-16	Mozzarella, stretched & brined cheeses	2	G-J3-4	J3.4.2.01; J3.4.3.01; J3.4.3.02; J3.4.2.02; J3.4.3.03; J3.4.2.03; J3.4.2.04; J3.4.3.04; J3.4.3.05
-J3	G-J3-17	Soft white-rind cheeses	2	G-J3-4	J3.4.4.01; J3.4.4.02; J3.4.4.03; J3.4.4.04
-J3	G-J3-18	Washed-rind cheeses	2	G-J3-4	J3.4.5.01; J3.4.5.02; J3.4.5.03
-J3	G-J3-19	Semi-hard cheeses	2	G-J3-4	J3.4.6.01; J3.4.6.03; J3.4.6.02; J3.4.6.04; J3.4.6.05; J3.4.6.06; J3.4.6.07; J3.4.6.08; J3.4.6.11; J3.4.6.09; J3.4.6.10; J3.4.6.12; J3.4.6.13; J3.4.6.14; J3.4.6.15; J3.4.6.16; J3.4.6.17; J3.4.6.18; J3.4.6.19; J3.4.6.20; J3.4.6.21; J3.4.6.22
-J3	G-J3-20	Hard & long-aged cheeses	2	G-J3-4	J3.4.7.01; J3.4.7.02; J3.4.7.03; J3.4.7.04; J3.4.7.05; J3.4.7.06
-J3	G-J3-21	Blue cheeses	2	G-J3-4	J3.4.9.01; J3.4.9.02; J3.4.9.03; J3.4.9.04
-J3	G-J3-22	Dried dairy (aaruul, chhurpi, qurut, kashk)	2	G-J3-4	J3.4.8.03; J3.4.8.04; J3.4.8.01; J3.4.8.02; J3.4.8.05; J3.4.8.06
-J3	G-J3-23	Processed cheese & selections	2	G-J3-4	J3.4.10.01; J3.4.0.01
-J3	G-J3-24	Hen's eggs	2	G-J3-5	J3.5.01
-J3	G-J3-25	Duck & quail eggs	2	G-J3-5	J3.5.02; J3.5.03
-J3	G-J3-26	Preserved, liquid & dried egg	2	G-J3-5	J3.5.04; J3.5.05; J3.5.06
-J3	G-J3-27	Infant, follow-on & growing-up milks	2	G-J3-6	J3.6.03; J3.6.04; J3.6.05
-J3	G-J3-28	Milk powders	2	G-J3-6	J3.6.01; J3.6.02
-J3	G-J3-29	Plant drinks	2	G-J3-7	J3.7.1.01; J3.7.1.02; J3.7.1.03; J3.7.1.04; J3.7.1.05; J3.7.1.06
-J3	G-J3-30	Plant yoghurts	2	G-J3-7	J3.7.2.01
-J3	G-J3-31	Plant cheeses	2	G-J3-7	J3.7.3.01; J3.7.3.02
-J3	G-J3-32	Plant creams & creamers	2	G-J3-7	J3.7.4.01; J3.7.4.02
-J3	G-J3-33	Plant egg alternatives	2	G-J3-7	J3.7.5.01
-J4	G-J4-1	Fruit	1		
-J4	G-J4-2	Vegetables	1		
-J4	G-J4-3	Salad & herbs	1		
-J4	G-J4-4	Mushrooms & sea vegetables	1		
-J4	G-J4-5	Mixed boxes & packs	1		J4.0.01; J4.1.0.01; J4.2.0.01
-J4	G-J4-6	Apples & pears	2	G-J4-1	J4.1.1.01; J4.1.1.02; J4.1.1.03; J4.1.1.05; J4.1.1.04; J4.1.1.06
-J4	G-J4-7	Stone fruit & cherries	2	G-J4-1	J4.1.2.01; J4.1.2.02; J4.1.2.03; J4.1.2.04; J4.1.2.05; J4.1.2.06
-J4	G-J4-8	Citrus	2	G-J4-1	J4.1.3.01; J4.1.3.02; J4.1.3.03; J4.1.3.04; J4.1.3.05; J4.1.3.06; J4.1.3.07; J4.1.3.08; J4.1.3.09; J4.1.3.10; J4.1.3.11; J4.1.3.12; J4.1.3.13
-J4	G-J4-9	Berries	2	G-J4-1	J4.1.4.01; J4.1.4.02; J4.1.4.03; J4.1.4.04; J4.1.4.05; J4.1.4.06; J4.1.4.07; J4.1.4.08; J4.1.4.09; J4.1.4.10; J4.1.4.11
-J4	G-J4-10	Grapes & kiwi	2	G-J4-1	J4.1.5.01; J4.1.5.02
-J4	G-J4-11	Melons	2	G-J4-1	J4.1.6.01; J4.1.6.02
-J4	G-J4-12	Tropical & exotic fruit	2	G-J4-1	J4.1.7.01; J4.1.7.02; J4.1.7.04; J4.1.7.03; J4.1.7.05; J4.1.7.06; J4.1.7.07; J4.1.7.08; J4.1.7.09; J4.1.7.12; J4.1.7.13; J4.1.7.14; J4.1.7.15; J4.1.7.16; J4.1.7.17; J4.1.7.18; J4.1.7.19; J4.1.7.20; J4.1.7.21; J4.1.7.10; J4.1.7.11
-J4	G-J4-13	Other fruit (figs, dates, persimmons, pomegranates)	2	G-J4-1	J4.1.8.01; J4.1.8.02; J4.1.8.03; J4.1.8.04; J4.1.8.05; J4.1.8.06; J4.1.8.07
-J4	G-J4-14	Leafy greens (cooking greens)	2	G-J4-2	J4.2.1.02; J4.2.1.03; J4.2.1.09; J4.2.1.10
-J4	G-J4-15	Cabbage family	2	G-J4-2	J4.2.2.01; J4.2.2.02; J4.2.2.03; J4.2.2.04; J4.2.2.05; J4.2.2.06; J4.2.2.07; J4.2.2.09; J4.2.2.08
-J4	G-J4-16	Potatoes & roots	2	G-J4-2	J4.2.3.01; J4.2.3.02; J4.2.3.03; J4.2.3.04; J4.2.3.05; J4.2.3.06; J4.2.3.07; J4.2.3.08; J4.2.3.09; J4.2.3.10; J4.2.3.11; J4.2.3.12; J4.2.3.13; J4.2.3.14; J4.2.3.15; J4.2.3.16; J4.2.3.17; J4.2.3.18; J4.2.3.19; J4.2.3.20
-J4	G-J4-17	Onions & garlic	2	G-J4-2	J4.2.4.01; J4.2.4.02; J4.2.4.03; J4.2.4.04; J4.2.4.05; J4.2.4.06; J4.2.4.07; J4.2.4.08; J4.2.4.09
-J4	G-J4-18	Tomatoes, peppers & fruiting vegetables	2	G-J4-2	J4.2.5.01; J4.2.5.02; J4.2.5.03; J4.2.5.04; J4.2.5.05; J4.2.5.08; J4.2.5.09; J4.2.5.10
-J4	G-J4-19	Squash, cucumbers & gourds	2	G-J4-2	J4.2.5.06; J4.2.5.07; J4.2.5.11; J4.2.5.12; J4.2.5.13; J4.2.5.14
-J4	G-J4-20	Peas & beans	2	G-J4-2	J4.2.6.01; J4.2.6.02; J4.2.6.03; J4.2.6.04; J4.2.6.05
-J4	G-J4-21	Asparagus, stems & shoots	2	G-J4-2	J4.2.7.01; J4.2.7.02; J4.2.7.04; J4.2.7.05; J4.2.7.06; J4.2.7.07; J4.2.7.08; J4.2.7.09; J4.2.7.10
-J4	G-J4-22	Salad leaves & sprouts	2	G-J4-3	J4.2.1.01; J4.2.1.04; J4.2.1.05; J4.2.1.06; J4.2.1.07; J4.2.1.08; J4.2.7.03; J4.2.1.11; J4.2.1.12
-J4	G-J4-23	Fresh herbs	2	G-J4-3	J4.3.01; J4.3.02; J4.3.03; J4.3.04; J4.3.05; J4.3.06; J4.3.07; J4.3.0.01; J4.3.08; J4.3.09; J4.3.10; J4.3.11
-J4	G-J4-24	Cultivated mushrooms	2	G-J4-4	J4.4.01; J4.4.02; J4.4.06; J4.4.07; J4.4.10
-J4	G-J4-25	Wild mushrooms & truffles	2	G-J4-4	J4.4.03; J4.4.04; J4.4.08; J4.4.09
-J4	G-J4-26	Sea vegetables	2	G-J4-4	J4.4.05
-J7	G-J7-1	Wine	1		J7.1
-J7	G-J7-10	Red wine	2	G-J7-1	J7.1.1.01; J7.1.1.02; J7.1.1.03; J7.1.1.04; J7.1.1.05; J7.1.1.06; J7.1.1.07; J7.1.1.08; J7.1.1.09; J7.1.1.10; J7.1.1.11; J7.1.1.12; J7.1.1.13; J7.1.1.14; J7.1.1.15; J7.1.1.16; J7.1.1.17; J7.1.1.18; J7.1.1.19; J7.1.1.20; J7.1.1.21; J7.1.1.22; J7.1.1.23; J7.1.1.24; J7.1.1.25
-J7	G-J7-11	White wine	2	G-J7-1	J7.1.2.01; J7.1.2.02; J7.1.2.03; J7.1.2.04; J7.1.2.05; J7.1.2.06; J7.1.2.07; J7.1.2.08; J7.1.2.09; J7.1.2.10; J7.1.2.11; J7.1.2.12; J7.1.2.13; J7.1.2.14; J7.1.2.15; J7.1.2.16; J7.1.2.17; J7.1.2.18; J7.1.2.19; J7.1.2.20; J7.1.2.21; J7.1.2.22; J7.1.2.23; J7.1.2.24
-J7	G-J7-12	Rosé and orange wine	2	G-J7-1	J7.1.3.01; J7.1.4.01
-J7	G-J7-13	Champagne and sparkling wine	2	G-J7-1	J7.1.5.01; J7.1.5.02; J7.1.5.03; J7.1.5.04; J7.1.5.05
-J7	G-J7-14	Sweet and dessert wine	2	G-J7-1	J7.1.6.01; J7.1.6.02; J7.1.6.03; J7.1.6.04; J7.1.6.05
-J7	G-J7-15	Fortified and aromatised wine	2	G-J7-1	J7.1.7.01; J7.1.7.02; J7.1.7.03; J7.1.8.01; J7.1.8.02; J7.1.8.03; J7.1.7.04; J7.1.8.04
-J7	G-J7-27	Mixed wine cases	2	G-J7-1	J7.1.0.01
-J7	G-J7-2	Beer	1		J7.2
-J7	G-J7-16	Lagers and bocks	2	G-J7-2	J7.2.1.01; J7.2.1.02; J7.2.1.03; J7.2.1.04; J7.2.1.05; J7.2.2.01; J7.2.5.01; J7.2.5.02; J7.2.6.01; J7.2.2.02; J7.2.2.03; J7.2.6.02
-J7	G-J7-17	Wheat beer	2	G-J7-2	J7.2.3.01; J7.2.3.02; J7.2.3.03
-J7	G-J7-18	Pale ales and IPA	2	G-J7-2	J7.2.7.01; J7.2.7.02; J7.2.8.01; J7.2.8.02; J7.2.8.03; J7.2.8.04; J7.2.7.03
-J7	G-J7-28	Porter and stout	2	G-J7-2	J7.2.9.01; J7.2.9.02; J7.2.10.01; J7.2.10.02; J7.2.10.03
-J7	G-J7-29	Traditional grain, root and fruit beers; mixed beer	2	G-J7-2	J7.2.4.01; J7.2.4.02; J7.2.4.04; J7.2.4.05; J7.2.0.01; J7.2.4.03
-J7	G-J7-3	Cider, perry & mead	1		J7.3.1.01; J7.3.1.02; J7.3.1.03; J7.3.1.04; J7.3.2.01; J7.3.3.01; J7.3.4.01; J7.3.3.02; J7.3.3.03; J7.3.1.05; J7.3.1.06; J7.3.5.01
-J7	G-J7-4	Spirits & liqueurs	1		J7.5; J7.6
-J7	G-J7-19	Whisky	2	G-J7-4	J7.5.1.01; J7.5.1.02; J7.5.1.03; J7.5.1.04; J7.5.1.05; J7.5.1.06; J7.5.1.07; J7.5.1.09; J7.5.1.08; J7.5.1.10; J7.5.1.11
-J7	G-J7-20	Brandy	2	G-J7-4	J7.5.2.01; J7.5.2.02; J7.5.2.03; J7.5.2.04; J7.5.2.05; J7.5.2.06; J7.5.2.07
-J7	G-J7-21	Rum and cachaça	2	G-J7-4	J7.5.3.01; J7.5.3.02; J7.5.3.03
-J7	G-J7-22	Gin	2	G-J7-4	J7.5.4.01; J7.5.4.02
-J7	G-J7-23	Tequila, mezcal and other agave spirits	2	G-J7-4	J7.5.5.01; J7.5.5.02; J7.5.5.03
-J7	G-J7-24	Vodka	2	G-J7-4	J7.5.6.01
-J7	G-J7-25	Other spirits (baijiu, shochu, soju, arrack, anise, genever, aquavit, absinthe)	2	G-J7-4	J7.5.7.01; J7.5.7.02; J7.5.7.03; J7.5.7.04; J7.5.8.01; J7.5.9.01; J7.5.9.02; J7.5.9.03; J7.5.9.04; J7.5.0.01
-J7	G-J7-26	Liqueurs, bitters and flavoured spirits	2	G-J7-4	J7.6.01; J7.6.02; J7.6.03; J7.6.04; J7.6.05; J7.6.06; J7.6.07; J7.6.08; J7.6.10; J7.6.11; J7.6.09
-J7	G-J7-5	Sake & rice wines	1		J7.4.01; J7.4.02; J7.4.03; J7.4.05; J7.4.07; J7.4.08; J7.4.04; J7.4.06; J7.4.09
-J7	G-J7-6	Premix & ready-to-drink	1		J7.7.01; J7.7.02; J7.7.03; J7.7.04; J7.7.05
-J1	G-J1-1	Beef & veal	1		J1.1.1; J1.1.2; J1.1.2.02; J1.1.2.03
-J1	G-J1-11	Beef steaks	2	G-J1-1	J1.1.1.02; J1.1.1.03; J1.1.1.04; J1.1.1.05; J1.1.1.06; J1.1.1.07; J1.1.1.08; J1.1.1.09; J1.1.1.17; J1.1.1.18; J1.1.1.19
-J1	G-J1-12	Roasting joints and primals	2	G-J1-1	J1.1.1.01; J1.1.1.13; J1.1.1.20; J1.1.1.21; J1.1.1.22
-J1	G-J1-13	Slow-cook cuts	2	G-J1-1	J1.1.1.10; J1.1.1.11; J1.1.1.12; J1.1.1.23
-J1	G-J1-14	Mince and burgers	2	G-J1-1	J1.1.1.14; J1.1.1.15
-J1	G-J1-15	Offal	2	G-J1-1	J1.1.1.16; J1.1.2.01; J1.1.1.24; J1.1.1.25; J1.1.1.26
-J1	G-J1-2	Pork	1		J1.1.3
-J1	G-J1-16	Chops, steaks and roasting joints	2	G-J1-2	J1.1.3.02; J1.1.3.03; J1.1.3.04; J1.1.3.09; J1.1.3.13; J1.1.3.14; J1.1.3.16
-J1	G-J1-17	Belly, ribs and slow-cook cuts	2	G-J1-2	J1.1.3.01; J1.1.3.05; J1.1.3.06; J1.1.3.07; J1.1.3.08; J1.1.3.12; J1.1.3.15
-J1	G-J1-18	Mince and burgers	2	G-J1-2	J1.1.3.10; J1.1.3.11
-J1	G-J1-3	Lamb & goat	1		J1.1.4.01; J1.1.4.02; J1.1.4.03; J1.1.4.04; J1.1.5.01; J1.1.4.05; J1.1.4.06; J1.1.4.07; J1.1.5.02; J1.1.5.03; J1.1.5.04; J1.1.5.05; J1.1.5.06
-J1	G-J1-4	Chicken	1		J1.1.6.01; J1.1.6.02; J1.1.6.03; J1.1.6.04
-J1	G-J1-5	Turkey, duck & other poultry	1		J1.1.7.01; J1.1.8.01; J1.1.8.02; J1.1.8.03; J1.1.8.04; J1.1.8.05; J1.1.8.06
-J1	G-J1-6	Game & other meats	1		J1.1.9; J1.1.10; J1.1.11; J1.1.12; J1.1.13; J1.1.14
-J1	G-J1-19	Game birds	2	G-J1-6	J1.1.9.01; J1.1.9.02; J1.1.9.03; J1.1.9.04; J1.1.9.05; J1.1.9.06; J1.1.9.07
-J1	G-J1-20	Venison	2	G-J1-6	J1.1.10.01; J1.1.10.02; J1.1.10.03; J1.1.10.04; J1.1.10.05; J1.1.10.06; J1.1.10.07; J1.1.10.08
-J1	G-J1-21	Rabbit, hare and wild boar	2	G-J1-6	J1.1.11.01; J1.1.11.02; J1.1.12.01; J1.1.11.03; J1.1.11.04
-J1	G-J1-22	Other meats (horse, bison, frogs' legs, turtle, insects)	2	G-J1-6	J1.1.13.01; J1.1.14.01; J1.1.14.02; J1.1.14.03; J1.1.14.04; J1.1.13.02; J1.1.13.03; J1.1.13.04; J1.1.13.05; J1.1.13.06; J1.1.14.05
-J1	G-J1-7	Ham, bacon & cured meats	1		J1.2
-J1	G-J1-23	Dry-cured ham and cured pieces	2	G-J1-7	J1.2.1.01; J1.2.1.02; J1.2.1.03; J1.2.1.04; J1.2.1.06; J1.2.1.08; J1.2.1.09
-J1	G-J1-24	Bacon and pancetta	2	G-J1-7	J1.2.1.05; J1.2.1.07
-J1	G-J1-25	Cooked ham, pastrami and corned beef	2	G-J1-7	J1.2.2.01; J1.2.2.02; J1.2.2.03; J1.2.2.04
-J1	G-J1-26	Jerky, cured fat, pickled and mixed cured meats	2	G-J1-7	J1.2.3.01; J1.2.4.01; J1.2.5.01; J1.2.0.01
-J1	G-J1-8	Sausages & salami	1		J1.3.1.01; J1.3.2.01; J1.3.2.02; J1.3.2.03; J1.3.3.01; J1.3.3.02; J1.3.4.01; J1.3.0.01; J1.3.3.03; J1.3.4.02; J1.3.4.03
-J1	G-J1-9	Deli, cooked & tinned meats	1		J1.4.03; J1.4.04; J1.4.05; J1.4.06; J1.4.07; J1.4.08; J1.4.09; J1.4.01; J1.4.02; J1.4.10
-J1	G-J1-10	Mixed meat boxes	1		J1.1.0.01
-J5	G-J5-1	Oils, fats & vinegars	1		J5.5
-J5	G-J5-10	Olive oil	2	G-J5-1	J5.5.1.01
-J5	G-J5-11	Other cooking and finishing oils	2	G-J5-1	J5.5.1.02; J5.5.1.03; J5.5.1.04; J5.5.1.05
-J5	G-J5-12	Cooking fats	2	G-J5-1	J5.5.2.01; J5.5.2.02
-J5	G-J5-13	Vinegars and cooking wines	2	G-J5-1	J5.5.3.01; J5.5.3.02; J5.5.3.03; J5.5.3.04; J5.5.3.05; J5.5.3.06; J5.5.3.07; J5.5.3.08; J5.5.3.09
-J5	G-J5-2	Rice, pasta, grains & pulses	1		J5.1.1; J5.1.2; J5.1.3; J5.2; J5.3
-J5	G-J5-14	Rice	2	G-J5-2	J5.1.1.01; J5.1.1.02; J5.1.1.03; J5.1.1.04; J5.1.1.05; J5.1.1.06; J5.1.1.07; J5.1.1.08; J5.1.1.09
-J5	G-J5-15	Pasta and noodles	2	G-J5-2	J5.2.1.01; J5.2.1.02; J5.2.1.03; J5.2.1.04; J5.2.2.01; J5.2.3.01; J5.2.3.02; J5.2.3.03; J5.2.4.01; J5.2.5.01; J5.2.7.01
-J5	G-J5-16	Other grains and breakfast cereals	2	G-J5-2	J5.1.2.01; J5.1.2.02; J5.1.2.03; J5.1.2.04; J5.1.2.05; J5.1.2.06; J5.1.2.07; J5.1.2.08; J5.1.3.01
-J5	G-J5-17	Pulses	2	G-J5-2	J5.3.1.01; J5.3.1.02; J5.3.1.03; J5.3.1.04; J5.3.1.05; J5.3.2.01; J5.3.4.01; J5.3.4.02; J5.3.1.06; J5.3.4.03; J5.3.4.04; J5.3.1.07; J5.3.1.08; J5.3.1.09; J5.3.1.10; J5.3.4.05; J5.3.3.01
-J5	G-J5-3	Flour, sugar & baking	1		J5.1.4; J5.7.1; J5.11
-J5	G-J5-18	Flour	2	G-J5-3	J5.1.4.01; J5.1.4.02; J5.1.4.03; J5.1.4.04; J5.1.4.05; J5.1.4.06; J5.1.4.07; J5.1.4.08; J5.1.4.09; J5.1.4.10; J5.1.4.11; J5.1.4.12; J5.1.4.13; J5.1.4.14
-J5	G-J5-19	Sugar	2	G-J5-3	J5.7.1.01; J5.7.1.02; J5.7.1.03; J5.7.1.04; J5.7.1.05; J5.7.1.06; J5.7.3.01; J5.7.3.02
-J5	G-J5-20	Baking aids, flavourings and mixes	2	G-J5-3	J5.11.1.02; J5.11.1.03; J5.11.1.04; J5.11.1.05; J5.11.2.01; J5.11.3.01; J5.11.1.01; J5.11.4.01; J5.11.4.02; J5.11.4.03
-J5	G-J5-4	Spices, salt & stocks	1		J5.6; J5.9.5
-J5	G-J5-21	Spices and dried herbs	2	G-J5-4	J5.6.1.01; J5.6.1.02; J5.6.1.03; J5.6.1.04; J5.6.3.01; J5.6.3.02
-J5	G-J5-22	Salt	2	G-J5-4	J5.6.4.01; J5.6.4.02; J5.6.4.03; J5.6.4.04; J5.6.4.05; J5.6.4.06; J5.6.4.07
-J5	G-J5-23	Stocks and bouillon	2	G-J5-4	J5.9.5.01
-J5	G-J5-5	Sauces & condiments	1		J5.9.1; J5.9.2; J5.9.3; J5.9.4; J5.9.6
-J5	G-J5-24	Soy sauce and fermented seasonings	2	G-J5-5	J5.9.1.01; J5.9.1.02; J5.9.1.03; J5.9.1.04; J5.9.1.05; J5.9.2.02; J5.9.2.03; J5.9.2.01; J5.9.2.04
-J5	G-J5-25	Cooking sauces and pastes	2	G-J5-5	J5.9.3.02; J5.9.3.01; J5.9.6.01; J5.9.6.02
-J5	G-J5-26	Table sauces, condiments and dressings	2	G-J5-5	J5.9.4.01; J5.9.4.02; J5.9.4.03; J5.9.4.04; J5.9.4.07; J5.9.4.06; J5.9.4.05; J5.9.4.08; J5.9.4.09; J5.9.4.10; J5.9.4.11; J5.9.4.12; J5.9.4.13
-J5	G-J5-6	Tins, jars & preserves	1		J5.10.2; J5.10.3; J5.10.4; J5.10.5
-J5	G-J5-27	Tinned and jarred	2	G-J5-6	J5.10.2.01; J5.10.2.02; J5.10.2.03; J5.10.2.04; J5.10.2.05
-J5	G-J5-28	Pickles, ferments and preserves in oil	2	G-J5-6	J5.10.3.02; J5.10.3.01; J5.10.4.01; J5.10.4.02; J5.10.4.03
-J5	G-J5-7	Nuts, seeds & dried fruit	1		J5.4; J5.10.1
-J5	G-J5-29	Nuts and seeds	2	G-J5-7	J5.4.1.01; J5.4.1.02; J5.4.1.03; J5.4.1.04; J5.4.1.05; J5.4.1.06; J5.4.2.01; J5.4.2.02; J5.4.3.01; J5.4.4.01; J5.4.0.01; J5.4.1.07; J5.4.1.08; J5.4.1.09; J5.4.1.10; J5.4.4.02
-J5	G-J5-30	Dried fruit, vegetables and mushrooms	2	G-J5-7	J5.10.1.01; J5.10.1.02
-J5	G-J5-8	Honey, syrups & spreads	1		J5.7.2; J5.7.3; J5.8
-J5	G-J5-31	Honey	2	G-J5-8	J5.7.2.01; J5.7.2.02; J5.7.2.03; J5.7.2.04
-J5	G-J5-32	Syrups and molasses	2	G-J5-8	J5.7.3
-J5	G-J5-33	Sweet spreads and nut butters	2	G-J5-8	J5.8.1.01; J5.8.1.02; J5.8.2.01
-J5	G-J5-34	Savoury spreads and dips	2	G-J5-8	J5.8.3.01
-J5	G-J5-9	Tofu & meat alternatives	1		J5.12.1.01; J5.12.1.02; J5.12.2.01; J5.12.2.02; J5.12.3.01; J5.12.4.01
 C1	G-C1-R1	Power tools	1		
 C1	G-C1-R1-1	Drills & drivers	2	G-C1-R1	C1.2.1.02; C1.2.1.03; C1.2.1.04; C1.2.2.02; C1.2.2.03; C1.2.3.05; C1.2.1.06
 C1	G-C1-R1-2	Power saws	2	G-C1-R1	C1.1.1.06; C1.1.1.07; C1.1.1.21; C1.1.1.22; C1.1.1.09
@@ -1425,3 +1230,188 @@ J6	G-J6-R4-3	Fruit infusions & blends	2	G-J6-R4	J6.4.3.01; J6.4.3.02; J6.4.0.01
 J6	G-J6-R5	Rooibos, mate & roots	1		
 J6	G-J6-R5-1	Rooibos, mate & leaf teas	2	G-J6-R5	J6.4.1.03; J6.4.1.05; J6.4.1.04; J6.4.1.06
 J6	G-J6-R5-2	Roots & roasted grains	2	G-J6-R5	J6.4.4.01; J6.4.4.04; J6.4.5.01; J6.4.4.03; J6.4.4.02
+I1	G-I1-R1	Security & privacy	1		
+I1	G-I1-R1-1	Antivirus, firewalls & family safety	2	G-I1-R1	I1.2.01; I1.2.07; I1.2.05
+I1	G-I1-R1-2	Passwords, VPN & encryption	2	G-I1-R1	I1.2.02; I1.2.03; I1.2.04; I1.2.06; I1.1.2.05
+I1	G-I1-R2	System & utilities	1		
+I1	G-I1-R2-1	Operating systems & emulators	2	G-I1-R2	I1.1.1.01; I1.1.1.02; I1.1.1.04; I1.1.1.03
+I1	G-I1-R2-2	Clean, tune & repair	2	G-I1-R2	I1.1.2.01; I1.1.2.02; I1.1.2.03; I1.1.2.07; I1.1.3.06
+I1	G-I1-R2-3	Backup & recovery	2	G-I1-R2	I1.1.2.04; I1.1.2.06; I1.1.2.08
+I1	G-I1-R2-4	Files & remote access	2	G-I1-R2	I1.1.3.07; I1.1.3.01; I1.1.3.02; I1.1.3.03; I1.1.3.05
+I1	G-I1-R2-5	Desktop extras	2	G-I1-R2	I1.1.3.04; I1.1.1.05; I1.1.3.08
+I1	G-I1-R3	Office & business	1		
+I1	G-I1-R3-1	Office suites & documents	2	G-I1-R3	I1.3.01; I1.3.08; I1.3.09; I1.3.10; I1.3.02; I1.3.06
+I1	G-I1-R3-2	Notes, tasks & planning	2	G-I1-R3	I1.3.03; I1.3.04; I1.3.05; I1.3.11; I1.4.1.12; I1.3.14; I1.3.13
+I1	G-I1-R3-3	Typing & voice	2	G-I1-R3	I1.3.07; I1.3.12; I1.4.3.05
+I1	G-I1-R3-4	Accounting, tax & ERP	2	G-I1-R3	I1.6.1.03; I1.6.1.02; I1.6.1.01; I1.6.3.02
+I1	G-I1-R3-5	Sales & marketing	2	G-I1-R3	I1.6.2.01; I1.6.2.02; I1.6.2.03
+I1	G-I1-R3-6	Staff & shop operations	2	G-I1-R3	I1.6.3.01; I1.6.3.03; I1.6.3.04; I1.6.3.05
+I1	G-I1-R4	Photo, design & 3D	1		
+I1	G-I1-R4-1	Photo editing & creative suites	2	G-I1-R4	I1.4.1.01; I1.4.1.04; I1.4.1.09; I1.4.4.01
+I1	G-I1-R4-2	Graphic design & publishing	2	G-I1-R4	I1.4.1.03; I1.4.1.02; I1.4.1.10; I1.4.1.08; I1.4.1.07
+I1	G-I1-R4-3	3D & scanning	2	G-I1-R4	I1.4.1.05; I1.4.1.11; I1.9.02
+I1	G-I1-R5	Video, music & audio	1		
+I1	G-I1-R5-1	Video & screen capture	2	G-I1-R5	I1.4.2.01; I1.4.2.02; I1.4.1.06; I1.4.2.03; I1.4.2.05; I1.4.2.04; I1.4.2.06
+I1	G-I1-R5-2	Music & audio making	2	G-I1-R5	I1.4.3.02; I1.4.3.01; I1.4.3.06; I1.4.3.04; I1.4.3.03
+I1	G-I1-R5-3	Players & readers	2	G-I1-R5	I1.5.01; I1.5.02; I1.5.03; I1.5.04
+I1	G-I1-R6	Learning & reference	1		
+I1	G-I1-R6-1	Learn & teach	2	G-I1-R6	I1.7.01; I1.7.03; I1.7.06
+I1	G-I1-R6-2	Translate & look up	2	G-I1-R6	I1.7.04; I1.7.05; I1.7.02
+I1	G-I1-R7	Developer & web tools	1		
+I1	G-I1-R7-1	Code, web & game building	2	G-I1-R7	I1.8.1.01; I1.8.1.04; I1.8.1.03; I1.8.1.02; I1.8.1.06; I1.8.1.05; I1.8.1.07
+I1	G-I1-R7-2	Databases, servers & monitoring	2	G-I1-R7	I1.8.2.01; I1.8.2.04; I1.8.2.05; I1.8.2.07
+I1	G-I1-R7-3	Terminals & network tools	2	G-I1-R7	I1.8.2.02; I1.8.2.06; I1.8.2.03
+I1	G-I1-R8	Engineering & science	1		
+I1	G-I1-R8-1	CAD, circuits & simulation	2	G-I1-R8	I1.9.01; I1.9.05; I1.9.07
+I1	G-I1-R8-2	Science, maps & sky	2	G-I1-R8	I1.9.03; I1.9.04; I1.9.06
+I1	G-I1-R9	Internet, AI & add-ons	1		
+I1	G-I1-R9-1	Browsers, email & downloads	2	G-I1-R9	I1.11.01; I1.11.02; I1.11.04; I1.11.03; I1.11.05
+I1	G-I1-R9-2	AI tools	2	G-I1-R9	I1.10.01; I1.10.02; I1.10.03
+I1	G-I1-R9-3	Add-ons & companions	2	G-I1-R9	I1.12.1.01; I1.12.2.01; I1.12.3.01; I1.12.4.01; I1.12.5.02; I1.12.5.01
+J1	G-J1-R1	Beef & veal	1		
+J1	G-J1-R1-1	Steaks	2	G-J1-R1	J1.1.1.03; J1.1.1.04; J1.1.1.05; J1.1.1.07; J1.1.1.06; J1.1.1.17; J1.1.1.02; J1.1.1.09; J1.1.1.18; J1.1.1.08; J1.1.1.19; J1.1.2.02
+J1	G-J1-R1-2	Roasts & joints	2	G-J1-R1	J1.1.1.20; J1.1.1.01; J1.1.1.22; J1.1.1.21; J1.1.2.03; J1.1.1.13
+J1	G-J1-R1-3	Slow-cook cuts	2	G-J1-R1	J1.1.1.11; J1.1.1.10; J1.1.1.12; J1.1.1.23
+J1	G-J1-R1-4	Mince & burgers	2	G-J1-R1	J1.1.1.14; J1.1.1.15
+J1	G-J1-R1-5	Offal	2	G-J1-R1	J1.1.1.24; J1.1.1.16; J1.1.1.25; J1.1.1.26; J1.1.2.01
+J1	G-J1-R2	Pork	1		
+J1	G-J1-R2-1	Chops & roasting joints	2	G-J1-R2	J1.1.3.03; J1.1.3.04; J1.1.3.02; J1.1.3.13; J1.1.3.12; J1.1.3.14; J1.1.3.09; J1.1.3.16
+J1	G-J1-R2-2	Belly, ribs & slow-cook cuts	2	G-J1-R2	J1.1.3.06; J1.1.3.05; J1.1.3.07; J1.1.3.08; J1.1.3.01; J1.1.3.15
+J1	G-J1-R2-3	Mince & burgers	2	G-J1-R2	J1.1.3.10; J1.1.3.11
+J1	G-J1-R3	Lamb & goat	1		
+J1	G-J1-R3-1	Lamb	2	G-J1-R3	J1.1.4.02; J1.1.4.01; J1.1.4.05; J1.1.4.06; J1.1.4.07; J1.1.4.03; J1.1.4.04
+J1	G-J1-R3-2	Goat	2	G-J1-R3	J1.1.5.01; J1.1.5.04; J1.1.5.02; J1.1.5.03; J1.1.5.05; J1.1.5.06
+J1	G-J1-R4	Poultry	1		
+J1	G-J1-R4-1	Chicken	2	G-J1-R4	J1.1.6.02; J1.1.6.03; J1.1.6.04; J1.1.6.01
+J1	G-J1-R4-2	Turkey, duck & goose	2	G-J1-R4	J1.1.7.01; J1.1.8.02; J1.1.8.01; J1.1.8.04; J1.1.8.06; J1.1.8.03; J1.1.8.05
+J1	G-J1-R5	Game	1		
+J1	G-J1-R5-1	Venison	2	G-J1-R5	J1.1.10.03; J1.1.10.04; J1.1.10.01; J1.1.10.05; J1.1.10.06; J1.1.10.02; J1.1.10.07; J1.1.10.08
+J1	G-J1-R5-2	Game birds	2	G-J1-R5	J1.1.9.01; J1.1.9.02; J1.1.9.07; J1.1.9.06; J1.1.9.03; J1.1.9.05; J1.1.9.04
+J1	G-J1-R5-3	Rabbit, hare & wild boar	2	G-J1-R5	J1.1.11.01; J1.1.11.03; J1.1.11.04; J1.1.11.02; J1.1.12.01
+J1	G-J1-R6	Other meats	1		
+J1	G-J1-R6-1	Horse meat	2	G-J1-R6	J1.1.13.01; J1.1.13.02; J1.1.13.03; J1.1.13.04; J1.1.13.05; J1.1.13.06
+J1	G-J1-R6-2	Bison, frogs & more	2	G-J1-R6	J1.1.14.01; J1.1.14.02; J1.1.14.04; J1.1.14.03; J1.1.14.05; J1.1.0.01
+J1	G-J1-R7	Ham, bacon & cured meats	1		
+J1	G-J1-R7-1	Bacon & gammon	2	G-J1-R7	J1.2.1.05; J1.2.1.09; J1.2.1.07
+J1	G-J1-R7-2	Dry-cured ham & pieces	2	G-J1-R7	J1.2.1.01; J1.2.1.02; J1.2.1.04; J1.2.1.03; J1.2.1.08; J1.2.1.06; J1.2.4.01
+J1	G-J1-R7-3	Cooked & salted meats	2	G-J1-R7	J1.2.2.01; J1.2.2.03; J1.2.2.02; J1.2.2.04
+J1	G-J1-R7-4	Jerky & pickled meats	2	G-J1-R7	J1.2.3.01; J1.2.5.01; J1.2.0.01
+J1	G-J1-R8	Sausages & salami	1		
+J1	G-J1-R8-1	Fresh & cooked sausages	2	G-J1-R8	J1.3.1.01; J1.3.3.01; J1.3.3.03; J1.3.4.01; J1.3.4.02; J1.3.4.03; J1.3.3.02; J1.3.0.01
+J1	G-J1-R8-2	Salami & dry-cured sausages	2	G-J1-R8	J1.3.2.01; J1.3.2.02; J1.3.2.03
+J1	G-J1-R9	Deli, cooked & tinned meats	1		J1.4.03; J1.4.04; J1.4.05; J1.4.01; J1.4.02; J1.4.07; J1.4.06; J1.4.08; J1.4.09; J1.4.10
+J3	G-J3-R1	Milk & cream	1		
+J3	G-J3-R1-1	Milk	2	G-J3-R1	J3.1.01; J3.1.03; J3.1.02; J3.1.04
+J3	G-J3-R1-2	Cream	2	G-J3-R1	J3.2.1.04; J3.2.1.01; J3.2.1.02; J3.2.1.03; J3.2.1.05; J3.2.1.06; J3.2.1.08; J3.2.1.09; J3.2.1.07
+J3	G-J3-R1-3	Buttermilk & tinned milk	2	G-J3-R1	J3.1.06; J3.1.05; J3.1.07
+J3	G-J3-R2	Butter & ghee	1		J3.2.2.01; J3.2.2.02; J3.2.2.04; J3.2.2.03
+J3	G-J3-R3	Yoghurt & fermented milks	1		
+J3	G-J3-R3-1	Yoghurt	2	G-J3-R3	J3.3.01; J3.3.05; J3.3.06; J3.3.07
+J3	G-J3-R3-2	Drinking & cultured milks	2	G-J3-R3	J3.3.03; J3.3.02; J3.3.08; J3.3.04; J3.3.09
+J3	G-J3-R4	Cheese	1		
+J3	G-J3-R4-1	Fresh & whey cheese	2	G-J3-R4	J3.4.1.02; J3.4.1.01; J3.4.1.06; J3.4.1.07; J3.4.1.05; J3.4.1.04; J3.4.1.03; J3.4.1.08; J3.4.1.09; J3.4.1.10
+J3	G-J3-R4-2	Mozzarella & stretched curd	2	G-J3-R4	J3.4.3.02; J3.4.3.01; J3.4.3.03; J3.4.3.04; J3.4.3.05
+J3	G-J3-R4-3	Feta & brined cheese	2	G-J3-R4	J3.4.2.01; J3.4.2.02; J3.4.2.03; J3.4.2.04
+J3	G-J3-R4-4	Soft-ripened & washed-rind	2	G-J3-R4	J3.4.4.01; J3.4.4.02; J3.4.4.03; J3.4.4.04; J3.4.5.01; J3.4.5.02; J3.4.5.03
+J3	G-J3-R4-5	Cheddar & British cheese	2	G-J3-R4	J3.4.6.01; J3.4.6.20; J3.4.6.19; J3.4.6.17; J3.4.6.18; J3.4.6.21; J3.4.6.09; J3.4.6.10
+J3	G-J3-R4-6	Dutch & Danish cheese	2	G-J3-R4	J3.4.6.03; J3.4.6.05; J3.4.6.04; J3.4.6.22; J3.4.6.14
+J3	G-J3-R4-7	Alpine & melting cheese	2	G-J3-R4	J3.4.6.02; J3.4.7.03; J3.4.7.04; J3.4.6.07; J3.4.6.12; J3.4.6.15; J3.4.6.08
+J3	G-J3-R4-8	Regional pressed cheese	2	G-J3-R4	J3.4.6.06; J3.4.6.13; J3.4.6.16; J3.4.6.11
+J3	G-J3-R4-9	Parmesan & hard grating cheese	2	G-J3-R4	J3.4.7.01; J3.4.7.02; J3.4.7.06; J3.4.7.05
+J3	G-J3-R4-10	Blue cheese	2	G-J3-R4	J3.4.9.01; J3.4.9.02; J3.4.9.04; J3.4.9.03
+J3	G-J3-R4-11	Dried dairy	2	G-J3-R4	J3.4.8.01; J3.4.8.02; J3.4.8.05; J3.4.8.03; J3.4.8.04; J3.4.8.06
+J3	G-J3-R4-12	Processed cheese & selections	2	G-J3-R4	J3.4.10.01; J3.4.0.01
+J3	G-J3-R5	Eggs	1		J3.5.01; J3.5.02; J3.5.03; J3.5.04; J3.5.05; J3.5.06
+J3	G-J3-R6	Baby milks & milk powders	1		J3.6.03; J3.6.04; J3.6.05; J3.6.02; J3.6.01
+J3	G-J3-R7	Dairy-free alternatives	1		
+J3	G-J3-R7-1	Plant drinks	2	G-J3-R7	J3.7.1.03; J3.7.1.04; J3.7.1.01; J3.7.1.02; J3.7.1.05; J3.7.1.06
+J3	G-J3-R7-2	Plant yoghurt, cheese, cream & egg	2	G-J3-R7	J3.7.2.01; J3.7.3.01; J3.7.3.02; J3.7.4.01; J3.7.4.02; J3.7.5.01
+J4	G-J4-R1	Fruit	1		
+J4	G-J4-R1-1	Apples & pears	2	G-J4-R1	J4.1.1.01; J4.1.1.02; J4.1.1.03; J4.1.1.06; J4.1.1.04; J4.1.1.05
+J4	G-J4-R1-2	Stone fruit	2	G-J4-R1	J4.1.2.01; J4.1.2.04; J4.1.2.03; J4.1.2.02; J4.1.2.05; J4.1.2.06
+J4	G-J4-R1-3	Citrus	2	G-J4-R1	J4.1.3.01; J4.1.3.03; J4.1.3.04; J4.1.3.08; J4.1.3.05; J4.1.3.09; J4.1.3.06; J4.1.3.02; J4.1.3.07; J4.1.3.10; J4.1.3.11; J4.1.3.12; J4.1.3.13
+J4	G-J4-R1-4	Berries & currants	2	G-J4-R1	J4.1.4.01; J4.1.4.02; J4.1.4.05; J4.1.4.04; J4.1.4.03; J4.1.4.06; J4.1.4.10; J4.1.4.09; J4.1.4.07; J4.1.4.11; J4.1.4.08
+J4	G-J4-R1-5	Grapes, kiwi & melons	2	G-J4-R1	J4.1.5.01; J4.1.6.02; J4.1.6.01; J4.1.5.02
+J4	G-J4-R1-6	Tropical fruit	2	G-J4-R1	J4.1.7.01; J4.1.7.02; J4.1.7.03; J4.1.7.05; J4.1.7.04; J4.1.7.07; J4.1.7.06; J4.1.7.12; J4.1.7.13; J4.1.7.11; J4.1.7.09; J4.1.7.10; J4.1.7.08
+J4	G-J4-R1-7	Rarer & regional fruit	2	G-J4-R1	J4.1.7.14; J4.1.7.15; J4.1.7.16; J4.1.7.17; J4.1.7.18; J4.1.7.19; J4.1.7.20; J4.1.7.21
+J4	G-J4-R1-8	Figs, dates & other fruit	2	G-J4-R1	J4.1.8.02; J4.1.8.03; J4.1.8.01; J4.1.8.05; J4.1.8.04; J4.1.8.06; J4.1.8.07
+J4	G-J4-R2	Vegetables	1		
+J4	G-J4-R2-1	Potatoes & tubers	2	G-J4-R2	J4.2.3.02; J4.2.3.03; J4.2.3.09; J4.2.3.08; J4.2.3.19; J4.2.3.07; J4.2.3.14
+J4	G-J4-R2-2	Root vegetables	2	G-J4-R2	J4.2.3.01; J4.2.3.05; J4.2.3.16; J4.2.3.06; J4.2.3.11; J4.2.3.17; J4.2.3.18; J4.2.3.04; J4.2.3.20; J4.2.3.10; J4.2.3.13; J4.2.3.12; J4.2.3.15
+J4	G-J4-R2-3	Onions, leeks & garlic	2	G-J4-R2	J4.2.4.01; J4.2.4.02; J4.2.4.03; J4.2.4.04; J4.2.4.05; J4.2.4.09; J4.2.4.07; J4.2.4.08; J4.2.4.06
+J4	G-J4-R2-4	Tomatoes, peppers & avocados	2	G-J4-R2	J4.2.5.01; J4.2.5.02; J4.2.5.05; J4.2.5.03; J4.2.5.04; J4.2.5.10; J4.2.5.09
+J4	G-J4-R2-5	Cucumbers, squash & gourds	2	G-J4-R2	J4.2.5.06; J4.2.5.07; J4.2.5.11; J4.2.5.14; J4.2.5.12; J4.2.5.13
+J4	G-J4-R2-6	Broccoli & cabbages	2	G-J4-R2	J4.2.2.01; J4.2.2.02; J4.2.2.03; J4.2.2.04; J4.2.2.07; J4.2.2.09; J4.2.2.05; J4.2.2.06; J4.2.2.08
+J4	G-J4-R2-7	Spinach & leafy greens	2	G-J4-R2	J4.2.1.02; J4.2.1.03; J4.2.1.11; J4.2.1.09; J4.2.1.10
+J4	G-J4-R2-8	Peas, beans & sweetcorn	2	G-J4-R2	J4.2.6.01; J4.2.6.03; J4.2.5.08; J4.2.6.05; J4.2.6.02; J4.2.6.04
+J4	G-J4-R2-9	Asparagus, celery & stems	2	G-J4-R2	J4.2.7.01; J4.2.7.02; J4.2.7.08; J4.2.7.06; J4.2.7.04; J4.2.7.07; J4.2.7.09; J4.2.7.05; J4.2.7.10
+J4	G-J4-R3	Salad & herbs	1		
+J4	G-J4-R3-1	Salad leaves & sprouts	2	G-J4-R3	J4.2.1.01; J4.2.1.05; J4.2.1.04; J4.2.1.07; J4.2.1.06; J4.2.1.08; J4.2.1.12; J4.2.7.03
+J4	G-J4-R3-2	Fresh herbs	2	G-J4-R3	J4.3.01; J4.3.02; J4.3.03; J4.3.04; J4.3.07; J4.3.11; J4.3.08; J4.3.09; J4.3.10; J4.3.05; J4.3.06; J4.3.0.01
+J4	G-J4-R4	Mushrooms & sea vegetables	1		J4.4.01; J4.4.02; J4.4.06; J4.4.07; J4.4.03; J4.4.09; J4.4.08; J4.4.10; J4.4.04; J4.4.05
+J4	G-J4-R5	Mixed packs	1		J4.1.0.01; J4.2.0.01; J4.0.01
+J5	G-J5-R1	Oils, vinegars & fats	1		
+J5	G-J5-R1-1	Oils & fats	2	G-J5-R1	J5.5.1.01; J5.5.1.05; J5.5.1.04; J5.5.1.02; J5.5.1.03; J5.5.2.01; J5.5.2.02
+J5	G-J5-R1-2	Vinegars & cooking wine	2	G-J5-R1	J5.5.3.02; J5.5.3.01; J5.5.3.05; J5.5.3.03; J5.5.3.04; J5.5.3.09; J5.5.3.06; J5.5.3.07; J5.5.3.08
+J5	G-J5-R2	Rice, pasta & noodles	1		
+J5	G-J5-R2-1	Rice	2	G-J5-R2	J5.1.1.01; J5.1.1.02; J5.1.1.03; J5.1.1.04; J5.1.1.05; J5.1.1.06; J5.1.1.07; J5.1.1.08; J5.1.1.09
+J5	G-J5-R2-2	Pasta	2	G-J5-R2	J5.2.1.01; J5.2.1.02; J5.2.1.03; J5.2.2.01; J5.2.1.04; J5.2.7.01
+J5	G-J5-R2-3	Noodles	2	G-J5-R2	J5.2.3.03; J5.2.3.01; J5.2.4.01; J5.2.3.02; J5.2.5.01
+J5	G-J5-R3	Grains & pulses	1		
+J5	G-J5-R3-1	Grains & cereals	2	G-J5-R3	J5.1.3.01; J5.1.2.02; J5.1.2.05; J5.1.2.01; J5.1.2.06; J5.1.2.08; J5.1.2.03; J5.1.2.07; J5.1.2.04
+J5	G-J5-R3-2	Dried beans	2	G-J5-R3	J5.3.1.07; J5.3.1.01; J5.3.1.10; J5.3.1.09; J5.3.1.08; J5.3.1.02; J5.3.1.03; J5.3.1.06; J5.3.4.05; J5.3.4.04
+J5	G-J5-R3-3	Lentils, peas & dals	2	G-J5-R3	J5.3.2.01; J5.3.4.01; J5.3.3.01; J5.3.1.04; J5.3.1.05; J5.3.4.02; J5.3.4.03
+J5	G-J5-R4	Flour, sugar & baking	1		
+J5	G-J5-R4-1	Wheat flour	2	G-J5-R4	J5.1.4.01; J5.1.4.02; J5.1.4.03; J5.1.4.05; J5.1.4.06; J5.1.4.07
+J5	G-J5-R4-2	Other flours	2	G-J5-R4	J5.1.4.04; J5.1.4.09; J5.1.4.08; J5.1.4.10; J5.1.4.14; J5.1.4.11; J5.1.4.12; J5.1.4.13
+J5	G-J5-R4-3	Sugar	2	G-J5-R4	J5.7.1.04; J5.7.1.06; J5.7.1.05; J5.7.1.01; J5.7.1.02; J5.7.1.03
+J5	G-J5-R4-4	Baking essentials	2	G-J5-R4	J5.11.1.01; J5.11.1.02; J5.11.2.01; J5.11.4.01; J5.11.4.03; J5.11.4.02; J5.11.3.01
+J5	G-J5-R4-5	Home brewing	2	G-J5-R4	J5.11.1.03; J5.11.1.05; J5.11.1.04
+J5	G-J5-R5	Spices & salt	1		
+J5	G-J5-R5-1	Spices & blends	2	G-J5-R5	J5.6.1.02; J5.6.1.04; J5.6.1.03; J5.6.3.01; J5.6.1.01; J5.6.3.02
+J5	G-J5-R5-2	Salt	2	G-J5-R5	J5.6.4.01; J5.6.4.06; J5.6.4.02; J5.6.4.05; J5.6.4.03; J5.6.4.04; J5.6.4.07
+J5	G-J5-R6	Sauces & condiments	1		
+J5	G-J5-R6-1	Table sauces & dressings	2	G-J5-R6	J5.9.4.01; J5.9.4.02; J5.9.4.03; J5.9.4.08; J5.9.4.09; J5.9.4.05; J5.9.4.12; J5.9.4.11; J5.9.4.10; J5.9.4.04; J5.9.4.13; J5.9.4.06; J5.9.4.07
+J5	G-J5-R6-2	Asian sauces & pastes	2	G-J5-R6	J5.9.1.01; J5.9.1.03; J5.9.1.02; J5.9.1.05; J5.9.1.04; J5.9.2.04; J5.9.3.02; J5.9.2.01; J5.9.2.02; J5.9.2.03
+J5	G-J5-R6-3	Cooking sauces, pastes & stock	2	G-J5-R6	J5.9.3.01; J5.9.6.01; J5.9.6.02; J5.8.3.01; J5.9.5.01
+J5	G-J5-R7	Tins, jars & preserves	1		
+J5	G-J5-R7-1	Tinned goods	2	G-J5-R7	J5.10.2.02; J5.10.2.01; J5.10.2.04; J5.10.2.03; J5.10.2.05; J5.4.2.02
+J5	G-J5-R7-2	Pickles, olives & dried vegetables	2	G-J5-R7	J5.10.4.01; J5.10.3.01; J5.10.3.02; J5.10.4.02; J5.10.4.03; J5.10.1.01; J5.10.1.02
+J5	G-J5-R8	Nuts, honey & spreads	1		
+J5	G-J5-R8-1	Nuts	2	G-J5-R8	J5.4.1.01; J5.4.1.02; J5.4.1.05; J5.4.3.01; J5.4.1.08; J5.4.1.04; J5.4.1.03; J5.4.1.09; J5.4.1.10; J5.4.1.07; J5.4.1.06; J5.4.0.01
+J5	G-J5-R8-2	Seeds & coconut	2	G-J5-R8	J5.4.4.02; J5.4.4.01; J5.4.2.01
+J5	G-J5-R8-3	Honey	2	G-J5-R8	J5.7.2.03; J5.7.2.01; J5.7.2.02; J5.7.2.04
+J5	G-J5-R8-4	Syrups & sweet spreads	2	G-J5-R8	J5.8.1.01; J5.8.2.01; J5.8.1.02; J5.7.3.01; J5.7.3.02
+J5	G-J5-R9	Tofu & meat alternatives	1		J5.12.1.01; J5.12.2.01; J5.12.4.01; J5.12.3.01; J5.12.2.02; J5.12.1.02
+J7	G-J7-R1	Red wine	1		
+J7	G-J7-R1-1	Popular red grapes	2	G-J7-R1	J7.1.1.02; J7.1.1.01; J7.1.1.07; J7.1.1.06; J7.1.1.08; J7.1.1.09; J7.1.1.10; J7.1.1.04; J7.1.1.11; J7.1.1.05; J7.1.1.13; J7.1.1.03; J7.1.1.12
+J7	G-J7-R1-2	Other red grapes	2	G-J7-R1	J7.1.1.14; J7.1.1.15; J7.1.1.16; J7.1.1.17; J7.1.1.18; J7.1.1.19; J7.1.1.20; J7.1.1.21; J7.1.1.22; J7.1.1.23; J7.1.1.24; J7.1.1.25
+J7	G-J7-R2	White wine	1		
+J7	G-J7-R2-1	Popular white grapes	2	G-J7-R2	J7.1.2.01; J7.1.2.02; J7.1.2.03; J7.1.2.04; J7.1.2.05; J7.1.2.06; J7.1.2.09; J7.1.2.14; J7.1.2.08; J7.1.2.07
+J7	G-J7-R2-2	Other white grapes	2	G-J7-R2	J7.1.2.11; J7.1.2.10; J7.1.2.13; J7.1.2.12; J7.1.2.15; J7.1.2.16; J7.1.2.17; J7.1.2.18; J7.1.2.19; J7.1.2.20; J7.1.2.21; J7.1.2.22; J7.1.2.23; J7.1.2.24
+J7	G-J7-R3	Rosé & sparkling	1		J7.1.3.01; J7.1.5.01; J7.1.5.03; J7.1.5.02; J7.1.5.04; J7.1.5.05; J7.1.4.01
+J7	G-J7-R4	Dessert & fortified	1		
+J7	G-J7-R4-1	Dessert wine	2	G-J7-R4	J7.1.6.02; J7.1.6.01; J7.1.6.03; J7.1.6.04; J7.1.6.05
+J7	G-J7-R4-2	Fortified & aromatised	2	G-J7-R4	J7.1.7.01; J7.1.7.02; J7.1.7.03; J7.1.7.04; J7.1.8.01; J7.1.8.04; J7.1.8.02; J7.1.8.03
+J7	G-J7-R5	Beer	1		
+J7	G-J7-R5-1	Lagers & pilsners	2	G-J7-R5	J7.2.1.02; J7.2.1.01; J7.2.1.05; J7.2.1.03; J7.2.1.04; J7.2.5.01; J7.2.5.02
+J7	G-J7-R5-2	Pale ales, IPA & bitter	2	G-J7-R5	J7.2.8.02; J7.2.8.03; J7.2.8.04; J7.2.8.01; J7.2.7.02; J7.2.7.01; J7.2.7.03
+J7	G-J7-R5-3	Porter & stout	2	G-J7-R5	J7.2.10.01; J7.2.10.02; J7.2.10.03; J7.2.9.01; J7.2.9.02
+J7	G-J7-R5-4	Wheat beer	2	G-J7-R5	J7.2.3.02; J7.2.3.03; J7.2.3.01
+J7	G-J7-R5-5	Dark lagers & bocks	2	G-J7-R5	J7.2.2.02; J7.2.2.03; J7.2.2.01; J7.2.6.01; J7.2.6.02
+J7	G-J7-R5-6	Traditional & root beers	2	G-J7-R5	J7.2.4.04; J7.2.4.01; J7.2.4.02; J7.2.4.03; J7.2.4.05
+J7	G-J7-R6	Cider, perry & mead	1		
+J7	G-J7-R6-1	Cider	2	G-J7-R6	J7.3.1.01; J7.3.1.02; J7.3.1.03; J7.3.1.04; J7.3.1.05; J7.3.1.06
+J7	G-J7-R6-2	Perry, mead & fruit wine	2	G-J7-R6	J7.3.2.01; J7.3.3.01; J7.3.3.02; J7.3.3.03; J7.3.4.01; J7.3.5.01
+J7	G-J7-R7	Spirits & liqueurs	1		
+J7	G-J7-R7-1	Whisky	2	G-J7-R7	J7.5.1.01; J7.5.1.04; J7.5.1.06; J7.5.1.07; J7.5.1.10; J7.5.1.03; J7.5.1.02; J7.5.1.08; J7.5.1.05; J7.5.1.09; J7.5.1.11
+J7	G-J7-R7-2	Gin & vodka	2	G-J7-R7	J7.5.4.01; J7.5.4.02; J7.5.6.01; J7.6.11
+J7	G-J7-R7-3	Rum	2	G-J7-R7	J7.5.3.03; J7.6.10; J7.5.3.01; J7.5.3.02
+J7	G-J7-R7-4	Tequila & agave spirits	2	G-J7-R7	J7.5.5.01; J7.5.5.02; J7.5.5.03
+J7	G-J7-R7-5	Brandy & cognac	2	G-J7-R7	J7.5.2.01; J7.5.2.07; J7.5.2.02; J7.5.2.03; J7.5.2.04; J7.5.2.05; J7.5.2.06
+J7	G-J7-R7-6	Liqueurs	2	G-J7-R7	J7.6.04; J7.6.05; J7.6.02; J7.6.01; J7.6.09; J7.6.08; J7.6.06; J7.6.07; J7.6.03
+J7	G-J7-R7-7	Asian & other spirits	2	G-J7-R7	J7.5.7.01; J7.5.7.02; J7.5.7.03; J7.5.7.04; J7.5.9.01; J7.5.9.04; J7.5.9.02; J7.5.9.03; J7.5.8.01
+J7	G-J7-R8	Sake & rice wine	1		J7.4.01; J7.4.02; J7.4.04; J7.4.03; J7.4.09; J7.4.05; J7.4.06; J7.4.07; J7.4.08
+J7	G-J7-R9	Ready-to-drink & mixed packs	1		
+J7	G-J7-R9-1	Ready-to-drink	2	G-J7-R9	J7.7.03; J7.7.02; J7.7.04; J7.7.05; J7.7.01
+J7	G-J7-R9-2	Mixed packs	2	G-J7-R9	J7.1.0.01; J7.2.0.01; J7.5.0.01
