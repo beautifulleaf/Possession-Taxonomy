@@ -27,7 +27,7 @@ D2	*	owner	yes	device models carry the maker
 D3	*	owner	yes	audio and video models carry the maker
 D4	*	owner	yes	camera and lens systems carry the maker
 D5	*	owner	no	hardware makers only (consoles, controllers, accessories); game studios are not recorded as makers because titles are out of scope (owner, 2026-10-24)
-E1	*	owner	yes	toy lines carry the maker; craft puzzle makers may become a way in (owner example: Japanese puzzle-box makers)
+E1	*	way_in	yes	toy and puzzle makers are a way in (owner example: Japanese puzzle-box makers; BRIEF 2026-10-24 lists toys among maker-harvest categories; HOL_DP_7, R-116)
 E2	*	owner	yes	sports equipment models carry the maker
 E3	*	way_in	yes	instrument makers and luthiers define the object
 E4	*	owner	yes	models carry the maker
@@ -52,3 +52,12 @@ J4	*	none	no	grocery rule; variety and protected origin replace the grower; club
 J5	*	none	yes	grocery rule; makers through branded products
 J6	*	none	yes	grocery rule: origin, estate and grade; roasters and estates through branded products
 J7	*	way_in	yes	wine estates, breweries and distilleries are the object's identity
+B9	cigars, cigarillos, pipes, pipe tobacco	way_in	yes	houses and blenders define the object; other B9 products are owner (HOL_DP_3, R-116)
+B9	vapes, cannabis products, other tobacco and nicotine products	owner	yes	chosen by device type or product form and lab certificate (HOL_DP_3, R-116)
+C4	yarn	way_in	yes	yarn companies are how knitters choose (Ravelry evidence, HOL_DP_4, R-116)
+E3	studio, PA and effects gear	owner	yes	chosen by job and spec; instrument makers stay way in (HOL_DP_7, R-116)
+E4	blades and armour	way_in	yes	smiths and armourers define the object (HOL_DP_7, R-116)
+E4	firearms, air guns, archery and other weapons	owner	yes	models carry the maker (HOL_DP_7, R-116)
+H1	appliances, toiletries and parts	owner	yes	chosen by type and test results; fragrance and cosmetics houses stay way in (HOL_DP_9, R-116)
+A4	umbrellas and fans, baby carriers, small accessories, parts (A4.7 to A4.10)	owner	yes	chosen by function (HOL_DP_1, R-116)
+G2	factory-built homes, garden buildings, pool shells	owner	yes	models carry the builder (HOL_DP_9, R-116)
