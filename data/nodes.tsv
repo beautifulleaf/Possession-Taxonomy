@@ -1225,3 +1225,34 @@ B5.5.4	B5	leaf	B5.5	Bar tools	Kind axis: bar tool. Display group: Bar and home b
 B5.5.5	B5	leaf	B5.5	Home brewing and winemaking	Kind axis: drink made (beer, wine, cider). Display group: Bar and home brewing. No kind is decided in the memo (K-58 sends the equipment to B5); the kinds come from the stage-3 harvest, and the leaf dissolves into its host if the harvest finds none.	25	from verify/out/TREE_B5.md		
 B5.6	B5	sub_family	B5	Clean-up, kitchen wear and remainder (no leaf)	Kind axis: function (kinds the key sends to B5 that fit no stage above). Display group: Clean-up and kitchen wear; B5.6.01 displays in Large kitchen appliances.	26	from verify/out/TREE_B5.md		
 B5.7	B5	sub_family	B5	Parts and accessories made for one kitchen object (no leaf)	Kind axis: the part itself; leaf axis when needed: object served (`leaf = null` while it holds about 12 kinds or fewer, CV-17, C5(d)). Display group: Replacement parts. No kind is decided in the memo; the sub-family dissolves into its host if the harvest finds none. Kinds to look for (no id, R-96 c), the memo's examples of what S3 sends here, each †: a coffee machine's portafilter, water tank or drip tray; the jar of one blender; the lid or base of one kettle; a lid made for one pot; a rack made for one appliance (section 14).	27	from verify/out/TREE_B5.md		
+C5	C5	category				0	from verify/out/TREE_C5.md		
+C5.1	C5	sub_family	C5	Writing, marking & correcting instruments	Leaf axis: the marking or unmarking mechanism (liquid ink through a nib; viscous or gel ink through a ball; ink through a fibre, felt or brush tip; ink carried from a separate stone or well by a hair brush; solid core; removing, covering or sharpening). Kinds in order of increasing specialisation. Pens, nibs, brushes and inks are filed by the maker's first-named use (K-170): handwriting, lettering, calligraphy and shodo, or both writing and drawing, C5; drawing, comics or painting only, C4.	1	from verify/out/TREE_C5.md		
+C5.1.1	C5	leaf	C5.1	Nib pens		2	from verify/out/TREE_C5.md		
+C5.1.2	C5	leaf	C5.1	Ball and gel pens		3	from verify/out/TREE_C5.md		
+C5.1.3	C5	leaf	C5.1	Porous-tip pens and markers		4	from verify/out/TREE_C5.md		
+C5.1.4	C5	leaf	C5.1	Calligraphy brush & ink		5	from verify/out/TREE_C5.md		
+C5.1.5	C5	leaf	C5.1	Pencils		6	from verify/out/TREE_C5.md		
+C5.1.6	C5	leaf	C5.1	Erasers, correction & sharpeners		7	from verify/out/TREE_C5.md		
+C5.2	C5	sub_family	C5	Paper goods	Leaf axis: what the sheets are made to be (a bound book for notes; a time-ruled record; a loose sheet, a pad or a cover for posting sheets; a printed or decorated sheet). Tie-break: a bound book ruled by date is a diary or planner (it keeps time). Kinds simplest binding or form first. A blank paper good is C5; once written in it is a record in F5.	8	from verify/out/TREE_C5.md		
+C5.2.1	C5	leaf	C5.2	Bound books		9	from verify/out/TREE_C5.md		
+C5.2.2	C5	leaf	C5.2	Diaries, planners & calendars		10	from verify/out/TREE_C5.md		
+C5.2.3	C5	leaf	C5.2	Loose paper, pads & envelopes		11	from verify/out/TREE_C5.md		
+C5.2.4	C5	leaf	C5.2	Printed & decorated paper		12	from verify/out/TREE_C5.md		
+C5.3	C5	sub_family	C5	Desk accessories & filing	Leaf axis: the job done at the desk (hold things, display on a board, handle sheets, fasten or stick, file, measure). Kinds commonest desk use first. Display group: Desk, filing and office supplies.	13	from verify/out/TREE_C5.md		
+C5.3.1	C5	leaf	C5.3	Desk organisers		14	from verify/out/TREE_C5.md		
+C5.3.2	C5	leaf	C5.3	Boards		15	from verify/out/TREE_C5.md		
+C5.3.3	C5	leaf	C5.3	Paper-handling tools		16	from verify/out/TREE_C5.md		
+C5.3.4	C5	leaf	C5.3	Fastening & sticking paper		17	from verify/out/TREE_C5.md		
+C5.3.5	C5	leaf	C5.3	Filing		18	from verify/out/TREE_C5.md		
+C5.3.6	C5	leaf	C5.3	Measuring and geometry		19	from verify/out/TREE_C5.md		
+C5.4	C5	sub_family	C5	Calculators & office machines	Leaf axis: what the device does (calculate; act on paper or labels). Kinds by spec ladder, then historical forms. Display group: Calculators and office machines.	20	from verify/out/TREE_C5.md		
+C5.4.1	C5	leaf	C5.4	Calculators		21	from verify/out/TREE_C5.md		
+C5.4.2	C5	leaf	C5.4	Document machines		22	from verify/out/TREE_C5.md		
+C5.5	C5	sub_family	C5	Parts and accessories made for one object	Leaf axis: object served (rule S3; consumables used up in one object, such as ink, refills and lead, are parts). Exempt from the sub-family axis (C5(d), CV-17). Kinds: the parts of the commonest object served first.	23	from verify/out/TREE_C5.md		
+C5.5.1	C5	leaf	C5.5	For fountain pens		24	from verify/out/TREE_C5.md		
+C5.5.2	C5	leaf	C5.5	For ball, gel and rollerball pens		25	from verify/out/TREE_C5.md		
+C5.5.3	C5	leaf	C5.5	For mechanical pencils		26	from verify/out/TREE_C5.md		
+C5.5.4	C5	leaf	C5.5	For one pen at a time		27	from verify/out/TREE_C5.md		
+C5.5.5	C5	leaf	C5.5	For planners and refillable notebooks		28	from verify/out/TREE_C5.md		
+C5.5.6	C5	leaf	C5.5	For staplers		29	from verify/out/TREE_C5.md		
+C5.5.7	C5	leaf	C5.5	For label makers		30	from verify/out/TREE_C5.md		
