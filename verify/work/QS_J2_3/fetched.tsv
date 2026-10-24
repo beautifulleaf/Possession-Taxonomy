@@ -1,3 +1,10 @@
 url	fetch_status	gave
 https://www.seafoodwatch.org/	partial	WebFetch: JS shell, no links
 https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf	partial	WebFetch: confirms Feb 2024 edition only
+https://www.seafoodwatch.org/	full	Parallel fetch: homepage links (recommendations search, guides, stories)
+https://www.seafoodwatch.org/recommendations/seafood-guides-and-tips	full	Parallel fetch: guides moved to montereybayaquarium.org; no dated edition
+https://www.seafoodwatch.org/stories/maldives-secures-green-ratings-for-tuna	partial	Parallel fetch: story dated 2026-04-07, body text not returned
+https://www.seafoodwatch.org/recommendations/search?query=	partial	Parallel fetch: live search page 1 of 10 (abalone to cabezon), 1944 total results
+https://www.seafoodwatch.org/stories/swordfish	full	Parallel fetch: story Dec 2022 (before Feb 2024); three swordfish fisheries Best Choice
+https://www.seafoodwatch.org/stories/west-coast-groundfish-comeback	partial	Parallel fetch: story 2026-01-05; no species ratings
+https://www.seafoodwatch.org/stories/verified-green-shrimp-arrives-on-campus	partial	Parallel fetch: story 2026-02-27; Verified Green Vietnam shrimp, no SFW rating tier
