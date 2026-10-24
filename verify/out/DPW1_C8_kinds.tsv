@@ -1,0 +1,101 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+lintel (steel, concrete)	C8	new_kind	C8.1.3.04	C8.1.3	Lintel	beam of steel, concrete or timber set over a door or window opening to carry the wall above.		https://www.wickes.co.uk/Products/Building-Materials/Bricks%2C-Blocks+Lintels/c/1000177	Own shop group beside bricks and blocks; structural element no tree kind covers; material is an attribute.
+mortar	C8	covered	C8.1.3.01						Bagged mortar is the cement kind ("ready-mix bags included"); mix type is an attribute.
+ready mix concrete	C8	covered	C8.1.3.01						Bagged ready-mix is covered by cement; pumped or delivered concrete is out like delivered fuel (K-30 by analogy).
+roof tile	C8	new_kind	C8.1.5.03	C8.1.5	Roof tile	clay, concrete or slate unit laid in overlapping courses as a roof covering (slates included).		https://www.wickes.co.uk/Products/Building-Materials/Roofing/c/1000181	Sold under its own name; unit covering, not a sheet, so roofing sheet does not cover it; material an attribute.
+roof shingle	C8	new_kind	C8.1.5.04	C8.1.5	Roof shingle	strip of bitumen felt or wood laid in overlapping courses as a roof covering (shed and garden-building roofs).		https://www.wickes.co.uk/Products/Building-Materials/Roofing/c/1000181	Shop shelf "shingles" on the roofing page; strip covering differs in form from tile and sheet.
+roof felt	C8	new_kind	C8.1.5.05	C8.1.5	Roofing felt or membrane	roll of bitumen felt or synthetic membrane laid as a roof covering or underlay.		https://www.wickes.co.uk/Products/Building-Materials/Roofing/c/1000181	Roll product sold under its own name; not a sheet, tile or insulation.
+polycarbonate sheet	C8	covered	C8.1.5.01						Roofing sheet already includes plastic sheet; polycarbonate is a `material` value.
+cavity closer	C8	named_form	C8.1.5.02						Insulated closer for cavity openings is a formed insulation product many makers make; non-maker named form of insulation.
+pipe lagging	C8	named_form	C8.1.5.02						Foam pipe insulation, asked for by name; non-maker named form of insulation, form an attribute.
+draught excluder	C8	new_kind	C8.1.5.06	C8.1.5	Draught excluder (draught-proofing strip)	foam, rubber or brush strip or seal fitted round a door or window to stop draughts.		https://www.wickes.co.uk/Products/Building-Materials/Insulation/c/1000184	Fitted weatherproofing product sold under its own name; loose fabric door snakes are soft furnishings, not this kind.
+coving	C8	new_kind	C8.2.3.02	C8.2.3	Coving (cornice)	moulding fixed where wall meets ceiling to finish the joint.		https://www.wickes.co.uk/Products/Building-Materials/Cement+Aggregates/Concrete/c/1000211	Trim product in the trim leaf beside skirting; harvester cites a navigation page, weak (confirm in HV_NK).
+wood flooring	C8	new_kind	C8.2.2.03	C8.2.2	Wood flooring	solid or engineered wood boards laid as a floor (solid or engineered an attribute).		https://www.wickes.co.uk/Products/Building-Materials/Cement+Aggregates/Concrete/c/1000211	Own shop category beside laminate; real-wood wear layer differs from laminate's printed layer. Navigation-page source, weak.
+luxury vinyl flooring	C8	new_kind	C8.2.2.04	C8.2.2	Vinyl flooring	vinyl planks, tiles or sheet laid as a floor (LVT, click or glue-down; sheet vinyl included).		https://www.wickes.co.uk/Products/Building-Materials/Cement+Aggregates/Concrete/c/1000211	Own shop category; key: carpets B2, other flooring C8 (B2 precedence). Navigation-page source, weak.
+underlay	C8	new_kind	C8.2.2.05	C8.2.2	Flooring underlay	foam, fibre or cork layer laid under laminate, wood or vinyl flooring.		https://www.wickes.co.uk/Products/Building-Materials/Cement+Aggregates/Concrete/c/1000211	Sold under own name; carpet and rug underlay is B2.7.04, so this kind serves hard flooring only.
+mosaic tile	C8	attribute	C8.2.2.01						Mosaic is a tile format (small tiles on a mesh sheet) for wall or floor tiles; `tile_format` attribute.
+garden sleeper	C8	new_kind	C8.1.4.06	C8.1.4	Garden sleeper	heavy timber or composite beam sold loose for edging, steps and landscaping.		https://www.wickes.co.uk/Products/Garden+Outdoor-Landscaping/Garden+Outdoor-Fencing/c/1000684	Landscaping material sold under own name (K-174 branch); not sawn building timber by section or use.
+gravel board	C8	new_kind	C8.1.8.09	C8.1.8	Gravel board	concrete or timber board fixed at the foot of a fence panel to keep it off the ground.		https://www.wickes.co.uk/Products/Garden+Outdoor-Landscaping/Garden+Outdoor-Fencing/c/1000684	Fencing product sold under its own name; not a panel, post or wire (K-195 fencing is C8).
+feather edge board	C8	named_form	C8.1.1.01						Profiled sawn board for fences; a traditional cut many sawmills make, non-maker named form of sawn timber.
+trellis panel	C8	other_category			Trellis panel			C2	Key step 29: made to support growing plants (plant supports C2); fence toppers sold as trellis follow the same use.
+wire mesh panel	C8	covered	C8.1.8.01						Welded mesh fence panel is a prefabricated metal panel between posts: fence panel, material attribute.
+plant mesh (garden wire fencing)	C8	other_category			Plant mesh			C2	Mesh sold to protect or support plants is C2 (step 29 note, K-177); wire netting for fencing is C8.1.8.05.
+garage door	C8	new_kind	C8.1.7.03	C8.1.7	Garage door	up-and-over, roller, sectional or side-hinged door made for a garage opening.		https://www.wickes.co.uk/Products/Doors+Windows/External-Doors/c/1000602	Body and gear made only for that opening (C12 a) and sold apart; door kind covers leaves and door sets.
+patio door	C8	named_form	C8.1.7.01						Glazed sliding or French door set; a door design asked for by name, non-maker named form of door.
+door frame	C8	new_kind	C8.1.7.04	C8.1.7	Door frame (door lining)	frame or lining set sold to hang a door in an opening.		https://www.wickes.co.uk/Products/Doors+Windows/External-Doors/c/1000602	Sold apart from the door leaf; a different object from the door, which covers leaves and complete sets.
+roof window	C8	new_kind	C8.1.7.05	C8.1.7	Roof window	window made to be fitted in the slope or flat of a roof (flat-roof windows included).		https://www.wickes.co.uk/Products/Doors+Windows/Windows/c/1000607	Body and flashing made only for a roof mount (C12 a); shops shelve roof windows apart from wall windows.
+coach screw	C8	new_kind	C8.3.1.07	C8.3.1	Coach screw	heavy hexagon-head wood screw driven with a spanner for structural timber fixings.		https://www.toolstation.com/screws-fixings/c12	Own Toolstation group; heavy structural screw distinct from the wood screw by form and drive.
+stainless steel screw	C8	attribute	C8.3.1.01						Stainless is a `material` value (tree precedence); not a kind.
+self-tapping screw	C8	new_kind	C8.3.1.08	C8.3.1	Self-tapping screw	screw that forms its own thread in a pre-drilled hole in sheet metal or plastic (no drill point).		https://www.toolstation.com/screws-fixings/c12	Sold apart from self-drilling screws (Toolstation, Materials Market); fastens into a different material on the leaf's application axis.
+twinthread screw	C8	attribute	C8.3.1.01						Twin thread is a thread attribute of wood (chipboard) screws.
+flooring screw	C8	named_form	C8.3.1.01						Wood screw made for floorboards to joists; a use type asked for by name, non-maker named form (CV-25 provisional).
+roofing screw	C8	covered	C8.3.1.05						Roofing screws on the page are self-drilling tek screws; roofing is a `use` value.
+clips	C8	covered	C8.6.1.04						Decided in memo section 14: not a kind; cable clip C8.6.1.04 and pipe clip C8.5.2.02 cover the clips sold.
+cup hooks	C8	other_category			Cup hook			B1	S3: hooks are never parts and are B1 storage (tree "Not here" list).
+screw cups and caps	C8	named_form	C8.3.3.03						Screw cup is a cup washer under a screw head; cover caps go with it. Non-maker named form of washer.
+sanitary fixings	C8	attribute	C8.3.5.01						A kit of plugs, screws and washers for sanitaryware; kit or assortment is a pack attribute on the main kind.
+fixing sets	C8	attribute	C8.3.5.01						Assortment packs of existing kinds; pack attribute, not a type of object.
+jointing biscuit	C8	new_kind	C8.3.6.05	C8.3.6	Jointing biscuit	compressed wooden wafer glued into matching slots to join two boards.		https://www.toolstation.com/power-tool-accessories/dowels-biscuits/c87	Sold beside dowels under its own name; used up in the joint, not in a tool, so C8 like the dowel.
+loose tenon	C8	named_form	C8.3.6.03						A flat insert set into matching mortises to join parts: fits the dowel definition; non-maker named form.
+universal beam	C8	covered	C8.1.2.01						Steel section covers beam sections sold by length; profile is an attribute or named form.
+steel flat bar and round bar	C8	covered	C8.1.2.01						Bar is named in the steel section definition.
+door chain	C8	other_category			Door chain			B8	B8.1.2.2 exists; step 30 B8 "secure": door chain is B8 by B8 precedence.
+door knocker	C8	new_kind	C8.4.5.03	C8.4.5	Door knocker	hinged knocker and plate fixed to an outside door.		https://www.screwfix.com/c/security-ironmongery/door-furniture/cat840240	Front-door furniture shelved beside letter plates (Screwfix); no lock or security role, so not B8.
+conduit	C8	new_kind	C8.6.1.05	C8.6.1	Conduit	rigid or flexible tube through which mains cables are run.		https://www.toolstation.com/electrical-supplies-accessories/c4	Cable-management product sold under its own name; not a cable or clip.
+trunking	C8	new_kind	C8.6.1.06	C8.6.1	Trunking	surface channel with a clip-on lid that carries and hides cables.		https://www.toolstation.com/electrical-supplies-accessories/c4	Own cable-management type; form differs from conduit (open channel with lid).
+junction box	C8	new_kind	C8.6.2.06	C8.6.2	Junction box	enclosure in which mains cables are joined.		https://www.toolstation.com/electrical-supplies-accessories/c4	Wiring accessory sold under its own name; not a switch, socket or rose.
+cable tie	C8	new_kind	C8.6.1.07	C8.6.1	Cable tie	plastic or metal strap with a ratchet that bundles or fixes cables.		https://www.toolstation.com/electrical-supplies-accessories/c4	Sold under its own name in cable management; general use, so no host category under S3.
+cable reel	C8	covered	C8.6.3.01						Extension lead is defined "on a reel or not".
+MCB (circuit breaker)	C8	new_kind	C8.6.3.03	C8.6.3	Circuit breaker	automatic switch for a consumer unit that breaks a circuit on overload or earth leakage (MCB, RCD, RCBO).		https://www.toolstation.com/electrical-supplies-accessories/c4	Sold apart from consumer units; fuse kind covers only fuses. MCB, RCD and RCBO become named forms.
+RCBO	C8	named_form	C8.6.3.03						Combined overcurrent and residual-current breaker; a breaker type asked for by name under the new circuit breaker kind.
+RCD	C8	named_form	C8.6.3.03						Residual-current device; breaker type named form under the new circuit breaker kind.
+multi plug adaptor	C8	new_kind	C8.6.3.04	C8.6.3	Plug adaptor	plug-in unit that gives one socket-outlet two or more outlets or a different socket type.		https://www.screwfix.com/c/electrical-lighting/electric-plugs/cat8800007	Own Screwfix group beside plugs and leads; no flex, so not an extension lead.
+smart plug	C8	attribute	C8.6.3.04						Key step 24 note: a smart plug is filed by its task; connectivity is a modifier (rule T) on the plug adaptor.
+flexible hose	C8	new_kind	C8.5.2.03	C8.5.2	Flexible hose (tap connector)	braided flexible hose with fittings that connects a tap, cistern or appliance to the supply pipe.		https://www.toolstation.com/plumbing/c15	Own shop group; flexible connector differs from rigid pipe and the joint-system fittings.
+hammer arrester	C8	new_kind	C8.5.3.03	C8.5.3	Water hammer arrester	device fitted in a supply pipe that absorbs pressure shocks (water hammer).		https://www.toolstation.com/plumbing/c15	Sold under its own name; not a valve or tap. Weakest of the plumbing additions.
+toilet flush valve	C8	other_category			Toilet flush valve			B7	S3: made to be fitted to one kind of object, the toilet (B7.2.3); not a supply fitting.
+cistern	C8	other_category			Toilet cistern			B7	S3: the cistern is part of the cistern-flush toilet B7.2.3.04; B7 parts leaf needed (next B7 pass).
+pan connector	C8	named_form	C8.5.4.04						Soil fitting joining a toilet pan to the soil pipe; non-maker named form of the new soil and drain pipe kind.
+soil pipe	C8	new_kind	C8.5.4.04	C8.5.4	Soil and drain pipe	large-bore pipe and fittings that carry waste from toilets and drains to the sewer, above or below ground.		https://www.toolstation.com/plumbing/c15	Own shop groups (soil and vent, underground drainage); supply pipe kind does not cover waste pipe.
+underground drainage	C8	covered	C8.5.4.04						Below-ground is an `installation` attribute of the soil and drain pipe kind.
+drainage channel	C8	new_kind	C8.5.4.05	C8.5.4	Drainage channel	surface channel with a grating that collects water from a drive, patio or floor.		https://www.toolstation.com/plumbing/c15	Sold under own name; form differs from pipe and gutter.
+shower screen	C8	new_kind	C8.5.5.04	C8.5.5	Bath or shower screen	fixed or hinged glass panel fitted to a bath edge or as a walk-in screen, without a full enclosure.		https://www.screwfix.com/c/bathrooms-kitchens/shower-screens-fittings/cat17170001	Screwfix sells screens apart from enclosures; K-186 sends enclosures and surrounds to C8.
+shower wall panel	C8	new_kind	C8.5.5.05	C8.5.5	Shower wall panel	waterproof panel that lines a shower or bath wall in place of tiles.		https://www.screwfix.com/c/bathrooms-kitchens/shower-screens-fittings/cat17170001	Own shop type; surround product beside bath panel (K-186).
+wood dye	C8	covered	C8.7.2.01						Dye soaks into wood and shows the grain: the stain definition.
+wood treatment	C8	new_kind	C8.7.2.05	C8.7.2	Wood preservative	clear or tinted treatment that protects wood against rot, insects and weather.		https://www.screwfix.com/c/painting-decorating/exterior-paint-woodcare/cat850186	Preservers are sold as their own type beside stain and oil; fence paint covers only fence and shed coatings.
+decking paint and stain	C8	covered	C8.7.2.01						Decking stain is stain and decking paint floor paint (C8.7.1.04); decking is a `surface` value (CV-25).
+cupboard handle	C8	covered	C8.4.2.01						Cabinet knob or pull covers cupboard handles (K-196).
+super glue	C8	covered	C8.8.1.02						Cyanoacrylate is a `chemistry` value (tree kind axis); used for household repairs, so general adhesive.
+spray adhesive	C8	new_kind	C8.8.1.06	C8.8.1	Spray adhesive	adhesive in an aerosol can sprayed onto sheets, fabrics or insulation.		https://www.tooled-up.com/adhesives/cat/100345	Form decides as for spray paint (C8.7.1.09); sold as its own type.
+flooring adhesive	C8	new_kind	C8.8.1.07	C8.8.1	Flooring adhesive	adhesive for laying vinyl, wood or other floor coverings.		https://www.tooled-up.com/adhesives/cat/100345	Use-type like tile and wallpaper adhesive (CV-25 provisional); own shop group.
+coving adhesive	C8	attribute	C8.8.1.02						Narrow use; a `use` value on general adhesive unless a page sells it as a compared type (CV-25).
+impact adhesive	C8	new_kind	C8.8.1.08	C8.8.1	Contact (impact) adhesive	adhesive spread on both surfaces that bond on contact once touch-dry.		https://www.tooled-up.com/adhesives/cat/100345	Generic type sold under its own name; works differently from grab adhesive.
+expanding foam	C8	new_kind	C8.8.2.03	C8.8.2	Expanding foam	polyurethane foam from a can or gun that expands to fill and seal gaps.		https://toolstation.com/adhesives-sealants/grab-adhesive/c403	Filler sold under its own name in adhesives and sealants navigation; not a flexible sealant.
+duct tape	C8	new_kind	C8.8.1.09	C8.8.1	Duct tape (cloth tape)	strong cloth-backed adhesive tape for repairs and sealing.		https://www.huntoffice.ie/packing-supplies.html	Generic repair tape; not desk tape (C5) or parcel tape. Leaf placement by bonding job, weak.
+printed tape	C8	attribute	C8.11.01						Printing is a `print` attribute of parcel tape (C2 b).
+tape dispenser	C8	new_kind	C8.11.08	C8.11	Packing tape dispenser (tape gun)	hand dispenser with a cutting edge that lays parcel tape on boxes.		https://www.huntoffice.ie/packing-supplies.html	Desk dispensers are C5.3.4.06; the parcel-tape gun is a packing tool sold with packing supplies (K-193).
+packaging paper	C8	covered	C8.11.04						Void fill is defined to include paper packed round goods.
+foam packing protection	C8	new_kind	C8.11.06	C8.11	Foam packing	foam sheet, roll, corner or insert that cushions goods in transit.		https://www.huntoffice.ie/packing-supplies.html	Own shop type; material and form differ from bubble wrap and void fill.
+packing straps	C8	new_kind	C8.11.07	C8.11	Strapping	plastic or steel band tensioned round boxes or pallets.		https://www.huntoffice.ie/packing-supplies.html	Packing material sold under its own name (K-193).
+shrink wrap	C8	attribute	C8.11.03						Shrink against stretch is a `film_type` attribute of packing film.
+air pillow film	C8	covered	C8.11.04						Void fill definition names air pillows (Storopack form already filed there).
+6 V lantern battery	C8	new_kind	C8.9.3.03	C8.9.3	6 V lantern battery	rectangular 6 V battery with spring or screw terminals (IEC 4R25 and kin).		https://www.bunnings.co.nz/products/lighting-electrical/electrical/batteries	Size class one cannot replace with another without different equipment (CV-19).
+small button cells such as MN21	C8	new_kind	C8.9.1.08	C8.9.1	A23 cell (12 V)	small 12 V cylindrical alkaline cell (A23, MN21, 23A) used in remotes and key fobs.		https://www.bunnings.co.nz/products/lighting-electrical/electrical/batteries	MN21 is cylindrical, not a coin cell; own size class (CV-19); A27 is a named form.
+LPG regulator and hose	C8	new_kind	C8.10.1.03	C8.10.1	LPG regulator	valve fitted to a gas cylinder that lowers its pressure for an appliance, sold with or without hose.		https://www.mitre10.co.nz/shop/outdoor-bbq/bbqs-accessories/bbq-accessories/gas-bottles-charcoal/c/RF5464	Made for the LPG cylinder (S3 follows it to C8); hose is an included part.
+silicone grease	C8	covered	C8.10.3.01						Lubricant covers oil and grease; Arctic Hayes form already filed there.
+cutting oil	C8	other_category			Cutting oil			C1	S3: consumable used up in drilling and cutting work, like welding wire and solder (K-12).
+thread cutting oil	C8	other_category			Thread cutting oil			C1	S3: consumable for threading tools (K-12 analogy).
+degreaser	C8	other_category			Degreaser			B6	S3 sentence: cleaning products are B6 whatever they are used on.
+torch lighter	C8	other_category			Torch lighter			C1	McMaster strikers page: lighters made to light gas torches; tool accessory. Weak: a pocket jet lighter would be B9.
+butane refill gas	C8	covered	C8.10.1.02						Gas canister is "for stoves, torches and lighters".
+macadam (cold-lay)	C8	new_kind	C8.1.4.07	C8.1.4	Macadam (bagged asphalt)	bitumen-bound aggregate sold in bags to lay or repair paths and drives.		https://www.wickes.co.uk/Products/Building-Materials/Cement+Aggregates/Aggregates/c/1000209	Fetch log "gave": macadam beside ballast; bound surfacing differs from loose aggregate.
+block paving	C8	covered	C8.1.4.03						Sett is "small dressed block of stone or concrete laid as paving".
+composite decking	C8	covered	C8.1.1.04						Decking board is "timber or composite".
+MDF, OSB, chipboard, hardboard	C8	covered	C8.1.1.03						Named in building board definition.
+CLS studwork and battens	C8	covered	C8.1.1.01						Sawn timber by section; CLS and batten are section names.
+fire cement	C8	covered	C8.1.3.01						Cement kind; heat resistance is an attribute.
+engineering brick	C8	named_form	C8.1.3.03						Brick class asked for by name; non-maker named form of brick.
+facing brick	C8	named_form	C8.1.3.03						Brick class asked for by name; non-maker named form of brick.
+refillable butane cylinder	C8	covered	C8.10.1.01						LPG cylinder covers refillable butane bottles.
+USB arc candle lighter	C8	covered	C8.10.4.04						Power source is an attribute (rule T).
+sanding sponges and pads	C8	covered	C8.7.3.01						General hand abrasives; form is an attribute (K-12).

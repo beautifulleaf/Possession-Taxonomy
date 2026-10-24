@@ -1,0 +1,71 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-C8.1.1.04-001	drop					Own-label maker plus treatment word plus kind name; no product name (maker role none).
+NF-C8.1.1.04-002	drop					Own-label maker plus tier word plus kind name; size is an attribute.
+NF-C8.1.6.03-003	drop					Maker's listing of the roll top pot, already a non-maker form; size a variant.
+NF-C8.3.1.01-002	drop					Line Wirox plus head and drive (attributes); a variant of line L-spax-wirox.
+NF-C8.3.1.01-004	drop					Line Forgefast plus drive plus kind name; the line row already exists.
+NF-C8.3.1.01-007	drop					Maker plus drive plus kind name; drive is an attribute.
+NF-C8.3.1.02-001	drop					Maker plus drive plus kind name; drive is an attribute.
+NF-C8.3.1.02-003	drop					Line Wirox plus drive plus kind name; a variant of line L-spax-wirox.
+NF-C8.3.1.05-001	drop					Maker plus head plus kind name; head is an attribute.
+NF-C8.3.1.05-002	drop					Maker plus drive plus kind name; drive is an attribute.
+NF-C8.3.2.03-004	drop					Maker plus use plus kind name; no product name.
+NF-C8.3.4.01-001	drop					Head shape, an attribute on the tree's fastener kind axis.
+NF-C8.3.5.02-003	drop					GripIt is the maker's name plus the kind name.
+NF-C8.3.5.04-003	drop					Maker plus a generic fixing type; no product name.
+NF-C8.3.6.01-004	drop					Line plus coating plus kind name; joist hanger is already a non-maker form.
+NF-C8.3.6.02-001	drop					Line plus a generic post-support type; no product name.
+NF-C8.3.6.02-002	drop					Line plus a generic post-support type; no product name.
+NF-C8.3.6.04-004	drop					Maker plus material plus kind name.
+NF-C8.4.2.01-002	drop					Style word plus kind name; no product name.
+NF-C8.4.4.01-001	drop					Generic twin-slot system plus kind name; coating a variant.
+NF-C8.4.5.01-002	drop					Generic brush letter plate under a maker name; no product name.
+NF-C8.4.5.01-003	drop					Era style (Victorian) plus kind name; era is a tag, also sold by other makers.
+NF-C8.4.5.01-004	drop					Fire rating (a specification) plus kind name.
+NF-C8.4.5.02-001	drop					ISO 7010 sign category, a class of the standard: attribute `sign_category`, not a design.
+NF-C8.4.5.02-002	drop					ISO 7010 sign category: attribute `sign_category`.
+NF-C8.4.5.02-003	drop					ISO 7010 sign category: attribute `sign_category`.
+NF-C8.4.5.02-004	drop					ISO 7010 sign category: attribute `sign_category`.
+NF-C8.4.5.02-005	drop					ISO 7010 sign category: attribute `sign_category`.
+NF-C8.4.5.02-006	drop					Category name (combination of classes), not a design.
+NF-C8.5.1.05-001	to_line	L-conex-banninger-b-press	B Press	C8.5.1.05;C8.5.3.02		Press-fit system range of many fittings and valves, gas version included; like JG Speedfit (C1 lines).
+NF-C8.5.5.01-005	drop					Maker plus specification (low profile) plus kind name.
+NF-C8.6.1.01-002	drop					Duplicates the non-maker form 6242Y; a maker's listing of a standard cable type.
+NF-C8.6.2.04-001	drop					Kind name plus maker; the series is a variant set.
+NF-C8.7.2.04-001	drop					Shop sub-category name (use plus kind name).
+NF-C8.8.1.01-010	drop					Maker plus specification (solvent free) plus kind name.
+NF-C8.8.1.05-002	drop					Maker plus property plus kind name.
+NF-C8.8.1.05-003	drop					Maker plus property plus kind name.
+NF-C8.8.2.01-009	drop					Maker plus chemistry plus kind name; chemistry is an attribute.
+NF-C8.8.2.02-002	drop					Maker plus properties plus kind name.
+NF-C8.9.1.01-005	drop					Maker plus size plus chemistry; no line or product name.
+NF-C8.9.1.02-004	drop					Maker plus size plus chemistry; no line or product name.
+NF-C8.9.1.05-002	drop					Maker plus kind plus chemistry; no product name.
+NF-C8.9.1.06-008	drop					Maker plus size plus capacity; no model code.
+NF-C8.9.1.07-006	drop					Maker plus size plus capacity; no model code.
+NF-C8.10.1.01-001	drop					Maker name plus kind plus bottle size (attribute).
+NF-C8.10.1.01-002	drop					Maker name plus kind name.
+NF-C8.10.1.02-003	drop					Maker plus kind name; valve standard an attribute.
+NF-C8.10.2.01-001	drop					Maker plus pack, drying and kind words; no product name.
+NF-C8.10.2.02-001	drop					Maker name plus kind name.
+NF-C8.10.2.03-001	drop					Maker name plus kind name.
+NF-C8.10.2.04-001	drop					Maker plus kind name.
+NF-C8.10.2.04-002	drop					Maker name plus kind name.
+NF-C8.10.2.05-001	drop					Maker plus spec words plus kind name.
+NF-C8.10.2.05-002	drop					Maker plus kind name.
+NF-C8.10.2.05-004	drop					Maker plus kind name.
+NF-C8.10.2.05-005	drop					Maker plus binchotan, a traditional type that belongs as a non-maker named form.
+NF-C8.10.2.06-002	drop					Maker plus grade word plus kind name; blends are variants.
+NF-C8.10.2.06-003	drop					Maker plus certification plus kind name.
+NF-C8.10.2.07-001	drop					Maker plus kind name.
+NF-C8.10.2.07-002	drop					Maker plus wood species (attribute) plus kind name.
+NF-C8.10.3.01-005	drop					Retailer own brand plus kind name.
+NF-C8.10.3.01-007	drop					Maker plus kind name (grease is a lubricant type word).
+NF-C8.10.3.02-001	drop					Maker plus kind name.
+NF-C8.10.3.03-001	drop					Maker plus material plus kind name; jerry can is a non-maker design.
+NF-C8.10.3.03-002	drop					Maker plus material plus kind name.
+NF-C8.10.3.03-003	drop					Maker plus material plus kind name.
+NF-C8.10.3.03-004	drop					Maker plus material plus kind name.
+NF-C8.11.01-001	drop					Office own brand plus material plus kind name; size a variant.
+NF-C8.11.04-001	drop					Maker plus generic description; no product name.
+NF-C8.11.05-001	drop					Maker plus construction (double wall) plus kind name.

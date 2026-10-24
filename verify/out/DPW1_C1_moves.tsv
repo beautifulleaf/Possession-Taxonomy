@@ -1,0 +1,67 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-C1.2.1.05-002	move_kind				C1.2.1.06	Milwaukee M18 FMDP is a magnetic-base drill, the new magnetic drill kind (C12(a)).
+NF-C1.3.3.01-004	move_kind				C1.3.3.05	Shinto saw rasp is a rasp (raised teeth), the new rasp kind.
+NF-C1.12.4.02-001	to_line	L-esab-sureweld	Sureweld	C1.12.4.02		Sureweld is ESAB's electrode range covering several grades (6011, 6013); the line row already exists.
+NF-C1.6.01-002	to_line	L-irwin-tools-vise-grip	Vise-Grip	C1.6.01;C1.6.02		Vise-Grip is Irwin's range of locking pliers and locking clamps, several models and two kinds.
+NF-C1.4.1.03-002	to_line	L-thor-hammer-co-thorex	Thorex	C1.4.1.03		Thorex is Thor's series of nylon-faced hammers in many sizes; the 712 is one model.
+NF-C1.1.1.01-002	drop					Bahco 7tpi Wood Handsaw: tooth count and kind only, no model name.
+NF-C1.1.1.01-003	drop					Magnusson Hardwood Panel Saw: own-label brand plus kind, no model identity.
+NF-C1.1.1.02-001	drop					Junior hacksaw is a generic pattern; Axminster adds no model identity.
+NF-C1.1.1.02-002	drop					Mini hacksaw: size word plus kind.
+NF-C1.1.1.03-001	drop					Japanese Traditional Ryoba Saw: the kind's own name with a style word.
+NF-C1.1.1.03-002	drop					Japanese Modern Ryoba Saw: the kind's own name with a style word.
+NF-C1.1.1.04-004	drop					Professional Dozuki Saw - Ikeda Tooth: grade and tooth pattern are attributes.
+NF-C1.1.1.04-005	drop					Extra-Fine Dozuki: tooth fineness plus kind.
+NF-C1.1.1.05-001	drop					Japanese Kugihiki Saw: kugihiki is the kind's alias (C9).
+NF-C1.1.3.01-002	drop					Double-bit axe is a pattern; Estwing adds no model name (pattern belongs as a non-maker form).
+NF-C1.1.3.01-005	drop					Hickory Hatchet: handle material plus kind.
+NF-C1.1.3.01-006	drop					Felling Axe (Hawksmoor): pattern name plus maker only.
+NF-C1.1.3.02-002	drop					Hawksmoor Log Splitting Maul: maker plus kind.
+NF-C1.1.3.03-001	drop					Milwaukee Splitting Wedge: maker plus kind.
+NF-C1.1.3.04-001	drop					The Handy 6 Tonne Electric Log Splitter: capacity is a size attribute.
+NF-C1.1.3.04-002	drop					The Handy 4 Tonne Log Splitter: capacity is a size attribute.
+NF-C1.2.1.01-001	drop					Carpenters Brace: the kind's generic name.
+NF-C1.2.1.01-002	drop					Carpenters Ratchet Brace: kind plus ratchet feature.
+NF-C1.2.3.01-002	drop					Stubby Combination Spanner Set: size word plus kind.
+NF-C1.2.3.02-001	drop					Wide and Thin Jaw Adjustable Wrench: description of the kind.
+NF-C1.2.3.02-002	drop					Adjustable Wide Jaw Wrench: description of the kind.
+NF-C1.2.3.02-003	drop					Professional Adjustable Wrench: grade plus kind.
+NF-C1.2.3.03-002	drop					1/2 Inch Socket Set: drive size plus kind.
+NF-C1.2.3.04-002	drop					Torque Wrench: repeats the kind.
+NF-C1.3.1.01-005	drop					ECE Smooth Plane: maker plus kind (ECE Primus forms stay).
+NF-C1.3.1.02-004	drop					ECE Jack Plane: maker plus kind.
+NF-C1.3.1.03-001	drop					ECE Jointer Plane: maker plus kind.
+NF-C1.3.1.04-001	drop					Small Smoothing Plane (Dictum kanna): size plus role, no model.
+NF-C1.3.2.04-001	drop					Spindle Roughing Gouge: gouge pattern; the non-maker roughing gouge form replaces it.
+NF-C1.3.2.04-003	drop					Double-Ended Bowl Gouge: pattern description, no model.
+NF-C1.3.2.05-001	drop					Morticer SIP 750W: wattage plus kind.
+NF-C1.3.2.05-002	drop					Morticer 1in 750W: capacity and wattage plus kind.
+NF-C1.3.3.01-001	drop					Handled Hand Files: repeats the kind.
+NF-C1.3.3.01-002	drop					Engineer's File Set: repeats the kind.
+NF-C1.3.3.01-003	drop					Swiss Round Files: cut and shape are attributes of the file.
+NF-C1.3.3.02-001	drop					Japanese Waterstones: the kind's own name.
+NF-C1.3.3.02-002	drop					Japanese Combination Waterstones: kind plus grit combination.
+NF-C1.3.3.03-001	drop					400W 200mm Bench Grinder with Light: specification plus kind.
+NF-C1.3.3.03-002	drop					250W Wet and Dry Bench Grinder: specification plus kind.
+NF-C1.3.3.03-003	drop					Bench Grinder with Sanding Belt: description of a feature.
+NF-C1.3.1.08-005	drop					Thicknesser Planer 1650W: wattage plus kind.
+NF-C1.3.6.01-002	drop					Mini 12 x 17 Bench Wood Lathe: size plus kind.
+NF-C1.3.6.02-004	drop					Warco Mini Lathe: size word plus kind.
+NF-C1.3.7.01-001	drop					Scratch Brush: repeats the kind; bristle metal is an attribute.
+NF-C1.3.7.01-002	drop					Heavy Duty Wire Brush Set: grade plus kind.
+NF-C1.3.7.02-003	drop					Pinnacle Synthetic Paintbrush: maker, bristle material and kind only.
+NF-C1.4.1.03-001	drop					Narex bench mallet: maker plus kind.
+NF-C1.4.2.01-001	drop					Estwing gooseneck wrecking bar: the gooseneck pattern is already a non-maker form.
+NF-C1.4.2.01-004	drop					Hultafors wrecking bar: maker plus kind.
+NF-C1.6.02-004	drop					Axminster Forged F Clamp: material plus a non-maker form.
+NF-C1.6.02-005	drop					Axminster HD Parallel Jaw Clamp: grade plus a non-maker form.
+NF-C1.6.06-001	drop					Minotaur builders trestle: maker plus kind.
+NF-C1.8.1.02-005	drop					GRP Platform Step Ladder: material plus kind.
+NF-C1.8.1.03-003	drop					Light Trade Combination Ladder: grade plus kind.
+NF-C1.8.1.04-004	drop					Professional Trade Extension Ladder: grade plus kind.
+NF-C1.8.1.04-005	drop					Domestic and General Trade Extension Ladder: grade plus kind.
+NF-C1.8.1.04-006	drop					Domestic Extension Ladder: grade plus kind.
+NF-C1.8.1.05-003	drop					4x5 Multi Purpose Telescopic Ladder: size plus kind.
+NF-C1.8.3.02-001	drop					Roughneck Dolly: maker plus kind.
+NF-C1.10.02-001	drop					Rolling Wheeled Workshop Tool Box Stack: description; Pro-Stack is the line already stored.
+NF-C1.11.03-001	drop					Benchtop solder fume extractor 23W: mount, wattage and kind.
