@@ -1,0 +1,8 @@
+# MODK_B10_4 report
+Kinds done: all 35 list rows (none empty; done.tsv has no "none found" rows).
+Output: 431 named forms (NF-<kind>-K4nnn), 81 new makers, 88 maker-kind rows, no lines (no fetched page showed a multi-kind series).
+Per kind: fly rug 18, overreach boot 14, curry comb 18, lunge line 8, Australian stock saddle 8, pack saddle 4, air pump 13, aquarium water treatment 3, bird cage 18, perch 10, bird toy 37, cage-bird feeder/drinker 12, nest box 15, feeder hook 1, hummingbird feeder 23, queen excluder 3, comb foundation 3, varroa treatment 12, brooder plate 2, pet fountain 7, auto feeder 3, driving harness 4, electronic fence 5, wet cat food 14, fresh/frozen cat food 1, cat treat 13, vet diet cat 7, freeze-dried cat food 15, compound horse feed 39, hoof care 17, horse supplement 15, hay net 9, pet supplement 20, pet shampoo 24, lead rope 16.
+Thin kinds: feeder hook (1), fresh/frozen cat food (1; Smalls/Nom Nom pages returned 403), brooder plate (2), aquarium water treatment (3), queen excluder (3).
+Best sources: exoticwings.ca collections (via Parallel fetch; WebFetch got 403), petsmart.com category pages, zooplus, Weaver and Spillers (millbryhill) catalogues, anvilbrand, Bates, LeMieux, perkypet.
+Notes: product lines with flavour/size variants were recorded once at product level. Maker ids for Formic Pro, Apiguard (Dadant shop), Apitraz, Apistan, Api-Bioxal, Thymovar were left blank (page did not show the maker). Wagga Saddle is recorded as non-maker-bound (AU, 1863). Maker names were matched to data/makers.tsv by exact name; check ambiguous reuse (M-walsh, M-centaur, M-marina).
+Missing kind?: none seen. Work files: verify/work/MODK_B10_4/ (stage.tsv, build.py, fetched.tsv).
