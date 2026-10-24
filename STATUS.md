@@ -272,5 +272,22 @@ Totals now: 53 categories with kinds, 5,992 kinds, 39,153 named forms, 2,330 lin
 
 Lessons: a batch that reuses a stored line id with another name made the whole lines write fail, so the loader helper now drops such rows before load (the stored row is kept); batches named HV_W3_* or HV_MK_* get a bogus category-level tie and their maker_kinds must be loaded with tools/data_write.py directly; agents sometimes claim to reuse a maker id that does not exist (add the row); decision-pass new leaves need the parent column "<id> <name> (new leaf)" before apply_dp.py and add_leaf_nodes.py.
 
-## Next (session 10)
-See SESSION_10_PROMPT.md.
+## Session 10 (2026-10-24) — F5 finished, clean-up, depth (coins, notes, stamps, minerals, climbing, hockey), signature pieces, quality signals and platforms for wave 3
+Worked on branch `claude/blissful-hopper-oyzk13`. Decisions R-124 in framework/structure/decisions/D4_residual.md. The owner delegated all decisions.
+
+| Step | Result |
+|---|---|
+| 1. F5 | DPW1_F5 applied (7 new kinds, 6 e-money cards moved, NCMC line); 212 transit, bank, telecom and retail "makers" moved to the issuer ledger (tools/makers_to_issuers.py, R-124 a); HV_F5_NK1 attested 2 of 3 (social security card not); display groups and markers HOLW_F5 (25 groups, 20 markers): every category now has display groups. |
+| 2. Clean-up | 16 maker merges, 4 line twins (tools/merge_lines.py), IKEA line gaps and 61 same-name line links (tools/link_line_names.py, tools/fix_lines.py), 40 single-kind lines to named forms (tools/lines_to_named_forms.py), 23 VALORANT bundle lines dropped, Fifty Shades (Lovehoney, licence) and Colt Defender (Umarex, licence), B9 owner lines TEREA, LEVIA, Copenhagen, Grizzly, Skoal (MK_S10), five definition widenings, scheme kinds_served synced (tools/sync_scheme_kinds.py). |
+| 3. Depth | DEP_F3_1–4: 341 coin, bullion, banknote and stamp issues as non-maker named forms with 338 issuers; DEP_F6_1–2: 334 mineral species kinds (Strunz leaves); D4 camera battery platforms (PF_8; lens-hood mounts not attestable); DEP_E2_1: 26 caving and climbing kinds, 96 models; DEP_E2_2: new leaf E2.14.5 hockey, 15 kinds, 52 models; HV_W3_NK5 attested 19 of 24 retry kinds; DPS10 + HV_S10_NK1: 29 more kinds (R-124 k). |
+| 4. Left from session 8 | SIG_A1_12–27 (646 scene-core brands): about 130 signature pieces, 20 scene tags (low yield, R-124 j); WCA (QS_J3_4, 16 entries), Allure 2026 (QS_W2_2, 28), DWWA Platinum and IWSC Gold 2026 (QS_J7_3, 186): partial (R-124 m); seasons for South Africa and Brazil (QS_SEASON_3, 110 fruit and vegetable rows; no fish calendars found); wave-3 needs: QS_W3_1–6 (45 schemes, 87 standards rows incl. supplement and safety seals, 56 grading scales, 95 tier entries, 41 standard values) and PF_8–9 (242 platforms, 72 compatibility rows). |
+| 5. Pilot page | Version 10 published (https://claude.ai/artifact/69ipGh4sxukS45bxkDoSEk): 6,421 kinds, 40,174 named forms; issued named forms show "Issued by". |
+
+Totals now: 53 categories with kinds and display groups, 6,421 kinds, 40,174 named forms, 2,293 lines, 63,544 makers, 338 issuers, 1,006 designations, 988 varieties, 119 grading scales, 81 schemes with 2,768 tier entries, 90 standards with 74 values, 620 platforms, 526 compatibility rows, 524 attributes, 249 scenes, 9,506 scene tags.
+
+Lessons: Sonnet agents given 160-brand lists stop after 10–30 brands; lists of 40 finish. Batches that add kinds and named forms together need the loader to re-read kinds (fixed in tools/load_qs.py, which now also loads kinds, issuers and grading scales). Parallel fetch hit its free-tier rate limit late in the session.
+
+Still unattested: two-wheel tractor, crown of office, home audio recording, restraint furniture, riding saddle machine, social security card.
+
+## Next (session 11)
+See SESSION_11_PROMPT.md (the last hand-off: when its steps are done, hand-offs stop).
