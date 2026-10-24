@@ -1,6 +1,6 @@
 # OG_J4_ROW2 report (designations only)
 
-Rows: 24 in OG_J4_ROW2_designations.tsv. By country: MX 3, TN 4, MA 1, CL 1, BR 1, TR 1, UA 1, RS 6, CO 1, BO 1, EC 1, PE 2, US 1. By scheme: DO 7 (MX 3, CO, BO, EC, PE x2 as DO), IP/IG 4 (TN IP 3, BR IP, CL IG), AOC 1, national GI 8, state statute 1.
+Rows: 27 in (24 first pass, 3 second pass: TR Taşköprü Sarımsağı No 135, CR Banano de Costa Rica Lisbon 900, AR Kiwi Mar y Sierras del Sudeste de Buenos Aires)  in OG_J4_ROW2_designations.tsv. By country: MX 3, TN 4, MA 1, CL 1, BR 1, TR 1, UA 1, RS 6, CO 1, BO 1, EC 1, PE 2, US 1. By scheme: DO 7 (MX 3, CO, BO, EC, PE x2 as DO), IP/IG 4 (TN IP 3, BR IP, CL IG), AOC 1, national GI 8, state statute 1.
 
 Served: Wikipedia Mexico DO and Tunisia GI pages (names, dates, no register numbers); Andean Community DO list PDF (read via pdftotext of the saved fetch); INPI certificate BR402024000007-9; Türkpatent record No 1236 (Ayaş Domatesi); Serbian "Authentic Serbia" brochure (scheme PDO vs PGI per item not legible, written as GI); alessandri.legal (Limón de Pica); NIPO page (Kherson watermelon, no number/date); WIPO Lex (Moroccan order).
 
@@ -17,3 +17,8 @@ Skips to other categories (not written): Pallar de Ica, Quinua Real x2, Maíz Bl
 - Cholupa del Huila, passion fruit; Pitahaya Amazónica de Palora, pitahaya; Maca Junín - Pasco, maca: https://api.comunidadandina.org/uploads/LISTADO_DENOMINACIONES_DE_ORIGEN_CAN_07025d1e91.pdf
 
 Fetch log: verify/work/OG_J4_ROW2/fetched.tsv
+
+## Second pass (continuation)
+Searched, nothing fetchable and attestable for fresh produce: Georgia (Sakpatenti register not reached; 12 agricultural GIs per a WIPO slide, none named), Armenia (AIPA register and CEPA Annex X not reached), Moldova, Balkans beyond Serbia, Kenya (no GI law or register; draft bill 2026), Ethiopia, South Africa (Agricultural Product Standards Act regime, no fresh names found), OAPI, Egypt (Matrouh fig said registered 2020 in a journal excerpt only; Baranni grapes only in a news excerpt), Palestine/Lebanon/Jordan/Israel/Iran (none found), Oceania and Central Asia (none found), Caribbean (Jamaica: only coffee), Central America beyond Costa Rica banana. Türkiye: Türkpatent records reached only for Ayaş and Taşköprü; other names appear only in EU-registration news lists, not written. Lisbon Express database not searchable by product through these tools.
+Failed: Taşköprü and Lisbon PDFs unreadable through WebFetch text (read via saved copy); abogados.com.ar needed offset 100000. Parallel_Auth still unusable (402).
+Missing kind? added: none.

@@ -1,2 +1,30 @@
 url	fetch_status	gave
 https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/	failed	JS-only app, title only (URL was typed from memory, not from a result; not used as source)
+https://en.wikipedia.org/wiki/List_of_Italian_food_and_drink_products_with_protected_status	partial	IT 1.6 table to 2011 (summariser output, article chars 0-100000)
+https://en.wikipedia.org/wiki/List_of_Portuguese_food_and_drink_products_with_protected_status	partial	PT fruit/veg rows with DOOR ids
+https://minagric.gr/en/farmer-menu-2/pdo-pgi-tsgproducts-menu/listpdoproducts-menu	failed	HTTP 403
+https://en.wikipedia.org/wiki/List_of_Andalusian_food_and_drink_products_with_protected_status	partial	3 Andalusian fresh produce rows
+https://tastecyprus.com.cy/en/cypriot-products/	partial	Kolokasi Sotiras PDO only
+https://en.wikipedia.org/wiki/List_of_Croatian_products_with_protected_designation_of_origin	partial	HR fruit/veg section, no schemes
+https://www.visitgreece.gr/en/experiences/nature/culture/select-protected-designation-of-origin-products	excerpt-only	page body empty
+https://www.greeknewsagenda.gr/greek-pdo/	partial	9 Greek produce PDOs, English names
+https://www.scattidigusto.it/ancora-ortofrutta-made-in-italy-nel-paniere-delle-dop-e-igp-europee	partial	3 Feb 2011 additions
+https://servicio.mapa.gob.es/fr/alimentacion/temas/calidad-diferenciada/informedop_igp_2023_tcm36-699648.doc	failed	404
+https://www.mapa.gob.es/en/alimentacion/temas/calidad-diferenciada/informedop_igp_2020_definitivo_tcm38-578633.doc	failed	503
+https://www.mapa.gob.es/en/alimentacion/temas/calidad-diferenciada/informedop_igp_2022_provisional_v2_tcm38-660756.doc	failed	503
+https://servicio.mapa.gob.es/ca/alimentacion/temas/calidad-diferenciada/agroalimentarios2008_tcm34-426432.pdf	failed	404
+https://mapa.gob.es/va/alimentacion/temas/calidad-diferenciada/informedop_igp2013_tcm39-426636.pdf	failed	503
+https://www.mapa.gob.es/ca/alimentacion/temas/calidad-diferenciada/informedop_igp_2019_ver3_tcm34-552641.doc	failed	503
+https://boe.es/doue/2003/235/L00006-00007.pdf	full	Reg 1665/2003 (read locally via pdftotext of the saved fetch)
+https://boe.es/doue/2002/039/L00012-00013.pdf	full	Reg 245/2002
+https://boe.es/doue/2000/067/L00008-00011.pdf	full	Reg 547/2000
+https://www.boe.es/doue/2002/142/L00027-00028.pdf	full	Reg 905/2002
+https://www.boe.es/doue/2003/214/L00006-00007.pdf	full	Reg 1491/2003
+https://boe.es/doue/2006/072/L00008-00009.pdf	full	Reg 417/2006
+https://boe.es/doue/2000/133/L00019-00020.pdf	full	Reg 1187/2000 (cheese only, no rows)
+https://boe.gob.es/doue/2001/066/L00029-00030.pdf	failed	BOE notice page
+https://www.legislation.gov.uk/eur/2011/414/data.html	full	Firiki Piliou
+https://www.legislation.gov.uk/eur/2013/1400/data.html	full	Tomataki Santorinis
+https://eur-lex.europa.eu/eli/reg_impl/2023/691/oj/eng/pdf	failed	empty
+https://www.regione.lazio.it/sites/default/files/documentazione/AGC_DD_G07168_18_06_2020_Allegato1.pdf	full	Patata dell'Alto viterbese (local pdftotext)
+https://svilupporurale.regione.sicilia.it/storage/2026/03/SRG-10-All.-5-Elenco-prodotti-agricoli-e-alimentari-rientranti-nei-regimi-di-qualita.pdf	full	Sicily regional list (local pdftotext)
