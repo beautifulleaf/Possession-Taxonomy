@@ -64,25 +64,25 @@ C1.9	C1	sub_family	C1	Power & air supply (leaf axis: what is supplied)		36	from 
 C1.10	C1	sub_family	C1	Tool storage & carrying (no leaf level; secondary key: container form)	Kind key, first yes: drawered cabinet on casters: roller cabinet; box on wheels with a pull handle: wheeled toolbox; rigid case that locks onto other cases of a system: modular stackable tool case; rigid hand-carried box: portable toolbox; soft or hard-bodied bag: tool bag; flexible wrap: tool roll. Membership of a case system (PACKOUT, TSTAK and similar) is a platform attribute, not a kind.	41	from audit/KL_C1_tree.md		
 C1.11	C1	sub_family	C1	Multi-use tools & kits (no leaf level; secondary key: kits first, then equipment serving several tool families)		42	from audit/KL_C1_tree.md		
 C1.12	C1	sub_family	C1	Parts and accessories made for one tool (leaf axis: the tool family served; nothing that is not a part may sit here)		43	from audit/KL_C1_tree.md		
-D4	D4	category				0	from audit/KL_D4_tree.md		
-D4.1	D4	sub_family	D4	Cameras (the capture device)	Leaf axis: recording technology (what the image is recorded on).	1	from audit/KL_D4_tree.md		
-D4.1.1	D4	leaf	D4.1	Digital cameras		2	from audit/KL_D4_tree.md		
-D4.1.2	D4	leaf	D4.1	Film cameras		3	from audit/KL_D4_tree.md		
-D4.1.3	D4	leaf	D4.1	Instant cameras		4	from audit/KL_D4_tree.md		
-D4.2	D4	sub_family	D4	Lenses and optical attachments (no leaf)		5	from audit/KL_D4_tree.md		
-D4.3	D4	sub_family	D4	Light	Leaf axis: what the object does with light (makes a flash; gives continuous light; shapes light; holds the source or the studio backdrop).	6	from audit/KL_D4_tree.md		
-D4.3.1	D4	leaf	D4.3	Flash		7	from audit/KL_D4_tree.md		
-D4.3.2	D4	leaf	D4.3	Continuous light		8	from audit/KL_D4_tree.md		
-D4.3.3	D4	leaf	D4.3	Light modifiers		9	from audit/KL_D4_tree.md		
-D4.3.4	D4	leaf	D4.3	Light stands and mounts		10	from audit/KL_D4_tree.md		
-D4.4	D4	sub_family	D4	Support and stabilisation (no leaf)		11	from audit/KL_D4_tree.md		
-D4.5	D4	sub_family	D4	Film and sensitised media (no leaf)		12	from audit/KL_D4_tree.md		
-D4.6	D4	sub_family	D4	Darkroom and processing	Leaf axis: the stage of the darkroom process the object serves, with materials used across stages in the last leaf.	13	from audit/KL_D4_tree.md		
-D4.6.1	D4	leaf	D4.6	Film processing		14	from audit/KL_D4_tree.md		
-D4.6.2	D4	leaf	D4.6	Enlarging and exposure		15	from audit/KL_D4_tree.md		
-D4.6.3	D4	leaf	D4.6	Print processing		16	from audit/KL_D4_tree.md		
-D4.6.4	D4	leaf	D4.6	Darkroom materials		17	from audit/KL_D4_tree.md		
-D4.7	D4	sub_family	D4	Parts and accessories made for one camera or lens (no leaf)		18	from audit/KL_D4_tree.md		
+D4	D4	category				0	from verify/out/TREE_D4.md		
+D4.1	D4	sub_family	D4	Cameras	Leaf axis: recording technology (what the image is recorded on), admitted as a kind-level split by C10(b) (D-3): digital, film, instant.	1	from verify/out/TREE_D4.md		
+D4.1.1	D4	leaf	D4.1	Digital cameras		2	from verify/out/TREE_D4.md		
+D4.1.2	D4	leaf	D4.1	Film cameras		3	from verify/out/TREE_D4.md		
+D4.1.3	D4	leaf	D4.1	Instant cameras		4	from verify/out/TREE_D4.md		
+D4.2	D4	sub_family	D4	Lenses and optical attachments		5	from verify/out/TREE_D4.md		
+D4.3	D4	sub_family	D4	Light	Leaf axis: what the object does with light (makes a flash; gives continuous light; shapes light; holds the source or the studio backdrop).	6	from verify/out/TREE_D4.md		
+D4.3.1	D4	leaf	D4.3	Flash		7	from verify/out/TREE_D4.md		
+D4.3.2	D4	leaf	D4.3	Continuous light		8	from verify/out/TREE_D4.md		
+D4.3.3	D4	leaf	D4.3	Light modifiers		9	from verify/out/TREE_D4.md		
+D4.3.4	D4	leaf	D4.3	Light stands and mounts		10	from verify/out/TREE_D4.md		
+D4.4	D4	sub_family	D4	Support and stabilisation		11	from verify/out/TREE_D4.md		
+D4.5	D4	sub_family	D4	Film and sensitised media		12	from verify/out/TREE_D4.md		
+D4.6	D4	sub_family	D4	Darkroom and processing	Leaf axis: the stage of the darkroom process the object serves, with materials used across stages in the last leaf (C14(c)).	13	from verify/out/TREE_D4.md		
+D4.6.1	D4	leaf	D4.6	Film processing		14	from verify/out/TREE_D4.md		
+D4.6.2	D4	leaf	D4.6	Enlarging and exposure		15	from verify/out/TREE_D4.md		
+D4.6.3	D4	leaf	D4.6	Print processing		16	from verify/out/TREE_D4.md		
+D4.6.4	D4	leaf	D4.6	Darkroom materials		17	from verify/out/TREE_D4.md		
+D4.7	D4	sub_family	D4	Parts and accessories made for one camera or lens		18	from verify/out/TREE_D4.md		
 E1	E1	category				0	from audit/KL_E1_tree.md		
 E1.1	E1	sub_family	E1	Dolls, figures & soft toys	Leaf axis: the form of the figure played with or displayed.	1	from audit/KL_E1_tree.md		
 E1.1.1	E1	leaf	E1.1	Dolls		2	from audit/KL_E1_tree.md		
