@@ -22,6 +22,9 @@ new = rd("kinds"); load, held = [], []
 for r in new:
     srcs = [s.strip() for s in re.split(r"[|;]", r["sources"]) if s.strip()]
     good = r["code"] == code and r["kind_id"] not in allk and srcs and all(s in ok_urls for s in srcs)
+    if good:  # one fetch_status per source (data_write checks the counts)
+        st = [x.strip() for x in re.split(r"[|;]", r["fetch_status"]) if x.strip()] or ["partial"]
+        r["sources"] = " | ".join(srcs); r["fetch_status"] = " | ".join((st + [st[-1]] * len(srcs))[:len(srcs)])
     (load if good else held).append(r)
 ids = {r["kind_id"] for r in load}
 moves = [m for m in rd("nf_moves") if m["new_kind_id"] in ids]
@@ -45,7 +48,8 @@ if err or check: sys.exit(1 if err else 0)
 if held: write_tsv(out / f"{b}_kinds_held.tsv", held, TABLES["kinds"][1])
 if load:
     p = ROOT / f"verify/work/{b}/kinds_in.tsv"; write_tsv(p, load, TABLES["kinds"][1])
-    r = subprocess.run([sys.executable, str(ROOT / "tools/data_write.py"), "add", "kinds", str(p)], capture_output=True, text=True); print((r.stdout + r.stderr).strip())
+    r = subprocess.run([sys.executable, str(ROOT / "tools/data_write.py"), "add", "kinds", str(p)], capture_output=True, text=True); msg = (r.stdout + r.stderr).strip(); print(msg)
+    if "nothing written" in msg or r.returncode: sys.exit("  kinds rejected: nothing else applied")
 if moves:
     mv = {m["named_form_id"].strip(): m["new_kind_id"].strip() for m in moves}
     NF = read_tsv(ROOT / "data/named_forms.tsv"); n = 0

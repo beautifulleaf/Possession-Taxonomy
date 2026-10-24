@@ -1,0 +1,4 @@
+# GR_F5 report
+Splits: F5.3.2.01 Photograph -> new F5.3.2.04 Carte de visite, F5.3.2.05 Cabinet card, F5.3.2.06 Snapshot; old kind shown as "Other photographs" (keeps real photo postcard). Shop checked: antiquephotostock.com (fetched; Browse by type lists CDVs, Cabinet cards, Tintypes, Daguerreotypes, Snapshots). antiquephotographics.com combines CDVs and cabinet cards in one category, noted. Etsy 403; eBay store and ThirdShift showed no separate filter. Named form moved: NF-F5.3.2.01-002 Carte de visite -> F5.3.2.04.
+Cards: none; credit/debit/charge, gift card/certificate, ID/access badge, certificates are sold as separate items or not clearly one listing.
+Undecided: tintypes/daguerreotypes (shops list them separately, but they are not in F5 kinds; not added). Display row of F5.3.2.01 should still list "carte de visite · cabinet card · snapshot" in also_called; reviewer may trim.
