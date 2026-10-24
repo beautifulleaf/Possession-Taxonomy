@@ -59,7 +59,9 @@ TABLES = {
     "varieties": ("variety_id", ["variety_id", "species", "name", "native_name", "holder", "variety_type", "kind_id",
                                   "origin", "year", "notes"] + SRC),  # variety_type: cultivar, club cultivar, breed, strain (R-112)
     "culinary_links": ("link_id", ["link_id", "subject_id", "target_code", "relation"] + SRC),
+    # stored attributes of kinds, named forms and varieties (season, species group, sold_as and the like; R-118)
+    "attributes": ("attr_id", ["attr_id", "subject_id", "subject_type", "attribute", "value", "scope", "notes"] + SRC),
 }
 
 FETCH_STATUS = {"full", "partial", "nav-only", "failed", "excerpt-only"}
-SUBJECT_TYPES = {"kind", "named_form", "maker", "line", "variant", "plan", "platform"}
+SUBJECT_TYPES = {"kind", "named_form", "maker", "line", "variant", "plan", "platform", "variety"}
