@@ -51,51 +51,6 @@ J4	G-J4-17	USDA onion grade	U.S. No. 1 > U.S. Export No. 1 > U.S. Commercial > U
 J4	G-J4-18	USDA tomato grade	U.S. No. 1 > U.S. Combination > U.S. No. 2 > U.S. No. 3	US tomato grade (GS-usda-ams-tomato-grades); chilli heat is a measured facet.	data/grading_scales.tsv
 J4	G-J4-22	lettuce class	Class I > Class II	EU lettuce and endive classes have no Extra class (GS-eu-lettuce-endive-marketing-classes-2023-2429).	UNECE fruit and vegetables standards via FAO (intl); data/grading_scales.tsv
 J4	G-J4-24	mushroom class	'Extra' Class > Class I > Class II	EU cultivated mushroom classes; size closed, veiled, open stored separately.	data/grading_scales.tsv
-E3	G-E3-1	playability and build in hand		Neck, frets and set-up first; used checks neck, frets, electronics.	proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany); Shimamura Gakki (Japan) beginner guide index
-E3	G-E3-1	pickups		Type, layout and switching.	proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
-E3	G-E3-1	body construction and woods		Weighed after pickups.	proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
-E3	G-E3-1	scale length		Wood influence debated.	proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
-E3	G-E3-1	hardware and upgradability		Weighed after body.	proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
-E3	G-E3-1	line and place of build within the maker's ladder		Compared inside one maker's lines.	proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
-E3	G-E3-15	overall build quality	a first-rate upright > an inferior grand	Build quality outranks size.	proposals.tsv E3 row (quality_markers); Steinway EU piano buying guide (maker)
-E3	G-E3-15	soundboard and plate		Weighed after overall build.	proposals.tsv E3 row (quality_markers); Steinway EU piano buying guide (maker)
-E3	G-E3-15	action and touch		Weighed after soundboard.	proposals.tsv E3 row (quality_markers); Steinway EU piano buying guide (maker)
-E3	G-E3-15	size		Grand size 1.55-2.74 m; weighed last.	proposals.tsv E3 row (quality_markers); Steinway EU piano buying guide (maker)
-E3	G-E3-15	condition of the instrument		Judged on the single instrument; not stored (C16).	proposals.tsv E3 row (quality_markers); Steinway EU piano buying guide (maker)
-E3	G-E3-18	sound engine and emulation quality	analogue; VA; FM; wavetable; granular; PCM (a choice)	Engine first.	proposals.tsv E3 row (quality_markers); Andertons (UK) synthesizer guide
-E3	G-E3-18	voice count	mono; paraphonic; poly (a choice)	Polyphony after engine.	proposals.tsv E3 row (quality_markers); Andertons (UK) synthesizer guide
-E3	G-E3-18	hands-on control	one knob per function preferred	Hands-on control is valued.	proposals.tsv E3 row (quality_markers); Andertons (UK) synthesizer guide
-E3	G-E3-18	form factor	keyboard; module; desktop; groovebox; modular	A choice.	proposals.tsv E3 row (quality_markers); Andertons (UK) synthesizer guide
-E3	G-E3-18	connectivity and effects		Weighed last.	proposals.tsv E3 row (quality_markers); Andertons (UK) synthesizer guide
-E3	G-E3-34	equivalent input noise (EIN)	lower > higher	Figures comparable only with stated test conditions.	proposals.tsv E3 row (quality_markers); Focusrite specs article (manufacturer)
-E3	G-E3-34	A-weighted dynamic range	higher > lower	Second converter figure.	proposals.tsv E3 row (quality_markers); Focusrite specs article (manufacturer)
-E3	G-E3-34	THD+N	lower > higher	Third figure.	proposals.tsv E3 row (quality_markers); Focusrite specs article (manufacturer)
-E3	G-E3-34	frequency response		Weighed last.	proposals.tsv E3 row (quality_markers); Focusrite specs article (manufacturer)
-E3	G-E3-5	build level	professional > step-up > student	Band and orchestral instruments are sold on a build ladder (memo).	proposals.tsv E3 row (quality_markers); E3 memo
-E3	G-E3-6	build level	professional > step-up > student	Band and orchestral instruments are sold on a build ladder (memo).	proposals.tsv E3 row (quality_markers); E3 memo
-H1	G-H1-1	suitability to skin type and concern		Matched first.	proposals.tsv H1 row (quality_markers); Sephora Middle East
-H1	G-H1-1	ingredients and formulation		Certified share of organic or natural ingredients.	proposals.tsv H1 row (quality_markers); Sephora Middle East; Ethical Consumer cosmetics labels
-H1	G-H1-1	UV protection		SPF and PA grade.	proposals.tsv H1 row (quality_markers); Sephora Middle East
-H1	G-H1-1	cruelty-free and vegan status		Certification labels (COSMOS, NATRUE, Leaping Bunny, vegan) as filters.	proposals.tsv H1 row (quality_markers); Ethical Consumer cosmetics labels
-H1	G-H1-2	suitability to skin type and concern		Matched first.	proposals.tsv H1 row (quality_markers); Sephora Middle East
-H1	G-H1-2	ingredients and formulation		Certified share of organic or natural ingredients.	proposals.tsv H1 row (quality_markers); Sephora Middle East; Ethical Consumer cosmetics labels
-H1	G-H1-2	UV protection		SPF and PA grade.	proposals.tsv H1 row (quality_markers); Sephora Middle East
-H1	G-H1-2	cruelty-free and vegan status		Certification labels (COSMOS, NATRUE, Leaping Bunny, vegan) as filters.	proposals.tsv H1 row (quality_markers); Ethical Consumer cosmetics labels
-H1	G-H1-36	blade steel and edge keeping		Weighed first for razors.	proposals.tsv H1 row (quality_markers); Lamnia (traditional shaving, Europe)
-H1	G-H1-36	comb type matched to skill	closed > open > slant (mild to aggressive); adjustable	Matched to the shaver's skill.	proposals.tsv H1 row (quality_markers); Lamnia (traditional shaving, Europe)
-H1	G-H1-36	handle material and durability		Weighed after the head.	proposals.tsv H1 row (quality_markers); Lamnia (traditional shaving, Europe)
-H1	G-H1-36	brush hair	badger > boar > horse; synthetic apart	Badger grade ladder not attested.	proposals.tsv H1 row (quality_markers); Lamnia (traditional shaving, Europe)
-H1	G-H1-29	wattage	higher > lower (more airflow, less heat)	Hair dryers: weighed first.	proposals.tsv H1 row (quality_markers); NBC Select hair dryers
-H1	G-H1-29	speed and heat settings		Weighed after wattage.	proposals.tsv H1 row (quality_markers); NBC Select hair dryers
-H1	G-H1-29	attachments		Weighed after settings.	proposals.tsv H1 row (quality_markers); NBC Select hair dryers
-H1	G-H1-29	heating technology	ionic; ceramic; tourmaline; titanium (matched to hair type)	A choice by hair type.	proposals.tsv H1 row (quality_markers); NBC Select hair dryers
-H1	G-H1-29	cool shot		Weighed last.	proposals.tsv H1 row (quality_markers); NBC Select hair dryers
-H1	G-H1-7	cleaning or plaque removal (electric toothbrushes)		Which? and Consumer Reports yardstick (excerpt only); separate schemes.	proposals.tsv H1 row (quality_markers); CHOICE electric toothbrush test (Australia)
-H1	G-H1-7	ease of use (electric toothbrushes)		CHOICE yardstick.	proposals.tsv H1 row (quality_markers); CHOICE electric toothbrush test (Australia)
-H1	G-H1-7	feel (electric toothbrushes)		CHOICE yardstick.	proposals.tsv H1 row (quality_markers); CHOICE electric toothbrush test (Australia)
-H1	G-H1-7	charging and run time (electric toothbrushes)		Weighed last.	proposals.tsv H1 row (quality_markers); CHOICE electric toothbrush test (Australia)
-H1	G-H1-4	concentration	parfum or extrait > eau de parfum > eau de toilette > eau de cologne > eau fraiche (strength, not quality)	Memo marker; evidence thin, provisional.	proposals.tsv H1 row (quality_markers); memo H1 sections 2, 5-7
-H1	G-H1-4	house		Memo marker; provisional until a fragrance source is fetched.	proposals.tsv H1 row (quality_markers); memo H1 sections 2, 5-7
 J7	G-J7-1	official classification	Burgundy grand cru > premier cru > village	Cru tier names vineyard potential, not guaranteed quality.	Wikipedia Cru (wine) article; Bordeaux Index (UK fine wine)
 J7	G-J7-1	Bordeaux 1855 growth	first > second > third > fourth > fifth growth	Ranking set by 1855 prices; changed only twice.	Wine Folly Bordeaux 1855 guide; Wikipedia Cru (wine) article
 J7	G-J7-1	Saint-Emilion classification	premier grand cru classe A > premier grand cru classe B > grand cru classe	Regional estate ranking buyers recognise.	Wikipedia Cru (wine) article
@@ -264,26 +219,6 @@ F6	G-F6-15	cut		GIA factor (memo).	proposals.tsv F6 row (quality_markers); memo 
 F6	G-F6-15	carat		GIA factor (memo).	proposals.tsv F6 row (quality_markers); memo F6
 F6	G-F6-17	luster		First of the GIA seven value factors (memo).	proposals.tsv F6 row (quality_markers); memo F6
 F6	G-F6-17	the other GIA value factors		The remaining six of the seven factors (memo).	proposals.tsv F6 row (quality_markers); memo F6
-E1	G-E1-1	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first: small parts, chemicals, sharp edges, flammability, labels.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
-E1	G-E1-11	finish and paint class	statue > scale figure > figma > Nendoroid > prize figure	Collectible figures are ranked first by format and finish (memo collector format ladder).	proposals.tsv E1 row (quality_markers); memo E1 collector format ladder
-E1	G-E1-11	articulation		Follows finish for collectible figures.	proposals.tsv E1 row (quality_markers)
-E1	G-E1-11	scale		Last of the figure markers.	proposals.tsv E1 row (quality_markers)
-E1	G-E1-2	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
-E1	G-E1-3	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
-E1	G-E1-3	fit and engineering of parts, with clear instructions		Kit shops judge a kit first by how its parts fit; Tamiya is the reference maker.	proposals.tsv E1 row (quality_markers); Access Models first plastic kit guide; Hobbyco (Australia) Tamiya beginner guide
-E1	G-E1-3	skill grade matched to the builder	maker Level 1 to 4+ (match, not higher is better)	The box skill level is chosen to fit the builder.	proposals.tsv E1 row (quality_markers); Access Models first plastic kit guide
-E1	G-E1-3	detail and accuracy of the subject		Follows fit and skill grade.	proposals.tsv E1 row (quality_markers); Access Models (UK) models and kits
-E1	G-E1-3	scale	1:72 aircraft and 1:35 armour as starter scales (a choice)	Scale is chosen by subject; starter scales named by the guides.	proposals.tsv E1 row (quality_markers); Hobbyco (Australia) Tamiya beginner guide
-E1	G-E1-4	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
-E1	G-E1-5	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
-E1	G-E1-5	component and material quality and durability		Games are judged as objects: components first (Spiel des Jahres jury criteria).	proposals.tsv E1 row (quality_markers); Spiel des Jahres FAQ
-E1	G-E1-5	clear, error-free rules		Rule-book quality follows the components.	proposals.tsv E1 row (quality_markers); Spiel des Jahres FAQ
-E1	G-E1-5	coordinated design		Layout and graphic design that fit together.	proposals.tsv E1 row (quality_markers); Spiel des Jahres FAQ
-E1	G-E1-5	edition completeness		Last of the game-object markers.	proposals.tsv E1 row (quality_markers)
-E1	G-E1-6	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
-E1	G-E1-7	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
-E1	G-E1-8	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
-E1	G-E1-9	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
 E2	G-E2-24	certification present and genuine (gate)	UIAA Safety Label; CE mark and EN standard met	Safety gear is checked for genuine certification first.	proposals.tsv E2 row (quality_markers, quality_signals); UIAA buying climbing gear advice
 E2	G-E2-24	fit and compatibility with existing gear		After certification.	proposals.tsv E2 row (quality_markers); UIAA buying climbing gear advice
 E2	G-E2-24	activity and skill match		The gear must suit the climbing done and the climber.	proposals.tsv E2 row (quality_markers); UIAA buying climbing gear advice
@@ -944,3 +879,75 @@ G1	G-G1-R3	Fit, checked on a test ride		Comes after intended riding.	rewritten f
 G1	G-G1-R3	Running and ownership costs		Looks and spec come after this.	rewritten from the stored G1 markers (G-G1-3), RD_G1
 G1	G-G1-R6; G-G1-R5; G-G1-R8	Length or size and layout		Tentative: noted in the research memo only.	rewritten from the stored G1 markers (G-G1-7, G-G1-6, G-G1-8), RD_G1
 G1	G-G1-R6; G-G1-R5; G-G1-R8	Condition and age		Tentative: noted in the research memo only.	rewritten from the stored G1 markers (G-G1-7, G-G1-6, G-G1-8), RD_G1
+D1	G-D1-R2	Speed in its class (processors and graphics cards)	benchmark rank	Measured performance comes first.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R2	Efficiency (processors and graphics cards)	power draw, TDP	Checked after speed.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R2	Platform life and features (processors and graphics cards)	socket, PCIe generation, video memory for cards	Decides how long the part stays useful.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R2	Cooling and noise of the finished build		Judged on the partner build.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R2	Maker range (processors and graphics cards)	Core Ultra 9 > 7 > 5; Ryzen 9 > 7 > 5 > 3; RTX xx90 > xx80 > xx70 > xx60 > xx50	Only a guide, not a ranking of quality.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R2	Build quality and protections (power supplies)	Cultists tier A > B > C > D > E > F	Comes first for power supplies.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R2	Efficiency (power supplies)	80 PLUS Ruby > Titanium > Platinum > Gold > Silver > Bronze > Standard	Follows build quality.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R2	Noise (power supplies)	Cybenetics LAMBDA A++ > A+ > A > A- > Standard	Follows efficiency.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R2	Connector standard and warranty (power supplies)	ATX 3.x, 12V-2x6	Checked last.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R2; G-D1-R3	Sustained speed and PCIe generation (internal SSDs)	Gen5 > Gen4 > Gen3 > SATA	Leads for internal solid-state drives.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R2; G-D1-R3	Flash memory type (internal SSDs)	SLC > MLC > TLC > QLC	Follows speed.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R2; G-D1-R3	Cache and endurance (internal SSDs)	DRAM cache; TBW rating	Checked after the flash type.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R1	What tests weigh for laptops and complete computers	display > keyboard and pointing > battery > performance for the use > temperature and noise > case and build > connectivity, weight	Notebookcheck weights by use.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R4	Feel of the switch (keyboards)	linear, tactile, clicky	Feel is personal preference, not a rank.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R4	Switch technology (keyboards)	mechanical, optical, Hall effect with adjustable actuation, capacitive (Topre)	Follows feel.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R4	Hot-swap and build (keyboards)	plate, case, stabilisers	Follows switch technology.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R4	Keycaps (keyboards)		Checked last.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R4	Panel, refresh rate and colour (monitors)		The main points for monitors.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R6	Wi-Fi standard and coverage		The main points for home networking.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+D1	G-D1-R5	Print cost per page		Provisional: no fetched page backs it yet.	rewritten from the stored D1 markers (proposal quality_markers, old groups G-D1-6 to G-D1-37), RD_D1
+E1	E1	Safety marks (check first)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first: small parts, chemicals, sharp edges, flammability, labels.	rewritten from the stored E1 markers (G-E1-1 to G-E1-9), RD_E1
+E1	G-E1-R1	Finish and paint class	statue > scale figure > figma > Nendoroid > prize figure	Collectible figures are ranked first by format and finish.	rewritten from the stored E1 markers (G-E1-11), RD_E1
+E1	G-E1-R1	Joints and posing		Follows finish for collectible figures.	rewritten from the stored E1 markers (G-E1-11), RD_E1
+E1	G-E1-R1	Scale		Last of the figure markers.	rewritten from the stored E1 markers (G-E1-11), RD_E1
+E1	G-E1-R6	Fit and quality of parts, with clear instructions		Kit shops judge a kit first by how its parts fit; Tamiya is the reference maker.	rewritten from the stored E1 markers (G-E1-3), RD_E1
+E1	G-E1-R6	Skill level for the builder	maker Level 1 to 4+ (pick the one that suits the builder, higher is not better)	The box skill level is chosen to fit the builder.	rewritten from the stored E1 markers (G-E1-3), RD_E1
+E1	G-E1-R6	Detail and accuracy of the subject		Follows fit and skill level.	rewritten from the stored E1 markers (G-E1-3), RD_E1
+E1	G-E1-R6	Scale	1:72 aircraft and 1:35 armour as starter scales (a choice)	Scale is chosen by subject; starter scales named by the guides.	rewritten from the stored E1 markers (G-E1-3), RD_E1
+E1	G-E1-R3; G-E1-R8	Quality and durability of the parts		Games are judged as objects: components first (Spiel des Jahres jury criteria).	rewritten from the stored E1 markers (G-E1-5), RD_E1
+E1	G-E1-R3; G-E1-R8	Clear rules without errors		Rule-book quality follows the components.	rewritten from the stored E1 markers (G-E1-5), RD_E1
+E1	G-E1-R3; G-E1-R8	Design that fits together		Layout and graphic design that fit together.	rewritten from the stored E1 markers (G-E1-5), RD_E1
+E1	G-E1-R3; G-E1-R8	Complete edition		Last of the game-object markers.	rewritten from the stored E1 markers (G-E1-5), RD_E1
+E3	G-E3-R1	How it plays and is built	neck, frets and set-up checked in the hand; used ones: neck, frets and electronics	Weighed first.	rewritten from the stored E3 markers (G-E3-1), RD_E3
+E3	G-E3-R1	Pickups	type, layout and switching	Weighed after playability.	rewritten from the stored E3 markers (G-E3-1), RD_E3
+E3	G-E3-R1	Body construction and woods		Weighed after pickups.	rewritten from the stored E3 markers (G-E3-1), RD_E3
+E3	G-E3-R1	Scale length		How much the wood matters is debated.	rewritten from the stored E3 markers (G-E3-1), RD_E3
+E3	G-E3-R1	Hardware and upgrade options		Weighed after the body.	rewritten from the stored E3 markers (G-E3-1), RD_E3
+E3	G-E3-R1	Line and place of build in the maker's range		Compared inside one maker's lines.	rewritten from the stored E3 markers (G-E3-1), RD_E3
+E3	G-E3-R2	Overall build quality (pianos)	a first-rate upright > an inferior grand	Build quality outranks size.	rewritten from the stored E3 markers (G-E3-15), RD_E3
+E3	G-E3-R2	Soundboard and plate (pianos)		Weighed after overall build.	rewritten from the stored E3 markers (G-E3-15), RD_E3
+E3	G-E3-R2	Action and touch (pianos)		Weighed after the soundboard.	rewritten from the stored E3 markers (G-E3-15), RD_E3
+E3	G-E3-R2	Size (pianos)	grand size 1.55-2.74 m	Weighed last.	rewritten from the stored E3 markers (G-E3-15), RD_E3
+E3	G-E3-R2	Condition of the instrument (pianos)		Judged on the single instrument, so not recorded here.	rewritten from the stored E3 markers (G-E3-15), RD_E3
+E3	G-E3-R2	Sound engine and how well it copies other sounds (synths)	analogue; virtual analogue; FM; wavetable; granular; sample-based (a choice)	The engine comes first.	rewritten from the stored E3 markers (G-E3-18), RD_E3
+E3	G-E3-R2	Number of voices (synths)	one note at a time; paraphonic; polyphonic (a choice)	Weighed after the engine.	rewritten from the stored E3 markers (G-E3-18), RD_E3
+E3	G-E3-R2	Hands-on control (synths)	one knob per function preferred	Hands-on control is valued.	rewritten from the stored E3 markers (G-E3-18), RD_E3
+E3	G-E3-R2	Form (synths)	keyboard; module; desktop; groovebox; modular	A choice.	rewritten from the stored E3 markers (G-E3-18), RD_E3
+E3	G-E3-R2	Connections and built-in effects (synths)		Weighed last.	rewritten from the stored E3 markers (G-E3-18), RD_E3
+E3	G-E3-R7	Input noise (audio interfaces)	lower > higher	Figures compare only when the test conditions are stated.	rewritten from the stored E3 markers (G-E3-34), RD_E3
+E3	G-E3-R7	Dynamic range, A-weighted (audio interfaces)	higher > lower	Second converter figure.	rewritten from the stored E3 markers (G-E3-34), RD_E3
+E3	G-E3-R7	Distortion plus noise (audio interfaces)	lower > higher	Third figure.	rewritten from the stored E3 markers (G-E3-34), RD_E3
+E3	G-E3-R7	Frequency response (audio interfaces)		Weighed last.	rewritten from the stored E3 markers (G-E3-34), RD_E3
+E3	G-E3-R4	Build level	professional > step-up > student	Band and orchestral instruments are sold on a build ladder.	rewritten from the stored E3 markers (G-E3-5, G-E3-6), RD_E3
+H1	G-H1-R1; G-H1-R2	Suits your skin type and concern		Matched first.	rewritten from the stored H1 markers (G-H1-1, G-H1-2), RD_H1
+H1	G-H1-R1; G-H1-R2	Ingredients and formulation		Certified share of organic or natural ingredients.	rewritten from the stored H1 markers (G-H1-1, G-H1-2), RD_H1
+H1	G-H1-R1; G-H1-R2	UV protection		SPF and PA grade.	rewritten from the stored H1 markers (G-H1-1, G-H1-2), RD_H1
+H1	G-H1-R1; G-H1-R2	Cruelty-free and vegan		Certification labels (COSMOS, NATRUE, Leaping Bunny, vegan) used as filters.	rewritten from the stored H1 markers (G-H1-1, G-H1-2), RD_H1
+H1	G-H1-R6	Blade steel and edge keeping		Weighed first for razors.	rewritten from the stored H1 markers (G-H1-36), RD_H1
+H1	G-H1-R6	Comb type to match your skill	closed > open > slant (mild to aggressive); adjustable	Matched to the shaver's skill.	rewritten from the stored H1 markers (G-H1-36), RD_H1
+H1	G-H1-R6	Handle material and durability		Weighed after the head.	rewritten from the stored H1 markers (G-H1-36), RD_H1
+H1	G-H1-R6	Brush hair	badger > boar > horse; synthetic apart	The badger grade ladder is not confirmed.	rewritten from the stored H1 markers (G-H1-36), RD_H1
+H1	G-H1-R3	Wattage (hair dryers)	higher > lower (more airflow, less heat)	Weighed first for hair dryers.	rewritten from the stored H1 markers (G-H1-29), RD_H1
+H1	G-H1-R3	Speed and heat settings (hair dryers)		Weighed after wattage.	rewritten from the stored H1 markers (G-H1-29), RD_H1
+H1	G-H1-R3	Attachments (hair dryers)		Weighed after settings.	rewritten from the stored H1 markers (G-H1-29), RD_H1
+H1	G-H1-R3	Heating technology (hair dryers)	ionic; ceramic; tourmaline; titanium (chosen by hair type)	A choice by hair type.	rewritten from the stored H1 markers (G-H1-29), RD_H1
+H1	G-H1-R3	Cool shot (hair dryers)		Weighed last.	rewritten from the stored H1 markers (G-H1-29), RD_H1
+H1	G-H1-R7	Cleaning or plaque removal (electric toothbrushes)		The yardstick used by Which? and Consumer Reports (search excerpt only); the two schemes are separate.	rewritten from the stored H1 markers (G-H1-7), RD_H1
+H1	G-H1-R7	Ease of use (electric toothbrushes)		CHOICE yardstick.	rewritten from the stored H1 markers (G-H1-7), RD_H1
+H1	G-H1-R7	Feel (electric toothbrushes)		CHOICE yardstick.	rewritten from the stored H1 markers (G-H1-7), RD_H1
+H1	G-H1-R7	Charging and run time (electric toothbrushes)		Weighed last.	rewritten from the stored H1 markers (G-H1-7), RD_H1
+H1	G-H1-R4	Strength	parfum or extrait > eau de parfum > eau de toilette > eau de cologne > eau fraiche (strength, not quality)	Provisional marker; evidence is thin.	rewritten from the stored H1 markers (G-H1-4), RD_H1
+H1	G-H1-R4	Fragrance house		Provisional until a fragrance source is fetched.	rewritten from the stored H1 markers (G-H1-4), RD_H1
