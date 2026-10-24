@@ -1,5 +1,5 @@
 kind_id	sub_family	leaf	name	definition	dagger
-C1.1.1.01	C1.1	C1.1.1	panel saw	hand saw with a stiff, single-edged tapered blade on a handle, cutting on the push stroke (Western handsaw).	
+C1.1.1.01	C1.1	C1.1.1	panel saw	hand saw with a stiff, single-edged tapered blade on a handle, cutting on the push stroke (Western handsaw).	yes
 C1.1.1.02	C1.1	C1.1.1	hacksaw	hand saw with a thin replaceable blade tensioned in a bow frame, for metal, pipe and plastic.	
 C1.1.1.03	C1.1	C1.1.1	double-edged pull saw [ryoba]	thin Japanese hand saw with crosscut teeth on one edge and rip teeth on the other, cutting on the pull stroke.	
 C1.1.1.04	C1.1	C1.1.1	backed pull saw [dozuki]	Japanese pull saw whose thin fine-toothed blade is stiffened by a steel back, for joinery.	
@@ -17,12 +17,12 @@ C1.1.1.15	C1.1	C1.1.1	metal-cutting bandsaw	bandsaw built for metal, with a fine
 C1.1.1.16	C1.1	C1.1.1	cold cut saw	machine with a slow-turning circular blade that cuts metal bar and tube cleanly.	
 C1.1.1.17	C1.1	C1.1.1	scroll saw	bench machine with a thin reciprocating blade held in tensioned arms, for fretwork and intricate curves.	
 C1.1.2.01	C1.1	C1.1.2	utility knife	knife with a replaceable or snap-off blade for cutting materials in a trade or workshop.	
-C1.1.2.02	C1.1	C1.1.2	pocket knife	small folding or locking knife carried in a pocket for general cutting (not a weapon blade pattern).	
-C1.1.2.03	C1.1	C1.1.2	pocket multi-tool	pocket-size tool with pliers and folding implements (knife, scissors, drivers, file, saw) in its handles.	
+C1.1.2.02	C1.1	C1.1.2	pocket knife	small folding or locking knife carried in a pocket for general cutting (not a weapon blade pattern).	yes
+C1.1.2.03	C1.1	C1.1.2	pocket multi-tool	pocket-size tool with pliers and folding implements (knife, scissors, drivers, file, saw) in its handles.	yes
 C1.1.3.01	C1.1	C1.1.3	axe	long-handled tool with a bladed head for felling, hewing or splitting wood, of any pattern.	
-C1.1.3.02	C1.1	C1.1.3	splitting maul	heavy-headed tool with a wedge face on one side and a flat sledge face on the other, for splitting logs.	
-C1.1.3.03	C1.1	C1.1.3	splitting wedge	steel wedge driven into wood with a hammer or maul to split it.	
-C1.1.3.04	C1.1	C1.1.3	log splitter	machine (hydraulic or other power, not tractor-driven) that forces a log against a wedge.	
+C1.1.3.02	C1.1	C1.1.3	splitting maul	heavy-headed tool with a wedge face on one side and a flat sledge face on the other, for splitting logs.	yes
+C1.1.3.03	C1.1	C1.1.3	splitting wedge	steel wedge driven into wood with a hammer or maul to split it.	yes
+C1.1.3.04	C1.1	C1.1.3	log splitter	machine (hydraulic or other power, not tractor-driven) that forces a log against a wedge.	yes
 C1.2.1.01	C1.2	C1.2.1	brace	hand-cranked drill with a sweep handle and a chuck.	
 C1.2.1.02	C1.2	C1.2.1	drill/driver	hand-held rotary tool with chuck and clutch for drilling and driving screws.	
 C1.2.1.03	C1.2	C1.2.1	hammer drill	drill/driver with an added percussive mode and ordinary chuck, for masonry and concrete.	
@@ -35,7 +35,7 @@ C1.2.2.04	C1.2	C1.2.2	hex key	bent or T-handled bar with a hexagonal end for soc
 C1.2.3.01	C1.2	C1.2.3	combination spanner	fixed wrench with an open end and a ring end of the same size.	
 C1.2.3.02	C1.2	C1.2.3	adjustable wrench	wrench with a movable jaw set by a screw.	
 C1.2.3.03	C1.2	C1.2.3	socket wrench (ratchet)	ratcheting drive handle that turns interchangeable sockets; a socket set is filed as this kind.	
-C1.2.3.04	C1.2	C1.2.3	torque wrench	wrench that indicates or limits the tightening torque applied.	
+C1.2.3.04	C1.2	C1.2.3	torque wrench	wrench that indicates or limits the tightening torque applied.	yes
 C1.2.3.05	C1.2	C1.2.3	impact wrench	power wrench with an impact mechanism and square drive for sockets and heavy fasteners.	
 C1.3.1.01	C1.3	C1.3.1	smoothing plane	short hand plane for final surface smoothing (Stanley No. 1 to 4-1/2 pattern).	
 C1.3.1.02	C1.3	C1.3.1	jack plane	medium-length hand plane for general stock removal (No. 5, 5-1/2, 6).	
@@ -66,12 +66,13 @@ C1.3.5.03	C1.3	C1.3.5	CNC router	computer-controlled gantry machine that routes 
 C1.3.6.01	C1.3	C1.3.6	wood lathe	machine that turns timber between centres or on a chuck against hand-held tools.	
 C1.3.6.02	C1.3	C1.3.6	metal (engineering) lathe	machine that turns metal with a fixed cutting tool on a carriage.	
 C1.3.6.03	C1.3	C1.3.6	milling machine	machine that cuts metal with a rotating multi-tooth cutter against a movable table.	
-C1.3.6.04	C1.3	C1.3.6	reloading press	lever-operated press that holds dies to resize, prime and seat components of ammunition cartridges.	
-C1.3.7.01	C1.3	C1.3.7	wire brush	brush with steel or brass wire bristles to clean or abrade surfaces before work.	
-C1.3.7.02	C1.3	C1.3.7	decorating brush	brush for applying paint, varnish or stain to a surface.	
+C1.3.6.04	C1.3	C1.3.6	reloading press	lever-operated press that holds dies to resize, prime and seat components of ammunition cartridges.	yes
+C1.3.7.01	C1.3	C1.3.7	wire brush	brush with steel or brass wire bristles to clean or abrade surfaces before work.	yes
+C1.3.7.02	C1.3	C1.3.7	decorating brush	brush for applying paint, varnish or stain to a surface.	yes
 C1.4.1.01	C1.4	C1.4.1	claw hammer	hammer with a striking face and a curved claw for pulling nails.	
 C1.4.1.02	C1.4	C1.4.1	double-faced hammer [genno]	Japanese hammer with two striking faces, one flat and one slightly convex.	
-C1.4.1.03	C1.4	C1.4.1	mallet	soft-faced or wooden-headed hammer for striking chisels and assemblies.	
+C1.4.1.03	C1.4	C1.4.1	mallet	soft-faced or wooden-headed hammer for striking chisels and assemblies.	yes
+C1.4.1.04	C1.4	C1.4.1	demolition hammer (breaker)	powered percussion tool that drives a chisel or point by hammer blows only, with no rotation, to break concrete, masonry and tile (jackhammer and pneumatic or petrol breakers are this kind, `drive` an attribute; provisional until a page selling demolition hammers or breakers as a type is fetched; memo section 14).	yes
 C1.4.2.01	C1.4	C1.4.2	wrecking bar	flat or round steel bar with a curved claw end for prying and demolition.	
 C1.4.3.01	C1.4	C1.4.3	nailer [nail gun]	tool that drives collated nails, powered by air, gas or electric/battery drive.	
 C1.4.3.02	C1.4	C1.4.3	staple gun	tool that fires staples into a surface.	
@@ -80,8 +81,8 @@ C1.5.1.01	C1.5	C1.5.1	MIG welder	welding machine that feeds a continuous wire el
 C1.5.1.02	C1.5	C1.5.1	TIG welder	welding machine using a tungsten electrode and a separate filler rod under shielding gas.	
 C1.5.1.03	C1.5	C1.5.1	stick welder	welding machine that burns coated rod electrodes held in a clamp.	
 C1.5.1.04	C1.5	C1.5.1	multi-process welder	one welding machine set up to run more than one of the MIG, TIG and stick processes.	
-C1.5.2.01	C1.5	C1.5.2	soldering iron	hand-held heated tip for melting solder, usually in electrical and electronics work.	
-C1.5.2.02	C1.5	C1.5.2	soldering station	temperature-controlled power base with a soldering iron handpiece and stand.	
+C1.5.2.01	C1.5	C1.5.2	soldering iron	hand-held heated tip for melting solder, usually in electrical and electronics work.	yes
+C1.5.2.02	C1.5	C1.5.2	soldering station	temperature-controlled power base with a soldering iron handpiece and stand.	yes
 C1.5.3.01	C1.5	C1.5.3	glue gun	hand-held electric tool that melts and dispenses adhesive sticks.	
 C1.5.3.02	C1.5	C1.5.3	heat gun	hand-held electric hot-air tool for stripping, shrinking and softening.	
 C1.6.01	C1.6		pliers	hand tool with two pivoted jaws to grip, bend or cut.	
@@ -89,10 +90,10 @@ C1.6.02	C1.6		clamp	tool that presses and holds workpieces together by a screw, 
 C1.6.03	C1.6		bench vise	jaws fixed to a bench that hold a workpiece.	
 C1.6.04	C1.6		workbench	work surface made for tool work, with or without vises, dog holes and storage.	
 C1.6.05	C1.6		sawhorse	trestle-type support pair or single frame carrying a workpiece at working height.	
-C1.6.06	C1.6		trestle	frame support for a board or workpiece, used in pairs.	
+C1.6.06	C1.6		trestle	frame support for a board or workpiece, used in pairs.	yes
 C1.7.1.01	C1.7	C1.7.1	tape measure	coiled flexible rule in a case.	
 C1.7.1.02	C1.7	C1.7.1	spirit level	straight body with liquid vials showing level or plumb.	
-C1.7.1.03	C1.7	C1.7.1	laser distance measurer	handheld device that measures distance with a laser, for building and trade work.	
+C1.7.1.03	C1.7	C1.7.1	laser distance measurer	handheld device that measures distance with a laser, for building and trade work.	yes
 C1.7.2.01	C1.7	C1.7.2	caliper	sliding gauge measuring outside, inside and depth dimensions.	
 C1.7.2.02	C1.7	C1.7.2	micrometer	screw gauge for precise outside, inside or depth measurement.	
 C1.7.2.03	C1.7	C1.7.2	dial indicator	gauge with a plunger or lever and a dial showing small displacement.	
@@ -101,50 +102,50 @@ C1.7.2.05	C1.7	C1.7.2	hardness tester	instrument that tests the hardness of a ma
 C1.7.2.06	C1.7	C1.7.2	coordinate measuring machine	machine that probes a part to measure its geometry in three axes.	
 C1.7.3.01	C1.7	C1.7.3	marking gauge [kebiki]	tool that scribes a line parallel to an edge.	
 C1.7.3.02	C1.7	C1.7.3	square	right-angle tool for marking and checking squareness, including combination squares.	
-C1.7.4.01	C1.7	C1.7.4	multimeter	instrument that measures several electrical quantities for trade and electronics work.	
+C1.7.4.01	C1.7	C1.7.4	multimeter	instrument that measures several electrical quantities for trade and electronics work.	yes
 C1.8.1.01	C1.8	C1.8.1	step ladder	free-standing hinged A-frame ladder.	
 C1.8.1.02	C1.8	C1.8.1	platform step ladder	step ladder with a top platform to stand on.	
 C1.8.1.03	C1.8	C1.8.1	combination ladder	ladder that can be set up in more than one form (step, extension, other) from one set of rails.	
-C1.8.1.04	C1.8	C1.8.1	extension ladder	ladder with sliding sections that lean against a support.	
-C1.8.1.05	C1.8	C1.8.1	telescopic ladder	ladder whose rungs and rails telescope into each other.	
-C1.8.2.01	C1.8	C1.8.2	trolley jack	wheeled hydraulic floor jack with a lifting arm.	
-C1.8.2.02	C1.8	C1.8.2	bottle jack	hydraulic jack in a vertical bottle form.	
-C1.8.2.03	C1.8	C1.8.2	axle stand	stand that supports a lifted vehicle.	
-C1.8.2.04	C1.8	C1.8.2	engine hoist	folding crane that lifts engines.	
-C1.8.2.05	C1.8	C1.8.2	chain hoist	hand or electric hoist with a chain.	
-C1.8.2.06	C1.8	C1.8.2	winch	drum and rope or cable device for pulling or lifting.	
-C1.8.3.01	C1.8	C1.8.3	sack truck [hand truck]	upright two-wheel carrier with a toe plate for tilting and moving loads.	
-C1.8.3.02	C1.8	C1.8.3	dolly	low platform carrier on wheels or casters.	
-C1.8.3.03	C1.8	C1.8.3	hand cart	hand-pushed multi-wheel cart or trolley for goods.	
-C1.8.4.01	C1.8	C1.8.4	excavator	machine with a boom, arm and bucket on a swinging house, tracked or wheeled (mini to full size).	
-C1.8.4.02	C1.8	C1.8.4	skid steer loader	compact loader steered by skidding wheels or tracks, with a lift arm.	
-C1.8.4.03	C1.8	C1.8.4	telehandler	loader with a telescopic boom.	
-C1.8.4.04	C1.8	C1.8.4	forklift	truck that lifts loads on forks.	
-C1.8.4.05	C1.8	C1.8.4	dumper	machine with a tipping body for hauling material on site.	
-C1.8.4.06	C1.8	C1.8.4	plate compactor	vibrating plate machine that compacts soil and aggregate.	
-C1.8.4.07	C1.8	C1.8.4	cement mixer	drum machine that mixes cement, mortar or concrete.	
+C1.8.1.04	C1.8	C1.8.1	extension ladder	ladder with sliding sections that lean against a support.	yes
+C1.8.1.05	C1.8	C1.8.1	telescopic ladder	ladder whose rungs and rails telescope into each other.	yes
+C1.8.2.01	C1.8	C1.8.2	trolley jack	wheeled hydraulic floor jack with a lifting arm.	yes
+C1.8.2.02	C1.8	C1.8.2	bottle jack	hydraulic jack in a vertical bottle form.	yes
+C1.8.2.03	C1.8	C1.8.2	axle stand	stand that supports a lifted vehicle.	yes
+C1.8.2.04	C1.8	C1.8.2	engine hoist	folding crane that lifts engines.	yes
+C1.8.2.05	C1.8	C1.8.2	chain hoist	hand or electric hoist with a chain.	yes
+C1.8.2.06	C1.8	C1.8.2	winch	drum and rope or cable device for pulling or lifting.	yes
+C1.8.3.01	C1.8	C1.8.3	sack truck [hand truck]	upright two-wheel carrier with a toe plate for tilting and moving loads.	yes
+C1.8.3.02	C1.8	C1.8.3	dolly	low platform carrier on wheels or casters.	yes
+C1.8.3.03	C1.8	C1.8.3	hand cart	hand-pushed multi-wheel cart or trolley for goods.	yes
+C1.8.4.01	C1.8	C1.8.4	excavator	machine with a boom, arm and bucket on a swinging house, tracked or wheeled (mini to full size).	yes
+C1.8.4.02	C1.8	C1.8.4	skid steer loader	compact loader steered by skidding wheels or tracks, with a lift arm.	yes
+C1.8.4.03	C1.8	C1.8.4	telehandler	loader with a telescopic boom.	yes
+C1.8.4.04	C1.8	C1.8.4	forklift	truck that lifts loads on forks.	yes
+C1.8.4.05	C1.8	C1.8.4	dumper	machine with a tipping body for hauling material on site.	yes
+C1.8.4.06	C1.8	C1.8.4	plate compactor	vibrating plate machine that compacts soil and aggregate.	yes
+C1.8.4.07	C1.8	C1.8.4	cement mixer	drum machine that mixes cement, mortar or concrete.	yes
 C1.9.1.01	C1.9	C1.9.1	inverter generator	engine-driven generator with inverter electronics for stable output.	
 C1.9.1.02	C1.9	C1.9.1	conventional (open-frame) portable generator	engine-driven generator in an open frame with a directly coupled alternator.	
 C1.9.2.01	C1.9	C1.9.2	air compressor	machine that makes compressed air for tools, in a general workshop or site role.	
 C1.9.3.01	C1.9	C1.9.3	submersible (drainage) pump	pump that sits under water to remove or drain it.	
-C1.9.3.02	C1.9	C1.9.3	transfer pump	pump that moves liquid from one container to another.	
+C1.9.3.02	C1.9	C1.9.3	transfer pump	pump that moves liquid from one container to another.	yes
 C1.9.4.01	C1.9	C1.9.4	battery pack	rechargeable pack made for a maker's cordless tool platform.	
 C1.9.4.02	C1.9	C1.9.4	charger	charger made for a maker's cordless tool platform.	
 C1.10.01	C1.10		portable toolbox	hand-carried box for tools.	
 C1.10.02	C1.10		wheeled toolbox [tool trolley]	tool box on wheels with a pull handle.	
 C1.10.03	C1.10		modular stackable tool case	case that locks onto other cases of a system by cleats or latches.	
-C1.10.04	C1.10		tool bag	soft or hard-bodied bag made to carry tools.	
-C1.10.05	C1.10		tool roll	flexible roll-up wrap for tools.	
-C1.10.06	C1.10		roller cabinet	drawered cabinet on casters.	
+C1.10.04	C1.10		tool bag	soft or hard-bodied bag made to carry tools.	yes
+C1.10.05	C1.10		tool roll	flexible roll-up wrap for tools.	yes
+C1.10.06	C1.10		roller cabinet	drawered cabinet on casters.	yes
 C1.11.01	C1.11		tool kit	assorted hand tools sold, standardised and compared as one object.	
 C1.11.02	C1.11		dust extractor [dust collector]	extraction unit for dust from workshop machines and power tools.	
-C1.11.03	C1.11		fume extractor	unit that draws away soldering or welding fumes.	
+C1.11.03	C1.11		fume extractor	unit that draws away soldering or welding fumes.	yes
 C1.12.1.01	C1.12	C1.12.1	drill bit	cutting bit for a drill.	
-C1.12.1.02	C1.12	C1.12.1	driver bit	screwdriving bit for a drill or driver.	
+C1.12.1.02	C1.12	C1.12.1	driver bit	screwdriving bit for a drill or driver.	yes
 C1.12.2.01	C1.12	C1.12.2	saw blade	toothed blade made for a saw.	
-C1.12.3.01	C1.12	C1.12.3	grinding disc	disc cut for a grinder.	
-C1.12.3.02	C1.12	C1.12.3	sanding sheet cut for one sander	sheet or disc shaped to fit one sander.	
-C1.12.4.01	C1.12	C1.12.4	welding wire	wire electrode for wire-fed welding.	
-C1.12.4.02	C1.12	C1.12.4	welding rod [electrode]	coated or bare rod for stick or TIG welding.	
-C1.12.4.03	C1.12	C1.12.4	solder	fusible alloy for soldering.	
-C1.12.5.01	C1.12	C1.12.5	reloading die	die for a reloading press.	
+C1.12.3.01	C1.12	C1.12.3	grinding disc	disc cut for a grinder.	yes
+C1.12.3.02	C1.12	C1.12.3	sanding sheet cut for one sander	sheet or disc shaped to fit one sander.	yes
+C1.12.4.01	C1.12	C1.12.4	welding wire	wire electrode for wire-fed welding.	yes
+C1.12.4.02	C1.12	C1.12.4	welding rod [electrode]	coated or bare rod for stick or TIG welding.	yes
+C1.12.4.03	C1.12	C1.12.4	solder	fusible alloy for soldering.	yes
+C1.12.5.01	C1.12	C1.12.5	reloading die	die for a reloading press.	yes

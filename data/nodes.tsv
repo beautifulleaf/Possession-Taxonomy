@@ -51,19 +51,19 @@ G2.3.4	G2	leaf	G2.3	Animal and crop buildings		19	from audit/KL_G2_tree_v2.md
 G2.3.5	G2	leaf	G2.3	Shade and surface structures		20	from audit/KL_G2_tree_v2.md		
 G2.3.6	G2	leaf	G2.3	Pools		21	from audit/KL_G2_tree_v2.md		
 G2.3.7	G2	leaf	G2.3	Other buildings by function	the function the building is made for	22	from audit/KL_G2_tree_v2.md		
-C1	C1	category				0	from audit/KL_C1_tree.md		
-C1.1	C1	sub_family	C1	Cutting & sawing (leaf axis: tool family)		1	from audit/KL_C1_tree.md		
-C1.2	C1	sub_family	C1	Drilling, driving & turning (leaf axis: tool family)		5	from audit/KL_C1_tree.md		
-C1.3	C1	sub_family	C1	Shaping & finishing (leaf axis: tool family)		9	from audit/KL_C1_tree.md		
-C1.4	C1	sub_family	C1	Striking & fastening (leaf axis: tool family)		17	from audit/KL_C1_tree.md		
-C1.5	C1	sub_family	C1	Joining & heat (leaf axis: joining process)		21	from audit/KL_C1_tree.md		
-C1.6	C1	sub_family	C1	Gripping, clamping & work holding (no leaf level; secondary key: work held, hand-held to floor-standing)		25	from audit/KL_C1_tree.md		
-C1.7	C1	sub_family	C1	Measuring, layout & testing (leaf axis: what is measured or marked)		26	from audit/KL_C1_tree.md		
-C1.8	C1	sub_family	C1	Lifting, access & materials handling (leaf axis: what is lifted, reached or moved)		31	from audit/KL_C1_tree.md		
-C1.9	C1	sub_family	C1	Power & air supply (leaf axis: what is supplied)		36	from audit/KL_C1_tree.md		
-C1.10	C1	sub_family	C1	Tool storage & carrying (no leaf level; secondary key: container form)	Kind key, first yes: drawered cabinet on casters: roller cabinet; box on wheels with a pull handle: wheeled toolbox; rigid case that locks onto other cases of a system: modular stackable tool case; rigid hand-carried box: portable toolbox; soft or hard-bodied bag: tool bag; flexible wrap: tool roll. Membership of a case system (PACKOUT, TSTAK and similar) is a platform attribute, not a kind.	41	from audit/KL_C1_tree.md		
-C1.11	C1	sub_family	C1	Multi-use tools & kits (no leaf level; secondary key: kits first, then equipment serving several tool families)		42	from audit/KL_C1_tree.md		
-C1.12	C1	sub_family	C1	Parts and accessories made for one tool (leaf axis: the tool family served; nothing that is not a part may sit here)		43	from audit/KL_C1_tree.md		
+C1	C1	category				0	from verify/out/TREE_C1.md		
+C1.1	C1	sub_family	C1	Cutting & sawing	Leaf axis: tool family (hand, powered and machine versions of a family share a leaf); kind order by `drive` and `mount`, manual hand-held to stationary machine, then size.	1	from verify/out/TREE_C1.md		
+C1.2	C1	sub_family	C1	Drilling, driving & turning	Leaf axis: tool family; kind order by `drive` and `mount`, manual hand-held to stationary machine, then size.	5	from verify/out/TREE_C1.md		
+C1.3	C1	sub_family	C1	Shaping & finishing	Leaf axis: tool family; kind order by `drive` and `mount`, manual hand-held to stationary machine, then size.	9	from verify/out/TREE_C1.md		
+C1.4	C1	sub_family	C1	Striking & fastening	Leaf axis: tool family; kind order by `drive` and `mount`, manual hand-held to stationary machine, then size.	17	from verify/out/TREE_C1.md		
+C1.5	C1	sub_family	C1	Joining & heat	Leaf axis: joining process; kind order by `drive` and `mount`, then size.	21	from verify/out/TREE_C1.md		
+C1.6	C1	sub_family	C1	Gripping, clamping & work holding		25	from verify/out/TREE_C1.md		
+C1.7	C1	sub_family	C1	Measuring, layout & testing	Leaf axis: what is measured or marked (K-147, K-148); kind order by resolution, coarse to fine.	26	from verify/out/TREE_C1.md		
+C1.8	C1	sub_family	C1	Lifting, access & materials handling	Leaf axis: what is lifted, reached or moved; kind order by height or load ascending.	31	from verify/out/TREE_C1.md		
+C1.9	C1	sub_family	C1	Power & air supply	Leaf axis: what is supplied; kind order by output ascending.	36	from verify/out/TREE_C1.md		
+C1.10	C1	sub_family	C1	Tool storage & carrying		41	from verify/out/TREE_C1.md		
+C1.11	C1	sub_family	C1	Multi-use tools & kits		42	from verify/out/TREE_C1.md		
+C1.12	C1	sub_family	C1	Parts and accessories made for one tool		43	from verify/out/TREE_C1.md		
 D4	D4	category				0	from verify/out/TREE_D4.md		
 D4.1	D4	sub_family	D4	Cameras	Leaf axis: recording technology (what the image is recorded on), admitted as a kind-level split by C10(b) (D-3): digital, film, instant.	1	from verify/out/TREE_D4.md		
 D4.1.1	D4	leaf	D4.1	Digital cameras		2	from verify/out/TREE_D4.md		
@@ -338,42 +338,42 @@ A2.4	A2	sub_family	A2	Sandals and open footwear (no leaf)		11	from audit/KL_A2_t
 A2.5	A2	sub_family	A2	Slippers (soft, unstructured footwear without a rigid or moulded outsole: the sole is a thin, flexible layer of felt, fabric, leather, suede, foam or thin rubber; no leaf)		12	from audit/KL_A2_tree_v2.md		
 A2.6	A2	sub_family	A2	Over-footwear (worn over another shoe to cover the foot; no leaf)		13	from audit/KL_A2_tree_v2.md		
 A2.7	A2	sub_family	A2	Parts and accessories made for one pair of shoes (no leaf)		14	from audit/KL_A2_tree_v2.md		
-C1.1.1	C1	leaf	C1.1	Saws		2	from audit/KL_C1_tree.md		
-C1.1.2	C1	leaf	C1.1	Knives & multi-tools		3	from audit/KL_C1_tree.md		
-C1.1.3	C1	leaf	C1.1	Axes & splitting tools		4	from audit/KL_C1_tree.md		
-C1.2.1	C1	leaf	C1.2	Drills		6	from audit/KL_C1_tree.md		
-C1.2.2	C1	leaf	C1.2	Screwdrivers & drivers		7	from audit/KL_C1_tree.md		
-C1.2.3	C1	leaf	C1.2	Spanners, wrenches & sockets		8	from audit/KL_C1_tree.md		
-C1.3.1	C1	leaf	C1.3	Planes & planers		10	from audit/KL_C1_tree.md		
-C1.3.2	C1	leaf	C1.3	Chisels, gouges & mortisers		11	from audit/KL_C1_tree.md		
-C1.3.3	C1	leaf	C1.3	Files, rasps & sharpening		12	from audit/KL_C1_tree.md		
-C1.3.4	C1	leaf	C1.3	Grinders, sanders & polishers		13	from audit/KL_C1_tree.md		
-C1.3.5	C1	leaf	C1.3	Routers & moulders		14	from audit/KL_C1_tree.md		
-C1.3.6	C1	leaf	C1.3	Lathes, mills & presses		15	from audit/KL_C1_tree.md		
-C1.3.7	C1	leaf	C1.3	Surface preparation & decorating brushes		16	from audit/KL_C1_tree.md		
-C1.4.1	C1	leaf	C1.4	Hammers & mallets		18	from audit/KL_C1_tree.md		
-C1.4.2	C1	leaf	C1.4	Pry bars & wreckers		19	from audit/KL_C1_tree.md		
-C1.4.3	C1	leaf	C1.4	Nailers, staplers & riveters		20	from audit/KL_C1_tree.md		
-C1.5.1	C1	leaf	C1.5	Welders		22	from audit/KL_C1_tree.md		
-C1.5.2	C1	leaf	C1.5	Soldering & brazing		23	from audit/KL_C1_tree.md		
-C1.5.3	C1	leaf	C1.5	Glue & heat guns		24	from audit/KL_C1_tree.md		
-C1.7.1	C1	leaf	C1.7	Length & level		27	from audit/KL_C1_tree.md		
-C1.7.2	C1	leaf	C1.7	Precision gauging		28	from audit/KL_C1_tree.md		
-C1.7.3	C1	leaf	C1.7	Marking & layout		29	from audit/KL_C1_tree.md		
-C1.7.4	C1	leaf	C1.7	Test & inspection		30	from audit/KL_C1_tree.md		
-C1.8.1	C1	leaf	C1.8	Ladders		32	from audit/KL_C1_tree.md		
-C1.8.2	C1	leaf	C1.8	Jacks, hoists & winches (tools made to service a vehicle, bicycle or machine)		33	from audit/KL_C1_tree.md		
-C1.8.3	C1	leaf	C1.8	Hand trucks & carts		34	from audit/KL_C1_tree.md		
-C1.8.4	C1	leaf	C1.8	Earth-moving & site machines (self-propelled machine made to dig, lift, load or move material)		35	from audit/KL_C1_tree.md		
-C1.9.1	C1	leaf	C1.9	Generators		37	from audit/KL_C1_tree.md		
-C1.9.2	C1	leaf	C1.9	Compressed air		38	from audit/KL_C1_tree.md		
-C1.9.3	C1	leaf	C1.9	Pumps		39	from audit/KL_C1_tree.md		
-C1.9.4	C1	leaf	C1.9	Cordless platform batteries & chargers		40	from audit/KL_C1_tree.md		
-C1.12.1	C1	leaf	C1.12	Drill and driver bits		44	from audit/KL_C1_tree.md		
-C1.12.2	C1	leaf	C1.12	Saw blades		45	from audit/KL_C1_tree.md		
-C1.12.3	C1	leaf	C1.12	Abrasives cut for one power tool		46	from audit/KL_C1_tree.md		
-C1.12.4	C1	leaf	C1.12	Welding and soldering consumables		47	from audit/KL_C1_tree.md		
-C1.12.5	C1	leaf	C1.12	Press tooling		48	from audit/KL_C1_tree.md		
+C1.1.1	C1	leaf	C1.1	Saws		2	from verify/out/TREE_C1.md		
+C1.1.2	C1	leaf	C1.1	Knives & multi-tools		3	from verify/out/TREE_C1.md		
+C1.1.3	C1	leaf	C1.1	Axes & splitting tools		4	from verify/out/TREE_C1.md		
+C1.2.1	C1	leaf	C1.2	Drills		6	from verify/out/TREE_C1.md		
+C1.2.2	C1	leaf	C1.2	Screwdrivers & drivers		7	from verify/out/TREE_C1.md		
+C1.2.3	C1	leaf	C1.2	Spanners, wrenches & sockets		8	from verify/out/TREE_C1.md		
+C1.3.1	C1	leaf	C1.3	Planes & planers		10	from verify/out/TREE_C1.md		
+C1.3.2	C1	leaf	C1.3	Chisels, gouges & mortisers		11	from verify/out/TREE_C1.md		
+C1.3.3	C1	leaf	C1.3	Files, rasps & sharpening		12	from verify/out/TREE_C1.md		
+C1.3.4	C1	leaf	C1.3	Grinders, sanders & polishers		13	from verify/out/TREE_C1.md		
+C1.3.5	C1	leaf	C1.3	Routers & moulders		14	from verify/out/TREE_C1.md		
+C1.3.6	C1	leaf	C1.3	Lathes, mills & presses		15	from verify/out/TREE_C1.md		
+C1.3.7	C1	leaf	C1.3	Surface preparation & decorating brushes		16	from verify/out/TREE_C1.md		
+C1.4.1	C1	leaf	C1.4	Hammers & mallets		18	from verify/out/TREE_C1.md		
+C1.4.2	C1	leaf	C1.4	Pry bars & wreckers		19	from verify/out/TREE_C1.md		
+C1.4.3	C1	leaf	C1.4	Nailers, staplers & riveters		20	from verify/out/TREE_C1.md		
+C1.5.1	C1	leaf	C1.5	Welders		22	from verify/out/TREE_C1.md		
+C1.5.2	C1	leaf	C1.5	Soldering & brazing		23	from verify/out/TREE_C1.md		
+C1.5.3	C1	leaf	C1.5	Glue & heat guns		24	from verify/out/TREE_C1.md		
+C1.7.1	C1	leaf	C1.7	Length & level		27	from verify/out/TREE_C1.md		
+C1.7.2	C1	leaf	C1.7	Precision gauging		28	from verify/out/TREE_C1.md		
+C1.7.3	C1	leaf	C1.7	Marking & layout		29	from verify/out/TREE_C1.md		
+C1.7.4	C1	leaf	C1.7	Test & inspection		30	from verify/out/TREE_C1.md		
+C1.8.1	C1	leaf	C1.8	Ladders		32	from verify/out/TREE_C1.md		
+C1.8.2	C1	leaf	C1.8	Jacks, hoists & winches		33	from verify/out/TREE_C1.md		
+C1.8.3	C1	leaf	C1.8	Hand trucks & carts		34	from verify/out/TREE_C1.md		
+C1.8.4	C1	leaf	C1.8	Earth-moving & site machines		35	from verify/out/TREE_C1.md		
+C1.9.1	C1	leaf	C1.9	Generators		37	from verify/out/TREE_C1.md		
+C1.9.2	C1	leaf	C1.9	Compressed air		38	from verify/out/TREE_C1.md		
+C1.9.3	C1	leaf	C1.9	Pumps		39	from verify/out/TREE_C1.md		
+C1.9.4	C1	leaf	C1.9	Cordless platform batteries & chargers		40	from verify/out/TREE_C1.md		
+C1.12.1	C1	leaf	C1.12	Drill and driver bits		44	from verify/out/TREE_C1.md		
+C1.12.2	C1	leaf	C1.12	Saw blades		45	from verify/out/TREE_C1.md		
+C1.12.3	C1	leaf	C1.12	Abrasives cut for one power tool		46	from verify/out/TREE_C1.md		
+C1.12.4	C1	leaf	C1.12	Welding and soldering consumables		47	from verify/out/TREE_C1.md		
+C1.12.5	C1	leaf	C1.12	Press tooling		48	from verify/out/TREE_C1.md		
 A1	A1	category				0	from verify/out/TREE_A1.md		
 A1.1	A1	sub_family	A1	Tops	Leaf axis: construction family of the top (cut-and-sew, woven shirt, knit, sweatshirt jersey).	1	from verify/out/TREE_A1.md		
 A1.1.1	A1	leaf	A1.1	T-shirts and cut-and-sew tops		2	from verify/out/TREE_A1.md		
