@@ -1,7 +1,7 @@
 # DPW1_B6 report: B6 Cleaning & Laundry (offline, wave 3)
 
 ## Task 1: missing kinds (50 rows)
-Inputs: the HV_B6_1 and HV_B6_2 lists, split into single items, plus four shop types from the fetched.tsv "gave" column. There is no DPMK_1_B6 file. Ids follow R-58 (all 104 tree kinds are in data).
+Inputs: both harvest lists, split, plus four types from the fetched.tsv "gave" column. No DPMK_1_B6 file exists.
 
 - **Counts:** new_kind 29, covered 11, attribute 7, other_category 2, named_form 1.
 - **Other categories:** push sweeper to C2 (step 29); rubber gloves to A1 (step 17).
@@ -27,15 +27,15 @@ Notes:
 - **move_kind:** none.
 - **Makers or shops filed as named forms:** none.
 
-Noted, not changed: many lines cover one kind only (Kärcher WD/FC/SE/WV, Tineco FLOOR ONE, WINBOT, ProTeam). Under C2(d) these would be named forms.
+Noted: several lines cover one kind only (Kärcher WD, Tineco FLOOR ONE); C2(d) would make them named forms.
 
 ## Task 3: navigation
 I confirm R-116: **type of object, grouped by cleaning job.**
-- The harvest worked best from shop category pages organised by type.
+- The best harvest sources were shop category pages, organised by type.
 - No maker dominates: 78 makers own 244 forms; the top one, Kärcher, has 12 %.
 - Consumable brands were harvested as lines.
 
-The vacuum brand tab stays a side view (robot vacuums have only 2 forms so far).
+The vacuum brand tab stays a side view.
 
 View:
 1. **Level 1:** Vacuums and floor machines; Mops, brooms and floor tools; Washing machines and dryers; Irons, steamers and drying; Laundry detergents and care; Household cleaners; Cloths, sponges, brushes, window and steam; Dishwashing products; Bins and bin bags; Bags, filters and spare parts.
@@ -48,4 +48,4 @@ R-35, R-58, R-116, R-122 c, C2, C3, C10, C11, S3, boundary 16, memo section 14.
 ## Resting on † claims
 - The Beko, Tide and Fairy line spans come from product knowledge.
 - The soleplate cleaner and sack holder are not confirmed in the gave column.
-- That the glass protector is made by one maker only.
+- The glass protector as a one-maker product.
