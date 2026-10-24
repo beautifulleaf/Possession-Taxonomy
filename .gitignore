@@ -1,4 +1,8 @@
 bak/
-verify/work/
+verify/work/*
+!verify/work/*/
+verify/work/*/*
+!verify/work/*/fetched.tsv
+!verify/work/*/done.tsv
 __pycache__/
 *.pyc
