@@ -1172,3 +1172,29 @@ B1.5.2	B1	leaf	B1.5	Racks, hooks & hangers		26	from verify/out/TREE_B1.md
 B1.5.3	B1	leaf	B1.5	Albums & collection holders		27	from verify/out/TREE_B1.md		
 B1.6	B1	sub_family	B1	Display, division & shelter		28	from verify/out/TREE_B1.md		
 B1.7	B1	sub_family	B1	Parts and accessories made for one furniture object		29	from verify/out/TREE_B1.md		
+B4	B4	category				0	from verify/out/TREE_B4.md		
+B4.1	B4	sub_family	B4	Vessels & table ornaments	Leaf axis: the vessel type (vase family), then other bowls and decorative objects. Display group: Vases, bowls & ornaments.	1	from verify/out/TREE_B4.md		
+B4.1.1	B4	leaf	B4.1	Vases & jars	Kind axis: vessel type (the retail "Type" facet); silhouettes are named forms, and bud, cylinder, trumpet, tulip and amphora are shape attributes.	2	from verify/out/TREE_B4.md		
+B4.1.2	B4	leaf	B4.1	Bowls & decorative objects	Kind axis: object form.	3	from verify/out/TREE_B4.md		
+B4.2	B4	sub_family	B4	Mirrors & frames	Leaf axis: mirrors by placement; frames. Display group: Mirrors & frames.	4	from verify/out/TREE_B4.md		
+B4.2.1	B4	leaf	B4.2	Mirrors	Kind axis: placement, kept as kinds under rule M(a) because the body differs; round and convex are shape attributes.	5	from verify/out/TREE_B4.md		
+B4.2.2	B4	leaf	B4.2	Frames	Kind axis: object form.	6	from verify/out/TREE_B4.md		
+B4.3	B4	sub_family	B4	Candles & holders	Leaf axis: candles by form; holders; tools. Display group: Candles & holders.	7	from verify/out/TREE_B4.md		
+B4.3.1	B4	leaf	B4.3	Candles	Kind axis: candle form, canonical form first, then ascending size; wax, scent, colour and size are attributes.	8	from verify/out/TREE_B4.md		
+B4.3.2	B4	leaf	B4.3	Candle holders	Kind axis: one provisional kind (K-180); the form is the attribute `holder_form` (candlestick, candelabrum, tealight holder, votive holder, candle plate, wall sconce for candles, hurricane).	9	from verify/out/TREE_B4.md		
+B4.3.3	B4	leaf	B4.3	Candle tools	Kind axis: tool form.	10	from verify/out/TREE_B4.md		
+B4.4	B4	sub_family	B4	Home fragrance	Leaf axis: product form of the scent carrier; incense by form. Display group: Home fragrance & incense.	11	from verify/out/TREE_B4.md		
+B4.4.1	B4	leaf	B4.4	Diffusers, melts, sprays & oils	Kind axis: product form; scent family is an attribute (Edwards wheel, H-5).	12	from verify/out/TREE_B4.md		
+B4.4.2	B4	leaf	B4.4	Incense	Kind axis: form by burn length, then the burner, then the smudge bundle.	13	from verify/out/TREE_B4.md		
+B4.5	B4	sub_family	B4	Temporary display decorations	Leaf axis: how it is displayed or used: hung or strung, standing, used up at a party, or operated for an effect; occasion is a tag. Display group: Seasonal & party decorations.	14	from verify/out/TREE_B4.md		
+B4.5.1	B4	leaf	B4.5	Hung & strung	Kind axis: object form.	15	from verify/out/TREE_B4.md		
+B4.5.2	B4	leaf	B4.5	Standing displays	Kind axis: object form.	16	from verify/out/TREE_B4.md		
+B4.5.3	B4	leaf	B4.5	Party consumables	Kind axis: object form; legal classes of pyrotechnics go to the jurisdiction ledger (B-19, C17).	17	from verify/out/TREE_B4.md		
+B4.5.4	B4	leaf	B4.5	Party effects equipment	Kind axis: effect device.	18	from verify/out/TREE_B4.md		
+B4.6	B4	sub_family	B4	Artificial, preserved & dried plants (no leaf)	Leaf axis: none (leaf = null, C5(b)); kind by plant form; stem or arrangement is a unit-of-sale attribute, species and colour facets. Display group: Artificial & dried plants.	19	from verify/out/TREE_B4.md		
+B4.7	B4	sub_family	B4	Garden & outdoor ornaments (no leaf)	Leaf axis: none (leaf = null); kind by ornament form; material is a facet and chime tuning the attribute `chime_tuning`. Display group: Garden ornaments.	20	from verify/out/TREE_B4.md		
+B4.8	B4	sub_family	B4	Flags & signs	Leaf axis: flags by use form; signs by how displayed. Display group: Flags & signs.	21	from verify/out/TREE_B4.md		
+B4.8.1	B4	leaf	B4.8	Flags	Kind axis: use form; each polity's design is a row in the flag register (CV-45); material grade is an attribute.	22	from verify/out/TREE_B4.md		
+B4.8.2	B4	leaf	B4.8	Signs	Kind axis: how the sign is displayed; material (enamel, tin, wood) and technology (neon, LED) are attributes.	23	from verify/out/TREE_B4.md		
+B4.9	B4	sub_family	B4	Decorative lighting (no leaf)	Leaf axis: none (leaf = null); kind by decorative light form; technology is an attribute (rule T). Display group: Decorative lighting.	24	from verify/out/TREE_B4.md		
+B4.10	B4	sub_family	B4	Parts and accessories made for one B4 object (no leaf)	Leaf axis: none (leaf = null); axis: the object served (C5(d), CV-17). Display group: Flagpoles & parts.	25	from verify/out/TREE_B4.md		
