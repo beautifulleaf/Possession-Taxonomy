@@ -918,3 +918,74 @@ I3.4.2	I3	leaf	I3.4	Site or collection		15	from verify/out/TREE_I3.md
 I3.4.3	I3	leaf	I3.4	Travel		16	from verify/out/TREE_I3.md		
 I3.4.4	I3	leaf	I3.4	Series		17	from verify/out/TREE_I3.md		
 I3.5	I3	sub_family	I3	Curated deliveries		18	from verify/out/TREE_I3.md		
+J7.2.5	J7	leaf	J7.2	Amber lager		5	new leaf from DPW1_J7 (R-105)		
+J7.2.6	J7	leaf	J7.2	Bock		6	new leaf from DPW1_J7 (R-105)		
+J7.2.7	J7	leaf	J7.2	Pale ale		7	new leaf from DPW1_J7 (R-105)		
+J7.2.8	J7	leaf	J7.2	IPA		8	new leaf from DPW1_J7 (R-105)		
+J7.2.9	J7	leaf	J7.2	Porter		9	new leaf from DPW1_J7 (R-105)		
+J7.2.10	J7	leaf	J7.2	Stout		10	new leaf from DPW1_J7 (R-105)		
+C2	C2	category				0	from verify/out/TREE_C2.md		
+C2.1	C2	sub_family	C2	Digging, planting & cultivating tools		1	from verify/out/TREE_C2.md		
+C2.2	C2	sub_family	C2	Cutting & pruning	Leaf axis: the thing cut (branches, hedges, grass and brush). Kind axis: tool or machine form, in order of working scale; `drive`, cutting action, capacity and the battery system (a C13 row) are attributes.	2	from verify/out/TREE_C2.md		
+C2.2.1	C2	leaf	C2.2	Pruners & branch cutters		3	from verify/out/TREE_C2.md		
+C2.2.2	C2	leaf	C2.2	Hedge cutters		4	from verify/out/TREE_C2.md		
+C2.2.3	C2	leaf	C2.2	Grass, brush & scrub cutters		5	from verify/out/TREE_C2.md		
+C2.3	C2	sub_family	C2	Lawn, turf & ground cover	Leaf axis: the lawn operation (mow, edge, renovate, feed and roll), then the surface laid. Kind axis: machine or product form, in operation order, then size; `drive`, propulsion, cutting width, mulching and collecting are attributes, `lawn_area_suited` an attribute of mower named forms.	6	from verify/out/TREE_C2.md		
+C2.3.1	C2	leaf	C2.3	Mowers		7	from verify/out/TREE_C2.md		
+C2.3.2	C2	leaf	C2.3	Edging and trimming		8	from verify/out/TREE_C2.md		
+C2.3.3	C2	leaf	C2.3	Renovation		9	from verify/out/TREE_C2.md		
+C2.3.4	C2	leaf	C2.3	Lawn feeding & rolling		10	from verify/out/TREE_C2.md		
+C2.3.5	C2	leaf	C2.3	Ground cover		11	from verify/out/TREE_C2.md		
+C2.4	C2	sub_family	C2	Clearing, cleaning, hauling & snow		12	from verify/out/TREE_C2.md		
+C2.5	C2	sub_family	C2	Watering & irrigation	Leaf axis: the role in the water path (carry, spray, control, hand-water, pump, hold), from source to plant. Kind axis: component or device type; sprinkler head type and the system line are attributes or lines, the system platform a C13 row.	13	from verify/out/TREE_C2.md		
+C2.5.1	C2	leaf	C2.5	Hoses and reels		14	from verify/out/TREE_C2.md		
+C2.5.2	C2	leaf	C2.5	Sprinklers		15	from verify/out/TREE_C2.md		
+C2.5.3	C2	leaf	C2.5	Systems and controls		16	from verify/out/TREE_C2.md		
+C2.5.4	C2	leaf	C2.5	Hand watering		17	from verify/out/TREE_C2.md		
+C2.5.5	C2	leaf	C2.5	Pumping		18	from verify/out/TREE_C2.md		
+C2.5.6	C2	leaf	C2.5	Water storage and ponds		19	from verify/out/TREE_C2.md		
+C2.6	C2	sub_family	C2	Pots, containers, supports & covers	Leaf axis: what it does for the plant (hold the roots, support the shoot, cover the plant). Kind axis: container or support form, by size; material, colour, volume and frost-hardiness are attributes, except where the material makes the form. Choice level provisional (no "best pot" list fetched).	20	from verify/out/TREE_C2.md		
+C2.6.1	C2	leaf	C2.6	Pots and planters		21	from verify/out/TREE_C2.md		
+C2.6.2	C2	leaf	C2.6	Beds		22	from verify/out/TREE_C2.md		
+C2.6.3	C2	leaf	C2.6	Plant supports & covers		23	from verify/out/TREE_C2.md		
+C2.7	C2	sub_family	C2	Soil, feed & plant protection	Leaf axis: the product function (growing medium, feed, plant protection, applicator or test, composting), in function order. Kind axis: product function; formulation, nutrient ratio and organic or peat-free status are attributes, brand product lines are lines rows (CV-46). Choice level provisional (no "best fertiliser" list fetched).	24	from verify/out/TREE_C2.md		
+C2.7.1	C2	leaf	C2.7	Growing media		25	from verify/out/TREE_C2.md		
+C2.7.2	C2	leaf	C2.7	Feeds		26	from verify/out/TREE_C2.md		
+C2.7.3	C2	leaf	C2.7	Plant protection		27	from verify/out/TREE_C2.md		
+C2.7.4	C2	leaf	C2.7	Applicators and tests		28	from verify/out/TREE_C2.md		
+C2.7.5	C2	leaf	C2.7	Composting		29	from verify/out/TREE_C2.md		
+C2.8	C2	sub_family	C2	Protected & indoor growing		30	from verify/out/TREE_C2.md		
+C2.9	C2	sub_family	C2	Pools & pool equipment	Leaf axis: the function in the pool (the pool, water handling, heating, cleaning and covers, water treatment). Kind axis: pool form or equipment mechanism, by pool size or flow; pump speed class, filter area and cord length are attributes. All equipment and chemicals made for a swimming pool are here, in-ground pool or not (K-176).	31	from verify/out/TREE_C2.md		
+C2.9.1	C2	leaf	C2.9	Pools		32	from verify/out/TREE_C2.md		
+C2.9.2	C2	leaf	C2.9	Water handling		33	from verify/out/TREE_C2.md		
+C2.9.3	C2	leaf	C2.9	Heating		34	from verify/out/TREE_C2.md		
+C2.9.4	C2	leaf	C2.9	Cleaning and covers		35	from verify/out/TREE_C2.md		
+C2.9.5	C2	leaf	C2.9	Water treatment		36	from verify/out/TREE_C2.md		
+C2.10	C2	sub_family	C2	Parts, accessories & consumables made for one machine		37	from verify/out/TREE_C2.md		
+C3	C3	category				0	from verify/out/TREE_C3.md		
+C3.1	C3	sub_family	C3	Growing plants	Leaf axis: horticultural group as recognised by a register or trade department, by the ordered key below (the first test that fits wins; key order only breaks ties). Rooted in a medium and alive: potted, bare-root, plug plants, liners and rooted tissue-culture plantlets, and a plant in any container, basket, kokedama or terrarium (K-73). Kinds: canonical kind first, then by accepted botanical or crop name (memo section 8).	1	from verify/out/TREE_C3.md		
+C3.1.1	C3	leaf	C3.1	Orchids		2	from verify/out/TREE_C3.md		
+C3.1.2	C3	leaf	C3.1	Carnivorous plants		3	from verify/out/TREE_C3.md		
+C3.1.3	C3	leaf	C3.1	Bonsai (trained miniature trees)		4	from verify/out/TREE_C3.md		
+C3.1.4	C3	leaf	C3.1	Cacti & succulents		5	from verify/out/TREE_C3.md		
+C3.1.5	C3	leaf	C3.1	Aquatic & bog plants		6	from verify/out/TREE_C3.md		
+C3.1.6	C3	leaf	C3.1	Fruit & nut plants		7	from verify/out/TREE_C3.md		
+C3.1.7	C3	leaf	C3.1	Vegetable & culinary-herb plants		8	from verify/out/TREE_C3.md		
+C3.1.8	C3	leaf	C3.1	Tropical foliage & flowering plants (by genus list)		9	from verify/out/TREE_C3.md		
+C3.1.9	C3	leaf	C3.1	Trees		10	from verify/out/TREE_C3.md		
+C3.1.10	C3	leaf	C3.1	Shrubs & climbers		11	from verify/out/TREE_C3.md		
+C3.1.11	C3	leaf	C3.1	Perennials, grasses & garden ferns		12	from verify/out/TREE_C3.md		
+C3.1.12	C3	leaf	C3.1	Annuals, biennials & bedding		13	from verify/out/TREE_C3.md		
+C3.2	C3	sub_family	C3	Seeds & propagules	Leaf axis: propagule type. Sold dry, dormant or unrooted, for planting (no roots and dormant = propagule); a seed sold as food is J5.	14	from verify/out/TREE_C3.md		
+C3.2.1	C3	leaf	C3.2	Seeds		15	from verify/out/TREE_C3.md		
+C3.2.2	C3	leaf	C3.2	Bulbs, corms & tubers		16	from verify/out/TREE_C3.md		
+C3.2.3	C3	leaf	C3.2	Unrooted cuttings & divisions		17	from verify/out/TREE_C3.md		
+C3.3	C3	sub_family	C3	Fresh-cut plants	Leaf axis: part cut. A stem, tree or arrangement of living plant material cut for display; dried, preserved and artificial ones are B4.	18	from verify/out/TREE_C3.md		
+C3.3.1	C3	leaf	C3.3	Cut flowers		19	from verify/out/TREE_C3.md		
+C3.3.2	C3	leaf	C3.3	Cut trees		20	from verify/out/TREE_C3.md		
+C3.3.3	C3	leaf	C3.3	Cut foliage & arrangements		21	from verify/out/TREE_C3.md		
+C3.4	C3	sub_family	C3	Living cultures & fungi	Leaf axis: organism type (fungal spawn, ferment cultures, yeast and brewing cultures, algae cultures). A living culture kept to grow or propagate, even when what it makes is eaten.	22	from verify/out/TREE_C3.md		
+C3.4.1	C3	leaf	C3.4	Fungal spawn		23	from verify/out/TREE_C3.md		
+C3.4.2	C3	leaf	C3.4	Ferment cultures		24	from verify/out/TREE_C3.md		
+C3.4.3	C3	leaf	C3.4	Yeast & brewing cultures		25	from verify/out/TREE_C3.md		
+C3.4.4	C3	leaf	C3.4	Algae cultures		26	from verify/out/TREE_C3.md		
