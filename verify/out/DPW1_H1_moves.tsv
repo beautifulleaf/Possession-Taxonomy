@@ -1,0 +1,65 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-H1.1.2.01-001	drop					"Toner Pad" restates the kind with format = pad; no product name (C2(b), H1-5).
+NF-H1.1.4.02-003	drop					"Emulsion" restates the kind; maker plus kind is not a named form.
+NF-H1.1.6.02-001	drop					"DEET Free Insect Repellent Lotion" restates kind, ingredient and format (C2(b)).
+NF-H1.1.7.01-001	drop					"Make Up Remover Cleansing Pads" restates the kind.
+NF-H1.2.4.01-001	drop					"Tinted brow gel" restates the kind; tint is an attribute.
+NF-H1.2.4.03-001	drop					"Eyebrow Growth Serum" restates the kind; area is an attribute.
+NF-H1.2.4.03-002	drop					"Lash Growth Serum" restates the kind; area is an attribute.
+NF-H1.2.7.01-012	drop					"Foundation Stippling Brush" names a brush type, an attribute; no model name.
+NF-H1.2.7.01-013	drop					"Angled Stippling Brush" names a brush shape, an attribute; no model name.
+NF-H1.2.7.01-014	drop					"Face Buffer Brush" names a brush type, an attribute; no model name.
+NF-H1.3.2.01-004	drop					"Semi-Permanent Hair Colour Jar" restates kind, permanence and pack.
+NF-H1.3.4.02-004	drop					"Long Topper" names hairpiece type and length, attributes.
+NF-H1.3.5.02-005	move_kind				H1.3.5.12	Airwrap is a hot-air multi-styler with attachments, not a heated curling barrel.
+NF-H1.3.5.03-004	move_kind				H1.3.5.12	SilkyAir Flex 5-in-1 is a multi-styler with attachments, not a plain dryer.
+NF-H1.3.5.06-001	drop					"Wide Tooth Comb" restates the kind; tooth spacing is an attribute.
+NF-H1.3.5.06-003	drop					"Double-Sided Comb" restates the kind with a style attribute.
+NF-H1.4.02-009	drop					Duplicate of Orphéon Solid Perfume; refillable case is an attribute or edition.
+NF-H1.5.1.03-001	drop					Material, head design and kind only (C2(b); head_design attribute).
+NF-H1.5.1.04-003	drop					Open comb is a head_design value of Classic 1904, not its own named form.
+NF-H1.5.1.04-021	drop					"DE Razor" restates the kind.
+NF-H1.5.1.07-001	drop					"Standard Wet Shaving Starter Kit" restates the kind.
+NF-H1.5.2.01-001	to_line	L-braun-series-6	Series 6	H1.5.2.01			Braun Series 6 is a range of several shaver models (R-70 a).
+NF-H1.5.2.01-002	to_line	L-braun-series-5	Series 5	H1.5.2.01			Braun Series 5 is a range of several shaver models (R-70 a).
+NF-H1.5.2.01-003	to_line	L-philips-shaver-3000-series	Shaver 3000 Series	H1.5.2.01			Philips 3000 Series is a range of several shaver models (R-70 a).
+NF-H1.5.2.01-004	to_line	L-philips-shaver-7000-series	Shaver 7000 Series	H1.5.2.01			Philips 7000 Series is a range of several shaver models (R-70 a).
+NF-H1.5.2.01-006	to_line	L-philips-shaver-5000-series	Shaver 5000 Series	H1.5.2.01			Philips 5000 Series is a range of several shaver models (R-70 a).
+NF-H1.5.2.03-001	to_line	L-braun-beard-trimmer-series-3	Beard Trimmer Series 3	H1.5.2.03			A series of several trimmer models (BT3xxx), a line (R-70 a).
+NF-H1.5.2.03-002	to_line	L-braun-beard-trimmer-series-7	Beard Trimmer Series 7	H1.5.2.03			A series of several trimmer models (BT7xxx), a line (R-70 a).
+NF-H1.5.2.03-006	to_line	L-philips-oneblade	OneBlade	H1.5.2.03;H1.10.4.01			OneBlade spans several trimmer models and its replacement blades (C2(d)).
+NF-H1.5.2.03-007	to_line	L-philips-bodygroom	Bodygroom	H1.5.2.03			Bodygroom Series 7000 is a series of several body-groomer models.
+NF-H1.5.4.02-001	drop					"Shaving Cream Tube" is Proraso shaving cream with a pack format.
+NF-H1.5.4.02-002	drop					"Shaving Cream Soap Tub" restates a pack format; no product name.
+NF-H1.5.4.02-003	drop					"Shaving Cream Bowl" is a pack format of the TOBS cream.
+NF-H1.5.4.02-004	move_kind				H1.5.4.01	Cella crema sapone is a soft shaving soap (croap), H1.5.4.01 by tree definition.
+NF-H1.5.4.03-001	drop					"After Shave Lotion" restates the kind with format.
+NF-H1.5.4.03-003	drop					"Aftershave Splash" restates the kind with format.
+NF-H1.5.4.03-004	drop					"Alcohol Free Aftershave Balm" restates kind, attribute and format.
+NF-H1.5.4.03-005	drop					"Aftershave Splash" restates the kind with format.
+NF-H1.6.2.01-001	drop					"Aluminum Free Deodorant" restates the kind with an ingredient attribute.
+NF-H1.6.3.02-010	drop					Poise LiveFree is a bladder-leakage pad: incontinence products are H2 (K-33).
+NF-H1.6.3.02-011	drop					"Organic Pad" restates the kind with a material attribute.
+NF-H1.6.3.03-002	drop					"Organic Tampons" restates the kind with a material attribute.
+NF-H1.6.3.04-002	drop					"Disc" restates the new kind menstrual disc H1.6.3.07; no product name.
+NF-H1.6.5.03-001	drop					"Pumice Stone" restates the kind.
+NF-H1.7.01-001	to_line	L-colgate-total	Colgate Total	H1.7.01			Colgate Total covers many toothpaste products (R-35).
+NF-H1.7.01-002	drop					Duraphat 5000 is a prescription high-fluoride paste: H2 by K-31 (claim unsourced).
+NF-H1.7.01-007	to_line	L-curaprox-enzycal	Enzycal	H1.7.01			Enzycal covers several toothpastes (950, 1450, Zero) (R-35).
+NF-H1.7.01-011	to_line	L-dentaid-halita	Halita	H1.7.01			Halita is a Dentaid range of paste, rinse and spray (R-35).
+NF-H1.7.01-012	to_line	L-cp-gaba-meridol	Meridol	H1.7.01			Meridol is a CP GABA brand range of several pastes and rinses (R-35).
+NF-H1.8.03-002	drop					"Stainless Steel Toe Nail Clipper" restates kind and material.
+NF-H1.8.04-001	drop					"Crystal Nail File" restates kind and material.
+NF-H1.8.05-001	drop					"5 Piece Manicure Set" restates kind and piece count.
+NF-H1.8.08-004	drop					"Classical Style ... Barber Chair" names a style attribute and the kind.
+NF-H1.8.08-005	drop					"Vintage Style ... Barber Chair" names a style attribute and the kind.
+NF-H1.8.08-006	drop					"Modern Style ... Barber Chair" names a style attribute and the kind.
+NF-H1.9.01-001	drop					"Traditional Hot Water Bottle" restates the kind.
+NF-H1.10.2.01-007	drop					"Double Edge Razor Blades" restates the kind.
+NF-H1.10.2.01-009	drop					"Stainless Steel DE blades" restates kind and material.
+NF-H1.10.3.01-001	move_kind				H1.10.1.01	Gillette Guard takes a one-blade cartridge, so its refill is a razor cartridge.
+NF-H1.10.6.01-005	drop					"Sonic brush heads" restates the kind.
+NF-H1.10.8.01-004	drop					"Small Razor Strop" restates the kind with size.
+NF-H1.10.8.01-005	drop					"Razor Strop 2 Inch Wide" restates the kind with size.
+NF-H1.10.8.01-006	drop					Flexcut Powerstrop is a woodcarving-tool strop for drills, not made for razors (other category).
+NF-H1.10.8.01-007	drop					Beavercraft paddle strop is a carving-knife strop; restates kind (other category).
