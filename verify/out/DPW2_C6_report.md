@@ -1,15 +1,15 @@
 # DPW2_C6: second C6 decision pass
 
-Offline. Inputs: the MKH_C6_EUR and MKH_C6_NAO "missing kind?" lists and the session-6 items. HV_C6_NK and MKH_C6_ASIA list none.
+Offline. Inputs: MKH_C6_EUR and MKH_C6_NAO lists, session-6 items.
 
 Skipped:
 - Ritchey-Chrétien, Cassegrain and Klevtsov (DPW1 decided them).
-- Items that are now kinds: laminar-flow, autoclave, rotary evaporator, shaker, biosafety.
+- Now kinds: laminar-flow, autoclave, rotary evaporator, shaker, biosafety.
 - "Other telescope accessory", which names no type.
 
 ## Missing kinds (28 rows)
 
-**new_kind 21.** Each waits for attestation; the reason column says what the page must show.
+**new_kind 21.** Each waits for attestation (reason column: what the page must show).
 - C6.1.5.06 electron microscope; C6.1.5.07 scanning probe microscope.
 - C6.3.2.14–.26: spectrometer, mass spectrometer, chromatograph, elemental analyser, glove box, climatic chamber, stirrer, water bath, circulator (thermostat), viscometer, rheometer, microplate reader, laboratory thermometer.
 - C6.2.4.03 cloud sensor; C6.2.4.04 sky-quality meter.
@@ -56,5 +56,5 @@ The **observatory dome** is in scope but not in C6:
 BRIEF scope and maker roles; S2, S3, S3a; key steps 1, 4, 23; the G2 note; K-62; C2, C3, C10; R-58, R-104(b), R-108, R-109.
 
 ## † dependence
-- Also from memory: hobbyist resale of SEMs, and the German word "Thermostat" meaning a circulator.
+- Memory: SEM resale to hobbyists; "Thermostat" = circulator.
 - All new kinds wait for fetched pages.
