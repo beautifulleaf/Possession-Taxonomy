@@ -6,4 +6,4 @@ Not attested: none among kinds. Cambusciu (A1.6.03): three searches and the Sard
 
 Named forms written (11): Pheran, Rugby shirt, Union suit, Bandhgala, Nehru jacket, Tangzhuang, Hotpants, Capri pants, Zhongshan suit, Kachabia, Sheltersuit (maker-bound, M-sheltersuit-foundation). Weaker: Hotpants (out-of-stock listing), Capri pants (category, no products), Zhongshan suit (V&A museum record, no shop page), Tangzhuang (Amazon title only), Sheltersuit (distributed free, not retailed).
 
-Makers: 8 new (Sheltersuit Foundation, LION, Sheffer Industries, Colonel Littleton, Hickman Saddlery, Hamiast, Rydale, IZAC); 33 maker_kinds rows reusing existing maker_ids where present (18 existing makers). Fetch log: verify/work/HV_A1_NK/fetched.tsv (68 fetches, 37 usable; many shop sites returned 403/503).
+Makers: 8 new (Sheltersuit Foundation, LION, Sheffer Industries, Colonel Littleton, Hickman Saddlery, Hamiast, Rydale, IZAC); 33 maker_kinds rows reusing 28 existing maker_ids and 5 of the new ones. Fetch log: verify/work/HV_A1_NK/fetched.tsv (68 fetches, 37 usable; many shop sites returned 403/503).
