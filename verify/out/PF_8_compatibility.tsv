@@ -1,0 +1,33 @@
+compat_id	from_id	relation	to_id	sources	fetch_status
+CP-stack-toughsystem2-tstak	PF-stack-dewalt-toughsystem-2	adapts to through an adapter	PF-stack-dewalt-tstak	https://support.dewalt.com/hc/en-us/articles/13214345420045-TSTAK-and-Toughsystem-compatibility	partial
+CP-split-kombi-battery-ap	PF-split-stihl-kombisystem	supports	PF-battery-stihl-ap	https://www.stihlusa.com/en/p/kombisystem-multisystem-kma-120-r-ap-system-1027663	full
+CP-split-expand-it-one-plus	PF-split-ryobi-expand-it	supports	PF-battery-ryobi-one-plus	https://www.ryobitools.com/collections/expand-it-string-trimmers-attachments	partial
+CP-split-expand-it-40v	PF-split-ryobi-expand-it	supports	PF-battery-ryobi-40v	https://www.ryobitools.com/collections/expand-it-string-trimmers-attachments	partial
+CP-magsafe-qi	PF-charging-magsafe	backward compatible with	PF-charging-qi	https://support.apple.com/en-us/105047	full
+CP-qi2-magsafe	PF-charging-qi2	backward compatible with	PF-charging-magsafe	https://en.wikipedia.org/wiki/Qi_(standard)	full
+CP-ring-alexa	PF-system-ring	supports	PF-voice-amazon-alexa	https://ring.com/support/articles/fhs6z/Ring-Supported-Alexa-Enabled-Devices	full
+CP-arlo-alexa	PF-system-arlo	supports	PF-voice-amazon-alexa	https://kb.arlo.com/000062278/What-smart-home-and-voice-assistant-systems-can-I-use-with-my-Arlo-devices	full
+CP-eufy-alexa	PF-system-eufy-security	supports	PF-voice-amazon-alexa	https://service.eufy.com/article-description/Video-Doorbell-C31-C30-Does-the-doorbell-support-Amazon-Alexa-and-Google-Assistant?ref=Home_Page	full
+CP-wyze-alexa	PF-system-wyze	supports	PF-voice-amazon-alexa	https://support.wyze.com/hc/en-us/articles/19790901857563-Is-Wyze-Video-Doorbell-v2-compatible-with-Alexa-and-Google-Home	full
+CP-nf-ring-doorbell-pro-2-alexa	NF-B8.1.6.4-001	supports	PF-voice-amazon-alexa	https://ring.com/support/articles/fhs6z/Ring-Supported-Alexa-Enabled-Devices	full
+CP-sonos-airplay-2	PF-multiroom-sonos	supports	PF-multiroom-airplay-2	https://www.sonos.com/en-au/shop/era-100	full
+CP-bowens-ocf-adapter	PF-lightmount-bowens-s	adapts to through an adapter	PF-lightmount-profoto-ocf	https://elinchrom.com/en/Home/Shop/Light_Modifiers/Speedrings___Adapters	full
+CP-elinchrom-bowens-adapter	PF-lightmount-elinchrom	adapts to through an adapter	PF-lightmount-bowens-s	https://elinchrom.com/en/Home/Shop/Light_Modifiers/Speedrings___Adapters	full
+CP-bowens-profoto-adapter	PF-lightmount-bowens-s	adapts to through an adapter	PF-lightmount-profoto	https://www.profoto.com/bg/en/shop/products/accessories/consumables/replacement-parts-for-l1600/l1600-bowens-to-profoto-mount-item/	partial
+CP-codec-aptx-hd-aptx	PF-codec-aptx-hd	backward compatible with	PF-codec-aptx	https://www.aptx.com/about-aptx	full
+CP-D4.1.1.01-012-lp-e6	NF-D4.1.1.01-012	requires	PF-battery-canon-lp-e6	https://www.canon.co.uk/store/canon-lp-e6nh-battery-pack/4132C002/	full
+CP-D4.1.1.01-013-lp-e6	NF-D4.1.1.01-013	requires	PF-battery-canon-lp-e6	https://www.canon.co.uk/store/canon-lp-e6nh-battery-pack/4132C002/	full
+CP-D4.1.1.01-016-lp-e6	NF-D4.1.1.01-016	requires	PF-battery-canon-lp-e6	https://www.canon.co.uk/store/canon-lp-e6nh-battery-pack/4132C002/	full
+CP-D4.1.1.02-001-lp-e6	NF-D4.1.1.02-001	requires	PF-battery-canon-lp-e6	https://www.canon.co.uk/store/canon-lp-e6nh-battery-pack/4132C002/	full
+CP-D4.1.1.01-011-np-fw50	NF-D4.1.1.01-011	requires	PF-battery-sony-np-fw50	https://support.d-imaging.sony.co.jp/www/cscs/accessories/compatibility.php?area=gb&lang=en&mdl=NP-FW50&cat=3	full
+CP-D4.1.1.01-009-np-fw50	NF-D4.1.1.01-009	requires	PF-battery-sony-np-fw50	https://support.d-imaging.sony.co.jp/www/cscs/accessories/compatibility.php?area=gb&lang=en&mdl=NP-FW50&cat=3	full
+CP-D4.1.1.01-008-np-fw50	NF-D4.1.1.01-008	requires	PF-battery-sony-np-fw50	https://support.d-imaging.sony.co.jp/www/cscs/accessories/compatibility.php?area=gb&lang=en&mdl=NP-FW50&cat=3	full
+CP-D4.1.1.01-019-np-w126	NF-D4.1.1.01-019	requires	PF-battery-fujifilm-np-w126	http://www.fujifilm-x.com/en-us/support/compatibility/accessories/np-w126s/	partial
+CP-D4.1.1.01-020-np-w126	NF-D4.1.1.01-020	requires	PF-battery-fujifilm-np-w126	http://www.fujifilm-x.com/en-us/support/compatibility/accessories/np-w126s/	partial
+CP-D4.1.1.01-021-np-w126	NF-D4.1.1.01-021	requires	PF-battery-fujifilm-np-w126	http://www.fujifilm-x.com/en-us/support/compatibility/accessories/np-w126s/	partial
+CP-D4.1.1.01-023-dmw-blk22	NF-D4.1.1.01-023	requires	PF-battery-panasonic-dmw-blk22	https://www.panasonic.com/au/consumer/lumix-cameras-video-cameras/camera-accessories/accessories/dmw-blk22.html	partial
+CP-D4.1.1.03-006-bp-scl5	NF-D4.1.1.03-006	requires	PF-battery-leica-bp-scl5	https://leicacamerausa.com/leica-battery-lithium-ion-bp-scl5-for-m10.html	partial
+CP-C5.1.1.01-004-pilot	NF-C5.1.1.01-004	fits	PF-cart-pilot	https://goldspot.com/blogs/magazine/are-fountain-pen-cartridges-universal	full
+CP-C5.1.1.01-005-pilot	NF-C5.1.1.01-005	fits	PF-cart-pilot	https://goldspot.com/blogs/magazine/are-fountain-pen-cartridges-universal	full
+CP-C5.1.1.01-009-platinum	NF-C5.1.1.01-009	fits	PF-cart-platinum	https://goldspot.com/blogs/magazine/are-fountain-pen-cartridges-universal	full
+CP-C5.1.1.01-011-lamy-t10	NF-C5.1.1.01-011	fits	PF-cart-lamy-t10	https://www.lamy.com/en-at/ink-guide | https://goldspot.com/blogs/magazine/are-fountain-pen-cartridges-universal	full | full

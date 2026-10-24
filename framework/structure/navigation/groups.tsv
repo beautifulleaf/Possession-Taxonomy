@@ -11,7 +11,7 @@ I1	G-I1-19	Passwords and logins	2	G-I1-2	I1.2.02; I1.2.06
 I1	G-I1-20	Privacy and encryption	2	G-I1-2	I1.2.03; I1.2.04; I1.1.2.05
 I1	G-I1-21	Family safety	2	G-I1-2	I1.2.05
 I1	G-I1-3	Write, plan and organise	1		I1.3; I1.4.1.12
-I1	G-I1-22	Office suites and documents	2	G-I1-3	I1.3.01; I1.3.08; I1.3.09; I1.3.10; I1.3.02; I1.3.06
+I1	G-I1-22	Office suites and documents	2	G-I1-3	I1.3.01; I1.3.08; I1.3.09; I1.3.10; I1.3.02; I1.3.06; I1.3.14
 I1	G-I1-23	Notes, tasks and diagrams	2	G-I1-3	I1.3.03; I1.3.04; I1.3.05; I1.3.11; I1.4.1.12; I1.3.13
 I1	G-I1-24	Typing and dictation	2	G-I1-3	I1.3.07; I1.3.12
 I1	G-I1-4	Make images, video and music	1		I1.4
@@ -20,7 +20,7 @@ I1	G-I1-26	Graphic design and publishing	2	G-I1-4	I1.4.1.02; I1.4.1.03; I1.4.1.1
 I1	G-I1-27	3D and scanning	2	G-I1-4	I1.4.1.05; I1.4.1.11
 I1	G-I1-28	Video and animation	2	G-I1-4	I1.4.2.01; I1.4.2.03; I1.4.2.04; I1.4.2.05; I1.4.2.06
 I1	G-I1-29	Screen capture and streaming	2	G-I1-4	I1.4.2.02; I1.4.1.06
-I1	G-I1-30	Music and audio	2	G-I1-4	I1.4.3.01; I1.4.3.02; I1.4.3.03; I1.4.3.04; I1.4.3.05
+I1	G-I1-30	Music and audio	2	G-I1-4	I1.4.3.01; I1.4.3.02; I1.4.3.03; I1.4.3.04; I1.4.3.05; I1.4.3.06
 I1	G-I1-31	All-in-one creative suites	2	G-I1-4	I1.4.4.01
 I1	G-I1-5	Play and read my media	1		I1.5
 I1	G-I1-32	Players and readers	2	G-I1-5	I1.5.01; I1.5.02; I1.5.03
@@ -115,7 +115,7 @@ D5	G-D5-10	Arcade system boards	2	G-D5-8	D5.5.19
 D5	G-D5-11	Controllers	1		D5.2
 D5	G-D5-12	Gamepads	2	G-D5-11	D5.2.1.01; D5.2.1.02
 D5	G-D5-13	Arcade sticks and leverless controllers	2	G-D5-11	D5.2.2.01; D5.2.2.02
-D5	G-D5-14	Wheels, pedals and flight controls	2	G-D5-11	D5.2.3.01; D5.2.3.02; D5.2.3.03; D5.2.3.04; D5.2.3.05; D5.2.3.06; D5.2.3.07; D5.2.3.08; D5.5.22
+D5	G-D5-14	Wheels, pedals and flight controls	2	G-D5-11	D5.2.3.01; D5.2.3.02; D5.2.3.03; D5.2.3.04; D5.2.3.05; D5.2.3.06; D5.2.3.07; D5.2.3.08; D5.5.22; D5.2.3.09
 D5	G-D5-15	Light guns, motion, mice and cameras	2	G-D5-11	D5.2.4.01; D5.2.4.02; D5.2.4.03; D5.2.4.04; D5.2.4.05
 D5	G-D5-16	Music, dance and voice controllers	2	G-D5-11	D5.2.5.01; D5.2.5.02; D5.2.5.03
 D5	G-D5-17	Games	1		D5.3; D5.4
@@ -123,7 +123,7 @@ D5	G-D5-18	Games on disc, cartridge, card or tape	2	G-D5-17	D5.3.01; D5.3.02; D5
 D5	G-D5-19	Game-key cards and download codes	2	G-D5-17	D5.3.05; D5.3.06
 D5	G-D5-20	Digital games, expansions and mods	2	G-D5-17	D5.4.01; D5.4.02; D5.4.03; D5.4.04
 D5	G-D5-21	Accessories and parts	1		D5.5
-D5	G-D5-22	Protection and looks	2	G-D5-21	D5.5.01; D5.5.02; D5.5.03
+D5	G-D5-22	Protection and looks	2	G-D5-21	D5.5.01; D5.5.02; D5.5.03; D5.5.23
 D5	G-D5-23	Power and charging	2	G-D5-21	D5.5.04; D5.5.05; D5.5.06
 D5	G-D5-24	Docks, stands and cooling	2	G-D5-21	D5.5.09; D5.5.10; D5.5.21
 D5	G-D5-25	Cables, memory and connectivity	2	G-D5-21	D5.5.07; D5.5.08; D5.5.15; D5.5.20
@@ -139,15 +139,15 @@ B10	G-B10-7	Toys and training	2	G-B10-1	B10.1.6.01; B10.1.6.02
 B10	G-B10-8	Clean-up and hygiene	2	G-B10-1	B10.1.7.01
 B10	G-B10-9	Cats	1		B10.2
 B10	G-B10-10	Cat food and treats	2	G-B10-9	B10.2.1.01; B10.2.1.02; B10.2.1.03; B10.2.1.04; B10.2.1.05; B10.2.1.06
-B10	G-B10-11	Litter	2	G-B10-9	B10.2.3.01
-B10	G-B10-12	Cat trees, scratchers and beds	2	G-B10-9	B10.2.2.01; B10.2.2.02
+B10	G-B10-11	Litter	2	G-B10-9	B10.2.3.01; B10.2.3.02; B10.2.3.03
+B10	G-B10-12	Cat trees, scratchers and beds	2	G-B10-9	B10.2.2.01; B10.2.2.02; B10.2.2.03
 B10	G-B10-13	Small animals	1		B10.3
 B10	G-B10-14	Small-animal food	2	G-B10-13	B10.3.1.01
 B10	G-B10-15	Cages and hutches	2	G-B10-13	B10.3.2.01
 B10	G-B10-16	Horses	1		B10.4; B10.12.2; B10.12.5
 B10	G-B10-17	Saddles, pads and saddle fittings	2	G-B10-16	B10.4.1.01; B10.4.1.02; B10.4.1.04; B10.4.1.05; B10.4.1.03; B10.12.2.01; B10.12.2.02
 B10	G-B10-18	Driving harness	2	G-B10-16	B10.4.1.06
-B10	G-B10-19	Bridles, bits, reins, halters and lungeing	2	G-B10-16	B10.4.2.01; B10.4.2.02; B10.4.2.03; B10.4.2.04; B10.4.2.05; B10.4.2.06; B10.4.2.07; B10.4.2.08; B10.12.5.01
+B10	G-B10-19	Bridles, bits, reins, halters and lungeing	2	G-B10-16	B10.4.2.01; B10.4.2.02; B10.4.2.03; B10.4.2.04; B10.4.2.05; B10.4.2.06; B10.4.2.07; B10.4.2.08; B10.12.5.01; B10.4.2.09
 B10	G-B10-20	Rugs, fly masks and boots	2	G-B10-16	B10.4.3.01; B10.4.3.02; B10.4.3.05; B10.4.3.06; B10.4.3.03; B10.4.3.04; B10.4.3.07
 B10	G-B10-21	Grooming and hoof care	2	G-B10-16	B10.4.4.01; B10.4.4.02; B10.4.4.03
 B10	G-B10-22	Horse feed, supplements and hay nets	2	G-B10-16	B10.4.5.01; B10.4.5.02; B10.4.6.01
@@ -165,17 +165,17 @@ B10	G-B10-33	Substrate and hides	2	G-B10-30	B10.6.4.01; B10.6.4.02
 B10	G-B10-34	Reptile food and feeders	2	G-B10-30	B10.6.1.01; B10.6.1.02
 B10	G-B10-35	Cage and aviary birds	1		B10.7
 B10	G-B10-36	Cages and nest boxes	2	G-B10-35	B10.7.2.01; B10.7.2.02
-B10	G-B10-37	Feeders and drinkers	2	G-B10-35	B10.7.1.01
+B10	G-B10-37	Feeders and drinkers	2	G-B10-35	B10.7.1.01; B10.7.5.01
 B10	G-B10-38	Perches and toys	2	G-B10-35	B10.7.3.01; B10.7.4.01
 B10	G-B10-39	Garden birds and wildlife	1		B10.8; B10.12.4
 B10	G-B10-40	Bird seed and suet	2	G-B10-39	B10.8.1.01; B10.8.1.02
-B10	G-B10-41	Bird feeders and fittings	2	G-B10-39	B10.8.2.01; B10.8.2.02; B10.8.2.03; B10.8.2.04; B10.8.2.05; B10.8.2.06; B10.8.2.08; B10.8.2.07; B10.12.4.01
+B10	G-B10-41	Bird feeders and fittings	2	G-B10-39	B10.8.2.01; B10.8.2.02; B10.8.2.03; B10.8.2.04; B10.8.2.05; B10.8.2.06; B10.8.2.08; B10.8.2.07; B10.12.4.01; B10.8.2.09
 B10	G-B10-42	Nest boxes and bird baths	2	G-B10-39	B10.8.3.01; B10.8.4.01
 B10	G-B10-43	Bees and beekeeping	1		B10.9; B10.12.1
 B10	G-B10-44	Hives	2	G-B10-43	B10.9.2.01; B10.9.2.02; B10.9.2.03; B10.9.2.04
 B10	G-B10-45	Hive parts (boxes, frames, foundation, excluders)	2	G-B10-43	B10.12.1.01; B10.12.1.02; B10.12.1.04; B10.12.1.03
 B10	G-B10-46	Feeding and bee health	2	G-B10-43	B10.9.1.01; B10.9.5.01
-B10	G-B10-47	Beekeeper's tools and queen rearing	2	G-B10-43	B10.9.3.01; B10.9.3.02; B10.9.3.03; B10.9.3.04; B10.9.3.05
+B10	G-B10-47	Beekeeper's tools and queen rearing	2	G-B10-43	B10.9.3.01; B10.9.3.02; B10.9.3.03; B10.9.3.04; B10.9.3.05; B10.9.3.06
 B10	G-B10-48	Honey harvesting	2	G-B10-43	B10.9.4.01; B10.9.4.02; B10.9.4.03
 B10	G-B10-49	Poultry and backyard livestock	1		B10.10
 B10	G-B10-50	Poultry feed	2	G-B10-49	B10.10.1.01; B10.10.1.02; B10.10.1.03; B10.10.1.04
@@ -194,7 +194,7 @@ B3	G-B3-1-1	Ceiling lights	2	G-B3-1	B3.1.1.01; B3.1.1.02; B3.1.1.03; B3.1.1.04; 
 B3	G-B3-1-2	Indoor wall lights	2	G-B3-1	B3.1.2.01; B3.1.2.02
 B3	G-B3-1-3	Spots, downlights, track & cabinet lights	2	G-B3-1	B3.1.3.01; B3.1.3.02; B3.1.3.03; B3.1.3.04
 B3	G-B3-2	Lamps	1		
-B3	G-B3-2-1	Table & desk lamps	2	G-B3-2	B3.2.1.01; B3.2.1.02
+B3	G-B3-2-1	Table & desk lamps	2	G-B3-2	B3.2.1.01; B3.2.1.02; B3.2.1.05
 B3	G-B3-2-2	Night lights & wake-up lamps	2	G-B3-2	B3.2.1.03; B3.2.1.04
 B3	G-B3-2-3	Floor lamps	2	G-B3-2	B3.2.2.01; B3.2.2.02
 B3	G-B3-3	Outdoor lights	1		
@@ -226,7 +226,7 @@ C6	G-C6-8	Catadioptric telescopes	2	G-C6-5	C6.1.3.03; C6.1.3.04; C6.1.3.08
 C6	G-C6-9	Smart and solar telescopes	2	G-C6-5	C6.1.3.06; C6.1.3.05
 C6	G-C6-10	Mounts, eyepieces and telescope accessories	1		C6.5.1; C6.1.7
 C6	G-C6-11	Mounts and tripods	2	G-C6-10	C6.5.1.02; C6.5.1.03; C6.5.1.06; C6.5.1.10; C6.5.1.07; C6.5.1.08; C6.5.1.09
-C6	G-C6-12	Eyepieces, finders, Barlows and focusers	2	G-C6-10	C6.5.1.01; C6.5.1.12; C6.5.1.11; C6.5.1.13; C6.5.1.14
+C6	G-C6-12	Eyepieces, finders, Barlows and focusers	2	G-C6-10	C6.5.1.01; C6.5.1.12; C6.5.1.11; C6.5.1.13; C6.5.1.14; C6.5.1.16
 C6	G-C6-13	Filters and eclipse glasses	2	G-C6-10	C6.5.1.04; C6.1.7.01; C6.5.1.15
 C6	G-C6-14	Astronomy cameras	2	G-C6-10	C6.5.1.05
 C6	G-C6-15	Spotting scopes, night vision and thermal	1		C6.1.4; C6.1.2
@@ -263,14 +263,14 @@ J2	G-J2-3	Salted, cured & dried	1
 J2	G-J2-4	Tins & jars	1		
 J2	G-J2-5	Roe & caviar	1		
 J2	G-J2-6	Fish cakes, surimi & pâtés	1		J2.6.01; J2.6.02; J2.6.03; J2.6.04; J2.6.05; J2.6.06; J2.6.07
-J2	G-J2-7	Salmon and trout	2	G-J2-1	J2.1.1.01; J2.1.1.02; J2.1.1.03; J2.1.1.04; J2.1.1.05; J2.1.1.06; J2.1.1.07; J2.1.1.50
+J2	G-J2-7	Salmon and trout	2	G-J2-1	J2.1.1.01; J2.1.1.02; J2.1.1.03; J2.1.1.04; J2.1.1.05; J2.1.1.06; J2.1.1.07; J2.1.1.50; J2.1.1.56; J2.1.1.57; J2.1.1.58; J2.1.1.59; J2.1.1.60; J2.1.1.61; J2.1.1.62; J2.1.1.64; J2.1.1.65; J2.1.1.66; J2.1.1.68; J2.1.1.69; J2.1.1.70; J2.1.1.71; J2.1.1.72; J2.1.1.73; J2.1.1.74; J2.1.1.76; J2.1.1.77; J2.1.1.78; J2.1.1.79; J2.1.1.80; J2.1.1.81; J2.1.1.82; J2.1.1.83; J2.1.1.84; J2.1.1.85; J2.1.1.86; J2.1.1.87; J2.1.1.88; J2.1.1.89; J2.1.1.63; J2.1.1.67; J2.1.1.75; J2.1.1.90; J2.1.1.92; J2.1.1.93; J2.1.1.94; J2.1.1.95; J2.1.1.96; J2.1.1.97; J2.1.1.99; J2.1.1.91; J2.1.1.98
 J2	G-J2-8	White fish	2	G-J2-1	J2.1.1.08; J2.1.1.09; J2.1.1.10; J2.1.1.11; J2.1.1.12; J2.1.1.13; J2.1.1.14; J2.1.1.17; J2.1.1.25; J2.1.1.26; J2.1.1.27; J2.1.1.28; J2.1.1.29; J2.1.1.30; J2.1.1.33; J2.1.1.36; J2.1.1.37; J2.1.1.40; J2.1.1.41; J2.1.1.42; J2.1.1.43; J2.1.1.44; J2.1.1.46; J2.1.1.47; J2.1.1.49; J2.1.1.52; J2.1.1.54
 J2	G-J2-9	Oily fish	2	G-J2-1	J2.1.1.21; J2.1.1.22; J2.1.1.23; J2.1.1.31; J2.1.1.32; J2.1.1.35; J2.1.1.53; J2.1.1.55
 J2	G-J2-10	Flatfish	2	G-J2-1	J2.1.1.15; J2.1.1.16; J2.1.1.34; J2.1.1.38; J2.1.1.39; J2.1.1.45
 J2	G-J2-11	Tuna and swordfish	2	G-J2-1	J2.1.1.18; J2.1.1.19; J2.1.1.20
-J2	G-J2-12	Prawns and shrimp	2	G-J2-1	J2.1.2.01; J2.1.2.02; J2.1.2.03; J2.1.2.07; J2.1.2.08; J2.1.2.09; J2.1.2.10; J2.1.2.11; J2.1.2.12; J2.1.2.13
+J2	G-J2-12	Prawns and shrimp	2	G-J2-1	J2.1.2.01; J2.1.2.02; J2.1.2.03; J2.1.2.07; J2.1.2.08; J2.1.2.09; J2.1.2.10; J2.1.2.11; J2.1.2.12; J2.1.2.13; J2.1.2.14; J2.1.2.15; J2.1.2.16; J2.1.2.17; J2.1.2.18; J2.1.2.19
 J2	G-J2-13	Crab and lobster	2	G-J2-1	J2.1.2.04; J2.1.2.05; J2.1.2.06
-J2	G-J2-14	Shellfish	2	G-J2-1	J2.1.3.01; J2.1.3.02; J2.1.3.03; J2.1.3.06; J2.1.3.07; J2.1.3.08; J2.1.3.09; J2.1.3.10; J2.1.3.11; J2.1.3.12; J2.1.3.13; J2.1.3.14; J2.1.3.15
+J2	G-J2-14	Shellfish	2	G-J2-1	J2.1.3.01; J2.1.3.02; J2.1.3.03; J2.1.3.06; J2.1.3.07; J2.1.3.08; J2.1.3.09; J2.1.3.10; J2.1.3.11; J2.1.3.12; J2.1.3.13; J2.1.3.14; J2.1.3.15; J2.1.3.17
 J2	G-J2-15	Squid, cuttlefish and octopus	2	G-J2-1	J2.1.3.04; J2.1.3.05; J2.1.3.16
 J2	G-J2-16	Other (eel, sea urchin, sea cucumber, mixed)	2	G-J2-1	J2.1.1.24; J2.1.4.01; J2.1.4.02; J2.1.0.01
 J2	G-J2-17	Salted, cured & fermented fish	2	G-J2-3	J2.3.01; J2.3.02; J2.3.07; J2.3.12; J2.3.16
@@ -322,23 +322,23 @@ J4	G-J4-2	Vegetables	1
 J4	G-J4-3	Salad & herbs	1		
 J4	G-J4-4	Mushrooms & sea vegetables	1		
 J4	G-J4-5	Mixed boxes & packs	1		J4.0.01; J4.1.0.01; J4.2.0.01
-J4	G-J4-6	Apples & pears	2	G-J4-1	J4.1.1.01; J4.1.1.02; J4.1.1.03; J4.1.1.05; J4.1.1.04
+J4	G-J4-6	Apples & pears	2	G-J4-1	J4.1.1.01; J4.1.1.02; J4.1.1.03; J4.1.1.05; J4.1.1.04; J4.1.1.06
 J4	G-J4-7	Stone fruit & cherries	2	G-J4-1	J4.1.2.01; J4.1.2.02; J4.1.2.03; J4.1.2.04; J4.1.2.05; J4.1.2.06
 J4	G-J4-8	Citrus	2	G-J4-1	J4.1.3.01; J4.1.3.02; J4.1.3.03; J4.1.3.04; J4.1.3.05; J4.1.3.06; J4.1.3.07; J4.1.3.08; J4.1.3.09; J4.1.3.10; J4.1.3.11; J4.1.3.12; J4.1.3.13
-J4	G-J4-9	Berries	2	G-J4-1	J4.1.4.01; J4.1.4.02; J4.1.4.03; J4.1.4.04; J4.1.4.05; J4.1.4.06; J4.1.4.07; J4.1.4.08
+J4	G-J4-9	Berries	2	G-J4-1	J4.1.4.01; J4.1.4.02; J4.1.4.03; J4.1.4.04; J4.1.4.05; J4.1.4.06; J4.1.4.07; J4.1.4.08; J4.1.4.09; J4.1.4.10; J4.1.4.11
 J4	G-J4-10	Grapes & kiwi	2	G-J4-1	J4.1.5.01; J4.1.5.02
 J4	G-J4-11	Melons	2	G-J4-1	J4.1.6.01; J4.1.6.02
 J4	G-J4-12	Tropical & exotic fruit	2	G-J4-1	J4.1.7.01; J4.1.7.02; J4.1.7.04; J4.1.7.03; J4.1.7.05; J4.1.7.06; J4.1.7.07; J4.1.7.08; J4.1.7.09; J4.1.7.12; J4.1.7.13; J4.1.7.14; J4.1.7.15; J4.1.7.16; J4.1.7.17; J4.1.7.18; J4.1.7.19; J4.1.7.20; J4.1.7.21; J4.1.7.10; J4.1.7.11
 J4	G-J4-13	Other fruit (figs, dates, persimmons, pomegranates)	2	G-J4-1	J4.1.8.01; J4.1.8.02; J4.1.8.03; J4.1.8.04; J4.1.8.05; J4.1.8.06; J4.1.8.07
 J4	G-J4-14	Leafy greens (cooking greens)	2	G-J4-2	J4.2.1.02; J4.2.1.03; J4.2.1.09; J4.2.1.10
-J4	G-J4-15	Cabbage family	2	G-J4-2	J4.2.2.01; J4.2.2.02; J4.2.2.03; J4.2.2.04; J4.2.2.05; J4.2.2.06
-J4	G-J4-16	Potatoes & roots	2	G-J4-2	J4.2.3.01; J4.2.3.02; J4.2.3.03; J4.2.3.04; J4.2.3.05; J4.2.3.06; J4.2.3.07; J4.2.3.08; J4.2.3.09; J4.2.3.10; J4.2.3.11; J4.2.3.12; J4.2.3.13; J4.2.3.14; J4.2.3.15
-J4	G-J4-17	Onions & garlic	2	G-J4-2	J4.2.4.01; J4.2.4.02; J4.2.4.03; J4.2.4.04; J4.2.4.05; J4.2.4.06; J4.2.4.07; J4.2.4.08
+J4	G-J4-15	Cabbage family	2	G-J4-2	J4.2.2.01; J4.2.2.02; J4.2.2.03; J4.2.2.04; J4.2.2.05; J4.2.2.06; J4.2.2.07; J4.2.2.09; J4.2.2.08
+J4	G-J4-16	Potatoes & roots	2	G-J4-2	J4.2.3.01; J4.2.3.02; J4.2.3.03; J4.2.3.04; J4.2.3.05; J4.2.3.06; J4.2.3.07; J4.2.3.08; J4.2.3.09; J4.2.3.10; J4.2.3.11; J4.2.3.12; J4.2.3.13; J4.2.3.14; J4.2.3.15; J4.2.3.16; J4.2.3.17; J4.2.3.18; J4.2.3.19; J4.2.3.20
+J4	G-J4-17	Onions & garlic	2	G-J4-2	J4.2.4.01; J4.2.4.02; J4.2.4.03; J4.2.4.04; J4.2.4.05; J4.2.4.06; J4.2.4.07; J4.2.4.08; J4.2.4.09
 J4	G-J4-18	Tomatoes, peppers & fruiting vegetables	2	G-J4-2	J4.2.5.01; J4.2.5.02; J4.2.5.03; J4.2.5.04; J4.2.5.05; J4.2.5.08; J4.2.5.09; J4.2.5.10
 J4	G-J4-19	Squash, cucumbers & gourds	2	G-J4-2	J4.2.5.06; J4.2.5.07; J4.2.5.11; J4.2.5.12; J4.2.5.13; J4.2.5.14
-J4	G-J4-20	Peas & beans	2	G-J4-2	J4.2.6.01; J4.2.6.02; J4.2.6.03; J4.2.6.04
+J4	G-J4-20	Peas & beans	2	G-J4-2	J4.2.6.01; J4.2.6.02; J4.2.6.03; J4.2.6.04; J4.2.6.05
 J4	G-J4-21	Asparagus, stems & shoots	2	G-J4-2	J4.2.7.01; J4.2.7.02; J4.2.7.04; J4.2.7.05; J4.2.7.06; J4.2.7.07; J4.2.7.08; J4.2.7.09; J4.2.7.10
-J4	G-J4-22	Salad leaves & sprouts	2	G-J4-3	J4.2.1.01; J4.2.1.04; J4.2.1.05; J4.2.1.06; J4.2.1.07; J4.2.1.08; J4.2.7.03
+J4	G-J4-22	Salad leaves & sprouts	2	G-J4-3	J4.2.1.01; J4.2.1.04; J4.2.1.05; J4.2.1.06; J4.2.1.07; J4.2.1.08; J4.2.7.03; J4.2.1.11; J4.2.1.12
 J4	G-J4-23	Fresh herbs	2	G-J4-3	J4.3.01; J4.3.02; J4.3.03; J4.3.04; J4.3.05; J4.3.06; J4.3.07; J4.3.0.01; J4.3.08; J4.3.09; J4.3.10; J4.3.11
 J4	G-J4-24	Cultivated mushrooms	2	G-J4-4	J4.4.01; J4.4.02; J4.4.06; J4.4.07; J4.4.10
 J4	G-J4-25	Wild mushrooms & truffles	2	G-J4-4	J4.4.03; J4.4.04; J4.4.08; J4.4.09
@@ -407,7 +407,7 @@ A3	G-A3-2	Earrings and ear cuffs	1		A3.2
 A3	G-A3-12	Earrings	2	G-A3-2	A3.2.1.01; A3.2.1.02; A3.2.1.03; A3.2.1.04
 A3	G-A3-13	Ear cuffs and climbers	2	G-A3-2	A3.2.2.01; A3.2.2.02
 A3	G-A3-3	Necklaces, pendants and chains	1		A3.4
-A3	G-A3-14	Necklaces	2	G-A3-3	A3.4.1.01; A3.4.1.02; A3.4.1.03; A3.4.1.04; A3.4.1.05; A3.4.1.06; A3.4.1.07
+A3	G-A3-14	Necklaces	2	G-A3-3	A3.4.1.01; A3.4.1.02; A3.4.1.03; A3.4.1.04; A3.4.1.05; A3.4.1.06; A3.4.1.07; A3.4.1.08; A3.4.1.09
 A3	G-A3-15	Chains	2	G-A3-3	A3.4.2.01
 A3	G-A3-16	Pendants and charms	2	G-A3-3	A3.4.3.01; A3.4.3.02; A3.4.3.03
 A3	G-A3-4	Bracelets, bangles and armlets	1		A3.5
@@ -415,18 +415,18 @@ A3	G-A3-17	Bracelets	2	G-A3-4	A3.5.1.01; A3.5.1.02; A3.5.1.03; A3.5.1.04; A3.5.1
 A3	G-A3-18	Bangles	2	G-A3-4	A3.5.2.01
 A3	G-A3-19	Armlets	2	G-A3-4	A3.5.3.01
 A3	G-A3-5	Brooches, pins and cufflinks	1		A3.7.1; A3.7.2
-A3	G-A3-20	Brooches and pins	2	G-A3-5	A3.7.1.01; A3.7.1.02; A3.7.1.03; A3.7.1.04
-A3	G-A3-21	Cufflinks and tie accessories	2	G-A3-5	A3.7.2.01; A3.7.2.02
+A3	G-A3-20	Brooches and pins	2	G-A3-5	A3.7.1.01; A3.7.1.02; A3.7.1.03; A3.7.1.04; A3.7.1.05
+A3	G-A3-21	Cufflinks and tie accessories	2	G-A3-5	A3.7.2.01; A3.7.2.02; A3.7.2.03
 A3	G-A3-6	Hair and head jewellery	1		A3.1
 A3	G-A3-22	Crowns and tiaras	2	G-A3-6	A3.1.1.01; A3.1.1.02
-A3	G-A3-23	Forehead and parting ornaments	2	G-A3-6	A3.1.2.01
+A3	G-A3-23	Forehead and parting ornaments	2	G-A3-6	A3.1.2.01; A3.1.2.02
 A3	G-A3-24	Hair ornaments	2	G-A3-6	A3.1.3.01; A3.1.3.02
 A3	G-A3-7	Body jewellery (piercing)	1		A3.3
-A3	G-A3-25	Barbells	2	G-A3-7	A3.3.1.01; A3.3.1.02
-A3	G-A3-26	Rings and clickers	2	G-A3-7	A3.3.2.01
+A3	G-A3-25	Barbells	2	G-A3-7	A3.3.1.01; A3.3.1.02; A3.3.1.03
+A3	G-A3-26	Rings and clickers	2	G-A3-7	A3.3.2.01; A3.3.2.02; A3.3.2.03
 A3	G-A3-27	Studs and labrets	2	G-A3-7	A3.3.3.01; A3.3.3.02; A3.3.3.03
 A3	G-A3-28	Navel jewellery	2	G-A3-7	A3.3.4.01
-A3	G-A3-29	Stretched-ear jewellery	2	G-A3-7	A3.3.5.01; A3.3.5.02; A3.3.5.03
+A3	G-A3-29	Stretched-ear jewellery	2	G-A3-7	A3.3.5.01; A3.3.5.02; A3.3.5.03; A3.3.5.04
 A3	G-A3-8	Anklets, toe rings and body chains	1		A3.8.1.01; A3.8.1.02; A3.7.3.01
 A3	G-A3-9	Jewellery parts	1		A3.9.01; A3.9.02; A3.9.03
 A4	G-A4-1	Luggage and travel bags	1		A4.3
@@ -453,7 +453,7 @@ A4	G-A4-23	Hand fans	2	G-A4-7	A4.7.05; A4.7.06
 A4	G-A4-8	Baby carriers	1		A4.8.01; A4.8.02; A4.8.03; A4.8.04; A4.8.05; A4.8.06
 A4	G-A4-9	Small carried accessories and bag parts	1		A4.9; A4.10
 A4	G-A4-24	Small carried accessories	2	G-A4-9	A4.9.01; A4.9.02; A4.9.03; A4.9.04; A4.9.05
-A4	G-A4-25	Bag parts and accessories	2	G-A4-9	A4.10.01; A4.10.02; A4.10.03
+A4	G-A4-25	Bag parts and accessories	2	G-A4-9	A4.10.01; A4.10.02; A4.10.03; A4.10.04
 A5	G-A5-1	Tool watches	1		A5.1.2; A5.1.3; A5.1.4
 A5	G-A5-11	Dive watches	2	G-A5-1	A5.1.2.01
 A5	G-A5-12	Chronographs	2	G-A5-1	A5.1.3.01; A5.1.3.02; A5.1.3.03
@@ -461,7 +461,7 @@ A5	G-A5-13	GMT and world-time watches	2	G-A5-1	A5.1.4.01; A5.1.4.02
 A5	G-A5-2	Dress and classic watches	1		A5.1.1.01; A5.1.1.03; A5.1.1.04
 A5	G-A5-3	Haute horlogerie and complications	1		A5.1.5; A5.1.6; A5.1.7
 A5	G-A5-14	Calendar and astronomical watches	2	G-A5-3	A5.1.5.01; A5.1.5.02; A5.1.5.03
-A5	G-A5-15	Striking watches	2	G-A5-3	A5.1.6.01; A5.1.6.02
+A5	G-A5-15	Striking watches	2	G-A5-3	A5.1.6.01; A5.1.6.02; A5.1.6.03
 A5	G-A5-16	Tourbillon and grande-complication watches	2	G-A5-3	A5.1.7.01; A5.1.7.02
 A5	G-A5-4	Independents and microbrands	1		
 A5	G-A5-5	Tough and digital watches	1		A5.1.1.02
@@ -475,7 +475,7 @@ A5	G-A5-20	Portable and marine clocks	2	G-A5-8	A5.3.4.01; A5.3.4.02
 A5	G-A5-21	Building-mounted clocks	2	G-A5-8	A5.3.5.01
 A5	G-A5-9	Timing instruments	1		A5.4.01; A5.4.02; A5.4.03; A5.4.04; A5.4.05; A5.4.06; A5.4.07
 A5	G-A5-10	Straps, winders and parts	1		A5.5
-A5	G-A5-22	Straps, bracelets, chains and winders	2	G-A5-10	A5.5.01; A5.5.02; A5.5.08; A5.5.03
+A5	G-A5-22	Straps, bracelets, chains and winders	2	G-A5-10	A5.5.01; A5.5.02; A5.5.08; A5.5.03; A5.5.1.03; A5.5.1.04
 A5	G-A5-23	Watch parts	2	G-A5-10	A5.5.04; A5.5.05; A5.5.06; A5.5.07; A5.5.1.01; A5.5.1.02
 A5	G-A5-24	Clock parts	2	G-A5-10	A5.5.2.01; A5.5.2.02; A5.5.2.03; A5.5.2.04; A5.5.2.05
 B9	G-B9-1	Cigars and cigarillos	1		B9.1.2; B9.1.3
@@ -487,16 +487,16 @@ B9	G-B9-14	Pipes	2	G-B9-2	B9.2.1.01; B9.2.1.02; B9.2.1.03; B9.2.1.04; B9.2.1.05;
 B9	G-B9-15	Pipe tobacco	2	G-B9-2	B9.1.4.01; B9.1.4.02; B9.1.4.03; B9.1.4.04; B9.1.4.05
 B9	G-B9-3	Cigarettes and roll-your-own	1		B9.1.1; B9.1.5; B9.2.5
 B9	G-B9-16	Cigarettes	2	G-B9-3	B9.1.1.01; B9.1.1.02; B9.1.1.03; B9.1.1.06
-B9	G-B9-17	Rolling tobacco	2	G-B9-3	B9.1.5.01; B9.1.5.02
-B9	G-B9-18	Papers, rolling machines, trays and holders	2	G-B9-3	B9.2.5.01; B9.2.5.03; B9.2.5.04; B9.2.5.07; B9.3.21
+B9	G-B9-17	Rolling tobacco	2	G-B9-3	B9.1.5.01; B9.1.5.02; B9.1.5.06; B9.1.5.08
+B9	G-B9-18	Papers, rolling machines, trays and holders	2	G-B9-3	B9.2.5.01; B9.2.5.03; B9.2.5.04; B9.2.5.07; B9.3.21; B9.2.5.05; B9.2.5.06
 B9	G-B9-4	Vapes and e-liquids	1		B9.2.3; B9.1.9; B9.3
 B9	G-B9-19	Vape kits	2	G-B9-4	B9.2.3.01; B9.2.3.02; B9.2.3.03; B9.2.3.06
 B9	G-B9-20	E-liquids and prefilled pods	2	G-B9-4	B9.1.9.01; B9.1.9.02; B9.1.9.03; B9.1.9.04; B9.1.9.05
-B9	G-B9-21	Coils, tanks, pods and batteries	2	G-B9-4	B9.3.01; B9.3.02; B9.3.03; B9.3.04
+B9	G-B9-21	Coils, tanks, pods and batteries	2	G-B9-4	B9.3.01; B9.3.02; B9.3.03; B9.3.04; B9.3.14; B9.3.17; B9.3.18; B9.3.19; B9.3.20
 B9	G-B9-5	Heated tobacco	1		B9.1.7.01; B9.1.7.02; B9.2.3.04
 B9	G-B9-6	Snus, nicotine pouches and other oral products	1		B9.1.8
 B9	G-B9-22	Snus and nicotine pouches	2	G-B9-6	B9.1.8.04; B9.1.8.05; B9.1.8.06; B9.1.8.07; B9.1.8.08; B9.1.8.09
-B9	G-B9-23	Chewing tobacco and snuff	2	G-B9-6	B9.1.8.01; B9.1.8.02; B9.1.8.03
+B9	G-B9-23	Chewing tobacco and snuff	2	G-B9-6	B9.1.8.01; B9.1.8.02; B9.1.8.03; B9.1.8.10
 B9	G-B9-7	Cannabis and hemp	1		B9.1.10; B9.1.11; B9.1.5; B9.1.1; B9.2.2
 B9	G-B9-24	Flower and pre-rolls	2	G-B9-7	B9.1.5.03; B9.1.1.04; B9.1.1.05
 B9	G-B9-25	Concentrates and hash	2	G-B9-7	B9.1.10.01; B9.1.10.02; B9.1.10.03; B9.1.10.04; B9.1.10.05; B9.1.10.06; B9.1.10.07; B9.1.10.08
@@ -507,7 +507,7 @@ B9	G-B9-28	Hookahs and shisha	2	G-B9-8	B9.2.2.01; B9.1.6.01; B9.1.6.02
 B9	G-B9-29	Bowls, hoses, heat management and coals	2	G-B9-8	B9.3.05; B9.3.06; B9.3.07; B9.3.08; B9.3.09; B9.3.10; B9.3.11; B9.3.12; B9.3.13
 B9	G-B9-9	Lighters, cutters, ashtrays and cases	1		B9.2.4; B9.2.6
 B9	G-B9-30	Lighters	2	G-B9-9	B9.2.4.01; B9.2.4.02; B9.2.4.03; B9.2.4.04
-B9	G-B9-31	Cutters, ashtrays, cases and humidors	2	G-B9-9	B9.2.6.01; B9.2.6.02; B9.2.6.03; B9.2.6.04; B9.2.6.05; B9.2.6.06
+B9	G-B9-31	Cutters, ashtrays, cases and humidors	2	G-B9-9	B9.2.6.01; B9.2.6.02; B9.2.6.03; B9.2.6.04; B9.2.6.05; B9.2.6.06; B9.2.6.07
 B9	G-B9-10	Other plant products (kratom, herbal blends, betel, khat)	1		B9.1.5.04; B9.1.5.05; B9.1.5.07; B9.1.8.11; B9.1.8.12; B9.1.8.13
 E3	G-E3-1	Guitars & basses	1		E3.1.3
 E3	G-E3-12	Electric guitars	2	G-E3-1	E3.1.3.01; E3.1.3.02; E3.1.3.03
@@ -520,16 +520,16 @@ E3	G-E3-17	Organs and harpsichords	2	G-E3-2	E3.1.1.04; E3.1.1.05; E3.1.1.06; E3.
 E3	G-E3-3	Synths, drum machines & controllers	1		E3.1.2; E3.3.7
 E3	G-E3-18	Synthesizers	2	G-E3-3	E3.1.2.01; E3.1.2.02; E3.1.2.05
 E3	G-E3-19	Drum machines, samplers and grooveboxes	2	G-E3-3	E3.1.2.03; E3.1.2.04; E3.1.2.06
-E3	G-E3-20	MIDI and performance controllers	2	G-E3-3	E3.3.7.01; E3.3.7.02; E3.3.7.03; E3.3.7.04
+E3	G-E3-20	MIDI and performance controllers	2	G-E3-3	E3.3.7.01; E3.3.7.02; E3.3.7.03; E3.3.7.04; E3.3.7.05
 E3	G-E3-4	Drums & percussion	1		E3.1.10
-E3	G-E3-21	Drum kits and electronic drums	2	G-E3-4	E3.1.10.01; E3.1.10.02; E3.1.10.17
+E3	G-E3-21	Drum kits and electronic drums	2	G-E3-4	E3.1.10.01; E3.1.10.02; E3.1.10.17; E3.1.10.18
 E3	G-E3-22	Snares and cymbals	2	G-E3-4	E3.1.10.03; E3.1.10.04; E3.1.10.05; E3.1.10.06; E3.1.10.07; E3.1.10.08
 E3	G-E3-23	Hand percussion	2	G-E3-4	E3.1.10.09; E3.1.10.10; E3.1.10.13; E3.1.10.16
 E3	G-E3-24	Orchestral and mallet percussion	2	G-E3-4	E3.1.10.11; E3.1.10.12; E3.1.10.14; E3.1.10.15
-E3	G-E3-5	Orchestral strings	1		E3.1.6.01; E3.1.6.02; E3.1.6.03; E3.1.6.04; E3.1.6.05
+E3	G-E3-5	Orchestral strings	1		E3.1.6.01; E3.1.6.02; E3.1.6.03; E3.1.6.04; E3.1.6.05; E3.1.6.06
 E3	G-E3-6	Woodwind & brass	1		E3.1.7; E3.1.8
-E3	G-E3-25	Woodwinds	2	G-E3-6	E3.1.7.01; E3.1.7.02; E3.1.7.03; E3.1.7.04; E3.1.7.05; E3.1.7.06; E3.1.7.07; E3.1.7.08; E3.1.7.09; E3.1.7.10; E3.1.7.12; E3.1.7.13; E3.1.7.14; E3.1.7.15; E3.1.7.16
-E3	G-E3-26	Brass	2	G-E3-6	E3.1.8.01; E3.1.8.02; E3.1.8.03; E3.1.8.04
+E3	G-E3-25	Woodwinds	2	G-E3-6	E3.1.7.01; E3.1.7.02; E3.1.7.03; E3.1.7.04; E3.1.7.05; E3.1.7.06; E3.1.7.07; E3.1.7.08; E3.1.7.09; E3.1.7.10; E3.1.7.12; E3.1.7.13; E3.1.7.14; E3.1.7.15; E3.1.7.16; E3.1.7.11; E3.1.7.17
+E3	G-E3-26	Brass	2	G-E3-6	E3.1.8.01; E3.1.8.02; E3.1.8.03; E3.1.8.04; E3.1.8.05; E3.1.8.06
 E3	G-E3-7	Other instruments	1		E3.1.4; E3.1.5; E3.1.9; E3.1.11; E3.1.12
 E3	G-E3-27	Lutes and other plucked strings	2	G-E3-7	E3.1.4.01; E3.1.4.02; E3.1.4.03; E3.1.4.04; E3.1.4.05; E3.1.4.06; E3.1.4.07; E3.1.4.08; E3.1.4.09
 E3	G-E3-28	Zithers and harps	2	G-E3-7	E3.1.5.01; E3.1.5.02; E3.1.5.03; E3.1.5.04
@@ -537,10 +537,10 @@ E3	G-E3-29	Accordions, harmonicas and free reeds	2	G-E3-7	E3.1.9.01; E3.1.9.02; 
 E3	G-E3-30	Mechanical instruments and other idiophones	2	G-E3-7	E3.1.11.01; E3.1.11.02; E3.1.12.01; E3.1.12.02; E3.1.12.03
 E3	G-E3-8	Amps & effects	1		E3.2
 E3	G-E3-31	Amplifiers and cabinets	2	G-E3-8	E3.2.1.01; E3.2.1.02; E3.2.1.03; E3.2.1.04; E3.2.1.05
-E3	G-E3-32	Effects	2	G-E3-8	E3.2.2.01; E3.2.2.02; E3.2.2.03; E3.2.2.04; E3.2.2.05; E3.2.2.07
+E3	G-E3-32	Effects	2	G-E3-8	E3.2.2.01; E3.2.2.02; E3.2.2.03; E3.2.2.04; E3.2.2.05; E3.2.2.07; E3.2.2.06; E3.2.2.08; E3.2.2.09; E3.2.2.10; E3.2.2.11; E3.2.2.12; E3.2.2.13; E3.2.2.14; E3.2.2.15; E3.2.2.16; E3.2.2.17; E3.2.2.18
 E3	G-E3-9	Recording & live sound	1		E3.3.1; E3.3.2; E3.3.3; E3.3.4; E3.3.5
-E3	G-E3-33	Microphones and wireless systems	2	G-E3-9	E3.3.1.01; E3.3.1.02; E3.3.1.03
-E3	G-E3-34	Mixers and audio interfaces	2	G-E3-9	E3.3.2.01; E3.3.2.02
+E3	G-E3-33	Microphones and wireless systems	2	G-E3-9	E3.3.1.01; E3.3.1.02; E3.3.1.03; E3.3.1.04; E3.3.1.05
+E3	G-E3-34	Mixers and audio interfaces	2	G-E3-9	E3.3.2.01; E3.3.2.02; E3.3.2.03; E3.3.2.04; E3.3.2.05
 E3	G-E3-35	Loudspeakers and monitors	2	G-E3-9	E3.3.3.01; E3.3.3.02; E3.3.3.03
 E3	G-E3-36	Headphones and in-ear monitors	2	G-E3-9	E3.3.4.01; E3.3.4.02; E3.3.4.03
 E3	G-E3-37	Signal processors	2	G-E3-9	E3.3.5.01
@@ -557,23 +557,23 @@ H1	G-H1-15	Masks	2	G-H1-1	H1.1.5.02; H1.1.5.01
 H1	G-H1-16	Sun care and skin protection	2	G-H1-1	H1.1.6.01; H1.1.6.02
 H1	G-H1-17	Skin tools and devices	2	G-H1-1	H1.1.7.01
 H1	G-H1-2	Makeup	1		H1.2
-H1	G-H1-18	Complexion	2	G-H1-2	H1.2.1.01; H1.2.1.02; H1.2.1.03; H1.2.1.04; H1.2.1.05
+H1	G-H1-18	Complexion	2	G-H1-2	H1.2.1.01; H1.2.1.02; H1.2.1.03; H1.2.1.04; H1.2.1.05; H1.2.1.06; H1.2.1.07
 H1	G-H1-19	Body paint and skin powders	2	G-H1-2	H1.2.2.01
-H1	G-H1-20	Eyes	2	G-H1-2	H1.2.3.01; H1.2.3.02
-H1	G-H1-21	Brows and lashes	2	G-H1-2	H1.2.4.01; H1.2.4.02; H1.2.4.03
-H1	G-H1-22	Lips	2	G-H1-2	H1.2.5.01
+H1	G-H1-20	Eyes	2	G-H1-2	H1.2.3.01; H1.2.3.02; H1.2.3.03
+H1	G-H1-21	Brows and lashes	2	G-H1-2	H1.2.4.01; H1.2.4.02; H1.2.4.03; H1.2.4.04
+H1	G-H1-22	Lips	2	G-H1-2	H1.2.5.01; H1.2.5.02
 H1	G-H1-23	Nails	2	G-H1-2	H1.2.6.01; H1.2.6.02
 H1	G-H1-24	Makeup tools and devices	2	G-H1-2	H1.2.7.01; H1.2.7.02
 H1	G-H1-3	Hair	1		H1.3
-H1	G-H1-25	Wash and condition	2	G-H1-3	H1.3.1.01; H1.3.1.02; H1.3.1.03
+H1	G-H1-25	Wash and condition	2	G-H1-3	H1.3.1.01; H1.3.1.02; H1.3.1.03; H1.3.1.04
 H1	G-H1-26	Colour and chemical	2	G-H1-3	H1.3.2.01
-H1	G-H1-27	Styling products	2	G-H1-3	H1.3.3.01
+H1	G-H1-27	Styling products	2	G-H1-3	H1.3.3.01; H1.3.3.02
 H1	G-H1-28	Wigs and hairpieces	2	G-H1-3	H1.3.4.01; H1.3.4.02
-H1	G-H1-29	Hair dryers and styling appliances	2	G-H1-3	H1.3.5.01; H1.3.5.02; H1.3.5.03; H1.3.5.04; H1.3.5.09
+H1	G-H1-29	Hair dryers and styling appliances	2	G-H1-3	H1.3.5.01; H1.3.5.02; H1.3.5.03; H1.3.5.04; H1.3.5.09; H1.3.5.12
 H1	G-H1-30	Brushes, combs, scissors and hair accessories	2	G-H1-3	H1.3.5.05; H1.3.5.06; H1.3.5.07; H1.3.5.08; H1.3.5.10; H1.3.5.11
 H1	G-H1-4	Fragrance	1		H1.4.02; H1.4.03; H1.4.05; H1.4.01; H1.4.04
 H1	G-H1-5	Bath, body and hygiene	1		H1.6
-H1	G-H1-31	Bathing and cleansing	2	G-H1-5	H1.6.1.01; H1.6.1.02; H1.6.1.03; H1.6.1.04
+H1	G-H1-31	Bathing and cleansing	2	G-H1-5	H1.6.1.01; H1.6.1.02; H1.6.1.03; H1.6.1.04; H1.6.1.05
 H1	G-H1-32	Deodorants	2	G-H1-5	H1.6.2.01
 H1	G-H1-33	Intimate and menstrual hygiene	2	G-H1-5	H1.6.3.01; H1.6.3.02; H1.6.3.03; H1.6.3.04; H1.6.3.05; H1.6.3.06; H1.6.3.07
 H1	G-H1-34	Toileting and nappy changing	2	G-H1-5	H1.6.4.01; H1.6.4.02; H1.6.4.03; H1.6.4.04
@@ -581,7 +581,7 @@ H1	G-H1-35	Bath equipment	2	G-H1-5	H1.6.5.01; H1.6.5.02; H1.6.5.03
 H1	G-H1-6	Shaving and hair removal	1		H1.5
 H1	G-H1-36	Blade shaving	2	G-H1-6	H1.5.1.01; H1.5.1.02; H1.5.1.03; H1.5.1.04; H1.5.1.05; H1.5.1.06; H1.5.1.07
 H1	G-H1-37	Electric shaving and trimming	2	G-H1-6	H1.5.2.01; H1.5.2.02; H1.5.2.03
-H1	G-H1-38	Depilation and epilation	2	G-H1-6	H1.5.3.01
+H1	G-H1-38	Depilation and epilation	2	G-H1-6	H1.5.3.01; H1.5.3.02
 H1	G-H1-39	Shaving preparations and aftercare	2	G-H1-6	H1.5.4.01; H1.5.4.02; H1.5.4.03; H1.5.4.04; H1.5.4.05; H1.5.4.06
 H1	G-H1-7	Oral care	1		H1.7.01; H1.7.02; H1.7.03; H1.7.04
 H1	G-H1-8	Grooming tools, mirrors and scales	1		H1.8.01; H1.8.02; H1.8.03; H1.8.04; H1.8.05; H1.8.06; H1.8.07; H1.8.08
@@ -603,8 +603,8 @@ J7	G-J7-16	Lagers and bocks	2	G-J7-2	J7.2.1.01; J7.2.1.02; J7.2.1.03; J7.2.1.04;
 J7	G-J7-17	Wheat beer	2	G-J7-2	J7.2.3.01; J7.2.3.02; J7.2.3.03
 J7	G-J7-18	Pale ales and IPA	2	G-J7-2	J7.2.7.01; J7.2.7.02; J7.2.8.01; J7.2.8.02; J7.2.8.03; J7.2.8.04; J7.2.7.03
 J7	G-J7-28	Porter and stout	2	G-J7-2	J7.2.9.01; J7.2.9.02; J7.2.10.01; J7.2.10.02; J7.2.10.03
-J7	G-J7-29	Traditional grain, root and fruit beers; mixed beer	2	G-J7-2	J7.2.4.01; J7.2.4.02; J7.2.4.04; J7.2.4.05; J7.2.0.01
-J7	G-J7-3	Cider, perry & mead	1		J7.3.1.01; J7.3.1.02; J7.3.1.03; J7.3.1.04; J7.3.2.01; J7.3.3.01; J7.3.4.01; J7.3.3.02; J7.3.3.03; J7.3.1.05; J7.3.1.06
+J7	G-J7-29	Traditional grain, root and fruit beers; mixed beer	2	G-J7-2	J7.2.4.01; J7.2.4.02; J7.2.4.04; J7.2.4.05; J7.2.0.01; J7.2.4.03
+J7	G-J7-3	Cider, perry & mead	1		J7.3.1.01; J7.3.1.02; J7.3.1.03; J7.3.1.04; J7.3.2.01; J7.3.3.01; J7.3.4.01; J7.3.3.02; J7.3.3.03; J7.3.1.05; J7.3.1.06; J7.3.5.01
 J7	G-J7-4	Spirits & liqueurs	1		J7.5; J7.6
 J7	G-J7-19	Whisky	2	G-J7-4	J7.5.1.01; J7.5.1.02; J7.5.1.03; J7.5.1.04; J7.5.1.05; J7.5.1.06; J7.5.1.07; J7.5.1.09; J7.5.1.08; J7.5.1.10; J7.5.1.11
 J7	G-J7-20	Brandy	2	G-J7-4	J7.5.2.01; J7.5.2.02; J7.5.2.03; J7.5.2.04; J7.5.2.05; J7.5.2.06; J7.5.2.07
@@ -639,36 +639,36 @@ J1	G-J1-23	Dry-cured ham and cured pieces	2	G-J1-7	J1.2.1.01; J1.2.1.02; J1.2.1.
 J1	G-J1-24	Bacon and pancetta	2	G-J1-7	J1.2.1.05; J1.2.1.07
 J1	G-J1-25	Cooked ham, pastrami and corned beef	2	G-J1-7	J1.2.2.01; J1.2.2.02; J1.2.2.03; J1.2.2.04
 J1	G-J1-26	Jerky, cured fat, pickled and mixed cured meats	2	G-J1-7	J1.2.3.01; J1.2.4.01; J1.2.5.01; J1.2.0.01
-J1	G-J1-8	Sausages & salami	1		J1.3.1.01; J1.3.2.01; J1.3.2.02; J1.3.2.03; J1.3.3.01; J1.3.3.02; J1.3.4.01; J1.3.0.01; J1.3.3.03; J1.3.4.02
+J1	G-J1-8	Sausages & salami	1		J1.3.1.01; J1.3.2.01; J1.3.2.02; J1.3.2.03; J1.3.3.01; J1.3.3.02; J1.3.4.01; J1.3.0.01; J1.3.3.03; J1.3.4.02; J1.3.4.03
 J1	G-J1-9	Deli, cooked & tinned meats	1		J1.4.03; J1.4.04; J1.4.05; J1.4.06; J1.4.07; J1.4.08; J1.4.09; J1.4.01; J1.4.02; J1.4.10
 J1	G-J1-10	Mixed meat boxes	1		J1.1.0.01
 J5	G-J5-1	Oils, fats & vinegars	1		J5.5
 J5	G-J5-10	Olive oil	2	G-J5-1	J5.5.1.01
 J5	G-J5-11	Other cooking and finishing oils	2	G-J5-1	J5.5.1.02; J5.5.1.03; J5.5.1.04; J5.5.1.05
 J5	G-J5-12	Cooking fats	2	G-J5-1	J5.5.2.01; J5.5.2.02
-J5	G-J5-13	Vinegars and cooking wines	2	G-J5-1	J5.5.3.01; J5.5.3.02; J5.5.3.03; J5.5.3.04; J5.5.3.05; J5.5.3.06; J5.5.3.07; J5.5.3.08
+J5	G-J5-13	Vinegars and cooking wines	2	G-J5-1	J5.5.3.01; J5.5.3.02; J5.5.3.03; J5.5.3.04; J5.5.3.05; J5.5.3.06; J5.5.3.07; J5.5.3.08; J5.5.3.09
 J5	G-J5-2	Rice, pasta, grains & pulses	1		J5.1.1; J5.1.2; J5.1.3; J5.2; J5.3
 J5	G-J5-14	Rice	2	G-J5-2	J5.1.1.01; J5.1.1.02; J5.1.1.03; J5.1.1.04; J5.1.1.05; J5.1.1.06; J5.1.1.07; J5.1.1.08; J5.1.1.09
 J5	G-J5-15	Pasta and noodles	2	G-J5-2	J5.2.1.01; J5.2.1.02; J5.2.1.03; J5.2.1.04; J5.2.2.01; J5.2.3.01; J5.2.3.02; J5.2.3.03; J5.2.4.01; J5.2.5.01; J5.2.7.01
-J5	G-J5-16	Other grains and breakfast cereals	2	G-J5-2	J5.1.2.01; J5.1.2.02; J5.1.2.03; J5.1.2.04
-J5	G-J5-17	Pulses	2	G-J5-2	J5.3.1.01; J5.3.1.02; J5.3.1.03; J5.3.1.04; J5.3.1.05; J5.3.2.01; J5.3.4.01; J5.3.4.02
+J5	G-J5-16	Other grains and breakfast cereals	2	G-J5-2	J5.1.2.01; J5.1.2.02; J5.1.2.03; J5.1.2.04; J5.1.2.05; J5.1.2.06; J5.1.2.07; J5.1.2.08; J5.1.3.01
+J5	G-J5-17	Pulses	2	G-J5-2	J5.3.1.01; J5.3.1.02; J5.3.1.03; J5.3.1.04; J5.3.1.05; J5.3.2.01; J5.3.4.01; J5.3.4.02; J5.3.1.06; J5.3.4.03; J5.3.4.04; J5.3.1.07; J5.3.1.08; J5.3.1.09; J5.3.1.10; J5.3.4.05; J5.3.3.01
 J5	G-J5-3	Flour, sugar & baking	1		J5.1.4; J5.7.1; J5.11
-J5	G-J5-18	Flour	2	G-J5-3	J5.1.4.01; J5.1.4.02; J5.1.4.03; J5.1.4.04; J5.1.4.05; J5.1.4.06; J5.1.4.07; J5.1.4.08; J5.1.4.09
-J5	G-J5-19	Sugar	2	G-J5-3	J5.7.1.01; J5.7.1.02; J5.7.1.03
+J5	G-J5-18	Flour	2	G-J5-3	J5.1.4.01; J5.1.4.02; J5.1.4.03; J5.1.4.04; J5.1.4.05; J5.1.4.06; J5.1.4.07; J5.1.4.08; J5.1.4.09; J5.1.4.10; J5.1.4.11; J5.1.4.12; J5.1.4.13; J5.1.4.14
+J5	G-J5-19	Sugar	2	G-J5-3	J5.7.1.01; J5.7.1.02; J5.7.1.03; J5.7.1.04; J5.7.1.05; J5.7.1.06; J5.7.3.01; J5.7.3.02
 J5	G-J5-20	Baking aids, flavourings and mixes	2	G-J5-3	J5.11.1.02; J5.11.1.03; J5.11.1.04; J5.11.1.05; J5.11.2.01; J5.11.3.01; J5.11.1.01; J5.11.4.01; J5.11.4.02; J5.11.4.03
 J5	G-J5-4	Spices, salt & stocks	1		J5.6; J5.9.5
-J5	G-J5-21	Spices and dried herbs	2	G-J5-4	J5.6.1.01; J5.6.1.02; J5.6.1.03; J5.6.1.04; J5.6.3.01
-J5	G-J5-22	Salt	2	G-J5-4	J5.6.4.01; J5.6.4.02; J5.6.4.03; J5.6.4.04
+J5	G-J5-21	Spices and dried herbs	2	G-J5-4	J5.6.1.01; J5.6.1.02; J5.6.1.03; J5.6.1.04; J5.6.3.01; J5.6.3.02
+J5	G-J5-22	Salt	2	G-J5-4	J5.6.4.01; J5.6.4.02; J5.6.4.03; J5.6.4.04; J5.6.4.05; J5.6.4.06; J5.6.4.07
 J5	G-J5-23	Stocks and bouillon	2	G-J5-4	J5.9.5.01
 J5	G-J5-5	Sauces & condiments	1		J5.9.1; J5.9.2; J5.9.3; J5.9.4; J5.9.6
 J5	G-J5-24	Soy sauce and fermented seasonings	2	G-J5-5	J5.9.1.01; J5.9.1.02; J5.9.1.03; J5.9.1.04; J5.9.1.05; J5.9.2.02; J5.9.2.03; J5.9.2.01; J5.9.2.04
-J5	G-J5-25	Cooking sauces and pastes	2	G-J5-5	J5.9.3.02; J5.9.3.01
-J5	G-J5-26	Table sauces, condiments and dressings	2	G-J5-5	J5.9.4.01; J5.9.4.02; J5.9.4.03; J5.9.4.04; J5.9.4.07; J5.9.4.06; J5.9.4.05
+J5	G-J5-25	Cooking sauces and pastes	2	G-J5-5	J5.9.3.02; J5.9.3.01; J5.9.6.01; J5.9.6.02
+J5	G-J5-26	Table sauces, condiments and dressings	2	G-J5-5	J5.9.4.01; J5.9.4.02; J5.9.4.03; J5.9.4.04; J5.9.4.07; J5.9.4.06; J5.9.4.05; J5.9.4.08; J5.9.4.09; J5.9.4.10; J5.9.4.11; J5.9.4.12; J5.9.4.13
 J5	G-J5-6	Tins, jars & preserves	1		J5.10.2; J5.10.3; J5.10.4; J5.10.5
 J5	G-J5-27	Tinned and jarred	2	G-J5-6	J5.10.2.01; J5.10.2.02; J5.10.2.03; J5.10.2.04; J5.10.2.05
 J5	G-J5-28	Pickles, ferments and preserves in oil	2	G-J5-6	J5.10.3.02; J5.10.3.01; J5.10.4.01; J5.10.4.02; J5.10.4.03
 J5	G-J5-7	Nuts, seeds & dried fruit	1		J5.4; J5.10.1
-J5	G-J5-29	Nuts and seeds	2	G-J5-7	J5.4.1.01; J5.4.1.02; J5.4.1.03; J5.4.1.04; J5.4.1.05; J5.4.1.06; J5.4.2.01; J5.4.2.02; J5.4.3.01; J5.4.4.01; J5.4.0.01
+J5	G-J5-29	Nuts and seeds	2	G-J5-7	J5.4.1.01; J5.4.1.02; J5.4.1.03; J5.4.1.04; J5.4.1.05; J5.4.1.06; J5.4.2.01; J5.4.2.02; J5.4.3.01; J5.4.4.01; J5.4.0.01; J5.4.1.07; J5.4.1.08; J5.4.1.09; J5.4.1.10; J5.4.4.02
 J5	G-J5-30	Dried fruit, vegetables and mushrooms	2	G-J5-7	J5.10.1.01; J5.10.1.02
 J5	G-J5-8	Honey, syrups & spreads	1		J5.7.2; J5.7.3; J5.8
 J5	G-J5-31	Honey	2	G-J5-8	J5.7.2.01; J5.7.2.02; J5.7.2.03; J5.7.2.04
@@ -734,7 +734,7 @@ B1	G-B1-9-1	Bed parts	2	G-B1-9	B1.7.01; B1.7.02
 B1	G-B1-9-2	Table and shelf parts	2	G-B1-9	B1.7.03; B1.7.04
 B2	G-B2-1	Bed linen & bedding	1		
 B2	G-B2-1-1	Bed linen	2	G-B2-1	B2.1.1.01; B2.1.1.02; B2.1.1.03; B2.1.1.04; B2.1.1.05; B2.1.1.06
-B2	G-B2-1-2	Duvets & bed covers	2	G-B2-1	B2.1.2.01; B2.1.2.02; B2.1.2.03; B2.1.2.04; B2.1.2.05
+B2	G-B2-1-2	Duvets & bed covers	2	G-B2-1	B2.1.2.01; B2.1.2.02; B2.1.2.03; B2.1.2.04; B2.1.2.05; B2.1.2.08
 B2	G-B2-1-3	Pillows	2	G-B2-1	B2.1.3.01; B2.1.3.02; B2.1.3.03
 B2	G-B2-1-4	Mattress covers	2	G-B2-1	B2.1.4.01; B2.1.4.02; B2.1.4.03
 B2	G-B2-2	Blankets & throws	1		
@@ -803,7 +803,7 @@ B5	G-B5-2-1	Kitchen knives	2	G-B5-2	B5.2.1.01; B5.2.1.02; B5.2.1.03; B5.2.1.04; 
 B5	G-B5-2-2	Cutting boards & sharpeners	2	G-B5-2	B5.2.2.01; B5.2.2.02
 B5	G-B5-3	Kitchen tools & measuring	1		
 B5	G-B5-3-1	Hand tools	2	G-B5-3	B5.2.3.01; B5.2.3.02; B5.2.3.03; B5.2.3.04; B5.2.3.05; B5.2.3.06; B5.2.3.07
-B5	G-B5-3-2	Measuring	2	G-B5-3	B5.2.4.01; B5.2.4.02; B5.2.4.03
+B5	G-B5-3-2	Measuring	2	G-B5-3	B5.2.4.01; B5.2.4.02; B5.2.4.03; B5.2.4.04
 B5	G-B5-4	Cooking & food appliances	1		
 B5	G-B5-4-1	Cooking appliances	2	G-B5-4	B5.1.4.01; B5.1.4.02; B5.1.4.05; B5.1.4.06; B5.1.4.07; B5.1.4.08; B5.1.4.09; B5.1.4.10
 B5	G-B5-4-2	Food machines	2	G-B5-4	B5.2.5.01; B5.2.5.02; B5.2.5.03
@@ -1158,12 +1158,12 @@ C5	G-C5-125	Office-machine supplies	2	G-C5-8	C5.5.7.01; C5.5.8.01; C5.5.8.02; C5
 C7	G-C7-1	Tractors & carriers	1		C7.1.1; C7.1.2; C7.1.3; C7.1.5
 C7	G-C7-101	Wheeled tractors	2	G-C7-1	C7.1.1.01; C7.1.1.02; C7.1.1.03; C7.1.1.04; C7.1.1.05; C7.1.1.06
 C7	G-C7-102	Articulated tractors	2	G-C7-1	C7.1.2.01
-C7	G-C7-103	Tracked tractors	2	G-C7-1	C7.1.3.01; C7.1.3.03
+C7	G-C7-103	Tracked tractors	2	G-C7-1	C7.1.3.01; C7.1.3.03; C7.1.3.02
 C7	G-C7-104	Implement carriers	2	G-C7-1	C7.1.5.01
 C7	G-C7-2	Soil tillage	1		C7.2.1; C7.2.2
 C7	G-C7-105	Ploughs, cultivators & subsoilers	2	G-C7-2	C7.2.1.01; C7.2.1.02; C7.2.1.06; C7.2.1.08
 C7	G-C7-106	Harrows, tillers & rollers	2	G-C7-2	C7.2.1.03; C7.2.1.04; C7.2.1.05; C7.2.1.07; C7.2.1.09; C7.2.1.10
-C7	G-C7-107	Ground shaping & clearing	2	G-C7-2	C7.2.2.01; C7.2.2.02; C7.2.2.03; C7.2.2.04; C7.2.2.06; C7.2.2.07
+C7	G-C7-107	Ground shaping & clearing	2	G-C7-2	C7.2.2.01; C7.2.2.02; C7.2.2.03; C7.2.2.04; C7.2.2.06; C7.2.2.07; C7.2.2.05
 C7	G-C7-3	Seeding & planting	1		C7.3
 C7	G-C7-108	Seed drills & planters	2	G-C7-3	C7.3.01; C7.3.02
 C7	G-C7-109	Potato planting	2	G-C7-3	C7.3.03; C7.3.06
@@ -1249,7 +1249,7 @@ C8	G-C8-135	Sealants, grout & fillers	2	G-C8-8	C8.8.2.01; C8.8.2.02; C8.8.2.03
 C8	G-C8-9	Batteries & chargers	1		C8.9.1; C8.9.2; C8.9.3; C8.9.4
 C8	G-C8-136	Cylindrical cells	2	G-C8-9	C8.9.1.01; C8.9.1.02; C8.9.1.03; C8.9.1.04; C8.9.1.05; C8.9.1.06; C8.9.1.07; C8.9.1.08
 C8	G-C8-137	Button & coin cells	2	G-C8-9	C8.9.2.01
-C8	G-C8-138	Rectangular & block batteries	2	G-C8-9	C8.9.3.01; C8.9.3.03
+C8	G-C8-138	Rectangular & block batteries	2	G-C8-9	C8.9.3.01; C8.9.3.03; C8.9.3.02
 C8	G-C8-139	Chargers	2	G-C8-9	C8.9.4.01
 C8	G-C8-10	Fuels, lubricants & firelighting	1		C8.10.1; C8.10.2; C8.10.3; C8.10.4
 C8	G-C8-140	Bottled gas	2	G-C8-10	C8.10.1.01; C8.10.1.02; C8.10.1.03
@@ -1360,7 +1360,7 @@ F1	G-F1-5	Maps, atlases and globes	1		F1.2
 F1	G-F1-11	Maps	2	G-F1-5	F1.2.1.01; F1.2.1.02; F1.2.1.03; F1.2.1.04
 F1	G-F1-12	Atlases	2	G-F1-5	F1.2.2.01; F1.2.2.02
 F1	G-F1-13	Globes	2	G-F1-5	F1.2.3.01; F1.2.3.02; F1.2.3.03
-F1	G-F1-6	Vinyl and other records	1		F1.3.1.01; F1.3.1.02; F1.3.1.03; F1.3.1.04; F1.3.1.06; F1.3.1.07
+F1	G-F1-6	Vinyl and other records	1		F1.3.1.01; F1.3.1.02; F1.3.1.03; F1.3.1.04; F1.3.1.06; F1.3.1.07; F1.3.1.05
 F1	G-F1-7	Cassettes and tapes	1		F1.3.2.01; F1.3.2.02
 F1	G-F1-8	CDs and other audio discs	1		F1.3.3.01; F1.3.3.02; F1.3.3.03; F1.3.3.04; F1.3.3.05; F1.3.4.01
 F1	G-F1-9	Films and video (tape, disc, film print)	1		F1.4
@@ -1428,7 +1428,7 @@ F3	G-F3-26	Honours and decorations	2	G-F3-6	F3.6.1.01; F3.6.1.02
 F3	G-F3-27	Service medals	2	G-F3-6	F3.6.2.01; F3.6.2.02
 F3	G-F3-28	Commemorative and art medals	2	G-F3-6	F3.6.3.01; F3.6.3.02; F3.6.3.03
 F3	G-F3-29	Award and membership medals	2	G-F3-6	F3.6.4.01; F3.6.4.02
-F3	G-F3-30	Insignia of office	2	G-F3-6	F3.6.5.01; F3.6.5.04
+F3	G-F3-30	Insignia of office	2	G-F3-6	F3.6.5.01; F3.6.5.04; F3.6.5.03
 F3	G-F3-7	Tokens and scrip	1		F3.4
 F3	G-F3-31	Service tokens	2	G-F3-7	F3.4.1.01; F3.4.1.02; F3.4.1.03
 F3	G-F3-32	Trade and wage tokens	2	G-F3-7	F3.4.2.01; F3.4.2.02
@@ -1454,12 +1454,12 @@ F4	G-F4-15	Medals, cards, holy water and charms	2	G-F4-2	F4.2.4.01; F4.2.4.02; F
 F4	G-F4-3	Ritual vessels, implements and sacred scrolls	1		F4.3
 F4	G-F4-16	Vessels	2	G-F4-3	F4.3.1.01; F4.3.1.02; F4.3.1.03; F4.3.1.04; F4.3.1.05; F4.3.1.06
 F4	G-F4-17	Hand implements	2	G-F4-3	F4.3.2.01; F4.3.2.02; F4.3.2.03; F4.3.2.04; F4.3.2.05
-F4	G-F4-18	Scrolls and scroll cases	2	G-F4-3	F4.3.3.01; F4.3.3.02; F4.3.3.03
+F4	G-F4-18	Scrolls and scroll cases	2	G-F4-3	F4.3.3.01; F4.3.3.02; F4.3.3.03; F4.3.3.04
 F4	G-F4-19	Bells, horns and drums	2	G-F4-3	F4.3.4.01; F4.3.4.02; F4.3.4.03; F4.3.4.04; F4.3.4.05; F4.3.4.06
 F4	G-F4-4	Lamps, candles, incense and offerings	1		F4.4
 F4	G-F4-20	Lamps and candles	2	G-F4-4	F4.4.1.01; F4.4.1.02; F4.4.1.03; F4.4.1.04; F4.4.1.05; F4.4.1.06; F4.4.1.07; F4.4.1.08
 F4	G-F4-21	Incense and burners	2	G-F4-4	F4.4.2.01; F4.4.2.02; F4.4.2.03
-F4	G-F4-22	Offering vessels	2	G-F4-4	F4.4.3.01; F4.4.3.03
+F4	G-F4-22	Offering vessels	2	G-F4-4	F4.4.3.01; F4.4.3.03; F4.4.3.02
 F4	G-F4-5	Tarot, oracle and divination	1		F4.5
 F4	G-F4-23	Decks	2	G-F4-5	F4.5.1.01; F4.5.1.02; F4.5.1.03
 F4	G-F4-24	Other divination tools	2	G-F4-5	F4.5.2.01; F4.5.2.02; F4.5.2.03; F4.5.2.04; F4.5.2.05; F4.5.2.06
@@ -1553,7 +1553,7 @@ E2	G-E2-21	Shelter and sleep	2	G-E2-2	E2.10.2.01; E2.10.2.02; E2.10.2.03; E2.10.
 E2	G-E2-22	Trekking	2	G-E2-2	E2.10.3.01
 E2	G-E2-23	Metal detecting	2	G-E2-2	E2.10.1.01; E2.10.1.02; E2.10.1.03
 E2	G-E2-3	Climbing, caving & navigation	1		E2.3
-E2	G-E2-24	Climbing	2	G-E2-3	E2.3.2.01; E2.3.2.02; E2.3.2.03; E2.3.2.04; E2.3.2.05; E2.3.2.06
+E2	G-E2-24	Climbing	2	G-E2-3	E2.3.2.01; E2.3.2.02; E2.3.2.03; E2.3.2.04; E2.3.2.05; E2.3.2.06; E2.3.2.07; E2.3.2.08; E2.3.2.09; E2.3.2.10; E2.3.2.11; E2.3.2.12; E2.3.2.13; E2.3.2.14; E2.3.2.15; E2.3.2.16; E2.3.2.17; E2.3.2.18; E2.3.2.19; E2.3.2.20; E2.3.2.21; E2.3.2.22; E2.3.2.23; E2.3.2.24; E2.3.2.25; E2.3.2.26
 E2	G-E2-25	Orienteering and navigation	2	G-E2-3	E2.3.3.01; E2.3.3.02
 E2	G-E2-4	Cycling gear	1		E2.5.01; E2.5.02
 E2	G-E2-5	Racket & paddle sports	1		E2.11
@@ -1725,7 +1725,7 @@ G2	G-G2-11	Farm land	2	G-G2-3	G2.1.2.1; G2.1.3.1; G2.1.4.1; G2.1.4.2
 G2	G-G2-12	Woodland	2	G-G2-3	G2.1.5.1
 G2	G-G2-13	Lakes and water	2	G-G2-3	G2.1.6.1
 G2	G-G2-14	Mixed holdings and smallholdings	2	G-G2-3	G2.1.7.1
-G2	G-G2-15	Leisure, energy and parking land	2	G-G2-3	G2.1.8.1; G2.1.8.2; G2.1.8.3; G2.1.8.4; G2.1.8.6
+G2	G-G2-15	Leisure, energy and parking land	2	G-G2-3	G2.1.8.1; G2.1.8.2; G2.1.8.3; G2.1.8.4; G2.1.8.6; G2.1.8.5
 G2	G-G2-4	Garden buildings and outbuildings	1		G2.3.1; G2.3.2; G2.3.3; G2.3.4; G2.3.5; G2.3.6
 G2	G-G2-16	Garages, carports and boathouses	2	G-G2-4	G2.3.1.1; G2.3.1.2; G2.3.1.3; G2.3.1.4
 G2	G-G2-17	Sheds, workshops and containers	2	G-G2-4	G2.3.2.1; G2.3.2.2; G2.3.2.3
@@ -1794,9 +1794,9 @@ H2	G-H2-59	Contraception and barriers	2	G-H2-9	H2.9.1.1; H2.9.1.2
 H2	G-H2-60	Breastfeeding	2	G-H2-9	H2.9.2.1; H2.9.2.2; H2.9.2.3; H2.9.2.4; H2.9.2.5
 H2	G-H2-10	First aid and wound care	1		H2.10
 H2	G-H2-61	First-aid kits	2	G-H2-10	H2.10.1.1
-H2	G-H2-62	Dressings, plasters and bandages	2	G-H2-10	H2.10.2.1; H2.10.2.2; H2.10.2.4; H2.10.2.5; H2.10.2.6; H2.10.2.7
+H2	G-H2-62	Dressings, plasters and bandages	2	G-H2-10	H2.10.2.1; H2.10.2.2; H2.10.2.4; H2.10.2.5; H2.10.2.6; H2.10.2.7; H2.10.2.3
 H2	G-H2-11	Supports, braces and prostheses	1		H2.11
-H2	G-H2-63	Supports, insoles and compression	2	G-H2-11	H2.11.1.1; H2.11.1.3; H2.11.1.4; H2.11.1.5; H2.11.1.6
+H2	G-H2-63	Supports, insoles and compression	2	G-H2-11	H2.11.1.1; H2.11.1.3; H2.11.1.4; H2.11.1.5; H2.11.1.6; H2.11.1.2
 H2	G-H2-64	Prostheses	2	G-H2-11	H2.11.2.1; H2.11.2.2; H2.11.2.3; H2.11.2.4; H2.11.2.5
 H2	G-H2-12	Parts, refills and consumables	1		H2.12
 H2	G-H2-65	Monitor parts	2	G-H2-12	H2.12.1.1
@@ -1812,13 +1812,13 @@ H3	G-H3-11	Dual-contact vibrators	2	G-H3-1	H3.1.3.01; H3.1.3.02
 H3	G-H3-2	Dildos and non-powered insertables	1		H3.2.01; H3.2.02; H3.2.03; H3.2.04; H3.2.05
 H3	G-H3-3	Anal products	1		H3.3.01; H3.3.02; H3.3.03; H3.3.04; H3.3.05
 H3	G-H3-4	Penile products	1		H3.4
-H3	G-H3-12	Enclosing devices (masturbators)	2	G-H3-4	H3.4.1.02; H3.4.1.03; H3.4.1.04; H3.4.1.05; H3.4.1.06
+H3	G-H3-12	Enclosing devices (masturbators)	2	G-H3-4	H3.4.1.02; H3.4.1.03; H3.4.1.04; H3.4.1.05; H3.4.1.06; H3.4.1.01
 H3	G-H3-13	Rings and sleeves	2	G-H3-4	H3.4.2.01; H3.4.2.02; H3.4.2.03
 H3	G-H3-14	Pumps	2	G-H3-4	H3.4.3.01
 H3	G-H3-5	Restraint, impact and sensation gear	1		H3.5
-H3	G-H3-15	Restraints	2	G-H3-5	H3.5.1.01; H3.5.1.02; H3.5.1.03; H3.5.1.04; H3.5.1.05; H3.5.1.06; H3.5.1.07; H3.5.1.10
+H3	G-H3-15	Restraints	2	G-H3-5	H3.5.1.01; H3.5.1.02; H3.5.1.03; H3.5.1.04; H3.5.1.05; H3.5.1.06; H3.5.1.07; H3.5.1.10; H3.5.1.08
 H3	G-H3-16	Deprivation and gags	2	G-H3-5	H3.5.2.01; H3.5.2.02
-H3	G-H3-17	Impact and sensation	2	G-H3-5	H3.5.3.02; H3.5.3.03; H3.5.3.04; H3.5.3.05; H3.5.3.06
+H3	G-H3-17	Impact and sensation	2	G-H3-5	H3.5.3.02; H3.5.3.03; H3.5.3.04; H3.5.3.05; H3.5.3.06; H3.5.3.01
 H3	G-H3-18	Chastity and genital restraint	2	G-H3-5	H3.5.4.01; H3.5.4.02
 H3	G-H3-19	Electro-stimulation	2	G-H3-5	H3.5.5.01; H3.5.5.02
 H3	G-H3-6	Machines	1		H3.6.01
@@ -1849,3 +1849,5 @@ F5	G-F5-22	Gift, phone and prepaid cards	2	G-F5-6	F5.2.2.01; F5.2.2.02; F5.2.2.0
 F5	G-F5-23	Transit cards	2	G-F5-6	F5.2.3.01
 F5	G-F5-24	Membership and loyalty cards	2	G-F5-6	F5.2.4.01; F5.2.4.02
 F5	G-F5-25	Key and SIM cards	2	G-F5-6	F5.2.5.01; F5.2.5.02
+E2	G-E2-81	Caving	2	G-E2-3	E2.3.1.01; E2.3.1.02; E2.3.1.03; E2.3.1.04; E2.3.1.05; E2.3.1.06
+E2	G-E2-82	Hockey (ice, field and bandy)	2	G-E2-6	E2.14.5.01; E2.14.5.02; E2.14.5.03; E2.14.5.04; E2.14.5.05; E2.14.5.06; E2.14.5.07; E2.14.5.08; E2.14.5.09; E2.14.5.10; E2.14.5.11; E2.14.5.12; E2.14.5.13; E2.14.5.14; E2.14.5.15
