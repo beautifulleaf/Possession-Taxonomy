@@ -1,0 +1,29 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Curtain tieback	B2	new_kind	B2.7.05	B2.7	Curtain tieback or holdback	a fabric or cord tie, or a fixed wall hook or arm, that holds a drawn curtain back to the side of the window		https://www.dunelm.com/category/home-and-furniture/curtains-and-blinds/tracks-poles-and-fixtures/curtain-rings-and-fixtures?page=2	Sold as its own fixture group (tieback hooks, holdbacks); no B2.7 kind holds it; next free B2.7 number.
+Curtain holdback	B2	covered	B2.7.05	B2.7					Same job as the tieback: one kind, hardware or fabric is an attribute.
+Curtain finial	B2	new_kind	B2.7.06	B2.7	Curtain pole bracket or finial	a bracket that fixes a curtain pole to wall or ceiling, or an end piece fitted to the pole end, sold apart from the pole		https://www.dunelm.com/category/home-and-furniture/curtains-and-blinds/tracks-poles-and-fixtures/curtain-rings-and-fixtures?page=2	Sold separately from poles as fixtures; S3 part made for curtain poles; next free B2.7 number.
+Curtain bracket	B2	covered	B2.7.06	B2.7					Bracket and finial share one kind: pole fittings sold apart from the pole.
+Cushion pad or insert	B2	new_kind	B2.4.08	B2.4	Cushion pad (insert)	a plain stuffed inner sold without a decorative cover, made to fill a cushion cover		https://www.dunelm.com/category/home-and-furniture/home-furnishings/cushions/large-cushions	Dunelm sells cushion pads as a category; scatter cushion is sold dressed; next free B2.4 number.
+Pillow protector	B2	new_kind	B2.1.1.05	B2.1.1	Pillow protector	a zipped, often waterproof or anti-allergy cover fitted under the pillowcase to guard a bed pillow		https://www.ikea.com/qa/en/cat/bedding-tl004	IKEA lists pillow protectors as their own bedding category; the pillowcase is the outer dressing; next free B2.1.1 number.
+Bed and headboard cover	B2	new_kind	B2.1.1.06	B2.1.1	Bed frame or headboard cover	a removable fabric cover for an upholstered bed frame or headboard, also when made to fit one model (fits)		https://www.ikea.com/qa/en/cat/bedding-tl004	Textile furniture cover dresses the bed (B2-O1, not S3); IKEA bedding lists bed covers; weak, attest in HV_NK.
+Body or pregnancy pillow	B2	covered	B2.1.3.03	B2.1.3					Holds the body in a chosen position; definition polish: add full-length, U and C body pillows, any fill.
+Baby sleep sack or swaddle sack	B2	other_category					A1		Wearable baby sleeping bags are A1 by the B2 tree's boundary list (garment step).
+Coaster	B2	other_category					B5		Coasters are B5 tableware (step 30); B2 takes only textile placemats among table mats (B5-O1).
+Bath mat sold with towels	B2	covered	B2.2.2.02	B2.2.2					Kind exists; shown in the Towels & bath display group.
+Tie-up or roll-up shade	B2	new_kind	B2.3.2.08	B2.3.2	Tie-up shade (roll-up shade)	a fabric shade rolled or gathered up by hand and held by straps or ties, with no roller tube or cord pleats		https://www.wayfair.com/ideas-and-advice/guide-to-choosing-blinds-shades-S4522.html	Wayfair lists tie-up and roll-up shades as types; a mechanism no B2.3.2 kind covers; next free number.
+Mini blind	B2	attribute	B2.3.2.03	B2.3.2					A venetian blind with narrow slats: slat width is an attribute (C2(b)).
+Anti-fatigue or standing desk mat	B2	covered	B2.2.2.03	B2.2.2					Same job, standing while working; definition polish: counter, sink or standing desk.
+Fitness or yoga mat	B2	other_category					E2		Mat made for an exercise practice: sport gear, E2.
+Gym towel	B2	covered	B2.6.03	B2.6					A hand-size towel; setting is an attribute.
+Face towel	B2	covered	B2.6.04	B2.6					Alias of washcloth (face cloth).
+Rug runner	B2	attribute		B2.2.1					Shape and size are attributes of the rug kinds (memo 4b).
+Ziegler rug	B2	named_form	B2.2.1.01	B2.2.1				https://rug-wiki.com/rug-types	Travelling design name of knotted-pile rugs made in several countries (B-15).
+Berber rug	B2	named_form	B2.2.1.01	B2.2.1				https://rug-wiki.com/rug-types	Moroccan pile rug tradition sold by name; flat Berber weaves go under Kilim.
+Patchwork rug	B2	named_form	B2.2.1.01	B2.2.1				https://rug-wiki.com/rug-types	Design of pieced vintage knotted rugs sold by name; hide patchwork stays Hide rug.
+Silk rug	B2	attribute		B2.2.1					Pile material is an attribute (C2(b)).
+Nomad rug	B2	attribute		B2.2.1					Weaving environment is the attribute weaving_environment (memo 14).
+Hand-loomed rug	B2	attribute		B2.2.1					Hand or machine is the attribute process; construction stays the kind.
+Seat pad	B2	covered	B2.4.07	B2.4					Chair pad (seat pad) exists.
+Duvet cover set	B2	attribute	B2.1.1.03	B2.1.1					Sets are a unit-of-sale attribute; no suite kinds (K-1).
+Bed skirt	B2	covered	B2.1.1.04	B2.1.1					Valance or dust ruffle.
+Track glider and joiner	B2	covered	B2.7.03	B2.7					Gliders attach the heading to the track: curtain rings and hooks.
