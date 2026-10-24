@@ -1,0 +1,7 @@
+# RD_D4 report (D4 Cameras & Photography)
+Departments (6): Cameras; Lenses & filters; Studio & lighting; Tripods & support; Film & darkroom; Camera accessories. Basis: Samy's Camera menu (fetched in full: Cameras, Lenses, Camera Accessories, Tripods, Film & Darkroom, Studio & Lighting with strobe, continuous, modifiers, stands) plus the stored input (Shotkit, Adorama, Digital Trends type-first approach). B&H fetch failed (403); no third shop checked, so evidence is Samy's plus the input file.
+Shelves: 22, sizes 3 to 9 (Cameras 6/5/3/9/3; Lenses 8/6; Lighting 3/7/6/7/3; Support 5/5/4; Film & darkroom 7/7/8/6; Accessories 5/6/5). No shelf of one or two.
+Names changed: 27 of 124 differ from the stored names (plus case or bracket tidying); 12 descriptions rewritten (codes, "named form", old names removed). Markers: 20 carried over, attached to R1 (cameras), R2 (lenses), R3 lighting, R4 support, R5 (film).
+Checker: 124 kinds, 6 departments, 22 shelves, no errors or warnings.
+For a person to decide: camera drone, trail camera and photo booth sit in "Drones & specialist cameras" (drones may belong in a drone category; Samy's lists drones separately). Camcorder and action cameras sit under Cameras (Samy's puts them under Video). Light meter (D4.7.08) sits in accessories though Samy's files it under lighting. Backdrop stand's backdrop lives in Soft Furnishings. Lighting and support markers are provisional (memo only).
+Files: verify/out/RD_D4_display.tsv, RD_D4_groups.tsv, RD_D4_markers.tsv; script verify/work/RD_D4/build.py.

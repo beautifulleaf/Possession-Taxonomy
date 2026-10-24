@@ -1,0 +1,8 @@
+# RD_D2 report (D2 Phones, Tablets & Personal Devices)
+Departments (8): Phones; Tablets & e-readers; Wearables; GPS & trackers; Power & charging; Radios & pagers; Organisers & translators; Cases & accessories. Led by device type, as the stored proposal says; accessories fold into the device they serve (charging dock and battery case sit under Power & charging).
+Shops: Best Buy tracker page fetched (partial: Bluetooth trackers, GPS trackers and car GPS are separate lists; no phone menu); Garmin satellite-communicator search excerpts via WebSearch (retailers sell them apart from handheld GPS). No full department menu could be fetched, so the rest rests on the input evidence (Digital Trends, Digital Unite, Notebookcheck). Log: verify/work/RD_D2/fetched.tsv.
+Shelves (8): Smartphones 5, Feature phones 4, Home & satellite phones 3, GPS navigators 4, Trackers & satellite safety devices 5, Cases & screen protectors 4, Straps/styluses & keyboards 3, Camera & creator add-ons 5. Small departments (Tablets & e-readers 3, Wearables 6, Power 4, Radios 4, Organisers 5) hold kinds directly.
+55 kinds: 21 names changed, 21 descriptions rewritten (codes, tags, "provisional", "line").
+Markers: all 27 carried over (smartphone, tablet, e-reader, wearable/tracker, power bank).
+Checker: no errors, no warnings.
+For a person to decide: D2.1.4.01 Landline phone and D2.8.15 DECT repeater are fixed-line gear in a mobile category; Magnetic power bank is flagged in its definition as possibly not a separate kind; DECT repeater is placed with home phones, not accessories. Tablets and e-readers share markers across one department.

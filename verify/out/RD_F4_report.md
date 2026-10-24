@@ -1,0 +1,6 @@
+# RD_F4 report (F4 Religious & Ceremonial Objects)
+Departments (7): Altars, statues & sacred images; Prayer & devotion; Candles, lamps & incense; Ritual vessels & implements; Scrolls & tefillin (5 kinds, no shelves); Tarot & divination; Funeral & memorial. Shops checked: Skirball Judaica shop (fetched; holiday, item, mezuzot, tallit menu), Bel-Art religious articles (fetched; candles/incense, rosaries, objects, crosses, statues, liturgy); Bloomingdale's Judaica failed (403). The input file's evidence (Holyart, Rakuten, Exotic India) supplied the rest. The old "Fittings for one object" department is dissolved: finial to scrolls, coffin plate and pillow to coffins, urn plaque to urns.
+Shelves: 17, sizes 3 to 6. Departments are use-led; tradition is not a level.
+Names changed: 18 of 78 changed. 45 descriptions rewritten where they cited codes or working terms.
+Checker: no errors, no warnings.
+For a person: Dowsing rod and Spirit board sit in divination by definition; Seder plate, Ritual cup and Spice box are Judaica yet shelved by form, so a Judaica shopper meets them on one shelf only; Hanukkah lamp and Seven-branch menorah are separate kinds with near-identical roles; Eternal light and Ritual lantern are both light kinds in different shelves.
