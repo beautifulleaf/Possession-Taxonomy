@@ -1,0 +1,11 @@
+# Hand tools > Screwdrivers, spanners & tool kits
+- 054 · Screwdriver
+- 055 · Hex key (also called: Allen key)
+- 056 · Combination spanner (also called: combination wrench)
+- 057 · Adjustable wrench
+- 058 · Socket wrench (also called: ratchet · socket set)
+- 059 · Torque wrench
+- 060 · Pipe wrench
+- 061 · Basin wrench
+- 062 · Box spanner (also called: tube spanner)
+- 063 · Tool kit

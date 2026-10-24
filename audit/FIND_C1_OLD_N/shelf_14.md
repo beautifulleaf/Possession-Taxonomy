@@ -1,0 +1,12 @@
+# Fastening, joining & clamping > Hammers, mallets & demolition hammers
+- 101 · claw hammer
+- 102 · double-faced hammer [genno]
+- 103 · mallet
+- 104 · demolition hammer (breaker)
+- 105 · club hammer [lump hammer]
+- 106 · brick hammer
+- 107 · ball-pein hammer
+- 108 · cross-pein hammer [Warrington]
+- 109 · slater's hammer
+- 110 · sledgehammer
+- 111 · punch

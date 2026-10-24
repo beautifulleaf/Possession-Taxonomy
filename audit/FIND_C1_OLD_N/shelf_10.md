@@ -1,0 +1,13 @@
+# Shaping, sanding & finishing > Grinders, sanders & polishers
+- 078 · angle grinder
+- 079 · die grinder
+- 080 · rotary tool
+- 081 · random-orbit sander
+- 082 · belt sander
+- 083 · polisher
+- 084 · sheet sander [orbital finishing sander]
+- 085 · detail sander
+- 086 · drywall sander
+- 087 · oscillating spindle sander [bobbin sander]
+- 088 · belt and disc sander
+- 089 · wall chaser

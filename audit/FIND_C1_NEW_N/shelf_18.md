@@ -1,0 +1,12 @@
+# Workshop machinery > Table saws & sawing machines
+- 103 · Jobsite table saw (also called: portable table saw)
+- 104 · Contractor table saw
+- 105 · Hybrid table saw
+- 106 · Cabinet table saw
+- 107 · Sliding table saw
+- 108 · Vertical panel saw
+- 109 · Straight-line rip saw
+- 110 · Bandsaw (also called: woodworking bandsaw)
+- 111 · Metal-cutting bandsaw
+- 112 · Cold cut saw
+- 113 · Scroll saw

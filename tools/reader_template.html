@@ -1,0 +1,128 @@
+<title>Possession Tool Catalogue</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a shop catalogue. Aisle signs (departments) across the top, the chosen department's shelves below, items as plain entries; search runs across every aisle. */
+:root {
+  --bg: #eef0ec; --paper: #fbfcf9; --ink: #1c211d; --muted: #59625b; --rule: #cfd5cd;
+  --accent: #2f5b3c; --accent-ink: #f4f7f1; --flag: #f2c230; --flag-ink: #2b2405; --soft: #e1e9df;
+  --sign: "Big Shoulders Display", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --body: "Public Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141815; --paper: #1b201c; --ink: #e5eae3; --muted: #9ba69c; --rule: #2f3730;
+  --accent: #8cc79c; --accent-ink: #102015; --flag: #e8b923; --flag-ink: #241d02; --soft: #223026; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141815; --paper: #1b201c; --ink: #e5eae3; --muted: #9ba69c; --rule: #2f3730;
+  --accent: #8cc79c; --accent-ink: #102015; --flag: #e8b923; --flag-ink: #241d02; --soft: #223026; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); border-bottom: 1px solid var(--rule); }
+.top { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; padding-block: 14px 10px; }
+h1 { font: 800 30px/1 var(--sign); letter-spacing: .01em; text-transform: uppercase; margin: 0; }
+h1 small { display: block; font: 500 12px/1.4 var(--mono); color: var(--muted); text-transform: none; letter-spacing: .02em; margin-top: 4px; }
+#q { margin-left: auto; width: min(100%, 340px); font: 16px/1.2 var(--body); padding: 10px 12px; border: 1px solid var(--rule); border-radius: 6px; background: var(--bg); color: var(--ink); }
+nav.aisles { display: flex; flex-wrap: wrap; gap: 6px; padding-block: 0 12px; }
+nav.aisles button { font: 600 17px/1 var(--sign); letter-spacing: .03em; text-transform: uppercase; padding: 9px 12px 8px; border-radius: 4px; border: 1px solid var(--rule); background: transparent; color: var(--ink); cursor: pointer; display: flex; gap: 8px; align-items: baseline; }
+nav.aisles button span { font: 500 11px/1 var(--mono); color: var(--muted); }
+nav.aisles button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+nav.aisles button[aria-pressed="true"] span { color: var(--accent-ink); opacity: .8; }
+button:focus-visible, #q:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+main { padding-block: 26px 70px; display: grid; gap: 30px; }
+.dept-head { display: grid; gap: 10px; }
+h2 { font: 800 44px/1 var(--sign); text-transform: uppercase; margin: 0; text-wrap: balance; }
+.shelflist { display: flex; flex-wrap: wrap; gap: 6px 14px; font: 15px/1.4 var(--body); }
+.shelflist a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+.shelflist a:hover { border-bottom-color: var(--accent); }
+.best { background: var(--paper); border: 1px solid var(--rule); border-left: 6px solid var(--flag); border-radius: 6px; padding: 14px 18px; max-width: 78ch; }
+.best h3 { font: 700 13px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.best ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.best b { font-weight: 600; }
+.best .v { font-style: italic; color: var(--muted); }
+section.shelf { display: grid; gap: 10px; scroll-margin-top: 150px; }
+h3.shelf-name { font: 700 24px/1.1 var(--sign); letter-spacing: .02em; text-transform: uppercase; margin: 0; padding-top: 10px; border-top: 3px solid var(--ink); display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+h3.shelf-name span { font: 500 12px/1 var(--mono); color: var(--muted); text-transform: none; letter-spacing: 0; }
+h3.shelf-name em { font: 500 13px/1 var(--body); font-style: normal; color: var(--muted); text-transform: none; letter-spacing: 0; }
+.items { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; align-items: start; }
+article.item { background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+article.item h4 { font: 600 17px/1.3 var(--body); margin: 0; }
+.also { font: 13px/1.4 var(--body); color: var(--muted); margin: 0; }
+.desc { font: 15px/1.5 var(--body); margin: 0; }
+details.models summary { cursor: pointer; font: 600 13px/1.3 var(--body); color: var(--accent); list-style: none; }
+details.models summary::-webkit-details-marker { display: none; }
+details.models summary::before { content: "+ "; font-family: var(--mono); }
+details.models[open] summary::before { content: "− "; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+.chip { font: 13px/1.3 var(--body); background: var(--soft); border-radius: 4px; padding: 3px 7px; }
+.chip i { font-style: normal; color: var(--muted); margin-left: 5px; }
+.chip.range { background: transparent; border: 1px solid var(--rule); }
+.src { font: 12px/1.3 var(--mono); color: var(--muted); }
+.src a { color: var(--muted); }
+.none { color: var(--muted); font: 15px/1.5 var(--body); }
+mark { background: var(--flag); color: var(--flag-ink); padding: 0 1px; border-radius: 2px; }
+@media (max-width: 640px) { h2 { font-size: 34px; } #q { margin-left: 0; width: 100%; } .items { grid-template-columns: minmax(0, 1fr); } section.shelf { scroll-margin-top: 220px; } }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+<header><div class="wrap">
+  <div class="top"><h1>__TITLE__<small>Possession taxonomy · reader view</small></h1>
+  <input id="q" type="search" placeholder="Search tools, names, models" aria-label="Search tools, other names and models"></div>
+  <nav class="aisles" id="aisles" aria-label="Departments"></nav>
+</div></header>
+<div class="wrap"><main id="main"></main></div>
+<script>
+const DATA = __DATA__;
+const $ = (t, a = {}, ...kids) => { const e = document.createElement(t); for (const [k, v] of Object.entries(a)) { if (k === 'class') e.className = v; else if (k === 'text') e.textContent = v; else e.setAttribute(k, v); } kids.flat().forEach(c => c != null && e.append(c)); return e; };
+const count = d => d.s.reduce((a, s) => a + s.k.length, 0);
+let cur = DATA.depts[0].id;
+const fromHash = location.hash.slice(1); if (DATA.depts.some(d => d.id === fromHash)) cur = fromHash;
+try { const v = localStorage.getItem('reader-' + DATA.code); if (!fromHash && v && DATA.depts.some(d => d.id === v)) cur = v; } catch (e) {}
+const aisles = document.getElementById('aisles'), main = document.getElementById('main'), q = document.getElementById('q');
+DATA.depts.forEach(d => { const b = $('button', { type: 'button', 'data-id': d.id, 'aria-pressed': 'false' }, d.n, $('span', { text: count(d) }));
+  b.addEventListener('click', () => { cur = d.id; q.value = ''; render(); try { localStorage.setItem('reader-' + DATA.code, d.id); } catch (e) {} window.scrollTo({ top: 0 }); }); aisles.append(b); });
+const hl = (text, term) => { if (!term) return text; const i = text.toLowerCase().indexOf(term); if (i < 0) return text; return [text.slice(0, i), $('mark', { text: text.slice(i, i + term.length) }), text.slice(i + term.length)]; };
+function item(k, term) {
+  const a = $('article', { class: 'item' }, $('h4', {}, hl(k.n, term)));
+  if (k.a) a.append($('p', { class: 'also' }, 'Also called ', hl(k.a, term)));
+  a.append($('p', { class: 'desc', text: k.d }));
+  const n = k.m.length + k.r.length;
+  if (n) {
+    const det = $('details', { class: 'models' }, $('summary', { text: (k.m.length ? k.m.length + (k.m.length === 1 ? ' model' : ' models') : '') + (k.m.length && k.r.length ? ' · ' : '') + (k.r.length ? k.r.length + (k.r.length === 1 ? ' range' : ' ranges') : '') }));
+    const chips = $('div', { class: 'chips' });
+    k.r.forEach(([nm, mk]) => chips.append($('span', { class: 'chip range', title: 'a maker\'s range covering several models' }, hl(nm, term), mk ? $('i', { text: mk }) : null)));
+    k.m.forEach(([nm, mk]) => chips.append($('span', { class: 'chip' }, hl(nm, term), mk ? $('i', { text: mk }) : null)));
+    det.append(chips);
+    if (term && [...k.m, ...k.r].some(([nm, mk]) => (nm + ' ' + mk).toLowerCase().includes(term))) det.open = true;
+    a.append(det);
+  }
+  if (k.s) a.append($('p', { class: 'src' }, $('a', { href: k.s, target: '_blank', rel: 'noopener', text: 'Where this was checked' })));
+  return a;
+}
+const hit = (k, term) => [k.n, k.a, k.d, ...k.m.flat(), ...k.r.flat()].join(' ').toLowerCase().includes(term);
+function render() {
+  const term = q.value.trim().toLowerCase();
+  aisles.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(!term && b.dataset.id === cur)));
+  main.replaceChildren();
+  if (term) {
+    let total = 0;
+    DATA.depts.forEach(d => d.s.forEach(s => { const ks = s.k.filter(k => hit(k, term)); if (!ks.length) return; total += ks.length;
+      main.append($('section', { class: 'shelf' }, $('h3', { class: 'shelf-name' }, s.n, $('em', { text: d.n })), $('div', { class: 'items' }, ks.map(k => item(k, term))))); }));
+    if (!total) main.append($('p', { class: 'none', text: 'Nothing matches "' + q.value.trim() + '". Try another word for it, or browse a department above.' }));
+    else main.prepend($('p', { class: 'none', text: total + (total === 1 ? ' item' : ' items') + ' match "' + q.value.trim() + '".' }));
+    return;
+  }
+  const d = DATA.depts.find(x => x.id === cur);
+  const head = $('div', { class: 'dept-head' }, $('h2', { text: d.n }));
+  if (d.s.length > 1) head.append($('nav', { class: 'shelflist', 'aria-label': 'Shelves in ' + d.n }, d.s.map((s, i) => $('a', { href: '#shelf-' + i, text: s.n + ' (' + s.k.length + ')' }))));
+  main.append(head);
+  if (d.b.length) main.append($('div', { class: 'best' }, $('h3', { text: 'What makes a good one' }),
+    $('ol', {}, d.b.map(b => $('li', {}, $('b', { text: b.m }), b.v ? [': ', $('span', { class: 'v', text: b.v })] : null, b.w ? '. ' + b.w : '')))));
+  d.s.forEach((s, i) => main.append($('section', { class: 'shelf', id: 'shelf-' + i }, $('h3', { class: 'shelf-name' }, s.n, $('span', { text: s.k.length + (s.k.length === 1 ? ' item' : ' items') })), $('div', { class: 'items' }, s.k.map(k => item(k))))));
+}
+q.addEventListener('input', render);
+main.addEventListener('click', e => { const a = e.target.closest('a[href^="#shelf-"]'); if (!a) return; e.preventDefault(); document.getElementById(a.getAttribute('href').slice(1))?.scrollIntoView(); });
+render();
+</script>

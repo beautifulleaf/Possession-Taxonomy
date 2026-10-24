@@ -1,0 +1,11 @@
+# Hand tools > Hand saws
+- 044 · Panel saw
+- 045 · Hacksaw
+- 046 · Back saw
+- 047 · Coping saw
+- 048 · Keyhole saw (also called: pad saw · drywall saw)
+- 049 · Bow saw (also called: buck saw)
+- 050 · Ryoba saw (also called: double-edged Japanese pull saw)
+- 051 · Dozuki saw (also called: backed Japanese pull saw)
+- 052 · Kataba saw (also called: single-edged Japanese pull saw)
+- 053 · Flush-cut saw (also called: kugihiki · azebiki · flush-cut pull saw)

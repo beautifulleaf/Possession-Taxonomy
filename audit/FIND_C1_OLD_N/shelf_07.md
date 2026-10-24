@@ -1,0 +1,13 @@
+# Shaping, sanding & finishing > Planes & planers
+- 056 · smoothing plane
+- 057 · jack plane
+- 058 · jointer plane
+- 059 · pull plane [kanna]
+- 060 · power planer
+- 061 · jointer (machine)
+- 062 · thicknesser
+- 063 · planer-thicknesser
+- 064 · block plane
+- 065 · shoulder plane
+- 066 · router plane
+- 067 · plough plane
