@@ -74,6 +74,18 @@ def main():
             write_tsv(ROOT / f"verify/out/data_rejects_{table}.tsv", bad, cols + ["reason"])
             sys.exit(f"{len(bad)} of {len(new)} rows rejected (verify/out/data_rejects_{table}.tsv); nothing written")
         rows = {r[key]: r for r in load(table)}
+        if table in ("named_forms", "kinds", "lines"):  # an id already holding a different object is a collision (R-107)
+            from common import norm
+            reissued = 0
+            for r in new:
+                o = rows.get(r[key])
+                if o and norm(o.get("name", "")) != norm(r.get("name", "")):
+                    if table != "named_forms":
+                        sys.exit(f"{table}: id {r[key]} already holds '{o.get('name')}', not '{r.get('name')}'; nothing written")
+                    base, n = r[key], 1
+                    while f"{base}-R{n}" in rows: n += 1
+                    r[key] = f"{base}-R{n}"; reissued += 1
+            if reissued: print(f"{table}: {reissued} colliding ids reissued with an -R<n> suffix")
         for r in new:
             old = rows.get(r[key])
             if old and table in MERGE:  # several batches meet the same maker: keep filled fields, union the sources (R-75)
