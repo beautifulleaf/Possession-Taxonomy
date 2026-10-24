@@ -1,6 +1,6 @@
 # HV_J5_3 report (J5.9 to J5.12, wave 3)
 
-Kinds: 47 of 47 attested, none unattested. Named forms: see counts below. Makers: one row per maker_id used in named forms (all branded products named by fetched pages; none of the 14 earlier-ID checks matched except M-kraft-heinz in data/makers.tsv).
+Kinds: 47 of 47 attested, none unattested. Named forms: 80. Makers: 74 (one, M-kraft-heinz, already in data/makers.tsv; the rest are branded products named by fetched pages).
 
 Catalogues: the J5 anchor catalogues (Open Food Facts, Wikipedia sauce lists) were not needed; fetched grocery aisle pages (Stop & Shop, SuperValu, Walmart via Parallel), Weee, Northern Brewer, King Arthur, Chocosphere, Total Wine and brand shop pages served well. Walmart, Total Wine, Ocado, Morrisons, Tesco, iGourmet needed the Parallel fetch tool.
 
