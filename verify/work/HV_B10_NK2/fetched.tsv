@@ -3,3 +3,8 @@ https://www.petco.com/category/bird	failed	HTTP 403 on WebFetch
 https://systemequine.com/essential-horse-tack-guide/	partial	no lead rope item; Walsh draw reins only; menu Halters & Leads
 https://thecountrysmallholder.com/country-smallholding/beginning-with-bees/	partial	hive tool essential, none sold named; Thorne sponsor
 https://dadant.com/	partial	nav: Queen Rearing category link, Hand Tools link
+https://www.petco.com/category/bird	full	(Parallel fallback) Bird Food category, seeds/pellets; cat Veterinary Diets menu; horse Tack & Saddlery; brands Kaytee Higgins Roudybush ZuPreem Lafebers
+https://www.dadant.com/catalog/tools/queen-rearing	failed	WebFetch 403; retry via Parallel
+https://www.dadant.com/catalog/tools/hand-tools	failed	WebFetch 403; retry via Parallel
+https://www.dadant.com/catalog/tools/queen-rearing	full	(Parallel fallback) JZ-BZ Grafting Tool M00652; EZI Queen System Complete M01320; cell cups; page text mentions queen cages
+https://www.dadant.com/catalog/tools/hand-tools	full	(Parallel fallback) Hive Tools: Comfort Grip, Economy, Hybrid J-Hook, Italian, Turbo
