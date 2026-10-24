@@ -308,3 +308,20 @@ Left open, not planned (no busy work): Allure winners beyond what the JavaScript
 
 ## Hand-offs stop
 Every step of SESSION_11_PROMPT.md is done; no SESSION_12_PROMPT.md is written and no new session is started. The next session starts only when the owner asks for one (owner queue: review R-120 to R-125, the delegated decisions).
+
+## Session 12 (2026-10-24) — readability: shop departments, plain names and a reader page for all 53 categories
+Owner: "the challenges now are in fact readability and that it's organized how it should be"; a sidebar within categories and the categories as top navigation, as the Culinary and Pleasure pages; no sideways scrolling; "delegate to other models if you think it's ok for less usage". Decisions R-126 and R-127.
+
+| Step | Result |
+|---|---|
+| Rules | framework/structure/navigation/READABILITY_RULES.md: one shop name per kind (synonyms to also_called), sentence case, departments as the category's shops split them (checked on fetched retailer pages), five to nine departments, no shelf of one, plain reader descriptions where a definition cites codes or working terms. The display layer never changes the tree: framework/structure/navigation/display.tsv (new), groups.tsv and markers.tsv, written only by tools/apply_readable.py (checks every kind sits in exactly one group). |
+| C1 exemplar | Tools rebuilt on nine shop departments led by power tools, hand tools and workshop machinery (Toolstation, Bunnings), replacing job-based groups that mixed hand saws with table saws. |
+| Rollout | 52 categories reviewed by Sonnet agents (verify/in/RD_COMMON.txt; outputs verify/out/RD_<CODE>_*), each checked and applied; every category now has 5–9 departments and every kind a shelf. Markers may now serve several departments or a whole category. |
+| Test | Blind findability test (Haiku request writers and finders, names only, two shelves at most): 620 of 636 requests found (97.5 %), 549 on the first shelf; three shelving faults fixed. C1 old-versus-new test with Sonnet finders: both layouts found 59–60 of 60, so agent finders guard against regressions rather than prove a gain. |
+| Reader page | https://claude.ai/artifact/C1cQq1ygVd7bWfw7Duem6n (tools/build_reader_page.py, tools/reader_template.html; pages/reader.html with pages/reader/<CODE>.json): domain row and category row at the top, departments and shelves in a sidebar, search across all categories, "What makes a good one" per department or category. The stage-3 pilot page stays as the working view with sources. |
+
+## Owner queue (session 12)
+verify/out/RD_decision_queue.md: items that may belong in another category (holster, replica weapons, kratom and other non-tobacco plant products in Smoking & Vaping, eFoils and hoverboards in Vehicles, casino machines in Toys & Games, and others), possible duplicates, five categories without quality markers (Clothing, Lighting, Animal Equipment, Optical & Scientific Instruments, Video Games), loose-fit placements and categories whose departments rest on no fetched shop page.
+
+## Next
+Owner reads the reader page and the queue; moves between categories change the tree and go through a decision pass (R-item) before the display layer follows. The Clothing scene view (genre first, R-71) is not yet on the reader page.
