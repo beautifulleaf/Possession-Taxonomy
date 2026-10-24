@@ -1,0 +1,9 @@
+compat_id	from_id	relation	to_id	sources	fetch_status
+CP-skinguard-fusion5	PF-razor-gillette-skinguard	fits	PF-razor-gillette-fusion5	https://gillette.com/en-us/faq | https://www.gillette.co.uk/p/razor-blades/proglide-razor-blades-8/12813575/	full | full
+CP-fusion5-skinguard	PF-razor-gillette-fusion5	fits	PF-razor-gillette-skinguard	https://gillette.com/en-us/faq	full
+CP-midi2-midi1	PF-protocol-midi-2-0	backward compatible with	PF-protocol-midi-1-0	https://midi.org/specifications/midi-2-0-specifications	full
+CP-usbmidi-midi1	PF-protocol-usb-midi	supports	PF-protocol-midi-1-0	https://midi.org/community/midi-news-stories/usb-class-definition-for-midi-devices-v2-0	full
+CP-usbmidi-midi2	PF-protocol-usb-midi	supports	PF-protocol-midi-2-0	https://midi.org/community/midi-news-stories/usb-class-definition-for-midi-devices-v2-0	full
+CP-eurorack-cvgate	PF-format-eurorack	supports	PF-protocol-cv-gate	https://en.wikipedia.org/wiki/CV/gate | https://en.wikipedia.org/wiki/Eurorack	full | full
+CP-dinsync-midi	PF-protocol-din-sync	adapts to through an adapter	PF-protocol-midi-1-0	https://en.wikipedia.org/wiki/DIN_sync	full
+CP-cvgate-midi	PF-protocol-cv-gate	adapts to through an adapter	PF-protocol-midi-1-0	https://en.wikipedia.org/wiki/CV/gate	full

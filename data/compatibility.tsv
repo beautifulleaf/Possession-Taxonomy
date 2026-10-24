@@ -316,3 +316,11 @@ CP-B9.2.3.04-003-cart-iqos-iluma	NF-B9.2.3.04-003	requires	PF-cart-iqos-iluma	ht
 CP-B9.1.7.01-001-cart-iqos-iluma	NF-B9.1.7.01-001	fits	PF-cart-iqos-iluma	https://www.iqos.com/gb/en/discover-heated-tobacco/iluma.html	full
 CP-B9.1.7.01-002-cart-iqos-iluma	NF-B9.1.7.01-002	fits	PF-cart-iqos-iluma	https://www.iqos.com/gb/en/discover-heated-tobacco/iluma.html	full
 CP-B9.2.3.04-004-cart-iqos-heets	NF-B9.2.3.04-004	requires	PF-cart-iqos-heets	https://www.iqos.com/ph/en/support/faqs/how-do-iqos-models-differ-from-each-other.html | https://www.iqos.com/at/de/support/faq/welche-tabaksticks-sind-mit-iqos-geraeten-kompatibel.html	partial | partial
+CP-skinguard-fusion5	PF-razor-gillette-skinguard	fits	PF-razor-gillette-fusion5	https://gillette.com/en-us/faq | https://www.gillette.co.uk/p/razor-blades/proglide-razor-blades-8/12813575/	full | full
+CP-fusion5-skinguard	PF-razor-gillette-fusion5	fits	PF-razor-gillette-skinguard	https://gillette.com/en-us/faq	full
+CP-midi2-midi1	PF-protocol-midi-2-0	backward compatible with	PF-protocol-midi-1-0	https://midi.org/specifications/midi-2-0-specifications	full
+CP-usbmidi-midi1	PF-protocol-usb-midi	supports	PF-protocol-midi-1-0	https://midi.org/community/midi-news-stories/usb-class-definition-for-midi-devices-v2-0	full
+CP-usbmidi-midi2	PF-protocol-usb-midi	supports	PF-protocol-midi-2-0	https://midi.org/community/midi-news-stories/usb-class-definition-for-midi-devices-v2-0	full
+CP-eurorack-cvgate	PF-format-eurorack	supports	PF-protocol-cv-gate	https://en.wikipedia.org/wiki/CV/gate | https://en.wikipedia.org/wiki/Eurorack	full | full
+CP-dinsync-midi	PF-protocol-din-sync	adapts to through an adapter	PF-protocol-midi-1-0	https://en.wikipedia.org/wiki/DIN_sync	full
+CP-cvgate-midi	PF-protocol-cv-gate	adapts to through an adapter	PF-protocol-midi-1-0	https://en.wikipedia.org/wiki/CV/gate	full
