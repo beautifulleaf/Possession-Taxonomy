@@ -257,5 +257,20 @@ Totals now: 30 categories with kinds, 3,099 kinds, 32,164 named forms, 1,415 lin
 
 Tools: tools/hv_prompt.py (wave-3 harvest prompts), tools/drop_stored_makers.py (run before every load). Lessons: harvest reports must be saved as files (the wave-3 prompts require it); agents still guess URLs now and then (logged as failed, unused); a maker id reused from another trade must be split before load (check_batch).
 
-## Next (session 9)
-See SESSION_9_PROMPT.md.
+## Session 9 (2026-10-24) — wave-3 harvests done, decision passes for every wave-3 category, display groups for 52 categories
+Worked on branch `claude/blissful-hopper-oyzk13`. Decisions R-123 in framework/structure/decisions/D4_residual.md. The owner delegated all decisions.
+
+| Step | Result |
+|---|---|
+| 1. DPMK_1 kinds | HV_MK_NK1–3: 51 of 54 attested (snoek and komatsuna not; wreckfish later). Pending moves re-applied (DPMK_1_C6 done after B8; DPW1_B9 keeps 5 to_line moves waiting for owner-maker rows). J2.1.1 closed to new finfish: six family leaves J2.1.5–J2.1.10 (R-123 b). |
+| 2. Wave-3 harvests | All 43 HV_<CODE>_n run and loaded (B1 B2 B4 B5 B8 C1 C5 C7 C8 D4 E1 E2 E4 F1–F6 G1 G2 H2 H3): every one of the 53 categories now has attested kinds. |
+| 3. Decision passes | DPW1_<CODE> with verify/in/DPW1_W3_ADD.txt for 34 wave-3 categories (all but F5), applied with tools/apply_dp.py; new leaves via tools/add_leaf_nodes.py; kinds held for a page check when the only evidence was a harvester note. Attestation HV_W3_NK1–4 (26 + 19 + 25 + 18). Display groups and markers HOLW_2A–D for 38 categories (B1 B2 B4–B8, C1–C5 C7 C8, D2–D4, E1 E2 E4, F1–F4 F6, G1 G2, H2 H3, I2 I3) applied with tools/apply_hol.py; 33 J7 kinds placed in J7 groups (incl. J7.3.1.06, J7.4.04, J7.4.06); late kinds placed with their leaf siblings (GRP_S9_1–5). |
+| 4. Left from session 8 | Not started except maize beer, strong cider and palm wine attestation (strong cider attested; maize beer no seller page; palm wine source not usable). |
+| 5. Pilot page | Version 9 published (https://claude.ai/artifact/69ipGh4sxukS45bxkDoSEk): all 53 categories, 5,992 kinds. |
+
+Totals now: 53 categories with kinds, 5,992 kinds, 39,153 named forms, 2,330 lines, 63,510 makers, 1,006 designations, 36 schemes with 2,448 tier entries, 378 platforms, 454 compatibility rows, 414 attributes, 249 scenes, 9,486 scene tags; display groups for 52 categories (F5 has none yet).
+
+Lessons: a batch that reuses a stored line id with another name made the whole lines write fail, so the loader helper now drops such rows before load (the stored row is kept); batches named HV_W3_* or HV_MK_* get a bogus category-level tie and their maker_kinds must be loaded with tools/data_write.py directly; agents sometimes claim to reuse a maker id that does not exist (add the row); decision-pass new leaves need the parent column "<id> <name> (new leaf)" before apply_dp.py and add_leaf_nodes.py.
+
+## Next (session 10)
+See SESSION_10_PROMPT.md.
