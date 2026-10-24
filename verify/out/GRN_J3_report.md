@@ -1,0 +1,4 @@
+# GRN_J3 report
+Splits: J3.1.01 Cow's milk -> new J3.1.08 Lactose-free cow's milk (M&S Food keeps Dairy > Milk > Lactose Free Milk as its own category; Morrisons has a Lactose Free category in search results, not fetched). Named forms moved: NF-J3.1.01-S009 (Alquería Leche Deslactosada), NF-J3.1.01-S012 (Gold Crown Lactose Free Milk). Old kind keeps its display name "Cow's milk". Shelf G-J3-R1-1.
+Cards: none. Skimmed vs whole milk powder checked at Anthony's Goods (separate listings), so no card.
+Left undecided/not split: processed cheese (Morrisons groups slices, spreads and triangles in one category, so kept as one); cheese, cream, egg and plant kinds are already fine-grained. Hen's egg and cow's milk fat levels are filter values, not kinds, left as is. Fetches: M&S (full), Anthony's Goods (full), Amazon (partial, no use).

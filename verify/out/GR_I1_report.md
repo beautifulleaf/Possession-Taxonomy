@@ -1,0 +1,4 @@
+GR_I1 report (I1 software)
+Splits: I1.12.4.01 Audio plug-in -> I1.12.4.02 Virtual instrument plug-in, I1.12.4.03 Audio effect plug-in. Old kind remains as "Other audio plug-ins" (graphics plug-ins and anything fitting neither). Shop checked and fetched: Plugin Boutique Instruments (categories/1-Instruments) and Effects (categories/2-Effects), both separate top-level categories. 30 named forms moved to the instrument kind, 6 to the effect kind; Flux Mini 2, Flux Pro and Myth left on the old kind (type not verified).
+Cards: none. Software kinds are already sold as separate products; no sibling set found that shops sell as one item.
+Undecided: Antivirus and security suite (one kind by earlier owner decision, editions as variants) left unsplit; no other kind judged too coarse. Zyklop (drum synth, unverified) left unmoved.
