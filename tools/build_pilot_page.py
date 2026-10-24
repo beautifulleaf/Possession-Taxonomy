@@ -5,7 +5,7 @@ trees in the browser: category tabs, sub-family rail, kinds with definition and 
 maker, lines, and a maker ledger tab. A1 opens "By scene" (R-71); its "Coverage" view shows brands per region and
 country against the reference distribution (tools/coverage.py, R-80, R-94). The page is generated; edit this script,
 never the HTML."""
-import html, json, subprocess, sys
+import html, json, re, subprocess, sys
 from collections import defaultdict
 from common import ROOT, read_tsv
 from regions import REGIONS, REGION_OF
@@ -56,7 +56,7 @@ def main():
     makers = {m["maker_id"]: m for m in read_tsv(ROOT / "data/makers.tsv")}
     issuers = {i["issuer_id"]: i["name"] for i in read_tsv(ROOT / "data/issuers.tsv")}  # R-124 a
     def issuer(n):
-        m = _re.match(r"issuer (I-[\w-]+)", n["notes"] or "")
+        m = re.match(r"issuer (I-[\w-]+)", n["notes"] or "")
         return issuers.get(m.group(1), "") if m else ""
     # maker roles (owner 2026-10-24, R-109): way_in shows every attested maker; owner and none show a maker only as the
     # owner of a named form or line; the others stay in the ledger but off the page
