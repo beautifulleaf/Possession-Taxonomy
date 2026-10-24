@@ -1,0 +1,68 @@
+kind_id	sub_family	leaf	name	definition	dagger
+F5.1.1.01	F5.1	F5.1.1	Passport	booklet issued by a state to identify its holder for international travel; ICAO codes (PP, PE, PD, PO, PR, PT, PS, PL, PM) and issuer designs are named forms.	
+F5.1.1.02	F5.1	F5.1.1	National identity card	card issued by a state to prove the holder's identity and citizenship or residence (Jumindeungrokjeung, Nafnskírteini, CURP card, Carteira Nacional de Identificação as named forms; My Number card and Personalausweis named forms †).	
+F5.1.1.03	F5.1	F5.1.1	Driving licence	document issued to permit its holder to drive; licence categories are a C17 entry, issuer designs named forms.	
+F5.1.1.04	F5.1	F5.1.1	Residence permit	document issued to a non-citizen to prove the right to reside (Taiwan's Alien Resident Certificate as a named form).	
+F5.1.1.05	F5.1	F5.1.1	Visa	label, stamp or sheet issued to permit entry to or stay in a country; visa types are a C17 entry.	
+F5.1.2.01	F5.1	F5.1.2	Birth certificate	certificate recording a person's birth.	
+F5.1.2.02	F5.1	F5.1.2	Marriage certificate	certificate recording a marriage (ketubah a named form †; F2 when made as a picture).	
+F5.1.2.03	F5.1	F5.1.2	Death certificate	certificate recording a person's death.	
+F5.1.2.04	F5.1	F5.1.2	Divorce papers	decree or certificate recording the dissolution of a marriage.	
+F5.1.2.05	F5.1	F5.1.2	Baptism certificate	certificate recording a baptism or christening (F2 when made as a picture, K-112).	yes
+F5.1.2.06	F5.1	F5.1.2	Vaccination certificate	paper record or card certifying vaccinations received (F-22; H2 holds only devices and supplies).	yes
+F5.1.3.01	F5.1	F5.1.3	Deed	document that conveys or proves title to property (the land itself is G2).	
+F5.1.3.02	F5.1	F5.1.3	Will	document setting out how a person's estate is to be disposed of after death.	
+F5.1.3.03	F5.1	F5.1.3	Promissory note	signed written promise to pay a sum to a named party.	
+F5.1.3.04	F5.1	F5.1.3	Share certificate	printed certificate of ownership of shares in a company (F5, not F3, K-27).	
+F5.1.3.05	F5.1	F5.1.3	Bond certificate	printed certificate of a bond or debt owed by its issuer.	
+F5.1.3.06	F5.1	F5.1.3	Cheque	printed order to a bank to pay a sum, kept as an object (K-27).	yes
+F5.1.3.07	F5.1	F5.1.3	Traveller's cheque	pre-paid cheque in a fixed amount for travellers, kept as an object (K-27).	yes
+F5.1.3.08	F5.1	F5.1.3	Postal order	money order issued by a post office, kept as an object (K-27).	yes
+F5.1.3.09	F5.1	F5.1.3	Tax paper (return, assessment)	paper tax return or assessment notice kept as a record (F-22).	yes
+F5.1.4.01	F5.1	F5.1.4	Diploma	document issued by a school or university to certify a degree or completed course.	
+F5.1.4.02	F5.1	F5.1.4	Certificate (of achievement, training or membership)	document certifying an achievement, a qualification or membership of a body.	
+F5.1.4.03	F5.1	F5.1.4	School report	report issued by a school on a pupil's progress (F-22).	yes
+F5.1.5.01	F5.1	F5.1.5	Identity badge	badge or card bearing the holder's name or photograph, carried to show who the holder is (a door-opening function is an attribute, P5).	yes
+F5.1.5.02	F5.1	F5.1.5	Access badge	badge or pass bearing the holder's name or photograph, carried to show what site or event the holder may enter.	yes
+F5.1.5.03	F5.1	F5.1.5	Crew member certificate	identity document issued to airline crew under the ICAO and ISO/IEC 7810 formats.	
+F5.2.1.01	F5.2	F5.2.1	Credit card	card that draws on a line of credit from its issuer.	
+F5.2.1.02	F5.2	F5.2.1	Debit card	card that draws directly on the holder's bank account.	
+F5.2.1.03	F5.2	F5.2.1	Charge card	card whose balance must be paid in full each period.	
+F5.2.1.04	F5.2	F5.2.1	ATM card	card that gives access to a bank account at cash machines only.	
+F5.2.2.01	F5.2	F5.2.2	Gift card	card holding a prepaid value redeemable for goods or services (`acceptance` closed-system or semi-closed is an attribute).	
+F5.2.2.02	F5.2	F5.2.2	Gift certificate	paper voucher or gift token redeemable only with its issuer (circulating scrip is F3).	
+F5.2.2.03	F5.2	F5.2.2	Telephone card	prepaid card for public telephones (`technology` optical, chip or magnetic is an attribute).	
+F5.2.3.01	F5.2	F5.2.3	Transit farecard	stored-value or pass card for public transport fares (Suica, Octopus, EZ-Link, China T-Union, SUBE, Beep, Washington Metro farecard as maker-bound named forms tied to C13 rows).	
+F5.2.4.01	F5.2	F5.2.4	Membership card	card issued to show the holder's membership of a club or body.	yes
+F5.2.4.02	F5.2	F5.2.4	Loyalty card	card issued by a retailer to collect discounts or points.	
+F5.2.5.01	F5.2	F5.2.5	Key card	card that opens a lock and names no holder (a hotel key card, P5).	yes
+F5.2.5.02	F5.2	F5.2.5	SIM card	physical subscriber identity module card for a mobile network (an eSIM profile is part of its I3 plan, K-28).	yes
+F5.3.1.01	F5.3	F5.3.1	Letter	written or typed message sent or kept on paper, signed letters included (`document_class`).	
+F5.3.1.02	F5.3	F5.3.1	Diary or journal	written personal diary or journal.	
+F5.3.1.03	F5.3	F5.3.1	Kept greeting card (written in)	greeting card that has been written in and kept (a blank one is C5).	
+F5.3.1.04	F5.3	F5.3.1	Filled notebook	notebook that has been written in and kept (a blank one is C5).	yes
+F5.3.1.05	F5.3	F5.3.1	House plans	drawn or printed plans of a dwelling kept as a record.	yes
+F5.3.1.06	F5.3	F5.3.1	Postally used cover	envelope that passed through the post, neither administration-issued nor a first-day cover (K-118).	yes
+F5.3.2.01	F5.3	F5.3.2	Photographic print	photograph printed on paper or card (carte de visite, cabinet card, real photo postcard, snapshot as named forms).	
+F5.3.2.02	F5.3	F5.3.2	Slide	developed transparency mounted for projection or viewing.	
+F5.3.2.03	F5.3	F5.3.2	Negative (developed)	developed photographic negative on film or plate.	
+F5.3.3.01	F5.3	F5.3.3	Home film reel	film shot by the owner or family on a reel (8 mm, Super 8, 16 mm).	yes
+F5.3.3.02	F5.3	F5.3.3	Home videotape	videotape recorded by the owner or family.	
+F5.3.3.03	F5.3	F5.3.3	Home audio recording	sound recorded by the owner or family on a physical carrier (tape, disc).	yes
+F5.3.4.01	F5.3	F5.3.4	Photo album (filled)	album holding photographic prints.	
+F5.3.4.02	F5.3	F5.3.4	Scrapbook (filled)	album filled with kept papers of every kind (a blank scrapbook album is C4).	
+F5.3.5.01	F5.3	F5.3.5	Picture postcard	printed picture postcard, used or not (`postcard_era` and `print_process` are attributes; a real photo postcard is F5.3.2.01).	
+F5.3.5.02	F5.3	F5.3.5	Ticket stub	used ticket kept after the event or journey.	
+F5.3.5.03	F5.3	F5.3.5	Programme	printed programme of a performance or event, kept.	
+F5.3.5.04	F5.3	F5.3.5	Autograph	signature collected on a card or page (`document_class` cut signature, SP and the like).	
+F5.3.5.05	F5.3	F5.3.5	Menu	printed menu of a restaurant, banquet or voyage, kept.	
+F5.3.5.06	F5.3	F5.3.5	Invitation	printed invitation to an event, kept.	
+F5.3.5.07	F5.3	F5.3.5	Advertising trade card	card issued by a business to advertise it (a card issued in a numbered series to be collected is F3).	
+F5.3.5.08	F5.3	F5.3.5	Printed advertisement or handbill	single printed advertising item kept after use (handbill, flyer, leaflet, a detached magazine or newspaper advertisement page); a large public notice is a broadside, a poster F2, a catalogue or booklet F1 (section 14; a named form of broadside if not attested as its own category).	yes
+F5.3.5.09	F5.3	F5.3.5	Business card	printed card giving a person's or firm's name and contact details.	
+F5.3.5.10	F5.3	F5.3.5	Receipt (billheads included)	printed or written receipt or billhead, kept.	
+F5.3.5.11	F5.3	F5.3.5	Label	printed product or trade label, kept.	
+F5.3.5.12	F5.3	F5.3.5	Broadside	large single printed sheet issued as a public notice or announcement.	
+F5.3.5.13	F5.3	F5.3.5	Bookplate	printed label pasted in a book to mark its owner (level provisional).	yes
+F5.3.5.14	F5.3	F5.3.5	Timetable	printed timetable of a transport service, kept (level provisional).	yes
+F5.3.5.15	F5.3	F5.3.5	Bookmark	printed or card bookmark, kept as ephemera (level provisional).	yes
