@@ -54,6 +54,10 @@ def main():
     nfs = [n for n in read_tsv(ROOT / "data/named_forms.tsv") if n["kind_id"] in kind_ids]
     lines = [l for l in read_tsv(ROOT / "data/lines.tsv") if any(k in kind_ids for k in l["kinds"].split(";"))]
     makers = {m["maker_id"]: m for m in read_tsv(ROOT / "data/makers.tsv")}
+    issuers = {i["issuer_id"]: i["name"] for i in read_tsv(ROOT / "data/issuers.tsv")}  # R-124 a
+    def issuer(n):
+        m = _re.match(r"issuer (I-[\w-]+)", n["notes"] or "")
+        return issuers.get(m.group(1), "") if m else ""
     # maker roles (owner 2026-10-24, R-109): way_in shows every attested maker; owner and none show a maker only as the
     # owner of a named form or line; the others stay in the ledger but off the page
     roles = {r["code"]: r["role"] for r in read_tsv(ROOT / "framework/structure/maker_roles.tsv") if r["scope"] == "*"}
@@ -85,7 +89,7 @@ def main():
                   for k in sorted(kinds, key=lambda k: (CODES.index(k["code"]), [int(x) if x.isdigit() else 0 for x in k["kind_id"].split(".")[1:]]))],
         "nfs": [{"id": n["named_form_id"], "kind": n["kind_id"], "name": n["name"], "native": n["native_name"],
                  "bound": n["maker_bound"] == "yes", "maker": n["maker_id"], "line": n["line_id"], "region": n["region"],
-                 "src": srcs(n)} for n in nfs],
+                 "iss": issuer(n), "src": srcs(n)} for n in nfs],
         "lines": [{"id": l["line_id"], "maker": l["maker_id"], "name": l["name"], "kinds": [k for k in l["kinds"].split(";") if k],
                    "src": srcs(l)} for l in lines],
         "makers": {m: {"name": makers[m]["name"], "native": makers[m]["native_name"], "cls": makers[m]["maker_class"],
@@ -349,7 +353,7 @@ function start(D) {
     if (ln.length) body.append($('div', {}, $('div', { class: 'label', text: 'Lines (maker series spanning models)' }),
       $('div', { class: 'nfs' }, ln.map(l => $('a', { class: 'nf', href: (l.src[0] || [])[0] || '#', target: '_blank', rel: 'noopener' }, l.name, $('small', { text: mname(l.maker) }))))));
     const byMaker = {};
-    nf.forEach(n => (byMaker[n.bound ? mname(n.maker) : ''] ||= []).push(n));
+    nf.forEach(n => (byMaker[n.bound ? mname(n.maker) : (n.iss ? 'Issued by ' + n.iss : '')] ||= []).push(n));
     const keys = Object.keys(byMaker).sort((a, b) => (a === '') - (b === '') || a.localeCompare(b));
     const nfBox = $('div', {}, $('div', { class: 'label', text: 'Named forms' + (nf.length ? '' : ': none yet') }));
     const wrapNf = $('div', { class: 'nfs' });

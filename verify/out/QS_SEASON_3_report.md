@@ -3,8 +3,8 @@
 Output: verify/out/QS_SEASON_3_attributes.tsv, 110 season rows (attributes only). Fetch log: verify/work/QS_SEASON_3/fetched.tsv. Row form follows stored rows (months in value, scope "southern; ZA" or "southern; BR"). Ids continue after the highest season number per kind found in data/attributes.tsv and the QS_SEASON/QS_SEASON_2 outputs.
 
 Rows
-- South Africa (J4 only): 40 rows from ECR (Eat Creative Ready) seasonal guide; months taken from its season groups (Sep-Nov, Dec-Feb, Mar-May, Jun-Aug).
-- Brazil (J4 only): 67 rows from the Vitat month-by-month list (a wellness site, not an official table; months where the item is listed), plus 3 Santa Catarina rows (strawberry Nov-Mar, grape Jan-Mar, apple mid Feb-mid Jul) from the IFSC 2021 CEASA/SC Sao Jose study (Parallel excerpt fetch, fetch_status partial).
+- South Africa (J4 only): 41 rows from ECR (Eat Creative Ready) seasonal guide; months taken from its season groups (Sep-Nov, Dec-Feb, Mar-May, Jun-Aug).
+- Brazil (J4 only): 66 rows from the Vitat month-by-month list (a wellness site, not an official table; months where the item is listed), plus 3 Santa Catarina rows (strawberry Nov-Mar, grape Jan-Mar, apple mid Feb-mid Jul) from the IFSC 2021 CEASA/SC Sao Jose study (Parallel excerpt fetch, fetch_status partial).
 - J2 fish and seafood: no rows for either country.
 
 Gaps and failures
