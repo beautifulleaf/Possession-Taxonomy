@@ -1,4 +1,4 @@
-# DPW1_B6 report: B6 Cleaning & Laundry (offline, wave 3)
+# DPW1_B6 report: B6 Cleaning & Laundry
 
 ## Task 1: missing kinds (50 rows)
 Inputs: both harvest lists, split, plus four types from the fetched.tsv "gave" column. No DPMK_1_B6 file exists.

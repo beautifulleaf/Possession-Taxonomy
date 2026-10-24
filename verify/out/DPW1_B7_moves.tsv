@@ -1,0 +1,26 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-B7.1.1.01-002	to_line	L-baxi-combi-2	Combi 2	B7.1.1.01		Generation label across Baxi 600 and 800 combi ranges (630, 824, 830, 636): several models, not one design.
+NF-B7.1.1.06-003	move_kind				B7.1.4.01	Tree precedence: Dyson Purifier Hot+Cool is a named form under the air purifier, heating tagged.
+NF-B7.1.1.06-006	drop					"Downflow Fan Heater" restates the kind with a mounting attribute; 2000W is a variant.
+NF-B7.1.1.09-001	drop					"Halogen Heater" restates the kind (halogen element is an attribute); not a named design.
+NF-B7.1.1.09-002	drop					"Quartz Tube Heater" restates the kind with its element type; WL42006 is a model code.
+NF-B7.1.1.10-006	drop					"Infrarot-Bildheizkoerper" is the generic picture-panel type; print motifs are variants (C2(b), tree).
+NF-B7.1.1.13-002	to_line	L-sengoku-keroheat	KeroHeat	B7.1.1.13		Sengoku's KeroHeat brand covers several kerosene heater models: a range, not one design.
+NF-B7.1.1.13-003	to_line	L-sengoku-heatmate	HeatMate	B7.1.1.13		Row note: radiant and convection heaters under one name, so several models.
+NF-B7.1.2.01-001	to_line	L-mitsubishi-electric-kirigamine	Kirigamine	B7.1.2.01		Line already exists (memo section 6: series row); duplicate named form; models such as FL become forms.
+NF-B7.1.2.01-002	to_line	L-hitachi-shirokuma-kun	Shirokuma-kun	B7.1.2.01		Hitachi's room-aircon brand spanning several grade series (RAS-AJ and others); a series row.
+NF-B7.1.2.01-003	to_line	L-panasonic-eolia	Eolia	B7.1.2.01		Row note names two series (CS-DFL, CS-DJR): a range over several models.
+NF-B7.1.2.01-006	to_line	L-corona-cooling-heating-relala	ReLaLa	B7.1.2.01		Row note "wall-mounted split series": Corona's aircon brand over several series †.
+NF-B7.1.2.01-008	to_line	L-toshiba-daiseikai	Daiseikai	B7.1.2.01		Toshiba's Daiseikai brand spans several grade series (RAS-U and others): a series row †.
+NF-B7.1.3.06-013	move_kind				B7.1.3.11	Vornado Transom is a window air circulator: window fan, new kind (pending HV_NK attestation).
+NF-B7.1.3.06-014	drop					"Pedestal Air Circulator Fan" restates a kind; a pedestal body is the stationary fan anyway.
+NF-B7.1.3.06-015	to_line	L-iris-ohyama-woozoo	WOOZOO	B7.1.3.06		Row note "circulator series": Iris Ohyama range over many circulator models.
+NF-B7.1.4.05-001	drop					"Mini Portable Dehumidifier" restates the kind; Peltier is an attribute.
+NF-B7.1.4.08-001	to_line	L-damprid-moisture-absorbers	DampRid moisture absorbers	B7.1.4.08		Consumable brand line over several products (C2(e), R-35); hanging is a format variant.
+NF-B7.1.4.08-002	to_line	L-damprid-moisture-absorbers	DampRid moisture absorbers	B7.1.4.08		Same DampRid consumable line; refillable is a format variant.
+NF-B7.1.4.08-003	to_line	L-damprid-moisture-absorbers	DampRid moisture absorbers	B7.1.4.08		Same DampRid consumable line; hi-capacity is a size variant (C6).
+NF-B7.1.4.08-004	to_line	L-damprid-moisture-absorbers	DampRid moisture absorbers	B7.1.4.08		Same DampRid consumable line; disposable is a format variant.
+NF-B7.1.4.08-005	to_line	L-damprid-moisture-absorbers	DampRid moisture absorbers	B7.1.4.08		Same DampRid consumable line; drop-in tab is a refill format.
+NF-B7.2.2.03-001	to_line	L-waterdrop-x-series	X Series RO	B7.2.2.03		Line already exists; X16, X12, X8 and Master X14 are its models, not one design.
+NF-B7.2.2.05-001	drop					"Megahome stainless steel distiller" is kind plus material (C2(b)); no named design.
+NF-B7.4.3.01-005	drop					"Side of Pole Mount" names a mounting type, an attribute of the solar panel mount.
