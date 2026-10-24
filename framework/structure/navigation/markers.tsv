@@ -187,24 +187,6 @@ C4	G-C4-114	tannage		Leather is chosen by tannage first (memo).	proposals.tsv C4
 C4	G-C4-114	grain grade		Grade after tannage (memo).	proposals.tsv C4 row (quality_markers); C4 memo
 C4	G-C4-114	weight (oz)		A fit to the project (memo).	proposals.tsv C4 row (quality_markers); C4 memo
 C4	G-C4-116	shape consistency of the maker's line		Seed beads are compared by maker line (memo).	proposals.tsv C4 row (quality_markers); C4 memo
-C5	G-C5-101	writes at once, without skipping, with smooth and steady flow		The nib must write first time.	proposals.tsv C5 row (quality_markers); YARD-O-LED how to choose a fountain pen
-C5	G-C5-101	nib material	18k gold > 14k gold > steel	Gold nibs mark the higher rungs.	proposals.tsv C5 row (quality_markers); Cult Pens; YARD-O-LED how to choose a fountain pen
-C5	G-C5-101	nib width and shape offered		EF, F, M, B; stub, italic, flex; Japanese nibs run a size finer.	proposals.tsv C5 row (quality_markers); Goulet Pens; YARD-O-LED how to choose a fountain pen
-C5	G-C5-101	filling system	piston or vacuum > cartridge or converter	Capacity rises with piston and vacuum fillers.	proposals.tsv C5 row (quality_markers); Goulet Pens best sellers at every price point
-C5	G-C5-101	body material and craft	hallmarked 925 silver, urushi, maki-e, engine turning > ebonite or celluloid > resin	Material and decoration mark the luxury rungs.	proposals.tsv C5 row (quality_markers); Goulet Pens; YARD-O-LED how to choose a fountain pen
-C5	G-C5-101	weight and balance		A fit to the hand.	proposals.tsv C5 row (quality_markers); YARD-O-LED how to choose a fountain pen
-C5	G-C5-101	long production history and reliability		Long-made models lead the best-seller lists.	proposals.tsv C5 row (quality_markers); Goulet Pens best sellers at every price point
-C5	G-C5-111	coated or calendered surface: bleed-through and show-through resistance, dry time, shading and sheen shown		Fountain-pen paper is judged on how ink sits.	proposals.tsv C5 row (quality_markers); Pure Pens fountain pen paper guide
-C5	G-C5-111	paper weight (gsm)	120+ premium > 90-100 sweet spot > 80 minimum > 52-60 thin (prized only in coated stocks such as Tomoe River)	Weight follows the surface.	proposals.tsv C5 row (quality_markers); Pure Pens fountain pen paper guide
-C5	G-C5-111	binding lies flat	sewn > glued > wire	A notebook must open flat.	proposals.tsv C5 row (quality_markers); Fountain Pen Network favorite notebooks thread
-C5	G-C5-107	ink saturation		Bottled ink markers in the memo's order.	proposals.tsv C5 row (quality_markers); C5 memo
-C5	G-C5-107	ink shading		Bottled ink markers in the memo's order.	proposals.tsv C5 row (quality_markers); C5 memo
-C5	G-C5-107	ink sheen		Bottled ink markers in the memo's order.	proposals.tsv C5 row (quality_markers); C5 memo
-C5	G-C5-107	ink flow		Bottled ink markers in the memo's order.	proposals.tsv C5 row (quality_markers); C5 memo
-C5	G-C5-107	ink water resistance		Bottled ink markers in the memo's order.	proposals.tsv C5 row (quality_markers); C5 memo
-C5	G-C5-123	capability class	graphing > scientific > printing > basic	A class to match the need (memo).	proposals.tsv C5 row (quality_markers); C5 memo
-C5	G-C5-124	shredder cut type	micro-cut > cross-cut > strip-cut	Ladder from the memo.	proposals.tsv C5 row (quality_markers); C5 memo
-C5	G-C5-7	preference and build		Desk and filing goods carry no quality ladder.	proposals.tsv C5 row (quality_markers)
 C7	G-C7-1	measured PTO and drawbar power against need, hitch category and implement compatibility		Fit to the job comes first.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data; Purple Wave tractor buying guide
 C7	G-C7-1	lift and hydraulic capacity		Measured in the Nebraska test.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
 C7	G-C7-1	fuel efficiency (hp-hr per gallon at 75 and 50 percent pull)	higher > lower	Nebraska test figures.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
@@ -963,3 +945,22 @@ C3	G-C3-R3	Variety		Fruit is chosen by variety first.	rewritten from the stored 
 C3	G-C3-R3	Rootstock and tree form		Chosen after variety.	rewritten from the stored C3 markers (G-C3-112), RD_C3
 C3	G-C3-R4-1	Seed type		Seeds are chosen by type.	rewritten from the stored C3 markers (G-C3-114), RD_C3
 C3	G-C3-R4-1	Trial awards	award > no award	Trial awards mark the proven varieties.	rewritten from the stored C3 markers (G-C3-114), RD_C3
+C5	G-C5-R1	Fountain pens: writes at once		Without skipping, with smooth and steady flow; the nib must write first time.	rewritten from the stored C5 markers (G-C5-101), RD_C5
+C5	G-C5-R1	Fountain pens: nib material	18k gold > 14k gold > steel	Gold nibs mark the higher rungs.	rewritten from the stored C5 markers (G-C5-101), RD_C5
+C5	G-C5-R1	Fountain pens: nib width and shape offered		EF, F, M, B; stub, italic, flex; Japanese nibs run a size finer.	rewritten from the stored C5 markers (G-C5-101), RD_C5
+C5	G-C5-R1	Fountain pens: filling system	piston or vacuum > cartridge or converter	Capacity rises with piston and vacuum fillers.	rewritten from the stored C5 markers (G-C5-101), RD_C5
+C5	G-C5-R1	Fountain pens: body material and craft	hallmarked 925 silver, urushi, maki-e, engine turning > ebonite or celluloid > resin	Material and decoration mark the luxury rungs.	rewritten from the stored C5 markers (G-C5-101), RD_C5
+C5	G-C5-R1	Fountain pens: weight and balance		A fit to the hand.	rewritten from the stored C5 markers (G-C5-101), RD_C5
+C5	G-C5-R1	Fountain pens: long production history and reliability		Long-made models lead the best-seller lists.	rewritten from the stored C5 markers (G-C5-101), RD_C5
+C5	G-C5-R2	Bottled ink: saturation		One of the markers shops and reviewers use for bottled ink.	rewritten from the stored C5 markers (G-C5-107), RD_C5
+C5	G-C5-R2	Bottled ink: shading		One of the markers shops and reviewers use for bottled ink.	rewritten from the stored C5 markers (G-C5-107), RD_C5
+C5	G-C5-R2	Bottled ink: sheen		One of the markers shops and reviewers use for bottled ink.	rewritten from the stored C5 markers (G-C5-107), RD_C5
+C5	G-C5-R2	Bottled ink: flow		One of the markers shops and reviewers use for bottled ink.	rewritten from the stored C5 markers (G-C5-107), RD_C5
+C5	G-C5-R2	Bottled ink: water resistance		One of the markers shops and reviewers use for bottled ink.	rewritten from the stored C5 markers (G-C5-107), RD_C5
+C5	G-C5-R3	Paper surface	coated or calendered: bleed-through and show-through resistance, dry time, shading and sheen shown	Fountain-pen paper is judged on how ink sits.	rewritten from the stored C5 markers (G-C5-111), RD_C5
+C5	G-C5-R3	Paper weight (gsm)	120+ premium > 90-100 sweet spot > 80 minimum > 52-60 thin (prized only in coated stocks such as Tomoe River)	Weight follows the surface.	rewritten from the stored C5 markers (G-C5-111), RD_C5
+C5	G-C5-R3	Binding lies flat	sewn > glued > wire	A notebook must open flat.	rewritten from the stored C5 markers (G-C5-111), RD_C5
+C5	G-C5-R5	Preference and build		Desk goods carry no quality ladder.	rewritten from the stored C5 markers (G-C5-7), RD_C5
+C5	G-C5-R6	Preference and build		Filing goods carry no quality ladder.	rewritten from the stored C5 markers (G-C5-7), RD_C5
+C5	G-C5-R7	Calculators: capability class	graphing > scientific > printing > basic	A class to match the need.	rewritten from the stored C5 markers (G-C5-123), RD_C5
+C5	G-C5-R7	Shredders: cut type	micro-cut > cross-cut > strip-cut	Cut type sets the rung.	rewritten from the stored C5 markers (G-C5-124), RD_C5
