@@ -1096,3 +1096,49 @@ B7.4	B7	sub_family	B7	Parts and accessories made for one object	Leaf axis: the o
 B7.4.1	B7	leaf	B7.4	Air-treatment equipment	Kind axis: kind of part or consumable.	17	from verify/out/TREE_B7.md		
 B7.4.2	B7	leaf	B7.4	Water-treatment equipment	Kind axis: kind of part or consumable.	18	from verify/out/TREE_B7.md		
 B7.4.3	B7	leaf	B7.4	Solar equipment	Kind axis: kind of part.	19	from verify/out/TREE_B7.md		
+B6	B6	category				0	from verify/out/TREE_B6.md		
+B6.1	B6	sub_family	B6	Floors	Leaf axis: product type as a shopper's category names it (vacuum cleaners, floor machines, mops, brooms and sweepers, floor products).	1	from verify/out/TREE_B6.md		
+B6.1.1	B6	leaf	B6.1	Vacuum cleaners	Kind axis: body form and use, large then small, then special use (Consumer Reports order). Robot is one kind; stick and handheld are two (B-22).	2	from verify/out/TREE_B6.md		
+B6.1.2	B6	leaf	B6.1	Floor machines	Kind axis: action on the floor (wet scrubbing, extraction, polishing). Whether floor washer and floor scrubber name one kind or two, and the target of the German alias Waschsauger, are open until a definition is fetched.	3	from verify/out/TREE_B6.md		
+B6.1.3	B6	leaf	B6.1	Mops	Kind axis: head form; head material (microfibre, cotton) is an attribute. Steam mop is a kind under rule T (C10(b)); the robot mop enters by memo section 14.	4	from verify/out/TREE_B6.md		
+B6.1.4	B6	leaf	B6.1	Brooms, sweepers and buckets	Kind axis: product class.	5	from verify/out/TREE_B6.md		
+B6.1.5	B6	leaf	B6.1	Floor products	Kind axis: product class. Named apart from the machine B6.1.2.02 (duplicate-name rule, C-7).	6	from verify/out/TREE_B6.md		
+B6.2	B6	sub_family	B6	Surfaces, windows and objects	Leaf axis: product type; chemical cleaners are a leaf whose kinds go by soil or action, never the room; the care-products leaf goes by the object cared for. Covers everything hard or leathery that is cleaned, other than floors, textiles and dishes, and every object the key and S3 send to B6 for care (B-7).	7	from verify/out/TREE_B6.md		
+B6.2.1	B6	leaf	B6.2	Cloths and dusters	Kind axis: product class. Microfibre cloth and chamois may merge at harvest into one kind "cleaning cloth" with a material attribute if no fetched source compares them separately (applied by default, section 12).	8	from verify/out/TREE_B6.md		
+B6.2.2	B6	leaf	B6.2	Sponges, scourers and brushes	Kind axis: product class. A sponge or brush made for dishes is the same kind, shown under Dishes in a generated view (C14(b)).	9	from verify/out/TREE_B6.md		
+B6.2.3	B6	leaf	B6.2	Window and steam machines	Kind axis: product class. The steam cleaner serves floors and surfaces; one home here, listed under Floors in a generated view (C14(b)).	10	from verify/out/TREE_B6.md		
+B6.2.4	B6	leaf	B6.2	Chemical cleaners	Kind axis: soil or action, never the room (the room-named retail lines are aliases); scent, surface and eco claim are attributes.	11	from verify/out/TREE_B6.md		
+B6.2.5	B6	leaf	B6.2	Care products for other objects	Kind axis: object cared for; surface and eco claim are attributes.	12	from verify/out/TREE_B6.md		
+B6.3	B6	sub_family	B6	Textiles (laundry)	Leaf axis: product type (washing machines, dryers, irons and boards, airers and baskets, detergents, other textile-care products, hand-wash tools).	13	from verify/out/TREE_B6.md		
+B6.3.1	B6	leaf	B6.3	Washing machines	Kind axis: drum arrangement and function; capacity, spin speed and auto-dosing are attributes. Agitator and impeller are two kinds; the washer-dryer is a kind of washing machine (B-22).	14	from verify/out/TREE_B6.md		
+B6.3.2	B6	leaf	B6.3	Dryers	Kind axis: how moisture is removed, from vented to ventless (secondary key installation); condenser against heat pump, capacity and sensor are attributes.	15	from verify/out/TREE_B6.md		
+B6.3.3	B6	leaf	B6.3	Irons, steamers and ironing boards	Kind axis: appliance type, then board; soleplate, wattage and cordless are attributes.	16	from verify/out/TREE_B6.md		
+B6.3.4	B6	leaf	B6.3	Airers, pegs and baskets	Kind axis: function in the washing cycle; heated or not is an attribute of the airer.	17	from verify/out/TREE_B6.md		
+B6.3.5	B6	leaf	B6.3	Laundry detergents	Kind axis: physical form; bio or non-bio, colour or white and sensitive are attributes.	18	from verify/out/TREE_B6.md		
+B6.3.6	B6	leaf	B6.3	Other laundry and textile-care products	Kind axis: product class.	19	from verify/out/TREE_B6.md		
+B6.3.7	B6	leaf	B6.3	Hand-wash and manual textile tools	Kind axis: product class (B-23); era (antique) is a modifier.	20	from verify/out/TREE_B6.md		
+B6.4	B6	sub_family	B6	Dishes		21	from verify/out/TREE_B6.md		
+B6.5	B6	sub_family	B6	Waste	Leaf axis: product type (bins, bags and liners, waste machines).	22	from verify/out/TREE_B6.md		
+B6.5.1	B6	leaf	B6.5	Bins	Kind axis: form and place of use; opening mechanism (pedal, swing, touch, sensor), compartments and capacity are attributes.	23	from verify/out/TREE_B6.md		
+B6.5.2	B6	leaf	B6.5	Bags and liners	Kind axis: product class.	24	from verify/out/TREE_B6.md		
+B6.5.3	B6	leaf	B6.5	Waste machines	Kind axis: product class; installed machines keep their own category.	25	from verify/out/TREE_B6.md		
+B6.6	B6	sub_family	B6	Parts and accessories made for one object	Leaf axis: object served (C5(d), CV-17); the only sub-family exempt from the level-1 axis. Kind axis in every leaf: part type; the fitting model or platform sits in the compatibility ledger (C13) and the part carries a `fits` relation (B-23). Leaves B6.6.2 and B6.6.3 are section-14 additions from memory, provisional, and created only when one of their kinds is attested.	26	from verify/out/TREE_B6.md		
+B6.6.1	B6	leaf	B6.6	Vacuum cleaner parts		27	from verify/out/TREE_B6.md		
+B6.6.2	B6	leaf	B6.6	Washing-machine and dryer parts		28	from verify/out/TREE_B6.md		
+B6.6.3	B6	leaf	B6.6	Iron and steam-generator parts		29	from verify/out/TREE_B6.md		
+B2	B2	category				0	from verify/out/TREE_B2.md		
+B2.1	B2	sub_family	B2	Bed textiles (bed, or heated table)	Leaf axis: product type sold as a shopping category (bed linen, duvets and bed covers, pillows, mattress covers).	1	from verify/out/TREE_B2.md		
+B2.1.1	B2	leaf	B2.1	Bed linen	Kind axis: piece of the made bed.	2	from verify/out/TREE_B2.md		
+B2.1.2	B2	leaf	B2.1	Duvets and bed covers	Kind axis: construction, then warmth.	3	from verify/out/TREE_B2.md		
+B2.1.3	B2	leaf	B2.1	Pillows	Kind axis: use.	4	from verify/out/TREE_B2.md		
+B2.1.4	B2	leaf	B2.1	Mattress covers	Kind axis: layer.	5	from verify/out/TREE_B2.md		
+B2.2	B2	sub_family	B2	Floor textiles	Leaf axis: product type sold as a shopping category (rugs and carpets, mats).	6	from verify/out/TREE_B2.md		
+B2.2.1	B2	leaf	B2.2	Rugs and carpets	Kind axis: construction, in HS 5701-5705 order; hand or machine is the attribute `process`, loose or fitted is `installation`.	7	from verify/out/TREE_B2.md		
+B2.2.2	B2	leaf	B2.2	Mats	Kind axis: job.	8	from verify/out/TREE_B2.md		
+B2.3	B2	sub_family	B2	Window and screening textiles (window, door or shower opening)	Leaf axis: product type sold as a shopping category (curtains, blinds and shades).	9	from verify/out/TREE_B2.md		
+B2.3.1	B2	leaf	B2.3	Curtains	Kind axis: fabric class and place hung; heading and lining are attributes.	10	from verify/out/TREE_B2.md		
+B2.3.2	B2	leaf	B2.3	Blinds and shades	Kind axis: mechanism; fabric opacity, slat material and motorisation are attributes.	11	from verify/out/TREE_B2.md		
+B2.4	B2	sub_family	B2	Seat textiles		12	from verify/out/TREE_B2.md		
+B2.5	B2	sub_family	B2	Table and kitchen linen		13	from verify/out/TREE_B2.md		
+B2.6	B2	sub_family	B2	Body textiles		14	from verify/out/TREE_B2.md		
+B2.7	B2	sub_family	B2	Parts and accessories made for one object		15	from verify/out/TREE_B2.md		
