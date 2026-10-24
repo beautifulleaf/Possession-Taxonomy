@@ -238,92 +238,92 @@ H2.12.3	H2	leaf	H2.12	Hearing-aid parts		62	from audit/KL_H2_tree.md
 H2.12.4	H2	leaf	H2.12	Wheelchair parts		63	from audit/KL_H2_tree.md		
 H2.12.5	H2	leaf	H2.12	Spectacle parts		64	from audit/KL_H2_tree.md		
 H2.12.6	H2	leaf	H2.12	Contact-lens care		65	from audit/KL_H2_tree.md		
-I2	I2	category				0	from audit/KL_I2_tree.md		
-I2.1	I2	sub_family	I2	Text and document files (read). No leaf. Kind axis: layout form.		1	from audit/KL_I2_tree.md		
-I2.2	I2	sub_family	I2	Audio files (heard). Leaf axis: kind of recording.		2	from audit/KL_I2_tree.md		
-I2.2.1	I2	leaf	I2.2	Music recordings		3	from audit/KL_I2_tree.md		
-I2.2.2	I2	leaf	I2.2	Spoken-word books		4	from audit/KL_I2_tree.md		
-I2.2.3	I2	leaf	I2.2	Podcast episodes		5	from audit/KL_I2_tree.md		
-I2.3	I2	sub_family	I2	Moving-image files (watched). No leaf.		6	from audit/KL_I2_tree.md		
-I2.4	I2	sub_family	I2	Still-image files (viewed). No leaf. Kind axis: file-format family.		7	from audit/KL_I2_tree.md		
-I2.5	I2	sub_family	I2	Fonts and production assets (built with). Leaf axis: asset class.		8	from audit/KL_I2_tree.md		
-I2.5.1	I2	leaf	I2.5	Fonts		9	from audit/KL_I2_tree.md		
-I2.5.2	I2	leaf	I2.5	Templates and production packs (kind axis: file kind for the target tool)		10	from audit/KL_I2_tree.md		
-I2.5.3	I2	leaf	I2.5	3D assets (kind axis: asset part)		11	from audit/KL_I2_tree.md		
-I2.5.4	I2	leaf	I2.5	Sound, preset and model assets		12	from audit/KL_I2_tree.md		
-I2.6	I2	sub_family	I2	Game and platform items (used inside a game or platform account). Leaf axis: role of the item in the game or platform account. Game, platform and rarity are not levels; item designs are named forms.		13	from audit/KL_I2_tree.md		
-I2.6.1	I2	leaf	I2.6	Character and avatar wear		14	from audit/KL_I2_tree.md		
-I2.6.2	I2	leaf	I2.6	Tools, weapons and vehicles		15	from audit/KL_I2_tree.md		
-I2.6.3	I2	leaf	I2.6	Expression		16	from audit/KL_I2_tree.md		
-I2.6.4	I2	leaf	I2.6	Containers and unlocks		17	from audit/KL_I2_tree.md		
-I2.6.5	I2	leaf	I2.6	Collectibles and profile items		18	from audit/KL_I2_tree.md		
-I2.7	I2	sub_family	I2	Names and tokens (registered). Leaf axis: register.		19	from audit/KL_I2_tree.md		
-I2.7.1	I2	leaf	I2.7	Domain names (kind axis: eligibility class of the TLD)		20	from audit/KL_I2_tree.md		
-I2.7.2	I2	leaf	I2.7	Tokens (kind axis: token form)		21	from audit/KL_I2_tree.md		
-J5	J5	category				0	from audit/KL_J5_tree.md		
-J5.1	J5	sub_family	J5	Rice, grains & flours	Leaf axis, an ordered key, first yes: (1) milled to flour or meal: Flours & meals; (2) a rice grain, whole or flattened: Rice; (3) oats, or a cereal made to eat at breakfast: Oats & breakfast cereals; (4) otherwise: Other grains, pseudo-cereals & starch pearls.	1	from audit/KL_J5_tree.md		
-J5.1.1	J5	leaf	J5.1	Rice		2	from audit/KL_J5_tree.md		
-J5.1.2	J5	leaf	J5.1	Other grains, pseudo-cereals & starch pearls		3	from audit/KL_J5_tree.md		
-J5.1.3	J5	leaf	J5.1	Oats & breakfast cereals		4	from audit/KL_J5_tree.md		
-J5.1.4	J5	leaf	J5.1	Flours & meals		5	from audit/KL_J5_tree.md		
-J5.2	J5	sub_family	J5	Pasta & noodles	Leaf axis is the dough base, an ordered key, first yes: (1) potato dough: Gnocchi; (2) buckwheat in the dough: Buckwheat noodles; (3) egg dough: Egg pasta & egg noodles; (4) rice flour or a pure starch (mung bean, potato): Rice & starch noodles; (5) durum wheat semolina, including whole-wheat durum: Durum wheat pasta; (6) soft wheat flour: Soft-wheat noodles; (7) any other flour: Other-flour pasta & noodles. Fresh or dried is an attribute. Shapes within a family (spaghetti, penne, fusilli) are named forms of the family kind; a maker line is a named form with its cut recorded.	6	from audit/KL_J5_tree.md		
-J5.2.1	J5	leaf	J5.2	Durum wheat pasta		7	from audit/KL_J5_tree.md		
-J5.2.2	J5	leaf	J5.2	Egg pasta & egg noodles		8	from audit/KL_J5_tree.md		
-J5.2.3	J5	leaf	J5.2	Soft-wheat noodles		9	from audit/KL_J5_tree.md		
-J5.2.4	J5	leaf	J5.2	Buckwheat noodles		10	from audit/KL_J5_tree.md		
-J5.2.5	J5	leaf	J5.2	Rice & starch noodles		11	from audit/KL_J5_tree.md		
-J5.2.6	J5	leaf	J5.2	Other-flour pasta & noodles		12	from audit/KL_J5_tree.md		
-J5.2.7	J5	leaf	J5.2	Gnocchi		13	from audit/KL_J5_tree.md		
-J5.3	J5	sub_family	J5	Pulses	Leaf axis is the species group. Whole or split (dal) and dried or tinned are attributes: a dried and a tinned pulse of one species are one kind. Pulses cooked plain in water or brine stay here; cooked in a seasoned sauce they are prepared food and not in J5.	14	from audit/KL_J5_tree.md		
-J5.3.1	J5	leaf	J5.3	Beans		15	from audit/KL_J5_tree.md		
-J5.3.2	J5	leaf	J5.3	Lentils		16	from audit/KL_J5_tree.md		
-J5.3.3	J5	leaf	J5.3	Peas		17	from audit/KL_J5_tree.md		
-J5.3.4	J5	leaf	J5.3	Chickpeas & other pulses		18	from audit/KL_J5_tree.md		
-J5.4	J5	sub_family	J5	Nuts & seeds	Leaf axis is the plant group. Form (in shell, shelled, blanched, flaked, ground), roasting and salting are attributes, so ground almonds are almonds. Every nut, chestnut and coconut is here. Nuts coated in chocolate, sugar or batter are not in J5.	19	from audit/KL_J5_tree.md		
-J5.4.1	J5	leaf	J5.4	Tree nuts		20	from audit/KL_J5_tree.md		
-J5.4.2	J5	leaf	J5.4	Coconut		21	from audit/KL_J5_tree.md		
-J5.4.3	J5	leaf	J5.4	Peanuts		22	from audit/KL_J5_tree.md		
-J5.4.4	J5	leaf	J5.4	Seeds		23	from audit/KL_J5_tree.md		
-J5.5	J5	sub_family	J5	Oils, fats & vinegars	Leaf axis is the kind of product: plant oil, solid fat, vinegar or cooking liquid.	25	from audit/KL_J5_tree.md		
-J5.5.1	J5	leaf	J5.5	Plant oils		26	from audit/KL_J5_tree.md		
-J5.5.2	J5	leaf	J5.5	Animal & solid cooking fats		27	from audit/KL_J5_tree.md		
-J5.5.3	J5	leaf	J5.5	Vinegars & cooking liquids		28	from audit/KL_J5_tree.md		
-J5.6	J5	sub_family	J5	Spices, herbs & salt	Leaf axis is the form of the seasoning: single spice, dried herb, blend, salt. A dried chilli, whole, flaked or ground, sold to season food is a spice.	29	from audit/KL_J5_tree.md		
-J5.6.1	J5	leaf	J5.6	Single spices		30	from audit/KL_J5_tree.md		
-J5.6.2	J5	leaf	J5.6	Dried herbs		31	from audit/KL_J5_tree.md		
-J5.6.3	J5	leaf	J5.6	Spice blends & seasoning mixes		32	from audit/KL_J5_tree.md		
-J5.6.4	J5	leaf	J5.6	Salt		33	from audit/KL_J5_tree.md		
-J5.7	J5	sub_family	J5	Sugars, honey & syrups	Leaf axis is the sweetener type.	34	from audit/KL_J5_tree.md		
-J5.7.1	J5	leaf	J5.7	Sugars		35	from audit/KL_J5_tree.md		
-J5.7.2	J5	leaf	J5.7	Honey		36	from audit/KL_J5_tree.md		
-J5.7.3	J5	leaf	J5.7	Syrups & molasses		37	from audit/KL_J5_tree.md		
-J5.8	J5	sub_family	J5	Spreads, pastes & dips	Leaf axis is the kind of spread. A spread, paste or dip eaten with other food is here whatever it is made from.	38	from audit/KL_J5_tree.md		
-J5.8.1	J5	leaf	J5.8	Sweet spreads		39	from audit/KL_J5_tree.md		
-J5.8.2	J5	leaf	J5.8	Nut & seed butters		40	from audit/KL_J5_tree.md		
-J5.8.3	J5	leaf	J5.8	Savoury spreads, pastes & dips		41	from audit/KL_J5_tree.md		
-J5.9	J5	sub_family	J5	Sauces, condiments & stocks	Leaf axis is the product type as standards and shelves class it, an ordered key, first yes: (1) a soy sauce: Soy sauces; (2) another seasoning made by fermenting beans, grain or fish: Other fermented seasonings; (3) a stock or bouillon in any form: Stocks & bouillon; (4) a paste used as a cooking ingredient: Cooking & seasoning pastes; (5) a sauce to cook with or pour over pasta: Cooking & pasta sauces; (6) otherwise: Table sauces, condiments & dressings.	42	from audit/KL_J5_tree.md		
-J5.9.1	J5	leaf	J5.9	Soy sauces		43	from audit/KL_J5_tree.md		
-J5.9.2	J5	leaf	J5.9	Other fermented seasonings		44	from audit/KL_J5_tree.md		
-J5.9.3	J5	leaf	J5.9	Cooking & pasta sauces		45	from audit/KL_J5_tree.md		
-J5.9.4	J5	leaf	J5.9	Table sauces, condiments & dressings		46	from audit/KL_J5_tree.md		
-J5.9.5	J5	leaf	J5.9	Stocks & bouillon		47	from audit/KL_J5_tree.md		
-J5.9.6	J5	leaf	J5.9	Cooking & seasoning pastes		48	from audit/KL_J5_tree.md		
-J5.10	J5	sub_family	J5	Preserved fruit & vegetables		49	from audit/KL_J5_tree.md		
-J5.10.1	J5	leaf	J5.10	Dried		50	from audit/KL_J5_tree.md		
-J5.10.2	J5	leaf	J5.10	Tinned & jarred		51	from audit/KL_J5_tree.md		
-J5.10.3	J5	leaf	J5.10	Pickled in vinegar		52	from audit/KL_J5_tree.md		
-J5.10.4	J5	leaf	J5.10	Salted, brined & fermented		53	from audit/KL_J5_tree.md		
-J5.10.5	J5	leaf	J5.10	Preserved in oil & spices		54	from audit/KL_J5_tree.md		
-J5.11	J5	sub_family	J5	Baking ingredients	Leaf axis is the function in the bake or the brew. Holds only products no other family holds; flour, sugar and nuts stay in their own families.	55	from audit/KL_J5_tree.md		
-J5.11.1	J5	leaf	J5.11	Baking & fermenting aids		56	from audit/KL_J5_tree.md		
-J5.11.2	J5	leaf	J5.11	Flavourings, extracts & colourings		57	from audit/KL_J5_tree.md		
-J5.11.3	J5	leaf	J5.11	Setting agents, starches & thickeners		58	from audit/KL_J5_tree.md		
-J5.11.4	J5	leaf	J5.11	Baking chocolate, doughs & mixes		59	from audit/KL_J5_tree.md		
-J5.12	J5	sub_family	J5	Tofu, tempeh & meat alternatives	Leaf axis is how the protein food is made, an ordered key, first yes: (1) texturised or formed to imitate a meat product: Plant-based meat analogues; (2) washed from wheat dough: Seitan & wheat gluten; (3) a whole bean fermented: Tempeh & fermented beans; (4) set as a curd: Tofu & bean-curd products. Firmness and format are attributes.	60	from audit/KL_J5_tree.md		
-J5.12.1	J5	leaf	J5.12	Tofu & bean-curd products		61	from audit/KL_J5_tree.md		
-J5.12.2	J5	leaf	J5.12	Tempeh & fermented beans		62	from audit/KL_J5_tree.md		
-J5.12.3	J5	leaf	J5.12	Seitan & wheat gluten		63	from audit/KL_J5_tree.md		
-J5.12.4	J5	leaf	J5.12	Plant-based meat analogues		64	from audit/KL_J5_tree.md		
+I2	I2	category				0	from verify/out/TREE_I2.md		
+I2.1	I2	sub_family	I2	Text and document files		1	from verify/out/TREE_I2.md		
+I2.2	I2	sub_family	I2	Audio files		2	from verify/out/TREE_I2.md		
+I2.2.1	I2	leaf	I2.2	Music recordings		3	from verify/out/TREE_I2.md		
+I2.2.2	I2	leaf	I2.2	Spoken-word books		4	from verify/out/TREE_I2.md		
+I2.2.3	I2	leaf	I2.2	Podcast episodes		5	from verify/out/TREE_I2.md		
+I2.3	I2	sub_family	I2	Moving-image files		6	from verify/out/TREE_I2.md		
+I2.4	I2	sub_family	I2	Still-image files		7	from verify/out/TREE_I2.md		
+I2.5	I2	sub_family	I2	Fonts and production assets		8	from verify/out/TREE_I2.md		
+I2.5.1	I2	leaf	I2.5	Fonts		9	from verify/out/TREE_I2.md		
+I2.5.2	I2	leaf	I2.5	Templates and production packs	Kind axis: file kind for the target tool.	10	from verify/out/TREE_I2.md		
+I2.5.3	I2	leaf	I2.5	3D assets	Kind axis: asset part.	11	from verify/out/TREE_I2.md		
+I2.5.4	I2	leaf	I2.5	Sound, preset and model assets		12	from verify/out/TREE_I2.md		
+I2.6	I2	sub_family	I2	Game and platform items		13	from verify/out/TREE_I2.md		
+I2.6.1	I2	leaf	I2.6	Character and avatar wear		14	from verify/out/TREE_I2.md		
+I2.6.2	I2	leaf	I2.6	Tools, weapons and vehicles		15	from verify/out/TREE_I2.md		
+I2.6.3	I2	leaf	I2.6	Expression		16	from verify/out/TREE_I2.md		
+I2.6.4	I2	leaf	I2.6	Containers and unlocks		17	from verify/out/TREE_I2.md		
+I2.6.5	I2	leaf	I2.6	Collectibles and profile items		18	from verify/out/TREE_I2.md		
+I2.7	I2	sub_family	I2	Names and tokens		19	from verify/out/TREE_I2.md		
+I2.7.1	I2	leaf	I2.7	Domain names	Kind axis: eligibility class of the TLD (I-12); each TLD is a named form.	20	from verify/out/TREE_I2.md		
+I2.7.2	I2	leaf	I2.7	Tokens	Kind axis: token form (I2-O1); token standards, then NFT collections (maker-bound), are named forms.	21	from verify/out/TREE_I2.md		
+J5	J5	category				0	from verify/out/TREE_J5.md		
+J5.1	J5	sub_family	J5	Rice, grains & flours	Leaf axis: the grain and its form as sold, an ordered key, first yes: (1) milled to flour or meal: Flours & meals; (2) a rice grain, whole or flattened: Rice; (3) oats, or a cereal made to eat at breakfast: Oats & breakfast cereals; (4) otherwise: Other grains, pseudo-cereals & starch pearls.	1	from verify/out/TREE_J5.md		
+J5.1.1	J5	leaf	J5.1	Rice		2	from verify/out/TREE_J5.md		
+J5.1.2	J5	leaf	J5.1	Other grains, pseudo-cereals & starch pearls		3	from verify/out/TREE_J5.md		
+J5.1.3	J5	leaf	J5.1	Oats & breakfast cereals		4	from verify/out/TREE_J5.md		
+J5.1.4	J5	leaf	J5.1	Flours & meals		5	from verify/out/TREE_J5.md		
+J5.2	J5	sub_family	J5	Pasta & noodles	Leaf axis: the dough base, an ordered key, first yes: (1) potato dough: Gnocchi; (2) buckwheat in the dough: Buckwheat noodles; (3) egg dough: Egg pasta & egg noodles; (4) rice flour or a pure starch (mung bean, potato): Rice & starch noodles; (5) durum wheat semolina, including whole-wheat durum: Durum wheat pasta; (6) soft wheat flour: Soft-wheat noodles; (7) any other flour: Other-flour pasta & noodles. Fresh or dried is the attribute `storage_state`. Cuts within a shape family (spaghetti, penne, fusilli) are named forms of the family kind; a maker line is a maker-bound named form with its cut recorded (J-1).	6	from verify/out/TREE_J5.md		
+J5.2.1	J5	leaf	J5.2	Durum wheat pasta		7	from verify/out/TREE_J5.md		
+J5.2.2	J5	leaf	J5.2	Egg pasta & egg noodles		8	from verify/out/TREE_J5.md		
+J5.2.3	J5	leaf	J5.2	Soft-wheat noodles		9	from verify/out/TREE_J5.md		
+J5.2.4	J5	leaf	J5.2	Buckwheat noodles		10	from verify/out/TREE_J5.md		
+J5.2.5	J5	leaf	J5.2	Rice & starch noodles		11	from verify/out/TREE_J5.md		
+J5.2.6	J5	leaf	J5.2	Other-flour pasta & noodles		12	from verify/out/TREE_J5.md		
+J5.2.7	J5	leaf	J5.2	Gnocchi		13	from verify/out/TREE_J5.md		
+J5.3	J5	sub_family	J5	Pulses	Leaf axis: the species group. Whole or split (dal), dried or tinned, and cooked plain in water or brine are attributes: a dried and a tinned pulse of one species are one kind. Heirloom varieties are named forms.	14	from verify/out/TREE_J5.md		
+J5.3.1	J5	leaf	J5.3	Beans		15	from verify/out/TREE_J5.md		
+J5.3.2	J5	leaf	J5.3	Lentils		16	from verify/out/TREE_J5.md		
+J5.3.3	J5	leaf	J5.3	Peas		17	from verify/out/TREE_J5.md		
+J5.3.4	J5	leaf	J5.3	Chickpeas & other pulses		18	from verify/out/TREE_J5.md		
+J5.4	J5	sub_family	J5	Nuts & seeds	Leaf axis: the plant group of the nut or seed. Form (in shell, shelled, blanched, flaked, ground), roasting and salting are attributes, so ground almonds are almonds. Every nut, chestnut and coconut is here (K-54).	19	from verify/out/TREE_J5.md		
+J5.4.1	J5	leaf	J5.4	Tree nuts		20	from verify/out/TREE_J5.md		
+J5.4.2	J5	leaf	J5.4	Coconut		21	from verify/out/TREE_J5.md		
+J5.4.3	J5	leaf	J5.4	Peanuts		22	from verify/out/TREE_J5.md		
+J5.4.4	J5	leaf	J5.4	Seeds		23	from verify/out/TREE_J5.md		
+J5.5	J5	sub_family	J5	Oils, fats & vinegars	Leaf axis: the kind of product: plant oil, solid fat, vinegar or cooking liquid.	24	from verify/out/TREE_J5.md		
+J5.5.1	J5	leaf	J5.5	Plant oils		25	from verify/out/TREE_J5.md		
+J5.5.2	J5	leaf	J5.5	Animal & solid cooking fats		26	from verify/out/TREE_J5.md		
+J5.5.3	J5	leaf	J5.5	Vinegars & cooking liquids		27	from verify/out/TREE_J5.md		
+J5.6	J5	sub_family	J5	Spices, herbs & salt	Leaf axis: the form of the seasoning: single spice, dried herb, blend, salt.	28	from verify/out/TREE_J5.md		
+J5.6.1	J5	leaf	J5.6	Single spices		29	from verify/out/TREE_J5.md		
+J5.6.2	J5	leaf	J5.6	Dried herbs		30	from verify/out/TREE_J5.md		
+J5.6.3	J5	leaf	J5.6	Spice blends & seasoning mixes		31	from verify/out/TREE_J5.md		
+J5.6.4	J5	leaf	J5.6	Salt		32	from verify/out/TREE_J5.md		
+J5.7	J5	sub_family	J5	Sugars, honey & syrups	Leaf axis: the sweetener type.	33	from verify/out/TREE_J5.md		
+J5.7.1	J5	leaf	J5.7	Sugars		34	from verify/out/TREE_J5.md		
+J5.7.2	J5	leaf	J5.7	Honey		35	from verify/out/TREE_J5.md		
+J5.7.3	J5	leaf	J5.7	Syrups & molasses		36	from verify/out/TREE_J5.md		
+J5.8	J5	sub_family	J5	Spreads, pastes & dips	Leaf axis: the kind of spread. A spread, paste or dip eaten with other food is here whatever it is made from, except spreads and fresh cheeses made from milk (J3) (K-44).	37	from verify/out/TREE_J5.md		
+J5.8.1	J5	leaf	J5.8	Sweet spreads		38	from verify/out/TREE_J5.md		
+J5.8.2	J5	leaf	J5.8	Nut & seed butters		39	from verify/out/TREE_J5.md		
+J5.8.3	J5	leaf	J5.8	Savoury spreads, pastes & dips		40	from verify/out/TREE_J5.md		
+J5.9	J5	sub_family	J5	Sauces, condiments & stocks	Leaf axis: the product type as standards and shelves class it, an ordered key, first yes: (1) a soy sauce: Soy sauces; (2) another seasoning made by fermenting beans, grain or fish: Other fermented seasonings; (3) a stock or bouillon in any form: Stocks & bouillon; (4) a paste used as a cooking ingredient: Cooking & seasoning pastes; (5) a sauce to cook with or pour over pasta: Cooking & pasta sauces; (6) otherwise: Table sauces, condiments & dressings.	41	from verify/out/TREE_J5.md		
+J5.9.1	J5	leaf	J5.9	Soy sauces		42	from verify/out/TREE_J5.md		
+J5.9.2	J5	leaf	J5.9	Other fermented seasonings		43	from verify/out/TREE_J5.md		
+J5.9.3	J5	leaf	J5.9	Cooking & pasta sauces		44	from verify/out/TREE_J5.md		
+J5.9.4	J5	leaf	J5.9	Table sauces, condiments & dressings		45	from verify/out/TREE_J5.md		
+J5.9.5	J5	leaf	J5.9	Stocks & bouillon		46	from verify/out/TREE_J5.md		
+J5.9.6	J5	leaf	J5.9	Cooking & seasoning pastes		47	from verify/out/TREE_J5.md		
+J5.10	J5	sub_family	J5	Preserved fruit & vegetables		48	from verify/out/TREE_J5.md		
+J5.10.1	J5	leaf	J5.10	Dried		49	from verify/out/TREE_J5.md		
+J5.10.2	J5	leaf	J5.10	Tinned & jarred		50	from verify/out/TREE_J5.md		
+J5.10.3	J5	leaf	J5.10	Pickled in vinegar		51	from verify/out/TREE_J5.md		
+J5.10.4	J5	leaf	J5.10	Salted, brined & fermented		52	from verify/out/TREE_J5.md		
+J5.10.5	J5	leaf	J5.10	Preserved in oil & spices		53	from verify/out/TREE_J5.md		
+J5.11	J5	sub_family	J5	Baking ingredients	Leaf axis: the function in the bake or the brew. Holds only products no other family holds; flour, sugar and nuts stay in their own families.	54	from verify/out/TREE_J5.md		
+J5.11.1	J5	leaf	J5.11	Baking & fermenting aids		55	from verify/out/TREE_J5.md		
+J5.11.2	J5	leaf	J5.11	Flavourings, extracts & colourings		56	from verify/out/TREE_J5.md		
+J5.11.3	J5	leaf	J5.11	Setting agents, starches & thickeners		57	from verify/out/TREE_J5.md		
+J5.11.4	J5	leaf	J5.11	Baking chocolate, doughs & mixes		58	from verify/out/TREE_J5.md		
+J5.12	J5	sub_family	J5	Tofu, tempeh & meat alternatives	Leaf axis: how the protein food is made, an ordered key, first yes: (1) texturised or formed to imitate a meat product: Plant-based meat analogues; (2) washed from wheat dough: Seitan & wheat gluten; (3) a whole bean fermented: Tempeh & fermented beans; (4) set as a curd: Tofu & bean-curd products. Firmness and format are attributes.	59	from verify/out/TREE_J5.md		
+J5.12.1	J5	leaf	J5.12	Tofu & bean-curd products		60	from verify/out/TREE_J5.md		
+J5.12.2	J5	leaf	J5.12	Tempeh & fermented beans		61	from verify/out/TREE_J5.md		
+J5.12.3	J5	leaf	J5.12	Seitan & wheat gluten		62	from verify/out/TREE_J5.md		
+J5.12.4	J5	leaf	J5.12	Plant-based meat analogues		63	from verify/out/TREE_J5.md		
 A2.1	A2	sub_family	A2	Sneakers and athletic-style shoes (no leaf)		1	from audit/KL_A2_tree_v2.md		
 A2.2	A2	sub_family	A2	Shoes (closed, non-athletic)	Leaf axis: closure and vamp cut. Dress-shoe kinds are set by lacing and cut.	2	from audit/KL_A2_tree_v2.md		
 A2.2.1	A2	leaf	A2.2	Fastened: laces or a buckle close the shoe over a covered instep.		3	from audit/KL_A2_tree_v2.md		
