@@ -1,0 +1,8 @@
+BATCH FIND_C1_REQ (findability test, request writer; session 12, R-126). No web; never run git; never write to data/. Working directory /home/user/Possession-Taxonomy. Helper files only in verify/work/FIND_C1_REQ/.
+Read verify/in/FIND_C1_kinds.tsv (kind_id, name, definition: the 220 tool kinds of category C1, tools and workshop equipment).
+Write 60 everyday requests a real shopper might type or say to a shop assistant, each aimed at exactly one kind. Rules:
+- Spread them: about 25 common DIY and household needs, 20 trade or enthusiast needs (woodworking, metalwork, mechanics, building), 15 harder or rarer ones. Cover every part of the list (saws, hammers, measuring, lifting, ladders, storage, accessories, machines, site plant, welding), not just power tools.
+- Describe the need or the job, the way a shopper would, not the tool: "I need to cut a curved shape out of a sheet of plywood", "something to stop my car falling on me while I work under it", "a box to keep my screwdriver bits in the van". About a third may name a familiar tool loosely ("a big drill for concrete").
+- Never copy the kind's name or definition wording; never use an id.
+- Each request must have one clearly best kind in the list; if two kinds fit equally, choose another request.
+Output verify/out/FIND_C1_requests.tsv with header req_id, request, target_kind_id, difficulty (common, trade, hard) and verify/out/FIND_C1_answer_key.tsv is the same file (write it once as FIND_C1_requests.tsv; the finders will get a copy without the target column). RESUME RULE: if verify/out/FIND_C1_requests.tsv has 60 rows, stop. Reply with one line: rows written.
