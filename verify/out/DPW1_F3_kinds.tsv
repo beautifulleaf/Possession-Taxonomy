@@ -1,0 +1,41 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+Aerogram	F3	new_kind	F3.5.3.03	F3.5.3	Aerogram or letter sheet	sheet or card with a printed stamp, issued by a postal administration, that folds and seals to form its own envelope; aerograms, letter sheets and lettercards.		https://slpost.gov.lk/services/stamps-and-stamped-stationery/	Post office sells aerogrammes beside stamped envelopes and postal cards; no stationery kind covers a self-folding sheet. Airmail stays a postal_service value (F3-O4).
+Letter sheet	F3	covered	F3.5.3.03						Same self-folding form as the aerogram; airmail use is an attribute (F3-O4).
+Lettercard	F3	covered	F3.5.3.03						Folded card with perforated edges that forms its own envelope: same form, one kind.
+Wrapper (newspaper wrapper)	F3	new_kind	F3.5.3.04	F3.5.3	Newspaper wrapper	paper band with a printed stamp, issued by a postal administration, to wrap newspapers or printed matter for posting.		https://en.wikipedia.org/wiki/Postal_stationery	Postal stationery type named apart by the fetched page; neither envelope nor card covers a band.
+Postal tax stamp	F3	attribute	F3.5.1.01						A compulsory surcharge stamp is a postal_service value of an adhesive stamp, like semi-postal and postage due (F3-O4).
+Postal fiscal	F3	covered	F3.5.5.01						A revenue stamp used for postage; the use is an attribute of the revenue stamp.
+Presentation pack	F3	attribute	F3.5.1.02						Mint stamps in the post's folder: the stamps with unit = set; K-1 keeps the mint and proof set as the only set kind.
+Year set (year pack, yearbook)	F3	attribute	F3.5.1.02						A year's issues packaged by the post: unit = set (K-1).
+Folder (stamp folder)	F3	attribute	F3.5.1.02						Packaging of a stamp issue: unit = set (K-1).
+Philatelic numismatic cover	F3	new_kind	F3.5.4.02	F3.5.4	Philatelic numismatic cover	cover issued by a postal administration that carries stamps cancelled for an issue together with a coin or medal mounted in it.		https://iomstamps.com/pages/glossary-of-terms	Post sells PNCs under their own name; the coin makes it more than a first-day cover; administration-issued covers are F3 (K-118).
+Game or arcade token	F3	other_category					E1		A token made to be used up in one coin-operated game is E1 (memo section 9, R-0); Numista node becomes an alias row.
+Ride token	F3	covered	F3.4.2.01						A token good for one ride is a good-for piece issued by a private operator.
+Casino chips	F3	other_category					E1		Casino and poker chips are E1 (key step 25, memo section 9).
+Dispenser token	F3	new_kind	F3.4.1.03	F3.4.1	Vending or service-machine token	token issued to buy a product or a service from a coin-operated machine that is not a game, such as a dispenser, parking meter, car wash, laundry or telephone.		https://en.numista.com/catalogue/index.php	Numista files dispenser, parking and car-wash tokens apart; neither transit nor deposit kind covers them; memo section 4 lists them as purpose kinds.
+Parking token	F3	covered	F3.4.1.03						Pays a parking meter: a service-machine token; the business is an attribute (4b).
+Car wash token	F3	covered	F3.4.1.03						Pays a car-wash machine: a service-machine token; the business is an attribute (4b).
+Event token	F3	covered	F3.4.2.01						Exchanged for goods or a stated value at an event: a trade token or good-for piece.
+Religious token (communion and church tokens)	F3	covered	F3.4.5.01						Issued to admit a member to a rite: an admission token, not a devotional object.
+Religious token (devotional or luck token)	F3	other_category					F4		A token made for devotion, luck or protection and carried is F4; worn A3 (K-117).
+Coin weight	F3	new_kind	F3.9.1.03	F3.9.1	Coin weight	weight made to check the weight of one coin denomination on a balance.		https://en.numista.com/catalogue/index.php	Numista and the British Museum list coin weights apart; made to serve one coin, so the coin-and-note parts leaf (S3).
+Play money	F3	other_category					E1		Game money is E1 (K-120); prop and souvenir notes stay F3.2.4.02.
+Voting token	F3	new_kind	F3.4.5.01	F3.4.5	Admission, attendance or voting token	token issued to admit the holder to a meeting, place or rite, to record attendance, or to cast a vote, communion tokens included.		https://en.numista.com/catalogue/index.php	New leaf F3.4.5 Tokens for admission and record on the leaf axis (what the token stands for); memo section 4 lists voting and attendance.
+Postal orders	F3	other_category					F5		A postal order kept as an object is F5 (K-27).
+Travellers cheques	F3	other_category					F5		A traveller's cheque kept as an object is F5 (K-27).
+Ration coupons	F3	other_category					F5		Paper entitlement, not issued to circulate as money; metal ration tokens stay F3.4.2.02.
+Trade vouchers	F3	other_category					F5		A voucher redeemable only with its issuer is F5 (key step 15, memo section 9).
+Promissory notes	F3	other_category					F5		A debt instrument like a cheque is F5 (K-27); private notes issued to circulate as money stay F3.4.4.01 (F-16).
+Challenge coins (Numista medal tree)	F3	covered	F3.6.4.02						Existing kind Challenge coin or membership medal.
+Stamp mounts (separate shop category)	F3	covered	F3.9.2.01						Existing kind Stamp hinge or mount; maker brands are named forms.
+Stamp hinges (separate shop category)	F3	covered	F3.9.2.01						Existing kind Stamp hinge or mount; hinge against mount is a form attribute.
+Donation medals	F3	covered	F3.6.4.02						Numista nests them under membership medals; given to members or donors of an organisation.
+Religious medals	F3	other_category					F4		A medal made for devotion is F4 loose, A3 when made to be worn (K-107).
+Demonstration notes	F3	covered	F3.2.4.02						Prop or souvenir note names demonstration notes in its definition (K-120).
+Prestige booklet	F3	named_form	F3.5.2.02						A booklet class buyers ask for by name (Isle of Man, USPS); non-maker named form of the stamp booklet.
+Definitive booklet	F3	attribute	F3.5.2.02						Issue class of the stamps inside: issue_class attribute.
+Pane (booklet or Forever pane)	F3	attribute	F3.5.1.01						A unit of stamps: a unit value like block and sheet (F3-O4).
+Medal miniatures	F3	attribute	F3.6						Full-size or miniature is an attribute of medals (memo 4b).
+Gavel sounding block	F3	attribute	F3.6.5.04						Shown only in a gavel set with its block; the set is the gavel with unit = set.
+Hobby box, blaster, hanger, fat pack	F3	attribute	F3.8.3.01						product_form values of the sealed card product (F3-O3).
+Digital Color Postmark first-day cover	F3	named_form	F3.5.4.01						USPS first-day cover product: maker-bound (issuer) named form.
