@@ -1,0 +1,168 @@
+code	group_id	marker	values	why	evidence_rows
+E1	G-E1-1	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first: small parts, chemicals, sharp edges, flammability, labels.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
+E1	G-E1-11	finish and paint class	statue > scale figure > figma > Nendoroid > prize figure	Collectible figures are ranked first by format and finish (memo collector format ladder).	proposals.tsv E1 row (quality_markers); memo E1 collector format ladder
+E1	G-E1-11	articulation		Follows finish for collectible figures.	proposals.tsv E1 row (quality_markers)
+E1	G-E1-11	scale		Last of the figure markers.	proposals.tsv E1 row (quality_markers)
+E1	G-E1-2	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
+E1	G-E1-3	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
+E1	G-E1-3	fit and engineering of parts, with clear instructions		Kit shops judge a kit first by how its parts fit; Tamiya is the reference maker.	proposals.tsv E1 row (quality_markers); Access Models first plastic kit guide; Hobbyco (Australia) Tamiya beginner guide
+E1	G-E1-3	skill grade matched to the builder	maker Level 1 to 4+ (match, not higher is better)	The box skill level is chosen to fit the builder.	proposals.tsv E1 row (quality_markers); Access Models first plastic kit guide
+E1	G-E1-3	detail and accuracy of the subject		Follows fit and skill grade.	proposals.tsv E1 row (quality_markers); Access Models (UK) models and kits
+E1	G-E1-3	scale	1:72 aircraft and 1:35 armour as starter scales (a choice)	Scale is chosen by subject; starter scales named by the guides.	proposals.tsv E1 row (quality_markers); Hobbyco (Australia) Tamiya beginner guide
+E1	G-E1-4	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
+E1	G-E1-5	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
+E1	G-E1-5	component and material quality and durability		Games are judged as objects: components first (Spiel des Jahres jury criteria).	proposals.tsv E1 row (quality_markers); Spiel des Jahres FAQ
+E1	G-E1-5	clear, error-free rules		Rule-book quality follows the components.	proposals.tsv E1 row (quality_markers); Spiel des Jahres FAQ
+E1	G-E1-5	coordinated design		Layout and graphic design that fit together.	proposals.tsv E1 row (quality_markers); Spiel des Jahres FAQ
+E1	G-E1-5	edition completeness		Last of the game-object markers.	proposals.tsv E1 row (quality_markers)
+E1	G-E1-6	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
+E1	G-E1-7	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
+E1	G-E1-8	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
+E1	G-E1-9	safety compliance (gate)	EN 71, ASTM F963, ISO 8124, CE, CPSIA met (a gate, not a tier)	Every toy passes safety first.	proposals.tsv E1 row (quality_markers, quality_signals); Tumama toy safety guide
+E2	G-E2-24	certification present and genuine (gate)	UIAA Safety Label; CE mark and EN standard met	Safety gear is checked for genuine certification first.	proposals.tsv E2 row (quality_markers, quality_signals); UIAA buying climbing gear advice
+E2	G-E2-24	fit and compatibility with existing gear		After certification.	proposals.tsv E2 row (quality_markers); UIAA buying climbing gear advice
+E2	G-E2-24	activity and skill match		The gear must suit the climbing done and the climber.	proposals.tsv E2 row (quality_markers); UIAA buying climbing gear advice
+E2	G-E2-24	condition	new > second-hand (avoid second-hand safety gear)	The UIAA advises against second-hand safety gear; condition stays a shop facet.	proposals.tsv E2 row (quality_markers); UIAA buying climbing gear advice
+E2	G-E2-46	certification present and genuine (helmets; gate)	CE mark and EN standard met	Helmets count as safety gear: certification first.	proposals.tsv E2 row (quality_markers, quality_signals); UIAA buying climbing gear advice
+E2	G-E2-46	fit and compatibility with existing gear		After certification.	proposals.tsv E2 row (quality_markers); UIAA buying climbing gear advice
+E2	G-E2-14	certification present and genuine (riding hat; gate)	CE mark and EN standard met	Helmets count as safety gear: certification first.	proposals.tsv E2 row (quality_markers, quality_signals); UIAA buying climbing gear advice
+E2	G-E2-14	fit		After certification.	proposals.tsv E2 row (quality_markers)
+E2	G-E2-18	flywheel weight and frame stability	flywheel 6-8 kg	Fitness machines are judged first by flywheel and frame.	proposals.tsv E2 row (quality_markers); Dynamo Fitness (Australia) exercise bike guide pt 2; Lifelong India spin bike guide
+E2	G-E2-18	resistance type	magnetic; direct contact; fan (a choice by noise, upkeep and cost)	The resistance system sets noise, upkeep and cost.	proposals.tsv E2 row (quality_markers); Dynamo Fitness (Australia) exercise bike guide pt 2
+E2	G-E2-18	weight capacity and adjustability	100-120 kg capacity	Capacity and adjustment follow the drive.	proposals.tsv E2 row (quality_markers); Lifelong India spin bike guide
+E2	G-E2-18	hands-on test		Last: try the machine.	proposals.tsv E2 row (quality_markers); Dynamo Fitness (Australia) exercise bike guide pt 2
+E2	G-E2-47	boot comfort		Sport boots: comfort first (OutdoorGearLab order).	proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+E2	G-E2-47	boot support and traction		Support, then traction.	proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+E2	G-E2-47	boot water resistance, durability and weight		Last in the order.	proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+E2	G-E2-4	shoe comfort		Sport shoes: comfort first (OutdoorGearLab order).	proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+E2	G-E2-4	shoe support and traction		Support, then traction.	proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+E2	G-E2-4	shoe water resistance, durability and weight		Last in the order.	proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+E2	G-E2-31	boot comfort		Sport boots: comfort first (OutdoorGearLab order).	proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+E2	G-E2-31	boot support and traction		Support, then traction.	proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+E2	G-E2-31	boot water resistance, durability and weight		Last in the order.	proposals.tsv E2 row (quality_markers); OutdoorGearLab hiking boot test method
+E2	G-E2-26	head size, weight and balance against player level	player level starter to professional	Rackets are matched to the player's level.	proposals.tsv E2 row (quality_markers, quality_signals); Tennis Warehouse (US)
+E2	G-E2-26	demo before buying		Tennis Warehouse advises a demo.	proposals.tsv E2 row (quality_markers); Tennis Warehouse (US)
+E2	G-E2-27	head size, weight and balance against player level	player level starter to professional	Rackets are matched to the player's level.	proposals.tsv E2 row (quality_markers, quality_signals)
+E2	G-E2-29	head size, weight and balance against player level	player level starter to professional	Rackets are matched to the player's level.	proposals.tsv E2 row (quality_markers, quality_signals)
+E2	G-E2-30	head size, weight and balance against player level	player level starter to professional	Paddles are matched to the player's level.	proposals.tsv E2 row (quality_markers, quality_signals)
+E2	G-E2-28	head size, weight and balance against player level	player level starter to professional	Bats are matched to the player's level.	proposals.tsv E2 row (quality_markers, quality_signals)
+E4	G-E4-5	steel	edge retention, toughness, hardness (HRC) and corrosion resistance	Knife steel comes first, read by its properties.	proposals.tsv E4 row (quality_markers); Outdoor Life knife steel guide (US)
+E4	G-E4-5	maker's heat treatment		Weighed above the steel name.	proposals.tsv E4 row (quality_markers); Outdoor Life knife steel guide (US)
+E4	G-E4-5	tang	full > half > rat-tail	Construction after steel.	proposals.tsv E4 row (quality_markers); Bowhunter hunting knife guide (US)
+E4	G-E4-5	blade shape and length for the job		Chosen by use.	proposals.tsv E4 row (quality_markers); Bowhunter hunting knife guide (US)
+E4	G-E4-5	handle material and balance		Follows the blade.	proposals.tsv E4 row (quality_markers); Bowhunter hunting knife guide (US)
+E4	G-E4-5	fit in hand		Last: checked in the hand.	proposals.tsv E4 row (quality_markers); Bowhunter hunting knife guide (US)
+E4	G-E4-20	intended use		The archery guide starts from use.	proposals.tsv E4 row (quality_markers); Lancaster Archery first bow guide (US)
+E4	G-E4-20	fit and draw length		After use.	proposals.tsv E4 row (quality_markers); Lancaster Archery first bow guide (US)
+E4	G-E4-20	draw weight the archer can hold		Not the heaviest, the one held steadily.	proposals.tsv E4 row (quality_markers); Lancaster Archery first bow guide (US)
+E4	G-E4-20	handedness		Matched to the archer.	proposals.tsv E4 row (quality_markers); Lancaster Archery first bow guide (US)
+E4	G-E4-20	budget		Last in the guide's order.	proposals.tsv E4 row (quality_markers); Lancaster Archery first bow guide (US)
+E4	G-E4-13	shooter build and recoil		The hunting-rifle guide starts from the shooter.	proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+E4	G-E4-13	quarry size	small, medium, large game (a choice)	Calibre and action follow the quarry.	proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+E4	G-E4-13	action		After quarry.	proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+E4	G-E4-13	weight and balance		After action.	proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+E4	G-E4-13	calibre		Chosen for the quarry.	proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+E4	G-E4-13	stock fit		Fit to the shooter.	proposals.tsv E4 row (quality_markers); Crate Club first hunting rifle guide (US)
+E4	G-E4-13	accuracy guarantee		A maker claim, recorded as an attribute only.	proposals.tsv E4 row (quality_markers, quality_signals); Crate Club first hunting rifle guide (US)
+E4	G-E4-32	threat level faced	NIJ 0101.06 IV > III > IIIA > II; NIJ 0101.07 HG1-RF3; NIJ 0115.00 stab (a floor, not a ceiling)	Buy for the threat faced; the NIJ level is a floor.	proposals.tsv E4 row (quality_markers, quality_signals); US Armor NIJ ratings guide (US)
+E4	G-E4-32	mobility and wear time		After protection level.	proposals.tsv E4 row (quality_markers); US Armor NIJ ratings guide (US)
+E4	G-E4-32	materials and construction		After mobility.	proposals.tsv E4 row (quality_markers); US Armor NIJ ratings guide (US)
+E4	G-E4-32	plate curvature		For hard plates.	proposals.tsv E4 row (quality_markers); US Armor NIJ ratings guide (US)
+E4	G-E4-32	weight and fit		Last in the guide's order.	proposals.tsv E4 row (quality_markers); US Armor NIJ ratings guide (US)
+E4	G-E4-25	verifiable licensed smith and clear attribution (Japanese swords)		Japanese swords as kinds and named forms; individual blades stay out.	proposals.tsv E4 row (quality_markers); Japanese Sword (japanesesword.net) katana decision tree
+E4	G-E4-25	genuine hamon (Japanese swords)		After attribution.	proposals.tsv E4 row (quality_markers); Japanese Sword (japanesesword.net) katana decision tree
+E4	G-E4-25	polish and tang (Japanese swords)		After the hamon.	proposals.tsv E4 row (quality_markers); Japanese Sword (japanesesword.net) katana decision tree
+E4	G-E4-25	certified paper (Japanese swords)	NBTHK Tokubetsu Juyo > Juyo > Tokubetsu Hozon > Hozon; NBSK papers	Grading-scale registry rows only, never stored per blade (C16).	proposals.tsv E4 row (quality_markers, quality_signals); Japanese Sword (japanesesword.net) katana decision tree
+E4	G-E4-24	maker reputation (HEMA swords)		HEMA buyers choose by maker first (Albion called the gold standard, one source, provisional).	proposals.tsv E4 row (quality_markers, quality_signals); Academie Duello HEMA sword buyer guide (Canada)
+E4	G-E4-24	customisation, lead time and repair (HEMA swords)		After maker reputation.	proposals.tsv E4 row (quality_markers); Academie Duello HEMA sword buyer guide (Canada)
+E4	G-E4-26	maker reputation (HEMA swords)		HEMA buyers choose by maker first (provisional).	proposals.tsv E4 row (quality_markers, quality_signals); Academie Duello HEMA sword buyer guide (Canada)
+E4	G-E4-26	customisation, lead time and repair (HEMA swords)		After maker reputation.	proposals.tsv E4 row (quality_markers); Academie Duello HEMA sword buyer guide (Canada)
+G1	G-G1-1	reliability	fewer problems per 100 vehicles > more (at 90 days, then at 3 years)	Few problems in daily use comes first (J.D. Power studies, dated).	proposals.tsv G1 row (quality_markers, quality_signals); AAA choosing a quality car
+G1	G-G1-1	safety	Euro NCAP 5 > 4 > 3 > 2 > 1 > 0 stars (protocol dated)	Safety after reliability.	proposals.tsv G1 row (quality_markers, quality_signals); Euro NCAP
+G1	G-G1-1	proven, mature technology	proven > new and untried	After safety.	proposals.tsv G1 row (quality_markers); AAA choosing a quality car
+G1	G-G1-1	build quality		After technology.	proposals.tsv G1 row (quality_markers); AAA choosing a quality car
+G1	G-G1-1	size class against need	micro to large (a choice; separate ladders for SUV and MPV)	A size_class attribute, never a level.	proposals.tsv G1 row (quality_markers); Autohome vehicle levels (China)
+G1	G-G1-1	running costs		Last in the order.	proposals.tsv G1 row (quality_markers); AAA choosing a quality car
+G1	G-G1-4	fit	frame size XS to XL (a choice)	Fit comes first.	proposals.tsv G1 row (quality_markers); Cycle King (UK bikes)
+G1	G-G1-4	intended riding	geometry for the discipline	Then the discipline.	proposals.tsv G1 row (quality_markers); Cycle King (UK bikes)
+G1	G-G1-4	component level	groupset ladder (not yet attested)	Groupset ladders are maker-ladder tier entries on lines.	proposals.tsv G1 row (quality_markers, quality_signals)
+G1	G-G1-4	frame material and weight		Last in the order.	proposals.tsv G1 row (quality_markers); Raleigh UK
+G1	G-G1-3	intended riding		The guide starts from the riding done.	proposals.tsv G1 row (quality_markers); SlashGear first motorcycle
+G1	G-G1-3	fit, checked on a test ride		After intended riding.	proposals.tsv G1 row (quality_markers); SlashGear first motorcycle
+G1	G-G1-3	running and ownership costs		Looks and spec come after this.	proposals.tsv G1 row (quality_markers); SlashGear first motorcycle
+G1	G-G1-7	length or size and layout		Memo only; provisional.	proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+G1	G-G1-7	condition and age		Memo only; provisional.	proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+G1	G-G1-6	length or size and layout		Memo only; provisional.	proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+G1	G-G1-6	condition and age		Memo only; provisional.	proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+G1	G-G1-8	length or size and layout		Memo only; provisional.	proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+G1	G-G1-8	condition and age		Memo only; provisional.	proposals.tsv G1 row (quality_markers); memo G1 sections 1-2
+G2	G-G2-1	location and neighbourhood		Weighed first by every guide; a filter and map, never a level.	proposals.tsv G2 row (quality_markers); Barfoot and Thompson (NZ) inspection checklist; ANZ property inspection checklist (Australia); e.surv house purchase checklist (UK)
+G2	G-G2-1	structural condition	roof, walls, damp and plumbing, wiring and heating	Survey after location (RICS Home Survey Levels 1-3 as guidance).	proposals.tsv G2 row (quality_markers, quality_signals); Barfoot and Thompson (NZ) inspection checklist; e.surv house purchase checklist (UK)
+G2	G-G2-1	legal title and tenure	freehold > share of freehold > leasehold	Title and LIM checks follow condition.	proposals.tsv G2 row (quality_markers); e.surv house purchase checklist (UK)
+G2	G-G2-1	energy performance and orientation	EPC A (92+) > B > C > D > E > F > G (1-20)	Never stored for a particular home (C16).	proposals.tsv G2 row (quality_markers, quality_signals); Energy performance certificate bands (Fuse Energy)
+G2	G-G2-1	fit to the household	bedrooms, layout, garden, parking	Last in the order.	proposals.tsv G2 row (quality_markers); Rightmove (UK)
+G2	G-G2-3	principal use and land quality	ALC grade 1 > 2 > 3a > 3b > 4 > 5	Land is judged by use and grade first (memo).	proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+G2	G-G2-3	access and water		After use and grade.	proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+G2	G-G2-3	area		Last in the order.	proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+G2	G-G2-2	build standard	residential BS 3632 > holiday BS EN 1647; HUD code; IRC Appendix Q	Factory-built homes are judged by build standard first (memo).	proposals.tsv G2 row (quality_markers, quality_signals); memo G2 sections 2 and 5
+G2	G-G2-2	maker's range and materials		Provisional.	proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+G2	G-G2-4	maker's range and materials		Kit-built garden buildings; provisional.	proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+G2	G-G2-6	placement and capacity	in-ground or above-ground; capacity (a choice)	Memo only; provisional.	proposals.tsv G2 row (quality_markers); memo G2 sections 2 and 5
+H2	G-H2-1	active ingredient and strength		Attributes of the medicine (memo).	proposals.tsv H2 row (quality_markers); memo H2 sections 2, 5-7
+H2	G-H2-1	sale class	(C17 rows; a filter)	After the active ingredient.	proposals.tsv H2 row (quality_markers, quality_signals); memo H2 sections 2, 5-7
+H2	G-H2-2	ingredients and form		Supplements are judged on what is in them first.	proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
+H2	G-H2-2	third-party testing seal	USP Verified; NSF Certified; ConsumerLab; Clean Label Project; GMP (certification attributes)	After ingredients.	proposals.tsv H2 row (quality_markers, quality_signals); Medical News Today vitamin brands
+H2	G-H2-2	certificate of analysis		After the seal.	proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
+H2	G-H2-2	clear labelling		After the certificate.	proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
+H2	G-H2-2	company reputation		Marketing claims count last of all.	proposals.tsv H2 row (quality_markers); Medical News Today vitamin brands
+H2	G-H2-3	ingredient type	whey; isolate; clear; vegan (a choice)	Sports nutrition starts from the ingredient.	proposals.tsv H2 row (quality_markers); Myprotein (sports nutrition)
+H2	G-H2-3	batch testing for banned substances	Informed Sport; NSF Certified for Sport; Informed Choice	Batch tested by an anti-doping lab.	proposals.tsv H2 row (quality_markers, quality_signals); Myprotein (sports nutrition)
+H2	G-H2-4	accuracy validated independently to international standards	on a validated list (BIHS for blood pressure)	Validation comes first for every monitor.	proposals.tsv H2 row (quality_markers); British and Irish Hypertension Society validated monitors
+H2	G-H2-33	validated accuracy	on the BIHS validated list (recommended by NHS and NICE)	First for blood-pressure monitors.	proposals.tsv H2 row (quality_markers, quality_signals); British and Irish Hypertension Society validated monitors
+H2	G-H2-33	cuff type and fit	upper arm > wrist	After validation (memo).	proposals.tsv H2 row (quality_markers); memo H2 sections 2, 5-7
+H2	G-H2-33	age of the monitor	replace a home monitor within four years	Last in the order.	proposals.tsv H2 row (quality_markers); British and Irish Hypertension Society validated monitors
+H2	G-H2-6	fit to the user	handle height; seat	Fit comes first.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK); Vitality Medical (US)
+H2	G-H2-6	user weight capacity		After fit; bariatric is a user tag.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+H2	G-H2-6	width and fit indoors		After capacity.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+H2	G-H2-6	place of use and surfaces	indoor; outdoor; all-terrain (a choice)	After width.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+H2	G-H2-6	wheel size		After surfaces.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+H2	G-H2-6	portability and weight		After wheels.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+H2	G-H2-6	brakes		After portability.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+H2	G-H2-6	warranty		Last in the order.	proposals.tsv H2 row (quality_markers); Manage at Home rollator guide (UK)
+H2	G-H2-54	style for the hearing loss	BTE; RIC; ITE; canal (a choice)	Style is chosen for the loss first.	proposals.tsv H2 row (quality_markers); memo H2 sections 2, 5-7
+H2	G-H2-54	lab-measured performance	HearingTracker lab scores	After style (memo).	proposals.tsv H2 row (quality_markers, quality_signals); memo H2 sections 2, 5-7
+H3	G-H3-1	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material is the safety variable and comes first; body_safe_class is computed from it. Price is not a guarantee of material.	proposals.tsv H3 row (quality_markers, quality_signals); Healthline how to buy a vibrator; MysteryVibe sex toy materials guide
+H3	G-H3-1	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-1	material disclosure and maker reputation	full ingredient or material disclosure > none	No independent grade exists, so disclosure carries weight.	proposals.tsv H3 row (quality_markers, quality_signals); MysteryVibe sex toy materials guide
+H3	G-H3-1	construction	no cracks, seams or pores	After disclosure.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-1	motor strength and range of settings		Powered products.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-1	noise, waterproofing and charging		Powered products, after the motor.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-1	size and fit	length; diameter	Last in the order.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-2	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material comes first.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-2	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-2	material disclosure and maker reputation	full ingredient or material disclosure > none	After the material checks.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-2	construction	no cracks, seams or pores	After disclosure.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-2	size and fit	length; diameter	Last in the order.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-3	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material comes first.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-3	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-3	material disclosure and maker reputation	full ingredient or material disclosure > none	After the material checks.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-3	construction	no cracks, seams or pores	After disclosure.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-3	size and fit, with a flared base	flared base for anal use; length; diameter	Last in the order; the flared base is named for anal use.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-4	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material comes first.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-4	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-4	material disclosure and maker reputation	full ingredient or material disclosure > none	After the material checks.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-4	construction	no cracks, seams or pores	After disclosure.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-4	size and fit	length; diameter	Last in the order.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-6	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material of the parts that touch the body comes first.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-6	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-6	material disclosure and maker reputation	full ingredient or material disclosure > none	After the material checks.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-6	construction	no cracks, seams or pores	After disclosure.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-6	motor strength and range of settings		Powered products.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-6	noise, waterproofing and charging		Powered products, after the motor.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-7	body-safe, non-porous material	medical or platinum-cured silicone, borosilicate glass, stainless steel, ABS > porous TPE or TPR > jelly or soft PVC (avoid)	Material comes first.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-7	phthalate-free and latex-free	phthalate-free > contains phthalates	After material.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-7	material disclosure and maker reputation	full ingredient or material disclosure > none	After the material checks.	proposals.tsv H3 row (quality_markers); MysteryVibe sex toy materials guide
+H3	G-H3-7	construction	no cracks, seams or pores	Last of the markers that apply.	proposals.tsv H3 row (quality_markers); Healthline how to buy a vibrator
+H3	G-H3-15	safe, easy release		Restraints: release comes first.	proposals.tsv H3 row (quality_markers); Bustle beginner restraint guide
+H3	G-H3-15	comfort and circulation protection		After release.	proposals.tsv H3 row (quality_markers); Bustle beginner restraint guide
+H3	G-H3-15	material	neoprene or padded cuffs > rope and metal (for beginners)	Last in the order.	proposals.tsv H3 row (quality_markers); Bustle beginner restraint guide
