@@ -1,0 +1,21 @@
+code	group_id	action	group_name	level	parent_group	members	reason
+G2	G-G2-1	add	Houses and flats	1		G2.2.1; G2.2.2; G2.2.3	HOL_DP_9 level-1 group; shoppers start from house or flat (SUUMO, immowelt).
+G2	G-G2-1-1	add	Houses	2	G-G2-1	G2.2.1	Kind axis attachment (detached, semi, terraced).
+G2	G-G2-1-2	add	Flats and maisonettes	2	G-G2-1	G2.2.2	Kind axis levels in the unit.
+G2	G-G2-1-3	add	Whole residential buildings	2	G-G2-1	G2.2.3	Block of flats, triplex, three-decker.
+G2	G-G2-2	add	Park, mobile and floating homes	1		G2.2.4	Factory-built and floating homes, least to most fixed; maker range tab lives here.
+G2	G-G2-3	add	Land and farms	1		G2.1	Land by use, building plot first.
+G2	G-G2-3-1	add	Building plots	2	G-G2-3	G2.1.1	First, as portals list plots before farm land.
+G2	G-G2-3-2	add	Farm land	2	G-G2-3	G2.1.2; G2.1.3; G2.1.4	Cropland, grassland and permanent crops shown together.
+G2	G-G2-3-3	add	Woodland	2	G-G2-3	G2.1.5	Own group (LandSale Timberland).
+G2	G-G2-3-4	add	Lakes and water	2	G-G2-3	G2.1.6	Water and wetland.
+G2	G-G2-3-5	add	Mixed holdings and smallholdings	2	G-G2-3	G2.1.7	Smallholding and lifestyle block are its aliases (G-13).
+G2	G-G2-4	add	Garden buildings and outbuildings	1		G2.3.1; G2.3.2; G2.3.3; G2.3.4; G2.3.5; G2.3.6	By what the building is for.
+G2	G-G2-4-1	add	Garages and carports	2	G-G2-4	G2.3.1	Vehicle shelter.
+G2	G-G2-4-2	add	Sheds and workshops	2	G-G2-4	G2.3.2	Storage and work.
+G2	G-G2-4-3	add	Garden rooms and cabins	2	G-G2-4	G2.3.3	Rooms for people (no own sink, toilet and entrance).
+G2	G-G2-4-4	add	Barns and stables	2	G-G2-4	G2.3.4	Animal and crop buildings.
+G2	G-G2-4-5	add	Gazebos, pergolas, decks and patios	2	G-G2-4	G2.3.5	Shade and surface structures.
+G2	G-G2-4-6	add	Swimming pools	2	G-G2-4	G2.3.6	One pool kind, construction attribute (G-17).
+G2	G-G2-5	add	Commercial buildings	1		G2.3.7	Other buildings by function (K-62).
+G2	G-G2-6	add	Burial places	1		G2.4	Kinds by interment structure; no leaf level.

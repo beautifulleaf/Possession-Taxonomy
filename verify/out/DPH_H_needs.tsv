@@ -1,0 +1,27 @@
+code	need_type	name	owner	scale_class	kinds_served	reason
+H1	scheme	CHOICE Expert Rating: electric toothbrushes	CHOICE (Australia)	ii	H1 Oral care: electric toothbrush	Lab test (ease of use 45, feel 45, charging 10); kept separate from plaque-removal tests (proposal); fetched how-we-test page.
+H1	scheme	Which? electric toothbrush test	Which? (UK)	ii	H1 Oral care: electric toothbrush	Plaque-removal yardstick differs from CHOICE, so its own scheme; provisional (search excerpt only).
+H1	scheme	Consumer Reports electric toothbrush ratings	Consumer Reports (US)	ii	H1 Oral care: electric toothbrush	Separate yardstick (plaque removal); provisional (search excerpt only).
+H1	standard	COSMOS Organic and COSMOS Natural	COSMOS-standard AISBL	i	H1 sub-families 1, 2, 3, 6 (preparations)	Certification on the product: standard_values on named forms (R-118 c); Ethical Consumer labels page.
+H1	standard	NATRUE label	NATRUE	i	H1 sub-families 1, 2, 3, 6	Certification on the product; Ethical Consumer labels page.
+H1	standard	Leaping Bunny	Cruelty Free International	i	H1 all preparations	Cruelty-free audit seal on the product or maker range; Ethical Consumer labels page.
+H1	standard	Vegan Society trademark	The Vegan Society	i	H1 all preparations	Vegan seal on the product; feeds the vegan facet.
+H1	standard	SPF test (ISO 24444) and UVA/PA test (ISO 24442; PA grade)	ISO; Japan Cosmetic Industry Association (PA labelling)	i	H1 Sun care: sunscreen; complexion makeup with SPF	standard_met for SPF and PA (memo section 5); standards named by reviewer knowledge, provisional until a page is fetched.
+H1	platform	Razor-cartridge and injector-blade systems (Gillette Mach3, Fusion; Schick Hydro; Schick Injector blade)	Gillette; Schick		H1 cartridge razor; razor cartridge; single-edge blade	C13 platform_type razor-cartridge system (R-50); memo section 6.
+H1	platform	Toothbrush-head systems (Oral-B round head, Philips Sonicare click-on)	Procter & Gamble (Oral-B); Philips		H1 electric toothbrush; toothbrush head	C13 brush-head system (R-50); compatibility pages not yet fetched.
+H1	platform	Shaver-foil and head systems (Braun Series, Philips cassettes)	Braun; Philips		H1 electric shaver; shaver foil or head	C13 shaver-foil system (R-50); provisional until fetched.
+H2	standard	USP Verified Mark	United States Pharmacopeia	i	H2.7; H2.8	Supplement seal (proposal: needs registry rows); standard_values on named forms feed the third-party-tested view.
+H2	standard	NSF/ANSI 173 Certified and NSF Certified for Sport	NSF	i	H2.7; H2.8	Supplement and sports-nutrition seals; Medical News Today and Myprotein pages.
+H2	standard	Informed Sport and Informed Choice	LGC	i	H2.8; H2.7	Batch testing for banned substances; Myprotein batch-tested range page.
+H2	standard	ConsumerLab Approved Quality	ConsumerLab.com	i	H2.7	Pass or fail product test seal; proposal quality signals.
+H2	standard	Clean Label Project certification; Non-GMO Project Verified	Clean Label Project; Non-GMO Project	i	H2.7; H2.8	Product seals named in the proposal; one fetched page each before entry.
+H2	standard	GMP registration (dietary supplements)	NSF and other registrars	i	H2.7; H2.8	Facility seal printed on products; proposal quality signals; provisional which registrar is named.
+H2	standard	BIHS validated blood-pressure monitor list	British and Irish Hypertension Society	i	H2.1.1.1; H2.1.1.2; H2.1.1.3	standard_met with the list named (memo section 10 provisional now answered by the fetched BIHS page).
+H2	standard	First-aid kit standards ANSI/ISEA Z308.1, BS 8599-1, DIN 13157, DIN 13164, DIN 13169	ISEA; BSI; DIN	i	H2.10.1.1	standard_met with class or size (memo section 3.4).
+H2	scheme	HearingTracker lab scores	HearingTracker	ii	H2.5.1.1; H2.5.1.2; H2.5.1.3; H2.5.1.4	Measured hearing-aid performance (memo); test_version needed.
+H2	scheme	U.S. News pharmacist brand survey	U.S. News & World Report	iii	H2.6; H2.7	Pharmacist recommendations by condition (memo S8).
+H2	platform	Glucose-meter strip and CGM sensor systems	meter and CGM makers		H2.1.3.1; H2.1.3.2; H2.1.3.3; H2.12.2.1; H2.12.2.2	C13 compatibility named in memo section 6; not yet fetched.
+H3	standard	ISO 3533:2021 Sex toys: design and safety requirements	ISO	i	H3 all kinds	standard_met on named forms when the maker declares it (H-12).
+H3	grading_scale	body_safe_class (body-safe non-porous > porous > avoid)	computed from the two guides of memo S20 and S21	classification	H3 sub-families A, B, C, D	Classification computed from the material attribute, never a grade of one object (C16, R-2).
+H3	scheme	my-best Japan rankings (adult products)	my-best	iii	H3 sub-families A, D; H2.9.1.1; H1 personal lubricant	Editorial ranking with no published method: low weight (proposal).
+H3	platform	KlicLok, Vac-U-Lock and 3XLR attachment connectors	Hismith (KlicLok); owners of Vac-U-Lock and 3XLR unattested		H3 F thrusting sex machine; H machine attachment; B dildo	C13 rows seeded by the memo (section 6); owners to be found.
