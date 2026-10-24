@@ -1,0 +1,4 @@
+# SIG_A1_27 report
+List rows: 16, all processed. J.Crew: 6 named forms written (Rollneck sweater 1988, Barn Jacket 1983, Rugby Shirt 1984, Side-Zip Anorak 1989, Ludlow suit, Crosby suit 2014). Scene tags: none (no fetched page ties a piece to the ivy scene); tags file holds header only.
+None found (15 rows, in done.tsv): Payal Jain, Robert Naorem, Shravan Kummar, Feral Fawn, Lesley Hampton, Mobilize, 4Kinship, Born in the North, Tanedorost, Poosh, Anar Design, Atefeh Naderi, Barandokht, NUMBER (N)ine, Noir Kei Ninomiya. Searches and fetches showed only seasonal or collection products, or brand pages could not be found by search (no URLs guessed).
+Kind problems: Rugby Shirt fits no A1 kind exactly; placed under Polo shirt A1.1.2.04 (source: https://gearpatrol.com/2018/03/14/jcrew-heritage-collection/). Barn Jacket placed under Chore coat A1.4.1.07. Ludlow/Crosby are suit cuts; kept as named designs under Business suit, reviewer may treat as attributes.
