@@ -5,3 +5,4 @@ Cards added:
 No existing B7 cards.
 Shops checked: Currys, Argos (403), Walmart (bot check); Parallel fetch had no credit. Every fetch failed, so both cards rest on conditions 1 and 2 only (search excerpts showed mini and mid-size dehumidifiers sold together; hot tub guides treat the three as one product).
 Left: desk/pedestal/tower fans (shops list them as separate categories, e.g. CPC), window vs box fan, inverter types (installer choice), radiators, air conditioners (mount types, separate pages), water filters (whole-house/under-sink), water heaters, whole-house dehumidifier (installed), swim spa.
+- Editor (integration): CARD-B7-G2 Hot tub dropped. Every fetch failed, and inflatable hot tubs commonly have their own shop category, so the case is not plain.

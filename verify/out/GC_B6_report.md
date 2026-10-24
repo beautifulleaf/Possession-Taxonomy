@@ -1,0 +1,3 @@
+GC_B6 report. Cards added: Top-load washing machine: B6.3.1.02; B6.3.1.03 (agitator/impeller; rests on conditions 1 and 2, shop fetch failed). Kitchen bin: B6.5.1.01; B6.5.1.06; B6.5.1.07 (Dunelm bins page, full: pedal/sensor/other filter values). Clothes airer: B6.3.4.01; B6.3.4.05; B6.3.4.06 (Dunelm airers page, full: heated filter, rotary listed).
+Shops checked: Dunelm (2 fetched), YPC, Bing Lee, Currys (403, failed).
+Left: vented vs condenser/heat-pump dryers (heat pump has own shop pages, chosen as different technology); front vs top load (separate pages); recycling bin (own filter, use); mops, vacuums (shoppers compare as different tools); detergent forms (powder/liquid/capsules have separate pages).
