@@ -169,24 +169,6 @@ J6	G-J6-21	cocoa process		Dutch or natural chosen by recipe; no grade ladder fou
 J6	G-J6-21	fat content and grind	higher fat, finer grind > fat-reduced, coarse	Producers publishing fat and pH signal a better powder.	Chowhound cocoa powder article; J6 memo S17, S19
 J6	G-J6-22	bean class	fine or flavour > bulk (provisional)	ICCO class describes a country's exports, disputed.	J6 memo S18
 J6	G-J6-4	plant and part (infusions)		Infusions are chosen by plant and flavour; provisional, no HOL evidence.	J6 memo S11, S25
-C4	G-C4-101	lightfastness	ASTM I (excellent) > II > III > IV > V; I and II as artist quality	The first test of an artist colour.	proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
-C4	G-C4-101	pigment load and tint strength		More pigment, stronger colour.	proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
-C4	G-C4-101	single-pigment colours (Colour Index code)	single pigment > mixture	The CI code shows what is in the tube.	proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
-C4	G-C4-101	artist against student range	artist > student	Grade sits on the maker range (tier entry), never on the kind.	proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
-C4	G-C4-101	opacity, staining and granulation		Chosen by need, not a ladder.	proposals.tsv C4 row (quality_markers); Stephen Berry watercolor pigments guide; Golden Artist Colors technical specifications
-C4	G-C4-110	fibre content		Knitters identify yarns by company and fibre.	proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
-C4	G-C4-110	weight matched to the pattern		A fit, not a ladder; yarn shops go by weight first (DPW1_C4).	proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
-C4	G-C4-110	colour and texture		Weighed after fibre and weight.	proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
-C4	G-C4-110	care		Washability last.	proposals.tsv C4 row (quality_markers); The Loopy Ewe yarn guide; Ravelry yarns tab
-C4	G-C4-105	build, motor and stability		A solid frame and motor lead.	proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
-C4	G-C4-105	stitch quality and tension		Even stitches and tension next.	proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
-C4	G-C4-105	features for the use and skill		Matched to the sewer, not more is better.	proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
-C4	G-C4-105	brand reliability and servicing		Dealer service counts.	proposals.tsv C4 row (quality_markers); The Sewing Studio (UK) sewing machine guide
-C4	G-C4-122	firing range (cone)		A fit to the kiln and glaze, not a ladder.	proposals.tsv C4 row (quality_markers)
-C4	G-C4-114	tannage		Leather is chosen by tannage first (memo).	proposals.tsv C4 row (quality_markers); C4 memo
-C4	G-C4-114	grain grade		Grade after tannage (memo).	proposals.tsv C4 row (quality_markers); C4 memo
-C4	G-C4-114	weight (oz)		A fit to the project (memo).	proposals.tsv C4 row (quality_markers); C4 memo
-C4	G-C4-116	shape consistency of the maker's line		Seed beads are compared by maker line (memo).	proposals.tsv C4 row (quality_markers); C4 memo
 C7	G-C7-1	measured PTO and drawbar power against need, hitch category and implement compatibility		Fit to the job comes first.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data; Purple Wave tractor buying guide
 C7	G-C7-1	lift and hydraulic capacity		Measured in the Nebraska test.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
 C7	G-C7-1	fuel efficiency (hp-hr per gallon at 75 and 50 percent pull)	higher > lower	Nebraska test figures.	proposals.tsv C7 row (quality_markers); Extension guide to Nebraska Tractor Test data
@@ -964,3 +946,21 @@ C5	G-C5-R5	Preference and build		Desk goods carry no quality ladder.	rewritten f
 C5	G-C5-R6	Preference and build		Filing goods carry no quality ladder.	rewritten from the stored C5 markers (G-C5-7), RD_C5
 C5	G-C5-R7	Calculators: capability class	graphing > scientific > printing > basic	A class to match the need.	rewritten from the stored C5 markers (G-C5-123), RD_C5
 C5	G-C5-R7	Shredders: cut type	micro-cut > cross-cut > strip-cut	Cut type sets the rung.	rewritten from the stored C5 markers (G-C5-124), RD_C5
+C4	G-C4-R1	How light-proof the colour is	ASTM I (excellent) > II > III > IV > V; I and II count as artist quality	The first test of an artist colour.	rewritten from the stored C4 markers (G-C4-101), RD_C4
+C4	G-C4-R1	Pigment load and tint strength		More pigment gives stronger colour.	rewritten from the stored C4 markers (G-C4-101), RD_C4
+C4	G-C4-R1	Single-pigment colours (Colour Index code)	single pigment > mixture	The Colour Index code on the tube shows what is in it.	rewritten from the stored C4 markers (G-C4-101), RD_C4
+C4	G-C4-R1	Artist or student range	artist > student	Grade belongs to the maker's range, not to the kind of paint.	rewritten from the stored C4 markers (G-C4-101), RD_C4
+C4	G-C4-R1	Opacity, staining and granulation		Chosen by need, not a ladder.	rewritten from the stored C4 markers (G-C4-101), RD_C4
+C4	G-C4-R3	Fibre content		Knitters pick yarn by company and fibre.	rewritten from the stored C4 markers (G-C4-110), RD_C4
+C4	G-C4-R3	Weight matched to the pattern		A fit, not a ladder; yarn shops go by weight first.	rewritten from the stored C4 markers (G-C4-110), RD_C4
+C4	G-C4-R3	Colour and texture		Weighed after fibre and weight.	rewritten from the stored C4 markers (G-C4-110), RD_C4
+C4	G-C4-R3	Care		Washability comes last.	rewritten from the stored C4 markers (G-C4-110), RD_C4
+C4	G-C4-R2	Build, motor and stability		A solid frame and motor come first.	rewritten from the stored C4 markers (G-C4-105), RD_C4
+C4	G-C4-R2	Stitch quality and tension		Even stitches and tension next.	rewritten from the stored C4 markers (G-C4-105), RD_C4
+C4	G-C4-R2	Features for the use and skill		Matched to the sewer; more is not always better.	rewritten from the stored C4 markers (G-C4-105), RD_C4
+C4	G-C4-R2	Brand reliability and servicing		Dealer service counts.	rewritten from the stored C4 markers (G-C4-105), RD_C4
+C4	G-C4-R6	Firing range (cone)		A fit to the kiln and glaze, not a ladder.	rewritten from the stored C4 markers (G-C4-122), RD_C4
+C4	G-C4-R8	Tannage		Leather is chosen by tannage first.	rewritten from the stored C4 markers (G-C4-114), RD_C4
+C4	G-C4-R8	Grain grade		Grade comes after tannage.	rewritten from the stored C4 markers (G-C4-114), RD_C4
+C4	G-C4-R8	Weight (oz)		A fit to the project.	rewritten from the stored C4 markers (G-C4-114), RD_C4
+C4	G-C4-R5	Shape consistency of the maker's line		Seed beads are compared by maker line.	rewritten from the stored C4 markers (G-C4-116), RD_C4
