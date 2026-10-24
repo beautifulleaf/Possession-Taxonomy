@@ -48,3 +48,4 @@ Agreed with the owner on 2026-10-17.
 
 ## Owner decision on country data (2026-10-24, session 5)
 - **No country backfill** (owner): "I'm not sure the country backfill is worth doing, this is supposed to be organized for consumers and people wouldn't necessarily organize on that but rather the type of clothes … like genres of fashion." Country is never a way in: categories are navigated by the type of object and, where scenes exist, by genre (fashion scenes and styles). Dedicated passes that only look up makers' countries are stopped; a country is recorded when a harvested page states it.
+- **Regional harvests stay, per-country balancing goes** (owner, 2026-10-24): makers are still harvested region by region so every part of the world is found, but the depth passes that chase each country's expected share (coverage proportional to the world's distribution, 2026-10-17) are no longer run. Coverage reports may still be generated for information.
