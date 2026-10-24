@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>Possession Taxonomy Reader</title>
+<title>Possession Taxonomy</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -79,6 +79,20 @@ details.models[open] summary::before { content: "− "; }
 .hits { display: grid; gap: 4px; }
 .hit { display: flex; justify-content: space-between; gap: 12px; text-align: left; font: 15px/1.4 var(--body); padding: 7px 10px; border: 1px solid var(--rule); border-radius: 4px; background: var(--paper); color: var(--ink); cursor: pointer; }
 .hit i { font-style: normal; color: var(--muted); font-size: 13px; white-space: nowrap; }
+.modes { display: flex; gap: 4px; }
+.modes button { font: 600 13px/1 var(--body); padding: 8px 14px; border-radius: 999px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink); cursor: pointer; }
+.modes button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+section.scene { display: grid; gap: 8px; scroll-margin-top: calc(var(--hh, 150px) + 12px); }
+section.scene h4 { font: 700 21px/1.1 var(--sign); letter-spacing: .02em; text-transform: uppercase; margin: 0; border-bottom: 1px solid var(--rule); padding-bottom: 4px; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+section.scene h4 span { font: 500 12px/1 var(--mono); color: var(--muted); text-transform: none; letter-spacing: 0; }
+section.scene > p { margin: 0; font-size: 15px; max-width: 72ch; }
+.brands { display: flex; flex-wrap: wrap; gap: 6px; }
+details.brand { background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; font-size: 14px; }
+details.brand.core { border-left: 4px solid var(--accent); }
+details.brand summary { cursor: pointer; padding: 6px 10px; list-style: none; font-weight: 600; }
+details.brand summary::-webkit-details-marker { display: none; }
+details.brand summary i { font-style: normal; font-weight: 400; color: var(--muted); font-size: 12px; margin-left: 6px; }
+details.brand div { padding: 0 10px 8px; color: var(--muted); font-size: 13px; max-width: 46ch; }
 mark { background: var(--flag); color: var(--flag-ink); padding: 0 1px; border-radius: 2px; }
 @media (max-width: 880px) { .wrap { grid-template-columns: minmax(0, 1fr); gap: 16px; } nav.side { position: static; max-height: 260px; border: 1px solid var(--rule); border-radius: 6px; padding: 10px; background: var(--paper); } #q { margin-left: 0; width: 100%; } header { position: static; } section.dept, section.shelf { scroll-margin-top: 12px; } .cat-head h2 { font-size: 36px; } }
 @media (max-width: 560px) { .items { grid-template-columns: minmax(0, 1fr); } }
@@ -130,7 +144,38 @@ async function open(c, top, target) {
   render(); if (top) window.scrollTo({ top: 0 });
   if (target) document.getElementById(target)?.scrollIntoView();
 }
+let mode = 'scene';
 function render() {
+  const hasScenes = !!(data.scenes && data.scenes.length);
+  if (!hasScenes) return renderTree();
+  const bar = $('div', { class: 'modes', role: 'group', 'aria-label': 'Browse by' });
+  [['scene', 'By scene'], ['tree', 'By garment']].forEach(([k, l]) => { const b = $('button', { type: 'button', 'aria-pressed': String(mode === k), text: l }); b.addEventListener('click', () => { mode = k; render(); window.scrollTo({ top: 0 }); }); bar.append(b); });
+  if (mode === 'tree') { renderTree(); main.insertBefore(bar, main.children[1] || null); return; }
+  renderScenes(); main.insertBefore(bar, main.children[1] || null);
+}
+function renderScenes() {
+  const ol = $('ol');
+  data.scenes.forEach((c, i) => { const li = $('li', { class: 'd' }, $('a', { href: '#' + slug('c', i) }, c.n, $('span', { text: c.s.length })));
+    li.append($('ol', {}, c.s.map((x, j) => $('li', {}, $('a', { href: '#' + slug('x', i, j) }, x.n, $('span', { text: x.b.length })))))); ol.append(li); });
+  side.replaceChildren($('h2', { text: catName(cur) + ' by scene' }), ol);
+  const n = data.scenes.reduce((a, c) => a + c.s.length, 0);
+  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(cur) }), $('p', { text: 'Browse ' + n + ' scenes and styles in ' + data.scenes.length + ' groups: each scene lists the brands that define it (marked) and brands worn in it, with their signature pieces. Switch to By garment to browse by type of clothing.' })));
+  data.scenes.forEach((c, i) => {
+    const sec = $('section', { class: 'dept', id: slug('c', i) }, $('h3', { class: 'dept-name', text: c.n }));
+    c.s.forEach((x, j) => {
+      const box = $('section', { class: 'scene', id: slug('x', i, j) }, $('h4', {}, x.n, $('span', { text: x.b.filter(b => b[1]).length + ' defining · ' + x.b.filter(b => !b[1]).length + ' worn in it' })));
+      if (x.d) box.append($('p', { text: x.d }));
+      const br = $('div', { class: 'brands' });
+      x.b.forEach(([nm, core, pcs]) => br.append($('details', { class: 'brand' + (core ? ' core' : '') }, $('summary', {}, nm, $('i', { text: core ? 'defines the scene' : 'worn in it' })), $('div', { text: pcs.length ? 'Signature pieces: ' + pcs.join(', ') : 'No signature piece recorded.' }))));
+      box.append(br);
+      if (x.src) box.append($('p', { class: 'src' }, $('a', { href: x.src, target: '_blank', rel: 'noopener', text: 'Where this scene is described' })));
+      sec.append(box);
+    });
+    main.append(sec);
+  });
+  spy();
+}
+function renderTree() {
   const total = data.depts.reduce((a, d) => a + d.s.reduce((b, s) => b + s.k.length, 0), 0);
   const ol = $('ol');
   data.depts.forEach((d, i) => { const n = d.s.reduce((a, s) => a + s.k.length, 0);
@@ -164,7 +209,7 @@ let spyObs;
 function spy() {
   spyObs?.disconnect(); const links = new Map([...side.querySelectorAll('a')].map(a => [a.getAttribute('href').slice(1), a]));
   spyObs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { side.querySelectorAll('a.on').forEach(x => x.classList.remove('on')); links.get(e.target.id)?.classList.add('on'); } }), { rootMargin: '-160px 0px -65% 0px' });
-  main.querySelectorAll('section.shelf, section.dept').forEach(s => spyObs.observe(s));
+  main.querySelectorAll('section.shelf, section.dept, section.scene').forEach(s => spyObs.observe(s));
 }
 side.addEventListener('click', e => { const a = e.target.closest('a[href^="#"]'); if (!a) return; e.preventDefault(); document.getElementById(a.getAttribute('href').slice(1))?.scrollIntoView(); });
 q.addEventListener('input', search);

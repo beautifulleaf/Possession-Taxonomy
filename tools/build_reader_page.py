@@ -20,7 +20,8 @@ for line in fw[fw.index("## Categories"):fw.index("## Appendix A")].splitlines()
     elif m := re.match(r"^- \*\*([A-J]\d+) ([^*]+)\*\*", line): CATS.append({"c": m.group(1), "n": m.group(2).strip(), "d": m.group(1)[0]})
 
 kinds = defaultdict(dict)
-for k in read_tsv(ROOT / "data/kinds.tsv"): kinds[k["code"]][k["kind_id"]] = k
+for k in read_tsv(ROOT / "data/kinds.tsv"):
+    if k["status"] != "retired": kinds[k["code"]][k["kind_id"]] = k
 disp = {d["kind_id"]: d for d in read_tsv(nav / "display.tsv")} if (nav / "display.tsv").exists() else {}
 groups, markers = defaultdict(list), defaultdict(list)
 for g in read_tsv(nav / "groups.tsv"): groups[g["code"]].append(g)
@@ -56,6 +57,26 @@ def item(k):
     d = ((disp.get(k["kind_id"]) or {}).get("description") or k["definition"]).strip()
     return {"n": dn, "a": also, "d": d[:1].upper() + d[1:], "m": models, "r": ranges, "s": (k["sources"].split(" | ") or [""])[0].strip()}
 
+# scene view (clothing is navigated genre first, owner 2026-10-17 and session 6; R-71): clusters > scenes > brands
+SC = read_tsv(ROOT / "data/scenes.tsv"); TG = [t for t in read_tsv(ROOT / "data/scene_tags.tsv") if t["subject_type"] == "maker"]
+def scene_view(code, K):
+    pieces = defaultdict(list)
+    for kid in K:
+        for n in nfs[kid]:
+            if n["maker_id"]: pieces[n["maker_id"]].append(n["name"])
+    by_scene = defaultdict(list)
+    for t in TG: by_scene[t["scene_id"]].append(t)
+    out = []
+    for cl in dict.fromkeys(x["cluster"] for x in SC if x["cluster"] and code in x["domains"].split(",")):
+        scenes = []
+        for x in [x for x in SC if x["cluster"] == cl and code in x["domains"].split(",")]:
+            tags = sorted(by_scene[x["scene_id"]], key=lambda t: (t["strength"] != "core", mk.get(t["subject_id"], "").lower()))
+            if not tags: continue
+            scenes.append({"n": x["name"] + (f" [{x['native_name']}]" if x["native_name"] else ""), "d": x["description"], "src": x["definition_source"],
+                           "b": [[mk.get(t["subject_id"], t["subject_id"]), 1 if t["strength"] == "core" else 0, sorted(set(pieces.get(t["subject_id"], [])))[:8]] for t in tags]})
+        if scenes: out.append({"n": cl, "s": scenes})
+    return out
+
 (ROOT / "pages/reader").mkdir(exist_ok=True)
 index, counts = [], {}
 for c in CATS:
@@ -77,7 +98,8 @@ for c in CATS:
             for i, it in enumerate(s["k"]): index.append([code, it["n"], it["a"]])
     counts[code] = len(K)
     whole = [{"m": m["marker"], "v": m["values"], "w": m["why"]} for m in markers[code] if m["group_id"].strip() == code]
-    (ROOT / f"pages/reader/{code}.json").write_text(json.dumps({"c": code, "b": whole, "rev": code in props or (bool(K) and all(k in disp for k in K)), "depts": depts}, ensure_ascii=False, separators=(",", ":")))
+    extra = {"scenes": scene_view(code, K)} if code == "A1" else {}
+    (ROOT / f"pages/reader/{code}.json").write_text(json.dumps({"c": code, "b": whole, **extra, "rev": code in props or (bool(K) and all(k in disp for k in K)), "depts": depts}, ensure_ascii=False, separators=(",", ":")))
 for c in CATS: c["k"] = counts.get(c["c"], 0)
 shell = {"domains": DOMAINS, "cats": CATS, "index": index}
 tpl = (ROOT / "tools/reader_template.html").read_text()

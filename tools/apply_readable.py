@@ -10,7 +10,7 @@ from common import ROOT, read_tsv, write_tsv
 
 b, code = sys.argv[1], sys.argv[2]
 nav = ROOT / "framework/structure/navigation"
-K = {k["kind_id"] for k in read_tsv(ROOT / "data/kinds.tsv") if k["code"] == code}
+K = {k["kind_id"] for k in read_tsv(ROOT / "data/kinds.tsv") if k["code"] == code and k["status"] != "retired"}
 D = [r for r in read_tsv(ROOT / f"verify/out/{b}_display.tsv") if r["kind_id"].strip()]
 G = [g for g in read_tsv(ROOT / f"verify/out/{b}_groups.tsv") if g["group_id"].strip()]
 mp = ROOT / f"verify/out/{b}_markers.tsv"

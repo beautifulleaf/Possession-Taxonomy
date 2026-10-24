@@ -325,3 +325,11 @@ verify/out/RD_decision_queue.md: items that may belong in another category (hols
 
 ## Next
 Owner reads the reader page and the queue; moves between categories change the tree and go through a decision pass (R-item) before the display layer follows. The Clothing scene view (genre first, R-71) is not yet on the reader page.
+
+## Session 12, continued — decision queue, clothing scenes, final page, main
+| Step | Result |
+|---|---|
+| Queue | R-128: three kinds moved to their shops' category (holster, studio backdrop, cabinet humidor; tools/move_kinds.py), one duplicate merged (CO2 launcher into pepper-ball launcher; tools/merge_kinds.py), 71 plain-word quality markers for Clothing, Lighting, Animal Equipment, Optical & Scientific Instruments and Video Games; the other flags stand where stage-2 boundary rules put them. |
+| Scenes | Clothing opens by scene on the reader page (20 groups, 233 scenes, 9,486 brand placements, signature pieces), by garment on a toggle. |
+| Final page | The Possession Taxonomy: https://claude.ai/artifact/C1cQq1ygVd7bWfw7Duem6n (6,456 kinds in 53 categories). |
+| Branches | main now holds everything: this branch merged with main, claude/stoic-ptolemy-4nctsh and claude/adoring-gates-42vva3 (their files are all present here in later versions; histories kept, nothing rewritten). |
