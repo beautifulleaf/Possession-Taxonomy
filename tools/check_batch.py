@@ -38,6 +38,13 @@ def main():
         rows = read_tsv(f)
         if not rows or "sources" not in rows[0]: continue
         bad_rows, keep, lost = 0, [], []
+        import re
+        changed = 0
+        for r in rows:  # some agents join sources or statuses with "; " or ", ": normalise to " | " first
+            before = (r["sources"], r.get("fetch_status", ""))
+            r["sources"] = re.sub(r"\s*[;,]\s+(?=https?://)", " | ", r["sources"])
+            if "|" not in r.get("fetch_status", ""): r["fetch_status"] = re.sub(r"\s*[;,]\s*", " | ", r.get("fetch_status", ""))
+            changed += before != (r["sources"], r.get("fetch_status", ""))
         for r in rows:
             us = [u.strip() for u in r["sources"].split("|") if u.strip()]
             fs = [x.strip() for x in r.get("fetch_status", "").split("|")]
@@ -51,7 +58,7 @@ def main():
                 (keep if good else lost).append(r)
         total_bad += bad_rows
         print(f"{f.name}: {len(rows)} rows, {bad_rows} with a source not in the fetch log")
-        if fix and log.exists() and bad_rows:
+        if fix and log.exists() and (bad_rows or changed):
             cols = list(rows[0].keys())
             write_tsv(f, keep, cols)
             if lost:
