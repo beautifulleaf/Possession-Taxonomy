@@ -63,9 +63,16 @@ def named_forms(rows, kinds, b):
     have = {}
     for r in nf: have.setdefault(r["kind_id"], set()).add(base(r["name"]))
     used = {r["named_form_id"] for r in nf}
+    by_ds = {r["notes"].split("designation ", 1)[1].split(";")[0].strip(): r for r in nf if r["notes"].startswith("designation ")}
     new = []
     for d in rows:
         if d["binds"] != "kind" or not d["kind_id"]: continue
+        old = by_ds.get(d["designation_id"])
+        if old:  # a re-run renamed or re-sourced the designation: its named form follows (same id)
+            nm = f"{d['name']} {d['scheme']}".strip()
+            if (old["name"], old["kind_id"], old["sources"]) != (nm, d["kind_id"], d["sources"]):
+                new.append({**old, "name": nm, "kind_id": d["kind_id"], "sources": d["sources"], "fetch_status": d["fetch_status"]})
+            continue
         if base(d["name"]) in have.get(d["kind_id"], set()): continue
         n = 1
         while f"NF-{d['kind_id']}-O{n:03d}" in used: n += 1

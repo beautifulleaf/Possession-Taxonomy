@@ -79,7 +79,8 @@ def main():
             reissued = 0
             for r in new:
                 o = rows.get(r[key])
-                if o and norm(o.get("name", "")) != norm(r.get("name", "")):
+                if o and norm(o.get("name", "")) != norm(r.get("name", "")) and not (
+                        table == "named_forms" and o.get("notes", "").startswith("designation ") and o.get("notes") == r.get("notes")):
                     if table != "named_forms":
                         sys.exit(f"{table}: id {r[key]} already holds '{o.get('name')}', not '{r.get('name')}'; nothing written")
                     base, n = r[key], 1
