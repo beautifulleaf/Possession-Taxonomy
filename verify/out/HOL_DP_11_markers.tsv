@@ -1,0 +1,65 @@
+code	group_id	marker	values	why	evidence_rows
+J1	P-J1-1	marbling and USDA quality grade	USDA Prime > USDA Choice > USDA Select > Standard > Commercial > Utility > Cutter > Canner	USDA grade rests on marbling and maturity; Prime is rare, mostly at specialist counters.	Allen Brothers USDA grading guide (US); High Plains Journal beef grades 101 (US)
+J1	P-J1-1	JMGA grade and BMS (wagyu)	A5 > A4 > A3 > A2 > A1	Quality number is the lowest of four sub-scores; A5 needs BMS 8-12.	Crowd Cow wagyu grading guide (JP system)
+J1	P-J1-1	breed		Wagyu, Angus and heritage breeds lead premium shops; wagyu label alone is not top grade.	Crowd Cow shop (US); High Plains Journal beef grades 101 (US)
+J1	P-J1-1	feeding		Grass-fed, grain-finished and pasture-raised are the first premium filters.	Crowd Cow shop (US); Whole Foods Market Meat & Seafood (US)
+J1	P-J1-1	animal age (maturity)		Younger carcasses grade higher at equal marbling in the USDA system.	High Plains Journal beef grades 101 (US); Allen Brothers USDA grading guide (US)
+J1	P-J1-2	breed		Pork is sold by breed: Heritage, Ibérico, Mangalitsa.	Crowd Cow shop (US)
+J1	P-J1-2	farming and production claims		Pasture-raised, organic, no antibiotics and humane labels sit on labels, not levels.	Whole Foods Market Meat & Seafood (US)
+J1	P-J1-4	farming method and production claims		Organic, Certified Humane, GAP and no-antibiotics claims are the buyer signals for poultry.	Whole Foods Market Meat & Seafood (US)
+J1	P-J1-7	Ibérico colour label (breed x feeding)	Black (100% ibérico de bellota) > Red (ibérico de bellota) > Green (cebo de campo) > White (cebo)	Official ham tier combining breed percentage and acorn diet; pata negra only black.	Wikipedia Jamón ibérico (ES); Reluctant Gourmet jamon iberico de bellota guide (ES)
+J1	P-J1-7	cure time	36 months or more > 24 months	Longer cure marks the top hams; time is part of the label rules.	Wikipedia Jamón ibérico (ES); Reluctant Gourmet jamon iberico de bellota guide (ES)
+J1	P-J1-7	protected origin		DOP Guijuelo, Jabugo, Dehesa de Extremadura, Los Pedroches name the dehesa regions; unranked.	Wikipedia Jamón ibérico (ES); Reluctant Gourmet jamon iberico de bellota guide (ES)
+J1	P-J1-8	product type and organic		Wurst is chosen by named type; Bio is the main quality filter, brand a filter.	REWE Wurst range via supermarktcheck.de (DE)
+J2	G-J2-1	freshness	Extra > A > B	Firmness, bright eyes and sea smell come first; EU freshness categories (GS-ec-fish-freshness-categories).	Woolworths South Africa how to shop for fish (ZA)
+J2	G-J2-1	wild or farmed, and catch or farming method		Shops split wild-caught from farmed early; MSC certifies wild capture only.	Crowd Cow shop seafood section (US); Marine Stewardship Council FAQ (UK/intl)
+J2	G-J2-1	sustainability rating	Best Choice > Certified > Good Alternative > Avoid	Seafood Watch rates fishing or farming impact; the main buyer signal besides MSC.	Seafood Watch via Wikipedia (US)
+J2	G-J2-1	handling for raw eating		Sashimi grade has no standard; seller trust and parasite freezing decide.	Food Republic sushi grade vs sashimi grade (US); Crowd Cow shop seafood section (US)
+J2	G-J2-7	farmed salmon quality grade	Superior > Ordinary > Production	Norwegian grade for farmed salmon (GS-no-salmon-quality-grades).	data/grading_scales.tsv
+J2	G-J2-11	tuna grade	1 > 2+ > 2 > 3	Japanese-market number grade used in sashimi trade (GS-trade-tuna-number-grades).	data/grading_scales.tsv
+J2	G-J2-11	fat cut (bluefin)	Ōtoro > Chūtoro > Akami	Fat and texture ladder of the Japanese trade (memo J2 section 5).	Food Republic sushi grade vs sashimi grade (US); framework/structure/J2.md
+J2	G-J2-12	size (count per pound)	U/10 > U/12 > U/15 > 16/20 > 21/25 > 26/30 > 31/35 > 36/40 > 41/50 > 51/60 > 61/70 > 71+	Fewer per pound means larger and dearer (GS-trade-shrimp-count-bands).	data/grading_scales.tsv
+J2	G-J2-13	alive and full shell		Shellfish shell tight to flesh; live or just cooked is the freshness test.	Woolworths South Africa how to shop for fish (ZA)
+J2	G-J2-14	alive and closed shell		Shell tight to flesh is the freshness sign for shellfish.	Woolworths South Africa how to shop for fish (ZA)
+J2	G-J2-14	oyster size number	No. 0 > No. 1 > No. 2 > No. 3 > No. 4 > No. 5	French cupped oyster sizes, largest first (GS-fr-oyster-cupped-size-numbers).	data/grading_scales.tsv
+J2	G-J2-14	oyster refinement in claires	Pousse en claire > Spéciale de claire > Fine de claire	French refinement classes (GS-fr-oyster-claire-classes); growing water names the best.	data/grading_scales.tsv; data/varieties.tsv
+J2	G-J2-14	scallop size (count per pound)	U/10 > 10/20 > 20/30 > 30/40 > 60/80 > over 120	Larger scallops sell dearer (GS-trade-scallop-count-bands).	data/grading_scales.tsv
+J2	G-J2-19	presentation	Solid > Chunk > Flake > Grated or shredded	Codex canned tuna styles (GS-codex-tuna-canned-presentations); cannery house leads beside.	data/grading_scales.tsv
+J2	G-J2-25	sturgeon species	Beluga > Osetra > Sevruga	Species leads caviar; only sturgeon eggs are caviar; FAO and CITES order.	Kolikof Caviar guide and shop (US); framework/structure/J2.md
+J2	G-J2-25	egg size, colour and maturity	000 > 00 > 0	Larger, lighter, firmer grains rank higher; FAO grain grade, producer terms vary.	Kolikof Caviar guide and shop (US); framework/structure/J2.md
+J2	G-J2-25	salt level		Malossol (low salt) is the premium cure; taste and price then decide.	Kolikof Caviar guide and shop (US)
+J3	G-J3-4	milk provenance (single farm or herd, pasture-fed)		Single-farm, pasture-fed milk is the first mark of a great cheese.	Gourmet Traveller how to choose great cheese (AU); Butlers Farmhouse Cheeses (UK); Mons Cheesemongers (UK/FR)
+J3	G-J3-4	traditional make and natural rind		Natural or clothbound rind, not plastic or wax; handmade by named producers.	Gourmet Traveller how to choose great cheese (AU); Butlers Farmhouse Cheeses (UK); Mons Cheesemongers (UK/FR)
+J3	G-J3-4	condition at purchase (rind, paste, smell)		Smooth rind, sound paste, no ammonia; soft cheese yields to finger.	Gourmet Traveller how to choose great cheese (AU); Stiftung Warentest test.de cheese Q and A (DE)
+J3	G-J3-4	flavour complexity and length		Judges score appearance, aroma, flavour and mouthfeel; length marks the best.	Gourmet Traveller how to choose great cheese (AU); World Cheese Awards via KSL (intl)
+J3	G-J3-4	award medal	Super Gold > Gold > Silver > Bronze	World Cheese Awards medals by judge tables; Super Gold goes to final 16.	World Cheese Awards via KSL (intl)
+J3	G-J3-4	protected origin		PDO/AOP fixes milk origin, method and maturing area; unranked, not a grade.	Syndicat PDO dairy products France what is a PDO (FR)
+J3	G-J3-19	USDA Cheddar grade	U.S. Grade AA > U.S. Grade A > U.S. Grade B > U.S. Grade C	Statutory grade for Cheddar (GS-usda-cheddar-us-grades).	data/grading_scales.tsv
+J3	G-J3-20	Parmigiano Reggiano selection	Scelto > Mezzano > Scarto	Consorzio selection at 12 months (GS-parmigiano-reggiano-selection-marks).	data/grading_scales.tsv
+J3	G-J3-20	age class (Grana Padano)	Riserva over 24 months > Riserva over 20 months > over 16 months > from 9 months	Ageing classes of the consortium (GS-grana-padano-ageing-classes).	data/grading_scales.tsv
+J3	G-J3-20	Comté band	Green band Comté clochette (14 to 20/20) > Brown band Comté (12 to 14/20)	Comté scored out of 20 by the interprofession (GS-cigc-comte-band-classes).	data/grading_scales.tsv
+J3	G-J3-12	USDA butter grade	U.S. Grade AA > U.S. Grade A > U.S. Grade B	Statutory butter grade (GS-usda-butter-us-grades); PDO butters beside.	data/grading_scales.tsv; Syndicat PDO dairy products France what is a PDO (FR)
+J3	G-J3-24	hen housing	0 organic > 1 free range > 2 barn > 3 enriched cage	Eggs graded by housing as much as quality; EU code on shell.	eatright.org understanding egg labels (US); data/grading_scales.tsv
+J3	G-J3-24	US housing labels		Organic, pasture-raised, free-range, cage-free; pasture-raised is unregulated.	eatright.org understanding egg labels (US)
+J3	G-J3-24	egg quality grade	USDA Grade AA > USDA Grade A > USDA Grade B	Lowest of shell, white and yolk sets the grade; colour is only breed.	eatright.org understanding egg labels (US)
+J3	G-J3-8	herd breed and milk origin		Breed (Jersey, Guernsey) and milk origin are the stored named best (varieties, PDO).	Syndicat PDO dairy products France what is a PDO (FR); data/varieties.tsv
+J3	G-J3-28	USDA nonfat dry milk grade	U.S. Extra Grade > U.S. Standard Grade	Statutory grade (GS-usda-nonfat-dry-milk-spray-us-grades).	data/grading_scales.tsv
+J3	G-J3-27	regulated composition (no quality tier)		All first infant formula meets one standard; stage and protein base only.	framework/structure/J3.md
+J3	G-J3-29	base ingredient and use		Plant milks chosen by base and use (coffee, frothing, cooking); no grades.	Farm Sanctuary guide to plant-based milks (US); Ethical Consumer plant milk shopping guide (UK)
+J3	G-J3-29	company and ingredient ethics score		Ethical Consumer scores out of 100 by ownership, ingredient impact, packaging.	Ethical Consumer plant milk shopping guide (UK)
+J4	G-J4-1	variety (cultivar)		Cultivar is the unit; filters by flavour, season, keeping and use.	Orange Pippin variety database (UK)
+J4	G-J4-1	ripeness and season		Each fruit has its ripeness test: smell at stem, colour, sugar spots.	Mental Floss how to choose 13 fruits and vegetables (US); Riverford Organic (UK)
+J4	G-J4-1	freshness and condition		Firm, heavy for size, unbruised; intact, sound and typical of the variety.	Mental Floss how to choose 13 fruits and vegetables (US); UNECE fruit and vegetables standards via FAO (intl)
+J4	G-J4-1	marketing class	'Extra' Class > Class I > Class II	UNECE and EU classes by defects and sizing; some products use fewer.	UNECE fruit and vegetables standards via FAO (intl); data/grading_scales.tsv
+J4	G-J4-6	USDA apple grade	U.S. Extra Fancy > U.S. Fancy > U.S. No. 1 > U.S. Utility	US voluntary grade for apples (GS-usda-ams-apple-grades).	data/grading_scales.tsv
+J4	G-J4-6	variety award		RHS AGM marks recommended varieties in the Orange Pippin database.	Orange Pippin variety database (UK)
+J4	G-J4-7	Japanese cherry grade	特秀 > 秀 > 丸秀	Prefectural shipping grade (GS-yamagata-cherry-grades); size classes 5L to M stored too.	data/grading_scales.tsv
+J4	G-J4-10	table grape grade	秀 > 優 > 良	Yamagata grade (GS-yamagata-grape-grades); USDA Extra Fancy ladder also stored.	data/grading_scales.tsv
+J4	G-J4-2	freshness and maturity		Bright colour, crisp, firm, heavy for size; mature, no yellowing or mould.	Whats Cooking America vegetable buying guide (US); Mental Floss how to choose 13 fruits and vegetables (US)
+J4	G-J4-2	growing method (organic)		Organic is a filter and the house claim of box schemes.	Instacart Fresh Produce (US); Riverford Organic (UK)
+J4	G-J4-2	heirloom variety		Seed savers value heirloom varieties with recorded history.	Seed Savers Exchange via Wikipedia (US)
+J4	G-J4-16	USDA potato grade	U.S. No. 1 > U.S. Commercial > U.S. No. 2	US potato grade (GS-usda-ams-potato-grades); variety leads potatoes.	data/grading_scales.tsv
+J4	G-J4-17	USDA onion grade	U.S. No. 1 > U.S. Export No. 1 > U.S. Commercial > U.S. No. 1 Boilers > U.S. No. 1 Picklers > U.S. No. 2	US onion grade (GS-usda-ams-onion-grades).	data/grading_scales.tsv
+J4	G-J4-18	USDA tomato grade	U.S. No. 1 > U.S. Combination > U.S. No. 2 > U.S. No. 3	US tomato grade (GS-usda-ams-tomato-grades); chilli heat is a measured facet.	data/grading_scales.tsv
+J4	G-J4-22	lettuce class	Class I > Class II	EU lettuce and endive classes have no Extra class (GS-eu-lettuce-endive-marketing-classes-2023-2429).	UNECE fruit and vegetables standards via FAO (intl); data/grading_scales.tsv
+J4	G-J4-24	mushroom class	'Extra' Class > Class I > Class II	EU cultivated mushroom classes; size closed, veiled, open stored separately.	data/grading_scales.tsv
