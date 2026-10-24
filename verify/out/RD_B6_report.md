@@ -4,7 +4,7 @@ Departments (9): Vacuums & floor machines; Mops, brooms & buckets; Cleaning prod
 
 Shops: B&Q household cleaning page and Dunelm cleaning & laundry menu (both fetched in full). Argos (403) and ecostore (404) failed, so the rest rests on the input file's evidence (Which?, test.de, RTINGS, Ristenbatt, Kakaku). Logged in verify/work/RD_B6/fetched.tsv.
 
-Changes: display names were rewritten for most of the 133 kinds (brackets dropped, synonyms moved to also_called, plurals for consumables). 20 descriptions rewritten (removed K-/B-codes, "region tag", "provisional", "attribute", section refs). Markers: all 18 current markers carried over in plain words (vacuums 7, washing machines 7, consumables 2 each on Cleaning products and Laundry products).
+Changes: display names were rewritten for most of the 133 kinds (brackets dropped, synonyms moved to also_called, plurals for consumables). 17 descriptions rewritten (removed K-/B-codes, "region tag", "provisional", "attribute", section refs). Markers: all 18 current markers carried over in plain words (vacuums 7, washing machines 7, consumables 2 each on Cleaning products and Laundry products).
 
 Checker: no errors, no warnings.
 

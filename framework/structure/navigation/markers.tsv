@@ -51,30 +51,6 @@ J4	G-J4-17	USDA onion grade	U.S. No. 1 > U.S. Export No. 1 > U.S. Commercial > U
 J4	G-J4-18	USDA tomato grade	U.S. No. 1 > U.S. Combination > U.S. No. 2 > U.S. No. 3	US tomato grade (GS-usda-ams-tomato-grades); chilli heat is a measured facet.	data/grading_scales.tsv
 J4	G-J4-22	lettuce class	Class I > Class II	EU lettuce and endive classes have no Extra class (GS-eu-lettuce-endive-marketing-classes-2023-2429).	UNECE fruit and vegetables standards via FAO (intl); data/grading_scales.tsv
 J4	G-J4-24	mushroom class	'Extra' Class > Class I > Class II	EU cultivated mushroom classes; size closed, veiled, open stored separately.	data/grading_scales.tsv
-B9	G-B9-1	blind panel score	95+ classic > 90-94 outstanding > below 90	Panel scores appearance and construction, draw and burn, flavour, overall; 43% scored 90+ in 2021.	proposals.tsv B9 row (quality_markers); Cigar Aficionado ratings
-B9	G-B9-1	construction and draw		Even burn and draw follow the score.	proposals.tsv B9 row (quality_markers); Cigar Aficionado ratings; SmokingPipes.com cigars
-B9	G-B9-1	wrapper type and wrapper, binder and filler origin		Shops sort cigars by wrapper and leaf origin.	proposals.tsv B9 row (quality_markers); SmokingPipes.com cigars; Neptune Cigar
-B9	G-B9-1	strength fit	very mild to very strong (a label, not a quality ladder)	Strength is matched to the smoker.	proposals.tsv B9 row (quality_markers); SmokingPipes.com cigars; Neptune Cigar
-B9	G-B9-1	vitola size		Length and ring gauge set the smoke; a choice.	proposals.tsv B9 row (quality_markers); Cigar Aficionado ratings; Neptune Cigar
-B9	G-B9-1	handmade against machine-made	handmade > machine-made	Handmade is the premium class.	proposals.tsv B9 row (quality_markers); SmokingPipes.com cigars
-B9	G-B9-1	freshness and storage		Humidor storage keeps the cigar in condition.	proposals.tsv B9 row (quality_markers); SmokingPipes.com cigars
-B9	G-B9-15	blend style fit	Virginia; Virginia/Perique; Burley; English/Latakia; Aromatic (a choice)	Pipe tobacco is chosen by blend family first.	proposals.tsv B9 row (quality_markers); SmokingPipes university: tobacco families
-B9	G-B9-15	leaf quality and cut		Weighed inside the chosen family.	proposals.tsv B9 row (quality_markers); SmokingPipes university: tobacco families
-B9	G-B9-15	member rating	higher rating with enough reviews > few reviews	Community ratings rank blends.	proposals.tsv B9 row (quality_markers); TobaccoReviews.com pipe tobacco lists
-B9	G-B9-15	still available	in production > discontinued	Lists flag blends no longer made.	proposals.tsv B9 row (quality_markers); TobaccoReviews.com pipe tobacco lists
-B9	G-B9-14	maker's own grade	class iv in each maker's grade ladder; never compared across makers	Pipe makers grade their own pipes.	proposals.tsv B9 row (quality_markers); B9 memo S29
-B9	G-B9-14	briar and drilling		Material and airway drilling decide smoking quality.	proposals.tsv B9 row (quality_markers); B9 memo S29
-B9	G-B9-14	shape		A choice, not a ladder.	proposals.tsv B9 row (quality_markers); B9 memo S29
-B9	G-B9-14	grain		A value cue, not a smoking one.	proposals.tsv B9 row (quality_markers); B9 memo S29
-B9	G-B9-7	third-party lab Certificate of Analysis by batch	batch COA > no COA (a refused COA is a red flag)	COA shows THC and CBD potency and tests for pesticides, residual solvents, microbials, heavy metals and moisture.	proposals.tsv B9 row (quality_markers); Leafly how to read a cannabis label
-B9	G-B9-7	terpene profile		Read after the COA.	proposals.tsv B9 row (quality_markers); Leafly how to read a cannabis label
-B9	G-B9-19	durable build and reputable brand		Evidence thin, provisional.	proposals.tsv B9 row (quality_markers); Resident vape kit guide
-B9	G-B9-19	kit type matched to draw	MTL; DTL (a choice)	Kit type is matched to the draw wanted; provisional.	proposals.tsv B9 row (quality_markers); Resident vape kit guide
-B9	G-B9-19	features for the budget		Provisional.	proposals.tsv B9 row (quality_markers); Resident vape kit guide
-B9	G-B9-20	nicotine type and strength		Memo marker for e-liquids; provisional.	proposals.tsv B9 row (quality_markers); B9 memo
-B9	G-B9-20	compliance		Legal compliance of e-liquids; memo, provisional.	proposals.tsv B9 row (quality_markers); B9 memo
-B9	G-B9-22	nicotine type and strength		Memo marker for pouches; provisional.	proposals.tsv B9 row (quality_markers); B9 memo
-B9	G-B9-22	compliance		Legal compliance of pouches; memo, provisional.	proposals.tsv B9 row (quality_markers); B9 memo
 E3	G-E3-1	playability and build in hand		Neck, frets and set-up first; used checks neck, frets, electronics.	proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany); Shimamura Gakki (Japan) beginner guide index
 E3	G-E3-1	pickups		Type, layout and switching.	proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
 E3	G-E3-1	body construction and woods		Weighed after pickups.	proposals.tsv E3 row (quality_markers); Thomann electric guitar guide and breadcrumb; Bonedo E-Gitarren Kaufberatung (Germany)
@@ -193,30 +169,6 @@ J6	G-J6-21	cocoa process		Dutch or natural chosen by recipe; no grade ladder fou
 J6	G-J6-21	fat content and grind	higher fat, finer grind > fat-reduced, coarse	Producers publishing fat and pH signal a better powder.	Chowhound cocoa powder article; J6 memo S17, S19
 J6	G-J6-22	bean class	fine or flavour > bulk (provisional)	ICCO class describes a country's exports, disputed.	J6 memo S18
 J6	G-J6-4	plant and part (infusions)		Infusions are chosen by plant and flavour; provisional, no HOL evidence.	J6 memo S11, S25
-B5	G-B5-1	heat evenness		Leads the Consumer Reports cookware test.	proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
-B5	G-B5-1	food release and cleanup	egg release test	Second in the test.	proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
-B5	G-B5-1	searing and simmering		Cooking performance.	proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
-B5	G-B5-1	coating durability (non-stick)	2,000-scrub abrasion test	Durability of non-stick.	proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
-B5	G-B5-1	construction	clad ply count, base thickness; enamelled or bare cast iron	Construction underlies evenness.	proposals.tsv B5 row (quality_markers); Food Network best cookware sets; Gear Patrol Lodge cast iron guide
-B5	G-B5-1	hob compatibility and oven safety	induction	Material and hob are the first filters.	proposals.tsv B5 row (quality_markers); IKEA Singapore cookware
-B5	G-B5-1	weight and handle		Handling.	proposals.tsv B5 row (quality_markers); Food Network best cookware sets
-B5	G-B5-1	value		Last.	proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
-B5	G-B5-1	maker (vintage cast iron)		Collectors choose vintage cast iron by maker.	proposals.tsv B5 row (quality_markers); Cast Iron Collector forum: Griswold vs Wagner
-B5	G-B5-1	mark (vintage cast iron)	gate; single notch	Marks date the piece.	proposals.tsv B5 row (quality_markers); Cast Iron Collector forum: Griswold vs Wagner
-B5	G-B5-1	era (vintage cast iron)	pre-1957 preferred by collectors	Era follows mark.	proposals.tsv B5 row (quality_markers); Cast Iron Collector forum: Griswold vs Wagner
-B5	G-B5-2-1	construction	forged one-piece full tang > stamped	Knife construction first.	proposals.tsv B5 row (quality_markers); Cutlery and More: Wusthof vs Zwilling
-B5	G-B5-2-1	steel and hardness	56-58 HRC German > lower; 60-62 HRC Japanese	Hardness by tradition.	proposals.tsv B5 row (quality_markers); Knivesandtools (NL) Japanese chef's knives; Cutlery and More: Wusthof vs Zwilling
-B5	G-B5-2-1	edge geometry by pattern		Pattern is the first filter, then steel.	proposals.tsv B5 row (quality_markers); Knivesandtools (NL) Japanese chef's knives
-B5	G-B5-2-1	handle and balance		Handling.	proposals.tsv B5 row (quality_markers); Cutlery and More: Wusthof vs Zwilling
-B5	G-B5-2-1	maker line	premium > forged mid > stamped entry (the maker's own ladder)	Knife buyers lean on maker lines (side view).	proposals.tsv B5 row (quality_markers); Cutlery and More: Wusthof vs Zwilling
-B5	G-B5-4-1	technology tier (rice cookers and similar)	pressure induction heating > induction heating > micom > conventional	Technology tier is the first filter.	proposals.tsv B5 row (quality_markers); Minimaru (AU) Zojirushi vs Tiger rice cookers
-B5	G-B5-4-1	inner-pot construction		Follows the heating tier.	proposals.tsv B5 row (quality_markers); Minimaru (AU) Zojirushi vs Tiger rice cookers
-B5	G-B5-4-1	capacity fit	3; 5.5; 10 cup	Matched to the household.	proposals.tsv B5 row (quality_markers); Minimaru (AU) Zojirushi vs Tiger rice cookers
-B5	G-B5-4-1	programs		Last.	proposals.tsv B5 row (quality_markers); Minimaru (AU) Zojirushi vs Tiger rice cookers
-B5	G-B5-6-1	capability ladder (espresso machines)	commercial-grade home > prosumer dual boiler > grinder upgrade > entry all-in-one	Memo ladder for espresso buyers.	proposals.tsv B5 row (quality_markers); framework/structure/B5.md
-B5	G-B5-6-1	burr size and geometry (grinders)		Grinders are judged by burrs.	proposals.tsv B5 row (quality_markers); framework/structure/B5.md
-B5	G-B5-9-1	shape for the drink (stemware)		Stemware is chosen for the drink first.	proposals.tsv B5 row (quality_markers)
-B5	G-B5-9-1	maker tier (stemware)		Stemware buyers lean on makers (side view).	proposals.tsv B5 row (quality_markers)
 B6	G-B6-1	cleaning result	dust pick-up on carpet and hard floor; suction 45% of the test.de score	Cleaning result leads every test.	proposals.tsv B6 row (quality_markers); Stiftung Warentest vacuum test; RTINGS vacuum test page
 B6	G-B6-1	handling and ease of use	30% of the test.de score	Second in the test.	proposals.tsv B6 row (quality_markers); Stiftung Warentest vacuum test
 B6	G-B6-1	energy		Running cost.	proposals.tsv B6 row (quality_markers); Stiftung Warentest vacuum test
@@ -237,45 +189,6 @@ B6	G-B6-6	cleaning performance in tests	no grade ladder (memo section 5, provisi
 B6	G-B6-6	value		After performance.	proposals.tsv B6 row (quality_markers); framework/structure/B6.md
 B6	G-B6-8	cleaning performance in tests	no grade ladder (memo section 5, provisional)	Consumables are compared by tested performance.	proposals.tsv B6 row (quality_markers); framework/structure/B6.md
 B6	G-B6-8	value		After performance.	proposals.tsv B6 row (quality_markers); framework/structure/B6.md
-B7	G-B7-2	correct sizing to the room, climate and insulation	BTU or kW; tatami room size	Sizing comes before efficiency.	proposals.tsv B7 row (quality_markers); Green Building Advisor AC guide; Toshiba Lifestyle Japan air conditioner guide; Hydro-Québec heat pump tips
-B7	G-B7-2	efficiency at the stated standard	SEER2, EER2, HSPF2 (US); APF (Japan, China); EU letter classes; efficiency 70% of the test.de heat-pump score	Rated efficiency follows sizing.	proposals.tsv B7 row (quality_markers); Stiftung Warentest heat pump test; ENERGY STAR Most Efficient 2024
-B7	G-B7-2	cold-climate performance		Heat output in cold weather.	proposals.tsv B7 row (quality_markers); Hydro-Québec heat pump tips; Fine Homebuilding forum: picking a heat pump
-B7	G-B7-2	installation quality	vacuum, charge, ducts	Poor installation undoes a good unit.	proposals.tsv B7 row (quality_markers); Fine Homebuilding forum: picking a heat pump
-B7	G-B7-2	noise	dB	Indoor and outdoor units.	proposals.tsv B7 row (quality_markers); Toshiba Lifestyle Japan air conditioner guide; Stiftung Warentest heat pump test
-B7	G-B7-2	controls and features	filter self-cleaning; app; data protection 5% at test.de	Features follow performance.	proposals.tsv B7 row (quality_markers); Toshiba Lifestyle Japan air conditioner guide; Stiftung Warentest heat pump test
-B7	G-B7-2	reliability and warranty	guarantee years (memo section 5)	Last.	proposals.tsv B7 row (quality_markers); MyMove heat pump guide
-B7	G-B7-1	correct sizing to the room, climate and insulation	BTU or kW; tatami room size	Sizing comes before efficiency.	proposals.tsv B7 row (quality_markers); Green Building Advisor AC guide; Toshiba Lifestyle Japan air conditioner guide; Hydro-Québec heat pump tips
-B7	G-B7-1	efficiency at the stated standard	EU letter classes	Rated efficiency follows sizing.	proposals.tsv B7 row (quality_markers)
-B7	G-B7-1	installation quality	vacuum, charge, ducts	Poor installation undoes a good unit.	proposals.tsv B7 row (quality_markers); Fine Homebuilding forum: picking a heat pump
-B7	G-B7-1	noise	dB	Indoor and outdoor units.	proposals.tsv B7 row (quality_markers); Toshiba Lifestyle Japan air conditioner guide; Stiftung Warentest heat pump test
-B7	G-B7-1	controls and features	filter self-cleaning; app; data protection 5% at test.de	Features follow performance.	proposals.tsv B7 row (quality_markers); Toshiba Lifestyle Japan air conditioner guide; Stiftung Warentest heat pump test
-B7	G-B7-1	reliability and warranty	guarantee years (memo section 5)	Last.	proposals.tsv B7 row (quality_markers); MyMove heat pump guide
-B7	G-B7-6	correct sizing to the home	litres or go number	Sizing first.	proposals.tsv B7 row (quality_markers); Hydro-Québec heat pump tips
-B7	G-B7-6	efficiency at the stated standard	UEF and first-hour rating (US); EU letter classes	Water heaters are rated by UEF and first-hour rating.	proposals.tsv B7 row (quality_markers); ENERGY STAR Most Efficient 2024
-B7	G-B7-6	installation quality		As for heating.	proposals.tsv B7 row (quality_markers); Fine Homebuilding forum: picking a heat pump
-B7	G-B7-6	reliability and warranty	guarantee years (memo section 5)	Last.	proposals.tsv B7 row (quality_markers); MyMove heat pump guide
-B7	G-B7-4	correct sizing to the room	pints per day (dehumidifiers); room size	The ladder asks size first.	proposals.tsv B7 row (quality_markers)
-B7	G-B7-4	noise	dB	Room appliances run near people.	proposals.tsv B7 row (quality_markers)
-B7	G-B7-7	NSF/ANSI standard met for the contaminant		Water treatment is chosen by the contaminant certified against.	proposals.tsv B7 row (quality_markers)
-B7	G-B7-10-3	usable kWh		Home batteries are compared on these, in this order.	proposals.tsv B7 row (quality_markers); The Solar Store (US)
-B7	G-B7-10-3	power kW		Home batteries are compared on these, in this order.	proposals.tsv B7 row (quality_markers); The Solar Store (US)
-B7	G-B7-10-3	cycle life		Home batteries are compared on these, in this order.	proposals.tsv B7 row (quality_markers); The Solar Store (US)
-B7	G-B7-10-3	compatibility with the inverter		Home batteries are compared on these, in this order.	proposals.tsv B7 row (quality_markers); The Solar Store (US)
-B7	G-B7-8	durability and finish		Which? survey; otherwise preference.	proposals.tsv B7 row (quality_markers); Which? on Victorian Plumbing bathrooms
-C2	G-C2-101	cut quality		Which? gives it 50 to 51 percent; Consumer NZ tests long grass.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
-C2	G-C2-101	ease of use (weight, handling, starting, emptying)		Which? gives it 30 percent.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers
-C2	G-C2-101	battery run time and spare-battery availability		Consumer NZ about 50 minutes; part of the Which? Best Buy rule.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
-C2	G-C2-101	reliability and durability		Consumer NZ brand reliability survey; owner community reports.	proposals.tsv C2 row (quality_markers); Consumer NZ lawnmower guide; GummySearch Reddit lawnmower brand summary
-C2	G-C2-101	noise		Measured in the mower tests.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
-C2	G-C2-101	build and deck material		A build marker after the tested results.	proposals.tsv C2 row (quality_markers); Toolstation UK lawnmower buying guide
-C2	G-C2-101	energy		Last of the machine markers.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
-C2	G-C2-106	blade sharpness and steel		Hand cutting tools are compared on the blade first.	proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
-C2	G-C2-106	clean cut		Second in the proposals order for hand cutting tools.	proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
-C2	G-C2-106	durability, serviceability and spare parts		The compared lines (Felco against Okatsune) differ on it.	proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
-C2	G-C2-106	balance and fit to hand size		Sizes are offered by hand.	proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
-C2	G-C2-106	warranty		Last of the hand-tool markers.	proposals.tsv C2 row (quality_markers); Garden Ninja Niwaki Okatsune vs Felco secateurs; Architectural Plants (Niwaki tools)
-C2	G-C2-130	light output (PPE and PPFD)		Grow lights are judged on efficacy and light at the plant (memo).	proposals.tsv C2 row (quality_markers); C2 memo
-C2	G-C2-120	frost-hardiness and drainage		"Provisional (memo; no ""best pot"" list fetched)."	proposals.tsv C2 row (quality_markers); C2 memo
 C3	G-C3-3	proven garden performance	RHS AGM > no award	AGM marks a strong performer in suitable conditions.	proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit
 C3	G-C3-3	health and pest and disease resistance		Second in the proposals order.	proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit; Sunset houseplant buying guide
 C3	G-C3-3	true to type, consistent colour and form		A named form must look as named.	proposals.tsv C3 row (quality_markers); RHS Award of Garden Merit
@@ -965,3 +878,90 @@ B8	G-B8-R4	Fire class rating of extinguishers	e.g. 13A, 34B	Extinguishers are ra
 B8	G-B8-R5	Standard met (gates)	EN 1930; ASTM F1004	Child gates are chosen first by the standard they meet.	rewritten from the stored B8 markers (G-B8-3-1), RD_B8
 B8	G-B8-R5	Mounting (gates)	hardware-mounted for the top of stairs	Then how it fixes.	rewritten from the stored B8 markers (G-B8-3-1), RD_B8
 B8	G-B8-R6	Target pest and form	preference (no grade)	Pest control has no grade ladder.	rewritten from the stored B8 markers (G-B8-4), RD_B8
+B5	G-B5-R1	How evenly it heats		Leads the Consumer Reports cookware test.	rewritten from the stored B5 markers (G-B5-1), RD_B5
+B5	G-B5-R1	Food release and easy cleaning	egg release test	Second in the test.	rewritten from the stored B5 markers (G-B5-1), RD_B5
+B5	G-B5-R1	Searing and simmering		How well it cooks.	rewritten from the stored B5 markers (G-B5-1), RD_B5
+B5	G-B5-R1	Non-stick coating durability	2,000-scrub abrasion test	How long a non-stick coating lasts.	rewritten from the stored B5 markers (G-B5-1), RD_B5
+B5	G-B5-R1	Build	number of clad layers, base thickness; enamelled or bare cast iron	Build decides how evenly it heats.	rewritten from the stored B5 markers (G-B5-1), RD_B5
+B5	G-B5-R1	Hob and oven suitability	induction	Material and hob type are the first filters.	rewritten from the stored B5 markers (G-B5-1), RD_B5
+B5	G-B5-R1	Weight and handle		How it feels in use.	rewritten from the stored B5 markers (G-B5-1), RD_B5
+B5	G-B5-R1	Value		Weighed last.	rewritten from the stored B5 markers (G-B5-1), RD_B5
+B5	G-B5-R1	Maker (vintage cast iron)		Collectors choose vintage cast iron by maker.	rewritten from the stored B5 markers (G-B5-1), RD_B5
+B5	G-B5-R1	Maker mark (vintage cast iron)	gate; single notch	Marks date the piece.	rewritten from the stored B5 markers (G-B5-1), RD_B5
+B5	G-B5-R1	Era (vintage cast iron)	pre-1957 preferred by collectors	Era follows the mark.	rewritten from the stored B5 markers (G-B5-1), RD_B5
+B5	G-B5-R2	Build	forged one-piece full tang > stamped	Knife build comes first.	rewritten from the stored B5 markers (G-B5-2-1), RD_B5
+B5	G-B5-R2	Steel and hardness	56-58 HRC German > lower; 60-62 HRC Japanese	Hardness depends on the tradition.	rewritten from the stored B5 markers (G-B5-2-1), RD_B5
+B5	G-B5-R2	Blade shape for the job		The pattern is the first filter, then the steel.	rewritten from the stored B5 markers (G-B5-2-1), RD_B5
+B5	G-B5-R2	Handle and balance		How it feels in the hand.	rewritten from the stored B5 markers (G-B5-2-1), RD_B5
+B5	G-B5-R2	Maker line	premium > forged mid > stamped entry (the maker's own ladder)	Knife buyers lean on maker lines.	rewritten from the stored B5 markers (G-B5-2-1), RD_B5
+B5	G-B5-R4	Heating technology (rice cookers and similar)	pressure induction heating > induction heating > micom > conventional	Heating technology is the first filter.	rewritten from the stored B5 markers (G-B5-4-1), RD_B5
+B5	G-B5-R4	Inner-pot build		Follows the heating technology.	rewritten from the stored B5 markers (G-B5-4-1), RD_B5
+B5	G-B5-R4	Capacity	3; 5.5; 10 cup	Matched to the household.	rewritten from the stored B5 markers (G-B5-4-1), RD_B5
+B5	G-B5-R4	Programs		Weighed last.	rewritten from the stored B5 markers (G-B5-4-1), RD_B5
+B5	G-B5-R5	Machine level (espresso machines)	commercial-grade home > prosumer dual boiler > grinder upgrade > entry all-in-one	Espresso buyers compare machines by level.	rewritten from the stored B5 markers (G-B5-6-1), RD_B5
+B5	G-B5-R5	Burr size and shape (grinders)		Grinders are judged by their burrs.	rewritten from the stored B5 markers (G-B5-6-1), RD_B5
+B5	G-B5-R7	Shape for the drink (stemware)		Stemware is chosen for the drink first.	rewritten from the stored B5 markers (G-B5-9-1), RD_B5
+B5	G-B5-R7	Maker tier (stemware)		Stemware buyers lean on makers.	rewritten from the stored B5 markers (G-B5-9-1), RD_B5
+B7	G-B7-R2	Right size for the room, climate and insulation	BTU or kW; tatami room size	Size comes before efficiency.	rewritten from the stored B7 markers (G-B7-2), RD_B7
+B7	G-B7-R2	Efficiency at the stated standard	SEER2, EER2, HSPF2 (US); APF (Japan, China); EU letter classes; efficiency counts 70% of the Stiftung Warentest heat-pump score	Rated efficiency follows size.	rewritten from the stored B7 markers (G-B7-2), RD_B7
+B7	G-B7-R2	Cold-climate performance		Heat output in cold weather.	rewritten from the stored B7 markers (G-B7-2), RD_B7
+B7	G-B7-R2	Installation quality	vacuum, charge, ducts	A poor installation undoes a good unit.	rewritten from the stored B7 markers (G-B7-2), RD_B7
+B7	G-B7-R2	Noise	dB	Indoor and outdoor units.	rewritten from the stored B7 markers (G-B7-2), RD_B7
+B7	G-B7-R2	Controls and features	filter self-cleaning; app; data protection counts 5% at Stiftung Warentest	Features come after performance.	rewritten from the stored B7 markers (G-B7-2), RD_B7
+B7	G-B7-R2	Reliability and warranty	guarantee length in years	Checked last.	rewritten from the stored B7 markers (G-B7-2), RD_B7
+B7	G-B7-R1	Right size for the room, climate and insulation	BTU or kW; tatami room size	Size comes before efficiency.	rewritten from the stored B7 markers (G-B7-1), RD_B7
+B7	G-B7-R1	Efficiency at the stated standard	EU letter classes	Rated efficiency follows size.	rewritten from the stored B7 markers (G-B7-1), RD_B7
+B7	G-B7-R1	Installation quality	vacuum, charge, ducts	A poor installation undoes a good unit.	rewritten from the stored B7 markers (G-B7-1), RD_B7
+B7	G-B7-R1	Noise	dB	Indoor and outdoor units.	rewritten from the stored B7 markers (G-B7-1), RD_B7
+B7	G-B7-R1	Controls and features	filter self-cleaning; app; data protection counts 5% at Stiftung Warentest	Features come after performance.	rewritten from the stored B7 markers (G-B7-1), RD_B7
+B7	G-B7-R1	Reliability and warranty	guarantee length in years	Checked last.	rewritten from the stored B7 markers (G-B7-1), RD_B7
+B7	G-B7-R5	Right size for the home	litres or go number	Size comes first.	rewritten from the stored B7 markers (G-B7-6), RD_B7
+B7	G-B7-R5	Efficiency at the stated standard	UEF and first-hour rating (US); EU letter classes	US water heaters are rated by UEF and first-hour rating.	rewritten from the stored B7 markers (G-B7-6), RD_B7
+B7	G-B7-R5	Installation quality		As for heating.	rewritten from the stored B7 markers (G-B7-6), RD_B7
+B7	G-B7-R5	Reliability and warranty	guarantee length in years	Checked last.	rewritten from the stored B7 markers (G-B7-6), RD_B7
+B7	G-B7-R4	Right size for the room	pints per day (dehumidifiers); room size	Shoppers choose size first.	rewritten from the stored B7 markers (G-B7-4), RD_B7
+B7	G-B7-R4	Noise	dB	Room appliances run near people.	rewritten from the stored B7 markers (G-B7-4), RD_B7
+B7	G-B7-R6	Certified standard for the contaminant (NSF/ANSI)		Water treatment is chosen by the contaminant it is certified against.	rewritten from the stored B7 markers (G-B7-7), RD_B7
+B7	G-B7-R8-3	Usable capacity (kWh)		Home batteries are compared on these, in this order.	rewritten from the stored B7 markers (G-B7-10-3), RD_B7
+B7	G-B7-R8-3	Power (kW)		Home batteries are compared on these, in this order.	rewritten from the stored B7 markers (G-B7-10-3), RD_B7
+B7	G-B7-R8-3	Cycle life		Home batteries are compared on these, in this order.	rewritten from the stored B7 markers (G-B7-10-3), RD_B7
+B7	G-B7-R8-3	Works with your inverter		Home batteries are compared on these, in this order.	rewritten from the stored B7 markers (G-B7-10-3), RD_B7
+B7	G-B7-R7	Durability and finish		Which? survey; otherwise a matter of taste.	rewritten from the stored B7 markers (G-B7-8), RD_B7
+B9	G-B9-R3	Blind panel score	95+ classic > 90-94 outstanding > below 90	The panel scores appearance and construction, draw and burn, flavour and overall impression; 43% of cigars scored 90+ in 2021.	rewritten from the stored B9 markers (G-B9-1), RD_B9
+B9	G-B9-R3	Construction and draw		Even burn and draw follow the score.	rewritten from the stored B9 markers (G-B9-1), RD_B9
+B9	G-B9-R3	Wrapper type and where the wrapper, binder and filler come from		Shops sort cigars by wrapper and leaf origin.	rewritten from the stored B9 markers (G-B9-1), RD_B9
+B9	G-B9-R3	Strength	very mild to very strong (a label to match the smoker, not a quality ladder)	Strength is matched to the smoker.	rewritten from the stored B9 markers (G-B9-1), RD_B9
+B9	G-B9-R3	Size		Length and ring gauge set the smoke; a choice.	rewritten from the stored B9 markers (G-B9-1), RD_B9
+B9	G-B9-R3	Handmade or machine-made	handmade > machine-made	Handmade is the premium class.	rewritten from the stored B9 markers (G-B9-1), RD_B9
+B9	G-B9-R3	Freshness and storage		Humidor storage keeps the cigar in condition.	rewritten from the stored B9 markers (G-B9-1), RD_B9
+B9	G-B9-R4	Pipe tobacco: blend style	Virginia; Virginia/Perique; Burley; English/Latakia; Aromatic (a choice)	Pipe tobacco is chosen by blend family first.	rewritten from the stored B9 markers (G-B9-15), RD_B9
+B9	G-B9-R4	Pipe tobacco: leaf quality and cut		Weighed inside the chosen family.	rewritten from the stored B9 markers (G-B9-15), RD_B9
+B9	G-B9-R4	Pipe tobacco: member rating	higher rating with enough reviews > few reviews	Community ratings rank blends.	rewritten from the stored B9 markers (G-B9-15), RD_B9
+B9	G-B9-R4	Pipe tobacco: still available	in production > discontinued	Lists flag blends no longer made.	rewritten from the stored B9 markers (G-B9-15), RD_B9
+B9	G-B9-R4	Pipes: maker's own grade	top grade in each maker's own ladder; never compared across makers	Pipe makers grade their own pipes.	rewritten from the stored B9 markers (G-B9-14), RD_B9
+B9	G-B9-R4	Pipes: briar and drilling		Material and airway drilling decide how well a pipe smokes.	rewritten from the stored B9 markers (G-B9-14), RD_B9
+B9	G-B9-R4	Pipes: shape		A choice, not a ladder.	rewritten from the stored B9 markers (G-B9-14), RD_B9
+B9	G-B9-R4	Pipes: grain		A cue to value, not to how it smokes.	rewritten from the stored B9 markers (G-B9-14), RD_B9
+B9	G-B9-R6	Independent lab certificate of analysis for the batch	batch certificate > no certificate (a refused certificate is a red flag)	The certificate shows THC and CBD strength and tests for pesticides, residual solvents, microbes, heavy metals and moisture.	rewritten from the stored B9 markers (G-B9-7), RD_B9
+B9	G-B9-R6	Terpene profile		Read after the certificate.	rewritten from the stored B9 markers (G-B9-7), RD_B9
+B9	G-B9-R2	Vape kits: sturdy build and a known brand		Evidence is thin.	rewritten from the stored B9 markers (G-B9-19), RD_B9
+B9	G-B9-R2	Vape kits: kit type matched to the draw	mouth-to-lung (MTL); direct-to-lung (DTL) (a choice)	Kit type is matched to the draw wanted; evidence is thin.	rewritten from the stored B9 markers (G-B9-19), RD_B9
+B9	G-B9-R2	Vape kits: features for the budget		Evidence is thin.	rewritten from the stored B9 markers (G-B9-19), RD_B9
+B9	G-B9-R2	E-liquids: nicotine type and strength		Based on notes rather than shop pages.	rewritten from the stored B9 markers (G-B9-20), RD_B9
+B9	G-B9-R2	E-liquids: legal compliance		Based on notes rather than shop pages.	rewritten from the stored B9 markers (G-B9-20), RD_B9
+B9	G-B9-R5	Nicotine type and strength		Based on notes rather than shop pages.	rewritten from the stored B9 markers (G-B9-22), RD_B9
+B9	G-B9-R5	Legal compliance		Based on notes rather than shop pages.	rewritten from the stored B9 markers (G-B9-22), RD_B9
+C2	G-C2-R1	Cut quality (mowers)		Tests weigh this most: Which? gives it 50 to 51 percent and Consumer NZ tests long grass.	rewritten from the stored C2 markers (G-C2-101), RD_C2
+C2	G-C2-R1	Ease of use	weight, handling, starting, emptying	Which? gives it 30 percent.	rewritten from the stored C2 markers (G-C2-101), RD_C2
+C2	G-C2-R1	Battery run time and spare batteries		Consumer NZ found about 50 minutes; it is part of the Which? Best Buy rule.	rewritten from the stored C2 markers (G-C2-101), RD_C2
+C2	G-C2-R1	Reliability and durability		Consumer NZ brand reliability survey and owner community reports.	rewritten from the stored C2 markers (G-C2-101), RD_C2
+C2	G-C2-R1	Noise		Measured in the mower tests.	rewritten from the stored C2 markers (G-C2-101), RD_C2
+C2	G-C2-R1	Build and deck material		Comes after the tested results.	rewritten from the stored C2 markers (G-C2-101), RD_C2
+C2	G-C2-R1	Energy use		Last of the machine markers.	rewritten from the stored C2 markers (G-C2-101), RD_C2
+C2	G-C2-R2	Blade sharpness and steel		Hand cutting tools are compared on the blade first.	rewritten from the stored C2 markers (G-C2-106), RD_C2
+C2	G-C2-R2	Clean cut		Second for hand cutting tools.	rewritten from the stored C2 markers (G-C2-106), RD_C2
+C2	G-C2-R2	Durability, repair and spare parts		The lines compared (Felco against Okatsune) differ on it.	rewritten from the stored C2 markers (G-C2-106), RD_C2
+C2	G-C2-R2	Balance and fit to hand size		Sizes are offered by hand.	rewritten from the stored C2 markers (G-C2-106), RD_C2
+C2	G-C2-R2	Warranty		Last of the hand-tool markers.	rewritten from the stored C2 markers (G-C2-106), RD_C2
+C2	G-C2-R6	Frost resistance and drainage		Not yet confirmed: no best-pot list was fetched.	rewritten from the stored C2 markers (G-C2-120), RD_C2
+C2	G-C2-R8	Light output	PPE and PPFD	Grow lights are judged on efficacy and the light that reaches the plant.	rewritten from the stored C2 markers (G-C2-130), RD_C2
