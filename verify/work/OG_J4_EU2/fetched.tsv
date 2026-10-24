@@ -1,2 +1,10 @@
 url	fetch_status	gave
 https://en.wikipedia.org/wiki/List_of_protected_designation_of_origin_products_in_France	failed	404 (URL was typed, not from a result; discarded)
+https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/	failed	only title eAmbrosia, JS app
+https://www.marques-de-france.fr/fruits-legumes-fromages-concernes-par-une-igp-indication-geographique-protegee-ou-aop-appellation-origine-protegee/	partial	France IGP/AOP fruit veg names, no dates (not used for rows)
+https://draaf.occitanie.agriculture.gouv.fr/IMG/pdf/9_c_aop_igp_autres_produits_cle01e784.pdf	failed	raw PDF unreadable
+https://fr.wikipedia.org/wiki/Liste_des_appellations_europ%C3%A9ennes_de_fruits,_l%C3%A9gumes_et_c%C3%A9r%C3%A9ales	full	EU fruit veg cereal names with dates (c.2012 list), 3 slices
+https://fr.wikipedia.org/wiki/Liste_des_indications_g%C3%A9ographiques_prot%C3%A9g%C3%A9es_fran%C3%A7aises	full	French IGP fruit/veg names no dates
+https://fr.wikipedia.org/wiki/Liste_des_AOC_agroalimentaires_fran%C3%A7aises	full	French AOC fruit/veg with years
+https://en.wikipedia.org/wiki/List_of_Protected_Designation_of_Origin_products_by_country	partial	first 100k chars only, no useful produce
+https://www.bmluk.gv.at/themen/lebensmittel/herkunft-von-lebensmitteln/herkunft-spezialitaetenschutz/GUGGA.html	full	Austrian gU/ggA list with years

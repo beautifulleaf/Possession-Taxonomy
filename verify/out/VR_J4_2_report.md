@@ -1,0 +1,7 @@
+# VR_J4_2 report (varieties only)
+Rows: 239 in VR_J4_2_varieties.tsv. Potato 74 (J4.2.3.02), sweet potato 9 (J4.2.3.03), tomato 45 (J4.2.5.01), sweet pepper 5 (J4.2.5.02), chilli 51 (J4.2.5.03), aubergine 8 (J4.2.5.04), avocado 10 (J4.2.5.05), sweetcorn 21 (J4.2.5.08), basil 17 (J4.3.03).
+Sources that served (fetched): Wikipedia lists of potato, tomato (last 1,357 chars unread), Capsicum (last 8,518 chars unread), basil, sweetcorn, eggplant cultivars; NZ Avocado industry variety page; NC State sweetpotato varieties page. Holder is blank unless the page names a breeder or releasing body (Wikipedia lists rarely do).
+Failed or unusable: Parallel_Auth search/fetch returned 402 (no credit), so only WebSearch/WebFetch were used; avocadosource varieties PDF and CT bulletin B960 PDF (compressed or scanned, unreadable); LSU AgCenter sweet potato page (503, retry later); Wikipedia List of onion cultivars has no onion cultivars.
+Not covered (no fetched source yet): lettuce, brassicas, carrots, cucumbers, pumpkin and squash, onions, mushroom strains (patent pages only seen as search excerpts), and national registers (CPVO, AHDB, European Cultivated Potato Database, GRIN) were not reached. Needs a second pass.
+Skips to other categories: 0. "missing kind?" rows: none.
+Notes: some Wikipedia types are conflicting (e.g. Flamenco); Capsicum origins are as the page gives them, ISO-2 only where unambiguous.

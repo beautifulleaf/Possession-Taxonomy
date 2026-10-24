@@ -1,0 +1,7 @@
+# GR_J4 report
+Rows: grading_scales 26 (written to verify/out/GR_J4_grading_scales.tsv). Fetch log: verify/work/GR_J4/fetched.tsv.
+By source: Codex 1; EU/UNECE-type classes 9 (apples/pears historic, apples, citrus, kiwi, peach, lettuce 2023/2429 via a mirror, mushrooms class and size); GB apples 1; USDA AMS 8 (apples, Florida oranges, table grapes, tomato S and T, potatoes, onions); Canada CFIA 3 (apples, onions, potatoes); Japan (Yamagata Prefecture standard shipping spec) 6 (cherry grade+size, peach, western pear, grape grade+Delaware size).
+Not obtained (no row): Korea 특/상/보통 (law page has no grade names; no item standard found), China GB/T and NY/T (searches gave only group standards and catalogue pages; NY/T 2715 oyster mushroom page gives title only), India AGMARK (APEDA files returned 503), Australia (no national produce grade found), national Japan MAFF code list (PDF unreadable). Parallel_Auth search returned 402 (no credit); WebSearch/WebFetch used.
+Failed fetches: ams.usda.gov apple pages (403), eur-lex 2023/2429 (empty), justia, Iwate PDF (404), ASEAN mango (403), thepacker (403).
+Caveats: 2023/2429 rows come from the lexaris mirror (partial); USDA apple Utility grade comes from the Cornell subpart listing; Subpart T title not shown. Skips to other categories: 0. "missing kind?": none.
+Follow-up: rerun Korea, China, India, Australia and the Japan national code list when Parallel credit returns.

@@ -1,0 +1,9 @@
+BATCH SF_A1. Storefront check for clothing makers (R-105 e, SESSION_6 step 3). Web allowed; no git; never write to data/.
+Web rules (CLAUDE.md): only WebSearch/WebFetch (the Parallel tools are out of credit); never curl, wget or Python fetching, archives or caches. Never type, build or guess a URL (not from a title, not from a pattern, not by analogy): fetch only URLs from a search result or a fetched page's links. A search excerpt never decides; the page you fetch does.
+RESUME RULE: append rows as you go; if the output exists, skip maker_ids already written. Log every fetch the moment you make it in verify/work/SF_A1/fetched.tsv (url, fetch_status full/partial/failed/excerpt-only, gave). Helper files only in verify/work/SF_A1/. Working directory /home/user/Possession-Taxonomy.
+Worklist: verify/in/SF_A1_worklist.tsv (160 makers tied to clothing whose class or notes suggest a store). For each, fetch one page (the maker's own site, its Wikipedia article, or a shop page of its goods) and decide:
+- own-label: the store sells clothing under its own label or house brand (Nordstrom's own label, Macy's INC, a boutique's own designs), or the maker is in fact a designer or brand, not a store;
+- storefront: it only resells other makers' clothing (department, multi-brand and concept stores, select shops, marketplaces, rental or resale platforms, importers);
+- unclear: no fetched page decides (write the reason).
+Output verify/out/SF_A1_decisions.tsv: maker_id, name, decision, evidence (≤ 20 words: the label name or what the page shows), sources, fetch_status (one source, full or partial; empty for unclear).
+Report (under 150 words) to verify/out/SF_A1_report.md and as your reply: counts per decision.
