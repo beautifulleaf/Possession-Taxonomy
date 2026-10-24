@@ -1,0 +1,3 @@
+GC_I3 report: no cards added (no existing I3 cards either).
+Shops checked: WebSearch on English Heritage membership (no fetch; Parallel search had no credit). Nothing showed single-site and multi-site passes on one listing.
+Considered and left: Multi-site membership + Single-venue annual pass (differ by network, not a shop filter; no evidence); mobile phone plan + data plan (different use); beauty/snack/other curated boxes and meal kit (differ by what they contain); newspaper vs magazine (different objects); sports vs video streaming (different offer); game vs single-game subscription; cloud storage vs backup.

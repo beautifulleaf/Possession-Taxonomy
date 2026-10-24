@@ -1,0 +1,3 @@
+Cards added: E-book (I2.1.01; I2.1.02); NFT (I2.7.2.01; I2.7.2.02). Existing CARD-I2-1 (Domain name) kept unchanged.
+Shops checked: informit.com ebook-formats (partial: books offered in EPUB and PDF); ebooks.com category page (403) and OpenSea support (404) failed. The NFT card rests on conditions 1 and 2 alone (differ by number of copies); the e-book card has one partial fetch.
+Left: weapon skin vs knife skin and case vs sticker capsule (shops give each its own category); sewing vs knitting pattern; photo preset vs LUT pack (different tools); JPEG vs lossless vs raw (format choices by trade); channel-different domain kinds already carded.
