@@ -1,0 +1,7 @@
+BATCH RD_QUEUE (compile the owner's decision queue from the readability reports; R-127). No web; never run git. Working directory /home/user/Possession-Taxonomy. Read every verify/out/RD_<CODE>_report.md (52 files; C1 has none). Write verify/out/RD_decision_queue.md (overwrite it) in plain English, under 1,200 words, with these sections, each a bulleted list; every bullet names the category (by its name from verify/in/RD/category_names.md) and the item(s), in one short line:
+1. Items that may belong in another category (say which).
+2. Possible duplicates or near-duplicates.
+3. Categories with no quality markers ("What makes a good one" empty).
+4. Placement calls worth a second look (an item on a loose-fit shelf, a shelf of two, a department kept for want of a better home).
+5. Weak shop evidence: categories whose department split rests on no fetched shop page.
+Leave out anything a report says is fine; merge repeats; no counts or statistics beyond what helps a decision. Reply with one line: done.
