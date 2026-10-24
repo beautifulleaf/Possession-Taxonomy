@@ -36,6 +36,12 @@ def main():
             col = "from_id" if t == "compatibility" else "subject_id"
             rows = [r for r in rows if r[col] not in held]
         rows = [r for r in rows if (r.get("sources") or "").strip()]
+        if t in ("tier_entries", "standard_values", "attributes"):  # a subject must be stored (QS_I1 lesson)
+            nfs = {n["named_form_id"] for n in read_tsv(ROOT / "data/named_forms.tsv")}
+            lost = [r for r in rows if r.get("subject_type", "named_form") == "named_form" and r["subject_id"] not in nfs]
+            if lost:
+                write_tsv(ROOT / f"verify/out/{b}_{t}_held.tsv", lost, TABLES[t][1]); print(f"{t}: {len(lost)} held, subject not stored")
+                rows = [r for r in rows if r not in lost]
         if not rows: continue
         tmp = ROOT / f"verify/work/{b}/{t}_load.tsv"; tmp.parent.mkdir(parents=True, exist_ok=True)
         write_tsv(tmp, rows, TABLES[t][1])
