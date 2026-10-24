@@ -1,6 +1,6 @@
 # HV_D3_2 report (D3.5 to D3.8)
 
-Kinds: 31 of 31 attested (D3.5 9, D3.6 10, D3.7 3, D3.8 12); none unattested. (The kinds file has 32 lines including the header.)
+Kinds: 32 of 32 attested (D3.5 9, D3.6 8, D3.7 3, D3.8 12); none unattested.
 Named forms: 322 (maker-bound, owner-only role). Lines: 21. New makers: 48 (existing maker_ids reused for 27 brands).
 Collisions avoided (different brands, new ids): Stax Ltd, Koss Corporation, Moondrop Audio, ZMF Headphones (M-stax, M-koss, M-moondrop, M-zmf belong to other makers).
 
