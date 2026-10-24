@@ -6,7 +6,7 @@ I1	G-I1-15	Back up and recover	2	G-I1-1	I1.1.2.04; I1.1.2.06
 I1	G-I1-16	Files and remote access	2	G-I1-1	I1.1.3.01; I1.1.3.02; I1.1.3.03; I1.1.3.05; I1.1.3.07
 I1	G-I1-17	Launchers and desktop tweaks	2	G-I1-1	I1.1.3.04; I1.1.1.05; I1.1.3.08
 I1	G-I1-2	Protect my data and logins	1		I1.2; I1.1.2.05
-I1	G-I1-18	Malware protection	2	G-I1-2	I1.2.01
+I1	G-I1-18	Malware and network protection	2	G-I1-2	I1.2.01
 I1	G-I1-19	Passwords and logins	2	G-I1-2	I1.2.02; I1.2.06
 I1	G-I1-20	Privacy and encryption	2	G-I1-2	I1.2.03; I1.2.04; I1.1.2.05
 I1	G-I1-21	Family safety	2	G-I1-2	I1.2.05
@@ -66,7 +66,7 @@ C1	G-C1-3-5	Routers & moulders	2	G-C1-3	C1.3.5
 C1	G-C1-3-6	Lathes, mills & presses	2	G-C1-3	C1.3.6
 C1	G-C1-3-7	Surface preparation & decorating brushes	2	G-C1-3	C1.3.7
 C1	G-C1-4	Fastening, joining & clamping	1		C1.4; C1.5; C1.6
-C1	G-C1-4-1	Hammers & mallets	2	G-C1-4	C1.4.1
+C1	G-C1-4-1	Hammers, mallets & demolition hammers	2	G-C1-4	C1.4.1
 C1	G-C1-4-2	Pry bars & wreckers	2	G-C1-4	C1.4.2
 C1	G-C1-4-3	Nailers, staplers & riveters	2	G-C1-4	C1.4.3
 C1	G-C1-4-4	Welders	2	G-C1-4	C1.5.1
@@ -163,7 +163,7 @@ D5	G-D5-10	Arcade system boards	2	G-D5-8	D5.5.19
 D5	G-D5-11	Controllers	1		D5.2
 D5	G-D5-12	Gamepads	2	G-D5-11	D5.2.1.01; D5.2.1.02
 D5	G-D5-13	Arcade sticks and leverless controllers	2	G-D5-11	D5.2.2.01; D5.2.2.02
-D5	G-D5-14	Wheels, pedals and flight sticks	2	G-D5-11	D5.2.3.01; D5.2.3.02; D5.2.3.03; D5.2.3.04; D5.2.3.05; D5.2.3.06
+D5	G-D5-14	Wheels, pedals and flight controls	2	G-D5-11	D5.2.3.01; D5.2.3.02; D5.2.3.03; D5.2.3.04; D5.2.3.05; D5.2.3.06; D5.2.3.07
 D5	G-D5-15	Light guns, motion, mice and cameras	2	G-D5-11	D5.2.4.01; D5.2.4.02; D5.2.4.03; D5.2.4.04; D5.2.4.05
 D5	G-D5-16	Music, dance and voice controllers	2	G-D5-11	D5.2.5.01; D5.2.5.02; D5.2.5.03
 D5	G-D5-17	Games	1		D5.3; D5.4
@@ -192,10 +192,10 @@ B10	G-B10-12	Cat trees, scratchers and beds	2	G-B10-9	B10.2.2.01; B10.2.2.02
 B10	G-B10-13	Small animals	1		B10.3
 B10	G-B10-14	Small-animal food	2	G-B10-13	B10.3.1.01
 B10	G-B10-15	Cages and hutches	2	G-B10-13	B10.3.2.01
-B10	G-B10-16	Horses	1		B10.4; B10.12.2
+B10	G-B10-16	Horses	1		B10.4; B10.12.2; B10.12.5
 B10	G-B10-17	Saddles, pads and saddle fittings	2	G-B10-16	B10.4.1.01; B10.4.1.02; B10.4.1.04; B10.4.1.05; B10.4.1.03; B10.12.2.01; B10.12.2.02
 B10	G-B10-18	Driving harness	2	G-B10-16	B10.4.1.06
-B10	G-B10-19	Bridles, bits, halters and lungeing	2	G-B10-16	B10.4.2.01; B10.4.2.02; B10.4.2.03; B10.4.2.04; B10.4.2.05; B10.4.2.06; B10.4.2.07
+B10	G-B10-19	Bridles, bits, reins, halters and lungeing	2	G-B10-16	B10.4.2.01; B10.4.2.02; B10.4.2.03; B10.4.2.04; B10.4.2.05; B10.4.2.06; B10.4.2.07
 B10	G-B10-20	Rugs, fly masks and boots	2	G-B10-16	B10.4.3.01; B10.4.3.02; B10.4.3.05; B10.4.3.06; B10.4.3.03; B10.4.3.04; B10.4.3.07
 B10	G-B10-21	Grooming and hoof care	2	G-B10-16	B10.4.4.01; B10.4.4.02; B10.4.4.03
 B10	G-B10-22	Horse feed, supplements and hay nets	2	G-B10-16	B10.4.5.01; B10.4.5.02; B10.4.6.01
@@ -223,7 +223,7 @@ B10	G-B10-43	Bees and beekeeping	1		B10.9; B10.12.1
 B10	G-B10-44	Hives	2	G-B10-43	B10.9.2.01; B10.9.2.02; B10.9.2.03; B10.9.2.04
 B10	G-B10-45	Hive parts (boxes, frames, foundation, excluders)	2	G-B10-43	B10.12.1.01; B10.12.1.02; B10.12.1.04; B10.12.1.03
 B10	G-B10-46	Feeding and bee health	2	G-B10-43	B10.9.1.01; B10.9.5.01
-B10	G-B10-47	Beekeeper's tools	2	G-B10-43	B10.9.3.01
+B10	G-B10-47	Beekeeper's tools and queen rearing	2	G-B10-43	B10.9.3.01
 B10	G-B10-48	Honey harvesting	2	G-B10-43	B10.9.4.01; B10.9.4.02; B10.9.4.03
 B10	G-B10-49	Poultry and backyard livestock	1		B10.10
 B10	G-B10-50	Poultry feed	2	G-B10-49	B10.10.1.01; B10.10.1.02; B10.10.1.03; B10.10.1.04
@@ -274,8 +274,8 @@ C6	G-C6-8	Catadioptric telescopes	2	G-C6-5	C6.1.3.03; C6.1.3.04
 C6	G-C6-9	Smart and solar telescopes	2	G-C6-5	C6.1.3.06; C6.1.3.05
 C6	G-C6-10	Mounts, eyepieces and telescope accessories	1		C6.5.1; C6.1.7
 C6	G-C6-11	Mounts and tripods	2	G-C6-10	C6.5.1.02; C6.5.1.03; C6.5.1.06; C6.5.1.10; C6.5.1.07; C6.5.1.08; C6.5.1.09
-C6	G-C6-12	Eyepieces, focusers and dew shields	2	G-C6-10	C6.5.1.01; C6.5.1.12; C6.5.1.11
-C6	G-C6-13	Solar filters and eclipse glasses	2	G-C6-10	C6.5.1.04; C6.1.7.01
+C6	G-C6-12	Eyepieces, finders, Barlows and focusers	2	G-C6-10	C6.5.1.01; C6.5.1.12; C6.5.1.11
+C6	G-C6-13	Filters and eclipse glasses	2	G-C6-10	C6.5.1.04; C6.1.7.01
 C6	G-C6-14	Astronomy cameras	2	G-C6-10	C6.5.1.05
 C6	G-C6-15	Spotting scopes, night vision and thermal	1		C6.1.4; C6.1.2
 C6	G-C6-16	Spotting scopes	2	G-C6-15	C6.1.4.01
@@ -284,7 +284,7 @@ C6	G-C6-18	Microscopes	1		C6.1.5; C6.5.2
 C6	G-C6-19	Compound, stereo and polarizing microscopes	2	G-C6-18	C6.1.5.01; C6.1.5.02; C6.1.5.05
 C6	G-C6-20	Digital and pocket microscopes	2	G-C6-18	C6.1.5.03; C6.1.5.04
 C6	G-C6-21	Electron and scanning-probe microscopes	2	G-C6-18	C6.1.5.06; C6.1.5.07
-C6	G-C6-22	Slides, stages and microscope cameras	2	G-C6-18	C6.5.2.01; C6.5.2.03; C6.5.2.02
+C6	G-C6-22	Objectives, eyepieces and other microscope parts	2	G-C6-18	C6.5.2.01; C6.5.2.03; C6.5.2.02
 C6	G-C6-23	Magnifiers and loupes	1		C6.1.6
 C6	G-C6-24	Handheld and stand magnifiers	2	G-C6-23	C6.1.6.01; C6.1.6.03
 C6	G-C6-25	Loupes and head-worn magnifiers	2	G-C6-23	C6.1.6.02; C6.1.6.05; C6.1.6.04
@@ -351,7 +351,7 @@ J2	G-J2-11	Tuna and swordfish	2	G-J2-1	J2.1.1.18; J2.1.1.19; J2.1.1.20
 J2	G-J2-12	Prawns and shrimp	2	G-J2-1	J2.1.2.01; J2.1.2.02; J2.1.2.03; J2.1.2.07; J2.1.2.08; J2.1.2.09; J2.1.2.10; J2.1.2.11; J2.1.2.12; J2.1.2.13
 J2	G-J2-13	Crab and lobster	2	G-J2-1	J2.1.2.04; J2.1.2.05; J2.1.2.06
 J2	G-J2-14	Shellfish	2	G-J2-1	J2.1.3.01; J2.1.3.02; J2.1.3.03; J2.1.3.06; J2.1.3.07; J2.1.3.08; J2.1.3.09; J2.1.3.10; J2.1.3.11; J2.1.3.12; J2.1.3.13; J2.1.3.14; J2.1.3.15
-J2	G-J2-15	Squid and octopus	2	G-J2-1	J2.1.3.04; J2.1.3.05
+J2	G-J2-15	Squid, cuttlefish and octopus	2	G-J2-1	J2.1.3.04; J2.1.3.05
 J2	G-J2-16	Other (eel, sea urchin, sea cucumber, mixed)	2	G-J2-1	J2.1.1.24; J2.1.4.01; J2.1.4.02; J2.1.0.01
 J2	G-J2-17	Salted, cured & fermented fish	2	G-J2-3	J2.3.01; J2.3.02; J2.3.07; J2.3.12; J2.3.16
 J2	G-J2-18	Dried seafood	2	G-J2-3	J2.3.03; J2.3.04; J2.3.05; J2.3.06; J2.3.08; J2.3.09; J2.3.10; J2.3.11; J2.3.13; J2.3.14; J2.3.15; J2.3.18
@@ -457,7 +457,28 @@ A1	G-A1-8	Traditional dress	1		A1.2.2; A1.3.1; A1.3.4; A1.4.1; A1.4.2
 A1	G-A1-33	Draped and wrapped garments	2	G-A1-8	A1.3.4.01; A1.3.4.04; A1.3.4.05; A1.3.4.06
 A1	G-A1-34	Kimono, robes and long tunics	2	G-A1-8	A1.3.4.02; A1.3.4.03; A1.4.1.16; A1.2.2.05; A1.3.4.08; A1.3.1.06; A1.3.1.07; A1.4.2.08
 A1	G-A1-35	Traditional dresses, suits and sets	2	G-A1-8	A1.3.1.03; A1.3.1.04; A1.3.1.05; A1.3.1.08; A1.3.1.09; A1.4.2.05; A1.4.2.09
-A1	G-A1-9	Workwear and protective gear	1		A1.1.1; A1.2.2; A1.3.2; A1.4.1; A1.4.2; A1.4.3; A1.6
+A1	G-A1-9	Workwear and safety	1		A1.1.1; A1.2.2; A1.3.2; A1.4.1; A1.4.2; A1.4.3; A1.6
 A1	G-A1-36	Work and uniform clothing	2	G-A1-9	A1.1.1.05; A1.4.1.15; A1.4.2.12; A1.3.2.03; A1.4.3.04
 A1	G-A1-37	Protective clothing	2	G-A1-9	A1.2.2.06; A1.2.2.10; A1.3.2.04; A1.3.2.06; A1.4.3.05
 A1	G-A1-38	Head, eye, ear and face protection	2	G-A1-9	A1.6.04; A1.6.05; A1.6.06; A1.6.07; A1.6.08; A1.6.09; A1.6.10; A1.6.11; A1.6.12; A1.6.13; A1.6.14
+B10	G-B10-61	Cage-bird food	2	G-B10-35	
+G2	G-G2-1	Houses and flats	1		G2.2.1; G2.2.2; G2.2.3
+G2	G-G2-1-1	Houses	2	G-G2-1	G2.2.1
+G2	G-G2-1-2	Flats and maisonettes	2	G-G2-1	G2.2.2
+G2	G-G2-1-3	Whole residential buildings	2	G-G2-1	G2.2.3
+G2	G-G2-2	Park, mobile and floating homes	1		G2.2.4
+G2	G-G2-3	Land and farms	1		G2.1
+G2	G-G2-3-1	Building plots	2	G-G2-3	G2.1.1
+G2	G-G2-3-2	Farm land	2	G-G2-3	G2.1.2; G2.1.3; G2.1.4
+G2	G-G2-3-3	Woodland	2	G-G2-3	G2.1.5
+G2	G-G2-3-4	Lakes and water	2	G-G2-3	G2.1.6
+G2	G-G2-3-5	Mixed holdings and smallholdings	2	G-G2-3	G2.1.7
+G2	G-G2-4	Garden buildings and outbuildings	1		G2.3.1; G2.3.2; G2.3.3; G2.3.4; G2.3.5; G2.3.6
+G2	G-G2-4-1	Garages and carports	2	G-G2-4	G2.3.1
+G2	G-G2-4-2	Sheds and workshops	2	G-G2-4	G2.3.2
+G2	G-G2-4-3	Garden rooms and cabins	2	G-G2-4	G2.3.3
+G2	G-G2-4-4	Barns and stables	2	G-G2-4	G2.3.4
+G2	G-G2-4-5	Gazebos, pergolas, decks and patios	2	G-G2-4	G2.3.5
+G2	G-G2-4-6	Swimming pools	2	G-G2-4	G2.3.6
+G2	G-G2-5	Commercial buildings	1		G2.3.7
+G2	G-G2-6	Burial places	1		G2.4

@@ -1,0 +1,10 @@
+candidate	code	decision	kind_id	parent	name	definition	other_code	source_url	reason
+smart lights (IKEA Smart, Hoeffner Smart Home)	B3	attribute	B3.1; B3.2; B3.4					https://www.ikea.com/be/en/cat/lamps-li002/	Same bodies as plain fittings, lamps and bulbs; connectivity is an attribute (C10) with the ecosystem in C13; a generated view.
+battery table lamps (Hoeffner, IKEA Portable)	B3	attribute	B3.2.1.01					https://www.hoeffner.de/lampen_hell	Power source is an attribute (C10); a cordless table lamp keeps the table-lamp body. Generated 'portable' view.
+children's lights	B3	attribute	B3.2.1.03; B3.1.1.01; B3.2.1.01					https://www.hoeffner.de/lampen_hell	User is a tag (C6), with a generated department view; no leaf carries a user word.
+LED lights (retailer facet)	B3	attribute	B3.1; B3.2; B3.4					https://www.hoeffner.de/lampen_hell	Light-source technology is an attribute (C10); LED tubes, strips and bulbs keep their shape kinds.
+bulb page needs C13 cap rows	B3	noted	B3.4						Platform need listed in DPH_B_needs.tsv; harvested by PF_3 (R-118 d). Cap is a compatibility filter, never a level.
+fairy lights among Hoeffner indoor lamps	B3	other_category					B4	https://www.hoeffner.de/lampen_hell	String and fairy lights are B4 (K-181); shown as a cross-category link from the Lamps group.
+Hoeffner Moebelleuchten (furniture lights)	B3	covered	B3.1.3.04					https://www.hoeffner.de/lampen_hell	Furniture lights are the under-cabinet light (puck or bar); confirms the kind's retail category.
+wall-mounted lantern light shown under Outdoor	B3	display_only	B3.1.2.03						Leaf B3.1.2 stays its home; groups.tsv already shows it in G-B3-3-1. No change needed.
+bulb ladder (cap > shape > lumens > colour)	B3	noted	B3.4						Bulb-guide and Japanese fetches failed; ladder rests on the memo, provisional until a bulb buying guide is fetched.
