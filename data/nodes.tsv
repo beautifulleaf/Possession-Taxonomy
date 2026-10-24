@@ -1008,3 +1008,29 @@ D2.6.2	D2	leaf	D2.6	Satellite communicators		15	from verify/out/TREE_D2.md
 D2.6.3	D2	leaf	D2.6	Trackers		16	from verify/out/TREE_D2.md		
 D2.7	D2	sub_family	D2	Power banks		17	from verify/out/TREE_D2.md		
 D2.8	D2	sub_family	D2	Parts and accessories made for one phone, tablet or wearable		18	from verify/out/TREE_D2.md		
+D3	D3	category				0	from verify/out/TREE_D3.md		
+D3.1	D3	sub_family	D3	Displays & projection	Leaf axis: what the device shows (picture type).	1	from verify/out/TREE_D3.md		
+D3.1.1	D3	leaf	D3.1	Televisions	Kind axis: body form. Display technology (LCD-VA, LCD-IPS, WOLED, QD-OLED, Micro LED, plasma, CRT; CRT and plasma with an `era` tag), backlight, quantum dot, resolution, size and tuners are attributes; a "by display technology" view is generated.	2	from verify/out/TREE_D3.md		
+D3.1.2	D3	leaf	D3.1	Digital projectors	Kind axis: body and installation. Throw ratio (standard against short throw), light source, imaging chip, native resolution, brightness and battery are attributes; `portable` is a tag.	3	from verify/out/TREE_D3.md		
+D3.1.3	D3	leaf	D3.1	Film and slide projectors	Kind axis: medium projected.	4	from verify/out/TREE_D3.md		
+D3.2	D3	sub_family	D3	Sources & players	Leaf axis: what is played or received (record, disc or tape, stream or broadcast, stored files, radio signal).	5	from verify/out/TREE_D3.md		
+D3.2.1	D3	leaf	D3.2	Record players	Kind axis: playing unit. Drive (belt, direct, idler), operation (manual, semi-automatic, automatic), built-in phono preamp and USB output are attributes.	6	from verify/out/TREE_D3.md		
+D3.2.2	D3	leaf	D3.2	Disc and tape players	Kind axis: carrier played.	7	from verify/out/TREE_D3.md		
+D3.2.3	D3	leaf	D3.2	Streamers and set-top boxes	Kind axis: what arrives and how.	8	from verify/out/TREE_D3.md		
+D3.2.4	D3	leaf	D3.2	Portable players	Kind axis: stored files.	9	from verify/out/TREE_D3.md		
+D3.2.5	D3	leaf	D3.2	Tuners	Kind axis: one kind (R-11).	10	from verify/out/TREE_D3.md		
+D3.3	D3	sub_family	D3	Amplification & conversion	Leaf axis: the system stage served (stereo, AV, signal conversion).	11	from verify/out/TREE_D3.md		
+D3.3.1	D3	leaf	D3.3	Stereo amplifiers	Kind axis: stage of amplification. Tube or solid state, class A/B/D, power rating, streaming and phono inputs are attributes.	12	from verify/out/TREE_D3.md		
+D3.3.2	D3	leaf	D3.3	AV amplification	Kind axis: stage. Video switching, channel count, HDMI and Atmos are attributes.	13	from verify/out/TREE_D3.md		
+D3.3.3	D3	leaf	D3.3	Converters and headphone amplifiers	Kind axis: function. `form` (desktop, dongle) is an attribute.	14	from verify/out/TREE_D3.md		
+D3.4	D3	sub_family	D3	Loudspeakers	Leaf axis: system role (speakers placed in a room; sound for a TV).	15	from verify/out/TREE_D3.md		
+D3.4.1	D3	leaf	D3.4	Speakers	Kind axis: cabinet form and placement. Passive or active, ways, bass reach, radiation pattern, Atmos-enabled, battery, multi-room platform, outdoor rating (`standard_met`), `unit_of_sale` and `use` (computer among its values) are attributes.	16	from verify/out/TREE_D3.md		
+D3.4.2	D3	leaf	D3.4	Soundbars and TV sound	Kind axis: layout. Channel layout and format, Atmos, wall mounting and subwoofer included are attributes.	17	from verify/out/TREE_D3.md		
+D3.5	D3	sub_family	D3	Headphones & earphones	Leaf axis: where the transducer sits (outside the ear; in or at the ear). Driver technology (dynamic, planar, electrostatic, balanced armature, hybrid), wired or wireless, ANC, impedance, sensitivity, `transmitter_base` and `use` are attributes.	18	from verify/out/TREE_D3.md		
+D3.5.1	D3	leaf	D3.5	Headphones	Kind axis: form and enclosure; headset by attached microphone.	19	from verify/out/TREE_D3.md		
+D3.5.2	D3	leaf	D3.5	Earphones	Kind axis: wearing form. Driver setup and ANC are attributes.	20	from verify/out/TREE_D3.md		
+D3.6	D3	sub_family	D3	All-in-one & complete systems	Leaf axis: what is in one housing (music system; receiver for broadcasts).	21	from verify/out/TREE_D3.md		
+D3.6.1	D3	leaf	D3.6	Music systems	Kind axis: what is in one housing.	22	from verify/out/TREE_D3.md		
+D3.6.2	D3	leaf	D3.6	Radios	Kind axis: receiver type.	23	from verify/out/TREE_D3.md		
+D3.7	D3	sub_family	D3	Voice, smart displays & hubs		24	from verify/out/TREE_D3.md		
+D3.8	D3	sub_family	D3	Parts and accessories made for one audio or video device		25	from verify/out/TREE_D3.md		
