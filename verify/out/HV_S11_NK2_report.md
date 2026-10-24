@@ -1,0 +1,9 @@
+# HV_S11_NK2 report (new kinds, memo_ref DPS11; Allure Best of Beauty 2026 skips)
+Kinds attested: 18 of 18 (all on fetched shop or catalogue pages). Not attested: none.
+Named forms 43 (23 Allure winners, 20 shop-page products); makers 12 new (Byoma, Starface, Beauty Power, Pattern Beauty, Ref, Cecred, Lottabody, Framesi, LolaVie, Fenty Hair, Only Curls, Cereria Molla 1899); maker_kinds 42; tier entries 23 (SCH-allure-best-of-beauty, 2026, stale_after 2029-12-31, date 2026-09-17, all partial).
+Winners confirmed by narrow Parallel excerpts of the Allure pages: face mist, Byoma, Starface, Therabody, NuFace, Beauty Power razor, Smashbox highlighter, Rare Beauty contour, Beautyblender, Davines, Pattern foam, Cecred, Roz, Ref, Fenty dry shampoo, Chris McMillan, Lottabody, Pattern gel, Framesi, LolaVie, Crown Affair, and both candles (Cereria Molla "Best Floral Candle", Voluspa "Best Marine Candle", placed under B4.3.1.01; the pages show jar/glass-vessel candles).
+Not placed: Odele Air Dry Styler (Allure winner). Product pages show a gel-like serum/leave-in styler, neither a cream (H1.3.3.03) nor a volumizing spray (H1.3.3.07); missing kind? (hair gel H1.3.3.05 is the nearest if the owner accepts it). No tier entry written.
+Judgement: Starface, Pattern gel and Framesi values are the section heading (no "Best X" sub-label surfaced). Smashbox x Becca named as Smashbox model. Fenty Hair given its own maker M-fenty-hair.
+Failed fetches: Weleda mist (404), Stylpro/Beauty Bay (JS), Tweezerman at lookfantastic.se (503), Macy's, Sephora (403/not carried), parfumdreams.ie main page (nav only); replaced by other pages.
+Scheme kinds_served additions needed: H1.1.2.02 H1.1.3.02 H1.1.3.03 H1.9.08 H1.5.3.03 H1.2.1.08 H1.2.1.09 H1.2.7.03 H1.3.1.05-09 H1.3.3.04-07 B2.6.09 B4.3.1.01.
+Files: verify/out/HV_S11_NK2_{kinds,named_forms,makers,maker_kinds,tier_entries}.tsv; log verify/work/HV_S11_NK2/fetched.tsv; builder verify/work/HV_S11_NK2/build.py.
