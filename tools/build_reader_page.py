@@ -1,53 +1,86 @@
-"""Build the shopper-facing reader page for one category (R-126 readability exemplar).
-usage: build_reader_page.py CODE [--proposal BATCH]
-Reads display names (framework/structure/navigation/display.tsv), display groups and quality markers
-(framework/structure/navigation/groups.tsv, markers.tsv), kinds, named forms, lines and makers. With --proposal BATCH
-the groups, display names and markers come from verify/out/<BATCH>_groups.tsv, _display.tsv and _markers.tsv instead,
-so a proposal can be seen before it is applied. Writes pages/reader_<CODE>.html with its data inline. No ids, sources
-chips or working terms are shown (READABILITY_RULES.md). The page is generated; edit this script, never the HTML."""
+"""Build the shopper-facing reader (R-126): every category in a top strip, the open category's departments and shelves in a
+sidebar, items in the main column, as the Culinary taxonomy page is laid out (owner, session 12).
+usage: build_reader_page.py [--proposal CODE:BATCH ...]
+Writes pages/reader.html (shell with the category list and a search index) and pages/reader/<CODE>.json per category.
+Display names come from framework/structure/navigation/display.tsv, groups and quality markers from groups.tsv and
+markers.tsv; --proposal C1:RD_C1 takes C1's groups, display names and markers from verify/out/RD_C1_*.tsv instead, so a
+proposal can be read before it is applied. Kinds without a display row get the mechanical clean-up of READABILITY_RULES.md
+(synonyms out of the name, sentence case); kinds in no group go to a closing "Other" shelf. No ids, source chips or
+working terms are shown. The page is generated; edit this script or tools/reader_template.html, never the output."""
 import json, re, sys
+from collections import defaultdict
 from common import ROOT, read_tsv
 
-code = sys.argv[1]
-prop = sys.argv[sys.argv.index("--proposal") + 1] if "--proposal" in sys.argv else None
+props = dict(a.split(":") for a in sys.argv[sys.argv.index("--proposal") + 1:]) if "--proposal" in sys.argv else {}
 nav = ROOT / "framework/structure/navigation"
-src = (lambda t: ROOT / f"verify/out/{prop}_{t}.tsv") if prop else (lambda t: nav / f"{t}.tsv")
-K = {k["kind_id"]: k for k in read_tsv(ROOT / "data/kinds.tsv") if k["code"] == code}
-D = {d["kind_id"]: d for d in read_tsv(src("display"))} if src("display").exists() else {}
-G = [g for g in read_tsv(src("groups")) if g["code"] == code]
-MK = [m for m in read_tsv(src("markers")) if m["code"] == code]
-M = {m["maker_id"]: m["name"] for m in read_tsv(ROOT / "data/makers.tsv")}
-NF, LN = {}, {}
-for n in read_tsv(ROOT / "data/named_forms.tsv"):
-    if n["kind_id"] in K: NF.setdefault(n["kind_id"], []).append(n)
+fw = (ROOT / "framework/CATEGORIES_v0_7_3.md").read_text()
+DOMAINS, CATS = [], []
+for line in fw[fw.index("## Categories"):fw.index("## Appendix A")].splitlines():
+    if m := re.match(r"^### ([A-J]) — (.+)$", line): DOMAINS.append({"d": m.group(1), "n": m.group(2).strip()})
+    elif m := re.match(r"^- \*\*([A-J]\d+) ([^*]+)\*\*", line): CATS.append({"c": m.group(1), "n": m.group(2).strip(), "d": m.group(1)[0]})
+
+kinds = defaultdict(dict)
+for k in read_tsv(ROOT / "data/kinds.tsv"): kinds[k["code"]][k["kind_id"]] = k
+disp = {d["kind_id"]: d for d in read_tsv(nav / "display.tsv")} if (nav / "display.tsv").exists() else {}
+groups, markers = defaultdict(list), defaultdict(list)
+for g in read_tsv(nav / "groups.tsv"): groups[g["code"]].append(g)
+for m in read_tsv(nav / "markers.tsv"): markers[m["code"]].append(m)
+for code, b in props.items():
+    groups[code] = [g for g in read_tsv(ROOT / f"verify/out/{b}_groups.tsv") if g["code"] == code]
+    markers[code] = [m for m in read_tsv(ROOT / f"verify/out/{b}_markers.tsv") if m["code"] == code]
+    disp.update({d["kind_id"]: d for d in read_tsv(ROOT / f"verify/out/{b}_display.tsv")})
+mk = {m["maker_id"]: m["name"] for m in read_tsv(ROOT / "data/makers.tsv")}
+iss = {i["issuer_id"]: i["name"] for i in read_tsv(ROOT / "data/issuers.tsv")}
+nfs, lns = defaultdict(list), defaultdict(list)
+for n in read_tsv(ROOT / "data/named_forms.tsv"): nfs[n["kind_id"]].append(n)
 for l in read_tsv(ROOT / "data/lines.tsv"):
     for k in re.split(r"[;|]", l["kinds"]):
-        if k.strip() in K: LN.setdefault(k.strip(), []).append(l)
+        if k.strip(): lns[k.strip()].append(l)
 
-def name_of(kid):
-    if kid in D: return D[kid]["display_name"], D[kid]["also_called"]
-    n = K[kid]["name"]; also = re.findall(r"[\[(]([^\])]*)[\])]", n)
+def name_of(k):
+    if k["kind_id"] in disp: return disp[k["kind_id"]]["display_name"], disp[k["kind_id"]]["also_called"]
+    n = k["name"]; also = [a.strip() for a in re.findall(r"[\[(]([^\])]*)[\])]", n)]
     base = re.sub(r"\s*[\[(][^\])]*[\])]", "", n).strip()
-    return base[:1].upper() + base[1:], " · ".join(a.strip() for a in also)
+    if k.get("native_name"): also.append(k["native_name"])
+    return base[:1].upper() + base[1:], " · ".join(a for a in also if a)
 
-def kind_row(kid):
-    k = K[kid]; dn, also = name_of(kid)
-    ex = sorted(NF.get(kid, []), key=lambda n: (M.get(n["maker_id"], "~"), n["name"]))
-    models = [[n["name"], M.get(n["maker_id"], "")] for n in ex]
-    ranges = [[l["name"], M.get(l["maker_id"], "")] for l in LN.get(kid, [])]
-    first = (k["sources"].split(" | ") or [""])[0].strip()
-    return {"n": dn, "a": also, "d": k["definition"][:1].upper() + k["definition"][1:], "m": models, "r": ranges, "s": first}
+def who(n):
+    if n["maker_id"]: return mk.get(n["maker_id"], "")
+    m = re.match(r"issuer (I-[a-z0-9-]+)", n["notes"] or "")
+    return "issued by " + iss.get(m.group(1), "") if m else ""
 
-depts = []
-for t in [g for g in G if g["level"] == "1"]:
-    subs = [g for g in G if g["parent_group"] == t["group_id"]] or [t]
-    shelves = [{"n": s["group_name"], "k": [kind_row(m) for m in s["members"].split("; ") if m in K]} for s in subs]
-    best = [{"m": m["marker"], "v": m["values"], "w": m["why"]} for m in MK if m["group_id"] == t["group_id"]]
-    depts.append({"n": t["group_name"], "id": re.sub(r"[^a-z0-9]+", "-", t["group_name"].lower()).strip("-"), "s": shelves, "b": best})
-data = {"code": code, "depts": depts}
-title = {"C1": "Tools and workshop equipment"}.get(code, code)
+def item(k):
+    dn, also = name_of(k)
+    models = sorted(([n["name"], who(n)] for n in nfs[k["kind_id"]]), key=lambda x: (x[1] or "~", x[0]))
+    ranges = sorted([l["name"], mk.get(l["maker_id"], "")] for l in lns[k["kind_id"]])
+    d = k["definition"].strip()
+    return {"n": dn, "a": also, "d": d[:1].upper() + d[1:], "m": models, "r": ranges, "s": (k["sources"].split(" | ") or [""])[0].strip()}
+
+(ROOT / "pages/reader").mkdir(exist_ok=True)
+index, counts = [], {}
+for c in CATS:
+    code = c["c"]; K = kinds.get(code, {}); G = groups.get(code, []); placed = set(); depts = []
+    for t in [g for g in G if g["level"] == "1"]:
+        subs = [g for g in G if g["parent_group"] == t["group_id"]]
+        own = [m for m in t["members"].split("; ") if m in K]
+        shelves = ([{"n": t["group_name"], "k": own}] if own else []) + [{"n": s["group_name"], "k": [m for m in s["members"].split("; ") if m in K]} for s in subs]
+        shelves = [s for s in shelves if s["k"]]
+        if not shelves: continue
+        for s in shelves: placed.update(s["k"])
+        best = [{"m": m["marker"], "v": m["values"], "w": m["why"]} for m in markers[code] if m["group_id"] == t["group_id"] or m["group_id"] in {s["group_id"] for s in subs}]
+        depts.append({"n": t["group_name"], "s": shelves, "b": best})
+    rest = [k for k in K if k not in placed]
+    if rest: depts.append({"n": "Other", "s": [{"n": "Not yet grouped", "k": sorted(rest)}], "b": []})
+    for d in depts:
+        for s in d["s"]:
+            s["k"] = [item(K[kid]) for kid in s["k"]]
+            for i, it in enumerate(s["k"]): index.append([code, it["n"], it["a"]])
+    counts[code] = len(K)
+    (ROOT / f"pages/reader/{code}.json").write_text(json.dumps({"c": code, "rev": code in props or any(k in disp for k in K), "depts": depts}, ensure_ascii=False, separators=(",", ":")))
+for c in CATS: c["k"] = counts.get(c["c"], 0)
+shell = {"domains": DOMAINS, "cats": CATS, "index": index}
 tpl = (ROOT / "tools/reader_template.html").read_text()
-out = tpl.replace("__TITLE__", title).replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
-p = ROOT / f"pages/reader_{code}.html"; p.write_text(out)
-print(p, len(out) // 1024, "KB;", len(depts), "departments,", sum(len(d["s"]) for d in depts), "shelves,",
-      sum(len(s["k"]) for d in depts for s in d["s"]), "kinds")
+out = tpl.replace("__DATA__", json.dumps(shell, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
+(ROOT / "pages/reader.html").write_text(out)
+size = sum(p.stat().st_size for p in (ROOT / "pages/reader").glob("*.json"))
+print(f"pages/reader.html {len(out) // 1024} KB; {len(CATS)} categories, {sum(counts.values())} kinds; category files {size // 1024} KB")

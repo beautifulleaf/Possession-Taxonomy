@@ -1,9 +1,10 @@
-<title>Possession Tool Catalogue</title>
+<meta charset="utf-8">
+<title>Possession Taxonomy Reader</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
-/* Layout: a shop catalogue. Aisle signs (departments) across the top, the chosen department's shelves below, items as plain entries; search runs across every aisle. */
+/* Layout: shop catalogue. Sticky top bar: brand, search, and every category in one scrolling strip grouped by domain. Below: sticky sidebar of the open category's departments and shelves; main column with the whole category, department by department. */
 :root {
   --bg: #eef0ec; --paper: #fbfcf9; --ink: #1c211d; --muted: #59625b; --rule: #cfd5cd;
   --accent: #2f5b3c; --accent-ink: #f4f7f1; --flag: #f2c230; --flag-ink: #2b2405; --soft: #e1e9df;
@@ -20,109 +21,152 @@
 * { box-sizing: border-box }
 body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--body); }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
-.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.gut { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); border-bottom: 1px solid var(--rule); }
-.top { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; padding-block: 14px 10px; }
-h1 { font: 800 30px/1 var(--sign); letter-spacing: .01em; text-transform: uppercase; margin: 0; }
-h1 small { display: block; font: 500 12px/1.4 var(--mono); color: var(--muted); text-transform: none; letter-spacing: .02em; margin-top: 4px; }
-#q { margin-left: auto; width: min(100%, 340px); font: 16px/1.2 var(--body); padding: 10px 12px; border: 1px solid var(--rule); border-radius: 6px; background: var(--bg); color: var(--ink); }
-nav.aisles { display: flex; flex-wrap: wrap; gap: 6px; padding-block: 0 12px; }
-nav.aisles button { font: 600 17px/1 var(--sign); letter-spacing: .03em; text-transform: uppercase; padding: 9px 12px 8px; border-radius: 4px; border: 1px solid var(--rule); background: transparent; color: var(--ink); cursor: pointer; display: flex; gap: 8px; align-items: baseline; }
-nav.aisles button span { font: 500 11px/1 var(--mono); color: var(--muted); }
-nav.aisles button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
-nav.aisles button[aria-pressed="true"] span { color: var(--accent-ink); opacity: .8; }
+.top { max-width: 1320px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; padding-block: 12px 8px; }
+h1 { font: 800 26px/1 var(--sign); letter-spacing: .02em; text-transform: uppercase; margin: 0; }
+#q { margin-left: auto; width: min(100%, 360px); font: 16px/1.2 var(--body); padding: 9px 12px; border: 1px solid var(--rule); border-radius: 6px; background: var(--bg); color: var(--ink); }
+.strip { max-width: 1320px; margin: 0 auto; overflow-x: auto; padding-block: 2px 10px; scrollbar-width: thin; }
+.strip-in { display: flex; gap: 10px; width: max-content; }
+.dom { display: grid; gap: 3px; align-content: start; padding-left: 10px; border-left: 2px solid var(--rule); }
+.dom:first-child { padding-left: 0; border-left: 0; }
+.dom > span { font: 500 10.5px/1.2 var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .07em; white-space: nowrap; }
+.dom > div { display: flex; gap: 4px; }
+.cat { font: 600 15px/1.05 var(--sign); letter-spacing: .03em; text-transform: uppercase; padding: 7px 10px 6px; border-radius: 4px; border: 1px solid var(--rule); background: transparent; color: var(--ink); cursor: pointer; white-space: nowrap; }
+.cat small { display: block; font: 500 10px/1.2 var(--mono); color: var(--muted); letter-spacing: 0; text-transform: none; margin-top: 2px; }
+.cat[aria-current="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.cat[aria-current="true"] small { color: var(--accent-ink); opacity: .8; }
 button:focus-visible, #q:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-main { padding-block: 26px 70px; display: grid; gap: 30px; }
-.dept-head { display: grid; gap: 10px; }
-h2 { font: 800 44px/1 var(--sign); text-transform: uppercase; margin: 0; text-wrap: balance; }
-.shelflist { display: flex; flex-wrap: wrap; gap: 6px 14px; font: 15px/1.4 var(--body); }
-.shelflist a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
-.shelflist a:hover { border-bottom-color: var(--accent); }
-.best { background: var(--paper); border: 1px solid var(--rule); border-left: 6px solid var(--flag); border-radius: 6px; padding: 14px 18px; max-width: 78ch; }
-.best h3 { font: 700 13px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
-.best ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
-.best b { font-weight: 600; }
-.best .v { font-style: italic; color: var(--muted); }
+.wrap { max-width: 1320px; margin: 0 auto; padding-block: 22px 70px; display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 32px; }
+nav.side { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 142px); align-self: start; max-height: calc(100vh - 150px); overflow-y: auto; font: 14px/1.35 var(--body); padding-right: 4px; }
+.side h2 { font: 700 13px/1.2 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+.side ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.side .d > a { font: 700 16px/1.2 var(--sign); letter-spacing: .03em; text-transform: uppercase; color: var(--ink); margin-top: 10px; }
+.side a { display: flex; justify-content: space-between; gap: 8px; padding: 4px 8px; border-radius: 4px; color: var(--ink); text-decoration: none; }
+.side a span { color: var(--muted); font: 500 11px/1.4 var(--mono); font-variant-numeric: tabular-nums; }
+.side a:hover { background: var(--soft); }
+.side a.on { background: var(--soft); box-shadow: inset 3px 0 0 var(--accent); }
+.side ol ol { padding-left: 8px; }
+main { min-width: 0; display: grid; gap: 26px; align-content: start; }
+.cat-head h2 { font: 800 46px/1 var(--sign); text-transform: uppercase; margin: 0; text-wrap: balance; }
+.cat-head p { margin: 6px 0 0; color: var(--muted); font-size: 15px; max-width: 72ch; }
+.note { font: 13px/1.45 var(--body); color: var(--muted); border: 1px dashed var(--rule); border-radius: 6px; padding: 8px 12px; max-width: 72ch; }
+section.dept { display: grid; gap: 16px; scroll-margin-top: 150px; }
+h3.dept-name { font: 800 32px/1 var(--sign); text-transform: uppercase; margin: 8px 0 0; padding-top: 12px; border-top: 4px solid var(--ink); }
+.best { background: var(--paper); border: 1px solid var(--rule); border-left: 6px solid var(--flag); border-radius: 6px; padding: 12px 16px; max-width: 80ch; }
+.best h4 { font: 700 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.best ol { margin: 0; padding-left: 20px; display: grid; gap: 5px; font-size: 15px; }
+.best b { font-weight: 600; } .best .v { font-style: italic; color: var(--muted); }
 section.shelf { display: grid; gap: 10px; scroll-margin-top: 150px; }
-h3.shelf-name { font: 700 24px/1.1 var(--sign); letter-spacing: .02em; text-transform: uppercase; margin: 0; padding-top: 10px; border-top: 3px solid var(--ink); display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
-h3.shelf-name span { font: 500 12px/1 var(--mono); color: var(--muted); text-transform: none; letter-spacing: 0; }
-h3.shelf-name em { font: 500 13px/1 var(--body); font-style: normal; color: var(--muted); text-transform: none; letter-spacing: 0; }
-.items { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; align-items: start; }
-article.item { background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; min-width: 0; }
-article.item h4 { font: 600 17px/1.3 var(--body); margin: 0; }
+h4.shelf-name { font: 700 21px/1.1 var(--sign); letter-spacing: .02em; text-transform: uppercase; margin: 0; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; border-bottom: 1px solid var(--rule); padding-bottom: 4px; }
+h4.shelf-name span { font: 500 12px/1 var(--mono); color: var(--muted); text-transform: none; letter-spacing: 0; }
+h4.shelf-name em { font: 500 13px/1 var(--body); font-style: normal; color: var(--muted); text-transform: none; letter-spacing: 0; }
+.items { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 10px; align-items: start; }
+article.item { background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 11px 13px; display: grid; gap: 5px; min-width: 0; }
+article.item h5 { font: 600 16.5px/1.3 var(--body); margin: 0; }
 .also { font: 13px/1.4 var(--body); color: var(--muted); margin: 0; }
-.desc { font: 15px/1.5 var(--body); margin: 0; }
+.desc { font: 14.5px/1.5 var(--body); margin: 0; }
 details.models summary { cursor: pointer; font: 600 13px/1.3 var(--body); color: var(--accent); list-style: none; }
 details.models summary::-webkit-details-marker { display: none; }
 details.models summary::before { content: "+ "; font-family: var(--mono); }
 details.models[open] summary::before { content: "− "; }
-.chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; max-height: 320px; overflow-y: auto; }
 .chip { font: 13px/1.3 var(--body); background: var(--soft); border-radius: 4px; padding: 3px 7px; }
 .chip i { font-style: normal; color: var(--muted); margin-left: 5px; }
 .chip.range { background: transparent; border: 1px solid var(--rule); }
-.src { font: 12px/1.3 var(--mono); color: var(--muted); }
-.src a { color: var(--muted); }
+.src { font: 12px/1.3 var(--mono); margin: 0; } .src a { color: var(--muted); }
 .none { color: var(--muted); font: 15px/1.5 var(--body); }
+.hits { display: grid; gap: 4px; }
+.hit { display: flex; justify-content: space-between; gap: 12px; text-align: left; font: 15px/1.4 var(--body); padding: 7px 10px; border: 1px solid var(--rule); border-radius: 4px; background: var(--paper); color: var(--ink); cursor: pointer; }
+.hit i { font-style: normal; color: var(--muted); font-size: 13px; white-space: nowrap; }
 mark { background: var(--flag); color: var(--flag-ink); padding: 0 1px; border-radius: 2px; }
-@media (max-width: 640px) { h2 { font-size: 34px; } #q { margin-left: 0; width: 100%; } .items { grid-template-columns: minmax(0, 1fr); } section.shelf { scroll-margin-top: 220px; } }
+@media (max-width: 880px) { .wrap { grid-template-columns: minmax(0, 1fr); gap: 16px; } nav.side { position: static; max-height: 260px; border: 1px solid var(--rule); border-radius: 6px; padding: 10px; background: var(--paper); } #q { margin-left: 0; width: 100%; } section.dept, section.shelf { scroll-margin-top: 190px; } .cat-head h2 { font-size: 36px; } }
+@media (max-width: 560px) { .items { grid-template-columns: minmax(0, 1fr); } }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 </style>
-<header><div class="wrap">
-  <div class="top"><h1>__TITLE__<small>Possession taxonomy · reader view</small></h1>
-  <input id="q" type="search" placeholder="Search tools, names, models" aria-label="Search tools, other names and models"></div>
-  <nav class="aisles" id="aisles" aria-label="Departments"></nav>
-</div></header>
-<div class="wrap"><main id="main"></main></div>
+<header>
+  <div class="top gut"><h1>Possession Taxonomy</h1>
+  <input id="q" type="search" placeholder="Search every category" aria-label="Search every category for an item or another name for it"></div>
+  <div class="strip gut"><nav class="strip-in" id="cats" aria-label="Categories"></nav></div>
+</header>
+<div class="wrap gut"><nav class="side" id="side" aria-label="Departments and shelves"></nav><main id="main"><p class="none">Loading…</p></main></div>
 <script>
-const DATA = __DATA__;
+const S = __DATA__;
 const $ = (t, a = {}, ...kids) => { const e = document.createElement(t); for (const [k, v] of Object.entries(a)) { if (k === 'class') e.className = v; else if (k === 'text') e.textContent = v; else e.setAttribute(k, v); } kids.flat().forEach(c => c != null && e.append(c)); return e; };
-const count = d => d.s.reduce((a, s) => a + s.k.length, 0);
-let cur = DATA.depts[0].id;
-const fromHash = location.hash.slice(1); if (DATA.depts.some(d => d.id === fromHash)) cur = fromHash;
-try { const v = localStorage.getItem('reader-' + DATA.code); if (!fromHash && v && DATA.depts.some(d => d.id === v)) cur = v; } catch (e) {}
-const aisles = document.getElementById('aisles'), main = document.getElementById('main'), q = document.getElementById('q');
-DATA.depts.forEach(d => { const b = $('button', { type: 'button', 'data-id': d.id, 'aria-pressed': 'false' }, d.n, $('span', { text: count(d) }));
-  b.addEventListener('click', () => { cur = d.id; q.value = ''; render(); try { localStorage.setItem('reader-' + DATA.code, d.id); } catch (e) {} window.scrollTo({ top: 0 }); }); aisles.append(b); });
-const hl = (text, term) => { if (!term) return text; const i = text.toLowerCase().indexOf(term); if (i < 0) return text; return [text.slice(0, i), $('mark', { text: text.slice(i, i + term.length) }), text.slice(i + term.length)]; };
+const catName = c => (S.cats.find(x => x.c === c) || {}).n || c;
+const cache = {}; let cur = null, data = null;
+const catsEl = document.getElementById('cats'), side = document.getElementById('side'), main = document.getElementById('main'), q = document.getElementById('q');
+S.domains.forEach(d => { const row = $('div'), box = $('div', { class: 'dom' }, $('span', { text: d.n }), row);
+  S.cats.filter(c => c.d === d.d).forEach(c => { const b = $('button', { class: 'cat', type: 'button', 'data-c': c.c, title: c.n }, c.n, $('small', { text: c.k + ' items' }));
+    b.addEventListener('click', () => { q.value = ''; open(c.c, true); }); row.append(b); });
+  catsEl.append(box); });
+const hl = (text, term) => { if (!term || !text) return text; const i = text.toLowerCase().indexOf(term); if (i < 0) return text; return [text.slice(0, i), $('mark', { text: text.slice(i, i + term.length) }), text.slice(i + term.length)]; };
+const slug = (...p) => p.join('-');
 function item(k, term) {
-  const a = $('article', { class: 'item' }, $('h4', {}, hl(k.n, term)));
+  const a = $('article', { class: 'item' }, $('h5', {}, hl(k.n, term)));
   if (k.a) a.append($('p', { class: 'also' }, 'Also called ', hl(k.a, term)));
-  a.append($('p', { class: 'desc', text: k.d }));
-  const n = k.m.length + k.r.length;
-  if (n) {
-    const det = $('details', { class: 'models' }, $('summary', { text: (k.m.length ? k.m.length + (k.m.length === 1 ? ' model' : ' models') : '') + (k.m.length && k.r.length ? ' · ' : '') + (k.r.length ? k.r.length + (k.r.length === 1 ? ' range' : ' ranges') : '') }));
-    const chips = $('div', { class: 'chips' });
-    k.r.forEach(([nm, mk]) => chips.append($('span', { class: 'chip range', title: 'a maker\'s range covering several models' }, hl(nm, term), mk ? $('i', { text: mk }) : null)));
-    k.m.forEach(([nm, mk]) => chips.append($('span', { class: 'chip' }, hl(nm, term), mk ? $('i', { text: mk }) : null)));
-    det.append(chips);
-    if (term && [...k.m, ...k.r].some(([nm, mk]) => (nm + ' ' + mk).toLowerCase().includes(term))) det.open = true;
+  if (k.d) a.append($('p', { class: 'desc', text: k.d }));
+  if (k.m.length || k.r.length) {
+    const lab = [k.m.length ? k.m.length + (k.m.length === 1 ? ' model' : ' models') : '', k.r.length ? k.r.length + (k.r.length === 1 ? ' range' : ' ranges') : ''].filter(Boolean).join(' · ');
+    const det = $('details', { class: 'models' }, $('summary', { text: lab }));
+    det.addEventListener('toggle', () => { if (!det.open || det.dataset.f) return; det.dataset.f = 1; const ch = $('div', { class: 'chips' });
+      k.r.forEach(([n, m]) => ch.append($('span', { class: 'chip range', title: "a maker's range covering several models" }, n, m ? $('i', { text: m }) : null)));
+      k.m.forEach(([n, m]) => ch.append($('span', { class: 'chip' }, n, m ? $('i', { text: m }) : null))); det.append(ch); });
     a.append(det);
   }
   if (k.s) a.append($('p', { class: 'src' }, $('a', { href: k.s, target: '_blank', rel: 'noopener', text: 'Where this was checked' })));
   return a;
 }
-const hit = (k, term) => [k.n, k.a, k.d, ...k.m.flat(), ...k.r.flat()].join(' ').toLowerCase().includes(term);
-function render() {
-  const term = q.value.trim().toLowerCase();
-  aisles.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(!term && b.dataset.id === cur)));
-  main.replaceChildren();
-  if (term) {
-    let total = 0;
-    DATA.depts.forEach(d => d.s.forEach(s => { const ks = s.k.filter(k => hit(k, term)); if (!ks.length) return; total += ks.length;
-      main.append($('section', { class: 'shelf' }, $('h3', { class: 'shelf-name' }, s.n, $('em', { text: d.n })), $('div', { class: 'items' }, ks.map(k => item(k, term))))); }));
-    if (!total) main.append($('p', { class: 'none', text: 'Nothing matches "' + q.value.trim() + '". Try another word for it, or browse a department above.' }));
-    else main.prepend($('p', { class: 'none', text: total + (total === 1 ? ' item' : ' items') + ' match "' + q.value.trim() + '".' }));
-    return;
-  }
-  const d = DATA.depts.find(x => x.id === cur);
-  const head = $('div', { class: 'dept-head' }, $('h2', { text: d.n }));
-  if (d.s.length > 1) head.append($('nav', { class: 'shelflist', 'aria-label': 'Shelves in ' + d.n }, d.s.map((s, i) => $('a', { href: '#shelf-' + i, text: s.n + ' (' + s.k.length + ')' }))));
-  main.append(head);
-  if (d.b.length) main.append($('div', { class: 'best' }, $('h3', { text: 'What makes a good one' }),
-    $('ol', {}, d.b.map(b => $('li', {}, $('b', { text: b.m }), b.v ? [': ', $('span', { class: 'v', text: b.v })] : null, b.w ? '. ' + b.w : '')))));
-  d.s.forEach((s, i) => main.append($('section', { class: 'shelf', id: 'shelf-' + i }, $('h3', { class: 'shelf-name' }, s.n, $('span', { text: s.k.length + (s.k.length === 1 ? ' item' : ' items') })), $('div', { class: 'items' }, s.k.map(k => item(k))))));
+async function load(c) { if (!cache[c]) { const r = await fetch('reader/' + c + '.json'); if (!r.ok) throw new Error(r.status); cache[c] = await r.json(); } return cache[c]; }
+async function open(c, top, target) {
+  cur = c; catsEl.querySelectorAll('.cat').forEach(b => b.setAttribute('aria-current', String(b.dataset.c === c)));
+  catsEl.querySelector('.cat[aria-current="true"]')?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  try { localStorage.setItem('reader-cat', c); } catch (e) {}
+  main.replaceChildren($('p', { class: 'none', text: 'Loading ' + catName(c) + '…' })); side.replaceChildren();
+  try { data = await load(c); } catch (e) { main.replaceChildren($('p', { class: 'none', text: 'This category did not load (' + e.message + '). Choose it again to retry.' })); return; }
+  if (cur !== c) return;
+  render(); if (top) window.scrollTo({ top: 0 });
+  if (target) document.getElementById(target)?.scrollIntoView();
 }
-q.addEventListener('input', render);
-main.addEventListener('click', e => { const a = e.target.closest('a[href^="#shelf-"]'); if (!a) return; e.preventDefault(); document.getElementById(a.getAttribute('href').slice(1))?.scrollIntoView(); });
-render();
+function render() {
+  const total = data.depts.reduce((a, d) => a + d.s.reduce((b, s) => b + s.k.length, 0), 0);
+  const ol = $('ol');
+  data.depts.forEach((d, i) => { const n = d.s.reduce((a, s) => a + s.k.length, 0);
+    const li = $('li', { class: 'd' }, $('a', { href: '#' + slug('d', i) }, d.n, $('span', { text: n })));
+    if (d.s.length > 1) li.append($('ol', {}, d.s.map((s, j) => $('li', {}, $('a', { href: '#' + slug('s', i, j) }, s.n, $('span', { text: s.k.length }))))));
+    ol.append(li); });
+  side.replaceChildren($('h2', { text: catName(cur) }), ol);
+  main.replaceChildren();
+  const head = $('div', { class: 'cat-head' }, $('h2', { text: catName(cur) }), $('p', { text: total + ' items in ' + data.depts.length + (data.depts.length === 1 ? ' department.' : ' departments.') }));
+  main.append(head);
+  if (!data.rev) main.append($('p', { class: 'note', text: 'Names and departments in this category have not had the readability review yet; Tools & Workshop Equipment shows the reviewed layout.' }));
+  data.depts.forEach((d, i) => {
+    const sec = $('section', { class: 'dept', id: slug('d', i) }, $('h3', { class: 'dept-name', text: d.n }));
+    if (d.b.length) sec.append($('div', { class: 'best' }, $('h4', { text: 'What makes a good one' }), $('ol', {}, d.b.map(b => $('li', {}, $('b', { text: b.m }), b.v ? [': ', $('span', { class: 'v', text: b.v })] : null, b.w ? '. ' + b.w : '')))));
+    d.s.forEach((s, j) => sec.append($('section', { class: 'shelf', id: slug('s', i, j) }, (d.s.length > 1 || s.n !== d.n) ? $('h4', { class: 'shelf-name' }, s.n, $('span', { text: s.k.length + (s.k.length === 1 ? ' item' : ' items') })) : null, $('div', { class: 'items' }, s.k.map(k => item(k))))));
+    main.append(sec);
+  });
+  spy();
+}
+function search() {
+  const term = q.value.trim().toLowerCase();
+  if (!term) { if (data) render(); return; }
+  const hits = S.index.filter(([c, n, a]) => (n + ' ' + a).toLowerCase().includes(term)).slice(0, 200);
+  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Search' }), $('p', { text: hits.length ? (hits.length === 200 ? 'The first 200 items' : hits.length + (hits.length === 1 ? ' item' : ' items')) + ' named "' + q.value.trim() + '". Choose one to open it in its category.' : 'Nothing is named "' + q.value.trim() + '". Try another word for it, or browse a category above.' })));
+  main.append($('div', { class: 'hits' }, hits.map(([c, n, a]) => { const b = $('button', { class: 'hit', type: 'button' }, $('span', {}, hl(n, term), a ? $('span', { class: 'also' }, ' · ', hl(a, term)) : null), $('i', { text: catName(c) }));
+    b.addEventListener('click', async () => { q.value = ''; await open(c, true); const el = [...main.querySelectorAll('article.item h5')].find(h => h.textContent === n); if (el) { el.closest('article').scrollIntoView({ block: 'center' }); el.closest('article').style.outline = '2px solid var(--flag)'; } });
+    return b; })));
+}
+let spyObs;
+function spy() {
+  spyObs?.disconnect(); const links = new Map([...side.querySelectorAll('a')].map(a => [a.getAttribute('href').slice(1), a]));
+  spyObs = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { side.querySelectorAll('a.on').forEach(x => x.classList.remove('on')); links.get(e.target.id)?.classList.add('on'); } }), { rootMargin: '-160px 0px -65% 0px' });
+  main.querySelectorAll('section.shelf, section.dept').forEach(s => spyObs.observe(s));
+}
+side.addEventListener('click', e => { const a = e.target.closest('a[href^="#"]'); if (!a) return; e.preventDefault(); document.getElementById(a.getAttribute('href').slice(1))?.scrollIntoView(); });
+q.addEventListener('input', search);
+let start = 'C1'; try { start = localStorage.getItem('reader-cat') || start; } catch (e) {}
+const h = location.hash.slice(1); if (S.cats.some(c => c.c === h)) start = h;
+if (!S.cats.some(c => c.c === start)) start = S.cats[0].c;
+open(start);
 </script>
