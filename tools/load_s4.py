@@ -63,6 +63,8 @@ for b in sys.argv[1:]:
             print(f"{b}: {len(flagged)} reused maker ids need review first (tools/check_batch.py {b}); after fixing with"
                   f" tools/fix_batch_ids.py, add {b} to verify/out/reviewed_batches.txt"); continue
     log = ROOT / f"verify/work/{b}/fetched.tsv"
+    if log.exists():  # a source missing from the batch's own fetch log is treated as unfetched (R-101 b)
+        run(ROOT / "tools/check_batch.py", b, b.split("_")[1] if b.startswith(("MKH_", "HV_")) else "A1", "--fix")
     for f in sorted((ROOT / "verify/out").glob(f"{b}_*.tsv")):
         if log.exists() and any(f.stem.endswith(s) for s in ("makers", "maker_kinds", "scene_tags", "named_forms", "lines", "roster_only")):
             run(ROOT / "tools/drop_excerpt_sources.py", f, log)
