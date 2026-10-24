@@ -9,7 +9,7 @@ new_kind 9, covered 13, attribute 6, other_category 3, named_form 3.
   - **A5.5.1 Made for a watch.** A5.5.01–08 move in, ids unchanged (R-58). New: A5.5.1.01 Watch hands, .02 Watch crown, .03 Watch clasp or buckle, .04 Watch spring bar.
   - **A5.5.2 Made for a clock.** New: A5.5.2.01 Clock movement, .02 Clock hands, .03 Clock dial, .04 Clock pendulum, .05 Clock insert (fit-up).
   - **For the applier:** set the leaf of A5.5.01–08 to A5.5.1. The moves file cannot express this.
-  - Seven new kinds have shop URLs (ClockParts.com, Perrin, HoroParts). The clasp or buckle and the spring bar wait for HV_A5_NK.
+  - Seven have shop URLs; clasp or buckle and spring bar wait for HV_A5_NK.
 - **Complications are covered:** chronograph, GMT, perpetual calendar, minute repeater, tourbillon and moon phase are already kinds (A-23, memo §4b). Minute rattrapante falls under split-seconds. Tellurium is a complication attribute.
 - **Other calls:**
   - Clock kit: bundle variant of clock movement (C3).
@@ -21,13 +21,13 @@ new_kind 9, covered 13, attribute 6, other_category 3, named_form 3.
 - **to_line 7**, each a range of distinct models (R-70 a): Casio LTP, Prospex Marinemaster, Prospex Speedtimer, Tudor Oysterdate Chronograph, Longines Evidenza, WOLF Brogue, WOLF Earth.
 - **move_kind 1:** Sky-Dweller to A5.1.5.02, as the tree's precedence rule states.
 - **drop 1:** WOLF Den, a four-watch safe, belongs to B1.
-- **Kept:** G-SHOCK 5600 (one design), Andersen "Jumping Hours" (collection name), the calibres.
+- **Kept:** G-SHOCK 5600 (one design), Andersen "Jumping Hours", calibres.
 - **Note:** "Sport chain" is probably generic, not a Dueber model (maker_bound fix not expressible here).
 
 ## Task 3: navigation
 **Decision: scene-first.** Watches open on watch family, then house, then collection and model. Clocks and parts use shopper paths.
 
-**Reason.** The owner names watches as scene-driven, and R-116(b) agrees. In the data, all 47 wristwatch named forms have a maker and the lines are house collections; clocks and parts were harvested by type. Watch families stay display-only design_family and maker_class values (§14). The complication tree is the "what is it" tab.
+**Reason.** Owner (watches are scene-driven) and R-116(b). In the data, all 47 wristwatch named forms have a maker and the lines are house collections; clocks and parts were harvested by type. Families stay display-only design_family and maker_class values (§14); the complication tree is the "what is it" tab.
 
 **View sketch:**
 1. **Level 1:** Tool watches; Dress and classic; Haute horlogerie and complications; Independents and microbrands; Tough and digital; Fashion and jewellery; Vintage and pocket; Clocks; Timing instruments; Straps, winders and parts.
@@ -38,6 +38,4 @@ new_kind 9, covered 13, attribute 6, other_category 3, named_form 3.
 C2, C3, C5(b), (d), C11, C12(a), R-58, R-70(a), R-116(b), CV-17, tree precedence, memo §4b, §9.7, §10.
 
 ## † and provisional
-- The clock parts were † in the memo and now rest on fetched shop pages.
-- The clasp or buckle and the spring bar are unattested.
-- The clock calls are provisional (§14 flag 4).
+Clock parts († in the memo) now rest on fetched shop pages; clasp or buckle and spring bar are unattested; clock calls are provisional (§14 flag 4).

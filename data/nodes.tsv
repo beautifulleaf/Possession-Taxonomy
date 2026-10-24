@@ -852,3 +852,50 @@ B9.2.4	B9	leaf	B9.2	Lighters	Kind axis: ignition mechanism or use class. Display
 B9.2.5	B9	leaf	B9.2	Rolling & grinding	Kind axis: the object itself. Display group: Cigarettes and roll-your-own; the grinder in Cannabis and hemp.	18	from verify/out/TREE_B9.md		
 B9.2.6	B9	leaf	B9.2	Cutters, ashtrays & carry	Kind axis: the object itself. Display group: Lighters, cutters, ashtrays and cases; the cigar cutter, cigar case and travel humidor are also shown in Cigars and cigarillos.	19	from verify/out/TREE_B9.md		
 B9.3	B9	sub_family	B9	Parts and accessories made for one B9 object (no leaf)		20	from verify/out/TREE_B9.md		
+A5.5.1	A5	leaf	A5.5	Made for a watch		1	new leaf from DPW1_A5 (R-105)		
+A5.5.2	A5	leaf	A5.5	Made for a clock		2	new leaf from DPW1_A5 (R-105)		
+J1	J1	category				0	from verify/out/TREE_J1.md		
+J1.1	J1	sub_family	J1	Fresh & frozen meat	Leaf axis: the animal (raw muscle, bone, offal, mince and shaped raw mince, chilled or frozen). Offal sits under each animal (J-3). Kind: the animal and its named retail cut (J-1); a cut enters as a kind on one fetched page showing it sold. Order inside a leaf (memo section 8): whole-muscle steak and roast cuts front to back along the carcass, then kinds sold whole, then primals or sides, then mince, then shaped raw mince, then offal.	1	from verify/out/TREE_J1.md		
+J1.1.1	J1	leaf	J1.1	Beef		2	from verify/out/TREE_J1.md		
+J1.1.2	J1	leaf	J1.1	Veal		3	from verify/out/TREE_J1.md		
+J1.1.3	J1	leaf	J1.1	Pork		4	from verify/out/TREE_J1.md		
+J1.1.4	J1	leaf	J1.1	Lamb & mutton		5	from verify/out/TREE_J1.md		
+J1.1.5	J1	leaf	J1.1	Goat		6	from verify/out/TREE_J1.md		
+J1.1.6	J1	leaf	J1.1	Chicken		7	from verify/out/TREE_J1.md		
+J1.1.7	J1	leaf	J1.1	Turkey		8	from verify/out/TREE_J1.md		
+J1.1.8	J1	leaf	J1.1	Duck & goose		9	from verify/out/TREE_J1.md		
+J1.1.9	J1	leaf	J1.1	Game birds		10	from verify/out/TREE_J1.md		
+J1.1.10	J1	leaf	J1.1	Deer		11	from verify/out/TREE_J1.md		
+J1.1.11	J1	leaf	J1.1	Rabbit & hare		12	from verify/out/TREE_J1.md		
+J1.1.12	J1	leaf	J1.1	Wild boar		13	from verify/out/TREE_J1.md		
+J1.1.13	J1	leaf	J1.1	Horse		14	from verify/out/TREE_J1.md		
+J1.1.14	J1	leaf	J1.1	Other land animals		15	from verify/out/TREE_J1.md		
+J1.2	J1	sub_family	J1	Cured, smoked & dried whole-muscle meats	Leaf axis: cure class (raw-cured; cooked-cured; dried and jerked; cured fat; pickled and fermented). A whole muscle or piece cured, smoked, dried or pickled, raw or cured then cooked, sold as a piece or sliced. The sale name, seal colour and size of piece are attributes. Order inside a leaf: the canonical dry-cured ham first, then the other pieces front to back (jowl, neck, shoulder, loin, belly, then cured beef).	17	from verify/out/TREE_J1.md		
+J1.2.1	J1	leaf	J1.2	Raw-cured (dry-cured)		18	from verify/out/TREE_J1.md		
+J1.2.2	J1	leaf	J1.2	Cooked-cured		19	from verify/out/TREE_J1.md		
+J1.2.3	J1	leaf	J1.2	Dried & jerked		20	from verify/out/TREE_J1.md		
+J1.2.4	J1	leaf	J1.2	Cured fat		21	from verify/out/TREE_J1.md		
+J1.2.5	J1	leaf	J1.2	Pickled & fermented		22	from verify/out/TREE_J1.md		
+J1.3	J1	sub_family	J1	Sausages	Leaf axis: process class (fresh, to be cooked; dry-cured and fermented; scalded; cooked, liver and blood). Comminuted meat in a casing or formed as a sausage. Order: by process class, then the canonical form of the class first. Regional varieties (Cumberland, Milano, Toscana) are named forms.	24	from verify/out/TREE_J1.md		
+J1.3.1	J1	leaf	J1.3	Fresh, to be cooked		25	from verify/out/TREE_J1.md		
+J1.3.2	J1	leaf	J1.3	Dry-cured & fermented		26	from verify/out/TREE_J1.md		
+J1.3.3	J1	leaf	J1.3	Scalded		27	from verify/out/TREE_J1.md		
+J1.3.4	J1	leaf	J1.3	Cooked (liver, blood)		28	from verify/out/TREE_J1.md		
+J1.4	J1	sub_family	J1	Cooked, tinned & potted meats		30	from verify/out/TREE_J1.md		
+J6	J6	category				0	from verify/out/TREE_J6.md		
+J6.1	J6	sub_family	J6	Coffee		1	from verify/out/TREE_J6.md		
+J6.2	J6	sub_family	J6	Tea	Leaf axis: tea type by processing (ISO 20715), in order of oxidation: white, green, yellow, oolong, black, dark, then reprocessed. Inside a leaf with more than one kind, the kind axis is the process that defines the tea; region, cultivar, leaf grade and shop category are never the kind axis (J-15, review J6-6).	2	from verify/out/TREE_J6.md		
+J6.2.1	J6	leaf	J6.2	White tea		3	from verify/out/TREE_J6.md		
+J6.2.2	J6	leaf	J6.2	Green tea	Kind axis: the defining process (steaming, shading then steaming, pan-firing, roasting, grinding).	4	from verify/out/TREE_J6.md		
+J6.2.3	J6	leaf	J6.2	Yellow tea		5	from verify/out/TREE_J6.md		
+J6.2.4	J6	leaf	J6.2	Oolong tea		6	from verify/out/TREE_J6.md		
+J6.2.5	J6	leaf	J6.2	Black tea		7	from verify/out/TREE_J6.md		
+J6.2.6	J6	leaf	J6.2	Dark tea		8	from verify/out/TREE_J6.md		
+J6.2.7	J6	leaf	J6.2	Reprocessed tea		9	from verify/out/TREE_J6.md		
+J6.3	J6	sub_family	J6	Cocoa		10	from verify/out/TREE_J6.md		
+J6.4	J6	sub_family	J6	Herbal & other infusions	Leaf axis: plant part infused (not Camellia sinensis). Kind: the herb or plant (J-15); kinds alphabetical by English name inside a leaf (memo section 8). A blend with one plant at half its weight or more is filed under that plant's kind (K-46).	11	from verify/out/TREE_J6.md		
+J6.4.1	J6	leaf	J6.4	Leaves and herbs		12	from verify/out/TREE_J6.md		
+J6.4.2	J6	leaf	J6.4	Flowers		13	from verify/out/TREE_J6.md		
+J6.4.3	J6	leaf	J6.4	Fruits		14	from verify/out/TREE_J6.md		
+J6.4.4	J6	leaf	J6.4	Roots, bark and spice		15	from verify/out/TREE_J6.md		
+J6.4.5	J6	leaf	J6.4	Seeds and roasted grains		16	from verify/out/TREE_J6.md		

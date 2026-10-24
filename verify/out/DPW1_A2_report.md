@@ -12,19 +12,15 @@ covered 19, named_form 11, attribute 3, other_category 2, **new_kind 0** (no new
 - **Other category (E2).** Cycling overshoe and technical mountaineering boot, by the step-17 sport note.
 
 ## Task 2, named forms (14 of 295 flagged)
-- **move_kind 3.** The T-bar sandal and the Start-rite Sonnet go to Mary Jane (A2.2.3.03): the page describes a closed low-cut shoe. The Prince Albert slipper goes to A2.2.2.07, because "slipper" is the seller's word (R-64).
+- **move_kind 3.** The T-bar sandal and the Start-rite Sonnet go to Mary Jane (A2.2.3.03) (closed low-cut shoe). The Prince Albert slipper goes to A2.2.2.07, because "slipper" is the seller's word (R-64).
 - **drop 10.** The satin button spats are a material variant of the cotton pair (C3). Nine cycling overshoes go to E2. A2.6.01 stays attested through Tingley and Wikipedia.
 - **to_line 1.** Sperry Gold Cup becomes L-sperry-gold-cup.
-- No named form is really a maker.
+-
 
 ## Task 3, navigation
 **Main way in: by scene**, under the owner's rule (R-71) and memo section 14 flag 5.
 
-The data cannot carry a scene-first landing yet:
-- 133 of 534 A2 makers have scene tags, and 55 of the 142 makers that own named forms.
-- Nearly all tags come from clothing pages; only about 3 come from footwear pages.
-
-So flag 4 is not met. The pilot opens on the style tab, with the scene door beside it, until A2 makers carry tags from footwear pages.
+Data: 133 of 534 A2 makers have scene tags (55 of 142 named-form makers), nearly all from clothing pages, about 3 from footwear pages, so flag 4 is unmet. The pilot opens on the style tab, with the scene door beside it, until A2 makers carry tags from footwear pages.
 
 Sketch:
 1. **Scene door.** Clusters: Street, skate & surf; Tailoring & classic; Heritage & workwear; Subcultures & music; Outdoor & technical; Rider & military; Japanese street; Traditional dress. Then makers (core, then adjacent), then signature named forms. Example: Heritage → Red Wing → Iron Ranger.
