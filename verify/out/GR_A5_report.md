@@ -1,0 +1,5 @@
+GR_A5 report
+Splits: A5.1.1.01 Time-only watch -> A5.1.1.05 Pilot watch (Davosa "Automatic Pilots Watches", 18 products), A5.1.1.06 Field watch (Watchdives "Field & Military Watches", 20), A5.1.1.07 Dress watch (Trendhim "Men's Dress Watches", 19; Trendhim also lists Pilot/Military/Dive as sibling categories). Old kind displays as "Other time-only watches". Fetched 3 pages (verify/work/GR_A5/fetched.tsv).
+Named-form moves: Pilot's Watch Mark XV and Mark XII -> Pilot; Classique Souscription 2025 and Extra Plat Rose Gold -> Dress. No named form is plainly a field watch. Portugieser Automatic and other luxury time-only forms left in place as not plainly dress.
+Cards: CARD-A5-1 Watch straps and bracelets (A5.5.01; A5.5.02), based on the existing notes that Horoparts and Watchplaza list them together. This was not re-fetched; the author did not check it against a shop that sells them separately (Delugs lists rubber straps alone), so treat as the weakest call.
+Undecided: wall clock (digital/atomic/kitchen sub-types) and alarm clock not split, no fetched evidence gathered. Hunter/demi-hunter, sundial/garden sundial left separate (shops list them separately).

@@ -1,0 +1,4 @@
+GR_B2 report
+Splits: none. No B2 kind has products falling into several shop types that need separate kinds. Blackout, eyelet and pleat curtains are attributes of one Curtain listing; weighted blankets are already in H2; fitted/flat sheets are an attribute. Rugs, blinds, towels and covers are already split by shop type. No pages fetched for splits; kinds, nf_moves and new_display are header only.
+Cards: CARD-B2-1 "Towel" = Bath sheet, Bath towel, Hand towel, Washcloth (B2.6.01-04, shelf Towels & wraps). Checked via WebSearch results (John Lewis, Dunelm Egyptian cotton towel listings): one product with face cloth / hand / bath towel / bath sheet as size options. Beach towel, peshtemal and hair towel stay separate (own categories).
+Undecided: Pleated blind and Cellular shade (Make My Blinds groups them) not carded, as other shops list cellular separately.

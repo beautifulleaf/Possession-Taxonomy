@@ -1,0 +1,4 @@
+GR_B8 report
+Splits: Insect trap (B8.4.1.2) -> Wasp trap B8.4.1.06, Fruit fly trap B8.4.1.07, Clothes moth trap B8.4.1.08, Fly paper B8.4.1.09; old kind shown as "Other insect traps" (fly bags, UV glueboard traps). Shops fetched: pestfix.co.uk flying-insect-traps (full), pestcontrolsupplies.com insect-traps (full); terro.com failed (redirect). No named forms move (the two existing ones are UV glueboard fly killers, which stay).
+Cards: CARD-B8-1 Security camera = B8.1.6.1 + B8.1.6.2 (pan-tilt is an option on the same camera; not shop-checked, judged from the Tapo named forms).
+Not changed: gates (Home Depot and Wayfair keep pressure, hardware, retractable as separate pages); open/closed-shackle padlocks (evidence mixed, left separate). Undecided: mosquito trap (listed at Pest Control Supplies but not as its own category); fly bag trap.
