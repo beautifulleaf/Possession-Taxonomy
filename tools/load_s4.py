@@ -50,9 +50,18 @@ def remap(b):
             for r in rows: seen.setdefault(r[key], r)
             write_tsv(f, list(seen.values()), list(rows[0].keys())); print(f"{f.name}: {n} merged ids remapped")
 
+REVIEWED = ROOT / "verify/out/reviewed_batches.txt"  # batches whose reused maker ids were reviewed (R-106)
 for b in sys.argv[1:]:
     print(f"== {b}")
     remap(b)
+    if b.startswith(("MKH_", "HV_", "GD_", "SIG_", "REG_")) and (ROOT / f"verify/out/{b}_makers.tsv").exists():
+        chk = subprocess.run([sys.executable, str(ROOT / "tools/check_batch.py"), b, b.split("_")[1] if b.startswith(("MKH_", "HV_")) else "A1"],
+                             capture_output=True, text=True, cwd=ROOT / "tools").stdout
+        flagged = [l for l in chk.splitlines() if l.startswith("  M-")]
+        done = REVIEWED.exists() and b in REVIEWED.read_text().split()
+        if flagged and not done:
+            print(f"{b}: {len(flagged)} reused maker ids need review first (tools/check_batch.py {b}); after fixing with"
+                  f" tools/fix_batch_ids.py, add {b} to verify/out/reviewed_batches.txt"); continue
     log = ROOT / f"verify/work/{b}/fetched.tsv"
     for f in sorted((ROOT / "verify/out").glob(f"{b}_*.tsv")):
         if log.exists() and any(f.stem.endswith(s) for s in ("makers", "maker_kinds", "scene_tags", "named_forms", "lines", "roster_only")):
