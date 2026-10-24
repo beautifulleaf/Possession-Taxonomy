@@ -1,0 +1,9 @@
+# PF_7 report (D5, B3, C6)
+
+Platforms: 6 new rows in verify/out/PF_7_platforms.tsv (by type: console platform 3 [Meta Quest 3, Meta Quest 3S, PlayStation Portal], cap standard 1 [G24q], connector or port 2 [M27x0.75 and M25 objective threads]). All other targets were already in data/platforms.tsv.
+
+Compatibility: 129 rows in verify/out/PF_7_compatibility.tsv (relations: supports, fits, requires, adapts to through an adapter). Coverage: D5 controllers, arcade sticks, racing wheels, converters, dongles, docks, screen protectors, VR accessories and retro peripherals to consoles; B3 bulbs and strips to lamp caps and smart-home protocols; C6 eyepieces, Barlows, cameras, objectives, mounts and a wedge to barrel, thread, tube and dovetail standards. 2,228 model-depth forms exist; only the ones with a maker or retailer page showing the fit were done, so most remain without rows.
+
+Failed or weak pages (see verify/work/PF_7/fetched.tsv): ledvance/signify/philips datasheet PDFs (404/403 on both tools), Mayflash Magic-S Pro 2 (404), virginmegastore Hori SF6 stick (403, nav only), playstationdev.wiki PS2 network adaptor (403), edmundoptics UPLXAPO (403), nanoleaf SG (404), PowerA Portal screen kit (stub). Partial rows: Wikipedia accessory pages (tail unread), Ringke, Wingman FGC Retro (title not shown), Nanoleaf/Eve Thread (page-level statements), IKEA TRADFRI to DIRIGERA (hub sold separately only).
+
+Not attested (no row): Thrustmaster T98/T300/TS-XW, Moza R3 family, Thermaltake, Hori SF6, Mayflash F500/F700/Magic-S Pro 2, Qanba, Haute42, Osram G9, Philips White Filament G25, PL-C/PL-S/Dulux T (G24 not fetched), MR16 TruWave, Optolong/IDAS filters, Evident UPLSAPO/PLAPON/UAPON, microscope cameras from Euromex/Optika/Motic/Magus/ToupTek, most guide/planetary cameras. Moza R5 bundle is PC-only per FAQ (spec table conflicts), so no console row. Thrustmaster T248 (not T248R) page fetched at Adorama but T248R rows rest on the maker page.
