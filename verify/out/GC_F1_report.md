@@ -1,0 +1,3 @@
+GC_F1 report. Added: Atlas: F1.2.2.01; F1.2.2.02 (bound vs spiral-bound; differ by binding). Card rests on conditions 1 and 2 only: both fetches that could test atlases/collected volumes failed (403), so no shop evidence; case is plain.
+Shops checked: mapworld.com.au and replogleglobes.com (fetched); ebay and librarysupply (403).
+Left: desktop/floor/hanging globes (shops make desktop and floor separate categories); 7-inch vs 12-inch singles (shops separate them); collected softcover vs hardcover (shops split by format, enthusiasts choose); VHS family, film gauges, DVD/Blu-ray/UHD, cassette sizes (different formats needing different players); score kinds, hardback/paperback (deliberate format choices); slipcase vs book box (differ in form/use).
