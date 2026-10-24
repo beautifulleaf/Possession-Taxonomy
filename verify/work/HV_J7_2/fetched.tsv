@@ -3,7 +3,7 @@ https://www.bjcp.org/style/2021/beer	full	BJCP beer 34 categories; 1A American L
 https://www.legislation.gov.uk/uksi/2009/2890/regulation/3	full	Scotch single malt, single grain, blended malt, blended grain, blended definitions
 https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm	full	eight tokutei meisho classes incl junmai; no futsushu/nigori
 https://en.wikipedia.org/wiki/List_of_whisky_brands	full	whisky brands by type: bourbon, rye, corn, blended, single malt, pot still, Irish, Japanese, Scotch distilleries
-https://en.wikipedia.org/wiki/List_of_whisky_brands (offset 100000)	partial	tail of page: nav template naming liqueur brands Cointreau Grand Marnier Aperol Campari Jagermeister etc
+https://en.wikipedia.org/wiki/List_of_whisky_brands	partial	(offset 100000) tail of page: nav template naming liqueur brands Cointreau Grand Marnier Aperol Campari Jagermeister etc
 https://en.wikipedia.org/wiki/List_of_Cacha%C3%A7a_brands	full	cachaca brands (51, 61, Pitu, Ypioca, Sagatiba, Leblon, Avua, Novo Fogo) with states
 https://en.wikipedia.org/wiki/List_of_rum_brands	full	rum brands by country; Martinique agricole houses (J Bally, La Mauny, Neisson, Clement, Saint James), Mount Gay, Foursquare, Havana Club, Bacardi etc
 https://en.wikipedia.org/wiki/List_of_tequilas	full	~38 tequila brands (Jose Cuervo, Patron, Sauza, Herradura, Don Julio, Casamigos etc)
@@ -17,9 +17,9 @@ https://www.ishopchangi.com/en/category/wine-and-spirits/wine-spirits/baijiu	ful
 https://www.abc.virginia.gov/products/cans-and-hard-seltzers	failed	HTTP 403
 https://www.asiamarket.ie/drinks-bites/beverages/alcohol-drinks/price-5-40/brand-hakutsuru.html	failed	HTTP 403
 https://www.weee.com/en/grocery-near-me/lang-en/explore/makgeolli-rice-wine	partial	only DIY makgeolli kit and Shaoxing cooking wine; no finished makgeolli
-https://www.abc.virginia.gov/products/cans-and-hard-seltzers (parallel)	partial	Virginia ABC page: canned hard seltzers and premixed cocktails category; no brands
-https://www.masterofmalt.com/gin/shop-all-gin/ (parallel)	full	MoM gin: London Dry, Old Tom, Navy strength, Plymouth, sloe gin, cask aged; products Tanqueray No. Ten, Monkey 47, Gordon's, Roku, Bathtub, Hendrick's etc
-https://www.asiamarket.ie/drinks-bites/beverages/alcohol-drinks/price-5-40/brand-hakutsuru.html (parallel)	failed	HTTP 403
+https://www.abc.virginia.gov/products/cans-and-hard-seltzers	partial	(parallel) Virginia ABC page: canned hard seltzers and premixed cocktails category; no brands
+https://www.masterofmalt.com/gin/shop-all-gin/	full	(parallel) MoM gin: London Dry, Old Tom, Navy strength, Plymouth, sloe gin, cask aged; products Tanqueray No. Ten, Monkey 47, Gordon's, Roku, Bathtub, Hendrick's etc
+https://www.asiamarket.ie/drinks-bites/beverages/alcohol-drinks/price-5-40/brand-hakutsuru.html	failed	(parallel) HTTP 403
 https://www.masterofmalt.com/other-spirits/	failed	HTTP 429 (WebFetch)
 https://www.masterofmalt.com/country/dutch-spirit/	failed	HTTP 429 (WebFetch)
 https://www.masterofmalt.com/liqueurs/luxardo/luxardo-triplum-triple-sec-liqueur	failed	HTTP 429 (WebFetch)
@@ -28,3 +28,42 @@ https://www.masterofmalt.com/mezcal/enmascarado/enmascarado-45-mezcal/	failed	HT
 https://www.masterofmalt.com/whiskies/teeling/teeling-single-pot-still-whiskey	failed	HTTP 429 (WebFetch)
 https://www.masterofmalt.com/whiskies/kilbeggan/kilbeggan-rye-whisky	failed	HTTP 429 (WebFetch)
 https://www.cambridgewine.com/shop/products/spirits/liqueurs-and-aperitifs/page-2.html	full	Cambridge Wine liqueurs: Disaronno amaretto, Baileys cream liqueur, Campari amaro, Aperol, Chartreuse herbal, Chambord fruit, Limoncello, Wenneker triple sec/curacao
+https://www.masterofmalt.com/other-spirits/	full	(parallel) MoM other spirits A-Z: absinthe, armagnac, arrack, aquavit, baijiu, brandy, cachaca, calvados, grappa, liqueurs, mezcal, shochu, sotol, vodka; sake
+https://www.masterofmalt.com/country/dutch-spirit/	partial	(parallel) same other-spirits hub page
+https://www.masterofmalt.com/liqueurs/luxardo/luxardo-triplum-triple-sec-liqueur	full	(parallel) Luxardo Triplum Triple Sec, category Fruit Liqueurs, 39%
+https://www.masterofmalt.com/liqueurs/giffard/giffard-amaretto-liqueur	full	(parallel) Giffard Amaretto, category Nutty Liqueurs
+https://www.masterofmalt.com/mezcal/enmascarado/enmascarado-45-mezcal/	full	(parallel) Enmascarado 45 mezcal, category Mezcal, style Blanco
+https://www.masterofmalt.com/whiskies/teeling/teeling-single-pot-still-whiskey	full	(parallel) Teeling Single Pot Still, category Irish Single Pot Still Whiskey
+https://www.masterofmalt.com/whiskies/kilbeggan/kilbeggan-rye-whisky	full	(parallel) Kilbeggan Rye Whiskey (Irish), Rye Whiskey category
+https://www.masterofmalt.com/cachaca/	full	(parallel) MoM category page: cachaca/ (products, brands, filters)
+https://www.masterofmalt.com/vodka/	full	(parallel) MoM category page: vodka/ (products, brands, filters)
+https://www.masterofmalt.com/rum/	full	(parallel) MoM category page: rum/ (products, brands, filters)
+https://www.masterofmalt.com/sake/	full	(parallel) MoM category page: sake/ (products, brands, filters)
+https://www.masterofmalt.com/absinthe/	full	(parallel) MoM category page: absinthe/ (products, brands, filters)
+https://www.masterofmalt.com/baijiu/	full	(parallel) MoM category page: baijiu/ (products, brands, filters)
+https://www.masterofmalt.com/armagnac/	full	(parallel) MoM category page: armagnac/ (products, brands, filters)
+https://www.masterofmalt.com/Shochu/	full	(parallel) MoM category page: Shochu/ (products, brands, filters)
+https://www.masterofmalt.com/grappa/	full	(parallel) MoM category page: grappa/ (products, brands, filters)
+https://www.masterofmalt.com/arrack/	full	(parallel) MoM category page: arrack/ (products, brands, filters)
+https://www.masterofmalt.com/aquavit/	full	(parallel) MoM category page: aquavit/ (products, brands, filters)
+https://www.masterofmalt.com/mezcal/	full	(parallel) MoM category page: mezcal/ (products, brands, filters)
+https://www.masterofmalt.com/brandy/	full	(parallel) MoM category page brandy/
+https://www.masterofmalt.com/eaux-de-vie/	full	(parallel) MoM category page eaux-de-vie/
+https://www.masterofmalt.com/calvados/	full	(parallel) MoM category page calvados/
+https://www.masterofmalt.com/style/sloe-gin/	full	(parallel) MoM category page style/sloe-gin/
+https://www.masterofmalt.com/country-style/irish/single-pot-still-whiskey/	full	(parallel) MoM category page country-style/irish/single-pot-still-whiskey/
+https://www.masterofmalt.com/style/old-tom-gin/	full	(parallel) MoM category page style/old-tom-gin/
+https://www.masterofmalt.com/fruit-brandy/	full	(parallel) MoM category page fruit-brandy/
+https://www.masterofmalt.com/whisky/	full	(parallel) MoM category page whisky/
+https://www.masterofmalt.com/liqueurs/	full	(parallel) MoM category page liqueurs/
+https://www.masterofmalt.com/liqueurs/fruit-liqueurs/	full	(parallel) MoM category page liqueurs/fruit-liqueurs/
+https://www.masterofmalt.com/pisco/	full	(parallel) MoM category page pisco/
+https://www.masterofmalt.com/style/rhum-agricole/	full	(parallel) MoM category page style/rhum-agricole/
+https://pbis.instacart.com/categories/2-alcohol/91-wine/227-dessert-wine/232-mead	failed	HTTP 400 (parallel)
+https://www.totalwine.com/beer/cider/perry-pear-cider/c/001293 (parallel)	full	Total Wine Perry (Pear Cider) type: Ace Cider, Rekorderlig, Wyder's
+https://www.danmurphys.com.au/cider/variety-pear-cider (parallel)	full	Dan Murphys pear cider/perry: Kopparberg, Strongbow, Somersby
+https://shop.takarasake.com/products/nigori-silky-mild (parallel)	full	Takara Sho Chiku Bai Nigori Silky Mild, nigori sake type, brewed Berkeley CA
+https://www.slowood.hk/products/umeshu-classic-rice-wine-based-100ml (parallel)	full	TinShing Umeshu Classic rice-wine-based plum wine (infused rice wine), Hong Kong
+https://www.thewinereserve.co.uk/spirits/whiskies (parallel)	full	Wine Reserve whisky: single malt (Amrut Fusion, Nc'nean, Torabhaig), blended malt (Mossburn, Caisteal Chamuis), rye (Michters US No.1, Rittenhouse BIB), bourbon (Noahs Mill, Rowans Creek)
+https://en.wikipedia.org/wiki/Shaoxing_wine (parallel)	full	huangjiu Shaoxing: producers Gu Yue Long Shan, Kuai Ji Shan, Nu Er Hong; classes Yuanhong, Jiafan, Huadiao
+https://www.schrammsmead.com/what-is-mead-a-beginners-guide/	failed	HTTP 404 (parallel)
