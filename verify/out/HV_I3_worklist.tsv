@@ -1,0 +1,46 @@
+kind_id	sub_family	leaf	name	definition	dagger
+I3.1.1.01	I3.1	I3.1.1	Music streaming subscription	plan giving on-demand access to a library of recorded music.	
+I3.1.1.02	I3.1	I3.1.1	Satellite and internet radio subscription	paid subscription to a network of radio channels received by satellite or over the internet.	yes
+I3.1.2.01	I3.1	I3.1.2	Audiobook catalogue subscription	plan giving access to a catalogue of audiobooks to listen to while subscribed (credits it renews are a plan attribute; titles bought with them are I2).	
+I3.1.2.02	I3.1	I3.1.2	Paid podcast subscription	paid plan giving access to one or more podcasts' paid episodes or feeds.	yes
+I3.1.3.01	I3.1	I3.1.3	On-demand streaming video subscription	plan giving on-demand access to a streamed library of film, series or sport (SVOD, OTT; a live-sport service is here).	
+I3.1.3.02	I3.1	I3.1.3	Live-TV streaming bundle	plan streaming a bundle of linear TV channels over the internet (vMVPD).	yes
+I3.1.3.03	I3.1	I3.1.3	Pay-TV package (cable, satellite, IPTV)	subscription package of TV channels delivered by cable, satellite or IPTV, unless named for the line.	yes
+I3.1.4.01	I3.1	I3.1.4	Newspaper subscription (one title)	subscription to one newspaper title, delivered in print, digitally or both.	yes
+I3.1.4.02	I3.1	I3.1.4	Magazine subscription (one title)	subscription to one magazine title, delivered in print, digitally or both.	yes
+I3.1.4.03	I3.1	I3.1.4	News and magazine library subscription (many titles)	plan giving access to a library of many newspaper and magazine titles.	
+I3.1.4.04	I3.1	I3.1.4	E-book library subscription	plan giving access to a library of e-books to read while subscribed.	
+I3.1.5.01	I3.1	I3.1.5	Comic and manga library subscription	plan giving access to a library of comics or manga to read while subscribed.	yes
+I3.1.6.01	I3.1	I3.1.6	Recorded class subscription	plan giving access to a library of recorded or streamed lessons, sessions or classes to watch or listen to (the subject divides nothing, I-20).	
+I3.1.7.01	I3.1	I3.1.7	Game subscription (catalogue, online play, cloud)	plan giving access to a catalogue of games, online play or cloud play on a platform or store.	
+I3.1.7.02	I3.1	I3.1.7	Single-game subscription	subscription required or sold to play one game.	
+I3.1.7.03	I3.1	I3.1.7	In-game season or battle pass	pass bought for a season of one game that unlocks its reward track.	
+I3.1.8.01	I3.1	I3.1.8	Asset-library subscription	plan giving access to a library of images, video, sounds, fonts or templates for making work (each asset licensed under it is I2).	yes
+I3.1.9.01	I3.1	I3.1.9	Multi-service bundle	one plan bundling several subscription services, filed here when named for none of its components.	
+I3.1.9.02	I3.1	I3.1.9	Creator membership	paid membership giving one creator's paid posts, channel or feed, whatever the medium (a free follow is OUT).	yes
+I3.2.01	I3.2		Cloud storage and sync plan	plan giving online storage for the user's files, with sync between devices.	
+I3.2.02	I3.2		Online backup plan	plan keeping the user's backup on the provider's servers, even with its own client program.	yes
+I3.2.03	I3.2		Email service	mailbox and address service, free or paid (a program used only to read and send mail is I1).	yes
+I3.2.04	I3.2		Messaging, calling and video-conferencing service	service for sending messages and making voice or video calls and meetings over the internet.	yes
+I3.2.05	I3.2		Maps and navigation service	online map and route-finding service, free or paid.	yes
+I3.2.06	I3.2		Personal hosting plan (web hosting, game server)	plan renting server space for a personal website or game server (hosting sold as business infrastructure is not filed).	yes
+I3.3.01	I3.3		Mobile phone plan (Handytarif)	mobile plan for calls, texts and data on a SIM or eSIM, contract or prepaid, with or without a handset (the handset is its own object).	
+I3.3.02	I3.3		Mobile data plan (data-only SIM, dongle, router)	mobile plan giving data only, for a data SIM, dongle or mobile router.	
+I3.3.03	I3.3		Fixed-line broadband plan	home internet plan over a fixed line (fibre, copper or cable as `technology`).	
+I3.3.04	I3.3		Satellite internet plan	home internet plan delivered by satellite through a dish.	yes
+I3.3.05	I3.3		Home phone line plan	plan for a fixed home telephone line.	yes
+I3.3.06	I3.3		Bundled connectivity package (phone, internet, TV) (Kombi-Tarif)	one plan bundling a connection with phone or TV, named and sold for the line.	yes
+I3.3.07	I3.3		Renewing travel eSIM plan	travel data plan on an eSIM that renews each period (one-off packs are OUT).	yes
+I3.4.1.01	I3.4	I3.4.1	Facility membership	membership of one operator's facility or facilities (gym, pool, sports centre, climbing wall).	yes
+I3.4.1.02	I3.4	I3.4.1	Members' club	membership of a club joined to take part in its activity (sports, social or hobby).	yes
+I3.4.1.03	I3.4	I3.4.1	Multi-studio class pass	pass giving bookings at classes across many studios, often paid in renewing credits (`credits_per_period` a plan attribute).	
+I3.4.2.01	I3.4	I3.4.2	Multi-site membership	membership giving entry to one body's network of sites.	
+I3.4.2.02	I3.4	I3.4.2	Multi-venue pass scheme	pass giving entry to many bodies' venues under one scheme.	
+I3.4.2.03	I3.4	I3.4.2	Single-venue annual pass	annual pass or membership for one museum, zoo, garden, aquarium or theme park.	yes
+I3.4.3.01	I3.4	I3.4.3	Period transit pass (定期券)	pass for travel on a network or route valid for a period or a number of journeys (alias: season ticket, UK rail).	
+I3.4.3.02	I3.4	I3.4.3	Car-sharing membership	membership giving access to a shared vehicle fleet (trips, hire fees and fuel are one-off services, OUT).	yes
+I3.4.4.01	I3.4	I3.4.4	Season ticket (venue, club or event series)	ticket giving entry to a season or series of events at a venue or of a club.	yes
+I3.5.01	I3.5		Provider-curated box	recurring delivery whose contents the provider picks, including a merchant's case plan.	
+I3.5.02	I3.5		Member-selected menu plan	recurring delivery whose contents the member picks from the provider's menu (meal kits, coffee, books).	
+I3.5.03	I3.5		Producer allocation club	a producer's own club that allocates its own goods to members on a schedule.	
+I3.5.04	I3.5		Goods rental subscription	subscription lending goods to be used and returned (clothes, furniture, toys, instruments, art; the rented goods are not owned and not filed).	yes

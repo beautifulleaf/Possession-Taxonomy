@@ -25,7 +25,7 @@ New kinds (R-58 ids):
 
 The seven failed tree kinds are all kept and go to HV_J7_NK: maize beer, strong cider, palm wine, futsūshu, cheongju, blended grain whisky and mixed spirits. None is merged.
 
-Source URLs: the 27 kinds that have a harvester URL load at once under apply_dp. These are radler, sotol, absinthe, gin, spiced rum, flavoured vodka, nut liqueur, the two meads and the 17 BJCP beer styles. The other 15 new kinds have no URL and go to HV_J7_NK.
+Source URLs: the 26 kinds that have a harvester URL load at once under apply_dp. These are radler, sotol, absinthe, gin, spiced rum, flavoured vodka, nut liqueur, the two meads and the 17 BJCP beer styles. The other 16 new kinds have no URL and go to HV_J7_NK.
 
 Edits that follow:
 - J7.5.9.01 drops "absinthe" from its examples.
