@@ -10,11 +10,14 @@ from collections import defaultdict
 from common import ROOT, read_tsv
 from regions import REGIONS, REGION_OF
 
-CODES = sys.argv[1:] or ["A1", "D1", "B10", "B3", "C6", "D5", "I1", "J2", "J3", "J4"]
+CODES = sys.argv[1:] or ["A1", "A2", "A3", "A4", "A5", "D1", "B10", "B3", "B9", "C6", "D5", "E3", "H1", "I1", "J2", "J3",
+                          "J4", "J7"]  # wave 2 added in session 7 (R-121)
 OUT = ROOT / "pages" / "pilot.html"
 NAMES = {"A1": "Clothing", "D1": "Computers & Components", "B10": "Animal Equipment", "B3": "Lighting",
          "C6": "Optical & Scientific Instruments", "D5": "Video Games", "I1": "Software", "J2": "Fish & Seafood",
-         "J3": "Dairy, Eggs & Alternatives", "J4": "Fruit & Vegetables"}
+         "J3": "Dairy, Eggs & Alternatives", "J4": "Fruit & Vegetables", "A2": "Footwear", "A3": "Jewellery",
+         "A4": "Bags, Luggage & Carried Accessories", "A5": "Watches & Clocks", "B9": "Smoking & Tobacco",
+         "E3": "Musical Instruments & Audio Gear", "H1": "Cosmetics, Fragrance & Grooming", "J7": "Wine, Beer & Spirits"}
 # the main way in per category (R-71, R-104; owner 2026-10-24: by object type, by genre where scenes exist, never by country)
 WAY_IN = {"A1": ["Which scene?", "Which brand?", "Which signature piece?"],
           "D1": ["What are you building or buying?", "Which part or device?", "Which model?"],
@@ -25,7 +28,15 @@ WAY_IN = {"A1": ["Which scene?", "Which brand?", "Which signature piece?"],
           "I1": ["What do you want to do?", "Which tool?", "Which product?"],
           "J2": ["How is it sold?", "Which animal?", "Which origin and grade?"],
           "J3": ["What are you buying?", "Which type?", "Which origin, breed and grade?"],
-          "J4": ["What are you buying?", "Which produce?", "Which variety, origin and grade?"]}
+          "J4": ["What are you buying?", "Which produce?", "Which variety, origin and grade?"],
+          "A2": ["Which scene?", "Which brand?", "Which shoe?"],
+          "A3": ["Which piece?", "Which house or maker?", "Which design?"],
+          "A4": ["Which bag or carry item?", "Which house?", "Which model?"],
+          "A5": ["Which watch family?", "Which house?", "Which model?"],
+          "B9": ["What do you smoke or use?", "Which type?", "Which house or blend?"],
+          "E3": ["Which instrument or gear?", "Which type?", "Which maker and model?"],
+          "H1": ["What is it for?", "Which product type?", "Which brand?"],
+          "J7": ["Which drink?", "Which style or designation?", "Which producer?"]}
 # groceries: origin and grade replace the maker step (owner, 2026-10-24; R-109 d, R-112)
 
 def srcs(r):
@@ -135,13 +146,15 @@ def main():
     for m in rd("markers"):
         data["markers"][m["code"]].append({"group": m["group_id"], "marker": m["marker"], "values": m["values"], "why": m["why"]})
     data["coverage"] = coverage()
-    blob = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    makers = data.pop("makers")  # makers ship in their own file: one file stays under the 16 MB publish limit (session 7)
     OUT.parent.mkdir(exist_ok=True)
-    dp = OUT.with_name("pilot-data.json"); tmpd = dp.with_suffix(".tmp"); tmpd.write_text(blob, encoding="utf-8"); tmpd.replace(dp)
+    for name, obj in (("pilot-data.json", data), ("pilot-makers.json", makers)):
+        dp = OUT.with_name(name); tmpd = dp.with_suffix(".tmp")
+        tmpd.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"); tmpd.replace(dp)
     page = TEMPLATE  # the data ships beside the page as pilot-data.json (published with it), so the page itself stays small
     tmp = OUT.with_suffix(".tmp"); tmp.write_text(page, encoding="utf-8"); tmp.replace(OUT)
-    print(OUT, round(OUT.stat().st_size / 1024), "KB page +", round(len(blob.encode()) / 1024), "KB data;", len(kinds), "kinds,", len(nfs), "named forms,", len(lines), "lines,",
-          len(data["makers"]), "makers linked")
+    print(OUT, round(OUT.stat().st_size / 1024), "KB page +", round(sum(OUT.with_name(n).stat().st_size for n in ("pilot-data.json", "pilot-makers.json")) / 1024), "KB data;", len(kinds), "kinds,", len(nfs), "named forms,", len(lines), "lines,",
+          len(makers), "makers linked")
 
 def coverage(code="A1"):
     """Per region and country: brands, actual share, expected share, ratio (tools/coverage.py writes the table)."""
@@ -281,13 +294,13 @@ details.brand.core { border-left: 3px solid var(--accent); }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 </style>
 <header class="bar"><div class="bar-inner">
-<div class="brand">Possession Taxonomy<small>Stage 3 · ten categories, harvested data</small></div>
+<div class="brand">Possession Taxonomy<small>Stage 3 · eighteen categories, harvested data</small></div>
 <div class="tabs" role="tablist" id="tabs"></div>
 <input class="search" id="q" type="search" placeholder="Filter kinds, models, makers" aria-label="Filter kinds, models and makers">
 </div></header>
 <div class="wrap"><nav class="rail" aria-label="Sub-families" id="rail"></nav><main id="main"><p class="note">Loading the taxonomy data…</p></main></div>
 <script>
-fetch('pilot-data.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(start).catch(e => {
+Promise.all(['pilot-data.json', 'pilot-makers.json'].map(u => fetch(u).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }))).then(([d, m]) => { d.makers = m; return d; }).then(start).catch(e => {
   document.getElementById('main').textContent = 'The data file did not load (' + e.message + '). Reload the page to try again.';
 });
 function start(D) {
