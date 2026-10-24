@@ -1,0 +1,11 @@
+# QS_W2_6 report (Allure Best of Beauty 2026, hair care, H1)
+Source: allure.com hair-care page, fetched via Parallel only (WebFetch blocked); 15 excerpt-mode calls logged in verify/work/QS_W2_6/fetched.tsv, all partial. Page headings: Shampoo & Conditioners, Hair Treatments, Scalp Scrubs, Scalp Treatment, Leave-In Conditioners, Detangler, Hair Mask, Hair-Styling Products, At-Home Hair Color & Dye. Full content came back empty; each call returned 1-3 fragments.
+Scheme: reused SCH-allure-best-of-beauty (2026, 2029-12-31, 2026-09-17, no schemes file).
+Rows: tier_entries 11, named_forms 11, maker_kinds 11, makers 6 new (Rizos Curls, Dae, eSalon, Madison Reed, Overtone, &honey; country not stated). Reused makers: Dr. Groot, Olaplex, OUAI, Pureology, Wella Professionals.
+By kind: shampoo 2 (H1.3.1.01), hair mask 2 (H1.3.1.03), hair oil 1 (H1.3.1.04), hair dye 3 (H1.3.2.01), heat protectant 1 (H1.3.3.02), styling cream 2 (H1.3.3.03).
+Already in QS_W2_2 and not repeated: Biolage, Nécessaire, Tresemmé. Olaplex duo had been skipped there as garbled; now written with full name.
+Judgement: Dae Cactus Fruit and &honey Deep Moist Hair Oil are product headings under Hair-Styling Products, not labelled with a Best title (value = heading). Overtone depositing mask placed as hair dye (page says semipermanent dye).
+Skips (no kind; missing kind?): leave-in conditioner (Davines Love Smoothing Lightweight Milk, Pattern Repair360 Leave-In Foam), detangler (Cécred Detangling Spray), scalp scrub (Rōz Salt Scalp Scrub), scalp treatment (Ref AHA Scalp Detox), minoxidil foam (Women's Rogaine 5%, a drug), mousse (Chris McMillan The Mousse, Lottabody Wrap Me), curl gel (Pattern Palo Santo), dry shampoo (Fenty Hair Imposter), texturizer/salt spray (Framesi For-Me Salt Spray 223), volume spray (LolaVie Peptide Plumping), air-dry styler (Odele). 13 skips.
+Not reached (page gave no more): Best Hair Treatments beyond Rogaine, other Hair Mask, Fine-hair leave-in, most Best Shampoo subcategories (dry, scalp, clarifying), hair tools (none surfaced; Allure hair tools likely on another page).
+Scheme kinds_served needs adding: H1.3.1.01 H1.3.1.03 H1.3.1.04 H1.3.2.01 H1.3.3.02 H1.3.3.03.
+Helper: verify/work/QS_W2_6/fetched.tsv. Outputs: verify/out/QS_W2_6_{named_forms,tier_entries,makers,maker_kinds}.tsv.
