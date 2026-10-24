@@ -680,7 +680,7 @@ B3.1.4.02	Post light	mast light		RD_B3
 B3.1.4.03	Spike light	ground-spike light		RD_B3
 B3.1.4.04	Plinth light		Small outdoor or step light set into a surface or low base to light a step, edge or wall.	RD_B3
 B3.1.4.05	Floodlight	security floodlight · searchlight		RD_B3
-B3.1.5.01	Stage light	stage lighting fixture	Light rigged on a truss, bar or stand to light a stage or event.	RD_B3
+B3.1.5.01	Other stage lights	stage lighting fixture	Light rigged on a truss, bar or stand to light a stage or event.	RD_B3
 B3.2.1.01	Table lamp		Lamp with a base and a fixed shade or head that stands on a table. Oil, gas and candle table lamps are table lamps too.	RD_B3
 B3.2.1.02	Desk lamp	clip-on desk lamp	Lamp with an adjustable arm or head made for task light, standing or clamped on. A clip-on desk lamp is a desk lamp.	RD_B3
 B3.2.1.03	Night light		Small low-output lamp that plugs in or stands to give dim light overnight, including those made for babies.	RD_B3
@@ -916,7 +916,7 @@ B10.1.1.02	Wet dog food			RD_B10
 B10.1.1.03	Fresh or frozen dog food			RD_B10
 B10.1.1.04	Freeze-dried or air-dried dog food			RD_B10
 B10.1.1.05	Veterinary dog food			RD_B10
-B10.1.1.06	Dog treat			RD_B10
+B10.1.1.06	Other dog treats			RD_B10
 B10.1.2.01	Dog crate			RD_B10
 B10.1.2.02	Dog kennel			RD_B10
 B10.1.3.01	Dog bed			RD_B10
@@ -924,7 +924,7 @@ B10.1.4.01	Dog collar			RD_B10
 B10.1.4.02	Dog lead			RD_B10
 B10.1.4.03	Dog harness			RD_B10
 B10.1.5.01	Dog coat			RD_B10
-B10.1.6.01	Dog toy			RD_B10
+B10.1.6.01	Dog chew toys and other toys			RD_B10
 B10.1.6.02	Dog agility equipment			RD_B10
 B10.2.1.01	Dry cat food	kibble		RD_B10
 B10.2.2.01	Cat tree			RD_B10
@@ -954,7 +954,7 @@ B10.5.3.05	Under-gravel filter			RD_B10
 B10.5.3.06	Aquarium heater			RD_B10
 B10.5.3.07	Aquarium light			RD_B10
 B10.5.4.01	Aquarium substrate			RD_B10
-B10.5.4.02	Aquarium decoration			RD_B10
+B10.5.4.02	Other aquarium decoration			RD_B10
 B10.5.5.01	Water test kit			RD_B10
 B10.6.1.01	Reptile food			RD_B10
 B10.6.1.02	Frozen feeder animal		A dead frozen animal sold as food for reptiles; live feeders are not included.	RD_B10
@@ -2033,7 +2033,7 @@ A1.4.3.04	Hi-vis vest			RD_A1
 A1.4.3.05	Life jacket			RD_A1
 A1.4.4.01	Poncho			RD_A1
 A1.4.4.02	Cape	cloak		RD_A1
-A1.5.1.01	Underwear			RD_A1
+A1.5.1.01	Other underwear			RD_A1
 A1.5.1.02	Thermal base layer			RD_A1
 A1.5.1.03	Corset	foundation garment		RD_A1
 A1.5.2.01	Socks			RD_A1
@@ -2050,18 +2050,18 @@ A1.5.4.01	Swimsuit			RD_A1
 A1.5.4.02	Bikini			RD_A1
 A1.5.4.03	Swim trunks			RD_A1
 A1.5.4.04	Beach cover-up			RD_A1
-A1.6.05	Motorcycle helmet			RD_A1
+A1.6.05	Other motorcycle helmets			RD_A1
 A1.6.06	Cycling helmet			RD_A1
 A1.6.04	Hard hat			RD_A1
 A1.6.07	Welding helmet			RD_A1
 A1.6.08	Bee veil			RD_A1
-A1.6.01	Cap			RD_A1
+A1.6.01	Other caps			RD_A1
 A1.6.02	Beanie			RD_A1
 A1.6.09	Safety glasses			RD_A1
 A1.6.10	Ear defenders			RD_A1
 A1.6.11	Respirator			RD_A1
 A1.6.12	Medical face mask	surgical face mask		RD_A1
-A1.6.03	Hat			RD_A1
+A1.6.03	Other hats			RD_A1
 A1.7.01	Scarf			RD_A1
 A1.7.02	Tie	necktie		RD_A1
 A1.7.03	Arm sleeve		Tube of fabric worn over the forearm or arm; one made for a sport is in Sports, Fitness & Recreation.	RD_A1
@@ -6508,3 +6508,37 @@ B9.1.11.07	Chocolate	Chocolate bars	Infused chocolate bars, bites and pieces.	GR
 C2.3.5.03	Slate chippings		Crushed slate in bags as decorative ground cover.	GR_C2
 C2.3.5.04	Decorative pebbles	cobbles	Rounded stones in bags as decorative ground cover.	GR_C2
 C2.3.5.05	Garden gravel	stone chippings	Gravel and stone chippings in bags for paths, drives and borders.	GR_C2
+A1.5.1.06	Bra		Supportive undergarment worn over the breasts, with cups, straps and a band; wired, wireless, T-shirt, push-up and strapless are types.	GR_A1
+A1.5.1.07	Panties	briefs · knickers	Women's underpants covering the hips and crotch, in brief, thong, bikini and high-leg cuts; sold apart from bras.	GR_A1
+A1.5.1.08	Boxers and trunks	boxer briefs	Men's underpants with short or long legs covering the hips and upper thigh: boxer briefs, trunks and loose boxer shorts.	GR_A1
+A1.6.18	Fedora	trilby	Brimmed felt or straw hat with a teardrop or pinched crown and a medium to wide brim, including the trilby.	GR_A1
+A1.6.19	Bucket hat	fisherman hat	Soft brimmed hat with a downward-sloping all-round brim and a crown that is not shaped, of cotton, canvas or similar.	GR_A1
+A1.6.20	Baseball cap	snapback · trucker cap	Cap with a rounded crown and a curved or flat peak, adjustable or fitted, in the baseball pattern.	GR_A1
+A1.6.21	Flat cap	newsboy cap · ivy cap	Soft cap with a rounded crown stitched to a short stiff front brim, as in the newsboy, ivy and pub cap.	GR_A1
+A1.6.22	Full-face helmet		Motorcycle helmet with a fixed chin bar enclosing the whole head and face.	GR_A1
+A1.6.23	Modular helmet	flip-up helmet · system helmet	Motorcycle helmet whose chin bar and visor hinge upward (flip-up, system helmet).	GR_A1
+A1.6.24	Open-face helmet	three-quarter helmet	Motorcycle helmet with no chin bar, covering the crown and sides of the head (open face, three-quarter).	GR_A1
+A3.2.1.05	Huggie earring	Huggies	Small hoop that hugs the lobe.	GR_A3
+A3.2.1.06	Threader earring		Fine chain threaded through the lobe.	GR_A3
+A3.2.1.07	Chandelier earring		Tiered ornate drop earring.	GR_A3
+A3.1.3.03	Hair comb		Decorative comb pushed into the hair.	GR_A3
+A3.6.1.06	Wedding band	Wedding ring	Ring sold as a wedding or anniversary band.	GR_A3
+B10.1.6.03	Plush dog toys	stuffed toys	Soft stuffed toys for dogs, often with squeakers.	GR_B10
+B10.1.6.04	Dog rope and tug toys		Rope, ring and woven toys for tugging and chewing.	GR_B10
+B10.1.6.05	Dog fetch toys	balls	Balls, flyers and sticks to throw for a dog.	GR_B10
+B10.1.6.06	Dog puzzle toys	treat-dispensing toys	Interactive toys a dog works at to release food.	GR_B10
+B10.1.1.07	Dog dental chews		Chews and treats made to clean a dog's teeth.	GR_B10
+B10.1.1.08	Dog training treats		Small treats to reward a dog during training.	GR_B10
+B10.1.1.09	Dog bones, bully sticks and rawhide	chews	Long-lasting bone, bully stick and rawhide chews.	GR_B10
+B10.1.1.10	Dog jerky treats		Dried strips of meat sold as dog treats.	GR_B10
+B10.1.1.11	Dog biscuits and cookies	bakery treats	Baked biscuits and cookies for dogs.	GR_B10
+B10.5.4.03	Artificial aquarium plants	plastic plants	Plastic or silk plants for a tank.	GR_B10
+B10.5.4.04	Aquarium bogwood	driftwood	Bog wood and roots for a tank.	GR_B10
+B10.5.4.05	Aquarium rocks and pebbles		Decorative rock and pebbles for a tank.	GR_B10
+B10.5.4.06	Aquarium ornaments		Themed figures and ruins for a tank.	GR_B10
+B10.5.4.07	Aquarium backgrounds	backdrops	Posters and backdrops fixed to a tank.	GR_B10
+B3.1.5.02	Ellipsoidal spotlight	profile spot · leko	Fixed stage light with a lens tube and shutters for a sharp, shapeable beam.	GR_B3
+B3.1.5.03	Fresnel stage light		Fixed stage light with a stepped lens giving a soft-edged wash.	GR_B3
+B3.1.5.04	PAR can	par light	Fixed stage light with a parabolic reflector giving a broad wash, in lamp and LED versions.	GR_B3
+B3.1.5.05	Moving head light	moving light · intelligent light	Motorised stage light that pans and tilts under DMX control, in spot, wash and beam versions.	GR_B3
+B3.1.5.06	Followspot	follow spot	Large spotlight aimed by an operator to follow a performer.	GR_B3
