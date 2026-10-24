@@ -292,3 +292,27 @@ CP-port-displayport-2-1-port-usb-c	PF-port-displayport-2-1	supports	PF-port-usb-
 CP-port-12v-2x6-port-12vhpwr	PF-port-12v-2x6	backward compatible with	PF-port-12vhpwr	https://en.wikipedia.org/wiki/16-pin_12VHPWR_connector	full
 CP-form-atx-3-1-port-12v-2x6	PF-form-atx-3-1	requires	PF-port-12v-2x6	https://en.wikipedia.org/wiki/16-pin_12VHPWR_connector	full
 CP-form-atx-3-0-port-12vhpwr	PF-form-atx-3-0	requires	PF-port-12vhpwr	https://en.wikipedia.org/wiki/16-pin_12VHPWR_connector	full
+CP-I1.5.03-004-os-android	NF-I1.5.03-004	supports	PF-os-android	https://en.wikipedia.org/wiki/Google_Play_Books	partial
+CP-I1.5.03-004-os-ios	NF-I1.5.03-004	supports	PF-os-ios	https://en.wikipedia.org/wiki/Google_Play_Books	partial
+CP-I1.5.03-004-os-ipados	NF-I1.5.03-004	supports	PF-os-ipados	https://en.wikipedia.org/wiki/Google_Play_Books	partial
+CP-I1.5.03-003-os-android	NF-I1.5.03-003	supports	PF-os-android	https://en.wikipedia.org/wiki/FBReader	partial
+CP-I1.5.03-003-os-macos	NF-I1.5.03-003	supports	PF-os-macos	https://en.wikipedia.org/wiki/FBReader	partial
+CP-store-google-play-os-android	PF-store-google-play	supports	PF-os-android	https://en.wikipedia.org/wiki/Google_Play	partial
+CP-store-google-play-os-chromeos	PF-store-google-play	supports	PF-os-chromeos	https://en.wikipedia.org/wiki/Google_Play	partial
+CP-store-apple-app-store-os-ios	PF-store-apple-app-store	supports	PF-os-ios	https://en.wikipedia.org/wiki/App_Store_(Apple)	partial
+CP-store-apple-app-store-os-ipados	PF-store-apple-app-store	supports	PF-os-ipados	https://en.wikipedia.org/wiki/App_Store_(Apple)	partial
+CP-store-apple-app-store-os-macos	PF-store-apple-app-store	supports	PF-os-macos	https://en.wikipedia.org/wiki/App_Store_(Apple)	partial
+CP-store-mac-app-store-os-macos	PF-store-mac-app-store	supports	PF-os-macos	https://en.wikipedia.org/wiki/App_Store_(Mac_OS)	partial
+CP-store-microsoft-store-os-windows-10	PF-store-microsoft-store	supports	PF-os-windows-10	https://en.wikipedia.org/wiki/Microsoft_Store	partial
+CP-store-microsoft-store-os-windows-11	PF-store-microsoft-store	supports	PF-os-windows-11	https://en.wikipedia.org/wiki/Microsoft_Store	partial
+CP-store-huawei-appgallery-os-harmonyos	PF-store-huawei-appgallery	supports	PF-os-harmonyos	https://en.wikipedia.org/wiki/Huawei_AppGallery	partial
+CP-store-f-droid-os-android	PF-store-f-droid	supports	PF-os-android	https://en.wikipedia.org/wiki/F-Droid	partial
+CP-store-steam-os-windows-10	PF-store-steam	supports	PF-os-windows-10	https://en.wikipedia.org/wiki/Steam_(service)	partial
+CP-store-steam-os-windows-11	PF-store-steam	supports	PF-os-windows-11	https://en.wikipedia.org/wiki/Steam_(service)	partial
+CP-store-steam-os-macos	PF-store-steam	supports	PF-os-macos	https://en.wikipedia.org/wiki/Steam_(service)	partial
+CP-B9.2.3.04-001-cart-iqos-iluma	NF-B9.2.3.04-001	requires	PF-cart-iqos-iluma	https://www.iqos.com/gb/en/discover-heated-tobacco/iluma.html	full
+CP-B9.2.3.04-002-cart-iqos-iluma	NF-B9.2.3.04-002	requires	PF-cart-iqos-iluma	https://www.iqos.com/gb/en/discover-heated-tobacco/iluma.html	full
+CP-B9.2.3.04-003-cart-iqos-iluma	NF-B9.2.3.04-003	requires	PF-cart-iqos-iluma	https://www.iqos.com/gb/en/discover-heated-tobacco/iluma.html	full
+CP-B9.1.7.01-001-cart-iqos-iluma	NF-B9.1.7.01-001	fits	PF-cart-iqos-iluma	https://www.iqos.com/gb/en/discover-heated-tobacco/iluma.html	full
+CP-B9.1.7.01-002-cart-iqos-iluma	NF-B9.1.7.01-002	fits	PF-cart-iqos-iluma	https://www.iqos.com/gb/en/discover-heated-tobacco/iluma.html	full
+CP-B9.2.3.04-004-cart-iqos-heets	NF-B9.2.3.04-004	requires	PF-cart-iqos-heets	https://www.iqos.com/ph/en/support/faqs/how-do-iqos-models-differ-from-each-other.html | https://www.iqos.com/at/de/support/faq/welche-tabaksticks-sind-mit-iqos-geraeten-kompatibel.html	partial | partial

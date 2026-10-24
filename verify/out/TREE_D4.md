@@ -36,7 +36,7 @@ Kinds by viewing and body system: SLR, rangefinder, viewfinder, TLR, view, box o
 - D4.1.2.04 Twin-lens reflex camera: film body with two lenses, one for the waist-level viewing screen and one for taking.
 - D4.1.2.05 View camera: large-format camera with bellows, ground-glass back and lens movements.
 - D4.1.2.06 Box or folding camera: simple box-shaped camera, or one with a folding bellows body, for roll film.
-- D4.1.2.07 Single-use camera [disposable camera]: pre-loaded film camera sold to be used once and sent for processing.
+- D4.1.2.07 Single-use camera: pre-loaded film camera sold to be used once and sent for processing.
 - D4.1.2.08 Pinhole camera: camera whose lens is a small aperture with no glass.
 
 ### D4.1.3 Instant cameras
@@ -178,7 +178,7 @@ No leaf (`leaf = null`, 13 kinds); exempt from the role axis (C5(d), CV-17). Kin
 - D4.7.10 Underwater housing: waterproof case made for a camera.
 - D4.7.11 Lens hood: shade that fits the front of a lens.
 - D4.7.12 Lens cap: cover for the front or rear of a lens.
-- D4.7.13 Telescope camera adapter (T-ring): T-ring or adapter that fits a camera to a telescope.
+- D4.7.13 Telescope camera adapter: T-ring or adapter that fits a camera to a telescope.
 
 ## Precedence inside D4
 
