@@ -1,0 +1,11 @@
+# Hand tools > Hammers & punches
+- 034 · Claw hammer — hammer with a striking face and a curved claw for pulling nails.
+- 035 · Japanese hammer (also called: genno · double-faced hammer) — Japanese hammer with two striking faces, one flat and one slightly convex.
+- 036 · Mallet — soft-faced or wooden-headed hammer for striking chisels and assemblies.
+- 037 · Club hammer (also called: lump hammer) — short-handled heavy double-faced hammer for driving chisels and light demolition.
+- 038 · Brick hammer — hammer with a square striking face and a chisel blade, for cutting and setting bricks.
+- 039 · Ball-pein hammer (also called: engineer's hammer) — engineer's hammer with a flat face and a rounded pein, for metalwork and riveting.
+- 040 · Cross-pein hammer (also called: Warrington hammer) — hammer with a flat face and a wedge-shaped pein across the handle, for starting pins and tacks.
+- 041 · Slater's hammer — roofer's hammer with a pointed pick, a side nail claw and a blade for cutting and holing slates.
+- 042 · Sledgehammer — long-handled heavy hammer swung with both hands, for demolition and driving stakes.
+- 043 · Punch — hardened steel rod struck with a hammer to mark centres, drive pins or set nails.

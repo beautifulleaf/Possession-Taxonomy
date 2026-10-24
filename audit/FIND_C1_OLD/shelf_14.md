@@ -1,0 +1,12 @@
+# Fastening, joining & clamping > Hammers, mallets & demolition hammers
+- 101 · claw hammer — hammer with a striking face and a curved claw for pulling nails.
+- 102 · double-faced hammer [genno] — Japanese hammer with two striking faces, one flat and one slightly convex.
+- 103 · mallet — soft-faced or wooden-headed hammer for striking chisels and assemblies.
+- 104 · demolition hammer (breaker) — powered percussion tool that drives a chisel or point by hammer blows only, with no rotation, to break concrete, masonry and tile (jackhammer and pneumatic or petrol breakers are this kind, `drive` an attribute; provisional until a page selling demolition hammers or breakers as a type is fetched; memo section 14).
+- 105 · club hammer [lump hammer] — short-handled heavy double-faced hammer for driving chisels and light demolition.
+- 106 · brick hammer — hammer with a square striking face and a chisel blade, for cutting and setting bricks.
+- 107 · ball-pein hammer — engineer's hammer with a flat face and a rounded pein, for metalwork and riveting.
+- 108 · cross-pein hammer [Warrington] — hammer with a flat face and a wedge-shaped pein across the handle, for starting pins and tacks.
+- 109 · slater's hammer — roofer's hammer with a pointed pick, a side nail claw and a blade for cutting and holing slates.
+- 110 · sledgehammer — long-handled heavy hammer swung with both hands, for demolition and driving stakes.
+- 111 · punch — hardened steel rod struck with a hammer to mark centres, drive pins or set nails.

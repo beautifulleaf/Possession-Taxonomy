@@ -1,0 +1,11 @@
+# Hand tools > Hand saws
+- 044 · Panel saw — hand saw with a stiff, single-edged tapered blade on a handle, cutting on the push stroke (Western handsaw).
+- 045 · Hacksaw — hand saw with a thin replaceable blade tensioned in a bow frame, for metal, pipe and plastic.
+- 046 · Back saw — push-stroke hand saw whose thin blade is stiffened by a brass or steel back, for joinery cuts (tenon, dovetail, gents patterns).
+- 047 · Coping saw — hand saw with a thin, fine blade tensioned in a deep U-shaped frame, turned in the frame to cut curves in wood.
+- 048 · Keyhole saw (also called: pad saw · drywall saw) — narrow pointed hand saw blade on a handle, for starting cuts from a drilled hole or cutting plasterboard.
+- 049 · Bow saw (also called: buck saw) — saw with a coarse blade tensioned in a bow or H frame, for crosscutting logs and timber.
+- 050 · Ryoba saw (also called: double-edged Japanese pull saw) — thin Japanese hand saw with crosscut teeth on one edge and rip teeth on the other, cutting on the pull stroke.
+- 051 · Dozuki saw (also called: backed Japanese pull saw) — Japanese pull saw whose thin fine-toothed blade is stiffened by a steel back, for joinery.
+- 052 · Kataba saw (also called: single-edged Japanese pull saw) — Japanese pull saw with teeth on one edge only and no back, for deeper crosscuts and rips than a dozuki allows.
+- 053 · Flush-cut saw (also called: kugihiki · azebiki · flush-cut pull saw) — Japanese pull saw with a flexible blade and unset teeth that cuts flush against a surface.

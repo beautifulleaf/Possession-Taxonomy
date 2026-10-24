@@ -1,0 +1,8 @@
+BATCH FIND_C1_NEW (blind findability test, finder; R-126). No web; never run git; never write to data/. Working directory /home/user/Possession-Taxonomy. Read ONLY the files named here; do not open any other file in the repository.
+You are a shopper in a tool shop's catalogue. Files: audit/FIND_C1_NEW/outline.md (the departments and their shelves, names only) and audit/FIND_C1_NEW/shelf_<nn>.md (the items on each shelf). Requests: audit/FIND_C1_requests_blind.tsv (req_id, request).
+For each request, in order:
+1. From the outline alone, choose the shelf you would look on first. Write it down before opening any shelf file.
+2. Open that shelf. If an item there meets the request, pick it.
+3. If not, you may choose ONE more shelf from the outline (try 2), open it and pick an item there, or give up.
+Never open a third shelf for the same request; never open shelf files to plan ahead for later requests (you may reopen a shelf you already saw for an earlier request only when the outline leads you there first). Keep a short log in verify/work/FIND_C1_NEW/log.tsv as you go.
+Output verify/out/FIND_C1_NEW_answers.tsv with header req_id, try1_shelf, try2_shelf, item_number, confidence (high, medium, low), note (≤ 15 words: why, or what you expected to find). item_number is the three-digit number of the item you picked, or "none". RESUME RULE: if the answers file has 60 rows, stop; otherwise continue after the last req_id written. Reply with one line: rows written.

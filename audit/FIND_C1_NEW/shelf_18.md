@@ -1,0 +1,12 @@
+# Workshop machinery > Table saws & sawing machines
+- 103 · Jobsite table saw (also called: portable table saw) — light portable table saw with the blade rising through a small bench top, carried to site.
+- 104 · Contractor table saw — table saw on an open stand with the motor hung behind the table, between jobsite and hybrid types.
+- 105 · Hybrid table saw — stationary table saw with a cabinet-style top on a lighter open or part-enclosed base, between jobsite and cabinet types.
+- 106 · Cabinet table saw — heavy stationary table saw with an enclosed cabinet base and the mechanism hung from the top.
+- 107 · Sliding table saw — table saw with a sliding carriage beside the blade for panels and sheet.
+- 108 · Vertical panel saw — wall-standing frame machine whose circular saw runs on a vertical guide to cut full sheets held upright.
+- 109 · Straight-line rip saw — industrial machine whose chain-driven bed feeds boards past a fixed blade to rip a straight edge.
+- 110 · Bandsaw (also called: woodworking bandsaw) — machine with a continuous toothed band running over wheels, for curves, resawing and timber cutting.
+- 111 · Metal-cutting bandsaw — bandsaw built for metal, with a fine-tooth band, slow speed, clamping vise and usually coolant.
+- 112 · Cold cut saw — machine with a slow-turning circular blade that cuts metal bar and tube cleanly.
+- 113 · Scroll saw — bench machine with a thin reciprocating blade held in tensioned arms, for fretwork and intricate curves.

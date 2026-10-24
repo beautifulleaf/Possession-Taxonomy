@@ -1,0 +1,11 @@
+# Hand tools > Screwdrivers, spanners & tool kits
+- 054 · Screwdriver — hand tool with a handle and tip that turns screws.
+- 055 · Hex key (also called: Allen key) — bent or T-handled bar with a hexagonal end for socket screws.
+- 056 · Combination spanner (also called: combination wrench) — fixed wrench with an open end and a ring end of the same size.
+- 057 · Adjustable wrench — wrench with a movable jaw set by a screw.
+- 058 · Socket wrench (also called: ratchet · socket set) — ratcheting drive handle that turns interchangeable sockets; a socket set is filed as this kind.
+- 059 · Torque wrench — wrench that indicates or limits the tightening torque applied.
+- 060 · Pipe wrench — heavy adjustable wrench with a hook jaw and serrated teeth that bite round pipe.
+- 061 · Basin wrench — long-shafted wrench with a pivoting jaw for tap and fitting nuts behind basins.
+- 062 · Box spanner (also called: tube spanner) — tubular spanner with hexagon ends, turned by a bar through a hole.
+- 063 · Tool kit — assorted hand tools sold, standardised and compared as one object.

@@ -1,0 +1,13 @@
+# Shaping, sanding & finishing > Grinders, sanders & polishers
+- 078 · angle grinder — hand-held power tool with a disc on a right-angle head, for grinding and cutting.
+- 079 · die grinder — straight-bodied high-speed hand tool for burrs and mounted points.
+- 080 · rotary tool — slim hand-held high-speed motor with a collet or chuck for small accessories (engraving, cutting, sanding, polishing).
+- 081 · random-orbit sander — hand-held sander with a round pad moving in orbit and rotation.
+- 082 · belt sander — sander with a continuous abrasive belt over two rollers.
+- 083 · polisher — power tool with a soft pad or mop that rotates to polish a surface.
+- 084 · sheet sander [orbital finishing sander] — hand-held sander with a rectangular pad moving in small orbits, taking a cut-down abrasive sheet.
+- 085 · detail sander — hand-held sander with a small triangular (delta) pad that vibrates, for corners and narrow areas.
+- 086 · drywall sander — sander with a large round head on a long pole and dust extraction, for plasterboard walls and ceilings.
+- 087 · oscillating spindle sander [bobbin sander] — bench machine with an abrasive sleeve on a spindle that rotates and moves up and down through a table, for curves.
+- 088 · belt and disc sander — bench machine combining a sanding belt and a sanding disc on one motor.
+- 089 · wall chaser — hand-held machine with twin diamond discs that cuts parallel channels in masonry for cables and pipes.

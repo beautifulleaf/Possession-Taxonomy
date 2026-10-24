@@ -1,0 +1,29 @@
+# Cutting & sawing > Saws
+- 001 · panel saw — hand saw with a stiff, single-edged tapered blade on a handle, cutting on the push stroke (Western handsaw).
+- 002 · hacksaw — hand saw with a thin replaceable blade tensioned in a bow frame, for metal, pipe and plastic.
+- 003 · double-edged pull saw [ryoba] — thin Japanese hand saw with crosscut teeth on one edge and rip teeth on the other, cutting on the pull stroke.
+- 004 · backed pull saw [dozuki] — Japanese pull saw whose thin fine-toothed blade is stiffened by a steel back, for joinery.
+- 005 · flush-cut pull saw [azebiki, kugihiki] — Japanese pull saw with a flexible blade and unset teeth that cuts flush against a surface.
+- 006 · circular saw — hand-held power saw with a rotating toothed disc for straight cuts in timber and sheet.
+- 007 · jigsaw — hand-held power saw with a short, vertically reciprocating blade for curves and cut-outs.
+- 008 · oscillating multi-tool — hand-held power tool whose blade, pad or scraper vibrates through a small arc, for plunge cuts, sanding and scraping.
+- 009 · mitre saw — power saw whose blade is carried on a pivoting arm over a table, for crosscuts and angle cuts (sliding and compound are attributes).
+- 010 · jobsite table saw — light portable table saw with the blade rising through a small bench top, carried to site.
+- 011 · hybrid table saw — stationary table saw with a cabinet-style top on a lighter open or part-enclosed base, between jobsite and cabinet types.
+- 012 · cabinet table saw — heavy stationary table saw with an enclosed cabinet base and the mechanism hung from the top.
+- 013 · sliding table saw — table saw with a sliding carriage beside the blade for panels and sheet.
+- 014 · woodworking bandsaw — machine with a continuous toothed band running over wheels, for curves, resawing and timber cutting.
+- 015 · metal-cutting bandsaw — bandsaw built for metal, with a fine-tooth band, slow speed, clamping vise and usually coolant.
+- 016 · cold cut saw — machine with a slow-turning circular blade that cuts metal bar and tube cleanly.
+- 017 · scroll saw — bench machine with a thin reciprocating blade held in tensioned arms, for fretwork and intricate curves.
+- 018 · back saw — push-stroke hand saw whose thin blade is stiffened by a brass or steel back, for joinery cuts (tenon, dovetail, gents patterns).
+- 019 · coping saw — hand saw with a thin, fine blade tensioned in a deep U-shaped frame, turned in the frame to cut curves in wood.
+- 020 · vertical panel saw — wall-standing frame machine whose circular saw runs on a vertical guide to cut full sheets held upright.
+- 021 · reciprocating saw — hand-held power saw with a long blade driven back and forth in line with the body, for demolition and rough cuts.
+- 022 · plunge saw [track saw] — circular saw whose blade plunges down from a sprung housing and that runs on a guide rail for straight sheet cuts.
+- 023 · cut-off saw [disc cutter] — hand-held engine or electric saw with a large abrasive or diamond disc behind a guard, for concrete, stone and steel.
+- 024 · contractor table saw — table saw on an open stand with the motor hung behind the table, between jobsite and hybrid types.
+- 025 · straight-line rip saw — industrial machine whose chain-driven bed feeds boards past a fixed blade to rip a straight edge.
+- 026 · single-edged pull saw [kataba] — Japanese pull saw with teeth on one edge only and no back, for deeper crosscuts and rips than a dozuki allows.
+- 027 · keyhole saw [pad saw, drywall saw] — narrow pointed hand saw blade on a handle, for starting cuts from a drilled hole or cutting plasterboard.
+- 028 · bow saw [buck saw] — saw with a coarse blade tensioned in a bow or H frame, for crosscutting logs and timber.

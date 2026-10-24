@@ -1,0 +1,13 @@
+# Shaping, sanding & finishing > Planes & planers
+- 056 · smoothing plane — short hand plane for final surface smoothing (Stanley No. 1 to 4-1/2 pattern).
+- 057 · jack plane — medium-length hand plane for general stock removal (No. 5, 5-1/2, 6).
+- 058 · jointer plane — long hand plane for straightening edges and faces (No. 7, 8).
+- 059 · pull plane [kanna] — Japanese plane with a wooden body and blade set into it, cutting on the pull stroke.
+- 060 · power planer — hand-held electric plane with a rotating cutter drum.
+- 061 · jointer (machine) — machine with infeed and outfeed tables and a cutterhead that flattens a face and squares an edge.
+- 062 · thicknesser — machine that planes boards to an even thickness against a bed.
+- 063 · planer-thicknesser — single machine combining jointer tables and a thicknessing bed on one cutterblock.
+- 064 · block plane — small one-hand plane with a low-angle bevel-up blade, for end grain and chamfers.
+- 065 · shoulder plane — narrow plane whose blade spans the full width of the sole, for trimming rebates and tenon shoulders.
+- 066 · router plane — plane with a cutter hung below a flat base, for levelling grooves and recesses to depth.
+- 067 · plough plane — plane with a fence and depth stop and interchangeable narrow cutters, for grooves along the grain.
