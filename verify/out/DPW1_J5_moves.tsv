@@ -1,0 +1,11 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-J5.2.1.04-001	drop					Restates the kind Soup pasta (pastina); not a named form.
+NF-J5.2.2.01-002	drop					Egg noodles restate the kind; wide, medium, extra wide are size attributes.
+NF-J5.2.4.01-001	drop					Juwari = 100% buckwheat; the tree makes buckwheat share a soba attribute.
+NF-J5.2.1.01-001	drop					Gragnano IGP spans long, tube and short kinds: a designation tag (JC1), not one kind's form.
+NF-J5.1.1.08-001	move_kind				J5.1.1.07	Purple sticky rice is glutinous; the rice key tests glutinous before bran colour.
+NF-J5.1.1.02-001	move_kind				J5.1.1.04	Kalajeera is a short-grain aromatic rice, not basmati group; baby basmati is shop wording (R-64). †
+NF-J5.11.1.05-001	to_line	L-fermentis-dry-yeast	Fermentis dry brewing yeasts	J5.11.1.05		Maker's range of many dry strains, not one product.
+NF-J5.11.1.05-002	to_line	L-wyeast-liquid-yeast	Wyeast liquid yeasts	J5.11.1.05		Maker name plus kind; covers the maker's whole strain range.
+NF-J5.11.1.05-003	to_line	L-white-labs-liquid-yeast	White Labs liquid yeasts	J5.11.1.05		Maker name plus kind; covers the maker's whole strain range.
+NF-J5.11.1.03-001	to_line	L-briess-malt-extract	Briess malt extracts	J5.11.1.03		Dry and liquid extracts of several types: a range, not one product.
