@@ -1,0 +1,11 @@
+line_id	maker_id	name	kinds	line_rank	built_by_maker_id	licensor_id	years	notes	sources	fetch_status
+L-nvidia-rtx-professional	M-nvidia	RTX professional (RTX A-series, RTX Ada Generation, T-series)	D1.2.6.01					workstation cards that follow Quadro on the NVIDIA selector table; workstation is a market modifier	https://www.nvidia.com/de-de/design-visualization/quadro/selector	full
+L-nvidia-titan	M-nvidia	Titan	D1.2.6.01				2013-2018	Titan brand of video cards; GeForce GTX Titan X already recorded as NF-D1.2.6.01-M4053 under L-nvidia-geforce-gtx	https://en.wikipedia.org/wiki/Nvidia_Titan	full
+L-nvidia-geforce-gts	M-nvidia	GeForce GTS	D1.2.6.01				2009-2011	GTS 240 and 250 in the 200 series, GTS 450 in the 400 series	https://en.wikipedia.org/wiki/GeForce_200_series | https://en.wikipedia.org/wiki/GeForce_400_series	full | full
+L-amd-radeon-pro	M-amd	Radeon Pro	D1.2.6.01				2016-	Radeon Pro replaced the FirePro brand in 2016: Duo, SSG, WX, W5000 to W7000 and AI Pro R9000 series	https://en.wikipedia.org/wiki/Radeon_Pro	partial
+L-amd-firepro	M-amd	FirePro	D1.2.6.01				2006-2016	AMD workstation and server cards: V, W, S and D series; replaced by Radeon Pro in 2016	https://en.wikipedia.org/wiki/AMD_FirePro	full
+L-dell-poweredge	M-dell	PowerEdge	D1.1.11					PowerEdge R-series rack servers on the Dell category page; tower T-series on the same page	https://www.dell.com/en-my/work/shop/dell-poweredge-servers/sr/servers	full
+L-hpe-proliant	M-hpe	ProLiant	D1.1.11					ProLiant DL rack servers (Gen11) on a shop collection page	https://esaitech.com/collections/hpe-gen-11-server	full
+L-lenovo-thinksystem	M-lenovo	ThinkSystem	D1.1.11					ThinkSystem SR-series rackmount servers on a reseller page and Lenovo Press	https://eu.itglobal.com/products/lenovo/ | https://lenovopress.lenovo.com/lp1600-thinksystem-sr650-v3	full | full
+L-supermicro-superserver	M-supermicro	SuperServer	D1.1.11					SYS- and AS- rackmount systems on the Supermicro store; the SuperServer name is not on the fetched page	https://store.supermicro.com/nl_en/servers/rackmount-servers.html	full
+L-microsoft-surface-book	M-microsoft	Surface Book	D1.1.12				2015-2020	Surface Book, Surface Book 2 and Surface Book 3: screen detaches from the keyboard base	https://en.wikipedia.org/wiki/Surface_Book_3	full
