@@ -291,3 +291,20 @@ Still unattested: two-wheel tractor, crown of office, home audio recording, rest
 
 ## Next (session 11)
 See SESSION_11_PROMPT.md (the last hand-off: when its steps are done, hand-offs stop).
+
+## Session 11 (2026-10-24) — last hand-off list: award results, last attestation attempt, last signature pass, pilot page version 11
+Worked on branch `claude/blissful-hopper-oyzk13`. Decisions R-125 in framework/structure/decisions/D4_residual.md. The owner delegated all decisions.
+
+| Step | Result |
+|---|---|
+| 1. Award results (R-124 m) | DWWA 2026 Platinum: QS_J7_4 placed 52 more and HV_S11_NK3 14 more on fourteen new single-grape kinds (Blaufränkisch, País, Prokupac, Refošk, Aleksandrouli, Altesse, Kisi, Albillo Mayor, Petite Arvine, Savagnin (Heida), Loureiro, Friulano, Falanghina, Pecorino): 165 of 196 stored; the other 31 have no colour or grape on Decanter's page (R-125 b). M&S own labels are issuer-owned (I-marks-and-spencer, R-125 a). Allure Best of Beauty 2026: one batch per category page (QS_W2_3–8) plus HV_S11_NK2: 145 of 319 winners stored (was 28); Allure's pages give only fragments through the Parallel fetch and K-beauty, nails and under-$24 gave nothing. Eighteen new kinds attested for the skipped winners (face mist, acne spot treatment, pimple patch, facial skin-care device, facial razor, highlighter, contour, makeup sponge, leave-in conditioner, detangling spray, scalp scrub, scalp treatment, dry shampoo, hair mousse, hair gel, texturizing spray, volumizing spray; B2.6.09 hair towel; R-125 f). World Cheese Awards: QS_J3_5 found two more levels (Cypress Grove 2024); no page lists levels, so the item is closed. |
+| 2. Unattested kinds (R-125 c) | HV_S11_NK1 attested crown of office, restraint furniture, riding saddle machine and social security card (issuer: Social Security Administration). Two-wheel tractor (no page shows a Category 1 three-point hitch) and home audio recording (every listing fetch failed) are retired: framework/structure/retired_tree_kinds.tsv. |
+| 3. Signature pieces (R-125 d) | SIG_A1_28, 40 weak negatives with their own sites fetched: 10 signature pieces (Polo Ralph Lauren polo shirt, Thom Browne 4-Bar cardigan, True Religion Ricky and Billy jeans, Westwood Mini-Crini, Mary Quant Georgie dress, Angelic Pretty Milky Way JSK, BABY Waist Ribbon JSK, Tommy Hilfiger flag denim jacket, Charles Tyrwhitt non-iron twill shirt) and the Trapstar Irongate line; 30 brands none found. The clothing signature pass is closed. |
+| 4. Pilot page | Version 11 published (https://claude.ai/artifact/69ipGh4sxukS45bxkDoSEk): 6,457 kinds, 40,389 named forms; pilot-data.json 15.6 MB (under the 16 MB limit). |
+
+Totals now: 53 categories with kinds and display groups, 6,457 kinds, 40,389 named forms, 2,294 lines, 63,647 makers, 340 issuers, 1,006 designations, 988 varieties, 119 grading scales, 81 schemes with 2,953 tier entries, 90 standards with 74 values, 620 platforms, 526 compatibility rows, 524 attributes, 249 scenes, 9,506 scene tags.
+
+Left open, not planned (no busy work): Allure winners beyond what the JavaScript pages yield (Odele Air Dry Styler unplaced: a gel-serum styler between kinds); 31 DWWA Platinums without a stated type; Rogaine (a medicine, out of H1).
+
+## Hand-offs stop
+Every step of SESSION_11_PROMPT.md is done; no SESSION_12_PROMPT.md is written and no new session is started. The next session starts only when the owner asks for one (owner queue: review R-120 to R-125, the delegated decisions).
