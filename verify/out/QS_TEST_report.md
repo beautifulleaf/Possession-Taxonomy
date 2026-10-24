@@ -1,0 +1,8 @@
+# QS_TEST report
+Rows: schemes 1 (SCH-stiftung-warentest-test), tier_entries 32, named_forms 29 (3 laptop/binocular subjects reuse existing ids), makers 10, maker_kinds 25. No standards, standard_values or attributes.
+Tier entries by edition: test 1/2025 smoked salmon 6; test 6/2025 halloumi 2; test 3/2023 milk 5; test 11/2023 butter 1; test 8/2025 dry dog food 1, laptops 2; test 4/2023 monitors 2; test 2/2023 FRITZ!Box and Repeater 5; test 5/2022 binoculars 8.
+Which?, Consumer Reports, Que Choisir: 0 rows. Which? smoked salmon (Sept 2025) and binocular pages are member-only; the 2016 Which? salmon scores (SeafoodSource) are stale and were skipped. Que Choisir and CR gave nothing free.
+Failed or paywalled: test.de smoked salmon, dog dry food 8/2025 (24 names, grades locked), antivirus 26.02.2026 (24 programs, grades locked), binoculars 2022 (31 names, grades locked), LED (Stiftung Warentest has not tested lamps since 2019; the Saldo LED test has no numeric grades), tuna 2016 and mozzarella 2016 (stale), cat wet food 5/2024 (nutrition sub-grade only), wunderweib (redirect), Which? (WebFetch empty; Parallel excerpt only).
+Weak points: grades for salmon, milk, butter, binoculars come from news/affiliate pages quoting the test (partial), not test.de tables. Milk Note "3 befriedigend" is as the news page gives it. Mein Lieblings Bio-Lachs 4,0 appears only on echo24. Prism type for binoculars is not on the pages (kind choice noted in the form notes). Several results are already stale (monitors, routers, milk, binoculars).
+Skips to other categories: vegan salmon alternatives (3), 0 other. No eggs, frozen fish, antivirus, tuna, cheese (other than halloumi) results found free.
+Missing kind?: none.

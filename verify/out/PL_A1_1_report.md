@@ -1,0 +1,6 @@
+PL_A1_1 report. Brands done: 200 (17 tagged, 183 no-genre).
+Tagged: 23 tags (core 8, adjacent 15) over 17 brands: surf (Golden Breed, Hot Tuna, Rusty core; Stubbies, Leviathan adjacent), streetwear (Hot Tuna, Strauss core; Hering and Cia. Hering via Dzarm adjacent), workwear (Strauss core; Stubbies adjacent), minimalism (Strenesse core; Masha Ma adjacent), cholita-pollera core and poncho adjacent (Artesanias Titicaca), classic tailoring adjacent (Milano, Indochino, Trands), haute couture adjacent (WUYONG, Clodovil Hernandes), Harajuku adjacent (Museum of Friendship).
+No-genre: page failed 83, other 40, mass-market basics 23, sports performance only 16, underwear or hosiery only 14, department store or retailer 4, uniform or PPE 1, children's only 1, not clothing 1 (Mireille Nemale, a stylist and fashion-school founder).
+Failed pages: 83 brands had only category or list pages stored (designers and small labels). Pages fetched listed names only; most other category URLs were not fetched, only one Australian category and several list pages. Source column cites the stored URL. No search or Parallel fetch was used; no WebFetch failures. Cia. Hering and Hering share one page; Bisley Workwear's URL redirected to the Gazal Corporation page.
+Genre candidates: none.
+Caveat: fetched.tsv was written after the fetches, not as each was made.
