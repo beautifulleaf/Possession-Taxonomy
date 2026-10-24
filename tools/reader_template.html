@@ -141,6 +141,7 @@ function render() {
   main.replaceChildren();
   const head = $('div', { class: 'cat-head' }, $('h2', { text: catName(cur) }), $('p', { text: total + ' items in ' + data.depts.length + (data.depts.length === 1 ? ' department.' : ' departments.') }));
   main.append(head);
+  if ((data.b || []).length) main.append($('div', { class: 'best' }, $('h4', { text: 'What makes a good one' }), $('ol', {}, data.b.map(b => $('li', {}, $('b', { text: b.m }), b.v ? [': ', $('span', { class: 'v', text: b.v })] : null, b.w ? '. ' + b.w : '')))));
   if (!data.rev) main.append($('p', { class: 'note', text: 'Names and departments in this category have not had the readability review yet; Tools & Workshop Equipment shows the reviewed layout.' }));
   data.depts.forEach((d, i) => {
     const sec = $('section', { class: 'dept', id: slug('d', i) }, $('h3', { class: 'dept-name', text: d.n }));

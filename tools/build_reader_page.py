@@ -67,7 +67,7 @@ for c in CATS:
         shelves = [s for s in shelves if s["k"]]
         if not shelves: continue
         for s in shelves: placed.update(s["k"])
-        best = [{"m": m["marker"], "v": m["values"], "w": m["why"]} for m in markers[code] if m["group_id"] == t["group_id"] or m["group_id"] in {s["group_id"] for s in subs}]
+        best = [{"m": m["marker"], "v": m["values"], "w": m["why"]} for m in markers[code] if {x.strip() for x in m["group_id"].split(";")} & ({t["group_id"]} | {s["group_id"] for s in subs})]
         depts.append({"n": t["group_name"], "s": shelves, "b": best})
     rest = [k for k in K if k not in placed]
     if rest: depts.append({"n": "Other", "s": [{"n": "Not yet grouped", "k": sorted(rest)}], "b": []})
@@ -76,7 +76,8 @@ for c in CATS:
             s["k"] = [item(K[kid]) for kid in s["k"]]
             for i, it in enumerate(s["k"]): index.append([code, it["n"], it["a"]])
     counts[code] = len(K)
-    (ROOT / f"pages/reader/{code}.json").write_text(json.dumps({"c": code, "rev": code in props or (bool(K) and all(k in disp for k in K)), "depts": depts}, ensure_ascii=False, separators=(",", ":")))
+    whole = [{"m": m["marker"], "v": m["values"], "w": m["why"]} for m in markers[code] if m["group_id"].strip() == code]
+    (ROOT / f"pages/reader/{code}.json").write_text(json.dumps({"c": code, "b": whole, "rev": code in props or (bool(K) and all(k in disp for k in K)), "depts": depts}, ensure_ascii=False, separators=(",", ":")))
 for c in CATS: c["k"] = counts.get(c["c"], 0)
 shell = {"domains": DOMAINS, "cats": CATS, "index": index}
 tpl = (ROOT / "tools/reader_template.html").read_text()

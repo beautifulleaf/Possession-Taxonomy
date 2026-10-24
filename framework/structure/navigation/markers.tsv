@@ -51,60 +51,6 @@ J4	G-J4-17	USDA onion grade	U.S. No. 1 > U.S. Export No. 1 > U.S. Commercial > U
 J4	G-J4-18	USDA tomato grade	U.S. No. 1 > U.S. Combination > U.S. No. 2 > U.S. No. 3	US tomato grade (GS-usda-ams-tomato-grades); chilli heat is a measured facet.	data/grading_scales.tsv
 J4	G-J4-22	lettuce class	Class I > Class II	EU lettuce and endive classes have no Extra class (GS-eu-lettuce-endive-marketing-classes-2023-2429).	UNECE fruit and vegetables standards via FAO (intl); data/grading_scales.tsv
 J4	G-J4-24	mushroom class	'Extra' Class > Class I > Class II	EU cultivated mushroom classes; size closed, veiled, open stored separately.	data/grading_scales.tsv
-A2	G-A2-2	construction	hand-welted > Goodyear welted > Blake / Blake Rapid > cemented	Construction comes first for dress shoes: resoleability, lifespan and day-one comfort.	proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
-A2	G-A2-2	leather quality	full-grain calf, shell cordovan > corrected grain	Leather is weighed after construction.	proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
-A2	G-A2-2	last shape		Fit and look of the last follow leather; a choice, no ladder.	proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
-A2	G-A2-2	workmanship and hand finishing	maker's hand grade line > main line (e.g. Hand Grade)	Grade lines within one maker mark finishing; compared inside a maker only.	proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
-A2	G-A2-2	value		Price against the markers above, weighed last.	proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
-A2	G-A2-3	construction	hand-welted > Goodyear welted > Blake / Blake Rapid > cemented	Construction comes first for boots: resoleability, lifespan and day-one comfort.	proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
-A2	G-A2-3	leather quality	full-grain calf, shell cordovan > corrected grain	Leather is weighed after construction.	proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
-A2	G-A2-3	last shape		Fit and look of the last follow leather; a choice, no ladder.	proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
-A2	G-A2-3	workmanship and hand finishing	maker's hand grade line > main line (e.g. Hand Grade)	Grade lines within one maker mark finishing; compared inside a maker only.	proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
-A2	G-A2-3	value		Price against the markers above, weighed last.	proposals.tsv A2 row (quality_markers); Robert Old (UK menswear); Gentleman's Gazette RTW shoe ranking; A Fine Pair of Shoes (UK)
-A2	G-A2-8	model and release		Sneakers are chosen by model and release first.	proposals.tsv A2 row (quality_markers); Nylon on sneakerhead culture
-A2	G-A2-8	authenticity		Resale buying turns on a verified genuine pair.	proposals.tsv A2 row (quality_markers); Nylon on sneakerhead culture
-A2	G-A2-8	condition		Condition sets resale value.	proposals.tsv A2 row (quality_markers); Nylon on sneakerhead culture
-A2	G-A2-8	rarity		Limited releases rank above general releases for collectors.	proposals.tsv A2 row (quality_markers); Nylon on sneakerhead culture
-A2	G-A2-9	fit	about a thumb's width at the toe	Fit is checked first for running and walking shoes.	proposals.tsv A2 row (quality_markers); Zappos running shoe buyers guide
-A2	G-A2-9	cushioning matched to distance		Cushioning is chosen for the distance run; a choice.	proposals.tsv A2 row (quality_markers); Zappos running shoe buyers guide
-A2	G-A2-9	support type	neutral; stability; motion control	Support is matched to the runner's gait; a choice, not a ladder.	proposals.tsv A2 row (quality_markers); Zappos running shoe buyers guide
-A2	G-A2-9	drop and stack		Heel-to-toe drop and stack height are compared last.	proposals.tsv A2 row (quality_markers); Zappos running shoe buyers guide
-A2	G-A2-9	wear life	replace at 300-500 miles	Worn-out cushioning ends a running shoe's use.	proposals.tsv A2 row (quality_markers); Zappos running shoe buyers guide
-A3	G-A3-1	diamond cut (all stone-set pieces)		Cut is weighed first of the 4Cs.	proposals.tsv A3 row (quality_markers); GIA diamond colour scale; Perth Mint diamond buying guide; Blue Nile
-A3	G-A3-1	diamond colour (all stone-set pieces)		Second of the 4Cs; graded on the GIA colour scale.	proposals.tsv A3 row (quality_markers); GIA diamond colour scale; Perth Mint diamond buying guide
-A3	G-A3-1	diamond clarity (all stone-set pieces)		Third of the 4Cs.	proposals.tsv A3 row (quality_markers); Perth Mint diamond buying guide; Blue Nile
-A3	G-A3-1	carat weight (all stone-set pieces)		Last of the 4Cs; higher carat is not automatically better.	proposals.tsv A3 row (quality_markers); Perth Mint diamond buying guide; Blue Nile
-A3	G-A3-1	certificate and issuing lab (all stone-set pieces)		Buyers trust a grading certificate and weigh who issued it.	proposals.tsv A3 row (quality_markers); Perth Mint diamond buying guide; Blue Nile
-A3	G-A3-1	metal purity or fineness (all A3 groups)	gold 24K 995 > 22K 916 > 20K 833 > 18K 750 > 14K 585; silver 990 down to 800; platinum 950	Fineness is the hallmarked measure of the metal.	proposals.tsv A3 row (quality_markers); BIS hallmarking FAQ (India); Kisna buying and price guide (India); A3 memo
-A3	G-A3-1	solid against plated (all A3 groups)	solid > plated	Solid precious metal outranks a plated base metal.	proposals.tsv A3 row (quality_markers); Kisna buying and price guide (India); Blue Nile
-A3	G-A3-1	maker's mark (vintage and antique view)	signed > unsigned	Collectors weigh the signature first.	proposals.tsv A3 row (quality_markers); Estate Sales jewellery guide (antique and vintage)
-A3	G-A3-1	period, materials and rarity (vintage and antique view)		Weighed after the maker's mark.	proposals.tsv A3 row (quality_markers); Estate Sales jewellery guide (antique and vintage)
-A3	G-A3-1	workmanship of setting and finish (all A3 groups)		Memo marker; no fetched ladder.	proposals.tsv A3 row (quality_markers); A3 memo
-A4	G-A4-1	fabric	type and weave first (e.g. CORDURA, X-PAC); 420D-500D for travel packs	Fabric is weighed first; denier alone does not decide.	proposals.tsv A4 row (quality_markers); OutdoorGearLab carry-on luggage test; Travelpro: how to shop for quality luggage; Matador: what makes a bag durable
-A4	G-A4-1	construction		Double stitch lines, bar tacks, reinforced bottom and strap anchors.	proposals.tsv A4 row (quality_markers); OutdoorGearLab carry-on luggage test; Travelpro: how to shop for quality luggage; Matador: what makes a bag durable
-A4	G-A4-1	hardware		Hardware: large YKK or other coil zippers (fail first); wheels, wheel housings, telescoping handle, corners.	proposals.tsv A4 row (quality_markers); OutdoorGearLab carry-on luggage test; Travelpro: how to shop for quality luggage; Matador: what makes a bag durable
-A4	G-A4-1	design and fit		Weighed after materials and build.	proposals.tsv A4 row (quality_markers); OutdoorGearLab carry-on luggage test; Travelpro: how to shop for quality luggage; Matador: what makes a bag durable
-A4	G-A4-1	warranty and repairability	lifetime > limited	Long warranty and repair service signal a bag built to last.	proposals.tsv A4 row (quality_markers); Carryology buy-it-for-life bags; Travelpro: how to shop for quality luggage
-A4	G-A4-2	fabric	type and weave first (e.g. CORDURA, X-PAC); 420D-500D for travel packs	Fabric is weighed first; denier alone does not decide.	proposals.tsv A4 row (quality_markers); Matador: what makes a bag durable; Carryology buy-it-for-life bags; bluesign explainer (Eagle's Nest Outfitters)
-A4	G-A4-2	construction		Double stitch lines, bar tacks, reinforced bottom and strap anchors.	proposals.tsv A4 row (quality_markers); Matador: what makes a bag durable; Carryology buy-it-for-life bags; bluesign explainer (Eagle's Nest Outfitters)
-A4	G-A4-2	hardware		Hardware: large YKK or other coil zippers (fail first); buckles and strap anchors.	proposals.tsv A4 row (quality_markers); Matador: what makes a bag durable; Carryology buy-it-for-life bags; bluesign explainer (Eagle's Nest Outfitters)
-A4	G-A4-2	design and fit		Weighed after materials and build.	proposals.tsv A4 row (quality_markers); Matador: what makes a bag durable; Carryology buy-it-for-life bags; bluesign explainer (Eagle's Nest Outfitters)
-A4	G-A4-2	warranty and repairability	lifetime > limited	Long warranty and repair service signal a bag built to last.	proposals.tsv A4 row (quality_markers); Carryology buy-it-for-life bags; Travelpro: how to shop for quality luggage
-A4	G-A4-3	craftsmanship (luxury handbags)		Hand labour leads (about 48 h per Hermes bag).	proposals.tsv A4 row (quality_markers); Saclab: why designer handbags cost so much
-A4	G-A4-3	leather	exotic and full-grain > top-grain	Leather grade follows craftsmanship.	proposals.tsv A4 row (quality_markers); Saclab: why designer handbags cost so much
-A4	G-A4-3	classic silhouette and house model		Icon models hold value.	proposals.tsv A4 row (quality_markers); Saclab: why designer handbags cost so much
-A4	G-A4-3	scarcity		Limited supply raises desirability.	proposals.tsv A4 row (quality_markers); Saclab: why designer handbags cost so much
-A4	G-A4-3	resale value		Resale value is weighed last.	proposals.tsv A4 row (quality_markers); Saclab: why designer handbags cost so much
-A5	G-A5-1	movement (all watch groups)	in-house calibre > reputable supplier calibre; mechanical or automatic the enthusiast default	Movement is weighed first, for prestige and servicing.	proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
-A5	G-A5-1	accuracy and certification (all watch groups)	Rolex Superlative Chronometer -2/+2 s/day > COSC -4/+6 s/day > uncertified	Fetched accuracy figures only; maker-owned seals stay attributes, not tiers.	proposals.tsv A5 row (quality_markers); WatchGecko COSC guide; Monochrome Watches certification guide
-A5	G-A5-1	finishing and decoration (all watch groups)		Weighed after movement and accuracy.	proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
-A5	G-A5-1	case and bracelet build (all watch groups)		Screw bars and clasp quality.	proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
-A5	G-A5-1	crystal (all watch groups)	sapphire with anti-reflective coating > mineral > hesalite	Crystal ladder as fetched.	proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
-A5	G-A5-1	lume (all watch groups)		Super-LumiNova named as the reference lume.	proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range); Grailr tool watch guide
-A5	G-A5-11	water resistance	ISO 6425 diver's watch > not certified	ISO 6425 sets the diver's standard.	proposals.tsv A5 row (quality_markers); Grailr tool watch guide; A Blog To Watch: luxury watch factors (mid range)
-A5	G-A5-1	anti-magnetism (all watch groups)		Weighed with the build markers.	proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
-A5	G-A5-1	brand pedigree, design and value retention (all watch groups)		Weighed last by enthusiasts.	proposals.tsv A5 row (quality_markers); A Blog To Watch: luxury watch factors (mid range)
-A5	G-A5-1	first-watch fit (all watch groups)	wrist size 38-42 mm	Beginners start with taste, wrist size and lifestyle.	proposals.tsv A5 row (quality_markers); Hour Passion first watch guide (FR)
 B9	G-B9-1	blind panel score	95+ classic > 90-94 outstanding > below 90	Panel scores appearance and construction, draw and burn, flavour, overall; 43% scored 90+ in 2021.	proposals.tsv B9 row (quality_markers); Cigar Aficionado ratings
 B9	G-B9-1	construction and draw		Even burn and draw follow the score.	proposals.tsv B9 row (quality_markers); Cigar Aficionado ratings; SmokingPipes.com cigars
 B9	G-B9-1	wrapper type and wrapper, binder and filler origin		Shops sort cigars by wrapper and leaf origin.	proposals.tsv B9 row (quality_markers); SmokingPipes.com cigars; Neptune Cigar
@@ -247,87 +193,6 @@ J6	G-J6-21	cocoa process		Dutch or natural chosen by recipe; no grade ladder fou
 J6	G-J6-21	fat content and grind	higher fat, finer grind > fat-reduced, coarse	Producers publishing fat and pH signal a better powder.	Chowhound cocoa powder article; J6 memo S17, S19
 J6	G-J6-22	bean class	fine or flavour > bulk (provisional)	ICCO class describes a country's exports, disputed.	J6 memo S18
 J6	G-J6-4	plant and part (infusions)		Infusions are chosen by plant and flavour; provisional, no HOL evidence.	J6 memo S11, S25
-B1	G-B1-1	frame	kiln-dried hardwood, corner-blocked, dowelled or jointed > stapled softwood or particleboard	Upholstered pieces are judged from the inside out, frame first.	proposals.tsv B1 row (quality_markers); Houzz sofa buying guide; Mega Furniture (SG) high-quality sofa guide; Bob Vila red flags of low quality furniture
-B1	G-B1-1	suspension	eight-way hand-tied springs > sinuous springs > webbing	Spring system comes after the frame.	proposals.tsv B1 row (quality_markers); Houzz sofa buying guide; Mega Furniture (SG) high-quality sofa guide
-B1	G-B1-1	cushion filling	high-density foam, 1.8 lb per cubic foot or more	Foam density sets how the seat holds up.	proposals.tsv B1 row (quality_markers); Houzz sofa buying guide; Mega Furniture (SG) high-quality sofa guide
-B1	G-B1-1	upholstery fabric abrasion (Martindale class)	100,000+ severe contract > 40,000+ contract > 25,000-40,000 heavy domestic > 15,000-25,000 general domestic > 10,000-15,000 light domestic > under 10,000 decorative	Rub count rates the cover for its use.	proposals.tsv B1 row (quality_markers); Houzz sofa buying guide
-B1	G-B1-1	stitching and finish		Visible workmanship follows the hidden construction.	proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
-B1	G-B1-1	frame warranty	5-10 years	A long frame warranty backs the construction.	proposals.tsv B1 row (quality_markers); Mega Furniture (SG) high-quality sofa guide
-B1	G-B1-2	frame (upholstered and wooden chairs)	kiln-dried hardwood, corner-blocked, dowelled or jointed > stapled softwood or particleboard	The proposals row judges upholstered seating frame first; chairs share it.	proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
-B1	G-B1-2	upholstery fabric abrasion (Martindale class)	100,000+ severe contract > 40,000+ contract > 25,000-40,000 heavy domestic > 15,000-25,000 general domestic > 10,000-15,000 light domestic > under 10,000 decorative	Applies to upholstered chairs and stools.	proposals.tsv B1 row (quality_markers); Houzz sofa buying guide
-B1	G-B1-3-2	construction type	innerspring; foam; hybrid; latex; airbed (a choice, not a ladder)	Mattresses are chosen by construction first.	proposals.tsv B1 row (quality_markers); Sleep Foundation how to choose a mattress
-B1	G-B1-3-2	firmness	1-10 scale or H1-H5 (never compared across scales)	Firmness is matched to the sleeper.	proposals.tsv B1 row (quality_markers); Sleep Foundation how to choose a mattress
-B1	G-B1-3-2	support and pressure relief		Follows construction and firmness.	proposals.tsv B1 row (quality_markers); Sleep Foundation how to choose a mattress
-B1	G-B1-3-2	durability and materials		Material quality sets lifespan.	proposals.tsv B1 row (quality_markers); Sleep Foundation how to choose a mattress
-B1	G-B1-4	material	solid wood > veneer on plywood > veneer on particleboard or MDF	Case furniture and tables are judged by the carcass material first.	proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
-B1	G-B1-4	joinery	dovetail > dowel or mortise > cam-lock or staple	Joints come after material.	proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
-B1	G-B1-4	sturdiness	no wobble	A test at the shop.	proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
-B1	G-B1-4	finish		Last of the case-furniture markers.	proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
-B1	G-B1-5	material	solid wood > veneer on plywood > veneer on particleboard or MDF	Case furniture and tables are judged by the carcass material first.	proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
-B1	G-B1-5	joinery	dovetail > dowel or mortise > cam-lock or staple	Joints come after material.	proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
-B1	G-B1-5	sturdiness	no wobble	A test at the shop.	proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
-B1	G-B1-5	finish		Last of the case-furniture markers.	proposals.tsv B1 row (quality_markers); Bob Vila red flags of low quality furniture
-B1	G-B1-1	authenticity (design classics)	licensed original > reproduction	For design classics, on the maker or line; served by the Design houses & designers side view.	proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge; 1stDibs vintage Vitra/Herman Miller listing; Cult Design (AU) Fritz Hansen collection
-B1	G-B1-1	maker and licensor (design classics)		Who holds the licence follows authenticity.	proposals.tsv B1 row (quality_markers); Cult Design (AU) Fritz Hansen collection; Kinstore brand guides (Danish design)
-B1	G-B1-1	designer and period (design classics)		Collectors place a classic by designer and period.	proposals.tsv B1 row (quality_markers); 1stDibs vintage Vitra/Herman Miller listing
-B1	G-B1-1	materials and repairability (design classics)		Last of the design-classic markers.	proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge
-B1	G-B1-2	authenticity (design classics)	licensed original > reproduction	For design classics, on the maker or line; served by the Design houses & designers side view.	proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge; 1stDibs vintage Vitra/Herman Miller listing; Cult Design (AU) Fritz Hansen collection
-B1	G-B1-2	maker and licensor (design classics)		Who holds the licence follows authenticity.	proposals.tsv B1 row (quality_markers); Cult Design (AU) Fritz Hansen collection; Kinstore brand guides (Danish design)
-B1	G-B1-2	designer and period (design classics)		Collectors place a classic by designer and period.	proposals.tsv B1 row (quality_markers); 1stDibs vintage Vitra/Herman Miller listing
-B1	G-B1-2	materials and repairability (design classics)		Last of the design-classic markers.	proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge
-B1	G-B1-4	authenticity (design classics)	licensed original > reproduction	For design classics, on the maker or line; served by the Design houses & designers side view.	proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge; 1stDibs vintage Vitra/Herman Miller listing; Cult Design (AU) Fritz Hansen collection
-B1	G-B1-4	maker and licensor (design classics)		Who holds the licence follows authenticity.	proposals.tsv B1 row (quality_markers); Cult Design (AU) Fritz Hansen collection; Kinstore brand guides (Danish design)
-B1	G-B1-4	designer and period (design classics)		Collectors place a classic by designer and period.	proposals.tsv B1 row (quality_markers); 1stDibs vintage Vitra/Herman Miller listing
-B1	G-B1-4	materials and repairability (design classics)		Last of the design-classic markers.	proposals.tsv B1 row (quality_markers); Manhattan Nest: real vs fake Eames lounge
-B2	G-B2-1-1	fibre	extra-long-staple cotton, linen, silk > long-staple > short-staple and blends	Fibre leads bed-linen quality.	proposals.tsv B2 row (quality_markers); BAUR (DE) bed linen advice; Consumer NZ buying bed linen
-B2	G-B2-1-1	weave and finish	percale; sateen; Renforcé; jersey; flannel; finishes singeing, mercerising (a choice)	Weave sets the feel; finishing adds quality.	proposals.tsv B2 row (quality_markers); BAUR (DE) bed linen advice
-B2	G-B2-1-1	ply	single > multi-ply	Single-ply yarn is the better construction.	proposals.tsv B2 row (quality_markers); Consumer NZ buying bed linen
-B2	G-B2-1-1	weight		Fabric weight follows ply.	proposals.tsv B2 row (quality_markers); Consumer NZ buying bed linen
-B2	G-B2-1-1	thread count	weak above about 400; ply counting inflates it	Weighed last.	proposals.tsv B2 row (quality_markers); Consumer NZ buying bed linen
-B2	G-B2-1-1	colourfastness		Durability of the dye.	proposals.tsv B2 row (quality_markers); Consumer NZ buying bed linen
-B2	G-B2-1-2	fill	down fill power: about 900 best goose down > 600 > about 300 feathers	Fill decides duvets and pillows.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-1-2	tog (warmth)	by season, not a quality rank	Season is a filter on bedding.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-1-2	casing fibre		The shell follows the fill.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-1-3	fill	down fill power: about 900 best goose down > 600 > about 300 feathers	Fill decides duvets and pillows.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-1-3	tog (warmth)	by season, not a quality rank	Season is a filter on bedding.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-1-3	casing fibre		The shell follows the fill.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-3-1	material	silk > wool > synthetic	Material leads handmade rugs.	proposals.tsv B2 row (quality_markers); Rugs.com (retailer guide); Chairish Persian rug guide
-B2	G-B2-3-1	knot density	330+ kpsi very good > 120-330 medium to good > 80 or fewer poor	Knots per square inch rate the weave.	proposals.tsv B2 row (quality_markers); Rugs.com (retailer guide); Chairish Persian rug guide
-B2	G-B2-3-1	weaving tradition and tier	city or workshop; village; nomadic or tribal (a classification, not a ladder)	The rug side view: weaving environment > named weave > workshop.	proposals.tsv B2 row (quality_markers); Chairish Persian rug guide
-B2	G-B2-3-1	natural dyes and materials		Dealers value natural dyes.	proposals.tsv B2 row (quality_markers); Chairish Persian rug guide
-B2	G-B2-3-1	age, rarity and condition	condition never stored	Antique and rare pieces carry a premium.	proposals.tsv B2 row (quality_markers); Chairish Persian rug guide
-B2	G-B2-3-2	use class	EN 1307 use class	Machine-made rugs and fitted carpet are rated by use class.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-4-1	abrasion (Martindale)	20,000 rubs for domestic use	Durability of curtain and cover fabric.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-4-1	pilling grade	grade 1-5	Pilling follows abrasion.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-5-2	abrasion (Martindale)	20,000 rubs for domestic use	Durability of curtain and cover fabric.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-5-2	pilling grade	grade 1-5	Pilling follows abrasion.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-4-1	lining and opacity	blackout; thermal	Lining sets light and heat control.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-7-1	fibre and staple		Towels are judged by fibre first.	proposals.tsv B2 row (quality_markers)
-B2	G-B2-7-1	GSM	bands held until a fetched page shows them	Towel weight follows fibre.	proposals.tsv B2 row (quality_markers)
-B4	G-B4-1	material and regional craftsmanship		Vases and ceramics are judged by material and craft first.	proposals.tsv B4 row (quality_markers); 1stDibs ikebana vase search; Bon Traveler: vases on Etsy
-B4	G-B4-1	finish and patina	matte; glaze (a choice)	Surface follows material.	proposals.tsv B4 row (quality_markers); Bon Traveler: vases on Etsy
-B4	G-B4-1	maker or creator		Creators lead only in the dealer market.	proposals.tsv B4 row (quality_markers); 1stDibs ikebana vase search
-B4	G-B4-1	age and period	vintage or new	Dealers sort by period.	proposals.tsv B4 row (quality_markers); 1stDibs ikebana vase search
-B4	G-B4-1	form and size fit		Fit to the place.	proposals.tsv B4 row (quality_markers); Bon Traveler: vases on Etsy
-B4	G-B4-1	condition	never stored	Judged on the piece.	proposals.tsv B4 row (quality_markers); 1stDibs ikebana vase search
-B4	G-B4-2-1	fit to the space and placement		Mirrors are chosen for the place first.	proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
-B4	G-B4-2-1	glass	flat, undistorted glass	Distortion is the first quality fault.	proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
-B4	G-B4-2-1	silvering and backing	sealed, humidity-resistant backing	Backing keeps the silvering from failing.	proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
-B4	G-B4-2-1	frame or edge		Follows the glass.	proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
-B4	G-B4-2-1	mounting		Secure fixing for the size.	proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
-B4	G-B4-2-1	warranty	1-2 years	Last.	proposals.tsv B4 row (quality_markers); Lazada SG mirror guide
-B4	G-B4-3-1	scent throw	cold and hot throw	Throw leads candle tests.	proposals.tsv B4 row (quality_markers); Real Homes best candles
-B4	G-B4-3-1	clean, even burn	no soot or tunnelling	Burn quality follows throw.	proposals.tsv B4 row (quality_markers); Real Homes best candles
-B4	G-B4-3-1	scent quality and house		The house and scent family (a filter, never a level).	proposals.tsv B4 row (quality_markers); Real Homes best candles
-B4	G-B4-3-1	burn time		Hours per candle.	proposals.tsv B4 row (quality_markers); Real Homes best candles
-B4	G-B4-3-1	wax and fragrance load	(attributes)	Recorded as attributes.	proposals.tsv B4 row (quality_markers); Real Homes best candles
-B4	G-B4-4	scent and house	perfumer where named	Home fragrance is chosen by scent and house.	proposals.tsv B4 row (quality_markers)
-B4	G-B4-4	throw		How far the scent carries.	proposals.tsv B4 row (quality_markers)
-B4	G-B4-4	longevity		How long it lasts.	proposals.tsv B4 row (quality_markers)
-B4	G-B4-5-1	maker series and era (collectible ornaments)	condition codes in the grading registry only	Collectible ornaments are chosen by series and era.	proposals.tsv B4 row (quality_markers)
-B4	G-B4-7-2	tuned or untuned (wind chimes)	tuned; untuned (scale is an attribute)	Wind chimes split on tuning.	proposals.tsv B4 row (quality_markers)
-B4	G-B4-8-1	material grade	standard nylon; polyester; reinforced; commercial	Flags are chosen by material grade.	proposals.tsv B4 row (quality_markers)
-B4	G-B4-8-1	construction		Follows material.	proposals.tsv B4 row (quality_markers)
 B5	G-B5-1	heat evenness		Leads the Consumer Reports cookware test.	proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
 B5	G-B5-1	food release and cleanup	egg release test	Second in the test.	proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
 B5	G-B5-1	searing and simmering		Cooking performance.	proposals.tsv B5 row (quality_markers); Consumer Reports cookware (via ABC7)
@@ -397,30 +262,6 @@ B7	G-B7-10-3	power kW		Home batteries are compared on these, in this order.	prop
 B7	G-B7-10-3	cycle life		Home batteries are compared on these, in this order.	proposals.tsv B7 row (quality_markers); The Solar Store (US)
 B7	G-B7-10-3	compatibility with the inverter		Home batteries are compared on these, in this order.	proposals.tsv B7 row (quality_markers); The Solar Store (US)
 B7	G-B7-8	durability and finish		Which? survey; otherwise preference.	proposals.tsv B7 row (quality_markers); Which? on Victorian Plumbing bathrooms
-B8	G-B8-1-1	third-party rated grade	TS 007 3 stars > 1 star; BS 3621; Sold Secure Diamond > Gold > Silver > Bronze; ANSI/BHMA Grade 1 > 2 > 3; CEN 1-6; VdS classes	The rated grade comes first.	proposals.tsv B8 row (quality_markers); Door Furniture Direct cylinder guide; Testsieger.de Sicherheitstechnik
-B8	G-B8-1-1	attacks resisted	anti-snap; anti-pick; anti-drill; anti-bump	After the grade.	proposals.tsv B8 row (quality_markers); Door Furniture Direct cylinder guide
-B8	G-B8-1-1	fit	door type; cylinder length	Then fit.	proposals.tsv B8 row (quality_markers); Door Furniture Direct cylinder guide
-B8	G-B8-1-1	pick difficulty (enthusiasts)	LPU belt ranking	Lock enthusiasts rank by picking difficulty.	proposals.tsv B8 row (quality_markers); LockWiki LPU belt ranking
-B8	G-B8-1-3	third-party rated grade	Sold Secure Diamond > Gold > Silver > Bronze; CEN 1-6	Padlocks, chains and anchors are bought by rated grade.	proposals.tsv B8 row (quality_markers); Testsieger.de Sicherheitstechnik
-B8	G-B8-1-3	attacks resisted	anti-pick; anti-drill	After the grade.	proposals.tsv B8 row (quality_markers)
-B8	G-B8-1-3	pick difficulty (enthusiasts)	LPU belt ranking	Enthusiast ranking.	proposals.tsv B8 row (quality_markers); LockWiki LPU belt ranking
-B8	G-B8-1-4	burglary rating	EN 1143-1 grades; UL RSC I-III; TL-30x6 > TL-30 > TL-15	Burglary rating first.	proposals.tsv B8 row (quality_markers); Liberty Safe (maker blog on UL and ETL ratings)
-B8	G-B8-1-4	fire class (if wanted)	UL Class 350; 150; 125, with minutes (a fire safe is not a burglary safe)	Fire rating is separate from burglary rating.	proposals.tsv B8 row (quality_markers); Liberty Safe (maker blog on UL and ETL ratings)
-B8	G-B8-1-4	fit	bolting down	Last.	proposals.tsv B8 row (quality_markers); Liberty Safe (maker blog on UL and ETL ratings)
-B8	G-B8-2-1	sensor type	photoelectric preferred	Sensor type leads.	proposals.tsv B8 row (quality_markers); CHOICE Australia smoke alarm guide
-B8	G-B8-2-1	certification	AS 3786; EN 14604	Certified to the national standard.	proposals.tsv B8 row (quality_markers); CHOICE Australia smoke alarm guide
-B8	G-B8-2-1	sealed 10-year battery		Battery life.	proposals.tsv B8 row (quality_markers); CHOICE Australia smoke alarm guide
-B8	G-B8-2-1	interconnection		Linked alarms.	proposals.tsv B8 row (quality_markers); CHOICE Australia smoke alarm guide
-B8	G-B8-2-1	hush and test features		Last.	proposals.tsv B8 row (quality_markers); CHOICE Australia smoke alarm guide
-B8	G-B8-1-6	video quality day and night		Consumer Reports order for cameras and doorbells.	proposals.tsv B8 row (quality_markers); Consumer Reports security cameras
-B8	G-B8-1-6	alert speed		Consumer Reports order for cameras and doorbells.	proposals.tsv B8 row (quality_markers); Consumer Reports security cameras
-B8	G-B8-1-6	smart detection		Consumer Reports order for cameras and doorbells.	proposals.tsv B8 row (quality_markers); Consumer Reports security cameras
-B8	G-B8-1-6	data security and privacy		Consumer Reports order for cameras and doorbells.	proposals.tsv B8 row (quality_markers); Consumer Reports security cameras
-B8	G-B8-1-6	local against cloud storage	local; cloud (a choice)	Consumer Reports order for cameras and doorbells.	proposals.tsv B8 row (quality_markers); Consumer Reports security cameras
-B8	G-B8-2-2	fire class rating	e.g. 13A, 34B	Extinguishers are rated by fire class.	proposals.tsv B8 row (quality_markers)
-B8	G-B8-3-1	standard met	EN 1930; ASTM F1004	Child gates first by standard.	proposals.tsv B8 row (quality_markers)
-B8	G-B8-3-1	mount type for top of stairs	hardware-mounted for the top of stairs	Then mounting.	proposals.tsv B8 row (quality_markers)
-B8	G-B8-4	target pest and form	preference (no grade)	Pest control has no grade ladder.	proposals.tsv B8 row (quality_markers)
 C2	G-C2-101	cut quality		Which? gives it 50 to 51 percent; Consumer NZ tests long grass.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
 C2	G-C2-101	ease of use (weight, handling, starting, emptying)		Which? gives it 30 percent.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers
 C2	G-C2-101	battery run time and spare-battery availability		Consumer NZ about 50 minutes; part of the Which? Best Buy rule.	proposals.tsv C2 row (quality_markers); Which? how we test lawn mowers; Consumer NZ lawnmower guide
@@ -971,3 +812,156 @@ C1	G-C1-R2	Maker or smith		Premium hand tools are compared maker by maker.	rewri
 C1	G-C1-R3	Duty class	frequent use > regular use > occasional use	Workshop machines are sorted by duty first.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
 C1	G-C1-R3	Build and motor power		Compared within the same duty class.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
 C1	G-C1-R4	Accuracy and resolution		The one thing that matters for measuring and test tools.	rewritten from the stored C1 markers (G-C1-2, G-C1-3, G-C1-5) in plain words, RD_C1
+A5	G-A5-R1; G-A5-R2; G-A5-R3; G-A5-R4	Movement	in-house calibre > reputable supplier calibre; mechanical or automatic the enthusiast default	Weighed first, for prestige and servicing.	rewritten from the stored A5 markers (G-A5-1, G-A5-11), RD_A5
+A5	G-A5-R1; G-A5-R2; G-A5-R3; G-A5-R4	Accuracy and certification	Rolex Superlative Chronometer -2/+2 s/day > COSC -4/+6 s/day > uncertified	Based on published accuracy figures only; maker seals are listed as features, not tiers.	rewritten from the stored A5 markers (G-A5-1, G-A5-11), RD_A5
+A5	G-A5-R1; G-A5-R2; G-A5-R3; G-A5-R4	Finishing and decoration		Weighed after movement and accuracy.	rewritten from the stored A5 markers (G-A5-1, G-A5-11), RD_A5
+A5	G-A5-R1; G-A5-R2; G-A5-R3; G-A5-R4	Case and bracelet build		Screw bars and clasp quality.	rewritten from the stored A5 markers (G-A5-1, G-A5-11), RD_A5
+A5	G-A5-R1; G-A5-R2; G-A5-R3; G-A5-R4	Crystal	sapphire with anti-reflective coating > mineral > hesalite	Glass ladder as published by the shops checked.	rewritten from the stored A5 markers (G-A5-1, G-A5-11), RD_A5
+A5	G-A5-R1; G-A5-R2; G-A5-R3; G-A5-R4	Lume		Super-LumiNova is the reference luminous paint.	rewritten from the stored A5 markers (G-A5-1, G-A5-11), RD_A5
+A5	G-A5-R1	Water resistance (dive watches)	ISO 6425 diver's watch > not certified	ISO 6425 sets the standard for dive watches.	rewritten from the stored A5 markers (G-A5-1, G-A5-11), RD_A5
+A5	G-A5-R1; G-A5-R2; G-A5-R3; G-A5-R4	Anti-magnetism		Weighed with the build markers.	rewritten from the stored A5 markers (G-A5-1, G-A5-11), RD_A5
+A5	G-A5-R1; G-A5-R2; G-A5-R3; G-A5-R4	Brand pedigree, design and value retention		Weighed last by enthusiasts.	rewritten from the stored A5 markers (G-A5-1, G-A5-11), RD_A5
+A5	G-A5-R1; G-A5-R2; G-A5-R3; G-A5-R4	Fit on the wrist	wrist size 38-42 mm	Beginners start with taste, wrist size and lifestyle.	rewritten from the stored A5 markers (G-A5-1, G-A5-11), RD_A5
+A4	G-A4-R3	Fabric	type and weave first (for example CORDURA, X-PAC); 420D-500D for travel packs	Fabric is weighed first; denier alone does not decide.	rewritten from the stored A4 markers (G-A4-1), RD_A4
+A4	G-A4-R3	Construction		Double stitch lines, bar tacks, reinforced bottom and strap anchors.	rewritten from the stored A4 markers (G-A4-1), RD_A4
+A4	G-A4-R3	Hardware		Large YKK or other coil zippers (they fail first); wheels, wheel housings, telescoping handle and corners.	rewritten from the stored A4 markers (G-A4-1), RD_A4
+A4	G-A4-R3	Design and fit		Weighed after materials and build.	rewritten from the stored A4 markers (G-A4-1), RD_A4
+A4	G-A4-R3	Warranty and repairability	lifetime > limited	A long warranty and a repair service signal a bag built to last.	rewritten from the stored A4 markers (G-A4-1), RD_A4
+A4	G-A4-R2	Fabric	type and weave first (for example CORDURA, X-PAC); 420D-500D for travel packs	Fabric is weighed first; denier alone does not decide.	rewritten from the stored A4 markers (G-A4-2), RD_A4
+A4	G-A4-R2	Construction		Double stitch lines, bar tacks, reinforced bottom and strap anchors.	rewritten from the stored A4 markers (G-A4-2), RD_A4
+A4	G-A4-R2	Hardware		Large YKK or other coil zippers (they fail first); buckles and strap anchors.	rewritten from the stored A4 markers (G-A4-2), RD_A4
+A4	G-A4-R2	Design and fit		Weighed after materials and build.	rewritten from the stored A4 markers (G-A4-2), RD_A4
+A4	G-A4-R2	Warranty and repairability	lifetime > limited	A long warranty and a repair service signal a bag built to last.	rewritten from the stored A4 markers (G-A4-2), RD_A4
+A4	G-A4-R1	Craftsmanship (luxury handbags)		Hand labour leads (about 48 hours per Hermes bag).	rewritten from the stored A4 markers (G-A4-3), RD_A4
+A4	G-A4-R1	Leather	exotic and full-grain > top-grain	Leather grade follows craftsmanship.	rewritten from the stored A4 markers (G-A4-3), RD_A4
+A4	G-A4-R1	Classic shape and house model		Icon models hold their value.	rewritten from the stored A4 markers (G-A4-3), RD_A4
+A4	G-A4-R1	Scarcity		Limited supply raises desirability.	rewritten from the stored A4 markers (G-A4-3), RD_A4
+A4	G-A4-R1	Resale value		Resale value is weighed last.	rewritten from the stored A4 markers (G-A4-3), RD_A4
+A3	A3	How well the stone is cut		Cut is weighed first of the four stone grades (the 4Cs); applies to every stone-set piece.	rewritten from the stored A3 markers (G-A3-1), RD_A3
+A3	A3	Stone colour		Second of the 4Cs; graded on the GIA colour scale, D to Z.	rewritten from the stored A3 markers (G-A3-1), RD_A3
+A3	A3	Stone clarity		Third of the 4Cs.	rewritten from the stored A3 markers (G-A3-1), RD_A3
+A3	A3	Carat weight		Last of the 4Cs; a higher carat is not automatically better.	rewritten from the stored A3 markers (G-A3-1), RD_A3
+A3	A3	Certificate and who issued it		Buyers trust a grading certificate and weigh which lab issued it.	rewritten from the stored A3 markers (G-A3-1), RD_A3
+A3	A3	Metal purity	gold 24K 995 > 22K 916 > 20K 833 > 18K 750 > 14K 585; silver 990 down to 800; platinum 950	Purity (fineness) is the hallmarked measure of the metal.	rewritten from the stored A3 markers (G-A3-1), RD_A3
+A3	A3	Solid or plated	solid > plated	Solid precious metal outranks a plated base metal.	rewritten from the stored A3 markers (G-A3-1), RD_A3
+A3	A3	Maker's mark (vintage and antique pieces)	signed > unsigned	Collectors weigh the signature first.	rewritten from the stored A3 markers (G-A3-1), RD_A3
+A3	A3	Period, materials and rarity (vintage and antique pieces)		Weighed after the maker's mark.	rewritten from the stored A3 markers (G-A3-1), RD_A3
+A3	A3	Workmanship of setting and finish		No shop ladder fetched; kept from the earlier notes.	rewritten from the stored A3 markers (G-A3-1), RD_A3
+A2	G-A2-R2	Construction	hand-welted > Goodyear welted > Blake or Blake Rapid > cemented	Comes first for shoes: it decides whether the shoe can be resoled, how long it lasts and how comfortable it is on day one.	rewritten from the stored A2 markers (G-A2-2), RD_A2
+A2	G-A2-R2	Leather quality	full-grain calf, shell cordovan > corrected grain	Weighed after construction.	rewritten from the stored A2 markers (G-A2-2), RD_A2
+A2	G-A2-R2	Shape of the last		The last sets fit and look; follows the leather. A matter of choice, not a ranking.	rewritten from the stored A2 markers (G-A2-2), RD_A2
+A2	G-A2-R2	Hand finishing and workmanship	the maker's hand-grade line > its main line (for example Hand Grade)	Grade lines within one maker show the finishing; compare them only within that maker.	rewritten from the stored A2 markers (G-A2-2), RD_A2
+A2	G-A2-R2	Value		Price set against the points above, weighed last.	rewritten from the stored A2 markers (G-A2-2), RD_A2
+A2	G-A2-R3	Construction	hand-welted > Goodyear welted > Blake or Blake Rapid > cemented	Comes first for boots: it decides whether the shoe can be resoled, how long it lasts and how comfortable it is on day one.	rewritten from the stored A2 markers (G-A2-3), RD_A2
+A2	G-A2-R3	Leather quality	full-grain calf, shell cordovan > corrected grain	Weighed after construction.	rewritten from the stored A2 markers (G-A2-3), RD_A2
+A2	G-A2-R3	Shape of the last		The last sets fit and look; follows the leather. A matter of choice, not a ranking.	rewritten from the stored A2 markers (G-A2-3), RD_A2
+A2	G-A2-R3	Hand finishing and workmanship	the maker's hand-grade line > its main line (for example Hand Grade)	Grade lines within one maker show the finishing; compare them only within that maker.	rewritten from the stored A2 markers (G-A2-3), RD_A2
+A2	G-A2-R3	Value		Price set against the points above, weighed last.	rewritten from the stored A2 markers (G-A2-3), RD_A2
+A2	G-A2-R1	Model and release		Sneakers are chosen by model and release first.	rewritten from the stored A2 markers (G-A2-8), RD_A2
+A2	G-A2-R1	Authenticity		Resale buying turns on a verified genuine pair.	rewritten from the stored A2 markers (G-A2-8), RD_A2
+A2	G-A2-R1	Condition		Condition sets resale value.	rewritten from the stored A2 markers (G-A2-8), RD_A2
+A2	G-A2-R1	Rarity		Limited releases rank above general releases for collectors.	rewritten from the stored A2 markers (G-A2-8), RD_A2
+A2	G-A2-R1	Fit	about a thumb's width at the toe	Checked first for running and walking shoes.	rewritten from the stored A2 markers (G-A2-9), RD_A2
+A2	G-A2-R1	Cushioning matched to distance		Cushioning is chosen for the distance run; a matter of choice.	rewritten from the stored A2 markers (G-A2-9), RD_A2
+A2	G-A2-R1	Type of support	neutral; stability; motion control	Support is matched to the runner's gait; a choice, not a ranking.	rewritten from the stored A2 markers (G-A2-9), RD_A2
+A2	G-A2-R1	Drop and stack height		Heel-to-toe drop and stack height are compared last.	rewritten from the stored A2 markers (G-A2-9), RD_A2
+A2	G-A2-R1	Wear life	replace at 300-500 miles	Worn-out cushioning ends a running shoe's useful life.	rewritten from the stored A2 markers (G-A2-9), RD_A2
+B1	G-B1-R1	Frame	kiln-dried hardwood, corner-blocked, dowelled or jointed > stapled softwood or particleboard	Sofas and armchairs are judged from the inside out, frame first.	rewritten from the stored B1 markers (G-B1-1), RD_B1
+B1	G-B1-R1	Springs and support	eight-way hand-tied springs > sinuous springs > webbing	The spring system comes after the frame.	rewritten from the stored B1 markers (G-B1-1), RD_B1
+B1	G-B1-R1	Cushion filling	high-density foam, 1.8 lb per cubic foot or more	Foam density sets how the seat holds up.	rewritten from the stored B1 markers (G-B1-1), RD_B1
+B1	G-B1-R1	Fabric wear rating (Martindale)	100,000+ severe contract > 40,000+ contract > 25,000-40,000 heavy domestic > 15,000-25,000 general domestic > 10,000-15,000 light domestic > under 10,000 decorative	The rub count rates the cover for its use.	rewritten from the stored B1 markers (G-B1-1), RD_B1
+B1	G-B1-R1	Stitching and finish		Visible workmanship follows the hidden construction.	rewritten from the stored B1 markers (G-B1-1), RD_B1
+B1	G-B1-R1	Frame warranty	5-10 years	A long frame warranty backs the construction.	rewritten from the stored B1 markers (G-B1-1), RD_B1
+B1	G-B1-R4	Frame (upholstered and wooden chairs)	kiln-dried hardwood, corner-blocked, dowelled or jointed > stapled softwood or particleboard	Upholstered seating is judged frame first; chairs share this.	rewritten from the stored B1 markers (G-B1-2), RD_B1
+B1	G-B1-R4	Fabric wear rating (Martindale)	100,000+ severe contract > 40,000+ contract > 25,000-40,000 heavy domestic > 15,000-25,000 general domestic > 10,000-15,000 light domestic > under 10,000 decorative	Applies to upholstered chairs and stools.	rewritten from the stored B1 markers (G-B1-2), RD_B1
+B1	G-B1-R2	Mattress construction	innerspring; foam; hybrid; latex; airbed (a choice, not a ranking)	Mattresses are chosen by construction first.	rewritten from the stored B1 markers (G-B1-3-2), RD_B1
+B1	G-B1-R2	Firmness	1-10 scale or H1-H5 (never compared across scales)	Firmness is matched to the sleeper.	rewritten from the stored B1 markers (G-B1-3-2), RD_B1
+B1	G-B1-R2	Support and pressure relief		Follows construction and firmness.	rewritten from the stored B1 markers (G-B1-3-2), RD_B1
+B1	G-B1-R2	Durability and materials		Material quality sets lifespan.	rewritten from the stored B1 markers (G-B1-3-2), RD_B1
+B1	G-B1-R3	Material	solid wood > veneer on plywood > veneer on particleboard or MDF	Cabinets and tables are judged by the main material first.	rewritten from the stored B1 markers (G-B1-4), RD_B1
+B1	G-B1-R3	Joints	dovetail > dowel or mortise > cam-lock or staple	Joints come after material.	rewritten from the stored B1 markers (G-B1-4), RD_B1
+B1	G-B1-R3	Sturdiness	no wobble	A test you can do in the shop.	rewritten from the stored B1 markers (G-B1-4), RD_B1
+B1	G-B1-R3	Finish		Last of the cabinet and table markers.	rewritten from the stored B1 markers (G-B1-4), RD_B1
+B1	G-B1-R5	Material	solid wood > veneer on plywood > veneer on particleboard or MDF	Cabinets and tables are judged by the main material first.	rewritten from the stored B1 markers (G-B1-5), RD_B1
+B1	G-B1-R5	Joints	dovetail > dowel or mortise > cam-lock or staple	Joints come after material.	rewritten from the stored B1 markers (G-B1-5), RD_B1
+B1	G-B1-R5	Sturdiness	no wobble	A test you can do in the shop.	rewritten from the stored B1 markers (G-B1-5), RD_B1
+B1	G-B1-R5	Finish		Last of the cabinet and table markers.	rewritten from the stored B1 markers (G-B1-5), RD_B1
+B1	G-B1-R1	Authenticity (design classics)	licensed original > reproduction	For design classics, judged on the maker or line; the Design houses & designers view serves this.	rewritten from the stored B1 markers (G-B1-1), RD_B1
+B1	G-B1-R1	Maker and licence holder (design classics)		Who holds the licence follows authenticity.	rewritten from the stored B1 markers (G-B1-1), RD_B1
+B1	G-B1-R1	Designer and period (design classics)		Collectors place a classic by designer and period.	rewritten from the stored B1 markers (G-B1-1), RD_B1
+B1	G-B1-R1	Materials and repairability (design classics)		Last of the design-classic markers.	rewritten from the stored B1 markers (G-B1-1), RD_B1
+B1	G-B1-R4	Authenticity (design classics)	licensed original > reproduction	For design classics, judged on the maker or line; the Design houses & designers view serves this.	rewritten from the stored B1 markers (G-B1-2), RD_B1
+B1	G-B1-R4	Maker and licence holder (design classics)		Who holds the licence follows authenticity.	rewritten from the stored B1 markers (G-B1-2), RD_B1
+B1	G-B1-R4	Designer and period (design classics)		Collectors place a classic by designer and period.	rewritten from the stored B1 markers (G-B1-2), RD_B1
+B1	G-B1-R4	Materials and repairability (design classics)		Last of the design-classic markers.	rewritten from the stored B1 markers (G-B1-2), RD_B1
+B1	G-B1-R3	Authenticity (design classics)	licensed original > reproduction	For design classics, judged on the maker or line; the Design houses & designers view serves this.	rewritten from the stored B1 markers (G-B1-4), RD_B1
+B1	G-B1-R3	Maker and licence holder (design classics)		Who holds the licence follows authenticity.	rewritten from the stored B1 markers (G-B1-4), RD_B1
+B1	G-B1-R3	Designer and period (design classics)		Collectors place a classic by designer and period.	rewritten from the stored B1 markers (G-B1-4), RD_B1
+B1	G-B1-R3	Materials and repairability (design classics)		Last of the design-classic markers.	rewritten from the stored B1 markers (G-B1-4), RD_B1
+B2	G-B2-R1	Fibre	extra-long-staple cotton, linen, silk > long-staple > short-staple and blends	Fibre leads bed-linen quality.	rewritten from the stored B2 markers (G-B2-1-1), RD_B2
+B2	G-B2-R1	Weave and finish	percale; sateen; Renforcé; jersey; flannel; finishes such as singeing and mercerising are a choice	Weave sets the feel; finishing adds quality.	rewritten from the stored B2 markers (G-B2-1-1), RD_B2
+B2	G-B2-R1	Ply	single > multi-ply	Single-ply yarn is the better construction.	rewritten from the stored B2 markers (G-B2-1-1), RD_B2
+B2	G-B2-R1	Weight		Fabric weight follows ply.	rewritten from the stored B2 markers (G-B2-1-1), RD_B2
+B2	G-B2-R1	Thread count	weak above about 400; counting plies inflates it	Weighed last.	rewritten from the stored B2 markers (G-B2-1-1), RD_B2
+B2	G-B2-R1	Colourfastness		How well the dye holds.	rewritten from the stored B2 markers (G-B2-1-1), RD_B2
+B2	G-B2-R1	Fill	down fill power: about 900 best goose down > 600 > about 300 feathers	Fill decides duvets and pillows.	rewritten from the stored B2 markers (G-B2-1-2, G-B2-1-3), RD_B2
+B2	G-B2-R1	Warmth (tog)	by season, not a quality rank	Season is a filter on bedding.	rewritten from the stored B2 markers (G-B2-1-2, G-B2-1-3), RD_B2
+B2	G-B2-R1	Casing fibre		The shell follows the fill.	rewritten from the stored B2 markers (G-B2-1-2, G-B2-1-3), RD_B2
+B2	G-B2-R2	Rub resistance (Martindale)	20,000 rubs for domestic use	How long cover fabric lasts.	rewritten from the stored B2 markers (G-B2-5-2), RD_B2
+B2	G-B2-R2	Pilling grade	grade 1-5	Pilling follows rub resistance.	rewritten from the stored B2 markers (G-B2-5-2), RD_B2
+B2	G-B2-R3	Material	silk > wool > synthetic	Material leads handmade rugs.	rewritten from the stored B2 markers (G-B2-3-1), RD_B2
+B2	G-B2-R3	Knot density	330+ knots per square inch very good > 120-330 medium to good > 80 or fewer poor	Knots per square inch rate the weave.	rewritten from the stored B2 markers (G-B2-3-1), RD_B2
+B2	G-B2-R3	Weaving tradition and tier	city or workshop; village; nomadic or tribal (a classification, not a ranking)	The rug side view: where it was woven, then the named weave, then the workshop.	rewritten from the stored B2 markers (G-B2-3-1), RD_B2
+B2	G-B2-R3	Natural dyes and materials		Dealers value natural dyes.	rewritten from the stored B2 markers (G-B2-3-1), RD_B2
+B2	G-B2-R3	Age, rarity and condition	condition is never recorded	Antique and rare pieces carry a premium.	rewritten from the stored B2 markers (G-B2-3-1), RD_B2
+B2	G-B2-R3	Use class	EN 1307 use class	Machine-made rugs and fitted carpet are rated by use class.	rewritten from the stored B2 markers (G-B2-3-2), RD_B2
+B2	G-B2-R4	Rub resistance (Martindale)	20,000 rubs for domestic use	How long curtain fabric lasts.	rewritten from the stored B2 markers (G-B2-4-1), RD_B2
+B2	G-B2-R4	Pilling grade	grade 1-5	Pilling follows rub resistance.	rewritten from the stored B2 markers (G-B2-4-1), RD_B2
+B2	G-B2-R4	Lining and opacity	blackout; thermal	Lining sets light and heat control.	rewritten from the stored B2 markers (G-B2-4-1), RD_B2
+B2	G-B2-R5	Fibre and staple		Towels are judged by fibre first.	rewritten from the stored B2 markers (G-B2-7-1), RD_B2
+B2	G-B2-R5	Weight (GSM)	bands held until a fetched page shows them	Towel weight follows fibre.	rewritten from the stored B2 markers (G-B2-7-1), RD_B2
+B4	G-B4-R1	Material and regional craft		Vases and ceramics are judged by material and craft first.	rewritten from the stored B4 markers (G-B4-1), RD_B4
+B4	G-B4-R1	Finish and patina	matte; glaze (a choice)	Surface follows material.	rewritten from the stored B4 markers (G-B4-1), RD_B4
+B4	G-B4-R1	Maker or creator		Makers lead only in the dealer market.	rewritten from the stored B4 markers (G-B4-1), RD_B4
+B4	G-B4-R1	Age and period	vintage or new	Dealers sort by period.	rewritten from the stored B4 markers (G-B4-1), RD_B4
+B4	G-B4-R1	Shape and size fit		Fit to the place.	rewritten from the stored B4 markers (G-B4-1), RD_B4
+B4	G-B4-R1	Condition	judged on the piece, never recorded in advance	Judged on the piece.	rewritten from the stored B4 markers (G-B4-1), RD_B4
+B4	G-B4-R2	Fit to the space and where it hangs		Mirrors are chosen for the place first.	rewritten from the stored B4 markers (G-B4-2-1), RD_B4
+B4	G-B4-R2	Glass	flat, undistorted glass	Distortion is the first quality fault.	rewritten from the stored B4 markers (G-B4-2-1), RD_B4
+B4	G-B4-R2	Silvering and backing	sealed, humidity-resistant backing	Backing keeps the silvering from failing.	rewritten from the stored B4 markers (G-B4-2-1), RD_B4
+B4	G-B4-R2	Frame or edge		Follows the glass.	rewritten from the stored B4 markers (G-B4-2-1), RD_B4
+B4	G-B4-R2	Mounting		Secure fixing for the size.	rewritten from the stored B4 markers (G-B4-2-1), RD_B4
+B4	G-B4-R2	Warranty	1-2 years	Checked last.	rewritten from the stored B4 markers (G-B4-2-1), RD_B4
+B4	G-B4-R3	Scent throw	cold and hot throw	Throw leads candle tests.	rewritten from the stored B4 markers (G-B4-3-1), RD_B4
+B4	G-B4-R3	Clean, even burn	no soot or tunnelling	Burn quality follows throw.	rewritten from the stored B4 markers (G-B4-3-1), RD_B4
+B4	G-B4-R3	Scent quality and brand		The brand and scent family; a filter rather than a department.	rewritten from the stored B4 markers (G-B4-3-1), RD_B4
+B4	G-B4-R3	Burn time		Hours per candle.	rewritten from the stored B4 markers (G-B4-3-1), RD_B4
+B4	G-B4-R3	Wax and fragrance load		Recorded as details of each candle.	rewritten from the stored B4 markers (G-B4-3-1), RD_B4
+B4	G-B4-R4	Scent and brand	perfumer where named	Home fragrance is chosen by scent and brand.	rewritten from the stored B4 markers (G-B4-4), RD_B4
+B4	G-B4-R4	Throw		How far the scent carries.	rewritten from the stored B4 markers (G-B4-4), RD_B4
+B4	G-B4-R4	Longevity		How long it lasts.	rewritten from the stored B4 markers (G-B4-4), RD_B4
+B4	G-B4-R5	Maker series and era (collectible ornaments)	condition codes are kept in the grading list only	Collectible ornaments are chosen by series and era.	rewritten from the stored B4 markers (G-B4-5-1), RD_B4
+B4	G-B4-R7	Tuned or untuned (wind chimes)	tuned; untuned (the scale is a detail of each chime)	Wind chimes split on tuning.	rewritten from the stored B4 markers (G-B4-7-2), RD_B4
+B4	G-B4-R8	Material grade	standard nylon; polyester; reinforced; commercial	Flags are chosen by material grade.	rewritten from the stored B4 markers (G-B4-8-1), RD_B4
+B4	G-B4-R8	Construction		Follows material.	rewritten from the stored B4 markers (G-B4-8-1), RD_B4
+B8	G-B8-R1	Rated grade (doors and padlocks)	TS 007 3 stars > 1 star; BS 3621; Sold Secure Diamond > Gold > Silver > Bronze; ANSI/BHMA Grade 1 > 2 > 3; CEN 1-6; VdS classes	The independently tested grade comes first; padlocks and chains are bought the same way.	rewritten from the stored B8 markers (G-B8-1-1, G-B8-1-3), RD_B8
+B8	G-B8-R1	Attacks resisted	anti-snap; anti-pick; anti-drill; anti-bump	Comes after the grade.	rewritten from the stored B8 markers (G-B8-1-1, G-B8-1-3), RD_B8
+B8	G-B8-R1	Fit	door type; cylinder length	Then fit.	rewritten from the stored B8 markers (G-B8-1-1, G-B8-1-3), RD_B8
+B8	G-B8-R1	Picking difficulty (for lock enthusiasts)	LockPickers United belt ranking	Enthusiasts rank locks by how hard they are to pick.	rewritten from the stored B8 markers (G-B8-1-1, G-B8-1-3), RD_B8
+B8	G-B8-R2	Burglary rating	EN 1143-1 grades; UL RSC I-III; TL-30x6 > TL-30 > TL-15	Burglary rating comes first.	rewritten from the stored B8 markers (G-B8-1-4), RD_B8
+B8	G-B8-R2	Fire rating (if wanted)	UL Class 350; 150; 125, with minutes (a fire safe is not a burglary safe)	Fire rating is separate from burglary rating.	rewritten from the stored B8 markers (G-B8-1-4), RD_B8
+B8	G-B8-R2	Fit	bolting down	Last.	rewritten from the stored B8 markers (G-B8-1-4), RD_B8
+B8	G-B8-R3	Video quality day and night		Consumer Reports order for cameras and doorbells.	rewritten from the stored B8 markers (G-B8-1-6), RD_B8
+B8	G-B8-R3	Alert speed		Consumer Reports order for cameras and doorbells.	rewritten from the stored B8 markers (G-B8-1-6), RD_B8
+B8	G-B8-R3	Smart detection		Consumer Reports order for cameras and doorbells.	rewritten from the stored B8 markers (G-B8-1-6), RD_B8
+B8	G-B8-R3	Data security and privacy		Consumer Reports order for cameras and doorbells.	rewritten from the stored B8 markers (G-B8-1-6), RD_B8
+B8	G-B8-R3	Local or cloud storage	local; cloud (a choice)	Consumer Reports order for cameras and doorbells.	rewritten from the stored B8 markers (G-B8-1-6), RD_B8
+B8	G-B8-R4	Sensor type	photoelectric preferred	Sensor type leads for smoke alarms.	rewritten from the stored B8 markers (G-B8-2-1, G-B8-2-2), RD_B8
+B8	G-B8-R4	Certification	AS 3786; EN 14604	Certified to the national standard.	rewritten from the stored B8 markers (G-B8-2-1, G-B8-2-2), RD_B8
+B8	G-B8-R4	Sealed 10-year battery		Battery life.	rewritten from the stored B8 markers (G-B8-2-1, G-B8-2-2), RD_B8
+B8	G-B8-R4	Interconnection		Alarms that link up so all sound together.	rewritten from the stored B8 markers (G-B8-2-1, G-B8-2-2), RD_B8
+B8	G-B8-R4	Hush and test buttons		Last.	rewritten from the stored B8 markers (G-B8-2-1, G-B8-2-2), RD_B8
+B8	G-B8-R4	Fire class rating of extinguishers	e.g. 13A, 34B	Extinguishers are rated by fire class.	rewritten from the stored B8 markers (G-B8-2-1, G-B8-2-2), RD_B8
+B8	G-B8-R5	Standard met (gates)	EN 1930; ASTM F1004	Child gates are chosen first by the standard they meet.	rewritten from the stored B8 markers (G-B8-3-1), RD_B8
+B8	G-B8-R5	Mounting (gates)	hardware-mounted for the top of stairs	Then how it fixes.	rewritten from the stored B8 markers (G-B8-3-1), RD_B8
+B8	G-B8-R6	Target pest and form	preference (no grade)	Pest control has no grade ladder.	rewritten from the stored B8 markers (G-B8-4), RD_B8

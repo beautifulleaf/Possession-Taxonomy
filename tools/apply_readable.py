@@ -40,7 +40,8 @@ for g in G:
     if n > 15: warn.append(f"{g['group_id']} {g['group_name']}: {n} kinds")
 if MK is not None:
     for m in MK:
-        if m["group_id"] not in ids: err.append(f"marker '{m['marker']}' points at {m['group_id']}, not a new group")
+        for gid in [x.strip() for x in m["group_id"].split(";") if x.strip()]:  # a marker may serve several departments
+            if gid not in ids and gid != code: err.append(f"marker '{m['marker']}' points at {gid}, not a new group")
 print(f"{b} {code}: {len(K)} kinds, {len(D)} display rows, {len(tops)} departments, {len(G) - len(tops)} shelves")
 for w in warn: print("  warn:", w)
 for e in err: print("  ERROR:", e)

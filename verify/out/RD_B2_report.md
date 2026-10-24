@@ -1,0 +1,7 @@
+# RD_B2 report (B2 Soft Furnishings)
+Departments (6): Bedding; Cushions & covers; Rugs & mats; Curtains & blinds; Towels & wraps; Table & kitchen linen. Basis: IKEA Austria textiles (rugs, bedding, cushions, blankets & throws, bath textiles, table linen, kitchen textiles) and Urban Outfitters UK (rugs, bedding, cushions & throws, curtains), both fetched in full, plus the stored input evidence. Blankets & throws became a shelf of Bedding (only two kinds); curtain fittings became a shelf of Curtains & blinds; rug pad sits with rugs.
+Shelves: 13 plus two small departments with members directly (Towels & wraps 9, Table & kitchen linen 5). Sizes: Bed linen 6, Duvets & quilts 5, Pillows 3, Blankets & throws 3, Mattress covers & toppers 3, Cushions & pads 5, Cushion/sofa/chair covers 3, Rugs & carpet 7, Hide/felt/rag rugs 3, Mats 5, Curtains 4, Blinds & shades 8, Poles/tracks/fittings 5.
+Names changed: 23 of 74. Descriptions rewritten: 10 (working words such as attribute, fits, B5).
+Markers: all 22 carried over; the duplicated bedding and curtain/cover markers were each attached once per department (Martindale and pilling appear in both Cushions & covers and Curtains & blinds).
+Checker: no errors, no warnings.
+For a person to decide: Studio backdrop (photo studio) may belong in Cameras & Photography; Meditation mat/cushion and Kotatsu cover are niche; Positioning cushion is arguably a Health, Medical & Mobility item; Swaddling cloth and Carry cloth sit under Towels & wraps only for want of a better shelf; Bed pillow vs Positioning cushion overlap is minor.
