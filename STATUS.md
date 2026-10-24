@@ -209,5 +209,20 @@ Owner rulings this session (BRIEF.md, 2026-10-24): no country backfill, and coun
 
 Open: M-nika conflates three Russian firms (verify/out/open_maker_splits.tsv); 69 storefront-class makers with vague notes; clothing kinds still missing (gharara, sharara, anarkali, changing robe, cagoule, tracksuit as a set); second decision passes for the wave-1 "missing kind?" lists (MKH_*_report.md); D5 regional names owed as aliases; D5 platform rows; one D5 move waits for a B1 kind.
 
-## Next (session 6)
-See SESSION_6_PROMPT.md.
+## Session 6 (2026-10-24) — origin and grade, second decision passes, owner rulings on busy work and "buy the best", holistic organisation of all 53 categories, clothing genres
+Worked on branch `claude/blissful-hopper-oyzk13` (fast-forwarded from `claude/stoic-ptolemy-4nctsh`). Decisions R-112 to R-117 in framework/structure/decisions/D4_residual.md.
+
+Owner rulings this session (BRIEF.md, session 6): no busy work on clothing retries, genre framing first; groceries organised around buying the best; every category re-evaluated for its best holistic organisation; decisions delegated to Claude while the owner sleeps.
+
+| Step | Result |
+|---|---|
+| 1. Grocery origin and grade | Tables widened (R-112). OG_J3_EU/ROW, OG_J2, OG_J4_EU1/EU2/ROW1/ROW2, VR_J3, VR_J3_2, VR_J4_1–3, GR_J3, GR_J4 (tools/load_og.py): 973 protected designations (EU, UK, CH, TR, GE, IN, CN, JP, KR, VN, LatAm), 988 varieties and breeds, 62 grading scales; designations binding one kind became non-maker named forms (renamed with the register spelling where corrected). eAmbrosia is JavaScript-only and the Parallel tools are out of credit, so coverage outside Europe, Japan, Korea, India and China is thin. |
+| 2. Second decision passes | DPW2_B3, B10, C6, D5, I1, J2, J3, J4 and DPOG_J2 applied; attestation HV_J2_NK3/NK4, HV_J3_NK2, HV_J4_NK2, HV_D5_NK2 (14 aliases), HV_I1_NK2 (25 kinds, 185 products). Kinds 1,048 → 1,178 (J4 +69 fruit and vegetables, I1 +42 incl. word processor and spreadsheet, J3 +28 incl. brined white cheese, J2 +29, C6 +21, B10 +11, D5 +6, B3 +3). Not attested for want of a seller page: oscypek, tench, stockfish, lamprey, smoked shad. 16 duplicate named forms dropped. |
+| 3. Clothing | Changing robe kind (HV_A1_NK2), sharara, gharara, anarkali suit, tracksuit, shell suit as named forms, cagoule alias (R-113); M-nika split in three; SF_A1: 78 own-label, 10 storefronts, 72 unclear. RT_A1 retry stopped by the owner (R-114). Genre first: SCV_1–2 → SCV_DP added 34 genres (238 scenes), SCF_1–11 filled thin and new genres (scene tags 7,765 → about 8,700). |
+| 4. Holistic organisation | HOL_EV_1–12 (evidence from retailers, specialist shops, buying guides, quality signals) and HOL_DP_1–12 (Opus) for all 53 categories; applied by tools/apply_hol.py to framework/structure/navigation/ (proposals, display groups for every built category, 125 grocery and cellar quality markers); scoped maker roles (R-116). |
+| 5. Pilot page | Groups as the tree, ladder as the way in, "What makes the best" / "Who vouches" boxes, origin-and-grade panels on grocery kinds, "All 53 categories" tab. |
+
+Open: model depth for owner-only categories (SESSION_6 step 4) and wave 2 (step 5) not started; structure flags from the proposals (R-116 d); platform rows; award and rating schemes; season attribute; SF_A1 unclear makers; the 5 unattested grocery kinds.
+
+## Next (session 7)
+See SESSION_7_PROMPT.md.
