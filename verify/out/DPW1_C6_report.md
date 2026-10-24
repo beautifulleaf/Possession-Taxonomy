@@ -1,6 +1,6 @@
 # DPW1_C6: C6 decision pass
 
-Offline pass over TREE_C6, the memo, HV_C6_1 and the C6 rows in data/: 63 kinds, 248 named forms, 10 lines. The fetch logs are lost, so decisions use the report's URLs and the row notes.
+Offline pass over the tree, memo, HV_C6_1 and data/ rows (63 kinds, 248 named forms). Fetch logs are lost; decisions use the report's URLs and row notes.
 
 ## Missing kinds (24 rows)
 - **new_kind 13:**
@@ -27,24 +27,14 @@ Offline pass over TREE_C6, the memo, HV_C6_1 and the C6 rows in data/: 63 kinds,
 A row whose members differ only in size or magnification stays a named form (C3, C2(b)). Only a family of differently named models is a line (R-70(a)).
 
 **Follow-ups:**
-- Lines to add, with line_id on the members:
-  - FirstLight (Explore Scientific)
-  - Tech-Line (Schweizer)
-  - the cross-kind Vortex, Nikon, Leupold and Hawke series
-- maker_bound fixes:
-  - PVS-14 should be "no".
-  - Galileoscope should be "yes".
-- Rows to recheck:
-  - Baader "Planetarium NV 110/220"
-  - banjo barometer as aneroid
-  - Mobilux and varioPLUS as low-vision aids (H2)
+- Add lines FirstLight and Tech-Line, with line_id on members.
+- maker_bound: PVS-14 "no", Galileoscope "yes".
+- Recheck: Baader "Planetarium NV 110/220"; banjo barometer as aneroid; Mobilux as a low-vision aid (H2).
 
 ## Navigation: shopper path
 C6 is not scene-driven:
-- No C6 maker has a scene tag.
-- The top makers are generalist and retailer brands: Omegon 19, Celestron 18, Bresser 14, Sky-Watcher 12.
-- Every kind source is a retailer category page.
-- Memo section 2: buyers choose type, then design, then spec, then maker; use is a second filter.
+- No C6 maker has a scene tag; top makers are generalist brands (Omegon 19, Celestron 18, Bresser 14).
+- Memo section 2: buyers choose type, design, spec, then maker; use is a second filter.
 
 Brand leads only for alpha binoculars, which become a side tab.
 
@@ -66,11 +56,5 @@ C2(a)(b)(d), C3, C10, R-58, R-70(a), R-71, K-15, K-38, K-148, S3, memo precedenc
 
 ## † dependence
 - **New kinds:** each enters the data only on a fetched page (R-70(d)).
-- **Moves from my own knowledge, to recheck against a page:**
-  - NexStar 4SE is a Maksutov.
-  - ETX includes refractors.
-  - Panthera DL is digital.
-  - Star Adventurer is equatorial.
-  - LumiLoupe stands on the object.
-  - Televid HD 65 and Televid 82 are separate models.
+- **Moves resting on my own product knowledge** (recheck): NexStar 4SE a Maksutov, ETX refractors, Panthera DL digital, Star Adventurer equatorial, LumiLoupe a stand loupe, Televid models.
 - **Storm glass:** "gives no reading of any quantity" is unattested.
