@@ -1,0 +1,10 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-C6.1.3.03-001	to_line	L-celestron-nexstar-se	NexStar SE	C6.1.3.03;C6.1.3.04		Row names the family; NexStar 4SE is a Maksutov, 5/6/8SE are SCTs: spans two kinds.
+NF-C6.1.3.04-004	to_line	L-meade-instruments-etx	ETX	C6.1.3.04;C6.1.3.01		ETX family covers Maksutovs (90, 125) and small refractors (70, 80): a line, not one model.
+NF-C6.5.2.02-003	to_line	L-touptek-toupcam	ToupCam	C6.5.2.02;C6.1.5.03		ToupCam is ToupTek's camera range; harvested in two kinds (ToupCam HCAM is a digital microscope).
+NF-C6.1.5.03-005	to_line	L-motic-panthera	Panthera	C6.1.5.03;C6.1.5.01		Panthera spans compound stands (memo: Panthera E2, S6) and digital DL models: a cross-kind line.
+NF-C6.1.3.01-014	to_line	L-william-optics-megrez	Megrez	C6.1.3.01		Row covers several models (Megrez 80 triplet, Megrez II SD doublet): a series, not one design.
+NF-C6.1.4.01-001	to_line	L-leica-camera-televid	Televid	C6.1.4.01		Row covers Televid HD 65 and Televid 82; APO-Televid 82 is already a member row.
+NF-C6.1.5.03-009	drop					Dino-Lite is the brand (maker M-dino-lite), not a model; its models are named forms to harvest.
+NF-C6.5.1.02-001	move_kind				C6.5.1.03	Star Adventurer is a polar-aligned tracking mount, equatorial like SkyGuider Pro, not alt-azimuth.
+NF-C6.1.6.01-003	move_kind				C6.1.6.03	Carson LumiLoupe is a stand loupe resting on the object, not held on a handle.
