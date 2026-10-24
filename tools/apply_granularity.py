@@ -8,7 +8,7 @@ usage (from the repo root): python3 tools/apply_granularity.py BATCH CODE [--che
 - verify/out/<BATCH>_cards.tsv (card_id, code, name, description, members): sibling kinds shown as one card; every member must
   be a live kind of CODE and all members must share one shelf. Replaces CODE's rows in framework/structure/navigation/cards.tsv.
 Writes through common.write_tsv (backup to bak/, temp file)."""
-import subprocess, sys
+import re, subprocess, sys
 from common import ROOT, read_tsv, write_tsv
 from schema import TABLES
 
@@ -20,7 +20,7 @@ ok_urls = {r["url"].strip() for r in read_tsv(log) if r.get("fetch_status", "").
 K = read_tsv(ROOT / "data/kinds.tsv"); live = {k["kind_id"] for k in K if k["code"] == code and k["status"] != "retired"}; allk = {k["kind_id"] for k in K}
 new = rd("kinds"); load, held = [], []
 for r in new:
-    srcs = [s.strip() for s in r["sources"].split("|") if s.strip()]
+    srcs = [s.strip() for s in re.split(r"[|;]", r["sources"]) if s.strip()]
     good = r["code"] == code and r["kind_id"] not in allk and srcs and all(s in ok_urls for s in srcs)
     (load if good else held).append(r)
 ids = {r["kind_id"] for r in load}
