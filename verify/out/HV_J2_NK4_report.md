@@ -1,0 +1,4 @@
+# HV_J2_NK4 report
+Attested (8): J2.1.1.49 fugu (GI register page; sashimi not shown), .50 sea/brown trout (Rockfish, sold-out pages), .52 whitefish (Kespro Coregonus lavaretus fillet), .53 whitebait/shirasu, .54 cutlassfish, J2.3.18 dried rockfish (Korean GI register entry only), J2.4.31 sasazuke (Japanese GI register only, no sale page), J2.5.3.09 vendace roe.
+Not attested (4): J2.1.1.48 tench (no shop or farm page found in 3 searches; Slow Food page returned empty), J2.3.17 stockfish (shops 403; Bacalalo sells salted cod only), J2.1.1.51 lamprey (no seller page; Estonian page 404), J2.2.11 smoked shad (pages say smoked Danube scrumbie, never shad or Alosa, and show no sale).
+Written: 8 kinds, 8 named forms, 10 makers (Rockfish reused as M-rockfish), 12 maker_kinds. Fetch log: verify/work/HV_J2_NK4/fetched.tsv. WebFetch domain checks were rate-limited for several pages.

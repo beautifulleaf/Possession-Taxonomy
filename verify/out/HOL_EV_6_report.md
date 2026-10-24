@@ -1,0 +1,13 @@
+# HOL_EV_6 report (D1 to D5)
+
+Coverage is thin. The shared fetch-safety check was rate-limited on most retail and review hosts, and many others returned 403/503. Large-retailer category trees and filter panels (Newegg, Best Buy, Argos, MediaMarkt, Galaxus, Crutchfield, B&H) were NOT obtained; only the sources in the evidence file were fetched. No category reached 6 sources of distinct kind and region; none is Asian beyond a Wikipedia stub. Rerun retailer navs when the limit clears. Fetch log: verify/work/HOL_EV_6/fetched.tsv.
+
+**D1 Computers & Components.** Shopper ladder is part type (CPU, motherboard, memory, GPU, storage, case, PSU, cooler), then spec attributes; compatibility (socket, form factor) is an automatic check, not a level. Quality is decided by spec tier and recognised grades: 80 PLUS (Bronze to Ruby), reviewer scores (Notebookcheck weights display, keyboard, battery by device use). Makers matter within type (Cherry MX switch colours are the copied reference). Shops offer By Brand beside By Category. Surprising: Geizhals leans on about 150 editorial filters rather than a deep tree.
+
+**D2 Phones, Tablets & Personal Devices.** Ladder is budget, use, operating system, then specs, carrier and plan. Quality: OLED screen, update support, battery by review, camera beyond megapixels. Trusted signals: IP67/IP68, DXOMARK camera score (opaque weights, image quality only). Platform (iOS or Android) leads over maker. Surprising: one guide defines best purely as fit to needs.
+
+**D3 Audio & Video.** Headphone ladder is use, then form (over-ear, on-ear, in-ear), open or closed, wired or wireless, noise cancelling. Quality: tonal balance, clarity, dynamics, comfort, then value. Signals: magazine scorecards, lab tests (RTINGS, DXOMARK); sound signature (neutral, warm, bright) is the community language. Type leads, not maker. TV and speaker evidence was not fetched.
+
+**D4 Cameras & Photography.** Ladder is goal or budget, then type (mirrorless, DSLR, compact, action), fixed or interchangeable lens, sensor format. Quality: sensor size first, then lens, then stabilisation and build; Shotkit says brand does not affect image quality. Signals: DXOMARK sensor and lens scores only. Type and lens mount lead. Surprising: guides start by asking whether a phone is enough.
+
+**D5 Video Games.** Retail ladder is platform first (Genki, GameStop-style, eShop filter), then genre, price, publisher. Steam leads with genre, theme and player mode via curated pages. Signals: Metascore bands, ESRB age ratings; Deck Verified not fetched. Genre is by gameplay. Buyers' top wish for the eShop was filters. Surprising: platform and genre both lead depending on shop.
