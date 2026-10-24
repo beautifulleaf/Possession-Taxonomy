@@ -240,5 +240,22 @@ Worked on branch `claude/blissful-hopper-oyzk13`. Decisions R-118 to R-121 in fr
 
 Lessons: the authenticated Parallel web_fetch works (search does not) and renders JavaScript and 403 pages; agents often write fetch logs without a header or with notes after the URL (run tools/fix_fetch_log_header.py); check_batch reviews catch same-name makers of other trades; at most 20 agents run at once.
 
-## Next (session 8)
-See SESSION_8_PROMPT.md.
+## Session 8 (2026-10-24) — model depth done, wave-2 decisions, clothing genres, quality signals, platforms, wave 3 (all 53 trees)
+Worked on branch `claude/blissful-hopper-oyzk13`. Decisions R-122 in framework/structure/decisions/D4_residual.md. The owner delegated all decisions.
+
+| Step | Result |
+|---|---|
+| 1. Model depth | MODK_B10_4 (431), B10_5 (123), I1_3 (526), I1_4 (638) loaded: step done. |
+| 2. Wave-2 decisions | DPW1_A2, A3, A4, A5, H1, E3, J7, B9 applied (new kinds, 100+ lines, drops and moves; A5.5 leaves; six beer leaves); HV_W2_NK1–3 attested 73 of 76 new and tree kinds (not attested: maize beer, strong cider, palm or sap wine). HOLW_1: display groups and quality markers for A2, A3, A4, A5, B9, E3, H1, J7, J1, J5, J6 (J7.3.1.06, J7.4.04, J7.4.06 not yet in a group). DPMK_1 (missing kinds named by the MODK, QS and wave-3 reports; MODK_C6_3 objective series) see below. |
+| 3. Clothing | SCR_1–2: 11 genres added (scenes 239 → 249), 152 brand tags (9,486). |
+| 4. Quality signals | QS_J7_1 (1855 Médoc and Sauternes, Saint-Émilion 2022, Graves, Cru Bourgeois 2025: 359 entries; 33 Burgundy grands crus as designations), QS_J7_2 (DWWA, IWC, IWSC, SFWSC, WWA, World Beer Cup, European Beer Star, IWC Sake, Kura Master: 178), QS_J2_3 (17 Seafood Watch changes since Feb 2024), QS_J3_3 (113 World Cheese Awards, partial: gff.co.uk blocked), QS_W2_1 (FiFi, Art and Olfaction, Allure, GPHG, Red Dot, TEC, SOS: 114), QS_SEASON_2 (48 season rows; none for South Africa or Brazil). Schemes 17 → 36, tier entries 1,667 → 2,448. |
+| 5. Platforms | PF_5 (OS, app stores, hive systems, heated-tobacco systems), PF_6 (razor, brush-head and shaver systems, Eurorack, MIDI, 500-series, watch calibres, string gauges), PF_7 (129 compatibility rows for D5, B3, C6 models): platforms 289 → 378, compatibility 293 → 454: step done. |
+| 6. Wave 3 | Trees for all 35 remaining categories (TREE_<CODE>.md, loaded with tools/load_tree.py): every category now has nodes. Harvested and loaded: J1, J5, J6, I2, I3, C2, C3, C4, D2, D3, B6, B7 (12 categories). Harvest prompts written, not run: B1, B2, B4, B5, B8, C1, C5, C7, C8, D4, E1, E2, E4, F1–F6, G1, G2, H2, H3 (verify/in/HV_<CODE>_<n>.prompt.txt, from tools/hv_prompt.py). |
+| 7. Pilot page | Version 8 published (https://claude.ai/artifact/69ipGh4sxukS45bxkDoSEk): every category with kinds (2,937 at publish). |
+
+Totals now: 30 categories with kinds, 2,972 kinds, 32,164 named forms, 1,415 lines, 60,305 makers, 1,006 designations, 36 schemes, 2,448 tier entries, 378 platforms, 454 compatibility rows, 414 attributes, 249 scenes, 9,486 scene tags.
+
+Tools: tools/hv_prompt.py (wave-3 harvest prompts), tools/drop_stored_makers.py (run before every load). Lessons: harvest reports must be saved as files (the wave-3 prompts require it); agents still guess URLs now and then (logged as failed, unused); a maker id reused from another trade must be split before load (check_batch).
+
+## Next (session 9)
+See SESSION_9_PROMPT.md.
