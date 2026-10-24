@@ -17,3 +17,11 @@ Missing kind? (blank kind_id; URL = source): betel leaf x7, guava, litchi x5 (Te
 Kind mappings that are my judgement (flagged in notes): Coorg/Memong/Malta to orange, Nendran to banana (plantain?), negi/daepa to spring onion, chalok-susu to sweetcorn, Hallabong and Kinnow to mandarin, chamame to edamame.
 
 Helper files: verify/work/OG_J4_ROW1/ (gen.py, fetched.tsv, missing.tsv).
+
+## Update (second pass, after coordinator message)
+Rows now 309 (+61): CN 55, TH 7 (+3), IN 93 (+1), MY 1, PH 1; JP 76, KR 53, VN 19, PK 3, BD 1 unchanged. 20 new rows are missing-kind (jujube x3, litchi x2, longan, hawthorn, kumquat, citrus-pomelo hybrids x2, lotus root, taro, chayote, water spinach, bamboo shoot, daylily, wood ear, luffa, wax gourd, durian); URLs in missing.tsv.
+- China: CNIPA announcements 671 (2026-03-11), 676 (2026-05-08) and 685 (2026-08-04), fetched from search-result URLs (partial, product names via fetch model). They approve enterprises to use the GI mark, not product registration, and say so in notes; register_ref is the announcement number. Three Hunan MOA 农产品地理标志 names from a China Daily page (type inferred from names). Not seen: the MOA register itself.
+- Skipped as medicinal or dried: lingzhi x2, Polygonatum, Prunella, gardenia, konjac, dried plum and longan flesh, zha cai.
+- Philippines: Guimaras mango via Philstar (fruitnet 405, PNA DNS error). Malaysia: Musang King durian only (borneopost 403). Thailand: Ratchaburi lime, mango, Ban Kha pineapple from Nation Thailand; the DIP newsletter would not load. India: Warangal Chapata Chilli only (Drishti); PIB backgrounder PDF had no product list; Herald Goa 403.
+- Nothing written for Indonesia (only search excerpts and journal articles, no register page), Sri Lanka (no fresh fruit GI found), Nepal (search excerpts say no GI registered, no page attests it), Vietnam after 2014 (only excerpts). Parallel search is still out of credit.
+- No URLs were typed by me in this pass; every fetched URL came from search results or fetched pages.
