@@ -1,0 +1,15 @@
+# HOL_EV_3 report (B6 to B10)
+
+Evidence: verify/out/HOL_EV_3_evidence.tsv (39 rows). Fetch log: verify/work/HOL_EV_3/fetched.tsv. Many retailer pages returned 403 and several domains were rate-limited, so retailer navigation is thin; gaps are named below.
+
+**B6 Cleaning & Laundry.** Ladder: appliance type (washer, dryer, vacuum), then form (drum vs vertical; cable, cordless, robot, canister, upright), then capacity or use. Quality: cleaning result first (Which? gives stain removal 40%; Stiftung Warentest gives suction 45%), then handling, energy and water, noise, durability. Signals: Which? Best Buy 75%+, Eco Buy, Don't Buy; test.de grades; EU energy label. Machines are bought by form and use; makers matter on dealer sites and in Reddit sentiment (Roborock, Miele, SEBO). Surprise: Which? ties the Eco Buy badge to a reliability survey. No Argos, Currys or Japanese retailer menu could be fetched.
+
+**B7 Climate, Water & Energy.** Ladder: job (heat, cool, water, power), then type or heat source (air-to-air, air-to-water, geothermal; panel, inverter, battery), then size. Quality: correct sizing first, then efficiency (SEER, HSPF, APF), then noise and features; installer quality in the community. Signals: ENERGY STAR Most Efficient (14 categories, EPA), test.de (heat pump efficiency 70%), Which? bathroom retailer survey. Type leads, not maker. Surprise: sizing outranks efficiency; solar shops split by type, wattage and brand.
+
+**B8 Home Safety & Security.** Ladder: device type (lock, safe, alarm, detector, camera, extinguisher), then rated grade. Quality is the third-party grade: UL RSC and TL-15/TL-30, UL fire class, TS007 and Sold Secure, VdS, AS 3786 for smoke alarms; cameras are scored on video, alert speed and data privacy (Consumer Reports). Locksport uses a nine-belt difficulty scale. Grade and type lead; makers do not. Surprise: a fire safe is not a burglary safe. Only one retailer menu (Testsieger.de) was fetched.
+
+**B9 Smoking & Vaping.** Ladder: product family (cigar, pipe tobacco, vape, cannabis), then maker and origin for cigars (brand, wrapper, country, strength, ring gauge) or blend style for pipe tobacco (Virginia, Aromatic, English, Burley). Quality: Cigar Aficionado's blind 100-point score (43% scored 90+, so inflated); for cannabis, third-party lab results (COA). Makers lead cigars; styles lead pipe tobacco and its community. Vape guidance is thin and certification-free. Surprise: Smokingpipes cigar filters split origin three ways (wrapper, filler, binder).
+
+**B10 Animal Equipment.** Ladder: animal first (dog, cat, fish, horse, bees), then food or equipment form, then diet need, size or breed. Quality: AAFCO adequacy statement and life stage, then protein and ingredients; for tack, discipline then fit. Signals: AAFCO, WDJ Approved list, test.de grades. Makers lead online food ranking. Surprise: test.de found private labels often match brands (9 of 12 rated gut or better); no breed-size filter values were visible at zooplus.
+
+Gaps: no community source for B6 beyond Reddit aggregators; B8 has one retailer menu; no fish, reptile or bird specialist page could be fetched (403/429).
