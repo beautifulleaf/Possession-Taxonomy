@@ -193,5 +193,21 @@ Decisions R-96 to R-100 in framework/structure/decisions/D4_residual.md.
 | Wave 1 decision passes | DPW1_<CODE> (Opus, offline): B10, B3, I1, J2, J3 finished (verify/out/DPW1_<CODE>_report.md, _kinds.tsv, _moves.tsv), not yet applied; C6, D5, J4 stopped by a container restart (partial files). tools/apply_dp.py applies them. |
 | Maker harvest by region | MKH_<CODE>_<NAO/EUR/ASIA/GS> prompts for all eight (verify/in/MKH_COMMON.txt); MKH_B10_NAO, MKH_C6_NAO, MKH_B3_NAO started and were stopped by the restart (partial C6 output). |
 
-## Next (session 5)
-See SESSION_5_PROMPT.md.
+## Session 5 (2026-10-24) — wave-1 decisions, owner rulings on countries and makers, regional and clothing depth
+Worked on branch `claude/stoic-ptolemy-4nctsh`. Decisions R-101 to R-110 in framework/structure/decisions/D4_residual.md.
+
+Owner rulings this session (BRIEF.md, 2026-10-24): no country backfill, and countries never divide a category (navigation is by object type and, where scenes exist, by genre); regional maker harvests stay but per-country balancing passes go; regional harvests only where shoppers choose by maker; **maker roles** per category (way in / owner only / none, framework/structure/maker_roles.tsv): video games keep hardware makers only, groceries lead with origin and grade and show makers only through branded products.
+
+| Step | Result |
+|---|---|
+| 1. Wave-1 decision passes | DPW1_C6, D5, J4 re-run; all eight applied (tools/apply_dp.py, fixed to keep existing lines and hold moves to unattested kinds). 58 lines, about 127 named forms out, 164 new kinds, all attested by HV_<CODE>_NK and loaded (B10 28 with 7 new leaves, B3 1, C6 13, D5 10, I1 10, J2 74, J3 14, J4 14). All eight chose a shopper path (R-104). |
+| 2. Makers by region | Country backfill CBF_1–5 stopped by the owner (254 countries kept, R-103). Regional harvests: North America for all eight, Europe for I1, C6, D5, B3, J2, J3, Asia for I1, D5, J2, J3, plus partial runs stopped under the maker roles (B10 Europe, Asia and rest of world; B3 and C6 Asia; J4 Europe and Asia). Rest-of-world batches dropped or narrowed (R-108, R-109); J2_GS and J3_GS rewritten as branded-product harvests. About 18,000 makers added; ledger 51,057. |
+| 3. Clothing | DP_A1K kinds review: 9 new kinds (scrub top, team jersey, co-ord set, firefighter suit, casual jacket, raincoat, fur coat, lab coat, braces), four wordings widened, 196 re-ties, storefront rule (100 storefronts out of the brand count) (R-105). SIG_A1_1–11 all done: about 170 new signature pieces and 20 lines. GD3 lists (15, the 1,754 never-tried category-level brands): about 1,100 brands tied at garment level; category-level-only brands 11,101 → 10,013. |
+| 4. D1 review | Line kind lists rebuilt from their models (tools/fix_lines.py), L-xpg-levante, three new kinds (desktop-case PC, rack-mount server, detachable 2-in-1) with 223 models and 10 lines (R-102). |
+| 5. Pilot page | tools/build_pilot_page.py covers all ten categories with their way-in questions and maker roles; A1's coverage view kept as an information report. |
+| Safeguards | tools/check_batch.py (unlogged sources, reused maker ids) now runs inside tools/load_s4.py; load refused until a batch with reused ids is reviewed (verify/out/reviewed_batches.txt); tools/fix_batch_ids.py and tools/split_homonym.py for same-name makers (about 25 split: Trimble, Fig, Exact, Tekla, Esko, Lemaire, Milestone, IKA and others); id-collision guard in data_write.py (R-107); source-separator repair (R-110); fetch logs and done lists are now committed (R-101 f). |
+
+Open: M-nika conflates three Russian firms (verify/out/open_maker_splits.tsv); 69 storefront-class makers with vague notes; clothing kinds still missing (gharara, sharara, anarkali, changing robe, cagoule, tracksuit as a set); second decision passes for the wave-1 "missing kind?" lists (MKH_*_report.md); D5 regional names owed as aliases; D5 platform rows; one D5 move waits for a B1 kind.
+
+## Next (session 6)
+See SESSION_6_PROMPT.md.
