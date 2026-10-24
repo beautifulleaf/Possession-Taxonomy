@@ -1590,3 +1590,45 @@ F5.3.2	F5	leaf	F5.3	Photographic records		15	from verify/out/TREE_F5.md
 F5.3.3	F5	leaf	F5.3	Home recordings		16	from verify/out/TREE_F5.md		
 F5.3.4	F5	leaf	F5.3	Compiled records		17	from verify/out/TREE_F5.md		
 F5.3.5	F5	leaf	F5.3	Kept printed ephemera		18	from verify/out/TREE_F5.md		
+F6	F6	category				0	from verify/out/TREE_F6.md		
+F6.1	F6	sub_family	F6	Minerals	Leaf axis: chemical class (Strunz, 10 classes, in Strunz order, with the class wording the memo takes from S13; decided in F-24, provisional until the quartz-family placement is read). Kinds are uncut species or major varieties; each mineral kind carries a `strunz_code`. A loose faceted, cabochon or cutting-rough stone is F6.5; every other piece (crystal, cluster, specimen on matrix, geode, tumbled stone, slab, sphere, egg, palm stone) is here under its species, even when the species is a gem (F-4). Inside a leaf kinds are shown by Strunz division and then A to Z (section 8); an A to Z view is generated. Enter at harvest (no id yet): the further species and varieties sellers list (about 250 to 450 kinds; section 4).	1	from verify/out/TREE_F6.md		
+F6.1.1	F6	leaf	F6.1	Elements		2	from verify/out/TREE_F6.md		
+F6.1.2	F6	leaf	F6.1	Sulfides		3	from verify/out/TREE_F6.md		
+F6.1.3	F6	leaf	F6.1	Halides		4	from verify/out/TREE_F6.md		
+F6.1.4	F6	leaf	F6.1	Oxides		5	from verify/out/TREE_F6.md		
+F6.1.5	F6	leaf	F6.1	Nitrates and carbonates		6	from verify/out/TREE_F6.md		
+F6.1.6	F6	leaf	F6.1	Borates		7	from verify/out/TREE_F6.md		
+F6.1.7	F6	leaf	F6.1	Sulfates		8	from verify/out/TREE_F6.md		
+F6.1.8	F6	leaf	F6.1	Phosphates		9	from verify/out/TREE_F6.md		
+F6.1.9	F6	leaf	F6.1	Silicates		10	from verify/out/TREE_F6.md		
+F6.1.10	F6	leaf	F6.1	Organic compounds		11	from verify/out/TREE_F6.md		
+F6.2	F6	sub_family	F6	Rocks	Leaf axis: rock class by origin (igneous, sedimentary, metamorphic), with the value "mixed classes" for the one kit kind that spans them. A set of like specimens is the rock with a `quantity` attribute, not a kind. Enter at harvest (no id yet): the further rock types of the teaching kits and rock sellers (about 50 to 70 kinds; section 4).	12	from verify/out/TREE_F6.md		
+F6.2.1	F6	leaf	F6.2	Igneous		13	from verify/out/TREE_F6.md		
+F6.2.2	F6	leaf	F6.2	Sedimentary		14	from verify/out/TREE_F6.md		
+F6.2.3	F6	leaf	F6.2	Metamorphic		15	from verify/out/TREE_F6.md		
+F6.2.4	F6	leaf	F6.2	Mixed classes		16	from verify/out/TREE_F6.md		
+F6.3	F6	sub_family	F6	Fossils and fossil resin	Leaf axis: the kind of organism or trace the fossil was (invertebrate, vertebrate, plant, trace and microbial, fossil resin). Amber and ammolite stay here in every cut state, so a cabochon of either is not F6.5 (F-4). An unworked fossil is F6 whatever it is kept for (F-17). Enter at harvest (no id yet): the further organism groups of the fossil sellers (about 60 to 90 kinds; section 4).	17	from verify/out/TREE_F6.md		
+F6.3.1	F6	leaf	F6.3	Invertebrates		18	from verify/out/TREE_F6.md		
+F6.3.2	F6	leaf	F6.3	Vertebrates		19	from verify/out/TREE_F6.md		
+F6.3.3	F6	leaf	F6.3	Plants		20	from verify/out/TREE_F6.md		
+F6.3.4	F6	leaf	F6.3	Trace and microbial		21	from verify/out/TREE_F6.md		
+F6.3.5	F6	leaf	F6.3	Fossil resin		22	from verify/out/TREE_F6.md		
+F6.4	F6	sub_family	F6	Meteorites and impact glass		23	from verify/out/TREE_F6.md		
+F6.5	F6	sub_family	F6	Gemstones and pearls, unset	Leaf axis: the grading scheme the trade applies (diamond, coloured stone, pearl). Holds a loose stone that is faceted or cut en cabochon, or rough sold as cutting material by weight (F-4), natural, cultured or laboratory-grown (`origin_type`); every other mineral piece is F6.1, and amber and ammolite are F6.3. Colour, carat, shape, clarity, cut, `treatment` and report type are attributes; a drilled bead is C4, a mounted or strung stone A3.	24	from verify/out/TREE_F6.md		
+F6.5.1	F6	leaf	F6.5	Diamonds		25	from verify/out/TREE_F6.md		
+F6.5.2	F6	leaf	F6.5	Coloured gemstones		26	from verify/out/TREE_F6.md		
+F6.5.3	F6	leaf	F6.5	Pearls		27	from verify/out/TREE_F6.md		
+F6.6	F6	sub_family	F6	Shells and other marine hard parts	Leaf axis: the kind of animal that made the hard part (gastropod, bivalve, other mollusc, echinoderm and coral). The species is a named form; a single shell with its species identified is F6, an unsorted assortment for crafts C4 (K-78). Enter at harvest (no id yet): the further families and popular groups of the shell dealers (about 40 to 80 kinds; section 4).	28	from verify/out/TREE_F6.md		
+F6.6.1	F6	leaf	F6.6	Gastropods		29	from verify/out/TREE_F6.md		
+F6.6.2	F6	leaf	F6.6	Bivalves		30	from verify/out/TREE_F6.md		
+F6.6.3	F6	leaf	F6.6	Other molluscs		31	from verify/out/TREE_F6.md		
+F6.6.4	F6	leaf	F6.6	Echinoderm and coral		32	from verify/out/TREE_F6.md		
+F6.7	F6	sub_family	F6	Preserved biological specimens	Leaf axis: how the specimen is preserved (mount, skeletal and other hard parts, pinned and dried, pressed, encased, fluid-preserved). The animal group is an attribute except where sellers split it, as for mounts; the species is an attribute. Every kind can carry C17 ledger rows (CITES appendix by species, ivory regimes), shown as a generated flag. A mount of one animal prepared as in life is here however it is presented; a composition of animal parts with other materials is F2 (K-76).	33	from verify/out/TREE_F6.md		
+F6.7.1	F6	leaf	F6.7	Mounts		34	from verify/out/TREE_F6.md		
+F6.7.2	F6	leaf	F6.7	Skeletal and other hard parts		35	from verify/out/TREE_F6.md		
+F6.7.3	F6	leaf	F6.7	Pinned and dried		36	from verify/out/TREE_F6.md		
+F6.7.4	F6	leaf	F6.7	Pressed		37	from verify/out/TREE_F6.md		
+F6.7.5	F6	leaf	F6.7	Encased		38	from verify/out/TREE_F6.md		
+F6.7.6	F6	leaf	F6.7	Fluid-preserved		39	from verify/out/TREE_F6.md		
+F6.8	F6	sub_family	F6	Element samples		40	from verify/out/TREE_F6.md		
+F6.10	F6	sub_family	F6	Parts and accessories made for one specimen		41	from verify/out/TREE_F6.md		
