@@ -1198,3 +1198,30 @@ B4.8.1	B4	leaf	B4.8	Flags	Kind axis: use form; each polity's design is a row in 
 B4.8.2	B4	leaf	B4.8	Signs	Kind axis: how the sign is displayed; material (enamel, tin, wood) and technology (neon, LED) are attributes.	23	from verify/out/TREE_B4.md		
 B4.9	B4	sub_family	B4	Decorative lighting (no leaf)	Leaf axis: none (leaf = null); kind by decorative light form; technology is an attribute (rule T). Display group: Decorative lighting.	24	from verify/out/TREE_B4.md		
 B4.10	B4	sub_family	B4	Parts and accessories made for one B4 object (no leaf)	Leaf axis: none (leaf = null); axis: the object served (C5(d), CV-17). Display group: Flagpoles & parts.	25	from verify/out/TREE_B4.md		
+B5	B5	category				0	from verify/out/TREE_B5.md		
+B5.1	B5	sub_family	B5	Cook	Leaf axis: product family as sold (vessels for heat; heating appliances); a final mixed kind at leaf 0.	1	from verify/out/TREE_B5.md		
+B5.1.1	B5	leaf	B5.1	Pans	Kind axis: vessel form. Display group: Cookware.	2	from verify/out/TREE_B5.md		
+B5.1.2	B5	leaf	B5.1	Pots	Kind axis: vessel form. Display group: Cookware.	3	from verify/out/TREE_B5.md		
+B5.1.3	B5	leaf	B5.1	Ovenware and bakeware	Kind axis: use. Display group: Bakeware.	4	from verify/out/TREE_B5.md		
+B5.1.4	B5	leaf	B5.1	Heating appliances and heat sources	Kind axis: appliance type; gas, electric, induction and other power sources are tags (rule T); built-in or freestanding is an installation attribute (rule M). Display group: Kitchen appliances; B5.1.4.03 and B5.1.4.04 display in Large kitchen appliances.	5	from verify/out/TREE_B5.md		
+B5.2	B5	sub_family	B5	Prepare	Leaf axis: product family as sold (knives, boards and sharpeners, hand tools, measuring, food machines).	7	from verify/out/TREE_B5.md		
+B5.2.1	B5	leaf	B5.2	Kitchen knives	Kind axis: pattern; steel, hardness, handle and length are attributes; gyuto, bunka and kiritsuke are non-maker named forms of chef's knife (B-20). Display group: Knives and boards.	8	from verify/out/TREE_B5.md		
+B5.2.2	B5	leaf	B5.2	Cutting boards and sharpeners	Kind axis: the tool itself. Display group: Knives and boards.	9	from verify/out/TREE_B5.md		
+B5.2.3	B5	leaf	B5.2	Hand tools	Kind axis: the tool itself. Display group: Kitchen tools and measuring.	10	from verify/out/TREE_B5.md		
+B5.2.4	B5	leaf	B5.2	Measuring	Kind axis: quantity measured. Display group: Kitchen tools and measuring.	11	from verify/out/TREE_B5.md		
+B5.2.5	B5	leaf	B5.2	Food machines	Kind axis: operation (appliance type). Display group: Kitchen appliances.	12	from verify/out/TREE_B5.md		
+B5.3	B5	sub_family	B5	Cool and store (no leaf)	Kind axis: function (cool, or keep food and drink). Display group: Food storage; B5.3.01 and B5.3.02 display in Large kitchen appliances.	13	from verify/out/TREE_B5.md		
+B5.4	B5	sub_family	B5	Serve, eat and drink at table	Leaf axis: piece family in the place setting (dinnerware, flatware, glassware, cups, serveware and table accessories); kinds are piece types in place-setting order.	14	from verify/out/TREE_B5.md		
+B5.4.1	B5	leaf	B5.4	Dinnerware	Kind axis: piece type. Display group: Dinnerware and serveware.	15	from verify/out/TREE_B5.md		
+B5.4.2	B5	leaf	B5.4	Flatware	Kind axis: piece type. Display group: Dinnerware and serveware.	16	from verify/out/TREE_B5.md		
+B5.4.3	B5	leaf	B5.4	Glassware	Kind axis: piece type; stemmed or stemless and lead crystal are attributes. Display group: Glassware and drinkware.	17	from verify/out/TREE_B5.md		
+B5.4.4	B5	leaf	B5.4	Cups	Kind axis: piece type. Display group: Glassware and drinkware.	18	from verify/out/TREE_B5.md		
+B5.4.5	B5	leaf	B5.4	Serveware and table accessories	Kind axis: piece type. Display group: Dinnerware and serveware.	19	from verify/out/TREE_B5.md		
+B5.5	B5	sub_family	B5	Make drinks	Leaf axis: drink made (coffee, tea, water, bar, home brewing and winemaking); B5.5 holds only the objects that make the drink, never a drinking vessel.	20	from verify/out/TREE_B5.md		
+B5.5.1	B5	leaf	B5.5	Coffee equipment	Kind axis: brew method, then operating mode (the three espresso modes are kinds under rule T(b)). Display group: Coffee and tea.	21	from verify/out/TREE_B5.md		
+B5.5.2	B5	leaf	B5.5	Tea equipment	Kind axis: vessel form. Display group: Coffee and tea.	22	from verify/out/TREE_B5.md		
+B5.5.3	B5	leaf	B5.5	Water	Kind axis: appliance type. Display group: Coffee and tea.	23	from verify/out/TREE_B5.md		
+B5.5.4	B5	leaf	B5.5	Bar tools	Kind axis: bar tool. Display group: Bar and home brewing.	24	from verify/out/TREE_B5.md		
+B5.5.5	B5	leaf	B5.5	Home brewing and winemaking	Kind axis: drink made (beer, wine, cider). Display group: Bar and home brewing. No kind is decided in the memo (K-58 sends the equipment to B5); the kinds come from the stage-3 harvest, and the leaf dissolves into its host if the harvest finds none.	25	from verify/out/TREE_B5.md		
+B5.6	B5	sub_family	B5	Clean-up, kitchen wear and remainder (no leaf)	Kind axis: function (kinds the key sends to B5 that fit no stage above). Display group: Clean-up and kitchen wear; B5.6.01 displays in Large kitchen appliances.	26	from verify/out/TREE_B5.md		
+B5.7	B5	sub_family	B5	Parts and accessories made for one kitchen object (no leaf)	Kind axis: the part itself; leaf axis when needed: object served (`leaf = null` while it holds about 12 kinds or fewer, CV-17, C5(d)). Display group: Replacement parts. No kind is decided in the memo; the sub-family dissolves into its host if the harvest finds none. Kinds to look for (no id, R-96 c), the memo's examples of what S3 sends here, each †: a coffee machine's portafilter, water tank or drip tray; the jar of one blender; the lid or base of one kettle; a lid made for one pot; a rack made for one appliance (section 14).	27	from verify/out/TREE_B5.md		
