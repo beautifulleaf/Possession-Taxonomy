@@ -179,5 +179,19 @@ Worked on branch `claude/stoic-ptolemy-4nctsh`. Decisions R-77 to R-95 in framew
 
 Open: the remaining GD batches (verify/in/GD_*_prompt.txt without a verify/out/*_maker_kinds.tsv) and a REG_PKTR top-up were still running at the end of this log; kinds review for garments with no kind (scrubs, lab coats, wetsuits, furs, raincoats, pheran, co-ord set, Nehru/bandhgala jacket, Mandarin jacket); 103-group merge review done, homonyms kept apart; storefronts (department stores) counted as brands is an open call; Kenza Boutique's Dubai base needs a refetch; GANT (SE) and Reima (FI) country fixes need a source.
 
+## Session 4, continued (2026-10-18/20) — garment depth, D1 models, wave 1
+Decisions R-96 to R-100 in framework/structure/decisions/D4_residual.md.
+
+| Work | Result |
+|---|---|
+| A1 garment depth | GD_WEU2_6–8, GD_LAC2_2–4, GD_EEU2_1–3, GD_SAS2_2–3, GD_MENA2_1, GD_SEA2_1 and REG_PKTR (PK 212, TR 160 brands) loaded; duplicate makers merged (auto 17; Farm/Farm Rio, Hering, Akhmadullina, Cojocaru by hand). A1 holds about 28,800 brands; category-level ties 12,000 → 11,101; no country flagged (CN 0.52, IR 0.54, CH 0.55, US 0.56). |
+| D1 models | MOD_D1_1–4: about 7,000 chip, card and laptop models as named forms under the 244 D1 lines (R-70). Line and kind problems for the D1 review in verify/out/MOD_D1_*_report.md and MOD_D1_1_problems.txt. |
+| A1 signature pieces | SIG_A1_1–11 over 1,281 houses: rate limits cut most batches short; about 230 named forms and 23 lines loaded so far; the batches resume from verify/work/SIG_A1_n/done.tsv. |
+| Wave 1 trees | B10, C6, I1, D5, J4, J2, B3, J3 built offline and loaded (nodes; R-96 for open kinds). |
+| Wave 1 harvests | HV_<CODE>_n for all eight: every worklist kind attested (B10 98, C6 63, I1 68, D5 51, J4 69, J2 70, B3 50, J3 69); named forms B10 386, C6 248, I1 1,266, D5 953, J4 2,045 (varieties), J2 38, B3 681, J3 109; about 1,900 new makers. Loader takes the category code (R-97). Missing-kind lists in verify/out/HV_<CODE>_n_report.md. Guessed URLs removed where found (J4: 19 makers set aside for the maker harvest). |
+| Wave 1 references | coverage_reference_<CODE>.tsv for all eight (R-98 exports are not a market; R-99 production in tonnes is its own family; R-100 summary). |
+| Wave 1 decision passes | DPW1_<CODE> (Opus, offline): B10, B3, I1, J2, J3 finished (verify/out/DPW1_<CODE>_report.md, _kinds.tsv, _moves.tsv), not yet applied; C6, D5, J4 stopped by a container restart (partial files). tools/apply_dp.py applies them. |
+| Maker harvest by region | MKH_<CODE>_<NAO/EUR/ASIA/GS> prompts for all eight (verify/in/MKH_COMMON.txt); MKH_B10_NAO, MKH_C6_NAO, MKH_B3_NAO started and were stopped by the restart (partial C6 output). |
+
 ## Next (session 5)
-See SESSION_5_PROMPT.md: (1) finish and load the running GD batches and REG_PKTR, re-run coverage; (2) kinds review for the garments with no kind; (3) step 6 of SESSION_4_PROMPT.md: the STAGE3_PLAN.md depth passes (D1 chip, card and laptop models; A1 signature pieces) and wave 1 (B10, C6, I1, D5, J4, J2, B3, J3), each with its reference distribution (step 2b) and the navigation rule.
+See SESSION_5_PROMPT.md.

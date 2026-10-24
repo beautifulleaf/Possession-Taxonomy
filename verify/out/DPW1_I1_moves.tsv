@@ -1,0 +1,39 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-I1.1.1.01-001	to_line	L-microsoft-windows	Windows	I1.1.1.01		Release series; releases sold under their own name (Windows 95, 11) are the named forms (I-21).
+NF-I1.1.1.01-002	to_line	L-apple-macos	macOS	I1.1.1.01		Release series of named releases (Sonoma, Sequoia); each release is a named form (I-21).
+NF-I1.1.1.01-003	to_line	L-apple-classic-mac-os	Classic Mac OS	I1.1.1.01		Series of separately sold releases (System 7, Mac OS 9); each is a named form (I-21).
+NF-I1.3.01-006	to_line	L-microsoft-office	Microsoft Office	I1.3.01;I1.11.02;I1.3.03;I1.8.2.01		Release series (Office 2024 a named form, I-21) spanning suite and sold-alone apps; memo section 6 names it a line.
+NF-I1.4.4.01-001	to_line	L-adobe-creative-suite	Creative Suite / Creative Cloud	I1.4.4.01;I1.4.1.01;I1.4.1.02;I1.3.02		Restates the existing line; CS releases (CS4, CS6) are the named forms; Creative Cloud stays a named form (I-21).
+NF-I1.2.01-004	to_line	L-avira-avira	Avira	I1.2.01		Maker brand from a Wikipedia category, not a product: the brand's range of security editions is a line.
+NF-I1.2.01-005	to_line	L-bitdefender-bitdefender	Bitdefender	I1.2.01		Maker brand from a Wikipedia category, not a product: the brand's range of security editions is a line.
+NF-I1.2.01-007	to_line	L-f-secure-f-secure	F-Secure	I1.2.01		Maker brand from a Wikipedia category, not a product: the brand's range of security editions is a line.
+NF-I1.2.01-008	to_line	L-g-data-cyberdefense-g-data	G Data	I1.2.01		Maker brand from a Wikipedia category, not a product: the brand's range of security editions is a line.
+NF-I1.2.01-016	to_line	L-sophos-sophos	Sophos	I1.2.01		Maker brand from a Wikipedia category, not a product: the brand's range of security editions is a line.
+NF-I1.2.01-018	to_line	L-webroot-webroot	Webroot	I1.2.01		Maker brand from a Wikipedia category, not a product: the brand's range of security editions is a line.
+NF-I1.2.01-027	to_line	L-intego-intego	Intego	I1.2.01		Maker brand from a Wikipedia category, not a product: the brand's range of security editions is a line.
+NF-I1.2.01-034	drop					Maker name only; its product is Ad-Aware, to harvest as its own named form.
+NF-I1.12.2.01-001	drop					Category name (any JetBrains Marketplace plug-in), not a specific plug-in.
+NF-I1.8.1.01-014	drop					Edition of Visual Studio (C3 variant), already covered by line L-microsoft-visual-studio.
+NF-I1.8.1.02-005	drop					Delivery variant (command-line client) of Codex NF-I1.8.1.02-004; delivery is an attribute.
+NF-I1.1.3.03-006	drop					Duplicate of NF-I1.1.3.03-017 GoToMyPC (Citrix).
+NF-I1.1.3.03-007	drop					Duplicate of NF-I1.1.3.03-037 Remote Utilities.
+NF-I1.4.2.01-029	drop					Duplicate of NF-I1.4.2.02-001 Camtasia; one home, sold first as screen recorder.
+NF-I1.4.2.02-002	drop					Duplicate of NF-I1.4.1.06-001 Snagit; one home, screenshot tool.
+NF-I1.4.2.02-006	drop					Duplicate of NF-I1.4.1.06-005 ShareX; one home; carry maker M-sharex to the kept row.
+NF-I1.6.1.03-011	drop					Duplicate of NF-I1.6.1.02-001 GnuCash; one home, personal-finance manager.
+NF-I1.8.1.02-001	drop					Duplicate of NF-I1.8.1.01-037 Cursor; an AI code editor stays code editor (tree precedence).
+NF-I1.9.03-014	drop					Duplicate of NF-I1.8.1.01-044 LabVIEW; one home, graphical development environment.
+NF-I1.8.1.04-011	drop					Duplicate of NF-I1.8.1.01-022 C++Builder; one home, IDE.
+NF-I1.4.1.05-004	drop					Duplicate of NF-I1.9.01-011 Rhinoceros 3D (maker-bound row kept).
+NF-I1.4.1.05-024	drop					Duplicate of NF-I1.9.01-020 form-Z (maker-bound row kept).
+NF-I1.12.5.01-004	drop					Traffic data feed is a device information service, I3 by sentence 14; hold for the I3 build.
+NF-I1.1.3.01-010	move_kind				I1.1.3.07	Dual-pane file manager with archive support, not an archiver.
+NF-I1.11.03-014	move_kind				I1.11.04	Download manager with BitTorrent as one protocol among several.
+NF-I1.11.03-013	move_kind				I1.11.04	Xunlei (Thunder) is a download accelerator first; BitTorrent is one protocol.
+NF-I1.11.03-018	move_kind				I1.5.01	Miro is a video player and internet-TV app; torrent download is a feature.
+NF-I1.3.02-024	move_kind				I1.3.06	FineReader is OCR software (Wikipedia OCR comparison); PDF editing is secondary.
+NF-I1.3.02-033	move_kind				I1.3.03	Notability is a handwritten note-taking app; PDF markup is a feature.
+NF-I1.3.05-006	move_kind				I1.3.04	Any.do is a to-do list app first; calendar is a feature.
+NF-I1.3.05-009	move_kind				I1.3.04	Remember the Milk is a task list app, not a calendar.
+NF-I1.3.05-017	move_kind				I1.11.02	eM Client is an email client with calendar; the mail is what it is sold for.
+NF-I1.7.01-016	move_kind				I1.12.1.01	Language Reactor is a browser extension for subtitles on streaming sites.
