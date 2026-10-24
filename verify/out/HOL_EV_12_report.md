@@ -1,0 +1,9 @@
+# HOL_EV_12 report (J5, J6, J7)
+
+Many retailer pages failed (Waitrose 503, BigBasket 403, Sainsbury's 403, Tchibo and Tesco not reachable, Parallel tools unused). Evidence for J5 retailers is thin (one Morocco/French tree, one US blog nav). No J7 expert buying guide could be fetched (Master of Malt 429, MasterClass 403).
+
+**J5 Pantry Staples.** Shopper ladder: aisle (oils and vinegars; pasta, rice and starches; tins and jars; sauces and condiments; baking; world cuisine) then product kind. Quality: refinement or designation grade, harvest or age, then origin (olive oil, balsamic, basmati). Signals: protected designations (DOP/IGP), Great Taste stars, Slow Food Ark of Taste, organic seals. Type leads, not makers. Surprising: the olive oil guide says origin does not decide quality; US grocer leads with values (organic, non-GMO).
+
+**J6 Coffee, Tea & Cocoa.** Ladder: coffee by format, roast and origin; tea by type (green, black, oolong, pu-erh, herbal). Quality: coffee by defects then SCA cup score (80+ specialty), Cup of Excellence 87+; tea by type, processing, freshness, no formal grades. Certifications (Fairtrade, Rainforest Alliance, organic) are secondary. Types and origin lead; makers do not. Surprising: German and Japanese guides say origin alone does not predict tea; cocoa has no grade ladder in the sources fetched. No community found.
+
+**J7 Wine, Beer & Spirits.** Ladder: wine by colour then grape (retail) or region (fine wine); spirits by spirit type, then style, age, flavor, price. Quality: classification tier (cru, 1855), critic or community score, award winners. Signals: cru tiers, Untappd, Whiskybase, BJCP vocabulary. Collector sites lead with distillery and bottler; beer communities lead with style. Surprising: Untappd scores are style-biased and retailers screen on them; the 1855 classification was set by price.
