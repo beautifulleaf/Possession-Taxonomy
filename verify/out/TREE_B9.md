@@ -117,7 +117,7 @@ Leaf axis: the job the empty object does in use.
 ### B9.2.1 Pipes
 Kind axis: shape family; Billiard first, then by degree of bend, Freehand after the other shape families, non-Western forms last. Display group: Pipes and pipe tobacco.
 - B9.2.1.01 Billiard: straight pipe with a cylindrical bowl and a straight shank, the baseline shape.
-- B9.2.1.02 Bulldog: pipe with a angular, tapering bowl and a diamond-section shank.
+- B9.2.1.02 Bulldog: pipe with an angular, tapering bowl and a diamond-section shank.
 - B9.2.1.03 Canadian: pipe with a long oval shank and a short stem.
 - B9.2.1.04 Freehand: pipe shaped freely by the carver rather than to a classic shape family (R-33).
 - B9.2.1.05 Kiseru [kiseru]: Japanese long pipe with a small metal bowl and mouthpiece (regional kind, C11; provisional until attested in a second region).

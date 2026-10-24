@@ -831,3 +831,24 @@ J7.5.8	J7	leaf	J7.5	Palm spirits		30	from verify/out/TREE_J7.md
 J7.5.9	J7	leaf	J7.5	Anise and other botanical spirits		31	from verify/out/TREE_J7.md		
 J7.6	J7	sub_family	J7	Liqueurs and flavoured spirits (no leaf)		32	from verify/out/TREE_J7.md		
 J7.7	J7	sub_family	J7	Mixed alcoholic drinks, ready-to-drink (no leaf)		33	from verify/out/TREE_J7.md		
+B9	B9	category				0	from verify/out/TREE_B9.md		
+B9.1	B9	sub_family	B9	Products	Leaf axis: the form of the product (the object contains the substance and is used up or taken); substance is a required tag, never a leaf (B-10).	1	from verify/out/TREE_B9.md		
+B9.1.1	B9	leaf	B9.1	Cigarettes & pre-rolls	Kind axis: construction. Display group: Cigarettes and roll-your-own; pre-rolls are displayed in Cannabis and hemp.	2	from verify/out/TREE_B9.md		
+B9.1.2	B9	leaf	B9.1	Cigars	Kind axis: the generic vitola (shape and size class), parejos by size, then figurados (section 14). Display group: Cigars and cigarillos; inside it, B9.1.2.01 to B9.1.2.11 display as "Parejos" and B9.1.2.12 to B9.1.2.16 as "Figurados".	3	from verify/out/TREE_B9.md		
+B9.1.3	B9	leaf	B9.1	Cigarillos & little cigars	Kind axis: the object itself. Display group: Cigars and cigarillos.	4	from verify/out/TREE_B9.md		
+B9.1.4	B9	leaf	B9.1	Pipe tobacco	Kind axis: blend family (section 14). Display group: Pipes and pipe tobacco.	5	from verify/out/TREE_B9.md		
+B9.1.5	B9	leaf	B9.1	Loose plant material	Kind axis: material and cut. Display group: fine-cut and kizami in Cigarettes and roll-your-own; flower in Cannabis and hemp; the other kinds in Other plant products.	6	from verify/out/TREE_B9.md		
+B9.1.6	B9	leaf	B9.1	Hookah shisha	Kind axis: the object itself. Display group: Hookah and shisha.	7	from verify/out/TREE_B9.md		
+B9.1.7	B9	leaf	B9.1	Heated tobacco	Kind axis: the object itself. Display group: Heated tobacco.	8	from verify/out/TREE_B9.md		
+B9.1.8	B9	leaf	B9.1	Oral & nasal products	Kind axis: degree of processing, tobacco and non-tobacco together. Display group: Snus, nicotine pouches and other oral products; betel quid, areca nut and khat in Other plant products.	9	from verify/out/TREE_B9.md		
+B9.1.9	B9	leaf	B9.1	E-liquids & prefilled cartridges	Kind axis: nicotine chemistry, then prefilled units. Display group: Vapes and e-liquids.	10	from verify/out/TREE_B9.md		
+B9.1.10	B9	leaf	B9.1	Concentrates	Kind axis: process type, solventless first. Display group: Cannabis and hemp.	11	from verify/out/TREE_B9.md		
+B9.1.11	B9	leaf	B9.1	Infused & dosed products	Kind axis: form of the dose; hemp-derived CBD and kratom products included. Display group: Cannabis and hemp.	12	from verify/out/TREE_B9.md		
+B9.2	B9	sub_family	B9	Implements & hardware	Leaf axis: the job the empty object does in use.	13	from verify/out/TREE_B9.md		
+B9.2.1	B9	leaf	B9.2	Pipes	Kind axis: shape family; Billiard first, then by degree of bend, Freehand after the other shape families, non-Western forms last. Display group: Pipes and pipe tobacco.	14	from verify/out/TREE_B9.md		
+B9.2.2	B9	leaf	B9.2	Water pipes	Kind axis: the object itself. Display group: hookah in Hookah and shisha; bong and dab rig in Cannabis and hemp.	15	from verify/out/TREE_B9.md		
+B9.2.3	B9	leaf	B9.2	Vape & heating hardware	Kind axis: device architecture, simplest first (provisional: a comparison source is still needed, C10(b)). Display group: Vapes and e-liquids; the heated-tobacco device in Heated tobacco; the vaporizer in Cannabis and hemp.	16	from verify/out/TREE_B9.md		
+B9.2.4	B9	leaf	B9.2	Lighters	Kind axis: ignition mechanism or use class. Display group: Lighters, cutters, ashtrays and cases; the pipe lighter is also shown in Pipes and pipe tobacco and the cigar lighter in Cigars and cigarillos.	17	from verify/out/TREE_B9.md		
+B9.2.5	B9	leaf	B9.2	Rolling & grinding	Kind axis: the object itself. Display group: Cigarettes and roll-your-own; the grinder in Cannabis and hemp.	18	from verify/out/TREE_B9.md		
+B9.2.6	B9	leaf	B9.2	Cutters, ashtrays & carry	Kind axis: the object itself. Display group: Lighters, cutters, ashtrays and cases; the cigar cutter, cigar case and travel humidor are also shown in Cigars and cigarillos.	19	from verify/out/TREE_B9.md		
+B9.3	B9	sub_family	B9	Parts and accessories made for one B9 object (no leaf)		20	from verify/out/TREE_B9.md		
