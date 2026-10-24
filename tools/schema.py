@@ -47,14 +47,17 @@ TABLES = {
                                   "region", "introduced", "status", "extension"] + SRC),
     "compatibility": ("compat_id", ["compat_id", "from_id", "relation", "to_id"] + SRC),
     # C16 grading scales, C17 jurisdiction and standards
-    "grading_scales": ("scale_id", ["scale_id", "name", "owner", "scale_type", "steps", "kinds_served"] + SRC),
+    "grading_scales": ("scale_id", ["scale_id", "name", "owner", "scale_type", "steps", "kinds_served", "jurisdiction",
+                                      "notes"] + SRC),
     "jurisdiction": ("jur_id", ["jur_id", "subject_id", "jurisdiction", "scheme", "class", "criteria", "date"] + SRC),
     "standards": ("standard_id", ["standard_id", "name", "authority", "steps"] + SRC),
     "standard_values": ("sv_id", ["sv_id", "subject_id", "standard_id", "value"] + SRC),
     "designations": ("designation_id", ["designation_id", "name", "scheme", "register_ref", "authority", "binds",
-                                        "kind_id"] + SRC),
+                                        "kind_id", "kinds_served", "country", "product_class", "date", "notes"] + SRC),
+    # binds: kind (one kind, kind_id filled; also a non-maker named form) or tag (spans kinds_served) (JC1, R-112)
     # domain J
-    "varieties": ("variety_id", ["variety_id", "species", "name", "native_name", "holder"] + SRC),
+    "varieties": ("variety_id", ["variety_id", "species", "name", "native_name", "holder", "variety_type", "kind_id",
+                                  "origin", "year", "notes"] + SRC),  # variety_type: cultivar, club cultivar, breed, strain (R-112)
     "culinary_links": ("link_id", ["link_id", "subject_id", "target_code", "relation"] + SRC),
 }
 
