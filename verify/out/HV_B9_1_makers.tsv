@@ -22,7 +22,7 @@ M-arturo-fuente	Arturo Fuente		house or manufacture		DO										cigar brand; Wi
 M-ashton	Ashton		house or manufacture							M-arturo-fuente					cigar brand	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-davidoff	Davidoff		house or manufacture												maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_cigar_brands | https://pipehouse.de/pfeifentabak/	full | full
 M-avo	AVO		house or manufacture		DO					M-davidoff					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
-M-baccarat	Baccarat		house or manufacture							M-davidoff					cigar brand; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
+M-baccarat-cigars	Baccarat		house or manufacture							M-davidoff					cigar brand; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-bahman	Bahman		house or manufacture							M-itc					cigar brand	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-wm-tegge-co	Wm. Tegge & Co.		house or manufacture													https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-ben-hur	Ben-Hur		house or manufacture							M-wm-tegge-co					cigar brand	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
@@ -52,7 +52,7 @@ M-dannemann-gmbh	Dannemann GmbH		house or manufacture													https://en.wik
 M-dannemann	Dannemann		house or manufacture		DE					M-dannemann-gmbh					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-diamond-crown	Diamond Crown		house or manufacture		DO					M-j-c-newman					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-a-j-fernandez-cigars	A. J. Fernandez Cigars		house or manufacture													https://en.wikipedia.org/wiki/List_of_cigar_brands	full
-M-diesel	Diesel		house or manufacture							M-a-j-fernandez-cigars					cigar brand; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
+M-diesel-cigars	Diesel		house or manufacture							M-a-j-fernandez-cigars					cigar brand; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-diplomaticos	Diplomaticos		house or manufacture		CU		1986			M-habanos-s-a					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands | https://cubancigaronline.com/cuban-cigar-brands	full | full
 M-djarum	Djarum		house or manufacture		ID										cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands | https://en.wikipedia.org/wiki/Kretek	full | full
 M-dunhill	Dunhill		house or manufacture												maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
@@ -71,7 +71,7 @@ M-flor-del-punto	Flor del Punto		house or manufacture							M-dunhill					cigar 
 M-maya-selva	Maya Selva		house or manufacture													https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-flor-de-selva	Flor de Selva		house or manufacture		HN					M-maya-selva					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-la-flor-dominicana	La Flor Dominicana		house or manufacture		DO										cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
-M-fonseca	Fonseca		house or manufacture		CU		1891			M-habanos-s-a					cigar brand; Wikipedia list gives origin column; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_cigar_brands | https://cubancigaronline.com/cuban-cigar-brands	full | full
+M-fonseca-cigars	Fonseca		house or manufacture		CU		1891			M-habanos-s-a					cigar brand; Wikipedia list gives origin column; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_cigar_brands | https://cubancigaronline.com/cuban-cigar-brands	full | full
 M-swedish-match	Swedish Match		house or manufacture													https://en.wikipedia.org/wiki/List_of_cigar_brands | https://en.wikipedia.org/wiki/Snus | https://en.wikipedia.org/wiki/Ettan_snus	full | full | full
 M-game	Game		house or manufacture							M-swedish-match					cigar brand	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-garcia-y-vega	Garcia Y Vega		house or manufacture							M-swedish-match					cigar brand	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
@@ -121,13 +121,13 @@ M-tierra-del-sol	Tierra del Sol		house or manufacture							M-tabacalera-perdomo
 M-smci-holding-inc	SMCI Holding, Inc.		house or manufacture													https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-tiparillo	Tiparillo		house or manufacture							M-smci-holding-inc					cigar brand	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-manifatture-sigaro-toscano	Manifatture Sigaro Toscano		house or manufacture													https://en.wikipedia.org/wiki/List_of_cigar_brands	full
-M-toscano	Toscano		house or manufacture		IT					M-manifatture-sigaro-toscano					cigar brand; Wikipedia list gives origin column; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
+M-toscano-cigars	Toscano		house or manufacture		IT					M-manifatture-sigaro-toscano					cigar brand; Wikipedia list gives origin column; maker_id already in data/makers.tsv	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-trinidad	Trinidad		house or manufacture		CU		1969			M-habanos-s-a					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands | https://cubancigaronline.com/cuban-cigar-brands	full | full
 M-vegafina	Vegafina		house or manufacture		DO					M-altadis					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-vegueros	Vegueros		house or manufacture		CU		1996			M-habanos-s-a					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands | https://cubancigaronline.com/cuban-cigar-brands	full | full
 M-willem-ii	Willem II		house or manufacture		NL					M-swedish-match					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-san-andres-southern-tobacco-co	San Andres Southern Tobacco Co.		house or manufacture													https://en.wikipedia.org/wiki/List_of_cigar_brands	full
-M-windsor	Windsor		house or manufacture		MX					M-san-andres-southern-tobacco-co					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
+M-windsor-cigars	Windsor		house or manufacture		MX					M-san-andres-southern-tobacco-co					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-zino	Zino		house or manufacture		DO					M-davidoff					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands	full
 M-quai-d-orsay	Quai d'Orsay		house or manufacture		CU		1931			M-habanos-s-a					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands | https://cubancigaronline.com/cuban-cigar-brands	full | full
 M-por-larranaga	Por Larranaga		house or manufacture		CU		1834			M-habanos-s-a					cigar brand; Wikipedia list gives origin column	https://en.wikipedia.org/wiki/List_of_cigar_brands | https://cubancigaronline.com/cuban-cigar-brands	full | full
@@ -218,6 +218,6 @@ M-erinmore	Erinmore		house or manufacture												pipe tobacco blender/brand	
 M-gladora-tobaccos	Gladora Tobaccos		house or manufacture												pipe tobacco blender/brand	https://pipehouse.de/pfeifentabak/	full
 M-stanwell	Stanwell		house or manufacture												pipe tobacco blender/brand	https://pipehouse.de/pfeifentabak/	full
 M-st-bruno	St. Bruno		house or manufacture												pipe tobacco blender/brand	https://pipehouse.de/pfeifentabak/	full
-M-richmond	Richmond		house or manufacture												pipe tobacco blender/brand; maker_id already in data/makers.tsv	https://pipehouse.de/pfeifentabak/	full
+M-richmond-tobacco	Richmond		house or manufacture												pipe tobacco blender/brand; maker_id already in data/makers.tsv	https://pipehouse.de/pfeifentabak/	full
 M-solani	Solani		house or manufacture		DE										pipe tobacco blender/brand	https://www.smokingpipes.com/smokingpipesblog/single.cfm/post/smokingpipes-university-tobacco-families	full
 M-pipe-house	Pipe House		retail own-label		DE	Koblenz	1933								family firm with 19 house blends	https://pipehouse.de/pfeifentabak/	full
