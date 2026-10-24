@@ -322,28 +322,6 @@ C4	G-C4-R8	Tannage		Leather is chosen by tannage first.	rewritten from the store
 C4	G-C4-R8	Grain grade		Grade comes after tannage.	rewritten from the stored C4 markers (G-C4-114), RD_C4
 C4	G-C4-R8	Weight (oz)		A fit to the project.	rewritten from the stored C4 markers (G-C4-114), RD_C4
 C4	G-C4-R5	Shape consistency of the maker's line		Seed beads are compared by maker line.	rewritten from the stored C4 markers (G-C4-116), RD_C4
-D3	G-D3-R1	Tonal balance	closeness to a neutral target	Reviewers weigh this first; neutral, warm or bright describes the sound, it does not rank it.	rewritten from the stored D3 markers (G-D3-1), RD_D3
-D3	G-D3-R1	Clarity and detail		Second in the reviewer scorecard.	rewritten from the stored D3 markers (G-D3-1), RD_D3
-D3	G-D3-R1	Dynamics		Third in the scorecard.	rewritten from the stored D3 markers (G-D3-1), RD_D3
-D3	G-D3-R1	Soundstage	open-back is wider than closed-back	Fourth; the enclosure shapes it.	rewritten from the stored D3 markers (G-D3-1), RD_D3
-D3	G-D3-R1	Comfort and fit		Weighed after sound.	rewritten from the stored D3 markers (G-D3-1), RD_D3
-D3	G-D3-R1	Isolation or noise cancelling		Matters by use, such as travel or the gym.	rewritten from the stored D3 markers (G-D3-1), RD_D3
-D3	G-D3-R1	Sensitivity and amplifier needs		Tells whether a separate amplifier is needed.	rewritten from the stored D3 markers (G-D3-1), RD_D3
-D3	G-D3-R1	Value against similarly priced models		Weighed last.	rewritten from the stored D3 markers (G-D3-1), RD_D3
-D3	G-D3-R3	Reviewer class	Class A > B > C > D (Stereophile), with a bass-reach sub-class for speakers	Class from listening and test bench comes first.	rewritten from the stored D3 markers (G-D3-3), RD_D3
-D3	G-D3-R4	Reviewer class	Class A > B > C > D (Stereophile)	Class from listening and test bench comes first.	rewritten from the stored D3 markers (G-D3-4), RD_D3
-D3	G-D3-R3; G-D3-R4	Measured distortion and noise	higher SINAD is better	Bench measurement comes after class.	rewritten from the stored D3 markers (G-D3-3, G-D3-4), RD_D3
-D3	G-D3-R3; G-D3-R4	Build and matching		Weighed last.	rewritten from the stored D3 markers (G-D3-3, G-D3-4), RD_D3
-D3	G-D3-R2	Display technology and contrast		Provisional: no TV evidence found yet.	rewritten from the stored D3 markers (G-D3-11), RD_D3
-D3	G-D3-R2	Brightness and colour		Provisional.	rewritten from the stored D3 markers (G-D3-11), RD_D3
-D3	G-D3-R2	Motion and processing		Provisional.	rewritten from the stored D3 markers (G-D3-11), RD_D3
-D3	G-D3-R2	Size		Provisional.	rewritten from the stored D3 markers (G-D3-11), RD_D3
-D3	G-D3-R2	Projector use		Provisional.	rewritten from the stored D3 markers (G-D3-12), RD_D3
-D3	G-D3-R2	Projector throw type		Provisional.	rewritten from the stored D3 markers (G-D3-12), RD_D3
-D3	G-D3-R2	Projector light source		Provisional.	rewritten from the stored D3 markers (G-D3-12), RD_D3
-D3	G-D3-R2	Projector brightness		Provisional.	rewritten from the stored D3 markers (G-D3-12), RD_D3
-D3	G-D3-R5	Drive and operation		Applies to turntables.	rewritten from the stored D3 markers (G-D3-19), RD_D3
-D3	G-D3-R5	Tonearm and cartridge		Applies to turntables.	rewritten from the stored D3 markers (G-D3-19), RD_D3
 F2	F2	Is it original	original, then interpretive, then reproduction, then restrike	Comes first; a work counts as original when wholly made by hand.	rewritten from the stored F2 markers (G-F2-1), RD_F2
 F2	F2	Condition	cracks, fading, restoration	Facts about the one work in hand, so shown as buying guidance only.	rewritten from the stored F2 markers (G-F2-1), RD_F2
 F2	F2	Artist reputation and auction record		Judged by the artist, not the single work.	rewritten from the stored F2 markers (G-F2-1), RD_F2
@@ -455,35 +433,6 @@ D4	G-D4-R3	Power and recycle time		Provisional, memo only.	rewritten from the st
 D4	G-D4-R3	Colour accuracy		Provisional, memo only.	rewritten from the stored D4 markers (G-D4-3), RD_D4
 D4	G-D4-R4	Load capacity		Provisional, memo only.	rewritten from the stored D4 markers (G-D4-4), RD_D4
 D4	G-D4-R4	Stability		Provisional, memo only.	rewritten from the stored D4 markers (G-D4-4), RD_D4
-E4	G-E4-R5	Steel	how well it holds an edge, toughness, hardness (HRC) and rust resistance	Knife steel comes first, judged by its properties.	rewritten from the stored E4 markers (G-E4-5), RD_E4
-E4	G-E4-R5	Maker's heat treatment		Counts for more than the steel name.	rewritten from the stored E4 markers (G-E4-5), RD_E4
-E4	G-E4-R5	Tang	full > half > rat-tail	Construction comes after steel.	rewritten from the stored E4 markers (G-E4-5), RD_E4
-E4	G-E4-R5	Blade shape and length		Chosen for the job.	rewritten from the stored E4 markers (G-E4-5), RD_E4
-E4	G-E4-R5	Handle material and balance		Follows the blade.	rewritten from the stored E4 markers (G-E4-5), RD_E4
-E4	G-E4-R5	Fit in the hand		Last: checked in the hand.	rewritten from the stored E4 markers (G-E4-5), RD_E4
-E4	G-E4-R4	Intended use		The archery guide starts from use.	rewritten from the stored E4 markers (G-E4-20), RD_E4
-E4	G-E4-R4	Fit and draw length		Comes after use.	rewritten from the stored E4 markers (G-E4-20), RD_E4
-E4	G-E4-R4	Draw weight you can hold		Not the heaviest, but the one you can hold steadily.	rewritten from the stored E4 markers (G-E4-20), RD_E4
-E4	G-E4-R4	Left or right handed		Matched to the archer.	rewritten from the stored E4 markers (G-E4-20), RD_E4
-E4	G-E4-R4	Budget		Last in the guide's order.	rewritten from the stored E4 markers (G-E4-20), RD_E4
-E4	G-E4-R1	Shooter build and recoil		The hunting-rifle guide starts from the shooter.	rewritten from the stored E4 markers (G-E4-13), RD_E4
-E4	G-E4-R1	Size of game	small, medium, large game (a choice)	Calibre and action follow the game.	rewritten from the stored E4 markers (G-E4-13), RD_E4
-E4	G-E4-R1	Action		Comes after the game.	rewritten from the stored E4 markers (G-E4-13), RD_E4
-E4	G-E4-R1	Weight and balance		Comes after the action.	rewritten from the stored E4 markers (G-E4-13), RD_E4
-E4	G-E4-R1	Calibre		Chosen for the game.	rewritten from the stored E4 markers (G-E4-13), RD_E4
-E4	G-E4-R1	Stock fit		Fit to the shooter.	rewritten from the stored E4 markers (G-E4-13), RD_E4
-E4	G-E4-R1	Accuracy guarantee		A maker claim, so treat it as a claim only.	rewritten from the stored E4 markers (G-E4-13), RD_E4
-E4	G-E4-R8	Threat level faced	NIJ 0101.06 IV > III > IIIA > II; NIJ 0101.07 HG1-RF3; NIJ 0115.00 stab (a minimum, not a maximum)	Buy for the threat you face; the NIJ level is the least protection you get.	rewritten from the stored E4 markers (G-E4-32), RD_E4
-E4	G-E4-R8	Mobility and wear time		Comes after protection level.	rewritten from the stored E4 markers (G-E4-32), RD_E4
-E4	G-E4-R8	Materials and construction		Comes after mobility.	rewritten from the stored E4 markers (G-E4-32), RD_E4
-E4	G-E4-R8	Plate curvature		Matters for hard plates.	rewritten from the stored E4 markers (G-E4-32), RD_E4
-E4	G-E4-R8	Weight and fit		Last in the guide's order.	rewritten from the stored E4 markers (G-E4-32), RD_E4
-E4	G-E4-R6	Licensed smith and clear attribution (Japanese swords)		Applies to Japanese swords as types; single blades are not listed.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
-E4	G-E4-R6	Genuine hamon (Japanese swords)		Comes after attribution.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
-E4	G-E4-R6	Polish and tang (Japanese swords)		Comes after the hamon.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
-E4	G-E4-R6	Certified paper (Japanese swords)	NBTHK Tokubetsu Juyo > Juyo > Tokubetsu Hozon > Hozon; NBSK papers	Certificates are graded on a scale; they belong to single blades, not to types.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
-E4	G-E4-R6	Maker reputation (HEMA swords)		HEMA buyers choose by maker first; one source calls Albion the gold standard.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
-E4	G-E4-R6	Customisation, lead time and repair (HEMA swords)		Comes after maker reputation.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
 F1	G-F1-R1	Importance of the work		Shown only as context: the work itself is not sold as an object here.	rewritten from the stored F1 markers (G-F1-1), RD_F1
 F1	G-F1-R1	Edition and printing	first edition, first printing > later printing	Collectors weigh this first among the copy's own features.	rewritten from the stored F1 markers (G-F1-1), RD_F1
 F1	G-F1-R1	Condition	graded on the book condition scale	Graded on the scale.	rewritten from the stored F1 markers (G-F1-1), RD_F1
@@ -646,33 +595,6 @@ H1	G-H1-R7	Feel (electric toothbrushes)		CHOICE yardstick.	rewritten from the st
 H1	G-H1-R7	Charging and run time (electric toothbrushes)		Weighed last.	rewritten from the stored H1 markers (G-H1-7), RD_H1
 H1	G-H1-R4	Strength	parfum or extrait > eau de parfum > eau de toilette > eau de cologne > eau fraiche (strength, not quality)	Provisional marker; evidence is thin.	rewritten from the stored H1 markers (G-H1-4), RD_H1
 H1	G-H1-R4	Fragrance house		Provisional until a fragrance source is fetched.	rewritten from the stored H1 markers (G-H1-4), RD_H1
-C8	G-C8-R1	Strength class	C24 > C16	Structural timber is sold by class.	rewritten from the stored C8 markers (G-C8-101), RD_C8
-C8	G-C8-R1	Treatment	higher use classes > UC2 > untreated	Treatment protects against exposure.	rewritten from the stored C8 markers (G-C8-101), RD_C8
-C8	G-C8-R1	Kiln dried and regularised	kiln dried and regularised > not	Stable, even sizes.	rewritten from the stored C8 markers (G-C8-101), RD_C8
-C8	G-C8-R1	Certified sourcing		A fact about where it came from, not a grade.	rewritten from the stored C8 markers (G-C8-101), RD_C8
-C8	G-C8-R8	Tile material	porcelain > ceramic (natural stone apart)	Porcelain is dense and moisture-resistant.	rewritten from the stored C8 markers (G-C8-110), RD_C8
-C8	G-C8-R8	Water absorption	impervious (0.5% or less) > vitreous > semi-vitreous > non-vitreous	The less water a tile takes up, the better it suits wet or frosty places.	rewritten from the stored C8 markers (G-C8-110), RD_C8
-C8	G-C8-R8	Wear rating (PEI)	5 > 4 > 3 > 2 > 1 > 0	Matched to foot traffic.	rewritten from the stored C8 markers (G-C8-110), RD_C8
-C8	G-C8-R8	Slip resistance	R11 and up > R10 > R9; DCOF 0.42 or higher for wet areas	Wet areas need the higher ratings.	rewritten from the stored C8 markers (G-C8-110), RD_C8
-C8	G-C8-R8	Underfloor-heating compatibility		A yes or no fit.	rewritten from the stored C8 markers (G-C8-110), RD_C8
-C8	G-C8-R8	Hiding power, wet and dry	class 1 > 2 > 3 > 4	The first test result.	rewritten from the stored C8 markers (G-C8-131), RD_C8
-C8	G-C8-R8	Scrub resistance	class 1 > 2 > 3 > 4 > 5	A standard class (EN 13300).	rewritten from the stored C8 markers (G-C8-131), RD_C8
-C8	G-C8-R8	Ease of application and spatter		Checked in the Stiftung Warentest paint test.	rewritten from the stored C8 markers (G-C8-131), RD_C8
-C8	G-C8-R8	Low emissions and preservatives, correct labelling		Health and labelling.	rewritten from the stored C8 markers (G-C8-131), RD_C8
-C8	G-C8-R8	Gloss level	gloss > satin > matt > flat (harder and more durable as gloss rises)	A choice by room; durability rises with gloss.	rewritten from the stored C8 markers (G-C8-131), RD_C8
-C8	G-C8-R8	Low or zero VOC	zero > low	Choice lists it.	rewritten from the stored C8 markers (G-C8-131), RD_C8
-C8	G-C8-R8	Mould resistance		For wet rooms.	rewritten from the stored C8 markers (G-C8-131), RD_C8
-C8	G-C8-R8	Spreading rate	8 to 16 sq m per litre	Coverage per litre.	rewritten from the stored C8 markers (G-C8-131), RD_C8
-C8	G-C8-R4	Right screw for the material		Screws are chosen by what they fasten into.	rewritten from the stored C8 markers (G-C8-112), RD_C8
-C8	G-C8-R4	Material and coating	A4 stainless > A2 stainless > galvanised > zinc	Ladder of corrosion resistance; the same for screws and bolts.	rewritten from the stored C8 markers (G-C8-112; G-C8-114), RD_C8
-C8	G-C8-R4	Size and gauge		A fit, not a ladder.	rewritten from the stored C8 markers (G-C8-112), RD_C8
-C8	G-C8-R4	Bolt strength class (ISO 898-1)	12.9 > 10.9 > 8.8 > 5.8 > 4.6	Bolt strength class (from the category memo).	rewritten from the stored C8 markers (G-C8-114), RD_C8
-C8	G-C8-R7	Chemistry and capacity (mAh)		Batteries are chosen by chemistry, then capacity (from the category memo).	rewritten from the stored C8 markers (G-C8-136), RD_C8
-C8	G-C8-R7	Maker range ladder		Each maker's ranges rank within that maker (from the category memo).	rewritten from the stored C8 markers (G-C8-136), RD_C8
-C8	G-C8-R6	Match to the specification		No quality evidence found; these are chosen by their specification.	rewritten from the stored C8 markers (G-C8-5), RD_C8
-C8	G-C8-R7	Match to the specification		No quality evidence found; these are chosen by their specification.	rewritten from the stored C8 markers (G-C8-6), RD_C8
-C8	G-C8-R5	Match to the specification		No quality evidence found; these are chosen by their specification.	rewritten from the stored C8 markers (G-C8-8), RD_C8
-C8	G-C8-R9	Match to the specification		No quality evidence found; these are chosen by their specification.	rewritten from the stored C8 markers (G-C8-10), RD_C8
 E2	G-E2-R3	Genuine safety certification (check this first)	UIAA Safety Label; CE mark and EN standard met	Safety gear is checked for genuine certification before anything else.	rewritten from the stored E2 markers (G-E2-24), RD_E2
 E2	G-E2-R3	Fit and fit with the gear you already own		Comes after certification.	rewritten from the stored E2 markers (G-E2-24), RD_E2
 E2	G-E2-R3	Right for the climbing you do and your skill		The gear must suit the climbing done and the climber.	rewritten from the stored E2 markers (G-E2-24), RD_E2
@@ -935,3 +857,81 @@ J2	G-J2-R4	How the fish is cut	Solid > Chunk > Flake > Grated or shredded	Codex 
 J2	G-J2-R5	Sturgeon species	Beluga > Osetra > Sevruga	The species leads for caviar; only sturgeon eggs are caviar.	rewritten from the stored J2 markers (G-J2-25), RD_J2
 J2	G-J2-R5	Egg size, colour and maturity	000 > 00 > 0	Larger, lighter, firmer grains rank higher; producers use their own terms too.	rewritten from the stored J2 markers (G-J2-25), RD_J2
 J2	G-J2-R5	Salt level		Malossol (low salt) is the premium cure; taste and price then decide.	rewritten from the stored J2 markers (G-J2-25), RD_J2
+D3	G-D3-R1	Tonal balance	closeness to a neutral target	Reviewers weigh this first; neutral, warm or bright describes the sound, it does not rank it.	rewritten from the stored D3 markers (G-D3-1), RD_D3
+D3	G-D3-R1	Clarity and detail		Second in the reviewer scorecard.	rewritten from the stored D3 markers (G-D3-1), RD_D3
+D3	G-D3-R1	Dynamics		Third in the scorecard.	rewritten from the stored D3 markers (G-D3-1), RD_D3
+D3	G-D3-R1	Soundstage	open-back is wider than closed-back	Fourth; the enclosure shapes it.	rewritten from the stored D3 markers (G-D3-1), RD_D3
+D3	G-D3-R1	Comfort and fit		Weighed after sound.	rewritten from the stored D3 markers (G-D3-1), RD_D3
+D3	G-D3-R1	Isolation or noise cancelling		Matters by use, such as travel or the gym.	rewritten from the stored D3 markers (G-D3-1), RD_D3
+D3	G-D3-R1	Sensitivity and amplifier needs		Tells whether a separate amplifier is needed.	rewritten from the stored D3 markers (G-D3-1), RD_D3
+D3	G-D3-R1	Value against similarly priced models		Weighed last.	rewritten from the stored D3 markers (G-D3-1), RD_D3
+D3	G-D3-R3	Reviewer class	Class A > B > C > D (Stereophile), with a bass-reach sub-class for speakers	Class from listening and test bench comes first.	rewritten from the stored D3 markers (G-D3-3), RD_D3
+D3	G-D3-R4	Reviewer class	Class A > B > C > D (Stereophile)	Class from listening and test bench comes first.	rewritten from the stored D3 markers (G-D3-4), RD_D3
+D3	G-D3-R3; G-D3-R4	Measured distortion and noise	higher SINAD is better	Bench measurement comes after class.	rewritten from the stored D3 markers (G-D3-3, G-D3-4), RD_D3
+D3	G-D3-R3; G-D3-R4	Build and matching		Weighed last.	rewritten from the stored D3 markers (G-D3-3, G-D3-4), RD_D3
+D3	G-D3-R2	Display technology and contrast		Provisional: no TV evidence found yet.	rewritten from the stored D3 markers (G-D3-11), RD_D3
+D3	G-D3-R2	Brightness and colour		Provisional.	rewritten from the stored D3 markers (G-D3-11), RD_D3
+D3	G-D3-R2	Motion and processing		Provisional.	rewritten from the stored D3 markers (G-D3-11), RD_D3
+D3	G-D3-R2	Size		Provisional.	rewritten from the stored D3 markers (G-D3-11), RD_D3
+D3	G-D3-R2	Projector use		Provisional.	rewritten from the stored D3 markers (G-D3-12), RD_D3
+D3	G-D3-R2	Projector throw type		Provisional.	rewritten from the stored D3 markers (G-D3-12), RD_D3
+D3	G-D3-R2	Projector light source		Provisional.	rewritten from the stored D3 markers (G-D3-12), RD_D3
+D3	G-D3-R2	Projector brightness		Provisional.	rewritten from the stored D3 markers (G-D3-12), RD_D3
+D3	G-D3-R5	Drive and operation		Applies to turntables.	rewritten from the stored D3 markers (G-D3-19), RD_D3
+D3	G-D3-R5	Tonearm and cartridge		Applies to turntables.	rewritten from the stored D3 markers (G-D3-19), RD_D3
+C8	G-C8-R1	Strength class	C24 > C16	Structural timber is sold by class.	rewritten from the stored C8 markers (G-C8-101), RD_C8
+C8	G-C8-R1	Treatment	higher use classes > UC2 > untreated	Treatment protects against exposure.	rewritten from the stored C8 markers (G-C8-101), RD_C8
+C8	G-C8-R1	Kiln dried and regularised	kiln dried and regularised > not	Stable, even sizes.	rewritten from the stored C8 markers (G-C8-101), RD_C8
+C8	G-C8-R1	Certified sourcing		A fact about where it came from, not a grade.	rewritten from the stored C8 markers (G-C8-101), RD_C8
+C8	G-C8-R8	Tile material	porcelain > ceramic (natural stone apart)	Porcelain is dense and moisture-resistant.	rewritten from the stored C8 markers (G-C8-110), RD_C8
+C8	G-C8-R8	Water absorption	impervious (0.5% or less) > vitreous > semi-vitreous > non-vitreous	The less water a tile takes up, the better it suits wet or frosty places.	rewritten from the stored C8 markers (G-C8-110), RD_C8
+C8	G-C8-R8	Wear rating (PEI)	5 > 4 > 3 > 2 > 1 > 0	Matched to foot traffic.	rewritten from the stored C8 markers (G-C8-110), RD_C8
+C8	G-C8-R8	Slip resistance	R11 and up > R10 > R9; DCOF 0.42 or higher for wet areas	Wet areas need the higher ratings.	rewritten from the stored C8 markers (G-C8-110), RD_C8
+C8	G-C8-R8	Underfloor-heating compatibility		A yes or no fit.	rewritten from the stored C8 markers (G-C8-110), RD_C8
+C8	G-C8-R8	Hiding power, wet and dry	class 1 > 2 > 3 > 4	The first test result.	rewritten from the stored C8 markers (G-C8-131), RD_C8
+C8	G-C8-R8	Scrub resistance	class 1 > 2 > 3 > 4 > 5	A standard class (EN 13300).	rewritten from the stored C8 markers (G-C8-131), RD_C8
+C8	G-C8-R8	Ease of application and spatter		Checked in the Stiftung Warentest paint test.	rewritten from the stored C8 markers (G-C8-131), RD_C8
+C8	G-C8-R8	Low emissions and preservatives, correct labelling		Health and labelling.	rewritten from the stored C8 markers (G-C8-131), RD_C8
+C8	G-C8-R8	Gloss level	gloss > satin > matt > flat (harder and more durable as gloss rises)	A choice by room; durability rises with gloss.	rewritten from the stored C8 markers (G-C8-131), RD_C8
+C8	G-C8-R8	Low or zero VOC	zero > low	Choice lists it.	rewritten from the stored C8 markers (G-C8-131), RD_C8
+C8	G-C8-R8	Mould resistance		For wet rooms.	rewritten from the stored C8 markers (G-C8-131), RD_C8
+C8	G-C8-R8	Spreading rate	8 to 16 sq m per litre	Coverage per litre.	rewritten from the stored C8 markers (G-C8-131), RD_C8
+C8	G-C8-R4	Right screw for the material		Screws are chosen by what they fasten into.	rewritten from the stored C8 markers (G-C8-112), RD_C8
+C8	G-C8-R4	Material and coating	A4 stainless > A2 stainless > galvanised > zinc	Ladder of corrosion resistance; the same for screws and bolts.	rewritten from the stored C8 markers (G-C8-112; G-C8-114), RD_C8
+C8	G-C8-R4	Size and gauge		A fit, not a ladder.	rewritten from the stored C8 markers (G-C8-112), RD_C8
+C8	G-C8-R4	Bolt strength class (ISO 898-1)	12.9 > 10.9 > 8.8 > 5.8 > 4.6	Bolt strength class (from the category memo).	rewritten from the stored C8 markers (G-C8-114), RD_C8
+C8	G-C8-R7	Chemistry and capacity (mAh)		Batteries are chosen by chemistry, then capacity (from the category memo).	rewritten from the stored C8 markers (G-C8-136), RD_C8
+C8	G-C8-R7	Maker range ladder		Each maker's ranges rank within that maker (from the category memo).	rewritten from the stored C8 markers (G-C8-136), RD_C8
+C8	G-C8-R6	Match to the specification		No quality evidence found; these are chosen by their specification.	rewritten from the stored C8 markers (G-C8-5), RD_C8
+C8	G-C8-R7	Match to the specification		No quality evidence found; these are chosen by their specification.	rewritten from the stored C8 markers (G-C8-6), RD_C8
+C8	G-C8-R5	Match to the specification		No quality evidence found; these are chosen by their specification.	rewritten from the stored C8 markers (G-C8-8), RD_C8
+C8	G-C8-R9	Match to the specification		No quality evidence found; these are chosen by their specification.	rewritten from the stored C8 markers (G-C8-10), RD_C8
+E4	G-E4-R5	Steel	how well it holds an edge, toughness, hardness (HRC) and rust resistance	Knife steel comes first, judged by its properties.	rewritten from the stored E4 markers (G-E4-5), RD_E4
+E4	G-E4-R5	Maker's heat treatment		Counts for more than the steel name.	rewritten from the stored E4 markers (G-E4-5), RD_E4
+E4	G-E4-R5	Tang	full > half > rat-tail	Construction comes after steel.	rewritten from the stored E4 markers (G-E4-5), RD_E4
+E4	G-E4-R5	Blade shape and length		Chosen for the job.	rewritten from the stored E4 markers (G-E4-5), RD_E4
+E4	G-E4-R5	Handle material and balance		Follows the blade.	rewritten from the stored E4 markers (G-E4-5), RD_E4
+E4	G-E4-R5	Fit in the hand		Last: checked in the hand.	rewritten from the stored E4 markers (G-E4-5), RD_E4
+E4	G-E4-R4	Intended use		The archery guide starts from use.	rewritten from the stored E4 markers (G-E4-20), RD_E4
+E4	G-E4-R4	Fit and draw length		Comes after use.	rewritten from the stored E4 markers (G-E4-20), RD_E4
+E4	G-E4-R4	Draw weight you can hold		Not the heaviest, but the one you can hold steadily.	rewritten from the stored E4 markers (G-E4-20), RD_E4
+E4	G-E4-R4	Left or right handed		Matched to the archer.	rewritten from the stored E4 markers (G-E4-20), RD_E4
+E4	G-E4-R4	Budget		Last in the guide's order.	rewritten from the stored E4 markers (G-E4-20), RD_E4
+E4	G-E4-R1	Shooter build and recoil		The hunting-rifle guide starts from the shooter.	rewritten from the stored E4 markers (G-E4-13), RD_E4
+E4	G-E4-R1	Size of game	small, medium, large game (a choice)	Calibre and action follow the game.	rewritten from the stored E4 markers (G-E4-13), RD_E4
+E4	G-E4-R1	Action		Comes after the game.	rewritten from the stored E4 markers (G-E4-13), RD_E4
+E4	G-E4-R1	Weight and balance		Comes after the action.	rewritten from the stored E4 markers (G-E4-13), RD_E4
+E4	G-E4-R1	Calibre		Chosen for the game.	rewritten from the stored E4 markers (G-E4-13), RD_E4
+E4	G-E4-R1	Stock fit		Fit to the shooter.	rewritten from the stored E4 markers (G-E4-13), RD_E4
+E4	G-E4-R1	Accuracy guarantee		A maker claim, so treat it as a claim only.	rewritten from the stored E4 markers (G-E4-13), RD_E4
+E4	G-E4-R8	Threat level faced	NIJ 0101.06 IV > III > IIIA > II; NIJ 0101.07 HG1-RF3; NIJ 0115.00 stab (a minimum, not a maximum)	Buy for the threat you face; the NIJ level is the least protection you get.	rewritten from the stored E4 markers (G-E4-32), RD_E4
+E4	G-E4-R8	Mobility and wear time		Comes after protection level.	rewritten from the stored E4 markers (G-E4-32), RD_E4
+E4	G-E4-R8	Materials and construction		Comes after mobility.	rewritten from the stored E4 markers (G-E4-32), RD_E4
+E4	G-E4-R8	Plate curvature		Matters for hard plates.	rewritten from the stored E4 markers (G-E4-32), RD_E4
+E4	G-E4-R8	Weight and fit		Last in the guide's order.	rewritten from the stored E4 markers (G-E4-32), RD_E4
+E4	G-E4-R6	Licensed smith and clear attribution (Japanese swords)		Applies to Japanese swords as types; single blades are not listed.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
+E4	G-E4-R6	Genuine hamon (Japanese swords)		Comes after attribution.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
+E4	G-E4-R6	Polish and tang (Japanese swords)		Comes after the hamon.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
+E4	G-E4-R6	Certified paper (Japanese swords)	NBTHK Tokubetsu Juyo > Juyo > Tokubetsu Hozon > Hozon; NBSK papers	Certificates are graded on a scale; they belong to single blades, not to types.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
+E4	G-E4-R6	Maker reputation (HEMA swords)		HEMA buyers choose by maker first; one source calls Albion the gold standard.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
+E4	G-E4-R6	Customisation, lead time and repair (HEMA swords)		Comes after maker reputation.	rewritten from the stored E4 markers (G-E4-25, G-E4-24, G-E4-26), RD_E4
