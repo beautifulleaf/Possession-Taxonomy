@@ -28,29 +28,29 @@ B8.4.5	B8	leaf	B8.4	Zappers & swatters		24	from verify/out/TREE_B8.md
 B8.4.6	B8	leaf	B8.4	Nets, screens & spikes		25	from verify/out/TREE_B8.md		
 B8.5	B8	sub_family	B8	Water leaks		26	from verify/out/TREE_B8.md		
 B8.6	B8	sub_family	B8	Parts and accessories made for one B8 object		27	from verify/out/TREE_B8.md		
-G2	G2	category				0	from audit/KL_G2_tree_v2.md		
-G2.1	G2	sub_family	G2	Land	Leaf axis: land cover and principal use. Land is filed by its principal land use whether or not it carries buildings or a house; dwellings and farm buildings on it are only an `improvements` facet.	1	from audit/KL_G2_tree_v2.md		
-G2.2	G2	sub_family	G2	Dwellings	Leaf axis: what is owned against the building around it (a whole house; a unit inside a building; a whole building of two or more dwellings; a dwelling kept in place that is not a building).	2	from audit/KL_G2_tree_v2.md		
-G2.3	G2	sub_family	G2	Other buildings & structures	Leaf axis: what the building or structure is for.	3	from audit/KL_G2_tree_v2.md		
-G2.4	G2	sub_family	G2	Burial places		4	from audit/KL_G2_tree_v2.md		
-G2.1.1	G2	leaf	G2.1	Building land		5	from audit/KL_G2_tree_v2.md		
-G2.1.2	G2	leaf	G2.1	Cropland		6	from audit/KL_G2_tree_v2.md		
-G2.1.3	G2	leaf	G2.1	Grassland		7	from audit/KL_G2_tree_v2.md		
-G2.1.4	G2	leaf	G2.1	Permanent crops		8	from audit/KL_G2_tree_v2.md		
-G2.1.5	G2	leaf	G2.1	Woodland		9	from audit/KL_G2_tree_v2.md		
-G2.1.6	G2	leaf	G2.1	Water and wetland		10	from audit/KL_G2_tree_v2.md		
-G2.1.7	G2	leaf	G2.1	Mixed holdings		11	from audit/KL_G2_tree_v2.md		
-G2.2.1	G2	leaf	G2.2	Houses	attachment to neighbouring dwellings	12	from audit/KL_G2_tree_v2.md		
-G2.2.2	G2	leaf	G2.2	Flats and maisonettes	levels in the unit	13	from audit/KL_G2_tree_v2.md		
-G2.2.3	G2	leaf	G2.2	Multi-unit residential buildings		14	from audit/KL_G2_tree_v2.md		
-G2.2.4	G2	leaf	G2.2	Dwellings kept in place that are not buildings	physical form; listed from least to most fixed	15	from audit/KL_G2_tree_v2.md		
-G2.3.1	G2	leaf	G2.3	Vehicle shelter		16	from audit/KL_G2_tree_v2.md		
-G2.3.2	G2	leaf	G2.3	Storage and work		17	from audit/KL_G2_tree_v2.md		
-G2.3.3	G2	leaf	G2.3	Rooms for people		18	from audit/KL_G2_tree_v2.md; garden buildings without their own sink, toilet or entrance; rule 4		
-G2.3.4	G2	leaf	G2.3	Animal and crop buildings		19	from audit/KL_G2_tree_v2.md		
-G2.3.5	G2	leaf	G2.3	Shade and surface structures		20	from audit/KL_G2_tree_v2.md		
-G2.3.6	G2	leaf	G2.3	Pools		21	from audit/KL_G2_tree_v2.md		
-G2.3.7	G2	leaf	G2.3	Other buildings by function	the function the building is made for	22	from audit/KL_G2_tree_v2.md		
+G2	G2	category				0	from verify/out/TREE_G2.md		
+G2.1	G2	sub_family	G2	Land	Leaf axis: land cover and principal use. Land is filed by its principal land use whether or not it carries buildings; dwellings and farm buildings on it are the facet `improvements`. Kind axis: crop, cover or holding.	1	from verify/out/TREE_G2.md		
+G2.2	G2	sub_family	G2	Dwellings	Leaf axis: what is owned against the building around it (a whole house; a unit inside a building; a whole building of two or more dwellings; a dwelling kept in place that is not a building).	9	from verify/out/TREE_G2.md		
+G2.3	G2	sub_family	G2	Other buildings & structures	Leaf axis: what the building or structure is for. Kind axis: the use-named building or structure; roof shape, material, wall construction, size and attached or freestanding (C12) are attributes.	14	from verify/out/TREE_G2.md		
+G2.4	G2	sub_family	G2	Burial places		22	from verify/out/TREE_G2.md		
+G2.1.1	G2	leaf	G2.1	Building land		2	from verify/out/TREE_G2.md		
+G2.1.2	G2	leaf	G2.1	Cropland		3	from verify/out/TREE_G2.md		
+G2.1.3	G2	leaf	G2.1	Grassland		4	from verify/out/TREE_G2.md		
+G2.1.4	G2	leaf	G2.1	Permanent crops		5	from verify/out/TREE_G2.md		
+G2.1.5	G2	leaf	G2.1	Woodland		6	from verify/out/TREE_G2.md		
+G2.1.6	G2	leaf	G2.1	Water and wetland		7	from verify/out/TREE_G2.md		
+G2.1.7	G2	leaf	G2.1	Mixed holdings		8	from verify/out/TREE_G2.md		
+G2.2.1	G2	leaf	G2.2	Houses	Kind axis: attachment to neighbouring dwellings.	10	from verify/out/TREE_G2.md		
+G2.2.2	G2	leaf	G2.2	Flats and maisonettes	Kind axis: levels in the unit.	11	from verify/out/TREE_G2.md		
+G2.2.3	G2	leaf	G2.2	Multi-unit residential buildings	Kind axis: one kind (`units_in_building` is the facet).	12	from verify/out/TREE_G2.md		
+G2.2.4	G2	leaf	G2.2	Dwellings kept in place that are not buildings	Kind axis: physical form, listed from least to most fixed. Build standard and site licence are `standard_met` and C17 rows, never the test.	13	from verify/out/TREE_G2.md		
+G2.3.1	G2	leaf	G2.3	Vehicle shelter		15	from verify/out/TREE_G2.md		
+G2.3.2	G2	leaf	G2.3	Storage and work		16	from verify/out/TREE_G2.md		
+G2.3.3	G2	leaf	G2.3	Rooms for people		17	from verify/out/TREE_G2.md		
+G2.3.4	G2	leaf	G2.3	Animal and crop buildings		18	from verify/out/TREE_G2.md		
+G2.3.5	G2	leaf	G2.3	Shade and surface structures		19	from verify/out/TREE_G2.md		
+G2.3.6	G2	leaf	G2.3	Pools	Kind axis: one kind; construction (fibreglass, vinyl liner, concrete or gunite) is the attribute `construction` (G-17, provisional until a non-US seller is attested).	20	from verify/out/TREE_G2.md		
+G2.3.7	G2	leaf	G2.3	Other buildings by function	Kind axis: the function the building is made for (K-62); market never divides them, and finer functions are named forms.	21	from verify/out/TREE_G2.md		
 C1	C1	category				0	from verify/out/TREE_C1.md		
 C1.1	C1	sub_family	C1	Cutting & sawing	Leaf axis: tool family (hand, powered and machine versions of a family share a leaf); kind order by `drive` and `mount`, manual hand-held to stationary machine, then size.	1	from verify/out/TREE_C1.md		
 C1.2	C1	sub_family	C1	Drilling, driving & turning	Leaf axis: tool family; kind order by `drive` and `mount`, manual hand-held to stationary machine, then size.	5	from verify/out/TREE_C1.md		
@@ -1461,3 +1461,28 @@ E2.17.1	E2	leaf	E2.17	Golf clubs		78	from verify/out/TREE_E2.md
 E2.17.2	E2	leaf	E2.17	Skis and snowboards		79	from verify/out/TREE_E2.md		
 E2.17.3	E2	leaf	E2.17	Table-tennis bats		80	from verify/out/TREE_E2.md		
 E2.17.4	E2	leaf	E2.17	Tennis rackets		81	from verify/out/TREE_E2.md		
+G1	G1	category				0	from verify/out/TREE_G1.md		
+G1.1	G1	sub_family	G1	Land vehicles	Leaf axis: the kind of vehicle by body and drive, as it is sold; the legal registration class, mass band and seat count are never the axis (C6, C17).	1	from verify/out/TREE_G1.md		
+G1.1.1	G1	leaf	G1.1	Cars	Kind axis: body style, in UNECE bodywork-code order AA to AF, then others. Display group: Cars.	2	from verify/out/TREE_G1.md		
+G1.1.2	G1	leaf	G1.1	Vans, trucks and buses	Kind axis: body; gross mass and seat count are attributes, and the UNECE class is a C17 row (G-9). Display group: Vans, trucks and buses.	3	from verify/out/TREE_G1.md		
+G1.1.3	G1	leaf	G1.1	Motorcycles and other powered light vehicles	Kind axis: type. Display group: Motorcycles, scooters and powered light rides.	4	from verify/out/TREE_G1.md		
+G1.1.4	G1	leaf	G1.1	Off-road, snow and utility vehicles	Kind axis: terrain and seating. Display group: Off-road, snow and utility vehicles.	5	from verify/out/TREE_G1.md		
+G1.1.5	G1	leaf	G1.1	Bicycles	Kind axis: discipline or use; a cycle made to be pedalled, with or without electric assist, is filed here by its discipline (P2). Display group: Bicycles and other cycles (with the "Electric bikes" shortcut view on `assist`).	6	from verify/out/TREE_G1.md		
+G1.1.6	G1	leaf	G1.1	Other human-powered cycles	Kind axis: wheel and seat layout. Display group: Bicycles and other cycles.	7	from verify/out/TREE_G1.md		
+G1.1.7	G1	leaf	G1.1	Trailers	Kind axis: load carried; the mass band O1 to O4 is a C17 row. Display group: Caravans, motorhomes and trailers.	8	from verify/out/TREE_G1.md		
+G1.1.8	G1	leaf	G1.1	Caravans, motorhomes and campers	Kind axis: body, and whether towed or driven. Display group: Caravans, motorhomes and trailers.	9	from verify/out/TREE_G1.md		
+G1.1.9	G1	leaf	G1.1	Animal-drawn vehicles	Kind axis: who or what moves it. Display group: Rail and horse-drawn vehicles.	10	from verify/out/TREE_G1.md		
+G1.1.10	G1	leaf	G1.1	Hand-pushed carriers	Kind axis: seat or lie, and number of occupants. Display group: Prams and strollers.	11	from verify/out/TREE_G1.md		
+G1.2	G1	sub_family	G1	Rail vehicles		12	from verify/out/TREE_G1.md		
+G1.3	G1	sub_family	G1	Watercraft	Leaf axis: the means of propulsion (paddle or oar, wind, engine); C10(b) applies, since the mast and keel against the engine and helm change the form.	13	from verify/out/TREE_G1.md		
+G1.3.1	G1	leaf	G1.3	Paddle and oar craft	Kind axis: hull; a paddle craft keeps its hull kind whatever its drive (paddle, pedal or electric motor as `propulsion`, P13). Display group: Boats and watercraft.	14	from verify/out/TREE_G1.md		
+G1.3.2	G1	leaf	G1.3	Sailing craft	Kind axis: hull configuration and accommodation; rig and length are attributes. Display group: Boats and watercraft.	15	from verify/out/TREE_G1.md		
+G1.3.3	G1	leaf	G1.3	Motor craft	Kind axis: use class, cleaned from YachtWorld's list. Display group: Boats and watercraft.	16	from verify/out/TREE_G1.md		
+G1.4	G1	sub_family	G1	Aircraft	Leaf axis: two leaves, airplanes and other aircraft.	17	from verify/out/TREE_G1.md		
+G1.4.1	G1	leaf	G1.4	Airplanes	Kind axis: engine class; C10(b) applies. Display group: Aircraft.	18	from verify/out/TREE_G1.md		
+G1.4.2	G1	leaf	G1.4	Other aircraft	Kind axis: how it flies (the FAA category). Display group: Aircraft.	19	from verify/out/TREE_G1.md		
+G1.5	G1	sub_family	G1	Parts and accessories made for one vehicle		20	from verify/out/TREE_G1.md		
+G1.5.1	G1	leaf	G1.5	Parts for land vehicles		21	from verify/out/TREE_G1.md		
+G1.5.2	G1	leaf	G1.5	Parts for rail vehicles		22	from verify/out/TREE_G1.md		
+G1.5.3	G1	leaf	G1.5	Parts for watercraft		23	from verify/out/TREE_G1.md		
+G1.5.4	G1	leaf	G1.5	Parts for aircraft		24	from verify/out/TREE_G1.md		
