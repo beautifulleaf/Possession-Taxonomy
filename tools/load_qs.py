@@ -42,6 +42,13 @@ def main():
             if lost:
                 write_tsv(ROOT / f"verify/out/{b}_{t}_held.tsv", lost, TABLES[t][1]); print(f"{t}: {len(lost)} held, subject not stored")
                 rows = [r for r in rows if r not in lost]
+        if t == "compatibility":  # both ends must be stored platforms or named forms
+            ok = {n["named_form_id"] for n in read_tsv(ROOT / "data/named_forms.tsv")} | {
+                x["platform_id"] for x in read_tsv(ROOT / "data/platforms.tsv")}
+            lost = [r for r in rows if r["from_id"] not in ok or r["to_id"] not in ok]
+            if lost:
+                write_tsv(ROOT / f"verify/out/{b}_compatibility_held.tsv", lost, TABLES[t][1]); print(f"compatibility: {len(lost)} held")
+                rows = [r for r in rows if r not in lost]
         if not rows: continue
         tmp = ROOT / f"verify/work/{b}/{t}_load.tsv"; tmp.parent.mkdir(parents=True, exist_ok=True)
         write_tsv(tmp, rows, TABLES[t][1])

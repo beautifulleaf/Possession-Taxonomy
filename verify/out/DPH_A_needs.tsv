@@ -1,0 +1,59 @@
+code	need_type	name	owner	scale_class	kinds_served	reason
+A1	scheme	Techwear three tiers (high-end design-led, ninja, budget)	disco (discobrands.co techwear guide)	iii	A1.4.1.12; A1.2.2.02; A1.4.1.11	Memo candidate tier entries on techwear makers; enters on the one fetched guide.
+A1	scheme	Japanese denim lineage and known-for groups (Osaka Five; pioneers, heavyweight specialists)	Heddels; Denimhunters	iii	A1.2.1.01	Memo community class on denim makers; may also be a school row.
+A1	scheme	Good On You brand rating	Good On You	iii	A1	HOL_EV buying guide names the ethics rating as a buyer signal; tier entries on makers.
+A1	scheme	Grailed Market segments (Core, Grails, Hype, Sartorial)	Grailed	vi	A1	Memo platform label: a dated platform_tag, never a tier.
+A1	standard	GOTS (Global Organic Textile Standard)	Global Standard gGmbH	i	A1	Certification proposal facet; standard_values on named forms (R-118 c).
+A1	standard	OEKO-TEX STANDARD 100	OEKO-TEX Association	i	A1	Certification proposal facet; chemical safety, not garment type.
+A1	standard	Fairtrade textile certification	Fairtrade International	i	A1	Certification proposal facet.
+A1	standard	EN ISO 20471 high-visibility clothing	ISO / CEN	i	A1.4.3.04	protection_class values for hi-vis (provisional until a standards page is fetched).
+A1	standard	EN ISO 11393 (EN 381) chainsaw protective clothing	ISO / CEN	i	A1.2.2.06; A1.2.2.10	Cut-resistance classes for chainsaw trousers and chaps (provisional).
+A1	standard	EN 397 industrial safety helmets	CEN	i	A1.6.04	Hard-hat protection (provisional).
+A1	standard	EN 1078 cycling helmets	CEN	i	A1.6.06	Cycling-helmet standard (provisional).
+A1	standard	UN ECE Regulation 22.06 motorcycle helmets	UNECE	i	A1.6.05	Motorcycle-helmet approval (provisional).
+A1	standard	EN 166 personal eye protection	CEN	i	A1.6.09; A1.6.13	Safety glasses and face shields (provisional).
+A1	standard	EN 175 and EN 379 welding protection	CEN	i	A1.6.07	Welding helmets and auto-darkening filters (provisional).
+A1	standard	EN 352 hearing protectors	CEN	i	A1.6.10; A1.6.14	Ear defenders and earplugs (provisional).
+A1	standard	EN 149 filtering half masks (FFP1-FFP3)	CEN	i	A1.6.11	Respirator classes (provisional).
+A1	standard	EN 14683 medical face masks	CEN	i	A1.6.12	Medical mask types (provisional).
+A1	standard	ISO 12402 personal flotation devices	ISO	i	A1.4.3.05	Life-jacket levels (provisional).
+A1	standard	EN 469 firefighter protective clothing	CEN	i	A1.3.2.06	Turnout-gear levels (provisional).
+A1	grading_scale	Grailed condition scale	Grailed	C16 condition grade	A1	Memo resale condition facet; registry row, no grade of one garment stored.
+A1	grading_scale	Vinted item condition scale	Vinted	C16 condition grade	A1	Memo resale condition facet.
+A1	grading_scale	Mercari Japan item condition scale	Mercari	C16 condition grade	A1	Memo resale condition facet.
+A2	standard	EN ISO 20345 safety footwear	ISO / CEN	i	A2	protection_class values (memo); Safety footwear view.
+A2	scheme	Styleforum English maker hierarchy	Styleforum	iii	A2.2; A2.3	Memo community class on dress-shoe and boot makers.
+A2	scheme	Gentleman's Gazette ready-to-wear shoe brand ranking	Gentleman's Gazette	iii	A2.2; A2.3	HOL_EV quality signal; single-author tier list, entries disputed where sources differ.
+A2	scheme	StockX premium and resale labels	StockX	vi	A2.1	Memo platform label for sneakers; dated platform_tag.
+A2	grading_scale	Sneaker resale condition (deadstock, VNDS, used) as StockX, GOAT or Grailed state it	StockX; GOAT; Grailed	C16 condition grade	A2.1	Memo condition scales; registry rows only.
+A3	grading_scale	GIA diamond 4Cs (colour D-Z, clarity FL-I3, cut)	GIA	C16 measured spec	A3	Memo registry scale for stones; a piece's stone grade is never stored.
+A3	grading_scale	IGI diamond grading scale	IGI	C16 measured spec	A3	certificate_lab values beside GIA; weight only.
+A3	standard	BIS hallmarking (IS 1417 gold, IS 2112 silver)	Bureau of Indian Standards	i	A3	HOL_EV quality signal: guarantees purity only; fineness values.
+A3	standard	UK hallmarking (Hallmarking Act 1973, assay offices)	UK Assay Offices	i	A3	Memo fineness standard; jurisdiction row in C17.
+A3	standard	ISO 8653 ring sizes	ISO	i	A3.6	Ring size is an attribute with its standard (C6).
+A3	scheme	Fine / demi-fine / fashion jewellery classes	Borsheims (memo source)	iii	A3	Memo tier on makers, lines and named forms; the attribute-to-tier mapping is still unattested (provisional).
+A3	platform	Pandora Moments charm system	Pandora		A3.4; A3.5	Memo platform sub-case: charms fitting one bracelet system (C13).
+A4	standard	Airline cabin-baggage size bands (IATA guideline and airline pages)	IATA; airlines	i	A4.3	size_class with the band named (A-16).
+A4	standard	DIN 58124 school satchels	DIN	i	A4.2	Safety standard (visibility, reflective area) for the new school satchel kind; provisional until a page is fetched.
+A4	standard	bluesign system	bluesign technologies	i	A4.2; A4.3; A1	HOL_EV quality signal; supply-chain chemical standard; owner not named on the fetched page.
+A4	standard	EN ISO 12312-1 sunglasses filter categories	ISO / CEN	i	A4.6	lens_filter_category values (provisional).
+A4	scheme	OutdoorGearLab carry-on luggage scores	OutdoorGearLab	ii	A4.3	HOL_EV quality signal: tested scores on named forms, test_version per review.
+A4	scheme	Carryology buy-it-for-life selection	Carryology	iii	A4.2; A4.3; A4.1	HOL_EV community signal; editorial class on makers and named forms.
+A4	grading_scale	Luxury handbag resale condition (Fashionphile, Vestiaire Collective)	Fashionphile; Vestiaire Collective	C16 condition grade	A4.1; A4.5	Resale is a handbag buying path; registry rows only.
+A5	standard	COSC chronometer certification (Chronometer; Excellence Chronometer)	COSC	i	A5.1; A5.2	Memo cosc attribute; -4/+6 s/day; standard_values on named forms and variants.
+A5	standard	METAS Master Chronometer	METAS	i	A5.1	HOL_EV: METAS is the federal metrology institute; independent, not a maker seal.
+A5	standard	Poinçon de Genève (Geneva Seal)	Bureau officiel de contrôle (Geneva)	i	A5.1; A5.2	Memo geneva_seal; independent seal.
+A5	standard	Qualité Fleurier	Fondation Qualité Fleurier	i	A5.1	Independent seal named by certification guides (provisional until fetched).
+A5	standard	Rolex Superlative Chronometer	Rolex (maker-owned)	i	A5.1	Flag 5: maker-owned seal stored as a standard with the maker as authority; -2/+2 s/day; never a tier.
+A5	standard	Patek Philippe Seal	Patek Philippe (maker-owned)	i	A5.1; A5.2	Flag 5: maker-owned seal (provisional until fetched).
+A5	standard	Grand Seiko Standard	Seiko (maker-owned)	i	A5.1	Flag 5: maker-owned accuracy standard (provisional until fetched).
+A5	standard	ISO 6425 divers' watches	ISO	i	A5.1.2	Memo iso6425 and Annex A attributes.
+A5	standard	ISO 22810 water-resistant watches	ISO	i	A5.1	water_resistance_m scope (provisional).
+A5	standard	ISO 764 magnetic-resistant watches	ISO	i	A5.1	Anti-magnetism marker in the proposal (provisional).
+A5	standard	Swiss Made ordinance	Swiss Confederation	i	A5	origin_label criteria as a C17 row (A-26).
+A5	scheme	The Watch Scanner brand tiers 1-4	The Watch Scanner	iii	A5	Memo registry; entries on makers, disputed where lists differ.
+A5	scheme	Soner watch brand pyramid tiers 1-6	Soner Watches	iii	A5	Memo registry (may be reclassed as price-defined).
+A5	scheme	Bob's Watches S/A/B/C	Bob's Watches	vi	A5	Memo A5-O1: dealer's own label, dated platform_tag.
+A5	scheme	GPHG prizes	Fondation du Grand Prix d'Horlogerie de Genève	iii	A5.1	Memo GPHG winners view; awards as tier entries on named forms.
+A5	platform	Watch movement calibres (ETA, Sellita, Miyota and other supplier families)	movement makers		A5.5; A5.1	Memo: supply recorded in C13 with kinds_served watch movement; harvested with PF batches.
+A5	grading_scale	Chrono24 watch condition scale	Chrono24	C16 condition grade	A5	Pre-owned view; registry row only.

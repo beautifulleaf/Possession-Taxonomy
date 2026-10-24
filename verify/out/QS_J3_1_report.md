@@ -8,3 +8,10 @@ missing kind?: Red Leicester (Sparkenhoe, placed J3.4.6.08); Serra-type soft thi
 Kind placements judged from cheese type, not stated by page: Crémeux des Aldudes (J3.4.4.03), Appenzeller, Gantrisch, Stockinghall (J3.4.5.02), Montana Intenso and Old Amsterdam Goat (J3.4.6.03).
 Source conflicts: Pavé Cobble 74 (dairyindustries) vs 76 (timeout); 2023 Pirano producer differs between sources; Super Gold totals 2025 107 vs 110. 2024 and 2023 dates stored as year only. Eleftheria Brunost maker Vivanda Gourmet not merged with M-eleftheria-cheese.
 Fetch log: verify/work/QS_J3_1/fetched.tsv; generator verify/work/QS_J3_1/gen.py.
+
+## Resume (Parallel web_fetch on gff.co.uk)
+- Readable via Parallel: gff.co.uk 2025 and 2024 Top-14 pages (full tables, confirm all scores and producers; 2025: 110 Super Golds of 5,244, 2024: 104 of 4,786), 2025 trophy page (event Bern 13 Nov 2025), 8 directory product pages, directory page 1 of 134. Row sources now include the Guild pages for 2025.
+- No Guild page gives cheese type: product pages show only trophies; the directory listing shows no rating or category per entry (rating and category filters are form controls, no link given, so no Super Gold list can be reached without building a URL). The full Super Gold lists of 2023-2025 therefore stay unreached; the Guild 2023 Top 16 and 2024 trophy pages were not re-fetched.
+- One change: Stockinghall moved from J3.4.5.02 to J3.4.6.01 (Cheddar), since the Guild trophy page lists it as Best Cheddar Cheese 2025.
+- Pavé Cobble score 74 confirmed by the Guild. Unplaced cheeses unchanged; each remains without a stated type.
+- The 2025 trophy page lists country trophies (e.g. Parmigiano Reggiano 30-39 Mesi from San Bartolomeo as Best Italian Cheese 2025, Manouri PDO, Queijo Serra da Estrela, St Tola Karst) not yet entered as tier entries; they could be a further pass.

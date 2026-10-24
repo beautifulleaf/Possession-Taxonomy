@@ -1,0 +1,53 @@
+code	need_type	name	owner	scale_class	kinds_served	reason
+C1	scheme	Consumer Reports power tool ratings	Consumer Reports	ii	C1.2.1.02; C1.2.1.03; C1.2.2.03; C1.1.1.06	Named in C1 structure_flags; scores for power, speed, run time, handling.
+C1	scheme	CHOICE Expert Rating (power tools)	CHOICE (Australia)	ii	C1.2.1.02; C1.2.1.03	Named in C1 structure_flags; recommended at 80 percent or more.
+C1	scheme	Stiftung Warentest Qualitaetsurteil (cordless drills)	Stiftung Warentest	ii	C1.2.1.02	Named in C1 structure_flags; test.de grades with Haltbarkeit and Schadstoffe.
+C1	scheme	Pro Tool Reviews scores and classes	Pro Tool Reviews	ii	C1.1; C1.2; C1.3	Quality signal in proposal (memo); scores out of 100, Pro / Prosumer / DIY.
+C1	scheme	CordlessPicker platform tiers	CordlessPicker	iii	C1.9.4.01	Platform tiers Professional / Prosumer / DIY / Budget (memo); provisional until fetched.
+C1	platform	Tool battery platforms (Milwaukee M18 and M12, Makita LXT and XGT, DeWalt 20V MAX and FlexVolt, Bosch 18V, CAS, Power for All)	the makers and alliances		C1.9.4.01; C1.9.4.02 and every cordless C1 kind	Battery platform tab; PF_4 harvests them with kinds_served empty until C1 is built.
+C1	platform	SDS-plus and SDS-max tool-holder systems	Bosch (originator)		C1.2.1.04; C1.4.1.04; C1.12.1.01	Bits fit hammers by holder; platform_type 'tool-holder system' is a new value to add.
+C1	platform	Stacking tool-storage systems (PACKOUT, TSTAK, ToughSystem and others)	the makers		C1.10.03	Memo C13 rows (R-15 type); owed by PF_4.
+C2	scheme	Which? Best Buy, Great Value, Eco Buy, Don't Buy	Which?	ii	C2.3 mowers; C2.2 hedge trimmers; C2.4 leaf blowers and pressure washers	Proposal quality signal; Which? test page fetched (HOL).
+C2	scheme	Consumer NZ test results and brand reliability	Consumer NZ	ii	C2.3 mowers	Proposal quality signal; Consumer NZ guide fetched (HOL).
+C2	scheme	BBC Gardeners' World secateurs test rating	BBC Gardeners' World	iii	secateurs	Memo S14; tier entries on named forms.
+C2	standard	DLC qualified product list (horticultural lighting)	DesignLights Consortium	i	grow light	Proposal; provisional until attested.
+C2	platform	Garden battery platforms (Stihl AK and AP, EGO 56V and shared C1 platforms)	the makers		C2 cordless machine kinds	Battery tab shared with C1; PF_4 scope note.
+C2	platform	Split-shaft attachment systems (Stihl KombiSystem, Ryobi Expand-It and similar) and Gardena combisystem	the makers		garden multi-tool; C2.10 attachments; C2.1 hand tool heads	What fits the new garden multi-tool kind; Gardena combisystem named in memo.
+C3	scheme	RHS Award of Garden Merit	Royal Horticultural Society	iii	C3.1; C3.2	Proposal; RHS AGM page fetched (HOL).
+C3	scheme	AOS flower awards (HCC, AM, FCC)	American Orchid Society	iii	C3.1 leaf 1 orchids	Memo; tier entries on named forms.
+C3	scheme	All-America Selections winner	All-America Selections	iii	C3.2 seeds; C3.1 leaves 7 and 12	Provisional: AAS judging page not fetched.
+C3	standard	RHS hardiness rating H1a to H7	Royal Horticultural Society	i	C3.1; C3.2	Feeds hardiness_rating.
+C3	standard	USDA plant hardiness zones	US Department of Agriculture	i	C3.1; C3.2	Feeds hardiness_rating; kept apart from the RHS scale.
+C4	standard	ASTM D4303 lightfastness I to V	ASTM International	i	C4.1 colours and drawing media	Proposal; definition only from a search excerpt, provisional.
+C4	standard	Colour Index pigment names	Society of Dyers and Colourists and AATCC	i	C4.1 colours	Golden technical page fetched (HOL).
+C4	standard	CYC Standard Yarn Weight System 0 to 7	Craft Yarn Council	i	knitting and crochet yarn; crochet thread	Proposal (memo); yarn weight facet.
+C4	standard	ACMI AP and CL seals	Art and Creative Materials Institute	i	C4.1; C4.7; C4.8	Safety standard_met; memo, to attest.
+C5	scheme	Fountain-pen paper consensus (gold standards)	community and retailer consensus	iii	paper-stock lines; notebook	Memo S25; tier entries on paper-stock lines (MD Paper, Tomoe River).
+C5	scheme	Fountain Pen Network favourite notebooks	Fountain Pen Network members	iii	notebook	HOL thread fetched; tier entries on named forms.
+C5	standard	British hallmark and 925 sterling standard	UK assay offices	i	fountain pen; ballpoint pen	YARD-O-LED; body_material value sterling silver 925.
+C5	standard	ISO 216 and JIS P 0138 paper sizes	ISO; JISC	i	C5.2 paper goods	Memo paper_size attribute standard.
+C5	standard	DIN 66399 shredder security levels	DIN	i	shredder	Proposal; not attested, to fetch.
+C5	grading_scale	Exam-approved calculator lists	exam boards		calculator kinds	Classification scale_type; not attested, to fetch.
+C5	platform	Fountain-pen cartridge standards (international short and long; Pilot, Platinum, Lamy, Parker proprietary)	the makers		fountain pen; C5.5 for fountain pens	Cartridge standard type exists in C13; what ink fits which pen.
+C5	platform	Label-tape cassette systems (Brother TZe, DYMO D1, DYMO LetraTag, Epson LK)	the makers		label maker; label tape	What fits the new label tape kind.
+C5	platform	Planner and refill systems (ring sizes, Traveler's notebook refills, Hobonichi sizes)	the makers		refillable notebook system; planner or notebook cover; refill notebook	Memo system collections; refill fit.
+C6	scheme	Stiftung Warentest binocular test	Stiftung Warentest	ii	C6.1.1.01; C6.1.1.02	Proposal; pollutants a fail gate; tier entries on named forms.
+C6	scheme	Outdoor Life binocular scorecard	Outdoor Life	ii	C6.1.1.01; C6.1.1.02	HOL page (partial); 1951 USAF chart test.
+C6	scheme	BirdForum alpha binoculars	BirdForum community	iii	C6.1.1.02	Alpha tier tab (R-104); excerpt only, disputed, provisional.
+C6	scheme	Best Binocular Reviews high-end class	Best Binocular Reviews	iii	C6.1.1.01; C6.1.1.02	Memo S34.
+C6	standard	JIS B7157 binocular field of view	JISC	i	C6.1.1	Proposal attribute standard.
+C6	platform	Eyepiece barrels 1.25 and 2 inch; T2 (M42) and M48 threads; filter threads; Vixen and Losmandy dovetails; finder shoe	standards and makers		C6.5.1.01; C6.5.1.13; C6.5.1.14; C6.5.1.15; C6.5.1.08; C6.5.1.05	PF_3 already covers barrels, threads and dovetails; finder shoe and filter threads added for the new kinds.
+C6	platform	Microscope objective threads (RMS, M25) and eyepiece tube diameters (23.2 mm, 30 mm)	standards		C6.5.2.04; C6.5.2.05; C6.1.5.01	What fits the new microscope part kinds; add to PF_3.
+C7	scheme	Nebraska Tractor Test (OECD tractor codes)	University of Nebraska Tractor Test Laboratory	ii	C7.1 wheeled tractor kinds	Proposal; extension guide fetched (HOL).
+C7	scheme	DLG test reports	DLG	ii	C7 machines	Candidate, not in evidence; to fetch.
+C7	scheme	top agrar field tests	top agrar	ii	C7 machines	Trade magazine tests; class ii or iii.
+C7	standard	KWF test mark	Kuratorium fuer Waldarbeit und Forsttechnik	i	C7.9 forestry machines; C2 chainsaws	Seen only as mentioned in top agrar; provisional.
+C7	platform	Three-point hitch categories (0, Limited 1, 1, 2, 3, 4) and PTO speeds	ISO 730; ISO 500		C7.1 tractors; every mounted implement; C2 lawn tractors (K-99 test)	Memo hitch_category join; K-99 test rows.
+C8	scheme	Stiftung Warentest wall paint test	Stiftung Warentest	ii	wall and ceiling paint	Proposal; test.de page fetched (HOL).
+C8	scheme	Choice interior paint tests	CHOICE (Australia)	ii	wall and ceiling paint	Proposal; test pages not fetched yet.
+C8	standard	EN 13300 hiding, scrub and gloss classes	CEN	i	C8.7 paints	Memo S31.
+C8	standard	EN 338 timber strength classes	CEN	i	sawn timber	Named from memory; to attest.
+C8	standard	EN 335 timber use classes	CEN	i	sawn timber; decking board; fence post	Feeds treatment_class; to attest.
+C8	standard	PEI wear rating 0 to 5	Porcelain Enamel Institute	i	floor tile; wall tile	Tile Outlets.
+C8	standard	DIN 51130 R ratings and ANSI A326.3 DCOF	DIN; ANSI	i	floor tile	Named from memory; to attest.
+C8	standard	ISO 898-1 property classes	ISO	i	bolt; nut; machine screw	Memo.
