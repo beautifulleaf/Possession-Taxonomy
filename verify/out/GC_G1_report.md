@@ -1,0 +1,3 @@
+Cards added: Stroller: G1.1.10.02 (Stroller), G1.1.10.04 (Double or tandem stroller). No existing G1 cards.
+Shops checked: bambibaby.com and strolleria.com (both full: one Strollers collection with Single/Double as filter values); bestbuy.ca failed (403). AA used vans pages seen in search only.
+Considered and left: panel van/window van (shops use separate body-style pages, window van is passenger use); jogging stroller (use) and stroller wagon (own "Wagons" filter); piston/turboprop airplanes (separate categories); mountain bike disciplines, motocross/enduro/trials (different use); box/dump/flatbed trucks (use); touring vs recumbent tricycle; car body styles (a shopper asks for a car, then body type is a different object).
