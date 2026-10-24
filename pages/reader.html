@@ -4,7 +4,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
-/* Layout: shop catalogue. Sticky top bar: brand, search, and every category in one scrolling strip grouped by domain. Below: sticky sidebar of the open category's departments and shelves; main column with the whole category, department by department. */
+/* Layout: shop catalogue. Sticky top bar: brand and search, a row of the ten domains, and a row of the chosen domain's categories; both rows wrap, nothing scrolls sideways. Below: sticky sidebar of the open category's departments and shelves; main column with the whole category, department by department. */
 :root {
   --bg: #eef0ec; --paper: #fbfcf9; --ink: #1c211d; --muted: #59625b; --rule: #cfd5cd;
   --accent: #2f5b3c; --accent-ink: #f4f7f1; --flag: #f2c230; --flag-ink: #2b2405; --soft: #e1e9df;
@@ -26,19 +26,19 @@ header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; backg
 .top { max-width: 1320px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; padding-block: 12px 8px; }
 h1 { font: 800 26px/1 var(--sign); letter-spacing: .02em; text-transform: uppercase; margin: 0; }
 #q { margin-left: auto; width: min(100%, 360px); font: 16px/1.2 var(--body); padding: 9px 12px; border: 1px solid var(--rule); border-radius: 6px; background: var(--bg); color: var(--ink); }
-.strip { max-width: 1320px; margin: 0 auto; overflow-x: auto; padding-block: 2px 10px; scrollbar-width: thin; }
-.strip-in { display: flex; gap: 10px; width: max-content; }
-.dom { display: grid; gap: 3px; align-content: start; padding-left: 10px; border-left: 2px solid var(--rule); }
-.dom:first-child { padding-left: 0; border-left: 0; }
-.dom > span { font: 500 10.5px/1.2 var(--mono); color: var(--muted); text-transform: uppercase; letter-spacing: .07em; white-space: nowrap; }
-.dom > div { display: flex; gap: 4px; }
-.cat { font: 600 15px/1.05 var(--sign); letter-spacing: .03em; text-transform: uppercase; padding: 7px 10px 6px; border-radius: 4px; border: 1px solid var(--rule); background: transparent; color: var(--ink); cursor: pointer; white-space: nowrap; }
+.navrows { max-width: 1320px; margin: 0 auto; display: grid; gap: 6px; padding-block: 0 10px; }
+.doms, .cats { display: flex; flex-wrap: wrap; gap: 4px; }
+.dom { font: 600 15px/1 var(--sign); letter-spacing: .04em; text-transform: uppercase; padding: 7px 10px 6px; border: 0; border-radius: 4px; background: transparent; color: var(--muted); cursor: pointer; }
+.dom:hover { color: var(--ink); background: var(--soft); }
+.dom[aria-current="true"] { color: var(--ink); background: var(--soft); box-shadow: inset 0 -3px 0 var(--accent); }
+.cats { padding-top: 6px; border-top: 1px solid var(--rule); }
+.cat { font: 600 15px/1.05 var(--sign); letter-spacing: .03em; text-transform: uppercase; padding: 7px 10px 6px; border-radius: 4px; border: 1px solid var(--rule); background: transparent; color: var(--ink); cursor: pointer; text-align: left; }
 .cat small { display: block; font: 500 10px/1.2 var(--mono); color: var(--muted); letter-spacing: 0; text-transform: none; margin-top: 2px; }
 .cat[aria-current="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 .cat[aria-current="true"] small { color: var(--accent-ink); opacity: .8; }
 button:focus-visible, #q:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .wrap { max-width: 1320px; margin: 0 auto; padding-block: 22px 70px; display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 32px; }
-nav.side { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 142px); align-self: start; max-height: calc(100vh - 150px); overflow-y: auto; font: 14px/1.35 var(--body); padding-right: 4px; }
+nav.side { position: sticky; top: calc(env(safe-area-inset-top, 0px) + var(--hh, 150px) + 16px); align-self: start; max-height: calc(100vh - var(--hh, 150px) - 32px); overflow-y: auto; font: 14px/1.35 var(--body); padding-right: 4px; }
 .side h2 { font: 700 13px/1.2 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
 .side ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
 .side .d > a { font: 700 16px/1.2 var(--sign); letter-spacing: .03em; text-transform: uppercase; color: var(--ink); margin-top: 10px; }
@@ -51,13 +51,13 @@ main { min-width: 0; display: grid; gap: 26px; align-content: start; }
 .cat-head h2 { font: 800 46px/1 var(--sign); text-transform: uppercase; margin: 0; text-wrap: balance; }
 .cat-head p { margin: 6px 0 0; color: var(--muted); font-size: 15px; max-width: 72ch; }
 .note { font: 13px/1.45 var(--body); color: var(--muted); border: 1px dashed var(--rule); border-radius: 6px; padding: 8px 12px; max-width: 72ch; }
-section.dept { display: grid; gap: 16px; scroll-margin-top: 150px; }
+section.dept { display: grid; gap: 16px; scroll-margin-top: calc(var(--hh, 150px) + 12px); }
 h3.dept-name { font: 800 32px/1 var(--sign); text-transform: uppercase; margin: 8px 0 0; padding-top: 12px; border-top: 4px solid var(--ink); }
 .best { background: var(--paper); border: 1px solid var(--rule); border-left: 6px solid var(--flag); border-radius: 6px; padding: 12px 16px; max-width: 80ch; }
 .best h4 { font: 700 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
 .best ol { margin: 0; padding-left: 20px; display: grid; gap: 5px; font-size: 15px; }
 .best b { font-weight: 600; } .best .v { font-style: italic; color: var(--muted); }
-section.shelf { display: grid; gap: 10px; scroll-margin-top: 150px; }
+section.shelf { display: grid; gap: 10px; scroll-margin-top: calc(var(--hh, 150px) + 12px); }
 h4.shelf-name { font: 700 21px/1.1 var(--sign); letter-spacing: .02em; text-transform: uppercase; margin: 0; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; border-bottom: 1px solid var(--rule); padding-bottom: 4px; }
 h4.shelf-name span { font: 500 12px/1 var(--mono); color: var(--muted); text-transform: none; letter-spacing: 0; }
 h4.shelf-name em { font: 500 13px/1 var(--body); font-style: normal; color: var(--muted); text-transform: none; letter-spacing: 0; }
@@ -80,14 +80,14 @@ details.models[open] summary::before { content: "− "; }
 .hit { display: flex; justify-content: space-between; gap: 12px; text-align: left; font: 15px/1.4 var(--body); padding: 7px 10px; border: 1px solid var(--rule); border-radius: 4px; background: var(--paper); color: var(--ink); cursor: pointer; }
 .hit i { font-style: normal; color: var(--muted); font-size: 13px; white-space: nowrap; }
 mark { background: var(--flag); color: var(--flag-ink); padding: 0 1px; border-radius: 2px; }
-@media (max-width: 880px) { .wrap { grid-template-columns: minmax(0, 1fr); gap: 16px; } nav.side { position: static; max-height: 260px; border: 1px solid var(--rule); border-radius: 6px; padding: 10px; background: var(--paper); } #q { margin-left: 0; width: 100%; } section.dept, section.shelf { scroll-margin-top: 190px; } .cat-head h2 { font-size: 36px; } }
+@media (max-width: 880px) { .wrap { grid-template-columns: minmax(0, 1fr); gap: 16px; } nav.side { position: static; max-height: 260px; border: 1px solid var(--rule); border-radius: 6px; padding: 10px; background: var(--paper); } #q { margin-left: 0; width: 100%; } header { position: static; } section.dept, section.shelf { scroll-margin-top: 12px; } .cat-head h2 { font-size: 36px; } }
 @media (max-width: 560px) { .items { grid-template-columns: minmax(0, 1fr); } }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 </style>
 <header>
   <div class="top gut"><h1>Possession Taxonomy</h1>
   <input id="q" type="search" placeholder="Search every category" aria-label="Search every category for an item or another name for it"></div>
-  <div class="strip gut"><nav class="strip-in" id="cats" aria-label="Categories"></nav></div>
+  <div class="navrows gut"><nav class="doms" id="doms" aria-label="Domains"></nav><nav class="cats" id="cats" aria-label="Categories"></nav></div>
 </header>
 <div class="wrap gut"><nav class="side" id="side" aria-label="Departments and shelves"></nav><main id="main"><p class="none">Loading…</p></main></div>
 <script>
@@ -95,11 +95,14 @@ const S = {"domains":[{"d":"A","n":"Worn & Carried"},{"d":"B","n":"Home"},{"d":"
 const $ = (t, a = {}, ...kids) => { const e = document.createElement(t); for (const [k, v] of Object.entries(a)) { if (k === 'class') e.className = v; else if (k === 'text') e.textContent = v; else e.setAttribute(k, v); } kids.flat().forEach(c => c != null && e.append(c)); return e; };
 const catName = c => (S.cats.find(x => x.c === c) || {}).n || c;
 const cache = {}; let cur = null, data = null;
-const catsEl = document.getElementById('cats'), side = document.getElementById('side'), main = document.getElementById('main'), q = document.getElementById('q');
-S.domains.forEach(d => { const row = $('div'), box = $('div', { class: 'dom' }, $('span', { text: d.n }), row);
-  S.cats.filter(c => c.d === d.d).forEach(c => { const b = $('button', { class: 'cat', type: 'button', 'data-c': c.c, title: c.n }, c.n, $('small', { text: c.k + ' items' }));
-    b.addEventListener('click', () => { q.value = ''; open(c.c, true); }); row.append(b); });
-  catsEl.append(box); });
+const domsEl = document.getElementById('doms'), catsEl = document.getElementById('cats'), side = document.getElementById('side'), main = document.getElementById('main'), q = document.getElementById('q');
+let curDom = null;
+function showDom(d) { curDom = d; domsEl.querySelectorAll('.dom').forEach(b => b.setAttribute('aria-current', String(b.dataset.d === d)));
+  catsEl.replaceChildren(...S.cats.filter(c => c.d === d).map(c => { const b = $('button', { class: 'cat', type: 'button', 'data-c': c.c, 'aria-current': String(c.c === cur) }, c.n, $('small', { text: c.k + ' items' }));
+    b.addEventListener('click', () => { q.value = ''; open(c.c, true); }); return b; })); }
+S.domains.forEach(d => { const b = $('button', { class: 'dom', type: 'button', 'data-d': d.d, text: d.n });
+  b.addEventListener('click', () => { q.value = ''; open(S.cats.find(c => c.d === d.d).c, true); }); domsEl.append(b); });
+new ResizeObserver(() => document.documentElement.style.setProperty('--hh', document.querySelector('header').offsetHeight + 'px')).observe(document.querySelector('header'));
 const hl = (text, term) => { if (!term || !text) return text; const i = text.toLowerCase().indexOf(term); if (i < 0) return text; return [text.slice(0, i), $('mark', { text: text.slice(i, i + term.length) }), text.slice(i + term.length)]; };
 const slug = (...p) => p.join('-');
 function item(k, term) {
@@ -119,8 +122,7 @@ function item(k, term) {
 }
 async function load(c) { if (!cache[c]) { const r = await fetch('reader/' + c + '.json'); if (!r.ok) throw new Error(r.status); cache[c] = await r.json(); } return cache[c]; }
 async function open(c, top, target) {
-  cur = c; catsEl.querySelectorAll('.cat').forEach(b => b.setAttribute('aria-current', String(b.dataset.c === c)));
-  catsEl.querySelector('.cat[aria-current="true"]')?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+  cur = c; showDom(c[0]);
   try { localStorage.setItem('reader-cat', c); } catch (e) {}
   main.replaceChildren($('p', { class: 'none', text: 'Loading ' + catName(c) + '…' })); side.replaceChildren();
   try { data = await load(c); } catch (e) { main.replaceChildren($('p', { class: 'none', text: 'This category did not load (' + e.message + '). Choose it again to retry.' })); return; }
