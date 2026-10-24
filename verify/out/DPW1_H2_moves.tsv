@@ -1,0 +1,39 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-H2.9.2.2-002	drop					Maker name only (Elvie); its pumps carry model names (Curve, Stride).
+NF-H2.9.2.2-003	drop					Maker name only (Willow); no model named on the page.
+NF-H2.5.1.2-008	drop					Maker name only (Lexie Hearing); no model named.
+NF-H2.9.2.1-017	move_kind				H2.9.2.2	Elvie Curve is a manual pump worn inside the bra: wearable kind. † trade knowledge.
+NF-H2.9.2.1-018	move_kind				H2.9.2.2	Elvie Stride cups sit inside the bra, hands-free: wearable kind. † trade knowledge.
+NF-H2.3.1.4-001	move_kind				H2.3.1.6	Drive's Airgo range is wheeled braked walkers, so rollator. † trade knowledge; seen only as a title.
+NF-H2.10.1.1-003	drop					Name is a reference number only (REF 20000), a variant code (C2 b).
+NF-H2.10.1.1-020	drop					Name is a reference number only (REF 20020), a variant code (C2 b).
+NF-H2.10.1.1-015	drop					Name is a reference number only (REF 62364), a variant code (C2 b).
+NF-H2.10.1.1-012	drop					'Betrieb' (workplace kit) is a category name with the maker.
+NF-H2.10.1.1-013	drop					'Betriebsverbandkasten' is the generic workplace first-aid kit: category name.
+NF-H2.10.1.1-019	drop					'Erste-Hilfe-Koffer' means first-aid case: category name.
+NF-H2.10.1.1-008	drop					'KFZ' (car kit) is a category name; DIN 13164 is standard_met.
+NF-H2.10.1.1-022	drop					Standard plus category name; BS 8599-1 and size are attributes.
+NF-H2.4.2.3-005	drop					Small is a size of the TENA brief (C6).
+NF-H2.4.5.1-006	drop					Sterling silver is a material variant of the Classic bracelet (C3).
+NF-H2.4.5.1-003	drop					Onyx is a black finish of the Lynx bracelet: colourway variant (C3).
+NF-H2.5.2.8-001	drop					Boston EO is a lens material; material is an attribute (tree H2.5.2).
+NF-H2.5.2.8-002	drop					Boston ES is a lens material; material is an attribute.
+NF-H2.5.2.8-003	drop					Boston XO is a lens material; material is an attribute.
+NF-H2.5.2.8-004	drop					Boston XO2 is a lens material; material is an attribute.
+NF-H2.5.2.8-005	drop					Boston Equalens II is a lens material; material is an attribute.
+NF-H2.5.2.8-006	drop					Paragon HDS is an RGP lens material; material is an attribute.
+NF-H2.5.2.8-007	drop					Menicon Z is a lens material (page says so); material is an attribute.
+NF-H2.6.0.1-001	drop					Unbranded ingredient and potency: active ingredient attribute, potency variant (H-8).
+NF-H2.6.0.1-002	drop					Unbranded ingredient and potency: active ingredient attribute (H-8).
+NF-H2.6.0.1-003	drop					Unbranded ingredient and potency: active ingredient attribute (H-8).
+NF-H2.8.3.1-010	drop					Powder form of Nuun Sport: format variant, not a product.
+NF-H2.8.1.2-002	drop					Mini size of the Quest bar: size variant (C6).
+NF-H2.5.1.3-004	to_line	L-starkey-hearing-signature-series	Starkey Signature Series	H2.5.1.3;H2.5.1.4		Custom series in several shell styles, spanning ITE and canal kinds.
+NF-H2.5.1.3-001	to_line	L-oticon-own	Oticon Own	H2.5.1.3;H2.5.1.4		Own runs from IIC to full shell: spans ITE and canal kinds.
+NF-H2.5.1.3-003	to_line	L-resound-custom	ReSound Custom	H2.5.1.3;H2.5.1.4		Page: custom ITE and ITC models, so two kinds.
+NF-H2.5.1.3-002	to_line	L-signia-hearing-aids-insio-ix	Signia Insio IX	H2.5.1.3;H2.5.1.4		Custom in-ear family across shell styles: ITE and canal kinds.
+NF-H2.5.2.6-001	to_line	L-optelec-stand-magnifiers	Optelec Stand Magnifiers	H2.5.2.6		Page names a range of stand magnifiers, several models.
+NF-H2.4.4.2-001	to_line	L-clinton-industries-classic-series	Clinton Classic Series	H2.4.4.2		Series of several treatment-table models.
+NF-H2.4.4.2-002	to_line	L-clinton-industries-classic-series	Clinton Classic Series	H2.4.4.2		ETA model belongs to the Classic Series; merge into that line.
+NF-H2.4.4.2-003	to_line	L-clinton-industries-alpha-series	Clinton Alpha Series	H2.4.4.2		Series of several treatment-table models (Alpha 3200 and others).
+NF-H2.4.3.3-003	to_line	L-sunrise-medical-jay-j2	JAY J2 Series	H2.4.3.3		Series of several J2 cushions; sits inside the JAY line.

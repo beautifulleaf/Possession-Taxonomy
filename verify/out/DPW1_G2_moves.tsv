@@ -1,0 +1,13 @@
+named_form_id	action	line_id	line_name	kinds	new_kind_id	reason
+NF-G2.3.5.1-001	to_line	L-dunster-house-utopia	Utopia	G2.3.5.1;G2.3.5.2		Bare range name; Utopia spans gazebo and corner pergola (NF-G2.3.5.2-001 joins the line).
+NF-G2.2.1.3-001	drop					Townhouse is an alias of terraced house (C9 alias table), not a named form.
+NF-G2.2.1.1-021	drop					Spanish chalet is the generic word for a house, a homonym (C9 alias table).
+NF-G2.2.1.2-001	drop					Pareado translates semi-detached: a C9 alias, like the Chinese attachment words.
+NF-G2.2.1.3-003	drop					Adosado translates terraced: a C9 alias, like lianpai.
+NF-G2.2.2.2-001	drop					Duplex is an alias of maisonette (memo alias table), not a named form.
+NF-G2.2.2.2-002	drop					Triplex (Rightmove) is an alias of maisonette on three levels (alias table).
+NF-G2.4.1-001	drop					Single deep Wahlgrab: allocation and capacity/depth attributes (memo section 7).
+NF-G2.4.1-002	drop					Multi-place Wahlgrab: allocation and capacity attributes, not a form (memo 4b).
+NF-G2.4.1-003	drop					Memo: Reihengrab is an allocation value (region DE), not a named form.
+NF-G2.3.4.1-001	move_kind				G2.3.4.2	Sold as horse barn kit: rule 23 files stall-laid floors as stable block.
+NF-G2.3.4.1-003	move_kind				G2.3.4.2	Horse barn kit: rule 23, stalls make it a stable block, not a barn.
