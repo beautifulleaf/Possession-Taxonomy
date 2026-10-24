@@ -30,6 +30,11 @@ for code, b in props.items():
     groups[code] = [g for g in read_tsv(ROOT / f"verify/out/{b}_groups.tsv") if g["code"] == code]
     markers[code] = [m for m in read_tsv(ROOT / f"verify/out/{b}_markers.tsv") if m["code"] == code]
     disp.update({d["kind_id"]: d for d in read_tsv(ROOT / f"verify/out/{b}_display.tsv")})
+cardof = {}  # R-129: sibling kinds shown as one card
+if (nav / "cards.tsv").exists():
+    for c in read_tsv(nav / "cards.tsv"):
+        for m in c["members"].split(";"):
+            if m.strip(): cardof[m.strip()] = c
 mk = {m["maker_id"]: m["name"] for m in read_tsv(ROOT / "data/makers.tsv")}
 iss = {i["issuer_id"]: i["name"] for i in read_tsv(ROOT / "data/issuers.tsv")}
 nfs, lns = defaultdict(list), defaultdict(list)
@@ -94,8 +99,16 @@ for c in CATS:
     if rest: depts.append({"n": "Other", "s": [{"n": "Not yet grouped", "k": sorted(rest)}], "b": []})
     for d in depts:
         for s in d["s"]:
-            s["k"] = [item(K[kid]) for kid in s["k"]]
-            for i, it in enumerate(s["k"]): index.append([code, it["n"], it["a"]])
+            rows, done = [], set()
+            for kid in s["k"]:
+                c = cardof.get(kid)
+                if not c: rows.append(item(K[kid])); continue
+                if c["card_id"] in done: continue
+                done.add(c["card_id"]); its = [item(K[m.strip()]) for m in c["members"].split(";") if m.strip() in K]
+                rows.append({"n": c["name"], "a": " · ".join(x for x in dict.fromkeys(a for i in its for a in i["a"].split(" · ")) if x),
+                             "d": c["description"], "t": [i["n"] for i in its], "m": [m for i in its for m in i["m"]], "r": [r for i in its for r in i["r"]], "s": ""})
+            s["k"] = rows
+            for i, it in enumerate(s["k"]): index.append([code, it["n"], " · ".join(x for x in [it["a"], " · ".join(it.get("t", []))] if x)])
     counts[code] = len(K)
     whole = [{"m": m["marker"], "v": m["values"], "w": m["why"]} for m in markers[code] if m["group_id"].strip() == code]
     extra = {"scenes": scene_view(code, K)} if code == "A1" else {}

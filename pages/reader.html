@@ -123,6 +123,7 @@ function item(k, term) {
   const a = $('article', { class: 'item' }, $('h5', {}, hl(k.n, term)));
   if (k.a) a.append($('p', { class: 'also' }, 'Also called ', hl(k.a, term)));
   if (k.d) a.append($('p', { class: 'desc', text: k.d }));
+  if (k.t && k.t.length) a.append($('p', { class: 'also' }, 'Types: ', hl(k.t.join(' · '), term)));
   if (k.m.length || k.r.length) {
     const lab = [k.m.length ? k.m.length + (k.m.length === 1 ? ' model' : ' models') : '', k.r.length ? k.r.length + (k.r.length === 1 ? ' range' : ' ranges') : ''].filter(Boolean).join(' · ');
     const det = $('details', { class: 'models' }, $('summary', { text: lab }));
@@ -131,7 +132,6 @@ function item(k, term) {
       k.m.forEach(([n, m]) => ch.append($('span', { class: 'chip' }, n, m ? $('i', { text: m }) : null))); det.append(ch); });
     a.append(det);
   }
-  if (k.s) a.append($('p', { class: 'src' }, $('a', { href: k.s, target: '_blank', rel: 'noopener', text: 'Where this was checked' })));
   return a;
 }
 async function load(c) { if (!cache[c]) { const r = await fetch('reader/' + c + '.json'); if (!r.ok) throw new Error(r.status); cache[c] = await r.json(); } return cache[c]; }
@@ -168,7 +168,6 @@ function renderScenes() {
       const br = $('div', { class: 'brands' });
       x.b.forEach(([nm, core, pcs]) => br.append($('details', { class: 'brand' + (core ? ' core' : '') }, $('summary', {}, nm, $('i', { text: core ? 'defines the scene' : 'worn in it' })), $('div', { text: pcs.length ? 'Signature pieces: ' + pcs.join(', ') : 'No signature piece recorded.' }))));
       box.append(br);
-      if (x.src) box.append($('p', { class: 'src' }, $('a', { href: x.src, target: '_blank', rel: 'noopener', text: 'Where this scene is described' })));
       sec.append(box);
     });
     main.append(sec);

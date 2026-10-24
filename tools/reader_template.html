@@ -123,6 +123,7 @@ function item(k, term) {
   const a = $('article', { class: 'item' }, $('h5', {}, hl(k.n, term)));
   if (k.a) a.append($('p', { class: 'also' }, 'Also called ', hl(k.a, term)));
   if (k.d) a.append($('p', { class: 'desc', text: k.d }));
+  if (k.t && k.t.length) a.append($('p', { class: 'also' }, 'Types: ', hl(k.t.join(' · '), term)));
   if (k.m.length || k.r.length) {
     const lab = [k.m.length ? k.m.length + (k.m.length === 1 ? ' model' : ' models') : '', k.r.length ? k.r.length + (k.r.length === 1 ? ' range' : ' ranges') : ''].filter(Boolean).join(' · ');
     const det = $('details', { class: 'models' }, $('summary', { text: lab }));
