@@ -1,0 +1,98 @@
+kind_id	sub_family	leaf	name	definition	dagger
+E3.1.1.01	E3.1	E3.1.1	Upright piano	acoustic piano with a vertical frame and strings, hammers striking the strings from the front.	
+E3.1.1.02	E3.1	E3.1.1	Grand piano	acoustic piano with a horizontal frame and strings in a wing-shaped case; grand size is an attribute.	
+E3.1.1.03	E3.1	E3.1.1	Digital piano	electronic keyboard instrument made to reproduce the piano, with a weighted or piano-style action and built-in sound.	
+E3.1.1.04	E3.1	E3.1.1	Harpsichord	keyboard instrument whose strings are plucked by quills or plectra.	
+E3.1.1.05	E3.1	E3.1.1	Pipe organ	keyboard instrument sounding through ranks of pipes fed by wind, including church and chamber organs also played outside worship.	yes
+E3.1.1.06	E3.1	E3.1.1	Tonewheel organ	electromechanical organ that generates its tones with rotating tonewheels.	
+E3.1.2.01	E3.1	E3.1.2	Synthesizer	electronic instrument that generates sound with its own engine and is played or sequenced as a whole unit; `form_factor` (keyboard, desktop module, rack module) and synthesis method are attributes (memo "keyboard synthesizer", renamed by section 14 E3-3a).	
+E3.1.2.02	E3.1	E3.1.2	Modular synthesizer module	single synthesizer function built to be mounted with others in one mount system (the format, such as Eurorack, is a C13 platform row).	
+E3.1.2.03	E3.1	E3.1.2	Drum machine	electronic instrument that produces drum and percussion sounds and plays them from a built-in sequencer.	
+E3.1.2.04	E3.1	E3.1.2	Sampler	electronic instrument that records, stores and plays back sound samples from its pads or keys.	
+E3.1.2.05	E3.1	E3.1.2	Theremin	electronic instrument played without contact, pitch and volume set by the hands' distance from two antennas.	
+E3.1.2.06	E3.1	E3.1.2	Groovebox	all-in-one instrument combining synth, drum and sample voices with a built-in pattern sequencer, sold as a groovebox (section 14 E3-3b, provisional).	yes
+E3.1.3.01	E3.1	E3.1.3	Solid-body electric guitar	electric guitar with a solid body and magnetic pickups.	
+E3.1.3.02	E3.1	E3.1.3	Semi-hollow electric guitar	electric guitar with a hollow body around a solid centre block.	
+E3.1.3.03	E3.1	E3.1.3	Hollow-body electric guitar	electric guitar with a fully hollow, archtop-style body.	
+E3.1.3.04	E3.1	E3.1.3	Steel-string acoustic guitar	acoustic guitar with a hollow body strung with steel strings.	
+E3.1.3.05	E3.1	E3.1.3	Classical guitar	acoustic guitar with a wide neck strung with nylon or gut strings.	
+E3.1.3.06	E3.1	E3.1.3	Resonator guitar	acoustic guitar whose sound is projected by one or more metal resonator cones.	
+E3.1.3.07	E3.1	E3.1.3	Bass guitar	electric or acoustic fretted bass instrument tuned an octave below the guitar's lowest strings.	
+E3.1.4.01	E3.1	E3.1.4	Ukulele	small four-string plucked lute of the guitar family.	
+E3.1.4.02	E3.1	E3.1.4	Banjo	plucked lute with a drum-like membrane soundtable on a round frame.	
+E3.1.4.03	E3.1	E3.1.4	Mandolin	small plucked lute with paired strings, usually tuned in fifths.	
+E3.1.4.04	E3.1	E3.1.4	Oud (short-necked fretless lute)	short-necked, fretless, pear-bodied plucked lute; region tag; level provisional until attested (R-19).	
+E3.1.4.05	E3.1	E3.1.4	Sitar (long-necked plucked lute)	long-necked plucked lute with movable frets and sympathetic strings; region tag India; kind by E-4, level provisional until attested (R-19).	
+E3.1.4.06	E3.1	E3.1.4	Shamisen (three-string lute)	long-necked, three-string plucked lute with a skin-covered body; region tag Japan; level provisional until attested (R-19).	
+E3.1.5.01	E3.1	E3.1.5	Koto (long zither)	long board zither with movable bridges under each string; region tag Japan; kind by E-4, level provisional until attested (R-19).	
+E3.1.5.02	E3.1	E3.1.5	Guzheng (long zither)	long board zither with movable bridges; region tag China; a kind only if CV-27 holds, otherwise a non-maker named form under koto (E3.1.5.01); provisional until attested (R-19).	yes
+E3.1.5.03	E3.1	E3.1.5	Harp	plucked string instrument whose strings run from a soundboard to a neck at an angle, in an open or framed body.	yes
+E3.1.6.01	E3.1	E3.1.6	Violin	four-string bowed instrument held under the chin, the treble of the violin family; fractional size is an attribute.	
+E3.1.6.02	E3.1	E3.1.6	Viola	four-string bowed instrument held under the chin, larger and lower than the violin.	
+E3.1.6.03	E3.1	E3.1.6	Cello	four-string bowed instrument played seated with an endpin, the tenor-bass of the violin family.	
+E3.1.6.04	E3.1	E3.1.6	Double bass (upright bass, contrabass)	largest and lowest bowed string instrument, played standing or on a high stool.	
+E3.1.7.01	E3.1	E3.1.7	Flute	transverse flute sounded by blowing across an embouchure hole.	
+E3.1.7.02	E3.1	E3.1.7	B-flat clarinet	single-reed clarinet pitched in B-flat.	yes
+E3.1.7.03	E3.1	E3.1.7	Bass clarinet	single-reed clarinet pitched an octave below the B-flat clarinet, with its own body and mouthpiece.	yes
+E3.1.7.04	E3.1	E3.1.7	Soprano saxophone	single-reed saxophone of the soprano voice.	
+E3.1.7.05	E3.1	E3.1.7	Alto saxophone	single-reed saxophone of the alto voice.	
+E3.1.7.06	E3.1	E3.1.7	Tenor saxophone	single-reed saxophone of the tenor voice.	
+E3.1.7.07	E3.1	E3.1.7	Baritone saxophone	single-reed saxophone of the baritone voice.	yes
+E3.1.7.08	E3.1	E3.1.7	Oboe	double-reed woodwind with a conical bore.	
+E3.1.7.09	E3.1	E3.1.7	Bagpipes	reed pipes (chanter and drones) sounded from a bag of air; regional variants are named forms with a region tag.	
+E3.1.8.01	E3.1	E3.1.8	Trumpet	valved brass instrument in the treble range with a mostly cylindrical bore.	
+E3.1.8.02	E3.1	E3.1.8	Trombone	brass instrument whose pitch is changed mainly with a slide.	
+E3.1.8.03	E3.1	E3.1.8	French horn (horn)	valved brass instrument with a coiled conical tube and a wide flared bell.	
+E3.1.8.04	E3.1	E3.1.8	Tuba	largest and lowest valved brass instrument.	
+E3.1.9.01	E3.1	E3.1.9	Harmonica	mouth-blown free-reed instrument with reeds in a row of channels.	
+E3.1.9.02	E3.1	E3.1.9	Accordion	bellows-driven free-reed instrument with keyboard or buttons and bass buttons; bayan and garmon are named forms with a region tag (E-4, E-20).	
+E3.1.9.03	E3.1	E3.1.9	Concertina	small bellows-driven free-reed instrument with buttons on both ends.	
+E3.1.9.04	E3.1	E3.1.9	Harmonium	free-reed instrument with a keyboard and hand- or foot-pumped bellows; E3 also when played in worship (step 14 note).	
+E3.1.9.05	E3.1	E3.1.9	Melodica	mouth-blown free-reed instrument played from a small keyboard.	
+E3.1.9.06	E3.1	E3.1.9	Shruti box	bellows-driven free-reed drone instrument without a keyboard.	
+E3.1.10.01	E3.1	E3.1.10	Acoustic drum kit	set of acoustic drums (and usually cymbals and hardware) played by one drummer.	
+E3.1.10.02	E3.1	E3.1.10	Electronic drum kit	drum kit of pads or mesh heads that trigger electronic sounds from a sound module.	
+E3.1.10.03	E3.1	E3.1.10	Snare drum	shallow double-headed drum with snare wires across the lower head.	
+E3.1.10.04	E3.1	E3.1.10	Crash cymbal	cymbal made for loud accents.	
+E3.1.10.05	E3.1	E3.1.10	Ride cymbal	large cymbal made for a sustained ride pattern.	
+E3.1.10.06	E3.1	E3.1.10	Hi-hat cymbal	pair of cymbals mounted on a stand and closed by a pedal (sold as a pair).	
+E3.1.10.07	E3.1	E3.1.10	Splash cymbal	small, thin cymbal with a short, quick decay.	
+E3.1.10.08	E3.1	E3.1.10	China cymbal	cymbal with an upturned edge and a trashy, cutting tone.	
+E3.1.10.09	E3.1	E3.1.10	Cajon (box drum)	box-shaped wooden drum played by hand while sitting on it; level provisional until attested (R-19).	
+E3.1.10.10	E3.1	E3.1.10	Djembe (goblet drum)	goblet-shaped hand drum with a skin head; level provisional until attested (R-19).	
+E3.1.10.11	E3.1	E3.1.10	Timpani	tuned kettle drum with a bowl-shaped shell, played with mallets.	
+E3.1.10.12	E3.1	E3.1.10	Marimba	tuned mallet percussion instrument with wooden bars and resonators.	
+E3.1.10.13	E3.1	E3.1.10	Singing bowl	standing bowl bell sounded by striking or rubbing the rim; E3 unless made for a rite (K-110).	
+E3.1.11.01	E3.1	E3.1.11	Music box	mechanism that plays a tune by a pinned cylinder or disc plucking a tuned steel comb.	
+E3.1.11.02	E3.1	E3.1.11	Barrel organ	organ played mechanically by turning a pinned barrel.	yes
+E3.1.12.01	E3.1	E3.1.12	Musical saw	saw blade bent and bowed or struck to sound a sustained tone.	
+E3.1.12.02	E3.1	E3.1.12	Glass harmonica	set of graded glass bowls on a spindle, sounded by rubbing the rims with wet fingers.	
+E3.2.1.01	E3.2	E3.2.1	Combo amp	instrument amplifier and loudspeaker in one cabinet; circuit technology (tube, solid-state, modelling, hybrid), wattage and speaker size are attributes.	
+E3.2.1.02	E3.2	E3.2.1	Amp head	instrument amplifier without a loudspeaker, made to drive a separate cabinet.	
+E3.2.1.03	E3.2	E3.2.1	Speaker cabinet	loudspeaker enclosure made to be driven by an amp head.	
+E3.2.1.04	E3.2	E3.2.1	Amp modeller	floor or desktop unit that carries amplifier models (usually with effects) in place of an amplifier.	
+E3.2.2.01	E3.2	E3.2.2	Distortion effect	unit that clips the instrument signal hard for a distorted sound; format (pedal, rack, desktop) is an attribute.	
+E3.2.2.02	E3.2	E3.2.2	Overdrive effect	unit that clips the signal softly to emulate a driven amplifier.	
+E3.2.2.03	E3.2	E3.2.2	Delay effect	unit that repeats the signal after a set time.	
+E3.2.2.04	E3.2	E3.2.2	Multi-effects processor	unit offering several effect types in one housing and no amplifier models.	
+E3.3.1.01	E3.3	E3.3.1	Large-diaphragm condenser microphone	condenser microphone with a large capsule, sold for recording music; connectivity (USB, XLR) is an attribute.	
+E3.3.1.02	E3.3	E3.3.1	Dynamic microphone	moving-coil microphone sold for music on stage or in the studio.	
+E3.3.1.03	E3.3	E3.3.1	Wireless microphone system	microphone or bodypack transmitter with its receiver, sold for music performance.	
+E3.3.2.01	E3.3	E3.3.2	Audio interface	external unit that converts microphone and instrument signals for recording music on a computer (K-150).	
+E3.3.2.02	E3.3	E3.3.2	Mixer	console that combines, levels and routes several audio channels; analogue or digital and channel count are attributes.	
+E3.3.3.01	E3.3	E3.3.3	Studio monitor	near-field loudspeaker cabinet made for monitoring in recording and mixing.	
+E3.3.3.02	E3.3	E3.3.3	PA speaker	pole-mount or flown loudspeaker cabinet made for live sound; powered or passive is an attribute.	
+E3.3.4.01	E3.3	E3.3.4	Studio headphones	headphones sold by their maker as studio, stage or DJ equipment.	
+E3.3.4.02	E3.3	E3.3.4	In-ear monitor system	stage in-ear monitoring kit with a transmitter and a bodypack receiver (K-143); provisional until attested.	yes
+E3.3.5.01	E3.3	E3.3.5	DI box	direct-input box that converts an instrument signal to a balanced microphone-level signal.	yes
+E3.3.6.01	E3.3	E3.3.6	DJ controller	control surface with jog wheels, faders and pads for DJ software.	
+E3.3.6.02	E3.3	E3.3.6	DJ turntable	direct-drive record turntable sold for DJ performance.	
+E3.3.7.01	E3.3	E3.3.7	MIDI keyboard controller	keyboard that makes no sound of its own and sends MIDI or other control data to sound sources.	yes
+E3.3.7.02	E3.3	E3.3.7	Pad controller	grid or bank of pads that sends control data to software or hardware, for beat-making, recording or DJing alike.	yes
+E3.4.1.01	E3.4	E3.4.1	Guitar strings	set or single string made for a guitar or bass.	
+E3.4.1.02	E3.4	E3.4.1	Guitar case	hard or soft case made to hold one guitar or bass.	
+E3.4.2.01	E3.4	E3.4.2	Drumstick	stick made for playing drums and cymbals, sold as a pair.	
+E3.5.1.01	E3.5	E3.5.1	Music stand	stand that holds sheet music or a tablet at reading height for the player.	
+E3.5.2.01	E3.5	E3.5.2	Metronome	device that sounds or shows a steady, settable beat.	
+E3.5.2.02	E3.5	E3.5.2	Tuner	device that shows how far a played note is from the target pitch.	
+E3.5.3.01	E3.5	E3.5.3	Practice mute	mute that quiets an instrument for practice, made for several instruments.	yes
