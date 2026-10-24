@@ -1,6 +1,6 @@
 # DPH_C report: domain C structure decisions (session 7, R-118 a)
 
-Offline pass over the C structure_flags (split into single points) and the prompt's items. C6 is built (kinds and groups files); C1–C5, C7 and C8 get memo notes. No named form moves (the moves file has only its header).
+Offline pass over the C structure_flags and the prompt's items. C6 is built; C1–C5, C7 and C8 get memo notes. No named form moves.
 
 ## Points decided, per category
 - C1 (5): new_kind 1, display_only 2, noted 1, needs 1.
@@ -31,12 +31,6 @@ None. The Dobsonian stays a featured non-maker named form (C-18): the same Newto
 C5 gets a scoped way_in for fountain pens, fountain-pen ink, notebooks, planners and paper stocks; the rest of C5 stays owner. The row for maker_roles.tsv is proposed in the memo notes and not written.
 
 ## Provisional (thin evidence)
-- Schmidt astrograph: from memory.
-- Finder and Barlow lens: no evidence URL.
-- Filter, objective and microscope eyepiece: evidence names the parts but does not show them sold apart.
-- Demolition hammer: placed in the hammers leaf.
-- Garden multi-tool (B&Q class), grow kit (one North Spore facet), C4 kit kinds, label tape, and the C8 dowel, packer and clips: each waits for its page.
-- C5 way-in role.
-- BirdForum alpha (excerpt only) and the KWF mark.
-- EN 338, EN 335, DIN 51130 and ANSI A326.3: named from memory.
-- ASTM D4303: from an excerpt.
+- Schmidt astrograph (from memory); finder and Barlow lens (no evidence URL); filter, objective and microscope eyepiece (named, not shown sold apart).
+- Demolition hammer leaf; garden multi-tool, grow kit, C4 kits, label tape, C8 dowel, packer and clips (each waits for its page).
+- C5 way-in role; BirdForum alpha; KWF mark; EN 338, EN 335, DIN 51130, ANSI A326.3 (from memory); ASTM D4303 (excerpt).

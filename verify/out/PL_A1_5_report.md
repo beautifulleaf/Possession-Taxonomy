@@ -1,0 +1,5 @@
+PL_A1_5 report. 200 brands done. Tagged 2 (core 2, adjacent 0): Redfern and Rahvis to SC-haute-couture (page says couture / couture house).
+No-genre 198: other 102, department store or retailer 83, children's only 2, underwear or hosiery only 3, uniform or PPE 2, mass-market basics 1, sports performance only 1, page failed 4 (Mr Freedom, Principles, Peter Eastwood, New Bespoke Movement: listed page does not mention them).
+Failed pages: none failed to load. Cause of the low yield: nearly all stored wiki_urls are generic list or category pages (31 distinct), not brand articles, so they give a name and at most a one-line type; no brand page was fetched, and no searches or Parallel fetches were made. Long list pages were read in 100k-character chunks; the tail of the M&S, Frasers, Debenhams, Morrisons and House of Fraser pages was not read.
+Genre candidates: none (no file written).
+Suggest: re-run the 102 "other" designers and labels against their own Wikipedia articles (find URLs via search) before accepting them as no-genre.

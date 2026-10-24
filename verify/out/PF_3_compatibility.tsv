@@ -1,0 +1,22 @@
+compat_id	from_id	relation	to_id	sources	fetch_status
+CP-system-philips-hue-proto-zigbee	PF-system-philips-hue	supports	PF-proto-zigbee	https://www.philips-hue.com/en-gb/p/hue-white-and-colour-ambiance-a60-e27-smart-bulb-1100/8720169364066 | https://www.philips-hue.com/en-gb/p/hue-white-ambiance-gu10-smart-spotlight/8720169229976	full | full
+CP-system-philips-hue-proto-matter	PF-system-philips-hue	supports	PF-proto-matter	https://www.philips-hue.com/en-gb/p/hue-white-ambiance-gu10-smart-spotlight/8720169229976 | https://www.philips-hue.com/en-gb/p/hue-bridge-pro/8720169155091	full | full
+CP-system-philips-hue-cap-e27	PF-system-philips-hue	fits	PF-cap-e27	https://www.philips-hue.com/en-gb/p/hue-white-and-colour-ambiance-a60-e27-smart-bulb-1100/8720169364066	full
+CP-system-philips-hue-cap-gu10	PF-system-philips-hue	fits	PF-cap-gu10	https://www.philips-hue.com/en-gb/p/hue-white-ambiance-gu10-smart-spotlight/8720169229976	full
+CP-system-ikea-dirigera-proto-matter	PF-system-ikea-dirigera	supports	PF-proto-matter	https://www.ikea.com/us/en/product-guides/ikea-home-smart-system/ikea-matter-compatible-system-pub7ab815e0/	full
+CP-system-ikea-dirigera-proto-thread	PF-system-ikea-dirigera	supports	PF-proto-thread	https://www.ikea.com/us/en/product-guides/ikea-home-smart-system/ikea-matter-compatible-system-pub7ab815e0/	full
+CP-system-ikea-dirigera-proto-zigbee	PF-system-ikea-dirigera	supports	PF-proto-zigbee	https://www.ikea.com/us/en/product-guides/ikea-home-smart-system/ikea-matter-compatible-system-pub7ab815e0/	full
+CP-system-ikea-dirigera-cap-e27	PF-system-ikea-dirigera	fits	PF-cap-e27	https://www.ikea.com/se/en/p/tradfri-led-bulb-e27-470-lumen-smart-wireless-dimmable-white-spectrum-tube-shaped-90461916/	full
+CP-proto-matter-proto-thread	PF-proto-matter	supports	PF-proto-thread	https://en.wikipedia.org/wiki/Matter_(standard)	partial
+CP-proto-thread-proto-matter	PF-proto-thread	supports	PF-proto-matter	https://en.wikipedia.org/wiki/Thread_(network_protocol)	full
+CP-proto-zigbee-proto-matter	PF-proto-zigbee	adapts to through an adapter	PF-proto-matter	https://en.wikipedia.org/wiki/Matter_(standard)	partial
+CP-barrel-125-barrel-0965	PF-barrel-125	adapts to through an adapter	PF-barrel-0965	https://optcorp.com/products/orion-965-to-1-25-adapter-5341	full
+CP-barrel-125-barrel-2in	PF-barrel-125	adapts to through an adapter	PF-barrel-2in	https://optcorp.com/products/tele-vue-in-travel-eyepiece-adapter-2inch-to-1-25inch	full
+CP-eyepiece-tube-232-eyepiece-tube-30	PF-eyepiece-tube-232	adapts to through an adapter	PF-eyepiece-tube-30	https://www.asmetec-shop.de/en/Adapter-ring-300.html	full
+CP-thread-t2-thread-m48	PF-thread-t2	adapts to through an adapter	PF-thread-m48	https://explorescientific.com/collections/all/products/t2-reduction-adapter-m48x0-75-to-m42x0-75	full
+CP-thread-t2-thread-sct	PF-thread-t2	adapts to through an adapter	PF-thread-sct	https://agenaastro.com/baader-ultra-short-t2-male-to-sct-male-2-filter-adapter-t227.html	full
+CP-thread-m48-thread-sct	PF-thread-m48	adapts to through an adapter	PF-thread-sct	https://agenaastro.com/baader-ultra-short-t2-male-to-sct-male-2-filter-adapter-t227.html	full
+CP-dovetail-vixen-style-dovetail-losmandy-d	PF-dovetail-vixen-style	adapts to through an adapter	PF-dovetail-losmandy-d	https://agenaastro.com/agena-v-vixen-dovetail-bar-to-d-losmandy-saddle-converter-d2v-01.html	full
+CP-protocol-synscan-protocol-ascom	PF-protocol-synscan	supports	PF-protocol-ascom	https://astronomics.com/products/sky-watcher-synscan-wifi-adapter	full
+CP-protocol-synscan-protocol-indi	PF-protocol-synscan	supports	PF-protocol-indi	https://astronomics.com/products/sky-watcher-synscan-wifi-adapter	full
+CP-NF-C6.5.1.03-002-protocol-synscan	NF-C6.5.1.03-002	supports	PF-protocol-synscan	https://astronomics.com/products/sky-watcher-synscan-wifi-adapter	full

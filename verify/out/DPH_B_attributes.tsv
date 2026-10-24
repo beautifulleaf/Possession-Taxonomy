@@ -67,3 +67,20 @@ B9	tobacco_cut	named_form	ribbon | flake | broken flake | plug | rope or twist |
 B9	in_production	named_form	yes | discontinued	yes	B9.P4; B9.P2	TobaccoReviews 'still available'	Buyers filter on availability; status of the named form.
 B9	draw_style	named_form	MTL | restricted DTL | DTL	yes	B9.H3; B9.X vape coil	Resident vape kit guide	Kit matched to draw; memo attribute.
 B9	cannabinoid_content	named_form	THC % and CBD % as labelled (range)	yes	B9.P5; B9.P9; B9.P10; B9.P11	Leafly label guide	Label values per product line; batch COAs are individual-item facts and are not stored (C16).
+B10	life_stage	named_form	puppy or kitten | adult | senior | all life stages	yes	B10.1.1; B10.2.1; B10.3.1	zooplus.de food filters; PetMD (all life stages is puppy-level)	Fit to the animal, the third feed marker.
+B10	dog_size	named_form	toy or mini | small | medium | large | giant	yes	B10.1.1	zooplus.de breed and size pages	Breed size is an attribute, never a level.
+B10	health_need	named_form	skin and coat | sensitive digestion | kidney (renal) | urinary | weight | joint | dental | food allergy (hypoallergenic) | diabetes	yes	B10.1.1; B10.2.1	zooplus.de diet shortcuts; Petco health need	Drives the vet-diet and special-needs views; the vet-diet kinds hold prescription ranges.
+B10	nutritional_adequacy	named_form	complete | complementary; basis: nutrient profile | feeding trial (standard named)	yes	B10.1.1; B10.2.1; B10.3.1; B10.4.5; B10.10.1	PetMD (AAFCO statement first); memo required flag	The first feed marker; standard_met AAFCO or FEDIAF.
+B10	grain	named_form	grain-free | grain-inclusive	yes	B10.1.1; B10.2.1	zooplus.de filters	Recipe attribute, not a kind.
+B10	protein_source	named_form	chicken | turkey | duck | beef | lamb | pork | venison | fish | insect | plant | mixed	yes	B10.1.1; B10.2.1	zooplus.de flavour filter; PetMD named meat first	Named-protein marker.
+B10	riding_discipline	named_form	general purpose | dressage | jumping | eventing | endurance | Western | racing | polo | side-saddle | driving	yes	B10.4.1; B10.4.2; B10.4.3	System Equine tack guide	Tack is chosen by discipline first; English and Western stay saddle kinds.
+B10	horse_size	variant	Shetland or mini | pony | cob | full | extra full	yes	B10.4.2; B10.4.3; B10.12.5	System Equine; Shires size scale	Size is an attribute (C6) on variants.
+B10	saddle_fit	variant	seat size (in) | gullet width (narrow | medium | medium-wide | wide | extra wide)	yes	B10.4.1	System Equine fit markers	Fit, the second tack marker.
+B10	bit_fit	named_form	mouth width (mm or in); mouthpiece: single-jointed | double-jointed | mullen | straight bar | ported	yes	B10.4.2.02; B10.4.2.03	System Equine; SmartPak mouthpiece facet (memo S5)	Mouthpiece is a filter, not a bit kind.
+B10	water_type	named_form	freshwater tropical | coldwater | marine | brackish | pond | planted	yes	B10.5	Pet Circle shop by species (memo S13)	Fit to the tank and water type, the first aquarium marker.
+B10	tank_volume_l	named_form	number (litres), or rated range for filters and heaters	yes	B10.5.2; B10.5.3	memo section 5	Fit marker (turnover 6-10x per hour).
+B10	uvb_output	named_form	UVB % (e.g. 2-6 | 10-12 | 14) or UV index zone	yes	B10.6.3.06	memo section 5; maker lamp pages	Matched to species (forest, desert).
+B10	hive_box	named_form	8-frame | 10-frame; frame depth deep | medium | shallow; system link to C13 hive platform	yes	B10.9.2; B10.12.1	Dadant hive-size split	Hive system and frame fit come first for beekeepers.
+B10	cage_bird_species	named_form	budgerigar | canary | finch | cockatiel | lovebird | parakeet | large parrot	yes	B10.7	Petco bird menu (memo S21)	Species served is a filter inside cage birds.
+B10	bird_food_form	named_form	seed mix | pellets | egg food | millet spray | treat stick | nectar	yes	B10.7.5.01	Petco bird food	Form of the new cage-bird food kind.
+B10	applies_to	kind	dog | cat | small mammal | horse | fish | reptile | cage bird | wild bird | bee | poultry	yes	B10.11	memo rule 3.1	Shows several-animal kinds under each animal in the first step.
