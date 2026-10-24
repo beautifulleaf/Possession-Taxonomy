@@ -1,6 +1,6 @@
 # DPH_F report: domain F (F1–F6, none built)
 
-This was an offline pass: no web, no git, nothing written to data/ or framework/. All decisions are build notes in DPH_F_memo_notes.md, to be appended as memo section 14. The kinds, moves and groups_changes files hold only their headers, because there are no built kinds and groups.tsv has no F groups.
+Offline pass. All decisions are build notes in DPH_F_memo_notes.md, to be appended as memo section 14. The kinds, moves and groups_changes files hold only their headers (nothing built; no F groups).
 
 ## Points decided
 
@@ -48,10 +48,10 @@ Ids are assigned at build under R-58. Both kinds are provisional.
 
 ## Needs (48)
 
-- **31 grading scales**: record, book and comic; coin and banknote; stamp centering and gum; six card graders; art classifications; kosher grade and relic class; autograph classes; GIA systems; mineral size.
+- **28 grading scales**: records, books, comics, coins, banknotes, stamps, cards (six graders), art classifications, kosher grade, relic class, autograph classes, GIA systems, mineral size.
 - **5 schemes**: CBR, Acoustic Sounds, Artsy and LUMAS, Artfinder, and the UK order of wear.
 - **4 platform sets**: carrier systems, film gauges, video region codes, transit card systems.
-- **8 standards**.
+- **11 standards**.
 
 ## Thin evidence (provisional)
 

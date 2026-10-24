@@ -1,0 +1,29 @@
+code	attribute	subject_type	values	facet	kinds_served	source_hint	reason
+J2	species_group	kind	salmon and trout | white fish | oily fish | flatfish | tuna and swordfish | prawns and shrimp | crab and lobster | shellfish | squid, cuttlefish and octopus | other	yes	J2.1	fish-counter navigation of retailers (https://www.waitrose.com/ecom/shop/browse/groceries/fresh_and_chilled/chilled_fish_and_seafood), one value per kind	Counter group of R-115 a stored per kind instead of hand mapping; G-J2-7 to G-J2-16 are generated from it.
+J2	season	kind; named_form; variety	Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec | year-round	yes	J2.1; J2.5	fishmonger and producer season pages, designation specifications	Months at best as a range start–end (e.g. Sep–Apr), scope northern or southern hemisphere or an origin region (R-118 b).
+J2	raw_eating_asserted	named_form	yes | not stated	yes	J2.1; J2.5	seller product page wording (sashimi grade, sushi grade, for raw eating)	Seller claim only, no legal grade; feeds the sashimi-grade view. Never inferred from the kind.
+J2	grain_grade	named_form	000 | 00 | 0	yes	J2.5.1	FAO sturgeon chapter grain categories (https://www.fao.org/4/y5261e/y5261e06.htm); producer and shop pages	Size and colour grade of grain caviar with its scale named (grading_scales row); producer grades (Royal, Imperial) stay tier entries.
+J3	milk_species	kind; named_form	cow | goat | sheep | buffalo | mixed | other	yes	J3.1; J3.2; J3.3; J3.4	designation specifications; shop milk filters (Mons, Butlers)	Drives the goat and sheep side entry; never a level. "other" covers yak, camel, mare and reindeer, named in notes.
+J3	cheese_use	kind; named_form	raclette | fondue | grilling or frying | grating | baking	yes	J3.4	specialist shop use sections (Mons raclette and fondue)	Use view only; a cheese may take several values.
+J3	season	named_form; variety	Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec | year-round	yes	J3.4	designation specifications (seasonal make, alpage, Mont d'Or)	Same format as J2 and J4; for seasonal cheeses and milk seasons where a specification states months.
+J4	season	kind; variety; named_form	Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec | year-round	yes	J4	retailer in-season lists (Waitrose In Season, Carrefour fruits de saison), Orange Pippin picking season, designation specifications	Months at best as start–end ranges, scope hemisphere or origin region; feeds the in-season view (R-115 a, R-118 b).
+J4	taste	variety	sweet | sweet-sharp | sharp | aromatic	yes	J4.1.1; J4.1.2; J4.1.4; J4.1.5	Orange Pippin variety filters (https://www.orangepippin.com/search.aspx)	Provisional value list from memory; replace with the filter values when a variety harvest fetches them.
+J4	use	variety	dessert | culinary | juice | cider | dual-purpose	yes	J4.1.1; J4.1.2; J4.2.3.02	Orange Pippin variety filters; potato and apple variety registers	Use of a cultivar; dual-purpose where a source gives two uses.
+J4	keeping	variety	under 1 month | 1 to 3 months | over 3 months	yes	J4.1.1	Orange Pippin variety filters	Storage life of a cultivar; provisional bands until the filter values are fetched.
+J4	picking_season	variety	early | mid | late	yes	J4.1.1; J4.1.2; J4.1.4	Orange Pippin variety filters; nursery catalogues	Relative ripening order where a source gives no months; months go to season.
+J5	harvest_date	named_form; variant	year and month	yes	J5.5.1.01	producer labels and shop pages	Freshness marker for olive oil (proposal markers).
+J5	broken_pct	named_form; variant	number (percent)	no	J5.1.1	trade specifications	Rice marker (basmati 0-2% premium); stored for the ladder view.
+J5	grain_length_mm	named_form; variant	number (mm)	no	J5.1.1	APEDA basmati standard; trade specifications	Rice marker; stored for the view.
+J5	moisture_pct	named_form; variant	number (percent)	no	J5.1.1	trade specifications	Rice marker (13% max).
+J5	additive_free	named_form	yes | no	yes	J5.5.3.02	label ingredient list on the shop page	Balsamic without caramel or thickener.
+J5	certification	named_form	organic | non-GMO | regenerative organic | fair trade	yes	J5	shop value filters (Thrive Market)	Certification vocabulary as attribute values, never tiers (C4 i).
+J6	specialty_grade	named_form; variant	Outstanding (90+) | Excellent (85-89.99) | Very Good (80-84.99) | below specialty (under 80)	yes	J6.1	SCA cupping scale as shown by roasters (Coffee Bros, Colipse)	Class from the SCA score with the 350 g defect gate; the scale is a grading_scales row.
+J6	decaf	named_form; variant	yes | no	yes	J6.1	shop shelves (Kaldi, Klatch)	Same product decaffeinated (JC4), never a kind.
+J6	certification	named_form	Fairtrade | Rainforest Alliance | Bird Friendly | organic	yes	J6	Kaldi certifications page	Certification attribute, not a tier; Direct Trade is a platform tag.
+J7	chill_filtered	named_form; variant	yes | no | not stated	yes	J7.5	Whiskybase filters	Whisky marker (natural presentation).
+J7	added_colour	named_form; variant	yes | no | not stated	yes	J7.5	Whiskybase filters	Whisky marker.
+J7	single_cask	named_form; variant	yes | no	yes	J7.5	Whiskybase filters	Whisky marker.
+J7	cask_strength	named_form; variant	yes | no	yes	J7.5	Whiskybase filters	Whisky marker.
+J7	cask_type	named_form; variant	ex-bourbon | ex-sherry | port | wine | rum | virgin oak | other | several	yes	J7.5	Whiskybase filters	Provisional value list from memory; fixed when the filter values are fetched.
+J7	flavour_profile	named_form	smoky and peaty | sweet and smooth	yes	J7.5; J7.6	Country Wine and Spirits flavour menu (https://cwspirits.com/collections/full-bore)	Only two values attested; the rest are added from the fetched shop vocabulary.
+J7	cru_class	named_form	grand cru | premier cru | village | regional	yes	J7.1	appellation rules (INAO), designation rows	Class of a Burgundy or Alsace vineyard designation named form (J-16); not a tier.
