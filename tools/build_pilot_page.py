@@ -100,6 +100,31 @@ def main():
         for k in [x.strip() for x in g["kinds_served"].split("|") if x.strip()]:
             if k in kind_ids: og[k]["g"].append({"name": g["name"], "owner": g["owner"], "steps": g["steps"], "where": g["jurisdiction"], "src": srcs(g)})
     data["og"] = og
+    # holistic organisation (R-115 c): display groups, ladders and quality markers from framework/structure/navigation
+    nav = ROOT / "framework/structure/navigation"
+    rd = lambda n: read_tsv(nav / f"{n}.tsv") if (nav / f"{n}.tsv").exists() else []
+    props = {r["code"]: r for r in rd("proposals")}
+    for c in data["codes"]:
+        pr = props.get(c["code"])
+        if pr:
+            c["way"] = [x.strip() for x in pr["ladder"].split(">") if x.strip()][:4] or c["way"]
+            c["wayin"] = pr["main_way_in"]; c["signals"] = pr["quality_signals"]; c["qm"] = pr["quality_markers"]
+    by_node = defaultdict(list)
+    for k in kinds:
+        by_node[k["sub_family"]].append(k["kind_id"])
+        if k["leaf"]: by_node[k["leaf"]].append(k["kind_id"])
+    groups = defaultdict(list)
+    for g in rd("groups"):
+        if g["code"] not in CODES: continue
+        ks = []
+        for m in [x.strip() for x in g["members"].split(";") if x.strip()]:
+            ks += [m] if m in kind_ids else by_node.get(m, [])
+        groups[g["code"]].append({"id": g["group_id"], "name": g["group_name"], "level": g["level"], "parent": g["parent_group"],
+                                  "kinds": list(dict.fromkeys(ks))})
+    data["groups"] = groups
+    data["markers"] = defaultdict(list)
+    for m in rd("markers"):
+        data["markers"][m["code"]].append({"group": m["group_id"], "marker": m["marker"], "values": m["values"], "why": m["why"]})
     data["coverage"] = coverage()
     blob = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
     OUT.parent.mkdir(exist_ok=True)
@@ -200,6 +225,8 @@ details.kind[open] > summary::before { content: "▾"; }
 .src.part { background: var(--mark-soft); color: var(--mark); }
 .nfs { display: flex; flex-wrap: wrap; gap: 5px; }
 .grades { margin: 4px 0 0; padding-left: 18px; font-size: 13px; }
+.qbox { border-left: 3px solid var(--accent, #2a6); padding: 4px 12px; margin: 8px 0 14px; font-size: 14px; }
+.qbox .label { margin-right: 6px; }
 .nf { font: 13px/1.3 var(--display); border: 1px solid var(--rule); border-radius: 4px; padding: 3px 7px; color: var(--fg); text-decoration: none; background: var(--bg); }
 .nf small { color: var(--muted); margin-left: 4px; }
 .nf.free { border-color: var(--ok); }
@@ -327,6 +354,30 @@ function start(D) {
     if (C.way.length && code !== 'A1') main.append($('p', { class: 'way' }, $('span', { class: 'label', text: 'Way in' }), C.way.join('  →  ')));
     const roleText = { way_in: 'Makers are a way in here: every attested maker is listed.', owner: 'Makers appear here only as owners of a model or line: shoppers choose the model.', none: 'Makers appear here only through a branded product: origin, variety and grade lead.' }[C.role] || '';
     main.append($('p', { class: 'note', text: code + ' ' + cname + ': every kind below is attested on a fetched page (blue source: full fetch, amber: partial). Open a kind for its definition, sources, maker lines and named forms; a named form with a green border is a design many makers make or a protected name, the others are one maker\'s products. ' + roleText }));
+    if (C.qm || C.signals) main.append($('div', { class: 'qbox' },
+      C.qm ? $('p', {}, $('span', { class: 'label', text: 'What makes the best' }), C.qm) : null,
+      C.signals ? $('p', {}, $('span', { class: 'label', text: 'Who vouches' }), C.signals) : null));
+    const G = (D.groups || {})[code];
+    if (G && G.length) {
+      const ol = $('ol'), kById = new Map(kinds.map(k => [k.id, k])), mk = (D.markers || {})[code] || [];
+      const tops = G.filter(g => g.level === '1');
+      tops.forEach(t => {
+        const subs = G.filter(g => g.parent === t.id);
+        const n = subs.length ? subs.reduce((a, s) => a + s.kinds.length, 0) : t.kinds.length;
+        ol.append($('li', {}, $('a', { href: '#g-' + t.id }, t.name, $('span', { text: n }))));
+        main.append($('h2', { class: 'sf', id: 'g-' + t.id }, t.name));
+        const mt = mk.filter(m => m.group === t.id);
+        if (mt.length) main.append($('ul', { class: 'grades' }, mt.map(m => $('li', {}, $('b', { text: m.marker }), m.values ? ': ' + m.values : '', m.why ? ' (' + m.why + ')' : ''))));
+        (subs.length ? subs : [t]).forEach(sg => {
+          if (subs.length) main.append($('h3', { class: 'leaf' }, sg.name));
+          const ms = subs.length ? mk.filter(m => m.group === sg.id) : [];
+          if (ms.length) main.append($('ul', { class: 'grades' }, ms.map(m => $('li', {}, $('b', { text: m.marker }), m.values ? ': ' + m.values : '', m.why ? ' (' + m.why + ')' : ''))));
+          sg.kinds.forEach(id => kById.has(id) && main.append(kindCard(kById.get(id))));
+        });
+      });
+      rail.append($('h2', { text: code + ' ways in' }), ol);
+      return;
+    }
     const ol = $('ol');
     nodes.filter(n => n.level === 'sub_family').forEach(sf => {
       const ks = kinds.filter(k => k.sf === sf.id);

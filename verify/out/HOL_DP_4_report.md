@@ -1,0 +1,11 @@
+# HOL_DP_4 report (C1 C2 C3 C4)
+
+Stage-2 proposals from evidence batch HOL_EV_4 (5 to 8 fetched sources per category) and the memos. Outputs: `HOL_DP_4_proposals.tsv` (4 rows) and `HOL_DP_4_groups.tsv`. Only C1 has a tree in data/nodes.tsv, so it has 9 level-1 and 39 level-2 groups, given as node ids because C1 has no kinds in data/kinds.tsv. C2, C3 and C4 are not built, so they have no group ids. Kind ids are unchanged.
+
+**C1 Tools.** People choose by tool family, grouped by the job it does (9 display groups over the 12 sub-families). Hand, power and machine are a toggle on every group, not a level. What makes the best: measured performance, then handling, then run time and the battery platform, then durability; voltage comes last. Quality signals: Consumer Reports, CHOICE and Stiftung Warentest, which need new scheme rows. Maker role stays owner, with a battery-platform tab beside the main way in. Flag: demolition hammer (breaker) has no kind.
+
+**C2 Garden.** People choose by the garden job; for mowers the order is lawn size, then mower type, then power, with brand last. What makes the best: cut quality (50% of the Which? score), then ease of use (30%), then battery and reliability. Quality signals: Which? Best Buy and Don't Buy, Consumer NZ. Maker role stays owner, with a battery-platform tab and a tab for hand-tool makers such as Felco and Okatsune. Flags: new attributes "lawn area suited" and "hand size".
+
+**C3 Plants.** People choose the plant group the way shops group them (houseplants, garden plants, food to grow, bonsai, seeds, cut flowers, cultures). Place and light are the first filter, kept as tags, never a level. Quality signal: RHS AGM. Maker role stays none. *Provisional:* the seed signals, because AAS was not fetched.
+
+**C4 Craft.** People choose by craft discipline (13 display groups), then the role of the item, then the medium. What makes the best artist colour: lightfastness, pigment load, single pigment, then artist or student range. *Provisional:* the ASTM definition comes from a search excerpt, and the Blick and Utrecht pages were blocked. Maker role changes to way in for yarn only (shown on Ravelry; provisional). Flag: craft storage has no home.
