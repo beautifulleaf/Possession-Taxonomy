@@ -224,5 +224,21 @@ Owner rulings this session (BRIEF.md, session 6): no busy work on clothing retri
 
 Open: model depth for owner-only categories (SESSION_6 step 4) and wave 2 (step 5) not started; structure flags from the proposals (R-116 d); platform rows; award and rating schemes; season attribute; SF_A1 unclear makers; the 5 unattested grocery kinds.
 
-## Next (session 7)
-See SESSION_7_PROMPT.md.
+## Session 7 (2026-10-24) — structure decisions, quality signals, platforms, genre placement, model depth, wave 2
+Worked on branch `claude/blissful-hopper-oyzk13`. Decisions R-118 to R-121 in framework/structure/decisions/D4_residual.md. The owner delegated all decisions.
+
+| Step | Result |
+|---|---|
+| 1. Structure points (R-118 a, R-119) | DPH_A–J (Opus, one per domain) decided every structure_flags point of proposals.tsv: 31 new kinds in built categories, all attested (B10 9 with two new leaves, C6 6, D1 desk mat, D5 flight yoke, throttle and sim cockpit, I1 firewall, J2 anchovy and cuttlefish, J3 eight kinds split from J3.4.6.08 with 15 moves and 17 designations re-pointed, J4 dill, rosemary, sage, chives); decisions for unbuilt categories appended to each memo as section 14; traditional dress regrouped into six dress-form clusters and a "Designer houses & couture" cluster; maker roles for C5 and E4 refined; display groups updated (tools/apply_groups_changes.py). Attribute definitions (≈400) and needs (≈380 schemes, standards, platforms, scales) are in verify/out/DPH_*_attributes.tsv and _needs.tsv. |
+| 2. Quality signals (R-118 b, c) | New table `attributes`. 16 schemes, 1,667 tier entries: Seafood Watch (838) and MCS Good Fish Guide (369) on J2 kinds by source and method, MSC and ASC, World Cheese Awards, Great Taste, ICDA, Slow Food Presidia (188 as non-maker named forms), AV-TEST and AV-Comparatives (130), Stiftung Warentest (32); 80 PLUS on 33 PSUs (standards); 360 season rows (UK, US, NZ, AU, JP). Blocked or thin: Guild of Fine Food lists (form-driven), CLEAResult and Cybenetics (JavaScript), Which? (paywall), part of the Slow Food site (throttled). |
+| 3. Platforms (R-118 d) | 289 platforms (CPU sockets, chipsets, memory, buses, form factors, ports; 70 consoles; lamp caps and smart-lighting protocols; telescope and microscope standards; 32 lens mounts, 3 flash shoes, 26 tool battery platforms for D4 and C1) and 293 compatibility rows. |
+| 4. Clothing (R-118 f, R-120) | PL_A1_1–13: about 2,600 unscened English-Wikipedia brands placed, about 15 % into genres (scene tags 8,700 → 9,334); the rest recorded as no-genre with a class (verify/out/PL_A1_*_nogenre.tsv). PL_A1_14–24 not run (R-120). Not done: re-sourcing shibu-kaji, stilyagi, sukeban, peeps, oshare kei, girly kei; genre candidates; signature pieces. |
+| 5. Model depth (owner-only categories) | MODK by kind: B3 (1,377 models), B10 (1,241 from lists 1 and 3), C6 (486 from lists 1–2), D5 hardware (515), I1 (2,130). Lists MODK_B10_2, C6_3 finishing at hand-off; MODK_B10_4–5 and I1_3–4 not started. |
+| 6. Wave 2 | Trees for A3, A4, A5, H1, E3, J7, B9 (TREE_<CODE>.md; R-121 adds grape brandy and molasses rum), A2 from its frozen tree; harvests HV_<CODE>_1–2: 18 categories now have kinds: 1,847 kinds (A2 63, A3 57, A4 71, A5 53, H1 102, E3 97, J7 90 of 97, B9 102 of 105), 25,363 named forms, 1,018 lines, 57,900 makers. Same-name makers of other trades split by id at review (Omega, Sessions, Globe-Trotter, Fulton, Sons, Baccarat, Diesel, Fonseca, Toscano, Windsor, Richmond, Gravis, Moonstar); ESP duplicate merged. |
+| Pilot page | 18 categories; makers ship in pilot-makers.json beside pilot-data.json (each under the 16 MB limit). |
+| Tools | load_qs.py (QS_, PF_, PL_, MODK_ batches), split_dph.py, retire_kinds.py, append_memo_notes.py, apply_groups_changes.py, sync_designation_kinds.py, fix_node_markdown.py, fix_fetch_log_header.py (adds missing headers and moves "(Parallel)" notes out of logged URLs; run it before every load). |
+
+Lessons: the authenticated Parallel web_fetch works (search does not) and renders JavaScript and 403 pages; agents often write fetch logs without a header or with notes after the URL (run tools/fix_fetch_log_header.py); check_batch reviews catch same-name makers of other trades; at most 20 agents run at once.
+
+## Next (session 8)
+See SESSION_8_PROMPT.md.
