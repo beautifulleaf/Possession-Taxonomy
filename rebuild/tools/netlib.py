@@ -41,10 +41,24 @@ def _penalise(group, seconds):
         fcntl.flock(f, fcntl.LOCK_UN)
 
 
+MAX_QUEUE = 20  # seconds; if the group's next slot is further away than this, fail fast instead of queueing
+
+
+def _queue_wait(group):
+    p = os.path.join(LOCKDIR, group + '.lock')
+    try:
+        s = open(p).read().strip()
+        return float(s) + SPACING[group] - time.time() if s else 0
+    except Exception:
+        return 0
+
+
 def get(url, params=None, tries=6, timeout=40, accept='application/json'):
-    """Return (status, text). status 0 = network failure."""
+    """Return (status, text). status 0 = network failure; 429 = rate limited (callers fall back to other fetchers)."""
     if params: url = url + ('&' if '?' in url else '?') + urllib.parse.urlencode(params)
     g = _group(url); delay = 4.0
+    if g == 'wikipedia': tries = min(tries, 2)
+    if _queue_wait(g) > MAX_QUEUE: return 429, ''
     import ssl
     ctx = ssl.create_default_context(cafile=CA) if os.path.exists(CA) else None
     for i in range(tries):
@@ -54,7 +68,7 @@ def get(url, params=None, tries=6, timeout=40, accept='application/json'):
             with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
                 return r.status, r.read().decode('utf-8', 'replace')
         except urllib.error.HTTPError as e:
-            if e.code in (429, 503) and i < tries - 1:
+            if e.code in (429, 503) and i < tries - 1 and _queue_wait(g) < MAX_QUEUE:
                 ra = e.headers.get('Retry-After')
                 wait = float(ra) if ra and ra.isdigit() else delay
                 wait = min(wait, 120) + random.uniform(0, 1)
