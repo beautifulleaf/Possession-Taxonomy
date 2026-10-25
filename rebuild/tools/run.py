@@ -34,7 +34,7 @@ class Slots:
     """Concurrency cap for web workers; the limit is re-read from work/slots.txt so it can be changed while running."""
     def __init__(self): self.n = 0; self.c = threading.Condition()
     def limit(self):
-        try: return int(open('work/slots.txt').read().strip())
+        try: return int(open(os.environ.get('PT_SLOTS_FILE', 'work/slots.txt')).read().strip())
         except Exception: return WEB_SLOTS
     def __enter__(self):
         with self.c:
@@ -190,6 +190,7 @@ def parse_json(t):
 def run_batch(reqs, tag):
     """reqs: list of (custom_id, params). Returns {custom_id: text}. Resumable via work/_batches/<tag>.id."""
     os.makedirs('work/_batches', exist_ok=True)
+    tag = os.environ.get('PT_TAG', '') + tag
     idp = f'work/_batches/{tag}.id'
     if os.path.exists(idp):
         bid = open(idp).read().strip()
@@ -690,7 +691,8 @@ def validate_and_merge(code):
     r = subprocess.run([sys.executable, 'validate.py', f'out/{code}.json'], capture_output=True, text=True)
     log(code, 'validate', r.stdout.strip()[:500])
     if r.returncode != 0: return False
-    with MERGE_LOCK:
+    with MERGE_LOCK, open('work/.merge.lock', 'a') as lf:
+        fcntl.flock(lf, fcntl.LOCK_EX)  # serialise merges across processes
         r = subprocess.run([sys.executable, 'merge.py', code], capture_output=True, text=True)
         log(code, 'merge', (r.stdout + r.stderr).strip()[-600:])
     return r.returncode == 0
@@ -700,6 +702,10 @@ def pipeline(code, run_codes, merged, cond):
     deps = [d for d in RECEIVES.get(code, []) if d in run_codes and d != code]
     with cond:
         cond.wait_for(lambda: all(d in merged for d in deps))
+    # donors being rebuilt by another process (PT_EXTERNAL="B5 B6 ..."): wait until merge.py records them in done.json
+    ext = [d for d in RECEIVES.get(code, []) if d in os.environ.get('PT_EXTERNAL', '').split()]
+    while ext and not all(d in json.load(open('done.json')) for d in ext):
+        time.sleep(60)
     try:
         plan_codes([code]); shelves(code)
         ok = assemble(code)
