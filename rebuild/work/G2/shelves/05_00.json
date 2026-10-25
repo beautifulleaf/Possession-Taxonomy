@@ -1,0 +1,72 @@
+{
+ "kinds": [
+  {
+   "n": "Ground burial plot",
+   "a": "grave plot · burial plot",
+   "d": "An in-ground grave space for a coffin or casket, of single, companion or family capacity.",
+   "t": [
+    "Single plot",
+    "Companion plot",
+    "Family plot",
+    "Gated estate",
+    "Hedge estate"
+   ],
+   "s": "https://plotlistings.com/guides/cemetery-plot-types-explained"
+  },
+  {
+   "n": "Cremation plot",
+   "a": "urn plot · urn grave",
+   "d": "A small in-ground plot for the burial of cremated remains in an urn.",
+   "s": "https://www.dignitymemorial.com/cemetery/types-of-cemetery-property"
+  },
+  {
+   "n": "Green burial plot",
+   "a": "natural burial plot · woodland burial plot",
+   "d": "A grave space in a natural woodland or meadow setting, sometimes one of several sites around a shared tree.",
+   "t": [
+    "Baumgrab · tree grave",
+    "Shared-tree plot"
+   ],
+   "s": "https://www.peacenaturalburials.co.uk/locations/apperknowle"
+  },
+  {
+   "n": "Lawn crypt",
+   "a": "garden crypt",
+   "d": "A pre-built underground vault set in a lawn section of a cemetery.",
+   "s": "https://plotlistings.com/guides/cemetery-plot-types-explained"
+  },
+  {
+   "n": "Mausoleum crypt",
+   "a": "community mausoleum crypt",
+   "d": "An above-ground chamber for a casket inside a shared community mausoleum.",
+   "s": "https://plotlistings.com/guides/cemetery-plot-types-explained"
+  },
+  {
+   "n": "Private mausoleum",
+   "a": "family mausoleum",
+   "d": "A freestanding building holding crypts for one family.",
+   "s": "https://plotlistings.com/guides/cemetery-plot-types-explained"
+  },
+  {
+   "n": "Columbarium niche",
+   "a": "urn niche · cremation niche",
+   "d": "A compartment in a wall, stele or building for one or more urns.",
+   "t": [
+    "Urnenstele · urn stele"
+   ],
+   "s": "https://plotlistings.com/guides/cemetery-plot-types-explained"
+  },
+  {
+   "n": "Communal grave space",
+   "a": "goshi-bo · 合祀墓 · collective grave",
+   "d": "A shared burial space where the remains of many people are placed together, with no separate site for each.",
+   "s": "https://guide.e-ohaka.com/kind/gasoubo-2"
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "All eight planned kinds kept one-to-one with old k60–k67; no merges or drops. Emptied all model lists (no brands or products exist for burial rights) and moved the former pseudo-models into attribute types: 'Gated estate' and 'Hedge estate' → types of Ground burial plot (with single/companion/family capacity, already implied by the old definition); 'Baumgrab' and 'Full Burial Shared Tree Plot' (renamed 'Shared-tree plot') → types of Green burial plot; 'Urnenstele' → type of Columbarium niche. Added plain aliases for findability; kept each kind's old source URL. No archetypes, new kinds or brand entries added, per the restraint-only brief.",
+ "dropped": [],
+ "model": "claude-fable-5-1",
+ "batch": true
+}

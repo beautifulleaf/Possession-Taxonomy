@@ -1,0 +1,82 @@
+{
+ "kinds": [
+  {
+   "n": "Vacuum cleaner spare parts",
+   "a": "vacuum bags · vacuum filter · brush roll · brush bar · vacuum hose · extension tube · robot vacuum consumables",
+   "d": "Replacement part or consumable made to fit a vacuum cleaner, sold as original (OEM) or compatible third-party fitment.",
+   "t": [
+    "dust bag",
+    "filter (HEPA as a grade)",
+    "drive belt",
+    "battery pack",
+    "floor head and tools",
+    "hose",
+    "brush roll",
+    "wand",
+    "motor",
+    "wheel or castor",
+    "robot mop pad and side brush"
+   ],
+   "s": "https://www.espares.co.uk/vacuum-cleaner/catalogue.pl?path=1012661"
+  },
+  {
+   "n": "Washing machine spare parts",
+   "a": "door seal · drain pump · drum paddle · carbon brushes · heater element · door interlock",
+   "d": "Replacement part made to fit a washing machine, sold as original (OEM) or compatible third-party fitment.",
+   "t": [
+    "inlet or drain hose",
+    "door seal",
+    "drain pump",
+    "drum paddle (lifter)",
+    "carbon brushes",
+    "heater element",
+    "door lock (interlock)",
+    "filter"
+   ],
+   "s": "https://www.mieleusa.com/category/1300032/laundry-care-spare-parts"
+  },
+  {
+   "n": "Tumble dryer spare parts",
+   "a": "lint filter · dryer belt · condenser water container · dryer vent hose",
+   "d": "Replacement part made to fit a tumble dryer, sold as original (OEM) or compatible third-party fitment.",
+   "t": [
+    "lint filter",
+    "drum belt",
+    "condenser water container",
+    "vent hose",
+    "heater",
+    "sensor"
+   ],
+   "s": "https://www.bekospares.co.uk/tumble-dryer/catalogue.pl?path=191107"
+  },
+  {
+   "n": "Iron and steam generator spare parts",
+   "a": "anti-scale cartridge · iron water tank · steam generator water tank",
+   "d": "Replacement part or consumable made to fit a steam iron or steam generator, sold as original (OEM) or compatible fitment.",
+   "t": [
+    "anti-scale cartridge",
+    "water tank",
+    "soleplate",
+    "steam hose"
+   ],
+   "s": "https://www.philips.ie/c-m-ho/ironing/iron-accessories/all"
+  },
+  {
+   "n": "Laundry pedestal and stacking kit",
+   "a": "washer pedestal · dryer pedestal · stacking bracket · anti-vibration pads",
+   "d": "Installation accessory made to raise, stack or steady a washing machine or dryer, usually brand-matched to the appliance.",
+   "t": [
+    "drawer pedestal",
+    "stacking kit or bracket",
+    "anti-vibration pads"
+   ],
+   "s": "https://www.lowes.com/c/Washers-dryers-Appliances"
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Collapsed 25 part kinds into 5, one per appliance plus one installation-accessory entry, with the former kinds listed as types. Dropped the two Philips anti-scale cartridge SKUs (IronCare, PerfectCare Pure) per the no-models brief; OEM vs compatible is noted in each definition instead. Merged 'Lint filter' into dryer parts (washing-machine filter kept as a type there). Kept one old source URL per merged kind (espares, Miele USA, Beko spares, Philips, Lowe's); the Electrolux, fixpart and buyandrepair sources became redundant. Added heater, sensor, soleplate, steam hose, filter and robot consumables as types since owners commonly replace them; no new kinds, archetypes or brands added.",
+ "dropped": [],
+ "model": "claude-fable-5-1",
+ "batch": true
+}

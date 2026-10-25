@@ -1,0 +1,34 @@
+{
+ "kinds": [
+  {
+   "n": "Building plot",
+   "a": "building land · development plot · self-build plot",
+   "d": "A parcel of land sold to build a home on, with or without planning permission.",
+   "t": [
+    "with planning permission",
+    "without planning permission",
+    "serviced plot",
+    "self-build plot"
+   ],
+   "s": "https://www.landsale.co.uk/"
+  },
+  {
+   "n": "Parking space",
+   "a": "parking bay · car space · lock-up",
+   "d": "A bay, garage or space for parking a vehicle, owned as freehold or long leasehold rather than rented or permitted.",
+   "t": [
+    "open bay",
+    "lock-up garage (held as separate title)",
+    "underground space",
+    "EV-charging bay"
+   ],
+   "s": "https://customerfaq.rightmove.co.uk/support/solutions/articles/7000099510-which-residential-property-type-best-fits-my-property-"
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Both old kinds kept one-to-one (k20 → Building plot, k21 → Parking space); nothing dropped or merged. Empty m/r lists omitted since land has no models. Attribute variants from the shelf brief added as t types; lock-up garage included only as a parking space held under its own title, not a home's attached garage. Definitions rewritten as plain single sentences; old source URLs retained. No archetypes, new kinds or brands added, per restraint-only instruction.",
+ "dropped": [],
+ "model": "claude-fable-5-1",
+ "batch": true
+}

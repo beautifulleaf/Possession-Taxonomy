@@ -1,0 +1,155 @@
+{
+ "kinds": [
+  {
+   "n": "Wet mop",
+   "a": "flat mop · string mop · sponge mop · cloth mop · Cuban mop",
+   "d": "Hand-pushed mop for wet-cleaning hard floors, with a flat pad, strand bundle, sponge or loose cloth head.",
+   "t": [
+    "flat mop",
+    "string mop",
+    "sponge mop",
+    "cloth/Cuban mop"
+   ],
+   "s": "https://www.lowes.com/pl/cleaning-tools/mops/4294598982",
+   "m": [
+    [
+     "Vileda UltraMax",
+     "Vileda"
+    ],
+    [
+     "Vileda H2PrO Flat",
+     "Vileda"
+    ],
+    [
+     "O-Cedar H2prO Wring System Flat Mop",
+     "O-Cedar"
+    ]
+   ],
+   "r": [
+    [
+     "UltraMax",
+     "Vileda"
+    ],
+    [
+     "H2PrO",
+     "Vileda"
+    ]
+   ]
+  },
+  {
+   "n": "Spin mop system",
+   "a": "spin mop · spin mop and bucket",
+   "d": "Round-headed mop sold with a bucket whose spinning basket wrings the head hands-free.",
+   "s": "https://www.lowes.com/pl/cleaning-tools/mops/4294598982",
+   "m": [
+    [
+     "O-Cedar EasyWring Spin Mop & Bucket System",
+     "O-Cedar"
+    ],
+    [
+     "O-Cedar RinseClean Spin Mop & Bucket System",
+     "O-Cedar"
+    ],
+    [
+     "Vileda Turbo Easy Wring & Clean",
+     "Vileda"
+    ],
+    [
+     "Vileda H2PrO Spin",
+     "Vileda"
+    ]
+   ],
+   "r": [
+    [
+     "EasyWring",
+     "O-Cedar"
+    ],
+    [
+     "Turbo",
+     "Vileda"
+    ],
+    [
+     "H2PrO",
+     "Vileda"
+    ]
+   ]
+  },
+  {
+   "n": "Spray mop",
+   "a": "spray flat mop",
+   "d": "Flat mop that sprays cleaning liquid ahead of the head from a refillable tank or disposable cartridge.",
+   "t": [
+    "refillable tank",
+    "disposable-pad and cartridge"
+   ],
+   "s": "https://www.lowes.com/pl/cleaning-tools/mops/4294598982",
+   "m": [
+    [
+     "Swiffer WetJet",
+     "Swiffer"
+    ],
+    [
+     "O-Cedar ProMist MAX",
+     "O-Cedar"
+    ],
+    [
+     "Vileda 1-2-SprayMax",
+     "Vileda"
+    ]
+   ]
+  },
+  {
+   "n": "Dust mop",
+   "a": "dry mop · dry flat mop",
+   "d": "Wide dry-headed mop that picks up dust and hair from hard floors without water.",
+   "t": [
+    "dry flat mop",
+    "disposable dry pad"
+   ],
+   "s": "https://www.lowes.com/pl/cleaning-tools/mops/4294598982",
+   "m": [
+    [
+     "Swiffer Sweeper",
+     "Swiffer"
+    ]
+   ]
+  },
+  {
+   "n": "Mop bucket",
+   "a": "wringer bucket",
+   "d": "Bucket made to hold mop water, usually with a wringer and sometimes wheels or a second rinse compartment.",
+   "t": [
+    "wringer bucket",
+    "double bucket",
+    "bucket on wheels"
+   ],
+   "s": "https://www.staples.com/sponge-mops/cat_CL220909/g0gej",
+   "m": [
+    [
+     "Vileda UltraMax bucket with PowerPress wringer",
+     "Vileda"
+    ],
+    [
+     "Vileda SuperMocio bucket with PowerPress wringer",
+     "Vileda"
+    ]
+   ],
+   "r": [
+    [
+     "UltraMax",
+     "Vileda"
+    ],
+    [
+     "SuperMocio",
+     "Vileda"
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Merged Flat mop, String mop, Sponge mop and Cloth mop (k15, k17, k19, k24) into one Wet mop kind with head forms as types; kept the Lowe's source as the merged kind's source. Dropped 'Cuban mop (palo de trapear)' as a model because it is a maker-less generic form, now covered by the cloth/Cuban type. Dropped 'Vileda Wischmat' as a regional generic SKU name duplicating the Vileda flat mops. Renamed German-language Vileda bucket SKUs ('Eimer mit PowerPress') to plain English and added SuperMocio as a range. Added Swiffer Sweeper to Dust mop as named in the shelf brief (previously no models); added Vileda Turbo as a range derived from the existing model. Spray mop and Spin mop system kept as planned with types/aliases added; no kinds, archetypes or brand entries added.",
+ "dropped": [],
+ "model": "claude-fable-5-1",
+ "batch": true
+}
