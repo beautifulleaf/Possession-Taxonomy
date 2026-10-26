@@ -1,0 +1,174 @@
+{
+ "kinds": [
+  {
+   "n": "Resistor",
+   "a": "potentiometer · thermistor · varistor",
+   "d": "Passive component that resists current, fixed or variable.",
+   "t": [
+    "fixed",
+    "potentiometer/trimmer",
+    "thermistor (NTC/PTC)",
+    "varistor"
+   ],
+   "s": "https://www.mouser.com/c/passive-components/resistors/",
+   "m": []
+  },
+  {
+   "n": "Capacitor",
+   "a": "",
+   "d": "Passive component that stores charge.",
+   "t": [
+    "ceramic",
+    "electrolytic",
+    "film",
+    "tantalum",
+    "supercapacitor"
+   ],
+   "s": "https://www.mouser.com/electronic-components/",
+   "m": []
+  },
+  {
+   "n": "Inductor & transformer",
+   "a": "",
+   "d": "Passive component that stores energy in a magnetic field or transfers it between coils.",
+   "t": [
+    "inductor",
+    "choke",
+    "transformer"
+   ],
+   "s": "https://www.mouser.com/electronic-components/",
+   "m": []
+  },
+  {
+   "n": "Crystal or oscillator",
+   "a": "",
+   "d": "Loose frequency-control component (quartz crystal, resonator or oscillator).",
+   "t": [
+    "quartz crystal",
+    "ceramic resonator",
+    "oscillator"
+   ],
+   "s": "https://www.mouser.com/electronic-components/",
+   "m": []
+  },
+  {
+   "n": "Transistor",
+   "a": "MOSFET",
+   "d": "Loose semiconductor used as a switch or amplifier.",
+   "t": [
+    "BJT",
+    "MOSFET"
+   ],
+   "s": "https://www.mouser.com/electronic-components/",
+   "m": [
+    [
+     "IRF540N",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "Diode",
+   "a": "",
+   "d": "Loose semiconductor that lets current pass one way.",
+   "t": [
+    "rectifier",
+    "Zener",
+    "Schottky"
+   ],
+   "s": "https://www.mouser.com/electronic-components/",
+   "m": []
+  },
+  {
+   "n": "LED",
+   "a": "",
+   "d": "Loose light-emitting diode for circuits. A lamp or bulb is in Lighting.",
+   "t": [
+    "through-hole",
+    "SMD",
+    "addressable (WS2812)"
+   ],
+   "s": "https://www.mouser.com/electronic-components/",
+   "m": []
+  },
+  {
+   "n": "Microcontroller chip",
+   "a": "",
+   "d": "Loose integrated circuit that holds a processor, memory and ports.",
+   "s": "https://www.mouser.com/electronic-components/",
+   "m": [
+    [
+     "ATmega328P",
+     "Microchip"
+    ]
+   ]
+  },
+  {
+   "n": "Sensor",
+   "a": "",
+   "d": "Loose component or breakout module that senses a physical quantity.",
+   "t": [
+    "bare chip",
+    "breakout module"
+   ],
+   "s": "https://www.mouser.com/electronic-components/",
+   "m": [
+    [
+     "BME280",
+     "Bosch"
+    ],
+    [
+     "Adafruit BME280 breakout",
+     "Adafruit"
+    ],
+    [
+     "Arduino Modulino Thermo",
+     "Arduino"
+    ]
+   ]
+  },
+  {
+   "n": "Relay",
+   "a": "",
+   "d": "Loose switch operated by an electromagnet.",
+   "t": [
+    "electromechanical",
+    "solid-state",
+    "relay module"
+   ],
+   "s": "https://www.mouser.com/electronic-components/",
+   "m": []
+  },
+  {
+   "n": "Component connector",
+   "a": "",
+   "d": "Loose connector for circuit boards and wiring.",
+   "t": [
+    "pin headers",
+    "JST",
+    "Dupont",
+    "terminal blocks"
+   ],
+   "s": "https://www.mouser.com/electronic-components/",
+   "m": []
+  },
+  {
+   "n": "Blank RFID tag or card",
+   "a": "",
+   "d": "Unissued RFID tag or card. An issued card is in Documents & Personal Records.",
+   "t": [
+    "card",
+    "sticker",
+    "key fob"
+   ],
+   "s": "https://makerselectronics.com/product/nfc-card-13-56mhz-ntag215-chip-white/",
+   "m": [
+    [
+     "NTAG215",
+     "NXP"
+    ]
+   ]
+  }
+ ],
+ "notes": "Potentiometer, Thermistor and Varistor merged into Resistor as types; Transformer merged with Inductor; MOSFET became Transistor. Kind level kept, with only the few old example parts."
+}
