@@ -26,7 +26,7 @@
   {
    "n": "Fresh & frozen fish",
    "mode": "mixed",
-   "note": "Tier for everyday white and farmed fish; named origins (PGI/GI) as archetypes where they exist.",
+   "note": "About 30 market-species kinds grouped by market family; merged species are types, regional names are aliases; named origins (PGI/GI) as archetypes.",
    "b": [
     {
      "m": "Freshness signs",
@@ -43,7 +43,7 @@
     {
      "n": "Salmon & trout",
      "web": true,
-     "brief": "Merge the five Pacific salmon kinds into one kind with types sockeye/king (chinook)/coho/keta (chum)/pink. Archetypes by named origin: Scottish Farmed Salmon PGI, Scottish Wild Salmon PGI, Clare Island Salmon PGI, Copper River salmon (Alaska), Faroe Islands salmon, Loch Duart, Label Rouge Scottish salmon; keep existing PGIs/GIs (みやぎサーモン, Trentino trout and char, Szilvásvárad trout, Coracle-caught sewin) as archetypes or models. Trout types rainbow/brown/sea trout (sewin)/steelhead. Types for all: wild/farmed, whole/fillet/portion.",
+     "brief": "Pacific salmon types sockeye/king (chinook)/coho/keta (chum)/pink. Trout & char types rainbow/brown/sea trout (sewin)/steelhead/Arctic char (Saibling). Archetypes by named origin: Scottish Farmed Salmon PGI, Scottish Wild Salmon PGI, Clare Island Salmon PGI, Copper River salmon, Faroe Islands salmon, Loch Duart, Label Rouge Scottish salmon; keep existing PGIs/GIs (みやぎサーモン, Trentino trout and char, Szilvásvárad trout, Coracle-caught salmon and sewin). Types wild/farmed, whole/fillet/portion.",
      "k": [
       {
        "n": "Atlantic salmon",
@@ -62,95 +62,89 @@
        ]
       },
       {
-       "n": "Trout",
+       "n": "Trout & char",
        "old": [
         "k7",
-        "k8"
-       ]
-      },
-      {
-       "n": "Arctic char",
-       "old": [
+        "k8",
         "k9"
        ]
       }
      ]
     },
     {
-     "n": "Cod, haddock & white fish",
+     "n": "Cod, hake & white fish",
      "web": false,
-     "brief": "Restraint: kind-level species with types (fresh/frozen, fillet/loin, MSC). Hake absorbs white/red (phycid) hake as types plus Cape/Argentine/European hake. Whiting absorbs pouting. Ling absorbs tusk.",
+     "brief": "Restraint, merged by market family; merged species become types, regional names go in aliases (Kabeljau, Seelachs, cusk, torsk, bib…). Types fresh/frozen, fillet/loin, MSC.",
      "k": [
       {
-       "n": "Cod",
+       "n": "Cod & haddock",
        "old": [
-        "k10"
-       ]
-      },
-      {
-       "n": "Haddock",
-       "old": [
+        "k10",
         "k11"
        ]
       },
       {
-       "n": "Pollock & saithe",
+       "n": "Pollock, saithe & whiting",
        "old": [
-        "k12"
-       ]
-      },
-      {
-       "n": "Hake",
-       "old": [
-        "k13",
-        "k15"
-       ]
-      },
-      {
-       "n": "Whiting",
-       "old": [
+        "k12",
         "k14",
         "k19"
-       ]
+       ],
+       "brief": "Types Alaska pollock, saithe (coley), whiting, pouting."
       },
       {
-       "n": "Ling & tusk",
+       "n": "Hake, hoki & ling",
        "old": [
+        "k13",
+        "k15",
+        "k16",
         "k17",
         "k18"
-       ]
+       ],
+       "brief": "Types European/Cape/Argentine hake, white/red (phycid) hake, hoki, ling, tusk."
       },
       {
-       "n": "Hoki",
+       "n": "Regional white fish",
        "old": [
-        "k16"
-       ]
-      },
-      {
-       "n": "Lingcod",
-       "old": [
-        "k20"
-       ]
-      },
-      {
-       "n": "Blue cod",
-       "old": [
-        "k21"
-       ]
+        "k20",
+        "k21",
+        "k83",
+        "k94",
+        "k77",
+        "k88"
+       ],
+       "brief": "Regional white-fleshed fish as types: lingcod, NZ blue cod, flathead, sillago (King George whiting, kisu), wolffish, lionfish."
       }
      ]
     },
     {
-     "n": "Mackerel, herring & sardines",
+     "n": "Oily fish, tuna & swordfish",
      "web": false,
-     "brief": "Restraint. Mackerel absorbs Atka mackerel (hokke) as a type, with Atlantic/chub types; keep Caballa de Andalucía PGI and Cornish Sardines PGI. Whitebait absorbs smelt (types shirasu, smelt, whitebait); keep Tagonoura shirasu GI once (dedupe English/Japanese entries).",
+     "brief": "Restraint. Keep Caballa de Andalucía PGI, Cornish Sardines PGI and Tagonoura shirasu GI once each (dedupe English/Japanese entries). Tuna types bluefin/yellowfin/bigeye/albacore/skipjack/bonito and small tunas, plus cut and grade (loin, saku; akami/chutoro/otoro; sashimi grade) and catch method (pole-and-line, longline, ranched).",
      "k": [
       {
-       "n": "Mackerel",
+       "n": "Tuna",
+       "old": [
+        "k34",
+        "k35",
+        "k36",
+        "k37",
+        "k38",
+        "k39"
+       ]
+      },
+      {
+       "n": "Mackerel & horse mackerel",
        "old": [
         "k22",
-        "k30"
-       ]
+        "k29",
+        "k30",
+        "k31",
+        "k32",
+        "k33",
+        "k42"
+       ],
+       "brief": "Types Atlantic/chub mackerel, horse mackerel (scad, aji, jurel), Atka mackerel (hokke), Spanish/king mackerel (sawara), wahoo, bluefish, snoek."
       },
       {
        "n": "Herring",
@@ -165,228 +159,131 @@
        ]
       },
       {
-       "n": "Anchovy",
+       "n": "Anchovy, sprat & whitebait",
        "old": [
-        "k25"
-       ]
-      },
-      {
-       "n": "Sprat",
-       "old": [
-        "k26"
-       ]
-      },
-      {
-       "n": "Whitebait & smelt",
-       "old": [
+        "k25",
+        "k26",
         "k27",
         "k28"
-       ]
-      },
-      {
-       "n": "Horse mackerel",
-       "old": [
-        "k29"
        ],
-       "brief": "Rename from Scad; aliases scad · aji · jurel."
+       "brief": "Types anchovy (boquerón), sprat (brisling), whitebait (shirasu), smelt."
       },
       {
-       "n": "Spanish mackerel",
+       "n": "Swordfish & marlin",
        "old": [
-        "k31"
-       ]
-      },
-      {
-       "n": "Bluefish",
-       "old": [
-        "k32"
-       ]
-      },
-      {
-       "n": "Snoek",
-       "old": [
-        "k33"
-       ]
+        "k40",
+        "k41",
+        "k81"
+       ],
+       "brief": "Types swordfish, marlin (kajiki), opah (moonfish)."
       }
      ]
     },
     {
-     "n": "Tuna & swordfish",
+     "n": "Sea fish",
      "web": false,
-     "brief": "Restraint. Tuna kinds get types for cut and grade (loin, steak, saku; akami/chutoro/otoro; sashimi grade) and catch method (pole-and-line, longline, ranched). Keep the Strait of Messina swordfish presidium as a model only if it is a sold product; otherwise mention as a type note.",
+     "brief": "Restraint, merged by market family; merged species as types, regional names in aliases. Eel: keep Hamanako unagi GI and Comacchio eel once each; note European eel trade limits (CITES II). Asian market fish: keep Shimonoseki fuku, Awaji 3-year torafugu and Toyoshima tachiuo once each.",
      "k": [
       {
-       "n": "Bluefin tuna",
+       "n": "Flatfish & skate",
        "old": [
-        "k34"
-       ]
-      },
-      {
-       "n": "Yellowfin tuna",
-       "old": [
-        "k35"
-       ]
-      },
-      {
-       "n": "Bigeye tuna",
-       "old": [
-        "k38"
-       ]
-      },
-      {
-       "n": "Albacore tuna",
-       "old": [
-        "k37"
-       ]
-      },
-      {
-       "n": "Skipjack tuna",
-       "old": [
-        "k36"
-       ]
-      },
-      {
-       "n": "Bonito & small tunas",
-       "old": [
-        "k39"
-       ]
-      },
-      {
-       "n": "Swordfish",
-       "old": [
-        "k40"
-       ]
-      },
-      {
-       "n": "Marlin",
-       "old": [
-        "k41"
-       ]
-      },
-      {
-       "n": "Wahoo",
-       "old": [
-        "k42"
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Flatfish & skate",
-     "web": false,
-     "brief": "Restraint. Plaice absorbs flounder (types plaice, European flounder, summer/winter flounder). Turbot types turbot/brill. Types whole/fillet.",
-     "k": [
-      {
-       "n": "Dover sole",
-       "old": [
-        "k45"
-       ]
-      },
-      {
-       "n": "Turbot",
-       "old": [
-        "k47"
-       ]
-      },
-      {
-       "n": "Halibut",
-       "old": [
-        "k44"
-       ]
-      },
-      {
-       "n": "Plaice & flounder",
-       "old": [
+        "k45",
+        "k47",
+        "k44",
         "k43",
-        "k48"
-       ]
-      },
-      {
-       "n": "Lemon sole",
-       "old": [
-        "k46"
-       ]
-      },
-      {
-       "n": "Skate & ray",
-       "old": [
+        "k46",
+        "k48",
         "k49"
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Sea bass, bream & snapper",
-     "web": false,
-     "brief": "Restraint. Sea bream absorbs black and red sea bream (types gilthead/dorade, black, red/madai). Grouper absorbs wreckfish/stone bass as a type.",
-     "k": [
-      {
-       "n": "European sea bass",
-       "old": [
-        "k50"
-       ]
+       ],
+       "brief": "Types Dover sole, turbot, brill, halibut, plaice, lemon sole, flounder, skate wings."
       },
       {
-       "n": "Sea bream",
+       "n": "Sea bass & grouper",
        "old": [
-        "k51",
-        "k52",
-        "k53"
-       ]
-      },
-      {
-       "n": "Snapper",
-       "old": [
-        "k57"
-       ]
-      },
-      {
-       "n": "Grouper",
-       "old": [
+        "k50",
+        "k58",
+        "k55",
+        "k54",
         "k56",
         "k59"
-       ]
+       ],
+       "brief": "Types European sea bass, barramundi, striped bass, black sea bass, grouper, wreckfish (stone bass)."
       },
       {
-       "n": "Barramundi",
+       "n": "Sea bream & snapper",
        "old": [
-        "k58"
-       ]
+        "k51",
+        "k53",
+        "k52",
+        "k57"
+       ],
+       "brief": "Types gilthead (dorade), red (madai), black sea bream, snapper."
       },
       {
-       "n": "Striped bass",
+       "n": "Red mullet, gurnard & John Dory",
        "old": [
-        "k55"
-       ]
-      },
-      {
-       "n": "Black sea bass",
-       "old": [
-        "k54"
-       ]
-      },
-      {
-       "n": "Red mullet",
-       "old": [
-        "k60"
-       ]
-      },
-      {
-       "n": "John Dory",
-       "old": [
+        "k60",
+        "k61",
         "k62"
        ]
       },
       {
-       "n": "Gurnard",
+       "n": "Monkfish",
        "old": [
-        "k61"
+        "k74"
        ]
       },
       {
-       "n": "Pompano",
+       "n": "Deep-sea fish",
        "old": [
+        "k76",
+        "k75",
+        "k79",
+        "k78"
+       ],
+       "brief": "Types Patagonian toothfish (Chilean sea bass), sablefish (black cod), rockfish/redfish (ocean perch), orange roughy."
+      },
+      {
+       "n": "Amberjack, yellowtail & mahi-mahi",
+       "old": [
+        "k86",
+        "k84",
+        "k85",
         "k63"
+       ],
+       "brief": "Types amberjack/yellowtail (kampachi, buri, hamachi, kingfish), mahi-mahi, cobia, pompano."
+      },
+      {
+       "n": "Eel",
+       "old": [
+        "k90",
+        "k89",
+        "k82"
+       ],
+       "brief": "Types freshwater eel (unagi), conger (anago), hagfish (kkomjangeo)."
+      },
+      {
+       "n": "Grey mullet & milkfish",
+       "old": [
+        "k87",
+        "k93"
+       ]
+      },
+      {
+       "n": "Pomfret, croaker & Asian market fish",
+       "old": [
+        "k91",
+        "k92",
+        "k97",
+        "k96",
+        "k95"
+       ],
+       "brief": "Types pomfret, croaker, cutlassfish (hairtail, tachiuo), pufferfish (fugu, licensed preparation), garfish (sayori)."
+      },
+      {
+       "n": "Shark & dogfish",
+       "old": [
+        "k80"
        ]
       }
      ]
@@ -394,7 +291,7 @@
     {
      "n": "Freshwater fish",
      "web": false,
-     "brief": "Restraint. Keep carp PGIs/PDOs (Christmas carp traditions) and whitefish GIs (Lough Neagh pollan, Puruvesi muikku); fix 'Lough Neah' spelling. Catfish types channel/blue; pangasius stays separate.",
+     "brief": "Restraint. Keep carp PGIs/PDOs (Christmas carp traditions) and whitefish GIs (Lough Neagh pollan, Puruvesi muikku); fix 'Lough Neah' spelling.",
      "k": [
       {
        "n": "Tilapia",
@@ -403,16 +300,13 @@
        ]
       },
       {
-       "n": "Pangasius",
+       "n": "Catfish, pangasius & snakehead",
        "old": [
-        "k65"
-       ]
-      },
-      {
-       "n": "Catfish",
-       "old": [
-        "k66"
-       ]
+        "k65",
+        "k66",
+        "k67"
+       ],
+       "brief": "Types pangasius (swai, basa), channel catfish, snakehead; keep Ban Phaeo snakehead GI."
       },
       {
        "n": "Carp",
@@ -421,21 +315,11 @@
        ]
       },
       {
-       "n": "Zander",
+       "n": "Pike, perch & zander",
        "old": [
+        "k71",
+        "k70",
         "k68"
-       ]
-      },
-      {
-       "n": "Perch",
-       "old": [
-        "k70"
-       ]
-      },
-      {
-       "n": "Pike",
-       "old": [
-        "k71"
        ]
       },
       {
@@ -448,166 +332,6 @@
        "n": "Sturgeon",
        "old": [
         "k73"
-       ]
-      },
-      {
-       "n": "Snakehead",
-       "old": [
-        "k67"
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Monkfish, rockfish & deep-sea fish",
-     "web": false,
-     "brief": "Restraint; plain definitions, types for cut (tail, cheeks, fillet).",
-     "k": [
-      {
-       "n": "Monkfish",
-       "old": [
-        "k74"
-       ]
-      },
-      {
-       "n": "Chilean sea bass",
-       "old": [
-        "k76"
-       ]
-      },
-      {
-       "n": "Sablefish",
-       "old": [
-        "k75"
-       ]
-      },
-      {
-       "n": "Rockfish & redfish",
-       "old": [
-        "k79"
-       ]
-      },
-      {
-       "n": "Wolffish",
-       "old": [
-        "k77"
-       ]
-      },
-      {
-       "n": "Orange roughy",
-       "old": [
-        "k78"
-       ]
-      },
-      {
-       "n": "Shark & dogfish",
-       "old": [
-        "k80"
-       ]
-      },
-      {
-       "n": "Opah",
-       "old": [
-        "k81"
-       ]
-      },
-      {
-       "n": "Flathead",
-       "old": [
-        "k83"
-       ]
-      },
-      {
-       "n": "Hagfish",
-       "old": [
-        "k82"
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Mahi-mahi, yellowtail & other sea fish",
-     "web": false,
-     "brief": "Restraint. Eel absorbs conger eel (types freshwater eel/unagi, conger/anago); keep Hamanako unagi GI and Comacchio eel once each (dedupe English/Japanese entries); note European eel trade limits (CITES II). Pufferfish: keep Shimonoseki fuku and Awaji 3-year torafugu once each. Cutlassfish: keep Toyoshima tachiuo once.",
-     "k": [
-      {
-       "n": "Amberjack & yellowtail",
-       "old": [
-        "k86"
-       ]
-      },
-      {
-       "n": "Mahi-mahi",
-       "old": [
-        "k84"
-       ]
-      },
-      {
-       "n": "Eel",
-       "old": [
-        "k89",
-        "k90"
-       ]
-      },
-      {
-       "n": "Grey mullet",
-       "old": [
-        "k87"
-       ]
-      },
-      {
-       "n": "Milkfish",
-       "old": [
-        "k93"
-       ]
-      },
-      {
-       "n": "Pomfret",
-       "old": [
-        "k91"
-       ]
-      },
-      {
-       "n": "Croaker",
-       "old": [
-        "k92"
-       ]
-      },
-      {
-       "n": "Cobia",
-       "old": [
-        "k85"
-       ]
-      },
-      {
-       "n": "Pufferfish",
-       "old": [
-        "k96"
-       ]
-      },
-      {
-       "n": "Cutlassfish",
-       "old": [
-        "k97"
-       ]
-      },
-      {
-       "n": "Sillago whiting",
-       "old": [
-        "k94"
-       ],
-       "brief": "Rename from King George whiting; types King George, sand whiting, kisu."
-      },
-      {
-       "n": "Garfish",
-       "old": [
-        "k95"
-       ]
-      },
-      {
-       "n": "Lionfish",
-       "old": [
-        "k88"
        ]
       }
      ]
