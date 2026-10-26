@@ -1,0 +1,10 @@
+# B1 Furniture & Storage — rebuild report
+
+**Brand mode:** Beds & mattresses: mixed; Chairs, stools & benches: mixed; Racks, boxes & organisers: tier; Screens & stands: mixed; Sofas & armchairs: mixed; Spare parts: tier; Storage furniture: mixed; Tables & desks: mixed
+
+**Counts (before → after):** 9 → 8 departments · 108 → 107 kinds · 0 → 191 archetypes · 388 → 244 flat models · 388 → 513 models+versions · 59 → 119 brands named · register 73 brands, 17 traditions · moves out 10 · dropped kinds 1.
+
+**Sources:** 226 distinct retrieved URLs logged in work/B1/sources.tsv (server web_fetch, Wikipedia/Wikidata APIs).
+
+**Dropped (scope rule):** Shop counter and fitting (Shop counters and fittings are trade equipment (scope rule).)
+**Worker notes:** Sofas & sofa beds: IKEA trimmed to 4 market-covering ranges per kind (dropped APPLARYD, GULLVALLA, HYLTARP, JATTEBO, MORABO, UPPLAND, SALTSJOBADEN); one Wayfair futon frame dropped as duplicate maker. Lawson, camelback,  | Armchairs & lounge chairs: Lounge chair is new (design classics moved out of the old armchair list); Wingback and Club chair are new kinds. Armchair trimmed from 35 flat models (16 IKEA) to 10 plus Poäng and Louis Ghost  | Outdoor seating: Sun lounger kept as tier kind with the four old IKEA ranges (NÄMMARÖ range merged into models); materials moved to t. Adirondack chair added with two maker-free archetypes from Wikipedia (Westport plank  | Dining & side chairs: Dining chair: 23 flat models -> 17 archetypes + 7 models; IKEA trimmed to 5 (dining), 4 (bar stool), 4 (bench), GUNDE kept; IKEA range ('r') lists dropped as repeated brand ranges. Grand Prix kept a | Desk & gaming chairs: Office chair: IKEA list cut from 10 to 5 (MARKUS, FLINTAN, ALEFJALL, JARVFJALLET, MILLBERGET kept; HATTEFJALL, KRYLBO, RENBERGET, SKRUVSTA, SMALLEN dropped as SKU noise); Aeron, HAG Capisco and Vert | Dining & kitchen tables: Dining table: types drop-leaf/extending/pedestal/trestle/refectory kept as t; six archetypes (Tulip table/Knoll, refectory, trestle, Shaker trestle, Ming painting table, Nakashima slab). Gateleg: | Coffee, side & occasional tables: All nine planned kinds kept.
