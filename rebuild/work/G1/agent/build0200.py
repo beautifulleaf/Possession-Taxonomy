@@ -19,7 +19,7 @@ kinds=[
   X("AGV Pista GP","AGV","","https://bikereview.com.au/new-product-agv-pista-gp-r-rossi-20-years/","AGV's MotoGP racing full-face, worn by Valentino Rossi.",
     [("Pista GP R","AGV","","full carbon-fibre shell, evolution of the Pista GP"),("Pista GP R Rossi 20 Years","AGV","2018","limited replica of Rossi's 1997 sun/moon title graphic")],"carbon shell · rider replica graphics"),
   X("Arai RX-7","Arai","1977","https://www.moto.it/accessori/arai-rx-7v.html","Arai's racing full-face line; R for racing, X for full-face, 7 for the first full-face racer.",
-    [("RX-7 Racing","Arai","1977","first CLC complex-laminate shell"),("RX-7R","Arai","1990","S-CLC shell"),("RX-7RR","Arai","1991","introduced the diffuser shape"),("Corsair","Arai","","later generation of the line"),("RX-7GP","Arai","","predecessor of the RX-7V"),("RX-7V","Arai","2015","VAS variable-axis visor, PB-SNC shell"),("RX-7V Evo","Arai","2022","ECE 22.06 update of the RX-7V")],
+    [("RX-7 Racing","Arai","1977","first CLC complex-laminate shell"),("RX-7R","Arai","1990","S-CLC shell"),("RX-7RR","Arai","1991","introduced the diffuser shape"),("Corsair","Arai","","later generation of the line"),("RX-7GP","Arai","","predecessor of the RX-7V"),("RX-7V","Arai","2015","VAS variable-axis visor, PB-SNC shell"),("RX-7V Evo","Arai","","ECE 22.06 update of the RX-7V")],
     "laminate shell generations · visor system · replica graphics"),
   X("Shoei RF series","Shoei","1984","https://ridermagazine.com/shoei-rf-1400-first-look-review/","Shoei's long-running sport-touring full-face line, introduced in 1984.",
     [("RF-1100","Shoei","","predecessor of the RF-1200"),("RF-1200","Shoei","2013","lighter, tighter-fitting generation"),("RF-1400","Shoei","2021","Multi-Ply Matrix AIM+ shell, 4% less drag than RF-1200")],"shell sizes · CWR shield · graphics"),
@@ -77,7 +77,7 @@ brands=[
  {"n":"Acerbis","c":"Italy","seg":"Motorcycle racing gear","d":"Italian maker of motorcycle racing suits, helmets, protectors and boots.","s":W+"Acerbis"},
  {"n":"Davida","c":"United Kingdom","seg":"Classic open-face helmets","d":"English maker of hand-laid fibreglass open-face helmets.","lines":["Classic Jet","Jet","Speedster"],"sig":["Davida Jet"],"s":"https://www.webbikeworld.com/davida-classic-jet/"},
  {"n":"Nolan","c":"Italy","seg":"Motorcycle helmets","d":"Italian helmet maker known for the N100 flip-up line.","lines":["N100"],"sig":["Nolan N100"],"s":"knowledge"},
- {"n":"HJC","c":"South Korea","seg":"Motorcycle helmets","d":"South Korean helmet maker covering a large share of the mass market.","s":"knowledge"},
+ {"n":"HJC","c":"South Korea","seg":"Motorcycle helmets","d":"South Korean motorcycle helmet maker.","s":"knowledge"},
  {"n":"Shark","c":"France","seg":"Motorcycle helmets","d":"French motorcycle helmet maker.","s":"knowledge"},
  {"n":"BMW Motorrad","c":"Germany","seg":"Motorcycles and rider equipment","d":"BMW's motorcycle division, which sells its own System flip-up helmets.","s":"knowledge"}]
 notes=("Merged 'Other motorcycle helmets' (k152) into Full-face; its open-face models (Bell Custom 500 -> Bell 500 archetype, Schuberth J2, Hedon Heroine) moved to Open-face, "
