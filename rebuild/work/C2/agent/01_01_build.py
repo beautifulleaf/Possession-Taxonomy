@@ -1,0 +1,109 @@
+import json, os
+OLD = "https://www.hornbach.de/c/garten/gartenwerkzeug-gartengeraete/S1943/"
+kinds = [
+ {"n":"Loppers","a":"lopping shears · branch loppers","d":"Long-handled two-handed pruning shears for branches too thick for secateurs.",
+  "t":["bypass","anvil","ratchet","geared","telescopic"],"s":OLD,
+  "x":[
+   {"n":"Felco 211","a":"FELCO 211","d":"Swiss bypass lopper with a curved head: variable-radius blade and hook-shaped anvil that draws the branch in.",
+    "mk":"Felco","y":"","s":"https://eu.felco.com/sv-se/products/felco-211-60",
+    "v":[{"n":"FELCO 211-60","mk":"Felco","y":"","d":"600 mm handles, cuts to 35 mm"}],
+    "dt":"handle length · aluminium handles · bypass head"},
+   {"n":"Fiskars PowerGear","a":"PowerGearX","d":"Bypass lopper with Fiskars's gear mechanism, claimed to give three times the cutting force.",
+    "mk":"Fiskars","y":"","s":"https://www.bloomling.ch/en-CH/fiskars/powergearx-bypass-lopper-lx98-l",
+    "v":[{"n":"PowerGearX LX98-L","mk":"Fiskars","y":"","d":"80 cm, cuts to 5 cm, hooked lower blade"}],
+    "dt":"length S/M/L · bypass or anvil · non-stick blades"},
+   {"n":"ARS LPB-20","a":"ARS bypass lopper","d":"Japanese bypass lopper with high-carbon steel blades, forged stepped counter blade and shock absorbers.",
+    "mk":"ARS","y":"","s":"https://gardensuperstore.com.au/ars-lpb-20s-bypass-lopper",
+    "v":[{"n":"LPB-20S","mk":"ARS","y":"","d":"476 mm, cuts to 30 mm"}],
+    "dt":"length · narrow head · non-stick coating"},
+   {"n":"Niwaki Loppers","a":"Japanese lopping shears","d":"Traditional Japanese loppers with forged carbon-steel blades on white-oak handles, with no ratchet or gear.",
+    "mk":"Niwaki","y":"","s":"https://growurban.uk/products/niwaki-loppers",
+    "v":[{"n":"Niwaki Loppers","mk":"Niwaki","y":"","d":"80 mm blade, cuts to 25 mm, 607 mm long, made in Sanjo"}],
+    "dt":"carbon steel · oak handles"}],
+  "m":[["221 Straight Head Lopper","Felco"],["P160-SL","Bahco"],["Nitro WG330E.9","Worx"]]},
+ {"n":"Pruning saw","a":"tree saw · Japanese pull saw","d":"Hand saw with a toothed blade made to cut living branches, usually on the pull stroke.",
+  "t":["folding","fixed straight","fixed curved","pole saw head"],"s":OLD,
+  "x":[
+   {"n":"Silky Gomboy","a":"GomBoy","d":"Folding Japanese pull saw with a straight, taper-ground blade and the first rubber-clad handle; the reference folding pruning saw.",
+    "mk":"Silky","y":"1985","s":"https://silkysaws.com/history",
+    "v":[{"n":"Gomboy 240 (121-24)","mk":"Silky","y":"","d":"240 mm straight blade, medium teeth 8.5 TPI"},
+         {"n":"Gomboy 210","mk":"Silky","y":"","d":"210 mm, medium teeth"},
+         {"n":"Gomboy 300","mk":"Silky","y":"","d":"300 mm"},
+         {"n":"Gomboy Curve","mk":"Silky","y":"","d":"curved blade"},
+         {"n":"Gomboy Curve Professional 240 Outback Edition","mk":"Silky","y":"","d":"curved 240 mm"}],
+    "dt":"blade 210–300 mm · straight or curved · fine/medium/large teeth"},
+   {"n":"Silky Zubat","a":"","d":"Fixed curved arborist pull saw carried in a locking scabbard.",
+    "mk":"Silky","y":"","s":"https://silkysaws.com/silky-zubat-professional-330-hand-saw/",
+    "v":[{"n":"Zubat Professional 330 (270-33)","mk":"Silky","y":"","d":"330 mm curved blade, 6.4 TPI, scabbard"},
+         {"n":"Zubat 240 / 270 / 300 / 390","mk":"Silky","y":"","d":"other blade lengths"}],
+    "dt":"blade 240–390 mm · tooth size · scabbard"},
+   {"n":"Silky Pocketboy","a":"PocketBoy","d":"Small Silky folding pull saw for pocket or belt carry.",
+    "mk":"Silky","y":"","s":"https://silkysaws.com/silky-pocketboy-170mm-folding-saw/",
+    "v":[{"n":"Pocketboy 170 (346-17)","mk":"Silky","y":"","d":"170 mm, large teeth 6.8 TPI"},
+         {"n":"Pocketboy 130","mk":"Silky","y":"","d":"130 mm"},
+         {"n":"Pocketboy Curve 130 / 170","mk":"Silky","y":"","d":"curved blade"},
+         {"n":"Pocketboy Professional 170 Outback Edition","mk":"Silky","y":"","d":""}],
+    "dt":"blade 130 or 170 mm · straight or curved · tooth size"},
+   {"n":"Silky Bigboy","a":"BigBoy","d":"Large Silky folding saw with a 360 mm blade.",
+    "mk":"Silky","y":"","s":"https://silkysaws.com/folding-saws/",
+    "v":[{"n":"Bigboy 2000","mk":"Silky","y":"","d":"360 mm"},
+         {"n":"Bigboy Professional 2000 360 mm Outback Edition","mk":"Silky","y":"","d":""}],
+    "dt":"360 mm · fine/medium/large teeth"},
+   {"n":"Bahco Laplander","a":"396-LAP","d":"Folding saw with a two-component handle and coated blade for green and dry wood, a bushcraft standard.",
+    "mk":"Bahco","y":"","s":"https://www.bahco.com/int_en/foldable-pruning-saws-with-dual-component-handle-for-dry-wood-plastic-bone-cutting-pb_396-lap_.html",
+    "v":[{"n":"396-LAP","mk":"Bahco","y":"","d":"190 mm blade, 7 TPI XT teeth, locks open and folded"}],
+    "dt":"190 mm · coated blade"},
+   {"n":"Corona RazorTOOTH","a":"RazorTOOTH Saw","d":"Corona's family of folding and fixed pruning saws with RazorTOOTH impulse teeth.",
+    "mk":"Corona","y":"","s":"https://coronatools.com/collections/pruning-saws",
+    "v":[{"n":"RS16150B","mk":"Corona","y":"","d":"folding, 10 in blade"},
+         {"n":"RS16120","mk":"Corona","y":"","d":"folding, 7 in blade"},
+         {"n":"RS 7120","mk":"Corona","y":"","d":"arborist fixed, 13 in curved blade"},
+         {"n":"RS 7510D","mk":"Corona","y":"","d":"D-handle, 18 in blade"}],
+    "dt":"folding or fixed · 7–18 in blades"},
+   {"n":"Niwaki GR 210","a":"GR210","d":"Narrow-bladed Japanese folding pruning saw made in Sanjo.",
+    "mk":"Niwaki","y":"","s":"https://www.architecturalplants.com/product/niwaki-gr-210-folding-saw/",
+    "v":[{"n":"GR 210 Folding Saw","mk":"Niwaki","y":"","d":"210 mm SK-4 blade, 8.47 TPI, cuts to 70 mm"}],
+    "dt":"210 mm · rubber handle"}],
+  "m":[["GR 270 Pruning Saw","Niwaki"],["Moku Pruning Saw","Niwaki"]]},
+ {"n":"Pole pruner","a":"high-branch shears · tree pruner · pole saw","d":"Pruning head or saw on a long, often telescopic pole, worked from the ground to cut high branches.",
+  "t":["lopper head","saw head","combined lopper and saw","telescopic"],"s":OLD,
+  "x":[
+   {"n":"Silky Hayauchi","a":"","d":"Telescopic aluminium pole saw with oval poles and a long curved Japanese pull-saw blade.",
+    "mk":"Silky","y":"","s":"https://arbormaster.com.au/products/silky-hayauchi-telescoping-21-ft-pole-saw",
+    "v":[{"n":"Hayauchi 6.3 m (179-39)","mk":"Silky","y":"","d":"2.44–6.3 m, 390 mm curved blade, 5.5 TPI"}],
+    "dt":"pole length · blade 390 mm"},
+   {"n":"Gardena StarCut","a":"","d":"Telescopic tree pruner with a geared, pull-strap lopper head whose cutting angle is set from the ground.",
+    "mk":"Gardena","y":"","s":"https://www.gardena.com/int/products/tree-shrub-care/branch-pruners/starcut-410-plus/967637601",
+    "v":[{"n":"StarCut 410 plus (12001-20)","mk":"Gardena","y":"","d":"230–410 cm, cuts to 32 mm, head turns to 200°"},
+         {"n":"StarCut Pro L","mk":"Gardena","y":"","d":"from old data"}],
+    "dt":"reach · head angle"}],
+  "m":[["UPX86 Teleskop-Schneidgiraffe","Fiskars"]]}
+]
+brands = [
+ {"n":"Silky","c":"Japan","f":"1919","seg":"Japanese pruning saws","d":"Saw maker from Ono, Japan, founded by Katsuji Miyawaki as Tamakitsune; Silky name on all products since 1983.",
+  "lines":["Gomboy","Gomtaro","Zubat","Pocketboy","Bigboy","Katanaboy","Sugoi","Hayauchi"],"eras":[],"sig":["Silky Gomboy","Silky Zubat","Silky Pocketboy","Silky Hayauchi"],"sc":["arborist","bushcraft","garden"],"rel":[],"s":"https://silkysaws.com/history"},
+ {"n":"Bahco","c":"Sweden","f":"1886","seg":"Professional hand tools","d":"Swedish hand-tool brand, now part of Snap-on's SNA Europe, making saws, pruning and forestry tools.",
+  "lines":[],"eras":[],"sig":["Bahco Laplander"],"sc":["garden","bushcraft"],"rel":[],"s":"https://en.wikipedia.org/wiki/Bahco"},
+ {"n":"Corona","c":"United States","f":"1920s","seg":"Garden and agricultural cutting tools","d":"Corona Clipper, a Californian tool maker whose first product was a citrus clipper.",
+  "lines":["RazorTOOTH Saw"],"eras":[],"sig":["Corona RazorTOOTH"],"sc":["garden","orchard"],"rel":[],"s":"https://coronatools.com/pages/history"},
+ {"n":"Felco","c":"Switzerland","f":"1945","seg":"Professional pruning tools","d":"Swiss maker of secateurs and loppers founded by Félix Flisch; its FELCO 2 (1948) is the reference secateur.",
+  "lines":[],"eras":[],"sig":["Felco 211"],"sc":["garden","vineyard"],"rel":[],"s":"https://felco.com/pages/company-history"},
+ {"n":"Fiskars","c":"Finland","f":"1649","seg":"Consumer goods and garden tools","d":"Finnish consumer-goods group with garden tools alongside Gerber and homeware brands.",
+  "lines":["PowerGear"],"eras":[],"sig":["Fiskars PowerGear"],"sc":["garden"],"rel":["Gerber"],"s":"https://en.wikipedia.org/wiki/Fiskars"},
+ {"n":"Gardena","c":"Germany","f":"1961","seg":"Garden tools and watering","d":"Ulm-based garden tool and watering brand, owned by Husqvarna Group since 2007.",
+  "lines":["StarCut"],"eras":[],"sig":["Gardena StarCut"],"sc":["garden"],"rel":["Husqvarna"],"s":"https://en.wikipedia.org/wiki/Gardena_(company)"},
+ {"n":"ARS","c":"Japan","f":"1876","seg":"Japanese pruning tools","d":"Family-owned Japanese blade maker, founded as Takigawa; pruning shears from the 1950s and the 210DX pruning saw in 1954.",
+  "lines":["LPB loppers"],"eras":[],"sig":["ARS LPB-20"],"sc":["garden","orchard","vineyard"],"rel":[],"s":"https://www.tooled-up.com/blog/ars-tools/"},
+ {"n":"Niwaki","c":"United Kingdom","f":"2006","seg":"Japanese garden tools","d":"English business started by pruner Jake Hobson selling Japanese garden tools and tripod ladders.",
+  "lines":[],"eras":[],"sig":["Niwaki GR 210","Niwaki Loppers"],"sc":["garden"],"rel":[],"s":"https://www.gardensillustrated.com/gardens/gardeners/jake-hobson-niwaki-interview"}
+]
+notes = ("Moved the Ryobi ONE+ 18V powered range off Pruning saw (belongs with powered cutting tools, pole saw/chainsaw). "
+ "Old Niwaki GR 210 became a version of the Niwaki GR 210 archetype; GR 270 and Moku stay in m. Old Gardena StarCut Pro L is a StarCut version (old data). "
+ "Left out: Okatsune loppers (no such product found on retrieved pages), Wolf-Garten loppers and Fiskars pole pruner archetype (no page retrieved; UPX86 kept in m), Felco 221 kept as old model only (Felco page retrieved covers 211), "
+ "Corona founding year given as '1920s' as on its own page; Niwaki founding 2006 is when Hobson started the business per Gardens Illustrated (sources disagree). "
+ "Silky Gomboy year 1985 from Silky history page; no other introduction years confirmed. Parallel search was out of credit; Firecrawl rate-limited, so WebFetch used.")
+out = {"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p = "/home/user/Possession-Taxonomy/rebuild/work/C2/shelves/01_01.json"
+tmp = p + ".tmp"
+json.dump(out, open(tmp,"w"), ensure_ascii=False, indent=1); os.replace(tmp, p)
+print("written")
