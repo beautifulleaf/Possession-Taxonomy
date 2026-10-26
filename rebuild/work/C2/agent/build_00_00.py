@@ -60,7 +60,7 @@ brands=[
 {"n":"Worx","c":"China","f":"2004","seg":"Cordless garden and power tools","d":"Power-tool brand of Positec of Suzhou, maker of the Landroid robotic mower.","lines":["Landroid","Nitro"],"eras":[],"sig":["Worx Landroid"],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/WORX"},
 {"n":"Allett","c":"United Kingdom","f":"","seg":"Cylinder mowers","d":"Turfmech-owned maker of cylinder mowers that took over the Atco and Suffolk Punch ranges in 2011.","lines":["Kensington","Buckingham","Westminster","Classic"],"eras":[],"sig":[],"sc":[],"rel":["Atco"],"s":"https://www.pitchcare.com/blogs/news/allett-unveils-new-mower-models-at-saltex"}]
 notes=("Trimmed SKU lists to 5–12 per kind from market brands plus test picks (Expert Reviews 2026, Which? robot-mower test list, Bob Vila, LawnLove). "
- "Dropped old flat models: Flymo Turbo Compact, Hayter Highway, STIHL RMA 239/353/765 V, Allen of Oxford Cavalier (rotary); Husqvarna Automower 308V/312V folded into Automower archetype only where confirmed; John Deere Z320R, X107, Husqvarna R 112C (riding). "
+ "Dropped old flat models: Flymo Turbo Compact, Hayter Highway, STIHL RMA 239/353/765 V, Allen of Oxford Cavalier (rotary); Husqvarna Automower 308V/312V dropped (310E NERA, 430X NERA, Aspire R6V kept as Automower versions); John Deere Z320R, X107, Husqvarna R 112C (riding). "
  "Mountfield left out: its model pages could not be retrieved (403), so no Mountfield models are named. Navimow and Mammotion launch years not confirmed, left blank. "
  "Atco has no register entry (no page about the brand itself retrieved). No traditions apply to this shelf.")
 out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
