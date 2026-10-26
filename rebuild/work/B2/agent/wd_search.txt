@@ -1,1 +1,20 @@
 == Persian carpet
+Q1332219 Persian carpet | handmade carpet from Iran
+Q5662169 Persian carpet | carpet produced in Iran
+Q5937645 Persian Carpet | 2006 film comprising 15 short films from various directors
+Q3090993 Shiraz rug | type of rug
+== Caucasian carpet
+Q5054266 Caucasian carpet | type of carpet indigenous to the Caucasus region
+== Turkish carpet
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(x['id'],x.get('label'),'|',x.get('description','')) for x in d.get('search',[])[:4]]
+                                                  ~^^^^^^
+KeyError: 'id'
+== Turkmen carpet
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(x['id'],x.get('label'),'|',x.get('description','')) for x in d.get('search',[])[:4]]
+                                                  ~^^^^^^
+KeyError: 'id'
+== Baluch rug
