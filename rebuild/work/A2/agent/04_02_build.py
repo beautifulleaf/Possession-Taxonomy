@@ -10,9 +10,8 @@ kinds=[
  "x":[
   {"n":"Classic western boot","a":"western · classic cowboy boot","d":"Tall pull-on boot with a shaft to at least mid-calf, angled cowboy heel over one inch and no lacing.",
    "mk":"","y":"1860s–1880s","s":CB,
-   "v":[{"n":"Abilene boot","mk":"T. C. McInerney","y":"1871","d":"American-style cowboy boot advertised in the Abilene Weekly Chronicle, Kansas"},
-        {"n":"Pointed-toe western","mk":"","y":"1940s","d":"narrow pointed toe often dated to the early 1940s"}],
-   "dt":"shaft 12 in or more · stacked leather heel about 1.5–1.75 in · round, square or pointed toe · cowhide or exotic skins · decorative stitching or tooling"},
+   "v":[{"n":"McInerney American-style boot","mk":"T. C. McInerney","y":"1871","d":"American-style cowboy boot advertised in the Abilene Weekly Chronicle, Kansas"}],
+   "dt":"shaft 12 in or more · stacked leather heel about 1.5–1.75 in · round or square toe (narrow pointed toe from about the early 1940s) · cowhide or exotic skins · decorative stitching or tooling"},
   {"n":"Roper","a":"roper boot","d":"Short-shafted cowboy boot ending above the ankle, with a low squared heel, made for calf roping and walking.",
    "mk":"","y":"1950s","s":CB,
    "v":[{"n":"Duke Roper","mk":"Frye","y":"","d":"roper in the old list"},
