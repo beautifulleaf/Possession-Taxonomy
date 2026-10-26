@@ -87,7 +87,7 @@ edc = {"n": "EDC flashlight", "a": "everyday-carry torch · pocket torch · flas
        ["Arkfeld", "Olight"], ["Arkfeld Pro", "Olight"], ["Arkfeld Ultra", "Olight"], ["i3T 2 EOS", "Olight"], ["i5R", "Olight"], ["Prowess", "Olight"],
        ["LD15R", "Fenix"], ["E40R", "Fenix"], ["PD36R V2.0", "Fenix"], ["PD40R", "Fenix"], ["MT2A Pro", "Nitecore"],
        ["Mini MLR2", "Foursevens"], ["Archer 2A V3", "ThruNite"], ["SC31Pro", "Sofirn"], ["TS10 V2", "Wurkkos"], ["C3", "WUBEN"],
-       ["Pokelit AA", "Acebeam"], ["Rider RX", "Acebeam"], ["XL100", "Maglite"], ["XL200", "Maglite"], ["HX5 Pure Beam", "Coast Products"], ["F30 Pro", "VARTA"], ["GatLight", "Lumencraft"]],
+       ["Pokelit AA", "Acebeam"], ["Rider RX", "Acebeam"], ["XL100", "Maglite"], ["XL200", "Maglite"], ["HX5 Pure Beam", "Coast Products"], ["F30 Pro", "VARTA"], ["GatLight", "Lumencraft"], ["PD36R ACE", "Fenix"], ["UC35", "Fenix"], ["C7 Pro", "Fenix"], ["Archer 2A Pro", "ThruNite"]],
  "r": [["P series", "Ledlenser"], ["Arkfeld", "Olight"], ["XL series", "Maglite"]],
 }
 
@@ -111,7 +111,7 @@ tactical = {"n": "Tactical flashlight", "a": "tactical torch · combat light · 
   X("Streamlight ProTac", "Streamlight's family of tactical tail-switch lights; X models are 'dual fuel' (2×CR123A or 18650).", "Streamlight", "", "protac",
     [V("ProTac HL-X", "Streamlight", "2017", "1,000 lumens, dual fuel"), V("ProTac 2L-X", "Streamlight", "2017", "500 lumens, dual fuel"),
      V("ProTac 2L-X USB", "Streamlight"), V("ProTac HL", "Streamlight"), V("ProTac 1L-X", "Streamlight"), V("ProTac 1L-1AA", "Streamlight"),
-     V("ProTac 2AA-X", "Streamlight"), V("ProTac 2.0", "Streamlight"), V("ProTac 5-X", "Streamlight"), V("ProTac 90", "Streamlight"), V("ProTac 90X", "Streamlight")],
+     V("ProTac 2AA-X", "Streamlight"), V("ProTac 2.0", "Streamlight"), V("ProTac 2.0 HP", "Streamlight"), V("ProTac 5-X", "Streamlight"), V("ProTac 90", "Streamlight"), V("ProTac 90X", "Streamlight")],
     "battery CR123A / 18650 / AA · black or coyote"),
   X("Olight Warrior", "Olight's tactical line with a two-stage tail switch, side switch and magnetic charging.", "Olight", "", "warrior",
     [V("Warrior 3S", "Olight", "2022", "21700, 2,300 lumens"), V("Warrior 3", "Olight", "", "predecessor"), V("Warrior M2R Pro", "Olight"),
@@ -120,7 +120,7 @@ tactical = {"n": "Tactical flashlight", "a": "tactical torch · combat light · 
  ],
  "m": [["TK16", "Fenix"], ["TK20R V2", "Fenix"], ["TK11 Pro", "Fenix"], ["TK15R", "Fenix"], ["TK21R", "Fenix"], ["TK28R", "Fenix"], ["PD36 TAC", "Fenix"], ["GL30R", "Fenix"],
        ["P20iX", "Nitecore"], ["P10i", "Nitecore"], ["MH12 Pro", "Nitecore"], ["MH25 Pro", "Nitecore"], ["PolyTac", "Streamlight"], ["TLR-8", "Streamlight"],
-       ["Valkyrie PL-3R", "Olight"], ["Valkyrie PL-Mini 2", "Olight"], ["Odin", "Olight"], ["Mag-Tac", "Maglite"], ["TAC 2AA", "Acebeam"]],
+       ["Valkyrie PL-3R", "Olight"], ["Valkyrie PL-Mini 2", "Olight"], ["Odin", "Olight"], ["Mag-Tac", "Maglite"], ["TAC 2AA", "Acebeam"], ["TK20R", "Fenix"], ["Baldr Mini", "Olight"], ["Baldr Pro R", "Olight"], ["Baldr S", "Olight"]],
  "r": [["TK series", "Fenix"], ["Valkyrie", "Olight"]],
 }
 
@@ -137,7 +137,7 @@ thrower = {"n": "Thrower", "a": "long-range torch · search torch · flood monst
  ],
  "m": [["C8+", "Convoy"], ["C8F", "Sofirn"], ["C8G", "Sofirn"], ["SP70", "Sofirn"], ["Q8 Pro", "Sofirn"], ["IF22A", "Sofirn"], ["IF25", "Sofirn"], ["SC31T", "Sofirn"], ["SF14", "Sofirn"], ["SP36", "Sofirn"],
        ["LR40R", "Fenix"], ["LR50R V2", "Fenix"], ["TK47UE", "Fenix"], ["TK35UE", "Fenix"], ["Javelot Pro 2", "Olight"], ["Javelot Turbo", "Olight"], ["Javelot Mini", "Olight"],
-       ["Marauder 3", "Olight"], ["Marauder 2", "Olight"], ["Marauder Mini 2", "Olight"], ["SR90", "Olight"], ["X75", "Acebeam"], ["X50", "Acebeam"], ["X25", "Acebeam"], ["E75", "Acebeam"],
+       ["Marauder 3", "Olight"], ["Marauder 2", "Olight"], ["Marauder Mini 2", "Olight"], ["Marauder Mini", "Olight"], ["SR90", "Olight"], ["X75", "Acebeam"], ["X50", "Acebeam"], ["X25", "Acebeam"], ["E75", "Acebeam"],
        ["MS03", "Imalent"], ["SR32", "Imalent"], ["TM12K", "Nitecore"]],
  "r": [["Javelot", "Olight"], ["Tiny Monster", "Nitecore"]],
 }
@@ -168,13 +168,13 @@ duty = {"n": "Duty & heavy-duty torch", "a": "police torch · D-cell torch · re
      V("Baton Light", "Kel-Lite", "", "18–26 in, fits a baton ring")], "length by cell count · black anodised"),
   X("Maglite D-cell", "Machined aluminium torch with focusable beam on C or D cells; the archetypal police and household torch.", "Maglite", "1979", "mag",
     [V("C and D cell Maglite", "Maglite", "1979"), V("MagCharger", "Maglite", "1982", "rechargeable halogen; LED version 2013"),
-     V("2D LED Pro", "Maglite", "2012"), V("ML100 / ML125", "Maglite", "2011", "LED; ML125 rechargeable"), V("ML300L", "Maglite"), V("ML150LR", "Maglite"), V("ML25IT", "Maglite")],
+     V("2D LED Pro", "Maglite", "2012"), V("ML100 / ML125", "Maglite", "2011", "LED; ML125 rechargeable"), V("ML300L", "Maglite"), V("ML150LR", "Maglite"), V("ML25IT", "Maglite"), V("ML50L", "Maglite")],
     "2 to 6 cells · incandescent or LED · colours"),
   X("Streamlight Stinger", "Compact rechargeable duty torch that drops into a charger holder; a police-car standard.", "Streamlight", "", "stinger",
     [V("Stinger (xenon)", "Streamlight", "", "original"), V("Stinger Classic LED", "Streamlight", "2013", "same size, LED, fits Stinger chargers"),
      V("UltraStinger", "Streamlight"), V("Poly Stinger", "Streamlight"), V("Stinger 2020", "Streamlight")], "charger holder (12 V / AC)"),
  ],
- "m": [["SL-20L", "Streamlight"], ["Strion", "Streamlight"], ["Survivor", "Streamlight"], ["Vantage", "Streamlight"], ["Dualie", "Streamlight"], ["4AA LED", "Streamlight"],
+ "m": [["SL-20L", "Streamlight"], ["Strion", "Streamlight"], ["Survivor", "Streamlight"], ["Vantage", "Streamlight"], ["Dualie", "Streamlight"], ["4AA LED", "Streamlight"], ["MegaStream", "Streamlight"], ["RC20", "Fenix"],
        ["Pelican 7000", "Pelican Products"], ["Pelican 7060", "Pelican Products"], ["Solitaire", "Maglite"]],
  "r": [["ML series", "Maglite"], ["Stinger", "Streamlight"]],
 }
@@ -244,14 +244,13 @@ brands = [
  B("Muyshondt", "", "", "luxury EDC lights", "Maker of small luxury lights in aluminium, titanium and copper.", ["Aeon", "Maus"], ["Muyshondt Aeon"], [], U["aeon"]),
 ]
 
-notes = ("k24 'Flashlight' (230 models) split by form into EDC, tactical, thrower, right-angle and duty kinds; Dive light added as a kind (no models: none attested). "
- "Dropped: 'Angle-head flashlight' (generic, no maker; now the Right-angle kind), Shadowhawk '10000 High Lumens' and GearLight S1000 (listing noise), "
- "Klein Tools rechargeable flashlight with work light and Fenix WT26RM, RC20, UC30, UC35, C7 Pro, C7 V2, E06R Pro RG, E08R UE, GL30R kept only where placed; "
- "Streamlight Bear Trap, Flipmate, Jr. F-Stop, Syclone, Speedlocker, Enduro (work/clip/headlamp forms belong to Work light / Headlamps shelves) and Olight Array, ArkPro, Baldr Mini/Pro R/S, Beagle, Drever, "
- "Mettle, Nightclaw, Rubato 4, Sigurd, Splint, Marauder Mini, Baton 4 Pro moved into versions; ThruNite Archer 2A Pro, Fenix TK20R, PD35 v3.0/PD35TAC folded into archetype versions. "
- "Weapon lights are a type of Tactical flashlight (SureFire WeaponLight archetype); E4 may cross-link. Mini Maglite placed under EDC (pocket 2AA), Solitaire under Keychain. "
- "Not done: archetypes for Ledlenser P7 (retailer page had no content), Convoy C8, Fenix TK, Streamlight SL-20, Olight Perun, LEP lights (no page retrieved). "
- "Brand founding years left blank where no retrieved page or reliable knowledge.")
+notes = ("Old k24 Flashlight (230 models) split by form into EDC, Tactical, Thrower, Right-angle and Duty kinds; Dive light added as a new kind with types only (no attested models). "
+ "Family models became archetype versions (SureFire 6P/WeaponLight/G2X/M6/Z2, ProTac, Stinger, Maglite D-cell, Mini Maglite, Kel-Lite, MX-991/U, Baton, PD35, Seeker, Warrior, Nitecore EDC, Tiny Monster, L19, Convoy S2+, Waypoint, Solitaire). "
+ "Left out: 'Angle-head flashlight' (generic, no maker; it is now the Right-angle kind); Shadowhawk '10000 High Lumens' and GearLight S1000 (listing noise); "
+ "Klein Tools 'Rechargeable LED Flashlight with Work Light', Fenix WT26RM, Streamlight Bear Trap, Flipmate, Jr. F-Stop, Speedlocker, Syclone and Enduro, Olight Array, Wurkkos HD10 (work, clip or head lights: belong to the Work light / Headlamps shelves); "
+ "Olight ArkPro, Beagle, Drever, Mettle, Nightclaw, Rubato 4, Sigurd, Splint, Fenix C7 V2, E06R Pro RG, E08R UE, UC30, Ledlenser TT3R, Maglite XL50, Sofirn SP31, SP32A, SP33 (form not confirmed or minor variants; EDC list at 40-model cap). "
+ "Weapon lights are a type of Tactical flashlight (SureFire WeaponLight archetype, Olight Valkyrie/Baldr in m); E4 may cross-link. Mini Maglite placed under EDC (pocket 2AA), Solitaire under Keychain light. "
+ "Not done (no page retrieved): archetypes for Ledlenser P7, Convoy C8, Fenix TK, Streamlight SL-20, Olight Perun, LEP throwers. Brand founding years left blank unless on a retrieved page or reliably known.")
 
 out = {"kinds": kinds, "brands": brands, "traditions": [], "notes": notes}
 p = "/home/user/Possession-Taxonomy/rebuild/work/B3/shelves/05_00.json"
