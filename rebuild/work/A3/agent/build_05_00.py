@@ -1,0 +1,64 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+JE=W+'Jewels_of_Elizabeth_II'
+kinds=[
+{"n":"Tiaras & crowns","a":"diadem · circlet","d":"Jewelled headpiece worn on formal occasions: an open half-circlet (tiara) or a closed full circle (crown).",
+ "t":["Tiara","Crown"],"s":W+"Tiara",
+ "x":[
+  {"n":"Kokoshnik tiara","a":"Russian tiara","d":"Tall, solid wall of gemstones modelled on the traditional Russian kokoshnik headdress.","mk":"","y":"early 19th century","s":W+"Kokoshnik",
+   "v":[{"n":"Queen Alexandra's Kokoshnik Tiara","mk":"Garrard","y":"1888","d":"vertical white-gold bars pavé-set with diamonds; peeresses' silver-wedding gift"},
+        {"n":"Queen Marie of Romania tiara","mk":"Cartier","y":"1924","d":"made to resemble the Russian kokoshnik"}],
+   "dt":"height · diamonds or coloured stones · solid wall or open bars"},
+  {"n":"Fringe tiara","a":"Russian fringe","d":"Row of graduated diamond spikes or bars; many convert to a necklace.","mk":"","y":"","s":W+"Tiara",
+   "v":[{"n":"Queen Mary Fringe Tiara","mk":"Garrard","y":"1919","d":"47 tapering diamond bars alternating with smaller spikes"}],
+   "dt":"bar count · brilliant or rose-cut diamonds · converts to necklace"},
+  {"n":"Lover's knot tiara","a":"","d":"Neo-classical tiara of knotted bows, each hung with a drop pearl.","mk":"","y":"","s":JE,
+   "v":[{"n":"Lover's Knot Tiara","mk":"Garrard","y":"1913","d":"19 pearls hung from lover's knot bows; copy of Princess Augusta's tiara"}],
+   "dt":"drop pearls or stones · number of bows"},
+  {"n":"Bandeau","a":"","d":"Tiara shaped like a ribbon or hairband, worn low across the forehead or hairline.","mk":"","y":"","s":W+"Tiara","dt":"width · diamonds or coloured stones"},
+  {"n":"Circlet","a":"","d":"Tiara that runs around the full circumference of the head.","mk":"","y":"","s":W+"Tiara",
+   "v":[{"n":"Delhi Durbar Tiara","mk":"Garrard","y":"1911","d":"tall circlet of lyres and S-scrolls; made for the 1911 Delhi Durbar"}],
+   "dt":"height · motifs · gemstones"},
+  {"n":"Halo Tiara","a":"Cartier Halo","d":"Cascade of diamond scrolls converging on two central scrolls topped by a diamond.","mk":"Cartier","y":"1936","s":JE,
+   "dt":"739 brilliants and 149 baton diamonds"},
+  {"n":"Wreath tiara","a":"","d":"Tiara formed as a garland of flowers or leaves.","mk":"","y":"","s":JE,
+   "v":[{"n":"Burmese Ruby Tiara","mk":"Garrard","y":"1973","d":"wreath of roses with 96 rubies"}],
+   "dt":"flower or leaf motif · gemstones"}],
+ "m":[["Delilah Tiara","Jennifer Behr"],["Raquel Tiara","Jennifer Behr"],["Jenette Crown","Jennifer Behr"]]},
+{"n":"Hairpin","a":"hair stick · kanzashi","d":"Decorative pin or stick pushed into the hair to hold a bun or adorn a hairstyle.",
+ "t":["hair stick","U-shaped hairpin","kogai","bira-bira","ōgi bira","tama kanzashi","hirauchi kanzashi","tsumami kanzashi"],
+ "s":W+"Hairpin",
+ "x":[
+  {"n":"Kanzashi","a":"","d":"Japanese hair ornament family of pins, sticks and combs, often floral and seasonal.","mk":"","y":"Heian–Edo period","s":W+"Kanzashi",
+   "dt":"type (kogai, bira-bira, tama, hirauchi, tsumami) · lacquered wood, tortoiseshell, silk, plated metal, bakelite"},
+  {"n":"Binyeo","a":"","d":"Korean hairpin fixing a woman's chignon; material and shape marked status.","mk":"","y":"Three Kingdoms–Joseon","s":W+"Binyeo",
+   "v":[{"n":"Jam","d":"long-bodied pin"},{"n":"Chae","d":"upturned U-shaped pin"}],
+   "dt":"gold, silver, jade or wood · head motif"},
+  {"n":"Fazan","a":"zanzi · fa-zan","d":"Chinese hairpin securing and decorating a bun, sometimes marking status.","mk":"","y":"","s":W+"Hair_stick",
+   "v":[{"n":"Chai","d":"Chinese two-pronged form"},{"n":"Buyao","d":"Chinese form named alongside fazan"}],
+   "dt":"metal, jade or wood · head ornament"}]},
+{"n":"Hair comb","a":"decorative comb · side comb","d":"Decorative comb pushed into the hair to hold it or to adorn a bun.",
+ "t":["side comb","French twist comb"],"s":"https://www.1928.com/collections/vintage-hair-combs",
+ "x":[
+  {"n":"Peineta","a":"","d":"Large convex Spanish comb worn in a bun, usually under a mantilla.","mk":"","y":"19th century","s":W+"Peineta_(comb)",
+   "v":[{"n":"Peinetón","d":"much larger form fashionable in Buenos Aires and Montevideo, mid-1820s–1830s"}],
+   "dt":"tortoiseshell, nacre or synthetic · height"},
+  {"n":"Kushi","a":"","d":"Japanese ornamental comb worn at the front of the bun; common from the Edo period.","mk":"","y":"Edo period","s":W+"Kanzashi",
+   "v":[{"n":"Hanagushi","d":"comb decorated with folded silk flowers"}],
+   "dt":"lacquered wood or tortoiseshell · motif"}]},
+{"n":"Stick-on bindi","a":"face jewel · sticker bindi","d":"Decorative dot or jewel stuck on the forehead or skin with adhesive, not fixed by chain, pin or piercing.",
+ "t":["felt","thin metal","jewelled"],"s":W+"Bindi_(decoration)"}]
+brands=[
+ {"n":"Garrard","c":"United Kingdom","seg":"High jewellery","d":"London jeweller, long the British Crown Jeweller, maker of many royal tiaras.","sig":["Queen Mary Fringe Tiara","Lover's Knot Tiara"],"rel":["Cartier"],"s":"knowledge"},
+ {"n":"Cartier","c":"France","f":"1847","seg":"High jewellery","d":"Paris jeweller and watchmaker owned by Richemont.","sig":["Halo Tiara"],"rel":["Garrard"],"s":"knowledge"},
+ {"n":"Jennifer Behr","c":"United States","seg":"Fashion hair accessories","d":"New York designer label for headbands, tiaras and hair jewellery.","s":"knowledge"}]
+trad=[{"n":"Kanzashi","g":"Textiles & jewellery","r":"Japan","p":"Heian period to present; peak late Edo","d":"Japanese hair ornaments worn with traditional hairstyles, notably by geisha and maiko.",
+ "tech":"lacquering, metalwork; tsumami (folded silk squares glued into flowers)","mat":"lacquered wood, tortoiseshell, silk, gold- and silver-plated metal, bakelite",
+ "forms":["Kogai","Bira-bira","Kushi","Tama kanzashi","Tsumami kanzashi"],"ctr":["Tokyo (tsumami kanzashi, traditional craft designated 1982)"],
+ "auth":"hand-folded silk petals; seasonal motifs matching the month","s":W+"Kanzashi"}]
+notes=("Maang tikka moved to South Asian shelf and jewelled clips (old k46) to H1 per plan. Chaumet/Napoleon Tiara left out: it is a papal tiara, not a personally worn piece. "
+ "Spencer tiara left out (no page retrieved). Halo Tiara kept as its own archetype rather than forced into bandeau. Kanzashi subtypes in t as briefed. "
+ "Old eBay source for stick-on bindi replaced by Wikipedia Bindi page.")
+p='/home/user/Possession-Taxonomy/rebuild/work/A3/shelves/05_00.json'
+json.dump({"kinds":kinds,"brands":brands,"traditions":trad,"notes":notes},open(p+'.tmp','w'),ensure_ascii=False,indent=1)
+os.replace(p+'.tmp',p)
