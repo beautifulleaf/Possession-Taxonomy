@@ -1,0 +1,83 @@
+import json, os
+W="https://en.wikipedia.org/wiki/"
+kinds=[
+{"n":"Kettle","a":"tea kettle · electric kettle · stovetop kettle · gooseneck kettle","d":"Vessel for boiling water, heated on the hob or by its own electric element.",
+ "t":["electric (cordless jug)","stovetop","whistling","gooseneck pour-over","variable-temperature","travel or mini","stainless steel","glass","enamel on steel","plastic","copper"],
+ "s":W+"Kettle",
+ "x":[
+  {"n":"Russell Hobbs K2","a":"K2 automatic kettle","d":"Stainless automatic electric kettle that switches itself off at the boil, made for about thirty years; successor to the 1955 K1.","mk":"Russell Hobbs","y":"1960","s":W+"Russell_Hobbs",
+   "v":[{"n":"K1","mk":"Russell Hobbs","y":"1955","d":"first electric kettle to switch off automatically, via a steam-actuated bimetallic strip"},
+        {"n":"Futura","mk":"Russell Hobbs","y":"1972","d":"early all-plastic kettle, discontinued 1979"},
+        {"n":"Millennium","mk":"Russell Hobbs","y":"1996","d":"1.7 L, flat thick-film element and limescale filter"}],
+   "dt":"stainless or plastic body · capacity · element type"},
+  {"n":"Alessi 9091","a":"Bollitore · Sapper melodic kettle","d":"Richard Sapper's stovetop kettle with a brass two-note whistle; Alessi's first designer kettle.","mk":"Alessi","y":"1983 (production 1984 per Alessi)","s":"https://us.alessi.com/collections/kettles/products/9091-kettle",
+   "v":[{"n":"9091 FM","mk":"Alessi","y":"","d":"induction version with magnetic steel base"}],
+   "dt":"18/10 stainless steel · about 2 L · brass whistle sounding mi and si · black PA handle"},
+  {"n":"Alessi 9093","a":"bird kettle · Michael Graves kettle","d":"Michael Graves's postmodern conical stovetop kettle with a bird-shaped whistle on the spout; one of Alessi's best sellers.","mk":"Alessi","y":"1985","s":"https://us.alessi.com/products/9093-kettle",
+   "v":[{"n":"Electric version","mk":"Alessi","y":"2001","d":"electric kettle version of the design"},
+        {"n":"9093/1","mk":"Alessi","y":"","d":"induction version"},
+        {"n":"Tea Rex","mk":"Alessi","y":"","d":"30th-anniversary version"}],
+   "dt":"mirror-polished 18/10 steel · handle and bird colours · induction base"},
+  {"n":"Alessi designer kettles (1988–89)","a":"Pito · Hot Bertaa","d":"Later Alessi designer kettles: Frank Gehry's Pito and Philippe Starck's Hot Bertaa.","mk":"Alessi","y":"1988–1989","s":"https://en.wikipedia.org/wiki/Alessi_(Italian_company)",
+   "v":[{"n":"Pito","mk":"Alessi","y":"1988","d":"by Frank Gehry"},{"n":"Hot Bertaa","mk":"Alessi","y":"1989","d":"by Philippe Starck"}],"dt":"stovetop · stainless steel"},
+  {"n":"Le Creuset Classic Whistling Kettle","a":"Le Creuset kettle","d":"Enamelled carbon-steel stovetop kettle with a flip-open whistling spout, in the house colours.","mk":"Le Creuset","y":"","s":"https://www.abt.com/Le-Creuset-1.7-Qt.-Classic-Whistling-Kettle-in-Marseille-40114260200241/p/199547.html",
+   "v":[],"dt":"1.7 qt · enamel on steel · Le Creuset colours (Marseille, Flame, Cerise, Oyster…) · made in Thailand"},
+  {"n":"Dualit Classic Kettle","a":"","d":"Heavy polished stainless electric kettle with a replaceable element and quiet 'Whisper Boil'.","mk":"Dualit","y":"","s":"https://us.dualit.com/products/classic-kettle",
+   "v":[],"dt":"1.7 L · polished stainless steel · two level windows"},
+  {"n":"Smeg '50s Style kettle","a":"Smeg KLF · retro kettle","d":"Rounded retro electric kettle in glossy colours, part of Smeg's 1950s-style small-appliance range.","mk":"Smeg","y":"2014","s":"https://maisonlipari.ca/products/smeg-50s-style-kettle-fixed-temperature",
+   "v":[{"n":"KLF03","mk":"Smeg","y":"","d":"1.7 L fixed-temperature model"}],"dt":"1.7 L · stainless steel and plastic · colours (cream, red, pastel blue, black, chrome…)"},
+  {"n":"Fellow Stagg EKG","a":"Stagg electric gooseneck","d":"Minimal electric pour-over kettle with a slender spout, temperature dial, display and hold mode.","mk":"Fellow","y":"2017","s":"https://www.dezeen.com/?p=1031925",
+   "v":[{"n":"Stagg EKG Pro","mk":"Fellow","y":"","d":"later model; old-data model"}],"dt":"0.9 L · matte black, white, walnut handle options · app-connected version"},
+  {"n":"Bonavita variable-temperature gooseneck","a":"Bonavita 1 L gooseneck","d":"Affordable 1-litre digital gooseneck kettle with preset temperatures and hold, popular for pour-over.","mk":"Bonavita","y":"by 2014","s":"https://kk.org/cooltools/?p=22771","v":[],"dt":"1 L · stainless steel · digital temperature control"},
+  {"n":"BALMUDA The Pot","a":"","d":"Compact 0.6-litre electric kettle with a narrow pouring spout and a lamp in the handle.","mk":"BALMUDA","y":"by 2017","s":"https://www.gigazine.net/gsc_news/en/20170108-balmuda-the-pot","v":[],"dt":"0.6 L · black, white · painted stainless steel"}
+ ]},
+{"n":"Water filter jug","a":"filter pitcher · water filter carafe","d":"Jug with a filter cartridge that treats tap water for drinking; replacement cartridges are in Climate, Water & Energy.",
+ "t":["jug (pitcher)","countertop dispenser with tap","filter bottle"],
+ "s":"https://www.wayfair.co.uk/kitchenware-tableware/sb0/water-filter-pitchers-c1877044.html",
+ "x":[
+  {"n":"Brita jug","a":"Brita filter jug","d":"The original household filter jug with replaceable carbon-and-resin cartridges, from the German company that defined the category.","mk":"Brita","y":"1966 (company)","s":"https://en.wikipedia.org/wiki/Brita_(company)",
+   "v":[{"n":"Marella","mk":"Brita","y":"","d":"2.4 L jug, 1.4 L filtered, MAXTRA PRO cartridges, Memo indicator"},{"n":"Style","mk":"Brita","y":"","d":"old-data model"},{"n":"Aluna","mk":"Brita","y":"","d":"old-data model"}],
+   "dt":"capacity · cartridge generation (MAXTRA+, MAXTRA PRO) · colour"},
+  {"n":"ZeroWater pitcher","a":"","d":"Filter jug with a five-stage ion-exchange cartridge sold with a TDS meter to show when to change it.","mk":"ZeroWater","y":"","s":"https://www.zerowater.com/pages/about-us",
+   "v":[],"dt":"7 to 32 cups · jug or dispenser · TDS meter"}
+ ],
+ "m":[["Oria","Aqua Optima"],["Vida","BWT"]]},
+{"n":"Soda maker","a":"sparkling water maker · home carbonator · soda siphon","d":"Countertop device that carbonates water at home from a CO₂ cylinder or charger.",
+ "t":["CO₂ cylinder machine","soda siphon (charger bulbs)","electric","plastic or glass bottles"],
+ "s":"https://en.wikipedia.org/wiki/Carbonated_water",
+ "x":[
+  {"n":"SodaStream","a":"","d":"The home carbonation machine that made the category, from a company traced to 1903.","mk":"SodaStream","y":"1955 (first mass-market home machine)","s":W+"SodaStream",
+   "v":[{"n":"Source","mk":"SodaStream","y":"2012","d":"designed with Yves Béhar"},{"n":"Terra","mk":"SodaStream","y":"2022","d":"click-in CO₂ cylinder"},{"n":"Duo","mk":"SodaStream","y":"2022","d":"plastic and glass bottles"},{"n":"Art","mk":"SodaStream","y":"2022","d":"carbonation lever"},{"n":"E-Terra / E-Duo","mk":"SodaStream","y":"2023","d":"electronic versions"},{"n":"Enso","mk":"SodaStream","y":"2024","d":"stainless steel, by Naoto Fukasawa"}],
+   "dt":"bottle type · cylinder connection (screw-in, Quick Connect) · colour"},
+  {"n":"Aarke Carbonator","a":"","d":"Stainless steel lever carbonator from a Swedish design brand, needing no electricity.","mk":"Aarke","y":"2018 (Australian launch)","s":"https://www.channelnews.com.au/aarke-takes-on-sodastream-with-premium-steel-carbonator/",
+   "v":[{"n":"Carbonator 3","mk":"Aarke","y":"2022","d":"CNC-machined nozzle, damped lever"}],"dt":"polished steel, matte black, brass, white finishes"},
+  {"n":"Gasogene","a":"gazogene · seltzogene","d":"Victorian two-globe glass device making soda water from tartaric acid and bicarbonate; a collector piece.","mk":"","y":"late 19th century","s":"https://en.wikipedia.org/wiki/Carbonated_water","v":[],"dt":"wicker or wire mesh guard"}
+ ]},
+{"n":"Hot water dispenser","a":"thermo pot · electric water boiler · airpot · instant boiler","d":"Countertop appliance that boils water and keeps it hot for dispensing on demand.",
+ "t":["thermo pot (boiler and warmer)","boil-on-demand","countertop hot and cold","plumbed boiling-water tap (see Home Fixtures)"],
+ "s":"https://en.wikipedia.org/wiki/Hot_water_dispenser",
+ "x":[
+  {"n":"Zojirushi water boiler","a":"Zojirushi thermo pot","d":"Japanese electric boiler-and-warmer pot with push-button dispensing; the reference household thermo pot.","mk":"Zojirushi","y":"","s":"https://en.wikipedia.org/wiki/Zojirushi_Corporation",
+   "v":[{"n":"CD-JSQ30","mk":"Zojirushi","y":"","d":"3-litre model"}],"dt":"capacity 2.2–5 L · keep-warm settings"}
+ ]}
+]
+brands=[
+{"n":"Russell Hobbs","c":"United Kingdom","f":"1952","seg":"mainstream small appliances","d":"British small-appliance maker founded by William Russell and Peter Hobbs; made the first automatic kettle.","lines":[],"eras":[],"sig":["Russell Hobbs K2"],"sc":[],"rel":[],"s":W+"Russell_Hobbs"},
+{"n":"Alessi","c":"Italy","f":"1921","seg":"design housewares","d":"Italian housewares company in Omegna known for designer objects by Sapper, Graves, Starck and others.","lines":[],"eras":[],"sig":["Alessi 9091","Alessi 9093"],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/Alessi_(Italian_company)"},
+{"n":"Le Creuset","c":"France","f":"1925","seg":"premium cookware","d":"Enamelled cast-iron cookware maker in Fresnoy-le-Grand; kettles are made in Thailand.","lines":[],"eras":[],"sig":["Le Creuset Classic Whistling Kettle"],"sc":[],"rel":[],"s":W+"Le_Creuset"},
+{"n":"Dualit","c":"United Kingdom","f":"1945","seg":"premium small appliances","d":"British maker of heavy-duty toasters and kettles founded by Max Gort-Barten.","lines":["Classic"],"eras":[],"sig":["Dualit Classic Kettle"],"sc":[],"rel":[],"s":W+"Dualit"},
+{"n":"Smeg","c":"Italy","f":"1948","seg":"design appliances","d":"Guastalla appliance maker whose retro FAB '50s Style range began in 1997.","lines":["'50s Style"],"eras":[],"sig":["Smeg '50s Style kettle"],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/Smeg_(appliances)"},
+{"n":"Fellow","c":"United States","f":"","seg":"specialty coffee equipment","d":"San Francisco maker of design-led coffee brewing gear.","lines":["Stagg"],"eras":[],"sig":["Fellow Stagg EKG"],"sc":["specialty coffee"],"rel":[],"s":"https://www.dezeen.com/?p=1031925"},
+{"n":"BALMUDA","c":"Japan","f":"2003","seg":"design appliances","d":"Tokyo design-appliance company founded by Gen Terao, known for fans, toasters and kettles.","lines":[],"eras":[],"sig":["BALMUDA The Pot"],"sc":[],"rel":[],"s":W+"Balmuda"},
+{"n":"Brita","c":"Germany","f":"1966","seg":"water filtration","d":"Taunusstein water-filter company founded by Heinz Hankammer and named after his daughter.","lines":["Marella","Style","Aluna"],"eras":[],"sig":["Brita jug"],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/Brita_(company)"},
+{"n":"ZeroWater","c":"United States","f":"","seg":"water filtration","d":"Filter-jug brand of Zero Technologies with five-stage filters, part of Culligan since 2020.","lines":[],"eras":[],"sig":["ZeroWater pitcher"],"sc":[],"rel":[],"s":"https://www.zerowater.com/pages/about-us"},
+{"n":"SodaStream","c":"Israel","f":"1903","seg":"home carbonation","d":"Home soda-maker company founded in England by Guy Gilbey, now a PepsiCo subsidiary based in Israel.","lines":["Terra","Duo","Art","Enso"],"eras":[],"sig":["SodaStream"],"sc":[],"rel":["Aarke"],"s":W+"SodaStream"},
+{"n":"Aarke","c":"Sweden","f":"2013","seg":"design appliances","d":"Swedish design brand making stainless steel sparkling water makers.","lines":["Carbonator"],"eras":[],"sig":["Aarke Carbonator"],"sc":[],"rel":["SodaStream"],"s":"https://www.dezeen.com/?p=1824504"},
+{"n":"Zojirushi","c":"Japan","f":"1918","seg":"household appliances","d":"Osaka maker of vacuum flasks, rice cookers and electric water boilers.","lines":[],"eras":[],"sig":["Zojirushi water boiler"],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/Zojirushi_Corporation"},
+]
+notes=("Tetsubin moved to the Teapots & tea ceremony shelf; replacement filter cartridges stay in B7. Plumbed boiling-water taps (Quooker) belong to Home Fixtures and are only a type here. "
+ "Bonavita has no brand entry (no brand page retrieved). Smeg kettle year 2014 is when kettles joined the '50s range (Wikipedia); Alessi 9091 year differs between Wikipedia (1983) and Alessi (production 1984). "
+ "Le Creuset official page returned empty, a retailer page is cited. Zojirushi first-boiler year (1980) seen only in a search snippet, so left out. BWT and Aqua Optima jugs kept as flat models; Hario and other gooseneck kettles not added. Tiger water boilers left out: no retrieved page attests them.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="work/B5/shelves/05_01.json"; t=p+".tmp"
+json.dump(out,open(t,"w"),ensure_ascii=False,indent=1); os.replace(t,p)
