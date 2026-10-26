@@ -8,11 +8,11 @@ K=[
  "x":[
   {"n":"Double-flare plug","a":"saddle plug","d":"Plug flared at both ends so it sits in the lobe without O-rings.","mk":"","y":"","s":W,
    "dt":"gauge 8g upwards · glass, stone, wood, metal, silicone · solid or patterned front"},
-  {"n":"Gorilla Glass plug","a":"","d":"Hand-carved soda-lime glass plug, the reference glass plug among stretched-ear wearers.","mk":"Gorilla Glass","y":"","s":GG,
+  {"n":"Gorilla Glass plug","a":"","d":"Hand-carved soda-lime glass plug made in solid, coloured-front and dichroic lines.","mk":"Gorilla Glass","y":"","s":GG,
    "v":[{"n":"Solid Plugs","mk":"Gorilla Glass","y":"","d":"plain coloured glass"},
         {"n":"Color Front Plugs","mk":"Gorilla Glass","y":"","d":"coloured front face"},
         {"n":"Simple Plugs","mk":"Gorilla Glass","y":"","d":"clear basic plug"},
-        {"n":"Martele Plugs","mk":"Gorilla Glass","y":"","d":"hammered-texture front"},
+        {"n":"Martele Color Front Plugs","mk":"Gorilla Glass","y":"","d":"Martele variant of the coloured-front plug"},
         {"n":"Dichroic Plugs","mk":"Gorilla Glass","y":"","d":"dichroic glass inlay"}],
    "dt":"double or single flare · glass colours · matte or polished"},
   {"n":"Mayan flare plug","a":"Mayan plug","d":"Double-flared stone plug with a wide front flare after ancient Mesoamerican ear flares.","mk":"","y":"","s":"https://bodyartforms.com/productdetails.asp?productid=41062",
