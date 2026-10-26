@@ -1,0 +1,686 @@
+{
+ "lead": "Things a person owns as files, account items or registered tokens: fonts, creative assets, game and platform items, personal media files, domains and NFTs, organised by type, then archetype (typeface, skin line, collection) with file formats and titles kept out of the tree as attributes.",
+ "b": [
+  {
+   "m": "Rights state",
+   "v": "open file without locks > personalised watermark > locked to an account > licence in a locker",
+   "w": "You own it only if it is not locked; ownership ranks above catalogue size."
+  }
+ ],
+ "depts": [
+  {
+   "n": "Fonts & typefaces",
+   "mode": "variety",
+   "note": "Organised by type classification (Vox-ATypI / Linotype style groups); foundries go in the brand register.",
+   "b": [
+    {
+     "m": "Typeface design",
+     "w": "The design is chosen first."
+    },
+    {
+     "m": "Licence scope",
+     "v": "desktop, web, app, server (a fit, not a ladder)",
+     "w": "The same family is licensed separately per use."
+    },
+    {
+     "m": "Script and language coverage",
+     "w": "Character set decides where it can be used."
+    },
+    {
+     "m": "Family breadth",
+     "v": "variable font > full static family > few weights",
+     "w": "More weights and widths give more range."
+    }
+   ],
+   "s": [
+    {
+     "n": "Typefaces",
+     "web": true,
+     "brief": "Split the single 'Digital font' kind into classification kinds. Archetypes are classic typeface families (e.g. Garamond, Caslon, Baskerville, Bodoni, Times New Roman, Helvetica, Futura, Gill Sans, Univers, Frutiger, Akzidenz-Grotesk, Gotham, Rockwell, Clarendon, Courier, Fraktur, Noto, Roboto, Inter) with originating designer/foundry as mk, year, and versions = notable digital revivals/releases (e.g. Adobe Garamond, Garamond Premier, EB Garamond; Neue Haas Grotesk / Helvetica Now). Detail: weights, widths, optical sizes, variable axes, scripts. Keep existing Google/Canada Type/etc. families as versions or m where they fit. Build a foundry brand register (Monotype, Linotype, Adobe, Hoefler&Co, Commercial Type, Klim, Dalton Maag, Grilli Type, Colophon, Emigre, Font Bureau, House Industries, Canada Type, Cadson Demak, Google Fonts, Mark Simonson Studio, Typotheque, Morisawa). Licence scope and 'variable' are types, not kinds.",
+     "k": [
+      {
+       "n": "Sans-serif typeface",
+       "old": [
+        "k14"
+       ],
+       "brief": "Grotesque, neo-grotesque, geometric, humanist as types."
+      },
+      {
+       "n": "Serif typeface",
+       "old": [],
+       "brief": "Old-style, transitional, didone as types."
+      },
+      {
+       "n": "Slab-serif typeface",
+       "old": []
+      },
+      {
+       "n": "Script and handwriting typeface",
+       "old": []
+      },
+      {
+       "n": "Display and decorative typeface",
+       "old": []
+      },
+      {
+       "n": "Monospaced and coding typeface",
+       "old": []
+      },
+      {
+       "n": "Blackletter typeface",
+       "old": []
+      },
+      {
+       "n": "Non-Latin script typeface",
+       "old": [],
+       "brief": "CJK, Arabic, Devanagari, Thai etc. as types; Noto as a pan-script archetype."
+      },
+      {
+       "n": "Icon and symbol font",
+       "old": [],
+       "brief": "Dingbats such as Zapf Dingbats, Font Awesome, Material Symbols."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Creative assets",
+   "mode": "mixed",
+   "note": "Files bought or downloaded to make other work; tier at the generic end, variety where communities collect (sample libraries, 3D printing, AI models).",
+   "b": [
+    {
+     "m": "Licence",
+     "v": "commercial use allowed > personal use only",
+     "w": "Decides what you may make with it."
+    },
+    {
+     "m": "Works with my tool",
+     "w": "Format and host program must match."
+    },
+    {
+     "m": "Quality and completeness",
+     "w": "Resolution, layering, number of items."
+    }
+   ],
+   "s": [
+    {
+     "n": "Graphics, presets & templates",
+     "web": true,
+     "brief": "Restraint: drop single-shop SKUs (Simple co, Ilana Griffo, Design Panoply, ArtsyGet listings) unless they are a recognised icon; keep a few market-covering marketplaces as ranges only if useful (Creative Market, Envato Elements, Adobe Stock). Merge 'Other design templates' into one Design template kind with types (social media, presentation, CV, print, mockup). Add stock photo/illustration and icon set kinds. Presets: photo presets (Lightroom presets, film-emulation packs such as VSCO, RNI as archetypes if sourced) and LUTs (CUBE format, film-emulation LUTs) with formats as types.",
+     "k": [
+      {
+       "n": "Design template",
+       "old": [
+        "k15"
+       ],
+       "brief": "Types: social media, presentation, CV, print, mockup, website theme file."
+      },
+      {
+       "n": "Digital planner",
+       "old": [
+        "k16"
+       ]
+      },
+      {
+       "n": "Stock photo or illustration",
+       "old": []
+      },
+      {
+       "n": "Icon set",
+       "old": []
+      },
+      {
+       "n": "Brush pack",
+       "old": [
+        "k17"
+       ],
+       "brief": "Types by host: Procreate, Photoshop ABR, Krita."
+      },
+      {
+       "n": "Texture and background pack",
+       "old": [
+        "k18"
+       ]
+      },
+      {
+       "n": "Motion graphics template",
+       "old": [
+        "k19"
+       ],
+       "brief": "Types: After Effects, Premiere Pro MOGRT, DaVinci Resolve, Final Cut."
+      },
+      {
+       "n": "Photo preset pack",
+       "old": [
+        "k29"
+       ]
+      },
+      {
+       "n": "LUT pack",
+       "old": [
+        "k30"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Patterns for making",
+     "web": true,
+     "brief": "Downloadable patterns for crafts. Archetypes are famous named patterns or pattern lines with their designer/publisher (e.g. widely knitted Ravelry patterns, indie sewing-pattern houses' signature patterns, Big 4 PDF lines). Add cross-stitch and embroidery chart and 3D-printing file kinds only if not better covered under 3D; keep 3D-printable models on the 3D shelf.",
+     "k": [
+      {
+       "n": "Sewing pattern",
+       "old": [
+        "k20"
+       ]
+      },
+      {
+       "n": "Knitting or crochet pattern",
+       "old": [
+        "k21"
+       ]
+      },
+      {
+       "n": "Cross-stitch or embroidery chart",
+       "old": [],
+       "brief": "Includes machine-embroidery files (PES, DST) as types."
+      },
+      {
+       "n": "Papercraft and cutting file",
+       "old": [],
+       "brief": "SVG cut files for Cricut/Silhouette, printable papercraft."
+      }
+     ]
+    },
+    {
+     "n": "3D assets",
+     "web": true,
+     "brief": "Archetypes: icon assets and reference sets (e.g. Utah teapot, Stanford bunny as reference models; Poly Haven HDRIs/materials; Quixel Megascans; VRChat avatar bases such as popular base bodies, if sourced). 3D printing: notable printable models (3DBenchy as reference test print, Articulated dragons etc.) sourced from Printables/Thingiverse/Wikipedia. Formats (STL, OBJ, FBX, glTF, USD, 3MF) are types. Drop the single RenderHub SKU unless it fits an archetype.",
+     "k": [
+      {
+       "n": "3D model",
+       "old": [
+        "k22"
+       ],
+       "brief": "Types by format; character/prop/scene as types."
+      },
+      {
+       "n": "3D-printable model",
+       "old": [],
+       "brief": "STL/3MF files; 3DBenchy as reference archetype."
+      },
+      {
+       "n": "Avatar model",
+       "old": [],
+       "brief": "Social-VR and VTuber avatars (VRChat, VRM, Live2D)."
+      },
+      {
+       "n": "3D material",
+       "old": [
+        "k23"
+       ]
+      },
+      {
+       "n": "HDRI and environment map",
+       "old": [
+        "k24"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Music production assets",
+     "web": true,
+     "brief": "Variety at the enthusiast end. Archetypes: landmark sample libraries and instrument libraries (e.g. Spitfire BBC Symphony Orchestra / LABS, Native Instruments Kontakt libraries, Vienna Symphonic Library, EastWest Symphonic Orchestra, Splice sample packs, Sample Magic, Loopmasters), General MIDI as the MIDI reference, famous synth soundsets. Cut the Sample Magic genre-pack SKU list and the Jacob's Piano titled MIDI bundles (titles out) to at most a range each. Formats (WAV, REX, Kontakt NKI, SFZ, SoundFont) as types. Build brand entries for the main makers.",
+     "k": [
+      {
+       "n": "Sample pack",
+       "old": [
+        "k25"
+       ],
+       "brief": "Loops and one-shots."
+      },
+      {
+       "n": "Virtual instrument library",
+       "old": [],
+       "brief": "Sampled orchestral, piano, drum libraries for Kontakt etc."
+      },
+      {
+       "n": "Synth and effect preset pack",
+       "old": [
+        "k26"
+       ],
+       "brief": "Soundbanks for Serum, Vital, Massive etc."
+      },
+      {
+       "n": "MIDI file",
+       "old": [
+        "k27"
+       ],
+       "brief": "Titled song MIDIs are titles: keep as type, no title list."
+      },
+      {
+       "n": "SoundFont and sample-format bank",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "AI models",
+     "web": true,
+     "brief": "Open-weight model files a person downloads and runs. Archetypes are model families with maker and year (e.g. Llama, Mistral 7B, Gemma, Qwen, DeepSeek; Stable Diffusion 1.5/SDXL, Flux; Whisper) and versions by release. Formats (safetensors, GGUF) and quantisation are types/detail.",
+     "k": [
+      {
+       "n": "Language model weights",
+       "old": [
+        "k28"
+       ]
+      },
+      {
+       "n": "Image-generation model",
+       "old": []
+      },
+      {
+       "n": "Fine-tune or LoRA adapter",
+       "old": []
+      },
+      {
+       "n": "Speech and audio model",
+       "old": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Game & platform items",
+   "mode": "variety",
+   "note": "Items held in a game or platform account; organised by item type, then archetype (skin line or finish), never by SKU.",
+   "b": [
+    {
+     "m": "Rarity",
+     "v": "platform's own ladder, e.g. CS2 Consumer > Industrial > Mil-Spec > Restricted > Classified > Covert > Contraband",
+     "w": "The platform's own tag."
+    },
+    {
+     "m": "Tradable or marketable",
+     "v": "tradable on open market > tradable in-platform > account-bound",
+     "w": "Decides whether it has resale value."
+    },
+    {
+     "m": "Condition and pattern",
+     "v": "CS2 wear: Factory New > Minimal Wear > Field-Tested > Well-Worn > Battle-Scarred",
+     "w": "Float and pattern index drive collector value."
+    }
+   ],
+   "s": [
+    {
+     "n": "Weapon & gear skins",
+     "web": true,
+     "brief": "Replace the long Riot/Valve SKU lists with archetypes: skin lines and finishes that recur across weapons (CS2: Dragon Lore, Howl, Asiimov, Fade, Doppler, Case Hardened, Crimson Web, Hyper Beast, Medusa; Valorant bundles: Prime, Reaver, Elderflame, Oni, Glitchpop, RGX 11z Pro, Kuronami). Versions = weapons the line appears on, 2.0 revisions; detail = wear, float, pattern, StatTrak/Souvenir. Collection names in r may stay as a short range. Add CS2 gloves as its own kind (moved from Avatar accessory models). Fortnite pickaxes/gliders and Rocket League car items as archetypes where sourced. Brand register: Valve, Riot Games, Epic Games, Psyonix.",
+     "k": [
+      {
+       "n": "Weapon skin",
+       "old": [
+        "k34"
+       ]
+      },
+      {
+       "n": "Knife skin",
+       "old": [
+        "k38"
+       ],
+       "brief": "Knife models (Karambit, Butterfly, M9 Bayonet) as archetypes; finishes as versions/detail."
+      },
+      {
+       "n": "Glove skin",
+       "old": [],
+       "brief": "Take the CS2 glove models from Avatar accessory."
+      },
+      {
+       "n": "Tool and glider skin",
+       "old": [
+        "k36"
+       ]
+      },
+      {
+       "n": "Vehicle skin",
+       "old": [
+        "k35"
+       ],
+       "brief": "Rocket League car bodies, wheels, decals."
+      },
+      {
+       "n": "Wrap",
+       "old": [
+        "k37"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Character cosmetics",
+     "web": true,
+     "brief": "Archetypes: iconic outfits and lines (Fortnite Renegade Raider, Galaxy, Black Knight, Skull Trooper; CS2 agents by faction; League of Legends skin lines such as PROJECT, Star Guardian; Dota 2 arcanas; Roblox limiteds such as Dominus; World of Warcraft rare mounts). Trim the CS2 agent SKU list to archetypes. Add mount and housing-decor kinds.",
+     "k": [
+      {
+       "n": "Character outfit or skin",
+       "old": [
+        "k31"
+       ]
+      },
+      {
+       "n": "Avatar accessory",
+       "old": [
+        "k32"
+       ],
+       "brief": "Back bling, hats, limited accessories; CS2 gloves go to Glove skin."
+      },
+      {
+       "n": "Emote",
+       "old": [
+        "k39"
+       ]
+      },
+      {
+       "n": "Companion or pet",
+       "old": [
+        "k33"
+       ]
+      },
+      {
+       "n": "Mount",
+       "old": [],
+       "brief": "Ridable creatures and vehicles in MMOs (WoW, FFXIV)."
+      },
+      {
+       "n": "Housing and décor item",
+       "old": [],
+       "brief": "Furniture for player homes (Animal Crossing, FFXIV housing, Second Life)."
+      }
+     ]
+    },
+    {
+     "n": "Sprays, stickers & music kits",
+     "web": true,
+     "brief": "Titles OUT: drop the titled CS2 music-kit list (keep the kind, at most the publisher range); music kits are a type of item, not a music catalogue. Sticker and patch lists become archetypes by type (tournament/autograph stickers, holo/foil/gold, patches, charms). Merge 'Sticker capsule' contents logic into Containers shelf. Sprays: graffiti and Fortnite sprays as types.",
+     "k": [
+      {
+       "n": "In-game sticker, patch or charm",
+       "old": [
+        "k42"
+       ]
+      },
+      {
+       "n": "Spray or graffiti",
+       "old": [
+        "k41"
+       ]
+      },
+      {
+       "n": "Music kit",
+       "old": [
+        "k44"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Cases, crates & keys",
+     "web": true,
+     "brief": "Merge Sticker capsule into the loot-container kind as a type. Archetypes: container series (CS:GO Weapon Case 2013 as originator, operation cases, Chroma/Gamma/Prisma series, sticker capsules, tournament souvenir packages; TF2 Mann Co. crates; Overwatch loot boxes) with versions by number. Cut the 42-case SKU list to series.",
+     "k": [
+      {
+       "n": "Loot case, crate or capsule",
+       "old": [
+        "k51",
+        "k53"
+       ]
+      },
+      {
+       "n": "Crate key",
+       "old": [
+        "k52"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Platform profile & chat items",
+     "web": true,
+     "brief": "Steam community items, Discord/Xbox/PlayStation profile items, messaging stickers (LINE, Telegram, WhatsApp). Archetypes only where a community collects (Steam trading-card sets, foil cards, Steam badges; LINE Friends sticker sets). Merge Profile avatar and Avatar frame into one kind with types.",
+     "k": [
+      {
+       "n": "Platform trading card",
+       "old": [
+        "k45"
+       ]
+      },
+      {
+       "n": "Badge or pin",
+       "old": [
+        "k49"
+       ]
+      },
+      {
+       "n": "Profile background",
+       "old": [
+        "k46"
+       ]
+      },
+      {
+       "n": "Profile avatar or frame",
+       "old": [
+        "k47",
+        "k48"
+       ]
+      },
+      {
+       "n": "Loading screen",
+       "old": [
+        "k50"
+       ]
+      },
+      {
+       "n": "Chat emoticon",
+       "old": [
+        "k40"
+       ]
+      },
+      {
+       "n": "Messaging sticker pack",
+       "old": [
+        "k43"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Personal media files",
+   "mode": "tier",
+   "note": "Books, music, video and photos held as files or locker entitlements; formats are types, never models; titles live in the entertainment taxonomies.",
+   "b": [
+    {
+     "m": "Rights state",
+     "v": "open file without locks > personalised watermark > locked to an account > licence in a locker",
+     "w": "You own it only if it is not locked."
+    },
+    {
+     "m": "Music sound quality",
+     "v": "lossless 24-bit/192 kHz > 24/96 > 16/44.1 > lossy 320 kbps > V0 > 128 kbps",
+     "w": "A measured quality, not a grade."
+    },
+    {
+     "m": "Video quality",
+     "v": "4K HDR > 4K > HD > SD",
+     "w": "A measured quality, not a grade."
+    },
+    {
+     "m": "Abridged or unabridged (audiobooks)",
+     "v": "unabridged > abridged",
+     "w": "First for audiobooks; narration judged in the Audie categories."
+    },
+    {
+     "m": "Fits my device",
+     "w": "Weighed after rights state."
+    }
+   ],
+   "s": [
+    {
+     "n": "E-books & documents",
+     "web": false,
+     "brief": "Turn format lists into types (EPUB, Kindle KF8/KFX, PDF, DjVu, FB2, MOBI; CBZ/CBR for comics); drop maker-as-SKU models. Merge 'Text or word-processor file' into E-book as a 'plain text / word-processor' type.",
+     "k": [
+      {
+       "n": "E-book",
+       "old": [
+        "k1",
+        "k3"
+       ]
+      },
+      {
+       "n": "Comic or manga file",
+       "old": [
+        "k2"
+       ]
+      },
+      {
+       "n": "Digital sheet music",
+       "old": [
+        "k4"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Music, audio & video",
+     "web": false,
+     "brief": "No titles. Formats as types (FLAC, ALAC, WAV, DSD, MP3, AAC; MP4, MKV; locker entitlement). Keep definitions; trim the FLAC model.",
+     "k": [
+      {
+       "n": "Digital music file",
+       "old": [
+        "k5"
+       ]
+      },
+      {
+       "n": "Audiobook file",
+       "old": [
+        "k6"
+       ]
+      },
+      {
+       "n": "Podcast episode file",
+       "old": [
+        "k7"
+       ]
+      },
+      {
+       "n": "Digital video",
+       "old": [
+        "k8"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Photos & images",
+     "web": false,
+     "brief": "Merge the compression-only kinds: camera raw, lossy (JPEG, HEIC, WebP, AVIF) and lossless (PNG, TIFF, GIF) become types of one Digital photo or image kind; raw formats per camera maker become type detail, not models. Merge layered and vector files into one Editable graphics file kind with types.",
+     "k": [
+      {
+       "n": "Digital photo or image",
+       "old": [
+        "k9",
+        "k10",
+        "k11"
+       ]
+      },
+      {
+       "n": "Editable graphics file",
+       "old": [
+        "k12",
+        "k13"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Domains & tokens",
+   "mode": "mixed",
+   "note": "Registered names and blockchain tokens; tier for domains, variety for NFT collections.",
+   "b": [
+    {
+     "m": "Type of ending (domains)",
+     "v": "open, country-code or restricted",
+     "w": "Decides who may register it."
+    },
+    {
+     "m": "Yearly renewal price (domains)",
+     "w": "Second."
+    },
+    {
+     "m": "Provenance and chain (NFTs)",
+     "v": "on-chain art > off-chain metadata",
+     "w": "Where the artwork is stored decides permanence."
+    }
+   ],
+   "s": [
+    {
+     "n": "Domain names",
+     "web": false,
+     "brief": "Keep the three ending types as t; trim registry models to ~10 representative TLDs (.com, .net, .org, .uk, .de, .io, .ai, .app, .co, .eu) keeping only those already in the data plus well-known ones in old data; drop institutional-only endings (.edu, .aero, .bank, .coop) to a note.",
+     "k": [
+      {
+       "n": "Domain name",
+       "old": [
+        "k54"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "NFTs & digital collectibles",
+     "web": true,
+     "brief": "Split the flat NFT list by type with archetypes (collection or series) sourced from Wikipedia/Wikidata/Art Blocks/OpenSea pages: generative art (Chromie Squiggle, Fidenza, Autoglyphs, Terraforms), PFP collections (CryptoPunks as originator, Bored Ape Yacht Club, Azuki, Pudgy Penguins, Moonbirds, Doodles, Meebits), Bitcoin Ordinals (NodeMonkes, Taproot Wizards), game items, virtual land (Decentraland, The Sandbox, Otherside), blockchain names (ENS .eth). Unique vs multi-edition stays as types. Long-tail unsourced collections drop.",
+     "k": [
+      {
+       "n": "Profile-picture (PFP) NFT",
+       "old": [
+        "k55"
+       ]
+      },
+      {
+       "n": "Generative art NFT",
+       "old": []
+      },
+      {
+       "n": "Bitcoin Ordinal inscription",
+       "old": []
+      },
+      {
+       "n": "Virtual land parcel",
+       "old": []
+      },
+      {
+       "n": "Game item NFT",
+       "old": []
+      },
+      {
+       "n": "Blockchain name",
+       "old": [],
+       "brief": "ENS .eth and similar names held as tokens."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [],
+ "drop": []
+}

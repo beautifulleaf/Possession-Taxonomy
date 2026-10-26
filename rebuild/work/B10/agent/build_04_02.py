@@ -41,7 +41,7 @@ kinds=[
   "t":["single","pair","tandem","team / four-in-hand","leather","synthetic","miniature / pony / cob / full / draft sizes"],
   "s":"https://www.bbb.org/us/category/harness",
   "x":[
-   X("Breast-collar harness","Harness whose pull comes through a padded strap across the chest; needs no individual fitting and suits lighter vehicles.",W+"Horse_collar",a="breastplate harness · Dutch collar harness",dt="collar padding · saddle width · leather or synthetic"),
+   X("Breast-collar harness","Harness whose pull comes through a padded strap across the chest; needs no individual fitting and suits lighter vehicles.",W+"Horse_collar",a="breastplate harness",dt="collar padding · saddle width · leather or synthetic"),
    X("Full-collar harness","Harness built on a fitted, padded neck collar with hames that carry the traces; for heavier draught.",W+"Horse_collar",a="neck-collar harness · collar and hames",
      dt="collar shape (full face, half sweeney, full sweeney) · wooden or metal hames"),
    X("Hybrid-collar harness","Modern light collar that starts as a breast collar but encircles the neck without hames; popular in combined driving.",W+"Horse_collar"),
