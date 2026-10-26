@@ -18,7 +18,7 @@ kinds=[
    {"n":"Hourglass diffuser","a":"","d":"Diptyque's electric home fragrance diffuser shaped as an hourglass, using scent cartridges.",
     "mk":"Diptyque","y":"","s":DIP,"v":[],"dt":"scent cartridge"}],
   "m":[["Scented Oils plug-in","Air Wick"],["Essential Mist Diffuser","Air Wick"],["Freshmatic automatic spray","Air Wick"],["NOTICEables plug-in oil","Febreze"],["ScentPlug","Yankee Candle"],["Mist diffuser","Maison Berger Paris"]]},
- {"n":"Catalytic fragrance lamp","a":"Lampe Berger · catalytic lamp · fragrance lamp","d":"Glass or ceramic lamp whose heated catalytic burner diffuses fragrance from alcohol-based oil and destroys odours, without a flame.",
+ {"n":"Catalytic fragrance lamp","a":"Lampe Berger · catalytic lamp · fragrance lamp","d":"Glass or ceramic lamp that scents and purifies a room by catalytic combustion rather than an open flame.",
   "t":["crystal or glass body","porcelain or ceramic body","designer edition"],"s":MBB,
   "x":[{"n":"Lampe Berger","a":"diffuseur fumivore hygiénique","d":"The original catalytic lamp, designed by pharmacist Maurice Berger in 1898 to purify hospital air, later given a perfuming function.",
     "mk":"Maison Berger Paris","y":"1898","s":MB,
