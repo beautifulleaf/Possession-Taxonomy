@@ -60,7 +60,7 @@ persian = [
     X('Khamseh', 'Rugs of a five-tribe federation in Fars, with stylised bird (murgh) motifs around lozenge medallions.', PC, y='19th c.'),
     X('Afshar', 'Semi-nomadic rugs from near Kerman, mainly runners and bags in bright and pale reds with striped flat-woven ends.', PC, a='Afshari'),
     X('Luri', 'Rugs of western and south-western Iran on dark wool foundations with star compartments and hooked lozenge medallions.', PC, a='Lori'),
-    X('Bakhtiari', 'Tribal and village rugs attributed to the Bakhtiari, woven with the symmetric knot.', PC),
+    X('Bakhtiari', 'Knotted-pile rugs attributed to the Bakhtiari of Iran, woven with the symmetric knot.', WD + 'Q2408429'),
     X('Ardabil design', 'Copies and reworkings of the Ardabil Carpet, the most famous Persian carpet.', PC, y='1539–40 (original)',
       v=[('Ardabil Carpet', '', '1539–40', 'original, Victoria and Albert Museum'), ('Later copies', '', '', 'e.g. the copy at 10 Downing Street')]),
 ]
@@ -96,8 +96,8 @@ caucasian = [
     X('Shirvan', 'Finer Caucasian rugs with small geometric medallions, thinner pile and a subdued red, blue and ivory palette.', LP),
     X('Kuba', 'Finely knotted Caucasian rugs with intricate geometric patterns, stylised flowers and stars.', LP, a='Quba'),
     X('Derbent', 'Dense, finely knotted rugs with geometric designs in deep reds, blues and yellows.', LP),
-    X('Karabagh', 'Rugs of the Karabakh region, one of the main Caucasian styles.', CC, a='Karabakh'),
-    X('Gendje', 'Rugs of the Ganja area, one of the main Caucasian styles.', CC, a='Ganja · Genje'),
+    X('Karabagh', 'Rugs of the Karabakh region, one of the main Caucasian styles.', WD + 'Q5114646', a='Karabakh'),
+    X('Gendje', 'Rugs of the Ganja area of Azerbaijan, one of the main Caucasian styles.', WD + 'Q16416909', a='Ganja · Genje'),
     X('Daghestan', 'Rugs of Daghestan, grouped with the North Caucasian styles.', CC, a='Dagestan'),
 ]
 turkmen = [
