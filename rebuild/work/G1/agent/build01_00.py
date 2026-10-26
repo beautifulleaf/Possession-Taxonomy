@@ -37,7 +37,7 @@ kinds = [
       ("Bonneville T100 900", "Triumph", "2017", "liquid-cooled 900 cc")],
      dt="Meriden or Hinckley · 650–1200 cc · spoked or cast wheels"),
    X("Ducati Monster", "Ducati", "early 1990s", W + "Ducati_Monster",
-     "Naked bike by Miguel Angel Galluzzi using a trellis frame and Ducati V-twin; the model that popularised the naked class.", [
+     "Naked bike by Miguel Angel Galluzzi using a trellis frame and Ducati V-twin.", [
       ("M900", "Ducati", "", "first model"),
       ("M600", "Ducati", "1994", ""),
       ("M750", "Ducati", "1996", ""),
@@ -48,7 +48,7 @@ kinds = [
       ("Monster (937)", "Ducati", "2021", "")],
      dt="air- or liquid-cooled · 600–1200 cc · trellis frame"),
    X("Royal Enfield Bullet", "Royal Enfield", "1932", W + "Royal_Enfield_Bullet",
-     "Single-cylinder roadster first built in Redditch and in production in India since 1955; the longest-running motorcycle design.", [
+     "Single-cylinder roadster first built in Redditch and in production in India since 1955.", [
       ("Bullet 350", "Royal Enfield", "1932", "original 350 cc"),
       ("Bullet 500", "Royal Enfield", "1953", "499 cc, about 1953"),
       ("Enfield India Bullet", "Royal Enfield", "1955", "built under licence in Chennai"),
@@ -168,7 +168,7 @@ kinds = [
       ("VMAX", "Yamaha Motor", "2009", "1,679 cc V4, to 2020")],
      a="V-Max", dt="first or second generation"),
    X("Triumph Rocket III", "Triumph", "2004", W + "Triumph_Rocket_III",
-     "2,294 cc three-cylinder cruiser, once the largest-engined production motorcycle line.", [
+     "2,294 cc three-cylinder cruiser.", [
       ("Rocket III", "Triumph", "2004", ""),
       ("Rocket III Classic", "Triumph", "2006", "floorboards"),
       ("Rocket III Tourer", "Triumph", "2007", ""),
@@ -183,7 +183,7 @@ kinds = [
   "s": "https://mvpmotorcycles.com/ap_branch/standard-naked",
   "x": [
    X("Honda Gold Wing", "Honda", "1974", W + "Honda_Gold_Wing",
-     "Flat-four, later flat-six, touring motorcycle that defined the luxury tourer.", [
+     "Flat-four, later flat-six, touring motorcycle.", [
       ("GL1000", "Honda", "1974", "999 cc flat-four"),
       ("GL1100", "Honda", "1980", ""),
       ("GL1200", "Honda", "1983", ""),
@@ -193,7 +193,7 @@ kinds = [
       ("Gold Wing / Gold Wing Tour (GL1800)", "Honda", "2018", "sixth generation")],
      dt="generation · trunk or bagger · trim levels"),
    X("Harley-Davidson Electra Glide", "Harley-Davidson", "1965", W + "Harley-Davidson_FL",
-     "Big-twin FL tourer named for its electric starter, the archetypal American full dresser.", [
+     "Big-twin FL tourer named for its electric starter, the classic American full dresser.", [
       ("Hydra-Glide", "Harley-Davidson", "1950", "hydraulic front forks"),
       ("Duo-Glide", "Harley-Davidson", "1958", "rear suspension"),
       ("Electra Glide", "Harley-Davidson", "1965", "electric start"),
@@ -238,7 +238,7 @@ kinds = [
   "s": W + "Café_racer",
   "x": [
    X("Norton Commando", "Norton", "1967", W + "Norton_Commando",
-     "Isolastic-framed parallel-twin roadster, a core British café-racer base.", [
+     "British parallel-twin roadster, 745 then 828 cc; a 961 Café Racer revived the name.", [
       ("750 Fastback", "Norton", "1968", ""),
       ("Roadster", "Norton", "1970", "most popular model"),
       ("Production Racer", "Norton", "1970", "Yellow Peril"),
@@ -252,8 +252,6 @@ kinds = [
       ("Thruxton 1200", "Triumph", "2016", "water-cooled"),
       ("Thruxton R", "Triumph", "", "1200 cc")],
      dt="865 or 1200 cc · bar-end mirrors, fly screen"),
-   X("Moto Guzzi Le Mans", "Moto Guzzi", "1976", W + "Café_racer",
-     "Italian V-twin sport roadster named among classic factory café racers.", [], dt="see Sport motorcycle"),
    X("Harley-Davidson XLCR", "Harley-Davidson", "1977", W + "Café_racer",
      "Sportster-based factory café racer made 1977–1979.", [], dt="black finish"),
    X("Honda GB500 TT", "Honda", "1985", W + "Café_racer",
@@ -284,7 +282,7 @@ kinds = [
       ("Scrambler 900 / 1200", "Triumph", "", "modern range")],
      dt="865, 900 or 1200 cc"),
    X("Honda CL scrambler", "Honda", "", "https://www.bikebound.com/2025/12/08/what-is-a-scrambler/",
-     "Street scrambler derived from Honda road twins, sold in large numbers.", [
+     "Classic Honda street scrambler.", [
       ("CL72", "Honda", "", ""), ("CL77", "Honda", "", "")]),
    X("BMW R nineT Scrambler", "BMW Motorrad", "", W + "BMW_R_nineT",
      "Scrambler variant of the R nineT with a 19-inch front wheel.", [])]},
@@ -319,8 +317,8 @@ kinds = [
       ("Spyder RT", "Can-Am", "", "touring"),
       ("Spyder F3", "Can-Am", "", "sport-cruising"),
       ("Ryker", "Can-Am", "2019", "entry-level line"),
-      ("Canyon", "Can-Am", "", "current model")],
-     dt="600–1330 cc · touring or sport trim"),
+      ("Canyon", "Can-Am", "", "")],
+     dt="touring or sport trim"),
    X("Harley-Davidson Tri Glide Ultra Classic", "Harley-Davidson", "2009", W + "Harley-Davidson_FL",
      "Factory three-wheeler based on the Electra Glide.", [], a="FLHTCUTG")]},
 
