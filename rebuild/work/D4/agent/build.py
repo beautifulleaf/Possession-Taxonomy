@@ -1,138 +1,218 @@
 import json, os
-W='https://en.wikipedia.org/wiki/'
-def V(n,mk,y='',d=''):
-    o={'n':n,'mk':mk}
-    if y: o['y']=y
-    if d: o['d']=d
+W = 'https://en.wikipedia.org/wiki/'
+def V(n, mk='', y='', d=''):
+    o = {'n': n}
+    if mk: o['mk'] = mk
+    if y: o['y'] = y
+    if d: o['d'] = d
     return o
-def X(n,mk,y,s,d,v,dt,a=''):
-    return {'n':n,'a':a,'d':d,'mk':mk,'y':y,'s':s,'v':v,'dt':dt}
-S,C,N,F,P,O,L,H='Sony','Canon','Nikon','Fujifilm','Panasonic','Olympus','Leica','Hasselblad'
-mirrorless={'n':'Mirrorless camera','a':'mirrorless interchangeable-lens camera · MILC',
- 'd':'Digital stills and video body with exchangeable lenses and no reflex mirror; any sensor size, medium format included.',
- 't':['full frame','APS-C','Micro Four Thirds','medium format'],
- 's':'https://www.keh.com/shop/cameras/digital-cameras/mirrorless.html',
- 'x':[
-  X('Panasonic Lumix G / GH',P,'2008',W+'Micro_Four_Thirds_system','Panasonic Micro Four Thirds bodies from the first MFT camera on; GH is the video-led branch.',
-    [V('Lumix DMC-G1',P,'2008','first Micro Four Thirds camera'),V('Lumix GH1',P,'2009','adds HD video'),V('Lumix GH2',P,'2010'),V('Lumix GH3',P),V('Lumix GH4',P),
-     V('Lumix GH5',P,'2017'),V('Lumix GH5S',P,'','filmmaking sister model'),V('Lumix GH5 II',P,'2021'),V('Lumix GH6',P,'2022'),V('Lumix GH7',P),V('Lumix G9',P)],
-    'Micro Four Thirds mount · Four Thirds sensor 17.3 × 13 mm · stills or video-first bodies'),
-  X('Olympus OM-D E-M5',O,'2012',W+'Olympus_OM-D_E-M5','Compact Micro Four Thirds body below the E-M1.',
-    [V('OM-D E-M5',O,'2012'),V('OM-D E-M5 Mark II',O),V('OM-D E-M5 Mark III',O),V('OM-5',O)],
-    'Micro Four Thirds mount · 16–20 MP Four Thirds sensor'),
-  X('Olympus OM-D E-M1',O,'2013',W+'Olympus_OM-D_E-M1','Flagship weather-sealed Micro Four Thirds body; first in the system with on-sensor phase detection.',
-    [V('OM-D E-M1',O,'2013'),V('OM-D E-M1 Mark II',O,'2016'),V('OM-D E-M1 Mark III',O),V('OM-D E-M1X',O,'','integrated grip'),V('OM-1',O)],
-    'Micro Four Thirds mount · 16–20 MP Four Thirds sensor · grip size'),
-  X('Sony α7',S,'2013',W+'Sony_α7','The first full-frame mirrorless series; base, high-resolution R, low-light/video S and compact C branches.',
-    [V('α7',S,'2013'),V('α7R',S,'2013'),V('α7S',S,'2014'),V('α7 II',S,'2014'),V('α7R II',S,'2015'),V('α7S II',S,'2015'),V('α7R III',S,'2017'),
-     V('α7 III',S,'2018'),V('α7R IV',S,'2019'),V('α7S III',S,'2020'),V('α7C',S,'2020'),V('α7 IV',S,'2021'),V('α7R V',S),V('α7C II',S),V('α7CR',S),V('α7 V',S)],
-    'Sony E-mount · full-frame sensor · base / R / S / C branch · generation I–V',a='Alpha 7 · a7'),
-  X('Sony α1',S,'2021',W+'Sony_α1','Sony flagship full-frame body with a 50 MP stacked sensor.',
-    [V('α1',S,'2021'),V('α1 II',S,'2024')],'Sony E-mount · full-frame stacked sensor',a='Alpha 1 · a1'),
-  X('Sony α6000',S,'2014',W+'Sony_α6000','Compact rangefinder-style APS-C body and the long a6000 family that followed it.',
-    [V('α6000',S,'2014'),V('α6300',S,'2016'),V('α6500',S,'2016'),V('α6400',S,'2019'),V('α6100',S),V('α6600',S),V('α6700',S,'2023')],
-    'Sony E-mount · APS-C sensor 23.5 × 15.6 mm · stabilised or not',a='a6000 series'),
-  X('Fujifilm X-Pro',F,'2012',W+'Fujifilm_X-Pro1','Rangefinder-style APS-C body with a hybrid optical/electronic viewfinder; launched the X-mount.',
-    [V('X-Pro1',F,'2012'),V('X-Pro2',F,'2016'),V('X-Pro3',F)],'Fujifilm X-mount · APS-C X-Trans sensor · hybrid viewfinder'),
-  X('Fujifilm X-T',F,'2014',W+'Fujifilm_X-T1','SLR-style APS-C body, the core X-mount series.',
-    [V('X-T1',F,'2014'),V('X-T2',F,'2016'),V('X-T3',F),V('X-T4',F),V('X-T5',F),V('X-T10 / X-T20 / X-T30 / X-T50',F,'','smaller sister line')],
-    'Fujifilm X-mount · APS-C X-Trans sensor'),
-  X('Fujifilm X-E',F,'',W+'Fujifilm_X-mount','Slim rangefinder-style APS-C body below the X-Pro.',
-    [V('X-E1',F),V('X-E2',F),V('X-E2s',F),V('X-E3',F),V('X-E4',F),V('X-E5',F)],'Fujifilm X-mount · APS-C sensor'),
-  X('Fujifilm X-H',F,'',W+'Fujifilm_X-mount','DSLR-style APS-C body, the largest X-mount series.',
-    [V('X-H1',F),V('X-H2',F),V('X-H2S',F)],'Fujifilm X-mount · APS-C sensor'),
-  X('Canon EOS R full frame',C,'2018',W+'Canon_RF_mount','Canon full-frame mirrorless bodies built on the RF mount.',
-    [V('EOS R',C,'2018','first RF body'),V('EOS RP',C,'2019'),V('EOS R5',C,'2020'),V('EOS R6',C,'2020'),V('EOS R5 C',C,'2022'),V('EOS R6 Mark II',C),
-     V('EOS R5 Mark II',C,'2024')],'Canon RF mount · full-frame sensor · resolution vs speed models',a='EOS R5 · EOS R6'),
-  X('Canon EOS R APS-C',C,'2022',W+'Canon_EOS_R7','Canon APS-C mirrorless bodies on the RF mount using RF-S lenses.',
-    [V('EOS R7',C,'2022'),V('EOS R10',C,'2022'),V('EOS R50',C)],'Canon RF mount (RF-S lenses) · APS-C sensor'),
-  X('Nikon Z full frame',N,'2018',W+'Nikon_Z-mount','Nikon FX mirrorless bodies on the wide 16 mm-flange Z mount.',
-    [V('Z6',N,'2018'),V('Z7',N,'2018'),V('Z5',N,'2020'),V('Z6II',N,'2020'),V('Z7II',N,'2020'),V('Z9',N,'2021','flagship without a mechanical shutter'),
-     V('Zf',N,'2023','retro dials'),V('Z8',N,'2023','Z9-generation in a smaller body'),V('Z6III',N,'2024'),V('Z5II',N,'2025')],
-    'Nikon Z mount · FX full-frame sensor 24.5 or 45.7 MP'),
-  X('Nikon Z DX',N,'2019',W+'Nikon_Z-mount','Nikon APS-C (DX) mirrorless bodies on the Z mount.',
-    [V('Z50',N,'2019'),V('Zfc',N,'2021','retro dials'),V('Z30',N,'2022'),V('Z50II',N,'2024')],'Nikon Z mount · DX (APS-C) 20.9 MP sensor'),
-  X('Leica SL',L,'2015',W+'Leica_SL','Leica full-frame mirrorless system camera that gave the L-mount its name.',
-    [V('SL (Typ 601)',L,'2015'),V('SL2',L,'2019'),V('SL2-S',L),V('SL3 (Type 5404)',L)],'Leica L-mount · full-frame sensor'),
-  X('Leica T / CL',L,'2014',W+'L-Mount','Leica APS-C mirrorless bodies; the T introduced the mount later named L-mount.',
-    [V('T (Typ 701)',L,'2014'),V('TL',L),V('TL2',L),V('CL (Typ 7323)',L,'2017','rangefinder-style with built-in viewfinder')],'Leica L-mount · APS-C sensor'),
-  X('Panasonic Lumix S',P,'2019',W+'Panasonic_Lumix_DC-S1','Panasonic full-frame L-mount bodies from the L-Mount Alliance.',
-    [V('Lumix S1',P,'2019'),V('Lumix S1R',P,'2019'),V('Lumix S1H',P,'2019','video-oriented'),V('Lumix S5',P),V('Lumix S5 II',P),V('Lumix S1 II',P)],
-    'Leica L-mount · full-frame sensor 24 or 47 MP'),
-  X('Fujifilm GFX',F,'',W+'Fujifilm_G-mount','Fujifilm medium-format mirrorless bodies on the G mount.',
-    [V('GFX 50S',F),V('GFX 50R',F),V('GFX100',F),V('GFX100S',F),V('GFX50S II',F),V('GFX100 II',F),V('GFX100S II',F),V('GFX100RF',F,'','fixed-lens')],
-    'Fujifilm G mount · 43.8 × 32.9 mm medium-format sensor'),
-  X('Hasselblad X',H,'2016',W+'Hasselblad_X1D','Hasselblad compact medium-format mirrorless bodies on the XCD mount.',
-    [V('X1D-50c',H,'2016'),V('X1D II 50C',H,'2019'),V('907X 50C',H,'2019','modular body with CFV II 50C back'),V('X2D 100C',H,'2022'),V('907X 100C',H,'2024')],
-    'Hasselblad XCD mount · 43.8 × 32.9 mm medium-format sensor 50 or 100 MP'),
- ],
- 'm':[['fp','Sigma']]}
-dslr={'n':'DSLR camera','a':'digital single-lens reflex camera','d':'Digital body with exchangeable lenses and a mirror-and-prism optical viewfinder.',
- 't':['full frame','APS-C','APS-H','Four Thirds'],'s':'https://www.bhphotovideo.com/c/product/1274705-REG/canon_eos_5d_mark_iv.html',
- 'x':[
-  X('Canon EOS-1D',C,'2001',W+'Canon_EOS-1D','Canon professional flagship DSLR line with integrated grip.',
-    [V('EOS-1D',C,'2001'),V('EOS-1Ds',C,'2002'),V('EOS-1D Mark II',C,'2004'),V('EOS-1Ds Mark II',C),V('EOS-1D Mark II N',C),V('EOS-1D Mark III',C),
-     V('EOS-1D Mark IV',C),V('EOS-1D X',C),V('EOS-1D X Mark II',C),V('EOS-1D X Mark III',C)],'Canon EF mount · APS-H or full-frame sensor · Ds = high resolution'),
-  X('Canon EOS 5D',C,'2005',W+'Canon_EOS_5D','Canon full-frame DSLR line below the EOS-1D flagships.',
-    [V('EOS 5D',C,'2005'),V('EOS 5D Mark II',C,'2008'),V('EOS 5D Mark III',C,'2012'),V('EOS 5DS / 5DS R',C,'2015'),V('EOS 5D Mark IV',C,'2016')],
-    'Canon EF mount · full-frame sensor'),
-  X('Nikon D3',N,'2007',W+'Nikon_D3','Nikon first full-frame (FX) professional DSLR.',
-    [V('D3',N,'2007'),V('D3X',N,'2008','24.5 MP'),V('D3S',N,'2009'),V('D4',N,'2012','successor')],'Nikon F mount · FX full-frame sensor'),
-  X('Nikon D700 / D800 / D850',N,'2008',W+'Nikon_D850','Nikon smaller full-frame DSLR line, from the D3-sensored D700 to the 45 MP D850.',
-    [V('D700',N,'2008','D3 sensor'),V('D800',N,'2012'),V('D810',N,'2014'),V('D850',N,'2017')],'Nikon F mount · FX full-frame sensor 12–45 MP'),
-  X('Pentax K-1','Pentax','2016',W+'Pentax_K-1','Pentax full-frame DSLR for the K mount.',
-    [V('K-1','Pentax','2016'),V('K-1 Mark II','Pentax','2018')],'Pentax K mount (KAF2) · full-frame sensor'),
-  X('Pentax K-3','Pentax','2013',W+'Pentax_K-3','Pentax high-end APS-C DSLR.',
-    [V('K-3','Pentax','2013'),V('K-3 II','Pentax'),V('K-3 Mark III','Pentax')],'Pentax K mount (KAF3/KAF2) · APS-C sensor'),
- ],
- 'm':[['N Digital','Contax'],['Digilux 3','Leica'],['E-300','Olympus'],['DMC-L1','Panasonic']]}
-rf={'n':'Digital rangefinder camera','a':'','d':'Digital body with a rangefinder focusing and framing window and exchangeable lenses.',
- 't':['APS-H','APS-C','full frame','monochrome sensor'],'s':'https://www.keh.com/shop/leica-m11-digital-camera-body-black-finish-60mp-20200.html',
- 'x':[
-  X('Leica M digital',L,'2006',W+'Leica_M8','The digital continuation of the Leica M rangefinder, generation by generation.',
-    [V('M8',L,'2006','APS-H, 1.33 crop'),V('M8.2',L,'2008'),V('M9',L,'2009','first full-frame digital M, Kodak CCD'),V('M9 Titanium',L,'2010','500 made'),V('M9-P',L,'2011'),
-     V('M-E',L,'2012'),V('M (Typ 240)',L,'2012','CMOS sensor'),V('M-P (Typ 240)',L,'2014'),V('M (Typ 262)',L),V('M-D (Typ 262)',L),
-     V('M10',L,'2017'),V('M10-P',L,'2018'),V('M10-D',L,'2018'),V('M10-R',L,'2020'),V('M11',L,'2022','60 MP BSI'),V('M11 (Type 2416)',L)],
-    'Leica M mount · APS-H then full-frame sensor · black or silver chrome'),
-  X('Leica M Monochrom',L,'2012',W+'Leica_M_Monochrom','Leica M with a black-and-white-only sensor, no colour filter array.',
-    [V('M Monochrom',L,'2012','M9-based CCD'),V('M Monochrom (Typ 246)',L,'2015'),V('M10 Monochrom',L,'2020','41 MP')],'Leica M mount · full-frame monochrome sensor'),
-  X('Epson R-D1','Epson','2004',W+'Epson_R-D1','The first commercially produced digital rangefinder, built with Cosina.',
-    [V('R-D1','Epson','2004'),V('R-D1s','Epson','2006','firmware upgrade'),V('R-D1x','Epson','2009','Japan only'),V('R-D1xG','Epson','2009','removable grip')],
-    'Leica M mount · APS-C CCD 1.53 crop · analogue-style dials'),
-  X('Pixii','Pixii','2020',W+'Pixii_(cameras)','Screenless, upgradeable French digital rangefinder that relies on a phone app.',
-    [V('A1112','Pixii','2020','12 MP, global shutter'),V('A1571','Pixii','2021','26 MP'),V('A2572','Pixii','2022'),V('A2572+ (Pixii+)','Pixii','2023'),V('Pixii Max','Pixii','2024','full frame')],
-    'Leica M mount · APS-C or full-frame sensor · internal storage only'),
+def X(n, d, mk, y, s, v=(), a='', dt=''):
+    o = {'n': n, 'a': a, 'd': d, 'mk': mk, 'y': y, 's': s, 'v': list(v)}
+    if dt: o['dt'] = dt
+    return o
+
+H, M, P, B, R = 'Hasselblad', 'Mamiya', 'Pentax', 'Bronica', 'Rollei'
+
+mf_slr = {
+ 'n': 'Medium-format SLR camera', 'a': 'medium-format reflex · 120 SLR',
+ 'd': 'Single-lens reflex system camera for 120/220 roll film, usually with interchangeable lenses, finders and film backs.',
+ 't': ['6×4.5 cm (645)', '6×6 cm', '6×7 cm'], 's': W + 'Medium_format',
+ 'x': [
+  X('Hasselblad V system', 'Modular 6×6 SLR with interchangeable lenses, finders and film magazines; the 500-series bodies are the reference.', H, '1957', W + 'Hasselblad',
+    [V('1600F', H, '1948/49', 'first Hasselblad focal-plane body'), V('1000F', H, '1953'), V('500C', H, '1957', 'leaf-shutter lenses; 1957–1970'),
+     V('500EL', H, '1964', 'motorised EL series'), V('500C/M', H, '1970', '1970–1994'), V('2000 FC', H, '1977', 'focal-plane shutter'),
+     V('503CX', H, '1988'), V('205 TCC', H, '1991'), V('201 F', H, '1994'), V('501C', H, '1994'), V('503CW', H, '1996', '1996–2013'),
+     V('501CM', H, '1997'), V('555ELD', H, '1998'), V('SWC', H, '1959', 'Super Wide-angle series, 1959–1979')],
+    a='Hasselblad 500 series', dt='body series C, CM, CW, EL, F · chrome or black · finders and magazines'),
+  X('Pentax 6×7 / 67', 'Medium-format SLR shaped like an enlarged 35 mm SLR, giving 56 × 70 mm frames on 120 and 220 film.', P, '1969', W + 'Pentax_6%C3%977',
+    [V('Asahi Pentax 6×7', P, '1969', 'first generation; Honeywell Pentax 6×7 in the US'), V('6×7 MLU', P, '1976', 'mirror lock-up'),
+     V('Pentax 67', P, '1990', 'renamed, minor updates'), V('Pentax 67 II', P, '1999', 'fourth generation')],
+    a='Pentax 67', dt='prism or waist-level finder · wooden grip'),
+  X('Mamiya RB67', 'Mechanical 6×7 studio SLR with bellows focusing and a rotating back for portrait or landscape frames.', M, '1970', W + 'Mamiya_RB67',
+    [V('RB67 Professional', M, '1970'), V('RB67 Pro-S', M, '1974'), V('RB67 Pro-SD', M, '1990')],
+    dt='backs 6×7, 6×6, 6×4.5 · 120/220'),
+  X('Mamiya RZ67', 'Electronic successor to the RB67, with lens shutters cocked and fired from the body and a lighter plastic exterior.', M, '1982', W + 'Mamiya_RZ67',
+    [V('RZ67 Professional', M, '1982'), V('RZ67 Professional II', M, '1993', 'half-step shutter speeds'), V('RZ67 Professional IID', M, '2004')]),
+  X('Bronica SQ', 'Modular 6×6 SLR system with leaf-shutter lenses, the lower-cost rival to the Hasselblad V system.', B, '1980', W + 'Bronica',
+    [V('SQ', B, '1980'), V('SQ-A', B, '1982'), V('SQ-Ai', B, '1990'), V('SQ-B', B, '1996')]),
+  X('Bronica ETR', 'Modular 6×4.5 SLR system with leaf-shutter lenses and interchangeable backs.', B, '1976', W + 'Bronica',
+    [V('ETR', B, '1976'), V('ETRS', B, '1978'), V('ETRSi', B, '1988')]),
+  X('Pentax 645', 'Handheld 6×4.5 SLR with a built-in motor drive, taking 120, 220 and 70 mm film.', P, '1984', W + 'Pentax_645',
+    [V('645', P, '1984'), V('645N', P, '1997', 'autofocus, matrix metering'), V('645NII', P, '2001', 'mirror lock-up')]),
+  X('Mamiya 645', 'Modular 6×4.5 SLR system from Mamiya, later with an autofocus line.', M, '1975', W + 'Mamiya',
+    [V('M645', M, '1975'), V('645AF', M, '1999', 'autofocus')]),
+  X('Rolleiflex SL66', '6×6 SLR with bellows focusing and lenses that tilt up to 8 degrees for Scheimpflug control.', R, '1966', W + 'Rolleiflex_SL66',
+    [V('SL66', R, '1966'), V('SL66E', R, '1982', 'TTL metering and flash'), V('SL66X', R, '1982', 'TTL flash only'), V('SL66SE', R, '1982', 'spot and centre-weighted meter; to 1992')]),
+  X('Bronica S series', 'Early focal-plane 6×6 Bronica SLRs.', B, '1961', W + 'Bronica',
+    [V('S', B, '1961'), V('S2', B, '1965'), V('EC', B, '1972')]),
+  X('Bronica GS-1', 'Modular 6×7 SLR system from Bronica.', B, '1983', W + 'Bronica', [V('GS-1', B, '1983', 'made to 2002')]),
  ]}
-back={'n':'Digital back','a':'','d':'Digital capture unit with sensor that replaces the film back of a medium- or large-format camera.',
- 't':['colour','achromatic (monochrome)','multi-shot'],'s':'https://heritage-digitaltransitions.com/digital-backs/',
- 'x':[
-  X('Phase One P / IQ backs','Phase One','2004',W+'Phase_One_(company)','Phase One medium-format digital backs, from the P series to the IQ4.',
-    [V('P20 / P25','Phase One','2004'),V('P45+','Phase One','2007'),V('P65+','Phase One','2008'),V('IQ180','Phase One','2011'),V('IQ260 Achromatic','Phase One','2013'),
-     V('IQ3 100MP','Phase One','2016'),V('IQ3 100MP Trichromatic','Phase One','2017'),V('IQ4 150MP','Phase One','2018'),V('IQ4 150MP Achromatic','Phase One','2018'),
-     V('IQ4 100MP Trichromatic','Phase One','2018')],'Phase One XF/XT camera systems and other medium-format bodies · colour, achromatic or trichromatic'),
-  X('Hasselblad CFV',H,'2006',W+'Hasselblad','Digital backs that fit Hasselblad V-system film cameras.',
-    [V('CFV-16',H,'2006','supplied with 503CWD'),V('CFV-50c',H,'2014'),V('CFV II 50C',H,'2019'),V('CFV 100C',H,'2024')],'Hasselblad V-system back interface · 50 or 100 MP medium-format sensor'),
- ]}
-K='knowledge'
-brands=[
- {'n':'Sony','c':'Japan','f':'1946','seg':'Mainstream to professional','d':'Electronics group whose Alpha cameras use the E-mount.','lines':['Alpha (E-mount)'],'sig':['Sony α7','Sony α1','Sony α6000'],'s':K},
- {'n':'Canon','c':'Japan','f':'1937','seg':'Mainstream to professional','d':'Camera and imaging maker with the EF and RF mounts.','lines':['EOS (EF, RF)'],'sig':['Canon EOS 5D','Canon EOS-1D','Canon EOS R full frame'],'rel':['Nikon'],'s':K},
- {'n':'Nikon','c':'Japan','f':'1917','seg':'Mainstream to professional','d':'Optics and camera maker with the F and Z mounts.','lines':['D (F mount)','Z'],'sig':['Nikon D3','Nikon Z full frame'],'rel':['Canon'],'s':K},
- {'n':'Fujifilm','c':'Japan','f':'1934','seg':'Enthusiast','d':'Film and imaging company making X (APS-C) and GFX (medium format) systems.','lines':['X','GFX'],'sig':['Fujifilm X-T','Fujifilm X-Pro','Fujifilm GFX'],'s':K},
- {'n':'Panasonic','c':'Japan','f':'1918','seg':'Mainstream to video','d':'Electronics group selling cameras as Lumix; co-founder of Micro Four Thirds and L-Mount Alliance member.','lines':['Lumix G','Lumix S'],'sig':['Panasonic Lumix G / GH','Panasonic Lumix S'],'rel':['Olympus','Leica'],'s':K},
- {'n':'Olympus','c':'Japan','f':'1919','seg':'Enthusiast','d':'Optics maker whose camera business continued as OM System from 2021.','lines':['OM-D'],'sig':['Olympus OM-D E-M1','Olympus OM-D E-M5'],'rel':['Panasonic'],'s':K},
- {'n':'Leica','c':'Germany','seg':'Luxury','d':'German camera maker of the M rangefinder and the L-mount SL system.','lines':['M','SL','CL / TL'],'sig':['Leica M digital','Leica M Monochrom','Leica SL'],'rel':['Panasonic'],'s':K},
- {'n':'Pentax','c':'Japan','seg':'Enthusiast','d':'Camera brand of the K-mount DSLR, owned by Ricoh.','lines':['K'],'sig':['Pentax K-1','Pentax K-3'],'s':K},
- {'n':'Hasselblad','c':'Sweden','f':'1841','seg':'Luxury medium format','d':'Swedish medium-format camera maker of the V, H and X systems.','lines':['V','H','X','907X'],'sig':['Hasselblad X','Hasselblad CFV'],'s':W+'Hasselblad'},
- {'n':'Epson','c':'Japan','seg':'Electronics','d':'Printer and electronics maker that produced the R-D1 rangefinder with Cosina.','lines':['R-D1'],'sig':['Epson R-D1'],'s':W+'Epson_R-D1'},
- {'n':'Pixii','c':'France','seg':'Independent','d':'French start-up making a screenless digital rangefinder for M-mount lenses.','sig':['Pixii'],'s':W+'Pixii_(cameras)'},
- {'n':'Phase One','c':'Denmark','seg':'Professional medium format','d':'Copenhagen maker of medium-format digital backs and camera systems.','lines':['P','P+','IQ','XF','XT'],'sig':['Phase One P / IQ backs'],'s':W+'Phase_One_(company)'},
+
+mf_rf = {
+ 'n': 'Medium-format rangefinder camera', 'a': 'medium-format RF · 120 rangefinder',
+ 'd': 'Rangefinder-focused camera for 120/220 roll film, with fixed or interchangeable lenses and no mirror.',
+ 't': ['6×4.5 cm (645)', '6×6 cm', '6×7 cm', '6×9 cm', 'Folding or rigid body'], 's': W + 'Medium_format',
+ 'x': [
+  X('Mamiya 7', 'Interchangeable-lens 6×7 rangefinder with leaf-shutter lenses and frame lines for the lens fitted.', M, '1995', W + 'Mamiya_7',
+    [V('Mamiya 7', M, '1995'), V('Mamiya 7 II', M, '1999', 'improved finder, multiple exposure')], dt='black or champagne · optional 35 mm panoramic adapter'),
+  X('Mamiya 6', '6×6 rangefinder with a collapsing lens mount and built-in dark slide for lens changes mid-roll.', M, '1989', W + 'Mamiya_6',
+    [V('Mamiya 6', M, '1989'), V('Mamiya 6 MF', M, '1993', '6×4.5 and panorama adapters')]),
+  X('Plaubel Makina', 'Folding medium-format press rangefinder with a leaf shutter and collapsible bellows.', 'Plaubel', '1912', W + 'Plaubel_Makina',
+    [V('Makina (German)', 'Plaubel', '1912', 'Plaubel & Co., Frankfurt, to 1953; Anticomar lens'), V('Makina 67', 'Plaubel', '', 'Japanese redesign from 1978, Nikkor 80 mm f/2.8'),
+     V('Makina 670', 'Plaubel', '', 'Nikkor 80 mm f/2.8; 120 and 220'), V('Makina 69W Proshift', 'Plaubel', '', 'rigid wide-angle, 47 mm Super-Angulon')]),
+  X('Fujifilm GW690 family', 'Large fixed-lens 6×9 and 6×7 rangefinders from Fujifilm.', 'Fujifilm', '', W + 'Fujifilm',
+    [V('GW690', 'Fujifilm'), V('GW670', 'Fujifilm')]),
+  X('Bronica RF645', 'Interchangeable-lens 6×4.5 rangefinder from Bronica.', B, '2000', W + 'Bronica', [V('RF645', B, '2000', 'made to 2005')]),
+  X('Mamiya Press', 'Modular medium-format press camera with rangefinder and interchangeable lenses and backs.', M, '1962', W + 'Mamiya',
+    [V('Mamiya Press', M, '1962'), V('Super / Universal', M, '', 'later Press-series bodies')]),
+ ],
+ 'm': [['GA645', 'Fujifilm'], ['GF670', 'Fujifilm']]}
+
+tlr_m = [['Yashica 44', 'Yashica'], ['Yashica 635', 'Yashica'], ['Ciro-flex', 'Ciro Cameras'], ['Argus 75', 'Argus'], ['Duaflex IV', 'Kodak'],
+         ['Koniflex', 'Konica'], ['Gemflex', 'Showa Optica Works']]
+tlr = {
+ 'n': 'Twin-lens reflex camera', 'a': 'TLR',
+ 'd': 'Film camera with two matched lenses, one for the waist-level viewing screen and one for taking the picture.',
+ 't': ['6×6 cm on 120', '4×4 cm on 127', 'Interchangeable-lens'], 's': 'https://kamerastore.com/en-us/products/rollei-rolleiflex-2-8f',
+ 'x': [
+  X('Rolleiflex TLR', 'The 6×6 twin-lens reflex that set the pattern for mass-market TLRs from 1929.', R, '1929', W + 'Rolleiflex',
+    [V('Original (K1)', R, '1929'), V('Standard', R, '1932'), V('Automat', R, '1937'), V('2.8E', R, '1956'), V('3.5F', R, '1958'),
+     V('Tele Rolleiflex', R, '1959'), V('2.8F', R, '1960', 'Zeiss Planar or Schneider Xenotar 80 mm f/2.8; to 1981'), V('3.5T', R, '', 'from old data'),
+     V('Wide Rolleiflex', R, '1961'), V('Baby Rolleiflex', R, '1931', '4×4 on 127; post-war 4×4 1957'), V('2.8GX', R, '1989'), V('2.8FX', R, '2002')],
+    dt='Planar or Xenotar/Tessar or Xenar taking lens · with or without meter'),
+  X('Rolleicord', 'Simpler, cheaper Rollei TLR for amateurs, made alongside the Rolleiflex.', R, '1933', W + 'Rolleicord',
+    [V('Rolleicord I', R, '1933', 'Art Deco front'), V('Rolleicord III', R, '1950'), V('Rolleicord IV', R, '1953'), V('Rolleicord V', R, '1954'),
+     V('Rolleicord Va', R, '1957'), V('Rolleicord Vb', R, '1962', 'last model, to 1977')]),
+  X('Mamiya C series', 'Professional TLRs with truly interchangeable lens pairs and bellows focusing.', M, '1956', W + 'Mamiya',
+    [V('Mamiyaflex C Professional', M, '1956'), V('C2', M, '1958'), V('C3', M, '1962'), V('C33', M, '1965'), V('C22', M, '1966'),
+     V('C220', M, '1968'), V('C330', M, '1969'), V('C330f', M, '1975'), V('C220f', M, '1982'), V('C330s', M, '1983')]),
+  X('Yashica-Mat', 'Affordable crank-advance 6×6 TLR on the Rolleiflex pattern.', 'Yashica', '1957', W + 'Yashica',
+    [V('Yashicaflex', 'Yashica', '1953', 'earlier knob-wind line'), V('Yashica-Mat', 'Yashica', '1957'), V('Yashica-Mat 124', 'Yashica', '1968'),
+     V('Yashica-Mat 124 G', 'Yashica', '1970')]),
+  X('Voigtländer Superb', 'Early 6×6 TLR with parallax correction.', 'Voigtländer', '1933', W + 'Twin-lens_reflex_camera', [V('Superb', 'Voigtländer', '1933')]),
+  X('Lubitel', 'Low-cost Soviet bakelite TLR for 120 film, based on the Voigtländer Brillant.', 'LOMO', '1950', W + 'Lubitel',
+    [V('Lubitel', 'LOMO', '1950'), V('Lubitel-2', 'LOMO', '1955'), V('Lubitel-166', 'LOMO', '1977'), V('Lubitel-166 B', 'LOMO', '1980'),
+     V('Lubitel-166 Universal', 'LOMO', '1984'), V('Lubitel-166+', 'Lomography', '2008', 'sold by the Lomographic Society')]),
+ ],
+ 'm': tlr_m}
+
+fold = {
+ 'n': 'Box or folding camera', 'a': 'box camera · folding camera · folder',
+ 'd': 'Simple box-shaped camera, or one with a folding bellows body, mostly for roll film.',
+ 't': ['Box camera', 'Folding roll-film camera', 'Folding 35 mm camera', 'With coupled rangefinder'],
+ 's': 'https://kamerastore.com/en-us/products/zeiss-ikon-nettar-518-16',
+ 'x': [
+  X('Kodak Brownie', 'Cheap cardboard and later metal or plastic box cameras that brought roll-film photography to everyone.', 'Kodak', '1900', W + 'Brownie_(camera)',
+    [V('Brownie', 'Kodak', '1900', 'original cardboard box'), V('Brownie No. 2', 'Kodak', '1901', 'to 1935'), V('Six-20 Flash Brownie', 'Kodak', '1940'),
+     V('Brownie Hawkeye Flash Model', 'Kodak', '1950', 'to 1961')]),
+  X('Zeiss Ikon Ikonta', 'Self-erecting folding roll-film cameras in several frame sizes; the Super Ikonta adds a coupled rangefinder.', 'Zeiss Ikon', '1929',
+    'https://phsne.org/the-ikonta-521-16its-predecessor-and-successors/',
+    [V('Ikonta 520', 'Zeiss Ikon', '1929', 'variants A–D by frame size'), V('Ikonta 520/16', 'Zeiss Ikon', '1938', '6×6'),
+     V('Ikonta 521/16', 'Zeiss Ikon', '1948', '6×6 on 120; to 1953'), V('Super Ikonta', 'Zeiss Ikon', '', 'coupled rangefinder')]),
+  X('Zeiss Ikon Nettar', 'Simpler, cheaper Zeiss Ikon folding camera for 120 film.', 'Zeiss Ikon', '1949', 'https://kamerastore.com/en-us/products/zeiss-ikon-nettar-518-16',
+    [V('Nettar 518/16', 'Zeiss Ikon', '1949', 'from old data')]),
+  X('Zeiss Ikon Box-Tengor', 'Zeiss Ikon roll-film box camera derived from an earlier Goerz design.', 'Zeiss Ikon', 'c. 1932', W + 'Zeiss_Ikon',
+    [V('Box Tengor Model 54', 'Zeiss Ikon', 'c. 1932')]),
+  X('Kodak Retina (folding)', 'Compact folding 35 mm cameras from Kodak AG in Stuttgart, later with coupled rangefinders.', 'Kodak', '1934', W + 'Kodak_Retina',
+    [V('Retina (Nr. 117)', 'Kodak', '1934', 'original'), V('Retina II', 'Kodak', '1936', 'coupled rangefinder'), V('Retina IIa', 'Kodak', '1939'),
+     V('Retina IIIc', 'Kodak', '1954'), V('Retina IIIC', 'Kodak', '1957')]),
+  X('Voigtländer Bessa', 'Voigtländer folding roll-film camera line, revived as the 6×6/6×7 Bessa III.', 'Voigtländer', '', W + 'Voigtl%C3%A4nder',
+    [V('Bessa III', 'Voigtländer', '', 'Cosina-made, 6×6 or 6×7 on 120/220')]),
+ ],
+ 'm': [['Panda', 'Ansco'], ['Midget model 22', 'Ensign'], ['Pocket Kodak', 'Kodak'], ['Model 203', 'Seagull Camera']]}
+
+view = {
+ 'n': 'View camera', 'a': 'large-format camera · technical camera',
+ 'd': 'Large-format camera with bellows, ground-glass focusing and lens movements, for sheet film.',
+ 't': ['Monorail', 'Field (flatbed)', 'Press camera', '4×5 in', '5×7 in', '8×10 in'],
+ 's': 'https://kamerastore.com/en-gb/products/chamonix-45h-1-large-format',
+ 'x': [
+  X('Linhof Technika', 'All-metal folding field camera with lens movements and a coupled rangefinder, still in production.', 'Linhof', '1934', W + 'Linhof',
+    [V('Technika', 'Linhof', '1934', 'first all-metal folding field camera'), V('Master Technika Classic', 'Linhof'), V('Master Technika 2000', 'Linhof'),
+     V('Master Technika 3000', 'Linhof')]),
+  X('Sinar monorail system', 'Modular studio monorail view camera system from Zürich.', 'Sinar', '1947', W + 'Sinar_AG',
+    [V('Norma', 'Sinar', '1947', 'to 1969'), V('Sinar P', 'Sinar', '1970'), V('Sinar F', 'Sinar', '', 'lightweight field series'),
+     V('Sinar X', 'Sinar', '', 'lower-cost alternative to P2'), V('P2 / F2', 'Sinar', '1980s')]),
+  X('Graflex Speed Graphic', 'American press camera with focal-plane and lens shutters, the standard news camera for decades.', 'Graflex', '1912', W + 'Speed_Graphic',
+    [V('Anniversary Speed Graphic', 'Graflex', '1940'), V('Pacemaker Speed Graphic', 'Graflex', '1947', 'to 1970'),
+     V('Pacemaker Crown Graphic', 'Graflex', '1947', 'no focal-plane shutter; to 1973')], dt='3¼×4¼ or 4×5 in'),
+  X('Linhof Technikardan', 'Linhof folding monorail camera for field and studio.', 'Linhof', '', W + 'Linhof',
+    [V('Technikardan 45', 'Linhof'), V('Technikardan 45S', 'Linhof'), V('Technikardan 23', 'Linhof'), V('Technikardan 23S', 'Linhof')]),
+  X('Chamonix field camera', 'Modern wood-and-metal 4×5 folding field camera.', 'Chamonix', '', 'https://kamerastore.com/en-gb/products/chamonix-45h-1-large-format',
+    [V('45H-1', 'Chamonix', '', 'teak or cherry')]),
+  X('Intrepid', 'Lightweight, low-cost field camera hand-assembled in Brighton.', 'Intrepid', '', 'https://intrepidcamera.co.uk/',
+    [V('Intrepid 4x5', 'Intrepid'), V('Intrepid 5x7', 'Intrepid'), V('Intrepid 8x10', 'Intrepid'), V('Black Edition', 'Intrepid'), V('Hardwood Edition', 'Intrepid')]),
+ ],
+ 'm': [['Taro-Tenax 9x12', 'Goerz']]}
+
+pano = {
+ 'n': 'Panoramic film camera', 'a': 'panoramic camera',
+ 'd': 'Film camera that exposes a wide panoramic frame, by a swinging lens, a rotating body or a wide fixed lens.',
+ 't': ['Swing-lens', 'Full-rotation', 'Fixed-lens (flatback)'], 's': 'https://www.keh.com/shop/cameras/film-cameras/35mm.html',
+ 'x': [
+  X('Hasselblad XPan', 'Interchangeable-lens 35 mm rangefinder that switches between standard and panoramic frames.', H, '1998', W + 'Hasselblad_XPan',
+    [V('XPan', H, '1998', 'rebadged Fujifilm TX-1'), V('XPan II', H, '2003', 'rebadged Fujifilm TX-2')]),
+  X('Widelux', 'Fully mechanical swing-lens panoramic camera.', 'Panon Camera Shoko', '1958', W + 'Widelux',
+    [V('F6', 'Panon Camera Shoko', 'c. 1970'), V('F7', 'Panon Camera Shoko', '1979'), V('F8', 'Panon Camera Shoko', '1988'),
+     V('1500', 'Panon Camera Shoko', '1988', '50×122 mm on 120')]),
+  X('Horizon', 'Russian swing-lens 35 mm panoramic camera covering 120 degrees on 24×58 mm frames.', 'KMZ', '1966', W + 'Horizon_(camera)',
+    [V('FT-2', 'KMZ', '1958', 'predecessor'), V('Horizont', 'KMZ', '1966'), V('Horizon 202', 'KMZ', '1989', 'plastic body'),
+     V('Horizon S3Pro', 'KMZ', '2003'), V('Horizon Perfekt', 'KMZ', '2005', 'sold with Lomography')]),
+  X('Noblex', 'German motor-driven swing-lens panoramic camera made for several film formats.', 'Kamera-Werkstätten', '', W + 'Noblex_camera', []),
+  X('Fuji G617', 'Fixed-lens 6×17 cm panoramic camera for 120 film.', 'Fujifilm', '', W + 'Panoramic_photography',
+    [V('G617', 'Fujifilm'), V('GX617', 'Fujifilm', '', 'interchangeable lenses')]),
+  X('Seitz Roundshot', 'Full-rotation panoramic camera capable of 360-degree exposures.', 'Seitz', '1988', W + 'Panoramic_photography', []),
+  X('Lomography Spinner 360°', 'Hand-spun full-rotation 35 mm panoramic camera.', 'Lomography', '2010', W + 'Panoramic_photography', []),
+ ],
+ 'm': [['Technorama 617', 'Linhof'], ['612PC', 'Linhof'], ['SW612', 'Horseman'], ['Art Panorama 617', 'Tomiyama']]}
+
+def Bd(n, c, f, seg, d, s, sig=(), lines=(), rel=()):
+    o = {'n': n, 'c': c, 'f': f, 'seg': seg, 'd': d, 's': s}
+    if sig: o['sig'] = list(sig)
+    if lines: o['lines'] = list(lines)
+    if rel: o['rel'] = list(rel)
+    return o
+K = 'knowledge'
+brands = [
+ Bd(H, 'Sweden', '1941', 'Medium-format cameras', 'Gothenburg maker of medium-format cameras, famed for the V system and its use on the Apollo missions.', W + 'Hasselblad',
+    ['Hasselblad V system', 'Hasselblad XPan'], ['V system (500 series)', 'XPan'], ['Fujifilm']),
+ Bd(M, 'Japan', '1940', 'Medium-format cameras', 'Japanese maker of professional medium-format SLRs, TLRs and rangefinders.', W + 'Mamiya',
+    ['Mamiya RB67', 'Mamiya RZ67', 'Mamiya 7', 'Mamiya C series'], ['RB67', 'RZ67', '645', 'C series', '6', '7', 'Press']),
+ Bd(P, 'Japan', '1919', 'Cameras', 'Japanese camera maker (Asahi Optical) whose medium-format line comprised the 6×7/67 and 645.', K, ['Pentax 6×7 / 67', 'Pentax 645']),
+ Bd(B, 'Japan', '', 'Medium-format cameras', 'Tokyo maker of modular medium-format SLR systems, later owned by Tamron.', W + 'Bronica',
+    ['Bronica SQ', 'Bronica ETR', 'Bronica RF645'], ['S', 'ETR', 'SQ', 'GS-1', 'RF645'], [H]),
+ Bd(R, 'Germany', '1920', 'Cameras', 'Braunschweig maker (Franke & Heidecke) of the Rolleiflex and Rolleicord TLRs.', W + 'Rolleiflex',
+    ['Rolleiflex TLR', 'Rolleicord', 'Rolleiflex SL66'], ['Rolleiflex', 'Rolleicord', 'SL66']),
+ Bd('Fujifilm', 'Japan', '1934', 'Imaging and film', 'Japanese film and camera maker; its professional film cameras include the GW690 family and G617.', W + 'Fujifilm',
+    ['Fujifilm GW690 family', 'Fuji G617'], rel=[H]),
+ Bd('Plaubel', 'Germany', '', 'Cameras', 'Frankfurt camera maker of the Makina folding press cameras; the name later passed to Japanese owners.', W + 'Plaubel_Makina', ['Plaubel Makina']),
+ Bd('Yashica', 'Japan', '1949', 'Cameras', 'Japanese camera maker known for affordable TLRs such as the Yashica-Mat.', W + 'Yashica', ['Yashica-Mat']),
+ Bd('LOMO', 'Russia', '1914', 'Cameras and optics', 'St Petersburg optical works that made the Lubitel TLRs.', K, ['Lubitel'], rel=['Lomography']),
+ Bd('Lomography', 'Austria', '1992', 'Analogue cameras', 'Vienna-based analogue photography company selling revived and new film cameras.', K,
+    ['Lomography Spinner 360°'], rel=['LOMO', 'KMZ']),
+ Bd('Zeiss Ikon', 'Germany', '1926', 'Cameras', 'Dresden camera maker formed by merger in 1926; makers of the Ikonta, Nettar and Box-Tengor.', W + 'Zeiss_Ikon',
+    ['Zeiss Ikon Ikonta', 'Zeiss Ikon Nettar', 'Zeiss Ikon Box-Tengor']),
+ Bd('Voigtländer', 'Austria', '1756', 'Cameras and optics', 'Optical firm founded in Vienna, maker of the Bessa folders and Superb TLR.', W + 'Voigtl%C3%A4nder',
+    ['Voigtländer Bessa', 'Voigtländer Superb']),
+ Bd('Kodak', 'United States', '1888', 'Film and cameras', 'Rochester film and camera company behind the Brownie and, through Kodak AG, the Retina.', K,
+    ['Kodak Brownie', 'Kodak Retina (folding)']),
+ Bd('Linhof', 'Germany', '1887', 'Large-format cameras', 'Munich maker of technical and view cameras, founded by Valentin Linhof.', W + 'Linhof',
+    ['Linhof Technika', 'Linhof Technikardan']),
+ Bd('Sinar', 'Switzerland', '1948', 'Large-format cameras', 'Zürich maker of modular monorail view cameras, founded by Carl Hans.', W + 'Sinar_AG', ['Sinar monorail system']),
+ Bd('Graflex', 'United States', '', 'Press cameras', 'Rochester maker of the Speed Graphic and Crown Graphic press cameras, dissolved in 1973.', W + 'Speed_Graphic', ['Graflex Speed Graphic']),
+ Bd('Chamonix', 'China', '', 'Large-format cameras', 'Maker of wood-and-metal large-format field cameras.', K, ['Chamonix field camera']),
+ Bd('Intrepid', 'United Kingdom', '', 'Large-format cameras', 'Brighton maker of lightweight, low-cost large-format field cameras.', 'https://intrepidcamera.co.uk/', ['Intrepid']),
+ Bd('Panon Camera Shoko', 'Japan', '', 'Panoramic cameras', 'Japanese maker of the Widelux swing-lens panoramic cameras.', W + 'Widelux', ['Widelux']),
+ Bd('KMZ', 'Russia', '1942', 'Cameras and optics', 'Krasnogorsk mechanical works, maker of the Horizon swing-lens panoramic cameras.', W + 'Horizon_(camera)', ['Horizon'], rel=['Lomography']),
+ Bd('Kamera-Werkstätten', 'Germany', '', 'Panoramic cameras', 'German maker of the Noblex motor-driven panoramic cameras.', W + 'Noblex_camera', ['Noblex']),
+ Bd('Seitz', 'Switzerland', '', 'Panoramic cameras', 'Swiss maker of the Roundshot rotating panoramic cameras.', K, ['Seitz Roundshot']),
 ]
-notes=('Kept all four planned kinds. Flat old model lists became archetype versions (system/mount families). Removed old "r" ranges (now archetypes/brand lines). '
- 'Dropped from old data only by merging: Sony a7 II/III/C/C II/R II/R III/R V/S III, a1, a6400/a6600, Canon R5 Mk II/R50/R6/R6 Mk II/R7, Fujifilm X-E4/X-E5/X-T2, Nikon Z50/Z6, Leica SL3, GH5, EOS 5D Mk IV, EOS-1Ds Mk II, D3, Leica M8–M11/Monochrom, R-D1/R-D1s, Pixii A1112, IQ4 backs all appear as versions. '
- 'Left out: Sony a7R VI (year uncertain on page), Fujifilm entry-level X-A/X-M/X-S lines and Canon R3/R8/R1/R100 (no retrieved years and not in brief; could be added), Leica M11 variants (M11-P, M11 Monochrom, M11-D, M11-V: not on the retrieved page), Pentax K-3 Mark III Monochrome, Hasselblad H6D (camera system, not a back), OM System OM-3. '
- 'Years omitted where retrieved pages gave none. Olympus kept as maker name for OM-D (OM System brand noted in register). Parallel web_fetch unavailable (402); all pages via WebFetch.')
-out={'kinds':[mirrorless,dslr,rf,back],'brands':brands,'traditions':[],'notes':notes}
-p='work/D4/shelves/00_00.json'; t=p+'.tmp'
-json.dump(out,open(t,'w'),ensure_ascii=False,indent=1); os.replace(t,p)
-print('archetypes',sum(len(k['x']) for k in out['kinds']))
+notes = ("All six planned kinds kept; old models folded into archetype versions (Rolleiflex, Rolleicord, Mamiya C, Lubitel, Nettar, Bessa III, Technika, Sinar F, Chamonix 45H-1). "
+ "Old flat models Superb, Retina, Box-Tengor and old ranges Brownie, Nettar, Rolleiflex, Mamiya C, Chamonix H/F, Technika, Sinar F became archetypes or versions. Models handed over from shelf 01_00 are included: Bronica RF645 and Mamiya 6 / 7 / 7 II (rangefinder archetypes), Hasselblad XPan / XPan II (panoramic archetype). "
+ "Planned rangefinder models 'from k17' were not supplied in the brief, so only Fujifilm GA645 and GF670 (named on the Fujifilm page) sit in m. "
+ "Not added for lack of a retrieved page with details: Fuji GSW690 and G690 versions, Hasselblad SWC as its own archetype (kept as a V-system version), Kodak Cirkut (maker not on page), Deardorff, Toyo, Wista, Ebony, Shen Hao, Agfa Isolette, Mamiya Six, Minolta Autocord. "
+ "Some years omitted where pages gave none (Makina 67/670, Sinar F/X, Technikardan). Brand facts from knowledge: Pentax, LOMO, Lomography, Kodak, Chamonix country, Seitz; founding years for Hasselblad, Mamiya, Rollei, Fujifilm, Yashica, KMZ also from knowledge. No traditions: industrial products.")
+out = {'kinds': [mf_slr, mf_rf, tlr, fold, view, pano], 'brands': brands, 'traditions': [], 'notes': notes}
+p = 'work/D4/shelves/01_01.json'; tmp = p + '.tmp'
+json.dump(out, open(tmp, 'w'), ensure_ascii=False, indent=1); os.replace(tmp, p)
+print('written', os.path.getsize(p))

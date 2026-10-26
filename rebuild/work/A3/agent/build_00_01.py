@@ -19,13 +19,13 @@ kinds=[
    {"n":"Juste un Clou ring","a":"Cartier nail ring","d":"Ring shaped as a nail bent around the finger.","mk":"Cartier","y":"1971 (Nail bracelet); 2012 relaunch","s":OP+"juste-un-clou",
     "v":[{"n":"Juste un Clou relaunch","mk":"Cartier","y":"2012","d":"line relaunched for the house's 165th anniversary; rings in narrow and wider profiles"}],
     "dt":"narrow or wider profile · yellow, white, rose gold · diamonds"},
-   {"n":"B.zero1 ring","a":"Bulgari B.zero1","d":"Ring with a spiral band inspired by the Colosseum, edged with the brand name.","mk":"Bulgari","y":"1999","s":W+"Bulgari","v":[],"dt":"number of bands · gold colours · ceramic, diamonds"},
-   {"n":"Tiffany T ring","a":"T ring","d":"Band ring built on a T motif, from the Tiffany T collection.","mk":"Tiffany & Co.","y":"2014","s":W+"Tiffany_%26_Co.",
+   {"n":"B.zero1 ring","a":"Bulgari B.zero1","d":"Signature band ring of Bulgari's B.zero1 line, launched 1999.","mk":"Bulgari","y":"1999","s":W+"Bulgari","v":[],"dt":"band count · gold colours · diamonds"},
+   {"n":"Tiffany T ring","a":"T ring","d":"Band ring from the Tiffany T collection.","mk":"Tiffany & Co.","y":"2014","s":W+"Tiffany_%26_Co.",
     "v":[{"n":"Tiffany T","mk":"Tiffany & Co.","y":"2014","d":"collection designed by Francesca Amfitheatrof"}],"dt":"band width · gold colours · diamonds"},
-   {"n":"Quatre ring","a":"Boucheron Quatre","d":"Band ring stacking four textured bands in one ring.","mk":"Boucheron","y":"2005","s":W+"Boucheron",
-    "v":[{"n":"Quatre 5D Memory ring","mk":"Boucheron","y":"2023","d":"made with IRCAM and SPhotonix; stores a recording of ocean waves"}],"dt":"size (mini to large) · gold colours · ceramic, diamonds"},
+   {"n":"Quatre ring","a":"Boucheron Quatre","d":"Signature band ring of Boucheron's Quatre line, launched 2005.","mk":"Boucheron","y":"2005","s":W+"Boucheron",
+    "v":[{"n":"Quatre 5D Memory ring","mk":"Boucheron","y":"2023","d":"made with IRCAM and SPhotonix; stores a recording of ocean waves"}],"dt":"size · gold colours · diamonds"},
    {"n":"Poesy ring","a":"Posy ring","d":"Plain band inscribed with a short poem or motto.","mk":"","y":"Renaissance","s":W+"Wedding_ring","v":[],"dt":"inscription inside or outside · silver, gold"},
-   {"n":"Fede ring","a":"Clasped-hands ring","d":"Band whose bezel shows two clasped hands.","mk":"","y":"","s":W+"Wedding_ring","v":[],"dt":"plain or with heart (Claddagh-like) · metals"},
+   {"n":"Fede ring","a":"Clasped-hands ring","d":"Band whose bezel shows two clasped hands.","mk":"","y":"","s":W+"Wedding_ring","v":[],"dt":"metals"},
    {"n":"Utility wedding ring","a":"Wartime utility ring","d":"UK wartime wedding ring limited to about 3 g of 9-carat gold.","mk":"","y":"1942","s":W+"Wedding_ring","v":[],"dt":"9 ct gold · hallmark"}
   ]},
  {"n":"Signet ring","a":"Seal ring · Chevalière · Pinky ring",
@@ -44,7 +44,7 @@ kinds=[
   "t":["costume (paste) cocktail ring","fine gemstone cocktail ring"],
   "s":"https://rauantiques.com/blogs/canvases-carats-and-curiosities/cocktail-rings-prohibition-history",
   "x":[
-   {"n":"Nudo ring","a":"Pomellato Nudo","d":"Large faceted coloured gemstone in a bare gold setting.","mk":"Pomellato","y":"","s":W+"Pomellato","v":[],"dt":"size (petit, classic, maxi) · gemstone colour · gold colours"}
+   {"n":"Nudo ring","a":"Pomellato Nudo","d":"Statement gemstone ring from Pomellato's Nudo collection.","mk":"Pomellato","y":"","s":W+"Pomellato","v":[],"dt":"size · gemstone colour · gold colours"}
   ]},
  {"n":"Stackable ring","a":"Stacking ring","d":"Slim ring made to be worn in a stack with others.","s":"https://www.tanishq.co.in/shop/jewellery"},
  {"n":"Thumb ring","a":"","d":"Ring made to be worn on the thumb.","t":["plain band","hammered","braided","coil"],
