@@ -20,7 +20,7 @@ kinds = [
    X("Westvleteren 8", "Westvleteren's 8% ABV dubbel, blue cap; sold only at the abbey.", "Westvleteren", "", W + "Westvleteren_Brewery", dt="unlabelled bottle · cap colour"),
   ],
   "m": [["La Trappe Dubbel", "La Trappe"], ["Achel 8 Bruin", "Achel"], ["St. Bernardus Pater 6", "St. Bernardus"], ["Maredsous Brune", "Duvel Moortgat"],
-        ["Corsendonk Bruin", "Corsendonk"], ["Ommegang Dubbel", "Brewery Ommegang"], ["Abbey Ale", "New Belgium"], ["Maudite", "Unibroue"]]},
+        ["Corsendonk Bruin", "Corsendonk"], ["Ommegang Dubbel", "Brewery Ommegang"], ["Abbey Ale", "New Belgium"], ["Maudite Dubbel", "Unibroue"]]},
  {"n": "Tripel", "a": "Triple · Belgian tripel", "d": "Strong, pale, somewhat spicy Belgian ale with firm bitterness and a dry finish; about 7.5–9.5% ABV.",
   "t": ["Trappist", "Abbey (licensed)", "Secular"], "s": W + "Tripel",
   "x": [
@@ -49,7 +49,7 @@ kinds = [
    X("Duvel", "The originator: Moortgat's 8.5% ABV golden strong ale, first sold as Victory Ale after the First World War.", "Duvel Moortgat", "1920s (name)", W + "Duvel_Moortgat_Brewery",
      [("Victory Ale", "Duvel Moortgat", "", "original name"), ("Duvel Tripel Hop", "Duvel Moortgat", "2007", "9.5% ABV; new hop each edition 2010–2016"),
       ("Duvel Tripel Hop Citra", "Duvel Moortgat", "2016", "permanent after a public vote"), ("Duvel Single Fermented Belgian Golden Ale", "Duvel Moortgat", "2018", "6.8% ABV")],
-     a="Duvel Moortgat", dt="bottle 33 cl or 75 cl · draught · tulip glass"),
+     dt="bottle 33 cl or 75 cl · draught · tulip glass"),
   ],
   "m": [["Delirium Tremens", ""], ["Brigand", ""], ["Lucifer", ""], ["Judas", ""], ["Damnation", "Russian River"]]},
  {"n": "Belgian blond ale", "a": "Abbey blond · Blonde", "d": "Moderately strong golden Belgian ale with subtle citrus-spice yeast character and a soft, dry finish; about 6–7.5% ABV.",
