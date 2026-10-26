@@ -40,7 +40,7 @@ kinds=[
 {"n":"Gravel bike","a":"adventure bike · all-road bike","d":"Drop-bar bicycle with wide tyre clearance, made for mixed paved and unpaved roads.",
  "t":["race","adventure / bikepacking","suspension","700c","650b"],"s":W+"Gravel_bicycle",
  "x":[{"n":"Pinarello Grevil","a":"","d":"Pinarello's carbon gravel bike.","mk":"Pinarello","y":"2018","s":PI,"v":[V("Grevil","Pinarello","2018",""),V("Grevil F","Pinarello","2022","")],"dt":"size · groupset · tyre width"}],
- "m":[["Diverge","Specialized"],["Crux","Specialized"],["Checkpoint","Trek"],["Topstone","Cannondale"],["SuperX","Cannondale"],["True Grit","Lauf"],["URS","BMC"],["Terra","Orbea"],["765","Look"],["Áspero","Cervélo"]]},
+ "m":[["Diverge","Specialized"],["Crux","Specialized"],["Checkmate","Trek"],["CheckOUT","Trek"],["Topstone","Cannondale"],["SuperX","Cannondale"],["True Grit","Lauf"],["URS","BMC"],["Terra","Orbea"],["765","Look"],["Áspero","Cervélo"]]},
 {"n":"Touring bike","a":"tourer · trekking bike · expedition bike","d":"Sturdy bicycle made to carry luggage on long rides.",
  "t":["road touring","sport touring","randonneur","expedition","mixed-terrain","travel (couplers)"],"s":W+"Touring_bicycle",
  "x":[
@@ -87,10 +87,10 @@ brands=[
  {"n":"Rivendell Bicycle Works","c":"United States","f":"1994","seg":"Steel frame builder","d":"Steel-bicycle maker founded by Grant Petersen in Walnut Creek, California.","lines":[],"eras":[],"sig":["Rivendell Atlantis"],"sc":["touring"],"rel":[],"s":W+"Rivendell_Bicycle_Works"},
  {"n":"Mercian Cycles","c":"United Kingdom","f":"1946","seg":"Steel frame builder","d":"Lugged steel frame builder in Derby founded by Tom Crowther and Lou Barker.","lines":[],"eras":[],"sig":[],"sc":[],"rel":["Bob Jackson"],"s":W+"Mercian_Cycles"},
  {"n":"Bob Jackson","c":"United Kingdom","f":"","seg":"Steel frame builder","d":"English builder of hand-made steel bicycle frames.","lines":[],"eras":[],"sig":[],"sc":[],"rel":["Mercian Cycles"],"s":K}]
-notes=("All six planned kinds kept. Specialized/Trek/Co-Motion skew trimmed: Co-Motion Deschutes and Tumalo dropped (Cascadia kept); Trek CheckOUT/Checkmate replaced by Checkpoint; "
+notes=("All six planned kinds kept. Specialized/Trek/Co-Motion skew trimmed: Co-Motion Deschutes and Tumalo dropped (Cascadia kept); Trek CheckOUT and Checkmate kept as flat models; "
  "Crux 5/Diverge 4 SKU names reduced to Crux/Diverge. Cannondale SuperX moved from Cyclocross to Gravel (maker page now calls it a gravel race bike). "
  "Left out: Eddy Merckx archetypes (no retrieved page names models; brand entry only), Bob Jackson models (no page found, Wikipedia 404; brand stub from knowledge), "
- "Tarmac SL2–SL4/SL6/SL8 and Specialized Diverge/Crux, Trek Checkpoint archetypes (pages blocked or not naming them; kept as flat models), "
+ "Tarmac SL2–SL4/SL6/SL8 and Specialized Diverge/Crux, Trek gravel archetypes (pages blocked or not naming them; kept as flat models), "
  "Vigorelli steel version (only in search snippets). No craft tradition added: no retrieved source on frame-building traditions. Randonneur is a touring type.")
 out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
 p='/home/user/Possession-Taxonomy/rebuild/work/G1/shelves/03_00.json'
