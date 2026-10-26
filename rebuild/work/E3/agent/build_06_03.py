@@ -50,7 +50,7 @@ kinds=[
  "s":"https://www.thomann.co.uk/electro_harmonix_pitch_fork_pitch_shifter.htm",
  "x":[
   {"n":"DigiTech Whammy","a":"Whammy","d":"Treadle-controlled digital pitch shifter bending up to two octaves; the first mass-market digital pitch shifter.","mk":"DigiTech","y":"1989","s":WH,
-   "v":[v("Whammy","DigiTech","1989","Original, monophonic"),v("Whammy IV","DigiTech","","MIDI I/O"),v("Bass Whammy","DigiTech","","Bass version"),v("Whammy DT","DigiTech","","Adds drop-tune modes"),v("Whammy (5th generation)","DigiTech","","Polyphonic tracking with classic mode")],
+   "v":[v("Whammy","DigiTech","1989","Original, monophonic"),v("Whammy IV","DigiTech","","MIDI I/O"),v("Bass Whammy","DigiTech","","Bass version"),v("Whammy DT","DigiTech","","Later model (2010s)"),v("Whammy (5th generation)","DigiTech","","Later generation")],
    "dt":"mono / polyphonic · MIDI · drop tune · harmony intervals"},
   {"n":"Electro-Harmonix POG","a":"Polyphonic Octave Generator","d":"Polyphonic octave generator mixing sub and upper octaves with the dry signal.","mk":"Electro-Harmonix","y":"2005","s":EHX,
    "v":[v("POG","Electro-Harmonix","2005","Original"),v("POG 2","Electro-Harmonix","2009","Revised"),v("Micro POG","Electro-Harmonix","","Compact XO housing"),v("HOG","Electro-Harmonix","","Harmonic Octave Generator")],
@@ -83,7 +83,7 @@ kinds=[
    "v":[v("VP Jr","Ernie Ball","","Compact version with tuner output"),v("EB6110 40th Anniversary","Ernie Ball","2017","VP Jr size, two swell rates, Kevlar cable")],"dt":"size · impedance · taper switch · mono / stereo"}],
  "m":[["Volume Pedal","Fender"]]}]
 brands=[
-{"n":"Boss","c":"Japan","f":"1973","seg":"Effects pedals","d":"Roland division best known for compact pedals and the Loop Station.","lines":["Compact pedals","Loop Station (RC)","ME / GT multi-effects"],"sig":["Boss GE-7","Boss Loop Station","Boss CS series"],"rel":["Roland"],"s":BOSS},
+{"n":"Boss","c":"Japan","f":"1973","seg":"Effects pedals","d":"Roland division best known for compact pedals and the Loop Station.","lines":["Compact pedals","Loop Station (RC)","ME multi-effects"],"sig":["Boss GE-7","Boss Loop Station","Boss CS series"],"rel":["Roland"],"s":BOSS},
 {"n":"Eventide","c":"United States","f":"1971","seg":"Studio and pedal effects","d":"New Jersey effects maker that introduced the Harmonizer.","lines":["Harmonizer","Factor stompboxes","H9 / H90"],"sig":["Eventide Harmonizer pedal (H9 / H90)"],"s":EV},
 {"n":"Line 6","c":"United States","f":"1996","seg":"Modelling amps and effects","d":"California modelling pioneer (POD), owned by Yamaha since 2014.","lines":["POD","Helix","DL4"],"sig":["Line 6 Helix","Line 6 DL4"],"rel":["Yamaha"],"s":L6},
 {"n":"Electro-Harmonix","c":"United States","f":"1968","seg":"Effects pedals","d":"New York pedal maker founded by Mike Matthews.","lines":["POG","Q-Tron","loopers"],"sig":["Electro-Harmonix POG","Q-Tron"],"s":EHX},
