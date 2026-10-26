@@ -1,0 +1,223 @@
+{
+ "kinds": [
+  {
+   "n": "Solar panel",
+   "a": "PV module",
+   "d": "Photovoltaic module that turns sunlight into electricity.",
+   "t": [
+    "monocrystalline",
+    "polycrystalline",
+    "thin-film",
+    "bifacial"
+   ],
+   "s": "https://thesolarstore.com/collections?page=4"
+  },
+  {
+   "n": "Home battery",
+   "a": "",
+   "d": "Rechargeable battery that stores electricity for a home; a portable power station is the carried version.",
+   "t": [
+    "AC-coupled",
+    "DC-coupled",
+    "plug-in balcony battery"
+   ],
+   "s": "https://thesolarstore.com/collections?page=2",
+   "m": [
+    [
+     "SOLIX Solarbank 3 E2700 Pro",
+     "Anker"
+    ],
+    [
+     "SOLIX Solarbank 4 E5000 Pro",
+     "Anker"
+    ],
+    [
+     "SolarFlow 800 Pro",
+     "Zendure"
+    ],
+    [
+     "HiBattery 1920 AC",
+     "Hoymiles"
+    ],
+    [
+     "HiBattery 4020 X",
+     "Hoymiles"
+    ]
+   ]
+  },
+  {
+   "n": "Inverter",
+   "a": "Solar inverter · grid-tie inverter · inverter-charger",
+   "d": "Device that converts DC from panels or batteries to household AC.",
+   "t": [
+    "string (grid-tie)",
+    "hybrid (battery-ready)",
+    "microinverter",
+    "off-grid inverter-charger"
+   ],
+   "s": "https://solarboss.ie/collections/solar-inverters",
+   "m": [
+    [
+     "Primo GEN24 Plus",
+     "Fronius"
+    ],
+    [
+     "Home Hub",
+     "SolarEdge"
+    ],
+    [
+     "MultiPlus-II",
+     "Victron Energy"
+    ],
+    [
+     "MultiPlus Compact",
+     "Victron Energy"
+    ],
+    [
+     "Phoenix Inverter",
+     "Victron Energy"
+    ],
+    [
+     "12000XP",
+     "EG4 Electronics"
+    ],
+    [
+     "6000XP",
+     "EG4 Electronics"
+    ],
+    [
+     "Radian",
+     "OutBack Power"
+    ],
+    [
+     "FXR Series",
+     "OutBack Power"
+    ],
+    [
+     "MS Series",
+     "Magnum Energy"
+    ],
+    [
+     "Rosie",
+     "Midnite Solar"
+    ]
+   ]
+  },
+  {
+   "n": "Plug-in balcony solar kit",
+   "a": "Balkonkraftwerk",
+   "d": "Panel plus micro-inverter sold as one set that plugs into a home socket and feeds the grid, with no storage.",
+   "s": "https://www.balkonstrom.com/pages/balkonkraftwerk-anbieter"
+  },
+  {
+   "n": "Off-grid solar kit",
+   "a": "",
+   "d": "Panels, a charge controller or inverter and usually a battery sold as one kit to power a place with no grid, such as a van, boat or cabin.",
+   "t": [
+    "cabin kit",
+    "van or boat kit (see Vehicles)"
+   ],
+   "s": "https://thesolarstore.com/collections/all-solar-panel-kits"
+  },
+  {
+   "n": "Solar system parts",
+   "a": "Charge controller · battery enclosure · panel mount",
+   "d": "Charge controllers, battery-bank chargers, enclosures and mounts bought to build or extend a solar system.",
+   "t": [
+    "MPPT charge controller",
+    "PWM charge controller",
+    "battery-bank charger",
+    "battery enclosure",
+    "panel mount"
+   ],
+   "s": "https://thesolarstore.com/collections/charge-controllers",
+   "m": [
+    [
+     "SmartSolar MPPT",
+     "Victron Energy"
+    ],
+    [
+     "BlueSolar MPPT",
+     "Victron Energy"
+    ],
+    [
+     "TriStar",
+     "Morningstar"
+    ],
+    [
+     "SunSaver",
+     "Morningstar"
+    ],
+    [
+     "FLEXmax",
+     "OutBack Power"
+    ],
+    [
+     "Classic",
+     "Midnite Solar"
+    ],
+    [
+     "Solar Boost",
+     "Blue Sky Energy"
+    ],
+    [
+     "Chargeverter GC 48V",
+     "EG4 Electronics"
+    ],
+    [
+     "MNBE-D Steel Battery Box Enclosure",
+     "Midnite Solar"
+    ],
+    [
+     "DPW Standard Roof/Ground Mount",
+     "Solar Rackworks"
+    ],
+    [
+     "Power Fab Top of Pole Mount",
+     "Solar Rackworks"
+    ]
+   ]
+  },
+  {
+   "n": "Small wind turbine",
+   "a": "",
+   "d": "Wind turbine sized to generate power for a home or site.",
+   "s": "https://thesolarstore.com/collections/wind-turbines",
+   "m": [
+    [
+     "Air X",
+     "Ryse Energy"
+    ],
+    [
+     "Air Breeze",
+     "Ryse Energy"
+    ],
+    [
+     "Air 40",
+     "Ryse Energy"
+    ],
+    [
+     "Silent X",
+     "Ryse Energy"
+    ],
+    [
+     "Whisper 200",
+     "Southwest Windpower"
+    ]
+   ],
+   "r": [
+    [
+     "Air",
+     "Ryse Energy"
+    ],
+    [
+     "Whisper",
+     "Southwest Windpower"
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Restraint only: Other inverters, string, hybrid, micro and off-grid inverters merged into Inverter (types); dropped VFX Series and Little Rosie as duplicates of kept lines. Charge controller, battery-bank charger, battery enclosure and panel mount merged into Solar system parts; mount SKUs trimmed. Blank-maker SunGold kit became types of Off-grid solar kit (van/boat use cross-links Vehicles G1)."
+}

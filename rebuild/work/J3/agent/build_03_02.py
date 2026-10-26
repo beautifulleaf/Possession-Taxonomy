@@ -34,7 +34,7 @@ kinds.append({"n":"Époisses","a":"Époisses de Bourgogne · Burgundian washed-r
  ]})
 kinds.append({"n":"Munster","a":"Munster-Géromé · Minschterkaas · petit-munster",
  "d":"Soft, strong-smelling washed-rind cow's-milk cheese from the Vosges, ripened in humid cellars.",
- "t":["standard (450 g–1.5 kg)","petit-munster (from 120 g)","farmhouse (fermier)","dairy (laitier)","raw milk","with caraway"],
+ "t":["standard (450 g–1.5 kg)","petit-munster (from 120 g)","farmhouse (fermier)","dairy (laitier)","raw milk"],
  "s":W+'Munster_cheese',
  "x":[A("Munster PDO","Vosges cheese named after the Alsatian town of Munster, where monks matured it; Géromé is the Lorraine name from Gérardmer.",W+'Munster_cheese',y="AOC 1969, AOP 1996",a="Munster-Géromé PDO",
     v=[V("Munster; Munster-Géromé PDO",d="Old data."),V("Petit-Munster",d="Smaller format, 7–12 cm, ripened at least 14 days."),V("Munster fermier",d="Farm-made in the Vosges; about 6% of output (2017).")],
@@ -48,7 +48,7 @@ kinds.append({"n":"Reblochon","a":"Reblochon de Savoie · petit reblochon · Che
        V("Petit reblochon",d="c. 9 cm, 240–280 g."),V("Reblochon; Reblochon de Savoie PDO",d="Old data."),
        V("Dunnes Stores Simply Better French Reblochon De Savoie PDO","Dunnes Stores",d="Retailer own label (old data).")],
     dt="c. 14 cm, 450–550 g · raw cow's milk · Haute-Savoie and parts of Savoie"),
-  A("Rebruchon and Reblò alpino","Italian Alpine cheeses of Reblochon type, sold under these names since Italian Reblochon lost the name in 1964.",W+'Reblochon'),
+  A("Rebruchon and Reblò alpino","Italian Alpine cheeses of Reblochon type, sold under these names after Italian production of Reblochon ended in 1964.",W+'Reblochon'),
   A("Chevrotin PDO","Soft goat's-milk cheese of Savoy made like Reblochon.",W+'Chevrotin',y="AOC 2002",v=[V("Chevrotin PDO",d="Old data.")]),
   A("Abbaye de Tamié","Reblochon-style raw cow's-milk cheese made only by the monks of Tamié Abbey near Albertville.",W+'Abbaye_de_Tami%C3%A9')]})
 kinds.append({"n":"Taleggio","a":"Taleggio DOP · Quartirolo Lombardo",
@@ -57,11 +57,11 @@ kinds.append({"n":"Taleggio","a":"Taleggio DOP · Quartirolo Lombardo",
  "s":W+'Taleggio_cheese',
  "x":[A("Taleggio PDO","Washed-rind cheese named after Val Taleggio; PDO cheese must come from Lombardy or Piedmont.",W+'Taleggio_cheese',
     v=[V("Taleggio DOP","Caseificio Taddei S.r.l.",d="Old data."),V("Taleggio PDO",d="Old data.")],dt="square · pinkish-brown rind · creamy pale yellow paste"),
-  A("Quartirolo Lombardo PDO","Soft Lombard cow's-milk cheese with PDO status, from the same area and family as Taleggio.",W+'Quartirolo_lombardo',v=[V("Quartirolo Lombardo PDO",d="Old data.")])]})
+  A("Quartirolo Lombardo PDO","Soft Lombard cow's-milk cheese with PDO status.",W+'Quartirolo_lombardo',v=[V("Quartirolo Lombardo PDO",d="Old data.")])]})
 VMO=W+'Vacherin_Mont_d%27Or'
 kinds.append({"n":"Vacherin Mont-d'Or","a":"Mont d'Or · Vacherin du Haut-Doubs · spruce-bark cheese",
  "d":"Seasonal soft washed-rind cow's-milk cheese of the Jura, girdled with spruce bark and eaten with a spoon.",
- "t":["boxed whole cheese","baked (boîte chaude)","small or large box"],
+ "t":["boxed whole cheese","French or Swiss origin"],
  "s":VMO,
  "x":[A("Mont d'Or (Vacherin du Haut-Doubs) PDO","French version from the Haut-Doubs, wrapped in a strap of Norway spruce cambium.",VMO,a="Mont d'Or AOP",v=[V("Mont d'Or; Vacherin du Haut-Doubs PDO",d="Old data.")],
     dt="seasonal · spruce strap · greyish-yellow washed rind"),
@@ -77,20 +77,19 @@ kinds.append({"n":"Pont-l'Évêque & Livarot","a":"Norman washed-rind cheese · 
  "s":W+'Pont-l%27%C3%89v%C3%AAque_cheese',
  "x":[A("Pont-l'Évêque PDO","Square, unpressed cow's-milk cheese from around Pont-l'Évêque; probably the oldest Norman cheese still made.",W+'Pont-l%27%C3%89v%C3%AAque_cheese',v=[V("Pont-l'Évêque PDO",d="Old data.")],dt="c. 10 cm square, 3 cm high, 400 g · white to orange-brown rind"),
   A("Livarot PDO","Pungent Normande-milk cheese wrapped in three to five bands of dried reedmace, hence the nickname colonel.",W+'Livarot_cheese',y="AOC 1975",v=[V("Livarot PDO",d="Old data.")],dt="cylinder, usually 450 g, other weights · orange rind · reed or paper bands")]})
-kinds.append({"n":"Maroilles","a":"Marolles · Sorbais · Mignon · Quart · Rollot · Bergues",
+kinds.append({"n":"Maroilles","a":"Marolles · Sorbais · Rollot · Bergues",
  "d":"Square, moist, orange-rinded cow's-milk cheeses of northern France with a strong smell, led by Maroilles.",
- "t":["Maroilles (c. 700 g)","Sorbais (3/4)","Mignon (1/2)","Quart (1/4)","farmhouse","dairy"],
+ "t":["Maroilles (c. 700 g)","Sorbais (3/4 size)","smaller regulated sizes"],
  "s":W+'Maroilles_cheese',
  "x":[A("Maroilles PDO","Rectangular washed-rind cheese named after the village of Maroilles; sold in four regulated sizes.",W+'Maroilles_cheese',a="Marolles",
     v=[V("Maroilles / Marolles PDO",d="Old data."),V("Sorbais",d="12–12.5 cm square, 4 cm high, 550 g.")],dt="c. 13 cm square, 6 cm high, c. 700 g · moist orange-red rind"),
   A("Rollot","Round or heart-shaped Picardy cheese washed in salted water and cellar-aged three to six weeks.",FR+'Rollot_(fromage)',dt="c. 8–9 cm, c. 300 g · orange rind"),
   A("Bergues","Farmhouse raw-milk cheese from around Bergues near Dunkirk, washed regularly with beer.",FR+'Bergues_(fromage)',y="recorded 1554",dt="c. 20 cm · at least three weeks in a raised cellar"),
   A("Vieux-Boulogne","Unpasteurised, unpressed Pas-de-Calais cheese developed in 1982 by Antoine Bernard and Philippe Olivier.",W+'Vieux-Boulogne',y="1982",a="Sablé du Boulonnais",
-    v=[V("Vieux-Boulogne","Philippe Olivier",y="1982",d="Developed with Antoine Bernard.")]),
-  A("Mont des Cats","Trappist cheese made at Mont des Cats abbey since 1890, washed with annatto-coloured brine.",W+'Mont_des_Cats_cheese',y="1890",dt="at least two months · 50% fat")]})
+    v=[V("Vieux-Boulogne","Philippe Olivier",y="1982",d="Developed with Antoine Bernard.")])]})
 kinds.append({"n":"Saint-Nectaire","a":"Saint-Nectaire fermier · Saint-Nectaire laitier",
- "d":"Semi-soft pressed cow's-milk cheese of the Auvergne with a greyish rind, made there since at least the 17th century.",
- "t":["fermier (farmhouse)","laitier (dairy)","full size","petit"],
+ "d":"Cow's-milk cheese of the Auvergne in central France, made there since at least the 17th century.",
+ "t":["fermier (farmhouse)","laitier (dairy)"],
  "s":W+'Saint-Nectaire',
  "x":[A("Saint-Nectaire PDO","Auvergne cheese made since at least the 17th century.",W+'Saint-Nectaire',v=[V("Saint-Nectaire PDO",d="Old data.")])]})
 kinds.append({"n":"Monastery cheese","a":"Trappist cheese · abbey cheese · Port-Salut · Saint-Paulin · Esrom · Oka",
@@ -99,10 +98,11 @@ kinds.append({"n":"Monastery cheese","a":"Trappist cheese · abbey cheese · Por
  "s":W+'Port_Salut',
  "x":[A("Port Salut","Mild orange-rinded wheel developed by Trappist monks in the 19th century at Port-du-Salut Abbey in Entrammes.",W+'Port_Salut',y="19th century",dt="c. 23 cm, c. 2 kg · pasteurised · orange rind"),
   A("Saint-Paulin","Mild, sliceable semi-soft cheese first made by Trappist monks; a cousin of Port Salut.",W+'Saint-Paulin_cheese',dt="round loaf · c. four weeks · brine-washed rind with annatto"),
-  A("Esrom PGI","Danish Trappist-style semi-soft cheese, also called Danish Port Salut, named after Esrum Abbey.",W+'Esrom',a="Danish Port Salut",v=[V("Esrom PGI",d="Old data.")]),
+  A("Esrom PGI","Danish Trappist-style semi-soft cheese, also called Danish Port Salut.",W+'Esrom',a="Danish Port Salut",v=[V("Esrom PGI",d="Old data.")]),
   A("Oka","Semi-soft washed-rind cheese first made by Trappist monks at Oka, Quebec; recipe sold to Agropur in 1981.",W+'Oka_cheese',mk="Agropur",
     v=[V("Oka","Agropur",y="1981",d="Commercial production after the sale by Les Pères Trappistes.")]),
-  A("Chimay","Cheeses made by Scourmont Abbey, the Trappist monastery behind Chimay beer.",W+'Chimay_Brewery',d_="") if False else A("Chimay","Cheeses made by Scourmont Abbey, the Trappist monastery behind Chimay beer, in four varieties.",W+'Chimay_Brewery'),
+  A("Chimay","Cheeses made by Scourmont Abbey, the Trappist monastery behind Chimay beer, in four varieties.",W+'Chimay_Brewery'),
+  A("Mont des Cats","Trappist cheese made at Mont des Cats abbey since 1890, washed with annatto-coloured brine.",W+'Mont_des_Cats_cheese',y="1890",dt="at least two months · 50% fat"),
   A("Chaumes","Soft Trappist-style cheese from Saint-Antoine-de-Breuilh in the Périgord.",W+'Chaumes'),
   A("Brick","Wisconsin cheese pressed into brick shape, mild when young and stronger and nuttier when aged.",W+'Brick_cheese',dt="brick shape · pale yellow to white paste · orange rind")]})
 kinds.append({"n":"Limburger & Herve","a":"Limburger · Herve · Remoudou · Romadur · Rommedoe · Weisslacker",
