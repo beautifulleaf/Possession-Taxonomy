@@ -1,0 +1,226 @@
+{
+ "kinds": [
+  {
+   "n": "Staircase",
+   "a": "Stairs · flight of stairs",
+   "d": "Fixed flight of steps linking floors of a home, with treads, strings and a handrail.",
+   "t": [
+    "straight flight",
+    "L-shaped (quarter-turn)",
+    "U-shaped (half-turn)",
+    "winder",
+    "spiral / helical",
+    "floating",
+    "mono-string",
+    "double-string",
+    "alternating-tread (loft)",
+    "timber",
+    "steel",
+    "glass",
+    "stone or concrete"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Stairs"
+  },
+  {
+   "n": "Stairlift",
+   "a": "Stair lift · chair lift",
+   "d": "Chair or platform that carries a person up and down a staircase on a rail fixed to the stairs.",
+   "t": [
+    "straight-rail",
+    "curved-rail",
+    "outdoor",
+    "perch (stand-on) seat",
+    "wheelchair platform"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Stairlift",
+   "m": [
+    [
+     "Stannah Sadler",
+     "Stannah"
+    ],
+    [
+     "Stannah Siena",
+     "Stannah"
+    ],
+    [
+     "Stannah Siena One",
+     "Stannah"
+    ],
+    [
+     "Stannah Starla",
+     "Stannah"
+    ],
+    [
+     "Acorn 130 (straight, outdoor)",
+     "Acorn Stairlifts"
+    ],
+    [
+     "Acorn 180 (curved)",
+     "Acorn Stairlifts"
+    ],
+    [
+     "Handicare 1100 (straight)",
+     "Handicare"
+    ],
+    [
+     "Handicare 1000 (straight)",
+     "Handicare"
+    ],
+    [
+     "Handicare 4000 (curved)",
+     "Handicare"
+    ],
+    [
+     "Freecurve (curved)",
+     "Handicare"
+    ]
+   ]
+  },
+  {
+   "n": "Home lift",
+   "a": "Home elevator · through-floor lift · domestic lift",
+   "d": "Small passenger lift for a house, travelling through a floor aperture or in a shaft.",
+   "t": [
+    "through-floor (dual rail)",
+    "shafted traction",
+    "hydraulic",
+    "pneumatic vacuum",
+    "screw-driven",
+    "wheelchair-sized cab",
+    "open platform"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Home_lift",
+   "m": [
+    [
+     "Duo+ (2-person through-floor)",
+     "Stiltz"
+    ],
+    [
+     "Trio+ (3-person, wheelchair)",
+     "Stiltz"
+    ],
+    [
+     "Telecab (through-floor)",
+     "Savaria"
+    ],
+    [
+     "Luma (shaftless)",
+     "Savaria"
+    ],
+    [
+     "Eclipse (home elevator)",
+     "Savaria"
+    ],
+    [
+     "Vuelift (panoramic)",
+     "Savaria"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Stannah",
+   "c": "United Kingdom",
+   "f": "1867",
+   "seg": "Stairlifts and lifts",
+   "d": "Family-owned lift maker founded in London by Joseph Stannah, now based in Andover, Hampshire.",
+   "lines": [
+    "Stairlifts"
+   ],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Acorn Stairlifts",
+    "Handicare"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Stannah_Lifts"
+  },
+  {
+   "n": "Acorn Stairlifts",
+   "c": "United Kingdom",
+   "f": "",
+   "seg": "Stairlifts",
+   "d": "Stairlift maker in Steeton, West Yorkshire, building straight, curved and outdoor stairlifts in UK factories.",
+   "lines": [
+    "Acorn 130",
+    "Acorn 180"
+   ],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Stannah",
+    "Handicare"
+   ],
+   "s": "https://www.acornstairlifts.co.uk/"
+  },
+  {
+   "n": "Handicare",
+   "c": "",
+   "f": "",
+   "seg": "Stairlifts",
+   "d": "Stairlift brand offering straight, curved and outdoor models; made its first European stairlift in 1961; sold within the Savaria range.",
+   "lines": [
+    "Handicare 1000",
+    "Handicare 1100",
+    "Handicare 4000",
+    "Freecurve"
+   ],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Savaria",
+    "Stannah",
+    "Acorn Stairlifts"
+   ],
+   "s": "http://handicare-stairlifts.co.uk/handicare/"
+  },
+  {
+   "n": "Savaria",
+   "c": "Canada",
+   "f": "1979",
+   "seg": "Accessibility lifts",
+   "d": "Accessibility company in Laval, Quebec, making home elevators, through-floor lifts, stairlifts and platform lifts.",
+   "lines": [
+    "Eclipse",
+    "Infinity",
+    "Zenith",
+    "Vuelift",
+    "Telecab",
+    "Luma",
+    "Garaventa Lift"
+   ],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Handicare",
+    "Stiltz"
+   ],
+   "s": "https://www.savaria.com/"
+  },
+  {
+   "n": "Stiltz",
+   "c": "United Kingdom",
+   "f": "",
+   "seg": "Through-floor home lifts",
+   "d": "Through-floor home lift maker in Kingswinford, West Midlands, building its lifts in its own factory.",
+   "lines": [
+    "Duo+",
+    "Trio+"
+   ],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Savaria"
+   ],
+   "s": "https://www.stiltz.co.uk/"
+  }
+ ],
+ "traditions": [],
+ "notes": "Tier shelf, no archetypes. Staircase: new kind, forms and materials as types (Wikipedia Stairs; it does not name cantilever, so 'floating' covers it). Stairlift: old Stannah models kept; added Acorn 130/180 and Handicare models from maker/Savaria pages. Which? survey covers Acorn, Handicare, Stannah and TKE/Access BDD, but its Recommended Provider names and scores are members-only, so no test winner is flagged and TKE has no models (not retrieved). Stannah current model pages returned empty/503, so no new Stannah models. Home lift: Stiltz Duo+/Trio+ and Savaria home lifts from their own sites. Brand founding years left blank where pages did not state them (Stiltz page conflicted 2008/2013). Nothing dropped."
+}
