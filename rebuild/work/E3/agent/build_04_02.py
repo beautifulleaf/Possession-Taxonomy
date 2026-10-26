@@ -1,0 +1,80 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+BC=W+'Buffet_Crampon'
+kinds=[
+{"n":"Clarinet","a":"soprano clarinet · B♭ clarinet · A clarinet","d":"Single-reed woodwind with a mainly cylindrical bore; the B♭ soprano is the standard instrument.",
+ "t":["B♭ (standard)","A (orchestral pair to the B♭)","C","E♭ (sopranino)","D","A♭ (piccolo)","Boehm system (French)","Oehler system (German)","Albert (simple) system","Full Boehm","Reform Boehm","African blackwood (grenadilla)","ABS plastic (student)","Greenline composite","ebonite","metal"],
+ "s":W+"Clarinet",
+ "x":[
+  {"n":"Buffet Crampon R13","a":"R-13","d":"Professional B♭ and A clarinet with a polycylindrical bore, developed under Robert Carrée; the most popular professional model.","mk":"Buffet Crampon","y":"1950s","s":BC,
+   "v":[{"n":"R13","mk":"Buffet Crampon","y":"1950s","d":"Grenadilla, 17 keys and 6 rings, B♭ and A; Wikipedia gives 1950, dealers 1955"},
+        {"n":"R13 Greenline","mk":"Buffet Crampon","y":"","d":"Body in resin and blackwood-powder composite"},
+        {"n":"R13 Prestige","mk":"Buffet Crampon","y":"","d":"Higher-grade R13"}],
+   "dt":"pitch B♭ / A · grenadilla or Greenline · silver- or nickel-plated keys · barrel length"},
+  {"n":"Buffet Crampon RC","a":"","d":"Professional clarinet evolved from the R13 and named after luthier Robert Carrée.","mk":"Buffet Crampon","y":"1974","s":BC,
+   "v":[{"n":"RC Prestige","mk":"Buffet Crampon","y":"","d":"Higher-grade RC"},{"n":"RC Greenline","mk":"Buffet Crampon","y":"","d":"Composite body"}],
+   "dt":"pitch B♭ / A · wood or Greenline · key plating"},
+  {"n":"Buffet Crampon Tosca","a":"","d":"Professional clarinet with its own bore and reshaped keywork.","mk":"Buffet Crampon","y":"2003","s":BC,
+   "v":[{"n":"Tosca Greenline","mk":"Buffet Crampon","y":"","d":"Composite body"}],"dt":"pitch B♭ / A · wood or Greenline"},
+  {"n":"Buffet Crampon Divine","a":"","d":"Top-of-the-line Buffet Crampon professional clarinet when introduced.","mk":"Buffet Crampon","y":"2012","s":BC,"v":[],"dt":"pitch B♭ / A"},
+  {"n":"Buffet Crampon Légende","a":"Legende","d":"Top-of-the-line Buffet Crampon professional clarinet introduced after the Divine.","mk":"Buffet Crampon","y":"2017","s":BC,"v":[],"dt":"pitch B♭ / A"},
+  {"n":"Buffet Crampon Tradition","a":"","d":"Cylindrical-bore professional clarinet returning to the earlier BC20 design.","mk":"Buffet Crampon","y":"2019","s":BC,
+   "v":[{"n":"Tradition (redesign)","mk":"Buffet Crampon","y":"2019","d":"Redesigned April 2019"},
+        {"n":"Gala","mk":"Buffet Crampon","y":"2020","d":"Cylindrical bore"},
+        {"n":"BCXXI","mk":"Buffet Crampon","y":"2021","d":"Cylindrical bore, range extended to low E♭"}],"dt":"pitch B♭ / A"},
+  {"n":"Selmer Centered Tone","a":"","d":"Large-bore Selmer (Paris) professional clarinet of the 1950s.","mk":"Selmer","y":"c. 1954–1960","s":W+"Henri_Selmer_Paris","v":[],"dt":"pitch B♭ / A · large bore"},
+  {"n":"Selmer Series 9","a":"","d":"Large-bore Selmer clarinet with a 14.90 mm reverse-taper bore, made through three decades.","mk":"Selmer","y":"1960s","s":W+"Henri_Selmer_Paris",
+   "v":[{"n":"Series 10","mk":"Selmer","y":"1970s","d":"Undercut tone holes, 14.52 mm reverse-taper bore"},
+        {"n":"Recital","mk":"Selmer","y":"1980s","d":"Very small 14.35 mm reverse-taper bore, extra-thick walls for a dark sound"}],
+   "dt":"pitch B♭ / A · bore size"},
+  {"n":"Yamaha CSG","a":"YCL-CSG · Custom CSG","d":"Yamaha Custom-series professional grenadilla clarinet.","mk":"Yamaha","y":"","s":"https://johnpacker.co.uk/products/yamaha-yclcsgiii-custom-bb-clarinet",
+   "v":[{"n":"YCL-CSGIII","mk":"Yamaha","y":"","d":"Plump barrel, thick-walled bell, reshaped silver-plated keys, new E♭ lever"}],
+   "dt":"pitch B♭ / A · low-F correction (L) · key plating"}],
+ "m":[["Buffet Crampon Festival","Buffet Crampon"],["Buffet Crampon Vintage","Buffet Crampon"],["Selmer Privilège","Selmer"],["Selmer Signature","Selmer"]]},
+{"n":"Bass clarinet","a":"","d":"Single-reed clarinet pitched an octave below the B♭ clarinet, with an upturned metal neck and bell.",
+ "t":["low E♭ range","low C range (professional)","B♭ (standard)","A (rare)","Boehm system","Oehler system","Albert system","grenadilla","plastic resin (student)","metal (rare)"],
+ "s":"https://www.thomannmusic.com/thomann_bcl_c_bass_clarinet.htm",
+ "x":[{"n":"Buffet Crampon Prestige bass clarinet","a":"Prestige 1193","d":"Professional low-C B♭ bass clarinet by Buffet Crampon.","mk":"Buffet Crampon","y":"","s":W+"Bass_clarinet",
+   "v":[{"n":"Prestige 1193","mk":"Buffet Crampon","y":"","d":"Low C, B♭"},{"n":"Tosca bass clarinet","mk":"Buffet Crampon","y":"","d":"Tosca-line bass clarinet"}],
+   "dt":"range to low E♭ or low C · grenadilla"}],
+ "m":[["Yamaha YCL-622 II","Yamaha"],["Yamaha YCL-221 II S","Yamaha"],["Selmer CP 25/II bass clarinet","Selmer"],["Buffet Crampon 1180","Buffet Crampon"],["Leblanc L400","Leblanc"],["Jupiter JBC1000S","Jupiter"],["RZ Clarinets Coda bass clarinet","RZ Clarinets"]]},
+{"n":"Alto clarinet","a":"tenor clarinet (Europe)","d":"Single-reed clarinet in E♭, between the B♭ and bass clarinets, used mainly in concert bands and clarinet choirs.",
+ "t":["E♭","F"],"s":"https://www.thomannmusic.com/thomann_bcl_c_bass_clarinet.htm",
+ "m":[["Bundy 1425","Bundy"],["Vito 7165","Vito"]]},
+{"n":"Oboe","a":"hautbois","d":"Double-reed woodwind with a conical bore, normally keyed on the Conservatoire system.",
+ "t":["full Conservatoire (Gillet) system","Conservatoire with thumbplate (UK)","Viennese oboe","student (Cabart and similar)","oboe d'amore (A)","musette / piccolo oboe (E♭ or F)","bass oboe","heckelphone"],
+ "s":W+"Oboe",
+ "x":[{"n":"Conservatoire (6bis plateau) oboe","a":"Système 6bis · plateau oboe","d":"Covered-key oboe developed by Lorée with Georges Gillet; the design almost universally used today.","mk":"F. Lorée","y":"1906","s":"https://en.wikipedia.org/wiki/F._Lor%C3%A9e",
+   "v":[{"n":"System 6","mk":"F. Lorée","y":"","d":"Earlier Lorée–Gillet design"},{"n":"6bis (plateau)","mk":"F. Lorée","y":"1906","d":"Lucien Lorée and Gillet's modification of System 6"}],
+   "dt":"open-hole or plateau keys · third-octave key · thumbplate"},
+  {"n":"F. Lorée Royal","a":"Lorée Royal","d":"Lorée oboe made from thicker wood for a richer sound; one of the brand's most popular models.","mk":"F. Lorée","y":"1989","s":"https://loree-paris.com/en/about-us-new-26-09-2024/",
+   "v":[{"n":"Royal 125","mk":"F. Lorée","y":"2006","d":"125th-anniversary version with gold-plated reed well, rings and posts; became a regular model"}],"dt":"keywork plating · wood"},
+  {"n":"Marigaux M2","a":"","d":"Oboe with patented interchangeable head-joints.","mk":"Marigaux","y":"2005","s":"https://www.marigaux.com/en/since-1935/","v":[],"dt":"head-joint choice"}],
+ "m":[["F. Lorée 140","F. Lorée"],["F. Lorée Étoile","F. Lorée"],["Marigaux Line 2000","Marigaux"],["Marigaux Line 900","Marigaux"],["Marigaux 701","Marigaux"]]},
+{"n":"Cor anglais","a":"English horn · alto oboe","d":"Alto oboe in F, a fifth below the oboe, with a bulb bell and a curved metal bocal.",
+ "t":["standard (to low B)","low B♭ key extension"],"s":W+"Cor_anglais",
+ "r":[["cor anglais","F. Lorée"],["cor anglais","Marigaux"],["cor anglais","Rigoutat"],["cor anglais","Howarth"],["cor anglais","Fox"]]},
+{"n":"Bassoon","a":"fagott","d":"Double-reed woodwind with a folded conical bore, the bass of the woodwind section.",
+ "t":["Heckel (German) system","Buffet (French) system","maple","polypropylene or ebonite (student)","short-reach (young players)","contrabassoon (family member)"],
+ "s":W+"Bassoon",
+ "x":[{"n":"Heckel bassoon","a":"","d":"German-system bassoon from the Heckel family firm, whose design became the world standard; told apart by serial number.","mk":"Heckel","y":"1831","s":W+"Wilhelm_Heckel_GmbH","v":[],"dt":"serial number · finish · keywork additions"},
+  {"n":"Buffet-system bassoon","a":"French bassoon · basson","d":"French-system bassoon with 22 keys and a narrower bore, played mainly in France, Belgium and parts of Latin America.","mk":"Buffet Crampon","y":"","s":W+"Bassoon","v":[],"dt":"maker (Buffet Crampon, Ducasse)"},
+  {"n":"Fox Renard Artist 220","a":"Renard 220","d":"Long-bore maple bassoon with full German keywork, patterned after the Fox Model II.","mk":"Fox","y":"1972","s":"https://www.long-mcquade.com/14374/Band-Orchestral/Oboes-Bassoons/Fox/Renard-Artist-Model-220-Bassoon.htm","v":[],"dt":"black or red maple · bocals"}],
+ "r":[["German-system bassoons and contrabassoons","W. Schreiber"]]}]
+brands=[
+{"n":"Buffet Crampon","c":"France","f":"1825","seg":"Professional woodwinds and brass group","d":"Paris clarinet maker founded by Denis Buffet-Auger, based in Mantes-la-Ville; now a group owning several wind brands.","lines":["R13","RC","Tosca","Festival","Divine","Légende","Tradition","Prestige bass clarinets","Greenline"],"eras":["Buffet family, 1825–","Boosey & Hawkes, 1981–2003","Jérôme Perrod CEO, 2014–"],"sig":["Buffet Crampon R13","Buffet Crampon RC","Buffet Crampon Tosca"],"sc":["orchestral clarinet"],"rel":["Rigoutat","W. Schreiber","Leblanc"],"s":BC},
+{"n":"Selmer","c":"France","f":"1885","seg":"Professional woodwinds","d":"Henri Selmer Paris, founded by clarinettist Henri Selmer, based in Mantes-la-Ville.","lines":["Centered Tone","Series 9","Series 10","Recital","Privilège","Signature"],"eras":[],"sig":["Selmer Series 9","Selmer Centered Tone"],"sc":[],"rel":["Buffet Crampon"],"s":W+"Henri_Selmer_Paris"},
+{"n":"Yamaha","c":"Japan","f":"1887","seg":"Instruments, all levels","d":"Japanese maker of instruments across every family, including student to professional woodwinds.","lines":["CSG"],"eras":[],"sig":["Yamaha CSG"],"sc":[],"rel":[],"s":"knowledge"},
+{"n":"F. Lorée","c":"France","f":"1881","seg":"Professional oboes","d":"Paris oboe maker founded by François Lorée, Triébert's last foreman; makes the whole oboe family.","lines":["Royal","Royal 125","140","Étoile","Cabart (student)"],"eras":["François Lorée, 1881–1902","Lucien Lorée, 1902–1925","Dubois / de Gourdon family, 1925–"],"sig":["Conservatoire (6bis plateau) oboe","F. Lorée Royal"],"sc":["orchestral oboe"],"rel":["Marigaux"],"s":"https://loree-paris.com/en/about-us-new-26-09-2024/"},
+{"n":"Marigaux","c":"France","f":"1935","seg":"Professional oboes","d":"Founded in Paris as Strasser Marigaux & Lemaire (SML); oboes only since 1981.","lines":["M2","Line 2000","Line 900","701"],"eras":["SML, 1935–","Strasser-Marigaux S.A., 1970s–"],"sig":["Marigaux M2"],"sc":["orchestral oboe"],"rel":["F. Lorée"],"s":"https://www.marigaux.com/en/since-1935/"},
+{"n":"Heckel","c":"Germany","f":"1831","seg":"Professional bassoons","d":"Wilhelm Heckel GmbH of Wiesbaden(-Biebrich), family firm founded by Johann Adam Heckel; inventor of the heckelphone.","lines":["bassoon","contrabassoon","heckelphone"],"eras":["family-owned since 1831"],"sig":["Heckel bassoon"],"sc":["orchestral bassoon"],"rel":["Fox"],"s":W+"Wilhelm_Heckel_GmbH"},
+{"n":"Fox","c":"United States","f":"1949","seg":"Double-reed instruments","d":"Fox Products Corporation of South Whitley, Indiana, founded by bassoonist Hugo Fox; makes bassoons and oboes.","lines":["Renard"],"eras":["Hugo Fox, 1949–1960","Alan Fox, 1960–"],"sig":["Fox Renard Artist 220"],"sc":[],"rel":["Heckel"],"s":W+"Fox_Products"},
+{"n":"Rigoutat","c":"France","f":"","seg":"Oboes","d":"French oboe and cor anglais maker in Saint-Maur-des-Fossés, bought by Buffet Crampon in 2019.","lines":["oboe","cor anglais","oboe d'amore","baritone oboe"],"eras":[],"sig":[],"sc":[],"rel":["Buffet Crampon"],"s":BC},
+{"n":"W. Schreiber","c":"Germany","f":"","seg":"Bassoons","d":"German-system bassoon and contrabassoon brand, part of Buffet Crampon since 2010.","lines":[],"eras":[],"sig":[],"sc":[],"rel":["Buffet Crampon"],"s":BC}]
+notes=("Merged B-flat and C clarinet into Clarinet with pitch, key-system and material types. Thomann BCL-1000 and BCL-C dropped from bass clarinet (retailer house brand); "
+"Buffet Tosca bass clarinet became a version of the Prestige archetype; old bass-clarinet SKUs kept as 7 models. R13 year given as 1950s (Wikipedia 1950, dealers 1955). "
+"Left out (no retrieved confirmation): Yamaha CSG/CSGII generations, Selmer Privilège/Signature details, Marigaux 901, Heckel model numbers (dealer-only 41i), Fox 601 (page 404), Howarth model names, Uebel/Wurlitzer Oehler makers "
+"(Oehler and Reform Boehm kept as types). Oboe-family members (oboe d'amore, musette, bass oboe, heckelphone) and contrabassoon kept as types, not kinds. Old clarinet/oboe/bassoon sources (Thomann category pages) replaced by Wikipedia; alto and bass clarinet keep old s. "
+"Howarth has no register entry (only a range on cor anglais; no fetched page beyond the Oboe article naming it). No traditions: industrial makers.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='work/E3/shelves/04_02.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)
