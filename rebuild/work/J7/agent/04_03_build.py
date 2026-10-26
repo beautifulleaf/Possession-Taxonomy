@@ -65,7 +65,7 @@ Br("Samuel Smith","United Kingdom","1758","Independent brewery","Tadcaster, York
 Br("Maclay","United Kingdom","","Historic brewery","Brewery of Alloa, Scotland, early maker of oat-malt stout.",["Maclay Original Oatmalt Stout"],ST),
 Br("Courage","United Kingdom","1787","Historic London brewer","London brewer that took over Barclay Perkins and its imperial stout.",["Courage Imperial Russian Stout"],K,["Barclay Perkins"]),
 Br("Goose Island","United States","1988","Craft brewery (AB InBev)","Chicago brewpub founded by John Hall; bought by AB InBev in 2011.",["Bourbon County Brand Stout"],GI),
-Br("Founders","United States","1997","Craft brewery","Grand Rapids, Michigan, brewery majority-owned by Mahou San Miguel.",["Kentucky Breakfast Stout","Founders Porter"],FO),
+Br("Founders","United States","1996","Craft brewery","Grand Rapids, Michigan, brewery majority-owned by Mahou San Miguel.",["Kentucky Breakfast Stout","Founders Porter"],FO),
 Br("North Coast Brewing","United States","1988","Craft brewery","Fort Bragg, California, brewery.",["Old Rasputin"]),
 Br("Great Divide","United States","1994","Craft brewery","Denver, Colorado, brewery.",["Yeti Imperial Stout"]),
 Br("Wiibroe","Denmark","","Brewery (Carlsberg)","Danish brewery whose imperial stout is now made by Carlsberg.",["Wiibroe Imperial Stout"],ST),
