@@ -1,6 +1,6 @@
 import json, os
 W='https://en.wikipedia.org/wiki/'
-def X(n,d,mk,y,s,v=(),a='',dt=''):
+def X(n,a,d,mk,y,s,v=(),dt=''):
     o={'n':n,'a':a,'d':d,'mk':mk,'y':y,'s':s,'v':[dict(zip(('n','mk','y','d'),t)) for t in v]}
     if dt: o['dt']=dt
     return o
@@ -114,8 +114,7 @@ brands=[
  B('Peel Engineering Company','Isle of Man','','Microcars','Isle of Man maker of the P50.',W+'Peel_P50',['Peel P50']),
  B('Renault','France','1899','Mass-market cars','French carmaker.',K,['Renault Twizy']),
  B('Citroën','France','1919','Mass-market cars','French carmaker, part of Stellantis.',K,['Citroën Ami']),
- B('Microcar','France','','Quadricycles','Quadricycle brand sold through Ligier dealers.','https://www.ligier.cz/new-vehicles/new-vehicles-microcar?lang=en',rel=['Ligier']),
- B('Ligier','France','','Microcars','French maker specialising in microcars, founded by Guy Ligier.',W+'Ligier',rel=['Microcar']),
+ B('Ligier','France','','Microcars','French maker specialising in microcars, founded by Guy Ligier.',W+'Ligier'),
  B('Morgan','United Kingdom','1910','Traditional sports cars and three-wheelers','Malvern maker of hand-built sports cars and three-wheelers.',K,['Morgan 3-Wheeler']),
  B('Reliant','United Kingdom','','Three-wheelers (historic)','Tamworth maker of fibreglass three-wheelers.',W+'Reliant_Robin',['Reliant Robin'],rel=['Bond']),
  B('Bond','United Kingdom','','Microcars and three-wheelers (historic)','British maker of the Bond Bug, later built at Reliant\'s Tamworth factory.',W+'Bond_Bug',['Bond Bug'],rel=['Reliant']),
