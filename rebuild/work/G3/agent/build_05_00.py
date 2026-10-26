@@ -1,0 +1,56 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+kinds=[
+{"n":"In-ground swimming pool","a":"built-in pool","d":"A swimming pool built permanently into the ground of a garden or grounds.",
+ "t":["gunite or shotcrete","poured concrete","vinyl-liner","one-piece fibreglass shell","natural (plant-filtered)"],
+ "s":W+"Swimming_pool",
+ "x":[
+  {"n":"Infinity pool","a":"vanishing-edge pool · negative-edge pool · zero-edge pool","d":"A pool whose water spills over one or more edges so it appears to have no boundary.","mk":"","y":"early 1960s","s":W+"Infinity_pool",
+   "v":[{"n":"John Lautner residential pools","mk":"","y":"early 1960s","d":"among the first designed vanishing-edge pools"}],"dt":"edge sides · catch basin · setting (sea, lake, sky view)"},
+  {"n":"Natural swimming pool","a":"eco pool · chemical-free pool","d":"A pool kept clean without chemicals by aquatic plants in a separate regeneration zone.","mk":"","y":"1980s","s":W+"Natural_swimming_pool",
+   "v":[{"n":"Austrian private natural pools","mk":"","y":"1980s","d":"first private natural pools in Europe"}],"dt":"plant zone 30–70% of area · gravel, clay or liner · IOB guidelines"}],
+ "m":[["Laguna","Viking Pools"],["Monaco","Viking Pools"],["Caribbean","Viking Pools"]]},
+{"n":"Outdoor kitchen","a":"garden kitchen · built-in outdoor kitchen","d":"A fixed outdoor cooking area with built-in grill, worktops and cabinets, open, roofed or in a garden building.",
+ "t":["open","roofed","garden kitchen building","marine-grade (coastal)"],
+ "s":"https://dunsterhouse.co.uk/help-centre/what-products-do-you-sell",
+ "r":[["Hybrid Fire Grill","Kalamazoo Outdoor Gourmet"],["Outdoor kitchen cabinetry","Kalamazoo Outdoor Gourmet"],["Professional","Lynx"],["Sedona","Lynx"],["Napoli Outdoor Oven","Lynx"],["Outdoor multi-function grill","Wolf"],["Outdoor undercounter refrigeration","Sub-Zero"]]},
+{"n":"Pergola","a":"arbour (small, with seat) · louvred pergola · bioclimatic pergola","d":"An open frame of posts and beams or rafters whose top is open, slatted, louvred or planted.",
+ "t":["freestanding","wall-attached","timber","aluminium","fibreglass","louvred roof","sliding screen roof"],
+ "s":W+"Pergola",
+ "x":[{"n":"Camargue","a":"louvred-roof pergola","d":"A Renson aluminium pergola whose roof blades rotate to shade, ventilate or close against rain.","mk":"Renson","y":"","s":"https://renson.net/en-gb/products/pergolas/camargue",
+   "v":[{"n":"Camargue","mk":"Renson","y":"","d":"blades rotate up to 150°; Lineo Fix non-rotating option"},{"n":"Camargue Skye","mk":"Renson","y":"","d":"blades also retract fully to open the sky; S-drive"}],
+   "dt":"single roof up to 4.5 m deep × 6.2 m wide · freestanding or wall-mounted · coupled roofs · side screens, glass, LED, heating"}],
+ "m":[["Algarve","Renson"],["Lapure","Renson"],["Utopia Corner Pergola","Dunster House"],["Avondale Fiberglass Pergola Kit","Pergola Kits USA"]],
+ "r":[["Leviathan","Dunster House"],["Utopia","Dunster House"]]},
+{"n":"Gazebo","a":"garden pavilion · belvedere","d":"A freestanding, open-sided garden structure with a fixed roof, often octagonal.",
+ "t":["octagonal","hexagonal","square","timber","metal"],
+ "s":W+"Gazebo",
+ "m":[["Leviathan Gazebo","Dunster House"]],"r":[["Leviathan","Dunster House"],["Utopia","Dunster House"]]},
+{"n":"Patio cover","a":"veranda · Terrassenueberdachung","d":"A roofed open-sided structure on posts fixed to a house wall over a patio or deck.",
+ "t":["polycarbonate roof","glass roof","aluminium frame","timber frame"],
+ "s":"https://www.hornbach.de/c/garten/gartenhaeuser-carports/S1911"},
+{"n":"Decking","a":"deck","d":"A raised timber, composite or aluminium platform built in place outdoors, including one built for a tent or yurt.",
+ "t":["pressure-treated softwood","western red cedar","hardwood (ipê, teak, mahogany)","wood-plastic composite","aluminium"],
+ "s":W+"Deck_(building)",
+ "r":[["Select","Trex"]]},
+{"n":"Patio","a":"terrace","d":"A laid paved or hard surface outside a building for sitting or dining.",
+ "t":["stone flags","concrete slabs","brick","block paving","tile","stamped or aggregate concrete","gravel"],
+ "s":W+"Patio"},
+{"n":"Jetty","a":"private jetty · dock · pontoon","d":"A fixed or floating structure for mooring or access over water, held as a structure (not a mooring right).",
+ "t":["fixed timber jetty","floating pontoon"],
+ "s":"https://tmmarinas.com/floating-pontoons/"},
+]
+brands=[
+{"n":"Renson","c":"Belgium","f":"","seg":"Sun protection, ventilation & outdoor living","d":"Waregem family company making ventilation, solar shading, louvred pergolas, wall cladding and carports.","lines":["Camargue","Camargue Skye","Algarve","Lapure","Aero","Amani"],"eras":[],"sig":["Camargue"],"sc":[],"rel":[],"s":"https://renson.net/en-gb/news/renson-wint-henry-van-de-velde-(gold)-company-award-22"},
+{"n":"Kalamazoo Outdoor Gourmet","c":"United States","f":"","seg":"Luxury outdoor kitchen","d":"Maker of built-in grills, pizza ovens, smokers and outdoor kitchen cabinetry and refrigeration.","lines":["Hybrid Fire Grill","Gaucho Grill","Shokunin Kamado Grill","Outdoor kitchen cabinetry"],"eras":[],"sig":[],"sc":[],"rel":["Lynx","Wolf"],"s":"https://www.kalamazoogourmet.com/"},
+{"n":"Lynx","c":"United States","f":"","seg":"Luxury outdoor kitchen","d":"Greenwood, Mississippi maker of built-in grills, outdoor ovens, refrigeration and outdoor kitchen cabinetry.","lines":["Professional","Sedona","Napoli Outdoor Oven"],"eras":[],"sig":[],"sc":[],"rel":["Kalamazoo Outdoor Gourmet","Wolf"],"s":"https://www.lynxgrills.com/"},
+{"n":"Sub-Zero","c":"United States","f":"1945","seg":"Luxury built-in refrigeration","d":"Madison, Wisconsin maker of built-in refrigerators and wine storage, including outdoor undercounter units.","lines":["Outdoor undercounter refrigeration"],"eras":["Founded by Westye F. Bakke, 1945"],"sig":[],"sc":[],"rel":["Wolf"],"s":"https://en.wikipedia.org/wiki/Sub-Zero_(company)"},
+{"n":"Wolf","c":"United States","f":"","seg":"Luxury cooking appliances","d":"Cooking-appliance brand of the Sub-Zero group since 2000, including an outdoor multi-function grill and warming drawers.","lines":["Outdoor multi-function grill","Outdoor warming drawer"],"eras":["Sub-Zero ownership, 2000–"],"sig":[],"sc":[],"rel":["Sub-Zero"],"s":"https://www.subzero-wolf.com/outdoor"},
+{"n":"Trex","c":"","f":"1996","seg":"Composite decking","d":"Maker of composite decking boards from 95% recycled and reclaimed material, plus railing, fencing and pergolas.","lines":["Select"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://www.trex.com/"},
+]
+notes=("Viking Pools fibreglass shell list (18 models, retail SKU noise) cut to 3; construction types and natural pool kept as t, with Infinity pool and Natural swimming pool as maker-free archetypes. "
+ "Old 'Garden kitchen' merged into Outdoor kitchen. Gaggenau left out of Outdoor kitchen: no retrieved page shows an outdoor-rated Gaggenau product (400 series grills are indoor cooktops). "
+ "Kalamazoo and Lynx founding years not stated on retrieved pages, left blank; Renson founding year (1909 per directories) not on a fetched page, left blank; Trex founding taken from 1996 on trex.com logo, country not stated. "
+ "No archetypes for Gazebo, Patio cover, Patio, Jetty, Decking (quality-of-life kinds). Tent gazebos (portable) are not built-in and belong with garden furniture/camping. No traditions added.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='work/G3/shelves/05_00.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)
