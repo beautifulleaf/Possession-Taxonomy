@@ -1,0 +1,56 @@
+import json, os
+Z="https://www.zooplus.ie/shop/cats/scratching_posts/ceiling_scratching_trees/2110098"
+kinds=[
+{"n":"Cat tree","a":"cat tower · cat condo · kitty condo","d":"A free-standing or pole-fixed climbing and resting structure made for cats, with platforms, dens and scratching posts.",
+ "t":["floor-standing tower","floor-to-ceiling (tension pole)","corner tree","modern wood-and-laminate","large-breed / heavy duty","sisal-wrapped posts","faux-fur covered"],
+ "s":"https://en.wikipedia.org/wiki/Cat_tree",
+ "x":[
+  {"n":"Catit Vesper","a":"Vesper cat furniture","d":"Modular cat trees of MDF with wood-look laminate, cubed dens, raised platforms and replaceable cushions and scratching mats.","mk":"Catit","y":"","s":"https://catit.com/products/vesper/",
+   "v":[{"n":"Vesper Base","mk":"Catit","y":"","d":"most compact, 3 levels, about 84.5 cm"},{"n":"Vesper High Base","mk":"Catit","y":"","d":"4 levels, about 121 cm"},{"n":"Vesper High Base XL","mk":"Catit","y":"","d":"5 storeys, about 158 cm"},{"n":"Vesper Double","mk":"Catit","y":"","d":"twin cubed dens, about 103.5 cm"}],
+   "dt":"height and level count · walnut or oak-look laminate · cushion colour"},
+  {"n":"Natural Paradise ceiling cat tree","a":"floor-to-ceiling cat tree","d":"Floor-to-ceiling tension-pole cat tree of untreated birch ply with sisal posts, hammock and den, sold by zooplus.","mk":"Natural Paradise","y":"","s":Z,
+   "v":[{"n":"Orchid Vanda","mk":"Natural Paradise","y":"","d":"245-275 cm, Baltic birch plywood, cream or light grey"},{"n":"Magnolia","mk":"Natural Paradise","y":"","d":"ceiling-high, sisal posts"},{"n":"Amaryllis","mk":"Natural Paradise","y":"","d":"ceiling-high model"}],
+   "dt":"ceiling height range · lining colour · wall-mount option"}],
+ "m":[["Trixie Kobe Ceiling Mount Cat Tree","TRIXIE Heimtierbedarf"],["Trixie Isaba Cat Tree","TRIXIE Heimtierbedarf"],["Trixie Boho Cat Tree","TRIXIE Heimtierbedarf"],["Frisco Cat Tree with Condo","Frisco"],["Frisco Heavy Duty Faux Fur Cat Tree","Frisco"],["Go Pet Club Sisal Posts Cat Tree Condo","Go Pet Club"],["Designed by Lotte Wooden Cat Tree Nala","Designed by Lotte"],["Catry Sisal Cat Tree","Catry"]],
+ "r":[["Catit Vesper","Catit"]]},
+{"n":"Cat scratcher","a":"scratching post · scratch pad · scratching board","d":"A post, pad or board of sisal, cardboard or carpet made for a cat to scratch.",
+ "t":["upright sisal post","corrugated cardboard pad","cardboard lounge / bed","wall or door-hanging board","window-mounted","scratcher with toy","refillable cardboard insert"],
+ "s":"https://en.wikipedia.org/wiki/Scratching_post",
+ "m":[["SmartCat Ultimate Scratching Post","SmartCat"],["PetFusion Ultimate Cat Scratcher Lounge","PetFusion"],["Catit Senses Oval Scratcher","Catit"],["Catit Lounge Scratcher","Catit"],["SmartyKat Scratch Up cardboard","SmartyKat"],["Frisco triple sisal ball scratching post","Frisco"],["K&H EZ Mount window scratcher","K&H Pet Products"],["MidWest Feline Nuvo Grand Forte","MidWest Feline"],["IKEA cat scratch mat","IKEA"],["Catry Natural Sisal Rope Scratching Cat Post","Catry"]]},
+{"n":"Wall-mounted cat furniture","a":"cat shelves · cat wall · climbing wall","d":"Shelves, steps, bridges and beds fixed to a wall for a cat to climb and rest on.",
+ "t":["single shelf or perch","step set","bridge","wall hammock or bed","wall cubby","corner shelf","wall planter or feeder shelf"],
+ "s":"https://www.zooplus.ie/shop/cats/scratching_posts/solid_wood_cat_trees",
+ "x":[{"n":"Catastrophic Creations cat wall","a":"","d":"Solid-pine wall shelves, bridges, hammocks and cubbies with sisal rope, made to combine into a climbing wall.","mk":"Catastrophic Creations","y":"","s":"https://catastrophicreations.com/",
+   "v":[{"n":"Wall Mounted Cat Shelf","mk":"Catastrophic Creations","y":"","d":"core shelf"},{"n":"Cat Bridge w/ Landings","mk":"Catastrophic Creations","y":"","d":"bridge between two landings"},{"n":"Hanging Cat Bed Hammock","mk":"Catastrophic Creations","y":"","d":"wall hammock"},{"n":"Double Cat Hammock and Climbing Bridge Combo","mk":"Catastrophic Creations","y":"","d":"combined set"}],
+   "dt":"wood finish · shelf, bridge, hammock or cubby · stud-mounted"}]},
+{"n":"Cat bed","a":"","d":"A bed, perch or pad where a cat sleeps or rests, often raised, enclosed or warmed.",
+ "t":["radiator bed","window perch","igloo / cave","donut / bolster","hammock","self-warming","heated pad or bed"],
+ "s":"https://khpet.com/thermo-kitty-sill-fleece.html",
+ "x":[{"n":"K&H Kitty Sill","a":"Thermo-Kitty Sill","d":"Window-sill perch bed with orthopaedic foam and washable cover, fixed by hook-and-loop or screws; heated or unheated.","mk":"K&H Pet Products","y":"","s":"https://khpet.com/thermo-kitty-sill-fleece.html",
+   "v":[{"n":"Kitty Sill","mk":"K&H Pet Products","y":"","d":"unheated"},{"n":"Thermo-Kitty Sill","mk":"K&H Pet Products","y":"","d":"removable 6 W heater"},{"n":"Thermo EZ Mount Window Bed Extra Deep (9186)","mk":"K&H Pet Products","y":"","d":"suction-cup glass mount, 4 W heater"}],
+   "dt":"heated or not · sill or suction mount · cover colour"}]},
+{"n":"Cat toy","a":"","d":"A toy for a cat's play, usually imitating prey to be chased, pounced on or kicked.",
+ "t":["wand / teaser","laser pointer","catnip toy or kicker","ball track / circuit","toy mouse","electronic moving toy","puzzle or treat toy"],
+ "s":"https://en.wikipedia.org/wiki/Cat_toy",
+ "x":[{"n":"Cat Dancer","a":"","d":"Wire-spring teaser with rolled cardboard tips, marketed as the first nationally sold interactive cat toy.","mk":"Cat Dancer Products","y":"1983","s":"https://petsplusmag.com/cat-dancer-products-announces-celebration-of-40-years-in-business/","v":[],"dt":"original wire spring · refills"},
+      {"n":"Da Bird","a":"","d":"Feather wand toy whose swivelling bracket makes the feather lure fly like a bird; handmade in the USA.","mk":"Go Cat","y":"","s":"https://www.mudbay.com/1007910.html","v":[],"dt":"rod length · feather refill type"},
+      {"n":"Catit Senses circuit","a":"Senses Circuit","d":"Modular ball-track system whose tracks also hold Catit's oval cardboard scratcher.","mk":"Catit","y":"","s":"https://catit.com/help-advice/scratchers/senses-oval-scratcher","v":[],"dt":"track pieces · add-on scratcher"}]},
+{"n":"Cat harness and lead","a":"cat walking jacket","d":"A harness and lead sized for walking a cat outdoors without strain on its throat.",
+ "t":["strap (H or figure-8) harness","vest / jacket harness","bungee lead","long line"],
+ "s":"https://www.petsafe.com/product/come-with-me-kitty-harness-and-bungee-leash",
+ "m":[["Come With Me Kitty Harness and Bungee Leash","PetSafe"]]}]
+brands=[
+{"n":"Catit","c":"Canada","f":"","seg":"mass-market cat products","d":"Cat-accessory brand of the Hagen group making Vesper furniture, Senses toys and PIXI feeders.","lines":["Vesper","Senses","PIXI"],"eras":[],"sig":["Catit Vesper","Catit Senses circuit"],"sc":[],"rel":[],"s":"https://catit.com/products/vesper/"},
+{"n":"Natural Paradise","c":"Germany","f":"","seg":"retailer house brand","d":"zooplus house brand of birch-ply and sisal cat trees, including floor-to-ceiling models.","lines":["Orchid","Magnolia","Amaryllis"],"eras":[],"sig":["Natural Paradise ceiling cat tree"],"sc":[],"rel":[],"s":Z},
+{"n":"Catastrophic Creations","c":"United States","f":"","seg":"cat wall furniture","d":"Grand Rapids, Michigan maker of solid-pine cat shelves, bridges, hammocks and condos, begun in an apartment.","lines":["Cat Shelves & Perches","Cat Bridges","Cat Trees & Condos"],"eras":[],"sig":["Catastrophic Creations cat wall"],"sc":[],"rel":[],"s":"https://catastrophicreations.com/"},
+{"n":"K&H Pet Products","c":"United States","f":"","seg":"heated and orthopaedic pet beds","d":"Maker of heated and self-warming pet beds, window perches and outdoor cat houses.","lines":["Kitty Sill","Thermo-Kitty","EZ Mount"],"eras":[],"sig":["K&H Kitty Sill"],"sc":[],"rel":[],"s":"https://khpet.com/thermo-kitty-sill-fleece.html"},
+{"n":"Cat Dancer Products","c":"United States","f":"1983","seg":"interactive cat toys","d":"Company formed in 1983 by Jim Boelke to sell the Cat Dancer wire teaser.","lines":["Cat Dancer"],"eras":["Jim Boelke, founder and president, 1983-"],"sig":["Cat Dancer"],"sc":[],"rel":[],"s":"https://petsplusmag.com/cat-dancer-products-announces-celebration-of-40-years-in-business/"},
+{"n":"Go Cat","c":"United States","f":"","seg":"interactive cat toys","d":"American maker of handmade feather wand toys, best known for Da Bird.","lines":["Da Bird"],"eras":[],"sig":["Da Bird"],"sc":[],"rel":[],"s":"https://www.mudbay.com/1007910.html"},
+{"n":"PetSafe","c":"United States","f":"","seg":"pet products","d":"Pet-products brand of Radio Systems Corporation (harnesses, doors, fences, feeders).","lines":["Come With Me Kitty"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://www.petsafe.com/product/come-with-me-kitty-harness-and-bungee-leash"}]
+notes=("Cat tree: Catit Vesper and Natural Paradise ceiling models made archetypes (versions from catit.com and old data); SKU list trimmed to 8 flat models (dropped near-duplicate Trixie/Frisco/Go Pet Club/Natural Paradise SKUs). "
+ "Cat scratcher trimmed from 22 to 10 market brands; cheap marketplace brands (Coching, Fukumaru, MECOOL, SHENGOCASE, PetMaker, ScratchMe, PetnPurr, Catinsider, Cat Craft, PetPals) dropped. "
+ "Wall-mounted cat furniture keeps old source; Catastrophic Creations archetype added. New kinds Cat bed, Cat toy, Cat harness and lead sourced. "
+ "Left out: laser-toy and catnip-kicker brands, radiator-bed makers, Petstages scratchers and Catastrophic Creations founding year (no retrieved page confirmed them); catster.com blocked (403). Catit country and Go Cat country rest on brand pages/retailer context, not retrieved corporate records.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="work/B10/shelves/01_02.json"; t=p+".tmp"
+json.dump(out,open(t,"w"),ensure_ascii=False,indent=1); os.replace(t,p)
