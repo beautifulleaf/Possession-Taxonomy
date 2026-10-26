@@ -1,0 +1,32 @@
+import json,os
+W="https://en.wikipedia.org/wiki/"
+MS="https://mobilesyrup.com/2020/07/25/nanoleaf-hexagon-shapes-light-panels-review/"
+kinds=[
+{"n":"Salt lamp","a":"Himalayan salt lamp · rock salt lamp","d":"Lamp made from a hollowed block of pink Himalayan rock salt with a bulb inside, giving a warm orange-pink glow.",
+ "t":["natural rough-cut","carved shape","bowl of salt chunks","mini USB"],"s":W+"Salt_lamp"},
+{"n":"Plasma lamp","a":"plasma ball · plasma globe","d":"Clear glass globe of low-pressure noble gas with a high-voltage centre electrode that throws touch-reactive plasma filaments.",
+ "t":["globe","mini night light","tube"],"s":W+"Plasma_globe",
+ "x":[{"n":"Tesla single-terminal lamp","a":"inert gas discharge tube","d":"Nikola Tesla's evacuated tube with a single internal conductor, the forerunner of the plasma globe.","mk":"","y":"1894","s":W+"Plasma_globe","v":[{"n":"US patent 514,170","mk":"","y":"1894","d":"Patent dated 6 February 1894"}],"dt":"evacuated glass tube · single electrode"},
+      {"n":"Groundstar","a":"Falk plasma sphere","d":"Modern plasma-globe design developed by James Falk and Bill Parker, sold to collectors and science museums.","mk":"","y":"1970s–1980s","s":W+"Plasma_globe","v":[],"dt":"glass sphere sizes · neon, krypton, xenon fill"},
+      {"n":"Omnisphere","a":"","d":"Plasma sphere sold by Orb Corporation during the 1980s novelty boom.","mk":"","y":"1984","s":W+"Plasma_globe","v":[{"n":"Omnisphere","mk":"Orb Corporation","y":"1984","d":"Praised by Jerry Pournelle in 1984"}],"dt":"glass sphere · base finish"}]},
+{"n":"Fibre-optic lamp","a":"fiber optic lamp · fibre-optic fountain","d":"Lamp whose spray of optical fibres carries light from a coloured, often rotating, source to glowing tips.",
+ "t":["fountain spray","globe","flower","tree"],"s":"https://www.1stdibs.com/furniture/lighting/table-lamps/fiber-optic-chrome-round-table-lamp-cima-international-italy-1970s/id-f_38861702",
+ "x":[{"n":"Space-age fibre-optic table lamp","a":"fibre-optic globe lamp","d":"1970s table lamp with a chrome or plastic base and a round head of fibres, a rotating colour wheel changing the tips' colour.","mk":"","y":"1970s","s":"https://www.1stdibs.com/furniture/lighting/table-lamps/fiber-optic-chrome-round-table-lamp-cima-international-italy-1970s/id-f_38861702","v":[{"n":"Fibre-optic and chrome round table lamp","mk":"Cima International","y":"1970s","d":"Italian; chrome and black plastic base, about 45 cm tall"}],"dt":"base chrome, plastic · head shape round, fountain · colour wheel"}]},
+{"n":"Neon light","a":"neon sign · LED neon · neon flex","d":"Decorative sign or shape in glowing tubes for the home: true glass neon gas tubes or LED neon flex imitating them.",
+ "t":["glass neon","LED neon flex","custom word or name sign","wall-mounted on acrylic backboard","battery or USB"],"s":W+"Neon_lighting"},
+{"n":"Light panels","a":"smart light panels · modular light panels · LED wall panels","d":"App-controlled LED tiles that clip together into a wall pattern, showing colour scenes and music-reactive effects.",
+ "t":["triangle","square","hexagon","light bars","wood-look"],"s":W+"Nanoleaf",
+ "x":[{"n":"Nanoleaf Light Panels","a":"Aurora","d":"The original triangular smart modular light panels, first shown at CES 2016, which started the home light-panel category.","mk":"Nanoleaf","y":"2016–2017","s":W+"Nanoleaf","v":[{"n":"Light Panels","mk":"Nanoleaf","y":"2017","d":"Triangles, 100 lumens max, wall-plugged controller; now discontinued"}],"dt":"triangle panels · kit size · sticky-pad mounting"},
+      {"n":"Nanoleaf Canvas","a":"","d":"Square touch-sensitive panels, one panel doubling as the controller.","mk":"Nanoleaf","y":"","s":MS,"v":[],"dt":"square panels · 44 lumens max · kit size"},
+      {"n":"Nanoleaf Shapes","a":"","d":"Panel system in hexagons, triangles and mini triangles with clip-in connectors and removable mounting plates.","mk":"Nanoleaf","y":"2020","s":MS,"v":[{"n":"Shapes Hexagons","mk":"Nanoleaf","y":"2020","d":"Starter kit of 7 panels; 100 lumens max"}],"dt":"hexagon, triangle, mini triangle · kit 7–19 panels"},
+      {"n":"Govee Glide Hexa","a":"Glide Hexa Light Panels","d":"Lower-priced hexagonal smart panels, each able to show several colours at once.","mk":"Govee","y":"by 2022","s":"https://www.pcworld.com/article/700649/govee-glide-hexa-light-panels-review.html","v":[],"dt":"hexagon panels about 6.25 in · kit 7 or 10 panels"}]},
+{"n":"Party & DJ light","a":"disco light · DJ lighting · party light","d":"Home and mobile-DJ effect light for parties: coloured washes, beams and patterns, often sound-activated or DMX-controlled.",
+ "t":["PAR can","moving head","pinspot","beam","wash","laser","strobe","mirror ball"],"s":W+"Intelligent_lighting"}]
+brands=[
+{"n":"Nanoleaf","c":"Canada","f":"2012","seg":"Smart lighting","d":"Toronto LED lighting company founded by three University of Toronto engineers, known for modular light panels.","lines":["Light Panels","Canvas","Shapes","Essentials"],"sig":["Nanoleaf Light Panels","Nanoleaf Shapes"],"rel":["Govee"],"s":W+"Nanoleaf"},
+{"n":"Govee","c":"China","seg":"Smart lighting","d":"Shenzhen maker of low-cost app-controlled LED strips, bulbs and light panels.","sig":["Govee Glide Hexa"],"rel":["Nanoleaf"],"s":"knowledge"}]
+notes=("Lava lamp, String light and Decorative lantern are handed over from B4 and merged at assembly, so they are not repeated here (Astro lamp / Lava Lite archetypes belong with that hand-over). "
+"Party & DJ light merges old Other stage lights, PAR can and Moving head light at kind level only: all ~75 stage/theatre models and ranges (Chauvet, Martin, Clay Paky, ETC, Eurolite etc.) dropped as trade/institutional gear; s changed to Wikipedia Intelligent lighting from trade shop pages. "
+"No archetypes for salt lamp or neon light (no named designs on retrieved pages). Canvas year not confirmed so left blank. Govee founding year left out.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="work/B3/shelves/03_00.json"; json.dump(out,open(p+".tmp","w"),ensure_ascii=False,indent=1); os.replace(p+".tmp",p)
