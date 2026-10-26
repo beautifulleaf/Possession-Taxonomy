@@ -53,9 +53,9 @@ kinds=[
 {"n":"Dual-action polisher","a":"DA polisher · random-orbit polisher · machine polisher · buffer","d":"Hand-held electric machine that spins and oscillates a pad to polish car paint with little risk of burning it.",
  "t":["free-spinning DA","long-throw DA","forced-rotation","rotary","cordless","mini (small-pad)"],"s":RU,
  "x":[
-  {"n":"Porter-Cable 7424","a":"PC 7424 · 7424XP","d":"6-inch variable-speed random-orbit polisher that became the standard beginner detailing machine.","mk":"Porter-Cable","y":"","s":PC,
+  {"n":"Porter-Cable 7424","a":"PC 7424 · 7424XP","d":"6-inch variable-speed random-orbit polisher long popular with novice detailers.","mk":"Porter-Cable","y":"","s":PC,
    "v":[v("7424","Porter-Cable","","6-inch backing plate, about 6 lb")],"dt":"backing plate 6 in · speed dial"},
-  {"n":"Rupes BigFoot","a":"LHR21 · LHR15","d":"Italian long-throw random-orbit polisher family that popularised large-throw machines.","mk":"Rupes","y":"","s":RU,
+  {"n":"Rupes BigFoot","a":"LHR21 · LHR15","d":"Italian random-orbit polisher family in corded and battery (iBrid) forms.","mk":"Rupes","y":"","s":RU,
    "v":[v("LHR21 Mark V","Rupes"),v("LHR15 Mark V","Rupes"),v("HLR21 iBrid","Rupes","","cordless/corded hybrid"),v("HLR15 iBrid","Rupes"),v("iBrid Nano 2","Rupes","","small-pad")],
    "dt":"throw (21 or 15 mm per model name) · corded or battery"},
   {"n":"Flex XC 3401 VRG","a":"The Beast · XC3401","d":"German forced-rotation orbital polisher with 8 mm orbit and direct drive.","mk":"Flex","y":"","s":FX,

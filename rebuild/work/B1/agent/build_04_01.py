@@ -1,0 +1,90 @@
+import json, os
+G="https://www.google.com/basepages/producttype/taxonomy.en-US.txt"
+kinds=[
+{"n":"Sideboard","a":"buffet · credenza · server","d":"A long low cabinet with doors and drawers for dining-room storage and serving.",
+ "t":["buffet (on longer legs)","credenza","server","low sideboard","highboard","period: Victorian, mid-century, contemporary"],
+ "s":G,
+ "x":[
+  {"n":"Florence Knoll credenza","a":"Florence Knoll sideboard","d":"Low cabinet on a polished chrome base with a marble, veneer or lacquer top, designed when the table desk replaced the executive desk.",
+   "mk":"Knoll","y":"1961","s":"https://www.knoll.com/product/florence-knoll-credenza",
+   "v":[{"n":"Small","mk":"Knoll","y":"1961","d":"two cabinets, two adjustable shelves"},
+        {"n":"Large, four cabinet","mk":"Knoll","y":"1961","d":"four cabinets, four adjustable shelves"},
+        {"n":"Large, mixed storage","mk":"Knoll","y":"1961","d":"four drawers, file drawer and two cabinets"},
+        {"n":"High","mk":"Knoll","y":"1961","d":"taller version with two full-width shelves"}],
+   "dt":"chrome steel base · marble, veneer or lacquer top · oak, walnut or lacquer body"},
+  {"n":"Danish modern sideboard","a":"Danish teak sideboard","d":"Mid-century Danish sideboard in teak, oak or rosewood with sliding or cane doors and drawers, often without handles.",
+   "mk":"","y":"1950s","s":"https://www.1stdibs.com/furniture/storage-case-pieces/sideboards/ry-26-sideboard-hans-j-wegner/id-f_13554462",
+   "v":[{"n":"RY 26","mk":"Ry Møbler","y":"1953","d":"Hans J. Wegner; oak with cane doors and rosewood feet, 200 cm"},
+        {"n":"Arne Vodder rosewood sideboard","mk":"","y":"","d":"Arne Vodder; drawers shaped to avoid handles, coloured panels"}],
+   "dt":"teak, oak, rosewood · cane or sliding doors · width · handle detail"},
+  {"n":"Godwin Anglo-Japanese sideboard","a":"","d":"Ebonised sideboard of open rectangular frames inspired by Japanese design, first made for Godwin's own London dining room.",
+   "mk":"","y":"1867","s":"https://en.wikipedia.org/wiki/Sideboard_(Edward_William_Godwin)",
+   "v":[{"n":"First version","mk":"","y":"1867","d":"Edward William Godwin; ebonised deal"},
+        {"n":"Later versions","mk":"","y":"to 1888","d":"ebonised mahogany, or oak and pine; examples in the V&A and other museums"}],
+   "dt":"ebonised deal or mahogany · silver-plated fittings · museum or private provenance"}],
+ "m":[["BESTÅ","IKEA"],["HAVSTA","IKEA"],["HAUGA","IKEA"],["STOCKHOLM 2025","IKEA"],["SKRUVBY","IKEA"],["VIHALS","IKEA"],["BAGGEBO","IKEA"]],
+ "r":[["BESTÅ","IKEA"],["HAVSTA","IKEA"],["HAUGA","IKEA"],["STOCKHOLM 2025","IKEA"]]},
+{"n":"Display cabinet","a":"vitrine · curio cabinet · china cabinet · glass cabinet","d":"A cabinet with glass doors or sides for showing what it holds.",
+ "t":["china cabinet","curio cabinet (all-glass)","wall-mounted","corner","with lighting","with mirrored back","period: Biedermeier, Gustavian, Victorian"],
+ "s":"https://www.ikea.com/nl/en/cat/display-cabinets-10410/",
+ "x":[
+  {"n":"China cabinet","a":"","d":"Glazed cabinet for displaying porcelain, made fashionable in England and the Netherlands under William and Mary.",
+   "mk":"","y":"late 17th century","s":"https://en.wikipedia.org/wiki/China_cabinet",
+   "v":[{"n":"Early walnut cabinet","mk":"","y":"late 17th century","d":"simple walnut cases, Dutch imports and English copies"},
+        {"n":"Mid-18th-century cabinet","mk":"","y":"mid-18th century","d":"more elaborate, with ornate doors"}],
+   "dt":"walnut, mahogany · glazed front and sides · door glazing pattern"},
+  {"n":"Curio cabinet","a":"","d":"Mostly glass display case with glass shelves and often a mirrored back, for figurines and other small collections.",
+   "mk":"","y":"","s":"https://en.wikipedia.org/wiki/Curio_cabinet","v":[],
+   "dt":"wood or metal frame · glass shelves · mirror back · lock"},
+  {"n":"Chinese hardwood display cabinet","a":"","d":"Chinese cabinet with an open display section above a closed storage section, used in scholars' homes.",
+   "mk":"","y":"Qing dynasty","s":"https://collections.vam.ac.uk/item/O178913",
+   "v":[{"n":"V&A cabinet","mk":"","y":"1600–1700","d":"huali wood with brass fittings, 122.5 cm high"}],
+   "dt":"huanghuali, zitan · brass fittings · open shelves over doors"}],
+ "m":[["HEMNES","IKEA"],["BILLY / OXBERG","IKEA"],["HAVSTA","IKEA"],["MILSBO","IKEA"],["RUDSTA","IKEA"],["VIHALS","IKEA"],["BAGGEBO","IKEA"]],
+ "r":[["HEMNES","IKEA"],["BILLY","IKEA"],["HAVSTA","IKEA"]]},
+{"n":"Bar cabinet","a":"liquor cabinet · drinks cabinet · cocktail cabinet","d":"A cabinet made to hold bottles and glasses, often with bottle racks and a pull-out or fold-down surface.",
+ "t":["cocktail cabinet","wine cabinet (unrefrigerated)","with fold-down top","wall-mounted"],
+ "s":"https://www.dwr.com/kitchen-dining-storage-bar-carts-trolleys?lang=en_US",
+ "x":[{"n":"Art Deco cocktail cabinet","a":"","d":"Interwar cabinet for spirits, glasses and cocktail tools, in lacquered veneers with glass, chrome and Bakelite.",
+   "mk":"","y":"1920s–1930s","s":"https://www.canonburyantiques.com/kbd/The-Art-Deco-Cocktail-Cabinet-and-Its-Origin-from-Canonbury-Antiques/","v":[],
+   "dt":"mahogany or walnut veneer · plate glass, chrome, Bakelite · inlays and sunburst motifs"}]},
+{"n":"TV unit","a":"TV stand · media unit · entertainment centre","d":"A low cabinet made to hold a television and media equipment.",
+ "t":["low media bench","entertainment centre","corner unit","easel-style stand","with TV mount","with electric fireplace"],
+ "s":G,
+ "m":[["BESTÅ","IKEA"],["BRIMNES","IKEA"],["HEMNES","IKEA"],["KALLAX","IKEA"],["LACK","IKEA"],["EKET","IKEA"],
+      ["Wren Classic TV Stand","Walker Edison"],["Artistic Easel","VIVO"],["Redmond","Simplihome"],["Modern Studio Collection TV Media Stand","Zinus"],["Lumina Fireplace","Ameriwood Home"]],
+ "r":[["BESTÅ","IKEA"],["HEMNES","IKEA"],["KALLAX","IKEA"]]},
+{"n":"Storage cabinet","a":"cupboard","d":"A freestanding cupboard with doors and shelves for general storage, not made for one room's use.",
+ "t":["tall cupboard","low cabinet","lockable","metal","modular unit"],
+ "s":"https://www.ikea.com/us/en/cat/storage-cabinets-10385/",
+ "x":[
+  {"n":"Eames Storage Unit","a":"ESU","d":"Modular open-frame storage of zinc-plated steel with plywood and coloured lacquered Masonite panels.",
+   "mk":"Herman Miller","y":"1949–1950","s":"https://collections.vam.ac.uk/item/O70986",
+   "v":[{"n":"ESU 421-C","mk":"Herman Miller","y":"1950–1952","d":"Charles and Ray Eames; V&A W.5-1991"}],
+   "dt":"zinc-plated steel frame · birch plywood · lacquered Masonite panel colours · height and width"},
+  {"n":"Round-corner cabinet","a":"yuanjiaogui · tapered cabinet","d":"Chinese hardwood cupboard with a rounded protruding top on tapered round corner posts and two tall doors.",
+   "mk":"","y":"17th century","s":"https://www.christies.com.cn/lot/lot-928478",
+   "v":[{"n":"Huanghuali pair","mk":"","y":"17th century","d":"circular baitong lockplates, removable central stile, 174.5 cm high"}],
+   "dt":"huanghuali · baitong fittings · single-panel doors · with or without drawers"},
+  {"n":"Boulle marquetry cabinet","a":"Boulle work · buhl","d":"Case furniture veneered in tortoiseshell inlaid with brass and pewter arabesques, named after André-Charles Boulle.",
+   "mk":"","y":"late 17th – early 18th century","s":"https://en.wikipedia.org/wiki/Boulle_work",
+   "v":[{"n":"Dauphin's private study","mk":"","y":"1681–1683","d":"André-Charles Boulle; destroyed"}],
+   "dt":"tortoiseshell · brass · pewter · arabesque pattern"}]},
+{"n":"Shoe cabinet","a":"shoe cupboard","d":"A cabinet with doors or tilting compartments made to store shoes.",
+ "t":["tilt-out compartments","wall-mounted","with bench top","slim"],
+ "s":"https://www.ikea.com/us/en/cat/shoe-cabinets-10456/",
+ "m":[["TRONES","IKEA"],["STÄLL","IKEA"],["BISSA","IKEA"],["BRUSALI","IKEA"],["GULLABERG","IKEA"],["MACKAPÄR","IKEA"]]}
+]
+brands=[
+ {"n":"Knoll","c":"USA","f":"1938","seg":"Modernist furniture","d":"American maker of Saarinen, Bertoia and Breuer designs.","sig":["Florence Knoll credenza"],"s":"https://www.knoll.com/product/florence-knoll-credenza"},
+ {"n":"Herman Miller","c":"USA","f":"1905","seg":"Modernist and office furniture","d":"American maker of Eames designs.","sig":["Eames Storage Unit"],"s":"knowledge"},
+ {"n":"IKEA","c":"Sweden","f":"1943","seg":"Mass-market flat-pack furniture","d":"Swedish flat-pack furniture retailer.","sig":[],"s":"knowledge"}]
+trads=[{"n":"Boulle marquetry","g":"Woodwork & furniture","r":"France","p":"late 17th – early 18th century, later revivals","d":"Veneering of case furniture in tortoiseshell inlaid with brass and pewter, perfected at the court of Louis XIV.",
+ "tech":"marquetry inlay of metal into tortoiseshell","mat":"tortoiseshell, brass, pewter","forms":["Boulle marquetry cabinet","commode","clock with pedestal"],
+ "ctr":["André-Charles Boulle (1642–1732)"],"auth":"","s":"https://en.wikipedia.org/wiki/Boulle_work"}]
+notes=("All six planned kinds kept. IKEA lists trimmed to 7 per kind (sideboard, display cabinet) and duplicates removed; TV unit keeps 6 IKEA ranges plus 5 PopSci test picks. "
+ "Shoe cabinet ranges from the IKEA US shoe-cabinet page (HEMNES not listed there, so left out). Left out: Biedermeier and Gustavian vitrines as archetypes (their Wikipedia pages do not mention cabinets; kept as period types and in the 04_00 traditions); "
+ "Eames Storage Unit Vitra reissue (vitra.com returned 403, reissue not confirmed on a fetched page); Arne Vodder model 29 / Sibast (dealer pages not fetched or 404); Chevy Chase Sideboard (no article). "
+ "Ming/Qing hardwood tradition already in 02_00; Boulle marquetry tradition added.")
+out={"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes}
+p='work/B1/shelves/04_01.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)
