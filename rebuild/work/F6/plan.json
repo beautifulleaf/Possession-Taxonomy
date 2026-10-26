@@ -317,6 +317,12 @@
        ]
       },
       {
+       "n": "Bixbyite",
+       "old": [
+        "k154"
+       ]
+      },
+      {
        "n": "Uraninite",
        "old": [
         "k162"
@@ -478,6 +484,12 @@
        "n": "Hübnerite",
        "old": [
         "k231"
+       ]
+      },
+      {
+       "n": "Ettringite",
+       "old": [
+        "k201"
        ]
       }
      ]
@@ -1169,6 +1181,18 @@
        "old": [
         "k124"
        ]
+      },
+      {
+       "n": "Inesite",
+       "old": [
+        "k85"
+       ]
+      },
+      {
+       "n": "Afwillite",
+       "old": [
+        "k83"
+       ]
       }
      ]
     }
@@ -1253,11 +1277,10 @@
        "brief": "New kind: aquamarine, morganite, heliodor, red beryl."
       },
       {
-       "n": "Spinel",
+       "n": "Cut spinel",
        "old": [
         "k399"
-       ],
-       "brief": "Cut spinel; renamed."
+       ]
       },
       {
        "n": "Alexandrite and chrysoberyl",
@@ -1271,38 +1294,34 @@
        ]
       },
       {
-       "n": "Tourmaline",
+       "n": "Cut tourmaline",
        "old": [
         "k397"
-       ],
-       "brief": "Cut tourmaline; renamed."
+       ]
       },
       {
-       "n": "Garnet",
+       "n": "Cut garnet",
        "old": [
         "k396"
-       ],
-       "brief": "Cut garnet; renamed."
+       ]
       },
       {
-       "n": "Topaz",
+       "n": "Cut topaz",
        "old": [
         "k394"
-       ],
-       "brief": "Cut topaz; renamed."
+       ]
       },
       {
-       "n": "Amethyst, citrine and quartz gems",
+       "n": "Cut amethyst, citrine and quartz gems",
        "old": [
         "k395"
        ]
       },
       {
-       "n": "Opal",
+       "n": "Cut opal",
        "old": [
         "k398"
-       ],
-       "brief": "Cut opal; renamed."
+       ]
       },
       {
        "n": "Peridot",
@@ -1484,7 +1503,7 @@
     {
      "n": "Vertebrate fossils",
      "web": true,
-     "brief": "Kind = taxon group; archetypes = named genera/species and classic Lagerstätten or formations (locality/formation is the organising detail, as in the finding). Versions = notable finds or locality types; dt = matrix, preparation, restoration/composite, size. Source from Wikipedia, PBDB or museum pages. Shark teeth: Otodus megalodon, Otodus obliquus, Cretoxyrhina, Squalicorax; localities (Peace River, Lee Creek, Khouribga). Fish: Knightia and Diplomystus (Green River), Lebanese fish, Santana concretions. Dinosaurs: Spinosaurus and Carcharodontosaurus teeth (Kem Kem), hadrosaur and Triceratops material, eggs; legality notes. Add Marine reptile fossil (mosasaur teeth/jaws from Morocco, plesiosaur, ichthyosaur). Mammals: woolly mammoth (tusk, tooth), cave bear, Smilodon, Megalodon is not a mammal; reptiles/amphibians: crocodilians, pterosaurs, synapsids, Permian amphibians.",
+     "brief": "Kind = taxon group; archetypes = named genera/species and classic Lagerstätten or formations (locality/formation is the organising detail, as in the finding). Versions = notable finds or locality types; dt = matrix, preparation, restoration/composite, size. Source from Wikipedia, PBDB or museum pages. Shark teeth: Otodus megalodon, Otodus obliquus, Cretoxyrhina, Squalicorax; localities (Peace River, Lee Creek, Khouribga). Fish: Knightia and Diplomystus (Green River), Lebanese fish, Santana concretions. Dinosaurs: Spinosaurus and Carcharodontosaurus teeth (Kem Kem), hadrosaur and Triceratops material, eggs; legality notes. Add Marine reptile fossil (mosasaur teeth/jaws from Morocco, plesiosaur, ichthyosaur). Mammals: woolly mammoth (tusk, tooth), cave bear, Smilodon; reptiles/amphibians: crocodilians, pterosaurs, synapsids, Permian amphibians.",
      "k": [
       {
        "n": "Fossil shark tooth",
@@ -1602,7 +1621,7 @@
     {
      "n": "Meteorites",
      "web": true,
-     "brief": "Kind = meteorite class (Meteoritical Bulletin classification); archetypes = official meteorite names (Meteoritical Bulletin Database record as source) in order of fame; versions = falls/find years and notable masses; dt = slice, etched, endcut, individual, crust, TKW, weight. Dealer/certifier register: IMCA and notable dealers if sourced. Irons: Gibeon, Campo del Cielo, Sikhote-Alin, Canyon Diablo, Muonionalusta, Seymchan(?)—check class; Nantan, Dronino. Pallasites: Imilac, Esquel, Brenham, Fukang, Admire, Sericho. Mesosiderites: Vaca Muerta, Estherville. Ordinary chondrites: Chelyabinsk, NWA, Holbrook, Pultusk, L'Aigle. Carbonaceous: Allende, Murchison, Aguas Zarcas. Add Enstatite chondrite (Abee). HED: NWA eucrites, Millbillillie, Tatahouine. Lunar/Martian: NWA and named finds (Tissint, Zagami, NWA 7034 'Black Beauty'). Other achondrites: aubrites (Norton County), ureilites, angrites.",
+     "brief": "Kind = meteorite class (Meteoritical Bulletin classification); archetypes = official meteorite names (Meteoritical Bulletin Database record as source) in order of fame; versions = falls/find years and notable masses; dt = slice, etched, endcut, individual, crust, TKW, weight. Dealer/certifier register: IMCA and notable dealers if sourced. Irons: Gibeon, Campo del Cielo, Sikhote-Alin, Canyon Diablo, Muonionalusta, Nantan, Dronino. Pallasites: Imilac, Seymchan, Esquel, Brenham, Fukang, Admire, Sericho. Mesosiderites: Vaca Muerta, Estherville. Ordinary chondrites: Chelyabinsk, NWA, Holbrook, Pultusk, L'Aigle. Carbonaceous: Allende, Murchison, Aguas Zarcas. Add Enstatite chondrite (Abee). HED: NWA eucrites, Millbillillie, Tatahouine. Lunar/Martian: NWA and named finds (Tissint, Zagami, NWA 7034 'Black Beauty'). Other achondrites: aubrites (Norton County), ureilites, angrites.",
      "k": [
       {
        "n": "Iron meteorite",
@@ -2126,7 +2145,7 @@
     {
      "n": "Element samples",
      "web": true,
-     "brief": "Element collecting hobby. Archetypes: element sets and periodic-table displays (Theodore Gray periodic table table and cards, Luciteria element cubes and sets, Metallium?—only if sourced), noble-gas glow ampoules, high-purity crystals (bismuth, gallium, osmium bead) as versions. Add Periodic table element collection (complete or partial sets in display). dt: purity, mass, size (10 mm/25.4 mm/1 in cube). Safety notes for radioactive and reactive elements.",
+     "brief": "Element collecting hobby. Archetypes: element sets and periodic-table displays (Theodore Gray periodic table table and cards, Luciteria element cubes and sets), noble-gas glow ampoules, high-purity crystals (bismuth, gallium, osmium bead) as versions. Add Periodic table element collection (complete or partial sets in display). dt: purity, mass, size (10 mm/25.4 mm/1 in cube). Safety notes for radioactive and reactive elements.",
      "k": [
       {
        "n": "Element cube",
@@ -2289,15 +2308,7 @@
    "why": "rare species: goes to the Mindat-linked species register (rule keeps ~150–250 popular collector species in the tree)"
   },
   {
-   "old": "k83",
-   "why": "rare species: goes to the Mindat-linked species register (rule keeps ~150–250 popular collector species in the tree)"
-  },
-  {
    "old": "k84",
-   "why": "rare species: goes to the Mindat-linked species register (rule keeps ~150–250 popular collector species in the tree)"
-  },
-  {
-   "old": "k85",
    "why": "rare species: goes to the Mindat-linked species register (rule keeps ~150–250 popular collector species in the tree)"
   },
   {
@@ -2429,10 +2440,6 @@
    "why": "rare species: goes to the Mindat-linked species register (rule keeps ~150–250 popular collector species in the tree)"
   },
   {
-   "old": "k154",
-   "why": "rare species: goes to the Mindat-linked species register (rule keeps ~150–250 popular collector species in the tree)"
-  },
-  {
    "old": "k158",
    "why": "rare species: goes to the Mindat-linked species register (rule keeps ~150–250 popular collector species in the tree)"
   },
@@ -2482,10 +2489,6 @@
   },
   {
    "old": "k200",
-   "why": "rare species: goes to the Mindat-linked species register (rule keeps ~150–250 popular collector species in the tree)"
-  },
-  {
-   "old": "k201",
    "why": "rare species: goes to the Mindat-linked species register (rule keeps ~150–250 popular collector species in the tree)"
   },
   {
