@@ -1,0 +1,97 @@
+{
+ "kinds": [
+  {
+   "n": "Hen's egg",
+   "a": "chicken egg · たまご",
+   "d": "Egg of the domestic hen sold raw in the shell, graded by size and housing system.",
+   "t": [
+    "size grade (small, medium, large, very large)",
+    "caged / enriched colony",
+    "barn",
+    "free-range",
+    "organic",
+    "pasture-raised",
+    "white shell",
+    "brown shell",
+    "blue or green shell",
+    "breed egg (e.g. Burford Brown, Cotswold Legbar)",
+    "enriched (omega-3)"
+   ],
+   "s": "https://vitalfarms.com/eggs/",
+   "m": [
+    [
+     "Eggland's Best Classic Eggs",
+     "Eggland's Best"
+    ],
+    [
+     "Vital Farms Pasture-Raised Eggs",
+     "Vital Farms"
+    ],
+    [
+     "Suguna Active",
+     "Suguna Poultry Farm"
+    ],
+    [
+     "Akshayakalpa Free Range Eggs",
+     "Akshayakalpa Organic"
+    ],
+    [
+     "Gallina Feliz",
+     "Huevos Santa Reyes"
+    ],
+    [
+     "Jajca izpod Kamniških planin PGI",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "Duck egg",
+   "a": "",
+   "d": "Egg of the domestic duck sold raw in the shell, larger and richer than a hen's egg.",
+   "s": "https://thehomesteadhydroponicfarm.grazecart.com/store/product/pasture-raised-local-duck-eggs"
+  },
+  {
+   "n": "Quail egg",
+   "a": "",
+   "d": "Small speckled egg of the quail sold raw in the shell.",
+   "s": "https://gourmet-versand.com/en/article25767/vogelsberger-quail-eggs-fresh-12-pc.html"
+  },
+  {
+   "n": "Preserved egg",
+   "a": "century egg · pidan · salted egg · pickled egg",
+   "d": "Egg of any species that is cured, salted, pickled or boiled in the shell so it keeps.",
+   "t": [
+    "century egg (pidan)",
+    "salted duck egg",
+    "pickled egg",
+    "boiled egg"
+   ],
+   "s": "https://waso.uk/items/Xuri-Preserved-Duck-Eggs-6-Pieces-390g",
+   "m": [
+    [
+     "Xuri Preserved Duck Eggs",
+     "Xuri"
+    ]
+   ]
+  },
+  {
+   "n": "Liquid & dried egg",
+   "a": "egg products · liquid egg · egg powder · dried egg",
+   "d": "Pasteurised egg out of the shell, sold chilled or frozen as liquid or dried to a powder.",
+   "t": [
+    "liquid whole egg",
+    "liquid egg white",
+    "liquid egg yolk",
+    "egg powder (whole, white or yolk)"
+   ],
+   "s": "https://www.international.gc.ca/trade-commerce/controls-controles/eggs-oeufs/notices-avis/2022_wto_eggs_products-2022_omc_oeufs_ovopro.aspx?lang=fra"
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Merged old 'Liquid egg' (k101) and 'Dried egg' (k102) into one 'Liquid & dried egg' kind. Liquid whole, white and yolk plus egg powder are now types. Kept the shared Canadian trade-notice source.\n\nHen's egg: size, housing, shell colour, breed eggs (Burford Brown, Cotswold Legbar) and omega-3 enrichment are now types, not kinds. Dropped three SKU-level variants of brands already listed:\n- Vital Farms Restorative Pasture-Raised Eggs\n- Vital Farms True Blues Eggs\n- Suguna Heart\nThis leaves one line per brand: 6 models, covering US, Indian, Latin American and Slovenian PGI examples. Added 'chicken egg' as the plain English alias and kept the existing Japanese alias.\n\nPreserved egg: renamed from 'Preserved or boiled egg'. The maker-less 'Pidan (century egg)' entry was a type, not a model, so it moved into types.\n\nDuck and quail eggs: kept as model-free kinds, with definitions slightly clarified.\n\nAll kinds keep their old sources. No archetypes, new kinds or brands were added.",
+ "dropped": [],
+ "model": "claude-opus-5-5",
+ "batch": true
+}

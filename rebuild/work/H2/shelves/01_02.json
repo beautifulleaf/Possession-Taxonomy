@@ -1,0 +1,101 @@
+{
+ "kinds": [
+  {
+   "n": "Digital thermometer",
+   "a": "electronic thermometer · fever thermometer · ear thermometer · forehead thermometer",
+   "d": "Electronic thermometer for checking body temperature, read in the mouth, under the arm, in the ear or on the forehead.",
+   "t": [
+    "Stick thermometer",
+    "Ear thermometer",
+    "Forehead thermometer"
+   ],
+   "m": [
+    [
+     "Braun ThermoScan 7+ Connect",
+     "Braun"
+    ],
+    [
+     "Braun Sensian 5",
+     "Braun"
+    ],
+    [
+     "Beurer FT95",
+     "Beurer"
+    ],
+    [
+     "Beurer FT58",
+     "Beurer"
+    ],
+    [
+     "Exergen Comfort Scanner",
+     "Exergen"
+    ]
+   ],
+   "s": ""
+  },
+  {
+   "n": "Pulse oximeter",
+   "a": "finger oximeter · SpO2 monitor",
+   "d": "Small clip-on or worn sensor that reads blood oxygen saturation and pulse rate.",
+   "t": [
+    "Fingertip clip",
+    "Wrist-worn with finger sensor"
+   ],
+   "m": [
+    [
+     "Beurer PO60",
+     "Beurer"
+    ],
+    [
+     "Beurer PO30",
+     "Beurer"
+    ]
+   ],
+   "s": "https://www.walgreens.com/q/finger+pulse+oximeters"
+  },
+  {
+   "n": "Personal ECG monitor",
+   "a": "home ECG · portable EKG",
+   "d": "Handheld or worn device that records a short electrocardiogram at home to check heart rhythm.",
+   "t": [
+    "Single-lead",
+    "Six-lead"
+   ],
+   "m": [
+    [
+     "KardiaMobile",
+     "AliveCor"
+    ],
+    [
+     "KardiaMobile 6L",
+     "AliveCor"
+    ],
+    [
+     "KardiaMobile Card",
+     "AliveCor"
+    ],
+    [
+     "Beurer ME75",
+     "Beurer"
+    ]
+   ],
+   "s": "https://shop.alivecor.com/kardiamobile"
+  },
+  {
+   "n": "Peak flow meter",
+   "a": "PEF meter · asthma peak flow meter",
+   "d": "Handheld tube with a scale that measures how fast a person can breathe out, used to monitor asthma.",
+   "t": [
+    "Mechanical",
+    "Digital"
+   ],
+   "s": "https://www.medicalsearch.com.au/buy/gmi/peak-flow-meter"
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Kept all four planned kinds; nothing merged or moved. Digital thermometer: dropped Vicks Rapid Read and Vicks SpeedRead because Vicks is not on the shelf's brand list. Kept Braun ×2, Beurer ×2 and Exergen. Pulse oximeter: dropped the Choicemmed and ICHOICE models, which are off-list, retail-harvest SKU titles. Personal ECG: kept all AliveCor models and the Beurer ME75. Peak flow meter: no models, kept at kind level as before. Maker spelling normalised from 'BEURER' to 'Beurer'. Added a few aliases and attribute-level types (reading site, sensor form, lead count, mechanical or digital). Empty 'r' arrays were removed. Each kind keeps its old 's'; the thermometer source was already empty and stays empty, so it needs a source in a later pass. Gaps left because no research was done this session: the brief names Omron, Withings, Masimo and Nonin for thermometers and oximeters, and Withings for ECG, but the old data has no models for them. Sourced models should be added later, for example Masimo and Nonin fingertip oximeters, a Withings thermometer, and Withings ECG devices. The Exergen model name should also be checked against Exergen's own range, since its well-known line is the TemporalScanner.",
+ "dropped": [],
+ "model": "claude-opus-5-5",
+ "batch": true
+}

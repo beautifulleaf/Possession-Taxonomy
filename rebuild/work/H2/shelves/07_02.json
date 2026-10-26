@@ -1,0 +1,91 @@
+{
+ "kinds": [
+  {
+   "n": "Care bed",
+   "a": "hospital bed · nursing bed · profiling bed · home-care bed",
+   "d": "Height-adjustable bed with a profiling mattress platform, used for nursing care at home.",
+   "t": [
+    "semi-electric",
+    "full-electric",
+    "low or floor bed",
+    "bariatric"
+   ],
+   "s": "https://shop.invacare.com/collections/bed-accessories",
+   "m": [
+    [
+     "Homecare Bed full-electric",
+     "Invacare"
+    ]
+   ]
+  },
+  {
+   "n": "Pressure-relief mattress",
+   "a": "pressure-care mattress · anti-decubitus mattress · alternating-pressure mattress",
+   "d": "Mattress or overlay that spreads or shifts body pressure to prevent or treat pressure sores.",
+   "t": [
+    "static foam",
+    "hybrid foam and air",
+    "alternating-pressure air",
+    "low-air-loss",
+    "overlay"
+   ],
+   "s": "https://shop.invacareamerica.com/collections/mattresses",
+   "m": [
+    [
+     "Solace Prevention Mattress",
+     "Invacare"
+    ]
+   ]
+  },
+  {
+   "n": "Pressure-relief cushion",
+   "a": "pressure-care cushion · wheelchair cushion · seat cushion",
+   "d": "Seat cushion, including wheelchair cushions, that spreads or shifts pressure to prevent or treat pressure sores.",
+   "t": [
+    "foam",
+    "gel",
+    "air-cell",
+    "hybrid"
+   ],
+   "s": "https://www.sunrisemedical.com/seating-positioning/jay/wheelchair-cushions/fusion-cushion",
+   "m": [
+    [
+     "JAY Fusion",
+     "Sunrise Medical"
+    ],
+    [
+     "JAY Union",
+     "Sunrise Medical"
+    ],
+    [
+     "JAY X2",
+     "Sunrise Medical"
+    ]
+   ],
+   "r": [
+    [
+     "JAY J2",
+     "Sunrise Medical"
+    ]
+   ]
+  },
+  {
+   "n": "Bed rail",
+   "a": "bed guard · side rail · cot side · bed assist handle",
+   "d": "Rail or handle fitted to a bed to prevent falls or help a person sit up and stand.",
+   "t": [
+    "full-length side rail",
+    "half rail",
+    "bed assist handle",
+    "bumper or rail cover"
+   ],
+   "s": "https://shop.invacare.com/collections/bed-accessories"
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "No kinds merged or dropped; all four planned kinds kept with their old sources. Attribute-only variants were moved into t: drive type and bed form for care beds, foam/air/alternating construction for mattresses and cushions, and rail type for bed rails. For JAY cushions, the generic 'JAY wheelchair cushions' range was dropped as a duplicate of the kind itself; 'JAY J2 Series' was kept as range 'JAY J2'. The 'Invacare' prefix was removed from model names because maker is a separate field. No research was allowed on this shelf, so no models were added for Drive, Sidhil or ROHO; they remain gaps for a sourced pass. Candidates to verify include the ROHO High Profile air-cell cushion, the Sidhil Bradshaw care bed and Drive Medical bed-assist rails. Bed rail keeps no models; it is a kind a household plausibly owns, and trade-level SKUs were not added.",
+ "dropped": [],
+ "model": "claude-opus-5-5",
+ "batch": true
+}

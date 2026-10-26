@@ -1,0 +1,157 @@
+{
+ "kinds": [
+  {
+   "n": "Evaporated & condensed milk",
+   "a": "evaporated milk · sweetened condensed milk · leite condensado · leche condensada",
+   "d": "Milk with much of its water removed, sold in tins or tubes, either unsweetened (evaporated) or sweetened (condensed).",
+   "t": [
+    "Evaporated milk",
+    "Sweetened condensed milk",
+    "Condensed milk in tube"
+   ],
+   "s": "https://www.carnation.co.uk/products/evaporated-milk-and-cream/evaporated-milk-tin",
+   "m": [
+    [
+     "Carnation Evaporated Milk",
+     "Nestlé"
+    ],
+    [
+     "Carnation Sweetened Condensed Milk",
+     "Nestlé"
+    ],
+    [
+     "Danish Condensed Milk",
+     "Danish Dairy Farm"
+    ],
+    [
+     "Haleeb Evaporated Milk",
+     "Haleeb Foods"
+    ],
+    [
+     "Hokkaido Condensed Milk",
+     "Megmilk Snow Brand"
+    ],
+    [
+     "Piracanjuba Leite Condensado",
+     "Piracanjuba"
+    ],
+    [
+     "Tirol Leite Condensado Integral",
+     "Laticínios Tirol"
+    ],
+    [
+     "Soprole Leche Condensada Azucarada",
+     "Soprole"
+    ],
+    [
+     "Milky Mist Condensed Milk",
+     "Milky Mist Dairy Food"
+    ]
+   ],
+   "r": [
+    [
+     "Carnation",
+     "Nestlé"
+    ]
+   ]
+  },
+  {
+   "n": "Milk powder",
+   "a": "dried milk · powdered milk · dry milk",
+   "d": "Milk dried to a powder for reconstituting or baking, sold skimmed or whole, sometimes processed to dissolve instantly.",
+   "t": [
+    "Skimmed milk powder",
+    "Whole milk powder",
+    "Instant milk powder"
+   ],
+   "s": "",
+   "m": [
+    [
+     "Amul Sagar Skimmed Milk Powder",
+     "Amul"
+    ],
+    [
+     "Verka Whole Milk Powder",
+     "Punjab Milk Producers Federation (Verka)"
+    ],
+    [
+     "Heritage Skimmed Milk Powder",
+     "Heritage Foods"
+    ],
+    [
+     "Bob's Red Mill Nonfat Dry Milk Powder",
+     "Bob's Red Mill"
+    ],
+    [
+     "Safariland Full Cream Milk Powder",
+     "New Kenya Co-operative Creameries (New KCC)"
+    ],
+    [
+     "First Choice Instant Full Cream Milk Powder",
+     "Woodlands Dairy"
+    ],
+    [
+     "Piracanjuba Leite em Pó Integral",
+     "Piracanjuba"
+    ],
+    [
+     "Colanta Leche en Polvo Entera",
+     "Colanta"
+    ],
+    [
+     "Verónica Leche en Polvo Entera",
+     "Verónica"
+    ]
+   ]
+  },
+  {
+   "n": "Dulce de leche",
+   "a": "arequipe · manjar · cajeta · doce de leite · milk caramel",
+   "d": "Milk and sugar cooked down slowly into a thick caramel-coloured spread or sauce, known by regional names.",
+   "t": [
+    "Dulce de leche",
+    "Arequipe",
+    "Manjar",
+    "Cajeta (goat's milk)",
+    "Doce de leite"
+   ],
+   "s": "https://www.nestleprofessional.co.uk/node/860",
+   "m": [
+    [
+     "Verónica Dulce de Leche Clásico",
+     "Verónica"
+    ],
+    [
+     "Carnation Dulce de Leche Caramel",
+     "Nestlé"
+    ],
+    [
+     "Alquería Arequipe",
+     "Alquería"
+    ],
+    [
+     "Colanta Arequipe",
+     "Colanta"
+    ],
+    [
+     "Manjar Colun",
+     "Colun"
+    ],
+    [
+     "Soprole Manjar",
+     "Soprole"
+    ],
+    [
+     "Tirol Viva Zero Doce de Leite",
+     "Laticínios Tirol"
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Evaporated & condensed milk (old k15): I merged the three Piracanjuba condensed-milk variants (0% Gordura, Seleção, Zero Lactose) into one model, 'Piracanjuba Leite Condensado'. Fat and lactose variants are attributes, not separate products. Tube packaging became a type. This leaves 9 models, down from 11. I kept the Carnation range only here.\n\nMilk powder (old k106): this kind moved here from the baby department. Its types are now skimmed, whole and instant. I kept one model per brand, because the skimmed/whole split is now covered by the types. I dropped Amul Whole Milk Powder, Verka Skimmed Milk Powder and Safariland Skimmed Milk Powder, leaving 9 models, down from 12. The old source was empty and remains empty, because no research was allowed on this shelf; it needs a source in a later pass.\n\nDulce de leche (old k17): I made arequipe, manjar, cajeta (goat's milk) and doce de leite into types and added them as aliases. All 7 models are kept. I dropped the duplicate Carnation range, since the Carnation model already covers it and repeating ranges across kinds is a finding.\n\nAcross the shelf, I added no new brands, archetypes or kinds.",
+ "dropped": [],
+ "model": "claude-opus-5-5",
+ "batch": true
+}

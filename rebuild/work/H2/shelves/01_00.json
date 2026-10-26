@@ -1,0 +1,204 @@
+{
+ "kinds": [
+  {
+   "n": "Blood-pressure monitor",
+   "a": "home BP monitor · digital sphygmomanometer · BP cuff",
+   "d": "Automatic home monitor that inflates a cuff and shows systolic, diastolic pressure and pulse; choose one on a validation list.",
+   "t": [
+    "Upper-arm (preferred for home use)",
+    "Wrist",
+    "Wearable (watch or band)",
+    "With AFib / irregular-heartbeat detection",
+    "Bluetooth / app-connected",
+    "Spare parts: replacement cuff sized to arm circumference, air tube, mains adapter"
+   ],
+   "s": "https://www.stridebp.org/home-pdf/",
+   "m": [
+    [
+     "Omron Evolv (HEM-7600T) — STRIDE BP validated; Consumer Reports top pick; Which? tested",
+     "Omron"
+    ],
+    [
+     "Omron M3 Comfort (HEM-7155) — STRIDE BP listed (equivalent device)",
+     "Omron"
+    ],
+    [
+     "Omron M7 Intelli IT (HEM-7361T) — STRIDE BP listed (equivalent device); AFib version tested by Which?",
+     "Omron"
+    ],
+    [
+     "Omron 7 Series wrist (BP6350) — Consumer Reports top wrist pick; not matched on STRIDE BP list",
+     "Omron"
+    ],
+    [
+     "A&D Medical UA-767F — Consumer Reports top pick; STRIDE BP lists UA-767",
+     "A&D Medical"
+    ],
+    [
+     "A&D Medical UA-651 — STRIDE BP validated",
+     "A&D Medical"
+    ],
+    [
+     "Withings BPM Connect — STRIDE BP validated; Which? tested",
+     "Withings"
+    ],
+    [
+     "Microlife BP B3 AFIB — STRIDE BP validated",
+     "Microlife"
+    ],
+    [
+     "Beurer BM 53 — STRIDE BP listed (equivalent device)",
+     "Beurer"
+    ],
+    [
+     "Braun ExactFit 3 — Which? tested; not matched on STRIDE BP list",
+     "Braun"
+    ]
+   ]
+  },
+  {
+   "n": "Manual blood-pressure kit",
+   "a": "aneroid sphygmomanometer · manual BP cuff",
+   "d": "Gauge with arm cuff and hand bulb, read by listening with a stethoscope; sold with or without the stethoscope.",
+   "t": [
+    "With stethoscope",
+    "Cuff only",
+    "Adult, child or large-adult cuff"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Sphygmomanometer",
+   "m": [
+    [
+     "ProKit",
+     "Veridian Healthcare"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Omron",
+   "c": "Japan",
+   "f": "1933",
+   "seg": "Electronics group; Omron Healthcare is the market-leading home BP monitor maker",
+   "d": "Kyoto-based electronics company whose healthcare arm makes home blood-pressure monitors, thermometers and nebulisers.",
+   "lines": [
+    "Evolv",
+    "M-series (M2, M3, M7)",
+    "RS wrist series",
+    "US numbered Series (3, 5, 7, 10)"
+   ],
+   "sig": [
+    "Evolv",
+    "M7 Intelli IT"
+   ],
+   "rel": [
+    "A&D Medical",
+    "Microlife"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Omron"
+  },
+  {
+   "n": "A&D Medical",
+   "c": "Japan",
+   "f": "1977",
+   "seg": "Measurement equipment; medical division of A&D Company",
+   "d": "Tokyo measurement-instrument maker (A&D Company) selling home blood-pressure monitors, medical scales and nebulisers.",
+   "lines": [
+    "UA series upper-arm monitors",
+    "UB series wrist monitors"
+   ],
+   "sig": [
+    "UA-651",
+    "UA-767F"
+   ],
+   "rel": [
+    "Omron"
+   ],
+   "s": "https://en.wikipedia.org/wiki/A%26D_Company"
+  },
+  {
+   "n": "Withings",
+   "c": "France",
+   "f": "2008",
+   "seg": "Connected health devices",
+   "d": "Issy-les-Moulineaux consumer-electronics company making app-connected scales, watches and blood-pressure monitors.",
+   "lines": [
+    "BPM Connect",
+    "BPM Core",
+    "BPM Vision"
+   ],
+   "sig": [
+    "BPM Connect"
+   ],
+   "rel": [
+    "Omron"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Withings"
+  },
+  {
+   "n": "Microlife",
+   "c": "Taiwan",
+   "f": "1981",
+   "seg": "Medical diagnostics",
+   "d": "Medical-diagnostics maker founded in Taipei, now based in Widnau, Switzerland, known for AFIB-detecting blood-pressure monitors and thermometers.",
+   "lines": [
+    "BP A series",
+    "BP B series",
+    "BP W wrist series"
+   ],
+   "sig": [
+    "BP B3 AFIB"
+   ],
+   "rel": [
+    "Omron"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Microlife_Corporation"
+  },
+  {
+   "n": "Beurer",
+   "c": "Germany",
+   "f": "1919",
+   "seg": "Health and wellbeing appliances",
+   "d": "Ulm-based maker of health and wellbeing appliances, including blood-pressure monitors, scales and heat pads.",
+   "lines": [
+    "BM upper-arm monitors",
+    "BC wrist monitors"
+   ],
+   "sig": [
+    "BM 53"
+   ],
+   "rel": [
+    "Medisana"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Beurer"
+  },
+  {
+   "n": "Braun",
+   "c": "Germany",
+   "f": "1921",
+   "seg": "Consumer products (Procter & Gamble)",
+   "d": "Kronberg-based consumer-products brand, owned by Procter & Gamble, whose health range includes thermometers and blood-pressure monitors.",
+   "lines": [
+    "ExactFit upper-arm monitors",
+    "ThermoScan thermometers"
+   ],
+   "sig": [
+    "ExactFit 3"
+   ],
+   "rel": [
+    "Omron"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Braun_(company)"
+  }
+ ],
+ "traditions": [],
+ "notes": "Shelf Blood pressure: 4 old kinds became 2. 'Wearable blood-pressure monitor' (k44) is now the 'Wearable' type, and 'Blood-pressure monitor cuff' (k46) is now a spare-parts note in t of Blood-pressure monitor. I cut the 14 old monitor models to 10, all from the named makers. Each model's label gives its status on the STRIDE BP home-monitor list (stridebp.org/home-pdf, retrieved this session, generated 25 Oct 2026), plus any Consumer Reports top pick or Which? test. I could not see the Which? Best Buy verdicts because they are behind a login, so models are marked 'Which? tested' only. The US Validated Device Listing (validatebp.org) could not be fetched, so US validation status is not recorded. I dropped these: Omron HeartGuide (not on the STRIDE list; the wearable type covers it), Garmin Index BPM (not on the STRIDE list), the Beurer US-named models (Auto 400, Deluxe 600, Premium 800/800W, Elite 900), Withings BPM Vision, Omron Complete (an ECG combo, better under the ECG shelf) and Omron 5/10 Series. I also dropped the two Omron replacement-cuff SKUs, including the professional HEM-907XL clinic cuff, which is out of scope. The Omron numbered-Series range is folded into the Omron brand-register lines. The STRIDE list does not record whether 'Omron 7 Series BP6350' and 'Braun ExactFit 3' match a validated device, so they are marked 'not matched'. Manual kit: kept the Veridian ProKit; its source is now the Wikipedia Sphygmomanometer article. Suggestion for the department note: validation standard = AAMI/ESH/ISO 81060-2:2018 (STRIDE BP, BIHS, US VDL lists).",
+ "dropped": [],
+ "usage": [
+  49055,
+  524089,
+  11781
+ ],
+ "turns": 2,
+ "model": "claude-opus-5-5"
+}

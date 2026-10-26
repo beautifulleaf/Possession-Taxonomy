@@ -224,3 +224,11 @@ done ['A5', 'B8'] brands 202 traditions 6 baby 49
 23:56:29 G2 01_00 done kinds=6 arch=14 brands=2 turns=7 in=132933 cached=736843 out=17623
 23:58:01 B5 09_01 done kinds=8 arch=26 brands=21 turns=6 in=177300 cached=1225309 out=28045
 23:58:25 A1 07_00 done kinds=9 arch=36 brands=15 turns=5 in=117153 cached=1399668 out=49266
+00:02:43 A1 01_01 done kinds=7 arch=21 brands=19 turns=7 in=126896 cached=678165 out=22976
+00:03:50 B5 04_01 done kinds=5 arch=26 brands=23 turns=8 in=327390 cached=956791 out=22063
+00:04:27 A1 04_01 done kinds=7 arch=12 brands=11 turns=7 in=129292 cached=801713 out=13730
+00:08:46 A1 06_02 api error APIStatusError("{'type': 'error', 'error': {'details': None, 'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgPsMeQLgGwWFLUmoFWxY'}")
+00:09:11 A1 07_01 bad request Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgPsojkHACApuhBX2UCrT'}
+00:09:11 A1 07_01 FAILED (no accepted submit) turns=4
+00:09:16 A1 06_02 bad request Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgPsp6nZcJt8UjFSXdgbZ'}
+00:09:16 A1 06_02 FAILED (no accepted submit) turns=6
