@@ -1,0 +1,173 @@
+# Possession Taxonomy — category rebuild brief (schema v2)
+
+You are rebuilding ONE category file of a published taxonomy of everything a person can own. Read first:
+- Binding rules: /home/user/Possession-Taxonomy/rebuild/RULES.md (owner-approved; they override anything in the old data).
+- This file (schema and method).
+- Your category's audit findings in the prompt.
+- The current data: /home/user/Possession-Taxonomy/rebuild/reader/<CODE>.json (schema v1: kinds with flat `m` model lists).
+
+## Output (write only into /home/user/Possession-Taxonomy/rebuild/out/; create /home/user/Possession-Taxonomy/rebuild/work/<CODE>/ for scratch)
+1. `out/<CODE>.json` — the rebuilt category (schema below). Must pass `python3 /home/user/Possession-Taxonomy/rebuild/validate.py out/<CODE>.json`.
+2. `out/<CODE>_brands.json` — `{"b":[brand,…]}` brand-register entries for this category (may be empty).
+3. `out/<CODE>_traditions.json` — `{"t":[tradition,…]}` (may be empty).
+4. `out/<CODE>_moves.json` — `{"out":[{"to":"<target code>","dept":"<suggested dept>","kind":{…full kind…}}]}` for kinds that the rules move to another category (the receiving category is rebuilt by someone else; just hand the kind over). Use `[]` if none.
+5. `out/<CODE>_report.md` — ≤ 300 words: what changed (counts before/after), sources used, anything left undone.
+Never edit files outside out/ and work/<CODE>/. Never publish.
+
+## Category JSON (schema v2)
+```
+{"c":"A5","rev":true,"lead":"One sentence: what this category holds and how it is organised.",
+ "b":[{"m":"criterion","v":"scale or ladder (optional)","w":"why/where it comes from"}],
+ "depts":[{"n":"Dept name","mode":"variety|tier|mixed","note":"optional one line","b":[…],
+   "s":[{"n":"Shelf name","k":[KIND,…]}]}]}
+KIND = {"n":"Kind name","a":"aliases · separated","d":"one-sentence definition",
+        "t":["type",…] (optional, attribute-level variants that are NOT separate kinds),
+        "tg":["baby"] (optional tags; "baby" puts it in the Baby & child view),
+        "s":"source URL for the kind",
+        "x":[ARCHETYPE,…]  (hobbyist kinds),
+        "m":[["model","maker"],…], "r":[["range","maker"],…]  (tier kinds or leftovers; may be omitted)}
+ARCHETYPE = {"n":"Name","a":"aliases","d":"one sentence: what defines it",
+        "mk":"originating maker/brand/designer (exact brand-register name) or empty for maker-free patterns",
+        "y":"year or era","s":"source URL (required)",
+        "v":[{"n":"version name or reference","mk":"maker","y":"year","d":"short note"}],
+        "dt":"detail axes in words, e.g. 'case 36–41 mm · steel, gold · dial colours'"}
+BRAND = {"n":"Name","c":"Country","f":"founding year","seg":"segment label","d":"one sentence",
+        "lines":["…"],"eras":["Creative director or period, years"],"sig":["signature archetypes"],
+        "sc":["scenes"],"rel":["related brands"],"s":"source URL"}
+TRADITION = {"n":"Name","g":"group label (e.g. Woodwork & furniture, Textiles & rugs, Metal & blades, Ceramics & glass, Faith traditions, Food & drink)",
+        "r":"region","p":"period","d":"one sentence","tech":"technique","mat":"materials",
+        "forms":["signature forms"],"ctr":["centres, workshops, masters"],"auth":"how to tell authentic pieces","s":"source URL"}
+```
+
+## Method
+1. **Restraint first (tier areas).** Apply the scope rule (drop trade/institutional models; keep the kind with no models only if a person plausibly owns one), dissolve "Other …" catch-alls and attribute-only kinds into `t` types, merge near-duplicates, collapse spare parts to one entry per appliance (except parts hobbies), cut SKU lists to market-covering brands plus independent test winners (≈5–12 per kind). Drop wholesale/SKU noise.
+2. **Coverage (variety areas).** Add the missing icons and kinds named in the findings and any others a knowledgeable enthusiast would expect. Organise as kind → archetype → version → detail, ordered by significance (originator, reference versions, then the rest), never alphabetical. Existing models that belong to an archetype become its versions; good existing models with no archetype may stay in `m`.
+3. **Brands and traditions.** Put brand facts in the brand register, not in every kind. Archetype `mk` must equal a register name where the brand is in the register. Add tradition entries where artisan traditions matter.
+4. **Moves.** Kinds the rules send elsewhere go to `_moves.json`, not into your file.
+5. **Sourcing (attestation rule).** Every archetype and every NEW kind needs `s`: a page or dataset record you actually retrieved this session (Wikipedia article, Wikidata entity, maker page, reference database). Prefer bulk/API lookups to cut effort:
+   - Wikipedia search API: `curl -s -A "possession-taxonomy/1.0 (noreply@anthropic.com)" "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=<q>&format=json&srlimit=5"`; page check: `…action=query&titles=<T>&format=json&prop=info&inprop=url`; page text: `…action=query&prop=extracts&explaintext=1&titles=<T>&format=json`.
+   - Wikidata search: `https://www.wikidata.org/w/api.php?action=wbsearchentities&search=<q>&language=en&format=json&limit=5`; SPARQL: `https://query.wikidata.org/sparql?format=json&query=<urlencoded>`.
+   - Other pages: WebFetch, or the Parallel web_fetch/web_search tools if present. Never guess URLs; never record a URL you did not retrieve. If a fetch is blocked, do not work around it.
+   Batch lookups in scripts (python3 -I, a polite 0.2 s delay) and keep a work/<CODE>/sources.tsv log (item, url, retrieved date, status).
+   Versions and details may come from the archetype's own source page or another retrieved page; if you cannot confirm a version, leave it out.
+6. **Validate** with validate.py; fix until it passes. Keep the file under ~400 KB.
+
+## Style
+Plain, short definitions (< 25 words). British spelling as in the existing data. Department and shelf names readers would guess. No marketing language.
+
+
+---
+# Possession Taxonomy audit — approved rules (owner-approved, binding)
+
+## Goal
+A complete, unambiguous, evidence-backed map of everything a person owns, serving two readers:
+- **Hobbyists** (things a community compares, collects or argues about): judged on COVERAGE and organisation.
+- **Quality-of-life buyers** (things you need to own well but don't study): judged on RESTRAINT — the right kind and what makes a good one, without trade-level detail.
+Food categories (J) are about *products*, brands and quality grades — dishes live in a separate Culinary Taxonomy.
+
+## Three audit checks for every category
+1. Over-granularity for non-hobbyist items (attribute-only kinds, spare-part lists, near-duplicates, "Other …" catch-alls, SKU-level lists).
+2. Lack of coverage for hobbyist items (missing icons, makers, named forms, lines, traditions; structure too flat).
+3. Sub-optimal / confusing organisation (misplaced items, inconsistent axes, labels a reader wouldn't guess).
+
+## Approved rules
+- **Scope rule:** in scope only if owned for personal life (hobby or quality of life). Trade/institutional equipment drops out or stays kind-level with no models.
+- **Parts departments** only where owners swap/upgrade parts (watches, PCs, bikes, cameras, guitars, aquariums, watch modding). Elsewhere one "Spare parts" entry per appliance.
+- **Brand mode per category:** Variety (people explore/collect many brands → every notable brand, long tail as stubs), Tier (people pick the best one → brands covering most of the market + every brand topping an independent test such as Consumer Reports / Which? / CHOICE / RTINGS), Mixed (tier mainstream, variety at enthusiast end).
+- **Brand completeness method (variety):** union of independent source types (reference DBs, retailer brand directories incl. non-Anglo, resale/archive, official bodies, community lists); measure with overlap/capture-recapture, saturation, held-out spot check; inclusion bar = sells under own name AND in a reference DB or 2 independent sources; full pages for core brands, stubs for the tail.
+- **Reference-database rule:** for hobbyist/luxury categories, use the community's reference database and copy its organising axis (e.g. Watchbase, Fragrantica, Discogs, Brickset, Numista, Mindat, StockX/GOAT, Wikidata, Getty AAT). Retail catalogues only for QoL items. Retail-harvest skew (one shop dominating a kind) is a finding.
+- **Archetype model standard (hobbyist items):** Kind → Archetype (named pattern/icon/silhouette/model family that exists apart from a single SKU, e.g. A-2 jacket, 501, Air Jordan 1, Submariner, Birkin) → Version (original/licensed/reproduction/interpretation; generations; reference numbers) → Detail (material, size, colourway, hardware). Ordered by significance, not alphabet. No flat SKU lists.
+- **Brand register as a first-class browsable view:** one entry per brand (country, founding, segment, lines, eras/creative directors, signature archetypes, scenes, related brands); brands link to items, never duplicated per item/scene/kind. Brand ranges repeated across kinds is a finding.
+- **Craft-traditions register:** one entry per artisan tradition (region, period, technique, materials, signature forms linked to kinds, centres/masters, authenticity markers). Applies in every category (rugs, ceramics, glass, metalwork, lacquer, textiles, furniture, knives…). Sources: UNESCO ICH, Japan's designated traditional crafts, auction categories, Getty AAT.
+- **Period/style** is an attribute and a view (antiques, vintage), not a kind.
+- **Multiple views over one dataset** where useful: By type · By brand/designer · By period/style · By tradition · By scene.
+- **Baby & child** is a cross-cutting view, not a category; "user" is a tag.
+- **Built-in vs movable vs raw supply:** built-in features of a home → new category *Home Fixtures & Features* (zones: Kitchen; Bath & wellness; Living & entertainment; Structure & circulation; Home systems; Outdoor & grounds). Movables → Home domain. Raw supply → Building Materials (shallow). Hot tubs, saunas, baths move to Home Fixtures.
+- Approved moves already decided: Smoking & Vaping → food/drink domain beside wine & spirits; Video Games → Play domain; collection albums → with what they hold (F3/F5); new categories Fragrance, Bakery/Sweets/Snacks, Soft Drinks & Water; collector lines (publishers/labels) allowed as ranges in media; one-sport helmets → Sports; protective equipment → Tools; all frames & sunglasses → one Eyewear dept in A4; chess clocks → games.
+
+- Later approvals: living animals ARE possessions (pets, horses, fish, livestock) via a breeds/species register drawn from breed registries — not inside equipment categories; B7 becomes "Portable Climate & Air" after built-ins move to Home Fixtures; new "Vehicle care & detailing" dept in Vehicles; decorative lighting merges into Lighting; militaria (deactivated ordnance, replica weapons) → Weapons; china/porcelain patterns follow house → pattern → piece.
+
+- Batch-2 approvals: Outdoor cooking dept in Garden (kettle, kamado, offset, pellet, pizza oven; barbecue leaves Kitchen; built-in outdoor kitchens → Home Fixtures); Optical & Scientific moves to the Play domain as "Observing & Measuring"; a living-plants register mirrors the animal breeds register; knife rule: EDC/utility/bushcraft → Tools, kitchen → Kitchen, fighting/hunting → Weapons; collector machines shelf (typewriters, slide rules, vintage calculators); antique scientific instruments as a period view.
+
+- **Titles are OUT of scope.** Separate future taxonomies cover Visual Entertainment (film/TV), Auditory Entertainment (music), Literature, and Interactive Entertainment (games, incl. board/card game titles), with genres and titles. This taxonomy covers the *object*: carrier/format, edition type, publisher/label collector lines, pressing/printing attributes, condition and grading, storage — and cross-links to those taxonomies. Do NOT recommend title lists. (Product lines that are not entertainment titles — LEGO sets, action-figure lines, coin/stamp issues — stay in scope.)
+- Batch-3 approvals: pinball & arcade → Video Games "Arcade & coin-op"; "VR & XR" dept; Fishing and Target sports as own depts in Sports; technical sport-specific apparel/footwear stays with its sport; trading cards: game-system view in Toys, collecting/grading view in Coins/Stamps/Cards, cross-linked; enthusiast keyboards and vintage computers depts; ham radio added.
+
+- Batch-4 approvals: minerals keep ~150–250 popular collector species in the tree, the rest in a Mindat-linked species register; faith & craft traditions are the primary browse axis for religious objects; Issuer register (mints, central banks, postal administrations) and a cross-category Grading-services register (PCGS, NGC, PSA, BGS, CGC, Goldmine…); collectible figurines are their own dept separate from fine art; studio ceramics/glass in Art; artist register keyed to ULAN.
+
+- Attestation: a record in a recognised reference dataset (bulk download, API, Wikidata) counts as proof of existence when source and retrieval date are recorded. Source pack per category = bulk dataset → Wikidata backbone → targeted fetches for gaps only; cross-check against a second source plus held-out spot check.
+
+## Output format (per category)
+- One line: brand mode (variety/tier/mixed, per department if it differs).
+- Numbered findings with short codes (e.g. RG1, RG2…) grouped under: Gaps for hobbyists · Too much detail · Confusing organisation. Each finding: what's wrong with concrete evidence from the data (counts, named items, maker skew) + the specific fix.
+- A short "What it would look like" tree (≤10 lines) for the most important department, using the archetype standard.
+- Mark facts from your own knowledge that need checking ("to verify"). Never invent counts — compute them from the JSON.
+- Be concise: aim for ~350–550 words per category.
+
+
+---
+You are a shelf worker in the rebuild. You rebuild ONE shelf of ONE category into schema v2 kinds.
+Tools: WebSearch, WebFetch, Firecrawl (firecrawl_search to locate, firecrawl_scrape with maxAge 0 to retrieve; never the
+stealth/enhanced proxy modes), and Wikidata via `python3 tools/local.py wd CODE JOB search|ids|sparql ARG`.
+
+Everything you need (SCHEMA.md, RULES.md, findings, plan, old data) is in this prompt; the code sandbox has no repository
+files, so do not look for them.
+
+Hard rules
+- Attestation: every archetype "s", every NEW kind "s", every brand "s" and every tradition "s" must be a URL you actually
+  retrieved in THIS session with web_fetch (successful) or the wiki/wikidata tools (an existing page/entity). Search result
+  snippets do not count. Never type a URL you have not retrieved; never guess URLs. Kinds carried over from the old data may
+  keep their old "s".
+- Never invent facts. Versions, years, references and makers must come from a retrieved page or the old data; leave out
+  anything you cannot confirm.
+- Follow SCHEMA.md exactly (KIND / ARCHETYPE / BRAND / TRADITION shapes). Archetype "mk" must equal the brand-register name
+  you give the brand. Order archetypes by significance (originator, reference versions, then the rest), never alphabetically.
+- Tier kinds: market-covering brands plus independent test winners, about 5–12 models; no SKU dumps. Variety kinds: kind →
+  archetype → version → detail; existing models that belong to an archetype become its versions; good models with no
+  archetype may stay in "m". Attribute-only variants go into "t".
+- Keep every old kind listed for this shelf (merged as the plan says) unless the rules clearly put it out of scope; say
+  in notes what you dropped and why.
+- Brands: add a register entry for each brand that is an archetype "mk" (or a core brand of a tier kind) when you have
+  retrieved a page about that brand. Traditions: add where artisan traditions matter for this shelf.
+- Be efficient: batch fetches in code (fetch many URLs per call, print only the facts you need). Aim to finish within
+  roughly 25 tool rounds. Wikipedia article URLs (https://en.wikipedia.org/wiki/Title) are good sources; web_fetch them
+  directly when you know the exact title, or use the wiki tool to confirm titles in bulk.
+- When done call submit with {"kinds": [...], "brands": [...], "traditions": [...], "notes": "what you left out and why"}.
+  submit checks the output and may return errors; fix them (retrieve the page or remove the item) and submit again.
+
+---
+Category H2 Health, Medical & Mobility. Category lead: Health products a person keeps for themselves or someone they care for, from medicines, monitors and supplements to mobility, hearing, vision and sexual-health aids. It is organised by department of need, with use classes and makers that cover the market or top independent tests.
+Owner-approved findings row:
+| H2 | Health, Medical & Mobility | Tier | Validation standards per dept; mobility (Permobil, WHILL, Quickie); hearing aid tech ladder; medicines by use class, no claims; frames → A4 Eyewear (keep lenses, contacts, low-vision); clinic furniture out; protein bars → J8. |
+
+Whole-category outline (for context; other workers do the other shelves):
+- Medicines & remedies [tier]: Cold, flu & allergy (Cold & flu remedy, Antihistamine tablets, Allergy nasal spray, Nasal decongestant, Cough medicine, Sore-throat lozenge & spray); Pain, fever & sleep (Painkillers, Children's pain & fever medicine, Topical pain relief, Sleep aid); Stomach & bowel (Indigestion & heartburn remedy, Laxative, Anti-diarrhoeal, Oral rehydration salts, Travel-sickness remedy); Skin, eyes, ears & mouth (Antiseptic, Anti-itch & hydrocortisone cream, Antifungal treatment, Cold-sore treatment, Corn, wart & verruca treatment, Head-lice treatment, Eye drops, Ear drops, Teething gel); Quit smoking & traditional remedies (Nicotine replacement, Homeopathic single remedy, Traditional medicine preparation); Medicine aids (Pill organiser & dispenser, Adrenaline auto-injector)
+- Monitors, tests & diabetes care [tier]: Blood pressure (Blood-pressure monitor, Manual blood-pressure kit); Diabetes care (Continuous glucose monitor, Blood glucose meter, Insulin pump, Insulin pen, HbA1c test kit); Heart, lung & temperature (Digital thermometer, Pulse oximeter, Personal ECG monitor, Peak flow meter); Home tests & medical apps (Infection test kit, Urine test strips, HIV self-test, Bowel screening test, Cholesterol test, Breathalyser, Medical app)
+- First aid & supports [tier]: First-aid kits & dressings (First-aid kit, Plaster, Bandage, Wound-closure strip, Liquid bandage, Home defibrillator); Braces, supports & insoles (Knee support, Ankle support, Back support, Wrist & hand support, Elbow support, Neck support, Orthotic insole, Compression stocking); Prostheses (Leg prosthesis, Arm prosthesis, Breast prosthesis, Eye prosthesis, Facial prosthesis)
+- Vitamins & supplements [tier]: Vitamins & minerals (Multivitamin, Vitamin supplement, Mineral supplement); Oils, herbs & specialty supplements (Omega-3 oil, Probiotic, Herbal supplement, Collagen, Combination supplement, Tonic & essence)
+- Sports & medical nutrition [tier]: Protein & training supplements (Protein powder, Mass gainer, Creatine, Pre-workout, Amino acids, Fat burner); Endurance fuel & hydration (Energy gel & chew, Electrolyte drink mix); Meal replacement & medical nutrition (Meal-replacement shake, Oral nutritional supplement, Medical-condition formula)
+- Breathing, sleep & therapy [tier]: Breathing & sleep apnoea (CPAP machine, Oxygen concentrator, Nebuliser, Inhaler spacer, Steam inhaler, Anti-snoring device); Pain relief & therapy devices (TENS/EMS unit, Heat & cold pack, Light-therapy lamp, Weighted blanket, Orthopaedic pillow)
+- Mobility aids [tier]: Walking aids (Walking stick, Rollator, Walking frame, Crutches, Knee walker); Wheelchairs & scooters (Manual wheelchair, Powered wheelchair, Mobility scooter, Wheelchair power add-on, Wheelchair parts & accessories); Ramps, lifts & transfers (Portable ramp, Patient lift, Transfer aid, Mobility vehicle lift)
+- Daily living & care [tier]: Bathroom & toilet aids (Grab bar, Shower chair, Raised toilet seat, Toilet safety frame, Commode chair, Bath lift, Tub transfer bench); Continence & stoma (Incontinence pads & pants, Bed & chair protector, Stoma appliance, Intermittent catheter); Beds & pressure care (Care bed, Pressure-relief mattress, Pressure-relief cushion, Bed rail); Alarms & medical ID (Personal alarm, Medical ID, Wandering detector); Everyday aids (Reacher, Dressing aid, Adapted cutlery & cups)
+- Hearing [tier]: Hearing aids (Receiver-in-canal hearing aid, Behind-the-ear hearing aid, In-the-ear hearing aid, In-the-canal hearing aid, Over-the-counter hearing aid, Implant sound processor, Hearing-aid spare parts); Hearing accessories & alerting (Hearing-aid streamer & remote mic, Alerting system, Personal sound amplifier)
+- Vision & communication [tier]: Spectacle & contact lenses (Spectacle lens, Soft contact lens, Rigid contact lens, Contact-lens solution & drops); Low-vision aids (Handheld magnifier, Stand magnifier, Electronic magnifier, Low-vision glasses, Low-vision monocular, White cane, Braille device); Communication aids (Communication aid, Eye-gaze device)
+- Sexual health & family [tier]: Contraception & barriers (Condom, Emergency contraceptive pill, Dental dam, Delay spray); Fertility & pregnancy (Pregnancy test, Ovulation test, Fertility monitor, Basal-body thermometer, Sperm test kit); Breastfeeding (Breast pump, Nursing pad, Milk collector, Nipple cream); Intimate health devices (Pelvic-floor trainer, Vaginal dilator, Vacuum erection device, Erection ring, Penile traction device)
+
+YOUR SHELF: department "Vision & communication" (mode tier), shelf "Low-vision aids".
+Shelf brief: Add makers to the maker-less entries (Eschenbach, Schweizer, Optelec, HumanWare, Zoomax, Freedom Scientific). Add braille devices: the Perkins Brailler (archetype if sourced) and refreshable braille displays (HumanWare Brailliant, Freedom Scientific Focus). White canes: Ambutech, RNIB.
+Planned kinds (name, old ids merged in, note):
+- Handheld magnifier | old: ['k157'] | 
+- Stand magnifier | old: ['k158'] | 
+- Electronic magnifier | old: ['k159'] | 
+- Low-vision glasses | old: ['k161'] | 
+- Low-vision monocular | old: ['k160'] | 
+- White cane | old: ['k162'] | 
+- Braille device | old: [] | Types: braille writer, refreshable braille display, braille note-taker.
+
+Old data for this shelf (schema v1; target_kind = the planned kind it goes into):
+```json
+[{"target_kind": "Handheld magnifier", "n": "Handheld magnifier", "a": "", "d": "Magnifier held in the hand, made and sold as a low-vision aid.", "m": [["Eschenbach CombiPLUS", "Eschenbach Optik"], ["Eschenbach EasyPOCKET", "Eschenbach Optik"], ["Optelec PowerMag+ LED Hand-Held Magnifier", "Optelec"], ["ERGO-Lux MP", ""], ["Mobilent", ""], ["Mobilux LED", ""], ["OKOLUX Plus", ""]], "r": [], "s": "https://carroll.org/product-category/magnification/magnifiers"}, {"target_kind": "Stand magnifier", "n": "Stand magnifier", "a": "", "d": "Magnifier on a stand or flat base resting on the page, made and sold as a low-vision aid.", "m": [["OKOLUX Plus Illuminated Stand Magnifier", ""]], "r": [["Optelec Stand Magnifiers", "Optelec"]], "s": "https://carroll.org/product-category/magnification/magnifiers"}, {"target_kind": "Electronic magnifier", "n": "Electronic magnifier", "a": "video magnifier · CCTV", "d": "Camera-and-screen device, handheld or desktop, that enlarges print and images for a low-vision user (video magnifier, CCTV).", "m": [["Explore", "HumanWare"], ["Snow", "Zoomax"]], "r": [], "s": "https://www.maxiaids.com/electronic-video-magnifiers"}, {"target_kind": "Low-vision glasses", "n": "Low-vision glasses", "a": "low-vision spectacles", "d": "Spectacles with magnifying, prismatic or telescopic lenses in a spectacle frame, including flip-down magnifiers mounted on a frame.", "m": [["Eschenbach maxTV", "Eschenbach Optik"], ["Ocutech Reveal InstaMount Series", "Ocutech"], ["Ocutech Reveal through-the-lens system", "Ocutech"], ["Ocutech SightScope 2", "Ocutech"], ["Ocutech SightScope Flip", "Ocutech"], ["Ocutech VES-Explorer", "Ocutech"], ["Ocutech VES-Falcon", "Ocutech"], ["Ocutech VES-K", "Ocutech"]], "r": [["Ocutech Reveal", "Ocutech"]], "s": "https://ocutech.com/ocutech-bioptics-products-overview"}, {"target_kind": "Low-vision monocular", "n": "Low-vision monocular", "a": "", "d": "Small handheld telescope made and sold as a low-vision aid for seeing at a distance.", "m": [], "r": [], "s": "https://specialneedscomputers.ca/collections/low-vision-magnifiers-for-the-visually-impaired"}, {"target_kind": "White cane", "n": "White cane", "a": "", "d": "Cane made for a blind or low-vision person to detect obstacles.", "m": [], "r": [], "s": "https://shop.rnib.org.uk/collections/long-canes"}]
+```
+
+---
+OUTPUT: write the finished shelf as JSON {"kinds": [...], "brands": [...], "traditions": [...], "notes": "..."} to /home/user/Possession-Taxonomy/rebuild/work/H2/shelves/09_01.json (write via a temp file then rename). Work from /home/user/Possession-Taxonomy/rebuild. After EVERY page you successfully retrieve (WebFetch, firecrawl_scrape), log it: `python3 tools/local.py logsrc H2 09_01 fetched <url> [<url> ...]` (log the URL exactly as you will cite it). Only logged fetched/api URLs are accepted as sources. Then run `python3 tools/local.py check H2 09_01` and fix every error until it prints OK. Scratch files only in work/H2/agent/. Never run git. Never invent URLs or facts.
+RESUME RULE: if work/H2/shelves/09_01.json exists and the check prints OK, stop and report; if work/H2/agent/09_01.notes.md exists, continue from it (keep it updated with sources found and decisions as you go).
