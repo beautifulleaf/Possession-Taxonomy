@@ -38,7 +38,7 @@ jobs['07_01'] = {"kinds": [
   "t": ["USB", "Thunderbolt", "2-in (desktop)", "multichannel (rack)", "with DSP plug-in processing", "podcast / streaming interface"],
   "s": "https://www.sweetwater.com/c695--Interface_USB?pn=6",
   "m": [["Scarlett 4th Gen", "Focusrite"], ["Apollo Twin X Gen 2", "Universal Audio"], ["Apollo X Gen 2", "Universal Audio"], ["Axe I/O Solo", "IK Multimedia"], ["UAC-232", "Zoom (audio)"]],
-  "r": [["Scarlett", "Focusrite"], ["Clarett+", "Focusrite"], ["Vocaster", "Focusrite"], ["Apollo", "Universal Audio"], ["Volt", "Universal Audio"], ["iD", "Audient"], ["EVO", "Audient"], ["M", "MOTU"], ["UltraLite", "MOTU"], ["Fireface", "RME"], ["Duet", "Apogee"], ["MiniFuse", "Arturia"], ["AudioFuse", "Arturia"], ["AudioBox", "PreSonus"], ["Quantum", "PreSonus"], ["U-Phoria", "Behringer"], ["AG", "Yamaha"], ["URX", "Yamaha"], ["Rubix", "Roland"], ["M-Track", "M-Audio"]]},
+  "r": [["Scarlett", "Focusrite"], ["Clarett+", "Focusrite"], ["Vocaster", "Focusrite"], ["Volt", "Universal Audio"], ["iD", "Audient"], ["EVO", "Audient"], ["M", "MOTU"], ["UltraLite", "MOTU"], ["Fireface", "RME"], ["Duet", "Apogee"], ["MiniFuse", "Arturia"], ["AudioFuse", "Arturia"], ["AudioBox", "PreSonus"], ["Quantum", "PreSonus"], ["U-Phoria", "Behringer"], ["AG", "Yamaha"], ["URX", "Yamaha"], ["Rubix", "Roland"], ["M-Track", "M-Audio"]]},
  {"n": "Audio mixer", "a": "mixing console · mixing desk",
   "d": "Console that combines, levels and routes several audio channels.",
   "t": ["analogue", "digital", "rack or stagebox (app-controlled)", "with USB recording", "with built-in effects", "compact (up to 12 channels)", "large-format"],
@@ -67,7 +67,7 @@ jobs['07_01'] = {"kinds": [
   "m": [["J48", "Radial"], ["ProDI", "Radial"], ["ProD2", "Radial"], ["StageBug SB-5", "Radial"], ["Ultra-DI DI400P", "Behringer"], ["MDB-2P", "Mackie"], ["BDI21 V-Tone Bass Driver", "Behringer"], ["TDI DUO", "AEA Ribbon Mics"]],
   "r": [["RNDI", "Rupert Neve Designs"], ["DI", "Klark Teknik"], ["Director", "Whirlwind"], ["SansAmp", "Tech 21"]]}],
  "brands": [], "traditions": [],
- "notes": "Restraint only. Interfaces: trimmed SKU list to market-covering models, dropped niche/one-off SKUs (ART USB Dual Pre, Black Lion Revolution 2x2, Harrison D510ua, RCF TRK PRO2, UA Apollo x16D) and the Fender Studio Quantum LT range; added Apollo range only as the family of retained UA models. Mixers: cut 31 SKUs to 11 (one or two per main maker), dropped SSL Oracle (large-format studio console, trade-level) and repeated Qu/SQ/MG/ProFX sizes (now via ranges and t). DI: kept Radial core plus Behringer, Mackie, AEA; dropped redundant Radial ProAV2/Pro48/BT-Pro, Behringer DI20 and BOSS Stompboxes/SGI/StageBug ranges as duplicates or non-DI. No models added; no web research."}
+ "notes": "Restraint only. Interfaces: trimmed SKU list to market-covering models, dropped niche/one-off SKUs (ART USB Dual Pre, Black Lion Revolution 2x2, Harrison D510ua, RCF TRK PRO2, UA Apollo x16D) and the Fender Studio Quantum LT range. Mixers: cut 31 SKUs to 11 (one or two per main maker), dropped SSL Oracle (large-format studio console, trade-level) and repeated Qu/SQ/MG/ProFX sizes (now via ranges and t). DI: kept Radial core plus Behringer, Mackie, AEA; dropped redundant Radial ProAV2/Pro48/BT-Pro, Behringer DI20 and BOSS Stompboxes/SGI/StageBug ranges as duplicates or non-DI. No models added; no web research."}
 
 jobs['07_02'] = {"kinds": [
  {"n": "Studio monitor", "a": "near-field monitor · reference monitor",
