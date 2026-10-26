@@ -121,7 +121,7 @@ brands = [
   "lines":[],"eras":[],"sig":[],"sc":["wet shaving"],"rel":["Edwin Jagger","Taylor of Old Bond Street"],"s":"https://www.muehle-shaving.com/en/Brand/History/"},
  {"n":"Edwin Jagger","c":"United Kingdom","f":"1988","seg":"Wet-shaving tools","d":"Family-run Sheffield maker of razors, brushes and shaving accessories.",
   "lines":[],"eras":[],"sig":[],"sc":["wet shaving"],"rel":["Mühle"],"s":"https://www.edwinjagger.com/about-edwin-jagger/"},
- {"n":"Proraso","c":"Italy","f":"1948","seg":"Shaving creams & barber supplies","d":"Ludovico Martelli's grooming brand, known for its green eucalyptus-and-menthol line and pre-shave cream made since 1948.",
+ {"n":"Proraso","c":"Italy","f":"","seg":"Shaving creams & barber supplies","d":"Ludovico Martelli's grooming brand, known for its green eucalyptus-and-menthol line and pre-shave cream made since 1948.",
   "lines":["Green","White","Pro"],"eras":[],"sig":["Proraso pre-shave cream","Proraso Green shaving cream","Proraso Green shaving soap"],"sc":["wet shaving","barbershop"],"rel":["Omega","Cella"],"s":W+"Proraso"},
  {"n":"Taylor of Old Bond Street","c":"United Kingdom","f":"1854","seg":"Barber & shaving products","d":"Jermyn Street barber and shop selling shaving creams, aftershaves and hair tonics.",
   "lines":["Jermyn Street"],"eras":[],"sig":["Taylor of Old Bond Street Jermyn Street"],"sc":["wet shaving","St James's barbers"],"rel":["Truefitt & Hill","Geo. F. Trumper"],
