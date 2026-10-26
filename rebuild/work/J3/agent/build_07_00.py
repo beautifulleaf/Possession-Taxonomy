@@ -9,7 +9,7 @@ kinds=[
   "x":[
    X("Aseptic silken tofu","Mori-Nu","Silken tofu sealed in an aseptic carton so it keeps unrefrigerated until opened.","Mori-Nu","1985","https://well.ca/brand/mori-nu.html",
      [("Soft Silken Tofu","Mori-Nu","",""),("Firm Silken Tofu","Mori-Nu","",""),("Extra Firm Silken Tofu","Mori-Nu","","")],"firmness · carton about 300 g"),
-   X("Smoked tofu","Räuchertofu","Firm tofu smoked after pressing, eaten sliced or fried.","Taifun","","https://www.taifun-tofu.de/en",
+   X("Smoked tofu","","Firm tofu smoked after pressing, eaten sliced or fried.","Taifun","","https://www.taifun-tofu.de/en",
      [("Smoked Tofu Classic","Taifun","",""),("Smoked Tofu Almonds & Sesame","Taifun","","")],"smoke · added nuts, seeds or herbs"),
    X("Kōya-dōfu","koya-dofu · freeze-dried tofu","Freeze-dried tofu from Mount Kōya, rehydrated before cooking.","","","https://en.wikipedia.org/wiki/Tofu",
      [("Shimidōfu","","","sun-dried frozen tofu of the Tōhoku region")],"block size · dried or rehydrated"),
@@ -45,10 +45,10 @@ kinds=[
      [("Beyond Beef Crumbles","Beyond Meat","2014",""),("Beyond Meatballs","Beyond Meat","2020","retail"),("Beyond Mince","Beyond Meat","2021","UK")],""),
    X("Plant-based chicken","Beyond Chicken · Impossible Chicken","Chicken-style strips, pieces and nuggets of plant protein.","Beyond Meat","2012","https://en.wikipedia.org/wiki/Beyond_Meat",
      [("Beyond Chicken Strips","Beyond Meat","2012","first product, discontinued 2019"),("Beyond Chicken Nuggets","Beyond Meat","2022",""),("Impossible Chicken","Impossible Foods","2021","")],"strips, pieces or nuggets"),
-   X("Tofurky roast","","Holiday roast of tofu and wheat gluten, the best-known vegetarian centrepiece roast.","Tofurky","1995","https://en.wikipedia.org/wiki/Tofurky",[],""),
+   X("Tofurky roast","","Roast made from a blend of tofu and wheat gluten.","Tofurky","1995","https://en.wikipedia.org/wiki/Tofurky",[],""),
    X("Linda McCartney vegetarian range","","British frozen vegetarian sausages, burgers and pies sold under Linda McCartney's name.","Linda McCartney Foods","1991","https://en.wikipedia.org/wiki/Linda_McCartney_Foods",
      [("Beefless burgers","Linda McCartney Foods","1991","in the launch range"),("Vegetarian sausages","Linda McCartney Foods","","textured vegetable protein with parsley (1995 report)")],""),
-   X("Protose","","Early nut and wheat-gluten meat substitute sold by the Kellogg sanitarium circle.","","by 1900","https://en.wikipedia.org/wiki/Meat_analogue",[],""),
+   X("Protose","","Early meat substitute from John Harvey Kellogg's Sanitas Nut Food Co., advertised by 1900.","","by 1900","https://en.wikipedia.org/wiki/Meat_analogue",[],""),
   ],
   "m":[["Incogmeato","Morningstar Farms"],["Awesome Burger","Nestlé"],["Plant-Based Whopper patty (China)","The Vegetarian Butcher"],["Beyond Steak","Beyond Meat"]]},
  {"n":"Mycoprotein","a":"fungal protein · mycelium protein · Quorn","d":"Protein food grown from fungal mycelium, such as Fusarium venenatum, formed into mince, pieces and meat-style products.",
@@ -68,7 +68,7 @@ kinds=[
      [("Kaofu","","","baked spongy gluten"),("Youmianjin","","","oil-fried gluten balls"),("Zhengmianjin","","","steamed gluten sausage"),("Mianlun","","","sliced gluten wheels")],""),
    X("Fu","麩","Japanese wheat gluten, fresh or dry-baked.","","","https://en.wikipedia.org/wiki/Seitan",
      [("Nama-fu","","","raw, steamed gluten"),("Yaki-fu","","","dry-baked; also sukiyaki-fu"),("Fu-manjū","","","")],""),
-   X("Mock duck","","Wheat gluten seasoned and shaped as a duck or poultry substitute, often tinned.","","","https://en.wikipedia.org/wiki/Seitan",[],""),
+   X("Mock duck","","Wheat gluten seasoned and shaped as a duck or poultry substitute.","","","https://en.wikipedia.org/wiki/Seitan",[],""),
    X("Seitan (macrobiotic)","","Gluten simmered in soy sauce, named by George Ohsawa and sold to the macrobiotic movement.","","1961","https://en.wikipedia.org/wiki/Seitan",
      [("Seitan","Marushima Shoyu","1962","first sold as seitan, Japan"),("Seitan","Erewhon","1969","imported to the West as a salty condiment"),("Tan Pups","","1972",""),("Wheatmeat","","1974","Boston, John Weissman")],""),
   ]},
@@ -98,7 +98,7 @@ brands=[
 ]
 traditions=[
  {"n":"Chinese tofu making","g":"Food & drink","r":"China","p":"Han dynasty onward; popular from the Song dynasty (960–1279)","d":"Making bean curd by coagulating soy milk and pressing the curds, credited by legend to Prince Liu An.","tech":"grinding soaked soybeans, boiling, coagulating with gypsum or bittern, pressing; fermenting and drying","mat":"soybeans, gypsum, nigari (bittern)","forms":["Tofu","Fermented bean curd","Stinky tofu","Yuba","Douhua"],"ctr":["Changsha (stinky tofu)","Shaoxing","Taiwan night markets"],"auth":"","s":W+"Tofu"},
- {"n":"Japanese tofu making","g":"Food & drink","r":"Japan","p":"from medieval times","d":"Japanese tofu styles from silken kinugoshi and pressed momen to fried, frozen and freeze-dried forms.","tech":"gypsum-set unpressed (kinugoshi) or pressed (momen) curd; deep-frying; freezing and freeze-drying","mat":"soybeans, gypsum, nigari","forms":["Kinugoshi","Momen-dofu","Aburaage","Atsuage","Kōya-dōfu","Shimidōfu","Yuba"],"ctr":["Mount Kōya (kōya-dōfu)","Tōhoku (shimidōfu)"],"auth":"","s":W+"Tofu"},
+ {"n":"Japanese tofu making","g":"Food & drink","r":"Japan","p":"after its spread from China","d":"Japanese tofu styles from silken kinugoshi and pressed momen to fried, frozen and freeze-dried forms.","tech":"gypsum-set unpressed (kinugoshi) or pressed (momen) curd; deep-frying; freezing and freeze-drying","mat":"soybeans, gypsum, nigari","forms":["Kinugoshi","Momen-dofu","Aburaage","Atsuage","Kōya-dōfu","Shimidōfu","Yuba"],"ctr":["Mount Kōya (kōya-dōfu)","Tōhoku (shimidōfu)"],"auth":"","s":W+"Tofu"},
  {"n":"Javanese tempe making","g":"Food & drink","r":"Java, Indonesia","p":"commonly eaten by about 1700","d":"Fermenting soybeans with Rhizopus mould into a bound cake; said to have begun in Bayat, Klaten, Central Java. Indonesia submitted it to UNESCO's intangible heritage list in March 2024 (pending).","tech":"soaking, dehulling and boiling beans, inoculating with Rhizopus and incubating in leaves or plastic","mat":"soybeans, Rhizopus oligosporus or R. oryzae, teak or waru leaves","forms":["Soy tempe","Tempe gembus","Tempe bongkrèk","Oncom"],"ctr":["Bayat, Klaten (Central Java)","Malang (tempe menjes)","West Java (oncom)"],"auth":"","s":"https://mataram.antaranews.com/berita/349839/tempeh-proposed-to-be-inscribed-on-unesco-cultural-heritage-list"},
 ]
 notes=("All six kinds are new (moved in from J5) and sourced from Wikipedia pages fetched this session. Tofu types (silken, firm, extra-firm, smoked, fried, frozen) are in t; named forms with their own source (aseptic silken, smoked, kōya-dōfu, fermented bean curd, stinky tofu) are archetypes. "
