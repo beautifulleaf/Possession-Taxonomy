@@ -6,8 +6,7 @@ bball={"n":"Basketball sneaker","a":"high-top sneaker · hi-top · basketball sh
  "t":["High","Mid","Low"],"s":W+"Sneakers","x":[
  X("Chuck Taylor All Star","Canvas basketball shoe with rubber toe cap and ankle patch on the high cut; reached its present form by 1923.","Converse","1917",W+"Converse_All_Star",
    [("Low-cut 'Oxford' version","Converse","1957","low cut, no ankle patch"),("Chuck 70","Converse","2013","retro of late-1960s/early-1970s build"),
-    ("Chuck 70 De Luxe","Converse","",""),("Chuck Taylor All Star II","Converse","2015",""),("Converse Modern","Converse","2016","Hiroshi Fujiwara, Tinker Hatfield, Mark Parker"),
-    ("Chuck Taylor All Star Lift Platform","Converse","","platform sole"),("Andy Warhol collection","Converse","2015","collaboration")],
+    ("Chuck 70 De Luxe","Converse","",""),("Chuck Taylor All Star II","Converse","2015",""),("Chuck Taylor All Star Lift Platform","Converse","","platform sole"),("Andy Warhol collection","Converse","2015","collaboration")],
    a="Chucks · All Star · Cons",dt="high or low cut · canvas, leather · colours"),
  X("Air Jordan 1","Michael Jordan's first Nike signature basketball shoe, designed by Peter B. Moore; first of the numbered Air Jordan line.","Nike","1985",W+"Air_Jordan",
    [("Air Jordan 1 (original)","Nike","1985","public release 1 April 1985"),("Black/red re-release","Nike","1994","first retro"),
@@ -60,8 +59,7 @@ canvas={"n":"Canvas sneaker","a":"plimsoll · sand shoe · daps · deck shoe","d
    [("Volley OC","Volley","1939","original"),("Volley International","Volley","1970s","revised upper, injected sole"),("Deuce","Volley","","")]),
  X("PF Flyers All American","Canvas basketball shoe associated with Bob Cousy.","PF Flyers","1958",W+"PF_Flyers",
    [("Bob Cousy Lo","PF Flyers","2009","reissue"),("Center Hi","PF Flyers","","featured in The Sandlot, 1993")]),
- X("Vans Authentic","The original Vans deck shoe, sold on the opening day of the Anaheim store.","Vans","1966",W+"Vans",
-   [("Old Skool (#36)","Vans","c. 1976","side stripe; later skate lineage")]),
+ X("Vans Authentic","The original Vans deck shoe, sold on the opening day of the Anaheim store.","Vans","1966",W+"Vans"),
  ]}
 brands=[
  {"n":"Converse","c":"United States","f":"1908","seg":"Heritage sneakers","d":"Massachusetts rubber-shoe maker known for the Chuck Taylor All Star; owned by Nike since 2003.","lines":["Chuck Taylor All Star","Chuck 70","Jack Purcell","One Star"],"sig":["Chuck Taylor All Star","Pro Leather"],"rel":["Nike","PF Flyers"],"s":W+"Converse_(brand)"},
@@ -84,6 +82,6 @@ notes=("Merged old k2 High-top sneaker into Basketball sneaker and k1 Low-top sn
  "Dropped as retail SKU noise: adidas VL Court 3.0, Reebok Court Advance, Lacoste Straightset 2.0. Old 'Chuck 70' (low) folded into Chuck Taylor All Star versions. "
  "Left for other shelves: adidas Ozweego (Chunky sneaker), Puma Palermo (Terrace sneaker). Run Star and Star Player 76 kept in m (no archetype page retrieved). "
  "Lacoste Carnaby kept in m; Puma Smash not added (no page retrieved; Parallel and Firecrawl out of credit, Wikidata rate-limited). "
- "Vans Old Skool listed as a version under Authentic only for context; Skate shoe shelf may promote it. AJ III/IV/XI kept as versions of Air Jordan 1 (the line).")
+ "Vans Old Skool (#36, c. 1976) left to the Skate shoe shelf. AJ III/IV/XI kept as versions of Air Jordan 1 (the line).")
 out={"kinds":[bball,court,canvas],"brands":brands,"traditions":[],"notes":notes}
 p='work/A2/shelves/00_00.json'; t=p+'.tmp'; json.dump(out,open(t,'w'),ensure_ascii=False,indent=1); os.replace(t,p)
