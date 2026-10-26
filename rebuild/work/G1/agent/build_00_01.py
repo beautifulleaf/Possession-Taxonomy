@@ -17,7 +17,7 @@ saloon={"n":"Luxury saloon","a":"full-size luxury sedan · flagship saloon · F-
     ("Phantom V","Rolls-Royce","1959–1968",""),("Phantom VI","Rolls-Royce","1968–1990",""),("Phantom VII","Rolls-Royce","2003–2017","also Drophead Coupé and Coupé"),("Phantom VIII","Rolls-Royce","2017–","current")],
    "generation · wheelbase · coachwork · bespoke trim"),
  X("Rolls-Royce Ghost","Rolls-Royce","2009","Rolls-Royce_Ghost","Smaller, owner-driven Rolls-Royce saloon below the Phantom.",
-   [("First generation","Rolls-Royce","2009–2020","Series I 2009–2014, Series II 2014–2020"),("Second generation","Rolls-Royce","2020–","Series II from 2024")],
+   [("First generation","Rolls-Royce","2009–2020","Series I 2009–2014, Series II 2014–2020"),("Second generation","Rolls-Royce","2020–","Series II from 2025")],
    "generation · series · wheelbase"),
  X("Bentley Mulsanne","Bentley","1980","Bentley_Mulsanne","Bentley's flagship saloon name, used for two distinct cars.",
    [("Mulsanne (1980)","Bentley","1980–1992",""),("Mulsanne (2010)","Bentley","2010–2020","")],"model · wheelbase · trim"),
