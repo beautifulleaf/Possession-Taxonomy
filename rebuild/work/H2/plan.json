@@ -1,0 +1,1636 @@
+{
+ "lead": "Health products a person keeps for themselves or someone they care for, from medicines, monitors and supplements to mobility, hearing, vision and sexual-health aids. It is organised by department of need, with use classes and makers that cover the market or top independent tests.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Medicines & remedies",
+   "mode": "tier",
+   "note": "Grouped by use class only; definitions name the class and active ingredient, never a health claim.",
+   "b": [
+    {
+     "m": "Active ingredient and strength",
+     "v": "",
+     "w": "What the medicine contains comes first; brand and generic with the same ingredient are equivalent."
+    },
+    {
+     "m": "Licence or registration",
+     "v": "UK PL number (MHRA) · EU marketing authorisation · US OTC monograph / NDC · traditional herbal registration (THR)",
+     "w": "Shows the product is a regulated medicine and not a food supplement."
+    },
+    {
+     "m": "Sale class",
+     "v": "general sale · pharmacy · pharmacist-only (a filter)",
+     "w": "Checked after the active ingredient."
+    },
+    {
+     "m": "Form and age range",
+     "v": "tablet · liquid · spray · patch; adult or children's dose",
+     "w": "Children's versions carry their own dosing."
+    }
+   ],
+   "s": [
+    {
+     "n": "Cold, flu & allergy",
+     "web": true,
+     "brief": "Cut SKU lists to market-covering brands across the UK, EU and US (e.g. Lemsip, Beechams, Benylin, Sudafed, Piriton, Vicks, Mucinex), 5–8 per kind. Merge cough suppressant and expectorant into one 'Cough medicine' kind with types dry and chesty. Add sore-throat lozenges and sprays (e.g. Strepsils, Chloraseptic). State the active ingredient in each type and make no efficacy claims.",
+     "k": [
+      {
+       "n": "Cold & flu remedy",
+       "old": [
+        "k1"
+       ],
+       "brief": "Types: day, night, hot drink powder, capsule."
+      },
+      {
+       "n": "Antihistamine tablets",
+       "old": [
+        "k5"
+       ],
+       "brief": "Types by ingredient: cetirizine, loratadine, fexofenadine, chlorphenamine (drowsy)."
+      },
+      {
+       "n": "Allergy nasal spray",
+       "old": [
+        "k6"
+       ],
+       "brief": "Types: steroid, antihistamine."
+      },
+      {
+       "n": "Nasal decongestant",
+       "old": [
+        "k2"
+       ],
+       "brief": "Types: spray, tablet."
+      },
+      {
+       "n": "Cough medicine",
+       "old": [
+        "k3",
+        "k4"
+       ],
+       "brief": "Types: dry cough (suppressant), chesty cough (expectorant)."
+      },
+      {
+       "n": "Sore-throat lozenge & spray",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Pain, fever & sleep",
+     "web": true,
+     "brief": "Fold migraine-labelled products into painkillers as a type. Merge the lidocaine patch into one topical pain-relief kind. Add a children's pain and fever kind tagged baby (e.g. Calpol, Nurofen for Children, Children's Tylenol). Keep brands to the market leaders by region.",
+     "k": [
+      {
+       "n": "Painkillers",
+       "old": [
+        "k7",
+        "k10"
+       ],
+       "brief": "Types by ingredient: paracetamol, ibuprofen, aspirin, naproxen, combination (incl. migraine-labelled)."
+      },
+      {
+       "n": "Children's pain & fever medicine",
+       "old": [],
+       "brief": "Tag baby."
+      },
+      {
+       "n": "Topical pain relief",
+       "old": [
+        "k8",
+        "k9"
+       ],
+       "brief": "Types: NSAID gel, cooling or warming gel, lidocaine patch."
+      },
+      {
+       "n": "Sleep aid",
+       "old": [
+        "k11"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Stomach & bowel",
+     "web": true,
+     "brief": "This use class is missing almost entirely. Add the core over-the-counter classes with leading brands (e.g. Gaviscon, Rennie, Tums, Imodium, Dioralyte, Senokot, Dulcolax, Kwells). Fold the medicinal enema into laxatives as a type.",
+     "k": [
+      {
+       "n": "Indigestion & heartburn remedy",
+       "old": [],
+       "brief": "Types: antacid, alginate, acid reducer."
+      },
+      {
+       "n": "Laxative",
+       "old": [
+        "k12"
+       ],
+       "brief": "Types: oral, suppository, enema."
+      },
+      {
+       "n": "Anti-diarrhoeal",
+       "old": []
+      },
+      {
+       "n": "Oral rehydration salts",
+       "old": []
+      },
+      {
+       "n": "Travel-sickness remedy",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Skin, eyes, ears & mouth",
+     "web": true,
+     "brief": "Add the missing topical classes with leading brands. Broaden the corn kind to warts and verrucas (e.g. Compeed, Scholl, Bazuka). Keep the teething gel tagged baby, and note where an ingredient (e.g. benzocaine, to verify) is restricted for infants in some markets.",
+     "k": [
+      {
+       "n": "Antiseptic",
+       "old": [],
+       "brief": "Types: cream, liquid, spray, wipe."
+      },
+      {
+       "n": "Anti-itch & hydrocortisone cream",
+       "old": []
+      },
+      {
+       "n": "Antifungal treatment",
+       "old": [],
+       "brief": "Types: athlete's foot, nail, thrush."
+      },
+      {
+       "n": "Cold-sore treatment",
+       "old": []
+      },
+      {
+       "n": "Corn, wart & verruca treatment",
+       "old": [
+        "k14"
+       ]
+      },
+      {
+       "n": "Head-lice treatment",
+       "old": []
+      },
+      {
+       "n": "Eye drops",
+       "old": [],
+       "brief": "Types: lubricating, allergy. Contact-lens drops stay in Vision."
+      },
+      {
+       "n": "Ear drops",
+       "old": []
+      },
+      {
+       "n": "Teething gel",
+       "old": [
+        "k13"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Quit smoking & traditional remedies",
+     "web": true,
+     "brief": "Nicotine replacement takes types (patch, gum, lozenge, mouth spray, inhalator). Add one kind for traditional-system preparations. Write tradition-register entries for Traditional Chinese medicine, Ayurveda, Kampo, Unani and homeopathy (group 'Healing traditions'), giving forms, centres and registration marks only. Make no efficacy claims.",
+     "k": [
+      {
+       "n": "Nicotine replacement",
+       "old": [
+        "k15"
+       ]
+      },
+      {
+       "n": "Homeopathic single remedy",
+       "old": [
+        "k16"
+       ]
+      },
+      {
+       "n": "Traditional medicine preparation",
+       "old": [],
+       "brief": "Types: TCM patent medicine, Ayurvedic, Kampo, Western herbal (THR)."
+      }
+     ]
+    },
+    {
+     "n": "Medicine aids",
+     "web": true,
+     "brief": "Add the devices people own to take or carry medicine. Include automatic pill dispensers (e.g. Pivotell, Hero, to verify) and adrenaline auto-injectors (EpiPen, Jext, Emerade, Auvi-Q).",
+     "k": [
+      {
+       "n": "Pill organiser & dispenser",
+       "old": [],
+       "brief": "Types: weekly box, pill cutter, automatic dispenser."
+      },
+      {
+       "n": "Adrenaline auto-injector",
+       "old": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Monitors, tests & diabetes care",
+   "mode": "tier",
+   "note": "Validated accuracy is the first test for every monitor.",
+   "b": [
+    {
+     "m": "Validated accuracy",
+     "v": "BP: on the BIHS or STRIDE BP / validatebp.org list (ISO 81060-2) · glucose: ISO 15197:2013 · thermometer: ISO 80601-2-56 · oximeter: FDA-cleared / ISO 80601-2-61",
+     "w": "Independent validation comes first; NHS and NICE recommend validated BP monitors."
+    },
+    {
+     "m": "Medical-device marking",
+     "v": "CE / UKCA medical device · FDA 510(k)",
+     "w": "Separates medical monitors from wellness gadgets."
+    },
+    {
+     "m": "Fit and method",
+     "v": "upper-arm cuff over wrist; correct cuff size",
+     "w": "Checked after validation."
+    },
+    {
+     "m": "Running cost",
+     "v": "strips, sensors, cuffs",
+     "w": "Consumables often cost more than the device."
+    },
+    {
+     "m": "Age of the monitor",
+     "v": "recheck or replace a home BP monitor within about four years",
+     "w": "Last in the order."
+    }
+   ],
+   "s": [
+    {
+     "n": "Blood pressure",
+     "web": true,
+     "brief": "Fold the wearable monitor in as a type and the replacement cuff in as a spare-parts note. Cut to validated models from Omron, Beurer, Withings, A&D Medical, Microlife and Braun, plus independent test winners (Which?, Consumer Reports), at most 10. Record each model's validation-list status.",
+     "k": [
+      {
+       "n": "Blood-pressure monitor",
+       "old": [
+        "k43",
+        "k44",
+        "k46"
+       ],
+       "brief": "Types: upper-arm, wrist, wearable. Note: cuffs and parts are spare parts of this kind."
+      },
+      {
+       "n": "Manual blood-pressure kit",
+       "old": [
+        "k45"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Diabetes care",
+     "web": true,
+     "brief": "Merge strips into the meter, and flash monitors and sensors into the CGM (Libre 14-day becomes a type or version). Add insulin pumps (Omnipod, Tandem, Medtronic MiniMed, Ypsomed) and insulin pens (reusable, smart). Treat lancets and lancing devices as meter consumables.",
+     "k": [
+      {
+       "n": "Continuous glucose monitor",
+       "old": [
+        "k48",
+        "k49",
+        "k52"
+       ],
+       "brief": "Types: real-time CGM, flash (scan), over-the-counter CGM. Note: replacement sensors."
+      },
+      {
+       "n": "Blood glucose meter",
+       "old": [
+        "k47",
+        "k51"
+       ],
+       "brief": "Types: standard, Bluetooth, glucose + ketone. Note: test strips and lancets."
+      },
+      {
+       "n": "Insulin pump",
+       "old": [],
+       "brief": "Types: tubed, patch pump."
+      },
+      {
+       "n": "Insulin pen",
+       "old": [],
+       "brief": "Types: reusable, disposable, smart pen."
+      },
+      {
+       "n": "HbA1c test kit",
+       "old": [
+        "k50"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Heart, lung & temperature",
+     "web": false,
+     "brief": "Restraint only. Cut the thermometer and oximeter lists to Braun, Omron, Beurer, Withings, Exergen, Masimo and Nonin, about 6 each. Personal ECG: AliveCor, Withings, Beurer.",
+     "k": [
+      {
+       "n": "Digital thermometer",
+       "old": [
+        "k53"
+       ]
+      },
+      {
+       "n": "Pulse oximeter",
+       "old": [
+        "k55"
+       ]
+      },
+      {
+       "n": "Personal ECG monitor",
+       "old": [
+        "k56"
+       ]
+      },
+      {
+       "n": "Peak flow meter",
+       "old": [
+        "k57"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Home tests & medical apps",
+     "web": true,
+     "brief": "Add the common regulated self-tests and personal breathalysers (e.g. AlcoSense, BACtrack, Dräger). Leave out tests sold on unproven claims, such as food-intolerance kits.",
+     "k": [
+      {
+       "n": "Infection test kit",
+       "old": [
+        "k58"
+       ]
+      },
+      {
+       "n": "Urine test strips",
+       "old": [],
+       "brief": "Types: UTI, multi-parameter."
+      },
+      {
+       "n": "HIV self-test",
+       "old": []
+      },
+      {
+       "n": "Bowel screening test",
+       "old": [],
+       "brief": "Faecal immunochemical test (FIT)."
+      },
+      {
+       "n": "Cholesterol test",
+       "old": []
+      },
+      {
+       "n": "Breathalyser",
+       "old": []
+      },
+      {
+       "n": "Medical app",
+       "old": [
+        "k62"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "First aid & supports",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Kit standard",
+     "v": "BS 8599-1 workplace · BS 8599-2 vehicle · DIN 13164 car · DIN 13157 workplace",
+     "w": "Kits are compared by the standard and size class they meet."
+    },
+    {
+     "m": "Medical-device class and sizing",
+     "v": "CE / UKCA; measured size charts; compression class (RAL / BS 6612)",
+     "w": "Supports and stockings only work at the right size and pressure."
+    }
+   ],
+   "s": [
+    {
+     "n": "First-aid kits & dressings",
+     "web": true,
+     "brief": "Merge the three bandage kinds and fold blister plasters into plasters (Compeed is the blister icon). Cut kit SKUs to market leaders per standard (e.g. St John Ambulance, Reliance, Holthaus, Söhngen, Leina-Werke, Adventure Medical Kits), about 8. Add home defibrillators (e.g. Philips HeartStart, Zoll AED Plus, to verify).",
+     "k": [
+      {
+       "n": "First-aid kit",
+       "old": [
+        "k63"
+       ],
+       "brief": "Types: home, car, workplace, travel, outdoor."
+      },
+      {
+       "n": "Plaster",
+       "old": [
+        "k64",
+        "k68"
+       ],
+       "brief": "Types: fabric, waterproof, children's, blister (hydrocolloid)."
+      },
+      {
+       "n": "Bandage",
+       "old": [
+        "k65",
+        "k66",
+        "k67"
+       ],
+       "brief": "Types: roller, triangular, tubular, cohesive."
+      },
+      {
+       "n": "Wound-closure strip",
+       "old": [
+        "k69"
+       ]
+      },
+      {
+       "n": "Liquid bandage",
+       "old": [
+        "k70"
+       ]
+      },
+      {
+       "n": "Home defibrillator",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Braces, supports & insoles",
+     "web": true,
+     "brief": "Add the missing knee and ankle supports. Cut the insole SKUs to about 6 across Superfeet, Powerstep, Scholl, Currex and Aetrex. Supports: Bauerfeind, Futuro, Ottobock, DonJoy, Push. Compression: Jobst, Sigvaris, medi, Juzo.",
+     "k": [
+      {
+       "n": "Knee support",
+       "old": []
+      },
+      {
+       "n": "Ankle support",
+       "old": []
+      },
+      {
+       "n": "Back support",
+       "old": [
+        "k72"
+       ]
+      },
+      {
+       "n": "Wrist & hand support",
+       "old": [
+        "k74"
+       ]
+      },
+      {
+       "n": "Elbow support",
+       "old": [
+        "k73"
+       ]
+      },
+      {
+       "n": "Neck support",
+       "old": [
+        "k71"
+       ]
+      },
+      {
+       "n": "Orthotic insole",
+       "old": [
+        "k75"
+       ]
+      },
+      {
+       "n": "Compression stocking",
+       "old": [
+        "k76"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Prostheses",
+     "web": true,
+     "brief": "Add the major makers: Ottobock, Össur, Fillauer, Blatchford, Open Bionics (Hero Arm), Psyonic. Use types for microprocessor knee, running blade and myoelectric hand. Keep Amoena and Anita for breast forms. Eye and facial prostheses are bespoke; keep them kind-level with no models.",
+     "k": [
+      {
+       "n": "Leg prosthesis",
+       "old": [
+        "k77"
+       ]
+      },
+      {
+       "n": "Arm prosthesis",
+       "old": [
+        "k78"
+       ]
+      },
+      {
+       "n": "Breast prosthesis",
+       "old": [
+        "k79"
+       ]
+      },
+      {
+       "n": "Eye prosthesis",
+       "old": [
+        "k80"
+       ]
+      },
+      {
+       "n": "Facial prosthesis",
+       "old": [
+        "k81"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Vitamins & supplements",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Ingredients, form and dose",
+     "v": "",
+     "w": "Supplements are judged first on what is in them and how much."
+    },
+    {
+     "m": "Independent testing seal",
+     "v": "USP Verified · NSF Certified · ConsumerLab approved",
+     "w": "Checked after the ingredients."
+    },
+    {
+     "m": "Clear labelling",
+     "v": "",
+     "w": "Marketing claims count last of all."
+    }
+   ],
+   "s": [
+    {
+     "n": "Vitamins & minerals",
+     "web": true,
+     "brief": "Treat single nutrients as types, not kinds. Cut to market-covering brands (Centrum, Nature Made, Solgar, Vitabiotics, Holland & Barrett, Nature's Bounty, Thorne, Kirkland) plus ConsumerLab and USP-listed winners, 5–10 per kind. Prenatal and children's products are multivitamin types; tag the children's ones baby only if split out.",
+     "k": [
+      {
+       "n": "Multivitamin",
+       "old": [
+        "k17"
+       ],
+       "brief": "Types: adult, 50+, prenatal, children's."
+      },
+      {
+       "n": "Vitamin supplement",
+       "old": [
+        "k18",
+        "k19"
+       ],
+       "brief": "Types: D, C, B12, B complex, folic acid."
+      },
+      {
+       "n": "Mineral supplement",
+       "old": [
+        "k20"
+       ],
+       "brief": "Types: magnesium, iron, zinc, calcium."
+      }
+     ]
+    },
+    {
+     "n": "Oils, herbs & specialty supplements",
+     "web": true,
+     "brief": "Make ashwagandha a type of a broader herbal supplement kind. Rename fish oil to omega-3 with types for fish, cod liver, krill and algal. Cut the probiotic and omega-3 SKU lists to about 8. Make no health claims.",
+     "k": [
+      {
+       "n": "Omega-3 oil",
+       "old": [
+        "k23"
+       ]
+      },
+      {
+       "n": "Probiotic",
+       "old": [
+        "k22"
+       ]
+      },
+      {
+       "n": "Herbal supplement",
+       "old": [
+        "k21"
+       ],
+       "brief": "Types: ashwagandha, turmeric, echinacea, ginseng, St John's wort, valerian."
+      },
+      {
+       "n": "Collagen",
+       "old": [
+        "k24"
+       ]
+      },
+      {
+       "n": "Combination supplement",
+       "old": [
+        "k26"
+       ],
+       "brief": "Types: joint formula, hair-skin-nails, magnesium + ashwagandha."
+      },
+      {
+       "n": "Tonic & essence",
+       "old": [
+        "k25"
+       ],
+       "brief": "Essence of chicken and similar Asian tonics."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Sports & medical nutrition",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Protein source and grade",
+     "v": "concentrate · isolate · hydrolysate · plant · clear",
+     "w": "Sports nutrition starts from the ingredient."
+    },
+    {
+     "m": "Batch tested for banned substances",
+     "v": "Informed Sport · NSF Certified for Sport · Informed Choice",
+     "w": "Each batch is tested by an anti-doping lab."
+    },
+    {
+     "m": "Nutritional completeness",
+     "v": "FSMP labelling for medical foods",
+     "w": "Medical formulas are foods for special medical purposes."
+    }
+   ],
+   "s": [
+    {
+     "n": "Protein & training supplements",
+     "web": true,
+     "brief": "Merge whey, casein and other powders into one protein powder kind. Break the Optimum Nutrition and Cellucor skew by adding Myprotein, MuscleTech, Dymatize, Bulk, PhD, Huel, Vega and Applied Nutrition, about 8 per kind. Cap pre-workout at 1–2 entries per brand.",
+     "k": [
+      {
+       "n": "Protein powder",
+       "old": [
+        "k27",
+        "k30",
+        "k31"
+       ],
+       "brief": "Types: whey concentrate, whey isolate, casein, plant, clear."
+      },
+      {
+       "n": "Mass gainer",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "Creatine",
+       "old": [
+        "k33"
+       ]
+      },
+      {
+       "n": "Pre-workout",
+       "old": [
+        "k34"
+       ]
+      },
+      {
+       "n": "Amino acids",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "Fat burner",
+       "old": [
+        "k36"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Endurance fuel & hydration",
+     "web": true,
+     "brief": "Dissolve the 'Other electrolytes' catch-all and merge drink mixes and tablets. Add brands beyond GU and Nuun: SiS, Maurten, High5, Precision Fuel & Hydration, Tailwind, Liquid I.V.",
+     "k": [
+      {
+       "n": "Energy gel & chew",
+       "old": [
+        "k40"
+       ]
+      },
+      {
+       "n": "Electrolyte drink mix",
+       "old": [
+        "k37",
+        "k41",
+        "k42"
+       ],
+       "brief": "Types: powder, effervescent tablet, sachet."
+      }
+     ]
+    },
+    {
+     "n": "Meal replacement & medical nutrition",
+     "web": true,
+     "brief": "Cut the Huel SKUs to 1–2 and add Soylent, Yfood and SlimFast. Add oral nutritional supplements (Ensure, Fortisip, Complan). Keep medical formulas kind-level with leading makers (Nutricia, Mead Johnson, Abbott).",
+     "k": [
+      {
+       "n": "Meal-replacement shake",
+       "old": [
+        "k38"
+       ]
+      },
+      {
+       "n": "Oral nutritional supplement",
+       "old": []
+      },
+      {
+       "n": "Medical-condition formula",
+       "old": [
+        "k39"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Breathing, sleep & therapy",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Medical-device class",
+     "v": "CE / UKCA class IIa · FDA cleared",
+     "w": "Separates therapy devices from wellness gadgets."
+    },
+    {
+     "m": "Noise, size and running cost",
+     "v": "dB rating; masks, filters, pads",
+     "w": "Matters most for devices used nightly or daily."
+    }
+   ],
+   "s": [
+    {
+     "n": "Breathing & sleep apnoea",
+     "web": true,
+     "brief": "Add CPAP machines (ResMed AirSense, Philips DreamStation, Fisher & Paykel masks, to verify) and portable oxygen concentrators (Inogen, Philips SimplyGo, Invacare). Add inhaler spacers (AeroChamber, Volumatic) and mandibular advancement anti-snoring devices. Cut the Omron nebuliser list to about 4 and add Philips and PARI.",
+     "k": [
+      {
+       "n": "CPAP machine",
+       "old": [],
+       "brief": "Types: fixed CPAP, auto (APAP), travel. Note: masks and tubing as spare parts."
+      },
+      {
+       "n": "Oxygen concentrator",
+       "old": [],
+       "brief": "Types: home, portable."
+      },
+      {
+       "n": "Nebuliser",
+       "old": [
+        "k98"
+       ]
+      },
+      {
+       "n": "Inhaler spacer",
+       "old": []
+      },
+      {
+       "n": "Steam inhaler",
+       "old": [
+        "k99"
+       ]
+      },
+      {
+       "n": "Anti-snoring device",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Pain relief & therapy devices",
+     "web": true,
+     "brief": "Broaden the heat patch to heat and cold packs. Add light-therapy lamps (Lumie, Philips, Beurer). Cut the Beurer TENS skew and add Omron, Compex, Bluetens and Elvie (for labour TENS, to verify). Weighted blankets: Sensory Direct, Gravity, Simba.",
+     "k": [
+      {
+       "n": "TENS/EMS unit",
+       "old": [
+        "k96"
+       ]
+      },
+      {
+       "n": "Heat & cold pack",
+       "old": [
+        "k97"
+       ],
+       "brief": "Types: self-heating patch, electric heat pad, gel pack, instant cold pack."
+      },
+      {
+       "n": "Light-therapy lamp",
+       "old": []
+      },
+      {
+       "n": "Weighted blanket",
+       "old": [
+        "k100"
+       ]
+      },
+      {
+       "n": "Orthopaedic pillow",
+       "old": [
+        "k101"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Mobility aids",
+   "mode": "tier",
+   "note": "Wheelchairs and scooters cover the main makers, including active-user and powered-chair leaders.",
+   "b": [
+    {
+     "m": "Fit to the user",
+     "v": "handle height; seat width and depth",
+     "w": "Fit comes first."
+    },
+    {
+     "m": "Tested to standard",
+     "v": "ISO 7176 wheelchairs · EN 12184 powered chairs · ISO 11199 walking aids · UK class 2 / class 3 scooters",
+     "w": "Independent test standards for safety and stability."
+    },
+    {
+     "m": "Weight the user can put on it",
+     "v": "bariatric models are a user type",
+     "w": "Checked after fit."
+    },
+    {
+     "m": "Where it is used",
+     "v": "indoor · outdoor · all-terrain (a choice)",
+     "w": "Sets wheel size and range."
+    },
+    {
+     "m": "Weight and portability",
+     "v": "folding; transport weight; airline-approved batteries",
+     "w": "Checked after use."
+    },
+    {
+     "m": "Warranty and service",
+     "v": "",
+     "w": "Last in the order."
+    }
+   ],
+   "s": [
+    {
+     "n": "Walking aids",
+     "web": true,
+     "brief": "Make quad, tripod, folding and seat sticks types of the walking stick, and drop the maker-less pseudo-models. Rollators: cut the Drive and Stander skew and add Topro, Byacre, Saljol and Trust Care. Heritage and fashion canes (e.g. Fayet, Swaine Adeney Brigg) belong to A4; cross-link only.",
+     "k": [
+      {
+       "n": "Walking stick",
+       "old": [
+        "k102"
+       ]
+      },
+      {
+       "n": "Rollator",
+       "old": [
+        "k104"
+       ]
+      },
+      {
+       "n": "Walking frame",
+       "old": [
+        "k103"
+       ]
+      },
+      {
+       "n": "Crutches",
+       "old": [
+        "k105"
+       ]
+      },
+      {
+       "n": "Knee walker",
+       "old": [
+        "k106"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Wheelchairs & scooters",
+     "web": true,
+     "brief": "Add the missing leaders. Manual: Quickie, Küschall, TiLite, Motion Composites, Invacare, Ottobock. Powered: Permobil, WHILL, Quantum (Pride), Invacare, Ottobock. Scooters: Pride, TGA, Sunrise Sterling. Use types for transit, self-propelled, active rigid and folding chairs. Add power-assist and front attachments (SmartDrive, Batec, Firefly, e-motion). Collapse parts to one entry.",
+     "k": [
+      {
+       "n": "Manual wheelchair",
+       "old": [
+        "k107"
+       ],
+       "brief": "Types: transit, self-propelled, active rigid, folding, sports, beach."
+      },
+      {
+       "n": "Powered wheelchair",
+       "old": [
+        "k108"
+       ],
+       "brief": "Types: folding travel, indoor/outdoor, complex rehab."
+      },
+      {
+       "n": "Mobility scooter",
+       "old": [
+        "k109"
+       ]
+      },
+      {
+       "n": "Wheelchair power add-on",
+       "old": [],
+       "brief": "Types: push-rim assist, rear power-assist, front handbike attachment."
+      },
+      {
+       "n": "Wheelchair parts & accessories",
+       "old": [
+        "k110"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Ramps, lifts & transfers",
+     "web": true,
+     "brief": "Add transfer aids (transfer board, turntable, sit-to-stand aid). The stairlift moves to G3 Home Fixtures. Patient lifts: Invacare, Arjo, Oxford (Joerns).",
+     "k": [
+      {
+       "n": "Portable ramp",
+       "old": [
+        "k111"
+       ]
+      },
+      {
+       "n": "Patient lift",
+       "old": [
+        "k112"
+       ]
+      },
+      {
+       "n": "Transfer aid",
+       "old": []
+      },
+      {
+       "n": "Mobility vehicle lift",
+       "old": [
+        "k114"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Daily living & care",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Safe working load",
+     "v": "",
+     "w": "The weight limit comes first for anything that carries a person."
+    },
+    {
+     "m": "Tested to standard",
+     "v": "ISO 10535 hoists · IEC 60601-2-52 care beds · TSA accreditation for alarm services (UK)",
+     "w": "Independent safety standards."
+    },
+    {
+     "m": "Fit to the home and user",
+     "v": "height adjustment; width",
+     "w": "Checked after the load."
+    }
+   ],
+   "s": [
+    {
+     "n": "Bathroom & toilet aids",
+     "web": false,
+     "brief": "Restraint only. Keep kind-level; add 1–3 market makers per kind (Drive, Days/Patterson, Homecraft, Mangar for bath lifts).",
+     "k": [
+      {
+       "n": "Grab bar",
+       "old": [
+        "k116"
+       ]
+      },
+      {
+       "n": "Shower chair",
+       "old": [
+        "k115"
+       ]
+      },
+      {
+       "n": "Raised toilet seat",
+       "old": [
+        "k119"
+       ]
+      },
+      {
+       "n": "Toilet safety frame",
+       "old": [
+        "k121"
+       ]
+      },
+      {
+       "n": "Commode chair",
+       "old": [
+        "k120"
+       ]
+      },
+      {
+       "n": "Bath lift",
+       "old": [
+        "k117"
+       ]
+      },
+      {
+       "n": "Tub transfer bench",
+       "old": [
+        "k118"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Continence & stoma",
+     "web": true,
+     "brief": "Merge the 'Other' catch-all, pads, briefs and pants into one kind with types. Break the TENA skew by adding Always Discreet, Depend, Attends and Molicare. Add intermittent catheters (Coloplast SpeediCath, Hollister, Convatec). Stoma: Coloplast, Convatec, Hollister, Salts.",
+     "k": [
+      {
+       "n": "Incontinence pads & pants",
+       "old": [
+        "k122",
+        "k124",
+        "k125",
+        "k126"
+       ],
+       "brief": "Types: liner, pad, pull-up pants, all-in-one brief, men's guard."
+      },
+      {
+       "n": "Bed & chair protector",
+       "old": [
+        "k127"
+       ]
+      },
+      {
+       "n": "Stoma appliance",
+       "old": [
+        "k123"
+       ]
+      },
+      {
+       "n": "Intermittent catheter",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Beds & pressure care",
+     "web": false,
+     "brief": "Restraint only. Keep 2–4 makers per kind (Invacare, Drive, Sidhil, Sunrise JAY, ROHO).",
+     "k": [
+      {
+       "n": "Care bed",
+       "old": [
+        "k128"
+       ]
+      },
+      {
+       "n": "Pressure-relief mattress",
+       "old": [
+        "k129"
+       ]
+      },
+      {
+       "n": "Pressure-relief cushion",
+       "old": [
+        "k130"
+       ]
+      },
+      {
+       "n": "Bed rail",
+       "old": [
+        "k131"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Alarms & medical ID",
+     "web": false,
+     "brief": "Merge pendant and fall detector, and bracelet and tag. Cut American Medical ID SKUs to the brand plus MedicAlert and ROAD iD. Alarms: Tunstall, Lifeline24, Medical Guardian.",
+     "k": [
+      {
+       "n": "Personal alarm",
+       "old": [
+        "k132",
+        "k133"
+       ],
+       "brief": "Types: pendant, wrist, automatic fall detector, GPS."
+      },
+      {
+       "n": "Medical ID",
+       "old": [
+        "k134",
+        "k135"
+       ],
+       "brief": "Types: bracelet, tag, card, keyring."
+      },
+      {
+       "n": "Wandering detector",
+       "old": [
+        "k136"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Everyday aids",
+     "web": true,
+     "brief": "New shelf for common daily-living aids (makers such as Homecraft, Days, OXO Good Grips, Etac, to verify).",
+     "k": [
+      {
+       "n": "Reacher",
+       "old": [],
+       "brief": "Grabber or pick-up tool."
+      },
+      {
+       "n": "Dressing aid",
+       "old": [],
+       "brief": "Types: sock aid, button hook, long shoehorn."
+      },
+      {
+       "n": "Adapted cutlery & cups",
+       "old": [],
+       "brief": "Types: built-up cutlery, two-handled cup, plate guard."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Hearing",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Style for the hearing loss",
+     "v": "behind the ear · receiver in canal · in the ear · in the canal (a choice)",
+     "w": "The audiologist picks the style for the loss first."
+    },
+    {
+     "m": "Technology level",
+     "v": "essential → standard → advanced → premium (makers number their tiers, e.g. 30/50/70/90, to verify)",
+     "w": "The same shell is sold at several chip levels; higher tiers add channels, noise handling and automatic programs."
+    },
+    {
+     "m": "Sale route",
+     "v": "prescription (audiologist-fitted) · over-the-counter (FDA OTC rule, 2022)",
+     "w": "OTC aids are for perceived mild-to-moderate loss."
+    },
+    {
+     "m": "Power and streaming",
+     "v": "zinc-air battery · rechargeable; Made for iPhone · ASHA · Bluetooth LE Audio / Auracast",
+     "w": "Checked after the tier."
+    },
+    {
+     "m": "Lab-measured performance",
+     "v": "HearingTracker lab scores",
+     "w": "Independent comparison."
+    }
+   ],
+   "s": [
+    {
+     "n": "Hearing aids",
+     "web": true,
+     "brief": "Structure each style by the platform families of the big makers: Sonova (Phonak), Demant (Oticon), WS Audiology (Signia, Widex), GN (ReSound, Jabra Enhance) and Starkey. Model families become ranges with their tier levels, and cross-family repeats are removed. Add OTC aids (Jabra Enhance, Sony CRE, Eargo, Apple AirPods Pro hearing-aid feature, to verify). Add implant sound processors (Cochlear, MED-EL, Advanced Bionics, Oticon Medical/Ponto). Collapse batteries and domes into one spare-parts entry.",
+     "k": [
+      {
+       "n": "Receiver-in-canal hearing aid",
+       "old": [
+        "k141"
+       ]
+      },
+      {
+       "n": "Behind-the-ear hearing aid",
+       "old": [
+        "k140"
+       ]
+      },
+      {
+       "n": "In-the-ear hearing aid",
+       "old": [
+        "k142"
+       ]
+      },
+      {
+       "n": "In-the-canal hearing aid",
+       "old": [
+        "k143"
+       ]
+      },
+      {
+       "n": "Over-the-counter hearing aid",
+       "old": []
+      },
+      {
+       "n": "Implant sound processor",
+       "old": [],
+       "brief": "Types: cochlear implant processor, bone-anchored processor."
+      },
+      {
+       "n": "Hearing-aid spare parts",
+       "old": [
+        "k144",
+        "k145"
+       ],
+       "brief": "Batteries (sizes 10, 312, 13, 675), domes, wax guards, tubes."
+      }
+     ]
+    },
+    {
+     "n": "Hearing accessories & alerting",
+     "web": true,
+     "brief": "New shelf. Cover streamers and remote microphones by the hearing-aid makers, alerting systems (Bellman & Symfon, Sonic Alert, Amplicomms) and PSAPs, which are not hearing aids.",
+     "k": [
+      {
+       "n": "Hearing-aid streamer & remote mic",
+       "old": [],
+       "brief": "Types: TV streamer, remote microphone, remote control."
+      },
+      {
+       "n": "Alerting system",
+       "old": [],
+       "brief": "Types: vibrating alarm clock, doorbell and phone flasher, smoke-alarm shaker."
+      },
+      {
+       "n": "Personal sound amplifier",
+       "old": [],
+       "brief": "PSAP."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Vision & communication",
+   "mode": "tier",
+   "note": "Frames, ready readers and all glasses move to A4 Eyewear; lenses, contacts and low-vision aids stay here.",
+   "b": [
+    {
+     "m": "Prescription and fitting",
+     "v": "",
+     "w": "Lenses and contacts are chosen to an optometrist's prescription and fit."
+    },
+    {
+     "m": "Lens design ladder",
+     "v": "single vision → bifocal → standard varifocal → premium personalised varifocal; coatings (anti-reflective, blue filter, photochromic)",
+     "w": "The main price ladder for spectacle lenses."
+    },
+    {
+     "m": "Contact-lens material and schedule",
+     "v": "silicone hydrogel vs hydrogel; Dk/t oxygen; daily · fortnightly · monthly",
+     "w": "Material and wear schedule decide comfort and care."
+    },
+    {
+     "m": "Magnification and field",
+     "v": "dioptres / ×; illuminated",
+     "w": "Low-vision aids are matched to the task."
+    }
+   ],
+   "s": [
+    {
+     "n": "Spectacle & contact lenses",
+     "web": true,
+     "brief": "Spectacle lenses: add Zeiss, Hoya, Nikon and Rodenstock beside Essilor Varilux, using lens-design and coating ladders as types (Transitions as a coating line). Contacts: cut to the 4 makers' flagship families with types daily, monthly, toric, multifocal and coloured. Merge RGP, ortho-k and scleral into one rigid lens kind. Merge solution and drops into one care kind.",
+     "k": [
+      {
+       "n": "Spectacle lens",
+       "old": [
+        "k150"
+       ]
+      },
+      {
+       "n": "Soft contact lens",
+       "old": [
+        "k151"
+       ]
+      },
+      {
+       "n": "Rigid contact lens",
+       "old": [
+        "k152",
+        "k153",
+        "k154"
+       ],
+       "brief": "Types: gas-permeable, orthokeratology, scleral."
+      },
+      {
+       "n": "Contact-lens solution & drops",
+       "old": [
+        "k155",
+        "k156"
+       ],
+       "brief": "Types: multipurpose, hydrogen peroxide, saline, rewetting drops."
+      }
+     ]
+    },
+    {
+     "n": "Low-vision aids",
+     "web": true,
+     "brief": "Add makers to the maker-less entries (Eschenbach, Schweizer, Optelec, HumanWare, Zoomax, Freedom Scientific). Add braille devices: the Perkins Brailler (archetype if sourced) and refreshable braille displays (HumanWare Brailliant, Freedom Scientific Focus). White canes: Ambutech, RNIB.",
+     "k": [
+      {
+       "n": "Handheld magnifier",
+       "old": [
+        "k157"
+       ]
+      },
+      {
+       "n": "Stand magnifier",
+       "old": [
+        "k158"
+       ]
+      },
+      {
+       "n": "Electronic magnifier",
+       "old": [
+        "k159"
+       ]
+      },
+      {
+       "n": "Low-vision glasses",
+       "old": [
+        "k161"
+       ]
+      },
+      {
+       "n": "Low-vision monocular",
+       "old": [
+        "k160"
+       ]
+      },
+      {
+       "n": "White cane",
+       "old": [
+        "k162"
+       ]
+      },
+      {
+       "n": "Braille device",
+       "old": [],
+       "brief": "Types: braille writer, refreshable braille display, braille note-taker."
+      }
+     ]
+    },
+    {
+     "n": "Communication aids",
+     "web": false,
+     "brief": "Restraint only. Cut the Tobii Dynavox SKUs to 3 and add PRC-Saltillo and Smartbox as ranges.",
+     "k": [
+      {
+       "n": "Communication aid",
+       "old": [
+        "k163"
+       ]
+      },
+      {
+       "n": "Eye-gaze device",
+       "old": [
+        "k164"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Sexual health & family",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Tested to standard",
+     "v": "condoms: ISO 4074 / CE, BSI Kitemark · tests: CE IVD / FDA cleared",
+     "w": "Independent testing comes first."
+    },
+    {
+     "m": "Material and fit",
+     "v": "latex · polyisoprene · polyurethane; nominal width",
+     "w": "Checked after the standard."
+    },
+    {
+     "m": "Breast-pump suction and system",
+     "v": "max mmHg; closed vs open system; single vs double; wearable",
+     "w": "Main differences between pumps."
+    }
+   ],
+   "s": [
+    {
+     "n": "Contraception & barriers",
+     "web": false,
+     "brief": "Cut the 28 Trojan-skewed condom SKUs to about 8 flagship lines across Durex, Trojan, Skyn, Okamoto, Sagami and Mates. Types: standard, thin, large, non-latex, internal (female). Emergency pill: Levonelle/levonorgestrel, ellaOne/ulipristal, Plan B as types by ingredient.",
+     "k": [
+      {
+       "n": "Condom",
+       "old": [
+        "k82"
+       ]
+      },
+      {
+       "n": "Emergency contraceptive pill",
+       "old": [
+        "k84"
+       ]
+      },
+      {
+       "n": "Dental dam",
+       "old": [
+        "k83"
+       ]
+      },
+      {
+       "n": "Delay spray",
+       "old": [
+        "k85"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Fertility & pregnancy",
+     "web": true,
+     "brief": "Brands: Clearblue, First Response, Boots, Proov, Mira, Inito (to verify). Add home sperm tests (e.g. YO, SpermCheck, to verify).",
+     "k": [
+      {
+       "n": "Pregnancy test",
+       "old": [
+        "k59"
+       ]
+      },
+      {
+       "n": "Ovulation test",
+       "old": [
+        "k60"
+       ]
+      },
+      {
+       "n": "Fertility monitor",
+       "old": [
+        "k61"
+       ]
+      },
+      {
+       "n": "Basal-body thermometer",
+       "old": [
+        "k54"
+       ]
+      },
+      {
+       "n": "Sperm test kit",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Breastfeeding",
+     "web": false,
+     "brief": "Restraint only. Merge wearable pumps in as a type. Cut the 27 pump SKUs to about 10 across Medela, Spectra, Lansinoh, Elvie, Willow, Philips Avent and Tommee Tippee, plus Which? or test winners. Keep the baby tag on all kinds.",
+     "k": [
+      {
+       "n": "Breast pump",
+       "old": [
+        "k91",
+        "k92"
+       ],
+       "brief": "Types: manual, single electric, double electric, wearable."
+      },
+      {
+       "n": "Nursing pad",
+       "old": [
+        "k93"
+       ]
+      },
+      {
+       "n": "Milk collector",
+       "old": [
+        "k95"
+       ]
+      },
+      {
+       "n": "Nipple cream",
+       "old": [
+        "k94"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Intimate health devices",
+     "web": false,
+     "brief": "Restraint only. Keep devices sold with a stated medical purpose; recreational equivalents live in H3. Cut the Pos-T-Vac lists to 2–3.",
+     "k": [
+      {
+       "n": "Pelvic-floor trainer",
+       "old": [
+        "k86"
+       ]
+      },
+      {
+       "n": "Vaginal dilator",
+       "old": [
+        "k89"
+       ]
+      },
+      {
+       "n": "Vacuum erection device",
+       "old": [
+        "k87"
+       ]
+      },
+      {
+       "n": "Erection ring",
+       "old": [
+        "k88"
+       ]
+      },
+      {
+       "n": "Penile traction device",
+       "old": [
+        "k90"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [
+  {
+   "old": "k28",
+   "to": "J8",
+   "dept": "Snacks (protein & sports snacks)"
+  },
+  {
+   "old": "k29",
+   "to": "J8",
+   "dept": "Snacks (protein & sports snacks)"
+  },
+  {
+   "old": "k147",
+   "to": "A4",
+   "dept": "Eyewear"
+  },
+  {
+   "old": "k148",
+   "to": "A4",
+   "dept": "Eyewear"
+  },
+  {
+   "old": "k149",
+   "to": "A4",
+   "dept": "Eyewear"
+  },
+  {
+   "old": "k146",
+   "to": "A4",
+   "dept": "Eyewear"
+  },
+  {
+   "old": "k113",
+   "to": "G3",
+   "dept": "Structure & circulation"
+  }
+ ],
+ "drop": [
+  {
+   "old": "k137",
+   "why": "Clinic furniture: institutional equipment, out of scope."
+  },
+  {
+   "old": "k138",
+   "why": "Clinic treatment couch: institutional equipment, out of scope."
+  },
+  {
+   "old": "k139",
+   "why": "Dental chair: trade equipment, out of scope."
+  }
+ ]
+}
