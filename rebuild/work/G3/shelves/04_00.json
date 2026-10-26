@@ -1,0 +1,891 @@
+{
+ "kinds": [
+  {
+   "n": "Home automation system",
+   "a": "Smart home system · domotics · whole-home control",
+   "d": "Central controller and software that runs a home's lighting, climate, shading, media and security from keypads, touch panels and apps.",
+   "t": [
+    "wired bus",
+    "wireless",
+    "hybrid",
+    "professionally installed",
+    "DIY hub",
+    "Zigbee",
+    "Z-Wave",
+    "Matter / Thread"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Home_automation",
+   "x": [
+    {
+     "n": "KNX",
+     "a": "",
+     "d": "Open, royalty-free building-automation standard for lighting, blinds, HVAC and security, run by the KNX Association.",
+     "mk": "",
+     "y": "1999 (KNX Association)",
+     "s": "https://en.wikipedia.org/wiki/KNX",
+     "v": [
+      {
+       "n": "European Installation Bus (EIB / Instabus)",
+       "mk": "",
+       "y": "",
+       "d": "predecessor standard"
+      },
+      {
+       "n": "BatiBUS",
+       "mk": "",
+       "y": "",
+       "d": "predecessor standard"
+      },
+      {
+       "n": "European Home Systems (EHS)",
+       "mk": "",
+       "y": "",
+       "d": "predecessor standard"
+      }
+     ],
+     "dt": "medium: twisted pair (TP1), powerline, KNX-RF 868 MHz, KNXnet/IP · ISO/IEC 14543-3, EN 50090"
+    },
+    {
+     "n": "X10",
+     "a": "",
+     "d": "Early home-automation protocol sending control signals over household wiring.",
+     "mk": "",
+     "y": "1975",
+     "s": "https://en.wikipedia.org/wiki/Home_automation",
+     "v": [],
+     "dt": "powerline · plug-in and wall modules"
+    },
+    {
+     "n": "Crestron Home",
+     "a": "",
+     "d": "Crestron's residential control platform and operating system (Crestron Home OS) for whole-home automation.",
+     "mk": "Crestron",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Crestron_Electronics",
+     "v": [],
+     "dt": "touch panels, keypads, remotes · voice: Alexa, Siri, Google Home"
+    },
+    {
+     "n": "Control4 Smart Home OS",
+     "a": "",
+     "d": "Control4's controller-based whole-home platform for dealer-installed systems.",
+     "mk": "Control4",
+     "y": "2005 (first products)",
+     "s": "https://en.wikipedia.org/wiki/Control4",
+     "v": [
+      {
+       "n": "Media Controller",
+       "mk": "Control4",
+       "y": "2005",
+       "d": "first product line"
+      },
+      {
+       "n": "Smart Home OS 3",
+       "mk": "Control4",
+       "y": "2019",
+       "d": "current OS generation"
+      },
+      {
+       "n": "CA-1 controller",
+       "mk": "Control4",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "EA-series controllers",
+       "mk": "Control4",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "controllers · touch screens · Neeo remote (acquired 2019)"
+    },
+    {
+     "n": "Savant",
+     "a": "",
+     "d": "Luxury home-automation platform with host controller, touchscreen remote and app.",
+     "mk": "Savant",
+     "y": "2005",
+     "s": "https://smarthomeworks.com.au/2020/05/06/everything-you-need-to-know-about-savant-home-automation/",
+     "v": [
+      {
+       "n": "Savant Remote",
+       "mk": "Savant",
+       "y": "2016",
+       "d": "more affordable remote and hub version"
+      }
+     ],
+     "dt": "host · touchscreen remote · lamp control · app"
+    },
+    {
+     "n": "Loxone Miniserver",
+     "a": "",
+     "d": "Central PLC-style controller running lighting, shading, climate, access and energy in a Loxone home.",
+     "mk": "Loxone",
+     "y": "",
+     "s": "https://www.loxone.com/enus/products/miniserver/",
+     "v": [
+      {
+       "n": "Miniserver",
+       "mk": "Loxone",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Miniserver Compact",
+       "mk": "Loxone",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Miniserver Go",
+       "mk": "Loxone",
+       "y": "",
+       "d": "wireless-oriented"
+      }
+     ],
+     "dt": "runs locally without cloud · extensions"
+    }
+   ]
+  },
+  {
+   "n": "Lighting control system",
+   "a": "Whole-home dimming · scene control",
+   "d": "Network of dimmers, keypads and a processor that sets lighting scenes across rooms, often with shades.",
+   "t": [
+    "wired",
+    "RF wireless",
+    "DIY",
+    "pro-installed",
+    "keypad finishes"
+   ],
+   "s": "https://support.lutron.com/us/en/product/radiora3/article/system-design-setup/Which-Lutron-Residential-System-is-Best-for-Me",
+   "x": [
+    {
+     "n": "HomeWorks",
+     "a": "",
+     "d": "Lutron's top residential system: wired and wireless, up to 10,000 zones, pro-installed and programmed.",
+     "mk": "Lutron",
+     "y": "",
+     "s": "https://support.lutron.com/us/en/product/radiora3/article/system-design-setup/Which-Lutron-Residential-System-is-Best-for-Me",
+     "v": [
+      {
+       "n": "HomeWorks QSX",
+       "mk": "Lutron",
+       "y": "",
+       "d": "current generation"
+      }
+     ],
+     "dt": "keypads: Palladiom, Alisse, Signature Series, Architrave, Sunnata, seeTouch · 50+ finishes"
+    },
+    {
+     "n": "RadioRA 3",
+     "a": "",
+     "d": "Lutron's professional wireless whole-home lighting system, up to 400 devices.",
+     "mk": "Lutron",
+     "y": "",
+     "s": "https://support.lutron.com/us/en/product/radiora3/article/system-design-setup/Which-Lutron-Residential-System-is-Best-for-Me",
+     "v": [],
+     "dt": "keypads and dimmers: Sunnata RF, Maestro RF, seeTouch · 20+ colours"
+    },
+    {
+     "n": "Caséta",
+     "a": "",
+     "d": "Lutron's DIY smart dimmer and switch system with hub and Pico remotes, up to 75 devices.",
+     "mk": "Lutron",
+     "y": "",
+     "s": "https://support.lutron.com/us/en/product/radiora3/article/system-design-setup/Which-Lutron-Residential-System-is-Best-for-Me",
+     "v": [
+      {
+       "n": "Caséta Original",
+       "mk": "Lutron",
+       "y": "",
+       "d": "push-button"
+      },
+      {
+       "n": "Smart Diva",
+       "mk": "Lutron",
+       "y": "",
+       "d": "paddle"
+      },
+      {
+       "n": "Smart Claro",
+       "mk": "Lutron",
+       "y": "",
+       "d": "paddle"
+      }
+     ],
+     "dt": "Pico remote · fan control · 6 colours"
+    },
+    {
+     "n": "Palladiom keypad",
+     "a": "",
+     "d": "Lutron's architectural keypad in metal, glass or polymer for HomeWorks.",
+     "mk": "Lutron",
+     "y": "",
+     "s": "https://www.lutron.com/us/en/window-treatments/palladiom",
+     "v": [],
+     "dt": "stainless steel, glass, polymer · Signature Metals finishes (Matte Graphite, Champagne)"
+    }
+   ]
+  },
+  {
+   "n": "Motorised blinds and shading",
+   "a": "Motorised shades · automated blinds",
+   "d": "Blinds, shades or curtains moved by a motor, run from switches, remotes or a home-control system.",
+   "t": [
+    "roller shade",
+    "roman shade",
+    "drapery",
+    "wood blind",
+    "tensioned shade",
+    "wired",
+    "battery / wire-free"
+   ],
+   "s": "https://www.lutron.com/us/en/window-treatments/sivoia-shades",
+   "x": [
+    {
+     "n": "Sivoia QS",
+     "a": "",
+     "d": "Lutron's customisable motorised shade, blind and drapery line for homes and commercial use.",
+     "mk": "Lutron",
+     "y": "",
+     "s": "https://www.lutron.com/us/en/window-treatments/sivoia-shades",
+     "v": [],
+     "dt": "widths 20 in–20 ft · roller, roman, drapery, wood blinds, tensioned · QS wired or Clear Connect wireless; sister lines Serena, Triathlon"
+    },
+    {
+     "n": "Palladiom shades",
+     "a": "",
+     "d": "Lutron's premium roller shades and drapery with milled aluminium or brass brackets.",
+     "mk": "Lutron",
+     "y": "",
+     "s": "https://www.lutron.com/us/en/window-treatments/palladiom",
+     "v": [
+      {
+       "n": "Palladiom Wired Roller Shade",
+       "mk": "Lutron",
+       "y": "",
+       "d": "new construction"
+      },
+      {
+       "n": "Palladiom Wire-Free Roller Shade",
+       "mk": "Lutron",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Palladiom Drapery",
+       "mk": "Lutron",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "brackets and hembars: aluminium, brass · finishes incl. Aged Bronze"
+    },
+    {
+     "n": "Somfy drives",
+     "a": "",
+     "d": "French motors and controls for blinds, awnings, shutters, gates and garage doors.",
+     "mk": "Somfy",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Somfy",
+     "v": [],
+     "dt": "blinds, awnings, gates, garage doors"
+    }
+   ]
+  },
+  {
+   "n": "Thermostat",
+   "a": "Room thermostat · smart thermostat",
+   "d": "Device that switches heating or cooling on and off to hold a set temperature; smart or plain, and smart radiator heads are included.",
+   "t": [
+    "mechanical",
+    "programmable",
+    "smart / learning",
+    "smart radiator thermostat",
+    "wired",
+    "wireless"
+   ],
+   "s": "https://shop.tado.com/en",
+   "x": [
+    {
+     "n": "Honeywell T87",
+     "a": "",
+     "d": "Round dial wall thermostat designed by Henry Dreyfuss from a concept by Carl Kronmiller.",
+     "mk": "Honeywell",
+     "y": "1953",
+     "s": "https://en.wikipedia.org/wiki/Honeywell_T87",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Nest Learning Thermostat",
+     "a": "",
+     "d": "Learning smart thermostat with rotating ring, designed by Tony Fadell, Ben Filson and Fred Bould.",
+     "mk": "Google Nest",
+     "y": "2011",
+     "s": "https://en.wikipedia.org/wiki/Nest_Learning_Thermostat",
+     "v": [
+      {
+       "n": "1st generation",
+       "mk": "Nest Labs",
+       "y": "2011",
+       "d": ""
+      },
+      {
+       "n": "2nd generation",
+       "mk": "Nest Labs",
+       "y": "2012",
+       "d": ""
+      },
+      {
+       "n": "3rd generation",
+       "mk": "Nest Labs",
+       "y": "2015",
+       "d": ""
+      },
+      {
+       "n": "Nest Thermostat E",
+       "mk": "Google Nest",
+       "y": "2017",
+       "d": "lower-cost version"
+      },
+      {
+       "n": "Nest Thermostat",
+       "mk": "Google Nest",
+       "y": "2020",
+       "d": "touch strip instead of ring; model G4CVZ"
+      },
+      {
+       "n": "4th generation",
+       "mk": "Google Nest",
+       "y": "2024",
+       "d": ""
+      }
+     ],
+     "dt": "ring finishes · wired"
+    },
+    {
+     "n": "ecobee Smart Thermostat",
+     "a": "",
+     "d": "Canadian Wi-Fi smart thermostat family, the first released in 2008.",
+     "mk": "ecobee",
+     "y": "2008",
+     "s": "https://en.wikipedia.org/wiki/Ecobee",
+     "v": [
+      {
+       "n": "Smart",
+       "mk": "ecobee",
+       "y": "2008",
+       "d": "first model"
+      },
+      {
+       "n": "Smart Si",
+       "mk": "ecobee",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "ecobee3",
+       "mk": "ecobee",
+       "y": "",
+       "d": "1st and 2nd generation"
+      },
+      {
+       "n": "ecobee3 lite",
+       "mk": "ecobee",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "ecobee4",
+       "mk": "ecobee",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Smart Thermostat with Voice Control",
+       "mk": "ecobee",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Smart Thermostat Enhanced",
+       "mk": "ecobee",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Smart Thermostat Premium",
+       "mk": "ecobee",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Smart Thermostat Essential",
+       "mk": "ecobee",
+       "y": "2025",
+       "d": ""
+      }
+     ],
+     "dt": "room sensors · voice assistant"
+    },
+    {
+     "n": "tado Smart Thermostat X",
+     "a": "",
+     "d": "tado's DIY smart heating control, with matching smart radiator thermostats.",
+     "mk": "tado",
+     "y": "",
+     "s": "https://www.tado.com/",
+     "v": [
+      {
+       "n": "Wired Smart Thermostat X",
+       "mk": "tado",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Wireless Smart Thermostat X",
+       "mk": "tado",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Smart Radiator Thermostat X",
+       "mk": "tado",
+       "y": "",
+       "d": "radiator head"
+      }
+     ],
+     "dt": "boilers, underfloor heating, heat pumps, air conditioning"
+    }
+   ],
+   "m": [
+    [
+     "Thermostatkopf H",
+     "Herz"
+    ]
+   ]
+  },
+  {
+   "n": "Energy monitor",
+   "a": "Energy meter · home energy monitor",
+   "d": "Device that measures and shows a home's electricity use or generation.",
+   "t": [
+    "clamp-on sensor",
+    "meter-reading sensor",
+    "smart-meter in-home display",
+    "plug-in monitor",
+    "solar / battery (DC) monitor"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Home_energy_monitor",
+   "m": [
+    [
+     "e2",
+     "Efergy"
+    ],
+    [
+     "PowerCost Monitor",
+     ""
+    ],
+    [
+     "FLEXnet DC",
+     "OutBack Power"
+    ],
+    [
+     "TriMetric 2030",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "Intruder alarm system",
+   "a": "burglar alarm system · security alarm",
+   "d": "Control panel, sensors, keypad and siren that detect break-ins; also listed under Home Safety & Security.",
+   "t": [
+    "wired",
+    "wireless",
+    "local (bells only)",
+    "remote monitored",
+    "self-monitored app"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Security_alarm",
+   "x": [
+    {
+     "n": "SimpliSafe",
+     "a": "",
+     "d": "Self-installed wireless alarm system with base station and keypad, launched as a DIY system.",
+     "mk": "SimpliSafe",
+     "y": "2009",
+     "s": "https://en.wikipedia.org/wiki/SimpliSafe",
+     "v": [
+      {
+       "n": "Third generation",
+       "mk": "SimpliSafe",
+       "y": "2018",
+       "d": "cellular and Wi-Fi, lithium batteries"
+      }
+     ],
+     "dt": "base station · keypad · sensors · cameras"
+    },
+    {
+     "n": "Ring Alarm",
+     "a": "",
+     "d": "Ring's DIY wireless alarm system linked to its app and doorbells.",
+     "mk": "Ring",
+     "y": "2018",
+     "s": "https://en.wikipedia.org/wiki/Ring_(company)",
+     "v": [
+      {
+       "n": "Ring Alarm Pro",
+       "mk": "Ring",
+       "y": "2021",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Wireless Alarm Kit 2",
+     "Swann"
+    ]
+   ]
+  },
+  {
+   "n": "Door phone and video intercom",
+   "a": "Door phone · video door entry · video doorbell",
+   "d": "An entry panel with speaker (and screen) linked to an indoor unit or phone for speaking to a caller.",
+   "t": [
+    "audio door phone",
+    "two-wire video",
+    "IP video intercom",
+    "smart video doorbell",
+    "multi-apartment panel"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Video_door-phone",
+   "x": [
+    {
+     "n": "Ring Video Doorbell",
+     "a": "Doorbot",
+     "d": "Wi-Fi video doorbell that alerts a phone and lets the owner see and talk to callers; one of the first smart doorbells.",
+     "mk": "Ring",
+     "y": "2013",
+     "s": "https://en.wikipedia.org/wiki/Smart_doorbell",
+     "v": [
+      {
+       "n": "Ring Video Doorbell",
+       "mk": "Ring",
+       "y": "2013",
+       "d": "original"
+      },
+      {
+       "n": "Ring Doorbell 2",
+       "mk": "Ring",
+       "y": "2017",
+       "d": "1080p camera"
+      },
+      {
+       "n": "Ring Doorbell Pro",
+       "mk": "Ring",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "2N IP Force",
+     "a": "",
+     "d": "2N's rugged IP video intercom door station.",
+     "mk": "2N",
+     "y": "",
+     "s": "https://www.2n.com/en-GB/",
+     "v": [
+      {
+       "n": "2N IP Force 2.0",
+       "mk": "2N",
+       "y": "",
+       "d": "5 MP camera, noise cancellation, QR access"
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Nest Hello",
+     "Google Nest"
+    ],
+    [
+     "DS-KIS702 Two-Wire Video Intercom Kit",
+     "Hikvision"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Crestron",
+   "c": "United States",
+   "f": "1972",
+   "seg": "Luxury home automation",
+   "d": "Control and automation maker founded by George Feldstein in New Jersey.",
+   "lines": [
+    "Crestron Home"
+   ],
+   "eras": [],
+   "sig": [
+    "Crestron Home"
+   ],
+   "sc": [],
+   "rel": [
+    "Control4",
+    "Savant"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Crestron_Electronics"
+  },
+  {
+   "n": "Control4",
+   "c": "United States",
+   "f": "2003",
+   "seg": "Home automation",
+   "d": "Utah home-automation company, now part of Resideo after the 2024 Snap One acquisition.",
+   "lines": [
+    "Smart Home OS"
+   ],
+   "eras": [
+    "Snap One, 2019–2024",
+    "Resideo, 2024–"
+   ],
+   "sig": [
+    "Control4 Smart Home OS"
+   ],
+   "sc": [],
+   "rel": [
+    "Crestron",
+    "Savant"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Control4"
+  },
+  {
+   "n": "Savant",
+   "c": "United States",
+   "f": "2005",
+   "seg": "Luxury home automation",
+   "d": "Home-automation firm founded by Robert Madonna, first at the luxury end.",
+   "lines": [
+    "Savant Remote"
+   ],
+   "eras": [],
+   "sig": [
+    "Savant"
+   ],
+   "sc": [],
+   "rel": [
+    "Crestron",
+    "Control4"
+   ],
+   "s": "https://smarthomeworks.com.au/2020/05/06/everything-you-need-to-know-about-savant-home-automation/"
+  },
+  {
+   "n": "Loxone",
+   "c": "",
+   "f": "",
+   "seg": "Home and building automation",
+   "d": "Maker of the Miniserver controller and its extensions for homes and buildings.",
+   "lines": [
+    "Miniserver",
+    "Miniserver Compact",
+    "Miniserver Go"
+   ],
+   "eras": [],
+   "sig": [
+    "Loxone Miniserver"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://www.loxone.com/enus/products/miniserver/"
+  },
+  {
+   "n": "Lutron",
+   "c": "United States",
+   "f": "1961",
+   "seg": "Lighting and shading control",
+   "d": "Coopersburg, Pennsylvania firm founded by Joel Spira, maker of the first successful solid-state dimmer.",
+   "lines": [
+    "HomeWorks",
+    "RadioRA 3",
+    "Caséta",
+    "Sivoia",
+    "Palladiom",
+    "Serena",
+    "Triathlon"
+   ],
+   "eras": [],
+   "sig": [
+    "HomeWorks",
+    "RadioRA 3",
+    "Caséta",
+    "Palladiom keypad",
+    "Sivoia QS"
+   ],
+   "sc": [],
+   "rel": [
+    "Somfy"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Lutron_Electronics_Company"
+  },
+  {
+   "n": "Somfy",
+   "c": "France",
+   "f": "1969",
+   "seg": "Motorised shading and access",
+   "d": "French group making drives and controls for blinds, awnings, gates and garage doors.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Somfy drives"
+   ],
+   "sc": [],
+   "rel": [
+    "Lutron"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Somfy"
+  },
+  {
+   "n": "ecobee",
+   "c": "Canada",
+   "f": "2007",
+   "seg": "Smart thermostats",
+   "d": "Toronto smart-thermostat maker, owned by Generac since 2021.",
+   "lines": [
+    "Smart Thermostat"
+   ],
+   "eras": [],
+   "sig": [
+    "ecobee Smart Thermostat"
+   ],
+   "sc": [],
+   "rel": [
+    "Google Nest",
+    "tado"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Ecobee"
+  },
+  {
+   "n": "tado",
+   "c": "",
+   "f": "2011",
+   "seg": "Smart heating",
+   "d": "Smart heating-control company selling DIY thermostats and radiator heads in Europe.",
+   "lines": [
+    "Smart Thermostat X",
+    "Smart Radiator Thermostat X"
+   ],
+   "eras": [],
+   "sig": [
+    "tado Smart Thermostat X"
+   ],
+   "sc": [],
+   "rel": [
+    "ecobee",
+    "Google Nest"
+   ],
+   "s": "https://www.tado.com/"
+  },
+  {
+   "n": "Ring",
+   "c": "United States",
+   "f": "2013",
+   "seg": "Smart doorbells and DIY security",
+   "d": "Santa Monica company founded by Jamie Siminoff as Doorbot, owned by Amazon since 2018.",
+   "lines": [
+    "Video Doorbell",
+    "Ring Alarm"
+   ],
+   "eras": [],
+   "sig": [
+    "Ring Video Doorbell",
+    "Ring Alarm"
+   ],
+   "sc": [],
+   "rel": [
+    "SimpliSafe"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Ring_(company)"
+  },
+  {
+   "n": "SimpliSafe",
+   "c": "United States",
+   "f": "2006",
+   "seg": "DIY home security",
+   "d": "Boston company that launched a self-installed home security system in 2009.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "SimpliSafe"
+   ],
+   "sc": [],
+   "rel": [
+    "Ring"
+   ],
+   "s": "https://en.wikipedia.org/wiki/SimpliSafe"
+  },
+  {
+   "n": "Yale",
+   "c": "United States",
+   "f": "1868",
+   "seg": "Locks and home security",
+   "d": "Lock maker owned by Assa Abloy, selling smart locks, cameras and burglar alarms.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Ring",
+    "SimpliSafe"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Yale_(company)"
+  },
+  {
+   "n": "2N",
+   "c": "Czech Republic",
+   "f": "",
+   "seg": "IP intercoms and access control",
+   "d": "Prague maker of IP door intercoms, indoor stations and access control.",
+   "lines": [
+    "IP Force"
+   ],
+   "eras": [],
+   "sig": [
+    "2N IP Force"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://www.2n.com/en-GB/"
+  },
+  {
+   "n": "Resideo",
+   "c": "United States",
+   "f": "2018",
+   "seg": "Home comfort and security",
+   "d": "Honeywell spin-off that sells Honeywell Home thermostats under licence and owns Control4.",
+   "lines": [
+    "Honeywell Home",
+    "First Alert"
+   ],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [
+    "Control4"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Resideo"
+  }
+ ],
+ "traditions": [],
+ "notes": "Kinds: 7 (3 new: Home automation system, Lighting control system, Motorised blinds and shading; 4 old kept). Old kinds' sources switched to retrieved reference pages except Thermostat. Intruder alarm system and Door phone/video intercom cross-link to Home Safety & Security (B8). 2N country from Wikidata label (Prague). Left out (no retrieved page confirming models): Philips Dynalite, Hive thermostat models (Hive home page names none), Honeywell T-series/Lyric Round, Yale alarm models, Somfy RTS/io/TaHoma lines, Loxone founding year/country (blog page 403), 2N founding year, other energy monitors (Sense, Emporia). Loxone/tado country left blank because the retrieved pages do not state it."
+}
