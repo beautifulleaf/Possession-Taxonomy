@@ -41,6 +41,9 @@ persian = [
       a='Arak · Ziegler',
       v=[('Ziegler & Co. manufactory', 'Ziegler & Co.', '1883', 'Western-adapted designs and colours')],
       dt='large formats · deep rose-red madder grounds'),
+    X('Mahal', 'Room-size Senneh-knotted village carpets from the Mahal region of Arak province, with large medallion and floral designs.',
+      'https://lillarugs.com/blogs/rug-origins/spotlight-persian-mahal-rugs', y='late 19th c.', a='Mahallat',
+      dt='lower knot density than city rugs · Herati or Gul Farang designs · madder and indigo'),
     X('Farahan', 'Rugs from the Arak region, distinct from Sultanabad production.', SA),
     X('Sarouk', 'Western Iranian rugs, originally with a round-star medallion; later all-over florals, often washed and repainted for export.', WD + 'Q3515506',
       a='Saruq', v=[('Original medallion Sarouk', '', '', 'round-star medallion'), ('American-market Sarouk', '', '', 'all-over floral, chemically washed, repainted pile')]),
@@ -228,7 +231,7 @@ traditions = [
 notes = ("k29 'Rug' became Persian rug; its construction types (woven pile, tufted) and Wilton/Axminster go to the machine-made shelf, not here. "
          "Old Persian names became archetypes; Usak became the Ushak archetype and Kayseri stays an Anatolian model (no source detail); Baluchi moved to the "
          "Afghan & Baluch kind. Zanjan and Mehraban kept as plain models: no retrieved page describes them. Left out for lack of a retrieved source: "
-         "Talish (Caucasian), Mahal (unless added), Amritsar and Lahore as separate archetypes (Lahore covered by Mughal carpet), Khal Mohammadi, "
+         "Talish (Caucasian), Amritsar and Lahore as separate archetypes (Lahore covered by Mughal carpet), Khal Mohammadi, "
          "Turkmen gul names (Turkmen_rug page names none), East Turkestan rugs. Versions limited to those stated on the source pages; no antique/new/"
          "reproduction split invented. Wikidata SPARQL was rate-limited.")
 notes = EXTRA.get('notes', notes)

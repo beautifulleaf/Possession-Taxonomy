@@ -69,7 +69,7 @@ kinds=[
         {"n":"Waterproof Tartan Dog Coat","mk":"Barbour","y":"","d":"fleece lining"},
         {"n":"Wool Touch Tartan Dog Coat","mk":"Barbour","y":"","d":"Berber fleece lining"}],
    "dt":"wax, quilted or waterproof · olive, navy, tartan · XS–XXL by back length · harness keyhole"},
-  {"n":"Equafleece dog suit","a":"Equafleece jumper","d":"Close-fitting polar-fleece jumper or suit for dogs, made in Devon and known for keeping coats dry and clean.","mk":"Equafleece","y":"2000s","s":EQ,
+  {"n":"Equafleece dog suit","a":"Equafleece jumper","d":"Close-fitting polar-fleece jumper or suit for dogs, made as a cottage industry in Devon.","mk":"Equafleece","y":"2000s","s":EQ,
    "v":[{"n":"Dog jumper","mk":"Equafleece","y":"2000s","d":"first product, followed by T-shirts and coats"}],
    "dt":"jumper, suit or coat · colours · breed-specific sizes"}],
  "m":[["Hurtta Expedition Parka","Hurtta"],["Ruffwear Vert Dog Winter Jacket","Ruffwear"],["Canada Pooch Snowsuit Thermal Dog Snow Jacket","Canada Pooch"],["Carhartt Firm Duck Insulated Dog Chore Coat","Carhartt"],["Danish Design 2 in 1 Ultimate Lightweight Dog Coat","Danish Design"],["Wilderdog Waterproof Raincoat","Wilderdog"],["Puppia Bylur Mock Neck Full Zip Winter Jumpsuit","Puppia"],["HUNTER Uppsala Trend Dog Coat","HUNTER International"]]},
@@ -104,7 +104,7 @@ brands=[
  {"n":"Gunner Kennels","c":"United States","seg":"crash-tested dog kennels","d":"Tennessee maker of double-walled rotomoulded travel kennels.","sig":["Gunner G1 Kennel"],"s":GU},
  {"n":"Hurtta","c":"Finland","seg":"dog outdoor clothing and gear","d":"Finnish maker of dog coats, overalls, harnesses and leads, founded by clothing-industry professionals.","s":HU},
  {"n":"Equafleece","c":"United Kingdom","seg":"fleece dog clothing","d":"Devon cottage-industry maker of polar-fleece dog jumpers, suits and coats.","sig":["Equafleece dog suit"],"s":EQ},
- {"n":"Ruffwear","c":"United States","seg":"outdoor dog gear","d":"Bend, Oregon maker of dog boots, life jackets, harnesses and coats.","sig":["Ruffwear Grip Trex","Ruffwear Float Coat"],"s":RB},
+ {"n":"Ruffwear","c":"United States","seg":"outdoor dog gear","d":"Bend, Oregon maker of dog boots, life jackets, harnesses and coats.","sig":["Ruffwear Grip Trex","Ruffwear Float Coat"],"s":"https://ruffwear.co.uk/blogs/explored/the-craftsmanship-behind-the-front-range-harness"},
  {"n":"Sleepypod","seg":"pet travel safety","d":"Maker of crash-tested pet car harnesses and carriers.","sig":["Sleepypod Clickit"],"s":SP},
  {"n":"Barbour","c":"United Kingdom","f":"1894","seg":"country clothing","d":"South Shields maker of waxed-cotton jackets whose range includes dog coats and accessories.","sig":["Barbour wax dog coat"],"s":"knowledge"},
  {"n":"Orvis","c":"United States","f":"1856","seg":"fly fishing and country goods","d":"Vermont outfitter whose dog range includes ToughChew beds.","s":"knowledge"}]
