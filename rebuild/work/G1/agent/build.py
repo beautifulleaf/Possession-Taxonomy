@@ -1,125 +1,42 @@
-import json, os
-W='https://en.wikipedia.org/wiki/'
-def X(n,mk,y,page,d,a='',v=None,dt=''):
-    return {"n":n,"a":a,"d":d,"mk":mk,"y":y,"s":W+page,"v":v or [],"dt":dt}
-def V(n,mk,y,d=''): return {"n":n,"mk":mk,"y":y,"d":d}
-PT=["petrol","diesel","hybrid","plug-in hybrid","battery electric"]
-OLD='https://www.carsupermarket.com/used-cars/body-type'
+import json,os
+PPE="https://en.wikipedia.org/wiki/Motorcycle_personal_protective_equipment"
+DA="https://en.wikipedia.org/wiki/Dainese"; AL="https://en.wikipedia.org/wiki/Alpinestars"
+KL="https://www.webbikeworld.com/klim-badlands-pro-jacket-review/"
+RV="https://www.sportsbikeshop.co.uk/motorcycle_parts/content_prod/512510"
+HE="https://www.mcnews.com.au/helite-turtle-2-air-bag-vest-flexible-air-bag-protection/"
+TA="https://ultimatemotorcycling.com/2020/06/02/alpinestars-tech-air-5-airbag-system-review-safety-for-all/"
+CA="https://newatlas.com/motorcycles/cardo-packtalk-edge-review/"; SE="https://www.sena.com/product/50s"
 kinds=[
-{"n":"Hatchback","a":"liftback · supermini · small family car","d":"Passenger car whose rear door is a top-hinged tailgate opening onto the load space.",
- "t":["three-door","five-door","supermini (B-segment)","small family (C-segment)"]+PT,"s":OLD,
- "x":[
-  X("Renault 4","Renault","1961–1994","Renault_4","Economy car recognised as the world's first mass-produced hatchback, with front-wheel drive and a one-piece tailgate.",a="R4 · 4L",dt="body: short hatchback/estate · engine size · colour"),
-  X("Volkswagen Golf","Volkswagen","1974–","Volkswagen_Golf","Front-engined, front-wheel-drive C-segment hatchback that replaced the Beetle; Volkswagen's bestseller over eight generations.",a="Rabbit · Caribe",
-    v=[V("Golf Mk1","Volkswagen","1974","Italdesign styling by Giugiaro; sold as Rabbit in North America"),V("Golf Mk2","Volkswagen","1983–1992","larger successor"),
-       V("Golf Mk3","Volkswagen","1991","launched in mainland Europe August 1991"),V("Golf Mk4","Volkswagen","1997","Type 1J; moved upmarket"),
-       V("Golf Mk5","Volkswagen","2003","Typ 1K; PQ35 platform"),V("Golf Mk6","Volkswagen","2008","Typ 5K"),V("Golf Mk7","Volkswagen","2012","hatchback, estate"),V("Golf Mk8","Volkswagen","2019","MQB Evo platform")],
-    dt="three/five-door · estate · trim and engine · colour"),
-  X("Renault 5","Renault","1972–1996","Renault_5","Three- or five-door supermini hatchback, sold in North America as Le Car.",a="R5 · Le Car · Supercinq",
-    v=[V("first generation (R5)","Renault","1972–1985","front mid-engine"),V("second generation (Super 5)","Renault","1984–1996","front engine")],dt="three/five-door · trim · colour"),
-  X("Ford Fiesta","Ford","1976–2023","Ford_Fiesta","Supermini sold by Ford over seven generations, mainly developed in Europe.",dt="three/five-door · trim · engine"),
-  X("Peugeot 205","Peugeot","1983–1999","Peugeot_205","Single-generation supermini that replaced the Peugeot 104 and Talbot Samba.",dt="three/five-door · trim · engine"),
-  X("Honda Civic","Honda","1972–","Honda_Civic","Compact car line launched as a two-door fastback and three-door hatchback with a transverse engine and front-wheel drive.",dt="body · generation · trim"),
-  X("Mazda2","Mazda","2002–","Mazda2","Supermini sold as a five-door hatchback and saloon, known in Japan as the Demio.",a="Demio · Mazda 121",v=[V("2 Hybrid","Mazda","","model listed in the old data")],dt="generation · hybrid or petrol"),
-  X("Nissan Leaf","Nissan","2010–","Nissan_Leaf","Battery-electric five-door hatchback, unveiled as the first mass-market electric car.",dt="battery size · generation"),
-  X("Volkswagen ID.3","Volkswagen","2019–","Volkswagen_ID.3","Battery-electric C-segment hatchback, the first Volkswagen Group car on the MEB platform.",dt="battery size · trim"),
- ]},
-{"n":"Saloon","a":"sedan · three-box · notchback","d":"Passenger car with a separate boot behind a fixed roof over two rows of seats.",
- "t":["two-door saloon","four-door saloon","fastback saloon","four-door coupé","compact executive","large family (D-segment)"]+PT,"s":OLD,
- "x":[
-  X("Toyota Corolla","Toyota","1966–","Toyota_Corolla","Compact car series that is the best-selling automobile nameplate of all time, over twelve generations.",
-    v=[V("Corolla E210","Toyota","2018","twelfth generation; saloon, hatchback and estate; GR Corolla from 2022")],dt="generation · body · hybrid or petrol"),
-  X("Mercedes-Benz W123","Mercedes-Benz","1975–1986","Mercedes-Benz_W123","Executive car range sold as saloon, coupé and estate, the most successful Mercedes-Benz of its time.",dt="saloon · coupé · estate · diesel or petrol"),
-  X("BMW 3 Series","BMW","1975–","BMW_3_Series","Compact executive car line over eight generations, first sold only as a two-door saloon.",dt="saloon · coupé · convertible · estate · generation"),
-  X("Ford Cortina","Ford","1962–1982","Ford_Cortina","Medium-sized family car in five marks, the United Kingdom's best-selling car of the 1970s.",a="Mark I–V",dt="mark · body · trim"),
-  X("Toyota Camry","Toyota","1982–","Toyota_Camry","Mid-size saloon line, originally compact, sold internationally since 1982.",dt="generation · hybrid or petrol"),
-  X("Honda Accord","Honda","1976–","Honda_Accord","Car series best known as a four-door saloon, among the best-selling cars in the United States.",a="Inspire",dt="generation · body"),
-  X("Mercedes-Benz C-Class","Mercedes-Benz","1993–","Mercedes-Benz_C-Class","Compact executive car series that replaced the 190 (W201).",v=[V("W204","Mercedes-Benz","2007","third generation"),V("W206","Mercedes-Benz","2021","current generation")],dt="saloon · estate · 4MATIC"),
-  X("Tesla Model 3","Tesla","2017–","Tesla_Model_3","Battery-electric mid-size fastback saloon, the world's top-selling plug-in car 2018–2020.",dt="battery and motor configuration"),
-  X("Volkswagen Beetle","Volkswagen","1938–2003","Volkswagen_Beetle","Rear-engined small family car (Type 1), the best-selling single-platform car in history.",a="Type 1 · Käfer · Bug",dt="year and window shape · engine size · colour"),
- ],
- "m":[["A-Class Saloon","Mercedes-Benz"],["CLA","Mercedes-Benz"]]},
-{"n":"Estate","a":"station wagon · wagon · touring · avant","d":"Passenger car with the roof carried back to the rear and a tailgate over a long load space.",
- "t":["compact estate","large estate","shooting brake","raised all-terrain estate"]+PT,"s":OLD,
- "x":[
-  X("Volvo 200 Series","Volvo","1974–1993","Volvo_200_Series","Mid-size Volvo range (240 and 260) designed by Jan Wilsgaard, sold as saloon, estate and convertible.",a="Volvo 240 · 245 · 260",dt="saloon or estate · engine · trim"),
-  X("Mercedes-Benz W123 estate","Mercedes-Benz","1975–1986","Mercedes-Benz_W123","Estate version of the W123 executive range, built until January 1986.",dt="diesel or petrol · trim"),
-  X("Volkswagen Passat","Volkswagen","1973–","Volkswagen_Passat","D-segment family car sold as saloon, estate and hatchback, the fourth best-selling automobile of all time.",a="Dasher · Santana · Quantum",dt="generation · saloon or estate"),
-  X("Škoda Octavia","Škoda","1996–","%C5%A0koda_Octavia","C-segment family car sold only as five-door liftback or estate, Škoda's best seller.",dt="generation · liftback or estate · 4x4"),
-  X("Subaru Outback","Subaru","1994–","Subaru_Outback","Legacy-derived estate with off-road styling and all-wheel drive.",a="Legacy Outback",dt="generation · engine"),
- ]},
-{"n":"SUV","a":"sport utility vehicle · crossover · 4x4","d":"Passenger car with a tall body, raised ground clearance and often four-wheel drive.",
- "t":["crossover","compact SUV","mid-size SUV","full-size SUV","two-wheel drive","four-wheel drive"]+PT,"s":OLD,
- "x":[
-  X("Chevrolet Suburban","Chevrolet","1934–","Chevrolet_Suburban","Full-size SUV and the world's longest-produced nameplate, progenitor of the modern full-size SUV.",dt="generation · seating"),
-  X("Range Rover","Land Rover","1970–","Range_Rover_Classic","Four-wheel-drive off-road vehicle that moved upmarket in the 1980s.",
-    v=[V("Range Rover Classic","Land Rover","1970–1996","two-door, four-door from 1981"),V("Range Rover L322","Land Rover","2001–2012","third generation; first with unitary body and independent suspension")],dt="two/four-door · engine · trim"),
-  X("Jeep Cherokee XJ","Jeep","1983–2001","Jeep_Cherokee_(XJ)","Compact unibody SUV developed by AMC, sold in two- or four-door form.",dt="two/four-door · 2WD or 4WD"),
-  X("Toyota RAV4","Toyota","","Toyota_RAV4","Compact crossover often credited as the first modern compact crossover SUV; the best-selling SUV of all time.",dt="generation · hybrid or petrol"),
-  X("Honda CR-V","Honda","1995–","Honda_CR-V","Compact crossover SUV first built on the Civic platform.",a="Breeze",dt="generation · hybrid"),
-  X("Nissan Qashqai","Nissan","2006–","Nissan_Qashqai","Compact C-segment SUV, sold first as the Dualis in Japan and Australia.",a="Dualis",dt="generation · engine"),
-  X("Audi Q7","Audi","2005–","Audi_Q7","Two- and three-row E-segment SUV, Audi's first SUV.",dt="generation · engine · seating"),
-  X("Tesla Model Y","Tesla","2020–","Tesla_Model_Y","Battery-electric compact crossover, the best-selling electric vehicle of all time.",dt="battery and motor configuration"),
- ]},
-{"n":"MPV","a":"minivan · people carrier · multi-purpose vehicle","d":"Passenger car with a tall one-box body and up to three rows of seats where the load space would be.",
- "t":["compact MPV","large MPV","sliding side doors","seven-seat","eight-seat"]+PT,"s":OLD,
- "x":[
-  X("Renault Espace","Renault","1984–","Renault_Espace","Among the first modern MPVs; first three generations built by Matra, sixth generation a crossover.",dt="generation · seating"),
-  X("Chrysler minivans","Chrysler","1984–","Chrysler_minivans","Minivan series introduced as the Dodge Caravan and Plymouth Voyager, now in its sixth generation.",a="Dodge Caravan · Plymouth Voyager · Town & Country · Pacifica",dt="generation · nameplate · wheelbase"),
-  X("Mercedes-Benz V-Class","Mercedes-Benz","","Mercedes-Benz_Vito","Passenger MPV form of the mid-size Vito van, up to eight seats.",a="Vito Tourer · Viano",v=[V("Viano","Mercedes-Benz","","model listed in the old data"),V("V-Class","Mercedes-Benz","","model listed in the old data"),V("EQV","Mercedes-Benz","","electric; model listed in the old data")],dt="wheelbase · seating · electric or diesel"),
-  X("Kia Carnival","Kia","1998–","Kia_Carnival","Minivan sold as the Sedona in North America, with short and long wheelbases from the second generation.",a="Sedona",dt="generation · wheelbase"),
-  X("Toyota Alphard","Toyota","2002–","Toyota_Alphard","Large seven- or eight-seat MPV and Toyota's flagship people carrier, hybrid since 2003.",dt="generation · hybrid or petrol · seating"),
- ],
- "m":[["X9","XPENG"]]},
-{"n":"City car","a":"A-segment · minicar","d":"Smallest class of full-size passenger car, built for town driving and parking.",
- "t":["two-seat","four-seat","three-door","five-door"]+PT,"s":W+"A-segment",
- "x":[
-  X("Citroën 2CV","Citroën","1948–1990","Citro%C3%ABn_2CV","Air-cooled, front-wheel-drive French economy car conceived to motorise rural France.",a="deux chevaux",dt="engine size · colour · special editions"),
-  X("Fiat 500","Fiat","1957–1975","Fiat_500","Inexpensive two-door rear-engined city car, launched as the Nuova 500.",a="Nuova 500 · Cinquecento · Bambino",
-    v=[V("Fiat 500 (2007)","Fiat","2007","retro A-segment city car, Type 312; hatchback and convertible")],dt="saloon or semi-convertible · colour"),
-  X("Mini","BMC","1959–2000","Mini","Two-door, four-seat small car built by BMC and successors over a single generation.",a="Austin Seven · Morris Mini-Minor",
-    v=[V("Mini Hatch (new Mini)","Mini","2001","retro-styled BMW-era supermini, four generations")],dt="saloon · estate · Cooper · colour"),
-  X("Fiat Panda","Fiat","1980–","Fiat_Panda","City car launched as a two-box three-door hatchback designed by Giugiaro and Mantovani.",
-    v=[V("first generation","Fiat","1980–2003","4x4 from 1983"),V("second generation","Fiat","2003","five-door, Bertone design")],dt="generation · 4x4"),
-  X("Renault Twingo","Renault","1992–2024","Renault_Twingo","City car made across three generations.",dt="generation · colour"),
-  X("Smart Fortwo","Smart","1998–2024","Smart_Fortwo","Two-seat rear-engined city car from Mercedes-Benz and Swatch.",dt="generation · coupé or cabrio · electric"),
-  X("Toyota Aygo","Toyota","2005–2022","Toyota_Aygo","A-segment city car built alongside the Citroën C1 and Peugeot 107/108 in Kolín.",dt="generation · three/five-door"),
-  X("Volkswagen Up","Volkswagen","2011–2023","Volkswagen_Up","City car rebadged as the SEAT Mii and Škoda Citigo.",a="up! · SEAT Mii · Škoda Citigo",dt="three/five-door · e-up!"),
- ]},
-]
-def B(n,c,f,seg,d,sig): return {"n":n,"c":c,"f":f,"seg":seg,"d":d,"lines":[],"eras":[],"sig":sig,"sc":[],"rel":[],"s":"knowledge"}
+{"n":"Textile riding suit","a":"textile motorcycle jacket and trousers · adventure suit · touring suit · Cordura suit","d":"Motorcycle jacket and trousers or one-piece suit in abrasion-resistant technical fabric, with armour pockets and usually a waterproof membrane.","t":["adventure","touring","urban","one-piece","two-piece","laminated waterproof","drop-liner waterproof","CE class A · AA · AAA"],"s":PPE,
+ "x":[{"n":"Klim Badlands Pro","a":"","d":"Klim's flagship Gore-Tex Pro adventure-touring jacket and trousers with Cordura and Kevlar wear panels and d3O armour.","mk":"Klim","y":"2011","s":KL,"v":[{"n":"Badlands Pro (first version)","mk":"Klim","y":"2011","d":"Gore-Tex 3-layer Pro shell, d3O Viper Pro Level 2 back protector"}],"dt":"jacket · trousers · Gore-Tex Pro shell · armour level · colourways"},
+      {"n":"REV'IT! Sand","a":"Sand H2O","d":"REV'IT!'s long-running mid-price adventure textile jacket and trousers with a removable waterproof liner.","mk":"REV'IT!","y":"","s":RV,"v":[{"n":"Sand 3","mk":"REV'IT!","y":"","d":"predecessor"},{"n":"Sand 4 H2O","mk":"REV'IT!","y":"","d":"Hydratex liner, Seeflex CE level 2 shoulder/elbow armour, class AA"},{"n":"Sand 5","mk":"REV'IT!","y":"","d":"successor"}],"dt":"jacket · trousers · men's and women's cuts · colourways"}],
+ "m":[["Latitude","Klim"],["Adventure Rally","Klim"]]},
+{"n":"Leather race suit","a":"race leathers · track leathers · one-piece leathers · two-piece leathers","d":"Close-fitting motorcycle suit of cowhide or kangaroo leather with armour and sliders, built for track and fast road riding.","t":["one-piece","two-piece zip-together","cowhide","kangaroo leather","airbag-ready","made-to-measure"],"s":PPE,
+ "x":[{"n":"One-piece racing leathers","a":"one-piece suit","d":"Form-fitting single-piece leather suit for racing, first commissioned in the late 1940s.","mk":"","y":"c. 1948","s":PPE,"v":[{"n":"Velocette one-piece suit","mk":"Velocette","y":"c. 1948","d":"early commissioned form-fitting suit"},{"n":"Harro suit for Anke-Eve Goldmann","mk":"Harro","y":"by 1955","d":"early one-piece suit"}],"dt":"leather type · armour and sliders · hump · airbag system · made-to-measure or stock"},
+      {"n":"Dainese Mugello R","a":"","d":"Dainese one-piece leather race suit that won design awards in 2017.","mk":"Dainese","y":"2017","s":DA,"v":[],"dt":"leather · colourways · D-air ready versions"}],
+ "m":[["T-Age suit","Dainese"]]},
+{"n":"Motorcycle gloves","a":"riding gloves · race gauntlets · summer gloves","d":"Gloves made for riding, with reinforced palms, knuckle armour on better models and certification to EN 13594.","t":["race gauntlet","sport short-cuff","summer mesh","touring waterproof","adventure","heated","EN 13594 Level 1 · Level 2"],"s":PPE,
+ "x":[{"n":"Alpinestars GP Plus R","a":"","d":"Alpinestars leather sport-riding gauntlet, a reviewers' favourite and MotoCAP five-star rated in its second version.","mk":"Alpinestars","y":"","s":AL,"v":[{"n":"GP Plus R V2","mk":"Alpinestars","y":"","d":"praised by Bennetts"},{"n":"GP Plus R2","mk":"Alpinestars","y":"","d":"first glove to earn a 5-star MotoCAP rating"}],"dt":"leather · knuckle protector · colourways · sizes"}]},
+{"n":"Motorcycle airbag vest","a":"airbag jacket · air vest · rider airbag","d":"Vest or jacket with an airbag that inflates in a crash to protect the neck, torso and back; tethered-mechanical or electronic.","t":["tethered mechanical","electronic standalone","integrated in jacket","integrated in race suit","over-jacket vest","under-jacket vest"],"s":PPE,
+ "x":[{"n":"Dainese D-air","a":"","d":"Dainese's electronic motorcycle airbag, developed from 1995 and first fired in an official race in 2007.","mk":"Dainese","y":"2007","s":DA,"v":[{"n":"D-air prototype","mk":"Dainese","y":"2000","d":"first working prototype tested on track"},{"n":"D-air Racing","mk":"Dainese","y":"2011","d":"racing version launched"},{"n":"Misano 1000 D-air Street","mk":"Dainese","y":"2015","d":"first standalone road jacket with D-air"}],"dt":"race suit · road jacket · standalone vest · coverage"},
+      {"n":"Alpinestars Tech-Air","a":"","d":"Alpinestars's electronic airbag system, used in MotoGP and World Superbike, later sold as a standalone road vest.","mk":"Alpinestars","y":"2011","s":AL,"v":[{"n":"Tech-Air Race","mk":"Alpinestars","y":"2011","d":"race system"},{"n":"Tech-Air 5","mk":"Alpinestars","y":"2020","d":"first standalone vest; CE Level 1 back protector; Bluetooth app"}],"dt":"race or street system · standalone or jacket-linked · sizes"},
+      {"n":"Helite Turtle","a":"","d":"Helite's patented tethered, fully mechanical airbag vest worn over a jacket and re-armed with a CO2 cartridge.","mk":"Helite","y":"","s":HE,"v":[{"n":"Turtle 2","mk":"Helite","y":"2021","d":"SAS-TEC level 2 back protector; hi-viz version"}],"dt":"colour · hi-viz · airbag size"}]},
+{"n":"Back and body protector","a":"back protector · body armour · chest protector · CE armour inserts","d":"Impact-absorbing pads or plates for the back, chest, shoulders, elbows, hips and knees, worn as inserts or strapped on, tested to EN 1621.","t":["centre back","full back","chest protector","limb insert armour","strap-on","insert","CE Level 1","CE Level 2"],"s":PPE,
+ "m":[["Pro Armor","Dainese"],["Viper Pro back protector","d3O"]]},
+{"n":"Helmet communicator","a":"motorcycle intercom · Bluetooth headset · mesh intercom · comms unit","d":"Helmet-mounted Bluetooth or mesh unit for rider-to-rider talk, phone calls, navigation and music.","t":["Bluetooth intercom","mesh intercom","single pack","duo pack","helmet-integrated"],"s":SE,
+ "x":[{"n":"Cardo Packtalk","a":"","d":"Cardo's flagship mesh intercom line, using Dynamic Mesh Communication for group riding.","mk":"Cardo Systems","y":"","s":CA,"v":[{"n":"Packtalk Black","mk":"Cardo Systems","y":"","d":""},{"n":"Packtalk Bold","mk":"Cardo Systems","y":"","d":""},{"n":"Packtalk Edge","mk":"Cardo Systems","y":"2022","d":"second-generation DMC mesh, magnetic mount"}],"dt":"single or duo · speakers · mount"},
+      {"n":"Sena 50 series","a":"50S · 50R","d":"Sena's premium mesh intercom family with Harman Kardon audio.","mk":"Sena","y":"","s":SE,"v":[{"n":"50S","mk":"Sena","y":"","d":"Mesh Intercom 3.0, Harman Kardon audio, Bluetooth 5.0, group mesh up to 24 riders"},{"n":"50R","mk":"Sena","y":"","d":"low-profile sibling"}],"dt":"single or duo · mesh version · audio"}],
+ "m":[["60S","Sena"],["SRL","Sena"],["Spider","Sena"]]}]
 brands=[
- B("Volkswagen","Germany","1937","mass-market","German volume carmaker, core brand of the Volkswagen Group.",["Volkswagen Beetle","Volkswagen Golf","Volkswagen Passat"]),
- B("Renault","France","1899","mass-market","French volume carmaker.",["Renault 4","Renault 5","Renault Espace"]),
- B("Ford","United States","1903","mass-market","American volume carmaker with a large European arm.",["Ford Fiesta","Ford Cortina"]),
- B("Toyota","Japan","1937","mass-market","Japanese volume carmaker and pioneer of mass-market hybrids.",["Toyota Corolla","Toyota RAV4"]),
- B("Peugeot","France","1810","mass-market","French carmaker, part of Stellantis.",["Peugeot 205"]),
- B("Honda","Japan","1948","mass-market","Japanese maker of cars and motorcycles.",["Honda Civic","Honda Accord"]),
- B("Mazda","Japan","1920","mass-market","Japanese carmaker.",["Mazda2"]),
- B("Nissan","Japan","1933","mass-market","Japanese volume carmaker.",["Nissan Leaf","Nissan Qashqai"]),
- B("Fiat","Italy","1899","mass-market","Italian carmaker known for small cars, part of Stellantis.",["Fiat 500","Fiat Panda"]),
- B("Citroën","France","1919","mass-market","French carmaker, part of Stellantis.",["Citroën 2CV"]),
- B("BMC","United Kingdom","1952","historic mass-market","British Motor Corporation, the merger of Austin and Morris.",["Mini"]),
- B("Mini","United Kingdom","1959","premium small car","Small-car marque owned by BMW since 1994.",["Mini Hatch"]),
- B("Smart","Germany","1994","city car","City-car marque begun by Mercedes-Benz and Swatch.",["Smart Fortwo"]),
- B("Mercedes-Benz","Germany","1926","luxury","German luxury car marque.",["Mercedes-Benz W123","Mercedes-Benz C-Class"]),
- B("BMW","Germany","1916","premium","German premium car and motorcycle maker.",["BMW 3 Series"]),
- B("Tesla","United States","2003","electric","American maker of battery-electric cars.",["Tesla Model 3","Tesla Model Y"]),
- B("Volvo","Sweden","1927","premium","Swedish carmaker known for safety and estates.",["Volvo 200 Series"]),
- B("Škoda","Czech Republic","1895","mass-market","Czech carmaker in the Volkswagen Group.",["Škoda Octavia"]),
- B("Subaru","Japan","1953","mass-market","Japanese carmaker known for all-wheel drive.",["Subaru Outback"]),
- B("Land Rover","United Kingdom","1948","off-road and luxury SUV","British maker of four-wheel-drive vehicles.",["Range Rover"]),
- B("Jeep","United States","1941","off-road and SUV","American four-wheel-drive brand, part of Stellantis.",["Jeep Cherokee XJ"]),
- B("Chevrolet","United States","1911","mass-market","American General Motors brand.",["Chevrolet Suburban"]),
- B("Audi","Germany","1909","premium","German premium marque in the Volkswagen Group.",["Audi Q7"]),
- B("Kia","South Korea","1944","mass-market","South Korean carmaker in the Hyundai Motor Group.",["Kia Carnival"]),
- B("Chrysler","United States","1925","mass-market","American carmaker, part of Stellantis.",["Chrysler minivans"]),
- B("XPENG","China","2014","electric","Chinese maker of electric cars.",[]),
-]
-notes=("Kept all 5 old kinds and added City car (sourced to Wikipedia A-segment). Archetypes = model lines with generations as versions (Golf Mk1–Mk8, Corolla E210, Range Rover Classic/L322, Fiat 500 1957/2007, Mini/new Mini). "
- "Powertrain and size classes moved into t. Dropped from Saloon: Maybach S-Class and S-Class Saloon (go to Luxury saloon on the Luxury cars shelf); trimmed the Mercedes-heavy list to C-Class as an archetype plus A-Class Saloon and CLA as flat models. "
- "Mercedes V-Class/Viano/EQV kept as versions of a V-Class archetype sourced to the Vito article (no separate page retrieved, so no years). XPENG X9 left as a flat model (Wikipedia page not found). "
- "Range Rover Classic is also an off-roader; listed here per shelf brief, Off-roader shelf may cross-link. Brand entries use s=knowledge (country/founding only). No traditions apply. Golf Mk3–Mk6 years from their own Wikipedia pages.")
+{"n":"Dainese","c":"Italy","f":"1972","seg":"Motorcycle protective gear","d":"Italian maker of motorcycle and sports protective apparel founded by Lino Dainese in Molvena, Vicenza.","lines":["D-air","Mugello R"],"eras":[],"sig":["Dainese D-air","Dainese Mugello R"],"sc":["track","road"],"rel":["Alpinestars"],"s":DA},
+{"n":"Alpinestars","c":"Italy","f":"1963","seg":"Motorsport protective gear","d":"Italian motorsport safety-gear maker based in Asolo, founded by Sante Mazzarolo as a boot maker.","lines":["Tech-Air","GP Plus R"],"eras":[],"sig":["Alpinestars Tech-Air","Alpinestars GP Plus R"],"sc":["track","road","motocross"],"rel":["Dainese"],"s":AL},
+{"n":"Klim","c":"United States","f":"","seg":"Adventure and off-road riding gear","d":"American maker of technical adventure, off-road and snowmobile riding gear.","lines":["Badlands Pro","Latitude"],"eras":[],"sig":["Klim Badlands Pro"],"sc":["adventure touring"],"rel":["REV'IT!"],"s":"knowledge"},
+{"n":"REV'IT!","c":"Netherlands","f":"","seg":"Motorcycle riding gear","d":"Dutch motorcycle clothing brand from Oss.","lines":["Sand"],"eras":[],"sig":["REV'IT! Sand"],"sc":["adventure touring","road"],"rel":["Klim"],"s":RV},
+{"n":"Held","c":"Germany","f":"","seg":"Motorcycle riding gear","d":"German maker of motorcycle gloves and riding clothing.","lines":[],"eras":[],"sig":[],"sc":["touring"],"rel":[],"s":"knowledge"},
+{"n":"Helite","c":"France","f":"","seg":"Airbag protection","d":"French maker of mechanical airbag vests and jackets for riders.","lines":["Turtle"],"eras":[],"sig":["Helite Turtle"],"sc":["road"],"rel":[],"s":"knowledge"},
+{"n":"Cardo Systems","c":"United States","f":"","seg":"Rider communication","d":"Maker of motorcycle intercoms and an early developer of rider-to-rider headsets.","lines":["Packtalk"],"eras":[],"sig":["Cardo Packtalk"],"sc":[],"rel":["Sena"],"s":CA},
+{"n":"Sena","c":"","f":"","seg":"Rider communication","d":"Maker of Bluetooth and mesh communication systems for motorcycling, cycling, outdoor and marine use.","lines":["50","60","SRL","Spider"],"eras":[],"sig":["Sena 50 series"],"sc":[],"rel":["Cardo Systems"],"s":SE},
+{"n":"d3O","c":"United Kingdom","f":"","seg":"Impact protection","d":"British maker of impact-absorbing materials and armour inserts.","lines":["Viper Pro"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"knowledge"}]
+notes="All six kinds are new (no old data). Left out: Held archetypes (no page retrieved), Helite E-Turtle and Tech-Air 5 Plasma (seen only in search snippets), Rev'it Sand version years, Cardo/Sena founding facts. Fashion biker jackets and boots stay in Clothing/Footwear. Kinds sourced to the Wikipedia PPE article; communicator kind to Sena's product page."
 out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
-p='work/G1/shelves/00_00.json'; t=p+'.tmp'
-json.dump(out,open(t,'w'),ensure_ascii=False,indent=1); os.replace(t,p)
+p="work/G1/shelves/02_01.json"; json.dump(out,open(p+".tmp","w"),ensure_ascii=False,indent=1); os.replace(p+".tmp",p)
