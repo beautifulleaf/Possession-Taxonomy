@@ -42,7 +42,7 @@ kinds=[
     "https://trickers.com/products/bourton-country-shoe-black",[
     V("Bourton","Tricker's","","Country brogue derby on last 4444, storm welt, leather or Dainite sole")],'storm welt · double leather or Dainite sole · calf, grain, suede'),
   X("Gillie","ghillie brogue","Tongueless full brogue with long laces wrapped round the ankle; worn with Highland dress.","","",BR),
-  X("Buck","white buck · bucks","Derby with a buckskin, suede or nubuck upper, classically light with a red sole.","","1910s",DE,dt='white, dirty buck, brown · red brick sole')],
+  X("Buck","white buck · bucks","Derby with a buckskin, suede or nubuck upper, classically light with a red sole.","","",DE,dt='white, dirty buck, brown · red brick sole')],
  "m":[["Chambord","Paraboot"],["Harlyn","John Lobb"],["Shannon","Church's"],["Murton","Cheaney"],["Woodbridge","Church's"],["Drake","Loake"],["Robert","Tricker's"]]},
 {"n":"Monk strap","a":"monk shoe","d":"Laceless shoe closed by one or more buckled straps across the instep.","s":MO,
  "x":[
