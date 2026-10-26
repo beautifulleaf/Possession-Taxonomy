@@ -14,21 +14,21 @@ def sba(extra):
 def sa80(extra):
     return A("Selmer Super Action 80 Series II","SA80 II · Serie II","Selmer's longest-running professional model, an update of the Super Action 80 with a darker sound.","Selmer","1986",S+"model/38",extra,"finish · engraving (Jubilee from 2010) · neck")
 def s3(extra):
-    return A("Selmer Series III","Serie III · SA80 Serie III","Later Selmer professional line, announced 1993, with redesigned keywork.","Selmer","1993",S+"model/54",extra,"finish · Jubilee engraving from 2010 · necks")
+    return A("Selmer Series III","Serie III · SA80 Serie III","Selmer professional line announced in 1993 and sold alongside the Series II.","Selmer","1993",S+"model/54",extra,"finish · Jubilee engraving from 2010 · necks")
 def ref(extra):
     return A("Selmer Reference 54","Reference · Ref 54","Modern Selmer modelled on the 1954 Mark VI, with modern keywork and a darker, more open sound.","Selmer","2000",S+"model/112",extra,"dark gold lacquer · vintage matte · clear lacquer")
 def conn(extra,mm="6M · 10M · 12M"):
     return A("Conn M series 'Naked Lady'","Conn "+mm+" · Naked Lady","Elkhart-made Conn professional line named after the engraved female figure on the bell.","Conn","1934",S+"model/20",extra,"silver plate · lacquer · nickel · gold plate")
 def super20(extra):
-    return A("King Super 20","Super 20","H. N. White's professional saxophone, developed from the Zephyr Special; Charlie Parker played a Super 20 alto.","King","1945",WP+"King_Musical_Instruments",extra,"series I–VI · pearl keys · Silver Sonic (sterling neck/bell)")
+    return A("King Super 20","Super 20","H. N. White's professional saxophone, developed from the Zephyr Special; Charlie Parker played a Super 20 alto.","King","1945",WP+"King_Musical_Instruments",extra,"series I–VI · pearl keys · Silver Sonic examples")
 def y62(extra):
     return A("Yamaha 62 series","YAS-62 · YTS-62 · YSS-62 · 'purple logo'","Yamaha's long-running professional saxophone; early horns are called 'purple logo' after their fading bell printing.","Yamaha","",S+"model/170",extra,"generation (original, II, III) · lacquer or silver plate")
 def ycz(extra):
     return A("Yamaha Custom Z","82Z · Custom Z","Yamaha's jazz-oriented Custom saxophone, successor to the original Custom horns, with the Custom G1 neck.","Yamaha","",S+"model/175",extra,"series I or II · lacquer, black lacquer · neck")
 def yana(extra,n="Yanagisawa 901 / 902 series",a="A-901 · T-901 · SC-901 · A-902 · T-902"):
-    return A(n,a,"Yanagisawa's professional line; 901 in brass, 902 in bronze, with 991/992 the higher-grade equivalents.","Yanagisawa","1998",S+"model/143",extra,"brass (90x/99x) or bronze (902/992) · solid silver (9930/9937)")
+    return A(n,a,"Yanagisawa's professional line: 901 in brass, 902 in bronze.","Yanagisawa","1998",S+"model/143",extra,"brass (90x/99x) or bronze (902/992) · Silver Sonic (9930/9937)")
 def kw(extra):
-    return A("Keilwerth SX90R","SX-90R · SX90","German professional saxophone line introduced in the late 1980s, known in black nickel finishes.","Keilwerth","late 1980s",WP+"Julius_Keilwerth",extra,"black nickel · lacquer · straight alto/tenor versions")
+    return A("Keilwerth SX90R","SX-90R · SX90","German professional saxophone line introduced in the late 1980s, offered in black nickel and lacquer.","Keilwerth","late 1980s",WP+"Julius_Keilwerth",extra,"black nickel · lacquer · straight alto/tenor versions")
 
 alto={"n":"Alto saxophone","a":"alto sax","d":"Single-reed saxophone in E♭, the most common voice for beginners and jazz.",
  "t":["student · intermediate · professional","with or without high F♯ key","low A (some vintage altos)",FIN,"mouthpiece (hard rubber or metal; ebonite student/classical)"],
@@ -44,7 +44,7 @@ alto={"n":"Alto saxophone","a":"alto sax","d":"Single-reed saxophone in E♭, th
   ref([("Reference 54 alto","Selmer","","followed the tenor a couple of years after 2000; ended 2021"),("Supreme","Selmer","2021","successor")]),
   y62([("YAS-62 (original)","Yamaha","","long wrap-around keyguard"),("YAS-62II","Yamaha","2003","keywork changes, G1 neck"),("YAS-62 (III)","Yamaha","","new neck stamped '62'")]),
   ycz([("YAS-82Z","Yamaha","","Custom G1 neck"),("YAS-82Z II","Yamaha","","minor changes, new neck options")]),
-  yana([("A-901","Yanagisawa","1998","brass"),("A-902","Yanagisawa","2002","bronze"),("A-9937","Yanagisawa","1999","solid silver"),("AWO series","Yanagisawa","2014","successor WO series")]),
+  yana([("A-901","Yanagisawa","1998","brass"),("A-902","Yanagisawa","2002","bronze"),("A-9937","Yanagisawa","1999","Silver Sonic 9937 series"),("AWO series","Yanagisawa","2014","successor WO series")]),
  ],
  "m":[["Selmer Axos alto","Selmer"],["Yamaha YAS-480","Yamaha"],["Yamaha YAS-280","Yamaha"],["Thomann TAS-180","Thomann"],["Startone SAS-75","Startone"]]}
 
@@ -61,7 +61,7 @@ tenor={"n":"Tenor saxophone","a":"tenor sax","d":"Single-reed saxophone in B♭,
   sa80([("Super Action 80 Series II tenor","Selmer","1986","first serial 380423")]),
   s3([("Series III tenor","Selmer","1995","first serial 529312")]),
   kw([("SX-90R tenor","Keilwerth","","black nickel"),("Straight SX-90R tenor","Keilwerth","","")]),
-  yana([("T-901","Yanagisawa","1998","brass"),("T-902","Yanagisawa","2003","bronze"),("T-9937","Yanagisawa","2000","solid silver"),("TWO series","Yanagisawa","2015","successor WO series")]),
+  yana([("T-901","Yanagisawa","1998","brass"),("T-902","Yanagisawa","2003","bronze"),("T-9937","Yanagisawa","2000","Silver Sonic 9937 series"),("TWO series","Yanagisawa","2015","successor WO series")]),
   y62([("YTS-62","Yamaha","","")]),
   ycz([("YTS-82Z","Yamaha","","")]),
  ],
@@ -77,7 +77,7 @@ sop={"n":"Soprano saxophone","a":"soprano sax","d":"Single-reed saxophone in B�
     [("S-992","Yanagisawa","1998","bronze"),("SC-991 / SC-992","Yanagisawa","2004","curved sopranos"),("S-880","Yanagisawa","","first straight soprano with a detachable neck"),("SWO series","Yanagisawa","2017","successor WO series")],"brass or bronze · straight or curved"),
   ycz([("YSS-82Z","Yamaha","","fixed neck, straight or semi-curved"),("YSS-82ZRB","Yamaha","","black lacquer")]),
   y62([("YSS-62 / YSS-62R","Yamaha","","")]),
-  kw([("Liebman Signature SX90R","Keilwerth","","David Liebman signature"),("SX-90 series II soprano","Keilwerth","","")]),
+  kw([("Liebman Signature SX90R","Keilwerth","",""),("SX-90 series II soprano","Keilwerth","","")]),
   conn([("Conn 4M curved soprano","Conn","","")],"4M"),
  ],
  "m":[["Selmer Signature soprano","Selmer"],["Yamaha YSS-475 II","Yamaha"],["Startone SCS-75 curved soprano","Startone"]]}
@@ -92,7 +92,7 @@ bari={"n":"Baritone saxophone","a":"bari sax","d":"Large single-reed saxophone i
   s3([("Series III baritone (SE-B3L)","Selmer","2008",""),("Super Action 80 Series II baritone (SE-B2L)","Selmer","1986","")]),
   A("Yanagisawa WO baritone","B-WO1 · B-WO2 · B-WO10 · B-WO20","Yanagisawa's professional baritone series with revised tone-hole layout, keyed to low A.","Yanagisawa","2018",WP+"Yanagisawa_Wind_Instruments",
     [("B-WO10","Yanagisawa","","brass Elite model, low A to high F♯"),("B-WO1","Yanagisawa","",""),("B-WO2","Yanagisawa","",""),("B-WO20","Yanagisawa","","")],"brass or bronze · lacquer"),
-  kw([("SX-90 baritone","Keilwerth","",""),("SX90R baritone","Keilwerth","","")]),
+  kw([("SX-90 baritone","Keilwerth","","")]),
  ],
  "m":[["Yamaha YBS-62II","Yamaha"],["Yamaha YBS-82","Yamaha"],["Yamaha YBS-480","Yamaha"],["Jupiter JBS1000","Jupiter"],["Rampone & Cazzani R1 Jazz baritone","Rampone & Cazzani"],["Schagerl 66","Schagerl"],["Startone SBS-75","Startone"]]}
 
