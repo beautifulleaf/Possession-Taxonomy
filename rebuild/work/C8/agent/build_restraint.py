@@ -11,12 +11,12 @@ S = {}
 S['04_01'] = ([
  K("Electric fence energiser", "Unit that sends pulses of current along an electric fence for farm, paddock or garden use.",
    "https://shop.wejameson.co.uk/collections/energisers", a="fence charger · fencer",
-   t=["mains", "battery", "solar"], m=[["Patura P1", "Patura"], ["Patura P35", "Patura"]]),
+   m=[["Patura P1", "Patura"], ["Patura P35", "Patura"]]),
  K("Electric fence wire and insulators", "Conductive tape, wire or rope strung as an electric fence, and the insulators that hold it on posts.",
    "https://shop.wejameson.co.uk/collections/electric-fencing", a="electric fence tape · polywire · electric fence insulator",
    t=["polytape", "polywire", "rope", "ring insulator", "corner insulator", "strain insulator"],
    m=[["Patura Tornado XL Polywire", "Patura"], ["Patura Insultube", "Patura"]]),
-], "Merged tape and insulator kinds (k38, k39); maker-less insulator models became types. Energiser list cut from four Patura SKUs to the smallest and largest (P1, P35); no other market brands added because this is a restraint-only pass with no research (Gallagher-type market leaders left for a later sourcing pass). Mains/battery/solar types are attribute variants.")
+], "Merged tape and insulator kinds (k38, k39); maker-less insulator models became types. Energiser list cut from four Patura SKUs to the smallest and largest (P1, P35); no other market brands added because this is a restraint-only pass with no research (Gallagher-type market leaders left for a later sourcing pass).")
 S['05_01'] = ([
  K("Wood oil", "Penetrating oil finish that soaks into wood, for furniture, worktops and decking.",
    "https://www.screwfix.com/c/painting-decorating/wood-oil/cat850452", a="decking oil · furniture oil",
@@ -49,8 +49,7 @@ S['06_00'] = ([
 ], "Five fitting-joint kinds (k102-k106) merged into Pipe fitting with joint types; water hammer arrester (k111) folded into Valve as a type; maker-less valve models became types. Fitting ranges kept once on Pipe fitting and removed from Valve (brand ranges repeated across kinds).")
 S['06_01'] = ([
  K("Waste and trap", "Pipe, fitting and water-sealed trap for the waste outlet of a basin, sink or bath.",
-   "https://www.screwfix.com/c/heating-plumbing/wastes-traps/cat2410005", a="waste fitting · trap",
-   t=["bottle trap", "P-trap", "S-trap"]),
+   "https://www.screwfix.com/c/heating-plumbing/wastes-traps/cat2410005", a="waste fitting · trap"),
  K("Guttering", "Gutter and downpipe sections and fittings that carry rainwater from a roof.",
    "https://www.screwfix.com/c/heating-plumbing/guttering/cat831536", a="rainwater goods",
    t=["half round", "square line", "ogee", "deep flow", "cast iron"]),
@@ -64,7 +63,7 @@ S['07_00'] = ([
    m=[["6943X Armoured Cable", "Prysmian"]]),
  K("Flex", "Flexible mains cord for connecting appliances and fittings.", "https://www.toolstation.com/electrical-supplies-accessories/c4"),
  K("Conduit and trunking", "Tube or lidded surface channel through which cables are run and hidden.",
-   "https://www.toolstation.com/electrical-supplies-accessories/c4", a="conduit · trunking", t=["rigid conduit", "flexible conduit", "mini trunking"]),
+   "https://www.toolstation.com/electrical-supplies-accessories/c4", a="conduit · trunking", t=["rigid conduit", "flexible conduit", "trunking"]),
  K("Junction box", "Enclosure in which mains cables are joined.", "https://www.toolstation.com/electrical-supplies-accessories/c4"),
  K("Cable clip", "Clip that fixes a cable to a wall or surface.", "https://www.screwfix.com/c/electrical-lighting/cable-clips/cat830572"),
  K("Cable tie", "Plastic or metal strap with a ratchet that bundles or fixes cables.", "https://www.toolstation.com/electrical-supplies-accessories/c4", a="zip tie"),
@@ -94,7 +93,7 @@ S['09_00'] = ([
  K("Decking screw", "Corrosion-resistant screw made to fix decking boards to joists.", "https://www.toolstation.com/screws-fixings/decking-roofing-screws/c301",
    t=["timber decking", "composite decking"]),
  K("Drywall screw", "Fine- or coarse-threaded bugle-head screw for fixing plasterboard to studs.", "https://www.toolstation.com/screws-fixings/drywall/c390",
-   t=["fine thread", "coarse thread", "collated"]),
+   t=["fine thread", "coarse thread"]),
  K("Masonry screw", "Hardened screw that cuts its own thread into a drilled hole in masonry or concrete.", "https://www.toolstation.com/screws-fixings/masonry-screws/c856",
    a="concrete screw", m=[["Fischer FFS Frame Fixing Screw", "Fischer"], ["Rawlplug R-LX Concrete Screw Anchor", "Rawlplug"]]),
  K("Coach screw", "Heavy hexagon-head wood screw driven with a spanner for structural timber fixings.", "https://www.toolstation.com/screws-fixings/c12", a="lag screw"),
