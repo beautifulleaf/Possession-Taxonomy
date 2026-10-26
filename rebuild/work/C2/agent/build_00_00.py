@@ -1,0 +1,67 @@
+import json, os
+LM="https://en.wikipedia.org/wiki/Lawn_mower"; RLM="https://en.wikipedia.org/wiki/Robotic_lawn_mower"
+ER="https://www.expertreviews.co.uk/home-garden/lawn-mowers/best-lawn-mower-electric-cordless-petrol-and-manual"
+kinds=[
+{"n":"Rotary mower","a":"rotary lawnmower · wheeled mower","d":"Wheeled mower that cuts with a blade spinning horizontally under a deck.",
+ "t":["Push","Self-propelled","Petrol","Cordless (battery)","Corded electric","Rear-roller","Mulching"],
+ "s":"https://www.diy.com/landingpage/outdoor-garden/garden-tools",
+ "x":[
+  {"n":"Victa rotary mower","a":"Victa Rotomo","d":"Australian two-stroke rotary mower that popularised the domestic rotary mower from 1952.","mk":"Victa","y":"1952","s":"https://en.wikipedia.org/wiki/Victa",
+   "v":[{"n":"Peach-Tin Prototype","mk":"Victa","y":"1952","d":"Mervyn Richardson's garage-built first model"},{"n":"Rotomo Mk 1","mk":"Victa","y":"1953–54","d":"earliest production model"}],"dt":"deck width · push or self-propelled"},
+  {"n":"Honda HRX","a":"","d":"Honda's premium pedestrian petrol rotary mower range.","mk":"Honda","y":"","s":"https://hondanews.eu/gb/en/power-products/media/pressreleases/164107/honda-announces-new-engines-and-design-updates-for-premium-hrx-lawn-mower-range",
+   "v":[{"n":"HRX 476 (VYE, HYE, QYEJ)","mk":"Honda","y":"2019","d":"47 cm deck, GCVx 170 engine; Select Drive, hydrostatic or single speed with rear roller"},{"n":"HRX 537 (VYE, HYE, HZE)","mk":"Honda","y":"2019","d":"53 cm deck, GCVx 200 engine; HZE has electric start"}],"dt":"deck 47 or 53 cm · drive type · electric start"},
+  {"n":"Hayter Harrier","a":"","d":"Hayter's rear-roller rotary mower family, made in petrol and battery versions.","mk":"Hayter","y":"","s":"https://en.wikipedia.org/wiki/Hayter_(lawn_mowers)",
+   "v":[{"n":"Harrier 41","mk":"Hayter","y":"","d":"41 cm; petrol (VS, ES, PRO) and battery"},{"n":"Harrier 48","mk":"Hayter","y":"","d":"48 cm; petrol (incl. BBC, PRO) and battery"},{"n":"Harrier 56","mk":"Hayter","y":"","d":"56 cm; petrol (ES, PRO)"}],"dt":"cut width 41–56 cm · petrol or battery · drive and blade-brake options"}],
+ "m":[["Izy HRG 466 PK","Honda"],["LM2236E-SP","EGO"],["RMA 235","STIHL"],["RMA 443 C","STIHL"],["RM 453","STIHL"],["Rotak 34R","Bosch"],["AdvancedRotak 44-750","Bosch"],["Aspire LC34-P4A","Husqvarna"],["Nitro WG737E","Worx"],["Osprey 46","Hayter"],["EasiStore 340R","Flymo"]]},
+{"n":"Cylinder mower","a":"reel mower · cylinder lawnmower","d":"Mower that cuts with a rotating reel of blades against a fixed bottom blade.",
+ "t":["Hand-push","Petrol","Electric","Cordless (battery)","Interchangeable cassette"],
+ "s":"https://mowers-online.co.uk/lawnmowers",
+ "x":[
+  {"n":"Budding's mower","a":"Budding lawn mower","d":"The first lawn mower: a push cylinder machine patented by Edwin Budding of Stroud in 1830.","mk":"","y":"1830","s":LM,
+   "v":[{"n":"Ferrabee production","mk":"John Ferrabee","y":"1830–1863","d":"eight models by 1862, over 5,000 made"},{"n":"Ransomes licensed copies","mk":"Ransomes","y":"1832","d":"made under licence from Budding"}],"dt":"cut width · gear or chain drive · cast-iron frame"},
+  {"n":"Silens Messor","a":"","d":"Chain-driven Victorian push cylinder mower.","mk":"Thomas Green & Son","y":"1850s","s":LM,"v":[],"dt":"cut width · chain drive"},
+  {"n":"Ransomes Automaton","a":"","d":"Hand-powered Victorian cylinder mower by Ransomes of Ipswich.","mk":"Ransomes","y":"1867","s":"https://en.wikipedia.org/wiki/Ransomes,_Sims_%26_Jefferies","v":[],"dt":"cut width · condition and originality for collectors"},
+  {"n":"Atco Standard","a":"Atco motor mower","d":"Petrol cylinder mower regarded as the first truly mass-produced engine-powered mower.","mk":"Atco","y":"1921","s":LM,
+   "v":[{"n":"First production","mk":"Atco","y":"1921","d":"about 900 made at £75 each"}],"dt":"cut width · year of build · condition"}],
+ "m":[["Kensington","Allett"],["Buckingham","Allett"],["Westminster","Allett"],["Classic","Allett"],["GC-HM30","Einhell"],["Cottage","Barnard, Bishop & Barnard"],["Falcon","Follows & Bate"],["Pegasus","Lloyds"],["Pennsylvania","Lloyds"],["Marquis","Ransomes"],["Super Certes","Ransomes"]]},
+{"n":"Robotic mower","a":"robot lawn mower · robomower · automower","d":"Self-guided battery mower that mows a set area on its own and returns to charge.",
+ "t":["Boundary-wire","Wire-free (RTK satellite)","Wire-free (camera vision)","Wire-free (LiDAR)","All-wheel drive"],
+ "s":"https://mowers-online.co.uk/lawnmowers",
+ "x":[
+  {"n":"MowBot","a":"","d":"Early random-pattern robotic mower.","mk":"S. Lawrence Bellinger","y":"1969","s":RLM,"v":[],"dt":""},
+  {"n":"Husqvarna Automower","a":"Automower","d":"Husqvarna's robotic mower line, descended from what Husqvarna believes was the first commercial robotic mower.","mk":"Husqvarna","y":"1995","s":"https://www.husqvarna.com/uk/learn-and-discover/press-room/automower-30-year-anniversary/",
+   "v":[{"n":"Solar Mower ('the turtle')","mk":"Husqvarna","y":"1995","d":"solar-powered"},{"n":"Solar Hybrid","mk":"Husqvarna","y":"1998","d":"first commercial Automower, battery, up to 500 m²"},{"n":"Second generation","mk":"Husqvarna","y":"2003","d":"lawns up to 6,000 m²"},{"n":"305","mk":"Husqvarna","y":"2011","d":"first third-generation model"},{"n":"430X / 450X","mk":"Husqvarna","y":"2015","d":"X-line with Automower Connect app and GPS theft tracking"},{"n":"435X AWD","mk":"Husqvarna","y":"2019","d":"first all-wheel-drive model, slopes up to 70%"},{"n":"NERA (430X NERA, 405XE NERA, 310E NERA)","mk":"Husqvarna","y":"2023","d":"boundary-wire-free with EPOS"},{"n":"Aspire R4 / R6V","mk":"Husqvarna","y":"","d":"entry range"}],"dt":"rated area · wire or wire-free · AWD · app connectivity"},
+  {"n":"Bosch Indego","a":"","d":"Bosch robotic mower that maps the lawn and mows in systematic lanes.","mk":"Bosch","y":"2012","s":RLM,
+   "v":[{"n":"Indego XS 300","mk":"Bosch","y":"","d":"small-lawn model"}],"dt":"rated area · wire"},
+  {"n":"Worx Landroid","a":"Landroid","d":"Worx's robotic mower line, from boundary-wire models to camera-vision and RTK versions.","mk":"Worx","y":"2014","s":"https://en.wikipedia.org/wiki/WORX",
+   "v":[{"n":"Landroid M500 Plus (WR165E)","mk":"Worx","y":"","d":"boundary-wire model"},{"n":"Landroid Vision M800 (WR208E)","mk":"Worx","y":"","d":"AI camera vision"},{"n":"Landroid Vision Cloud WR320","mk":"Worx","y":"","d":"camera vision plus RTK"}],"dt":"rated area · wire, vision or RTK"},
+  {"n":"Segway Navimow","a":"Navimow","d":"Segway's wire-free robotic mowers using RTK satellite positioning, with vision or LiDAR on later models.","mk":"Segway","y":"","s":"https://navimow.segway.com/blogs/newsroom/segway-navimow-debuts-x3-series-robotic-mower-at-equip-expo-oct-15-18",
+   "v":[{"n":"i1 series (i105E, i108E)","mk":"Segway","y":"","d":"small lawns"},{"n":"i2 AWD / i2 LiDAR","mk":"Segway","y":"","d":"all-wheel drive or LiDAR navigation"},{"n":"H series (H800, H2)","mk":"Segway","y":"","d":""},{"n":"X3 / X4 (X420, X430, X450)","mk":"Segway","y":"","d":"large-lawn flagship"}],"dt":"rated area · RTK, LiDAR · AWD"},
+  {"n":"Mammotion LUBA","a":"LUBA","d":"Mammotion's wire-free all-wheel-drive robotic mower line using RTK and vision.","mk":"Mammotion","y":"","s":"https://us.mammotion.com/blogs/news/mammotion-luba-2-vs-yuka",
+   "v":[{"n":"LUBA 2 AWD (3000X and others)","mk":"Mammotion","y":"","d":"40 cm deck, slopes up to 38°"},{"n":"LUBA Mini 2 AWD","mk":"Mammotion","y":"","d":"smaller form"},{"n":"YUKA (1500, 2000)","mk":"Mammotion","y":"","d":"budget sibling with sweeper kit"}],"dt":"rated area · AWD · 4G connectivity"}],
+ "m":[["iMow 5","STIHL"],["Sileno Minimo 250","Gardena"],["EasiLife Go 400","Flymo"],["GOAT O1200 Lidar Pro","Ecovacs"],["A3 AWD Pro 2500","Dreame"],["Lidax Ultra 3000 AWD","Mova"],["S4","Sunseeker"],["Tron SE","Airseekers"]]},
+{"n":"Riding mower","a":"ride-on mower · sit-on mower","d":"Mower the user sits on, from compact rear-engine ride-ons to lawn tractors and zero-turn mowers.",
+ "t":["Ride-on mower (rear-engine)","Lawn tractor","Zero-turn mower","Petrol","Battery"],
+ "s":"https://www.bobvila.com/reviews/best-riding-lawn-mowers/",
+ "x":[{"n":"Ideal Triplex","a":"","d":"Early riding lawn tractor from the first US maker of gasoline mowers.","mk":"Ideal Power Mower Co.","y":"1922","s":LM,"v":[],"dt":""}],
+ "m":[["S130","John Deere"],["S120","John Deere"],["X350R","John Deere"],["Z325E ZTrak","John Deere"],["XT1 LT50","Cub Cadet"],["Titan MAX","Toro"],["R 214TC","Husqvarna"],["RZ 560","STIHL"],["Z6 ZT4214L","EGO"],["T6","EGO"],["TB30B","Troy-Bilt"],["Merlin","Allen of Oxford"]]},
+{"n":"Hover mower","a":"hover lawnmower","d":"Rotary mower that floats on a cushion of air instead of wheels.",
+ "t":["Corded electric","Cordless","Petrol"],
+ "s":"https://www.gardenmachinerydirect.co.uk/shop/c/garden-machinery/lawnmowers/hover-mowers",
+ "x":[{"n":"Flymo hover mower","a":"Flymo","d":"The original hover mower, invented by Karl Dahlman after the hovercraft.","mk":"Flymo","y":"1964","s":"https://en.wikipedia.org/wiki/Flymo",
+   "v":[{"n":"E25","mk":"Flymo","y":"","d":"electric hover mower"},{"n":"EasiGlide 300","mk":"Flymo","y":"","d":""},{"n":"EasiGlide Plus 330V","mk":"Flymo","y":"","d":"corded; Expert Reviews best hover mower"}],"dt":"cut width · corded or cordless · grass collection"}],
+ "m":[["GX560","Husqvarna"],["HoverPro 450","Toro"],["HoverPro 550","Toro"],["eHoverPro 450","Toro"],["Airmow 51 B","Cobra"]]}]
+brands=[
+{"n":"Husqvarna","c":"Sweden","f":"1689","seg":"Outdoor power products","d":"Swedish outdoor power group that began as a firearms maker; owns Flymo, Gardena and McCulloch.","lines":["Automower","Aspire"],"eras":[],"sig":["Husqvarna Automower"],"sc":[],"rel":["Flymo","Gardena","McCulloch","Jonsered"],"s":"https://en.wikipedia.org/wiki/Husqvarna_Group"},
+{"n":"Flymo","c":"United Kingdom","f":"1964","seg":"Domestic garden machinery","d":"Inventor of the hover mower, made at Newton Aycliffe; owned by Husqvarna.","lines":["EasiGlide","EasiStore","EasiLife"],"eras":["Electrolux ownership, 1978–2006"],"sig":["Flymo hover mower"],"sc":[],"rel":["Husqvarna"],"s":"https://en.wikipedia.org/wiki/Flymo"},
+{"n":"Hayter","c":"United Kingdom","f":"1946","seg":"Premium domestic and commercial mowers","d":"Hertfordshire mower maker founded by Douglas Hayter, owned by Toro since 2005.","lines":["Harrier","Osprey","Hawk","Spirit"],"eras":[],"sig":["Hayter Harrier"],"sc":[],"rel":["Toro"],"s":"https://en.wikipedia.org/wiki/Hayter_(lawn_mowers)"},
+{"n":"Victa","c":"Australia","f":"1952","seg":"Domestic mowers","d":"Australian rotary mower maker founded by Mervyn Victor Richardson.","lines":[],"eras":["Briggs & Stratton ownership, 2008–2025"],"sig":["Victa rotary mower"],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/Victa"},
+{"n":"Ransomes","c":"United Kingdom","f":"1789","seg":"Agricultural and turf machinery","d":"Ipswich engineering firm that made lawn mowers from 1832 and the first commercial petrol mower in 1902.","lines":[],"eras":["Textron takeover, 1998"],"sig":["Ransomes Automaton"],"sc":[],"rel":["Mountfield","Westwood"],"s":"https://en.wikipedia.org/wiki/Ransomes,_Sims_%26_Jefferies"},
+{"n":"Worx","c":"China","f":"2004","seg":"Cordless garden and power tools","d":"Power-tool brand of Positec of Suzhou, maker of the Landroid robotic mower.","lines":["Landroid","Nitro"],"eras":[],"sig":["Worx Landroid"],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/WORX"},
+{"n":"Allett","c":"United Kingdom","f":"","seg":"Cylinder mowers","d":"Turfmech-owned maker of cylinder mowers that took over the Atco and Suffolk Punch ranges in 2011.","lines":["Kensington","Buckingham","Westminster","Classic"],"eras":[],"sig":[],"sc":[],"rel":["Atco"],"s":"https://www.pitchcare.com/blogs/news/allett-unveils-new-mower-models-at-saltex"}]
+notes=("Trimmed SKU lists to 5–12 per kind from market brands plus test picks (Expert Reviews 2026, Which? robot-mower test list, Bob Vila, LawnLove). "
+ "Dropped old flat models: Flymo Turbo Compact, Hayter Highway, STIHL RMA 239/353/765 V, Allen of Oxford Cavalier (rotary); Husqvarna Automower 308V/312V folded into Automower archetype only where confirmed; John Deere Z320R, X107, Husqvarna R 112C (riding). "
+ "Mountfield left out: its model pages could not be retrieved (403), so no Mountfield models are named. Navimow and Mammotion launch years not confirmed, left blank. "
+ "Atco has no register entry (no page about the brand itself retrieved). No traditions apply to this shelf.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="work/C2/shelves/00_00.json"; json.dump(out,open(p+".tmp","w"),ensure_ascii=False,indent=1); os.replace(p+".tmp",p)
