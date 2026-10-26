@@ -1,0 +1,1132 @@
+{
+ "lead": "Personal computers and everything plugged into or built into them, from laptops and PC parts to enthusiast keyboards, vintage machines and maker boards, organised by function and, for hobbyist areas, by line, generation and archetype.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Computers",
+   "mode": "mixed",
+   "note": "Tier for everyday laptops and desktops; variety for enthusiast lines and vintage machines.",
+   "b": [
+    {
+     "m": "Independent test results",
+     "v": "RTINGS, Notebookcheck, Which?, Consumer Reports, CHOICE scores",
+     "w": "Mainstream buyers pick from tested machines."
+    },
+    {
+     "m": "Performance class",
+     "v": "processor tier; GPU tier; RAM; storage",
+     "w": "Sets what the machine can do and for how long."
+    },
+    {
+     "m": "Build, screen and battery",
+     "v": "chassis material; panel type and resolution; tested battery life",
+     "w": "What separates good machines in daily use."
+    },
+    {
+     "m": "Repairability and support",
+     "v": "iFixit score; upgradeable RAM/SSD; years of updates",
+     "w": "Decides useful life."
+    }
+   ],
+   "s": [
+    {
+     "n": "Laptops",
+     "web": true,
+     "brief": "Organise by line → generation, not SKU. Archetypes = model lines that persist across generations, ordered by significance: Apple PowerBook/MacBook Air/MacBook Pro, IBM/Lenovo ThinkPad (T, X, X1 Carbon), Dell XPS, HP Spectre/EliteBook, Microsoft Surface Laptop, Razer Blade, ASUS ROG Zephyrus, Framework Laptop, Toshiba/Dynabook; historic icons (Toshiba T1100, Compaq LTE, IBM ThinkPad 700C, Apple PowerBook 100). Versions = generations with years. Cut the 3,681-model list (AST, Bondwell etc.) to these lines plus market-covering brands; old vintage laptops may become versions of historic archetypes. Gaming, business, rugged, convertible = types.",
+     "k": [
+      {
+       "n": "Laptop",
+       "old": [
+        "k1"
+       ],
+       "brief": "Types: ultrabook, gaming, workstation, business, rugged, convertible (360° hinge)."
+      },
+      {
+       "n": "Detachable 2-in-1",
+       "old": [
+        "k2"
+       ],
+       "brief": "Surface Pro line → generation as the archetype."
+      },
+      {
+       "n": "Chromebook",
+       "old": [
+        "k3"
+       ],
+       "brief": "Pixelbook and market-covering Chromebook lines; keep short."
+      }
+     ]
+    },
+    {
+     "n": "Desktops & mini PCs",
+     "web": true,
+     "brief": "Tier shelf with enthusiast icons. Archetypes: Apple iMac (G3 to Apple silicon), Mac mini, Mac Studio, Mac Pro (cheese grater, trash can), Intel NUC, Dell OptiPlex, HP Z workstations, Alienware Aurora (single-board computers live under Electronics). Trim tower/desktop lists to market brands; vintage desktop-case machines (DEC, Commodore, Atari) move to the Vintage shelf as versions there. Rack-mount servers: keep only homelab-relevant lines (Dell PowerEdge, HPE ProLiant MicroServer), no SKU lists.",
+     "k": [
+      {
+       "n": "Tower PC",
+       "old": [
+        "k4"
+       ],
+       "brief": "Types: prebuilt gaming, workstation, office."
+      },
+      {
+       "n": "All-in-one PC",
+       "old": [
+        "k6"
+       ]
+      },
+      {
+       "n": "Mini PC",
+       "old": [
+        "k5"
+       ]
+      },
+      {
+       "n": "Small-form-factor desktop",
+       "old": [
+        "k7"
+       ],
+       "brief": "Rename from low-profile desktop; types: SFF, USFF, desktop case."
+      },
+      {
+       "n": "Barebone kit",
+       "old": [
+        "k9"
+       ]
+      },
+      {
+       "n": "Home server",
+       "old": [
+        "k8"
+       ],
+       "brief": "Rack-mount and tower servers owned for homelab use; kind-level, few lines."
+      }
+     ]
+    },
+    {
+     "n": "Vintage computers",
+     "web": true,
+     "brief": "Variety shelf, collector view. Archetypes with originator, year and versions: Apple I, Apple II (II, II+, IIe, IIc, IIgs), compact Macintosh (128K, 512K, Plus, SE, SE/30, Classic), Commodore PET, VIC-20, Commodore 64 (C64, C64C, SX-64), Amiga (1000, 500, 2000, 1200, 4000), Sinclair ZX80/ZX81/ZX Spectrum (16K/48K, +, 128, +2, +3), BBC Micro (Model A/B, Master), Acorn Electron/Archimedes, Atari 400/800/XL/XE, Atari ST, TRS-80, IBM PC 5150/XT/AT, Amstrad CPC/PCW, MSX, NEC PC-88/PC-98, NeXTcube; portables Osborne 1, Compaq Portable, TRS-80 Model 100. Re-creations (The C64, ZX Spectrum Next, Mega65) as their own kind. Pocket computers: Sharp PC-1211/PC-1500, TRS-80 PC. Trainer kits: KIM-1, Heathkit, Micro-Professor. Floppy drive: Commodore 1541, Apple Disk II, Gotek emulators.",
+     "k": [
+      {
+       "n": "Home computer (keyboard computer)",
+       "old": [
+        "k11"
+       ],
+       "brief": "8/16-bit machines with the computer in the keyboard case."
+      },
+      {
+       "n": "Vintage desktop computer",
+       "old": [],
+       "brief": "Separate-case micros and early PCs: Apple II, compact Mac, IBM PC, Amiga 2000, NeXT."
+      },
+      {
+       "n": "Luggable & vintage portable",
+       "old": [],
+       "brief": "Osborne 1, Compaq Portable, Kaypro, TRS-80 Model 100, early PowerBooks."
+      },
+      {
+       "n": "Pocket computer",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Trainer & single-board kit (vintage)",
+       "old": [
+        "k13"
+       ]
+      },
+      {
+       "n": "Retro computer re-creation",
+       "old": [],
+       "brief": "Modern licensed or FPGA re-creations: The C64/The A500 Mini, ZX Spectrum Next, Mega65."
+      },
+      {
+       "n": "Floppy disk drive",
+       "old": [
+        "k49"
+       ],
+       "brief": "Vintage and USB floppy drives, Gotek floppy emulators."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "PC components",
+   "mode": "mixed",
+   "note": "Parts department: builders compare and upgrade; variety for CPU and GPU lines, tier for the rest.",
+   "b": [
+    {
+     "m": "Independent benchmarks",
+     "v": "Tom's Hardware, TechPowerUp, Gamers Nexus, AnandTech results",
+     "w": "Builders choose parts on measured performance."
+    },
+    {
+     "m": "Compatibility",
+     "v": "socket; chipset; form factor (ATX, mATX, ITX); memory generation (DDR4/DDR5)",
+     "w": "Parts must fit together."
+    },
+    {
+     "m": "Efficiency and noise",
+     "v": "80 PLUS / Cybenetics rating; dBA under load",
+     "w": "Power and cooling parts are judged on these."
+    }
+   ],
+   "s": [
+    {
+     "n": "Processors, motherboards & memory",
+     "web": true,
+     "brief": "Processor: line → generation → SKU. Archetypes: Intel Core (i3/i5/i7/i9, Core Ultra) with generations (Sandy Bridge … Raptor Lake, Arrow Lake), AMD Ryzen (Zen 1–5, X3D), Ryzen Threadripper, Apple M-series (stub; not sold separately — note), Intel Xeon stub, historic icons (Intel 4004, 8086, 80386, Pentium, Athlon, Athlon 64, Core 2 Duo). Versions = generations with years and key SKUs only; cut the 2,857-SKU list. Motherboard: chipset/form-factor types, maker lines (ASUS ROG/TUF/ProArt, MSI MEG/MPG, Gigabyte AORUS, ASRock Taichi). Merge board-with-CPU into Motherboard. Memory: merge desktop and laptop RAM; types DDR3/DDR4/DDR5, DIMM/SODIMM; lines Corsair Vengeance/Dominator, G.Skill Trident Z, Kingston Fury, Crucial.",
+     "k": [
+      {
+       "n": "Processor",
+       "old": [
+        "k14"
+       ]
+      },
+      {
+       "n": "Motherboard",
+       "old": [
+        "k15",
+        "k16"
+       ],
+       "brief": "Type 'with CPU fitted' replaces the separate kind."
+      },
+      {
+       "n": "Memory (RAM)",
+       "old": [
+        "k17",
+        "k18"
+       ],
+       "brief": "Types: desktop DIMM, laptop SODIMM; DDR generation."
+      }
+     ]
+    },
+    {
+     "n": "Graphics & expansion cards",
+     "web": true,
+     "brief": "Graphics card: consumer lines → generation, by significance: Nvidia GeForce (256, 8800, GTX 10, RTX 20/30/40/50), AMD/ATI Radeon (9700, HD, RX 400–9000), Intel Arc, 3dfx Voodoo (Voodoo, Voodoo2, Voodoo5); board partners (ASUS ROG Strix, MSI Gaming X, Sapphire Nitro+, EVGA) as versions/brands, not SKU lists; drop workstation/datacentre SKUs. Sound card: Creative Sound Blaster (16, AWE32, Live!, Audigy), Roland MT-32/LAPC-I for retro collectors. Merge internal and external capture devices into one kind (Elgato HD60/4K lines).",
+     "k": [
+      {
+       "n": "Graphics card",
+       "old": [
+        "k19"
+       ]
+      },
+      {
+       "n": "External GPU enclosure",
+       "old": [
+        "k20"
+       ]
+      },
+      {
+       "n": "Sound card",
+       "old": [
+        "k21"
+       ],
+       "brief": "Types: internal, USB; retro collector cards."
+      },
+      {
+       "n": "Video capture device",
+       "old": [
+        "k23",
+        "k69"
+       ],
+       "brief": "Types: internal card, external USB."
+      },
+      {
+       "n": "Network card",
+       "old": [
+        "k22"
+       ],
+       "brief": "Types: Ethernet, Wi-Fi."
+      },
+      {
+       "n": "I/O expansion card",
+       "old": [
+        "k24"
+       ],
+       "brief": "USB, Thunderbolt, SATA, serial/parallel cards."
+      },
+      {
+       "n": "TV tuner card",
+       "old": [
+        "k25"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Cases & power supplies",
+     "web": true,
+     "brief": "Case archetypes (enthusiast icons): Lian Li PC-O11 Dynamic, Fractal Design Define/North/Meshify, NZXT H-series, Cooler Master HAF/Cosmos, Corsair Obsidian/4000D, Cooler Master NR200, SFF cases (Dan A4-SFX, Louqe Ghost); types ATX tower/mATX/ITX/SFF/open frame. PSU: tier by Cybenetics/80 PLUS and tier lists; lines Seasonic Prime/Focus, Corsair RM/HX, be quiet! Dark Power, Super Flower Leadex; cut to ≈8–12. Internal cables: custom sleeved cables, extensions, riser cables (types).",
+     "k": [
+      {
+       "n": "PC case",
+       "old": [
+        "k26"
+       ]
+      },
+      {
+       "n": "PC power supply",
+       "old": [
+        "k27"
+       ]
+      },
+      {
+       "n": "Internal PC cable",
+       "old": [
+        "k28"
+       ],
+       "brief": "Types: sleeved extension, PCIe riser, fan/RGB cable."
+      }
+     ]
+    },
+    {
+     "n": "Cooling",
+     "web": true,
+     "brief": "CPU air cooler archetypes: Noctua NH-D15/NH-U12S, be quiet! Dark Rock, Thermalright Peerless Assassin/Phantom Spirit, Cooler Master Hyper 212, Scythe Fuma/Mugen. AIO: Arctic Liquid Freezer, Corsair iCUE H-series, NZXT Kraken, Lian Li Galahad; tier ≈8. Custom loop: EKWB, Alphacool, Corsair Hydro X, Watercool Heatkiller — types block, pump/reservoir, radiator, fittings. Fans: Noctua NF-A12x25, Arctic P12, Phanteks T30, Lian Li Uni Fan. Merge paste and pads into one thermal-interface kind (types paste, pad, liquid metal, phase-change; Arctic MX, Thermal Grizzly Kryonaut, Honeywell PTM7950).",
+     "k": [
+      {
+       "n": "CPU air cooler",
+       "old": [
+        "k29"
+       ]
+      },
+      {
+       "n": "AIO liquid cooler",
+       "old": [
+        "k30"
+       ]
+      },
+      {
+       "n": "Custom liquid-cooling parts",
+       "old": [
+        "k31"
+       ],
+       "brief": "Types: CPU/GPU block, pump & reservoir, radiator, fittings & tubing, coolant."
+      },
+      {
+       "n": "Case fan",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "Thermal paste & pads",
+       "old": [
+        "k33",
+        "k34"
+       ],
+       "brief": "Types: paste, pad, liquid metal, phase-change pad."
+      },
+      {
+       "n": "M.2 heatsink",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "Fan controller",
+       "old": [
+        "k36"
+       ],
+       "brief": "Includes fan/RGB hubs."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Storage",
+   "mode": "tier",
+   "note": "People pick a reliable drive; brands covering the market plus test winners.",
+   "b": [
+    {
+     "m": "Speed",
+     "v": "PCIe 5.0 > 4.0 > 3.0 NVMe > SATA SSD > HDD; card speed class (V90/V60/V30, U3, A2)",
+     "w": "Interface sets the ceiling."
+    },
+    {
+     "m": "Endurance and reliability",
+     "v": "TBW rating; Backblaze drive stats; warranty years",
+     "w": "Data safety matters most."
+    },
+    {
+     "m": "Capacity per price",
+     "v": "cost per TB",
+     "w": "The usual trade-off."
+    }
+   ],
+   "s": [
+    {
+     "n": "Hard drives & SSDs",
+     "web": false,
+     "brief": "Restraint: tier, ≈5–8 market brands per kind (Samsung, WD, Crucial, Seagate, SanDisk, Kingston, Toshiba) plus test winners. Types for form factor and interface (M.2 NVMe, 2.5\" SATA; 3.5\"/2.5\" HDD; NAS/CMR drives).",
+     "k": [
+      {
+       "n": "Internal SSD",
+       "old": [
+        "k37"
+       ]
+      },
+      {
+       "n": "External SSD",
+       "old": [
+        "k38"
+       ]
+      },
+      {
+       "n": "Internal HDD",
+       "old": [
+        "k39"
+       ]
+      },
+      {
+       "n": "External HDD",
+       "old": [
+        "k40"
+       ]
+      },
+      {
+       "n": "Drive enclosure",
+       "old": [
+        "k41"
+       ],
+       "brief": "Types: USB enclosure, dock, duplicator."
+      }
+     ]
+    },
+    {
+     "n": "Flash, cards & network storage",
+     "web": false,
+     "brief": "Restraint. Merge SD, microSD and 'Other memory cards' into one Memory card kind with format types (SD, microSD, CFexpress A/B, CompactFlash, XQD, Memory Stick). NAS: Synology, QNAP, ASUSTOR, TrueNAS/UGREEN, Ubiquiti; types by bay count. Optical drive: internal and external, Blu-ray/DVD.",
+     "k": [
+      {
+       "n": "USB flash drive",
+       "old": [
+        "k42"
+       ]
+      },
+      {
+       "n": "Memory card",
+       "old": [
+        "k45",
+        "k46",
+        "k43"
+       ],
+       "brief": "Types: SD/SDHC/SDXC, microSD, CFexpress, CompactFlash, XQD, Memory Stick."
+      },
+      {
+       "n": "Memory-card reader",
+       "old": [
+        "k44"
+       ]
+      },
+      {
+       "n": "NAS",
+       "old": [
+        "k47"
+       ]
+      },
+      {
+       "n": "Optical drive",
+       "old": [
+        "k48"
+       ],
+       "brief": "Types: internal, external; DVD, Blu-ray."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Monitors & peripherals",
+   "mode": "mixed",
+   "note": "Tier for monitors and everyday peripherals; variety at the gaming-mouse and pen-tablet end.",
+   "b": [
+    {
+     "m": "Independent tests",
+     "v": "RTINGS, Monitors Unboxed, TFTCentral, Which? scores",
+     "w": "Monitors and mice are chosen on tested results."
+    },
+    {
+     "m": "Panel and refresh (monitors)",
+     "v": "OLED > Mini-LED IPS > IPS > VA > TN; refresh rate; resolution",
+     "w": "Main quality ladder for displays."
+    },
+    {
+     "m": "Ergonomics and sensor (mice)",
+     "v": "weight; shape; sensor; polling rate",
+     "w": "What enthusiasts compare."
+    }
+   ],
+   "s": [
+    {
+     "n": "Monitors & desk setup",
+     "web": false,
+     "brief": "Restraint: tier monitors by RTINGS/TFTCentral winners, ≈8–12 brands; types for panel (OLED, IPS, VA), use (gaming, office, creator, ultrawide, portable). Accessory kinds kept short with 2–5 brands each.",
+     "k": [
+      {
+       "n": "Monitor",
+       "old": [
+        "k50"
+       ],
+       "brief": "Types: gaming, office, creator, ultrawide, portable; panel types."
+      },
+      {
+       "n": "Monitor arm or stand",
+       "old": [
+        "k51"
+       ]
+      },
+      {
+       "n": "Laptop stand",
+       "old": [
+        "k52"
+       ]
+      },
+      {
+       "n": "Laptop cooler",
+       "old": [
+        "k53"
+       ]
+      },
+      {
+       "n": "Laptop sleeve or case",
+       "old": [
+        "k54"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Mice & pen tablets",
+     "web": true,
+     "brief": "Mouse archetypes, by significance: Apple Macintosh mouse / Magic Mouse, Microsoft IntelliMouse (Explorer 3.0 shape), Logitech MX Master, Logitech G Pro (Wireless, Superlight), Razer DeathAdder, Zowie EC/FK, Logitech MX518/G502; types wired/wireless, gaming, ergonomic/vertical. Trackball: Logitech MX Ergo/Trackman, Kensington Expert/SlimBlade, Elecom HUGE. Pen tablet: Wacom Intuos, Intuos Pro, Cintiq (pen display), XP-Pen, Huion Kamvas; types pen tablet vs pen display. Desk mats: types cloth/hybrid/glass (Artisan, Logitech G640, SteelSeries QcK).",
+     "k": [
+      {
+       "n": "Mouse",
+       "old": [
+        "k58"
+       ]
+      },
+      {
+       "n": "Trackball",
+       "old": [
+        "k59"
+       ]
+      },
+      {
+       "n": "Pen tablet",
+       "old": [
+        "k60"
+       ],
+       "brief": "Types: pen tablet, pen display."
+      },
+      {
+       "n": "Mouse pad or desk mat",
+       "old": [
+        "k61"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Webcams & microphones",
+     "web": false,
+     "brief": "Restraint: tier, 4–8 brands each (Logitech, Elgato, Razer, Insta360 / Shure, Rode, Blue/Logitech, Audio-Technica); types USB/XLR for microphones.",
+     "k": [
+      {
+       "n": "Webcam",
+       "old": [
+        "k67"
+       ]
+      },
+      {
+       "n": "Microphone",
+       "old": [
+        "k68"
+       ],
+       "brief": "Computer/streaming microphones; types USB, XLR, headset-free desk mics."
+      }
+     ]
+    },
+    {
+     "n": "Security keys & hardware wallets",
+     "web": true,
+     "brief": "Personal security devices. Security key archetypes: Yubico YubiKey (NEO, 4, 5 Series, Bio, Security Key), Google Titan, Nitrokey, SoloKeys, Feitian. Hardware wallet archetypes: Trezor One/Model T/Safe, Ledger Nano S/X/Stax, Coldcard, BitBox02, Keystone. Versions with years; no SKU lists.",
+     "k": [
+      {
+       "n": "Security key",
+       "old": [
+        "k124"
+       ],
+       "brief": "Types: USB-A, USB-C, NFC, biometric."
+      },
+      {
+       "n": "Hardware wallet",
+       "old": [
+        "k125"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Enthusiast keyboards",
+   "mode": "variety",
+   "note": "Collector and custom-build view: layout → board → switch → keycap set.",
+   "b": [
+    {
+     "m": "Layout",
+     "v": "full-size > TKL > 75% > 65% > 60% > 40%; split/ergonomic; ISO/ANSI/JIS",
+     "w": "The first choice enthusiasts make."
+    },
+    {
+     "m": "Switch type",
+     "v": "linear; tactile; clicky; Topre electrocapacitive; buckling spring; Hall-effect magnetic",
+     "w": "Defines feel and sound."
+    },
+    {
+     "m": "Build",
+     "v": "mount style (gasket, top, tray); case material; hot-swap; plate material",
+     "w": "Custom-board comparisons."
+    },
+    {
+     "m": "Keycaps",
+     "v": "doubleshot ABS vs PBT dye-sub; profile (Cherry, OEM, SA, DSA, XDA, MT3, KAT)",
+     "w": "What keycap collectors compare."
+    }
+   ],
+   "s": [
+    {
+     "n": "Keyboards",
+     "web": true,
+     "brief": "Variety. Keyboard archetypes (originator first): IBM Model F, IBM Model M (and Unicomp re-issues), Apple Extended Keyboard II, Cherry G80/G80-3000, Happy Hacking Keyboard (Professional, Lite, Type-S), Topre Realforce, Filco Majestouch, Logitech MX Keys, Apple Magic Keyboard, Das Keyboard, Ducky One, Keychron Q/K series, Wooting (Hall-effect), Razer BlackWidow, Corsair K70. Keyboard kits: custom-board icons (Keycult, TGR Jane, Mode Sonnet, Wuque, GMMK Pro, Keychron Q kits, Leopold). Split/ergonomic: Microsoft Natural/Sculpt, Kinesis Advantage, ErgoDox, ZSA Moonlander, Corne. Trim old Logitech-only list.",
+     "k": [
+      {
+       "n": "Keyboard",
+       "old": [
+        "k55"
+       ],
+       "brief": "Prebuilt boards; types by layout and switch technology."
+      },
+      {
+       "n": "Split & ergonomic keyboard",
+       "old": [],
+       "brief": "Split, ortholinear, columnar and contoured boards."
+      },
+      {
+       "n": "Keyboard kit",
+       "old": [
+        "k62"
+       ],
+       "brief": "Custom/barebones kits sold without switches or keycaps."
+      },
+      {
+       "n": "Numeric keypad",
+       "old": [
+        "k56"
+       ]
+      },
+      {
+       "n": "Macro pad",
+       "old": [
+        "k57"
+       ],
+       "brief": "Programmable key pads (Elgato Stream Deck, custom macro pads)."
+      }
+     ]
+    },
+    {
+     "n": "Switches, keycaps & keyboard parts",
+     "web": true,
+     "brief": "Variety. Switch archetypes: Cherry MX (Red, Brown, Blue, Black, Clear, Silent), Alps SKCM (cream, white, orange), Topre electrocapacitive, IBM buckling spring, Gateron (Yellow, Ink), Kailh Box, Holy Panda (Drop), Zeal PC Zealios, NovelKeys Cream, Hall-effect (Wooting Lekker). Keycap sets: GMK (doubleshot ABS, Cherry profile; icons GMK Olivia, Laser, 8008, Red Samurai), Signature Plastics SA/DSA, ePBT, Drop MT3, PBTfans, Keychron OSA; profiles as types. Artisan keycaps: makers (Jelly Key, Dwarf Factory, Keycult, Hot Keys Project). Plates, stabilisers (Durock, Cherry, Zeal, TX), coiled cables (aviator).",
+     "k": [
+      {
+       "n": "Keyboard switches",
+       "old": [
+        "k63"
+       ]
+      },
+      {
+       "n": "Keycap set",
+       "old": [
+        "k64"
+       ]
+      },
+      {
+       "n": "Artisan keycap",
+       "old": [],
+       "brief": "Hand-cast single keycaps, often resin, sold in limited runs."
+      },
+      {
+       "n": "Keyboard plate",
+       "old": [
+        "k65"
+       ],
+       "brief": "Types: aluminium, brass, FR4, polycarbonate, POM."
+      },
+      {
+       "n": "Keyboard stabiliser",
+       "old": [
+        "k66"
+       ]
+      },
+      {
+       "n": "Coiled keyboard cable",
+       "old": [],
+       "brief": "Custom coiled USB cables with aviator connectors."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Printing & 3D printing",
+   "mode": "mixed",
+   "note": "Tier for home printers; variety at the 3D-printing hobby end.",
+   "b": [
+    {
+     "m": "Independent tests",
+     "v": "Which?, Consumer Reports, CHOICE, RTINGS printer scores",
+     "w": "Home printers are chosen on tests."
+    },
+    {
+     "m": "Running cost",
+     "v": "cost per page; ink-tank vs cartridge; third-party ink policy",
+     "w": "Often matters more than purchase price."
+    },
+    {
+     "m": "3D-printer capability",
+     "v": "build volume; speed; enclosed; multi-material; open vs closed ecosystem",
+     "w": "What makers compare."
+    }
+   ],
+   "s": [
+    {
+     "n": "Printers & scanners",
+     "web": false,
+     "brief": "Restraint: tier, ≈5–8 brands (HP, Canon, Epson, Brother, Fujitsu ScanSnap) plus test winners. Merge wide-format printer into Printer as type 'A3+ wide-format/photo'. Merge ink and toner cartridges into one consumables kind with types.",
+     "k": [
+      {
+       "n": "Printer",
+       "old": [
+        "k70",
+        "k73"
+       ],
+       "brief": "Types: inkjet, laser, ink-tank, photo, A3+ wide-format."
+      },
+      {
+       "n": "Multifunction printer",
+       "old": [
+        "k71"
+       ]
+      },
+      {
+       "n": "Scanner",
+       "old": [
+        "k72"
+       ],
+       "brief": "Types: flatbed, document, film/photo."
+      },
+      {
+       "n": "Ink & toner cartridge",
+       "old": [
+        "k74",
+        "k75"
+       ],
+       "brief": "Types: ink cartridge, ink bottle, toner cartridge, drum."
+      }
+     ]
+    },
+    {
+     "n": "3D printing",
+     "web": true,
+     "brief": "Hobby shelf. 3D printer archetypes by significance: RepRap (Darwin, Mendel), MakerBot Replicator, Prusa i3 (MK2–MK4, MINI, XL, Core One), Creality Ender 3, Bambu Lab X1/P1/A1, Voron (2.4, Trident, 0) kits, Elegoo Mars/Saturn and Anycubic Photon (resin), Formlabs Form. Types FDM/resin (MSLA)/kit. Filament: types PLA, PETG, ABS/ASA, TPU; brands Prusament, Polymaker, eSun, Bambu, Sunlu. Resin: Elegoo, Anycubic, Siraya Tech. Hotends/nozzles: E3D V6/Revo, Bondtech, Micro Swiss.",
+     "k": [
+      {
+       "n": "3D printer",
+       "old": [
+        "k76"
+       ]
+      },
+      {
+       "n": "3D-printer filament",
+       "old": [
+        "k77"
+       ]
+      },
+      {
+       "n": "3D-printing resin",
+       "old": [],
+       "brief": "Photopolymer resin for MSLA/SLA printers."
+      },
+      {
+       "n": "3D-printer upgrade parts",
+       "old": [],
+       "brief": "Hotends, nozzles, extruders, build plates."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Networking",
+   "mode": "tier",
+   "note": "People pick a reliable box; market brands plus test winners.",
+   "b": [
+    {
+     "m": "Wi-Fi standard",
+     "v": "Wi-Fi 7 > 6E > 6 > 5",
+     "w": "Sets speed and range ceiling."
+    },
+    {
+     "m": "Independent tests",
+     "v": "RTINGS, Which?, SmallNetBuilder, CHOICE results",
+     "w": "Coverage and throughput in real homes."
+    }
+   ],
+   "s": [
+    {
+     "n": "Networking",
+     "web": false,
+     "brief": "Restraint: tier, ≈5–8 brands per kind (TP-Link, Netgear, ASUS, AVM Fritz!, Ubiquiti, Eero, Google Nest Wifi, Linksys). Mesh systems as a type of Wi-Fi router; extenders and mesh nodes together.",
+     "k": [
+      {
+       "n": "Wi-Fi router",
+       "old": [
+        "k78"
+       ],
+       "brief": "Types: single router, mesh system, travel router."
+      },
+      {
+       "n": "Modem",
+       "old": [
+        "k79"
+       ],
+       "brief": "Types: cable, DSL, fibre ONT, 4G/5G."
+      },
+      {
+       "n": "Access point",
+       "old": [
+        "k80"
+       ]
+      },
+      {
+       "n": "Range extender",
+       "old": [
+        "k81"
+       ]
+      },
+      {
+       "n": "Network switch",
+       "old": [
+        "k82"
+       ],
+       "brief": "Types: unmanaged, managed, PoE."
+      },
+      {
+       "n": "Powerline adapter",
+       "old": [
+        "k84"
+       ]
+      },
+      {
+       "n": "PoE injector",
+       "old": [
+        "k83"
+       ]
+      },
+      {
+       "n": "Ethernet cable",
+       "old": [
+        "k85"
+       ],
+       "brief": "Types: Cat5e, Cat6, Cat6a, Cat8; flat."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Cables, hubs & power",
+   "mode": "tier",
+   "note": "Quality-of-life accessories; a few trusted brands per kind.",
+   "b": [
+    {
+     "m": "Certification",
+     "v": "USB-IF certified; HDMI Ultra High Speed certified; VESA DP80",
+     "w": "Certified cables avoid faults."
+    },
+    {
+     "m": "Power delivery",
+     "v": "watts; USB PD / PPS; GaN",
+     "w": "Decides what a charger or dock can run."
+    }
+   ],
+   "s": [
+    {
+     "n": "Cables, hubs & docks",
+     "web": false,
+     "brief": "Restraint, 3–6 brands per kind (Anker, Belkin, Ugreen, CalDigit, StarTech, Cable Matters). Merge HDMI and DisplayPort into one display-cable kind; merge 'Other adapters' into USB hub & adapter.",
+     "k": [
+      {
+       "n": "USB cable",
+       "old": [
+        "k86"
+       ],
+       "brief": "Types: USB-C, USB-A, Lightning, Thunderbolt."
+      },
+      {
+       "n": "Display cable",
+       "old": [
+        "k87",
+        "k88"
+       ],
+       "brief": "Types: HDMI, DisplayPort, USB-C/Thunderbolt video."
+      },
+      {
+       "n": "USB hub & adapter",
+       "old": [
+        "k96",
+        "k93"
+       ],
+       "brief": "Types: USB hub, USB-C multiport adapter, dongle/adapter."
+      },
+      {
+       "n": "Docking station",
+       "old": [
+        "k94"
+       ]
+      },
+      {
+       "n": "KVM switch",
+       "old": [
+        "k95"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Chargers & backup power",
+     "web": false,
+     "brief": "Restraint. One spare-parts kind for laptop chargers and batteries. UPS: APC, CyberPower, Eaton.",
+     "k": [
+      {
+       "n": "Multi-device charger",
+       "old": [
+        "k97"
+       ],
+       "brief": "Types: GaN multi-port, desktop charging station."
+      },
+      {
+       "n": "Laptop charger & battery",
+       "old": [
+        "k98",
+        "k99"
+       ],
+       "brief": "Spare parts: AC adapter, replacement battery."
+      },
+      {
+       "n": "UPS",
+       "old": [
+        "k100"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Electronics & maker boards",
+   "mode": "mixed",
+   "note": "Variety for maker boards; components kept kind-level for hobby builders.",
+   "b": [
+    {
+     "m": "Ecosystem and support",
+     "v": "documentation; libraries; community size; official vs clone",
+     "w": "Makers choose boards by ecosystem."
+    },
+    {
+     "m": "Genuine parts",
+     "v": "authorised distributor (Digi-Key, Mouser, Farnell) vs counterfeit-prone marketplaces",
+     "w": "Fake components are common."
+    }
+   ],
+   "s": [
+    {
+     "n": "Single-board computers & maker boards",
+     "web": true,
+     "brief": "Variety. SBC archetypes: Raspberry Pi (1, 2, 3, 4, 5, Zero, 400/500, Compute Module), BeagleBone, Orange Pi, Rock Pi/Radxa, NVIDIA Jetson Nano, LattePanda. Microcontroller boards: Arduino (Uno, Nano, Mega, Leonardo), Espressif ESP8266/ESP32 dev boards, BBC micro:bit, PJRC Teensy, Raspberry Pi Pico, Adafruit Feather/Circuit Playground, SparkFun RedBoard, Seeed XIAO, M5Stack. Add-on boards: HATs, shields, FeatherWings. Kits: starter kits (Arduino Starter Kit, Elegoo, SparkFun Inventor's Kit). Breadboards as a new kind.",
+     "k": [
+      {
+       "n": "Single-board computer",
+       "old": [
+        "k10"
+       ]
+      },
+      {
+       "n": "Microcontroller board",
+       "old": [
+        "k101"
+       ]
+      },
+      {
+       "n": "Maker add-on board",
+       "old": [
+        "k102"
+       ]
+      },
+      {
+       "n": "Electronics starter kit",
+       "old": [
+        "k103"
+       ],
+       "brief": "Rename from component kit."
+      },
+      {
+       "n": "Breadboard & prototyping board",
+       "old": [],
+       "brief": "Solderless breadboards, perfboard and stripboard."
+      }
+     ]
+    },
+    {
+     "n": "Electronic components",
+     "web": false,
+     "brief": "Restraint: kind-level, no SKU lists; types instead of separate kinds. Merge potentiometer, thermistor and varistor into Resistor; transformer into Inductor; MOSFET becomes Transistor.",
+     "k": [
+      {
+       "n": "Resistor",
+       "old": [
+        "k105",
+        "k107",
+        "k108",
+        "k109"
+       ],
+       "brief": "Types: fixed, potentiometer/trimmer, thermistor, varistor."
+      },
+      {
+       "n": "Capacitor",
+       "old": [
+        "k104"
+       ],
+       "brief": "Types: ceramic, electrolytic, film, tantalum, supercapacitor."
+      },
+      {
+       "n": "Inductor & transformer",
+       "old": [
+        "k106",
+        "k110"
+       ]
+      },
+      {
+       "n": "Crystal or oscillator",
+       "old": [
+        "k111"
+       ]
+      },
+      {
+       "n": "Transistor",
+       "old": [
+        "k113"
+       ],
+       "brief": "Types: BJT, MOSFET."
+      },
+      {
+       "n": "Diode",
+       "old": [
+        "k114"
+       ],
+       "brief": "Types: rectifier, Zener, Schottky."
+      },
+      {
+       "n": "LED",
+       "old": [
+        "k115"
+       ],
+       "brief": "Types: through-hole, SMD, addressable (WS2812)."
+      },
+      {
+       "n": "Microcontroller chip",
+       "old": [
+        "k112"
+       ]
+      },
+      {
+       "n": "Sensor",
+       "old": [
+        "k118"
+       ],
+       "brief": "Sensor modules and breakouts."
+      },
+      {
+       "n": "Relay",
+       "old": [
+        "k116"
+       ]
+      },
+      {
+       "n": "Component connector",
+       "old": [
+        "k117"
+       ],
+       "brief": "Types: headers, JST, Dupont, terminal blocks."
+      },
+      {
+       "n": "Blank RFID tag or card",
+       "old": [
+        "k119"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [
+  {
+   "old": "k89",
+   "to": "D3",
+   "dept": "Cables & connectivity"
+  },
+  {
+   "old": "k90",
+   "to": "E3",
+   "dept": "Cables & accessories"
+  },
+  {
+   "old": "k91",
+   "to": "E3",
+   "dept": "Cables & accessories"
+  },
+  {
+   "old": "k92",
+   "to": "E3",
+   "dept": "Cables & accessories"
+  }
+ ],
+ "drop": [
+  {
+   "old": "k120",
+   "why": "Point-of-sale terminal: trade equipment (findings: POS out)."
+  },
+  {
+   "old": "k121",
+   "why": "Cash register: trade equipment (POS out)."
+  },
+  {
+   "old": "k122",
+   "why": "Payment card reader: merchant equipment (POS out)."
+  },
+  {
+   "old": "k123",
+   "why": "Barcode scanner: retail/warehouse trade equipment (POS out)."
+  }
+ ]
+}
