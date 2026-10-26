@@ -89,7 +89,7 @@ brands=[
  {"n":"Future Motion","c":"United States","seg":"Electric boards","d":"Santa Cruz company founded by Kyle Doerksen, maker of the Onewheel.","lines":["Onewheel","Pint","GT","XR"],"sig":["Onewheel"],"s":W+'Onewheel'},
  {"n":"Evolve Skateboards","seg":"Electric skateboards","d":"Electric skateboard maker with bamboo and carbon street and all-terrain boards.","lines":["GTR","Diablo","Fusion","Stoke"],"sig":["Evolve GTR","Evolve Diablo"],"s":EVO}]
 notes=("Kept all 4 planned kinds. Added NEW kind 'Self-balancing personal transporter' for the Segway PT (brief named it as an archetype but it is neither a hoverboard nor a kick scooter). "
- "Trimmed SKU lists: Segway-Ninebot scooter models folded into ES/Max/F/GT archetypes; dropped flat E2 Pro D, E3 D, F2 II D duplicates where not versions. "
+ "Trimmed SKU lists: Segway-Ninebot scooter models folded into ES/Max/F/GT archetypes; dropped E2 Pro D and E3 D (regional duplicates). "
  "EUC: dropped Begode Monster V3, Nikola, Tesla T3; InMotion E20, P6, V10F, V12S, V6, V8S, V9; Nosfet Xeno (SKU noise, ≤8 flat). "
  "Wikipedia API was rate-limited (429) so pages were fetched with WebFetch. Not added: Gotway/Begode founding year, King Song/InMotion founding years, Evolve country (no retrieved source); "
  "Dualtron, Unagi, Apollo, Swagtron and ZBoard archetypes left out for lack of a fetched source within budget. Hover-1, LaCroix and Nosfet have no register entries (no archetypes).")
