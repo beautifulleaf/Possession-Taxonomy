@@ -152,6 +152,7 @@ asm = {
        X("Stranahan's", 'Colorado single malt from Denver, first bottled 2006.', "Stranahan's", '2004', ST,
          [("Stranahan's Original", "Stranahan's", '', ''), ("Stranahan's Diamond Peak", "Stranahan's", '', ''), ("Stranahan's Sherry Cask", "Stranahan's", '2017', ''),
           ("Stranahan's Blue Peak", "Stranahan's", '', ''), ("Stranahan's Snowflake", "Stranahan's", '', 'distillery exclusive')])],
+ 'm': [['St George Baller Single Malt', 'St. George Spirits']],
 }
 
 
@@ -186,7 +187,7 @@ out = {'kinds': [bourbon, tenn, rye, wheat, corn, asm], 'brands': brands, 'tradi
        'notes': ('Bourbon: 59 old SKUs folded into 24 archetypes plus 26 leftover models; dropped Ten High (a blended whiskey per Sazerac page), '
                  'Lasso Motel DARTS Cigarette Blend (novelty SKU), duplicate Willett/O.K.I./Rabbit Hole/Redemption/Starlight SKUs and second Weller entry. '
                  "Jack Daniel's Tennessee Honey left out (a liqueur). Non-US ryes (Greenbanks, Siderit) kept in Rye m pending a world-whisky home. "
-                 'No Balcones/High West archetypes (pages 404 or not fetched). Kind sources switched from retailer pages to Wikipedia/TTB. No traditions needed.')}
+                 'No Balcones/High West archetypes (pages 404 or not fetched). Kind sources switched from retailer pages to Wikipedia/TTB. No traditions needed. From the Scotch shelf hand-over: Stranahan\'s Snowflake (already a version) and St George Baller Single Malt added; Frey Ranch 100% Barley Whiskey (Unmalted) and Longleaf Distilling Co. Cask Strength Heirloom American Whiskey left out: neither is bourbon, rye, wheat, corn or malted single malt, so no kind on this shelf fits (suggest a generic American/World whisky home).')}
 p = 'work/J7/shelves/05_01.json'
 json.dump(out, open(p + '.tmp', 'w'), ensure_ascii=False, indent=1); os.replace(p + '.tmp', p)
 print('written')
