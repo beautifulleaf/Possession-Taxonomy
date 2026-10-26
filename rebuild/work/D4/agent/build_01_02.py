@@ -38,7 +38,7 @@ kinds=[
     "box camera · i-Type and 600 film · colours"),
   X("Polaroid I-2","I-2","Manual-control premium camera for i-Type and 600 film.",P,"2023",W+"Polaroid_B.V.",[v("I-2",P,"2023")],"manual exposure · autofocus · i-Type film"),
   X("Polaroid Go","Go","Small camera for Polaroid's Go-size integral film.",P,"2021",W+"Polaroid_B.V.",[v("Go",P,"2021")],"compact box camera · Go film"),
-  X("Fujifilm instax mini","instax mini","Instant cameras for credit-card-size instax mini film; the best-selling instant line.",F,"1998",LI,
+  X("Fujifilm instax mini","instax mini","Instant cameras for credit-card-size instax mini film.",F,"1998",LI,
     [v("instax mini 10",F,"1998","first instax camera"),v("instax mini 7",F,"2004"),v("instax mini 8",F,"2012"),v("instax mini 90",F,"2013"),
      v("instax mini 9",F,"2017"),v("instax mini 11",F,"2020"),v("instax mini 40",F,"2021"),v("instax mini 12",F,"2023"),
      v("instax mini 99",F,"2024"),v("instax mini 41",F,"2025"),v("instax mini 13",F,"2026")],
@@ -131,7 +131,7 @@ kinds=[
 ]
 brands=[
  {"n":"Polaroid","c":"United States","f":"1937","seg":"instant photography","d":"Edwin Land's company that created instant photography; the name now belongs to the former Impossible Project.",
-  "lines":["SX-70","600","Spectra","Land Camera pack film","Now","I-2"],"eras":["Polaroid Corporation, 1937–2008","Impossible Project film from 2010; Polaroid Originals 2017; Polaroid 2020"],
+  "lines":["SX-70","600","Spectra","Land Camera pack film","Now","I-2"],"eras":["Impossible Project film from 2010; Polaroid Originals 2017; Polaroid 2020"],
   "sig":["Polaroid SX-70","Polaroid Land Camera Model 95","Polaroid 600 series"],"sc":[],"rel":["Fujifilm"],"s":"knowledge"},
  {"n":"Fujifilm","c":"Japan","f":"1934","seg":"photography and imaging","d":"Japanese film and camera maker; makes instax instant cameras and film and QuickSnap single-use cameras.",
   "lines":["instax mini","instax WIDE","instax SQUARE","QuickSnap"],"eras":[],"sig":["Fujifilm instax mini","Fujifilm QuickSnap"],"sc":[],"rel":["Polaroid","Kodak"],"s":"knowledge"},
