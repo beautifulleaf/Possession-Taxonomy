@@ -17,26 +17,26 @@ a("PH lamp", "PH three-shade lamp · PH pendant", "Poul Henningsen's layered-sha
    ("PH Snowball", LP, "1954", "8 shades"),
    ("PH Artichoke", LP, "1958", "layered leaf shades; for the Langelinie Pavilion"),
    ("PH Plate Lamp", LP, "1958", "for the Langelinie Pavilion"),
-   ("PH Contrast", LP, "1959", "ten lacquered shades in four colours; discontinued 1991, since reissued"),
+   ("PH Contrast", LP, "1959", "ten lacquered shades in four colours; original run ended 1991"),
    ("PH Globen", LP, "", "")],
   "shade system (3:2:1 proportions, e.g. PH 5/5 = 50/31/16.5 cm) · metal, glass, copper · colourways")
 a("VL45 Radiohus", "VL45 Radiohus pendant", "Opal glass globe pendant by architect Vilhelm Lauritzen, named after his Radiohuset broadcasting house in Copenhagen (1936–41).",
   LP, "1936–41", "https://cultdesign.com.au/products/vl45-radiohus-pendant-o370mm",
   [("Ø370 mm", LP, "", "largest size")], "diameter · glass shade with bottom opening")
-a("Bubble lamp", "Nelson Bubble lamp · Saucer · Ball · Cigar", "George Nelson's pendants of plastic membrane stretched over a wire frame.",
+a("Bubble lamp", "Nelson Bubble lamp", "George Nelson's pendants of plastic membrane stretched over a wire frame.",
   "Howard Miller Clock Company", "1947", W + "George_Nelson_(designer)",
   [("Howard Miller original", "Howard Miller Clock Company", "1947", "first production"),
    ("Modernica", "Modernica", "", "later licensed maker"),
-   ("Herman Miller", "Herman Miller", "2016", "current maker")],
-  "shape (saucer, ball, cigar, pear…) · diameter")
-a("Flowerpot", "Flower Pot lamp", "Verner Panton's pendant of two facing metal hemispheres, an emblem of late-1960s pop design.",
+   ("Herman Miller", "Herman Miller", "", "current maker")],
+  "shape · diameter")
+a("Flowerpot", "Flower Pot lamp", "Verner Panton's late-1960s pop-era pendant lamp.",
   "Verner Panton", "c. 1967–69", W + "Verner_Panton", [], "size · lacquer colours")
 a("Caravaggio", "Caravaggio pendant", "Cecilie Manz's bell-shaped lacquered pendant with an upward opening that lights its own cord.",
   "Fritz Hansen", "2005", "https://www.nedgis.com/en/products/pendant-light-caravaggio-p3-black-o40cm-h51-6cm-lightyears",
   [("Caravaggio (Lightyears)", "Lightyears", "2005", "original label, now Fritz Hansen"),
    ("Caravaggio Matt", "Fritz Hansen", "", "matt lacquer instead of high gloss"),
    ("Caravaggio Opal", "Fritz Hansen", "", "opal glass shade")],
-  "five diameters 11–55 cm (P0–P4) · white, black, chrome black · cord colours")
+  "five diameters 11–55 cm · white, black, chrome black · cord colours")
 a("Akari pendant", "Akari light sculpture", "Isamu Noguchi's washi-paper and bamboo shades, hand-made in Gifu; over 200 shapes.",
   "Ozeki & Co.", "1951", W + "Akari_(lamp)", [], "shape · size · washi paper, bamboo, metal")
 a("Random Light", "Random pendant", "Bertjan Pot's sphere of epoxy-soaked fibreglass yarn coiled at random round an inflatable mould.",
@@ -49,7 +49,7 @@ a("Beat light", "Beat pendant", "Tom Dixon's spun brass pendants hand-beaten in 
 a("Mirror Ball", "Mirror Ball pendant", "Tom Dixon's polycarbonate globe vacuum-metallised inside to a mirror finish.",
   "Tom Dixon", "2004", "https://hivemodern.com/pages/product7625/mirror-ball-pendant-light-tom-dixon",
   [("Mirror Ball 25", "Tom Dixon", "", "25 cm"), ("Mirror Ball 40", "Tom Dixon", "", "40 cm"), ("Mirror Ball 50", "Tom Dixon", "", "50 cm")],
-  "diameter · chrome, gold, copper finishes")
+  "diameter · vacuum-metallised mirror finish")
 a("Big Bang", "", "Enrico Franzolini and Vicente García Jiménez's pendant of intersecting methacrylate planes like a frozen explosion.",
   "Foscarini", "2005", "https://hivemodern.com/pages/product2163/foscarini-big-bang-suspension-lamp",
   [("Big Bang", "Foscarini", "2005", "original size"), ("Big Bang L / XL LED", "Foscarini", "2016", "large LED versions shown at Salone 2016")],
@@ -57,12 +57,12 @@ a("Big Bang", "", "Enrico Franzolini and Vicente García Jiménez's pendant of i
 a("Caboche", "Caboche Plus", "Patricia Urquiola and Eliana Gerotto's pendant of clear acrylic spheres round a blown-glass diffuser, like a beaded bracelet.",
   "Foscarini", "2005", "https://www.hivemodern.com/pages/product2158/caboche-plus-suspension-lamp-patricia-urquiola-foscarini",
   [("Caboche", "Foscarini", "2005", "original"), ("Caboche Plus", "Foscarini", "", "current family")],
-  "small, medium, large · clear or gold spheres")
+  "small, medium, large")
 a("Porca Miseria!", "", "Ingo Maurer's suspension lamp built from smashed porcelain shards.", "Ingo Maurer", "1994", W + "Ingo_Maurer", [], "one-off, hand-assembled")
-a("Zettel'z", "Zettel'z hanging lamp", "Ingo Maurer's hanging lamp with a cloud of paper notes clipped to wire arms.", "Ingo Maurer", "1997", W + "Ingo_Maurer", [], "number of notes · printed or blank sheets")
-a("Splüghen Braü", "Splügen Bräu", "Achille and Pier Giacomo Castiglioni's ribbed aluminium dome pendant.", "Flos", "1964", W + "Achille_Castiglioni", [], "")
+a("Zettel'z", "Zettel'z hanging lamp", "Ingo Maurer's hanging lamp of paper notes (Zettel = note).", "Ingo Maurer", "1997", W + "Ingo_Maurer", [], "")
+a("Splüghen Braü", "Splügen Bräu", "Achille and Pier Giacomo Castiglioni's pendant light for Flos.", "Flos", "1964", W + "Achille_Castiglioni", [], "")
 a("Parentesi", "", "Castiglioni and Pio Manzù's light that slides on a tensioned cable from ceiling to floor; Compasso d'Oro 1979.", "Flos", "1970", W + "Achille_Castiglioni", [], "")
-a("Frisbi", "", "Achille Castiglioni's suspension lamp with a translucent disc floating under the bulb.", "Flos", "1978", W + "Achille_Castiglioni", [], "")
+a("Frisbi", "", "Achille Castiglioni's suspension lamp for Flos.", "Flos", "1978", W + "Achille_Castiglioni", [], "")
 a("Saliscendi", "Rise-and-fall pendant", "Castiglioni brothers' dual-light pendant whose source slides on pulleys to trade table light for room light.",
   "Stilnovo", "1957", "https://urbanlighting.com.au/collections/stilnovo/products/saliscendi-1957-achille-e-pier-giacomo-castiglioni",
   [("Milan Chamber of Commerce prototypes", "Stilnovo", "1958", "two unique copies"), ("LED reissue", "Stilnovo", "", "dimmable LED, grey-white, ruby red or green")],
@@ -92,7 +92,7 @@ brands = [
  {"n": "Foscarini", "c": "Italy", "f": "1981", "seg": "Design lighting", "d": "Italian design-lighting maker founded on Murano.",
   "lines": [], "eras": [], "sig": ["Big Bang", "Caboche"], "sc": [], "rel": [], "s": K},
  {"n": "Ingo Maurer", "c": "Germany", "f": "1963", "seg": "Design lighting", "d": "Munich studio of lighting designer Ingo Maurer, founded as Design M.",
-  "lines": [], "eras": ["Ingo Maurer, 1963–2019"], "sig": ["Porca Miseria!", "Zettel'z"], "sc": [], "rel": [], "s": W + "Ingo_Maurer"},
+  "lines": [], "eras": ["Ingo Maurer, from 1963"], "sig": ["Porca Miseria!", "Zettel'z"], "sc": [], "rel": [], "s": W + "Ingo_Maurer"},
  {"n": "Moooi", "c": "Netherlands", "f": "2001", "seg": "Design furniture & lighting", "d": "Dutch design label founded by Marcel Wanders and Casper Vissers.",
   "lines": [], "eras": [], "sig": ["Random Light"], "sc": [], "rel": [], "s": W + "Moooi"},
  {"n": "Tom Dixon", "c": "United Kingdom", "f": "2002", "seg": "Design lighting & furniture", "d": "London design brand of designer Tom Dixon.",
