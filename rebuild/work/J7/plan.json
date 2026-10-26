@@ -1,0 +1,1890 @@
+{
+ "lead": "Alcoholic drinks a person buys, cellars or collects — wine by colour and grape with appellation archetypes, beer by BJCP style family, whisky by country and style, other spirits, liqueurs, sake and rice wines, cider and mead, ready-to-drink, and no- and low-alcohol alternatives — with producers, breweries and distilleries in the brand register.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Red wine",
+   "mode": "variety",
+   "note": "Grape view first; classed appellations and icon wines are the archetypes under each grape.",
+   "b": [
+    {
+     "m": "Appellation and classification",
+     "v": "regional → village → premier cru → grand cru (Burgundy); cru bourgeois → 5e–1er cru classé (Bordeaux 1855); IGT → DOC → DOCG (Italy); joven → crianza → reserva → gran reserva (Rioja)",
+     "w": "Official appellation systems and historic classifications set the expected quality and ageing."
+    },
+    {
+     "m": "Vintage and drinking window",
+     "w": "Weather of the harvest year and the wine's age decide whether it is ready, improving or past its best."
+    },
+    {
+     "m": "Producer reputation",
+     "w": "Domaine, château or estate standing within its appellation; recorded in the producer register."
+    }
+   ],
+   "s": [
+    {
+     "n": "Classic red grapes",
+     "web": true,
+     "brief": "Each kind = one grape (varietal wine or the grape's classic appellations). Archetypes = classic appellations and icon wines, ordered originator/reference first: Burgundy grand crus (Chambertin, Romanée-Conti, Clos de Vougeot…) and NZ/Oregon Pinot under Pinot Noir; Barolo, Barbaresco under Nebbiolo; Brunello, Chianti Classico, Vino Nobile under Sangiovese; Rioja, Ribera del Duero, Vega Sicilia under Tempranillo; Hermitage, Côte-Rôtie, Penfolds Grange, Barossa Shiraz under Syrah; Châteauneuf-du-Pape, Priorat under Grenache; Napa cult Cabernet, Coonawarra under Cabernet Sauvignon; Pomerol/Masseto under Merlot; Mendoza under Malbec; Beaujolais crus under Gamay. Existing models become versions (cuvée, vintage) or are trimmed to ≈8–12 notable producers per kind. Producers go to the brand register (country, appellation, founding).",
+     "k": [
+      {
+       "n": "Cabernet Sauvignon",
+       "old": [
+        "k1"
+       ]
+      },
+      {
+       "n": "Pinot Noir",
+       "old": [
+        "k2"
+       ],
+       "brief": "Many Burgundy grand-cru names are already in the models: turn them into archetypes."
+      },
+      {
+       "n": "Merlot",
+       "old": [
+        "k3"
+       ]
+      },
+      {
+       "n": "Syrah",
+       "old": [
+        "k4"
+       ]
+      },
+      {
+       "n": "Grenache",
+       "old": [
+        "k9"
+       ]
+      },
+      {
+       "n": "Tempranillo",
+       "old": [
+        "k7"
+       ]
+      },
+      {
+       "n": "Sangiovese",
+       "old": [
+        "k8"
+       ]
+      },
+      {
+       "n": "Nebbiolo",
+       "old": [
+        "k10"
+       ]
+      },
+      {
+       "n": "Malbec",
+       "old": [
+        "k5"
+       ]
+      },
+      {
+       "n": "Zinfandel",
+       "old": [
+        "k6"
+       ],
+       "brief": "alias Primitivo; Lodi, Sonoma, Puglia Primitivo di Manduria."
+      },
+      {
+       "n": "Cabernet Franc",
+       "old": [
+        "k11"
+       ],
+       "brief": "Chinon, Saumur-Champigny, Cheval Blanc."
+      },
+      {
+       "n": "Gamay",
+       "old": [],
+       "brief": "NEW: Beaujolais and the ten Beaujolais crus."
+      }
+     ]
+    },
+    {
+     "n": "Red blends",
+     "web": true,
+     "brief": "Archetypes = named blend traditions and icons: Bordeaux Left Bank / Right Bank with the 1855 first growths (Lafite, Latour, Margaux, Haut-Brion, Mouton) and Saint-Émilion classification; Super Tuscans (Sassicaia, Tignanello, Ornellaia), Rhône/GSM blends, Meritage, Douro reds, Amarone-free dry blends. Dissolve the 'Other red blend' catch-all into a plain 'Red blend' kind with archetypes; trim SKU noise.",
+     "k": [
+      {
+       "n": "Bordeaux red blend",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Red blend",
+       "old": [
+        "k13"
+       ],
+       "brief": "was 'Other red blend'."
+      }
+     ]
+    },
+    {
+     "n": "More red grapes",
+     "web": true,
+     "brief": "Regional and lesser-known red grapes; each kind with its home appellations as archetypes (Madiran for Tannat, Carmenère in Chile, Pinotage in Stellenbosch, Blaufränkisch in Burgenland, Plavac Mali in Dingač, Saperavi in Kakheti, Xinomavro in Naoussa). Keep the grape view; trim single-SKU models to notable producers.",
+     "k": [
+      {
+       "n": "Carmenère",
+       "old": [
+        "k14"
+       ]
+      },
+      {
+       "n": "Pinotage",
+       "old": [
+        "k15"
+       ]
+      },
+      {
+       "n": "Tannat",
+       "old": [
+        "k18"
+       ]
+      },
+      {
+       "n": "Petit Verdot",
+       "old": [
+        "k17"
+       ]
+      },
+      {
+       "n": "Blaufränkisch",
+       "old": [
+        "k21"
+       ]
+      },
+      {
+       "n": "País",
+       "old": [
+        "k22"
+       ]
+      },
+      {
+       "n": "Plavac Mali",
+       "old": [
+        "k20"
+       ]
+      },
+      {
+       "n": "Prokupac",
+       "old": [
+        "k23"
+       ]
+      },
+      {
+       "n": "Saperavi",
+       "old": [
+        "k25"
+       ],
+       "brief": "Absorbs old 'Aleksandrouli' only if the worker confirms; otherwise keep Aleksandrouli as an archetype/type note. NEW name: Saperavi with Aleksandrouli as type."
+      },
+      {
+       "n": "Xinomavro",
+       "old": [],
+       "brief": "NEW: Naoussa, Amyndeon."
+      },
+      {
+       "n": "Mencía",
+       "old": [
+        "k16"
+       ]
+      },
+      {
+       "n": "Graciano",
+       "old": [
+        "k19"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Italian & Iberian red grapes",
+     "web": true,
+     "brief": "Major regional red grapes of Italy, Spain and Portugal; archetypes = their DOC/DOCG and DO appellations (Barbera d'Asti, Montepulciano d'Abruzzo, Taurasi, Aglianico del Vulture, Etna Rosso, Douro/Dão, Jumilla, Teran).",
+     "k": [
+      {
+       "n": "Barbera",
+       "old": []
+      },
+      {
+       "n": "Montepulciano",
+       "old": []
+      },
+      {
+       "n": "Aglianico",
+       "old": []
+      },
+      {
+       "n": "Nero d'Avola",
+       "old": []
+      },
+      {
+       "n": "Nerello Mascalese",
+       "old": []
+      },
+      {
+       "n": "Touriga Nacional",
+       "old": []
+      },
+      {
+       "n": "Monastrell",
+       "old": [],
+       "brief": "alias Mourvèdre (Bandol, Jumilla)."
+      },
+      {
+       "n": "Dolcetto",
+       "old": []
+      },
+      {
+       "n": "Refosco",
+       "old": [
+        "k24"
+       ],
+       "brief": "alias Refošk, Teran."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "White wine",
+   "mode": "variety",
+   "note": "Grape view first; classed appellations and icon wines are the archetypes.",
+   "b": [
+    {
+     "m": "Appellation and classification",
+     "v": "Burgundy regional → grand cru; German Prädikat (Kabinett → TBA) and VDP Grosse Lage; Austrian ÖTW",
+     "w": "Official appellation and producer-association classifications."
+    },
+    {
+     "m": "Sweetness",
+     "v": "dry → off-dry → medium → sweet",
+     "w": "Label terms (trocken, halbtrocken, sec, demi-sec) and the IRF Riesling scale."
+    },
+    {
+     "m": "Oak and ageing",
+     "w": "Oaked vs unoaked style, lees ageing and bottle age shape texture and drinking window."
+    }
+   ],
+   "s": [
+    {
+     "n": "Classic white grapes",
+     "web": true,
+     "brief": "Archetypes = classic appellations and icon wines: Chablis, Meursault, Montrachet, Corton-Charlemagne under Chardonnay; Sancerre, Pouilly-Fumé, Marlborough under Sauvignon Blanc; Mosel/Rheingau/Alsace/Clare Valley/Wachau under Riesling; Vouvray, Savennières under Chenin; Hunter Valley Semillon; Condrieu under Viognier; Alsace grands crus; Rías Baixas/Vinho Verde under Albariño. Existing models → versions or trimmed to notable producers.",
+     "k": [
+      {
+       "n": "Chardonnay",
+       "old": [
+        "k26"
+       ]
+      },
+      {
+       "n": "Sauvignon Blanc",
+       "old": [
+        "k27"
+       ]
+      },
+      {
+       "n": "Riesling",
+       "old": [
+        "k29"
+       ]
+      },
+      {
+       "n": "Pinot Grigio",
+       "old": [
+        "k28"
+       ],
+       "brief": "alias Pinot Gris."
+      },
+      {
+       "n": "Chenin Blanc",
+       "old": [
+        "k30"
+       ]
+      },
+      {
+       "n": "Sémillon",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "Gewürztraminer",
+       "old": [
+        "k31"
+       ]
+      },
+      {
+       "n": "Grüner Veltliner",
+       "old": [
+        "k34"
+       ]
+      },
+      {
+       "n": "Pinot Blanc",
+       "old": [
+        "k33"
+       ]
+      },
+      {
+       "n": "Albariño",
+       "old": [
+        "k36"
+       ]
+      },
+      {
+       "n": "Viognier",
+       "old": []
+      },
+      {
+       "n": "Muscat",
+       "old": [],
+       "brief": "NEW: dry Muscat/Moscato family (sweet styles live under Sweet wine)."
+      }
+     ]
+    },
+    {
+     "n": "Italian & Iberian white grapes",
+     "web": true,
+     "brief": "Archetypes = DOC/DOCG and DO appellations (Soave, Verdicchio dei Castelli di Jesi, Fiano di Avellino, Vermentino di Gallura, Rueda, Valdeorras, Vinho Verde). Trim single-SKU models.",
+     "k": [
+      {
+       "n": "Verdejo",
+       "old": [
+        "k37"
+       ]
+      },
+      {
+       "n": "Godello",
+       "old": []
+      },
+      {
+       "n": "Vermentino",
+       "old": []
+      },
+      {
+       "n": "Garganega",
+       "old": [],
+       "brief": "Soave."
+      },
+      {
+       "n": "Fiano",
+       "old": []
+      },
+      {
+       "n": "Verdicchio",
+       "old": []
+      },
+      {
+       "n": "Trebbiano",
+       "old": []
+      },
+      {
+       "n": "Friulano",
+       "old": [
+        "k47"
+       ]
+      },
+      {
+       "n": "Falanghina",
+       "old": [
+        "k48"
+       ]
+      },
+      {
+       "n": "Pecorino",
+       "old": [
+        "k49"
+       ]
+      },
+      {
+       "n": "Loureiro",
+       "old": [
+        "k46"
+       ]
+      },
+      {
+       "n": "Albillo Mayor",
+       "old": [
+        "k43"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "White blends & more white grapes",
+     "web": true,
+     "brief": "White blends (white Bordeaux, white Rhône, Alsace edelzwicker, field blends/Gemischter Satz) as archetypes of 'White blend'; regional grapes with their home appellations (Santorini Assyrtiko, Muscadet, Tokaj dry Furmint, Salta Torrontés, Kakheti Rkatsiteli/Kisi, Valais Petite Arvine, Jura Savagnin/vin jaune).",
+     "k": [
+      {
+       "n": "White blend",
+       "old": [
+        "k35"
+       ]
+      },
+      {
+       "n": "Assyrtiko",
+       "old": []
+      },
+      {
+       "n": "Melon de Bourgogne",
+       "old": [],
+       "brief": "Muscadet."
+      },
+      {
+       "n": "Furmint",
+       "old": [
+        "k38"
+       ]
+      },
+      {
+       "n": "Torrontés",
+       "old": []
+      },
+      {
+       "n": "Savagnin",
+       "old": [
+        "k45"
+       ],
+       "brief": "vin jaune as archetype; Heida."
+      },
+      {
+       "n": "Malvasia",
+       "old": [
+        "k39"
+       ],
+       "brief": "was Malvazija Istarska; Istrian Malvasia as archetype."
+      },
+      {
+       "n": "Petite Arvine",
+       "old": [
+        "k44"
+       ]
+      },
+      {
+       "n": "Rkatsiteli",
+       "old": []
+      },
+      {
+       "n": "Kisi",
+       "old": [
+        "k42"
+       ]
+      },
+      {
+       "n": "Kerner",
+       "old": [
+        "k40"
+       ]
+      },
+      {
+       "n": "Altesse",
+       "old": [
+        "k41"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Sparkling, rosé & orange wine",
+   "mode": "variety",
+   "note": "Champagne by house and cuvée; other sparkling by method and appellation.",
+   "b": [
+    {
+     "m": "Sweetness (dosage)",
+     "v": "brut nature → extra brut → brut → extra dry → sec → demi-sec → doux",
+     "w": "EU sparkling-wine labelling terms."
+    },
+    {
+     "m": "Method",
+     "v": "carbonated → tank (Charmat) → ancestral → traditional (bottle-fermented)",
+     "w": "Production method governs bubble, autolysis character and price."
+    },
+    {
+     "m": "Age on lees / vintage",
+     "w": "Minimum lees ageing (e.g. 15 months NV, 36 months vintage Champagne) and declared vintages."
+    }
+   ],
+   "s": [
+    {
+     "n": "Champagne",
+     "web": true,
+     "brief": "Organise house → cuvée. Archetypes = named cuvées (Dom Pérignon, Cristal, Krug Grande Cuvée, Salon, Comtes de Champagne, La Grande Dame, Belle Époque, Veuve Clicquot Yellow Label, Moët Impérial…), with vintages as versions. Redistribute the 72 old k51 models among the four kinds by style; trim duplicates. Grower Champagne, blanc de blancs/noirs and dosage as types. Houses and growers to the brand register (Grande Marque, founding year).",
+     "k": [
+      {
+       "n": "Non-vintage Champagne",
+       "old": [
+        "k51"
+       ],
+       "brief": "house brut; old k51 models land here first and are redistributed."
+      },
+      {
+       "n": "Vintage Champagne",
+       "old": []
+      },
+      {
+       "n": "Prestige cuvée Champagne",
+       "old": []
+      },
+      {
+       "n": "Rosé Champagne",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Other sparkling wine",
+     "web": true,
+     "brief": "Archetypes = appellations and icon producers: Prosecco DOC/Valdobbiadene Superiore DOCG and Cartizze; Cava Paraje Calificado; Crémant d'Alsace/Bourgogne/Loire; Franciacorta; German Sekt; Asti and Moscato d'Asti; English sparkling wine (Nyetimber, Chapel Down); Tasmania; pét-nat. Rename the 'Other sparkling wine' catch-all.",
+     "k": [
+      {
+       "n": "Prosecco",
+       "old": [
+        "k52"
+       ]
+      },
+      {
+       "n": "Cava",
+       "old": [
+        "k53"
+       ]
+      },
+      {
+       "n": "Crémant",
+       "old": [
+        "k54"
+       ]
+      },
+      {
+       "n": "Franciacorta",
+       "old": []
+      },
+      {
+       "n": "Traditional-method sparkling wine",
+       "old": [
+        "k55"
+       ],
+       "brief": "was 'Other sparkling wine': English, Tasmanian, Californian and other bottle-fermented wines."
+      },
+      {
+       "n": "Sekt",
+       "old": []
+      },
+      {
+       "n": "Asti & Moscato d'Asti",
+       "old": []
+      },
+      {
+       "n": "Pétillant naturel",
+       "old": []
+      },
+      {
+       "n": "Lambrusco",
+       "old": [
+        "k57"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Rosé & orange wine",
+     "web": true,
+     "brief": "Rosé archetypes: Provence (Côtes de Provence, Whispering Angel/Château d'Esclans), Tavel, Bandol, rosado, White Zinfandel blush. Orange wine archetypes: Georgian qvevri amber wine (UNESCO tradition), Friulian/Slovenian skin-contact (Gravner, Radikon). Add the qvevri winemaking tradition entry.",
+     "k": [
+      {
+       "n": "Rosé",
+       "old": [
+        "k50"
+       ]
+      },
+      {
+       "n": "Orange wine",
+       "old": [
+        "k56"
+       ],
+       "brief": "alias amber wine, skin-contact white."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Sweet & fortified wine",
+   "mode": "variety",
+   "b": [
+    {
+     "m": "Sweetness and style ladder",
+     "v": "Tokaji puttonyos 3–6 → Aszú → Eszencia; Prädikat Auslese → BA → TBA → Eiswein; Port ruby → tawny → LBV → vintage; Sherry fino → amontillado → oloroso, VOS/VORS",
+     "w": "Regional classification and age statements on the label."
+    },
+    {
+     "m": "Age",
+     "w": "Indicated-age tawny (10/20/30/40 yrs), colheita and solera ages set price and character."
+    }
+   ],
+   "s": [
+    {
+     "n": "Sweet wine",
+     "web": true,
+     "brief": "Archetypes = classed appellations and icons: Sauternes 1855 (Château d'Yquem), Barsac; Tokaji Aszú/Eszencia; German BA/TBA; Canadian icewine and Eiswein; Vin Santo, Recioto, Passito di Pantelleria, Amarone (move Amarone models here as passito-method dry red archetype or note it), Commandaria, straw wine.",
+     "k": [
+      {
+       "n": "Sauternes & Barsac",
+       "old": [
+        "k58"
+       ]
+      },
+      {
+       "n": "Tokaji",
+       "old": [
+        "k60"
+       ]
+      },
+      {
+       "n": "Late-harvest wine",
+       "old": [
+        "k59"
+       ]
+      },
+      {
+       "n": "Ice wine",
+       "old": [
+        "k61"
+       ]
+      },
+      {
+       "n": "Passito & dried-grape wine",
+       "old": [
+        "k62"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Fortified wine",
+     "web": true,
+     "brief": "Archetypes = styles and houses: Port (ruby, tawny, LBV, vintage, colheita; Taylor's, Graham's, Fonseca, Quinta do Noval Nacional); Sherry (fino, manzanilla, amontillado, oloroso, PX; Tío Pepe); Madeira (Sercial, Verdelho, Bual, Malmsey); Marsala grades; vin doux naturel (Banyuls, Maury, Muscat de Beaumes-de-Venise); Rutherglen Muscat, Moscatel de Setúbal under 'Other fortified wine'. Shippers to the brand register.",
+     "k": [
+      {
+       "n": "Port",
+       "old": [
+        "k63"
+       ]
+      },
+      {
+       "n": "Sherry",
+       "old": [
+        "k64"
+       ]
+      },
+      {
+       "n": "Madeira",
+       "old": [
+        "k65"
+       ]
+      },
+      {
+       "n": "Marsala",
+       "old": [
+        "k71"
+       ]
+      },
+      {
+       "n": "Vin doux naturel",
+       "old": []
+      },
+      {
+       "n": "Other fortified wine",
+       "old": [
+        "k66"
+       ],
+       "brief": "Rutherglen Muscat, Setúbal, Montilla-Moriles, Rueda dorado."
+      }
+     ]
+    },
+    {
+     "n": "Aromatised wine",
+     "web": true,
+     "brief": "Archetypes: vermouth styles (Turin rosso, Chambéry dry, bianco; Carpano Antica Formula, Noilly Prat, Martini, Cocchi, Dolin); quinquina and americano (Lillet, Cocchi Americano, Byrrh, Dubonnet), Barolo Chinato; sangria, Glühwein; retsina (Greek resinated wine, PDO tradition).",
+     "k": [
+      {
+       "n": "Vermouth",
+       "old": [
+        "k67"
+       ]
+      },
+      {
+       "n": "Quinquina & americano",
+       "old": [
+        "k70"
+       ]
+      },
+      {
+       "n": "Sangria & mulled wine",
+       "old": [
+        "k68"
+       ]
+      },
+      {
+       "n": "Retsina",
+       "old": [
+        "k69"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Beer",
+   "mode": "variety",
+   "note": "Kinds follow the BJCP style guidelines; breweries go in the brand register; archetypes are reference beers named by BJCP or the style's originator.",
+   "b": [
+    {
+     "m": "Style",
+     "v": "BJCP categories and sub-styles",
+     "w": "BJCP Beer Style Guidelines (2021) — the standard used by judges and homebrewers."
+    },
+    {
+     "m": "Strength and bitterness",
+     "v": "ABV · IBU · SRM colour",
+     "w": "Printed on most craft labels; define the style range."
+    },
+    {
+     "m": "Freshness and provenance",
+     "w": "Canning/bottling date for hoppy beers; Trappist and lambic protected designations."
+    }
+   ],
+   "s": [
+    {
+     "n": "Pale & amber lagers",
+     "web": true,
+     "brief": "Archetypes = reference beers per BJCP (Pilsner Urquell for Czech pale lager, Bitburger/Jever for German Pils, Augustiner Helles, Spaten Oktoberfest/Märzen, Negra Modelo/Vienna, Budweiser/Miller Lite for American light lager, Heineken/Asahi Super Dry for international pale lager). Trim homebrew-shop SKUs.",
+     "k": [
+      {
+       "n": "International pale lager",
+       "old": [
+        "k72"
+       ]
+      },
+      {
+       "n": "American light lager",
+       "old": [
+        "k73"
+       ]
+      },
+      {
+       "n": "German Pils",
+       "old": [
+        "k74"
+       ]
+      },
+      {
+       "n": "Czech pale lager",
+       "old": [
+        "k75"
+       ]
+      },
+      {
+       "n": "Munich Helles",
+       "old": [
+        "k76"
+       ]
+      },
+      {
+       "n": "Dortmunder Export",
+       "old": []
+      },
+      {
+       "n": "Kellerbier",
+       "old": []
+      },
+      {
+       "n": "Festbier",
+       "old": []
+      },
+      {
+       "n": "Märzen",
+       "old": [
+        "k77"
+       ]
+      },
+      {
+       "n": "Vienna lager",
+       "old": [
+        "k78"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Dark lagers & bocks",
+     "web": true,
+     "brief": "Reference beers: Ayinger Altbairisch Dunkel, Köstritzer Schwarzbier, U Fleků dark lager, Einbecker Ur-Bock, Paulaner Salvator/Ayinger Celebrator (doppelbock), Aventinus Eisbock, Żywiec/Sinebrychoff Baltic porter, Schlenkerla Rauchbier. Maibock as bock type.",
+     "k": [
+      {
+       "n": "Munich Dunkel",
+       "old": [
+        "k94"
+       ]
+      },
+      {
+       "n": "Schwarzbier",
+       "old": [
+        "k95"
+       ]
+      },
+      {
+       "n": "Czech dark lager",
+       "old": [
+        "k96"
+       ]
+      },
+      {
+       "n": "Bock",
+       "old": [
+        "k97"
+       ]
+      },
+      {
+       "n": "Doppelbock",
+       "old": []
+      },
+      {
+       "n": "Eisbock",
+       "old": []
+      },
+      {
+       "n": "Baltic porter",
+       "old": []
+      },
+      {
+       "n": "Rauchbier",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Pale ales, IPA & bitter",
+     "web": true,
+     "brief": "Reference beers: Sierra Nevada Pale Ale, Bell's Two Hearted, Pliny the Elder (double IPA), The Alchemist Heady Topper / Tree House (hazy), Fuller's ESB/London Pride (bitter), Worthington White Shield (English IPA), Old Peculier/Thomas Hardy's (old ale), Anchor Old Foghorn (barleywine). IPA sub-styles (West Coast, session, black, NZ) as types.",
+     "k": [
+      {
+       "n": "American pale ale",
+       "old": [
+        "k83"
+       ]
+      },
+      {
+       "n": "American IPA",
+       "old": [
+        "k79"
+       ]
+      },
+      {
+       "n": "Hazy IPA",
+       "old": [
+        "k80"
+       ]
+      },
+      {
+       "n": "Double IPA",
+       "old": [
+        "k81"
+       ]
+      },
+      {
+       "n": "English IPA",
+       "old": [
+        "k82"
+       ]
+      },
+      {
+       "n": "Bitter",
+       "old": [
+        "k84"
+       ],
+       "brief": "was 'Best bitter'; ordinary/best/ESB as types."
+      },
+      {
+       "n": "Mild",
+       "old": []
+      },
+      {
+       "n": "Scottish & Scotch ale",
+       "old": []
+      },
+      {
+       "n": "Old ale",
+       "old": []
+      },
+      {
+       "n": "Barleywine",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Porter & stout",
+     "web": true,
+     "brief": "Reference beers: Guinness Draught (Irish stout), Guinness Foreign Extra, Mackeson (sweet stout), Samuel Smith Oatmeal Stout, Fuller's London Porter, Founders/Deschutes porter, Courage Russian Imperial Stout and Bourbon County (imperial; barrel-aged as type).",
+     "k": [
+      {
+       "n": "Irish stout",
+       "old": [
+        "k86"
+       ]
+      },
+      {
+       "n": "Sweet stout",
+       "old": [
+        "k87"
+       ],
+       "brief": "milk stout."
+      },
+      {
+       "n": "Oatmeal stout",
+       "old": []
+      },
+      {
+       "n": "Foreign extra stout",
+       "old": []
+      },
+      {
+       "n": "Imperial stout",
+       "old": [
+        "k88"
+       ]
+      },
+      {
+       "n": "English porter",
+       "old": [
+        "k89"
+       ]
+      },
+      {
+       "n": "American porter",
+       "old": [
+        "k90"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Wheat beers & hybrid ales",
+     "web": true,
+     "brief": "Reference beers: Weihenstephaner/Schneider Weisse (dunkelweizen, weizenbock as types), Hoegaarden (witbier), Bell's Oberon (American wheat), Früh/Reissdorf Kölsch, Uerige/Zum Uerige Altbier, Anchor Steam (California common), Genesee Cream Ale.",
+     "k": [
+      {
+       "n": "Weissbier",
+       "old": [
+        "k91"
+       ]
+      },
+      {
+       "n": "Witbier",
+       "old": [
+        "k92"
+       ]
+      },
+      {
+       "n": "American wheat beer",
+       "old": [
+        "k93"
+       ]
+      },
+      {
+       "n": "Kölsch",
+       "old": [
+        "k85"
+       ]
+      },
+      {
+       "n": "Altbier",
+       "old": []
+      },
+      {
+       "n": "California common",
+       "old": []
+      },
+      {
+       "n": "Cream ale",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Belgian & Trappist ales",
+     "web": true,
+     "brief": "All new kinds. Archetypes = reference beers (Westmalle Dubbel and Tripel as originators, Duvel, Chimay Blue, Rochefort 10, Westvleteren 12, St. Bernardus Abt, Leffe Blonde, Saison Dupont, Jenlain bière de garde). Add the Authentic Trappist Product designation as a tradition entry; Trappist breweries to the brand register.",
+     "k": [
+      {
+       "n": "Dubbel",
+       "old": []
+      },
+      {
+       "n": "Tripel",
+       "old": []
+      },
+      {
+       "n": "Belgian dark strong ale",
+       "old": [],
+       "brief": "quadrupel."
+      },
+      {
+       "n": "Belgian golden strong ale",
+       "old": []
+      },
+      {
+       "n": "Belgian blond ale",
+       "old": []
+      },
+      {
+       "n": "Saison",
+       "old": []
+      },
+      {
+       "n": "Bière de garde",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Sour & wild beers",
+     "web": true,
+     "brief": "All new kinds. Archetypes: Cantillon, 3 Fonteinen, Boon, Oud Beersel (lambic, gueuze, kriek/framboise); Rodenbach Grand Cru (Flanders red); Liefmans Goudenband (oud bruin); Berliner Kindl Weisse; Leipziger Gose; Russian River/Jester King (American wild). HORAL / traditional gueuze designation as a tradition entry.",
+     "k": [
+      {
+       "n": "Lambic",
+       "old": []
+      },
+      {
+       "n": "Gueuze",
+       "old": []
+      },
+      {
+       "n": "Fruit lambic",
+       "old": [],
+       "brief": "kriek, framboise."
+      },
+      {
+       "n": "Flanders red ale",
+       "old": []
+      },
+      {
+       "n": "Oud bruin",
+       "old": []
+      },
+      {
+       "n": "Berliner Weisse",
+       "old": []
+      },
+      {
+       "n": "Gose",
+       "old": []
+      },
+      {
+       "n": "American wild ale",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Traditional, specialty & gluten-free beers",
+     "web": true,
+     "brief": "Traditional grain and fruit beers with their cultures as tradition entries (African sorghum beer such as umqombothi/chibuku, chicha, pombe, Finnish sahti, East African banana beer); gluten-free beers (move gluten-free branded models from millet/sorghum kinds here where appropriate); fruit, spice and herb beers.",
+     "k": [
+      {
+       "n": "Sorghum beer",
+       "old": [
+        "k99"
+       ]
+      },
+      {
+       "n": "Millet beer",
+       "old": [
+        "k100"
+       ]
+      },
+      {
+       "n": "Maize beer",
+       "old": [
+        "k101"
+       ],
+       "brief": "chicha."
+      },
+      {
+       "n": "Banana beer",
+       "old": [
+        "k102"
+       ]
+      },
+      {
+       "n": "Sahti",
+       "old": []
+      },
+      {
+       "n": "Gluten-free beer",
+       "old": []
+      },
+      {
+       "n": "Fruit & spice beer",
+       "old": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Whisky",
+   "mode": "variety",
+   "note": "Country and style first; Scotch by region → distillery → bottling; distilleries in the brand register.",
+   "b": [
+    {
+     "m": "Age statement and cask",
+     "v": "NAS → 10/12 → 15/18 → 21/25+ years; bourbon/sherry/port/wine cask finishes; cask strength, single cask",
+     "w": "Legal age statement is the youngest whisky in the bottle; cask type shapes flavour."
+    },
+    {
+     "m": "Legal category",
+     "w": "Scotch Whisky Regulations 2009 categories; US standards of identity (straight, bottled-in-bond); Irish and Japanese (JSLMA 2021) rules."
+    },
+    {
+     "m": "Region",
+     "v": "Speyside · Highland · Islay · Lowland · Campbeltown · Islands",
+     "w": "Scotch Whisky Association regions; peat level (ppm) as a detail."
+    }
+   ],
+   "s": [
+    {
+     "n": "Scotch whisky",
+     "web": true,
+     "brief": "Single malt: region as type; archetypes = distillery core bottlings ordered by significance (Glenfiddich 12, The Macallan 12/18 Sherry Oak, Glenlivet 12, Lagavulin 16, Laphroaig 10, Ardbeg 10/Uigeadail, Talisker 10, Highland Park 12/18, Springbank 10, Balvenie DoubleWood, Glenmorangie Original, Oban 14…), old models become versions (ages, finishes). Blends: Johnnie Walker labels, Chivas Regal, Ballantine's, Dewar's, Famous Grouse, Royal Salute. Blended malt: Monkey Shoulder, Compass Box. Move non-Scotch models (Amrut, Kavalan, etc.) to the world whisky shelf. Distilleries to the brand register (region, founding, owner).",
+     "k": [
+      {
+       "n": "Single malt Scotch whisky",
+       "old": [
+        "k111"
+       ]
+      },
+      {
+       "n": "Blended Scotch whisky",
+       "old": [
+        "k112"
+       ]
+      },
+      {
+       "n": "Blended malt Scotch whisky",
+       "old": [
+        "k116"
+       ]
+      },
+      {
+       "n": "Single grain Scotch whisky",
+       "old": [
+        "k117"
+       ]
+      },
+      {
+       "n": "Blended grain Scotch whisky",
+       "old": [
+        "k118"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "American whiskey",
+     "web": true,
+     "brief": "Archetypes = mash-bill/brand families and icons: Buffalo Trace, Pappy Van Winkle, Maker's Mark (wheated), Wild Turkey 101, Booker's, Blanton's (single barrel), Old Forester, Jack Daniel's Old No. 7 and Gentleman Jack, George Dickel; Rittenhouse, Sazerac, WhistlePig rye; Mellow Corn; Westland/Stranahan's American single malt. Straight/bottled-in-bond as types. Trim the 59 bourbon SKUs to versions of archetypes.",
+     "k": [
+      {
+       "n": "Bourbon",
+       "old": [
+        "k113"
+       ]
+      },
+      {
+       "n": "Tennessee whiskey",
+       "old": []
+      },
+      {
+       "n": "Rye whiskey",
+       "old": [
+        "k114"
+       ]
+      },
+      {
+       "n": "Wheat whiskey",
+       "old": [
+        "k121"
+       ]
+      },
+      {
+       "n": "Corn whiskey",
+       "old": [
+        "k120"
+       ]
+      },
+      {
+       "n": "American single malt whiskey",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Irish, Japanese & world whisky",
+     "web": true,
+     "brief": "Irish: single pot still (Redbreast, Green Spot, Midleton Very Rare), blended (Jameson, Bushmills, Tullamore D.E.W.), Irish single malt as type. Japanese: Yamazaki, Hakushu, Hibiki, Nikka Yoichi/Miyagikyo, Nikka From the Barrel, Chichibu; note JSLMA labelling standard. Canadian: Crown Royal, Canadian Club, Lot No. 40. World: Amrut, Paul John (India), Kavalan (Taiwan), Sullivans Cove (Australia), English, Nordic.",
+     "k": [
+      {
+       "n": "Irish single pot still whiskey",
+       "old": [
+        "k119"
+       ]
+      },
+      {
+       "n": "Irish whiskey",
+       "old": []
+      },
+      {
+       "n": "Japanese whisky",
+       "old": []
+      },
+      {
+       "n": "Canadian whisky",
+       "old": [
+        "k115"
+       ]
+      },
+      {
+       "n": "World whisky",
+       "old": [],
+       "brief": "single malts and blends from India, Taiwan, Australia, England, Nordic countries and elsewhere."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Spirits",
+   "mode": "variety",
+   "note": "By base material and tradition; grade ladders where the law sets them.",
+   "b": [
+    {
+     "m": "Age grade",
+     "v": "Cognac VS → VSOP → XO → XXO / Hors d'âge; Tequila blanco → reposado → añejo → extra añejo; Armagnac and Calvados age statements",
+     "w": "Bureau National Interprofessionnel du Cognac and the Tequila NOM-006 define the grades."
+    },
+    {
+     "m": "Production method",
+     "w": "Pot vs column still, 100% agave vs mixto, ancestral vs artisanal mezcal (NOM-070), cane juice vs molasses rum."
+    },
+    {
+     "m": "Protected origin",
+     "w": "Geographical indications (Cognac, Tequila, Mezcal, Pisco, Rhum agricole AOC Martinique, Grappa) guarantee origin and method."
+    }
+   ],
+   "s": [
+    {
+     "n": "Gin, vodka & aquavit",
+     "web": true,
+     "brief": "Gin: London dry, Plymouth, Old Tom, navy strength, contemporary as types; archetypes Tanqueray, Beefeater, Gordon's, Bombay Sapphire, Hendrick's, Monkey 47, Plymouth. Genever: oude/jonge/korenwijn types (Bols). Vodka by base (grain, potato, grape): Smirnoff, Absolut, Grey Goose, Belvedere, Stolichnaya, Żubrówka (flavoured). Aquavit: Linie, O.P. Anderson, Aalborg.",
+     "k": [
+      {
+       "n": "Gin",
+       "old": [
+        "k122"
+       ]
+      },
+      {
+       "n": "Genever",
+       "old": [
+        "k155"
+       ]
+      },
+      {
+       "n": "Vodka",
+       "old": [
+        "k123"
+       ]
+      },
+      {
+       "n": "Flavoured vodka",
+       "old": [
+        "k124"
+       ]
+      },
+      {
+       "n": "Aquavit",
+       "old": [
+        "k156"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Rum & cane spirits",
+     "web": true,
+     "brief": "Rum by style tradition (Jamaican, Demerara, Barbados, Cuban/Spanish, French agricole) as types; archetypes: Appleton Estate, Hampden, El Dorado 12/15, Mount Gay, Havana Club, Bacardí, Diplomático, Plantation/Planteray; spiced: Captain Morgan, Kraken, Sailor Jerry; agricole: Rhum J.M, Clément, Neisson; clairin; cachaça (51, Ypióca, Avuá); Batavia and Ceylon arrack.",
+     "k": [
+      {
+       "n": "Molasses rum",
+       "old": [
+        "k125"
+       ]
+      },
+      {
+       "n": "Spiced rum",
+       "old": [
+        "k126"
+       ]
+      },
+      {
+       "n": "Rhum agricole",
+       "old": [
+        "k127"
+       ]
+      },
+      {
+       "n": "Cachaça",
+       "old": [
+        "k128"
+       ]
+      },
+      {
+       "n": "Arrack",
+       "old": [
+        "k157"
+       ],
+       "brief": "was 'Arrack & palm spirit': Batavia (cane/rice) and Ceylon (coconut palm) arrack."
+      }
+     ]
+    },
+    {
+     "n": "Agave spirits",
+     "web": true,
+     "brief": "Tequila grades as types; archetypes: Patrón, Don Julio (1942 as version), José Cuervo Reserva de la Familia, Herradura, Fortaleza, El Tesoro, Casamigos; Mezcal by agave (espadín, tobalá…) and category (mezcal, artesanal, ancestral): Del Maguey, Vago, Ilegal; sotol, raicilla, bacanora. Mezcal and tequila traditions (UNESCO agave landscape) as tradition entries.",
+     "k": [
+      {
+       "n": "Tequila",
+       "old": [
+        "k129"
+       ]
+      },
+      {
+       "n": "Mezcal",
+       "old": [
+        "k130"
+       ]
+      },
+      {
+       "n": "Sotol",
+       "old": [
+        "k131"
+       ]
+      },
+      {
+       "n": "Raicilla",
+       "old": []
+      },
+      {
+       "n": "Bacanora",
+       "old": []
+      }
+     ]
+    },
+    {
+     "n": "Brandy & eau de vie",
+     "web": true,
+     "brief": "Cognac by cru (Grande Champagne…) and grade; archetypes Hennessy, Rémy Martin, Martell, Courvoisier, Hine, Louis XIII. Armagnac (Bas-Armagnac, vintage); Brandy de Jerez solera grades; Calvados Pays d'Auge; Pisco (Peru/Chile, quebranta/acholado); grappa and other pomace brandy (marc, orujo, tsipouro); fruit eau de vie (kirsch, poire Williams, slivovitz, pálinka, rakija). Add pálinka/šljivovica traditions.",
+     "k": [
+      {
+       "n": "Cognac",
+       "old": [
+        "k132"
+       ]
+      },
+      {
+       "n": "Armagnac",
+       "old": [
+        "k134"
+       ]
+      },
+      {
+       "n": "Grape brandy",
+       "old": [
+        "k133"
+       ]
+      },
+      {
+       "n": "Calvados",
+       "old": [
+        "k135"
+       ]
+      },
+      {
+       "n": "Pisco",
+       "old": [
+        "k136"
+       ]
+      },
+      {
+       "n": "Grappa & pomace brandy",
+       "old": [
+        "k137"
+       ]
+      },
+      {
+       "n": "Fruit brandy",
+       "old": [
+        "k138"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Anise spirits & absinthe",
+     "web": true,
+     "brief": "Archetypes: Pernod, Ricard, Henri Bardouin (pastis); Plomari, Ouzo 12 (ouzo, PGI); Yeni Rakı (rakı); Lebanese arak (Ksarak); absinthe verte/blanche (Pernod Fils historic, Jade, Kübler; Val-de-Travers). Rename 'Other anise spirits' to Arak & rakı.",
+     "k": [
+      {
+       "n": "Pastis",
+       "old": [
+        "k159"
+       ]
+      },
+      {
+       "n": "Ouzo",
+       "old": [
+        "k158"
+       ]
+      },
+      {
+       "n": "Arak & rakı",
+       "old": [
+        "k153"
+       ]
+      },
+      {
+       "n": "Absinthe",
+       "old": [
+        "k154"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Asian spirits",
+     "web": true,
+     "brief": "Baijiu by aroma type (sauce/jiang, strong/nong, light/qing, rice) as the ladder; archetypes Kweichow Moutai, Wuliangye, Fenjiu, Luzhou Laojiao, Jiugui. Shochu by base (imo, mugi, kome, kokuto) and honkaku; awamori kusu ageing; soju (Chamisul, Jinro; traditional Andong soju).",
+     "k": [
+      {
+       "n": "Baijiu",
+       "old": [
+        "k149"
+       ]
+      },
+      {
+       "n": "Shochu",
+       "old": [
+        "k150"
+       ]
+      },
+      {
+       "n": "Awamori",
+       "old": [
+        "k152"
+       ]
+      },
+      {
+       "n": "Soju",
+       "old": [
+        "k151"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Liqueurs",
+   "mode": "variety",
+   "b": [
+    {
+     "m": "Sugar and strength",
+     "w": "EU definition: liqueur ≥ 100 g/l sugar and ≥ 15% ABV; 'crème de' ≥ 250 g/l."
+    }
+   ],
+   "s": [
+    {
+     "n": "Liqueurs",
+     "web": true,
+     "brief": "Archetypes = named heritage liqueurs ordered by significance: Chartreuse (green/yellow), Bénédictine, Jägermeister, Drambuie, Galliano, St-Germain (herb & spice); Campari, Aperol, Fernet-Branca, Montenegro, Averna (amaro); Grand Marnier, Cointreau, Bols Blue Curaçao (orange); Baileys, Amarula (cream); Kahlúa, Tia Maria (coffee); Disaronno, Frangelico, Nocino (nut); Chambord, crème de cassis de Dijon, Luxardo Maraschino, umeshu (fruit); Pallini limoncello; sambuca, anisette; Plymouth/Sipsmith sloe gin. Dissolve 'Other fruit liqueur' into Fruit liqueur.",
+     "k": [
+      {
+       "n": "Herb & spice liqueur",
+       "old": [
+        "k145"
+       ]
+      },
+      {
+       "n": "Amaro & bitter liqueur",
+       "old": [
+        "k146"
+       ]
+      },
+      {
+       "n": "Orange liqueur",
+       "old": [
+        "k142"
+       ],
+       "brief": "triple sec and curaçao."
+      },
+      {
+       "n": "Fruit liqueur",
+       "old": [
+        "k140"
+       ]
+      },
+      {
+       "n": "Cream liqueur",
+       "old": [
+        "k139"
+       ]
+      },
+      {
+       "n": "Coffee liqueur",
+       "old": [
+        "k143"
+       ]
+      },
+      {
+       "n": "Nut liqueur",
+       "old": [
+        "k141",
+        "k144"
+       ],
+       "brief": "merges Amaretto (Disaronno as archetype) into nut liqueurs."
+      },
+      {
+       "n": "Limoncello",
+       "old": [
+        "k148"
+       ]
+      },
+      {
+       "n": "Anise liqueur",
+       "old": [],
+       "brief": "sambuca, anisette."
+      },
+      {
+       "n": "Sloe gin",
+       "old": [
+        "k147"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Sake & rice wine",
+   "mode": "variety",
+   "note": "Sake by the legal grade ladder; Korean and Chinese rice wines alongside.",
+   "b": [
+    {
+     "m": "Sake grade",
+     "v": "futsūshu → honjōzō → ginjō → daiginjō (± junmai); seimai-buai 70% → 60% → 50%",
+     "w": "Japan's National Tax Agency special-designation sake standards."
+    },
+    {
+     "m": "Style and treatment",
+     "w": "Genshu, nama, nigori, koshu, kimoto/yamahai as label terms."
+    }
+   ],
+   "s": [
+    {
+     "n": "Sake",
+     "web": true,
+     "brief": "Archetypes = brewery flagship bottlings (Dassai 23/45, Kubota Manju, Hakkaisan, Juyondai, Kokuryu, Dewazakura, Gekkeikan, Sho Chiku Bai); polishing ratio and grade as types; koshu, kimoto/yamahai as types. Brewers (kura) to the brand register; prefecture as detail.",
+     "k": [
+      {
+       "n": "Junmai sake",
+       "old": [
+        "k160"
+       ],
+       "brief": "junmai, junmai ginjo, junmai daiginjo as types."
+      },
+      {
+       "n": "Honjozo, ginjo & daiginjo sake",
+       "old": [
+        "k161"
+       ],
+       "brief": "was 'Sake with brewer's alcohol'."
+      },
+      {
+       "n": "Futsūshu",
+       "old": [
+        "k162"
+       ]
+      },
+      {
+       "n": "Nigori sake",
+       "old": [
+        "k163"
+       ]
+      },
+      {
+       "n": "Sparkling sake",
+       "old": [
+        "k164"
+       ]
+      },
+      {
+       "n": "Infused sake",
+       "old": [
+        "k168"
+       ],
+       "brief": "was 'Infused rice wine': yuzushu and other fruit-steeped sake."
+      }
+     ]
+    },
+    {
+     "n": "Korean & Chinese rice wine",
+     "web": true,
+     "brief": "Makgeolli (Kooksoondang, Jangsu), cheongju/yakju (Gyeongju Beopju), huangjiu with Shaoxing as originator (Gu Yue Long Shan, Kuaijishan; age grades). Korean traditional liquor and Shaoxing brewing as tradition entries.",
+     "k": [
+      {
+       "n": "Makgeolli",
+       "old": [
+        "k165"
+       ]
+      },
+      {
+       "n": "Cheongju",
+       "old": [
+        "k166"
+       ]
+      },
+      {
+       "n": "Huangjiu",
+       "old": [
+        "k167"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Cider, perry & mead",
+   "mode": "variety",
+   "b": [
+    {
+     "m": "Fruit and method",
+     "v": "concentrate → fresh-pressed → traditional/bittersweet → keeved or bottle-conditioned",
+     "w": "Juice content and method separate mass-market from craft cider (e.g. UK 35% minimum vs real cider)."
+    },
+    {
+     "m": "Protected origin",
+     "w": "AOP Cidre/Poiré Domfront, Pays d'Auge; DOP Sidra de Asturias; PGI Herefordshire cider/perry."
+    }
+   ],
+   "s": [
+    {
+     "n": "Cider & perry",
+     "web": true,
+     "brief": "Archetypes: Aspall, Westons, Thatchers, Henney's (English); Pays d'Auge cidre, Eric Bordelet (French); Asturian sidra natural (Trabanco); Québec cidre de glace; pommeau de Normandie; Kopparberg/Rekorderlig fruit cider. Asturian cider culture (UNESCO) as a tradition entry.",
+     "k": [
+      {
+       "n": "English cider",
+       "old": [
+        "k104"
+       ]
+      },
+      {
+       "n": "French cider",
+       "old": [
+        "k105"
+       ]
+      },
+      {
+       "n": "Spanish cider",
+       "old": [
+        "k106"
+       ]
+      },
+      {
+       "n": "Fruit & flavoured cider",
+       "old": [
+        "k103"
+       ],
+       "brief": "was the generic 'Cider' kind."
+      },
+      {
+       "n": "Ice cider",
+       "old": []
+      },
+      {
+       "n": "Pommeau",
+       "old": []
+      },
+      {
+       "n": "Perry",
+       "old": [
+        "k107"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Mead, fruit & sap wines",
+     "web": true,
+     "brief": "Mead types (traditional, melomel, metheglin, sack); tej (Ethiopian honey wine) and Polish półtorak/dwójniak grades as archetypes/traditions; fruit wines (elderberry, plum, strawberry); palm wine and pulque traditions.",
+     "k": [
+      {
+       "n": "Mead",
+       "old": [
+        "k108"
+       ]
+      },
+      {
+       "n": "Fruit wine",
+       "old": [
+        "k109"
+       ]
+      },
+      {
+       "n": "Palm wine",
+       "old": [
+        "k110"
+       ]
+      },
+      {
+       "n": "Pulque",
+       "old": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Ready-to-drink & mixed packs",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Base spirit and strength",
+     "w": "Spirit-based vs malt-based vs wine-based RTDs differ in taste, tax and ABV."
+    }
+   ],
+   "s": [
+    {
+     "n": "Ready-to-drink",
+     "web": true,
+     "brief": "Tier mode: market-covering brands plus test winners (Which?/CHOICE). Archetypes only where a named product defines the kind: White Claw (hard seltzer), Smirnoff Ice/Bacardi Breezer (alcopop), Suntory -196 Strong Zero (chūhai as RTD type), Stiegl Radler. Merge 'Other ready-to-drink mixes' and alcoholic root beer into existing kinds. Mixed cases, gift sets and advent calendars as one kind with types (wine, beer, spirits).",
+     "k": [
+      {
+       "n": "Ready-to-drink cocktail",
+       "old": [
+        "k169",
+        "k173"
+       ],
+       "brief": "chūhai, canned G&T, blanddryck as types."
+      },
+      {
+       "n": "Hard seltzer",
+       "old": [
+        "k170"
+       ]
+      },
+      {
+       "n": "Flavoured malt beverage",
+       "old": [
+        "k98"
+       ],
+       "brief": "alcopop; alcoholic root beer and hard lemonade."
+      },
+      {
+       "n": "Wine spritzer",
+       "old": [
+        "k171"
+       ],
+       "brief": "was 'Canned spritzer'."
+      },
+      {
+       "n": "Radler & shandy",
+       "old": [
+        "k172"
+       ]
+      },
+      {
+       "n": "Mixed case & gift set",
+       "old": [
+        "k174",
+        "k175",
+        "k176"
+       ],
+       "brief": "mixed wine case, beer pack, spirits gift set and advent calendar as types."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "No & low alcohol",
+   "mode": "mixed",
+   "note": "Alcohol-free (≤0.5%) and low-alcohol versions of the drinks above.",
+   "b": [
+    {
+     "m": "Alcohol level",
+     "v": "alcohol-free ≤0.05% (UK) / ≤0.5% → low ≤1.2% → reduced",
+     "w": "UK and EU labelling descriptors."
+    },
+    {
+     "m": "Method",
+     "w": "Dealcoholised (vacuum distillation, reverse osmosis) vs arrested fermentation vs distilled botanical alternatives."
+    }
+   ],
+   "s": [
+    {
+     "n": "No & low alcohol",
+     "web": true,
+     "brief": "All new kinds. Tier mainstream, variety at the enthusiast end. Archetypes: Heineken 0.0, Guinness 0, Erdinger Alkoholfrei, Athletic Brewing (beer); Torres Natureo, Noughty (wine/sparkling); Seedlip (originator of distilled non-alcoholic spirits), Lyre's, Pentire, Everleaf; Crodino and Sanpellegrino Sanbittèr (alcohol-free aperitif).",
+     "k": [
+      {
+       "n": "Alcohol-free beer",
+       "old": []
+      },
+      {
+       "n": "Alcohol-free wine",
+       "old": []
+      },
+      {
+       "n": "Alcohol-free sparkling wine",
+       "old": []
+      },
+      {
+       "n": "Non-alcoholic spirit",
+       "old": []
+      },
+      {
+       "n": "Alcohol-free aperitif",
+       "old": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [],
+ "drop": []
+}
