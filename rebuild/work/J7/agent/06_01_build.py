@@ -39,7 +39,7 @@ kinds=[
  "x":[
   X("Captain Morgan Original Spiced","Flagship spiced rum-based spirit drink, the brand behind the 1980s US spiced-rum boom; owned by Diageo.","Captain Morgan","1984",W+"Captain_Morgan",
     [("Captain Morgan Original Spiced Gold","Captain Morgan","1984","US introduction"),("Captain Morgan 100 Proof Spiced","Captain Morgan","",""),("Captain Morgan Black Spiced","Captain Morgan","",""),("Captain Morgan Private Stock","Captain Morgan","",""),("Captain Morgan Spiced Gold 0.0%","Captain Morgan","","alcohol-free")],"strength · gold vs. black"),
-  X("Kraken Black Spiced","Caribbean black spiced rum blended with cinnamon, ginger and clove, sold in a bottle with a sea-monster label.","Kraken","2010",W+"Kraken_Rum",
+  X("Kraken Black Spiced","Caribbean black spiced rum blended with cinnamon, ginger and clove, made from Caribbean molasses rum.","Kraken","2010",W+"Kraken_Rum",
     [("Kraken Black Spiced Rum","Kraken","2010","47% ABV"),("Kraken Gold Spiced","Kraken","2023","35% ABV")],"strength · black vs. gold"),
   X("Sailor Jerry Spiced","Blended rum-based spirit with vanilla, lime and spices, named after tattoo artist Norman 'Sailor Jerry' Collins.","Sailor Jerry","",
     "https://www.diffordsguide.com/beer-wine-spirits/756/sailor-jerry",

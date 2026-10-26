@@ -33,7 +33,7 @@ kinds = [
   "x": [
    X("Jameson", "The best-known blended Irish whiskey, founded by John Jameson in Dublin in 1780 and now made at Midleton.", ID, "1780", "Jameson_Irish_Whiskey",
      [("Jameson Original", ID, "", "flagship blend"), ("Jameson Crested", ID, "1963", "launched as Crested Ten"), ("Jameson Black Barrel", ID, "", ""),
-      ("Jameson 18 Year Old", ID, "", "")]),
+      ("Jameson 18 Year Old", ID, "", ""), ("Jameson Triple Triple Chestnut Edition", ID, "", "old data")]),
    X("Bushmills Original & Black Bush", "Northern Irish blends from Bushmills: White Bush, and the malt-rich, oloroso-matured Black Bush.", "Bushmills", "", "Old_Bushmills_Distillery",
      [("Bushmills Original", "Bushmills", "", "White Bush"), ("Black Bush", "Bushmills", "", "higher malt share, oloroso casks")]),
    X("Bushmills single malt", "Triple-distilled single malts from Bushmills, each age with its own cask finish.", "Bushmills", "", "Old_Bushmills_Distillery",
@@ -46,11 +46,13 @@ kinds = [
    X("Powers Gold Label", "Triple-distilled blend at 43%, once Ireland's best-selling whiskey.", ID, "1886", "Powers_(whiskey)", [], a="Powers"),
    X("Midleton Very Rare", "Annual premium blend of pot still and grain whiskeys selected by Midleton's master distiller.", ID, "1984", "Midleton_Very_Rare",
      [("Midleton Very Rare (annual vintage)", ID, "1984", "selected by Barry Crockett to 2013, then Brian Nation"),
-      ("Midleton Very Rare 30th Anniversary Pearl Edition", ID, "2014", "117 bottles"),
+      ("Midleton Very Rare 30th Anniversary Pearl Edition", ID, "2014", "117 bottles"), ("Midleton Very Rare 2026 Vintage Release", ID, "2026", "old data"),
       ("Midleton Barry Crockett Legacy", ID, "", "single pot still, 46%")], dt="vintage year · master distiller's selection"),
   ],
   "m": [["Teeling Small Batch", "Teeling"], ["Teeling Single Grain", "Teeling"], ["Dingle Single Malt", "Dingle Distillery"],
-        ["Connemara Peated Malt", ""], ["Kilbeggan Single Grain", "Kilbeggan"], ["Kilbeggan Rye Whiskey", "Kilbeggan"], ["Paddy", ""]]},
+        ["Connemara Peated Malt", ""], ["Kilbeggan Single Grain", "Kilbeggan"], ["Kilbeggan Rye Whiskey", "Kilbeggan"], ["Paddy", ""],
+        ["Teeling Single Malt", "Teeling"], ["Teeling 33 YO Very Rare Cask Single Malt", "Teeling"], ["Teeling Distillery Exclusive 20 YO Mongolian Oak Cask Single Malt", "Teeling"],
+        ["The Donn Single Malt Irish Whiskey", "Craft Irish Whiskey"], ["Titanic Distillers 8 YO Single Malt", "Titanic Distillers"], ["Fercullen 15", "Fercullen"]]},
  {"n": "Japanese whisky", "a": "Japanese single malt · Japanese blended whisky",
   "d": "Whisky made in Japan in the Scotch tradition; the 2021 JSLMA standard requires fermenting, distilling, maturing and bottling in Japan.",
   "t": ["Single malt", "Blended", "Grain (Coffey still)", "Blended malt / pure malt", "JSLMA-compliant 'Japanese whisky' label", "World blend bottled in Japan"],
@@ -66,7 +68,7 @@ kinds = [
      [("Hibiki 17", SU, "1989", "discontinued"), ("Hibiki 21", SU, "1989", ""), ("Hibiki 30", SU, "1997", ""), ("Hibiki 12", SU, "2009", "discontinued"),
       ("Hibiki Japanese Harmony", SU, "2015", "no age statement")], dt="age statement · NAS"),
    X("Yoichi", "Nikka's first distillery, founded by Masataka Taketsuru on Hokkaidō; robust, often peated single malt.", NI, "1934", "Yoichi_distillery",
-     [("Yoichi 20 Year Old", NI, "", "Best Single Malt, World Whiskies Awards 2008")]),
+     [("Yoichi 10 Year Old", NI, "", "old data"), ("Yoichi 20 Year Old", NI, "", "Best Single Malt, World Whiskies Awards 2008")]),
    X("Miyagikyo", "Nikka's second distillery near Sendai, opened 1969; lighter, fruitier single malt.", NI, "1969", "Miyagikyo_distillery"),
    X("Nikka From the Barrel", "Nikka's high-strength blended whisky in a squat 50 cl bottle.", NI, "", "Nikka_Whisky_Distilling"),
    X("Taketsuru Pure Malt", "Nikka blended malt named after its founder.", NI, "", "Nikka_Whisky_Distilling",
@@ -78,7 +80,7 @@ kinds = [
    X("Ichiro's Malt Card Series", "54 bottlings from closed Hanyu distillery stock, each labelled with a playing card; auction-record collectibles.", "Venture Whisky", "2005–2014", "Chichibu_distillery",
      [], a="Hanyu Card Series", dt="card (suit and value) · cask type"),
   ],
-  "m": [["Suntory Kakubin", SU], ["Suntory Shirofuda", SU], ["Black Nikka", NI]]},
+  "m": [["Suntory Kakubin", SU], ["Suntory Shirofuda", SU], ["Black Nikka", NI], ["Ichiro's Malt & Grain Blended Japanese Whisky", "Venture Whisky"], ["Sakurao Togouchi Misty Stillman's Selection", "Sakurao"]]},
  {"n": "Canadian whisky", "a": "Canadian rye · Rye whisky (Canada)",
   "d": "Whisky mashed, distilled and aged at least three years in small wood in Canada, usually a blend; legally also called 'rye'.",
   "t": ["Blended", "100% rye", "Single malt", "Flavoured"],
@@ -112,7 +114,7 @@ kinds = [
       ("Paul John Bold", "John Distilleries", "", "peated"), ("Paul John Classic Select Cask", "John Distilleries", "", ""),
       ("Paul John Peated Select Cask", "John Distilleries", "", ""), ("Paul John Nirvana", "John Distilleries", "", "")]),
    X("Sullivans Cove", "Tasmanian single malt; first New World whisky named World's Best Single Malt (World Whiskies Awards 2014).", "Sullivans Cove", "", "New_world_whisky",
-     [], dt="single cask · French or American oak"),
+     [("Sullivans Cove French Oak White Wine Old & Rare TD0112", "Sullivans Cove", "", "single cask; old data")], dt="single cask · French or American oak"),
    X("Penderyn", "Welsh single malt from Penderyn, Rhondda Cynon Taf; first Welsh whisky in over a century (2004).", "Penderyn", "2004", "Penderyn_distillery",
      [("Penderyn Madeira", "Penderyn", "", "Madeira finish"), ("Penderyn Peated", "Penderyn", "", ""), ("Penderyn Sherrywood", "Penderyn", "", ""),
       ("Penderyn Portwood", "Penderyn", "", ""), ("Penderyn Legend", "Penderyn", "", "Dragon range; Madeira"), ("Penderyn Myth", "Penderyn", "", "Dragon range; bourbon"),
@@ -124,7 +126,10 @@ kinds = [
    X("Cotswolds Signature Single Malt", "Flagship of England's largest whisky producer; Best English Single Malt, World Whisky Awards 2018.", "Cotswolds Distillery", "", "English_whisky"),
    X("The English Sherry Cask", "Norfolk single malt from The English Distillery; World's Best Single Malt, World Whiskies Awards 2024.", "The English Distillery", "", "English_whisky"),
   ],
-  "m": [["Starward Ginger Beer Cask #6", "Starward"], ["Lark Cask Strength Single Malt", "Lark"], ["Milk & Honey Elements Red Wine Cask", "Milk & Honey"]]},
+  "m": [["Starward Ginger Beer Cask #6", "Starward"], ["Lark Cask Strength Single Malt", "Lark"], ["Milk & Honey Elements Red Wine Cask", "Milk & Honey"], ["Starward Tawny Single Malt", "Starward"],
+        ["Callington Mill Pedro Ximenez Single Malt", "Callington Mill Distillery"], ["The English Distillery Small Batch Sherry Hogshead", "The English Distillery"],
+        ["Thy Whisky Casks 1035+1036 Single Malt", "Thy Whisky Distillery"], ["KI ONE Signature Single Malt", "KI ONE"], ["Kwun Cheung Blended Malt (Mongolian oak)", "Kwun Cheung"],
+        ["Waterloo The Duke Rum Cask", "Waterloo"]]},
 ]
 def B(n, c, f, seg, d, sig, s, **kw):
     b = {"n": n, "c": c, "f": f, "seg": seg, "d": d, "sig": sig, "s": (W + s) if s != 'knowledge' else s}; b.update(kw); return b
@@ -159,7 +164,7 @@ for b in brands:
     if not b['f']: del b['f']
 notes = ("Old 'Pot still whisky' (k119) became Irish single pot still whiskey; Redbreast, Spot and Powers models turned into archetype versions. "
          "Midleton Very Rare is a blend per Wikipedia, so it sits under Irish whiskey (Barry Crockett Legacy kept as its single pot still version); Kilbeggan Rye moved to Irish whiskey m (rye mash, not single pot still). "
-         "Old Crown Royal Fine De Luxe became a version. Left out: Redbreast 27 'YO' duplicate SKU names, Sullivans Cove versions (no wiki page; only award fact used), Starward/Lark/Milk & Honey archetypes (single-line mentions only), "
+         "Old Crown Royal Fine De Luxe became a version. Non-Scotch models handed over from the Scotch shelf (05_00) added as versions (Amrut Fusion, Kavalan Solist Vinho Barrique, Yoichi 10, Sullivans Cove TD0112, Jameson Triple Triple, MVR 2026, Tullamore 12) or flat models (Teeling x4 deduplicated to 3, The Donn, Titanic, Fercullen, Ichiro's Malt & Grain, Sakurao, Starward, Callington Mill, English Distillery, Thy, KI ONE, Kwun Cheung, Waterloo); American ones (St George Baller, Stranahan's, Longleaf, Frey Ranch) belong on the American whiskey shelf. Left out: Redbreast 27 'YO' duplicate SKU names, Sullivans Cove versions (no wiki page; only award fact used), Starward/Lark/Milk & Honey archetypes (single-line mentions only), "
          "Nordic distilleries other than Mackmyra (Stauning, Kyrö, Box not on any retrieved page), Lot 40 versions/awards (no retrieved page beyond Canadian whisky), Suntory brand facts from knowledge.")
 out = {"kinds": kinds, "brands": brands, "traditions": [], "notes": notes}
 p = 'work/J7/shelves/05_02.json'; tmp = p + '.tmp'

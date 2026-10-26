@@ -218,6 +218,12 @@
        "mk": "Irish Distillers",
        "y": "",
        "d": ""
+      },
+      {
+       "n": "Jameson Triple Triple Chestnut Edition",
+       "mk": "Irish Distillers",
+       "y": "",
+       "d": "old data"
       }
      ],
      "dt": ""
@@ -352,6 +358,12 @@
        "d": "117 bottles"
       },
       {
+       "n": "Midleton Very Rare 2026 Vintage Release",
+       "mk": "Irish Distillers",
+       "y": "2026",
+       "d": "old data"
+      },
+      {
        "n": "Midleton Barry Crockett Legacy",
        "mk": "Irish Distillers",
        "y": "",
@@ -389,6 +401,30 @@
     [
      "Paddy",
      ""
+    ],
+    [
+     "Teeling Single Malt",
+     "Teeling"
+    ],
+    [
+     "Teeling 33 YO Very Rare Cask Single Malt",
+     "Teeling"
+    ],
+    [
+     "Teeling Distillery Exclusive 20 YO Mongolian Oak Cask Single Malt",
+     "Teeling"
+    ],
+    [
+     "The Donn Single Malt Irish Whiskey",
+     "Craft Irish Whiskey"
+    ],
+    [
+     "Titanic Distillers 8 YO Single Malt",
+     "Titanic Distillers"
+    ],
+    [
+     "Fercullen 15",
+     "Fercullen"
     ]
    ]
   },
@@ -532,6 +568,12 @@
      "s": "https://en.wikipedia.org/wiki/Yoichi_distillery",
      "v": [
       {
+       "n": "Yoichi 10 Year Old",
+       "mk": "Nikka",
+       "y": "",
+       "d": "old data"
+      },
+      {
        "n": "Yoichi 20 Year Old",
        "mk": "Nikka",
        "y": "",
@@ -646,6 +688,14 @@
     [
      "Black Nikka",
      "Nikka"
+    ],
+    [
+     "Ichiro's Malt & Grain Blended Japanese Whisky",
+     "Venture Whisky"
+    ],
+    [
+     "Sakurao Togouchi Misty Stillman's Selection",
+     "Sakurao"
     ]
    ]
   },
@@ -961,7 +1011,14 @@
      "mk": "Sullivans Cove",
      "y": "",
      "s": "https://en.wikipedia.org/wiki/New_world_whisky",
-     "v": [],
+     "v": [
+      {
+       "n": "Sullivans Cove French Oak White Wine Old & Rare TD0112",
+       "mk": "Sullivans Cove",
+       "y": "",
+       "d": "single cask; old data"
+      }
+     ],
      "dt": "single cask · French or American oak"
     },
     {
@@ -1091,6 +1148,34 @@
     [
      "Milk & Honey Elements Red Wine Cask",
      "Milk & Honey"
+    ],
+    [
+     "Starward Tawny Single Malt",
+     "Starward"
+    ],
+    [
+     "Callington Mill Pedro Ximenez Single Malt",
+     "Callington Mill Distillery"
+    ],
+    [
+     "The English Distillery Small Batch Sherry Hogshead",
+     "The English Distillery"
+    ],
+    [
+     "Thy Whisky Casks 1035+1036 Single Malt",
+     "Thy Whisky Distillery"
+    ],
+    [
+     "KI ONE Signature Single Malt",
+     "KI ONE"
+    ],
+    [
+     "Kwun Cheung Blended Malt (Mongolian oak)",
+     "Kwun Cheung"
+    ],
+    [
+     "Waterloo The Duke Rum Cask",
+     "Waterloo"
     ]
    ]
   }
@@ -1327,5 +1412,5 @@
   }
  ],
  "traditions": [],
- "notes": "Old 'Pot still whisky' (k119) became Irish single pot still whiskey; Redbreast, Spot and Powers models turned into archetype versions. Midleton Very Rare is a blend per Wikipedia, so it sits under Irish whiskey (Barry Crockett Legacy kept as its single pot still version); Kilbeggan Rye moved to Irish whiskey m (rye mash, not single pot still). Old Crown Royal Fine De Luxe became a version. Left out: Redbreast 27 'YO' duplicate SKU names, Sullivans Cove versions (no wiki page; only award fact used), Starward/Lark/Milk & Honey archetypes (single-line mentions only), Nordic distilleries other than Mackmyra (Stauning, Kyrö, Box not on any retrieved page), Lot 40 versions/awards (no retrieved page beyond Canadian whisky), Suntory brand facts from knowledge."
+ "notes": "Old 'Pot still whisky' (k119) became Irish single pot still whiskey; Redbreast, Spot and Powers models turned into archetype versions. Midleton Very Rare is a blend per Wikipedia, so it sits under Irish whiskey (Barry Crockett Legacy kept as its single pot still version); Kilbeggan Rye moved to Irish whiskey m (rye mash, not single pot still). Old Crown Royal Fine De Luxe became a version. Non-Scotch models handed over from the Scotch shelf (05_00) added as versions (Amrut Fusion, Kavalan Solist Vinho Barrique, Yoichi 10, Sullivans Cove TD0112, Jameson Triple Triple, MVR 2026, Tullamore 12) or flat models (Teeling x4 deduplicated to 3, The Donn, Titanic, Fercullen, Ichiro's Malt & Grain, Sakurao, Starward, Callington Mill, English Distillery, Thy, KI ONE, Kwun Cheung, Waterloo); American ones (St George Baller, Stranahan's, Longleaf, Frey Ranch) belong on the American whiskey shelf. Left out: Redbreast 27 'YO' duplicate SKU names, Sullivans Cove versions (no wiki page; only award fact used), Starward/Lark/Milk & Honey archetypes (single-line mentions only), Nordic distilleries other than Mackmyra (Stauning, Kyrö, Box not on any retrieved page), Lot 40 versions/awards (no retrieved page beyond Canadian whisky), Suntory brand facts from knowledge."
 }
