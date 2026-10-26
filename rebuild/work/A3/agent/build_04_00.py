@@ -16,7 +16,7 @@ kinds=[
    "dt":"shell, hardstone, ceramic · frame metal · subject"},
   {"n":"Edwardian platinum brooch","a":"bow brooch · garland brooch","d":"Delicate platinum-and-diamond brooch in bows, ribbons, swags or garlands.","mk":"","y":"1901–1910","s":W+"Brooch","v":[],"dt":"platinum · diamonds · bow, swag, garland motifs"},
   {"n":"Penannular brooch","a":"Celtic brooch · Tara brooch","d":"Ring-shaped brooch with a gap in the circle, elaborated in early medieval Ireland and Scotland.","mk":"","y":"600 BC–early medieval","s":W+"Brooch",
-   "v":[{"n":"Tara Brooch","mk":"","y":"early medieval","d":"Irish pseudo-penannular reference piece; reproduced since"}],"dt":"bronze, silver · open or closed ring · pin length"},
+   "v":[{"n":"Tara Brooch","mk":"","y":"early medieval","d":"named example of the Celtic pseudo-penannular brooch"}],"dt":"bronze, silver · open or closed ring · pin length"},
   {"n":"Duette clip brooch","a":"Coro Duette · Clipmates · double clip","d":"Brooch frame holding two dress clips that can be detached and worn separately.","mk":"Coro","y":"1930","s":"https://www.morninggloryjewelry.com/articles/gallery/duettes-clipmates-duos/",
    "v":[{"n":"Coro Duette","mk":"Coro","y":"1930","d":"marked US patent 1,798,867 (Gaston Candas); designs by Adolph Katz"},{"n":"Trifari Clipmates","mk":"Trifari","y":"","d":"Trifari's equivalent pin that comes apart into two clips"}],
    "dt":"rhodium-plated base metal · rhinestones · figural or Art Deco motifs"},
