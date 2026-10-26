@@ -151,3 +151,58 @@ Traceback (most recent call last):
                                                   ~^^^^^^
 KeyError: 'id'
 == Luri rug
+== Gabbeh
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(x['id'],x.get('label'),'|',x.get('description','')) for x in d.get('search',[])[:4]]
+                                                  ~^^^^^^
+KeyError: 'id'
+== Mashhad carpet
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(x['id'],x.get('label'),'|',x.get('description','')) for x in d.get('search',[])[:4]]
+                                                  ~^^^^^^
+KeyError: 'id'
+== Malayer carpet
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(x['id'],x.get('label'),'|',x.get('description','')) for x in d.get('search',[])[:4]]
+                                                  ~^^^^^^
+KeyError: 'id'
+== Zanjan carpet
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(x['id'],x.get('label'),'|',x.get('description','')) for x in d.get('search',[])[:4]]
+                                                  ~^^^^^^
+KeyError: 'id'
+== Ravar carpet
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(x['id'],x.get('label'),'|',x.get('description','')) for x in d.get('search',[])[:4]]
+                                                  ~^^^^^^
+KeyError: 'id'
+== Mehraban
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(x['id'],x.get('label'),'|',x.get('description','')) for x in d.get('search',[])[:4]]
+                                                  ~^^^^^^
+KeyError: 'id'
+== Kazak rug
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(x['id'],x.get('label'),'|',x.get('description','')) for x in d.get('search',[])[:4]]
+                                                  ~^^^^^^
+KeyError: 'id'
+== Shirvan rug
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(x['id'],x.get('label'),'|',x.get('description','')) for x in d.get('search',[])[:4]]
+                                                  ~^^^^^^
+KeyError: 'id'
+== Kuba carpet
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import json,sys;d=json.load(sys.stdin);[print(x['id'],x.get('label'),'|',x.get('description','')) for x in d.get('search',[])[:4]]
+                                                  ~^^^^^^
+KeyError: 'id'
+== Karabakh carpet
