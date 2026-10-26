@@ -13,7 +13,7 @@ kinds=[
   "m":[["Boiron mono-preparations","Boiron"]]},
  {"n":"Traditional medicine preparation","a":"traditional remedy · herbal medicine · patent medicine · Kampo extract · Ayurvedic medicine · Unani medicine",
   "d":"Ready-made preparation from a traditional healing system such as Chinese, Kampo, Ayurvedic, Unani or Western herbal medicine; no efficacy claims made here.",
-  "t":["TCM patent medicine (teapills, honey pills, powders, granules, plasters, liniments)","Kampo extract granules","Ayurvedic preparation (herbal tablets, bhasma, medicated oils)","Unani preparation","Western herbal medicine with UK THR registration"],
+  "t":["TCM patent medicine (teapills, honey pills, powders, granules, plasters, liniments)","Kampo extract granules","Ayurvedic preparation (herbal tablets, bhasma, medicated oils)","Unani preparation","Western herbal medicine with UK THR registration (THR number on pack, optional THR certification mark)"],
   "s":W+"Chinese_patent_medicine",
   "m":[["Yunnan Baiyao",""],["Wuji Baifeng Wan",""],["Ganmaoling granules",""],["Kakkon-tō extract granules","Tsumura"],["Hajmola digestive tablets","Dabur"],["Pudin Hara","Dabur"],["Safi","Hamdard India"],["Cinkara","Hamdard India"]],
   "r":[["Tong Ren Tang TCM range","Tong Ren Tang"],["Plum Flower patent medicines","Plum Flower"],["Lanzhou Foci (Min Shan) pills","Lanzhou Foci"],["Kracie Kampo range","Kracie"]]},
@@ -70,7 +70,7 @@ trads=[
 ]
 notes=("Kept both old kinds and added Traditional medicine preparation. Nicotine replacement now has 7 types (patch, gum, lozenge, mouth spray, inhalator, nasal spray, sublingual tablet) and 9 models; makers are named only where a page I retrieved names them. "
  "Homeopathic single remedy keeps its old source, with potency scales as types and Boiron as maker. The traditional preparation kind lists named products from the Chinese patent medicine, Kampo, Dabur and Hamdard pages; I gave no maker for Yunnan Baiyao, Wuji Baifeng Wan or Ganmaoling because the page names none. "
- "Five traditions use group 'Healing traditions' and make no efficacy claims. Left out: mainland China NMPA approval-number format and the THR certification-mark details as a tradition entry (the MHRA page was retrieved but not cited: THR products carry a nine-digit number starting THR); "
+ "Five traditions use group 'Healing traditions' and make no efficacy claims. Left out: mainland China NMPA approval-number format; Western herbal (THR) is given as a type, not a tradition entry; "
  "Ayurvedic forms churna/arishta/ghrita and Unani majoon/khamira (not confirmed on a retrieved page); a Tsumura brand entry (no company page retrieved).")
 out={"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes}
 p='work/H2/shelves/00_04.json'; tmp=p+'.tmp'
