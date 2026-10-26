@@ -47,7 +47,7 @@ satchel={"n":"Satchel","a":"","d":"Soft-sided bag with a front-fastening flap, t
   {"n":"Bayswater","a":"","d":"Leather top-handle bag closed by Mulberry's Postman's Lock, designed by Nicholas Knightly.","mk":"Mulberry","y":"2003","s":"https://www.mulberry.com/us/bayswater",
    "v":[{"n":"Bayswater","mk":"Mulberry","y":"2003","d":"original"},{"n":"Bayswater Satchel","mk":"Mulberry","y":"","d":""},{"n":"Small Soft Bayswater","mk":"Mulberry","y":"","d":"heavy grain leather"},{"n":"Mini Zipped Bayswater","mk":"Mulberry","y":"","d":""},{"n":"Buckle Bayswater","mk":"Mulberry","y":"","d":""},{"n":"Bayswater Tote","mk":"Mulberry","y":"","d":""}],
    "dt":"size · Small Classic Grain or Heavy Grain leather · colour (Oak, Black…) · lock hardware"},
-  {"n":"Rockstud","a":"","d":"Leather bag trimmed with pyramid studs, from the Rockstud accessory line.","mk":"Valentino","y":"2008–2012","s":W+"Valentino_(fashion_house)","v":[],"dt":"size · leather colour · stud finish"}]}
+  {"n":"Rockstud","a":"","d":"Leather bag trimmed with pyramid studs, from the Rockstud accessory line.","mk":"Valentino","y":"","s":W+"Valentino_(fashion_house)","v":[],"dt":"size · leather colour · stud finish"}]}
 bucket={"n":"Bucket bag","a":"","d":"Bucket-shaped bag with a round or oval base, closed by a drawstring or left open.",
  "t":["drawstring","open top","mini"],"tg":[],
  "s":"https://en.wikipedia.org/wiki/Handbag",
