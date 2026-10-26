@@ -1,0 +1,155 @@
+{
+ "kinds": [
+  {
+   "n": "Hay tedder",
+   "a": "",
+   "d": "Implement with rotating tines that spreads and turns cut grass to dry.",
+   "t": [
+    "mounted",
+    "trailed"
+   ],
+   "s": "https://www.kuhn.com/en/hay-forage/tedders",
+   "r": [
+    [
+     "GF tedders",
+     "Kuhn"
+    ],
+    [
+     "Vendro tedders",
+     "Krone"
+    ]
+   ]
+  },
+  {
+   "n": "Hay rake",
+   "a": "windrower",
+   "d": "Implement that gathers cut grass into windrows.",
+   "t": [
+    "rotary rake",
+    "wheel rake",
+    "belt merger"
+   ],
+   "s": "https://www.kuhn.com/en/hay-forage/rakes-mergers",
+   "r": [
+    [
+     "GA rakes",
+     "Kuhn"
+    ],
+    [
+     "SR wheel rakes",
+     "Kuhn"
+    ],
+    [
+     "Merge Maxx belt mergers",
+     "Kuhn"
+    ],
+    [
+     "Swadro rakes",
+     "Krone"
+    ]
+   ]
+  },
+  {
+   "n": "Baler",
+   "a": "",
+   "d": "Machine that compresses hay or straw into round, large square or small square bales.",
+   "t": [
+    "round baler",
+    "large square baler",
+    "small square baler"
+   ],
+   "m": [
+    [
+     "VB 3200",
+     "Kuhn"
+    ],
+    [
+     "FB 3130-3135",
+     "Kuhn"
+    ],
+    [
+     "SB 1290",
+     "Kuhn"
+    ],
+    [
+     "i-BIO+",
+     "Kuhn"
+    ],
+    [
+     "Krone Bellima",
+     "Krone"
+    ]
+   ],
+   "r": [
+    [
+     "Comprima, Fortima and VariPack round balers",
+     "Krone"
+    ],
+    [
+     "BiG Pack large square balers",
+     "Krone"
+    ]
+   ]
+  },
+  {
+   "n": "Bale wrapper",
+   "a": "",
+   "d": "Machine that wraps bales in stretch film for silage.",
+   "t": [
+    "round-bale wrapper",
+    "square-bale wrapper",
+    "in-line wrapper"
+   ],
+   "s": "https://www.kuhn.com/en/hay-forage/wrappers",
+   "m": [
+    [
+     "Tanco A100",
+     "Tanco"
+    ],
+    [
+     "Tanco A200",
+     "Tanco"
+    ]
+   ],
+   "r": [
+    [
+     "RW and SW bale wrappers",
+     "Kuhn"
+    ]
+   ]
+  },
+  {
+   "n": "Forage wagon",
+   "a": "loader wagon",
+   "d": "Wagon that picks up, cuts and carries grass or silage.",
+   "s": "https://www.poettinger.at/en_ca/Newsroom/Artikel/5805/pottinger-and-loader-wagons",
+   "m": [
+    [
+     "Krone AX 250 GD",
+     "Krone"
+    ],
+    [
+     "Krone RX 400 GD",
+     "Krone"
+    ]
+   ],
+   "r": [
+    [
+     "Jumbo silage wagons",
+     "Pöttinger"
+    ],
+    [
+     "Boss loader wagons",
+     "Pöttinger"
+    ],
+    [
+     "Torro loader wagons",
+     "Pöttinger"
+    ]
+   ]
+  }
+ ],
+ "brands": [],
+ "traditions": [],
+ "notes": "Restraint only. Tedder and rake SKU lists cut to the existing ranges; baler type \"Other balers\" dropped and the misleading \"big square baler\" alias removed; Kuhn baler list cut to one model per baler form plus the i-BIO+ baler-wrapper. Old Baler had no source; none added (no web research on this shelf). Pöttinger Primo and Profi ranges dropped (smaller duplicates of Boss/Torro)."
+}
