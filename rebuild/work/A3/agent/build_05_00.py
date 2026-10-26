@@ -35,7 +35,7 @@ kinds=[
    "v":[{"n":"Jam","d":"long-bodied pin"},{"n":"Chae","d":"upturned U-shaped pin"}],
    "dt":"gold, silver, jade or wood · head motif"},
   {"n":"Fazan","a":"zanzi · fa-zan","d":"Chinese hairpin securing and decorating a bun, sometimes marking status.","mk":"","y":"","s":W+"Hair_stick",
-   "v":[{"n":"Chai","d":"Chinese two-pronged form"},{"n":"Buyao","d":"Chinese form named alongside fazan"}],
+   "v":[{"n":"Chai","d":"Chinese hairpin form named on the source page"},{"n":"Buyao","d":"Chinese hairpin form named on the source page"}],
    "dt":"metal, jade or wood · head ornament"}]},
 {"n":"Hair comb","a":"decorative comb · side comb","d":"Decorative comb pushed into the hair to hold it or to adorn a bun.",
  "t":["side comb","French twist comb"],"s":"https://www.1928.com/collections/vintage-hair-combs",
