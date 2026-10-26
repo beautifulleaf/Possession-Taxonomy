@@ -1,0 +1,96 @@
+import json, os
+D8="https://disstonianinstitute.com/d8page.html"; QG="https://disstonianinstitute.com/quickglance.html"
+BS="https://en.wikipedia.org/wiki/Backsaw"; HS="https://en.wikipedia.org/wiki/Hacksaw"
+SJ="https://en.wikipedia.org/wiki/Spear_%26_Jackson"; BA="https://en.wikipedia.org/wiki/Bahco"
+KC="https://www.woodworkersjournal.com/knew-concepts-meek-discusses-premium-handsaws/"
+LN="https://info.highlandwoodworking.com/handtools/lndovetailsaw.html"
+VW="https://www.woodshopnews.com/tools-machines/veritas-dovetail-saw"; VP="https://popularwoodworking.com/techniques/new-veritas-backsaws-at-woodworking-in-america"
+PAX="https://workshopheaven.com/pax-saws/"; BOW="https://en.wikipedia.org/wiki/Bow_saw"
+kinds=[
+{"n":"Panel saw","a":"handsaw · hand saw","d":"Western hand saw with a stiff, single-edged tapered blade on a handle, cutting on the push stroke.",
+ "t":["rip","crosscut","universal/hardpoint (hardened teeth, not resharpened)","skewback","straight back","panel length (16–24 in)","full-length hand saw (26 in and over)"],
+ "s":"https://www.screwfix.com/c/tools/panel-saws/cat9790018",
+ "x":[
+  {"n":"Disston D-8","a":"Disston skewback","d":"Disston's skewback handsaw with a let-in, cover-top applewood handle; the model that set the American handsaw pattern.","mk":"Disston","y":"c. 1879 (from the No. 80 'Choice', 1874)","s":D8,
+   "v":[{"n":"No. 80 'Choice'","mk":"Disston","y":"1874","d":"predecessor; patented skewback blade, sold only briefly"},
+        {"n":"D-8 Dual-Grip thumbhole","mk":"Disston","y":"c. 1880–c. 1950","d":"thumbhole handle on 26 in and longer ripsaws, for a time on 28–30 in crosscuts"},
+        {"n":"D-30","mk":"Disston","y":"by 1918","d":"D-8 with a straight back"},
+        {"n":"D-8 Lightweight","mk":"Disston","y":"1927","d":"26 in only, narrower blade"},
+        {"n":"D-8 Medium","mk":"Disston","y":"1947–1955","d":"20–26 in"},
+        {"n":"D-8 (H.K. Porter era)","mk":"Disston","y":"1972 catalogue","d":"still listed after the H.K. Porter takeover"}],
+   "dt":"length 16–30 in · rip or crosscut · apple handle to c. 1945, then beech/birch · regular, lightweight or medium blade"},
+  {"n":"Disston No. 7","a":"D-7","d":"Disston's long-running straight-back handsaw, made from the firm's founding until 1928 and then as the D-7.","mk":"Disston","y":"1840","s":QG,
+   "v":[{"n":"No. 7","mk":"Disston","y":"1840–1928","d":""},{"n":"D-7","mk":"Disston","y":"1928–1955","d":"replaced the No. 7"}],
+   "dt":"length · rip or crosscut · handle style"},
+  {"n":"Disston No. 12","a":"D-12","d":"Disston's premium straight-back handsaw, later sold as the D-12.","mk":"Disston","y":"c. 1865","s":QG,
+   "v":[{"n":"No. 12","mk":"Disston","y":"c. 1865–1928","d":""},{"n":"D-12","mk":"Disston","y":"1928–1953","d":"replaced the No. 12"}],
+   "dt":"length · rip or crosscut"},
+  {"n":"Disston D-23","a":"","d":"Disston handsaw made through most of the 20th century, in pre- and post-1928 versions.","mk":"Disston","y":"1911","s":QG,
+   "v":[{"n":"D-23 (pre-1928)","mk":"Disston","y":"1911–1928","d":""},{"n":"D-23 (post-1928)","mk":"Disston","y":"1928–1990","d":""}],"dt":"length · rip or crosscut"},
+  {"n":"Disston D-95 Masterpiece","a":"","d":"Disston handsaw with a plastic handle, later a rosewood one.","mk":"Disston","y":"1935","s":QG,
+   "v":[{"n":"D-95 (plastic handle)","mk":"Disston","y":"1935–c. 1954","d":""},{"n":"D-95 (rosewood handle)","mk":"Disston","y":"1955","d":""}],"dt":"length · handle material"},
+  {"n":"Spear & Jackson skew-back saw","a":"Jubilee Saw","d":"Sheffield skew-back handsaw design introduced by Spear & Jackson in the late 19th century.","mk":"Spear & Jackson","y":"1887","s":SJ,
+   "v":[{"n":"Jubilee Saw","mk":"Spear & Jackson","y":"1887","d":"skew-back design"}],"dt":"length · tooth pattern"},
+  {"n":"Bahco Barracuda hardpoint saw","a":"Bahco 244","d":"Swedish general-purpose handsaw with universal hardpoint teeth and a slightly thick blade, for softwood, worktops and board.","mk":"Bahco","y":"","s":"https://www.rapidonline.com/bahco-244p-22-u7-hp-244-550mm-barracuda-hardpoint-handsaw-86-6610",
+   "v":[{"n":"Barracuda 244 Plus","mk":"Bahco","y":"","d":""},{"n":"244P-22-U7-HP","mk":"Bahco","y":"","d":"550 mm, two-component handle with 45°/90° marking guide"},{"n":"244P-20-U7-HP","mk":"Bahco","y":"","d":"500 mm"}],
+   "dt":"length 500–550 mm · universal toothing · two-component handle"}],
+ "m":[["Bahco ProfCut Laminator Saw","Bahco"],["Irwin Jack 8tpi Wood Panel Saw","Irwin Jack"]]},
+{"n":"Back saw","a":"backsaw · tenon saw (UK general term)","d":"Push-stroke hand saw whose thin blade is stiffened by a brass or steel back, for joinery cuts.",
+ "t":["dovetail","carcass","sash","tenon","gent's","mitre-box saw","razor saw","rip or crosscut filing"],"s":"https://www.axminstertools.com/hand-tools/saws",
+ "x":[
+  {"n":"Western dovetail saw","a":"","d":"Small backsaw, about 15–20 teeth per inch, rip-filed with minimal set for a narrow kerf, for cutting dovetails.","mk":"","y":"","s":BS,
+   "v":[{"n":"Lie-Nielsen Dovetail Saw","mk":"Lie-Nielsen Toolworks","y":"late 1990s","d":"first made by Independence Tool (Pete Taran, Patrick Leach); 15 tpi rip, 9 in blade, brass back"},
+        {"n":"Veritas Dovetail Saw (14 tpi)","mk":"Veritas","y":"2009","d":"9¼ in × 0.020 in plate, one-piece blade/spine/mount, bubinga handle"},
+        {"n":"Veritas fine-tooth Dovetail Saw (20 tpi)","mk":"Veritas","y":"2009","d":"for stock under ½ in; composite spine"},
+        {"n":"Pax dovetail saw (2017 pattern)","mk":"Thomas Flinn & Co","y":"2017","d":"walnut handle, hand-sharpened teeth, folded brass back"}],
+   "dt":"blade length under 12 in · 14–20 tpi · back brass, steel or composite · handle wood"},
+  {"n":"Carcass saw","a":"carcase saw","d":"Backsaw sized between a dovetail and a tenon saw, usually crosscut-filed for shoulders and general cabinet work.","mk":"","y":"","s":BS,
+   "v":[{"n":"Lie-Nielsen Carcass Saw","mk":"Lie-Nielsen Toolworks","y":"","d":""},{"n":"Veritas crosscut saw","mk":"Veritas","y":"2009","d":"16 tpi, a small carcase saw"}],
+   "dt":"blade under 14 in · crosscut or rip · back material"},
+  {"n":"Tenon saw","a":"","d":"Mid-sized to large backsaw, about 13 tpi, for cutting tenons; rip or crosscut.","mk":"","y":"","s":BS,
+   "v":[{"n":"Lie-Nielsen Tenon Saw","mk":"Lie-Nielsen Toolworks","y":"","d":""},{"n":"Pax tenon saw (2017 pattern)","mk":"Thomas Flinn & Co","y":"2017","d":"walnut handle, folded brass back"}],
+   "dt":"blade over 14 in · rip or crosscut · back material"},
+  {"n":"Sash saw","a":"","d":"Historic smaller tenon-type saw for window sashes; London trade name for backsaws under 16 in, revived by Pax.","mk":"","y":"","s":PAX,"v":[],"dt":"blade length · tooth pattern"},
+  {"n":"Gent's saw","a":"gentleman's saw","d":"Small dovetail-type saw with a straight turned handle, for models, instruments and miniature work.","mk":"","y":"","s":BS,"v":[],"dt":"blade length · tpi"},
+  {"n":"Mitre-box saw","a":"mitre saw","d":"Large backsaw of about 20–30 in used in a mitre box or frame to cut angles.","mk":"","y":"","s":BS,"v":[],"dt":"length · tpi · box or frame"},
+  {"n":"Razor saw","a":"","d":"Very small backsaw with fine unset crosscut teeth and disposable blades, for hobby work in soft wood, plastic and soft metal.","mk":"","y":"","s":BS,"v":[],"dt":"blade length · tpi"}]},
+{"n":"Hacksaw","a":"","d":"Hand saw with a thin replaceable blade tensioned in a bow frame, for metal, pipe and plastic.",
+ "t":["standard 12 in (300 mm)","junior hacksaw","panel hacksaw","high-tension frame","mini saw / blade holder","blade: carbon steel, bi-metal, HSS · 14–32 tpi"],"s":"https://www.axminstertools.com/hand-tools/saws",
+ "x":[
+  {"n":"Eclipse hacksaw frame","a":"","d":"Sheffield hacksaw frames from the Eclipse brand, maker of the first composite steel hacksaw blade (1911); frames since 1924.","mk":"Eclipse","y":"1924","s":SJ,
+   "v":[{"n":"Professional Hacksaw 70-20TR","mk":"Eclipse","y":"","d":""},{"n":"Pro-Plus Hacksaw 70-23TR","mk":"Eclipse","y":"","d":""},{"n":"Handyman Hacksaw 70-400R","mk":"Eclipse","y":"","d":""},{"n":"Junior Hacksaw 70-14JR","mk":"Eclipse","y":"","d":""},{"n":"Mini Saw 70-675R","mk":"Eclipse","y":"","d":""},{"n":"12\" Soft Feel Hacksaw EPH300","mk":"Eclipse","y":"","d":""}],
+   "dt":"blade 12 in or junior · frame tension · handle (pistol grip, soft feel)"},
+  {"n":"Bahco Sandflex","a":"","d":"Bi-metal hacksaw blade line introduced by Bahco.","mk":"Bahco","y":"1969","s":BA,"v":[],"dt":"blade length · tpi"},
+  {"n":"Junior hacksaw","a":"","d":"Small hacksaw taking half-size, pin-ended carbon steel blades held in frame notches.","mk":"","y":"","s":HS,"v":[],"dt":"blade length · tpi"},
+  {"n":"Panel hacksaw","a":"","d":"Hacksaw with a deep, thin frame behind the blade so it can cut into sheet panels without the frame limiting the cut.","mk":"","y":"","s":HS,"v":[],"dt":"blade length"}]},
+{"n":"Coping saw","a":"","d":"Hand saw with a thin, fine blade tensioned in a deep U-shaped frame, turned in the frame to cut curves in wood.",
+ "t":["frame depth","blade: pin end or loop end","push- or pull-stroke fitting"],"s":"https://www.leevalley.com/en-us/shop/tools/hand-tools/saws/page-5",
+ "x":[{"n":"Knew Concepts coping saw","a":"","d":"Coping saw with a truss-style aluminium frame from the American fret-saw maker.","mk":"Knew Concepts","y":"c. 2012","s":KC,"v":[],"dt":"frame size · tensioning"}]},
+{"n":"Fret saw","a":"fretsaw · piercing saw (jewellers')","d":"Bow saw with a deep frame and very fine fixed blade, for tight curves in fretwork and marquetry.",
+ "t":["frame depth 3–20 in","blade: toothed, spiral, abrasive wire","jeweller's piercing saw"],"s":"https://en.wikipedia.org/wiki/Fretsaw",
+ "x":[{"n":"Knew Concepts truss-frame fret saw","a":"","d":"Fret saw with a light truss frame that takes high blade tension, first made for jewellers.","mk":"Knew Concepts","y":"","s":KC,
+   "v":[{"n":"Mk.I","mk":"Knew Concepts","y":"","d":"first saw, hand-made for jewellers"},{"n":"Mk.II","mk":"Knew Concepts","y":"","d":"first truss frame, CNC-made"},
+        {"n":"Mk.III","mk":"Knew Concepts","y":"c. 2010","d":"three sizes, quick-release lever tensioning"},{"n":"Birdcage Titanium","mk":"Knew Concepts","y":"2012 onward","d":"welded titanium truss, three sizes"},
+        {"n":"Mk.IV","mk":"Knew Concepts","y":"c. 2016","d":"heavier aluminium, 3/5/8 in, 360° blade clamps, about 60 lb tension"}],
+   "dt":"depth 3, 5 or 8 in · aluminium or titanium · blade clamp angles"}]},
+{"n":"Keyhole saw","a":"pad saw · drywall saw · jab saw","d":"Narrow pointed hand saw blade on a handle, for starting cuts from a drilled hole or cutting plasterboard.",
+ "t":["fixed blade","retractable blade","drywall/jab saw","compass saw (larger, coarser)"],"s":"https://www.leevalley.com/en-us/shop/tools/hand-tools/saws/page-5"},
+{"n":"Bow saw","a":"buck saw · Swede saw · bushman saw","d":"Saw with a coarse blade tensioned in a bow or H frame, for crosscutting logs and timber.",
+ "t":["tubular steel bow","H-frame bucksaw","folding camp bucksaw","turning saw"],"s":"https://www.leevalley.com/en-us/shop/tools/hand-tools/saws/page-5",
+ "x":[{"n":"Swede saw","a":"tubular steel bow saw","d":"Bow saw with an ovate tubular steel frame and coarse crosscut blade, the pattern behind the name 'Swede saw'.","mk":"Sandvik","y":"1920s","s":BOW,"v":[],"dt":"frame length · blade (green or dry wood)"},
+      {"n":"Woodworking bucksaw","a":"frame saw · turning saw","d":"H-frame of two cheeks and a stretcher, blade tensioned by cord or turnbuckle; the turning saw is its fine-bladed form for curves.","mk":"","y":"","s":BOW,"v":[],"dt":"blade width · frame size"}]}]
+brands=[
+{"n":"Disston","c":"United States","f":"1840","seg":"Handsaws (historic)","d":"Philadelphia saw maker founded by Henry Disston as the Keystone Saw Works; moved to Tacony in 1871; later owned by H.K. Porter.","lines":["No. 7 / D-7","No. 12 / D-12","D-8","D-23","D-95"],"sig":["Disston D-8","Disston No. 7"],"rel":["Spear & Jackson"],"s":"https://en.wikipedia.org/wiki/Henry_Disston"},
+{"n":"Spear & Jackson","c":"United Kingdom","f":"1760","seg":"Hand and garden tools","d":"Sheffield maker of saws, hand and garden tools, tracing to Spear & Love (1760); owns the Eclipse brand; SNH Global since 2014.","lines":["Eclipse"],"sig":["Spear & Jackson skew-back saw"],"rel":["Eclipse","Disston"],"s":SJ},
+{"n":"Eclipse","c":"United Kingdom","f":"1909","seg":"Hacksaws and blades","d":"Sheffield brand from James Neill (trademark 1909); first composite steel hacksaw blade 1911, hacksaw frames from 1924; now with Spear & Jackson.","sig":["Eclipse hacksaw frame"],"rel":["Spear & Jackson"],"s":SJ},
+{"n":"Bahco","c":"Sweden","f":"1886","seg":"Professional hand tools","d":"Enköping hand-tool maker (adjustable wrench, saws, files); part of Snap-on's SNA Europe.","lines":["Barracuda","ProfCut","Sandflex","Superior"],"sig":["Bahco Barracuda hardpoint saw","Bahco Sandflex"],"rel":["Sandvik"],"s":BA},
+{"n":"Sandvik","c":"Sweden","f":"1862","seg":"Steel and tools","d":"Swedish steel maker (Sandvikens Jernverk) that introduced the tubular steel bow saw; its saws and tools business passed to Bahco.","sig":["Swede saw"],"rel":["Bahco"],"s":"knowledge"},
+{"n":"Lie-Nielsen Toolworks","c":"United States","seg":"Premium hand tools","d":"Maine maker of heirloom-quality hand planes, chisels and backsaws.","lines":["Dovetail Saw","Carcass Saw","Tenon Saw"],"sig":["Western dovetail saw"],"rel":["Veritas"],"s":"knowledge"},
+{"n":"Veritas","c":"Canada","seg":"Premium hand tools","d":"Tool brand designed and made by Lee Valley Tools of Ottawa.","lines":["Dovetail Saw","crosscut carcase saw"],"sig":["Western dovetail saw"],"rel":["Lie-Nielsen Toolworks"],"s":"knowledge"},
+{"n":"Thomas Flinn & Co","c":"United Kingdom","seg":"Traditional saws","d":"Sheffield saw maker whose flagship range is Pax backsaws, made by long-established hand methods.","lines":["Pax"],"sig":["Western dovetail saw","Tenon saw"],"s":PAX},
+{"n":"Knew Concepts","c":"United States","seg":"Fret and coping saws","d":"Maker of truss-frame aluminium and titanium fret and coping saws, developed by machinist Lee Marshall and now owned by Brian Meek.","lines":["Mk.III","Mk.IV","Birdcage Titanium"],"sig":["Knew Concepts truss-frame fret saw"],"s":KC}]
+notes=("Kept all six old kinds; added Fret saw (new, Wikipedia). Japanese saws left to the Japanese shelf; folding saws to Axes. "
+ "Left out: Olson coping saws and Bahco/Lee Valley Veritas pages (Lee Valley returned 429, Lost Art Press 403; no fetched Olson page), so no Olson archetype; "
+ "Disston No. 16, Acme No. 120, D-100, Victory saws omitted to keep the list to reference models; Bahco ProfCut and Irwin Jack kept as flat models; Spear & Jackson Predator/Neverbend not confirmed on a fetched page.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="work/C1/shelves/01_02.json"; json.dump(out,open(p+".tmp","w"),ensure_ascii=False,indent=1); os.replace(p+".tmp",p)

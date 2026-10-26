@@ -15,7 +15,7 @@ kinds=[
  "t":["T5 high-output tube","T8 tube","compact fluorescent","mercury vapour (self-ballasted)","metal halide","UVB LED","6% forest / 12% desert strengths"],
  "s":"https://www.petcity.com.au/brand/arcadia-reptile/",
  "x":[
-  {"n":"Arcadia ProT5 UVB Kit","a":"ProT5","d":"Linear T5 UVB tube in a slim controller housing with a removable twin-angle reflector; linkable kits that set the T5 standard in vivaria.","mk":"Arcadia Reptile","y":"","s":PT5,
+  {"n":"Arcadia ProT5 UVB Kit","a":"ProT5","d":"Linear T5 UVB tube in a slim controller housing with a removable twin-angle reflector; kits can be linked from one power supply.","mk":"Arcadia Reptile","y":"","s":PT5,
    "v":[v("ProT5 Kit with 6% Forest lamp","Arcadia Reptile","","24, 39 or 54 W; 570, 870 or 1170 mm"),v("ProT5 Kit with 12% Desert lamp","Arcadia Reptile","","Arcadia Desert D3+ 12% UVB T5 lamp"),v("ProT5 Kit with 14% Dragon lamp","Arcadia Reptile"),v("Arcadia LumenIZE Terrarium Lamp Pro T5","Arcadia Reptile")],
    "dt":"lamp strength (6, 12, 14%) · length and wattage · link cable · mounting inside, over mesh or hanging"},
   {"n":"Zoo Med ReptiSun T5 HO","a":"T5 High Output","d":"Zoo Med's high-output T5 UVB tube and matching terrarium hood, for larger and taller enclosures.","mk":"Zoo Med","y":"","s":ZT5,
