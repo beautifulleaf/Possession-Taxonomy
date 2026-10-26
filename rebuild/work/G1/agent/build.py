@@ -42,7 +42,7 @@ kinds=[
 {"n":"Estate","a":"station wagon · wagon · touring · avant","d":"Passenger car with the roof carried back to the rear and a tailgate over a long load space.",
  "t":["compact estate","large estate","shooting brake","raised all-terrain estate"]+PT,"s":OLD,
  "x":[
-  X("Volvo 200 Series","Volvo","1974–1993","Volvo_200_Series","Mid-size Volvo range (240 and 260) designed by Jan Wilsgaard, the estate an enduring icon.",a="Volvo 240 · 245 · 260",dt="saloon or estate · engine · trim"),
+  X("Volvo 200 Series","Volvo","1974–1993","Volvo_200_Series","Mid-size Volvo range (240 and 260) designed by Jan Wilsgaard, sold as saloon, estate and convertible.",a="Volvo 240 · 245 · 260",dt="saloon or estate · engine · trim"),
   X("Mercedes-Benz W123 estate","Mercedes-Benz","1975–1986","Mercedes-Benz_W123","Estate version of the W123 executive range, built until January 1986.",dt="diesel or petrol · trim"),
   X("Volkswagen Passat","Volkswagen","1973–","Volkswagen_Passat","D-segment family car sold as saloon, estate and hatchback, the fourth best-selling automobile of all time.",a="Dasher · Santana · Quantum",dt="generation · saloon or estate"),
   X("Škoda Octavia","Škoda","1996–","%C5%A0koda_Octavia","C-segment family car sold only as five-door liftback or estate, Škoda's best seller.",dt="generation · liftback or estate · 4x4"),
@@ -52,7 +52,7 @@ kinds=[
  "t":["crossover","compact SUV","mid-size SUV","full-size SUV","two-wheel drive","four-wheel drive"]+PT,"s":OLD,
  "x":[
   X("Chevrolet Suburban","Chevrolet","1934–","Chevrolet_Suburban","Full-size SUV and the world's longest-produced nameplate, progenitor of the modern full-size SUV.",dt="generation · seating"),
-  X("Range Rover","Land Rover","1970–","Range_Rover_Classic","Off-road vehicle that moved upmarket to define the luxury SUV.",
+  X("Range Rover","Land Rover","1970–","Range_Rover_Classic","Four-wheel-drive off-road vehicle that moved upmarket in the 1980s.",
     v=[V("Range Rover Classic","Land Rover","1970–1996","two-door, four-door from 1981"),V("Range Rover L322","Land Rover","2001–2012","third generation; first with unitary body and independent suspension")],dt="two/four-door · engine · trim"),
   X("Jeep Cherokee XJ","Jeep","1983–2001","Jeep_Cherokee_(XJ)","Compact unibody SUV developed by AMC, sold in two- or four-door form.",dt="two/four-door · 2WD or 4WD"),
   X("Toyota RAV4","Toyota","","Toyota_RAV4","Compact crossover often credited as the first modern compact crossover SUV; the best-selling SUV of all time.",dt="generation · hybrid or petrol"),
