@@ -52,7 +52,7 @@ kinds = [
    A("Nissan Skyline GT-R", "High-performance Skyline; touring-car winner revived in 1989 with all-wheel drive.", "Nissan", "1969", "Nissan_Skyline_GT-R",
      [V("KPGC10", "Nissan", "1969–1972"), V("KPGC110", "Nissan", "1973"), V("R32 (BNR32)", "Nissan", "1989–1994", "Group A touring-car champion"),
       V("R33 (BCNR33)", "Nissan", "1995–1998"), V("R34 (BNR34)", "Nissan", "1999–2002"),
-      V("GT-R (R35)", "Nissan", "2007–2025", "successor dropping the Skyline name")], a="GT-R · Godzilla" if False else "GT-R"),
+      V("GT-R (R35)", "Nissan", "2007–2025", "successor dropping the Skyline name")], a="GT-R"),
    A("Honda NSX", "Mid-engined two-seat sports car sold as the Acura NSX in North America.", "Honda", "1990", "Honda_NSX",
      [V("First generation", "Honda", "1990–2006", "coupé; targa added later"), V("Second generation", "Honda", "2016–2022", "coupé only")], a="Acura NSX"),
    A("Toyota 86 / Subaru BRZ", "Light front-engined, rear-drive 2+2 with boxer engine, developed jointly by Toyota and Subaru.", "Toyota", "", "Toyota_86",
@@ -87,7 +87,7 @@ kinds = [
   "t": ["soft top", "hard top", "front-engined", "mid-engined"], "s": W + "Roadster_(car)",
   "x": [
    A("Mazda MX-5", "Small, light front-engined two-seat roadster; sold as Miata in the US and Roadster in Japan.", "Mazda", "1989", "Mazda_MX-5",
-     [V("NA", "Mazda", "1989–1997", "pop-up headlamps"), V("NB", "Mazda", "1998–2005"), V("NC", "Mazda", "2005–2015"), V("ND", "Mazda", "2015–")],
+     [V("NA", "Mazda", "1989–1997"), V("NB", "Mazda", "1998–2005"), V("NC", "Mazda", "2005–2015"), V("ND", "Mazda", "2015–")],
      "generation · soft top or retractable hard top", a="Miata · Eunos Roadster"),
    A("MGB", "Four-cylinder British soft-top roadster built by BMC and British Leyland.", "MG", "1962–1980", "MG_MGB",
      [V("MGB roadster", "MG", "1962–1980"), V("MGB GT", "MG", "1965–1980", "2+2 coupé"), V("MGC", "MG", "1967–1969", "six-cylinder")]),
