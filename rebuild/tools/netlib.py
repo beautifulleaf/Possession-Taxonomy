@@ -119,7 +119,7 @@ def wiki_pages(titles):
 
 def wd_search(q, n=5):
     st, j = get_json(WD, {'action': 'wbsearchentities', 'search': q, 'language': 'en', 'format': 'json', 'limit': n})
-    if not j: return st, []
+    if not j: return st, [{'error': f'HTTP {st}; Wikidata unavailable, use WebFetch/WebSearch'}]
     return st, [{'id': r['id'], 'label': r.get('label'), 'description': r.get('description', '')} for r in j.get('search', [])]
 
 
