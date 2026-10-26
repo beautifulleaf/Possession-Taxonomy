@@ -5,6 +5,20 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 done = json.load(open('done.json')) if os.path.exists('done.json') else []
 for c in sys.argv[1:]:
     d = json.load(open(f'out/{c}.json'))
+    # re-apply kinds moved IN from categories merged earlier (the rebuilt file would otherwise drop them);
+    # a kind whose name the rebuilt category already has is taken as covered by it
+    names = {k['n'].lower() for dp in d['depts'] for s in dp['s'] for k in s['k']}
+    for src in done:
+        sp = f'out/{src}_moves.json'
+        if src == c or not os.path.exists(sp): continue
+        for m in json.load(open(sp)).get('out', []):
+            if m['to'] != c or m['kind']['n'].lower() in names: continue
+            dp = next((dp for dp in d['depts'] if dp['n'] == m.get('dept')), None)
+            if dp is None:
+                dp = {'n': m.get('dept') or 'Moved in', 'mode': 'mixed', 'b': [], 's': [{'n': m.get('dept') or 'Moved in', 'k': []}]}
+                d['depts'].append(dp)
+            dp['s'][0]['k'].append(m['kind']); names.add(m['kind']['n'].lower())
+            print('re-applied', src + '>' + c + ':' + m['kind']['n'])
     json.dump(d, open(f'reader/{c}.json', 'w'), ensure_ascii=False, separators=(',', ':'))
     if c not in done: done.append(c)
     mp = f'out/{c}_moves.json'
