@@ -1,0 +1,86 @@
+import json, os
+HB_ALL="https://hartley-botanic.com/ranges/view-all"
+HB_GM="https://hartley-botanic.co.uk/product/the-victorian-grand-manor-glasshouse"
+ALX="https://www.alitex.co.uk"
+DIRT="https://thedirt.news/cultivating-conservation-alitex-marks-20-years-and-1-million-with-the-national-trust/"
+GA="https://hosting.fluidbook.com/Gabriel-Ash-Greenhouses/Brochure/5-About-Us.html"
+CV="https://www.granddesignslive.com/news/cultivar-greenhouses"
+JO="https://juliana.com/about-juliana-group/article-news/2015/juliana-orangeri-a-green-oasis-in-the-garden"
+JUK="https://juliana.com/uk/about-juliana-group/why-choose-a-juliana-greenhouse"
+greenhouse={"n":"Greenhouse","a":"glasshouse","d":"Glazed framed structure in which plants are grown under shelter.",
+ "t":["Aluminium","Cedar","Steel","Free-standing","Lean-to","Octagonal","Glass","Polycarbonate"],
+ "s":"https://en.wikipedia.org/wiki/Greenhouse",
+ "x":[
+  {"n":"Hartley Victorian glasshouse","a":"Hartley Victorian range","d":"Made-to-order Victorian-style aluminium glasshouse, glass cushioned in rubber with no glass-to-metal contact, often on a low brick wall.",
+   "mk":"Hartley Botanic","y":"","s":HB_GM,
+   "v":[{"n":"Victorian Grand Manor","mk":"Hartley Botanic","y":"","d":"flagship of the Victorian range; 4128 × 11194 mm, custom-made on a brick base"},
+        {"n":"Victorian Terrace","mk":"Hartley Botanic","y":"","d":""},
+        {"n":"Victorian Manor","mk":"Hartley Botanic","y":"","d":""},
+        {"n":"Victorian Grand Lodge","mk":"Hartley Botanic","y":"","d":""},
+        {"n":"Victorian Chelsea","mk":"Hartley Botanic","y":"","d":""},
+        {"n":"Victorian Villa","mk":"Hartley Botanic","y":"","d":""},
+        {"n":"Victorian Alpine Glasshouse","mk":"Hartley Botanic","y":"","d":""},
+        {"n":"Victorian Pavilion","mk":"Hartley Botanic","y":"","d":"new model"}],
+   "dt":"BS1474 aluminium frame · 4 mm toughened glass · about 20 colours · partitions, shading, cold frames as options"},
+  {"n":"Hartley Opus glasshouse","a":"Modern Horticulture range","d":"Hartley's contemporary-styled glasshouse family in its Modern Horticulture range.",
+   "mk":"Hartley Botanic","y":"","s":HB_ALL,
+   "v":[{"n":"Magnum Opus","mk":"Hartley Botanic","y":"","d":""},{"n":"Opus Glasshouse","mk":"Hartley Botanic","y":"","d":""},
+        {"n":"Opus Botanic","mk":"Hartley Botanic","y":"","d":""},{"n":"Opus Grand Botanic","mk":"Hartley Botanic","y":"","d":""}],
+   "dt":"size · colour · glass to ground"},
+  {"n":"National Trust Greenhouse Collection","a":"Alitex National Trust greenhouses","d":"Greenhouses designed by Alitex for the National Trust since 2004, each named after a Trust property.",
+   "mk":"Alitex","y":"2004","s":DIRT,
+   "v":[{"n":"Hidcote","mk":"Alitex","y":"2004","d":"one of the first three; 2.6 × 3 m"},
+        {"n":"Scotney","mk":"Alitex","y":"2004","d":"one of the first three"},
+        {"n":"Stourhead","mk":"Alitex","y":"2004","d":"one of the first three"},
+        {"n":"Mottisfont","mk":"Alitex","y":"","d":""},{"n":"Tatton","mk":"Alitex","y":"","d":""},
+        {"n":"Wimpole","mk":"Alitex","y":"","d":""},{"n":"Cliveden","mk":"Alitex","y":"","d":""},
+        {"n":"Ickworth","mk":"Alitex","y":"","d":""}],
+   "dt":"aluminium · made at Petersfield, Hampshire · brick, stone or Wainscot panel base · colour"},
+  {"n":"Gabriel Ash cedar greenhouse","a":"","d":"Handmade western red cedar greenhouse built with traditional joinery such as mortise and tenon joints.",
+   "mk":"Gabriel Ash","y":"","s":GA,
+   "v":[{"n":"Classic Collection","mk":"Gabriel Ash","y":"","d":""},{"n":"RHS Collection","mk":"Gabriel Ash","y":"","d":""}],
+   "dt":"cedar frame · size · Victorian or contemporary styling · configurable design service"},
+  {"n":"Cultivar greenhouse","a":"","d":"Handmade greenhouse combining aluminium with Accoya wood, made to order on a modular design.",
+   "mk":"Cultivar","y":"","s":CV,"v":[],"dt":"aluminium and Accoya wood · modular length"},
+  {"n":"Juliana Orangeri","a":"Juliana Orangery","d":"Orangery-style greenhouse with long toughened-glass panes, a bay, double doors and a large gutter.",
+   "mk":"Juliana","y":"2015","s":JO,"v":[],
+   "dt":"black/aluminium or black/anthracite frame · four windows, optional automatic openers"}],
+ "r":[["Evolution","Alton"],["Fusion","Alton"],["Trafalgar","Hercules"],["Blenheim","Hercules"],
+      ["Royale","Robinsons"],["Regent","Robinsons"],["Kingfisher","Swallow"],["Swan","Swallow"],
+      ["Classic","Simplicity"],["SUN","Simplicity"],["Craftsman","Elite"],["Titan","Elite"],["Zenith","Elite"],
+      ["Popular","Halls"],["Qube","Halls"],["Magnum","Halls"],["Cotswold","Halls"],
+      ["Classic","Rhino"],["Premium","Rhino"],["Ultimate","Rhino"],
+      ["Premium","Juliana"],["Compact","Juliana"],["Oase","Juliana"],["Grand Oase","Juliana"],
+      ["Mythos","Palram Canopia"],["Hybrid","Palram Canopia"],["Harmony","Palram Canopia"]]}
+poly={"n":"Polytunnel","a":"hoop house · high tunnel · polyhouse · grow tunnel","d":"Hoop-framed tunnel covered in polythene film for growing plants under cover.",
+ "t":["Domestic (6–14 ft wide)","Commercial (16 ft wide and over)","Mini polytunnel","Polythene cover","Net cover"],
+ "s":"https://en.wikipedia.org/wiki/Polytunnel",
+ "r":[["Domestic Polytunnels","First Tunnels"],["Garden Tunnel","Haygrove"]]}
+cold={"n":"Cold frame","a":"coldframe","d":"Low glazed box that shelters plants and seedlings outdoors.",
+ "t":["Aluminium","Cedar","Polycarbonate","Toughened glass","Hotbed","Bulb frame"],
+ "s":"https://en.wikipedia.org/wiki/Cold_frame",
+ "m":[["Polycarbonate Safety cold frame","Simplicity"],["Aluminium cold frame","Access"],["Min E Lite cold frame","Elite"],["Cold Frame","Rhino"]],
+ "r":[["Coldframes","Gabriel Ash"]]}
+brands=[
+ {"n":"Hartley Botanic","c":"United Kingdom","f":"1938","seg":"Luxury greenhouses","d":"Maker of handmade aluminium glasshouses in England, in Victorian, Heritage and Modern Horticulture ranges.",
+  "lines":["Victorian range","Heritage range","Modern Horticulture range"],"eras":[],"sig":["Hartley Victorian glasshouse","Hartley Opus glasshouse"],"sc":[],"rel":["Alitex"],"s":HB_ALL},
+ {"n":"Alitex","c":"United Kingdom","f":"","seg":"Luxury greenhouses","d":"Hampshire maker of made-to-order aluminium greenhouses, bespoke and in the National Trust Collection.",
+  "lines":["National Trust Collection","Bespoke greenhouses"],"eras":[],"sig":["National Trust Greenhouse Collection"],"sc":[],"rel":["Hartley Botanic"],"s":ALX},
+ {"n":"Gabriel Ash","c":"United Kingdom","f":"","seg":"Premium timber greenhouses","d":"Cotswolds maker of handcrafted cedar greenhouses and cold frames, part of the Juliana Group.",
+  "lines":["Classic Collection","RHS Collection","Coldframes"],"eras":[],"sig":["Gabriel Ash cedar greenhouse"],"sc":[],"rel":["Juliana"],"s":GA},
+ {"n":"Cultivar","c":"","f":"","seg":"Premium greenhouses","d":"Maker of handmade greenhouses in aluminium and Accoya wood.",
+  "lines":[],"eras":[],"sig":["Cultivar greenhouse"],"sc":[],"rel":[],"s":CV},
+ {"n":"Juliana","c":"Denmark","f":"1963","seg":"Greenhouses","d":"Family-owned Odense greenhouse maker founded by Mogens A. Stærmose; Juliana Drivhuse A/S also owns Halls.",
+  "lines":["Premium","Compact","Oase","Grand Oase","Orangeri","Veranda","Urban"],"eras":["Mogens A. Stærmose, founder, 1963"],"sig":["Juliana Orangeri"],"sc":[],"rel":["Halls","Gabriel Ash"],"s":JUK},
+ {"n":"Halls","c":"","f":"","seg":"Mainstream greenhouses","d":"Aluminium greenhouse brand of Juliana Drivhuse A/S.",
+  "lines":["Popular","Cotswold","Qube","Supreme","Magnum","Silverline"],"eras":[],"sig":[],"sc":[],"rel":["Juliana"],"s":"https://www.greenhousestores.co.uk/Halls-Greenhouses/"},
+ {"n":"Elite","c":"United Kingdom","f":"","seg":"Aluminium greenhouses","d":"British maker of aluminium greenhouses from the Compact to the box-section Titan.",
+  "lines":["Compact","Craftsman","Titan","Zenith","Kensington"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://www.greenhousestores.co.uk/Elite-Greenhouses"},
+ {"n":"Rhino","c":"United Kingdom","f":"","seg":"Aluminium greenhouses","d":"Norfolk maker of aluminium greenhouses glazed with 4 mm toughened glass.",
+  "lines":["Classic","Premium","Ultimate","Patio","Cold Frame"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://www.rhinogreenhouses.co.uk/pages/rhino-greenhouses-useful-information"},
+ {"n":"First Tunnels","c":"United Kingdom","f":"","seg":"Polytunnels","d":"Lancashire supplier of domestic and commercial polytunnels, covers and fruit cages.",
+  "lines":["Domestic Polytunnels","Commercial Polytunnels","Mini Polytunnels"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://firsttunnels.co.uk"}]
+notes=("All 3 planned kinds kept. Greenhouse: the 70 flat SKUs (Alton, Hercules, Robinsons, Simplicity, Swallow) cut to 2–4 named ranges per brand, plus Elite, Halls, Rhino, Juliana, Palram Canopia ranges from retrieved pages; luxury end as 6 archetypes (Hartley Victorian, Hartley Opus, Alitex National Trust Collection, Gabriel Ash cedar, Cultivar, Juliana Orangeri). "
+ "Left out: Hartley 'Victorian Lean-to' (not on Hartley's range list; only 'The Hartley Lean-To' in the Heritage range); Alitex Mottisfont size and the Halls Qube/Supreme details (pages blocked); Two Wests & Elliott cold frames (no retrieved page lists any); Haygrove and Palram Canopia brand entries (no retrieved company page); founding years for Alitex, Gabriel Ash, Cultivar not confirmed.")
+out={"kinds":[greenhouse,poly,cold],"brands":brands,"traditions":[],"notes":notes}
+p="work/C2/shelves/07_00.json"; json.dump(out,open(p+".tmp","w"),ensure_ascii=False,indent=1); os.replace(p+".tmp",p)
