@@ -61,7 +61,7 @@ kinds=[
    X("Harvia Cilindro","Tall narrow pillar-type electric heater giving small saunas a large stone surface.","Harvia","",CIL,
      [("Cilindro PC66E","Harvia","","6.6 kW; about 165 lb of stones; needs a separate control unit")],
      dt="power 6.6 kW and up · stainless or black steel · integrated or separate control"),
-   X("HUUM Drop","Estonian electric heater with a round stainless-steel shell holding a large stone load.","HUUM","2015",HIVE,
+   X("HUUM Drop","Electric sauna heater made in Estonia, winner of a Red Dot product design award.","HUUM","2015",HIVE,
      [("Drop","HUUM","2015","Red Dot Award for Product Design")],dt="stone capacity · power · UKU controller"),
    X("HUUM Hive","Floor-standing stainless-steel electric heater for large saunas, holding up to 250 kg of stones.","HUUM","",HIVE,
      [("Hive 12","HUUM","","12 kW, 12–18 m³"),("Hive 15","HUUM","","15 kW, 15–23 m³"),("Hive 18","HUUM","","18 kW, 18–28 m³"),("Air Tunnel","HUUM","2024","central stainless housing, standard from April 2024")],

@@ -1,0 +1,804 @@
+{
+ "lead": "Footwear a person owns, organised by family (sneakers, sports and outdoor shoes, dress shoes, heels and flats, boots, sandals, traditional footwear, slippers, care), then kind, then named archetype and version.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Sneakers",
+   "mode": "variety",
+   "note": "Organised by lineage → silhouette → cut (High/Mid/Low) and release (OG/retro) → colourway by style code, the StockX/GOAT/KicksDB axis.",
+   "b": [
+    {
+     "m": "Silhouette and release",
+     "v": "OG > retro > general release",
+     "w": "Collectors identify a pair by silhouette, release and style code first (StockX/GOAT/KicksDB)."
+    },
+    {
+     "m": "Authenticity",
+     "v": "",
+     "w": "Resale buying turns on a verified genuine pair."
+    },
+    {
+     "m": "Condition",
+     "v": "deadstock (DS) > very near deadstock (VNDS) > worn",
+     "w": "Condition sets resale value."
+    },
+    {
+     "m": "Rarity",
+     "v": "collaboration / limited > general release",
+     "w": "Limited releases rank above general releases for collectors."
+    }
+   ],
+   "s": [
+    {
+     "n": "Basketball, court & canvas sneakers",
+     "web": true,
+     "brief": "Archetype standard: kind → silhouette (archetype, with originator and year) → versions (OG, retro, notable collaborations) → detail (High/Mid/Low cut, material, colourway by style code). Basketball: Converse Chuck Taylor All Star (and Chuck 70), Air Jordan 1, Nike Air Force 1, Nike Dunk, Nike Blazer, adidas Superstar, Reebok BB 4600/Pump, later Jordans (III, IV, XI) as versions or separate archetypes. Court: adidas Stan Smith, Lacoste (Carnaby), Reebok Club C, K-Swiss Classic, Puma Smash, Nike Killshot, Diadora B. Elite. Canvas: Superga 2750, Keds Champion, Vans Authentic, Converse Jack Purcell, PF Flyers, Spring Court, Dunlop Green Flash. Drop retail SKU noise (VL Court 3.0, Court Advance) unless they fit an archetype; Ozweego goes to Chunky, Palermo to Terrace (other shelf). Use t: High, Mid, Low.",
+     "k": [
+      {
+       "n": "Basketball sneaker",
+       "old": [
+        "k2"
+       ],
+       "brief": "High-top kind dissolved: cut becomes a type; holds Chuck Taylor, AJ1, AF1, Dunk, Blazer, Superstar."
+      },
+      {
+       "n": "Court sneaker",
+       "old": [
+        "k1"
+       ],
+       "brief": "Former 'Low-top sneaker' (attribute-only); tennis/court lineage: Stan Smith, Club C, Lacoste, K-Swiss."
+      },
+      {
+       "n": "Canvas sneaker",
+       "old": [],
+       "brief": "Plimsoll lineage: Superga 2750, Keds Champion, Vans Authentic, Jack Purcell, Green Flash."
+      }
+     ]
+    },
+    {
+     "n": "Running heritage & terrace sneakers",
+     "web": true,
+     "brief": "Heritage runners: Nike Cortez, Nike Air Max 1/90/95/97 (Air Max family), New Balance 990 series (990v1–v6) and 574/550-type icons, ASICS Gel-Lyte III, Onitsuka Tiger Mexico 66, adidas ZX series, Saucony Jazz, Nike Waffle. Terrace: adidas Gazelle, Samba, Spezial, Handball, Campus, SL72; Puma Suede, Palermo; Diadora. Chunky: Fila Disruptor, adidas Ozweego, Nike P-6000-type, Balenciaga Triple S as the designer originator (cross-reference designer kind). Same archetype standard; versions by generation and OG/retro.",
+     "k": [
+      {
+       "n": "Heritage running sneaker",
+       "old": [],
+       "brief": "Air Max, NB 990, Cortez, Gel-Lyte III, ZX."
+      },
+      {
+       "n": "Terrace sneaker",
+       "old": [],
+       "brief": "Gazelle, Samba, Spezial, Campus, Puma Suede/Palermo."
+      },
+      {
+       "n": "Chunky sneaker",
+       "old": [
+        "k4"
+       ],
+       "brief": "Dad shoe; keep Triple S, Disruptor, Ozweego; drop Puma Defy and Nike Axis unless sourced as icons."
+      }
+     ]
+    },
+    {
+     "n": "Skate & designer sneakers",
+     "web": true,
+     "brief": "Skate: Vans Old Skool, Sk8-Hi, Era, Authentic (cross-ref), Classic Slip-On; Nike SB Dunk; éS Accel; Emerica Reynolds; DC, Etnies, Osiris D3, Supra Skytop, adidas Busenitz. Slip-on: Vans Classic Slip-On as originator. Designer/luxury: Common Projects Achilles Low, Balenciaga Triple S/Speed, Golden Goose Super-Star, Rick Owens Geobasket, Maison Margiela Replica (GAT lineage), Alexander McQueen oversized, Louis Vuitton Trainer, Dior B23, Gucci Ace. Brand facts into the register.",
+     "k": [
+      {
+       "n": "Skate shoe",
+       "old": [
+        "k5"
+       ]
+      },
+      {
+       "n": "Slip-on sneaker",
+       "old": [
+        "k3"
+       ]
+      },
+      {
+       "n": "Designer sneaker",
+       "old": [],
+       "brief": "Luxury and minimalist designer sneakers; Achilles, Triple S, Super-Star, Geobasket, Replica."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Running, walking & outdoor shoes",
+   "mode": "mixed",
+   "note": "Tier for walking and water shoes; variety at the running and hiking enthusiast end.",
+   "b": [
+    {
+     "m": "Fit",
+     "v": "about a thumb's width at the toe",
+     "w": "Checked first for running, walking and hiking footwear."
+    },
+    {
+     "m": "Cushioning matched to distance",
+     "v": "",
+     "w": "Cushioning is chosen for the distance run; a matter of choice."
+    },
+    {
+     "m": "Type of support",
+     "v": "neutral; stability; motion control",
+     "w": "Support is matched to the runner's gait; a choice, not a ranking."
+    },
+    {
+     "m": "Drop and stack height",
+     "v": "",
+     "w": "Heel-to-toe drop and stack height are compared last."
+    },
+    {
+     "m": "Wear life",
+     "v": "replace at 300-500 miles",
+     "w": "Worn-out cushioning ends a running shoe's useful life."
+    }
+   ],
+   "s": [
+    {
+     "n": "Running & walking shoes",
+     "web": true,
+     "brief": "Running shoes as model-family archetypes with generations: Nike Pegasus, Brooks Ghost/Adrenaline GTS, Hoka Clifton/Bondi, ASICS Gel-Kayano/Gel-Nimbus, New Balance 1080/880, Saucony Kinvara/Ride, adidas Ultraboost/Adizero, carbon-plate racers (Nike Vaporfly/Alphafly) as an archetype. Trail: Salomon Speedcross, Brooks Cascadia, Hoka Speedgoat, Saucony Peregrine, La Sportiva Bushido, VJ. Minimalist: Vibram FiveFingers, Xero, Vivobarefoot, Merrell Vapor Glove, Altra (zero-drop). Walking: kind-level with test winners (Which?/Consumer Reports) only. Trim Hoka list to its families.",
+     "k": [
+      {
+       "n": "Running shoe",
+       "old": [
+        "k6"
+       ]
+      },
+      {
+       "n": "Trail running shoe",
+       "old": [
+        "k8"
+       ]
+      },
+      {
+       "n": "Minimalist shoe",
+       "old": [
+        "k9"
+       ]
+      },
+      {
+       "n": "Walking shoe",
+       "old": [
+        "k7"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Hiking & water shoes",
+     "web": true,
+     "brief": "Hiking shoe and hiking boot by archetype: Merrell Moab (originator of the mass hiking shoe), Salomon X Ultra / Quest, Lowa Renegade, Scarpa, Meindl, Hanwag, Zamberlan, Keen Targhee; heritage leather hikers (Danner Mountain Light) only if sourced. Classify boots by cut (low, mid, high) and weight (light, backpacking, mountaineering) as types; drop Paraboot Avoriaz from hiking unless sourced. Water shoes: tier, 3–5 makers (Astral, Keen, Speedo).",
+     "k": [
+      {
+       "n": "Hiking boot",
+       "old": [
+        "k32"
+       ]
+      },
+      {
+       "n": "Hiking shoe",
+       "old": [
+        "k10"
+       ]
+      },
+      {
+       "n": "Water shoe",
+       "old": [
+        "k11"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Dress & casual shoes",
+   "mode": "variety",
+   "note": "Kind → archetype (cap-toe, wholecut, brogue, Adelaide, penny loafer…) → maker's model → leather and last.",
+   "b": [
+    {
+     "m": "Construction",
+     "v": "hand-welted > Goodyear welted > Blake or Blake Rapid > cemented",
+     "w": "Comes first for shoes: it decides whether the shoe can be resoled, how long it lasts and how comfortable it is on day one."
+    },
+    {
+     "m": "Leather quality",
+     "v": "full-grain calf, shell cordovan > corrected grain",
+     "w": "Weighed after construction."
+    },
+    {
+     "m": "Shape of the last",
+     "v": "",
+     "w": "The last sets fit and look; follows the leather. A matter of choice, not a ranking."
+    },
+    {
+     "m": "Hand finishing and workmanship",
+     "v": "the maker's hand-grade line > its main line (for example Hand Grade)",
+     "w": "Grade lines within one maker show the finishing; compare them only within that maker."
+    },
+    {
+     "m": "Value",
+     "v": "",
+     "w": "Price set against the points above, weighed last."
+    }
+   ],
+   "s": [
+    {
+     "n": "Lace-ups & monk straps",
+     "web": true,
+     "brief": "Archetypes under Oxford: plain-toe, cap-toe, wholecut, Adelaide, full brogue (wingtip), semi-brogue, quarter brogue, balmoral. Under Derby: plain, apron/split-toe, longwing blucher (Alden), Norwegian/split-toe, gillie. Monk: single, double (and triple). Saddle: Spalding-type two-tone. Reference models as versions: Edward Green Chelsea/Dover, Crockett & Jones Hallam/Westfield, Alden 990 longwing and Indy, John Lobb City II/Philip II, Carmina, Church's Consul/Shannon/Diplomat, Tricker's Bourton, Paraboot Michael/Chambord, Berluti Alessandro, Allen Edmonds Park Avenue. Construction (hand-welted, Goodyear, Blake, Norwegian) is a detail axis, not a kind. Drop DapperFam, Giovanni, Belvedere and Giorgio Venturi retail SKUs; cap per-kind models to market-covering makers. Brand register: Edward Green, Crockett & Jones, Alden, Carmina, John Lobb, Church's, Tricker's, Cheaney, Loake, Gaziano & Girling, Allen Edmonds, Paraboot, Berluti, Meermin, Vass, Saint Crispin's.",
+     "k": [
+      {
+       "n": "Oxford",
+       "old": [
+        "k12"
+       ]
+      },
+      {
+       "n": "Derby",
+       "old": [
+        "k13"
+       ]
+      },
+      {
+       "n": "Monk strap",
+       "old": [
+        "k14"
+       ]
+      },
+      {
+       "n": "Saddle shoe",
+       "old": [
+        "k15"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Loafers, moccasins & slip-ons",
+     "web": true,
+     "brief": "Loafer archetypes: penny loafer (G.H. Bass Weejun 1936 originator; Alden 986, Church's, Edward Green Piccadilly, J.M. Weston 180), tassel loafer (Alden 563), horsebit loafer (Gucci 1953), Belgian loafer (Belgian Shoes), Venetian/plain vamp, kiltie. Moccasin: driving moc (Tod's Gommino, Car Shoe), camp moc, Clarks Wallabee, Minnetonka, Quoddy, Rancourt. Boat shoe: Sperry Authentic Original (1935, originator), Sebago Docksides, Timberland 3-Eye. Evening slipper: Prince Albert slipper (velvet, embroidered; Bowhill & Elliott, Stubbs & Wootton, Del Toro) and opera pump; the old 'plain slip-on' catch-all is dissolved — TOMS Alpargata goes to espadrille.",
+     "k": [
+      {
+       "n": "Loafer",
+       "old": [
+        "k16"
+       ]
+      },
+      {
+       "n": "Moccasin & driving shoe",
+       "old": [
+        "k19"
+       ]
+      },
+      {
+       "n": "Boat shoe",
+       "old": [
+        "k18"
+       ]
+      },
+      {
+       "n": "Evening slipper",
+       "old": [
+        "k17"
+       ],
+       "brief": "Replaces the 'Plain slip-on shoe' catch-all; fixes the Prince Albert slipper misfile; opera pump as archetype."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Heels, flats & mules",
+   "mode": "mixed",
+   "note": "Tier mainstream; variety at the luxury end (named designer archetypes).",
+   "b": [
+    {
+     "m": "Fit and heel height",
+     "v": "flat; kitten (3–5 cm); mid; high (8 cm+)",
+     "w": "Heel height and pitch decide wearability; a choice, not a ranking."
+    },
+    {
+     "m": "Construction and materials",
+     "v": "leather-lined, leather sole > synthetic",
+     "w": "Lining and sole decide comfort and repairability."
+    },
+    {
+     "m": "Designer archetype",
+     "v": "",
+     "w": "At the luxury end pairs are known by the house's named model."
+    }
+   ],
+   "s": [
+    {
+     "n": "Heels & flats",
+     "web": true,
+     "brief": "Luxury archetypes with house, year and versions (heel heights, materials): Christian Louboutin So Kate, Pigalle (red sole); Manolo Blahnik Hangisi, BB; Jimmy Choo Romy; Chanel two-tone slingback (1957) and ballerina; Salvatore Ferragamo Vara; Roger Vivier Belle Vivier (buckle pump); Repetto Cendrillon (ballet flat originator, 1956); Mary Jane: Start-rite, Repetto, Prada; T-bar shoe as a type of Mary Jane (fix the 'T-bar sandal' misfile). Drop high-street SKUs (Betts, Wittner) unless test winners. Types: kitten heel, stiletto, block heel on court shoe.",
+     "k": [
+      {
+       "n": "Court shoe",
+       "old": [
+        "k20"
+       ]
+      },
+      {
+       "n": "Slingback",
+       "old": [
+        "k23"
+       ]
+      },
+      {
+       "n": "Peep-toe shoe",
+       "old": [
+        "k24"
+       ]
+      },
+      {
+       "n": "Ballet flat",
+       "old": [
+        "k21"
+       ]
+      },
+      {
+       "n": "Mary Jane",
+       "old": [
+        "k22"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Mules, clogs & espadrilles",
+     "web": true,
+     "brief": "Mule archetypes: Gucci Princetown (horsebit backless loafer), Birkenstock-style cork mules handled under clog/sandal; drop retail SKUs (Lucky Brand, Mia, Vionic). Clog: Swedish clog (Troentorp, Sven), Dansko Professional, Birkenstock Boston, Crocs Classic Clog (cross-check it belongs here), Dutch klomp handled in Traditional footwear. Espadrille: Castañer (and the Yves Saint Laurent wedge, 1970s), Soludos, TOMS Alpargata (moved in from the dissolved slip-on kind); Spanish/Basque tradition entry if sourced.",
+     "k": [
+      {
+       "n": "Mule",
+       "old": [
+        "k25"
+       ]
+      },
+      {
+       "n": "Clog",
+       "old": [
+        "k26"
+       ]
+      },
+      {
+       "n": "Espadrille",
+       "old": [
+        "k27"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Boots",
+   "mode": "variety",
+   "note": "Ankle boot is a grouping (shelf), not a kind; heritage boots by archetype (service, engineer, logger, moc-toe, jodhpur, 1460).",
+   "b": [
+    {
+     "m": "Construction",
+     "v": "hand-welted > Goodyear welted / stitch-down > Blake > cemented",
+     "w": "Comes first for boots: it decides whether the boot can be resoled, how long it lasts and how comfortable it is on day one."
+    },
+    {
+     "m": "Leather quality",
+     "v": "full-grain, Horween Chromexcel, shell cordovan > corrected grain",
+     "w": "Weighed after construction."
+    },
+    {
+     "m": "Shape of the last",
+     "v": "",
+     "w": "The last sets fit and look. A matter of choice, not a ranking."
+    },
+    {
+     "m": "Value",
+     "v": "",
+     "w": "Price set against the points above, weighed last."
+    }
+   ],
+   "s": [
+    {
+     "n": "Ankle boots",
+     "web": true,
+     "brief": "Chelsea: J. Sparkes-Hall origin, Blundstone 500/550, R.M. Williams Comfort Craftsman, Dr. Martens 2976; trim the 17-model list to market-covering makers and icons. Chukka/desert boot: Clarks Desert Boot (1950, originator), Sanders, Red Wing Weekender Chukka. Jodhpur boot (new): strap-and-buckle ankle boot; Crockett & Jones, John Lobb, Saint Laurent versions. Bootie: the old generic 'Ankle boot' becomes the heeled fashion ankle boot (zip, lace or pull-on).",
+     "k": [
+      {
+       "n": "Chelsea boot",
+       "old": [
+        "k29"
+       ]
+      },
+      {
+       "n": "Chukka & desert boot",
+       "old": [
+        "k30"
+       ]
+      },
+      {
+       "n": "Jodhpur boot",
+       "old": []
+      },
+      {
+       "n": "Bootie",
+       "old": [
+        "k28"
+       ],
+       "brief": "Heeled fashion ankle boot; 'ankle boot' itself is now the shelf grouping."
+      }
+     ]
+    },
+    {
+     "n": "Heritage work & service boots",
+     "web": true,
+     "brief": "Archetype standard for the heritage-boot community (makers in register: Red Wing, Alden, White's, Viberg, Wesco, Nicks, Danner, Thorogood, Chippewa, Wolverine, John Lofgren, Grant Stone, Truman). Service boot: Red Wing Iron Ranger and Beckman, Viberg Service Boot, Alden Indy, Wolverine 1000 Mile, Grant Stone Diesel. Moc-toe (new): Red Wing Classic Moc 875 (1952), Thorogood, Russell. Logger (new): White's Smoke Jumper, Wesco Jobmaster, Nicks, Red Wing Logger. Engineer: Red Wing 2268, Wesco Boss. Combat/military: Dr. Martens 1460 (1960, eight-eye), US jungle boot, Corcoran jump boot, M-43 service shoe, Danner. Work boot keeps general lace-up work boots (Timberland 6-inch Premium as archetype). Split-toe: jika-tabi (Marugo).",
+     "k": [
+      {
+       "n": "Service boot",
+       "old": [
+        "k34"
+       ]
+      },
+      {
+       "n": "Moc-toe boot",
+       "old": []
+      },
+      {
+       "n": "Logger boot",
+       "old": []
+      },
+      {
+       "n": "Engineer boot",
+       "old": [
+        "k41"
+       ]
+      },
+      {
+       "n": "Combat & military boot",
+       "old": [
+        "k33"
+       ],
+       "brief": "Include Dr. Martens 1460 as an archetype."
+      },
+      {
+       "n": "Work boot",
+       "old": [
+        "k31"
+       ]
+      },
+      {
+       "n": "Split-toe work boot",
+       "old": [
+        "k35"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Western, tall & riding boots",
+     "web": true,
+     "brief": "Cowboy boot archetypes: classic western, roper, buckaroo, packer; makers Lucchese, Tony Lama, Justin, Ariat, Rios of Mercedes, Tecovas, Old Gringo; tradition entry for Texas boot-making if sourced. Knee-high absorbs the riding-style boot (Sam Edelman Penny); designer archetypes (Stuart Weitzman 5050 and Lowland). Over-the-knee: Stuart Weitzman Highland. Equestrian riding boot: field vs dress boot types; Ariat, Cavallo, Konig, Parlanti, Fabbri, Dehner, Tredstep. Drop high-street SKUs.",
+     "k": [
+      {
+       "n": "Cowboy boot",
+       "old": [
+        "k39"
+       ]
+      },
+      {
+       "n": "Knee-high boot",
+       "old": [
+        "k42",
+        "k45"
+       ],
+       "brief": "Riding-style boot merged in as a type."
+      },
+      {
+       "n": "Over-the-knee boot",
+       "old": [
+        "k43"
+       ]
+      },
+      {
+       "n": "Equestrian riding boot",
+       "old": [
+        "k44"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Rain, snow & winter boots",
+     "web": true,
+     "brief": "Rain boot: Hunter Original Tall, Le Chameau, Aigle, Wellington (Hessian origin), Blundstone; Bogs. Duck boot (new): L.L.Bean Bean Boot (1912 Maine Hunting Shoe, originator), Sorel Caribou-adjacent. Snow boot: Sorel Caribou, Baffin, Kamik, Moon Boot (1969). Sheepskin: UGG Classic Short/Tall, EMU, Australian sheepskin makers; mukluk and valenki go to Traditional footwear.",
+     "k": [
+      {
+       "n": "Rain boot",
+       "old": [
+        "k36"
+       ]
+      },
+      {
+       "n": "Duck boot",
+       "old": []
+      },
+      {
+       "n": "Snow boot",
+       "old": [
+        "k37"
+       ]
+      },
+      {
+       "n": "Sheepskin boot",
+       "old": [
+        "k38"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Sandals & slides",
+   "mode": "mixed",
+   "note": "Tier for everyday sandals; variety for icons (Birkenstock Arizona, Teva Original, Havaianas).",
+   "b": [
+    {
+     "m": "Footbed and support",
+     "v": "contoured cork or moulded footbed > flat",
+     "w": "Decides comfort for all-day wear."
+    },
+    {
+     "m": "Strap adjustability",
+     "v": "",
+     "w": "Adjustable straps decide fit for sports and walking sandals."
+    }
+   ],
+   "s": [
+    {
+     "n": "Sandals & slides",
+     "web": true,
+     "brief": "Icons as archetypes: Havaianas Top/Brasil (1962), Birkenstock Arizona (1973), Madrid, Gizeh, Boston (clog); adidas Adilette (1972, slide originator), Teva Original Universal (1984), Chaco Z/1, Keen Newport, fisherman sandal, jelly sandal, Ho Chi Minh sandal, Roman/Grecian sandal (gladiator), Mexican huarache, Ancient Greek Sandals, Hermès Oran. Wedge absorbs the Wörishofer (misfile fix) and cork wedges; heeled sandal absorbs the 'Other heeled sandals' catch-all (types: block, stiletto, kitten). Kolhapuri and Peshawari chappals go to Traditional footwear. Trim Teva/Chaco/Keen/Havaianas SKU lists to families.",
+     "k": [
+      {
+       "n": "Flip-flop",
+       "old": [
+        "k46"
+       ]
+      },
+      {
+       "n": "Slide",
+       "old": [
+        "k47"
+       ]
+      },
+      {
+       "n": "Flat strap sandal",
+       "old": [
+        "k48"
+       ]
+      },
+      {
+       "n": "Sports and outdoor sandal",
+       "old": [
+        "k49"
+       ]
+      },
+      {
+       "n": "Gladiator sandal",
+       "old": [
+        "k51"
+       ]
+      },
+      {
+       "n": "Huarache",
+       "old": [
+        "k52"
+       ]
+      },
+      {
+       "n": "Heeled sandal",
+       "old": [
+        "k55",
+        "k50"
+       ],
+       "brief": "Catch-all 'Other heeled sandals' dissolved here."
+      },
+      {
+       "n": "Wedge sandal",
+       "old": [
+        "k54"
+       ],
+       "brief": "Wörishofer goes here."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Traditional & regional footwear",
+   "mode": "variety",
+   "note": "Organised by craft tradition; each kind links to a tradition-register entry.",
+   "b": [
+    {
+     "m": "Authenticity of craft",
+     "v": "hand-made in the source region > factory imitation",
+     "w": "Tradition-register authenticity markers (GI status, materials, technique)."
+    }
+   ],
+   "s": [
+    {
+     "n": "Traditional footwear",
+     "web": true,
+     "brief": "Kind → regional archetype, with tradition entries (region, technique, materials, centres, GI/authenticity): Geta (koma-geta, takageta, tengu-geta, okobo) and Zōri/setta (Japan); Jika-tabi cross-ref; Kolhapuri chappal (GI, Maharashtra/Karnataka) and Peshawari chappal (moved from flat strap sandal); Jutti/mojari (Punjab, Rajasthan); Paduka; Babouche (Morocco; from the slippers list 'Baboosh'); Dutch klomp (wooden clog); Valenki (Russian felt boot); Mukluk / Inuit kamik; Opanak (Balkans). Keep to ≤12 kinds.",
+     "k": [
+      {
+       "n": "Geta",
+       "old": [
+        "k53"
+       ]
+      },
+      {
+       "n": "Zōri",
+       "old": []
+      },
+      {
+       "n": "Kolhapuri chappal",
+       "old": []
+      },
+      {
+       "n": "Jutti",
+       "old": [],
+       "brief": "Includes mojari."
+      },
+      {
+       "n": "Babouche",
+       "old": []
+      },
+      {
+       "n": "Wooden clog (klomp)",
+       "old": []
+      },
+      {
+       "n": "Valenki",
+       "old": []
+      },
+      {
+       "n": "Mukluk",
+       "old": [],
+       "brief": "Includes kamik."
+      },
+      {
+       "n": "Opanak",
+       "old": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Slippers",
+   "mode": "tier",
+   "s": [
+    {
+     "n": "Slippers",
+     "web": false,
+     "brief": "Restraint: one kind with types closed, backless (scuff), slipper boot, moccasin slipper; keep 5–8 market-covering makers (Acorn, L.L.Bean, UGG, Minnetonka, Dearfoams, Isotoner); move 'Baboosh' out (babouche is in Traditional footwear).",
+     "k": [
+      {
+       "n": "Slippers",
+       "old": [
+        "k56"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Shoe care & accessories",
+   "mode": "mixed",
+   "note": "All shoe care lives here (polish moves in from B6); tier for accessories, variety for the shoe-shine hobby (Saphir, Kiwi, Collonil, Tarrago, Boot Black).",
+   "b": [
+    {
+     "m": "Product suited to the leather",
+     "v": "",
+     "w": "Smooth calf, suede/nubuck, shell cordovan and exotic leathers each need their own products."
+    }
+   ],
+   "s": [
+    {
+     "n": "Shoe care",
+     "web": true,
+     "brief": "Shoe polish: wax polish vs cream polish vs conditioner vs waterproofing spray as types; brands Saphir Médaille d'Or (Pâte de Luxe, Renovateur), Kiwi, Collonil, Tarrago, Boot Black, Famaco, Lincoln, Venetian Shoe Cream. Shoe cleaner: suede/sneaker cleaners (Jason Markk, Crep Protect, Reshoevn8r). Shoe brush (new): horsehair, dauber, suede brush. Shoe-shine kit (new). Shoe tree: cedar (split-toe, full-toe), lasted trees (C&J, Edward Green, Saphir, Woodlore). Shoe horn: horn, metal, long-handled (Abbeyhorn).",
+     "k": [
+      {
+       "n": "Shoe polish and conditioner",
+       "old": [
+        "k65"
+       ]
+      },
+      {
+       "n": "Shoe cleaner",
+       "old": [
+        "k64"
+       ]
+      },
+      {
+       "n": "Shoe brush",
+       "old": []
+      },
+      {
+       "n": "Shoe-shine kit",
+       "old": []
+      },
+      {
+       "n": "Shoe tree",
+       "old": [
+        "k57"
+       ]
+      },
+      {
+       "n": "Shoe horn",
+       "old": [
+        "k58"
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Laces, insoles & covers",
+     "web": false,
+     "brief": "Restraint: kind-level entries with 2–4 makers each; drop the Tingley trade overshoe model (keep galosh types); spats keep cloth/leather types.",
+     "k": [
+      {
+       "n": "Shoelace",
+       "old": [
+        "k59"
+       ]
+      },
+      {
+       "n": "Insole",
+       "old": [
+        "k60"
+       ]
+      },
+      {
+       "n": "Heel grip",
+       "old": [
+        "k61"
+       ]
+      },
+      {
+       "n": "Overshoe",
+       "old": [
+        "k62"
+       ]
+      },
+      {
+       "n": "Spat",
+       "old": [
+        "k63"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "moves": [
+  {
+   "old": "k40",
+   "to": "G1",
+   "dept": "Motorcycle riding gear"
+  }
+ ],
+ "drop": []
+}

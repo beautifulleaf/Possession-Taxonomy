@@ -348,8 +348,9 @@ Hard rules
   archetype may stay in "m". Attribute-only variants go into "t".
 - Keep every old kind listed for this shelf (merged as the plan says) unless the rules clearly put it out of scope; say
   in notes what you dropped and why.
-- Brands: add a register entry for each brand that is an archetype "mk" (or a core brand of a tier kind) when you have
-  retrieved a page about that brand. Traditions: add where artisan traditions matter for this shelf.
+- Brands: add a register entry for each brand that is an archetype "mk" (or a core brand of a tier kind). Cite a retrieved
+  page when you have one; for a well-known brand whose facts (country, founding year, owner, segment) you know reliably,
+  you may record it from your own knowledge with "s":"knowledge" (owner decision). Leave out any fact you are unsure of. Traditions: add where artisan traditions matter for this shelf.
 - Be efficient: batch fetches in code (fetch many URLs per call, print only the facts you need). Aim to finish within
   roughly 25 tool rounds. Wikipedia article URLs (https://en.wikipedia.org/wiki/Title) are good sources; web_fetch them
   directly when you know the exact title, or use the wiki tool to confirm titles in bulk.
@@ -449,6 +450,7 @@ def check_shelf(code, dp, s, out, ks_by_id, retrieved, final=False):
     brands = []
     for b in out.get('brands') or []:
         if not isinstance(b, dict) or not b.get('n'): continue
+        if b.get('s') == 'knowledge': b['s'] = ''; brands.append(b); continue  # owner: well-known brand facts may come from model knowledge
         if not ok(b.get('s')):
             errs.append(f"brand {b.get('n')}: s must be a URL you retrieved (got {b.get('s')!r})")
             if final: dropped.append(f"brand {b['n']} (unsourced)"); continue
