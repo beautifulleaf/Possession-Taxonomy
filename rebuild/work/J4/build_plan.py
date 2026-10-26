@@ -20,7 +20,7 @@ plan = {
  ],
  "depts": [
   {"n": "Fruit", "mode": "variety",
-   "note": "Variety by cultivar. Japanese premium gift fruit (Sembikiya, Takano, Senbikiya-grade melons, grapes, mangoes, strawberries) appears as archetypes or versions inside each kind, with the shops in the brand register.",
+   "note": "Variety by cultivar. Japanese premium gift fruit (melons, grapes, mangoes, strawberries sold by shops such as Sembikiya and Takano) appears as archetypes or versions inside each kind, with the shops in the brand register.",
    "b": [
     {"m": "USDA grade", "v": "U.S. Extra Fancy > U.S. Fancy > U.S. No. 1 (apples, pears); U.S. No. 1 > U.S. No. 2 for most fruit", "w": "USDA AMS grade standards for fresh fruit."},
     {"m": "Japanese shipping grade", "v": "特秀 (tokushū) > 秀 (shū) > 優 (yū) > 良 (ryō)", "w": "Grades used by Japanese co-operatives and gift-fruit shops for shape, colour and blemish (to verify)."},
