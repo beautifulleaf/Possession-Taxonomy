@@ -126,7 +126,7 @@ J['07_00']={"kinds":[
  {"n":"Lamp spare parts","a":"lamp cord set · lamp socket · lamp holder · chandelier crystal","d":"Replacement parts for lamps and fittings: cords, holders, harps and chandelier crystals.",
   "t":["Cord set","Pendant cord set","Lamp holder","Harp and finial","Crystal drops and prisms","Glass diffuser"],
   "s":"https://www.ikea.com/at/en/cat/shades-bases-cords-10803/",
-  "m":[["SUNNEBY","IKEA"],["HEMMA","IKEA"],["Spectra Crystal","Swarovski"]]}],
+  "m":[["SUNNEBY","IKEA"],["Spectra Crystal","Swarovski"]]}],
  "brands":[],"traditions":[],
  "notes":"Restraint only. Lamp shade 21 -> 4 models plus 2 ranges (HAY and IKEA are the only makers in the old data); IKEA PS 2026 range and 15 IKEA SKUs dropped. Lamp base 8 -> 4. Lamp cord set, Lamp socket and Chandelier crystal merged into Lamp spare parts with t types; source kept from the cord-set kind; cord-set SKUs cut to one IKEA model, Swarovski Spectra Crystal kept."}
 for j,o in J.items():
