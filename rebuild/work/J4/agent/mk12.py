@@ -5,10 +5,10 @@ kinds=[
 K("Fig","Fresh fig; dried figs are in Pantry Staples.","https://www.regione.calabria.it/wp-content/uploads/2023/06/DOP__IGP_e_STG_Registrati_agg_23.03.23.pdf",
  [x("Black Mission","","1768",W+"Mission_fig","Dark, Spanish-origin fig carried to San Diego by Franciscans in 1768; both breba and main crop, skin often cracks when ripe.",[],a="Mission · Franciscana"),
   x("Brown Turkey","","",FG,"Common-type fig that needs no pollination; holds the RHS Award of Garden Merit in the UK."),
-  x("Dottato","","",FG,"Common-type fig known as Kadota, mentioned by Pliny the Elder.",[v("Dottato (Kadota)","","","Alternative name"),v("Fico Bianco del Cilento PGI","","","Old-data PGI for Cilento white figs")],a="Kadota"),
+  x("Dottato","","",FG,"Common-type fig known as Kadota, mentioned by Pliny the Elder.",[v("Dottato (Kadota)","","","Alternative name")],a="Kadota"),
   x("Brunswick","","",FG,"Common-type fig cultivar."),
   x("Celeste","","",FG,"Common-type fig cultivar.")],
- ["Figue de Solliès AOP","Fico monnato di Prignano Cilento","Purandar Fig GI","تين دجبة / Figues de Djebba AOC","大竹いちじく GI"]),
+ ["Fico Bianco del Cilento PGI","Figue de Solliès AOP","Fico monnato di Prignano Cilento","Purandar Fig GI","تين دجبة / Figues de Djebba AOC","大竹いちじく GI"]),
 K("Date","Dates sold as fresh fruit (khalal, rutab, fresh soft dates on the branch or chilled); packed dried dates are in Pantry Staples.","https://en.wikipedia.org/wiki/Geographical_indications_in_India",
  [x("Medjool","","",W+"Medjool","Large soft Tafilalt, Morocco, date called the king of dates; about 25% of world date trade.",[v("Medjool","","","Also Medjoul, Mejhoul, Majhool")]),
   x("Deglet Nour","","",W+"Deglet_Nour","Soft, translucent, honey-flavoured date from the oasis of Tolga, Algeria; spread to Tunisia in the late 17th century.",[v("Deglet Nour Tunisienne IP","","","Old-data Tunisian IP")]),
@@ -29,6 +29,6 @@ K("Jujube","Fresh Ziziphus jujuba fruit; dried red dates are in Pantry Staples."
  [x("Li","","",W+"Jujube","North American jujube cultivar.",[]),x("Lang","","",W+"Jujube","North American jujube cultivar.",[]),
   x("Silverhill","","",W+"Jujube","North American jujube also called Tiger Tooth.",[],a="Tiger Tooth")],["Sherwood","So","Shui Men"],a="Chinese date · Red date"),
 ]
-notes="Dried fig entries (Dried Atessa Reale Fig, Fico secco di Carmignano) moved to notes for J5 as the brief directs. Wonderful, Bhagwa, Mollar de Elche PDO: Wikipedia Pomegranate names only Mollar de Elche (as a reference title), so pomegranate has no archetypes; Solapur GI kept flat. Barhi, Hongsi, many Japanese persimmon cultivars kept flat from old data (trimmed 50 to 26). Ficodindia and Ajwa have no GI versions; Fico Bianco del Cilento PGI assigned as Dottato version on the old-data cultivar link which is unverified."
+notes="Dried fig entries (Dried Atessa Reale Fig, Fico secco di Carmignano) moved to notes for J5 as the brief directs. Wonderful, Bhagwa, Mollar de Elche PDO: Wikipedia Pomegranate names only Mollar de Elche (as a reference title), so pomegranate has no archetypes; Solapur GI kept flat. Barhi, Hongsi, many Japanese persimmon cultivars kept flat from old data (trimmed 50 to 26). Ficodindia and Ajwa have no GI versions;"
 urls=[FG,W+"Mission_fig",W+"Medjool",W+"Deglet_Nour",W+"Ajwa_(date)",W+"Sukkari",DP,PE,W+"Diospyros_kaki",W+"Cactus_fig",W+"Pomegranate",W+"Jujube"]
 write("00_12",kinds,[],[],notes,urls)
