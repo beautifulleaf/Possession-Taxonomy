@@ -16,7 +16,7 @@ kinds = [
   "m": [["Archival Record Outer Sleeves", "Mobile Fidelity"], ["Polypropylene outer sleeves (2 and 4 mil)", "BCW"], ["Polyethylene outer sleeves (3 mil)", "BCW"]]},
  {"n": "CD jewel case", "a": "CD case", "d": "Hinged polystyrene case, about 142 × 125 × 10 mm, holding a compact disc with its booklet and back card.",
   "t": ["standard", "slimline (5 mm)", "double (Smart Tray / Brilliant Box)", "multi-disc (chubby)", "Super Jewel Box", "clear tray", "black tray"],
-  "s": ODP, "m": [["CD cases", "BCW"]]},
+  "s": ODP},
  {"n": "Record storage box", "a": "LP box · 45 box", "d": "Cardboard box sized to hold records upright in their jackets, for 12-inch LPs or 7-inch singles.",
   "t": ["12-inch LP", "7-inch singles", "archival barrier board", "corrugated", "with handles", "latching case"], "s": BU,
   "m": [["12\" Vinyl Record Storage Box", "Bags Unlimited"], ["33 RPM Record Storage Box", "BCW"], ["45 RPM Record Storage Box", "BCW"]]},
