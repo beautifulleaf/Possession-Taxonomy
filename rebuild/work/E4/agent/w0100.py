@@ -130,4 +130,4 @@ notes=("All 6 old kinds kept; 4 new kinds (Kukri, Seax, Kris, Trench knife) sour
  "'Seax' model moved to the Seax kind; 'Parrying dagger' merged into Main gauche; 'Spike bayonet' became a type; historic daggers and Fairbairn–Sykes became archetypes. "
  "Ka-Bar and Randall Model 1 placed under Bowie knife (fighting-knife alias). Left out: Buck 119 introduction year (not on retrieved page), Mauser S84/98 and Mosin bayonet details (not on retrieved page, kept as flat models), jambiya/cinquedea/katar (no retrieved facts). "
  "Cross-ref: OSS/V-42 stilettos are F-S derivatives.")
-w('01_00',{"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes})
+if __name__=="__main__": w("01_00",{"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes})
