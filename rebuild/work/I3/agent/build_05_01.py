@@ -1,0 +1,51 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+K='knowledge'
+US=W+'List_of_broadband_providers_in_the_United_States'
+WH='https://www.which.co.uk/reviews/broadband/article/best-broadband-providers-aIIx34f51krz'
+FR='https://telecomlead.com/broadband/best-isps-in-france-2026-orange-free-bouygues-telecom-and-sfr-lead-fiber-broadband-126144'
+kinds=[
+ {"n":"Broadband plan","a":"fixed-line broadband plan · home internet",
+  "d":"Home internet plan over a fixed line: fibre, copper or cable.",
+  "t":["full fibre (FTTP)","part fibre / VDSL","cable","ADSL","speed tier","internet-only","contract or no-contract"],
+  "s":"https://www.xfinity.com/national/",
+  "m":[["Spectrum Internet","Charter Communications · US"],["Xfinity Internet","Xfinity · US"],["AT&T Fiber","AT&T Inc. · US"],
+       ["Fios Home Internet","Verizon · US"],["Optimum","Optimum Communications · US"],["Frontier Fiber Internet","Frontier · US"],
+       ["BT Broadband","BT · UK"],["Sky Broadband","Sky · UK"],["Virgin Media","Virgin Media · UK"],
+       ["MagentaZuhause","Telekom · Germany"],["Freebox Ultra","Free · France"],["Orange","Orange S.A. · France"]],
+  "r":[["Zen Internet","Zen Internet · UK, Which? Recommended (top 2026)"],["Plusnet","Plusnet · UK, Which? Recommended"],
+       ["Hyperoptic","Hyperoptic · UK"],["Community Fibre","Community Fibre · UK"],["TalkTalk","TalkTalk · UK"],["EE Broadband","EE · UK"],
+       ["Vodafone Broadband","Vodafone · UK"],["Utility Warehouse","Utility Warehouse · UK"],["Now Broadband","Now · UK"],
+       ["SFR","Altice France · France"],["B&You Pure Fibre","Bouygues Telecom · France"]]},
+ {"n":"Phone, internet and TV bundle","a":"bundled connectivity package · Kombi-Tarif · triple play",
+  "d":"One plan bundling an internet or phone connection with phone or TV, sold as a package.",
+  "t":["double play (broadband + phone)","triple play (+ TV)","quad play (+ mobile)"],
+  "s":"https://www.allconnect.com/providers/xfinity/bundles",
+  "m":[["MagentaEINS","Telekom"],["Xfinity Internet + TV Plus","Xfinity"]]},
+ {"n":"Satellite internet plan","a":"satellite broadband",
+  "d":"Internet plan delivered by satellite through a dish, at home or on the move.",
+  "t":["low-Earth-orbit","geostationary","residential","roaming or mobile","data cap"],
+  "s":"https://starlink.com/service-plans",
+  "m":[["Starlink Residential","Starlink"],["Hughesnet","Hughesnet"],["Viasat residential internet","Viasat"]]},
+ {"n":"Home phone plan","a":"home phone line plan · landline · VoIP home phone",
+  "d":"Plan for a fixed home telephone line, over copper or internet (VoIP).",
+  "t":["digital voice over broadband","VoIP box","line rental","call bundle"],
+  "s":"https://www.allconnect.com/providers/xfinity/bundles",
+  "m":[["BT Digital Voice","BT"],["Ooma Home Phone Service (Telo)","Ooma"],["Xfinity Voice","Xfinity"]]},
+]
+brands=[
+ {"n":"Xfinity","c":"United States","f":"","seg":"Mainstream","kf":"cable broadband","d":"Comcast's consumer brand, second-largest US home broadband provider (cable).","lines":["Xfinity Internet","Xfinity Mobile","Xfinity Voice"],"s":US},
+ {"n":"Charter Communications","c":"United States","f":"","seg":"Mainstream","kf":"Spectrum","d":"Largest US home broadband provider by subscribers, sold as Spectrum (cable).","lines":["Spectrum"],"s":US},
+ {"n":"Starlink","c":"United States","f":"","seg":"Mainstream","kf":"satellite internet","d":"SpaceX's low-orbit satellite internet service, public since 2021 and available in about 160 countries.","s":W+"Starlink"},
+ {"n":"Hughesnet","c":"United States","f":"1996","seg":"Mainstream","kf":"satellite internet","d":"EchoStar-owned consumer satellite internet service, launched as DirecPC in 1996.","s":W+"Hughes_Network_Systems"},
+ {"n":"Viasat","c":"United States","f":"1986","seg":"Mainstream","kf":"satellite internet","d":"Carlsbad satellite company with a residential internet business from its 2009 WildBlue purchase.","s":W+"Viasat_(American_company)"},
+ {"n":"Ooma","c":"United States","f":"2004","seg":"Specialist","kf":"VoIP home phone","d":"Sunnyvale VoIP company whose Telo box (2009) gives free US home calling.","s":W+"Ooma"},
+ {"n":"Zen Internet","c":"United Kingdom","f":"","seg":"Premium","kf":"broadband service","d":"UK broadband provider, top of the 2026 Which? survey and a Which? Recommended Provider.","s":WH},
+ {"n":"Plusnet","c":"United Kingdom","f":"","seg":"Value","kf":"broadband","d":"UK broadband provider, a 2026 Which? Recommended Provider.","s":WH},
+ {"n":"Free","c":"France","f":"","seg":"Mainstream","kf":"Freebox","d":"Iliad's French ISP, whose flagship Freebox Ultra offers symmetrical multi-gigabit fibre.","lines":["Freebox Ultra"],"s":FR},
+]
+notes=("Broadband trimmed to leading providers of US (Wikipedia largest-provider table), UK (Which? 2026 list incl. Recommended Providers Zen Internet and Plusnet), Germany (old data) and France (retrieved ISP ranking); twelve in m, the rest in r with country. "
+ "Fixed-wireless home 5G (Verizon 5G Home, AT&T Internet Air) belongs to Mobile data plan per the plan, so left out here. Other markets (Japan, India, Canada etc.) not added: no retrieved provider page this session. "
+ "Satellite: Amazon Leo (ex Project Kuiper) left out, consumer service not yet launched per Wikipedia; Eutelsat OneWeb left out (no consumer plan confirmed). Old kind sources kept; BT, Sky, Telekom, Orange S.A., Verizon, AT&T Inc. covered by register entries from other shelves or left as maker names.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='work/I3/shelves/05_01.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p); print('written')
