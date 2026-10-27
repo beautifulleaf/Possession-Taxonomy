@@ -16,7 +16,7 @@ kinds=[
 ]
 brands=[B('Horween','United States','1905','Heritage manufactory','Chromexcel, cordovan','Chicago tannery founded by Isadore Horween, at 2015 North Elston Avenue since 1920.',s=HW,sig=['Horween Chromexcel','Horween Shell Cordovan']),
  B('Badalassi Carlo','Italy','','Heritage manufactory','Tuscan vegetable-tan','Santa Croce sull\'Arno tannery known for Pueblo and Wax.',s=CY,sig=['Badalassi Carlo Pueblo']),
- B('Walpier','Italy','','Heritage manufactory','Buttero','San Miniato, Tuscany tannery known for Buttero and Toscano.',s=CY,sig=['Walpier Buttero']),
+ B('Walpier','Italy','','Heritage manufactory','Buttero','Santa Croce sull\'Arno tannery known for Buttero and Toscano.',s=CY,sig=['Walpier Buttero']),
  B('Wickett & Craig','United States','','Heritage manufactory','bridle leather','Curwensville, Pennsylvania tannery founded in Toronto, known for English Bridle.',s=CY,sig=['Wickett & Craig English Bridle'])]
 save('08_00',kinds,brands,[],'Kept all 5 planned kinds. Conceria La Bretagna, Hermann Oak, Tempesta Elbamatt, Dublin not confirmed on fetched pages so left out.')
 
