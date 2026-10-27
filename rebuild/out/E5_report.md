@@ -2,7 +2,7 @@
 
 **Brand mode:** Accessories: tier; Arcade & coin-op: variety; Consoles & handhelds: variety; Controllers: mixed; Game media: variety; Modding, repair & retro video: variety; VR & XR: variety
 
-**Counts (before → after):** 7 → 7 departments · 75 → 103 kinds · 0 → 306 archetypes · 1480 → 707 flat models · 1480 → 1601 models+versions · 300 → 285 brands named · register 116 brands, 0 traditions · moves out 0 · dropped kinds 0.
+**Counts (before → after):** 6 → 7 departments · 74 → 103 kinds · 0 → 306 archetypes · 1479 → 707 flat models · 1479 → 1601 models+versions · 300 → 286 brands named · register 116 brands, 0 traditions · moves out 0 · dropped kinds 0.
 
 **Sources:** 247 distinct retrieved URLs logged in work/E5/sources.tsv (server web_fetch, Wikipedia/Wikidata APIs).
 

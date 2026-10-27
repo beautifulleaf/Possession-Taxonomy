@@ -5,7 +5,10 @@ const domsEl = document.getElementById('doms'), catsEl = document.getElementById
 const MODE = { variety: 'Variety', tier: 'Tier', mixed: 'Mixed' };
 let BR = null, TR = null;
 async function getJSON(p) { if (!cache[p]) { const r = await fetch(p); if (!r.ok) throw new Error(r.status); cache[p] = await r.json(); } return cache[p]; }
-async function brands() { if (!BR) { try { const j = await getJSON('reader/_brands.json'); BR = new Map(j.b.map(b => [b.n.toLowerCase(), b])); } catch (e) { BR = new Map(); } } return BR; }
+async function brands() { if (!BR) { try { const j = await getJSON('reader/_brand_index.json'); BR = new Map(); j.b.forEach(b => [b[0], b[4]].filter(Boolean).forEach(n => { const k = n.toLowerCase(); if (!BR.has(k)) BR.set(k, []); BR.get(k).push(b); })); } catch (e) { BR = new Map(); } } return BR; }
+const brandRow = (name, c) => { const rows = BR && BR.get(name.toLowerCase()); if (!rows) return null; return rows.find(b => b[3].includes(c)) || rows[0]; };
+let tab = 'kinds', focusName = null;
+function openBrand(name) { const b = brandRow(name, cur); if (!b) return; const cs = b[3]; open(cs.includes(cur) ? cur : cs[0], true, null, 'brands', b[0]); }
 function setView(v) { view = v; viewsEl.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.v === v))); }
 function showDom(d) { domsEl.querySelectorAll('.dom').forEach(b => b.setAttribute('aria-current', String(view === 'cat' && b.dataset.d === d)));
   catsEl.hidden = view !== 'cat';
@@ -13,14 +16,14 @@ function showDom(d) { domsEl.querySelectorAll('.dom').forEach(b => b.setAttribut
     b.addEventListener('click', () => { q.value = ''; open(c.c, true); }); return b; })); }
 S.domains.forEach(d => { const b = $('button', { class: 'dom', type: 'button', 'data-d': d.d, text: d.n });
   b.addEventListener('click', () => { q.value = ''; open(S.cats.find(c => c.d === d.d).c, true); }); domsEl.append(b); });
-[['cat', 'Categories'], ['brands', 'Brands'], ['traditions', 'Traditions'], ['baby', 'Baby & child'], ['species', 'Rare species']].forEach(([v, l]) => { const b = $('button', { type: 'button', 'data-v': v, 'aria-pressed': 'false', text: l });
-  b.addEventListener('click', () => { q.value = ''; if (v === 'cat') open(cur || S.cats[0].c, true); else if (v === 'brands') openBrands(); else if (v === 'traditions') openTraditions(); else if (v === 'species') openSpecies(); else openBaby(); }); viewsEl.append(b); });
+[['cat', 'Categories'], ['brands', 'Brands A–Z'], ['baby', 'Baby & child']].forEach(([v, l]) => { const b = $('button', { type: 'button', 'data-v': v, 'aria-pressed': 'false', text: l });
+  b.addEventListener('click', () => { q.value = ''; if (v === 'cat') open(cur || S.cats[0].c, true); else if (v === 'brands') openBrandIndex(); else openBaby(); }); viewsEl.append(b); });
 new ResizeObserver(() => document.documentElement.style.setProperty('--hh', document.querySelector('header').offsetHeight + 'px')).observe(document.querySelector('header'));
 const hl = (text, term) => { if (!term || !text) return text; const i = text.toLowerCase().indexOf(term); if (i < 0) return text; return [text.slice(0, i), $('mark', { text: text.slice(i, i + term.length) }), text.slice(i + term.length)]; };
 const slug = (...p) => p.join('-');
 const meta = (...p) => p.filter(Boolean).join(' · ');
 function makerEl(name) { if (!name) return null; const s = $('span', { class: 'mk' }, name);
-  brands().then(m => { if (m.has(name.toLowerCase())) { s.classList.add('link'); s.setAttribute('role', 'link'); s.tabIndex = 0; const go = () => openBrands(name); s.addEventListener('click', go); s.addEventListener('keydown', e => { if (e.key === 'Enter') go(); }); } }); return s; }
+  brands().then(m => { if (m.has(name.toLowerCase())) { s.classList.add('link'); s.setAttribute('role', 'link'); s.tabIndex = 0; const go = () => openBrand(name); s.addEventListener('click', go); s.addEventListener('keydown', e => { if (e.key === 'Enter') go(); }); } }); return s; }
 function arch(x) {
   const box = $('div', { class: 'arch' }, $('div', { class: 'ah' }, $('b', { text: x.n }), x.mk || x.y ? $('i', {}, x.mk ? makerEl(x.mk) : null, x.mk && x.y ? ' · ' : '', x.y || '') : null));
   if (x.a) box.append($('p', { class: 'also', text: 'Also called ' + x.a }));
@@ -51,7 +54,8 @@ function item(k, term) {
   return a;
 }
 function best(list) { return $('div', { class: 'best' }, $('h4', { text: 'What makes a good one' }), $('ol', {}, list.map(b => $('li', {}, $('b', { text: b.m }), b.v ? [': ', $('span', { class: 'v', text: b.v })] : null, b.w ? '. ' + b.w : '')))); }
-async function open(c, top, target) {
+async function open(c, top, target, t, focus) {
+  if (c !== cur || t) tab = t || 'kinds'; focusName = focus || null;
   setView('cat'); cur = c; showDom(c[0]);
   try { localStorage.setItem('reader-cat', c); } catch (e) {}
   main.replaceChildren($('p', { class: 'none', text: 'Loading ' + catName(c) + '…' })); side.replaceChildren();
@@ -61,13 +65,23 @@ async function open(c, top, target) {
   if (target) document.getElementById(target)?.scrollIntoView();
 }
 let mode = 'scene';
+function tabBar() {
+  const ci = S.cats.find(x => x.c === cur) || {};
+  const tabs = [['kinds', 'Kinds', ci.k], ['brands', 'Brands', ci.nb], ['traditions', 'Traditions', ci.nt], ['species', 'Rare species', ci.ns]].filter(([k, , n]) => k === 'kinds' || n);
+  if (tabs.length < 2) return null;
+  const bar = $('div', { class: 'modes', role: 'group', 'aria-label': 'Show' });
+  tabs.forEach(([k, l, n]) => { const b = $('button', { type: 'button', 'aria-pressed': String(tab === k) }, l, $('span', { class: 'n', text: ' ' + (n || 0) })); b.addEventListener('click', () => { tab = k; focusName = null; render(); window.scrollTo({ top: 0 }); }); bar.append(b); });
+  return bar;
+}
 function render() {
+  if (tab !== 'kinds') return renderRegister();
   const hasScenes = !!(data.scenes && data.scenes.length);
   if (!hasScenes) return renderTree();
   const bar = $('div', { class: 'modes', role: 'group', 'aria-label': 'Browse by' });
   [['scene', 'By scene'], ['tree', 'By garment']].forEach(([k, l]) => { const b = $('button', { type: 'button', 'aria-pressed': String(mode === k), text: l }); b.addEventListener('click', () => { mode = k; render(); window.scrollTo({ top: 0 }); }); bar.append(b); });
   if (mode === 'tree') renderTree(); else renderScenes();
   main.insertBefore(bar, main.children[1] || null);
+  const tb = tabBar(); if (tb) main.insertBefore(tb, main.children[1] || null);
 }
 function sceneBox(x, id, depth) {
   const core = x.b.filter(b => b[1]).length;
@@ -101,6 +115,7 @@ function renderTree() {
   side.replaceChildren($('h2', { text: catName(cur) }), ol);
   main.replaceChildren();
   main.append($('div', { class: 'cat-head' }, $('h2', { text: catName(cur) }), $('p', { text: (data.lead ? data.lead + ' ' : '') + total + ' kinds in ' + data.depts.length + (data.depts.length === 1 ? ' department.' : ' departments.') })));
+  const tb = tabBar(); if (tb) main.append(tb);
   if ((data.b || []).length) main.append(best(data.b));
   data.depts.forEach((d, i) => {
     const sec = $('section', { class: 'dept', id: slug('d', i) }, $('h3', { class: 'dept-name' }, d.n, d.mode ? $('span', { class: 'mode', text: MODE[d.mode] || d.mode }) : null));
@@ -112,27 +127,42 @@ function renderTree() {
   spy();
 }
 const SEG_ORDER = ["Luxury house", "Designer", "Contemporary & premium", "Heritage & workwear", "Japanese & denim", "Streetwear", "Outdoor & technical", "Athletic & sportswear", "High street", "Value & basics", "Bespoke & artisan", "Traditional & national dress", "Subculture & alternative", "Haute maison", "Independent maker", "Premium", "Mainstream", "Value", "Traditional & regional", "Professional & flagship", "Heritage manufactory", "Artisan & independent", "Specialist", "Own-label & retailer", "Institution & issuer"];
-async function openBrands(focus) {
+async function renderRegister() {
+  const c = cur, t = tab, file = 'reader/' + t + '/' + c + '.json';
+  side.replaceChildren(); main.replaceChildren($('p', { class: 'none', text: 'Loading…' }));
+  let j; try { j = await getJSON(file); } catch (e) { main.replaceChildren($('p', { class: 'none', text: 'This list did not load (' + e.message + '). Choose the tab again to retry.' })); return; }
+  if (cur !== c || tab !== t || view !== 'cat') return;
+  const list = j.b || j.t || j.i || [];
+  const groupOf = t === 'brands' ? (e => e.seg || 'Other') : (e => e.g || 'Other');
+  const groups0 = new Map(); list.forEach(e => { const g = groupOf(e); if (!groups0.has(g)) groups0.set(g, []); groups0.get(g).push(e); });
+  const rank = g => { const i = SEG_ORDER.indexOf(g); return i < 0 ? 999 : i; };
+  const groups = new Map([...groups0.entries()].sort((a, b) => t === 'brands' ? rank(a[0]) - rank(b[0]) || a[0].localeCompare(b[0]) : b[1].length - a[1].length || a[0].localeCompare(b[0])));
+  const ol = $('ol'); [...groups.keys()].forEach((g, i) => ol.append($('li', {}, $('a', { href: '#' + slug('g', i) }, g, $('span', { text: groups.get(g).length })))));
+  const title = { brands: 'Brands', traditions: 'Traditions', species: 'Rare species' }[t];
+  side.replaceChildren($('h2', { text: catName(c) + ': ' + title }), ol);
+  const blurb = { brands: ' brands, makers and houses in this category, grouped by segment. A brand that also appears elsewhere lists those categories.', traditions: ' craft and faith traditions behind objects in this category: origin, technique, materials, signature forms, centres and how to tell the real thing.', species: ' rarer species collected as specimens. The tree keeps the popular collector species; these are listed by class.' }[t];
+  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(c) }), $('p', { text: list.length + blurb })));
+  const tb = tabBar(); if (tb) main.append(tb);
+  const card = t === 'brands' ? brandCard : t === 'traditions' ? tradCard : speciesCard;
+  [...groups.keys()].forEach((g, i) => { const sec = $('section', { class: 'dept', id: slug('g', i) }, $('h3', { class: 'dept-name', text: g }));
+    sec.append($('div', { class: 'items' }, groups.get(g).sort((a, b) => a.n.localeCompare(b.n)).map(card))); main.append(sec); });
+  spy();
+  if (focusName) { const el = document.getElementById('b-' + focusName.toLowerCase().replace(/[^a-z0-9]+/g, '-')); if (el) { el.scrollIntoView({ block: 'center' }); el.style.outline = '2px solid var(--flag)'; } focusName = null; }
+}
+async function openBrandIndex() {
   setView('brands'); showDom(''); side.replaceChildren(); main.replaceChildren($('p', { class: 'none', text: 'Loading brands…' }));
-  let j; try { j = await getJSON('reader/_brands.json'); } catch (e) { main.replaceChildren($('p', { class: 'none', text: 'The brand register has not been published yet.' })); return; }
-  if (view !== 'brands') return;
-  const cats = [...new Set(j.b.flatMap(b => b.cats || []))].sort();
-  let fc = 'all';
-  const draw = () => {
-    const list = j.b.filter(b => fc === 'all' || (b.cats || []).includes(fc));
-    const segs0 = new Map(); list.forEach(b => { const s = b.seg || 'Other'; if (!segs0.has(s)) segs0.set(s, []); segs0.get(s).push(b); });
-    const rank = s => { const i = SEG_ORDER.indexOf(s); return i < 0 ? 999 : i; };
-    const segs = new Map([...segs0.entries()].sort((a, b) => rank(a[0]) - rank(b[0]) || a[0].localeCompare(b[0])));
-    const ol = $('ol'); [...segs.keys()].forEach((s, i) => ol.append($('li', {}, $('a', { href: '#' + slug('g', i) }, s, $('span', { text: segs.get(s).length })))));
-    const pick = $('div', { class: 'cats' }, [['all', 'All categories'], ...cats.map(c => [c, catName(c)])].map(([c, l]) => { const b = $('button', { class: 'cat', type: 'button', 'aria-current': String(c === fc), text: l }); b.addEventListener('click', () => { fc = c; draw(); }); return b; }));
-    side.replaceChildren($('h2', { text: 'Brands by segment' }), ol);
-    main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Brands' }), $('p', { text: list.length + ' brands, makers and houses. Each entry is held once and lists its lines, eras, signature pieces and the categories and scenes it appears in.' })), pick);
-    [...segs.keys()].forEach((s, i) => { const sec = $('section', { class: 'dept', id: slug('g', i) }, $('h3', { class: 'dept-name', text: s }));
-      sec.append($('div', { class: 'items' }, segs.get(s).sort((a, b) => a.n.localeCompare(b.n)).map(brandCard))); main.append(sec); });
-    spy();
-    if (focus) { const el = document.getElementById('b-' + focus.toLowerCase().replace(/[^a-z0-9]+/g, '-')); if (el) { el.scrollIntoView({ block: 'center' }); el.style.outline = '2px solid var(--flag)'; } focus = null; }
-  };
-  draw();
+  const m = await brands(); if (view !== 'brands') return;
+  if (!m.size) { main.replaceChildren($('p', { class: 'none', text: 'The brand index did not load. Choose Brands A–Z again to retry.' })); return; }
+  const all = [...new Set([...m.values()].flat())].sort((a, b) => a[0].localeCompare(b[0]));
+  const letter = n => { const ch = n.normalize('NFD').replace(/[^A-Za-z0-9]/g, '').charAt(0).toUpperCase(); return /[A-Z]/.test(ch) ? ch : '#'; };
+  const groups = new Map(); all.forEach(b => { const l = letter(b[0]); if (!groups.has(l)) groups.set(l, []); groups.get(l).push(b); });
+  const keys = [...groups.keys()].sort((a, b) => (a === '#') - (b === '#') || a.localeCompare(b));
+  const ol = $('ol'); keys.forEach((l, i) => ol.append($('li', {}, $('a', { href: '#' + slug('l', i) }, l, $('span', { text: groups.get(l).length })))));
+  side.replaceChildren($('h2', { text: 'Brands A–Z' }), ol);
+  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Brands A–Z' }), $('p', { text: all.length + ' brands, makers and houses across every category. Each brand is described inside its categories (the Brands tab); choose a category to open the full entry there.' })));
+  keys.forEach((l, i) => { const sec = $('section', { class: 'dept', id: slug('l', i) }, $('h3', { class: 'dept-name', text: l }));
+    sec.append($('div', { class: 'hits' }, groups.get(l).map(([n, seg, kf, cs]) => $('div', { class: 'hit' }, $('span', {}, n, kf ? $('span', { class: 'also', text: ' · ' + kf }) : null), $('p', { class: 'tags' }, cs.map(c => { const t = $('button', { class: 'tag link', type: 'button', text: catName(c) }); t.addEventListener('click', () => open(c, true, null, 'brands', n)); return t; })))))); main.append(sec); });
+  spy();
 }
 function brandCard(b) {
   const a = $('article', { class: 'item', id: 'b-' + b.n.toLowerCase().replace(/[^a-z0-9]+/g, '-') }, $('h5', { text: b.n }), $('p', { class: 'also', text: meta(b.c, b.f, b.seg) }));
@@ -140,26 +170,25 @@ function brandCard(b) {
   const row = (l, v) => v && v.length ? a.append($('p', { class: 'also' }, l + ': ', v.join(' · '))) : null;
   if (b.kf) a.append($('p', { class: 'also', text: 'Known for: ' + b.kf }));
   row('Lines', b.lines); row('Eras', b.eras); row('Signature', b.sig); row('Scenes', b.sc); row('Related', b.rel);
-  if (b.cats && b.cats.length) a.append($('p', { class: 'tags' }, b.cats.map(c => { const t = $('button', { class: 'tag link', type: 'button', text: catName(c) }); t.addEventListener('click', () => open(c, true)); return t; })));
+  if (b.cats && b.cats.length) a.append($('p', { class: 'tags' }, b.cats.map(c => { const t = $('button', { class: 'tag link', type: 'button', text: catName(c) }); t.addEventListener('click', () => open(c, true, null, 'brands', b.n)); return t; })));
   if (b.s) a.append($('p', { class: 'src' }, $('a', { href: b.s, target: '_blank', rel: 'noopener', text: 'source' })));
   return a;
 }
-async function openTraditions() {
-  setView('traditions'); showDom(''); side.replaceChildren(); main.replaceChildren($('p', { class: 'none', text: 'Loading traditions…' }));
-  let j; try { j = await getJSON('reader/_traditions.json'); } catch (e) { main.replaceChildren($('p', { class: 'none', text: 'The traditions register has not been published yet.' })); return; }
-  if (view !== 'traditions') return;
-  const groups = new Map(); j.t.forEach(t => { const g = t.g || 'Other'; if (!groups.has(g)) groups.set(g, []); groups.get(g).push(t); });
-  const ol = $('ol'); [...groups.keys()].forEach((g, i) => ol.append($('li', {}, $('a', { href: '#' + slug('t', i) }, g, $('span', { text: groups.get(g).length })))));
-  side.replaceChildren($('h2', { text: 'Traditions' }), ol);
-  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Craft & faith traditions' }), $('p', { text: j.t.length + ' artisan and faith traditions: where and when each comes from, its technique and materials, signature forms, centres and masters, and how to tell the real thing.' })));
-  [...groups.keys()].forEach((g, i) => { const sec = $('section', { class: 'dept', id: slug('t', i) }, $('h3', { class: 'dept-name', text: g }));
-    sec.append($('div', { class: 'items' }, groups.get(g).map(t => { const a = $('article', { class: 'item' }, $('h5', { text: t.n }), $('p', { class: 'also', text: meta(t.r, t.p) }));
-      if (t.d) a.append($('p', { class: 'desc', text: t.d }));
-      [['Technique', t.tech], ['Materials', t.mat], ['Signature forms', t.forms], ['Centres and masters', t.ctr], ['Authenticity', t.auth]].forEach(([l, v]) => { if (v && v.length) a.append($('p', { class: 'also' }, l + ': ', Array.isArray(v) ? v.join(' · ') : v)); });
-      if (t.cats && t.cats.length) a.append($('p', { class: 'tags' }, t.cats.map(c => { const b = $('button', { class: 'tag link', type: 'button', text: catName(c) }); b.addEventListener('click', () => open(c, true)); return b; })));
-      if (t.s) a.append($('p', { class: 'src' }, $('a', { href: t.s, target: '_blank', rel: 'noopener', text: 'source' })));
-      return a; }))); main.append(sec); });
-  spy();
+function tradCard(t) {
+  const a = $('article', { class: 'item' }, $('h5', { text: t.n }), $('p', { class: 'also', text: meta(t.r, t.p) }));
+  if (t.d) a.append($('p', { class: 'desc', text: t.d }));
+  [['Technique', t.tech], ['Materials', t.mat], ['Signature forms', t.forms], ['Centres and masters', t.ctr], ['Authenticity', t.auth]].forEach(([l, v]) => { if (v && v.length) a.append($('p', { class: 'also' }, l + ': ', Array.isArray(v) ? v.join(' · ') : v)); });
+  if (t.cats && t.cats.length > 1) a.append($('p', { class: 'tags' }, t.cats.map(c => { const b = $('button', { class: 'tag link', type: 'button', text: catName(c) }); b.addEventListener('click', () => open(c, true, null, 'traditions')); return b; })));
+  if (t.s) a.append($('p', { class: 'src' }, $('a', { href: t.s, target: '_blank', rel: 'noopener', text: 'source' })));
+  return a;
+}
+function speciesCard(e) {
+  const a = $('article', { class: 'item' }, $('h5', { text: e.n }));
+  if (e.a) a.append($('p', { class: 'also', text: e.a }));
+  if (e.d) a.append($('p', { class: 'desc', text: e.d }));
+  if (e.m && e.m.length) a.append($('p', { class: 'also' }, 'Examples: ', e.m.join(' · ')));
+  if (e.s) a.append($('p', { class: 'src' }, $('a', { href: e.s, target: '_blank', rel: 'noopener', text: 'source' })));
+  return a;
 }
 async function openBaby() {
   setView('baby'); showDom(''); side.replaceChildren(); main.replaceChildren($('p', { class: 'none', text: 'Loading…' }));
@@ -173,28 +202,10 @@ async function openBaby() {
     sec.append($('div', { class: 'hits' }, groups.get(c).map(([n, d]) => { const b = $('button', { class: 'hit', type: 'button' }, $('span', { text: n }), $('i', { text: d || '' })); b.addEventListener('click', () => jump(c, n)); return b; }))); main.append(sec); });
   spy();
 }
-async function openSpecies() {
-  setView('species'); showDom(''); side.replaceChildren(); main.replaceChildren($('p', { class: 'none', text: 'Loading…' }));
-  let j; try { j = await getJSON('reader/_species.json'); } catch (e) { main.replaceChildren($('p', { class: 'none', text: 'This register has not been published yet.' })); return; }
-  if (view !== 'species') return;
-  const groups = new Map(); j.i.forEach(e => { if (!groups.has(e.g)) groups.set(e.g, []); groups.get(e.g).push(e); });
-  const keys = [...groups.keys()].sort((a, b) => groups.get(b).length - groups.get(a).length);
-  const ol = $('ol'); keys.forEach((g, i) => ol.append($('li', {}, $('a', { href: '#' + slug('p', i) }, g, $('span', { text: groups.get(g).length })))));
-  side.replaceChildren($('h2', { text: 'Rare species' }), ol);
-  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Rare mineral species' }), $('p', { text: j.i.length + ' rarer mineral species collected as specimens. The Minerals tree keeps the popular collector species; these are listed here by mineral class.' })));
-  keys.forEach((g, i) => { const sec = $('section', { class: 'dept', id: slug('p', i) }, $('h3', { class: 'dept-name', text: g }));
-    sec.append($('div', { class: 'items' }, groups.get(g).map(e => { const a = $('article', { class: 'item' }, $('h5', { text: e.n }));
-      if (e.a) a.append($('p', { class: 'also', text: e.a }));
-      if (e.d) a.append($('p', { class: 'desc', text: e.d }));
-      if (e.m && e.m.length) a.append($('p', { class: 'also' }, 'Examples: ', e.m.join(' · ')));
-      if (e.s) a.append($('p', { class: 'src' }, $('a', { href: e.s, target: '_blank', rel: 'noopener', text: 'source' })));
-      return a; }))); main.append(sec); });
-  spy();
-}
-async function jump(c, n) { q.value = ''; await open(c, true); const el = [...main.querySelectorAll('article.item h5')].find(h => h.textContent === n); if (el) { el.closest('article').scrollIntoView({ block: 'center' }); el.closest('article').style.outline = '2px solid var(--flag)'; } }
+async function jump(c, n) { q.value = ''; await open(c, true, null, 'kinds'); const el = [...main.querySelectorAll('article.item h5')].find(h => h.textContent === n); if (el) { el.closest('article').scrollIntoView({ block: 'center' }); el.closest('article').style.outline = '2px solid var(--flag)'; } }
 function search() {
   const term = q.value.trim().toLowerCase();
-  if (!term) { if (view === 'cat' && data) render(); return; }
+  if (!term) { if (view === 'cat' && data) render(); else if (view === 'brands') openBrandIndex(); return; }
   const hits = S.index.filter(([c, n, a]) => (n + ' ' + a).toLowerCase().includes(term)).slice(0, 200);
   main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Search' }), $('p', { text: hits.length ? (hits.length === 200 ? 'The first 200 results' : hits.length + (hits.length === 1 ? ' result' : ' results')) + ' for "' + q.value.trim() + '". Choose one to open it in its category.' : 'Nothing is named "' + q.value.trim() + '". Try another word for it, or browse a category above.' })));
   main.append($('div', { class: 'hits' }, hits.map(([c, n, a, p]) => { const b = $('button', { class: 'hit', type: 'button' }, $('span', {}, hl(n, term), p ? $('span', { class: 'also' }, ' · ', p) : null, a ? $('span', { class: 'also' }, ' · ', hl(a, term)) : null), $('i', { text: catName(c) }));

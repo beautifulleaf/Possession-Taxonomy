@@ -32,6 +32,24 @@
      "y": "1994",
      "s": "https://en.wikipedia.org/wiki/Stanford_bunny",
      "v": []
+    },
+    {
+     "n": "Poly Haven",
+     "a": "",
+     "d": "Free public library of HDRIs, textures and 3D models released under CC0, funded mainly by Patreon donors and sponsors.",
+     "mk": "Poly Haven",
+     "y": "",
+     "s": "https://polyhaven.com/about-contact",
+     "v": []
+    },
+    {
+     "n": "Quixel Megascans",
+     "a": "",
+     "d": "Photogrammetry asset library; Quixel is part of Epic and Megascans is now sold exclusively on Fab.",
+     "mk": "Quixel",
+     "y": "",
+     "s": "https://www.fab.com/sellers/Quixel%20Megascans/about",
+     "v": []
     }
    ]
   },
@@ -123,7 +141,27 @@
     "PBR texture set",
     "Procedural shader"
    ],
-   "s": "https://app.cinevva.com/guides/free-textures-hdris-materials"
+   "s": "https://app.cinevva.com/guides/free-textures-hdris-materials",
+   "x": [
+    {
+     "n": "Poly Haven",
+     "a": "",
+     "d": "Free public library of HDRIs, textures and 3D models released under CC0, funded mainly by Patreon donors and sponsors.",
+     "mk": "Poly Haven",
+     "y": "",
+     "s": "https://polyhaven.com/about-contact",
+     "v": []
+    },
+    {
+     "n": "Quixel Megascans",
+     "a": "",
+     "d": "Photogrammetry asset library; Quixel is part of Epic and Megascans is now sold exclusively on Fab.",
+     "mk": "Quixel",
+     "y": "",
+     "s": "https://www.fab.com/sellers/Quixel%20Megascans/about",
+     "v": []
+    }
+   ]
   },
   {
    "n": "HDRI and environment map",
@@ -151,11 +189,39 @@
        "d": "First file format to hold a high-dynamic-range image"
       }
      ]
+    },
+    {
+     "n": "Poly Haven",
+     "a": "",
+     "d": "Free public library of HDRIs, textures and 3D models released under CC0, funded mainly by Patreon donors and sponsors.",
+     "mk": "Poly Haven",
+     "y": "",
+     "s": "https://polyhaven.com/about-contact",
+     "v": []
     }
    ]
   }
  ],
- "brands": [],
+ "brands": [
+  {
+   "n": "Poly Haven",
+   "c": "",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "free CC0 assets",
+   "d": "Free library of HDRIs, textures and models under CC0.",
+   "s": "https://polyhaven.com/about-contact"
+  },
+  {
+   "n": "Quixel",
+   "c": "",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "Megascans",
+   "d": "Part of Epic; maker of the Megascans photogrammetry library.",
+   "s": "https://www.fab.com/sellers/Quixel%20Megascans/about"
+  }
+ ],
  "traditions": [],
- "notes": "Dropped the single RenderHub SKU (Military Avatar - Bundle); the avatar mention moved to the new Avatar model kind. No Poly Haven, Quixel Megascans or VRChat base-body archetypes: no retrieved page named them. VRM maker not stated on the fetched page, so mk blank. Suzanne page redirected to Blender and was not used."
+ "notes": "Dropped the single RenderHub SKU (Military Avatar - Bundle); the avatar mention moved to the new Avatar model kind. No Poly Haven, Quixel Megascans or VRChat base-body archetypes: no retrieved page named them. VRM maker not stated on the fetched page, so mk blank. Suzanne page redirected to Blender and was not used. | Deepening pass: added Poly Haven and Quixel Megascans archetypes (and brands) from their own pages; VRChat base bodies still unsourced."
 }

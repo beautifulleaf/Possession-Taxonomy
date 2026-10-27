@@ -60,8 +60,17 @@ for c in sys.argv[1:]:
 json.dump(done, open('done.json', 'w'))
 # registers from all done categories
 B = {}; T = {}
+# coordinator: same-name brands that are different companies get distinct names per category (work/_clash/map.tsv)
+CLASH = {}
+if os.path.exists('work/_clash/map.tsv'):
+    for ln in open('work/_clash/map.tsv').read().splitlines()[1:]:
+        f = ln.split('\t')
+        if len(f) >= 5: CLASH[(f[0].strip().lower(), f[1].strip())] = f[2:5]
 for c in done:
     for b in json.load(open(f'out/{c}_brands.json')).get('b', []) if os.path.exists(f'out/{c}_brands.json') else []:
+        ov = CLASH.get((b['n'].strip().lower(), c))
+        if ov:
+            b = dict(b, seg=ov[1], kf=ov[2], **({'n': ov[0], 'an': b['n']} if ov[0] != b['n'] else {}))
         k = b['n'].lower()
         if k in B:
             o = B[k]

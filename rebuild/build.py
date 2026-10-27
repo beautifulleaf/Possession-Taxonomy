@@ -33,6 +33,8 @@ header = """<header>
   <div class="navrows gut"><nav class="doms" id="doms" aria-label="Domains"></nav><nav class="cats" id="cats" aria-label="Categories"></nav></div>
 </header>
 <div class="wrap gut"><nav class="side" id="side" aria-label="Sections"></nav><main id="main"><p class="none">Loading…</p></main></div>"""
+sys.path.insert(0, 'tools'); import registers  # noqa: E402
+REG = registers.split()
 cats = []; index = []
 for c in meta['cats']:
     p = 'reader/%s.json' % c['c']
@@ -44,7 +46,8 @@ for c in meta['cats']:
                 n += 1; index.append([c['c'], k['n'], k.get('a', ''), ''])
                 for x in k.get('x', []) or []:
                     index.append([c['c'], x['n'], x.get('a', '') or '', k['n']])
-    cats.append(dict(c, k=n))
+    r = REG.get(c['c'], {})
+    cats.append(dict(c, k=n, nb=r.get('brands', 0), nt=r.get('traditions', 0), ns=r.get('species', 0)))
 S = {'domains': meta['domains'], 'cats': cats, 'index': index}
 app = open('app.js').read()
 html = head + '\n' + header + '\n<script>\nconst S = ' + json.dumps(S, ensure_ascii=False, separators=(',', ':')) + ';\n' + app + '</script>\n'
