@@ -11,9 +11,9 @@ def K(n,d,s,xs,a="",t=None):
 F=H+"fluorite.pdf"
 kinds=[
 K("Fluorite","Calcium fluoride mineral specimen (crystals, clusters, octahedra, specimens on matrix, polished pieces).",FE,[
- X("Rogerley fluorite","Green fluorite cubes from the Rogerley mine, Weardale, County Durham, famous for turning purplish in sunlight (daylight fluorescence).",
+ X("Rogerley fluorite","Green fluorite crystals from the Rogerley mine, Weardale, County Durham, famous for turning purplish in sunlight (daylight fluorescence).",
    "https://gia.edu/gems-gemology/winter-2018-microworld-quarterly-crystal-bubble-in-fluorite",
-   dt="twinned cubes on matrix · bright bluish-white under long-wave UV · thumbnail to cabinet"),
+   dt="crystals on matrix · bright bluish-white under long-wave UV · thumbnail to cabinet"),
  X("Weardale fluorite","Fluorite from the Weardale orefield, County Durham, England.",F,dt="cubes on matrix"),
  X("Blue John","Banded purple-blue and yellowish fluorite found only under Treak Cliff, Castleton, Derbyshire.","https://en.wikipedia.org/wiki/Blue_John_(mineral)",
    a="Derbyshire Spar",y="earliest written reference 1766",
@@ -26,7 +26,7 @@ K("Fluorite","Calcium fluoride mineral specimen (crystals, clusters, octahedra, 
  X("Berbes fluorite","Fluorite from around Berbes, Asturias, Spain.",F,dt="cubes on matrix"),
  X("Dalnegorsk fluorite","Fluorite from the Nikolaev mine, Dalnegorsk, Russia.",F,dt="crystals on matrix"),
  X("Xianghuapu fluorite","Fluorite from Xianghuapu, Hunan, China.",F,dt="crystals"),
- X("Pink octahedral fluorite","Fluorite from Mont Blanc near Chamonix and the Göscheneralp, Uri.",F,
+ X("Alpine fluorite","Fluorite from Mont Blanc near Chamonix and the Göscheneralp, Uri.",F,
    v=[("Mont Blanc, Chamonix, France","",""),("Göscheneralp, Uri, Switzerland","","")],dt="octahedra"),
  X("Okorusu fluorite","Fluorite from Okorusu, Namibia.",F,dt="cubes"),
  X("Nagar fluorite","Fluorite from Nagar near Karimabad, Gilgit, Pakistan.",F,dt="crystals"),

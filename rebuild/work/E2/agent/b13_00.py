@@ -8,10 +8,10 @@ SUB='https://ecsfencer.substack.com/p/fencing-kit-buying-guide'
 AP='https://allstar.de/en/CLOTHING-FOOTWEAR/PROTECTIVE-EQUIPMENT/Underplastrons/'
 def X(n,d,mk,y,s,v=(),dt='',a=''): return {"n":n,"a":a,"d":d,"mk":mk,"y":y,"s":s,"v":[dict(n=a1,mk=b,y=c,d=e) for a1,b,c,e in v],"dt":dt}
 grips=[
- X("Visconti grip","Pistol grip pattern with finger and thumb rests; one of the classic orthopaedic shapes.","", "",W,[("Negrini Visconti","","","named variant")],"sizes · leather or rubber wrap · left/right hand"),
- X("Belgian grip","Pistol grip pattern with a long, angled shape, popular in foil and épée.","", "",W,[("Schermasport","","","loose variant of the Belgian")],"sizes · left/right hand"),
- X("Russian grip","Pistol grip pattern with a crossbar-style hold.","", "",W,[],"sizes · left/right hand"),
- X("Hungarian grip","Pistol grip pattern listed among the standard orthopaedic shapes.","", "",W,[],"sizes · left/right hand"),
+ X("Visconti grip","Named pistol (orthopaedic) grip pattern that fixes the hand in one position.","", "",W,[("Negrini Visconti","","","named variant")],"sizes · leather or rubber wrap · left/right hand"),
+ X("Belgian grip","Named pistol (orthopaedic) grip pattern; the Schermasport is a loose variant.","", "",W,[("Schermasport","","","loose variant of the Belgian")],"sizes · left/right hand"),
+ X("Russian grip","Named pistol (orthopaedic) grip pattern.","", "",W,[],"sizes · left/right hand"),
+ X("Hungarian grip","Named pistol (orthopaedic) grip pattern.","", "",W,[],"sizes · left/right hand"),
 ]
 kinds=[
 {"n":"Fencing foil","a":"","d":"Light thrusting fencing weapon with a flexible rectangular blade, made to FIE rules for the foil.",
@@ -50,7 +50,7 @@ kinds=[
  "x":[X("ExtraLight FIE Underplastron","Lightweight 800 N FIE underplastron made of Dyneema fibre.","Allstar","",AP,[("Ecoline FIE Underplastron","Allstar","","thicker, cheaper 800 N fabric"),("Ecoline 350N Underplastron","Allstar","","non-FIE 350 N")],"men's, women's, kids' · 3/4 cut")],
  "m":[["Lightweight FIE Plastron","Leon Paul"]]},
 {"n":"Fencing chest protector","a":"","d":"Rigid plastic chest guard worn under the fencing jacket.",
- "t":["women's (compulsory under British Fencing rules)","men's","children's"],
+ "t":["women's","men's","children's"],
  "s":"https://www.leonpaulusa.com/fencing-clothing-uniforms.html",
  "m":[["Econoguard","Leon Paul"],["Masterguard","Leon Paul"]]},
 {"n":"Fencing glove","a":"","d":"Padded glove with a cuff worn on the weapon hand in fencing.",
