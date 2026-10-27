@@ -7,3 +7,4 @@
 - E2 merge: check A1>E2 moved cycling-clothing kinds against E2 01_00 kinds (name differences may duplicate).
 - F1 01_03 weak sources to upgrade: Nakamichi ZX (eBay listing), TDK MA-R (3docean page); thin firecrawl pages for UHQR and Maxell.
 - E1 merge: E6 moved in 'Other science kits', 'Molecular model kit', 'Chemistry set', 'Crystal-growing kit' — fold into E1's science-kit kinds via moves_covered.json if E1 has them; never keep an 'Other …' kind.
+- Airsoft gun kind exists in both E4 05_00 and E2 05_04 (both with Tokyo Marui archetypes) — keep one home (E2 sport) and cross-link from E4 at merge.
