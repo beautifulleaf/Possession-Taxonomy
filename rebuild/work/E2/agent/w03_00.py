@@ -32,7 +32,7 @@ driver = {"n": "Golf driver", "a": "1-wood", "d": "Lowest-lofted wood with the l
          V("R5", TM, "2002", "Inverted Cone face")],
    "dt": "head material steel, then titanium · head size · loft"},
   {"n": "Big Bertha", "a": "Great Big Bertha", "d": "Oversized-head driver that made large, forgiving metal drivers mainstream.", "mk": CA, "y": "1991", "s": UPG,
-   "v": [V("Big Bertha", CA, "1991", "original oversized steel head"), V("Great Big Bertha", CA, "1995", "titanium head"), V("Big Bertha War Bird", CA, "1995"),
+   "v": [V("Big Bertha", CA, "1991", "original oversized steel head"), V("Great Big Bertha", CA, "1995"), V("Big Bertha War Bird", CA, "1995"),
          V("Biggest Big Bertha", CA, "1997"), V("Big Bertha Titanium 454", CA, "2005"), V("Big Bertha Alpha 815", CA, "2014"), V("Great Big Bertha", CA, "2022")],
    "dt": "head size 190–460 cc · steel or titanium · loft"},
   {"n": "R7 Quad", "a": "r7", "d": "Driver with four movable weight screws that let the owner change ball flight.", "mk": TM, "y": "2004", "s": R7,
