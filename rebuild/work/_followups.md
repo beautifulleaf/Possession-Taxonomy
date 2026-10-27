@@ -4,13 +4,13 @@
 - E5/E1 pinball, claw crane, slot machine overlap; E4/A4 archery accessories overlap — dedupe at E-category merges. — DONE: no pinball/arcade kinds in E1.
 - Mabkhara in both B4 (02_02) and F4 plan — dedupe when F4 merges. — DONE: kept in B4 (home fragrance), removed from F4.
 - H1 brand-name clashes left out: Elixir, Parachute, Playtex, Zenith, Royal Crown, Eisenberg (need distinct names).
-- E2 merge: check A1>E2 moved cycling-clothing kinds against E2 01_00 kinds (name differences may duplicate).
+- E2 merge: check A1>E2 moved cycling-clothing kinds against E2 01_00 kinds (name differences may duplicate). — DONE: all A1 moves covered by same-named E2 kinds.
 - F1 01_03 weak sources to upgrade: Nakamichi ZX (eBay listing), TDK MA-R (3docean page); thin firecrawl pages for UHQR and Maxell. — ACCEPTED at merge: searches found no better page; the listings establish existence (owner rule: outside lists ok).
-- E1 merge: E6 moved in 'Other science kits', 'Molecular model kit', 'Chemistry set', 'Crystal-growing kit' — fold into E1's science-kit kinds via moves_covered.json if E1 has them; never keep an 'Other …' kind.
-- Airsoft gun kind exists in both E4 05_00 and E2 05_04 (both with Tokyo Marui archetypes) — keep one home (E2 sport) and cross-link from E4 at merge.
+- E1 merge: E6 moved in 'Other science kits', 'Molecular model kit', 'Chemistry set', 'Crystal-growing kit' — fold into E1's science-kit kinds via moves_covered.json if E1 has them; never keep an 'Other …' kind. — DONE (see rename-on-arrival).
+- Airsoft gun kind exists in both E4 05_00 and E2 05_04 (both with Tokyo Marui archetypes) — keep one home (E2 sport) and cross-link from E4 at merge. — DONE: E4 copy removed.
 - J2 restraint shelves: English names of Japanese/Korean GIs are the worker's own translations (original script kept in brackets) — spot-check at J2 merge.
-- J10 03_02 E-liquid and 07_00 Pre-roll have empty sources (no old source); source them before J10 finish.
-- Restraint pass I1/I2/H3 gaps (add with sources in web pass): I2 04_00 .net .org .io .co .eu; I1 09_01 LibreOffice Base, SQLite GUI tools; I1 02_03 Xero, Wave; I1 06_01 calibre; I1 02_02 consumer read-aloud TTS apps; H3 05_02 furniture makers beyond Liberator.
-- J6 merged thin: worker fetched almost only Wikipedia; no test-winner data (Which?/Warentest/CHOICE) for tier kinds; many named items left out (Kimbo, Starbucks VIA, Clipper, Ahmad, Kusmi, Valor, Droste, Nesquik, Rosamonte, Lao Banzhang/Yiwu, CCN-51, Porcelana...). Run a J6 deepening pass, then re-finish.
+- J10 03_02 E-liquid and 07_00 Pre-roll have empty sources (no old source); source them before J10 finish. — DONE: sourced (Tobacco in Australia; OCS glossary).
+- Restraint pass I1/I2/H3 gaps (add with sources in web pass): I2 04_00 .net .org .io .co .eu; I1 09_01 LibreOffice Base, SQLite GUI tools; I1 02_03 Xero, Wave; I1 06_01 calibre; I1 02_02 consumer read-aloud TTS apps; H3 05_02 furniture makers beyond Liberator. — DONE in web pass (SQLiteStudio not sourced).
+- J6 merged thin: worker fetched almost only Wikipedia; no test-winner data (Which?/Warentest/CHOICE) for tier kinds; many named items left out (Kimbo, Starbucks VIA, Clipper, Ahmad, Kusmi, Valor, Droste, Nesquik, Rosamonte, Lao Banzhang/Yiwu, CCN-51, Porcelana...). Run a J6 deepening pass, then re-finish. — DONE: deepening pass merged.
 - J4 01_xx: famous cultivars dropped for lack of a fetched page (Sungold, Marmande, Momotaro, January King, Hispi, Atlantic Giant, Silver Queen, Aquadulce, Shimonita negi...). Consider a J4 deepening pass (RHS, seed-company and university-extension pages) after merge.
 - Parallel workers in one category overwrote a shared work/<C>/agent/lib.py (F6, J4). Future split prompts: give each worker its own work/<C>/agent/<letter>/ subfolder.
