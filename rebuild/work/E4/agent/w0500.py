@@ -12,11 +12,11 @@ def x(n,mk,y,d,s,vs=(),dt="",a=""): return {"n":n,"a":a,"d":d,"mk":mk,"y":y,"s":
 rifle_x=[
  x("Daisy Red Ryder","Daisy","","Lever-action spring-piston BB carbine with a smoothbore barrel, the classic American first gun.",DAI,dt="BB capacity · stock finish · youth or adult size"),
  x("Daisy Model 25","Daisy","1914","Pump-action BB gun modelled on a pump shotgun, designed by Charles F. Lefever.",D25,
-   [v("No. 25 (original run)","Daisy","1914","made to 1978"),v("Model 25 revival","Daisy","2007","production restarted")],"finish · markings · era",a="No. 25"),
+   [v("No. 25 (original run)","Daisy","1914","made to 1978"),v("Model 25 revival","Daisy","","production restarted 2007 or 2009 (sources differ)")],"finish · markings · era",a="No. 25"),
  x("Diana Model 27","Diana (Mayer & Grammelspacher)","1910","Classic break-barrel spring-piston rifle, made in various forms for most of the 20th century.",DI,
    [v("Model 27",DM,"1910","made to 1987")],"calibre · trade name (Original, Beeman, Hy-Score, GECADO)"),
  x("Diana 34",DM,"","Break-barrel spring-piston sporting rifle in Diana's current range.",DI,dt="calibre · stock"),
- x("Webley Service Mk II","Webley & Scott","1932","Underlever-cocked air rifle with interchangeable barrels and an aperture sight, aimed at military training.",WEB,
+ x("Webley Service Mk II","Webley & Scott","1932","Pre-war British air rifle with interchangeable barrels and a flip-up aperture rear sight.",WEB,
    [v("Mk1","Webley & Scott","1925","predecessor, about 1,500 made"),v("Mk2 Service, 1st–6th series","Webley & Scott","1932","made to 1947; about 16,300 in all")],
    "series · calibre .177, .22, .25 · sight position",a="Webley Mk2 Service"),
  x("Weihrauch HW 35","Weihrauch","1951","Break-barrel spring-piston rifle, Weihrauch's most successful model and first with the Rekord two-stage trigger.",H35,
@@ -24,7 +24,7 @@ rifle_x=[
     v("HW 35LS","Weihrauch","1977","thumbhole stock"),v("HW 35 Safari","Weihrauch","1986"),v("HW 35 Vixen","Weihrauch","1979","UK tune by Norman May")],"calibre 4.5/5.5 mm · standard or carbine (K) · stock"),
  x("Weihrauch HW 80","Weihrauch","","Break-barrel spring-piston rifle, sold in North America as the Beeman R1.",WE,[v("Beeman R1","Weihrauch","","North American version")],"calibre · stock"),
  x("Weihrauch HW 77","Weihrauch","","Fixed-barrel underlever spring-piston rifle.",WE,[v("HW 77","Weihrauch"),v("HW 77 K","Weihrauch","","carbine")],"calibre · stock"),
- x("Weihrauch HW 97","Weihrauch","","Fixed-barrel underlever spring-piston rifle following the HW 77.",WE,[v("HW 97 K","Weihrauch")],"calibre · stock"),
+ x("Weihrauch HW 97","Weihrauch","","Fixed-barrel underlever spring-piston rifle.",WE,[v("HW 97 K","Weihrauch")],"calibre · stock"),
  x("BSA Meteor","BSA Guns","1959","Break-barrel spring rifle, the first BSA air rifle made to take a telescopic sight.",BSA,
    [v("Meteor Mk.1","BSA Guns","1959"),v("Meteor Mk.2","BSA Guns","1962"),v("Meteor & Super Meteor Mk.3","BSA Guns","1967"),v("Meteor & Super Meteor Mk.4","BSA Guns","1974"),
     v("Meteor & Super Meteor Mk.5","BSA Guns","1979"),v("Meteor & Carbine Mk.6","BSA Guns","1993"),v("Mk7","BSA Guns","","made by Gamo")],"mark · calibre · standard or carbine"),
@@ -33,8 +33,8 @@ rifle_x=[
  x("Walther LG match air rifle","Walther","1972","Walther's line of 10 m match air rifles, begun with the single-stroke pneumatic LGR.",LGR,
    [v("LGR","Walther","1972","single-stroke pneumatic, to 1989"),v("LGR Match","Walther","","walnut stock"),v("LGR Match Universal","Walther","","adjustable cheekpiece"),v("LG90","Walther","","successor to the LGR"),v("LG300","Walther"),v("LG400","Walther")],"stock · power system",a="LGR"),
  x("Daystate Huntsman","Daystate","1980","Pre-charged pneumatic sporting rifle first built for Rentokil pest control.",DAY,dt="calibre · stock"),
- x("Air Arms S400","Air Arms","","Bolt-action pre-charged pneumatic sporting rifle; its action also underlies later models.",AA,[v("S410","Air Arms","","multi-shot"),v("S510","Air Arms","","side-lever, built on the S400 action")],"single or multi-shot · rifle or carbine · stock"),
- x("FX Impact","FX Airguns","","Regulated pre-charged pneumatic bullpup with interchangeable calibres.",FX,[v("Impact","FX Airguns","","original platform"),v("Impact M3","FX Airguns","2021")],"calibre · barrel length · finish"),
+ x("Air Arms S400","Air Arms","","Pre-charged pneumatic sporting rifle whose action also underlies the S510.",AA,[v("S410","Air Arms","","multi-shot"),v("S510","Air Arms","","side-lever, built on the S400 action")],"single or multi-shot · rifle or carbine · stock"),
+ x("FX Impact","FX Airguns","","Regulated pre-charged pneumatic rifle platform.",FX,[v("Impact","FX Airguns","","original platform"),v("Impact M3","FX Airguns","2021")],"calibre · barrel length · finish"),
 ]
 kinds=[
 {"n":"Air rifle","a":"pellet rifle · BB gun","d":"Rifle-format air gun that fires pellets or BBs with compressed air or gas.",
