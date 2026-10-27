@@ -75,14 +75,14 @@ kinds = [
  {"n": "Sucuk", "a": "sujuk · sudžuk · sudzhuk", "d": "Dry, spicy fermented sausage of ground beef or lamb with cumin, garlic and red pepper.",
   "s": W + "Sucuk",
   "x": [
-   X("Turkish sucuk", "Beef sucuk sliced and fried with eggs.", W + "Sucuk"),
+   X("Turkish sucuk", "Sucuk of Turkey, of beef or lamb with animal fat.", W + "Sucuk"),
    X("Balkan sudžuk", "Bosnian, Croatian and Bulgarian forms of sujuk.", W + "Sucuk", "sudzhuk"),
    X("Armenian sujukh", "Armenian sujuk, subject of a 2025 geographical-indication application.", W + "Sucuk", "", "2025")
   ]},
  {"n": "Chinese sausage", "a": "lap cheong · lạp xưởng · xiangchang", "d": "Dried, hard, sweetened pork sausage, typically smoked and seasoned with rice wine and soy.",
   "s": W + "Chinese_sausage",
   "x": [
-   X("Cantonese lap cheong", "Sweet dried pork sausage with rose wine and soy, used in claypot rice and turnip cake.", W + "Chinese_sausage", "lap cheong"),
+   X("Cantonese lap cheong", "Smoked, sweetened dried pork sausage with rose water, rice wine and soy, used in claypot rice and turnip cake.", W + "Chinese_sausage", "lap cheong"),
    X("Sichuan sausage", "Chinese sausage flavoured with chilli, Sichuan pepper and Pixian bean paste.", W + "Chinese_sausage"),
    X("Duck liver sausage", "Chinese sausage made with duck liver.", W + "Chinese_sausage", "yeun cheung"),
    X("Taiwanese sausage", "Sweeter, rarely air-dried emulsified sausage made by local butchers.", W + "Chinese_sausage", "xiangchang")
@@ -95,7 +95,7 @@ kinds = [
   ]}
 ]
 brands = [
- {"n": "Pick", "c": "Hungary", "f": "1869", "seg": "Heritage manufactory", "kf": "winter salami", "d": "Szeged salami maker, the best-known Hungarian winter salami brand.", "s": "knowledge"},
+ {"n": "Pick", "c": "Hungary", "f": "1869", "seg": "Heritage manufactory", "kf": "winter salami", "d": "Szeged maker of Hungarian winter salami.", "s": "knowledge"},
  {"n": "Herz", "c": "Hungary", "seg": "Heritage manufactory", "kf": "winter salami", "d": "Budapest salami maker advertised from around 1900.", "s": "knowledge"},
  {"n": "Pont", "c": "Spain", "seg": "Specialist", "kf": "Llonganissa de Vic", "d": "Catalan maker of Llonganissa de Vic IGP.", "s": "https://spanishclub.ie/charcuterie/pont-llonganissa-de-vic-igp-from-catalonia-pre-sliced-90-gr.html"},
  {"n": "Rügenwalder Mühle", "c": "Germany", "seg": "Mainstream", "kf": "Teewurst", "d": "German maker originally from Rügenwalde, entitled to the Rügenwalder Teewurst name.", "s": "knowledge"}
