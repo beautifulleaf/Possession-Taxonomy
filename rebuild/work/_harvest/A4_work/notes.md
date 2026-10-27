@@ -12,3 +12,6 @@
 - fetched+logged: impericon gothic-bags; fashionbeans gym bags; mensflair streetwear; fashionbeans eyewear
 - fetched: ringly wallets, mensflair luxury wallets, atlasheart luggage, backpacker gear A-Z p39; blocked 403: travelpulse luggage
 - fetched: homofaber hiyoshiya; yahoo london handmade bags; blocked 403 clan.com sporran; 404 qest launer
+- built: brands.txt -> build.py -> work/_harvest/A4.json; trimmed 74 marginal links/obscure entries (incl. Morgan & Acerbis name clashes with G1 register entries)
+- final check: 369 new, 81 links to existing register brands, 0 errors; 42 entries s=knowledge. Projected A4 total = 111 existing + 369 + 81 = 561
+- not applied (harvest.py apply not run; caller's step)

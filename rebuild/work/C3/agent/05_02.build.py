@@ -47,8 +47,7 @@ kinds=[
   X("Dykes Medal tall bearded irises","American Dykes Medal","Irises winning the American Iris Society's highest annual award, mostly tall bearded.",DY,
     v=[A("'Royston Rubies'","2025 American Dykes Medal; tall bearded","2025"),A("'Montmartre'","","2017"),A("'Paul Black'","","2010"),A("'Golden Panther'","","2009"),A("'Splashacata'","","2005"),A("'Stairway to Heaven'","","2000"),A("'Before The Storm'","","1996"),A("'Edith Wolford'","","1993"),A("'Jesse's Song'","","1990")]),
   X("Iris sibirica","Siberian iris · Siberian flag","Clump-forming beardless iris; several hundred cultivars are registered with the American Iris Society.",IS,
-    v=[A("'Butter and Sugar'","white standards, yellow falls; "+AGM),A("'Cambridge'",AGM,"1964"),A("'Silver Edge'",AGM),A("'Ruffled Velvet'",AGM),A("'Caesar's Brother'"),A("'Sultan's Ruby'","deep magenta")] if False else
-      [A("'Butter and Sugar'","white standards, yellow falls; "+AGM),A("'Cambridge'",AGM,"1964"),A("'Silver Edge'",AGM),A("'Ruffled Velvet'",AGM),A("'Sultan's Ruby'","deep magenta"),A("'Ego'","rich blue"),A("'Dreaming Spires'","","1964")]),
+    v=[A("'Butter and Sugar'","white standards, yellow falls; "+AGM),A("'Cambridge'",AGM,"1964"),A("'Silver Edge'",AGM),A("'Ruffled Velvet'",AGM),A("'Sultan's Ruby'","deep magenta"),A("'Ego'","rich blue"),A("'Dreaming Spires'","","1964")]),
   X("Iris ensata","Japanese iris · hanashōbu · I. kaempferi","Japanese water iris grown in Edo, Higo and Ise strains.",IE,
     v=[A("Edo strain","Tokyo"),A("Higo strain","Kumamoto"),A("Ise strain","Mie"),A("'Rose Queen'",AGM),A("'Variegata'",AGM),A("'The Great Mogul'",AGM),A("'Narihira'")]),
   ]},
@@ -83,7 +82,7 @@ kinds=[
   ]},
  {"n":"Heuchera","a":"coral bells · alumroot · × Heucherella","d":"Living heuchera, an evergreen North American perennial grown for coloured leaves; × Heucherella crosses it with Tiarella.",
   "t":["purple-leaved","lime","amber","silver","Heucherella"],"s":HU,"x":[
-  X("'Palace Purple'","H. micrantha 'Palace Purple'","Purple-leaved heuchera found at a palace in England, believed to be H. micrantha × H. villosa.",HU),
+  X("'Purple Palace'","","Purple-leaved heuchera found at a palace in England, believed to be H. micrantha × H. villosa.",HU),
   X("AGM heucheras","","Leaf-colour cultivars holding the "+AGM+".",HU,v=[A("'Obsidian'"),A("'Blackberry Jam'"),A("'Can-Can'"),A("'Walnut'","Fox series")]),
   X("'Green Spice'","","Heuchera americana hybrid.",HU),
   ]},
@@ -103,4 +102,4 @@ kinds=[
 ]
 trads=[{"n":"Hanashōbu (Japanese iris)","g":"Plants & gardens","r":"Japan","p":"Edo period onward","d":"Japanese cultivation of Iris ensata in three regional strains.","tech":"selection of cultivars for pond and pot display","mat":"Iris ensata","forms":["Edo strain","Higo strain","Ise strain"],"ctr":["Tokyo (Edo)","Kumamoto (Higo)","Mie (Ise)"],"auth":"Named cultivar of Iris ensata, assigned to a regional strain.","s":IE},
  {"n":"Mudan tree peony","g":"Plants & gardens","r":"China","p":"Northern and Southern Dynasties onward","d":"Chinese cultivation of the moutan tree peony, national flower from 1903 to 1929.","tech":"selection and grafting of tree peony cultivars","mat":"Paeonia suffruticosa","forms":["tree peony"],"ctr":["Heze (Caozhou)"],"auth":"Named Chinese cultivar; Heze lists over 1,300 varieties.","s":PS}]
-w('C3','05_02',{"kinds":kinds,"brands":[],"traditions":trads,"notes":"Three old kinds (Hosta, Peony, Bamboo) kept with old s; seven new kinds sourced to Wikipedia. Iris 'Iris' with bearded/Siberian/Japanese as archetypes; Dykes Medal winners from Walters Gardens list plus AIS wiki 2025 (2006 duplicate of 'Jesse's Song' left out). No brand entries: no breeder confirmed as originator on retrieved pages (Rozanne breeder, Terra Nova/Dan Heims, Ernst Pagels not on pages). 'Palace Purple' spelt as on old usage; page names it 'Purple Palace' in places. Fargesia cultivars 'Simba'/'Jumbo' and Delphinium Belladonna group left out (not on retrieved pages)."})
+w('C3','05_02',{"kinds":kinds,"brands":[],"traditions":trads,"notes":"Three old kinds (Hosta, Peony, Bamboo) kept with old s; seven new kinds sourced to Wikipedia. Iris 'Iris' with bearded/Siberian/Japanese as archetypes; Dykes Medal winners from Walters Gardens list plus AIS wiki 2025 (2006 duplicate of 'Jesse's Song' left out). No brand entries: no breeder confirmed as originator on retrieved pages (Rozanne breeder, Terra Nova/Dan Heims, Ernst Pagels not on pages). Heuchera cultivar spelt 'Purple Palace' as on the retrieved page. Fargesia cultivars 'Simba'/'Jumbo' and Delphinium Belladonna group left out (not on retrieved pages)."})
