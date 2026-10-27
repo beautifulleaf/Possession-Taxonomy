@@ -42,7 +42,7 @@ circ = K("Circulation coin", "Legal-tender coin struck for everyday circulation;
      mk=USM, y="1916",
      v=[("Obverse mint mark", USM, "1916–1917", "mint mark below the motto"), ("1921 and 1921-D", USM, "1921", "scarce in mint state")],
      dt="mint mark obverse or reverse · strike on Liberty's hand"),
-   X("Mercury dime", "US dime by Adolph A. Weinman with a winged Liberty head.", TS, mk=USM, y="1916", a="Winged Liberty Head dime", dt="1916–1945 · silver"),
+   X("Mercury dime", "US dime by Adolph A. Weinman with a winged Liberty head.", TS, mk=USM, y="1916", dt="1916–1945 · silver"),
    X("Buffalo nickel", "US five-cent piece by James Earle Fraser with a Native American portrait and an American bison.", WP + "Buffalo_nickel",
      mk=USM, y="1913", a="Indian Head nickel",
      v=[("Type I (mound)", USM, "1913", "bison on a mound"), ("Type II (flat ground)", USM, "1913", "recessed FIVE CENTS"),
@@ -106,7 +106,7 @@ comm = K("Circulating commemorative coin", "Legal-tender coin with a commemorati
    X("47 Prefectures coins", "Japanese 500-yen bi-colour coins, one per prefecture, marking 60 years of the Local Autonomy Law.", WP + "500_yen_coin_(commemorative)",
      mk=JM, y="2008", a="Local Autonomy Law coins",
      v=[("Hokkaido and Kyoto", JM, "2008", "first issues"), ("Fukushima and Tokyo", JM, "2016", "last issues"), ("1000 yen silver", JM, "2008–2016", "proof companion")]),
-   X("US Bicentennial coinage", "US quarter, half and dollar with dual-dated Bicentennial reverses.", WP + "Commemorative_coin", mk=USM, y="1975",
+   X("US Bicentennial coinage", "US quarter, half and dollar with dual-dated Bicentennial reverses.", WP + "Commemorative_coin", mk=USM, y="1976",
      v=[("Bicentennial quarter", USM, "1976", "over 1.6 billion minted")]),
    X("Westward Journey nickels", "Jefferson nickels with new designs for the Lewis and Clark bicentennial.", WP + "Jefferson_nickel", mk=USM, y="2004",
      v=[("Peace Medal", USM, "2004", ""), ("Keelboat", USM, "2004", ""), ("Ocean in View", USM, "2005", "")]),
@@ -194,7 +194,7 @@ repl = K("Replica or counterfeit coin", "Copy of a coin, a coin-like piece of an
    X("Fourrée", "Ancient counterfeit with a base-metal core under a precious-metal coating.", WP + "Coin_counterfeiting"),
    X("Omega counterfeits", "High-quality fake US gold coins of the early 1970s, signed with a tiny omega.", WP + "Coin_counterfeiting", y="1970s",
      v=[("1907 high-relief double eagle", "", "", "over 20,000 believed made")]),
-   X("Henning 1944 nickel", "Counterfeit Jefferson nickel dated 1944 but lacking the wartime mint mark.", WP + "Coin_counterfeiting", y="1950s"),
+   X("Henning 1944 nickel", "Counterfeit Jefferson nickel dated 1944 but lacking the wartime mint mark.", WP + "Coin_counterfeiting"),
   ])
 brands = [
  B("United States Mint", "United States", "1792", "US coinage", "Federal mint that strikes US circulation, commemorative, proof and bullion coins.", "knowledge"),
@@ -204,7 +204,7 @@ brands = [
  B("Austrian Mint", "Austria", "", "Maria Theresa thaler", "Austrian state mint in Vienna, maker of the Maria Theresa thaler restrikes.", "knowledge"),
  B("Monnaie de Paris", "France", "864", "French coinage", "French state mint in Paris.", "knowledge"),
  B("Swissmint", "Switzerland", "", "Swiss franc coins", "Swiss federal mint in Bern.", "knowledge"),
- B("South African Republic", "South Africa", "1852", "ZAR pond", "Boer republic (Transvaal) that issued its own gold pond coins, 1874–1902.", WP + "Coins_of_the_South_African_pound"),
+ B("South African Republic", "South Africa", "", "ZAR pond", "Boer republic (Transvaal) that issued its own gold pond coins, 1874–1902.", WP + "Coins_of_the_South_African_pound"),
  B("Republic of China (1912–1949)", "China", "1912", "Yuan Shikai dollar", "Republican Chinese state whose provincial mints struck the Yuan Shikai dollar.", WP + "Yuan_Shikai_coinage"),
 ]
 save("00_00", [circ, comm, coll, pset, err, patt, emer, repl], brands, [],
