@@ -32,11 +32,6 @@ play = K('Playset', 'Small figures sold with a scene, building or set of accesso
        [('#959 Safety School Bus', 'Fisher-Price', '1959', 'early precursor'), ('Nifty Station Wagon', 'Fisher-Price', '1960', 'first Play Family'),
         ('Play Family Barn', 'Fisher-Price', '1968', 'first playset'), ('Play Family dollhouse', 'Fisher-Price', '1969', ''),
         ('Renamed Little People', 'Fisher-Price', '1985', ''), ('Chunkier redesign', 'Fisher-Price', '1991', ''), ('Redesign with arms', 'Fisher-Price', '1996', ''),
-        ('Taller figures', 'Fisher-Price', '2013', '')], a='Play Family', tg=None) if False else
-     X('Little People', 'Chunky Fisher-Price figures with vehicles and buildings for young children.', 'Fisher-Price', '1959', WP + 'Little_People_(toys)',
-       [('#959 Safety School Bus', 'Fisher-Price', '1959', 'early precursor'), ('Nifty Station Wagon', 'Fisher-Price', '1960', 'first Play Family'),
-        ('Play Family Barn', 'Fisher-Price', '1968', 'first playset'), ('Play Family dollhouse', 'Fisher-Price', '1969', ''),
-        ('Renamed Little People', 'Fisher-Price', '1985', ''), ('Chunkier redesign', 'Fisher-Price', '1991', ''), ('Redesign with arms', 'Fisher-Price', '1996', ''),
         ('Taller figures', 'Fisher-Price', '2013', '')], a='Play Family'),
      X('Sylvanian Families', 'Flocked animal families with shops, villages and accessories.', E, '1985', WP + 'Sylvanian_Families',
        [('Calico Critters', E, '1993', 'North American name'), ('Bakery Shop Starter Set', E, '', 'from old data'), ('Village Cake Shop Starter Set', E, '', 'from old data'),
