@@ -1,0 +1,678 @@
+{
+ "kinds": [
+  {
+   "n": "Planetarium software",
+   "a": "",
+   "d": "Program that shows the sky for a chosen place and time and simulates the motion of sky objects.",
+   "t": [
+    "desktop planetarium",
+    "phone sky map",
+    "3D universe explorer",
+    "telescope control"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Planetarium_software",
+   "x": [
+    {
+     "n": "Stellarium",
+     "a": "",
+     "d": "Free open-source planetarium begun by Fabien Chereau in 2001; the beginner default on Linux, Mac and Windows.",
+     "mk": "",
+     "y": "2001",
+     "s": "https://en.wikipedia.org/wiki/Stellarium_(software)",
+     "v": [
+      {
+       "n": "Stellarium",
+       "mk": "Stellarium team",
+       "y": "2001",
+       "d": "GPL v2 or later"
+      },
+      {
+       "n": "Stellarium Mobile",
+       "mk": "Stellarium team",
+       "d": "Port with limited functions for Android and iOS"
+      }
+     ]
+    },
+    {
+     "n": "Celestia",
+     "a": "",
+     "d": "3D space simulator by Chris Laurel that lets you fly through the universe; first released 26 February 2001.",
+     "mk": "",
+     "y": "2001",
+     "s": "https://en.wikipedia.org/wiki/Celestia",
+     "v": [
+      {
+       "n": "Celestia 1.6.4",
+       "mk": "Celestia Development Team",
+       "y": "2023",
+       "d": "5 November 2023"
+      },
+      {
+       "n": "Celestia 1.7 beta",
+       "mk": "Celestia Development Team",
+       "y": "2026",
+       "d": "Beta builds; released on Steam in 2026"
+      }
+     ]
+    },
+    {
+     "n": "KStars",
+     "a": "",
+     "d": "KDE planetarium with the Ekos astrophotography suite (INDI telescope, camera and focuser control).",
+     "mk": "KDE",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/KStars",
+     "v": [
+      {
+       "n": "KStars 3.8.0",
+       "mk": "KDE",
+       "y": "2025",
+       "d": "3 December 2025"
+      },
+      {
+       "n": "Ekos",
+       "mk": "KDE",
+       "d": "Capture, autofocus, autoguiding and sequence manager inside KStars"
+      }
+     ]
+    },
+    {
+     "n": "Cartes du Ciel",
+     "a": "",
+     "d": "Free planetarium and star chart by Patrick Chevalley, with telescope control; GPLv2 since version 3.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Cartes_du_Ciel",
+     "v": [
+      {
+       "n": "Cartes du Ciel 4.2.1",
+       "mk": "Patrick Chevalley",
+       "y": "2019",
+       "d": "24 November 2019"
+      },
+      {
+       "n": "Cartes du Ciel 4.3 preview",
+       "mk": "Patrick Chevalley",
+       "y": "2024",
+       "d": "December 2024"
+      }
+     ]
+    },
+    {
+     "n": "SkySafari",
+     "a": "",
+     "d": "Proprietary sky-chart app for iOS, Android and macOS.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Planetarium_software",
+     "v": [
+      {
+       "n": "SkySafari"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "Starry Night",
+     ""
+    ],
+    [
+     "TheSky",
+     ""
+    ],
+    [
+     "WorldWide Telescope",
+     ""
+    ],
+    [
+     "Google Sky",
+     "Google"
+    ],
+    [
+     "XEphem",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "Astrophotography software",
+   "a": "astro imaging software",
+   "d": "Program that captures, stacks and processes images of the night sky, or controls the camera, mount and guiding that make them.",
+   "t": [
+    "capture and sequencing",
+    "stacking",
+    "processing",
+    "autoguiding",
+    "planetary"
+   ],
+   "s": "https://astrobackyard.com/astrophotography-image-stacking-software/",
+   "x": [
+    {
+     "n": "PixInsight",
+     "a": "",
+     "d": "Paid processing platform with a steep learning curve and strong gradient and noise tools.",
+     "mk": "PixInsight",
+     "y": "",
+     "s": "https://www.highpointscientific.com/astronomy-hub/post/best-software-for-astrophotography-in-2023",
+     "v": [
+      {
+       "n": "PixInsight",
+       "mk": "PixInsight",
+       "d": "Paid, one-time purchase; Windows, macOS, Linux"
+      }
+     ]
+    },
+    {
+     "n": "DeepSkyStacker",
+     "a": "",
+     "d": "Free beginner-friendly stacking program for calibration, alignment and stacking.",
+     "mk": "",
+     "y": "",
+     "s": "https://astrobackyard.com/astrophotography-image-stacking-software/",
+     "v": [
+      {
+       "n": "DeepSkyStacker",
+       "d": "Free, open source"
+      }
+     ]
+    },
+    {
+     "n": "Siril",
+     "a": "",
+     "d": "Free cross-platform program for calibration, stacking and processing.",
+     "mk": "",
+     "y": "",
+     "s": "https://astrobackyard.com/astrophotography-image-stacking-software/",
+     "v": [
+      {
+       "n": "Siril",
+       "d": "Free, open source; Windows, macOS, Linux"
+      }
+     ]
+    },
+    {
+     "n": "N.I.N.A.",
+     "a": "",
+     "d": "Free open-source capture and sequencing program with a framing assistant and autofocus; Windows-focused.",
+     "mk": "",
+     "y": "",
+     "s": "https://www.saashub.com/compare-n-i-n-a-vs-apt-astro-photography-tool",
+     "v": [
+      {
+       "n": "N.I.N.A.",
+       "mk": "N.I.N.A. project"
+      }
+     ]
+    },
+    {
+     "n": "SharpCap",
+     "a": "",
+     "d": "Capture tool for astronomy cameras, webcams and USB frame grabbers with live stacking and polar alignment.",
+     "mk": "",
+     "y": "",
+     "s": "https://www.saashub.com/compare-n-i-n-a-vs-apt-astro-photography-tool",
+     "v": [
+      {
+       "n": "SharpCap"
+      }
+     ]
+    },
+    {
+     "n": "Astro Photography Tool",
+     "a": "",
+     "d": "Capture and sequencing program for DSLR and CCD cameras (APT); Windows.",
+     "mk": "",
+     "y": "",
+     "s": "https://www.saashub.com/compare-n-i-n-a-vs-apt-astro-photography-tool",
+     "v": [
+      {
+       "n": "APT"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "Astro Pixel Processor",
+     "Mabula Haverkamp"
+    ],
+    [
+     "Sequator",
+     ""
+    ],
+    [
+     "AutoStakkert!",
+     ""
+    ],
+    [
+     "StarTools",
+     ""
+    ],
+    [
+     "PHD2",
+     ""
+    ],
+    [
+     "TheSkyX Professional",
+     "Bisque"
+    ],
+    [
+     "ASI Air app",
+     "ZWO"
+    ],
+    [
+     "CPWI",
+     "Celestron"
+    ]
+   ]
+  },
+  {
+   "n": "GIS and mapping software",
+   "a": "earth-mapping software",
+   "d": "Program on the owner's machine that edits, analyses or views geographic data. A hosted map or navigation service is in Subscriptions, Memberships & Online Services.",
+   "t": [
+    "desktop GIS",
+    "free and open source",
+    "globe viewer",
+    "Windows-only commercial"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Comparison_of_geographic_information_systems_software",
+   "x": [
+    {
+     "n": "QGIS",
+     "a": "",
+     "d": "Free open-source desktop GIS started by Gary Sherman in 2002 as Quantum GIS; long-term-release every year or two.",
+     "mk": "",
+     "y": "2002",
+     "s": "https://en.wikipedia.org/wiki/QGIS",
+     "v": [
+      {
+       "n": "Quantum GIS",
+       "mk": "Gary Sherman",
+       "y": "2002",
+       "d": "July 2002; OSGeo incubator project 2007"
+      },
+      {
+       "n": "QGIS 3.40 LTR",
+       "mk": "QGIS project",
+       "y": "2024",
+       "d": "Bratislava"
+      },
+      {
+       "n": "QGIS 3.44 LTR",
+       "mk": "QGIS project",
+       "y": "2025",
+       "d": "Solothurn"
+      }
+     ]
+    },
+    {
+     "n": "ArcGIS Pro",
+     "a": "",
+     "d": "Esri's commercial desktop GIS, Windows only.",
+     "mk": "Esri",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_GIS_software",
+     "v": [
+      {
+       "n": "ArcGIS Pro",
+       "mk": "Esri"
+      }
+     ]
+    },
+    {
+     "n": "Google Earth Pro",
+     "a": "",
+     "d": "Free desktop version of Google Earth for Windows, Mac and Linux; downloads end after 25 June 2027 per the page.",
+     "mk": "Google",
+     "y": "2001",
+     "s": "https://en.wikipedia.org/wiki/Earth.google.com",
+     "v": [
+      {
+       "n": "Keyhole EarthViewer",
+       "mk": "Keyhole",
+       "y": "2001",
+       "d": "June 2001"
+      },
+      {
+       "n": "Google Earth 3.0",
+       "mk": "Google",
+       "y": "2005",
+       "d": "June 2005; Google bought Keyhole in 2004"
+      },
+      {
+       "n": "Google Earth Pro",
+       "mk": "Google",
+       "y": "2015",
+       "d": "Free from 2015 (paid $399 a year before); 7.3 in 2017"
+      }
+     ]
+    },
+    {
+     "n": "GRASS GIS",
+     "a": "",
+     "d": "Open-source GIS begun in 1982 at the US Army Construction Engineering Research Laboratory; GPL since version 5.0 in 1999.",
+     "mk": "",
+     "y": "1982",
+     "s": "https://en.wikipedia.org/wiki/GRASS_GIS",
+     "v": [
+      {
+       "n": "GRASS",
+       "mk": "USA-CERL",
+       "y": "1982"
+      },
+      {
+       "n": "GRASS 5.0",
+       "mk": "GRASS Development Team",
+       "y": "1999",
+       "d": "Moved to GPL"
+      },
+      {
+       "n": "GRASS GIS 8.5.0",
+       "mk": "GRASS Development Team",
+       "y": "2026",
+       "d": "8 May 2026"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "MapInfo Pro",
+     "Pitney Bowes"
+    ],
+    [
+     "Maptitude",
+     "Caliper Corporation"
+    ],
+    [
+     "Manifold System",
+     ""
+    ],
+    [
+     "SAGA GIS",
+     ""
+    ],
+    [
+     "gvSIG",
+     ""
+    ],
+    [
+     "uDig",
+     ""
+    ],
+    [
+     "ILWIS",
+     ""
+    ],
+    [
+     "MapWindow GIS",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "Scientific and statistics software",
+   "a": "scientific and analytical software",
+   "d": "Program for scientific computation, statistics and data analysis.",
+   "t": [
+    "statistics package",
+    "numerical computing",
+    "computer algebra",
+    "notebook environment",
+    "graphing",
+    "free and open source"
+   ],
+   "s": "https://en.wikipedia.org/wiki/List_of_numerical-analysis_software",
+   "x": [
+    {
+     "n": "R",
+     "a": "",
+     "d": "Free open-source language and environment for statistics, an implementation of S; GNU GPL.",
+     "mk": "R Foundation",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_statistical_packages",
+     "v": [
+      {
+       "n": "R 4.5.3",
+       "mk": "R Foundation",
+       "y": "2026",
+       "d": "11 March 2026"
+      }
+     ]
+    },
+    {
+     "n": "MATLAB",
+     "a": "",
+     "d": "MathWorks' proprietary numerical computing environment with its own language.",
+     "mk": "MathWorks",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_statistical_packages",
+     "v": [
+      {
+       "n": "MATLAB",
+       "mk": "MathWorks"
+      },
+      {
+       "n": "Simulink",
+       "mk": "MathWorks"
+      }
+     ]
+    },
+    {
+     "n": "Mathematica",
+     "a": "",
+     "d": "Wolfram Research' computer-algebra and technical computing system, first released in 1988 with the Wolfram Language.",
+     "mk": "Wolfram Research",
+     "y": "1988",
+     "s": "https://en.wikipedia.org/wiki/Wolfram_Language",
+     "v": [
+      {
+       "n": "Mathematica 1.0",
+       "mk": "Wolfram Research",
+       "y": "1988"
+      },
+      {
+       "n": "Wolfram Language",
+       "mk": "Wolfram Research",
+       "y": "2013",
+       "d": "Name adopted 2013"
+      },
+      {
+       "n": "Wolfram Engine",
+       "mk": "Wolfram Research",
+       "y": "2019",
+       "d": "Freeware for developers"
+      },
+      {
+       "n": "Mathematica 15.0.1",
+       "mk": "Wolfram Research",
+       "y": "2026",
+       "d": "July 2026"
+      }
+     ]
+    },
+    {
+     "n": "SPSS",
+     "a": "",
+     "d": "IBM's menu-driven statistics package; JASP and PSPP are free alternatives.",
+     "mk": "IBM",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_statistical_packages",
+     "v": [
+      {
+       "n": "SPSS Statistics 28",
+       "mk": "IBM",
+       "y": "2021",
+       "d": "24 May 2021"
+      }
+     ]
+    },
+    {
+     "n": "Stata",
+     "a": "",
+     "d": "StataCorp's statistics package for economics, epidemiology and the social sciences.",
+     "mk": "StataCorp",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_statistical_packages",
+     "v": [
+      {
+       "n": "Stata 19",
+       "mk": "StataCorp",
+       "y": "2025",
+       "d": "8 April 2025"
+      }
+     ]
+    },
+    {
+     "n": "Jupyter",
+     "a": "",
+     "d": "Notebook environment spun out of IPython (2001) by Fernando Perez in 2014; supports Python, Julia and R.",
+     "mk": "",
+     "y": "2001",
+     "s": "https://en.wikipedia.org/wiki/Ipython",
+     "v": [
+      {
+       "n": "IPython",
+       "mk": "Fernando Perez",
+       "y": "2001"
+      },
+      {
+       "n": "Project Jupyter",
+       "mk": "Project Jupyter",
+       "y": "2014",
+       "d": "Language-agnostic notebook spin-off"
+      }
+     ]
+    },
+    {
+     "n": "Origin",
+     "a": "",
+     "d": "OriginLab's Windows software for scientific graphs and data analysis.",
+     "mk": "OriginLab",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_statistical_packages",
+     "v": [
+      {
+       "n": "Origin 10.3",
+       "mk": "OriginLab",
+       "y": "2025",
+       "d": "21 November 2025"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "GNU Octave",
+     ""
+    ],
+    [
+     "Julia",
+     ""
+    ],
+    [
+     "JASP",
+     "JASP team"
+    ],
+    [
+     "jamovi",
+     "The jamovi project"
+    ],
+    [
+     "PSPP",
+     "GNU Project"
+    ],
+    [
+     "gretl",
+     "The gretl Team"
+    ],
+    [
+     "SAS",
+     ""
+    ],
+    [
+     "JMP",
+     "JMP Statistical Discovery"
+    ],
+    [
+     "Minitab",
+     "Minitab"
+    ],
+    [
+     "GraphPad Prism",
+     "GraphPad Software"
+    ],
+    [
+     "Maple",
+     ""
+    ],
+    [
+     "SageMath",
+     ""
+    ],
+    [
+     "Scilab",
+     ""
+    ],
+    [
+     "Igor Pro",
+     ""
+    ],
+    [
+     "Orange",
+     "University of Ljubljana"
+    ],
+    [
+     "Weka",
+     "University Of Waikato"
+    ],
+    [
+     "EViews",
+     "IHS Markit"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Esri",
+   "c": "United States",
+   "f": "1969",
+   "seg": "Professional & flagship",
+   "kf": "ArcGIS",
+   "d": "American maker of ArcGIS.",
+   "s": "knowledge"
+  },
+  {
+   "n": "MathWorks",
+   "c": "United States",
+   "f": "1984",
+   "seg": "Professional & flagship",
+   "kf": "MATLAB",
+   "d": "American maker of MATLAB and Simulink.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Wolfram Research",
+   "c": "United States",
+   "f": "1987",
+   "seg": "Professional & flagship",
+   "kf": "Mathematica",
+   "d": "Maker of Mathematica and the Wolfram Language.",
+   "s": "https://en.wikipedia.org/wiki/Wolfram_Language"
+  },
+  {
+   "n": "StataCorp",
+   "c": "United States",
+   "f": "1985",
+   "seg": "Professional & flagship",
+   "kf": "Stata",
+   "d": "Texas maker of Stata.",
+   "s": "knowledge"
+  }
+ ],
+ "traditions": [],
+ "notes": "Planetarium 11 old names to 5 archetypes plus 5; Digistar dropped as a dome-projector system. Astrophotography is new, sourced from AstroBackyard, High Point Scientific and SaaSHub (via firecrawl once). GIS 52 old names trimmed to 4 archetypes plus 8: dropped enterprise servers and libraries (ArcGIS Server, GeoServer, MapServer, PostGIS, OpenLayers, Leaflet, GeoTools, GeoTrellis, GeoNetwork, MapDotNet, Oracle Spatial, GeoMedia and WebMap, SuperMap, Smallworld, TNTmips, TerraLib, TerraView), transport modelling (TransModeler), fleet (GeoBase) and ETL (FME). Scientific software cut from 142 to 7 archetypes plus 17; dropped trade/niche/dead: Alteryx, BMDP, S-PLUS, Statistica, RATS, LIMDEP, NLOGIT, Shazam, TSP, Ox, XploRe, ELKI, PRIMER, ADMB, AMPL, COMSOL, LabVIEW, OpenFOAM, Trilinos, libraries (LAPACK, ScaLAPACK, Armadillo, NumPy, pandas, SciPy, scikit-learn, Torch, mlpack) and others. GeoGebra is named in the brief but no retrieved page covered it, so it is omitted."
+}
