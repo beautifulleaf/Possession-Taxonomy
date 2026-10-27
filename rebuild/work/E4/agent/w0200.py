@@ -16,7 +16,7 @@ kinds=[
         dt=".45 ACP, 9 mm, .38 Super · Government, Commander, Officer sizes · grips · finish"),
       X("Walther PP / PPK","Compact German pistol; the PPK is the shorter version.",WP+'Walther_PP',"Walther","1929",
         v=[("PP","Walther","1929",""),("PPK","Walther","1931",""),("PPK/S","Walther","after 1968","US import model"),("PPK/E","FEG","2000","licensed"),("PPK and PPK/S",SW,"2002–2013","licensed")]),
-      X("Browning Hi-Power","Browning design completed by Dieudonné Saive; early high-capacity 9 mm pistol.",WP+'Browning_Hi-Power',"FN Herstal","1935",a="P-35 · GP35",
+      X("Browning Hi-Power","Browning design completed by Dieudonné Saive; 9 mm pistol.",WP+'Browning_Hi-Power',"FN Herstal","1935",a="P-35 · GP35",
         v=[("Inglis Hi-Power","Inglis","1944","Canada"),("Mark II","FN Herstal","1982",""),("Mark III","FN Herstal","1989","first .40 S&W"),("SA-35",SA,"2021","clone")]),
       X("CZ 75","Czech 9 mm pistol by the Koucký brothers.",WP+'CZ_75',"CZ","1975",
         v=[("CZ 75 B","CZ","1993","firing-pin block"),("CZ 85","CZ","","ambidextrous"),("CZ 75 Compact","CZ","",""),("SP-01","CZ","","all-steel competition"),("P-01","CZ","2001",""),("Shadow 2","CZ","2016",""),("CZ Shadow 2 Carry","CZ","","")]),

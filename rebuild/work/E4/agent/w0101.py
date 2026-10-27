@@ -8,7 +8,7 @@ kinds=[
  "t":["sandwich handle","channel handle","trainer (blunt)"],"s":"https://www.bladehq.com/cat--Butterfly-Knives--70",
  "x":[X("Batangas balisong","Traditional Philippine butterfly knife named after barangay Balisong in Taal, Batangas.",BF,"","early 1900s",
         dt="latch: Batangas (bite handle) or Manila (safe handle) · pivots: bearing, bushing or washers"),
-      X("Benchmade 42","Benchmade's single-edge production balisong, the reference modern design.",BF,BM,"",
+      X("Benchmade 42","Benchmade's production butterfly knife.",BF,BM,"",
         v=[("Benchmade 49",BM,"","dual-edge blade")]),
       X("Krake Raken Zenith","Dual-edge modern balisong.",BF,"Squid Industries","")],
  "m":[["Bear & Son 114B Butterfly","Bear & Son Cutlery"],["Bear & Son 117 Butterfly","Bear & Son Cutlery"],["Bear Ops Bear Song VIII","Bear Ops"],["Benchmark BM004","Benchmark Knives"],["Kershaw Lucha","Kershaw"],["Spyderco SmallFly 2","Spyderco"]]},
