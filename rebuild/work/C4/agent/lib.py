@@ -11,3 +11,7 @@ def X(n,mk,s,d,y="",v=None,dt=""):
     if v: x["v"]=[{"n":a,"mk":mk,"y":"","d":dd} for a,dd in v]
     if dt: x["dt"]=dt
     return x
+def old(job):
+    t=open(f'work/C4/prompts/{job}.txt').read()
+    i=t.index('```json\n')+8; j=t.index('\n```',i)
+    return json.loads(t[i:j])
