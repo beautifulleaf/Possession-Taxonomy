@@ -30,7 +30,7 @@ kinds=[
     "dt":"lifetime or posthumous cast · Barbedienne 'FB' seal · crispness of detail · patina"},
    {"n":"Mêne animalier bronze","a":"","d":"A small naturalistic animal or hunting bronze by Mêne, issued in many editions from his own foundry.","mk":"Pierre-Jules Mêne","y":"1838 onward","s":ME,
     "v":[V("L'Accolade","Pierre-Jules Mêne","1852–1853","wax at the 1852 Salon, bronze 1853, shown 1855 Exposition Universelle")],
-    "dt":"model · own-foundry or later Cain cast · size · patina"},
+    "dt":"model · own-foundry or later cast · size · patina"},
    {"n":"Chiparus chryselephantine figure","a":"bronze and ivory dancer","d":"An Art Deco dancer in cold-painted bronze with carved ivory face and hands, issued in small foundry editions.","mk":"Demétre Chiparus","y":"1914–1933","s":CH,
     "v":[V("Danseuse au cerceau (Ring Dancer)","Etling","1928"),V("The Russian Dancers","Demétre Chiparus","","Nijinsky and Ida Rubinstein in Schéhérazade"),
          V("Javelin Thrower","Demétre Chiparus","1923"),V("Ta-Keo","Goldscheider","1928")],
@@ -52,7 +52,7 @@ kinds=[
    {"n":"Tanagra figurine","a":"","d":"A mould-cast Greek terracotta figure, usually a draped woman, slipped white and painted after firing.","mk":"","y":"later 4th century BC onward","s":TG,
     "v":[V("Tanagra (Boeotia) figurine","","Hellenistic","excavated 1870s"),V("Myrina, Alexandria, Tarentum or Centuripe figurine","","Hellenistic"),
          V("19th-century forgery","","late 19th century","about 20% of Berlin's holdings found fake")],
-    "dt":"height 10–20 cm · paint remains · provenance and export · authenticity (thermoluminescence)"}]},
+    "dt":"height 10–20 cm · paint remains · provenance and export · authenticity"}]},
  {"n":"Plaster sculpture","a":"plaster cast","d":"Cast or modelled plaster.",
   "t":["cast after the antique","sculptor's working plaster","patinated plaster","painted plaster","relief","bust"],
   "s":"https://www.singulart.com/en/sculpture",
@@ -84,14 +84,14 @@ brands=[
  B("Demétre Chiparus","France","",P,"chryselephantine dancers","Romanian-French Art Deco sculptor of bronze-and-ivory dancers.",CH,["Chiparus chryselephantine figure"]),
  B("Etling","France","",H,"Art Deco bronzes","Paris foundry Edmond Etling et Cie, Chiparus's main editor.",CH,[]),
  B("Les Neveux de J. Lehmann","France","",H,"Art Deco bronzes","Paris foundry, Chiparus's second editor.",CH,[]),
- B("Goldscheider","Austria","1885",H,"figures","Vienna manufactory that produced Chiparus's Ta-Keo.",CH,[]),
+ B("Goldscheider","Austria","",H,"figures","Vienna manufactory that produced Chiparus's Ta-Keo.",CH,[]),
  B("Ferdinand Preiss","Germany","1906",P,"chryselephantine figures","Berlin ivory carver and co-founder of Preiss & Kassler (PK).",PR,["Preiss chryselephantine figure"]),
  B("Gladenbeck","Germany","",H,"art foundry","Berlin foundry that made Preiss's early bronze moulds.",PR,[]),
  B("Gian Lorenzo Bernini","Italy","",P,"Baroque sculpture","Roman Baroque sculptor whose terracotta bozzetti were collected early.",BN,["Bernini bozzetto"]),
  B("D. Brucciani & Co.","United Kingdom","",H,"plaster casts","London plaster-cast makers linked with the British Museum and the V&A.",BC,["Brucciani plaster cast"]),
 ]
 trads=[
- {"n":"Benin brass casting","g":"Metal & blades","r":"Kingdom of Benin (Edo State, Nigeria)","p":"16th century to present",
+ {"n":"Benin brass casting","g":"Metal & blades","r":"Kingdom of Benin (Edo State, Nigeria)","p":"16th century onward",
   "d":"Lost-wax brass heads, plaques and figures made by a royal guild for the oba's palace and ancestral altars.",
   "tech":"lost-wax casting","mat":"brass, ivory",
   "forms":["Benin commemorative head","relief plaque"],
@@ -104,6 +104,6 @@ trads=[
   "ctr":["Antoine-Louis Barye","Pierre-Jules Mêne","Barbedienne foundry"],
   "auth":"cast-through signature and foundry seal; lifetime casts are crisper than later ones from worn moulds","s":BA}]
 out={"kinds":kinds,"brands":brands,"traditions":trads,
- "notes":"Four old kinds kept with old sources. Giacometti not added (no page fetched this round). Coubertin foundry not named on any fetched page, so Rodin versions cite Rudier only. Benin head has a cultural-property note; maker-free (guild). Goldscheider register entry founding year from knowledge, source is Chiparus wiki."}
+ "notes":"Four old kinds kept with old sources. Giacometti not added (no page fetched this round). Coubertin foundry not named on any fetched page, so Rodin versions cite Rudier only. Benin head has a cultural-property note; maker-free (guild). Goldscheider entry minimal (Chiparus page only)."}
 p='/home/user/Possession-Taxonomy/rebuild/work/F2/shelves/04_00.json'; t=p+'.tmp'
 json.dump(out,open(t,'w'),ensure_ascii=False,indent=1); os.replace(t,p)
