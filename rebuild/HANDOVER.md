@@ -12,3 +12,12 @@ State: A5 rebuilt (pilot, approved for method). 41 kinds tagged "baby". Data err
 Loop per batch: run agents (one category each, prompt = SCHEMA.md + RULES.md + FINDINGS row) → validate → merge.py <codes> → build.py → publish index.html + changed reader files to the artifact URL.
 New categories (G3, H4, J8, J9, recodes J10/E5/E6) need meta.json entries + their files; moves feed them (run donors first).
 Sources: Wikipedia/Wikidata APIs (throttle), Firecrawl/Parallel search+scrape, official DB APIs via keys (network secrets; header names per API docs), never work around bot walls.
+
+## Rebuild complete (2026-10-27)
+- All 57 categories rebuilt and merged (done.json); published as artifact v23 (https://claude.ai/artifact/C1cQq1ygVd7bWfw7Duem6n).
+- Totals: kinds 6,716 → 7,932 (A5 pilot not in the before count); 17,595 archetypes; flat models 41,184 → 18,557; models + archetypes + versions 64,559; brand register 10,938; 747 traditions; 187 rare mineral species.
+- Registers are nested per category: build.py runs tools/registers.py, which writes reader/brands/<C>.json, reader/traditions/<C>.json, reader/species/<C>.json and reader/_brand_index.json (Brands A–Z finder). The page shows Kinds / Brands / Traditions / Rare species tabs per category.
+- Same-name different companies are separated through work/_clash/map.tsv (applied in merge.py; entries keep the original name in "an" for maker links). Same-country homonyms were not scanned.
+- Frozen pre-rebuild data for every category is in work/<C>/old.json (the source check reads it; reader/<C>.json is the rebuilt file).
+- Moved kinds: merge.py re-applies incoming moves; moves_covered.json folds a moved kind into a named kind, or renames it on arrival with a leading "=".
+- Follow-ups: rebuild/work/_followups.md (all closed except a process note: split workers in one category need separate scratch folders).
