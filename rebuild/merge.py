@@ -3,6 +3,7 @@ Usage: python3 merge.py A5 [B1 ...]   (codes whose out/ files are final)"""
 import json, os, sys, glob
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 done = json.load(open('done.json')) if os.path.exists('done.json') else []
+covered = json.load(open('moves_covered.json')) if os.path.exists('moves_covered.json') else {}
 for c in sys.argv[1:]:
     d = json.load(open(f'out/{c}.json'))
     # re-apply kinds moved IN from categories merged earlier (the rebuilt file would otherwise drop them);
@@ -15,6 +16,13 @@ for c in sys.argv[1:]:
         if src == c or not os.path.exists(sp): continue
         for m in json.load(open(sp)).get('out', []):
             if m['to'] != c or m['kind']['n'].lower() in names: continue
+            cov = covered.get(src + '>' + c + ':' + m['kind']['n'])  # coordinator: moved kind already covered under another name
+            if cov:
+                k = next((k for dp in d['depts'] for s in dp['s'] for k in s['k'] if k['n'] == cov), None)
+                if k is not None:
+                    for f in ('m', 'r'):
+                        k[f] = (k.get(f) or []) + [x for x in (m['kind'].get(f) or []) if x not in (k.get(f) or [])]
+                    print('folded', src + '>' + c + ':' + m['kind']['n'], 'into', cov); continue
             dp = next((dp for dp in d['depts'] if dp['n'] == m.get('dept')), None)
             if dp is None:
                 dp = {'n': m.get('dept') or 'Moved in', 'mode': 'mixed', 'b': [], 's': [{'n': m.get('dept') or 'Moved in', 'k': []}]}

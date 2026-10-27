@@ -73,6 +73,9 @@ META = json.load(open('meta.json'))
 SEGMENTS = json.load(open('SEGMENTS.json'))['domains']
 
 
+ALL_SEGS = {x for d in SEGMENTS.values() for x in d['segs']}
+
+
 def seg_domain(code):
     return next((d for d, v in SEGMENTS.items() if code in v['cats']), 'general')
 
@@ -467,7 +470,7 @@ def check_shelf(code, dp, s, out, ks_by_id, retrieved, final=False):
     vocab = seg_vocab(code)
     for b in out.get('brands') or []:
         if not isinstance(b, dict) or not b.get('n'): continue
-        if b.get('seg') not in vocab:  # owner: controlled segment vocabulary (SEGMENTS.json)
+        if b.get('seg') not in vocab and b.get('seg') not in ALL_SEGS:  # owner: controlled vocabulary (SEGMENTS.json); a brand keeps the segment of its strongest domain (e.g. Hermès = Luxury house on a saddle shelf)
             if final: b['seg'] = ''
             else: errs.append(f"brand {b.get('n')}: seg must be one of {vocab} (got {b.get('seg')!r}); put the specialty in \"kf\"")
         if b.get('s') == 'knowledge': b['s'] = ''; brands.append(b); continue  # owner: well-known brand facts may come from model knowledge
