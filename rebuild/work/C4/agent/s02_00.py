@@ -17,7 +17,7 @@ kinds=[
   X("Heavy Duty","Singer",SG,"Current metal-frame family from the Singer range, sold as 4411, 4423, 4432, 4452, 4511, 4523, 4532, 4552, 6600C and Smart 9120.","",v=[("4452","32 stitches, extra-high speed, metal frame"),("9120 Smart Heavy Duty","app-connected, sewing or sewing-and-embroidery")],dt="metal frame · mechanical or computerised"),
   X("TL-2010Q","Juki",JU,"Single-needle straight-stitch quilting machine with a large harp space, designed for quilters.","",dt="straight stitch only · speed control · extension table"),
  ],
- "m":[["Innov-is A150","Brother"],["Innov-is A80","Brother"],["Innov-is NV1800Q","Brother"],["CS7000X","Brother"],["Emerald 118","Husqvarna Viking"],["Opal 670","Husqvarna Viking"],["Patchwork 7285Q","Singer"],["Quantum Stylist 9960","Singer"],["M1500","Singer"],["Gem","White Sewing Machine Company"],["105","Bernina"]]},
+ "m":[["Innov-is A150","Brother"],["Innov-is A80","Brother"],["Innov-is NV1800Q","Brother"],["Emerald 118","Husqvarna Viking"],["Opal 670","Husqvarna Viking"],["Patchwork 7285Q","Singer"],["Quantum Stylist 9960","Singer"],["M1500","Singer"],["Gem","White Sewing Machine Company"],["105","Bernina"]]},
 {"n":"Overlocker","a":"serger · overlock machine","d":"Machine that trims, seams and overcasts an edge in one pass with looper threads.","s":SG,
  "t":["3-thread","4-thread","5-thread","differential feed","air-threading","industrial 2-thread"],
  "x":[X("Baby Lock","Tacony",OV,"Home overlocker introduced to the US market by Nick Tacony, letting home sewers finish seams.","",dt="3-4 thread"),
@@ -39,7 +39,7 @@ kinds=[
  "x":[X("Universal needle","SCHMETZ",SC,"Slightly rounded point for woven and knit fabrics; fits most household machines (system 130/705 H).","",dt="size 70/10 to 110/18"),
       X("Microtex Chrome","SCHMETZ",SC,"Very slim, sharp, chrome-plated needle for microfibres, silk and coated cloth; purple code.","",dt=""),
       X("Embroidery (Jersey) needle","SCHMETZ",SC,"Medium ballpoint needle that slips between knit fibres.","",dt="")],
- "m":[["Embroidery Needle","Organ"]]},
+ "m":[["Quilting Needle","SCHMETZ"]]},
 {"n":"Sewing machine feet and spare parts","a":"presser feet · bobbins · needle plates","d":"Presser feet, bobbins, bobbin cases, needle plates, extension tables and oil to fit a given machine.","s":"https://www.janome.com/product-category/accessories/sewing-machine-feet",
  "t":["presser foot","bobbin","bobbin case","needle plate","extension table","machine oil"],
  "m":[["9-groove Pintuck Foot","Bernina"],["Gathering Foot","Bernina"],["Ultra Glide Foot","Janome"],["Tricot Foot","Janome"],["Zig-Zag Foot A","Janome"],["Walking foot (even feed)",""],["Zipper foot",""],["Quarter-inch foot",""],["Buttonhole foot",""],["Blind-stitch foot",""],["Binding foot",""],["Sew Steady Classic Table for the Singer Featherweight","Sew Steady"],["Sew Steady Large Deluxe Table","Sew Steady"],["Class 66 bobbin",""]]},
@@ -57,4 +57,4 @@ B("Husqvarna Viking","Sweden","","Premium","Swedish machines","Swedish brand wit
 B("Gammill","United States","","Specialist","longarm quilters","US maker of Statler and Vision longarm quilting machines.",s=GA,sig=["Statler","Vision 2.0"]),
 B("SCHMETZ","Germany","","Specialist","needles","German maker of sewing machine needles in the 130/705 H system.",s=SC,sig=["Universal needle","Microtex Chrome"]),
 ]
-write('02_00',kinds,brands,[],"Pfaff 130, Singer 201, Elna Supermatic, Necchi BU/Supernova, Brother Innov-is archetype, Janome MC15000 left out (no retrieved page confirmed them; Singer 201 only a parts-store title; Necchi Mirella mentioned but no detail). Heavy Duty SKU run collapsed to one archetype. Spare parts collapsed to one entry. Organ needle kept in m. Bobbin/needle-plate/oil kinds merged as types.")
+write('02_00',kinds,brands,[],"Pfaff 130, Singer 201, Elna Supermatic, Necchi BU/Supernova, Brother Innov-is archetype, Janome MC15000 left out (no retrieved page confirmed them; Singer 201 only a parts-store title; Necchi Mirella mentioned but no detail). Heavy Duty SKU run collapsed to one archetype. Spare parts collapsed to one entry. Organ needles not confirmed by a retrieved page. Bobbin/needle-plate/oil kinds merged as types.")
