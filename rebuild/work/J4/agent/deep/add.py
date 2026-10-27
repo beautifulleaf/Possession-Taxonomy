@@ -15,7 +15,11 @@ for kn,ops in spec.get('kinds',{}).items():
     if 'a' in ops and ops['a']: k['a']=(k.get('a')+' · ' if k.get('a') else '')+ops['a']
     ex={a['n'].lower() for a in k.setdefault('x',[])} if ('x' in ops) else set()
     for a in ops.get('x',[]):
-        if a['n'].lower() in ex: print('skip dup arch',a['n']); continue
+        if a['n'].lower() in ex:
+            if a.pop('_replace',False):
+                k['x']=[o for o in k['x'] if o['n'].lower()!=a['n'].lower()]
+            else:
+                print('skip dup arch',a['n']); continue
         a.setdefault('a',''); a.setdefault('mk',''); a.setdefault('y',''); a.setdefault('v',[]); a.setdefault('dt','')
         k['x'].append(a); cnt['x']+=1
     for an,vs in ops.get('v',{}).items():
