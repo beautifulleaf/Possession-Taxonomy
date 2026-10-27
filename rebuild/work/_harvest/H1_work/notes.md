@@ -14,3 +14,6 @@ Segments: H1 is in domain "general" -> Professional & flagship, Premium, Mainstr
 - fetched: badgerandblade artisan soap list, sharpologist artisans, russh J-beauty; BLOCKED 403: harpersbazaararabia J-beauty article
 - fetched: Category Revlon/Colgate-Palmolive/Haleon/Reckitt/Estée Lauder brands
 - fetched: beautylish indie nail brands, greenlitcontent nail polish brands; BLOCKED 403: skinsort korean brands
+## Build
+- Entries in H1_work/b1..b6.txt (name|seg|kf|country|year|src), src codes in src.tsv, cuts in cut.txt; build.py writes work/_harvest/H1.json (temp+rename). Check: 586 new, 40 links, 0 errors.
+- Dropped name clashes with unrelated register brands: Elixir (E3), Parachute (B2), Playtex (A1), Zenith (A5), Royal Crown (J9), Eisenberg (A3).

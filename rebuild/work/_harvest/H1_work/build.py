@@ -4,7 +4,8 @@ SEG={'PF':'Professional & flagship','PR':'Premium','MA':'Mainstream','VA':'Value
      'AI':'Artisan & independent','SP':'Specialist','OL':'Own-label & retailer','IN':'Institution & issuer'}
 src=dict(l.rstrip('\n').split('\t') for l in open('work/_harvest/H1_work/src.tsv'))
 reg={b['n'].strip().lower():b for b in json.load(open('reader/_brands.json'))['b']}
-DROP={'elixir','parachute','playtex','zenith','royal crown','eisenberg'}
+DROP={'elixir','parachute','playtex','zenith','royal crown','eisenberg'}|{x.strip().lower() for l in open('work/_harvest/H1_work/cut.txt') for x in l.rstrip('\n').split('|') if x.strip()}
+D={'Burma-Shave':'American brushless shaving cream famed for its roadside rhyming signs; historically important, revived in the 1990s.','Rolls Razor':'British self-stropping safety razor made from 1927; defunct, historically important.','Madam C. J. Walker':'Hair care company of America\'s first self-made woman millionaire; historically important, revived as a brand in 2016.','Kalodont':'Early toothpaste in a tube from Vienna; historically important.','Bonne Bell':'American cosmetics company that created Lip Smackers; historically important.'}
 out=[];seen=set()
 p='work/_harvest/H1.json'
 if os.path.exists(p):
@@ -21,6 +22,7 @@ for f in sorted(glob.glob('work/_harvest/H1_work/b*.txt')):
         b={'n':n,'seg':seg,'kf':kf}
         if c: b['c']=c
         if y: b['f']=y
+        if n in D: b['d']=D[n]
         b['s']=src[s]
         out.append(b)
 json.dump({'b':out},open(p+'.tmp','w'),ensure_ascii=False,indent=0)
