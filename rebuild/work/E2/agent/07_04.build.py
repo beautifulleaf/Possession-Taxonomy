@@ -1,0 +1,35 @@
+import json, os
+K=[]
+K.append({"n":"Metal detector","a":"treasure detector","d":"Handheld search coil and control unit made to find buried metal objects for treasure hunting.","t":["VLF single-frequency","selectable frequency","simultaneous multi-frequency","pulse induction (gold)","waterproof","wireless"],"s":"https://www.adorama.com/brands/Minelab",
+ "x":[
+  {"n":"Garrett ACE","a":"","d":"Garrett's entry-level detector line from Garland, Texas, the usual first machine.","mk":"Garrett","y":"","s":"https://www.portisabelsouthpadre.com/2019/02/15/rio-history-choosing-the-right-detector",
+   "v":[{"n":"ACE 150","mk":"Garrett","y":"","d":"basic; not for beach"},{"n":"ACE 250","mk":"Garrett","y":"","d":"works in sand and at the surf's edge"}],"dt":"coil · headphones"},
+  {"n":"Garrett AT Pro","a":"all-terrain","d":"Versatile Garrett detector for land and shoreline hunting.","mk":"Garrett","y":"","s":"https://www.portisabelsouthpadre.com/2019/02/15/rio-history-choosing-the-right-detector","v":[],"dt":"coil"},
+  {"n":"Minelab multi-frequency detector","a":"Sovereign · Explorer · CTX","d":"Minelab's line of detectors transmitting many frequencies at once (BBS, then FBS), for coins and relics in mineral ground.","mk":"Minelab","y":"1991","s":"https://www.lovecpokladu.cz/en/home/metal-detectors-minelab-brand-history-4915",
+   "v":[{"n":"Sovereign","mk":"Minelab","y":"1991","d":"first multi-frequency model (BBS)"},{"n":"Excalibur","mk":"Minelab","y":"1993","d":"first underwater coin and jewellery model"},{"n":"Explorer S","mk":"Minelab","y":"1999","d":"first FBS model"},{"n":"Sovereign Elite","mk":"Minelab","y":"2002","d":""},{"n":"CTX 3030","mk":"Minelab","y":"2013","d":"FBS2, waterproof"}],"dt":"coil size · waterproofing"},
+  {"n":"Minelab pulse-induction gold detector","a":"SD · GP · GPX","d":"Pulse-induction detectors for deep gold prospecting in mineralised ground.","mk":"Minelab","y":"1995","s":"https://www.lovecpokladu.cz/en/home/metal-detectors-minelab-brand-history-4915",
+   "v":[{"n":"SD 2000","mk":"Minelab","y":"1995","d":"first Minelab pulse model"},{"n":"SD 2200d","mk":"Minelab","y":"1998","d":""},{"n":"GP 3000","mk":"Minelab","y":"2003","d":"MPS and DVT"},{"n":"GP 3500","mk":"Minelab","y":"2005","d":""},{"n":"GPX-4000","mk":"Minelab","y":"2006","d":""},{"n":"SDC 2300","mk":"Minelab","y":"2014","d":""}],"dt":"coil size and shape"},
+  {"n":"Minelab X-Terra","a":"","d":"Minelab's selectable-frequency VFLEX detector range for general hunting.","mk":"Minelab","y":"2005","s":"https://www.lovecpokladu.cz/en/home/metal-detectors-minelab-brand-history-4915",
+   "v":[{"n":"X-Terra 30 / 50","mk":"Minelab","y":"2005","d":""},{"n":"X-Terra 70","mk":"Minelab","y":"2006","d":""}],"dt":"coil frequency"},
+  {"n":"XP DEUS","a":"","d":"First high-performance fully wireless detector, with coil, control and headphones linked by radio, from 770 g.","mk":"XP Metal Detectors","y":"","s":"https://www.xpmetaldetectors.com/en/page/xp-metal-detectors.php",
+   "v":[{"n":"DEUS","mk":"XP Metal Detectors","y":"","d":"original"},{"n":"DEUS II","mk":"XP Metal Detectors","y":"","d":"wireless"},{"n":"ORX","mk":"XP Metal Detectors","y":"","d":"wireless"}],"dt":"coil · remote or WS headphones"}],
+ "m":[["Equinox 700","Minelab"],["Equinox 800","Minelab"],["Equinox 900","Minelab"],["Manticore","Minelab"],["Vanquish 540","Minelab"],["Gold Monster 1000","Minelab"],["GO-FIND 22","Minelab"],["Simplex","Nokta"],["Legend","Nokta"]],
+ "r":[["Equinox","Minelab"],["Vanquish","Minelab"],["GO-FIND","Minelab"]]})
+K.append({"n":"Pinpointer","a":"pin-pointer · probe","d":"Small handheld probe detector that locates a find inside a dug hole.","t":["waterproof","wireless-linked to detector","rechargeable"],"s":"https://www.lpmetaldetecting.com/products/minelab-pro-find-20",
+ "x":[{"n":"Garrett Pro-Pointer AT","a":"Garrett carrot","d":"Orange waterproof probe pinpointer, the common reference model.","mk":"Garrett","y":"","s":"https://highbanker.com.au/blogs/news/a-new-minelab-pinpointer","v":[],"dt":"about 12 kHz"}],
+ "m":[["Pro-Find 15","Minelab"],["Pro-Find 20","Minelab"],["Pro-Find 35","Minelab"],["Pro-Find 40","Minelab"],["AccuPoint","Nokta"],["MI-6","XP Metal Detectors"]],"r":[["Pro-Find","Minelab"]]})
+K.append({"n":"Digging tool","a":"digger · relic shovel","d":"Trowel, spade or knife made to dig out finds in metal detecting.","t":["hand digger","long-handled shovel","serrated edge"],"s":"https://www.metaldetectingworld.com/digging_shovels.shtml",
+ "x":[{"n":"Lesche digging tool","a":"Lesche digger","d":"One-piece welded steel hand digger for cutting plugs through hard ground and roots.","mk":"Lesche","y":"","s":"https://www.metaldetectingworld.com/319-1-leschedigtool.html",
+   "v":[{"n":"Original Digging/Cutting Tool","mk":"Lesche","y":"","d":"2 x 7 in blade, 11.5 in overall"},{"n":"Relic Hunter Model 38","mk":"Lesche","y":"","d":"long-handled shovel"},{"n":"Sampson Relic Shovel 28in","mk":"Lesche","y":"","d":""}],"dt":"left or right hand · holster"}],
+ "m":[["Edge Digger","Garrett"],["Razor Relic Shovel","Garrett"],["Premium Digger","Nokta"],["36-inch Shovel","DragonXT"]]})
+B=[
+ {"n":"Minelab","c":"Australia","f":"1985","seg":"Professional & flagship","kf":"metal detectors","d":"Adelaide detector maker owned by Codan since 2008.","sig":["CTX 3030","Equinox","GPX"],"s":"https://en.wikipedia.org/wiki/Codan"},
+ {"n":"Garrett","c":"United States","f":"1964","seg":"Mainstream","kf":"metal detectors","d":"Garland, Texas maker of hobby and security metal detectors.","sig":["ACE","AT Pro","Pro-Pointer"],"s":"knowledge"},
+ {"n":"XP Metal Detectors","c":"France","f":"1998","seg":"Premium","kf":"wireless detectors","d":"Toulouse maker of wireless metal detectors.","sig":["DEUS","ORX","MI-6"],"s":"https://www.xpmetaldetectors.com/en/page/xp-metal-detectors.php"},
+ {"n":"Nokta","c":"Turkey","seg":"Mainstream","kf":"metal detectors","d":"Turkish detector maker, formerly Nokta Makro.","sig":["Simplex","Legend"],"s":"knowledge"},
+ {"n":"Lesche","c":"United States","seg":"Specialist","kf":"digging tools","d":"American maker of steel digging tools for detectorists.","sig":["Lesche digger"],"s":"knowledge"},
+]
+notes=("Metal detector: 11 Minelab-only SKUs rebalanced; archetypes for Garrett ACE/AT Pro, Minelab multi-frequency, PI gold and X-Terra lines, XP DEUS. "
+ "Not sourced so left out: Minelab GPZ 7000, Fisher F75, Garrett AT Pro history year, Equinox as an archetype (kept as old models). Predator digging tools not found on any fetched page.")
+out={"kinds":K,"brands":B,"traditions":[],"notes":notes}
+p="work/E2/shelves/07_04.json"; t=p+".tmp"; json.dump(out,open(t,"w"),ensure_ascii=False,indent=1); os.replace(t,p)
