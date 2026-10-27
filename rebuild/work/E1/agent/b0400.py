@@ -11,8 +11,8 @@ chess = K('Chess set', 'A board and pieces for chess.', 'https://www.mastersofga
        [('Jaques original', 'Jaques of London', '1849', 'on sale 29 September 1849; first 500 numbered and signed by Howard Staunton'), ('Staunton chess set', '', '', 'generic Staunton pattern (old data)'), ('Plastic Staunton', '', '', 'modern club and tournament sets')],
        a='Staunton pattern', dt='king height · wood (boxwood, ebony, rosewood) · weighting · knight carving'),
      X('Régence', 'French pattern named after the Café de la Régence in Paris.', '', '', ST),
-     X('St George', 'English pre-Staunton pattern.', '', '', ST),
-     X('Barleycorn', 'English pattern with barley-ear decoration.', '', '', ST),
+     X('St George', 'English historic chessmen pattern.', '', '', ST),
+     X('Barleycorn', 'English historic chessmen pattern.', '', '', ST),
      X('Dubrovnik', 'Abstract pattern without religious symbols, designed for the 1950 Dubrovnik Olympiad and praised by Fischer.', '', '1950', DU,
        [('Olympiad original', 'Subozan', '1950', 'by Pero Poček; about 50 sets'), ('Maurović redesign', '', '1960s', 'made in Zagreb'), ('Siegen set', '', '1970', 'for the 19th Olympiad, sleeker knight'),
         ('House of Staunton reproduction', 'House of Staunton', '2014', ''), ('Chess Bazaar reproduction', 'Chess Bazaar', '2015', '')])])
@@ -40,7 +40,7 @@ mj = K('Mahjong set', 'A set of mahjong tiles with dice and markers.', 'https://
   m=[['Dal Negro Grand Mah Jong set', 'Dal Negro']])
 bg = K('Backgammon set', 'A board with checkers, dice and doubling cube for backgammon.', 'https://www.mastersofgames.com/cat/board/backgammon.htm', a='tables · tavla · nardy',
   t=['Folding case board', 'Inlaid wooden board', 'Leather board', 'Tournament size (44 × 55 cm and up)', 'Doubling cube', 'Precision dice', 'Dice cups'],
-  x=[X('Damascus inlaid board', 'Wooden backgammon board with mother-of-pearl and wood inlay, a speciality of Damascus.', '', '', BG)])
+  x=[X('Damascus inlaid board', 'Inlaid wooden backgammon board, a speciality of Damascus.', '', '', BG)])
 dr = K('Draughts set', 'A board and discs for draughts (checkers).', 'https://www.mastersofgames.com/cat/board/draughts-checkers.htm', a='checkers', t=['8×8 board', '10×10 board', 'Wooden pieces', 'Plastic pieces'])
 dm = K('Domino set', 'A set of domino tiles.', 'https://www.mastersofgames.com/cat/table/dominoes.htm', a='dominoes',
   t=['Double-six (28 tiles)', 'Double-nine (55 tiles)', 'Double-12 (91 tiles)', 'Double-15 (136 tiles)', 'Double-18 (190 tiles)', 'Bone or hardwood', 'Plastic', 'Coloured pips', 'Box'],
@@ -87,9 +87,9 @@ trads = [
   'forms': ['Tendo koma'], 'ctr': ['Tendo'], 'auth': 'boxwood from Mikurajima or Satsuma for top pieces; style (kaki, hori, hori-ume, moriage)', 's': TK},
  {'n': 'Xiangqi set making', 'g': G, 'r': 'China', 'p': 'Southern Song dynasty onward', 'd': 'Engraved disc pieces and lined boards for Chinese chess.', 'tech': 'engraving and inking characters on discs', 'mat': 'wood, horn, bone, ivory, jade, plastic',
   'forms': ['Xiangqi set'], 'auth': 'material of pieces; carved rather than printed characters', 's': XQ},
- {'n': 'Mahjong tile making', 'g': G, 'r': 'China, Hong Kong, Japan, United States', 'p': '1920s–present', 'd': 'Carved and painted mahjong tiles, from 1920s bone-and-bamboo export sets to modern regional sets.', 'tech': 'carving and painting tile faces; dovetailing bone to bamboo', 'mat': 'bone, bamboo, catalin, melamine',
-  'forms': ['1920s bone-and-bamboo export set', 'American set', 'Japanese riichi set', 'Hong Kong set'], 'auth': 'tile count, joker and flower tiles, bone-and-bamboo dovetail', 's': MJ},
- {'n': 'Damascus inlaid game boards', 'g': G, 'r': 'Damascus, Syria', 'p': '', 'd': 'Inlaid wooden boards for backgammon and other tables games.', 'tech': 'marquetry and mother-of-pearl inlay', 'mat': 'wood, mother-of-pearl',
+ {'n': 'Mahjong tile making', 'g': G, 'r': 'China, Hong Kong, Japan, United States', 'p': '1920s–present', 'd': 'Carved and painted mahjong tiles, from 1920s bone-and-bamboo export sets to modern regional sets.', 'tech': 'carving and painting tile faces', 'mat': 'bone, bamboo, catalin, melamine',
+  'forms': ['1920s bone-and-bamboo export set', 'American set', 'Japanese riichi set', 'Hong Kong set'], 'auth': 'tile count, joker and flower tiles, Western indices on export sets', 's': MJ},
+ {'n': 'Damascus inlaid game boards', 'g': G, 'r': 'Damascus, Syria', 'p': '', 'd': 'Inlaid wooden boards for backgammon and other tables games.', 'tech': 'wood inlay', 'mat': 'wood',
   'forms': ['Damascus inlaid board'], 'ctr': ['Damascus'], 's': BG},
 ]
 notes = ("Chess clock and Game clock merged (old models kept in m; Garde and DGT as versions). Chess archetypes: Lewis, Staunton, Régence, St George, Barleycorn, Dubrovnik; Soviet, Selenus and Isle-of-Lewis makers not added (no detailed page). "
