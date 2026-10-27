@@ -70,6 +70,15 @@ SCHEMA = open('SCHEMA.md').read()
 RULES = open('RULES.md').read()
 FINDINGS = open('FINDINGS.md').read()
 META = json.load(open('meta.json'))
+SEGMENTS = json.load(open('SEGMENTS.json'))['domains']
+
+
+def seg_domain(code):
+    return next((d for d, v in SEGMENTS.items() if code in v['cats']), 'general')
+
+
+def seg_vocab(code):
+    return SEGMENTS[seg_domain(code)]['segs']
 
 
 def findings_row(code):
@@ -351,6 +360,13 @@ Hard rules
 - Brands: add a register entry for each brand that is an archetype "mk" (or a core brand of a tier kind). Cite a retrieved
   page when you have one; for a well-known brand whose facts (country, founding year, owner, segment) you know reliably,
   you may record it from your own knowledge with "s":"knowledge" (owner decision). Leave out any fact you are unsure of. Traditions: add where artisan traditions matter for this shelf.
+- Blocked maker/retailer site? Do not drop the item: establish it from an independent page that names it (owner decision).
+  Prefer outside databases and lists over the maker's own site: Wikipedia articles and "List of ..." pages; company
+  registers (Companies House, OpenCorporates, national registers); trademark registers (WIPO Global Brand Database, USPTO,
+  EUIPO/TMview); museum and collection records (V&A, Science Museum, Smithsonian, Cooper Hewitt, Met); trade-association
+  member or award lists; independent test and review sites; standards/certification listings; and other retailers that
+  list the product. Find them by search, never by guessing URLs; a fetched page that names the product and maker attests
+  it. Never work around a block (no proxies, caches, archives or alternate fetchers for the blocked site itself).
 - Be efficient: batch fetches in code (fetch many URLs per call, print only the facts you need). Aim to finish within
   roughly 25 tool rounds. Wikipedia article URLs (https://en.wikipedia.org/wiki/Title) are good sources; web_fetch them
   directly when you know the exact title, or use the wiki tool to confirm titles in bulk.
@@ -448,8 +464,12 @@ def check_shelf(code, dp, s, out, ks_by_id, retrieved, final=False):
         errs.append(f"planned kinds missing from your output: {missing} (keep them, or explain in notes why they are out of scope and resubmit with notes)")
         if (out.get('notes') or '') and all(m.lower() in (out.get('notes') or '').lower() for m in missing): errs.pop()
     brands = []
+    vocab = seg_vocab(code)
     for b in out.get('brands') or []:
         if not isinstance(b, dict) or not b.get('n'): continue
+        if b.get('seg') not in vocab:  # owner: controlled segment vocabulary (SEGMENTS.json)
+            if final: b['seg'] = ''
+            else: errs.append(f"brand {b.get('n')}: seg must be one of {vocab} (got {b.get('seg')!r}); put the specialty in \"kf\"")
         if b.get('s') == 'knowledge': b['s'] = ''; brands.append(b); continue  # owner: well-known brand facts may come from model knowledge
         if not ok(b.get('s')):
             errs.append(f"brand {b.get('n')}: s must be a URL you retrieved (got {b.get('s')!r})")

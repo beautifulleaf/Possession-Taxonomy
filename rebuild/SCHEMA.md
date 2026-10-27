@@ -31,7 +31,7 @@ ARCHETYPE = {"n":"Name","a":"aliases","d":"one sentence: what defines it",
         "y":"year or era","s":"source URL (required)",
         "v":[{"n":"version name or reference","mk":"maker","y":"year","d":"short note"}],
         "dt":"detail axes in words, e.g. 'case 36–41 mm · steel, gold · dial colours'"}
-BRAND = {"n":"Name","c":"Country","f":"founding year","seg":"segment label","d":"one sentence",
+BRAND = {"n":"Name","c":"Country","f":"founding year","seg":"one value from SEGMENTS.json for the category's domain","kf":"known for, 1–3 words","d":"one sentence",
         "lines":["…"],"eras":["Creative director or period, years"],"sig":["signature archetypes"],
         "sc":["scenes"],"rel":["related brands"],"s":"source URL"}
 TRADITION = {"n":"Name","g":"group label (e.g. Woodwork & furniture, Textiles & rugs, Metal & blades, Ceramics & glass, Faith traditions, Food & drink)",

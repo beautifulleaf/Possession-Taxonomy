@@ -67,6 +67,8 @@ def shelf_prompt(c, job):
                 f"Scratch files only in work/{c}/agent/. Never run git; never use curl, wget or python HTTP fetching (WebFetch/WebSearch and the wd helper only). Never invent URLs or facts.\n"
                 f"RESUME RULE: if work/{c}/shelves/{job}.json exists and the check prints OK, stop and report; if work/{c}/agent/{job}.notes.md "
                 f"exists, continue from it (keep it updated with sources found and decisions as you go).")
+        task += (f"\nBRAND SEGMENTS (owner decision): every brand \"seg\" must be exactly one of: {' | '.join(run.seg_vocab(c))}. "
+                 "Put what the brand is known for in a short \"kf\" tag (e.g. \"denim\", \"tailoring\", \"cast iron\").")
         if not web:
             task += ("\nThis is a RESTRAINT-ONLY shelf: keep, merge, rename or drop the old kinds as planned, attribute variants into \"t\", trim "
                      f"models to ≤{run.MAXM[dp['mode']]} market-covering brands plus test winners, plain one-sentence definitions, keep each kind's old \"s\". "

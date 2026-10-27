@@ -1,0 +1,118 @@
+import json, os
+W='/home/user/Possession-Taxonomy/rebuild/work/C1/'
+SW='https://en.wikipedia.org/wiki/'
+MIT_PDF='https://images.toolsid.com/mitutoyo/items/pdf/2129-aos-calipers-product-information.pdf'
+STAR_PDF='https://assets.testequity.com/te1/Documents/pdf/starrett/Starrett_C33H-12-4R-W-SLC_Combination-Squares_Brochure_07_2025.pdf'
+kinds=[
+{"n":"Caliper","a":"calliper · vernier · slide caliper","d":"Sliding gauge measuring outside, inside and depth dimensions.",
+ "t":["vernier","dial","digital (capacitive or inductive encoder)","carbide-tipped jaws","with data output"],
+ "s":"https://mqs.co.uk/collections/mitutoyo?page=1",
+ "x":[
+  {"n":"Vernier caliper","a":"vernier","d":"Sliding caliper read by a vernier scale, credited to Pierre Vernier as an improvement on Nunes's nonius.","mk":"","y":"17th century","s":SW+"Calipers","v":[],"dt":"length 150–600 mm · steel · metric, imperial or both"},
+  {"n":"Dial caliper","a":"","d":"Caliper whose rack-and-pinion drives a pointer on a round dial, so no vernier needs reading.","mk":"","y":"","s":SW+"Calipers","v":[],"dt":"dial 0.02 mm or 0.001 in · steel"},
+  {"n":"Mitutoyo Digimatic caliper","a":"ABSOLUTE Digimatic · AOS caliper · Series 500","d":"Mitutoyo's digital caliper line, from the first digital caliper (1983) to the ABSOLUTE encoder that needs no re-zeroing.","mk":"Mitutoyo","y":"1983","s":MIT_PDF,
+   "v":[{"n":"first digital caliper","mk":"Mitutoyo","y":"1983","d":"original digital model"},
+        {"n":"Digimatic output port","mk":"Mitutoyo","y":"1987","d":"Digimatic-format data output added"},
+        {"n":"solar-powered model","mk":"Mitutoyo","y":"1988","d":"never needs a battery"},
+        {"n":"ABSOLUTE Digimatic caliper","mk":"Mitutoyo","y":"1993","d":"electrostatic capacitance ABSOLUTE encoder"},
+        {"n":"ABSOLUTE coolant-proof caliper","mk":"Mitutoyo","y":"2000","d":"IP65; induction-type IP67 version 2003"},
+        {"n":"ABSOLUTE AOS Digimatic (CD-AX/APX)","mk":"Mitutoyo","y":"2013","d":"AOS induction encoder in a standard caliper; 500-196-30, 500-151-30 (data port), 500-197-30 (no port)"}],
+   "dt":"150–300 mm / 6–12 in · steel or carbide-tipped jaws · with or without SPC output"}],
+ "m":[["Mitutoyo ABSOLUTE AOS caliper","Mitutoyo"],["Mitutoyo ABSOLUTE Digimatic caliper","Mitutoyo"]],
+ "r":[["Digimatic","Mitutoyo"]]},
+{"n":"Micrometer","a":"micrometer screw gauge · palmer · mic","d":"Screw gauge for precise outside, inside or depth measurement.",
+ "t":["outside","inside","depth","digital","digit counter (mechanical)","blade","bench","ball and tube anvils"],
+ "s":"https://mqs.co.uk/collections/mitutoyo?page=1",
+ "x":[
+  {"n":"Palmer micrometer caliper","a":"palmer","d":"First documented handheld micrometer-screw caliper, by Jean Laurent Palmer of Paris; the French still call micrometers palmers.","mk":"","y":"1848","s":SW+"Micrometer_(device)","v":[],"dt":"0–25 mm frame · screw thimble"},
+  {"n":"Brown & Sharpe micrometer caliper","a":"","d":"The micrometer caliper that Brown & Sharpe brought to the mass market in English-speaking countries.","mk":"Brown & Sharpe","y":"1867","s":SW+"Micrometer_(device)","v":[],"dt":"0–1 in · steel frame"},
+  {"n":"Starrett micrometer","a":"","d":"Laroy Starrett's patented improved micrometer, a staple of the Starrett line.","mk":"Starrett","y":"1890","s":SW+"L._S._Starrett_Company","v":[],"dt":"inch and metric ranges"},
+  {"n":"Moore & Wright micrometer","a":"","d":"Sheffield micrometer first made in-house in 1930, following the Swiss Aureole models the firm had sold as 'Avia'.","mk":"Moore & Wright","y":"1930","s":"https://www.gracesguide.co.uk/Moore_and_Wright","v":[],"dt":"0–25 mm / 0–1 in"},
+  {"n":"Mitutoyo QuantuMike","a":"Series 293 coolant-proof micrometer","d":"Digital micrometer with a 2 mm-per-turn spindle (four times standard) and IP65 sealing.","mk":"Mitutoyo","y":"","s":"https://www.penntoolco.com/mitutoyo-quantumike-series-293-coolant-proof-micrometers/",
+   "v":[{"n":"293-140-30","mk":"Mitutoyo","y":"","d":"0–25 mm, with data output"},
+        {"n":"293-145-30","mk":"Mitutoyo","y":"","d":"0–25 mm, without data output"},
+        {"n":"293-180-30","mk":"Mitutoyo","y":"","d":"0–1 in / 0–25 mm, with SPC"}],
+   "dt":"ranges 0–100 mm / 0–4 in in 25 mm steps · 0.001 mm resolution"}],
+ "r":[["Digimatic","Mitutoyo"]]},
+{"n":"Square","a":"try square · combination square · engineer's square","d":"Right-angle tool for marking and checking squareness, including combination squares.",
+ "t":["try square (wooden stock)","engineer's square (steel stock)","mitre square","combination square","combination set (centre head, protractor head)"],
+ "s":"https://www.axminstertools.com/activities/metal-working/marking-measuring",
+ "x":[
+  {"n":"Combination square","a":"combo square · combination set","d":"Sliding steel rule with a locking square head for 90° and 45°, often with level and scriber; invented by Laroy Starrett.","mk":"Starrett","y":"1877 (patented 1879)","s":SW+"Combination_square",
+   "v":[{"n":"11H","mk":"Starrett","y":"","d":"cast-iron head, black wrinkle finish"},
+        {"n":"33H","mk":"Starrett","y":"","d":"forged, hardened steel head, smooth black enamel"},
+        {"n":"Combination set","mk":"Starrett","y":"","d":"square head plus centre head and reversible or non-reversible protractor"}],
+   "dt":"blade 4–24 in / 150–600 mm · regular or satin chrome blade · graduations"},
+  {"n":"Try square","a":"","d":"L-shaped woodworking square, steel blade riveted into a hardwood stock with a brass wear strip.","mk":"","y":"factory-made from the 18th century","s":SW+"Try_square","v":[],"dt":"3–24 in · ebony or rosewood stock · some 45° mitre stocks"},
+  {"n":"Engineer's square","a":"machinist's square","d":"All-steel square made to higher accuracy than a try square, mainly for metalwork.","mk":"","y":"","s":SW+"Try_square","v":[],"dt":"steel stock and blade · size"}],
+ "m":[["combination square",""],["try square",""]]},
+{"n":"Steel rule","a":"engineer's rule · steel ruler","d":"Rigid steel or stainless ruler with engraved or etched graduations, used for measuring and as a straightedge.",
+ "t":["engraved or photo-engraved graduations","flexible","satin chrome","metric, imperial or both"],
+ "s":SW+"Ruler",
+ "r":[["steel rules","Starrett"],["stainless rules and squares","Shinwa"]]},
+{"n":"Dial indicator","a":"dial gauge · clock gauge · DTI","d":"Gauge with a plunger or lever and a dial showing small displacement.",
+ "t":["plunger (drop) indicator","dial test indicator (lever)","digital indicator"],
+ "s":"https://mqs.co.uk/collections/mitutoyo?page=1",
+ "x":[
+  {"n":"Starrett lever test indicators","a":"Starrett No. 64 · No. 564","d":"Early Starrett test indicators: the single-lever No. 64 and the lever-system No. 564.","mk":"Starrett","y":"1934 (No. 564 patent)","s":SW+"Indicator_(distance_amplifying_instrument)",
+   "v":[{"n":"No. 64","mk":"Starrett","y":"","d":"single-lever test indicator"},{"n":"No. 564","mk":"Starrett","y":"1934","d":"lever-system indicator, Sisson patent"}],"dt":"range · graduation"},
+  {"n":"Lufkin No. 199A","a":"","d":"Lever-system test indicator by Lufkin, patented by Witchger.","mk":"Lufkin","y":"1941","s":SW+"Indicator_(distance_amplifying_instrument)","v":[],"dt":""},
+  {"n":"Interapid dial test indicator","a":"Interapid Swiss test indicator · 312B","d":"Swiss jewelled-mechanism lever indicator with inclined dial and a tip that swivels 210°, built to cancel cosine error at 12°.","mk":"Interapid","y":"","s":"https://www.penntoolco.com/interapid-horizontal-swiss-test-indicators",
+   "v":[{"n":"horizontal","mk":"Interapid","y":"","d":"210° swivel, two dovetails"},{"n":"vertical","mk":"Interapid","y":"","d":"190° swivel, one dovetail"}],"dt":"inch or metric · graduation 0.0001–0.0005 in · carbide contact point"},
+  {"n":"Mitutoyo Digimatic Indicator","a":"ID-S","d":"Mitutoyo's digital plunger indicator using a linear encoder, with data output.","mk":"Mitutoyo","y":"","s":SW+"Indicator_(distance_amplifying_instrument)",
+   "v":[{"n":"ID-S","mk":"Mitutoyo","y":"","d":"compact digital indicator"}],"dt":"range · resolution"}],
+ "m":[["Mitutoyo Series 513 lever-type indicator","Mitutoyo"]],
+ "r":[["Digimatic","Mitutoyo"]]},
+{"n":"Height gauge","a":"height gage","d":"Gauge on a heavy base for measuring or scribing heights on a surface plate.",
+ "t":["vernier","dial","digital","motorised"],
+ "s":"https://www.penntoolco.com/mitutoyo-abs-digimatic-height-gages-series-570",
+ "x":[
+  {"n":"TESA Micro-Hite","a":"µ-HITE · TESA-HITE","d":"Swiss high-end electronic height gauge with cast-iron column and patented QUICKCENTER culmination-point capture.","mk":"TESA","y":"","s":"https://www.crossco.com/?p=9798",
+   "v":[{"n":"Micro-Hite 350 / 600 / 900","mk":"TESA","y":"","d":"ranges 365, 615 and 920 mm"},{"n":"Micro-Hite Plus M","mk":"TESA","y":"","d":"motorised frame"},{"n":"µ-HITE measuring station","mk":"TESA","y":"","d":"from the old data"}],"dt":"range 350–900 mm · power panel"},
+  {"n":"Mitutoyo ABS Digimatic height gage","a":"Series 570","d":"Digital height gauge with ABSOLUTE encoder, hand-wheel slider feed and Digimatic data output.","mk":"Mitutoyo","y":"","s":"https://www.penntoolco.com/mitutoyo-abs-digimatic-height-gages-series-570",
+   "v":[{"n":"570-402","mk":"Mitutoyo","y":"","d":"0–300 mm"},{"n":"570-404","mk":"Mitutoyo","y":"","d":"0–600 mm"},{"n":"570-412","mk":"Mitutoyo","y":"","d":"0–12 in"},{"n":"570-414","mk":"Mitutoyo","y":"","d":"0–24 in"}],"dt":"range 300–600 mm · 0.01 mm"}],
+ "r":[["Digimatic","Mitutoyo"]]},
+{"n":"Marking gauge","a":"kebiki · scratch gauge · cutting gauge","d":"Tool that scribes a line parallel to an edge.",
+ "t":["pin","cutting (knife)","wheel","mortise (two pins)","panel (long beam)"],
+ "s":"https://hardwickandsons.com/products/japanese-single-cutting-marking-gauge-ippon-zao-suji-kebiki",
+ "x":[
+  {"n":"Kebiki","a":"Japanese marking gauge","d":"Japanese gauge with a small knife blade on a rod (sao) running through a hardwood guide block.","mk":"","y":"","s":"https://www.aisf.or.jp/~jaanus/deta/k/kebiki.htm",
+   "v":[{"n":"suji kebiki","mk":"","y":"","d":"line gauge; ippon zao (one rod) and nihon zao (two rods)"},{"n":"kama kebiki","mk":"","y":"","d":"sickle-arm gauge, e.g. nicho kama kebiki"},{"n":"wari kebiki","mk":"","y":"","d":"splitting gauge"}],
+   "dt":"rosewood, ebony, boxwood, cherry or oak · blade 6–12 mm"},
+  {"n":"Veritas wheel marking gauge","a":"","d":"Wheel gauge with a hardened, single-bevel steel cutter that slices fibres cleanly and retracts into the face.","mk":"Veritas","y":"","s":"https://www.woodcentral.com/articles/articles_734.php",
+   "v":[{"n":"Standard","mk":"Veritas","y":"","d":"no adjuster or scale"},{"n":"Micro-Adjust","mk":"Veritas","y":"","d":"collet lock, knurled fine-adjust nut, graduated stem"}],"dt":"plain or graduated rod · brass fence"},
+  {"n":"Tite-Mark","a":"Titemark","d":"Micro-adjustable wheel gauge with round brass fence and knurled adjusting barrel; takes mortise cutters.","mk":"Glen-Drake Toolworks","y":"","s":"https://toolsforworkingwood.com/store/item/MS-TITEMARK.XX/Titemark",
+   "v":[{"n":"Tite-Mark 7 in","mk":"Glen-Drake Toolworks","y":"","d":"standard stem"},{"n":"Tite-Mark Long 9 in","mk":"Glen-Drake Toolworks","y":"","d":"long stem"},{"n":"Tite-Mark Deluxe","mk":"Glen-Drake Toolworks","y":"","d":"with scoring and mortise blades"}],"dt":"stem length · cutter type"}],
+ "m":[["ippon zao suji kebiki",""],["nicho kama kebiki",""],["nihon zao suji kebiki",""]]},
+{"n":"Marking knife","a":"striking knife · shirabiki","d":"Knife used to cut a fine layout line for a saw, chisel or plane, mainly across the grain.",
+ "t":["single-bevel skewed (left or right)","single-bevel spear point","double bevel","combination knife and awl"],
+ "s":SW+"Marking_knife",
+ "x":[
+  {"n":"Shirabiki","a":"kiridashi-style marking knife","d":"Japanese one-piece steel marking knife with a skewed single-bevel blade; a double-bladed version marks parallel lines.","mk":"","y":"","s":SW+"Marking_knife","v":[],"dt":"left or right bevel · single or double blade"},
+  {"n":"Blue Spruce Classic Marking Knife","a":"","d":"Spear-point marking knife with a .032 in blade held in a tool-less collet.","mk":"Blue Spruce Toolworks","y":"","s":"https://bluesprucetoolworks.com/products/classic-marking-knife-1",
+   "v":[{"n":"Curly maple","mk":"Blue Spruce Toolworks","y":"","d":"resin-infused curly maple handle"},{"n":"Bolivian rosewood","mk":"Blue Spruce Toolworks","y":"","d":"rosewood handle"}],"dt":"spear point or left/right single-bevel blades · handle wood"}]},
+{"n":"Angle finder","a":"sliding bevel · bevel gauge · false square · protractor","d":"Dial, bevel or digital gauge that measures and transfers angles.",
+ "t":["sliding T bevel","protractor","digital angle gauge","protractor head (combination set)"],
+ "s":"https://www.toolstation.com/hand-tools/levels-measuring-detection/c671",
+ "x":[
+  {"n":"Sliding T bevel","a":"bevel gauge · false square","d":"Adjustable gauge locked at any angle to set and transfer it, used in carpentry and metalwork.","mk":"","y":"","s":SW+"Sliding_T_bevel","v":[],"dt":"blade length · wood or metal stock · lever or wing-nut lock"}]}
+]
+brands=[
+ {"n":"Starrett","c":"United States","f":"1880","seg":"Precision measuring and saw blades","d":"Athol, Massachusetts maker founded by Laroy S. Starrett, inventor of the combination square.","lines":["combination squares","micrometers","dial indicators","steel rules"],"sig":["Combination square","Starrett micrometer"],"rel":["Brown & Sharpe","Mitutoyo"],"s":SW+"L._S._Starrett_Company"},
+ {"n":"Mitutoyo","c":"Japan","f":"1934","seg":"Precision measuring","d":"Kawasaki-based metrology maker that began with micrometers and added digital gauging from the 1970s.","lines":["Digimatic","ABSOLUTE","QuantuMike"],"sig":["Mitutoyo Digimatic caliper","Mitutoyo QuantuMike"],"rel":["Starrett","TESA"],"s":SW+"Mitutoyo"},
+ {"n":"Brown & Sharpe","c":"United States","f":"1833","seg":"Precision measuring","d":"Providence, Rhode Island firm that mass-marketed the micrometer caliper; now a Hexagon brand made by TESA.","sig":["Brown & Sharpe micrometer caliper"],"rel":["TESA","Starrett"],"s":SW+"Brown_%26_Sharpe"},
+ {"n":"TESA","c":"Switzerland","f":"1941","seg":"Precision measuring","d":"Renens metrology maker, Brown & Sharpe group from 1967, Hexagon 2001–2024, GreatStar since 2024; absorbed Etalon and others.","lines":["height gauges","micrometers","dial test indicators"],"sig":["TESA Micro-Hite"],"rel":["Brown & Sharpe","Interapid"],"s":"https://tesatechnology.com/en/company"},
+ {"n":"Moore & Wright","c":"United Kingdom","f":"1906","seg":"Precision measuring","d":"Sheffield toolmaker founded by Frank Moore; made micrometers from 1930; sold to Bower Metrology UK in 2000.","sig":["Moore & Wright micrometer"],"rel":["Starrett"],"s":"https://www.gracesguide.co.uk/Moore_and_Wright"},
+ {"n":"Interapid","c":"Switzerland","seg":"Test indicators","d":"Swiss maker of jewelled lever-type dial test indicators.","sig":["Interapid dial test indicator"],"rel":["TESA"],"s":"knowledge"},
+ {"n":"Lufkin","c":"United States","seg":"Measuring tapes and rules","d":"American maker of rules, tapes and test indicators.","sig":["Lufkin No. 199A"],"s":"knowledge"},
+ {"n":"Shinwa","c":"Japan","f":"1971","seg":"Rules and squares","d":"Sanjo maker formed by merging three sashigane makers; stainless rules, squares and sashigane.","lines":["sashigane","stainless rules"],"s":"https://www.japanesetools.com.au/pages/about-shinwa-tools"},
+ {"n":"Veritas","c":"Canada","seg":"Premium hand tools","d":"Manufacturing arm of Lee Valley Tools, Ottawa, making planes, gauges and sharpening tools.","sig":["Veritas wheel marking gauge"],"rel":["Lie-Nielsen Toolworks"],"s":SW+"Lee_Valley_Tools"},
+ {"n":"Glen-Drake Toolworks","c":"United States","seg":"Premium hand tools","d":"Californian maker of the Tite-Mark marking gauge.","sig":["Tite-Mark"],"rel":["Veritas"],"s":"https://toolsforworkingwood.com/store/item/MS-TITEMARK.XX/Titemark"},
+ {"n":"Blue Spruce Toolworks","c":"United States","seg":"Premium hand tools","d":"Small maker of marking knives, chisels and layout tools.","sig":["Blue Spruce Classic Marking Knife"],"s":"knowledge"}
+]
+trads=[]
+notes=("Kept all 7 old kinds; added Steel rule and Marking knife (new, sourced). Japanese kebiki made an archetype of Marking gauge (old kebiki models kept in m and as versions). "
+ "Left out: Etalon as a separate archetype (only TESA's acquisition history found), Starrett 'No. 11' naming (brochure shows 11H/33H only), Mitutoyo 500-196 launch year beyond the 2013 AOS series date, Interapid 312B model numbers (seen only in search snippets), digital angle gauge makers (no page retrieved), Shinwa history page (site down). "
+ "Square kept wooden/engineer's/mitre as types plus archetypes. CMM and hardness tester were dropped at plan stage.")
+out={"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes}
+tmp=W+'shelves/05_00.json.tmp'; json.dump(out,open(tmp,'w'),ensure_ascii=False,indent=1); os.replace(tmp,W+'shelves/05_00.json')
