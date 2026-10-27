@@ -15,7 +15,7 @@ kinds=[
   "x":[
    {"n":"Western Desert dot painting","a":"Papunya painting · Western Desert Art Movement","d":"Acrylic painting of ancestral stories in fields of dots and roundels, begun at Papunya in 1971.","mk":"Papunya Tula","y":"1971 onward","s":PT,
     "v":[v("Early Papunya boards","Papunya Tula","1971–73","Bardon years; masonite, car bonnets and other hard surfaces"),
-         v("Gulgardi","Kaapa Tjampitjinpa","1971","won a regional award"),
+         v("Gulgardi","Kaapa Tjampitjinpa","","won a regional award"),
          v("Warlugulong","Clifford Possum Tjapaltjarri","1977","acrylic on canvas, 202 × 337.5 cm; NGA bought it for A$2.4m in 2007"),
          v("Earth's Creation","Emily Kame Kngwarreye","","Utopia; sold for $1.056m in 2007")],
     "dt":"early board vs canvas · size · art-centre catalogue number and certificate · provenance"},
@@ -67,8 +67,8 @@ kinds=[
          v("Centre d'Art painters","Rigaud Benoit",""),v("Centre d'Art painters","Wilson Bigaud",""),v("Centre d'Art painters","Castera Bazile",""),
          v("Saint Soleil","Louisiane Saint Fleurant","1973 onward","Soisson-la-Montagne group")],
     "dt":"oil or enamel on board or canvas · Cap-Haïtien and Jacmel schools"},
-   {"n":"Hlebine painting","a":"Hlebine school · Croatian naïve","d":"Croatian peasant painting, often oil on glass, founded at Hlebine in 1930.","mk":"Ivan Generalić","y":"1930 onward","s":NA,
-    "v":[v("Works","Ivan Generalić","","first master"),v("Works","Ivan Lacković-Croata",""),v("Works","Mijo Kovačić",""),v("Works","Ivan Večenaj","")],"dt":"oil on glass reverse-painted · size"}
+   {"n":"Hlebine painting","a":"Hlebine school · Croatian naïve","d":"Croatian peasant painting from the village of Hlebine, founded as a school in 1930.","mk":"Ivan Generalić","y":"1930 onward","s":NA,
+    "v":[v("Works","Ivan Generalić","","first master"),v("Works","Ivan Lacković-Croata",""),v("Works","Mijo Kovačić",""),v("Works","Ivan Večenaj","")],"dt":"oil on canvas or glass · size"}
   ]},
  {"n":"Outsider art","a":"art brut · raw art · self-taught art · visionary art",
   "d":"Art by self-taught makers outside the art world, often psychiatric patients or recluses, in any medium.",
@@ -116,7 +116,7 @@ brands=[
 trads=[
  {"n":"Western Desert painting","g":"Painting","r":"Central and Western Desert, Australia","p":"1971 onward","d":"Acrylic painting of Dreaming stories begun at Papunya.","tech":"dotting, roundels, ground designs","mat":"acrylic on canvas or board","forms":["Western Desert dot painting"],"ctr":["Papunya Tula","Yuendumu","Utopia","Balgo","Kintore"],"auth":"Buy through art centres or Indigenous Art Code signatories; works over A$250 should carry a certificate on art-centre or gallery letterhead matching the work; a photo of the artist is not a certificate.","s":IAC},
  {"n":"Arnhem Land bark painting","g":"Painting","r":"Arnhem Land and Top End, Australia","p":"ceremonial origin; market form from 1912","d":"Ochre painting on stringybark with clan rarrk designs.","tech":"rarrk cross-hatching, x-ray style","mat":"stringybark, ochres, pipeclay","forms":["Arnhem Land bark painting"],"ctr":["Yirrkala (Buku-Larrnggay Mulka)","Gunbalanya (Injalak Arts)","Maningrida","Ramingining"],"auth":"Art-centre documentation and catalogue number.","s":BK},
- {"n":"Mithila painting","g":"Painting","r":"Mithila, Bihar (India) and Nepal","p":"traditional; on paper from the 1960s","d":"Women's wall and floor painting moved onto paper and canvas.","tech":"Bharni, Kachni, Tantrik, Godna, Kohbar styles","mat":"natural pigments, paper, cloth","forms":["Madhubani painting"],"ctr":["Madhubani","Jitwarpur","Ranti"],"auth":"GI-registered; natural pigments and named artist.","s":MB},
+ {"n":"Mithila painting","g":"Painting","r":"Mithila, Bihar (India) and Nepal","p":"traditional; on paper from the 1960s","d":"Women's wall and floor painting moved onto paper and canvas.","tech":"Bharni, Kachni, Tantrik, Godna, Kohbar styles","mat":"natural pigments, paper, cloth","forms":["Madhubani painting"],"ctr":["Madhubani district","Sita Devi","Ganga Devi"],"auth":"GI-registered; natural pigments and named artist.","s":MB},
  {"n":"Pattachitra","g":"Painting","r":"Odisha and West Bengal, India","p":"traditional","d":"Cloth and palm-leaf painting for Jagannath worship and sung scrolls.","tech":"gum-chalk primed cloth, Mota Kala and Saru Kala lines","mat":"cotton cloth, palm leaf, mineral pigments","forms":["Pattachitra"],"ctr":["Raghurajpur","Puri","Naya (Medinipur)"],"auth":"GI registered 2008 (Odisha) and 2018 (Bengal).","s":PC},
  {"n":"Warli painting","g":"Painting","r":"Northern Sahyadri, Maharashtra","p":"traditional; on paper from the 1970s","d":"White geometric figures on ochre or mud walls.","tech":"rice-paste with chewed bamboo stick","mat":"rice paste, mud, ochre, paper","forms":["Warli painting"],"ctr":["Dahanu","Talasari","Jawhar","Jivya Soma Mashe"],"auth":"GI registered.","s":WR},
  {"n":"Kalighat painting","g":"Painting","r":"Kolkata, West Bengal","p":"c. 1800–1930","d":"Temple-market watercolours by Patua painters.","tech":"bold outline, wash, tin lustre","mat":"paper, natural pigments, colloidal tin","forms":["Kalighat painting"],"ctr":["Kalighat temple","V&A collection (645 works)"],"auth":"Antique paper and pigments; later revivals common.","s":KG},
