@@ -1,0 +1,733 @@
+{
+ "kinds": [
+  {
+   "n": "Apple",
+   "a": "",
+   "d": "Fresh dessert, cooking or dual-purpose apple, organised by cultivar with its origin, club brand or breeder code.",
+   "t": [
+    "dessert",
+    "cooking",
+    "dual-purpose",
+    "russet"
+   ],
+   "s": "https://plu.pro/commodity/apples",
+   "x": [
+    {
+     "n": "Red Delicious",
+     "a": "",
+     "d": "Chance seedling found by Jesse Hiatt at Peru, Iowa; once the top US apple, with over 300 named strains.",
+     "mk": "",
+     "y": "1872",
+     "s": "https://en.wikipedia.org/wiki/Red_Delicious",
+     "v": [
+      {
+       "n": "Hawkeye (Hiatt's original)",
+       "mk": "",
+       "y": "1872",
+       "d": "Name Hiatt gave it; Stark Nurseries renamed it Stark Delicious, then Red Delicious in 1914"
+      }
+     ],
+     "dt": "dark red, elongated shape · many sports"
+    },
+    {
+     "n": "Golden Delicious",
+     "a": "",
+     "d": "Yellow chance seedling from Clay County, West Virginia (Mullins' Yellow Seedling); parent of Gala, Jonagold, Cripps Pink and Elstar.",
+     "mk": "",
+     "y": "1905",
+     "s": "https://en.wikipedia.org/wiki/Golden_Delicious",
+     "v": [
+      {
+       "n": "Mullins' Yellow Seedling",
+       "mk": "",
+       "y": "1905",
+       "d": "Local name before Stark Brothers bought the rights"
+      }
+     ],
+     "dt": "yellow-green skin · sweet · bruises easily"
+    },
+    {
+     "n": "Granny Smith",
+     "a": "",
+     "d": "Green apple from a chance seedling propagated by Maria Ann Smith at Eastwood, Sydney; a long-keeping export apple.",
+     "mk": "",
+     "y": "1868",
+     "s": "https://en.wikipedia.org/wiki/Granny_Smith",
+     "v": [
+      {
+       "n": "Granny Smith's Seedling",
+       "mk": "",
+       "y": "1891",
+       "d": "Name when it won a cooking-apple prize"
+      }
+     ],
+     "dt": "green skin · tart · long storage"
+    },
+    {
+     "n": "McIntosh",
+     "a": "",
+     "d": "Canada's national apple, a chance seedling found by John McIntosh at Dundela, Ontario; parent of Macoun, Cortland, Spartan and Empire.",
+     "mk": "",
+     "y": "1811",
+     "s": "https://en.wikipedia.org/wiki/McIntosh_(apple)",
+     "v": [
+      {
+       "n": "Macoun",
+       "mk": "",
+       "y": "",
+       "d": "McIntosh offspring"
+      },
+      {
+       "n": "Cortland",
+       "mk": "",
+       "y": "",
+       "d": "McIntosh offspring"
+      },
+      {
+       "n": "Spartan",
+       "mk": "",
+       "y": "",
+       "d": "McIntosh offspring"
+      },
+      {
+       "n": "Empire",
+       "mk": "",
+       "y": "",
+       "d": "McIntosh x Red Delicious"
+      }
+     ],
+     "dt": "red-green skin · soft white flesh"
+    },
+    {
+     "n": "Cox's Orange Pippin",
+     "a": "Cox · Cox Orange Pippin",
+     "d": "English dessert apple raised by Richard Cox at Colnbrook, Buckinghamshire; the benchmark for flavour and parent of Elstar.",
+     "mk": "",
+     "y": "1830",
+     "s": "https://en.wikipedia.org/wiki/Cox_Orange_Pippin",
+     "v": [
+      {
+       "n": "Cherry Cox",
+       "mk": "",
+       "y": "",
+       "d": "sport"
+      },
+      {
+       "n": "Crimson Cox",
+       "mk": "",
+       "y": "",
+       "d": "sport"
+      },
+      {
+       "n": "King Cox",
+       "mk": "",
+       "y": "",
+       "d": "sport"
+      },
+      {
+       "n": "Queen Cox",
+       "mk": "",
+       "y": "",
+       "d": "sport"
+      }
+     ],
+     "dt": "orange-red flush · cherry and aniseed notes"
+    },
+    {
+     "n": "Fuji",
+     "a": "",
+     "d": "Red Delicious x Ralls Janet cross bred at the Tohoku Research Station, Fujisaki, Aomori; named in 1962, now a world staple.",
+     "mk": "",
+     "y": "1939",
+     "s": "https://en.wikipedia.org/wiki/Fuji_(apple)",
+     "v": [
+      {
+       "n": "Fuji from Aomori",
+       "mk": "",
+       "y": "",
+       "d": "Japan's main apple region, about 500,000 of Japan's roughly 900,000 annual tonnes"
+      }
+     ],
+     "dt": "sweet, dense, keeps up to a year in cold store"
+    },
+    {
+     "n": "Gala",
+     "a": "",
+     "d": "New Zealand apple from Golden Delicious x Kidd's Orange Red, raised by J. H. Kidd; overtook Red Delicious in US output in 2018.",
+     "mk": "",
+     "y": "1939",
+     "s": "https://en.wikipedia.org/wiki/Gala_(apple)",
+     "v": [
+      {
+       "n": "Royal Gala",
+       "mk": "",
+       "y": "1977",
+       "d": "Redder sport, US plant patent 4121"
+      },
+      {
+       "n": "Galaxy",
+       "mk": "",
+       "y": "1989",
+       "d": "Gala sport"
+      },
+      {
+       "n": "Scarlet Gala",
+       "mk": "",
+       "y": "1988",
+       "d": "Gala sport"
+      }
+     ],
+     "dt": "orange-striped · sweet, mild"
+    },
+    {
+     "n": "Braeburn",
+     "a": "",
+     "d": "Chance seedling found by O. Moran near Motueka, Nelson, New Zealand; sweet-tart and a parent of Jazz, Kanzi and Envy.",
+     "mk": "",
+     "y": "1952",
+     "s": "https://en.wikipedia.org/wiki/Braeburn",
+     "v": [],
+     "dt": "red over yellow · stores well · internal browning in long storage"
+    },
+    {
+     "n": "Honeycrisp",
+     "a": "",
+     "d": "University of Minnesota variety released in 1991; very crisp and juicy, and the parent of much of the newer breeding.",
+     "mk": "University of Minnesota",
+     "y": "1960",
+     "s": "https://en.wikipedia.org/wiki/Honeycrisp",
+     "v": [
+      {
+       "n": "MN1711",
+       "mk": "University of Minnesota",
+       "y": "1974",
+       "d": "Breeder code; patent expired 2008; plant-variety record for the C3 plants register"
+      }
+     ],
+     "dt": "large cells · bruises easily · bitter pit"
+    },
+    {
+     "n": "Cripps Pink",
+     "a": "Pink Lady",
+     "d": "Golden Delicious x Lady Williams cross by John Cripps in Western Australia, sold under the Pink Lady trade mark.",
+     "mk": "Pink Lady",
+     "y": "1973",
+     "s": "https://en.wikipedia.org/wiki/Cripps_Pink",
+     "v": [
+      {
+       "n": "Cripps Pink (Pink Lady)",
+       "mk": "Pink Lady",
+       "y": "1973",
+       "d": "Base cultivar; owned and licensed by the WA Department of Primary Industries and Regional Development"
+      },
+      {
+       "n": "Cripps Red (Sundowner)",
+       "mk": "",
+       "y": "",
+       "d": "Redder Cripps cultivar sold as Sundowner"
+      }
+     ],
+     "dt": "PL-prefixed selection codes e.g. PLMAS98 (Maslin)"
+    },
+    {
+     "n": "Jazz",
+     "a": "",
+     "d": "Braeburn x Royal Gala cross from Hawke's Bay, New Zealand, launched commercially in 2004.",
+     "mk": "Jazz",
+     "y": "1985",
+     "s": "https://en.wikipedia.org/wiki/Jazz_(apple)",
+     "v": [
+      {
+       "n": "Scifresh (Jazz)",
+       "mk": "Jazz",
+       "y": "2004",
+       "d": "Cultivar name behind the Jazz trade mark"
+      }
+     ],
+     "dt": "hard, crisp, juicy"
+    },
+    {
+     "n": "Envy",
+     "a": "",
+     "d": "Braeburn x Royal Gala variety from New Zealand, very sweet and slow to brown.",
+     "mk": "Envy",
+     "y": "2009",
+     "s": "https://en.wikipedia.org/wiki/Envy_(apple)",
+     "v": [
+      {
+       "n": "Scilate (Envy)",
+       "mk": "Envy",
+       "y": "2009",
+       "d": "Cultivar name; US plant patent PP20477"
+      }
+     ],
+     "dt": "red with yellow specks · thick skin"
+    },
+    {
+     "n": "Cosmic Crisp",
+     "a": "",
+     "d": "Honeycrisp x Enterprise apple bred by Washington State University and first sold in December 2019.",
+     "mk": "Cosmic Crisp",
+     "y": "2019",
+     "s": "https://en.wikipedia.org/wiki/Cosmic_Crisp",
+     "v": [
+      {
+       "n": "WA 38 (Cosmic Crisp)",
+       "mk": "Cosmic Crisp",
+       "y": "1997",
+       "d": "Breeder code; WSU patent, growing limited to Washington until March 2027"
+      }
+     ],
+     "dt": "wine-red skin with pale lenticels"
+    },
+    {
+     "n": "Bramley's Seedling",
+     "a": "Bramley",
+     "d": "English cooking apple from a seedling planted in Southwell, Nottinghamshire; a triploid with RHS Award of Garden Merit.",
+     "mk": "",
+     "y": "1809",
+     "s": "https://en.wikipedia.org/wiki/Bramley_apple",
+     "v": [
+      {
+       "n": "Armagh Bramley Apples PGI",
+       "mk": "",
+       "y": "",
+       "d": "County Armagh, Northern Ireland; EU Protected Geographical Indication, tarter than English fruit"
+      }
+     ],
+     "dt": "large, green, sharp · cooking"
+    },
+    {
+     "n": "Belle de Boskoop",
+     "a": "Boskoop · Goudrenet",
+     "d": "Dutch chance seedling from Boskoop, tart and firm, holding shape when cooked; red, yellow and green types.",
+     "mk": "",
+     "y": "1856",
+     "s": "https://en.wikipedia.org/wiki/Belle_de_Boskoop",
+     "v": [
+      {
+       "n": "Boskoop (Belle de Boskoop)",
+       "mk": "",
+       "y": "1856",
+       "d": "Old-data entry"
+      }
+     ]
+    },
+    {
+     "n": "Annurca",
+     "a": "Melannurca · Mela Annurca",
+     "d": "Old southern Italian apple from Campania that reddens on the ground after picking.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Annurca",
+     "v": [
+      {
+       "n": "Melannurca Campana PGI",
+       "mk": "",
+       "y": "",
+       "d": "Protected Geographical Indication; clones Standard and Rossa del Sud"
+      }
+     ]
+    },
+    {
+     "n": "South Tyrol apples",
+     "a": "Mela Alto Adige · Sudtiroler Apfel",
+     "d": "Multi-cultivar PGI for apples grown in South Tyrol, mainly along the Adige valley; registered in 2005.",
+     "mk": "",
+     "y": "2005",
+     "s": "https://en.wikipedia.org/wiki/South_Tyrolean_Apple_PGI",
+     "v": [
+      {
+       "n": "Mela Alto Adige o Sudtiroler Apfel PGI",
+       "mk": "",
+       "y": "2005",
+       "d": "PGI name; permitted cultivars include Golden Delicious, Gala, Braeburn, Fuji, Granny Smith, Elstar and Jonagold"
+      }
+     ]
+    },
+    {
+     "n": "Jonagold",
+     "a": "",
+     "d": "Golden Delicious x Jonathan cross from Geneva, New York, released in 1968; triploid and widely grown in Belgium and the Netherlands.",
+     "mk": "",
+     "y": "1943",
+     "s": "https://en.wikipedia.org/wiki/Jonagold",
+     "v": [
+      {
+       "n": "Jonagored",
+       "mk": "",
+       "y": "1985",
+       "d": "Sport found in Belgium"
+      }
+     ]
+    },
+    {
+     "n": "Elstar",
+     "a": "",
+     "d": "Dutch Ingrid Marie x Golden Delicious cross from Elst, popular in northern continental Europe.",
+     "mk": "",
+     "y": "1950s",
+     "s": "https://en.wikipedia.org/wiki/Elstar",
+     "v": [],
+     "dt": "red over yellow · sweet-sharp"
+    },
+    {
+     "n": "Sekai Ichi",
+     "a": "World's Number One",
+     "d": "Very large Japanese premium apple (about 900 g), grown mainly in Aomori and sold as a luxury gift.",
+     "mk": "",
+     "y": "1930",
+     "s": "https://en.wikipedia.org/wiki/Sekai_Ichi",
+     "v": [
+      {
+       "n": "Sekai Ichi from Morioka",
+       "mk": "",
+       "y": "1930",
+       "d": "First planted at Morioka; released to market 1974"
+      }
+     ]
+    },
+    {
+     "n": "Kanzi",
+     "a": "",
+     "d": "Belgian Braeburn x Gala variety marketed under the Kanzi trade mark since 2006.",
+     "mk": "Kanzi",
+     "y": "2006",
+     "s": "https://en.wikipedia.org/wiki/Kanzi_(apple)",
+     "v": [
+      {
+       "n": "Nicoter (Kanzi)",
+       "mk": "Kanzi",
+       "y": "",
+       "d": "Cultivar name behind the Kanzi trade mark"
+      }
+     ],
+     "dt": "firm, crisp, mildly sharp"
+    },
+    {
+     "n": "Rubens",
+     "a": "Civni",
+     "d": "Gala x Elstar cross by the Italian nursery consortium CIV of Ferrara, sold as Rubens.",
+     "mk": "Rubens",
+     "y": "1985",
+     "s": "https://en.wikipedia.org/wiki/Civni_apple",
+     "v": [
+      {
+       "n": "Civni",
+       "mk": "Rubens",
+       "y": "",
+       "d": "Cultivar name; US patent USPP14177 granted 2003"
+      }
+     ]
+    },
+    {
+     "n": "SweeTango",
+     "a": "",
+     "d": "Honeycrisp x Zestar apple from the University of Minnesota, grown only by members of a licensed grower cooperative.",
+     "mk": "SweeTango",
+     "y": "2006",
+     "s": "https://en.wikipedia.org/wiki/SweeTango",
+     "v": [
+      {
+       "n": "Minneiska (SweeTango)",
+       "mk": "SweeTango",
+       "y": "2006",
+       "d": "Cultivar name; breeder code MN 1914"
+      }
+     ],
+     "dt": "managed (club) variety"
+    }
+   ],
+   "m": [
+    [
+     "Akane",
+     ""
+    ],
+    [
+     "Alkmene",
+     ""
+    ],
+    [
+     "Ambrosia",
+     ""
+    ],
+    [
+     "Antares",
+     ""
+    ],
+    [
+     "Baldwin",
+     ""
+    ],
+    [
+     "Cameo",
+     ""
+    ],
+    [
+     "Charles Ross",
+     ""
+    ],
+    [
+     "Cortland",
+     ""
+    ],
+    [
+     "Discovery",
+     ""
+    ],
+    [
+     "Fiesta",
+     ""
+    ],
+    [
+     "Gloster",
+     ""
+    ],
+    [
+     "Gravenstein",
+     ""
+    ],
+    [
+     "Haralson",
+     ""
+    ],
+    [
+     "Idared",
+     ""
+    ],
+    [
+     "Jonathan",
+     ""
+    ],
+    [
+     "Laxtons Fortune",
+     ""
+    ],
+    [
+     "Lord Lambourne",
+     ""
+    ],
+    [
+     "Macoun",
+     ""
+    ],
+    [
+     "Opal",
+     ""
+    ],
+    [
+     "Pinova",
+     ""
+    ],
+    [
+     "Regent",
+     ""
+    ],
+    [
+     "Rubinette",
+     ""
+    ],
+    [
+     "Spartan",
+     ""
+    ],
+    [
+     "Stayman",
+     ""
+    ],
+    [
+     "Sturmer Pippin",
+     ""
+    ],
+    [
+     "Winesap",
+     ""
+    ],
+    [
+     "Worcester",
+     ""
+    ],
+    [
+     "Northern Spy",
+     ""
+    ],
+    [
+     "Reine des Reinettes (King of the Pippins)",
+     ""
+    ],
+    [
+     "Bertanne (Golden Russet)",
+     ""
+    ],
+    [
+     "Lady",
+     ""
+    ],
+    [
+     "Ginger Gold",
+     ""
+    ],
+    [
+     "Crispin (Mutsu)",
+     ""
+    ],
+    [
+     "Maçã Bravo de Esmolfe PDO",
+     ""
+    ],
+    [
+     "Mela Val di Non PGI",
+     ""
+    ],
+    [
+     "Mele del Trentino PGI",
+     ""
+    ],
+    [
+     "Mela Rossa Cuneo PGI",
+     ""
+    ],
+    [
+     "Jabłka łąckie PGI",
+     ""
+    ],
+    [
+     "Pomme du Limousin AOP",
+     ""
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Pink Lady",
+   "c": "Australia",
+   "seg": "Specialist",
+   "kf": "club apple brand",
+   "d": "Trade mark for Cripps Pink and related selections, managed by Apple and Pear Australia Limited and registered in over 80 territories.",
+   "s": "https://en.wikipedia.org/wiki/Cripps_Pink",
+   "sig": [
+    "Cripps Pink"
+   ],
+   "rel": [
+    "Cripps Red (Sundowner)"
+   ]
+  },
+  {
+   "n": "Jazz",
+   "c": "New Zealand",
+   "seg": "Specialist",
+   "kf": "club apple brand",
+   "d": "Trade mark for the Scifresh cultivar, a Braeburn x Royal Gala cross grown under licence in about ten countries.",
+   "s": "https://en.wikipedia.org/wiki/Jazz_(apple)",
+   "sig": [
+    "Jazz"
+   ],
+   "rel": [
+    "Envy",
+    "Kanzi"
+   ]
+  },
+  {
+   "n": "Envy",
+   "c": "New Zealand",
+   "seg": "Specialist",
+   "kf": "club apple brand",
+   "d": "Trade mark for the Scilate cultivar, distributed in North America from 2009 through the Oppenheimer Group and ENZA.",
+   "s": "https://en.wikipedia.org/wiki/Envy_(apple)",
+   "sig": [
+    "Envy"
+   ],
+   "rel": [
+    "Jazz"
+   ]
+  },
+  {
+   "n": "Cosmic Crisp",
+   "c": "United States",
+   "seg": "Specialist",
+   "kf": "club apple brand",
+   "d": "Trade mark for WA 38, the Washington State University variety with growing limited to Washington State.",
+   "s": "https://en.wikipedia.org/wiki/Cosmic_Crisp",
+   "sig": [
+    "Cosmic Crisp"
+   ]
+  },
+  {
+   "n": "Kanzi",
+   "c": "Belgium",
+   "seg": "Specialist",
+   "kf": "club apple brand",
+   "d": "Trade mark for the Nicoter cultivar, owned through Better3Fruits and Greenstar Kanzi Europe.",
+   "s": "https://en.wikipedia.org/wiki/Kanzi_(apple)",
+   "sig": [
+    "Kanzi"
+   ],
+   "rel": [
+    "Jazz"
+   ]
+  },
+  {
+   "n": "Rubens",
+   "c": "Italy",
+   "seg": "Specialist",
+   "kf": "club apple brand",
+   "d": "Trade mark for the Civni cultivar bred by the Consorzio Italiano Vivaisti of Ferrara.",
+   "s": "https://en.wikipedia.org/wiki/Civni_apple",
+   "sig": [
+    "Rubens"
+   ]
+  },
+  {
+   "n": "SweeTango",
+   "c": "United States",
+   "seg": "Specialist",
+   "kf": "club apple brand",
+   "d": "University of Minnesota trade mark for Minneiska, with marketing rights held by Pepin Heights Orchards and the Next Big Thing cooperative.",
+   "s": "https://en.wikipedia.org/wiki/SweeTango",
+   "sig": [
+    "SweeTango"
+   ],
+   "rel": [
+    "Honeycrisp"
+   ]
+  },
+  {
+   "n": "University of Minnesota",
+   "c": "United States",
+   "seg": "Institution & issuer",
+   "kf": "apple breeding",
+   "d": "Public university whose apple programme produced Honeycrisp (MN1711) and SweeTango (MN 1914).",
+   "s": "https://en.wikipedia.org/wiki/Honeycrisp",
+   "sig": [
+    "Honeycrisp",
+    "SweeTango"
+   ]
+  }
+ ],
+ "traditions": [
+  {
+   "n": "English apple orchard heritage",
+   "g": "Food & drink",
+   "r": "England",
+   "p": "Medieval to present",
+   "d": "Grafted orchards of named local dessert and culinary apples, kept alive in estates, walled gardens and community orchards.",
+   "tech": "grafting onto rootstocks; standard and espalier training",
+   "mat": "apple, pear, plum, cherry, damson trees",
+   "forms": [
+    "Ribston Pippin",
+    "Blenheim Orange",
+    "Ashmead's Kernel",
+    "Lane's Prince Albert",
+    "Bramley's Seedling",
+    "Cox's Orange Pippin"
+   ],
+   "ctr": [
+    "English Heritage orchards at Walmer Castle, Mount Grace Priory, Barnard Castle, Osborne"
+   ],
+   "auth": "Named cultivars propagated by grafting, not seed",
+   "s": "https://www.english-heritage.org.uk/learn/conservation/gardens-and-landscapes/orchard-conservation/"
+  }
+ ],
+ "notes": "Kept Apple. Old cultivars not promoted to archetypes (no page fetched) kept as flat models, trimmed to 40: dropped breeder-code club lines (e.g. WA 2, DS 22, Regal D-codes, Howell TC2/TC3), Portuguese/Greek/Hungarian/Tunisian GIs and minor cultivars. Nagano Fuji not confirmed, left out. Mela Val di Non is a PDO per the EU; old-data spelling kept. Antiche mele groups, Etna and Sibillini not sourced, dropped. Honeycrisp, Cosmic Crisp, Envy plant-variety records noted in version text for C3 linking."
+}

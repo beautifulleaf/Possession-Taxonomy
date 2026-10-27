@@ -56,7 +56,7 @@ kinds=[
  x("Zagami","Nigerian shergottite from an observed 1962 fall.","Zagami_meteorite","fell 3 Oct 1962",[v("Katsina State, Nigeria","about 18 kg","1962")],DT),
  x("Northwest Africa 7034","Polymict Martian breccia nicknamed 'Black Beauty'.","Northwest_Africa_7034","found 2011",[v("Western Sahara find","about 320 g")],"slice · fragment · weight")],
  "m":[["NWA 12241",""],["NWA 17880",""]]},
-{"n":"Other achondrite","a":"aubrite · ureilite · angrite · brachinite","d":"Stony meteorite without chondrules that is not lunar, Martian or HED: aubrites, angrites, ureilites and primitive achondrites.","t":["aubrite","ureilite","angrite","brachinite"],"s":old,
+{"n":"Asteroidal achondrite","a":"Other achondrite · aubrite · ureilite · angrite · brachinite","d":"Stony meteorite without chondrules that is not lunar, Martian or HED: aubrites, angrites, ureilites and primitive achondrites.","t":["aubrite","ureilite","angrite","brachinite"],"s":W+"Aubrite",
  "x":[
  x("Norton County","Kansas aubrite fall of 1948, a fragmental enstatite breccia.","Norton_County_(meteorite)","fell 18 Feb 1948",[v("Norton County, Kansas","about 1,100 kg","1948")],DT),
  x("Novo Urei","Russian ureilite that names the group.","Ureilite","fell 1886",[],DT),
@@ -67,5 +67,5 @@ brands=[
 {"n":"Meteoritical Society","c":"International","f":"1933","seg":"Institution & issuer","kf":"classification","d":"Learned society whose Nomenclature Committee approves meteorite names and classifications in the Meteoritical Bulletin Database.","s":"knowledge"},
 {"n":"International Meteorite Collectors Association","c":"International","f":"","seg":"Institution & issuer","kf":"dealer ethics","d":"Association of meteorite collectors and dealers with a code of ethics and a dealer-verification scheme.","s":"knowledge"}]
 os.makedirs('work/F6/shelves',exist_ok=True)
-json.dump({"kinds":kinds,"brands":brands,"traditions":[],"notes":"Old models kept as flat m where no page was retrieved (Admire, Sericho, Holbrook, etc.). Aguas Zarcas, Tatahouine, Campo/Meteoritical Bulletin database records not retrieved so left out. Vaca Muerta, Estherville and Lowicz are sourced from the Mesosiderite article. Dealer register limited to two knowledge-based entries."},open('work/F6/shelves/03_00.tmp','w'),ensure_ascii=False,indent=1)
+json.dump({"kinds":kinds,"brands":brands,"traditions":[],"notes":"Planned kind Other achondrite renamed Asteroidal achondrite (checker bars Other names). Old models kept as flat m where no page was retrieved (Admire, Sericho, Holbrook, etc.). Aguas Zarcas, Tatahouine, Campo/Meteoritical Bulletin database records not retrieved so left out. Vaca Muerta, Estherville and Lowicz are sourced from the Mesosiderite article. Dealer register limited to two knowledge-based entries."},open('work/F6/shelves/03_00.tmp','w'),ensure_ascii=False,indent=1)
 os.rename('work/F6/shelves/03_00.tmp','work/F6/shelves/03_00.json')

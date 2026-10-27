@@ -1,0 +1,587 @@
+{
+ "kinds": [
+  {
+   "n": "Game emulator",
+   "a": "",
+   "d": "Program that imitates a game console's, arcade board's or home computer's hardware so that its games run on the owner's computer or phone.",
+   "t": [
+    "console emulator",
+    "arcade emulator",
+    "home-computer emulator",
+    "multi-system front end",
+    "phone emulator",
+    "browser emulator"
+   ],
+   "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
+   "x": [
+    {
+     "n": "MAME",
+     "a": "",
+     "d": "Arcade-machine emulator begun by Nicola Salmoria in the 1990s that now also covers consoles and computers; the reference for preservation.",
+     "mk": "",
+     "y": "1997",
+     "s": "https://en.wikipedia.org/wiki/MAME",
+     "v": [
+      {
+       "n": "MAME",
+       "y": "1997",
+       "d": "First public release 5 February 1997"
+      },
+      {
+       "n": "MESS",
+       "y": "2015",
+       "d": "Console and computer emulator on the MAME core; merged into MAME in May 2015 (0.162)"
+      }
+     ],
+     "dt": "driver set · ROM set (full, split, non-merged) · version"
+    },
+    {
+     "n": "RetroArch",
+     "a": "",
+     "d": "Front end for the libretro API that runs emulators as loadable cores behind one interface.",
+     "mk": "",
+     "y": "2010",
+     "s": "https://en.wikipedia.org/wiki/RetroArch",
+     "v": [
+      {
+       "n": "SSNES",
+       "y": "2010",
+       "d": "Original name; renamed RetroArch in April 2012"
+      },
+      {
+       "n": "RetroArch 1.0",
+       "y": "2014",
+       "d": "Version 1.0.0.0, January 2014"
+      }
+     ],
+     "dt": "core · platform · shader and input setup"
+    },
+    {
+     "n": "OpenEmu",
+     "a": "",
+     "d": "Mac front end with a plug-in design that gathers console emulators in one library.",
+     "mk": "",
+     "y": "2007",
+     "s": "https://en.wikipedia.org/wiki/OpenEmu",
+     "v": [
+      {
+       "n": "OpenNestopia",
+       "y": "2007",
+       "d": "Original name"
+      },
+      {
+       "n": "OpenEmu 1.0",
+       "y": "2013"
+      }
+     ]
+    },
+    {
+     "n": "Dolphin",
+     "a": "",
+     "d": "GameCube and Wii emulator, first released in 2003 by F|RES and Henrik Rydgard (ector).",
+     "mk": "",
+     "y": "2003",
+     "s": "https://en.wikipedia.org/wiki/Dolphin_(emulator)",
+     "v": [
+      {
+       "n": "Dolphin",
+       "y": "2003",
+       "d": "Also covers Game Boy Player and Triforce arcade hardware"
+      }
+     ]
+    },
+    {
+     "n": "Cemu",
+     "a": "",
+     "d": "Wii U emulator, first released for Windows in 2015 and open-sourced with 2.0 in 2022.",
+     "mk": "",
+     "y": "2015",
+     "s": "https://en.wikipedia.org/wiki/Cemu",
+     "v": [
+      {
+       "n": "Cemu 2.0",
+       "y": "2022",
+       "d": "Open source under the Mozilla Public License; first Linux and later macOS builds"
+      }
+     ]
+    },
+    {
+     "n": "Nintendo Switch emulators",
+     "a": "",
+     "d": "Switch emulators and the forks that continued them after the 2024 shutdowns.",
+     "mk": "",
+     "y": "2018",
+     "s": "https://en.wikipedia.org/wiki/Yuzu_(emulator)",
+     "v": [
+      {
+       "n": "Yuzu",
+       "y": "2018",
+       "d": "Built by the Citra team; ended March 2024 after a Nintendo lawsuit"
+      },
+      {
+       "n": "Ryujinx",
+       "y": "2018",
+       "d": "Written in C# by gdkchan; shut down October 2024"
+      },
+      {
+       "n": "Suyu",
+       "y": "2024",
+       "d": "Yuzu fork; ceased 2025"
+      },
+      {
+       "n": "Torzu",
+       "d": "Yuzu fork developed over Tor"
+      },
+      {
+       "n": "Eden",
+       "d": "Active Yuzu continuation"
+      },
+      {
+       "n": "Citron",
+       "d": "Active Yuzu continuation"
+      }
+     ]
+    },
+    {
+     "n": "Nintendo 3DS emulators",
+     "a": "",
+     "d": "Emulators for the 3DS.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
+     "v": [
+      {
+       "n": "Citra"
+      }
+     ]
+    },
+    {
+     "n": "NES and Famicom emulators",
+     "a": "",
+     "d": "Emulators for the 8-bit Nintendo system.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
+     "v": [
+      {
+       "n": "FCEUX"
+      },
+      {
+       "n": "Nestopia"
+      },
+      {
+       "n": "NESticle"
+      }
+     ]
+    },
+    {
+     "n": "SNES emulators",
+     "a": "",
+     "d": "Emulators for the Super Nintendo.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
+     "v": [
+      {
+       "n": "Snes9x"
+      },
+      {
+       "n": "ZSNES"
+      },
+      {
+       "n": "higan"
+      }
+     ]
+    },
+    {
+     "n": "Nintendo 64 emulators",
+     "a": "",
+     "d": "Emulators for the N64, from the first high-level emulator to current plug-in ones.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
+     "v": [
+      {
+       "n": "UltraHLE"
+      },
+      {
+       "n": "Project64"
+      },
+      {
+       "n": "Mupen64Plus"
+      },
+      {
+       "n": "Project Unreality"
+      }
+     ]
+    },
+    {
+     "n": "Game Boy and Game Boy Advance emulators",
+     "a": "",
+     "d": "Emulators for Nintendo handhelds.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
+     "v": [
+      {
+       "n": "VisualBoyAdvance"
+      },
+      {
+       "n": "VisualBoyAdvance-M"
+      },
+      {
+       "n": "Wzonka-Lad"
+      }
+     ]
+    },
+    {
+     "n": "PlayStation emulators",
+     "a": "",
+     "d": "Emulators for the original PlayStation, from commercial products to current free ones.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
+     "v": [
+      {
+       "n": "DuckStation"
+      },
+      {
+       "n": "ePSXe"
+      },
+      {
+       "n": "PCSX-Reloaded"
+      },
+      {
+       "n": "bleem!"
+      },
+      {
+       "n": "bleemcast!"
+      },
+      {
+       "n": "Connectix Virtual Game Station",
+       "d": "Discontinued commercial emulator"
+      }
+     ]
+    },
+    {
+     "n": "PCSX2",
+     "a": "",
+     "d": "PlayStation 2 emulator, successor to the PCSX PlayStation emulator, first released in 2002.",
+     "mk": "",
+     "y": "2002",
+     "s": "https://en.wikipedia.org/wiki/PCSX2",
+     "v": [
+      {
+       "n": "PCSX2",
+       "y": "2002",
+       "d": "Begun 2001 by Linuzappz and Shadow"
+      }
+     ]
+    },
+    {
+     "n": "RPCS3",
+     "a": "",
+     "d": "PlayStation 3 emulator and debugger, first announced in 2011.",
+     "mk": "",
+     "y": "2011",
+     "s": "https://en.wikipedia.org/wiki/RPCS3",
+     "v": [
+      {
+       "n": "RPCS3",
+       "y": "2011"
+      }
+     ]
+    },
+    {
+     "n": "PPSSPP",
+     "a": "",
+     "d": "PlayStation Portable emulator by Henrik Rydgard, publicly released in 2012.",
+     "mk": "",
+     "y": "2012",
+     "s": "https://en.wikipedia.org/wiki/Ppsspp",
+     "v": [
+      {
+       "n": "PPSSPP",
+       "y": "2012"
+      }
+     ]
+    },
+    {
+     "n": "PlayStation 4, 5 and Vita emulators",
+     "a": "",
+     "d": "Early-stage emulators for newer Sony hardware and the Vita.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
+     "v": [
+      {
+       "n": "shadPS4"
+      },
+      {
+       "n": "KytyPS5"
+      },
+      {
+       "n": "Vita3K"
+      }
+     ]
+    },
+    {
+     "n": "DOSBox",
+     "a": "",
+     "d": "Emulator that runs MS-DOS programs, mostly games; its forks carry on after 2019.",
+     "mk": "",
+     "y": "2002",
+     "s": "https://en.wikipedia.org/wiki/DOSBox",
+     "v": [
+      {
+       "n": "DOSBox",
+       "mk": "Peter Veenstra",
+       "y": "2002",
+       "d": "Last stable release 0.74-3, June 2019"
+      },
+      {
+       "n": "DOSBox-X",
+       "d": "Fork aimed at pre-2000 DOS and Windows 9x"
+      },
+      {
+       "n": "DOSBox Staging",
+       "d": "Modern continuation"
+      },
+      {
+       "n": "DOSBox Pure",
+       "d": "libretro core"
+      },
+      {
+       "n": "Em-DOSBox",
+       "d": "Runs in a web browser"
+      }
+     ]
+    },
+    {
+     "n": "ScummVM",
+     "a": "",
+     "d": "Re-creation of adventure-game engines, started for LucasArts SCUMM titles; not a hardware emulator.",
+     "mk": "",
+     "y": "2001",
+     "s": "https://en.wikipedia.org/wiki/ScummVM",
+     "v": [
+      {
+       "n": "ScummVM",
+       "y": "2001",
+       "d": "First release October 2001"
+      }
+     ]
+    },
+    {
+     "n": "VICE",
+     "a": "",
+     "d": "Emulator for Commodore's 8-bit machines (C64, C128, VIC-20, Plus/4, PET).",
+     "mk": "",
+     "y": "1993",
+     "s": "https://en.wikipedia.org/wiki/VICE",
+     "v": [
+      {
+       "n": "VICE",
+       "y": "1993"
+      }
+     ]
+    },
+    {
+     "n": "WinUAE",
+     "a": "",
+     "d": "Amiga emulator for Windows, bundled with Cloanto's Amiga Forever.",
+     "mk": "Cloanto",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Amiga_Forever",
+     "v": [
+      {
+       "n": "WinUAE",
+       "d": "Emulation engine of the Windows Amiga Forever player"
+      },
+      {
+       "n": "E-UAE"
+      },
+      {
+       "n": "UAE"
+      }
+     ]
+    },
+    {
+     "n": "Atari and pinball emulators",
+     "a": "",
+     "d": "Single-purpose emulators for the Atari 2600, Neo Geo CD and pinball tables.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
+     "v": [
+      {
+       "n": "Stella"
+      },
+      {
+       "n": "NeoCD"
+      },
+      {
+       "n": "Visual Pinball"
+      }
+     ]
+    }
+   ],
+   "m": [
+    [
+     "Mednafen",
+     ""
+    ],
+    [
+     "Delta",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "Game mod manager",
+   "a": "",
+   "d": "Program that downloads, installs, orders and switches game mods in a game's files without being a game or a mod itself.",
+   "t": [
+    "virtual file system",
+    "Nexus-linked",
+    "Thunderstore profiles",
+    "Minecraft platform",
+    "load-order sorter"
+   ],
+   "s": "https://tech-insider.org/vortex-vs-mod-organizer-2-vs-thunderstore-2026/",
+   "x": [
+    {
+     "n": "Vortex",
+     "a": "",
+     "d": "Nexus Mods' own manager, the all-rounder for the Nexus catalogue.",
+     "mk": "Nexus Mods",
+     "y": "",
+     "s": "https://tech-insider.org/vortex-vs-mod-organizer-2-vs-thunderstore-2026/",
+     "v": [
+      {
+       "n": "Vortex",
+       "mk": "Nexus Mods",
+       "d": "v2.9.0 on 19 October 2026 per the page"
+      }
+     ],
+     "dt": "game · profile · deployment method"
+    },
+    {
+     "n": "Mod Organizer 2",
+     "a": "",
+     "d": "Community successor to Mod Organizer, with a virtual file system suited to large Bethesda mod lists.",
+     "mk": "",
+     "y": "",
+     "s": "https://tech-insider.org/vortex-vs-mod-organizer-2-vs-thunderstore-2026/",
+     "v": [
+      {
+       "n": "Mod Organizer 2",
+       "d": "v2.5.2, August 2024 per the page"
+      }
+     ],
+     "dt": "game · instance · profile"
+    },
+    {
+     "n": "Nexus Mods App",
+     "a": "",
+     "d": "Nexus Mods' newer app built around loadout switching.",
+     "mk": "Nexus Mods",
+     "y": "",
+     "s": "https://www.itechguides.com/best/game-mod-managers/",
+     "v": [
+      {
+       "n": "Nexus Mods App",
+       "mk": "Nexus Mods"
+      }
+     ]
+    },
+    {
+     "n": "Thunderstore Mod Manager",
+     "a": "",
+     "d": "Official client of the Thunderstore platform for BepInEx games such as Lethal Company and Valheim.",
+     "mk": "",
+     "y": "",
+     "s": "https://tech-insider.org/vortex-vs-mod-organizer-2-vs-thunderstore-2026/",
+     "v": [
+      {
+       "n": "Thunderstore Mod Manager",
+       "d": "Also known as r2modman; v3.2.17 per the page"
+      },
+      {
+       "n": "Gale Mod Manager"
+      },
+      {
+       "n": "Zephyr"
+      },
+      {
+       "n": "Prismo"
+      }
+     ]
+    },
+    {
+     "n": "Minecraft mod platforms",
+     "a": "",
+     "d": "Launcher-style mod managers for Minecraft.",
+     "mk": "",
+     "y": "",
+     "s": "https://www.itechguides.com/best/game-mod-managers/",
+     "v": [
+      {
+       "n": "CurseForge"
+      },
+      {
+       "n": "Modrinth"
+      }
+     ]
+    },
+    {
+     "n": "Single-game mod managers",
+     "a": "",
+     "d": "Managers built around one game or engine.",
+     "mk": "",
+     "y": "",
+     "s": "https://www.itechguides.com/best/game-mod-managers/",
+     "v": [
+      {
+       "n": "ME3Tweaks Mod Manager",
+       "mk": "ME3Tweaks",
+       "d": "Mass Effect"
+      },
+      {
+       "n": "CKAN",
+       "d": "Indexed mod libraries"
+      },
+      {
+       "n": "RimSort",
+       "d": "RimWorld"
+      },
+      {
+       "n": "Stardrop",
+       "d": "Stardew Valley"
+      },
+      {
+       "n": "Wrye Bash",
+       "d": "Bethesda-style mod management"
+      },
+      {
+       "n": "LOOT",
+       "d": "Plugin load orders"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Nexus Mods",
+   "c": "United Kingdom",
+   "seg": "Specialist",
+   "kf": "mod hosting",
+   "d": "Mod-hosting site that develops the Vortex and Nexus Mods App managers.",
+   "s": "knowledge"
+  }
+ ],
+ "traditions": [],
+ "notes": "Game emulator: 40 flat models regrouped into 21 archetypes by system family (MAME, RetroArch, Dolphin, Cemu, Switch lineage, PlayStation lines, DOSBox, ScummVM, VICE, WinUAE, per-Nintendo-console groups); every old model kept as a version or in m. Added from fetched pages: OpenEmu is old; DOSBox forks, Eden/Citron/Torzu/Suyu, WinUAE/E-UAE/UAE, ScummVM, VICE. No emulator for Xbox, Mega Drive, Saturn, Dreamcast or DS appears on the fetched list, so none were added. Game mod manager: kept the 5 old models as archetypes, added CurseForge, Modrinth, CKAN, RimSort, Stardrop, Wrye Bash, LOOT, Gale, Zephyr, Prismo from the retrieved itechguides list; Nexus Mods App not covered by tech-insider so itechguides cited. Maker/year left blank where pages do not state them."
+}
