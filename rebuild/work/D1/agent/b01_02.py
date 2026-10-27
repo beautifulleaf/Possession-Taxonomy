@@ -14,7 +14,7 @@ case_x = [
  X('NZXT H series', 'NZXT', '2017', 'NZXT', 'NZXT\'s clean, minimal steel-and-glass mid-tower line, a staple of first builds.',
    [('H700 / H400 / H200', 'NZXT', '2017', ''), ('H500', 'NZXT', '2018', ''), ('H510 (Elite)', 'NZXT', '2019', 'refresh')]),
  X('Lian Li O11 Dynamic', LL, '2018', 'https://gamersnexus.net/hwreviews/3285-lian-li-o11-dynamic-review-benchmark-der8auer-case-design',
-   'Dual-chamber glass "fish-tank" case co-designed with overcloker der8auer, built for radiators and show builds.',
+   'Dual-chamber glass "fish-tank" case co-designed with overclocker der8auer, built for radiators and show builds.',
    [('PC-O11', LL, '', 'earlier model it grew from'), ('O11 Dynamic', LL, '2018', 'der8auer edition, no fans included'), ('O11 Air', LL, '', 'mesh-fronted airflow version'),
     ('O11 Dynamic Mini / Mini V2', LL, '', ''), ('O11 Dynamic EVO / EVO RGB / EVO XL', LL, '', 'reversible layout'), ('O11 Vision / Vision Compact', LL, '', 'pillarless glass'),
     ('O11 Air Mini', LL, '', '')], dt='glass front and side · dual chamber · ATX, mATX, E-ATX · black, white'),
@@ -40,7 +40,7 @@ kinds = [
   's': 'https://www.overclockers.co.uk/pc-components/pc-power-supplies',
   'm': [['RPS0110 (CP-9020188) (RM850x)', 'Corsair'], ['RPS0178 (CP-9020263) (RM850e)', 'Corsair'], ['SRP-FGX851-A5A32SF (FOCUS GX-850 ATX 3)', 'Seasonic'],
         ['SF-1000F14MP', 'Super Flower'], ['E12-1000W', 'be quiet!'], ['SuperNOVA 850 GA', 'EVGA'], ['HALE90-850-M', 'NZXT'], ['MPE-8506-ACAG', 'Cooler Master'],
-        ['MAG A850GL PCIE5', 'MSI'], ['TOUGHPOWER GF 850W', 'Thermaltake'], ['HGE850', 'FSP'], ['SST-SX1000-LPT', 'Silverstone'], ['ROG-THOR-1000P2-GAMING', 'ASUS'],
+        ['MAG A850GLS PCIE5', 'MSI'], ['TOUGHPOWER GF 850W', 'Thermaltake'], ['HGE850', 'FSP'], ['SST-SX1000-LPT', 'Silverstone'], ['ROG-THOR-1000P2-GAMING', 'ASUS'],
         ['FD-P-IA3G-850 (Ion 3 Gold 850W)', 'Fractal Design'], ['EDGE GOLD', LL], ['EA650G PRO', 'Antec']],
   'r': [['PRIME', 'Seasonic'], ['FOCUS', 'Seasonic'], ['RM', 'Corsair'], ['Dark Power', 'be quiet!'], ['Leadex', 'Super Flower'], ['SuperNOVA', 'EVGA']]},
  {'n': 'Internal PC cable', 'a': 'sleeved cable · extension cable · riser cable', 'd': 'Cable that connects parts inside a computer case, such as power extensions and PCIe risers.',
@@ -61,7 +61,7 @@ brands = [
  B('be quiet!', 'Germany', '2002', 'Premium', 'quiet PSUs, coolers', 'German brand of quiet power supplies, coolers and cases.', lines=['Dark Power', 'Pure Power', 'Dark Rock']),
 ]
 out = {'kinds': kinds, 'brands': brands, 'traditions': [],
-       'notes': 'PC case: 7 archetypes from retrieved pages (Define, Meshify, NZXT H, O11 Dynamic, Corsair 4000D, Dan A4-SFX, NR200); old O11 models moved into O11 versions; 8 other old models kept. Cooler Master HAF/Cosmos, Corsair Obsidian and Louqe Ghost not added: no retrieved page in time. PSU: 37 old SKUs trimmed to 16 market-covering models; efficiency (80 Plus) and form factor as types. Old MSI model "MAG A850GLS PCIE5" kept as "MAG A850GL PCIE5"? no — see build: kept spelling from old data.'}
+       'notes': 'PC case: 7 archetypes from retrieved pages (Define, Meshify, NZXT H, O11 Dynamic, Corsair 4000D, Dan A4-SFX, NR200); old O11 models moved into O11 versions; 8 other old models kept. Cooler Master HAF/Cosmos, Corsair Obsidian and Louqe Ghost not added: no retrieved page in time. PSU: 37 old SKUs trimmed to 16 market-covering models; efficiency (80 Plus) and form factor as types.'}
 p = '/home/user/Possession-Taxonomy/rebuild/work/D1/shelves/01_02.json'
 json.dump(out, open(p + '.tmp', 'w'), ensure_ascii=False, indent=1); os.replace(p + '.tmp', p)
 print('written')
