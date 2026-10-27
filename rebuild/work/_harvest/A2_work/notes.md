@@ -5,3 +5,6 @@
 - stridewise.com/best-american-made-boots/ fetched OK
 - permanentstyle.com/brand/* : 403 BLOCKED (moved on)
 - en.wikipedia.org/wiki/Category:Shoe_brands: fetched, but URL was typed not found by search -> NOT cited
+- Wikidata SPARQL (footwear industry/shoe product): HTTP 429 -> moved on, not retried
+- mrporter.com journal: 403 BLOCKED
+- bespokeunit japanese, stridewise japanese boots, apartstyle alt brands, goodonyou ethical-sustainable-shoes: fetched OK
