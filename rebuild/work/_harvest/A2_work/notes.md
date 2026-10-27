@@ -12,3 +12,6 @@
 - bespokeunit italian, robbreport bespoke fetched OK; harrods women-shoes 403 BLOCKED
 - apetogentleman portugal, cfi brazil fetched OK; foreverbarcelona 403 BLOCKED; retailboss goat useless
 - concreteplayground AU, manofmany AU, portugal.com fetched OK
+- sneakerhistory skate, weddingsutra jutti, lbb jutti fetched OK
+- ringly cowboy, weighmyrack mountaineering, greenlit work boots fetched OK
+- wikipedia Träskor fetched OK; culturewhisper espadrilles 503

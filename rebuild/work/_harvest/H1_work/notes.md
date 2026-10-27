@@ -9,3 +9,8 @@ Segments: H1 is in domain "general" -> Professional & flagship, Premium, Mainstr
 - fetched: Coty, Amorepacific, LG H&H, Shiseido, Wikipedia categories Cosmetics/Skin care/Male grooming/Shampoo/Korean cosmetics/Soap/Toothpaste/Feminine hygiene/Razor/Shaving cream brands
 - Firecrawl fallback (coordinator-authorised) for sephora.com/brands-list and ulta.com/brand/all: DENIED by auto-mode permission classifier (Bot Check Circumvention). Not retried further.
 - Wikidata SPARQL (cosmetics brand / cosmetics company classes): timed out after 120 s, not retried
+- fetched: Category:Cosmetics companies of US/France/UK/Germany/India/Australia/South Korea/Philippines/Switzerland
+- fetched: Kosé, Kao, Puig, Category:Beiersdorf brands, Henkel
+- fetched: badgerandblade artisan soap list, sharpologist artisans, russh J-beauty; BLOCKED 403: harpersbazaararabia J-beauty article
+- fetched: Category Revlon/Colgate-Palmolive/Haleon/Reckitt/Estée Lauder brands
+- fetched: beautylish indie nail brands, greenlitcontent nail polish brands; BLOCKED 403: skinsort korean brands

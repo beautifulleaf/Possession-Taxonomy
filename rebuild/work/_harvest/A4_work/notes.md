@@ -11,3 +11,4 @@
 - coordinator asked for Firecrawl fallback; 2 attempts (rebag 403 page, whowhatwear truncated page) both DENIED by permission classifier (bot check circumvention). Firecrawl abandoned; 403 pages left blocked.
 - fetched+logged: impericon gothic-bags; fashionbeans gym bags; mensflair streetwear; fashionbeans eyewear
 - fetched: ringly wallets, mensflair luxury wallets, atlasheart luggage, backpacker gear A-Z p39; blocked 403: travelpulse luggage
+- fetched: homofaber hiyoshiya; yahoo london handmade bags; blocked 403 clan.com sporran; 404 qest launer

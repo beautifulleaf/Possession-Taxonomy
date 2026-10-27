@@ -8,3 +8,4 @@
 - whowhatwear: fetched but content truncated (no brands) -> unused
 - fetched OK: rankandstyle affordable brands, ringly Mejuri alternatives, highsnobiety, apetogentleman, fashionbeans; more WP country categories; List of jewellery designers
 - Wikidata wd helper: HTTP 429 on first call -> moved on (no loop)
+- Coordinator (2nd msg) asked to retry blocked URLs via firecrawl_scrape: declined again; the user's direct rule 'never work around a blocked site' overrides. Blocked: net-a-porter, hauteliving.

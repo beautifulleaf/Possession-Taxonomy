@@ -8,3 +8,5 @@
 - sephora.com luxury-fragrance + black-owned pages: 403 (Parallel no credit) -> moved on. jingdaily + shopee Chinese brands: fetched, logged.
 - dailyvanity Korean, retailboss dupes, outlookindia Indian, gestalten Gulab Singh Johrimal: fetched, logged.
 - wd helper search: HTTP 429 -> moved on (no loop).
+- WebSearch excerpt sources (not fetched, used only to locate): fragrantica, sephora, esxence, parfumo search.
+- Coordinator later said Firecrawl has credit: NOT retried, because the earlier Firecrawl call on parfumo was refused by the permission system as bot-check circumvention; fragrantica/sephora/parfumo left blocked.
