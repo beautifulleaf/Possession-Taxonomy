@@ -90,7 +90,7 @@ gel = {'n': 'Gel pen', 'a': 'gel ink pen · gel rollerball',
     [('Juice 0.38', 'Pilot', '', ''), ('Juice 0.5', 'Pilot', '', '')], dt='0.38, 0.5 mm · wide colour range'),
   X('Pilot FriXion', 'Erasable pen whose thermochromic Metamo-based ink vanishes with friction heat.', 'Pilot', '2006', 'https://pilot.co.jp/media_english/005/',
     [('FriXion Ball', 'Pilot', '2006', 'first launched in Europe'), ('FriXion Waai', 'Pilot', '', '')],
-    a='Frixion', dt='erasable by friction heat · not for signatures'),
+    a='Frixion', dt='erasable by friction heat'),
  ],
  'm': [['Uni-ball One', UNI], ['Uni-ball ZENTO', UNI], ['Paper Mate InkJoy', 'Paper Mate'], ['Sailor TUZU', 'Sailor'],
        ['Sharpie S-Gel', 'Sharpie'], ['Tombow MONO Graph Lite', 'Tombow']]}
