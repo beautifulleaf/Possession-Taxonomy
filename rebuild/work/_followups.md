@@ -8,3 +8,5 @@
 - F1 01_03 weak sources to upgrade: Nakamichi ZX (eBay listing), TDK MA-R (3docean page); thin firecrawl pages for UHQR and Maxell.
 - E1 merge: E6 moved in 'Other science kits', 'Molecular model kit', 'Chemistry set', 'Crystal-growing kit' — fold into E1's science-kit kinds via moves_covered.json if E1 has them; never keep an 'Other …' kind.
 - Airsoft gun kind exists in both E4 05_00 and E2 05_04 (both with Tokyo Marui archetypes) — keep one home (E2 sport) and cross-link from E4 at merge.
+- J2 restraint shelves: English names of Japanese/Korean GIs are the worker's own translations (original script kept in brackets) — spot-check at J2 merge.
+- J10 03_02 E-liquid and 07_00 Pre-roll have empty sources (no old source); source them before J10 finish.
