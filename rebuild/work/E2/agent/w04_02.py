@@ -37,7 +37,7 @@ bat = {"n": "Cricket bat", "a": "", "d": "Flat-faced willow bat with a spliced c
    "v": [V("Kahuna", KB, "", "Ponting's bat at the 2003 World Cup and the 2005 and 2006–07 Ashes"),
          V("Kahuna Pro", KB, "2019", "developed with Ricky Ponting")],
    "dt": "weight · handle length · willow grade"},
-  {"n": "Diamond", "a": "", "d": "Gunn & Moore's leading bat range, used by Ben Stokes.", "mk": GM, "s": WIS,
+  {"n": "Diamond", "a": "", "d": "Gunn & Moore bat range used by Ben Stokes.", "mk": GM, "s": WIS,
    "v": [V("Diamond Original LE", GM, "2019", "as used by Ben Stokes")], "dt": "weight · handle length · willow grade"},
   {"n": "Sunridges", "a": "", "d": "SS's best-known bat line from Meerut.", "mk": SS, "y": "1976", "s": SSW, "v": [], "dt": "English or Kashmir willow"},
   {"n": "Magnum", "a": "", "d": "Duncan Fearnley bat used by Allan Border from 1985.", "mk": DF, "y": "1985", "s": KIT, "v": [], "dt": "weight · willow grade"},

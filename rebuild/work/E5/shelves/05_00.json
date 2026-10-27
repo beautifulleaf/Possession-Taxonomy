@@ -1,0 +1,962 @@
+{
+ "kinds": [
+  {
+   "n": "Standalone VR headset",
+   "a": "mixed-reality headset · all-in-one headset",
+   "d": "Headset that encloses the eyes and has its own computer and battery, often with camera passthrough for mixed reality.",
+   "t": [
+    "VR only",
+    "colour-passthrough mixed reality"
+   ],
+   "s": "https://www.reality-atlas.com/hardware",
+   "x": [
+    {
+     "n": "Meta Quest",
+     "a": "Oculus Quest",
+     "d": "Meta's (formerly Oculus) line of standalone headsets with inside-out tracking and Touch controllers.",
+     "mk": "Meta",
+     "y": "2019",
+     "s": "https://en.wikipedia.org/wiki/Meta_Quest",
+     "v": [
+      {
+       "n": "Oculus Quest",
+       "mk": "Oculus",
+       "y": "2019",
+       "d": "first generation"
+      },
+      {
+       "n": "Quest 2",
+       "mk": "Meta",
+       "y": "2020",
+       "d": "launched as Oculus Quest 2, renamed 2022"
+      },
+      {
+       "n": "Quest Pro",
+       "mk": "Meta",
+       "y": "2022",
+       "d": "premium model, colour passthrough, Touch Pro controllers"
+      },
+      {
+       "n": "Quest 3",
+       "mk": "Meta",
+       "y": "2023",
+       "d": "pancake lenses, Snapdragon XR2 Gen 2"
+      },
+      {
+       "n": "Quest 3S",
+       "mk": "Meta",
+       "y": "2024",
+       "d": "lower-priced model, same chip as Quest 3"
+      }
+     ],
+     "dt": "storage 64–512 GB"
+    },
+    {
+     "n": "Apple Vision Pro",
+     "a": "",
+     "d": "Apple's standalone mixed-reality 'spatial computer' controlled by eyes, hands and voice, running visionOS.",
+     "mk": "Apple",
+     "y": "2024",
+     "s": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
+     "v": [
+      {
+       "n": "Apple Vision Pro (M2)",
+       "mk": "Apple",
+       "y": "2024",
+       "d": "M2 with R1 co-processor"
+      },
+      {
+       "n": "Apple Vision Pro (M5)",
+       "mk": "Apple",
+       "y": "2025",
+       "d": "M5 update"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Samsung Galaxy XR",
+     "a": "",
+     "d": "Samsung's standalone mixed-reality headset, the first to run Android XR, with a tethered battery pack.",
+     "mk": "Samsung",
+     "y": "2025",
+     "s": "https://en.wikipedia.org/wiki/Samsung_Galaxy_XR",
+     "v": [
+      {
+       "n": "Samsung Galaxy XR",
+       "mk": "Samsung",
+       "y": "2025",
+       "d": "Snapdragon XR2+ Gen 2, 16 GB RAM"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "HTC Vive Focus",
+     "a": "Vive Focus",
+     "d": "HTC's standalone Vive line.",
+     "mk": "HTC",
+     "y": "2018",
+     "s": "https://en.wikipedia.org/wiki/HTC_Vive",
+     "v": [
+      {
+       "n": "HTC Vive Focus",
+       "mk": "HTC",
+       "y": "2018",
+       "d": ""
+      },
+      {
+       "n": "Vive Focus Plus",
+       "mk": "HTC",
+       "y": "2019",
+       "d": ""
+      },
+      {
+       "n": "HTC Vive Focus 3",
+       "mk": "HTC",
+       "y": "2021",
+       "d": ""
+      },
+      {
+       "n": "HTC Vive Focus Vision",
+       "mk": "HTC",
+       "y": "2024",
+       "d": "also works tethered to a PC"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Pico 4",
+     "a": "Pico Neo",
+     "d": "Standalone headset line from Pico, a ByteDance division.",
+     "mk": "Pico",
+     "y": "2022",
+     "s": "https://en.wikipedia.org/wiki/PICO_4",
+     "v": [
+      {
+       "n": "Pico Neo 3",
+       "mk": "Pico",
+       "y": "",
+       "d": "predecessor"
+      },
+      {
+       "n": "Pico Neo 3 Pro",
+       "mk": "Pico",
+       "y": "2021",
+       "d": ""
+      },
+      {
+       "n": "Pico 4",
+       "mk": "Pico",
+       "y": "2022",
+       "d": ""
+      },
+      {
+       "n": "Pico 4 Ultra",
+       "mk": "Pico",
+       "y": "2024",
+       "d": "successor"
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Oculus Go",
+     "Oculus"
+    ],
+    [
+     "HTC Vive XR Elite",
+     "HTC"
+    ],
+    [
+     "HTC Vive Flow",
+     "HTC"
+    ],
+    [
+     "Lenovo Mirage Solo",
+     "Lenovo"
+    ],
+    [
+     "Valve Steam Frame",
+     "Valve"
+    ],
+    [
+     "Pimax Portal View",
+     "Pimax"
+    ],
+    [
+     "Lynx R1",
+     "Lynx"
+    ],
+    [
+     "Lynx R2",
+     "Lynx"
+    ],
+    [
+     "Play For Dream MR",
+     "Play For Dream"
+    ],
+    [
+     "Pico G2 4K",
+     "Pico"
+    ],
+    [
+     "DPVR P2",
+     "DPVR"
+    ],
+    [
+     "iQIYI Qiyu MIX",
+     "iQIYI"
+    ],
+    [
+     "SimulaVR Simula One",
+     "SimulaVR"
+    ]
+   ]
+  },
+  {
+   "n": "Tethered VR headset",
+   "a": "PC VR headset · console VR headset",
+   "d": "Headset that encloses the eyes and needs a console or PC to run it.",
+   "t": [
+    "outside-in (base stations or camera)",
+    "inside-out tracking",
+    "eye tracking"
+   ],
+   "s": "https://www.reality-atlas.com/hardware",
+   "x": [
+    {
+     "n": "Oculus Rift",
+     "a": "Rift",
+     "d": "The headset that started the 2010s VR revival, from development kits to the consumer Rift and Rift S.",
+     "mk": "Oculus",
+     "y": "2013",
+     "s": "https://en.wikipedia.org/wiki/Oculus_Rift",
+     "v": [
+      {
+       "n": "Oculus Rift DK1",
+       "mk": "Oculus",
+       "y": "2013",
+       "d": "development kit, 7-inch LCD"
+      },
+      {
+       "n": "Oculus Rift DK2",
+       "mk": "Oculus",
+       "y": "2014",
+       "d": "OLED, positional tracking"
+      },
+      {
+       "n": "Oculus Rift CV1",
+       "mk": "Oculus",
+       "y": "2016",
+       "d": "first consumer version"
+      },
+      {
+       "n": "Oculus Rift S",
+       "mk": "Oculus",
+       "y": "2019",
+       "d": "inside-out tracking; discontinued 2021"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "HTC Vive",
+     "a": "Vive",
+     "d": "HTC's PC headset line built with Valve, tracked by Lighthouse base stations.",
+     "mk": "HTC",
+     "y": "2016",
+     "s": "https://en.wikipedia.org/wiki/HTC_Vive",
+     "v": [
+      {
+       "n": "HTC Vive",
+       "mk": "HTC",
+       "y": "2016",
+       "d": "first generation"
+      },
+      {
+       "n": "HTC Vive Pro",
+       "mk": "HTC",
+       "y": "2018",
+       "d": ""
+      },
+      {
+       "n": "Vive Pro Eye",
+       "mk": "HTC",
+       "y": "2019",
+       "d": "eye tracking"
+      },
+      {
+       "n": "HTC Vive Pro 2",
+       "mk": "HTC",
+       "y": "2021",
+       "d": "2448×2448 per eye, 120 Hz"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "HTC Vive Cosmos",
+     "a": "Cosmos",
+     "d": "HTC's PC headset with inside-out camera tracking and swappable faceplates.",
+     "mk": "HTC",
+     "y": "2019",
+     "s": "https://en.wikipedia.org/wiki/HTC_Vive",
+     "v": [
+      {
+       "n": "HTC Vive Cosmos",
+       "mk": "HTC",
+       "y": "2019",
+       "d": ""
+      },
+      {
+       "n": "Vive Cosmos Elite",
+       "mk": "HTC",
+       "y": "2020",
+       "d": "Lighthouse faceplate"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Valve Index",
+     "a": "Index",
+     "d": "Valve's PC headset with Lighthouse 2.0 tracking, finger-tracking Knuckles controllers and up to 144 Hz.",
+     "mk": "Valve",
+     "y": "2019",
+     "s": "https://en.wikipedia.org/wiki/Valve_Index",
+     "v": [
+      {
+       "n": "Valve Index",
+       "mk": "Valve",
+       "y": "2019",
+       "d": "full kit with base stations and controllers"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "PlayStation VR",
+     "a": "PS VR · PSVR2",
+     "d": "Sony's console headsets for PlayStation 4 and 5.",
+     "mk": "Sony",
+     "y": "2016",
+     "s": "https://en.wikipedia.org/wiki/Sony_PlayStation_Virtual_Reality",
+     "v": [
+      {
+       "n": "PlayStation VR (CUH-ZVR1)",
+       "mk": "Sony",
+       "y": "2016",
+       "d": "PlayStation 4, needs PlayStation Camera"
+      },
+      {
+       "n": "PlayStation VR (CUH-ZVR2)",
+       "mk": "Sony",
+       "y": "2017",
+       "d": "slimmer cable, built-in headphones"
+      },
+      {
+       "n": "PlayStation VR2",
+       "mk": "Sony",
+       "y": "2023",
+       "d": "PlayStation 5, OLED, eye tracking, inside-out tracking; PC adapter 2024"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Pimax wide-FOV headsets",
+     "a": "Pimax",
+     "d": "Pimax's high-resolution, wide-field-of-view PC headsets.",
+     "mk": "Pimax",
+     "y": "2016",
+     "s": "https://en.wikipedia.org/wiki/Pimax",
+     "v": [
+      {
+       "n": "Pimax 4K",
+       "mk": "Pimax",
+       "y": "2016",
+       "d": "first product"
+      },
+      {
+       "n": "Pimax 5K Plus",
+       "mk": "Pimax",
+       "y": "2018",
+       "d": ""
+      },
+      {
+       "n": "Pimax 5K XR",
+       "mk": "Pimax",
+       "y": "2018",
+       "d": ""
+      },
+      {
+       "n": "Pimax 8K",
+       "mk": "Pimax",
+       "y": "2019",
+       "d": ""
+      },
+      {
+       "n": "Pimax Vision 8K X",
+       "mk": "Pimax",
+       "y": "2019",
+       "d": ""
+      },
+      {
+       "n": "Pimax Vision 8K Plus",
+       "mk": "Pimax",
+       "y": "2019",
+       "d": ""
+      },
+      {
+       "n": "Pimax 5K Super",
+       "mk": "Pimax",
+       "y": "2020",
+       "d": ""
+      },
+      {
+       "n": "Pimax Artisan",
+       "mk": "Pimax",
+       "y": "2020",
+       "d": ""
+      },
+      {
+       "n": "Pimax Crystal",
+       "mk": "Pimax",
+       "y": "2023",
+       "d": ""
+      },
+      {
+       "n": "Pimax Crystal Light",
+       "mk": "Pimax",
+       "y": "2024",
+       "d": ""
+      },
+      {
+       "n": "Pimax Crystal Super",
+       "mk": "Pimax",
+       "y": "2024",
+       "d": ""
+      },
+      {
+       "n": "Pimax Dream Air",
+       "mk": "Pimax",
+       "y": "2025",
+       "d": ""
+      },
+      {
+       "n": "Pimax Dream Air SE",
+       "mk": "Pimax",
+       "y": "2025",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Bigscreen Beyond",
+     "a": "Beyond",
+     "d": "Ultra-light PC headset with a facial interface 3D-printed from a scan of the owner's face.",
+     "mk": "Bigscreen",
+     "y": "2023",
+     "s": "https://en.wikipedia.org/wiki/Bigscreen_Beyond",
+     "v": [
+      {
+       "n": "Bigscreen Beyond",
+       "mk": "Bigscreen",
+       "y": "2023",
+       "d": "127 g, fixed IPD"
+      },
+      {
+       "n": "Bigscreen Beyond 2",
+       "mk": "Bigscreen",
+       "y": "",
+       "d": "announced 2025; wider field of view, manual IPD"
+      },
+      {
+       "n": "Bigscreen Beyond 2e",
+       "mk": "Bigscreen",
+       "y": "",
+       "d": "adds eye tracking"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Windows Mixed Reality headset",
+     "a": "WMR",
+     "d": "PC headsets built by several makers to Microsoft's Windows Mixed Reality platform, with inside-out tracking.",
+     "mk": "",
+     "y": "2017",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_virtual_reality_headsets",
+     "v": [
+      {
+       "n": "Lenovo Explorer",
+       "mk": "Lenovo",
+       "y": "2017",
+       "d": ""
+      },
+      {
+       "n": "Acer AH101",
+       "mk": "Acer",
+       "y": "2017",
+       "d": ""
+      },
+      {
+       "n": "Dell Visor",
+       "mk": "Dell",
+       "y": "2017",
+       "d": ""
+      },
+      {
+       "n": "Samsung HMD Odyssey",
+       "mk": "Samsung",
+       "y": "2017",
+       "d": ""
+      },
+      {
+       "n": "Asus HC102",
+       "mk": "ASUS",
+       "y": "2018",
+       "d": ""
+      },
+      {
+       "n": "Samsung Odyssey+",
+       "mk": "Samsung",
+       "y": "2018",
+       "d": ""
+      },
+      {
+       "n": "HP Reverb G1",
+       "mk": "HP",
+       "y": "2019",
+       "d": ""
+      },
+      {
+       "n": "HP Reverb G2",
+       "mk": "HP",
+       "y": "2020",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Varjo Aero",
+     "Varjo"
+    ],
+    [
+     "Shiftall MeganeX",
+     "Shiftall"
+    ],
+    [
+     "Somnium Space VR1",
+     "Somnium Space"
+    ],
+    [
+     "Immersed Visor",
+     "Immersed"
+    ],
+    [
+     "Razer OSVR HDK 1.4",
+     "Razer"
+    ],
+    [
+     "Razer OSVR HDK 2",
+     "Razer"
+    ],
+    [
+     "Fove 0",
+     "Fove"
+    ],
+    [
+     "DPVR E4",
+     "DPVR"
+    ],
+    [
+     "Deepoon VR E3",
+     "Deepoon"
+    ]
+   ]
+  },
+  {
+   "n": "Phone VR viewer",
+   "a": "Cardboard · Gear VR",
+   "d": "Headset that encloses the eyes and holds a phone as its screen and computer.",
+   "t": [
+    "cardboard",
+    "plastic",
+    "fabric"
+   ],
+   "s": "https://www.reality-atlas.com/hardware",
+   "x": [
+    {
+     "n": "Google Cardboard",
+     "a": "Cardboard",
+     "d": "Google's fold-out cardboard viewer with open specifications that anyone could make.",
+     "mk": "Google",
+     "y": "2014",
+     "s": "https://en.wikipedia.org/wiki/Google_Cardboard",
+     "v": [
+      {
+       "n": "Google Cardboard",
+       "mk": "Google",
+       "y": "2014",
+       "d": "official viewer sold until 2021"
+      },
+      {
+       "n": "View-Master Virtual Reality Starter Pack",
+       "mk": "Mattel",
+       "y": "2015",
+       "d": "made with Google"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Samsung Gear VR",
+     "a": "Gear VR",
+     "d": "Samsung's plastic phone headset for Galaxy phones, made with Oculus.",
+     "mk": "Samsung",
+     "y": "2015",
+     "s": "https://en.wikipedia.org/wiki/Comparison_of_virtual_reality_headsets",
+     "v": [
+      {
+       "n": "Samsung Gear VR",
+       "mk": "Samsung",
+       "y": "2015",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Google Daydream View",
+     "a": "Daydream View",
+     "d": "Fabric-covered phone headset with a handheld controller for Google's Daydream platform.",
+     "mk": "Google",
+     "y": "2016",
+     "s": "https://en.wikipedia.org/wiki/Google_Daydream",
+     "v": [
+      {
+       "n": "Daydream View (1st gen)",
+       "mk": "Google",
+       "y": "2016",
+       "d": ""
+      },
+      {
+       "n": "Daydream View (2nd gen)",
+       "mk": "Google",
+       "y": "2017",
+       "d": "wider field of view"
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Zeiss VR One",
+     "Carl Zeiss"
+    ],
+    [
+     "Homido",
+     "Homido"
+    ],
+    [
+     "Merge VR",
+     "Merge VR"
+    ],
+    [
+     "Destek VONE",
+     "Destek"
+    ],
+    [
+     "DSCVR Cardboard",
+     "DSCVR"
+    ]
+   ]
+  },
+  {
+   "n": "XR display glasses",
+   "a": "AR glasses · video glasses · wearable display",
+   "d": "Sunglasses-style glasses with built-in screens that show a large virtual screen from a phone, console or PC over USB-C.",
+   "t": [
+    "display only",
+    "3DoF screen anchoring",
+    "electrochromic dimming"
+   ],
+   "s": "https://xpert.digital/en/xr-glasses-comparison-test/",
+   "x": [
+    {
+     "n": "Xreal Air and One",
+     "a": "Nreal · Xreal Air",
+     "d": "Xreal's display glasses; the One adds an in-house X1 chip that anchors the screen in place.",
+     "mk": "Xreal",
+     "y": "",
+     "s": "https://mixed-news.com/en/xreal-introduces-new-ar-glasses-with-native-3dof-tracking-larger-field-of-view-and-in-house-x1-chip/",
+     "v": [
+      {
+       "n": "Xreal Air 2",
+       "mk": "Xreal",
+       "y": "",
+       "d": "46° field of view"
+      },
+      {
+       "n": "Xreal One",
+       "mk": "Xreal",
+       "y": "2024",
+       "d": "X1 chip, 3DoF, 50°"
+      },
+      {
+       "n": "Xreal One Pro",
+       "mk": "Xreal",
+       "y": "2025",
+       "d": "57° field of view"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Viture Pro XR",
+     "a": "Viture One",
+     "d": "Viture's display glasses with micro-OLED screens, myopia sliders and electrochromic dimming.",
+     "mk": "Viture",
+     "y": "",
+     "s": "https://www.phonearena.com/reviews/viture-pro-review_id6881",
+     "v": [
+      {
+       "n": "Viture One Lite XR",
+       "mk": "Viture",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Viture Pro XR",
+       "mk": "Viture",
+       "y": "",
+       "d": "1080p, 120 Hz"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Rokid Max",
+     "a": "",
+     "d": "Rokid's display glasses for phones, handheld PCs and consoles.",
+     "mk": "Rokid",
+     "y": "",
+     "s": "https://www.androidcentral.com/gaming/virtual-reality/rokid-max-2-review",
+     "v": [
+      {
+       "n": "Rokid Max 2",
+       "mk": "Rokid",
+       "y": "2025",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "RayNeo Air 2S",
+     "RayNeo"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Meta",
+   "c": "United States",
+   "f": "2004",
+   "seg": "Mainstream",
+   "kf": "Quest headsets",
+   "d": "Owner of Oculus; sells the Quest line through its Reality Labs division.",
+   "sig": [
+    "Meta Quest"
+   ],
+   "rel": [
+    "Oculus"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Oculus",
+   "c": "United States",
+   "f": "2012",
+   "seg": "Mainstream",
+   "kf": "Rift headsets",
+   "d": "Palmer Luckey's VR company behind the Rift; bought by Facebook (now Meta) in 2014.",
+   "sig": [
+    "Oculus Rift"
+   ],
+   "rel": [
+    "Meta"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Oculus_Rift"
+  },
+  {
+   "n": "HTC",
+   "c": "Taiwan",
+   "f": "1997",
+   "seg": "Mainstream",
+   "kf": "Vive headsets",
+   "d": "Taiwanese electronics maker whose Vive line covers PC and standalone headsets.",
+   "sig": [
+    "HTC Vive",
+    "HTC Vive Cosmos",
+    "HTC Vive Focus"
+   ],
+   "rel": [
+    "Valve"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Valve",
+   "c": "United States",
+   "f": "1996",
+   "seg": "Premium",
+   "kf": "Index, Steam",
+   "d": "Game company and Steam store owner that makes the Index headset and Lighthouse tracking.",
+   "sig": [
+    "Valve Index"
+   ],
+   "rel": [
+    "HTC"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Sony",
+   "c": "Japan",
+   "f": "1946",
+   "seg": "Mainstream",
+   "kf": "PlayStation",
+   "d": "Japanese electronics group behind PlayStation and its VR headsets.",
+   "sig": [
+    "PlayStation VR"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Apple",
+   "c": "United States",
+   "f": "1976",
+   "seg": "Premium",
+   "kf": "Vision Pro",
+   "d": "Maker of the Vision Pro spatial computer.",
+   "sig": [
+    "Apple Vision Pro"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Samsung",
+   "c": "South Korea",
+   "f": "1938",
+   "seg": "Mainstream",
+   "kf": "Galaxy, Gear VR",
+   "d": "Korean electronics group behind Gear VR, Odyssey and Galaxy XR headsets.",
+   "sig": [
+    "Samsung Gear VR",
+    "Samsung Galaxy XR"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Google",
+   "c": "United States",
+   "f": "1998",
+   "seg": "Mainstream",
+   "kf": "Cardboard, Daydream",
+   "d": "Maker of the Cardboard and Daydream phone VR platforms.",
+   "sig": [
+    "Google Cardboard",
+    "Google Daydream View"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Pico",
+   "c": "China",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "standalone headsets",
+   "d": "Pico Immersive, ByteDance's VR division.",
+   "sig": [
+    "Pico 4"
+   ],
+   "s": "https://en.wikipedia.org/wiki/PICO_4"
+  },
+  {
+   "n": "Pimax",
+   "c": "China",
+   "f": "2015",
+   "seg": "Specialist",
+   "kf": "wide-FOV headsets",
+   "d": "Shanghai maker of high-resolution wide-field-of-view headsets.",
+   "sig": [
+    "Pimax wide-FOV headsets"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Pimax"
+  },
+  {
+   "n": "Bigscreen",
+   "c": "United States",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "ultralight headsets",
+   "d": "Bigscreen VR, maker of the custom-fitted Beyond headset.",
+   "sig": [
+    "Bigscreen Beyond"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Bigscreen_Beyond"
+  },
+  {
+   "n": "Xreal",
+   "c": "China",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "display glasses",
+   "d": "Maker of the Air and One display glasses, formerly Nreal.",
+   "sig": [
+    "Xreal Air and One"
+   ],
+   "s": "https://mixed-news.com/en/xreal-introduces-new-ar-glasses-with-native-3dof-tracking-larger-field-of-view-and-in-house-x1-chip/"
+  },
+  {
+   "n": "Viture",
+   "c": "",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "display glasses",
+   "d": "Maker of the One and Pro XR display glasses.",
+   "sig": [
+    "Viture Pro XR"
+   ],
+   "s": "https://www.phonearena.com/reviews/viture-pro-review_id6881"
+  },
+  {
+   "n": "Rokid",
+   "c": "China",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "display glasses",
+   "d": "Maker of the Max display glasses.",
+   "sig": [
+    "Rokid Max"
+   ],
+   "s": "https://www.androidcentral.com/gaming/virtual-reality/rokid-max-2-review"
+  }
+ ],
+ "traditions": [],
+ "notes": "Standalone: 29 models -> 5 archetypes (Quest, Vision Pro, Galaxy XR, Vive Focus, Pico 4) + 13 models; dropped Lenovo ThinkReality VRX (enterprise) and maker-less Woxter Neo VR100. Tethered: 53 models -> 8 archetypes (Rift, Vive, Vive Cosmos, Index, PlayStation VR, Pimax, Bigscreen Beyond, Windows Mixed Reality) + 9 models; enterprise-only Varjo VR-1/VR-2/VR-3/XR-1/XR-3/XR-4, StarVR One, VRgineers VRHero 5K and XTAL 3 dropped to kind level by the scope rule (Varjo Aero kept as the consumer model); XEO BIG dropped (no page). Phone viewer: 3 archetypes + 5 models; Pasonomi dropped as no-name. New kind XR display glasses (Xreal, Viture, Rokid, RayNeo). Rokid Max original not separately attested (only Max 2)."
+}
