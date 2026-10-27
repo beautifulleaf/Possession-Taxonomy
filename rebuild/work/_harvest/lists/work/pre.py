@@ -1,6 +1,7 @@
 import json, re, unicodedata, glob, os, sys
 os.chdir('/home/user/Possession-Taxonomy/rebuild')
 def nk(s):
+    s = s.translate(str.maketrans({'ø':'o','Ø':'O','æ':'ae','Æ':'AE','ß':'ss','ł':'l','Ł':'L','đ':'d','œ':'oe','Œ':'OE','’':"'"}))
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower().replace('&', 'and')
     return re.sub(r'[^a-z0-9]', '', s)
 reg = {}
