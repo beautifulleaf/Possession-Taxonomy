@@ -17,6 +17,12 @@ for kn,xs in spec.get('x',{}).items():
         if x['n'].lower() not in have:
             x.setdefault('a',''); x.setdefault('mk',''); x.setdefault('y',''); x.setdefault('v',[]); x.setdefault('dt','')
             k['x'].append(x); have.add(x['n'].lower()); cnt['x']+=1
+for kn,am in spec.get('v',{}).items():
+    k=kb[kn]
+    for an,vs in am.items():
+        a=[x for x in k['x'] if x['n']==an][0]; have={v['n'].lower() for v in a['v']}
+        for v in vs:
+            if v['n'].lower() not in have: a['v'].append(v); have.add(v['n'].lower()); cnt.setdefault('v',0); cnt['v']+=1
 hb={x['n'].lower() for x in d['brands']}
 for br in spec.get('brands',[]):
     if br['n'].lower() not in hb: d['brands'].append(br); hb.add(br['n'].lower()); cnt['b']+=1
