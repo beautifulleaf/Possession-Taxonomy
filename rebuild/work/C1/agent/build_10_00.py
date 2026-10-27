@@ -76,5 +76,8 @@ brands=[
 notes=("Kept all 7 planned kinds. Pyramex safety-glasses list cut from 15 models to 5 (generic 'Over-glasses (OTG)' moved to t); 'Welding earmuffs' moved to t; generic respirator and hard-hat style entries moved to t. "
  "Bollé kept as brand only: no specific Bollé model page retrieved. Left out the 3M 7500 Series as an archetype (only confirmed as a mask name on a retailer page, kept in m) and ProTac/Optime launch years (none found). "
  "The petzl.com Vertex page could not be retrieved; Vertex sourced from a distributor article. Speedglas RS-500/RS-700 (sold as 'RADNOR by 3M' in old data) recorded under maker 3M.")
+SEG={'3M': 'Mainstream', 'MSA': 'Professional & flagship', 'Bullard': 'Specialist', 'Petzl': 'Professional & flagship', 'Uvex': 'Premium', 'Bollé': 'Premium', 'Lincoln Electric': 'Professional & flagship', 'Miller': 'Professional & flagship', 'Pyramex': 'Value', 'Honeywell': 'Mainstream', 'Moldex': 'Specialist', 'ESAB': 'Professional & flagship'}
+for b in brands:
+    b['kf']=b['seg']; b['seg']=SEG[b['n']]
 out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
 tmp=W+'shelves/10_00.json.tmp'; json.dump(out,open(tmp,'w'),ensure_ascii=False,indent=1); os.replace(tmp,W+'shelves/10_00.json')

@@ -114,5 +114,8 @@ trads=[]
 notes=("Kept all 7 old kinds; added Steel rule and Marking knife (new, sourced). Japanese kebiki made an archetype of Marking gauge (old kebiki models kept in m and as versions). "
  "Left out: Etalon as a separate archetype (only TESA's acquisition history found), Starrett 'No. 11' naming (brochure shows 11H/33H only), Mitutoyo 500-196 launch year beyond the 2013 AOS series date, Interapid 312B model numbers (seen only in search snippets), digital angle gauge makers (no page retrieved), Shinwa history page (site down). "
  "Square kept wooden/engineer's/mitre as types plus archetypes. CMM and hardness tester were dropped at plan stage.")
+SEG={'Starrett': 'Professional & flagship', 'Mitutoyo': 'Professional & flagship', 'Brown & Sharpe': 'Heritage manufactory', 'TESA': 'Professional & flagship', 'Moore & Wright': 'Heritage manufactory', 'Interapid': 'Specialist', 'Lufkin': 'Mainstream', 'Shinwa': 'Specialist', 'Veritas': 'Premium', 'Glen-Drake Toolworks': 'Artisan & independent', 'Blue Spruce Toolworks': 'Artisan & independent'}
+for b in brands:
+    b['kf']=b['seg']; b['seg']=SEG[b['n']]
 out={"kinds":kinds,"brands":brands,"traditions":trads,"notes":notes}
 tmp=W+'shelves/05_00.json.tmp'; json.dump(out,open(tmp,'w'),ensure_ascii=False,indent=1); os.replace(tmp,W+'shelves/05_00.json')
