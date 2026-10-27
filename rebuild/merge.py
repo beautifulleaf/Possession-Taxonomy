@@ -17,6 +17,9 @@ for c in sys.argv[1:]:
         for m in json.load(open(sp)).get('out', []):
             if m['to'] != c or m['kind']['n'].lower() in names: continue
             cov = covered.get(src + '>' + c + ':' + m['kind']['n'])  # coordinator: moved kind already covered under another name
+            if cov and cov.startswith('='):  # coordinator rename on arrival (e.g. an 'Other …' catch-all)
+                m = dict(m, kind=dict(m['kind'], n=cov[1:])); print('renamed', m['kind']['n'])
+                cov = None
             if cov:
                 k = next((k for dp in d['depts'] for s in dp['s'] for k in s['k'] if k['n'] == cov), None)
                 if k is not None:

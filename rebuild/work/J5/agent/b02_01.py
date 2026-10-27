@@ -1,0 +1,18 @@
+import json,os
+W='https://en.wikipedia.org/wiki/'
+k=[
+{"n":"Quinoa","a":"","d":"The seed of the quinoa plant sold as a grain.","s":"https://www.ancientgrains.com/quinoa","t":["White","Red","Black"],"m":[["Pasankalla red quinoa",""]]},
+{"n":"Pearl barley","a":"","d":"Barley grains with the hull and bran polished off, sold to cook.","s":"https://store.edenfoods.com/whole-grain/shop-all-whole-grain/","t":["Pearl","Hulled"]},
+{"n":"Cracked wheat and bulgur","a":"dalia","d":"Whole wheat cracked into coarse pieces; bulgur is parboiled, dried then cracked.","s":"https://www.kesargrocery.com/speciality-flour/?page=2&sort=title","t":["Bulgur fine","Bulgur medium","Bulgur coarse","Raw cracked wheat (dalia)"]},
+{"n":"Farro and ancient wheats","a":"","d":"Hulled wheats cooked whole: farro (einkorn, emmer or spelt), spelt grain and freekeh.","s":W+"Farro","t":["Einkorn","Emmer","Spelt grain","Khorasan (Kamut)","Freekeh"],
+ "x":[{"n":"Farro (Garfagnana emmer)","a":"","d":"Emmer grown in the Garfagnana region of Tuscany is locally known as farro.","mk":"","y":"","s":W+"Farro","dt":"emmer · Garfagnana, Tuscany"}]},
+{"n":"Polenta and cornmeal","a":"grits","d":"Dried maize ground for porridge or baking, from coarse polenta to fine meal and hominy grits.","s":W+"Polenta","t":["Coarse polenta","Fine polenta","Quick-cooking polenta","Stone-ground","Steel-ground","Blue cornmeal","Hominy grits","Quick grits"]},
+{"n":"Millet","a":"","d":"Small whole millet grains (finger, foxtail, kodo and others).","s":"https://www.ancientgrains.com/millet","t":["Pearl","Finger","Foxtail","Proso","Kodo"]},
+{"n":"Buckwheat groats","a":"kasha","d":"Hulled buckwheat seeds, raw or roasted.","s":"https://store.edenfoods.com/whole-grain/shop-all-whole-grain/","t":["Raw","Roasted (kasha)"]},
+{"n":"Wild rice","a":"","d":"The long dark grain of the aquatic grass Zizania, not a rice plant.","s":"https://wildrice.com/","t":["Hand-harvested lake","Paddy-grown"]},
+{"n":"Popcorn kernels","a":"","d":"Dried kernels of popping maize sold to pop.","s":"https://store.edenfoods.com/whole-grain/shop-all-whole-grain/","t":["Butterfly (snowflake)","Mushroom"]},
+{"n":"Tapioca pearls","a":"sabudana","d":"Dried pearls of cassava starch.","s":"https://www.ishopindian.com/Deep-Upvas-Fasting-Friendly-Sabudana"},
+{"n":"Edible seeds","a":"","d":"Seeds sold whole or shelled as food, such as sunflower, hemp, chia, flax, pumpkin and sesame.","s":"https://www.realfoods.co.uk/(X(1))/product/585/hulled-sunflower-seeds","t":["Sunflower","Hemp","Chia","Flax","Pumpkin","Sesame"]}]
+out={"kinds":k,"brands":[],"traditions":[],"notes":"Farro della Garfagnana IGP, Polenta Taragna and Mexican heirloom maize archetypes omitted: the retrieved pages do not confirm protected status or detail. Tier shelf, so no brand entries; Wikipedia pages used only for type lists in t."}
+json.dump(out,open('work/J5/shelves/02_01.tmp','w'),ensure_ascii=False,indent=1)
+os.rename('work/J5/shelves/02_01.tmp','work/J5/shelves/02_01.json')
