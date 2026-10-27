@@ -1,0 +1,56 @@
+import sys; sys.path.insert(0,'work/C4/agent')
+from lib import *
+H='https://www.hobbycraft.co.uk/sewing/haberdashery'
+HP='https://en.wikipedia.org/wiki/History_of_sewing_patterns'; SC='https://findingdulcinea.com/best-fabric-scissors-for-sewing-projects/'; CQ='https://thecraftyquilter.com/?p=25863'
+TU='https://gatherhereonline.com/products/sewing-needles-sharp-8-tulip'; DF='https://www.talkofthehouse.com/?p=62062'; SR='https://www.heatherhandmade.com/the-best-seam-ripper/'; PR='https://prymamericas.com/products/27101'
+kinds=[
+{"n":"Dressmaking shears","a":"fabric scissors","d":"Long-bladed shears made for cutting fabric.","s":H,
+ "t":["bent handle","knife-edge","left-handed","pinking shears","thread snips"],
+ "x":[X("Knife-edge Dressmaker's Shears (8 in)","Gingher",SC,"Bent-handle 8 in shears with chrome-plated nickel finish and lifetime warranty; the classic fabric shear.","",dt="8 in · bent handle"),
+      X("7250 Shear","Kai",SC,"10 in high-carbon steel shears, lightweight and ambidextrous, at a premium price.","",dt="10 in · needle point"),
+      X("Original Orange-Handled","Fiskars",SC,"8 in bent-handle stainless shears with lifetime warranty; right-handed only.","",dt="8 in")],
+ "m":[["Knife-edge Dressmaker Shears","Gingher"]]},
+{"n":"Sewing pattern","a":"paper pattern · PDF pattern","d":"Printed or downloadable template and instructions for making a garment or item.","s":HP,
+ "t":["printed tissue","PDF (downloadable)","multi-size","vintage (dated by envelope)","indie pattern"],
+ "x":[X("Butterick","Butterick",HP,"First major maker of graded tissue-paper patterns, launched in 1863.","1863",dt="graded sizes"),
+      X("McCall's","McCall Pattern Company",HP,"New York pattern house established by James McCall in 1870.","1870",dt=""),
+      X("Vogue Patterns","Vogue",HP,"Pattern service begun in 1899 as a spin-off of the magazine; Vogue Pattern Company formed 1914.","1899",dt=""),
+      X("Simplicity","Simplicity",HP,"Pattern maker started in 1927 with easy-to-use, lower-priced designs.","1927",dt=""),
+      X("Fitzpatterns","Fitzpatterns",HP,"Early seller of downloadable patterns, from 2004.","2004",dt="downloadable")]},
+{"n":"Hand sewing needle","a":"sharps · betweens · milliners","d":"Needle made for hand sewing with thread (sharps, betweens, quilting).","s":H,
+ "t":["sharps","betweens (quilting)","milliner's","embroidery","gold-plated eye","nickel-free"],
+ "x":[X("Tulip Sharps and Hiroshima needles","Tulip",TU,"Japanese needles with polished gold-plated eyes; sharps #8 is 0.61 x 36.5 mm and milliner's suits nickel allergy.","",dt="sharps · milliner's · betweens · sizes by number")]},
+{"n":"Pin and fabric clip","a":"Wonder Clips","d":"Pin or clip made to hold fabric layers while sewing.","s":H,
+ "t":["glass-head pin","flat-head pin","patchwork pin (fine)","fabric clip","safety pin","magnetic pin caddy"],
+ "x":[X("Wonder Clips","Clover",CQ,"Plastic clips that hold layers where pins would leave holes.","",dt=""),
+      X("Fine Patchwork Pins","Clover",CQ,"Thin, sharp pins that slide through quilting cotton easily.","",dt="")]},
+{"n":"Measuring and marking tools","a":"tape measure · tailor's chalk · seam gauge · seam ripper","d":"Tape, gauge, chalk and ripper used to measure, mark and unpick cloth.","s":PR,
+ "t":["tape measure","tailor's chalk","chalk wheel","seam gauge","see-through ruler","seam ripper"],
+ "x":[X("Measuring Tool Set 27101","Dritz",PR,"Four-piece set: metal gauge, 8 in see-thru ruler, 6 in seam gauge and 36 in tape.","",dt=""),
+      X("Seam ripper","Clover",SR,"Tied first in a six-ripper test with the ergonomic Dritz; thin sharp blade.","",dt="")]},
+{"n":"Quilting ruler","a":"patchwork ruler","d":"Clear acrylic ruler made for measuring and guiding rotary cuts in patchwork.","s":"https://cottonpatch.co.uk/acatalog/Rotary-Cutters.html",
+ "t":["non-slip grip","square","rectangle","diamond / 60 degree","strip"],
+ "x":[X("Non-slip rulers","Creative Grids",CQ,"Frosted edges and grip dots stop the ruler slipping; 8.5 x 12.5 in is a favourite size.","",dt="8.5 x 12.5 in"),
+      X("Splash rotary cutter (45 mm)","Olfa",CQ,"Quick-change blade cutter from the firm that invented the rotary cutter in 1979.","1979",dt="45 mm")]},
+{"n":"Dress form","a":"dressmaking mannequin","d":"Adjustable or fixed body form for fitting garments.","s":H,
+ "t":["adjustable (dial)","fixed-size","padded cover","collapsible shoulder","hem marker"],
+ "x":[X("Sew You Adjustable Dress Form","Dritz",DF,"12 multi-point adjustments, 9 wheels, height to 62.5 in; sizes US 4-12.","",dt="sizes 4-12"),
+      X("Sew Simple FG304","Adjustoform",DF,"8-part body with 12 thumb wheels and Pin Grip hem marker; two-year guarantee.","",dt="sizes 4-12"),
+      X("Female Adjustable Dress Form DF150","Singer",DF,"12 dials marked in inches and centimetres, 360-degree hem guide; sizes 4-10.","",dt="sizes 4-10")]},
+]
+brands=[
+B("Gingher","United States","","Premium","shears","US maker of knife-edge dressmaker's shears.",sig=["Knife-edge Dressmaker's Shears (8 in)"],s=SC),
+B("Kai","Japan","","Premium","Japanese shears","Japanese cutlery and scissors maker.",sig=["7250 Shear"],s=SC),
+B("Fiskars","Finland","1649","Mainstream","orange-handled scissors","Finnish maker of the orange-handled shears.",sig=["Original Orange-Handled"],s=SC),
+B("Butterick","United States","1863","Heritage manufactory","sewing patterns","Pioneer of graded tissue-paper sewing patterns.",s=HP,sig=["Butterick"]),
+B("McCall Pattern Company","United States","1870","Heritage manufactory","sewing patterns","New York pattern house founded by James McCall.",s=HP,sig=["McCall's"]),
+B("Vogue","United States","1899","Heritage manufactory","couture patterns","Pattern line begun by Vogue magazine.",s=HP,sig=["Vogue Patterns"]),
+B("Simplicity","United States","1927","Heritage manufactory","sewing patterns","Pattern maker aiming for easy-to-read, lower-priced patterns.",s=HP,sig=["Simplicity"]),
+B("Tulip","Japan","","Premium","hand needles","Japanese needle company making Hiroshima needles.",s=TU,sig=["Tulip Sharps and Hiroshima needles"]),
+B("Clover","Japan","","Premium","sewing notions","Japanese notions maker of Wonder Clips and seam rippers.",s=CQ,sig=["Wonder Clips","Fine Patchwork Pins","Seam ripper"]),
+B("Dritz","United States","","Mainstream","sewing notions","US notions brand sold by Prym Americas.",s=PR,sig=["Measuring Tool Set 27101","Sew You Adjustable Dress Form"]),
+B("Creative Grids","United States","","Specialist","quilting rulers","Quilting ruler brand with non-slip surface.",s=CQ,sig=["Non-slip rulers"]),
+B("Olfa","Japan","","Premium","cutters","Japanese cutter maker that invented the rotary cutter in 1979.",s=CQ,sig=["Splash rotary cutter (45 mm)"]),
+B("Adjustoform","United Kingdom","","Specialist","dress forms","Dress form maker of the Sew Simple range.",s=DF,sig=["Sew Simple FG304"]),
+]
+write('02_04',kinds,brands,[],"Burda, Kai/Clover/Tulip founding dates, Olfa/Fiskars countries from knowledge only (Fiskars 1649 from knowledge). No retrieved page for indie pattern houses beyond Fitzpatterns. Adjustoform model is FG304 (page) not FG306 (secondary). Creative Grids / Olfa archetypes share the Quilting ruler kind.")
