@@ -98,6 +98,7 @@ brands=[
  br("R. White's","United Kingdom","1845","lemonade","British clear lemonade brand.",["R. White's Lemonade"],W+"Lemonade"),
  br("Schweppes","Switzerland","1783","mixers and soft drinks","Soda-water firm founded by Johann Jacob Schweppe in 1783.",["Schweppes Lemonade"],W+"Carbonated_water"),
 ]
+import sys; sys.path.insert(0,"/home/user/Possession-Taxonomy/rebuild/work/J9/agent"); from segfix import fix; brands=fix(brands)
 out={"kinds":kinds,"brands":brands,"traditions":[],"notes":"All nine planned kinds are new (no old data). Diet/zero, caffeine-free and cane-sugar handled as types, with dated variants as archetype versions. Regional colas without fetched pages kept as flat m entries (named on the Cola page). Lemon & Paeroa left out (only a disambiguation page retrieved). Welch's/Nehi grape soda not on retrieved pages, left out. Dr Pepper-style store brands (Dr. Thunder etc.) not confirmed. Fanta founding year 1940 per infobox."}
 p='/home/user/Possession-Taxonomy/rebuild/work/J9/shelves/01_00.json'
 json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

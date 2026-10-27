@@ -1,0 +1,93 @@
+import json, os
+def X(n,d,mk,y,s,v,dt,a=""):
+    return {"n":n,"a":a,"d":d,"mk":mk,"y":y,"s":s,"v":[{"n":a_,"mk":b,"y":c,"d":e} for a_,b,c,e in v],"dt":dt}
+W="https://en.wikipedia.org/wiki/"
+kinds=[
+ {"n":"Wood lathe","a":"woodturning lathe","d":"Machine that turns timber between centres or on a chuck against hand-held tools.",
+  "t":["Mini / midi lathe","Full-size bench lathe","Floor-standing lathe","Bowl lathe (outboard or sliding headstock)","Twin-bar bed lathe"],
+  "s":"https://www.toolstation.com/power-tools/bench-tools/c335",
+  "x":[
+   X("Coronet / Record twin-bar lathe","British twin-bar bed lathe family sold under many model names, from Coronet to Record CL series.","Coronet","",
+     "https://store.lathes.co.uk/model/cl4",
+     [["Coronet No.0","Coronet","",""],["Coronet No.1","Coronet","",""],["Coronet No.2","Coronet","",""],
+      ["Record CL1","Record Power","",""],["Record CL3","Record Power","",""],["Record CL4","Record Power","","variable speed"]],
+     "bed length · swivel head · speed control"),
+   X("Coronet Herald","Cast-iron electronic variable-speed lathe styled on the vintage Coronet series.","Record Power","",
+     "https://www.djevansgroup.co.uk/products/coronet-herald-heavy-duty-cast-iron-electronic-variable-speed-lathe",
+     [["Coronet Herald (16007)","Record Power","","swivel head, reverse"]],"cast iron · variable speed"),
+   X("Oneway 2000 Series","Heavy welded-steel-bed lathes with electronic drive and strong low-speed torque.","Oneway","",
+     "https://www.oaktreesupply.com/products/oneway-2436-lathe-2hp",
+     [["2436","Oneway","","24 in swing, 36 in between centres; 1.5, 2 or 3 hp"]],"swing · bed length · motor"),
+   X("Robust lathes","American-made lathes with stainless-steel bedways, made by Robust Tools.","Robust","",
+     "https://turnawoodbowl.com/robust-sweet-16-wood-lathe-review/",
+     [["American Beauty","Robust","","flagship"],["Sweet 16","Robust","","removable bed section; Version 2 adds digital readout"],["Liberty","Robust","",""]],
+     "swing · bed length · motor 1.5–2 hp"),
+   X("JET 1642","16 x 42 in electronic variable-speed lathe with sliding headstock.","JET","",
+     "https://finewoodworking.com/2007/05/01/jwl-1642-evs-2-lathe-review",
+     [["JWL-1642-EVS-2","JET","2007","2 hp, reviewed by Fine Woodworking"]],"motor · speed ranges"),
+   X("Nova DVR-XP","Teknatool lathe with direct-drive DVR 'smart' motor and continuously variable speed.","Teknatool","",
+     "https://www.finewoodworking.com/2007/05/01/nova-dvr-xp-lathe-review",
+     [["DVR-XP","Teknatool","2007","1.75 hp, 16 in swing, 100–3,500 rpm"]],"swing · bed extension")],
+  "m":[["TC-WW 1000/1","Einhell"]]},
+ {"n":"Drill press","a":"pillar drill","d":"Drill on a column with a table and feed lever, bench or floor mounted.",
+  "t":["Bench drill press","Floor drill press","Radial drill press","Magnetic-base drill press"],
+  "s":"https://www.toolstation.com/power-tools/bench-tools/c335",
+  "x":[X("Nova Voyager","Digitally controlled direct-drive drill press with automatic speed selection and electronic depth stop.","Teknatool","2017",
+     "https://www.woodshopnews.com/tools-machines/teknatool-releases-new-nova-voyager-drill-press",
+     [["18 in Nova Voyager DVR","Teknatool","2017","1.75 hp DVR motor, 50–5,500 rpm"]],"motor · speed range · quill travel")],
+  "m":[["TE-BD 750 E Expert","Einhell"]],"r":[["M18 FUEL","Milwaukee"]]},
+ {"n":"CNC router","a":"desktop CNC · hobby CNC","d":"Computer-controlled gantry machine that routes along programmed paths.",
+  "t":["Belt-driven","Lead-screw / ball-screw","Rail type (V-wheel, linear rail)"],
+  "s":"https://shop.carbide3d.com/collections/cnc-routers",
+  "x":[
+   X("Shapeoko","Open-source hobby CNC router kit that started the desktop CNC boom; now Carbide 3D's line.","Carbide 3D","2011",
+     "https://makezine.com/article/workshop/woodworking/shapeoko-the-affordable-cnc-mill-kit/",
+     [["Shapeoko (Project Shapeoko)","","2011","Edward Ford's Kickstarter kit on MakerSlide rails"],
+      ["Shapeoko 2","Inventables","",""],["Shapeoko 3","Carbide 3D","","clean-sheet redesign"],
+      ["Shapeoko 4","Carbide 3D","","XL and XXL sizes"],["Shapeoko Pro","Carbide 3D","","MGN rails"],
+      ["Shapeoko 5 Pro","Carbide 3D","2022","HG-15 rails; 2x2, 4x2, 4x4"],["Shapeoko 5.1 Pro","Carbide 3D","",""],["Shapeoko HDM","Carbide 3D","","heavier machine for aluminium and brass"]],
+     "work area · rail type · spindle or router"),
+   X("X-Carve","Inventables' own desktop CNC, a refreshed Shapeoko 2 design on MakerSlide.","Inventables","2015",
+     "https://newatlas.com/x-carve-3d-carving/36467/?amp=true",
+     [["X-Carve 500 mm","Inventables","2015",""],["X-Carve 1000 mm","Inventables","2015",""]],"work area · Easel software"),
+   X("Carvera","Desktop CNC mill with automatic tool changer, for PCBs and light metal milling.","Makera","2021",
+     "https://makezine.com/article/digital-fabrication/machining/first-look-carvera-desktop-cnc-prototyping-station/",
+     [["Carvera","Makera","2021","Kickstarter; auto tool changer"]],"work area · tool changer · 4th axis")],
+  "r":[["Shapeoko","Carbide 3D"]]},
+ {"n":"Laser cutter","a":"laser engraver · laser cutter and engraver","d":"Desktop machine that cuts and engraves wood, acrylic and leather with a CO2, diode or fibre laser beam.",
+  "t":["Diode laser","CO2 laser","Fibre laser","Galvo engraver","Enclosed","Open-frame"],
+  "s":W+"Glowforge",
+  "x":[
+   X("Epilog desktop CO2 laser","Small-format CO2 laser engraving system; Epilog was its first maker.","Epilog","1988",
+     "https://www.epiloglaser.com/company/about-epilog-laser/",
+     [["Fusion Pro","Epilog","2019","IRIS camera"],["Fusion Edge","Epilog","2020","smaller system"],["Fusion Maker","Epilog","",""]],"bed size · laser wattage"),
+   X("Glowforge","Crowdfunded camera-guided desktop laser cutter that brought lasers to home crafters.","Glowforge","",
+     W+"Glowforge",
+     [["Pro","Glowforge","","CO2"],["Pro HD","Glowforge","",""],["Plus","Glowforge","",""],["Plus HD","Glowforge","",""],["Aura","Glowforge","",""],["Spark","Glowforge","","diode, economy model"]],
+     "laser type · power · passthrough slot"),
+   X("xTool","Shenzhen consumer laser range spanning diode, CO2 and galvo machines.","xTool","2021",
+     W+"XTool",
+     [["M1","xTool","2021","hybrid laser and blade cutter; Kickstarter"],["M1 Ultra","xTool","",""],["D1 / D1 Pro","xTool","","open-frame diode engraver"],
+      ["F1","xTool","","compact galvo engraver"],["P2","xTool","","enclosed CO2 cutter; Red Dot 2024"]],
+     "laser type · power · enclosure")]},
+]
+brands=[
+ {"n":"Coronet","c":"United Kingdom","f":"","seg":"Woodturning lathes","d":"Maker of twin-bar bed lathes; the name now belongs to Record Power.","lines":["No.0","No.1","No.2"],"eras":[],"sig":["Coronet / Record twin-bar lathe"],"sc":[],"rel":["Record Power"],"s":"https://store.lathes.co.uk/model/cl4"},
+ {"n":"Record Power","c":"United Kingdom","f":"","seg":"Woodworking machinery","d":"Sheffield maker of hobby woodworking machines, owner of Coronet, Burgess and CamVac.","lines":["Coronet","Startrite","CamVac","Burgess"],"eras":[],"sig":["Coronet Herald"],"sc":[],"rel":["Coronet"],"s":"https://www.madeinbritain.org/index.php/members/record-power"},
+ {"n":"Oneway","c":"","f":"","seg":"Woodturning lathes","d":"Maker of heavy welded-bed woodturning lathes (2000 Series).","lines":["2000 Series"],"eras":[],"sig":["Oneway 2000 Series"],"sc":[],"rel":[],"s":"https://www.oaktreesupply.com/products/oneway-2436-lathe-2hp"},
+ {"n":"Robust","c":"United States","f":"","seg":"Woodturning lathes","d":"Robust Tools, American lathe maker owned by Brent English.","lines":["American Beauty","Sweet 16","Liberty"],"eras":[],"sig":["Robust lathes"],"sc":[],"rel":[],"s":"https://turnawoodbowl.com/robust-sweet-16-wood-lathe-review/"},
+ {"n":"JET","c":"United States","f":"","seg":"Woodworking and metalworking machinery","d":"JPW Industries machinery brand alongside Powermatic.","lines":[],"eras":[],"sig":["JET 1642"],"sc":[],"rel":["Powermatic"],"s":"knowledge"},
+ {"n":"Teknatool","c":"New Zealand","f":"","seg":"Woodturning lathes and drill presses","d":"Teknatool International, maker of Nova lathes, chucks and DVR direct-drive machines.","lines":["Nova"],"eras":[],"sig":["Nova DVR-XP","Nova Voyager"],"sc":[],"rel":[],"s":"https://www.woodshopnews.com/tools-machines/teknatool-releases-new-nova-voyager-drill-press"},
+ {"n":"Carbide 3D","c":"United States","f":"","seg":"Hobby CNC","d":"Maker of Shapeoko and Nomad CNC machines; Shapeoko creator Edward Ford joined in 2014.","lines":["Shapeoko"],"eras":[],"sig":["Shapeoko"],"sc":[],"rel":["Inventables"],"s":"https://carbide3d.com/vs/shapeoko-vs-xcarve/"},
+ {"n":"Inventables","c":"United States","f":"","seg":"Hobby CNC","d":"Chicago company that sold Shapeoko kits, then its own X-Carve machines and Easel software.","lines":["X-Carve","X-Carve Pro"],"eras":[],"sig":["X-Carve"],"sc":[],"rel":["Carbide 3D"],"s":"https://newatlas.com/x-carve-3d-carving/36467/?amp=true"},
+ {"n":"Makera","c":"","f":"","seg":"Hobby CNC","d":"Maker of the Carvera desktop CNC mill with automatic tool changer.","lines":["Carvera"],"eras":[],"sig":["Carvera"],"sc":[],"rel":[],"s":"https://makezine.com/article/digital-fabrication/machining/first-look-carvera-desktop-cnc-prototyping-station/"},
+ {"n":"Epilog","c":"United States","f":"1988","seg":"Laser systems","d":"Golden, Colorado maker of CO2 laser engravers; claims the first small-format laser engraving system.","lines":["Fusion Pro","Fusion Edge","Fusion Maker"],"eras":[],"sig":["Epilog desktop CO2 laser"],"sc":[],"rel":[],"s":"https://www.epiloglaser.com/company/about-epilog-laser/"},
+ {"n":"Glowforge","c":"United States","f":"","seg":"Consumer lasers","d":"Crowdfunded maker of camera-guided desktop laser cutters for home crafters.","lines":["Pro","Plus","Aura","Spark"],"eras":["Dan Shapiro"],"sig":["Glowforge"],"sc":[],"rel":[],"s":W+"Glowforge"},
+ {"n":"xTool","c":"China","f":"2021","seg":"Consumer lasers","d":"Shenzhen laser brand associated with Makeblock.","lines":["M","D","F","P"],"eras":[],"sig":["xTool"],"sc":[],"rel":[],"s":W+"XTool"},
+]
+SEG={"Coronet":"Heritage manufactory","Record Power":"Mainstream","Oneway":"Premium","Robust":"Artisan & independent","JET":"Mainstream","Teknatool":"Specialist","Carbide 3D":"Specialist","Inventables":"Specialist","Makera":"Specialist","Epilog":"Professional & flagship","Glowforge":"Premium","xTool":"Mainstream"}
+for b in brands: b["kf"]=b["seg"]; b["seg"]=SEG[b["n"]]
+notes=("No Onefinity archetype: its compare page returned no content. No Clarke/Record Power drill-press archetype (no fetched source). "
+ "Shapeoko generations made versions; old Shapeoko 4 / 5.1 Pro / HDM models moved into versions. Axminster blocked (403). New kind Laser cutter sourced to Wikipedia Glowforge.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p="work/C1/shelves/04_01.json"; t=p+".tmp"; json.dump(out,open(t,"w"),ensure_ascii=False,indent=1); os.replace(t,p)

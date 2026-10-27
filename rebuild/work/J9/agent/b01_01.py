@@ -82,6 +82,7 @@ brands=[
  br("Olipop","United States","2018","prebiotic soda","Oakland prebiotic soda maker.",["Olipop"],W+"Olipop",["Poppi"]),
  br("Poppi","United States","2018","prebiotic soda","Texas prebiotic soda brand, owned by PepsiCo since 2025.",["Poppi"],W+"Poppi_(drink)",["Olipop"]),
 ]
+import sys; sys.path.insert(0,"/home/user/Possession-Taxonomy/rebuild/work/J9/agent"); from segfix import fix; brands=fix(brands)
 out={"kinds":kinds,"brands":brands,"traditions":[],"notes":"All eight planned kinds are new. Thums Up and Afri-Cola already sit on the Cola kind (shelf 01_00), so not duplicated. Kola champagne page 404; covered via Inca Kola and Postobón's Colombiana, with Kola Román as a flat model. Kuat kept as a flat model (named on the Guaraná Antarctica page). Bundaberg ginger beer left to the Mixers/Fermented shelves. Sarsaparilla versions point to brands without register entries (Badak, Sarsi, HeySong, F&N) as stubs for the register later."}
 p='/home/user/Possession-Taxonomy/rebuild/work/J9/shelves/01_01.json'
 json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

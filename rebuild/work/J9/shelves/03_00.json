@@ -578,7 +578,7 @@
    "n": "Tropicana",
    "c": "United States",
    "f": "1947",
-   "seg": "Chilled juice",
+   "seg": "Mainstream",
    "d": "Orange-juice maker founded by Anthony T. Rossi in Florida; owned by PAI Partners (61%) and PepsiCo since 2021.",
    "lines": [
     "Pure Premium",
@@ -588,26 +588,28 @@
     "Naked Juice",
     "Dole"
    ],
-   "s": "https://en.wikipedia.org/wiki/Tropicana_Products"
+   "s": "https://en.wikipedia.org/wiki/Tropicana_Products",
+   "kf": "chilled juice"
   },
   {
    "n": "Innocent Drinks",
    "c": "United Kingdom",
    "f": "1998",
-   "seg": "Smoothies & juice",
+   "seg": "Mainstream",
    "d": "London smoothie and juice maker, majority-owned by Coca-Cola since 2010.",
    "lines": [
     "Smoothies",
     "Juices",
     "Coconut water"
    ],
-   "s": "https://en.wikipedia.org/wiki/Innocent_Drinks"
+   "s": "https://en.wikipedia.org/wiki/Innocent_Drinks",
+   "kf": "smoothies & juice"
   },
   {
    "n": "Minute Maid",
    "c": "United States",
    "f": "1946",
-   "seg": "Juice",
+   "seg": "Mainstream",
    "d": "Coca-Cola juice brand that first marketed frozen orange concentrate; Cappy and Del Valle regionally.",
    "lines": [
     "Minute Maid Lemonade",
@@ -619,13 +621,14 @@
    "rel": [
     "Simply Beverages"
    ],
-   "s": "https://en.wikipedia.org/wiki/Minute_Maid"
+   "s": "https://en.wikipedia.org/wiki/Minute_Maid",
+   "kf": "juice"
   },
   {
    "n": "Simply Beverages",
    "c": "United States",
    "f": "2001",
-   "seg": "Chilled not-from-concentrate juice",
+   "seg": "Mainstream",
    "d": "Coca-Cola's chilled juice and lemonade brand within Minute Maid.",
    "lines": [
     "Simply Orange",
@@ -636,13 +639,14 @@
    "rel": [
     "Minute Maid"
    ],
-   "s": "https://en.wikipedia.org/wiki/Simply_Orange_Juice_Company"
+   "s": "https://en.wikipedia.org/wiki/Simply_Orange_Juice_Company",
+   "kf": "chilled not-from-concentrate juice"
   },
   {
    "n": "Ocean Spray",
    "c": "United States",
    "f": "1930",
-   "seg": "Cranberry cooperative",
+   "seg": "Mainstream",
    "d": "Massachusetts-based cooperative of cranberry growers in the US, Canada and Chile.",
    "lines": [
     "Cranberry Juice Cocktail",
@@ -652,23 +656,25 @@
    "sig": [
     "Ocean Spray Cranberry Juice Cocktail"
    ],
-   "s": "https://en.wikipedia.org/wiki/Ocean_Spray_(cooperative)"
+   "s": "https://en.wikipedia.org/wiki/Ocean_Spray_(cooperative)",
+   "kf": "cranberry cooperative"
   },
   {
    "n": "Welch's",
    "c": "United States",
    "f": "1869",
-   "seg": "Grape juice",
+   "seg": "Mainstream",
    "d": "Grape-juice company owned since 1956 by the National Grape Cooperative.",
    "sig": [
     "Welch's Concord grape juice"
    ],
-   "s": "https://en.wikipedia.org/wiki/Welch%27s"
+   "s": "https://en.wikipedia.org/wiki/Welch%27s",
+   "kf": "grape juice"
   },
   {
    "n": "Campbell's",
    "c": "United States",
-   "seg": "Packaged food",
+   "seg": "Mainstream",
    "d": "American food company that owns V8 vegetable juice, acquired in 1948.",
    "lines": [
     "V8"
@@ -676,68 +682,74 @@
    "sig": [
     "V8"
    ],
-   "s": "https://en.wikipedia.org/wiki/V8_(beverage)"
+   "s": "https://en.wikipedia.org/wiki/V8_(beverage)",
+   "kf": "packaged food"
   },
   {
    "n": "Capri-Sun",
    "c": "Germany",
    "f": "1969",
-   "seg": "Juice drink pouches",
+   "seg": "Mainstream",
    "d": "Pouched juice drink created by Rudolf Wild & Co. of Heidelberg; licensed to Kraft in North America.",
    "sig": [
     "Capri-Sun pouch"
    ],
-   "s": "https://en.wikipedia.org/wiki/Capri-Sun"
+   "s": "https://en.wikipedia.org/wiki/Capri-Sun",
+   "kf": "juice drink pouches"
   },
   {
    "n": "SunnyD",
    "c": "United States",
    "f": "1963",
-   "seg": "Orange drink",
+   "seg": "Value",
    "d": "Low-juice orange-flavoured drink first made by Doric Foods in Florida.",
    "sig": [
     "SunnyD"
    ],
-   "s": "https://en.wikipedia.org/wiki/Sunny_Delight"
+   "s": "https://en.wikipedia.org/wiki/Sunny_Delight",
+   "kf": "orange drink"
   },
   {
    "n": "Granini",
    "c": "Germany",
-   "seg": "Juice & nectar",
+   "seg": "Mainstream",
    "d": "Fruit-juice brand of the family-owned Eckes-Granini Group, Nieder-Olm.",
    "rel": [
     "Pago"
    ],
-   "s": "https://en.wikipedia.org/wiki/Granini"
+   "s": "https://en.wikipedia.org/wiki/Granini",
+   "kf": "juice & nectar"
   },
   {
    "n": "Pago",
    "c": "Austria",
    "f": "1888",
-   "seg": "Juice & nectar",
+   "seg": "Premium",
    "d": "Klagenfurt juice and nectar brand in green glass bottles, now part of Eckes-Granini.",
    "rel": [
     "Granini"
    ],
-   "s": "https://en.wikipedia.org/wiki/Pago_International"
+   "s": "https://en.wikipedia.org/wiki/Pago_International",
+   "kf": "juice & nectar"
   },
   {
    "n": "Rauch",
    "c": "Austria",
    "f": "1919",
-   "seg": "Juice, nectar & iced tea",
+   "seg": "Mainstream",
    "d": "Vorarlberg drinks maker behind Happy Day and Bravo juices.",
    "lines": [
     "Happy Day",
     "Bravo"
    ],
-   "s": "https://en.wikipedia.org/wiki/Rauch_(company)"
+   "s": "https://en.wikipedia.org/wiki/Rauch_(company)",
+   "kf": "juice, nectar & iced tea"
   },
   {
    "n": "Naked Juice",
    "c": "United States",
    "f": "1983",
-   "seg": "Smoothies & juice",
+   "seg": "Mainstream",
    "d": "Californian smoothie and juice brand, owned by PAI Partners and PepsiCo.",
    "lines": [
     "Green Machine"
@@ -745,58 +757,64 @@
    "rel": [
     "Tropicana"
    ],
-   "s": "https://en.wikipedia.org/wiki/Naked_Juice"
+   "s": "https://en.wikipedia.org/wiki/Naked_Juice",
+   "kf": "smoothies & juice"
   },
   {
    "n": "Jumex",
    "c": "Mexico",
    "f": "1961",
-   "seg": "Juice & nectar",
+   "seg": "Mainstream",
    "d": "Mexican juice and nectar maker known for its little blue can; owns Kern's.",
    "lines": [
     "Kern's",
     "Frugo"
    ],
-   "s": "https://en.wikipedia.org/wiki/Jumex"
+   "s": "https://en.wikipedia.org/wiki/Jumex",
+   "kf": "juice & nectar"
   },
   {
    "n": "Rubicon",
    "c": "United Kingdom",
    "f": "1982",
-   "seg": "Exotic juice drinks",
+   "seg": "Specialist",
    "d": "London-founded maker of mango, guava and other exotic fruit drinks, part of A.G. Barr.",
-   "s": "https://en.wikipedia.org/wiki/Rubicon_Drinks"
+   "s": "https://en.wikipedia.org/wiki/Rubicon_Drinks",
+   "kf": "exotic juice drinks"
   },
   {
    "n": "Ceres",
    "c": "South Africa",
    "f": "1986",
-   "seg": "Juice",
+   "seg": "Mainstream",
    "d": "Western Cape juice maker owned by Pioneer Foods, also behind Liqui-Fruit.",
    "lines": [
     "Liqui-Fruit"
    ],
-   "s": "https://en.wikipedia.org/wiki/Ceres_Fruit_Juices"
+   "s": "https://en.wikipedia.org/wiki/Ceres_Fruit_Juices",
+   "kf": "juice"
   },
   {
    "n": "Del Monte",
    "c": "United States",
    "f": "1886",
-   "seg": "Packaged fruit & juice",
+   "seg": "Mainstream",
    "d": "Food brand whose packaged-food and brand rights are now split among Del Monte companies.",
-   "s": "https://en.wikipedia.org/wiki/Del_Monte_Foods"
+   "s": "https://en.wikipedia.org/wiki/Del_Monte_Foods",
+   "kf": "packaged fruit & juice"
   },
   {
    "n": "Vita Coco",
    "c": "United States",
    "f": "2004",
-   "seg": "Coconut water",
+   "seg": "Specialist",
    "d": "New York coconut-water company founded by Michael Kirban and Ira Liran.",
    "lines": [
     "Original",
     "Pressed"
    ],
-   "s": "https://en.wikipedia.org/wiki/Vita_Coco"
+   "s": "https://en.wikipedia.org/wiki/Vita_Coco",
+   "kf": "coconut water"
   }
  ],
  "traditions": [],

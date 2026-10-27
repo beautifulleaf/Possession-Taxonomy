@@ -128,6 +128,8 @@ brands=[
  {"n":"Scheppach","c":"Germany","f":"1927","seg":"DIY woodworking machinery","d":"Ichenhausen, Bavaria maker of DIY and workshop woodworking machines; Woodster range from 2005.",
   "lines":["Woodster"],"eras":["Josef Scheppach founder, 1927"],"sig":[],"sc":[],"rel":[],"s":W+"Scheppach_(company)"},
 ]
+SEG={"SawStop":"Specialist","Delta":"Heritage manufactory","Powermatic":"Professional & flagship","Bosch":"Mainstream","Laguna":"Premium","Record Power":"Mainstream","Felder":"Professional & flagship","Hammer":"Premium","Altendorf":"Professional & flagship","Robland":"Premium","Minimax":"Professional & flagship","Scheppach":"Value"}
+for b in brands: b["kf"]=b["seg"]; b["seg"]=SEG[b["n"]]
 notes=("Trimmed table-saw Grizzly SKUs (dropped G0962, G0899). No archetype for Startrite, Grizzly G0690-type or Laguna Fusion: "
  "grizzly.com, yandles and ukworkshop blocked (403), so these stay as flat models or brand-register lines. Powermatic Model 66 year 1958 from JPW (other sources say 1966). "
  "SawStop PCS/ICS from Woodcraft page (no year). New kind Combination machine sourced to Felder C3 31 page.")

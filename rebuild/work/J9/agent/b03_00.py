@@ -82,6 +82,7 @@ B=[
 notes=("All 12 planned kinds kept (no old data). Tier lists built from fetched Wikipedia/maker pages and one independent taste test (Tasting Table orange-juice test: Naked winner, Tropicana runner-up). "
 "Archetypes only for named icons: Welch's Concord, Ocean Spray Cranberry Juice Cocktail, V8, Capri-Sun, Hi-C, SunnyD. Left out: Suja/Pressed/Evolution Fresh (no page retrieved; Suja wiki 404), OKF aloe (only retail snippets), Dole juice (no confirming page), "
 "named birch/maple water brands (none on fetched pages), Which?/Consumer Reports winners (not found). No regional style archetypes (blood orange, nimbu pani) as bottled-product icons could be confirmed, so they are types.")
+import sys; sys.path.insert(0,"/home/user/Possession-Taxonomy/rebuild/work/J9/agent"); from segfix import fix; fix(B)
 out={"kinds":K,"brands":B,"traditions":[],"notes":notes}
 p='/home/user/Possession-Taxonomy/rebuild/work/J9/shelves/03_00.json'
 json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

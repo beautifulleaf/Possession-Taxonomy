@@ -58,6 +58,7 @@ brands=[
  br("Bubly","United States","2018","flavoured sparkling water","PepsiCo sparkling water brand.",W+"Bubly",["Bubly"]),
  br("Polar Beverages","United States","1882","soft drinks and seltzer","Family-owned Worcester, Massachusetts drinks maker known for Polar Seltzer.",W+"Polar_Beverages",["Polar Seltzer"]),
 ]
+import sys; sys.path.insert(0,"/home/user/Possession-Taxonomy/rebuild/work/J9/agent"); from segfix import fix; brands=fix(brands)
 out={"kinds":[k1,k2,k3],"brands":brands,"traditions":[],"notes":"All three planned kinds are new (no old data). Natural vs added carbonation kept as kind types and stated per archetype. Soda water/club soda as mixer left to the Mixers shelf. Ferrarelle sourced only from Wikidata (no en-wiki page), so description is minimal. Spindrift and Polar flavour editions left out: pages 404 / not covered. Home carbonation (SodaStream, siphons) belongs to appliances, not this shelf."}
 p='/home/user/Possession-Taxonomy/rebuild/work/J9/shelves/00_01.json'
 json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)

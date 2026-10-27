@@ -43,3 +43,5 @@ Food categories (J) are about *products*, brands and quality grades — dishes l
 - A short "What it would look like" tree (≤10 lines) for the most important department, using the archetype standard.
 - Mark facts from your own knowledge that need checking ("to verify"). Never invent counts — compute them from the JSON.
 - Be concise: aim for ~350–550 words per category.
+
+- Owner decisions 2026-10-27: (1) brand segments use the controlled vocabulary in SEGMENTS.json (fashion map; luxury map; quality ladder elsewhere) with a 'kf' known-for tag — clothing is about brands organised coherently, appliances about which are quality. (2) A blocked maker/retailer site is no reason to drop an item: establish it from outside databases and lists. (3) Recurring and retained services (cleaning, gardening, domestic staff, personal trainer, concierge, jet cards and similar) are IN, as a services department in I3 — they are purchases that improve quality of life and belong to luxury-lifestyle aspiration. One-off services stay out as BRIEF says.

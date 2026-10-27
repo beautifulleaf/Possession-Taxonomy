@@ -68,6 +68,7 @@ T=[
 ]
 notes=("All 10 planned kinds kept (no old data). Left out: Equinox kombucha (no page retrieved), KeVita founding facts (wiki 404; kept as m from kombucha page), Loving Foods jun (retail snippets only), "
 "Maltina and Vitamalt details (not on retrieved pages; Vitamalt kept as m), chicha morada and switchel (no evidence of bottled sale retrieved), horchata brands (none on page; horchata kept as an unfermented type). Tepachito details are uncited on Wikipedia.")
+import sys; sys.path.insert(0,"/home/user/Possession-Taxonomy/rebuild/work/J9/agent"); from segfix import fix; fix(B)
 out={"kinds":K,"brands":B,"traditions":T,"notes":notes}
 p='/home/user/Possession-Taxonomy/rebuild/work/J9/shelves/05_00.json'
 json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)
