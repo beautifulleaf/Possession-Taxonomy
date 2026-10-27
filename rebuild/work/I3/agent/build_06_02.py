@@ -1,0 +1,32 @@
+import json, os
+W='https://en.wikipedia.org/wiki/'
+kinds=[
+{"n":"Annual pass","a":"single-venue annual pass · museum membership · zoo membership · theme-park pass","d":"Annual pass or membership for one museum, zoo, garden, aquarium or theme park.",
+ "t":["museum or gallery membership","zoo or aquarium membership","garden membership","theme-park annual pass (blockout-date tiers)","individual, joint or family"],
+ "s":"https://www.kew.org/membership",
+ "m":[["Disneyland Magic Key","Disneyland Resort"],["Kew Membership","Kew"],["San Diego Zoo Membership","San Diego Zoo"]]},
+{"n":"Multi-site membership","a":"heritage membership · national park pass","d":"Membership or pass giving entry to one body's network of sites.",
+ "t":["heritage charity membership","national parks and public lands pass","reciprocal entry with partner bodies","individual, joint, family or life membership","senior, access or military pass"],
+ "s":"https://www.nationaltrust.org.uk/membership",
+ "m":[["National Trust Membership","National Trust"],["English Heritage Membership","English Heritage"],["National Trust for Scotland Membership","National Trust for Scotland"],["America the Beautiful Annual Pass","US federal recreation agencies"]]},
+{"n":"Multi-venue pass","a":"multi-venue pass scheme · city pass · attraction pass","d":"Pass giving entry to many bodies' venues under one scheme.",
+ "t":["national museum pass (free or reduced entry)","city attraction bundle","all-inclusive or pick-a-number pass","time-limited (days) or annual"],
+ "s":"https://www.artfund.org/national-art-pass",
+ "m":[["National Art Pass","Art Fund"],["CityPASS (San Diego, Southern California and other cities)","CityPASS"],["Go City pass (incl. Go San Diego)","Go City"]]},
+{"n":"Season ticket","a":"season pass · subscription series · venue, club or event series","d":"Ticket giving entry to a season or series of events at a venue or of a club.",
+ "t":["sports club season ticket","personal seat licence","arts subscription series (opera, ballet, symphony, theatre)","ski season pass","full or partial season"],
+ "s":"https://www.clevelandbrowns.com/tickets/season-tickets",
+ "m":[["Manchester City Season Ticket","Manchester City FC"],["Browns Season Ticket Membership","Cleveland Browns"],["Jets Flight Club Season Ticket Membership","New York Jets"]]}
+]
+brands=[
+ {"n":"National Trust","c":"United Kingdom","f":"1895","seg":"Institution & issuer","kf":"heritage sites","d":"Conservation charity for England, Wales and Northern Ireland whose membership gives free entry to its houses, gardens and countryside.","rel":["English Heritage","National Trust for Scotland"],"s":"knowledge"},
+ {"n":"English Heritage","c":"United Kingdom","seg":"Institution & issuer","kf":"heritage sites","d":"Charity managing over 400 historic sites in England; membership gives free admission.","rel":["National Trust"],"s":W+"English_Heritage"},
+ {"n":"National Trust for Scotland","c":"United Kingdom","seg":"Institution & issuer","kf":"heritage sites","d":"Scottish conservation charity; membership gives free entry to its properties and reciprocal entry to National Trust sites.","rel":["National Trust"],"s":W+"National_Trust_for_Scotland"},
+ {"n":"Art Fund","c":"United Kingdom","f":"1903","seg":"Institution & issuer","kf":"museum pass","d":"Charity founded as the National Art Collections Fund to help museums acquire art; issues the National Art Pass.","lines":["National Art Pass"],"s":W+"Art_Fund"},
+ {"n":"CityPASS","c":"United States","f":"1997","seg":"Mainstream","kf":"attraction bundles","d":"Company selling discounted bundles of top attractions in North American cities, from Victor, Idaho.","rel":["Go City"],"s":W+"CityPASS"}
+]
+notes=("All four old kinds kept. Multi-venue: the two CityPASS city models merged into one entry and Go San Diego Pass merged into Go City. Added English Heritage, National Trust for Scotland and the America the Beautiful pass to Multi-site membership. "
+ "Season ticket keeps three examples, no club lists; transport season tickets belong to Transit pass on the Transport shelf.")
+out={"kinds":kinds,"brands":brands,"traditions":[],"notes":notes}
+p='/home/user/Possession-Taxonomy/rebuild/work/I3/shelves/06_02.json'
+json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)
