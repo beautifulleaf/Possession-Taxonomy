@@ -14,13 +14,16 @@ kinds=[
          dt="leaf variegation (cream edge, pink centre) · leaf form (flat, curled) · flower colour"),
        X("Hoya pubicalyx","Commonly sold species, often mislabelled as H. carnosa.",H),
        X("Hoya kerrii","Heart-leaved hoya from South-East Asia, sold in Europe for Saint Valentine's Day.",W+"Hoya_kerrii",a="lucky-heart"),
-       X("Hoya lanceolata subsp. bella","Small-leaved hoya often grown in hanging baskets.",H,a="Hoya bella")]},
+       X("Hoya lanceolata subsp. bella","Small-leaved hoya often grown in hanging baskets.",H,a="Hoya bella"),
+       X("Hoya linearis","Hoya with narrow, linear leaves on hanging stems.","https://www.wikidata.org/wiki/Q1632106")]},
  {"n":"Air plant","a":"Tillandsia","d":"Soil-free bromeliad of the genus Tillandsia that takes water through leaf scales and is grown mounted or loose.",
   "t":["silver (xeric)","green (mesic)","clump"],"s":"https://mountaincrestgardens.com/",
   "x":[X("Tillandsia ionantha","Small, popular species that blushes red when it flowers and forms pups.",T,dt="size · blush colour · clump or single"),
        X("Tillandsia xerographica","Large silver rosette, listed under CITES Appendix II.",T),
        X("Tillandsia usneoides","Hanging strands of grey stems that drape from trees.",T,a="Spanish moss"),
        X("Tillandsia cyanea","Pink-bracted species that, unusually, takes water through its roots; grown potted.",T),
+       X("Tillandsia caput-medusae","Tillandsia with a swollen base and twisting leaves, named for Medusa's head.","https://www.wikidata.org/wiki/Q7802476"),
+       X("Tillandsia aeranthos","South American Tillandsia widely sold as an air plant.","https://www.wikidata.org/wiki/Q4895284"),
        X("Tillandsia stricta","Common clump-forming species with soft leaves.",T),
        X("Tillandsia recurvata","Small ball-shaped species that grows even on wires.",T,a="ball moss")]},
  {"n":"Live moss","a":"terrarium moss · moss ball · marimo","d":"Living moss or moss-like alga sold to grow in terrariums, moss gardens or water, as sheets, cushions or balls.",
@@ -41,5 +44,5 @@ kinds=[
   "t":["white-veined","red- or pink-veined","mini"],"s":W+"Fittonia",
   "x":[X("Fittonia albivenis","The commonly grown species, with many cultivars differing in vein colour and size.",W+"Fittonia",v=[("'Mini Red'","","","red-veined")],dt="vein colour · leaf size")]}]
 trads=[{"n":"Marimo culture of Lake Akan","g":"Plants & gardens","r":"Hokkaido, Japan","p":"protected since the 1920s","d":"Lake Akan's large marimo balls are a protected natural monument celebrated by an Ainu festival each October; shop marimo are of European origin.","tech":"growing loose algal balls in cool water","mat":"Aegagropila linnaei","forms":["Marimo"],"ctr":["Lake Akan"],"auth":"collecting at Lake Akan is prohibited, so balls sold in Japan come from Europe","s":W+"Marimo"}]
-out={"kinds":kinds,"brands":[],"traditions":trads,"notes":"All four old kinds kept (wax plant, air plant, live moss, spikemoss) plus new Nerve plant. Old kinds keep their old s. 'Krimson Queen' from the old definition. Hoya linearis and Tillandsia caput-medusae left out: no retrieved page confirmed them. Star moss species not confirmed, so the old model stays in m. No brands."}
+out={"kinds":kinds,"brands":[],"traditions":trads,"notes":"All four old kinds kept (wax plant, air plant, live moss, spikemoss) plus new Nerve plant. Old kinds keep their old s. 'Krimson Queen' from the old definition. Hoya linearis, Tillandsia caput-medusae and T. aeranthos cited to Wikidata entities. Star moss species not confirmed, so the old model stays in m. No brands."}
 p='work/C3/shelves/01_02.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)
