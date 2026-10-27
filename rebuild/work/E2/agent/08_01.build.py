@@ -84,14 +84,14 @@ brands = [
  B("Chouinard Equipment", "USA", "", "Heritage manufactory", "pitons, chocks", "Yvon Chouinard's climbing hardware firm; its designs passed to Black Diamond in 1989.", U["hex"], ["Hexentric", "RURP", "Lost Arrow"]),
  B("Petzl", "France", "1975", "Professional & flagship", "climbing and caving hardware", "French maker of climbing, caving and work-at-height equipment from Crolles.", sig=["Croll", "Ascension", "Basic", "Tibloc", "Traxion"]),
  B("Jümar Pangit", "Switzerland", "1958", "Heritage manufactory", "ascenders", "Swiss firm set up by Adolph Jüsi and Walter Marti to make the Jumar.", U["asc"], ["Jumar"]),
- B("Totem", "Spain", "", "Specialist", "cams", "Maker of the independently-expanding Totem Cam.", U["slcd"], ["Totem Cam"]),
- B("Omega Pacific", "USA", "", "Specialist", "cams, carabiners", "Maker of the Link Cam.", U["slcd"], ["Link Cam"]),
- B("CCH", "USA", "", "Specialist", "small cams", "Maker of the Alien cam.", U["slcd"], ["Alien"]),
+ B("Totem", "", "", "Specialist", "cams", "Maker of the independently-expanding Totem Cam.", U["slcd"], ["Totem Cam"]),
+ B("Omega Pacific", "", "", "Specialist", "cams, carabiners", "Maker of the Link Cam.", U["slcd"], ["Link Cam"]),
+ B("CCH", "", "", "Specialist", "small cams", "Maker of the Alien cam.", U["slcd"], ["Alien"]),
  B("Péguet", "France", "", "Heritage manufactory", "quick links", "Family firm in the French Alps making Maillon Rapide quick links for three generations.", U["mr"], ["Maillon Rapide"]),
 ]
 notes = ("All 10 planned kinds kept. Archetypes from fetched Wikipedia and OutdoorGearLab pages. Dropped from old models: Black Diamond Camalot range (now an archetype), "
          "Raumer Alien/Minox/Wing hangers (trim), Camalot C4/Ultralight moved to Camalot versions; Petzl Mini/Pro Traxion moved into the Traxion archetype. "
-         "DMM Wallnut and Petzl Pro Traxion kept without details (no retrieved page). Totem country 'Spain' and CCH/Omega Pacific country 'USA' are from knowledge.")
+         "DMM Wallnut and Petzl Pro Traxion kept without details (no retrieved page). Totem, CCH and Omega Pacific countries left blank (not on retrieved page).")
 out = {"kinds": kinds, "brands": brands, "traditions": [], "notes": notes}
 p = "/home/user/Possession-Taxonomy/rebuild/work/E2/shelves/08_01.json"
 json.dump(out, open(p + ".tmp", "w"), ensure_ascii=False, indent=1); os.replace(p + ".tmp", p)
