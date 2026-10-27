@@ -1,0 +1,12 @@
+{"kinds":[
+{"n":"Password manager","d":"App that stores, generates and fills in passwords, passkeys and logins.","t":["free plan","premium plan","family plan","built-in to OS or browser","local vault file"],
+ "m":["1Password","Bitwarden","Dashlane","Keeper","NordPass","Proton Pass","LastPass","RoboForm","Passwords","Google Password Manager","KeePassXC"]},
+{"n":"VPN","a":"VPN service and client","d":"VPN client, with the service it connects to, that encrypts the owner's connection and routes it through a private network.","t":["single-device plan","multi-device plan","free tier","bundled with security suite"],
+ "m":["NordVPN","ExpressVPN","Surfshark","ProtonVPN","Mullvad","Private Internet Access","CyberGhost","IPVanish","Windscribe","TunnelBear"]},
+{"n":"Encryption software","d":"Program that encrypts whole drives, partitions, containers or single files so they open only with a key or password.","t":["full-disk encryption","encrypted container","file and email encryption","cloud-folder encryption","built-in OS tool"],
+ "m":["BitLocker","FileVault","dm-crypt / LUKS","VeraCrypt","BestCrypt","Cryptomator","GnuPG","TrueCrypt"]},
+{"n":"Password recovery software","d":"Program that recovers or removes forgotten passwords of files, archives, accounts or devices.",
+ "m":["Passware Kit","PassFab 4WinKey"]},
+{"n":"Data eraser","d":"Program that overwrites storage so that the erased data cannot be recovered.","t":["bootable drive wiper","file shredder","built-in OS tool"],
+ "m":["Eraser","Darik's Boot and Nuke","nwipe","ShredOS","Active@ KillDisk","BleachBit","CCleaner","Disk Utility","shred"]}],
+"notes":"Restraint-only. Password manager 34->11 (market brands, built-in Apple Passwords and Google Password Manager, KeePassXC for the open local-vault style); dropped Keychain (merged into Apple Passwords), Firefox Lockwise, Microsoft Autofill, discontinued and minor tools; plans became types; Norton range dropped. VPN 21->10. Encryption 70->8: kept built-in disk encryption, VeraCrypt, BestCrypt, Cryptomator, GnuPG and TrueCrypt as the icon of the kind; dropped enterprise/OEM endpoint products (Check Point, Sophos SafeGuard, McAfee, Symantec, Trend Micro, Seqrite, SECUDE, Bloombase, CryptoPro etc.), Knox and SecuBox per brief, OS-internal and command-line duplicates (Cryptoloop, GBDE, GELI, softraid, svnd, CGD, Loop-AES, eCryptfs, Tcplay) and dead tails; FileVault 2 merged into FileVault. Password recovery unchanged (2). Data eraser 15->9 (dropped srm, hdparm, HDDerase, dd, Parted Magic, ShredIt). No new kinds."}

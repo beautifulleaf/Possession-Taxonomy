@@ -1,0 +1,922 @@
+{
+ "kinds": [
+  {
+   "n": "Arcade system board",
+   "a": "JAMMA board · PCB · motherboard",
+   "d": "Circuit board, with its game ROMs or cartridge or disc slot, that runs games inside a coin-operated video cabinet.",
+   "t": [
+    "dedicated board",
+    "cartridge or cassette system",
+    "disc or PC-based system",
+    "multi-game board (bootleg)"
+   ],
+   "s": "https://www.arcade-game-sales.com/products/arcade-game-boards-kits/genre-motherboards.html",
+   "x": [
+    {
+     "n": "Neo Geo MVS",
+     "a": "MVS",
+     "d": "SNK's cartridge arcade system that let one cabinet hold up to six swappable games.",
+     "mk": "SNK",
+     "y": "1990",
+     "s": "https://en.wikipedia.org/wiki/Neo_Geo",
+     "v": [
+      {
+       "n": "1-slot MVS",
+       "mk": "SNK",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "2-slot MVS",
+       "mk": "SNK",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "4-slot MVS",
+       "mk": "SNK",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "6-slot MVS",
+       "mk": "SNK",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "slots 1/2/4/6 · cartridges"
+    },
+    {
+     "n": "Capcom CP System",
+     "a": "CPS-1 · CPS-2 · CPS-3",
+     "d": "Capcom's own board family; CPS-2 splits into a common A board and a game B board, CPS-3 runs from CD-ROM.",
+     "mk": "Capcom",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/CP_System_II",
+     "v": [
+      {
+       "n": "Capcom CP System",
+       "mk": "Capcom",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "CP System II",
+       "mk": "Capcom",
+       "y": "1993",
+       "d": "A/B boards, regional case colours"
+      },
+      {
+       "n": "CP System III",
+       "mk": "Capcom",
+       "y": "1996",
+       "d": "CD-ROM with security cartridge"
+      }
+     ],
+     "dt": "region case colour"
+    },
+    {
+     "n": "Sega System 16",
+     "a": "System 18",
+     "d": "Sega's 16-bit sprite boards that served as the basis for the Mega Drive.",
+     "mk": "Sega",
+     "y": "1985",
+     "s": "https://en.wikipedia.org/wiki/List_of_Sega_arcade_system_boards",
+     "v": [
+      {
+       "n": "Sega System 16",
+       "mk": "Sega",
+       "y": "1985",
+       "d": ""
+      },
+      {
+       "n": "Sega System 18",
+       "mk": "Sega",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Sega Super Scaler",
+     "a": "X Board · Y Board",
+     "d": "Sega's sprite-scaling boards for driving and flying games.",
+     "mk": "Sega",
+     "y": "1985",
+     "s": "https://en.wikipedia.org/wiki/List_of_Sega_arcade_system_boards",
+     "v": [
+      {
+       "n": "Sega Super Scaler",
+       "mk": "Sega",
+       "y": "1985",
+       "d": ""
+      },
+      {
+       "n": "Sega OutRun board",
+       "mk": "Sega",
+       "y": "1986",
+       "d": ""
+      },
+      {
+       "n": "Sega X Board",
+       "mk": "Sega",
+       "y": "1987",
+       "d": "256 sprites"
+      },
+      {
+       "n": "Sega Y Board",
+       "mk": "Sega",
+       "y": "1988",
+       "d": "sprite rotation"
+      },
+      {
+       "n": "Sega System 32",
+       "mk": "Sega",
+       "y": "1990",
+       "d": "first 32-bit, last major sprite board"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Sega Model 1, 2 and 3",
+     "a": "Model 2",
+     "d": "Sega's 3D polygon boards of the 1990s.",
+     "mk": "Sega",
+     "y": "1992",
+     "s": "https://en.wikipedia.org/wiki/List_of_Sega_arcade_system_boards",
+     "v": [
+      {
+       "n": "Sega Model 1",
+       "mk": "Sega",
+       "y": "1992",
+       "d": "first 3D board"
+      },
+      {
+       "n": "Sega Model 2",
+       "mk": "Sega",
+       "y": "1994",
+       "d": "texture mapping, with GE Aerospace"
+      },
+      {
+       "n": "Sega Model 3",
+       "mk": "Sega",
+       "y": "1996",
+       "d": "PowerPC"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Sega NAOMI",
+     "a": "NAOMI 2",
+     "d": "Sega's Dreamcast-based cartridge and GD-ROM board.",
+     "mk": "Sega",
+     "y": "1998",
+     "s": "https://en.wikipedia.org/wiki/List_of_Sega_arcade_system_boards",
+     "v": [
+      {
+       "n": "Sega NAOMI",
+       "mk": "Sega",
+       "y": "1998",
+       "d": ""
+      },
+      {
+       "n": "Sega Hikaru",
+       "mk": "Sega",
+       "y": "1999",
+       "d": "modified NAOMI"
+      },
+      {
+       "n": "Sega NAOMI 2",
+       "mk": "Sega",
+       "y": "2000",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Sega Mega-Tech",
+     "a": "Mega Play",
+     "d": "Sega's Mega Drive-based multi-game arcade units.",
+     "mk": "Sega",
+     "y": "1989",
+     "s": "https://en.wikipedia.org/wiki/List_of_Sega_arcade_system_boards",
+     "v": [
+      {
+       "n": "Sega Mega-Tech",
+       "mk": "Sega",
+       "y": "1989",
+       "d": "up to eight games"
+      },
+      {
+       "n": "Sega Mega Play",
+       "mk": "Sega",
+       "y": "",
+       "d": "up to four games"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Sega Chihiro, Triforce and PC boards",
+     "a": "Lindbergh · RingEdge · ALLS",
+     "d": "Sega's console-derived and PC-based boards of the 2000s onward.",
+     "mk": "Sega",
+     "y": "2002",
+     "s": "https://en.wikipedia.org/wiki/List_of_Sega_arcade_system_boards",
+     "v": [
+      {
+       "n": "Sega Chihiro",
+       "mk": "Sega",
+       "y": "2002",
+       "d": "Xbox-based"
+      },
+      {
+       "n": "Sega Triforce",
+       "mk": "Sega",
+       "y": "2003",
+       "d": "GameCube-based, with Namco and Nintendo"
+      },
+      {
+       "n": "Sega Lindbergh",
+       "mk": "Sega",
+       "y": "2005",
+       "d": "Pentium 4"
+      },
+      {
+       "n": "Sega Europa-R",
+       "mk": "Sega",
+       "y": "2008",
+       "d": ""
+      },
+      {
+       "n": "Sega RingEdge",
+       "mk": "Sega",
+       "y": "2009",
+       "d": ""
+      },
+      {
+       "n": "Sega RingWide",
+       "mk": "Sega",
+       "y": "2011",
+       "d": ""
+      },
+      {
+       "n": "Sega RingEdge 2",
+       "mk": "Sega",
+       "y": "2012",
+       "d": ""
+      },
+      {
+       "n": "Sega Nu",
+       "mk": "Sega",
+       "y": "2013",
+       "d": ""
+      },
+      {
+       "n": "Sega ALLS",
+       "mk": "Sega",
+       "y": "2018",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Namco System 11 and 12",
+     "a": "System 10",
+     "d": "Namco's PlayStation-based boards, co-developed with Sony.",
+     "mk": "Namco",
+     "y": "1994",
+     "s": "https://en.wikipedia.org/wiki/List_of_Namco_arcade_system_boards",
+     "v": [
+      {
+       "n": "Namco System 11",
+       "mk": "Namco",
+       "y": "1994",
+       "d": ""
+      },
+      {
+       "n": "Namco System 12",
+       "mk": "Namco",
+       "y": "1996",
+       "d": "1.5× CPU clock"
+      },
+      {
+       "n": "Namco System 10",
+       "mk": "Namco",
+       "y": "2000",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Namco System 22",
+     "a": "System 21 · Super System 22",
+     "d": "Namco's 3D polygon boards.",
+     "mk": "Namco",
+     "y": "1992",
+     "s": "https://en.wikipedia.org/wiki/List_of_Namco_arcade_system_boards",
+     "v": [
+      {
+       "n": "Namco System 21",
+       "mk": "Namco",
+       "y": "1988",
+       "d": "first board designed for 3D polygons"
+      },
+      {
+       "n": "Namco System 22",
+       "mk": "Namco",
+       "y": "1992",
+       "d": ""
+      },
+      {
+       "n": "Namco Super System 22",
+       "mk": "Namco",
+       "y": "1995",
+       "d": ""
+      },
+      {
+       "n": "Namco System 23",
+       "mk": "Namco",
+       "y": "1997",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Namco System 246",
+     "a": "System 256",
+     "d": "Namco's PlayStation 2-based boards.",
+     "mk": "Namco",
+     "y": "2000",
+     "s": "https://en.wikipedia.org/wiki/List_of_Namco_arcade_system_boards",
+     "v": [
+      {
+       "n": "Namco System 246",
+       "mk": "Namco",
+       "y": "2000",
+       "d": ""
+      },
+      {
+       "n": "Namco System 256",
+       "mk": "Namco",
+       "y": "2004",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Taito Type X",
+     "a": "Type X2 · Type X3",
+     "d": "Taito's PC-based arcade platform.",
+     "mk": "Taito",
+     "y": "2004",
+     "s": "https://en.wikipedia.org/wiki/Taito_Type_X",
+     "v": [
+      {
+       "n": "Taito Type X",
+       "mk": "Taito",
+       "y": "2004",
+       "d": ""
+      },
+      {
+       "n": "Taito Type X2",
+       "mk": "Taito",
+       "y": "",
+       "d": "PCI Express"
+      },
+      {
+       "n": "Taito Type X Zero",
+       "mk": "Taito",
+       "y": "",
+       "d": "Intel Atom"
+      },
+      {
+       "n": "Taito Type X3",
+       "mk": "Taito",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Taito Type X4",
+       "mk": "Taito",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Konami System 573",
+     "a": "System 573",
+     "d": "Konami's PlayStation-based board used mainly for Bemani music games.",
+     "mk": "Konami",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/System_573",
+     "v": [
+      {
+       "n": "System 573 Bemani Analog",
+       "mk": "Konami",
+       "y": "",
+       "d": "CD audio"
+      },
+      {
+       "n": "System 573 Bemani Digital",
+       "mk": "Konami",
+       "y": "",
+       "d": "MP3 decoder"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Nintendo VS. System",
+     "a": "PlayChoice-10",
+     "d": "Nintendo's Famicom-based arcade systems.",
+     "mk": "Nintendo",
+     "y": "1984",
+     "s": "https://en.wikipedia.org/wiki/PlayChoice-10",
+     "v": [
+      {
+       "n": "VS. DualSystem",
+       "mk": "Nintendo",
+       "y": "1984",
+       "d": "two screens"
+      },
+      {
+       "n": "VS. UniSystem",
+       "mk": "Nintendo",
+       "y": "1985",
+       "d": "one screen"
+      },
+      {
+       "n": "Nintendo PlayChoice-10",
+       "mk": "Nintendo",
+       "y": "1986",
+       "d": "up to ten NES games"
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Sega Dual",
+     "Sega"
+    ],
+    [
+     "Sega G80",
+     "Sega"
+    ],
+    [
+     "Sega VCO Object",
+     "Sega"
+    ],
+    [
+     "Sega System 1",
+     "Sega"
+    ],
+    [
+     "Sega System 2",
+     "Sega"
+    ],
+    [
+     "Sega System E",
+     "Sega"
+    ],
+    [
+     "Sega System 24",
+     "Sega"
+    ],
+    [
+     "Sega System C",
+     "Sega"
+    ],
+    [
+     "Sega Titan-Video (ST-V)",
+     "Sega"
+    ],
+    [
+     "Sega SystemSP",
+     "Sega"
+    ],
+    [
+     "Namco System 357",
+     "Namco"
+    ],
+    [
+     "Nintendo Super System",
+     "Nintendo"
+    ],
+    [
+     "Sony ZN-1",
+     "Sony"
+    ],
+    [
+     "Sony ZN-2",
+     "Sony"
+    ],
+    [
+     "Konami Bubble System",
+     "Konami"
+    ],
+    [
+     "Konami GX",
+     "Konami"
+    ],
+    [
+     "Konami GQ System",
+     "Konami"
+    ],
+    [
+     "Konami GV System",
+     "Konami"
+    ],
+    [
+     "Taito B System",
+     "Taito"
+    ],
+    [
+     "Taito F2 System",
+     "Taito"
+    ],
+    [
+     "Taito F3 System",
+     "Taito"
+    ],
+    [
+     "Taito L System",
+     "Taito"
+    ],
+    [
+     "Taito X System",
+     "Taito"
+    ],
+    [
+     "Taito Z System",
+     "Taito"
+    ],
+    [
+     "Taito SJ System",
+     "Taito"
+    ],
+    [
+     "Taito G-NET",
+     "Taito"
+    ],
+    [
+     "Taito Wolf System",
+     "Taito"
+    ],
+    [
+     "Midway T-Unit",
+     "Midway Manufacturing"
+    ],
+    [
+     "Midway Wolf Unit",
+     "Midway Manufacturing"
+    ],
+    [
+     "Midway X-Unit",
+     "Midway Manufacturing"
+    ],
+    [
+     "Midway Y-Unit",
+     "Midway Manufacturing"
+    ],
+    [
+     "DECO Cassette System",
+     "Data East"
+    ],
+    [
+     "Data East MEC-M1",
+     "Data East"
+    ],
+    [
+     "Cave 68000",
+     "Cave"
+    ],
+    [
+     "Cave CV1000",
+     "Cave"
+    ],
+    [
+     "Psikyo SH2",
+     "Psikyo"
+    ],
+    [
+     "Atomiswave",
+     "Sammy"
+    ],
+    [
+     "PolyGame Master (PGM)",
+     ""
+    ],
+    [
+     "Aleck 64",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "Supergun",
+   "a": "super gun · consolized arcade board",
+   "d": "Box that runs a JAMMA arcade board at home on a TV, with controller ports, RGB video and audio outputs.",
+   "t": [
+    "SCART RGB",
+    "composite or S-video",
+    "component or VGA",
+    "kick harness for extra buttons"
+   ],
+   "s": "https://en.wikipedia.org/wiki/SuperGun"
+  },
+  {
+   "n": "Arcade lever and buttons",
+   "a": "arcade joystick · arcade pushbutton",
+   "d": "Replacement joystick lever and pushbuttons for an arcade cabinet, control panel or fight stick.",
+   "t": [
+    "Japanese ball-top lever",
+    "American bat-top lever",
+    "snap-in button",
+    "screw-in button",
+    "4-way or 8-way gate"
+   ],
+   "s": "https://thepihut.com/collections/sanwa",
+   "x": [
+    {
+     "n": "Sanwa JLF",
+     "a": "JLF-TP-8YT",
+     "d": "Sanwa's ball-top Japanese arcade lever.",
+     "mk": "Sanwa Denshi",
+     "y": "",
+     "s": "https://thepihut.com/collections/latest-raspberry-pi-products/products/official-sanwa-8-way-arcade-joystick-jlf-tp-8yt",
+     "v": [
+      {
+       "n": "Sanwa JLF-TP-8YT",
+       "mk": "Sanwa Denshi",
+       "y": "",
+       "d": "8-way, square gate, LB-35 ball top"
+      }
+     ],
+     "dt": "ball top colour · gate"
+    },
+    {
+     "n": "Sanwa OBSF",
+     "a": "OBSF-30",
+     "d": "Sanwa's snap-in Japanese arcade buttons.",
+     "mk": "Sanwa Denshi",
+     "y": "",
+     "s": "https://thepihut.com/collections/sanwa",
+     "v": [
+      {
+       "n": "Sanwa OBSF-30",
+       "mk": "Sanwa Denshi",
+       "y": "",
+       "d": "30 mm"
+      },
+      {
+       "n": "Sanwa OBSF-30RG",
+       "mk": "Sanwa Denshi",
+       "y": "",
+       "d": "long-life"
+      },
+      {
+       "n": "Sanwa OBSF-24",
+       "mk": "Sanwa Denshi",
+       "y": "",
+       "d": "24 mm, square and triangle caps"
+      },
+      {
+       "n": "Sanwa SDM-20",
+       "mk": "Sanwa Denshi",
+       "y": "",
+       "d": "20 mm"
+      }
+     ],
+     "dt": "colour · clear"
+    },
+    {
+     "n": "Seimitsu PS-14",
+     "a": "PS-14-G",
+     "d": "Seimitsu's flat-faced Japanese snap-in buttons, firmer than Sanwa's.",
+     "mk": "Seimitsu",
+     "y": "",
+     "s": "https://www.arcadexpress.com/en/buttons/385-1205-seimitsu-ps-14-g-boton-pulsador-arcade-japones-30mm.html",
+     "v": [
+      {
+       "n": "Seimitsu PS-14-G",
+       "mk": "Seimitsu",
+       "y": "",
+       "d": "30 mm"
+      },
+      {
+       "n": "Seimitsu PS-14-D",
+       "mk": "Seimitsu",
+       "y": "",
+       "d": "24 mm"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Suzo-Happ Competition",
+     "a": "Happ",
+     "d": "American-style concave pushbuttons and levers with microswitches.",
+     "mk": "Suzo-Happ",
+     "y": "",
+     "s": "https://www.arcadexpress.com/en/buttons-arcade-pushbuttons/618-suzo-happ-competition-concave-arcade-button.html",
+     "v": [
+      {
+       "n": "Suzo Happ Competition Concave Arcade Button",
+       "mk": "Suzo-Happ",
+       "y": "",
+       "d": "28 mm, E-Switch microswitch"
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Seimitsu LS-32 SE",
+     "Seimitsu"
+    ]
+   ]
+  },
+  {
+   "n": "Arcade monitor",
+   "a": "arcade CRT · monitor chassis",
+   "d": "CRT or LCD monitor, with its chassis, made to fit and run in an arcade cabinet.",
+   "t": [
+    "15 kHz CRT",
+    "multi-sync CRT",
+    "LCD"
+   ],
+   "s": "https://bitvint.com/pages/arcade-crt",
+   "m": [
+    [
+     "Electrohome G07-CBO",
+     "Electrohome"
+    ],
+    [
+     "Nanao MS9-29T",
+     "Nanao"
+    ]
+   ],
+   "r": [
+    [
+     "Wells-Gardner arcade monitors",
+     "Wells-Gardner"
+    ],
+    [
+     "Hantarex arcade monitors",
+     "Hantarex"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "SNK",
+   "c": "Japan",
+   "f": "1978",
+   "seg": "Professional & flagship",
+   "kf": "Neo Geo",
+   "d": "Japanese maker of the Neo Geo MVS and its cabinets.",
+   "sig": [
+    "Neo Geo MVS"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Capcom",
+   "c": "Japan",
+   "f": "1979",
+   "seg": "Professional & flagship",
+   "kf": "CP System",
+   "d": "Japanese game maker of the CP System boards.",
+   "sig": [
+    "Capcom CP System"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Sega",
+   "c": "Japan",
+   "f": "1960",
+   "seg": "Professional & flagship",
+   "kf": "arcade boards",
+   "d": "Japanese arcade and console maker with some twenty arcade board families.",
+   "sig": [
+    "Sega System 16",
+    "Sega Super Scaler",
+    "Sega Model 1, 2 and 3",
+    "Sega NAOMI"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Namco",
+   "c": "Japan",
+   "f": "1955",
+   "seg": "Professional & flagship",
+   "kf": "arcade boards",
+   "d": "Japanese arcade maker, now Bandai Namco, of the System boards.",
+   "sig": [
+    "Namco System 11 and 12",
+    "Namco System 22",
+    "Namco System 246"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Taito",
+   "c": "Japan",
+   "f": "1953",
+   "seg": "Professional & flagship",
+   "kf": "arcade boards",
+   "d": "Japanese arcade maker of the Type X platform.",
+   "sig": [
+    "Taito Type X"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Konami",
+   "c": "Japan",
+   "f": "1969",
+   "seg": "Professional & flagship",
+   "kf": "arcade games",
+   "d": "Japanese game maker of the System 573 board.",
+   "sig": [
+    "Konami System 573"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Nintendo",
+   "c": "Japan",
+   "f": "1889",
+   "seg": "Professional & flagship",
+   "kf": "consoles",
+   "d": "Japanese game company that made the VS. System and PlayChoice-10 arcade machines.",
+   "sig": [
+    "Nintendo VS. System"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Sanwa Denshi",
+   "c": "Japan",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "arcade levers & buttons",
+   "d": "Japanese maker of the JLF lever and OBSF buttons.",
+   "sig": [
+    "Sanwa JLF",
+    "Sanwa OBSF"
+   ],
+   "rel": [
+    "Seimitsu"
+   ],
+   "s": "https://thepihut.com/collections/sanwa"
+  },
+  {
+   "n": "Seimitsu",
+   "c": "Japan",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "arcade levers & buttons",
+   "d": "Japanese maker of LS levers and PS buttons.",
+   "sig": [
+    "Seimitsu PS-14"
+   ],
+   "rel": [
+    "Sanwa Denshi"
+   ],
+   "s": "https://www.arcadexpress.com/en/buttons/385-1205-seimitsu-ps-14-g-boton-pulsador-arcade-japones-30mm.html"
+  },
+  {
+   "n": "Suzo-Happ",
+   "c": "",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "arcade controls",
+   "d": "Maker of American-style Competition levers and pushbuttons.",
+   "sig": [
+    "Suzo-Happ Competition"
+   ],
+   "s": "https://www.arcadexpress.com/en/buttons-arcade-pushbuttons/618-suzo-happ-competition-concave-arcade-button.html"
+  }
+ ],
+ "traditions": [],
+ "notes": "System board: 80 models -> 14 archetypes (MVS, CPS, Sega System 16, Super Scaler, Model 1-3, NAOMI, Mega-Tech, Chihiro/PC boards, Namco System 11/12, 22, 246, Taito Type X, Konami 573, Nintendo VS.) + 39 models. Dropped boards named after one game (Data East BurgerTime and Caveman Ninja hardware, Taito Qix hardware). Taito Type X+, X7 and NESiCAxLive left out; Pandora's Box-style multi-game boards only as a type (trade/bootleg). Supergun kind-level only (fan-built, no maker products attested). Levers/buttons: Sanwa, Seimitsu, Suzo-Happ; Seimitsu LS-32 attested only as a product mention. Monitors: Electrohome G07 and Nanao MS9-29T models; Wells-Gardner and Hantarex as ranges because no specific chassis page was retrieved (K7000 only in search snippets)."
+}

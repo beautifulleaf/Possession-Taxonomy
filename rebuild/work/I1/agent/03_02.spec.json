@@ -1,0 +1,90 @@
+{
+ "kinds": [
+  {
+   "n": "Browser extension",
+   "d": "Add-on that adds features to a web browser.",
+   "t": [
+    "ad and tracker blocker",
+    "password manager",
+    "writing aid",
+    "video and media tool",
+    "appearance and reading",
+    "tab manager"
+   ],
+   "m": [
+    "uBlock Origin",
+    "Adblock Plus",
+    "AdGuard AdBlocker",
+    "Privacy Badger",
+    "Ghostery",
+    "Bitwarden Password Manager",
+    "LastPass",
+    "Grammarly",
+    "Dark Reader",
+    "SponsorBlock",
+    "Return YouTube Dislike",
+    "Video DownloadHelper"
+   ]
+  },
+  {
+   "n": "Office suite add-in",
+   "a": "productivity-suite add-in",
+   "d": "Add-in that adds features to an office or workspace suite.",
+   "t": [
+    "email add-in",
+    "document add-in",
+    "spreadsheet add-in",
+    "presentation add-in"
+   ],
+   "m": [
+    "MathType",
+    "DocuSign",
+    "DocHub",
+    "Mailtrack",
+    "Boomerang",
+    "Yet Another Mail Merge",
+    "GPT for Excel & Sheets",
+    "Canva for Google Workspace",
+    "Lucidchart",
+    "draw.io",
+    "Zoom for Gmail",
+    "Dropbox for Gmail"
+   ]
+  },
+  {
+   "n": "Device companion app",
+   "d": "App that records and shows the readings of one device and does nothing medical.",
+   "m": [
+    "Garmin Connect",
+    "Fitbit",
+    "Polar Flow",
+    "Mi Fit"
+   ]
+  },
+  {
+   "n": "Device feature unlock",
+   "a": "paid feature unlock for built-in device software",
+   "d": "Paid unlock or subscription that switches on a function of software built into one device.",
+   "t": [
+    "one-off unlock",
+    "subscription"
+   ],
+   "m": [
+    "Tesla rear heated seats unlock",
+    "BMW heated seats activation",
+    "BMW adaptive cruise control subscription",
+    "BMW Apple CarPlay preparation",
+    "BMW remote engine start",
+    "Audi Virtual Cockpit Functions on Demand",
+    "Porsche adaptive steering Plus",
+    "Porsche Intelligent Range Manager",
+    "Volkswagen voice control",
+    "Opel live data"
+   ],
+   "r": [
+    "ConnectedDrive Store"
+   ]
+  }
+ ],
+ "notes": "Restraint-only. Browser extension 68->12 widely used add-ons (one entry per add-on, not per browser). Office suite add-in 52->12: one entry per add-on rather than per host (Zoom for Outlook, Lucidchart Diagrams merged), built-in Microsoft features and education/minor add-ins dropped. Device companion app 9->4: discontinued apps dropped (Up by Jawbone, Microsoft Health, Misfit, Razer Nabu, Sony Lifelog). Device feature unlock 19->10 with BMW items trimmed to the main ones and the ConnectedDrive Store range kept. No new kinds."
+}
