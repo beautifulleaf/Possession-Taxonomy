@@ -609,7 +609,7 @@
    "n": "Robinsons",
    "c": "United Kingdom",
    "f": "1823",
-   "seg": "Squash & cordial",
+   "seg": "Mainstream",
    "d": "British squash and barley-water brand owned by Britvic.",
    "lines": [
     "Barley Water",
@@ -623,35 +623,38 @@
     "Teisseire",
     "MiWadi"
    ],
-   "s": "https://en.wikipedia.org/wiki/Robinsons_(drink)"
+   "s": "https://en.wikipedia.org/wiki/Robinsons_(drink)",
+   "kf": "squash"
   },
   {
    "n": "Ribena",
    "c": "United Kingdom",
    "f": "1938",
-   "seg": "Blackcurrant cordial",
+   "seg": "Mainstream",
    "d": "Blackcurrant drink brand from Bristol, owned by Suntory since 2013.",
    "sig": [
     "Ribena"
    ],
-   "s": "https://en.wikipedia.org/wiki/Ribena"
+   "s": "https://en.wikipedia.org/wiki/Ribena",
+   "kf": "blackcurrant cordial"
   },
   {
    "n": "Vimto",
    "c": "United Kingdom",
    "f": "1908",
-   "seg": "Cordial & soft drinks",
+   "seg": "Mainstream",
    "d": "Mixed-fruit drink brand of Nichols plc, sold as cordial, still and carbonated drinks.",
    "sig": [
     "Vimto cordial"
    ],
-   "s": "https://en.wikipedia.org/wiki/Vimto"
+   "s": "https://en.wikipedia.org/wiki/Vimto",
+   "kf": "vimto"
   },
   {
    "n": "Belvoir Farm",
    "c": "United Kingdom",
    "f": "1984",
-   "seg": "Cordials & pressés",
+   "seg": "Premium",
    "d": "Leicestershire family firm making elderflower and fruit cordials and pressés.",
    "sig": [
     "Belvoir elderflower cordial"
@@ -659,13 +662,14 @@
    "rel": [
     "bottlegreen"
    ],
-   "s": "https://www.greatbritishchefs.com/features/belvoir-farm-elderflower-cordial"
+   "s": "https://www.greatbritishchefs.com/features/belvoir-farm-elderflower-cordial",
+   "kf": "cordials"
   },
   {
    "n": "bottlegreen",
    "c": "United Kingdom",
    "f": "1989",
-   "seg": "Cordials & pressés",
+   "seg": "Premium",
    "d": "Cotswolds cordial and pressé maker founded by Kit and Shireen Morris.",
    "sig": [
     "Bottlegreen elderflower cordial"
@@ -673,24 +677,26 @@
    "rel": [
     "Belvoir Farm"
    ],
-   "s": "https://shs-group.co.uk/portfolio/bottlegreen"
+   "s": "https://shs-group.co.uk/portfolio/bottlegreen",
+   "kf": "cordials"
   },
   {
    "n": "Rose's",
    "c": "United Kingdom",
    "f": "1868",
-   "seg": "Cordials & bar mixers",
+   "seg": "Mainstream",
    "d": "Lime cordial brand from Leith, now Keurig Dr Pepper (US) and Coca-Cola Europacific Partners (UK).",
    "sig": [
     "Rose's lime juice"
    ],
-   "s": "https://en.wikipedia.org/wiki/Rose%27s_lime_juice"
+   "s": "https://en.wikipedia.org/wiki/Rose%27s_lime_juice",
+   "kf": "lime cordial"
   },
   {
    "n": "Teisseire",
    "c": "France",
    "f": "1720",
-   "seg": "Sirops",
+   "seg": "Mainstream",
    "d": "French flavoured-syrup maker founded by Mathieu Teisseire, now part of Britvic.",
    "sig": [
     "Teisseire sirop"
@@ -698,13 +704,14 @@
    "rel": [
     "Monin"
    ],
-   "s": "https://en.wikipedia.org/wiki/Teisseire"
+   "s": "https://en.wikipedia.org/wiki/Teisseire",
+   "kf": "syrups"
   },
   {
    "n": "Monin",
    "c": "France",
    "f": "1912",
-   "seg": "Syrups",
+   "seg": "Professional & flagship",
    "d": "Family-owned Bourges maker of syrups, liqueurs and fruit purées.",
    "sig": [
     "Monin sirop",
@@ -714,13 +721,14 @@
     "Torani",
     "Teisseire"
    ],
-   "s": "https://en.wikipedia.org/wiki/Monin_(company)"
+   "s": "https://en.wikipedia.org/wiki/Monin_(company)",
+   "kf": "syrups"
   },
   {
    "n": "Torani",
    "c": "United States",
    "f": "1925",
-   "seg": "Flavouring syrups",
+   "seg": "Mainstream",
    "d": "San Leandro, California maker of flavouring syrups and sauces.",
    "sig": [
     "Torani syrup"
@@ -728,42 +736,46 @@
    "rel": [
     "Monin"
    ],
-   "s": "https://en.wikipedia.org/wiki/Torani"
+   "s": "https://en.wikipedia.org/wiki/Torani",
+   "kf": "syrups"
   },
   {
    "n": "Hamdard",
    "c": "India",
    "f": "1906",
-   "seg": "Unani medicine & sharbat",
+   "seg": "Heritage manufactory",
    "d": "Maker of Rooh Afza, with separate waqf companies in Pakistan and Bangladesh.",
    "sig": [
     "Rooh Afza"
    ],
-   "s": "https://en.wikipedia.org/wiki/Rooh_Afza"
+   "s": "https://en.wikipedia.org/wiki/Rooh_Afza",
+   "kf": "rooh afza"
   },
   {
    "n": "Dabur",
    "c": "India",
-   "seg": "Consumer goods & Ayurveda",
+   "seg": "Mainstream",
    "d": "Indian consumer-goods company selling Sherbat-i-Azam.",
-   "s": "knowledge"
+   "s": "knowledge",
+   "kf": "ayurvedic products"
   },
   {
    "n": "SodaStream",
    "c": "Israel",
    "f": "1903",
-   "seg": "Home carbonation",
+   "seg": "Mainstream",
    "d": "Home soda-maker brand, founded in England, owned by PepsiCo since 2018.",
    "sig": [
     "SodaStream syrups"
    ],
-   "s": "https://en.wikipedia.org/wiki/SodaStream"
+   "s": "https://en.wikipedia.org/wiki/SodaStream",
+   "kf": "home carbonation"
   },
   {
    "n": "Kool-Aid",
    "c": "United States",
    "f": "1927",
-   "seg": "Powdered drink mix",
+   "seg": "Mainstream",
    "d": "Kraft Heinz powdered drink brand.",
    "sig": [
     "Kool-Aid"
@@ -772,40 +784,44 @@
     "Tang",
     "Crystal Light"
    ],
-   "s": "https://en.wikipedia.org/wiki/Kool-Aid"
+   "s": "https://en.wikipedia.org/wiki/Kool-Aid",
+   "kf": "drink mix"
   },
   {
    "n": "Tang",
    "c": "United States",
    "f": "1957",
-   "seg": "Powdered drink mix",
+   "seg": "Mainstream",
    "d": "Orange drink powder, Mondelēz outside North America and Kraft Heinz within it.",
    "sig": [
     "Tang"
    ],
-   "s": "https://en.wikipedia.org/wiki/Tang_(drink)"
+   "s": "https://en.wikipedia.org/wiki/Tang_(drink)",
+   "kf": "drink mix"
   },
   {
    "n": "Crystal Light",
    "c": "United States",
    "f": "1984",
-   "seg": "Powdered drink mix",
+   "seg": "Mainstream",
    "d": "Sugar-free powdered drink mix brand.",
    "sig": [
     "Crystal Light"
    ],
-   "s": "https://en.wikipedia.org/wiki/Crystal_Light"
+   "s": "https://en.wikipedia.org/wiki/Crystal_Light",
+   "kf": "drink mix"
   },
   {
    "n": "MiO",
    "c": "United States",
    "f": "2011",
-   "seg": "Water enhancer",
+   "seg": "Mainstream",
    "d": "Kraft Heinz liquid water enhancer brand.",
    "sig": [
     "MiO"
    ],
-   "s": "https://en.wikipedia.org/wiki/MiO"
+   "s": "https://en.wikipedia.org/wiki/MiO",
+   "kf": "water enhancer"
   }
  ],
  "traditions": [
