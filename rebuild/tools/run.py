@@ -143,7 +143,9 @@ def retrieved_set():
 
 # ---------------------------------------------------------------- old data
 def old_kinds(code):
-    d = json.load(open(f'reader/{code}.json'))
+    # the frozen pre-rebuild copy: reader/<code>.json is overwritten by merge.py once the category is merged
+    p = f'work/{code}/old.json'
+    d = json.load(open(p if os.path.exists(p) else f'reader/{code}.json'))
     out = []; n = 0
     for dp in d['depts']:
         for s in dp['s']:

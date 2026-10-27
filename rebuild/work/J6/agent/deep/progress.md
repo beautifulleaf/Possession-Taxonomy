@@ -1,1 +1,1 @@
-00_01 tier done; 00_02 tier done; 01_00 tier done; 02_01 tier done; 03_00 done
+all 16 shelves processed (00_00..03_01); see final report

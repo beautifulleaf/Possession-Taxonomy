@@ -69,7 +69,7 @@ sc={'n':'Show-control software','a':'','d':'Program that plays audio, video and 
 brands=[BR['Apple'],B('Avid Technology','United States','1987','Professional & flagship','Pro Tools, Media Composer','American maker of Pro Tools and Media Composer.'),
  B('Steinberg','Germany','','Professional & flagship','Cubase, Dorico','Yamaha subsidiary behind Cubase, Nuendo and Dorico.',s=WP+'Dorico'),
  B('Ableton','Germany','1999','Premium','Live','Berlin maker of Ableton Live and Push.'),
- B('Native Instruments','Germany','1996','Professional & flagship','Traktor, Komplete','Berlin maker of Traktor and instrument software.',s=WP+'IZotope'),
+ B('Native Instruments','Germany','','Professional & flagship','Traktor, Komplete','Berlin maker of Traktor and instrument software.',s=WP+'IZotope'),
  B('Yamaha','Japan','1887','Mainstream','instruments, Vocaloid','Japanese instrument maker that develops the Vocaloid engine.',s=WP+'Vocaloid'),
  B('Crypton Future Media','Japan','1995','Specialist','Hatsune Miku','Sapporo company founded in 1995 that makes Hatsune Miku.',s=WP+'Crypton_Future_Media'),
  B('Serato','New Zealand','1998','Premium','DJ software','Auckland company founded in 1998 that makes Serato DJ.',s=WP+'Serato'),
