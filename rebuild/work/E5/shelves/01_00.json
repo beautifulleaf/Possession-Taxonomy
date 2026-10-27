@@ -1,0 +1,689 @@
+{
+ "kinds": [
+  {
+   "n": "Game cartridge",
+   "a": "Game Pak · cassette · ROM cartridge",
+   "d": "Game supplied on a plug-in cartridge holding memory chips.",
+   "t": [
+    "standard edition",
+    "budget reprint label (Player's Choice, Greatest Hits, Platinum, The Best, Essentials, Nintendo Selects)",
+    "limited print run",
+    "collector's edition",
+    "loose cartridge",
+    "complete in box",
+    "unlicensed cartridge"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Video_game_cartridge",
+   "x": [
+    {
+     "n": "Channel F cartridge",
+     "a": "Videocart",
+     "d": "Fairchild's ROM cartridge, the first interchangeable game cartridge for a home console.",
+     "mk": "Fairchild",
+     "y": "1976",
+     "s": "https://en.wikipedia.org/wiki/ROM_cartridge",
+     "v": [],
+     "dt": "label · box"
+    },
+    {
+     "n": "Odyssey game card",
+     "a": "jumper card",
+     "d": "Plug-in circuit card of the Magnavox Odyssey that rewired the console; a precursor rather than a true ROM cartridge.",
+     "mk": "Magnavox",
+     "y": "1972",
+     "s": "https://en.wikipedia.org/wiki/ROM_cartridge",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Atari 2600 cartridge",
+     "a": "VCS cartridge",
+     "d": "ROM cartridge of the Atari 2600, which made swappable cartridges the norm.",
+     "mk": "Atari",
+     "y": "1977",
+     "s": "https://en.wikipedia.org/wiki/ROM_cartridge",
+     "v": [],
+     "dt": "label style · region · handle shape"
+    },
+    {
+     "n": "NES Game Pak and Famicom cassette",
+     "a": "Game Pak · Famicom cartridge",
+     "d": "Nintendo's 8-bit cartridge: short top-loading Famicom cassette in Japan, larger front-loading Game Pak with lockout chip elsewhere.",
+     "mk": "Nintendo",
+     "y": "1983",
+     "s": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+     "v": [
+      {
+       "n": "Famicom cassette",
+       "mk": "Nintendo",
+       "y": "1983",
+       "d": "top-loading, 60 connection lines, no lockout chip; Japan"
+      },
+      {
+       "n": "NES Game Pak",
+       "mk": "Nintendo",
+       "y": "1985",
+       "d": "front-loading, 10NES lockout chip; name coined by Gail Tilden"
+      },
+      {
+       "n": "PAL-A and PAL-B Game Paks",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "regional lockout variants for the British Isles, Italy and Australasia (A) and continental Europe (B)"
+      },
+      {
+       "n": "Unlicensed Famicom cartridge",
+       "mk": "",
+       "y": "",
+       "d": "common in Japan and East Asia because the Famicom has no lockout"
+      }
+     ],
+     "dt": "region · lockout chip · label · box"
+    },
+    {
+     "n": "Super NES and Super Famicom Game Pak",
+     "a": "SNES cartridge",
+     "d": "Nintendo's 16-bit cartridge, with region-shaped shells and optional enhancement chips and battery saves.",
+     "mk": "Nintendo",
+     "y": "1990",
+     "s": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
+     "v": [
+      {
+       "n": "Super Famicom / PAL Game Pak",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "narrow shell with a smooth curved front"
+      },
+      {
+       "n": "North American SNES Game Pak",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "rectangular shell with grooves matching the console slot"
+      },
+      {
+       "n": "Super FX cartridge",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "on-cartridge RISC chip for 3D polygon graphics"
+      },
+      {
+       "n": "SA-1 cartridge",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "on-cartridge 10.7 MHz 65C816 coprocessor"
+      },
+      {
+       "n": "DSP cartridge",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "fixed-point DSP-1 to DSP-4 maths chips"
+      }
+     ],
+     "dt": "region shell · enhancement chip · battery save"
+    },
+    {
+     "n": "Mega Drive and Genesis cartridge",
+     "a": "Sega cartridge",
+     "d": "Sega's 16-bit top-loading ROM cartridge.",
+     "mk": "Sega",
+     "y": "1988",
+     "s": "https://en.wikipedia.org/wiki/Sega_Genesis",
+     "v": [
+      {
+       "n": "J-Cart",
+       "mk": "Codemasters",
+       "y": "",
+       "d": "two extra controller ports on the cartridge"
+      },
+      {
+       "n": "SVP cartridge",
+       "mk": "Sega",
+       "y": "1994",
+       "d": "Samsung DSP-based polygon chip; the only Genesis cartridge with an enhancement chip"
+      },
+      {
+       "n": "EA yellow-tab cartridge",
+       "mk": "Electronic Arts",
+       "y": "",
+       "d": "EA shell with a yellow moulded tab"
+      }
+     ],
+     "dt": "region · label · shell"
+    },
+    {
+     "n": "Game Boy Game Pak",
+     "a": "DMG cartridge · GBC cartridge · GBA Game Pak",
+     "d": "Nintendo's handheld cartridge family, from grey Game Boy carts to the half-size Game Boy Advance Game Pak.",
+     "mk": "Nintendo",
+     "y": "1989",
+     "s": "https://en.wikipedia.org/wiki/Game_Boy_Game_Pak",
+     "v": [
+      {
+       "n": "Game Boy Game Pak (grey, class A)",
+       "mk": "Nintendo",
+       "y": "1989",
+       "d": "works in all Game Boy models except Micro"
+      },
+      {
+       "n": "Dual-mode Game Pak (black, class B)",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "colour on Game Boy Color, still plays on original Game Boy"
+      },
+      {
+       "n": "Game Boy Color Game Pak (clear, class C)",
+       "mk": "Nintendo",
+       "y": "1998",
+       "d": "colour-only, no notch"
+      },
+      {
+       "n": "Game Boy Advance Game Pak (class D)",
+       "mk": "Nintendo",
+       "y": "2001",
+       "d": "about half the size; rumble, tilt and light-sensor variants"
+      }
+     ],
+     "dt": "shell colour · rumble, tilt or sensor"
+    },
+    {
+     "n": "Nintendo 64 Game Pak",
+     "a": "N64 cartridge",
+     "d": "Nintendo 64 ROM cartridge of 4 to 64 MB, some with built-in EEPROM, flash or battery save.",
+     "mk": "Nintendo",
+     "y": "1996",
+     "s": "https://en.wikipedia.org/wiki/Nintendo_64_Game_Pak",
+     "v": [
+      {
+       "n": "4–12 MB Game Pak",
+       "mk": "Nintendo",
+       "y": "1996",
+       "d": "launch-era size"
+      },
+      {
+       "n": "32 MB Game Pak",
+       "mk": "Nintendo",
+       "y": "1998",
+       "d": ""
+      },
+      {
+       "n": "64 MB Game Pak",
+       "mk": "Nintendo",
+       "y": "1999",
+       "d": "largest size"
+      }
+     ],
+     "dt": "size · save type · region"
+    }
+   ],
+   "m": [
+    [
+     "Genesis / Mega Drive cartridge",
+     "Sega"
+    ]
+   ]
+  },
+  {
+   "n": "Game disc",
+   "a": "optical game disc",
+   "d": "Game supplied on an optical disc.",
+   "t": [
+    "standard edition",
+    "budget reprint label (Player's Choice, Greatest Hits, Platinum, The Best, Essentials, Nintendo Selects)",
+    "limited print run",
+    "collector's edition",
+    "CD-ROM",
+    "DVD",
+    "Blu-ray",
+    "black-label first print"
+   ],
+   "s": "https://en.wikipedia.org/wiki/PlayStation_5",
+   "x": [
+    {
+     "n": "GD-ROM",
+     "a": "Gigabyte Disc",
+     "d": "Sega's 1 GB proprietary optical disc developed with Yamaha.",
+     "mk": "Sega",
+     "y": "1998",
+     "s": "https://en.wikipedia.org/wiki/GD-ROM",
+     "v": [
+      {
+       "n": "Dreamcast GD-ROM",
+       "mk": "Sega",
+       "y": "",
+       "d": "home console discs"
+      },
+      {
+       "n": "NAOMI and Chihiro GD-ROM",
+       "mk": "Sega",
+       "y": "",
+       "d": "arcade-system discs"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "GameCube Game Disc",
+     "a": "mini-DVD game disc",
+     "d": "8 cm, 1.46 GB proprietary disc made with Panasonic.",
+     "mk": "Nintendo",
+     "y": "2001",
+     "s": "https://en.wikipedia.org/wiki/Nintendo_optical_discs",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Wii Optical Disc",
+     "a": "Wii disc",
+     "d": "12 cm Nintendo disc of 4.7 or 8.54 GB, followed by the 25 GB Wii U disc.",
+     "mk": "Nintendo",
+     "y": "2006",
+     "s": "https://en.wikipedia.org/wiki/Nintendo_optical_discs",
+     "v": [
+      {
+       "n": "Wii Optical Disc",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "single or dual layer"
+      },
+      {
+       "n": "Wii U Optical Disc",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "25 GB"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Universal Media Disc",
+     "a": "UMD",
+     "d": "Sony's 64 mm cased optical disc for the PSP, also used for UMD Video.",
+     "mk": "Sony",
+     "y": "2004",
+     "s": "https://en.wikipedia.org/wiki/Universal_Media_Disc",
+     "v": [
+      {
+       "n": "Single-layer UMD",
+       "mk": "Sony",
+       "y": "2004",
+       "d": "900 MB"
+      },
+      {
+       "n": "Dual-layer UMD",
+       "mk": "Sony",
+       "y": "",
+       "d": "1.8 GB"
+      },
+      {
+       "n": "UMD Video",
+       "mk": "Sony",
+       "y": "",
+       "d": "film releases until 2011"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Blu-ray game disc",
+     "a": "BD-ROM game disc",
+     "d": "Blu-ray disc of 25 to 100 GB used for PlayStation and Xbox games.",
+     "mk": "",
+     "y": "2006",
+     "s": "https://en.wikipedia.org/wiki/Blu-ray",
+     "v": [
+      {
+       "n": "PlayStation 3 disc",
+       "mk": "Sony",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "PlayStation 4 disc",
+       "mk": "Sony",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "PlayStation 5 game disc",
+       "mk": "Sony",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Xbox One disc",
+       "mk": "Microsoft",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Xbox Series X disc",
+       "mk": "Microsoft",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "layers · console"
+    }
+   ]
+  },
+  {
+   "n": "Game card",
+   "a": "",
+   "d": "Game supplied on a small flash or ROM card.",
+   "t": [
+    "standard edition",
+    "budget reprint label (Player's Choice, Greatest Hits, Platinum, The Best, Essentials, Nintendo Selects)",
+    "limited print run",
+    "collector's edition",
+    "loose card",
+    "complete in box"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Nintendo_Game_Card",
+   "x": [
+    {
+     "n": "HuCard",
+     "a": "TurboChip",
+     "d": "Hudson Soft's credit-card-sized ROM card for the PC Engine.",
+     "mk": "Hudson Soft",
+     "y": "1987",
+     "s": "https://en.wikipedia.org/wiki/HuCard",
+     "v": [
+      {
+       "n": "HuCard",
+       "mk": "Hudson Soft",
+       "y": "1987",
+       "d": "PC Engine and SuperGrafx"
+      },
+      {
+       "n": "TurboChip",
+       "mk": "NEC",
+       "y": "",
+       "d": "name used where the console was the TurboGrafx-16"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Nintendo Game Card",
+     "a": "DS card · 3DS card · Switch cartridge",
+     "d": "Nintendo's flash game card for DS, 3DS, Switch and Switch 2.",
+     "mk": "Nintendo",
+     "y": "2004",
+     "s": "https://en.wikipedia.org/wiki/Nintendo_Game_Card",
+     "v": [
+      {
+       "n": "Nintendo DS Game Card",
+       "mk": "Nintendo",
+       "y": "2004",
+       "d": "8–512 MB; DSi-exclusive cards in white"
+      },
+      {
+       "n": "Nintendo 3DS Game Card",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "side tab blocks use in a DS; region-locked"
+      },
+      {
+       "n": "Nintendo Switch Game Card",
+       "mk": "Nintendo",
+       "y": "2017",
+       "d": "1–32 GB, region-free, bitter coating"
+      },
+      {
+       "n": "Nintendo Switch 2 Game Card",
+       "mk": "Nintendo",
+       "y": "2025",
+       "d": "red, 16–64 GB"
+      }
+     ],
+     "dt": "capacity · colour"
+    },
+    {
+     "n": "PlayStation Vita Game Card",
+     "a": "Vita card",
+     "d": "Sony's SD-card-sized flash game card with space for saves and patches.",
+     "mk": "Sony",
+     "y": "2011",
+     "s": "https://en.wikipedia.org/wiki/PlayStation_Vita",
+     "v": [],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Sega Card (My Card)",
+     "Sega"
+    ]
+   ]
+  },
+  {
+   "n": "Cassette or floppy game",
+   "a": "magnetic game media",
+   "d": "Game on a cassette tape, floppy disk or disk-system card.",
+   "t": [
+    "cassette tape",
+    "floppy disk",
+    "Quick Disk"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Famicom_Disk_System",
+   "x": [
+    {
+     "n": "Home-computer cassette game",
+     "a": "tape game",
+     "d": "Game sold on compact cassette and loaded through a computer's tape deck, common on 1980s 8-bit home computers.",
+     "mk": "",
+     "y": "1980s",
+     "s": "https://collections.vam.ac.uk/item/O1172817",
+     "v": [
+      {
+       "n": "Amstrad CPC cassette",
+       "mk": "Amstrad",
+       "y": "c. 1985",
+       "d": "loaded through the CPC 464's built-in tape deck"
+      }
+     ],
+     "dt": "platform · case and inlay"
+    },
+    {
+     "n": "Famicom Disk Card",
+     "a": "Disk Card",
+     "d": "Nintendo's rewritable 112 KB double-sided disk, a modified Mitsumi Quick Disk.",
+     "mk": "Nintendo",
+     "y": "1986",
+     "s": "https://en.wikipedia.org/wiki/Famicom_Disk_System",
+     "v": [
+      {
+       "n": "Disk Card",
+       "mk": "Nintendo",
+       "y": "1986",
+       "d": "most without shutters"
+      },
+      {
+       "n": "Blue Disk Card",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "for Disk Fax high-score games"
+      },
+      {
+       "n": "Disk Writer rewrite",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "new game written onto an owned card at a shop kiosk"
+      }
+     ],
+     "dt": ""
+    }
+   ]
+  },
+  {
+   "n": "Game-key card",
+   "a": "",
+   "d": "Physical card that holds only a key to download a game, not the game itself.",
+   "s": "https://www.nintendo.com/au/support/articles/nintendo-switch-2-game-key-card-overview",
+   "m": [
+    [
+     "Nintendo Switch 2 Game-Key Card",
+     "Nintendo"
+    ]
+   ]
+  },
+  {
+   "n": "Download-code card",
+   "a": "download-code voucher",
+   "d": "Card or box that unlocks one game as a download.",
+   "s": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/56959",
+   "m": [
+    [
+     "Nintendo Switch download card (CHOOSE ONE)",
+     "Nintendo"
+    ]
+   ]
+  },
+  {
+   "n": "Collector's edition",
+   "a": "limited edition · special edition",
+   "d": "Boxed special edition of a game with extras such as an art book, statue or steelbook.",
+   "t": [
+    "collector's edition",
+    "limited edition",
+    "steelbook edition",
+    "limited physical print run"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Collector's_edition",
+   "x": [
+    {
+     "n": "Limited Run Games release",
+     "a": "LRG",
+     "d": "Small, limited physical print run of a game, sold mainly online, often with a collector's edition.",
+     "mk": "Limited Run Games",
+     "y": "2015",
+     "s": "https://en.wikipedia.org/wiki/Limited_Run_Games",
+     "v": [],
+     "dt": ""
+    }
+   ]
+  },
+  {
+   "n": "Graded game",
+   "a": "slabbed game",
+   "d": "Sealed or loose game sealed in a case and graded for condition by a grading service.",
+   "t": [
+    "sealed graded",
+    "loose cartridge graded",
+    "Wata 10-point scale",
+    "VGA grade"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Video_game_collecting"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Fairchild",
+   "c": "United States",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "semiconductors",
+   "d": "Fairchild Camera and Instrument; made the Channel F and its cartridges.",
+   "sig": [
+    "Channel F cartridge"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Magnavox",
+   "c": "United States",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "consumer electronics",
+   "d": "Electronics brand that sold the first home console, the Odyssey.",
+   "sig": [
+    "Odyssey game card"
+   ],
+   "rel": [
+    "Philips"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Atari",
+   "c": "United States",
+   "f": "1972",
+   "seg": "Mainstream",
+   "kf": "consoles",
+   "d": "Video-game pioneer behind the 2600 cartridge console.",
+   "sig": [
+    "Atari 2600 cartridge"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Nintendo",
+   "c": "Japan",
+   "f": "1889",
+   "seg": "Mainstream",
+   "kf": "consoles",
+   "d": "Japanese console maker; Game Paks, Game Cards and optical discs.",
+   "sig": [
+    "NES Game Pak and Famicom cassette",
+    "Nintendo Game Card",
+    "Game Boy Game Pak"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Sega",
+   "c": "Japan",
+   "f": "1960",
+   "seg": "Mainstream",
+   "kf": "consoles",
+   "d": "Japanese game company; Mega Drive cartridges and GD-ROM.",
+   "sig": [
+    "Mega Drive and Genesis cartridge",
+    "GD-ROM"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Sony",
+   "c": "Japan",
+   "f": "1946",
+   "seg": "Mainstream",
+   "kf": "consoles",
+   "d": "Japanese electronics group behind PlayStation; UMD and Vita cards.",
+   "sig": [
+    "Universal Media Disc",
+    "PlayStation Vita Game Card"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Hudson Soft",
+   "c": "Japan",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "games & HuCard",
+   "d": "Japanese game company that developed the HuCard for the PC Engine.",
+   "sig": [
+    "HuCard"
+   ],
+   "rel": [
+    "NEC"
+   ],
+   "s": "https://en.wikipedia.org/wiki/HuCard"
+  },
+  {
+   "n": "Limited Run Games",
+   "c": "United States",
+   "f": "2015",
+   "seg": "Specialist",
+   "kf": "limited print runs",
+   "d": "North Carolina distributor of small physical print runs and collector's editions; owned by Embracer since 2022.",
+   "sig": [
+    "Limited Run Games release"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Limited_Run_Games"
+  }
+ ],
+ "traditions": [],
+ "notes": "Edition types (budget reprint labels, limited print run, collector's edition) are types, not titles; no game titles listed. Game cartridge r ['Game Pak', Nintendo] dissolved into Game Pak archetypes; old models became archetypes or versions (J-Cart as Mega Drive version; Channel F, Atari 2600, Odyssey card archetypes); Genesis cartridge kept in m. Game disc: GameCube/Wii/Wii U/GD-ROM/UMD archetypes; PS5 game disc as Blu-ray version. No sourced page found for PlayStation CD-ROM black discs (CD-ROM left as type). Graded game: grading services (Wata, VGA) named as types; belongs with cross-category Grading-services register. Floppy-disk games left as a type (no archetype sourced)."
+}
