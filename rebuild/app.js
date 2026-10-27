@@ -144,10 +144,23 @@ async function renderRegister() {
   main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(c) }), $('p', { text: list.length + blurb })));
   const tb = tabBar(); if (tb) main.append(tb);
   const card = t === 'brands' ? brandCard : t === 'traditions' ? tradCard : speciesCard;
-  [...groups.keys()].forEach((g, i) => { const sec = $('section', { class: 'dept', id: slug('g', i) }, $('h3', { class: 'dept-name', text: g }));
-    sec.append($('div', { class: 'items' }, groups.get(g).sort((a, b) => a.n.localeCompare(b.n)).map(card))); main.append(sec); });
-  spy();
-  if (focusName) { const el = document.getElementById('b-' + focusName.toLowerCase().replace(/[^a-z0-9]+/g, '-')); if (el) { el.scrollIntoView({ block: 'center' }); el.style.outline = '2px solid var(--flag)'; } focusName = null; }
+  // long lists (Clothing has ~1,750 brands): compact rows that build the full card when opened, sections added in batches
+  const compact = list.length > 120;
+  const bid = n => 'b-' + n.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  const row = e => { const d = $('details', { class: 'brow', id: t === 'brands' ? bid(e.n) : null }, $('summary', {}, $('b', { text: e.n }), e.kf || e.g ? $('i', { text: e.kf || '' }) : null));
+    d.addEventListener('toggle', () => { if (d.open && !d.dataset.f) { d.dataset.f = 1; const c = card(e); c.removeAttribute('id'); d.append(c); } }); return d; };
+  const keys = [...groups.keys()];
+  const fid = focusName ? bid(focusName) : null; focusName = null;
+  const doFocus = () => { const el = fid && document.getElementById(fid); if (!el) return false; if (el.tagName === 'DETAILS') el.open = true; el.scrollIntoView({ block: 'center' }); el.style.outline = '2px solid var(--flag)'; return true; };
+  let i = 0, focused = false;
+  const step = () => { if (cur !== c || tab !== t || view !== 'cat') return;
+    const end = Math.min(keys.length, i + (compact ? 2 : keys.length));
+    for (; i < end; i++) { const g = keys[i]; const sec = $('section', { class: 'dept', id: slug('g', i) }, $('h3', { class: 'dept-name' }, g, $('span', { class: 'mode', text: String(groups.get(g).length) })));
+      const items = groups.get(g).sort((a, b) => a.n.localeCompare(b.n));
+      sec.append(compact ? $('div', { class: 'brows' }, items.map(row)) : $('div', { class: 'items' }, items.map(card))); main.append(sec); }
+    if (!focused) focused = doFocus();
+    if (i < keys.length) setTimeout(step, 0); else spy(); };
+  step();
 }
 async function openBrandIndex() {
   setView('brands'); showDom(''); side.replaceChildren(); main.replaceChildren($('p', { class: 'none', text: 'Loading brands…' }));
