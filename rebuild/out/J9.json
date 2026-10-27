@@ -1,0 +1,5960 @@
+{
+ "c": "J9",
+ "rev": true,
+ "lead": "Bought non-alcoholic drinks and drinking water — bottled water, sodas, tonics and mixers, juices, syrups and cordials, fermented soft drinks, energy and sports drinks, and ready-to-drink coffee and tea — organised by drink type, then named styles, icons and makers; recipes live in the Culinary Taxonomy.",
+ "b": [],
+ "depts": [
+  {
+   "n": "Water",
+   "mode": "mixed",
+   "b": [
+    {
+     "m": "Legal category",
+     "v": "table / purified water · spring water · natural mineral water",
+     "w": "EU Directive 2009/54/EC and US FDA bottled-water definitions"
+    },
+    {
+     "m": "Mineral content",
+     "v": "TDS very low (<50 mg/L) · low · medium · high · rich in minerals (>1500 mg/L)",
+     "w": "label analysis; EU labelling thresholds"
+    },
+    {
+     "m": "Carbonation",
+     "v": "still · lightly sparkling · naturally sparkling · fully carbonated",
+     "w": "label terms (naturally carbonated, with added CO2)"
+    }
+   ],
+   "s": [
+    {
+     "n": "Still & mineral water",
+     "k": [
+      {
+       "n": "Natural mineral water",
+       "a": "mineral water · eau minérale · Mineralwasser",
+       "d": "Still groundwater bottled at a protected, recognised source with its natural minerals and only minimal permitted treatment.",
+       "t": [
+        "very low to high mineral content (TDS)",
+        "calcium- or magnesium-rich",
+        "sulphate-rich",
+        "low sodium",
+        "PET bottle",
+        "glass bottle",
+        "can",
+        "multipack",
+        "sports cap"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Mineral_water",
+       "x": [
+        {
+         "n": "Evian",
+         "a": "",
+         "d": "Low-to-medium mineral still water from springs near Évian-les-Bains on Lake Geneva; TDS 300 mg/L, pH 7.2.",
+         "mk": "Evian",
+         "y": "1826",
+         "s": "https://en.wikipedia.org/wiki/Evian",
+         "v": [
+          {
+           "n": "Glass bottle",
+           "mk": "Evian",
+           "y": "1908",
+           "d": "first glass bottles sold"
+          },
+          {
+           "n": "PVC bottle",
+           "mk": "Evian",
+           "y": "1969",
+           "d": "first plastic bottle"
+          },
+          {
+           "n": "Collapsible PET bottle",
+           "mk": "Evian",
+           "y": "1995",
+           "d": ""
+          },
+          {
+           "n": "Designer limited edition (Diane von Fürstenberg)",
+           "mk": "Evian",
+           "y": "2013",
+           "d": ""
+          },
+          {
+           "n": "Designer limited edition (Balmain)",
+           "mk": "Evian",
+           "y": "2022",
+           "d": ""
+          }
+         ],
+         "dt": "TDS 300 mg/L · Ca 80, Mg 26, Na 6.5 mg/L · glass, PET · yearly designer limited-edition bottles"
+        },
+        {
+         "n": "Vittel",
+         "a": "",
+         "d": "Medium-high mineral still water from the Grande Source in the Vosges spa town of Vittel; TDS 841 mg/L.",
+         "mk": "Vittel",
+         "y": "1854",
+         "s": "https://en.wikipedia.org/wiki/Vittel_(water)",
+         "v": [],
+         "dt": "TDS 841 mg/L · Ca 202, sulphate 306, bicarbonate 402 mg/L · pH 7.5"
+        },
+        {
+         "n": "Contrex",
+         "a": "",
+         "d": "Highly mineralised still water from Contrexéville, Vosges, rich in sulphate and calcium; TDS 2078 mg/L.",
+         "mk": "Contrex",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Contrex",
+         "v": [],
+         "dt": "TDS 2078 mg/L · sulphate 1121, Ca 468, Mg 74.5 mg/L · pH 7.4"
+        },
+        {
+         "n": "Volvic",
+         "a": "",
+         "d": "Very low mineral, silica-bearing still water filtered through volcanic rock in the Auvergne, France; TDS 109 mg/L.",
+         "mk": "Volvic",
+         "y": "1938",
+         "s": "https://en.wikipedia.org/wiki/Volvic_(mineral_water)",
+         "v": [
+          {
+           "n": "First spring tapped",
+           "mk": "Volvic",
+           "y": "1922",
+           "d": "bottles on sale from 1938"
+          }
+         ],
+         "dt": "TDS 109 mg/L · silica 32 mg/L · pH 7 · PET bottles"
+        },
+        {
+         "n": "Gerolsteiner Still (Naturell)",
+         "a": "",
+         "d": "Still bottling of the very hard, bicarbonate-rich Eifel source water at Gerolstein, Germany; TDS 2,488 mg/L.",
+         "mk": "Gerolsteiner",
+         "y": "1888",
+         "s": "https://en.wikipedia.org/wiki/Gerolsteiner_Brunnen",
+         "v": [],
+         "dt": "TDS 2488 mg/L · bicarbonate 1816, Ca 348, Mg 108 mg/L · glass and PET crates"
+        },
+        {
+         "n": "Highland Spring",
+         "a": "",
+         "d": "Scottish still water from protected organic land in the Ochil Hills, bottled at Blackford, Perthshire; TDS 170 mg/L.",
+         "mk": "Highland Spring",
+         "y": "1980",
+         "s": "https://en.wikipedia.org/wiki/Highland_Spring",
+         "v": [],
+         "dt": "TDS 170 mg/L · pH 7.8 · still, sparkling, flavoured (2024)"
+        },
+        {
+         "n": "Hildon Still",
+         "a": "",
+         "d": "English natural mineral water drawn from a chalk aquifer in the Test Valley at Broughton, Hampshire; a restaurant glass-bottle staple.",
+         "mk": "Hildon",
+         "y": "",
+         "s": "https://hampshirefare.co.uk/member/hildon-natural-mineral-water/",
+         "v": [],
+         "dt": "chalk aquifer · glass bottles · still and gently sparkling"
+        }
+       ]
+      },
+      {
+       "n": "Spring water",
+       "a": "natural spring water · source water",
+       "d": "Water from an underground formation that flows naturally to the surface, bottled at or near the spring; mineral content not fixed.",
+       "t": [
+        "PET bottle",
+        "gallon jug",
+        "3- and 5-gallon cooler jug",
+        "glass bottle",
+        "carton",
+        "can"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Spring_water",
+       "x": [
+        {
+         "n": "Poland Spring",
+         "a": "",
+         "d": "American spring water first sold from the spring at Poland, Maine; now drawn from several Maine springs.",
+         "mk": "Poland Spring",
+         "y": "1845",
+         "s": "https://en.wikipedia.org/wiki/Poland_Spring",
+         "v": [],
+         "dt": "half-pint to 5-gallon jugs · Eco-Shape bottle (30% less plastic)"
+        },
+        {
+         "n": "Icelandic Glacial",
+         "a": "",
+         "d": "Naturally alkaline, very low mineral water from the Ölfus Spring in south-west Iceland; pH 8.4, TDS 72 ppm.",
+         "mk": "Icelandic Glacial",
+         "y": "2004",
+         "s": "https://en.wikipedia.org/wiki/Icelandic_Glacial",
+         "v": [],
+         "dt": "pH 8.4 · TDS 72 ppm · PET, glass, can · still and sparkling"
+        }
+       ]
+      },
+      {
+       "n": "Purified & table water",
+       "a": "purified water · table water · drinking water · remineralised water",
+       "d": "Water, often from a municipal supply, purified by reverse osmosis, distillation or similar and sometimes remineralised for taste.",
+       "t": [
+        "reverse osmosis",
+        "distilled",
+        "remineralised",
+        "PET single-serve",
+        "multipack",
+        "gallon jug",
+        "can",
+        "refill station"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Bottled_water",
+       "m": [
+        [
+         "Dasani",
+         "The Coca-Cola Company"
+        ],
+        [
+         "Aquafina",
+         "PepsiCo"
+        ],
+        [
+         "Nestlé Pure Life",
+         "Nestlé"
+        ],
+        [
+         "Bisleri",
+         "Bisleri"
+        ]
+       ],
+       "x": [
+        {
+         "n": "Dasani",
+         "a": "",
+         "d": "Coca-Cola's purified municipal water, filtered by reverse osmosis and nanofiltration with trace minerals added.",
+         "mk": "The Coca-Cola Company",
+         "y": "1999",
+         "s": "https://en.wikipedia.org/wiki/Dasani",
+         "v": [],
+         "dt": "355 mL–1.5 L PET · aluminium can (2019) · PlantBottle · flavoured in Latin America"
+        },
+        {
+         "n": "Aquafina",
+         "a": "",
+         "d": "PepsiCo's purified water from public sources treated by reverse osmosis, UV and ozone; first sold in Wichita, Kansas.",
+         "mk": "PepsiCo",
+         "y": "1994",
+         "s": "https://en.wikipedia.org/wiki/Aquafina",
+         "v": [],
+         "dt": "PET bottles · FlavorSplash flavoured line"
+        },
+        {
+         "n": "Nestlé Pure Life",
+         "a": "",
+         "d": "Nestlé's mass-market purified water brand, launched in Pakistan and sold in about 21 countries.",
+         "mk": "Nestlé",
+         "y": "1998",
+         "s": "https://en.wikipedia.org/wiki/Nestl%C3%A9_Pure_Life",
+         "v": [],
+         "dt": "purified; some Canadian packs spring water"
+        }
+       ]
+      },
+      {
+       "n": "Artesian & glacier water",
+       "a": "artesian water · glacial water · iceberg water",
+       "d": "Groundwater from a confined, pressurised aquifer that rises without pumping, or water marketed as from glacial or ice sources.",
+       "t": [
+        "artesian",
+        "glacial / snowmelt",
+        "square or cylindrical PET",
+        "glass"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Artesian_aquifer",
+       "x": [
+        {
+         "n": "Fiji Water",
+         "a": "",
+         "d": "Artesian water from an aquifer at Yaqara on Viti Levu, Fiji, high in silica; sold in a square bottle.",
+         "mk": "Fiji Water",
+         "y": "1996",
+         "s": "https://en.wikipedia.org/wiki/Fiji_Water",
+         "v": [],
+         "dt": "silica 93 mg/L · TDS 222 mg/L · pH 7.3–7.7 · square PET bottle"
+        },
+        {
+         "n": "Voss",
+         "a": "",
+         "d": "Norwegian still and sparkling water from Vatnestrøm, Iveland, in a cylindrical glass bottle designed by Neil Kraft; marketed as artesian, a claim disputed by TV 2 in 2010.",
+         "mk": "Voss",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Voss_(water)",
+         "v": [],
+         "dt": "cylindrical glass or PET bottle · still and sparkling"
+        }
+       ]
+      },
+      {
+       "n": "Alkaline & functional water",
+       "a": "alkaline water · electrolyte water · ionised water · hydrogen water · oxygenated water",
+       "d": "Bottled water with raised pH (often by electrolysis/ionisation) or with added electrolytes, hydrogen or oxygen for claimed benefits.",
+       "t": [
+        "high-pH / ionised",
+        "electrolyte-added",
+        "vapour-distilled",
+        "hydrogen-infused",
+        "oxygenated",
+        "fluoridated (infant / nursery water)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Alkaline_water",
+       "x": [
+        {
+         "n": "Smartwater",
+         "a": "",
+         "d": "Distilled water with potassium, calcium and magnesium electrolytes added back; first sold in the US as Glacier Mineral Water.",
+         "mk": "Glacéau",
+         "y": "1990",
+         "s": "https://en.wikipedia.org/wiki/Smartwater",
+         "v": [],
+         "dt": "electrolytes added · PET bottles · 12 oz can (2024) · sparkling flavours (2017)"
+        }
+       ]
+      },
+      {
+       "n": "Flavoured still water",
+       "a": "flavoured water · enhanced water · fruit water",
+       "d": "Non-carbonated water with added flavouring and sometimes sweeteners, juice, vitamins or minerals.",
+       "t": [
+        "unsweetened",
+        "sugar-free (sweetener)",
+        "with fruit juice",
+        "vitamin-enhanced"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Flavored_water",
+       "m": [
+        [
+         "Volvic Touch of Fruit",
+         "Volvic"
+        ],
+        [
+         "Volvic Juiced",
+         "Volvic"
+        ],
+        [
+         "Aquafina FlavorSplash",
+         "PepsiCo"
+        ],
+        [
+         "Vitaminwater",
+         "Glacéau"
+        ]
+       ]
+      },
+      {
+       "n": "Packaged ice",
+       "a": "bagged ice · ice cubes · block ice · cocktail ice",
+       "d": "Ice made and sold in bags or blocks for drinks and cool boxes, from cubed and crushed to clear cocktail ice.",
+       "t": [
+        "cubed",
+        "crushed",
+        "block",
+        "clear cocktail ice",
+        "dry ice (separate use)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Reddy_Ice",
+       "m": [
+        [
+         "Packaged ice",
+         "Reddy Ice"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Sparkling water",
+     "k": [
+      {
+       "n": "Sparkling mineral water",
+       "a": "eau gazeuse · acqua frizzante · Sprudel · agua con gas",
+       "d": "Mineral water from a recognised source sold sparkling, either naturally carbonated at source or with CO2 added at bottling.",
+       "t": [
+        "naturally sparkling (gas from the source)",
+        "source gas re-added",
+        "carbonated with added CO2",
+        "fine or light bubbles",
+        "intense or extra sparkling",
+        "glass bottle",
+        "PET bottle",
+        "can"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Carbonated_water",
+       "x": [
+        {
+         "n": "Selters",
+         "a": "",
+         "d": "Naturally carbonated water from the Taunus wells at Selters, Hesse; the prototype that gave 'seltzer' its name.",
+         "mk": "Selters",
+         "y": "772",
+         "s": "https://en.wikipedia.org/wiki/Selters",
+         "v": [
+          {
+           "n": "Niederselters well",
+           "mk": "Selters",
+           "y": "1999",
+           "d": "historic main well, closed 1999"
+          },
+          {
+           "n": "Selters-Löhnberg well",
+           "mk": "Selters",
+           "y": "",
+           "d": "current production"
+          }
+         ],
+         "dt": "naturally carbonated > 250 mg/L CO2 · sparkling and still"
+        },
+        {
+         "n": "Apollinaris",
+         "a": "",
+         "d": "Naturally sparkling mineral water from a spring at Bad Neuenahr, Germany; 'The Queen of Table Waters'.",
+         "mk": "Apollinaris",
+         "y": "1852",
+         "s": "https://en.wikipedia.org/wiki/Apollinaris_(water)",
+         "v": [
+          {
+           "n": "'The Queen of Table Waters' trademark",
+           "mk": "Apollinaris",
+           "y": "1895",
+           "d": "British trademark"
+          },
+          {
+           "n": "'Baby Polly' small bottle",
+           "mk": "Apollinaris",
+           "y": "",
+           "d": "UK and Ireland"
+          }
+         ],
+         "dt": "naturally sparkling · glass bottles"
+        },
+        {
+         "n": "Gerolsteiner Sprudel",
+         "a": "",
+         "d": "Naturally carbonated, very hard bicarbonate mineral water from Gerolstein in the Eifel; TDS 2,488 mg/L.",
+         "mk": "Gerolsteiner",
+         "y": "1888",
+         "s": "https://en.wikipedia.org/wiki/Gerolsteiner_Brunnen",
+         "v": [
+          {
+           "n": "Gerolsteiner Sprudel",
+           "mk": "Gerolsteiner",
+           "y": "1888",
+           "d": "original naturally carbonated water"
+          },
+          {
+           "n": "Lower-carbonation variant",
+           "mk": "Gerolsteiner",
+           "y": "1986",
+           "d": ""
+          },
+          {
+           "n": "Reusable PET deposit bottle",
+           "mk": "Gerolsteiner",
+           "y": "1998",
+           "d": "Germany's first"
+          }
+         ],
+         "dt": "TDS 2,488 mg/L · bicarbonate 1,816, Ca 348, Mg 108 mg/L · pH 5.9–6.0"
+        },
+        {
+         "n": "Perrier",
+         "a": "",
+         "d": "Sparkling mineral water from Vergèze, Gard, France, in a green teardrop bottle; source gas is captured separately and re-added.",
+         "mk": "Perrier",
+         "y": "1898",
+         "s": "https://en.wikipedia.org/wiki/Perrier",
+         "v": [
+          {
+           "n": "Glass teardrop bottle",
+           "mk": "Perrier",
+           "y": "",
+           "d": "signature green"
+          },
+          {
+           "n": "PET bottle",
+           "mk": "Perrier",
+           "y": "2001",
+           "d": ""
+          },
+          {
+           "n": "Eau de Perrier",
+           "mk": "Perrier",
+           "y": "2002",
+           "d": "less carbonated, blue bottle, France"
+          },
+          {
+           "n": "Andy Warhol limited edition",
+           "mk": "Perrier",
+           "y": "2013",
+           "d": "150th anniversary"
+          },
+          {
+           "n": "Perrier Fluo",
+           "mk": "Perrier",
+           "y": "",
+           "d": "flavoured line, France"
+          }
+         ],
+         "dt": "glass, PET, can · natural, lemon, lime"
+        },
+        {
+         "n": "Badoit",
+         "a": "",
+         "d": "Naturally sparkling, bicarbonate-rich mineral water from Saint-Galmier, Loire, France, with fine bubbles.",
+         "mk": "Badoit",
+         "y": "1838",
+         "s": "https://en.wikipedia.org/wiki/Badoit",
+         "v": [
+          {
+           "n": "Green Badoit",
+           "mk": "Badoit",
+           "y": "",
+           "d": "original"
+          },
+          {
+           "n": "Red Badoit",
+           "mk": "Badoit",
+           "y": "2004",
+           "d": "more sparkling"
+          },
+          {
+           "n": "PET bottle",
+           "mk": "Badoit",
+           "y": "1999",
+           "d": ""
+          },
+          {
+           "n": "Can",
+           "mk": "Badoit",
+           "y": "2015",
+           "d": ""
+          }
+         ],
+         "dt": "bicarbonate 1,250, Na 180, Ca 153 mg/L · pH 6 · glass, PET, can"
+        },
+        {
+         "n": "S.Pellegrino",
+         "a": "San Pellegrino",
+         "d": "Medium-mineral water from San Pellegrino Terme, Lombardy, with CO2 added at bottling; star-label 'Vichy' glass bottle.",
+         "mk": "Sanpellegrino",
+         "y": "1899",
+         "s": "https://en.wikipedia.org/wiki/Sanpellegrino",
+         "v": [
+          {
+           "n": "Vichy-shape glass bottle",
+           "mk": "Sanpellegrino",
+           "y": "1899",
+           "d": "unchanged design"
+          },
+          {
+           "n": "PET bottle",
+           "mk": "Sanpellegrino",
+           "y": "late 1990s",
+           "d": "50 cl; 33, 75, 100 cl from 2006"
+          },
+          {
+           "n": "'Meets Italian Talents' labels",
+           "mk": "Sanpellegrino",
+           "y": "2010",
+           "d": "with Missoni, Bulgari; also 2011, 2013"
+          }
+         ],
+         "dt": "TDS 854 mg/L · sulphate 402, Ca 164 mg/L · glass 25–100 cl, PET"
+        },
+        {
+         "n": "Ferrarelle",
+         "a": "",
+         "d": "Italian mineral water trademark dating from 1893.",
+         "mk": "Ferrarelle",
+         "y": "1893",
+         "s": "https://www.wikidata.org/wiki/Q1407592",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Topo Chico",
+         "a": "",
+         "d": "Sparkling mineral water from Monterrey, Mexico, naturally carbonated at source and further carbonated; glass bottles.",
+         "mk": "Topo Chico",
+         "y": "1895",
+         "s": "https://en.wikipedia.org/wiki/Topo_Chico",
+         "v": [
+          {
+           "n": "130th-anniversary 12-pack",
+           "mk": "Topo Chico",
+           "y": "2025",
+           "d": "labels from 1895 to 2025"
+          }
+         ],
+         "dt": "glass bottle · strong carbonation"
+        },
+        {
+         "n": "Vichy Catalan",
+         "a": "",
+         "d": "Highly mineralised sodium-bicarbonate sparkling water from Caldes de Malavella, Girona, Catalonia.",
+         "mk": "Vichy Catalan",
+         "y": "1890",
+         "s": "https://en.wikipedia.org/wiki/Vichy_Catalán",
+         "v": [],
+         "dt": "dry residue 3,052 mg/L · Na 1,097, bicarbonate 2,081 mg/L · glass, can"
+        },
+        {
+         "n": "Borjomi",
+         "a": "",
+         "d": "Naturally carbonated, highly mineralised volcanic water from the Borjomi Gorge, Georgia; TDS 5,000–7,500 mg/L.",
+         "mk": "Borjomi",
+         "y": "1890",
+         "s": "https://en.wikipedia.org/wiki/Borjomi_(water)",
+         "v": [
+          {
+           "n": "First bottling plant",
+           "mk": "Borjomi",
+           "y": "1854",
+           "d": "1,350 bottles"
+          },
+          {
+           "n": "Deer-image packaging",
+           "mk": "Borjomi",
+           "y": "2011",
+           "d": ""
+          },
+          {
+           "n": "Minimalist silver-stripe design",
+           "mk": "Borjomi",
+           "y": "2019",
+           "d": ""
+          },
+          {
+           "n": "Classic-look redesign",
+           "mk": "Borjomi",
+           "y": "2024",
+           "d": "by Osborne Pike"
+          }
+         ],
+         "dt": "TDS 5,000–7,500 mg/L · bicarbonate 3,500–5,000, Na 1,000–2,000 mg/L"
+        },
+        {
+         "n": "Mattoni",
+         "a": "",
+         "d": "Czech mineral water from Kyselka near Karlovy Vary, bottled by Heinrich Mattoni from 1867; sparkling and flavoured.",
+         "mk": "Mattoni",
+         "y": "1873",
+         "s": "https://en.wikipedia.org/wiki/Mattoni",
+         "v": [
+          {
+           "n": "First bottling by Heinrich Mattoni",
+           "mk": "Mattoni",
+           "y": "1867",
+           "d": ""
+          }
+         ],
+         "dt": "plain and flavoured"
+        },
+        {
+         "n": "Saratoga",
+         "a": "",
+         "d": "Spring water from Saratoga Springs, New York, sold sparkling and still in a cobalt-blue bottle.",
+         "mk": "Saratoga",
+         "y": "1872",
+         "s": "https://en.wikipedia.org/wiki/Saratoga_Spring_Water",
+         "v": [
+          {
+           "n": "Saratoga Vichy",
+           "mk": "Saratoga",
+           "y": "1872",
+           "d": "original name"
+          },
+          {
+           "n": "Aluminium bottle",
+           "mk": "Saratoga",
+           "y": "2024",
+           "d": ""
+          }
+         ],
+         "dt": "cobalt-blue glass · sparkling and still"
+        }
+       ]
+      },
+      {
+       "n": "Seltzer & carbonated water",
+       "a": "seltzer · soda water · sparkling water · fizzy water",
+       "d": "Plain water with carbon dioxide injected under pressure, not from a named mineral source; unflavoured.",
+       "t": [
+        "plain seltzer",
+        "minerals added",
+        "glass bottle",
+        "can",
+        "PET bottle",
+        "multipack"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Carbonated_water",
+       "m": [
+        [
+         "Polar Seltzer",
+         "Polar Beverages"
+        ],
+        [
+         "LaCroix Pure",
+         "LaCroix"
+        ],
+        [
+         "justbubly",
+         "Bubly"
+        ]
+       ]
+      },
+      {
+       "n": "Flavoured sparkling water",
+       "a": "flavoured seltzer · sparkling flavoured water · essence water",
+       "d": "Sparkling water flavoured with fruit essences or juice, usually unsweetened and calorie-free.",
+       "t": [
+        "unsweetened essence-flavoured",
+        "with fruit juice",
+        "caffeinated",
+        "can",
+        "bottle"
+       ],
+       "s": "https://en.wikipedia.org/wiki/La_Croix_Sparkling_Water",
+       "x": [
+        {
+         "n": "LaCroix",
+         "a": "",
+         "d": "American unsweetened, naturally essence-flavoured sparkling water in bright cans; launched by Heileman in La Crosse, Wisconsin.",
+         "mk": "LaCroix",
+         "y": "1980",
+         "s": "https://en.wikipedia.org/wiki/La_Croix_Sparkling_Water",
+         "v": [
+          {
+           "n": "Pure, Lemon, Lime, Orange, Berry, Cran-Raspberry",
+           "mk": "LaCroix",
+           "y": "2004",
+           "d": ""
+          },
+          {
+           "n": "Pamplemousse",
+           "mk": "LaCroix",
+           "y": "2008",
+           "d": "grapefruit"
+          },
+          {
+           "n": "Coconut",
+           "mk": "LaCroix",
+           "y": "2011",
+           "d": ""
+          },
+          {
+           "n": "Can redesign",
+           "mk": "LaCroix",
+           "y": "2002",
+           "d": ""
+          },
+          {
+           "n": "Cúrate line",
+           "mk": "LaCroix",
+           "y": "",
+           "d": "fruit blends"
+          },
+          {
+           "n": "NiCola / laCola",
+           "mk": "LaCroix",
+           "y": "",
+           "d": "cola-flavoured"
+          },
+          {
+           "n": "LimonCello, Hi-Biscus!, Pastèque",
+           "mk": "LaCroix",
+           "y": "2020",
+           "d": ""
+          }
+         ],
+         "dt": "12 fl oz cans · flavours"
+        },
+        {
+         "n": "Bubly",
+         "a": "",
+         "d": "PepsiCo's sugar-free sparkling water with natural flavours, launched in the US and Canada in eight flavours.",
+         "mk": "Bubly",
+         "y": "2018",
+         "s": "https://en.wikipedia.org/wiki/Bubly",
+         "v": [
+          {
+           "n": "Original eight flavours",
+           "mk": "Bubly",
+           "y": "2018",
+           "d": ""
+          },
+          {
+           "n": "Bubly Bounce",
+           "mk": "Bubly",
+           "y": "2021",
+           "d": "caffeinated, 35 mg"
+          },
+          {
+           "n": "Bubly Burst",
+           "mk": "Bubly",
+           "y": "2024",
+           "d": "with fruit juice, 16.9 oz PET"
+          }
+         ],
+         "dt": "cans · flavours"
+        },
+        {
+         "n": "Polar Seltzer",
+         "a": "",
+         "d": "Flavoured seltzer from the family-owned Polar Beverages of Worcester, Massachusetts.",
+         "mk": "Polar Beverages",
+         "y": "1882",
+         "s": "https://en.wikipedia.org/wiki/Polar_Beverages",
+         "v": [
+          {
+           "n": "Cranberry Lime",
+           "mk": "Polar Beverages",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "cans · flavours"
+        },
+        {
+         "n": "Perrier flavoured",
+         "a": "",
+         "d": "Flavoured versions of Perrier sparkling mineral water.",
+         "mk": "Perrier",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Perrier",
+         "v": [
+          {
+           "n": "Lemon, Lime",
+           "mk": "Perrier",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Citron Lemon-Lime, Pamplemousse Rose",
+           "mk": "Perrier",
+           "y": "2007",
+           "d": "US"
+          },
+          {
+           "n": "Green Apple",
+           "mk": "Perrier",
+           "y": "2015",
+           "d": ""
+          },
+          {
+           "n": "Saveur Menthe",
+           "mk": "Perrier",
+           "y": "2016",
+           "d": "France"
+          },
+          {
+           "n": "Strawberry, Watermelon",
+           "mk": "Perrier",
+           "y": "2017",
+           "d": ""
+          }
+         ],
+         "dt": ""
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "note": "Tier for everyday bottled water; variety for named mineral-water sources compared by enthusiasts."
+  },
+  {
+   "n": "Sodas",
+   "mode": "variety",
+   "b": [
+    {
+     "m": "Sweetener",
+     "v": "full sugar · cane sugar · reduced sugar · zero / diet",
+     "w": "label; sugar-tax reformulations (UK SDIL 2018)"
+    },
+    {
+     "m": "Format",
+     "v": "can · glass bottle · PET · fountain / syrup",
+     "w": "enthusiast preference for glass-bottle and cane-sugar versions"
+    }
+   ],
+   "s": [
+    {
+     "n": "Colas & mainstream sodas",
+     "k": [
+      {
+       "n": "Cola",
+       "a": "coke · pop · soda",
+       "d": "Dark caramel-coloured soda flavoured with vanilla, cinnamon and citrus oils, named after the caffeine-bearing kola nut.",
+       "t": [
+        "regular (sugar or HFCS)",
+        "cane-sugar",
+        "diet / zero sugar",
+        "caffeine-free",
+        "glass bottle",
+        "can",
+        "PET bottle",
+        "fountain syrup",
+        "clear cola",
+        "flavoured (cherry, vanilla, lime)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Cola",
+       "x": [
+        {
+         "n": "Coca-Cola",
+         "a": "Coke",
+         "d": "The original cola, created by pharmacist John Stith Pemberton and first sold at Jacob's Pharmacy, Atlanta.",
+         "mk": "Coca-Cola",
+         "y": "1886",
+         "s": "https://en.wikipedia.org/wiki/Coca-Cola",
+         "v": [
+          {
+           "n": "Contour bottle",
+           "mk": "Coca-Cola",
+           "y": "1915",
+           "d": "Earl R. Dean and Harold Hirsch, Root Glass Co."
+          },
+          {
+           "n": "Diet Coke",
+           "mk": "Coca-Cola",
+           "y": "1982",
+           "d": ""
+          },
+          {
+           "n": "Caffeine-Free Coca-Cola",
+           "mk": "Coca-Cola",
+           "y": "1983",
+           "d": ""
+          },
+          {
+           "n": "New Coke",
+           "mk": "Coca-Cola",
+           "y": "1985",
+           "d": "withdrawn; original returned as Coca-Cola Classic"
+          },
+          {
+           "n": "Cherry Coke",
+           "mk": "Coca-Cola",
+           "y": "1985",
+           "d": ""
+          },
+          {
+           "n": "Vanilla Coke",
+           "mk": "Coca-Cola",
+           "y": "2002",
+           "d": ""
+          },
+          {
+           "n": "Coca-Cola Zero (Zero Sugar)",
+           "mk": "Coca-Cola",
+           "y": "2005",
+           "d": ""
+          },
+          {
+           "n": "Coca-Cola Life",
+           "mk": "Coca-Cola",
+           "y": "2014",
+           "d": "stevia blend; discontinued"
+          },
+          {
+           "n": "Mexican Coke",
+           "mk": "Coca-Cola",
+           "y": "",
+           "d": "cane sugar, glass bottle"
+          },
+          {
+           "n": "Kosher for Passover",
+           "mk": "Coca-Cola",
+           "y": "",
+           "d": "yellow cap"
+          }
+         ],
+         "dt": "contour glass, can, PET · regular, diet, zero, flavours"
+        },
+        {
+         "n": "Pepsi",
+         "a": "Pepsi-Cola",
+         "d": "Cola created by Caleb Bradham at his New Bern, North Carolina drugstore as 'Brad's Drink', renamed Pepsi-Cola in 1898.",
+         "mk": "Pepsi",
+         "y": "1893",
+         "s": "https://en.wikipedia.org/wiki/Pepsi",
+         "v": [
+          {
+           "n": "Diet Pepsi",
+           "mk": "Pepsi",
+           "y": "1964",
+           "d": ""
+          },
+          {
+           "n": "Pepsi Wild Cherry",
+           "mk": "Pepsi",
+           "y": "1970s",
+           "d": ""
+          },
+          {
+           "n": "Caffeine-Free Pepsi",
+           "mk": "Pepsi",
+           "y": "1982",
+           "d": ""
+          },
+          {
+           "n": "Pepsi Max",
+           "mk": "Pepsi",
+           "y": "1993",
+           "d": ""
+          },
+          {
+           "n": "Crystal Pepsi",
+           "mk": "Pepsi",
+           "y": "",
+           "d": "clear cola"
+          },
+          {
+           "n": "Pepsi Zero Sugar",
+           "mk": "Pepsi",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Pepsi Made with Real Sugar",
+           "mk": "Pepsi",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Nitro Pepsi",
+           "mk": "Pepsi",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Pepsi Perfect",
+           "mk": "Pepsi",
+           "y": "2015",
+           "d": "limited edition"
+          }
+         ],
+         "dt": "can, PET, glass · regular, diet, max, flavours"
+        },
+        {
+         "n": "RC Cola",
+         "a": "Royal Crown Cola",
+         "d": "Royal Crown cola from Columbus, Georgia; first soft drinks in tin cans (1954) and maker of Diet Rite, the first diet cola.",
+         "mk": "Royal Crown",
+         "y": "1934",
+         "s": "https://en.wikipedia.org/wiki/RC_Cola",
+         "v": [
+          {
+           "n": "Diet Rite",
+           "mk": "Royal Crown",
+           "y": "1954",
+           "d": "first diet cola"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Thums Up",
+         "a": "",
+         "d": "Indian cola, fizzier and spicier than Coca-Cola, created by the Chauhan brothers of Parle.",
+         "mk": "Thums Up",
+         "y": "1977",
+         "s": "https://en.wikipedia.org/wiki/Thums_Up",
+         "v": [
+          {
+           "n": "250 ml bottle",
+           "mk": "Thums Up",
+           "y": "1977",
+           "d": "original"
+          },
+          {
+           "n": "MahaCola 300 ml bottle",
+           "mk": "Thums Up",
+           "y": "",
+           "d": "after the 1991 market opening"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Kofola",
+         "a": "",
+         "d": "Czechoslovak herbal cola made from Kofo syrup of 14 herbal and fruit ingredients, created in Prague.",
+         "mk": "Kofola",
+         "y": "1960",
+         "s": "https://en.wikipedia.org/wiki/Kofola",
+         "v": [
+          {
+           "n": "Original",
+           "mk": "Kofola",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Citrus",
+           "mk": "Kofola",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Vanilla",
+           "mk": "Kofola",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "glass, PET, can, draught"
+        },
+        {
+         "n": "Fritz-kola",
+         "a": "",
+         "d": "Hamburg craft cola with high caffeine (about 25 mg/100 ml), sold in glass bottles.",
+         "mk": "Fritz-kola",
+         "y": "2003",
+         "s": "https://en.wikipedia.org/wiki/Fritz-kola",
+         "v": [
+          {
+           "n": "Fritz-kola sugar-free",
+           "mk": "Fritz-kola",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "mischmasch",
+           "mk": "Fritz-kola",
+           "y": "",
+           "d": "kola-orange"
+          }
+         ],
+         "dt": "glass bottles"
+        },
+        {
+         "n": "Curiosity Cola",
+         "a": "",
+         "d": "Botanically brewed craft cola from Fentimans of Hexham.",
+         "mk": "Fentimans",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Fentimans",
+         "v": [],
+         "dt": "glass bottles"
+        }
+       ],
+       "m": [
+        [
+         "Inca Kola",
+         "Inca Kola"
+        ],
+        [
+         "Afri-Cola",
+         "Afri-Cola"
+        ],
+        [
+         "Breizh Cola",
+         "Breizh Cola"
+        ],
+        [
+         "Bec Cola",
+         "Bec Cola"
+        ],
+        [
+         "Zevia",
+         "Zevia"
+        ],
+        [
+         "Kola Román",
+         "Kola Román"
+        ]
+       ]
+      },
+      {
+       "n": "Pepper & spiced soda",
+       "a": "pepper-type soda · Dr Pepper-style",
+       "d": "Dark, spiced, fruity soda in the Dr Pepper style, distinct from cola.",
+       "t": [
+        "regular (sugar or HFCS)",
+        "cane-sugar",
+        "diet / zero sugar",
+        "caffeine-free",
+        "glass bottle",
+        "can",
+        "PET bottle",
+        "fountain syrup",
+        "cherry",
+        "cherry vanilla"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Dr_Pepper",
+       "x": [
+        {
+         "n": "Dr Pepper",
+         "a": "",
+         "d": "Spiced soda created by pharmacist Charles Alderton at Morrison's Old Corner Drug Store, Waco, Texas.",
+         "mk": "Dr Pepper",
+         "y": "1885",
+         "s": "https://en.wikipedia.org/wiki/Dr_Pepper",
+         "v": [
+          {
+           "n": "Diet Dr Pepper",
+           "mk": "Dr Pepper",
+           "y": "1962",
+           "d": ""
+          },
+          {
+           "n": "Caffeine Free Dr Pepper",
+           "mk": "Dr Pepper",
+           "y": "1983",
+           "d": ""
+          },
+          {
+           "n": "Dr Pepper Cherry Vanilla",
+           "mk": "Dr Pepper",
+           "y": "2004",
+           "d": ""
+          },
+          {
+           "n": "Dr Pepper Cherry",
+           "mk": "Dr Pepper",
+           "y": "2009",
+           "d": ""
+          },
+          {
+           "n": "Heritage Dr Pepper",
+           "mk": "Dr Pepper",
+           "y": "2009",
+           "d": "sugar-sweetened"
+          },
+          {
+           "n": "Dr Pepper Made with Real Sugar",
+           "mk": "Dr Pepper",
+           "y": "2010",
+           "d": ""
+          },
+          {
+           "n": "Dr Pepper Ten",
+           "mk": "Dr Pepper",
+           "y": "2011",
+           "d": "discontinued 2018"
+          },
+          {
+           "n": "Dr Pepper Zero Sugar",
+           "mk": "Dr Pepper",
+           "y": "2021",
+           "d": ""
+          },
+          {
+           "n": "Dublin Dr Pepper",
+           "mk": "Dr Pepper",
+           "y": "",
+           "d": "discontinued"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Mr. Pibb",
+         "a": "Pibb Xtra · Peppo",
+         "d": "Coca-Cola's pepper-type soda, launched as Peppo in Memphis and renamed Pibb Xtra in 2001; name restored 2025.",
+         "mk": "Coca-Cola",
+         "y": "1972",
+         "s": "https://en.wikipedia.org/wiki/Pibb_Xtra",
+         "v": [
+          {
+           "n": "Peppo",
+           "mk": "Coca-Cola",
+           "y": "1972",
+           "d": "original name"
+          },
+          {
+           "n": "Pibb Xtra",
+           "mk": "Coca-Cola",
+           "y": "2001",
+           "d": "spicy cherry"
+          },
+          {
+           "n": "Mr. Pibb relaunch",
+           "mk": "Coca-Cola",
+           "y": "2025",
+           "d": "more caffeine"
+          }
+         ],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Lemon-lime soda",
+       "a": "lemonade (UK usage) · clear soda",
+       "d": "Clear, caffeine-free carbonated soft drink flavoured with lemon and lime.",
+       "t": [
+        "regular (sugar or HFCS)",
+        "cane-sugar",
+        "diet / zero sugar",
+        "caffeine-free",
+        "glass bottle",
+        "can",
+        "PET bottle",
+        "fountain syrup",
+        "cherry",
+        "cranberry"
+       ],
+       "s": "https://en.wikipedia.org/wiki/7_Up",
+       "x": [
+        {
+         "n": "7 Up",
+         "a": "7UP · Seven Up",
+         "d": "Lemon-lime soda developed by Charles Leiper Grigg of the Howdy Corporation, St. Louis.",
+         "mk": "7 Up",
+         "y": "1928",
+         "s": "https://en.wikipedia.org/wiki/7_Up",
+         "v": [
+          {
+           "n": "SEVEN-UP",
+           "mk": "7 Up",
+           "y": "1928",
+           "d": "original name"
+          },
+          {
+           "n": "7up Lithiated Lemon Soda",
+           "mk": "7 Up",
+           "y": "1930",
+           "d": "renamed 7 Up 1937"
+          },
+          {
+           "n": "Like (Diet 7 Up)",
+           "mk": "7 Up",
+           "y": "1963",
+           "d": "relaunched as Diet 7 Up 1970, 7 Up Zero Sugar 2020"
+          },
+          {
+           "n": "Cherry 7 Up",
+           "mk": "7 Up",
+           "y": "1987",
+           "d": ""
+          },
+          {
+           "n": "7 Up Free",
+           "mk": "7 Up",
+           "y": "2005",
+           "d": "UK, ex-7 Up Light"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Sprite",
+         "a": "",
+         "d": "Coca-Cola's lemon-lime soda, developed in West Germany as Fanta Klare Zitrone and launched in the US in 1961.",
+         "mk": "Coca-Cola",
+         "y": "1959",
+         "s": "https://en.wikipedia.org/wiki/Sprite_(drink)",
+         "v": [
+          {
+           "n": "Fanta Klare Zitrone",
+           "mk": "Coca-Cola",
+           "y": "1959",
+           "d": "West Germany"
+          },
+          {
+           "n": "Sprite (US)",
+           "mk": "Coca-Cola",
+           "y": "1961",
+           "d": ""
+          },
+          {
+           "n": "Sugar Free Sprite / Sprite Zero Sugar",
+           "mk": "Coca-Cola",
+           "y": "1974",
+           "d": "renamed 1983, 2004, 2006, 2019"
+          },
+          {
+           "n": "Sprite Remix",
+           "mk": "Coca-Cola",
+           "y": "2003",
+           "d": "Tropical; BerryClear 2004; Aruba Jam 2005"
+          },
+          {
+           "n": "Sprite Cranberry",
+           "mk": "Coca-Cola",
+           "y": "2013",
+           "d": "seasonal"
+          },
+          {
+           "n": "Clear bottle",
+           "mk": "Coca-Cola",
+           "y": "2022",
+           "d": "green bottle dropped"
+          }
+         ],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Citrus soda",
+       "a": "citrus pop · yellow soda",
+       "d": "Caffeinated, sharply sweet citrus-flavoured soda, often neon yellow-green.",
+       "t": [
+        "regular (sugar or HFCS)",
+        "cane-sugar",
+        "diet / zero sugar",
+        "caffeine-free",
+        "glass bottle",
+        "can",
+        "PET bottle",
+        "fountain syrup",
+        "cherry",
+        "tropical lime"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Mountain_Dew",
+       "x": [
+        {
+         "n": "Mountain Dew",
+         "a": "Mtn Dew",
+         "d": "Citrus soda created by Knoxville bottlers Barney and Ally Hartman; reformulated in 1958, owned by PepsiCo since 1964.",
+         "mk": "Mountain Dew",
+         "y": "1940s",
+         "s": "https://en.wikipedia.org/wiki/Mountain_Dew",
+         "v": [
+          {
+           "n": "Bill Bridgforth formula",
+           "mk": "Mountain Dew",
+           "y": "1958",
+           "d": "Johnson City, Tennessee"
+          },
+          {
+           "n": "Diet Mountain Dew",
+           "mk": "Mountain Dew",
+           "y": "1988",
+           "d": ""
+          },
+          {
+           "n": "Code Red",
+           "mk": "Mountain Dew",
+           "y": "2001",
+           "d": "cherry"
+          },
+          {
+           "n": "Voltage",
+           "mk": "Mountain Dew",
+           "y": "2008",
+           "d": "DEWmocracy winner"
+          },
+          {
+           "n": "Throwback",
+           "mk": "Mountain Dew",
+           "y": "2009",
+           "d": "sugar-sweetened"
+          },
+          {
+           "n": "Baja Blast",
+           "mk": "Mountain Dew",
+           "y": "2014",
+           "d": "retail; originally Taco Bell exclusive"
+          },
+          {
+           "n": "Kickstart",
+           "mk": "Mountain Dew",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": ""
+        }
+       ],
+       "m": [
+        [
+         "Mello Yello",
+         "Coca-Cola"
+        ],
+        [
+         "Surge",
+         "Coca-Cola"
+        ],
+        [
+         "Sun Drop",
+         "Keurig Dr Pepper"
+        ]
+       ]
+      },
+      {
+       "n": "Orange soda",
+       "a": "orangeade · aranciata · orange pop",
+       "d": "Carbonated orange-flavoured soft drink, with or without real orange juice or pulp.",
+       "t": [
+        "regular (sugar or HFCS)",
+        "cane-sugar",
+        "diet / zero sugar",
+        "caffeine-free",
+        "glass bottle",
+        "can",
+        "PET bottle",
+        "fountain syrup",
+        "with juice",
+        "with pulp",
+        "blood orange"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Fanta",
+       "x": [
+        {
+         "n": "Orange Crush",
+         "a": "Crush",
+         "d": "Orange soda created by chemist Neil C. Ward, originally sold with added orange pulp.",
+         "mk": "Crush",
+         "y": "1911",
+         "s": "https://en.wikipedia.org/wiki/Crush_(soft_drink)",
+         "v": [
+          {
+           "n": "Ward's Orange-Crush",
+           "mk": "Crush",
+           "y": "1911",
+           "d": "with pulp"
+          },
+          {
+           "n": "Diet Orange",
+           "mk": "Crush",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Orangina",
+         "a": "",
+         "d": "Lightly sparkling orange and citrus drink with pulp, in a round textured bottle; invented in Spain as Naranjina.",
+         "mk": "Orangina",
+         "y": "1935",
+         "s": "https://en.wikipedia.org/wiki/Orangina",
+         "v": [
+          {
+           "n": "Round textured 250 ml bottle",
+           "mk": "Orangina",
+           "y": "1951",
+           "d": "Jean-Claude Beton"
+          },
+          {
+           "n": "Orelia",
+           "mk": "Orangina",
+           "y": "1978",
+           "d": "US name until 1985"
+          },
+          {
+           "n": "Orangina Rouge",
+           "mk": "Orangina",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Orangina Sanguine",
+           "mk": "Orangina",
+           "y": "",
+           "d": "blood orange"
+          },
+          {
+           "n": "Miss O",
+           "mk": "Orangina",
+           "y": "2010s",
+           "d": "sugar-free"
+          }
+         ],
+         "dt": "25 cl glass bottle · shake before opening"
+        },
+        {
+         "n": "Fanta Orange",
+         "a": "",
+         "d": "Coca-Cola's orange soda, developed in Naples in 1955; Fanta itself began in wartime Germany under Max Keith.",
+         "mk": "Fanta",
+         "y": "1955",
+         "s": "https://en.wikipedia.org/wiki/Fanta",
+         "v": [
+          {
+           "n": "Wartime German Fanta",
+           "mk": "Fanta",
+           "y": "1941",
+           "d": "whey and apple pomace; ended 1949"
+          },
+          {
+           "n": "Fanta Klassik",
+           "mk": "Fanta",
+           "y": "2015",
+           "d": "Germany, wartime-style recipe"
+          },
+          {
+           "n": "Fanta Orange No Sugar",
+           "mk": "Fanta",
+           "y": "",
+           "d": "South Africa"
+          }
+         ],
+         "dt": "real orange juice outside US"
+        },
+        {
+         "n": "Aranciata",
+         "a": "",
+         "d": "Italian orangeade from Sanpellegrino.",
+         "mk": "Sanpellegrino",
+         "y": "1932",
+         "s": "https://en.wikipedia.org/wiki/Sanpellegrino",
+         "v": [
+          {
+           "n": "Aranciata Rossa",
+           "mk": "Sanpellegrino",
+           "y": "",
+           "d": "blood orange"
+          }
+         ],
+         "dt": "cans, glass"
+        }
+       ]
+      },
+      {
+       "n": "Fruit soda",
+       "a": "fruit pop · flavoured soda",
+       "d": "Sweet carbonated soft drink flavoured with grape, strawberry, pineapple, tropical or other fruit.",
+       "t": [
+        "regular (sugar or HFCS)",
+        "cane-sugar",
+        "diet / zero sugar",
+        "caffeine-free",
+        "glass bottle",
+        "can",
+        "PET bottle",
+        "fountain syrup",
+        "grape",
+        "strawberry",
+        "pineapple",
+        "peach",
+        "tropical",
+        "apple"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Grape_soda",
+       "x": [
+        {
+         "n": "Grape soda",
+         "a": "grapeade · purple drink",
+         "d": "Deep purple, Concord-grape-flavoured soda, sold at US soda fountains as grapeade from the late 1800s.",
+         "mk": "",
+         "y": "late 1800s",
+         "s": "https://en.wikipedia.org/wiki/Grape_soda",
+         "v": [
+          {
+           "n": "Fanta Grape",
+           "mk": "Fanta",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Crush Grape",
+           "mk": "Crush",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Grapette",
+           "mk": "Grapette",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "NuGrape",
+           "mk": "NuGrape",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Grapico",
+           "mk": "Grapico",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "methyl anthranilate flavour · purple"
+        },
+        {
+         "n": "Crush fruit flavours",
+         "a": "",
+         "d": "Crush's fruit soda range beyond orange.",
+         "mk": "Crush",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Crush_(soft_drink)",
+         "v": [
+          {
+           "n": "Grape",
+           "mk": "Crush",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Strawberry",
+           "mk": "Crush",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Peach",
+           "mk": "Crush",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Pineapple",
+           "mk": "Crush",
+           "y": "",
+           "d": "originally Newfoundland only"
+          },
+          {
+           "n": "Cherry",
+           "mk": "Crush",
+           "y": "2009",
+           "d": ""
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Fanta flavours",
+         "a": "",
+         "d": "Fanta's range of over 200 fruit flavours worldwide, many regional.",
+         "mk": "Fanta",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Fanta",
+         "v": [
+          {
+           "n": "Fanta Calamansi",
+           "mk": "Fanta",
+           "y": "1994",
+           "d": "Philippines"
+          },
+          {
+           "n": "Fanta Exotic",
+           "mk": "Fanta",
+           "y": "",
+           "d": "Scandinavia"
+          },
+          {
+           "n": "Fanta Shokata",
+           "mk": "Fanta",
+           "y": "",
+           "d": "elderflower"
+          },
+          {
+           "n": "Fanta Pineapple and Grapefruit",
+           "mk": "Fanta",
+           "y": "2023",
+           "d": "UK, ex-Lilt"
+          },
+          {
+           "n": "Brazilian regional flavours",
+           "mk": "Fanta",
+           "y": "2010",
+           "d": "guaraná, passion fruit, cashew"
+          }
+         ],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Root beer & birch beer",
+       "a": "root beer · birch beer · sarsaparilla",
+       "d": "Sweet, foamy North American soda flavoured with sassafras, sarsaparilla or birch bark extract, usually caffeine-free.",
+       "t": [
+        "regular (sugar or HFCS)",
+        "cane-sugar",
+        "diet / zero sugar",
+        "caffeine-free",
+        "glass bottle",
+        "can",
+        "PET bottle",
+        "fountain syrup",
+        "red, brown or clear (white) birch beer"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Root_beer",
+       "x": [
+        {
+         "n": "Hires Root Beer",
+         "a": "",
+         "d": "The first commercial root beer, by Philadelphia pharmacist Charles Elmer Hires; now largely phased out.",
+         "mk": "Hires",
+         "y": "1876",
+         "s": "https://en.wikipedia.org/wiki/Hires_Root_Beer",
+         "v": [
+          {
+           "n": "Powdered concentrate",
+           "mk": "Hires",
+           "y": "1876",
+           "d": ""
+          },
+          {
+           "n": "Liquid extract and fountain syrup",
+           "mk": "Hires",
+           "y": "1884",
+           "d": ""
+          },
+          {
+           "n": "Bottled root beer",
+           "mk": "Hires",
+           "y": "1890",
+           "d": ""
+          },
+          {
+           "n": "Home brewing kits",
+           "mk": "Hires",
+           "y": "1900s",
+           "d": "to 1980s"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "A&W Root Beer",
+         "a": "",
+         "d": "Root beer from Roy W. Allen's roadside stand in Lodi, California.",
+         "mk": "A&W",
+         "y": "1919",
+         "s": "https://en.wikipedia.org/wiki/A&W_Root_Beer",
+         "v": [
+          {
+           "n": "Sugar-Free",
+           "mk": "A&W",
+           "y": "1974",
+           "d": "Diet A&W 1987; A&W Zero Sugar 2020"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Barq's Root Beer",
+         "a": "",
+         "d": "Sarsaparilla-based, caffeinated root beer from Edward Barq's Biloxi Artesian Bottling Works.",
+         "mk": "Barq's",
+         "y": "1898",
+         "s": "https://en.wikipedia.org/wiki/Barq's",
+         "v": [
+          {
+           "n": "Diet / Zero Sugar",
+           "mk": "Barq's",
+           "y": "2022",
+           "d": "renamed Zero Sugar"
+          }
+         ],
+         "dt": "22.5 mg caffeine per 12 oz"
+        },
+        {
+         "n": "Birch beer",
+         "a": "",
+         "d": "Root-beer-like soda flavoured with birch bark extract, typical of Pennsylvania, the Northeast US and Newfoundland.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Birch_beer",
+         "v": [
+          {
+           "n": "White (clear) birch beer",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Red birch beer",
+           "mk": "",
+           "y": "",
+           "d": "Mid-Atlantic"
+          }
+         ],
+         "dt": "brown, red, blue, clear"
+        }
+       ],
+       "m": [
+        [
+         "Mug Root Beer",
+         "Mug"
+        ],
+        [
+         "IBC Root Beer",
+         "IBC"
+        ],
+        [
+         "Dad's Root Beer",
+         "Dad's"
+        ],
+        [
+         "Sprecher Root Beer",
+         "Sprecher"
+        ]
+       ]
+      },
+      {
+       "n": "Cream soda",
+       "a": "creme soda · creaming soda",
+       "d": "Sweet soda flavoured with vanilla or cream, clear, golden, pink, red or green by region.",
+       "t": [
+        "regular (sugar or HFCS)",
+        "cane-sugar",
+        "diet / zero sugar",
+        "caffeine-free",
+        "glass bottle",
+        "can",
+        "PET bottle",
+        "fountain syrup",
+        "vanilla (clear/golden)",
+        "red or pink",
+        "creaming soda (Australia, NZ)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Cream_soda",
+       "x": [
+        {
+         "n": "Vanilla cream soda",
+         "a": "",
+         "d": "American clear or golden vanilla-flavoured soda; 'cream soda-water' was patented in 1865.",
+         "mk": "",
+         "y": "1865",
+         "s": "https://en.wikipedia.org/wiki/Cream_soda",
+         "v": [
+          {
+           "n": "A&W Cream Soda",
+           "mk": "A&W",
+           "y": "1986",
+           "d": ""
+          },
+          {
+           "n": "Barq's French Vanilla Crème",
+           "mk": "Barq's",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Red / pink cream soda",
+         "a": "",
+         "d": "Red or pink cream soda, grenadine-like in Canada and raspberry-flavoured in Australia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Cream_soda",
+         "v": [
+          {
+           "n": "Barq's Red Crème Soda",
+           "mk": "Barq's",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Crush Cream Soda",
+           "mk": "Crush",
+           "y": "",
+           "d": "pink in Canada, clear in Québec"
+          }
+         ],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Sparkling lemonade",
+       "a": "lemonade (UK) · clear lemonade · limonata · limonade",
+       "d": "Clear or cloudy carbonated lemon-flavoured drink, the usual meaning of 'lemonade' in Britain, Ireland and Australasia.",
+       "t": [
+        "clear",
+        "cloudy",
+        "red, brown or white (Ireland)",
+        "glass bottle",
+        "can",
+        "PET bottle"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Lemonade",
+       "x": [
+        {
+         "n": "R. White's Lemonade",
+         "a": "",
+         "d": "British clear lemonade, sold since 1845.",
+         "mk": "R. White's",
+         "y": "1845",
+         "s": "https://en.wikipedia.org/wiki/Lemonade",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Schweppes Lemonade",
+         "a": "",
+         "d": "Clear lemonade from a blend of lemon and lime oils.",
+         "mk": "Schweppes",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Lemonade",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Limonata",
+         "a": "",
+         "d": "Italian sparkling lemon drink from Sanpellegrino.",
+         "mk": "Sanpellegrino",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sanpellegrino",
+         "v": [],
+         "dt": "cans, glass"
+        },
+        {
+         "n": "Victorian Lemonade",
+         "a": "",
+         "d": "Botanically brewed cloudy lemonade from Fentimans; sister Rose Lemonade.",
+         "mk": "Fentimans",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Fentimans",
+         "v": [
+          {
+           "n": "Rose Lemonade",
+           "mk": "Fentimans",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "glass bottles"
+        }
+       ],
+       "m": [
+        [
+         "Kirks Lemonade",
+         "Kirks"
+        ],
+        [
+         "C&C Lemonade",
+         "C&C"
+        ],
+        [
+         "Kelluke",
+         "Kelluke"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Regional & heritage sodas",
+     "k": [
+      {
+       "n": "Guaraná soda",
+       "a": "guaraná · refrigerante de guaraná",
+       "d": "Brazilian-style soda flavoured with the caffeine-bearing guaraná fruit.",
+       "t": [
+        "regular",
+        "diet / zero sugar",
+        "glass bottle",
+        "can",
+        "PET bottle"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Guaraná_Antarctica",
+       "x": [
+        {
+         "n": "Guaraná Antarctica",
+         "a": "",
+         "d": "Brazil's leading guaraná soda, created by Pedro Baptista de Andrade for Companhia Antarctica Paulista; made by Ambev.",
+         "mk": "Guaraná Antarctica",
+         "y": "1921",
+         "s": "https://en.wikipedia.org/wiki/Guaraná_Antarctica",
+         "v": [
+          {
+           "n": "Guaraná Antarctica Zero",
+           "mk": "Guaraná Antarctica",
+           "y": "",
+           "d": "Brazil"
+          },
+          {
+           "n": "Guaraná Antarctica Açaí",
+           "mk": "Guaraná Antarctica",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "made in Brazil, Portugal, Argentina, Bolivia, Japan"
+        },
+        {
+         "n": "Fanta Guaraná",
+         "a": "",
+         "d": "Brazilian regional Fanta flavour.",
+         "mk": "Fanta",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Fanta",
+         "v": [],
+         "dt": ""
+        }
+       ],
+       "m": [
+        [
+         "Kuat",
+         "Coca-Cola"
+        ]
+       ]
+      },
+      {
+       "n": "Bubblegum & tutti-frutti soda",
+       "a": "champagne cola · kola champagne · cream-soda-flavoured",
+       "d": "Bright sweet sodas with bubblegum, tutti-frutti or cream-soda notes, often national icons.",
+       "t": [
+        "regular",
+        "diet / zero sugar",
+        "glass bottle",
+        "can",
+        "PET bottle",
+        "golden / yellow",
+        "orange",
+        "red"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Irn-Bru",
+       "x": [
+        {
+         "n": "Irn-Bru",
+         "a": "",
+         "d": "Scotland's orange 'other national drink' from A.G. Barr, with a tutti-frutti, bubblegum and cream-soda flavour.",
+         "mk": "A.G. Barr",
+         "y": "1901",
+         "s": "https://en.wikipedia.org/wiki/Irn-Bru",
+         "v": [
+          {
+           "n": "Diet Irn-Bru",
+           "mk": "A.G. Barr",
+           "y": "1980",
+           "d": "Sugar Free 2011–2025, then Diet again"
+          },
+          {
+           "n": "Irn-Bru Xtra",
+           "mk": "A.G. Barr",
+           "y": "2016",
+           "d": "renamed Irn-Bru Zero 2025"
+          },
+          {
+           "n": "Reduced-sugar reformulation",
+           "mk": "A.G. Barr",
+           "y": "2018",
+           "d": "UK sugar tax"
+          },
+          {
+           "n": "Irn-Bru 1901",
+           "mk": "A.G. Barr",
+           "y": "2019",
+           "d": "original recipe; permanent 2021"
+          },
+          {
+           "n": "Irn-Bru Energy",
+           "mk": "A.G. Barr",
+           "y": "2019",
+           "d": ""
+          }
+         ],
+         "dt": "orange colour · glass, can, PET"
+        },
+        {
+         "n": "Inca Kola",
+         "a": "",
+         "d": "Peru's golden lemon-verbena 'champagne cola', created by the Lindley family in Lima.",
+         "mk": "Inca Kola",
+         "y": "1935",
+         "s": "https://en.wikipedia.org/wiki/Inca_Kola",
+         "v": [
+          {
+           "n": "Diet Inca Kola",
+           "mk": "Inca Kola",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Golden Kola",
+           "mk": "Inca Kola",
+           "y": "",
+           "d": "international advertising name"
+          }
+         ],
+         "dt": "golden yellow"
+        },
+        {
+         "n": "Colombiana",
+         "a": "",
+         "d": "Postobón's cola champagne, its most popular product.",
+         "mk": "Postobón",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Postobón",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Big Red",
+         "a": "",
+         "d": "Red, citrus-and-vanilla soda from Waco, Texas, first sold as Sun Tang Red Cream Soda; often taken for bubblegum.",
+         "mk": "Big Red",
+         "y": "1937",
+         "s": "https://en.wikipedia.org/wiki/Big_Red_(drink)",
+         "v": [
+          {
+           "n": "Sun Tang Red Cream Soda",
+           "mk": "Big Red",
+           "y": "1937",
+           "d": "original name"
+          }
+         ],
+         "dt": "red"
+        }
+       ],
+       "m": [
+        [
+         "Kola Román",
+         "Kola Román"
+        ]
+       ]
+      },
+      {
+       "n": "Chinotto & bitter soda",
+       "a": "chinotto · chinò · bitter aperitivo soda · analcolico",
+       "d": "Dark bittersweet soda from myrtle-leaved orange (chinotto) or bitter herbs, including non-alcoholic red bitter aperitivo sodas.",
+       "t": [
+        "glass bottle",
+        "can",
+        "diet"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Chinotto_(soft_drink)",
+       "x": [
+        {
+         "n": "Chinotto",
+         "a": "",
+         "d": "Italian dark, bittersweet soda from Citrus myrtifolia juice, industrially produced from the 1950s.",
+         "mk": "",
+         "y": "1950s",
+         "s": "https://en.wikipedia.org/wiki/Chinotto_(soft_drink)",
+         "v": [
+          {
+           "n": "Chinò",
+           "mk": "Sanpellegrino",
+           "y": "",
+           "d": "Sanpellegrino"
+          },
+          {
+           "n": "Brio",
+           "mk": "Brio",
+           "y": "",
+           "d": "Canada, sweeter"
+          },
+          {
+           "n": "Fanta Amara",
+           "mk": "Fanta",
+           "y": "",
+           "d": "Malta"
+          }
+         ],
+         "dt": "dark, cola-like colour · less sweet"
+        },
+        {
+         "n": "Kinnie",
+         "a": "",
+         "d": "Maltese bittersweet soda brewed from bitter oranges and wormwood by Simonds Farsons Cisk.",
+         "mk": "Kinnie",
+         "y": "1952",
+         "s": "https://en.wikipedia.org/wiki/Kinnie",
+         "v": [
+          {
+           "n": "Diet Kinnie",
+           "mk": "Kinnie",
+           "y": "1984",
+           "d": ""
+          },
+          {
+           "n": "Kinnie Zest",
+           "mk": "Kinnie",
+           "y": "2007",
+           "d": "stronger orange"
+          },
+          {
+           "n": "Kinnie Vita",
+           "mk": "Kinnie",
+           "y": "2014",
+           "d": "stevia"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Sanbittèr",
+         "a": "",
+         "d": "Sanpellegrino's non-alcoholic red bitter aperitivo soda.",
+         "mk": "Sanpellegrino",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sanpellegrino",
+         "v": [],
+         "dt": "small glass bottles"
+        }
+       ]
+      },
+      {
+       "n": "Herbal & sarsaparilla soda",
+       "a": "sarsi · sarsaparilla · herbal lemonade",
+       "d": "Sodas flavoured with sarsaparilla, gentian or Alpine herbs, distinct from cola and root beer.",
+       "t": [
+        "regular",
+        "diet / zero sugar",
+        "glass bottle",
+        "can",
+        "PET bottle"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Sarsaparilla_(soft_drink)",
+       "x": [
+        {
+         "n": "Sarsaparilla",
+         "a": "sarsi · sarsae",
+         "d": "Root-beer-like soda originally from Smilax vine, popular as 'sarsi' in Southeast Asia and in Australia.",
+         "mk": "",
+         "y": "19th century",
+         "s": "https://en.wikipedia.org/wiki/Sarsaparilla_(soft_drink)",
+         "v": [
+          {
+           "n": "Badak",
+           "mk": "Badak",
+           "y": "1916",
+           "d": "Indonesia"
+          },
+          {
+           "n": "Sarsi",
+           "mk": "Sarsi",
+           "y": "",
+           "d": "Philippines, Cosmos Bottling"
+          },
+          {
+           "n": "HeySong Sarsaparilla",
+           "mk": "HeySong",
+           "y": "",
+           "d": "Taiwan"
+          },
+          {
+           "n": "F&N Sarsi",
+           "mk": "F&N",
+           "y": "",
+           "d": "Singapore"
+          },
+          {
+           "n": "Bundaberg Sarsaparilla",
+           "mk": "Bundaberg",
+           "y": "",
+           "d": "Australia"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Moxie",
+         "a": "",
+         "d": "Bitter gentian-root soda from Lowell, Massachusetts, begun as 'Moxie Nerve Food'; Maine's official soft drink since 2005.",
+         "mk": "Moxie",
+         "y": "1876",
+         "s": "https://en.wikipedia.org/wiki/Moxie",
+         "v": [
+          {
+           "n": "Moxie Nerve Food",
+           "mk": "Moxie",
+           "y": "1876",
+           "d": "patent medicine"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Almdudler",
+         "a": "",
+         "d": "Austrian herbal-extract lemonade, the 'national drink of Austria', launched by Erwin Klein.",
+         "mk": "Almdudler",
+         "y": "1957",
+         "s": "https://en.wikipedia.org/wiki/Almdudler",
+         "v": [
+          {
+           "n": "Almdudler Light",
+           "mk": "Almdudler",
+           "y": "",
+           "d": "sugar-free"
+          },
+          {
+           "n": "Almdudler Still",
+           "mk": "Almdudler",
+           "y": "",
+           "d": "uncarbonated"
+          },
+          {
+           "n": "G'spritzt",
+           "mk": "Almdudler",
+           "y": "",
+           "d": "with mineral water"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Dandelion & Burdock",
+         "a": "",
+         "d": "British botanical soda; botanically brewed version by Fentimans.",
+         "mk": "Fentimans",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Fentimans",
+         "v": [],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Ramune & marble soda",
+       "a": "ramune · marble soda · Codd-neck soda",
+       "d": "Japanese lemonade-style soda sold in a Codd-neck glass bottle sealed by a marble.",
+       "t": [
+        "original (lemon-lime)",
+        "fruit flavours",
+        "glass Codd-neck bottle",
+        "plastic Codd-style bottle"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Ramune",
+       "x": [
+        {
+         "n": "Ramune",
+         "a": "",
+         "d": "Carbonated lemonade introduced in Kobe by Scottish pharmacist Alexander Cameron Sim; made by many small Japanese firms.",
+         "mk": "",
+         "y": "1884",
+         "s": "https://en.wikipedia.org/wiki/Ramune",
+         "v": [
+          {
+           "n": "Original",
+           "mk": "",
+           "y": "",
+           "d": "lemon-lime"
+          },
+          {
+           "n": "Melon",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Lychee",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Strawberry",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Yuzu",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Matcha",
+           "mk": "",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "Codd-neck bottle · 17+ flavours"
+        }
+       ]
+      },
+      {
+       "n": "Mexican & Latin American soda",
+       "a": "refresco · gaseosa · Mexican soda",
+       "d": "Fruit sodas from Mexico and Latin America, often cane-sugar sweetened in glass bottles.",
+       "t": [
+        "cane sugar",
+        "glass bottle",
+        "PET bottle",
+        "apple, tamarind, mandarin, guava, lime"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Jarritos",
+       "x": [
+        {
+         "n": "Jarritos",
+         "a": "",
+         "d": "Mexican fruit sodas in tall glass bottles, cane-sugar sweetened and lightly carbonated.",
+         "mk": "Jarritos",
+         "y": "1950",
+         "s": "https://en.wikipedia.org/wiki/Jarritos",
+         "v": [
+          {
+           "n": "Tamarind",
+           "mk": "Jarritos",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Mandarin",
+           "mk": "Jarritos",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Lime",
+           "mk": "Jarritos",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Guava",
+           "mk": "Jarritos",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Mexican cola",
+           "mk": "Jarritos",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "370 and 600 mL glass · 16 flavours"
+        },
+        {
+         "n": "Sidral Mundet",
+         "a": "",
+         "d": "Mexican apple soda first bottled by Arturo Mundet; made by Coca-Cola FEMSA.",
+         "mk": "Sidral Mundet",
+         "y": "1902",
+         "s": "https://en.wikipedia.org/wiki/Sidral_Mundet",
+         "v": [
+          {
+           "n": "US introduction",
+           "mk": "Sidral Mundet",
+           "y": "1988",
+           "d": ""
+          }
+         ],
+         "dt": "red, green and golden apple"
+        },
+        {
+         "n": "Manzana Postobón",
+         "a": "",
+         "d": "Colombian apple soda from Postobón of Medellín.",
+         "mk": "Postobón",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Postobón",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Mirinda",
+         "a": "",
+         "d": "Spanish fruit soda brand, PepsiCo-owned since 1970, mostly orange.",
+         "mk": "Mirinda",
+         "y": "1959",
+         "s": "https://en.wikipedia.org/wiki/Mirinda",
+         "v": [
+          {
+           "n": "Orange",
+           "mk": "Mirinda",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Lemon",
+           "mk": "Mirinda",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Apple",
+           "mk": "Mirinda",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Cordial-based soda",
+       "a": "heritage fruit soda · British pop",
+       "d": "Heritage fruit sodas built on cordial or fruit-juice bases, such as Vimto, Tango and Ting.",
+       "t": [
+        "regular",
+        "diet / zero sugar",
+        "glass bottle",
+        "can",
+        "PET bottle"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Vimto",
+       "x": [
+        {
+         "n": "Vimto",
+         "a": "",
+         "d": "Mixed-fruit drink created by John Noel Nichols as 'Vim Tonic'; sold as cordial and fizzy; an iftar favourite in Arabia.",
+         "mk": "Vimto",
+         "y": "1908",
+         "s": "https://en.wikipedia.org/wiki/Vimto",
+         "v": [
+          {
+           "n": "Vim Tonic",
+           "mk": "Vimto",
+           "y": "1908",
+           "d": "original"
+          },
+          {
+           "n": "Cordial",
+           "mk": "Vimto",
+           "y": "1913",
+           "d": ""
+          },
+          {
+           "n": "Fizzy Vimto",
+           "mk": "Vimto",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Vimto Energy",
+           "mk": "Vimto",
+           "y": "2023",
+           "d": ""
+          }
+         ],
+         "dt": "cordial, can, bottle"
+        },
+        {
+         "n": "Tango",
+         "a": "",
+         "d": "British orangeade launched by Corona of Porth, Wales; owned by Britvic since 1986.",
+         "mk": "Tango",
+         "y": "1958",
+         "s": "https://en.wikipedia.org/wiki/Tango_(drink)",
+         "v": [
+          {
+           "n": "Orange",
+           "mk": "Tango",
+           "y": "1958",
+           "d": ""
+          },
+          {
+           "n": "Apple",
+           "mk": "Tango",
+           "y": "1986",
+           "d": ""
+          },
+          {
+           "n": "Cherry",
+           "mk": "Tango",
+           "y": "1998",
+           "d": "discontinued 2019"
+          },
+          {
+           "n": "Tango Ice Blast",
+           "mk": "Tango",
+           "y": "2004",
+           "d": "slush"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Ting",
+         "a": "",
+         "d": "Jamaican grapefruit soda made with grapefruit juice, first produced by Desnoes & Geddes.",
+         "mk": "Ting",
+         "y": "1976",
+         "s": "https://en.wikipedia.org/wiki/Ting_(drink)",
+         "v": [
+          {
+           "n": "Pink Ting",
+           "mk": "Ting",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Diet Ting",
+           "mk": "Ting",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Sinalco",
+         "a": "",
+         "d": "German soft drink brand from Detmold, claimed as the oldest European soft-drink brand.",
+         "mk": "Sinalco",
+         "y": "1902",
+         "s": "https://en.wikipedia.org/wiki/Sinalco",
+         "v": [
+          {
+           "n": "Orange",
+           "mk": "Sinalco",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Cola",
+           "mk": "Sinalco",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Zitron",
+           "mk": "Sinalco",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Cheerwine",
+         "a": "",
+         "d": "Black-cherry soda from Salisbury, North Carolina.",
+         "mk": "Cheerwine",
+         "y": "1917",
+         "s": "https://en.wikipedia.org/wiki/Cheerwine",
+         "v": [
+          {
+           "n": "Cheerwine Zero Sugar",
+           "mk": "Cheerwine",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Retro Cheerwine",
+           "mk": "Cheerwine",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Craft & prebiotic soda",
+       "a": "craft soda · gut-health soda · prebiotic pop",
+       "d": "Small-batch brewed sodas and modern low-sugar sodas marketed with prebiotic fibre or vinegar.",
+       "t": [
+        "botanically brewed",
+        "prebiotic fibre",
+        "apple cider vinegar",
+        "low sugar"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Olipop",
+       "x": [
+        {
+         "n": "Bundaberg brewed soft drinks",
+         "a": "",
+         "d": "Australian brewed soft drinks from Bundaberg, Queensland.",
+         "mk": "Bundaberg",
+         "y": "1960",
+         "s": "https://en.wikipedia.org/wiki/Bundaberg_Brewed_Drinks",
+         "v": [
+          {
+           "n": "Lemon, Lime & Bitters",
+           "mk": "Bundaberg",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Pink Grapefruit",
+           "mk": "Bundaberg",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Blood Orange",
+           "mk": "Bundaberg",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Spiced Ginger Beer",
+           "mk": "Bundaberg",
+           "y": "2014",
+           "d": "festive limited"
+          }
+         ],
+         "dt": "375 ml glass, 200 ml mini cans"
+        },
+        {
+         "n": "Olipop",
+         "a": "",
+         "d": "Prebiotic soda with added fibre, founded by Ben Goodwin and David Lester in Oakland.",
+         "mk": "Olipop",
+         "y": "2018",
+         "s": "https://en.wikipedia.org/wiki/Olipop",
+         "v": [],
+         "dt": "cans"
+        },
+        {
+         "n": "Poppi",
+         "a": "",
+         "d": "Prebiotic soda with apple cider vinegar, founded as Mother Beverage by Allison and Stephen Ellsworth; PepsiCo-owned since 2025.",
+         "mk": "Poppi",
+         "y": "2018",
+         "s": "https://en.wikipedia.org/wiki/Poppi_(drink)",
+         "v": [
+          {
+           "n": "Mother Beverage",
+           "mk": "Poppi",
+           "y": "2018",
+           "d": "original name; Poppi 2020"
+          }
+         ],
+         "dt": "cans"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "note": "Carbonated soft drinks by flavour family; regional icons are the collecting and comparison axis."
+  },
+  {
+   "n": "Tonic & mixers",
+   "mode": "variety",
+   "b": [
+    {
+     "m": "Bittering and sweetness",
+     "v": "light / slimline · Indian tonic · aromatic · craft",
+     "w": "quinine content and sugar per label; mixer brand comparisons"
+    }
+   ],
+   "s": [
+    {
+     "n": "Tonic & mixers",
+     "k": [
+      {
+       "n": "Tonic water",
+       "a": "tonic · Indian tonic · quinine water",
+       "d": "Carbonated soft drink flavoured with bitter quinine, mainly drunk as a mixer with gin.",
+       "t": [
+        "Indian (classic)",
+        "light / slimline",
+        "aromatic",
+        "Mediterranean",
+        "floral (elderflower)",
+        "high-quinine",
+        "glass bottle (150–200 ml)",
+        "can",
+        "PET bottle",
+        "multipack"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Tonic_water",
+       "x": [
+        {
+         "n": "Quinine Tonic Water (Pitt & Co.)",
+         "a": "",
+         "d": "The first commercial tonic water, patented by Erasmus Bond of Pitt & Co., London.",
+         "mk": "",
+         "y": "1858",
+         "s": "https://en.wikipedia.org/wiki/Tonic_water",
+         "v": [],
+         "dt": "historic"
+        },
+        {
+         "n": "Schweppes Tonic Water",
+         "a": "",
+         "d": "Schweppes' carbonated tonic, described as the first carbonated tonic.",
+         "mk": "Schweppes",
+         "y": "1871",
+         "s": "https://en.wikipedia.org/wiki/Schweppes",
+         "v": [],
+         "dt": "glass, can, PET · regular and diet"
+        },
+        {
+         "n": "Fever-Tree Indian Tonic Water",
+         "a": "",
+         "d": "Premium tonic, Fever-Tree's first product, which spawned a family of flavoured tonics.",
+         "mk": "Fever-Tree",
+         "y": "2005",
+         "s": "https://en.wikipedia.org/wiki/Fever-Tree",
+         "v": [
+          {
+           "n": "Mediterranean Tonic Water",
+           "mk": "Fever-Tree",
+           "y": "2012",
+           "d": "sofi award year"
+          },
+          {
+           "n": "Elderflower Tonic Water",
+           "mk": "Fever-Tree",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Aromatic Tonic Water",
+           "mk": "Fever-Tree",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "200 ml glass, cans"
+        },
+        {
+         "n": "Q Tonic",
+         "a": "Q Drinks",
+         "d": "American tonic sweetened only with organic agave nectar, with cinchona-bark quinine.",
+         "mk": "Q Mixers",
+         "y": "",
+         "s": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/q-drinks",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Thomas Henry Tonic Water",
+         "a": "",
+         "d": "Premium mixer brand 'born in bars', making mixers, sodas and lemonades with bartenders.",
+         "mk": "Thomas Henry",
+         "y": "",
+         "s": "https://www.thomas-henry.com/about-us/",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Franklin & Sons Tonic",
+         "a": "",
+         "d": "Premium tonic and mixer brand established by the Franklin family.",
+         "mk": "Franklin & Sons",
+         "y": "1886",
+         "s": "https://globalbrands.co.uk/our-brands/franklin-sons/",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "1724 Tonic Water",
+         "a": "",
+         "d": "Premium tonic in 20 cl bottles, named after an Andean elevation of 1,724 m, with cinchona-bark quinine.",
+         "mk": "1724",
+         "y": "",
+         "s": "https://bottleofitaly.com/en/products/acqua-tonica-1724-confezione-20cl-x-24-bottiglie",
+         "v": [],
+         "dt": "20 cl glass"
+        }
+       ]
+      },
+      {
+       "n": "Ginger beer",
+       "a": "ginger beer · brewed ginger beer",
+       "d": "Cloudy, strongly gingery sweet soda, traditionally brewed with ginger, yeast and sugar, now often just carbonated.",
+       "t": [
+        "brewed",
+        "carbonated",
+        "spiced",
+        "diet / zero",
+        "glass bottle (150–200 ml)",
+        "can",
+        "PET bottle",
+        "multipack"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Ginger_beer",
+       "x": [
+        {
+         "n": "Old Jamaica Ginger Beer",
+         "a": "",
+         "d": "Jamaican ginger beer from Desnoes & Geddes.",
+         "mk": "Old Jamaica",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Ginger_beer",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Fever-Tree Ginger Beer",
+         "a": "",
+         "d": "Premium mixer ginger beer.",
+         "mk": "Fever-Tree",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Fever-Tree",
+         "v": [],
+         "dt": ""
+        }
+       ],
+       "m": [
+        [
+         "Reed's Ginger Beer",
+         "Reed's"
+        ],
+        [
+         "Barritt's Ginger Beer",
+         "Barritt's"
+        ]
+       ]
+      },
+      {
+       "n": "Ginger ale",
+       "a": "ginger ale · dry ginger",
+       "d": "Clear ginger-flavoured soda, either sweet and spicy (golden) or pale and mild (dry).",
+       "t": [
+        "golden",
+        "dry / pale dry",
+        "diet / zero",
+        "glass bottle (150–200 ml)",
+        "can",
+        "PET bottle",
+        "multipack"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Ginger_ale",
+       "x": [
+        {
+         "n": "Golden ginger ale",
+         "a": "",
+         "d": "The older, darker, sweeter and spicier style, credited to Thomas Joseph Cantrell of Belfast.",
+         "mk": "",
+         "y": "1850s",
+         "s": "https://en.wikipedia.org/wiki/Ginger_ale",
+         "v": [
+          {
+           "n": "Vernors",
+           "mk": "Vernors",
+           "y": "1866",
+           "d": "Detroit; 'barrel aged'"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Vernors",
+         "a": "",
+         "d": "Golden ginger ale from Detroit pharmacist James Vernor, sold as 'Barrel Aged 3 Years'.",
+         "mk": "Vernors",
+         "y": "1866",
+         "s": "https://en.wikipedia.org/wiki/Vernors",
+         "v": [
+          {
+           "n": "Vernors 1-Calorie (Zero Sugar)",
+           "mk": "Vernors",
+           "y": "1962",
+           "d": ""
+          },
+          {
+           "n": "Black Cherry",
+           "mk": "Vernors",
+           "y": "2022",
+           "d": "limited, Michigan"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Canada Dry Pale Dry Ginger Ale",
+         "a": "",
+         "d": "The original dry ginger ale, created by John J. McLaughlin in Toronto.",
+         "mk": "Canada Dry",
+         "y": "1904",
+         "s": "https://en.wikipedia.org/wiki/Canada_Dry",
+         "v": [
+          {
+           "n": "Canada Dry Pale Ginger Ale patent",
+           "mk": "Canada Dry",
+           "y": "1905",
+           "d": ""
+          },
+          {
+           "n": "Map-of-Canada label",
+           "mk": "Canada Dry",
+           "y": "1907",
+           "d": ""
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Schweppes Ginger Ale",
+         "a": "",
+         "d": "Schweppes' dry ginger ale.",
+         "mk": "Schweppes",
+         "y": "1870",
+         "s": "https://en.wikipedia.org/wiki/Schweppes",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Fever-Tree Ginger Ale",
+         "a": "",
+         "d": "Premium mixer ginger ale.",
+         "mk": "Fever-Tree",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Fever-Tree",
+         "v": [
+          {
+           "n": "Refreshingly Light Ginger Ale",
+           "mk": "Fever-Tree",
+           "y": "2019",
+           "d": ""
+          }
+         ],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Soda water & club soda",
+       "a": "soda water · club soda · soda",
+       "d": "Carbonated water sold as a mixer; club soda has added mineral salts such as sodium bicarbonate.",
+       "t": [
+        "soda water",
+        "club soda (added minerals)",
+        "glass bottle (150–200 ml)",
+        "can",
+        "PET bottle",
+        "multipack"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Club_soda",
+       "x": [
+        {
+         "n": "Schweppes Soda Water",
+         "a": "",
+         "d": "Schweppes' original product, the first commercial carbonated water, made by Johann Jacob Schweppe in Geneva.",
+         "mk": "Schweppes",
+         "y": "1783",
+         "s": "https://en.wikipedia.org/wiki/Schweppes",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "C&C Club Soda",
+         "a": "",
+         "d": "The original trademarked club soda, made by Cantrell & Cochrane in Dublin.",
+         "mk": "C&C",
+         "y": "1877",
+         "s": "https://en.wikipedia.org/wiki/Club_soda",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Q Club",
+         "a": "",
+         "d": "Club soda made with Himalayan salt.",
+         "mk": "Q Mixers",
+         "y": "",
+         "s": "https://www.wholefoodsmarket.com/tips-and-ideas/archive/q-drinks",
+         "v": [],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Bitter lemon & citrus mixer",
+       "a": "bitter lemon · bitter lime",
+       "d": "Quinine-bitter soda with lemon juice, pith and peel, drunk alone or as a mixer.",
+       "t": [
+        "bitter lemon",
+        "bitter lime",
+        "glass bottle (150–200 ml)",
+        "can",
+        "PET bottle",
+        "multipack"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Bitter_lemon",
+       "x": [
+        {
+         "n": "Schweppes Bitter Lemon",
+         "a": "",
+         "d": "Schweppes' bitter lemon, the best-known brand of the drink.",
+         "mk": "Schweppes",
+         "y": "1957",
+         "s": "https://en.wikipedia.org/wiki/Bitter_lemon",
+         "v": [],
+         "dt": ""
+        }
+       ],
+       "m": [
+        [
+         "Fever-Tree Bitter Lemon",
+         "Fever-Tree"
+        ],
+        [
+         "Canada Dry Bitter Lemon",
+         "Canada Dry"
+        ],
+        [
+         "Krest Bitter Lemon",
+         "Krest"
+        ]
+       ]
+      },
+      {
+       "n": "Cocktail mix",
+       "a": "drink mixer · Bloody Mary mix · margarita mix · sweet and sour",
+       "d": "Ready-made non-alcoholic bases that supply the flavour, sweetness and sourness of a cocktail.",
+       "t": [
+        "Bloody Mary",
+        "margarita",
+        "sweet & sour",
+        "mojito",
+        "piña colada",
+        "daiquiri",
+        "liquid",
+        "powder"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Sour_mix",
+       "x": [
+        {
+         "n": "Sour mix",
+         "a": "sweet and sour mix",
+         "d": "Lemon and/or lime juice with simple syrup, pre-blended for sours; also sold as powder.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sour_mix",
+         "v": [],
+         "dt": "liquid or powder"
+        }
+       ],
+       "m": [
+        [
+         "Mr & Mrs T Bloody Mary Mix",
+         "Mr & Mrs T"
+        ],
+        [
+         "Mr & Mrs T Margarita Mix",
+         "Mr & Mrs T"
+        ],
+        [
+         "Mr & Mrs T Sweet & Sour Mix",
+         "Mr & Mrs T"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "note": "Premium mixers are compared like spirits; mainstream mixers are a tier choice."
+  },
+  {
+   "n": "Juices & smoothies",
+   "mode": "tier",
+   "b": [
+    {
+     "m": "Juice content and legal name",
+     "v": "juice drink · nectar (25–50%+) · juice from concentrate · not-from-concentrate · freshly squeezed",
+     "w": "EU Fruit Juice Directive 2012/12/EU; US FDA labelling"
+    },
+    {
+     "m": "Processing",
+     "v": "ambient (UHT) · chilled pasteurised · HPP cold-pressed · freshly squeezed",
+     "w": "label; consumer tests (Which?, Consumer Reports)"
+    }
+   ],
+   "s": [
+    {
+     "n": "Juices & smoothies",
+     "k": [
+      {
+       "n": "Orange juice",
+       "a": "OJ · orange juice",
+       "d": "Juice squeezed or reamed from oranges, sold chilled or shelf-stable, fresh, not-from-concentrate or reconstituted.",
+       "t": [
+        "not from concentrate (NFC)",
+        "from concentrate",
+        "freshly squeezed, unpasteurised",
+        "with pulp / juicy bits",
+        "smooth, no pulp",
+        "blood orange",
+        "fortified (calcium, vitamin D)",
+        "low-acid",
+        "organic",
+        "frozen concentrate"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Orange_juice",
+       "m": [
+        [
+         "Tropicana Pure Premium",
+         "Tropicana"
+        ],
+        [
+         "Trop50",
+         "Tropicana"
+        ],
+        [
+         "Simply Orange",
+         "Simply Beverages"
+        ],
+        [
+         "Minute Maid orange juice",
+         "Minute Maid"
+        ],
+        [
+         "Florida's Natural",
+         "Florida's Natural Growers"
+        ],
+        [
+         "Naked Orange Juice",
+         "Naked Juice"
+        ],
+        [
+         "Innocent juices",
+         "Innocent Drinks"
+        ],
+        [
+         "Del Monte orange juice",
+         "Del Monte"
+        ],
+        [
+         "Princes orange juice",
+         "Princes"
+        ],
+        [
+         "Daily Juice",
+         "National Foods"
+        ],
+        [
+         "Pago orange",
+         "Pago"
+        ]
+       ]
+      },
+      {
+       "n": "Apple juice",
+       "a": "apple juice · apple cider (US, unfiltered)",
+       "d": "Juice pressed from apples, sold clear and filtered or cloudy and unfiltered, sometimes from a single apple variety.",
+       "t": [
+        "clear / clarified",
+        "cloudy / unfiltered",
+        "US fresh apple cider",
+        "single-variety (e.g. McIntosh, Russet)",
+        "from concentrate",
+        "organic"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Apple_juice",
+       "m": [
+        [
+         "Simply Apple",
+         "Simply Beverages"
+        ],
+        [
+         "Innocent apple juice",
+         "Innocent Drinks"
+        ],
+        [
+         "Pago apple",
+         "Pago"
+        ],
+        [
+         "Granini apple",
+         "Granini"
+        ],
+        [
+         "Happy Day",
+         "Rauch"
+        ]
+       ]
+      },
+      {
+       "n": "Grape juice",
+       "a": "grape juice · Concord grape juice",
+       "d": "Unfermented juice of crushed grapes, purple from Concord grapes or white from Niagara and other varieties.",
+       "t": [
+        "purple / red (Concord)",
+        "white (Niagara)",
+        "sparkling grape juice",
+        "from concentrate"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Grape_juice",
+       "x": [
+        {
+         "n": "Welch's Concord grape juice",
+         "a": "Welch's grape juice",
+         "d": "Pasteurised unfermented Concord grape juice, the original bottled grape juice of the United States.",
+         "mk": "Welch's",
+         "y": "1869",
+         "s": "https://en.wikipedia.org/wiki/Welch%27s",
+         "v": [
+          {
+           "n": "Pasteurised grape juice",
+           "mk": "Welch's",
+           "y": "1869",
+           "d": "Thomas Bramwell Welch's method to stop fermentation"
+          },
+          {
+           "n": "Welch's Grape Juice Company",
+           "mk": "Welch's",
+           "y": "1893",
+           "d": "Company founded by Charles E. Welch in Westfield, New York"
+          },
+          {
+           "n": "Sparkling juices",
+           "mk": "Welch's",
+           "y": "",
+           "d": "Carbonated grape juice line"
+          }
+         ],
+         "dt": "purple or white · 100% juice or juice drink · bottle or frozen concentrate"
+        }
+       ]
+      },
+      {
+       "n": "Cranberry & berry juice",
+       "a": "cranberry juice · cranberry juice cocktail · berry juice",
+       "d": "Tart cranberry juice, usually blended with other juice and sugar as a juice cocktail, plus other berry juices.",
+       "t": [
+        "juice cocktail (about 25–27% cranberry)",
+        "100% juice blend",
+        "light / sweetener",
+        "white cranberry",
+        "cranberry blends (apple, grape)",
+        "blackcurrant & other berries"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Cranberry_juice",
+       "x": [
+        {
+         "n": "Ocean Spray Cranberry Juice Cocktail",
+         "a": "Cran-Apple · Cran-Grape",
+         "d": "Sweetened cranberry juice cocktail from the American growers' cooperative, the reference cranberry drink.",
+         "mk": "Ocean Spray",
+         "y": "1933",
+         "s": "https://en.wikipedia.org/wiki/Ocean_Spray_(cooperative)",
+         "v": [
+          {
+           "n": "Cranberry Juice Cocktail",
+           "mk": "Ocean Spray",
+           "y": "1933",
+           "d": "Original juice cocktail"
+          },
+          {
+           "n": "Cranapple",
+           "mk": "Ocean Spray",
+           "y": "1963",
+           "d": "Cranberry–apple blend, later Cran-Apple and Cran-Grape"
+          },
+          {
+           "n": "White cranberry juice",
+           "mk": "Ocean Spray",
+           "y": "2002",
+           "d": "Made from white cranberries"
+          }
+         ],
+         "dt": "regular, light or diet · single cranberry or blend · bottle size"
+        }
+       ],
+       "m": [
+        [
+         "Fruit d'Or cranberry juice",
+         "Fruit d'Or"
+        ]
+       ]
+      },
+      {
+       "n": "Tropical & exotic juice",
+       "a": "pineapple juice · mango juice · passion fruit · guava · pomegranate juice",
+       "d": "Juices and juice drinks from tropical and exotic fruit such as pineapple, mango, passion fruit, guava, lychee and pomegranate.",
+       "t": [
+        "pineapple",
+        "mango",
+        "passion fruit",
+        "guava",
+        "lychee",
+        "pomegranate",
+        "multivitamin / multifruit"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Pineapple_juice",
+       "m": [
+        [
+         "Rubicon mango",
+         "Rubicon"
+        ],
+        [
+         "Rubicon guava",
+         "Rubicon"
+        ],
+        [
+         "POM Wonderful pomegranate juice",
+         "POM Wonderful"
+        ],
+        [
+         "Jumex",
+         "Jumex"
+        ],
+        [
+         "Pago mango",
+         "Pago"
+        ]
+       ]
+      },
+      {
+       "n": "Tomato & vegetable juice",
+       "a": "tomato juice · vegetable juice · V8",
+       "d": "Juice of tomatoes or mixed vegetables, often salted and spiced, drunk plain or used for Bloody Mary-style drinks.",
+       "t": [
+        "plain tomato",
+        "seasoned / spiced",
+        "low-sodium",
+        "mixed vegetable",
+        "carrot & beetroot",
+        "clam-tomato (Clamato)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Tomato_juice",
+       "x": [
+        {
+         "n": "V8",
+         "a": "V-8",
+         "d": "American eight-vegetable juice built on tomato, the best-known vegetable juice.",
+         "mk": "Campbell's",
+         "y": "1933",
+         "s": "https://en.wikipedia.org/wiki/V8_(beverage)",
+         "v": [
+          {
+           "n": "V8 Original",
+           "mk": "Campbell's",
+           "y": "",
+           "d": "Tomato concentrate with a blend of vegetable juices"
+          },
+          {
+           "n": "Spicy Hot",
+           "mk": "Campbell's",
+           "y": "",
+           "d": "Spiced version"
+          },
+          {
+           "n": "Low-Sodium",
+           "mk": "Campbell's",
+           "y": "",
+           "d": "Reduced-salt version"
+          },
+          {
+           "n": "V-Fusion",
+           "mk": "Campbell's",
+           "y": "",
+           "d": "Fruit-and-vegetable 100% juice blend"
+          },
+          {
+           "n": "V8 Splash",
+           "mk": "Campbell's",
+           "y": "",
+           "d": "Sweetened juice cocktail"
+          }
+         ],
+         "dt": "original, spicy, low-sodium, organic · can or bottle"
+        }
+       ],
+       "m": [
+        [
+         "Clamato",
+         "Clamato"
+        ],
+        [
+         "Pago tomato",
+         "Pago"
+        ]
+       ]
+      },
+      {
+       "n": "Fruit nectar",
+       "a": "nectar · Fruchtnektar · néctar",
+       "d": "Fruit purée or juice diluted with water and a little sugar, with 25–50% fruit depending on the fruit.",
+       "t": [
+        "peach",
+        "apricot",
+        "pear",
+        "mango",
+        "sour cherry",
+        "banana",
+        "blackcurrant"
+       ],
+       "s": "https://www.pfanner.com/en/fruit-facts/whats-the-difference-between-100-juice-a-nectar-and-a-fruit-juice-drink/",
+       "m": [
+        [
+         "Granini nectars",
+         "Granini"
+        ],
+        [
+         "Pago nectars",
+         "Pago"
+        ],
+        [
+         "Jumex nectars",
+         "Jumex"
+        ],
+        [
+         "Kern's nectars",
+         "Jumex"
+        ],
+        [
+         "Happy Day",
+         "Rauch"
+        ],
+        [
+         "Pfanner nectars",
+         "Pfanner"
+        ]
+       ]
+      },
+      {
+       "n": "Juice drink",
+       "a": "juice cocktail · fruit drink · juice pouch",
+       "d": "Sweetened drink with some fruit juice, below nectar strength, often in cartons or pouches for children.",
+       "t": [
+        "juice cocktail",
+        "fruit drink",
+        "pouch",
+        "carton with straw",
+        "no added sugar",
+        "spritzer (juice with sparkling water)"
+       ],
+       "tg": [
+        "baby"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Juice",
+       "x": [
+        {
+         "n": "Capri-Sun pouch",
+         "a": "Capri-Sonne",
+         "d": "Juice-concentrate drink in a 200 ml foil stand-up pouch with a straw, launched in West Germany.",
+         "mk": "Capri-Sun",
+         "y": "1969",
+         "s": "https://en.wikipedia.org/wiki/Capri-Sun",
+         "v": [
+          {
+           "n": "Capri-Sonne",
+           "mk": "Capri-Sun",
+           "y": "1969",
+           "d": "Original orange drink, 22 June 1969"
+          },
+          {
+           "n": "100% Juice / Organic",
+           "mk": "Capri-Sun",
+           "y": "",
+           "d": "No-added-sugar lines"
+          },
+          {
+           "n": "Fruity Water / Roarin' Waters",
+           "mk": "Capri-Sun",
+           "y": "",
+           "d": "Flavoured water pouches (UK / US)"
+          },
+          {
+           "n": "330 ml spouted pouch",
+           "mk": "Capri-Sun",
+           "y": "",
+           "d": "Resealable pouch for older drinkers"
+          }
+         ],
+         "dt": "flavour · 200 ml pouch or larger formats · regular or no added sugar"
+        },
+        {
+         "n": "Hi-C",
+         "a": "",
+         "d": "American fruit-juice-flavoured drink from the Minute Maid division.",
+         "mk": "Minute Maid",
+         "y": "1947",
+         "s": "https://en.wikipedia.org/wiki/Hi-C",
+         "v": [],
+         "dt": "flavour · juice box or bottle"
+        },
+        {
+         "n": "SunnyD",
+         "a": "Sunny Delight",
+         "d": "Orange-flavoured drink with little juice, launched in Florida and later in the UK.",
+         "mk": "SunnyD",
+         "y": "1963",
+         "s": "https://en.wikipedia.org/wiki/Sunny_Delight",
+         "v": [
+          {
+           "n": "Sunny Delight",
+           "mk": "Doric Foods",
+           "y": "1963",
+           "d": "Original, Mount Dora, Florida"
+          },
+          {
+           "n": "UK launch",
+           "mk": "SunnyD",
+           "y": "1998",
+           "d": "Launched in the United Kingdom"
+          }
+         ],
+         "dt": "flavour · chilled or ambient"
+        }
+       ],
+       "m": [
+        [
+         "Ceres Liqui-Fruit",
+         "Ceres"
+        ],
+        [
+         "Welch's juice drinks",
+         "Welch's"
+        ]
+       ]
+      },
+      {
+       "n": "Cold-pressed juice & shot",
+       "a": "cold-pressed juice · HPP juice · juice shot · wellness shot · ginger shot",
+       "d": "Juice pressed in a hydraulic press and kept raw or high-pressure processed, including small ginger and wellness shots.",
+       "t": [
+        "raw unprocessed (about 3 days)",
+        "high-pressure processed (HPP, about 30 days)",
+        "green juice",
+        "ginger shot",
+        "turmeric shot",
+        "juice cleanse set"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Cold-pressed_juice",
+       "m": [
+        [
+         "BluePrint",
+         "BluePrint"
+        ],
+        [
+         "Rubicon Raw Energy",
+         "Rubicon"
+        ]
+       ]
+      },
+      {
+       "n": "Smoothie",
+       "a": "smoothie · fruit smoothie · green smoothie",
+       "d": "Thick drink of puréed fruit, sometimes with vegetables, yoghurt or protein, sold bottled and chilled.",
+       "t": [
+        "fruit",
+        "green / vegetable",
+        "protein",
+        "yoghurt-based",
+        "kids' pouch"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Smoothie",
+       "m": [
+        [
+         "Innocent smoothies",
+         "Innocent Drinks"
+        ],
+        [
+         "Naked Green Machine",
+         "Naked Juice"
+        ],
+        [
+         "Naked protein smoothies",
+         "Naked Juice"
+        ],
+        [
+         "Pago smoothies",
+         "Pago"
+        ],
+        [
+         "Granini smoothies",
+         "Granini"
+        ],
+        [
+         "Jumex smoothies",
+         "Jumex"
+        ]
+       ]
+      },
+      {
+       "n": "Still lemonade & limeade",
+       "a": "still lemonade · cloudy lemonade · limeade · nimbu pani · shikanjvi · citron pressé",
+       "d": "Non-carbonated drink of lemon or lime juice, water and sweetener, sold chilled or shelf-stable.",
+       "t": [
+        "still cloudy lemonade",
+        "pink lemonade",
+        "limeade",
+        "mint lemonade (limonana)",
+        "spiced lemonade (nimbu pani, shikanjvi)",
+        "zero sugar"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Lemonade",
+       "m": [
+        [
+         "Simply Lemonade",
+         "Simply Beverages"
+        ],
+        [
+         "Simply Limeade",
+         "Simply Beverages"
+        ],
+        [
+         "Minute Maid Lemonade",
+         "Minute Maid"
+        ],
+        [
+         "Country Time",
+         "Country Time"
+        ],
+        [
+         "Fentimans Victorian Lemonade",
+         "Fentimans"
+        ]
+       ]
+      },
+      {
+       "n": "Plant waters",
+       "a": "coconut water · birch water · birch sap · maple water · aloe vera drink · cactus water",
+       "d": "Packaged saps and plant liquids drunk as light refreshment, chiefly coconut water and birch sap.",
+       "t": [
+        "coconut water",
+        "pressed coconut water",
+        "birch water / birch sap",
+        "maple water",
+        "aloe vera drink with pulp",
+        "cactus water",
+        "sparkling"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Coconut_water",
+       "m": [
+        [
+         "Vita Coco Original",
+         "Vita Coco"
+        ],
+        [
+         "Vita Coco Pressed",
+         "Vita Coco"
+        ],
+        [
+         "Rubicon coconut water",
+         "Rubicon"
+        ],
+        [
+         "Innocent coconut water",
+         "Innocent Drinks"
+        ],
+        [
+         "Naked coconut water",
+         "Naked Juice"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "note": "Pick a good one: juice content, processing and freshness matter more than brand."
+  },
+  {
+   "n": "Syrups & cordials",
+   "mode": "mixed",
+   "b": [
+    {
+     "m": "Fruit content and sweetener",
+     "v": "no-added-sugar · standard · high-juice",
+     "w": "label; UK squash market terms"
+    }
+   ],
+   "s": [
+    {
+     "n": "Syrups & cordials",
+     "k": [
+      {
+       "n": "Squash & fruit cordial",
+       "a": "squash · cordial · dilutable · concentrate",
+       "d": "Concentrated fruit syrup of juice, water and sugar or sweetener, diluted with still or sparkling water before drinking.",
+       "t": [
+        "fruit squash",
+        "high-juice",
+        "no-added-sugar",
+        "barley water",
+        "blackcurrant cordial"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Squash_(drink)",
+       "x": [
+        {
+         "n": "Robinsons barley water and squash",
+         "a": "Robinsons",
+         "d": "British dilutable range that began as barley water and grew into the best-known UK squash.",
+         "mk": "Robinsons",
+         "y": "c. 1825",
+         "s": "https://en.wikipedia.org/wiki/Robinsons_(drink)",
+         "v": [
+          {
+           "n": "Barley Water",
+           "mk": "Robinsons",
+           "y": "c. 1825",
+           "d": "Matthias Robinson's original barley water"
+          },
+          {
+           "n": "Lemon Barley Water",
+           "mk": "Robinsons",
+           "y": "1930",
+           "d": "Developed by Eric Smedley Hodgson"
+          },
+          {
+           "n": "Robinsons Squash",
+           "mk": "Robinsons",
+           "y": "1930s",
+           "d": "Fruit squash created by Fred Robinson"
+          },
+          {
+           "n": "Fruit Creations",
+           "mk": "Robinsons",
+           "y": "",
+           "d": "Current flavoured squash range"
+          }
+         ],
+         "dt": "flavour · regular or no added sugar · bottle size"
+        },
+        {
+         "n": "Ribena",
+         "a": "",
+         "d": "Blackcurrant cordial developed in Bristol in 1933 and sold as a vitamin C-rich squash.",
+         "mk": "Ribena",
+         "y": "1933",
+         "s": "https://en.wikipedia.org/wiki/Ribena",
+         "v": [
+          {
+           "n": "Blackcurrant squash",
+           "mk": "H.W. Carter & Co",
+           "y": "1938",
+           "d": "Original cordial, named 1938"
+          },
+          {
+           "n": "Ribena Toothkind",
+           "mk": "Ribena",
+           "y": "2001",
+           "d": "Dental-association-endorsed formulation"
+          },
+          {
+           "n": "Sparkling Ribena",
+           "mk": "Ribena",
+           "y": "2011",
+           "d": "Discontinued 2014, returned 2020"
+          },
+          {
+           "n": "Sweetened reformulation",
+           "mk": "Ribena",
+           "y": "2018",
+           "d": "UK recipe with sweeteners after the sugar tax"
+          }
+         ],
+         "dt": "blackcurrant · other berry flavours · concentrate or ready-to-drink"
+        },
+        {
+         "n": "Vimto cordial",
+         "a": "Vimto",
+         "d": "Mixed-fruit cordial first sold as a health tonic in 1908 and registered as a cordial in 1913; a Ramadan iftar staple in the Gulf.",
+         "mk": "Vimto",
+         "y": "1908",
+         "s": "https://en.wikipedia.org/wiki/Vimto",
+         "v": [
+          {
+           "n": "Vimto cordial",
+           "mk": "Vimto",
+           "y": "1913",
+           "d": "Registered as a cordial"
+          },
+          {
+           "n": "Saudi licensed cordial",
+           "mk": "Aujan",
+           "y": "",
+           "d": "Made under licence for the Gulf market"
+          }
+         ],
+         "dt": "cordial · still · carbonated"
+        }
+       ],
+       "m": [
+        [
+         "MiWadi",
+         "Britvic"
+        ],
+        [
+         "Kia-Ora",
+         "Coca-Cola"
+        ],
+        [
+         "Cottee's cordial",
+         "Cottee's"
+        ],
+        [
+         "Bickford's cordial",
+         "Bickford's"
+        ],
+        [
+         "Prigat",
+         "Prigat"
+        ]
+       ]
+      },
+      {
+       "n": "Elderflower & botanical cordial",
+       "a": "elderflower cordial · hyldeblomstsaft · fläderblomssaft · socată",
+       "d": "Cordial flavoured with elderflower or other flowers and herbs, diluted with water or sold as a ready-mixed pressé.",
+       "t": [
+        "elderflower",
+        "elderflower with fruit",
+        "ginger & lemongrass",
+        "sparkling pressé"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Elderflower_cordial",
+       "x": [
+        {
+         "n": "Belvoir elderflower cordial",
+         "a": "Belvoir Farm",
+         "d": "Leicestershire farmhouse elderflower cordial first bottled in 1984 from Mary Manners' home recipe.",
+         "mk": "Belvoir Farm",
+         "y": "1984",
+         "s": "https://www.greatbritishchefs.com/features/belvoir-farm-elderflower-cordial",
+         "v": [
+          {
+           "n": "Elderflower cordial",
+           "mk": "Belvoir Farm",
+           "y": "1984",
+           "d": "Flagship cordial"
+          },
+          {
+           "n": "Sparkling elderflower",
+           "mk": "Belvoir Farm",
+           "y": "",
+           "d": "Ready-mixed, in cans"
+          }
+         ],
+         "dt": "cordial or pressé · elderflower and fruit blends"
+        },
+        {
+         "n": "Bottlegreen elderflower cordial",
+         "a": "bottlegreen",
+         "d": "Cotswolds elderflower cordial and sparkling pressé made since 1989 with spring water from the brand's mill.",
+         "mk": "bottlegreen",
+         "y": "1989",
+         "s": "https://shs-group.co.uk/portfolio/bottlegreen",
+         "v": [
+          {
+           "n": "Elderflower cordial",
+           "mk": "bottlegreen",
+           "y": "",
+           "d": "Flagship cordial"
+          },
+          {
+           "n": "Elderflower sparkling pressé",
+           "mk": "bottlegreen",
+           "y": "",
+           "d": "Ready-to-drink sparkling version"
+          }
+         ],
+         "dt": "cordial or pressé · seasonal flavours"
+        }
+       ]
+      },
+      {
+       "n": "Lime cordial",
+       "a": "lime juice cordial · sweetened lime juice",
+       "d": "Sweetened, preserved lime juice concentrate used as a squash or cocktail sweetener.",
+       "s": "https://en.wikipedia.org/wiki/Rose%27s_lime_juice",
+       "x": [
+        {
+         "n": "Rose's lime juice",
+         "a": "Rose's · Rose's lime cordial",
+         "d": "Lime juice preserved with sugar instead of alcohol, patented by Lauchlan Rose of Leith in 1867.",
+         "mk": "Rose's",
+         "y": "1867",
+         "s": "https://en.wikipedia.org/wiki/Rose%27s_lime_juice",
+         "v": [
+          {
+           "n": "Sweetened lime juice cordial",
+           "mk": "L. Rose & Co",
+           "y": "1867",
+           "d": "Original concentrate"
+          },
+          {
+           "n": "Lemon cordial",
+           "mk": "Rose's",
+           "y": "",
+           "d": "New Zealand variant"
+          },
+          {
+           "n": "Passion fruit cordial",
+           "mk": "Rose's",
+           "y": "",
+           "d": "South African variant"
+          }
+         ],
+         "dt": "lime · regional flavours · bottle size"
+        }
+       ]
+      },
+      {
+       "n": "Fruit syrup (sirop)",
+       "a": "sirop · sirop à l'eau · Italian soda syrup",
+       "d": "Sweet French-style fruit or flavour syrup diluted with water, sparkling water or milk.",
+       "t": [
+        "fruit",
+        "mint",
+        "orgeat",
+        "barley"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Teisseire",
+       "x": [
+        {
+         "n": "Teisseire sirop",
+         "a": "Teisseire",
+         "d": "French flavoured syrup house founded by Mathieu Teisseire in 1720.",
+         "mk": "Teisseire",
+         "y": "1720",
+         "s": "https://en.wikipedia.org/wiki/Teisseire",
+         "v": [],
+         "dt": "flavour · bottle or can"
+        },
+        {
+         "n": "Monin sirop",
+         "a": "Monin",
+         "d": "Bourges syrup house founded in 1912 by Georges Monin, making syrups since the 1920s.",
+         "mk": "Monin",
+         "y": "1912",
+         "s": "https://en.wikipedia.org/wiki/Monin_(company)",
+         "v": [],
+         "dt": "flavour · syrup or fruit purée"
+        }
+       ]
+      },
+      {
+       "n": "Café & flavouring syrup",
+       "a": "coffee syrup · barista syrup · latte syrup",
+       "d": "Flavoured sugar syrup sold for sweetening coffee, tea and milk drinks at home or in coffee bars.",
+       "t": [
+        "vanilla",
+        "caramel",
+        "hazelnut",
+        "sugar-free",
+        "sauce"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Syrup",
+       "x": [
+        {
+         "n": "Torani syrup",
+         "a": "Torani",
+         "d": "San Francisco flavouring syrups founded by Rinaldo and Ezilda Torre in 1925, first sold for Italian sodas.",
+         "mk": "Torani",
+         "y": "1925",
+         "s": "https://en.wikipedia.org/wiki/Torani",
+         "v": [
+          {
+           "n": "Early Italian soda flavours",
+           "mk": "Torani",
+           "y": "1925",
+           "d": "anisette, grenadine, lemon, orgeat, tamarind"
+          }
+         ],
+         "dt": "flavour · regular or sugar-free · syrup or sauce"
+        },
+        {
+         "n": "Monin coffee syrup",
+         "a": "Monin",
+         "d": "Monin's syrups used widely in coffee bars as well as for drinks at home.",
+         "mk": "Monin",
+         "y": "1920s",
+         "s": "https://en.wikipedia.org/wiki/Monin_(company)",
+         "v": [],
+         "dt": "flavour · bottle size"
+        }
+       ]
+      },
+      {
+       "n": "Grenadine & cocktail syrup",
+       "a": "bar syrup · mocktail syrup",
+       "d": "Non-alcoholic syrups used to sweeten and flavour cocktails and mocktails.",
+       "t": [
+        "grenadine",
+        "orgeat",
+        "non-alcoholic falernum",
+        "simple syrup",
+        "rich syrup",
+        "gomme syrup",
+        "sweet & sour mix"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Grenadine",
+       "x": [
+        {
+         "n": "Grenadine",
+         "a": "",
+         "d": "Red, sweet-tart bar syrup originally of pomegranate juice and sugar.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Grenadine",
+         "v": [
+          {
+           "n": "Rose's grenadine",
+           "mk": "Rose's",
+           "y": "",
+           "d": "Most common US grenadine"
+          }
+         ],
+         "dt": "pomegranate or other fruit · natural or artificial"
+        },
+        {
+         "n": "Orgeat",
+         "a": "orzata · rozata · soumádha",
+         "d": "Almond-and-sugar syrup scented with orange-flower or rose water; key to the Mai Tai.",
+         "mk": "",
+         "y": "1864 recipe",
+         "s": "https://en.wikipedia.org/wiki/Orgeat_syrup",
+         "v": [],
+         "dt": "almond · orange-flower or rose water"
+        },
+        {
+         "n": "Falernum",
+         "a": "velvet falernum",
+         "d": "Caribbean ginger, lime and almond syrup, sold as a liqueur or non-alcoholic syrup.",
+         "mk": "",
+         "y": "18th century",
+         "s": "https://en.wikipedia.org/wiki/Falernum",
+         "v": [],
+         "dt": "alcoholic or non-alcoholic · clove, allspice"
+        }
+       ]
+      },
+      {
+       "n": "Sharbat & rose syrup",
+       "a": "sherbet · sharbat · sherbet cordial",
+       "d": "Sweet flower, herb or fruit syrup in the Persian, Ottoman and South Asian tradition, diluted with water or milk.",
+       "t": [
+        "rose",
+        "sandalwood",
+        "bael",
+        "khus (vetiver)",
+        "tamarind"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Sharbat_(drink)",
+       "x": [
+        {
+         "n": "Rooh Afza",
+         "a": "Rooh Afza",
+         "d": "Fruit, herb and flower sharbat syrup formulated in 1906 by Hakim Hafiz Abdul Majeed in Ghaziabad.",
+         "mk": "Hamdard",
+         "y": "1906",
+         "s": "https://en.wikipedia.org/wiki/Rooh_Afza",
+         "v": [
+          {
+           "n": "Rooh Afza (India)",
+           "mk": "Hamdard India",
+           "y": "1906",
+           "d": "Original"
+          },
+          {
+           "n": "Rooh Afza (Pakistan)",
+           "mk": "Hamdard Laboratories (Waqf) Pakistan",
+           "y": "1948",
+           "d": "Made in Karachi"
+          },
+          {
+           "n": "RoohAfza Fusion",
+           "mk": "Hamdard India",
+           "y": "",
+           "d": "Ready-to-drink"
+          },
+          {
+           "n": "Rooh Afza Go",
+           "mk": "Hamdard Laboratories (Waqf) Pakistan",
+           "y": "",
+           "d": "Canned ready-to-drink"
+          }
+         ],
+         "dt": "syrup · ready-to-drink · milk drink"
+        },
+        {
+         "n": "Sherbat-i-Azam",
+         "a": "",
+         "d": "Dabur's sharbat syrup comparable to Rooh Afza.",
+         "mk": "Dabur",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Rooh_Afza",
+         "v": [],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Drinking vinegar & shrub",
+       "a": "shrub · drinking vinegar · switchel",
+       "d": "Fruit syrup sharpened with vinegar, diluted with water or soda.",
+       "t": [
+        "fruit shrub",
+        "switchel (vinegar & ginger)",
+        "sekanjabin"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Shrub_(drink)",
+       "x": [
+        {
+         "n": "Phillips of Bristol Shrub",
+         "a": "",
+         "d": "Proprietary shrub cordial developed by J. R. Phillips of Bristol and still sold.",
+         "mk": "",
+         "y": "20th century",
+         "s": "https://en.wikipedia.org/wiki/Shrub_(drink)",
+         "v": [],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Soda-maker syrup",
+       "a": "SodaStream syrup · soda concentrate",
+       "d": "Concentrated syrup or drops for flavouring water carbonated in a home soda maker.",
+       "t": [
+        "cola",
+        "lemon-lime",
+        "fruit",
+        "sugar-free",
+        "flavour drops"
+       ],
+       "s": "https://en.wikipedia.org/wiki/SodaStream",
+       "x": [
+        {
+         "n": "SodaStream syrups",
+         "a": "",
+         "d": "Concentrates sold for SodaStream machines, including licensed soft-drink brands.",
+         "mk": "SodaStream",
+         "y": "1903 (machine)",
+         "s": "https://en.wikipedia.org/wiki/SodaStream",
+         "v": [
+          {
+           "n": "Kool-Aid",
+           "mk": "SodaStream",
+           "y": "2012",
+           "d": "Kraft partnership"
+          },
+          {
+           "n": "Ocean Spray",
+           "mk": "SodaStream",
+           "y": "2013",
+           "d": "Three flavours"
+          },
+          {
+           "n": "Bubly Drops",
+           "mk": "SodaStream",
+           "y": "2020",
+           "d": "Fruit flavour drops"
+          },
+          {
+           "n": "Pepsi, Pepsi Max, 7 Up",
+           "mk": "SodaStream",
+           "y": "2021",
+           "d": "Licensed colas"
+          },
+          {
+           "n": "Mountain Dew",
+           "mk": "SodaStream",
+           "y": "2024",
+           "d": "Licensed flavour"
+          }
+         ],
+         "dt": "brand · regular or diet"
+        }
+       ]
+      },
+      {
+       "n": "Powdered drink mix",
+       "a": "drink powder · instant drink",
+       "d": "Flavoured powder mixed with water to make a fruit or soft drink.",
+       "t": [
+        "sweetened",
+        "unsweetened",
+        "sugar-free",
+        "single-serve sticks"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Drink_mix",
+       "x": [
+        {
+         "n": "Kool-Aid",
+         "a": "",
+         "d": "Powdered fruit drink created by Edwin Perkins in Hastings, Nebraska, in 1927.",
+         "mk": "Kool-Aid",
+         "y": "1927",
+         "s": "https://en.wikipedia.org/wiki/Kool-Aid",
+         "v": [
+          {
+           "n": "Fruit Smack",
+           "mk": "Edwin Perkins",
+           "y": "",
+           "d": "Liquid concentrate predecessor"
+          },
+          {
+           "n": "Sugar-free",
+           "mk": "Kool-Aid",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "flavour · packet or tub · sweetened or not"
+        },
+        {
+         "n": "Tang",
+         "a": "",
+         "d": "Orange drink powder created at General Foods in 1957, made famous by NASA spaceflight.",
+         "mk": "Tang",
+         "y": "1957",
+         "s": "https://en.wikipedia.org/wiki/Tang_(drink)",
+         "v": [],
+         "dt": "flavour · jar or sachet"
+        },
+        {
+         "n": "Crystal Light",
+         "a": "",
+         "d": "Artificially sweetened powdered drink mix introduced nationally in 1984.",
+         "mk": "Crystal Light",
+         "y": "1984",
+         "s": "https://en.wikipedia.org/wiki/Crystal_Light",
+         "v": [
+          {
+           "n": "On The Go",
+           "mk": "Crystal Light",
+           "y": "2004",
+           "d": "Single-serve packets"
+          }
+         ],
+         "dt": "flavour · canister or sticks"
+        }
+       ],
+       "m": [
+        [
+         "Rasna",
+         "Rasna"
+        ]
+       ]
+      },
+      {
+       "n": "Water enhancer",
+       "a": "liquid water enhancer · flavour drops",
+       "d": "Small squeeze bottle of concentrated flavour, or tablet, for flavouring a glass or bottle of water.",
+       "t": [
+        "liquid drops",
+        "caffeinated",
+        "tablets",
+        "powder"
+       ],
+       "s": "https://en.wikipedia.org/wiki/MiO",
+       "x": [
+        {
+         "n": "MiO",
+         "a": "mıo",
+         "d": "Squeeze-bottle liquid water enhancer launched by Kraft in 2011, creating the category.",
+         "mk": "MiO",
+         "y": "2011",
+         "s": "https://en.wikipedia.org/wiki/MiO",
+         "v": [
+          {
+           "n": "MiO Energy",
+           "mk": "MiO",
+           "y": "",
+           "d": "60 mg caffeine per serving"
+          },
+          {
+           "n": "MiO powder",
+           "mk": "MiO",
+           "y": "2019",
+           "d": "Powdered mixes"
+          }
+         ],
+         "dt": "flavour · regular or energy"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "note": "Tier for everyday squash; variety for café and cocktail syrups and regional cordial traditions."
+  },
+  {
+   "n": "Fermented soft drinks",
+   "mode": "variety",
+   "b": [
+    {
+     "m": "Live cultures",
+     "v": "pasteurised · raw / unpasteurised · added probiotic",
+     "w": "label; producer information"
+    },
+    {
+     "m": "Residual alcohol",
+     "v": "<0.5% ABV soft drink · above (alcoholic, J7)",
+     "w": "legal soft-drink threshold in UK/EU/US"
+    }
+   ],
+   "s": [
+    {
+     "n": "Fermented soft drinks",
+     "k": [
+      {
+       "n": "Kombucha",
+       "a": "kombucha · tea fungus drink · booch",
+       "d": "Sweetened black tea fermented with a SCOBY culture into a tart, lightly fizzy drink with a trace of alcohol.",
+       "t": [
+        "original",
+        "flavoured (fruit, ginger, spice)",
+        "zero sugar",
+        "hard kombucha (over 5% ABV)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Kombucha",
+       "x": [
+        {
+         "n": "GT's Kombucha",
+         "a": "GT's Living Foods",
+         "d": "Los Angeles-brewed kombucha that built the US bottled market and holds about 40% of it.",
+         "mk": "GT's Living Foods",
+         "y": "1995",
+         "s": "https://en.wikipedia.org/wiki/GT%27s_Living_Foods",
+         "v": [
+          {
+           "n": "First sale to Erewhon Natural Foods",
+           "mk": "GT's Living Foods",
+           "y": "1995",
+           "d": "George Thomas Dave's first commercial kombucha"
+          },
+          {
+           "n": "Whole Foods distribution",
+           "mk": "GT's Living Foods",
+           "y": "1997",
+           "d": "Gardena brewery opened"
+          }
+         ],
+         "dt": "flavour · glass bottle"
+        },
+        {
+         "n": "Remedy Kombucha",
+         "a": "Remedy",
+         "d": "Sugar-free organic kombucha brewed in Melbourne and exported to some 20 countries.",
+         "mk": "Remedy Drinks",
+         "y": "2012",
+         "s": "https://austrade.gov.au/en/news-and-analysis/news/remedy-drinks-brews-export-success",
+         "v": [
+          {
+           "n": "Kombucha",
+           "mk": "Remedy Drinks",
+           "y": "2012",
+           "d": "Founding product, kitchen-bench brewed by Sarah and Emmet Condon"
+          },
+          {
+           "n": "Remedy Sodaly",
+           "mk": "Remedy Drinks",
+           "y": "",
+           "d": "Prebiotic soft drink spin-off"
+          }
+         ],
+         "dt": "flavour · can or bottle"
+        }
+       ],
+       "m": [
+        [
+         "KeVita",
+         "PepsiCo"
+        ]
+       ]
+      },
+      {
+       "n": "Jun",
+       "a": "jun · xun · jun-kombucha",
+       "d": "Kombucha-like drink fermented from green tea and honey instead of black tea and cane sugar.",
+       "t": [
+        "plain",
+        "fruit or spice flavoured"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Jun_(drink)"
+      },
+      {
+       "n": "Water kefir",
+       "a": "water kefir · tibicos · tibi · sugar kefir · ginger beer plant (historic)",
+       "d": "Sugar water or juice fermented with kefir grains into a lightly sparkling probiotic drink.",
+       "t": [
+        "plain",
+        "fruit-flavoured",
+        "home grains (culture)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Water_kefir"
+      },
+      {
+       "n": "Kvass",
+       "a": "kvass · kvas · kwas chlebowy · gira · kali",
+       "d": "Cloudy sweet-sour drink fermented from rye bread or malt, usually under 1.5% alcohol.",
+       "t": [
+        "bread kvass",
+        "white kvass",
+        "beetroot kvass",
+        "fruit kvass (apple, pear)",
+        "kvass-flavoured malt drink (unfermented)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Kvass",
+       "x": [
+        {
+         "n": "Nikola kvass",
+         "a": "Никола",
+         "d": "Russia's best-selling kvass brand, with about 39% of the market in 2014.",
+         "mk": "Deka",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kvass",
+         "v": [],
+         "dt": "bottle size"
+        },
+        {
+         "n": "Kwas chlebowy sapieżyński",
+         "a": "Kodeń kvass",
+         "d": "Historic Polish bread kvass from Kodeń whose recipe dates to the 1500s.",
+         "mk": "",
+         "y": "1500s",
+         "s": "https://en.wikipedia.org/wiki/Kvass",
+         "v": [],
+         "dt": "bottle"
+        }
+       ],
+       "m": [
+        [
+         "Ochakovsky",
+         "Ochakovo"
+        ],
+        [
+         "Russky dar",
+         "PepsiCo"
+        ],
+        [
+         "Khlebny kray",
+         "Carlsberg Group"
+        ],
+        [
+         "Kruzhka i bochka",
+         "Coca-Cola"
+        ],
+        [
+         "Iļģuciema kvass",
+         "Iļģuciema"
+        ],
+        [
+         "Churin kvass",
+         "Harbin Churin Food"
+        ]
+       ]
+      },
+      {
+       "n": "Boza",
+       "a": "boza · bosa · bozo · millet boza",
+       "d": "Thick, slightly sour, sweet drink of fermented grain such as millet, wheat or maize, about 1% alcohol.",
+       "t": [
+        "Turkish (thick, tart)",
+        "Albanian (white, sweet)",
+        "Bulgarian / Balkan",
+        "millet (Białystok style)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Boza",
+       "x": [
+        {
+         "n": "Vefa boza",
+         "a": "Vefa Bozacısı",
+         "d": "Thick, tart Istanbul boza from the shop founded in 1876, the reference Turkish style.",
+         "mk": "Vefa",
+         "y": "1876",
+         "s": "https://en.wikipedia.org/wiki/Boza",
+         "v": [],
+         "dt": "served with cinnamon and roasted chickpeas · bottled"
+        }
+       ]
+      },
+      {
+       "n": "Tepache",
+       "a": "tepache · tepache de piña",
+       "d": "Lightly fermented Mexican drink of pineapple peel and piloncillo, often spiced.",
+       "t": [
+        "traditional",
+        "spiced (chilli, cinnamon)",
+        "tepache de tibicos"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Tepache",
+       "m": [
+        [
+         "Tepachito",
+         "Frumex"
+        ]
+       ]
+      },
+      {
+       "n": "Mauby",
+       "a": "mauby · mavi · mabi · maví",
+       "d": "Bittersweet Caribbean drink of Colubrina bark and spices, fermented traditionally or sold as syrup or soda.",
+       "t": [
+        "fermented (mavi champán)",
+        "syrup / concentrate",
+        "carbonated"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Mauby",
+       "m": [
+        [
+         "Seybano",
+         "Grupo Taino"
+        ],
+        [
+         "Cacheo",
+         "Grupo Taino"
+        ],
+        [
+         "Mauby Fizzz",
+         "PepsiCo"
+        ],
+        [
+         "Hairoun Mauby",
+         "St. Vincent Brewery"
+        ]
+       ]
+      },
+      {
+       "n": "Malta & malt soft drink",
+       "a": "malta · maltin · malt drink",
+       "d": "Lightly carbonated non-alcoholic drink brewed from barley, hops and water, popular in the Caribbean and West Africa.",
+       "t": [
+        "regular",
+        "light / low sugar",
+        "vitamin-enriched"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Malta_(soft_drink)",
+       "x": [
+        {
+         "n": "Malta India",
+         "a": "",
+         "d": "Puerto Rican malta brewed in Mayagüez, popular across the Caribbean.",
+         "mk": "Compañía Cervecera de Puerto Rico",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Malta_(soft_drink)",
+         "v": [],
+         "dt": "bottle or can"
+        },
+        {
+         "n": "Supermalt",
+         "a": "",
+         "d": "Caffeine-free malt drink first developed for the Nigerian Army, now made in Denmark.",
+         "mk": "Royal Unibrew",
+         "y": "1972",
+         "s": "https://en.wikipedia.org/wiki/Supermalt",
+         "v": [],
+         "dt": "bottle or can"
+        }
+       ],
+       "m": [
+        [
+         "Maltín Polar",
+         "Maltín Polar"
+        ],
+        [
+         "Malta Goya",
+         "Goya Foods"
+        ],
+        [
+         "Pony Malta",
+         "Bavaria"
+        ],
+        [
+         "Vitamalt",
+         "Vitamalt"
+        ]
+       ]
+      },
+      {
+       "n": "Brewed ginger beer",
+       "a": "brewed ginger beer · traditional ginger beer · stone ginger beer",
+       "d": "Ginger, sugar and water fermented with yeast or a ginger beer plant, then kept below 0.5% alcohol.",
+       "t": [
+        "traditional brewed",
+        "spiced",
+        "diet",
+        "ginger beer plant (home culture)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Ginger_beer",
+       "x": [
+        {
+         "n": "Fentimans Traditional Ginger Beer",
+         "a": "",
+         "d": "Botanically brewed English ginger beer fermented from milled ginger root in wooden vats.",
+         "mk": "Fentimans",
+         "y": "1905",
+         "s": "https://en.wikipedia.org/wiki/Fentimans",
+         "v": [
+          {
+           "n": "Original recipe",
+           "mk": "Fentimans",
+           "y": "1905",
+           "d": "Recipe acquired by Thomas Fentiman, Cleckheaton"
+          },
+          {
+           "n": "Re-established brand",
+           "mk": "Fentimans",
+           "y": "1988",
+           "d": "Revived by his great-grandson, brewed in Hexham"
+          }
+         ],
+         "dt": "275 ml or 750 ml bottle"
+        },
+        {
+         "n": "Bundaberg Ginger Beer",
+         "a": "Bundy ginger beer",
+         "d": "Non-alcoholic brewed ginger beer from Bundaberg, Queensland, the brand's flagship.",
+         "mk": "Bundaberg Brewed Drinks",
+         "y": "1960",
+         "s": "https://en.wikipedia.org/wiki/Bundaberg_Brewed_Drinks",
+         "v": [
+          {
+           "n": "Ginger Beer",
+           "mk": "Bundaberg Brewed Drinks",
+           "y": "",
+           "d": "Flagship"
+          },
+          {
+           "n": "Diet Ginger Beer",
+           "mk": "Bundaberg Brewed Drinks",
+           "y": "",
+           "d": "Diet range"
+          },
+          {
+           "n": "Spiced Ginger Beer",
+           "mk": "Bundaberg Brewed Drinks",
+           "y": "2014",
+           "d": "Seasonal"
+          }
+         ],
+         "dt": "bottle size · regular, diet or spiced"
+        }
+       ],
+       "m": [
+        [
+         "Remedy Ginger Beer",
+         "Remedy Drinks"
+        ]
+       ]
+      },
+      {
+       "n": "Rice & grain drink",
+       "a": "amazake · sikhye · dansul · gamju · horchata",
+       "d": "Sweet drinks of rice or grain broken down by koji or malt, such as Japanese amazake and Korean sikhye, sold bottled or canned.",
+       "t": [
+        "amazake (rice koji)",
+        "amazake (sake lees)",
+        "sikhye",
+        "pumpkin sikhye",
+        "horchata (tiger nut or rice, unfermented)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Sikhye",
+       "m": [
+        [
+         "Vilac sikhye",
+         "Vilac"
+        ],
+        [
+         "Korea Yakult sikhye",
+         "Korea Yakult"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "note": "Living or traditionally fermented non-alcoholic drinks; dairy kefir and drinking yoghurt are in J3."
+  },
+  {
+   "n": "Energy & sports drinks",
+   "mode": "mixed",
+   "b": [
+    {
+     "m": "Caffeine and sugar",
+     "v": "caffeine mg per can · sugar g · zero sugar",
+     "w": "label; EU high-caffeine labelling (>150 mg/L)"
+    },
+    {
+     "m": "Tonicity (sports drinks)",
+     "v": "hypotonic · isotonic · hypertonic",
+     "w": "sports-nutrition guidance"
+    }
+   ],
+   "s": [
+    {
+     "n": "Energy & sports drinks",
+     "k": [
+      {
+       "n": "Energy drink",
+       "a": "energy drink · energy tonic",
+       "d": "Caffeinated soft drink, often with taurine and B vitamins, sold to reduce tiredness.",
+       "t": [
+        "regular",
+        "sugar-free / zero",
+        "flavoured edition",
+        "tonic bottle (non-carbonated)",
+        "high-caffeine fitness drink",
+        "coffee-energy hybrid"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Energy_drink",
+       "x": [
+        {
+         "n": "Lipovitan D",
+         "a": "Lipovitan · Libogen · Livita",
+         "d": "Small-bottle Japanese taurine tonic, the model for Asian energy drinks.",
+         "mk": "Taisho Pharmaceutical",
+         "y": "1962",
+         "s": "https://en.wikipedia.org/wiki/Lipovitan",
+         "v": [
+          {
+           "n": "Lipovitan D",
+           "mk": "Taisho Pharmaceutical",
+           "y": "1962",
+           "d": "Flagship, 1,000 mg taurine"
+          },
+          {
+           "n": "Lipovitan D Super",
+           "mk": "Taisho Pharmaceutical",
+           "y": "",
+           "d": "2,000 mg taurine"
+          },
+          {
+           "n": "MAXIO",
+           "mk": "Taisho Pharmaceutical",
+           "y": "",
+           "d": "3,000 mg taurine"
+          }
+         ],
+         "dt": "100 ml brown bottle · taurine strength"
+        },
+        {
+         "n": "Krating Daeng",
+         "a": "Thai Red Bull",
+         "d": "Thai sweet non-carbonated energy tonic from which Red Bull was adapted.",
+         "mk": "TCP Group",
+         "y": "1976",
+         "s": "https://en.wikipedia.org/wiki/Krating_Daeng",
+         "v": [],
+         "dt": "small glass bottle or can"
+        },
+        {
+         "n": "Red Bull",
+         "a": "Red Bull Energy Drink",
+         "d": "Carbonated taurine energy drink in a 250 ml can that defined the Western energy category.",
+         "mk": "Red Bull",
+         "y": "1987",
+         "s": "https://en.wikipedia.org/wiki/Red_Bull",
+         "v": [
+          {
+           "n": "Red Bull Energy Drink",
+           "mk": "Red Bull",
+           "y": "1987",
+           "d": "Original, launched in Austria"
+          },
+          {
+           "n": "Red Bull Sugarfree",
+           "mk": "Red Bull",
+           "y": "2003",
+           "d": "First variant"
+          },
+          {
+           "n": "Red Bull Total Zero",
+           "mk": "Red Bull",
+           "y": "2012",
+           "d": "Zero-calorie"
+          },
+          {
+           "n": "Red Bull Editions",
+           "mk": "Red Bull",
+           "y": "2013",
+           "d": "Flavoured line"
+          },
+          {
+           "n": "Red Bull Zero",
+           "mk": "Red Bull",
+           "y": "2018",
+           "d": "Sugar-free, closer to original taste"
+          }
+         ],
+         "dt": "250 ml can and larger · original, sugar-free, editions"
+        },
+        {
+         "n": "Monster Energy",
+         "a": "Monster",
+         "d": "Large-can American energy drink with a claw-mark logo, launched by Hansen Natural.",
+         "mk": "Monster Beverage",
+         "y": "2002",
+         "s": "https://en.wikipedia.org/wiki/Monster_Energy",
+         "v": [
+          {
+           "n": "Monster Energy (original)",
+           "mk": "Monster Beverage",
+           "y": "2002",
+           "d": "Released 18 April 2002"
+          },
+          {
+           "n": "Zero Ultra",
+           "mk": "Monster Beverage",
+           "y": "",
+           "d": "Zero-sugar 'White Monster'"
+          },
+          {
+           "n": "Juice Monster",
+           "mk": "Monster Beverage",
+           "y": "",
+           "d": "Fruit-juice line, e.g. Pacific Punch"
+          },
+          {
+           "n": "Java Monster",
+           "mk": "Monster Beverage",
+           "y": "",
+           "d": "Coffee-energy line"
+          }
+         ],
+         "dt": "16 oz / 500 ml can · flavour lines"
+        },
+        {
+         "n": "Rockstar",
+         "a": "Rockstar Energy",
+         "d": "American large-can energy drink founded by Russell Weiner.",
+         "mk": "Rockstar",
+         "y": "2001",
+         "s": "https://en.wikipedia.org/wiki/Rockstar_(drink)",
+         "v": [],
+         "dt": "can size · flavour"
+        },
+        {
+         "n": "Celsius",
+         "a": "Celsius Live Fit",
+         "d": "Sugar-free fitness energy drink with 200–270 mg caffeine per can.",
+         "mk": "Celsius Holdings",
+         "y": "2004",
+         "s": "https://en.wikipedia.org/wiki/Celsius_Holdings",
+         "v": [
+          {
+           "n": "Celsius Live Fit",
+           "mk": "Celsius Holdings",
+           "y": "",
+           "d": "Core line"
+          },
+          {
+           "n": "Celsius Essentials",
+           "mk": "Celsius Holdings",
+           "y": "",
+           "d": "Higher-caffeine line"
+          },
+          {
+           "n": "Celsius On-The-Go",
+           "mk": "Celsius Holdings",
+           "y": "",
+           "d": "Powder sticks"
+          }
+         ],
+         "dt": "12 oz can · flavour"
+        },
+        {
+         "n": "Prime Energy",
+         "a": "",
+         "d": "Caffeinated spin-off of the Prime brand launched by Logan Paul and KSI.",
+         "mk": "Prime Hydration",
+         "y": "2023",
+         "s": "https://en.wikipedia.org/wiki/Prime_(drink)",
+         "v": [],
+         "dt": "can · flavour"
+        }
+       ],
+       "m": [
+        [
+         "Lucozade Energy",
+         "Lucozade"
+        ],
+        [
+         "Alani Nu",
+         "Celsius Holdings"
+        ],
+        [
+         "V8 Energy",
+         "Campbell's"
+        ]
+       ]
+      },
+      {
+       "n": "Energy shot",
+       "a": "energy shot · 2 oz shot",
+       "d": "Concentrated energy drink of about 50–60 ml with caffeine and B vitamins, taken in one swallow.",
+       "t": [
+        "regular strength",
+        "extra strength",
+        "decaf"
+       ],
+       "s": "https://en.wikipedia.org/wiki/5-hour_Energy",
+       "x": [
+        {
+         "n": "5-hour Energy",
+         "a": "",
+         "d": "American 2 oz energy shot of caffeine and B vitamins, the best-known energy shot.",
+         "mk": "Living Essentials",
+         "y": "2004",
+         "s": "https://en.wikipedia.org/wiki/5-hour_Energy",
+         "v": [],
+         "dt": "2 oz bottle · strength · flavour"
+        }
+       ],
+       "m": [
+        [
+         "Red Bull Energy Shot",
+         "Red Bull"
+        ]
+       ]
+      },
+      {
+       "n": "Mate soda",
+       "a": "mate soda · yerba mate soda · Mate-Limonade",
+       "d": "Carbonated soft drink flavoured and caffeinated with yerba mate extract.",
+       "t": [
+        "original",
+        "sugar-free",
+        "flavoured (pomegranate, cola)",
+        "winter spiced edition"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Club-Mate",
+       "x": [
+        {
+         "n": "Club-Mate",
+         "a": "Club Mate",
+         "d": "Lightly sweet carbonated mate drink from Franconia, a fixture of hacker and club culture.",
+         "mk": "Brauerei Loscher",
+         "y": "1924",
+         "s": "https://en.wikipedia.org/wiki/Club-Mate",
+         "v": [
+          {
+           "n": "Sekt-Bronte",
+           "mk": "Geola Beverages",
+           "y": "1924",
+           "d": "Original drink, Dietenhofen"
+          },
+          {
+           "n": "Club-Mate",
+           "mk": "Brauerei Loscher",
+           "y": "1994",
+           "d": "Marketed as Club-Mate"
+          },
+          {
+           "n": "Winter Edition",
+           "mk": "Brauerei Loscher",
+           "y": "2007",
+           "d": "Spiced seasonal edition"
+          },
+          {
+           "n": "Club-Mate Cola",
+           "mk": "Brauerei Loscher",
+           "y": "2009",
+           "d": "Cola with mate extract"
+          },
+          {
+           "n": "Granat",
+           "mk": "Brauerei Loscher",
+           "y": "2013",
+           "d": "Pomegranate"
+          },
+          {
+           "n": "Zero",
+           "mk": "Brauerei Loscher",
+           "y": "2022",
+           "d": "Sugar-free"
+          }
+         ],
+         "dt": "0.5 l or 0.33 l glass bottle"
+        },
+        {
+         "n": "Materva",
+         "a": "",
+         "d": "Sweet carbonated Cuban yerba mate soda, produced in Miami since the 1960s.",
+         "mk": "",
+         "y": "1920",
+         "s": "https://en.wikipedia.org/wiki/Mate_(drink)",
+         "v": [],
+         "dt": "bottle or can"
+        }
+       ],
+       "m": [
+        [
+         "Sol Mate",
+         "Sol Mate"
+        ]
+       ]
+      },
+      {
+       "n": "Sports drink",
+       "a": "sports drink · isotonic drink · electrolyte drink",
+       "d": "Non-caffeinated drink of water, sugar and salts to replace fluid and energy during or after exercise.",
+       "t": [
+        "isotonic",
+        "hypotonic",
+        "hypertonic",
+        "low-sugar / zero",
+        "powder to mix"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Sports_drink",
+       "x": [
+        {
+         "n": "Gatorade",
+         "a": "",
+         "d": "The original sports drink, created at the University of Florida for its football team.",
+         "mk": "Gatorade",
+         "y": "1965",
+         "s": "https://en.wikipedia.org/wiki/Gatorade",
+         "v": [
+          {
+           "n": "Gatorade Thirst Quencher",
+           "mk": "Stokely-Van Camp",
+           "y": "1965",
+           "d": "Original formula"
+          },
+          {
+           "n": "Gatorade Frost",
+           "mk": "Gatorade",
+           "y": "1997",
+           "d": "Sub-line"
+          },
+          {
+           "n": "G2",
+           "mk": "Gatorade",
+           "y": "2007",
+           "d": "Low-calorie"
+          },
+          {
+           "n": "Gatorlyte",
+           "mk": "Gatorade",
+           "y": "2021",
+           "d": "Five-electrolyte blend"
+          }
+         ],
+         "dt": "bottle size · flavour · powder"
+        },
+        {
+         "n": "Lucozade Sport",
+         "a": "Lucozade",
+         "d": "British glucose drink, created as Glucozade in 1927 and rebranded for sport and energy in 1983.",
+         "mk": "Lucozade",
+         "y": "1927",
+         "s": "https://en.wikipedia.org/wiki/Lucozade",
+         "v": [
+          {
+           "n": "Glucozade",
+           "mk": "W. Owen & Son",
+           "y": "1927",
+           "d": "Original glucose drink, Newcastle"
+          },
+          {
+           "n": "Lucozade Energy / Sport rebrand",
+           "mk": "Beecham Group",
+           "y": "1983",
+           "d": "Repositioned for energy and sport"
+          },
+          {
+           "n": "Lucozade Zero",
+           "mk": "Lucozade",
+           "y": "",
+           "d": "Sugar-free"
+          }
+         ],
+         "dt": "bottle · flavour"
+        },
+        {
+         "n": "Powerade",
+         "a": "",
+         "d": "Coca-Cola's sports drink, the main rival to Gatorade.",
+         "mk": "Powerade",
+         "y": "1988",
+         "s": "https://en.wikipedia.org/wiki/Powerade",
+         "v": [
+          {
+           "n": "Powerade",
+           "mk": "Coca-Cola",
+           "y": "1988",
+           "d": "Original"
+          },
+          {
+           "n": "Powerade Zero",
+           "mk": "Coca-Cola",
+           "y": "2007",
+           "d": "No sugar or calories"
+          }
+         ],
+         "dt": "bottle · flavour"
+        },
+        {
+         "n": "Pocari Sweat",
+         "a": "",
+         "d": "Japanese 'ion supply' drink with a mild, slightly salty taste, widely sold across Asia.",
+         "mk": "Otsuka Pharmaceutical",
+         "y": "1980",
+         "s": "https://en.wikipedia.org/wiki/Pocari_Sweat",
+         "v": [
+          {
+           "n": "Pocari Sweat",
+           "mk": "Otsuka Pharmaceutical",
+           "y": "1980",
+           "d": "Original"
+          },
+          {
+           "n": "Pocari Sweat Ion Water",
+           "mk": "Otsuka Pharmaceutical",
+           "y": "",
+           "d": "Reduced-sugar"
+          }
+         ],
+         "dt": "can, bottle or powder"
+        },
+        {
+         "n": "BodyArmor",
+         "a": "Bodyarmor SuperDrink",
+         "d": "Coconut-water-based sports drink sold as a natural rival to Gatorade, owned by Coca-Cola since 2021.",
+         "mk": "BodyArmor",
+         "y": "2011",
+         "s": "https://en.wikipedia.org/wiki/Bodyarmor_SuperDrink",
+         "v": [
+          {
+           "n": "SuperDrink",
+           "mk": "BodyArmor",
+           "y": "2011",
+           "d": "Original"
+          },
+          {
+           "n": "Lyte",
+           "mk": "BodyArmor",
+           "y": "",
+           "d": "Lower sugar"
+          },
+          {
+           "n": "SportWater",
+           "mk": "BodyArmor",
+           "y": "",
+           "d": "Alkaline electrolyte water"
+          }
+         ],
+         "dt": "bottle · flavour"
+        },
+        {
+         "n": "Prime Hydration",
+         "a": "Prime",
+         "d": "Influencer-launched electrolyte sports drink with coconut water, a 2022–23 craze.",
+         "mk": "Prime Hydration",
+         "y": "2022",
+         "s": "https://en.wikipedia.org/wiki/Prime_(drink)",
+         "v": [
+          {
+           "n": "Prime Hydration",
+           "mk": "Prime Hydration",
+           "y": "2022",
+           "d": "Launch"
+          },
+          {
+           "n": "Prime Hydration+ Sticks",
+           "mk": "Prime Hydration",
+           "y": "2022",
+           "d": "Powder sticks"
+          }
+         ],
+         "dt": "bottle · flavour"
+        }
+       ],
+       "m": [
+        [
+         "Aquarius",
+         "Coca-Cola"
+        ],
+        [
+         "Isostar",
+         "Isostar"
+        ]
+       ]
+      },
+      {
+       "n": "Electrolyte drink & tablets",
+       "a": "electrolyte tablets · hydration powder · drink mix",
+       "d": "Tablets and powder sticks of salts, sometimes with sugar, dissolved in water for everyday or sport hydration.",
+       "t": [
+        "effervescent tablet",
+        "powder stick",
+        "zero sugar",
+        "with caffeine",
+        "with vitamins"
+       ],
+       "s": "https://nuunlife.com/company",
+       "m": [
+        [
+         "Nuun Sport",
+         "Nuun"
+        ],
+        [
+         "Nuun Zero Sugar",
+         "Nuun"
+        ],
+        [
+         "Liquid I.V. drink mix",
+         "Liquid I.V."
+        ],
+        [
+         "Prime Hydration+ Sticks",
+         "Prime Hydration"
+        ],
+        [
+         "Gatorlyte",
+         "Gatorade"
+        ],
+        [
+         "Flash I.V. Sticks",
+         "BodyArmor"
+        ],
+        [
+         "Celsius On-The-Go",
+         "Celsius Holdings"
+        ]
+       ]
+      },
+      {
+       "n": "Protein & recovery drink",
+       "a": "protein shake · RTD protein · recovery drink",
+       "d": "Ready-to-drink milk- or plant-based shake with added protein for training recovery or meals.",
+       "t": [
+        "milk protein",
+        "plant protein",
+        "high-protein low-sugar",
+        "chocolate milk recovery"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Muscle_Milk",
+       "m": [
+        [
+         "Muscle Milk",
+         "CytoSport"
+        ],
+        [
+         "Prime Protein",
+         "Prime Hydration"
+        ]
+       ]
+      },
+      {
+       "n": "Functional & vitamin drink",
+       "a": "vitamin water · enhanced water · functional beverage",
+       "d": "Drinks sold for added vitamins, electrolytes or claimed effects, such as enhanced waters and 'smart' drinks.",
+       "t": [
+        "vitamin water",
+        "enhanced water",
+        "nootropic / 'smart' drink",
+        "adaptogen drink",
+        "relaxation drink"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Functional_beverage",
+       "x": [
+        {
+         "n": "Vitaminwater",
+         "a": "Glacéau Vitaminwater",
+         "d": "Flavoured enhanced water with added vitamins from Glacéau, owned by Coca-Cola since 2007.",
+         "mk": "Glacéau",
+         "y": "2000",
+         "s": "https://en.wikipedia.org/wiki/Vitaminwater",
+         "v": [],
+         "dt": "bottle · flavour · zero"
+        }
+       ],
+       "m": [
+        [
+         "Smartwater",
+         "Glacéau"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "note": "Tier for everyday use; energy-drink cans are also a collecting area."
+  },
+  {
+   "n": "Ready-to-drink coffee & tea",
+   "mode": "mixed",
+   "b": [
+    {
+     "m": "Format",
+     "v": "can · PET bottle · chilled carton · hot vending can",
+     "w": "Japanese vending culture; retail formats"
+    }
+   ],
+   "s": [
+    {
+     "n": "Ready-to-drink coffee & tea",
+     "k": [
+      {
+       "n": "Canned coffee",
+       "a": "canned coffee · can coffee · kan kōhī",
+       "d": "Pre-brewed coffee sold ready to drink in cans, sold hot or cold from vending machines across East Asia.",
+       "t": [
+        "with milk",
+        "black",
+        "low sugar",
+        "café au lait",
+        "hot-vending can",
+        "bottle-can"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Canned_coffee",
+       "x": [
+        {
+         "n": "UCC Coffee with Milk",
+         "a": "UCC Milk Coffee",
+         "d": "Sweet milk coffee in a slim can, launched in April 1969 as the first mass canned coffee.",
+         "mk": "UCC Ueshima Coffee",
+         "y": "1969",
+         "s": "https://en.wikipedia.org/wiki/UCC_Ueshima_Coffee_Co.",
+         "v": [
+          {
+           "n": "UCC Coffee with Milk",
+           "mk": "UCC Ueshima Coffee",
+           "y": "1969",
+           "d": "Original, April 1969"
+          }
+         ],
+         "dt": "slim can · original or reduced sugar"
+        },
+        {
+         "n": "Georgia",
+         "a": "Georgia Coffee",
+         "d": "Coca-Cola's Japanese canned coffee range, the top-grossing canned coffee in Japan.",
+         "mk": "Coca-Cola (Japan)",
+         "y": "1975",
+         "s": "https://en.wikipedia.org/wiki/Georgia_(coffee)",
+         "v": [
+          {
+           "n": "Emerald Mountain Blend",
+           "mk": "Coca-Cola (Japan)",
+           "y": "",
+           "d": "Signature blend"
+          },
+          {
+           "n": "US release",
+           "mk": "Coca-Cola (Japan)",
+           "y": "2009",
+           "d": "Sold mainly in Asian grocery stores"
+          }
+         ],
+         "dt": "can or bottle-can · blend · with milk or black"
+        },
+        {
+         "n": "Boss",
+         "a": "Suntory Boss",
+         "d": "Suntory canned coffee range with a pipe-smoking 'boss' logo, known for Tommy Lee Jones adverts since 2006.",
+         "mk": "Suntory",
+         "y": "1992",
+         "s": "https://en.wikipedia.org/wiki/Boss_Coffee",
+         "v": [
+          {
+           "n": "Super Blend",
+           "mk": "Suntory",
+           "y": "1992",
+           "d": "Original"
+          },
+          {
+           "n": "Boss Rainbow",
+           "mk": "Suntory",
+           "y": "",
+           "d": "Rainbow-coloured can"
+          },
+          {
+           "n": "Craft Boss",
+           "mk": "Suntory",
+           "y": "",
+           "d": "Bottled sub-brand: Cafe Latte, Black Coffee"
+          },
+          {
+           "n": "All-Star blend",
+           "mk": "Suntory",
+           "y": "2022",
+           "d": "30th-anniversary limited edition"
+          }
+         ],
+         "dt": "can or PET bottle · blend · with milk or black"
+        }
+       ],
+       "m": [
+        [
+         "Fire",
+         "Kirin Beverage"
+        ],
+        [
+         "Dydo Blend",
+         "Dydo"
+        ],
+        [
+         "Wonda",
+         "Asahi Soft Drinks"
+        ],
+        [
+         "Nescafé canned coffee",
+         "Nestlé"
+        ],
+        [
+         "Roots",
+         "Suntory"
+        ],
+        [
+         "Mr Brown",
+         "King Car Group"
+        ],
+        [
+         "Lotte canned coffee",
+         "Lotte"
+        ]
+       ]
+      },
+      {
+       "n": "Cold brew & iced coffee",
+       "a": "cold brew · nitro cold brew · Dutch coffee · Kyoto-style",
+       "d": "Coffee steeped cold for 12–24 hours, sold as concentrate, bottles or nitrogen-charged cans.",
+       "t": [
+        "ready-to-drink black",
+        "concentrate",
+        "nitro can",
+        "slow-drip (Kyoto-style)",
+        "sweetened / with milk"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Cold_brew_coffee",
+       "m": [
+        [
+         "Stumptown nitro cold brew",
+         "Stumptown"
+        ],
+        [
+         "Cuvee nitro cold brew",
+         "Cuvee Coffee"
+        ],
+        [
+         "RISE nitro cold brew",
+         "RISE Brewing Co."
+        ]
+       ]
+      },
+      {
+       "n": "Bottled latte & coffee drink",
+       "a": "bottled latte · coffee drink · draft latte",
+       "d": "Ready-to-drink milk-coffee drinks in bottles or cans, from sweet blended coffees to nitro-textured lattes.",
+       "t": [
+        "blended / Frappuccino-style",
+        "latte",
+        "mocha",
+        "protein coffee",
+        "nitro-textured can"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Frappuccino",
+       "x": [
+        {
+         "n": "Starbucks bottled Frappuccino",
+         "a": "Frappuccino bottled coffee drink",
+         "d": "Sweet bottled coffee-and-milk drink, the first product of Starbucks and PepsiCo's North American Coffee Partnership.",
+         "mk": "Starbucks",
+         "y": "1996",
+         "s": "https://en.wikipedia.org/wiki/Frappuccino",
+         "v": [
+          {
+           "n": "Bottled Frappuccino",
+           "mk": "North American Coffee Partnership",
+           "y": "1996",
+           "d": "First bottled version"
+          }
+         ],
+         "dt": "glass bottle · flavour"
+        },
+        {
+         "n": "La Colombe Draft Latte",
+         "a": "",
+         "d": "Cold-pressed espresso and milk in a can that froths on opening via a nitrous-oxide valve.",
+         "mk": "La Colombe",
+         "y": "2016",
+         "s": "https://en.wikipedia.org/wiki/La_Colombe_Coffee_Roasters",
+         "v": [
+          {
+           "n": "Canned Draft Latte",
+           "mk": "La Colombe",
+           "y": "2016",
+           "d": "Launched in four flavours"
+          }
+         ],
+         "dt": "can · flavour"
+        }
+       ],
+       "m": [
+        [
+         "Craft Boss Cafe Latte",
+         "Suntory"
+        ]
+       ]
+      },
+      {
+       "n": "Iced tea",
+       "a": "iced tea · ice tea · sweet tea",
+       "d": "Chilled tea sold sweetened or unsweetened, often lemon or peach flavoured, in bottles, cans and cartons.",
+       "t": [
+        "lemon",
+        "peach",
+        "sweet tea",
+        "unsweetened",
+        "half-and-half (with lemonade)",
+        "sparkling"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Iced_tea",
+       "x": [
+        {
+         "n": "Lipton Ice Tea",
+         "a": "Lipton Iced Tea",
+         "d": "Ready-to-drink iced tea from the PepsiCo–Unilever joint ventures, in lemon, peach and other flavours.",
+         "mk": "Lipton",
+         "y": "1991",
+         "s": "https://en.wikipedia.org/wiki/Lipton",
+         "v": [
+          {
+           "n": "Pepsi Lipton Tea Partnership",
+           "mk": "Lipton",
+           "y": "1991",
+           "d": "North American joint venture"
+          },
+          {
+           "n": "Pepsi Lipton International",
+           "mk": "Lipton",
+           "y": "2003",
+           "d": "Joint venture outside North America"
+          },
+          {
+           "n": "Pure Leaf",
+           "mk": "Lipton",
+           "y": "",
+           "d": "Brewed real-leaf iced tea"
+          },
+          {
+           "n": "Brisk",
+           "mk": "Lipton",
+           "y": "",
+           "d": "Sharp North American iced tea"
+          }
+         ],
+         "dt": "lemon, peach, mango, raspberry · PET, can or carton"
+        },
+        {
+         "n": "AriZona Iced Tea",
+         "a": "Arizona",
+         "d": "Brooklyn-founded iced tea in large painted cans with a printed 99-cent price.",
+         "mk": "Arizona Beverage Company",
+         "y": "1992",
+         "s": "https://en.wikipedia.org/wiki/Arizona_Beverage_Company",
+         "v": [
+          {
+           "n": "First AriZona teas",
+           "mk": "Arizona Beverage Company",
+           "y": "1992",
+           "d": "First four teas by 1993, including green tea"
+          },
+          {
+           "n": "Arnold Palmer",
+           "mk": "Arizona Beverage Company",
+           "y": "1990s",
+           "d": "Iced tea and lemonade blend under licence"
+          }
+         ],
+         "dt": "22 oz Big Can · flavour"
+        },
+        {
+         "n": "Snapple iced tea",
+         "a": "Snapple",
+         "d": "Bottled iced tea from a New York juice company, starting with lemon tea in 1987.",
+         "mk": "Snapple",
+         "y": "1987",
+         "s": "https://en.wikipedia.org/wiki/Snapple",
+         "v": [
+          {
+           "n": "Lemon tea",
+           "mk": "Snapple",
+           "y": "1987",
+           "d": "First tea"
+          },
+          {
+           "n": "Raspberry and peach teas",
+           "mk": "Snapple",
+           "y": "",
+           "d": "Original and diet"
+          }
+         ],
+         "dt": "glass bottle or can · flavour"
+        }
+       ],
+       "m": [
+        [
+         "Fuze Tea",
+         "Coca-Cola"
+        ],
+        [
+         "Nestea",
+         "Nestea"
+        ]
+       ]
+      },
+      {
+       "n": "Bottled green & oolong tea",
+       "a": "bottled green tea · ocha · canned oolong · RTD tea",
+       "d": "Unsweetened Japanese-style green or oolong tea in cans and PET bottles, sold chilled or heated.",
+       "t": [
+        "sencha",
+        "genmaicha",
+        "matcha-blend",
+        "oolong",
+        "black oolong",
+        "hot PET bottle"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Canned_tea",
+       "x": [
+        {
+         "n": "Oi Ocha",
+         "a": "Ito En green tea",
+         "d": "ITO EN's unsweetened green tea, the first canned sencha and first PET-bottled green tea.",
+         "mk": "ITO EN",
+         "y": "1985",
+         "s": "https://www.itoen-global.com/about_us/history.html",
+         "v": [
+          {
+           "n": "Canned sencha",
+           "mk": "ITO EN",
+           "y": "1985",
+           "d": "World's first canned green tea"
+          },
+          {
+           "n": "Oi Ocha",
+           "mk": "ITO EN",
+           "y": "1989",
+           "d": "Renamed Oi Ocha"
+          },
+          {
+           "n": "PET bottle",
+           "mk": "ITO EN",
+           "y": "1990",
+           "d": "First green tea in a PET bottle"
+          },
+          {
+           "n": "Heatable PET bottle",
+           "mk": "ITO EN",
+           "y": "2000",
+           "d": "For hot vending"
+          }
+         ],
+         "dt": "can or PET · sencha, koicha, genmaicha"
+        },
+        {
+         "n": "Canned oolong tea",
+         "a": "Ito En oolong",
+         "d": "Unsweetened oolong in a can, the first canned tea product in Japan.",
+         "mk": "ITO EN",
+         "y": "1980",
+         "s": "https://www.itoen-global.com/about_us/history.html",
+         "v": [],
+         "dt": "can or PET"
+        },
+        {
+         "n": "Iyemon",
+         "a": "Iyemon Cha",
+         "d": "Suntory bottled green tea developed with the Kyoto tea merchant Fukujuen, named after its founder.",
+         "mk": "Suntory",
+         "y": "2004",
+         "s": "https://global.fukujuen.com/pages/history",
+         "v": [
+          {
+           "n": "Iyemon",
+           "mk": "Suntory",
+           "y": "2004",
+           "d": "Collaboration brand with Fukujuen"
+          }
+         ],
+         "dt": "PET bottle · size"
+        }
+       ],
+       "m": [
+        [
+         "Teas' Tea",
+         "ITO EN"
+        ]
+       ]
+      },
+      {
+       "n": "Barley & grain tea",
+       "a": "barley tea · mugicha · boricha · damai cha",
+       "d": "Caffeine-free infusion of roasted barley or other grains, sold bottled and drunk cold in Japan and hot or cold in Korea.",
+       "t": [
+        "barley",
+        "corn tea",
+        "mixed grain",
+        "hot PET bottle"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Barley_tea",
+       "m": [
+        [
+         "AGV barley tea",
+         "AGV"
+        ],
+        [
+         "Haneul Bori",
+         "Woongjin Food"
+        ]
+       ]
+      },
+      {
+       "n": "Milk tea & bubble tea",
+       "a": "milk tea · royal milk tea · bubble tea · boba · pearl milk tea",
+       "d": "Ready-to-drink sweet tea with milk, including Japanese bottled milk teas, Hong Kong-style canned milk tea and bubble tea in sealed cups or kits.",
+       "t": [
+        "bottled milk tea",
+        "Hong Kong-style canned milk tea",
+        "sealed-cup bubble tea",
+        "bubble tea kit (tea and tapioca pearls)",
+        "no sugar"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Bubble_tea",
+       "x": [
+        {
+         "n": "Kirin Gogo no Kocha",
+         "a": "Kirin Afternoon Tea",
+         "d": "Kirin's bottled black tea range named after British afternoon tea, said to be Japan's first bottled tea.",
+         "mk": "Kirin",
+         "y": "1986",
+         "s": "https://www.kirin.co.jp/experience/factory/en/gogo/sukkiricafe/",
+         "v": [
+          {
+           "n": "Straight Tea",
+           "mk": "Kirin",
+           "y": "1986",
+           "d": "Original lightly sweet tea"
+          },
+          {
+           "n": "Milk Tea",
+           "mk": "Kirin",
+           "y": "",
+           "d": "Milk tea"
+          },
+          {
+           "n": "Lemon Tea",
+           "mk": "Kirin",
+           "y": "",
+           "d": "Lemon tea"
+          }
+         ],
+         "dt": "PET bottle · straight, milk or lemon"
+        }
+       ]
+      },
+      {
+       "n": "Yerba mate & guayusa drink",
+       "a": "yerba mate drink · mate tea · guayusa · tereré",
+       "d": "Bottled or canned brewed yerba mate or guayusa, still or sparkling, as a caffeinated alternative to coffee.",
+       "t": [
+        "still brewed",
+        "sparkling",
+        "sweetened iced mate",
+        "guayusa"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Yerba_mate",
+       "x": [
+        {
+         "n": "Guayakí yerba mate",
+         "a": "Guayaki",
+         "d": "Californian yerba mate brand founded by Cal Poly friends, sold in bottles and cans.",
+         "mk": "Guayakí",
+         "y": "1996",
+         "s": "https://magazine.calpoly.edu/spring-summer-2018/cultivating-change-guayaki-21-years-later/",
+         "v": [
+          {
+           "n": "Glass bottles",
+           "mk": "Guayakí",
+           "y": "2005",
+           "d": "First bottled drinks"
+          }
+         ],
+         "dt": "bottle or can · flavour"
+        }
+       ],
+       "m": [
+        [
+         "Matte Leão iced mate",
+         "Matte Leão"
+        ],
+        [
+         "Runa",
+         "Vita Coco"
+        ]
+       ]
+      }
+     ]
+    }
+   ],
+   "note": "Bottled and canned coffee and tea; leaf, beans and capsules are in J6."
+  }
+ ]
+}

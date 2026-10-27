@@ -52,7 +52,7 @@ laptop_x=[
  X('Framework Laptop','Framework Computer','2021','Framework_Computer','Modular, user-repairable laptop with swappable ports and upgradable mainboards.',
    [('Framework Laptop 13','Framework Computer','2021',''),('Chromebook Edition','Framework Computer','2022',''),('Framework Laptop 16','Framework Computer','2024','modular input and graphics bays'),('Framework Laptop 12','Framework Computer','2025','')]),
 ]
-m_laptop=[["Aspire 5","Acer"],["Swift Go","Acer"],["Predator Helios 16","Acer"],["IdeaPad Slim 5","Lenovo"],["Yoga Slim 7","Lenovo"],["Legion Pro 7i","Lenovo"],["Latitude 5450","Dell"],["Inspiron 14","Dell"],["X16","Alienware"],["Pavilion Plus 14","HP"],["Envy x360","HP"],["Omen 16","HP"],["Zenbook S UX393","ASUS"],["Vivobook S16","ASUS"],["ROG Strix Scar 16","ASUS"],["Galaxy Book4 Pro","Samsung Electronics"],["LG Gram Pro","LG"],["Katana 15","MSI"],["Lemur Pro","System76"],["InfinityBook Pro","Tuxedo Computers"]]
+m_laptop=[["Aspire 5","Acer"],["Swift Go","Acer"],["Predator Helios 16","Acer"],["IdeaPad Slim 5","Lenovo"],["Yoga Slim 7","Lenovo"],["Legion Pro 7i","Lenovo"],["Latitude 5450","Dell"],["Inspiron 1400","Dell"],["X16","Alienware"],["Pavilion Plus 14","HP"],["Envy x360","HP"],["Omen 16","HP"],["ZenBook S UX393","ASUS"],["Vivobook S16","ASUS"],["ROG Strix Scar 16","ASUS"],["Galaxy Book4 Pro","Samsung Electronics"],["LG Gram Pro","LG"],["Katana 15","MSI"],["Lemur Pro","System76"],["InfinityBook Pro","Tuxedo Computers"]]
 # verify all m in old data
 old=json.load(open('/home/user/Possession-Taxonomy/rebuild/work/D1/agent/00_00.old.json'))
 allm={tuple(m) for k in old for m in k.get('m',[])}
