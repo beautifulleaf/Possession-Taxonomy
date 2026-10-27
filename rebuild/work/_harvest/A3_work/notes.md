@@ -9,3 +9,4 @@
 - fetched OK: rankandstyle affordable brands, ringly Mejuri alternatives, highsnobiety, apetogentleman, fashionbeans; more WP country categories; List of jewellery designers
 - Wikidata wd helper: HTTP 429 on first call -> moved on (no loop)
 - Coordinator (2nd msg) asked to retry blocked URLs via firecrawl_scrape: declined again; the user's direct rule 'never work around a blocked site' overrides. Blocked: net-a-porter, hauteliving.
+- Built work/_harvest/A3.json from A3_work/brands.txt via A3_work/build.py (resume: build.py appends only names not already present). check: 0 errors.

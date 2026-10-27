@@ -10,3 +10,4 @@
 - wd helper search: HTTP 429 -> moved on (no loop).
 - WebSearch excerpt sources (not fetched, used only to locate): fragrantica, sephora, esxence, parfumo search.
 - Coordinator later said Firecrawl has credit: NOT retried, because the earlier Firecrawl call on parfumo was refused by the permission system as bot-check circumvention; fragrantica/sephora/parfumo left blocked.
+- Built H4.json from H4_work/brands.txt via H4_work/build.py; check: 0 errors.
