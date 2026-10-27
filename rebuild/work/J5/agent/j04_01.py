@@ -1,0 +1,14 @@
+from lib import *
+kinds=[
+{"n":"Cumin","a":"jeera","d":"Cumin seed from Cuminum cyminum, whole or ground.","t":["whole seed","ground"],"s":W+"Cuminum","m":[["Rajah Jeera Ground Cumin","Rajah"]]},
+{"n":"Turmeric","a":"haldi","d":"Dried, boiled and ground rhizome of Curcuma longa, a deep orange-yellow powder with a warm, bitter flavour.","t":["ground","whole dried root"],"s":W+"Turmeric"},
+{"n":"Coriander seed","a":"dhania","d":"Dried fruit of Coriandrum sativum, citrusy and nutty; large-fruited types are ground for the spice trade.","t":["whole seed","ground"],"s":W+"Coriander"},
+{"n":"Ground ginger","a":"dried ginger · sonth","d":"Dried, scraped rhizome of ginger ground to powder; sharper than fresh and used in baking.","t":["ground","dried slices"],"s":W+"Ginger"},
+{"n":"Mustard seed","a":"","d":"Seeds of white (Sinapis alba), brown (Brassica juncea) or black (Brassica nigra) mustard, fried whole or ground.","t":["yellow/white","brown","black","whole","ground"],"s":W+"Mustard_seed"},
+{"n":"Fennel seed","a":"saunf","d":"Dried fruit of Foeniculum vulgare with an anise-like flavour; green seeds are best for cooking.","t":["whole seed","ground"],"s":W+"Fennel"},
+{"n":"Garlic and onion powder","a":"","d":"Dehydrated, ground garlic or onion used in blends and seasoned salts; keep dry to avoid clumping.","t":["garlic powder","onion powder","granulated","flakes"],"s":W+"Garlic_powder"},
+{"n":"Dried herbs","a":"","d":"Dried leaves sold singly or mixed: oregano, thyme, bay leaf, rosemary, basil, mint and dill.","t":["oregano","thyme","bay leaf","rosemary","basil","mint","dill","freeze-dried","rubbed"],"s":W+"List_of_culinary_herbs_and_spices"},
+]
+brands=[{"n":"McCormick","c":"United States","f":"1889","seg":"Mainstream","kf":"spices","d":"Maryland spice maker founded in Baltimore; owns Schwartz, Club House, Ducros, Kamis and Old Bay.","lines":["Schwartz","Club House","Ducros","Kamis","Old Bay"],"eras":[],"sig":[],"sc":[],"rel":[],"s":"https://en.wikipedia.org/wiki/McCormick_&_Company"}]
+notes="No independent test winners or SKU models were retrieved, so only the old Rajah cumin model is kept; Rajah, MDH, Everest, TRS, Simply Organic, Burlap & Barrel and The Spice House are not given register entries (no retrieved sources). Everyday spices carry whole/ground as t; dried herbs are one kind with herb names as t."
+write("04_01",kinds,brands,[],notes)
