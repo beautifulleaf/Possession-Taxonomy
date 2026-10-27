@@ -51,6 +51,6 @@ B("Clover","Japan","","Premium","sewing notions","Japanese notions maker of Wond
 B("Dritz","United States","","Mainstream","sewing notions","US notions brand sold by Prym Americas.",s=PR,sig=["Measuring Tool Set 27101","Sew You Adjustable Dress Form"]),
 B("Creative Grids","United States","","Specialist","quilting rulers","Quilting ruler brand with non-slip surface.",s=CQ,sig=["Non-slip rulers"]),
 B("Olfa","Japan","","Premium","cutters","Japanese cutter maker that invented the rotary cutter in 1979.",s=CQ,sig=["Splash rotary cutter (45 mm)"]),
-B("Adjustoform","United Kingdom","","Specialist","dress forms","Dress form maker of the Sew Simple range.",s=DF,sig=["Sew Simple FG304"]),
+B("Adjustoform","","","Specialist","dress forms","Dress form maker of the Sew Simple range.",s=DF,sig=["Sew Simple FG304"]),
 ]
 write('02_04',kinds,brands,[],"Burda, Kai/Clover/Tulip founding dates, Olfa/Fiskars countries from knowledge only (Fiskars 1649 from knowledge). No retrieved page for indie pattern houses beyond Fitzpatterns. Adjustoform model is FG304 (page) not FG306 (secondary). Creative Grids / Olfa archetypes share the Quilting ruler kind.")
