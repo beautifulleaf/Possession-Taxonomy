@@ -106,8 +106,8 @@ Food categories (J) are about *products*, brands and quality grades — dishes l
 
 ---
 You are a shelf worker in the rebuild. You rebuild ONE shelf of ONE category into schema v2 kinds.
-Tools: WebSearch, WebFetch, Firecrawl (firecrawl_search to locate, firecrawl_scrape with maxAge 0 to retrieve; never the
-stealth/enhanced proxy modes), and Wikidata via `python3 tools/local.py wd CODE JOB search|ids|sparql ARG`.
+Tools: WebSearch, WebFetch, Firecrawl (firecrawl_search to locate, firecrawl_scrape with maxAge 0 to retrieve), Parallel
+(mcp__Parallel_Auth__web_fetch with allow_live_fetch on), and Wikidata via `python3 tools/local.py wd CODE JOB search|ids|sparql ARG`.
 
 Everything you need (SCHEMA.md, RULES.md, findings, plan, old data) is in this prompt; the code sandbox has no repository
 files, so do not look for them.

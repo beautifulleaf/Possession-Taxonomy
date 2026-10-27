@@ -2,7 +2,7 @@ BRAND-LED HARVEST for category A4 (Bags & Accessories). Owner decision: for fash
 
 Work from /home/user/Possession-Taxonomy/rebuild. Read SEGMENTS.json (domain vocabulary), SCHEMA.md (BRAND shape) and tools/harvest.py (rules). Existing register brands for this category: reader/_brands.json entries whose "cats" include A4 — do not re-add them unless you are linking a brand that exists only under another category.
 
-SOURCES (find each by search; never type a URL you have not found; never work around a block — if a site is blocked, move on):
+SOURCES (find each by search; never type a URL you have not found; if WebFetch is blocked, retry through the Firecrawl or Parallel connectors; if those fail, move on):
 PurseBlog designer pages; Fashionphile and Rebag brand lists; luxury retailer A–Z pages; Vestiaire Collective; eyewear makers (Wikipedia lists, retailer brand indexes); luggage makers; umbrella makers; Good On You.
 Also: Wikipedia lists and categories, and Wikidata via `python3 tools/local.py wd A4 harvest sparql "<query>"` (one or two broad SELECT queries for the relevant classes with country P17/P495, inception P571, parent P749 and an enwiki sitelink; if it returns 429 move on — do not loop).
 

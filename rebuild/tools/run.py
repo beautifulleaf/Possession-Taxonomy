@@ -369,7 +369,8 @@ Hard rules
   EUIPO/TMview); museum and collection records (V&A, Science Museum, Smithsonian, Cooper Hewitt, Met); trade-association
   member or award lists; independent test and review sites; standards/certification listings; and other retailers that
   list the product. Find them by search, never by guessing URLs; a fetched page that names the product and maker attests
-  it. Never work around a block (no proxies, caches, archives or alternate fetchers for the blocked site itself).
+  it. If WebFetch is blocked you may retry the same URL through the authenticated Firecrawl or Parallel connectors
+  (owner decision 2026-10-27: they are legitimate connectors); if those fail too, use the independent sources above.
 - Be efficient: batch fetches in code (fetch many URLs per call, print only the facts you need). Aim to finish within
   roughly 25 tool rounds. Wikipedia article URLs (https://en.wikipedia.org/wiki/Title) are good sources; web_fetch them
   directly when you know the exact title, or use the wiki tool to confirm titles in bulk.

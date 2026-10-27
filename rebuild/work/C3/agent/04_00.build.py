@@ -1,0 +1,108 @@
+import sys; sys.path.insert(0,'work/C3/agent'); from w import w
+W='https://en.wikipedia.org/wiki/'; OLD='https://www.logees.com/collections/carnivorous-plants'
+AGM="RHS Award of Garden Merit"; RHS='https://www.rhs.org.uk/plants/'
+def X(n,a,d,s,y='',v=(),dt='plant size · pot size',mk=''):
+    x={"n":n,"a":a,"d":d,"mk":mk,"y":y,"s":s,"dt":dt}
+    if v: x["v"]=[dict(zip(("n","mk","y","d"),t)) for t in v]
+    return x
+VFL=W+'List_of_Venus_flytrap_cultivars'
+kinds=[
+ {"n":"Venus flytrap","a":"Dionaea · Dionaea muscipula · flytrap","d":"Living Venus flytrap, the single snap-trap species Dionaea muscipula from the Carolinas coastal plain, grown as species or registered cultivar.",
+  "t":["typica","erecta","linearis","filiformis"],"s":OLD,"x":[
+  X("Dionaea muscipula","Venus flytrap · typical form","The species, native within about 100 km of Wilmington, North Carolina; first described by Arthur Dobbs in 1759 and named by John Ellis in 1768.",W+"Venus_flytrap",y="1768",
+    v=[("'South West Giant'","","",AGM),("'Flexx'","","",""),("'Maroon Monster'","","",""),("'Zipp'","","","")],dt="leaf form (typica, erecta, linearis, filiformis) · trap colour · rosette size"),
+  X("'Akai Ryu'","Red Dragon","All-red registered cultivar whose name is Japanese for 'Red Dragon'; "+AGM+".",VFL,y="1996",
+    v=[("'Akai Ryu'","Ron Gagliardo","1996","registrant")],dt="rosette size"),
+  X("'B52'","","Registered cultivar producing some of the largest traps of any cultivar.",VFL,v=[("'B52'","Barry Meyers-Rice","","registrant")],dt="trap size"),
+  X("'Dentate Traps'","'Dentate' · 'Dente'","Registered cultivar with short toothed trap margins, first published by Peter D'Amato as 'Dentate'.",VFL,y="2000",
+    v=[("'Dentate Traps'","Barry Meyers-Rice","2000","registrant")],dt="tooth form"),
+  X("'Red Piranha'","","Registered red cultivar.",VFL,y="1999",v=[("'Red Piranha'","Edward Read","1999","registrant")]),
+  X("'Cupped Trap'","","Registered cultivar with cupped traps.",VFL,y="2004",v=[("'Cupped Trap'","Steven Stewart","2004","registrant")]),
+  X("'Fused Tooth'","","Registered cultivar with fused trap teeth.",VFL,y="2004",v=[("'Fused Tooth'","Peter D'Amato & Thomas Carow","2004","registrants")]),
+  X("'Bohemian Garnet'","","Registered Czech cultivar.",VFL,y="2007",v=[("'Bohemian Garnet'","Miroslav Srba","2007","registrant")]),
+  X("'Sawtooth'","","Registered cultivar.",VFL,y="2000",v=[("'Sawtooth'","Barry Meyers-Rice","2000","registrant")]),
+  X("'Royal Red'","","Registered red cultivar.",VFL,v=[("'Royal Red'","Geoffrey Mansell","","registrant")]),
+  X("'Justina Davis'","","Registered all-green cultivar.",VFL,v=[("'Justina Davis'","Barry Meyers-Rice","","registrant")]),
+  X("'Wacky Traps'","","Registered cultivar with deformed traps.",VFL,v=[("'Wacky Traps'","Barry Meyers-Rice","","registrant")]),
+  X("'Clayton's Red Sunset'","","Registered red cultivar.",VFL,y="2004",v=[("'Clayton's Red Sunset'","Colin Clayton","2004","registrant")]),
+  ]},
+ {"n":"North American pitcher plant","a":"Sarracenia · trumpet pitcher · hooded pitcher","d":"Living North American pitcher plant of the genus Sarracenia, with upright or reclining tubular pitchers, grown as species, hybrid or cultivar.",
+  "t":["species","natural hybrid","cultivar"],"s":OLD,"x":[
+  X("Sarracenia flava","yellow pitcher plant","Tall yellow-green trumpet pitcher of the south-eastern US coastal plain (L., 1753).",W+"Sarracenia",y="1753",dt="pitcher colour and veining · height"),
+  X("Sarracenia purpurea","purple pitcher plant","Reclining-pitcher species of the eastern seaboard, Great Lakes and Canada (L., 1753); the hardiest species.",W+"Sarracenia",y="1753",
+    v=[("S. purpurea venosa","","",""),("S. purpurea 'Dracula'","","","")],dt="pitcher colour · subspecies"),
+  X("Sarracenia leucophylla","white pitcher plant","Species with white-topped, veined pitchers from the Florida Panhandle and Gulf states (Raf., 1817).",W+"Sarracenia",y="1817"),
+  X("Sarracenia rubra","sweet pitcher plant","Slender-pitchered species of the south-eastern US (Walt., 1788).",W+"Sarracenia",y="1788"),
+  X("Sarracenia alata","pale pitcher plant","Gulf Coast species from Louisiana to Alabama and Texas (Alph.Wood, 1863).",W+"Sarracenia",y="1863"),
+  X("Sarracenia minor","hooded pitcher plant","Hooded species of Florida, Georgia and the Carolinas (Walt., 1803).",W+"Sarracenia",y="1803"),
+  X("Sarracenia psittacina","parrot pitcher plant","Low reclining species with beak-like hoods (Michx., 1803).",W+"Sarracenia",y="1803"),
+  X("Sarracenia oreophila","green pitcher plant","Rare upland species of northern Alabama, Georgia and North Carolina.",W+"Sarracenia",y="1933"),
+  X("Sarracenia × moorei","S. flava × S. leucophylla","Natural hybrid of S. flava and S. leucophylla.",W+"Sarracenia",
+    v=[("'Brooks's Hybrid'","","",AGM),("'Conversation Piece'","","","")]),
+  X("Sarracenia × catesbaei","S. flava × S. purpurea","Natural hybrid of S. flava and S. purpurea.",W+"Sarracenia",v=[("'Violet'","","",AGM)]),
+  X("Sarracenia × mitchelliana","S. purpurea × S. leucophylla","Natural hybrid of S. purpurea and S. leucophylla.",W+"Sarracenia",v=[("'Victoria Morley'","","",AGM)]),
+  X("Sarracenia × farnhamii","S. leucophylla × S. rubra","Natural hybrid of S. leucophylla and S. rubra.",W+"Sarracenia"),
+  X("'Judith Hindle'","","Cultivar with slender erect pitchers about 40 cm tall and ruffled hoods, green darkening to deep pink with purple veins.",RHS+"327539/sarracenia-judith-hindle/details",dt="pitcher colour"),
+  X("'Redneck'","S. flava 'Redneck'","Cultivar listed by the RHS as Sarracenia 'Redneck'; sold as a S. flava selection with a red pitcher neck.",RHS+"304400/sarracenia-redneck/details"),
+  X("RHS AGM Sarracenia cultivars","","Sarracenia cultivars holding the "+AGM+".",W+"Sarracenia",
+    v=[("'Anna Carlisle'","","",""),("'Colin Clayton'","","",""),("'Dixie Lace'","","",""),("'Jenny Helen'","","",""),("'Juthatip Soper'","","",""),("'Vogel'","","","")]),
+  ]},
+ {"n":"Tropical pitcher plant","a":"Nepenthes · monkey cup","d":"Living tropical pitcher plant of the genus Nepenthes, a vine bearing hanging pitchers, grown as species, hybrid or cultivar.",
+  "t":["highland","lowland","intermediate"],"s":OLD,"x":[
+  X("Nepenthes × ventrata","N. alata × N. ventricosa","Natural Philippine hybrid of N. alata and N. ventricosa; the most widely sold Nepenthes, often labelled N. alata.",W+"Nepenthes_×_ventrata",dt="pitcher colour · basket size"),
+  X("'Bill Bailey'","N. singalana × N. ventricosa","Vigorous hybrid of N. singalana and N. ventricosa with chubby 10 cm dark red pitchers; "+AGM+".",RHS+"302109/nepenthes-bill-bailey/details",dt="pitcher colour · basket size"),
+  X("Nepenthes rajah","giant Malaysian pitcher plant","Endangered Mount Kinabalu species with pitchers up to 41 cm high, described by Hooker in 1859; CITES Appendix I; grown from tissue culture.",W+"Nepenthes_rajah",y="1859",dt="plant size"),
+  X("Nepenthes ventricosa","","Easy highland species from the Philippines, parent of many hybrids.",W+"Nepenthes"),
+  X("Nepenthes alata","","Easy highland species with lowland forms.",W+"Nepenthes"),
+  X("Nepenthes attenboroughii","","Species with an upright lid, so pitchers often fill with rain.",W+"Nepenthes"),
+  X("Named Nepenthes hybrids","","Hybrids and cultivars sold under their own names.",W+"Nepenthes",
+    v=[("'Miranda'","","",""),("'Bill'","","",""),("'Black Miracle'","","",""),("'Bloody Mary'","","",""),("'Diane'","","",""),("'Rob'","","",""),("'St Gaya'","","","")]),
+  ]},
+ {"n":"Sundew","a":"Drosera","d":"Living sundew of the genus Drosera, with leaves covered in sticky glandular tentacles; at least 194 species on every continent but Antarctica.",
+  "t":["temperate","subtropical","pygmy","tuberous","petiolaris complex"],"s":OLD,"x":[
+  X("Drosera capensis","Cape sundew","South African sundew, one of the hardiest in mainstream nurseries; leaves curl round prey in about 30 minutes.",W+"Drosera",dt="leaf colour · rosette size"),
+  X("Drosera rotundifolia","round-leaved sundew","Temperate northern-hemisphere species forming a winter hibernaculum.",W+"Drosera"),
+  X("Drosera binata","forked sundew","Species with needle-like, forked leaves.",W+"Drosera"),
+  X("Drosera aliciae","","One of the hardiest sundews commonly found in nurseries.",W+"Drosera"),
+  X("Drosera regia","king sundew","South African species with flowers 4 cm or more across.",W+"Drosera"),
+  X("Drosera adelae","","Queensland rainforest sundew with red flowers that sprouts plantlets from its roots.",W+"Drosera"),
+  X("Pygmy sundews","subgenus Bryastrum","About 40 miniature Australian species that reproduce by gemmae.",W+"Drosera"),
+  X("Tuberous sundews","subgenus Ergaleium","Nearly 50 Australian species that survive dry summers as tubers; rosette or climbing.",W+"Drosera"),
+  ]},
+ {"n":"Butterwort","a":"Pinguicula","d":"Living butterwort of the genus Pinguicula, with flat sticky leaves in a rosette; about 126 species, centred on Mexico and Central America.",
+  "t":["tropical heterophyllous","tropical homophyllous","temperate heterophyllous","temperate homophyllous"],"s":OLD,"x":[
+  X("Pinguicula moranensis","Mexican butterwort","Tropical Mexican species with seasonal rosettes; widely grown.",W+"Pinguicula"),
+  X("Pinguicula gigantea","","Tropical species with uniform year-round carnivorous rosettes.",W+"Pinguicula"),
+  X("Pinguicula esseriana","","Mexican species grown in greenhouses.",W+"Pinguicula"),
+  X("Pinguicula vulgaris","common butterwort","Temperate species with identical rosettes.",W+"Pinguicula"),
+  X("Pinguicula grandiflora","large-flowered butterwort","Temperate European species.",W+"Pinguicula"),
+  X("P. ehlersiae × moranensis hybrids","","Widely grown hybrids of P. ehlersiae and P. moranensis, used by orchid nurseries against pests.",W+"Pinguicula",
+    v=[("'Sethos'","","",""),("'Weser'","","","")]),
+  ]},
+ {"n":"Albany pitcher plant","a":"Cephalotus · Cephalotus follicularis · Australian pitcher plant","d":"Living Albany pitcher plant, the single species Cephalotus follicularis from south-west Western Australia, with small squat pitchers.",
+  "s":W+"Cephalotus","x":[
+  X("Cephalotus follicularis","","Only species of its genus, endemic to swamps between Augusta and Cape Riche; described by Labillardière in 1806.",W+"Cephalotus",y="1806",
+    v=[("'Eden Black'","","","unusually dark pitchers; one of nine registered cultivars")],dt="pitcher colour · pitcher size"),
+  ]},
+ {"n":"Sun pitcher","a":"Heliamphora · marsh pitcher plant","d":"Living marsh or sun pitcher of the genus Heliamphora, 24 species from the tepuis of the Guiana Highlands.",
+  "t":["highland","lowland"],"s":W+"Heliamphora","x":[
+  X("Heliamphora nutans","","First species described (Bentham, 1840), a highland tepui plant.",W+"Heliamphora",y="1840"),
+  X("Heliamphora minor","","One of the smallest species, leaves only a few centimetres tall (Gleason, 1939).",W+"Heliamphora",y="1939",v=[("var. pilosa","","","")]),
+  X("Heliamphora heterodoxa","","Lowland species of the grasslands at the foot of the tepuis (Steyermark, 1951).",W+"Heliamphora",y="1951"),
+  X("Heliamphora pulchella","","Species close to H. minor, known for its flowers (Wistuba et al., 2005).",W+"Heliamphora",y="2005"),
+  X("Registered Heliamphora cultivars","","The four registered Heliamphora cultivars.",W+"Heliamphora",
+    v=[("'Cyclops'","A. Smith","",""),("'Patasola'","B. Tincher & J. Lei","",""),("'Red Mambo'","F. Boulianne","",""),("'Scylla'","I. Bogdanow","","")]),
+  ]},
+ {"n":"Cobra lily","a":"Darlingtonia californica · cobra plant · California pitcher plant","d":"Living cobra lily, Darlingtonia californica, a hooded tubular pitcher plant of cold seeps in northern California and Oregon.",
+  "s":W+"Darlingtonia_californica","x":[
+  X("Darlingtonia californica","cobra lily","Only species of its genus, described by John Torrey in 1853; hooded pitchers with false exits.",W+"Darlingtonia_californica",y="1853",
+    v=[("f. californica","","","typical form"),("f. viridiflora","","","")],dt="colour (all-green, all-red, red-green) · heat-tolerant selections"),
+  ]},
+ {"n":"Bladderwort","a":"Utricularia","d":"Living bladderwort of the genus Utricularia, about 233 species with tiny suction bladder traps; terrestrial, aquatic or epiphytic.",
+  "t":["terrestrial","aquatic","epiphytic"],"s":W+"Utricularia","x":[
+  X("Utricularia sandersonii","","Terrestrial species with very small traps, grown for its flowers.",W+"Utricularia"),
+  X("Utricularia vulgaris","common bladderwort","Eurasian aquatic species forming branching rafts in ponds.",W+"Utricularia"),
+  X("Utricularia gibba","","Small aquatic species used as a research model.",W+"Utricularia"),
+  ]},
+]
+w('C3','04_00',{"kinds":kinds,"brands":[],"traditions":[],"notes":"All five old kinds kept with old s; four new kinds (Albany pitcher plant, Sun pitcher, Cobra lily, Bladderwort) on Wikipedia. Old flytrap SKUs ('Flexx', 'Maroon Monster', 'Zipp') kept as versions of the species; old Sarracenia and Nepenthes models placed as versions. 'Redneck' kept under the RHS name Sarracenia 'Redneck' (species assignment disputed). Breeders are individuals, so no brand entries; Borneo Exotics/Rob Cantley left out (only in search snippets). ICPS register pages not retrieved; registrants come from the Wikipedia cultivar list. No traditions."})
