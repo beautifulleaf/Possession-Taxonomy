@@ -1,0 +1,796 @@
+{
+ "kinds": [
+  {
+   "n": "3D printer",
+   "a": "",
+   "d": "Machine that builds objects layer by layer, from melted filament (FDM) or light-cured resin.",
+   "t": [
+    "FDM / FFF",
+    "resin (MSLA, LCD)",
+    "resin (laser SLA)",
+    "self-build kit",
+    "enclosed CoreXY",
+    "multi-material"
+   ],
+   "s": "https://us.store.bambulab.com/collections/3d-printer",
+   "x": [
+    {
+     "n": "RepRap",
+     "a": "",
+     "d": "Open-source self-replicating printer project from the University of Bath that started the home 3D-printing movement.",
+     "mk": "",
+     "y": "2005",
+     "s": "https://en.wikipedia.org/wiki/RepRap",
+     "v": [
+      {
+       "n": "RepRap 1.0 Darwin",
+       "mk": "",
+       "y": "2008",
+       "d": "first generation"
+      },
+      {
+       "n": "Mendel",
+       "mk": "",
+       "y": "2009",
+       "d": "second generation"
+      },
+      {
+       "n": "Huxley",
+       "mk": "",
+       "y": "2010",
+       "d": "miniature Mendel"
+      },
+      {
+       "n": "Rostock",
+       "mk": "",
+       "y": "2012",
+       "d": "first successful delta design"
+      }
+     ],
+     "dt": "open hardware · self-printed parts"
+    },
+    {
+     "n": "MakerBot Replicator",
+     "a": "",
+     "d": "MakerBot's desktop FDM line that brought ready-built printers to homes and schools.",
+     "mk": "MakerBot",
+     "y": "2012",
+     "s": "https://en.wikipedia.org/wiki/MakerBot",
+     "v": [
+      {
+       "n": "Cupcake CNC",
+       "mk": "MakerBot",
+       "y": "2009",
+       "d": "predecessor kit"
+      },
+      {
+       "n": "Thing-O-Matic",
+       "mk": "MakerBot",
+       "y": "2010",
+       "d": "predecessor kit"
+      },
+      {
+       "n": "Replicator",
+       "mk": "MakerBot",
+       "y": "2012"
+      },
+      {
+       "n": "Replicator 2",
+       "mk": "MakerBot",
+       "y": "2012"
+      },
+      {
+       "n": "5th Generation Replicator",
+       "mk": "MakerBot",
+       "y": "2014"
+      },
+      {
+       "n": "Replicator Mini",
+       "mk": "MakerBot",
+       "y": "2014"
+      },
+      {
+       "n": "Replicator Z18",
+       "mk": "MakerBot",
+       "y": "2014"
+      },
+      {
+       "n": "Replicator+",
+       "mk": "MakerBot",
+       "y": "2016"
+      },
+      {
+       "n": "METHOD",
+       "mk": "MakerBot",
+       "y": "2018"
+      }
+     ],
+     "dt": "build volume · single or dual extrusion"
+    },
+    {
+     "n": "Prusa i3",
+     "a": "Original Prusa",
+     "d": "Josef Průša's RepRap-derived open FDM printer, sold as kits and assembled by Prusa Research.",
+     "mk": "Prusa Research",
+     "y": "2012",
+     "s": "https://en.wikipedia.org/wiki/Prusa_i3",
+     "v": [
+      {
+       "n": "Prusa i3 (MK0)",
+       "mk": "Prusa Research",
+       "y": "2012",
+       "d": "original design"
+      },
+      {
+       "n": "MK1",
+       "mk": "Prusa Research",
+       "y": "2015",
+       "d": "1.75 mm filament"
+      },
+      {
+       "n": "MK2",
+       "mk": "Prusa Research",
+       "y": "2016",
+       "d": "mesh bed levelling"
+      },
+      {
+       "n": "MK2S",
+       "mk": "Prusa Research",
+       "y": "2017"
+      },
+      {
+       "n": "MK3",
+       "mk": "Prusa Research",
+       "y": "2017"
+      },
+      {
+       "n": "MK3S",
+       "mk": "Prusa Research",
+       "y": "2019"
+      },
+      {
+       "n": "MK3S+",
+       "mk": "Prusa Research",
+       "y": "2020"
+      },
+      {
+       "n": "MK4",
+       "mk": "Prusa Research",
+       "y": "2023",
+       "d": "load-cell levelling"
+      },
+      {
+       "n": "Original Prusa MK4S",
+       "mk": "Prusa Research",
+       "y": "2024"
+      },
+      {
+       "n": "Original Prusa MINI",
+       "mk": "Prusa Research",
+       "d": "cantilever sibling"
+      },
+      {
+       "n": "Original Prusa XL",
+       "mk": "Prusa Research",
+       "d": "CoreXY, large format"
+      },
+      {
+       "n": "Prusa CORE One",
+       "mk": "Prusa Research",
+       "y": "2024",
+       "d": "enclosed CoreXY successor"
+      }
+     ],
+     "dt": "kit or assembled · MMU multi-material add-on"
+    },
+    {
+     "n": "Creality Ender 3",
+     "a": "Ender-3",
+     "d": "Low-cost open-frame FDM printer widely used as an entry machine.",
+     "mk": "Creality",
+     "y": "2018",
+     "s": "https://en.wikipedia.org/wiki/Creality",
+     "v": [
+      {
+       "n": "Creality CR-10",
+       "mk": "Creality",
+       "y": "2016",
+       "d": "larger forerunner"
+      },
+      {
+       "n": "Ender 3",
+       "mk": "Creality",
+       "y": "2018"
+      },
+      {
+       "n": "Ender 3 Pro",
+       "mk": "Creality",
+       "y": "2018"
+      },
+      {
+       "n": "Ender 3 V2",
+       "mk": "Creality",
+       "y": "2020"
+      },
+      {
+       "n": "Ender 3 S1",
+       "mk": "Creality",
+       "y": "2021"
+      },
+      {
+       "n": "Ender 3 V3",
+       "mk": "Creality",
+       "y": "2024"
+      }
+     ],
+     "dt": "kit · upgrades widely sold"
+    },
+    {
+     "n": "Bambu Lab X1 / P1 / A1",
+     "a": "Bambu",
+     "d": "Fast, largely automatic consumer FDM printers with optional multi-colour feeding.",
+     "mk": "Bambu Lab",
+     "y": "2022",
+     "s": "https://en.wikipedia.org/wiki/Bambu_Lab",
+     "v": [
+      {
+       "n": "X1",
+       "mk": "Bambu Lab",
+       "y": "2022",
+       "d": "enclosed CoreXY flagship"
+      },
+      {
+       "n": "P1P",
+       "mk": "Bambu Lab",
+       "y": "2022"
+      },
+      {
+       "n": "P1S",
+       "mk": "Bambu Lab",
+       "y": "2023"
+      },
+      {
+       "n": "X1E",
+       "mk": "Bambu Lab",
+       "y": "2023"
+      },
+      {
+       "n": "A1 mini",
+       "mk": "Bambu Lab",
+       "y": "2023"
+      },
+      {
+       "n": "A1",
+       "mk": "Bambu Lab",
+       "y": "2023",
+       "d": "bed-slinger"
+      },
+      {
+       "n": "H2D",
+       "mk": "Bambu Lab",
+       "y": "2025"
+      },
+      {
+       "n": "H2S",
+       "mk": "Bambu Lab",
+       "y": "2025"
+      },
+      {
+       "n": "P2S",
+       "mk": "Bambu Lab",
+       "y": "2025"
+      },
+      {
+       "n": "H2C",
+       "mk": "Bambu Lab",
+       "y": "2025"
+      },
+      {
+       "n": "X2D",
+       "mk": "Bambu Lab",
+       "y": "2026"
+      },
+      {
+       "n": "A2L",
+       "mk": "Bambu Lab",
+       "y": "2026"
+      }
+     ],
+     "dt": "AMS multi-colour unit · enclosure"
+    },
+    {
+     "n": "Voron",
+     "a": "",
+     "d": "Open-source high-speed CoreXY printers that owners build from sourced parts or kits.",
+     "mk": "Voron Design",
+     "y": "2015",
+     "s": "https://en.wikipedia.org/wiki/Voron_Design",
+     "v": [
+      {
+       "n": "Voron 1",
+       "mk": "Voron Design",
+       "y": "c. 2015–2016",
+       "d": "original design"
+      },
+      {
+       "n": "Voron 2.4",
+       "mk": "Voron Design",
+       "y": "2020",
+       "d": "four-corner Z"
+      },
+      {
+       "n": "Voron 2.4R2",
+       "mk": "Voron Design",
+       "y": "2022"
+      },
+      {
+       "n": "Voron Trident",
+       "mk": "Voron Design",
+       "y": "2021",
+       "d": "fixed gantry, three Z motors"
+      },
+      {
+       "n": "Voron 0.1",
+       "mk": "Voron Design",
+       "y": "2021",
+       "d": "small 120 mm"
+      },
+      {
+       "n": "Voron 0.2",
+       "mk": "Voron Design",
+       "y": "2023"
+      },
+      {
+       "n": "Voron Switchwire",
+       "mk": "Voron Design"
+      },
+      {
+       "n": "Voron Legacy",
+       "mk": "Voron Design",
+       "d": "recreation of Voron 1"
+      }
+     ],
+     "dt": "build size · kit vendor"
+    },
+    {
+     "n": "Elegoo Mars",
+     "a": "",
+     "d": "Low-cost LCD resin printer line from Elegoo.",
+     "mk": "Elegoo",
+     "y": "2017",
+     "s": "https://www.3dnatives.com/3d-materials/en/3d-printers/elegoo-mars/",
+     "v": [
+      {
+       "n": "Mars",
+       "mk": "Elegoo",
+       "y": "2017"
+      },
+      {
+       "n": "Mars 2",
+       "mk": "Elegoo"
+      },
+      {
+       "n": "Mars 2 Pro",
+       "mk": "Elegoo"
+      },
+      {
+       "n": "Mars 3 Pro",
+       "mk": "Elegoo"
+      },
+      {
+       "n": "Mars 3 Ultra",
+       "mk": "Elegoo"
+      },
+      {
+       "n": "Elegoo Mars 5 Ultra",
+       "mk": "Elegoo"
+      }
+     ],
+     "dt": "LCD resolution · build volume"
+    },
+    {
+     "n": "Anycubic Photon",
+     "a": "",
+     "d": "Anycubic's LCD resin printer line, priced near budget FDM machines.",
+     "mk": "Anycubic",
+     "y": "2018",
+     "s": "https://all3dp.com/1/anycubic-photon-mono-review-3d-printer-specs/?critical=1",
+     "v": [
+      {
+       "n": "Photon",
+       "mk": "Anycubic",
+       "y": "2018",
+       "d": "first Anycubic resin printer"
+      },
+      {
+       "n": "Photon S",
+       "mk": "Anycubic"
+      },
+      {
+       "n": "Photon Zero",
+       "mk": "Anycubic"
+      },
+      {
+       "n": "Photon Mono",
+       "mk": "Anycubic",
+       "d": "monochrome LCD"
+      },
+      {
+       "n": "Photon Mono X",
+       "mk": "Anycubic"
+      },
+      {
+       "n": "Photon Mono SE",
+       "mk": "Anycubic"
+      }
+     ],
+     "dt": "monochrome or RGB LCD · resolution"
+    },
+    {
+     "n": "Formlabs Form",
+     "a": "",
+     "d": "Desktop stereolithography printers that brought laser resin printing to studios and prosumers.",
+     "mk": "Formlabs",
+     "y": "2013",
+     "s": "https://en.wikipedia.org/wiki/Formlabs",
+     "v": [
+      {
+       "n": "Form 1",
+       "mk": "Formlabs",
+       "y": "2013",
+       "d": "laser SLA"
+      },
+      {
+       "n": "Form 1+",
+       "mk": "Formlabs",
+       "y": "2014"
+      },
+      {
+       "n": "Form 2",
+       "mk": "Formlabs",
+       "y": "2015"
+      },
+      {
+       "n": "Form 3",
+       "mk": "Formlabs",
+       "y": "2019",
+       "d": "Low Force Stereolithography"
+      },
+      {
+       "n": "Form 4",
+       "mk": "Formlabs",
+       "y": "2024",
+       "d": "LCD light source"
+      }
+     ],
+     "dt": "resin cartridges · build size"
+    }
+   ],
+   "m": [
+    [
+     "Creality K1",
+     "Creality"
+    ],
+    [
+     "Elegoo Saturn 4 Ultra 16K",
+     "Elegoo"
+    ],
+    [
+     "Elegoo Centauri Carbon",
+     "Elegoo"
+    ],
+    [
+     "Elegoo Neptune 4 Pro",
+     "Elegoo"
+    ],
+    [
+     "Elegoo Neptune 4",
+     "Elegoo"
+    ],
+    [
+     "Elegoo Neptune 4 Plus",
+     "Elegoo"
+    ],
+    [
+     "Elegoo Neptune 4 Max",
+     "Elegoo"
+    ],
+    [
+     "Elegoo Neptune 3 Pro",
+     "Elegoo"
+    ],
+    [
+     "Elegoo Neptune 3 Plus",
+     "Elegoo"
+    ],
+    [
+     "Elegoo Neptune 3 Max",
+     "Elegoo"
+    ],
+    [
+     "Elegoo Jupiter",
+     "Elegoo"
+    ],
+    [
+     "Elegoo OrangeStorm Giga",
+     "Elegoo"
+    ]
+   ]
+  },
+  {
+   "n": "3D-printer filament",
+   "a": "",
+   "d": "Spooled plastic filament fed into FDM 3D printers.",
+   "t": [
+    "PLA",
+    "PETG",
+    "ABS",
+    "ASA",
+    "TPU",
+    "nylon (PA)",
+    "polycarbonate",
+    "carbon- or glass-fibre filled",
+    "silk / matte / high-speed PLA"
+   ],
+   "s": "https://shop.polymaker.com/fr/collections/filament-pla?page=1",
+   "m": [
+    [
+     "PolyLite PLA",
+     "Polymaker"
+    ],
+    [
+     "PolyMax PLA",
+     "Polymaker"
+    ],
+    [
+     "Polymaker PLA Pro",
+     "Polymaker"
+    ],
+    [
+     "Polymaker HT-PLA",
+     "Polymaker"
+    ],
+    [
+     "Panchroma Basic PLA",
+     "Polymaker"
+    ],
+    [
+     "Panchroma Matte PLA",
+     "Polymaker"
+    ],
+    [
+     "Panchroma Silk PLA",
+     "Polymaker"
+    ],
+    [
+     "Panchroma Neon PLA",
+     "Polymaker"
+    ],
+    [
+     "Sunlu High Speed PLA",
+     "Sunlu"
+    ],
+    [
+     "Soleyin Ultra PLA",
+     "Creality"
+    ]
+   ]
+  },
+  {
+   "n": "3D-printing resin",
+   "a": "photopolymer resin",
+   "d": "Light-cured liquid photopolymer for MSLA, DLP and SLA resin printers.",
+   "t": [
+    "standard",
+    "ABS-like",
+    "water-washable",
+    "plant-based",
+    "tough / rigid"
+   ],
+   "s": "https://clevercreations.org/best-3d-printer-resin-brand-3d-printing-resins/",
+   "m": [
+    [
+     "Siraya Tech Fast ABS-Like Resin",
+     "Siraya Tech"
+    ],
+    [
+     "Siraya Tech Blu",
+     "Siraya Tech"
+    ],
+    [
+     "ABS-Like Resin",
+     "Elegoo"
+    ],
+    [
+     "Water Washable Resin",
+     "Elegoo"
+    ],
+    [
+     "Plant-Based Rapid Resin",
+     "Anycubic"
+    ],
+    [
+     "Onyx Rigid Pro 410",
+     "Phrozen"
+    ],
+    [
+     "NOVA3D Printer Resin",
+     "NOVA3D"
+    ]
+   ]
+  },
+  {
+   "n": "3D-printer upgrade parts",
+   "a": "hotend · nozzle · extruder",
+   "d": "Replacement or upgrade parts for a 3D printer: hotends, nozzles, extruders and build plates.",
+   "t": [
+    "hotend",
+    "nozzle",
+    "extruder",
+    "build plate"
+   ],
+   "s": "https://www.tinymachines3d.com/products/e3d-revo-six-hotend-rapid-change",
+   "x": [
+    {
+     "n": "E3D V6",
+     "a": "",
+     "d": "Groove-mount all-metal hotend from E3D.",
+     "mk": "E3D",
+     "y": "",
+     "s": "https://www.tinymachines3d.com/products/e3d-revo-six-hotend-rapid-change",
+     "v": [
+      {
+       "n": "Revo Six",
+       "mk": "E3D",
+       "d": "drop-in V6 replacement with tool-free Revo nozzles; 12 V or 24 V"
+      }
+     ],
+     "dt": "voltage · nozzle size"
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Prusa Research",
+   "c": "Czech Republic",
+   "seg": "Premium",
+   "kf": "Original Prusa",
+   "d": "Prague company of Josef Průša making the Original Prusa i3 line and its successors.",
+   "lines": [
+    "Original Prusa",
+    "CORE One"
+   ],
+   "sig": [
+    "Prusa i3"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Prusa_i3"
+  },
+  {
+   "n": "MakerBot",
+   "c": "USA",
+   "f": "2009",
+   "seg": "Mainstream",
+   "kf": "Replicator",
+   "d": "New York desktop-printer pioneer, bought by Stratasys in 2013 and merged with Ultimaker in 2022.",
+   "sig": [
+    "MakerBot Replicator"
+   ],
+   "s": "https://en.wikipedia.org/wiki/MakerBot"
+  },
+  {
+   "n": "Bambu Lab",
+   "c": "China",
+   "f": "2020",
+   "seg": "Premium",
+   "kf": "fast FDM",
+   "d": "Shenzhen maker of fast, multi-colour consumer FDM printers.",
+   "lines": [
+    "X1",
+    "P1",
+    "A1",
+    "H2"
+   ],
+   "sig": [
+    "Bambu Lab X1 / P1 / A1"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Bambu_Lab"
+  },
+  {
+   "n": "Creality",
+   "c": "China",
+   "f": "2014",
+   "seg": "Value",
+   "kf": "Ender 3",
+   "d": "Shenzhen maker of low-cost FDM printers including the Ender and CR series.",
+   "lines": [
+    "Ender",
+    "CR",
+    "K1"
+   ],
+   "sig": [
+    "Creality Ender 3"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Creality"
+  },
+  {
+   "n": "Formlabs",
+   "c": "USA",
+   "f": "2011",
+   "seg": "Professional & flagship",
+   "kf": "desktop SLA",
+   "d": "Somerville, Massachusetts maker of Form resin printers.",
+   "sig": [
+    "Formlabs Form"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Formlabs"
+  },
+  {
+   "n": "Voron Design",
+   "f": "2015",
+   "seg": "Artisan & independent",
+   "kf": "open-source CoreXY",
+   "d": "Open-hardware project founded by Maksim Zolin that publishes the Voron printer designs.",
+   "sig": [
+    "Voron"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Voron_Design"
+  },
+  {
+   "n": "Elegoo",
+   "c": "China",
+   "seg": "Value",
+   "kf": "resin printers",
+   "d": "Shenzhen maker of low-cost resin and FDM printers and resins.",
+   "lines": [
+    "Mars",
+    "Saturn",
+    "Neptune"
+   ],
+   "sig": [
+    "Elegoo Mars"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Anycubic",
+   "c": "China",
+   "seg": "Value",
+   "kf": "resin printers",
+   "d": "Chinese maker of Photon resin printers, Kobra FDM printers and resins.",
+   "lines": [
+    "Photon"
+   ],
+   "sig": [
+    "Anycubic Photon"
+   ],
+   "s": "https://all3dp.com/1/anycubic-photon-mono-review-3d-printer-specs/?critical=1"
+  },
+  {
+   "n": "E3D",
+   "c": "United Kingdom",
+   "seg": "Specialist",
+   "kf": "hotends",
+   "d": "British maker of 3D-printer hotends and nozzles.",
+   "sig": [
+    "E3D V6"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Polymaker",
+   "c": "China",
+   "seg": "Mainstream",
+   "kf": "filament",
+   "d": "Filament maker selling PolyLite, PolyMax and Panchroma lines.",
+   "lines": [
+    "PolyLite",
+    "PolyMax",
+    "Panchroma"
+   ],
+   "s": "knowledge"
+  }
+ ],
+ "traditions": [],
+ "notes": "Both old kinds kept (k76, k77); two planned new kinds added (resin, upgrade parts). Old flat printer models folded into Bambu Lab, Prusa i3 and Elegoo Mars archetype versions; Elegoo Neptune/Saturn/others stay in m. Not added for lack of a retrieved page: Prusament, eSun and Bambu filament, Bondtech extruders, Micro Swiss, E3D V6 year, Elegoo Saturn line as archetype, Anycubic Mono years."
+}

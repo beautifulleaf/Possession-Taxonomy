@@ -1,0 +1,513 @@
+{
+ "kinds": [
+  {
+   "n": "Security key",
+   "a": "hardware security key · FIDO key · U2F key · passkey key",
+   "d": "Small device plugged in or tapped to prove identity when signing in.",
+   "t": [
+    "USB-A",
+    "USB-C",
+    "NFC",
+    "biometric"
+   ],
+   "s": "https://yubico.com:443/products/security-key",
+   "x": [
+    {
+     "n": "YubiKey",
+     "a": "",
+     "d": "Yubico's multi-protocol hardware key (FIDO, OTP, smart card), the reference personal security key.",
+     "mk": "Yubico",
+     "y": "2008",
+     "s": "https://en.wikipedia.org/wiki/YubiKey",
+     "v": [
+      {
+       "n": "YubiKey",
+       "mk": "Yubico",
+       "y": "2008",
+       "d": "original"
+      },
+      {
+       "n": "YubiKey 2.0",
+       "mk": "Yubico",
+       "y": "2009",
+       "d": ""
+      },
+      {
+       "n": "YubiKey NEO",
+       "mk": "Yubico",
+       "y": "2012",
+       "d": "sold to 2018"
+      },
+      {
+       "n": "YubiKey 4",
+       "mk": "Yubico",
+       "y": "2015",
+       "d": "4C USB-C version 2017"
+      },
+      {
+       "n": "YubiKey 5 Series",
+       "mk": "Yubico",
+       "y": "2018",
+       "d": "current flagship: 5 NFC, 5C, 5C NFC, 5Ci, 5 Nano, 5C Nano"
+      },
+      {
+       "n": "YubiKey 5 FIPS Series",
+       "mk": "Yubico",
+       "y": "",
+       "d": "FIPS-certified versions of the 5 Series"
+      },
+      {
+       "n": "YubiKey Bio - FIDO Edition",
+       "mk": "Yubico",
+       "y": "2021",
+       "d": "fingerprint reader; USB-A and USB-C"
+      }
+     ],
+     "dt": "USB-A, USB-C, Lightning · NFC · nano (stays in port) · FIPS"
+    },
+    {
+     "n": "Yubico Security Key",
+     "a": "",
+     "d": "Low-cost FIDO-only key from Yubico.",
+     "mk": "Yubico",
+     "y": "2018",
+     "s": "https://en.wikipedia.org/wiki/YubiKey",
+     "v": [
+      {
+       "n": "Security Key",
+       "mk": "Yubico",
+       "y": "2018",
+       "d": "FIDO U2F/FIDO2"
+      },
+      {
+       "n": "Security Key NFC",
+       "mk": "Yubico",
+       "y": "2023",
+       "d": "current"
+      },
+      {
+       "n": "Security Key C NFC",
+       "mk": "Yubico",
+       "y": "",
+       "d": "USB-C"
+      }
+     ]
+    },
+    {
+     "n": "Google Titan Security Key",
+     "a": "",
+     "d": "Google's FIDO security key, used to protect Google accounts.",
+     "mk": "Google",
+     "y": "2019",
+     "s": "https://en.wikipedia.org/wiki/Titan_Security_Key",
+     "v": [
+      {
+       "n": "Titan Bluetooth (T1/T2)",
+       "mk": "Google",
+       "y": "",
+       "d": "discontinued 2021"
+      },
+      {
+       "n": "Titan USB-A/NFC (K9T)",
+       "mk": "Google",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Titan USB-C/NFC (YT1)",
+       "mk": "Google",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Titan (K52T)",
+       "mk": "Google",
+       "y": "2023",
+       "d": "v2, stores up to 250 passkeys"
+      }
+     ]
+    },
+    {
+     "n": "Nitrokey",
+     "a": "",
+     "d": "German open-source hardware and software security keys for encryption, signing and login.",
+     "mk": "Nitrokey",
+     "y": "2015",
+     "s": "https://en.wikipedia.org/wiki/Nitrokey",
+     "v": [
+      {
+       "n": "Nitrokey Pro 2",
+       "mk": "Nitrokey",
+       "y": "",
+       "d": "OpenPGP"
+      },
+      {
+       "n": "Nitrokey Start",
+       "mk": "Nitrokey",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Nitrokey Storage 2",
+       "mk": "Nitrokey",
+       "y": "",
+       "d": "with encrypted storage"
+      },
+      {
+       "n": "Nitrokey FIDO2",
+       "mk": "Nitrokey",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Nitrokey 3",
+       "mk": "Nitrokey",
+       "y": "",
+       "d": "current"
+      }
+     ]
+    },
+    {
+     "n": "SoloKeys Solo",
+     "a": "",
+     "d": "FIDO2 key whose firmware is published for developers.",
+     "mk": "SoloKeys",
+     "y": "",
+     "s": "https://solokeys.com/collections/solo-2-secure",
+     "v": [
+      {
+       "n": "Solo 2 USB-A",
+       "mk": "SoloKeys",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Solo 2C",
+       "mk": "SoloKeys",
+       "y": "",
+       "d": "USB-C"
+      },
+      {
+       "n": "Solo 2A+ NFC",
+       "mk": "SoloKeys",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Solo 2C+ NFC",
+       "mk": "SoloKeys",
+       "y": "",
+       "d": ""
+      }
+     ]
+    },
+    {
+     "n": "Feitian ePass FIDO",
+     "a": "",
+     "d": "Inexpensive FIDO key range sold in many casings.",
+     "mk": "Feitian",
+     "y": "",
+     "s": "https://fido.ftsafe.com/products-epass-fido/",
+     "v": [
+      {
+       "n": "ePass FIDO K8",
+       "mk": "Feitian",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "ePass FIDO A4B",
+       "mk": "Feitian",
+       "y": "",
+       "d": "USB-A"
+      },
+      {
+       "n": "ePass FIDO K10",
+       "mk": "Feitian",
+       "y": "",
+       "d": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Hardware wallet",
+   "a": "cold wallet · crypto wallet",
+   "d": "Device that holds cryptocurrency keys offline and signs transactions.",
+   "t": [
+    "USB",
+    "Bluetooth",
+    "air-gapped (QR / microSD)",
+    "Bitcoin-only",
+    "multi-coin"
+   ],
+   "s": "https://shop.ledger.com/pages/hardware-wallet",
+   "x": [
+    {
+     "n": "Trezor",
+     "a": "",
+     "d": "The first Bitcoin hardware wallet, from SatoshiLabs; open-source design.",
+     "mk": "Trezor",
+     "y": "2014",
+     "s": "https://coindesk.com/learn/trezor",
+     "v": [
+      {
+       "n": "Trezor Model One",
+       "mk": "Trezor",
+       "y": "2014",
+       "d": "two buttons and a screen"
+      },
+      {
+       "n": "Trezor Model T",
+       "mk": "Trezor",
+       "y": "",
+       "d": "touchscreen"
+      },
+      {
+       "n": "Trezor Safe 3",
+       "mk": "Trezor",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Trezor Safe 5",
+       "mk": "Trezor",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Trezor Safe 7",
+       "mk": "Trezor",
+       "y": "",
+       "d": ""
+      }
+     ]
+    },
+    {
+     "n": "Ledger Nano",
+     "a": "",
+     "d": "Ledger's USB-stick-sized hardware wallet line, the best-selling family.",
+     "mk": "Ledger",
+     "y": "2016",
+     "s": "https://fortune.com/ranking/crypto/2023/ledger",
+     "v": [
+      {
+       "n": "Nano S",
+       "mk": "Ledger",
+       "y": "2016",
+       "d": "first Ledger wallet"
+      },
+      {
+       "n": "Nano X",
+       "mk": "Ledger",
+       "y": "2019",
+       "d": ""
+      },
+      {
+       "n": "Nano S Plus",
+       "mk": "Ledger",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Nano Gen5",
+       "mk": "Ledger",
+       "y": "",
+       "d": ""
+      }
+     ]
+    },
+    {
+     "n": "Ledger Stax",
+     "a": "",
+     "d": "Ledger wallet designed with Tony Fadell.",
+     "mk": "Ledger",
+     "y": "2022",
+     "s": "https://fortune.com/ranking/crypto/2023/ledger",
+     "v": [
+      {
+       "n": "Ledger Stax",
+       "mk": "Ledger",
+       "y": "2022",
+       "d": ""
+      },
+      {
+       "n": "Ledger Flex",
+       "mk": "Ledger",
+       "y": "",
+       "d": ""
+      }
+     ]
+    },
+    {
+     "n": "Coldcard",
+     "a": "",
+     "d": "Bitcoin-only hardware wallet built for air-gapped signing.",
+     "mk": "Coinkite",
+     "y": "",
+     "s": "https://athenaalpha.substack.com/p/coldcard-mk4-review-2024-pros-cons",
+     "v": [
+      {
+       "n": "Coldcard Mk3",
+       "mk": "Coinkite",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Coldcard Mk4",
+       "mk": "Coinkite",
+       "y": "2022",
+       "d": "microSD and NFC signing"
+      }
+     ]
+    },
+    {
+     "n": "BitBox02",
+     "a": "",
+     "d": "USB-C hardware wallet with open-source hardware, in Bitcoin-only and multi-coin editions.",
+     "mk": "Shift Crypto",
+     "y": "",
+     "s": "https://www.spark.money/tools/coldcard-vs-bitbox-comparison",
+     "v": [
+      {
+       "n": "BitBox02 Bitcoin-only",
+       "mk": "Shift Crypto",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "BitBox02 Multi",
+       "mk": "Shift Crypto",
+       "y": "",
+       "d": ""
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Yubico",
+   "c": "Sweden",
+   "f": "2007",
+   "seg": "Professional & flagship",
+   "kf": "security keys",
+   "d": "Stockholm maker of the YubiKey, founded by Jakob and Stina Ehrensvärd.",
+   "s": "https://en.wikipedia.org/wiki/YubiKey",
+   "lines": [
+    "YubiKey 5",
+    "YubiKey Bio",
+    "Security Key"
+   ],
+   "sig": [
+    "YubiKey"
+   ]
+  },
+  {
+   "n": "Google",
+   "c": "United States",
+   "f": "1998",
+   "seg": "Premium",
+   "kf": "search, Pixel",
+   "d": "American technology company that sells the Titan Security Key.",
+   "s": "knowledge",
+   "sig": [
+    "Google Titan Security Key"
+   ]
+  },
+  {
+   "n": "Nitrokey",
+   "c": "Germany",
+   "f": "2015",
+   "seg": "Specialist",
+   "kf": "open-source keys",
+   "d": "German maker of open-source security keys.",
+   "s": "https://en.wikipedia.org/wiki/Nitrokey",
+   "sig": [
+    "Nitrokey"
+   ]
+  },
+  {
+   "n": "SoloKeys",
+   "c": "",
+   "f": "",
+   "seg": "Artisan & independent",
+   "kf": "open FIDO2 keys",
+   "d": "Small maker of FIDO2 security keys with published firmware.",
+   "s": "https://solokeys.com/collections/solo-2-secure",
+   "sig": [
+    "SoloKeys Solo"
+   ]
+  },
+  {
+   "n": "Feitian",
+   "c": "China",
+   "f": "",
+   "seg": "Value",
+   "kf": "FIDO keys",
+   "d": "Chinese maker of authentication hardware.",
+   "s": "https://fido.ftsafe.com/products-epass-fido/",
+   "sig": [
+    "Feitian ePass FIDO"
+   ]
+  },
+  {
+   "n": "Trezor",
+   "c": "Czech Republic",
+   "f": "2013",
+   "seg": "Professional & flagship",
+   "kf": "hardware wallets",
+   "d": "Hardware wallet brand of SatoshiLabs, founded by Pavol Rusnak and Marek Palatinus.",
+   "s": "https://coindesk.com/learn/trezor",
+   "sig": [
+    "Trezor"
+   ]
+  },
+  {
+   "n": "Ledger",
+   "c": "France",
+   "f": "2014",
+   "seg": "Professional & flagship",
+   "kf": "hardware wallets",
+   "d": "Paris maker of the Nano and Stax hardware wallets.",
+   "s": "https://fortune.com/ranking/crypto/2023/ledger",
+   "lines": [
+    "Nano",
+    "Stax",
+    "Flex"
+   ],
+   "sig": [
+    "Ledger Nano",
+    "Ledger Stax"
+   ]
+  },
+  {
+   "n": "Coinkite",
+   "c": "Canada",
+   "f": "2012",
+   "seg": "Specialist",
+   "kf": "Bitcoin-only wallets",
+   "d": "Canadian maker of the Coldcard Bitcoin hardware wallet.",
+   "s": "https://athenaalpha.substack.com/p/coldcard-mk4-review-2024-pros-cons",
+   "sig": [
+    "Coldcard"
+   ]
+  },
+  {
+   "n": "Shift Crypto",
+   "c": "",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "BitBox wallets",
+   "d": "Maker of the BitBox02 hardware wallet.",
+   "s": "https://www.spark.money/tools/coldcard-vs-bitbox-comparison",
+   "sig": [
+    "BitBox02"
+   ]
+  }
+ ],
+ "traditions": [],
+ "notes": "Security key: 16 old Yubico SKUs (each 5-series form factor and its FIPS twin) folded into YubiKey and Yubico Security Key archetypes with form factors as detail; added Titan, Nitrokey, SoloKeys, Feitian. Hardware wallet: 10 old models became versions of Trezor, Ledger Nano and Ledger Stax; Coldcard and BitBox02 added. Keystone left out (no page fetched). Trezor Model T / Safe and Ledger Nano S Plus / Gen5 / Flex years unconfirmed, left blank."
+}
