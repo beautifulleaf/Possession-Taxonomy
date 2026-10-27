@@ -33,8 +33,8 @@ ep={"n":"Telescope eyepiece","a":"ocular","d":"Lens unit that slides into a tele
     [("Morpheus 76",BA,"","")],"76° field · dual skirt"),
   X("Baader Hyperion Zoom","8–24 mm zoom eyepiece, now in its fourth generation.",BA,"","https://agenaastro.com/articles/baader-hyperion-mark-iv-zoom-eyepiece-performance-review",
     [("Mark III",BA,"","predecessor"),("Mark IV",BA,"2017","48–68° field")],"8–24 mm zoom · click stops"),
-  X("Leica ASPH zoom","Leica's aspheric zoom eyepiece, widening from 60° to 80° as it zooms in.","Leica","","https://singastro.org/forum2/viewtopic.php?p=79185",
-    [("ASPH 9-18mm zoom","Leica","","60° at 18 mm to 80° at 9 mm")],"9–18 mm zoom")],
+  X("Leica ASPH zoom","Leica's aspheric zoom eyepiece, widening from 60° to 80° as it zooms in.","Leica Camera","","https://singastro.org/forum2/viewtopic.php?p=79185",
+    [("ASPH 9-18mm zoom","Leica Camera","","60° at 18 mm to 80° at 9 mm")],"9–18 mm zoom")],
  "m":[["Hyperion eyepiece",BA],["Ultima Edge",C],["X-Cel LX",C],["Luminos",C],["E-Lux",C],["Omni",C],["Emerald 82",SW],["Planetary UWA",SW],["UWAN 82","TS Optics"],["LE Planetary","Omegon"],["Super ED","Artesky"],["Kellner",""]]}
 bar={"n":"Barlow lens","a":"image amplifier · focal extender","d":"Negative lens unit fitted in a telescope's eyepiece barrel that multiplies the effective focal length, and so the magnification, by a stated factor.",
  "t":["2x","2.5x","3x","adjustable (extension tube)","telecentric focal extender"],
@@ -79,7 +79,7 @@ brands=[
  {"n":BA,"c":"Germany","seg":"Specialist","kf":"eyepieces, filters","d":"German maker of astronomy accessories: eyepieces, binoviewers, diagonals and filters.","sig":["Baader Morpheus","Baader Hyperion Zoom","Baader MaxBright"],"s":"knowledge"},
  {"n":ES,"c":"United States","seg":"Specialist","kf":"wide-field eyepieces","d":"American telescope and eyepiece brand known for argon-purged wide-field eyepieces.","sig":["Explore Scientific wide-field series"],"s":"knowledge"},
  {"n":"Pentax","c":"Japan","seg":"Mainstream","kf":"cameras, optics","d":"Japanese camera and optics brand whose XW eyepieces are an observing reference.","sig":["Pentax XW"],"s":"knowledge"},
- {"n":"Leica","c":"Germany","seg":"Premium","kf":"cameras, sport optics","d":"German camera and optics maker; its ASPH zoom is used as a premium astronomy eyepiece.","sig":["Leica ASPH zoom"],"s":"knowledge"},
+ {"n":"Leica Camera","c":"Germany","seg":"Premium","kf":"cameras, sport optics","d":"German camera and optics maker; its ASPH zoom is used as a premium astronomy eyepiece.","sig":["Leica ASPH zoom"],"s":"knowledge"},
  {"n":"Telrad","c":"United States","seg":"Specialist","kf":"reflex finders","d":"Maker of the Telrad reflex sight invented by amateur astronomer Steve Kufeld.","sig":["Telrad"],"s":"https://en.wikipedia.org/wiki/Telrad"},
  {"n":"Starlight Instruments","c":"United States","seg":"Specialist","kf":"focusers","d":"Maker of Feather Touch precision focusers.","sig":["Feather Touch"],"s":"https://astronomics.com/collections/focusers/products/feather-touch-2-manual-crayford-focuser-for-reflectors-and-scts"},
  {"n":"Moonlite Telescopes","seg":"Specialist","kf":"Crayford focusers","d":"Maker of Crayford focusers sold as upgrades for amateur telescopes.","sig":["Moonlite Crayford"],"s":"https://astromart.com/reviews/accessories/other/show/moonlite-telescopes-cr2"}]
