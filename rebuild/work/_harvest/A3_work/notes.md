@@ -7,3 +7,4 @@
 - BLOCKED (403): net-a-porter.com Porter article; hauteliving.com -> moved on
 - whowhatwear: fetched but content truncated (no brands) -> unused
 - fetched OK: rankandstyle affordable brands, ringly Mejuri alternatives, highsnobiety, apetogentleman, fashionbeans; more WP country categories; List of jewellery designers
+- Wikidata wd helper: HTTP 429 on first call -> moved on (no loop)

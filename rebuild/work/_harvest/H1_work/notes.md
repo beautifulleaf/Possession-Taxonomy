@@ -6,3 +6,4 @@ Segments: H1 is in domain "general" -> Professional & flagship, Premium, Mainstr
 - BLOCKED: https://www.sephora.com/brands-list (403 WebFetch; Parallel 402 no credit; Firecrawl denied by classifier) -> moved on
 - BLOCKED/empty (JS): https://www.ulta.com/brand/all, https://www.ulta.com/global/nav/allbrands.jsp
 - fetched: Wikipedia L'Oréal, Estée Lauder Companies, Boots brands page, Category:Personal care brands, List of Unilever brands, List of P&G brands, Category:Cosmetics companies of Japan
+- fetched: Coty, Amorepacific, LG H&H, Shiseido, Wikipedia categories Cosmetics/Skin care/Male grooming/Shampoo/Korean cosmetics/Soap/Toothpaste/Feminine hygiene/Razor/Shaving cream brands
