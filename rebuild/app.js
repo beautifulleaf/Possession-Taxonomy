@@ -13,8 +13,8 @@ function showDom(d) { domsEl.querySelectorAll('.dom').forEach(b => b.setAttribut
     b.addEventListener('click', () => { q.value = ''; open(c.c, true); }); return b; })); }
 S.domains.forEach(d => { const b = $('button', { class: 'dom', type: 'button', 'data-d': d.d, text: d.n });
   b.addEventListener('click', () => { q.value = ''; open(S.cats.find(c => c.d === d.d).c, true); }); domsEl.append(b); });
-[['cat', 'Categories'], ['brands', 'Brands'], ['traditions', 'Traditions'], ['baby', 'Baby & child']].forEach(([v, l]) => { const b = $('button', { type: 'button', 'data-v': v, 'aria-pressed': 'false', text: l });
-  b.addEventListener('click', () => { q.value = ''; if (v === 'cat') open(cur || S.cats[0].c, true); else if (v === 'brands') openBrands(); else if (v === 'traditions') openTraditions(); else openBaby(); }); viewsEl.append(b); });
+[['cat', 'Categories'], ['brands', 'Brands'], ['traditions', 'Traditions'], ['baby', 'Baby & child'], ['species', 'Rare species']].forEach(([v, l]) => { const b = $('button', { type: 'button', 'data-v': v, 'aria-pressed': 'false', text: l });
+  b.addEventListener('click', () => { q.value = ''; if (v === 'cat') open(cur || S.cats[0].c, true); else if (v === 'brands') openBrands(); else if (v === 'traditions') openTraditions(); else if (v === 'species') openSpecies(); else openBaby(); }); viewsEl.append(b); });
 new ResizeObserver(() => document.documentElement.style.setProperty('--hh', document.querySelector('header').offsetHeight + 'px')).observe(document.querySelector('header'));
 const hl = (text, term) => { if (!term || !text) return text; const i = text.toLowerCase().indexOf(term); if (i < 0) return text; return [text.slice(0, i), $('mark', { text: text.slice(i, i + term.length) }), text.slice(i + term.length)]; };
 const slug = (...p) => p.join('-');
@@ -171,6 +171,24 @@ async function openBaby() {
   main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Baby & child' }), $('p', { text: j.i.length + ' kinds for babies and children, gathered from every category. Each stays in its own category; choose one to open it there.' })));
   [...groups.keys()].forEach((c, i) => { const sec = $('section', { class: 'dept', id: slug('y', i) }, $('h3', { class: 'dept-name', text: catName(c) }));
     sec.append($('div', { class: 'hits' }, groups.get(c).map(([n, d]) => { const b = $('button', { class: 'hit', type: 'button' }, $('span', { text: n }), $('i', { text: d || '' })); b.addEventListener('click', () => jump(c, n)); return b; }))); main.append(sec); });
+  spy();
+}
+async function openSpecies() {
+  setView('species'); showDom(''); side.replaceChildren(); main.replaceChildren($('p', { class: 'none', text: 'Loading…' }));
+  let j; try { j = await getJSON('reader/_species.json'); } catch (e) { main.replaceChildren($('p', { class: 'none', text: 'This register has not been published yet.' })); return; }
+  if (view !== 'species') return;
+  const groups = new Map(); j.i.forEach(e => { if (!groups.has(e.g)) groups.set(e.g, []); groups.get(e.g).push(e); });
+  const keys = [...groups.keys()].sort((a, b) => groups.get(b).length - groups.get(a).length);
+  const ol = $('ol'); keys.forEach((g, i) => ol.append($('li', {}, $('a', { href: '#' + slug('p', i) }, g, $('span', { text: groups.get(g).length })))));
+  side.replaceChildren($('h2', { text: 'Rare species' }), ol);
+  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Rare mineral species' }), $('p', { text: j.i.length + ' rarer mineral species collected as specimens. The Minerals tree keeps the popular collector species; these are listed here by mineral class.' })));
+  keys.forEach((g, i) => { const sec = $('section', { class: 'dept', id: slug('p', i) }, $('h3', { class: 'dept-name', text: g }));
+    sec.append($('div', { class: 'items' }, groups.get(g).map(e => { const a = $('article', { class: 'item' }, $('h5', { text: e.n }));
+      if (e.a) a.append($('p', { class: 'also', text: e.a }));
+      if (e.d) a.append($('p', { class: 'desc', text: e.d }));
+      if (e.m && e.m.length) a.append($('p', { class: 'also' }, 'Examples: ', e.m.join(' · ')));
+      if (e.s) a.append($('p', { class: 'src' }, $('a', { href: e.s, target: '_blank', rel: 'noopener', text: 'source' })));
+      return a; }))); main.append(sec); });
   spy();
 }
 async function jump(c, n) { q.value = ''; await open(c, true); const el = [...main.querySelectorAll('article.item h5')].find(h => h.textContent === n); if (el) { el.closest('article').scrollIntoView({ block: 'center' }); el.closest('article').style.outline = '2px solid var(--flag)'; } }

@@ -1,0 +1,9 @@
+# J4 Fruit & Vegetables — rebuild report
+
+**Brand mode:** Fruit: variety; Mixed packs & gift fruit: tier; Mushrooms & sea vegetables: variety; Salad & herbs: mixed; Vegetables: variety
+
+**Counts (before → after):** 5 → 5 departments · 185 → 208 kinds · 0 → 510 archetypes · 2584 → 643 flat models · 2584 → 967 models+versions · 6 → 22 brands named · register 33 brands, 4 traditions · moves out 0 · dropped kinds 0.
+
+**Sources:** 496 distinct retrieved URLs logged in work/J4/sources.tsv (server web_fetch, Wikipedia/Wikidata APIs).
+
+**Worker notes:** Apples: Kept Apple. Old cultivars not promoted to archetypes (no page fetched) kept as flat models, trimmed to 40: dropped breeder-code club lines (e.g. WA 2, DS 22, Regal D-codes, Howell TC2/TC3), Portuguese/Greek/Hunga | Pears, quinces & loquats: Pear list trimmed from 163 to the cultivars with sources; dropped obscure local and old English cultivars and club lines without a retrieved page. Forelle and Rocha kept; Forelle has no retrieve | Stone fruit: Nectarine, apricot kept flat with old models: no cultivar pages retrieved (Prunus armeniaca page names no cultivars; Elberta, Redhaven, Bergeron, Hunza, Akatsuki, Kawanakajima Hakuto unconfirmed so left out) | Oranges, mandarins & grapefruit: Orange list trimmed to cultivars with retrieved pages (Washington navel, Valencia) plus flat GIs. Not confirmed by any retrieved page and so left out as archetypes: Lane Late, Hamlin, Sha | Lemons, limes & aromatic citrus: Femminello archetype carries the Siracusa PGI and Sorrento form as versions; other Italian lemon PGIs kept flat (not individually retrieved). Verna, Menton, Amalfi unconfirmed as cultivar | Strawberries: Trimmed from 164 to 40 flat models plus archetypes. Gariguette, Mara des Bois, Malling Centenary, Sonata details, Skyberry, Sagahonoka, Beni Hoppe, Shiroi Hoseki and Seolhyang had no fetched page, so not ar | Berries & currants: Rebuilt with sourced cultivars only. No cu

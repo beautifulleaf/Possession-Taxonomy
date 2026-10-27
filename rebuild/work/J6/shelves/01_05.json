@@ -31,6 +31,16 @@
        "mk": "Menghai Tea Factory",
        "y": "1975",
        "d": "Grade-4 recipe, factory digit 2"
+      },
+      {
+       "n": "7532",
+       "mk": "Menghai Tea Factory",
+       "d": "Raw Dayi recipe; first digits 75 = developed 1975"
+      },
+      {
+       "n": "8582",
+       "mk": "Menghai Tea Factory",
+       "d": "Raw Dayi recipe with larger leaf grade than 7542"
       }
      ],
      "dt": "recipe digits: year, grade, factory · form: bing 357 g"
@@ -42,7 +52,13 @@
      "mk": "Xiaguan Tea Factory",
      "y": "1940s",
      "s": "https://en.wikipedia.org/wiki/Pu%27er_tea",
-     "v": [],
+     "v": [
+      {
+       "n": "8653",
+       "mk": "Xiaguan Tea Factory",
+       "d": "Raw Xiaguan recipe number"
+      }
+     ],
      "dt": "form: tuocha 100 g"
     },
     {
@@ -103,6 +119,46 @@
       }
      ],
      "dt": "form: bing, tuocha, brick, loose"
+    },
+    {
+     "n": "Yiwu",
+     "d": "Township and region in Mengla County, soft base with long sweet aftertaste, once the tribute-tea distribution centre; name widely used as a marketing label.",
+     "s": "https://teadb.org/?p=1904",
+     "dt": "villages: Luoshuidong, Yibi, Mahei, Gua Feng Zhai",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Bulang",
+     "d": "South-western Xishuangbanna mountain: large-leaf trees, strong bitterness and astringency with a quick sweet aftertaste, prized by collectors.",
+     "s": "https://pathofcha.com/blogs/all-about-tea/modern-days-pu-erh-tea-terroirs",
+     "dt": "cup: plum, nectar, orchid aroma",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Nannuo",
+     "d": "Mostly large-leaf trees, sweet with mild bitterness and a honey-orchid fragrance; home to a tea-king tree over a thousand years old.",
+     "s": "https://pathofcha.com/blogs/all-about-tea/modern-days-pu-erh-tea-terroirs",
+     "dt": "one of the New Six Tea Mountains",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
+    },
+    {
+     "n": "Bingdao",
+     "d": "Village in the north-west with high altitude and ancient trees, presumed home of the most expensive pu-erh.",
+     "s": "https://pathofcha.com/blogs/all-about-tea/modern-days-pu-erh-tea-terroirs",
+     "dt": "marketing name as well as a place",
+     "a": "",
+     "mk": "",
+     "y": "",
+     "v": []
     }
    ]
   },
@@ -131,6 +187,26 @@
        "mk": "",
        "y": "1975",
        "d": "First ripe pu'er in volume"
+      },
+      {
+       "n": "7572",
+       "mk": "Menghai Tea Factory",
+       "d": "Ripe Dayi recipe"
+      },
+      {
+       "n": "8592",
+       "mk": "Menghai Tea Factory",
+       "d": "Ripe Dayi recipe"
+      },
+      {
+       "n": "7452",
+       "mk": "Menghai Tea Factory",
+       "d": "Ripe Dayi recipe"
+      },
+      {
+       "n": "7581",
+       "mk": "Kunming Tea Factory",
+       "d": "Ripe Kunming recipe"
       }
      ],
      "dt": "wet piling 45-60 days"
@@ -231,5 +307,5 @@
    "s": "https://en.wikipedia.org/wiki/Pu%27er_tea"
   }
  ],
- "notes": "Left out unsourced: Lao Banzhang, Yiwu, Bingdao, Nannuo, Bulang, Xigui archetypes (only snippet-level), 8582/7572/7262 recipes, Lancang Gu Cha, Changtai, Zhongcha Red/Green/Yellow Mark, Yunnan Sourcing/White2Tea/Bitterleaf vendors, mushroom/jincha detail, Qianliang. Old Other pu-erh type dissolved."
+ "notes": "Left out unsourced: Lao Banzhang, Yiwu, Bingdao, Nannuo, Bulang, Xigui archetypes (only snippet-level), 8582/7572/7262 recipes, Lancang Gu Cha, Changtai, Zhongcha Red/Green/Yellow Mark, Yunnan Sourcing/White2Tea/Bitterleaf vendors, mushroom/jincha detail, Qianliang. Old Other pu-erh type dissolved. DEEP: Recipe code rule (teadb): first two digits year, third leaf grade 0-9, last digit factory (1 Kunming, 2 Menghai, 3 Xiaguan). Left out: Lao Banzhang (no page covering it), 7262, Zhongcha marks."
 }
