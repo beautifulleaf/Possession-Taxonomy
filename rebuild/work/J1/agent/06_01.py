@@ -37,7 +37,7 @@ kinds = [
   ]},
  {"n": "Weisswurst", "a": "Weißwurst · white sausage · Münchner Weißwurst", "d": "Bavarian scalded sausage of minced veal and pork fatback with parsley and lemon, eaten peeled before noon.",
   "s": W + "Weisswurst",
-  "x": [X("Münchner Weißwurst", "Veal and pork back fat with parsley, lemon, mace, onion, ginger and cardamom; served warm with sweet mustard and a pretzel.", W + "Weisswurst", "Weisswurst", "1850s")]},
+  "x": [X("Münchner Weißwurst", "Veal and pork back fat with parsley, lemon, mace, onion, ginger and cardamom; served warm with sweet mustard and a pretzel.", W + "Weisswurst", "Weisswurst", "1853")]},
  {"n": "Cervelat", "a": "cervelas · Servelat · Klöpfer", "d": "Switzerland's national sausage of beef, pork, bacon and rind, lightly smoked and boiled, grilled or eaten cold.",
   "s": W + "Cervelat",
   "x": [X("Swiss cervelat", "Beef, pork, bacon and rind in zebu casing, slightly smoked and boiled; about 160 million made a year.", W + "Cervelat", "Cervelat · cervelas")]},
@@ -108,13 +108,12 @@ brands = [
  {"n": "Hormel Foods", "c": "United States", "seg": "Mainstream", "kf": "SPAM, franks", "d": "US meat company shown smoking hot dogs in 1964.", "s": W + "Hot_dog"},
  {"n": "Oscar Mayer", "c": "United States", "seg": "Mainstream", "kf": "wieners, bologna", "d": "US hot dog and cold-cut brand, part of Kraft Heinz.", "s": "knowledge"},
  {"n": "Nathan's Famous", "c": "United States", "f": "1916", "seg": "Mainstream", "kf": "all-beef hot dogs", "d": "Coney Island hot dog stand turned packaged frank brand.", "s": "knowledge"},
- {"n": "Clonakilty", "c": "Ireland", "seg": "Specialist", "kf": "black and white pudding", "d": "Cork maker of Irish black and white pudding sold in UK and Irish supermarkets.", "s": "https://www.ocado.com/products/clonakilty-irish-white-pudding/82011011"},
- {"n": "Dietz & Watson", "c": "United States", "seg": "Mainstream", "kf": "deli meats", "d": "Philadelphia deli-meat maker whose range includes braunschweiger liverwurst.", "s": "https://www.dietzandwatson.com/product/Black-Forest-Braunschweiger-Liverwurst-3"},
- {"n": "Simonini", "c": "Italy", "seg": "Specialist", "kf": "mortadella", "d": "Italian maker of Mortadella Bologna IGP.", "s": "https://www.knuspr.de/en-DE/7684-simonini-mortadella-bologna-igp"}
+ {"n": "Clonakilty", "c": "Ireland", "seg": "Specialist", "kf": "black and white pudding", "d": "Irish maker of black and white pudding from Clonakilty, County Cork.", "s": "knowledge"},
+ {"n": "Dietz & Watson", "c": "United States", "seg": "Mainstream", "kf": "deli meats", "d": "Philadelphia deli-meat maker whose range includes braunschweiger liverwurst.", "s": "knowledge"}
 ]
 notes = ("Old models Knackwurst, Bologna, Jagdwurst, Mortadella Bologna, Braunschweiger, Pfälzer Leberwurst became archetypes. Kabanos left to the dry-sausage shelf. "
          "Teewurst is liver-free raw spreadable sausage, so it was not placed under Liver sausage (handed to 'Nduja & spreadable sausages in 06_02). "
-         "Clonakilty, Dietz & Watson and Simonini brand entries cite the old kind sources (not refetched; may need a retrieved URL). Münchner Weißwurst protection status not confirmed, left out.")
+         "Clonakilty and Dietz & Watson recorded from knowledge; Simonini (Mortadella Bologna maker in old source) left out of the register. Münchner Weißwurst protection status not confirmed, left out.")
 out = {"kinds": kinds, "brands": brands, "traditions": [], "notes": notes}
 p = "/home/user/Possession-Taxonomy/rebuild/work/J1/shelves/06_01.json"
 json.dump(out, open(p + ".tmp", "w"), ensure_ascii=False, indent=1); os.replace(p + ".tmp", p)
