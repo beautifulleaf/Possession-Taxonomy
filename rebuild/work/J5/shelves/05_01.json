@@ -1,0 +1,666 @@
+{
+ "kinds": [
+  {
+   "n": "Hot sauce",
+   "a": "chilli sauce",
+   "d": "Pourable table sauce of chillies with vinegar or salt, fermented or not, in regional styles.",
+   "t": [
+    "fermented",
+    "vinegar-based",
+    "fruit-based",
+    "extract/superhot"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Hot_sauce",
+   "m": [],
+   "x": [
+    {
+     "n": "Tabasco",
+     "a": "Tabasco brand pepper sauce",
+     "d": "The McIlhenny Company's Louisiana sauce of aged tabasco peppers and vinegar, created in 1868 on Avery Island.",
+     "mk": "Tabasco",
+     "y": "1868",
+     "s": "https://en.wikipedia.org/wiki/Tabasco_sauce",
+     "v": [
+      {
+       "n": "Original red",
+       "mk": "Tabasco",
+       "y": "1868",
+       "d": ""
+      },
+      {
+       "n": "Habanero",
+       "mk": "Tabasco",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Jalapeño",
+       "mk": "Tabasco",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Chipotle",
+       "mk": "Tabasco",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Sriracha",
+       "mk": "Tabasco",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Scorpion",
+       "mk": "Tabasco",
+       "y": "",
+       "d": "Hottest in the range"
+      }
+     ],
+     "dt": "red pepper · vinegar · aged"
+    },
+    {
+     "n": "Frank's RedHot",
+     "a": "Frank's",
+     "d": "Louisiana-style cayenne sauce from 1920, the classic base for Buffalo wing sauce; owned by McCormick since 2017.",
+     "mk": "Frank's RedHot",
+     "y": "1920",
+     "s": "https://en.wikipedia.org/wiki/Frank's_RedHot",
+     "v": [
+      {
+       "n": "Original",
+       "mk": "Frank's RedHot",
+       "y": "1920",
+       "d": "About 450 SHU"
+      },
+      {
+       "n": "XTRA Hot",
+       "mk": "Frank's RedHot",
+       "y": "",
+       "d": "About 2,000 SHU"
+      }
+     ],
+     "dt": "cayenne · vinegar"
+    },
+    {
+     "n": "Crystal Hot Sauce",
+     "a": "Crystal",
+     "d": "Louisiana sauce of aged cayenne, vinegar and salt, made by family-owned Baumer Foods since 1923.",
+     "mk": "Crystal",
+     "y": "1923",
+     "s": "https://en.wikipedia.org/wiki/Crystal_Hot_Sauce",
+     "v": [],
+     "dt": "cayenne · medium heat"
+    },
+    {
+     "n": "Louisiana Hot Sauce",
+     "a": "The Original Louisiana Brand",
+     "d": "Louisiana-style sauce first marketed in 1928 and made in New Iberia, Louisiana.",
+     "mk": "",
+     "y": "1928",
+     "s": "https://en.wikipedia.org/wiki/Louisiana_Hot_Sauce",
+     "v": [],
+     "dt": "aged peppers"
+    },
+    {
+     "n": "Cholula",
+     "a": "",
+     "d": "Mexican sauce of piquín and árbol chillies from Chapala, Jalisco, sold in the US since 1989; owned by McCormick.",
+     "mk": "Cholula",
+     "y": "1989 US launch",
+     "s": "https://en.wikipedia.org/wiki/Cholula_Hot_Sauce",
+     "v": [
+      {
+       "n": "Original",
+       "mk": "Cholula",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Chipotle",
+       "mk": "Cholula",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Chili Garlic",
+       "mk": "Cholula",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Chili Lime",
+       "mk": "Cholula",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Green Pepper",
+       "mk": "Cholula",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Sweet Habanero",
+       "mk": "Cholula",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "piquín · árbol"
+    },
+    {
+     "n": "Valentina",
+     "a": "Salsa Valentina",
+     "d": "Thick, less vinegary Mexican sauce from Salsa Tamazula, Guadalajara, introduced in 1954.",
+     "mk": "Valentina",
+     "y": "1954",
+     "s": "https://en.wikipedia.org/wiki/Valentina_(hot_sauce)",
+     "v": [
+      {
+       "n": "Hot",
+       "mk": "Valentina",
+       "y": "",
+       "d": "About 900 SHU"
+      },
+      {
+       "n": "Extra Hot",
+       "mk": "Valentina",
+       "y": "",
+       "d": "About 2,100 SHU"
+      }
+     ],
+     "dt": "thick · chilli flavour"
+    },
+    {
+     "n": "Tapatío",
+     "a": "",
+     "d": "Californian hot sauce founded in 1971 by Jose-Luis Saavedra Sr. and popular with Mexican-American communities.",
+     "mk": "Tapatío",
+     "y": "1971",
+     "s": "https://en.wikipedia.org/wiki/Tapat%C3%ADo_hot_sauce",
+     "v": [],
+     "dt": "Vernon, California"
+    },
+    {
+     "n": "El Yucateco",
+     "a": "",
+     "d": "Habanero sauce range from Mérida, Yucatán, founded 1968.",
+     "mk": "El Yucateco",
+     "y": "1968",
+     "s": "https://en.wikipedia.org/wiki/El_Yucateco",
+     "v": [
+      {
+       "n": "Black Label Reserve",
+       "mk": "El Yucateco",
+       "y": "",
+       "d": "4,500-5,500 SHU, the mildest habanero"
+      },
+      {
+       "n": "Ghost Habanero",
+       "mk": "El Yucateco",
+       "y": "",
+       "d": "About 14,165 SHU, the hottest"
+      }
+     ],
+     "dt": "habanero"
+    },
+    {
+     "n": "Sriracha",
+     "a": "",
+     "d": "Chilli-garlic sauce named after Si Racha, Thailand: Sriraja Panich from 1935 and the Californian Huy Fong 'rooster sauce' from 1980.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Sriracha",
+     "v": [
+      {
+       "n": "Sriraja Panich",
+       "mk": "",
+       "y": "1935",
+       "d": "Thai original, owned by Thai Theparos since 1984"
+      },
+      {
+       "n": "Huy Fong sriracha",
+       "mk": "Huy Fong Foods",
+       "y": "1980",
+       "d": "Jalapeño-based rooster sauce"
+      }
+     ],
+     "dt": "red chilli · garlic · sugar"
+    },
+    {
+     "n": "Marie Sharp's",
+     "a": "Belizean habanero sauces",
+     "d": "Fruit and vegetable based habanero sauces from Stann Creek District, Belize; selling since 1981.",
+     "mk": "Marie Sharp's",
+     "y": "1981",
+     "s": "https://en.wikipedia.org/wiki/Marie_Sharp's",
+     "v": [],
+     "dt": "habanero · carrot · fruit"
+    },
+    {
+     "n": "Peri-peri sauce",
+     "a": "piri piri",
+     "d": "Portuguese-world sauce of African bird's eye chilli, garlic and oil or acid, made known in the UK by Nando's (founded 1987).",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Piri_piri",
+     "v": [],
+     "dt": "piri piri chilli"
+    },
+    {
+     "n": "The Last Dab",
+     "a": "Hot Ones sauce",
+     "d": "Superhot sauce made with Hot Ones as the show's final wing sauce, rated above 2,000,000 SHU; renamed over the seasons.",
+     "mk": "",
+     "y": "2015 show",
+     "s": "https://en.wikipedia.org/wiki/Hot_Ones",
+     "v": [
+      {
+       "n": "The Last Dab Reduxx",
+       "mk": "",
+       "y": "",
+       "d": "Season 6"
+      },
+      {
+       "n": "The Last Dab XXX",
+       "mk": "",
+       "y": "",
+       "d": "Season 10"
+      },
+      {
+       "n": "The Last Dab Apollo",
+       "mk": "",
+       "y": "",
+       "d": "Season 13"
+      },
+      {
+       "n": "The Last Dab Xperience",
+       "mk": "",
+       "y": "",
+       "d": "Season 22"
+      }
+     ],
+     "dt": "extract-level heat"
+    }
+   ]
+  },
+  {
+   "n": "Chilli oil and chilli crisp",
+   "a": "chili crunch · lajiao",
+   "d": "Oil infused with chilli, with or without crunchy solids such as fried garlic, onion or soybeans.",
+   "t": [
+    "clear chilli oil",
+    "chilli crisp",
+    "rāyu",
+    "salsa macha",
+    "olio di peperoncino"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Chili_crisp",
+   "m": [
+    [
+     "Fly By Jing Sichuan Chili Crisp",
+     "Fly By Jing"
+    ],
+    [
+     "Lao Gan Ma Spicy Chilli Crisp",
+     "Lao Gan Ma"
+    ]
+   ],
+   "x": [
+    {
+     "n": "Lao Gan Ma chilli crisp",
+     "a": "Laoganma",
+     "d": "Guizhou-style chilli crisp made commercially since 1997 by Tao Huabi; the largest chilli crisp company.",
+     "mk": "Lao Gan Ma",
+     "y": "1997",
+     "s": "https://en.wikipedia.org/wiki/Lao_Gan_Ma",
+     "v": [
+      {
+       "n": "Spicy Chili Crisp",
+       "mk": "Lao Gan Ma",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Chili Oil with Black Bean",
+       "mk": "Lao Gan Ma",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Fried Chili in Oil",
+       "mk": "Lao Gan Ma",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Hot Chili Sauce",
+       "mk": "Lao Gan Ma",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Spicy Bean Paste",
+       "mk": "Lao Gan Ma",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "Guizhou crisps"
+    },
+    {
+     "n": "Fly By Jing chilli crisp",
+     "a": "",
+     "d": "American-founded Sichuan chilli crisp by Jing Gao, launched via Kickstarter in 2018.",
+     "mk": "Fly By Jing",
+     "y": "2018",
+     "s": "https://en.wikipedia.org/wiki/Fly_By_Jing",
+     "v": [
+      {
+       "n": "Sichuan Chili Crisp",
+       "mk": "Fly By Jing",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "Sichuan"
+    }
+   ]
+  },
+  {
+   "n": "Chilli paste",
+   "a": "nam prik pao · sambal · harissa",
+   "d": "Unfermented paste of chillies, roasted or raw, with oil, garlic or spices. Fermented gochujang has its own entry.",
+   "t": [
+    "raw",
+    "roasted",
+    "sweet"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Sambal",
+   "m": [],
+   "x": [
+    {
+     "n": "Harissa",
+     "a": "Tunisian harissa",
+     "d": "Tunisian paste of roasted red and Baklouti peppers with garlic, caraway, coriander, cumin and olive oil; listed by UNESCO in 2022.",
+     "mk": "",
+     "y": "UNESCO 2022",
+     "s": "https://en.wikipedia.org/wiki/Harissa",
+     "v": [],
+     "dt": "Baklouti pepper · olive oil"
+    },
+    {
+     "n": "Sambal oelek",
+     "a": "sambal ulek",
+     "d": "Plain raw chilli paste that is the base of other sambals; the most popular jarred sambal in the Netherlands.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Sambal",
+     "v": [],
+     "dt": "raw chilli"
+    },
+    {
+     "n": "Nam phrik phao",
+     "a": "Thai roasted chilli paste",
+     "d": "Sweet Thai paste of roasted chillies and tamarind with sugar, used in tom yum and as a spread.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Nam_phrik",
+     "v": [],
+     "dt": "roasted chilli · tamarind"
+    },
+    {
+     "n": "Zhug",
+     "a": "sahawiq · skhug",
+     "d": "Yemeni hot sauce of fresh chillies, coriander, garlic and olive oil; red, green and brown (with tomato) forms in Israel.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Zhug",
+     "v": [
+      {
+       "n": "Red zhug (skhug adom)",
+       "mk": "",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Green zhug (skhug yarok)",
+       "mk": "",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Brown zhug (skhug khum)",
+       "mk": "",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": "fresh chilli · herbs"
+    }
+   ]
+  },
+  {
+   "n": "Sweet chilli sauce",
+   "a": "nam chim kai",
+   "d": "Thick sweet sauce of chilli, sugar, garlic and vinegar in the Thai style.",
+   "t": [
+    "dipping",
+    "with fish sauce"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Sweet_chili_sauce",
+   "m": []
+  },
+  {
+   "n": "Salsa",
+   "a": "",
+   "d": "Mexican table sauces, raw or cooked, sold jarred as red (roja), green (verde) and chunky salsas.",
+   "t": [
+    "salsa roja",
+    "salsa verde",
+    "pico de gallo",
+    "chunky",
+    "fruit"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Salsa_(food)",
+   "m": [
+    [
+     "Pace Picante Sauce",
+     "Pace"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Tabasco",
+   "c": "United States",
+   "f": "1868",
+   "seg": "Heritage manufactory",
+   "kf": "Louisiana pepper sauce",
+   "d": "Edmund McIlhenny's sauce made by the McIlhenny Company on Avery Island, Louisiana.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Tabasco"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Tabasco_sauce"
+  },
+  {
+   "n": "Frank's RedHot",
+   "c": "United States",
+   "f": "1920",
+   "seg": "Mainstream",
+   "kf": "Buffalo wing base",
+   "d": "Louisiana-style cayenne sauce first sold in 1920; owned by McCormick since 2017.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Frank's RedHot"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Frank's_RedHot"
+  },
+  {
+   "n": "Crystal",
+   "c": "United States",
+   "f": "1923",
+   "seg": "Mainstream",
+   "kf": "Louisiana sauce",
+   "d": "Hot sauce made by family-owned Baumer Foods.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Crystal Hot Sauce"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Crystal_Hot_Sauce"
+  },
+  {
+   "n": "Cholula",
+   "c": "Mexico",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "Mexican hot sauce",
+   "d": "Sauce from Chapala, Jalisco, owned by McCormick since 2020.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Cholula"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Cholula_Hot_Sauce"
+  },
+  {
+   "n": "Valentina",
+   "c": "Mexico",
+   "f": "1954",
+   "seg": "Mainstream",
+   "kf": "Mexican hot sauce",
+   "d": "Sauce from Salsa Tamazula of Guadalajara.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Valentina"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Valentina_(hot_sauce)"
+  },
+  {
+   "n": "Tapatío",
+   "c": "United States",
+   "f": "1971",
+   "seg": "Mainstream",
+   "kf": "Californian hot sauce",
+   "d": "Vernon, California sauce founded by Jose-Luis Saavedra Sr.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Tapatío"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Tapat%C3%ADo_hot_sauce"
+  },
+  {
+   "n": "El Yucateco",
+   "c": "Mexico",
+   "f": "1968",
+   "seg": "Mainstream",
+   "kf": "habanero sauce",
+   "d": "Mérida, Yucatán maker of habanero sauces.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "El Yucateco"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/El_Yucateco"
+  },
+  {
+   "n": "Huy Fong Foods",
+   "c": "United States",
+   "f": "1980",
+   "seg": "Mainstream",
+   "kf": "sriracha",
+   "d": "Los Angeles company founded by David Tran; maker of the rooster-label sriracha.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Huy Fong sriracha"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Huy_Fong_Foods"
+  },
+  {
+   "n": "Marie Sharp's",
+   "c": "Belize",
+   "f": "1981",
+   "seg": "Artisan & independent",
+   "kf": "habanero sauce",
+   "d": "Belizean maker of habanero hot sauces and preserves from Stann Creek District.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Marie_Sharp's"
+  },
+  {
+   "n": "Lao Gan Ma",
+   "c": "China",
+   "f": "1997",
+   "seg": "Mainstream",
+   "kf": "chilli crisp",
+   "d": "Guizhou brand of Tao Huabi, the largest chilli crisp company.",
+   "lines": [],
+   "eras": [],
+   "sig": [
+    "Spicy Chili Crisp"
+   ],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Lao_Gan_Ma"
+  },
+  {
+   "n": "Fly By Jing",
+   "c": "United States",
+   "f": "2018",
+   "seg": "Artisan & independent",
+   "kf": "Sichuan chilli crisp",
+   "d": "Brand founded by Jing Gao; started via Kickstarter in 2018.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Fly_By_Jing"
+  },
+  {
+   "n": "Pace",
+   "c": "United States",
+   "f": "1947",
+   "seg": "Mainstream",
+   "kf": "picante sauce",
+   "d": "San Antonio brand founded by David Pace; owned by Campbell's since 1995.",
+   "lines": [],
+   "eras": [],
+   "sig": [],
+   "sc": [],
+   "rel": [],
+   "s": "https://en.wikipedia.org/wiki/Pace_Foods"
+  }
+ ],
+ "traditions": [],
+ "notes": "Encona, Yellowbird, Secret Aardvark not found on retrieved pages so omitted; Sriraja Panich is a version (no brand register entry as no maker page). Nando's not given a register entry. Sweet chilli sauce has no maker models (Mae Ploy not confirmed). Harissa gets UNESCO year from the Harissa page; no tradition entry."
+}
