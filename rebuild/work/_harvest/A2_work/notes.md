@@ -16,3 +16,6 @@
 - ringly cowboy, weighmyrack mountaineering, greenlit work boots fetched OK
 - wikipedia Träskor fetched OK; culturewhisper espadrilles 503
 - wikipedia basketball list, countryandtownhouse, makeitbritish fetched OK; whowhatwear pages empty
+- built d1..d3 lists; removed name collisions (rabbit, Topper) and sub-lines
+- viaempresa (Castell), fashionunited RIA Menorca, okayama-japan (Marugo), wikipedia Avarca fetched OK
+- final: check A2 -> 474 new, 80 linked, 0 errors

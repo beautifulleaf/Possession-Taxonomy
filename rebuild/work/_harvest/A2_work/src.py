@@ -31,3 +31,5 @@ SRC = {
 SEG = {'LH':'Luxury house','DE':'Designer','CO':'Contemporary & premium','HW':'Heritage & workwear','JD':'Japanese & denim',
 'SW':'Streetwear','OT':'Outdoor & technical','AS':'Athletic & sportswear','HS':'High street','VB':'Value & basics',
 'BA':'Bespoke & artisan','TD':'Traditional & national dress','SC':'Subculture & alternative'}
+SRC.update({'VE':'https://www.viaempresa.cat/via-empresa-in-english/avarca-castell-supplying-footwear-to-the-mediterranean_20966_102.html',
+'RM':'https://fashionunited.com/companies/ria-menorca','MG':'https://www.okayama-japan.jp/en/27029'})
