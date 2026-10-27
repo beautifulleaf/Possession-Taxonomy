@@ -31,7 +31,7 @@ ARCHETYPE = {"n":"Name","a":"aliases","d":"one sentence: what defines it",
         "y":"year or era","s":"source URL (required)",
         "v":[{"n":"version name or reference","mk":"maker","y":"year","d":"short note"}],
         "dt":"detail axes in words, e.g. 'case 36–41 mm · steel, gold · dial colours'"}
-BRAND = {"n":"Name","c":"Country","f":"founding year","seg":"segment label","d":"one sentence",
+BRAND = {"n":"Name","c":"Country","f":"founding year","seg":"one value from SEGMENTS.json for the category's domain","kf":"known for, 1–3 words","d":"one sentence",
         "lines":["…"],"eras":["Creative director or period, years"],"sig":["signature archetypes"],
         "sc":["scenes"],"rel":["related brands"],"s":"source URL"}
 TRADITION = {"n":"Name","g":"group label (e.g. Woodwork & furniture, Textiles & rugs, Metal & blades, Ceramics & glass, Faith traditions, Food & drink)",
@@ -129,6 +129,13 @@ Hard rules
 - Brands: add a register entry for each brand that is an archetype "mk" (or a core brand of a tier kind). Cite a retrieved
   page when you have one; for a well-known brand whose facts (country, founding year, owner, segment) you know reliably,
   you may record it from your own knowledge with "s":"knowledge" (owner decision). Leave out any fact you are unsure of. Traditions: add where artisan traditions matter for this shelf.
+- Blocked maker/retailer site? Do not drop the item: establish it from an independent page that names it (owner decision).
+  Prefer outside databases and lists over the maker's own site: Wikipedia articles and "List of ..." pages; company
+  registers (Companies House, OpenCorporates, national registers); trademark registers (WIPO Global Brand Database, USPTO,
+  EUIPO/TMview); museum and collection records (V&A, Science Museum, Smithsonian, Cooper Hewitt, Met); trade-association
+  member or award lists; independent test and review sites; standards/certification listings; and other retailers that
+  list the product. Find them by search, never by guessing URLs; a fetched page that names the product and maker attests
+  it. Never work around a block (no proxies, caches, archives or alternate fetchers for the blocked site itself).
 - Be efficient: batch fetches in code (fetch many URLs per call, print only the facts you need). Aim to finish within
   roughly 25 tool rounds. Wikipedia article URLs (https://en.wikipedia.org/wiki/Title) are good sources; web_fetch them
   directly when you know the exact title, or use the wiki tool to confirm titles in bulk.
@@ -165,3 +172,4 @@ Old data for this shelf (schema v1; target_kind = the planned kind it goes into)
 ---
 OUTPUT: write the finished shelf as JSON {"kinds": [...], "brands": [...], "traditions": [...], "notes": "..."} to /home/user/Possession-Taxonomy/rebuild/work/E6/shelves/02_00.json (write via a temp file then rename). Work from /home/user/Possession-Taxonomy/rebuild. After EVERY page you successfully retrieve (WebFetch, firecrawl_scrape), log it: `python3 tools/local.py logsrc E6 02_00 fetched <url> [<url> ...]` (log the URL exactly as you will cite it). Only logged fetched/api URLs are accepted as sources. Then run `python3 tools/local.py check E6 02_00` and fix every error until it prints OK. Every model, maker, year and version must come from the old data or a page you retrieved and logged; never name models from memory (exception: brand-register entries for well-known brands may use "s":"knowledge"). Scratch files only in work/E6/agent/. Never run git; never use curl, wget or python HTTP fetching (WebFetch/WebSearch and the wd helper only). Never invent URLs or facts.
 RESUME RULE: if work/E6/shelves/02_00.json exists and the check prints OK, stop and report; if work/E6/agent/02_00.notes.md exists, continue from it (keep it updated with sources found and decisions as you go).
+BRAND SEGMENTS (owner decision): every brand "seg" must be exactly one of: Professional & flagship | Premium | Mainstream | Value | Heritage manufactory | Artisan & independent | Specialist | Own-label & retailer | Institution & issuer. Put what the brand is known for in a short "kf" tag (e.g. "denim", "tailoring", "cast iron").
