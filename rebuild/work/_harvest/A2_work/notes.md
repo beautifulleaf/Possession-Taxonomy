@@ -15,3 +15,4 @@
 - sneakerhistory skate, weddingsutra jutti, lbb jutti fetched OK
 - ringly cowboy, weighmyrack mountaineering, greenlit work boots fetched OK
 - wikipedia Träskor fetched OK; culturewhisper espadrilles 503
+- wikipedia basketball list, countryandtownhouse, makeitbritish fetched OK; whowhatwear pages empty
