@@ -10,3 +10,4 @@
 - Airsoft gun kind exists in both E4 05_00 and E2 05_04 (both with Tokyo Marui archetypes) — keep one home (E2 sport) and cross-link from E4 at merge.
 - J2 restraint shelves: English names of Japanese/Korean GIs are the worker's own translations (original script kept in brackets) — spot-check at J2 merge.
 - J10 03_02 E-liquid and 07_00 Pre-roll have empty sources (no old source); source them before J10 finish.
+- Restraint pass I1/I2/H3 gaps (add with sources in web pass): I2 04_00 .net .org .io .co .eu; I1 09_01 LibreOffice Base, SQLite GUI tools; I1 02_03 Xero, Wave; I1 06_01 calibre; I1 02_02 consumer read-aloud TTS apps; H3 05_02 furniture makers beyond Liberator.
