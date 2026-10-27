@@ -1,0 +1,14 @@
+import sys; sys.path.insert(0,'/home/user/Possession-Taxonomy/rebuild/work/F4/agent')
+from w import save
+W='https://en.wikipedia.org/wiki/'
+kinds=[
+{"n":"Kara","a":"Sikh bracelet","d":"Iron or steel bangle worn by Khalsa Sikhs; the circle stands for God as endless.","t":["plain steel","iron","with engraved khanda"],"s":W+"Five_Ks","m":[]},
+{"n":"Kirpan","a":"Sikh dagger","d":"Small curved sword or knife worn by Khalsa Sikhs as a duty to defend those in peril; the weapon form is in Weapons.","t":["small iron or steel","gatra strap carrier"],"s":W+"Five_Ks","m":[]},
+{"n":"Kanga","a":"Sikh comb","d":"Small wooden comb kept in the hair as a sign of cleanliness.","t":["wooden"],"s":W+"Five_Ks","m":[]},
+{"n":"Rumala","a":"romalla","d":"Cloth draped over the Guru Granth Sahib when it is not being read.","t":["silk","embroidered","cotton"],"s":W+"Sikh_rites","m":[]},
+{"n":"Chaur sahib","a":"chaur · whisk","d":"Whisk waved over the Guru Granth Sahib as a sign of respect.","t":["horsehair","synthetic","with metal or wooden handle"],"s":W+"Sikh_rites","m":[]},
+{"n":"Palki sahib","a":"canopied seat","d":"Canopied stand for the Guru Granth Sahib in a home or gurdwara.","t":["wooden","with quilted mat and cushions","processional palanquin"],"s":W+"Gurdwara","m":[]},
+{"n":"Khanda emblem","a":"Sikh khanda","d":"Sikh emblem of a double-edged khanda, a chakkar and two crossed kirpans, made as wall plaque, pendant or flag finial.","t":["wall plaque","pendant","flag finial (Nishan Sahib)"],"s":W+"Khanda_(Sikh_symbol)","m":[]},
+{"n":"Siddhachakra yantra","a":"Navapada · Navadevta","d":"Jain sacred diagram of nine elements on a lotus, worshipped on brass or silver plates.","t":["brass plate","silver or copper plate","small central Navapada","Brihad Siddhachakra"],"s":W+"Siddhachakra","m":[]}
+]
+save('03_01',{"kinds":kinds,"brands":[],"traditions":[],"notes":"Jain puja set omitted (no retrieved source). Kesh and dastar left to Clothing as the brief says. Palki sahib sourced to Gurdwara page (canopied seat) and Sikh_rites; manji sahib not retrieved."})

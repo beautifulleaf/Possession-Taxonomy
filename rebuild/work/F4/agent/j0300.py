@@ -1,0 +1,31 @@
+import sys; sys.path.insert(0,'/home/user/Possession-Taxonomy/rebuild/work/F4/agent')
+from w import save
+W='https://en.wikipedia.org/wiki/'
+kinds=[
+{"n":"Murti","a":"deity image · idol · pratima","d":"Consecrated image of a Hindu deity for worship at home or in a temple; made in stone, metal, wood or clay.",
+ "t":["panchaloha","brass","marble","black granite","wood","clay","festival (utsava) murti"],"s":W+"Murti",
+ "x":[{"n":"Nataraja","a":"Shiva as Lord of the Dance","d":"Four-armed dancing Shiva in a ring of flames, trampling the dwarf Apasmara; the best-known Tamil bronze.","mk":"","y":"Chola period, 10th century","s":W+"Nataraja","v":[{"n":"Chola bronze","mk":"","y":"c. 10th century","d":"Lost-wax cast, mostly copper, typically under four feet tall"}],"dt":"lost-wax bronze · tandava pose · flame ring"},
+ {"n":"Shiva linga","a":"linga","d":"Aniconic form of Shiva worshipped as a murti.","mk":"","y":"","s":W+"Murti","dt":"stone or metal · yoni base"},
+ {"n":"Shaligram","a":"","d":"Sacred ammonite fossil worshipped as a murti of Vishnu.","mk":"","y":"","s":W+"Murti","dt":"fossil stone"}],"m":[]},
+{"n":"Home mandir","a":"home shrine · puja room · devaghar","d":"Household shrine, often wooden and temple-shaped, holding deity images, a lamp and offerings.","t":["wall-mounted","freestanding wooden","marble","with gopuram top"],"s":W+"Hindu_worship","m":[]},
+{"n":"Oil lamp for worship","a":"diya · butter lamp","d":"Lamp burning oil or ghee, made for worship.",
+ "t":["clay diya","brass diya","aarti lamp","akhand diya (continuous)","hanging","floating leaf lamp","stone kalvilakku"],"s":"https://www.globallinker.com/products/oil-lamp-lakshmi-diya-in-brass-for-puja-6727466",
+ "x":[{"n":"Kuthuvilakku","a":"nilavilakku · multi-wick brass lamp","d":"Ornate multi-wick brass lamp, a typical household lamp in South India.","mk":"","y":"","s":W+"Diya_(lamp)","dt":"brass · 1 to 7 wicks"},
+ {"n":"Nachiarkoil lamp","a":"Annam lamp","d":"Hollow-cast brass lamp made by Kammalar artisans at Nachiarkoil; GI registered 2010.","mk":"","y":"GI 2010","s":W+"Nachiarkoil_lamp","dt":"brass · base, post, five-groove bowl, hamsa crown"}],
+ "m":[["Akhand diya",""],["Butter lamp",""],["Diya",""]]},
+{"n":"Puja thali","a":"pooja plate","d":"Tray on which puja materials are gathered, in steel, brass or silver.","t":["steel","brass","silver","festival set"],"s":W+"Puja_thali","m":[]},
+{"n":"Kalash","a":"kalasha · purna-kalasha","d":"Metal pot with wide base and narrow mouth, filled with water and topped with mango leaves and a coconut.","t":["brass","copper","silver"],"s":W+"Kalasha","m":[]},
+{"n":"Ritual spoon or ladle","a":"achamani · fire-offering ladle · communion spoon","d":"Spoon or ladle made to pour or offer water, ghee or a sacrament in a rite.","t":["achamani","sruk (fire ladle)","brass"],"s":"https://bhunes.com/collections/brass-pooja-articles/products/brass-handcrafted-havan-spoon-traditional-achamani-sruk-for-yajna-homa","m":[["Achamani",""]]},
+{"n":"Shankha","a":"conch · sacred conch","d":"Conch shell blown in worship and aarti and used to bathe deity images.",
+ "t":["right-turning (dakshinavarta)","common left-opening","carved","with metal mount"],"s":W+"Shankha",
+ "x":[{"n":"Dakshinavarta shankha","a":"","d":"Rare shell coiling to the left, held especially auspicious and linked to Lakshmi and Vishnu.","mk":"","y":"","s":W+"Shankha","dt":"Turbinella pyrum"}],"m":[]},
+{"n":"Havan kund","a":"homa kund · fire pit","d":"Small metal or brick fire pit for homa (havan) offerings of ghee, grain and wood.","t":["copper","brass","brick","pyramid"],"s":W+"Hindu_worship","m":[]},
+{"n":"Mala","a":"japa mala · prayer mala","d":"Loop of 108 (or 27, 54) beads with a guru bead and tassel, made to count mantra repetitions in Hindu and Buddhist practice; wrist malas are a short form.",
+ "t":["rudraksha","tulsi","sandalwood","crystal","wrist mala","108 beads","54 beads","27 beads"],"s":"https://www.artoftibet.com/collections/malas-prayer-beads",
+ "x":[{"n":"Rudraksha mala","a":"","d":"108 rudraksha seeds (Elaeocarpus ganitrus), sacred to Shaiva Hindus.","mk":"","y":"","s":W+"Japamala","dt":"seeds · 108 + guru bead"},
+ {"n":"Tulsi mala","a":"","d":"Holy-basil wood beads used by Vaishnavas and ISKCON for chanting.","mk":"","y":"","s":W+"Japamala","dt":"tulsi wood"}],"m":[]}
+]
+trads=[
+{"n":"Swamimalai bronze icons","g":"Metal & blades","r":"Swamimalai, Thanjavur, Tamil Nadu","p":"Chola era to present","d":"Lost-wax cast Hindu bronzes by descendants of Chola temple sculptors; GI registered 2008-09.","tech":"lost-wax (cire perdue) casting, hand chiselling","mat":"panchaloha historically; now brass and bronze","forms":["Nataraja","deity murtis"],"ctr":["Swamimalai","Thanjavur"],"auth":"Each icon is cast in a one-off clay mould; GI-registered workshops.","s":W+"Swamimalai_Bronze_Icons"},
+{"n":"Nachiarkoil lamps","g":"Metal & blades","r":"Nachiarkoil, Tamil Nadu","p":"since 1857 (artisans settled)","d":"Hollow-cast brass lamps by Kammalar families; GI registered 2010.","tech":"hollow casting in river sand moulds","mat":"brass, bell metal","forms":["kuthuvilakku","Annam lamp"],"ctr":["Nachiarkoil"],"auth":"GI registration as Nachiarkoil Kuthuvilakku.","s":W+"Nachiarkoil_lamp"}]
+save('03_00',{"kinds":kinds,"brands":[],"traditions":trads,"notes":"Not covered for lack of a retrieved page: Ganesha and Lakshmi archetypes, Jaipur marble tradition, Kerala bell-metal. Home mandir and Havan kund rest on Hindu_worship (general). Buddhist malas listed here only as type (Japamala page covers both)."})
