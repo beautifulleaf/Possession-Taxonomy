@@ -8,8 +8,8 @@ af = K('Action figure', 'A jointed figure of a character made to be posed and pl
         ('A Real American Hero', 'Hasbro', '1982', '3.75-inch relaunch with vehicles and playsets'), ('Sigma 6', 'Hasbro', '2005', '8-inch'),
         ('25th Anniversary', 'Hasbro', '2007', '4-inch'), ('Classified Series', 'Hasbro', '2020', '6-inch')], dt='scale · era · figure · accessories'),
      X('Kenner Star Wars', 'The 3¾-inch Star Wars figures that set the industry-standard small scale with moulded clothing.', 'Kenner', '1978', KSW,
-       [('Early Bird Certificate Package', 'Kenner', '1977', 'mail-in for Luke, Leia, Chewbacca, R2-D2; figures shipped Feb 1978'),
-        ('First twelve', 'Kenner', '1978', 'adds C-3PO, Darth Vader, Stormtrooper, Obi-Wan, Han Solo, Jawa, Tusken Raider, Death Squad Commander'),
+       [('Early Bird Certificate Package', 'Kenner', '', 'mail-in for Luke, Leia, Chewbacca, R2-D2; figures shipped Feb 1978'),
+        ('First twelve', 'Kenner', '1978', 'adds C-3PO, Darth Vader, Stormtrooper, Obi-Wan, Han Solo, Jawa, Tusken Raider, Star Destroyer Commander'),
         ('Boba Fett mail-away', 'Kenner', '', 'rocket-firing prototype sold for $1.342 million in 2024'),
         ('Power of the Force (coins)', 'Kenner', '1985', '15 figures with collector coins'), ('Droids and Ewoks', 'Kenner', '1985', ''),
         ('Power of the Force relaunch', 'Kenner', '1995', 'by Hasbro-owned Kenner'),
@@ -74,7 +74,7 @@ sol = K('Toy soldier & animal figure', 'A small cast or moulded figure of a sold
 K_ = 'knowledge'
 brands = [
  B('Hasbro', 'United States', '', 'Mainstream', 'G.I. Joe, Transformers', 'US toy and game company behind G.I. Joe, Transformers and later Kenner lines.', K_, sig=['G.I. Joe', 'Transformers'], rel=['Kenner', 'Takara']),
- B('Kenner', 'United States', '', 'Mainstream', 'Star Wars figures', 'Cincinnati toy maker of the original Star Wars figures, later part of Hasbro.', KSW, sig=['Kenner Star Wars'], rel=['Hasbro']),
+ B('Kenner', 'United States', '', 'Mainstream', 'Star Wars figures', 'US toy maker of the original Star Wars figures, later part of Hasbro.', KSW, sig=['Kenner Star Wars'], rel=['Hasbro']),
  B('Palitoy', 'United Kingdom', '', 'Heritage manufactory', 'Action Man', 'Coalville, Leicestershire toy maker of Action Man under licence from Hasbro.', WP + 'Action_Man', sig=['Action Man']),
  B('Takara', 'Japan', '', 'Mainstream', 'Microman, Diaclone', 'Japanese toy company behind Microman and Diaclone; merged into Takara Tomy.', WP + 'Microman', sig=['Microman', 'Diaclone and Micro Change'], rel=['Takara Tomy']),
  B('Takara Tomy', 'Japan', '', 'Mainstream', 'Transformers Masterpiece', 'Japanese toy company formed from Takara and Tomy.', WP + 'MP36', sig=['Transformers Masterpiece'], rel=['Takara']),
@@ -94,7 +94,7 @@ brands = [
  B('Sideshow Collectibles', 'United States', '1994', 'Premium', 'sixth-scale figures, statues', 'Thousand Oaks collectibles firm and Hot Toys distributor.', WP + 'Sideshow_Collectibles', sig=['Sideshow sixth-scale figures'], rel=['Hot Toys']),
  B('Tonka', 'United States', '', 'Mainstream', 'toy trucks', 'US toy maker of GoBots, whose IP Hasbro bought in 1991.', WP + 'Transformers', sig=['GoBots']),
  B('Britains', 'United Kingdom', '1893', 'Heritage manufactory', 'toy soldiers', 'London toy-soldier maker founded by William Britain Jr., inventor of hollow casting.', WP + 'Britains', sig=['Britains hollow-cast soldiers']),
- B('Timpo', 'United Kingdom', '1938', 'Heritage manufactory', 'plastic soldiers', 'British toy-soldier maker known for over-moulded plastic figures; closed 1978.', TS),
+ B('Timpo', 'United Kingdom', '', 'Heritage manufactory', 'plastic soldiers', 'British toy-soldier maker known for over-moulded plastic figures; closed 1978.', TS),
  B('Airfix', 'United Kingdom', '', 'Mainstream', 'plastic kits, soldiers', 'British maker of plastic kits and figures.', K_),
  B('Schleich', 'Germany', '1935', 'Mainstream', 'animal figurines', 'Schwäbisch Gmünd maker of hand-painted figurines, founded by Friedrich Schleich.', WP + 'Schleich', sig=['Schleich figures']),
  B('Papo', 'France', '', 'Mainstream', 'painted figurines', 'French maker of painted animal, knight and fantasy figurines.', 'https://www.papo-france.com/en/magasins', sig=['Papo figures']),
@@ -102,5 +102,5 @@ brands = [
 notes = ("Action figure: lines as archetypes (G.I. Joe, Kenner Star Wars incl. Black Series as version, Action Man, Microman, MOTU, TMNT, Power Rangers, Marvel Legends, S.H.Figuarts, figma, Revoltech, McFarlane, NECA, Mezco). "
  "Old S.H.Figuarts Makima kept as a version; old figma range moved to figma archetype (maker Max Factory per Wikipedia; Good Smile distributes). New kinds Transforming robot toy and Sixth-scale collector figure. "
  "Toy soldier: old models kept in m; Schleich Horse Club now a version. Old range 'Calico Critters (Epoch)' dropped here: it belongs to Playset (shelf 01_01, already covered). "
- "Not added for lack of a retrieved page: Threezero, Vintage Collection, Studio Series, Power Rangers versions beyond 1993; Timpo's founding from Wikipedia search snippet only, so brand cites Toy_soldier page.")
+ "Not added for lack of a retrieved page: Threezero, Vintage Collection, Studio Series, Power Rangers versions beyond 1993; Timpo founding year left out (search snippet only).")
 write('02_00', [af, tf, six, sol], brands, [], notes)
