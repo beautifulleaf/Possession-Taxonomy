@@ -1,0 +1,16 @@
+BRAND-LED HARVEST for category H1 (Personal Care & Beauty). Owner decision: for fashion and luxury categories the brand register must cover the market coherently, independent of models. Target: about 700 brands in total for this category (existing + new), spread across EVERY segment of the vocabulary — not just heritage and luxury: high street, value & basics, streetwear, athletic, contemporary, designer, outdoor, Japanese & denim, subculture, traditional dress, bespoke.
+
+Work from /home/user/Possession-Taxonomy/rebuild. Read SEGMENTS.json (domain vocabulary), SCHEMA.md (BRAND shape) and tools/harvest.py (rules). Existing register brands for this category: reader/_brands.json entries whose "cats" include H1 — do not re-add them unless you are linking a brand that exists only under another category.
+
+SOURCES (find each by search; never type a URL you have not found; never work around a block — if a site is blocked, move on):
+Sephora, Cult Beauty, Space NK, Ulta and Boots brand A–Z pages; INCI Decoder brand list; K-beauty and J-beauty brand lists (YesStyle, Stylevana brand indexes); Good On You / Leaping Bunny brand lists; Wikipedia lists of cosmetics companies.
+Also: Wikipedia lists and categories, and Wikidata via `python3 tools/local.py wd H1 harvest sparql "<query>"` (one or two broad SELECT queries for the relevant classes with country P17/P495, inception P571, parent P749 and an enwiki sitelink; if it returns 429 move on — do not loop).
+
+RULES
+- Every brand needs "s": either a page you retrieved with WebFetch that names the brand (a brand index/A–Z page counts; log it with `python3 tools/local.py logsrc H1 harvest fetched <url>` exactly as cited), a Wikidata entity URL returned by the wd helper, or "knowledge" for a well-known brand you know reliably.
+- Facts (country "c", founding year "f", one-sentence "d", "lines", "sig") only if a retrieved page states them or you know them reliably; otherwise leave the field out. Never invent.
+- "seg" exactly one value from the vocabulary; "kf" 1–3 lower-case words for what the brand is known for.
+- Brands only: no retailers that are not also brands, no marketplace sellers, no single-person Etsy shops, no defunct brands unless historically important (then say so in "d").
+- Write work/_harvest/H1.json = {"b":[...]} via a temp file then rename; scratch only in work/_harvest/H1_work/. Run `python3 tools/harvest.py check H1` and fix every error. Never run git; never use curl/wget/python HTTP.
+- RESUME RULE: if work/_harvest/H1.json exists, load it and continue adding; keep notes of sources tried in work/_harvest/H1_work/notes.md.
+Finish with: new brands per segment, sources used, sources blocked.
