@@ -1,0 +1,1103 @@
+{
+ "kinds": [
+  {
+   "n": "Desktop operating system",
+   "a": "",
+   "d": "Operating system that runs a desktop or laptop computer and its applications.",
+   "t": [
+    "Home edition",
+    "Pro edition",
+    "Education edition",
+    "ARM build",
+    "install-on-old-PC edition"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Comparison_of_operating_systems",
+   "x": [
+    {
+     "n": "Windows",
+     "a": "Microsoft Windows",
+     "d": "Microsoft's graphical operating system for PCs, sold in Home, Pro and business editions.",
+     "mk": "Microsoft",
+     "y": "1985",
+     "s": "https://en.wikipedia.org/wiki/Microsoft_Windows_version_history",
+     "v": [
+      {
+       "n": "Windows 1.0",
+       "mk": "Microsoft",
+       "y": "1985"
+      },
+      {
+       "n": "Windows 2.0",
+       "mk": "Microsoft",
+       "y": "1987"
+      },
+      {
+       "n": "Windows 3.0",
+       "mk": "Microsoft",
+       "y": "1990"
+      },
+      {
+       "n": "Windows 3.1",
+       "mk": "Microsoft",
+       "y": "1992"
+      },
+      {
+       "n": "Windows 95",
+       "mk": "Microsoft",
+       "y": "1995",
+       "d": "Original, A, B (OSR2), B USB (OSR2.1), C (OSR2.5); the OSR releases were OEM-only"
+      },
+      {
+       "n": "Windows 98",
+       "mk": "Microsoft",
+       "y": "1998",
+       "d": "Second Edition followed"
+      },
+      {
+       "n": "Windows Me",
+       "mk": "Microsoft",
+       "y": "2000"
+      },
+      {
+       "n": "Windows XP",
+       "mk": "Microsoft",
+       "y": "2001",
+       "d": "Home, Professional, N, Media Center, Tablet PC, Starter, Professional x64"
+      },
+      {
+       "n": "Windows Vista",
+       "mk": "Microsoft",
+       "y": "2007",
+       "d": "Starter, Home Basic, Home Premium, Business, Enterprise, Ultimate"
+      },
+      {
+       "n": "Windows 7",
+       "mk": "Microsoft",
+       "y": "2009",
+       "d": "Starter, Home Basic, Home Premium, Professional, Enterprise, Ultimate"
+      },
+      {
+       "n": "Windows 8",
+       "mk": "Microsoft",
+       "y": "2012",
+       "d": "Windows 8, Pro, Enterprise, RT"
+      },
+      {
+       "n": "Windows 8.1",
+       "mk": "Microsoft",
+       "y": "2013",
+       "d": "Same editions as Windows 8"
+      },
+      {
+       "n": "Windows 10",
+       "mk": "Microsoft",
+       "y": "2015",
+       "d": "Home, Pro, Pro for Workstations, Pro Education, Education, Enterprise, IoT Enterprise, S mode"
+      },
+      {
+       "n": "Windows 11",
+       "mk": "Microsoft",
+       "y": "2021",
+       "d": "Home, Pro, Pro for Workstations, Pro Education, Education, Enterprise, SE; N and KN editions without media player"
+      }
+     ],
+     "dt": "edition (Home, Pro, Education, Enterprise) · architecture · language · retail or OEM licence"
+    },
+    {
+     "n": "macOS",
+     "a": "Mac OS X · OS X",
+     "d": "Apple's operating system for Mac computers, named by cat, then California place after version 10.",
+     "mk": "Apple",
+     "y": "2001",
+     "s": "https://en.wikipedia.org/wiki/MacOS_version_history",
+     "v": [
+      {
+       "n": "Mac OS X 10.0 Cheetah",
+       "mk": "Apple",
+       "y": "2001"
+      },
+      {
+       "n": "Mac OS X 10.1 Puma",
+       "mk": "Apple",
+       "y": "2001"
+      },
+      {
+       "n": "Mac OS X 10.2 Jaguar",
+       "mk": "Apple",
+       "y": "2002"
+      },
+      {
+       "n": "Mac OS X 10.3 Panther",
+       "mk": "Apple",
+       "y": "2003"
+      },
+      {
+       "n": "Mac OS X 10.4 Tiger",
+       "mk": "Apple",
+       "y": "2005"
+      },
+      {
+       "n": "Mac OS X 10.5 Leopard",
+       "mk": "Apple",
+       "y": "2007"
+      },
+      {
+       "n": "Mac OS X 10.6 Snow Leopard",
+       "mk": "Apple",
+       "y": "2009"
+      },
+      {
+       "n": "Mac OS X 10.7 Lion",
+       "mk": "Apple",
+       "y": "2011"
+      },
+      {
+       "n": "OS X 10.8 Mountain Lion",
+       "mk": "Apple",
+       "y": "2012"
+      },
+      {
+       "n": "OS X 10.9 Mavericks",
+       "mk": "Apple",
+       "y": "2013"
+      },
+      {
+       "n": "OS X 10.10 Yosemite",
+       "mk": "Apple",
+       "y": "2014"
+      },
+      {
+       "n": "OS X 10.11 El Capitan",
+       "mk": "Apple",
+       "y": "2015"
+      },
+      {
+       "n": "macOS 10.12 Sierra",
+       "mk": "Apple",
+       "y": "2016"
+      },
+      {
+       "n": "macOS 10.13 High Sierra",
+       "mk": "Apple",
+       "y": "2017"
+      },
+      {
+       "n": "macOS 10.14 Mojave",
+       "mk": "Apple",
+       "y": "2018"
+      },
+      {
+       "n": "macOS 10.15 Catalina",
+       "mk": "Apple",
+       "y": "2019"
+      },
+      {
+       "n": "macOS 11 Big Sur",
+       "mk": "Apple",
+       "y": "2020"
+      },
+      {
+       "n": "macOS 12 Monterey",
+       "mk": "Apple",
+       "y": "2021"
+      },
+      {
+       "n": "macOS 13 Ventura",
+       "mk": "Apple",
+       "y": "2022"
+      },
+      {
+       "n": "macOS 14 Sonoma",
+       "mk": "Apple",
+       "y": "2023"
+      },
+      {
+       "n": "macOS 15 Sequoia",
+       "mk": "Apple",
+       "y": "2024"
+      },
+      {
+       "n": "macOS 26 Tahoe",
+       "mk": "Apple",
+       "y": "2025"
+      },
+      {
+       "n": "macOS 27 Golden Gate",
+       "mk": "Apple",
+       "y": "2026"
+      }
+     ],
+     "dt": "version name · Intel or Apple silicon support"
+    },
+    {
+     "n": "ChromeOS",
+     "a": "Chrome OS",
+     "d": "Google's browser-centred operating system for Chromebooks and, as Flex, for ordinary PCs.",
+     "mk": "Google",
+     "y": "2011",
+     "s": "https://en.wikipedia.org/wiki/ChromeOS",
+     "v": [
+      {
+       "n": "ChromeOS",
+       "mk": "Google",
+       "y": "2011",
+       "d": "First shipped on Chromebooks in June 2011; proprietary, built on ChromiumOS"
+      },
+      {
+       "n": "ChromiumOS",
+       "mk": "Google",
+       "y": "2009",
+       "d": "Open-source project ChromeOS is partly derived from; source released November 2009"
+      },
+      {
+       "n": "ChromeOS Flex",
+       "mk": "Google",
+       "y": "2022",
+       "d": "Installable on non-Chromebook PCs and Macs; no Google Play or Android apps"
+      },
+      {
+       "n": "Googlebook OS",
+       "mk": "Google",
+       "d": "Announced Android-based successor to consumer ChromeOS"
+      }
+     ],
+     "dt": "Chromebook build · Flex install · Linux and Android app support"
+    }
+   ]
+  },
+  {
+   "n": "Linux distribution",
+   "a": "distro · GNU/Linux",
+   "d": "Complete operating system built around the Linux kernel, grouped here by the distribution it descends from.",
+   "t": [
+    "GNOME edition",
+    "KDE Plasma edition",
+    "Xfce edition",
+    "MATE edition",
+    "Cinnamon edition",
+    "LXQt edition",
+    "rolling release",
+    "point release",
+    "immutable",
+    "live USB",
+    "gaming",
+    "security testing",
+    "privacy-focused"
+   ],
+   "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
+   "x": [
+    {
+     "n": "Debian lineage",
+     "a": "",
+     "d": "Debian and the distributions built on it, including the Ubuntu family.",
+     "mk": "Debian Project",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
+     "v": [
+      {
+       "n": "Debian",
+       "mk": "Debian Project"
+      },
+      {
+       "n": "Ubuntu",
+       "mk": "Canonical",
+       "d": "Official flavours: Kubuntu, Lubuntu, Xubuntu, Ubuntu MATE, Ubuntu Budgie, Ubuntu Studio, Edubuntu, Ubuntu Cinnamon, Ubuntu Kylin"
+      },
+      {
+       "n": "Linux Mint",
+       "d": "Unofficial Ubuntu derivative"
+      },
+      {
+       "n": "Pop!_OS",
+       "mk": "System76",
+       "d": "Unofficial Ubuntu derivative"
+      },
+      {
+       "n": "elementary OS",
+       "mk": "Elementary LLC",
+       "d": "Unofficial Ubuntu derivative"
+      },
+      {
+       "n": "Zorin OS",
+       "mk": "Zorin Group",
+       "d": "Unofficial Ubuntu derivative"
+      },
+      {
+       "n": "MX Linux",
+       "mk": "MX Linux team"
+      },
+      {
+       "n": "Kali Linux",
+       "mk": "Offensive Security",
+       "d": "Security testing"
+      },
+      {
+       "n": "Parrot OS",
+       "mk": "Parrot Dev Team",
+       "d": "Security testing"
+      },
+      {
+       "n": "Tails",
+       "mk": "Tails Development Team",
+       "d": "Privacy-focused live system"
+      },
+      {
+       "n": "Raspberry Pi OS"
+      },
+      {
+       "n": "Deepin",
+       "mk": "Wuhan Deepin Technology Co., Ltd."
+      },
+      {
+       "n": "Devuan",
+       "d": "Debian fork offering a choice of init systems"
+      },
+      {
+       "n": "Whonix"
+      },
+      {
+       "n": "PureOS"
+      },
+      {
+       "n": "Q4OS"
+      },
+      {
+       "n": "SparkyLinux"
+      },
+      {
+       "n": "KNOPPIX",
+       "d": "Live system"
+      },
+      {
+       "n": "Endless OS"
+      },
+      {
+       "n": "Pardus",
+       "mk": "TUBITAK"
+      },
+      {
+       "n": "Trisquel"
+      }
+     ],
+     "dt": "release (stable, testing) · desktop environment · architecture"
+    },
+    {
+     "n": "Red Hat and Fedora lineage",
+     "a": "",
+     "d": "Fedora and the RPM-based systems derived from it, including rebuilds of Red Hat Enterprise Linux.",
+     "mk": "Fedora Project",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
+     "v": [
+      {
+       "n": "Fedora Linux",
+       "mk": "Fedora Project"
+      },
+      {
+       "n": "Rocky Linux",
+       "d": "RHEL-based rebuild"
+      },
+      {
+       "n": "AlmaLinux",
+       "d": "RHEL-based rebuild"
+      },
+      {
+       "n": "Nobara"
+      },
+      {
+       "n": "Bazzite",
+       "d": "Gaming-focused"
+      },
+      {
+       "n": "Qubes OS",
+       "mk": "Invisible Things Lab",
+       "d": "Security through isolation"
+      },
+      {
+       "n": "Fedora Asahi Remix",
+       "d": "For Apple silicon Macs"
+      },
+      {
+       "n": "Fedora CoreOS"
+      }
+     ],
+     "dt": "spin (desktop environment) · edition · release"
+    },
+    {
+     "n": "Arch lineage",
+     "a": "",
+     "d": "Arch Linux, a rolling-release system, and distributions built on its pacman packages.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
+     "v": [
+      {
+       "n": "Arch Linux"
+      },
+      {
+       "n": "Manjaro Linux"
+      },
+      {
+       "n": "EndeavourOS"
+      },
+      {
+       "n": "CachyOS"
+      },
+      {
+       "n": "Garuda Linux"
+      },
+      {
+       "n": "SteamOS",
+       "mk": "Valve"
+      },
+      {
+       "n": "Arch Linux ARM"
+      },
+      {
+       "n": "Artix",
+       "d": "Arch without systemd"
+      },
+      {
+       "n": "ArchBang"
+      },
+      {
+       "n": "BlackArch",
+       "d": "Security testing"
+      },
+      {
+       "n": "Parabola"
+      },
+      {
+       "n": "Hyperbola"
+      },
+      {
+       "n": "RebornOS"
+      },
+      {
+       "n": "Archcraft"
+      },
+      {
+       "n": "Athena OS"
+      },
+      {
+       "n": "Mabox"
+      },
+      {
+       "n": "KaOS",
+       "d": "Pacman-based but independent"
+      }
+     ],
+     "dt": "desktop environment · installer · rolling snapshot"
+    },
+    {
+     "n": "openSUSE lineage",
+     "a": "",
+     "d": "openSUSE and distributions built on it.",
+     "mk": "openSUSE Project",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
+     "v": [
+      {
+       "n": "openSUSE",
+       "mk": "openSUSE Project"
+      },
+      {
+       "n": "GeckoLinux"
+      },
+      {
+       "n": "Linux Kamarada"
+      }
+     ]
+    },
+    {
+     "n": "Mandriva lineage",
+     "a": "",
+     "d": "The Mandrake and Mandriva descendants, still kept up by community projects.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
+     "v": [
+      {
+       "n": "Mageia",
+       "mk": "Mageia Community"
+      },
+      {
+       "n": "OpenMandriva Lx"
+      },
+      {
+       "n": "ROSA",
+       "mk": "LLC NTC IT ROSA"
+      },
+      {
+       "n": "PCLinuxOS"
+      },
+      {
+       "n": "ALT Linux",
+       "mk": "Alt Linux Team"
+      }
+     ]
+    },
+    {
+     "n": "Slackware lineage",
+     "a": "",
+     "d": "Slackware, an early distribution kept deliberately simple, and its derivatives.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
+     "v": [
+      {
+       "n": "Slackware"
+      },
+      {
+       "n": "Salix"
+      },
+      {
+       "n": "Slax"
+      },
+      {
+       "n": "Porteus"
+      },
+      {
+       "n": "Zenwalk"
+      }
+     ]
+    },
+    {
+     "n": "Gentoo lineage",
+     "a": "",
+     "d": "Gentoo, which builds software from source, and its derivatives.",
+     "mk": "Gentoo Foundation",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
+     "v": [
+      {
+       "n": "Gentoo Linux",
+       "mk": "Gentoo Foundation"
+      },
+      {
+       "n": "Calculate Linux"
+      },
+      {
+       "n": "Redcore"
+      }
+     ]
+    },
+    {
+     "n": "NixOS",
+     "a": "",
+     "d": "Distribution configured declaratively through the Nix package manager, with atomic rollbacks.",
+     "mk": "NixOS Foundation",
+     "y": "2006",
+     "s": "https://en.wikipedia.org/wiki/NixOS",
+     "v": [
+      {
+       "n": "NixOS",
+       "mk": "NixOS Foundation",
+       "y": "2006",
+       "d": "First prototype 2006; first stable release 13.10 in 2013"
+      }
+     ]
+    },
+    {
+     "n": "Independent distributions",
+     "a": "",
+     "d": "Distributions that are not derived from the lineages above.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
+     "v": [
+      {
+       "n": "Void Linux"
+      },
+      {
+       "n": "Alpine"
+      },
+      {
+       "n": "Solus"
+      },
+      {
+       "n": "Puppy Linux",
+       "mk": "Puppy Foundation"
+      },
+      {
+       "n": "Tiny Core Linux"
+      },
+      {
+       "n": "Guix System"
+      },
+      {
+       "n": "Linux From Scratch"
+      },
+      {
+       "n": "GoboLinux"
+      },
+      {
+       "n": "CRUX"
+      },
+      {
+       "n": "Source Mage"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Alternative & hobby operating system",
+   "a": "hobby OS · niche OS",
+   "d": "Desktop operating system outside Windows, macOS and Linux, kept alive by enthusiasts, such as BSDs, BeOS and Amiga descendants, and new from-scratch systems.",
+   "t": [
+    "BSD on the desktop",
+    "Unix-like from scratch",
+    "legacy-system continuation",
+    "retro platform"
+   ],
+   "s": "https://en.wikipedia.org/wiki/List_of_OSes",
+   "x": [
+    {
+     "n": "FreeBSD and desktop BSDs",
+     "a": "",
+     "d": "Unix descended from Berkeley BSD, first released in 1993, with desktop-oriented derivatives.",
+     "mk": "",
+     "y": "1993",
+     "s": "https://en.wikipedia.org/wiki/FreeBSD",
+     "v": [
+      {
+       "n": "FreeBSD",
+       "y": "1993",
+       "d": "Grew out of 386BSD"
+      },
+      {
+       "n": "GhostBSD",
+       "mk": "Eric Turgeon",
+       "y": "2010",
+       "d": "Desktop distribution with MATE"
+      },
+      {
+       "n": "MidnightBSD",
+       "y": "2007",
+       "d": "Desktop-focused, forked from FreeBSD 6.1"
+      },
+      {
+       "n": "DragonFly BSD",
+       "mk": "Matthew Dillon",
+       "d": "Forked from FreeBSD 4.8"
+      }
+     ]
+    },
+    {
+     "n": "Haiku",
+     "a": "",
+     "d": "Free re-implementation of BeOS, begun as OpenBeOS in 2001.",
+     "mk": "Haiku Inc",
+     "y": "2001",
+     "s": "https://en.wikipedia.org/wiki/Haiku_(operating_system)",
+     "v": [
+      {
+       "n": "R1/Alpha1",
+       "y": "2009"
+      },
+      {
+       "n": "R1/Alpha2",
+       "y": "2010"
+      },
+      {
+       "n": "R1/Alpha3",
+       "y": "2011"
+      },
+      {
+       "n": "R1/Alpha4",
+       "y": "2012"
+      },
+      {
+       "n": "R1/Beta1",
+       "y": "2018"
+      },
+      {
+       "n": "R1/Beta2",
+       "y": "2020"
+      },
+      {
+       "n": "R1/Beta3",
+       "y": "2021"
+      },
+      {
+       "n": "R1/Beta4",
+       "y": "2022"
+      },
+      {
+       "n": "R1/Beta5",
+       "y": "2024"
+      },
+      {
+       "n": "R1/Beta6",
+       "y": "2026",
+       "d": "Preview"
+      }
+     ]
+    },
+    {
+     "n": "RISC OS",
+     "a": "",
+     "d": "Operating system for ARM computers, designed by Acorn for the Archimedes.",
+     "mk": "Acorn Computers",
+     "y": "1987",
+     "s": "https://en.wikipedia.org/wiki/RISC_OS",
+     "v": [
+      {
+       "n": "Arthur",
+       "mk": "Acorn Computers",
+       "y": "1987",
+       "d": "First release, Arthur 1.20"
+      },
+      {
+       "n": "RISC OS 2",
+       "mk": "Acorn Computers",
+       "y": "1989"
+      },
+      {
+       "n": "RISC OS 3",
+       "mk": "Acorn Computers",
+       "y": "1991",
+       "d": "3.5 followed in 1994"
+      },
+      {
+       "n": "RISC OS 4",
+       "mk": "RISCOS Ltd",
+       "y": "1999",
+       "d": "Based on 3.8"
+      },
+      {
+       "n": "RISC OS 5",
+       "y": "2002",
+       "d": "32-bit; first on the Iyonix PC; open-sourced 2018; 5.30 in April 2024"
+      },
+      {
+       "n": "RISC OS 6",
+       "mk": "RISCOS Ltd",
+       "y": "2009",
+       "d": "Proprietary; 6.20"
+      }
+     ]
+    },
+    {
+     "n": "OS/2 continuations",
+     "a": "",
+     "d": "Descendants of IBM OS/2 sold to enthusiasts and businesses.",
+     "mk": "Arca Noae",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/List_of_OSes",
+     "v": [
+      {
+       "n": "ArcaOS",
+       "mk": "Arca Noae",
+       "d": "Warp 4.52 based"
+      },
+      {
+       "n": "eComStation",
+       "mk": "Serenity Systems",
+       "d": "Repackaged Warp 4.5"
+      }
+     ]
+    },
+    {
+     "n": "AmigaOS and descendants",
+     "a": "",
+     "d": "Amiga-style systems: AmigaOS 4 for PowerPC and MorphOS.",
+     "mk": "",
+     "y": "1999",
+     "s": "https://en.wikipedia.org/wiki/MorphOS",
+     "v": [
+      {
+       "n": "AmigaOS 4",
+       "mk": "Hyperion Entertainment"
+      },
+      {
+       "n": "MorphOS",
+       "y": "2000",
+       "d": "First release 0.1 in 2000; 3.20 in 2026"
+      }
+     ]
+    },
+    {
+     "n": "ReactOS",
+     "a": "",
+     "d": "Free system aiming at binary compatibility with Windows programs and drivers, still alpha.",
+     "mk": "ReactOS development team",
+     "y": "1998",
+     "s": "https://en.wikipedia.org/wiki/ReactOS",
+     "v": [
+      {
+       "n": "ReactOS 0.4.16",
+       "y": "2026",
+       "d": "Latest release at retrieval"
+      }
+     ]
+    },
+    {
+     "n": "SerenityOS",
+     "a": "",
+     "d": "From-scratch Unix-like desktop with a 1990s-style interface; built from source, no releases.",
+     "mk": "Andreas Kling",
+     "y": "2018",
+     "s": "https://en.wikipedia.org/wiki/SerenityOS",
+     "v": []
+    },
+    {
+     "n": "FreeDOS",
+     "a": "",
+     "d": "Free MS-DOS-compatible system begun by Jim Hall in 1994.",
+     "mk": "",
+     "y": "1994",
+     "s": "https://en.wikipedia.org/wiki/FreeDOS",
+     "v": [
+      {
+       "n": "FreeDOS 1.0",
+       "y": "2006"
+      },
+      {
+       "n": "FreeDOS 1.1",
+       "y": "2012"
+      },
+      {
+       "n": "FreeDOS 1.2",
+       "y": "2016"
+      },
+      {
+       "n": "FreeDOS 1.3",
+       "y": "2022"
+      },
+      {
+       "n": "FreeDOS 1.4",
+       "y": "2025"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Virtual machine software",
+   "a": "virtualisation software",
+   "d": "Program that runs one or more virtual machines or whole guest systems on the owner's computer.",
+   "t": [
+    "hosted hypervisor",
+    "built-in OS hypervisor",
+    "full-system emulator",
+    "Apple silicon virtualiser"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_software",
+   "m": [
+    [
+     "VirtualBox",
+     "Oracle Corporation"
+    ],
+    [
+     "VMware Workstation",
+     "VMware"
+    ],
+    [
+     "VMware Fusion",
+     "VMware"
+    ],
+    [
+     "VMware Player",
+     "VMware"
+    ],
+    [
+     "Parallels Desktop for Mac",
+     "Parallels"
+    ],
+    [
+     "Hyper-V",
+     "Microsoft"
+    ],
+    [
+     "QEMU",
+     "QEMU project"
+    ],
+    [
+     "UTM",
+     "Turing Software"
+    ],
+    [
+     "KVM",
+     "Red Hat"
+    ],
+    [
+     "Virtual Machine Manager",
+     "Red Hat"
+    ],
+    [
+     "Proxmox VE",
+     "Proxmox"
+    ],
+    [
+     "bhyve",
+     "FreeBSD Project"
+    ],
+    [
+     "Windows Virtual PC",
+     "Microsoft"
+    ],
+    [
+     "Virtual PC",
+     "Microsoft"
+    ],
+    [
+     "DOSBox",
+     "Peter Veenstra"
+    ],
+    [
+     "86Box",
+     ""
+    ],
+    [
+     "Bochs",
+     ""
+    ]
+   ]
+  },
+  {
+   "n": "App compatibility layer",
+   "a": "",
+   "d": "Program that runs another operating system's applications directly, without a virtual machine or emulated hardware.",
+   "t": [
+    "Windows apps on Linux",
+    "Windows apps on Mac",
+    "x86 on ARM translation",
+    "Android apps on desktop"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Wine_(software)",
+   "m": [
+    [
+     "Wine",
+     ""
+    ],
+    [
+     "Proton",
+     "Valve"
+    ],
+    [
+     "CrossOver",
+     "CodeWeavers"
+    ],
+    [
+     "Bottles",
+     "Bottles developers"
+    ],
+    [
+     "Wineskin",
+     ""
+    ],
+    [
+     "Rosetta 2",
+     "Apple"
+    ],
+    [
+     "Box64",
+     "ptitSeb"
+    ],
+    [
+     "FEX",
+     "Ryan Houdek"
+    ],
+    [
+     "Hangover",
+     "AndreRH"
+    ],
+    [
+     "Winlator",
+     "brunodev85"
+    ],
+    [
+     "WOW64",
+     "Microsoft"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Microsoft",
+   "c": "United States",
+   "f": "1975",
+   "seg": "Mainstream",
+   "kf": "Windows",
+   "d": "American software company that makes Windows.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Apple",
+   "c": "United States",
+   "f": "1976",
+   "seg": "Premium",
+   "kf": "macOS",
+   "d": "American company that makes the Mac and macOS.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Google",
+   "c": "United States",
+   "f": "1998",
+   "seg": "Mainstream",
+   "kf": "ChromeOS",
+   "d": "American company behind ChromeOS and Android.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Valve",
+   "c": "United States",
+   "f": "1996",
+   "seg": "Mainstream",
+   "kf": "Steam, Proton",
+   "d": "American games company behind Steam, SteamOS and Proton.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Oracle Corporation",
+   "c": "United States",
+   "f": "1977",
+   "seg": "Mainstream",
+   "kf": "VirtualBox",
+   "d": "American software company that owns VirtualBox.",
+   "s": "knowledge"
+  },
+  {
+   "n": "VMware",
+   "c": "United States",
+   "f": "1998",
+   "seg": "Premium",
+   "kf": "virtualisation",
+   "d": "Virtualisation company behind Workstation, Player and Fusion.",
+   "s": "knowledge"
+  },
+  {
+   "n": "CodeWeavers",
+   "c": "United States",
+   "f": "1996",
+   "seg": "Specialist",
+   "kf": "CrossOver",
+   "d": "Company that sells CrossOver and funds much Wine work.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Acorn Computers",
+   "c": "United Kingdom",
+   "f": "1978",
+   "seg": "Heritage manufactory",
+   "kf": "RISC OS",
+   "d": "British computer maker that designed RISC OS for its ARM machines.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Canonical",
+   "c": "United Kingdom",
+   "f": "2004",
+   "seg": "Mainstream",
+   "kf": "Ubuntu",
+   "d": "Company that publishes and supports Ubuntu.",
+   "s": "knowledge"
+  }
+ ],
+ "traditions": [],
+ "notes": "Desktop operating system: 160-odd Linux/BSD/hobby names from old k9 redistributed into lineage archetypes (Linux distribution) and the hobby kind; Windows, macOS and ChromeOS are archetypes with versions/editions from fetched Wikipedia pages. Dropped as server, appliance, router, NAS, media-centre, phone or single-purpose systems: OpenWrt, VyOS, openmediavault, FreedomBox, Volumio, CoreELEC, LibreELEC, OSMC, Lakka, Recalbox, Batocera.linux, DietPi, Armbian, ZimaOS, Tribblix, openEuler, openKylin, LineageOS, Murena, postmarketOS, Mobian, Ubuntu Touch, also minor/dead or unplaced distros (Adelie, BigLinux, BlankOn, Bluefin, BunsenLabs, CAINE, Drauger OS, Elive, Emmabuntus, Exherbo, Feren OS, Finnix, Freespire, Linspire, Lindows, FydeOS, GNOME OS, Kicksecure, Kodachi, KDE neon, LinuxConsole, Nitrux, Obarun, Oreon, Pentoo, Peppermint OS, PikaOS, SliTaz, SolydXK, SystemRescue, TUXEDO OS, Ultramarine, Vanilla OS, Voyager, Wattos, antiX, blendOS, Linux Lite, Bodhi Linux, Damn Small Linux, Chimera, ChimeraOS). Classic Mac OS and other dead tails belong on the Classic software shelf. Virtual machine software cut from 50 to 17: dropped server/enterprise hypervisors (ESX/ESXi, XenServer, XCP-ng, Xen, PowerVM, z/VM, Virtuozzo, OpenVZ, OpenNebula, Oracle VM, Sun xVM, Virtual Iron, Wind River, PikeOS, LynxSecure, VirtualLogix, XtratuM, OKL4, RTS, Integrity VM), research/mainframe emulators (SIMH, GXemul, Hercules, Simics, CHARON, JPC, PearPC) and dead products (Virtual Server, VMware Server/ESX, Parallels Workstation, QuickTransit, SVISTA, Cooperative Linux, User Mode Linux, DOSEMU, LXC). UTM added from a fetched page. App compatibility layer cut from 21 to 11: dropped single-game or fringe wrappers (Sober, Vinegar, TeknoParrot, GameHub, MiceWine, libndk, libhoudini, Win3mu, NTVDMx64, Boxedwine). Brand entries use owner-approved knowledge."
+}
