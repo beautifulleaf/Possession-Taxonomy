@@ -1,0 +1,883 @@
+{
+ "kinds": [
+  {
+   "n": "Gamepad",
+   "a": "joypad · controller",
+   "d": "Hand-held controller with a directional pad, buttons and sticks or triggers, held in both hands.",
+   "t": [
+    "wired",
+    "wireless",
+    "pro controller with back paddles",
+    "accessible controller"
+   ],
+   "s": "https://en.wikipedia.org/wiki/List_of_game_controllers",
+   "x": [
+    {
+     "n": "NES controller",
+     "a": "Famicom controller",
+     "d": "Nintendo's rectangular pad that brought the D-pad from Game & Watch to home consoles.",
+     "mk": "Nintendo",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Gamepad",
+     "v": [
+      {
+       "n": "NES / Famicom controller",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "original pad"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Super NES controller",
+     "a": "Super Famicom controller",
+     "d": "Nintendo pad with four face buttons in a diamond and two shoulder buttons, the layout most modern pads follow.",
+     "mk": "Nintendo",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Gamepad",
+     "v": [
+      {
+       "n": "Super NES controller",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "original"
+      },
+      {
+       "n": "Super Nintendo Classic Mini controller",
+       "mk": "Nintendo",
+       "y": "",
+       "d": "mini-console reissue"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Mega Drive and Genesis control pad",
+     "a": "Genesis controller",
+     "d": "Sega's pad with three face buttons, later a six-button version.",
+     "mk": "Sega",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Gamepad",
+     "v": [
+      {
+       "n": "Genesis controller",
+       "mk": "Sega",
+       "y": "",
+       "d": "three-button"
+      },
+      {
+       "n": "Genesis 6-Button Arcade Pad",
+       "mk": "Sega",
+       "y": "",
+       "d": "six-button"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Nintendo 64 controller",
+     "a": "N64 pad",
+     "d": "M-shaped pad with a control stick and a rear slot for Controller, Rumble and Transfer Paks.",
+     "mk": "Nintendo",
+     "y": "1996",
+     "s": "https://en.wikipedia.org/wiki/Nintendo_64_controller",
+     "v": [
+      {
+       "n": "Nintendo 64 controller",
+       "mk": "Nintendo",
+       "y": "1996",
+       "d": "original"
+      },
+      {
+       "n": "Nintendo 64 controller for Nintendo Switch",
+       "mk": "Nintendo",
+       "y": "2021",
+       "d": "wireless replica with built-in rumble"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "PlayStation controller to DualSense",
+     "a": "DualShock · DualSense",
+     "d": "Sony's pad lineage, from the 1994 PlayStation pad through twin sticks and rumble to the DualSense.",
+     "mk": "Sony",
+     "y": "1994",
+     "s": "https://en.wikipedia.org/wiki/DualShock",
+     "v": [
+      {
+       "n": "PlayStation controller",
+       "mk": "Sony",
+       "y": "1994",
+       "d": "digital, no sticks"
+      },
+      {
+       "n": "Dual Analog Controller",
+       "mk": "Sony",
+       "y": "",
+       "d": "twin sticks, Japan first"
+      },
+      {
+       "n": "DualShock",
+       "mk": "Sony",
+       "y": "1997",
+       "d": "sticks and rumble"
+      },
+      {
+       "n": "DualShock 2",
+       "mk": "Sony",
+       "y": "2000",
+       "d": "PlayStation 2"
+      },
+      {
+       "n": "Sixaxis",
+       "mk": "Sony",
+       "y": "",
+       "d": "motion sensing, no rumble"
+      },
+      {
+       "n": "DualShock 3",
+       "mk": "Sony",
+       "y": "2007",
+       "d": "rumble restored"
+      },
+      {
+       "n": "DualShock 4",
+       "mk": "Sony",
+       "y": "2013",
+       "d": "touchpad and light bar; CUH-ZCT2 revision 2016"
+      },
+      {
+       "n": "DualSense",
+       "mk": "Sony",
+       "y": "2020",
+       "d": "haptics and adaptive triggers"
+      },
+      {
+       "n": "DualSense Edge",
+       "mk": "Sony",
+       "y": "2023",
+       "d": "pro controller with swappable sticks"
+      }
+     ],
+     "dt": "colourway · special edition"
+    },
+    {
+     "n": "GameCube controller",
+     "a": "WaveBird",
+     "d": "Nintendo's GameCube pad, still sold and adapted for later consoles.",
+     "mk": "Nintendo",
+     "y": "2001",
+     "s": "https://en.wikipedia.org/wiki/GameCube_controller",
+     "v": [
+      {
+       "n": "GameCube controller",
+       "mk": "Nintendo",
+       "y": "2001",
+       "d": "wired"
+      },
+      {
+       "n": "WaveBird Wireless Controller",
+       "mk": "Nintendo",
+       "y": "2002",
+       "d": "wireless"
+      },
+      {
+       "n": "Wii U GameCube adapter",
+       "mk": "Nintendo",
+       "y": "2014",
+       "d": "lets the pad work on Wii U"
+      },
+      {
+       "n": "Switch 2 wireless GameCube controller",
+       "mk": "Nintendo",
+       "y": "2025",
+       "d": "for Nintendo Switch Online"
+      }
+     ],
+     "dt": "colour"
+    },
+    {
+     "n": "Xbox controller",
+     "a": "The Duke · Controller S",
+     "d": "Microsoft's first Xbox pad: the large Duke, then the smaller Japan-designed Controller S.",
+     "mk": "Microsoft",
+     "y": "2001",
+     "s": "https://en.wikipedia.org/wiki/Xbox_controller",
+     "v": [
+      {
+       "n": "Xbox controller (The Duke)",
+       "mk": "Microsoft",
+       "y": "2001",
+       "d": "original"
+      },
+      {
+       "n": "Xbox Controller S",
+       "mk": "Microsoft",
+       "y": "2002",
+       "d": "smaller redesign; replaced the Duke by 2003"
+      },
+      {
+       "n": "Duke re-release",
+       "mk": "Hyperkin",
+       "y": "2018",
+       "d": "for Xbox One and PC"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Xbox 360 controller",
+     "a": "",
+     "d": "Microsoft's Xbox 360 pad in wired and wireless forms.",
+     "mk": "Microsoft",
+     "y": "2005",
+     "s": "https://en.wikipedia.org/wiki/Xbox_360_controller",
+     "v": [
+      {
+       "n": "Xbox 360 wired controller",
+       "mk": "Microsoft",
+       "y": "2005",
+       "d": "USB"
+      },
+      {
+       "n": "Xbox 360 wireless controller",
+       "mk": "Microsoft",
+       "y": "2005",
+       "d": "2.4 GHz, AA or Play & Charge pack"
+      },
+      {
+       "n": "Transforming D-pad controller",
+       "mk": "Microsoft",
+       "y": "2010",
+       "d": "rotating plus/disc D-pad"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Xbox Wireless Controller",
+     "a": "Xbox One controller · Elite",
+     "d": "Microsoft's pad for Xbox One and Series X|S, with Elite pro versions.",
+     "mk": "Microsoft",
+     "y": "2013",
+     "s": "https://en.wikipedia.org/wiki/Xbox_Wireless_Controller",
+     "v": [
+      {
+       "n": "Model 1537",
+       "mk": "Microsoft",
+       "y": "2013",
+       "d": "Xbox One launch"
+      },
+      {
+       "n": "Model 1697",
+       "mk": "Microsoft",
+       "y": "2015",
+       "d": "3.5 mm headset jack"
+      },
+      {
+       "n": "Model 1708",
+       "mk": "Microsoft",
+       "y": "2016",
+       "d": "Bluetooth"
+      },
+      {
+       "n": "Model 1914 (Series X|S)",
+       "mk": "Microsoft",
+       "y": "2020",
+       "d": "share button"
+      },
+      {
+       "n": "Elite (model 1698)",
+       "mk": "Microsoft",
+       "y": "2015",
+       "d": "paddles, swappable parts"
+      },
+      {
+       "n": "Elite Series 2 (model 1797)",
+       "mk": "Microsoft",
+       "y": "2019",
+       "d": ""
+      }
+     ],
+     "dt": "colourway · special edition"
+    },
+    {
+     "n": "Xbox Adaptive Controller",
+     "a": "",
+     "d": "Microsoft controller for players with disabilities, with large buttons and 19 jacks for assistive switches.",
+     "mk": "Microsoft",
+     "y": "2018",
+     "s": "https://en.wikipedia.org/wiki/Xbox_Adaptive_Controller",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Access Controller",
+     "a": "Project Leonardo",
+     "d": "Sony's accessible PS5 controller with interchangeable buttons and jacks for extra devices.",
+     "mk": "Sony",
+     "y": "2023",
+     "s": "https://en.wikipedia.org/wiki/Xbox_Adaptive_Controller",
+     "v": [],
+     "dt": ""
+    },
+    {
+     "n": "Steam Controller",
+     "a": "",
+     "d": "Valve's PC pad with two clickable haptic trackpads.",
+     "mk": "Valve",
+     "y": "2015",
+     "s": "https://en.wikipedia.org/wiki/Steam_Controller_(1st_generation)",
+     "v": [
+      {
+       "n": "Steam Controller (1st generation)",
+       "mk": "Valve",
+       "y": "2015",
+       "d": "discontinued 2019"
+      },
+      {
+       "n": "Steam Controller (2026)",
+       "mk": "Valve",
+       "y": "2026",
+       "d": "second generation, announced 2025"
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Nintendo Switch Pro Controller",
+     "Nintendo"
+    ],
+    [
+     "Nintendo Switch 2 Pro Controller",
+     "Nintendo"
+    ],
+    [
+     "Wii U Pro Controller",
+     "Nintendo"
+    ],
+    [
+     "Wii Classic Controller Pro",
+     "Nintendo"
+    ],
+    [
+     "Wii U GamePad",
+     "Nintendo"
+    ],
+    [
+     "Master System controller",
+     "Sega"
+    ],
+    [
+     "Saturn controller",
+     "Sega"
+    ],
+    [
+     "Saturn 3D Pad",
+     "Sega"
+    ],
+    [
+     "Dreamcast controller",
+     "Sega"
+    ],
+    [
+     "8BitDo Pro 2",
+     "8BitDo"
+    ],
+    [
+     "8BitDo Ultimate 2 Bluetooth",
+     "8BitDo"
+    ],
+    [
+     "8BitDo SN30 Pro",
+     "8BitDo"
+    ],
+    [
+     "8BitDo M30 Bluetooth",
+     "8BitDo"
+    ],
+    [
+     "GameSir G7 Pro",
+     "GameSir"
+    ],
+    [
+     "Hori Split Pad Pro",
+     "Hori"
+    ],
+    [
+     "Logitech Cordless Precision Controller",
+     "Logitech"
+    ],
+    [
+     "Hyperkin Ranger GamePad with Paddle",
+     "Hyperkin"
+    ],
+    [
+     "Google Stadia Controller",
+     "Google"
+    ],
+    [
+     "Amazon Luna Controller",
+     "Amazon"
+    ],
+    [
+     "NES Max",
+     "Bullet-Proof Software"
+    ]
+   ]
+  },
+  {
+   "n": "Detachable split controller",
+   "a": "Joy-Con",
+   "d": "Controller made as two detachable halves that can be used apart.",
+   "s": "https://en.wikipedia.org/wiki/List_of_game_controllers",
+   "x": [
+    {
+     "n": "Joy-Con",
+     "a": "",
+     "d": "Nintendo's pair of detachable controllers that attach to the sides of the Switch.",
+     "mk": "Nintendo",
+     "y": "2017",
+     "s": "https://en.wikipedia.org/wiki/Joy-Con",
+     "v": [
+      {
+       "n": "Joy-Con",
+       "mk": "Nintendo",
+       "y": "2017",
+       "d": "slide onto rails"
+      },
+      {
+       "n": "Joy-Con 2",
+       "mk": "Nintendo",
+       "y": "2025",
+       "d": "magnetic attachment, works as a mouse"
+      },
+      {
+       "n": "Hori D-pad Joy-Con L",
+       "mk": "Hori",
+       "y": "2018",
+       "d": "licensed left unit with a D-pad, handheld mode only"
+      }
+     ],
+     "dt": "colour pair"
+    }
+   ]
+  },
+  {
+   "n": "Arcade stick",
+   "a": "fight stick · levered arcade stick",
+   "d": "Arcade-style controller with a joystick lever and buttons.",
+   "t": [
+    "Japanese-style (Sanwa, Seimitsu parts)",
+    "American-style (Happ parts)",
+    "Vewlix layout",
+    "Noir layout"
+   ],
+   "s": "https://www.hlj.com/nintendo-switch-real-arcade-pro-v-hayabusa-hrinsw-006",
+   "x": [
+    {
+     "n": "NES Advantage",
+     "a": "",
+     "d": "Nintendo's desk-top stick, one of the earliest arcade imitations for a home console.",
+     "mk": "Nintendo",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Arcade_controller",
+     "v": [
+      {
+       "n": "NES Advantage",
+       "mk": "Nintendo",
+       "y": "",
+       "d": ""
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Real Arcade Pro",
+     "a": "RAP",
+     "d": "Hori's long-running line of full-size arcade sticks.",
+     "mk": "Hori",
+     "y": "",
+     "s": "https://ubergizmo.com/2008/07/hori-real-arcade-pro-ex",
+     "v": [
+      {
+       "n": "Real Arcade Pro EX",
+       "mk": "Hori",
+       "y": "",
+       "d": "Xbox 360, ball-top stick and eight buttons"
+      },
+      {
+       "n": "Real Arcade Pro 3",
+       "mk": "Hori",
+       "y": "",
+       "d": ""
+      },
+      {
+       "n": "Real Arcade Pro.V Hayabusa",
+       "mk": "Hori",
+       "y": "",
+       "d": "Switch, Hori Hayabusa parts"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "FightStick Tournament Edition",
+     "a": "TE stick",
+     "d": "Mad Catz stick line; the Street Fighter IV TE was the first North American console stick with genuine Sanwa parts.",
+     "mk": "Mad Catz",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Arcade_controller",
+     "v": [
+      {
+       "n": "Street Fighter IV FightStick Tournament Edition",
+       "mk": "Mad Catz",
+       "y": "",
+       "d": "Sanwa parts"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Qanba Obsidian",
+     "a": "",
+     "d": "Qanba's top stick line with Sanwa parts.",
+     "mk": "Qanba",
+     "y": "",
+     "s": "https://thearcadestick.com/qanba-obsidian-2",
+     "v": [
+      {
+       "n": "Qanba Obsidian 2",
+       "mk": "Qanba",
+       "y": "2023",
+       "d": "Sony-licensed, Sanwa JLF and OBSF-30, Vewlix layout"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Victrix Pro FS",
+     "a": "",
+     "d": "PDP's Victrix aluminium tournament stick with Sanwa parts and tool-free access.",
+     "mk": "PDP",
+     "y": "",
+     "s": "https://www.thesixthaxis.com/2024/03/18/pdp-victrix-pro-fs-best-arcade-fight-stick-ps5-review/",
+     "v": [
+      {
+       "n": "Victrix Pro FS",
+       "mk": "PDP",
+       "y": "",
+       "d": "PS5, PS4 and PC; purple or white"
+      }
+     ],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Hori Fighting Stick Alpha SF6 Edition",
+     "Hori"
+    ],
+    [
+     "Qanba N3 Drone 2",
+     "Qanba"
+    ],
+    [
+     "Saturn Virtua Stick",
+     "Sega"
+    ],
+    [
+     "Dreamcast Arcade Stick",
+     "Sega"
+    ],
+    [
+     "Arcade Power Stick II",
+     "Sega"
+    ],
+    [
+     "Fighter Stick SN",
+     "ASCII Corporation"
+    ],
+    [
+     "Super Advantage",
+     "ASCII Corporation"
+    ],
+    [
+     "Mayflash F300",
+     "Mayflash"
+    ],
+    [
+     "8BitDo 80FE Arcade Stick",
+     "8BitDo"
+    ],
+    [
+     "Speedking",
+     "Konix"
+    ],
+    [
+     "Epyx 500XJ",
+     "Konix"
+    ],
+    [
+     "Quickshot Arcade QS-128n",
+     "QuickShot"
+    ],
+    [
+     "Zoomer",
+     "Beeshu, Inc."
+    ],
+    [
+     "InterAct Alloy Arcade Stick",
+     "InterAct"
+    ]
+   ]
+  },
+  {
+   "n": "Leverless controller",
+   "a": "all-button controller · hitbox",
+   "d": "Arcade-style controller with all-button directional input and no lever.",
+   "t": [
+    "SOCD cleaning modes",
+    "mechanical switches",
+    "optical switches"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Arcade_controller",
+   "x": [
+    {
+     "n": "Hit Box",
+     "a": "",
+     "d": "The first commercial leverless controller; its name became the generic term.",
+     "mk": "Hit Box",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Arcade_controller",
+     "v": [
+      {
+       "n": "Hit Box",
+       "mk": "Hit Box",
+       "y": "",
+       "d": "original layout with Up at the bottom"
+      },
+      {
+       "n": "Smash Box",
+       "mk": "Hit Box",
+       "y": "",
+       "d": "layout for platform fighters"
+      }
+     ],
+     "dt": ""
+    },
+    {
+     "n": "Razer Kitsune",
+     "a": "",
+     "d": "Razer's slim leverless controller with optical switches in the original Hit Box layout.",
+     "mk": "Razer",
+     "y": "2023",
+     "s": "https://lowyat.net/2024/317774/razer-kitsune-lightning-review",
+     "v": [],
+     "dt": ""
+    }
+   ],
+   "m": [
+    [
+     "Turtle Beach Victrix Pro KO",
+     "Turtle Beach"
+    ],
+    [
+     "Mixbox",
+     "Mixbox"
+    ],
+    [
+     "8BitDo All-Button Arcade Controller",
+     "8BitDo"
+    ],
+    [
+     "Haute42 M16 Plus",
+     "Haute42"
+    ],
+    [
+     "Haute42 T16 Pro V2",
+     "Haute42"
+    ],
+    [
+     "Haute42 C16 Magnetic",
+     "Haute42"
+    ],
+    [
+     "Qanba Sapphire S1",
+     "Qanba"
+    ],
+    [
+     "Brook Fighter Starburst",
+     "Brook"
+    ],
+    [
+     "Mayflash F500 FLAT",
+     "Mayflash"
+    ],
+    [
+     "DOIO KBHX-01 Pro",
+     "DOIO"
+    ],
+    [
+     "Sunga G1",
+     "Sunga"
+    ]
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Nintendo",
+   "c": "Japan",
+   "f": "1889",
+   "seg": "Mainstream",
+   "kf": "consoles",
+   "d": "Japanese console maker; pads from the NES controller to Joy-Con.",
+   "sig": [
+    "Super NES controller",
+    "Joy-Con",
+    "GameCube controller"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Sony",
+   "c": "Japan",
+   "f": "1946",
+   "seg": "Mainstream",
+   "kf": "consoles",
+   "d": "Japanese electronics group; DualShock and DualSense pads.",
+   "sig": [
+    "PlayStation controller to DualSense"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Microsoft",
+   "c": "United States",
+   "f": "1975",
+   "seg": "Mainstream",
+   "kf": "consoles",
+   "d": "US software company; Xbox pads including Elite and Adaptive.",
+   "sig": [
+    "Xbox Wireless Controller",
+    "Xbox Adaptive Controller"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Sega",
+   "c": "Japan",
+   "f": "1960",
+   "seg": "Mainstream",
+   "kf": "consoles",
+   "d": "Japanese game company; Mega Drive and Saturn pads.",
+   "sig": [
+    "Mega Drive and Genesis control pad"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Valve",
+   "c": "United States",
+   "f": "1996",
+   "seg": "Premium",
+   "kf": "PC gaming",
+   "d": "PC game company behind Steam and the Steam Controller.",
+   "sig": [
+    "Steam Controller"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Hori",
+   "c": "Japan",
+   "f": "1970",
+   "seg": "Specialist",
+   "kf": "licensed controllers",
+   "d": "Yokohama maker of licensed pads, sticks and wheels, founded as Hori Electric.",
+   "sig": [
+    "Real Arcade Pro"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Hori_(company)"
+  },
+  {
+   "n": "Mad Catz",
+   "c": "",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "fight sticks",
+   "d": "Accessory maker of the FightStick Tournament Edition line.",
+   "sig": [
+    "FightStick Tournament Edition"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Qanba",
+   "c": "",
+   "f": "",
+   "seg": "Specialist",
+   "kf": "fight sticks",
+   "d": "Arcade-stick maker of the Obsidian and Drone lines.",
+   "sig": [
+    "Qanba Obsidian"
+   ],
+   "s": "https://thearcadestick.com/qanba-obsidian-2"
+  },
+  {
+   "n": "PDP",
+   "c": "United States",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "licensed controllers",
+   "d": "Accessory maker whose Victrix brand makes premium fight sticks; part of Turtle Beach.",
+   "sig": [
+    "Victrix Pro FS"
+   ],
+   "rel": [
+    "Turtle Beach"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "Hit Box",
+   "c": "",
+   "f": "",
+   "seg": "Artisan & independent",
+   "kf": "leverless controllers",
+   "d": "Maker of the first commercial leverless controllers.",
+   "sig": [
+    "Hit Box"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Arcade_controller"
+  },
+  {
+   "n": "Razer",
+   "c": "",
+   "f": "",
+   "seg": "Premium",
+   "kf": "gaming peripherals",
+   "d": "Gaming-peripheral brand; makes the Kitsune leverless controller.",
+   "sig": [
+    "Razer Kitsune"
+   ],
+   "s": "knowledge"
+  },
+  {
+   "n": "8BitDo",
+   "c": "China",
+   "f": "2013",
+   "seg": "Value",
+   "kf": "retro-style controllers",
+   "d": "Shenzhen maker of retro-styled pads and sticks.",
+   "s": "https://en.wikipedia.org/wiki/8BitDo"
+  }
+ ],
+ "traditions": [],
+ "notes": "Gamepad: 69 flat models turned into 12 first-party archetypes (lineage versions) plus 20 market models; dropped minor/obscure third-party pads (Acclaim, Bandai Super Controller, Camerica, EasySMX, Gravis, Innovation, JAMJAKE, iPega, Triax, Ouya, Virtual Boy pad, Xbox Nano, maker-less Afterglow/Total Control 3/SNProPad, older 8BitDo and GameSir variants). Switch Pro Controllers kept in m (no page fetched). Arcade stick 32 to 5 archetypes + 14 models; dropped Beeshu duplicates, Agetec, Camerica, Multicorp, Toyo, Mad Catz Xbox 360 GameStick. Leverless 23 to 2 archetypes + 11 (Haute42 cut to 3, DOIO to 1, LBER dropped). Victrix Pro KO kept as old 'Turtle Beach' entry (PDP is Turtle Beach's brand); no Snack Box or Haute42 page fetched."
+}

@@ -64,5 +64,5 @@ brands = [
  B("Whistler", "United States", "", "Specialist", "scanners", "Maker of radio scanners.", "https://reviewed.com/home-outdoors/best-right-now/best-police-scanners"),
 ]
 notes = ("Kept Radio, Clock radio and Radio scanner; added Shortwave and world-band receiver. Radio: Philips/Roberts models kept (Revival Uno models became versions of the Roberts Revival archetype). Radio scanner trimmed from 11 Uniden models to 8 plus Whistler WS1010 (Reviewed pick); dropped BCD536HP, BCD996P2, SR30C as near-duplicates. "
- "Braun SK 4 is a radio-phonograph and belongs on the radiogram shelf, not here. Not attested on a retrieved page and left out: Sony ICF-2001D aside, Eton models, AOR scanners, Whistler beyond WS1010, Grundig Satellit 2000/3400 (only listings), Tecsun model years. Regency TR-1 and Sony TR-55 both sourced from the TR-1 article.")
+ "Braun SK 4 is a radio-phonograph and belongs on the radiogram shelf, not here. Not attested on a retrieved page and left out: Eton models, AOR scanners, Whistler beyond WS1010, Grundig Satellit 2000/3400 (only listings), Tecsun model years. Regency TR-1 and Sony TR-55 both sourced from the TR-1 article.")
 w('D3', '06_00', {"kinds": kinds, "brands": brands, "traditions": [], "notes": notes})
