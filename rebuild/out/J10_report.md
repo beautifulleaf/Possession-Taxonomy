@@ -2,7 +2,7 @@
 
 **Brand mode:** Cannabis & hemp: tier; Cigarettes & rolling: mixed; Cigars: variety; Herbal & other plant products: tier; Hookah & shisha: variety; Lighters & smoking accessories: mixed; Pipes & pipe tobacco: variety; Snus, snuff & chewing tobacco: mixed; Vaping & heated tobacco: mixed
 
-**Counts (before → after):** 10 → 9 departments · 134 → 126 kinds · 0 → 167 archetypes · 162 → 85 flat models · 162 → 305 models+versions · 54 → 125 brands named · register 77 brands, 12 traditions · moves out 0 · dropped kinds 0.
+**Counts (before → after):** 10 → 9 departments · 127 → 126 kinds · 167 → 167 archetypes · 86 → 85 flat models · 306 → 305 models+versions · 125 → 125 brands named · register 77 brands, 12 traditions · moves out 0 · dropped kinds 0.
 
 **Sources:** 130 distinct retrieved URLs logged in work/J10/sources.tsv (server web_fetch, Wikipedia/Wikidata APIs).
 
