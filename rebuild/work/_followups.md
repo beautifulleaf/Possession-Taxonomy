@@ -1,9 +1,9 @@
 # Follow-ups (coordinator)
 - (done) J1 07_01 tinned brands added.
-- B3: Lava Lite and Astro lamp archetypes for the moved-in Lava lamp kind.
+- B3: Lava Lite and Astro lamp archetypes for the moved-in Lava lamp kind. — DONE: Astro (Mathmos 1963) and Lava Lite (1965) archetypes from Wikipedia.
 - E5/E1 pinball, claw crane, slot machine overlap; E4/A4 archery accessories overlap — dedupe at E-category merges. — DONE: no pinball/arcade kinds in E1.
 - Mabkhara in both B4 (02_02) and F4 plan — dedupe when F4 merges. — DONE: kept in B4 (home fragrance), removed from F4.
-- H1 brand-name clashes left out: Elixir, Parachute, Playtex, Zenith, Royal Crown, Eisenberg (need distinct names).
+- H1 brand-name clashes left out: Elixir, Parachute, Playtex, Zenith, Royal Crown, Eisenberg (need distinct names). — DONE: only Royal Crown appears in H1 (pomade); registered as "Royal Crown Hair Dressing". Elixir is a Kérastase line; Parachute, Playtex, Zenith, Eisenberg are not in the H1 tree.
 - E2 merge: check A1>E2 moved cycling-clothing kinds against E2 01_00 kinds (name differences may duplicate). — DONE: all A1 moves covered by same-named E2 kinds.
 - F1 01_03 weak sources to upgrade: Nakamichi ZX (eBay listing), TDK MA-R (3docean page); thin firecrawl pages for UHQR and Maxell. — ACCEPTED at merge: searches found no better page; the listings establish existence (owner rule: outside lists ok).
 - E1 merge: E6 moved in 'Other science kits', 'Molecular model kit', 'Chemistry set', 'Crystal-growing kit' — fold into E1's science-kit kinds via moves_covered.json if E1 has them; never keep an 'Other …' kind. — DONE (see rename-on-arrival).
