@@ -37,7 +37,7 @@ K("Wavellite","Hydrated aluminium phosphate mineral specimen: green radiating he
  X("Bolivian wavellite","Fine wavellite from Llallagua and Oruro, Bolivia.",H+"wavellite.pdf",dt="radial sprays"),
  X("Bihain wavellite","Large rosettes from Bihain, Belgium.",H+"wavellite.pdf",dt="large rosettes"),
 ]),
-K("Variscite","Hydrated aluminium phosphate mineral specimen: green nodules and veins used as ornamental stone; also crystals.",FE,[
+K("Variscite","Hydrated aluminium phosphate mineral specimen: green nodules and veins used as ornamental stone; also crystals.",W+"Variscite",[
  X("Utahlite","Former name for Utah variscite, mined at Lucin, Fairfield and Snowville and cut as cabochons.",W+"Variscite",a="Utah variscite",dt="nodule, cabochon, matrix"),
  X("Nevada variscite","Variscite from Lander and Esmeralda counties (Candelaria Hills), Nevada.",W+"Variscite",dt="nodule, cabochon"),
  X("Spanish variscite","Historic European supply from Gavá, Palazuelo and Encinasola, Spain.",W+"Variscite",dt="nodule, beads"),
@@ -97,5 +97,5 @@ K("Pseudomalachite","Copper phosphate hydroxide mineral specimen: dark green bot
 ]),
 ]
 notes=("All 13 planned kinds kept. Handbook of Mineralogy has no apatite.pdf, so fluorapatite.pdf is used for Apatite; torbernite.pdf returned 404 so Torbernite relies on Wikipedia. "
- "Sources: HOM distribution text (pdftotext) and Wikipedia mineral articles. Torbernite kind 's' is the Wikipedia page (not an old-data kind? it is planned with old id so also fine). No brands or traditions. Mexican cave blue apatite not on fetched page so left out.")
+ "Sources: HOM distribution text (pdftotext) and Wikipedia mineral articles. No brands or traditions. Mexican cave blue apatite not on fetched page so left out.")
 finish("00_07",kinds,notes)
