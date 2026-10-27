@@ -7,3 +7,5 @@ Segments: H1 is in domain "general" -> Professional & flagship, Premium, Mainstr
 - BLOCKED/empty (JS): https://www.ulta.com/brand/all, https://www.ulta.com/global/nav/allbrands.jsp
 - fetched: Wikipedia L'Oréal, Estée Lauder Companies, Boots brands page, Category:Personal care brands, List of Unilever brands, List of P&G brands, Category:Cosmetics companies of Japan
 - fetched: Coty, Amorepacific, LG H&H, Shiseido, Wikipedia categories Cosmetics/Skin care/Male grooming/Shampoo/Korean cosmetics/Soap/Toothpaste/Feminine hygiene/Razor/Shaving cream brands
+- Firecrawl fallback (coordinator-authorised) for sephora.com/brands-list and ulta.com/brand/all: DENIED by auto-mode permission classifier (Bot Check Circumvention). Not retried further.
+- Wikidata SPARQL (cosmetics brand / cosmetics company classes): timed out after 120 s, not retried

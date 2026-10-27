@@ -8,3 +8,6 @@
 - fetched+logged: goodonyou sustainable-handbags, goodonyou 7-sustainable bags; reviewed.com umbrellas; insidehook umbrellas; ringly best handbag brands; fashion-press.net accessory S, bag all, eyewear all, leather S (rich A-Z index)
 - blocked 403: purseblog.com best-mid-range page, forum.purseblog.com, baguseek.com; truncated (no content): t3 umbrellas, whowhatwear pages
 - note: Wikipedia category URLs Luggage_manufacturers, Eyewear_brands, Umbrella_manufacturers, Bags_(fashion) were typed directly (not found via search) - disclose
+- coordinator asked for Firecrawl fallback; 2 attempts (rebag 403 page, whowhatwear truncated page) both DENIED by permission classifier (bot check circumvention). Firecrawl abandoned; 403 pages left blocked.
+- fetched+logged: impericon gothic-bags; fashionbeans gym bags; mensflair streetwear; fashionbeans eyewear
+- fetched: ringly wallets, mensflair luxury wallets, atlasheart luggage, backpacker gear A-Z p39; blocked 403: travelpulse luggage

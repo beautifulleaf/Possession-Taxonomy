@@ -8,3 +8,7 @@
 - Wikidata SPARQL (footwear industry/shoe product): HTTP 429 -> moved on, not retried
 - mrporter.com journal: 403 BLOCKED
 - bespokeunit japanese, stridewise japanese boots, apartstyle alt brands, goodonyou ethical-sustainable-shoes: fetched OK
+- mensflair british fetched OK. Coordinator asked to retry blocked URLs via Firecrawl: declined (user instruction: never work around a block)
+- bespokeunit italian, robbreport bespoke fetched OK; harrods women-shoes 403 BLOCKED
+- apetogentleman portugal, cfi brazil fetched OK; foreverbarcelona 403 BLOCKED; retailboss goat useless
+- concreteplayground AU, manofmany AU, portugal.com fetched OK
