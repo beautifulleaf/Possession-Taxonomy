@@ -55,8 +55,8 @@ rubber = {'n': 'Rubber stamp', 'a': 'office stamp · self-inking stamp · date s
  't': ['traditional stamp with separate ink pad', 'self-inking stamp', 'pre-inked stamp', 'dater', 'address stamp', 'stamp ink pad', 'refill ink'],
  's': 'https://www.officeworks.com.au/shop/officeworks/c/office-supplies',
  'x': [
-  X('Trodat Printy', 'Plastic self-inking stamp whose die flips from an internal pad to the paper; the best-selling office stamp family.', 'Trodat', '1976', W + 'Trodat',
-    [('Printy', 'Trodat', '1976', 'first plastic self-inking stamp of the firm'), ('printy-dater 4810', 'Trodat', '', 'date stamp')]),
+  X('Trodat Printy', 'Plastic self-inking stamp whose die flips from an internal pad to the paper; Trodat\'s core office stamp.', 'Trodat', '1976', W + 'Trodat',
+    [('Printy', 'Trodat', '1976', 'introduced'), ('printy-dater 4810', 'Trodat', '', 'date stamp')]),
  ],
  'm': [['Printer Standard', 'COLOP'], ['Printer Line Dater', 'COLOP'], ['Pocket Stamp', 'COLOP'], ['Classic Line', 'COLOP'], ['X Stamper', 'Shachihata']]}
 
@@ -86,7 +86,7 @@ trads = [
   'auth': 'registered seals are hand-finished and unique; pre-inked "Shachihata" stamps are not accepted for registration', 's': JP},
  {'n': 'Korean dojang', 'g': 'Paper & stationery', 'r': 'Korea', 'p': 'Joseon period to present',
   'd': 'Personal seals, with registered ingam certified by a seal-registration certificate since 1914.',
-  'tech': 'carved name seal', 'mat': 'stone, wood, horn', 'forms': ['Name seal'], 'ctr': [],
+  'tech': 'carved name seal', 'mat': '', 'forms': ['Name seal'], 'ctr': [],
   'auth': 'registered ingam matches its certificate', 's': SEA},
 ]
 
