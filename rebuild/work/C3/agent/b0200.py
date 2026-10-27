@@ -11,13 +11,13 @@ PH=W+"Phalaenopsis"; PA=W+"Paphiopedilum"; CY=W+"Cymbidium"; CA=W+"Cattleya"; DE
 moth=[X("Phalaenopsis amabilis","Type species, described by Blume in 1825; holds the RHS Award of Garden Merit.",PH,y="1825"),
       X("Phalaenopsis Doris","Tetraploid hybrid grex that made moth orchids easy to grow at home.",PH,dt="flower size · colour · spike count")]
 if 'Phalaenopsis schilleriana' in QIDS:
-    moth.append(X("Phalaenopsis schilleriana","Philippine species with silver-mottled leaves and pink flowers.",D+QIDS['Phalaenopsis schilleriana'],v=[("Phalaenopsis schilleriana × philippinensis","","","primary hybrid")]))
+    moth.append(X("Phalaenopsis schilleriana","Philippine endemic with mottled leaves and large pink flowers, over 100 per spike on mature plants.",QIDS['Phalaenopsis schilleriana'],v=[("Phalaenopsis schilleriana × philippinensis","","","primary hybrid")]))
 moth+= [X("Phalaenopsis aphrodite","Moth orchid species.",PH),
       X("Phalaenopsis philippinensis","Philippine species with white flowers.",PH),
       X("Phalaenopsis violacea","Fragrant species whose petals turn green after pollination.",PH),
       X("Phalaenopsis stuartiana","Species with mottled leaves, naturalised in Central and South America.",PH)]
 if 'Phalaenopsis equestris' in QIDS:
-    moth.append(X("Phalaenopsis equestris","Small-flowered species, a parent of multiflora hybrids.",D+QIDS['Phalaenopsis equestris']))
+    moth.append(X("Phalaenopsis equestris","Small-flowered, variable species from the Philippines and Taiwan, often used in breeding.",v=[("var. alba","","","white"),("var. aurea","","","yellow lip"),("var. rosea","","","red")],s=QIDS['Phalaenopsis equestris']))
 moth.append(X("RHS award hybrids","Modern grexes holding the RHS Award of Garden Merit.",PH,v=[("Brother Pico Sweetheart","","","grex"),("Yellow Lightning","","","grex")]))
 mothm=[] if 'Phalaenopsis schilleriana' in QIDS else [["Phalaenopsis schilleriana x philippinensis",""]]
 slip=[X("Paphiopedilum insigne","Type species of the genus, from Assam and Meghalaya.",PA),
@@ -43,7 +43,7 @@ cym=[X("Cymbidium goeringii","East Asian Jensoa cymbidium, known as chun lan in 
      X("Cymbidium kanran","Jensoa species of China, Japan and Korea.",CY),
      X("Cymbidium faberi","Jensoa species of China and Taiwan.",CY)]
 if 'Cymbidium insigne' in QIDS:
-    cym.append(X("Cymbidium insigne","Species central to breeding standard-sized hybrids.",D+QIDS['Cymbidium insigne']))
+    cym.append(X("Cymbidium insigne","Species central to breeding standard-sized hybrids.",QIDS['Cymbidium insigne']))
 cym+=[X("Cymbidium eburneum","Cyperorchis species from the Himalaya to Vietnam, a parent of standard hybrids.",CY),
      X("Cymbidium lowianum","Cyperorchis species from Myanmar to Vietnam.",CY),
      X("Cymbidium tracyanum","Cyperorchis species from China, Thailand and Myanmar.",CY),
@@ -98,7 +98,7 @@ kinds=[
        X("Zygopetalum crinitum","Brazilian species.",W+"Zygopetalum")]},
  {"n":"Jewel orchid","a":"Ludisia · Macodes · Anoectochilus · Goodyera","d":"Living terrestrial orchid grown mainly for velvety, veined leaves.","s":W+"Ludisia",
   "x":[X("Ludisia discolor","Jewel orchid with velvety maroon leaves and red veins.",W+"Ludisia",v=[("'Nigrescens'","","","black velvet"),("'Alba'","","","albino")])]+
-      ([X("Macodes petola","Jewel orchid with gold-netted leaves.",D+QIDS['Macodes petola'])] if 'Macodes petola' in QIDS else [])},
+      ([X("Macodes petola","South-East Asian jewel orchid with ornate veined leaves.",v=[("var. petola","","","yellow veins"),("var. argenteoreticulata","","","white netted veins")],s=QIDS['Macodes petola'])] if 'Macodes petola' in QIDS else [])},
  {"n":"Wind orchid","a":"Vanda falcata · Neofinetia falcata · fūran · fūkiran","d":"Small fragrant white East Asian orchid; its named Japanese cultivars are prized as fūkiran.","s":W+"Vanda_falcata",
   "x":[X("Vanda falcata","Wild species of China, Korea and Japan, described by Thunberg from Japan in 1784.",W+"Vanda_falcata",y="1784"),
        X("Fūkiran","Named Japanese cultivars selected since the Edo period for variegation, flower and growth form.",W+"Vanda_falcata",a="富貴蘭",y="Edo period",

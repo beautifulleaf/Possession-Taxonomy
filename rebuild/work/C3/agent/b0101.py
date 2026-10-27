@@ -10,7 +10,7 @@ kinds=[
   "t":["micro and super-mini","mini and semi-mini","standard","large","trailing"],"s":W+"Saintpaulia",
   "x":[X("Saintpaulia ionantha","Original species described by Wendland in 1893; the parent of most houseplant cultivars.",D+"Q165406",a="Streptocarpus ionanthus · S. kewensis",y="1893",
          v=[("'Pink Amiss'","","","cultivar"),("'Red Velvet'","","","cultivar")],dt="rosette diameter class · single, double or frilled flowers · flower colour · variegated foliage"),
-       X("Saintpaulia shumensis","Small species from the Usambara Mountains, grown by collectors of the species.",D+"Q17708576",a="Streptocarpus shumensis")]},
+       X("Saintpaulia shumensis","Small species grown by collectors of the species.",D+"Q17708576",a="Streptocarpus shumensis")]},
  {"n":"Cape primrose","a":"Streptocarpus · nodding violet (Streptocarpella)","d":"South African gesneriad with trumpet flowers on stalks above long strap leaves, grown as a houseplant.",
   "t":["rosulate hybrid","unifoliate","Streptocarpella (trailing)"],"s":W+"Streptocarpus",
   "x":[X("Streptocarpus rexii","First species described, reaching Kew in 1824; a parent of the early Victorian hybrids.",D+"Q7623337",y="1824",
@@ -20,9 +20,9 @@ kinds=[
        X("Award of Garden Merit hybrids","Modern named hybrids holding the RHS Award of Garden Merit.",W+"Streptocarpus",
          v=[("'Crystal Ice'","","",""),("'Falling Stars'","","",""),("'Polka-Dot Purple'","","",""),("'Snow White'","","",""),("'Burgundy Ice'","","",""),("'White Butterfly'","","","")],
          dt="flower colour and veining · ruffled petals · leaf size"),
-       X("Streptocarpus wendlandii","Unifoliate species with a single huge leaf; introduced in 1887.",D+"Q17708874",y="1887"),
-       X("Streptocarpus dunnii","Red-flowered unifoliate species important to early hybrids.",D+"Q15445220"),
-       X("Streptocarpus saxorum","Trailing Streptocarpella species with small lilac flowers, grown in hanging baskets.",D+"Q17708902",a="false African violet · nodding violet")]},
+       X("Streptocarpus wendlandii","Unifoliate species with a single leaf; introduced in 1887.",D+"Q17708874",y="1887"),
+       X("Streptocarpus dunnii","Unifoliate species important to early hybrids.",D+"Q15445220"),
+       X("Streptocarpus saxorum","Trailing Streptocarpella species, often grown in hanging baskets.",D+"Q17708902",a="false African violet · nodding violet")]},
  {"n":"Bromeliad","a":"Bromeliaceae · Guzmania · Vriesea · Aechmea · Neoregelia","d":"Rosette-forming tropical American plant, often with a water-holding tank and long-lasting coloured bracts; air plants are listed separately.",
   "t":["tank epiphyte","terrestrial"],"s":W+"Bromeliaceae",
   "x":[X("Guzmania lingulata","Tank bromeliad with a star of red or orange bracts; in Europe since 1776.",D+"Q2710056",y="1776"),
@@ -55,7 +55,7 @@ kinds=[
        X("'Radicans'","Low ground-cover form, 15–45 cm tall.",W+"Gardenia_jasminoides"),
        X("'Golden Magic'","Flowers open white and turn golden yellow.",W+"Gardenia_jasminoides"),
        X("'Summer Snow'","Cold-tolerant cultivar with flowers up to 11 cm across.",W+"Gardenia_jasminoides")]}]
-brands=[{"n":"Dibleys Nurseries","c":"United Kingdom (Wales)","f":"1976","seg":"Streptocarpus breeder and nursery","d":"Family nursery at Llanelidan, Denbighshire, founded by Rex Dibley, best known for Streptocarpus and many RHS gold medals.","sig":["Harlequin"],"s":W+"Dibleys_Nurseries"},
- {"n":"Paul Ecke Ranch","c":"United States","seg":"Poinsettia breeder","d":"Ecke family poinsettia business in Encinitas, California, which developed grafting for bushy plants and long dominated the market.","sig":["Freedom","Prestige","Winter Rose"],"s":W+"Poinsettia"}]
+brands=[{"n":"Dibleys Nurseries","c":"United Kingdom (Wales)","f":"1976","seg":"Specialist","kf":"Streptocarpus breeder and nursery","d":"Family nursery at Llanelidan, Denbighshire, founded by Rex Dibley, best known for Streptocarpus and many RHS gold medals.","sig":["Harlequin"],"s":W+"Dibleys_Nurseries"},
+ {"n":"Paul Ecke Ranch","c":"United States","seg":"Specialist","kf":"Poinsettia breeder","d":"Ecke family poinsettia business in Encinitas, California, which developed grafting for bushy plants and long dominated the market.","sig":["Freedom","Prestige","Winter Rose"],"s":W+"Poinsettia"}]
 out={"kinds":kinds,"brands":brands,"traditions":[],"notes":"New shelf, six kinds. Archetypes are species (Wikidata) and named cultivars/series from Wikipedia and Greenhouse Grower. African violet size classes as t; AVSA is the cultivar registration authority (noted, no entry). Cyclamen series makers not given by the source, so mk left empty. Dümmen Orange and Optimara not added: no retrieved page linking them to named lines. No traditions."}
 p='work/C3/shelves/01_01.json'; json.dump(out,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(p+'.tmp',p)
