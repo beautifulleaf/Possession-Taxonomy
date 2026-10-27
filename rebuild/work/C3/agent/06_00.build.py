@@ -45,7 +45,7 @@ kinds=[
     v=[A("Montmorency","Amarelle type; main US sour cherry"),A("North Star","dwarf")]),
   ]},
  {"n":"Peach tree","a":"nectarine","d":"Living peach tree (Prunus persica), nectarines included, grown for fruit.","t":["peach","nectarine","flat peach","freestone","clingstone","dwarf patio"],"s":OLD,"x":[
-  X("Peregrine","","English peach still widely grown for its reliability outdoors.","https://realenglishfruit.co.uk/peregrine/",y="1906",dt=RT),
+  X("Peregrine","","English peach cultivar.","https://realenglishfruit.co.uk/peregrine/",y="1906",dt=RT),
   X("Elberta","","Yellow freestone peach raised by Samuel H. Rumph at Marshallville, Georgia, from Chinese Cling seed; named for his wife.","https://peaches.caes.uga.edu/history.html",y="1875",dt=RT),
   ]},
  {"n":"Apricot tree","a":"Prunus armeniaca","d":"Living apricot tree (Prunus armeniaca) grown for fruit.","s":OLD,"x":[
