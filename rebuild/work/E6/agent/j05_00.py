@@ -13,7 +13,7 @@ orr={"n":"Orrery","a":"planetarium (mechanical) · tellurion · tellurian","d":"
  "x":[
   X("Graham–Rowley orrery","The first orreries: George Graham's planetary machine, copied and improved by John Rowley for the Earl of Orrery, who gave the device its name.","John Rowley","c. 1712",WO,
     [("Graham & Tompion orrery","George Graham and Thomas Tompion","c. 1710","History of Science Museum, Oxford"),("Earl of Orrery's orrery","John Rowley","c. 1712","made for Charles Boyle, 4th Earl of Orrery")],"geared · brass and wood"),
-  X("Benjamin Martin orrery","Popular 18th-century English orrery after Benjamin Martin's 1764 planetary model; a 1766 example was used at Harvard.","Benjamin Martin","1764",WO,
+  X("Benjamin Martin orrery","Orrery after the new planetary model Benjamin Martin devised in 1764; a 1766 example was used at Harvard.","Benjamin Martin","1764",WO,
     [("Harvard orrery","Benjamin Martin","1766","")],"brass · hand-cranked"),
   X("Trippensee planetarium","American classroom tellurion showing Sun, Earth, Moon and Venus with seasons, phases and eclipses, made in Michigan since the early 20th century.",TP,"1908","https://oshermaps.org/blog/understanding-the-trippensee-planetarium/",
     [("Laing planetarium","Alexander Laing","1896","string-and-pulley drive"),("chain-and-gear model, maple",TP,"1908","Frank J. Trippensee patent"),("black-painted model",TP,"1925",""),("electric model",TP,"by 1929","also hand-cranked"),("Bakelite / plastic model",TP,"after WWII",""),("Science First plastic model","Science First","from 1999","hand-cranked or electric"),("Trippensee orrery",TP,"","from old data")],
@@ -27,7 +27,7 @@ ast={"n":"Astrolabe","a":"","d":"Hand-held instrument that models the sky, used 
     [("earliest surviving astrolabe","","927–928","Islamic"),("Jean Fusoris astrolabe","Jean Fusoris","c. 1400","Paris"),("Antonius de Pacento astrolabe","Antonius de Pacento","1420",""),("Gujarati astrolabe","","1644","calibrated for Jodhpur"),("Planispheric astrolabe","","","from old data")],
     "mater · tympans for latitudes · rete · alidade · brass"),
   X("Universal astrolabe","Astrolabe usable at any latitude without changing plates, perfected by Ibn al-Sarraj of Aleppo.","Ibn al-Sarraj","fl. 1328",WA,[],"single universal plate"),
-  X("Mariner's astrolabe","Heavy, open-wheel astrolabe for measuring the Sun's or a star's altitude on a moving ship.","","15th century",WA,[],"open cast ring · weighted")]}
+  X("Mariner's astrolabe","Astrolabe adapted for use on a ship's heaving deck; a simplified form was promoted by Prince Henry the Navigator.","","",WA,[],"")]}
 arm={"n":"Armillary sphere","a":"armilla · spherical astrolabe","d":"Model of the sky made of rings for the celestial equator, ecliptic and other circles around a central Earth or Sun.",
  "t":["Ptolemaic (Earth-centred)","Copernican (Sun-centred)","desk model","garden"],
  "s":"https://en.wikipedia.org/wiki/Armillary_sphere"}
@@ -54,13 +54,13 @@ proj={"n":"Home planetarium projector","a":"star projector · home planetarium",
  "t":["optical (star disc)","LED nebula / galaxy projector","with rotation and shooting stars"],
  "s":"https://www.astroshop.eu/planetaria-sundials/planetaria/42_20",
  "x":[X("Sega Toys Homestar","The first home optical planetarium, developed by Takayuki Ohira with Sega Toys in 2005; about 1.7 million sold by 2021.",ST,"2005","https://www.megastar.jp/en/products/homestar/",
-    [("Homestar Pro Original",ST,"","from old data"),("Homestar Classic",ST,"","from old data"),("Homestar Flux",ST,"","from old data"),("Homestar Matataki",ST,"","from old data; twinkling stars")],"replaceable star discs · rotation · timer")],
+    [("Homestar Pro Original",ST,"","from old data"),("Homestar Classic",ST,"","from old data"),("Homestar Flux",ST,"","from old data"),("Homestar Matataki",ST,"","from old data")],"replaceable star discs · rotation · timer")],
  "m":[["Planetarium NV 110/220","Baader Planetarium"],["Astro Planetarium","National Geographic (licensed optics)"],["Planetarium HD","Buki"],["Pococo Galaxy Projector","Pococo"]]}
 sex={"n":"Sextant","a":"octant · quadrant","d":"Double-reflecting hand instrument that measures the angle between a celestial body and the horizon for navigation.",
  "t":["octant (Hadley's quadrant)","sextant","micrometer drum","vernier","metal","plastic"],
  "s":WS,
  "x":[
-  X("Hadley octant","John Hadley's double-reflecting instrument of about 1731 (also found by Thomas Godfrey), the ancestor of the sextant.","","c. 1731",WS,[],"wooden or brass frame · 45° arc"),
+  X("Hadley octant","John Hadley's double-reflecting instrument of about 1731 (also found by Thomas Godfrey), the ancestor of the sextant.","","c. 1731",WS,[],""),
   X("Cassens & Plath sextant","German micrometer-drum sextant with a bronze frame, made by Cassens & Plath of Bremen from 1962, often sold through Weems & Plath.",CP,"1962","https://landandseacollection.com/id486.html",
     [("Weems & Plath branded sextant",CP,"","−5° to 125°, 4×40 scope, reads to 10″")],"bronze frame · black enamel · micrometer drum"),
   X("Davis Mark 15","Plastic micrometer-drum sextant sold as a low-cost learner and backup instrument.",DA,"","https://casualnavigation.com/davis-mk15-sextant-review/",
@@ -75,11 +75,11 @@ brands=[
  {"n":CP,"c":"Germany","f":"1902","seg":"Heritage manufactory","kf":"sextants, compasses","d":"Bremen nautical instrument firm founded by Captain Tanne Janssen Cassens, renamed with Theodore Plath in 1908; making its own sextants from 1962.","sig":["Cassens & Plath sextant"],"s":"https://landandseacollection.com/id486.html"},
  {"n":DA,"c":"United States","seg":"Premium","kf":"weather stations","d":"Californian maker of weather stations and marine instruments, including the plastic Mark 15 sextant.","sig":["Davis Mark 15"],"s":"knowledge"}]
 trad=[
- {"n":"Islamic astrolabe making","g":"Scientific instruments","r":"Middle East, Persia, North Africa, Islamic Spain, India","p":"8th–17th century",
-  "d":"Tradition of engraved brass astrolabes and astronomical treatises begun by al-Fazari and carried from Baghdad to Spain and India.",
+ {"n":"Islamic astrolabe making","g":"Scientific instruments","r":"Islamic world and India","p":"8th–17th century",
+  "d":"Tradition of brass astrolabes and treatises in the Islamic world, from al-Fazari in the 8th century to universal and geared astrolabes, later carried on in India.",
   "tech":"cast and engraved brass, stereographic projection of plates, pierced rete","mat":"brass",
-  "forms":["Planispheric astrolabe","Universal astrolabe"],"ctr":["Baghdad","Isfahan","Aleppo (Ibn al-Sarraj)","Gujarat"],
-  "auth":"dated or signed inscriptions, latitudes of plates matching named cities, star names in Arabic","s":WA},
+  "forms":["Planispheric astrolabe","Universal astrolabe"],"ctr":["Isfahan (Abi Bakr)","Aleppo (Ibn al-Sarraj)","Gujarat"],
+  "auth":"signed or dated inscriptions; plate latitudes for named places","s":WA},
  {"n":"European astrolabe making","g":"Scientific instruments","r":"Western Europe","p":"c. 1000–17th century",
   "d":"Latin astrolabe tradition after Gerbert of Aurillac brought the instrument north of the Pyrenees, with treatises by Chaucer and Stöffler.",
   "tech":"engraved brass plates and rete, Latin scales","mat":"brass",
