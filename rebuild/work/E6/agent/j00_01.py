@@ -45,7 +45,7 @@ smart={"n":"Smart telescope","a":"imaging telescope · all-in-one telescope","d"
   X("Vaonis Stellina","The first app-driven all-in-one smart telescope.",V,"2018","https://scopetrader.com/ultimate-smart-telescope-showdown/",
     [("Stellina",V,"2018","80 mm")],"80 mm · white body"),
   X("Unistellar eVscope","Reflector smart telescope with an electronic eyepiece showing live stacked images.",U,"2017","https://en.wikipedia.org/wiki/Unistellar",
-    [("eVscope",U,"2017","114 mm; prototype shown at CES 2017"),("eVscope 2",U,"2022","114 mm, with Nikon eyepiece"),("eQuinox",U,"",""),("eQuinox 2",U,"2023","114 mm"),("Odyssey",U,"2024","85 mm"),("Odyssey Pro",U,"","")],"85–114 mm"),
+    [("eVscope",U,"2017","114 mm; prototype shown at CES 2017"),("eVscope 2",U,"2022","114 mm"),("eQuinox",U,"",""),("eQuinox 2",U,"2023","114 mm"),("Odyssey",U,"2024","85 mm"),("Odyssey Pro",U,"","")],"85–114 mm"),
   X("Vaonis Vespera","Compact smaller sibling of the Stellina; CES 2021 Innovation Award.",V,"","https://www.space.com/vaonis-vespera-smart-telescope",
     [("Vespera",V,"",""),("Vespera II",V,"",""),("Vespera III",V,"",""),("Vespera Pro",V,"",""),("Vespera Pro 2",V,"2026","50 mm")],"50 mm"),
   X("ZWO Seestar","Low-cost compact smart telescope that made the category mass-market.",Z,"","https://skiesandscopes.com/best-smart-telescopes/",
