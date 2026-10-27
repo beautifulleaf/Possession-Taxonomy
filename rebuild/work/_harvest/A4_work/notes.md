@@ -4,3 +4,4 @@
 - Fashionphile: own designer page not found in search
 - Rebag support designers page: WebFetch 403; coordinator allowed a connector retry, Firecrawl retry denied by permission system (bot-check circumvention) -> treated as blocked, not retried via Parallel
 - fetched: wiki Category:Luggage_manufacturers; retailboss fashionphile (not useful, not logged)
+- wikidata sparql P1056 handbag/luggage/eyewear/umbrella/etc: 159 rows, saved A4_work/wd1.json (entities auto-logged)

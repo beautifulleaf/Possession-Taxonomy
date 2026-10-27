@@ -16,8 +16,9 @@ from run import W, jdump, old_kinds, shelf_jobs, shelf_context, check_shelf, ret
 LOCAL_RULES = run.WORKER_RULES.replace(
     "Tools: web_search and web_fetch (server side; you may call web_fetch for several URLs inside one code block),\n"
     "wiki (Wikipedia search / page extracts, throttled), wikidata (search, entities, SPARQL), submit (final answer).",
-    "Tools: WebSearch, WebFetch, Firecrawl (firecrawl_search to locate, firecrawl_scrape with maxAge 0 to retrieve), Parallel\n"
-    "(mcp__Parallel_Auth__web_fetch with allow_live_fetch on), and Wikidata via `python3 tools/local.py wd CODE JOB search|ids|sparql ARG`.")
+    "Tools: WebSearch (to locate pages) and WebFetch (to retrieve them). PAID FALLBACK ONLY: when WebFetch fails on a URL (403,\n"
+    "bot wall, empty page), retry that same URL once with firecrawl_scrape (maxAge 0) or mcp__Parallel_Auth__web_fetch; never use\n"
+    "firecrawl_search or Parallel web_search, and never use the paid tools as a first choice. If they report no credit, move on, and Wikidata via `python3 tools/local.py wd CODE JOB search|ids|sparql ARG`.")
 
 
 def plan_path(c): return W(c, 'plan.json')
