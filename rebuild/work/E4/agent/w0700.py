@@ -1,0 +1,55 @@
+import sys; sys.path.insert(0,'/home/user/Possession-Taxonomy/rebuild/work/E4/agent')
+from h import v,x,B,W
+w=lambda t:'https://en.wikipedia.org/wiki/'+t
+SP=w('Spear'); YA=w('Yari'); HB=w('Halberd'); JI=w('Ji_(polearm)'); PX=w('Poleaxe'); LH=w('Lucerne_hammer'); BC=w('Bec_de_corbin'); GV=w('Glaive')
+BL=w('Bill_(weapon)'); PT=w('Partisan_(weapon)'); BD=w('Bardiche'); NG=w('Naginata'); GD=w('Guandao'); HW=w('Hanwei_(sword_producer)')
+CS='Cold Steel'
+kinds=[
+{"n":"Spear","a":"yari · qiang · lance","d":"Shaft with a pointed head made for thrusting or throwing.","t":["thrusting","throwing (javelin)","leaf-shaped head","lance-point head","winged head"],
+ "s":"https://www.kultofathena.com/product-category/weapons/spears-polearms/",
+ "x":[x("Dory","","7th century BC","Ancient Greek hoplite spear, 2.1–2.7 m, with an iron head and a bronze butt-spike.",SP,dt="length · head shape · butt-spike"),
+  x("Sarissa","","4th century BC","Very long two-handed Macedonian pike of Philip II and Alexander the Great.",SP,dt="length · head"),
+  x("Pilum","","late 2nd century BC–2nd century AD","Heavy Roman legionary throwing javelin with a long iron shank.",SP,dt="weight · shank length"),
+  x("Winged spear","","early Middle Ages","Frankish and Viking spear with prominent wings at the base of the head.",SP,[v("Man at Arms Winged Spear",CS)],"head length · wing shape",a="boar spear"),
+  x("Pike","","14th–17th century","Very long two-handed infantry spear that dominated 16th- and 17th-century battlefields.",SP,dt="length · head"),
+  x("Iklwa","","early 19th century","Short Zulu stabbing spear attributed to Shaka, used with a cowhide shield.",SP,[v("Assegai Iklwa Spear",CS)],"head length · shaft",a="assegai"),
+  x("Qiang","","Tang dynasty on","Chinese spear, the 'king of weapons' in Chinese martial arts, often with a red horsehair tassel.",SP,[v("Han Sha Spear","LK Chen")],"shaft wood · tassel · head"),
+  x("Yari","","late 15th century (term from 1334)","Straight-bladed Japanese spear forged like a sword blade; the weapon of samurai and ashigaru.",YA,
+   [v("Su yari","","","straight double-edged blade"),v("Sasaho yari","","","leaf-shaped blade"),v("Sankaku yari","","","triangular section"),v("Jūmonji yari","","","cross-shaped with curved side blades"),v("Kama yari","","","added sickle blade"),v("Omi yari","","","extra-long su yari blade")],
+   "blade form · shaft length (te yari to nagae yari) · koshirae")],
+ "m":[["Man at Arms Classic Leaf Shape Spear",CS],["Man at Arms Lance Point Spear",CS]],"r":[["Man at Arms",CS]]},
+{"n":"Halberd","a":"","d":"Polearm combining an axe blade, a spike and a hook on one head.","t":["fighting","ceremonial"],"s":"https://www.buyingasword.com/man-at-arms-swiss-halberd-by-cold-steel/",
+ "x":[x("Swiss halberd","","14th century","Axe-bladed halberd on a 2–2.5 m shaft, the main weapon of early Swiss armies and still carried by the Vatican Swiss Guard.",HB,
+   [v("Ceremonial halberd","","","Swiss Guard and Spanish Royal Guard"),v("Man at Arms Swiss Halberd",CS)],"blade form · back hook or thorn · shaft"),
+  x("Lochaber axe","","","Scottish polearm with a heavy blade on a pole, like an early halberd.",HB,dt="blade · hook"),
+  x("Ji","","Zhou to Qing dynasties","Chinese polearm joining a spearhead to a dagger-axe blade; later forms carry crescent blades.",JI,
+   [v("Qinglong ji","","Song dynasty","crescent blade on one side"),v("Fangtian ji","","Song dynasty","crescent blades on both sides")],"blade count · shaft",a="Chinese halberd")],
+ "r":[["Man at Arms",CS]]},
+{"n":"Poleaxe","a":"pollaxe","d":"Polearm with an axe or hammer head backed by a spike or fluke and topped by a spike, made for armoured foot combat.","t":["axe head","hammer head"],
+ "s":"https://www.kultofathena.com/product-category/weapons/spears-polearms/",
+ "x":[x("Knightly poleaxe","","14th–15th century","Shortish poleaxe with a vertical axe or hammer, rear fluke, top spike and langets, made to breach plate armour.",PX,[v("Venetian poleaxe","","15th century","example in the Metropolitan Museum of Art")],"head form · langets · length"),
+  x("Bec de corbin","","late Middle Ages","Polearm-hammer whose stout rear beak was the main striking point; the hammer face is often blunt.",BC,dt="hammer face · beak · top spike",a="raven's beak · bec de faucon"),
+  x("Lucerne hammer","","late 15th–17th century","Swiss polearm with a four-pronged hammer, a long rear beak and a long top spike.",LH,dt="prongs · beak · spike length")]},
+{"n":"Glaive","a":"glave","d":"Polearm with a single-edged blade on the end of the shaft.","t":["plain","with back hook (glaive-guisarme)"],"s":"https://www.kultofathena.com/product-category/weapons/",
+ "x":[x("Glaive-guisarme","","13th century on","Glaive whose blade carries a back hook for pulling riders down.",GV,dt="blade length about 45 cm · hook")]},
+{"n":"Bill","a":"billhook · bill-guisarme","d":"Infantry polearm developed from the farm billhook, with a hooked cutting blade and projecting spikes.","t":["black bill","brown bill","forest bill"],"s":BL,
+ "x":[x("English bill","","15th–16th century","Hooked English polearm used beside the longbow in the Hundred Years' War and Wars of the Roses.",BL,
+   [v("Black bill","","","5–6 ft (Silver, 1599)"),v("Forest bill","","","8–9 ft (Silver, 1599)")],"length · spike · hook"),
+  x("Roncone","","Renaissance","Italian bill with a long thrusting spike as well as a cutting blade.",BL,dt="spike · blade",a="Italian bill")]},
+{"n":"Partisan","a":"partizan","d":"Polearm with a long sword-like spearhead and side projections for parrying.","t":["fighting","ceremonial"],"s":PT,
+ "x":[x("Partisan","","16th–18th century","Infantry polearm with a broad spearhead and side lugs, still carried by ceremonial guards.",PT,[v("Ceremonial partisan","","","decorated guard pieces")],"head shape · decoration")]},
+{"n":"Bardiche","a":"berdysh","d":"Long poleaxe with a long cleaver-like blade and no hook or top spike.","s":BD,
+ "x":[x("Russian bardiche","","16th century","Long-bladed bardiche of the Russian streltsy.",BD,dt="blade over 60 cm · shaft up to 1.5 m",a="berdysh"),
+  x("Polish bardiche","","17th century","Standard infantry bardiche of the Polish–Lithuanian Commonwealth; John III Sobieski brought in a shorter version.",BD,dt="blade · shaft")]},
+{"n":"Naginata","a":"","d":"Japanese polearm with a long curved single-edged blade.","t":["antique blade","iaidō or practice","shiai (competition)"],"s":"https://www.reliks.com/spears-polearms/sohei-naginata/",
+ "x":[x("Koryū naginata","","Heian–Kamakura period","Curved-bladed Japanese polearm of the Genpei War and of onna-musha such as Tomoe Gozen.",NG,
+   [v("Ōyamazumi Shrine naginata","","","attributed to Tomoe Gozen and Benkei; Important Cultural Property")],"blade 30–100 cm · overall 205–260 cm · koshirae"),
+  x("Shiai naginata","","20th century","Competition naginata for atarashii naginata, with an oak shaft and replaceable bamboo blade.",NG,dt="length 210–225 cm",a="atarashii naginata practice weapon")],
+ "m":[["Sohei Naginata","Hanwei"]]},
+{"n":"Guandao","a":"yanyuedao · kwan dao","d":"Chinese polearm with a heavy curved blade, a back spike and a counterweighted butt.","t":["practice (wushu)","heavy testing weapon"],"s":GD,
+ "x":[x("Yanyuedao","","11th century or earlier","'Reclining moon blade' traditionally credited to Guan Yu; first illustrated in the Wujing Zongyao.",GD,
+   [v("Wushu guandao","","","2–10 kg, often with a cloth"),v("Qing military testing blade","","Qing dynasty","48–72 kg")],"blade · weight · shaft 1.5–1.8 m",a="Green Dragon Crescent Blade")]},
+]
+brands=[B("Cold Steel","United States","1980","Mainstream","knives · replica weapons","US maker of knives, swords and replica weapons, including the Man at Arms line.",lines=["Man at Arms"]),
+ B("Hanwei","China","1990","Specialist","replica swords","Paul Chen's replica-sword maker in Dalian; factory closed in December 2024.",HW)]
+W('07_00',{"kinds":kinds,"brands":brands,"traditions":[],"notes":"All five old kinds kept; Bill, Partisan, Bardiche and Guandao added. Spear placeholders 'Dory' and 'Yari' became archetypes; Cold Steel Assegai Iklwa and Winged Spear and LK Chen Han Sha became versions; Swiss Halberd became a version. Ji placed under Halberd. Woldo, fauchard, voulge and spontoon left out (pages not fetched)."})

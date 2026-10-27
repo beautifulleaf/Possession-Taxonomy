@@ -1,0 +1,385 @@
+{
+ "kinds": [
+  {
+   "n": "Espresso blends",
+   "a": "espresso roast · house espresso",
+   "d": "Blends roasted for espresso, as named patterns from Mocha-Java to Italian house blends.",
+   "s": "https://en.wikipedia.org/wiki/Mocha_coffee_bean",
+   "x": [
+    {
+     "n": "Mocha-Java",
+     "a": "Mocha Java · Java-Mocha",
+     "d": "Traditional blend pairing Yemeni Mocha beans with Javanese beans; the oldest named coffee blend.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Mocha_coffee_bean",
+     "v": [
+      {
+       "n": "Yemen Mocha",
+       "mk": "",
+       "y": "",
+       "d": "Small, hard olive-to-yellow beans from Jabal Haraz, Al Udayn and Taiz"
+      },
+      {
+       "n": "Java estate coffee",
+       "mk": "",
+       "y": "",
+       "d": "Heavy-bodied, sweet; see Coffee production in Indonesia"
+      }
+     ],
+     "dt": "components: Mocha + Java · body heavy, sweet"
+    },
+    {
+     "n": "Classic Italian espresso blend",
+     "a": "Italian espresso",
+     "d": "Dark-ish arabica (often with robusta) blend sold by Italian houses for moka pot and espresso machine.",
+     "mk": "",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Lavazza",
+     "v": [
+      {
+       "n": "Lavazza Qualità Oro",
+       "mk": "Lavazza",
+       "y": "",
+       "d": "Named product in the Lavazza range"
+      },
+      {
+       "n": "Lavazza Super Crema",
+       "mk": "Lavazza",
+       "y": "",
+       "d": "Named product in the Lavazza range"
+      },
+      {
+       "n": "Lavazza Qualità Rossa",
+       "mk": "Lavazza",
+       "y": "",
+       "d": "Named product in the Lavazza range"
+      }
+     ],
+     "dt": "roast: medium to dark · beans: arabica with robusta · pack: beans, ground, cans"
+    },
+    {
+     "n": "illy blend",
+     "a": "illy classic",
+     "d": "Single house arabica blend from many origins, sold in pressurised steel cans in medium, dark and decaf roasts.",
+     "mk": "illy",
+     "y": "1933",
+     "s": "https://en.wikipedia.org/wiki/Illycaff%C3%A8",
+     "v": [],
+     "dt": "roasts: medium, dark, decaf · pack: pressurised tin"
+    }
+   ]
+  },
+  {
+   "n": "Everyday ground & filter coffee",
+   "a": "supermarket coffee · roast and ground",
+   "d": "Ground or bagged coffee for filter and drip machines, bought on brand and price.",
+   "t": [
+    "roast and ground",
+    "whole bean",
+    "pods compatible"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Folgers",
+   "m": [
+    [
+     "Folgers",
+     "J.M. Smucker"
+    ],
+    [
+     "Maxwell House",
+     "Kraft Heinz"
+    ],
+    [
+     "Maxwell House (outside North America)",
+     "JDE Peet's"
+    ],
+    [
+     "Douwe Egberts",
+     "JDE Peet's"
+    ],
+    [
+     "Jacobs",
+     "JDE Peet's"
+    ],
+    [
+     "Kenco",
+     "JDE Peet's"
+    ],
+    [
+     "Lavazza Qualità Rossa",
+     "Lavazza"
+    ]
+   ]
+  },
+  {
+   "n": "Decaffeinated coffee",
+   "a": "decaf",
+   "d": "Coffee with caffeine removed by water, solvent or supercritical CO2.",
+   "t": [
+    "Swiss Water process",
+    "supercritical CO2",
+    "ethyl acetate",
+    "dichloromethane (methylene chloride)",
+    "triglyceride process"
+   ],
+   "s": "https://en.wikipedia.org/wiki/Decaffeination",
+   "x": [
+    {
+     "n": "Café HAG",
+     "a": "Kaffee HAG · HAG",
+     "d": "First commercial decaf brand, founded in Bremen by Ludwig Roselius; Sanka split from it in 1910.",
+     "mk": "Café HAG",
+     "y": "1906",
+     "s": "https://en.wikipedia.org/wiki/Caf%C3%A9_HAG",
+     "v": [
+      {
+       "n": "Sanka",
+       "mk": "",
+       "y": "1910",
+       "d": "US/French spin-off from HAG"
+      },
+      {
+       "n": "HAG under JDE Peet's",
+       "mk": "JDE Peet's",
+       "y": "2015",
+       "d": "Current owner"
+      }
+     ],
+     "dt": "process: solvent decaf (Roselius patent 1906)"
+    },
+    {
+     "n": "Swiss Water decaf",
+     "a": "Swiss Water Process",
+     "d": "Solvent-free decaf using green coffee extract and charcoal filters; commercialised by Coffex in 1980.",
+     "mk": "Swiss Water Company",
+     "y": "1933 developed; 1980 commercial",
+     "s": "https://en.wikipedia.org/wiki/Decaffeination",
+     "v": [
+      {
+       "n": "Swiss Water Company, Burnaby",
+       "mk": "Swiss Water Company",
+       "y": "1988",
+       "d": "Commercial plant in British Columbia"
+      }
+     ],
+     "dt": "process: water + activated carbon, 8-10 hours"
+    }
+   ]
+  },
+  {
+   "n": "Traditional regional coffee",
+   "a": "regional coffee styles",
+   "d": "Coffee styles tied to a place and method, such as Turkish, Arabic, Vietnamese phin or New Orleans chicory blends.",
+   "s": "https://en.wikipedia.org/wiki/Turkish_coffee",
+   "x": [
+    {
+     "n": "Turkish coffee",
+     "a": "Türk kahvesi · Greek coffee",
+     "d": "Very fine coffee boiled in a cezve and served unfiltered; on UNESCO's intangible heritage list.",
+     "mk": "",
+     "y": "c.1554 (first Istanbul coffeehouse)",
+     "s": "https://en.wikipedia.org/wiki/Turkish_coffee",
+     "v": [],
+     "dt": "vessel: cezve · grind: powder-fine · sweetness: unsweetened to very sweet"
+    },
+    {
+     "n": "Arabic coffee (qahwa)",
+     "a": "qahwa · Gulf coffee · Levantine coffee",
+     "d": "Lightly to heavily roasted arabica boiled and often flavoured with cardamom, served unsweetened in small cups.",
+     "mk": "",
+     "y": "mid-15th century",
+     "s": "https://en.wikipedia.org/wiki/Arabic_coffee",
+     "v": [
+      {
+       "n": "Gulf style",
+       "mk": "",
+       "y": "",
+       "d": "Very light roast with saffron and cardamom, yellow colour"
+      },
+      {
+       "n": "Northern Arabia qahwah shamāliyya",
+       "mk": "",
+       "y": "",
+       "d": "Darker roast"
+      },
+      {
+       "n": "Qahwa murra",
+       "mk": "",
+       "y": "",
+       "d": "Coarse grounds with whole cardamom, brewed for hours"
+      },
+      {
+       "n": "Yemeni hawaij coffee",
+       "mk": "",
+       "y": "",
+       "d": "Brewed with hawaij spice blend"
+      }
+     ],
+     "dt": "vessel: dallah · roast 165-210 C · spice: cardamom, saffron"
+    },
+    {
+     "n": "Vietnamese phin coffee",
+     "a": "cà phê phin · Vietnamese iced coffee",
+     "d": "Dark-roast Vietnamese robusta dripped through a metal phin, usually over condensed milk.",
+     "mk": "Trung Nguyên",
+     "y": "",
+     "s": "https://en.wikipedia.org/wiki/Vietnamese_iced_coffee",
+     "v": [
+      {
+       "n": "Trung Nguyên G7",
+       "mk": "Trung Nguyên",
+       "y": "2003",
+       "d": "Most successful product of the group"
+      },
+      {
+       "n": "Trung Nguyên Legendee",
+       "mk": "Trung Nguyên",
+       "y": "",
+       "d": "Simulated kopi luwak made with enzymes"
+      }
+     ],
+     "dt": "species: robusta · filter: phin · milk: condensed"
+    },
+    {
+     "n": "New Orleans coffee and chicory",
+     "a": "café au lait blend",
+     "d": "Dark roast blended with chicory root, a tradition dating to the Civil War blockade.",
+     "mk": "Café du Monde",
+     "y": "1862",
+     "s": "https://en.wikipedia.org/wiki/Caf%C3%A9_du_Monde",
+     "v": [
+      {
+       "n": "Café du Monde tin",
+       "mk": "Café du Monde",
+       "y": "",
+       "d": "Orange-yellow tin sold across US grocery markets since the early 1990s"
+      }
+     ],
+     "dt": "blend: coffee + chicory · served au lait"
+    },
+    {
+     "n": "Spanish torrefacto",
+     "a": "torrefacto · cafe torrefacto",
+     "d": "Beans roasted with added sugar, blended with ordinary roast; used in Spain and parts of Latin America.",
+     "mk": "",
+     "y": "1920s",
+     "s": "https://en.wikipedia.org/wiki/Torrefacto",
+     "v": [],
+     "dt": "sugar-coated roast · countries: Spain, Portugal, Mexico, Costa Rica, others"
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "n": "Lavazza",
+   "c": "Italy",
+   "f": "1895",
+   "seg": "Mainstream",
+   "kf": "Italian espresso",
+   "d": "Turin family-owned roaster, founded by Luigi Lavazza.",
+   "s": "https://en.wikipedia.org/wiki/Lavazza"
+  },
+  {
+   "n": "illy",
+   "c": "Italy",
+   "f": "1933",
+   "seg": "Premium",
+   "kf": "single blend",
+   "d": "Trieste roaster founded by Francesco Illy, known for pressurised tins.",
+   "s": "https://en.wikipedia.org/wiki/Illycaff%C3%A8"
+  },
+  {
+   "n": "Folgers",
+   "c": "United States",
+   "f": "1850",
+   "seg": "Mainstream",
+   "kf": "American canned coffee",
+   "d": "San Francisco origin; owned by J.M. Smucker since 2008.",
+   "s": "https://en.wikipedia.org/wiki/Folgers"
+  },
+  {
+   "n": "Maxwell House",
+   "c": "United States",
+   "f": "1892",
+   "seg": "Mainstream",
+   "kf": "Nashville blend",
+   "d": "Founded by Joel Owsley Cheek; Kraft Heinz in North America, JDE Peet's elsewhere.",
+   "s": "https://en.wikipedia.org/wiki/Maxwell_House"
+  },
+  {
+   "n": "Douwe Egberts",
+   "c": "Netherlands",
+   "f": "1753",
+   "seg": "Mainstream",
+   "kf": "Dutch coffee",
+   "d": "Dutch brand from a 1752 Joure grocery; part of JDE Peet's.",
+   "s": "https://en.wikipedia.org/wiki/Douwe_Egberts"
+  },
+  {
+   "n": "Café HAG",
+   "c": "Germany",
+   "f": "1906",
+   "seg": "Specialist",
+   "kf": "decaf",
+   "d": "Bremen decaf pioneer founded by Ludwig Roselius.",
+   "s": "https://en.wikipedia.org/wiki/Caf%C3%A9_HAG"
+  },
+  {
+   "n": "Trung Nguyên",
+   "c": "Vietnam",
+   "f": "1996",
+   "seg": "Mainstream",
+   "kf": "Vietnamese robusta",
+   "d": "Buôn Ma Thuột group behind G7 instant and Legendee.",
+   "s": "https://en.wikipedia.org/wiki/Trung_Nguy%C3%AAn"
+  },
+  {
+   "n": "Café du Monde",
+   "c": "United States",
+   "f": "1862",
+   "seg": "Heritage manufactory",
+   "kf": "chicory coffee",
+   "d": "New Orleans coffee stand selling chicory coffee in tins.",
+   "s": "https://en.wikipedia.org/wiki/Caf%C3%A9_du_Monde"
+  },
+  {
+   "n": "Jacobs",
+   "c": "Germany",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "German filter coffee",
+   "d": "JDE Peet's brand.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Kenco",
+   "c": "United Kingdom",
+   "f": "",
+   "seg": "Mainstream",
+   "kf": "British coffee",
+   "d": "JDE Peet's brand.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Tchibo",
+   "c": "Germany",
+   "f": "1949",
+   "seg": "Mainstream",
+   "kf": "coffee retailer",
+   "d": "Hamburg coffee retailer and roaster.",
+   "s": "knowledge"
+  },
+  {
+   "n": "Melitta",
+   "c": "Germany",
+   "f": "1908",
+   "seg": "Mainstream",
+   "kf": "paper filters and coffee",
+   "d": "Melitta Bentz invented the paper coffee filter in 1908.",
+   "s": "knowledge"
+  }
+ ],
+ "traditions": [],
+ "notes": "No test-winner data (Which?, Warentest, CHOICE, CR) retrieved, so everyday coffee lists brands only at brand level (no invented SKUs). Left out unsourced: Kimbo, Starbucks Espresso Roast, Square Mile Red Brick, Black Cat, Kurukahveci Mehmet Efendi facts (not on page; mentioned as a note), Cuban-style, Nanyang kopi, cafe de olla, Dallmayr Prodomo, Paulig, Lofbergs, Peet's, Cafe Bustelo, Segafredo (page is a disambiguation). Decaf Mountain Water not on retrieved page."
+}
