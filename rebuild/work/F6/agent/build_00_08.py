@@ -1,4 +1,4 @@
-from lib import *
+from libf6a import *
 kinds=[
 K("Vanadinite","Lead vanadate chloride mineral specimen: bright red to orange hexagonal crystals, usually thumbnail to miniature.",FE,[
  X("Mibladen vanadinite","Red tabular crystal clusters from Mibladen, Morocco, probably the most popular specimens among collectors.",W+"Vanadinite",

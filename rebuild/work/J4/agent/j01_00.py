@@ -1,5 +1,5 @@
 import sys; sys.path.insert(0,'work/J4/agent')
-from lib import *
+from lib_j4b import *
 L="https://en.wikipedia.org/wiki/List_of_potato_cultivars"
 x=[
 A("Russet Burbank",L,"Long-russeted American baking and chipping potato, the world's reference processing cultivar.",y="1902",a="Idaho potato",dt="russet skin · floury · baking, fries"),

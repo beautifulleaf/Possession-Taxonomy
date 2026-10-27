@@ -1,0 +1,49 @@
+import json, os
+K = 'knowledge'
+def X(n, d, mk, y, s, v=(), a="", dt=""):
+    return {"n": n, "a": a, "d": d, "mk": mk, "y": y, "s": s, "v": [dict(zip(("n", "mk", "y", "d"), t)) for t in v], "dt": dt}
+GUIDE = 'https://mycomicscollection.com/en/blog/comic-bags-boards-guide/'; BCW = 'https://www.bcwsupplies.com/1-BBCUR'; UP = 'https://www.asmodee.co.uk/products/upr81975-ultra-pro-comic-bags-current-size-100'
+BAY = 'https://georgebayntun.com/boxes-and-slipcases'; ILAB = 'https://ilab.org/article/the-finer-print-growing-concern-over-facsimile-jackets'
+BRO = 'https://www.shopbrodart.com/Library-Supplies/Book-Jacket-Covers/Adjustable-Covers/Just-A-Fold/Just-A-Fold-Sheets/_/Brodart-Just-A-Fold-Book-Jacket-Cover-Sheets/'
+kinds = [
+ {"n": "Comic bag", "a": "comic sleeve", "d": "Clear plastic or polyester bag sized to hold one comic issue.",
+  "t": ["polypropylene", "polyethylene", "Mylar (polyester) sleeve", "resealable flap", "Golden Age size", "Silver Age size", "Current size", "magazine size", "treasury size", "2 mil", "4 mil"],
+  "s": BCW,
+  "m": [["Current/Modern Comic Bags", "BCW"], ["Comic Mylar Archivals", "BCW"], ["Comic Bags (Current Size)", "Ultra PRO"], ["Platinum comic bags", "Ultra PRO"], ["Mylites 2", "E. Gerber"], ["Mylites 4", "E. Gerber"]]},
+ {"n": "Backing board", "a": "comic board · backer", "d": "Stiff acid-free board placed behind one comic in its bag to keep it flat.",
+  "t": ["24-point", "full back (thicker)", "half back", "acid-free buffered", "Golden, Silver or Current size"], "s": BCW,
+  "m": [["Current Comic Backing Boards", "BCW"], ["Silver Comic Backing Boards", "BCW"], ["Golden Comic Backing Boards", "BCW"], ["Full Back", "E. Gerber"], ["Half Back", "E. Gerber"]]},
+ {"n": "Comic storage box", "a": "short box · long box · comic bin", "d": "Box sized to hold bagged and boarded comics upright, spine facing out.",
+  "t": ["short box", "long box", "drawer box", "magazine box", "cardboard", "plastic bin", "with dividers"], "s": GUIDE,
+  "m": [["Short Comic Storage Box", "BCW"]]},
+ {"n": "Slipcase", "a": "", "d": "Open-ended box made to hold and protect one book or one set issued together, leaving the spine visible.",
+  "t": ["cloth", "leather-edged", "marbled paper", "with ribbon pull", "publisher's", "bespoke"], "s": BAY,
+  "m": [["Slipcase", "George Bayntun"]]},
+ {"n": "Book box", "a": "clamshell · dropover box", "d": "Closed box made to hold and protect one book or set, lid dropping over or hinged as a clamshell.",
+  "t": ["dropover", "clamshell", "flat spine", "raised bands", "gilt-lettered spine", "goatskin or calf", "book cloth", "suede or felt lined"], "s": BAY,
+  "m": [["Dropover box", "George Bayntun"]]},
+ {"n": "Book jacket cover", "a": "jacket protector · Mylar cover", "d": "Clear polyester or film cover made to fit over one book's dust jacket to protect it.",
+  "t": ["adjustable sheet", "roll", "pre-cut", "acid-free polyester", "lo-lustre", "super clear"], "s": BRO,
+  "m": [["Just-A-Fold", "Brodart"]]},
+ {"n": "Loose dust jacket", "a": "replacement jacket · facsimile jacket", "d": "Loose paper wrapper made to cover one hardback book, sold apart from the book.",
+  "t": ["original jacket", "facsimile (marked)", "price-clipped", "restored"], "s": "https://swanriverpress.ie/?p=37",
+  "x": [
+   X("Facsimile dust jacket", "Ink-jet reproduction of a rare first-edition jacket, marked as a facsimile; adds no value to the book.", "Facsimile Dust Jackets LLC", "", ILAB,
+     [("Facsimile Dust Jackets L.L.C.", "Facsimile Dust Jackets LLC", "", "Mark Terry; always marked as facsimile"),
+      ("Commercially printed facsimile", "", "", "e.g. publisher reissues and First Edition Library jackets")], dt="marked or not · paper · fit"),
+  ]},
+]
+brands = [
+ {"n": "BCW", "c": "United States", "f": "", "seg": "Mainstream", "kf": "comic storage", "d": "American maker of comic bags, boards and storage boxes.", "s": BCW},
+ {"n": "Ultra PRO", "c": "United States", "f": "", "seg": "Mainstream", "kf": "collectible storage", "d": "American maker of card and comic protection supplies.", "s": UP},
+ {"n": "E. Gerber", "c": "United States", "f": "", "seg": "Specialist", "kf": "Mylar sleeves", "d": "American archival supplier whose Mylites Mylar sleeves are the benchmark for comic protection.", "s": GUIDE},
+ {"n": "Brodart", "c": "United States", "f": "", "seg": "Specialist", "kf": "library supplies", "d": "American library-supply firm known for Just-A-Fold book jacket covers.", "s": K},
+ {"n": "George Bayntun", "c": "United Kingdom", "f": "", "seg": "Artisan & independent", "kf": "bookbinding", "d": "Bath bookbinder and bookseller making hand-made slipcases and dropover boxes.", "s": BAY},
+ {"n": "Facsimile Dust Jackets LLC", "c": "United States", "f": "", "seg": "Artisan & independent", "kf": "facsimile jackets", "d": "Mark Terry's firm making clearly marked facsimile dust jackets.", "sig": ["Facsimile dust jacket"], "s": ILAB},
+]
+notes = ("All six old kinds kept; Comic storage box added (short/long/drawer/magazine box as t). Tier models limited to market brands BCW, Ultra PRO, E. Gerber, Brodart and Bayntun as the crafted option. "
+         "Bag size class by comic age and material are t. Facsimile dust jacket added as archetype (sourced). BCW long box not listed as a model (only marketplace pages named it).")
+out = {"kinds": kinds, "brands": brands, "traditions": [], "notes": notes}
+p = 'work/F1/shelves/07_00.json'
+json.dump(out, open(p + '.tmp', 'w'), ensure_ascii=False, indent=1); os.replace(p + '.tmp', p)
+print('written')

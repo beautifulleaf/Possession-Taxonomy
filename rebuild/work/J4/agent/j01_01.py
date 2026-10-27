@@ -1,5 +1,5 @@
 import sys; sys.path.insert(0,'work/J4/agent')
-from lib import *
+from lib_j4b import *
 N="https://potatoes.cals.ncsu.edu/sweetpotato/sweetpotato-varieties"
 W="https://en.wikipedia.org/wiki/"
 sp=[

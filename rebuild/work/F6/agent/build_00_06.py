@@ -1,4 +1,4 @@
-from lib import *
+from libf6a import *
 kinds=[
 K("Barite","Barium sulfate mineral specimen: bladed and tabular crystals, rosettes and clusters, often blue, golden or colourless.",FE,[
  X("Bologna stone","Radiating baryte nodules found near Bologna in the 17th century by Vincenzo Casciarolo; phosphorescent after calcining.",W+"Baryte",y="17th century",dt="radiating nodule"),

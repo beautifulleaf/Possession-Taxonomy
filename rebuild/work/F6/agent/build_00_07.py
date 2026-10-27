@@ -1,4 +1,4 @@
-from lib import *
+from libf6a import *
 kinds=[
 K("Turquoise","Hydrated copper aluminium phosphate mineral specimen: sky-blue to green nodules, veins and rare crystals; the classic gem stone material (cut stones are under Gemstones).",FE,[
  X("Nishapur turquoise","Classic Persian turquoise from Ma'dan near Neyshabur (Nishapur), Iran: naturally blue, turns green when heated.",W+"Turquoise",a="Persian turquoise",

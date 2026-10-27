@@ -20,5 +20,5 @@ sw=K('Toy sword','Play swords, axes and daggers of foam, plastic or wood; LARP f
 brands=[B('Nerf','United States','1969','Mainstream','foam blasters','Foam toy brand created by Parker Brothers, now Hasbro; first foam dart blaster in 1992.',NE,sig=['Nerf N-Strike','Nerf Rival'],rel=['Hasbro','Larami']),
  B('Larami','United States','','Mainstream','water guns','Maker of the Power Drencher/Super Soaker; bought by Hasbro in 1995, closed 2002.',SS,sig=['Super Soaker']),
  B('Hasbro','United States','1923','Mainstream','toys and games','Owner of Nerf since buying Tonka in 1991.','knowledge'),
- B('Zuru','New Zealand','2004','Mainstream','X-Shot blasters','Maker of X-Shot toy blasters, a retail brand of gel and foam blasters.',GB)]
+ B('Zuru','New Zealand','','Mainstream','X-Shot blasters','Maker of X-Shot toy blasters, a retail brand of gel and foam blasters.',GB)]
 write('05_01',[fd,wb,sw],brands,[],'Merged "Other toy weapons" into the three kinds; slingshot/blowgun/gel/Dart Zone/X-Shot as types. Mega and Modulus listed as types only: no retrievable page (fan wiki returned 402). Dart Zone brand not attested, left out. No sourced toy-sword archetype; N-Force kept as range from old data. Nerf first-dart-blaster date per Wikipedia (1992).')

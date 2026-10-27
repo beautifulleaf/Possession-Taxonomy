@@ -11,3 +11,4 @@
 - J2 restraint shelves: English names of Japanese/Korean GIs are the worker's own translations (original script kept in brackets) — spot-check at J2 merge.
 - J10 03_02 E-liquid and 07_00 Pre-roll have empty sources (no old source); source them before J10 finish.
 - Restraint pass I1/I2/H3 gaps (add with sources in web pass): I2 04_00 .net .org .io .co .eu; I1 09_01 LibreOffice Base, SQLite GUI tools; I1 02_03 Xero, Wave; I1 06_01 calibre; I1 02_02 consumer read-aloud TTS apps; H3 05_02 furniture makers beyond Liberator.
+- J6 merged thin: worker fetched almost only Wikipedia; no test-winner data (Which?/Warentest/CHOICE) for tier kinds; many named items left out (Kimbo, Starbucks VIA, Clipper, Ahmad, Kusmi, Valor, Droste, Nesquik, Rosamonte, Lao Banzhang/Yiwu, CCN-51, Porcelana...). Run a J6 deepening pass, then re-finish.

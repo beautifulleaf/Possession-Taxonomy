@@ -1,4 +1,4 @@
-from lib import *
+from libf6a import *
 kinds=[
 K("Calcite","Calcium carbonate mineral specimen: crystals, clusters and optical-grade pieces, on or off matrix.",FE,[
  X("Iceland spar","Clear colourless calcite with strong double refraction, first described by Bartholin in 1669; the classic optical specimen.",W+"Iceland_spar",a="optical calcite · Iceland crystal",y="1669",
