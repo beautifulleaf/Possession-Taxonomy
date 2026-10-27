@@ -312,7 +312,7 @@ notes = ("Home console: 150 old models turned into 41 platform-family archetypes
  "Old data credited the M64 to Plaion; the fetched source shows the maker is ModRetro, so corrected. "
  "Moved to other shelves: THE400 Mini, THEA500 Mini, THEC64 Mini, X68000 Z, Sport Vii, Xavix PORT (to Plug-and-play & mini console, 00_02); PlayStation TV (Vita-family micro-console, to Handhelds & hybrids 00_01). "
  "Magnavox Odyssey (1972) left to the dedicated-console shelf as planned there. "
- "Dropped to stay within 40 flat models: DVD Kids (3-Plus), Champion 2711 (Unisonic), CT510 (eedoo), Videopac+ G7400 / AV Famicom / Wii mini etc. are versions not dropped. "
+ "Dropped to stay within 40 flat models: DVD Kids (3-Plus), Champion 2711 (Unisonic), CT510 (eedoo) (least-documented). Videopac+ G7400, AV Famicom, Wii mini, Neo Geo CD, Panasonic Q, iQue Player, Beena etc. are now versions. "
  "Wikidata was rate-limited (HTTP 429); all sources are fetched Wikipedia pages plus one CNX Software article.")
 
 out = {"kinds": kinds, "brands": brands, "traditions": [], "notes": notes}
