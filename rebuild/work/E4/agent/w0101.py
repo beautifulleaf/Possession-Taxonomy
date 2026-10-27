@@ -37,8 +37,8 @@ kinds=[
 brands=[
  {"n":BM,"c":"United States","seg":"Premium","kf":"folding and tactical knives","d":"Oregon maker of folding, butterfly and tactical knives.","sig":["Benchmade 42"],"s":"knowledge"},
  {"n":"Squid Industries","c":"United States","seg":"Specialist","kf":"butterfly knives","d":"American maker of butterfly knives and trainers.","sig":["Krake Raken Zenith"],"s":"knowledge"},
- {"n":GS,"c":"United States","f":"1893","seg":"Heritage manufactory","kf":"switchblades","d":"George Schrade's knife company, maker of the Presto switchblades and the M2 paratrooper knife.","sig":["Schrade Presto","Knife, Pocket, M2"],"s":SB},
+ {"n":GS,"c":"United States","seg":"Heritage manufactory","kf":"switchblades","d":"George Schrade's knife company, maker of the Presto switchblades and the M2 paratrooper knife.","sig":["Schrade Presto","Knife, Pocket, M2"],"s":SB},
  {"n":CK,"c":"United States","seg":"Mainstream","kf":"military and automatic knives","d":"US maker of mass-produced switchblades and the M724 rescue knife.","sig":["M724 Automatic Rescue Knife"],"s":SB}]
 notes=("All 4 old kinds kept with old models; archetypes added from Wikipedia (Butterfly knife, Switchblade, Shuriken, Throwing knife). OTF vs side-opening and gravity knives are types. "
- "Geo. Schrade founding year 1893 is for the New York Press Button Knife Co. Left out: Benchmade 42 year and Bear & Son balisong history (not on retrieved pages), Gil Hibben/Harry McEvoy throwing designs (not described on retrieved page).")
+ "Left out: Benchmade 42 year and Bear & Son balisong history (not on retrieved pages), Gil Hibben/Harry McEvoy throwing designs (not described on retrieved page).")
 if __name__=='__main__': w('01_01',{"kinds":kinds,"brands":brands,"traditions":[],"notes":notes})
