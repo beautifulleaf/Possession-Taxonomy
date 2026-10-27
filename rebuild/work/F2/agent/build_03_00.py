@@ -12,21 +12,21 @@ kinds=[
   "d":"A black-and-white photograph of fine silver particles in a gelatin layer on paper, made in a darkroom; the standard process since the 1890s.",
   "t":["fibre-based (baryta) paper","resin-coated paper","selenium-toned","gold-toned","vintage print (made near the negative date)","printed later","estate print","mural size"],"s":SOT,
   "x":[
-   {"n":"Ansel Adams Museum Set","a":"Museum Set print","d":"Sets of 25, 45 or 75 prints chosen from 75 images, made by Adams from 1979 to place his work in public collections.","mk":"Ansel Adams","y":"1979–1984","s":YO,
+   {"n":"Ansel Adams Museum Set","a":"Museum Set print","d":"Sets of 25, 45 or 75 prints chosen from 75 images, made by Adams from 1979 to place his work in public collections.","mk":"Ansel Adams","y":"from 1979","s":YO,
     "v":[v("Moonrise, Hernandez, New Mexico","Ansel Adams","negative 1941","over 1,300 prints made; pre-1970 prints very rare; 1948 print sold for $609,600 in 2006"),
          v("Clearing Winter Storm, Yosemite National Park","Ansel Adams","","core image of every set"),
          v("45-print set","Ansel Adams","","e.g. Yosemite Museum set")],
     "dt":"set size 25/45/75 · core ten images · print date vs negative date · mount and signature"},
-   {"n":"Magnum distribution press print","a":"agency print · press print","d":"A vintage print circulated by Magnum Photos to newspapers and magazines, its back carrying agency stamps, captions and editors' notes.","mk":"Magnum Photos","y":"1947 onward","s":MG,
+   {"n":"Magnum distribution press print","a":"agency print · press print","d":"A vintage print circulated by Magnum Photos to newspapers and magazines, its back carrying agency stamps, captions and editors' notes.","mk":"Magnum Photos","y":"","s":MG,
     "v":[],"dt":"verso stamps and annotations · caption label · crop marks · condition"},
-   {"n":"Becher typology","a":"","d":"Grids of frontal black-and-white photographs of industrial structures by Bernd and Hilla Becher.","mk":"Bernd and Hilla Becher","y":"1960s onward","s":DS,
+   {"n":"Becher typology","a":"","d":"Grids of frontal black-and-white photographs of industrial structures by Bernd and Hilla Becher.","mk":"Bernd and Hilla Becher","y":"","s":DS,
     "v":[v("New Topographics exhibition","Bernd and Hilla Becher","1975","George Eastman House")],"dt":"single print vs grid (typology) · print size"}
   ]},
  {"n":"Chromogenic print","a":"C-print · C-type · Type C · Lambda print · LightJet print",
   "d":"A colour photograph whose cyan, magenta and yellow dyes form in the paper's emulsion layers during development; also printed digitally by laser.",
   "t":["Type C (from negative)","Type R (from transparency)","digital C-print (Lambda, LightJet, Chromira)","face-mounted to acrylic","mural size"],"s":SOT,
   "x":[
-   {"n":"Düsseldorf School large-format print","a":"Becher school print","d":"Very large colour photographs by former Becher students, often mounted to acrylic glass and issued in small editions.","mk":"Andreas Gursky","y":"1990s onward","s":DS,
+   {"n":"Düsseldorf School large-format print","a":"Becher school print","d":"Very large colour photographs by former Becher students, often mounted to acrylic glass and issued in small editions.","mk":"Andreas Gursky","y":"from 1989","s":DS,
     "v":[v("Rhein II","Andreas Gursky","1999","C-print on acrylic glass, 190 × 360 cm; $4,338,500 at Christie's 2011"),
          v("Museum Photographs","Thomas Struth","1989 onward","editions usually of ten"),v("Interiors","Candida Höfer",""),v("Works","Thomas Ruff","")],
     "dt":"size · edition number · acrylic face mount · artist-approved print"},
@@ -46,10 +46,10 @@ kinds=[
     "v":[v("Prints","Eliot Porter",""),v("Prints","Ernst Haas",""),v("Prints","Marie Cosindas",""),v("Road Song","Pete Turner",""),v("Maybe Babies","Sandy Skoglund","")],"dt":"matrices · paper · print date"}]},
  {"n":"Silver dye bleach print","a":"dye destruction print · Cibachrome · Ilfochrome",
   "d":"A colour print from a transparency in which azo dyes already in the paper are bleached away where not wanted, giving vivid, sharp colour on a polyester base.",
-  "t":["glossy polyester base","pearl surface","in-camera direct positive"],"s":IL,
+  "t":["glossy polyester base","in-camera direct positive"],"s":IL,
   "x":[{"n":"Cibachrome / Ilfochrome print","a":"Ilfochrome Classic","d":"The Ciba-Geigy silver dye bleach paper, renamed Ilfochrome in 1992 and made until 2012.","mk":"Ilford","y":"1960s–2012","s":IL,
     "v":[v("Cibachrome","Ciba-Geigy","1960s","based on Gasparcolor"),v("Ilfochrome print","Ilford","1992","renamed"),v("Ilfochrome Classic final run","Ilford","2012")],
-    "dt":"high-gloss vs pearl · size · print date"}],
+    "dt":"size · print date"}],
   "m":[]}
 ]
 def a(n,c,kf,d,s,sig,seg="Artisan & independent",f=""): return {"n":n,"c":c,"f":f,"seg":seg,"kf":kf,"d":d,"s":s,"sig":sig}
