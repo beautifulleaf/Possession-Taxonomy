@@ -21,3 +21,9 @@ Sources: Wikipedia/Wikidata APIs (throttle), Firecrawl/Parallel search+scrape, o
 - Frozen pre-rebuild data for every category is in work/<C>/old.json (the source check reads it; reader/<C>.json is the rebuilt file).
 - Moved kinds: merge.py re-applies incoming moves; moves_covered.json folds a moved kind into a named kind, or renames it on arrival with a leading "=".
 - Follow-ups: rebuild/work/_followups.md (all closed except a process note: split workers in one category need separate scratch folders).
+
+## 2026-10-28 (branch claude/toy-organization-system-mapqhu)
+- Owner decisions (BRIEF.md, RULES.md): pursuits (Physical, Creative, Intellectual, Spiritual) belong to separate taxonomies, so categories stay object-focused; F4 is grouped by object form first, with the faith tradition as a kind tag (tools/f4_form_first.py).
+- E1: new department "Puzzles, fidgets & desk toys" (batch E1PZ, prompt verify/in/E1PZ.prompt.txt, report out/E1PZ_report.md): 28 kinds and 86 archetypes, +23 brands and designers; "Electronic handheld toy" on the Skill toys shelf; Mattel Auto Race moved to E5 "LCD handheld game" (tools/e1_handheld_fix.py).
+- Published artifact v26. The live reader/_brands.json had been an older copy (10,847 brands); v26 carries the current register.
+- Suggested next audits (object-focused): rest of E1 (craft toys, marbles, circus props, model rocketry), pocket knives and multitools in C1, E2 equipment grouped by object, C4 by material and tool type.
