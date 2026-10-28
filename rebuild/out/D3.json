@@ -23,13 +23,20 @@
      "n": "Over-ear & on-ear headphones",
      "k": [
       {
-       "n": "Open-back headphones",
-       "a": "over-ear open-back headphone · semi-open headphone",
-       "d": "Headphone whose cups enclose the ear and are open at the back; semi-open files here.",
+       "n": "Over-ear headphones",
+       "a": "Open-back headphones · Closed-back headphones · Wireless noise-cancelling headphones",
+       "d": "Headphone whose cups enclose the ear, open or sealed at the back; acoustic design, driver and connectivity are types.",
        "t": [
+        "open-back",
+        "closed-back",
+        "semi-open",
+        "noise-cancelling (wireless)",
+        "wired",
+        "wireless",
+        "over-ear",
+        "on-ear",
         "dynamic",
-        "planar magnetic",
-        "semi-open"
+        "planar magnetic"
        ],
        "s": "https://mezeaudio.com/pages/headphones",
        "x": [
@@ -384,81 +391,7 @@
            "d": ""
           }
          ]
-        }
-       ],
-       "m": [
-        [
-         "ATH-ADX5000",
-         "Audio-Technica"
-        ],
-        [
-         "ATH-R70x",
-         "Audio-Technica"
-        ],
-        [
-         "Diana Phi",
-         "Abyss"
-        ],
-        [
-         "D8000",
-         "Final Audio"
-        ],
-        [
-         "TH909",
-         "Fostex"
-        ],
-        [
-         "105 AER",
-         "Meze Audio"
-        ],
-        [
-         "109 PRO",
-         "Meze Audio"
-        ],
-        [
-         "ELITE",
-         "Meze Audio"
-        ],
-        [
-         "EMPYREAN II",
-         "Meze Audio"
-        ],
-        [
-         "Para",
-         "Moondrop Audio"
-        ],
-        [
-         "Phoenix",
-         "Sivga"
-        ],
-        [
-         "MDR-SA5000",
-         "Sony"
-        ],
-        [
-         "Auteur",
-         "ZMF Headphones"
-        ],
-        [
-         "Verite",
-         "ZMF Headphones"
-        ],
-        [
-         "AH-D5000",
-         "Denon"
-        ]
-       ]
-      },
-      {
-       "n": "Closed-back headphones",
-       "a": "over-ear closed-back headphone · studio monitor headphone",
-       "d": "Headphone whose sealed cups enclose the ear.",
-       "t": [
-        "dynamic",
-        "planar magnetic"
-       ],
-       "s": "https://mezeaudio.com/pages/headphones",
-       "x": [
+        },
         {
          "n": "Koss SP/3 and Pro4",
          "a": "",
@@ -635,97 +568,7 @@
           }
          ],
          "dt": "limited colourways since 2012"
-        }
-       ],
-       "m": [
-        [
-         "K371",
-         "AKG"
-        ],
-        [
-         "LCD-XC",
-         "Audeze"
-        ],
-        [
-         "DT 150",
-         "Beyerdynamic"
-        ],
-        [
-         "DT 250",
-         "Beyerdynamic"
-        ],
-        [
-         "AH-D5200",
-         "Denon"
-        ],
-        [
-         "Stellia",
-         "Focal"
-        ],
-        [
-         "Radiance",
-         "Focal"
-        ],
-        [
-         "TH900",
-         "Fostex"
-        ],
-        [
-         "TH610",
-         "Fostex"
-        ],
-        [
-         "99 CLASSICS",
-         "Meze Audio"
-        ],
-        [
-         "LIRIC",
-         "Meze Audio"
-        ],
-        [
-         "NDH 20",
-         "Neumann"
-        ],
-        [
-         "SRH840",
-         "Shure"
-        ],
-        [
-         "SRH1540",
-         "Shure"
-        ],
-        [
-         "SRH440",
-         "Shure"
-        ],
-        [
-         "MDR-Z1R",
-         "Sony"
-        ],
-        [
-         "MDR-1AM2",
-         "Sony"
-        ],
-        [
-         "Verite Closed",
-         "ZMF Headphones"
-        ],
-        [
-         "MK801",
-         "1MORE"
-        ]
-       ]
-      },
-      {
-       "n": "Wireless noise-cancelling headphones",
-       "a": "ANC headphones · Bluetooth noise-cancelling headphones",
-       "d": "Wireless over-ear headphone with active noise cancellation, chosen for travel and commuting.",
-       "t": [
-        "over-ear",
-        "on-ear"
-       ],
-       "s": "https://www.rtings.com/headphones/reviews/best/by-feature/noise-cancelling",
-       "x": [
+        },
         {
          "n": "Bose QuietComfort",
          "a": "",
@@ -876,6 +719,142 @@
         }
        ],
        "m": [
+        [
+         "ATH-ADX5000",
+         "Audio-Technica"
+        ],
+        [
+         "ATH-R70x",
+         "Audio-Technica"
+        ],
+        [
+         "Diana Phi",
+         "Abyss"
+        ],
+        [
+         "D8000",
+         "Final Audio"
+        ],
+        [
+         "TH909",
+         "Fostex"
+        ],
+        [
+         "105 AER",
+         "Meze Audio"
+        ],
+        [
+         "109 PRO",
+         "Meze Audio"
+        ],
+        [
+         "ELITE",
+         "Meze Audio"
+        ],
+        [
+         "EMPYREAN II",
+         "Meze Audio"
+        ],
+        [
+         "Para",
+         "Moondrop Audio"
+        ],
+        [
+         "Phoenix",
+         "Sivga"
+        ],
+        [
+         "MDR-SA5000",
+         "Sony"
+        ],
+        [
+         "Auteur",
+         "ZMF Headphones"
+        ],
+        [
+         "Verite",
+         "ZMF Headphones"
+        ],
+        [
+         "AH-D5000",
+         "Denon"
+        ],
+        [
+         "K371",
+         "AKG"
+        ],
+        [
+         "LCD-XC",
+         "Audeze"
+        ],
+        [
+         "DT 150",
+         "Beyerdynamic"
+        ],
+        [
+         "DT 250",
+         "Beyerdynamic"
+        ],
+        [
+         "AH-D5200",
+         "Denon"
+        ],
+        [
+         "Stellia",
+         "Focal"
+        ],
+        [
+         "Radiance",
+         "Focal"
+        ],
+        [
+         "TH900",
+         "Fostex"
+        ],
+        [
+         "TH610",
+         "Fostex"
+        ],
+        [
+         "99 CLASSICS",
+         "Meze Audio"
+        ],
+        [
+         "LIRIC",
+         "Meze Audio"
+        ],
+        [
+         "NDH 20",
+         "Neumann"
+        ],
+        [
+         "SRH840",
+         "Shure"
+        ],
+        [
+         "SRH1540",
+         "Shure"
+        ],
+        [
+         "SRH440",
+         "Shure"
+        ],
+        [
+         "MDR-Z1R",
+         "Sony"
+        ],
+        [
+         "MDR-1AM2",
+         "Sony"
+        ],
+        [
+         "Verite Closed",
+         "ZMF Headphones"
+        ],
+        [
+         "MK801",
+         "1MORE"
+        ],
         [
          "Soundcore Space Q45",
          "Anker"
@@ -1056,7 +1035,7 @@
       {
        "n": "On-ear headphones",
        "a": "supra-aural headphone",
-       "d": "Headphone whose pads rest on the ear.",
+       "d": "Headphone whose pads rest on the ear; open or closed designs, such as the Grado SR and Sennheiser HD 25, are types.",
        "t": [
         "open",
         "closed"
@@ -2192,11 +2171,12 @@
       {
        "n": "Headphone & earbud spare parts",
        "a": "ear pads · ear cushions · ear tips · replacement charging case",
-       "d": "Replacement part made for one headphone or earbud model, such as ear pads, ear tips or a charging case.",
+       "d": "Replacement part made for one headphone or earbud model, such as ear pads, ear tips or a charging case, or a stand to hold headphones.",
        "t": [
         "ear pads",
         "ear tips",
-        "replacement charging case"
+        "replacement charging case",
+        "headphone stand or hanger"
        ],
        "s": "https://dekoniaudio.com/collections/earpads",
        "m": [
@@ -2231,12 +2211,6 @@
          "Strauss & Wagner"
         ]
        ]
-      },
-      {
-       "n": "Headphone stand",
-       "a": "headphone hanger",
-       "d": "Stand or hanger made to hold headphones when not worn, for one model or any.",
-       "s": "https://www.sanus.com/en_AD/designed-for-sonos"
       }
      ]
     }
@@ -2332,6 +2306,49 @@
           }
          ],
          "dt": "15 or 11 ohm · KEF B110 and T27 drivers · veneer"
+        },
+        {
+         "n": "Yamaha NS-10",
+         "a": "NS-10M",
+         "d": "Two-way sealed bookshelf speaker with white-cone woofer that became a nearfield studio monitor.",
+         "mk": "Yamaha",
+         "y": "1978",
+         "s": "https://en.wikipedia.org/wiki/Yamaha_NS-10",
+         "v": [
+          {
+           "n": "NS-10M Studio",
+           "mk": "Yamaha",
+           "y": "1987",
+           "d": "Studio version"
+          },
+          {
+           "n": "NS-10M Pro",
+           "mk": "Yamaha",
+           "y": "1987",
+           "d": "Pro version"
+          },
+          {
+           "n": "NS-10T",
+           "mk": "Yamaha"
+          },
+          {
+           "n": "NS-10M X",
+           "mk": "Yamaha"
+          },
+          {
+           "n": "NS-10MC",
+           "mk": "Yamaha"
+          },
+          {
+           "n": "NS-10MT",
+           "mk": "Yamaha"
+          },
+          {
+           "n": "NS-10MM",
+           "mk": "Yamaha"
+          }
+         ],
+         "dt": "sealed cabinet · white-cone woofer"
         },
         {
          "n": "Spendor BC1",
@@ -2604,6 +2621,23 @@
            "d": "home series"
           }
          ]
+        },
+        {
+         "n": "Wharfedale Diamond",
+         "a": "Diamond series",
+         "d": "Small two-way bookshelf speaker that launched the Diamond range as a budget hi-fi benchmark.",
+         "mk": "Wharfedale",
+         "y": "1982",
+         "s": "https://hifihalloffame.com/equipment/wharfedale-diamond-loudspeaker/",
+         "v": [
+          {
+           "n": "Diamond",
+           "mk": "Wharfedale",
+           "y": "1982",
+           "d": "24 cm, 5.2 litre cabinet, launched at £65"
+          }
+         ],
+         "dt": "compact two-way · now in its twelfth generation"
         }
        ],
        "m": [
@@ -2844,6 +2878,45 @@
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Tannoy",
          "v": []
+        },
+        {
+         "n": "Dynaudio Contour",
+         "a": "Contour series",
+         "d": "Long-running Dynaudio series of stand-mount, floorstanding and centre speakers.",
+         "mk": "Dynaudio",
+         "y": "",
+         "s": "https://dynaudio.com/discontinued-models/contour",
+         "v": [
+          {
+           "n": "Contour 1.3",
+           "mk": "Dynaudio"
+          },
+          {
+           "n": "Contour 1.3 MK II",
+           "mk": "Dynaudio"
+          },
+          {
+           "n": "Contour 1.8",
+           "mk": "Dynaudio"
+          },
+          {
+           "n": "Contour 2.8",
+           "mk": "Dynaudio"
+          },
+          {
+           "n": "Contour 3.0",
+           "mk": "Dynaudio"
+          },
+          {
+           "n": "Contour 3.3",
+           "mk": "Dynaudio"
+          },
+          {
+           "n": "Contour T 2.5",
+           "mk": "Dynaudio"
+          }
+         ],
+         "dt": "stand-mount · floorstanding · centre"
         }
        ],
        "m": [
@@ -3257,9 +3330,9 @@
      "n": "Home cinema speakers",
      "k": [
       {
-       "n": "Home cinema speaker system",
-       "a": "home-cinema speaker package",
-       "d": "Package of speakers for a TV sold and compared as one system.",
+       "n": "Home cinema speakers",
+       "a": "Home cinema speaker system · Centre speaker · Surround speakers · In-wall speakers · On-wall speakers",
+       "d": "Speaker or speaker package for a surround system: front, centre, surround and height channels, free-standing or built into the wall.",
        "s": "https://www.polkaudio.com/en-us/category/home-speakers/home-theater-systems",
        "m": [
         [
@@ -3281,25 +3354,7 @@
         [
          "Polk Audio Signature Elite 2.1 System",
          "Polk Audio"
-        ]
-       ],
-       "r": [
-        [
-         "Reference",
-         "Klipsch"
         ],
-        [
-         "Signature Elite Series",
-         "Polk Audio"
-        ]
-       ]
-      },
-      {
-       "n": "Centre speaker",
-       "a": "centre-channel speaker",
-       "d": "Speaker made to carry the centre channel of a surround system, placed at the screen.",
-       "s": "https://www.polkaudio.com/en-us/category/home-speakers/home-theater-systems",
-       "m": [
         [
          "Polk Audio Reserve R350",
          "Polk Audio"
@@ -3315,39 +3370,7 @@
         [
          "Polk Audio T30",
          "Polk Audio"
-        ]
-       ],
-       "r": [
-        [
-         "Reserve Series",
-         "Polk Audio"
         ],
-        [
-         "Signature Elite Series",
-         "Polk Audio"
-        ],
-        [
-         "Monitor XT Series",
-         "Polk Audio"
-        ],
-        [
-         "T Series",
-         "Polk Audio"
-        ]
-       ]
-      },
-      {
-       "n": "Surround speakers",
-       "a": "",
-       "d": "Speaker made for the side, rear or height channels of a surround system.",
-       "t": [
-        "side",
-        "rear",
-        "height (Atmos-enabled)",
-        "wireless"
-       ],
-       "s": "https://www.kbaudio.co.uk/collections/surround-channel-speakers",
-       "m": [
         [
          "Klipsch RP-502S II",
          "Klipsch"
@@ -3383,33 +3406,7 @@
         [
          "Polk Audio SR2 Wireless Surrounds",
          "Polk Audio"
-        ]
-       ],
-       "r": [
-        [
-         "Reference Premiere",
-         "Klipsch"
         ],
-        [
-         "Reserve Series",
-         "Polk Audio"
-        ],
-        [
-         "Signature Elite Series",
-         "Polk Audio"
-        ]
-       ]
-      },
-      {
-       "n": "In-wall and in-ceiling speakers",
-       "a": "",
-       "d": "Speakers without a cabinet, with a mounting flange, built into a wall or ceiling.",
-       "t": [
-        "in-wall",
-        "in-ceiling"
-       ],
-       "s": "https://www.richersounds.com/hi-fi",
-       "m": [
         [
          "Polk Audio 265-LS",
          "Polk Audio"
@@ -3418,13 +3415,47 @@
          "Polk Audio 80 F/X-LS",
          "Polk Audio"
         ]
+       ],
+       "r": [
+        [
+         "Reference",
+         "Klipsch"
+        ],
+        [
+         "Signature Elite Series",
+         "Polk Audio"
+        ],
+        [
+         "Reserve Series",
+         "Polk Audio"
+        ],
+        [
+         "Monitor XT Series",
+         "Polk Audio"
+        ],
+        [
+         "T Series",
+         "Polk Audio"
+        ],
+        [
+         "Reference Premiere",
+         "Klipsch"
+        ]
+       ],
+       "x": [],
+       "t": [
+        "package system",
+        "centre channel",
+        "surround (side, rear)",
+        "height (Atmos-enabled)",
+        "in-wall / in-ceiling",
+        "on-wall",
+        "side",
+        "rear",
+        "wireless",
+        "in-wall",
+        "in-ceiling"
        ]
-      },
-      {
-       "n": "On-wall speakers",
-       "a": "",
-       "d": "Slim speaker cabinets made to hang flat on a wall, often beside a TV; in-wall speakers have no cabinet.",
-       "s": "https://www.polkaudio.com/en-us/category/built-in-speakers/in-wall/"
       }
      ]
     },
@@ -3516,8 +3547,8 @@
       {
        "n": "Portable Bluetooth speakers",
        "a": "portable speaker · wireless speaker",
-       "d": "Battery-powered speaker made to carry around, usually Bluetooth and often waterproof.",
-       "s": "https://www.bestbuy.com/site/portable-speakers-docks-radios/portable-speakers/pcmcat748301666245.c?id=pcmcat748301666245",
+       "d": "Battery-powered speaker made to carry around, usually Bluetooth and often waterproof; party speakers are the largest.",
+       "s": "https://www.rtings.com/speaker/reviews/best/by-feature/bluetooth",
        "m": [
         [
          "Sonos Move 2",
@@ -3526,14 +3557,54 @@
         [
          "Sonos Roam 2",
          "Sonos"
+        ],
+        [
+         "Flip 7",
+         "JBL"
+        ],
+        [
+         "Charge 6",
+         "JBL"
+        ],
+        [
+         "Boombox 4",
+         "JBL"
+        ],
+        [
+         "PartyBox 720",
+         "JBL"
+        ],
+        [
+         "WONDERBOOM 4",
+         "Ultimate Ears"
+        ],
+        [
+         "MEGABOOM 4",
+         "Ultimate Ears"
+        ],
+        [
+         "SoundLink Flex (2nd Gen)",
+         "Bose"
+        ],
+        [
+         "SoundLink Max",
+         "Bose"
+        ],
+        [
+         "SRS-XB100",
+         "Sony"
+        ],
+        [
+         "Soundcore Boom 2",
+         "Anker"
         ]
+       ],
+       "t": [
+        "pocket",
+        "mid-size",
+        "party speaker",
+        "waterproof"
        ]
-      },
-      {
-       "n": "Party speakers",
-       "a": "PartyBox · Megasound speaker",
-       "d": "Large loud speaker for parties, often with lights, handles and microphone inputs.",
-       "s": "https://www.bestbuy.com/site/shop/portable-bluetooth-speakers-for-party"
       }
      ]
     }
@@ -3603,6 +3674,43 @@
          "y": "1957",
          "s": "https://en.wikipedia.org/wiki/Thorens",
          "v": []
+        },
+        {
+         "n": "EMT 927",
+         "a": "EMT 930 · EMT 928",
+         "d": "Broadcast studio turntable with idler-wheel drive and large platter for 16-inch transcription discs.",
+         "mk": "EMT",
+         "y": "1951",
+         "s": "https://en.wikipedia.org/wiki/Elektromesstechnik",
+         "v": [
+          {
+           "n": "EMT 927",
+           "mk": "EMT",
+           "y": "1951",
+           "d": "Idler-wheel drive, 997 arm from 1974"
+          },
+          {
+           "n": "EMT 930",
+           "mk": "EMT",
+           "d": "Smaller sibling keeping the idler-wheel drive"
+          },
+          {
+           "n": "EMT 928",
+           "mk": "EMT",
+           "y": "1968",
+           "d": "Belt-drive design based on the Thorens TD125"
+          }
+         ],
+         "dt": "idler drive · broadcast chassis"
+        },
+        {
+         "n": "Lenco L75",
+         "a": "Lenco",
+         "d": "Swiss-origin turntable made for almost two decades; an enthusiast base for custom plinths.",
+         "mk": "Lenco",
+         "y": "1967–1985",
+         "s": "https://en.wikipedia.org/wiki/Lenco_Turntables",
+         "dt": "platter · plinth"
         },
         {
          "n": "Thorens TD 150 / TD 160",
@@ -3778,6 +3886,23 @@
          "dt": "finish silver/black · limited editions"
         },
         {
+         "n": "Technics SP-10",
+         "a": "SP-10 Mk2",
+         "d": "First direct-drive turntable on the professional market, sold as a drive unit without arm or plinth.",
+         "mk": "Technics",
+         "y": "1969",
+         "s": "https://en.wikipedia.org/wiki/Technics_(brand)",
+         "v": [
+          {
+           "n": "SP-10",
+           "mk": "Technics",
+           "y": "1969",
+           "d": "Matsushita, from Shuichi Obata's invention"
+          }
+         ],
+         "dt": "drive unit · plinth sold separately"
+        },
+        {
          "n": "Bang & Olufsen Beogram 4000",
          "a": "",
          "d": "Tangential-arm turntable, later restored by B&O as a recreated edition.",
@@ -3819,6 +3944,15 @@
            "d": ""
           }
          ]
+        },
+        {
+         "n": "Micro Seiki SX-8000",
+         "a": "Micro Seiki",
+         "d": "Very heavy Japanese reference turntable sold as a separate drive unit (RY-5500) without tonearm.",
+         "mk": "Micro Seiki",
+         "y": "1981–1984",
+         "s": "https://hifi-wiki.com/index.php/Micro_Seiki_SX-8000",
+         "dt": "106.5 kg · drive unit RY-5500"
         },
         {
          "n": "Rega Planar",
@@ -4060,6 +4194,105 @@
            "d": "Shibata tip"
           }
          ]
+        },
+        {
+         "n": "Shure V15",
+         "a": "V-15",
+         "d": "Moving-magnet cartridge series with a Micro-Ridge stylus, widely used as a benchmark.",
+         "mk": "Shure",
+         "y": "1964",
+         "s": "https://en.wikipedia.org/wiki/Shure",
+         "v": [
+          {
+           "n": "V15",
+           "mk": "Shure",
+           "y": "1964"
+          },
+          {
+           "n": "V15 Type II",
+           "mk": "Shure",
+           "y": "1966"
+          },
+          {
+           "n": "V15 Type IV",
+           "mk": "Shure",
+           "y": "1978"
+          },
+          {
+           "n": "V15 Type V",
+           "mk": "Shure",
+           "d": "Ultra-thin beryllium stylus shank"
+          },
+          {
+           "n": "V15 VxMR",
+           "mk": "Shure",
+           "d": "Series discontinued 2004"
+          }
+         ],
+         "dt": "moving magnet · stylus profile"
+        },
+        {
+         "n": "Koetsu",
+         "a": "Koetsu moving coil",
+         "d": "Hand-built Japanese moving-coil cartridges with exotic bodies of metal, wood, lacquer or stone.",
+         "mk": "Koetsu",
+         "y": "late 1960s",
+         "s": "https://www.stereonet.com/features/koetsu-an-appreciation",
+         "v": [
+          {
+           "n": "Koetsu Black",
+           "mk": "Koetsu"
+          },
+          {
+           "n": "Koetsu Rosewood",
+           "mk": "Koetsu",
+           "y": "mid-1980s"
+          },
+          {
+           "n": "Koetsu Rosewood Signature",
+           "mk": "Koetsu"
+          },
+          {
+           "n": "Koetsu Urushi",
+           "mk": "Koetsu"
+          },
+          {
+           "n": "Koetsu Onyx Platinum",
+           "mk": "Koetsu"
+          }
+         ],
+         "dt": "body: metal, wood, lacquer, stone"
+        },
+        {
+         "n": "Lyra moving coil",
+         "a": "Lyra",
+         "d": "Tokyo-based moving-coil range from entry Delos through Kleos and Atlas to Titan i.",
+         "mk": "Lyra",
+         "y": "",
+         "s": "https://radar.stereonet.com/brand/lyra",
+         "v": [
+          {
+           "n": "Delos",
+           "mk": "Lyra"
+          },
+          {
+           "n": "Kleos",
+           "mk": "Lyra"
+          },
+          {
+           "n": "Atlas",
+           "mk": "Lyra"
+          },
+          {
+           "n": "Titan i",
+           "mk": "Lyra"
+          },
+          {
+           "n": "SPT",
+           "mk": "Lyra"
+          }
+         ],
+         "dt": "moving coil · body material"
         },
         {
          "n": "Ortofon Concorde",
@@ -5607,7 +5840,8 @@
         "delta-sigma",
         "FPGA",
         "valve output stage",
-        "with preamplifier"
+        "with preamplifier",
+        "master clock (external reference)"
        ],
        "s": "https://www.richersounds.com/hi-fi",
        "x": [
@@ -5885,12 +6119,6 @@
        ]
       },
       {
-       "n": "Master clock",
-       "a": "word clock · reference clock",
-       "d": "External unit whose designed function is supplying a reference clock signal to a DAC, streamer or transport in a hi-fi system.",
-       "s": "https://www.audiovenue.uk/product-tag/dap/"
-      },
-      {
        "n": "Bluetooth audio adapter",
        "a": "Bluetooth audio transmitter · Bluetooth audio receiver",
        "d": "External unit that sends audio from a TV or player to wireless headphones or speakers, or receives Bluetooth audio for an amplifier.",
@@ -5998,19 +6226,12 @@
          "Altitude",
          "Trinnov"
         ]
+       ],
+       "t": [
+        "surround processor",
+        "video processor",
+        "multichannel power amplifier (companion)"
        ]
-      },
-      {
-       "n": "Multichannel power amplifier",
-       "a": "",
-       "d": "Power stage with three or more channels that drives home-cinema speakers from an AV processor.",
-       "s": "https://shopaudioexperience.com/streamer/"
-      },
-      {
-       "n": "Video processor",
-       "a": "",
-       "d": "External unit that scales and tone-maps video between a source and a TV or projector.",
-       "s": "https://www.audiovenue.uk/product-tag/dap/"
       }
      ]
     }
@@ -7093,6 +7314,55 @@
            "d": "line in/out, Dolby B and C; made to 2003"
           }
          ]
+        },
+        {
+         "n": "Aiwa HS-P",
+         "a": "HS-P05",
+         "d": "Aiwa personal cassette player series, a main rival to the Sony Walkman.",
+         "mk": "Aiwa",
+         "y": "mid-1980s",
+         "s": "https://en.wikipedia.org/wiki/Aiwa",
+         "v": [
+          {
+           "n": "HS-P05 Mk II",
+           "mk": "Aiwa",
+           "y": "mid-1980s"
+          }
+         ],
+         "dt": "playback or recording"
+        },
+        {
+         "n": "Toshiba Walky",
+         "a": "KT-AS10",
+         "d": "Toshiba cassette player line; the KT-AS10 has a removable cassette-shaped radio tuner.",
+         "mk": "Toshiba",
+         "y": "mid-1980s",
+         "s": "https://www.core77.com/posts/116640/The-Most-Unusual-Walkman-Design-The-Toshiba-Walky",
+         "v": [
+          {
+           "n": "KT-AS10",
+           "mk": "Toshiba",
+           "y": "mid-1980s",
+           "d": "Removable radio module"
+          }
+         ],
+         "dt": "with or without radio"
+        },
+        {
+         "n": "Panasonic RQ-S",
+         "a": "S-XBS",
+         "d": "Panasonic personal stereo cassette player series.",
+         "mk": "Panasonic",
+         "y": "",
+         "s": "https://collection.sciencemuseumgroup.org.uk/objects/co117618/panasonic-s-xbs-personal-stereo-cassette-player-model-no-rq-s44",
+         "v": [
+          {
+           "n": "RQ-S44 (S-XBS)",
+           "mk": "Panasonic",
+           "y": "1991"
+          }
+         ],
+         "dt": "bass boost · radio"
         }
        ]
       },
@@ -7793,85 +8063,6 @@
         [
          "GPO Brooklyn",
          "GPO"
-        ]
-       ]
-      },
-      {
-       "n": "Audio figure",
-       "a": "Toniebox · Tonies · Yoto card · audio card player",
-       "d": "Figure or card that plays its stored content when placed in its children's player; the screen-free player belongs here too.",
-       "tg": [
-        "baby"
-       ],
-       "t": [
-        "figure",
-        "card",
-        "player"
-       ],
-       "s": "https://us.tonies.com/pages/tonieboxes",
-       "x": [
-        {
-         "n": "Toniebox and Tonies",
-         "a": "",
-         "d": "Cube player for children that plays a story or songs when a rubber figure is set on top.",
-         "mk": "Tonies",
-         "y": "2016",
-         "s": "https://en.wikipedia.org/wiki/Tonies",
-         "v": [
-          {
-           "n": "Toniebox",
-           "mk": "Tonies",
-           "y": "2016",
-           "d": "launched with 14 Tonies"
-          },
-          {
-           "n": "Creative Tonies",
-           "mk": "Tonies",
-           "y": "",
-           "d": "blank, up to 90 minutes own content"
-          },
-          {
-           "n": "Tonie Clip",
-           "mk": "Tonies",
-           "y": "2019",
-           "d": "links an existing toy"
-          }
-         ]
-        },
-        {
-         "n": "Yoto Player",
-         "a": "",
-         "d": "Screen-free children's speaker that plays audio cards.",
-         "mk": "Yoto",
-         "y": "",
-         "s": "https://www.actoncapital.com/portfolio/yoto",
-         "v": []
-        }
-       ],
-       "r": [
-        [
-         "Classic Tonies",
-         "Tonies"
-        ],
-        [
-         "Creative Tonies",
-         "Tonies"
-        ],
-        [
-         "Cuddle Tonies",
-         "Tonies"
-        ],
-        [
-         "My First Tonies",
-         "Tonies"
-        ],
-        [
-         "Night Light Tonies",
-         "Tonies"
-        ],
-        [
-         "Pocket Tonies",
-         "Tonies"
         ]
        ]
       }
@@ -8858,6 +9049,9 @@
          "Formovie Xming Episode One",
          "Formovie"
         ]
+       ],
+       "t": [
+        "projector screen (accessory)"
        ]
       },
       {
@@ -8903,12 +9097,6 @@
          "Formovie"
         ]
        ]
-      },
-      {
-       "n": "Projector screen",
-       "a": "projection screen",
-       "d": "Screen made for a projector to throw its image onto.",
-       "s": "https://www.lowes.com/pd/Kodak-100-inch-Projector-Screen-Fixed-Frame-with-Velvet-Frame-and-Wall-Mount-Kit/9112129"
       }
      ]
     },
