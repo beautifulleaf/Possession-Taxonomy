@@ -1,0 +1,201 @@
+A2 Footwear a person owns, organised by family (sneakers, sports and outdoor shoes, dress shoes, heels and flats, boots, sandals, traditional footwear, slippers, care), then kind, then named archetype and version.
+
+## Sneakers [variety] kinds=9 arch=67 note=Organised by lineage → silhouette → cut (High/Mid/Low) and release (OG/retro) → colourway by style code, the StockX/GOAT/KicksDB axis.
+  # Basketball, court & canvas sneakers (3)
+    - Basketball sneaker | t=3 x=8 m=2 r=0 :: Chuck Taylor All Star, Air Jordan 1, Air Force 1, Dunk, Blazer, Superstar, Pump, Pro Leather
+        t: High; Mid; Low
+    - Court sneaker | t=2 x=5 m=1 r=0 :: Stan Smith, K-Swiss Classic, Killshot, B.Elite, Club C 85
+        t: Low; Mid
+    - Canvas sneaker | t=3 x=8 m=0 r=0 :: Keds Champion, Superga 2750, Green Flash, Jack Purcell, Spring Court G2, Volley, PF Flyers All American, Vans Authentic
+        t: Low; High; Slip-on
+  # Running heritage & terrace sneakers (3)
+    - Heritage running sneaker | t=4 x=16 m=0 r=0 :: Cortez, Waffle Trainer, Air Max 1, Air Max 90, Air Max 95, Air Max 97, Air Max Plus, Air Max family (other models), 990, 99X numbered models, 574, Gel-Lyte III, Mexico 66, ZX series, Jazz, SL 72
+        t: OG reissue; retro (updated); made in USA/UK; collaboration
+    - Terrace sneaker | t=4 x=7 m=0 r=0 :: Samba, Gazelle, Handball Spezial, Campus, Suede, Palermo, Borg Elite
+        t: OG reissue; gum sole; made in Germany/Italy; collaboration
+    - Chunky sneaker | t=0 x=3 m=1 r=0 :: Triple S, Ozweego, Disruptor
+  # Skate & designer sneakers (3)
+    - Skate shoe | t=7 x=9 m=3 r=0 :: Era, Old Skool, Sk8-Hi, Half Cab, SB Dunk, Accel, D3, Skytop, Busenitz
+        t: vulcanised sole; cupsole; low-top; mid-top; high-top; suede upper; canvas upper
+    - Slip-on sneaker | t=0 x=1 m=0 r=0 :: Classic Slip-On
+    - Designer sneaker | t=4 x=10 m=0 r=0 :: Achilles Low, Triple S, Super-Star, Geobasket, Replica, Oversized, LV Trainer, B23, B27, Ace
+        t: minimalist leather; chunky / dad; high-top; low-top
+
+## Running, walking & outdoor shoes [mixed] kinds=7 arch=31 note=Tier for walking and water shoes; variety at the running and hiking enthusiast end.
+  # Running & walking shoes (4)
+    - Running shoe | t=4 x=14 m=4 r=0 :: Pegasus, Gel-Kayano, Adrenaline GTS, Gel-Nimbus, Ghost, Ride, Kinvara, Bondi, Clifton, Ultraboost, 1080, Vaporfly, Alphafly, Adizero Adios
+        t: neutral; stability; max-cushion; carbon-plate racer
+    - Trail running shoe | t=3 x=6 m=4 r=0 :: Cascadia, Speedcross, Speedgoat, Peregrine, Bushido, Lone Peak
+        t: rock plate; waterproof membrane; mud/soft-ground lugs
+    - Minimalist shoe | t=3 x=4 m=2 r=0 :: FiveFingers, Vapor Glove, Evo, Instinct
+        t: five-toe; zero-drop; wide toe box
+    - Walking shoe | t=0 x=0 m=1 r=1 :: 
+  # Hiking & water shoes (3)
+    - Hiking boot | t=8 x=4 m=6 r=0 :: Danner Light / Mountain Light, Lowa Renegade, Salomon Quest 4D, Scarpa Kailash
+        t: mid cut; high cut; lightweight hiking boot; backpacking boot; mountaineering boot (crampon-compatible); leather; synthetic / fabric; waterproof membrane
+    - Hiking shoe | t=5 x=3 m=6 r=0 :: Merrell Moab, Salomon X Ultra, Keen Targhee
+        t: waterproof membrane; vented / mesh; leather; synthetic; wide fit
+    - Water shoe | t=3 x=0 m=4 r=0 :: 
+        t: sock-style aqua shoe; laced river shoe; closed-toe sandal style
+
+## Dress & casual shoes [variety] kinds=8 arch=35 note=Kind → archetype (cap-toe, wholecut, brogue, Adelaide, penny loafer…) → maker's model → leather and last.
+  # Lace-ups & monk straps (4)
+    - Oxford | t=1 x=9 m=6 r=0 :: Cap-toe Oxford, Plain-toe Oxford, Wholecut, Adelaide Oxford, Quarter brogue, Semi-brogue, Full brogue, Balmoral, Spectator
+        t: evening (patent) Oxford
+    - Derby | t=0 x=7 m=7 r=0 :: Plain derby, Norwegian split-toe derby, Moc-toe derby, Longwing blucher, Country brogue derby, Gillie, Buck
+    - Monk strap | t=0 x=2 m=4 r=0 :: Single monk, Double monk
+    - Saddle shoe | t=0 x=1 m=0 r=0 :: Saddle oxford
+  # Loafers, moccasins & slip-ons (4)
+    - Loafer | t=8 x=7 m=7 r=0 :: Penny loafer, Horsebit loafer, Tassel loafer, Belgian loafer, Kiltie loafer, Aurland shoe, Wildsmith loafer
+        t: unlined; lined; calf; suede; shell cordovan; hand-sewn moccasin; Goodyear-welted; side-gored dress loafer
+    - Moccasin & driving shoe | t=7 x=4 m=1 r=0 :: Driving moccasin, Camp moccasin, Wallabee, Soft-sole moccasin
+        t: soft sole; rubber-pebble driving sole; lug or crepe sole; unlined; suede; fringed; beaded
+    - Boat shoe | t=6 x=3 m=0 r=0 :: Sperry Authentic Original, Sebago Docksides, Timberland 3-Eye Classic Lug
+        t: 2-eye; 3-eye; 1-eye; canvas; leather; loafer style
+    - Evening slipper | t=5 x=2 m=0 r=0 :: Albert slipper, Opera pump
+        t: velvet; patent leather; embroidered crest or motif; quilted silk lining; grosgrain bow
+
+## Heels, flats & mules [mixed] kinds=8 arch=23 note=Tier mainstream; variety at the luxury end (named designer archetypes).
+  # Heels & flats (5)
+    - Court shoe | t=7 x=8 m=0 r=0 :: Pigalle, So Kate, BB, Hangisi, Belle Vivier, Vara, Romy, Anouk
+        t: stiletto heel; kitten heel; block heel; platform; pointed toe; almond toe; d'Orsay (open sides)
+    - Slingback | t=4 x=1 m=0 r=0 :: Chanel two-tone slingback
+        t: kitten heel; block heel; flat slingback; two-tone
+    - Peep-toe shoe | t=3 x=0 m=0 r=0 :: 
+        t: peep-toe pump; peep-toe slingback; peep-toe platform
+    - Ballet flat | t=4 x=3 m=0 r=0 :: Cendrillon, Chanel two-tone ballerina, Varina
+        t: bow trim; pointed toe; round toe; cap toe
+    - Mary Jane | t=5 x=1 m=4 r=0 :: Campari
+        t: T-bar; Mary Jane pump (heeled); platform; children's school shoe; buckle or button strap
+  # Mules, clogs & espadrilles (3)
+    - Mule | t=5 x=3 m=3 r=0 :: Princetown, Spring-o-Lator mule, Marabou mule
+        t: flat mule; heeled mule; loafer mule; pointed-toe mule; wedge mule
+    - Clog | t=5 x=4 m=0 r=0 :: Swedish clog, Boston, Professional, Crocs clog
+        t: backless; with heel strap; closed back; stapled; high-heeled
+    - Espadrille | t=4 x=3 m=2 r=0 :: Traditional espadrille, Wedge espadrille, TOMS Alpargata
+        t: flat; wedge; lace-up (ankle-tied); slip-on
+
+## Boots [variety] kinds=19 arch=48 note=Ankle boot is a grouping (shelf), not a kind; heritage boots by archetype (service, engineer, logger, moc-toe, jodhpur, 1460).
+  # Ankle boots (4)
+    - Chelsea boot | t=6 x=5 m=8 r=2 :: Patent Elastic Ankle Boot, Original 500, Craftsman, Beatle boot, 2976
+        t: smooth leather; suede; Goodyear-welted; direct-moulded rubber sole; Cuban heel; platform sole
+    - Chukka & desert boot | t=6 x=2 m=1 r=1 :: Desert Boot, Weekender Chukka
+        t: suede; leather; crepe sole; rubber sole; leather sole; unlined
+    - Jodhpur boot | t=4 x=0 m=1 r=0 :: 
+        t: calf; suede; leather sole; rubber sole
+    - Bootie | t=7 x=0 m=0 r=0 :: 
+        t: zip; lace-up; pull-on; block heel; stiletto heel; wedge heel; peep-toe
+  # Heritage work & service boots (7)
+    - Service boot | t=3 x=6 m=5 r=0 :: 1000 Mile, Iron Ranger, Beckman, Indy, Service Boot, Diesel
+        t: plain toe; cap toe; double toe cap
+    - Moc-toe boot | t=4 x=1 m=1 r=0 :: Classic Moc
+        t: 6-inch; 8-inch; wedge sole; lug sole
+    - Logger boot | t=3 x=3 m=1 r=0 :: Smoke Jumper, Jobmaster, Robert
+        t: calked (spiked) sole; lug sole; steel toe
+    - Engineer boot | t=0 x=3 m=1 r=0 :: Boss, Chippewa engineer boot, Engineer 2268
+    - Combat & military boot | t=4 x=6 m=3 r=0 :: 1460, Jump boot, Jungle boot, M-1943 double-buckle boot, M-43 service shoe, Army Combat Boot
+        t: smooth black; rough-out tan; jungle (canvas); side-zip
+    - Work boot | t=4 x=1 m=1 r=0 :: 6-inch boot
+        t: 6-inch; 8-inch; steel toe; waterproof
+    - Split-toe work boot | t=0 x=1 m=1 r=0 :: Rubber-soled jika-tabi
+  # Western, tall & riding boots (4)
+    - Cowboy boot | t=8 x=6 m=7 r=0 :: Classic western boot, Roper, Stockman, Buckaroo, Packer, Western dress boot
+        t: round toe; square toe; pointed or snip toe; cowboy (angled) heel; walking heel; cowhide; exotic skins (ostrich, caiman, snake, stingray, bison); hand-tooled
+    - Knee-high boot | t=12 x=0 m=1 r=0 :: 
+        t: riding-style boot (equestrian pattern, low heel); flat; block heel; stiletto heel; platform; pull-on; zip; lace-up; wide calf; leather; suede; rubber/neoprene (work)
+    - Over-the-knee boot | t=10 x=2 m=0 r=0 :: 5050, Lowland
+        t: over-the-knee; thigh-high; crotch-high; pull-on; zip; tie-back; leather; suede; stretch; vinyl or latex
+    - Equestrian riding boot | t=6 x=3 m=8 r=0 :: Field boot, Dress boot, Hunt boot
+        t: black; brown; calf leather; synthetic; back zip; custom-made
+  # Rain, snow & winter boots (4)
+    - Rain boot | t=5 x=3 m=0 r=0 :: Wellington boot, Hunter Original, Le Chameau Chasseur
+        t: tall; short; ankle; lined; neoprene-lined
+    - Duck boot | t=3 x=2 m=0 r=0 :: Bean Boot, Sorel rubber-bottom leather-top boot
+        t: lined; unlined; shearling-lined
+    - Snow boot | t=3 x=2 m=4 r=0 :: Sorel Caribou, Moon Boot
+        t: pac boot (removable liner); après-ski; temperature-rated
+    - Sheepskin boot | t=5 x=2 m=2 r=0 :: Ugg boot, UGG Classic
+        t: ultra mini; mini; short; tall; platform
+
+## Sandals & slides [mixed] kinds=8 arch=18 note=Tier for everyday sandals; variety for icons (Birkenstock Arizona, Teva Original, Havaianas).
+  # Sandals & slides (8)
+    - Flip-flop | t=3 x=2 m=2 r=0 :: Havaianas, Gizeh
+        t: rubber; EVA foam; leather
+    - Slide | t=3 x=4 m=7 r=0 :: Adilette, Madrid, Arizona, Oran
+        t: single band; two-strap; recovery foam
+    - Flat strap sandal | t=3 x=4 m=2 r=0 :: Fisherman sandal, Salt-Water sandal, Jelly sandal, Ho Chi Minh sandal
+        t: T-bar; ankle strap; back strap
+    - Sports and outdoor sandal | t=3 x=3 m=8 r=0 :: Teva Original Sandal, Chaco Z/1, Keen Newport
+        t: open toe; closed toe (toe bumper); webbing straps
+    - Gladiator sandal | t=3 x=2 m=0 r=0 :: Grecian sandal, Roman sandal
+        t: ankle height; calf height; knee height
+    - Huarache | t=0 x=1 m=0 r=0 :: Mexican huarache
+    - Heeled sandal | t=4 x=0 m=0 r=0 :: 
+        t: block heel; stiletto; kitten heel; platform
+    - Wedge sandal | t=4 x=2 m=0 r=0 :: Ferragamo cork wedge, Wörishofer
+        t: cork wedge; espadrille wedge; platform wedge; low wedge
+
+## Traditional & regional footwear [variety] kinds=12 arch=41 note=Organised by craft tradition; each kind links to a tradition-register entry.
+  # Traditional footwear (12)
+    - Geta | t=6 x=5 m=2 r=0 :: Two-tooth geta, Ashida, Tengu geta, Okobo, Mitsu-ashi geta
+        t: Two-tooth; Three-tooth; One-tooth; Toothless; Oval (women's); Rectangular (men's)
+    - Zōri | t=2 x=6 m=0 r=0 :: Wara-zōri, Setta, Igusa zōri, Formal brocade or vinyl zōri, Gomu zōri, Shigure zōri
+        t: White hanao (formal); Black hanao (informal)
+    - Jika-tabi | t=2 x=2 m=0 r=0 :: Rubber-soled jika-tabi, Tabi (Margiela)
+        t: Steel toe; Knee-high all-rubber
+    - Kolhapuri chappal | t=2 x=3 m=0 r=0 :: Kanwali, T-strap Kolhapuri, Double-strap Kolhapuri
+        t: House (light); Farm (heavy)
+    - Peshawari chappal | t=3 x=5 m=0 r=0 :: Peshawari kheri, Kaptaan chappal, Zari chappal, Chakwali chappal, Kohati chappal
+        t: Tyre sole; Leather-on-rubber sole; Embroidered (zari)
+    - Jutti | t=3 x=5 m=0 r=0 :: Punjabi jutti, Tilla jutti, Mojari, Khussa, Jalsa jutti
+        t: Men's (pointed nokh); Women's (backless); Rubber sole
+    - Paduka | t=3 x=2 m=0 r=0 :: Wooden paduka, Ceremonial paduka
+        t: Footprint-shaped; Fish-shaped; Hourglass
+    - Babouche | t=2 x=3 m=0 r=0 :: Pointed (Arab) babouche, Round-toe (Amazigh) babouche, Embroidered babouch
+        t: Plain; Embroidered
+    - Wooden clog (klomp) | t=2 x=1 m=0 r=0 :: Dutch klomp
+        t: Plain; Painted
+    - Valenki | t=5 x=2 m=0 r=0 :: Unsoled valenki, Soled valenki
+        t: Brown; Black; Grey; White; Dyed
+    - Mukluk | t=2 x=2 m=0 r=0 :: Summer sealskin kamik, Winter caribou kamik
+        t: Summer; Winter
+    - Opanak | t=4 x=5 m=0 r=0 :: Šumadija opanak, Crveni opanci, Tsarvuli, Tsarouhi, Točkaši
+        t: Horn toe; Curly toe; Flat toe; Sharp toe
+
+## Slippers [tier] kinds=1 arch=0 note=
+  # Slippers (1)
+    - Slippers | t=4 x=0 m=10 r=0 :: 
+        t: Closed slipper; Backless slipper (scuff); Slipper boot; Moccasin slipper
+
+## Shoe care & accessories [mixed] kinds=11 arch=12 note=All shoe care lives here (polish moves in from B6); tier for accessories, variety for the shoe-shine hobby (Saphir, Kiwi, Collonil, Tarrago, Boot Black).
+  # Shoe care (6)
+    - Shoe polish and conditioner | t=7 x=4 m=4 r=3 :: Kiwi tin polish, Renovateur, Pâte de Luxe, Pommadier cream
+        t: wax polish (tin); cream polish; liquid polish; leather conditioner; mirror-gloss wax; waterproofing spray; dubbin
+    - Shoe cleaner | t=5 x=1 m=2 r=0 :: Jason Markk Essential Kit
+        t: sneaker cleaning solution; suede and nubuck cleaner; foam cleaner; cleaning wipes; saddle soap
+    - Shoe brush | t=6 x=0 m=3 r=0 :: 
+        t: horsehair shine brush; applicator (dauber); boar-bristle brush; goat-hair finishing brush; synthetic scrub brush; crêpe suede brush
+    - Shoe-shine kit | t=3 x=1 m=1 r=0 :: Saphir shoe care valet
+        t: wooden valet box; travel kit; starter kit
+    - Shoe tree | t=4 x=4 m=2 r=0 :: Lasted shoe tree, Split-toe shoe tree, Twin-tube shoe tree, Spring shoe tree
+        t: cedar; beech or lacquered wood; plastic or metal (travel); boot tree
+    - Shoe horn | t=6 x=2 m=1 r=0 :: Tip End shoe horn, Mindum engraved shoehorn
+        t: horn; metal; wood; plastic; long-handled; travel
+  # Laces, insoles & covers (5)
+    - Shoelace | t=3 x=0 m=2 r=0 :: 
+        t: Flat; Round; Waxed cotton
+    - Insole | t=0 x=0 m=1 r=0 :: 
+    - Heel grip | t=0 x=0 m=1 r=0 :: 
+    - Overshoe | t=2 x=0 m=0 r=0 :: 
+        t: Buckle-front galosh; Russian-style galosh
+    - Spat | t=3 x=0 m=1 r=0 :: 
+        t: Cloth; Leather; Highland piper spats
+
+## Shoe care [mixed] kinds=1 arch=0 note=
+  # Shoe care (1)
+    - Shoe polish and waterproofing | t=0 x=0 m=3 r=1 :: 
+
+TOTAL kinds 84 arch 275
+brands 848 [('Contemporary & premium', 178), ('Athletic & sportswear', 107), ('Heritage & workwear', 99), ('High street', 99), ('Outdoor & technical', 78), ('Designer', 76), ('Luxury house', 49), ('Bespoke & artisan', 43), ('Streetwear', 38), ('Value & basics', 27), ('Subculture & alternative', 20), ('Japanese & denim', 18), ('Traditional & national dress', 16)]
+traditions 13 Counter({'Footwear & leather': 7, 'Leather & footwear': 2, 'Textiles & rugs': 2, 'Woodwork & furniture': 2})
+Balkan opanci making; Inuit and Yup'ik skin boots; Japanese geta and zōri making; Kolhapuri chappal craft; Moroccan babouche making; Peshawari chappal (kheri) craft; Punjabi jutti; American western bootmaking; Mexican huarache making; Espadrille making; Russian valenki felting; Dutch klompen making; Swedish clog making

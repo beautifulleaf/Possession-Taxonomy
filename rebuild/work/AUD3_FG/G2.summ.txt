@@ -1,0 +1,231 @@
+G2 Real property a person can own — houses, flats, factory-built and floating homes, land and estates, unusual conversions and burial places — organised by property type, with architectural style and regional house tradition as cross-cutting views; commercial and industrial buildings are out, and garden buildings live in Home Fixtures.
+
+== DEPT Houses [mixed] note=Buyer property types first; architectural style and regional tradition are views over the same houses.
+  -- SHELF House types (10 kinds)
+     * Detached house | x=0 v=0 t=4 m=0 r=0 tg=
+         t: Link-detached (joined only by garage); Executive detached (large 4–6 bedroom); New-build detached; Period detached
+     * Semi-detached house | x=0 v=0 t=5 m=0 r=0 tg=
+         t: Mirror-image pair; Period semi; Interwar semi; Post-war semi; New-build semi
+     * Terraced house | x=0 v=0 t=7 m=0 r=0 tg=
+         t: Mid-terrace; End-of-terrace; Back-to-back; Brownstone-clad; Georgian terrace; Victorian terrace; Workers' terrace
+     * Townhouse | x=0 v=0 t=4 m=0 r=0 tg=
+         t: Three-storey town house; Georgian town house; Modern townhome (US); Gated townhouse development
+     * Bungalow | x=0 v=0 t=5 m=0 r=0 tg=
+         t: Detached bungalow; Semi-detached bungalow; Terraced bungalow; Dormer or chalet bungalow (rooms in roof); Veranda bungalow
+     * Cottage | x=0 v=0 t=5 m=0 r=0 tg=
+         t: Thatched cottage; Stone cottage; Estate cottage (tied); Holiday cottage; Cottage orné
+     * Farmhouse | x=0 v=0 t=4 m=0 r=0 tg=
+         t: Farmhouse with land; Farmhouse without land; Housebarn (dwelling and byre combined); Courtyard farmhouse
+     * Mews house | x=0 v=0 t=3 m=0 r=0 tg=
+         t: Original converted mews; Modern mews-style new-build; Cobbled mews courtyard
+     * Ranch house | x=0 v=0 t=5 m=0 r=0 tg=
+         t: California ranch; Suburban ranch; Split-level ranch; Raised ranch; Storybook ranch
+     * Villa | x=0 v=0 t=4 m=0 r=0 tg=
+         t: Holiday villa; Urban or suburban villa; Mediterranean villa with pool; Victorian villa (UK usage)
+  -- SHELF Grand & country houses (8 kinds)
+     * Mansion | x=3 v=6 t=5 m=0 r=0 tg=
+         t: Gilded Age mansion; Modern mega-mansion; Executive home (large developer-built family house); McMansion (mass-built suburban mansion); Urban mansion / hôtel particulier
+         x: Gilded Age mansion(); Hôtel particulier(); McMansion()
+     * Country house | x=8 v=11 t=8 m=0 r=0 tg=
+         t: Manor house; Hall house; Stately home / power house; Georgian and Palladian house; Victorian and Jacobethan house; Ansitz (Alpine lower-nobility residence); Pazo (Galician manor); Bastide (Provençal manor)
+         x: Manor house(); Prodigy house(); Palladian country house(); Jacobethan house(); Scots baronial house(); Ansitz(); Pazo(); Bastide()
+     * Château | x=3 v=2 t=5 m=0 r=0 tg=
+         t: Château fort (fortified); Château de plaisance (unfortified country seat); Château viticole (wine estate); Manoir (small manor); Maison forte
+         x: Loire château(); Château viticole(); Châteauesque house()
+     * Castle & tower house | x=4 v=7 t=7 m=0 r=0 tg=
+         t: Scottish tower house; Irish tower house; Peel tower; Italian castello / torre; Schloss (Wasserschloss, Lustschloss, Stadtschloss); Fortified manor (maison forte); Castle-style revival house
+         x: Tower house(); Schloss(); Fortified house(); Scots castle-style house()
+     * Palazzo | x=3 v=3 t=4 m=0 r=0 tg=
+         t: Whole palazzo; Piano nobile apartment (principal floor); Upper-floor apartment; Palazzo-style revival house
+         x: Florentine Renaissance palazzo(); Venetian Gothic palazzo(); Piano nobile apartment()
+     * Chalet | x=2 v=0 t=5 m=0 r=0 tg=
+         t: Traditional Alpine chalet; Ski-in/ski-out chalet; Catered chalet (operated holiday let); Holiday chalet outside the Alps; Quebec chalet (any holiday dwelling)
+         x: Alpine chalet(); Swiss chalet style house()
+     * Hacienda & estancia | x=5 v=2 t=6 m=0 r=0 tg=
+         t: Hacienda casco (main house); Estancia (pampas cattle or sheep estate); Finca (rural holiday estate); Quinta (Portuguese estate); Cortijo (Andalusian farm estate); Hacienda-style new build
+         x: Hacienda(); Estancia(); Cortijo(); Quinta(); Finca()
+     * Hunting & fishing lodge | x=3 v=4 t=6 m=0 r=0 tg=
+         t: Shooting lodge; Fishing lodge / hut; Stalking lodge; Hunting cabin; Principal lodge of a sporting estate; Ancillary estate lodge
+         x: British sporting lodge(); Jagdschloss(); Pavillon de chasse()
+  -- SHELF Architectural styles (view) (5 kinds)
+     * Classical & Georgian styles | x=7 v=15 t=4 m=0 r=0 tg=
+         t: detached country house; terrace or crescent; suburban villa; temple-front house
+         x: Palladian(); Georgian(); Neoclassical(); Federal(); Regency(); Greek Revival(); Beaux-Arts()
+     * Victorian & revival styles | x=8 v=14 t=4 m=0 r=0 tg=
+         t: villa; terrace; detached; semi-detached
+         x: Gothic Revival(); Italianate(); Second Empire(); Romanesque Revival(); Stick style(); Queen Anne(); Shingle style(); Edwardian()
+     * Arts and Crafts & early modern styles | x=7 v=20 t=4 m=0 r=0 tg=
+         t: bungalow; semi-detached; detached villa; apartment block
+         x: Arts and Crafts(); Tudor Revival(); Art Nouveau(); Craftsman(); Prairie School(); Spanish Colonial Revival(); Art Deco()
+     * Modern & contemporary styles | x=5 v=12 t=4 m=0 r=0 tg=
+         t: flat roof; glass wall; split-level; courtyard house
+         x: Bauhaus & International Style(); Mid-century modern(); Brutalist(); Postmodern(); Passivhaus & contemporary low-energy()
+     * Colonial & settler styles | x=9 v=18 t=4 m=0 r=0 tg=
+         t: saltbox; gambrel roof; raised floor; veranda house
+         x: American Colonial(); Cape Cod house(); French Colonial(); Cape Dutch(); Dutch Colonial Revival(); Colonial Revival(); Queenslander(); Federation(); New Zealand villa()
+  -- SHELF Regional house traditions (5 kinds)
+     * British & Irish vernacular houses | x=7 v=16 t=4 m=0 r=0 tg=
+         t: listed; unlisted; restored; converted
+         x: Wealden hall house(); Cruck house(); Longhouse(); Blackhouse(); Thatched cob cottage(); Bastle house(); Back-to-back house()
+     * Continental European vernacular houses | x=13 v=8 t=3 m=0 r=0 tg=
+         t: restored; converted; listed
+         x: Low German house(); Fachwerkhaus(); Black Forest house(); Geestharden house(); Uthland-Frisian house(); Upper Lusatian house(); Frutighaus(); Longère(); Dutch canal house(); Nordic log house(); Dacha(); Kulla(); Vainakh residential tower()
+     * Mediterranean & Iberian houses | x=10 v=2 t=3 m=0 r=0 tg=
+         t: restored; converted; listed
+         x: Masía(); Cortijo(); Finca(); Pazo(); Casona(); Casa torre(); Trullo(); Dammuso(); Cycladic house(); Riad()
+     * Houses of the Americas | x=11 v=8 t=3 m=0 r=0 tg=
+         t: original; restored; revival-built
+         x: Cape Cod(); Saltbox(); Connected farm(); I-house(); Upright and wing(); Charleston single house(); Creole cottage(); Shotgun house(); Brownstone(); Adobe pueblo-style house(); Chattel house()
+     * Asian & Middle Eastern houses | x=11 v=18 t=3 m=0 r=0 tg=
+         t: original; restored; converted
+         x: Siheyuan(); Fujian tulou(); Yaodong(); Machiya(); Minka(); Hanok(); Shophouse(); Malay house(); Assam-type house(); Haveli(); Wind-tower house()
+
+== DEPT Flats & apartments [mixed] note=
+  -- SHELF Flats (6 kinds)
+     * Flat | x=5 v=4 t=12 m=0 r=0 tg=
+         t: studio flat; one-bed and two-bed flat; garden flat; basement flat; mansion-block flat; purpose-built flat; converted flat; tower-block flat; walk-up flat; bedsit (not self-contained); micro-flat; leasehold · commonhold/strata · condominium · co-op share
+         x: Mansion-block flat(); Tenement flat(); Tyneside flat(); Cottage flat(); Garden apartment (US)()
+     * Penthouse | x=1 v=1 t=4 m=0 r=0 tg=
+         t: set-back rooftop penthouse; full-floor penthouse; duplex penthouse; top-floor 'penthouse-collection' unit (flush with facade)
+         x: New York set-back penthouse()
+     * Loft | x=1 v=2 t=4 m=0 r=0 tg=
+         t: hard loft (original conversion, exposed structure); soft loft (new-build loft style); live/work loft; commercial loft
+         x: SoHo artist's loft()
+     * Maisonette & duplex | x=0 v=0 t=5 m=0 r=0 tg=
+         t: own-entrance maisonette; duplex (two-level unit); triplex (three-level unit); scissor-section flat; Tyneside-style paired flats
+     * Serviced & branded residence | x=3 v=3 t=5 m=0 r=0 tg=
+         t: hotel-attached residence (in or beside a hotel); standalone branded residence; non-hotel brand residence (fashion, car marques); aparthotel/serviced apartment unit; rental-pool or managed-let tenure
+         x: Four Seasons Private Residences(Four Seasons Hotels and Resorts); Aman Residences(Aman Resorts); Sherry-Netherland apartments()
+     * Multi-unit residential building | x=4 v=3 t=8 m=0 r=0 tg=
+         t: two-flat / three-flat; fourplex and small multiplex; freehold block of flats; house in multiple occupation (HMO); converted house; housing co-operative building; walk-up block; garden-apartment block
+         x: Chicago two-flat(); New England three-decker(); Dingbat(); Tenement block()
+
+== DEPT Factory-built, mobile & floating homes [tier] note=
+  -- SHELF Factory-built & mobile homes (6 kinds)
+     * Kit & prefab house | x=3 v=12 t=5 m=0 r=5 tg=
+         t: modular (volumetric sections craned onto foundation); panelised / closed-panel timber frame; log kit; post-and-beam cedar kit; mail-order kit (historic, 1908–1942)
+         x: Sears Modern Home(Sears Modern Homes); Lustron house(Lustron Corporation); Huf Haus(Huf Haus)
+     * Manufactured home | x=0 v=0 t=4 m=0 r=6 tg=
+         t: single-wide (one section, ≤18 ft wide); double-wide (two sections joined on site); triple-wide / multi-section; pre-1976 mobile home (pre-HUD Code)
+     * Park home | x=0 v=0 t=3 m=0 r=8 tg=
+         t: residential park home (BS 3632, retirement parks); holiday lodge (twin-unit); single-unit lodge
+     * Static caravan | x=0 v=0 t=6 m=0 r=7 tg=
+         t: 10 ft wide; 12 ft wide; 13–14 ft wide; summer-use (no double glazing or central heating); year-round / residential-spec (BS 3632); entry · mid · flagship trim
+     * Park model | x=0 v=0 t=4 m=0 r=9 tg=
+         t: single-level; loft cabin; porch / wedge roof; destination-park sited vs private land
+     * Tiny house on wheels | x=1 v=5 t=4 m=0 r=2 tg=
+         t: bumper-pull trailer; fifth-wheel / gooseneck; sleeping loft vs single-level; builder-made vs plans / DIY-built
+         x: Tumbleweed tiny house(Tumbleweed Tiny House Company)
+  -- SHELF Floating homes (2 kinds)
+     * Houseboat | x=3 v=11 t=5 m=0 r=0 tg=
+         t: converted inland-vessel hull (woonschip); steel ship hull with built superstructure (schark); concrete-encased hull; beached hull; raft house (rumah rakit)
+         x: Dal Lake houseboat(); Sausalito houseboat(); Amsterdam woonboot()
+     * Floating home | x=3 v=10 t=5 m=2 r=0 tg=
+         t: log float; concrete and foam float; concrete tub (ark); concrete barge chained to lake bed; amphibious (rises on floods)
+         x: Seattle floating home(); Dutch woonark(); IJburg floating house(Marlies Rohmer Architecture & Urbanism)
+         m: Floating houses IJburg (luxury segment)/Waterstudio; Concrete-float floating homes/International Marine Floatation Systems
+
+== DEPT Land & estates [mixed] note=
+  -- SHELF Luxury land & estates (8 kinds)
+     * Country estate | x=0 v=0 t=5 m=0 r=0 tg=
+         t: landed estate with tenanted farms; parkland estate; walled estate; home-farm estate; American recreational country estate
+     * Private island | x=3 v=0 t=7 m=0 r=0 tg=
+         t: freehold island; leasehold island (e.g. China, max 50-year lease); sea island; lake island; tidal island; undeveloped island; resort island with villas
+         x: Necker Island(); Skorpios(); Lānaʻi()
+     * Sporting estate | x=1 v=0 t=6 m=0 r=0 tg=
+         t: deer forest (red-deer stalking, typically 10,000+ acres, unfenced); grouse moor (driven or walked-up red grouse); driven-pheasant shoot; salmon beat and river fishing; mixed Highland estate with forestry and farm; sporting rights let separately from land
+         x: Balmoral Estate()
+     * Equestrian property | x=1 v=0 t=6 m=0 r=0 tg=
+         t: stud farm (breeding, stallions standing at stud); livery yard (boarding for fee: full, DIY, working livery); racing yard with gallops; polo estate with grounds; private yard with arena and paddocks; trekking or riding-school yard
+         x: Claiborne Farm()
+     * Vineyard & wine estate | x=2 v=0 t=7 m=0 r=0 tg=
+         t: planted vineyard parcel; vineyard with winery; Bordeaux château estate; Burgundy domaine; Tuscan tenuta; Napa or New World estate; hobby or lifestyle vineyard
+         x: Château Lafite Rothschild(); Tenuta San Guido()
+     * Waterfront property | x=0 v=0 t=6 m=0 r=0 tg=
+         t: beachfront or oceanfront (littoral rights to low-water line); lakefront; riverside with riparian rights and fishing; canal-side; marina berth with home; foreshore publicly owned (UK, Nordic access rules)
+     * Ranch & station | x=2 v=0 t=6 m=0 r=0 tg=
+         t: working cattle ranch; sheep station; cattle station on Crown pastoral lease; hunting and recreational ranch; guest or dude ranch; hobby ranchette
+         x: King Ranch(); Anna Creek Station()
+     * Airpark home & private airstrip | x=1 v=0 t=4 m=0 r=0 tg=
+         t: airpark lot with attached hangar; taxiway-access home; private grass strip on estate; paved private runway with hangars
+         x: Spruce Creek Fly-In()
+  -- SHELF Farm & rural land (8 kinds)
+     * Farm | x=0 v=0 t=5 m=0 r=0 tg=
+         t: arable farm; livestock farm; dairy farm; mixed farm; hobby farm
+     * Smallholding | x=0 v=0 t=3 m=0 r=0 tg=
+         t: mixed holding; hobby or lifestyle holding; equestrian smallholding
+     * Croft | x=0 v=0 t=4 m=0 r=0 tg=
+         t: owner-occupied croft; tenanted croft; croft with house; bare-land croft
+     * Arable land | x=0 v=0 t=0 m=0 r=0 tg=
+     * Grazing land | x=0 v=0 t=4 m=0 r=0 tg=
+         t: pasture; paddock; meadow; rough grazing
+     * Woodland | x=0 v=0 t=3 m=0 r=0 tg=
+         t: amenity woodland; commercial forestry; ancient woodland
+     * Orchard | x=0 v=0 t=4 m=0 r=0 tg=
+         t: traditional standard orchard; bush orchard; nut grove; olive grove
+     * Lake & fishery | x=0 v=0 t=3 m=0 r=0 tg=
+         t: stillwater lake or pond; river beat; wetland
+  -- SHELF Plots & parking (2 kinds)
+     * Building plot | x=0 v=0 t=4 m=0 r=0 tg=
+         t: with planning permission; without planning permission; serviced plot; self-build plot
+     * Parking space | x=0 v=0 t=4 m=0 r=0 tg=
+         t: open bay; lock-up garage (held as separate title); underground space; EV-charging bay
+  -- SHELF Farm & estate buildings (6 kinds)
+     * Barn | x=0 v=0 t=5 m=0 r=0 tg=
+         t: Dutch barn; Threshing barn; Tithe barn; Pole barn; Steel portal-frame barn
+     * Stable block | x=0 v=0 t=3 m=0 r=0 tg=
+         t: American barn (internal aisle); Traditional yard; Timber loose-box range
+     * Field shelter | x=0 v=0 t=2 m=0 r=0 tg=
+         t: Fixed; Mobile on skids
+     * Cart shed | x=0 v=0 t=0 m=0 r=0 tg=
+     * Granary | x=0 v=0 t=2 m=0 r=0 tg=
+         t: Raised on staddle stones; Loft granary over cart shed
+     * Dovecote | x=0 v=0 t=3 m=0 r=0 tg=
+         t: Circular; Square or rectangular; Lectern
+
+== DEPT Unusual & converted properties [variety] note=Named property types with their own buyer community (conversions, follies, shelters).
+  -- SHELF Unusual & converted properties (11 kinds)
+     * Barn conversion | x=0 v=0 t=0 m=0 r=0 tg=
+     * Converted church & chapel | x=0 v=0 t=4 m=0 r=0 tg=
+         t: Anglican church; Nonconformist chapel; Single house; Flats
+     * Oast house | x=1 v=1 t=2 m=0 r=0 tg=
+         t: Roundel (round kiln); Square kiln
+         x: Converted oast()
+     * Windmill & watermill | x=2 v=1 t=3 m=0 r=0 tg=
+         t: Tower mill; Smock mill; Watermill
+         x: Tower mill(); Smock mill()
+     * Lighthouse & keeper's cottage | x=0 v=0 t=2 m=0 r=0 tg=
+         t: Lighthouse tower; Keeper's cottage
+     * Martello tower & fort | x=3 v=7 t=3 m=0 r=0 tg=
+         t: Martello tower; Palmerston fort; Pillbox
+         x: Martello tower(); Palmerston fort(); Pillbox()
+     * Water tower conversion | x=1 v=0 t=0 m=0 r=0 tg=
+         x: House in the Clouds()
+     * Railway conversion | x=1 v=4 t=3 m=0 r=0 tg=
+         t: Station building; Signal box; Carriage home
+         x: Railway carriage home()
+     * Earth-sheltered & cave house | x=5 v=4 t=4 m=0 r=0 tg=
+         t: Bermed; In-hill; Underground (atrium); Cave house
+         x: Underhill(Arthur Quarmby); Earthship(Michael Reynolds); Yaodong(); Matmata pit house(); Andalusian cave house()
+     * Bunker | x=4 v=2 t=4 m=0 r=0 tg=
+         t: ROC post; Nuclear bunker; Missile silo; Prefab survival shelter
+         x: ROC monitoring post(); Missile silo conversion(); Vivos shelter(Vivos); Home fallout shelter()
+     * Folly & tower house conversion | x=2 v=0 t=4 m=0 r=0 tg=
+         t: Folly; Tower; Gatehouse; Lodge
+         x: Freston Tower(); The Pineapple, Dunmore()
+
+== DEPT Burial places [tier] note=
+  -- SHELF Burial places (8 kinds)
+     * Ground burial plot | x=0 v=0 t=5 m=0 r=0 tg=
+         t: Single plot; Companion plot; Family plot; Gated estate; Hedge estate
+     * Cremation plot | x=0 v=0 t=0 m=0 r=0 tg=
+     * Green burial plot | x=0 v=0 t=2 m=0 r=0 tg=
+         t: Baumgrab · tree grave; Shared-tree plot
+     * Lawn crypt | x=0 v=0 t=0 m=0 r=0 tg=
+     * Mausoleum crypt | x=0 v=0 t=0 m=0 r=0 tg=
+     * Private mausoleum | x=0 v=0 t=0 m=0 r=0 tg=
+     * Columbarium niche | x=0 v=0 t=1 m=0 r=0 tg=
+         t: Urnenstele · urn stele
+     * Communal grave space | x=0 v=0 t=0 m=0 r=0 tg=
+
+TOTAL kinds=85 archetypes=172
