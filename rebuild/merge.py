@@ -27,7 +27,8 @@ for c in sys.argv[1:]:
     # a kind whose name the rebuilt category already has is taken as covered by it
     names = {k['n'].lower() for dp in d['depts'] for s in dp['s'] for k in s['k']}
     if os.path.exists(f'out/{c}_moves.json'):  # kinds this category itself sends onward are not taken back in
-        names |= {m['kind']['n'].lower() for m in json.load(open(f'out/{c}_moves.json')).get('out', [])}
+        names |= {m['kind']['n'].lower() for m in json.load(open(f'out/{c}_moves.json')).get('out', [])
+                  if place.get(c + '>' + m['to'] + ':' + m['kind']['n']) != '-'}
     for src in done:
         sp = f'out/{src}_moves.json'
         if src == c or not os.path.exists(sp): continue
