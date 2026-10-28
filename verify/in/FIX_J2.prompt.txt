@@ -1,3 +1,3 @@
 BATCH FIX_J2. First read /home/user/Possession-Taxonomy/verify/in/FIX_COMMON.txt (it points you to AUD2_COMMON.txt; use <CODE> = J2, <BATCH> = FIX_J2).
 Your findings: the section for J2 in /home/user/Possession-Taxonomy/verify/out/AUD3_J.md (codes J2-1, J2-2 …).
-Food is about products, brands and quality grades; dishes belong to the Culinary taxonomy. Bought prepared and frozen foods (ready meals, frozen pizza, dips, baby food) are waiting for an owner decision: do not add or move them.
+Food is about products, brands and quality grades; dishes belong to the Culinary taxonomy. Owner decision 2026-10-28: packaged prepared foods (ready meals, frozen meals and pizza, dips, soups, baby food) are IN as products, in a J5 department "Prepared & frozen foods" organised by product type and brand. Do not build it (J5's fixer does); you may send such items from your category to J5 via _moves.json with that dept name.

@@ -15,7 +15,7 @@ Counts are computed from rebuild/reader/<CODE>.json and its registers. "Absent e
 
 **Too much detail**
 - **F1-4 Thin videotape and tape kinds.** The Videotape shelf has 8 kinds but 4 archetypes. S-VHS, VHS-C, W-VHS, Video 2000, 8 mm and MiniDV each have 0 archetypes and 2–4 types. DAT, DCC and Elcaset also have 0 archetypes, and Elcaset's types are just "blank; tape type". **Fix:** merge into one *Camcorder cassette* kind (types: VHS-C, Video8/Hi8/Digital8, MiniDV), make S-VHS and W-VHS types of VHS, and make one *Digital & late analogue cassette* kind (DAT, DCC, Elcaset).
-- **F1-5 Storage is a SKU list.** The Storage dept has 33 `m` rows, 13 of them BCW, e.g. three backing boards that differ only by Golden/Silver/Current size. CD-R has 9 dye-chemistry types. **Fix:** keep brands only (BCW, Ultra PRO, E. Gerber, Nagaoka, MoFi), make sizes into types, and cut CD-R to about 4 types.
+- **F1-5 Storage is a SKU list.** The Storage dept has 29 `m` rows, 13 of them BCW, e.g. three backing boards that differ only by Golden/Silver/Current size. CD-R has 9 dye-chemistry types. **Fix:** keep brands only (BCW, Ultra PRO, E. Gerber, Nagaoka, MoFi), make sizes into types, and cut CD-R to about 4 types.
 
 **Confusing organisation**
 - **F1-6 Urtext editions sit under *Songbook*.** The *Songbook* kind holds Henle, Bärenreiter and Wiener Urtext, Peters and Kalmus. Those are classical performing editions, and nobody looks for them under "Songbook". **Fix:** create *Performing edition (urtext / practical)* and keep *Songbook* for PVG and fake books.
@@ -158,7 +158,7 @@ Fix size: medium
 - **F5-2 Ephemera hobbies are missing.** Beer mats, cigar bands, sugar packets, pinback buttons, and lobby cards or press kits are absent everywhere. *Matchbox label* (phillumeny) has 0 archetypes. **Fix:** add these kinds, with maker or issuer archetypes.
 
 **Too much detail**
-- **F5-3 Empty kinds.** 16 kinds are fully empty: 7 of the 9 identity kinds, plus Gift card, Gift certificate, Membership card, Will, Tax paper, House plans, School report, Snapshot, Scrapbook and Promissory note. **Fix:** merge into fewer kinds:
+- **F5-3 Empty kinds.** 16 kinds are fully empty: 6 of the 9 identity kinds, plus Gift card, Gift certificate, Membership card, Will, Tax paper, House plans, School report, Snapshot, Scrapbook and Promissory note. **Fix:** merge into fewer kinds:
   - *Identity document* (with types), keeping *Passport* separate.
   - *Gift & membership card*, taking in the *Loyalty card* kind and its one Duane Reade row.
   - *Household & legal papers*.
@@ -190,7 +190,7 @@ Fix size: medium
 
 ## F6 Natural History & Specimens
 **Brand mode:** variety (dealers, labs, preparators); tier for display.
-299 kinds, 1,184 archetypes. The mineral tree (≈190 species kinds) follows Nickel–Strunz well.
+299 kinds, 1,184 archetypes. The mineral tree (169 species kinds) follows Nickel–Strunz well.
 
 **Gaps for hobbyists**
 - **F6-1 Popular minerals are missing.** Bornite, molybdenite, atacamite, boleite, witherite, hanksite, chalcanthite, aegirine, astrophyllite, zincite, anatase and creedite are absent everywhere, including species/F6. Bornite ("peacock ore") and boleite are shop and collector staples (to verify). **Fix:** add them to the tree, or at least to the species register.
