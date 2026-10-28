@@ -4,3 +4,4 @@ step3 fetched wikipedia (Helleborus Clivia Agapanthus Bougainvillea Mandevilla F
 step4 fetched cannabis/hedging/xmas/camellia (camellia cultivars NOT attested; Northern Lights/OG Kush not attested; Dutch Passion 404; Dwarf conifer 404). next: write findings script fix2.py
 step5 fix2.py applied (C3-1,2,4,5,6,7-dups); next brands (C3-8, Sensi Seeds), moves, report
 step6 brands done
+step7 report written; DONE
