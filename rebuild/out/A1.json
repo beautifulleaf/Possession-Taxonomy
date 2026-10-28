@@ -703,7 +703,7 @@
       },
       {
        "n": "Bodysuit",
-       "a": "body · leotard top",
+       "a": "body · leotard top · body shaper",
        "d": "Close-fitting one-piece adult top that covers the torso and fastens under the crotch, worn as a top; a lingerie body is underwear.",
        "t": [
         "long-sleeve",
@@ -778,8 +778,8 @@
       },
       {
        "n": "Team jersey",
-       "a": "replica shirt · football shirt · fan jersey · kit",
-       "d": "Pullover top in a team's colours and badges, sold as authentic, replica, retro or fan shirt; cycling jerseys are in Sports.",
+       "a": "fan jersey · supporter shirt",
+       "d": "Pullover top in a team's colours for sports without their own jersey kind here; football, basketball, ice-hockey and baseball have their own kinds, cycling jerseys are in Sports.",
        "t": [
         "home / away / third",
         "authentic (player-issue) vs replica",
@@ -789,6 +789,69 @@
         "long-sleeve"
        ],
        "s": "https://en.wikipedia.org/wiki/Team_jersey",
+       "m": [],
+       "r": [
+        [
+         "Breakaway",
+         "Fanatics"
+        ]
+       ]
+      },
+      {
+       "n": "Football shirt",
+       "a": "soccer jersey · replica shirt · football kit · kit",
+       "d": "Team shirt of association football, sold as authentic player issue, replica or retro shirt.",
+       "t": [
+        "home / away / third",
+        "authentic (player-issue) vs replica",
+        "retro / throwback",
+        "goalkeeper shirt",
+        "long-sleeve",
+        "printed name and number"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Football_shirt",
+       "x": [
+        {
+         "n": "adidas Equipment",
+         "a": "EQT",
+         "d": "Early-1990s adidas range with chunky colour-blocked stripes across the shoulder, oversized fit and the triangular Equipment logo in place of the trefoil.",
+         "mk": "adidas",
+         "y": "1991",
+         "s": "https://www.soccerbible.com/features/2026/03/adidas-equipment-an-era-defining-aesthetic/amp/",
+         "v": [],
+         "dt": "colour blocking · shoulder stripes · EQT green accent"
+        },
+        {
+         "n": "adidas Ascend",
+         "a": "",
+         "d": "Unofficial name for an Equipment-era template of about 1992–95 with conjoined sleeve stripes, a wide V-neck and a shadow triple-stripe pattern.",
+         "mk": "adidas",
+         "y": "1992",
+         "s": "https://kitbliss.co.nz/100gfst/059-adidas-ascend.html",
+         "v": [],
+         "dt": "wide V-neck with coloured trim · sleeve flashes"
+        },
+        {
+         "n": "adidas Horizon",
+         "a": "",
+         "d": "Template of 1989–92 with a large simple V-neck, thin horizontal piping, baggy fit and large colour blocks across and under the arms.",
+         "mk": "adidas",
+         "y": "1989",
+         "s": "https://www.kitbliss.co.nz/100gfst/071-adidas-horizon.html",
+         "v": [],
+         "dt": "V-neck · piping · colour blocks"
+        },
+        {
+         "n": "Hummel halved shirt (Denmark 1986)",
+         "a": "",
+         "d": "Denmark's halved World Cup shirt of 1986, a landmark of Hummel design.",
+         "mk": "Hummel",
+         "y": "1986",
+         "s": "https://en.wikipedia.org/wiki/Football_shirt",
+         "v": [],
+         "dt": "two-tone halved body"
+        }
+       ],
        "m": [],
        "r": [
         [
@@ -804,14 +867,6 @@
          "Puma"
         ],
         [
-         "Authentic Throwback",
-         "Mitchell & Ness"
-        ],
-        [
-         "Breakaway",
-         "Fanatics"
-        ],
-        [
          "Retro football shirts",
          "Score Draw"
         ],
@@ -822,41 +877,152 @@
        ]
       },
       {
-       "n": "Corset top",
-       "a": "bustier top · corset bodice",
-       "d": "Corset-shaped bustier or boned top made to be worn visible; a corset worn as underwear is in Underwear.",
+       "n": "Basketball jersey",
+       "a": "basketball vest · NBA jersey",
+       "d": "Sleeveless or sleeved team top of basketball, sold as authentic, replica or throwback.",
        "t": [
-        "overbust",
-        "underbust",
-        "bustier",
-        "lace-up back",
-        "boned",
-        "strapless",
-        "cropped"
+        "authentic",
+        "replica",
+        "throwback / retro",
+        "sleeved"
        ],
-       "s": "https://en.wikipedia.org/wiki/Bustier",
-       "m": [
+       "s": "https://en.wikipedia.org/wiki/Basketball_uniform",
+       "x": [
+        {
+         "n": "Hardwood Classics",
+         "a": "",
+         "d": "Mitchell & Ness line of throwback NBA jerseys, introduced in 1999.",
+         "mk": "Mitchell & Ness",
+         "y": "1999",
+         "s": "https://en.wikipedia.org/wiki/Mitchell_%26_Ness",
+         "v": [],
+         "dt": "era-correct fabric and cut · team and season"
+        },
+        {
+         "n": "NBA Association, Icon, Statement and City editions",
+         "a": "",
+         "d": "Naming system for NBA team uniforms: Association (white) and Icon (coloured) from 2017–18, with Statement and City alternates.",
+         "mk": "",
+         "y": "2017",
+         "s": "https://en.wikipedia.org/wiki/Basketball_uniform",
+         "v": [],
+         "dt": "edition · team"
+        },
+        {
+         "n": "Sleeved NBA jersey",
+         "a": "",
+         "d": "Short-sleeved NBA jersey introduced by adidas for the 2013 Christmas Day games and dropped after Nike took over.",
+         "mk": "adidas",
+         "y": "2013",
+         "s": "https://en.wikipedia.org/wiki/Basketball_uniform",
+         "v": [],
+         "dt": "sleeve · team"
+        }
+       ],
+       "m": [],
+       "r": [
         [
-         "Venus Corset Top",
-         "Atsuko Kudo"
-        ],
-        [
-         "Lea Pinstripe Corset",
-         "Disturbia"
-        ],
-        [
-         "Cybele Embroidered Crop Corset Top",
-         "Disturbia"
-        ],
-        [
-         "Cage Bustier",
-         "La Perla"
-        ],
-        [
-         "Sharp Corset Top",
-         "NA-KD"
+         "Authentic Throwback",
+         "Mitchell & Ness"
         ]
        ]
+      },
+      {
+       "n": "Ice-hockey jersey",
+       "a": "hockey sweater · hockey shirt",
+       "d": "Team top of ice hockey, worn as an on-ice authentic or sold as a replica or fan jersey.",
+       "t": [
+        "authentic",
+        "fan / replica",
+        "alternate",
+        "throwback"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Hockey_jersey",
+       "x": [
+        {
+         "n": "Reebok Edge jersey",
+         "a": "",
+         "d": "NHL jersey system redesigned by Reebok in 2007 with a V-neck insert.",
+         "mk": "Reebok",
+         "y": "2007",
+         "s": "https://en.wikipedia.org/wiki/Hockey_jersey",
+         "v": [],
+         "dt": "V-neck insert · team"
+        },
+        {
+         "n": "adidas NHL jersey",
+         "a": "",
+         "d": "NHL jersey line made by adidas from 2017, the subject of a 2022 lawsuit over retail quality against on-ice versions.",
+         "mk": "adidas",
+         "y": "2017",
+         "s": "https://en.wikipedia.org/wiki/Hockey_jersey",
+         "v": [],
+         "dt": "on-ice vs retail version · team"
+        },
+        {
+         "n": "NHL alternate jersey",
+         "a": "",
+         "d": "Third jersey programme begun by the NHL in 1995, including Winter Classic, Stadium Series and Reverse Retro designs.",
+         "mk": "",
+         "y": "1995",
+         "s": "https://en.wikipedia.org/wiki/Hockey_jersey",
+         "v": [
+          {
+           "n": "Reverse Retro",
+           "mk": "",
+           "y": "",
+           "d": "Alternate series recalling past designs"
+          }
+         ],
+         "dt": "special-event design · team"
+        }
+       ],
+       "m": []
+      },
+      {
+       "n": "Baseball jersey",
+       "a": "baseball shirt · MLB jersey",
+       "d": "Button-front or pullover team top of baseball, worn at home in white and on the road in grey or a dark colour.",
+       "t": [
+        "home",
+        "road",
+        "throwback",
+        "pinstripe"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Baseball_uniform",
+       "x": [
+        {
+         "n": "Mitchell & Ness wool-flannel throwback",
+         "a": "",
+         "d": "Reproduction of vintage wool-flannel baseball uniforms, begun by Mitchell & Ness in 1983.",
+         "mk": "Mitchell & Ness",
+         "y": "1983",
+         "s": "https://en.wikipedia.org/wiki/Mitchell_%26_Ness",
+         "v": [],
+         "dt": "wool flannel · era · team"
+        },
+        {
+         "n": "Pinstripe jersey",
+         "a": "",
+         "d": "Narrow-striped jersey first worn by some major league teams in 1907 and widened in 1912; the Yankees made it a team symbol.",
+         "mk": "",
+         "y": "1907",
+         "s": "https://en.wikipedia.org/wiki/Baseball_uniform",
+         "v": [],
+         "dt": "stripe width · team"
+        },
+        {
+         "n": "Nike-designed MLB jersey",
+         "a": "",
+         "d": "MLB uniforms designed by Nike and made by Fanatics from 2024, which drew player complaints over number and lettering size.",
+         "mk": "Nike",
+         "y": "2024",
+         "s": "https://en.wikipedia.org/wiki/Baseball_uniform",
+         "v": [],
+         "dt": "Elite vs replica · team"
+        }
+       ],
+       "m": []
       }
      ]
     },
@@ -1459,19 +1625,19 @@
          "n": "Levi's Western shirt",
          "a": "Cowboy Overall Shirt · smile-pocket shirt",
          "d": "Levi Strauss & Co.'s western shirts, from the denim Cowboy Overall Shirt to the first Western Wear line with smile pockets.",
-         "mk": "Levi Strauss & Co.",
+         "mk": "Levi's",
          "y": "1926",
          "s": "https://www.levistrauss.com/2025/08/07/levis-western-wear-heritage/",
          "v": [
           {
            "n": "Cowboy Overall Shirt",
-           "mk": "Levi Strauss & Co.",
+           "mk": "Levi's",
            "y": "1926",
            "d": "Denim, slanted pocket flap"
           },
           {
            "n": "Western Wear line",
-           "mk": "Levi Strauss & Co.",
+           "mk": "Levi's",
            "y": "c. 1937",
            "d": "Smile pockets; satin rodeo shirts with piping"
           }
@@ -3709,13 +3875,13 @@
          "n": "Levi's Sta-Prest",
          "a": "Sta-Prest · stay-press · Stapress",
          "d": "Wrinkle-resistant permanently creased trouser by Levi's from the 1960s, adopted by mods and skinheads; a 'stay pressed' trouser copied by many brands.",
-         "mk": "Levi Strauss & Co.",
+         "mk": "Levi's",
          "y": "1960s",
          "s": "https://www.wikidata.org/wiki/Q3967646",
          "v": [
           {
            "n": "Levi's Sta-Prest",
-           "mk": "Levi Strauss & Co.",
+           "mk": "Levi's",
            "y": "1960s",
            "d": "originator with permanent crease"
           },
@@ -3839,7 +4005,7 @@
           },
           {
            "n": "Levi's XX Chino",
-           "mk": "Levi Strauss & Co.",
+           "mk": "Levi's",
            "y": "",
            "d": "current Levi's chino"
           }
@@ -4393,6 +4559,19 @@
          "Tripp NYC"
         ]
        ]
+      },
+      {
+       "n": "Plus fours & breeks",
+       "a": "plus-fours · shooting breeks · knickerbockers",
+       "d": "Breeches ending below the knee, worn for golf and game shooting; plus fours hang four inches below the knee.",
+       "t": [
+        "plus fours",
+        "plus twos, sixes and eights",
+        "knickerbockers",
+        "shooting breeks"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Plus_fours",
+       "m": []
       }
      ]
     }
@@ -5316,7 +5495,7 @@
           },
           {
            "n": "André Courrèges couture mini",
-           "mk": "André Courrèges",
+           "mk": "Courrèges",
            "y": "1964",
            "d": "Above-the-knee skirts shown in Paris couture, 1964"
           },
@@ -5558,182 +5737,6 @@
        ]
       },
       {
-       "n": "Tracksuit",
-       "a": "trackies · sweatsuit · warm-up suit · shell suit · track top and pants",
-       "d": "Matching zip-front jacket and trousers made for warming up in sport, now worn as casual and athleisure dress.",
-       "t": [
-        "full tracksuit",
-        "track top / track jacket",
-        "track pants",
-        "velour",
-        "shell suit",
-        "popper / tearaway pants",
-        "football club tracksuit"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Tracksuit",
-       "x": [
-        {
-         "n": "adidas Franz Beckenbauer tracksuit",
-         "a": "Beckenbauer tracksuit · 3-stripes tracksuit",
-         "d": "Nylon-wool warm-up suit with central zip, heel-looped trousers and three stripes down arms and legs; adidas's first apparel.",
-         "mk": "adidas",
-         "y": "1967",
-         "s": "https://www.adidas-group.com/en/magazine/innovation/the-history-of-the-tracksuit-from-athletes-to-athleisure",
-         "v": [
-          {
-           "n": "Franz Beckenbauer original",
-           "mk": "adidas",
-           "y": "1967",
-           "d": "Made with textile firm Georg Schwahn; endorsed by Beckenbauer"
-          },
-          {
-           "n": "Heide Rosendahl women's tracksuit",
-           "mk": "adidas",
-           "y": "1972",
-           "d": "Women's model named for the Munich Olympics athlete"
-          },
-          {
-           "n": "Trefoil-logo track top",
-           "mk": "adidas",
-           "y": "1972–1973",
-           "d": "First tops carrying the new Trefoil logo"
-          }
-         ],
-         "dt": "three stripes · colourways · nylon-wool, polyester, cotton"
-        },
-        {
-         "n": "adidas Firebird tracksuit",
-         "a": "Firebird track top",
-         "d": "Three-stripe polyester track top and pants born in the 1980s and a 1990s Britpop and casual staple.",
-         "mk": "adidas",
-         "y": "1980s",
-         "s": "https://www.80scasualclassics.co.uk/blogs/blog/adidas-firebird-tracksuit",
-         "v": [
-          {
-           "n": "Adicolor Firebird track jacket",
-           "mk": "adidas",
-           "y": "",
-           "d": "Current adidas Originals reissue line"
-          }
-         ],
-         "dt": "polyester tricot · colourways · Trefoil chest logo"
-        },
-        {
-         "n": "Juicy Couture velour tracksuit",
-         "a": "Juicy tracksuit",
-         "d": "Fitted velour zip hoodie and low-rise flared trousers with 'J' zip pull and rear logo; the 2000s celebrity tracksuit.",
-         "mk": "Juicy Couture",
-         "y": "2001",
-         "s": "https://en.wikipedia.org/wiki/Juicy_Couture",
-         "v": [
-          {
-           "n": "Original velour tracksuit",
-           "mk": "Juicy Couture",
-           "y": "2001",
-           "d": "Launched 2001 with signature J zipper pull"
-          },
-          {
-           "n": "Revival velour tracksuits",
-           "mk": "Juicy Couture",
-           "y": "2010s–",
-           "d": "Re-released cuts and collaborations in the original velour"
-          }
-         ],
-         "dt": "velour · pastel and jewel colours · rhinestone logo"
-        },
-        {
-         "n": "Sergio Tacchini tracksuit",
-         "a": "Tacchini trackie",
-         "d": "Colour-blocked Italian tennis tracksuit of the 1980s, adopted by the football-casual scene.",
-         "mk": "Sergio Tacchini",
-         "y": "1980s",
-         "s": "https://en.wikipedia.org/wiki/Sergio_Tacchini",
-         "v": [
-          {
-           "n": "Dallas tracksuit",
-           "mk": "Sergio Tacchini",
-           "y": "mid-1980s",
-           "d": "The brand's best-known 1980s model"
-          }
-         ],
-         "dt": "colour-block panels · polyester, cotton · tennis heritage"
-        },
-        {
-         "n": "Fila tennis tracksuit",
-         "a": "Fila trackie",
-         "d": "Italian tennis-court tracksuit from Fila's 1970s sportswear line endorsed by Björn Borg.",
-         "mk": "Fila",
-         "y": "1973–",
-         "s": "https://en.wikipedia.org/wiki/Fila",
-         "v": [
-          {
-           "n": "Borg-era tennis tracksuit",
-           "mk": "Fila",
-           "y": "1970s",
-           "d": "Line launched with Fila's 1973 move into sportswear"
-          }
-         ],
-         "dt": "navy-red-white · cotton, polyester · F-box logo"
-        },
-        {
-         "n": "Kappa 222 Banda tracksuit",
-         "a": "Banda trackie",
-         "d": "Slim-fit tracksuit with the repeated Omini logo side stripe; 1990s Britpop and 2010s revival staple.",
-         "mk": "Kappa",
-         "y": "1990s",
-         "s": "https://www.kappa.com/en-us/pages/the-iconic-banda",
-         "v": [
-          {
-           "n": "222 Banda Anniston slim",
-           "mk": "Kappa",
-           "y": "",
-           "d": "Current slim-fit fleece track jacket"
-          },
-          {
-           "n": "Popper track pants",
-           "mk": "Kappa",
-           "y": "1990s",
-           "d": "Pop-closure leg trousers associated with Mel C"
-          }
-         ],
-         "dt": "Omini side band · slim fit · polyester, fleece"
-        },
-        {
-         "n": "Lacoste tracksuit",
-         "a": "survêtement Lacoste",
-         "d": "Minimalist tennis tracksuit introduced in 1975, later in pop colours and satin fabrics for the 1980s hip-hop scene.",
-         "mk": "Lacoste",
-         "y": "1975",
-         "s": "https://www.lacoste.com/gb/news/heritage/tracksuit-story.html",
-         "v": [
-          {
-           "n": "1975 original",
-           "mk": "Lacoste",
-           "y": "1975",
-           "d": "Worn exclusively on the tennis court"
-          },
-          {
-           "n": "1980s satin and pop-colour tracksuits",
-           "mk": "Lacoste",
-           "y": "1986",
-           "d": "Street-culture versions"
-          }
-         ],
-         "dt": "crocodile logo · satin, polyester, cotton"
-        },
-        {
-         "n": "Shell suit",
-         "a": "shellsuit",
-         "d": "Late-1980s tracksuit in shiny, brightly coloured synthetic shell fabric; descendant of the tracksuit tied to hip-hop and breakdancing.",
-         "mk": "",
-         "y": "late 1980s",
-         "s": "https://en.wikipedia.org/wiki/Tracksuit",
-         "v": [],
-         "dt": "nylon or triacetate shell · colour-block prints · elasticated cuffs"
-        }
-       ]
-      },
-      {
        "n": "Co-ord set",
        "a": "co-ord · matching set · two-piece set · twinset",
        "d": "Matching top and bottom in one fabric or print sold as an outfit; tailored jacket sets are suits and sport sets are tracksuits.",
@@ -5839,7 +5842,8 @@
         "belted/wrap",
         "oversized",
         "topcoat length",
-        "full length"
+        "full length",
+        "detachable lining or hood (zip-in, button-in or stud-in)"
        ],
        "s": "https://en.wikipedia.org/wiki/Overcoat",
        "x": [
@@ -6530,7 +6534,10 @@
         "breathable laminate",
         "balmacaan cut",
         "hooded",
-        "long"
+        "long",
+        "rain poncho",
+        "army / military poncho",
+        "cycling poncho"
        ],
        "s": "https://en.wikipedia.org/wiki/Raincoat",
        "x": [
@@ -6732,16 +6739,6 @@
           }
          ],
          "dt": "merino/dralon or acrylic · pin-stripe worn vertically · 155×165 cm"
-        },
-        {
-         "n": "Bisht",
-         "a": "mishlah · abaa",
-         "d": "Arab men's ceremonial cloak of camel hair or wool worn over the thobe for weddings, prayers and national events.",
-         "mk": "",
-         "y": "traditional",
-         "s": "https://en.wikipedia.org/wiki/Bisht_(clothing)",
-         "v": [],
-         "dt": "black, brown, cream · camel hair, wool"
         },
         {
          "n": "Burnous",
@@ -7970,6 +7967,18 @@
          "Barbour"
         ]
        ]
+      },
+      {
+       "n": "Mackinaw",
+       "a": "Mackinaw jacket · mackinaw coat",
+       "d": "Short double-breasted coat of thick blanket-weight wool, often red-and-black plaid, from Mackinaw cloth.",
+       "t": [
+        "red-and-black plaid",
+        "Mackinaw cloth",
+        "double-breasted"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Mackinaw_coat",
+       "m": []
       }
      ]
     },
@@ -8098,13 +8107,13 @@
          "n": "Levi's Type I (506XX)",
          "a": "Type 1 · 506",
          "d": "Levi's first denim jacket: single chest pocket, pleated front, cinch back, short boxy fit.",
-         "mk": "Levi Strauss & Co.",
+         "mk": "Levi's",
          "y": "1905",
          "s": "https://www.heddels.com/2013/03/levis-denim-jacket-overview-type-i-ii-and-iii/",
          "v": [
           {
            "n": "1936 Type I",
-           "mk": "Levi Strauss & Co.",
+           "mk": "Levi's",
            "y": "1936",
            "d": "First version with the red tab."
           }
@@ -8115,7 +8124,7 @@
          "n": "Levi's Type II (507XX)",
          "a": "Type 2 · 507",
          "d": "Second Levi's jacket: two chest pockets, pleated front, side cinches.",
-         "mk": "Levi Strauss & Co.",
+         "mk": "Levi's",
          "y": "1953",
          "s": "https://www.heddels.com/2013/03/levis-denim-jacket-overview-type-i-ii-and-iii/",
          "v": [
@@ -8132,13 +8141,13 @@
          "n": "Levi's Type III (557 / 70505)",
          "a": "Type 3 · Trucker",
          "d": "Slim V-seamed jacket with pointed pocket flaps designed by Jack Lucier; lot 557 in 1962, renumbered 70505 in 1967.",
-         "mk": "Levi Strauss & Co.",
+         "mk": "Levi's",
          "y": "1962",
          "s": "https://www.levistrauss.com/2017/10/02/type-iii-trucker-jacket-celebrates-50-years/",
          "v": [
           {
            "n": "Type III Trucker Jacket",
-           "mk": "Levi Strauss & Co.",
+           "mk": "Levi's",
            "y": "1967",
            "d": "Current Levi's Trucker, lot 70505 line."
           },
@@ -8355,7 +8364,7 @@
       {
        "n": "Track jacket",
        "a": "track top · tracksuit top",
-       "d": "Zip-front jacket of tricot or smooth synthetic knit with stand collar and ribbed cuffs and hem; the top half of a tracksuit.",
+       "d": "Zip-front jacket of tricot or smooth synthetic knit with stand collar and ribbed cuffs and hem; the top half of a tracksuit. The adidas Beckenbauer and Firebird sets are listed under Tracksuit.",
        "t": [
         "tricot",
         "taped sleeves",
@@ -8364,46 +8373,6 @@
        ],
        "s": "https://en.wikipedia.org/wiki/Tracksuit",
        "x": [
-        {
-         "n": "adidas Beckenbauer",
-         "a": "Franz Beckenbauer tracktop",
-         "d": "adidas's first apparel piece: slim stand-collar tracksuit with three stripes on the sleeves, named after Franz Beckenbauer.",
-         "mk": "Adidas",
-         "y": "1967",
-         "s": "https://www.highsnobiety.com/p/adidas-tracksuit-timeline/",
-         "v": [
-          {
-           "n": "Beckenbauer tracktop reissue",
-           "mk": "Adidas",
-           "y": "2017",
-           "d": "Four-colour Originals reissue."
-          }
-         ],
-         "dt": "colour · stripe contrast · Trefoil"
-        },
-        {
-         "n": "adidas Firebird",
-         "a": "",
-         "d": "adidas Originals tracksuit top with full-length sleeve stripes and Trefoil, the brand's core retro track jacket.",
-         "mk": "Adidas",
-         "y": "",
-         "s": "https://www.adidas.com/us/firebird",
-         "v": [
-          {
-           "n": "Firebird Track Jacket (Adicolor Classics)",
-           "mk": "Adidas",
-           "y": "",
-           "d": "Current line in many colourways."
-          },
-          {
-           "n": "Firebird Denim Tracktop",
-           "mk": "Adidas",
-           "y": "",
-           "d": "Denim variant."
-          }
-         ],
-         "dt": "colour · fit (loose, classic) · fabric"
-        },
         {
          "n": "Sergio Tacchini Dallas",
          "a": "",
@@ -8498,6 +8467,194 @@
          "BJ",
          "Fila"
         ]
+       ]
+      },
+      {
+       "n": "Tracksuit",
+       "a": "trackies · sweatsuit · warm-up suit · shell suit · track top and pants",
+       "d": "Matching zip-front jacket and trousers made for warming up in sport, now worn as casual and athleisure dress.",
+       "t": [
+        "full tracksuit",
+        "track top / track jacket",
+        "track pants",
+        "velour",
+        "shell suit",
+        "popper / tearaway pants",
+        "football club tracksuit"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Tracksuit",
+       "x": [
+        {
+         "n": "adidas Franz Beckenbauer tracksuit",
+         "a": "Beckenbauer tracksuit · 3-stripes tracksuit",
+         "d": "Nylon-wool warm-up suit with central zip, heel-looped trousers and three stripes down arms and legs; adidas's first apparel.",
+         "mk": "adidas",
+         "y": "1967",
+         "s": "https://www.adidas-group.com/en/magazine/innovation/the-history-of-the-tracksuit-from-athletes-to-athleisure",
+         "v": [
+          {
+           "n": "Franz Beckenbauer original",
+           "mk": "adidas",
+           "y": "1967",
+           "d": "Made with textile firm Georg Schwahn; endorsed by Beckenbauer"
+          },
+          {
+           "n": "Heide Rosendahl women's tracksuit",
+           "mk": "adidas",
+           "y": "1972",
+           "d": "Women's model named for the Munich Olympics athlete"
+          },
+          {
+           "n": "Trefoil-logo track top",
+           "mk": "adidas",
+           "y": "1972–1973",
+           "d": "First tops carrying the new Trefoil logo"
+          }
+         ],
+         "dt": "three stripes · colourways · nylon-wool, polyester, cotton"
+        },
+        {
+         "n": "adidas Firebird tracksuit",
+         "a": "Firebird track top",
+         "d": "Three-stripe polyester track top and pants born in the 1980s and a 1990s Britpop and casual staple.",
+         "mk": "adidas",
+         "y": "1980s",
+         "s": "https://www.80scasualclassics.co.uk/blogs/blog/adidas-firebird-tracksuit",
+         "v": [
+          {
+           "n": "Adicolor Firebird track jacket",
+           "mk": "adidas",
+           "y": "",
+           "d": "Current adidas Originals reissue line"
+          },
+          {
+           "n": "Firebird Track Jacket (Adicolor Classics)",
+           "mk": "adidas",
+           "y": "",
+           "d": "Current line in many colourways."
+          },
+          {
+           "n": "Firebird Denim Tracktop",
+           "mk": "adidas",
+           "y": "",
+           "d": "Denim variant."
+          }
+         ],
+         "dt": "polyester tricot · colourways · Trefoil chest logo"
+        },
+        {
+         "n": "Juicy Couture velour tracksuit",
+         "a": "Juicy tracksuit",
+         "d": "Fitted velour zip hoodie and low-rise flared trousers with 'J' zip pull and rear logo; the 2000s celebrity tracksuit.",
+         "mk": "Juicy Couture",
+         "y": "2001",
+         "s": "https://en.wikipedia.org/wiki/Juicy_Couture",
+         "v": [
+          {
+           "n": "Original velour tracksuit",
+           "mk": "Juicy Couture",
+           "y": "2001",
+           "d": "Launched 2001 with signature J zipper pull"
+          },
+          {
+           "n": "Revival velour tracksuits",
+           "mk": "Juicy Couture",
+           "y": "2010s–",
+           "d": "Re-released cuts and collaborations in the original velour"
+          }
+         ],
+         "dt": "velour · pastel and jewel colours · rhinestone logo"
+        },
+        {
+         "n": "Sergio Tacchini tracksuit",
+         "a": "Tacchini trackie",
+         "d": "Colour-blocked Italian tennis tracksuit of the 1980s, adopted by the football-casual scene.",
+         "mk": "Sergio Tacchini",
+         "y": "1980s",
+         "s": "https://en.wikipedia.org/wiki/Sergio_Tacchini",
+         "v": [
+          {
+           "n": "Dallas tracksuit",
+           "mk": "Sergio Tacchini",
+           "y": "mid-1980s",
+           "d": "The brand's best-known 1980s model"
+          }
+         ],
+         "dt": "colour-block panels · polyester, cotton · tennis heritage"
+        },
+        {
+         "n": "Fila tennis tracksuit",
+         "a": "Fila trackie",
+         "d": "Italian tennis-court tracksuit from Fila's 1970s sportswear line endorsed by Björn Borg.",
+         "mk": "Fila",
+         "y": "1973–",
+         "s": "https://en.wikipedia.org/wiki/Fila",
+         "v": [
+          {
+           "n": "Borg-era tennis tracksuit",
+           "mk": "Fila",
+           "y": "1970s",
+           "d": "Line launched with Fila's 1973 move into sportswear"
+          }
+         ],
+         "dt": "navy-red-white · cotton, polyester · F-box logo"
+        },
+        {
+         "n": "Kappa 222 Banda tracksuit",
+         "a": "Banda trackie",
+         "d": "Slim-fit tracksuit with the repeated Omini logo side stripe; 1990s Britpop and 2010s revival staple.",
+         "mk": "Kappa",
+         "y": "1990s",
+         "s": "https://www.kappa.com/en-us/pages/the-iconic-banda",
+         "v": [
+          {
+           "n": "222 Banda Anniston slim",
+           "mk": "Kappa",
+           "y": "",
+           "d": "Current slim-fit fleece track jacket"
+          },
+          {
+           "n": "Popper track pants",
+           "mk": "Kappa",
+           "y": "1990s",
+           "d": "Pop-closure leg trousers associated with Mel C"
+          }
+         ],
+         "dt": "Omini side band · slim fit · polyester, fleece"
+        },
+        {
+         "n": "Lacoste tracksuit",
+         "a": "survêtement Lacoste",
+         "d": "Minimalist tennis tracksuit introduced in 1975, later in pop colours and satin fabrics for the 1980s hip-hop scene.",
+         "mk": "Lacoste",
+         "y": "1975",
+         "s": "https://www.lacoste.com/gb/news/heritage/tracksuit-story.html",
+         "v": [
+          {
+           "n": "1975 original",
+           "mk": "Lacoste",
+           "y": "1975",
+           "d": "Worn exclusively on the tennis court"
+          },
+          {
+           "n": "1980s satin and pop-colour tracksuits",
+           "mk": "Lacoste",
+           "y": "1986",
+           "d": "Street-culture versions"
+          }
+         ],
+         "dt": "crocodile logo · satin, polyester, cotton"
+        },
+        {
+         "n": "Shell suit",
+         "a": "shellsuit",
+         "d": "Late-1980s tracksuit in shiny, brightly coloured synthetic shell fabric; descendant of the tracksuit tied to hip-hop and breakdancing.",
+         "mk": "",
+         "y": "late 1980s",
+         "s": "https://en.wikipedia.org/wiki/Tracksuit",
+         "v": [],
+         "dt": "nylon or triacetate shell · colour-block prints · elasticated cuffs"
+        }
        ]
       },
       {
@@ -10048,6 +10205,20 @@
          "dt": "black · silk-faced peak lapel · braided trousers"
         }
        ]
+      },
+      {
+       "n": "Smoking jacket",
+       "a": "lounge jacket · house jacket",
+       "d": "Informal men's lounge jacket, usually velvet or silk, with a shawl collar and toggle, frog or tie-belt fastening; forerunner of the dinner jacket.",
+       "t": [
+        "velvet",
+        "silk",
+        "shawl collar",
+        "frog fastening",
+        "tie belt"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Smoking_jacket",
+       "m": []
       }
      ]
     },
@@ -10325,15 +10496,22 @@
        ]
       },
       {
-       "n": "Cummerbund",
-       "a": "kamarband",
-       "d": "Broad pleated waist sash, usually silk, worn with a single-breasted dinner jacket in place of a waistcoat; adopted from India by British officers.",
+       "n": "Formal accessories",
+       "a": "cummerbund · collar stay · kamarband",
+       "d": "Small items of formal dress: the pleated waist sash worn with a dinner jacket and the strip that keeps shirt collar points flat.",
        "t": [
-        "pleated silk (pleats upward)",
-        "black barathea or satin",
-        "coloured or patterned"
+        "cummerbund: pleated silk (pleats upward)",
+        "cummerbund: black barathea or satin",
+        "cummerbund: coloured or patterned",
+        "collar stay: plastic",
+        "collar stay: brass",
+        "collar stay: stainless steel",
+        "collar stay: sterling silver",
+        "collar stay: mother-of-pearl / horn",
+        "collar stay: magnetic"
        ],
-       "s": "https://en.wikipedia.org/wiki/Cummerbund"
+       "s": "https://en.wikipedia.org/wiki/Cummerbund",
+       "m": []
       },
       {
        "n": "Braces",
@@ -10377,20 +10555,6 @@
          "Trafalgar"
         ]
        ]
-      },
-      {
-       "n": "Collar stay",
-       "a": "collar stiffener · collar bone · collar tab",
-       "d": "Smooth rigid strip slipped into pockets under a shirt collar to keep the points flat.",
-       "t": [
-        "plastic",
-        "brass",
-        "stainless steel",
-        "sterling silver",
-        "mother-of-pearl / horn",
-        "magnetic"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Collar_stay"
       }
      ]
     }
@@ -10884,9 +11048,8 @@
       {
        "n": "Shapewear",
        "a": "foundation garment · control underwear · girdle",
-       "d": "Elastic, unboned garment worn under clothing to smooth or shape the figure.",
+       "d": "Elastic, unboned garment worn under clothing to smooth or shape the figure. The body shaper is the Tops bodysuit with shaping.",
        "t": [
-        "bodysuit / body shaper",
         "high-waist control brief",
         "control panties",
         "thigh shaper / shaping shorts",
@@ -10939,8 +11102,8 @@
       },
       {
        "n": "Corset",
-       "a": "stays · waspie · waist cincher",
-       "d": "Boned, laced garment that shapes the torso, worn under or over clothing.",
+       "a": "stays · waspie · waist cincher · corset top · bustier top",
+       "d": "Boned, laced garment that shapes the torso, worn under clothing or as a visible corset top or bustier.",
        "t": [
         "overbust",
         "underbust",
@@ -10951,7 +11114,10 @@
         "waist trainer (elastic, not a true corset)",
         "steel-boned",
         "plastic-boned (fashion)",
-        "satin, cotton, mesh, leather, PVC, latex"
+        "satin, cotton, mesh, leather, PVC, latex",
+        "corset top / bustier (outerwear)",
+        "strapless",
+        "cropped"
        ],
        "s": "https://www.orchardcorset.com/collections/underbust-corsets",
        "x": [
@@ -11019,6 +11185,26 @@
         [
          "Fashonese",
          "Twilfit"
+        ],
+        [
+         "Venus Corset Top",
+         "Atsuko Kudo"
+        ],
+        [
+         "Lea Pinstripe Corset",
+         "Disturbia"
+        ],
+        [
+         "Cybele Embroidered Crop Corset Top",
+         "Disturbia"
+        ],
+        [
+         "Cage Bustier",
+         "La Perla"
+        ],
+        [
+         "Sharp Corset Top",
+         "NA-KD"
         ]
        ]
       },
@@ -11354,7 +11540,7 @@
       {
        "n": "Swimsuit",
        "a": "one-piece · bathing suit · swimming costume · cossie · maillot",
-       "d": "One-piece garment for swimming and bathing, from beach maillots to competition racing suits.",
+       "d": "One-piece garment for swimming and bathing, from beach maillots to competition racing suits. Competition racing suits are in Sports (E2).",
        "t": [
         "classic maillot",
         "halterneck",
@@ -11365,82 +11551,11 @@
         "square neck",
         "scoop neck",
         "racerback / fastback / flyback (athletic)",
-        "kneeskin & full-body racing (competition)",
         "swim dress",
         "burkini"
        ],
        "s": "https://en.wikipedia.org/wiki/One-piece_swimsuit",
        "x": [
-        {
-         "n": "LZR Racer",
-         "a": "Laser Racer · LZR",
-         "d": "Speedo's 2008 woven elastane-nylon/polyurethane compression racing suit; 23 of 25 Beijing world records fell in it before FINA's 2010 textile-only rule.",
-         "mk": "Speedo",
-         "y": "2008",
-         "s": "https://en.wikipedia.org/wiki/LZR_Racer",
-         "v": [
-          {
-           "n": "LZR Pro",
-           "mk": "Speedo",
-           "y": "2008",
-           "d": "Launched 13 Feb 2008; vertically stitched seams."
-          },
-          {
-           "n": "LZR Elite",
-           "mk": "Speedo",
-           "y": "2008",
-           "d": "Higher-priced 2008 line with ultrasonically welded seams and core stabiliser."
-          },
-          {
-           "n": "LZR Elite 2",
-           "mk": "Speedo",
-           "y": "2014",
-           "d": "Replaced the Elite in early 2014."
-          },
-          {
-           "n": "LZR X",
-           "mk": "Speedo",
-           "y": "2015",
-           "d": "Launched early 2015."
-          },
-          {
-           "n": "Fastskin LZR Racer X",
-           "mk": "Speedo",
-           "y": "2016",
-           "d": "Rio 2016 suit returning to woven compression fabric."
-          }
-         ],
-         "dt": "open-back vs closed-back · kneeskin, jammer · full-body (pre-2010 only)"
-        },
-        {
-         "n": "Fastskin",
-         "a": "Fastskin FSII · Fastskin3",
-         "d": "Speedo's shark-skin-inspired full-body racing suit family launched for Sydney 2000, with ridged drag-reducing fabric.",
-         "mk": "Speedo",
-         "y": "2000",
-         "s": "https://swimswam.com/20-years-of-speedo-fastskin/",
-         "v": [
-          {
-           "n": "Fastskin",
-           "mk": "Speedo",
-           "y": "2000",
-           "d": "First full-body suit with built-in ridges, Sydney Olympics."
-          },
-          {
-           "n": "Fastskin FSII",
-           "mk": "Speedo",
-           "y": "2004",
-           "d": "Athens suit designed to cut drag while keeping range of movement."
-          },
-          {
-           "n": "Fastskin3",
-           "mk": "Speedo",
-           "y": "2012",
-           "d": "London knitted suit sold as a racing system with cap and goggles."
-          }
-         ],
-         "dt": "kneeskin, jammer, full-body · cap and goggle system"
-        },
         {
          "n": "Super-body J01",
          "a": "Jaked J01",
@@ -11519,18 +11634,6 @@
         ]
        ],
        "r": [
-        [
-         "LZR Racer",
-         "Speedo"
-        ],
-        [
-         "Fastskin",
-         "Speedo"
-        ],
-        [
-         "Powerskin",
-         "Arena"
-        ],
         [
          "Peau Douce",
          "Eres"
@@ -12627,7 +12730,8 @@
         "real fur (mink, rabbit, muskrat, sable, fox)",
         "sheepskin / karakul",
         "faux fur ('fish fur')",
-        "trapper hat"
+        "trapper hat",
+        "coonskin cap"
        ],
        "s": "https://en.wikipedia.org/wiki/Ushanka",
        "x": [
@@ -12732,77 +12836,754 @@
        ]
       },
       {
-       "n": "Traditional, ceremonial & uniform headwear",
-       "a": "religious headwear · national hats · military headdress",
-       "d": "Hats defined by region, faith, rank or ceremony rather than fashion; see the Traditional dress shelves and religious objects (F4).",
+       "n": "Skullcap",
+       "a": "kippah · yarmulke · taqiyah · zucchetto · kufi · kopiah",
+       "d": "Small brimless cap fitting the crown, worn for faith or custom; the faith is a tag, the form is the kind.",
        "t": [
-        "Faith: kippah / yarmulke (Judaism)",
-        "Faith: kolpik (Hasidic)",
-        "Faith: taqiyah (Islam)",
-        "Faith: songkok / kopiah (Islam, Maritime SE Asia)",
-        "Faith: zucchetto (Catholic clergy)",
-        "Faith: mitre (bishops)",
-        "Faith: biretta",
-        "Faith: cappello romano",
-        "Faith: capirote (Holy Week)",
-        "Faith: shovel hat (Anglican)",
-        "Faith/region: turban (draped)",
-        "Uniform: bearskin",
-        "Uniform: busby",
-        "Uniform: shako",
-        "Uniform: kepi",
-        "Uniform: bicorne",
-        "Uniform: tricorne",
-        "Uniform: Hardee hat",
-        "Uniform: campaign hat",
-        "Uniform: garrison / forage cap",
-        "Uniform: Glengarry",
-        "Uniform: sailor cap & sailor hat",
-        "Uniform: budenovka",
-        "Academic & ceremonial: mortarboard",
-        "Academic & ceremonial: Tudor bonnet",
-        "Scottish: Balmoral bonnet",
-        "Scottish: Tam o' Shanter",
-        "East Asia: gat, jeongjagwan, ayam (Korea)",
-        "East Asia: kasa (Japan)",
-        "East Asia: wushamao, guapi mao, damao, weimao (China)",
-        "Asia: conical hat (nón lá, salakot)",
-        "Southeast Asia: salakot, buntal hat (Philippines)",
-        "Southeast Asia: blangkon (Java)",
-        "Southeast Asia: tengkolok (Malay)",
-        "Southeast Asia: gaung paung (Myanmar)",
-        "South Asia: Gandhi cap",
-        "South Asia: Dhaka topi / Bhadgaunle topi (Nepal)",
-        "South Asia: pakul (Afghanistan, Pakistan)",
-        "Middle East & Central Asia: fez",
-        "Middle East & Central Asia: tubeteika",
-        "Middle East & Central Asia: kalpak",
-        "Middle East & Central Asia: telpek",
-        "Middle East & Central Asia: kolah namadi",
-        "Africa: kufi",
-        "Africa: kofia (East Africa)",
-        "Africa: mokorotlo (Lesotho)",
-        "Europe: barretina (Catalonia)",
-        "Europe: caubeen (Ireland)",
-        "Europe: šajkača (Serbia)",
-        "Europe: qeleshe (Albania)",
-        "Europe: Montenegrin cap",
-        "Europe: Lika cap",
-        "Europe: Tyrolean hat",
-        "Europe: Sami hat / gákti cap",
-        "Europe: montera (bullfighting)",
-        "Europe: sombrero cordobés",
-        "Americas: sombrero (charro)",
-        "Americas: sombrero vueltiao (Colombia)",
-        "Americas: chupalla (Chile)",
-        "Americas: coonskin cap",
-        "Country & weather: deerstalker",
-        "Country & weather: sou'wester",
-        "Historical: cavalier hat, capotain, pilgrim's hat, wideawake, bycocket, hennin",
-        "Historical women's: mobcap, poke bonnet, coal scuttle bonnet, widow's cap",
-        "Novelty & costume: party hat, Santa hat, wizard/witch hat, dunce cap, umbrella hat"
+        "kippah / yarmulke (Judaism)",
+        "taqiyah (Islam)",
+        "songkok / kopiah / peci (Maritime South-East Asia)",
+        "zucchetto (Catholic clergy)",
+        "kufi",
+        "kofia (East Africa)",
+        "crocheted",
+        "velvet",
+        "suede, leather or satin",
+        "cotton or fleece prayer cap"
        ],
-       "s": "https://en.wikipedia.org/wiki/List_of_hat_styles"
+       "tg": [
+        "Jewish",
+        "Islamic",
+        "Christian"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Kippah",
+       "x": [
+        {
+         "n": "Kippah",
+         "a": "yarmulke · koppel",
+         "d": "Brimless cloth skullcap worn by Jewish men and some women; the Hebrew word means 'dome'.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kippah",
+         "v": [
+          {
+           "n": "Crocheted (kippah serugah)",
+           "mk": "",
+           "y": "",
+           "d": "Common among Religious Zionists and Modern Orthodox Jews"
+          },
+          {
+           "n": "Black velvet",
+           "mk": "",
+           "y": "",
+           "d": "Worn by many Haredi, Hasidic and Yeshivish Jews"
+          },
+          {
+           "n": "Suede, leather or satin",
+           "mk": "",
+           "y": "",
+           "d": "Seen in Conservative and Reform communities"
+          },
+          {
+           "n": "Bukharian and Yemenite",
+           "mk": "",
+           "y": "",
+           "d": "Yemenite kippot are typically stiff black velvet with embroidered borders"
+          }
+         ],
+         "dt": "crocheted, velvet, suede, satin · colour and size by community"
+        },
+        {
+         "n": "Taqiyah",
+         "a": "takke · araqchin · topi · kopiah",
+         "d": "Short rounded skullcap worn by Muslim men, signalling faith and sometimes regional identity.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Taqiyah_(cap)",
+         "v": [
+          {
+           "n": "Takke",
+           "mk": "",
+           "y": "",
+           "d": "Turkish cap in wool or cotton fleece"
+          },
+          {
+           "n": "Araqchin",
+           "mk": "",
+           "y": "",
+           "d": "Persian name"
+          },
+          {
+           "n": "Peci / songkok",
+           "mk": "",
+           "y": "",
+           "d": "Indonesian and Malaysian forms, often machine-knitted"
+          },
+          {
+           "n": "Tahýa",
+           "mk": "",
+           "y": "",
+           "d": "Turkmen cap in velvet, silk, satin or chintz"
+          }
+         ],
+         "dt": "cotton, wool, velvet, knitted · regional name"
+        },
+        {
+         "n": "Zucchetto",
+         "a": "",
+         "d": "Small hemispherical skullcap of Catholic clergy whose colour shows rank.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Zucchetto",
+         "v": [
+          {
+           "n": "White",
+           "mk": "",
+           "y": "",
+           "d": "Pope"
+          },
+          {
+           "n": "Scarlet",
+           "mk": "",
+           "y": "",
+           "d": "Cardinals"
+          },
+          {
+           "n": "Amaranth",
+           "mk": "",
+           "y": "",
+           "d": "Archbishops, bishops and territorial abbots and prelates"
+          },
+          {
+           "n": "Black",
+           "mk": "",
+           "y": "",
+           "d": "Priests, deacons and non-territorial abbots, though most do not wear one"
+          }
+         ],
+         "dt": "silk · colour by rank"
+        },
+        {
+         "n": "Kufi",
+         "a": "ade · fila · kofia",
+         "d": "Brimless rounded cap worn across Africa, South Asia and the Middle East and in the African diaspora.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kufi",
+         "v": [],
+         "dt": "kente cloth, mudcloth, knitted or crocheted yarn"
+        }
+       ],
+       "m": []
+      },
+      {
+       "n": "Fez & brimless cap",
+       "a": "fez · tarboosh · tubeteika · doppa",
+       "d": "Peakless, brimless cap in felt or embroidered cloth, from the Ottoman, North African and Central Asian worlds.",
+       "t": [
+        "Gandhi cap",
+        "Dhaka topi / Bhadgaunle topi (Nepal)",
+        "pakul (Afghanistan, Pakistan)",
+        "telpek",
+        "kolah namadi"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Fez_(hat)",
+       "x": [
+        {
+         "n": "Fez",
+         "a": "tarboosh",
+         "d": "Short cylindrical peakless felt hat, usually red with a black tassel; named for the Moroccan city of Fez.",
+         "mk": "",
+         "y": "1827",
+         "s": "https://en.wikipedia.org/wiki/Fez_(hat)",
+         "v": [
+          {
+           "n": "Ottoman army fez",
+           "mk": "",
+           "y": "1827",
+           "d": "Made official headdress of Mahmud II's new army in 1827 and of civil and religious officials in 1829"
+          },
+          {
+           "n": "Tunisian fez",
+           "mk": "",
+           "y": "",
+           "d": "Tunisia produced the earliest high-quality caps"
+          },
+          {
+           "n": "Moroccan fez",
+           "mk": "",
+           "y": "",
+           "d": "Felt dyed crimson with a berry in Fez"
+          }
+         ],
+         "dt": "felt · red or other dyes · tassel"
+        },
+        {
+         "n": "Tubeteika",
+         "a": "doppa · tyubeteyka",
+         "d": "Russian term for many Turkic caps of Central Asia; the Uzbek and Uyghur doppa has a square base.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Tubeteika",
+         "v": [
+          {
+           "n": "Chust doppa",
+           "mk": "",
+           "y": "",
+           "d": "Uzbek cap decorated with white embroidery"
+          },
+          {
+           "n": "Northern Tajik cap",
+           "mk": "",
+           "y": "",
+           "d": "Square, black and white (Sughd)"
+          },
+          {
+           "n": "Southern Tajik cap",
+           "mk": "",
+           "y": "",
+           "d": "Round and brightly coloured (Khatlon)"
+          },
+          {
+           "n": "Pamir cap",
+           "mk": "",
+           "y": "",
+           "d": "Round, red or green"
+          }
+         ],
+         "dt": "embroidered cloth · square or round · colour by region"
+        }
+       ],
+       "m": []
+      },
+      {
+       "n": "Turban & head-wrap",
+       "a": "turban · pagri · dastar · imama",
+       "d": "Headwear made by winding cloth around the head or a cap.",
+       "t": [
+        "Sikh dastar",
+        "Rajasthani safa",
+        "pheta and Mysore peta (India)",
+        "Albanian shall",
+        "Cretan sariki",
+        "Kurdish jamadani",
+        "blangkon (Java)",
+        "tengkolok (Malay)",
+        "gaung paung (Myanmar)"
+       ],
+       "tg": [
+        "Sikh",
+        "Islamic"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Turban",
+       "x": [
+        {
+         "n": "Dastar",
+         "a": "dastaar",
+         "d": "Sikh turban; dastar is also the Persian word for turban.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Turban",
+         "v": [],
+         "dt": "cotton or voile · length · colour"
+        },
+        {
+         "n": "Pagri",
+         "a": "pagadi · safa · pheta",
+         "d": "Hand-tied South Asian turban; the Rajasthani form is the safa.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Turban",
+         "v": [],
+         "dt": "cloth length · tying style · regional colour"
+        },
+        {
+         "n": "Imama",
+         "a": "imamah · amama",
+         "d": "Islamic turban.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Turban",
+         "v": [],
+         "dt": "cloth length · colour"
+        },
+        {
+         "n": "Kavuk",
+         "a": "",
+         "d": "Ottoman imperial turban.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Turban",
+         "v": [],
+         "dt": "padded cap wound with cloth"
+        },
+        {
+         "n": "Tagelmust",
+         "a": "cheche",
+         "d": "Tuareg head-wrap.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Turban",
+         "v": [],
+         "dt": "cotton, often indigo · wrapped length"
+        }
+       ],
+       "m": []
+      },
+      {
+       "n": "Conical & woven sun hat",
+       "a": "nón lá · salakot · kasa · sombrero vueltiao",
+       "d": "Hat woven or sewn from palm, bamboo, sedge or straw, conical or domed, worn against sun and rain.",
+       "t": [
+        "buntal hat (Philippines)",
+        "chupalla (Chile)",
+        "mokorotlo (Lesotho)",
+        "jingasa (see Uniform headwear)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/N%C3%B3n_l%C3%A1",
+       "x": [
+        {
+         "n": "Nón lá",
+         "a": "nón tơi",
+         "d": "Traditional Vietnamese conical hat of leaves sewn onto a bamboo frame and varnished.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/N%C3%B3n_l%C3%A1",
+         "v": [
+          {
+           "n": "Nón bài thơ",
+           "mk": "",
+           "y": "",
+           "d": "Thin white Huế cone decorated with pictures or verses"
+          }
+         ],
+         "dt": "palm or bamboo leaves · varnish · cone shape"
+        },
+        {
+         "n": "Salakot",
+         "a": "",
+         "d": "Philippine dome- or cone-shaped hat held by an inner headband and chinstrap.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Salakot",
+         "v": [
+          {
+           "n": "Talugong",
+           "mk": "",
+           "y": "",
+           "d": "Ivatan"
+          },
+          {
+           "n": "Kalugung",
+           "mk": "",
+           "y": "",
+           "d": "Ilocano, Kalinga"
+          },
+          {
+           "n": "Sarók",
+           "mk": "",
+           "y": "",
+           "d": "Visayan, Bicolano"
+          },
+          {
+           "n": "S'laong",
+           "mk": "",
+           "y": "",
+           "d": "T'boli"
+          }
+         ],
+         "dt": "bamboo, rattan, buri straw, nipa or pandan leaves · horn or tortoiseshell trim"
+        },
+        {
+         "n": "Kasa",
+         "a": "",
+         "d": "Traditional Japanese hat; the sugegasa is a conical sedge hat and the amigasa a wickerwork one.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kasa_(hat)",
+         "v": [
+          {
+           "n": "Sugegasa",
+           "mk": "",
+           "y": "",
+           "d": "Conical, pointed, sedge"
+          },
+          {
+           "n": "Amigasa",
+           "mk": "",
+           "y": "",
+           "d": "Wickerwork; straw version worn in folk dances"
+          }
+         ],
+         "dt": "sedge or straw · cone or dome"
+        },
+        {
+         "n": "Sombrero vueltiao",
+         "a": "",
+         "d": "Colombian hat of the Zenú people made of caña flecha palm fibre, named a National Cultural Symbol in 2004.",
+         "mk": "",
+         "y": "2004",
+         "s": "https://en.wikipedia.org/wiki/Sombrero_vueltiao",
+         "v": [],
+         "dt": "caña flecha fibre · black and white pattern · plait count"
+        }
+       ],
+       "m": []
+      },
+      {
+       "n": "Folk felt hat",
+       "a": "Tyrolean hat · kalpak · qeleshe",
+       "d": "Felt, fleece or knitted hat or cap tied to a region's folk dress.",
+       "t": [
+        "Balmoral bonnet",
+        "Tam o' Shanter",
+        "barretina (Catalonia)",
+        "caubeen (Ireland)",
+        "šajkača (Serbia)",
+        "Montenegrin cap",
+        "Lika cap",
+        "Sami hat",
+        "montera (bullfighting)",
+        "sombrero cordobés",
+        "sombrero (charro)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Tyrolean_hat",
+       "x": [
+        {
+         "n": "Tyrolean hat",
+         "a": "",
+         "d": "Alpine hat of green felt with a pointed crown, corded hatband and a side spray of flowers, feathers or a brush.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Tyrolean_hat",
+         "v": [
+          {
+           "n": "Gamsbart trim",
+           "mk": "",
+           "y": "",
+           "d": "The traditional brush, made from chamois hair"
+          }
+         ],
+         "dt": "green felt · brim width · hatband · side trim"
+        },
+        {
+         "n": "Kalpak",
+         "a": "qalpaq · calpack",
+         "d": "Turkic tall-crowned cap of felt or sheepskin worn across Central Asia and the Caucasus.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kalpak",
+         "v": [],
+         "dt": "felt or sheepskin · crown height · season weight"
+        },
+        {
+         "n": "Qeleshe",
+         "a": "",
+         "d": "White brimless skullcap of wool felt worn by Albanians.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Qeleshe",
+         "v": [
+          {
+           "n": "Northern qeleshe",
+           "mk": "",
+           "y": "",
+           "d": "Hemispherical"
+          },
+          {
+           "n": "Kukës qeleshe",
+           "mk": "",
+           "y": "",
+           "d": "Truncated"
+          },
+          {
+           "n": "Southern qeleshe",
+           "mk": "",
+           "y": "",
+           "d": "Taller"
+          }
+         ],
+         "dt": "pressed wool felt · white · height by region"
+        }
+       ],
+       "m": []
+      },
+      {
+       "n": "Academic cap",
+       "a": "mortarboard · Oxford cap",
+       "d": "Cap worn with academic dress.",
+       "t": [
+        "Tudor bonnet"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Square_academic_cap",
+       "x": [
+        {
+         "n": "Mortarboard",
+         "a": "square academic cap · Oxford cap",
+         "d": "Flat square board fixed on a skullcap with a central tassel; probably Italian, from no later than 1520.",
+         "mk": "",
+         "y": "by 1520",
+         "s": "https://en.wikipedia.org/wiki/Square_academic_cap",
+         "v": [
+          {
+           "n": "Tasselled mortarboard",
+           "mk": "",
+           "y": "",
+           "d": "Tassels appeared in the 18th century"
+          }
+         ],
+         "dt": "cloth-covered board · tassel colour"
+        }
+       ],
+       "m": []
+      },
+      {
+       "n": "Clerical hat",
+       "a": "mitre · biretta · cappello romano",
+       "d": "Hat of bishops and clergy whose shape or colour shows office.",
+       "t": [
+        "mitre (bishops)",
+        "cappello romano",
+        "capirote (Holy Week)",
+        "shovel hat (Anglican)",
+        "kolpik (Hasidic)"
+       ],
+       "tg": [
+        "Christian",
+        "Jewish"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Biretta",
+       "x": [
+        {
+         "n": "Biretta",
+         "a": "",
+         "d": "Square cap with three or four peaks, sometimes with a pom; worn by Catholic and some Anglican and Lutheran clergy.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Biretta",
+         "v": [
+          {
+           "n": "Scarlet",
+           "mk": "",
+           "y": "",
+           "d": "Cardinals"
+          },
+          {
+           "n": "Amaranth with purple pom",
+           "mk": "",
+           "y": "",
+           "d": "Bishops"
+          },
+          {
+           "n": "Black",
+           "mk": "",
+           "y": "",
+           "d": "Priests and deacons"
+          },
+          {
+           "n": "Four-peaked",
+           "mk": "",
+           "y": "",
+           "d": "Marks pontifical doctorates"
+          }
+         ],
+         "dt": "three or four peaks · pom · colour by rank"
+        }
+       ],
+       "m": []
+      },
+      {
+       "n": "Court & official hat",
+       "a": "gat · wushamao",
+       "d": "Hat tied to rank at an East Asian court or in officialdom.",
+       "t": [
+        "jeongjagwan (Korea)",
+        "ayam (Korea)",
+        "wushamao (China)",
+        "guapi mao (China)",
+        "damao (China)",
+        "weimao (China)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Gat_(hat)",
+       "x": [
+        {
+         "n": "Gat",
+         "a": "",
+         "d": "Korean men's hat worn with hanbok in the Joseon period, of bamboo or horsehair on a bamboo frame, partly transparent.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Gat_(hat)",
+         "v": [],
+         "dt": "horsehair or bamboo · brim width · status of wearer"
+        }
+       ],
+       "m": []
+      },
+      {
+       "n": "Uniform headwear",
+       "a": "military hat · bearskin · shako · kepi",
+       "d": "Caps and hats set by regiment, service or rank; historical pieces are also collected as militaria (E4).",
+       "t": [
+        "busby",
+        "bicorne",
+        "tricorne",
+        "Hardee hat",
+        "campaign hat",
+        "garrison / forage cap",
+        "Glengarry",
+        "sailor cap",
+        "budenovka",
+        "jingasa (Japan)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Shako",
+       "x": [
+        {
+         "n": "Bearskin",
+         "a": "",
+         "d": "Tall fur cap descended from 17th–18th-century grenadier mitre caps; worn in ceremonial dress by the British Foot Guards.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Bearskin",
+         "v": [
+          {
+           "n": "Grenadier Guards",
+           "mk": "",
+           "y": "1815",
+           "d": "Adopted after Waterloo in 1815"
+          },
+          {
+           "n": "Coldstream and Scots Guards",
+           "mk": "",
+           "y": "1831",
+           "d": "Adopted by 1831"
+          }
+         ],
+         "dt": "fur · height · plume"
+        },
+        {
+         "n": "Shako",
+         "a": "",
+         "d": "Tall cylindrical peaked military cap, adopted by European armies from about 1800.",
+         "mk": "",
+         "y": "c.1800",
+         "s": "https://en.wikipedia.org/wiki/Shako",
+         "v": [
+          {
+           "n": "French stovepipe",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "British Albert",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "British bell-top",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Russian kiwa",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Swedish m/1815",
+           "mk": "",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "felt or leather · plate · plume"
+        },
+        {
+         "n": "Kepi",
+         "a": "",
+         "d": "Flat-topped visored cap that began in the French Army in Algeria in the 1830s as a lighter alternative to the shako.",
+         "mk": "",
+         "y": "1830s",
+         "s": "https://en.wikipedia.org/wiki/Kepi",
+         "v": [
+          {
+           "n": "Foreign Legion white kepi",
+           "mk": "",
+           "y": "",
+           "d": "Especially notable"
+          }
+         ],
+         "dt": "cloth · crown height · cover colour"
+        }
+       ],
+       "m": []
+      },
+      {
+       "n": "Historical hat & bonnet",
+       "a": "mobcap · poke bonnet · capotain · hennin",
+       "d": "Hat or bonnet from a past era, now worn for costume, re-enactment or collected as an antique.",
+       "t": [
+        "cavalier hat",
+        "capotain",
+        "pilgrim's hat",
+        "wideawake",
+        "bycocket",
+        "hennin",
+        "mobcap",
+        "poke bonnet",
+        "coal scuttle bonnet",
+        "widow's cap"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Mob_cap",
+       "x": [
+        {
+         "n": "Mobcap",
+         "a": "",
+         "d": "Circular gathered linen cap with a ruffled brim, worn by married women in the 18th and early 19th centuries and later by servants and nurses.",
+         "mk": "",
+         "y": "18th century",
+         "s": "https://en.wikipedia.org/wiki/Mob_cap",
+         "v": [],
+         "dt": "linen · ruffle · tie"
+        }
+       ],
+       "m": []
+      },
+      {
+       "n": "Country & weather hat",
+       "a": "deerstalker · sou'wester",
+       "d": "Hat made for rural wear or wet weather.",
+       "t": [
+        "deerstalker",
+        "sou'wester"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Deerstalker",
+       "x": [
+        {
+         "n": "Deerstalker",
+         "a": "",
+         "d": "Cloth cap of English country wear with front and rear peaks and earflaps tied up or under the chin, usually tweed.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Deerstalker",
+         "v": [],
+         "dt": "tweed · earflaps · peaks"
+        },
+        {
+         "n": "Sou'wester",
+         "a": "",
+         "d": "Collapsible oilskin hat with a wide slanting brim, longer at the back to protect the neck.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sou%27wester",
+         "v": [],
+         "dt": "oilskin · brim · chin tie"
+        }
+       ],
+       "m": []
       }
      ]
     },
@@ -13997,11 +14778,11 @@
        "m": [
         [
          "Seine Belt",
-         "Levi Strauss & Co."
+         "Levi's"
         ],
         [
          "Heritage Belt",
-         "Levi Strauss & Co."
+         "Levi's"
         ],
         [
          "Plain Belt",
@@ -14102,32 +14883,6 @@
          ],
          "dt": "strap width 0.5–1.5 in · stainless, nickel or brass finish · single or two prong"
         }
-       ]
-      },
-      {
-       "n": "Detachable lining or hood",
-       "a": "zip-in liner · stud-in hood · button-in liner",
-       "d": "Hood or warm lining made to stud, zip or button into one specific coat and be removed again.",
-       "t": [
-        "stud-in waxed hood",
-        "zip-in quilted liner",
-        "button-in wool liner",
-        "detachable fur or faux-fur trim"
-       ],
-       "s": "https://www.barbour.com/us/womens/womens-accessories/hoods-and-coat-liners",
-       "m": [
-        [
-         "Classic Sylkoil Hood",
-         "Barbour"
-        ],
-        [
-         "Waxed Cotton Hood",
-         "Barbour"
-        ],
-        [
-         "Dunoon button-in wool liner",
-         "Mackintosh"
-        ]
        ]
       }
      ]
@@ -18038,6 +18793,44 @@
        ]
       },
       {
+       "n": "Sporran",
+       "a": "Highland pouch · sporran",
+       "d": "Belt pouch worn with Highland dress, since a kilt has no pockets.",
+       "t": [
+        "day sporran (brown leather)",
+        "dress sporran (metal cantle, fur front)",
+        "semi-dress sporran",
+        "horsehair sporran (pipers and drummers)",
+        "military sporran (swinging-six, badger-head, plain leather)"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Sporran",
+       "m": []
+      },
+      {
+       "n": "Kilt pin",
+       "a": "kilt brooch",
+       "d": "Decorative pin worn on the lower corner of the kilt's outer apron to weight it; it does not fasten the layers.",
+       "t": [
+        "silver",
+        "stone-set",
+        "claw brooch (grouse foot)",
+        "antler"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Kilt_pin",
+       "m": []
+      },
+      {
+       "n": "Sgian-dubh",
+       "a": "sgian dubh · skean dhu",
+       "d": "Small single-edged knife worn tucked into the kilt hose with the hilt visible.",
+       "t": [
+        "leather sheath with silver fittings",
+        "stainless steel blade"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Sgian-dubh",
+       "m": []
+      },
+      {
        "n": "Bunad",
        "a": "Norwegian national costume · festdrakt · folkedrakt",
        "d": "Norwegian regional festive costume, standardised in the 20th century from rural dress and worn on 17 May, weddings and confirmations.",
@@ -18240,9 +19033,6 @@
        "a": "punchu · pontro · poncho cape",
        "d": "Outer garment of a single piece of cloth with a head opening and no sleeves, originating in the Americas.",
        "t": [
-        "Rain poncho (waterproof)",
-        "Army / military poncho",
-        "Cycling poncho",
         "Hooded poncho",
         "Fringed poncho",
         "Alpaca, llama or sheep wool"
@@ -19072,7 +19862,7 @@
       {
        "n": "Ikat cloth",
        "a": "ikat · abrband · kasuri · jaspe",
-       "d": "Cloth woven from yarns resist-dyed before weaving, giving a characteristic blurred pattern on both faces.",
+       "d": "Cloth woven from yarns resist-dyed before weaving, giving a characteristic blurred pattern on both faces. Patola and Pochampally are listed under Sari.",
        "t": [
         "Warp ikat",
         "Weft ikat",
@@ -19081,26 +19871,6 @@
        ],
        "s": "https://en.wikipedia.org/wiki/Ikat",
        "x": [
-        {
-         "n": "Patola",
-         "a": "",
-         "d": "Fine silk double ikat of Patan, Gujarat, prized in the spice trade and copied in Bali.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Ikat",
-         "v": [],
-         "dt": "double ikat · repeat or pictorial · six-metre sari length"
-        },
-        {
-         "n": "Pochampally ikat",
-         "a": "Pochampalli ikat",
-         "d": "Geometric ikat saris and dress fabric from Bhoodan Pochampally, Telangana.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Pochampally_sari",
-         "v": [],
-         "dt": "silk or cotton · geometric paagadu bandhu patterns"
-        },
         {
          "n": "Sambalpuri bandha",
          "a": "Sambalpuri ikat",
@@ -19373,7 +20143,9 @@
         "Barleycorn",
         "Check or overcheck",
         "Plain twill",
-        "Jacket or coat weight"
+        "Jacket or coat weight",
+        "glen plaid (pattern)",
+        "houndstooth (pattern)"
        ],
        "s": "https://en.wikipedia.org/wiki/Tweed",
        "x": [
@@ -19403,26 +20175,6 @@
           }
          ],
          "dt": "nep flecks · hand or power loom"
-        },
-        {
-         "n": "Glen plaid",
-         "a": "Glenurquhart check · Prince of Wales check",
-         "d": "Woollen twill of small and large checks, also called Glen Urquhart or Prince of Wales check.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Glen_plaid",
-         "v": [],
-         "dt": "black/grey and white or muted colours · overcheck"
-        },
-        {
-         "n": "Houndstooth",
-         "a": "dogstooth · dog's tooth",
-         "d": "Duotone broken-check pattern of light and dark tessellated checks.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Houndstooth",
-         "v": [],
-         "dt": "scale: puppytooth to large · colour pair"
         }
        ],
        "m": [
@@ -19439,7 +20191,7 @@
       {
        "n": "Khadi & handloom cloth",
        "a": "khadi · khaddar · handloom",
-       "d": "Hand-spun and hand-woven natural-fibre cloth of the Indian subcontinent, promoted by Gandhi as swadeshi.",
+       "d": "Hand-spun and hand-woven natural-fibre cloth of the Indian subcontinent, promoted by Gandhi as swadeshi. Jamdani and Chanderi are listed under Sari.",
        "t": [
         "Cotton khadi",
         "Silk khadi",
@@ -19466,16 +20218,6 @@
          "dt": "cotton, silk or wool · coarse to fine"
         },
         {
-         "n": "Jamdani",
-         "a": "",
-         "d": "Figured fine muslin woven on the Shitalakshya river near Narayanganj, Bangladesh.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Jamdani",
-         "v": [],
-         "dt": "figured patterns · fineness"
-        },
-        {
          "n": "Dhaka muslin",
          "a": "Dhakai malmal",
          "d": "Extraordinarily fine Bengal handwoven cotton, 'woven air', made until the 18th century.",
@@ -19484,16 +20226,6 @@
          "s": "https://en.wikipedia.org/wiki/Dhaka_muslin",
          "v": [],
          "dt": "thread count · transparency"
-        },
-        {
-         "n": "Chanderi",
-         "a": "",
-         "d": "Traditional silk handloom sari cloth of Chanderi, Madhya Pradesh.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Chanderi_sari",
-         "v": [],
-         "dt": "silk"
         }
        ]
       },
