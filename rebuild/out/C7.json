@@ -1,54 +1,13 @@
 {
  "c": "C7",
  "rev": true,
- "lead": "Machinery and equipment for farms, smallholdings, woodlands and apiaries, from compact and vintage tractors to implements, harvest, livestock, forestry and beekeeping gear, organised by job; production machines stay at kind level, while vintage tractors, stationary engines and beehives are mapped to named archetypes.",
+ "lead": "Machinery and equipment for small farms, smallholdings and woodland, from compact and vintage tractors to implements, firewood and smallholding kit; vintage tractors and stationary engines are mapped to named archetypes, farm-scale machines stay at kind level, and beekeeping gear is in B10.",
  "b": [],
  "depts": [
   {
-   "n": "Tractors",
+   "n": "Compact tractors & implements",
    "mode": "tier",
-   "b": [
-    {
-     "m": "Power and fit to the job",
-     "v": "",
-     "w": "Measured PTO and drawbar power against the job, plus hitch category and which implements fit; fit to the job comes first."
-    },
-    {
-     "m": "Lifting and hydraulic strength",
-     "v": "",
-     "w": "Measured in the Nebraska (OECD) tractor test."
-    },
-    {
-     "m": "Fuel economy",
-     "v": "higher horsepower-hours per gallon > lower",
-     "w": "Nebraska / OECD test figures."
-    },
-    {
-     "m": "Dealer nearby, service and parts",
-     "v": "",
-     "w": "Owner surveys put dealer support first."
-    },
-    {
-     "m": "Reliability and repair frequency",
-     "v": "",
-     "w": "Weighed with dealer support."
-    },
-    {
-     "m": "Transmission",
-     "v": "gear / shuttle < powershift < hydrostatic or CVT (for convenience)",
-     "w": "Hydrostatic dominates sub-compact and compact; CVT at the top of farm ranges."
-    },
-    {
-     "m": "Cab comfort and noise",
-     "v": "quieter (lower dB) > louder",
-     "w": "Cab, air conditioning and sound level are compared in tests."
-    },
-    {
-     "m": "Drive type",
-     "v": "2WD, FWA, 4WD",
-     "w": "Matched to the work, not a ladder."
-    }
-   ],
+   "note": "Tractors and implements an owner of a small acreage would buy.",
    "s": [
     {
      "n": "Compact & small tractors",
@@ -275,197 +234,546 @@
      ]
     },
     {
-     "n": "Farm tractors",
+     "n": "Ploughs & cultivators",
      "k": [
       {
-       "n": "Row-crop tractor",
+       "n": "Mouldboard plough",
        "a": "",
-       "d": "Wheeled tractor with adjustable track and clearance for working between crop rows.",
+       "d": "Plough whose curved mouldboards cut and turn the soil over.",
        "t": [
-        "two-wheel drive",
-        "mechanical front-wheel drive"
+        "mounted",
+        "semi-mounted",
+        "reversible",
+        "conventional"
        ],
-       "s": "https://koenigequipment.com/john-deere/agricultural-solutions/tractors/row-crop-tractors",
-       "r": [
-        [
-         "8 Series (8R, 8RT, 8RX)",
-         "John Deere"
-        ]
-       ]
-      },
-      {
-       "n": "Articulated 4WD tractor",
-       "a": "articulated four-wheel-drive tractor",
-       "d": "Large tractor with four equal driven wheels that steers by bending at a central pivot.",
-       "s": "https://koenigequipment.com/john-deere/agricultural-solutions/tractors/4wd-track-tractors",
-       "r": [
-        [
-         "9 Series (9R, 9RT, 9RX)",
-         "John Deere"
-        ],
-        [
-         "STX Steiger",
-         "Case IH"
-        ]
-       ]
-      },
-      {
-       "n": "Crawler tractor",
-       "a": "full-track tractor",
-       "d": "Tractor running on two full-length tracks, steel or rubber, instead of wheels.",
-       "t": [
-        "rubber-belted",
-        "steel-tracked"
-       ],
-       "s": "https://kellytractor.com/eng/products/agriculture/rubberbelted_tractors.aspx",
+       "s": "https://www.landwirt.com/en/soil-tillage-equipment/ploughs",
        "m": [
         [
-         "MT700C",
-         "Challenger"
+         "Juwel",
+         "Lemken"
         ],
         [
-         "MT800C",
-         "Challenger"
+         "Vari-Diamant",
+         "Lemken"
         ],
         [
-         "8RT",
-         "John Deere"
+         "2300S Variomat",
+         "Kverneland"
         ],
         [
-         "9RT",
-         "John Deere"
+         "Multi-Master",
+         "Kuhn"
+        ],
+        [
+         "Varimaster",
+         "Kuhn"
+        ],
+        [
+         "Cayros",
+         "Amazone"
+        ],
+        [
+         "Teres",
+         "Amazone"
+        ],
+        [
+         "Servo",
+         "Poettinger"
         ]
        ]
       },
       {
-       "n": "Four-track tractor",
+       "n": "Chisel and tine cultivator",
        "a": "",
-       "d": "Tractor running on four separate track units, one at each corner, on an articulated or rigid frame.",
+       "d": "Implement with rigid or sprung tines that loosens the soil without turning it.",
        "t": [
-        "articulated frame",
-        "rigid frame"
+        "rigid tine",
+        "spring tine"
        ],
-       "s": "https://koenigequipment.com/john-deere/agricultural-solutions/tractors/4wd-track-tractors",
+       "s": "https://www.landwirt.com/en/soil-tillage-equipment/cultivators",
        "m": [
         [
-         "Quadtrac",
-         "Case IH"
+         "Kristall",
+         "Lemken"
         ],
         [
-         "Xerion 4500 TRAC TS",
-         "Claas"
+         "Cenius",
+         "Amazone"
         ],
         [
-         "8RX",
-         "John Deere"
+         "Cenio",
+         "Amazone"
         ],
         [
-         "9RX",
-         "John Deere"
+         "Terrano",
+         "Horsch"
+        ],
+        [
+         "Vibrostar",
+         "Einbock"
         ]
        ]
       },
       {
-       "n": "Half-track tractor",
-       "a": "delta tractor",
-       "d": "Tractor with front tyres and rear crawler tracks.",
-       "s": "https://www.yanmar.com/jp/agri/products/tractor/series_lineup/"
+       "n": "Subsoiler",
+       "a": "deep ripper",
+       "d": "Implement with heavy legs that break compacted layers below plough depth.",
+       "s": "https://www.landwirt.com/en/soil-tillage-equipment/subsoilers",
+       "m": [
+        [
+         "Culter",
+         "Imants"
+        ],
+        [
+         "Attila",
+         "Maschio Gaspardo"
+        ]
+       ]
+      },
+      {
+       "n": "Spading machine",
+       "a": "",
+       "d": "PTO-driven implement whose spades dig and turn the soil.",
+       "s": "https://www.agriexpo.online/prod/imants-b-v/product-169346-6346.html",
+       "r": [
+        [
+         "SX",
+         "Imants"
+        ]
+       ]
       }
      ]
     },
     {
-     "n": "Specialist tractors",
+     "n": "Harrows, tillers & rollers",
      "k": [
       {
-       "n": "Orchard and vineyard tractor",
-       "a": "narrow tractor · tracteur fruitier · tracteur vigneron · Schmalspurtraktor",
-       "d": "Wheeled tractor with a narrow track and low profile for working between vines and fruit trees.",
+       "n": "Disc harrow",
+       "a": "",
+       "d": "Implement with gangs of concave discs that cut and mix the surface soil.",
        "t": [
-        "vineyard (V)",
-        "orchard (F)",
-        "plantation (P)"
+        "compact disc",
+        "tandem disc"
        ],
-       "s": "https://www.fendt.com/us/products/tractors/fendt-200-vfp-vario",
+       "s": "https://www.landwirt.com/en/soil-tillage-equipment/harrows",
        "m": [
         [
-         "200 F Vario",
-         "Fendt"
-        ],
-        [
-         "200 P Vario",
-         "Fendt"
-        ],
-        [
-         "200 V Vario",
-         "Fendt"
+         "Catros",
+         "Amazone"
         ]
        ]
       },
       {
-       "n": "High-clearance tractor",
-       "a": "straddle tractor · enjambeur",
-       "d": "Tractor with high ground clearance that straddles rows of vines or crops.",
-       "s": "https://www.pellenc.com/en-gb/our-products/from-the-vineyard-to-the-winery/vine-growing/straddle-and-multifunction-tractor/straddle-tractor-345",
+       "n": "Power harrow",
+       "a": "",
+       "d": "PTO-driven harrow whose rotating vertical tines break clods into a seedbed.",
+       "s": "https://www.landwirt.com/en/soil-tillage-equipment/harrows",
+       "m": [
+        [
+         "HRB",
+         "Kuhn"
+        ],
+        [
+         "Zirkon",
+         "Lemken"
+        ]
+       ]
+      },
+      {
+       "n": "Rotary tiller",
+       "a": "rotavator",
+       "d": "PTO-driven implement whose blades on a horizontal rotor churn the soil.",
+       "s": "https://www.landwirt.com/en/soil-tillage-equipment/rotary-cultivators",
+       "m": [
+        [
+         "FPG",
+         "Vigolo"
+        ]
+       ]
+      },
+      {
+       "n": "Land roller",
+       "a": "packer",
+       "d": "Roller or packer that firms and levels the soil surface.",
+       "t": [
+        "flat roller",
+        "ring roller",
+        "packer"
+       ],
+       "s": "https://www.landwirt.com/en/soil-tillage-equipment/rollers"
+      },
+      {
+       "n": "Seedbed combination",
+       "a": "",
+       "d": "Implement that combines tines, levelling bars and rollers to make a seedbed in one pass.",
+       "s": "https://lemken.com/en-en/agricultural-machines/soil-cultivation/seedbed-preparation/seedbed-combinations",
+       "m": [
+        [
+         "Korund 8",
+         "Lemken"
+        ],
+        [
+         "System-Kompaktor",
+         "Lemken"
+        ]
+       ]
+      },
+      {
+       "n": "Puddling harrow",
+       "a": "rice paddy harrow",
+       "d": "Implement that churns flooded paddy soil into a puddle before transplanting.",
+       "s": "https://tractorkarvan.com/index.php/implement/shaktiman-rice-puddler-srt-8",
+       "m": [
+        [
+         "GreenSystem Puddler Leveler",
+         "John Deere"
+        ],
+        [
+         "Oryza 300",
+         "Maschio Gaspardo"
+        ],
+        [
+         "Paddy 165",
+         "Maschio Gaspardo"
+        ],
+        [
+         "Rice Puddler SRT-8",
+         "Shaktiman"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Ground shaping & clearing",
+     "k": [
+      {
+       "n": "Tractor ground-work implement",
+       "a": "box scraper · grader blade · post-hole auger · trencher · bund plasterer",
+       "d": "Tractor-mounted tool for grading, digging or shaping soil.",
+       "t": [
+        "box blade",
+        "rear grader blade",
+        "post-hole auger",
+        "trencher",
+        "bund plasterer"
+       ],
+       "s": "https://masontractor.com/new-products/land-pride/Dirtworking/BB12-Series-Box-Scrapers/BB1260",
        "r": [
         [
-         "OPTIMUM",
-         "Pellenc"
+         "BB12 Series box scraper",
+         "Land Pride"
         ]
        ]
       },
       {
-       "n": "Slope tractor",
-       "a": "mower-carrier tractor · Mähtrak · Bergtrak",
-       "d": "Low, wide tractor with a low centre of gravity that carries mowers and implements on steep ground.",
-       "s": "https://www.landwirt.com/traktoren/maeh-und-bergtraks/sonstige",
-       "r": [
+       "n": "Stone picker",
+       "a": "stone picker and collector",
+       "d": "Tractor implement that lifts stones from a field and collects them in a hopper or windrows them for removal.",
+       "t": [
+        "stone picker",
+        "stone windrower"
+       ],
+       "s": "https://www.landwirt.com/en/soil-tillage-equipment?page=88"
+      },
+      {
+       "n": "Tractor snow blade and blower",
+       "a": "tractor snow blade · tractor snow blower",
+       "d": "Snow blade or blower mounted on or driven from a tractor.",
+       "t": [
+        "snow blade",
+        "snow blower"
+       ],
+       "s": "https://deere.com/en/attachments-accessories-and-implements/utility-tractors-attachments-accessories/snow-removal-equipment",
+       "m": [
         [
-         "Terratrac",
-         "Aebi Schmidt"
+         "SB1164P",
+         "Frontier"
         ],
         [
-         "Metrac",
-         "Reform"
+         "SB1174",
+         "Frontier"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Seeders & planters",
+     "k": [
+      {
+       "n": "Seed drill",
+       "a": "",
+       "d": "Implement that sows seed in rows at a set rate and depth.",
+       "t": [
+        "tine coulter",
+        "disc coulter",
+        "no-till"
+       ],
+       "s": "https://www.truckscout24.com/agricultural-machines/used/seeders",
+       "m": [
+        [
+         "Pronto",
+         "Horsch"
+        ],
+        [
+         "Venta",
+         "Kuhn"
+        ],
+        [
+         "Solitair",
+         "Lemken"
+        ],
+        [
+         "Rapid",
+         "Vaderstad"
         ]
        ]
       },
       {
-       "n": "Forestry tractor",
-       "a": "tracteur forestier · Forsttraktor",
-       "d": "Wheeled tractor built and guarded for forest work such as winching and skidding; also shown under Forestry.",
-       "s": "https://www.landwirt.com/en/tractors/forestry-tractors/country-austria"
+       "n": "Single-seed planter",
+       "a": "precision planter",
+       "d": "Planter that places single seeds at a set spacing in the row.",
+       "s": "https://www.profi.co.uk/test-centre/four-precision-planters-with-front-hoppers-part-2-pressure-is-on/",
+       "m": [
+        [
+         "Precea",
+         "Amazone"
+        ],
+        [
+         "Maestro",
+         "Horsch"
+        ],
+        [
+         "Optima",
+         "Kverneland"
+        ],
+        [
+         "Tempo",
+         "Vaderstad"
+        ]
+       ]
       },
       {
-       "n": "Implement carrier",
-       "a": "tool-carrier tractor",
-       "d": "Self-propelled carrier that carries and drives implements, with no load body; a Unimog with a load bed is in Vehicles.",
-       "s": "https://aebi-schmidt.com/en/products/aebi/slope-tractors/tt-small"
+       "n": "Transplanter",
+       "a": "",
+       "d": "Implement that sets seedlings or young plants into the field.",
+       "s": "https://www.duijndam-machines.com/en/machines/309267/checchi-magli-tex-carousel-planting-machine-2-rows",
+       "m": [
+        [
+         "TEX",
+         "Checchi & Magli"
+        ]
+       ]
+      },
+      {
+       "n": "Rice transplanter",
+       "a": "",
+       "d": "Machine that plants rice seedlings into a flooded paddy, usually four to eight rows at a time.",
+       "t": [
+        "walk-behind",
+        "ride-on"
+       ],
+       "s": "https://yanmar.com/global/agri/rice_transplanter"
+      },
+      {
+       "n": "Potato planter",
+       "a": "",
+       "d": "Implement that plants seed potatoes in ridges.",
+       "s": "https://products.grimme.com/en/p/gl-420",
+       "m": [
+        [
+         "PRIOS 440",
+         "Grimme"
+        ],
+        [
+         "Next Structural",
+         "Dewulf"
+        ]
+       ],
+       "r": [
+        [
+         "GL",
+         "Grimme"
+        ]
+       ]
+      },
+      {
+       "n": "Seed potato cutter",
+       "a": "",
+       "d": "Machine that cuts seed potatoes into planting pieces before planting.",
+       "s": "https://www.dewulfgroup.com/en/used-machines/"
+      }
+     ]
+    },
+    {
+     "n": "Mowers & cutters",
+     "k": [
+      {
+       "n": "Disc mower",
+       "a": "drum mower",
+       "d": "Mower whose rotating discs or drums cut grass for hay or silage.",
+       "t": [
+        "disc",
+        "drum",
+        "with conditioner",
+        "front-mounted",
+        "rear-mounted",
+        "trailed"
+       ],
+       "s": "https://www.kuhn.com/en/hay-forage/mowers/disc-mowers",
+       "r": [
+        [
+         "GMD disc mowers",
+         "Kuhn"
+        ],
+        [
+         "PZ drum mowers",
+         "Kuhn"
+        ],
+        [
+         "EasyCut disc mowers",
+         "Krone"
+        ]
+       ]
+      },
+      {
+       "n": "Rotary cutter",
+       "a": "brush hog",
+       "d": "Implement whose blades on a vertical shaft cut grass, weeds and brush under a deck.",
+       "t": [
+        "single-spindle",
+        "flex-wing"
+       ],
+       "s": "https://www.goodworkstractors.com/product-category/attachments/mowers/",
+       "m": [
+        [
+         "Bush Hog 2215",
+         "Bush Hog"
+        ]
+       ],
+       "r": [
+        [
+         "Flex-wing rotary cutters",
+         "Bush Hog"
+        ]
+       ]
+      },
+      {
+       "n": "Flail mower",
+       "a": "mulcher",
+       "d": "Implement that cuts and shreds standing vegetation on grassland, verges, vineyards and scrub.",
+       "s": "https://bushhog.com/?p=9052",
+       "r": [
+        [
+         "BRC row crop flails",
+         "Bush Hog"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Loaders, wheels & guidance",
+     "k": [
+      {
+       "n": "Front-end loader",
+       "a": "front loader",
+       "d": "Loader arms and frame fitted to the front of a tractor.",
+       "s": "https://agriland.co.uk/farming-news/new-range-of-quicke-front-loaders-complemented-by-online-support-systems/",
+       "r": [
+        [
+         "Q-series front loaders",
+         "Quicke"
+        ]
+       ]
+      },
+      {
+       "n": "Loader attachment",
+       "a": "pallet forks · bucket · bale spike",
+       "d": "Tool fitted to a tractor's front loader.",
+       "t": [
+        "bucket",
+        "pallet forks",
+        "bale spike",
+        "grab"
+       ],
+       "s": "https://www.reviews.io/product-reviews/store/titan-attachments/132233",
+       "r": [
+        [
+         "Economy Series",
+         "Titan Attachments"
+        ]
+       ]
+      },
+      {
+       "n": "Tractor tyre and wheel",
+       "a": "tractor tyre · tractor rim · complete wheel",
+       "d": "Tyre, rim or complete tyred wheel made for a tractor.",
+       "t": [
+        "tyre",
+        "rim",
+        "complete wheel",
+        "dual wheel"
+       ],
+       "s": "https://bigtyres.co.uk/tyres/brands/trelleborg/tm900-hp/600-70r30-trelleborg-tm900-hp-158d-155e",
+       "m": [
+        [
+         "TM900 HP",
+         "Trelleborg"
+        ]
+       ]
+      },
+      {
+       "n": "Rubber track unit",
+       "a": "",
+       "d": "Rubber track system fitted to a tractor in place of wheels.",
+       "s": "https://camso.co/en/agriculture/conversion-tracks-systems",
+       "r": [
+        [
+         "Conversion Track System",
+         "Camso"
+        ]
+       ]
+      },
+      {
+       "n": "Tractor ballast weight",
+       "a": "suitcase weight",
+       "d": "Cast-iron weights for added traction, hung on a front bracket or bolted to the wheels.",
+       "t": [
+        "wheel weight",
+        "front ballast weight"
+       ]
+      },
+      {
+       "n": "Guidance and auto-steer system",
+       "a": "",
+       "d": "Guidance receiver, display or auto-steer kit for a tractor or farm machine.",
+       "t": [
+        "receiver",
+        "display",
+        "auto-steer kit"
+       ],
+       "s": "https://www.gpsworld.com/trimble-releases-display-system-for-agriculture-applications/",
+       "m": [
+        [
+         "GFX-750",
+         "Trimble"
+        ],
+        [
+         "NAV-900",
+         "Trimble"
+        ]
+       ]
       }
      ]
     }
-   ],
-   "note": "Current tractors at kind level; sizes from sub-compact to articulated. Vintage tractors have their own department."
+   ]
   },
   {
    "n": "Vintage tractors & engines",
    "mode": "variety",
-   "b": [
-    {
-     "m": "Originality and provenance",
-     "v": "restored to original spec > period-correct > modified",
-     "w": "Club and show judging standards; serial-number dating."
-    },
-    {
-     "m": "Condition",
-     "v": "concours / show > working > restorable > parts",
-     "w": "Common vintage-tractor sale grading."
-    },
-    {
-     "m": "Parts availability",
-     "v": "",
-     "w": "Popular archetypes (TE20, Ford N, Farmall, Lister) are fully supported by reproduction parts."
-    }
-   ],
+   "note": "Collector tractors, stationary engines and barn machinery, mapped to named archetypes.",
    "s": [
     {
      "n": "Vintage tractors",
@@ -809,6 +1117,70 @@
           }
          ],
          "dt": "tyres (rubber or steel) · lights/starter"
+        },
+        {
+         "n": "Allis-Chalmers WD",
+         "a": "",
+         "d": "Improved WC with independent power take-off and power-adjust rear wheels; nearly 150,000 built.",
+         "mk": "Allis-Chalmers",
+         "y": "1948",
+         "s": "https://en.wikipedia.org/wiki/Allis-Chalmers",
+         "v": [
+          {
+           "n": "WC",
+           "mk": "Allis-Chalmers",
+           "y": "1933",
+           "d": "first-generation row-crop"
+          },
+          {
+           "n": "B",
+           "mk": "Allis-Chalmers",
+           "y": "1937",
+           "d": "lighter, cheaper row-crop"
+          },
+          {
+           "n": "WD",
+           "mk": "Allis-Chalmers",
+           "y": "1948–1953",
+           "d": ""
+          },
+          {
+           "n": "WD-45",
+           "mk": "Allis-Chalmers",
+           "y": "1953",
+           "d": "226 cu in engine; Buda diesel from 1955"
+          },
+          {
+           "n": "D-series",
+           "mk": "Allis-Chalmers",
+           "y": "1957",
+           "d": "D19 had the first factory turbocharger"
+          }
+         ],
+         "dt": "model · petrol or diesel · Persian Orange paint"
+        },
+        {
+         "n": "Oliver Fleetline",
+         "a": "",
+         "d": "Oliver's 66, 77 and 88 row-crop series, offered with petrol or diesel engines.",
+         "mk": "Oliver Farm Equipment",
+         "y": "1948",
+         "s": "https://en.wikipedia.org/wiki/Oliver_Farm_Equipment_Company",
+         "v": [
+          {
+           "n": "77",
+           "mk": "Oliver Farm Equipment",
+           "y": "1948–1954",
+           "d": ""
+          },
+          {
+           "n": "88",
+           "mk": "Oliver Farm Equipment",
+           "y": "1948–1954",
+           "d": ""
+          }
+         ],
+         "dt": "model · fuel"
         }
        ]
       },
@@ -1159,6 +1531,75 @@
           }
          ],
          "dt": "model · row-crop or standard"
+        },
+        {
+         "n": "Minneapolis-Moline U series",
+         "a": "",
+         "d": "Minneapolis-Moline's U-series tractors, including the UDLX Comfortractor, an early closed-cab farm tractor in Prairie-Gold.",
+         "mk": "Minneapolis-Moline",
+         "y": "1938",
+         "s": "https://en.wikipedia.org/wiki/Minneapolis-Moline",
+         "v": [
+          {
+           "n": "UDLX Comfortractor",
+           "mk": "Minneapolis-Moline",
+           "y": "1938–1941",
+           "d": "closed cab; 125 built"
+          }
+         ],
+         "dt": "model · cab or open · paint"
+        },
+        {
+         "n": "Minneapolis-Moline G-series",
+         "a": "",
+         "d": "Six-cylinder G-series, the company's largest tractors; the G-955 was the last sold under the name.",
+         "mk": "Minneapolis-Moline",
+         "y": "1959",
+         "s": "https://en.wikipedia.org/wiki/Minneapolis-Moline",
+         "v": [
+          {
+           "n": "G-VI",
+           "mk": "Minneapolis-Moline",
+           "y": "1959",
+           "d": ""
+          },
+          {
+           "n": "G-1355",
+           "mk": "Minneapolis-Moline",
+           "y": "1972",
+           "d": "142 PTO hp; most powerful"
+          },
+          {
+           "n": "G-955",
+           "mk": "Minneapolis-Moline",
+           "y": "1973–1974",
+           "d": "last Minneapolis-Moline tractor"
+          }
+         ],
+         "dt": "model"
+        },
+        {
+         "n": "Fordson Dexta",
+         "a": "",
+         "d": "Small British Fordson with a three-cylinder Perkins A3 engine, built by Ford Motor Company Ltd.",
+         "mk": "Fordson",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Fordson",
+         "v": [
+          {
+           "n": "Dexta",
+           "mk": "Fordson",
+           "y": "",
+           "d": "Perkins A3, 144 then 152 cu in"
+          },
+          {
+           "n": "Super Dexta",
+           "mk": "Fordson",
+           "y": "",
+           "d": "sold in the US as the Ford 2000 Diesel"
+          }
+         ],
+         "dt": "engine size · version"
         }
        ]
       },
@@ -1616,6 +2057,47 @@
           }
          ],
          "dt": "model · 2WD or 4WD"
+        },
+        {
+         "n": "Lamborghini DL series",
+         "a": "",
+         "d": "Early Cento tractors from Ferruccio Lamborghini, from the L 33 to the DL ladder and the first crawler.",
+         "mk": "Lamborghini Trattori",
+         "y": "1951",
+         "s": "https://en.wikipedia.org/wiki/Lamborghini_Trattori",
+         "v": [
+          {
+           "n": "L 33",
+           "mk": "Lamborghini Trattori",
+           "y": "1951",
+           "d": "first tractor built entirely by Lamborghini; Morris diesel"
+          },
+          {
+           "n": "DL 15–DL 30",
+           "mk": "Lamborghini Trattori",
+           "y": "1952",
+           "d": ""
+          },
+          {
+           "n": "DL 40, DL 50",
+           "mk": "Lamborghini Trattori",
+           "y": "1953",
+           "d": ""
+          },
+          {
+           "n": "DL 25 C",
+           "mk": "Lamborghini Trattori",
+           "y": "1955",
+           "d": "first crawler"
+          },
+          {
+           "n": "Lamborghinetta",
+           "mk": "Lamborghini Trattori",
+           "y": "1957",
+           "d": "22 hp utility tractor"
+          }
+         ],
+         "dt": "model · wheeled or crawler"
         }
        ]
       },
@@ -1899,6 +2381,66 @@
           }
          ],
          "dt": "hp · Old Abe eagle badge"
+        }
+       ]
+      },
+      {
+       "n": "Vintage garden tractor",
+       "a": "vintage lawn and garden tractor · vintage compact tractor",
+       "d": "Small mid-century tractor for gardens and small plots, collected and restored alongside farm tractors.",
+       "t": [
+        "wheel-driven",
+        "hydrostatic",
+        "with mower deck",
+        "with attachments"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Cub_Cadet",
+       "x": [
+        {
+         "n": "IH Cub Cadet",
+         "a": "",
+         "d": "Garden-tractor line launched by International Harvester; the first model had a 7 or 8 hp Kohler engine.",
+         "mk": "International Harvester",
+         "y": "1960",
+         "s": "https://en.wikipedia.org/wiki/Cub_Cadet",
+         "v": [
+          {
+           "n": "Original",
+           "mk": "International Harvester",
+           "y": "1961–1963",
+           "d": "7 or 8 hp Kohler"
+          },
+          {
+           "n": "82 Series",
+           "mk": "International Harvester",
+           "y": "1979",
+           "d": "482 to 982; the 982 began 'Super Garden Tractors'"
+          }
+         ],
+         "dt": "model · engine · deck"
+        },
+        {
+         "n": "Wheel Horse",
+         "a": "",
+         "d": "South Bend garden tractors that began as Elmer Pond's two-wheel Walk-Away; bought by AMC in 1974 and Toro in 1986.",
+         "mk": "Wheel Horse",
+         "y": "1946",
+         "s": "https://en.wikipedia.org/wiki/Wheel_Horse",
+         "v": [
+          {
+           "n": "Walk-Away",
+           "mk": "Wheel Horse",
+           "y": "1946",
+           "d": "two-wheel garden tractor"
+          },
+          {
+           "n": "C Series",
+           "mk": "Wheel Horse",
+           "y": "1974",
+           "d": "one of four lines by then"
+          }
+         ],
+         "dt": "model · era · owner"
         }
        ]
       }
@@ -2557,1491 +3099,12 @@
       }
      ]
     }
-   ],
-   "note": "Collector department: kind → archetype (model family) → version (series, fuel, generation) → detail, following the TractorData maker → model axis."
-  },
-  {
-   "n": "Tillage & ground work",
-   "mode": "tier",
-   "b": [
-    {
-     "m": "Tractor power needed and working width",
-     "v": "",
-     "w": "The implement must match the tractor's power and hitch category."
-    }
-   ],
-   "s": [
-    {
-     "n": "Ploughs & cultivators",
-     "k": [
-      {
-       "n": "Mouldboard plough",
-       "a": "",
-       "d": "Plough whose curved mouldboards cut and turn the soil over.",
-       "t": [
-        "mounted",
-        "semi-mounted",
-        "reversible",
-        "conventional"
-       ],
-       "s": "https://www.landwirt.com/en/soil-tillage-equipment/ploughs",
-       "m": [
-        [
-         "Juwel",
-         "Lemken"
-        ],
-        [
-         "Vari-Diamant",
-         "Lemken"
-        ],
-        [
-         "2300S Variomat",
-         "Kverneland"
-        ],
-        [
-         "Multi-Master",
-         "Kuhn"
-        ],
-        [
-         "Varimaster",
-         "Kuhn"
-        ],
-        [
-         "Cayros",
-         "Amazone"
-        ],
-        [
-         "Teres",
-         "Amazone"
-        ],
-        [
-         "Servo",
-         "Poettinger"
-        ]
-       ]
-      },
-      {
-       "n": "Chisel and tine cultivator",
-       "a": "",
-       "d": "Implement with rigid or sprung tines that loosens the soil without turning it.",
-       "t": [
-        "rigid tine",
-        "spring tine"
-       ],
-       "s": "https://www.landwirt.com/en/soil-tillage-equipment/cultivators",
-       "m": [
-        [
-         "Kristall",
-         "Lemken"
-        ],
-        [
-         "Cenius",
-         "Amazone"
-        ],
-        [
-         "Cenio",
-         "Amazone"
-        ],
-        [
-         "Terrano",
-         "Horsch"
-        ],
-        [
-         "Vibrostar",
-         "Einbock"
-        ]
-       ]
-      },
-      {
-       "n": "Subsoiler",
-       "a": "deep ripper",
-       "d": "Implement with heavy legs that break compacted layers below plough depth.",
-       "s": "https://www.landwirt.com/en/soil-tillage-equipment/subsoilers",
-       "m": [
-        [
-         "Culter",
-         "Imants"
-        ],
-        [
-         "Attila",
-         "Maschio Gaspardo"
-        ]
-       ]
-      },
-      {
-       "n": "Spading machine",
-       "a": "",
-       "d": "PTO-driven implement whose spades dig and turn the soil.",
-       "s": "https://www.agriexpo.online/prod/imants-b-v/product-169346-6346.html",
-       "r": [
-        [
-         "SX",
-         "Imants"
-        ]
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Harrows, tillers & rollers",
-     "k": [
-      {
-       "n": "Disc harrow",
-       "a": "",
-       "d": "Implement with gangs of concave discs that cut and mix the surface soil.",
-       "t": [
-        "compact disc",
-        "tandem disc"
-       ],
-       "s": "https://www.landwirt.com/en/soil-tillage-equipment/harrows",
-       "m": [
-        [
-         "Catros",
-         "Amazone"
-        ]
-       ]
-      },
-      {
-       "n": "Power harrow",
-       "a": "",
-       "d": "PTO-driven harrow whose rotating vertical tines break clods into a seedbed.",
-       "s": "https://www.landwirt.com/en/soil-tillage-equipment/harrows",
-       "m": [
-        [
-         "HRB",
-         "Kuhn"
-        ],
-        [
-         "Zirkon",
-         "Lemken"
-        ]
-       ]
-      },
-      {
-       "n": "Rotary tiller",
-       "a": "rotavator",
-       "d": "PTO-driven implement whose blades on a horizontal rotor churn the soil.",
-       "s": "https://www.landwirt.com/en/soil-tillage-equipment/rotary-cultivators",
-       "m": [
-        [
-         "FPG",
-         "Vigolo"
-        ]
-       ]
-      },
-      {
-       "n": "Land roller",
-       "a": "packer",
-       "d": "Roller or packer that firms and levels the soil surface.",
-       "t": [
-        "flat roller",
-        "ring roller",
-        "packer"
-       ],
-       "s": "https://www.landwirt.com/en/soil-tillage-equipment/rollers"
-      },
-      {
-       "n": "Seedbed combination",
-       "a": "",
-       "d": "Implement that combines tines, levelling bars and rollers to make a seedbed in one pass.",
-       "s": "https://lemken.com/en-en/agricultural-machines/soil-cultivation/seedbed-preparation/seedbed-combinations",
-       "m": [
-        [
-         "Korund 8",
-         "Lemken"
-        ],
-        [
-         "System-Kompaktor",
-         "Lemken"
-        ]
-       ]
-      },
-      {
-       "n": "Puddling harrow",
-       "a": "rice paddy harrow",
-       "d": "Implement that churns flooded paddy soil into a puddle before transplanting.",
-       "s": "https://tractorkarvan.com/index.php/implement/shaktiman-rice-puddler-srt-8",
-       "m": [
-        [
-         "GreenSystem Puddler Leveler",
-         "John Deere"
-        ],
-        [
-         "Oryza 300",
-         "Maschio Gaspardo"
-        ],
-        [
-         "Paddy 165",
-         "Maschio Gaspardo"
-        ],
-        [
-         "Rice Puddler SRT-8",
-         "Shaktiman"
-        ]
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Ground shaping & clearing",
-     "k": [
-      {
-       "n": "Box blade",
-       "a": "box scraper",
-       "d": "Tractor-mounted open box with a blade and scarifier teeth for grading and moving soil.",
-       "s": "https://masontractor.com/new-products/land-pride/Dirtworking/BB12-Series-Box-Scrapers/BB1260",
-       "r": [
-        [
-         "BB12 Series box scraper",
-         "Land Pride"
-        ]
-       ]
-      },
-      {
-       "n": "Rear grader blade",
-       "a": "land leveller",
-       "d": "Rear-mounted blade or levelling frame for grading, levelling and ditching.",
-       "s": "https://www.tractorsupply.com/tsc/catalog/blades-scrapers"
-      },
-      {
-       "n": "Post-hole auger",
-       "a": "post-hole digger",
-       "d": "Tractor-driven auger that bores holes for posts and planting.",
-       "s": "https://kubota.com.au/product/post-hole-digger-pd10-25-35-series",
-       "r": [
-        [
-         "PD10, PD25 and PD35 series",
-         "Land Pride"
-        ]
-       ]
-      },
-      {
-       "n": "Trencher",
-       "a": "",
-       "d": "Tractor-driven implement that cuts narrow trenches.",
-       "s": "https://www.evergladesfarmequipment.com/paladin-attachments/construction/implements/trenchers-model-612",
-       "m": [
-        [
-         "612 Trencher",
-         "Bradco"
-        ]
-       ]
-      },
-      {
-       "n": "Stone picker",
-       "a": "stone picker and collector",
-       "d": "Tractor implement that lifts stones from a field and collects them in a hopper or windrows them for removal.",
-       "t": [
-        "stone picker",
-        "stone windrower"
-       ],
-       "s": "https://www.landwirt.com/en/soil-tillage-equipment?page=88"
-      },
-      {
-       "n": "Tractor snow blade and blower",
-       "a": "tractor snow blade · tractor snow blower",
-       "d": "Snow blade or blower mounted on or driven from a tractor.",
-       "t": [
-        "snow blade",
-        "snow blower"
-       ],
-       "s": "https://deere.com/en/attachments-accessories-and-implements/utility-tractors-attachments-accessories/snow-removal-equipment",
-       "m": [
-        [
-         "SB1164P",
-         "Frontier"
-        ],
-        [
-         "SB1174",
-         "Frontier"
-        ]
-       ]
-      },
-      {
-       "n": "Bund plasterer",
-       "a": "rice paddy bund plasterer",
-       "d": "Implement that forms and smooths the earth bunds round paddy fields.",
-       "s": "https://jmty.jp/miyazaki/sale-oth/article-1qjsx3",
-       "m": [
-        [
-         "AR750S",
-         "Kobashi"
-        ]
-       ]
-      }
-     ]
-    }
-   ],
-   "note": "Tractor implements at kind level; most also come in compact-tractor sizes."
-  },
-  {
-   "n": "Seeding, spreading & irrigation",
-   "mode": "tier",
-   "b": [
-    {
-     "m": "Tractor power needed and working width",
-     "v": "",
-     "w": "The implement must match the tractor."
-    }
-   ],
-   "s": [
-    {
-     "n": "Seeders & planters",
-     "k": [
-      {
-       "n": "Seed drill",
-       "a": "",
-       "d": "Implement that sows seed in rows at a set rate and depth.",
-       "t": [
-        "tine coulter",
-        "disc coulter",
-        "no-till"
-       ],
-       "s": "https://www.truckscout24.com/agricultural-machines/used/seeders",
-       "m": [
-        [
-         "Pronto",
-         "Horsch"
-        ],
-        [
-         "Venta",
-         "Kuhn"
-        ],
-        [
-         "Solitair",
-         "Lemken"
-        ],
-        [
-         "Rapid",
-         "Vaderstad"
-        ]
-       ]
-      },
-      {
-       "n": "Single-seed planter",
-       "a": "precision planter",
-       "d": "Planter that places single seeds at a set spacing in the row.",
-       "s": "https://www.profi.co.uk/test-centre/four-precision-planters-with-front-hoppers-part-2-pressure-is-on/",
-       "m": [
-        [
-         "Precea",
-         "Amazone"
-        ],
-        [
-         "Maestro",
-         "Horsch"
-        ],
-        [
-         "Optima",
-         "Kverneland"
-        ],
-        [
-         "Tempo",
-         "Vaderstad"
-        ]
-       ]
-      },
-      {
-       "n": "Transplanter",
-       "a": "",
-       "d": "Implement that sets seedlings or young plants into the field.",
-       "s": "https://www.duijndam-machines.com/en/machines/309267/checchi-magli-tex-carousel-planting-machine-2-rows",
-       "m": [
-        [
-         "TEX",
-         "Checchi & Magli"
-        ]
-       ]
-      },
-      {
-       "n": "Rice transplanter",
-       "a": "",
-       "d": "Machine that plants rice seedlings into a flooded paddy, usually four to eight rows at a time.",
-       "t": [
-        "walk-behind",
-        "ride-on"
-       ],
-       "s": "https://yanmar.com/global/agri/rice_transplanter"
-      },
-      {
-       "n": "Potato planter",
-       "a": "",
-       "d": "Implement that plants seed potatoes in ridges.",
-       "s": "https://products.grimme.com/en/p/gl-420",
-       "m": [
-        [
-         "PRIOS 440",
-         "Grimme"
-        ],
-        [
-         "Next Structural",
-         "Dewulf"
-        ]
-       ],
-       "r": [
-        [
-         "GL",
-         "Grimme"
-        ]
-       ]
-      },
-      {
-       "n": "Seed potato cutter",
-       "a": "",
-       "d": "Machine that cuts seed potatoes into planting pieces before planting.",
-       "s": "https://www.dewulfgroup.com/en/used-machines/"
-      }
-     ]
-    },
-    {
-     "n": "Spreaders, sprayers & weeders",
-     "k": [
-      {
-       "n": "Fertiliser spreader",
-       "a": "",
-       "d": "Implement that broadcasts or places granular fertiliser.",
-       "t": [
-        "twin-disc",
-        "pneumatic boom"
-       ],
-       "s": "https://www.fwi.co.uk/machinery/fertiliser-spreader-test-kuhn-axis",
-       "m": [
-        [
-         "Axis",
-         "Rauch"
-        ],
-        [
-         "ZA-M",
-         "Amazone"
-        ],
-        [
-         "ZA-V",
-         "Amazone"
-        ]
-       ]
-      },
-      {
-       "n": "Manure spreader",
-       "a": "",
-       "d": "Wagon that shreds and spreads solid manure.",
-       "t": [
-        "vertical beater",
-        "horizontal beater",
-        "side discharge"
-       ],
-       "s": "https://agdealer.com/listings/manufacturer/kuhn-knight/category/applicators/subcategory/manure-spreaders",
-       "m": [
-        [
-         "PS-270",
-         "Kuhn"
-        ],
-        [
-         "SLC150",
-         "Kuhn"
-        ]
-       ]
-      },
-      {
-       "n": "Slurry tanker",
-       "a": "",
-       "d": "Tank that carries and spreads liquid slurry.",
-       "s": "https://swedish-agro-machinery.mynewsdesk.com/pressreleases/samson-introduces-new-slurry-tanker-series-2940955",
-       "m": [
-        [
-         "PG II",
-         "Samson Agro"
-        ],
-        [
-         "TG",
-         "Samson Agro"
-        ]
-       ]
-      },
-      {
-       "n": "Slurry injector",
-       "a": "",
-       "d": "Implement that places slurry into the soil.",
-       "t": [
-        "disc injector",
-        "tine injector"
-       ],
-       "s": "https://www.agriexpo.online/product-manufacturer/filesan-mounted-slurry-incorporator-1208-5028.html",
-       "m": [
-        [
-         "Terradisc2",
-         "Joskin"
-        ],
-        [
-         "Solodisc",
-         "Joskin"
-        ],
-        [
-         "Terraflex/2",
-         "Joskin"
-        ]
-       ]
-      },
-      {
-       "n": "Crop sprayer",
-       "a": "",
-       "d": "Sprayer that applies crop-protection liquids through a boom.",
-       "t": [
-        "mounted",
-        "trailed",
-        "self-propelled"
-       ],
-       "s": "https://www.tractorhouse.com/listing/for-sale/257444019/2023-amazone-ux-5201-super-pull-type-sprayers",
-       "m": [
-        [
-         "UX 5201 Super",
-         "Amazone"
-        ]
-       ]
-      },
-      {
-       "n": "Inter-row hoe and tine weeder",
-       "a": "inter-row hoe · tine weeder",
-       "d": "Implement that weeds mechanically between and within crop rows.",
-       "t": [
-        "tine weeder",
-        "inter-row hoe"
-       ],
-       "s": "https://www.einboeck.at/en/tined-weeders-and-row-crop-cultivators/",
-       "r": [
-        [
-         "AEROSTAR",
-         "Einbock"
-        ],
-        [
-         "CHOPSTAR",
-         "Einbock"
-        ]
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Irrigation",
-     "k": [
-      {
-       "n": "Centre-pivot and linear irrigator",
-       "a": "centre-pivot irrigator · linear-move irrigation machine",
-       "d": "Self-moving span of sprinkler pipe that irrigates a field in a circle or a strip.",
-       "t": [
-        "centre pivot",
-        "linear move"
-       ],
-       "s": "https://www.valleyirrigation.com/8000",
-       "m": [
-        [
-         "8000 Series",
-         "Valley Irrigation"
-        ],
-        [
-         "7000 Series",
-         "Valley Irrigation"
-        ],
-        [
-         "Rainger Linear",
-         "Valley Irrigation"
-        ]
-       ]
-      },
-      {
-       "n": "Irrigation reel",
-       "a": "hose reel irrigator · sprinkler set",
-       "d": "Hose reel and field sprinkler gun for irrigating field crops.",
-       "s": "https://portal.bauer-at.com/cn/products/irrigation/rainstar",
-       "r": [
-        [
-         "Rainstar",
-         "Bauer"
-        ]
-       ]
-      },
-      {
-       "n": "Irrigation pump",
-       "a": "field irrigation pump",
-       "d": "Pump that moves water for field irrigation.",
-       "t": [
-        "PTO-driven",
-        "engine-driven",
-        "electric"
-       ],
-       "s": "https://vandenbussche.com/ag/product/p-t-o-rovatti-pumps",
-       "m": [
-        [
-         "MEC D2/80",
-         "Caprari"
-        ],
-        [
-         "T3-110E",
-         "Rovatti"
-        ]
-       ]
-      }
-     ]
-    }
    ]
   },
   {
-   "n": "Harvesting & grain",
+   "n": "Woodland & firewood",
    "mode": "tier",
-   "b": [],
-   "s": [
-    {
-     "n": "Combines & forage harvesters",
-     "k": [
-      {
-       "n": "Combine harvester",
-       "a": "moissonneuse-batteuse · Mähdrescher · colheitadeira",
-       "d": "Self-propelled machine that reaps, threshes and cleans grain.",
-       "t": [
-        "conventional (straw walker)",
-        "axial rotor",
-        "hybrid",
-        "head-feeding"
-       ],
-       "s": "https://www.landwirt.com/en/harvesting-equipment-crop-fields/combine-harvesters",
-       "m": [
-        [
-         "S780",
-         "John Deere"
-        ],
-        [
-         "Axial-Flow 6150",
-         "Case IH"
-        ],
-        [
-         "CR9090",
-         "New Holland"
-        ]
-       ],
-       "r": [
-        [
-         "Lexion",
-         "Claas"
-        ]
-       ]
-      },
-      {
-       "n": "Combine header",
-       "a": "plataforma colheitadeira",
-       "d": "Interchangeable front cutting or pick-up unit for a combine harvester.",
-       "t": [
-        "grain header",
-        "draper header",
-        "corn header",
-        "pick-up header"
-       ],
-       "s": "https://www.allmachines.com/combine-headers/view-all?q=CONVIO",
-       "m": [
-        [
-         "Convio",
-         "Claas"
-        ],
-        [
-         "FD230",
-         "MacDon"
-        ],
-        [
-         "Patriot NorthStar",
-         "Geringhoff"
-        ]
-       ]
-      },
-      {
-       "n": "Forage harvester",
-       "a": "ensileuse",
-       "d": "Machine that cuts and chops forage crops for silage.",
-       "t": [
-        "self-propelled",
-        "trailed"
-       ],
-       "s": "https://www.allmachines.com/directory/forage-harvesters/C",
-       "r": [
-        [
-         "Jaguar",
-         "Claas"
-        ],
-        [
-         "9000 Series forage harvesters",
-         "John Deere"
-        ],
-        [
-         "BiG X",
-         "Krone"
-        ]
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Root & speciality crop harvesters",
-     "k": [
-      {
-       "n": "Potato harvester",
-       "a": "",
-       "d": "Machine that lifts potatoes and separates them from soil and haulm.",
-       "t": [
-        "trailed",
-        "self-propelled"
-       ],
-       "s": "https://www.landwirt.com/en/potato-technology/potato-harvesters?page=2",
-       "m": [
-        [
-         "EVO 280",
-         "Grimme"
-        ],
-        [
-         "SE 150-60",
-         "Grimme"
-        ],
-        [
-         "Enduro",
-         "Dewulf"
-        ],
-        [
-         "Kwatro",
-         "Dewulf"
-        ],
-        [
-         "Keiler 2",
-         "ROPA Fahrzeug- und Maschinenbau"
-        ]
-       ]
-      },
-      {
-       "n": "Sugar-beet harvester",
-       "a": "",
-       "d": "Machine that tops, lifts and cleans sugar or fodder beet.",
-       "t": [
-        "self-propelled",
-        "trailed"
-       ],
-       "s": "https://www.agriexpo.online/agricultural-manufacturer/beet-harvester-1946.html",
-       "m": [
-        [
-         "Euro-Tiger V8-4",
-         "ROPA Fahrzeug- und Maschinenbau"
-        ],
-        [
-         "Terra Dos T4-40",
-         "Holmer Maschinenbau"
-        ],
-        [
-         "Maxtron 620",
-         "Grimme"
-        ],
-        [
-         "BM 300",
-         "Grimme"
-        ]
-       ]
-      },
-      {
-       "n": "Carrot harvester",
-       "a": "",
-       "d": "Machine that lifts carrots by their tops.",
-       "s": "https://www.truckscout24.com/agricultural-machines/used/harvesting-beet"
-      },
-      {
-       "n": "Grape harvester",
-       "a": "",
-       "d": "Machine that straddles vine rows and shakes off the grapes.",
-       "t": [
-        "self-propelled",
-        "trailed"
-       ],
-       "s": "https://agriculture.newholland.com/en-nz/oceania/products/grape-harvesters/braud-grape-harvester",
-       "r": [
-        [
-         "Braud",
-         "New Holland"
-        ],
-        [
-         "OPTIMUM",
-         "Pellenc"
-        ]
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Grain handling & drying",
-     "k": [
-      {
-       "n": "Grain auger and conveyor",
-       "a": "grain leg",
-       "d": "Auger, belt, chain or bucket elevator that moves grain into bins, dryers or trailers.",
-       "t": [
-        "tube auger",
-        "belt conveyor",
-        "chain conveyor",
-        "bucket elevator (grain leg)"
-       ],
-       "s": "https://grainsupply.com/product-category/grain-handling",
-       "m": [
-        [
-         "Batco 1590SA",
-         "Batco"
-        ],
-        [
-         "Brandt 1535",
-         "Brandt"
-        ],
-        [
-         "Convey-All 1650TL",
-         "Convey-All"
-        ],
-        [
-         "Hutchinson HCX2 1515LP",
-         "Hutchinson"
-        ],
-        [
-         "Kwik-Belt 1838",
-         "Norwood Kwik-Belt"
-        ],
-        [
-         "USC FL7540",
-         "USC"
-        ],
-        [
-         "KSI 161237",
-         "KSI"
-        ]
-       ]
-      },
-      {
-       "n": "Grain dryer",
-       "a": "",
-       "d": "Installation that dries harvested grain.",
-       "t": [
-        "tower",
-        "mixed-flow",
-        "batch"
-       ],
-       "s": "https://www.grainsystems.com/na/en/products/conditioning/continuous-flow-dryers/",
-       "m": [
-        [
-         "Brock VECTOR Mixed Flow Dryer",
-         "Brock Grain Systems"
-        ]
-       ],
-       "r": [
-        [
-         "T-Series tower dryers",
-         "GSI"
-        ],
-        [
-         "Modular tower dryers",
-         "GSI"
-        ],
-        [
-         "SUPERB SQ Series dryers",
-         "Brock Grain Systems"
-        ]
-       ]
-      },
-      {
-       "n": "Grain cleaner",
-       "a": "",
-       "d": "Machine that separates grain from chaff, weed seed and dirt.",
-       "s": "https://www.feedandgrain.com/directory/grain-cleaning-testing-analysis/product/15391133/grain-cleaning-llc-scalper",
-       "m": [
-        [
-         "Grain Cleaning LLC Scalper",
-         "Grain Cleaning LLC"
-        ]
-       ]
-      },
-      {
-       "n": "Rice huller",
-       "a": "",
-       "d": "Machine that removes the husk from paddy rice.",
-       "s": "https://directindustry.com/prod/satake/product-211643-2195061.html",
-       "m": [
-        [
-         "Satake HR10FH",
-         "Satake"
-        ],
-        [
-         "Satake HR10DDF-T",
-         "Satake"
-        ]
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "n": "Hay & forage",
-   "mode": "tier",
-   "b": [
-    {
-     "m": "Tractor power needed and working width",
-     "v": "",
-     "w": "The implement must match the tractor."
-    }
-   ],
-   "s": [
-    {
-     "n": "Mowers & cutters",
-     "k": [
-      {
-       "n": "Disc mower",
-       "a": "drum mower",
-       "d": "Mower whose rotating discs or drums cut grass for hay or silage.",
-       "t": [
-        "disc",
-        "drum",
-        "with conditioner",
-        "front-mounted",
-        "rear-mounted",
-        "trailed"
-       ],
-       "s": "https://www.kuhn.com/en/hay-forage/mowers/disc-mowers",
-       "r": [
-        [
-         "GMD disc mowers",
-         "Kuhn"
-        ],
-        [
-         "PZ drum mowers",
-         "Kuhn"
-        ],
-        [
-         "EasyCut disc mowers",
-         "Krone"
-        ]
-       ]
-      },
-      {
-       "n": "Rotary cutter",
-       "a": "brush hog",
-       "d": "Implement whose blades on a vertical shaft cut grass, weeds and brush under a deck.",
-       "t": [
-        "single-spindle",
-        "flex-wing"
-       ],
-       "s": "https://www.goodworkstractors.com/product-category/attachments/mowers/",
-       "m": [
-        [
-         "Bush Hog 2215",
-         "Bush Hog"
-        ]
-       ],
-       "r": [
-        [
-         "Flex-wing rotary cutters",
-         "Bush Hog"
-        ]
-       ]
-      },
-      {
-       "n": "Flail mower",
-       "a": "mulcher",
-       "d": "Implement that cuts and shreds standing vegetation on grassland, verges, vineyards and scrub.",
-       "s": "https://bushhog.com/?p=9052",
-       "r": [
-        [
-         "BRC row crop flails",
-         "Bush Hog"
-        ]
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Haymaking & baling",
-     "k": [
-      {
-       "n": "Hay tedder",
-       "a": "",
-       "d": "Implement with rotating tines that spreads and turns cut grass to dry.",
-       "t": [
-        "mounted",
-        "trailed"
-       ],
-       "s": "https://www.kuhn.com/en/hay-forage/tedders",
-       "r": [
-        [
-         "GF tedders",
-         "Kuhn"
-        ],
-        [
-         "Vendro tedders",
-         "Krone"
-        ]
-       ]
-      },
-      {
-       "n": "Hay rake",
-       "a": "windrower",
-       "d": "Implement that gathers cut grass into windrows.",
-       "t": [
-        "rotary rake",
-        "wheel rake",
-        "belt merger"
-       ],
-       "s": "https://www.kuhn.com/en/hay-forage/rakes-mergers",
-       "r": [
-        [
-         "GA rakes",
-         "Kuhn"
-        ],
-        [
-         "SR wheel rakes",
-         "Kuhn"
-        ],
-        [
-         "Merge Maxx belt mergers",
-         "Kuhn"
-        ],
-        [
-         "Swadro rakes",
-         "Krone"
-        ]
-       ]
-      },
-      {
-       "n": "Baler",
-       "a": "",
-       "d": "Machine that compresses hay or straw into round, large square or small square bales.",
-       "t": [
-        "round baler",
-        "large square baler",
-        "small square baler"
-       ],
-       "m": [
-        [
-         "VB 3200",
-         "Kuhn"
-        ],
-        [
-         "FB 3130-3135",
-         "Kuhn"
-        ],
-        [
-         "SB 1290",
-         "Kuhn"
-        ],
-        [
-         "i-BIO+",
-         "Kuhn"
-        ],
-        [
-         "Krone Bellima",
-         "Krone"
-        ]
-       ],
-       "r": [
-        [
-         "Comprima, Fortima and VariPack round balers",
-         "Krone"
-        ],
-        [
-         "BiG Pack large square balers",
-         "Krone"
-        ]
-       ]
-      },
-      {
-       "n": "Bale wrapper",
-       "a": "",
-       "d": "Machine that wraps bales in stretch film for silage.",
-       "t": [
-        "round-bale wrapper",
-        "square-bale wrapper",
-        "in-line wrapper"
-       ],
-       "s": "https://www.kuhn.com/en/hay-forage/wrappers",
-       "m": [
-        [
-         "Tanco A100",
-         "Tanco"
-        ],
-        [
-         "Tanco A200",
-         "Tanco"
-        ]
-       ],
-       "r": [
-        [
-         "RW and SW bale wrappers",
-         "Kuhn"
-        ]
-       ]
-      },
-      {
-       "n": "Forage wagon",
-       "a": "loader wagon",
-       "d": "Wagon that picks up, cuts and carries grass or silage.",
-       "s": "https://www.poettinger.at/en_ca/Newsroom/Artikel/5805/pottinger-and-loader-wagons",
-       "m": [
-        [
-         "Krone AX 250 GD",
-         "Krone"
-        ],
-        [
-         "Krone RX 400 GD",
-         "Krone"
-        ]
-       ],
-       "r": [
-        [
-         "Jumbo silage wagons",
-         "Pöttinger"
-        ],
-        [
-         "Boss loader wagons",
-         "Pöttinger"
-        ],
-        [
-         "Torro loader wagons",
-         "Pöttinger"
-        ]
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "n": "Livestock & dairy",
-   "mode": "tier",
-   "b": [],
-   "s": [
-    {
-     "n": "Milking & milk cooling",
-     "k": [
-      {
-       "n": "Milking robot",
-       "a": "automatic milking system",
-       "d": "Automatic milking system that attaches the cups and milks without a milker.",
-       "s": "https://www.gea.com/en/campaigns/dairyrobot-r9500-edition-2021/",
-       "m": [
-        [
-         "Astronaut A3 Next",
-         "Lely"
-        ],
-        [
-         "DeLaval VMS",
-         "DeLaval"
-        ],
-        [
-         "DairyRobot R9500",
-         "GEA"
-        ]
-       ]
-      },
-      {
-       "n": "Milking parlour",
-       "a": "pipeline milking installation",
-       "d": "Milking installation where cows stand in stalls while the milk runs through a pipeline to the dairy.",
-       "t": [
-        "static (herringbone, parallel)",
-        "rotary",
-        "trigon",
-        "polygon",
-        "pipeline in stalls",
-        "milk meter (fitting)"
-       ],
-       "s": "https://www.truck1.co.za/agricultural-machinery/livestock-equipment/complete-delaval-pipeline-milking-system-for-2x7-milking-parlor-a10264258.html",
-       "m": [
-        [
-         "DeLaval HB50",
-         "DeLaval"
-        ],
-        [
-         "SwingOver EuroClass 800",
-         "GEA"
-        ],
-        [
-         "DairyProQ",
-         "GEA"
-        ],
-        [
-         "Tru-Test Electronic Milk Meter",
-         "Tru-Test"
-        ]
-       ]
-      },
-      {
-       "n": "Bucket milking machine",
-       "a": "",
-       "d": "Portable milking unit that milks into a bucket.",
-       "s": "https://www.faie.at/en/products/dairy-farming/milking-machines-milking-buckets/bucket-milking-systems/bucket-milking-systems-for-cattle/"
-      },
-      {
-       "n": "Bulk milk cooling tank",
-       "a": "",
-       "d": "Refrigerated tank that cools and holds the milk on the farm.",
-       "t": [
-        "open",
-        "closed"
-       ],
-       "s": "https://en.paulmueller.com/milk-cooling-and-storage/milk-cooling-tanks/mueller-model-p",
-       "m": [
-        [
-         "DeLaval DXCE",
-         "DeLaval"
-        ]
-       ],
-       "r": [
-        [
-         "Model P milk cooling tanks",
-         "Paul Mueller Company"
-        ]
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Handling, weighing & tagging",
-     "k": [
-      {
-       "n": "Cattle crush",
-       "a": "headgate · squeeze chute",
-       "d": "Crate or gate that restrains one animal for treatment.",
-       "t": [
-        "headgate only",
-        "full crush",
-        "hoof-trimming crush"
-       ],
-       "s": "https://www.teemoreengineering.com/product-range/crushes-handling/",
-       "m": [
-        [
-         "Clipex HDX 1500 Crush",
-         "Teemore Engineering"
-        ],
-        [
-         "Nugent Pro 2000",
-         "Teemore Engineering"
-        ],
-        [
-         "Universal Hoof Tech Crush",
-         "Teemore Engineering"
-        ]
-       ]
-      },
-      {
-       "n": "Cattle race and handling system",
-       "a": "",
-       "d": "Race, forcing pen or circular tub that moves and lines up cattle toward a crush.",
-       "t": [
-        "race",
-        "forcing pen",
-        "circular tub"
-       ],
-       "s": "https://www.teemoreengineering.com/product-range/crushes-handling/"
-      },
-      {
-       "n": "Sheep handler",
-       "a": "sheep drafter",
-       "d": "Race unit that holds, turns or sorts sheep into pens.",
-       "t": [
-        "manual handler",
-        "auto handler",
-        "auto drafter"
-       ],
-       "s": "https://www.tepari.com/uk/blog/the-difference-between-a-sheep-handler-and-an-auto-drafter",
-       "m": [
-        [
-         "Combi-Clamp Sheep Handler",
-         "Te Pari"
-        ]
-       ],
-       "r": [
-        [
-         "Racewell sheep handling",
-         "Te Pari"
-        ]
-       ]
-      },
-      {
-       "n": "Livestock scales",
-       "a": "weigh-scale indicator · load bars · weigh platform",
-       "d": "Load bars or platform with an electronic indicator that weighs and records animals.",
-       "t": [
-        "load bars",
-        "platform",
-        "indicator"
-       ],
-       "s": "https://www.tepari.com/us/shop/collections/livestock-weigh-scales-and-data-collectors",
-       "m": [
-        [
-         "Tru-Test XR5000",
-         "Tru-Test"
-        ],
-        [
-         "Tru-Test ID5000",
-         "Tru-Test"
-        ],
-        [
-         "Tru-Test MP800 Load Bars",
-         "Tru-Test"
-        ],
-        [
-         "Gallagher TW3",
-         "Gallagher"
-        ],
-        [
-         "Gallagher W1",
-         "Gallagher"
-        ],
-        [
-         "Macrostock Scale System",
-         "Te Pari"
-        ]
-       ]
-      },
-      {
-       "n": "Livestock EID reader",
-       "a": "",
-       "d": "Electronic ear-tag reader for animals, either a handheld stick or a fixed panel antenna on a race or crush.",
-       "t": [
-        "stick reader",
-        "panel reader"
-       ],
-       "m": [
-        [
-         "Tru-Test XRS2i Stick Reader",
-         "Tru-Test"
-        ],
-        [
-         "Tru-Test SRS2i Stick Reader",
-         "Tru-Test"
-        ]
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Feeding & bedding",
-     "k": [
-      {
-       "n": "Feed mixer wagon",
-       "a": "TMR mixer",
-       "d": "Wagon that mixes and dispenses a feed ration.",
-       "t": [
-        "vertical auger",
-        "horizontal auger",
-        "reel",
-        "trailed",
-        "self-propelled"
-       ],
-       "s": "https://kuhn-usa.com/livestock/mixers-feeders",
-       "m": [
-        [
-         "Kuhn SPW",
-         "Kuhn"
-        ]
-       ],
-       "r": [
-        [
-         "TMR mixers (vertical, horizontal, reel)",
-         "Kuhn"
-        ]
-       ]
-      },
-      {
-       "n": "Silage block cutter",
-       "a": "silage shear grab",
-       "d": "Tractor implement that cuts and carries blocks from a silage clamp.",
-       "s": "https://cih.com.au/tractor-implements/loader-attachments/silage-handling/silage-shear-grab/",
-       "m": [
-        [
-         "Challenge Silage Shear Grab 170SS",
-         "Challenge Implements"
-        ]
-       ]
-      },
-      {
-       "n": "Bedding spreader",
-       "a": "straw blower",
-       "d": "Machine that spreads straw or other bedding in housing.",
-       "s": "https://www.farmersjournal.ie/teagle-to-debut-new-tomahawk-6100h-compact-straw-blower-884438",
-       "r": [
-        [
-         "Tomahawk straw blowers",
-         "Teagle"
-        ]
-       ]
-      }
-     ]
-    },
-    {
-     "n": "Shearing & stunning",
-     "k": [
-      {
-       "n": "Shearing machine",
-       "a": "",
-       "d": "Powered machine with motor, drive and handpiece for flock-scale shearing; handpieces and comb-and-cutter sets are its spare parts.",
-       "t": [
-        "overhead drive",
-        "portable",
-        "handpiece (spare part)",
-        "comb and cutter set (spare part)"
-       ],
-       "s": "https://www.premier1supplies.com/p/heiniger-one-shearing-machine",
-       "r": [
-        [
-         "EVO and ONE shearing systems",
-         "Heiniger"
-        ],
-        [
-         "ICON handpieces",
-         "Heiniger"
-        ]
-       ]
-      },
-      {
-       "n": "Captive-bolt stunner",
-       "a": "",
-       "d": "Tool that stuns livestock by driving a bolt into the skull.",
-       "t": [
-        "penetrating",
-        "non-penetrating"
-       ],
-       "s": "https://waltons.com/cash-special-captive-bolt-stunner-gun/",
-       "m": [
-        [
-         "CASH Special",
-         "Accles & Shelvoke"
-        ],
-        [
-         "Schermer KR Stunner",
-         "Schermer"
-        ]
-       ]
-      }
-     ]
-    }
-   ],
-   "note": "Farm-scale equipment; pet and small-flock gear is in Animal Equipment."
-  },
-  {
-   "n": "Forestry",
-   "mode": "tier",
-   "b": [
-    {
-     "m": "Cutting or pulling capacity",
-     "v": "",
-     "w": "Chipper diameter, winch pull (t), splitter force (t) matched to the timber."
-    },
-    {
-     "m": "Tractor power and mounting",
-     "v": "",
-     "w": "PTO power and three-point category must fit the tractor."
-    },
-    {
-     "m": "Safety and guarding",
-     "v": "",
-     "w": "Required under EN/ISO machinery standards; check CE marking."
-    }
-   ],
+   "note": "Equipment for managing woodland and processing timber and firewood.",
    "s": [
     {
      "n": "Woodland & firewood equipment",
@@ -4392,6 +3455,930 @@
        ]
       }
      ]
+    }
+   ]
+  },
+  {
+   "n": "Smallholding livestock",
+   "mode": "mixed",
+   "note": "Handling, feeding, shearing and small-scale dairy kit for a few animals.",
+   "s": [
+    {
+     "n": "Handling, weighing & tagging",
+     "k": [
+      {
+       "n": "Livestock trailer",
+       "a": "stock trailer · cattle trailer",
+       "d": "Towed enclosed trailer with ventilation openings for moving livestock.",
+       "t": [
+        "bumper-pull",
+        "gooseneck",
+        "single-animal",
+        "multi-animal"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Livestock_trailer"
+      },
+      {
+       "n": "Cattle crush",
+       "a": "headgate · squeeze chute",
+       "d": "Crate or gate that restrains one animal for treatment.",
+       "t": [
+        "headgate only",
+        "full crush",
+        "hoof-trimming crush"
+       ],
+       "s": "https://www.teemoreengineering.com/product-range/crushes-handling/",
+       "m": [
+        [
+         "Clipex HDX 1500 Crush",
+         "Teemore Engineering"
+        ],
+        [
+         "Nugent Pro 2000",
+         "Teemore Engineering"
+        ],
+        [
+         "Universal Hoof Tech Crush",
+         "Teemore Engineering"
+        ]
+       ]
+      },
+      {
+       "n": "Cattle race and handling system",
+       "a": "",
+       "d": "Race, forcing pen or circular tub that moves and lines up cattle toward a crush.",
+       "t": [
+        "race",
+        "forcing pen",
+        "circular tub"
+       ],
+       "s": "https://www.teemoreengineering.com/product-range/crushes-handling/"
+      },
+      {
+       "n": "Sheep handler",
+       "a": "sheep drafter",
+       "d": "Race unit that holds, turns or sorts sheep into pens.",
+       "t": [
+        "manual handler",
+        "auto handler",
+        "auto drafter"
+       ],
+       "s": "https://www.tepari.com/uk/blog/the-difference-between-a-sheep-handler-and-an-auto-drafter",
+       "m": [
+        [
+         "Combi-Clamp Sheep Handler",
+         "Te Pari"
+        ]
+       ],
+       "r": [
+        [
+         "Racewell sheep handling",
+         "Te Pari"
+        ]
+       ]
+      },
+      {
+       "n": "Livestock scales",
+       "a": "weigh-scale indicator · load bars · weigh platform",
+       "d": "Load bars or platform with an electronic indicator that weighs and records animals.",
+       "t": [
+        "load bars",
+        "platform",
+        "indicator"
+       ],
+       "s": "https://www.tepari.com/us/shop/collections/livestock-weigh-scales-and-data-collectors",
+       "m": [
+        [
+         "Tru-Test XR5000",
+         "Tru-Test"
+        ],
+        [
+         "Tru-Test ID5000",
+         "Tru-Test"
+        ],
+        [
+         "Tru-Test MP800 Load Bars",
+         "Tru-Test"
+        ],
+        [
+         "Gallagher TW3",
+         "Gallagher"
+        ],
+        [
+         "Gallagher W1",
+         "Gallagher"
+        ],
+        [
+         "Macrostock Scale System",
+         "Te Pari"
+        ]
+       ]
+      },
+      {
+       "n": "Livestock EID reader",
+       "a": "",
+       "d": "Electronic ear-tag reader for animals, either a handheld stick or a fixed panel antenna on a race or crush.",
+       "t": [
+        "stick reader",
+        "panel reader"
+       ],
+       "m": [
+        [
+         "Tru-Test XRS2i Stick Reader",
+         "Tru-Test"
+        ],
+        [
+         "Tru-Test SRS2i Stick Reader",
+         "Tru-Test"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Feeding & bedding",
+     "k": [
+      {
+       "n": "Feed mixer wagon",
+       "a": "TMR mixer",
+       "d": "Wagon that mixes and dispenses a feed ration.",
+       "t": [
+        "vertical auger",
+        "horizontal auger",
+        "reel",
+        "trailed",
+        "self-propelled"
+       ],
+       "s": "https://kuhn-usa.com/livestock/mixers-feeders",
+       "m": [
+        [
+         "Kuhn SPW",
+         "Kuhn"
+        ]
+       ],
+       "r": [
+        [
+         "TMR mixers (vertical, horizontal, reel)",
+         "Kuhn"
+        ]
+       ]
+      },
+      {
+       "n": "Silage block cutter",
+       "a": "silage shear grab",
+       "d": "Tractor implement that cuts and carries blocks from a silage clamp.",
+       "s": "https://cih.com.au/tractor-implements/loader-attachments/silage-handling/silage-shear-grab/",
+       "m": [
+        [
+         "Challenge Silage Shear Grab 170SS",
+         "Challenge Implements"
+        ]
+       ]
+      },
+      {
+       "n": "Bedding spreader",
+       "a": "straw blower",
+       "d": "Machine that spreads straw or other bedding in housing.",
+       "s": "https://www.farmersjournal.ie/teagle-to-debut-new-tomahawk-6100h-compact-straw-blower-884438",
+       "r": [
+        [
+         "Tomahawk straw blowers",
+         "Teagle"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Shearing & stunning",
+     "k": [
+      {
+       "n": "Sheep hand shears",
+       "a": "blade shears",
+       "d": "Hand-squeezed scissor-like blades for shearing sheep without power.",
+       "t": [
+        "blade shears"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Sheep_shearing"
+      },
+      {
+       "n": "Shearing machine",
+       "a": "",
+       "d": "Powered machine with motor, drive and handpiece for flock-scale shearing; handpieces and comb-and-cutter sets are its spare parts.",
+       "t": [
+        "overhead drive",
+        "portable",
+        "handpiece (spare part)",
+        "comb and cutter set (spare part)"
+       ],
+       "s": "https://www.premier1supplies.com/p/heiniger-one-shearing-machine",
+       "r": [
+        [
+         "EVO and ONE shearing systems",
+         "Heiniger"
+        ],
+        [
+         "ICON handpieces",
+         "Heiniger"
+        ]
+       ]
+      },
+      {
+       "n": "Captive-bolt stunner",
+       "a": "",
+       "d": "Tool that stuns livestock by driving a bolt into the skull.",
+       "t": [
+        "penetrating",
+        "non-penetrating"
+       ],
+       "s": "https://waltons.com/cash-special-captive-bolt-stunner-gun/",
+       "m": [
+        [
+         "CASH Special",
+         "Accles & Shelvoke"
+        ],
+        [
+         "Schermer KR Stunner",
+         "Schermer"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Dairy & small-scale processing",
+     "k": [
+      {
+       "n": "Cream separator",
+       "a": "milk separator · hand-cranked separator",
+       "d": "Centrifugal machine splitting whole milk into cream and skimmed milk; hand-cranked on small farms.",
+       "t": [
+        "hand-cranked",
+        "electric",
+        "table-top",
+        "floor model"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Cream_separator",
+       "x": [
+        {
+         "n": "De Laval cream separator",
+         "a": "",
+         "d": "Gustaf de Laval's centrifugal separator, built by Alfa Laval, which became the largest separator maker.",
+         "mk": "Alfa Laval",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Cream_separator",
+         "v": [],
+         "dt": "hand or powered · table-top or floor"
+        }
+       ]
+      },
+      {
+       "n": "Butter churn",
+       "a": "plunger churn · barrel churn",
+       "d": "Container with a plunger or paddles turned by hand to turn cream into butter.",
+       "t": [
+        "plunger",
+        "paddle",
+        "barrel"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Churning_(butter)"
+      },
+      {
+       "n": "Hand grain mill",
+       "a": "hand quern · hand-cranked grain mill",
+       "d": "Hand-operated stone or steel mill for grinding grain into flour.",
+       "t": [
+        "rotary quern",
+        "hand-cranked burr mill"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Quern-stone"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": "Farm-scale machines",
+   "mode": "tier",
+   "note": "Contractor and farm-business machines, listed at kind level without models.",
+   "s": [
+    {
+     "n": "Farm tractors",
+     "k": [
+      {
+       "n": "Row-crop tractor",
+       "a": "",
+       "d": "Wheeled tractor with adjustable track and clearance for working between crop rows.",
+       "t": [
+        "two-wheel drive",
+        "mechanical front-wheel drive"
+       ],
+       "s": "https://koenigequipment.com/john-deere/agricultural-solutions/tractors/row-crop-tractors",
+       "r": [
+        [
+         "8 Series (8R, 8RT, 8RX)",
+         "John Deere"
+        ]
+       ]
+      },
+      {
+       "n": "Articulated 4WD tractor",
+       "a": "articulated four-wheel-drive tractor",
+       "d": "Large tractor with four equal driven wheels that steers by bending at a central pivot.",
+       "s": "https://koenigequipment.com/john-deere/agricultural-solutions/tractors/4wd-track-tractors",
+       "r": [
+        [
+         "9 Series (9R, 9RT, 9RX)",
+         "John Deere"
+        ],
+        [
+         "STX Steiger",
+         "Case IH"
+        ]
+       ]
+      },
+      {
+       "n": "Crawler tractor",
+       "a": "full-track tractor",
+       "d": "Tractor running on two full-length tracks, steel or rubber, instead of wheels.",
+       "t": [
+        "rubber-belted",
+        "steel-tracked"
+       ],
+       "s": "https://kellytractor.com/eng/products/agriculture/rubberbelted_tractors.aspx",
+       "m": [
+        [
+         "MT700C",
+         "Challenger"
+        ],
+        [
+         "MT800C",
+         "Challenger"
+        ],
+        [
+         "8RT",
+         "John Deere"
+        ],
+        [
+         "9RT",
+         "John Deere"
+        ]
+       ]
+      },
+      {
+       "n": "Four-track tractor",
+       "a": "",
+       "d": "Tractor running on four separate track units, one at each corner, on an articulated or rigid frame.",
+       "t": [
+        "articulated frame",
+        "rigid frame"
+       ],
+       "s": "https://koenigequipment.com/john-deere/agricultural-solutions/tractors/4wd-track-tractors",
+       "m": [
+        [
+         "Quadtrac",
+         "Case IH"
+        ],
+        [
+         "Xerion 4500 TRAC TS",
+         "Claas"
+        ],
+        [
+         "8RX",
+         "John Deere"
+        ],
+        [
+         "9RX",
+         "John Deere"
+        ]
+       ]
+      },
+      {
+       "n": "Half-track tractor",
+       "a": "delta tractor",
+       "d": "Tractor with front tyres and rear crawler tracks.",
+       "s": "https://www.yanmar.com/jp/agri/products/tractor/series_lineup/"
+      }
+     ]
+    },
+    {
+     "n": "Specialist tractors",
+     "k": [
+      {
+       "n": "Orchard and vineyard tractor",
+       "a": "narrow tractor · tracteur fruitier · tracteur vigneron · Schmalspurtraktor",
+       "d": "Wheeled tractor with a narrow track and low profile for working between vines and fruit trees.",
+       "t": [
+        "vineyard (V)",
+        "orchard (F)",
+        "plantation (P)"
+       ],
+       "s": "https://www.fendt.com/us/products/tractors/fendt-200-vfp-vario",
+       "m": [
+        [
+         "200 F Vario",
+         "Fendt"
+        ],
+        [
+         "200 P Vario",
+         "Fendt"
+        ],
+        [
+         "200 V Vario",
+         "Fendt"
+        ]
+       ]
+      },
+      {
+       "n": "High-clearance tractor",
+       "a": "straddle tractor · enjambeur",
+       "d": "Tractor with high ground clearance that straddles rows of vines or crops.",
+       "s": "https://www.pellenc.com/en-gb/our-products/from-the-vineyard-to-the-winery/vine-growing/straddle-and-multifunction-tractor/straddle-tractor-345",
+       "r": [
+        [
+         "OPTIMUM",
+         "Pellenc"
+        ]
+       ]
+      },
+      {
+       "n": "Slope tractor",
+       "a": "mower-carrier tractor · Mähtrak · Bergtrak",
+       "d": "Low, wide tractor with a low centre of gravity that carries mowers and implements on steep ground.",
+       "s": "https://www.landwirt.com/traktoren/maeh-und-bergtraks/sonstige",
+       "r": [
+        [
+         "Terratrac",
+         "Aebi Schmidt"
+        ],
+        [
+         "Metrac",
+         "Reform"
+        ]
+       ]
+      },
+      {
+       "n": "Forestry tractor",
+       "a": "tracteur forestier · Forsttraktor",
+       "d": "Wheeled tractor built and guarded for forest work such as winching and skidding; also shown under Forestry.",
+       "s": "https://www.landwirt.com/en/tractors/forestry-tractors/country-austria"
+      },
+      {
+       "n": "Implement carrier",
+       "a": "tool-carrier tractor",
+       "d": "Self-propelled carrier that carries and drives implements, with no load body; a Unimog with a load bed is in Vehicles.",
+       "s": "https://aebi-schmidt.com/en/products/aebi/slope-tractors/tt-small"
+      }
+     ]
+    },
+    {
+     "n": "Spreaders, sprayers & weeders",
+     "k": [
+      {
+       "n": "Fertiliser spreader",
+       "a": "",
+       "d": "Implement that broadcasts or places granular fertiliser.",
+       "t": [
+        "twin-disc",
+        "pneumatic boom"
+       ],
+       "s": "https://www.fwi.co.uk/machinery/fertiliser-spreader-test-kuhn-axis",
+       "m": [
+        [
+         "Axis",
+         "Rauch"
+        ],
+        [
+         "ZA-M",
+         "Amazone"
+        ],
+        [
+         "ZA-V",
+         "Amazone"
+        ]
+       ]
+      },
+      {
+       "n": "Manure spreader",
+       "a": "",
+       "d": "Wagon that shreds and spreads solid manure.",
+       "t": [
+        "vertical beater",
+        "horizontal beater",
+        "side discharge"
+       ],
+       "s": "https://agdealer.com/listings/manufacturer/kuhn-knight/category/applicators/subcategory/manure-spreaders",
+       "m": [
+        [
+         "PS-270",
+         "Kuhn"
+        ],
+        [
+         "SLC150",
+         "Kuhn"
+        ]
+       ]
+      },
+      {
+       "n": "Slurry tanker",
+       "a": "",
+       "d": "Tank that carries and spreads liquid slurry.",
+       "s": "https://swedish-agro-machinery.mynewsdesk.com/pressreleases/samson-introduces-new-slurry-tanker-series-2940955",
+       "m": [
+        [
+         "PG II",
+         "Samson Agro"
+        ],
+        [
+         "TG",
+         "Samson Agro"
+        ]
+       ]
+      },
+      {
+       "n": "Slurry injector",
+       "a": "",
+       "d": "Implement that places slurry into the soil.",
+       "t": [
+        "disc injector",
+        "tine injector"
+       ],
+       "s": "https://www.agriexpo.online/product-manufacturer/filesan-mounted-slurry-incorporator-1208-5028.html",
+       "m": [
+        [
+         "Terradisc2",
+         "Joskin"
+        ],
+        [
+         "Solodisc",
+         "Joskin"
+        ],
+        [
+         "Terraflex/2",
+         "Joskin"
+        ]
+       ]
+      },
+      {
+       "n": "Crop sprayer",
+       "a": "",
+       "d": "Sprayer that applies crop-protection liquids through a boom.",
+       "t": [
+        "mounted",
+        "trailed",
+        "self-propelled"
+       ],
+       "s": "https://www.tractorhouse.com/listing/for-sale/257444019/2023-amazone-ux-5201-super-pull-type-sprayers",
+       "m": [
+        [
+         "UX 5201 Super",
+         "Amazone"
+        ]
+       ]
+      },
+      {
+       "n": "Inter-row hoe and tine weeder",
+       "a": "inter-row hoe · tine weeder",
+       "d": "Implement that weeds mechanically between and within crop rows.",
+       "t": [
+        "tine weeder",
+        "inter-row hoe"
+       ],
+       "s": "https://www.einboeck.at/en/tined-weeders-and-row-crop-cultivators/",
+       "r": [
+        [
+         "AEROSTAR",
+         "Einbock"
+        ],
+        [
+         "CHOPSTAR",
+         "Einbock"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Irrigation",
+     "k": [
+      {
+       "n": "Centre-pivot and linear irrigator",
+       "a": "centre-pivot irrigator · linear-move irrigation machine",
+       "d": "Self-moving span of sprinkler pipe that irrigates a field in a circle or a strip.",
+       "t": [
+        "centre pivot",
+        "linear move"
+       ],
+       "s": "https://www.valleyirrigation.com/8000"
+      },
+      {
+       "n": "Irrigation reel",
+       "a": "hose reel irrigator · sprinkler set",
+       "d": "Hose reel and field sprinkler gun for irrigating field crops.",
+       "s": "https://portal.bauer-at.com/cn/products/irrigation/rainstar"
+      },
+      {
+       "n": "Irrigation pump",
+       "a": "field irrigation pump",
+       "d": "Pump that moves water for field irrigation.",
+       "t": [
+        "PTO-driven",
+        "engine-driven",
+        "electric"
+       ],
+       "s": "https://vandenbussche.com/ag/product/p-t-o-rovatti-pumps"
+      }
+     ]
+    },
+    {
+     "n": "Combines & forage harvesters",
+     "k": [
+      {
+       "n": "Combine harvester",
+       "a": "moissonneuse-batteuse · Mähdrescher · colheitadeira",
+       "d": "Self-propelled machine that reaps, threshes and cleans grain.",
+       "t": [
+        "conventional (straw walker)",
+        "axial rotor",
+        "hybrid",
+        "head-feeding"
+       ],
+       "s": "https://www.landwirt.com/en/harvesting-equipment-crop-fields/combine-harvesters"
+      },
+      {
+       "n": "Combine header",
+       "a": "plataforma colheitadeira",
+       "d": "Interchangeable front cutting or pick-up unit for a combine harvester.",
+       "t": [
+        "grain header",
+        "draper header",
+        "corn header",
+        "pick-up header"
+       ],
+       "s": "https://www.allmachines.com/combine-headers/view-all?q=CONVIO"
+      },
+      {
+       "n": "Forage harvester",
+       "a": "ensileuse",
+       "d": "Machine that cuts and chops forage crops for silage.",
+       "t": [
+        "self-propelled",
+        "trailed"
+       ],
+       "s": "https://www.allmachines.com/directory/forage-harvesters/C"
+      }
+     ]
+    },
+    {
+     "n": "Root & speciality harvesters",
+     "k": [
+      {
+       "n": "Root & speciality harvester",
+       "a": "potato harvester · sugar-beet harvester · carrot harvester · grape harvester",
+       "d": "Farm-scale harvester lifting root crops or picking vine fruit; owned by growers and contractors, not households.",
+       "t": [
+        "potato",
+        "sugar beet",
+        "carrot",
+        "grape"
+       ],
+       "s": "https://www.landwirt.com/en/potato-technology/potato-harvesters?page=2"
+      }
+     ]
+    },
+    {
+     "n": "Grain handling & drying",
+     "k": [
+      {
+       "n": "Grain auger and conveyor",
+       "a": "grain leg",
+       "d": "Auger, belt, chain or bucket elevator that moves grain into bins, dryers or trailers.",
+       "t": [
+        "tube auger",
+        "belt conveyor",
+        "chain conveyor",
+        "bucket elevator (grain leg)"
+       ],
+       "s": "https://grainsupply.com/product-category/grain-handling"
+      },
+      {
+       "n": "Grain dryer",
+       "a": "",
+       "d": "Installation that dries harvested grain.",
+       "t": [
+        "tower",
+        "mixed-flow",
+        "batch"
+       ],
+       "s": "https://www.grainsystems.com/na/en/products/conditioning/continuous-flow-dryers/"
+      },
+      {
+       "n": "Grain cleaner",
+       "a": "",
+       "d": "Machine that separates grain from chaff, weed seed and dirt.",
+       "s": "https://www.feedandgrain.com/directory/grain-cleaning-testing-analysis/product/15391133/grain-cleaning-llc-scalper"
+      },
+      {
+       "n": "Rice huller",
+       "a": "",
+       "d": "Machine that removes the husk from paddy rice.",
+       "s": "https://directindustry.com/prod/satake/product-211643-2195061.html"
+      }
+     ]
+    },
+    {
+     "n": "Haymaking & baling",
+     "k": [
+      {
+       "n": "Hay tedder",
+       "a": "",
+       "d": "Implement with rotating tines that spreads and turns cut grass to dry.",
+       "t": [
+        "mounted",
+        "trailed"
+       ],
+       "s": "https://www.kuhn.com/en/hay-forage/tedders",
+       "r": [
+        [
+         "GF tedders",
+         "Kuhn"
+        ],
+        [
+         "Vendro tedders",
+         "Krone"
+        ]
+       ]
+      },
+      {
+       "n": "Hay rake",
+       "a": "windrower",
+       "d": "Implement that gathers cut grass into windrows.",
+       "t": [
+        "rotary rake",
+        "wheel rake",
+        "belt merger"
+       ],
+       "s": "https://www.kuhn.com/en/hay-forage/rakes-mergers",
+       "r": [
+        [
+         "GA rakes",
+         "Kuhn"
+        ],
+        [
+         "SR wheel rakes",
+         "Kuhn"
+        ],
+        [
+         "Merge Maxx belt mergers",
+         "Kuhn"
+        ],
+        [
+         "Swadro rakes",
+         "Krone"
+        ]
+       ]
+      },
+      {
+       "n": "Baler",
+       "a": "",
+       "d": "Machine that compresses hay or straw into round, large square or small square bales.",
+       "t": [
+        "round baler",
+        "large square baler",
+        "small square baler"
+       ],
+       "m": [
+        [
+         "VB 3200",
+         "Kuhn"
+        ],
+        [
+         "FB 3130-3135",
+         "Kuhn"
+        ],
+        [
+         "SB 1290",
+         "Kuhn"
+        ],
+        [
+         "i-BIO+",
+         "Kuhn"
+        ],
+        [
+         "Krone Bellima",
+         "Krone"
+        ]
+       ],
+       "r": [
+        [
+         "Comprima, Fortima and VariPack round balers",
+         "Krone"
+        ],
+        [
+         "BiG Pack large square balers",
+         "Krone"
+        ]
+       ]
+      },
+      {
+       "n": "Bale wrapper",
+       "a": "",
+       "d": "Machine that wraps bales in stretch film for silage.",
+       "t": [
+        "round-bale wrapper",
+        "square-bale wrapper",
+        "in-line wrapper"
+       ],
+       "s": "https://www.kuhn.com/en/hay-forage/wrappers",
+       "m": [
+        [
+         "Tanco A100",
+         "Tanco"
+        ],
+        [
+         "Tanco A200",
+         "Tanco"
+        ]
+       ],
+       "r": [
+        [
+         "RW and SW bale wrappers",
+         "Kuhn"
+        ]
+       ]
+      },
+      {
+       "n": "Forage wagon",
+       "a": "loader wagon",
+       "d": "Wagon that picks up, cuts and carries grass or silage.",
+       "s": "https://www.poettinger.at/en_ca/Newsroom/Artikel/5805/pottinger-and-loader-wagons",
+       "m": [
+        [
+         "Krone AX 250 GD",
+         "Krone"
+        ],
+        [
+         "Krone RX 400 GD",
+         "Krone"
+        ]
+       ],
+       "r": [
+        [
+         "Jumbo silage wagons",
+         "Pöttinger"
+        ],
+        [
+         "Boss loader wagons",
+         "Pöttinger"
+        ],
+        [
+         "Torro loader wagons",
+         "Pöttinger"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Milking & milk cooling",
+     "k": [
+      {
+       "n": "Milking robot",
+       "a": "automatic milking system",
+       "d": "Automatic milking system that attaches the cups and milks without a milker.",
+       "s": "https://www.gea.com/en/campaigns/dairyrobot-r9500-edition-2021/"
+      },
+      {
+       "n": "Milking parlour",
+       "a": "pipeline milking installation",
+       "d": "Milking installation where cows stand in stalls while the milk runs through a pipeline to the dairy.",
+       "t": [
+        "static (herringbone, parallel)",
+        "rotary",
+        "trigon",
+        "polygon",
+        "pipeline in stalls",
+        "milk meter (fitting)"
+       ],
+       "s": "https://www.truck1.co.za/agricultural-machinery/livestock-equipment/complete-delaval-pipeline-milking-system-for-2x7-milking-parlor-a10264258.html"
+      },
+      {
+       "n": "Bucket milking machine",
+       "a": "",
+       "d": "Portable milking unit that milks into a bucket.",
+       "s": "https://www.faie.at/en/products/dairy-farming/milking-machines-milking-buckets/bucket-milking-systems/bucket-milking-systems-for-cattle/"
+      },
+      {
+       "n": "Bulk milk cooling tank",
+       "a": "",
+       "d": "Refrigerated tank that cools and holds the milk on the farm.",
+       "t": [
+        "open",
+        "closed"
+       ],
+       "s": "https://en.paulmueller.com/milk-cooling-and-storage/milk-cooling-tanks/mueller-model-p"
+      }
+     ]
     },
     {
      "n": "Forest machines",
@@ -4407,79 +4394,13 @@
         "harwarder",
         "delimber"
        ],
-       "s": "https://www.mascus.com/forestry/forestry-harvesters",
-       "m": [
-        [
-         "Ponsse Ergo 8W",
-         "Ponsse"
-        ],
-        [
-         "John Deere 1270G",
-         "John Deere"
-        ],
-        [
-         "Komatsu 931.2",
-         "Komatsu Forest"
-        ],
-        [
-         "Rottne H14C",
-         "Rottne"
-        ],
-        [
-         "Eco Log 688F",
-         "Eco Log"
-        ],
-        [
-         "John Deere 3156G",
-         "John Deere"
-        ]
-       ],
-       "r": [
-        [
-         "600 Series 3 and 4 Roller",
-         "Waratah"
-        ],
-        [
-         "400 Series 4 Roller",
-         "Waratah"
-        ],
-        [
-         "200 Series 2 Roller",
-         "Waratah"
-        ]
-       ]
+       "s": "https://www.mascus.com/forestry/forestry-harvesters"
       },
       {
        "n": "Forwarder",
        "a": "",
        "d": "Self-propelled machine that carries cut logs clear of the ground on its own load bed.",
-       "s": "https://www.mascus.com/forestry/forwarders",
-       "m": [
-        [
-         "Ponsse Buffalo",
-         "Ponsse"
-        ],
-        [
-         "Ponsse Elephant King K100S",
-         "Ponsse"
-        ],
-        [
-         "John Deere 1210 G",
-         "John Deere"
-        ],
-        [
-         "John Deere 1510 G",
-         "John Deere"
-        ],
-        [
-         "Komatsu 895",
-         "Komatsu Forest"
-        ],
-        [
-         "Weiler F888",
-         "Weiler"
-        ]
-       ]
+       "s": "https://www.mascus.com/forestry/forwarders"
       },
       {
        "n": "Skidder",
@@ -4489,29 +4410,7 @@
         "cable",
         "grapple"
        ],
-       "s": "https://www.mascus.com/forestry/skidders",
-       "m": [
-        [
-         "Tigercat 632H",
-         "Tigercat"
-        ],
-        [
-         "Tigercat 635H",
-         "Tigercat"
-        ],
-        [
-         "John Deere 748L-II",
-         "John Deere"
-        ],
-        [
-         "John Deere 948L",
-         "John Deere"
-        ],
-        [
-         "CAT 525C",
-         "Caterpillar"
-        ]
-       ]
+       "s": "https://www.mascus.com/forestry/skidders"
       },
       {
        "n": "Feller buncher",
@@ -4521,29 +4420,7 @@
         "drive-to-tree",
         "swing-boom"
        ],
-       "s": "https://www.tigercat.com/products/feller-bunchers",
-       "m": [
-        [
-         "Tigercat 724H",
-         "Tigercat"
-        ],
-        [
-         "Tigercat 830C",
-         "Tigercat"
-        ],
-        [
-         "John Deere MH60D",
-         "John Deere"
-        ],
-        [
-         "CAT 552 Series 2",
-         "Caterpillar"
-        ],
-        [
-         "TimberPro TL775D",
-         "TimberPro"
-        ]
-       ]
+       "s": "https://www.tigercat.com/products/feller-bunchers"
       },
       {
        "n": "Forestry crane and grapple",
@@ -4554,128 +4431,7 @@
         "knuckleboom loader",
         "grapple and rotator"
        ],
-       "s": "https://www.mascus.com/forestry/knuckleboom-loaders",
-       "m": [
-        [
-         "Farmi Forest C25",
-         "Farmi Forest"
-        ],
-        [
-         "Joutsa TX900+140",
-         "Joutsa"
-        ],
-        [
-         "John Deere 2154D",
-         "John Deere"
-        ],
-        [
-         "Liebherr 580",
-         "Liebherr"
-        ]
-       ]
-      }
-     ]
-    }
-   ],
-   "note": "Small-woodland tractor equipment first; contractor forest machines at kind level only."
-  },
-  {
-   "n": "Tractor loaders, wheels & guidance",
-   "mode": "tier",
-   "b": [],
-   "s": [
-    {
-     "n": "Loaders, wheels & guidance",
-     "k": [
-      {
-       "n": "Front-end loader",
-       "a": "front loader",
-       "d": "Loader arms and frame fitted to the front of a tractor.",
-       "s": "https://agriland.co.uk/farming-news/new-range-of-quicke-front-loaders-complemented-by-online-support-systems/",
-       "r": [
-        [
-         "Q-series front loaders",
-         "Quicke"
-        ]
-       ]
-      },
-      {
-       "n": "Loader attachment",
-       "a": "pallet forks · bucket · bale spike",
-       "d": "Tool fitted to a tractor's front loader.",
-       "t": [
-        "bucket",
-        "pallet forks",
-        "bale spike",
-        "grab"
-       ],
-       "s": "https://www.reviews.io/product-reviews/store/titan-attachments/132233",
-       "r": [
-        [
-         "Economy Series",
-         "Titan Attachments"
-        ]
-       ]
-      },
-      {
-       "n": "Tractor tyre and wheel",
-       "a": "tractor tyre · tractor rim · complete wheel",
-       "d": "Tyre, rim or complete tyred wheel made for a tractor.",
-       "t": [
-        "tyre",
-        "rim",
-        "complete wheel",
-        "dual wheel"
-       ],
-       "s": "https://bigtyres.co.uk/tyres/brands/trelleborg/tm900-hp/600-70r30-trelleborg-tm900-hp-158d-155e",
-       "m": [
-        [
-         "TM900 HP",
-         "Trelleborg"
-        ]
-       ]
-      },
-      {
-       "n": "Rubber track unit",
-       "a": "",
-       "d": "Rubber track system fitted to a tractor in place of wheels.",
-       "s": "https://camso.co/en/agriculture/conversion-tracks-systems",
-       "r": [
-        [
-         "Conversion Track System",
-         "Camso"
-        ]
-       ]
-      },
-      {
-       "n": "Tractor ballast weight",
-       "a": "suitcase weight",
-       "d": "Cast-iron weights for added traction, hung on a front bracket or bolted to the wheels.",
-       "t": [
-        "wheel weight",
-        "front ballast weight"
-       ]
-      },
-      {
-       "n": "Guidance and auto-steer system",
-       "a": "",
-       "d": "Guidance receiver, display or auto-steer kit for a tractor or farm machine.",
-       "t": [
-        "receiver",
-        "display",
-        "auto-steer kit"
-       ],
-       "s": "https://www.gpsworld.com/trimble-releases-display-system-for-agriculture-applications/",
-       "m": [
-        [
-         "GFX-750",
-         "Trimble"
-        ],
-        [
-         "NAV-900",
-         "Trimble"
-        ]
-       ]
+       "s": "https://www.mascus.com/forestry/knuckleboom-loaders"
       }
      ]
     }

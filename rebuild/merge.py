@@ -4,6 +4,23 @@ import json, os, sys, glob
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 done = json.load(open('done.json')) if os.path.exists('done.json') else []
 covered = json.load(open('moves_covered.json')) if os.path.exists('moves_covered.json') else {}
+# coordinator: where a moved kind lands when its suggested dept is not a department of the target ("Dept / Shelf"),
+# or "-" to drop it (catch-alls and duplicates the target already covers)
+place = json.load(open('moves_place.json')) if os.path.exists('moves_place.json') else {}
+def put(t, m, key):
+    dest = place.get(key)
+    if dest == '-': print('dropped', key); return
+    if dest:
+        dn, sn = [x.strip() for x in dest.split(' / ')]
+        dp = next((dp for dp in t['depts'] if dp['n'] == dn), None)
+        sh = next((s for s in dp['s'] if s['n'] == sn), None) if dp else None
+        if sh is not None: sh['k'].append(m['kind']); return
+        print('WARN moves_place target missing:', key, '->', dest)
+    dp = next((dp for dp in t['depts'] if dp['n'] == m.get('dept')), None)
+    if dp is None:
+        dp = {'n': m.get('dept') or 'Moved in', 'mode': 'mixed', 'b': [], 's': [{'n': m.get('dept') or 'Moved in', 'k': []}]}
+        t['depts'].append(dp)
+    dp['s'][0]['k'].append(m['kind'])
 for c in sys.argv[1:]:
     d = json.load(open(f'out/{c}.json'))
     # re-apply kinds moved IN from categories merged earlier (the rebuilt file would otherwise drop them);
@@ -26,11 +43,7 @@ for c in sys.argv[1:]:
                     for f in ('m', 'r'):
                         k[f] = (k.get(f) or []) + [x for x in (m['kind'].get(f) or []) if x not in (k.get(f) or [])]
                     print('folded', src + '>' + c + ':' + m['kind']['n'], 'into', cov); continue
-            dp = next((dp for dp in d['depts'] if dp['n'] == m.get('dept')), None)
-            if dp is None:
-                dp = {'n': m.get('dept') or 'Moved in', 'mode': 'mixed', 'b': [], 's': [{'n': m.get('dept') or 'Moved in', 'k': []}]}
-                d['depts'].append(dp)
-            dp['s'][0]['k'].append(m['kind']); names.add(m['kind']['n'].lower())
+            put(d, m, src + '>' + c + ':' + m['kind']['n']); names.add(m['kind']['n'].lower())
             print('re-applied', src + '>' + c + ':' + m['kind']['n'])
     json.dump(d, open(f'reader/{c}.json', 'w'), ensure_ascii=False, separators=(',', ':'))
     if c not in done: done.append(c)
@@ -49,11 +62,7 @@ for c in sys.argv[1:]:
             for f in ('m', 'r', 'x'):
                 if m['kind'].get(f): k[f] = (k.get(f) or []) + m['kind'][f]
         else:
-            dp = next((dp for dp in t['depts'] if dp['n'] == m.get('dept')), None)
-            if dp is None:
-                dp = {'n': m.get('dept') or 'Moved in', 'mode': 'mixed', 'b': [], 's': [{'n': m.get('dept') or 'Moved in', 'k': []}]}
-                t['depts'].append(dp)
-            dp['s'][0]['k'].append(m['kind'])
+            put(t, m, key)
         json.dump(t, open(tp, 'w'), ensure_ascii=False, separators=(',', ':'))
         applied.append(key); print('moved', key)
     json.dump(applied, open('moves_applied.json', 'w'))
