@@ -55,10 +55,9 @@ lk=liner['x'][5]; lk['s']='https://agrussell.com/ecommerce/products/view/2844'
 cross={"n":"Crossbar-lock folder","a":"AXIS lock folder","d":"Folder whose blade is held by a spring-loaded crossbar sliding in slots in both handle scales.",
  "t":["manual","automatic","mini","lightweight handle"],"s":W+"Benchmade",
  "x":[
-  A("Benchmade Griptilian","Everyday AXIS-lock folder in a large and a Mini size; Mel Pardue design.","Benchmade","",W+"Benchmade",[V("551 Griptilian","Benchmade","2014","Gear of the Year award"),V("556 Mini Griptilian","Benchmade","","smaller sibling")],"full or mini size · blade shape · handle colour",a="Griptilian · 550 · 551"),
+  A("Benchmade Griptilian","Benchmade's everyday AXIS-lock folder, made in full and Mini sizes.","Benchmade","",W+"Benchmade",[V("551 Griptilian","Benchmade","2014","Gear of the Year award"),V("556 Mini Griptilian","Benchmade","","smaller sibling")],"full or mini size · blade shape · handle colour",a="Griptilian · 550 · 551"),
   A("Benchmade Bugout","Slim, light AXIS-lock folder with a 535 full size and a 533 Mini.","Benchmade","",W+"Benchmade",[V("535 Bugout","Benchmade","","full size"),V("533 Mini Bugout","Benchmade","","smaller sibling")],"handle material · blade steel",a="Bugout 535"),
-  A("Benchmade 940 Osborne","Reverse-tanto-free Osborne-designed AXIS folder in Benchmade's Reference line.","Benchmade","",W+"Benchmade",[],"handle material · blade steel",a="940 · Osborne")]}
-cross['x'][2]['d']="Benchmade AXIS-lock folder named after designer Warren Osborne."
+  A("Benchmade 940 Osborne","Benchmade AXIS-lock folder listed as the 940 Osborne.","Benchmade","",W+"Benchmade",[],"handle material · blade steel",a="940 · Osborne")]}
 comp={"n":"Compression-lock folder","a":"Spyderco compression lock","d":"Folder whose blade is held by a spring-loaded insert in the handle spine, released by pressing it.",
  "t":["button lock"],"s":"https://www.knivesandtools.com/en/ct/spyderco-paramilitary-knives.htm",
  "x":[
