@@ -401,18 +401,6 @@
          "dt": "breed (Salers, Limousin, Charolais, Aubrac) · season March–June"
         }
        ]
-      },
-      {
-       "n": "Dry-aged beef",
-       "a": "aged beef · hung beef",
-       "d": "Beef hung or racked in a chilled room for weeks so that moisture evaporates and enzymes tenderise it.",
-       "t": [
-        "dry-aged on the bone",
-        "dry-aged in a moisture-permeable bag",
-        "wet-aged (vacuum)",
-        "koji-aged"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Beef_aging"
       }
      ]
     },
@@ -429,7 +417,8 @@
         "bone-in",
         "cowboy cut",
         "tomahawk",
-        "ribeye cap (spinalis)"
+        "ribeye cap (spinalis)",
+        "dry-aged"
        ]
       },
       {
@@ -439,7 +428,8 @@
        "s": "https://www.blackwing.com/beef.html",
        "t": [
         "New York strip",
-        "Kansas City strip"
+        "Kansas City strip",
+        "dry-aged"
        ]
       },
       {
@@ -461,14 +451,9 @@
        "t": [
         "T-bone",
         "porterhouse (larger fillet portion)",
-        "Florentine (bistecca alla fiorentina cut)"
+        "Florentine (bistecca alla fiorentina cut)",
+        "dry-aged"
        ]
-      },
-      {
-       "n": "Rump steak (top sirloin)",
-       "a": "rump (UK/AU) · top sirloin (US) · rumsteck",
-       "d": "Beef steak cut from the rump, at the hip end of the loin.",
-       "s": "https://www.crowdcow.com/shop/beef/pasture-raised"
       },
       {
        "n": "Rump cap (picanha)",
@@ -477,38 +462,20 @@
        "s": "https://thefarmersbutcher.co.uk/product/rump-cap-500g"
       },
       {
-       "n": "Tri-tip",
-       "a": "Santa Maria steak · aiguillette baronne · bottom sirloin",
-       "d": "Triangular roast or steak from the bottom sirloin.",
-       "s": "https://www.44steaks.com/collections/butchers-cuts"
-      },
-      {
-       "n": "Flat iron steak",
-       "a": "feather blade · top blade · butler's steak",
-       "d": "Beef steak cut from the top blade muscle of the chuck.",
-       "s": "https://www.oldetownebutcher.com/beef"
-      },
-      {
-       "n": "Flank steak",
-       "a": "bavette (UK) · London broil (US)",
-       "d": "Long, lean steak from the abdominal muscle behind the plate.",
-       "s": "https://www.44steaks.com/collections/butchers-cuts"
-      },
-      {
-       "n": "Skirt steak",
-       "a": "arrachera · entraña",
-       "d": "Thin, coarse-grained steak from the diaphragm muscles.",
-       "s": "https://www.oldetownebutcher.com/beef",
+       "n": "Minor grilling steaks",
+       "a": "rump (UK/AU) · top sirloin (US) · rumsteck · Santa Maria steak · aiguillette baronne · bottom sirloin · feather blade · top blade · butler's steak · bavette (UK) · London broil (US) · arrachera · entraña · onglet · butcher's steak",
+       "d": "Secondary steaks and roasts for grilling or pan-frying: rump, tri-tip, flat iron, flank, skirt and hanger.",
        "t": [
+        "Rump steak (top sirloin)",
+        "Tri-tip",
+        "Flat iron steak",
+        "Flank steak",
+        "Skirt steak",
         "outside skirt",
-        "inside skirt"
-       ]
-      },
-      {
-       "n": "Hanger steak",
-       "a": "onglet · butcher's steak",
-       "d": "Steak from the hanging tender attached to the diaphragm.",
-       "s": "https://farmfetch.co.uk/products/ex-dairy-onglet"
+        "inside skirt",
+        "Hanger steak"
+       ],
+       "s": "https://www.crowdcow.com/shop/beef/pasture-raised"
       }
      ]
     },
@@ -523,7 +490,8 @@
        "t": [
         "bone-in",
         "boneless",
-        "côte de boeuf (single rib)"
+        "côte de boeuf (single rib)",
+        "dry-aged"
        ]
       },
       {
@@ -641,37 +609,17 @@
      "n": "Beef & veal offal",
      "k": [
       {
-       "n": "Beef liver",
-       "a": "ox liver",
-       "d": "The liver of cattle, sold raw.",
-       "s": "https://www.blackwing.com/beef.html",
+       "n": "Beef & veal offal",
+       "a": "ox liver · ox tongue · beef heart · ox kidney · sweetbreads · variety meats",
+       "d": "Edible organs of cattle and calves sold raw: liver, tongue, heart, kidney and sweetbreads.",
        "t": [
-        "calf's liver"
-       ]
-      },
-      {
-       "n": "Beef tongue",
-       "a": "ox tongue",
-       "d": "The tongue of cattle, sold raw.",
-       "s": "https://www.oldetownebutcher.com/beef"
-      },
-      {
-       "n": "Beef heart",
-       "a": "",
-       "d": "The heart of cattle, sold raw.",
+        "liver (ox or calf)",
+        "tongue",
+        "heart",
+        "kidney",
+        "sweetbreads"
+       ],
        "s": "https://www.blackwing.com/beef.html"
-      },
-      {
-       "n": "Beef kidney",
-       "a": "ox kidney",
-       "d": "The kidney of cattle, sold raw.",
-       "s": "https://www.blackwing.com/beef.html"
-      },
-      {
-       "n": "Sweetbreads",
-       "a": "",
-       "d": "The thymus or pancreas glands of a calf or lamb, sold raw.",
-       "s": "https://www.dartagnan.com/buy/meat-game"
       }
      ]
     }
@@ -691,6 +639,11 @@
      "m": "Farming and production claims",
      "v": "",
      "w": "Outdoor-bred, outdoor-reared, free-range, organic: label claims, not grades."
+    },
+    {
+     "m": "Ibérico label class (Real Decreto 4/2014)",
+     "v": "Black (100% ibérico de bellota) > Red (ibérico de bellota) > Green (cebo de campo) > White (cebo)",
+     "w": "Spanish quality norm with coloured seals, also applied to fresh cuts; Spain's quality standard naming Ibérico products by feeding and breed purity, with coloured seals; also applies to fresh cuts."
     }
    ],
    "s": [
@@ -714,41 +667,6 @@
        ],
        "s": "https://eatcampogrande.com/blogs/kitchen/types-of-iberico-pork-cuts",
        "x": [
-        {
-         "n": "Ibérico label classes (Real Decreto 4/2014)",
-         "a": "",
-         "d": "Spain's quality standard naming Ibérico products by feeding and breed purity, with coloured seals; also applies to fresh cuts.",
-         "mk": "",
-         "y": "2014",
-         "s": "https://www.consumoresponde.es/actualidad/noticias/precinto-etiquetado-mejores-referencias-calidad-origen-jamon-paleta-ibericos",
-         "v": [
-          {
-           "n": "100% ibérico de bellota (black seal)",
-           "mk": "",
-           "y": "2014",
-           "d": "100% Iberian parents in the herdbook, acorn-fattened; only class allowed 'pata negra'"
-          },
-          {
-           "n": "Ibérico de bellota (red seal)",
-           "mk": "",
-           "y": "2014",
-           "d": "at least 50% Iberian, acorn-fattened"
-          },
-          {
-           "n": "Ibérico de cebo de campo (green seal)",
-           "mk": "",
-           "y": "2014",
-           "d": "feed-fattened, extensive or outdoor farms"
-          },
-          {
-           "n": "Ibérico de cebo (white seal)",
-           "mk": "",
-           "y": "2014",
-           "d": "feed-fattened, intensive farms"
-          }
-         ],
-         "dt": "seal colour · breed % · cut"
-        },
         {
          "n": "Iberian pig",
          "a": "Alentejo pig · porco alentejano",
@@ -5212,9 +5130,9 @@
        ]
       },
       {
-       "n": "'Nduja & sobrasada",
-       "a": "spreadable dry-cured sausage · Teewurst",
-       "d": "Soft, spreadable cured pork sausage sold in a casing (a jar of spread is in Pantry Staples).",
+       "n": "Spreadable raw sausage",
+       "a": "'nduja · sobrasada · Teewurst · spreadable dry-cured sausage",
+       "d": "Soft, spreadable raw or cured pork sausage sold in a casing, from Calabria, Mallorca and Germany (a jar of spread is in Pantry Staples).",
        "s": "https://www.ditalia.com/collections/salumi",
        "x": [
         {
@@ -5913,17 +5831,6 @@
          "Grace"
         ]
        ]
-      },
-      {
-       "n": "Charcuterie & deli selection",
-       "a": "mixed cured meats · mixed sausages · deli platter",
-       "d": "A mixed pack of cured meats, sausages or cooked meats, no single kind making up half its weight.",
-       "s": "https://farmfetch.co.uk/products/cobble-lane-cured-charcuterie-platter-1",
-       "t": [
-        "cured selection",
-        "sausage selection",
-        "cooked deli platter"
-       ]
       }
      ]
     }
@@ -6131,7 +6038,12 @@
          ]
         }
        ]
-      },
+      }
+     ]
+    },
+    {
+     "n": "Boxes & selections",
+     "k": [
       {
        "n": "Meat box",
        "a": "butcher's box · meat subscription box · mixed fresh meats",
@@ -6142,6 +6054,17 @@
         "subscription",
         "BBQ box",
         "family box"
+       ]
+      },
+      {
+       "n": "Charcuterie & deli selection",
+       "a": "mixed cured meats · mixed sausages · deli platter",
+       "d": "A mixed pack of cured meats, sausages or cooked meats, no single kind making up half its weight.",
+       "s": "https://farmfetch.co.uk/products/cobble-lane-cured-charcuterie-platter-1",
+       "t": [
+        "cured selection",
+        "sausage selection",
+        "cooked deli platter"
        ]
       }
      ]
