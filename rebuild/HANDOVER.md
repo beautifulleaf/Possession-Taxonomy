@@ -27,3 +27,13 @@ Sources: Wikipedia/Wikidata APIs (throttle), Firecrawl/Parallel search+scrape, o
 - E1: new department "Puzzles, fidgets & desk toys" (batch E1PZ, prompt verify/in/E1PZ.prompt.txt, report out/E1PZ_report.md): 28 kinds and 86 archetypes, +23 brands and designers; "Electronic handheld toy" on the Skill toys shelf; Mattel Auto Race moved to E5 "LCD handheld game" (tools/e1_handheld_fix.py).
 - Published artifact v26. The live reader/_brands.json had been an older copy (10,847 brands); v26 carries the current register.
 - Suggested next audits (object-focused): rest of E1 (craft toys, marbles, circus props, model rocketry), pocket knives and multitools in C1, E2 equipment grouped by object, C4 by material and tool type.
+
+## 2026-10-28, continued: audits AUD3 and fixes for every category (artifact v28)
+- Audit batch 2 (v27): E1 rest (creative toys, circus props, model rocketry, marbles), C1 pocket knives & EDC, C4 regrouped by goods, E2 split A/B and assembled by tools/e2_assemble.py.
+- Cold audits AUD3 (Opus, verify/out/AUD3_<group>.md) for every remaining category; one Sonnet fixer per category (prompts verify/in/FIX_<CODE>.prompt.txt over FIX_COMMON.txt; reports out/FIX_<CODE>_report.md).
+- Owner decisions this round (BRIEF.md): built-in lights → G3 "Built-in lighting"; locks stay in B8; packaged prepared foods are in (J5 "Prepared & frozen foods").
+- merge.py now: moves_place.json puts moved kinds on a named "Dept / Shelf" or drops them ("-"); otherwise picks the best word-matching shelf instead of creating a stray department; moves_covered.json folds archetypes as well as models; repeated model rows in moved kinds are de-duplicated.
+- J4's 453 RHS garden cultivars moved to C3 (445 adopted; 16 per-crop seed kinds).
+- Totals: kinds 7,932 → 7,811 (merges of attribute-only kinds), archetypes 17,595 → 18,649, brands 12,813, traditions 835. tools/lost_check.py <ref> lists vanished names (all checked: renames, merges into types, catch-alls, concepts).
+- app.js: archetype field `ex` shown as "Example:"; brands flagged `stub` grouped last as "Listed only".
+- Follow-ups (rebuild/work/_fixqueue.md): cross-link field in the schema (many cross-category pairs left as duplicates: D3/E3 turntables and mics, C4/C5 inkstones, B5/G3 range cookers, D2/E5 XR glasses, D1/E5 THEC64, B4/F2 Venini, C2/C8 barbecue fuel); J7-5 wine re-levelled by appellation > producer > classification; E3-7 orchestral vs folk split by culture; E4-5 Japanese swords by school and period with a smith register; F2-6 ULAN artist register; C3-3 living-plants species register; J2 species vs family consistency; many unsourced icons listed per report (blocked databases: Watchbase, Fragrantica, Parfumo, vitra.com, Shimano).
