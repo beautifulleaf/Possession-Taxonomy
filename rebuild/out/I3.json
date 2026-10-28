@@ -1,7 +1,7 @@
 {
  "c": "I3",
  "rev": true,
- "lead": "Recurring plans, memberships and online services a person pays for or signs up to for personal life, grouped by what they give access to (screen, sound, reading, play and learning, online tools, connection, memberships and clubs, deliveries, retained services and staff), with leading operators by country and their plan types rather than exhaustive provider lists; titles live in the entertainment taxonomies.",
+ "lead": "Recurring plans, memberships and online services a person pays for or signs up to for personal life, grouped by what they give access to (screen, sound, reading, play and learning, online tools, connection, memberships and clubs, deliveries, retained services and staff), with leading operators by country and their plan types rather than exhaustive provider lists; titles live in the entertainment taxonomies; where a plan gives access to software or an asset, the plan is here and the product is in I1 or I2.",
  "b": [],
  "depts": [
   {
@@ -109,44 +109,16 @@
          "Sky Group · UK"
         ],
         [
-         "SkyShowtime",
-         "SkyShowtime · Europe"
-        ],
-        [
          "Viaplay",
          "Viaplay Group · Nordics"
-        ],
-        [
-         "Videoland",
-         "RTL Nederland · Netherlands"
         ],
         [
          "JioHotstar",
          "JioStar · India"
         ],
         [
-         "ZEE5",
-         "Zee Entertainment Enterprises · India"
-        ],
-        [
-         "SonyLIV",
-         "Sony Pictures Networks India · India"
-        ],
-        [
          "iQIYI",
          "Baidu · China"
-        ],
-        [
-         "Tencent Video",
-         "Tencent · China"
-        ],
-        [
-         "Youku",
-         "Alibaba Group · China"
-        ],
-        [
-         "U-Next",
-         "U-Next Holdings · Japan"
         ],
         [
          "Abema",
@@ -157,36 +129,12 @@
          "CJ ENM · South Korea"
         ],
         [
-         "Viu",
-         "PCCW Media · Hong Kong, Asia"
-        ],
-        [
-         "Vidio",
-         "Emtek · Indonesia"
-        ],
-        [
-         "Kinopoisk",
-         "Yandex · Russia"
-        ],
-        [
          "Globoplay",
          "Grupo Globo · Brazil"
         ],
         [
-         "Shahid",
-         "MBC Group · MENA"
-        ],
-        [
-         "Showmax",
-         "MultiChoice Group · Africa"
-        ],
-        [
          "Stan.",
          "Nine Entertainment · Australia"
-        ],
-        [
-         "Binge",
-         "Hubbl (Foxtel) · Australia"
         ],
         [
          "Crave",
@@ -207,18 +155,6 @@
         [
          "CuriosityStream",
          "Curiosity · documentary"
-        ],
-        [
-         "Nebula",
-         "Nebula · creator-owned"
-        ],
-        [
-         "Viki",
-         "Viki · Asian drama"
-        ],
-        [
-         "HayU",
-         "NBCUniversal · reality"
         ]
        ]
       },
@@ -466,40 +402,16 @@
          "NetEase Cloud Music"
         ],
         [
-         "KKBox",
-         "KKBox"
-        ],
-        [
          "Melon",
          "Melon"
-        ],
-        [
-         "Line Music",
-         "Line Music"
         ],
         [
          "JioSaavn",
          "JioSaavn"
         ],
         [
-         "Gaana",
-         "Gaana"
-        ],
-        [
          "Anghami",
          "Anghami"
-        ],
-        [
-         "Boomplay",
-         "Boomplay"
-        ],
-        [
-         "Joox",
-         "Joox"
-        ],
-        [
-         "Audiomack",
-         "Audiomack"
         ]
        ]
       },
@@ -931,7 +843,7 @@
       {
        "n": "Season or battle pass",
        "a": "in-game season pass · battle pass",
-       "d": "Pass bought for a season of one game that unlocks a tiered reward track.",
+       "d": "Pass bought for a season of one game that unlocks a tiered reward track. Plan only; the product or asset is in I1 or I2.",
        "t": [
         "free track",
         "paid track",
@@ -1012,7 +924,7 @@
       {
        "n": "Language-learning plan",
        "a": "language app subscription · language course subscription",
-       "d": "Subscription to an app or online course for learning a foreign language.",
+       "d": "Subscription to an app or online course for learning a foreign language. Plan only; the product or asset is in I1 or I2.",
        "t": [
         "freemium upgrade",
         "full course subscription",
@@ -1080,7 +992,7 @@
       {
        "n": "Cloud storage plan",
        "a": "cloud storage and sync plan · online drive",
-       "d": "Plan giving online storage for the user's files, with sync between devices.",
+       "d": "Plan giving online storage for the user's files, with sync between devices. Plan only; the product or asset is in I1 or I2.",
        "t": [
         "free tier",
         "paid monthly or yearly",
@@ -1296,7 +1208,7 @@
       {
        "n": "VPN service",
        "a": "virtual private network subscription · consumer VPN",
-       "d": "Subscription that routes the user's internet traffic through an encrypted tunnel to the provider's servers.",
+       "d": "Subscription that routes the user's internet traffic through an encrypted tunnel to the provider's servers. Plan only; the product or asset is in I1 or I2.",
        "t": [
         "free tier",
         "monthly",
@@ -1355,7 +1267,7 @@
       {
        "n": "AI assistant subscription",
        "a": "chatbot subscription · AI plan",
-       "d": "Paid plan for a consumer AI chat assistant, giving higher usage limits and stronger models than the free tier.",
+       "d": "Paid plan for a consumer AI chat assistant, giving higher usage limits and stronger models than the free tier. Plan only; the product or asset is in I1 or I2.",
        "t": [
         "entry plan",
         "standard plan",
@@ -1449,7 +1361,6 @@
        "t": [
         "shared web hosting",
         "website builder plan",
-        "domain name",
         "game server"
        ],
        "s": "https://www.hostinger.com/shared-hosting",
@@ -1483,7 +1394,7 @@
       {
        "n": "Stock library subscription",
        "a": "asset-library subscription",
-       "d": "Plan giving access to a library of images, video, sounds, fonts or templates for making work. Each licensed item is in Digital Media & Items.",
+       "d": "Plan giving access to a library of images, video, sounds, fonts or templates for making work. Each licensed item is in Digital Media & Items. Plan only; the product or asset is in I1 or I2.",
        "t": [
         "images",
         "video",
@@ -1669,20 +1580,8 @@
          "Verizon · US MVNO"
         ],
         [
-         "Metro by T-Mobile",
-         "T-Mobile · US MVNO"
-        ],
-        [
          "Mint Mobile",
          "T-Mobile · US MVNO"
-        ],
-        [
-         "Cricket Wireless",
-         "AT&T · US MVNO"
-        ],
-        [
-         "Xfinity Mobile",
-         "Xfinity · US MVNO"
         ],
         [
          "Rogers",
@@ -1693,24 +1592,8 @@
          "Bell Canada · Canada"
         ],
         [
-         "Telus",
-         "Telus Communications · Canada"
-        ],
-        [
-         "Freedom Mobile",
-         "Quebecor · Canada"
-        ],
-        [
          "Vivo",
          "Telefônica Brasil · Brazil"
-        ],
-        [
-         "Claro",
-         "América Móvil · Brazil"
-        ],
-        [
-         "TIM Brasil",
-         "Telecom Italia · Brazil"
         ],
         [
          "VodafoneThree",
@@ -1721,40 +1604,8 @@
          "Virgin Media O2 · UK MVNO, Which? Recommended, Expert Reviews best overall"
         ],
         [
-         "Talkmobile",
-         "VodafoneThree · UK, Which? Recommended"
-        ],
-        [
-         "VOXI",
-         "VodafoneThree · UK, Which? Recommended"
-        ],
-        [
-         "SMARTY",
-         "VodafoneThree · UK"
-        ],
-        [
          "Tesco Mobile",
          "Tesco · UK, Which? Recommended"
-        ],
-        [
-         "1pMobile",
-         "1pMobile · UK, Which? Recommended"
-        ],
-        [
-         "Lebara",
-         "Lebara · UK, Expert Reviews best value"
-        ],
-        [
-         "Sky Mobile",
-         "Sky · UK"
-        ],
-        [
-         "iD Mobile",
-         "iD Mobile · UK"
-        ],
-        [
-         "Vodafone Germany",
-         "Vodafone Group · Germany"
         ],
         [
          "1&1",
@@ -1769,40 +1620,16 @@
          "Altice France · France"
         ],
         [
-         "Bouygues Telecom",
-         "Bouygues · France"
-        ],
-        [
          "Free Mobile",
          "Iliad · France"
-        ],
-        [
-         "Fastweb + Vodafone",
-         "Swisscom · Italy"
         ],
         [
          "TIM",
          "TIM Group · Italy"
         ],
         [
-         "Wind Tre",
-         "CK Hutchison · Italy"
-        ],
-        [
-         "Iliad",
-         "Iliad · Italy"
-        ],
-        [
          "Movistar",
          "Telefónica · Spain"
-        ],
-        [
-         "DIGI",
-         "Digi Communications · Spain"
-        ],
-        [
-         "Odido",
-         "Odido · Netherlands"
         ],
         [
          "KPN",
@@ -1813,52 +1640,12 @@
          "Swisscom · Switzerland"
         ],
         [
-         "Sunrise",
-         "Sunrise · Switzerland"
-        ],
-        [
-         "Salt",
-         "Salt · Switzerland"
-        ],
-        [
          "Telia",
          "Telia Company · Sweden, Norway, Finland"
         ],
         [
-         "Telenor",
-         "Telenor · Norway, Sweden, Denmark"
-        ],
-        [
-         "Tele2",
-         "Tele2 · Sweden"
-        ],
-        [
-         "Ice",
-         "Lyse · Norway"
-        ],
-        [
-         "TDC",
-         "TDC · Denmark"
-        ],
-        [
-         "Norlys",
-         "Norlys · Denmark"
-        ],
-        [
-         "Elisa",
-         "Elisa · Finland"
-        ],
-        [
-         "DNA",
-         "DNA · Finland"
-        ],
-        [
          "au",
          "KDDI · Japan"
-        ],
-        [
-         "SoftBank",
-         "SoftBank Group · Japan"
         ],
         [
          "Rakuten Mobile",
@@ -1869,16 +1656,8 @@
          "Vodafone Idea · India"
         ],
         [
-         "BSNL",
-         "Government of India · India"
-        ],
-        [
          "China Telecom",
          "China Telecom · China"
-        ],
-        [
-         "China Unicom",
-         "China Unicom · China"
         ],
         [
          "Telstra",
@@ -1887,10 +1666,6 @@
         [
          "Optus",
          "Singtel · Australia"
-        ],
-        [
-         "Vodafone AU",
-         "TPG Telecom · Australia"
         ]
        ]
       },
@@ -2018,36 +1793,8 @@
          "Hyperoptic · UK"
         ],
         [
-         "Community Fibre",
-         "Community Fibre · UK"
-        ],
-        [
-         "TalkTalk",
-         "TalkTalk · UK"
-        ],
-        [
-         "EE Broadband",
-         "EE · UK"
-        ],
-        [
-         "Vodafone Broadband",
-         "Vodafone · UK"
-        ],
-        [
-         "Utility Warehouse",
-         "Utility Warehouse · UK"
-        ],
-        [
-         "Now Broadband",
-         "Now · UK"
-        ],
-        [
          "SFR",
          "Altice France · France"
-        ],
-        [
-         "B&You Pure Fibre",
-         "Bouygues Telecom · France"
         ]
        ]
       },
@@ -2335,6 +2082,66 @@
           }
          ],
          "dt": "application · no photography"
+        },
+        {
+         "n": "Garrick Club",
+         "a": "",
+         "d": "London club founded in 1831 with ties to theatre and the arts, named after the actor David Garrick.",
+         "mk": "",
+         "y": "1831",
+         "s": "https://en.wikipedia.org/wiki/Garrick_Club",
+         "v": [],
+         "dt": "election by members · arts and law"
+        },
+        {
+         "n": "Brooks's",
+         "a": "",
+         "d": "Selective gentlemen's club at 60 St James's Street, London, founded in 1764.",
+         "mk": "",
+         "y": "1764",
+         "s": "https://en.wikipedia.org/wiki/Brooks's",
+         "v": [],
+         "dt": "election by members"
+        },
+        {
+         "n": "Boodle's",
+         "a": "",
+         "d": "London members' club at 28 St James's Street, founded in 1762 by Lord Shelburne.",
+         "mk": "",
+         "y": "1762",
+         "s": "https://en.wikipedia.org/wiki/Boodle's",
+         "v": [],
+         "dt": "election by members"
+        },
+        {
+         "n": "Knickerbocker Club",
+         "a": "",
+         "d": "Manhattan gentlemen's club at 2 East 62nd Street, founded in 1871.",
+         "mk": "",
+         "y": "1871",
+         "s": "https://en.wikipedia.org/wiki/Knickerbocker_Club",
+         "v": [],
+         "dt": "election by members"
+        },
+        {
+         "n": "5 Hertford Street",
+         "a": "",
+         "d": "Mayfair members-only club opened in 2012, owned by Robin Birley.",
+         "mk": "",
+         "y": "2012",
+         "s": "https://en.wikipedia.org/wiki/5_Hertford_Street",
+         "v": [],
+         "dt": "members only · private club and nightclub"
+        },
+        {
+         "n": "Hong Kong Club",
+         "a": "",
+         "d": "Hong Kong's oldest private members' club, opened in 1846.",
+         "mk": "",
+         "y": "1846",
+         "s": "https://en.wikipedia.org/wiki/Hong_Kong_Club",
+         "v": [],
+         "dt": "business and dining club"
         }
        ]
       },
@@ -2462,6 +2269,48 @@
          "Velocity Frequent Flyer",
          "Virgin Australia"
         ]
+       ],
+       "x": [
+        {
+         "n": "AA ConciergeKey",
+         "a": "Concierge Key · CK",
+         "d": "American Airlines' invitation-only status above Executive Platinum, with no published criteria.",
+         "mk": "American Airlines",
+         "y": "",
+         "s": "https://onemileatatime.com/guides/american-airlines-concierge-key/",
+         "v": [],
+         "dt": "invitation only · renewed each programme year"
+        },
+        {
+         "n": "United Global Services",
+         "a": "GS",
+         "d": "United's top MileagePlus tier, mainly by invitation; four million lifetime miles on United also qualify.",
+         "mk": "United Airlines",
+         "y": "",
+         "s": "https://www.pointhacks.com.au/mileageplus/united-global-services/",
+         "v": [],
+         "dt": "invitation or Million Miler route"
+        },
+        {
+         "n": "BA Premier",
+         "a": "",
+         "d": "British Airways' invitation-only tier for holders of large travel budgets, with no published criteria.",
+         "mk": "British Airways",
+         "y": "",
+         "s": "https://travellingonpoints.com/article/airlines/british-airways/british-airways-premier-explained/",
+         "v": [],
+         "dt": "invitation only · nomination"
+        },
+        {
+         "n": "Lufthansa HON Circle",
+         "a": "HON Circle Member",
+         "d": "Miles & More top tier, earned with 6,000 points a year on first and business class flights.",
+         "mk": "Lufthansa Group",
+         "y": "",
+         "s": "https://onemileatatime.com/guides/lufthansa-hon-circle/",
+         "v": [],
+         "dt": "points-based (not invitation) · first and business class only"
+        }
        ]
       },
       {
@@ -2637,7 +2486,7 @@
        "a": "club subscription · society membership · association membership",
        "d": "Membership of a club or society for a sport, hobby or interest, usually paid yearly.",
        "t": [
-        "single-sport club (tennis, sailing, rowing, cricket)",
+        "single-sport club",
         "multi-sport or athletic club",
         "mountaineering or alpine club",
         "enthusiast society or campaign group",
@@ -2673,7 +2522,7 @@
         "budget gym (low-cost, 24-hour)",
         "mid-market gym",
         "premium health club (pools, spa, racquets)",
-        "boutique studio (HIIT, cycling, yoga, boxing)",
+        "boutique studio",
         "public pool or leisure centre",
         "climbing wall",
         "single-site or all-club access",
@@ -2700,10 +2549,6 @@
         [
          "Crunch Fitness",
          "Crunch Fitness"
-        ],
-        [
-         "24 Hour Fitness",
-         "24 Hour Fitness"
         ],
         [
          "Anytime Fitness",
@@ -2738,28 +2583,8 @@
          "RSG Group"
         ],
         [
-         "John Reed Fitness",
-         "RSG Group"
-        ],
-        [
          "GoodLife Fitness",
          "GoodLife Fitness"
-        ],
-        [
-         "Jetts Fitness",
-         "Jetts Fitness"
-        ],
-        [
-         "Fitness First",
-         "Fitness First"
-        ],
-        [
-         "F45 Training",
-         "F45 Training"
-        ],
-        [
-         "Orangetheory Fitness",
-         "Orangetheory Fitness"
         ]
        ]
       },
@@ -2799,7 +2624,7 @@
      "n": "Museums, attractions & season tickets",
      "k": [
       {
-       "n": "Annual pass",
+       "n": "Single-venue annual pass",
        "a": "single-venue annual pass · museum membership · zoo membership · theme-park pass",
        "d": "Annual pass or membership for one museum, zoo, garden, aquarium or theme park.",
        "t": [
@@ -2826,7 +2651,7 @@
        ]
       },
       {
-       "n": "Multi-site membership",
+       "n": "Heritage & parks membership",
        "a": "heritage membership · national park pass",
        "d": "Membership or pass giving entry to one body's network of sites.",
        "t": [
@@ -2857,7 +2682,7 @@
        ]
       },
       {
-       "n": "Multi-venue pass",
+       "n": "City & museum pass",
        "a": "multi-venue pass scheme · city pass · attraction pass",
        "d": "Pass giving entry to many bodies' venues under one scheme.",
        "t": [
@@ -2907,6 +2732,28 @@
          "Jets Flight Club Season Ticket Membership",
          "New York Jets"
         ]
+       ],
+       "x": [
+        {
+         "n": "Epic Pass",
+         "a": "",
+         "d": "Vail Resorts' multi-resort ski season pass, with partner resorts in several countries.",
+         "mk": "Vail Resorts",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Epic_Pass",
+         "v": [],
+         "dt": "full or limited-day tiers · partner resorts"
+        },
+        {
+         "n": "Ikon Pass",
+         "a": "",
+         "d": "Alterra Mountain Company's multi-resort ski season pass, announced in January 2018.",
+         "mk": "Alterra Mountain Company",
+         "y": "2018",
+         "s": "https://en.wikipedia.org/wiki/Ikon_Pass",
+         "v": [],
+         "dt": "full or base tiers · partner resorts"
+        }
        ]
       }
      ]
@@ -4004,11 +3851,7 @@
        "m": [
         [
          "Personal shopping",
-         "Harrods · UK"
-        ],
-        [
-         "Personal shopping",
-         "Selfridges · UK"
+         "Harrods · Selfridges · UK"
         ],
         [
          "Style concierge",
@@ -4082,10 +3925,6 @@
        "s": "https://en.wikipedia.org/wiki/Quintessentially_Group",
        "m": [
         [
-         "Lifestyle management membership (UK)",
-         "Quintessentially"
-        ],
-        [
          "Travel and lifestyle concierge (UK)",
          "Ten Lifestyle Group"
         ],
@@ -4093,6 +3932,18 @@
          "Premium concierge and loyalty services (France)",
          "John Paul"
         ]
+       ],
+       "x": [
+        {
+         "n": "Quintessentially",
+         "a": "",
+         "d": "Members-only lifestyle management and concierge service covering travel, dining and events.",
+         "mk": "Quintessentially",
+         "y": "2000",
+         "s": "https://en.wikipedia.org/wiki/Quintessentially_Group",
+         "v": [],
+         "dt": "individual and corporate memberships"
+        }
        ]
       },
       {
@@ -4173,20 +4024,12 @@
        "s": "https://en.wikipedia.org/wiki/Jet_card",
        "m": [
         [
-         "Fractional ownership and jet card (US)",
-         "NetJets"
-        ],
-        [
          "Fractional ownership, lease and jet card (US)",
          "Flexjet"
         ],
         [
          "Jet card, the first, 1999 (US)",
          "Sentient Jet"
-        ],
-        [
-         "Program multi-year subscription (Malta)",
-         "VistaJet"
         ],
         [
          "Membership and on-demand flights (US)",
@@ -4196,6 +4039,28 @@
          "Private aviation membership (US)",
          "Wheels Up"
         ]
+       ],
+       "x": [
+        {
+         "n": "NetJets",
+         "a": "",
+         "d": "Fractional ownership of business jets, plus jet cards sold as 25-hour blocks.",
+         "mk": "NetJets",
+         "y": "1964",
+         "s": "https://en.wikipedia.org/wiki/NetJets",
+         "v": [],
+         "dt": "fractional share · jet card"
+        },
+        {
+         "n": "VistaJet Program",
+         "a": "",
+         "d": "Multi-year subscription guaranteeing availability, with jets hired by the hour flown.",
+         "mk": "VistaJet",
+         "y": "2004",
+         "s": "https://en.wikipedia.org/wiki/VistaJet",
+         "v": [],
+         "dt": "Program subscription · Direct on request"
+        }
        ]
       },
       {

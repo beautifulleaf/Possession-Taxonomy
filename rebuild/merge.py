@@ -46,6 +46,8 @@ for c in sys.argv[1:]:
                 if k is not None:
                     for f in ('m', 'r'):
                         k[f] = (k.get(f) or []) + [x for x in (m['kind'].get(f) or []) if x not in (k.get(f) or [])]
+                    have = {x['n'] for x in (k.get('x') or [])}  # archetypes too, by name
+                    k['x'] = (k.get('x') or []) + [x for x in (m['kind'].get('x') or []) if x['n'] not in have]
                     print('folded', src + '>' + c + ':' + m['kind']['n'], 'into', cov); continue
             put(d, m, src + '>' + c + ':' + m['kind']['n']); names.add(m['kind']['n'].lower())
             print('re-applied', src + '>' + c + ':' + m['kind']['n'])
