@@ -8,6 +8,9 @@ covered = json.load(open('moves_covered.json')) if os.path.exists('moves_covered
 # or "-" to drop it (catch-alls and duplicates the target already covers)
 place = json.load(open('moves_place.json')) if os.path.exists('moves_place.json') else {}
 def put(t, m, key):
+    k = m['kind']
+    for f in ('m', 'r'):  # moved kinds can carry repeated model rows; keep the first of each
+        if k.get(f): k[f] = [list(x) for x in dict.fromkeys(tuple(x) for x in k[f])]
     dest = place.get(key)
     if dest == '-': print('dropped', key); return
     if dest:
