@@ -323,6 +323,29 @@
          "s": "https://astronomy2009.org/globalprojects/cornerstones/galileoscope/index.html",
          "v": [],
          "dt": "50 mm · 25–50×"
+        },
+        {
+         "n": "Dollond achromatic refractor",
+         "a": "",
+         "d": "Achromatic refracting telescope from the London firm of John and Peter Dollond, built on John Dollond's 1758 patent.",
+         "mk": "Dollond",
+         "y": "1758",
+         "s": "https://en.wikipedia.org/wiki/Achromatic_lens",
+         "v": [
+          {
+           "n": "Vine Street business opened",
+           "mk": "Dollond",
+           "y": "1750",
+           "d": "Peter Dollond, near Hatton Garden"
+          },
+          {
+           "n": "John Dollond achromatic patent",
+           "mk": "Dollond",
+           "y": "1758",
+           "d": ""
+          }
+         ],
+         "dt": "brass tube · achromatic doublet objective"
         }
        ],
        "m": [
@@ -407,6 +430,16 @@
        "s": "https://www.astroshop.eu/telescopes/10/a,Teleskope.Optik.Bauart=Cassegrain/a,Teleskope.Optik.Bauart=Maksutov-Newton/a,Teleskope.Optik.Bauart=Newton/a,Teleskope.Optik.Bauart=Schmidt-Cassegrain/a,Teleskope.Optik.Bauart=Schmidt-Newton",
        "x": [
         {
+         "n": "Newton's reflector",
+         "a": "",
+         "d": "The original reflecting telescope: concave primary and flat diagonal sending the image out of the side of the tube.",
+         "mk": "",
+         "y": "1668",
+         "s": "https://en.wikipedia.org/wiki/Newtonian_telescope",
+         "v": [],
+         "dt": "tube or truss · on equatorial or alt-az mount"
+        },
+        {
          "n": "Dobsonian",
          "a": "",
          "d": "Newtonian on a simple rocker-box alt-az base, devised to put large apertures in amateur hands.",
@@ -419,30 +452,6 @@
            "mk": "",
            "y": "1965",
            "d": "original rocker-box design"
-          },
-          {
-           "n": "Odyssey",
-           "mk": "Coulter Optical",
-           "y": "1980s",
-           "d": "cheap large-aperture Dobs with Sonotube tubes"
-          },
-          {
-           "n": "Odyssey Compact 10.1",
-           "mk": "Coulter Optical",
-           "y": "1980s",
-           "d": "10.1-inch f/4.5"
-          },
-          {
-           "n": "Obsession truss Dobsonian",
-           "mk": "Obsession Telescopes",
-           "y": "1989",
-           "d": "first commercial truss Dob, 12.5–25 in"
-          },
-          {
-           "n": "Obsession Ultra Compact",
-           "mk": "Obsession Telescopes",
-           "y": "2007",
-           "d": "more portable truss line"
           },
           {
            "n": "SkyQuest XT8 Plus",
@@ -484,14 +493,60 @@
          "dt": "aperture 4.5–36 in · f/3–6 · solid, collapsible or truss tube · push-to or GoTo"
         },
         {
-         "n": "Newton's reflector",
+         "n": "Coulter Odyssey",
          "a": "",
-         "d": "The original reflecting telescope: concave primary and flat diagonal sending the image out of the side of the tube.",
-         "mk": "",
-         "y": "1668",
-         "s": "https://en.wikipedia.org/wiki/Newtonian_telescope",
+         "d": "Large-aperture Dobsonians built on Sonotube tubes by Coulter Optical, which helped popularise the type.",
+         "mk": "Coulter Optical",
+         "y": "1980s",
+         "s": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+         "v": [
+          {
+           "n": "Odyssey",
+           "mk": "Coulter Optical",
+           "y": "1980s",
+           "d": "cheap large-aperture Dobs with Sonotube tubes"
+          },
+          {
+           "n": "Odyssey Compact 10.1",
+           "mk": "Coulter Optical",
+           "y": "1980s",
+           "d": "10.1-inch f/4.5"
+          }
+         ],
+         "dt": "aperture sizes in several diameters · cardboard-composite tube"
+        },
+        {
+         "n": "Obsession truss Dobsonian",
+         "a": "",
+         "d": "The first commercial truss-tube Dobsonian, a collapsible design for large apertures.",
+         "mk": "Obsession Telescopes",
+         "y": "1989",
+         "s": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+         "v": [
+          {
+           "n": "Obsession truss Dobsonian",
+           "mk": "Obsession Telescopes",
+           "y": "1989",
+           "d": "first commercial truss Dob, 12.5–25 in"
+          },
+          {
+           "n": "Obsession Ultra Compact",
+           "mk": "Obsession Telescopes",
+           "y": "2007",
+           "d": "more portable truss line"
+          }
+         ],
+         "dt": "truss tube · large aperture"
+        },
+        {
+         "n": "Edmund Astroscan",
+         "a": "Astroscan",
+         "d": "Compact 4.25-inch f/4.2 Newtonian in a plastic ball-shaped body, sold for wide-field viewing by beginners.",
+         "mk": "Edmund Scientific",
+         "y": "1976",
+         "s": "https://en.wikipedia.org/wiki/Astroscan",
          "v": [],
-         "dt": "tube or truss · on equatorial or alt-az mount"
+         "dt": "ABS body · 15 mm and 28 mm eyepieces · production ended 2013"
         }
        ],
        "m": [
@@ -1837,14 +1892,17 @@
        ]
       },
       {
-       "n": "Telescope tripod",
-       "a": "",
-       "d": "Tripod made to carry a telescope mount head, sold apart from the mount; a universal photo tripod is in Cameras & Photography.",
+       "n": "Mount accessory",
+       "a": "tripod · equatorial wedge · polar scope",
+       "d": "Tripods, equatorial wedges, polar scopes, counterweights and rings that support, align and balance a telescope on its mount.",
        "t": [
-        "wooden",
-        "steel",
-        "carbon fibre",
-        "pier"
+        "telescope tripod",
+        "equatorial wedge",
+        "polar scope",
+        "counterweight",
+        "tube rings",
+        "dovetail bar",
+        "pier extension"
        ],
        "s": "https://www.astroshop.eu/mounts-accessories/15_55",
        "m": [
@@ -1871,15 +1929,7 @@
         [
          "TC40 tripod",
          "ZWO"
-        ]
-       ]
-      },
-      {
-       "n": "Equatorial wedge",
-       "a": "polar wedge",
-       "d": "Tilting plate that sets a fork or alt-az telescope mount at the latitude angle to track equatorially.",
-       "s": "https://www.astroshop.eu/mounts-accessories/15_55",
-       "m": [
+        ],
         [
          "900WDGA Hi-Lo Latitude Wedge",
          "Astro-Physics"
@@ -1903,19 +1953,7 @@
         [
          "MH-100",
          "Bresser"
-        ]
-       ]
-      },
-      {
-       "n": "Polar scope",
-       "a": "pole finder · polar finder",
-       "d": "Small sighting scope or camera fitted to an equatorial mount's polar axis to align it on the celestial pole.",
-       "t": [
-        "optical polar scope",
-        "electronic polar camera"
-       ],
-       "s": "https://www.astroshop.eu/mounts-accessories/15_55",
-       "m": [
+        ],
         [
          "PoleMaster",
          "QHY"
@@ -1939,22 +1977,7 @@
         [
          "AccuAlign",
          "iOptron"
-        ]
-       ]
-      },
-      {
-       "n": "Mount hardware",
-       "a": "counterweight · tube rings · dovetail bar",
-       "d": "Counterweights, tube rings, dovetail bars and pier extensions that join a telescope to its mount and balance it.",
-       "t": [
-        "counterweight",
-        "tube rings",
-        "dovetail bar (Vixen style)",
-        "dovetail bar (Losmandy D style)",
-        "pier extension"
-       ],
-       "s": "https://www.astroshop.eu/mounts-accessories/15_55",
-       "m": [
+        ],
         [
          "Counterweight 2.6kg",
          "Omegon"
@@ -4096,6 +4119,16 @@
        "s": "https://www.microscope.com/education-center/buyers-guides/how-to-buy",
        "x": [
         {
+         "n": "Culpeper-type microscope",
+         "a": "",
+         "d": "Tripod-mounted compound microscope of the kind made by London instrument maker Edmund Culpeper.",
+         "mk": "Edmund Culpeper",
+         "y": "c.1700",
+         "s": "https://en.wikipedia.org/wiki/Edmund_Culpeper",
+         "v": [],
+         "dt": "tripod stand · antique brass"
+        },
+        {
          "n": "Powell & Lealand No. 1",
          "a": "",
          "d": "Large brass bar-limb research stand, the flagship of Victorian British microscopy, made almost unchanged for about 40 years.",
@@ -5061,7 +5094,10 @@
         "Wi-Fi / app-only (no console)",
         "fan-aspirated radiation shield",
         "ultrasonic anemometer",
-        "indoor-outdoor thermo-hygrometer type"
+        "indoor-outdoor thermo-hygrometer type",
+        "wind vane",
+        "windsock",
+        "solar radiation sensor"
        ],
        "s": "https://www.astroshop.eu/miscellaneous/weather-stations/44",
        "x": [
@@ -5240,6 +5276,10 @@
         [
          "Kestrel 5500",
          "Nielsen-Kellerman"
+        ],
+        [
+         "SP-110",
+         "Apogee Instruments"
         ]
        ]
       },
@@ -5409,44 +5449,12 @@
          "TFA Dostmann"
         ]
        ]
-      },
-      {
-       "n": "Wind vane",
-       "a": "weathervane · weathercock",
-       "d": "Pivoting vane that turns to show the wind direction, from a sensor vane to a decorative roof weathervane.",
-       "t": [
-        "decorative roof weathervane",
-        "weathercock",
-        "sensor vane for a weather station"
-       ],
-       "s": "https://tools.woot.com/offers/rooster-weathervane-pure-copper-w-garden-pole"
-      },
-      {
-       "n": "Windsock",
-       "a": "wind cone",
-       "d": "Tapered fabric sleeve that shows wind direction and strength.",
-       "t": [
-        "garden",
-        "airfield-pattern"
-       ],
-       "s": "https://www.aviationpros.com/directory/airport-facilities-buildings/product/55403700/the-custom-windsock-company-airport-windsock-faa-compliant-orange"
-      },
-      {
-       "n": "Solar radiation sensor",
-       "a": "pyranometer · UV sensor",
-       "d": "Sensor that measures sunlight (solar radiation), often added to a home weather station.",
-       "t": [
-        "silicon-cell pyranometer",
-        "UV sensor"
-       ],
-       "s": "https://campbellsci.com.au/sp-110",
-       "m": [
-        [
-         "SP-110",
-         "Apogee Instruments"
-        ]
-       ]
-      },
+      }
+     ]
+    },
+    {
+     "n": "Earth & radiation sensors",
+     "k": [
       {
        "n": "Geiger counter",
        "a": "radiation detector · dosimeter",
@@ -5772,7 +5780,12 @@
          "dt": "RF monogram · aneroid stack · drum"
         }
        ]
-      },
+      }
+     ]
+    },
+    {
+     "n": "Weather curios",
+     "k": [
       {
        "n": "Storm glass",
        "a": "chemical weather glass · FitzRoy's storm barometer",
@@ -6343,28 +6356,15 @@
      "n": "Glassware & labware",
      "k": [
       {
-       "n": "Beaker",
-       "a": "",
-       "d": "Wide cylindrical open vessel with a spout, for holding, mixing and heating liquids.",
-       "s": "https://www.labdepotinc.com/laboratory-glassware",
+       "n": "Laboratory glassware",
+       "a": "beaker · flask · test tube",
+       "d": "Beakers, flasks, test tubes and distillation glassware for holding, heating and mixing liquids.",
+       "s": "https://chemglass.com/flasks?orderby=11&pagenumber=2&pagesize=36",
        "m": [
         [
          "Griffin Low Form Beakers",
          "Pyrex"
-        ]
-       ]
-      },
-      {
-       "n": "Laboratory flask",
-       "a": "Erlenmeyer flask · conical flask · volumetric flask",
-       "d": "Glass flask with a narrow neck for mixing, heating or making up an exact volume.",
-       "t": [
-        "Erlenmeyer (conical)",
-        "volumetric",
-        "Florence"
-       ],
-       "s": "https://www.labdepotinc.com/laboratory-glassware",
-       "m": [
+        ],
         [
          "KIMAX Graduated Narrow Mouth Erlenmeyer Flasks",
          "DWK Life Sciences"
@@ -6372,22 +6372,36 @@
         [
          "KIMAX Class A Volumetric Flasks",
          "DWK Life Sciences"
+        ],
+        [
+         "KIMAX Round Bottom Boiling Flasks",
+         "DWK Life Sciences"
+        ],
+        [
+         "Borosilicate Glass Round Bottom Boiling Flasks",
+         "United Scientific Supplies"
+        ],
+        [
+         "SYNTHWARE Round Bottom Flasks",
+         "Kemtech America"
         ]
+       ],
+       "t": [
+        "beaker",
+        "flask",
+        "test tube",
+        "round-bottom flask",
+        "condenser",
+        "still head"
        ]
       },
       {
-       "n": "Test tube",
-       "a": "",
-       "d": "Small tube closed at one end, for holding or heating a small sample.",
-       "s": "https://www.labdepotinc.com/laboratory-glassware"
-      },
-      {
-       "n": "Graduated cylinder",
-       "a": "measuring cylinder",
-       "d": "Tall cylinder with a volume scale, for measuring liquid volume.",
+       "n": "Measuring & dispensing",
+       "a": "graduated cylinder · pipette",
+       "d": "Graduated cylinders and pipettes that measure and transfer set volumes of liquid.",
        "t": [
-        "glass",
-        "plastic"
+        "graduated cylinder",
+        "pipette"
        ],
        "s": "https://www.labdepotinc.com/laboratory-glassware",
        "m": [
@@ -6410,20 +6424,7 @@
         [
          "Nalgene PMP Graduated Cylinders",
          "Thermo Scientific"
-        ]
-       ]
-      },
-      {
-       "n": "Pipette",
-       "a": "micropipette · burette",
-       "d": "Tube for drawing up and delivering a measured amount of liquid, including the tapped burette.",
-       "t": [
-        "glass pipette",
-        "micropipette",
-        "burette"
-       ],
-       "s": "https://www.labdepotinc.com/laboratory-glassware",
-       "m": [
+        ],
         [
          "Research plus",
          "Eppendorf"
@@ -6453,69 +6454,6 @@
          "Eisco"
         ]
        ]
-      },
-      {
-       "n": "Distillation glassware",
-       "a": "round-bottom flask · condenser",
-       "d": "Round-bottom flasks, condensers and joints for distilling or refluxing liquids.",
-       "t": [
-        "round-bottom flask",
-        "Liebig condenser",
-        "Allihn condenser",
-        "Graham condenser",
-        "Dimroth condenser",
-        "Friedrichs condenser",
-        "West condenser",
-        "Davies condenser",
-        "still head"
-       ],
-       "s": "https://chemglass.com/flasks?orderby=11&pagenumber=2&pagesize=36",
-       "m": [
-        [
-         "KIMAX Round Bottom Boiling Flasks",
-         "DWK Life Sciences"
-        ],
-        [
-         "Borosilicate Glass Round Bottom Boiling Flasks",
-         "United Scientific Supplies"
-        ],
-        [
-         "SYNTHWARE Round Bottom Flasks",
-         "Kemtech America"
-        ]
-       ]
-      },
-      {
-       "n": "Petri dish",
-       "a": "",
-       "d": "Shallow lidded dish for culturing cells or microbes.",
-       "s": "https://www.labdepotinc.com/laboratory-glassware",
-       "m": [
-        [
-         "Falcon Bacteriological Petri Dishes",
-         "Corning"
-        ],
-        [
-         "Sterilin Petri Dishes",
-         "Thermo Scientific"
-        ]
-       ]
-      },
-      {
-       "n": "Dissection set",
-       "a": "",
-       "d": "Set of instruments for dissecting specimens.",
-       "s": "https://www.wiltronics.com.au/product/92418/dissecting-set-10-piece/",
-       "m": [
-        [
-         "Deluxe Dissection Kit",
-         "Dr Instruments"
-        ],
-        [
-         "Economy Dissecting Set",
-         "Ward's Science"
-        ]
-       ]
       }
      ]
     },
@@ -6523,13 +6461,14 @@
      "n": "Home lab instruments",
      "k": [
       {
-       "n": "Laboratory balance",
-       "a": "milligram balance · precision scale",
-       "d": "Balance made to weigh small samples precisely.",
+       "n": "Lab instruments",
+       "a": "balance · stirrer · centrifuge",
+       "d": "Small bench instruments for weighing, heating, stirring and separating samples.",
        "t": [
-        "analytical",
-        "precision",
-        "compact"
+        "laboratory balance",
+        "laboratory thermometer",
+        "magnetic stirrer",
+        "mini centrifuge"
        ],
        "s": "https://www.labdepotinc.com/c-91-laboratory-equipment",
        "m": [
@@ -6544,19 +6483,7 @@
         [
          "Accuris Compact balances",
          "Accuris Instruments"
-        ]
-       ]
-      },
-      {
-       "n": "Laboratory thermometer",
-       "a": "",
-       "d": "Thermometer made to read the temperature of a sample, liquid-in-glass or digital probe.",
-       "t": [
-        "liquid-in-glass",
-        "digital probe"
-       ],
-       "s": "https://brannan.co.uk/about-brannan/",
-       "m": [
+        ],
         [
          "Checktemp 1",
          "Hanna Instruments"
@@ -6568,20 +6495,7 @@
         [
          "Digi-Sense Advanced Precalibrated Thermocouple Thermometer",
          "Digi-Sense"
-        ]
-       ]
-      },
-      {
-       "n": "Magnetic stirrer",
-       "a": "laboratory stirrer · stir plate",
-       "d": "Device that mixes a liquid with a stirring bar or paddle, often with a heating plate; home brewers use one for yeast starters.",
-       "t": [
-        "magnetic stirrer",
-        "hotplate stirrer",
-        "overhead stirrer"
-       ],
-       "s": "https://www.spectaris.de/en/company/analytical-biological-and-laboratory-techniques/labortechnik",
-       "m": [
+        ],
         [
          "RCT basic",
          "IKA"
@@ -6597,15 +6511,7 @@
         [
          "Isotemp hotplate stirrer",
          "Fisherbrand"
-        ]
-       ]
-      },
-      {
-       "n": "Mini centrifuge",
-       "a": "centrifuge · microcentrifuge",
-       "d": "Small benchtop machine that spins sample tubes to separate their parts.",
-       "s": "https://www.labdepotinc.com/c-91-laboratory-equipment",
-       "m": [
+        ],
         [
          "5452 Minispin",
          "Eppendorf"
@@ -6621,11 +6527,27 @@
        ]
       },
       {
-       "n": "Incubator",
-       "a": "laboratory incubator",
-       "d": "Chamber that holds samples at a set warm temperature.",
-       "s": "https://www.labdepotinc.com/c-91-laboratory-equipment",
+       "n": "Culture & sterile kit",
+       "a": "petri dish · incubator",
+       "d": "Petri dishes, dissection sets, incubators and sterile hoods for growing cultures and preparing specimens.",
+       "s": "https://www.labdepotinc.com/laboratory-glassware",
        "m": [
+        [
+         "Falcon Bacteriological Petri Dishes",
+         "Corning"
+        ],
+        [
+         "Sterilin Petri Dishes",
+         "Thermo Scientific"
+        ],
+        [
+         "Deluxe Dissection Kit",
+         "Dr Instruments"
+        ],
+        [
+         "Economy Dissecting Set",
+         "Ward's Science"
+        ],
         [
          "Digital Mini Incubator",
          "Fisherbrand"
@@ -6637,19 +6559,7 @@
         [
          "Mini Series Classic Vertical Incubator",
          "Genlab"
-        ]
-       ]
-      },
-      {
-       "n": "Laminar-flow hood",
-       "a": "laminar-flow cabinet · clean bench · flow hood",
-       "d": "Cabinet that blows HEPA-filtered air over the work surface to keep samples free of contamination; mushroom growers use small ones.",
-       "t": [
-        "horizontal flow",
-        "vertical flow"
-       ],
-       "s": "https://www.labdepotinc.com/c-91-laboratory-equipment",
-       "m": [
+        ],
         [
          "Airstream Horizontal Laminar Flow Cabinet LHG",
          "Esco Lifesciences"
@@ -6658,7 +6568,25 @@
          "Purifier Horizontal Clean Bench",
          "Labconco"
         ]
+       ],
+       "t": [
+        "petri dish",
+        "dissection set",
+        "incubator",
+        "laminar-flow hood"
        ]
+      },
+      {
+       "n": "Spectroscope",
+       "a": "hand spectroscope · spectrometer",
+       "d": "Instrument that splits light into a spectrum, with a prism or grating, to identify materials or light sources.",
+       "t": [
+        "prism",
+        "diffraction grating",
+        "hand-held",
+        "gemmological"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Spectroscope"
       }
      ]
     }
