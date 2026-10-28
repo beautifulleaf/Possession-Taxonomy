@@ -66,7 +66,7 @@
       {
        "n": "Single-origin coffee",
        "a": "origin coffee · estate coffee",
-       "d": "Roasted coffee sold by country, region, estate or cooperative; whole bean, ground or drip bag.",
+       "d": "Roasted coffee sold by country, region, estate or cooperative; whole bean, ground or drip bag. Organised country → region → estate; variety and process are separate axes.",
        "t": [
         "whole bean",
         "ground",
@@ -75,65 +75,39 @@
        "s": "https://volcanicacoffee.com/products/2-pack-bundle-ethiopia-yirgacheffe-kenya-aa-10-discount-16-oz-each",
        "x": [
         {
-         "n": "Ethiopia Yirgacheffe",
-         "a": "Yirgachefe · Yirga Chefe",
-         "d": "Washed or natural arabica from the Yirgachefe district of the Gedeo zone; a trademarked regional name owned by Ethiopia.",
+         "n": "Ethiopia",
+         "a": "Ethiopian heirloom coffee",
+         "d": "Arabica from Ethiopia sold by regional name: Yirgacheffe, Sidamo, Guji and Harar.",
          "mk": "",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia",
          "v": [
           {
-           "n": "Sidama and Guji neighbours",
+           "n": "Ethiopia Yirgacheffe",
            "mk": "",
            "y": "",
-           "d": "Sold as separate regional names; Wikipedia treats Sidamo as including Yirgacheffe and Guji"
-          }
-         ],
-         "dt": "variety: Ethiopian heirloom · process: washed, natural · grade: by washing station · roast: light"
-        },
-        {
-         "n": "Ethiopia Sidamo / Sidama",
-         "a": "Sidamo",
-         "d": "Arabica from the former Sidamo province, high grown at 1,500-2,200 m; a regional name trademarked by Ethiopia.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia",
-         "v": [
+           "d": "Washed or natural arabica from the Yirgachefe district of the Gedeo zone; a trademarked regional name owned by Ethiopia; Sidama and Guji neighbours (Sold as separate regional names; Wikipedia treats Sidamo as including Yirgacheffe and Guji)"
+          },
           {
-           "n": "Strictly High Grown (SHG)",
+           "n": "Ethiopia Sidamo / Sidama",
            "mk": "",
            "y": "",
-           "d": "High-altitude Sidamo grade named in the source"
-          }
-         ],
-         "dt": "variety: heirloom · process: washed, natural · grade SHG"
-        },
-        {
-         "n": "Ethiopia Guji",
-         "a": "",
-         "d": "Sidamo-type arabica from the Guji area, often sold as natural or washed lots.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia",
-         "v": [],
-         "dt": "variety: heirloom · process: natural, washed"
-        },
-        {
-         "n": "Ethiopia Harar",
-         "a": "Harrar · Mocha Harar",
-         "d": "Dry-processed eastern-highland arabica, medium bean with a mocha-like profile; Mocha Harars are known for peaberries.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Ethiopia",
-         "v": [
+           "d": "Arabica from the former Sidamo province, high grown at 1,500-2,200 m; a regional name trademarked by Ethiopia; Strictly High Grown (SHG) (High-altitude Sidamo grade named in the source)"
+          },
           {
-           "n": "Longberry / Shortberry / Mocha",
+           "n": "Ethiopia Guji",
            "mk": "",
            "y": "",
-           "d": "The three bean categories the source names"
+           "d": "Sidamo-type arabica from the Guji area, often sold as natural or washed lots"
+          },
+          {
+           "n": "Ethiopia Harar",
+           "mk": "",
+           "y": "",
+           "d": "Dry-processed eastern-highland arabica, medium bean with a mocha-like profile; Mocha Harars are known for peaberries; Longberry / Shortberry / Mocha (The three bean categories the source names)"
           }
          ],
-         "dt": "process: natural (dry) · bean: longberry, shortberry, mocha"
+         "dt": "country → region · variety: Ethiopian heirloom · process: washed, natural"
         },
         {
          "n": "Kenya (AA grade)",
@@ -285,7 +259,7 @@
            "d": "Elida Natural Geisha 1029 sold at $1,029/lb"
           }
          ],
-         "dt": "variety: Geisha · process: washed, natural · lot: auction"
+         "dt": "variety: Geisha · process: washed, natural · lot: auction · variety Geisha is also listed under Geisha & rare-variety coffee"
         },
         {
          "n": "Colombia (Café de Colombia)",
@@ -334,102 +308,68 @@
          "dt": "grade: SHB · process: washed, honey · variety: Caturra, Catuai, Geisha (from 2012)"
         },
         {
-         "n": "Sumatra Mandheling",
-         "a": "Mandheling · Lintong",
-         "d": "Trade name for arabica from northern Sumatra, named after the Mandailing people; smooth, low-acid, often wet-hulled.",
+         "n": "Indonesia",
+         "a": "Indonesian coffee · Sumatra · Java · Sulawesi · Bali",
+         "d": "Arabica from Indonesian islands sold by regional name, often wet-hulled in Sumatra and aged in Java.",
          "mk": "",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Indonesia",
          "v": [
           {
-           "n": "Lintong",
+           "n": "Sumatra Mandheling",
            "mk": "",
            "y": "",
-           "d": "Plateau southwest of Lake Toba, about 15,000-18,000 t of arabica"
+           "d": "Trade name for arabica from northern Sumatra, named after the Mandailing people; smooth, low-acid, often wet-hulled; Lintong (Plateau southwest of Lake Toba, about 15,000-18,000 t of arabica)"
+          },
+          {
+           "n": "Gayo (Aceh)",
+           "mk": "",
+           "y": "1924 (planted); 2017 (EU protection)",
+           "d": "Smallholder arabica from hillsides around Takengon, Aceh, at 1,110-1,600 m; geographical indication in Indonesia, EU and UK"
+          },
+          {
+           "n": "Sulawesi Toraja Kalosi",
+           "mk": "",
+           "y": "",
+           "d": "High-altitude arabica from the Toraja highlands and Enrekang, traded through Kalosi; clean cup with nutty or spice notes"
+          },
+          {
+           "n": "Java Estate (Old Java)",
+           "mk": "",
+           "y": "1711 (first Java exports to Europe)",
+           "d": "Arabica from large estates on the Ijen Plateau in East Java; some lots are aged for up to five years; Blawan (Ijen estate); Jampit (Ijen estate); Pancoer (Ijen estate); Kayumas (Ijen estate); Tugosari (Ijen estate)"
+          },
+          {
+           "n": "Bali Kintamani",
+           "mk": "",
+           "y": "2008",
+           "d": "Wet-processed arabica from highlands between the Batukaru and Agung volcanoes; Indonesia's first geographical indication"
           }
          ],
-         "dt": "process: giling basah (wet-hulled) · variety: Typica, Ateng · cup: cocoa, tobacco, cedar"
+         "dt": "country → island or region → estate · process: giling basah, washed"
         },
         {
-         "n": "Gayo (Aceh)",
-         "a": "Kopi Arabika Gayo",
-         "d": "Smallholder arabica from hillsides around Takengon, Aceh, at 1,110-1,600 m; geographical indication in Indonesia, EU and UK.",
-         "mk": "",
-         "y": "1924 (planted); 2017 (EU protection)",
-         "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Indonesia",
-         "v": [],
-         "dt": "altitude 1,110-1,600 m · lighter body than Mandheling"
-        },
-        {
-         "n": "Sulawesi Toraja Kalosi",
-         "a": "Toraja · Kalosi",
-         "d": "High-altitude arabica from the Toraja highlands and Enrekang, traded through Kalosi; clean cup with nutty or spice notes.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Indonesia",
-         "v": [],
-         "dt": "mostly smallholder · about 5% from seven larger estates"
-        },
-        {
-         "n": "Java Estate (Old Java)",
-         "a": "Old Government Java · Ijen",
-         "d": "Arabica from large estates on the Ijen Plateau in East Java; some lots are aged for up to five years.",
-         "mk": "",
-         "y": "1711 (first Java exports to Europe)",
-         "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Indonesia",
-         "v": [
-          {
-           "n": "Blawan",
-           "mk": "",
-           "y": "",
-           "d": "Ijen estate"
-          },
-          {
-           "n": "Jampit",
-           "mk": "",
-           "y": "",
-           "d": "Ijen estate"
-          },
-          {
-           "n": "Pancoer",
-           "mk": "",
-           "y": "",
-           "d": "Ijen estate"
-          },
-          {
-           "n": "Kayumas",
-           "mk": "",
-           "y": "",
-           "d": "Ijen estate"
-          },
-          {
-           "n": "Tugosari",
-           "mk": "",
-           "y": "",
-           "d": "Ijen estate"
-          }
-         ],
-         "dt": "altitude above 1,400 m · process: washed · aged lots"
-        },
-        {
-         "n": "Bali Kintamani",
-         "a": "Kopi Arabica Kintamani Bali",
-         "d": "Wet-processed arabica from highlands between the Batukaru and Agung volcanoes; Indonesia's first geographical indication.",
-         "mk": "",
-         "y": "2008",
-         "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Indonesia",
-         "v": [],
-         "dt": "single harvest July-September · citrus notes"
-        },
-        {
-         "n": "Brazil natural (dry-processed)",
-         "a": "Brazil natural · pulped natural",
+         "n": "Brazil",
+         "a": "Brazilian coffee",
          "d": "Brazilian arabica, nearly all dry-processed; Minas Gerais supplies about half of national output.",
          "mk": "",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/Coffee_production_in_Brazil",
-         "v": [],
-         "dt": "regions: Minas Gerais, Sao Paulo, Espirito Santo, Bahia · process: natural"
+         "v": [
+          {
+           "n": "Brazil natural (dry-processed)",
+           "mk": "",
+           "y": "",
+           "d": "Brazilian arabica, nearly all dry-processed; Minas Gerais supplies about half of national output"
+          },
+          {
+           "n": "Brazil Cerrado Mineiro",
+           "mk": "",
+           "y": "",
+           "d": "Western Minas Gerais coffee, mostly natural or pulped natural; creamy, caramel-to-chocolate, called Brazil's first coffee region with a protected geographical indication"
+          }
+         ],
+         "dt": "country → region · process: natural, pulped natural"
         },
         {
          "n": "Guatemala Antigua",
@@ -496,16 +436,6 @@
          "dt": "grades: AA, A, A/B, PB",
          "mk": "",
          "y": ""
-        },
-        {
-         "n": "Brazil Cerrado Mineiro",
-         "a": "Cerrado de Minas · West Minas",
-         "d": "Western Minas Gerais coffee, mostly natural or pulped natural; creamy, caramel-to-chocolate, called Brazil's first coffee region with a protected geographical indication.",
-         "s": "https://crema.co/countries/brazil/cerrado-minas-gerais",
-         "dt": "process: natural, pulped natural",
-         "mk": "",
-         "y": "",
-         "v": []
         }
        ]
       },
@@ -563,8 +493,8 @@
         {
          "n": "SL28",
          "a": "",
-         "d": "Kenyan selection by Scott Labs from a drought-resistant Tanganyika variety; high cup quality.",
-         "mk": "Scott Laboratories",
+         "d": "Kenyan selection by Scott Labs from a drought-resistant Tanganyika variety; high cup quality; by Scott Laboratories",
+         "mk": "",
          "y": "1931 (as given, citation needed)",
          "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
          "v": [],
@@ -573,8 +503,8 @@
         {
          "n": "SL34",
          "a": "",
-         "d": "Kenyan selection by Scott Labs from the French Mission variety grown for its cup quality.",
-         "mk": "Scott Laboratories",
+         "d": "Kenyan selection by Scott Labs from the French Mission variety grown for its cup quality; by Scott Laboratories",
+         "mk": "",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
          "v": [],
@@ -633,8 +563,8 @@
         {
          "n": "Ruiru 11",
          "a": "",
-         "d": "Disease-resistant Kenyan hybrid with lower cup quality than K7, SL28 and SL34.",
-         "mk": "Coffee Research Station, Kenya",
+         "d": "Disease-resistant Kenyan hybrid with lower cup quality than K7, SL28 and SL34; by Coffee Research Station, Kenya",
+         "mk": "",
          "y": "1985",
          "s": "https://en.wikipedia.org/wiki/List_of_coffee_varieties",
          "v": [],
@@ -1327,8 +1257,8 @@
         {
          "n": "E.S.E. pod",
          "a": "Easy Serving Espresso · ESE",
-         "d": "Open-standard 44 mm paper pod with about 7 g of coffee for non-grinding espresso machines.",
-         "mk": "Italian E.S.E. consortium",
+         "d": "Open-standard 44 mm paper pod with about 7 g of coffee for non-grinding espresso machines; by Italian E.S.E. consortium",
+         "mk": "",
          "y": "1998 (consortium founded)",
          "s": "https://en.wikipedia.org/wiki/Easy_Serving_Espresso_Pod",
          "v": [],
@@ -2262,8 +2192,8 @@
         {
          "n": "Ruby 18 (Taicha 18) / Sun Moon Lake",
          "a": "Hongyu · Sun Moon Lake black tea",
-         "d": "Taiwanese cultivar hybrid of assamica and a native variety, bred in the 1990s; honey, cinnamon and mint notes.",
-         "mk": "Tea Research and Extension Station",
+         "d": "Taiwanese cultivar hybrid of assamica and a native variety, bred in the 1990s; honey, cinnamon and mint notes; by Tea Research and Extension Station",
+         "mk": "",
          "y": "1990s",
          "s": "https://en.wikipedia.org/wiki/Taiwanese_tea",
          "v": [
@@ -2639,7 +2569,9 @@
        "t": [
         "usucha grade",
         "koicha grade",
-        "culinary grade"
+        "culinary grade",
+        "koicha (thick tea, about 4 g in 30 ml)",
+        "historic blend names (Baba Mukashi, Hatsu Mukashi, Ato Mukashi)"
        ],
        "s": "https://global.ippodo-tea.co.jp/collections/all/",
        "x": [
@@ -2689,26 +2621,6 @@
           }
          ],
          "dt": "grade: usucha vs koicha · tencha"
-        },
-        {
-         "n": "Koicha vs usucha",
-         "a": "thick tea · thin tea",
-         "d": "Koicha uses about 4 g of higher-grade matcha in 30 ml of water; usucha is thinner and foamed.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Mattya",
-         "v": [],
-         "dt": "grade: koicha, usucha"
-        },
-        {
-         "n": "Historic Mukashi blends",
-         "a": "Baba Mukashi · Hatsu Mukashi · Ato Mukashi",
-         "d": "Named historic matcha brands listed on Wikipedia's matcha page.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Mattya",
-         "v": [],
-         "dt": "blends"
         }
        ],
        "m": [
@@ -2974,6 +2886,29 @@
          "mk": "",
          "y": "",
          "v": []
+        },
+        {
+         "n": "Gunpowder tea",
+         "a": "Zhu Cha · pinhead gunpowder · Temple of Heaven",
+         "d": "Green tea with each leaf rolled into a small pellet; tighter pellets mean higher grade, and it is the base for Maghrebi mint tea.",
+         "mk": "",
+         "y": "Tang dynasty (production)",
+         "s": "https://en.wikipedia.org/wiki/Gunpowder_tea",
+         "v": [
+          {
+           "n": "Pingshui gunpowder (Temple of Heaven, Pinhead)",
+           "mk": "",
+           "y": "",
+           "d": "Zhejiang gunpowder named on the page"
+          },
+          {
+           "n": "3505AAA",
+           "mk": "",
+           "y": "",
+           "d": "Highest alphanumeric grade; 9375 is a lower one"
+          }
+         ],
+         "dt": "grade: 3505AAA to 9375 · pellet size and shine · origin: Zhejiang, Taiwan"
         }
        ]
       },
@@ -3463,7 +3398,9 @@
         "bing cake 357 g",
         "tuocha",
         "brick",
-        "loose"
+        "loose",
+        "Zhuancha brick",
+        "Jinguan / Longzhu / Jingcha forms"
        ],
        "s": "https://en.wikipedia.org/wiki/Pu%27er_tea",
        "m": [
@@ -3476,7 +3413,7 @@
         {
          "n": "Menghai factory recipes",
          "a": "Dayi · Menghai Tea Factory",
-         "d": "Four-digit recipe numbers from the Menghai factory; 7542 is a 1975 grade-4 recipe (factory digit 2).",
+         "d": "Four-digit recipe numbers from the Menghai factory (factory digit 2); first digits give the year, third the leaf grade; 7542 dates from 1975.",
          "mk": "Menghai Tea Factory",
          "y": "1975 (7542)",
          "s": "https://en.wikipedia.org/wiki/Pu%27er_tea",
@@ -3503,7 +3440,7 @@
         {
          "n": "Xiaguan tea factory",
          "a": "Xiaguan tuocha",
-         "d": "State-owned Yunnan factory dating from the 1940s, known for tuocha.",
+         "d": "Yunnan factory dating from the 1940s, recipe factory digit 3, known for tuocha.",
          "mk": "Xiaguan Tea Factory",
          "y": "1940s",
          "s": "https://en.wikipedia.org/wiki/Pu%27er_tea",
@@ -3539,41 +3476,12 @@
         {
          "n": "Haiwan",
          "a": "Haiwan Tea Factory",
-         "d": "Private pu'er factory founded in 1999.",
+         "d": "Private pu'er factory founded in 1999 by Zhou Bing Liang, a former Menghai factory owner; recipe factory digit 8.",
          "mk": "Haiwan Tea Factory",
          "y": "1999",
          "s": "https://en.wikipedia.org/wiki/Pu%27er_tea",
          "v": [],
          "dt": "factory"
-        },
-        {
-         "n": "Pu'er cake (bing)",
-         "a": "bingcha · 357 g cake",
-         "d": "Disc-shaped compressed pu'er, most commonly 357 g.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Compressed_tea",
-         "v": [
-          {
-           "n": "Tuocha",
-           "mk": "",
-           "y": "",
-           "d": "100 g dome-shaped nugget"
-          },
-          {
-           "n": "Zhuancha brick",
-           "mk": "",
-           "y": "",
-           "d": "Brick form"
-          },
-          {
-           "n": "Jinguan / Longzhu / Jingcha",
-           "mk": "",
-           "y": "",
-           "d": "Other forms named on the pu'er page"
-          }
-         ],
-         "dt": "form: bing, tuocha, brick, loose"
         },
         {
          "n": "Yiwu",
@@ -3632,8 +3540,8 @@
         {
          "n": "Wet-piled ripe pu'er",
          "a": "shou · wòduī",
-         "d": "Accelerated fermentation of 45-60 days developed in 1973 by the Kunming and Menghai factories to imitate aged raw tea; mass production from 1975.",
-         "mk": "Kunming and Menghai tea factories",
+         "d": "Accelerated fermentation of 45-60 days developed in 1973 by the Kunming and Menghai factories to imitate aged raw tea; mass production from 1975; by Kunming and Menghai tea factories",
+         "mk": "",
          "y": "1973 / 1975",
          "s": "https://en.wikipedia.org/wiki/Pu%27er_tea",
          "v": [
@@ -3920,16 +3828,6 @@
          "s": "https://en.wikipedia.org/wiki/Tea_blending_and_additives",
          "v": [],
          "dt": "green tea + mint"
-        },
-        {
-         "n": "Fruit and floral blends",
-         "a": "",
-         "d": "Tea blended with mango, peach, berries or flowers.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Tea_blending_and_additives",
-         "v": [],
-         "dt": "fruit, floral"
         },
         {
          "n": "Prince Vladimir",
@@ -4643,6 +4541,16 @@
           }
          ],
          "dt": "forms: tea bag, bottled, ground · steep: 5-10 min at 100 C"
+        },
+        {
+         "n": "Sobacha (buckwheat tea)",
+         "a": "soba-cha · memil-cha · kuqiao-cha",
+         "d": "Roasted buckwheat brewed as a caffeine-free tea; Korean tartary buckwheat from Gangwon is nuttier.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sobacha",
+         "v": [],
+         "dt": "form: roasted grain · steep 2-4 min at 90 C"
         }
        ]
       },
@@ -4698,6 +4606,11 @@
      "m": "Bean class",
      "v": "fine or flavour > bulk (provisional)",
      "w": "An international (ICCO) class that describes a country's exports; disputed."
+    },
+    {
+     "m": "Genetic group (Motamayor et al., 2008)",
+     "v": "",
+     "w": "Ten groups proposed from morphology, geography and genomics; a classification, not a grade. Source: Theobroma cacao page."
     }
    ],
    "s": [
@@ -5015,7 +4928,9 @@
        "t": [
         "raw",
         "fermented and dried",
-        "roasted"
+        "roasted",
+        "Motamayor genetic group (Amelonado, Contamana, Criollo, Curaray, Guiana, Iquitos, Marañon, Nacional, Nanay, Purús)",
+        "ICCO fine or flavour class"
        ],
        "s": "https://thechocolatelife.com/fs-cocoa-beans-from-trinidad.md",
        "x": [
@@ -5070,59 +4985,6 @@
          "dt": "appellation 2000"
         },
         {
-         "n": "Motamayor ten genetic groups",
-         "a": "Amelonado · Contamana · Criollo · Curaray · Guiana · Iquitos · Marañon · Nacional · Nanay · Purús",
-         "d": "Ten groups proposed in 2008 from morphology, geography and genomics.",
-         "mk": "Motamayor et al.",
-         "y": "2008",
-         "s": "https://en.wikipedia.org/wiki/Theobroma_cacao",
-         "v": [
-          {
-           "n": "Marañon",
-           "mk": "",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Contamana",
-           "mk": "",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Curaray",
-           "mk": "",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Iquitos",
-           "mk": "",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Nanay",
-           "mk": "",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Purús",
-           "mk": "",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Guiana",
-           "mk": "",
-           "y": "",
-           "d": ""
-          }
-         ],
-         "dt": "classification"
-        },
-        {
          "n": "CCN-51",
          "a": "Colección Castro Naranjal",
          "d": "High-yield, wilt-resistant Ecuadorian clone bred by Homero Castro near Naranjal; productive but weak and astringent, replacing Nacional stands.",
@@ -5130,16 +4992,6 @@
          "y": "1960s-80s",
          "s": "https://c-spot.com/atlas/chocolate-strains/cultivar-strains/CCN-51/",
          "dt": "parentage: IMC 67, ICS 95, O-1 · fermentation: 6-7+ days",
-         "v": []
-        },
-        {
-         "n": "Fine or flavour cocoa",
-         "a": "ICCO fine flavour",
-         "d": "ICCO category for complex-flavoured beans, mostly Criollo or Trinitario, about 12% of world bean exports; Ecuador's Forastero-type Nacional is an exception.",
-         "s": "https://www.icco.org/fine-or-flavor-cocoa/",
-         "dt": "share: about 12% of exports · main exporters: Ecuador, Dominican Republic, Peru",
-         "mk": "",
-         "y": "",
          "v": []
         }
        ]
