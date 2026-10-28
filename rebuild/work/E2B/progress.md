@@ -1,1 +1,2 @@
 step0 started: read rules, dumped scope to work/E2B/dump.txt (done)
+step1: sourcing round 1 done (Penn_Reels, Muddler, Hilleberg, Tech_Deck, Penny_board, Snurfer, Burton, dive computer, wingsuit, AAD). continuing sourcing round 2; additions to be kept in work/E2B/adds.py
