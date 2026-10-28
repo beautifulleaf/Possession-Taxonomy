@@ -11,3 +11,5 @@ Counts: kinds 91 → 78; archetypes 232 → 243 (+13 added, 2 left with Audio fi
 - D3-7 done. Audio figure moved to E1 "Baby & toddler toys" via D3_moves.json and removed from D3.
 
 Files edited: out/D3.json, D3_brands.json, D3_moves.json (traditions untouched).
+
+Update (coordinator): Radio scanner kind removed from D3 (home is D2). D3 models D2 lacks, for carry-over: Uniden BC125AT, BC365CRS, BC355N, BCD436HP, SDS100, SDS150, SDS200, HomePatrol-2; Whistler WS1010; range Bearcat (Uniden). Types: handheld, base or mobile, analogue, digital trunking. Kinds now 77.
