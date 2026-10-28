@@ -471,7 +471,7 @@
          "n": "Arch lineage",
          "a": "",
          "d": "Arch Linux, a rolling-release system, and distributions built on its pacman packages.",
-         "mk": "",
+         "mk": "Arch Linux",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
          "v": [
@@ -557,7 +557,7 @@
          "n": "Mandriva lineage",
          "a": "",
          "d": "The Mandrake and Mandriva descendants, still kept up by community projects.",
-         "mk": "",
+         "mk": "Mandriva",
          "y": "",
          "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
          "v": [
@@ -641,48 +641,49 @@
            "d": "First prototype 2006; first stable release 13.10 in 2013"
           }
          ]
-        },
-        {
-         "n": "Independent distributions",
-         "a": "",
-         "d": "Distributions that are not derived from the lineages above.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_Linux_distributions",
-         "v": [
-          {
-           "n": "Void Linux"
-          },
-          {
-           "n": "Alpine"
-          },
-          {
-           "n": "Solus"
-          },
-          {
-           "n": "Puppy Linux",
-           "mk": "Puppy Foundation"
-          },
-          {
-           "n": "Tiny Core Linux"
-          },
-          {
-           "n": "Guix System"
-          },
-          {
-           "n": "Linux From Scratch"
-          },
-          {
-           "n": "GoboLinux"
-          },
-          {
-           "n": "CRUX"
-          },
-          {
-           "n": "Source Mage"
-          }
-         ]
         }
+       ],
+       "m": [
+        [
+         "Void Linux",
+         ""
+        ],
+        [
+         "Alpine",
+         ""
+        ],
+        [
+         "Solus",
+         ""
+        ],
+        [
+         "Puppy Linux",
+         "Puppy Foundation"
+        ],
+        [
+         "Tiny Core Linux",
+         ""
+        ],
+        [
+         "Guix System",
+         ""
+        ],
+        [
+         "Linux From Scratch",
+         ""
+        ],
+        [
+         "GoboLinux",
+         ""
+        ],
+        [
+         "CRUX",
+         ""
+        ],
+        [
+         "Source Mage",
+         ""
+        ]
        ]
       },
       {
@@ -1169,164 +1170,6 @@
          ]
         },
         {
-         "n": "Nintendo Switch emulators",
-         "a": "",
-         "d": "Switch emulators and the forks that continued them after the 2024 shutdowns.",
-         "mk": "",
-         "y": "2018",
-         "s": "https://en.wikipedia.org/wiki/Yuzu_(emulator)",
-         "v": [
-          {
-           "n": "Yuzu",
-           "y": "2018",
-           "d": "Built by the Citra team; ended March 2024 after a Nintendo lawsuit"
-          },
-          {
-           "n": "Ryujinx",
-           "y": "2018",
-           "d": "Written in C# by gdkchan; shut down October 2024"
-          },
-          {
-           "n": "Suyu",
-           "y": "2024",
-           "d": "Yuzu fork; ceased 2025"
-          },
-          {
-           "n": "Torzu",
-           "d": "Yuzu fork developed over Tor"
-          },
-          {
-           "n": "Eden",
-           "d": "Active Yuzu continuation"
-          },
-          {
-           "n": "Citron",
-           "d": "Active Yuzu continuation"
-          }
-         ]
-        },
-        {
-         "n": "Nintendo 3DS emulators",
-         "a": "",
-         "d": "Emulators for the 3DS.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
-         "v": [
-          {
-           "n": "Citra"
-          }
-         ]
-        },
-        {
-         "n": "NES and Famicom emulators",
-         "a": "",
-         "d": "Emulators for the 8-bit Nintendo system.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
-         "v": [
-          {
-           "n": "FCEUX"
-          },
-          {
-           "n": "Nestopia"
-          },
-          {
-           "n": "NESticle"
-          }
-         ]
-        },
-        {
-         "n": "SNES emulators",
-         "a": "",
-         "d": "Emulators for the Super Nintendo.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
-         "v": [
-          {
-           "n": "Snes9x"
-          },
-          {
-           "n": "ZSNES"
-          },
-          {
-           "n": "higan"
-          }
-         ]
-        },
-        {
-         "n": "Nintendo 64 emulators",
-         "a": "",
-         "d": "Emulators for the N64, from the first high-level emulator to current plug-in ones.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
-         "v": [
-          {
-           "n": "UltraHLE"
-          },
-          {
-           "n": "Project64"
-          },
-          {
-           "n": "Mupen64Plus"
-          },
-          {
-           "n": "Project Unreality"
-          }
-         ]
-        },
-        {
-         "n": "Game Boy and Game Boy Advance emulators",
-         "a": "",
-         "d": "Emulators for Nintendo handhelds.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
-         "v": [
-          {
-           "n": "VisualBoyAdvance"
-          },
-          {
-           "n": "VisualBoyAdvance-M"
-          },
-          {
-           "n": "Wzonka-Lad"
-          }
-         ]
-        },
-        {
-         "n": "PlayStation emulators",
-         "a": "",
-         "d": "Emulators for the original PlayStation, from commercial products to current free ones.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
-         "v": [
-          {
-           "n": "DuckStation"
-          },
-          {
-           "n": "ePSXe"
-          },
-          {
-           "n": "PCSX-Reloaded"
-          },
-          {
-           "n": "bleem!"
-          },
-          {
-           "n": "bleemcast!"
-          },
-          {
-           "n": "Connectix Virtual Game Station",
-           "d": "Discontinued commercial emulator"
-          }
-         ]
-        },
-        {
          "n": "PCSX2",
          "a": "",
          "d": "PlayStation 2 emulator, successor to the PCSX PlayStation emulator, first released in 2002.",
@@ -1366,25 +1209,6 @@
           {
            "n": "PPSSPP",
            "y": "2012"
-          }
-         ]
-        },
-        {
-         "n": "PlayStation 4, 5 and Vita emulators",
-         "a": "",
-         "d": "Early-stage emulators for newer Sony hardware and the Vita.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
-         "v": [
-          {
-           "n": "shadPS4"
-          },
-          {
-           "n": "KytyPS5"
-          },
-          {
-           "n": "Vita3K"
           }
          ]
         },
@@ -1468,25 +1292,6 @@
            "n": "UAE"
           }
          ]
-        },
-        {
-         "n": "Atari and pinball emulators",
-         "a": "",
-         "d": "Single-purpose emulators for the Atari 2600, Neo Geo CD and pinball tables.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/List_of_video_game_console_emulators",
-         "v": [
-          {
-           "n": "Stella"
-          },
-          {
-           "n": "NeoCD"
-          },
-          {
-           "n": "Visual Pinball"
-          }
-         ]
         }
        ],
        "m": [
@@ -1496,6 +1301,134 @@
         ],
         [
          "Delta",
+         ""
+        ],
+        [
+         "Yuzu",
+         ""
+        ],
+        [
+         "Ryujinx",
+         ""
+        ],
+        [
+         "Suyu",
+         ""
+        ],
+        [
+         "Torzu",
+         ""
+        ],
+        [
+         "Eden",
+         ""
+        ],
+        [
+         "Citron",
+         ""
+        ],
+        [
+         "Citra",
+         ""
+        ],
+        [
+         "FCEUX",
+         ""
+        ],
+        [
+         "Nestopia",
+         ""
+        ],
+        [
+         "NESticle",
+         ""
+        ],
+        [
+         "Snes9x",
+         ""
+        ],
+        [
+         "ZSNES",
+         ""
+        ],
+        [
+         "higan",
+         ""
+        ],
+        [
+         "UltraHLE",
+         ""
+        ],
+        [
+         "Project64",
+         ""
+        ],
+        [
+         "Mupen64Plus",
+         ""
+        ],
+        [
+         "Project Unreality",
+         ""
+        ],
+        [
+         "VisualBoyAdvance",
+         ""
+        ],
+        [
+         "VisualBoyAdvance-M",
+         ""
+        ],
+        [
+         "Wzonka-Lad",
+         ""
+        ],
+        [
+         "DuckStation",
+         ""
+        ],
+        [
+         "ePSXe",
+         ""
+        ],
+        [
+         "PCSX-Reloaded",
+         ""
+        ],
+        [
+         "bleem!",
+         ""
+        ],
+        [
+         "bleemcast!",
+         ""
+        ],
+        [
+         "Connectix Virtual Game Station",
+         ""
+        ],
+        [
+         "shadPS4",
+         ""
+        ],
+        [
+         "KytyPS5",
+         ""
+        ],
+        [
+         "Vita3K",
+         ""
+        ],
+        [
+         "Stella",
+         ""
+        ],
+        [
+         "NeoCD",
+         ""
+        ],
+        [
+         "Visual Pinball",
          ""
         ]
        ]
@@ -1596,42 +1529,33 @@
            "n": "Modrinth"
           }
          ]
-        },
-        {
-         "n": "Single-game mod managers",
-         "a": "",
-         "d": "Managers built around one game or engine.",
-         "mk": "",
-         "y": "",
-         "s": "https://www.itechguides.com/best/game-mod-managers/",
-         "v": [
-          {
-           "n": "ME3Tweaks Mod Manager",
-           "mk": "ME3Tweaks",
-           "d": "Mass Effect"
-          },
-          {
-           "n": "CKAN",
-           "d": "Indexed mod libraries"
-          },
-          {
-           "n": "RimSort",
-           "d": "RimWorld"
-          },
-          {
-           "n": "Stardrop",
-           "d": "Stardew Valley"
-          },
-          {
-           "n": "Wrye Bash",
-           "d": "Bethesda-style mod management"
-          },
-          {
-           "n": "LOOT",
-           "d": "Plugin load orders"
-          }
-         ]
         }
+       ],
+       "m": [
+        [
+         "ME3Tweaks Mod Manager",
+         "ME3Tweaks"
+        ],
+        [
+         "CKAN",
+         ""
+        ],
+        [
+         "RimSort",
+         ""
+        ],
+        [
+         "Stardrop",
+         ""
+        ],
+        [
+         "Wrye Bash",
+         ""
+        ],
+        [
+         "LOOT",
+         ""
+        ]
        ]
       }
      ]
@@ -1901,20 +1825,8 @@
          "Paramount Software UK"
         ],
         [
-         "EaseUS Todo Backup",
-         ""
-        ],
-        [
-         "MiniTool ShadowMaker",
-         "MiniTool"
-        ],
-        [
          "Carbon Copy Cloner",
-         ""
-        ],
-        [
-         "NovaBackup",
-         "NovaStor"
+         "Bombich Software"
         ],
         [
          "Retrospect",
@@ -1923,18 +1835,6 @@
         [
          "Clonezilla",
          ""
-        ],
-        [
-         "FreeFileSync",
-         ""
-        ],
-        [
-         "Duplicati",
-         ""
-        ],
-        [
-         "Cobian Backup",
-         "Luis Cobian"
         ],
         [
          "Restic",
@@ -2063,24 +1963,8 @@
          "Apple"
         ],
         [
-         "GNOME Files",
-         "Eazel"
-        ],
-        [
-         "Dolphin",
-         "KDE"
-        ],
-        [
-         "Files",
-         "Apple"
-        ],
-        [
          "Files by Google",
          "Google"
-        ],
-        [
-         "Samsung My Files",
-         "Samsung Electronics"
         ],
         [
          "Total Commander",
@@ -2095,44 +1979,12 @@
          "Donald Lessau"
         ],
         [
-         "Double Commander",
-         ""
-        ],
-        [
-         "Altap Salamander",
-         "Altap"
-        ],
-        [
-         "ForkLift",
-         "BinaryNights"
-        ],
-        [
-         "Path Finder",
-         "Cocoatech"
-        ],
-        [
-         "Commander One",
-         "Eltima Software"
+         "Dolphin",
+         "KDE"
         ],
         [
          "Midnight Commander",
          ""
-        ],
-        [
-         "Far Manager",
-         ""
-        ],
-        [
-         "ranger",
-         "Roman Zimbelmann"
-        ],
-        [
-         "nnn",
-         "Arun Prakash Jana"
-        ],
-        [
-         "Norton Commander",
-         "Peter Norton Computing"
         ]
        ]
       },
@@ -2462,6 +2314,106 @@
          "DVDStyler",
          ""
         ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Home server & self-hosting",
+     "k": [
+      {
+       "n": "Home server software",
+       "a": "self-hosted server · NAS software",
+       "d": "Software that turns a spare computer or NAS box into a media, storage or home-automation server.",
+       "t": [
+        "home automation",
+        "NAS operating system",
+        "media server"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Home_Assistant",
+       "x": [
+        {
+         "n": "Home Assistant",
+         "a": "",
+         "d": "Open-source home-automation hub that runs locally and links smart-home devices.",
+         "mk": "Open Home Foundation",
+         "y": "2013",
+         "s": "https://en.wikipedia.org/wiki/Home_Assistant"
+        },
+        {
+         "n": "TrueNAS",
+         "a": "FreeNAS",
+         "d": "NAS operating system that began as FreeNAS; Legacy and Community editions plus a commercial Enterprise line.",
+         "mk": "iXsystems",
+         "y": "2005",
+         "s": "https://en.wikipedia.org/wiki/TrueNAS"
+        },
+        {
+         "n": "Unraid",
+         "a": "",
+         "d": "Commercial NAS and virtualisation operating system that pools mixed-size drives.",
+         "mk": "Lime Technology",
+         "y": "2005",
+         "s": "https://en.wikipedia.org/wiki/Unraid"
+        },
+        {
+         "n": "Plex Media Server",
+         "a": "",
+         "d": "Media server that streams a personal library to client apps; closed-source with a paid tier.",
+         "mk": "Plex",
+         "y": "2008",
+         "s": "https://en.wikipedia.org/wiki/Plex_(company)"
+        },
+        {
+         "n": "Jellyfin",
+         "a": "",
+         "d": "Free GPLv2 media server forked from Emby.",
+         "mk": "Jellyfin Team",
+         "y": "2018",
+         "s": "https://en.wikipedia.org/wiki/Jellyfin"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Desktop customisation & automation",
+     "k": [
+      {
+       "n": "Desktop customisation tool",
+       "a": "desktop skin · automation scripting",
+       "d": "Windows software that restyles the desktop or automates keystrokes and tasks.",
+       "t": [
+        "desktop skin",
+        "live wallpaper",
+        "keystroke scripting"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Rainmeter",
+       "x": [
+        {
+         "n": "Rainmeter",
+         "a": "",
+         "d": "Free desktop-customisation tool that displays skins such as clocks and system meters.",
+         "mk": "Kimmo Pekkola",
+         "y": "2001",
+         "s": "https://en.wikipedia.org/wiki/Rainmeter"
+        },
+        {
+         "n": "Wallpaper Engine",
+         "a": "",
+         "d": "Windows live-wallpaper app sold on Steam, with a companion Android app.",
+         "mk": "Kristjan Skutta",
+         "y": "2016",
+         "s": "https://en.wikipedia.org/wiki/Wallpaper_Engine"
+        },
+        {
+         "n": "AutoHotkey",
+         "a": "",
+         "d": "Free scripting language for hotkeys and task automation on Windows.",
+         "mk": "Chris Mallett",
+         "y": "2003",
+         "s": "https://en.wikipedia.org/wiki/AutoHotkey"
+        }
        ]
       }
      ]
@@ -2968,14 +2920,17 @@
      "k": [
       {
        "n": "Office suite",
-       "a": "",
+       "a": "spreadsheet program · presentation program",
        "d": "Bundle of word-processing, spreadsheet and presentation programs sold as one product.",
        "t": [
         "one-time purchase",
         "subscription",
         "free and open source",
         "web-based",
-        "mobile office app"
+        "mobile office app",
+        "word processor",
+        "spreadsheet",
+        "presentation"
        ],
        "s": "https://en.wikipedia.org/wiki/List_of_office_suites",
        "x": [
@@ -3175,22 +3130,7 @@
         [
          "Apple Creator Studio",
          "Apple"
-        ]
-       ]
-      },
-      {
-       "n": "Word processor",
-       "a": "",
-       "d": "Program for writing, editing and formatting text documents, sold or distributed on its own, not only inside an office suite.",
-       "t": [
-        "office-suite word processor",
-        "free and open source",
-        "scientific (LaTeX)",
-        "Mac-native",
-        "web-based"
-       ],
-       "s": "https://en.wikipedia.org/wiki/JustSystems",
-       "m": [
+        ],
         [
          "Microsoft Word",
          "Microsoft"
@@ -3204,55 +3144,6 @@
          "Google"
         ],
         [
-         "LibreOffice Writer",
-         "The Document Foundation"
-        ],
-        [
-         "WPS Office",
-         "Kingsoft"
-        ],
-        [
-         "WordPerfect",
-         "Corel"
-        ],
-        [
-         "TextMaker",
-         "SoftMaker"
-        ],
-        [
-         "Mellel",
-         "RedleX"
-        ],
-        [
-         "Nisus Writer",
-         "Nisus Software"
-        ],
-        [
-         "LyX",
-         "The LyX Team"
-        ],
-        [
-         "Ichitaro",
-         "JustSystems"
-        ],
-        [
-         "Hangul",
-         "Haansoft"
-        ]
-       ]
-      },
-      {
-       "n": "Spreadsheet software",
-       "a": "spreadsheet program",
-       "d": "Program for entering, calculating and charting data in grids of cells, sold or distributed on its own.",
-       "t": [
-        "office-suite spreadsheet",
-        "web-based",
-        "free and open source"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Comparison_of_spreadsheet_software",
-       "m": [
-        [
          "Microsoft Excel",
          "Microsoft"
         ],
@@ -3265,47 +3156,6 @@
          "Google"
         ],
         [
-         "LibreOffice Calc",
-         "The Document Foundation"
-        ],
-        [
-         "WPS Spreadsheets",
-         "Kingsoft"
-        ],
-        [
-         "PlanMaker",
-         "SoftMaker"
-        ],
-        [
-         "Apache OpenOffice Calc",
-         "Apache Software Foundation"
-        ],
-        [
-         "Gnumeric",
-         ""
-        ],
-        [
-         "Quattro Pro",
-         "Corel"
-        ],
-        [
-         "Lotus 1-2-3",
-         ""
-        ]
-       ]
-      },
-      {
-       "n": "Presentation software",
-       "a": "presentation program",
-       "d": "Program for making slide presentations and showing them, sold or distributed on its own.",
-       "t": [
-        "office-suite slides",
-        "web-based",
-        "design-led online tool"
-       ],
-       "s": "https://en.wikipedia.org/wiki/List_of_presentation_programs",
-       "m": [
-        [
          "Microsoft PowerPoint",
          "Microsoft"
         ],
@@ -3316,38 +3166,6 @@
         [
          "Google Slides",
          "Google"
-        ],
-        [
-         "LibreOffice Impress",
-         "The Document Foundation"
-        ],
-        [
-         "Canva",
-         "Canva"
-        ],
-        [
-         "Prezi",
-         ""
-        ],
-        [
-         "Zoho Show",
-         "Zoho"
-        ],
-        [
-         "Hancom Show",
-         "Hancom"
-        ],
-        [
-         "Corel Presentations",
-         "Corel"
-        ],
-        [
-         "SoftMaker Presentations",
-         "SoftMaker"
-        ],
-        [
-         "Harvard Graphics",
-         ""
         ]
        ]
       },
@@ -3755,7 +3573,8 @@
        "d": "Program for drawing flowcharts, org charts and network or floor diagrams from connected shapes.",
        "t": [
         "desktop",
-        "browser-based"
+        "browser-based",
+        "online whiteboard"
        ],
        "s": "https://omr.com/en/reviews/category/diagramming",
        "m": [
@@ -3806,15 +3625,7 @@
         [
          "Creately",
          "Cinergix"
-        ]
-       ]
-      },
-      {
-       "n": "Online whiteboard",
-       "a": "",
-       "d": "Program or hosted tool giving a shared infinite canvas for sticky notes, sketches and workshops.",
-       "s": "https://lucid.co/alternative/visio/best-visio-alternatives",
-       "m": [
+        ],
         [
          "Miro",
          ""
@@ -3827,6 +3638,22 @@
          "Whimsical",
          ""
         ]
+       ]
+      },
+      {
+       "n": "Long-form writing app",
+       "a": "manuscript software · writing studio",
+       "d": "Writing software that organises a book-length manuscript with research, outline and drafts together.",
+       "s": "https://en.wikipedia.org/wiki/Scrivener_(software)",
+       "x": [
+        {
+         "n": "Scrivener",
+         "a": "",
+         "d": "Manuscript-organising writing app for macOS, Windows and iOS; first released January 2007.",
+         "mk": "Literature & Latte",
+         "y": "2007",
+         "s": "https://en.wikipedia.org/wiki/Scrivener_(software)"
+        }
        ]
       }
      ]
@@ -4177,29 +4004,7 @@
         "desktop",
         "cloud"
        ],
-       "s": "https://de.wikipedia.org/wiki/Trados_(Unternehmen)",
-       "m": [
-        [
-         "SDL Trados Studio",
-         "SDL"
-        ],
-        [
-         "Wordfast",
-         "Wordfast"
-        ],
-        [
-         "Smartcat",
-         "SmartCat"
-        ],
-        [
-         "Phrase",
-         "Phrase"
-        ],
-        [
-         "Crowdin",
-         "Crowdin"
-        ]
-       ]
+       "s": "https://de.wikipedia.org/wiki/Trados_(Unternehmen)"
       }
      ]
     },
@@ -4335,57 +4140,7 @@
         "desktop",
         "sole-trader self-assessment"
        ],
-       "s": "https://en.wikipedia.org/wiki/Comparison_of_accounting_software",
-       "m": [
-        [
-         "QuickBooks Online",
-         "Intuit"
-        ],
-        [
-         "QuickBooks Pro/Premier",
-         "Intuit"
-        ],
-        [
-         "Sage Accounting",
-         "Sage Group"
-        ],
-        [
-         "Zoho Books",
-         "Zoho"
-        ],
-        [
-         "FreshBooks",
-         ""
-        ],
-        [
-         "FreeAgent",
-         ""
-        ],
-        [
-         "MYOB Business",
-         "MYOB"
-        ],
-        [
-         "freee Accounting",
-         "freee K.K."
-        ],
-        [
-         "Yayoi Blue Return Online",
-         "Yayoi Co., Ltd."
-        ],
-        [
-         "Money Forward Cloud Accounting",
-         "Money Forward"
-        ],
-        [
-         "Xero",
-         "Xero Limited"
-        ],
-        [
-         "Wave",
-         ""
-        ]
-       ]
+       "s": "https://en.wikipedia.org/wiki/Comparison_of_accounting_software"
       },
       {
        "n": "Time-tracking software",
@@ -4423,57 +4178,7 @@
        "n": "Survey and form software",
        "a": "",
        "d": "Program or hosted tool for building questionnaires and forms, collecting answers and reporting them.",
-       "s": "https://en.wikipedia.org/wiki/Comparison_of_survey_software",
-       "m": [
-        [
-         "Google Forms",
-         "Google"
-        ],
-        [
-         "Microsoft Forms",
-         "Microsoft"
-        ],
-        [
-         "Typeform",
-         ""
-        ],
-        [
-         "Jotform",
-         "Jotform"
-        ],
-        [
-         "SurveyMonkey",
-         "SurveyMonkey"
-        ],
-        [
-         "Tally",
-         ""
-        ],
-        [
-         "Zoho Forms",
-         ""
-        ],
-        [
-         "Formstack",
-         "Formstack"
-        ],
-        [
-         "Wufoo",
-         ""
-        ],
-        [
-         "Paperform",
-         ""
-        ],
-        [
-         "Cognito Forms",
-         ""
-        ],
-        [
-         "LimeSurvey",
-         "LimeSurvey"
-        ]
-       ]
+       "s": "https://en.wikipedia.org/wiki/Comparison_of_survey_software"
       }
      ]
     }
@@ -8844,7 +8549,8 @@
         "game capture",
         "live streaming",
         "screencast with editor",
-        "built-in OS tool"
+        "built-in OS tool",
+        "screenshot tool"
        ],
        "s": "https://en.wikipedia.org/wiki/Comparison_of_screencasting_software",
        "m": [
@@ -8881,44 +8587,6 @@
          "SplitmediaLabs"
         ],
         [
-         "ScreenFlow",
-         "Telestream"
-        ],
-        [
-         "ScreenPal",
-         "Screenpal"
-        ],
-        [
-         "BB FlashBack Express",
-         "Blueberry Software"
-        ],
-        [
-         "Debut",
-         "NCH Software"
-        ],
-        [
-         "SimpleScreenRecorder",
-         ""
-        ],
-        [
-         "Fraps",
-         "Beepa"
-        ]
-       ]
-      },
-      {
-       "n": "Screenshot tool",
-       "a": "",
-       "d": "Program that captures and annotates what is shown on the screen.",
-       "t": [
-        "built-in OS tool",
-        "desktop capture and annotation",
-        "full-page browser capture",
-        "cloud sharing"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Category:Screenshot_software",
-       "m": [
-        [
          "Snipping Tool",
          "Microsoft"
         ],
@@ -8927,51 +8595,7 @@
          "TechSmith"
         ],
         [
-         "ShareX",
-         "Jaex"
-        ],
-        [
          "Greenshot",
-         ""
-        ],
-        [
-         "Lightshot",
-         ""
-        ],
-        [
-         "CleanShot X",
-         ""
-        ],
-        [
-         "Spectacle",
-         "KDE"
-        ],
-        [
-         "PicPick",
-         ""
-        ],
-        [
-         "Screenpresso",
-         ""
-        ],
-        [
-         "Gyazo",
-         ""
-        ],
-        [
-         "Monosnap",
-         ""
-        ],
-        [
-         "FireShot",
-         ""
-        ],
-        [
-         "GoFullPage",
-         ""
-        ],
-        [
-         "Awesome Screenshot",
          ""
         ]
        ]
@@ -10190,87 +9814,86 @@
         "projection mapping",
         "sound-effects pad"
        ],
-       "s": "https://en.wikipedia.org/wiki/QLab",
+       "s": "https://en.wikipedia.org/wiki/QLab"
+      },
+      {
+       "n": "Modular and visual audio environment",
+       "a": "patching environment · visual programming for audio",
+       "d": "Software where users build synths and effects by wiring modules or objects on a canvas.",
+       "s": "https://en.wikipedia.org/wiki/VCV_Rack",
        "x": [
         {
-         "n": "QLab",
+         "n": "Max",
+         "a": "Max/MSP",
+         "d": "Visual programming environment for music and multimedia, begun by Miller Puckette at IRCAM; first commercial version 1990.",
+         "mk": "Cycling '74",
+         "y": "1990",
+         "s": "https://en.wikipedia.org/wiki/Max_(software)"
+        },
+        {
+         "n": "Pure Data",
+         "a": "Pd",
+         "d": "Open-source visual programming language for audio, written by the original author of Max.",
+         "mk": "Miller Puckette",
+         "y": "1996",
+         "s": "https://en.wikipedia.org/wiki/Pure_Data"
+        },
+        {
+         "n": "VCV Rack",
          "a": "",
-         "d": "Figure 53's cue-based playback for Mac, used in theatre; free version plus paid audio, video and lighting licences.",
-         "mk": "Figure 53",
-         "y": "2006",
-         "s": "https://en.wikipedia.org/wiki/QLab",
-         "v": [
-          {
-           "n": "QLab 1.0",
-           "mk": "Figure 53",
-           "y": "2006",
-           "d": "September 2006"
-          },
-          {
-           "n": "QLab 2",
-           "mk": "Figure 53",
-           "y": "2009"
-          },
-          {
-           "n": "QLab 3",
-           "mk": "Figure 53",
-           "y": "2013"
-          },
-          {
-           "n": "QLab 4",
-           "mk": "Figure 53",
-           "y": "2016"
-          },
-          {
-           "n": "QLab 5",
-           "mk": "Figure 53",
-           "y": "2022",
-           "d": "Perpetual, daily rental or volume licences"
-          }
-         ]
+         "d": "Open-source virtual Eurorack-style modular synthesiser; version 1.0.0 in 2019.",
+         "mk": "Andrew Belt",
+         "y": "2019",
+         "s": "https://en.wikipedia.org/wiki/VCV_Rack"
         }
-       ],
-       "m": [
-        [
-         "QCart",
-         "Figure 53"
-        ],
-        [
-         "SFX",
-         "Stage Research"
-        ],
-        [
-         "CuePlayer",
-         "Baxel Data"
-        ],
-        [
-         "Show Cue System",
-         ""
-        ],
-        [
-         "Linux Show Player",
-         ""
-        ],
-        [
-         "Millumin",
-         ""
-        ],
-        [
-         "MadMapper",
-         ""
-        ],
-        [
-         "HeavyM",
-         ""
-        ],
-        [
-         "MapMap",
-         ""
-        ],
-        [
-         "Soundplant",
-         ""
-        ]
+       ]
+      },
+      {
+       "n": "Music tracker",
+       "a": "module tracker",
+       "d": "Sequencer that places notes and samples in channels down a vertical, pattern-based timeline.",
+       "s": "https://en.wikipedia.org/wiki/Tracker_(music_software)",
+       "x": [
+        {
+         "n": "Ultimate Soundtracker",
+         "a": "",
+         "d": "First tracker, released by EAS Computer Technik for the Amiga.",
+         "mk": "Karsten Obarski",
+         "y": "1987",
+         "s": "https://en.wikipedia.org/wiki/Tracker_(music_software)"
+        },
+        {
+         "n": "FastTracker 2",
+         "a": "",
+         "d": "PC tracker by Fredrik Huss and Magnus Högdahl of the demogroup Triton, released November 1994.",
+         "mk": "Triton",
+         "y": "1994",
+         "s": "https://en.wikipedia.org/wiki/FastTracker_2"
+        },
+        {
+         "n": "Impulse Tracker",
+         "a": "",
+         "d": "PC tracker by Jeffrey \"Pulse\" Lim.",
+         "mk": "Jeffrey Lim",
+         "y": "1995",
+         "s": "https://en.wikipedia.org/wiki/Impulse_Tracker"
+        },
+        {
+         "n": "OpenMPT",
+         "a": "ModPlug Tracker",
+         "d": "Open-source tracker that grew from ModPlug Tracker (1997); BSD-licensed since 2009.",
+         "mk": "OpenMPT Project",
+         "y": "1997",
+         "s": "https://en.wikipedia.org/wiki/OpenMPT"
+        },
+        {
+         "n": "Renoise",
+         "a": "",
+         "d": "Modern tracker-based DAW; version 1.0 in June 2002.",
+         "mk": "Renoise",
+         "y": "2002",
+         "s": "https://en.wikipedia.org/wiki/Renoise"
+        }
        ]
       }
      ]
@@ -10280,13 +9903,14 @@
      "k": [
       {
        "n": "Media player",
-       "a": "",
+       "a": "music library manager",
        "d": "Program that plays video and audio files of many formats.",
        "t": [
         "built-in OS player",
         "DVD/Blu-ray player suite",
         "media centre",
-        "lightweight player"
+        "lightweight player",
+        "music player"
        ],
        "s": "https://en.wikipedia.org/wiki/Comparison_of_video_player_software",
        "m": [
@@ -10319,60 +9943,6 @@
          "Kakao"
         ],
         [
-         "Media Player Classic Home Cinema",
-         ""
-        ],
-        [
-         "MPlayer",
-         ""
-        ],
-        [
-         "SMPlayer",
-         ""
-        ],
-        [
-         "GOM Player",
-         "GOM & Company"
-        ],
-        [
-         "K-Multimedia Player",
-         ""
-        ],
-        [
-         "Elmedia Player",
-         "Electronic Team"
-        ],
-        [
-         "PowerDVD",
-         "CyberLink"
-        ],
-        [
-         "WinDVD Pro",
-         "Corel"
-        ],
-        [
-         "Mac Blu-ray Player",
-         "Macgo"
-        ],
-        [
-         "RealPlayer",
-         "RealNetworks"
-        ]
-       ]
-      },
-      {
-       "n": "Music player",
-       "a": "music library manager",
-       "d": "Program that plays music and organises the owner's music library.",
-       "t": [
-        "library manager",
-        "lightweight player",
-        "audiophile player",
-        "terminal player"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Comparison_of_audio_player_software",
-       "m": [
-        [
          "iTunes",
          "Apple"
         ],
@@ -10391,42 +9961,6 @@
         [
          "AIMP",
          "AIMP DevTeam"
-        ],
-        [
-         "MediaMonkey",
-         "Ventis Media Inc."
-        ],
-        [
-         "JRiver Media Center",
-         "JRiver"
-        ],
-        [
-         "Rhythmbox",
-         "Gnome Project"
-        ],
-        [
-         "Amarok",
-         "KDE"
-        ],
-        [
-         "Clementine",
-         ""
-        ],
-        [
-         "Audacious",
-         ""
-        ],
-        [
-         "DeaDBeeF",
-         ""
-        ],
-        [
-         "Music Player Daemon",
-         ""
-        ],
-        [
-         "cmus",
-         ""
         ]
        ]
       },
@@ -11649,28 +11183,6 @@
          ]
         },
         {
-         "n": "Dynamic EQ plug-ins",
-         "a": "",
-         "d": "EQs with dynamic processing on each band.",
-         "mk": "",
-         "y": "",
-         "s": "https://samplefocus.com/blog/best-eq-plugins-of-2026",
-         "v": [
-          {
-           "n": "Infinity EQ 2",
-           "mk": "Slate Digital"
-          },
-          {
-           "n": "TotalEQ MK2",
-           "mk": "HoRNet"
-          },
-          {
-           "n": "Carbon Q",
-           "mk": "Mastering the Mix"
-          }
-         ]
-        },
-        {
          "n": "Kilohearts Slice EQ",
          "a": "",
          "d": "Surgical EQ with up to 32 filters.",
@@ -11700,6 +11212,18 @@
         [
          "Flux Pro",
          "Caelum Audio"
+        ],
+        [
+         "Infinity EQ 2",
+         "Slate Digital"
+        ],
+        [
+         "TotalEQ MK2",
+         "HoRNet"
+        ],
+        [
+         "Carbon Q",
+         "Mastering the Mix"
         ]
        ]
       },
@@ -11955,42 +11479,6 @@
            "mk": "FabFilter"
           }
          ]
-        },
-        {
-         "n": "Character delays",
-         "a": "",
-         "d": "BBD, tape and digital character delays from several makers.",
-         "mk": "",
-         "y": "",
-         "s": "https://blog.dubspot.com/plugins/best/delay",
-         "v": [
-          {
-           "n": "Colour Copy",
-           "mk": "u-he"
-          },
-          {
-           "n": "Replika XT",
-           "mk": "Native Instruments",
-           "d": "Five modelled delay modes"
-          },
-          {
-           "n": "Comeback Kid",
-           "mk": "Baby Audio"
-          },
-          {
-           "n": "H-Delay",
-           "mk": "Waves"
-          },
-          {
-           "n": "UltraTap",
-           "mk": "Eventide"
-          },
-          {
-           "n": "Crystallizer",
-           "mk": "Soundtoys",
-           "d": "Granular echo with pitch shifting and reverse echo"
-          }
-         ]
         }
        ],
        "t": [
@@ -12005,6 +11493,30 @@
         [
          "LFO Tool",
          "Xfer Records"
+        ],
+        [
+         "Colour Copy",
+         "u-he"
+        ],
+        [
+         "Replika XT",
+         "Native Instruments"
+        ],
+        [
+         "Comeback Kid",
+         "Baby Audio"
+        ],
+        [
+         "H-Delay",
+         "Waves"
+        ],
+        [
+         "UltraTap",
+         "Eventide"
+        ],
+        [
+         "Crystallizer",
+         "Soundtoys"
         ]
        ]
       },
@@ -12093,59 +11605,6 @@
            "d": "Free"
           }
          ]
-        },
-        {
-         "n": "Tape plug-ins",
-         "a": "",
-         "d": "Tape colour from several makers.",
-         "mk": "",
-         "y": "",
-         "s": "https://blog.dubspot.com/plugins/best/saturation",
-         "v": [
-          {
-           "n": "Satin",
-           "mk": "u-he"
-          },
-          {
-           "n": "Softube Tape",
-           "mk": "Softube"
-          },
-          {
-           "n": "TAIP",
-           "mk": "Baby Audio"
-          }
-         ]
-        },
-        {
-         "n": "Other saturators",
-         "a": "",
-         "d": "Console and character saturators.",
-         "mk": "",
-         "y": "",
-         "s": "https://blog.dubspot.com/plugins/best/saturation",
-         "v": [
-          {
-           "n": "Black Box HG-2",
-           "mk": "Plugin Alliance"
-          },
-          {
-           "n": "VintageWarmer2",
-           "mk": "PSP Audioware"
-          },
-          {
-           "n": "Kelvin Tone Shaper",
-           "mk": "Tone Projects"
-          },
-          {
-           "n": "Harmonics",
-           "mk": "Softube"
-          },
-          {
-           "n": "Saturation Knob",
-           "mk": "Softube",
-           "d": "Free"
-          }
-         ]
         }
        ],
        "t": [
@@ -12153,6 +11612,40 @@
         "tube and transformer",
         "multiband",
         "fuzz and overdrive"
+       ],
+       "m": [
+        [
+         "Satin",
+         "u-he"
+        ],
+        [
+         "Softube Tape",
+         "Softube"
+        ],
+        [
+         "TAIP",
+         "Baby Audio"
+        ],
+        [
+         "Black Box HG-2",
+         "Plugin Alliance"
+        ],
+        [
+         "VintageWarmer2",
+         "PSP Audioware"
+        ],
+        [
+         "Kelvin Tone Shaper",
+         "Tone Projects"
+        ],
+        [
+         "Harmonics",
+         "Softube"
+        ],
+        [
+         "Saturation Knob",
+         "Softube"
+        ]
        ]
       },
       {
@@ -12371,40 +11864,6 @@
            "mk": "Synchro Arts"
           }
          ]
-        },
-        {
-         "n": "Vocal effects and suites",
-         "a": "",
-         "d": "Pitch-based vocal processors.",
-         "mk": "",
-         "y": "",
-         "s": "https://blog.dubspot.com/plugins/best/vocal-pitch",
-         "v": [
-          {
-           "n": "Little AlterBoy",
-           "mk": "Soundtoys"
-          },
-          {
-           "n": "Tune Real-Time",
-           "mk": "Waves"
-          },
-          {
-           "n": "Nectar 4",
-           "mk": "iZotope"
-          },
-          {
-           "n": "VocalSynth 2",
-           "mk": "iZotope"
-          },
-          {
-           "n": "MicroPitch",
-           "mk": "Eventide"
-          },
-          {
-           "n": "Topline Vocal Tune",
-           "mk": "Universal Audio"
-          }
-         ]
         }
        ],
        "t": [
@@ -12413,6 +11872,32 @@
         "harmony",
         "formant",
         "alignment"
+       ],
+       "m": [
+        [
+         "Little AlterBoy",
+         "Soundtoys"
+        ],
+        [
+         "Tune Real-Time",
+         "Waves"
+        ],
+        [
+         "Nectar 4",
+         "iZotope"
+        ],
+        [
+         "VocalSynth 2",
+         "iZotope"
+        ],
+        [
+         "MicroPitch",
+         "Eventide"
+        ],
+        [
+         "Topline Vocal Tune",
+         "Universal Audio"
+        ]
        ]
       },
       {
@@ -12470,38 +11955,30 @@
            "mk": "Slate Digital"
           }
          ]
-        },
-        {
-         "n": "Modular and AI strips",
-         "a": "",
-         "d": "Modular or AI-assisted channel strips.",
-         "mk": "",
-         "y": "",
-         "s": "https://blog.dubspot.com/plugins/best/channel-strip",
-         "v": [
-          {
-           "n": "InfiniStrip",
-           "mk": "PSP Audioware"
-          },
-          {
-           "n": "Navy 2",
-           "mk": "Acustica Audio"
-          },
-          {
-           "n": "smart:chain",
-           "mk": "sonible"
-          },
-          {
-           "n": "Neutron 5",
-           "mk": "iZotope"
-          }
-         ]
         }
        ],
        "t": [
         "console emulation",
         "modular strip",
         "AI-assisted"
+       ],
+       "m": [
+        [
+         "InfiniStrip",
+         "PSP Audioware"
+        ],
+        [
+         "Navy 2",
+         "Acustica Audio"
+        ],
+        [
+         "smart:chain",
+         "sonible"
+        ],
+        [
+         "Neutron 5",
+         "iZotope"
+        ]
        ]
       },
       {
@@ -12553,43 +12030,34 @@
            "mk": "Waves"
           }
          ]
-        },
-        {
-         "n": "Mastering chains from other makers",
-         "a": "",
-         "d": "Mastering processors and bus tools.",
-         "mk": "",
-         "y": "",
-         "s": "https://blog.dubspot.com/plugins/best/mastering",
-         "v": [
-          {
-           "n": "bx_masterdesk",
-           "mk": "Brainworx"
-          },
-          {
-           "n": "FG-X 2",
-           "mk": "Slate Digital"
-          },
-          {
-           "n": "Portico II Master Buss Processor",
-           "mk": "Rupert Neve Designs",
-           "d": "Modelled by McDSP"
-          },
-          {
-           "n": "CenterOne 3",
-           "mk": "Leapwing Audio"
-          },
-          {
-           "n": "FASTER MASTER",
-           "mk": "Mastering The Mix"
-          }
-         ]
         }
        ],
        "t": [
         "all-in-one suite",
         "analog-style chain",
         "online mastering"
+       ],
+       "m": [
+        [
+         "bx_masterdesk",
+         "Brainworx"
+        ],
+        [
+         "FG-X 2",
+         "Slate Digital"
+        ],
+        [
+         "Portico II Master Buss Processor",
+         "Rupert Neve Designs"
+        ],
+        [
+         "CenterOne 3",
+         "Leapwing Audio"
+        ],
+        [
+         "FASTER MASTER",
+         "Mastering The Mix"
+        ]
        ]
       },
       {
@@ -12663,34 +12131,26 @@
            "mk": "Celemony"
           }
          ]
-        },
-        {
-         "n": "Other repair tools",
-         "a": "",
-         "d": "Targeted repair tools.",
-         "mk": "",
-         "y": "",
-         "s": "https://blog.dubspot.com/plugins/best/restoration",
-         "v": [
-          {
-           "n": "UNFILTER",
-           "mk": "Zynaptiq"
-          },
-          {
-           "n": "T-De-Breather",
-           "mk": "Techivation"
-          },
-          {
-           "n": "MDrumCleaner",
-           "mk": "MeldaProduction"
-          }
-         ]
         }
        ],
        "t": [
         "broadband repair",
         "spectral editor",
         "dialogue clean-up"
+       ],
+       "m": [
+        [
+         "UNFILTER",
+         "Zynaptiq"
+        ],
+        [
+         "T-De-Breather",
+         "Techivation"
+        ],
+        [
+         "MDrumCleaner",
+         "MeldaProduction"
+        ]
        ]
       },
       {
@@ -13296,6 +12756,40 @@
          ""
         ]
        ]
+      },
+      {
+       "n": "SDR software",
+       "a": "software-defined radio software",
+       "d": "Programs that tune and decode radio signals from an SDR receiver on a computer.",
+       "s": "https://en.wikipedia.org/wiki/GNU_Radio",
+       "x": [
+        {
+         "n": "GNU Radio",
+         "a": "",
+         "d": "Free toolkit for building software-defined radio signal-processing flowgraphs; created by Eric Blossom.",
+         "mk": "GNU Radio Community",
+         "y": "2001",
+         "s": "https://en.wikipedia.org/wiki/GNU_Radio"
+        }
+       ],
+       "m": [
+        [
+         "SDR#",
+         ""
+        ],
+        [
+         "Gqrx",
+         ""
+        ],
+        [
+         "SDRangel",
+         ""
+        ],
+        [
+         "HDSDR",
+         ""
+        ]
+       ]
       }
      ]
     },
@@ -13796,38 +13290,6 @@
          ]
         },
         {
-         "n": "SPSS",
-         "a": "",
-         "d": "IBM's menu-driven statistics package; JASP and PSPP are free alternatives.",
-         "mk": "IBM",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Comparison_of_statistical_packages",
-         "v": [
-          {
-           "n": "SPSS Statistics 28",
-           "mk": "IBM",
-           "y": "2021",
-           "d": "24 May 2021"
-          }
-         ]
-        },
-        {
-         "n": "Stata",
-         "a": "",
-         "d": "StataCorp's statistics package for economics, epidemiology and the social sciences.",
-         "mk": "StataCorp",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Comparison_of_statistical_packages",
-         "v": [
-          {
-           "n": "Stata 19",
-           "mk": "StataCorp",
-           "y": "2025",
-           "d": "8 April 2025"
-          }
-         ]
-        },
-        {
          "n": "Jupyter",
          "a": "",
          "d": "Notebook environment spun out of IPython (2001) by Fernando Perez in 2014; supports Python, Julia and R.",
@@ -13889,18 +13351,6 @@
         [
          "gretl",
          "The gretl Team"
-        ],
-        [
-         "SAS",
-         ""
-        ],
-        [
-         "JMP",
-         "JMP Statistical Discovery"
-        ],
-        [
-         "Minitab",
-         "Minitab"
         ],
         [
          "GraphPad Prism",
@@ -14382,56 +13832,20 @@
          ""
         ],
         [
-         "Roo Code",
-         ""
-        ],
-        [
-         "Kilo Code",
-         ""
-        ],
-        [
          "Zed Agent",
          "Zed Industries"
-        ],
-        [
-         "goose",
-         "Block"
-        ],
-        [
-         "OpenCode",
-         "Anomaly Innovations"
-        ],
-        [
-         "Google Antigravity",
-         "Google"
         ],
         [
          "Devin",
          "Cognition AI"
         ],
         [
-         "OpenHands",
-         "All Hands AI"
-        ],
-        [
          "Sourcegraph Cody",
          "Sourcegraph"
         ],
         [
-         "Warp",
-         "Warp"
-        ],
-        [
-         "Qodo",
-         "Qodo"
-        ],
-        [
-         "Crush",
-         "Charm"
-        ],
-        [
-         "Qoder",
-         "Alibaba Cloud"
+         "Google Antigravity",
+         "Google"
         ]
        ]
       },
@@ -14521,48 +13935,12 @@
          ""
         ],
         [
-         "Code Spell Checker",
-         ""
-        ],
-        [
-         "Material Icon Theme",
-         ""
-        ],
-        [
          "Error Lens",
          ""
         ],
         [
-         "Markdown All in One",
-         ""
-        ],
-        [
-         "Key Promoter X",
-         ""
-        ],
-        [
-         "Rainbow Brackets",
-         ""
-        ],
-        [
-         "Lombok",
-         ""
-        ],
-        [
-         "Kubernetes Plugin",
-         ""
-        ],
-        [
-         "Amazon Q Developer for JetBrains",
-         "Amazon Web Services"
-        ],
-        [
          "Gemini Code Assist",
          "Google"
-        ],
-        [
-         "Kilo Code",
-         "Kilo Code, Inc."
         ]
        ]
       },
@@ -15517,10 +14895,6 @@
          ""
         ],
         [
-         "Xfce Terminal",
-         ""
-        ],
-        [
          "Alacritty",
          ""
         ],
@@ -15530,50 +14904,6 @@
         ],
         [
          "WezTerm",
-         ""
-        ],
-        [
-         "Ghostty",
-         ""
-        ],
-        [
-         "Warp Terminal",
-         ""
-        ],
-        [
-         "Tabby",
-         ""
-        ],
-        [
-         "ConEmu",
-         ""
-        ],
-        [
-         "Mintty",
-         ""
-        ],
-        [
-         "Tera Term",
-         ""
-        ],
-        [
-         "Termux",
-         ""
-        ],
-        [
-         "xterm",
-         ""
-        ],
-        [
-         "Guake",
-         ""
-        ],
-        [
-         "Cool Retro Term",
-         ""
-        ],
-        [
-         "HyperTerminal",
          ""
         ]
        ]
@@ -16373,28 +15703,6 @@
            "n": "EiskaltDC++"
           }
          ]
-        },
-        {
-         "n": "Multi-network clients",
-         "a": "",
-         "d": "Clients that join several networks.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Comparison_of_file-sharing_applications",
-         "v": [
-          {
-           "n": "Shareaza",
-           "d": "Gnutella, Gnutella2, eDonkey, BitTorrent and Direct Connect; GPL; 2.7.10.2 in 2017"
-          },
-          {
-           "n": "Retroshare",
-           "d": "Friend-to-friend; GPL"
-          },
-          {
-           "n": "Tribler",
-           "d": "LGPL v2.1+"
-          }
-         ]
         }
        ],
        "m": [
@@ -16444,6 +15752,18 @@
         ],
         [
          "KCeasy",
+         ""
+        ],
+        [
+         "Shareaza",
+         ""
+        ],
+        [
+         "Retroshare",
+         ""
+        ],
+        [
+         "Tribler",
          ""
         ]
        ]
