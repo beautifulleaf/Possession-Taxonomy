@@ -831,13 +831,44 @@
        "n": "Track saw",
        "a": "plunge saw",
        "d": "Circular saw whose blade plunges from a sprung housing and that runs on a guide rail, for straight sheet cuts.",
-       "s": "https://www.toolstation.com/power-tools/saws/c722"
+       "s": "https://en.wikipedia.org/wiki/Track_saw",
+       "x": [
+        {
+         "n": "Festool plunge-cut track saw",
+         "a": "plunge saw",
+         "d": "Festool's guide-rail circular saw whose blade plunges from a sprung housing; the maker launched the guide rail in 1962 and a patented plunge-cut saw in 1980.",
+         "mk": "Festool",
+         "y": "1980",
+         "s": "https://en.wikipedia.org/wiki/Track_saw",
+         "v": [
+          {
+           "n": "Guide rail",
+           "mk": "Festool",
+           "y": "1962",
+           "d": "first guide rail"
+          }
+         ],
+         "dt": "blade diameter · plunge depth · rail length and system"
+        }
+       ]
       },
       {
        "n": "Reciprocating saw",
        "a": "recip saw · sabre saw",
        "d": "Hand-held power saw with a long blade driven back and forth in line with the body, for demolition and rough cuts.",
-       "s": "https://www.toolstation.com/power-tools/saws/c722"
+       "s": "https://en.wikipedia.org/wiki/Reciprocating_saw",
+       "x": [
+        {
+         "n": "Milwaukee Sawzall",
+         "a": "Sawzall · Sawzall reciprocating saw",
+         "d": "Milwaukee's reciprocating saw, the first portable hacksaw with a reciprocating mechanism; its name became a generic term.",
+         "mk": "Milwaukee",
+         "y": "1951",
+         "s": "https://en.wikipedia.org/wiki/Reciprocating_saw",
+         "v": [],
+         "dt": "corded or cordless · stroke length · blade fit"
+        }
+       ]
       },
       {
        "n": "Cut-off saw",
@@ -1452,32 +1483,14 @@
       },
       {
        "n": "Finish nailer",
-       "a": "",
-       "d": "Nailer for trim and moulding, driving 15- or 16-gauge finish nails.",
+       "a": "trim nailer · brad nailer · pin nailer",
+       "d": "Nailer for trim, moulding and fine woodwork, driving finish nails, thin brads or headless pins by gauge.",
        "t": [
+        "15/16-gauge (trim and moulding)",
+        "18-gauge (brad)",
+        "23-gauge (pin, headless)",
         "pneumatic",
         "gas",
-        "battery"
-       ],
-       "s": "https://www.harborfreight.com/air-tools-compressors/air-nailers-staplers.html"
-      },
-      {
-       "n": "Brad nailer",
-       "a": "",
-       "d": "Nailer driving thin 18-gauge brads for light trim and small woodwork.",
-       "t": [
-        "pneumatic",
-        "gas",
-        "battery"
-       ],
-       "s": "https://www.harborfreight.com/air-tools-compressors/air-nailers-staplers.html"
-      },
-      {
-       "n": "Pin nailer",
-       "a": "",
-       "d": "Nailer driving headless 23-gauge pins that leave almost invisible holes.",
-       "t": [
-        "pneumatic",
         "battery"
        ],
        "s": "https://www.harborfreight.com/air-tools-compressors/air-nailers-staplers.html"
@@ -2497,15 +2510,10 @@
          ]
         }
        ]
-      }
-     ]
-    },
-    {
-     "n": "Japanese woodworking tools",
-     "k": [
+      },
       {
        "n": "Kanna (Japanese plane)",
-       "a": "kanna · Japanese plane · pull plane",
+       "a": "kanna · Japanese plane · pull plane · Japanese tool",
        "d": "Japanese plane with a wooden block and a laminated blade wedged into it, cutting on the pull stroke.",
        "s": "https://www.dictum.com/en/japanese-planes-baeh/small-smoothing-plane-717097",
        "t": [
@@ -2571,367 +2579,6 @@
          ],
          "dt": ""
         }
-       ]
-      },
-      {
-       "n": "Ryoba saw",
-       "a": "double-edged Japanese pull saw",
-       "d": "Thin Japanese hand saw with crosscut teeth on one edge and rip teeth on the other, cutting on the pull stroke.",
-       "s": "https://www.leevalley.com/en-us/shop/tools/hand-tools/saws/japanese",
-       "t": [
-        "240 mm (general carpentry)",
-        "270 mm (larger work)",
-        "replaceable blade (kaeba)",
-        "traditional fixed blade"
-       ],
-       "x": [
-        {
-         "n": "Ryoba",
-         "a": "",
-         "d": "Multi-purpose pull saw with crosscut and rip edges on one blade.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Japanese_saw",
-         "v": [
-          {
-           "n": "Bluehard Ryoba 210 mm",
-           "mk": "Gyokucho",
-           "y": "",
-           "d": "replaceable blade S-649"
-          }
-         ],
-         "dt": "blade length · tooth pitch · handle (rattan or plastic)"
-        },
-        {
-         "n": "Azebiki",
-         "a": "",
-         "d": "Small ryoba with a convex blade that can start a cut in the middle of a board, for mortises, grooves and sliding dovetails.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Japanese_saw",
-         "v": [],
-         "dt": ""
-        }
-       ]
-      },
-      {
-       "n": "Dozuki saw",
-       "a": "backed Japanese pull saw",
-       "d": "Japanese pull saw whose thin fine-toothed blade is stiffened by a steel back, for joinery.",
-       "s": "https://www.leevalley.com/en-us/shop/tools/hand-tools/saws/japanese",
-       "t": [
-        "dovetail (rip) teeth",
-        "tenon (crosscut) teeth",
-        "replaceable blade",
-        "traditional fixed blade"
-       ],
-       "x": [
-        {
-         "n": "Dozuki",
-         "a": "",
-         "d": "Backsaw with a much thinner blade than a Western backsaw, for tenons and dovetails.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Japanese_saw",
-         "v": [
-          {
-           "n": "373 professional dozuki 240 mm",
-           "mk": "Gyokucho",
-           "y": "",
-           "d": "25.4 tpi; replacement blade S-370"
-          },
-          {
-           "n": "Dozuki Fine 150",
-           "mk": "Z-Saw",
-           "y": "",
-           "d": "Zetsaw 07103; 0.3 mm blade, 25 tpi, rattan handle"
-          },
-          {
-           "n": "Dozuki-Me Tenon Saw",
-           "mk": "Z-Saw",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Ikedame Dovetail Saw",
-           "mk": "Z-Saw",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Tatebiki Dovetail Saw",
-           "mk": "Shokunin",
-           "y": "",
-           "d": ""
-          }
-         ],
-         "dt": "blade length · tooth pitch · blade thickness"
-        }
-       ]
-      },
-      {
-       "n": "Kataba saw",
-       "a": "single-edged Japanese pull saw",
-       "d": "Japanese pull saw with teeth on one edge only and no back, for deeper crosscuts and rips than a dozuki allows.",
-       "s": "https://www.woodcraft.com/collections/japanese-handsaws",
-       "t": [
-        "crosscut",
-        "rip",
-        "combination teeth"
-       ],
-       "x": [
-        {
-         "n": "Kataba",
-         "a": "",
-         "d": "Single-edged pull saw, easy to use with a saw guide, for larger work or flush cutting.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Japanese_saw",
-         "v": [],
-         "dt": ""
-        }
-       ]
-      },
-      {
-       "n": "Flush-cut saw",
-       "a": "kugihiki · azebiki · flush-cut pull saw",
-       "d": "Japanese pull saw with a flexible blade and unset teeth that cuts flush against a surface.",
-       "s": "https://www.leevalley.com/en-us/shop/tools/hand-tools/saws/japanese",
-       "x": [
-        {
-         "n": "Kugihiki",
-         "a": "",
-         "d": "Thin flexible flush-cut saw with unset teeth on one side, for trimming dowels and tenons flush.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Japanese_saw",
-         "v": [
-          {
-           "n": "Zetsaw Flush S-145",
-           "mk": "Z-Saw",
-           "y": "",
-           "d": "150 mm cut, 21 tpi, zero-set teeth, replaceable blade"
-          },
-          {
-           "n": "Detail Flush-Cutting Saw",
-           "mk": "Veritas",
-           "y": "",
-           "d": "Western interpretation"
-          },
-          {
-           "n": "Double-Edge Flush-Cutting Saw",
-           "mk": "Veritas",
-           "y": "",
-           "d": "Western interpretation"
-          }
-         ],
-         "dt": "blade length · single or double edge"
-        }
-       ]
-      },
-      {
-       "n": "Genno (Japanese hammer)",
-       "a": "genno · gennou · Japanese carpenter's hammer",
-       "d": "Japanese hammer with two striking faces, one flat and one slightly convex, on a hand-fitted wooden handle.",
-       "s": "https://www.axminstertools.com/hand-tools/hammers-mallets-punches/japanese-hammers",
-       "t": [
-        "round, oval, square or octagonal face",
-        "head weight",
-        "handle wood"
-       ],
-       "x": [
-        {
-         "n": "Ryōguchi genno",
-         "a": "ryouguchi",
-         "d": "Standard symmetrical double-faced genno, one face flat and one slightly domed; most common in eastern Japan.",
-         "mk": "",
-         "y": "",
-         "s": "https://covingtonandsons.com/2020/05/30/the-japanese-gennou-handle-part-4-the-varieties-of-gennou-kataguchi-ryoguchi-daruma/",
-         "v": [],
-         "dt": ""
-        },
-        {
-         "n": "Kataguchi genno",
-         "a": "",
-         "d": "Genno with one slightly domed face and the other end tapering to a small square face for setting nails.",
-         "mk": "",
-         "y": "",
-         "s": "https://covingtonandsons.com/2020/05/30/the-japanese-gennou-handle-part-4-the-varieties-of-gennou-kataguchi-ryoguchi-daruma/",
-         "v": [],
-         "dt": ""
-        },
-        {
-         "n": "Daruma genno",
-         "a": "",
-         "d": "Shorter, fatter variation of the ryōguchi genno at the same weight.",
-         "mk": "",
-         "y": "",
-         "s": "https://covingtonandsons.com/2020/05/30/the-japanese-gennou-handle-part-4-the-varieties-of-gennou-kataguchi-ryoguchi-daruma/",
-         "v": [],
-         "dt": ""
-        },
-        {
-         "n": "Funate genno",
-         "a": "boat-hand genno · Iwakuni style",
-         "d": "Shipwright's genno especially suited to nailing; common in western Japan and Hokkaido.",
-         "mk": "",
-         "y": "",
-         "s": "https://covingtonandsons.com/2020/05/30/the-japanese-gennou-handle-part-4-the-varieties-of-gennou-kataguchi-ryoguchi-daruma/",
-         "v": [],
-         "dt": ""
-        },
-        {
-         "n": "Yamakichi genno",
-         "a": "",
-         "d": "Stubbier, heavier hybrid of ryōguchi and funate styles, suited to chisel work.",
-         "mk": "",
-         "y": "",
-         "s": "https://covingtonandsons.com/2020/05/30/the-japanese-gennou-handle-part-4-the-varieties-of-gennou-kataguchi-ryoguchi-daruma/",
-         "v": [
-          {
-           "n": "Yamakichi original",
-           "mk": "Yamakichi",
-           "y": "",
-           "d": "Kyushu blacksmith who developed the style"
-          },
-          {
-           "n": "Kosaburo pattern",
-           "mk": "Kosaburo",
-           "y": "",
-           "d": "modified for Tokyo customers with Yamakichi's permission"
-          }
-         ],
-         "dt": ""
-        }
-       ],
-       "m": [
-        [
-         "Hakkaku genno",
-         "Ice Bear"
-        ]
-       ]
-      },
-      {
-       "n": "Nomi (Japanese chisel)",
-       "a": "nomi · Japanese chisel",
-       "d": "Japanese chisel with a hard steel edge laminated to softer iron, a hollow back and usually a hooped handle for striking.",
-       "s": "https://en.wikipedia.org/wiki/Japanese_chisel",
-       "t": [
-        "white paper steel",
-        "blue paper steel",
-        "tang or socket",
-        "hooped (struck) or push"
-       ],
-       "x": [
-        {
-         "n": "Oire-nomi",
-         "a": "bench chisel · 'rabbeting chisel'",
-         "d": "The most common Japanese chisel: thin bench chisel with a hooped handle, in the widest range of widths.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Japanese_chisel",
-         "v": [],
-         "dt": ""
-        },
-        {
-         "n": "Atsu-nomi",
-         "a": "",
-         "d": "Thick, strong striking chisel for large joints, resembling a butt chisel.",
-         "mk": "",
-         "y": "",
-         "s": "https://www.woodcraft.com/blogs/woodcarving/japanese-woodworking-chisels",
-         "v": [],
-         "dt": ""
-        },
-        {
-         "n": "Mukōmachi-nomi",
-         "a": "mukomachi · mortise chisel",
-         "d": "Narrow mortise chisel with the neck as thick as the edge, struck to cut small mortises.",
-         "mk": "",
-         "y": "",
-         "s": "https://www.woodcraft.com/blogs/woodcarving/japanese-woodworking-chisels",
-         "v": [],
-         "dt": ""
-        },
-        {
-         "n": "Shinogi-nomi",
-         "a": "dovetail chisel",
-         "d": "Chisel with bevelled sides for cutting dovetails.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Japanese_chisel",
-         "v": [],
-         "dt": ""
-        },
-        {
-         "n": "Tsuki-nomi",
-         "a": "paring chisel · usu-nomi",
-         "d": "Long two-handed paring push chisel with a low-angle blade.",
-         "mk": "",
-         "y": "",
-         "s": "https://www.woodcraft.com/blogs/woodcarving/japanese-woodworking-chisels",
-         "v": [],
-         "dt": ""
-        },
-        {
-         "n": "Kote-nomi",
-         "a": "",
-         "d": "Crank-necked paring push chisel with an offset blade for long housing joints.",
-         "mk": "",
-         "y": "",
-         "s": "https://www.woodcraft.com/blogs/woodcarving/japanese-woodworking-chisels",
-         "v": [],
-         "dt": ""
-        }
-       ]
-      },
-      {
-       "n": "Sumitsubo (ink line)",
-       "a": "sumitsubo · Japanese ink line",
-       "d": "Japanese carpenter's reel whose cord draws ink from a cotton-filled well and is snapped to mark long straight lines.",
-       "s": "https://en.wikipedia.org/wiki/Sumitsubo",
-       "t": [
-        "traditional carved wooden",
-        "modern plastic",
-        "decorated ceremonial (topping-out)"
-       ]
-      },
-      {
-       "n": "Sashigane (carpenter's square)",
-       "a": "sashigane · Japanese square",
-       "d": "Thin flexible steel L-square used by Japanese carpenters for layout, often with special scales.",
-       "s": "https://www.timbecon.com.au/collections/japanese-tools/products/shinwa-sashigane-square-30cm-with-metal-stop",
-       "t": [
-        "flat body",
-        "profiled body (thinner edges for ink)",
-        "metric",
-        "with metal stop",
-        "calculated scales (square-root, pi)"
-       ],
-       "m": [
-        [
-         "Sashigane square 30 cm with metal stop",
-         "Shinwa"
-        ]
-       ]
-      },
-      {
-       "n": "Kiridashi",
-       "a": "kiridashi kogatana · Japanese marking knife",
-       "d": "Small Japanese single-bevel knife for marking, whittling and general woodworking cuts.",
-       "s": "https://www.knivesandstones.com.au/pages/maker/masuda-kiridashi-factory",
-       "t": [
-        "left or right bevel",
-        "kurouchi finish",
-        "tsuchime finish",
-        "damascus (kitaeji)",
-        "white 2 or blue 1 steel"
-       ],
-       "m": [
-        [
-         "Kiridashi",
-         "Masuda"
-        ]
        ]
       }
      ]
@@ -3291,99 +2938,6 @@
        ]
       },
       {
-       "n": "Hacksaw",
-       "a": "",
-       "d": "Hand saw with a thin replaceable blade tensioned in a bow frame, for metal, pipe and plastic.",
-       "t": [
-        "standard 12 in (300 mm)",
-        "junior hacksaw",
-        "panel hacksaw",
-        "high-tension frame",
-        "mini saw / blade holder",
-        "blade: carbon steel, bi-metal, HSS · 14–32 tpi"
-       ],
-       "s": "https://www.axminstertools.com/hand-tools/saws",
-       "x": [
-        {
-         "n": "Eclipse hacksaw frame",
-         "a": "",
-         "d": "Sheffield hacksaw frames from the Eclipse brand, maker of the first composite steel hacksaw blade (1911); frames since 1924.",
-         "mk": "Eclipse",
-         "y": "1924",
-         "s": "https://en.wikipedia.org/wiki/Spear_%26_Jackson",
-         "v": [
-          {
-           "n": "Professional Hacksaw 70-20TR",
-           "mk": "Eclipse",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Pro-Plus Hacksaw 70-23TR",
-           "mk": "Eclipse",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Handyman Hacksaw 70-400R",
-           "mk": "Eclipse",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Junior Hacksaw 70-14JR",
-           "mk": "Eclipse",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Mini Saw 70-675R",
-           "mk": "Eclipse",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "12\" Soft Feel Hacksaw EPH300",
-           "mk": "Eclipse",
-           "y": "",
-           "d": ""
-          }
-         ],
-         "dt": "blade 12 in or junior · frame tension · handle (pistol grip, soft feel)"
-        },
-        {
-         "n": "Bahco Sandflex",
-         "a": "",
-         "d": "Bi-metal hacksaw blade line introduced by Bahco.",
-         "mk": "Bahco",
-         "y": "1969",
-         "s": "https://en.wikipedia.org/wiki/Bahco",
-         "v": [],
-         "dt": "blade length · tpi"
-        },
-        {
-         "n": "Junior hacksaw",
-         "a": "",
-         "d": "Small hacksaw taking half-size, pin-ended carbon steel blades held in frame notches.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Hacksaw",
-         "v": [],
-         "dt": "blade length · tpi"
-        },
-        {
-         "n": "Panel hacksaw",
-         "a": "",
-         "d": "Hacksaw with a deep, thin frame behind the blade so it can cut into sheet panels without the frame limiting the cut.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Hacksaw",
-         "v": [],
-         "dt": "blade length"
-        }
-       ]
-      },
-      {
        "n": "Coping saw",
        "a": "",
        "d": "Hand saw with a thin, fine blade tensioned in a deep U-shaped frame, turned in the frame to cut curves in wood.",
@@ -3505,6 +3059,162 @@
          "dt": "blade width · frame size"
         }
        ]
+      },
+      {
+       "n": "Ryoba saw",
+       "a": "double-edged Japanese pull saw · Japanese tool",
+       "d": "Thin Japanese hand saw with crosscut teeth on one edge and rip teeth on the other, cutting on the pull stroke.",
+       "s": "https://www.leevalley.com/en-us/shop/tools/hand-tools/saws/japanese",
+       "t": [
+        "240 mm (general carpentry)",
+        "270 mm (larger work)",
+        "replaceable blade (kaeba)",
+        "traditional fixed blade"
+       ],
+       "x": [
+        {
+         "n": "Ryoba",
+         "a": "",
+         "d": "Multi-purpose pull saw with crosscut and rip edges on one blade.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Japanese_saw",
+         "v": [
+          {
+           "n": "Bluehard Ryoba 210 mm",
+           "mk": "Gyokucho",
+           "y": "",
+           "d": "replaceable blade S-649"
+          }
+         ],
+         "dt": "blade length · tooth pitch · handle (rattan or plastic)"
+        },
+        {
+         "n": "Azebiki",
+         "a": "",
+         "d": "Small ryoba with a convex blade that can start a cut in the middle of a board, for mortises, grooves and sliding dovetails.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Japanese_saw",
+         "v": [],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Dozuki saw",
+       "a": "backed Japanese pull saw · Japanese tool",
+       "d": "Japanese pull saw whose thin fine-toothed blade is stiffened by a steel back, for joinery.",
+       "s": "https://www.leevalley.com/en-us/shop/tools/hand-tools/saws/japanese",
+       "t": [
+        "dovetail (rip) teeth",
+        "tenon (crosscut) teeth",
+        "replaceable blade",
+        "traditional fixed blade"
+       ],
+       "x": [
+        {
+         "n": "Dozuki",
+         "a": "",
+         "d": "Backsaw with a much thinner blade than a Western backsaw, for tenons and dovetails.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Japanese_saw",
+         "v": [
+          {
+           "n": "373 professional dozuki 240 mm",
+           "mk": "Gyokucho",
+           "y": "",
+           "d": "25.4 tpi; replacement blade S-370"
+          },
+          {
+           "n": "Dozuki Fine 150",
+           "mk": "Z-Saw",
+           "y": "",
+           "d": "Zetsaw 07103; 0.3 mm blade, 25 tpi, rattan handle"
+          },
+          {
+           "n": "Dozuki-Me Tenon Saw",
+           "mk": "Z-Saw",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Ikedame Dovetail Saw",
+           "mk": "Z-Saw",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Tatebiki Dovetail Saw",
+           "mk": "Shokunin",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "blade length · tooth pitch · blade thickness"
+        }
+       ]
+      },
+      {
+       "n": "Kataba saw",
+       "a": "single-edged Japanese pull saw · Japanese tool",
+       "d": "Japanese pull saw with teeth on one edge only and no back, for deeper crosscuts and rips than a dozuki allows.",
+       "s": "https://www.woodcraft.com/collections/japanese-handsaws",
+       "t": [
+        "crosscut",
+        "rip",
+        "combination teeth"
+       ],
+       "x": [
+        {
+         "n": "Kataba",
+         "a": "",
+         "d": "Single-edged pull saw, easy to use with a saw guide, for larger work or flush cutting.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Japanese_saw",
+         "v": [],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Flush-cut saw",
+       "a": "kugihiki · azebiki · flush-cut pull saw · Japanese tool",
+       "d": "Japanese pull saw with a flexible blade and unset teeth that cuts flush against a surface.",
+       "s": "https://www.leevalley.com/en-us/shop/tools/hand-tools/saws/japanese",
+       "x": [
+        {
+         "n": "Kugihiki",
+         "a": "",
+         "d": "Thin flexible flush-cut saw with unset teeth on one side, for trimming dowels and tenons flush.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Japanese_saw",
+         "v": [
+          {
+           "n": "Zetsaw Flush S-145",
+           "mk": "Z-Saw",
+           "y": "",
+           "d": "150 mm cut, 21 tpi, zero-set teeth, replaceable blade"
+          },
+          {
+           "n": "Detail Flush-Cutting Saw",
+           "mk": "Veritas",
+           "y": "",
+           "d": "Western interpretation"
+          },
+          {
+           "n": "Double-Edge Flush-Cutting Saw",
+           "mk": "Veritas",
+           "y": "",
+           "d": "Western interpretation"
+          }
+         ],
+         "dt": "blade length · single or double edge"
+        }
+       ]
       }
      ]
     },
@@ -3548,7 +3258,7 @@
           },
           {
            "n": "Bevel Edge Socket Chisel",
-           "mk": "Lie-Nielsen",
+           "mk": "Lie-Nielsen Toolworks",
            "y": "",
            "d": "patterned on the Stanley 750; A2 steel"
           }
@@ -3600,6 +3310,80 @@
        "t": [
         "registered mortise chisel",
         "sash mortise chisel"
+       ]
+      },
+      {
+       "n": "Nomi (Japanese chisel)",
+       "a": "nomi · Japanese chisel · Japanese tool",
+       "d": "Japanese chisel with a hard steel edge laminated to softer iron, a hollow back and usually a hooped handle for striking.",
+       "s": "https://en.wikipedia.org/wiki/Japanese_chisel",
+       "t": [
+        "white paper steel",
+        "blue paper steel",
+        "tang or socket",
+        "hooped (struck) or push"
+       ],
+       "x": [
+        {
+         "n": "Oire-nomi",
+         "a": "bench chisel · 'rabbeting chisel'",
+         "d": "The most common Japanese chisel: thin bench chisel with a hooped handle, in the widest range of widths.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Japanese_chisel",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Atsu-nomi",
+         "a": "",
+         "d": "Thick, strong striking chisel for large joints, resembling a butt chisel.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.woodcraft.com/blogs/woodcarving/japanese-woodworking-chisels",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Mukōmachi-nomi",
+         "a": "mukomachi · mortise chisel",
+         "d": "Narrow mortise chisel with the neck as thick as the edge, struck to cut small mortises.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.woodcraft.com/blogs/woodcarving/japanese-woodworking-chisels",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Shinogi-nomi",
+         "a": "dovetail chisel",
+         "d": "Chisel with bevelled sides for cutting dovetails.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Japanese_chisel",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Tsuki-nomi",
+         "a": "paring chisel · usu-nomi",
+         "d": "Long two-handed paring push chisel with a low-angle blade.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.woodcraft.com/blogs/woodcarving/japanese-woodworking-chisels",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Kote-nomi",
+         "a": "",
+         "d": "Crank-necked paring push chisel with an offset blade for long housing joints.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.woodcraft.com/blogs/woodcarving/japanese-woodworking-chisels",
+         "v": [],
+         "dt": ""
+        }
        ]
       },
       {
@@ -3700,65 +3484,6 @@
         [
          "Sovereign System",
          "Robert Sorby"
-        ]
-       ]
-      },
-      {
-       "n": "File",
-       "a": "",
-       "d": "Hardened steel bar with cutting ridges for removing metal or wood by hand on the push stroke.",
-       "s": "https://www.axminstertools.com/hand-tools/files-rasps",
-       "t": [
-        "single cut",
-        "double cut",
-        "rough to dead smooth (bastard, second cut, smooth)",
-        "flat, half-round, round, triangular, square, knife",
-        "mill file",
-        "needle file",
-        "riffler",
-        "diamond file",
-        "escapement file"
-       ],
-       "x": [
-        {
-         "n": "Swiss-pattern file",
-         "a": "",
-         "d": "Precision file with shallower teeth graded by number (No. 1 coarser than No. 2).",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/File_(tool)",
-         "v": [],
-         "dt": "cut number · shape · length"
-        }
-       ]
-      },
-      {
-       "n": "Rasp",
-       "a": "",
-       "d": "Steel bar or blade with individually raised teeth, for fast shaping of wood and soft materials.",
-       "s": "https://www.axminstertools.com/hand-tools/files-rasps",
-       "t": [
-        "cabinet rasp",
-        "modeller's rasp",
-        "riffler",
-        "saw rasp"
-       ],
-       "x": [
-        {
-         "n": "Auriou hand-cut rasp",
-         "a": "",
-         "d": "French rasps whose teeth were raised by hand, made in Saint-Juéry since 1856.",
-         "mk": "Auriou",
-         "y": "1856",
-         "s": "https://popularwoodworking.com/techniques/auriou-french-rasp-maker-since-1856-closes-its-doors-2",
-         "v": [],
-         "dt": ""
-        }
-       ],
-       "m": [
-        [
-         "Japanese Saw Rasp",
-         "Shinto"
         ]
        ]
       },
@@ -3878,93 +3603,6 @@
          "SJ-250 Japanese Waterstone",
          "Tormek"
         ]
-       ]
-      },
-      {
-       "n": "Honing guide",
-       "a": "sharpening jig · honing jig",
-       "d": "Clamp on a roller that holds a chisel or plane blade at a set angle while it is honed on a stone.",
-       "s": "https://woodcraft.com/products/veritas-mk-ii-honing-guide",
-       "t": [
-        "side-clamping",
-        "top-clamping",
-        "with angle-setting jig",
-        "micro-bevel roller"
-       ],
-       "x": [
-        {
-         "n": "Veritas Mk.II honing guide",
-         "a": "Mk II",
-         "d": "Honing guide setting bevels of 15–54° and back bevels of 10–20° for blades 1/2 to 2-7/8 in wide, with a three-position micro-bevel roller.",
-         "mk": "Veritas",
-         "y": "",
-         "s": "https://woodcraft.com/products/veritas-mk-ii-honing-guide",
-         "v": [],
-         "dt": ""
-        }
-       ]
-      },
-      {
-       "n": "Sharpening system",
-       "a": "wet grinder · sharpening machine",
-       "d": "Machine or jig system for sharpening edges, such as a slow wet wheel with jigs or a dry abrasive disc.",
-       "s": "https://www.axminstertools.com/activities/sharpening/sharpening-stones",
-       "t": [
-        "slow wet grinder",
-        "dry abrasive disc",
-        "belt sharpener",
-        "jig-guided"
-       ],
-       "x": [
-        {
-         "n": "Tormek wet grinder",
-         "a": "",
-         "d": "Slow-turning water-cooled grindstone with a Universal Support for jigs, developed by Torgny Jansson in Sweden.",
-         "mk": "Tormek",
-         "y": "1973",
-         "s": "https://www.tormek.com/en/inspiration/the-tormek-story",
-         "v": [
-          {
-           "n": "First self-powered model",
-           "mk": "Tormek",
-           "y": "1981",
-           "d": ""
-          },
-          {
-           "n": "Universal Support",
-           "mk": "Tormek",
-           "y": "1984",
-           "d": "basis of the jig system"
-          },
-          {
-           "n": "SG-250 Original Grindstone system",
-           "mk": "Tormek",
-           "y": "",
-           "d": "vitrified aluminium oxide stone, replacing original Gotland sandstone"
-          }
-         ],
-         "dt": ""
-        },
-        {
-         "n": "Work Sharp WS3000",
-         "a": "",
-         "d": "Dry bench sharpener with tempered-glass abrasive wheels and preset 20–35° bevel angles; now retired.",
-         "mk": "Work Sharp",
-         "y": "",
-         "s": "https://worksharptools.com/products/woodworking-tool-sharpener-ws3000",
-         "v": [],
-         "dt": ""
-        },
-        {
-         "n": "ProEdge",
-         "a": "",
-         "d": "Robert Sorby's sharpening system.",
-         "mk": "Robert Sorby",
-         "y": "",
-         "s": "https://robert-sorby.co.uk/",
-         "v": [],
-         "dt": ""
-        }
        ]
       }
      ]
@@ -4286,6 +3924,187 @@
          "s": "https://en.wikipedia.org/wiki/Gimlet_(tool)",
          "v": [],
          "dt": "diameter · handle"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Jigs, guides & sharpening aids",
+     "k": [
+      {
+       "n": "Pocket-hole jig",
+       "a": "pocket hole jig · pocket-screw jig",
+       "d": "Clamping guide that drills an angled hole so a screw joins two boards with the fixing hidden from view.",
+       "t": [
+        "single-hole portable",
+        "multi-hole bench",
+        "stationary or clamp-on"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Pocket-hole_joinery",
+       "x": [
+        {
+         "n": "Kreg Jig",
+         "a": "Kreg pocket-hole jig",
+         "d": "The U-shaped single-hole jig developed by Craig Sommerfeld for hiding cabinet face-frame joints, which made pocket holes popular.",
+         "mk": "Kreg Tool",
+         "y": "1989",
+         "s": "https://learn.kregtool.com/about/history/",
+         "v": [
+          {
+           "n": "First patent",
+           "mk": "Kreg Tool",
+           "y": "1990",
+           "d": "patent issued for the Kreg Jig"
+          },
+          {
+           "n": "K2000",
+           "mk": "Kreg Tool",
+           "y": "2000",
+           "d": "injection-moulded plastic instead of metal"
+          },
+          {
+           "n": "K3",
+           "mk": "Kreg Tool",
+           "y": "2005",
+           "d": "patented and released"
+          },
+          {
+           "n": "K4/K5 family",
+           "mk": "Kreg Tool",
+           "y": "",
+           "d": "replaced in 2021 by a new generation of pocket-hole jigs"
+          }
+         ],
+         "dt": "hole count · portable or bench-mounted · material thickness range"
+        }
+       ]
+      },
+      {
+       "n": "Dovetail jig",
+       "a": "router dovetail jig",
+       "d": "Template guide that lets a router cut matching dovetail, box-joint or sliding dovetail joints.",
+       "t": [
+        "fixed-spacing template",
+        "adjustable finger template"
+       ],
+       "s": "https://www.leightools.com/d4r-pro-overview/",
+       "x": [
+        {
+         "n": "Leigh D4R Pro",
+         "a": "Leigh D4R · D4R Pro dovetail jig",
+         "d": "Adjustable router jig cutting through, half-blind and sliding dovetails and box joints with variable pin and tail spacing.",
+         "mk": "Leigh",
+         "y": "",
+         "s": "https://www.leightools.com/d4r-pro-overview/",
+         "v": [],
+         "dt": "capacity (width) · joint types · router bits"
+        }
+       ]
+      },
+      {
+       "n": "Shooting board",
+       "a": "",
+       "d": "Flat base with a stop and fence on which a board is held and its edge or end trimmed square with a hand plane.",
+       "s": "https://en.wikipedia.org/wiki/Shooting_board"
+      },
+      {
+       "n": "Saw set",
+       "a": "saw setter",
+       "d": "Hand tool that bends saw teeth to set the width of the cut and stop the blade binding.",
+       "t": [
+        "hammer",
+        "lever",
+        "pliers",
+        "two-handled",
+        "automated"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Saw_set"
+      },
+      {
+       "n": "Honing guide",
+       "a": "sharpening jig · honing jig",
+       "d": "Clamp on a roller that holds a chisel or plane blade at a set angle while it is honed on a stone.",
+       "s": "https://woodcraft.com/products/veritas-mk-ii-honing-guide",
+       "t": [
+        "side-clamping",
+        "top-clamping",
+        "with angle-setting jig",
+        "micro-bevel roller"
+       ],
+       "x": [
+        {
+         "n": "Veritas Mk.II honing guide",
+         "a": "Mk II",
+         "d": "Honing guide setting bevels of 15–54° and back bevels of 10–20° for blades 1/2 to 2-7/8 in wide, with a three-position micro-bevel roller.",
+         "mk": "Veritas",
+         "y": "",
+         "s": "https://woodcraft.com/products/veritas-mk-ii-honing-guide",
+         "v": [],
+         "dt": ""
+        }
+       ]
+      },
+      {
+       "n": "Sharpening system",
+       "a": "wet grinder · sharpening machine",
+       "d": "Machine or jig system for sharpening edges, such as a slow wet wheel with jigs or a dry abrasive disc.",
+       "s": "https://www.axminstertools.com/activities/sharpening/sharpening-stones",
+       "t": [
+        "slow wet grinder",
+        "dry abrasive disc",
+        "belt sharpener",
+        "jig-guided"
+       ],
+       "x": [
+        {
+         "n": "Tormek wet grinder",
+         "a": "",
+         "d": "Slow-turning water-cooled grindstone with a Universal Support for jigs, developed by Torgny Jansson in Sweden.",
+         "mk": "Tormek",
+         "y": "1973",
+         "s": "https://www.tormek.com/en/inspiration/the-tormek-story",
+         "v": [
+          {
+           "n": "First self-powered model",
+           "mk": "Tormek",
+           "y": "1981",
+           "d": ""
+          },
+          {
+           "n": "Universal Support",
+           "mk": "Tormek",
+           "y": "1984",
+           "d": "basis of the jig system"
+          },
+          {
+           "n": "SG-250 Original Grindstone system",
+           "mk": "Tormek",
+           "y": "",
+           "d": "vitrified aluminium oxide stone, replacing original Gotland sandstone"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Work Sharp WS3000",
+         "a": "",
+         "d": "Dry bench sharpener with tempered-glass abrasive wheels and preset 20–35° bevel angles; now retired.",
+         "mk": "Work Sharp",
+         "y": "",
+         "s": "https://worksharptools.com/products/woodworking-tool-sharpener-ws3000",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "ProEdge",
+         "a": "",
+         "d": "Robert Sorby's sharpening system.",
+         "mk": "Robert Sorby",
+         "y": "",
+         "s": "https://robert-sorby.co.uk/",
+         "v": [],
+         "dt": ""
         }
        ]
       }
@@ -5573,6 +5392,163 @@
      ]
     },
     {
+     "n": "Metalwork hand tools",
+     "k": [
+      {
+       "n": "Hacksaw",
+       "a": "",
+       "d": "Hand saw with a thin replaceable blade tensioned in a bow frame, for metal, pipe and plastic.",
+       "t": [
+        "standard 12 in (300 mm)",
+        "junior hacksaw",
+        "panel hacksaw",
+        "high-tension frame",
+        "mini saw / blade holder",
+        "blade: carbon steel, bi-metal, HSS · 14–32 tpi"
+       ],
+       "s": "https://www.axminstertools.com/hand-tools/saws",
+       "x": [
+        {
+         "n": "Eclipse hacksaw frame",
+         "a": "",
+         "d": "Sheffield hacksaw frames from the Eclipse brand, maker of the first composite steel hacksaw blade (1911); frames since 1924.",
+         "mk": "Eclipse",
+         "y": "1924",
+         "s": "https://en.wikipedia.org/wiki/Spear_%26_Jackson",
+         "v": [
+          {
+           "n": "Professional Hacksaw 70-20TR",
+           "mk": "Eclipse",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Pro-Plus Hacksaw 70-23TR",
+           "mk": "Eclipse",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Handyman Hacksaw 70-400R",
+           "mk": "Eclipse",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Junior Hacksaw 70-14JR",
+           "mk": "Eclipse",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Mini Saw 70-675R",
+           "mk": "Eclipse",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "12\" Soft Feel Hacksaw EPH300",
+           "mk": "Eclipse",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "blade 12 in or junior · frame tension · handle (pistol grip, soft feel)"
+        },
+        {
+         "n": "Bahco Sandflex",
+         "a": "",
+         "d": "Bi-metal hacksaw blade line introduced by Bahco.",
+         "mk": "Bahco",
+         "y": "1969",
+         "s": "https://en.wikipedia.org/wiki/Bahco",
+         "v": [],
+         "dt": "blade length · tpi"
+        },
+        {
+         "n": "Junior hacksaw",
+         "a": "",
+         "d": "Small hacksaw taking half-size, pin-ended carbon steel blades held in frame notches.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hacksaw",
+         "v": [],
+         "dt": "blade length · tpi"
+        },
+        {
+         "n": "Panel hacksaw",
+         "a": "",
+         "d": "Hacksaw with a deep, thin frame behind the blade so it can cut into sheet panels without the frame limiting the cut.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hacksaw",
+         "v": [],
+         "dt": "blade length"
+        }
+       ]
+      },
+      {
+       "n": "File",
+       "a": "",
+       "d": "Hardened steel bar with cutting ridges for removing metal or wood by hand on the push stroke.",
+       "s": "https://www.axminstertools.com/hand-tools/files-rasps",
+       "t": [
+        "single cut",
+        "double cut",
+        "rough to dead smooth (bastard, second cut, smooth)",
+        "flat, half-round, round, triangular, square, knife",
+        "mill file",
+        "needle file",
+        "riffler",
+        "diamond file",
+        "escapement file"
+       ],
+       "x": [
+        {
+         "n": "Swiss-pattern file",
+         "a": "",
+         "d": "Precision file with shallower teeth graded by number (No. 1 coarser than No. 2).",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/File_(tool)",
+         "v": [],
+         "dt": "cut number · shape · length"
+        }
+       ]
+      },
+      {
+       "n": "Rasp",
+       "a": "",
+       "d": "Steel bar or blade with individually raised teeth, for fast shaping of wood and soft materials.",
+       "s": "https://www.axminstertools.com/hand-tools/files-rasps",
+       "t": [
+        "cabinet rasp",
+        "modeller's rasp",
+        "riffler",
+        "saw rasp"
+       ],
+       "x": [
+        {
+         "n": "Auriou hand-cut rasp",
+         "a": "",
+         "d": "French rasps whose teeth were raised by hand, made in Saint-Juéry since 1856.",
+         "mk": "Auriou",
+         "y": "1856",
+         "s": "https://popularwoodworking.com/techniques/auriou-french-rasp-maker-since-1856-closes-its-doors-2",
+         "v": [],
+         "dt": ""
+        }
+       ],
+       "m": [
+        [
+         "Japanese Saw Rasp",
+         "Shinto"
+        ]
+       ]
+      }
+     ]
+    },
+    {
      "n": "Hammers, punches & bars",
      "k": [
       {
@@ -5587,14 +5563,6 @@
        "s": "https://www.toolstation.com/hand-tools/hammers/c27",
        "m": [
         [
-         "Sure Strike claw hammer",
-         "Estwing"
-        ],
-        [
-         "Ultra claw hammer",
-         "Estwing"
-        ],
-        [
          "FatMax Curve claw hammer",
          "Stanley"
         ],
@@ -5605,6 +5573,119 @@
         [
          "High Velocity claw hammer",
          "Minotaur"
+        ]
+       ],
+       "x": [
+        {
+         "n": "Estwing one-piece hammer",
+         "a": "Estwing Hammer · solid-steel hammer",
+         "d": "Claw hammer with head and handle forged from one piece of solid steel, patented by Ernest Estwing in the 1920s.",
+         "mk": "Estwing",
+         "y": "1923",
+         "s": "https://www.estwing.com/company/celebrating-100-years/",
+         "v": [
+          {
+           "n": "Leather handle",
+           "mk": "Estwing",
+           "y": "1930s",
+           "d": "leather-washer grip introduced"
+          },
+          {
+           "n": "Sure Strike claw hammer",
+           "mk": "Estwing",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Ultra claw hammer",
+           "mk": "Estwing",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "head weight (oz) · claw curved or straight · grip (leather, nylon-vinyl)"
+        }
+       ]
+      },
+      {
+       "n": "Genno (Japanese hammer)",
+       "a": "genno · gennou · Japanese carpenter's hammer · Japanese tool",
+       "d": "Japanese hammer with two striking faces, one flat and one slightly convex, on a hand-fitted wooden handle.",
+       "s": "https://www.axminstertools.com/hand-tools/hammers-mallets-punches/japanese-hammers",
+       "t": [
+        "round, oval, square or octagonal face",
+        "head weight",
+        "handle wood"
+       ],
+       "x": [
+        {
+         "n": "Ryōguchi genno",
+         "a": "ryouguchi",
+         "d": "Standard symmetrical double-faced genno, one face flat and one slightly domed; most common in eastern Japan.",
+         "mk": "",
+         "y": "",
+         "s": "https://covingtonandsons.com/2020/05/30/the-japanese-gennou-handle-part-4-the-varieties-of-gennou-kataguchi-ryoguchi-daruma/",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Kataguchi genno",
+         "a": "",
+         "d": "Genno with one slightly domed face and the other end tapering to a small square face for setting nails.",
+         "mk": "",
+         "y": "",
+         "s": "https://covingtonandsons.com/2020/05/30/the-japanese-gennou-handle-part-4-the-varieties-of-gennou-kataguchi-ryoguchi-daruma/",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Daruma genno",
+         "a": "",
+         "d": "Shorter, fatter variation of the ryōguchi genno at the same weight.",
+         "mk": "",
+         "y": "",
+         "s": "https://covingtonandsons.com/2020/05/30/the-japanese-gennou-handle-part-4-the-varieties-of-gennou-kataguchi-ryoguchi-daruma/",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Funate genno",
+         "a": "boat-hand genno · Iwakuni style",
+         "d": "Shipwright's genno especially suited to nailing; common in western Japan and Hokkaido.",
+         "mk": "",
+         "y": "",
+         "s": "https://covingtonandsons.com/2020/05/30/the-japanese-gennou-handle-part-4-the-varieties-of-gennou-kataguchi-ryoguchi-daruma/",
+         "v": [],
+         "dt": ""
+        },
+        {
+         "n": "Yamakichi genno",
+         "a": "",
+         "d": "Stubbier, heavier hybrid of ryōguchi and funate styles, suited to chisel work.",
+         "mk": "",
+         "y": "",
+         "s": "https://covingtonandsons.com/2020/05/30/the-japanese-gennou-handle-part-4-the-varieties-of-gennou-kataguchi-ryoguchi-daruma/",
+         "v": [
+          {
+           "n": "Yamakichi original",
+           "mk": "Yamakichi",
+           "y": "",
+           "d": "Kyushu blacksmith who developed the style"
+          },
+          {
+           "n": "Kosaburo pattern",
+           "mk": "Kosaburo",
+           "y": "",
+           "d": "modified for Tokyo customers with Yamakichi's permission"
+          }
+         ],
+         "dt": ""
+        }
+       ],
+       "m": [
+        [
+         "Hakkaku genno",
+         "Ice Bear"
         ]
        ]
       },
@@ -5674,12 +5755,14 @@
        "s": "https://www.highlandwoodworking.com/collections/hammers"
       },
       {
-       "n": "Wrecking bar",
-       "a": "crowbar",
-       "d": "Flat or round steel bar with a curved claw end, for prying and demolition.",
+       "n": "Pry bar & wrecking bar",
+       "a": "crowbar · wrecking bar · flat bar · pry bar · nail puller · cat's paw · lifting bar · pinch bar",
+       "d": "Steel bar used as a lever for prising, nail pulling, demolition or lifting, in claw, flat or straight forms.",
        "t": [
-        "gooseneck",
-        "flat"
+        "gooseneck wrecking bar",
+        "flat pry bar",
+        "cat's paw (nail puller)",
+        "lifting bar (straight, pointed)"
        ],
        "s": "https://www.estwing.com/?p=15197",
        "m": [
@@ -5696,24 +5779,6 @@
          "Roughneck"
         ]
        ]
-      },
-      {
-       "n": "Pry bar",
-       "a": "flat bar",
-       "d": "Thin flat steel bar with bevelled ends and nail slots, for prising trim and boards.",
-       "s": "https://www.tooled-up.com/bars/cat/2000233/?page=1"
-      },
-      {
-       "n": "Nail puller",
-       "a": "cat's paw",
-       "d": "Short bar with a claw tip driven under a nail head to lever it out.",
-       "s": "https://www.highlandwoodworking.com/collections/hammers"
-      },
-      {
-       "n": "Lifting bar",
-       "a": "pinch bar",
-       "d": "Long heavy straight bar with a chisel or point end, used as a lever to lift slabs and heavy items.",
-       "s": "https://www.tooled-up.com/bars/cat/2000233/?page=1"
       }
      ]
     },
@@ -10062,6 +10127,55 @@
          "dt": "blade length · wood or metal stock · lever or wing-nut lock"
         }
        ]
+      },
+      {
+       "n": "Sumitsubo (ink line)",
+       "a": "sumitsubo · Japanese ink line · Japanese tool",
+       "d": "Japanese carpenter's reel whose cord draws ink from a cotton-filled well and is snapped to mark long straight lines.",
+       "s": "https://en.wikipedia.org/wiki/Sumitsubo",
+       "t": [
+        "traditional carved wooden",
+        "modern plastic",
+        "decorated ceremonial (topping-out)"
+       ]
+      },
+      {
+       "n": "Sashigane (carpenter's square)",
+       "a": "sashigane · Japanese square · Japanese tool",
+       "d": "Thin flexible steel L-square used by Japanese carpenters for layout, often with special scales.",
+       "s": "https://www.timbecon.com.au/collections/japanese-tools/products/shinwa-sashigane-square-30cm-with-metal-stop",
+       "t": [
+        "flat body",
+        "profiled body (thinner edges for ink)",
+        "metric",
+        "with metal stop",
+        "calculated scales (square-root, pi)"
+       ],
+       "m": [
+        [
+         "Sashigane square 30 cm with metal stop",
+         "Shinwa"
+        ]
+       ]
+      },
+      {
+       "n": "Kiridashi",
+       "a": "kiridashi kogatana · Japanese marking knife · Japanese tool",
+       "d": "Small Japanese single-bevel knife for marking, whittling and general woodworking cuts.",
+       "s": "https://www.knivesandstones.com.au/pages/maker/masuda-kiridashi-factory",
+       "t": [
+        "left or right bevel",
+        "kurouchi finish",
+        "tsuchime finish",
+        "damascus (kitaeji)",
+        "white 2 or blue 1 steel"
+       ],
+       "m": [
+        [
+         "Kiridashi",
+         "Masuda"
+        ]
+       ]
       }
      ]
     },
@@ -10171,6 +10285,16 @@
          "Fluke"
         ]
        ]
+      },
+      {
+       "n": "Bench power supply",
+       "a": "lab power supply · laboratory power supply",
+       "d": "Mains-powered supply with adjustable output voltage and a current limit, for testing and powering electronic circuits.",
+       "t": [
+        "linear",
+        "switching"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Laboratory_power_supply"
       },
       {
        "n": "Clamp meter",
@@ -10335,6 +10459,43 @@
          "M12 soldering iron",
          "Milwaukee"
         ]
+       ],
+       "s": "https://en.wikipedia.org/wiki/Soldering_iron",
+       "x": [
+        {
+         "n": "Weller Magnastat iron",
+         "a": "Weller W-TCP",
+         "d": "Weller's temperature-controlled soldering iron, patented in 1960, whose tip-and-tube layout became the model for most later irons.",
+         "mk": "Weller",
+         "y": "1960",
+         "s": "https://en.wikipedia.org/wiki/Soldering_iron",
+         "v": [
+          {
+           "n": "W-TCP station",
+           "mk": "Weller",
+           "y": "1967",
+           "d": "soldering station including the Magnastat"
+          }
+         ],
+         "dt": "tip type · wattage · station or pencil"
+        },
+        {
+         "n": "Pinecil",
+         "a": "Pinecil V2 · Pine64 soldering iron",
+         "d": "Open-source mini soldering iron from Pine64 with a RISC-V chip, powered over USB-C (PD or QC 3.0, 12–20 V).",
+         "mk": "Pine64",
+         "y": "",
+         "s": "https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/",
+         "v": [
+          {
+           "n": "Version 2",
+           "mk": "Pine64",
+           "y": "",
+           "d": "RISC-V SoC, USB-C PD and QC 3.0"
+          }
+         ],
+         "dt": "USB-C power input · tip fit · firmware"
+        }
        ]
       },
       {
@@ -10773,7 +10934,7 @@
   },
   {
    "n": "Tool storage",
-   "mode": "tier",
+   "mode": "mixed",
    "b": [
     {
      "m": "System compatibility",
@@ -10825,7 +10986,32 @@
        "n": "Tool chest",
        "a": "top box",
        "d": "Drawered or lidded box for tools, set on a bench or roller cabinet.",
-       "s": "https://www.tooled-up.com/tool-boxes-storage/cat/23"
+       "s": "https://www.tooled-up.com/tool-boxes-storage/cat/23",
+       "x": [
+        {
+         "n": "Gerstner machinist's chest",
+         "a": "Gerstner Model 52 · wooden machinist tool chest",
+         "d": "Hardwood machinist's tool chest made by H. Gerstner & Sons in Dayton, Ohio, the maker's best-known form.",
+         "mk": "H. Gerstner & Sons",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/H._Gerstner_%26_Sons",
+         "v": [
+          {
+           "n": "Model 52",
+           "mk": "H. Gerstner & Sons",
+           "y": "",
+           "d": "machinist's chest"
+          },
+          {
+           "n": "92XL Ultimate Chest",
+           "mk": "H. Gerstner & Sons",
+           "y": "",
+           "d": "larger chest"
+          }
+         ],
+         "dt": "hardwood (oak, cherry, walnut, maple) · drawer count · width"
+        }
+       ]
       },
       {
        "n": "Roller cabinet",
@@ -10837,6 +11023,18 @@
          "Superline Pro Roller Cabinet",
          "Sealey"
         ]
+       ],
+       "x": [
+        {
+         "n": "Snap-on roll cab",
+         "a": "Snap-on tool cabinet",
+         "d": "Snap-on's drawered steel tool cabinet on casters, sold to mechanics through franchise vans.",
+         "mk": "Snap-on",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Snap-on",
+         "v": [],
+         "dt": "width · drawer count · colour"
+        }
        ]
       },
       {
@@ -10870,7 +11068,8 @@
       }
      ]
     }
-   ]
+   ],
+   "note": "Market-covering makers for site storage; heritage and mechanics' makers as archetypes."
   },
   {
    "n": "Protective equipment (PPE)",
@@ -11369,12 +11568,7 @@
         "leather rigger",
         "coated knit (nitrile, latex or PU palm)",
         "cut-resistant (EN 388 level A–F)",
-        "impact-protected (EN 388 'P')",
-        "mechanic's",
-        "insulated winter",
-        "waterproof",
-        "chainsaw gloves (EN ISO 11393-4)",
-        "welding gauntlets"
+        "mechanic's, insulated or waterproof"
        ],
        "s": "https://satra.com/spotlight/article.php?id=488",
        "m": [
@@ -11427,13 +11621,9 @@
        "a": "chainsaw pants · forestry trousers",
        "d": "Trousers with cut-resistant layers that clog a running chain, worn for chainsaw work.",
        "t": [
-        "Class 1 (20 m/s)",
-        "Class 2 (24 m/s)",
-        "Class 3 (28 m/s)",
-        "Design A (front only)",
-        "Design A Plus (adds rear ankle to knee)",
-        "Design C (all-round)",
-        "EN ISO 11393-2 (formerly EN 381-5)",
+        "Class 1, 2 or 3 (chain speed 20, 24 or 28 m/s)",
+        "Design A (front protection)",
+        "Design C (all-round protection)",
         "vented"
        ],
        "s": "https://www.stihl.co.uk/en/ap/function-core-trousers-199347",
