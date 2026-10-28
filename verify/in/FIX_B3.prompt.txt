@@ -1,2 +1,3 @@
 BATCH FIX_B3. First read /home/user/Possession-Taxonomy/verify/in/FIX_COMMON.txt (it points you to AUD2_COMMON.txt; use <CODE> = B3, <BATCH> = FIX_B3).
 Your findings: the section for B3 in /home/user/Possession-Taxonomy/verify/out/AUD3_B.md (codes B3-1, B3-2 …).
+Owner decision: send the built-in light fittings (recessed downlights, track lighting, under-cabinet lights and similar fixed fittings) to G3 via out/B3_moves.json with "dept":"Built-in lighting", and remove them from B3.

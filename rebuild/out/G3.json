@@ -1284,18 +1284,6 @@
         [
          "CVA 7845",
          "Miele"
-        ],
-        [
-         "CVA 7875",
-         "Miele"
-        ],
-        [
-         "CVA 7775",
-         "Miele"
-        ],
-        [
-         "CVA 7445",
-         "Miele"
         ]
        ]
       },
@@ -1314,20 +1302,20 @@
         [
          "ESW 7680",
          "Miele"
-        ],
-        [
-         "ESW 7580",
-         "Miele"
-        ],
-        [
-         "ESW 7670",
-         "Miele"
-        ],
-        [
-         "ESW 7570",
-         "Miele"
         ]
        ]
+      },
+      {
+       "n": "Wine cellar",
+       "a": "wine room · cave",
+       "d": "Room fitted for storing wine at steady cool temperature, passive underground or actively cooled and insulated.",
+       "t": [
+        "passive (underground)",
+        "active (climate-controlled)",
+        "racked",
+        "glazed display room"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Wine_cellar"
       }
      ]
     }
@@ -3033,40 +3021,6 @@
         "wood or composite skirt"
        ],
        "s": "https://leisuretimeinc.com/collections/caldera-hot-tubs",
-       "m": [
-        [
-         "Grandee",
-         "Hot Spring Spas"
-        ],
-        [
-         "Jetsetter",
-         "Hot Spring Spas"
-        ],
-        [
-         "Prism",
-         "Hot Spring Spas"
-        ],
-        [
-         "Pulse",
-         "Hot Spring Spas"
-        ],
-        [
-         "Rhythm",
-         "Hot Spring Spas"
-        ],
-        [
-         "Caldera Ravello",
-         "Caldera Spas"
-        ],
-        [
-         "Caldera Kauai",
-         "Caldera Spas"
-        ],
-        [
-         "Celio",
-         "Caldera Spas"
-        ]
-       ],
        "r": [
         [
          "Highlife",
@@ -4155,6 +4109,19 @@
          "Sony"
         ]
        ]
+      },
+      {
+       "n": "Home cinema room",
+       "a": "home theatre room · media room",
+       "d": "Dedicated room built for film viewing, with projector or large screen, surround sound, acoustic treatment and seating.",
+       "t": [
+        "projector and screen",
+        "large flat panel",
+        "acoustic treatment",
+        "tiered seating",
+        "blackout lining"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Home_cinema"
       }
      ]
     }
@@ -4470,7 +4437,18 @@
         "glass",
         "stone or concrete"
        ],
-       "s": "https://en.wikipedia.org/wiki/Stairs"
+       "s": "https://en.wikipedia.org/wiki/Stairs",
+       "x": [
+        {
+         "n": "Spiral staircase",
+         "a": "helical stair · winding stair · circular stair",
+         "d": "Helical stair winding around a central newel or open well, compact in plan.",
+         "mk": "",
+         "y": "c. 480 BCE (Selinunte)",
+         "s": "https://en.wikipedia.org/wiki/Spiral_staircase",
+         "dt": "newel or open well · timber, steel, glass, stone · diameter"
+        }
+       ]
       },
       {
        "n": "Stairlift",
@@ -4609,6 +4587,25 @@
         "sheet vinyl"
        ],
        "s": "https://travisperkins.co.uk/product/timber-and-sheet-materials/flooring/luxury-vinyl-flooring/c/1560000/"
+      }
+     ]
+    },
+    {
+     "n": "Fitted storage",
+     "k": [
+      {
+       "n": "Fitted wardrobe",
+       "a": "built-in wardrobe · walk-in wardrobe · dressing room",
+       "d": "Wardrobe or dressing room built to the room's dimensions, with hanging, shelving and drawers.",
+       "t": [
+        "sliding-door",
+        "hinged-door",
+        "walk-in dressing room",
+        "open walk-in",
+        "alcove",
+        "floor-to-ceiling"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Walk-in_closet"
       }
      ]
     }
@@ -5585,21 +5582,10 @@
        "a": "socket-outlet · power point · receptacle",
        "d": "Wall outlet that takes mains plugs.",
        "t": [
-        "Type A (NEMA 1-15)",
-        "Type B (NEMA 5-15)",
-        "Type C (Europlug)",
-        "Type D (BS 546 5 A)",
-        "Type E (French CEE 7/5)",
-        "Type F (Schuko CEE 7/4)",
-        "Type G (BS 1363)",
-        "Type H (Israel SI 32)",
-        "Type I (AS/NZS 3112)",
-        "Type J (Swiss SN 441011)",
-        "Type K (Danish DS 107-2-D1)",
-        "Type L (Italian CEI 23-50)",
-        "Type M (BS 546 15 A)",
-        "Type N (IEC 60906-1)",
-        "Type O (Thai TIS 166-2549)",
+        "UK (BS 1363, Type G)",
+        "EU Schuko (CEE 7/4, Type F)",
+        "US (NEMA 5-15, Type B)",
+        "other national standard (see IEC World Plugs)",
         "single or double",
         "switched",
         "with USB charging",
@@ -6897,10 +6883,6 @@
          "Renson"
         ],
         [
-         "Utopia Corner Pergola",
-         "Dunster House"
-        ],
-        [
          "Avondale Fiberglass Pergola Kit",
          "Pergola Kits USA"
         ]
@@ -6928,12 +6910,6 @@
         "metal"
        ],
        "s": "https://en.wikipedia.org/wiki/Gazebo",
-       "m": [
-        [
-         "Leviathan Gazebo",
-         "Dunster House"
-        ]
-       ],
        "r": [
         [
          "Leviathan",
@@ -7021,10 +6997,6 @@
        "s": "https://www.radnoroak.co.uk/product/oak-framed-garden-shed-fs2005",
        "m": [
         [
-         "Overlord Potting Shed",
-         "Dunster House"
-        ],
-        [
          "Security Apex Shed",
          "Shire GB"
         ],
@@ -7076,14 +7048,6 @@
        "s": "https://dunsterhouse.co.uk/help-centre/what-products-do-you-sell",
        "m": [
         [
-         "Vantage Modern",
-         "Dunster House"
-        ],
-        [
-         "Ghostflower",
-         "Dunster House"
-        ],
-        [
          "Alnwick Summerhouse",
          "Shire GB"
         ],
@@ -7112,10 +7076,6 @@
        ],
        "s": "https://dunsterhouse.co.uk/help-centre/what-products-do-you-sell",
        "m": [
-        [
-         "Dominator",
-         "Dunster House"
-        ],
         [
          "The Aura Express",
          "Tiger Sheds"
@@ -7146,18 +7106,6 @@
        ],
        "s": "https://dunsterhouse.co.uk/help-centre/what-products-do-you-sell",
        "m": [
-        [
-         "Severn",
-         "Dunster House"
-        ],
-        [
-         "Terminator",
-         "Dunster House"
-        ],
-        [
-         "Coronet",
-         "Dunster House"
-        ],
         [
          "Argyll Log Cabin",
          "Shire GB"
@@ -7193,10 +7141,6 @@
        "s": "https://dunsterhouse.co.uk/help-centre/what-products-do-you-sell",
        "m": [
         [
-         "Leviathan Bar",
-         "Dunster House"
-        ],
-        [
          "Signature Garden Bar",
          "Keter"
         ],
@@ -7218,10 +7162,6 @@
        "d": "A garden or outbuilding made for repair or craft work.",
        "s": "https://dunsterhouse.co.uk/help-centre/what-products-do-you-sell",
        "m": [
-        [
-         "Demon",
-         "Dunster House"
-        ],
         [
          "BLS004 Store/Workshop",
          "Radnor Oak"
@@ -7247,10 +7187,6 @@
        "s": "https://www.radnoroak.co.uk/product/oak-framed-garden-shed-fs2005",
        "m": [
         [
-         "Deore",
-         "Dunster House"
-        ],
-        [
          "The Kinsham",
          "Radnor Oak"
         ],
@@ -7274,10 +7210,6 @@
        ],
        "s": "https://dunsterhouse.co.uk/help-centre/what-products-do-you-sell",
        "m": [
-        [
-         "Atlas Carport",
-         "Dunster House"
-        ],
         [
          "Optima carport",
          "WEKA Holzbau"
