@@ -30,6 +30,7 @@ function arch(x) {
   if (x.d) box.append($('p', { class: 'desc', text: x.d }));
   if (x.v && x.v.length) box.append($('div', { class: 'vers' }, x.v.map(v => $('span', { class: 'chip ver', title: v.d || '' }, v.n, v.mk || v.y ? $('i', { text: meta(v.mk, v.y) }) : null))));
   if (x.dt) box.append($('p', { class: 'also', text: 'Details: ' + x.dt }));
+  if (x.ex) box.append($('p', { class: 'also', text: 'Example: ' + x.ex }));
   if (x.s) box.append($('p', { class: 'src' }, $('a', { href: x.s, target: '_blank', rel: 'noopener', text: 'source' })));
   return box;
 }
@@ -133,7 +134,7 @@ async function renderRegister() {
   let j; try { j = await getJSON(file); } catch (e) { main.replaceChildren($('p', { class: 'none', text: 'This list did not load (' + e.message + '). Choose the tab again to retry.' })); return; }
   if (cur !== c || tab !== t || view !== 'cat') return;
   const list = j.b || j.t || j.i || [];
-  const groupOf = t === 'brands' ? (e => e.seg || 'Other') : (e => e.g || 'Other');
+  const groupOf = t === 'brands' ? (e => e.stub ? 'Listed only (no details yet)' : (e.seg || 'Other')) : (e => e.g || 'Other');
   const groups0 = new Map(); list.forEach(e => { const g = groupOf(e); if (!groups0.has(g)) groups0.set(g, []); groups0.get(g).push(e); });
   const rank = g => { const i = SEG_ORDER.indexOf(g); return i < 0 ? 999 : i; };
   const groups = new Map([...groups0.entries()].sort((a, b) => t === 'brands' ? rank(a[0]) - rank(b[0]) || a[0].localeCompare(b[0]) : b[1].length - a[1].length || a[0].localeCompare(b[0])));
