@@ -13,3 +13,5 @@ step11 done: speedcube.com.au brands fetched (DaYan 2011-15, QiYi 2018, GAN356 p
 step12 done: parallel no credit; antsy labs ok(via Fidget Cube); slider no history source -> fetch a product page; next fetch gocube, baguenaudier, spin master, milton bradley, ravensburger, meffert, james industries
 step13 done: gocube retailer, baguenaudier, spinmaster, milton bradley, ravensburger, meffert; next: kamei page, slider product page, then write build.py
 step14 done: all fetching complete. RULE UPDATE from coordinator: object-focused only, WCA only as attribute (dt), no activity criteria/kinds. NEXT: write work/E1PZ/build.py (reads bak/, writes out), validate, report
+step15 done: build.py run, validate OK; next report
+step16 done: report written. ALL DONE
