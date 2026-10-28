@@ -63,6 +63,11 @@
      "m": "Setting security",
      "v": "",
      "w": "Prongs and bezels hold the stone; worker to source a jeweller/GIA guide."
+    },
+    {
+     "m": "Stone shape",
+     "v": "Asscher, cushion, emerald, heart, marquise, oval, pear, princess, radiant, round brilliant",
+     "w": "Declared once for all stone-set rings (solitaire, halo, three-stone, cluster, eternity) instead of repeated as types."
     }
    ],
    "s": [
@@ -80,17 +85,7 @@
         "basket",
         "cathedral",
         "pavé band",
-        "trellis",
-        "shape: round brilliant",
-        "shape: princess",
-        "shape: cushion",
-        "shape: oval",
-        "shape: emerald",
-        "shape: pear",
-        "shape: marquise",
-        "shape: radiant",
-        "shape: Asscher",
-        "shape: heart"
+        "trellis"
        ],
        "s": "https://www.bluenile.com/engagement-rings/diamond-preset/ready-to-ship-petite-solitaire-engagement-ring-in-platinum-with-astor-by-blue-nile-diamond-3-4-ct-tw-item-195909",
        "x": [
@@ -138,17 +133,7 @@
         "single halo",
         "double halo",
         "hidden halo",
-        "pavé halo",
-        "shape: round brilliant",
-        "shape: princess",
-        "shape: cushion",
-        "shape: oval",
-        "shape: emerald",
-        "shape: pear",
-        "shape: marquise",
-        "shape: radiant",
-        "shape: Asscher",
-        "shape: heart"
+        "pavé halo"
        ],
        "s": "https://4cs.gia.edu/en-us/blog/guide-to-ring-settings/"
       },
@@ -161,17 +146,7 @@
         "graduated side stones",
         "coloured-stone sides",
         "prong",
-        "bezel",
-        "shape: round brilliant",
-        "shape: princess",
-        "shape: cushion",
-        "shape: oval",
-        "shape: emerald",
-        "shape: pear",
-        "shape: marquise",
-        "shape: radiant",
-        "shape: Asscher",
-        "shape: heart"
+        "bezel"
        ],
        "s": "https://en.wikipedia.org/wiki/Engagement_ring"
       },
@@ -297,7 +272,8 @@
         "D-shape",
         "flat",
         "comfort fit",
-        "rolling (interlocked bands)"
+        "rolling (interlocked bands)",
+        "stackable (slim, worn in stacks)"
        ],
        "s": "https://www.bluenile.com/wedding-rings/womens-wedding-rings",
        "x": [
@@ -549,12 +525,6 @@
        ]
       },
       {
-       "n": "Stackable ring",
-       "a": "Stacking ring",
-       "d": "Slim ring made to be worn in a stack with others.",
-       "s": "https://www.tanishq.co.in/shop/jewellery"
-      },
-      {
        "n": "Thumb ring",
        "a": "",
        "d": "Ring made to be worn on the thumb.",
@@ -603,11 +573,63 @@
          "dt": "number of bands · silver, gold"
         }
        ]
+      },
+      {
+       "n": "Class ring",
+       "a": "graduation ring · college ring · school ring",
+       "d": "Ring worn by students and alumni to mark a final school year or graduation.",
+       "s": "https://en.wikipedia.org/wiki/Class_ring",
+       "t": [
+        "high school",
+        "college",
+        "military academy"
+       ]
+      },
+      {
+       "n": "Mood ring",
+       "a": "",
+       "d": "Ring with a thermochromic stone that changes colour with finger temperature.",
+       "s": "https://en.wikipedia.org/wiki/Mood_ring",
+       "t": [
+        "liquid-crystal stone"
+       ],
+       "x": [
+        {
+         "n": "Wernick mood ring",
+         "a": "",
+         "d": "The first commercial mood ring, conceived by Marvin Wernick, on sale from 1975.",
+         "mk": "",
+         "y": "1975",
+         "s": "https://en.wikipedia.org/wiki/Mood_ring",
+         "v": [],
+         "dt": "thermochromic stone colour · band metal"
+        }
+       ]
+      },
+      {
+       "n": "Poison ring",
+       "a": "pillbox ring",
+       "d": "Ring with a hidden compartment that could hold poison or other substances.",
+       "s": "https://en.wikipedia.org/wiki/Poison_ring",
+       "t": [
+        "hinged bezel",
+        "sliding bezel"
+       ]
+      },
+      {
+       "n": "Memento mori ring",
+       "a": "mourning ring",
+       "d": "Ring that commemorates the dead or reminds the wearer of death; medieval onwards, often an heirloom.",
+       "s": "https://en.wikipedia.org/wiki/Mourning_jewellery",
+       "t": [
+        "mourning ring (commemorative)",
+        "skull motif"
+       ]
       }
      ]
     }
    ],
-   "note": "Engagement rings by setting, everyday and designer bands by archetype; stone shape is a type, not a kind."
+   "note": "Engagement rings by setting, everyday and designer bands by archetype; stone shape is one detail axis for the department (see criteria), not a kind or a repeated type."
   },
   {
    "n": "Earrings",
@@ -787,7 +809,8 @@
         "continuous hoop",
         "hinged hoop",
         "Bali",
-        "spring hoop (unpierced)"
+        "spring hoop (unpierced)",
+        "huggie (hugs the earlobe)"
        ],
        "s": "https://www.tanishq.co.in/shop/jewellery",
        "x": [
@@ -825,19 +848,15 @@
        ]
       },
       {
-       "n": "Huggie earring",
-       "a": "Huggies · huggy",
-       "d": "Small hoop that closely follows the curve of the lobe.",
-       "s": "https://amyojewelry.com/collections/earrings-huggies"
-      },
-      {
        "n": "Drop earring",
        "a": "Dangle earring",
        "d": "Earring whose ornament hangs below the lobe, still or swinging.",
        "t": [
         "drop",
         "dangle",
-        "statement"
+        "statement",
+        "chandelier (wider at base)",
+        "threader (chain pulled through the piercing)"
        ],
        "s": "https://www.tanishq.co.in/shop/jewellery",
        "x": [
@@ -865,34 +884,16 @@
        ]
       },
       {
-       "n": "Chandelier earring",
-       "a": "",
-       "d": "Tiered ornate drop earring, wider at the base than the top.",
-       "s": "https://www.dillards.com/c/accessories-jewelry-earrings/earring-silhouette_chandelier"
-      },
-      {
-       "n": "Threader earring",
-       "a": "Ear thread · ear string",
-       "d": "Fine chain threaded through the lobe, hanging front and back.",
-       "s": "https://www.analuisa.com/collections/threader-earrings/"
-      },
-      {
-       "n": "Ear jacket",
-       "a": "Earring jacket · front-back earring",
-       "d": "Front stud with a separate backing ornament slid onto the post behind the lobe.",
-       "s": "https://kaikki.org/dictionary/English/meaning/e/ea/ear%20jacket.html"
-      },
-      {
-       "n": "Ear climber",
-       "a": "Ear crawler",
-       "d": "Earring that runs up the edge of the ear from a lobe post.",
-       "s": "https://www.tanishq.co.in/shop/jewellery"
-      },
-      {
-       "n": "Ear cuff",
-       "a": "",
-       "d": "Piece that clips or wraps round the outer ear, usually without a piercing.",
-       "s": "https://www.tanishq.co.in/shop/jewellery"
+       "n": "Ear cuff & jacket",
+       "a": "ear jacket · ear climber · ear crawler · ear wrap",
+       "d": "Earring that wraps the ear or sits behind and in front of the lobe; some need no piercing.",
+       "s": "https://en.wikipedia.org/wiki/Ear_piercing",
+       "t": [
+        "ear cuff (cartilage wrap, no piercing)",
+        "ear jacket",
+        "ear climber",
+        "chained to lobe piercing"
+       ]
       },
       {
        "n": "Clip-on earring",
@@ -904,7 +905,19 @@
         "magnetic",
         "stick-on"
        ],
-       "s": "https://en.wikipedia.org/wiki/Earring"
+       "s": "https://en.wikipedia.org/wiki/Earring",
+       "x": [
+        {
+         "n": "Miriam Haskell clip earrings",
+         "a": "",
+         "d": "Ornate beaded and glass costume clip earrings from the New York house, seldom signed before 1950.",
+         "mk": "Miriam Haskell",
+         "y": "1926 onwards",
+         "s": "https://en.wikipedia.org/wiki/Miriam_Haskell",
+         "v": [],
+         "dt": "art glass · strass · gold-plate · signed or unsigned"
+        }
+       ]
       }
      ]
     }
@@ -918,6 +931,11 @@
      "m": "Chain construction",
      "v": "solid > hollow",
      "w": "Hollow links dent and break; worker to source."
+    },
+    {
+     "m": "Solid gold and real stones versus plated and simulated",
+     "v": "solid gold + natural diamond > solid gold + moissanite/lab > vermeil > plated + CZ",
+     "w": "Worker to source."
     }
    ],
    "s": [
@@ -1122,6 +1140,46 @@
          "s": "https://en.wikipedia.org/wiki/Jewelry_chain",
          "v": [],
          "dt": ""
+        },
+        {
+         "n": "Cuban link",
+         "a": "Cuban chain · Cuban links",
+         "d": "Heavy chain of interlocking uniform oval links derived from the curb chain, a hip-hop status piece.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Cuban_link_chain",
+         "v": [
+          {
+           "n": "Miami Cuban link",
+           "d": "Tighter, denser Cuban chain with slightly rounder links; the best-known form, from Miami's Cuban and hip-hop scenes."
+          },
+          {
+           "n": "Iced Cuban link",
+           "d": "Cuban link chain set with diamonds or other gemstones across the links."
+          },
+          {
+           "n": "LA Cuban link",
+           "d": "Cuban chain with thicker links and sharper filing, a harder-edged Los Angeles style."
+          }
+         ],
+         "dt": "polished; diamond-set; handmade; machine-made; lobster clasp"
+        },
+        {
+         "n": "Rope chain",
+         "a": "Dookie chain · twist chain",
+         "d": "Chain of small links twisted together into a rope pattern, worn thick in Golden Age hip-hop.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Rope_chain",
+         "v": [
+          {
+           "n": "Dookie rope chain",
+           "mk": "",
+           "y": "1980s",
+           "d": "Very thick gold rope chain, the signature status piece of 1980s hip-hop worn by Run-DMC, LL Cool J and Slick Rick."
+          }
+         ],
+         "dt": "thickness · gold carat · diamond-cut or polished"
         }
        ]
       },
@@ -1645,6 +1703,45 @@
           }
          ],
          "dt": "fan size · stone inlay · pavé · rose gold"
+        },
+        {
+         "n": "Jesus piece",
+         "a": "",
+         "d": "Pendant of Jesus's face, usually with the crown of thorns, often set with gems; first worn in rap by Ghostface Killah.",
+         "mk": "",
+         "y": "1990s",
+         "s": "https://en.wikipedia.org/wiki/Jesus_piece_(jewelry)",
+         "v": [
+          {
+           "n": "Notorious B.I.G. pieces",
+           "mk": "Tito Caicedo",
+           "y": "1990s",
+           "d": "popularised the form; given to associates"
+          },
+          {
+           "n": "Kanye West piece",
+           "mk": "Jacob & Co",
+           "y": "2004",
+           "d": "by Jacob Arabo; diamonds, aquamarine eyes, ruby tears"
+          },
+          {
+           "n": "Kanye West × Takashi Murakami design",
+           "mk": "Takashi Murakami",
+           "y": "2007",
+           "d": "artist-designed version"
+          }
+         ],
+         "dt": "face size · stones (diamond, aquamarine, ruby) · gold colour · budget wood or base-metal versions · iced-out pendant (hip-hop scene)"
+        },
+        {
+         "n": "adidas Superstar pendant",
+         "a": "",
+         "d": "Gold Superstar shoe pendant given to Run-DMC after their song \"My Adidas\" and worn on their rope chains.",
+         "mk": "adidas",
+         "y": "1986",
+         "s": "https://culted.com/dookie-chain-defined-hip-hop-tyler-new-album-ll-cool-j/",
+         "v": [],
+         "dt": "14k gold · iced-out pendant (hip-hop scene)"
         }
        ],
        "m": [
@@ -1931,11 +2028,33 @@
          "dt": "script or block · gold or silver · chain style"
         }
        ]
+      },
+      {
+       "n": "Evil-eye amulet",
+       "a": "nazar · nazar boncuğu",
+       "d": "Glass amulet, usually blue and eye-shaped, worn against the evil eye; common from Turkey and Greece to South Asia.",
+       "s": "https://en.wikipedia.org/wiki/Nazar_(amulet)",
+       "t": [
+        "glass bead",
+        "hamsa-backed",
+        "bracelet or pendant"
+       ]
+      },
+      {
+       "n": "Cornicello",
+       "a": "Italian horn · cornetto",
+       "d": "Twisted horn-shaped Italian amulet from southern Italy, worn against the evil eye and bad luck.",
+       "s": "https://en.wikipedia.org/wiki/Cornicello",
+       "t": [
+        "gold",
+        "silver",
+        "red coral"
+       ]
       }
      ]
     }
    ],
-   "note": "Chain link patterns are archetypes of Necklace chain; Cuban and rope chains sit on the Hip-hop shelf."
+   "note": "Chain link patterns, including Cuban and rope chains, are archetypes of Necklace chain; tennis chains are on the Tennis necklace kind. Hip-hop pieces are tagged by scene in the brand register."
   },
   {
    "n": "Bracelets & bangles",
@@ -1960,7 +2079,8 @@
         "wood",
         "plastic",
         "hinged",
-        "stacked set"
+        "stacked set",
+        "jade bangle (nephrite or jadeite)"
        ],
        "s": "https://www.bloomingdales.com/shop/jewelry-accessories/designer-bracelets/Bracelets_type/Cuff?id=8701",
        "x": [
@@ -3134,6 +3254,118 @@
        "s": "https://en.wikipedia.org/wiki/Bindi_(decoration)"
       }
      ]
+    },
+    {
+     "n": "Teeth",
+     "k": [
+      {
+       "n": "Grillz",
+       "a": "Grills · fronts · golds · caps",
+       "d": "Removable metal cover worn over the teeth, often gold and set with stones.",
+       "t": [
+        "top 6",
+        "top 8",
+        "bottom 8",
+        "bottom 10",
+        "single cap",
+        "removable",
+        "permanent",
+        "10k–24k gold",
+        "silver",
+        "platinum",
+        "yellow, white or rose gold"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Grill_(jewelry)",
+       "x": [
+        {
+         "n": "Fronts",
+         "a": "Caps",
+         "d": "Multi-tooth gold caps adapted from single crowns by Eddie Plein in New York, the first grills.",
+         "mk": "",
+         "y": "1980s",
+         "s": "https://en.wikipedia.org/wiki/Grill_(jewelry)",
+         "v": [
+          {
+           "n": "Just-Ice's teeth",
+           "mk": "Eddie Plein",
+           "y": "1987",
+           "d": "on the Kool and Deadly album; first notable client"
+          }
+         ],
+         "dt": "number of teeth · gold carat"
+        },
+        {
+         "n": "Solid gold grill",
+         "a": "Solid set",
+         "d": "Gold grill covering the whole visible face of each tooth, polished or matte.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.ifandco.com/blogs/jewelry-news-and-insights/different-types-of-grillz-styles",
+         "v": [
+          {
+           "n": "Satin-finish bottom 8",
+           "d": "matte finish"
+          }
+         ],
+         "dt": "teeth covered · finish · gold colour"
+        },
+        {
+         "n": "Open-face grill",
+         "a": "Open-faced grill · window cut",
+         "d": "Grill whose metal frames each tooth and leaves the natural enamel showing.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.ifandco.com/blogs/jewelry-news-and-insights/different-types-of-grillz-styles",
+         "v": [
+          {
+           "n": "Open-face top 6",
+           "d": "14k yellow gold"
+          },
+          {
+           "n": "Open-face white gold diamond",
+           "d": "diamond-set frame"
+          }
+         ],
+         "dt": "teeth covered · cut shape · stones"
+        },
+        {
+         "n": "Iced grill",
+         "a": "Fully iced set · diamond grill",
+         "d": "Grill pavé-set with diamonds over some or all teeth.",
+         "mk": "",
+         "y": "2000s",
+         "s": "https://www.ifandco.com/blogs/jewelry-news-and-insights/different-types-of-grillz-styles",
+         "v": [
+          {
+           "n": "Paul Wall grills",
+           "mk": "Johnny Dang & Co.",
+           "y": "2002",
+           "d": "partnership that made the Houston jeweller's name"
+          },
+          {
+           "n": "Deep-cut upper 6",
+           "d": "deep-cut diamond setting"
+          },
+          {
+           "n": "Princess-cut grill",
+           "d": "princess-cut diamonds"
+          }
+         ],
+         "dt": "teeth covered · stone cut · gold colour"
+        },
+        {
+         "n": "Double-cap grill",
+         "a": "",
+         "d": "Lighter grill design with caps split across the tooth, plain or iced on one or both sides.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.ifandco.com/blogs/jewelry-news-and-insights/different-types-of-grillz-styles",
+         "v": [],
+         "dt": "plain or iced · teeth covered"
+        }
+       ]
+      }
+     ]
     }
    ],
    "note": "Plain and everyday hair clips are in Personal Care & Beauty."
@@ -3375,16 +3607,20 @@
        "s": "https://bm25.com/pages/size-conversion-chart"
       },
       {
-       "n": "Nose ring",
-       "a": "nose hoop · septum ring",
-       "d": "Ring or hoop worn through a nostril or septum piercing.",
+       "n": "Piercing ring",
+       "a": "hoop · seamless ring · captive bead ring · clicker ring · nose ring · septum ring",
+       "d": "Ring worn through a piercing; defined by its fastening and placed in a nostril, septum, ear or lip.",
+       "s": "https://bodyjewelry.com/blog/whats-the-difference-between-a-captive-bead-ring-and-a-seamless-ring/",
        "t": [
-        "seamless hoop",
-        "captive bead",
-        "hinged clicker",
-        "septum retainer"
+        "seamless (twist-open)",
+        "captive bead (CBR)",
+        "hinged segment clicker",
+        "septum retainer",
+        "placement: nose",
+        "placement: septum",
+        "placement: daith",
+        "placement: ear or lip"
        ],
-       "s": "https://bm25.com/pages/size-conversion-chart",
        "x": [
         {
          "n": "Nathori",
@@ -3395,21 +3631,7 @@
          "s": "https://en.wikipedia.org/wiki/Nose_piercing",
          "dt": "gold · drop size · plain or gem-set",
          "v": []
-        }
-       ]
-      },
-      {
-       "n": "Clicker ring",
-       "a": "hinged segment ring · clicker",
-       "d": "Piercing ring closed by a hinged segment that clicks into place.",
-       "t": [
-        "plain",
-        "gem-set front",
-        "septum clicker",
-        "daith clicker"
-       ],
-       "s": "https://www.bodyjewellery.co.uk/products/steel-hinged-smooth-segment-ring",
-       "x": [
+        },
         {
          "n": "Titanium septum clicker",
          "d": "Hinged titanium clicker shaped for the septum, sold as a numbered design series.",
@@ -3426,28 +3648,6 @@
          "dt": "gauge · inner diameter · titanium, anodised colours"
         }
        ]
-      },
-      {
-       "n": "Seamless ring",
-       "a": "seamless hoop · continuous ring",
-       "d": "Plain ring whose ends meet with no bead, opened by twisting the ends sideways.",
-       "t": [
-        "plain",
-        "twisted"
-       ],
-       "s": "https://bodyjewelry.com/blog/whats-the-difference-between-a-captive-bead-ring-and-a-seamless-ring/"
-      },
-      {
-       "n": "Captive bead ring",
-       "a": "CBR · ball closure ring · BCR · captive hoop",
-       "d": "Ring held closed by a bead or ball captured between its ends by tension.",
-       "t": [
-        "steel",
-        "titanium",
-        "niobium",
-        "glass, acrylic, ceramic or gem bead"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Captive_bead_ring"
       },
       {
        "n": "Circular barbell",
@@ -3800,266 +4000,6 @@
     }
    ],
    "note": "Quality is material and finish: implant-grade titanium (ASTM F136), implant-grade steel (F138), niobium, solid 14-18K gold; threadless and internally threaded ends."
-  },
-  {
-   "n": "Hip-hop jewellery",
-   "mode": "variety",
-   "b": [
-    {
-     "m": "Solid gold and real stones versus plated and simulated",
-     "v": "solid gold + natural diamond > solid gold + moissanite/lab > vermeil > plated + CZ",
-     "w": "Worker to source."
-    }
-   ],
-   "s": [
-    {
-     "n": "Hip-hop jewellery",
-     "k": [
-      {
-       "n": "Cuban link chain",
-       "a": "Cuban chain · Cuban links",
-       "d": "Heavy chain of interlocking uniform oval links derived from the curb chain, a hip-hop status piece.",
-       "t": [
-        "polished",
-        "diamond-set",
-        "handmade",
-        "machine-made",
-        "lobster clasp"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Cuban_link_chain",
-       "x": [
-        {
-         "n": "Miami Cuban link",
-         "a": "Miami Cuban",
-         "d": "Tighter, denser Cuban chain with slightly rounder links; the best-known form, from Miami's Cuban and hip-hop scenes.",
-         "mk": "",
-         "y": "1970s–1980s",
-         "s": "https://en.wikipedia.org/wiki/Cuban_link_chain",
-         "v": [],
-         "dt": "width from slim to oversized · gold, silver, platinum · solid or diamond-set"
-        },
-        {
-         "n": "Iced Cuban link",
-         "a": "Diamond Cuban",
-         "d": "Cuban link chain set with diamonds or other gemstones across the links.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Cuban_link_chain",
-         "v": [],
-         "dt": "stone coverage · gold colour · width"
-        },
-        {
-         "n": "LA Cuban link",
-         "a": "",
-         "d": "Cuban chain with thicker links and sharper filing, a harder-edged Los Angeles style.",
-         "mk": "",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Cuban_link_chain",
-         "v": [],
-         "dt": "width · metal"
-        }
-       ]
-      },
-      {
-       "n": "Rope chain",
-       "a": "Dookie chain · twist chain",
-       "d": "Chain of small links twisted together into a rope pattern, worn thick in Golden Age hip-hop.",
-       "t": [
-        "thin",
-        "medium",
-        "thick",
-        "polished",
-        "diamond-cut",
-        "sterling silver",
-        "gold"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Rope_chain",
-       "x": [
-        {
-         "n": "Dookie rope chain",
-         "a": "Dookie chain · dookie roll",
-         "d": "Very thick gold rope chain, the signature status piece of 1980s hip-hop worn by Run-DMC, LL Cool J and Slick Rick.",
-         "mk": "",
-         "y": "1980s",
-         "s": "https://culted.com/dookie-chain-defined-hip-hop-tyler-new-album-ll-cool-j/",
-         "v": [
-          {
-           "n": "Dapper Dan × Gucci dookie roll",
-           "mk": "Gucci",
-           "y": "2018",
-           "d": "revival in Dapper Dan's Gucci collaboration"
-          }
-         ],
-         "dt": "thickness · gold carat · pendant worn on it"
-        }
-       ]
-      },
-      {
-       "n": "Iced-out pendant",
-       "a": "Iced pendant · chain piece · medallion",
-       "d": "Large pendant heavily set with diamonds or gems, worn on a heavy chain as a hip-hop status piece.",
-       "t": [
-        "custom logo piece",
-        "religious figure",
-        "gold",
-        "platinum",
-        "diamond",
-        "coloured gemstones"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Jesus_piece_(jewelry)",
-       "x": [
-        {
-         "n": "Jesus piece",
-         "a": "",
-         "d": "Pendant of Jesus's face, usually with the crown of thorns, often set with gems; first worn in rap by Ghostface Killah.",
-         "mk": "",
-         "y": "1990s",
-         "s": "https://en.wikipedia.org/wiki/Jesus_piece_(jewelry)",
-         "v": [
-          {
-           "n": "Notorious B.I.G. pieces",
-           "mk": "Tito Caicedo",
-           "y": "1990s",
-           "d": "popularised the form; given to associates"
-          },
-          {
-           "n": "Kanye West piece",
-           "mk": "Jacob & Co",
-           "y": "2004",
-           "d": "by Jacob Arabo; diamonds, aquamarine eyes, ruby tears"
-          },
-          {
-           "n": "Kanye West × Takashi Murakami design",
-           "mk": "Takashi Murakami",
-           "y": "2007",
-           "d": "artist-designed version"
-          }
-         ],
-         "dt": "face size · stones (diamond, aquamarine, ruby) · gold colour · budget wood or base-metal versions"
-        },
-        {
-         "n": "adidas Superstar pendant",
-         "a": "",
-         "d": "Gold Superstar shoe pendant given to Run-DMC after their song \"My Adidas\" and worn on their rope chains.",
-         "mk": "adidas",
-         "y": "1986",
-         "s": "https://culted.com/dookie-chain-defined-hip-hop-tyler-new-album-ll-cool-j/",
-         "v": [],
-         "dt": "14k gold"
-        }
-       ]
-      },
-      {
-       "n": "Grillz",
-       "a": "Grills · fronts · golds · caps",
-       "d": "Removable metal cover worn over the teeth, often gold and set with stones.",
-       "t": [
-        "top 6",
-        "top 8",
-        "bottom 8",
-        "bottom 10",
-        "single cap",
-        "removable",
-        "permanent",
-        "10k–24k gold",
-        "silver",
-        "platinum",
-        "yellow, white or rose gold"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Grill_(jewelry)",
-       "x": [
-        {
-         "n": "Fronts",
-         "a": "Caps",
-         "d": "Multi-tooth gold caps adapted from single crowns by Eddie Plein in New York, the first grills.",
-         "mk": "",
-         "y": "1980s",
-         "s": "https://en.wikipedia.org/wiki/Grill_(jewelry)",
-         "v": [
-          {
-           "n": "Just-Ice's teeth",
-           "mk": "Eddie Plein",
-           "y": "1987",
-           "d": "on the Kool and Deadly album; first notable client"
-          }
-         ],
-         "dt": "number of teeth · gold carat"
-        },
-        {
-         "n": "Solid gold grill",
-         "a": "Solid set",
-         "d": "Gold grill covering the whole visible face of each tooth, polished or matte.",
-         "mk": "",
-         "y": "",
-         "s": "https://www.ifandco.com/blogs/jewelry-news-and-insights/different-types-of-grillz-styles",
-         "v": [
-          {
-           "n": "Satin-finish bottom 8",
-           "d": "matte finish"
-          }
-         ],
-         "dt": "teeth covered · finish · gold colour"
-        },
-        {
-         "n": "Open-face grill",
-         "a": "Open-faced grill · window cut",
-         "d": "Grill whose metal frames each tooth and leaves the natural enamel showing.",
-         "mk": "",
-         "y": "",
-         "s": "https://www.ifandco.com/blogs/jewelry-news-and-insights/different-types-of-grillz-styles",
-         "v": [
-          {
-           "n": "Open-face top 6",
-           "d": "14k yellow gold"
-          },
-          {
-           "n": "Open-face white gold diamond",
-           "d": "diamond-set frame"
-          }
-         ],
-         "dt": "teeth covered · cut shape · stones"
-        },
-        {
-         "n": "Iced grill",
-         "a": "Fully iced set · diamond grill",
-         "d": "Grill pavé-set with diamonds over some or all teeth.",
-         "mk": "",
-         "y": "2000s",
-         "s": "https://www.ifandco.com/blogs/jewelry-news-and-insights/different-types-of-grillz-styles",
-         "v": [
-          {
-           "n": "Paul Wall grills",
-           "mk": "Johnny Dang & Co.",
-           "y": "2002",
-           "d": "partnership that made the Houston jeweller's name"
-          },
-          {
-           "n": "Deep-cut upper 6",
-           "d": "deep-cut diamond setting"
-          },
-          {
-           "n": "Princess-cut grill",
-           "d": "princess-cut diamonds"
-          }
-         ],
-         "dt": "teeth covered · stone cut · gold colour"
-        },
-        {
-         "n": "Double-cap grill",
-         "a": "",
-         "d": "Lighter grill design with caps split across the tooth, plain or iced on one or both sides.",
-         "mk": "",
-         "y": "",
-         "s": "https://www.ifandco.com/blogs/jewelry-news-and-insights/different-types-of-grillz-styles",
-         "v": [],
-         "dt": "plain or iced · teeth covered"
-        }
-       ]
-      }
-     ]
-    }
-   ],
-   "note": "Iced-out pieces and heavy chains as a scene; tennis chains are on the Tennis necklace kind."
   },
   {
    "n": "Traditional & regional jewellery",
@@ -4802,39 +4742,15 @@
      "n": "Jewellery parts",
      "k": [
       {
-       "n": "Earring back",
-       "a": "earring stopper · butterfly back · earring nut",
-       "d": "Replacement back or stopper that holds an earring post in place.",
+       "n": "Spare parts",
+       "a": "earring back · chain extender · ring guard",
+       "d": "Replaceable bits owners swap in: earring backs, chain extenders and ring guards.",
+       "s": "https://en.wikipedia.org/wiki/Earring",
        "t": [
-        "butterfly (push-on)",
-        "screw back",
-        "silicone or rubber stopper",
-        "locking back",
-        "disc or lifter back"
-       ],
-       "s": "https://www.limabeads.com/Earring-Findings-C1180"
-      },
-      {
-       "n": "Chain extender",
-       "a": "necklace extender",
-       "d": "Short chain with a clasp made to lengthen a necklace or bracelet.",
-       "t": [
-        "necklace",
-        "bracelet",
-        "anklet"
-       ],
-       "s": "https://www.jewellerybox.co.uk/collections/extenders-necklaces"
-      },
-      {
-       "n": "Ring guard",
-       "a": "ring sizer · ring adjuster",
-       "d": "Insert or band fitted to a ring to make it smaller or keep it in place.",
-       "t": [
-        "coil adjuster",
-        "silicone insert",
-        "metal guard band"
-       ],
-       "s": "https://www.hobbylobby.com/beads-jewelry/fashion-jewelry/rings/ring-adjuster-coils/p/81040906"
+        "earring back (butterfly, screw, push)",
+        "chain extender",
+        "ring guard"
+       ]
       }
      ]
     }
