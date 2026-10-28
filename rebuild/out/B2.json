@@ -2489,8 +2489,8 @@
      "k": [
       {
        "n": "Duvet",
-       "a": "duvet insert · continental quilt",
-       "d": "A filled top cover with loose fill in stitched channels or boxes, made to go inside a removable duvet cover.",
+       "a": "duvet insert · continental quilt · comforter (US)",
+       "d": "A filled top cover with loose fill in stitched channels or boxes; a duvet takes a removable cover, a US comforter is sewn closed.",
        "t": [
         "goose down",
         "duck down",
@@ -2503,7 +2503,8 @@
         "13.5 tog (winter)",
         "all-season 3-in-1",
         "box-stitched",
-        "channel-stitched"
+        "channel-stitched",
+        "sewn-through comforter (fill built in, no cover)"
        ],
        "s": "https://www.sleepfoundation.org/best-bedding/quilt-vs-comforter-vs-duvet",
        "m": [
@@ -2570,24 +2571,7 @@
         [
          "Recycled Feather & Down 13.5 Tog",
          "EarthKind"
-        ]
-       ]
-      },
-      {
-       "n": "Comforter",
-       "a": "",
-       "d": "A thick filled top cover sewn closed with the fill built in, used without a separate cover.",
-       "t": [
-        "goose down",
-        "duck down",
-        "down alternative",
-        "all-season",
-        "lightweight",
-        "heavyweight",
-        "baffle-box"
-       ],
-       "s": "https://www.sleepfoundation.org/best-bedding/quilt-vs-comforter-vs-duvet",
-       "m": [
+        ],
         [
          "All-Season Goose Down Comforter",
          "Alwyn Home"
@@ -3313,7 +3297,7 @@
       {
        "n": "Kotatsu futon",
        "a": "kotatsu cover · kotatsu-gake",
-       "d": "A quilted cover draped over a heated low table (kotatsu) to hold its warmth in.",
+       "d": "A quilted cover draped over a heated low table (kotatsu) to hold its warmth in; the table itself is Heated low table in Furniture & storage.",
        "t": [
         "shitagake (under-cover)",
         "kotatsu-gake (top cover)",
@@ -3382,27 +3366,17 @@
      "k": [
       {
        "n": "Mattress topper",
-       "a": "",
-       "d": "A thick removable layer laid on a mattress to change its feel.",
+       "a": "featherbed · mattress pad",
+       "d": "A removable layer laid on a mattress to change its feel; thicker toppers and thin quilted pads are types.",
        "t": [
         "memory foam",
         "latex",
         "fibre",
-        "down"
+        "down",
+        "featherbed (feather or down)",
+        "thin quilted mattress pad"
        ],
        "s": "https://www.dunelm.com/category/home-and-furniture/bedding/all-bedding"
-      },
-      {
-       "n": "Featherbed",
-       "a": "",
-       "d": "A thick feather- or down-filled pad laid on top of the mattress to sleep on.",
-       "s": "https://www.therange.co.uk/home-furnishings/bedding/mattress-toppers/goose-feather-bed-mattress-topper"
-      },
-      {
-       "n": "Mattress pad",
-       "a": "",
-       "d": "A thin quilted or padded layer fitted over the mattress for light extra comfort.",
-       "s": "https://shop.americantextile.com/pages/buying-guide-mattress-pad-protector-and-topper"
       },
       {
        "n": "Mattress protector",
@@ -3457,9 +3431,13 @@
      "k": [
       {
        "n": "Scatter cushion",
-       "a": "throw pillow",
-       "d": "A loose stuffed decorative cushion for a sofa, chair or bed.",
-       "s": "https://superbalist.com/browse/apartment/home-decor/cushions-throws"
+       "a": "throw pillow · cushion cover",
+       "d": "A loose stuffed decorative cushion for a sofa, chair or bed; the removable cover is sold alone or with the insert.",
+       "s": "https://superbalist.com/browse/apartment/home-decor/cushions-throws",
+       "t": [
+        "cover only (removable)",
+        "cushion with insert"
+       ]
       },
       {
        "n": "Cushion pad",
@@ -3483,24 +3461,16 @@
       },
       {
        "n": "Floor cushion",
-       "a": "zabuton",
-       "d": "A large frameless cushion made to sit on at floor level.",
+       "a": "zabuton · zafu · meditation cushion · meditation mat",
+       "d": "A large frameless cushion or mat made to sit on at floor level, including Zen meditation zafu and zabuton (see the Spiritual pursuits taxonomy).",
        "t": [
         "zabuton",
         "pouffe-style",
-        "pillow stack"
+        "pillow stack",
+        "zafu (round or crescent meditation cushion)",
+        "zabuton (flat padded mat)"
        ],
-       "s": "https://www.dunelm.com/category/home-and-furniture/home-furnishings/cushions/large-cushions"
-      },
-      {
-       "n": "Meditation cushion",
-       "a": "zafu",
-       "d": "A firm frameless cushion, round or crescent, made to sit on for meditation.",
-       "t": [
-        "round",
-        "crescent"
-       ],
-       "s": "https://monasterystore.org/collections/memory-foam-zafu-meditation-cushions",
+       "s": "https://www.dunelm.com/category/home-and-furniture/home-furnishings/cushions/large-cushions",
        "m": [
         [
          "Cloud Zafu",
@@ -3509,15 +3479,7 @@
         [
          "Mountain Seat Zafu",
          "Monastery Store"
-        ]
-       ]
-      },
-      {
-       "n": "Meditation mat",
-       "a": "zabuton",
-       "d": "A flat padded mat laid on the floor under a meditation cushion or to sit on.",
-       "s": "https://monasterystore.org/collections/memory-foam-zafu-meditation-cushions",
-       "m": [
+        ],
         [
          "Cloud Zabuton",
          "Monastery Store"
@@ -3533,12 +3495,6 @@
     {
      "n": "Covers & slipcovers",
      "k": [
-      {
-       "n": "Cushion cover",
-       "a": "",
-       "d": "A removable fabric case for a cushion, sold with or without the insert.",
-       "s": "https://www.ikea.com/us/en/cat/home-textiles-tl001"
-      },
       {
        "n": "Sofa cover",
        "a": "slipcover · throw-over cover · stretch cover",
@@ -3561,6 +3517,91 @@
         "event chair"
        ],
        "s": "https://www.ikea.com/om/en/cat/extra-covers-10664"
+      }
+     ]
+    },
+    {
+     "n": "Furnishing fabrics",
+     "k": [
+      {
+       "n": "Printed & embroidered furnishing textile",
+       "a": "furnishing cloth · decorative textile",
+       "d": "Patterned cloth by the metre or ready-made, printed, resist-dyed or embroidered, for hangings, upholstery, curtains and cushions.",
+       "t": [
+        "printed",
+        "resist-dyed (ikat)",
+        "embroidered",
+        "by the metre",
+        "ready-made hanging"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Ikat",
+       "x": [
+        {
+         "n": "Suzani",
+         "a": "suzandozi",
+         "d": "Embroidered tribal textile of Central Asia and Iran, traditionally made by brides as part of a dowry.",
+         "mk": "",
+         "y": "examples from late 18th–early 19th c.",
+         "s": "https://en.wikipedia.org/wiki/Suzani_(textile)",
+         "v": [],
+         "dt": "Tajikistan, Uzbekistan, Afghanistan origin · large blossom motifs · antique or new"
+        },
+        {
+         "n": "Ikat furnishing cloth",
+         "a": "ikat",
+         "d": "Cloth woven from yarns resist-dyed before weaving, so the pattern shows on both faces with a slightly blurred edge.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Ikat",
+         "v": [
+          {
+           "n": "Patola",
+           "mk": "",
+           "y": "",
+           "d": "silk double ikat of Patan and Khambat, Gujarat"
+          },
+          {
+           "n": "Geringsing",
+           "mk": "",
+           "y": "",
+           "d": "double ikat of Tenganan, Bali"
+          },
+          {
+           "n": "Pochampally",
+           "mk": "",
+           "y": "",
+           "d": "double ikat silk of Andhra Pradesh"
+          },
+          {
+           "n": "Abrbandi",
+           "mk": "",
+           "y": "",
+           "d": "Uzbek ikat"
+          }
+         ],
+         "dt": "warp, weft or double ikat · silk or cotton"
+        },
+        {
+         "n": "Toile de Jouy",
+         "a": "toile",
+         "d": "Fabric printed with a single-colour pastoral scene, usually on white or off-white, named for Jouy-en-Josas near Paris.",
+         "mk": "",
+         "y": "late 18th c.",
+         "s": "https://en.wikipedia.org/wiki/Toile_de_Jouy",
+         "v": [],
+         "dt": "red, blue or black on cream · cotton or linen · wallpaper and furnishing weights"
+        },
+        {
+         "n": "Josef Frank prints",
+         "a": "Svenskt Tenn textiles",
+         "d": "Large-scale botanical furnishing prints designed by Josef Frank for Svenskt Tenn, including designs made in New York 1941–1946.",
+         "mk": "Svenskt Tenn",
+         "y": "1930s–1940s",
+         "s": "https://en.wikipedia.org/wiki/Svenskt_Tenn",
+         "v": [],
+         "dt": "printed linen or cotton · by the metre"
+        }
+       ]
       }
      ]
     }
@@ -3592,7 +3633,7 @@
      "k": [
       {
        "n": "Curtain",
-       "a": "",
+       "a": "sheer curtain · voile · net curtain",
        "d": "A panel of fabric hung from a pole or track to cover a window or door.",
        "t": [
         "pencil pleat",
@@ -3602,15 +3643,10 @@
         "lined",
         "unlined",
         "blackout",
-        "thermal"
+        "thermal",
+        "sheer or voile"
        ],
        "s": "https://www.dunelm.com/category/home-and-furniture/curtains-and-blinds/curtains"
-      },
-      {
-       "n": "Sheer curtain",
-       "a": "voile · net curtain",
-       "d": "A curtain of light translucent fabric that filters light and gives daytime privacy.",
-       "s": "https://www.dunelm.com/product/boucle-stripe-natural-tape-top-single-voile-panel-1000092973"
       },
       {
        "n": "Shower curtain",
@@ -3641,11 +3677,12 @@
       },
       {
        "n": "Roman blind",
-       "a": "",
+       "a": "tie-up shade",
        "d": "A fabric blind that folds up into horizontal pleats as it is raised by cords.",
        "t": [
         "blackout",
-        "motorised"
+        "motorised",
+        "tie-up shade (hand-gathered, no cords)"
        ],
        "s": "https://en.wikipedia.org/wiki/Window_blind"
       },
@@ -3663,11 +3700,12 @@
       },
       {
        "n": "Vertical blind",
-       "a": "",
+       "a": "panel blind",
        "d": "A blind of vertical vanes hung from a track that rotate and draw to one side.",
        "t": [
         "blackout",
-        "motorised"
+        "motorised",
+        "wide sliding panels (panel track)"
        ],
        "s": "https://en.wikipedia.org/wiki/Window_blind"
       },
@@ -3691,18 +3729,6 @@
         "cordless"
        ],
        "s": "https://en.wikipedia.org/wiki/Window_blind"
-      },
-      {
-       "n": "Panel blind",
-       "a": "",
-       "d": "Wide flat fabric panels that slide side to side on a multi-channel track.",
-       "s": "https://en.wikipedia.org/wiki/Window_blind"
-      },
-      {
-       "n": "Tie-up shade",
-       "a": "roll-up shade",
-       "d": "A fabric shade gathered up by hand and held by straps or ties, with no roller or cords.",
-       "s": "https://www.wayfair.com/ideas-and-advice/guide-to-choosing-blinds-shades-S4522.html"
       }
      ]
     },
@@ -4060,12 +4086,6 @@
          ],
          "dt": "carved teak or sheesham blocks · natural dyes · buta, buti, jaal, bel motifs"
         }
-       ],
-       "m": [
-        [
-         "HÖSTAGILLE",
-         "IKEA"
-        ]
        ]
       },
       {
@@ -4078,13 +4098,7 @@
         "jacquard",
         "printed"
        ],
-       "s": "https://www.ikea.com/om/en/cat/table-linen-20538",
-       "m": [
-        [
-         "MÄVINN",
-         "IKEA"
-        ]
-       ]
+       "s": "https://www.ikea.com/om/en/cat/table-linen-20538"
       },
       {
        "n": "Cloth napkin",
@@ -4096,13 +4110,7 @@
         "damask",
         "dinner or cocktail size"
        ],
-       "s": "https://www.ikea.com/om/en/cat/table-linen-20538",
-       "m": [
-        [
-         "MOTTAGA",
-         "IKEA"
-        ]
-       ]
+       "s": "https://www.ikea.com/om/en/cat/table-linen-20538"
       },
       {
        "n": "Fabric placemat",
@@ -4114,13 +4122,7 @@
         "woven",
         "quilted"
        ],
-       "s": "https://www.ikea.com/om/en/cat/table-linen-20538",
-       "m": [
-        [
-         "TUVIRIS",
-         "IKEA"
-        ]
-       ]
+       "s": "https://www.ikea.com/om/en/cat/table-linen-20538"
       },
       {
        "n": "Tea towel",
@@ -4158,18 +4160,12 @@
          ],
          "dt": "100% linen or linen union · lettered, striped or printed · calendar years"
         }
-       ],
-       "m": [
-        [
-         "RINNIG",
-         "IKEA"
-        ]
        ]
       }
      ]
     }
    ],
-   "note": "Trim the IKEA-only lists; add linen houses and table-linen traditions."
+   "note": "Tier for everyday table linen; variety for linen houses and table-linen traditions."
   }
  ]
 }
