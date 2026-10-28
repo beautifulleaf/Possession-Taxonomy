@@ -1,5 +1,5 @@
 # FIX_G1 report
-Counts: kinds 229 -> 226 (Taxi, Utility trailer added; 5 trailer kinds merged); archetypes 840 -> 851; Vehicle care m rows 145 -> see below; 7 brands added (AEC, Bristol Commercial Vehicles, Austin, Checker Motors, Brough Superior, de Havilland, Biltwell). Validate OK.
+Counts: kinds 229 -> 226 (Taxi, Utility trailer added; 5 trailer kinds merged); archetypes 840 -> 851; Vehicle care m rows 145 -> 120; 7 brands added (AEC, Bristol Commercial Vehicles, Austin, Checker Motors, Brough Superior, de Havilland, Biltwell). Validate OK.
 
 - G1-1 done: Routemaster and Lodekka under Bus or coach; new Taxi kind (Austin FX4, Checker Marathon) on shelf renamed "Vans, minibuses & taxis". Tractor unit left empty (finding asked buses/taxis only). C7 cross-link not added (no mechanism in _moves; nothing moved).
 - G1-2 done: Citroen DS (Saloon), Toyota AE86 (Coupe), Brough Superior SS100 and Suzuki GSX-R (Sport motorcycle), Yamaha XT500 (Trail bike), Tiger Moth (Single-engine piston airplane); all Wikipedia-fetched.
