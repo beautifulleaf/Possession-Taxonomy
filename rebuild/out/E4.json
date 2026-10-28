@@ -2493,10 +2493,15 @@
          ""
         ]
        ]
-      },
+      }
+     ]
+    },
+    {
+     "n": "Japanese sword fittings (tosogu)",
+     "k": [
       {
-       "n": "Hilt collar and pommel cap",
-       "a": "fuchi-kashira",
+       "n": "Fuchi-kashira",
+       "a": "hilt collar and pommel cap",
        "d": "Loose collar and pommel cap made for a sword hilt, sold as a set; the Japanese pair is called fuchi-kashira.",
        "s": "https://collectorsfirearms.com/product-category/japanese-swords-fittings-and-firearms/tsuba/",
        "x": [
@@ -2512,8 +2517,8 @@
        ]
       },
       {
-       "n": "Sword grip ornament",
-       "a": "menuki",
+       "n": "Menuki",
+       "a": "sword grip ornament",
        "d": "Loose ornament fitted under the grip wrapping of a Japanese sword.",
        "s": "https://collectorsfirearms.com/38184-pair-of-menuki-mgj392.html",
        "x": [
@@ -2536,8 +2541,8 @@
        ]
       },
       {
-       "n": "Scabbard pocket fitting",
-       "a": "kozuka · kogai",
+       "n": "Kozuka and kōgai",
+       "a": "scabbard pocket fitting · kozuka · kogai",
        "d": "Loose fitting made to sit in a pocket of a Japanese sword scabbard: a small-knife handle (kozuka) with its blade, or a hair spike (kogai).",
        "s": "https://collectorsfirearms.com/product-category/japanese-swords-fittings-and-firearms/tsuba/",
        "t": [
@@ -4555,6 +4560,82 @@
          ]
         },
         {
+         "n": "Webley revolver",
+         "a": "Webley Mk VI",
+         "d": "British break-top service revolver in .455, in service 1887–1963.",
+         "mk": "Webley & Scott",
+         "y": "1887",
+         "s": "https://en.wikipedia.org/wiki/Webley_Revolver",
+         "v": [
+          {
+           "n": "Mk I",
+           "mk": "Webley & Scott",
+           "y": "1887",
+           "d": ""
+          },
+          {
+           "n": "Mk II",
+           "mk": "",
+           "y": "1895",
+           "d": ""
+          },
+          {
+           "n": "Mk IV",
+           "mk": "",
+           "y": "1899",
+           "d": "Boer War model"
+          },
+          {
+           "n": "Mk V",
+           "mk": "",
+           "y": "1913",
+           "d": ""
+          },
+          {
+           "n": "Mk VI",
+           "mk": "",
+           "y": "1915",
+           "d": "best-known model, 6-inch barrel"
+          }
+         ],
+         "dt": ".455 Webley · .38/200 on later marks"
+        },
+        {
+         "n": "Nagant M1895",
+         "a": "Nagant revolver",
+         "d": "Russian 7.62×38mmR gas-seal revolver designed by Léon Nagant, adopted 1895.",
+         "mk": "",
+         "y": "1895",
+         "s": "https://en.wikipedia.org/wiki/Nagant_M1895",
+         "v": [
+          {
+           "n": "Officer's model",
+           "mk": "",
+           "y": "",
+           "d": "double-action"
+          },
+          {
+           "n": "Private's model",
+           "mk": "",
+           "y": "",
+           "d": "single-action"
+          },
+          {
+           "n": "TOZ-36",
+           "mk": "",
+           "y": "1962",
+           "d": "civilian"
+          },
+          {
+           "n": "Swedish M1887",
+           "mk": "",
+           "y": "",
+           "d": "7.5 mm"
+          }
+         ],
+         "dt": "7.62×38mmR · military or civilian"
+        },
+        {
          "n": "Smith & Wesson Model 36",
          "a": "Chiefs Special",
          "d": "Five-shot J-frame .38 Special snub revolver.",
@@ -4678,6 +4759,29 @@
           }
          ],
          "dt": ".45 Colt, .44-40, .38-40 · barrel 4¾, 5½, 7½ in · finish"
+        },
+        {
+         "n": "Colt 1851 Navy",
+         "a": "Navy Colt",
+         "d": "Samuel Colt's .36 percussion revolver, made 1851–1873.",
+         "mk": "Colt",
+         "y": "1851",
+         "s": "https://en.wikipedia.org/wiki/Colt_1851_Navy_Revolver",
+         "v": [
+          {
+           "n": "Thuer conversion",
+           "mk": "Colt",
+           "y": "",
+           "d": "first Colt metallic-cartridge revolver"
+          },
+          {
+           "n": "Richards-Mason conversion",
+           "mk": "Colt",
+           "y": "after 1869",
+           "d": ".38 rimfire or centrefire"
+          }
+         ],
+         "dt": ".36 (rarely .34) · squareback or round trigger guard"
         },
         {
          "n": "Remington Model 1858",
@@ -4855,6 +4959,35 @@
           }
          ],
          "dt": "7.92×57 mm and sporting chamberings · military or sporter stock"
+        },
+        {
+         "n": "Springfield M1903",
+         "a": "'03 Springfield",
+         "d": "US .30-calibre bolt-action service rifle adopted in 1903, based on Mauser designs.",
+         "mk": "Springfield Armory",
+         "y": "1903",
+         "s": "https://en.wikipedia.org/wiki/M1903_Springfield",
+         "v": [
+          {
+           "n": "M1903A1",
+           "mk": "Springfield Armory",
+           "y": "1929–1939",
+           "d": "pistol-grip stock"
+          },
+          {
+           "n": "M1903A3",
+           "mk": "",
+           "y": "1942–1944",
+           "d": "receiver aperture sight, stamped parts"
+          },
+          {
+           "n": "M1903A4",
+           "mk": "",
+           "y": "1942",
+           "d": "sniper version"
+          }
+         ],
+         "dt": ".30-03 or .30-06 · maker (Springfield, Rock Island, Remington, Smith Corona)"
         },
         {
          "n": "Lee–Enfield",
@@ -5324,6 +5457,53 @@
            "d": ""
           }
          ]
+        },
+        {
+         "n": "AK-pattern rifle",
+         "a": "Kalashnikov rifle",
+         "d": "Mikhail Kalashnikov's 7.62×39 mm rifle family, adopted by the Soviet Army in 1949.",
+         "mk": "",
+         "y": "1949",
+         "s": "https://en.wikipedia.org/wiki/AK-47",
+         "v": [
+          {
+           "n": "AK-47 Type 1",
+           "mk": "",
+           "y": "1948",
+           "d": "stamped receiver"
+          },
+          {
+           "n": "AK-47 Type 2",
+           "mk": "",
+           "y": "1951",
+           "d": "milled receiver"
+          },
+          {
+           "n": "AK-47 Type 3",
+           "mk": "",
+           "y": "1954",
+           "d": "lightened milled receiver"
+          },
+          {
+           "n": "AKM",
+           "mk": "",
+           "y": "1959",
+           "d": "stamped receiver"
+          },
+          {
+           "n": "AK-74",
+           "mk": "",
+           "y": "1974",
+           "d": "5.45×39 mm"
+          },
+          {
+           "n": "Type 56",
+           "mk": "Norinco",
+           "y": "",
+           "d": "Chinese copy"
+          }
+         ],
+         "dt": "calibre · receiver type · furniture"
         }
        ],
        "r": [
@@ -5540,6 +5720,47 @@
          "Encore",
          "Thompson/Center Arms"
         ]
+       ]
+      },
+      {
+       "n": "Musket",
+       "a": "flintlock musket · Brown Bess",
+       "d": "Smoothbore muzzle-loading military long gun, fired by matchlock, flintlock or percussion lock.",
+       "t": [
+        "matchlock",
+        "flintlock",
+        "percussion"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Brown_Bess",
+       "x": [
+        {
+         "n": "Brown Bess",
+         "a": "Land Pattern Musket",
+         "d": "British Land Pattern smoothbore flintlock musket, .75 calibre.",
+         "mk": "",
+         "y": "1722",
+         "s": "https://en.wikipedia.org/wiki/Brown_Bess",
+         "v": [
+          {
+           "n": "Long Land Pattern",
+           "mk": "",
+           "y": "1722",
+           "d": ""
+          },
+          {
+           "n": "Short Land Pattern",
+           "mk": "",
+           "y": "",
+           "d": "42-inch barrel"
+          },
+          {
+           "n": "India Pattern",
+           "mk": "",
+           "y": "c. 1794",
+           "d": "39-inch barrel"
+          }
+         ]
+        }
        ]
       }
      ]
@@ -5880,43 +6101,14 @@
       },
       {
        "n": "Muzzle-loading shotgun",
-       "a": "musket · fowler",
+       "a": "fowler",
        "d": "Smoothbore long gun loaded with powder and shot from the muzzle.",
        "t": [
         "flintlock",
         "percussion"
        ],
        "s": "https://www.muzzle-loaders.com/pedersoli-classic-side-by-side-shotgun-12-ga-percussion-l-241-012.html",
-       "x": [
-        {
-         "n": "Brown Bess",
-         "a": "Land Pattern Musket",
-         "d": "British Land Pattern smoothbore flintlock musket, .75 calibre.",
-         "mk": "",
-         "y": "1722",
-         "s": "https://en.wikipedia.org/wiki/Brown_Bess",
-         "v": [
-          {
-           "n": "Long Land Pattern",
-           "mk": "",
-           "y": "1722",
-           "d": ""
-          },
-          {
-           "n": "Short Land Pattern",
-           "mk": "",
-           "y": "",
-           "d": "42-inch barrel"
-          },
-          {
-           "n": "India Pattern",
-           "mk": "",
-           "y": "c. 1794",
-           "d": "39-inch barrel"
-          }
-         ]
-        }
-       ],
+       "x": [],
        "m": [
         [
          "Pedersoli Classic Side-by-Side Shotgun",
@@ -6033,14 +6225,6 @@
        "s": "https://www.sportsmans.com/shooting-gear-gun-supplies/ammunition-ammo-for-hunting-shooting-sports/c/cat100112",
        "m": [
         [
-         "9mm Luger",
-         ""
-        ],
-        [
-         ".45 ACP",
-         ""
-        ],
-        [
          ".380 ACP",
          ""
         ],
@@ -6049,21 +6233,56 @@
          ""
         ],
         [
-         ".38 Special",
-         ""
-        ],
-        [
-         ".357 Magnum",
-         ""
-        ],
-        [
          "10mm Auto",
          ""
-        ],
-        [
-         ".44 Magnum",
-         ""
         ]
+       ],
+       "x": [
+        {
+         "n": "9mm Luger",
+         "a": "9×19mm Parabellum",
+         "d": "Rimless 9 mm pistol cartridge designed by Georg Luger.",
+         "mk": "",
+         "y": "1901",
+         "s": "https://en.wikipedia.org/wiki/9%C3%9719mm_Parabellum",
+         "v": []
+        },
+        {
+         "n": ".45 ACP",
+         "a": "",
+         "d": "John Moses Browning's .45 self-loading pistol cartridge.",
+         "mk": "",
+         "y": "1904",
+         "s": "https://en.wikipedia.org/wiki/.45_ACP",
+         "v": []
+        },
+        {
+         "n": ".38 Special",
+         "a": "",
+         "d": "Revolver cartridge designed by Smith & Wesson.",
+         "mk": "Smith & Wesson",
+         "y": "1898",
+         "s": "https://en.wikipedia.org/wiki/.38_Special",
+         "v": []
+        },
+        {
+         "n": ".357 Magnum",
+         "a": "",
+         "d": "Revolver cartridge by Elmer Keith, Phillip Sharpe and Douglas Wesson.",
+         "mk": "",
+         "y": "1934",
+         "s": "https://en.wikipedia.org/wiki/.357_Magnum",
+         "v": []
+        },
+        {
+         "n": ".44 Magnum",
+         "a": "",
+         "d": "Revolver cartridge developed by Elmer Keith and Smith & Wesson; production from 1956.",
+         "mk": "",
+         "y": "1950s",
+         "s": "https://en.wikipedia.org/wiki/.44_Magnum",
+         "v": []
+        }
        ]
       },
       {
@@ -6072,26 +6291,6 @@
        "d": "Complete cartridge with a central primer made for rifles.",
        "s": "https://www.sportsmans.com/shooting-gear-gun-supplies/ammunition-ammo-for-hunting-shooting-sports/c/cat100112",
        "m": [
-        [
-         ".223 Remington",
-         ""
-        ],
-        [
-         "5.56x45mm NATO",
-         ""
-        ],
-        [
-         ".308 Winchester",
-         ""
-        ],
-        [
-         ".30-06 Springfield",
-         ""
-        ],
-        [
-         "6.5 Creedmoor",
-         ""
-        ],
         [
          ".270 Winchester",
          ""
@@ -6104,6 +6303,53 @@
          ".300 AAC Blackout",
          ""
         ]
+       ],
+       "x": [
+        {
+         "n": ".30-06 Springfield",
+         "a": "7.62×63mm",
+         "d": "US service rifle cartridge designed by Springfield Armory.",
+         "mk": "Springfield Armory",
+         "y": "1906",
+         "s": "https://en.wikipedia.org/wiki/.30-06_Springfield",
+         "v": []
+        },
+        {
+         "n": ".308 Winchester",
+         "a": "7.62×51mm NATO",
+         "d": "Short-action rifle cartridge branded by Winchester, from Frankford Arsenal T65 experiments.",
+         "mk": "Winchester",
+         "y": "1952",
+         "s": "https://en.wikipedia.org/wiki/.308_Winchester",
+         "v": []
+        },
+        {
+         "n": ".223 Remington",
+         "a": "",
+         "d": "Rifle cartridge developed by Remington with Fairchild Industries.",
+         "mk": "Remington",
+         "y": "1957",
+         "s": "https://en.wikipedia.org/wiki/.223_Remington",
+         "v": []
+        },
+        {
+         "n": "5.56x45mm NATO",
+         "a": "5.56×45mm",
+         "d": "Rifle cartridge developed by FN Herstal and standardised in 1980.",
+         "mk": "FN Herstal",
+         "y": "1980",
+         "s": "https://en.wikipedia.org/wiki/5.56%C3%9745mm_NATO",
+         "v": []
+        },
+        {
+         "n": "6.5 Creedmoor",
+         "a": "",
+         "d": "Rifle cartridge designed by Dave Emary of Hornady with Dennis DeMille.",
+         "mk": "Hornady",
+         "y": "2007",
+         "s": "https://en.wikipedia.org/wiki/6.5mm_Creedmoor",
+         "v": []
+        }
        ]
       },
       {
@@ -6113,10 +6359,6 @@
        "s": "https://www.sportsmans.com/shooting-gear-gun-supplies/ammunition-ammo-for-hunting-shooting-sports/c/cat100112",
        "m": [
         [
-         ".22 Long Rifle",
-         ""
-        ],
-        [
          ".22 WMR",
          ""
         ],
@@ -6124,6 +6366,17 @@
          ".17 HMR",
          ""
         ]
+       ],
+       "x": [
+        {
+         "n": ".22 Long Rifle",
+         "a": ".22 LR",
+         "d": "Rimfire cartridge by J. Stevens Arms & Tool Company.",
+         "mk": "",
+         "y": "1887",
+         "s": "https://en.wikipedia.org/wiki/.22_Long_Rifle",
+         "v": []
+        }
        ]
       },
       {
@@ -6698,7 +6951,7 @@
       {
        "n": "Night-vision and thermal sight",
        "a": "thermal riflescope · thermal weapon sight · digital night-vision scope",
-       "d": "Weapon sight that shows an image in darkness, by thermal imaging or digital low-light sensing.",
+       "d": "Weapon sight that shows an image in darkness, by thermal imaging or digital low-light sensing. Handheld viewers: see Observing & Measuring (E6).",
        "t": [
         "thermal",
         "digital night vision",
@@ -6844,32 +7097,16 @@
        ]
       },
       {
-       "n": "Barrel",
-       "a": "",
-       "d": "Replacement or upgrade barrel made to fit a firearm model or platform.",
-       "s": "https://www.basspro.com/l/guns"
-      },
-      {
-       "n": "Trigger",
-       "a": "",
-       "d": "Drop-in trigger or trigger group made to fit a firearm model or platform.",
-       "s": "https://www.basspro.com/l/guns"
-      },
-      {
-       "n": "Iron sight",
-       "a": "",
-       "d": "Fixed or adjustable open or aperture sight fitted to a firearm, sold as front, rear or set.",
+       "n": "Firearm upgrade part",
+       "a": "barrel · trigger · iron sight · suppressor",
+       "d": "Replacement or upgrade part made to fit a firearm model or platform.",
        "t": [
-        "front",
-        "rear",
-        "set"
+        "barrel",
+        "trigger",
+        "front sight",
+        "rear sight",
+        "suppressor"
        ],
-       "s": "https://www.basspro.com/l/guns"
-      },
-      {
-       "n": "Suppressor",
-       "a": "",
-       "d": "Device fitted to a firearm muzzle that reduces the sound of a shot; its legal class varies by place.",
        "s": "https://www.basspro.com/l/guns"
       }
      ]
@@ -8079,6 +8316,41 @@
          "Prime Divide",
          "Prime Archery"
         ]
+       ]
+      },
+      {
+       "n": "Historical crossbow",
+       "a": "medieval crossbow",
+       "d": "Crossbow of the medieval and later periods, drawn by hand, windlass or cranequin.",
+       "t": [
+        "hand-spanned",
+        "windlass",
+        "cranequin"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Crossbow",
+       "x": [
+        {
+         "n": "Arbalest",
+         "a": "",
+         "d": "Heavy European crossbow, 12th century on; later steel-prod crossbows needing windlass or cranequin.",
+         "mk": "",
+         "y": "12th century",
+         "s": "https://en.wikipedia.org/wiki/Crossbow",
+         "v": [
+          {
+           "n": "Windlass-spanned",
+           "mk": "",
+           "y": "13th century",
+           "d": ""
+          },
+          {
+           "n": "Cranequin-spanned",
+           "mk": "",
+           "y": "14th century",
+           "d": ""
+          }
+         ]
+        }
        ]
       },
       {
@@ -9725,9 +9997,9 @@
        ]
       },
       {
-       "n": "Taser-type stun gun",
-       "a": "projectile electroshock weapon · TASER",
-       "d": "Device that fires wired darts to deliver an incapacitating electric shock; Taser is the best-known brand.",
+       "n": "Stun gun",
+       "a": "Taser-type · electroshock weapon · TASER",
+       "d": "Device that delivers an incapacitating electric shock, by wired darts (Taser-type) or by contact electrodes.",
        "s": "https://taser.com/pages/pulse-series",
        "m": [
         [
@@ -9741,15 +10013,7 @@
         [
          "TASER 7 CQ",
          "TASER"
-        ]
-       ]
-      },
-      {
-       "n": "Contact stun gun",
-       "a": "",
-       "d": "Hand-held device that delivers an electric shock through electrodes pressed against the body.",
-       "s": "https://www.pyramydair.com/product/guard-dog-dual-led-grip-to-stun-gun-rechargeable-black?a=38393",
-       "m": [
+        ],
         [
          "TASER StrikeLight 2",
          "TASER"
@@ -9758,6 +10022,10 @@
          "Guard Dog Dual LED Grip-to-Stun",
          "Guard Dog Security"
         ]
+       ],
+       "t": [
+        "projectile (Taser-type)",
+        "contact"
        ]
       },
       {
@@ -10658,53 +10926,25 @@
      "n": "Body armour",
      "k": [
       {
-       "n": "Soft ballistic vest",
-       "a": "",
-       "d": "Flexible body armour against handgun rounds.",
+       "n": "Body armour",
+       "a": "ballistic vest · bulletproof vest · plate carrier",
+       "d": "Worn protection against bullets or blades: soft vest, hard plate or plate carrier.",
        "t": [
-        "NIJ Level IIA",
-        "NIJ Level II",
-        "NIJ Level IIIA"
+        "soft ballistic vest (NIJ IIA, II, IIIA)",
+        "hard plate (NIJ III, IV; steel, ceramic, polyethylene)",
+        "plate carrier",
+        "stab-resistant vest"
        ],
        "s": "https://pointblankenterprises.com/point-blank-body-armor/hi-lite-male.html",
        "m": [
         [
          "Hi-Lite",
          "Point Blank Enterprises"
-        ]
-       ]
-      },
-      {
-       "n": "Hard ballistic plate",
-       "a": "",
-       "d": "Rigid armour plate against rifle rounds, worn alone or in a carrier.",
-       "t": [
-        "NIJ Level III",
-        "NIJ Level IV",
-        "steel",
-        "ceramic",
-        "polyethylene"
-       ],
-       "s": "https://www.police1.com/police-products/body-armor/press-releases/spartan-armor-systems-introduce-hercules-level-iv-ceramic-body-armor-Ehih1MxexnqeM1KM/",
-       "m": [
+        ],
         [
          "Hercules",
          "Spartan Armor Systems"
-        ]
-       ]
-      },
-      {
-       "n": "Plate carrier",
-       "a": "",
-       "d": "Vest made to hold hard armour plates; it counts as armour in its own right.",
-       "s": "https://www.atomicdefense.com/collections/bulletproof-plate-carriers/spo-default"
-      },
-      {
-       "n": "Stab-resistant vest",
-       "a": "",
-       "d": "Body armour made against knife and spike attacks (NIJ 0115.00 standard).",
-       "s": "https://www.officer.com/on-the-street/body-armor-protection/product/10052826/chief-protech-corrections-persuader-stab-vest",
-       "m": [
+        ],
         [
          "Persuader Stab Vest",
          "Protech Corrections"
@@ -10745,6 +10985,52 @@
     }
    ],
    "note": "Historical and reenactment armour is variety; modern body armour tier by protection level."
+  },
+  {
+   "n": "Militaria & replicas",
+   "mode": "mixed",
+   "note": "Deactivated and non-firing pieces; Decorative replica weapon and Deactivated ordnance arrive from B4.",
+   "b": [
+    {
+     "m": "Status",
+     "v": "non-firing replica · deactivated (certified) · antique",
+     "w": "EU Implementing Regulation 2015/2403 on deactivation."
+    }
+   ],
+   "s": [
+    {
+     "n": "Deactivated & replica firearms",
+     "k": [
+      {
+       "n": "Deactivated firearm",
+       "a": "deac · inert firearm",
+       "d": "Real firearm made permanently inoperable under a certified standard and kept for display or collecting.",
+       "t": [
+        "EU-certified (from 8 April 2016)",
+        "earlier national standard"
+       ],
+       "s": "https://www.legislation.gov.uk/eur/2015/2403/data.xht"
+      },
+      {
+       "n": "Non-firing replica firearm",
+       "a": "display replica",
+       "d": "Copy of a firearm built so it cannot fire ammunition, made for collectors, reenactors and film use.",
+       "t": [
+        "historical (flintlock, percussion)",
+        "Wild West",
+        "world-war"
+       ],
+       "s": "https://www.deltamike.co.nz/brand/denix/",
+       "r": [
+        [
+         "Denix replicas",
+         "Denix"
+        ]
+       ]
+      }
+     ]
+    }
+   ]
   }
  ]
 }
