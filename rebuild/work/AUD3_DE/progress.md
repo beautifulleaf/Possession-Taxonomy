@@ -1,2 +1,6 @@
 - D1 done (16:54)
 - D2 done
+- D3 done
+- D4 done
+- E3 done
+- E4 done
