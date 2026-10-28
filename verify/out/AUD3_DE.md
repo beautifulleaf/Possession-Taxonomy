@@ -195,3 +195,66 @@ Musket (new) → Brown Bess · Charleville 1777 · Springfield 1861 (to verify)
 Semi-automatic rifle → M1 Garand · SKS · AK-pattern (civilian) · AR-15
 ```
 Priority: medium · Fix size: medium
+
+## E5 Video games hardware
+107 kinds · 307 archetypes · 116 brands.
+
+**Brand mode:** variety for platforms, retro hardware, controllers at the sim and arcade end, arcade and pinball; tier for accessories and mainstream pads.
+
+**Gaps for hobbyists**
+- **E5-1 Many collector platforms are only flat models.** There are 0 hits anywhere for Virtual Boy. "Home console" has 41 archetypes but leaves 40 more platforms as flat `m` (PC-FX, Pippin, LaserActive, Casio Loopy, GX4000, XEGS…). "Handheld console" leaves 29 in `m` (Game.com, N-Gage, Pokémon mini, Gizmondo…). Some archetypes are thin: Xbox has 1 version and N64 has 2. Fix: promote each platform to an archetype with revisions (short ones are fine), and add Virtual Boy.
+- **E5-2 Collectible retro peripherals are treated as tier.** "Console memory card" has 0 archetypes and 10 models, including the Dreamcast VMU and N64 Controller Pak. Rumble pack has 12 models and Multitap 10, all flat. Fix: attach them to their platform as accessory archetypes or versions.
+- **E5-3 Pinball has no system or era axis.** It has 6 solid-state and 2 EM archetypes, which are machine titles, plus 45 more machines in `m`. Fix: archetype = manufacturer system or era (Gottlieb System 80, Williams System 11, Williams WPC, Stern SAM/SPIKE: to verify against IPDB), with machines as versions. They are product models, so they stay in scope.
+
+**Too much detail**
+- **E5-4 The Accessories department has 19 tier kinds, 13 of them with no types.** AC adapter, Replacement battery pack, Charging stand and TV dock are separate kinds. Fix: about 5 kinds.
+- **E5-5 Digital items that are not objects.** "Game media" holds Digital game and Game mod (both empty), DLC, and Game-key card and Download-code card (1 model each). Fix: merge the key and code cards into one kind and drop the digital-only kinds, with a cross-link to the Interactive Entertainment taxonomy.
+
+**Confusing organisation**
+- **E5-6 A stray department.** "Controllers & accessories" has one kind, "Phone game controller" (1 model), which duplicates the separate Controllers and Accessories departments. Fix: make it a type of Gamepad.
+- **E5-7 The "Video arcade cabinets" shelf holds non-video machines.** It holds "Pinball machine" (5 models, duplicating the solid-state pinball kind; Jaws is listed twice), "Slot machine" (9 Aristocrat models) and "Claw crane". Fix: merge the pinball kinds, and add a "Coin-op amusement & gaming" shelf.
+- **E5-8 Duplicates across categories.** "XR display glasses" (Xreal) duplicates D2 Smart glasses (XREAL), and the maker name "Xreal" does not match the register's "XREAL". THEC64 is in both E5 Plug-and-play and D1 Retro re-creation. Fix: one home each.
+
+**What it would look like: Handheld console**
+```
+Handheld console
+  Game Boy → DMG-01 · Pocket · Light · Play It Loud → region, colour
+  Virtual Boy (1995)                                   [new]
+  Game Boy Advance → AGB · SP (AGS-001/101) · Micro
+  Neo Geo Pocket → Pocket · Color
+  Game.com · N-Gage / QD · Pokémon mini · Gizmondo     [promoted from m]
+  PlayStation Portable → 1000 · 2000 · 3000 · Go · E1000
+  Accessories per platform: link cable · Game Boy Camera/Printer (to verify)
+```
+Priority: medium · Fix size: medium
+
+## E6 Observing & measuring (optics, weather, lab)
+86 kinds · 138 archetypes · 73 brands · 3 traditions.
+
+**Brand mode:** mixed. Variety for telescopes, eyepieces, alpha binoculars and antique instruments; tier for weather stations, magnifiers, the home lab and mount hardware.
+
+**Gaps for hobbyists**
+- **E6-1 The most common amateur telescope is lumped into one kind.** "Newtonian & Dobsonian telescope" has only 2 generic archetypes ("Dobsonian", "Newton's reflector") and 11 flat models. Coulter and Obsession are in the brand register with no archetype, and Astroscan and Orion XT get 0 hits. Fix: about 8 archetypes (Coulter Odyssey, Obsession, Orion SkyQuest XT, Sky-Watcher Skyliner/Flextube, Edmund Astroscan, Criterion RV-6: to verify).
+- **E6-2 Missing instruments.** There are 0 hits for amateur spectroscope or Star Analyser, antique telescope makers (Dollond), theodolite and rock tumbler. Vixen and Bausch & Lomb appear only in text. The approved "collector machines" shelf (slide rules, Curta) and stereoscopes live in C5 and F5 without cross-links. Fix: add a "Spectroscope" kind and antique telescope and microscope makers as archetypes (Dollond, Culpeper, Leitz, Watson: to verify), and add the cross-links.
+- **E6-3 Microscopes are thin.** "Compound light microscope" has 6 archetypes, and "Polarising microscope" has 0 archetypes with 7 flat models.
+
+**Too much detail**
+- **E6-4 The Home & hobby lab is split into 14 tier kinds.** Test tube is empty; Beaker has 1 model; Petri dish and Dissection set have 2 each. "Distillation glassware" lists 9 types, including six condenser designs (Allihn, Graham, Dimroth, Friedrichs, West, Davies), which is trade-level detail. Fix: 4 kinds (Glassware · Measuring & dispensing · Lab instruments · Culture & sterile kit).
+- **E6-5 Mounts and weather sensors are split too finely.** Equatorial wedge (no types), Polar scope, Mount hardware and Telescope tripod are separate kinds. Wind vane, Windsock and Solar radiation sensor are each kinds with 0–1 models. Fix: one "Mount accessory" kind, and make the sensors types of Weather station.
+
+**Confusing organisation**
+- **E6-6 Misshelved items.** Geiger counter and Home seismometer sit on the "Weather stations & sensors" shelf. The decorative Galileo thermometer and storm glass are filed with barometers. Fix: add an "Earth & radiation sensors" shelf and a "Weather curios" shelf.
+- **E6-7 Overlaps with E4 and D4.** Night-vision and thermal viewers overlap E4 sights (Pulsar in both), and "Telescope camera adapter" overlaps D4 mount adapters. Fix: cross-link. Only 3 traditions are registered (barometers and astrolabes), with nothing for the London instrument trade (to verify).
+
+**What it would look like: Telescopes, reflectors**
+```
+Newtonian & Dobsonian telescope
+  Newton's reflector (1668, period view)
+  Dobsonian (John Dobson, 1960s) → solid tube · truss · collapsible · tabletop (t)
+    Coulter Odyssey (1980s) · Obsession (truss) · Orion SkyQuest XT
+    Sky-Watcher Skyliner / Flextube · Edmund Astroscan (rich-field)
+  Equatorial Newtonian → Criterion RV-6 · Sky-Watcher Explorer
+  Imaging Newtonian astrograph → Sky-Watcher Quattro (to verify)
+  detail: aperture 114–600 mm · focal ratio · GoTo or manual
+```
+Priority: medium · Fix size: small
