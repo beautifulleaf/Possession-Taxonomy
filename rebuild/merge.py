@@ -20,7 +20,10 @@ def put(t, m, key):
     if dp is None:
         dp = {'n': m.get('dept') or 'Moved in', 'mode': 'mixed', 'b': [], 's': [{'n': m.get('dept') or 'Moved in', 'k': []}]}
         t['depts'].append(dp)
-    dp['s'][0]['k'].append(m['kind'])
+    stems = lambda t: {w[:5] for w in t.lower().replace(',', ' ').replace('&', ' ').split() if len(w) > 3}
+    ks = stems(m['kind']['n'])
+    sh = max(dp['s'], key=lambda s: len(ks & stems(s['n'])))  # best word match; ties keep the first shelf
+    sh['k'].append(m['kind'])
 for c in sys.argv[1:]:
     d = json.load(open(f'out/{c}.json'))
     # re-apply kinds moved IN from categories merged earlier (the rebuilt file would otherwise drop them);
