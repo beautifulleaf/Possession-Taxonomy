@@ -30,6 +30,7 @@ fl=kinds['Floral fragrance']; fl.pop('r',None)
 bm=kinds['Body mist']; bm['m']=[["Warm Vanilla Sugar","Bath & Body Works"],["Marshmallows Hair & Body Fragrance Mist","Ellis Brooklyn"],["Peach Skin Hair and Body Fragrance Mist","PHLUR"],["Saffron & Cedar Body Mist","Salt & Stone"]]
 # Oud rename
 od=kinds['Oud fragrance (Western niche)']; od['n']='Oud fragrance'
+kinds['Oud fragrance']=od
 od['d']="Alcohol-based perfume built around agarwood (oud), real or synthetic, from Western and Arabian houses; oil ouds sit with attars."
 od['a']="oud · agarwood perfume · oud eau de parfum"
 # clone t on family kinds
