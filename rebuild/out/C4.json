@@ -1,11 +1,11 @@
 {
  "c": "C4",
  "rev": true,
- "lead": "Materials, tools and machines for making things by hand, organised by craft (painting, printmaking, sewing, yarn, paper, jewellery, pottery, glass, leather, modelling), then material kind, then maker and named line.",
+ "lead": "Materials, tools and machines for making things by hand, grouped as craft and art shops stock them: by material or tool type (paint, paper, fabric, yarn, beads, clay, glass, leather, adhesives), then kind, maker and named line. Crafts as practices sit in the Creative pursuits taxonomy.",
  "b": [],
  "depts": [
   {
-   "n": "Painting & drawing",
+   "n": "Paints, brushes, paper & drawing media",
    "mode": "mixed",
    "b": [
     {
@@ -1201,8 +1201,8 @@
        "s": "https://www.dickblick.com/categories/easels/"
       },
       {
-       "n": "Pochade and plein-air box",
-       "a": "pochade box · paint box easel · field box",
+       "n": "Pochade box",
+       "a": "pochade box · paint box easel · field box · plein-air box",
        "d": "Portable box combining palette, paint storage and a panel holder for painting outdoors.",
        "t": [
         "lap or tripod-mounted",
@@ -2359,7 +2359,7 @@
      ]
     },
     {
-     "n": "Paint-by-numbers & diamond painting",
+     "n": "Picture kits",
      "k": [
       {
        "n": "Paint-by-numbers kit",
@@ -2423,10 +2423,10 @@
      ]
     }
    ],
-   "note": "Paint is organised by medium, then house and line; Colour Index pigment codes are the comparison axis."
+   "note": "Art-shop goods grouped by medium: paint, brush and support, drawing material, ink and marker. Paint is organised by medium, then house and line; Colour Index pigment codes are the comparison axis."
   },
   {
-   "n": "Printmaking & ink painting",
+   "n": "Printing supplies & East Asian ink goods",
    "mode": "variety",
    "b": [
     {
@@ -2442,7 +2442,7 @@
    ],
    "s": [
     {
-     "n": "Printmaking",
+     "n": "Printing inks, blocks & presses",
      "k": [
       {
        "n": "Printing ink",
@@ -2771,7 +2771,7 @@
      ]
     },
     {
-     "n": "Ink painting & calligraphy (Four Treasures)",
+     "n": "East Asian ink goods (Four Treasures)",
      "k": [
       {
        "n": "Calligraphy and ink-painting brush",
@@ -3021,10 +3021,11 @@
       }
      ]
     }
-   ]
+   ],
+   "note": "Inks, blocks, presses and screens as printmaking suppliers stock them, plus the Four Treasures goods of East Asian brush and ink work."
   },
   {
-   "n": "Sewing & fabric",
+   "n": "Fabric, thread & sewing machines",
    "mode": "mixed",
    "b": [
     {
@@ -3799,7 +3800,7 @@
      ]
     },
     {
-     "n": "Dyeing & surface design",
+     "n": "Dyes & fabric paints",
      "k": [
       {
        "n": "Fabric dye",
@@ -4521,10 +4522,10 @@
      ]
     }
    ],
-   "note": "Machines are tier picks with collectable vintage versions; fabric is a variety area organised by fibre and design house."
+   "note": "Machines are tier picks with collectable vintage versions; fabric is a variety area organised by fibre and design house; notions are sold loose."
   },
   {
-   "n": "Knitting, crochet & needlecraft",
+   "n": "Yarn, fibre & needlework supplies",
    "mode": "variety",
    "b": [
     {
@@ -5019,7 +5020,7 @@
      ]
     },
     {
-     "n": "Knitting & crochet tools",
+     "n": "Needles, hooks & yarn tools",
      "k": [
       {
        "n": "Knitting needles",
@@ -5318,7 +5319,7 @@
      ]
     },
     {
-     "n": "Embroidery, cross-stitch & sashiko",
+     "n": "Needlework threads, cloth & hoops",
      "k": [
       {
        "n": "Embroidery floss",
@@ -5551,7 +5552,7 @@
        "m": []
       },
       {
-       "n": "Needlecraft and yarn kit",
+       "n": "Needlework and yarn kit",
        "a": "cross-stitch kit · embroidery kit · knitting kit · crochet kit · needle-felting kit",
        "d": "Kit with cloth or yarn, floss, needle or hook and a pattern for one project, sold as one set.",
        "s": "https://www.dickblick.com/categories/crafts/jewelry-making/",
@@ -5573,7 +5574,7 @@
      ]
     },
     {
-     "n": "Spinning & felting",
+     "n": "Spinning equipment & fibre",
      "k": [
       {
        "n": "Spinning wheel",
@@ -5797,7 +5798,7 @@
      ]
     },
     {
-     "n": "Weaving & knitting machines",
+     "n": "Looms & knitting machines",
      "k": [
       {
        "n": "Rigid heddle loom",
@@ -6109,10 +6110,10 @@
      ]
     }
    ],
-   "note": "Yarn follows Ravelry's axes: weight, fibre and named yarn line."
+   "note": "Yarn shop goods: yarn, needles, hooks, threads, cloth, spinning equipment and looms. Yarn follows Ravelry's axes: weight, fibre and named yarn line."
   },
   {
-   "n": "Papercraft & bookbinding",
+   "n": "Paper, card & binding materials",
    "mode": "mixed",
    "b": [],
    "s": [
@@ -6382,7 +6383,7 @@
      ]
     },
     {
-     "n": "Stamping, embossing & die-cutting",
+     "n": "Stamps, inks & die-cutters",
      "k": [
       {
        "n": "Craft stamp",
@@ -6703,10 +6704,11 @@
       }
      ]
     }
-   ]
+   ],
+   "note": "Decorative paper, card, stamps, dies and binding materials as paper-craft shops stock them."
   },
   {
-   "n": "Jewellery making & beads",
+   "n": "Beads, findings & jewellery tools",
    "mode": "mixed",
    "b": [
     {
@@ -6905,14 +6907,15 @@
        "s": "https://www.firemountaingems.com/beads/"
       },
       {
-       "n": "Pearl bead",
-       "a": "",
-       "d": "Pearl drilled ready for stringing.",
+       "n": "Pearl and shell bead",
+       "a": "craft shell",
+       "d": "Pearl or shell piece drilled ready for stringing.",
        "t": [
         "freshwater",
         "glass pearl",
         "crystal pearl",
-        "shell pearl"
+        "shell pearl",
+        "shell assortment"
        ],
        "m": [],
        "s": "https://www.firemountaingems.com/beads/"
@@ -6940,14 +6943,6 @@
          "v": []
         }
        ]
-      },
-      {
-       "n": "Craft shell assortment",
-       "a": "",
-       "d": "Unsorted assortment of shells sold for crafts.",
-       "t": [],
-       "m": [],
-       "s": "https://www.seashellsupply.com/shell-assortments"
       }
      ]
     },
@@ -7120,7 +7115,7 @@
      ]
     },
     {
-     "n": "Metalsmithing & beading tools",
+     "n": "Jewellery tools & metal supplies",
      "k": [
       {
        "n": "Jewellery pliers",
@@ -7494,10 +7489,11 @@
       }
      ]
     }
-   ]
+   ],
+   "note": "Bead-shop goods: beads and stones, findings and wire, and the hand tools and metal supplies used to assemble jewellery."
   },
   {
-   "n": "Pottery & sculpting",
+   "n": "Clay, glazes & kilns",
    "mode": "mixed",
    "b": [
     {
@@ -7857,8 +7853,8 @@
        ]
       },
       {
-       "n": "Pottery and sculpting hand tools",
-       "a": "ribs · loop tools · wire cutter · banding wheel",
+       "n": "Clay hand tools",
+       "a": "ribs · loop tools · wire cutter · banding wheel · pottery tools · sculpting tools",
        "d": "Hand tools for shaping, trimming and finishing clay.",
        "t": [
         "ribs (wood, metal, silicone)",
@@ -8053,7 +8049,8 @@
         "electric front loader",
         "gas",
         "raku",
-        "test kiln"
+        "test kiln",
+        "replacement element, thermocouple and controller"
        ],
        "m": [
         [
@@ -8140,26 +8137,14 @@
        ],
        "m": [],
        "s": "https://seattlepotterysupply.com/pages/about-us"
-      },
-      {
-       "n": "Kiln spare parts",
-       "a": "kiln element · thermocouple · controller",
-       "d": "Element, thermocouple, relay or controller made for a kiln.",
-       "t": [
-        "element",
-        "thermocouple",
-        "relay",
-        "controller"
-       ],
-       "m": [],
-       "s": "https://seattlepotterysupply.com/pages/about-us"
       }
      ]
     }
-   ]
+   ],
+   "note": "Clay bodies, modelling clays, glazes and studio equipment grouped by material and machine."
   },
   {
-   "n": "Glass, resin & candle making",
+   "n": "Glass, resin & wax materials",
    "mode": "mixed",
    "b": [
     {
@@ -8170,7 +8155,7 @@
    ],
    "s": [
     {
-     "n": "Stained glass, fusing & lampwork",
+     "n": "Glass sheet, rod & tools",
      "k": [
       {
        "n": "Stained-glass sheet",
@@ -8391,7 +8376,7 @@
      ]
     },
     {
-     "n": "Mosaic",
+     "n": "Mosaic materials",
      "k": [
       {
        "n": "Mosaic tile",
@@ -8507,7 +8492,7 @@
      ]
     },
     {
-     "n": "Resin, moulding & casting",
+     "n": "Resin, moulds & casting materials",
      "k": [
       {
        "n": "Casting resin",
@@ -8636,7 +8621,7 @@
      ]
     },
     {
-     "n": "Candle & soap making",
+     "n": "Candle & soap materials",
      "k": [
       {
        "n": "Candle wax",
@@ -8709,10 +8694,11 @@
       }
      ]
     }
-   ]
+   ],
+   "note": "Glass sheet, rod and tools, mosaic tile, casting resins and moulds, wax and soap bases, grouped by material."
   },
   {
-   "n": "Leather, wood & natural crafts",
+   "n": "Leather, cane, floral & wood supplies",
    "mode": "mixed",
    "b": [
     {
@@ -8881,7 +8867,7 @@
      ]
     },
     {
-     "n": "Leathercraft tools & finishes",
+     "n": "Leather tools & finishes",
      "k": [
       {
        "n": "Leather punch and pricking iron",
@@ -9053,7 +9039,7 @@
      ]
     },
     {
-     "n": "Basketry & chair seating",
+     "n": "Cane, willow & seating materials",
      "k": [
       {
        "n": "Basketry willow",
@@ -9167,7 +9153,7 @@
      ]
     },
     {
-     "n": "Flower arranging & pressing",
+     "n": "Floristry supplies",
      "k": [
       {
        "n": "Kenzan (pin frog)",
@@ -9299,7 +9285,7 @@
      ]
     },
     {
-     "n": "Wood & pyrography",
+     "n": "Wood blanks & burning pens",
      "k": [
       {
        "n": "Pyrography pen",
@@ -9387,7 +9373,7 @@
      ]
     }
    ],
-   "note": "Leather is organised by tannage, then tannery and named leather."
+   "note": "Leather is organised by tannage, then tannery and named leather; cane, floristry and wood blanks are sold by material."
   },
   {
    "n": "Craft tools & adhesives",
@@ -9933,7 +9919,7 @@
    ]
   },
   {
-   "n": "Scale modelling & miniature painting",
+   "n": "Model paints & hobby tools",
    "mode": "variety",
    "b": [
     {
@@ -10500,7 +10486,7 @@
      ]
     }
    ],
-   "note": "Supplies for building and painting kits and miniatures; the kits themselves live in Toys & Games."
+   "note": "Paints, adhesives, finishes and tools sold in hobby shops for plastic kits and miniatures; the kits themselves live in Toys & Games."
   }
  ]
 }
