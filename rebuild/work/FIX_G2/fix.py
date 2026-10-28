@@ -140,22 +140,21 @@ for t in tr:
 def match(x,t):
     nt=norm(t['n']); cands=[norm(x['n'])]+[norm(a) for a in (x.get('a') or '').split('·') if len(a.strip())>=5]
     return any(c and (c in nt or nt in c) for c in cands)
-used=set()
+MAP={'Wealden hall house':'Wealden hall house','Cruck framing':'Cruck house','Hebridean blackhouse':'Blackhouse','West Country cob':'Thatched cob cottage','Low German hall house':'Low German house','German Fachwerk':'Fachwerkhaus','Black Forest farmhouse':'Black Forest house','Umgebinde':'Upper Lusatian house','Albanian kulla':'Kulla','Vainakh tower building':'Vainakh residential tower','Catalan masia':'Masía','Apulian trulli':'Trullo','Pantelleria dammuso':'Dammuso','Moroccan riad':'Riad','New England Cape and saltbox':'Saltbox','Pueblo adobe':'Adobe pueblo-style house','Shotgun house':'Shotgun house','Beijing siheyuan':'Siheyuan','Fujian tulou':'Fujian tulou','Kyoto machiya':'Machiya','Japanese minka':'Minka','Korean hanok':'Hanok','Malay timber house':'Malay house','Haveli building':'Haveli','Persian windcatcher':'Wind-tower house'}
+byname={x['n']:(tk,x,sh) for tk,x,sh in vreg}
+done=set()
+for t in tr:
+    if t['n'] in MAP:
+        tk,x,sh=byname[MAP[t['n']]];t['forms']=[tk];done.add(x['n'])
 for tk,x,sh in vreg:
-    m=[i for i,t in enumerate(tr) if i not in used and (norm(x['n']) in norm(t['n']) or norm(t['n']) in norm(x['n']))]
-    if not m: m=[i for i,t in enumerate(tr) if i not in used and match(x,t) and 'wealden' not in norm(t['n'])]
-    if m:
-        i=m[0];used.add(i);tr[i]['forms']=[tk];print('REG match',x['n'],'->',tr[i]['n'])
-    else:
-        e={"n":x['n'],"g":"Vernacular architecture","r":REG[sh],"p":x.get('y',''),"d":x['d'],"tech":x.get('dt',''),"mat":"","forms":[tk],"ctr":[],"auth":"","s":x['s']}
-        tr.append(e);print('REG new',x['n'])
+    if x['n'] in done: continue
+    tr.append({"n":x['n'],"g":"Vernacular architecture","r":REG[sh],"p":x.get('y',''),"d":x['d'],"tech":x.get('dt',''),"mat":"","forms":[tk],"ctr":[],"auth":"","s":x['s']});print('REG new',x['n'])
 for t in tr:
     if t['n']=='Yaodong': t['forms']=['Earth-sheltered & cave house']
 tr+=newT
 # stale form names in leftover entries
 valid=set(K)|{'Courtyard house'}
 for t in tr:
-    t['forms']=[f for f in t.get('forms',[]) if f in valid] or t.get('forms',[])
     if not any(f in valid for f in t.get('forms',[])): print('STALE forms',t['n'],t['forms'])
 T['t']=tr
 # ---- brands
