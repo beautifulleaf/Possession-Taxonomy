@@ -7,3 +7,5 @@ step2 batch3 sourced (W&N S7, Schmincke, Posca)
 step2 batch4 sourced (DanielSmith,Maestro,polymer clay,seed beads,pastels)
 step2 batch5 sourced (S&B, brush pens, Staedtler)
 step2 sourcing done (Rowan Handknit Cotton, Effetre, torches, Clover shuttle); next step3 write archetypes
+step3 done: archetypes, new kinds, brands; validate OK
+step4 done: report written
