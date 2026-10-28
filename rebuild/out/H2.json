@@ -445,32 +445,6 @@
          ""
         ]
        ]
-      },
-      {
-       "n": "Sleep aid",
-       "a": "night-time sleep aid · sleeping tablets (non-prescription)",
-       "d": "Non-prescription medicine labelled first to help fall asleep; the same ingredient labelled first for allergy is an antihistamine.",
-       "t": [
-        "diphenhydramine",
-        "doxylamine",
-        "melatonin (where sold without prescription)",
-        "tablet · liquid · capsule"
-       ],
-       "s": "https://www.walgreens.com/store/c/productlist/sleep-aids-medicines-with-sleep-aids/N=361577-2000010581",
-       "m": [
-        [
-         "ZzzQuil",
-         "Vicks"
-        ],
-        [
-         "Nytol",
-         "Nytol"
-        ],
-        [
-         "Unisom SleepTabs",
-         "Unisom"
-        ]
-       ]
       }
      ]
     },
@@ -995,7 +969,7 @@
      ]
     },
     {
-     "n": "Quit smoking & traditional remedies",
+     "n": "Quit smoking",
      "k": [
       {
        "n": "Nicotine replacement",
@@ -1017,22 +991,6 @@
          "Nicorette"
         ],
         [
-         "Nicorette patch",
-         "Nicorette"
-        ],
-        [
-         "Nicorette QuickMist mouth spray",
-         "Nicorette"
-        ],
-        [
-         "Nicorette Inhalator",
-         "Nicorette"
-        ],
-        [
-         "Nicorette Microtab sublingual tablet",
-         "Nicorette"
-        ],
-        [
          "NicoDerm patch",
          "NicoDerm"
         ],
@@ -1049,7 +1007,12 @@
          "Nicotex"
         ]
        ]
-      },
+      }
+     ]
+    },
+    {
+     "n": "Traditional remedies",
+     "k": [
       {
        "n": "Homeopathic single remedy",
        "a": "homeopathic remedy · mono-preparation · single remedy",
@@ -1803,26 +1766,6 @@
          "BACtrack"
         ]
        ]
-      },
-      {
-       "n": "Medical app",
-       "a": "software as a medical device · SaMD · digital therapeutic",
-       "d": "Software that itself diagnoses or treats, or is cleared as a medical device; an app that only shows readings from a separate device is not this.",
-       "t": [
-        "digital contraception",
-        "digital therapeutic (prescription)"
-       ],
-       "s": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN170052",
-       "m": [
-        [
-         "Natural Cycles",
-         "Natural Cycles Nordic AB"
-        ],
-        [
-         "SleepioRx",
-         "Big Health"
-        ]
-       ]
       }
      ]
     }
@@ -2030,17 +1973,16 @@
      "n": "Braces, supports & insoles",
      "k": [
       {
-       "n": "Knee support",
-       "a": "knee brace · knee sleeve · knee stabiliser",
-       "d": "Elastic sleeve, strapped stabiliser or hinged brace worn to support a sore, unstable or injured knee.",
+       "n": "Joint support / brace",
+       "a": "knee brace · ankle brace · back brace · wrist splint · elbow strap · cervical collar · lumbar support",
+       "d": "Elastic, strapped or hinged support worn to steady or protect a joint or the spine; body part is the main variant.",
        "t": [
-        "Compression sleeve",
-        "Open-patella or patella-ring support",
-        "Strapped or side-stabilised support",
-        "Hinged brace",
-        "Patella (knee) strap",
-        "Osteoarthritis unloader brace",
-        "Post-operative range-of-motion brace"
+        "knee (sleeve, strapped, hinged, unloader)",
+        "ankle (sleeve, lace-up, stirrup, walker boot)",
+        "back (lumbar belt, rigid-stay brace, posture corrector)",
+        "wrist & hand (sleeve, splint, thumb stabiliser)",
+        "elbow (sleeve, epicondylitis strap, hinged)",
+        "neck (soft or rigid collar)"
        ],
        "s": "https://en.wikipedia.org/wiki/Knee_brace",
        "m": [
@@ -2049,15 +1991,15 @@
          "Bauerfeind"
         ],
         [
-         "GenuTrain S (hinged)",
+         "MalleoTrain",
          "Bauerfeind"
         ],
         [
-         "GenuTrain A3 (arthritis)",
+         "ManuTrain",
          "Bauerfeind"
         ],
         [
-         "GenuTrain OA (unloader)",
+         "EpiTrain",
          "Bauerfeind"
         ],
         [
@@ -2069,7 +2011,11 @@
          "FUTURO (3M)"
         ],
         [
-         "Hinged Knee Brace",
+         "Easy Adjustable Back Support",
+         "FUTURO (3M)"
+        ],
+        [
+         "Deluxe Wrist Stabilizer",
          "FUTURO (3M)"
         ],
         [
@@ -2077,192 +2023,16 @@
          "DonJoy"
         ],
         [
-         "Performance Bionic FullStop",
-         "DonJoy"
-        ],
-        [
-         "Knee Brace with Patella Support (Push Med)",
-         "Push"
-        ]
-       ]
-      },
-      {
-       "n": "Ankle support",
-       "a": "ankle brace · ankle sleeve · ankle stabiliser",
-       "d": "Sleeve, strapped or stirrup brace worn to steady the ankle after a sprain or to prevent one.",
-       "t": [
-        "Compression sleeve",
-        "Figure-8 strap brace",
-        "Lace-up brace",
-        "Stirrup (rigid-shell) brace",
-        "Walker boot (immobilising)"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Ankle_brace",
-       "m": [
-        [
-         "MalleoTrain",
-         "Bauerfeind"
-        ],
-        [
-         "MalleoTrain Plus",
-         "Bauerfeind"
-        ],
-        [
-         "MalleoLoc",
-         "Bauerfeind"
-        ],
-        [
-         "Ankle Brace 8 (Push Sports)",
-         "Push"
-        ],
-        [
-         "Aequi Flex (Push Med)",
-         "Push"
-        ],
-        [
-         "Stabilizing Pro Ankle Brace",
-         "DonJoy"
-        ],
-        [
          "Velocity ES",
          "DonJoy"
-        ],
-        [
-         "Performance Ankle Stabilizer",
-         "FUTURO (3M)"
-        ],
-        [
-         "Stirrup Ankle Brace",
-         "FUTURO (3M)"
-        ]
-       ]
-      },
-      {
-       "n": "Back support",
-       "a": "back brace · lumbar support · posture corrector",
-       "d": "Belt, brace or harness that supports the lower back or holds the shoulders back.",
-       "t": [
-        "Elastic lumbar belt",
-        "Rigid-stay lumbar brace",
-        "Posture corrector",
-        "Abdominal binder"
-       ],
-       "s": "https://www.3m.com/3M/en_US/p/d/v100558159/",
-       "m": [
-        [
-         "Easy Adjustable Back Support",
-         "FUTURO (3M)"
-        ],
-        [
-         "Comfort Stabilizing Back Support",
-         "FUTURO (3M)"
-        ],
-        [
-         "Posture Corrector",
-         "FUTURO (3M)"
         ],
         [
          "Push Med Back Brace",
          "Push"
         ],
         [
-         "Push Care Back Brace",
-         "Push"
-        ]
-       ]
-      },
-      {
-       "n": "Wrist & hand support",
-       "a": "wrist brace · wrist splint · thumb stabiliser",
-       "d": "Brace, splint or sleeve that supports the wrist, hand or thumb.",
-       "t": [
-        "Compression sleeve or glove",
-        "Splinted wrist brace",
-        "Night wrist splint",
-        "Thumb stabiliser"
-       ],
-       "s": "https://bauerfeind.us/wrist-brace-manutrain-titan-blue-2-left",
-       "m": [
-        [
-         "ManuTrain",
-         "Bauerfeind"
-        ],
-        [
-         "Deluxe Wrist Stabilizer",
-         "FUTURO (3M)"
-        ],
-        [
-         "Adjustable Night Wrist Sleep Support",
-         "FUTURO (3M)"
-        ],
-        [
-         "Deluxe Thumb Stabilizer",
-         "FUTURO (3M)"
-        ],
-        [
-         "Push Med Wrist & Hand Brace",
-         "Push"
-        ],
-        [
-         "Push Med Splint Wrist Brace",
-         "Push"
-        ]
-       ]
-      },
-      {
-       "n": "Elbow support",
-       "a": "elbow brace · tennis-elbow strap · epicondylitis clasp",
-       "d": "Brace, strap or sleeve that supports the elbow.",
-       "t": [
-        "Compression sleeve",
-        "Tennis/golfer's-elbow strap",
-        "Hinged range-of-motion elbow brace"
-       ],
-       "s": "https://www.bauerfeind.com.au/products/epitrain",
-       "m": [
-        [
-         "EpiTrain",
-         "Bauerfeind"
-        ],
-        [
-         "Tennis Elbow Strap",
-         "FUTURO (3M)"
-        ],
-        [
-         "Sport Elbow Support",
-         "FUTURO (3M)"
-        ],
-        [
-         "Push Med Epi Elbow Brace",
-         "Push"
-        ],
-        [
-         "X-Act ROM Elbow",
-         "DonJoy"
-        ]
-       ]
-      },
-      {
-       "n": "Neck support",
-       "a": "cervical collar · neck brace",
-       "d": "Soft or rigid collar that supports the neck.",
-       "t": [
-        "Soft foam collar",
-        "Rigid or adjustable collar"
-       ],
-       "s": "https://www.ottobock.com/en-gb/product/50C91",
-       "m": [
-        [
          "Smartspine Universal Collar",
          "Ottobock"
-        ],
-        [
-         "Cervical Collar",
-         "FUTURO (3M)"
-        ],
-        [
-         "Push Med Neck Brace",
-         "Push"
         ]
        ]
       },
@@ -2382,45 +2152,7 @@
         "Waterproof / activity limb",
         "Spare parts: silicone liner, socket, pylon, foot shell, cosmetic cover"
        ],
-       "s": "https://www.ottobock.com/en-in/product/3B1-3-61069",
-       "m": [
-        [
-         "C-Leg microprocessor knee (1997)",
-         "Ottobock"
-        ],
-        [
-         "Genium",
-         "Ottobock"
-        ],
-        [
-         "Rheo Knee microprocessor knee",
-         "Össur"
-        ],
-        [
-         "Power Knee motorised knee",
-         "Össur"
-        ],
-        [
-         "Proprio Foot powered foot",
-         "Össur"
-        ],
-        [
-         "Flex-Foot Cheetah running blade",
-         "Össur"
-        ],
-        [
-         "Linx integrated microprocessor limb",
-         "Blatchford"
-        ],
-        [
-         "Elan microprocessor foot",
-         "Blatchford"
-        ],
-        [
-         "Echelon foot",
-         "Blatchford"
-        ]
-       ]
+       "s": "https://www.ottobock.com/en-in/product/3B1-3-61069"
       },
       {
        "n": "Arm prosthesis",
@@ -2435,33 +2167,7 @@
         "Activity terminal device",
         "Spare parts: glove, socket, battery, charger"
        ],
-       "s": "https://www.ottobock.com/en-us/b2b-product/8E500",
-       "m": [
-        [
-         "Michelangelo Hand",
-         "Ottobock"
-        ],
-        [
-         "bebionic hand",
-         "Ottobock"
-        ],
-        [
-         "Hero Arm",
-         "Open Bionics"
-        ],
-        [
-         "Hero Pro / Hero RGD (2025)",
-         "Open Bionics"
-        ],
-        [
-         "Ability Hand",
-         "PSYONIC"
-        ],
-        [
-         "GRIP prehensile hand (TRS, 1980)",
-         "Fillauer"
-        ]
-       ]
+       "s": "https://www.ottobock.com/en-us/b2b-product/8E500"
       },
       {
        "n": "Breast prosthesis",
@@ -3515,7 +3221,7 @@
    ],
    "s": [
     {
-     "n": "Breathing & sleep apnoea",
+     "n": "Breathing & sleep",
      "k": [
       {
        "n": "CPAP machine",
@@ -3739,6 +3445,32 @@
          "Airway Management"
         ]
        ]
+      },
+      {
+       "n": "Sleep aid",
+       "a": "night-time sleep aid · sleeping tablets (non-prescription)",
+       "d": "Non-prescription medicine labelled first to help fall asleep; the same ingredient labelled first for allergy is an antihistamine.",
+       "t": [
+        "diphenhydramine",
+        "doxylamine",
+        "melatonin (where sold without prescription)",
+        "tablet · liquid · capsule"
+       ],
+       "s": "https://www.walgreens.com/store/c/productlist/sleep-aids-medicines-with-sleep-aids/N=361577-2000010581",
+       "m": [
+        [
+         "ZzzQuil",
+         "Vicks"
+        ],
+        [
+         "Nytol",
+         "Nytol"
+        ],
+        [
+         "Unisom SleepTabs",
+         "Unisom"
+        ]
+       ]
       }
      ]
     },
@@ -3931,7 +3663,7 @@
   },
   {
    "n": "Mobility aids",
-   "mode": "tier",
+   "mode": "mixed",
    "b": [
     {
      "m": "Fit to the user",
@@ -4127,6 +3859,96 @@
      ]
     },
     {
+     "n": "Collector canes",
+     "k": [
+      {
+       "n": "Collector cane",
+       "a": "antique cane · gadget cane · dress cane · system cane",
+       "d": "Walking stick owned as a fashion accessory or curiosity rather than a mobility aid; includes hidden-fitting and gadget canes.",
+       "t": [
+        "silver-topped",
+        "carved or ivory-style handle",
+        "shaft: malacca, ash, blackthorn, bamboo",
+        "folding",
+        "hidden-compartment"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Walking_stick",
+       "x": [
+        {
+         "n": "Malacca cane",
+         "a": "rattan cane",
+         "d": "Cane with a shaft of Malay rattan palm, historically the commonest cane shaft.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Swordstick",
+         "dt": "rattan shaft · sterling-silver or horn handle"
+        },
+        {
+         "n": "Swordstick",
+         "a": "sword cane",
+         "d": "Cane whose shaft is a scabbard for a concealed blade; fashionable in the 18th and 19th centuries.",
+         "mk": "",
+         "y": "18th century",
+         "s": "https://en.wikipedia.org/wiki/Swordstick",
+         "dt": "blade length · handle as hilt · shaft wood · legal status varies"
+        },
+        {
+         "n": "Gadget cane",
+         "a": "system cane",
+         "d": "Cane hiding a tool such as a compass or flask.",
+         "mk": "",
+         "y": "19th century",
+         "s": "https://en.wikipedia.org/wiki/Swordstick",
+         "dt": "compass, flask or tool fitting"
+        },
+        {
+         "n": "Tippling cane",
+         "a": "tippler",
+         "d": "Cane with a hollow compartment near the top for a flask or vial of alcohol.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Walking_stick",
+         "dt": "top compartment · stopper"
+        },
+        {
+         "n": "Penang lawyer",
+         "a": "",
+         "d": "Stick of stripped, straightened and polished Licuala palm stem.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Walking_stick",
+         "dt": "Licuala palm shaft"
+        },
+        {
+         "n": "Makila",
+         "a": "makhila",
+         "d": "Basque staff, usually medlar wood, with gold or silver fittings that may conceal a steel blade.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Walking_stick",
+         "dt": "medlar wood · metal fittings"
+        },
+        {
+         "n": "Shooting stick",
+         "a": "",
+         "d": "Stick that opens into a single-legged seat.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Walking_stick",
+         "dt": "folding seat top"
+        }
+       ],
+       "m": [],
+       "r": [
+        [
+         "Walking sticks and canes",
+         "Swaine Adeney Brigg"
+        ]
+       ]
+      }
+     ]
+    },
+    {
      "n": "Wheelchairs & scooters",
      "k": [
       {
@@ -4147,10 +3969,6 @@
         [
          "QUICKIE Nitrum",
          "Sunrise Medical"
-        ],
-        [
-         "Küschall Champion",
-         "Küschall"
         ],
         [
          "Küschall Compact",
@@ -4206,6 +4024,60 @@
          "Action",
          "Invacare"
         ]
+       ],
+       "x": [
+        {
+         "n": "Quickie",
+         "a": "Quickie rigid-frame chair",
+         "d": "Lightweight, adjustable aluminium-frame chair launched as a custom active-user wheelchair.",
+         "mk": "Sunrise Medical",
+         "y": "1980",
+         "s": "https://en.wikipedia.org/wiki/Marilyn_Hamilton",
+         "dt": "co-founded by Marilyn Hamilton, Jim Okamoto and Don Helman · aluminium frame · colour options"
+        },
+        {
+         "n": "Küschall Competition",
+         "a": "Champion 3000 (US name)",
+         "d": "Ultralight competition chair designed by Rainer Küschall, about 14 kg against the usual 25 kg.",
+         "mk": "Küschall",
+         "y": "1985",
+         "s": "https://en.wikipedia.org/wiki/Rainer_K%C3%BCschall",
+         "v": [
+          {
+           "n": "Champion 3000",
+           "mk": "Küschall",
+           "y": "",
+           "d": "US sales name"
+          }
+         ],
+         "dt": "MoMA collection, first medical device in it · rigid frame"
+        },
+        {
+         "n": "TiLite titanium rigid chair",
+         "a": "TiFit custom chair",
+         "d": "Custom ultralight rigid-frame chair, built in titanium, aluminium or carbon fibre and fitted per user.",
+         "mk": "TiLite",
+         "y": "1988",
+         "s": "https://en.wikipedia.org/wiki/TiLite",
+         "v": [
+          {
+           "n": "CrossSport",
+           "mk": "TiLite",
+           "y": "",
+           "d": "early model"
+          }
+         ],
+         "dt": "titanium, aluminium or carbon-fibre frame · TiFit measured build"
+        },
+        {
+         "n": "Everest & Jennings folding chair",
+         "a": "",
+         "d": "First lightweight, steel, folding, portable wheelchair; the first mass-market wheelchair.",
+         "mk": "",
+         "y": "1933",
+         "s": "https://en.wikipedia.org/wiki/Wheelchair",
+         "dt": "steel folding frame · 1937 patent"
+        }
        ]
       },
       {
@@ -4421,22 +4293,6 @@
          "EZ-ACCESS"
         ],
         [
-         "SUITCASE TRIFOLD Ramp",
-         "EZ-ACCESS"
-        ],
-        [
-         "GATEWAY 3G Solid Surface Portable Ramp",
-         "EZ-ACCESS"
-        ],
-        [
-         "TRANSITIONS Angled Entry Ramp",
-         "EZ-ACCESS"
-        ],
-        [
-         "PATHWAY 3G Modular Access System",
-         "EZ-ACCESS"
-        ],
-        [
          "Freedom Folding Ramp",
          "National Ramp"
         ],
@@ -4465,49 +4321,7 @@
         "hydraulic (manual pump) hoist",
         "sling"
        ],
-       "s": "https://en.wikipedia.org/wiki/Patient_lift",
-       "m": [
-        [
-         "Hoyer HPL450",
-         "Joerns Healthcare"
-        ],
-        [
-         "Oxford Mini 140",
-         "Joerns Healthcare"
-        ],
-        [
-         "Oxford Journey stand aid",
-         "Joerns Healthcare"
-        ],
-        [
-         "Birdie Evo mobile hoist",
-         "Invacare"
-        ],
-        [
-         "Reliant Electric Patient Lift",
-         "Invacare"
-        ],
-        [
-         "Hydraulic Lift for Home Use",
-         "Invacare"
-        ],
-        [
-         "Get-U-Up stand aid",
-         "Invacare"
-        ],
-        [
-         "Molift Smart 150",
-         "Etac"
-        ],
-        [
-         "Maxi Move floor lift",
-         "Arjo"
-        ],
-        [
-         "Sara Flex sit-to-stand lift",
-         "Arjo"
-        ]
-       ]
+       "s": "https://en.wikipedia.org/wiki/Patient_lift"
       },
       {
        "n": "Transfer aid",
@@ -4588,7 +4402,7 @@
      ]
     }
    ],
-   "note": "Wheelchairs and scooters cover the main makers, including active-user and powered-chair leaders."
+   "note": "Archetypes only for active wheelchairs and collector canes; the rest is tier."
   },
   {
    "n": "Daily living & care",
@@ -4614,35 +4428,6 @@
     {
      "n": "Bathroom & toilet aids",
      "k": [
-      {
-       "n": "Grab bar",
-       "a": "grab rail · bath rail · support rail",
-       "d": "Rail fixed or clamped beside a bath, shower or toilet to give a steady hand-hold.",
-       "t": [
-        "fixed wall-mounted",
-        "fold-away hinged",
-        "clamp-on bath rail",
-        "suction-mounted",
-        "floor-to-ceiling pole"
-       ],
-       "s": "https://www.drivemedical.com/bathroom-safety",
-       "m": [
-        [
-         "Sure Suction Tub and Shower Assist Bar",
-         "Rose Health Care"
-        ]
-       ],
-       "r": [
-        [
-         "Grab bars",
-         "Drive Medical"
-        ],
-        [
-         "Grab bars",
-         "Moen"
-        ]
-       ]
-      },
       {
        "n": "Shower chair",
        "a": "shower stool · shower seat · bath seat",
@@ -5327,23 +5112,34 @@
      "n": "Hearing aids",
      "k": [
       {
-       "n": "Receiver-in-canal hearing aid",
-       "a": "RIC hearing aid · RITE · RIE · miniRITE",
-       "d": "Case behind the ear with a thin wire to a receiver (speaker) in the ear canal.",
+       "n": "Hearing aid",
+       "a": "RIC hearing aid · RITE · BTE · ITE · ITC · CIC · IIC · miniRITE",
+       "d": "Prescription device worn in or behind the ear that amplifies sound for a person with hearing loss; form factor varies.",
        "t": [
+        "receiver-in-canal (RIC/RITE)",
+        "behind-the-ear (BTE, miniBTE, power BTE)",
+        "in-the-ear (full or half shell)",
+        "in-the-canal (ITC)",
+        "completely-in-canal (CIC)",
+        "invisible-in-canal (IIC)",
+        "extended-wear (placed by a professional)",
         "rechargeable",
-        "disposable battery (312 or 10)",
+        "disposable battery (312, 13, 10 or 675)",
         "CROS/BiCROS version",
-        "receiver power (standard, power, ultra power)"
+        "paediatric"
        ],
        "s": "https://www.hearingtracker.com/hearing-aids",
        "m": [
         [
-         "Phonak Audéo Sphere Infinio",
+         "Phonak Audéo Infinio",
          "Phonak"
         ],
         [
-         "Phonak Audéo Infinio",
+         "Phonak Naída Lumity",
+         "Phonak"
+        ],
+        [
+         "Phonak Virto Infinio",
          "Phonak"
         ],
         [
@@ -5351,7 +5147,19 @@
          "Oticon"
         ],
         [
+         "Oticon Xceed",
+         "Oticon"
+        ],
+        [
+         "Oticon Zeal",
+         "Oticon"
+        ],
+        [
          "ReSound Vivia",
+         "ReSound"
+        ],
+        [
+         "ReSound Enzo IA",
          "ReSound"
         ],
         [
@@ -5359,7 +5167,7 @@
          "Signia (hearing aids)"
         ],
         [
-         "Signia Styletto IX",
+         "Signia Insio IX",
          "Signia (hearing aids)"
         ],
         [
@@ -5367,11 +5175,15 @@
          "Widex"
         ],
         [
-         "Widex Allure",
+         "Widex Moment CIC",
          "Widex"
         ],
         [
          "Starkey Omega AI mRIC R",
+         "Starkey Hearing"
+        ],
+        [
+         "Starkey Omega AI ITE R",
          "Starkey Hearing"
         ]
        ],
@@ -5382,10 +5194,6 @@
         ],
         [
          "Intent (1 Premium – 4 Essential)",
-         "Oticon"
-        ],
-        [
-         "Real (1 · 2 · 3)",
          "Oticon"
         ],
         [
@@ -5401,198 +5209,7 @@
          "ReSound"
         ],
         [
-         "Nexia (9 · 7 · 5)",
-         "ReSound"
-        ],
-        [
-         "Sensia (9 · 7 · 5 · 4)",
-         "ReSound"
-        ],
-        [
          "Omega AI (24 · 20 · 16)",
-         "Starkey Hearing"
-        ],
-        [
-         "Edge AI (24 · 20 · 16)",
-         "Starkey Hearing"
-        ]
-       ]
-      },
-      {
-       "n": "Behind-the-ear hearing aid",
-       "a": "BTE hearing aid · miniBTE · super power BTE",
-       "d": "Case behind the ear with a tube to an ear mould or dome; the style used for children and severe to profound loss.",
-       "t": [
-        "mini BTE",
-        "power / super power BTE",
-        "slim-tube",
-        "rechargeable",
-        "disposable battery (13 or 675)",
-        "paediatric"
-       ],
-       "s": "https://www.hearingtracker.com/hearing-aids",
-       "m": [
-        [
-         "Oticon Intent miniBTE R",
-         "Oticon"
-        ],
-        [
-         "Oticon Xceed",
-         "Oticon"
-        ],
-        [
-         "ReSound Enzo IA",
-         "ReSound"
-        ],
-        [
-         "Phonak Naída Lumity",
-         "Phonak"
-        ],
-        [
-         "Signia Motion Charge&Go X",
-         "Signia (hearing aids)"
-        ],
-        [
-         "Starkey Evolv AI BTE R",
-         "Starkey Hearing"
-        ]
-       ],
-       "r": [
-        [
-         "Xceed (super power, 3 levels)",
-         "Oticon"
-        ],
-        [
-         "Naída",
-         "Phonak"
-        ],
-        [
-         "Sky (paediatric)",
-         "Phonak"
-        ],
-        [
-         "Enzo",
-         "ReSound"
-        ],
-        [
-         "Motion Charge&Go",
-         "Signia (hearing aids)"
-        ],
-        [
-         "Evolv AI (2400 · 2000 · 1600 · 1200 · 1000)",
-         "Starkey Hearing"
-        ]
-       ]
-      },
-      {
-       "n": "In-the-ear hearing aid",
-       "a": "ITE hearing aid · full shell · half shell",
-       "d": "Custom shell that fills the bowl of the outer ear.",
-       "t": [
-        "full shell",
-        "half shell",
-        "rechargeable",
-        "disposable battery (312 or 13)"
-       ],
-       "s": "https://www.hearingtracker.com/hearing-aids",
-       "m": [
-        [
-         "Starkey Omega AI ITE R",
-         "Starkey Hearing"
-        ],
-        [
-         "Widex Moment ITE",
-         "Widex"
-        ],
-        [
-         "Signia Insio Charge&Go AX",
-         "Signia (hearing aids)"
-        ]
-       ],
-       "r": [
-        [
-         "Own (5 levels)",
-         "Oticon"
-        ],
-        [
-         "Nexia custom",
-         "ReSound"
-        ],
-        [
-         "Virto R Infinio",
-         "Phonak"
-        ],
-        [
-         "Signature Series",
-         "Starkey Hearing"
-        ]
-       ]
-      },
-      {
-       "n": "In-the-canal hearing aid",
-       "a": "canal hearing aid · ITC · CIC · IIC",
-       "d": "Custom device sitting in or deep in the ear canal; ITC, CIC and IIC are the shell styles.",
-       "t": [
-        "in-the-canal (ITC)",
-        "completely-in-canal (CIC)",
-        "invisible-in-canal (IIC)",
-        "instant-fit (non-custom) CIC",
-        "extended-wear (placed by a professional)"
-       ],
-       "s": "https://www.hearingtracker.com/hearing-aids",
-       "m": [
-        [
-         "Phonak Virto Infinio",
-         "Phonak"
-        ],
-        [
-         "Starkey Omega AI CIC",
-         "Starkey Hearing"
-        ],
-        [
-         "Signia Insio IX",
-         "Signia (hearing aids)"
-        ],
-        [
-         "Signia Silk Charge&Go IX",
-         "Signia (hearing aids)"
-        ],
-        [
-         "Oticon Own SI",
-         "Oticon"
-        ],
-        [
-         "Oticon Zeal",
-         "Oticon"
-        ],
-        [
-         "Phonak Lyric 4",
-         "Phonak"
-        ],
-        [
-         "Widex Moment CIC",
-         "Widex"
-        ]
-       ],
-       "r": [
-        [
-         "Own (ITC; Own SI in CIC and IIC)",
-         "Oticon"
-        ],
-        [
-         "Virto Infinio",
-         "Phonak"
-        ],
-        [
-         "Insio IX",
-         "Signia (hearing aids)"
-        ],
-        [
-         "Nexia custom",
-         "ReSound"
-        ],
-        [
-         "Signature Series",
          "Starkey Hearing"
         ]
        ]
@@ -5665,75 +5282,7 @@
         "transcutaneous bone-conduction processor",
         "non-surgical bone-conduction device"
        ],
-       "s": "https://en.wikipedia.org/wiki/Cochlear_implant",
-       "m": [
-        [
-         "Nucleus 8",
-         "Cochlear"
-        ],
-        [
-         "Kanso 2",
-         "Cochlear"
-        ],
-        [
-         "Baha 6 Max",
-         "Cochlear"
-        ],
-        [
-         "Osia 2",
-         "Cochlear"
-        ],
-        [
-         "SONNET 3",
-         "MED-EL"
-        ],
-        [
-         "RONDO 3",
-         "MED-EL"
-        ],
-        [
-         "SAMBA 2",
-         "MED-EL"
-        ],
-        [
-         "ADHEAR",
-         "MED-EL"
-        ],
-        [
-         "Naída CI M",
-         "Advanced Bionics"
-        ],
-        [
-         "Sky CI M",
-         "Advanced Bionics"
-        ],
-        [
-         "Ponto",
-         "Oticon Medical"
-        ]
-       ],
-       "r": [
-        [
-         "Nucleus",
-         "Cochlear"
-        ],
-        [
-         "Baha · Osia",
-         "Cochlear"
-        ],
-        [
-         "SONNET · RONDO",
-         "MED-EL"
-        ],
-        [
-         "Marvel CI (Naída CI M, Sky CI M)",
-         "Advanced Bionics"
-        ],
-        [
-         "Ponto",
-         "Oticon Medical"
-        ]
-       ]
+       "s": "https://en.wikipedia.org/wiki/Cochlear_implant"
       },
       {
        "n": "Hearing-aid spare parts",
@@ -5854,27 +5403,7 @@
          "Bellman & Symfon"
         ],
         [
-         "Alarm Clock Pro",
-         "Bellman & Symfon"
-        ],
-        [
-         "Flash Receiver",
-         "Bellman & Symfon"
-        ],
-        [
-         "Door Transmitter",
-         "Bellman & Symfon"
-        ],
-        [
-         "Smoke Alarm transmitter",
-         "Bellman & Symfon"
-        ],
-        [
          "Sonic Bomb Alarm Clock with Super Shaker",
-         "Sonic Alert"
-        ],
-        [
-         "Sonic Shaker SBP200",
          "Sonic Alert"
         ]
        ]
@@ -5937,87 +5466,7 @@
         "coating: photochromic (e.g. Transitions)",
         "coating: polarised · tint · mirror"
        ],
-       "s": "https://essilorpro.com/resources/varilux",
-       "m": [
-        [
-         "Varilux XR series",
-         "Essilor"
-        ],
-        [
-         "Varilux Comfort Max",
-         "Essilor"
-        ],
-        [
-         "Varilux Physio",
-         "Essilor"
-        ],
-        [
-         "Progressive SmartLife Individual 3",
-         "Zeiss"
-        ],
-        [
-         "Hoyalux iD MyStyle V+",
-         "Hoya"
-        ],
-        [
-         "Hoyalux iD LifeStyle 4",
-         "Hoya"
-        ],
-        [
-         "Impression FreeSign 3",
-         "Rodenstock"
-        ],
-        [
-         "SeeMax Ultimate Z",
-         "Nikon"
-        ],
-        [
-         "MiYOSMART",
-         "Hoya"
-        ],
-        [
-         "Crizal Sapphire HR",
-         "Essilor"
-        ],
-        [
-         "Transitions GEN S",
-         "Transitions Optical"
-        ]
-       ],
-       "r": [
-        [
-         "Varilux",
-         "Essilor"
-        ],
-        [
-         "Crizal",
-         "Essilor"
-        ],
-        [
-         "SmartLife",
-         "Zeiss"
-        ],
-        [
-         "DuraVision",
-         "Zeiss"
-        ],
-        [
-         "Hoyalux iD",
-         "Hoya"
-        ],
-        [
-         "Impression",
-         "Rodenstock"
-        ],
-        [
-         "SeeMax",
-         "Nikon"
-        ],
-        [
-         "Transitions",
-         "Transitions Optical"
-        ]
-       ]
+       "s": "https://essilorpro.com/resources/varilux"
       },
       {
        "n": "Soft contact lens",
@@ -6652,22 +6101,6 @@
          "Glyde (dental dams)"
         ]
        ]
-      },
-      {
-       "n": "Delay spray",
-       "a": "desensitising spray",
-       "d": "Topical anaesthetic spray applied to the penis to reduce sensitivity and delay ejaculation.",
-       "s": "https://www.stud100.com/",
-       "m": [
-        [
-         "Promescent Delay Spray",
-         "Promescent"
-        ],
-        [
-         "STUD 100",
-         "STUD 100"
-        ]
-       ]
       }
      ]
     },
@@ -6693,35 +6126,7 @@
          "Clearblue"
         ],
         [
-         "Clearblue Digital Pregnancy Test with Conception Indicator (Weeks Indicator)",
-         "Clearblue"
-        ],
-        [
-         "Clearblue Digital Ultra Early Pregnancy Test",
-         "Clearblue"
-        ],
-        [
-         "Clearblue Early Detection",
-         "Clearblue"
-        ],
-        [
-         "Clearblue Plus Pregnancy Test",
-         "Clearblue"
-        ],
-        [
          "First Response Early Result Pregnancy Test",
-         "First Response"
-        ],
-        [
-         "First Response Digital Pregnancy Test",
-         "First Response"
-        ],
-        [
-         "First Response Rapid Result Pregnancy Test",
-         "First Response"
-        ],
-        [
-         "First Response Triple Check",
          "First Response"
         ],
         [
@@ -7116,6 +6521,22 @@
        "a": "Penile extender (medical)",
        "d": "Device worn to apply steady stretch to the penis, sold for Peyronie's disease or to preserve length after surgery.",
        "s": "https://osbon.ca/"
+      },
+      {
+       "n": "Delay spray",
+       "a": "desensitising spray",
+       "d": "Topical anaesthetic spray applied to the penis to reduce sensitivity and delay ejaculation.",
+       "s": "https://www.stud100.com/",
+       "m": [
+        [
+         "Promescent Delay Spray",
+         "Promescent"
+        ],
+        [
+         "STUD 100",
+         "STUD 100"
+        ]
+       ]
       }
      ]
     }
