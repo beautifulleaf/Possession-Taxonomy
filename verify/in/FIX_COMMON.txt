@@ -9,3 +9,5 @@ Follow /home/user/Possession-Taxonomy/verify/in/AUD2_COMMON.txt exactly (RESUME 
 - Never delete brand-register entries just because no item links to them (the register is harvested from brand lists on purpose); do fix wrong segments, duplicates and mis-filed people (perfumers, designers) as the findings say.
 - Removing models for the scope rule (trade/institutional equipment) is allowed: keep the kind, drop its models/ranges.
 - Report file: rebuild/out/FIX_<CODE>_report.md (≤ 300 words): each finding code → done / partly / skipped (why); counts before → after.
+- Cross-category duplicates: remove an item from your category only if RULES.md clearly homes it in the other category (e.g. built-in features → G3 Home Fixtures; movables → Home domain); otherwise keep it and note the duplicate in your report. Never add an item to another category yourself — use _moves.json.
+- Two questions are waiting for the owner and must be left exactly as they are: (1) whether fixed lights (recessed downlights, track lighting, under-cabinet lights) move from B3 to G3; (2) whether door and window locks belong in G3 or B8.
