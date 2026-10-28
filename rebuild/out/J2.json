@@ -22,6 +22,11 @@
    "m": "Freshness and handling",
    "v": "live › day-boat fresh › frozen-at-sea › refreshed (thawed)",
    "w": "Fishmonger and retail labelling; sashimi grade needs freezing or super-fresh handling."
+  },
+  {
+   "m": "Tuna cut and sashimi grade",
+   "v": "akami (lean) · chutoro (medium fat) · otoro (fattiest) · saku block · loin · sashimi grade",
+   "w": "Japanese cut names used on raw tuna labels, applied across bluefin, yellowfin and bigeye."
   }
  ],
  "depts": [
@@ -159,8 +164,8 @@
          "v": []
         },
         {
-         "n": "みやぎサーモン",
-         "a": "Miyagi Salmon",
+         "n": "Miyagi Salmon",
+         "a": "みやぎサーモン · Miyagi salmon · Miyagi sāmon",
          "d": "Farmed coho salmon from Miyagi Prefecture, ikejime-killed for freshness and eaten raw; Japanese GI no. 31, registered 26 May 2017.",
          "mk": "",
          "y": "2017",
@@ -298,7 +303,7 @@
       {
        "n": "Tuna",
        "a": "katsuo · mebachi · white tuna · maguro",
-       "d": "Raw tuna of the genus Thunnus and related small tunas, sold whole, as loins, steaks or sashimi blocks.",
+       "d": "Raw tuna of the genus Thunnus and related small tunas, sold whole, as loins, steaks or sashimi blocks (cut grades are listed under the department criteria).",
        "t": [
         "bluefin",
         "yellowfin",
@@ -307,17 +312,23 @@
         "skipjack",
         "bonito",
         "small tunas (blackfin, longtail/tongol, frigate, bullet)",
-        "loin",
-        "saku block",
-        "akami",
-        "chutoro",
-        "otoro",
-        "sashimi grade",
         "pole-and-line caught",
         "longline caught",
         "ranched"
        ],
-       "s": "https://www.weee.com/en/grocery-near-me/lang-en/explore/tuna"
+       "s": "https://www.weee.com/en/grocery-near-me/lang-en/explore/tuna",
+       "x": [
+        {
+         "n": "Ōma tuna",
+         "a": "Oma maguro · 大間マグロ",
+         "d": "Bluefin tuna landed at Ōma, Aomori, caught by hand in two-person boats and sold under the registered Ōma brand.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Oma,_Aomori",
+         "v": [],
+         "dt": "bluefin · hand-caught · Aomori"
+        }
+       ]
       },
       {
        "n": "Mackerel & horse mackerel",
@@ -339,7 +350,29 @@
          ""
         ]
        ],
-       "s": "https://www.weee.com/en/grocery-near-me/lang-en/explore/frozen-fish"
+       "s": "https://www.weee.com/en/grocery-near-me/lang-en/explore/frozen-fish",
+       "x": [
+        {
+         "n": "Seki-aji",
+         "a": "Sekiaji · 関あじ",
+         "d": "Horse mackerel (aji) caught by one-hook fishing in the Hōyo Strait off Saganoseki, Oita; the cooperative tags only fish caught and delivered properly.",
+         "mk": "",
+         "y": "",
+         "s": "https://oitaisan.com/english/heritage/sekiajisekisaba",
+         "v": [],
+         "dt": "one-hook caught · live-well transport · brand tag"
+        },
+        {
+         "n": "Seki-saba",
+         "a": "Sekisaba · 関さば",
+         "d": "Mackerel (saba) caught by one-hook fishing in the Hōyo Strait off Saganoseki, Oita; sold with the cooperative's brand tag.",
+         "mk": "",
+         "y": "",
+         "s": "https://oitaisan.com/english/heritage/sekiajisekisaba",
+         "v": [],
+         "dt": "one-hook caught · live-well transport · brand tag"
+        }
+       ]
       },
       {
        "n": "Herring",
@@ -1694,29 +1727,15 @@
        "s": "https://www.weee.com/en/grocery-near-me/lang-en/explore/whelk-shellfish"
       },
       {
-       "n": "Periwinkle",
-       "a": "winkle",
-       "d": "Small sea snail Littorina littorea and relatives sold for eating, whole in the shell or as meat.",
+       "n": "Sea & freshwater snails",
+       "a": "periwinkle · winkle · conch · top shell · mud snail · apple snail",
+       "d": "Sea and freshwater snails other than whelk sold for eating, whole in the shell or as meat.",
        "t": [
-        "in shell",
-        "cooked meat"
-       ],
-       "s": "https://www.weee.com/en/grocery-near-me/lang-en/explore/frozen-snails"
-      },
-      {
-       "n": "Conch",
-       "a": "queen conch",
-       "d": "Large sea snail of the conch family (Strombidae, queen conch) sold as meat for eating.",
-       "t": [
-        "frozen meat"
-       ],
-       "s": "https://www.seafoodwatch.org/globalassets/sfw/pdf/whats-new/seafood-watch-complete-recommendation-list.pdf"
-      },
-      {
-       "n": "Top shell",
-       "a": "top snail · turban shell",
-       "d": "Sea snail of the top-shell or turban-shell families sold for eating, whole or as meat.",
-       "t": [
+        "periwinkle",
+        "queen conch (frozen meat)",
+        "top shell (turban shell)",
+        "mud snail (field snail)",
+        "apple snail (freshwater)",
         "in shell",
         "meat"
        ],
@@ -1735,26 +1754,6 @@
         "tinned"
        ],
        "s": "https://souschef.co.uk/products/sabarot-extra-large-burgundy-snails"
-      },
-      {
-       "n": "Mud snail",
-       "a": "field snail",
-       "d": "Small mud or field snail (Bullacta and freshwater relatives) sold plain for eating, whole or as meat.",
-       "t": [
-        "whole",
-        "meat"
-       ],
-       "s": "https://www.weee.com/en/grocery-near-me/lang-en/explore/frozen-snails"
-      },
-      {
-       "n": "Apple snail",
-       "a": "",
-       "d": "Large freshwater snail of Pila or Pomacea sold for eating, whole or as meat.",
-       "t": [
-        "whole",
-        "meat"
-       ],
-       "s": "https://www.weee.com/en/grocery-near-me/lang-en/explore/frozen-snails"
       }
      ]
     },
@@ -2615,6 +2614,18 @@
          "Ecofood Smoked Eel in Olive Oil",
          "EcoFood"
         ]
+       ],
+       "x": [
+        {
+         "n": "Comur eel in pickled sauce",
+         "a": "enguias em escabeche",
+         "d": "Eels in pickled sauce, the regional product that became the calling card of Comur of Murtosa, near Aveiro.",
+         "mk": "Comur",
+         "y": "1942",
+         "s": "https://app.ckbk.com/section/best16392c09s001/comur",
+         "v": [],
+         "dt": "pickled sauce · tin"
+        }
        ]
       }
      ]
@@ -3186,8 +3197,8 @@
        "s": "https://www.maff.go.jp/j/shokusan/gi_act/register/0045/index.html",
        "x": [
         {
-         "n": "若狭小浜小鯛ささ漬",
-         "a": "Wakasa Obama kodai sasazuke GI",
+         "n": "Wakasa Obama small sea bream sasazuke",
+         "a": "若狭小浜小鯛ささ漬 · Wakasa Obama kodai sasazuke · Wakasa Obama kodai sasazuke GI",
          "d": "Small Sea of Japan sea bream fillets lightly salted and cured in vinegar, packed in barrels; Japanese GI registered 10 November 2017.",
          "mk": "",
          "y": "2017",
@@ -3562,50 +3573,163 @@
      "n": "Sturgeon caviar",
      "k": [
       {
-       "n": "Beluga caviar",
-       "a": "Huso huso",
-       "d": "Roe of the beluga sturgeon Huso huso, sold as grain caviar.",
+       "n": "Sturgeon caviar",
+       "a": "black caviar · caviar",
+       "d": "Salted roe of sturgeon species, sold as separate grains or pressed, listed by species with caviar houses as versions.",
        "t": [
-        "grade 0 (darkest)",
-        "grade 00",
-        "grade 000 (lightest, royal)",
         "malossol",
-        "farmed"
+        "farmed",
+        "pressed (payusnaya, mixed species)"
        ],
        "s": "https://olmafood.com/store/beluga-caviar/",
        "x": [
         {
-         "n": "Petrossian Beluga Royal",
-         "a": "",
-         "d": "Beluga caviar from the Paris house founded 1920, described as its most sought-after caviar.",
-         "mk": "Petrossian",
-         "y": "1920",
-         "s": "https://www.petrossian.fr/en/pages/lhistoire-de-la-maison",
-         "dt": "grain caviar",
+         "n": "Beluga (Huso huso)",
+         "a": "Huso huso",
+         "d": "Roe of the beluga sturgeon Huso huso, sold as grain caviar.",
+         "mk": "",
+         "y": "",
+         "s": "https://olmafood.com/store/beluga-caviar/",
          "v": [
           {
-           "n": "Petrossian Beluga Caviar",
+           "n": "Petrossian Beluga Royal",
            "mk": "Petrossian",
-           "y": "",
-           "d": "old data"
+           "y": "1920",
+           "d": "Beluga caviar from the Paris house founded 1920, described as its most sought-after caviar."
           },
           {
-           "n": "Petrossian Beluga Royal Caviar",
-           "mk": "Petrossian",
-           "y": "",
-           "d": "old data"
+           "n": "Sturia Beluga",
+           "mk": "Sturia",
+           "y": "2020",
+           "d": "First 100% French beluga caviar, produced by Sturia in 2020; beluga females mature at about 15 years."
           }
-         ]
+         ],
+         "dt": "grade 0 (darkest) · grade 00 · grade 000 (lightest, royal) · malossol · farmed"
         },
         {
-         "n": "Sturia Beluga",
+         "n": "Osetra (Acipenser gueldenstaedtii)",
+         "a": "ossetra · oscietra · Acipenser gueldenstaedtii",
+         "d": "Roe of Acipenser gueldenstaedtii or A. persicus (osetra sturgeon), sold as grain caviar; Siberian and hybrid sturgeon caviars are listed separately.",
+         "mk": "",
+         "y": "",
+         "s": "https://olmafood.com/store/beluga-caviar/",
+         "v": [
+          {
+           "n": "Petrossian Ossetra Tsar Impérial",
+           "mk": "Petrossian",
+           "y": "1920",
+           "d": "Petrossian's flagship ossetra, described as an extremely sensual caviar."
+          },
+          {
+           "n": "Sturia Oscietra",
+           "mk": "Sturia",
+           "y": "",
+           "d": "French farmed Oscietra (Gueldenstaedtii) with grains at least 2.7 mm; females mature at about 9 years."
+          },
+          {
+           "n": "Tsar Nicoulai California Estate Osetra",
+           "mk": "Tsar Nicoulai",
+           "y": "",
+           "d": "Osetra from a California Central Valley aquafarm, in Select and Reserve grades."
+          },
+          {
+           "n": "Riofrío organic caviar",
+           "mk": "Riofrío",
+           "y": "2021",
+           "d": "Organic caviar from Loja, Granada, from sturgeon including Osetra; the farm claims the first organic certification and is owned by Osborne since 2021."
+          }
+         ],
+         "dt": "brownish grey to golden · imperial · royal · malossol · farmed"
+        },
+        {
+         "n": "Sevruga (Acipenser stellatus)",
+         "a": "Acipenser stellatus · stellate sturgeon",
+         "d": "Roe of the sevruga sturgeon Acipenser stellatus, sold as grain caviar.",
+         "mk": "",
+         "y": "",
+         "s": "https://olmafood.com/store/beluga-caviar/",
+         "v": [],
+         "dt": "small dark grey grain · malossol · farmed"
+        },
+        {
+         "n": "Kaluga (Huso dauricus)",
+         "a": "Huso dauricus · river beluga",
+         "d": "Roe of the kaluga sturgeon Huso dauricus, sold as grain caviar.",
+         "mk": "",
+         "y": "",
+         "s": "https://olmafood.com/product-category/black-caviar/kaluga-royal-caviar/",
+         "v": [
+          {
+           "n": "Kaluga Queen",
+           "mk": "Hangzhou Qiandaohu Xunlong",
+           "y": "2005",
+           "d": "Chinese caviar brand of Hangzhou Qiandaohu Xunlong, farmed in Qiandao Lake and called the world's largest caviar producer, about 60 tonnes a year."
+          }
+         ],
+         "dt": "farmed · malossol"
+        },
+        {
+         "n": "Baerii (Siberian sturgeon)",
+         "a": "Baerii · Acipenser baerii · Siberian osetra",
+         "d": "Roe of the Siberian sturgeon Acipenser baerii, sold as grain caviar.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.petrossian.fr/en-eu/collections/sevruga-caviar",
+         "v": [
+          {
+           "n": "Caviar d'Aquitaine",
+           "mk": "Sturia",
+           "y": "2013",
+           "d": "French farmed Siberian sturgeon caviar; collective trademark started by Sturia in 2013 with an IGP in preparation, grains at least 2.5 mm."
+          },
+          {
+           "n": "Black River Caviar",
+           "mk": "Black River Caviar",
+           "y": "1995",
+           "d": "Uruguayan caviar from Siberian sturgeon eggs imported from Russia in 1995, raised in the Rio Negro on organic feed."
+          }
+         ],
+         "dt": "dark brown · farmed · malossol"
+        },
+        {
+         "n": "White sturgeon (Acipenser transmontanus)",
+         "a": "Acipenser transmontanus · California caviar",
+         "d": "Roe of the white sturgeon Acipenser transmontanus, sold as grain caviar.",
+         "mk": "",
+         "y": "",
+         "s": "https://shop.islandcreekoysters.com/products/tsar-nicoulai-white-sturgeon-caviar-from-wilton-ca",
+         "v": [],
+         "dt": "farmed · California"
+        },
+        {
+         "n": "Amur sturgeon (Acipenser schrenckii)",
+         "a": "Acipenser schrenckii · schrenckii",
+         "d": "Roe of the Amur sturgeon Acipenser schrenckii, sold as grain caviar.",
+         "mk": "",
+         "y": "",
+         "s": "https://brownetrading.com/products/imperial-schrenckii-amur-caviar",
+         "v": [],
+         "dt": "farmed"
+        },
+        {
+         "n": "Hybrid sturgeon",
          "a": "",
-         "d": "First 100% French beluga caviar, produced by Sturia in 2020; beluga females mature at about 15 years.",
-         "mk": "Sturia",
-         "y": "2020",
-         "s": "https://www.fineandwild.com/blogs/recipes/sturia-a-unique-and-ethically-responsible-caviar-giant",
-         "dt": "grains 3 to 4 mm · grey",
-         "v": []
+         "d": "Roe of farmed sturgeon crosses (Huso dauricus x Acipenser schrenckii, Huso huso x A. ruthenus and others), sold as grain caviar.",
+         "mk": "",
+         "y": "",
+         "s": "https://bakucaviar.az",
+         "v": [],
+         "dt": "farmed"
+        },
+        {
+         "n": "Sterlet (Acipenser ruthenus)",
+         "a": "Acipenser ruthenus",
+         "d": "Roe of the sterlet Acipenser ruthenus, sold as small-grain caviar.",
+         "mk": "",
+         "y": "",
+         "s": "https://olmafood.com/product-category/black-caviar/sterlet-caviar/",
+         "v": [],
+         "dt": "farmed"
         }
        ],
        "m": [
@@ -3624,102 +3748,7 @@
         [
          "Rova Caviar",
          "Acipenser (Rova Caviar Madagascar)"
-        ]
-       ]
-      },
-      {
-       "n": "Osetra caviar",
-       "a": "ossetra · oscietra · Acipenser gueldenstaedtii",
-       "d": "Roe of Acipenser gueldenstaedtii or A. persicus (osetra sturgeon), sold as grain caviar; Siberian and hybrid sturgeon caviars are listed separately.",
-       "t": [
-        "brownish grey to golden",
-        "imperial",
-        "royal",
-        "malossol",
-        "farmed"
-       ],
-       "s": "https://olmafood.com/store/beluga-caviar/",
-       "x": [
-        {
-         "n": "Petrossian Ossetra Tsar Impérial",
-         "a": "",
-         "d": "Petrossian's flagship ossetra, described as an extremely sensual caviar.",
-         "mk": "Petrossian",
-         "y": "1920",
-         "s": "https://www.petrossian.fr/en/pages/lhistoire-de-la-maison",
-         "dt": "",
-         "v": [
-          {
-           "n": "Petrossian Ossetra Caviar",
-           "mk": "Petrossian",
-           "y": "",
-           "d": "old data"
-          },
-          {
-           "n": "Petrossian Ossetra Tsar Impérial Caviar",
-           "mk": "Petrossian",
-           "y": "",
-           "d": "old data"
-          },
-          {
-           "n": "Petrossian Spécial Réserve Ossetra Caviar",
-           "mk": "Petrossian",
-           "y": "",
-           "d": "old data"
-          }
-         ]
-        },
-        {
-         "n": "Sturia Oscietra",
-         "a": "",
-         "d": "French farmed Oscietra (Gueldenstaedtii) with grains at least 2.7 mm; females mature at about 9 years.",
-         "mk": "Sturia",
-         "y": "",
-         "s": "https://www.fineandwild.com/blogs/recipes/sturia-a-unique-and-ethically-responsible-caviar-giant",
-         "dt": "charcoal to black fish",
-         "v": []
-        },
-        {
-         "n": "Tsar Nicoulai California Estate Osetra",
-         "a": "",
-         "d": "Osetra from a California Central Valley aquafarm, in Select and Reserve grades.",
-         "mk": "Tsar Nicoulai",
-         "y": "",
-         "s": "https://www.enjoyfoiegras.com/info/caviar.html",
-         "dt": "Select · Reserve · Estate",
-         "v": [
-          {
-           "n": "California Estate Osetra",
-           "mk": "Tsar Nicoulai",
-           "y": "",
-           "d": "base grade"
-          },
-          {
-           "n": "Select California Estate Osetra",
-           "mk": "Tsar Nicoulai",
-           "y": "",
-           "d": "mid grade"
-          },
-          {
-           "n": "Reserve California Estate Osetra",
-           "mk": "Tsar Nicoulai",
-           "y": "",
-           "d": "top grade"
-          }
-         ]
-        },
-        {
-         "n": "Riofrío organic caviar",
-         "a": "",
-         "d": "Organic caviar from Loja, Granada, from sturgeon including Osetra; the farm claims the first organic certification and is owned by Osborne since 2021.",
-         "mk": "Riofrío",
-         "y": "2021",
-         "s": "https://www.foodswinesfromspain.com/en/food/articles/2023/january/caviar-black-gold-made-in-spain",
-         "dt": "traditional, organic and Russian-style",
-         "v": []
-        }
-       ],
-       "m": [
+        ],
         [
          "Calvisius Ars Italica Calvisius Osetra",
          "Agroittica Lombarda"
@@ -3745,23 +3774,6 @@
          "Caviar House & Prunier"
         ],
         [
-         "Rova Caviar",
-         "Acipenser (Rova Caviar Madagascar)"
-        ]
-       ]
-      },
-      {
-       "n": "Sevruga caviar",
-       "a": "Acipenser stellatus · stellate sturgeon",
-       "d": "Roe of the sevruga sturgeon Acipenser stellatus, sold as grain caviar.",
-       "t": [
-        "small dark grey grain",
-        "malossol",
-        "farmed"
-       ],
-       "s": "https://olmafood.com/store/beluga-caviar/",
-       "m": [
-        [
          "Baku Caviar Sevruga",
          "Azerbaijan Fish Farm LLC"
         ],
@@ -3774,131 +3786,13 @@
          "Petrossian"
         ],
         [
-         "Rova Caviar",
-         "Acipenser (Rova Caviar Madagascar)"
-        ]
-       ]
-      },
-      {
-       "n": "Kaluga caviar",
-       "a": "Huso dauricus · river beluga",
-       "d": "Roe of the kaluga sturgeon Huso dauricus, sold as grain caviar.",
-       "t": [
-        "farmed",
-        "malossol"
-       ],
-       "s": "https://olmafood.com/product-category/black-caviar/kaluga-royal-caviar/",
-       "x": [
-        {
-         "n": "Kaluga Queen",
-         "a": "",
-         "d": "Chinese caviar brand of Hangzhou Qiandaohu Xunlong, farmed in Qiandao Lake and called the world's largest caviar producer, about 60 tonnes a year.",
-         "mk": "Hangzhou Qiandaohu Xunlong",
-         "y": "2005",
-         "s": "https://en.wikipedia.org/wiki/Kaluga_Queen",
-         "dt": "brand created 2005 · five sturgeon species farmed",
-         "v": []
-        }
-       ],
-       "m": [
-        [
          "Kaluga Royal Caviar",
          "OLMA Caviar"
-        ]
-       ]
-      },
-      {
-       "n": "Siberian sturgeon caviar",
-       "a": "Baerii · Acipenser baerii · Siberian osetra",
-       "d": "Roe of the Siberian sturgeon Acipenser baerii, sold as grain caviar.",
-       "t": [
-        "dark brown",
-        "farmed",
-        "malossol"
-       ],
-       "s": "https://www.petrossian.fr/en-eu/collections/sevruga-caviar",
-       "x": [
-        {
-         "n": "Caviar d'Aquitaine",
-         "a": "Sturia Baerii",
-         "d": "French farmed Siberian sturgeon caviar; collective trademark started by Sturia in 2013 with an IGP in preparation, grains at least 2.5 mm.",
-         "mk": "Sturia",
-         "y": "2013",
-         "s": "https://www.fineandwild.com/blogs/recipes/sturia-a-unique-and-ethically-responsible-caviar-giant",
-         "dt": "Baerii · dark brown · females mature at about 7 years",
-         "v": []
-        },
-        {
-         "n": "Black River Caviar",
-         "a": "",
-         "d": "Uruguayan caviar from Siberian sturgeon eggs imported from Russia in 1995, raised in the Rio Negro on organic feed.",
-         "mk": "Black River Caviar",
-         "y": "1995",
-         "s": "https://www.enjoyfoiegras.com/info/caviar.html",
-         "dt": "malossol",
-         "v": []
-        }
-       ],
-       "m": [
-        [
-         "Siberian osetra",
-         ""
-        ]
-       ]
-      },
-      {
-       "n": "White sturgeon caviar",
-       "a": "Acipenser transmontanus · California caviar",
-       "d": "Roe of the white sturgeon Acipenser transmontanus, sold as grain caviar.",
-       "t": [
-        "farmed",
-        "California"
-       ],
-       "s": "https://shop.islandcreekoysters.com/products/tsar-nicoulai-white-sturgeon-caviar-from-wilton-ca"
-      },
-      {
-       "n": "Amur sturgeon caviar",
-       "a": "Acipenser schrenckii · schrenckii",
-       "d": "Roe of the Amur sturgeon Acipenser schrenckii, sold as grain caviar.",
-       "t": [
-        "farmed"
-       ],
-       "s": "https://brownetrading.com/products/imperial-schrenckii-amur-caviar"
-      },
-      {
-       "n": "Hybrid sturgeon caviar",
-       "a": "",
-       "d": "Roe of farmed sturgeon crosses (Huso dauricus x Acipenser schrenckii, Huso huso x A. ruthenus and others), sold as grain caviar.",
-       "t": [
-        "farmed"
-       ],
-       "s": "https://bakucaviar.az",
-       "m": [
+        ],
         [
          "Beluga hybrid (Huso huso x Acipenser ruthenus)",
          ""
-        ]
-       ]
-      },
-      {
-       "n": "Sterlet caviar",
-       "a": "Acipenser ruthenus",
-       "d": "Roe of the sterlet Acipenser ruthenus, sold as small-grain caviar.",
-       "t": [
-        "farmed"
-       ],
-       "s": "https://olmafood.com/product-category/black-caviar/sterlet-caviar/"
-      },
-      {
-       "n": "Pressed caviar",
-       "a": "payusnaya · caviar pressé",
-       "d": "Sturgeon roe pressed into a mass instead of sold as separate grains, including mixed-species roe.",
-       "t": [
-        "mixed species",
-        "pressed block"
-       ],
-       "s": "https://californiacaviar.com/collections/chefs-signature-pepin-caviar",
-       "m": [
+        ],
         [
          "Jacques Pépin's Pressed Caviar",
          "California Caviar Company"
@@ -3910,24 +3804,46 @@
        ]
       },
       {
-       "n": "Hackleback caviar",
-       "a": "shovelnose sturgeon",
-       "d": "Roe of the shovelnose sturgeon Scaphirhynchus platorynchus, sold as grain caviar.",
+       "n": "American roe",
+       "a": "American caviar",
+       "d": "Roe of North American fish sold as caviar or black roe: shovelnose, paddlefish and bowfin.",
        "t": [
-        "American",
-        "wild"
+        "wild",
+        "black"
        ],
-       "s": "https://olmafood.com/product-category/black-caviar/hackleback-caviar/"
-      },
-      {
-       "n": "Paddlefish caviar",
-       "a": "spoonbill caviar · Polyodon spathula",
-       "d": "Roe of the American paddlefish Polyodon spathula, sold as grain caviar.",
-       "t": [
-        "American",
-        "wild"
-       ],
-       "s": "https://brownetrading.com/products/paddlefish-caviar-spoonbill"
+       "s": "https://olmafood.com/product-category/black-caviar/hackleback-caviar/",
+       "x": [
+        {
+         "n": "Hackleback (shovelnose sturgeon)",
+         "a": "shovelnose sturgeon",
+         "d": "Roe of the shovelnose sturgeon Scaphirhynchus platorynchus, sold as grain caviar.",
+         "mk": "",
+         "y": "",
+         "s": "https://olmafood.com/product-category/black-caviar/hackleback-caviar/",
+         "v": [],
+         "dt": "American · wild"
+        },
+        {
+         "n": "Paddlefish",
+         "a": "spoonbill caviar · Polyodon spathula",
+         "d": "Roe of the American paddlefish Polyodon spathula, sold as grain caviar.",
+         "mk": "",
+         "y": "",
+         "s": "https://brownetrading.com/products/paddlefish-caviar-spoonbill",
+         "v": [],
+         "dt": "American · wild"
+        },
+        {
+         "n": "Bowfin",
+         "a": "choupique",
+         "d": "Roe of the bowfin Amia calva, sold as black small-grain roe and often labelled caviar.",
+         "mk": "",
+         "y": "",
+         "s": "https://olmafood.com/product-category/black-caviar/bowfin-caviar/",
+         "v": [],
+         "dt": "black · Louisiana"
+        }
+       ]
       }
      ]
     },
@@ -4212,16 +4128,6 @@
          "Kaviari"
         ]
        ]
-      },
-      {
-       "n": "Bowfin roe",
-       "a": "choupique",
-       "d": "Roe of the bowfin Amia calva, sold as black small-grain roe and often labelled caviar.",
-       "t": [
-        "black",
-        "Louisiana"
-       ],
-       "s": "https://olmafood.com/product-category/black-caviar/bowfin-caviar/"
       }
      ]
     }
