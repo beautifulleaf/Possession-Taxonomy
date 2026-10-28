@@ -13,7 +13,7 @@ The file has 153 kinds and 349 archetypes, 195 of which have versions. The brand
 **Gaps for hobbyists**
 - **H1-1 Clippers and electric shavers have no archetypes.** Hair clipper (9 m), Electric shaver (11 m) and Beard trimmer (11 m) have x=0. Barbering and vintage-shaver enthusiasts recognise named families: Wahl Magic Clip, Andis Master, Oster Classic 76, Braun Series and Sixtant, Philips/Norelco rotary, Panasonic Arc (to verify). **Fix:** promote those m entries to archetypes, with generations as versions.
 - **H1-2 Nail polish is thin for a collecting community.** It has 8 archetypes but 16 `t`, so finish types carry the structure. Indie polish is a real collecting scene. **Fix:** add archetype lines (for example OPI collections and Essie icon shades) and give indie makers register entries (to verify).
-- **H1-3 Twelve icon archetypes have no maker.** Their `mk` is empty although the brand is in the register: Clinique Almost Lipstick Black Honey, Maybelline SuperStay Matte Ink and Laneige Lip Sleeping Mask. Another 14 makers used as `mk` are missing from the register (Merkur's peers Parker and Omega, Williams, Astra, Trim and others). **Fix:** fill `mk` and add the missing register entries.
+- **H1-3 Archetype–register mismatches.** Three archetypes have an empty `mk` although the brand is in the register: Clinique Almost Lipstick Black Honey, Maybelline SuperStay Matte Ink and Laneige Lip Sleeping Mask. Another 14 makers used as `mk` are missing from the register (Parker, Omega, Williams, Astra, Trim, Nizoral and others). **Fix:** fill `mk` and add the missing register entries.
 
 **Too much detail**
 - **H1-4 SKU lists without archetypes.** Examples: Styling cream (8 m, x=0), Heat protectant (7 m), Face powder (6 m) and Lip liner (7 m). Period underwear lists "Period underwear" three times and Menstrual cup lists "Period cup" twice. **Fix:** cut each to 5–8 market-covering or test-winner makers and remove the duplicates.
@@ -149,7 +149,7 @@ Fougère fragrance (kind)
 **Brand mode:** mixed. Tier for utilities, security and office; variety for Linux distributions, emulators, creative tools, DAWs and plug-ins. The file has 138 kinds and 382 archetypes (380 with versions). The register holds 103 developers, and **97 archetype makers are missing from it**.
 
 **Gaps for hobbyists**
-- **H/I1-1 (I1-1) Missing hobby kinds** (all absent from all files on grep):
+- **I1-1 Missing hobby kinds** (all absent from all files on grep):
   - Self-hosting and home-server software: Home Assistant, TrueNAS, Unraid, Plex or Jellyfin media servers. Only Kodi sits in Media player.
   - Modular and visual audio environments: VCV Rack, Max, Pure Data.
   - SDR software. SDR hardware is in D2, but no SDR software exists.
@@ -162,7 +162,7 @@ Fougère fragrance (kind)
 
 **Too much detail**
 - **I1-3 Catch-all archetypes.** The following are groups, not icons: "Independent distributions", "Other saturators", "Other repair tools", "Mastering chains from other makers", "Modular and AI strips", "Vocal effects and suites", "Tape plug-ins", "Character delays", "Dynamic EQ plug-ins", "Single-game mod managers", "Multi-network clients", and per-platform "… emulators" buckets. **Fix:** dissolve them into named archetypes or `m`.
-- **I1-4 SKU lists on utility kinds.** File manager has 20 m, Terminal emulator 20 m (18 with no maker), AI coding assistant 18, Code editor plug-in 17, Media player 17, and Backup 15. Many entries have an empty maker; 40 kinds have empty-maker majorities. **Fix:** cut to 6–10 market or test leaders and fill the makers.
+- **I1-4 SKU lists on utility kinds.** File manager has 20 m, Terminal emulator 20 m (18 with no maker), AI coding assistant 18, Code editor plug-in 17, Media player 17, and Backup 15. Many entries have an empty maker; 39 kinds have m lists whose largest maker group is "empty". **Fix:** cut to 6–10 market or test leaders and fill the makers.
 - **I1-5 Near-duplicate and out-of-scope kinds.**
   - Word processor, Spreadsheet and Presentation software sit beside Office suite.
   - Media player sits beside Music player, and Screenshot tool beside Screen recorder.
@@ -203,7 +203,7 @@ Saturation & distortion plug-in (kind)
 **Too much detail**
 - **I2-3 Platform-profile shelf.** Its 7 kinds are mostly Steam attributes: Loading screen, Chat emoticon, Profile background, Avatar or frame, Badge, Trading card and Sticker pack. **Fix:** make one "Platform profile item" kind with `t`, and keep Steam trading card as an archetype.
 - **I2-4 Format lists posing as types.** Digital photo `t` lists 14 raw formats by camera maker. Domain name has 16 TLDs with registry operators as m. **Fix:** cut each to the main classes.
-- **I2-5 Valve skew.** 26 of the 117 archetypes are Valve, and 5 of the 5 Loot-case versions are Valve series. **Fix:** rebalance through I2-2.
+- **I2-5 Valve skew.** 26 of the 117 archetypes are Valve, and all 5 Loot-case m entries are Valve. **Fix:** rebalance through I2-2.
 
 **Confusing organisation**
 - **I2-6 Mixed maker axis for typefaces.** `mk` mixes designers (Claude Garamond, Hermann Zapf), historic foundries (Bauersche Gießerei) and companies (Google), none of them in the register. **Fix:** use a foundry register plus a designer register, as for perfumers.
