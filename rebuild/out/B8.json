@@ -1,7 +1,7 @@
 {
  "c": "B8",
  "rev": true,
- "lead": "Movable things a household owns to keep people, property and the home safe — locks and padlocks, safes and key boxes, alarms and cameras, fire and leak detection, child-proofing and pest control — organised by threat (intrusion, fire, child injury, pests) and then by kind; built-in security (multipoint locks, installed intruder alarms, intercoms, window guards) lives in Home Fixtures.",
+ "lead": "Movable things a household owns to keep people, property and the home safe — locks and padlocks, safes and key boxes, alarms and cameras, fire and leak detection, child-proofing and pest and insect control — organised by threat (intrusion, fire, child injury, pests) and then by kind; built-in security (installed intruder alarms, intercoms, window guards) lives in Home Fixtures.",
  "b": [],
  "depts": [
   {
@@ -80,18 +80,6 @@
        "s": "https://en.wikipedia.org/wiki/Mortise_lock",
        "m": [
         [
-         "3G114E 5 Lever BS3621 Mortice Deadlock",
-         "Union"
-        ],
-        [
-         "3K74E 5 Lever BS3621 Sashlock",
-         "Union"
-        ],
-        [
-         "2134E 5 Lever BS3621 Deadlock",
-         "Union"
-        ],
-        [
          "Fortress BS 5 Lever Deadlock",
          "ERA"
         ],
@@ -109,6 +97,10 @@
         ]
        ],
        "r": [
+        [
+         "3G114E / 3K74E / 2134E",
+         "Union"
+        ],
         [
          "Easi-T",
          "Eurospec"
@@ -234,10 +226,6 @@
          "Schlage"
         ],
         [
-         "Encode Plus",
-         "Schlage"
-        ],
-        [
          "Halo Wi-Fi Smart Lock",
          "Kwikset"
         ],
@@ -246,32 +234,8 @@
          "Level"
         ],
         [
-         "Level Lock Pro",
-         "Level"
-        ],
-        [
          "Smart Lock Pro (5th gen)",
          "Nuki"
-        ],
-        [
-         "Linus L2",
-         "Yale"
-        ],
-        [
-         "Conexis L2",
-         "Yale"
-        ],
-        [
-         "U-Bolt Pro",
-         "Ultraloq"
-        ],
-        [
-         "Smart Lock U100",
-         "Aqara"
-        ],
-        [
-         "Smart Lock Touch & WiFi S230",
-         "Eufy"
         ]
        ]
       },
@@ -527,34 +491,19 @@
        ]
       },
       {
-       "n": "Locking bar",
-       "a": "shed bar · shed security bar · padbar",
-       "d": "A steel bar fixed across a shed, garage or outbuilding door and secured with one or more padlocks.",
+       "n": "Shed & garage security",
+       "a": "shed bar · garage door defender · ground anchor · padbar · wall anchor",
+       "d": "Fixed steel bars, posts and anchors that secure shed, garage or outbuilding doors and anchor bikes or machinery.",
        "t": [
         "shed bar (hinged, padlocked one end)",
         "padbar / hasp bar",
-        "long door bar for double doors"
-       ],
-       "s": "https://www.insight-security.com/shed-security-bar-1200mm",
-       "m": [
-        [
-         "Shed Security Bar Galvanised 1000mm",
-         "GateMate"
-        ],
-        [
-         "Shed Locking Bar 1200mm",
-         "Insight Security"
-        ]
-       ]
-      },
-      {
-       "n": "Garage door defender",
-       "a": "garage door protector · garage door lock post",
-       "d": "A lockable steel bar or ground post fitted in front of an up-and-over garage door to stop it being lifted or pulled open.",
-       "t": [
+        "long door bar for double doors",
         "ground post with hinged arm",
         "T-bar floor defender",
-        "bolt-down bar; Sold Secure graded"
+        "bolt-down bar; Sold Secure graded",
+        "Bolt-down floor anchor",
+        "Concrete-in floor anchor",
+        "Wall anchor"
        ],
        "s": "https://soldsecure.com/product/squire-ga5-garage-door-defender",
        "m": [
@@ -571,12 +520,20 @@
          "PJB"
         ],
         [
-         "302 Garage Defender",
-         "PJB"
+         "Shed Security Bar Galvanised 1000mm",
+         "GateMate"
         ],
         [
-         "Garage Door Secure",
-         "The Metal Hut"
+         "Shed Locking Bar 1200mm",
+         "Insight Security"
+        ],
+        [
+         "GA6 Heavy Duty Ground Anchor",
+         "Squire"
+        ],
+        [
+         "BruteForce Wall / Ground Anchor",
+         "PJB"
         ]
        ]
       }
@@ -598,15 +555,11 @@
         "TSA / luggage padlock",
         "Weatherproof padlock"
        ],
-       "s": "",
+       "s": "https://en.wikipedia.org/wiki/Padlock",
        "m": [
         [
-         "Granit 37ST/55 Marine Padlock",
-         "Abus"
-        ],
-        [
          "90 Series Titalium Padlock",
-         "Abus"
+         "ABUS"
         ],
         [
          "700 Series",
@@ -636,7 +589,7 @@
        "r": [
         [
          "83WP Series",
-         "Abus"
+         "ABUS"
         ],
         [
          "Pro Series",
@@ -646,6 +599,88 @@
          "Stronghold",
          "Squire"
         ]
+       ],
+       "x": [
+        {
+         "n": "Master Lock No. 3",
+         "a": "laminated padlock · Master Lock laminated",
+         "d": "Laminated-steel padlock with a 40 mm body and 4-pin cylinder; the design behind Master Lock's name.",
+         "mk": "Master Lock",
+         "y": "laminated design patented 1924",
+         "s": "https://en.wikipedia.org/wiki/Master_Lock",
+         "v": [
+          {
+           "n": "No. 3 (3/4 in shackle)",
+           "mk": "Master Lock",
+           "y": "",
+           "d": "7 mm hardened shackle, dual locking levers"
+          }
+         ],
+         "dt": "body width · shackle length · keyed alike or different · colour bumper"
+        },
+        {
+         "n": "American Lock 1100",
+         "a": "Series 1100 · A1105",
+         "d": "Rekeyable solid-aluminium padlock with a 5-pin cylinder, a locksport and lockout-tagout staple.",
+         "mk": "American Lock",
+         "y": "",
+         "s": "https://www.globalindustrial.com/p/american-lock-174-no-a1105ylw-solid-aluminum-rectangular-padlock-yellow",
+         "v": [
+          {
+           "n": "A1105",
+           "mk": "American Lock",
+           "y": "",
+           "d": "5-pin APTC12 cylinder, 1/4 in chrome boron-steel shackle"
+          }
+         ],
+         "dt": "anodised colour · shackle length · keyed alike or different"
+        },
+        {
+         "n": "ABUS Granit 37",
+         "a": "Granit 37/55 · Granit 37RK",
+         "d": "Hardened-steel disc-cylinder padlock with a 63 mm body and shackle guard, a market benchmark.",
+         "mk": "ABUS",
+         "y": "",
+         "s": "https://www.lockshop-warehouse.co.uk/acatalog/abus-granit-37-55-padlock-long-shackle.html",
+         "v": [
+          {
+           "n": "37/55",
+           "mk": "ABUS",
+           "y": "",
+           "d": "ABUS-Plus disc cylinder, 11 mm shackle, CEN 4"
+          },
+          {
+           "n": "37/55HB50",
+           "mk": "ABUS",
+           "y": "",
+           "d": "50 mm long-shackle version"
+          },
+          {
+           "n": "37RK",
+           "mk": "ABUS",
+           "y": "",
+           "d": "Re-keyable by the trade"
+          }
+         ],
+         "dt": "body size 55 / 60 / 70 / 80 · shackle length · keyed alike"
+        },
+        {
+         "n": "Abloy PL362",
+         "a": "PL 362",
+         "d": "Case-hardened steel padlock with raised shoulders, 15 mm boron shackle and top-loaded disc cylinder; EN 12320 grade 6.",
+         "mk": "Abloy",
+         "y": "",
+         "s": "https://www.abloy.com/au/en/products/padlocks/abloy-pl362",
+         "v": [
+          {
+           "n": "PL362 with Protec cylinder",
+           "mk": "Abloy",
+           "y": "",
+           "d": "Cylinder option for SCEC-endorsed secure areas"
+          }
+         ],
+         "dt": "cylinder (Protec, Protec2) · shackle length · keying"
+        }
        ]
       },
       {
@@ -661,11 +696,11 @@
        "m": [
         [
          "200 Series Hasp & Staple",
-         "Abus"
+         "ABUS"
         ],
         [
          "130 Series High Security Hasp & Staple",
-         "Abus"
+         "ABUS"
         ],
         [
          "6H Hasp & Staple",
@@ -715,36 +750,6 @@
        ],
        "s": "https://www.bickelsinc.com/product-list/accessories-1109/locks-security-1135/cables-chains-1137/",
        "m": [],
-       "r": []
-      },
-      {
-       "n": "Ground anchor",
-       "a": "wall anchor · floor anchor · security anchor",
-       "d": "A heavy fixing bolted or set into a floor or wall, to which items are chained and padlocked.",
-       "t": [
-        "Bolt-down floor anchor",
-        "Concrete-in floor anchor",
-        "Wall anchor"
-       ],
-       "s": "https://www.lockandkey.co.uk/category/locking-product/garage-security/ground-anchor",
-       "m": [
-        [
-         "GA6 Heavy Duty Ground Anchor",
-         "Squire"
-        ],
-        [
-         "WA300 Wall Anchor",
-         "Squire"
-        ],
-        [
-         "Y730B High Security Steel Anchor",
-         "Yale"
-        ],
-        [
-         "BruteForce Wall / Ground Anchor",
-         "PJB"
-        ]
-       ],
        "r": []
       }
      ]
@@ -1128,6 +1133,64 @@
        ]
       },
       {
+       "n": "Antique lock & key",
+       "a": "antique lock · collector lock · historic lock",
+       "d": "Historic locks and keys collected for their mechanism and maker, viewed by period.",
+       "t": [
+        "Roman and medieval padlock",
+        "Georgian lever and wafer lock",
+        "Victorian detector lock",
+        "antique key"
+       ],
+       "s": "https://en.wikipedia.org/wiki/Padlock",
+       "x": [
+        {
+         "n": "Bramah lock",
+         "a": "Bramah patent lock",
+         "d": "Cylindrical-key wafer lock patented by Joseph Bramah, with 18 wafers in the original.",
+         "mk": "Bramah",
+         "y": "1784",
+         "s": "https://en.wikipedia.org/wiki/Bramah_lock",
+         "v": [
+          {
+           "n": "Challenge lock",
+           "mk": "Bramah",
+           "y": "1790",
+           "d": "Offered a 200-guinea prize; opened by A. C. Hobbs in 1851"
+          }
+         ],
+         "dt": "wafer count · maker's mark · period"
+        },
+        {
+         "n": "Chubb detector lock",
+         "a": "Chubb lever detector lock",
+         "d": "Lever tumbler lock with a re-locking detector that jams if tampered with; patented by Jeremiah Chubb.",
+         "mk": "Chubb",
+         "y": "1818",
+         "s": "https://en.wikipedia.org/wiki/Chubb_detector_lock",
+         "v": [
+          {
+           "n": "Six-lever Chubb lock",
+           "mk": "Chubb",
+           "y": "",
+           "d": "Picked by A. C. Hobbs at the 1851 Great Exhibition"
+          }
+         ],
+         "dt": "lever count · regulator key · maker's mark"
+        },
+        {
+         "n": "Roman padlock",
+         "a": "Roman spring padlock",
+         "d": "Ancient bronze or iron padlock of the Roman period, such as examples found at Pompeii.",
+         "mk": "",
+         "y": "500 BC–300 AD",
+         "s": "https://en.wikipedia.org/wiki/Padlock",
+         "v": [],
+         "dt": "material · shape · find site"
+        }
+       ]
+      },
+      {
        "n": "Practice & cutaway lock",
        "a": "clear acrylic lock · cutaway · progressive pinning set · challenge lock",
        "d": "Locks made or modified for learning to pick: transparent or cut-open bodies, re-pinnable progressive sets and custom-pinned challenge locks; count only as White belt.",
@@ -1276,7 +1339,7 @@
        "m": [
         [
          "Digital Door Viewer – Standard (3.2\" LCD, 105°)",
-         "Yale Home"
+         "Yale"
         ],
         [
          "PHV133012 Digital PeepHole Viewer",
@@ -1422,19 +1485,7 @@
          "Chubbsafes"
         ],
         [
-         "Consul",
-         "Chubbsafes"
-        ],
-        [
          "Pure-Safe",
-         "Burg-Wächter"
-        ],
-        [
-         "Home-Safe H 210 E",
-         "Burg-Wächter"
-        ],
-        [
-         "Combi-Line CL 420 E",
          "Burg-Wächter"
         ],
         [
@@ -1442,15 +1493,7 @@
          "Phoenix Safe Company"
         ],
         [
-         "Venus HS0671K",
-         "Phoenix Safe Company"
-        ],
-        [
          "Mini Vault",
-         "Securikey"
-        ],
-        [
-         "Euro Vault",
          "Securikey"
         ],
         [
@@ -1460,10 +1503,6 @@
         [
          "SFW123GDC Digital Fire/Water Safe",
          "SentrySafe"
-        ],
-        [
-         "Superior Wall Safe",
-         "Paragon Lock & Safe"
         ]
        ]
       },
@@ -1535,23 +1574,7 @@
          "Liberty Safe"
         ],
         [
-         "Colonial",
-         "Liberty Safe"
-        ],
-        [
-         "Lincoln",
-         "Liberty Safe"
-        ],
-        [
-         "HDV Handgun Vault",
-         "Liberty Safe"
-        ],
-        [
          "Protector",
-         "Fort Knox"
-        ],
-        [
-         "Defender",
          "Fort Knox"
         ],
         [
@@ -1563,15 +1586,7 @@
          "Burg-Wächter"
         ],
         [
-         "Magno",
-         "Burg-Wächter"
-        ],
-        [
          "RL5+ Rifle Vault",
-         "Brattonsound"
-        ],
-        [
-         "SL9+ Gun Vault",
          "Brattonsound"
         ],
         [
@@ -1612,7 +1627,7 @@
        "m": [
         [
          "Key Garage 787",
-         "Abus"
+         "ABUS"
         ],
         [
          "Key Safe 001409",
@@ -1771,22 +1786,6 @@
         [
          "Home Security System (Keypad Sensor Hub + All-in-One Sensors)",
          "Arlo"
-        ],
-        [
-         "Protect Home Alarm Security System",
-         "Somfy"
-        ],
-        [
-         "Protect Alert Kit",
-         "ERA"
-        ],
-        [
-         "Smart Home Security System AS08",
-         "X-Sense"
-        ],
-        [
-         "HSA Essentials Alarm Kit (bells-only)",
-         "Yale"
         ]
        ]
       },
@@ -1810,27 +1809,7 @@
          "Ring"
         ],
         [
-         "Alarm Motion Detector (2nd Gen)",
-         "Ring"
-        ],
-        [
-         "Alarm Glass Break Sensor",
-         "Ring"
-        ],
-        [
-         "Alarm Panic Button",
-         "Ring"
-        ],
-        [
-         "Alarm Outdoor Siren",
-         "Ring"
-        ],
-        [
          "Entry Sensor",
-         "SimpliSafe"
-        ],
-        [
-         "Motion Sensor Gen 2",
          "SimpliSafe"
         ],
         [
@@ -1838,12 +1817,16 @@
          "Aqara"
         ],
         [
-         "Vibration Sensor T1",
-         "Aqara"
-        ],
-        [
          "Hue Secure Contact Sensor",
          "Philips Hue"
+        ],
+        [
+         "Alarm Motion Detector (2nd Gen)",
+         "Ring"
+        ],
+        [
+         "Alarm Glass Break Sensor",
+         "Ring"
         ]
        ]
       },
@@ -1881,7 +1864,7 @@
      "k": [
       {
        "n": "Security camera",
-       "a": "home security camera · IP camera · Wi-Fi camera · indoor cam · outdoor cam",
+       "a": "home security camera · IP camera · Wi-Fi camera · indoor cam · outdoor cam · dummy camera · fake security camera",
        "d": "A standalone network camera, indoor or outdoor, that records or streams video of the home to an app or local storage.",
        "t": [
         "Indoor camera",
@@ -1890,7 +1873,9 @@
         "Pan-tilt camera",
         "Solar-charged camera",
         "4G/LTE camera",
-        "Dual-lens camera"
+        "Dual-lens camera",
+        "Dummy (decoy) camera",
+        "CCTV / alarm warning sign"
        ],
        "s": "https://en.wikipedia.org/wiki/IP_camera",
        "m": [
@@ -1899,19 +1884,11 @@
          "Google Nest"
         ],
         [
-         "Nest Cam (battery)",
-         "Google Nest"
-        ],
-        [
          "Wyze Cam v4",
          "Wyze"
         ],
         [
          "Eufy Indoor Cam S350",
-         "Eufy"
-        ],
-        [
-         "Eufy 4G LTE Cam S330",
          "Eufy"
         ],
         [
@@ -1925,22 +1902,6 @@
         [
          "Arlo Pro 5S 2K",
          "Arlo"
-        ],
-        [
-         "Reolink Altas PT Ultra",
-         "Reolink"
-        ],
-        [
-         "Tapo C246D HybridCam Duo",
-         "TP-Link"
-        ],
-        [
-         "Swann MaxRanger4K Solar",
-         "Swann"
-        ],
-        [
-         "Aqara Camera Hub G350",
-         "Aqara"
         ]
        ]
       },
@@ -2037,36 +1998,6 @@
          "Zmodo"
         ]
        ]
-      },
-      {
-       "n": "Dummy camera",
-       "a": "fake security camera · decoy camera · simulated camera · CCTV warning sign",
-       "d": "A non-functional camera housing, often with a blinking LED, placed with warning signage to deter intruders.",
-       "t": [
-        "Dome dummy camera",
-        "Bullet dummy camera",
-        "Solar-powered dummy camera",
-        "CCTV / alarm warning sign"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Fake_security_camera",
-       "m": [
-        [
-         "GE Power Gear Simulated Security Camera",
-         "GE"
-        ],
-        [
-         "Wali Fake Security CCTV Dome Camera",
-         "Wali"
-        ],
-        [
-         "Swann Imitation Security Camera",
-         "Swann"
-        ],
-        [
-         "BNT Dummy Fake Security Camera",
-         "BNT"
-        ]
-       ]
       }
      ]
     },
@@ -2090,15 +2021,7 @@
          "Ring"
         ],
         [
-         "Video Doorbell Pro 2",
-         "Ring"
-        ],
-        [
          "Nest Doorbell (battery)",
-         "Google Nest"
-        ],
-        [
-         "Nest Doorbell (wired, 2nd gen)",
          "Google Nest"
         ],
         [
@@ -2110,28 +2033,12 @@
          "Eufy"
         ],
         [
-         "Video Doorbell C31",
-         "Eufy"
-        ],
-        [
          "Tapo D225",
          "TP-Link"
         ],
         [
          "Circle View Doorbell",
          "Logitech"
-        ],
-        [
-         "Smart Video Doorbell",
-         "Yale"
-        ],
-        [
-         "7000 Series Video Doorbell",
-         "Philips"
-        ],
-        [
-         "Battery Doorbell",
-         "Reolink"
         ]
        ],
        "r": []
@@ -2240,10 +2147,6 @@
          "FireAngel"
         ],
         [
-         "FP2620W2-R Pro Connected Smart Smoke Alarm",
-         "FireAngel"
-        ],
-        [
          "Ei3016 Optical Smoke Alarm (3000 Series)",
          "Aico"
         ],
@@ -2256,32 +2159,12 @@
          "First Alert"
         ],
         [
-         "SMCO210 smoke + CO alarm",
-         "First Alert"
-        ],
-        [
          "i9070 battery smoke alarm",
-         "Kidde"
-        ],
-        [
-         "30CUD10 10-Year Battery smoke + CO alarm",
          "Kidde"
         ],
         [
          "XS01 Standalone Smoke Alarm",
          "X-Sense"
-        ],
-        [
-         "SC07 Standalone Smoke and CO Alarm",
-         "X-Sense"
-        ],
-        [
-         "HSSA/PE/RF10-PRO mains RF smoke alarm",
-         "Hispec"
-        ],
-        [
-         "SSSD3 dual-sensor smoke detector",
-         "SimpliSafe"
         ]
        ],
        "r": [
@@ -2463,19 +2346,7 @@
          "Kidde"
         ],
         [
-         "Full Home FX340SC-2",
-         "Kidde"
-        ],
-        [
-         "Kitchen Fire Extinguisher RESSP",
-         "Kidde"
-        ],
-        [
          "Home1 FE1A10GR rechargeable 1-A:10-B:C",
-         "First Alert"
-        ],
-        [
-         "AF400 EZ Fire Spray aerosol",
          "First Alert"
         ],
         [
@@ -2483,15 +2354,7 @@
          "Firexo"
         ],
         [
-         "Firexo 500ml Small",
-         "Firexo"
-        ],
-        [
          "P50 Service-Free 2 litre Water Mist",
-         "Britannia Fire"
-        ],
-        [
-         "P50 Service-Free 6 litre AVD lithium-battery",
          "Britannia Fire"
         ],
         [
@@ -2501,10 +2364,6 @@
         [
          "B402 5 lb ABC (SafeWise best overall)",
          "Amerex"
-        ],
-        [
-         "StoveTop FireStop 675-3D automatic cooktop suppressor",
-         "StoveTop FireStop"
         ]
        ],
        "r": [
@@ -2536,20 +2395,14 @@
          "Kidde"
         ],
         [
-         "KFB1010 Kitchen Fire Blanket 1.0 m",
-         "Kidde"
-        ],
-        [
-         "KFB1212 Kitchen Fire Blanket 1.2 m",
-         "Kidde"
-        ],
-        [
-         "KFB1218 Heavy Duty Fire Blanket 1.2 × 1.8 m",
-         "Kidde"
-        ],
-        [
          "K100-P Fire Blanket",
          "Jactone"
+        ]
+       ],
+       "r": [
+        [
+         "KFB Kitchen Fire Blanket",
+         "Kidde"
         ]
        ]
       },
@@ -2630,19 +2483,7 @@
          "BabyDan"
         ],
         [
-         "Perfect Close Safety Gate",
-         "BabyDan"
-        ],
-        [
-         "Super Flexi Fit Extending Safety Gate",
-         "BabyDan"
-        ],
-        [
          "Lindam Sure Shut Axis Pressure Fit Safety Gate",
-         "Munchkin"
-        ],
-        [
-         "Lindam Easy Fit Plus Deluxe Tall Safety Gate",
          "Munchkin"
         ],
         [
@@ -2658,20 +2499,8 @@
          "North States"
         ],
         [
-         "Toddleroo Superyard Colorplay Ultimate",
-         "North States"
-        ],
-        [
          "SS-30 Stairway Special",
          "Cardinal Gates"
-        ],
-        [
-         "Glide N Hide Retractable Baby Gate",
-         "Dreambaby"
-        ],
-        [
-         "Safeway Top of Stair Baby Safety Gate",
-         "KidCo"
         ]
        ],
        "r": [
@@ -2878,7 +2707,12 @@
        "s": "https://acehardware.com/departments/hardware/door-hardware/doorstops",
        "m": [],
        "r": []
-      },
+      }
+     ]
+    },
+    {
+     "n": "Monitors",
+     "k": [
       {
        "n": "Baby monitor",
        "a": "baby alarm · baby cam · video room monitor · movement monitor",
@@ -2915,32 +2749,8 @@
          "VTech"
         ],
         [
-         "RM7764HD",
-         "VTech"
-        ],
-        [
          "VM50G",
          "Motorola Nursery"
-        ],
-        [
-         "Avent SCD843",
-         "Philips"
-        ],
-        [
-         "Video Baby Monitor 7500 Lightshow",
-         "BT"
-        ],
-        [
-         "AC327 Movement Monitor",
-         "Angelcare"
-        ],
-        [
-         "CuboAi Smart Baby Monitor 3",
-         "CuboAi"
-        ],
-        [
-         "Miku Pro",
-         "Miku"
         ]
        ],
        "r": [
@@ -2964,7 +2774,7 @@
    "note": "All kinds here carry the baby tag except door stop and anti-tip strap, which also serve adults."
   },
   {
-   "n": "Pest control",
+   "n": "Pest & insect control",
    "mode": "tier",
    "b": [
     {
