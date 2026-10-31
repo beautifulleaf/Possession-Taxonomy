@@ -16782,23 +16782,13 @@
    "s": [
     {
      "n": "Vans, minibuses & taxis",
+     "t": "Van-bodied vehicles for people or goods: load vans, seated vans, minibuses and taxis; a lorry → Trucks & buses.",
+     "ax": "kinds by what fills the body: load only, load and seats, a full set of seats, seats for hire",
      "k": [
       {
        "n": "Panel van",
        "a": "cargo van · delivery van · LCV",
        "d": "Goods vehicle with an enclosed windowless load box behind the cab.",
-       "t": [
-        "small (car-derived)",
-        "medium",
-        "large",
-        "short wheelbase",
-        "long wheelbase",
-        "low roof",
-        "high roof",
-        "crew van",
-        "Luton/box van",
-        "electric"
-       ],
        "s": "https://www.vansdirect.co.uk/new-vans-in-stock",
        "x": [
         {
@@ -17015,17 +17005,58 @@
          "Transporter",
          "Volkswagen"
         ]
+       ],
+       "tt": [
+        [
+         "Size",
+         [
+          "Small (car-derived)",
+          "Medium",
+          "Large"
+         ]
+        ],
+        [
+         "Wheelbase",
+         [
+          "Short",
+          "Long"
+         ]
+        ],
+        [
+         "Roof",
+         [
+          "Low roof",
+          "High roof"
+         ]
+        ],
+        [
+         "Body",
+         [
+          "Crew van",
+          "Luton / box van"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Petrol",
+          "Diesel",
+          "Battery electric"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Campervan",
+         "a panel van converted for living"
+        ]
        ]
       },
       {
        "n": "Window van",
        "a": "kombi · passenger van · crew bus",
        "d": "Van with side windows and seats or space for passengers and goods.",
-       "t": [
-        "Kombi (seats plus load space)",
-        "passenger (all seats)",
-        "day van"
-       ],
        "s": "https://autoline.com/-/passenger-vans/Ford/Transit-Custom--c83tm2566m33349",
        "x": [
         {
@@ -17136,24 +17167,57 @@
          "Caravelle",
          "Volkswagen"
         ]
+       ],
+       "tt": [
+        [
+         "Seating",
+         [
+          "Kombi (seats plus load space)",
+          "Passenger (all seats)",
+          "Day van"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Minibus",
+         "more seats, same body"
+        ]
        ]
       },
       {
        "n": "Minibus",
        "a": "microbus · minicoach · short bus",
        "d": "Passenger vehicle seating about 12–30, larger than a minivan but smaller than a bus.",
-       "t": [
-        "9-seat",
-        "12–17 seat",
-        "high roof",
-        "wheelchair-accessible",
-        "school/community"
-       ],
        "s": "https://www.minibus.ltd.uk/minibuses-with-sat-nav/",
        "m": [
         [
          "Trafic 9 Seat Minibus",
          "Renault"
+        ]
+       ],
+       "tt": [
+        [
+         "Seats",
+         [
+          "9-seat",
+          "12–17 seat"
+         ]
+        ],
+        [
+         "Roof",
+         [
+          "Standard",
+          "High roof"
+         ]
+        ],
+        [
+         "Use",
+         [
+          "Wheelchair-accessible",
+          "School or community"
+         ]
         ]
        ]
       },
@@ -17161,11 +17225,6 @@
        "n": "Taxi",
        "a": "cab · hackney carriage · black cab",
        "d": "Passenger car built or converted for licensed hire; preserved cabs are privately owned.",
-       "t": [
-        "London-style purpose-built cab",
-        "saloon-based cab",
-        "wheelchair-accessible"
-       ],
        "s": "https://en.wikipedia.org/wiki/Austin_FX4",
        "x": [
         {
@@ -17238,24 +17297,46 @@
          ],
          "dt": "taxi or passenger · saloon, wagon or limousine"
         }
+       ],
+       "tt": [
+        [
+         "Build",
+         [
+          "London-style purpose-built cab",
+          "Saloon-based cab"
+         ]
+        ],
+        [
+         "Access",
+         [
+          "Wheelchair-accessible"
+         ]
+        ]
        ]
       }
      ]
     },
     {
      "n": "Trucks & buses",
+     "t": "Heavy vehicles kept at kind level: lorries, tractor units, buses and special-purpose trucks; a pickup → Cars.",
+     "ax": "kinds by job: carry a load, pull a trailer, carry passengers, do a special task",
      "k": [
       {
        "n": "Rigid truck",
        "a": "lorry · straight truck · chassis-cab with fitted body",
        "d": "Truck built on one chassis with its body fitted, such as a box, tipper or flatbed.",
-       "t": [
-        "box truck (cube truck, box van)",
-        "tipper (dump truck)",
-        "flatbed / dropside",
-        "chassis-cab"
-       ],
-       "s": "https://www.lawtrucks.com/our-stock"
+       "s": "https://www.lawtrucks.com/our-stock",
+       "tt": [
+        [
+         "Body",
+         [
+          "Box truck (cube truck)",
+          "Tipper (dump truck)",
+          "Flatbed / dropside",
+          "Chassis-cab"
+         ]
+        ]
+       ]
       },
       {
        "n": "Tractor unit",
@@ -17351,19 +17432,33 @@
        "n": "Special-purpose truck",
        "a": "special-purpose body vehicle",
        "d": "Vehicle with a body made for one service, such as a fire engine, recovery truck or horsebox lorry; privately owned ones are often preserved.",
-       "t": [
-        "fire engine",
-        "recovery truck",
-        "horsebox lorry",
-        "ambulance",
-        "hearse"
+       "s": "https://www.rosenbauer.com/en-us/products/vehicles",
+       "tt": [
+        [
+         "Role",
+         [
+          "Fire engine",
+          "Recovery truck",
+          "Horsebox lorry",
+          "Ambulance",
+          "Hearse"
+         ]
+        ]
        ],
-       "s": "https://www.rosenbauer.com/en-us/products/vehicles"
+       "see": [
+        [
+         "G1",
+         "Horsebox",
+         "towed instead of driven"
+        ]
+       ]
       }
      ]
     }
    ],
-   "note": "Personal vans and pickups at kind level with icons; heavy trucks and buses kept kind-level without fleet models."
+   "note": "Personal vans and pickups at kind level with icons; heavy trucks and buses kept kind-level without fleet models.",
+   "t": "Vans, minibuses, taxis, lorries and coaches that a person owns or converts, kept at kind level; a family car → Cars; a van converted for living in → Caravans, motorhomes & trailers.",
+   "ax": "Does the vehicle carry a load, passengers or a special job, and on what chassis?"
   },
   {
    "n": "Caravans, motorhomes & trailers",
@@ -17378,18 +17473,13 @@
    "s": [
     {
      "n": "Towed caravans & campers",
+     "t": "Living trailers pulled behind a car or truck; a motorhome with its own engine → Motorhomes & campervans.",
+     "ax": "kinds by shell: full hard shell, truck-bed hitch, small sleeper, folding or expanding, gear-carrying, rough-ground",
      "k": [
       {
        "n": "Touring caravan",
        "a": "travel trailer · caravan · trailer caravan",
        "d": "Towed living trailer with a fixed hard body, pulled on a ball hitch behind a car or pickup.",
-       "t": [
-        "single-axle",
-        "twin-axle",
-        "lightweight fibreglass",
-        "aluminium-bodied",
-        "lifting-roof"
-       ],
        "s": "https://www.swiftgroup.co.uk/",
        "x": [
         {
@@ -17740,70 +17830,28 @@
          "Alicanto Grande",
          "Bailey of Bristol"
         ]
-       ]
-      },
-      {
-       "n": "Folding camper",
-       "a": "pop-up · pop-up camper · tent trailer · folding trailer · trailer tent",
-       "d": "Towed camper whose walls and roof fold down for travel and storage.",
-       "t": [
-        "hard-top folding camper",
-        "soft-side tent trailer"
        ],
-       "s": "https://forestriverinc.com/rvs/rockwood-tent",
-       "x": [
-        {
-         "n": "Jayco fold-down camper",
-         "a": "Jayco pop-up",
-         "d": "Jayco's folding camping trailer, from Lloyd Bontrager's fold-down system on which the company was founded.",
-         "mk": "Jayco",
-         "y": "1968",
-         "s": "https://en.wikipedia.org/wiki/Jayco",
-         "v": [
-          {
-           "n": "fold-down system",
-           "mk": "Jayco",
-           "y": "1967",
-           "d": "developed by Lloyd Bontrager"
-          },
-          {
-           "n": "pop-up camping trailer",
-           "mk": "Jayco",
-           "y": "2006",
-           "d": ""
-          },
-          {
-           "n": "tent camper with pop-out bedroom",
-           "mk": "Jayco",
-           "y": "",
-           "d": ""
-          }
-         ],
-         "dt": "box length · pop-out bed ends · canvas"
-        }
-       ],
-       "m": [
+       "tt": [
         [
-         "Combi-camper",
-         ""
+         "Axles",
+         [
+          "Single-axle",
+          "Twin-axle"
+         ]
         ],
         [
-         "Kamparoo",
-         ""
-        ]
-       ],
-       "r": [
-        [
-         "Rockwood Freedom Series",
-         "Forest River"
+         "Build",
+         [
+          "Lightweight fibreglass",
+          "Aluminium-bodied"
+         ]
         ],
         [
-         "Rockwood OTG",
-         "Forest River"
-        ],
-        [
-         "Viking Epic",
-         "Forest River"
+         "Roof",
+         [
+          "Fixed roof",
+          "Lifting roof"
+         ]
         ]
        ]
       },
@@ -17811,10 +17859,6 @@
        "n": "Fifth-wheel caravan",
        "a": "fifth-wheel · fifth-wheel trailer · fiver",
        "d": "Towed living trailer whose raised front rides over a pickup bed on a fifth-wheel hitch.",
-       "t": [
-        "toy-hauler fifth wheel",
-        "luxury fifth wheel"
-       ],
        "s": "https://www.keystonerv.com/product/montana/luxury-fifth-wheels/floorplans/3500RD",
        "r": [
         [
@@ -17825,17 +17869,14 @@
          "Phoenix",
          "Shasta"
         ]
-       ]
-      },
-      {
-       "n": "Expandable-end trailer",
-       "a": "hybrid trailer · hybrid camper · expandable",
-       "d": "Hard-sided towed living trailer with fold-out canvas bed ends.",
-       "s": "https://www.jdpower.com/rvs/2009/jayco/m-1006/6006745/specs",
-       "r": [
+       ],
+       "tt": [
         [
-         "Jay Series",
-         "Jayco"
+         "Finish",
+         [
+          "Standard",
+          "Luxury"
+         ]
         ]
        ]
       },
@@ -17843,11 +17884,6 @@
        "n": "Teardrop trailer",
        "a": "teardrop · teardrop camper",
        "d": "Small towed sleeping trailer with a teardrop profile and a rear-hatch galley, without standing room inside.",
-       "t": [
-        "classic plywood",
-        "aluminium-skinned",
-        "off-road teardrop"
-       ],
        "s": "https://www.fretzrv.com/teardrop-trailers-for-sale",
        "x": [
         {
@@ -17908,21 +17944,138 @@
          "TAG XL",
          "nuCamp RV"
         ]
+       ],
+       "tt": [
+        [
+         "Skin",
+         [
+          "Classic plywood",
+          "Aluminium-skinned"
+         ]
+        ],
+        [
+         "Terrain",
+         [
+          "Road",
+          "Off-road teardrop"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Touring caravan",
+         "full-size hard-shell caravan"
+        ]
        ]
       },
       {
-       "n": "Sport utility RV",
+       "n": "Folding camper",
+       "a": "pop-up · pop-up camper · tent trailer · folding trailer · trailer tent · Expandable-end trailer · hybrid trailer · hybrid camper · expandable",
+       "d": "Towed camper whose walls and roof fold down for travel and storage.",
+       "s": "https://forestriverinc.com/rvs/rockwood-tent",
+       "x": [
+        {
+         "n": "Jayco fold-down camper",
+         "a": "Jayco pop-up",
+         "d": "Jayco's folding camping trailer, from Lloyd Bontrager's fold-down system on which the company was founded.",
+         "mk": "Jayco",
+         "y": "1968",
+         "s": "https://en.wikipedia.org/wiki/Jayco",
+         "v": [
+          {
+           "n": "fold-down system",
+           "mk": "Jayco",
+           "y": "1967",
+           "d": "developed by Lloyd Bontrager"
+          },
+          {
+           "n": "pop-up camping trailer",
+           "mk": "Jayco",
+           "y": "2006",
+           "d": ""
+          },
+          {
+           "n": "tent camper with pop-out bedroom",
+           "mk": "Jayco",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "box length · pop-out bed ends · canvas"
+        }
+       ],
+       "m": [
+        [
+         "Combi-camper",
+         ""
+        ],
+        [
+         "Kamparoo",
+         ""
+        ]
+       ],
+       "r": [
+        [
+         "Rockwood Freedom Series",
+         "Forest River"
+        ],
+        [
+         "Rockwood OTG",
+         "Forest River"
+        ],
+        [
+         "Viking Epic",
+         "Forest River"
+        ],
+        [
+         "Jay Series",
+         "Jayco"
+        ]
+       ],
+       "tt": [
+        [
+         "Walls",
+         [
+          "Hard-top folding camper",
+          "Soft-side tent trailer",
+          "Expandable-end trailer"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "E2",
+         "Tent",
+         "tent living without a trailer"
+        ]
+       ]
+      },
+      {
+       "n": "Toy hauler",
        "a": "toy hauler · SURV",
        "d": "Towed or driven RV with a rear garage and ramp door for carrying motorbikes, quads or gear.",
-       "t": [
-        "travel-trailer toy hauler",
-        "fifth-wheel toy hauler"
-       ],
        "s": "https://generalrv.com/grand-design/momentum",
        "m": [
         [
          "Momentum",
          "Grand Design"
+        ]
+       ],
+       "tt": [
+        [
+         "Hitch",
+         [
+          "Travel-trailer toy hauler",
+          "Fifth-wheel toy hauler"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Fifth-wheel caravan",
+         "fifth-wheel layout"
         ]
        ]
       },
@@ -17930,11 +18083,6 @@
        "n": "Off-road camper trailer",
        "a": "4x4 trailer · jeep trailer · off-road caravan · camper trailer",
        "d": "Rugged towed camper with off-road suspension, big tyres, skid plates, large water tanks and batteries, often with a tent.",
-       "t": [
-        "hard-floor camper",
-        "soft-floor camper",
-        "off-road hybrid caravan"
-       ],
        "s": "https://en.wikipedia.org/wiki/Caravan_(trailer)",
        "x": [
         {
@@ -17971,23 +18119,35 @@
          ],
          "dt": "tent size · suspension"
         }
+       ],
+       "tt": [
+        [
+         "Floor",
+         [
+          "Hard-floor camper",
+          "Soft-floor camper"
+         ]
+        ],
+        [
+         "Form",
+         [
+          "Camper trailer",
+          "Off-road hybrid caravan"
+         ]
+        ]
        ]
       }
      ]
     },
     {
      "n": "Motorhomes & campervans",
+     "t": "Self-propelled living vehicles, from converted vans to coach-sized motorhomes; a trailer to tow → Towed caravans & campers.",
+     "ax": "kinds by body, from small conversions to coach-sized and off-road builds",
      "k": [
       {
        "n": "Campervan",
        "a": "van conversion · camper van · pop-top van",
        "d": "Van converted for living and sleeping, keeping the van body.",
-       "t": [
-        "fixed roof (day van)",
-        "pop-top / rising roof",
-        "high top",
-        "panel-van conversion with washroom"
-       ],
        "s": "https://www.swiftgroup.co.uk/",
        "x": [
         {
@@ -18168,18 +18328,129 @@
          "Merlin",
          "Swift Group"
         ]
+       ],
+       "tt": [
+        [
+         "Roof",
+         [
+          "Fixed roof (day van)",
+          "Pop-top (rising roof)",
+          "High top"
+         ]
+        ],
+        [
+         "Fit-out",
+         [
+          "With washroom",
+          "Without washroom"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Panel van",
+         "the van it is converted from"
+        ]
+       ]
+      },
+      {
+       "n": "Truck camper",
+       "a": "slide-in camper · demountable · slide-on",
+       "d": "Living body made only to be carried in a pickup bed.",
+       "s": "https://forestriverinc.com/rvs/truck-campers",
+       "x": [
+        {
+         "n": "Four Wheel Campers pop-up",
+         "a": "FWC slide-in",
+         "d": "Lightweight soft-wall pop-up truck camper for off-road use.",
+         "mk": "Four Wheel Campers",
+         "y": "1972",
+         "s": "https://fourwheelcampers.com/",
+         "v": [
+          {
+           "n": "Slide-in",
+           "mk": "Four Wheel Campers",
+           "y": "",
+           "d": "The original model"
+          },
+          {
+           "n": "Swift",
+           "mk": "Four Wheel Campers",
+           "y": "",
+           "d": "Listed in earlier data"
+          },
+          {
+           "n": "Flatbed",
+           "mk": "Four Wheel Campers",
+           "y": "",
+           "d": "Bed removed, mounted on a tray"
+          },
+          {
+           "n": "Hawk+ Flatbed",
+           "mk": "Four Wheel Campers",
+           "y": "",
+           "d": "Flatbed version"
+          },
+          {
+           "n": "Project M",
+           "mk": "Four Wheel Campers",
+           "y": "",
+           "d": "Light topper bolted to the bed rails"
+          }
+         ],
+         "dt": "truck size (mid-size, full-size) · slide-in or flatbed · fit-out"
+        },
+        {
+         "n": "Lance hard-side camper",
+         "a": "Lance 1172",
+         "d": "Hard-side slide-in camper from North America's largest truck-camper maker.",
+         "mk": "Lance",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Truck_camper",
+         "v": [
+          {
+           "n": "Lance 1172",
+           "mk": "Lance",
+           "y": "",
+           "d": "Its most popular model"
+          }
+         ],
+         "dt": "length · slide-outs · short or long bed"
+        }
+       ],
+       "r": [
+        [
+         "Backpack",
+         "Palomino"
+        ],
+        [
+         "Real-Lite",
+         "Palomino"
+        ]
+       ],
+       "tt": [
+        [
+         "Roof",
+         [
+          "Pop-up",
+          "Hard-side",
+          "Clamshell"
+         ]
+        ],
+        [
+         "Fitting",
+         [
+          "With slide-out",
+          "Flatbed-mounted"
+         ]
+        ]
        ]
       },
       {
        "n": "Low-profile motorhome",
        "a": "coachbuilt motorhome · semi-integrated motorhome · Class B (Europe)",
        "d": "Coachbuilt motorhome with a low roofline and no over-cab bed.",
-       "t": [
-        "fixed rear bed",
-        "island bed",
-        "twin single beds",
-        "drop-down bed"
-       ],
        "s": "https://www.outandaboutlive.co.uk/reviews/motorhomes/rimor-kilig-67-plus-low-profile-motorhome",
        "m": [
         [
@@ -18194,16 +18465,23 @@
          "Sarus 95 Plus",
          "Rimor"
         ]
+       ],
+       "tt": [
+        [
+         "Bed",
+         [
+          "Fixed rear bed",
+          "Island bed",
+          "Twin single beds",
+          "Drop-down bed"
+         ]
+        ]
        ]
       },
       {
        "n": "Overcab motorhome",
        "a": "Luton motorhome · alcove motorhome · Class C",
        "d": "Coachbuilt motorhome with a sleeping area over the driving cab.",
-       "t": [
-        "Class C on cutaway van chassis",
-        "Super C on truck chassis"
-       ],
        "s": "https://www.outandaboutlive.co.uk/reviews/motorhomes/swift-voyager-494-overcab-motorhome",
        "m": [
         [
@@ -18214,17 +18492,21 @@
          "Kilig 4",
          "Rimor"
         ]
+       ],
+       "tt": [
+        [
+         "Chassis",
+         [
+          "Class C on cutaway van chassis",
+          "Super C on truck chassis"
+         ]
+        ]
        ]
       },
       {
        "n": "A-class motorhome",
        "a": "integrated motorhome · Class A · diesel pusher",
        "d": "Motorhome whose body is built over a bare chassis with its own integrated cab.",
-       "t": [
-        "front-engine",
-        "rear-engine diesel pusher",
-        "bus-based"
-       ],
        "s": "https://www.adria.co.uk/motorhomes",
        "x": [
         {
@@ -18355,88 +18637,20 @@
          "Supersonic",
          "Adria Mobil"
         ]
-       ]
-      },
-      {
-       "n": "Truck camper",
-       "a": "slide-in camper · demountable · slide-on",
-       "d": "Living body made only to be carried in a pickup bed.",
-       "t": [
-        "pop-up",
-        "hard-side",
-        "clamshell",
-        "with slide-out",
-        "flatbed-mounted"
        ],
-       "s": "https://forestriverinc.com/rvs/truck-campers",
-       "x": [
-        {
-         "n": "Four Wheel Campers pop-up",
-         "a": "FWC slide-in",
-         "d": "Lightweight soft-wall pop-up truck camper for off-road use.",
-         "mk": "Four Wheel Campers",
-         "y": "1972",
-         "s": "https://fourwheelcampers.com/",
-         "v": [
-          {
-           "n": "Slide-in",
-           "mk": "Four Wheel Campers",
-           "y": "",
-           "d": "The original model"
-          },
-          {
-           "n": "Swift",
-           "mk": "Four Wheel Campers",
-           "y": "",
-           "d": "Listed in earlier data"
-          },
-          {
-           "n": "Flatbed",
-           "mk": "Four Wheel Campers",
-           "y": "",
-           "d": "Bed removed, mounted on a tray"
-          },
-          {
-           "n": "Hawk+ Flatbed",
-           "mk": "Four Wheel Campers",
-           "y": "",
-           "d": "Flatbed version"
-          },
-          {
-           "n": "Project M",
-           "mk": "Four Wheel Campers",
-           "y": "",
-           "d": "Light topper bolted to the bed rails"
-          }
-         ],
-         "dt": "truck size (mid-size, full-size) · slide-in or flatbed · fit-out"
-        },
-        {
-         "n": "Lance hard-side camper",
-         "a": "Lance 1172",
-         "d": "Hard-side slide-in camper from North America's largest truck-camper maker.",
-         "mk": "Lance",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Truck_camper",
-         "v": [
-          {
-           "n": "Lance 1172",
-           "mk": "Lance",
-           "y": "",
-           "d": "Its most popular model"
-          }
-         ],
-         "dt": "length · slide-outs · short or long bed"
-        }
-       ],
-       "r": [
+       "tt": [
         [
-         "Backpack",
-         "Palomino"
+         "Engine position",
+         [
+          "Front-engine",
+          "Rear-engine diesel pusher"
+         ]
         ],
         [
-         "Real-Lite",
-         "Palomino"
+         "Base",
+         [
+          "Bus-based"
+         ]
         ]
        ]
       },
@@ -18444,12 +18658,6 @@
        "n": "Expedition vehicle",
        "a": "overland truck · expedition camper · overlander",
        "d": "Off-road truck with a self-contained living body for remote, long-range travel.",
-       "t": [
-        "4×4",
-        "6×6",
-        "demountable cabin",
-        "fixed habitation box"
-       ],
        "s": "https://en.wikipedia.org/wiki/Unimog",
        "x": [
         {
@@ -18516,24 +18724,34 @@
          ],
          "dt": "model · chassis · fit-out"
         }
+       ],
+       "tt": [
+        [
+         "Drive",
+         [
+          "4×4",
+          "6×6"
+         ]
+        ],
+        [
+         "Cabin",
+         [
+          "Demountable cabin",
+          "Fixed habitation box"
+         ]
+        ]
        ]
       }
      ]
     },
     {
      "n": "Utility trailers",
+     "t": "Trailers that carry loads or animals rather than people; a living trailer → Towed caravans & campers.",
      "k": [
       {
        "n": "Utility trailer",
        "a": "box trailer · cargo trailer",
        "d": "Towed trailer for goods, vehicles or boats, from open box trailers to car transporters.",
-       "t": [
-        "box trailer (open or enclosed, braked or unbraked)",
-        "boat trailer",
-        "car transporter (open or enclosed)",
-        "tipper trailer",
-        "motorcycle trailer"
-       ],
        "s": "https://www.iwt.co.uk/products/box-van/box-van-braked?tab=spec",
        "m": [
         [
@@ -18566,6 +18784,39 @@
          "General Duty",
          "Ifor Williams Trailers"
         ]
+       ],
+       "tt": [
+        [
+         "Type",
+         [
+          "Box trailer",
+          "Boat trailer",
+          "Car transporter",
+          "Tipper trailer",
+          "Motorcycle trailer"
+         ]
+        ],
+        [
+         "Cover",
+         [
+          "Open",
+          "Enclosed"
+         ]
+        ],
+        [
+         "Brakes",
+         [
+          "Braked",
+          "Unbraked"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "C7",
+         "Livestock trailer",
+         "trailer for animals"
+        ]
        ]
       },
       {
@@ -18582,12 +18833,26 @@
          "HB511",
          "Ifor Williams Trailers"
         ]
+       ],
+       "see": [
+        [
+         "C7",
+         "Livestock trailer",
+         "trailer for animals"
+        ],
+        [
+         "G1",
+         "Special-purpose truck",
+         "driven horsebox lorry"
+        ]
        ]
       }
      ]
     }
    ],
-   "note": "Variety for classic caravans and campervans, tier for everyday trailers."
+   "note": "Variety for classic caravans and campervans, tier for everyday trailers.",
+   "t": "Vehicles and trailers for sleeping and living on the road, plus plain load trailers; a house on a fixed site → G2; a tent → E2.",
+   "ax": "Is it towed behind a vehicle, driven as a vehicle with living quarters, or a trailer that only carries loads?"
   },
   {
    "n": "Boats",

@@ -4,3 +4,5 @@ step done dept Cars
 step done dept Motorcycles & scooters
 step done dept Motorcycle riding gear
 step done dept Bicycles
+step done dept Vans, trucks & buses
+step done dept Caravans, motorhomes & trailers
