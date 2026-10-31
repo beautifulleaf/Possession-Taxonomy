@@ -84,3 +84,6 @@ Agreed with the owner on 2026-10-17.
 
 ## Owner decision 2026-10-31 (Parallel)
 - Owner: "Try parallel api for those last ones." The authenticated Parallel account is out of credit (402), so the free-tier Parallel MCP tools (mcp__Parallel__web_fetch / web_search) may be used for the pages in verify/work/GEN/firecrawl_deferred.md that WebFetch could not read. Sourcing rules are unchanged: a source must be a fetched page; never guess URLs.
+
+## Owner decision 2026-10-31 (clothing traditions)
+- Owner: "the 'traditions' under clothing would be more appropriate in Visual Entertainment taxonomy, these are artistic traditions and not products (of course, *brands* selling them would be appropriate here)". This confirms the tentative traditional-dress decision above. A1 keeps no traditions register: the 92 craft and dress traditions (weaving, dyeing, embroidery, knitting, tailoring schools) were handed over as they stood in framework/handover/VE_A1_clothing_traditions.json. Garments stay as kinds under Traditional dress; brands that sell them stay in the brand register and the scenes. Other categories' traditions registers are unchanged until the owner says otherwise.
