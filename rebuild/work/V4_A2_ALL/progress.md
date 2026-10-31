@@ -9,3 +9,4 @@ step7 done: reebok(ABG 2022; Freestyle 1982,Club C 1985,Pump 1989,Question 1996,
 step8 done: Church's 1873 Northampton Prada 1999; Brooks 1914 Philadelphia Berkshire 2006 (indep sub 2011) Ghost 2008 Adrenaline GTS 1994; Converse 1908 Malden, Nike 2003, ChuckTaylor 1917 sig 1932, One Star 1974, Pro Leather 1976, Weapon 1986, Star Player 2010; Shoe polish: Warren blacking London c1795-98 origin; Clarks/Hoka/Kiwi 404. ~42 fetches. NEXT: write build script work/V4_A2_ALL/build_part.py
 step9: Church's Consul could not be attested (church-footwear.com 503/404, search excerpts only: 1945) -> omit and report. Fetching DONE (~46 fetches incl 2 firecrawl). NEXT: write build_part.py -> out/A2_parts/ALL.json, validate, report
 step10: wrote work/V4_A2_ALL/build_part.py; running
+step11: part built + validated OK (355 entries, 105 kinds, 229 KB). writing report
