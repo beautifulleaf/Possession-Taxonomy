@@ -33,6 +33,7 @@ Kind: "tt": [["Axis label", ["type", …]], …] (replaces "t"; drop "t" when "t
 Style: plain sentences under 30 words, British spelling, no marketing language, no codes or working terms in reader text.
 
 ## Limits
+- Every kind you merge into another or rename: record it in rebuild/out/<CODE>_renames.json as {"old name": "kept name", …} (the merger uses it to fold kinds other categories moved in).
 - Kinds never vanish silently: each removed kind is merged into a named kind (its archetypes, models and ranges carried over) or moved via _moves.json, and listed in the report. Do not drop sourced archetypes or models; move them to the right kind.
 - Kinds the rules send to another category go to rebuild/out/<CODE>_moves.json as {"to","dept","kind"} entries (append, never remove existing entries). Never edit another category's files.
 - Files you may edit: rebuild/out/<CODE>.json, rebuild/out/<CODE>_brands.json (add makers you use as archetype `mk`, exact names, checked case-insensitively against rebuild/reader/_brand_index.json), rebuild/out/<CODE>_moves.json. Back each up first to rebuild/work/STR_<CODE>/bak/; write via temp file then rename. Do the edits with a Python script in rebuild/work/STR_<CODE>/ (python3 -I), not by retyping the file. Log every retrieved URL in rebuild/work/STR_<CODE>/sources.tsv (item, url, date, status).

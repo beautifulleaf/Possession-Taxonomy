@@ -29,6 +29,11 @@ def put(t, m, key):
     sh['k'].append(m['kind'])
 for c in sys.argv[1:]:
     d = json.load(open(f'out/{c}.json'))
+    # agents list kinds they merged or renamed (old name -> kept name) so moved-in kinds fold into them
+    rn = json.load(open(f'out/{c}_renames.json')) if os.path.exists(f'out/{c}_renames.json') else {}
+    for o, n in rn.items():
+        for src in done:
+            covered.setdefault(src + '>' + c + ':' + o, n)
     # re-apply kinds moved IN from categories merged earlier (the rebuilt file would otherwise drop them);
     # a kind whose name the rebuilt category already has is taken as covered by it
     names = {k['n'].lower() for dp in d['depts'] for s in dp['s'] for k in s['k']}

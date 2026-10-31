@@ -13,15 +13,13 @@ DP("Tops","Garments that cover the upper body and are worn as a main layer, from
   K("Baby bodysuit","Sleeve: Short | Long | Sleeveless ;; Neck: Envelope (lap-shoulder) | Kimono wrap ;; Cuffs: Plain | Mitten ;; Pack: Single | Multipack",see=S(("Bodysuit","adult size"))),
  ]),
  SH("Team & sports shirts","Shirts in a team's colours, worn by players and fans and collected by club and season; cycling and running tops → Sports.",
-  "kinds by sport: football, rugby, American football, basketball, ice hockey, baseball, cricket, then other sports",[
+  "kinds by sport: football, rugby, basketball, ice hockey, baseball, cricket, then other sports",[
   K("Football shirt","Version: Home | Away | Third | Goalkeeper ;; Grade: Authentic (player issue) | Replica ;; Era: Current | Retro or throwback ;; Sleeve: Short | Long ;; Print: Plain | Name and number"),
   K("Rugby shirt","Style: Hooped stripe | Solid with contrast collar ;; Sleeve: Long | Short ;; Fabric: Heavyweight cotton | Modern technical jersey ;; Fit: Casual | Tight playing fit"),
-  N("American football jersey","gridiron jersey · NFL jersey","Numbered pullover jersey with shoulder-width sleeves worn over pads by American football players and bought by fans.",WP+"Jersey_(clothing)",
-    "Grade: Elite (game) | Limited | Game replica ;; Era: Current | Throwback ;; Print: Name and number | Plain"),
   K("Basketball jersey","Cut: Sleeveless | Sleeved ;; Grade: Authentic | Replica ;; Era: Current | Throwback ;; Edition: Association | Icon | Statement | City"),
   K("Ice-hockey jersey","Grade: Authentic | Fan replica ;; Version: Home | Away | Alternate ;; Era: Current | Throwback"),
   K("Baseball jersey","Version: Home | Road | Alternate ;; Fastening: Button-front | Pullover ;; Pattern: Plain | Pinstripe ;; Era: Current | Throwback"),
-  N("Cricket shirt","cricket whites · one-day shirt","Collared shirt in white for Test cricket or in team colours for limited-overs matches, worn by players and fans.",WP+"Cricket_clothing",
+  N("Cricket shirt","cricket whites · one-day shirt","Collared shirt in white for Test cricket or in team colours for limited-overs matches, worn by players and fans.",WP+"Cricket_clothing_and_equipment",
     "Format: Test whites | Limited-overs colours ;; Sleeve: Long | Short ;; Print: Plain | Name and number"),
   K("Team jersey","Version: Home | Away | Third ;; Grade: Authentic (player issue) | Replica ;; Era: Current | Retro or throwback ;; Sleeve: Short | Long ;; Print: Plain | Name and number",d="Pullover top in a team's colours for a sport without its own kind here; cycling jerseys are in Sports."),
  ]),
