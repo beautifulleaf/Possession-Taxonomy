@@ -35,10 +35,11 @@
    "axis": "region",
    "item": "Central & Eastern Europe",
    "queries": [
-    "Wikipedia Category:Home appliance brands (regional makers)"
+    "Wikipedia Category:Home appliance brands (regional makers)",
+    "Turkish/CEE household cleaning brands"
    ],
    "found": 2,
-   "note": "from encyclopedia category"
+   "note": "covered through Amica/Gorenje appliances; local detergent makers not found"
   },
   {
    "axis": "region",
@@ -77,10 +78,12 @@
    "axis": "region",
    "item": "South Asia",
    "queries": [
-    "Wikipedia Category:Home appliance brands (regional makers)"
+    "Wikipedia Category:Home appliance brands (regional makers)",
+    "Pakistan Bangladesh Sri Lanka detergent brands",
+    "India best detergent brands history Nirma Ghadi"
    ],
-   "found": 6,
-   "note": "from encyclopedia category"
+   "found": 11,
+   "note": "Pakistan/Bangladesh/Sri Lanka local detergent makers not surfaced beyond Wheel reach"
   },
   {
    "axis": "region",
@@ -95,17 +98,21 @@
    "axis": "region",
    "item": "Southeast Asia",
    "queries": [
-    "Wikipedia Category:Home appliance brands (regional makers)"
+    "Wikipedia Category:Home appliance brands (regional makers)",
+    "Indonesia leading detergent brands",
+    "Philippines Thailand Vietnam leading detergent brands local"
    ],
-   "found": 1,
-   "note": "from encyclopedia category"
+   "found": 9,
+   "note": "Philippines local (Champion, Calla) only in comments, not recorded"
   },
   {
    "axis": "region",
    "item": "Central Asia",
-   "queries": [],
+   "queries": [
+    "Rossmann Azerbaijan household brands"
+   ],
    "found": 0,
-   "note": "NOT TRIED"
+   "note": "Caucasus only; nothing for Kazakhstan/Uzbekistan etc."
   },
   {
    "axis": "region",
@@ -131,10 +138,11 @@
    "item": "Latin America & Caribbean",
    "queries": [
     "renowned cleaning tools/laundry makers Latin America & Caribbean",
-    "Wikipedia Category:Home appliance brands (regional makers)"
+    "Wikipedia Category:Home appliance brands (regional makers)",
+    "marcas de detergente jabón de lavar tradicionales México Argentina Chile Colombia"
    ],
    "found": 2,
-   "note": "from encyclopedia category"
+   "note": "search returned no Latin American brand page; Haceb, Mabe appliances from Wikipedia; Ypê en.wikipedia stub seen earlier"
   },
   {
    "axis": "kind",
@@ -324,30 +332,38 @@
   {
    "axis": "kind",
    "item": "Bins & waste > Indoor bins",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "best kitchen trash can tested Simplehuman Vipp Brabantia"
+   ],
+   "found": 6,
+   "note": "no independent test page fetched; market report and retailer listing only"
   },
   {
    "axis": "kind",
    "item": "Bins & waste > Sorted-waste bins",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "waste bin suppliers Fost Plus"
+   ],
+   "found": 6,
+   "note": ""
   },
   {
    "axis": "kind",
    "item": "Bins & waste > Outdoor bins",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "waste bin suppliers Fost Plus"
+   ],
+   "found": 3,
+   "note": "Sulo, Glasdon, Plastic Omnium"
   },
   {
    "axis": "kind",
    "item": "Bins & waste > Liners & compactors",
-   "queries": [],
+   "queries": [
+    "best kitchen trash can tested Simplehuman Vipp Brabantia"
+   ],
    "found": 0,
-   "note": "NOT TRIED"
+   "note": "no liner or compactor brand evidence surfaced"
   },
   {
    "axis": "kind",
@@ -479,10 +495,21 @@
   },
   {
    "region": "Southeast Asia",
-   "speciality": "Home appliances (Malaysia)",
+   "speciality": "Home appliances (Malaysia); Laundry detergents: Indonesia (SoKlin, Rinso), Thailand (Pao, Attack, Breeze, Sanzoft, Fineline, D-nee), Malaysia (Dynamo), Vietnam (Omo)",
    "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
    "brands": [
-    "Khind"
+    "Attack",
+    "Breeze",
+    "D-nee",
+    "Dynamo",
+    "Fineline",
+    "Khind",
+    "Omo",
+    "Pao",
+    "Rinso",
+    "Sanzoft",
+    "SoKlin",
+    "Wings (Wingscorp)"
    ]
   },
   {
@@ -585,6 +612,55 @@
    "brands": [
     "Madar",
     "Oxi (ARMA)"
+   ]
+  },
+  {
+   "region": "South Asia (India)",
+   "speciality": "Mass-market laundry powders and cakes: Nirma, Wheel, Rin, Ghadi, Surf Excel",
+   "src": "https://mpra.ub.uni-muenchen.de/74291/1/MPRA_paper_74291.pdf",
+   "brands": [
+    "Nirma",
+    "Wheel",
+    "Ghadi",
+    "Surf Excel",
+    "Rin (HUL)"
+   ]
+  },
+  {
+   "region": "Turkey",
+   "speciality": "Home cleaning and laundry (Peros, Asperox, Bingo, Bonus, Softlan, Viss) and appliances (Arçelik, Vestel)",
+   "src": "https://www.peroskimya.com/about-us",
+   "brands": [
+    "Peros",
+    "Asperox",
+    "Bingo",
+    "Bonus",
+    "Softlan",
+    "Viss",
+    "Arçelik",
+    "Vestel"
+   ]
+  },
+  {
+   "region": "Central Asia / Caucasus",
+   "speciality": "No local makers surfaced; Azerbaijan drugstore stocks German/Turkish household brands",
+   "src": "https://rossmann.az/en/products/household-593",
+   "brands": [
+    "Sidolin",
+    "Heitmann",
+    "Dalli",
+    "Domol",
+    "Waschkönig"
+   ]
+  },
+  {
+   "region": "Denmark / Northern Europe",
+   "speciality": "Designer waste bins (Vipp), Brabantia (Netherlands) pedal bins",
+   "src": "https://www.verifiedmarketresearch.com/product/pedal-trash-can-market",
+   "brands": [
+    "Vipp",
+    "Brabantia",
+    "Hailo"
    ]
   }
  ],
@@ -828,6 +904,76 @@
    "new_names": 1,
    "status": "done",
    "note": "manufacturer page"
+  },
+  {
+   "url": "https://seasiastats.com/statistic/best-selling-laundry-detergents-across-southeast-asia-srw6o",
+   "title": "Seasia Stats: best-selling laundry detergents across Southeast Asia",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 6,
+   "new_names": 1,
+   "status": "done",
+   "note": "Omo, Breeze, Ariel, Rinso, Persil mapped to countries"
+  },
+  {
+   "url": "https://thtvietnam.com.vn/en/top-8-cac-loai-nuoc-giat-thai-lan-thom-lau-tot-nhat-hien-nay",
+   "title": "THT Vietnam: top 8 Thai laundry detergents",
+   "kind": "ranking",
+   "years": "2025",
+   "names_on_page": 8,
+   "new_names": 3,
+   "status": "done",
+   "note": "editorial list by a Vietnamese OEM maker"
+  },
+  {
+   "url": "https://mpra.ub.uni-muenchen.de/74291/1/MPRA_paper_74291.pdf",
+   "title": "MPRA: Nirma case (Indian detergent market segments)",
+   "kind": "ranking",
+   "years": "2016",
+   "names_on_page": 6,
+   "new_names": 4,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.peroskimya.com/about-us",
+   "title": "Peros / Beyaz Kagit about us",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": "maker's own page"
+  },
+  {
+   "url": "https://rossmann.az/en/products/household-593",
+   "title": "Rossmann Azerbaijan household brand filter",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 60,
+   "new_names": 11,
+   "status": "done",
+   "note": "general drugstore, weak evidence; only recognised European/Turkish names taken"
+  },
+  {
+   "url": "https://www.fostplus.be/en/collecting-sorting/waste-bin-suppliers",
+   "title": "Fost Plus waste bin suppliers (Belgium)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 43,
+   "new_names": 6,
+   "status": "done",
+   "note": "Brabantia, Vileda, Rubbermaid, Curver listed; Vipp also"
+  },
+  {
+   "url": "https://www.verifiedmarketresearch.com/product/pedal-trash-can-market",
+   "title": "Verified Market Research pedal trash can market",
+   "kind": "ranking",
+   "years": "2025-2033",
+   "names_on_page": 9,
+   "new_names": 5,
+   "status": "done",
+   "note": "market report player list; independent quality test not found"
   }
  ],
  "brands": [
@@ -1888,6 +2034,310 @@
    "says": "ARMA Soap & Detergent Co., Heliopolis Cairo: Oxi brand laundry detergents, exported regionally",
    "country": "Egypt",
    "dept": "Laundry detergent"
+  },
+  {
+   "n": "Dynamo",
+   "layer": "cultural",
+   "src": "https://seasiastats.com/statistic/best-selling-laundry-detergents-across-southeast-asia-srw6o",
+   "says": "Seasia Stats 2026: Dynamo leads laundry detergent in Brunei and Malaysia",
+   "country": "Malaysia",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "SoKlin",
+   "layer": "cultural",
+   "src": "https://wingscorp.com/local-brands/page/3",
+   "says": "Wings Corp (Indonesia) local brands list: SoKlin detergent",
+   "country": "Indonesia",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Wings (Wingscorp)",
+   "layer": "cultural",
+   "src": "https://wingscorp.com/local-brands/page/3",
+   "says": "Wings: leading Indonesian local maker of home care and fabric care, brands incl. SoKlin, So Yumie, WPC toilet cleaner",
+   "country": "Indonesia",
+   "dept": "Home and fabric care"
+  },
+  {
+   "n": "Pao",
+   "layer": "cultural",
+   "src": "https://www.lion.co.th/index.php/en/product_brand_category/fabric-care/5",
+   "says": "Lion Corporation (Thailand) Pao range: Super Powder, Win Wash, M.Wash, Silver Nano; also in THT list of long-standing Thai detergent brands",
+   "country": "Thailand",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Fineline",
+   "layer": "cultural",
+   "src": "https://thtvietnam.com.vn/en/top-8-cac-loai-nuoc-giat-thai-lan-thom-lau-tot-nhat-hien-nay",
+   "says": "THT Vietnam list of best Thai laundry detergents: Fineline popular for strong cleaning; Thai thesis cites Neo Corporate Fineline liquid",
+   "country": "Thailand",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Sanzoft",
+   "layer": "cultural",
+   "src": "https://thtvietnam.com.vn/en/top-8-cac-loai-nuoc-giat-thai-lan-thom-lau-tot-nhat-hien-nay",
+   "says": "THT Vietnam top-8 Thai laundry detergents, number 1: Sanzoft, trusted in Vietnam for long-lasting fragrance",
+   "country": "Thailand",
+   "dept": "Laundry detergent / softener"
+  },
+  {
+   "n": "D-nee",
+   "layer": "cultural",
+   "src": "https://thtvietnam.com.vn/en/top-8-cac-loai-nuoc-giat-thai-lan-thom-lau-tot-nhat-hien-nay",
+   "says": "THT Vietnam top-8 Thai laundry detergents, number 2: D-nee",
+   "country": "Thailand",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Attack",
+   "layer": "cultural",
+   "src": "https://digital.library.tu.ac.th/tu_dc/digital/api/DownloadDigitalFile/dowload/193661",
+   "says": "Thammasat thesis: Kao's Attack detergent launched in Thailand 1989; Kao leads Attack in Japan",
+   "country": "Japan / Thailand",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Nirma",
+   "layer": "cultural",
+   "src": "https://mpra.ub.uni-muenchen.de/74291/1/MPRA_paper_74291.pdf",
+   "says": "MPRA paper: Nirma, family-owned, highest penetration washing powder and detergent cake in India, popular segment",
+   "country": "India",
+   "dept": "Laundry powder and cake"
+  },
+  {
+   "n": "Wheel",
+   "layer": "cultural",
+   "src": "https://www.markhub24.com/post/wheel-detergent-s-mass-market-campaign-strategy",
+   "says": "Wheel detergent (HUL, 1988): used by 200 million+ households in India, Sri Lanka, Bangladesh, Nepal",
+   "country": "India",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Ghadi",
+   "layer": "cultural",
+   "src": "https://www.markhub24.com/post/wheel-detergent-s-mass-market-campaign-strategy",
+   "says": "Ghadi by Rohit Surfactants overtook Wheel as India's largest detergent brand",
+   "country": "India",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Surf Excel",
+   "layer": "cultural",
+   "src": "https://mpra.ub.uni-muenchen.de/74291/1/MPRA_paper_74291.pdf",
+   "says": "MPRA paper: Surf, Ariel premium segment of Indian synthetic detergent market; Surf Excel is HUL premium brand",
+   "country": "India",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Rin (HUL)",
+   "layer": "cultural",
+   "src": "https://mpra.ub.uni-muenchen.de/74291/1/MPRA_paper_74291.pdf",
+   "says": "MPRA paper: Rin, Wheel mid-price segment of Indian detergent market (cake and powder)",
+   "country": "India",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Peros",
+   "layer": "cultural",
+   "src": "https://www.peroskimya.com/about-us",
+   "says": "Beyaz Kagit (100% Turkish-owned, Adana, est. 2005): Peros is second-largest brand in its category in Turkey, one of the three largest home cleaning producers",
+   "country": "Turkey",
+   "dept": "Laundry and home cleaning"
+  },
+  {
+   "n": "Asperox",
+   "layer": "cultural",
+   "src": "https://www.peroskimya.com/about-us",
+   "says": "Beyaz Kagit: Asperox became Turkey's most preferred spray cleaner brand",
+   "country": "Turkey",
+   "dept": "Surface spray cleaner"
+  },
+  {
+   "n": "Sidolin",
+   "layer": "cultural",
+   "src": "https://rossmann.az/en/products/household-593",
+   "says": "Listed in Rossmann Azerbaijan household brand filter (drugstore brand directory, Caucasus market)",
+   "country": "Germany",
+   "dept": "Household cleaning and laundry"
+  },
+  {
+   "n": "Dalli",
+   "layer": "cultural",
+   "src": "https://rossmann.az/en/products/household-593",
+   "says": "Listed in Rossmann Azerbaijan household brand filter (drugstore brand directory, Caucasus market)",
+   "country": "Germany",
+   "dept": "Household cleaning and laundry"
+  },
+  {
+   "n": "Heitmann",
+   "layer": "cultural",
+   "src": "https://rossmann.az/en/products/household-593",
+   "says": "Listed in Rossmann Azerbaijan household brand filter (drugstore brand directory, Caucasus market)",
+   "country": "Germany",
+   "dept": "Household cleaning and laundry"
+  },
+  {
+   "n": "Domol",
+   "layer": "cultural",
+   "src": "https://rossmann.az/en/products/household-593",
+   "says": "Listed in Rossmann Azerbaijan household brand filter (drugstore brand directory, Caucasus market)",
+   "country": "Germany",
+   "dept": "Household cleaning and laundry"
+  },
+  {
+   "n": "Viss",
+   "layer": "cultural",
+   "src": "https://rossmann.az/en/products/household-593",
+   "says": "Listed in Rossmann Azerbaijan household brand filter (drugstore brand directory, Caucasus market)",
+   "country": "Turkey/Germany",
+   "dept": "Household cleaning and laundry"
+  },
+  {
+   "n": "Tiret",
+   "layer": "cultural",
+   "src": "https://rossmann.az/en/products/household-593",
+   "says": "Listed in Rossmann Azerbaijan household brand filter (drugstore brand directory, Caucasus market)",
+   "country": "Germany/Turkey",
+   "dept": "Household cleaning and laundry"
+  },
+  {
+   "n": "Softlan",
+   "layer": "cultural",
+   "src": "https://rossmann.az/en/products/household-593",
+   "says": "Listed in Rossmann Azerbaijan household brand filter (drugstore brand directory, Caucasus market)",
+   "country": "Turkey",
+   "dept": "Household cleaning and laundry"
+  },
+  {
+   "n": "Vernel",
+   "layer": "cultural",
+   "src": "https://rossmann.az/en/products/household-593",
+   "says": "Listed in Rossmann Azerbaijan household brand filter (drugstore brand directory, Caucasus market)",
+   "country": "Germany/Turkey",
+   "dept": "Household cleaning and laundry"
+  },
+  {
+   "n": "Waschkönig",
+   "layer": "cultural",
+   "src": "https://rossmann.az/en/products/household-593",
+   "says": "Listed in Rossmann Azerbaijan household brand filter (drugstore brand directory, Caucasus market)",
+   "country": "Germany",
+   "dept": "Household cleaning and laundry"
+  },
+  {
+   "n": "Bingo",
+   "layer": "cultural",
+   "src": "https://rossmann.az/en/products/household-593",
+   "says": "Listed in Rossmann Azerbaijan household brand filter (drugstore brand directory, Caucasus market)",
+   "country": "Turkey",
+   "dept": "Household cleaning and laundry"
+  },
+  {
+   "n": "Bonus",
+   "layer": "cultural",
+   "src": "https://rossmann.az/en/products/household-593",
+   "says": "Listed in Rossmann Azerbaijan household brand filter (drugstore brand directory, Caucasus market)",
+   "country": "Turkey",
+   "dept": "Household cleaning and laundry"
+  },
+  {
+   "n": "Simplehuman",
+   "layer": "cultural",
+   "src": "https://www.verifiedmarketresearch.com/product/pedal-trash-can-market",
+   "says": "Named among major players in the pedal/trash can market (Verified Market Research)",
+   "country": "United States",
+   "dept": "Indoor bins"
+  },
+  {
+   "n": "Vipp",
+   "layer": "cultural",
+   "src": "https://www.verifiedmarketresearch.com/product/pedal-trash-can-market",
+   "says": "Named among major players in the pedal/trash can market (Verified Market Research)",
+   "country": "Denmark",
+   "dept": "Indoor bins"
+  },
+  {
+   "n": "Hailo",
+   "layer": "cultural",
+   "src": "https://www.verifiedmarketresearch.com/product/pedal-trash-can-market",
+   "says": "Named among major players in the pedal/trash can market (Verified Market Research)",
+   "country": "Germany",
+   "dept": "Indoor bins"
+  },
+  {
+   "n": "iTouchless",
+   "layer": "cultural",
+   "src": "https://www.verifiedmarketresearch.com/product/pedal-trash-can-market",
+   "says": "Named among major players in the pedal/trash can market (Verified Market Research)",
+   "country": "United States",
+   "dept": "Indoor bins"
+  },
+  {
+   "n": "Nine Stars",
+   "layer": "cultural",
+   "src": "https://www.verifiedmarketresearch.com/product/pedal-trash-can-market",
+   "says": "Named among major players in the pedal/trash can market (Verified Market Research)",
+   "country": "United States",
+   "dept": "Indoor bins"
+  },
+  {
+   "n": "Sulo",
+   "layer": "cultural",
+   "src": "https://www.fostplus.be/en/collecting-sorting/waste-bin-suppliers",
+   "says": "Listed by Fost Plus (Belgian packaging recycling body) among waste bin suppliers and manufacturers",
+   "country": "Germany",
+   "dept": "Sorted-waste and outdoor bins"
+  },
+  {
+   "n": "Curver",
+   "layer": "cultural",
+   "src": "https://www.fostplus.be/en/collecting-sorting/waste-bin-suppliers",
+   "says": "Listed by Fost Plus (Belgian packaging recycling body) among waste bin suppliers and manufacturers",
+   "country": "Israel/Belgium",
+   "dept": "Sorted-waste and outdoor bins"
+  },
+  {
+   "n": "Koziol",
+   "layer": "cultural",
+   "src": "https://www.fostplus.be/en/collecting-sorting/waste-bin-suppliers",
+   "says": "Listed by Fost Plus (Belgian packaging recycling body) among waste bin suppliers and manufacturers",
+   "country": "Germany",
+   "dept": "Sorted-waste and outdoor bins"
+  },
+  {
+   "n": "Allibert",
+   "layer": "cultural",
+   "src": "https://www.fostplus.be/en/collecting-sorting/waste-bin-suppliers",
+   "says": "Listed by Fost Plus (Belgian packaging recycling body) among waste bin suppliers and manufacturers",
+   "country": "France",
+   "dept": "Sorted-waste and outdoor bins"
+  },
+  {
+   "n": "Glasdon",
+   "layer": "cultural",
+   "src": "https://www.fostplus.be/en/collecting-sorting/waste-bin-suppliers",
+   "says": "Listed by Fost Plus (Belgian packaging recycling body) among waste bin suppliers and manufacturers",
+   "country": "United Kingdom",
+   "dept": "Sorted-waste and outdoor bins"
+  },
+  {
+   "n": "Plastic Omnium",
+   "layer": "cultural",
+   "src": "https://www.fostplus.be/en/collecting-sorting/waste-bin-suppliers",
+   "says": "Listed by Fost Plus (Belgian packaging recycling body) among waste bin suppliers and manufacturers",
+   "country": "France",
+   "dept": "Sorted-waste and outdoor bins"
+  },
+  {
+   "n": "Umbra",
+   "layer": "cultural",
+   "src": "https://www.williams-sonoma.com/shop/homekeeping/trash-can+trash-recycling/producttype-m-product-type-ff000610171ffe2020-1",
+   "says": "Williams Sonoma kitchen trash cans: Umbra Woodrow Trash Can",
+   "country": "Canada",
+   "dept": "Indoor bins"
   }
  ]
 }

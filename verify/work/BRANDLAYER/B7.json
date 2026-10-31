@@ -81,6 +81,47 @@
    ],
    "found": 1,
    "note": "Que Choisir/Consumentenbond mostly paywalled or no brand lists; Rommelsbacher unconfirmed"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "best pedestal fans",
+    "best space heaters",
+    "best portable air conditioners",
+    "RTINGS air purifiers"
+   ],
+   "found": 1,
+   "note": "all mainstream makers already in register; Rabbit Air new"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "CHOICE Australia fans heaters evaporative coolers",
+    "Seeley International"
+   ],
+   "found": 1,
+   "note": "CHOICE paywalled"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "Nordic Scandinavian air purifier brands Blueair Duux"
+   ],
+   "found": 0,
+   "note": "only retailer pages; Blueair/Duux already known"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Korea air purifier brands",
+    "Balmuda GreenFan"
+   ],
+   "found": 2,
+   "note": ""
   }
  ],
  "regions": [
@@ -188,6 +229,61 @@
     "Daitsu",
     "Taurus",
     "Cecotec"
+   ]
+  },
+  {
+   "region": "East Asia (South Korea)",
+   "speciality": "air purifiers and humidifiers (Coway, Winix, Cuckoo, Airshot, Chungho; Coway Red Dot/IDEA awards)",
+   "src": "https://www.expatguidekorea.com/article/top-7-korean-air-purifier-brands.html",
+   "brands": [
+    "Coway",
+    "Winix",
+    "Cuckoo",
+    "Airshot",
+    "Chungho",
+    "LG",
+    "Samsung"
+   ]
+  },
+  {
+   "region": "Oceania (Australia)",
+   "speciality": "evaporative air conditioning (Breezair); heaters",
+   "src": "https://en.wikipedia.org/wiki/Seeley_International",
+   "brands": [
+    "Seeley International (Breezair)",
+    "Goldair",
+    "Kambrook",
+    "Sunbeam"
+   ]
+  },
+  {
+   "region": "East Asia (Japan, design)",
+   "speciality": "GreenFan circulator: Red Dot and iF awards, Good Design Long Life Design Award",
+   "src": "https://en.wikipedia.com/wiki/Balmuda",
+   "brands": [
+    "Balmuda"
+   ]
+  },
+  {
+   "region": "Northern Europe (Sweden, Netherlands)",
+   "speciality": "air purifiers (Blueair, Sweden) and air treatment design (Duux, NL)",
+   "src": "https://www.silicon.co.uk/press-release/blueair-wins-prestigious-red-dot-and-good-design-awards-for-its-innovative-air-wellness-solutions",
+   "brands": [
+    "Blueair",
+    "Duux",
+    "Clean Air Optima"
+   ]
+  },
+  {
+   "region": "North America",
+   "speciality": "air circulators and space heaters (Vornado, Lasko, Honeywell); Fedders room ACs",
+   "src": "https://www.bobvila.com/reviews/best-pedestal-fans/",
+   "brands": [
+    "Vornado",
+    "Lasko",
+    "Honeywell",
+    "Fedders",
+    "Rabbit Air"
    ]
   }
  ],
@@ -331,6 +427,116 @@
    "new_names": 0,
    "status": "partial",
    "note": "describes register only; no B7 brands confirmed (search could not confirm Ariete/Bimar/Argo/Imetec); registry lookup not fetched"
+  },
+  {
+   "url": "https://www.expatguidekorea.com/article/top-7-korean-air-purifier-brands.html",
+   "title": "Expat Guide Korea: Top 7 Korean Air Purifier Brands",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 7,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Seeley_International",
+   "title": "Wikipedia Seeley International",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Fedders",
+   "title": "Wikipedia Fedders",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.com/wiki/Balmuda",
+   "title": "Wikipedia Balmuda",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Balmuda already in register; GreenFan Red Dot/iF"
+  },
+  {
+   "url": "https://rabbitair.com/pages/biogs-2-0-awards",
+   "title": "Rabbit Air awards",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.expertreviews.co.uk/fans/1404869/best-fans-heatwave",
+   "title": "Expert Reviews best fans 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 8,
+   "new_names": 0,
+   "status": "done",
+   "note": "mainstream tested brands all already in register; remaining names are Amazon-only budget labels (SereneLife, Humhold, Flowbreeze, Coolech, Airthryl, Gasbye, Pure Enrichment) with no quality evidence beyond affiliate lists, not added"
+  },
+  {
+   "url": "https://www.bobvila.com/reviews/best-pedestal-fans/",
+   "title": "Bob Vila best pedestal fans",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 5,
+   "new_names": 0,
+   "status": "done",
+   "note": "mainstream tested brands all already in register; remaining names are Amazon-only budget labels (SereneLife, Humhold, Flowbreeze, Coolech, Airthryl, Gasbye, Pure Enrichment) with no quality evidence beyond affiliate lists, not added"
+  },
+  {
+   "url": "https://www.hgtv.com/shopping/product-reviews/best-space-heaters",
+   "title": "HGTV best space heaters",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 7,
+   "new_names": 0,
+   "status": "done",
+   "note": "mainstream tested brands all already in register; remaining names are Amazon-only budget labels (SereneLife, Humhold, Flowbreeze, Coolech, Airthryl, Gasbye, Pure Enrichment) with no quality evidence beyond affiliate lists, not added"
+  },
+  {
+   "url": "https://www.rtings.com/air-purifier/reviews/best/air-purifiers",
+   "title": "RTINGS best air purifiers",
+   "kind": "award",
+   "years": "2024-2025",
+   "names_on_page": 6,
+   "new_names": 0,
+   "status": "done",
+   "note": "mainstream tested brands all already in register; remaining names are Amazon-only budget labels (SereneLife, Humhold, Flowbreeze, Coolech, Airthryl, Gasbye, Pure Enrichment) with no quality evidence beyond affiliate lists, not added"
+  },
+  {
+   "url": "https://www.bobvila.com/reviews/best-portable-air-conditioners/",
+   "title": "Bob Vila best portable ACs",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 8,
+   "new_names": 0,
+   "status": "done",
+   "note": "mainstream tested brands all already in register; remaining names are Amazon-only budget labels (SereneLife, Humhold, Flowbreeze, Coolech, Airthryl, Gasbye, Pure Enrichment) with no quality evidence beyond affiliate lists, not added"
+  },
+  {
+   "url": "https://www.pickhvac.com/portable-air-conditioner/",
+   "title": "PickHVAC portable ACs",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 8,
+   "new_names": 0,
+   "status": "done",
+   "note": "mainstream tested brands all already in register; remaining names are Amazon-only budget labels (SereneLife, Humhold, Flowbreeze, Coolech, Airthryl, Gasbye, Pure Enrichment) with no quality evidence beyond affiliate lists, not added"
   }
  ],
  "brands": [
@@ -597,6 +803,38 @@
    "says": "Ariante fan (Marco Zanuso 1975) won Compasso d'Oro 1979, 'icona del Design italiano', exhibited at MoMA New York; Vortice fans since 1955 (Atomium)",
    "country": "Italy",
    "dept": "Table, floor & stand fans"
+  },
+  {
+   "n": "Airshot",
+   "layer": "cultural",
+   "src": "https://www.expatguidekorea.com/article/top-7-korean-air-purifier-brands.html",
+   "says": "Expat Guide Korea 'Top 7 Korean Air Purifier Brands': #2, 'a familiar brand in Korea' (OMNI purifier)",
+   "country": "South Korea",
+   "dept": "Purifiers & filters"
+  },
+  {
+   "n": "Chungho",
+   "layer": "cultural",
+   "src": "https://www.expatguidekorea.com/article/top-7-korean-air-purifier-brands.html",
+   "says": "Expat Guide Korea 'Top 7 Korean Air Purifier Brands': #7 Chungho (Chungho Nais)",
+   "country": "South Korea",
+   "dept": "Purifiers & filters"
+  },
+  {
+   "n": "Seeley International (Breezair)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Seeley_International",
+   "says": "Wikipedia: Australian family-owned maker of evaporative air conditioners (Breezair, Braemar, Coolair), founded 1972; reportedly Australia's largest heating/cooling manufacturer; in Wikipedia HVAC companies category",
+   "country": "Australia",
+   "dept": "Evaporative coolers"
+  },
+  {
+   "n": "Fedders",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Fedders",
+   "says": "Wikipedia: US room air-conditioner maker, founded 1896, room ACs since 1946; in HVAC companies category",
+   "country": "USA",
+   "dept": "Air conditioners"
   }
  ]
 }

@@ -1,0 +1,116 @@
+{
+ "cat": "C5",
+ "items": [
+  {
+   "rubric_id": "C5-1",
+   "tradition": "Wajima-nuri",
+   "decision": "skip",
+   "dept": "Fountain pens, ink & calligraphy",
+   "shelf": "Fountain pens",
+   "kind": "Cartridge-converter fountain pen",
+   "record": {},
+   "makers": [],
+   "ve_link": "Wajima-nuri",
+   "why": "Product lives in B5 (added there as Wajima lacquer bowl, B5-34); the pen side is already present as 'Nakaya urushi pens'."
+  },
+  {
+   "rubric_id": "C5-15",
+   "tradition": "Hanji",
+   "decision": "skip",
+   "dept": "Fountain pens, ink & calligraphy",
+   "shelf": "Brush calligraphy tools",
+   "kind": "Calligraphy paper",
+   "record": {},
+   "makers": [],
+   "ve_link": "Hanji",
+   "why": "Already present: 'Hanji' (韓紙 · Korean paper) is an archetype under Calligraphy paper; rubric exists flag missed it."
+  },
+  {
+   "rubric_id": "C5-16",
+   "tradition": "Étival papermaking (Clairefontaine)",
+   "decision": "skip",
+   "dept": "Notebooks, planners & paper",
+   "shelf": "Notebooks & journals",
+   "kind": "Notebook",
+   "record": {},
+   "makers": [],
+   "ve_link": "",
+   "why": "Ambiguous resolved: the thing you buy is Clairefontaine paper, a brand (already present as 'Clairefontaine notebook'), not a named traditional product; the mill's papermaking is a process, so nothing new is added."
+  },
+  {
+   "rubric_id": "C5-18",
+   "tradition": "Japanese hanko (inkan)",
+   "decision": "add_archetype",
+   "dept": "Seals, stamps & sealing wax",
+   "shelf": "East Asian seals & paste",
+   "kind": "Name seal",
+   "record": {
+    "n": "Hanko",
+    "a": "inkan · 印鑑 · 判子",
+    "d": "Japanese personal name seal, in general use since modernisation in 1870, held in graded kinds from the legally regulated jitsuin to the everyday mitome-in.",
+    "mk": "",
+    "y": "1870s (general use)",
+    "s": "https://en.wikipedia.org/wiki/Seal_(East_Asia)",
+    "v": [
+     {
+      "n": "Jitsuin",
+      "mk": "",
+      "y": "",
+      "d": "registered seal, size, shape and lettering regulated by law"
+     },
+     {
+      "n": "Ginkō-in",
+      "mk": "",
+      "y": "",
+      "d": "bank seal"
+     },
+     {
+      "n": "Mitome-in",
+      "mk": "",
+      "y": "",
+      "d": "everyday seal; off-the-shelf sanmonban"
+     },
+     {
+      "n": "Gagō-in",
+      "mk": "",
+      "y": "",
+      "d": "artist's seal"
+     }
+    ],
+    "dt": "material: boxwood, black buffalo horn, stone, titanium, acrylic"
+   },
+   "makers": [],
+   "ve_link": "Japanese hanko (inkan)",
+   "why": "Product: hanko are bought from shops and stationers; was only an alias of Name seal, now an origin archetype. Seal carving as an art stays in VE."
+  },
+  {
+   "rubric_id": "C5-19",
+   "tradition": "Korean dojang",
+   "decision": "add_archetype",
+   "dept": "Seals, stamps & sealing wax",
+   "shelf": "East Asian seals & paste",
+   "kind": "Name seal",
+   "record": {
+    "n": "Dojang",
+    "a": "도장 · Korean seal",
+    "d": "Korean personal seal of wood, jade or ivory, the registered ingam used for important business and other dojang for everyday transactions.",
+    "mk": "",
+    "y": "",
+    "s": "https://en.wikipedia.org/wiki/Seal_(East_Asia)",
+    "v": [
+     {
+      "n": "Ingam (sirin)",
+      "mk": "",
+      "y": "",
+      "d": "registered seal with a certificate of seal registration"
+     }
+    ],
+    "dt": ""
+   },
+   "makers": [],
+   "ve_link": "Korean dojang",
+   "why": "Product; was only an alias of Name seal, now an origin archetype."
+  }
+ ],
+ "done": true
+}
