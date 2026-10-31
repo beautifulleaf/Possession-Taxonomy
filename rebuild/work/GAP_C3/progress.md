@@ -16,3 +16,4 @@ R3 fetches 3-10 done: g3/{Citrus,Lilium,Hippeastrum,Sempervivum,Aloe,Agave,Crass
 R3 fetches 11-18: saved Ficus Nepenthes Drosera Juniperus Ulmus .sp; Carmona NO ROWS; Peperomia and Tillandsia returned (~520, ~410) but NOT yet saved to files (retype heavy) - decide
 R3 fetches 11-18 all saved (Peperomia, Tillandsia too). Next: Salvia Rosa Acer Syringa Buxus + orchids (Phalaenopsis Cattleya Dendrobium Paphiopedilum Cymbidium Oncidium Vanda) = 12 fetches, then Acer palmatum cultivar group retry; then apply3.py
 R3 fetches 19-30 saved: g3/{Salvia,Rosa,Acer,Syringa,Buxus,Phalaenopsis,Cattleya,Dendrobium,Paphiopedilum,Cymbidium,Oncidium,Vanda}.sp. Next: Acer palmatum cultivar-group retry (1-2 fetches), then apply3.py (species+fruit cultivars lists)
+R3 done: apply3.py run, validate OK 313 kinds 7070 archetypes; 34 fetches (incl 1 timeout). Report appended.

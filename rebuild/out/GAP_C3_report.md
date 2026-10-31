@@ -20,3 +20,20 @@ Wikidata SPARQL through WebFetch, one query per genus: every species with an Eng
 - Cultivar kinds over 12 entries (tomato, beans, brassica, onion, rose classes, olive, apple) have no section axis in any source read; left unsectioned.
 - Wikidata rows were returned through a summariser; large lists could have dropped rows (Hoya and Mammillaria counts matched the Wikidata counts).
 - No market facts or roles added; no plant-breeder market list exists in fetched pages. Dried flowers and dwarf conifer not retried. Firecrawl not used.
+
+# Round 3 (34 fetches; total 80 over three rounds incl. one timeout)
+Validator: OK (313 kinds, 7,070 archetypes).
+
+## Added (species and hybrids with an English Wikipedia article, from Wikidata, 2026-10-31)
+- Succulents and houseplants: Aloe +156, Agave +76, Crassula +59, Dracaena (snake plant) +50, Ficus +232, Peperomia +457, Tillandsia +371, Sempervivum +6.
+- Carnivorous: Nepenthes +198, Drosera +157.
+- Bulbs and garden: Lilium +71, Hippeastrum +24, Salvia +349, Syringa +13, Buxus +16, Rosa species +125, Citrus species and hybrids +67 (Speciality citrus), Juniperus +66.
+- Orchids: Phalaenopsis +70, Cattleya +46, Dendrobium +178, Paphiopedilum +58, Cymbidium +17, Oncidium +56, Vanda +26.
+- Fruit and other cultivars, found by Wikidata cultivar-class labels: apple +228 (249 listed), pear +15, plum +2, peach 0 new, citrus (orange, mandarin, citron) +18, cherry +20 (sweet and sour), strawberry +4, tomato +8, olive +2. 56 kinds now carry `xg`/`g` sections.
+
+## Not added, and why
+- Ulmus and Acer species: the lists include fossil taxa and the target kinds are bonsai kinds; not added.
+- Acer palmatum cultivars: three queries (cultivar rank, cultivar-of, title prefix) returned nothing or timed out. Dionaea has one species (already an entry). Carmona: no rows.
+- Apricot, quince, fig, potato, grape, hosta and dahlia cultivar classes: no class label with articles in Wikidata; grape varieties belong with wine in the drinks taxonomy.
+- Species without an English Wikipedia article are still not listed; no POWO or WFO register was fetched. Wikidata rows pass through a summariser and may drop rows.
+- Cultivar kinds have no section axis in the sources, so apple, pear, cherry and the like stay unsectioned.
