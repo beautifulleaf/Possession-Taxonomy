@@ -23,9 +23,125 @@
    ],
    "found": 72,
    "note": "STRIDE home list fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Mobility aids > Collector canes / Walking aids",
+   "queries": [
+    "best walking stick makers handcrafted heritage",
+    "Fayet canne artisan maison",
+    "Wirecutter best cane rollator"
+   ],
+   "found": 1,
+   "note": "Swaine/Brigg known; Fayet new; US Brazos/Cane Masters seen only in excerpts - not recorded; Wirecutter/CR rollators: Drive Medical, Vive only in excerpts (not fetched)"
+  },
+  {
+   "axis": "kind",
+   "item": "Medicines & remedies > Traditional remedies",
+   "queries": [
+    "China time-honored brands TCM",
+    "Kampo manufacturers",
+    "Korean ginseng",
+    "Ayurvedic companies"
+   ],
+   "found": 100,
+   "note": "JKMA, laozihao 3rd batch, KGC, Wikipedia Ayurvedic fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Mobility aids > Wheelchairs & scooters",
+   "queries": [
+    "Wikipedia wheelchair manufacturers",
+    "Wikipedia prosthetic manufacturers"
+   ],
+   "found": 11,
+   "note": ""
   }
  ],
- "regions": [],
+ "regions": [
+  {
+   "region": "East Asia - China",
+   "speciality": "Traditional Chinese medicine; state register of Time-honored Brands (中华老字号) includes dozens of medicine makers",
+   "src": "https://swj.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=c094b4214034482fa8807f78b618d3c1.pdf",
+   "brands": [
+    "Tong Ren Tang",
+    "Yunnan Baiyao",
+    "Lisheng Pharmaceutical 力生",
+    "Kunyao 昆药",
+    "Sanjin 三金",
+    "Zhongjing 仲景",
+    "Ganlu Tibetan Medicine 甘露"
+   ]
+  },
+  {
+   "region": "East Asia - Japan",
+   "speciality": "Kampo (traditional herbal) medicines; 55-company Japan Kampo Medicines Manufacturers Association",
+   "src": "https://www.nikkankyo.org/jkma_guide/english_guide/pdf/e2026.pdf",
+   "brands": [
+    "Tsumura",
+    "Kracie",
+    "Ryukakusan",
+    "Yomeishu Seizo",
+    "Rohto Pharmaceutical",
+    "Taisho Pharmaceutical"
+   ]
+  },
+  {
+   "region": "East Asia - Korea",
+   "speciality": "Korean red ginseng (KGC Jung Kwan Jang since 1899)",
+   "src": "http://www.kgc.co.kr/en/business-brand/jungkwanjang.do",
+   "brands": [
+    "Jung Kwan Jang (Cheong Kwan Jang)"
+   ]
+  },
+  {
+   "region": "South Asia - India",
+   "speciality": "Ayurvedic medicine makers (Wikipedia category of 18 Ayurvedic companies; Kerala houses Arya Vaidya Sala, Vaidyaratnam Oushadhasala, Pankajakasthuri)",
+   "src": "https://en.wikipedia.org/wiki/Category:Ayurvedic_companies",
+   "brands": [
+    "Dabur",
+    "Himalaya Wellness Company",
+    "Baidyanath Group",
+    "Arya Vaidya Sala",
+    "Vaidyaratnam Oushadhasala",
+    "Pankajakasthuri Herbals",
+    "Amrutanjan Healthcare",
+    "Hamdard India",
+    "Patanjali Ayurved",
+    "Organic India",
+    "Medimix",
+    "Vicco"
+   ]
+  },
+  {
+   "region": "Northern Europe - Denmark",
+   "speciality": "Hearing aids (Demant/Oticon, Widex, GN ReSound; Wikipedia category lists Danish makers)",
+   "src": "https://en.wikipedia.org/wiki/Category:Hearing_aid_manufacturers",
+   "brands": [
+    "Oticon",
+    "Widex",
+    "GN Store Nord",
+    "Demant",
+    "Bernafon"
+   ]
+  },
+  {
+   "region": "Western Europe - France",
+   "speciality": "Handmade walking sticks (Thiers/Orleat, Fayet since 1909)",
+   "src": "https://www.galerie-fayet.com/en/content/17-cannes-fayet",
+   "brands": [
+    "Cannes Fayet"
+   ]
+  },
+  {
+   "region": "Western Europe - UK",
+   "speciality": "Handcrafted walking sticks (Swaine/Brigg, 'British gentry')",
+   "src": "https://swaine.london/collections/canes-walking-sticks",
+   "brands": [
+    "Swaine Adeney Brigg"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/Category:Ayurvedic_companies",
@@ -106,6 +222,36 @@
    "new_names": 29,
    "status": "partial",
    "note": "Only first/medicine-related entries read from excerpt; earlier batches (incl. Tong Ren Tang) not fetched. Pinyin transliteration added by me; Chinese brand name as on page. 0 already in register"
+  },
+  {
+   "url": "http://www.kgc.co.kr/en/business-brand/jungkwanjang.do",
+   "title": "Korea Ginseng Corporation - Jung Kwan Jang brand page",
+   "kind": "heritage",
+   "years": "1899-",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "0 already in register"
+  },
+  {
+   "url": "https://www.galerie-fayet.com/en/content/17-cannes-fayet",
+   "title": "Cannes Fayet house history",
+   "kind": "retailer",
+   "years": "1909-",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "0 already in register"
+  },
+  {
+   "url": "https://swaine.london/collections/canes-walking-sticks",
+   "title": "Swaine canes & walking sticks",
+   "kind": "retailer",
+   "years": "1750-",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "Brigg handcrafted walking sticks; confirms existing row 0 already in register"
   }
  ],
  "brands": [
@@ -1431,6 +1577,24 @@
    "says": "Entry in the Ministry of Commerce Third batch China Time-honored Brand list (中华老字号), medicine/TCM brand",
    "country": "China",
    "dept": "Traditional medicine (TCM)",
+   "already": false
+  },
+  {
+   "n": "Jung Kwan Jang (Cheong Kwan Jang)",
+   "layer": "cultural",
+   "src": "http://www.kgc.co.kr/en/business-brand/jungkwanjang.do",
+   "says": "Korean red ginseng brand since 1899 (Samjeonggwa), exported to 40+ countries, six-year-grown ginseng; claims World No.1 ginseng brand (Euromonitor 2022) - own page",
+   "country": "South Korea",
+   "dept": "Traditional medicine / ginseng",
+   "already": false
+  },
+  {
+   "n": "Cannes Fayet",
+   "layer": "premium",
+   "src": "https://www.galerie-fayet.com/en/content/17-cannes-fayet",
+   "says": "French walking-stick maker (Fayet-Rousseau founded 1909, Thiers; now Orleat), four generations, manufactures sticks from wood to finished product - own page, listed only",
+   "country": "France",
+   "dept": "Walking stick",
    "already": false
   }
  ]
