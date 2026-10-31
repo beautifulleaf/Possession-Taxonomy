@@ -17,3 +17,4 @@ step14b done: owner pages fetched: Ford_Motor_Company, Toyota, VW_Commercial_Veh
 step14c done: owner pages also fetched: Nissan, Mitsubishi_Motors, Hyundai_Motor_Group, Renault, Mercedes-Benz_Group, Honda, Suzuki, Kawasaki_Heavy_Industries (~57 fetches total this part). searches located atv.com yamaha/suzuki, List_of_Kawasaki_motorcycles, lichtsinn Chieftain, ACEA 2024 vans page
 step14d done: fetched atv.com yamaha, kawasaki list, brusselstimes (EU 2024), volvo press (shares), F-Series wiki, winnebago milestones; Firecrawl out of credits; imcdb/fleet.ie/lichtsinn blocked. next: write trucks_raw.txt + owners rework + atv lines + chieftain + ms, rebuild
 step14e done: fetched atv.com suzuki, powersportsbusiness suzuki 2007; trucks_raw.txt written. next: patch build.py with round2 block (owners from pages, trucks, ATV lines, Chieftain, ms)
+step15 done: round2 built+validated; next: update report, final reply
