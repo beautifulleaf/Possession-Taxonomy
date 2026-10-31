@@ -207,7 +207,7 @@ NL={'Chocolate':'One entry is a chocolate brand or bar sold under its own name (
 'Sweets & confectionery':'One entry is a confectionery brand sold under its own name (Haribo Goldbears, Skittles, Altoids), or a protected or traditional sweet named by a designation list; flavours and formats are versions.',
 'Biscuits & crackers':'One entry is a biscuit, cookie or cracker brand sold under its own name (Oreo, Digestive, Ritz), or a named traditional biscuit; flavours and sizes are versions.',
 'Ice cream':'One entry is an ice cream, lolly or frozen-dessert brand sold under its own name (Magnum, Cornetto, Ben & Jerry\'s); flavours and formats are versions.'}
-SEL={'Chocolate':f'Brand rows of Wikipedia\'s List of chocolate bar brands (A to Z, flavour and regional variants folded into versions), the chocolate and confectionery brands named on the group pages of Mars, Mondelēz, Nestlé, Ferrero, Hershey and Lindt & Sprüngli, and the bean-to-bar makers in Wikipedia\'s List of bean-to-bar chocolate manufacturers. Complete: all {n_cb} brand rows read from the chocolate bar list are placed (stand-alone bars as entries, variants as versions); the bean-to-bar list is complete at 35 of 35 rows, with the large makers Cailler, Roshen, Rebisco, Whittaker\'s and Tony\'s placed under their own tier.',
+SEL={'Chocolate':f'Brand rows of Wikipedia\'s List of chocolate bar brands (A to Z, flavour and regional variants folded into versions), the chocolate and confectionery brands named on the group pages of Mars, Mondelēz, Nestlé, Ferrero, Hershey and Lindt & Sprüngli, and the bean-to-bar makers in Wikipedia\'s List of bean-to-bar chocolate manufacturers. ',
 }
 for kn,(dn,k) in kinds.items():
     if k['x']:
@@ -216,16 +216,19 @@ for kn,(dn,k) in kinds.items():
         if not k.get('sel'): k['sel']=SEL.get(dn,'')
         elif 'Complete' not in k['sel'] and 'Covers' not in k['sel']: pass
         k.setdefault('sel','')
-# dept-level coverage text per kind added below
 COV={
-'Chocolate':'Complete: every stand-alone bar row of Wikipedia\'s List of chocolate bar brands (A to Z, about 330 rows read through the raw wikitext) is placed here or in Countline; flavour and regional variants of one bar are versions, and the 35 makers of the List of bean-to-bar chocolate manufacturers are all entered (Craft & indie, 27 makers; 5 large makers sit in their own tier).',
-'Sweets & confectionery':'Covers the brands named for the six groups (Mars, Mondelēz, Nestlé, Ferrero, Hershey, Haribo) on their fetched pages and the nested rows of Wikipedia\'s List of confectionery brands; the list is a dynamic list that its own page says is never complete, and Meiji and Lotte portfolios are limited to the brands their pages name (Hello Panda, Yan Yan, Kinoko no Yama, Ghana, Xylitol, Cool Mint, Crunky, Pepero).',
-'Biscuits & crackers':'Covers the biscuit and cracker brands named on the Mondelēz, Pladis, Ferrero, Bimbo, Lotte and Meiji pages, the brand-name rows of Wikipedia\'s List of crackers and the named biscuits of the List of biscuits and cookies; the cookie list names 150+ traditional biscuits that the structure pass already holds as entries, and the rest of the list is not read into entries.',
-'Ice cream':'Covers the global and regional brands of The Magnum Ice Cream Company and Froneri on their pages and the packaged-ice-cream rows of Wikipedia\'s List of ice cream brands (about 170 rows); parlour and shop chains (Cold Stone, Dairy Queen, Friendly\'s, Marble Slab, J.P. Licks, Mado and others) and defunct brands are left out as not products.'}
+'Chocolate':"Covers the stand-alone bar and brand rows of Wikipedia's List of chocolate bar brands (about 330 rows read through its raw wikitext; flavour and regional variants of one bar are versions) and all 35 rows of the List of bean-to-bar chocolate manufacturers (large makers sit under their own tier).",
+'Sweets & confectionery':"Covers the brands named for Mars, Mondelēz, Nestlé, Ferrero, Hershey and Haribo on their fetched pages and the nested rows of Wikipedia's List of confectionery brands, which calls itself a dynamic list that is never complete; the Meiji and Lotte pages name only a few brands (Hello Panda, Yan Yan, Kinoko no Yama, Ghana, Xylitol gum, Cool Mint, Crunky, Pepero), so their portfolios are short.",
+'Biscuits & crackers':"Covers the biscuit and cracker brands named on the Mondelēz, Pladis, Ferrero, Bimbo, Lotte and Meiji pages, the brand-name rows of Wikipedia's List of crackers and the named biscuits already held from the List of biscuits and cookies; the cookie list's many traditional biscuits (about 190 rows) were not all turned into entries.",
+'Ice cream':"Covers the global and regional brands of The Magnum Ice Cream Company and Froneri on their pages and the packaged-ice-cream rows of Wikipedia's List of ice cream brands (about 170 rows); parlour and shop chains (Cold Stone, Dairy Queen, Friendly's, Marble Slab, J.P. Licks, Mado and others) and defunct brands are left out as not products."}
 for kn,(dn,k) in kinds.items():
-    if k['x'] and 'Complete' not in k.get('sel','') and 'Covers' not in k.get('sel',''):
-        k['sel']=(k.get('sel') or SEL.get(dn,'') or 'Brands and named forms follow the cited pages.')+' '+COV[dn]
-        k['sel']=k['sel'].strip()
+    if not k['x']: continue
+    base=(k.get('sel') or '').strip()
+    base=base.split(' Covers ')[0].split(' Complete')[0].strip()
+    if any(e.get('tier') for e in k['x']):
+        k['sel']=(base+' ' if base else '')+f"This kind holds {len(k['x'])} entries. "+COV[dn]
+    else:
+        k['sel']=(base+' ' if base else '')+f"This kind holds {len(k['x'])} named traditional forms from the structure pass; no designation list was re-read in this pass."
 for dn in DEPTS: pass
 # ---------- ms panels
 ms={}
