@@ -21,3 +21,4 @@ step19: sail11.tsv + dufour.txt written; windows done to end (1892 English-label
 step20: Wikidata makers: Bell/Aviat/Extra/Van's/Slingsby/Cameron/AutoGyro/DG/LAK/Mooney labels empty; used Wikipedia pages Aviat, CubCrafters, DA62, P2012, Vans, Extra, Slingsby, Cameron (data in conversation). Next: jets (Wikidata), then data_air2.py + air.py extension + finalize.py
 step21: data_air2.py written (new entries, vers, slingsby). Next: extend air.py, finalize.py (re-apply Swift Trawler, sel fixes, DJI role), rerun, validate, report
 step22: finalize.py created; pipeline = build.py air.py assemble.py finalize.py. Remaining: sanity check, report update
+step23: second pass DONE; report updated

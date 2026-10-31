@@ -4,3 +4,4 @@ step2: fetched ~30 wikipedia medal articles (campaign/service); next: unit award
 step3: fetched army/joint/unit/merchant/PHS articles (all dates in hand; see sources). next: write edit script
 step4: edit1 applied (campaign/gallantry/longservice + g). next: Topps counts, UK medals, brands, report
 step5: Topps counts done (edit2). next: Wikipedia UK campaign medals windows check, coverage lines for kinds w/o, brands, report
+step6: edit3 coverage+brands done; next report

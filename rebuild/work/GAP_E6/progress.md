@@ -5,3 +5,4 @@ step2 fetched: Eyepiece, Binoculars(end), Telescope_mount, Orrery, Sundial(0-100
 step3 fetched (15 fetches so far): sundial2, anemometer, hygrometer, barometer, raingauge, optical microscope, astrolabe, sextant, armillary, geiger; apply via step3.py
 step3 done (weather principles, microscopes types, historic additions)
 step4 fetched (21 fetches): sundial end, astrolabe end, night vision, seismometer, planisphere, celestial globe; apply step4.py
+step5 fetched (25 so far incl. searches): thermometer, quadrant; smart-telescope + guide-scope pages being fetched

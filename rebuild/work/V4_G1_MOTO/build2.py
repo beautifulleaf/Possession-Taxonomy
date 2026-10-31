@@ -122,8 +122,11 @@ for n,cc in HONDA_TABLE:
     nm=n if n.startswith('Honda') else 'Honda '+n
     m=re.search(r'\(([A-Z]{1,4}\d[^,)]*)',n)
     key2=nk2('Honda '+m.group(1),'Honda') if m else None
-    if key2 and key2 in seen: continue
+    base=re.split(r' also known| \(|, |/',n)[0].strip()
+    key3=nk2('Honda '+base,'Honda')
+    if (key2 and key2 in seen) or (not key2 and key3 in seen): continue
     addentry(nm,'Honda','',WP+'List_of_Honda_motorcycles','',3,d=cc+' cc, engine-size table')
+    seen.add(key3)
     if key2: seen.add(key2)
 # gold wing versions
 GW=['GL1000','GL1100','GL1200','GL1500','GL1800']
@@ -144,13 +147,10 @@ READ='Wikidata classes Q23866334 (1,194 rows, all windows read), Q71310524 and Q
 catn={'Trike':(12,12,'Category:Tricycle_motorcycles'),'Underbone motorcycle':(21,21,'Category:Underbone_motorcycles'),'Moped':(46,46,'Category:Mopeds'),'Scooter':(162,162,'Category:Motor_scooters'),'Dual-sport motorcycle':(130,130,'Category:Dual-sport_motorcycles'),'Cruiser motorcycle':(92,92,'Category:Cruiser_motorcycles'),'Touring motorcycle':(86,86,'Category:Touring_motorcycles and Category:Sport_touring_motorcycles'),'Sport motorcycle':(221,221,'Category:Sport_bikes'),'Trail bike':(64,64,'Category:Off-road_motorcycles'),'Standard motorcycle':(336,336,'Category:Standard_motorcycles')}
 subnote={'Scooter':'; its subcategories (electric, Indian, maxi, Piaggio Vespa scooters) were not read','Moped':'; its 5 subcategories were not read','Dual-sport motorcycle':'; the Rally raid bikes subcategory was not read'}
 def cov(kind):
-    if kind in catn:
-        a,b,c=catn[kind]
-        got=catcount[kind]
-        sub=subnote.get(kind,'')
-        if sub: return 'Covers %d of %d pages in %s%s.'%(got,b,c,sub)
-        return 'Complete: %d of %d pages in %s.'%(got,b,c)
-    return ''
+    a,b,c=catn[kind]
+    got=catcount[kind]
+    sub=subnote.get(kind,'')
+    return 'Covers %d model pages of the %d pages in %s; the rest are general, manufacturer, engine or non-motorcycle pages%s.'%(got,b,c,sub)
 SECTXT={'Standard motorcycle':'Type is stated by Wikipedia category membership (Standard motorcycles). ','Sport motorcycle':'Type from Wikipedia categories (Sport bikes) and the Yamaha and Kawasaki list sections. ','Cruiser motorcycle':'Type from Wikipedia category (Cruiser motorcycles). ','Touring motorcycle':'Type from Wikipedia categories (Touring and Sport touring motorcycles) and list sections. ','Dual-sport motorcycle':'Type from Wikipedia category (Dual-sport motorcycles) and the Honda dual-purpose section. ','Trail bike':'Type from the Wikipedia Off-road motorcycles category, which does not state a finer type, and Yamaha, Honda and Kawasaki off-road list sections. ','Scooter':'Type from Wikipedia category (Motor scooters) and list sections; the Vespa marque is a scooter marque on its article. ','Moped':'Type from Wikipedia category (Mopeds). ','Underbone motorcycle':'Type from Wikipedia category (Underbone motorcycles). ','Trike':'Type from Wikipedia category (Tricycle motorcycles) and the Harley-Davidson trikes section. '}
 def kind_obj(name):
     o=None

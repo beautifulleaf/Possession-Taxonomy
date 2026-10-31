@@ -12,3 +12,4 @@ step3 done: apply2.py run, validate OK (313 kinds, 3829 archetypes), 46 fetches;
 ROUND3 start (budget ~45 fetches; used 0 this round). Plan: fruit class query first, then species genera list -> g/*.txt, apply3.py
 R3 fetch 1 done: fruit class query -> g3/{apple(249),pear(19),plum(4),peach(2)}.txt (cherry/apricot/grape labels absent). Next: try cherry/apricot labels (1 fetch) then species genera
 R3 fetch 2 done: g3/{citrus,olive,sourcherry,sweetcherry,strawberry,tomato}.txt saved. apricot/quince/fig/potato/hosta/dahlia class labels returned nothing. Next: species genera (fetch 3+)
+R3 fetches 3-10 done: g3/{Citrus,Lilium,Hippeastrum,Sempervivum,Aloe,Agave,Crassula,Dracaena}.sp saved (Citrus also lists hybrids; common-name junk dropped). Next: Ficus Peperomia Tillandsia Nepenthes Drosera Juniperus Ulmus Carmona Salvia Rosa Acer Syringa Buxus + orchids Phalaenopsis Cattleya Dendrobium Paphiopedilum Cymbidium Oncidium Vanda
