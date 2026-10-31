@@ -742,6 +742,26 @@
    "new_names": 2,
    "status": "partial",
    "note": "sweep kind: Underwear; tested (search excerpt); 0 known, 0 pending elsewhere"
+  },
+  {
+   "url": "https://www.brentblack.com/pages/best_04.html",
+   "title": "Brent Black Panama Hats: the best weaver alive (Montecristi)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "partial",
+   "note": "sweep kind: Brimmed hats/Panama (search excerpt); 0 known, 0 pending elsewhere"
+  },
+  {
+   "url": "https://panamahatters.it/en/pages/intervista-mr-panama",
+   "title": "Panama Hatters (Milan) interview",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "partial",
+   "note": "sweep kind: Brimmed hats/Panama (search excerpt); 0 known, 0 pending elsewhere"
   }
  ],
  "brands": [
@@ -2940,6 +2960,33 @@
    "country": "",
    "dept": "Supima cotton underwear",
    "already": false
+  },
+  {
+   "n": "Brent Black",
+   "layer": "premium",
+   "src": "https://www.brentblack.com/pages/best_04.html",
+   "says": "specialist Montecristi Panama hat maker/seller",
+   "country": "Ecuador",
+   "dept": "Montecristi Panama hats",
+   "already": false
+  },
+  {
+   "n": "Panama Hatters",
+   "layer": "premium",
+   "src": "https://panamahatters.it/en/pages/intervista-mr-panama",
+   "says": "Italian-designed Ecuadorian-made Panama hats; interview also names Italian hat makers",
+   "country": "Italy",
+   "dept": "Panama hats made in Ecuador",
+   "already": false
+  },
+  {
+   "n": "Panizza",
+   "layer": "premium",
+   "src": "https://panamahatters.it/en/pages/intervista-mr-panama",
+   "says": "Italian-designed Ecuadorian-made Panama hats; interview also names Italian hat makers",
+   "country": "Italy",
+   "dept": "hats (Made in Italy, named in interview)",
+   "already": false
   }
  ],
  "regions": [
@@ -3305,30 +3352,57 @@
   },
   {
    "axis": "kind",
-   "item": "Underwear, nightwear & swim > Nightwear & robes",
-   "queries": [
-    "best pyjamas nightwear makers luxury and affordable"
-   ],
-   "found": 0,
-   "note": "results dominated by underwear; no nightwear list surfaced; retry"
-  },
-  {
-   "axis": "kind",
    "item": "Hats & headwear > Brimmed hats",
    "queries": [
-    "best hat makers hatters felt fedora Panama renowned Borsalino Stetson"
+    "best hat makers in the world hatters Panama hat Montecristi felt fedora"
    ],
-   "found": 0,
-   "note": "no usable result (cap on queries); retry"
+   "found": 6,
+   "note": "Lock & Co., Borsalino, Stetson known; Brent Black, Panama Hatters, Panizza new (Montecristi/Panama)"
   },
   {
    "axis": "kind",
    "item": "Hats & headwear > Caps & knit headwear",
    "queries": [
-    "best flat cap beret knitted hat beanie makers heritage"
+    "best flat cap beret makers heritage Hanna Hats Laulhere"
+   ],
+   "found": 3,
+   "note": "Laulhère (EPV-labelled beret maker) known"
+  },
+  {
+   "axis": "kind",
+   "item": "Underwear, nightwear & swim > Nightwear & robes",
+   "queries": [
+    "best pyjamas brands luxury and affordable nightwear tested"
    ],
    "found": 0,
-   "note": "no usable result (cap on queries); retry"
+   "note": "pyjama query returned no nightwear list in results (hat results dominated); gap"
+  },
+  {
+   "axis": "kind",
+   "item": "Scarves, gloves & belts > Hands & arms",
+   "queries": [
+    "best gloves makers Dents Merola Hestra renowned glove makers"
+   ],
+   "found": 3,
+   "note": "Dents, Hestra known; Merola pending"
+  },
+  {
+   "axis": "kind",
+   "item": "Scarves, gloves & belts > Neck & shoulders",
+   "queries": [
+    "best belts and scarves makers heritage quality Johnstons of Elgin Begg"
+   ],
+   "found": 1,
+   "note": "Johnstons of Elgin known; Begg x Co new but not recorded (not on a fetched/seen page)"
+  },
+  {
+   "axis": "kind",
+   "item": "Scarves, gloves & belts > Waist",
+   "queries": [
+    "best belts and scarves makers heritage quality Johnstons of Elgin Begg"
+   ],
+   "found": 0,
+   "note": "no belt result surfaced; gap"
   }
  ]
 }
