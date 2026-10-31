@@ -145,6 +145,27 @@ def nlfor(kn):
     if 'ball' in k or k in ('sliotar',): return NL['ball']
     return NL['gear']
 
+
+def fold(k, new):
+    # entries sourced only by the kind page are folded into their maker's entry
+    for e in new:
+        mk = e['mk']
+        tgt = None
+        for x in k['x']:
+            if x.get('mk') == mk and x['s'] != k['s']: tgt = x; break
+        if tgt is None:
+            for x in k['x']:
+                if x.get('mk') == mk and x.get('_fold'): tgt = x; break
+        if tgt is None:
+            tgt = {'n': mk if mk else 'Other makers', 'a': '', 'd': f'{mk} range in this kind; the lines listed are versions.' if mk else 'Makers not named on the page.', 'mk': mk, 'y': '', 's': k['s'], 'v': [], '_fold': True}
+            k['x'].append(tgt)
+        nm = e['n']
+        have = {v['n'].lower() for v in tgt['v']}
+        subs = e['v'] or [{'n': nm, 'mk': mk, 'y': '', 'd': ''}]
+        for v in subs:
+            if v['n'].lower() not in have:
+                tgt['v'].append(v); have.add(v['n'].lower())
+
 def main():
     P = {'replaces': NAMES, 'depts': [], 'brands': [], 'brand_updates': {}, 'renames': {}, 'moves': []}
     dropped_models = []
@@ -167,7 +188,7 @@ def main():
                 kn = k['n']; names = {e['n'].lower() for e in k['x']}
                 if kn in KEEP:
                     new = models_to_entries({**k, 'm': k['m_old']}, names)
-                    k['x'].extend(new)
+                    fold(k, new)
                 else:
                     if k['m_old']: dropped_models.append((kn, len(k['m_old'])))
                 if kn == 'Football':
@@ -285,6 +306,9 @@ def main():
         if d['n'] == 'Target & precision sports':
             d['msum'] = 'No market figure for target and precision sport equipment was found on a fetched page; bows and firearms are listed under E4.'
             d['ms'] = []
+        for sh in d['s']:
+            for k in sh['k']:
+                for x in k['x']: x.pop('_fold',None)
         P['depts'].append(d)
     json.dump(P, open('/home/user/Possession-Taxonomy/rebuild/out/E2_parts/RACKET.json', 'w'), ensure_ascii=False, indent=0)
     print('dropped model lists', dropped_models)

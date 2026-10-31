@@ -108,8 +108,8 @@ for dp_,kn,vn in unplaced:
     pass
 EXTRA={'Latisse':('Latisse','M'),'Kurlash':('Kurlash','M'),'Patti Nails':('Patti Nails','M')}
 for vn,(bn,dp_) in EXTRA.items():
-    kdsrc=[k for sh in OLD['Make-up']['s'] for k in sh['k'] if any(m[0]==vn for m in k.get('m',[]))][0]
-    add_entry(bn,'',dp_,'','',reg_c(bn),'','',reg_f(bn),kdsrc.get('s',''),'')
+    srcs=[(x['s'] if any(x['n']==vn for x in k.get('x',[])) else k.get('s','')) for sh in OLD['Make-up']['s'] for k in sh['k'] if any(m_[0]==vn for m_ in k.get('m',[])) or any(x['n']==vn for x in k.get('x',[]))]
+    add_entry(bn,'',dp_,'','',reg_c(bn),'','',reg_f(bn),srcs[0],'')
     ENT[norm(bn)]['depts'][dp_]['v'].append({'n':vn,'y':'','d':''})
 print('stats',dict(stats),'unplaced',unplaced[:20])
 # sanity: drop empty-version placeholders for own source
@@ -236,3 +236,78 @@ def product_shelves(dn):
             ks.append(k2)
         s2['k']=ks;out.append(s2)
     return out
+
+# ---------------- market panels ----------------
+def m(mkt,who,share,yr,s,note): return {'mkt':mkt,'who':who,'share':share,'yr':yr,'s':s,'note':note}
+K36=DG.SRC['CBR'].replace('china-briefing','china-briefing')
+K36='https://eu.36kr.com/en/p/3948665181469830'
+GRP=[m('Largest beauty groups, first half of 2026',w,f"{v} billion yuan",2026,K36,f"{r}: sales in billion yuan as the article states; whole beauty business, not skin care alone") for r,w,v in (('rank 1',"L'Oréal",'1,865.96'),('rank 2','Unilever','1,043.79'),('rank 3','Procter & Gamble','527.09'),('rank 4','The Estée Lauder Companies','493.34'))]
+GRP+=[m('Largest beauty groups, first half of 2026',w,'below 400 billion yuan',2026,K36,f"{r}; exact figure not stated") for r,w in (('rank 5','Beiersdorf'),('rank 6','Kenvue'),('rank 7','LVMH'),('rank 8','Shiseido'),('rank 9','Puig'),('rank 10','Coty'))]
+REV=[m('Group revenue',"L'Oréal",'EUR 44.052 billion',2025,DG.SRC['LO'],'whole group, all divisions'),
+ m('Group revenue','The Estée Lauder Companies','USD 14.3 billion',2025,DG.SRC['EL'],'fiscal 2025, whole group; Wikipedia calls it the second largest cosmetics company after L\'Oréal'),
+ m('Group revenue','Beiersdorf','EUR 9.85 billion',2024,DG.SRC['BE'],'whole group including adhesives and plasters'),
+ m('Group revenue','Puig','EUR 4,790 million',2024,DG.SRC['PU'],'whole group, net revenues'),
+ m('Group revenue','Coty','USD 5.89 billion',2025,DG.SRC['CO'],'whole group'),
+ m('Group revenue','Amorepacific','KRW 4.25 trillion',2025,DG.SRC['AM'],'whole group')]
+CHN_S=[m('China skin care, domestic brands (ASKCI ranking)',w,f"rank {i}",2025,DG.SRC['CBR'],'ranking only; the page gives no shares or method') for i,w in enumerate(['Proya','Winona','Pechoin','Chando','Biohyalux','Dr.Yu'],1)]
+CHN_S+=[m('China beauty, foreign and global brands (ASKCI ranking)',w,f"rank {i}",2025,DG.SRC['CBR'],'ranking only; mixes skin care and make-up') for i,w in enumerate(['Lancôme','Estée Lauder','L\'Oréal Paris','Chanel','Dior','SK-II'],1)]
+CHN_S+=[m('China skin care, sensitive-skin repair segment','Winona','over 20 %',None,DG.SRC['CBR'],'share of its segment; year not stated'),
+ m('China skin care, product mix','Moisturisers','62.9 %',2024,DG.SRC['CBR'],'share of the skin care segment, up 9.5 % that year'),
+ m('China, home-grown beauty brands','Proya','CNY 8.9 billion',2023,DG.SRC['YI'],'revenue, up 39 %; passed Shanghai Jahwa to become China\'s largest home-grown beauty brand'),
+ m('China, home-grown beauty brands','Shanghai Jahwa','CNY 6.6 billion',2023,DG.SRC['YI'],'revenue, down 7 %')]
+IND=[m('India skin care','Hindustan Unilever','30 %',None,DG.SRC['KOT'],'share as the page states; year not stated'),
+ m('India skin care','The Himalaya Drug Company','23.8 %',None,DG.SRC['KOT'],'year not stated'),
+ m('India skin care',"L'Oréal India",'8 %',None,DG.SRC['KOT'],'year not stated'),
+ m('India skin care','Biotique','6 %',None,DG.SRC['KOT'],'year not stated'),
+ m('India skin care','Lotus Herbals','3 %',None,DG.SRC['KOT'],'year not stated'),
+ m('India skin care market size','All companies','USD 8.78 billion',2024,DG.SRC['KOT'],'market value as the page states')]
+JPN=[m('Japan cosmetics market size','All companies','about USD 35 billion',2019,DG.SRC['TG'],'METI estimate quoted by the US Commerce Department; third largest market after the US and China'),
+ m('Japan cosmetics, product mix','Skin care','53 %',None,DG.SRC['TG'],'share of the Japanese cosmetics market; year not stated (page dated 2021)'),
+ m('Japan cosmetics, leading companies','Shiseido, Kao, Kosé, Pola Orbis','named, no shares',2021,DG.SRC['TG'],'named as global brands among about 3,000 beauty care companies'),
+ m('Japan cosmetics imports','South Korea','main import source',2022,DG.SRC['GT'],'South Korea overtook France as the main source of imports in 2022')]
+BRA=[m('Brazil beauty and personal care','Grupo Boticário','15.5 %',2025,'https://braziljournal.com/boticario-encosta-na-natura-pela-nielsen-ja-somos-o-lider/','Euromonitor figure, up 50 basis points; the article says Natura (with Avon) is 0.3 points ahead')]
+EUR=[m('Germany cosmetics retail sales','All companies','EUR 12.6 billion',2008,DG.SRC['CB'].replace('Category:Cosmetics_brands','Cosmetics_industry'),'third largest market in the world at that date, behind the US and Japan'),
+ m('France cosmetics sales','All companies','EUR 6.5 billion',2006,'https://en.wikipedia.org/wiki/Cosmetics_industry','FIPAR figure quoted by Wikipedia')]
+MS_S=GRP+REV+CHN_S+IND+JPN+BRA+EUR
+CHN_M=[m('China make-up, online sales','Carslan','top three',2025,DG.SRC['CBR'],'named among the top three for online make-up sales; no shares'),
+ m('China make-up, online-native brands','Perfect Diary','top brand',2025,DG.SRC['CBR'],'described as the leading online-native make-up brand'),
+ m('China make-up, lipstick and foundation','YSL Beauty','growing about 20 % a year',2025,DG.SRC['CBR'],'growth claim on the page; no sales figure')]
+MS_M=GRP+REV+CHN_M+JPN[:1]
+def mk_dept(dn,dp,ms,msum,note,tt):
+    od=OLD[dn]
+    d={'n':dn,'mode':'mixed','t':od['t'],'ax':od['ax'],'b':od['b'],'note':note,'msum':msum,'ms':ms}
+    d['s']=build_dept(dp)+product_shelves(dn)
+    return d
+SK=mk_dept('Skincare','S',MS_S,"L'Oréal leads the world beauty groups, ahead of Unilever, Procter & Gamble and Estée Lauder (first half of 2026). In China the home-grown Proya leads skin care; in India Hindustan Unilever and Himalaya lead; in Brazil Natura and Grupo Boticário are almost level. No fetched page gives a current skin care share for the United States, the United Kingdom, Germany or France.",
+ "Organised by market: owner group, then national champions, independents, craft and indie, own label, and brands with no stated owner. The routine-step shelves at the end keep each kind's attributes; the brands that make their products are the entries above, with product lines as versions.",None)
+MK=mk_dept('Make-up','M',MS_M,"The same groups lead make-up as lead beauty overall. The fetched pages give no make-up share for any country; in China, Carslan and Perfect Diary lead online sales. Fenty Beauty, Kylie Cosmetics and e.l.f. show the move of new brands into the global groups.",
+ "Organised by market: owner group, then national champions, independents, craft and indie, own label, and brands with no stated owner. The shelves by part of the face and body at the end keep each kind's attributes; the brands that make their products are the entries above, with product lines as versions.",None)
+for d in (SK,MK):
+    for k in [k for sh in d['s'] for k in sh['k']]:
+        pass
+part={'replaces':['Skincare','Make-up'],'depts':[SK,MK],'brands':[],'brand_updates':{},'renames':{},'moves':[]}
+# register
+newb=[];upd={}
+owners=set()
+for e in ENT.values():
+    key=norm(e['n'])
+    r=REG.get(key)
+    if r:
+        u={k:v for k,v in (('own',e['own']),('tier',e['tier']),('c',e['cty'])) if v and (k!='c' or not r.get('c'))}
+        if u: upd[r['n']]=u
+    else:
+        seg={'Global group':'Mainstream','Craft & indie':'Artisan & independent','Own label':'Own-label & retailer'}.get(e['tier'],'Mainstream')
+        newb.append({'n':e['n'],'c':e['cty'],'f':str(e['y'] or ''),'seg':seg,'d':'Beauty brand named on a fetched reference.','lines':[],'eras':[],'sig':[],'sc':[],'rel':[],'s':e['s'],'kf':'skin care or make-up','own':e['own'],'tier':e['tier']})
+    if e['own']: owners.add(e['own'])
+for o in sorted(owners):
+    if norm(o) not in REG and norm(o) not in {norm(b['n']) for b in newb}:
+        newb.append({'n':o,'c':'','f':'','seg':'Mainstream','d':'Company named as owner of beauty brands on a fetched reference.','lines':[],'eras':[],'sig':[o],'sc':[],'rel':[],'s':'https://en.wikipedia.org/wiki/'+o.replace(' ','_'),'kf':'owner'})
+part['brands']=newb;part['brand_updates']=upd
+import os
+os.makedirs(R+'out/H1_parts',exist_ok=True)
+json.dump(part,open(R+'out/H1_parts/SKIN.json.tmp','w'),ensure_ascii=False,indent=0)
+os.replace(R+'out/H1_parts/SKIN.json.tmp',R+'out/H1_parts/SKIN.json')
+print('size',os.path.getsize(R+'out/H1_parts/SKIN.json'))
+for d in (SK,MK):
+    n=sum(len(k.get('x',[])) for sh in d['s'] for k in sh['k']);print(d['n'],'entries',n,'kinds',sum(len(sh['k']) for sh in d['s']))
+print('brands new',len(newb),'updates',len(upd))
