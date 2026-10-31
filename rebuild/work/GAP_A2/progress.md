@@ -3,3 +3,4 @@ step1: owners round done: Diadora/Geox, Keds/Designer Brands 2023, Sperry/ABG, T
 step2: regions of traditional forms fetched (list_of_shoe_styles, geta page, wikipedia API extracts); apply in script
 step3: fetched List_of_basketball_shoe_brands and List_of_boots; next: build script to add missing entries/kinds, regions, owners, coverage lines
 step4: apply1.py written (owners, regions, boots, basketball list, coverage lines) -> A2.new.json validates; NB 2002 fetched; Consul failed twice (deferred). Next: NB2002 patch, Alden 990 / Allen Edmonds Park Avenue / John Lobb City II searches, then install + report
+step5: apply2 done (NB2002, Park Avenue, City II); A2.final.json validated; Alden 990 no dated fetched page (patina 403). Next: more fetch budget on remaining owners, then install via temp+rename, report
