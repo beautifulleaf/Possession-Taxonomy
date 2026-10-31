@@ -7,3 +7,4 @@ step5 fetched lava lamp, plasma globe, pin art, dino, helicopter, skewb, puzzle 
 step6 edit.py run, validate OK (199 kinds, 521 archetypes). next: brands, report
 step7 brands, report done
 step8 (finishing pass) started: read dump; fetching canons: List of dolls, teddy bear makers, Rail scales, Playing card, model kit makers, toy market, classics
+step9 fetched 21 pages (see sources.tsv). next: write rebuild/work/V4_E1/edit2.py (backups in bak2), validate, report

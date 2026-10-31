@@ -5,3 +5,5 @@ step3: bolt-action list fully read (72 rows, in this conversation only; need to 
 step4: handgun cartridge list read in full (~255 rows) saved work/CMP_E4/handgun_raw.txt (name|mm bullet diam; excludes rimfires/rifle ones already present)
 step5: rifle cartridge list fully read, saved rifle_raw.txt (names only, incl cannon calibres). Next: gauge page, then save revolver/pistol/shotgun/bolt/lever data and write edit script
 step6: wrote data_firearms.py (tails: revolvers, pistols 100000-end, bolt, lever, shotguns). Gauge page read (1-50). Discovered earlier first-100000 parts were selective (revolvers/pistols/shotguns) -> re-reading 0-100000 windows (offsets 0,35000,70000) to add missing; then write build script (not yet written)
+step7: wrote data_firearms2.py + build_cmp.py (not yet run). Next: run build, validate, sources.tsv, report
+step8: build ran, validate OK, sources.tsv written. Remaining: report
