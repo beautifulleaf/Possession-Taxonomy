@@ -552,6 +552,66 @@
    "new_names": 0,
    "status": "blocked",
    "note": "official EPV directory not found as a fetchable list; only label description and company self-descriptions (e.g. A&B Couture ateliers) found"
+  },
+  {
+   "url": "https://saltoptics.com/blogs/news/6-japanese-denim-brands-to-know",
+   "title": "SALT. Optics: 6 Japanese Denim Brands to Know (raw)",
+   "kind": "retailer",
+   "years": "2025",
+   "names_on_page": 6,
+   "new_names": 0,
+   "status": "done",
+   "note": "sweep kind: Jeans; 5 known, 1 pending elsewhere"
+  },
+  {
+   "url": "https://www.apetogentleman.com/best-knitted-polo-shirts",
+   "title": "Ape to Gentleman: best knitted polo brands (raw)",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 15,
+   "new_names": 0,
+   "status": "done",
+   "note": "sweep kind: Jersey tops/Knitwear; includes affordable (Uniqlo, ASKET); 12 known, 0 pending elsewhere"
+  },
+  {
+   "url": "https://www.gq.com/story/best-mens-fisherman-sweaters",
+   "title": "GQ: Best men's fisherman sweaters (raw excerpt)",
+   "kind": "retailer",
+   "years": "2024",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "partial",
+   "note": "sweep kind: Knitwear; 1 known, 0 pending elsewhere"
+  },
+  {
+   "url": "https://outdoorswimmer.com/gear/best-jammers-briefs-and-shorts-for-outdoor-swimmers",
+   "title": "Outdoor Swimmer Magazine: best jammers, briefs and shorts (tested)",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 4,
+   "new_names": 2,
+   "status": "partial",
+   "note": "sweep kind: Swimwear; independent test (search excerpt); 0 known, 0 pending elsewhere"
+  },
+  {
+   "url": "https://redcastheritage.com/collections/sweatshirts",
+   "title": "Redcast Heritage sweatshirt brands",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 8,
+   "new_names": 1,
+   "status": "partial",
+   "note": "sweep kind: Hoodies; specialist retailer (search excerpt); 0 known, 0 pending elsewhere"
+  },
+  {
+   "url": "https://www.ft.com/content/ac9b6aaf-1d50-45bb-be04-7769ba921bac",
+   "title": "FT: The best shirtmakers in the world",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 4,
+   "new_names": 2,
+   "status": "partial",
+   "note": "sweep kind: Shirts; FT page (search excerpt); 0 known, 0 pending elsewhere"
   }
  ],
  "brands": [
@@ -2489,6 +2549,60 @@
    "country": "Japan",
    "dept": "高橋洋服店 1903 tailor",
    "already": false
+  },
+  {
+   "n": "Inis Meáin Knitting Company",
+   "layer": "premium",
+   "src": "https://www.gq.com/story/best-mens-fisherman-sweaters",
+   "says": "named in GQ best fisherman sweaters",
+   "country": "",
+   "dept": "hand-finished Aran sweaters on Aran islands",
+   "already": false
+  },
+  {
+   "n": "Budgy Smuggler",
+   "layer": "premium",
+   "src": "https://outdoorswimmer.com/gear/best-jammers-briefs-and-shorts-for-outdoor-swimmers",
+   "says": "named in Outdoor Swimmer magazine test of jammers/briefs/shorts",
+   "country": "",
+   "dept": "swim trunks, made in Sydney",
+   "already": false
+  },
+  {
+   "n": "Usual Objections",
+   "layer": "premium",
+   "src": "https://outdoorswimmer.com/gear/best-jammers-briefs-and-shorts-for-outdoor-swimmers",
+   "says": "named in Outdoor Swimmer magazine test of jammers/briefs/shorts",
+   "country": "",
+   "dept": "swim briefs, made in Hackney",
+   "already": false
+  },
+  {
+   "n": "Wonder Looper",
+   "layer": "premium",
+   "src": "https://redcastheritage.com/collections/sweatshirts",
+   "says": "named by specialist retailer among loopwheeled sweatshirt brands",
+   "country": "",
+   "dept": "loopwheel sweatshirts",
+   "already": false
+  },
+  {
+   "n": "Budd",
+   "layer": "premium",
+   "src": "https://www.ft.com/content/ac9b6aaf-1d50-45bb-be04-7769ba921bac",
+   "says": "FT 'best shirtmakers in the world'",
+   "country": "UK",
+   "dept": "bespoke and made-to-measure shirts, London",
+   "already": false
+  },
+  {
+   "n": "Tony Shirtmakers",
+   "layer": "premium",
+   "src": "https://www.ft.com/content/ac9b6aaf-1d50-45bb-be04-7769ba921bac",
+   "says": "FT 'best shirtmakers in the world'",
+   "country": "UK",
+   "dept": "bespoke shirts",
+   "already": false
   }
  ],
  "regions": [
@@ -2642,6 +2756,89 @@
    "also_src": [
     "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_India"
    ]
+  }
+ ],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Tops > Jersey tops",
+   "queries": [
+    "best T-shirt and polo shirt makers independent test quality affordable"
+   ],
+   "found": 5,
+   "note": "T-shirt/polo: Sunspel, Camber, Uniqlo, ASKET named (known)"
+  },
+  {
+   "axis": "kind",
+   "item": "Tops > Team & sports shirts",
+   "queries": [
+    "best football rugby jersey makers heritage quality"
+   ],
+   "found": 0,
+   "note": "no usable list surfaced; retry needed"
+  },
+  {
+   "axis": "kind",
+   "item": "Tops > Shirts & blouses",
+   "queries": [
+    "best dress shirt makers quality bespoke ready-to-wear award"
+   ],
+   "found": 3,
+   "note": "Budd, Tony Shirtmakers new; Turnbull & Asser known"
+  },
+  {
+   "axis": "kind",
+   "item": "Tops > Knitwear",
+   "queries": [
+    "best knitwear makers Aran Fair Isle Shetland Guernsey sweater makers renowned"
+   ],
+   "found": 8,
+   "note": "Jamieson's, Aran Crafts, Inis Meain, John Smedley, William Lockie, Drake's all known"
+  },
+  {
+   "axis": "kind",
+   "item": "Tops > Hoodies & sweatshirts",
+   "queries": [
+    "best hoodie sweatshirt makers heavyweight quality loopwheel"
+   ],
+   "found": 5,
+   "note": "Camber, orSlow, Flat Head known; Wonder Looper new"
+  },
+  {
+   "axis": "kind",
+   "item": "Trousers, jeans & shorts > Jeans",
+   "queries": [
+    "best selvedge denim jeans brands heritage Japan Okayama"
+   ],
+   "found": 6,
+   "note": "Japanese Okayama denim: Studio D'Artisan, Iron Heart, Samurai, Sugar Cane, Strike Gold, Stevenson Overall all known"
+  },
+  {
+   "axis": "kind",
+   "item": "Trousers, jeans & shorts > Trousers",
+   "queries": [
+    "best chinos cargo trousers makers quality heritage"
+   ],
+   "found": 4,
+   "note": "chinos: Relwen, Mott & Bow pending; Tellasson/Bronson only seen in video titles, not recorded"
+  },
+  {
+   "axis": "kind",
+   "item": "Trousers, jeans & shorts > Shorts",
+   "queries": [
+    "best shorts swim trunks makers quality"
+   ],
+   "found": 2,
+   "note": "swim shorts found under Swimwear"
+  },
+  {
+   "axis": "kind",
+   "item": "Underwear, nightwear & swim > Swimwear",
+   "queries": [
+    "best shorts swim trunks makers quality"
+   ],
+   "found": 4,
+   "note": "Budgy Smuggler, Usual Objections new; Bather pending; Birdwell known"
   }
  ]
 }
