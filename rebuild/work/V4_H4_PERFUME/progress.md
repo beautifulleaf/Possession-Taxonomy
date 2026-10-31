@@ -10,3 +10,4 @@ step8: data_extra.py written (WD rows, Guerlain/Chanel/Kurkdjian/Osmotheque list
 step9: build_part.py ran, part file written 207KB; validating
 step10: part validated OK (611 entries). Next: report
 step11: report written; DONE
+step12: coordinator follow-up started: owners (houses), families via firecrawl, chypre/fougere retry
