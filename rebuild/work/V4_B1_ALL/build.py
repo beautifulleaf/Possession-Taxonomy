@@ -1,6 +1,7 @@
 import json,re,sys
 sys.path.insert(0,'.')
 from rows import R,LC,CP
+import rows2
 base=json.load(open('../../out/B1.json'))
 MKT={
 "IKEA":("Inter IKEA Systems B.V.","Own label","Sweden",""),
@@ -15,6 +16,10 @@ MKT={
 "Cassina":("Poltrona Frau Group","Independent","Italy","2005"),
 "Kartell":("Felofin","Independent","Italy",""),
 "Thonet":("Thonet GmbH","Independent","Germany",""),
+"B&B Italia":("Busnelli family","Independent","Italy",""),
+"Ligne Roset":("Roset family","Independent","France",""),
+"Poltrona Frau":("Haworth Group","Global group","Italy","2014"),
+"Flexform":("Galimberti family","Independent","Italy",""),
 "Stokke":("NXMH","Independent","Norway","2014"),
 }
 CH="https://en.wikipedia.org/wiki/"
@@ -38,6 +43,9 @@ def grp(yk):
     if yk is None: return "Undated"
     if yk<1900: return "Before 1900"
     return f"{yk//10*10}s"
+PATCH={'Mandarin chair':{'y':'1986'},'GJ Chair':{'y':'1963'},'S chair':{'y':'1991'}}
+for r in R:
+    if r['n'] in PATCH: r.update(PATCH[r['n']])
 byk={}
 for r in R: byk.setdefault(r['k'],[]).append(r)
 MAT=[
@@ -51,6 +59,7 @@ dict(n="Vispring",a="Vi-Spring",mk="Vispring",y="1901",d="Plymouth maker of hand
 dict(n="Hästens",a="Hastens",mk="Hästens",y="1852",d="Swedish bed maker founded by Pehr Adolf Janson as a saddlery; royal purveyor since 1952.",s=CH+"H%C3%A4stens",own="Jan Ryde (family-owned)",tier="Independent",cty="Sweden",g="Independent"),
 dict(n="Leesa",a="",mk="Leesa",y="2014",d="US online brand whose Reserve model was a Consumer Reports side-sleeper pick.",s="https://www.hunker.com/2268800/consumer-reports-best-mattress-for-side-sleepers-2026/",own="owner not stated",tier="Independent",cty="United States",g="Independent",v=[{"n":"Reserve","d":"model"}]),
 dict(n="Nectar",a="",mk="Nectar",y="2016",d="Online memory-foam brand whose Ultra Hybrid was a Consumer Reports side-sleeper pick.",s="https://www.hunker.com/2268800/consumer-reports-best-mattress-for-side-sleepers-2026/",own="owner not stated",tier="Independent",cty="United States",g="Independent",v=[{"n":"Ultra Hybrid","d":"model"}]),
+dict(n="Emma",a="Emma – The Sleep Company",mk="Emma",y="2013",d="Frankfurt direct-to-consumer mattress brand; Haniel agreed to buy 50.1% in April 2020.",s="https://tech.eu/2020/04/06/haniel-buys-emma/",own="Haniel",tier="Independent",cty="Germany",own_y="2020",g="Independent"),
 dict(n="Serta",a="",mk="Serta",y="1931",d="US mattress brand under common ownership with Simmons after a private-equity buyout.",s=CH+"Mattress",own="owner not stated",tier="",cty="United States",g="Others"),
 dict(n="Simmons",a="Beautyrest",mk="Simmons",y="1870",d="US mattress maker under common ownership with Serta.",s=CH+"Mattress",own="owner not stated",tier="",cty="United States",g="Others",v=[{"n":"Beautyrest","d":"pocket-coil line"}]),
 ]
@@ -122,14 +131,17 @@ for dp in base['depts']:
             k['nl']=NL.get(kn,"One entry is a named furniture design with its maker and designer; editions and sizes are versions.")
             if kn=="Mattress":
                 k['xg']="by market tier"
-                k['sel']=("Brands named by the fetched Wikipedia Mattress article (Tempur Sealy, Sleep Number, Casper, Simba, Vispring, Hästens, Serta, Simmons) plus Hypnos, Leesa and Nectar from their own fetched pages; Emma has no fetched page and is left out. Covers "+str(n)+" of about 12 brands named; no complete brand list was fetched, so the long tail is missing.")
+                k['sel']=("Brands named by the fetched Wikipedia Mattress article (Tempur Sealy, Sleep Number, Casper, Simba, Vispring, Hästens, Serta, Simmons), plus Hypnos, Leesa, Nectar and Emma from their own fetched pages. Covers "+str(n)+" of about 13 brands named; no complete brand list was fetched, so the long tail is missing.")
             else:
                 k['xg']="by decade of design"
-                if kn in ("Dining chair","Armchair","Upholstered lounge chair","Tubular & wire-frame lounge chair","Moulded, shell & bentwood lounge chair","Chaise longue","Office chair","Stool","Windsor chair","Folding chair","Rocking chair","Hanging chair","Bean bag chair","Recliner","Bar stool","Floor chair","Bench","Adirondack chair","Garden bench","Gaming chair","Sofa","Sectional sofa","Chesterfield sofa","Sofa bed"):
-                    k['sel']=f"Named designs from {CHAIRREF} that belong to this kind, plus designs on the fetched maker pages (Knoll, Cassina, Fritz Hansen, Carl Hansen, Artek, Herman Miller, Kartell). Generic types in the list (barber's, dentist's, electric, sedan, historic chair styles) are types, not entries; historic styles are visual-art styles (see-note). Covers {n} of about 130 designs and types in the List of chairs; Vitra, MoMA, V&A and Design Museum collection lists were not fetched."
-                else:
-                    k['sel']=f"Designs named on the fetched Compasso d'Oro, maker (Knoll, Cassina, Fritz Hansen, Herman Miller, Artek, Vitra) and IKEA pages; no complete list of this kind exists. Covers {n} of an unknown total (no whole-space reference); design-collection lists (MoMA, V&A, Vitra, Design Museum) were not fetched."
+                k['sel']=(f"Designs named in Wikipedia's List of chairs (first 100,000 of 124,675 characters; the remainder is references) and Category:Chairs, the 38 Wikidata chairs with a designer, the 58 Wikidata furniture items held by MoMA and the V&A, the Compasso d'Oro page, the V&A search page, and the Wikipedia pages of designers (Wegner, Jacobsen, Juhl, Panton, Eames, Aalto, Perriand, Kjærholm, Mogensen, Nelson, Castiglioni, Ponti, Sottsass and others) and makers (Knoll, Herman Miller, Cassina, Fritz Hansen, Artek, B&B Italia, Ligne Roset, Poltrona Frau, Flexform, Vitsœ) that belong to this kind. Generic types and historic styles are see-notes. Covers {n} designs in this kind. Not covered: MoMA, Vitra and Design Museum holdings beyond Wikidata (MoMA and Vitra sites gave no furniture list; Wikidata returned no Vitra Design Museum or Design Museum furniture); Hay, &Tradition, Muuto, Gubi, Thonet, USM Haller, String and De Sede have no readable collection page, so the total is unknown.")
             cnt[kn]=n
+for dp in base['depts']:
+    for sh in dp['s']:
+        for k in sh['k']:
+            for x in k.get('x',[]):
+                if x['n']=='Panton Chair' and not any('275' in v['n'] for v in x['v']): x['v'].append({"n":"Thonet Model 275","y":"1965","d":"first production, Thonet; Vitra relaunched it in 1990","mk":"Thonet"})
+                if x['n']=='Togo': x['d']='Seating by Michel Ducaroy for Ligne Roset, 1973.'
 # nursery entries: ensure market fields
 # departments ms
 def ms(mkt,who,share,yr,s,note): return {"mkt":mkt,"who":who,"share":share,"yr":yr,"s":s,"note":note}
@@ -162,6 +174,9 @@ part={"replaces":[d['n'] for d in base['depts']],"depts":base['depts'],"brands":
  {"n":"Gispen","c":"Netherlands","seg":"Heritage manufactory","d":"Maker of Willem Hendrik Gispen's 407 chair.","s":"https://www.wikidata.org/wiki/Q26220572","kf":"tubular steel furniture"},
  {"n":"Fiam Italia","c":"Italy","seg":"Premium","d":"Maker of the Ghost chair by Cini Boeri and Tomu Katayanagi, 1987.","s":"https://www.wikidata.org/wiki/Q140429531","kf":"glass furniture"},
  {"n":"Studio Alchimia","c":"Italy","seg":"Designer","d":"Producer of Alessandro Mendini's Proust armchair, 1978.","s":"https://www.wikidata.org/wiki/Q21234427","kf":"radical design"},
+ {"n":"Flexform","c":"Italy","f":"1959","seg":"Premium","d":"Meda furniture maker founded by the Galimberti brothers; family-run.","s":CH+"Flexform","kf":"upholstered furniture"},
+ {"n":"Emma","c":"Germany","f":"2013","seg":"Mainstream","d":"Frankfurt online mattress brand; Haniel took 50.1% in 2020.","s":"https://tech.eu/2020/04/06/haniel-buys-emma/","kf":"mattresses"},
+ {"n":"Isokon","c":"United Kingdom","seg":"Heritage manufactory","d":"Maker named for the Long Chair after Marcel Breuer, 1935-36.","s":CH+"Marcel_Breuer","kf":"plywood furniture"},
  {"n":"Adico","c":"Portugal","seg":"Heritage manufactory","d":"Maker of the Portuguese chair (5008) from the 1930s.","s":LC,"kf":"Portuguese chairs"},
 ],"brand_updates":{b:{"own":v[0],"tier":v[1],"c":v[2]} for b,v in MKT.items() if b not in("Muuto",)},"renames":{},"moves":[]}
 # brand updates only for names in register
