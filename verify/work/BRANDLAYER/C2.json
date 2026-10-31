@@ -96,6 +96,62 @@
    ],
    "found": 2,
    "note": "EPV official list is a dataset not parsed this pass; no garden-tool maker surfaced by search"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Gartengeraete Hersteller Qualitaet Test"
+   ],
+   "found": 1,
+   "note": "German-language search surfaced Wolf-Garten, Wingart, Golden Tools; no test body list obtained"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Australian made garden tools quality brands"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Korean garden tool brands (Korean query)"
+   ],
+   "found": 0,
+   "note": "Korean query returned only Australian/German results"
+  },
+  {
+   "axis": "kind",
+   "item": "Pools & pool care (all sections)",
+   "queries": [
+    "Category:Swimming pool equipment manufacturers",
+    "pool equipment brands retailer catalogues"
+   ],
+   "found": 14,
+   "note": "register had almost no pool equipment brands"
+  },
+  {
+   "axis": "kind",
+   "item": "Watering & ponds > Sprinklers & irrigation",
+   "queries": [
+    "Category:Irrigation companies",
+    "sprinkler brands"
+   ],
+   "found": 6,
+   "note": "Wikipedia category seen only as link (13 pages), not read"
+  },
+  {
+   "axis": "kind",
+   "item": "Soil, feed & plant care > Feeds & plant protection",
+   "queries": [
+    "Category:Fertilizer companies garden brands"
+   ],
+   "found": 11,
+   "note": "IFA catalogue only"
   }
  ],
  "regions": [
@@ -119,6 +175,30 @@
    "brands": [
     "Hartley Botanic",
     "Alitex"
+   ]
+  },
+  {
+   "region": "Australia",
+   "speciality": "Australian-made cast aluminium, stainless steel and blacksmith-made garden tools",
+   "src": "https://www.fdryan.com/",
+   "brands": [
+    "F.D. Ryan",
+    "Lelox",
+    "Digadoo",
+    "Pope Products",
+    "Sabco"
+   ]
+  },
+  {
+   "region": "Germany",
+   "speciality": "garden tool systems and quality hand tools (since 1922 / 1961)",
+   "src": "https://www.wolf-garten.com/en/",
+   "brands": [
+    "Wolf-Garten",
+    "Gardena",
+    "Wingart",
+    "Dolmar",
+    "Helko"
    ]
   }
  ],
@@ -272,6 +352,76 @@
    "new_names": 0,
    "status": "partial",
    "note": "dynamic table, names not obtained"
+  },
+  {
+   "url": "https://www.wolf-garten.com/en/",
+   "title": "WOLF-Garten",
+   "kind": "heritage",
+   "years": "since 1922",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "manufacturer's own claim"
+  },
+  {
+   "url": "https://www.fdryan.com/",
+   "title": "F.D. Ryan toolmakers",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "self-description"
+  },
+  {
+   "url": "https://www.swimmingpool.com/products/manufacturers/",
+   "title": "swimmingpool.com manufacturers",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 14,
+   "new_names": 5,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.intheswim.com/equipment",
+   "title": "In The Swim equipment manufacturers",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 40,
+   "new_names": 9,
+   "status": "partial",
+   "note": "part of filter list seen"
+  },
+  {
+   "url": "https://www.sprinklersupplystore.com/collections/sprinkler-brands",
+   "title": "Sprinkler Supply Store brands",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 7,
+   "new_names": 3,
+   "status": "done",
+   "note": "Hunter and Irritrol known"
+  },
+  {
+   "url": "https://us.metoree.com/categories/7586",
+   "title": "Metoree sprinkler manufacturers",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 25,
+   "new_names": 3,
+   "status": "partial",
+   "note": "US ones read"
+  },
+  {
+   "url": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "title": "IFA fertilizers",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 20,
+   "new_names": 11,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -612,6 +762,294 @@
    "country": "US",
    "dept": "bonsai pots",
    "role": "seller"
+  },
+  {
+   "n": "Wolf-Garten",
+   "layer": "cultural",
+   "src": "https://www.wolf-garten.com/en/",
+   "says": "German garden tool maker, quality made in Germany since 1922; multi-star system",
+   "country": "Germany",
+   "dept": "hand tools"
+  },
+  {
+   "n": "Wingart",
+   "layer": "cultural",
+   "src": "https://www.hellweg.de/gartenmarkt/gartengeraete",
+   "says": "Hellweg lists Fiskars and Wingart as renowned professional garden hand tool brands",
+   "country": "Germany",
+   "dept": "spades"
+  },
+  {
+   "n": "F.D. Ryan",
+   "layer": "premium",
+   "src": "https://www.fdryan.com/",
+   "says": "hand-made-to-order traditional blacksmith garden tools, Heidelberg West, Victoria",
+   "country": "Australia",
+   "dept": "trowels, hoes, spades"
+  },
+  {
+   "n": "Lelox",
+   "layer": "cultural",
+   "src": "https://gardentoolsaustralia.com.au/about",
+   "says": "manufacturing cast aluminium garden tools since mid 1970s; endorsed by Landcare groups; used in botanical gardens",
+   "country": "Australia",
+   "dept": "hand tools"
+  },
+  {
+   "n": "Digadoo",
+   "layer": "premium",
+   "src": "https://www.digadoo.com.au/",
+   "says": "Australian-made high-tensile stainless steel garden tools with lifetime guarantee",
+   "country": "Australia",
+   "dept": "spades, forks"
+  },
+  {
+   "n": "Hayward",
+   "layer": "premium",
+   "src": "https://www.swimmingpool.com/products/manufacturers/",
+   "says": "listed by swimmingpool.com among manufacturers it recommends as finest swimming pool brands",
+   "country": "US",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Fluidra",
+   "layer": "premium",
+   "src": "https://www.swimmingpool.com/products/manufacturers/",
+   "says": "listed by swimmingpool.com among manufacturers it recommends as finest swimming pool brands",
+   "country": "Spain",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Natural Chemistry",
+   "layer": "premium",
+   "src": "https://www.swimmingpool.com/products/manufacturers/",
+   "says": "listed by swimmingpool.com among manufacturers it recommends as finest swimming pool brands",
+   "country": "US",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Latham",
+   "layer": "premium",
+   "src": "https://www.swimmingpool.com/products/manufacturers/",
+   "says": "listed by swimmingpool.com among manufacturers it recommends as finest swimming pool brands",
+   "country": "US",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Wilbar Group",
+   "layer": "premium",
+   "src": "https://www.swimmingpool.com/products/manufacturers/",
+   "says": "listed by swimmingpool.com among manufacturers it recommends as finest swimming pool brands",
+   "country": "",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Jandy",
+   "layer": "premium",
+   "src": "https://www.intheswim.com/equipment",
+   "says": "manufacturer filter in In The Swim specialist pool retailer's equipment catalogue",
+   "country": "",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Waterway",
+   "layer": "premium",
+   "src": "https://www.intheswim.com/equipment",
+   "says": "manufacturer filter in In The Swim specialist pool retailer's equipment catalogue",
+   "country": "",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Kokido",
+   "layer": "premium",
+   "src": "https://www.intheswim.com/equipment",
+   "says": "manufacturer filter in In The Swim specialist pool retailer's equipment catalogue",
+   "country": "",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "SmartPool",
+   "layer": "premium",
+   "src": "https://www.intheswim.com/equipment",
+   "says": "manufacturer filter in In The Swim specialist pool retailer's equipment catalogue",
+   "country": "",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Water Tech",
+   "layer": "premium",
+   "src": "https://www.intheswim.com/equipment",
+   "says": "manufacturer filter in In The Swim specialist pool retailer's equipment catalogue",
+   "country": "",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Pleatco",
+   "layer": "premium",
+   "src": "https://www.intheswim.com/equipment",
+   "says": "manufacturer filter in In The Swim specialist pool retailer's equipment catalogue",
+   "country": "",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Intermatic",
+   "layer": "premium",
+   "src": "https://www.intheswim.com/equipment",
+   "says": "manufacturer filter in In The Swim specialist pool retailer's equipment catalogue",
+   "country": "",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Baracuda",
+   "layer": "premium",
+   "src": "https://www.intheswim.com/equipment",
+   "says": "manufacturer filter in In The Swim specialist pool retailer's equipment catalogue",
+   "country": "",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Kreepy Krauly",
+   "layer": "premium",
+   "src": "https://www.intheswim.com/equipment",
+   "says": "manufacturer filter in In The Swim specialist pool retailer's equipment catalogue",
+   "country": "",
+   "dept": "pool equipment"
+  },
+  {
+   "n": "Rain Bird",
+   "layer": "premium",
+   "src": "https://www.sprinklersupplystore.com/collections/sprinkler-brands",
+   "says": "named among top irrigation brands by Sprinkler Supply Store (specialist irrigation retailer)",
+   "country": "",
+   "dept": "irrigation"
+  },
+  {
+   "n": "Weathermatic",
+   "layer": "premium",
+   "src": "https://www.sprinklersupplystore.com/collections/sprinkler-brands",
+   "says": "named among top irrigation brands by Sprinkler Supply Store (specialist irrigation retailer)",
+   "country": "",
+   "dept": "irrigation"
+  },
+  {
+   "n": "Netafim",
+   "layer": "premium",
+   "src": "https://www.sprinklersupplystore.com/collections/sprinkler-brands",
+   "says": "named among top irrigation brands by Sprinkler Supply Store (specialist irrigation retailer)",
+   "country": "",
+   "dept": "irrigation"
+  },
+  {
+   "n": "Nelson Irrigation",
+   "layer": "cultural",
+   "src": "https://us.metoree.com/categories/7586",
+   "says": "Metoree: manufacturer of watering and irrigation solutions in the USA since 1911",
+   "country": "US",
+   "dept": "irrigation"
+  },
+  {
+   "n": "DripWorks",
+   "layer": "cultural",
+   "src": "https://us.metoree.com/categories/7586",
+   "says": "Metoree list of sprinkler manufacturers; drip irrigation maker est. 1992",
+   "country": "US",
+   "dept": "drip irrigation"
+  },
+  {
+   "n": "Chapin",
+   "layer": "cultural",
+   "src": "https://us.metoree.com/categories/7586",
+   "says": "Chapin International listed in Metoree sprinkler manufacturers (US)",
+   "country": "US",
+   "dept": "sprayers"
+  },
+  {
+   "n": "ferti-lome",
+   "layer": "cultural",
+   "src": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
+   "country": "US",
+   "dept": "fertilisers"
+  },
+  {
+   "n": "Hi-Yield",
+   "layer": "cultural",
+   "src": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
+   "country": "US",
+   "dept": "fertilisers"
+  },
+  {
+   "n": "Bonide",
+   "layer": "cultural",
+   "src": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
+   "country": "US",
+   "dept": "fertilisers"
+  },
+  {
+   "n": "Milorganite",
+   "layer": "cultural",
+   "src": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
+   "country": "US",
+   "dept": "fertilisers"
+  },
+  {
+   "n": "Jobes",
+   "layer": "cultural",
+   "src": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
+   "country": "US",
+   "dept": "fertilisers"
+  },
+  {
+   "n": "Black Gold",
+   "layer": "cultural",
+   "src": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
+   "country": "US",
+   "dept": "fertilisers"
+  },
+  {
+   "n": "Preen",
+   "layer": "cultural",
+   "src": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
+   "country": "US",
+   "dept": "fertilisers"
+  },
+  {
+   "n": "AZOMITE",
+   "layer": "cultural",
+   "src": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
+   "country": "US",
+   "dept": "fertilisers"
+  },
+  {
+   "n": "Miracle-Gro",
+   "layer": "cultural",
+   "src": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
+   "country": "US",
+   "dept": "fertilisers"
+  },
+  {
+   "n": "Ironite",
+   "layer": "cultural",
+   "src": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
+   "country": "US",
+   "dept": "fertilisers"
+  },
+  {
+   "n": "True ORGANIC",
+   "layer": "cultural",
+   "src": "https://www.ifa.coop/lawn-garden/fertilizers",
+   "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
+   "country": "US",
+   "dept": "fertilisers"
   }
  ]
 }

@@ -2,7 +2,98 @@
  "cat": "C1",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Power tools",
+   "queries": [
+    "best power tool brands tested"
+   ],
+   "found": 0,
+   "note": "partial coverage"
+  },
+  {
+   "axis": "kind",
+   "item": "Woodworking hand tools",
+   "queries": [
+    "Fine Woodworking, Bob Vila hand plane test, Japanese tool dealers, Dictum, Axminster"
+   ],
+   "found": 0,
+   "note": "partial coverage"
+  },
+  {
+   "axis": "kind",
+   "item": "General hand tools",
+   "queries": [
+    "German/Sheffield makers"
+   ],
+   "found": 0,
+   "note": "partial coverage"
+  },
+  {
+   "axis": "kind",
+   "item": "Knives, multi-tools & axes",
+   "queries": [
+    "Wikipedia knife category"
+   ],
+   "found": 0,
+   "note": "partial coverage"
+  },
+  {
+   "axis": "kind",
+   "item": "Workshop machinery",
+   "queries": [
+    "Wikipedia machine tool builders"
+   ],
+   "found": 0,
+   "note": "partial coverage"
+  },
+  {
+   "axis": "kind",
+   "item": "Measuring & detecting",
+   "queries": [
+    "Sheffield precision, Lang's directory"
+   ],
+   "found": 0,
+   "note": "partial coverage"
+  },
+  {
+   "axis": "kind",
+   "item": "Welding & soldering",
+   "queries": [
+    "welder brand reviews"
+   ],
+   "found": 0,
+   "note": "partial coverage"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Sheffield, Remscheid, Switzerland"
+   ],
+   "found": 0,
+   "note": "partial coverage"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Japanese tool dealers"
+   ],
+   "found": 0,
+   "note": "partial coverage"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Pro Tool Reviews, Wikipedia"
+   ],
+   "found": 0,
+   "note": "partial coverage"
+  }
+ ],
  "regions": [
   {
    "region": "Japan (Sanjo, Echigo Yoita, Banshu Miki)",
@@ -244,6 +335,26 @@
    "new_names": 19,
    "status": "done",
    "note": "kitchen cutlery makers skipped (other category); known 5"
+  },
+  {
+   "url": "https://welderchoice.com/best-welder-brands",
+   "title": "Best Welder Brands (Welder Choice)",
+   "kind": "ranking",
+   "years": "2024",
+   "names_on_page": 8,
+   "new_names": 6,
+   "status": "done",
+   "note": "weak review-blog evidence; Lotos/Razorweld/Amico only from other blogs, weak"
+  },
+  {
+   "url": "https://weldguru.com/best-welder-brands",
+   "title": "14 Best Welder Brands (Weld Guru)",
+   "kind": "ranking",
+   "years": "2022",
+   "names_on_page": 14,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Eastwood, Forney, Lotos seen"
   }
  ],
  "brands": [
@@ -2612,6 +2723,60 @@
    "says": "in Wikipedia Category:Knife manufacturing companies (pocket/fixed-blade/utility makers only)",
    "country": "",
    "dept": "knives",
+   "already": false
+  },
+  {
+   "n": "Hobart",
+   "layer": "premium",
+   "src": "https://welderchoice.com/best-welder-brands",
+   "says": "named among best welder brands (review site list, 2024); Fronius Austrian",
+   "country": "",
+   "dept": "welding & soldering",
+   "already": false
+  },
+  {
+   "n": "AHP",
+   "layer": "premium",
+   "src": "https://welderchoice.com/best-welder-brands",
+   "says": "named among best welder brands (review site list, 2024); Fronius Austrian",
+   "country": "",
+   "dept": "welding & soldering",
+   "already": false
+  },
+  {
+   "n": "Eastwood",
+   "layer": "premium",
+   "src": "https://welderchoice.com/best-welder-brands",
+   "says": "named among best welder brands (review site list, 2024); Fronius Austrian",
+   "country": "",
+   "dept": "welding & soldering",
+   "already": false
+  },
+  {
+   "n": "Forney",
+   "layer": "premium",
+   "src": "https://welderchoice.com/best-welder-brands",
+   "says": "named among best welder brands (review site list, 2024); Fronius Austrian",
+   "country": "",
+   "dept": "welding & soldering",
+   "already": false
+  },
+  {
+   "n": "Razorweld",
+   "layer": "premium",
+   "src": "https://welderchoice.com/best-welder-brands",
+   "says": "named among best welder brands (review site list, 2024); Fronius Austrian",
+   "country": "",
+   "dept": "welding & soldering",
+   "already": false
+  },
+  {
+   "n": "Amico",
+   "layer": "premium",
+   "src": "https://welderchoice.com/best-welder-brands",
+   "says": "named among best welder brands (review site list, 2024); Fronius Austrian",
+   "country": "",
+   "dept": "welding & soldering",
    "already": false
   }
  ]

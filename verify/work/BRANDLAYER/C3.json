@@ -2,7 +2,223 @@
  "cat": "C3",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Garden plants > Roses",
+   "queries": [
+    "Category:Rose breeders",
+    "ARS Rose Breeders Hall of Fame",
+    "Chelsea Great Pavilion roses"
+   ],
+   "found": 34,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Garden plants > Perennials & grasses / Shrubs / Trees",
+   "queries": [
+    "RHS Chelsea Great Pavilion 2026 gold list",
+    "Category:Plant nurseries"
+   ],
+   "found": 30,
+   "note": "only Chelsea 2025-26 and one Wikipedia category; earlier Chelsea years not harvested"
+  },
+  {
+   "axis": "kind",
+   "item": "Seeds, bulbs & cuttings",
+   "queries": [
+    "Category:Seed companies",
+    "Gardens Illustrated best seed suppliers",
+    "Gardens Illustrated best bulb suppliers",
+    "Keukenhof exhibitors"
+   ],
+   "found": 73,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Bonsai",
+   "queries": [
+    "Omiya bonsai village nurseries"
+   ],
+   "found": 6,
+   "note": "Kokufu-ten, Taiwan, Chinese penjing not yet harvested"
+  },
+  {
+   "axis": "kind",
+   "item": "Orchids",
+   "queries": [
+    "Chelsea orchid golds",
+    "Taiwan orchid nursery search"
+   ],
+   "found": 3,
+   "note": "search only; Taiwan/Thailand orchid award lists not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Mushrooms & living cultures",
+   "queries": [
+    "best mushroom grow kits tested",
+    "best sourdough/kefir/kombucha suppliers",
+    "best brewing yeast brands"
+   ],
+   "found": 0,
+   "note": "search returned affiliate-style roundups and a Consumer Reports Outside-the-Labs article (names seen in excerpts: North Spore, Back to the Roots, Mushroom Adventures, Smallhold, Willow Mountain, Smart Mushrooms, Forest Origins); not fetched so not added; North Spore already in register"
+  },
+  {
+   "axis": "kind",
+   "item": "Aroids / Houseplants / Succulents & cacti / Carnivorous plants",
+   "queries": [
+    "Chelsea golds for cacti, carnivores, houseplants"
+   ],
+   "found": 12,
+   "note": "via Chelsea list only"
+  },
+  {
+   "axis": "kind",
+   "item": "Grow your own (fruit trees, herbs)",
+   "queries": [
+    "Gardens Illustrated seed suppliers"
+   ],
+   "found": 4,
+   "note": "fruit tree nurseries (Frank P Matthews, Dave Wilson, Stark Bros) via other lists"
+  },
+  {
+   "axis": "kind",
+   "item": "Cut flowers & Christmas trees",
+   "queries": [
+    "Chelsea cut flower golds"
+   ],
+   "found": 4,
+   "note": "Interplant/Chrysanthemums Direct only; Dutch/Kenyan/Colombian growers not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Keukenhof",
+    "ARS HoF France/Netherlands"
+   ],
+   "found": 30,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "ARS HoF Denmark"
+   ],
+   "found": 0,
+   "note": "Poulsen already known; Swedish/Finnish nurseries not searched"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "ARS HoF Italy/Spain",
+    "Seeds of Italy"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "Chelsea South Africa flora"
+   ],
+   "found": 1,
+   "note": "Kelnan Plants only"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Wikipedia Seed companies (Mahyco, Nuziveedu: ag, excluded)"
+   ],
+   "found": 0,
+   "note": "garden-plant makers not searched"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Omiya bonsai",
+    "Keisei Nursery",
+    "Taiwan orchid"
+   ],
+   "found": 7,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Wikipedia Plant nurseries (Manila Seedling Bank)"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "ARS HoF Australia/NZ",
+    "Digger's Club"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Wikipedia seed/nursery categories",
+    "ARS HoF USA"
+   ],
+   "found": 30,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Viveros de Coyoacan (Wikipedia)",
+    "Chelsea Pure Grenada/Barbados"
+   ],
+   "found": 1,
+   "note": ""
+  }
+ ],
  "regions": [
   {
    "region": "Japan",
@@ -213,6 +429,46 @@
    "new_names": 19,
    "status": "done",
    "note": "also confirmed already-known: Austin, Beales, Cants, Cocker, Dickson, Harkness, Interplant, J&P, Kordes, Meilland, Poulsen, Tantau"
+  },
+  {
+   "url": "https://www.which.co.uk/reviews/plants/article/best-places-to-buy-seeds-and-plants-online-apVEZ2q04l8C",
+   "title": "Which? Best places to buy seeds and plants online",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 5,
+   "new_names": 0,
+   "status": "partial",
+   "note": "fetch returned only a truncated table (Bloms, Crocus/RHS Plants, De Jager, Dobies, DT Brown seen); customer-score values hidden; names already added via Gardens Illustrated except DT Brown. Re-fetch with another route."
+  },
+  {
+   "url": "https://www.consumerreports.org/indoor-gardening/best-mushroom-growing-kits-a1123662958",
+   "title": "Consumer Reports mushroom growing kits",
+   "kind": "award",
+   "years": "2022",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "seen only in search excerpt; not fetched"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "title": "Wikipedia List of rose breeders",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "located, not fetched in full; next step"
+  },
+  {
+   "url": "https://www.rhs.org.uk/shows-events/rhs-chelsea-flower-show/history/2025/awards",
+   "title": "RHS Chelsea 2025 awards",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 40,
+   "new_names": 0,
+   "status": "partial",
+   "note": "seen in search excerpt (Peter Beales, Pheasant Acre Plants, Primrose Hall Peonies, Burncoose, Hillier etc.); only 2026 list fetched in full"
   }
  ],
  "brands": [
