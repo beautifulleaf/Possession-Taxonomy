@@ -15,3 +15,4 @@ step13: sail5.tsv (OFFSET 683 window to Cal 35, A-C of sitelinks=1 tier). defaul
 step14: sail6.tsv (OFFSET 833 window to Etap 37s). nread.txt must be updated to read count (now 983). Next OFFSET 983
 step15: sail7.tsv (OFFSET 983 window to Idle-along). nread.txt=1133. Next OFFSET 1133
 step16: sail8.tsv (OFFSET 1133 to Mumm 36). nread.txt=1283. Next OFFSET 1283
+step17: sail9.tsv (OFFSET 1283 to Ross 930). nread.txt=1433. Next OFFSET 1433
