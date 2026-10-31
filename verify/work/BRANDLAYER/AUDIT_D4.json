@@ -867,6 +867,69 @@
    "country": "United Kingdom",
    "dept": "reflectors and backgrounds",
    "region": "Western Europe (UK)"
+  },
+  {
+   "n": "Wirgin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Cameras_by_brand",
+   "says": "Wikipedia Category:Cameras by brand has subcategory \"Wirgin cameras\" (own category)",
+   "country": "Germany (not stated on page)",
+   "dept": "35mm SLR cameras",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Nikkor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_lenses_by_brand",
+   "says": "Wikipedia Category:Photographic lenses by brand: Nikkor (own article); Nikon lens line - sub-brand, merge under Nikon if sub-brands are not listed separately",
+   "country": "Japan",
+   "dept": "camera lenses",
+   "region": "East Asia (Japan)"
+  },
+  {
+   "n": "Takumar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_lenses_by_brand",
+   "says": "Wikipedia Category:Photographic lenses by brand: Takumar (Asahi/Pentax lens line, own article) - sub-brand",
+   "country": "Japan",
+   "dept": "camera lenses",
+   "region": "East Asia (Japan)"
+  },
+  {
+   "n": "Rokkor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_lenses_by_brand",
+   "says": "Wikipedia Category:Photographic lenses by brand: Rokkor (Minolta lens line, own article) - sub-brand",
+   "country": "Japan",
+   "dept": "camera lenses",
+   "region": "East Asia (Japan)"
+  },
+  {
+   "n": "Zuiko",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_lenses_by_brand",
+   "says": "Wikipedia Category:Photographic lenses by brand: Zuiko (Olympus lens line, own article) - sub-brand",
+   "country": "Japan",
+   "dept": "camera lenses",
+   "region": "East Asia (Japan)"
+  },
+  {
+   "n": "Zoomar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_lenses_by_brand",
+   "says": "Wikipedia Category:Photographic lenses by brand: Zoomar lens (own article)",
+   "country": "not stated on page",
+   "dept": "zoom lenses",
+   "region": "unassigned"
+  },
+  {
+   "n": "Petie",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Cameras_by_brand",
+   "says": "Wikipedia Category:Cameras by brand: Petie (own article), subminiature camera brand",
+   "country": "not stated on page",
+   "dept": "subminiature cameras",
+   "region": "unassigned"
   }
  ],
  "add_regions": [
@@ -994,5 +1057,5 @@
    "why": "duplicate of known 'Hewes'"
   }
  ],
- "notes": ""
+ "notes": "Accuracy: 25 sampled with random.seed(7)/random.sample over harvest 'brands'; all 9 distinct src pages re-fetched raw (Parallel web_fetch full_content). 0/25 wrong: every name is on its page and every claim (mostly 'listed'/'own article') is supported. Caveats: Folmer and Schwing links to the Graflex article (not its own); Hirox is a microscope maker (drop). Out-of-sample errors noticed: Metz is cited to Category:Photographic flashes by brand but is NOT on that page (it is on List of photographic equipment makers - fix src). Layer problem: the 52 Blue Moon brand-filter names, the 20 Analogue Wonderland names and the TIPA manufacturer-dropdown names are tagged 'premium' on existence-only seller/dropdown evidence; per SELLER PRAISE they should be tier 'listed' until an independent quality page exists. Several Blue Moon names are private labels (see drop). EISA spot-check: 1991-92 (Culmann 3080) and 2004-05 (Konica Minolta Anti Shake) rows confirmed on the year pages. Thin areas retried: EISA 2013-14, 2014-15, 2016-17, 2017-18, 2019-20, 2020-21, 2021-22 fetched via links on the EISA history index - only mainstream winners (Canon, Nikon, Sony, Fujifilm, Olympus, Panasonic, Sigma, Tamron, Samsung, Manfrotto, GoPro, Laowa, Zeiss) plus non-D4 (Eizo, Huawei, OPPO, DxO, Zoner, CEWE): no new D4 brands. Camera GP Japan: ja.wikipedia winners table fetched - new only Lambda (ラムダ, merit prize 2024); others mainstream. Wikipedia Category:Cameras by brand and Photographic lenses by brand fetched: Wirgin, Petie, Zoomar and lens lines Nikkor/Takumar/Rokkor/Zuiko added. Large format: Ebony, Tachihara, Toyo, Wisner, Gandolfi, Nagaoka, Anba Ikeda, Toho, Lotus View added (Chamonix, Shen Hao, Wista, Canham, Arca Swiss already known). Lighting: Kino Flo, Mole-Richardson, Paul C. Buff, Lastolite added (Profoto, broncolor, Elinchrom, Godox, Hensel known). Enlargers: LPL, Omega, De Vere, Kienzle from the Wikipedia darkroom list (Durst, Beseler, Kaiser known). Not retried: TIPA archive result pages, DPReview Gold Awards (no fetchable list found), instant film (New55/One Instant seen only in excerpts). The Wikipedia List of photographic equipment makers was under-harvested: Zenit, Zorki, Horizon, Zenitar, Casio, Vageeswari, Ross, Crumpler, Hama, Leaf, Lytro, Widelux, Kyocera, Calypso, Stereo Realist, IMAX, Ikegami and the darkroom/chemistry makers were all on the fetched page but missing from all known names. Regions: harvest region brand lists were empty; add_regions gives page-named brands for Dresden/Saxony, the Soviet factories, China, Japanese wooden field cameras and Wetzlar (Wetzlar page fetched excerpt shows only Leica; Kellner/Leitz/Hensoldt text is from the same page's search excerpt). REGIONS ARE NOT QUOTAS: Africa, Latin America, Central Asia and most of the Middle East have no notable makers in this concentrated industry and were not counted as omissions; Leaf (Israel), Vageeswari (India), Champion (Malaysia) are the only additions there. Seller-linked: Isotta, Aquatica, Sea & Sea, Marelux rest on Underwater Photography Guide, which is affiliated with Bluewater Photo store - tier 'listed' unless independently confirmed (Nauticam and Seacam have independent pages). Homonyms flagged: Horizon, Omega, Champion, Mentor, Toyo, Moment, Cactus (Wikipedia link confirms camera-equipment brand), Keystone (Keystone Camera Company), OPL (Optique & Precision de Levallois). Lens-line sub-brands (Nikkor, Takumar, Rokkor, Zuiko) and product lines (Lubitel, Moskva, Zorki, Zenit) may be merged under their makers if the register lists only companies."
 }

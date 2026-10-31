@@ -124,6 +124,85 @@
    ],
    "found": 0,
    "note": "NOT TRIED this run; see notes next-list. Mancala/bao, alebrije, loteria, Maori/Pacific games pending"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "alebrijes Jacobo y María Ángeles workshop",
+    "Don Clemente lotería",
+    "Mexican toys maker"
+   ],
+   "found": 1,
+   "note": "Alebrije workshop found; Don Clemente and Peru/Guatemala not on fetched pages"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "oware board carvers Ghana",
+    "South African wire toys makers",
+    "bao board makers Zanzibar"
+   ],
+   "found": 0,
+   "note": "search surfaced only federations/apps, no named makers; wire toys not found"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Damascus inlaid backgammon workshop",
+    "Khatam backgammon Isfahan",
+    "okey set manufacturer"
+   ],
+   "found": 1,
+   "note": "Turquoise Mountain (Jordan); Persis Collection/Sermeh are shops not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Traditional game sets (Go)",
+   "queries": [
+    "Yunzi go stones manufacturer",
+    "Korean baduk equipment"
+   ],
+   "found": 3,
+   "note": "Yunnan Weiqi Factory, Kuroki, YMI"
+  },
+  {
+   "axis": "kind",
+   "item": "Published games (As d'Or)",
+   "queries": [
+    "Philibert As d'Or page"
+   ],
+   "found": 8,
+   "note": "only 2026 and 1988 expanded in fetched page; other years not retrievable"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe (heritage)",
+   "queries": [
+    "Entreprise du Patrimoine Vivant jouets"
+   ],
+   "found": 4,
+   "note": "EPV toy makers; official EPV dataset (data.gouv.fr) not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Skill toys (kendama)",
+   "queries": [
+    "Wikipedia Kendama"
+   ],
+   "found": 5,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Traditional game sets (matryoshka-adjacent, mahjong, yut)",
+   "queries": [
+    "Wikipedia Matryoshka, Mahjong, Yunnori"
+   ],
+   "found": 0,
+   "note": "Wikipedia pages name regions/places but no makers; Sergiev Posad makers still not on a fetched page"
   }
  ],
  "regions": [
@@ -272,6 +351,58 @@
     "Radio Flyer",
     "Stonemaier Games",
     "Wizards of the Coast"
+   ]
+  },
+  {
+   "region": "Latin America (Mexico)",
+   "speciality": "Alebrije wood carving, Oaxaca (San Martín Tilcajete)",
+   "src": "https://www.jacoboymariaangeles.com/en/dolce-gusto-tjyma",
+   "brands": [
+    "Taller Jacobo y María Ángeles"
+   ]
+  },
+  {
+   "region": "East Asia (China, Yunnan)",
+   "speciality": "Yunzi Go stones, state-run since 1974",
+   "src": "https://en.wikipedia.org/wiki/Yunzi",
+   "brands": [
+    "Yunnan Weiqi Factory"
+   ]
+  },
+  {
+   "region": "Middle East (Damascus/Jordan)",
+   "speciality": "Mother-of-pearl inlaid backgammon boards, Damascene tradition",
+   "src": "https://www.turquoisemountain.org/shop/products/walnut-mother-of-pearl-backgammon-board",
+   "brands": [
+    "Turquoise Mountain"
+   ]
+  },
+  {
+   "region": "Western Europe (France)",
+   "speciality": "Wooden toys of the Jura (Moirans-en-Montagne), EPV-labelled makers",
+   "src": "https://www.marques-de-france.fr/listing/vilac",
+   "brands": [
+    "Jeujura",
+    "Vilac",
+    "Petitcollin",
+    "Maison Tirot"
+   ]
+  },
+  {
+   "region": "East Asia (Japan, Hiroshima)",
+   "speciality": "Kendama: Hatsukaichi first kendama manufacturing city; Japan Kendama Association",
+   "src": "https://en.wikipedia.org/wiki/Kendama",
+   "brands": [
+    "Hongo woodworking factory",
+    "Tortoise Inc"
+   ]
+  },
+  {
+   "region": "Central & Eastern Europe (Russia)",
+   "speciality": "Matryoshka: Sergiev Posad, Polkhovsky Maidan (blanks), Semyonov, Kirov, Nolinsk, Yoshkar-Ola",
+   "src": "https://en.wikipedia.org/wiki/Matryoshka_doll",
+   "brands": [
+    "Khokhlomskaya Rospis"
    ]
   }
  ],
@@ -943,6 +1074,116 @@
    "years": "n/a",
    "names_on_page": 1,
    "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://www.jacoboymariaangeles.com/en/dolce-gusto-tjyma",
+   "title": "Taller Jacobo y María Ángeles",
+   "kind": "collection",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Yunzi",
+   "title": "Yunzi (Wikipedia)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://senseis.xmp.net/?YellowMountainImports",
+   "title": "Yellow Mountain Imports (Sensei's)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://senseis.xmp.net/?YellowMountainImports",
+   "title": "Yellow Mountain Imports (Sensei's)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://www.turquoisemountain.org/shop/products/walnut-mother-of-pearl-backgammon-board",
+   "title": "Turquoise Mountain backgammon",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": " confirmed known: 1"
+  },
+  {
+   "url": "https://www.jeujura.fr/content/9-historique-jeujura-fabricant-jouets-bois-france",
+   "title": "Jeujura history",
+   "kind": "heritage",
+   "years": "2012",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://www.marques-de-france.fr/listing/vilac",
+   "title": "Vilac (Marques de France)",
+   "kind": "heritage",
+   "years": "2007",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://www.jeujura.fr/content/9-historique-jeujura-fabricant-jouets-bois-france",
+   "title": "Jeujura history (Petitcollin)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://maison-tirot.fr/maison_tirot-a-propos/",
+   "title": "Maison Tirot",
+   "kind": "heritage",
+   "years": "2012",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://www.philibertnet.com/fr/awards/3-as-d-or",
+   "title": "As d'Or (Philibert awards page; only 2026 and 1988 listings in static page)",
+   "kind": "award",
+   "years": "2026,1988",
+   "names_on_page": 8,
+   "new_names": 6,
+   "status": "done",
+   "note": "page shows other years collapsed; publishers from product URL slugs confirmed known: 0"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Kendama",
+   "title": "Kendama (Wikipedia)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 5,
+   "new_names": 3,
    "status": "done",
    "note": " confirmed known: 0"
   }
@@ -9376,6 +9617,127 @@
    "says": "Wikipedia: Semyonov factory (founded 1960 as Khokhlomskaya rospis) makes hand-painted wooden items and matryoshka dolls",
    "country": "Russia",
    "dept": "matryoshka, Khokhloma"
+  },
+  {
+   "n": "Taller Jacobo y María Ángeles",
+   "layer": "cultural",
+   "src": "https://www.jacoboymariaangeles.com/en/dolce-gusto-tjyma",
+   "says": "Own site: workshop in San Martín Tilcajete picked by Nescafé Dolce Gusto (2018) among 10 of the best alebrije artisans in Mexico",
+   "country": "Mexico",
+   "dept": "alebrijes (Oaxaca)"
+  },
+  {
+   "n": "Yunnan Weiqi Factory",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Yunzi",
+   "says": "Wikipedia Yunzi: state-run factory making yunzi Go stones since 1974, used in professional tournaments",
+   "country": "China",
+   "dept": "Go stones (Yunzi)"
+  },
+  {
+   "n": "Yellow Mountain Imports",
+   "layer": "cultural",
+   "src": "https://senseis.xmp.net/?YellowMountainImports",
+   "says": "Sensei's Library: sells Go equipment (yunzi, boards) since 2004",
+   "country": "USA",
+   "dept": "Go equipment",
+   "role": "seller"
+  },
+  {
+   "n": "Jeujura",
+   "layer": "premium",
+   "src": "https://www.jeujura.fr/content/9-historique-jeujura-fabricant-jouets-bois-france",
+   "says": "Own history page: awarded EPV (Entreprise du Patrimoine Vivant) label 2012; Jura wooden toys since 1911",
+   "country": "France",
+   "dept": "wooden construction toys"
+  },
+  {
+   "n": "Vilac",
+   "layer": "premium",
+   "src": "https://www.marques-de-france.fr/listing/vilac",
+   "says": "Marques de France: EPV label 2007; lacquered turned wooden toys, Moirans-en-Montagne since 1911",
+   "country": "France",
+   "dept": "wooden toys"
+  },
+  {
+   "n": "Maison Tirot",
+   "layer": "premium",
+   "src": "https://maison-tirot.fr/maison_tirot-a-propos/",
+   "says": "Own page: EPV label 2012; Prix à la Création en Bretagne 2012; only French maker of wooden toy boats, since 1946",
+   "country": "France",
+   "dept": "wooden toy boats"
+  },
+  {
+   "n": "Le Scorpion Masqué",
+   "layer": "premium",
+   "src": "https://www.philibertnet.com/fr/awards/3-as-d-or",
+   "says": "Philibert As d'Or page (Cannes FIJ): publisher of As d'Or 2026 or 1988 winner/category title",
+   "country": "France",
+   "dept": "board games"
+  },
+  {
+   "n": "Playpunk",
+   "layer": "premium",
+   "src": "https://www.philibertnet.com/fr/awards/3-as-d-or",
+   "says": "Philibert As d'Or page (Cannes FIJ): publisher of As d'Or 2026 or 1988 winner/category title",
+   "country": "France",
+   "dept": "board games"
+  },
+  {
+   "n": "Grail Games",
+   "layer": "premium",
+   "src": "https://www.philibertnet.com/fr/awards/3-as-d-or",
+   "says": "Philibert As d'Or page (Cannes FIJ): publisher of As d'Or 2026 or 1988 winner/category title",
+   "country": "France",
+   "dept": "board games"
+  },
+  {
+   "n": "Helvetiq",
+   "layer": "premium",
+   "src": "https://www.philibertnet.com/fr/awards/3-as-d-or",
+   "says": "Philibert As d'Or page (Cannes FIJ): publisher of As d'Or 2026 or 1988 winner/category title",
+   "country": "France",
+   "dept": "board games"
+  },
+  {
+   "n": "Auzou",
+   "layer": "premium",
+   "src": "https://www.philibertnet.com/fr/awards/3-as-d-or",
+   "says": "Philibert As d'Or page (Cannes FIJ): publisher of As d'Or 2026 or 1988 winner/category title",
+   "country": "France",
+   "dept": "board games"
+  },
+  {
+   "n": "KYF Edition",
+   "layer": "premium",
+   "src": "https://www.philibertnet.com/fr/awards/3-as-d-or",
+   "says": "Philibert As d'Or page (Cannes FIJ): publisher of As d'Or 2026 or 1988 winner/category title",
+   "country": "France",
+   "dept": "board games"
+  },
+  {
+   "n": "Tortoise Inc",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Kendama",
+   "says": "Wikipedia Kendama (own article): kendama maker/company named (Tortoise Inc Japan to 2012; Kendama USA 2006; Kendama Europe 2008; Sol Kendamas Kentucky; Hongo factory Hatsukaichi 1921)",
+   "country": "",
+   "dept": "kendama"
+  },
+  {
+   "n": "Kendama Europe",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Kendama",
+   "says": "Wikipedia Kendama (own article): kendama maker/company named (Tortoise Inc Japan to 2012; Kendama USA 2006; Kendama Europe 2008; Sol Kendamas Kentucky; Hongo factory Hatsukaichi 1921)",
+   "country": "",
+   "dept": "kendama"
+  },
+  {
+   "n": "Hongo woodworking factory",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Kendama",
+   "says": "Wikipedia Kendama (own article): kendama maker/company named (Tortoise Inc Japan to 2012; Kendama USA 2006; Kendama Europe 2008; Sol Kendamas Kentucky; Hongo factory Hatsukaichi 1921)",
+   "country": "",
+   "dept": "kendama"
   }
  ]
 }
