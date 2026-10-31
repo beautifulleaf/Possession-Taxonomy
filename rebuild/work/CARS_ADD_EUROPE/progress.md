@@ -1,0 +1,1 @@
+step0: read briefs; CARS.json already covers (>=10 entries): Alfa Romeo 53, Ferrari 78, Fiat 112, Maserati 34, Lamborghini 24, Lotus 23, MG 60, Volvo 67, Skoda 20, Dacia 18, Bugatti 10 etc. Plan: Wikidata SPARQL by manufacturer
