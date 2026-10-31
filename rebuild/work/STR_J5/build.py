@@ -199,12 +199,10 @@ SEE={
 'Molasses and treacle':[['J5','Jaggery','unrefined cane sugar block']],
 'Honey':[['J5','Honeydew honey','honey from sap secretions']],
 'Black pepper and peppercorns':[['J5','Sichuan pepper','a different plant despite the name']],
-'Hazelnut-chocolate spread':[['J8','Chocolate bars','chocolate sold as a bar']],
 'Frozen dumplings':[['J5','Fermented bean curd','']] if False else [],
 'Gelatine and setting agents':[['J5','Jam and fruit spreads','setting with pectin and sugar']],
 'Hot sauce':[['J5','Chilli oil and chilli crisp','chilli in oil']],
 'Mustard':[['J5','Wasabi and karashi','Japanese mustard']],
-'Cooking bitters':[['J7','Spirits','bitter liqueurs sold to drink']],
 }
 SEE={k:v for k,v in SEE.items() if v}
 # ---------- layout
@@ -271,7 +269,7 @@ t='Foods kept in a can, a jar or a brine: heat-sealed tomatoes, pulses and fruit
 ax='Is it heat-sealed in a tin or jar, or kept by brine, vinegar or fermentation?',
 shelves=[
 S('Tinned goods','Foods heat-sealed in a can or jar, such as tinned tomatoes, beans, sweetcorn, fruit and coconut milk; pickles and olives → Pickles, olives & ferments.','kinds by the food: tomato, pulses and vegetables, fruit, coconut, then soup',['Tinned tomatoes','Tomato purée and paste','Passata','Tinned beans and pulses','Tinned sweetcorn','Tinned vegetables','Tinned fruit','Coconut milk and cream','Tinned soup']),
-S('Pickles, olives & ferments','Vegetables and fruit kept in brine, vinegar or ferment, such as olives, gherkins, sauerkraut, kimchi and mango pickle; jams and marmalade → Syrups, jams & spreads.','kinds by the preserving method and region: brined olives and capers, vinegar pickles, fermented cabbage, Asian pickles, sweet-sour relishes',['Table olives','Capers','Gherkins','Pickled peppers','Sauerkraut','Kimchi','Japanese pickles','Indian pickles','Chutneys and relishes']),
+S('Pickles, olives & ferments','Vegetables and fruit kept in brine, vinegar or ferment, such as olives, gherkins, sauerkraut, kimchi and mango pickle; jams and marmalade → Jams & marmalade in Honey, syrups & spreads.','kinds by the preserving method and region: brined olives and capers, vinegar pickles, fermented cabbage, Asian pickles, sweet-sour relishes',['Table olives','Capers','Gherkins','Pickled peppers','Sauerkraut','Kimchi','Japanese pickles','Indian pickles','Chutneys and relishes']),
 ])
 L['Dried fruit & vegetables']=dict(
 t='Fruit, mushrooms, seaweed and vegetables sold dried to eat or soak; fresh produce → Fruit & Vegetables, dried chillies and herbs → Herbs, spices & salt, dried pulses → Grains, pulses & seeds.',
