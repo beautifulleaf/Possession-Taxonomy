@@ -15,7 +15,7 @@ for r in bi:
     m=re.sub(SUF0,'',r[0],flags=re.I).strip()
     if m!=r[0]: idx.setdefault(norm(m),r)
 dmiss={norm(n):n for n in open('/home/user/Possession-Taxonomy/verify/depop/missing.txt').read().split('\n') if n}
-rows=[l.split('\t') for l in open(f).read().split('\n') if l and not l.startswith('#')]
+rows=[l.split('\t')[:2] for l in open(f).read().split('\n') if l and not l.startswith('#')]
 c=collections.Counter(); out={'in_expected':[],'in_other':[],'new':[]}
 SUF=r'\s+(by .*|haircare|hair care|hair|lashes|nailcare|organics|hairscience|skincare|skin care|beauty|cosmetics|fragrances?|parfums?|perfumes?|paris|london|new york|professional|makeup)$'
 def look(n):
