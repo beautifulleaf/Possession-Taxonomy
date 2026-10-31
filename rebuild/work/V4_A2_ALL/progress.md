@@ -11,3 +11,4 @@ step9: Church's Consul could not be attested (church-footwear.com 503/404, searc
 step10: wrote work/V4_A2_ALL/build_part.py; running
 step11: part built + validated OK (355 entries, 105 kinds, 229 KB). writing report
 ROUND2 start (coordinator: re-source silhouettes via per-model wiki pages, owners for ~58 makers, traditional regions/facts, regional shares). ~55 fetches budget. Round-2 findings to be appended to r2_facts.md
+r2 batch1 done: Dunk,AF1,Cortez,Blazer,StanSmith,Samba,Gazelle,Campus,Superstar,Forum wiki fetched -> r2_data1.py

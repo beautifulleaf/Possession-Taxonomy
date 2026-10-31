@@ -104,7 +104,8 @@ def urlname(u):
     h=re.search(r'https?://(?:www\.)?([^/]+)',u).group(1); return h
 def gset(e):
     if e.get('g')=='Protected name': return
-    if e.get('tier')=='Global group': e['g']=e['own']
+    if 'own' not in e: e['g']='Protected name'; e.setdefault('cty',e.get('cty',''))
+    elif e.get('tier')=='Global group': e['g']=e['own']
     elif e.get('tier'): e['g']=e['tier']
 def sortx(x):
     def key(e):
@@ -202,6 +203,11 @@ for dp in (bd,cd,nd):
                 for e in r[1:] if len(xs)>=5 else r: e.pop('role',None)
             for e in xs:
                 if e['n'] in ("Lay's",'Hovis','Kettle Brand','Poilâne','Bimbo','Pringles'): e.pop('role',None)
+for dp in (bd,cd,nd):
+    for sh in dp['s']:
+        for k in sh['k']:
+            if 0<len(k.get('x',[]))<5:
+                for e in k['x']: e.pop('role',None)
 depts=[bd,cd,nd]
 out={'replaces':['Bread & bakery','Crisps & savoury snacks','Snack nuts & bars'],'depts':depts,'brands':[],'brand_updates':{},'renames':{},'moves':[]}
 reg=json.load(open(ROOT+'out/J8_brands.json'))['b']; low={b['n'].lower():b for b in reg}; seen=set()

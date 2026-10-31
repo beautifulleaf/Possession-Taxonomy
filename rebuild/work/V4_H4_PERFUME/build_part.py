@@ -30,7 +30,7 @@ ALIAS={ # variant -> canonical display
  'Burberry Brit':'Burberry Brit','Y':'Y (1964)','Hugo by Hugo Boss':'Hugo','Chanel No. 5':'Chanel No. 5','Boss':'Boss','Light Blue Pour Homme':'Light Blue Pour Homme',
  'Gucci Rush for Men':'Gucci Rush for Men','Ralph Lauren Romance Men':'Romance Men','Eternity for Men':'Eternity for Men','Obsession for Men':'Obsession for Men','Joy':'Joy','Shalimar':'Shalimar',
  'Mon Paris':'Mon Paris','Euphoria Calvin Klein':'Euphoria','Gucci Rush':'Gucci Rush','Heidi Klum Shine':'Shine','Today Tomorrow Always EDP':'Today Tomorrow Always',
- 'Giorgio Armani Sì EDP':'Sì','Tom Ford Soleil Blanc':'Soleil Blanc','Tom Ford Fabulous':'Fabulous','Tom Ford Velvet Orchid':'Velvet Orchid','Tom Ford Noir':'Noir','Tom Ford Noir Pour Femme':'Noir pour Femme',
+ 'Giorgio Armani Sì EDP':'Sì','Tom Ford Soleil Blanc':'Soleil Blanc','Tom Ford Fabulous':'Fabulous','Tom Ford Velvet Orchid':'Velvet Orchid','Tom Ford Noir':'Noir','Tom Ford Noir Pour Femme':'Noir pour Femme','1 Million Eau de Toilette':'1 Million','Daisy Marc Jacobs':'Daisy','New West Skinscent for Her':'New West',
 }
 PARENT={ # fifi/list name -> (parent display, version name)
  'Dior Sauvage EDT':('Sauvage','Eau de Toilette'),'Dior Sauvage Parfum':('Sauvage','Parfum'),'Sauvage Parfum':('Sauvage','Parfum'),'Sauvage Elixir':('Sauvage','Elixir'),
@@ -39,6 +39,9 @@ PARENT={ # fifi/list name -> (parent display, version name)
  'Eternity for Men':('Eternity','for Men'),'Obsession for Men':('Obsession','for Men'),'Kouros Fraîcheur':('Kouros','Fraîcheur'),'Light Blue Pour Homme':('Light Blue','Pour Homme'),
  'Opium Fraîcheur d\'Orient':('Opium',"Fraîcheur d'Orient"),'Costa Azzurra Parfum':('Costa Azzurra','Parfum'),'Gucci Rush for Men':('Gucci Rush','for Men'),'Romance Men':('Romance','Men'),
  'Dior Homme 2020':('Dior Homme','2020'),'Miss Dior Chérie':('Miss Dior','Chérie'),'Tom Ford Oud Minérale':None,
+ 'Allure Homme':('Allure','Homme'),'Burberry Brit for Men':('Burberry Brit','for Men'),'Burberry Brit Red':('Burberry Brit','Red'),'Tiffany for Men':('Tiffany','for Men'),
+ 'Oscar de la Renta Pour Lui':('Oscar','Pour Lui'),"L'Eau d'Issey pour Homme":("L'Eau d'Issey",'pour Homme'),'Shalimar Light':('Shalimar','Light'),'Gucci Guilty Pour Homme':('Gucci Guilty','Pour Homme'),
+ 'Today. Tomorrow. Always. for Men':('Today Tomorrow Always','for Men'),'Spirit Antonio Banderas for Women':('Spirit Antonio Banderas','for Women'),'Eternity Now':None,
 }
 # family placement from fetched pages: key -> kind
 FAM={}
@@ -131,6 +134,14 @@ def ydig(y):
     m=re.search(r'\d{4}',str(y or ''))
     return int(m.group()) if m else None
 def add(name,y='',mk='',per='',s='',kind=None,d=None,existing=None,note=None,hof=False,roles=None):
+    if name.startswith('Tom Ford ') and len(name)>10 and name not in ALIAS: name=name[9:]; mk=mk or 'Tom Ford'
+    if name in PARENT and PARENT[name]:
+        pn,vn=PARENT[name]
+        pk=find(pn) or add(pn,'',mk,'',s)
+        REG[pk].setdefault('vers',[]).append((vn,str(y or ''),note or ''))
+        if note: REG[pk]['awards'].append(note+' ('+vn+')')
+        if hof: REG[pk]['hof']=True
+        return pk
     k=find(name)
     if k is None:
         k,n=get_key(name)
@@ -155,13 +166,6 @@ for sh in dept['s']:
         for m in (kd.get('m') or []):
             oldm.append((m[0],m[1],kd['n'],kd['s']))
 UNST='Alcohol-based perfume'
-DOM_old=[]
-for nm,mk,kn,ks in oldm:
-    k=find(nm)
-    if k is None:
-        k=add(nm,'',mk,'',ks,None if kn==UNST else kn)
-        DOM_old.append(nm)
-    elif not REG[k]['mk']: REG[k]['mk']=mk
 # 2 list of perfumes
 for line in open(W+'lop.txt',encoding='utf-8'):
     p=line.rstrip('\n').split('|')
@@ -227,5 +231,15 @@ OSMU='https://en.wikipedia.org/wiki/Osmoth%C3%A8que'
 OSMU='https://en.wikipedia.org/wiki/Osmoth%C3%A8que'
 for e in REG.values():
     if e.get('osm') and not e['s']: e['s']=OSMU
+M_KEPT=[];M_DROP=[]
+for nm,mk,kn,ks in oldm:
+    k=find(nm)
+    if k is None: M_DROP.append((nm,mk))
+    else:
+        M_KEPT.append(nm)
+        if not REG[k]['mk']: REG[k]['mk']=mk
+        if not REG[k]['kind'] and kn!=UNST: REG[k]['kind']=kn
 json.dump({k:{kk:vv for kk,vv in v.items() if kk!='ex'} for k,v in REG.items()},open(W+'registry.json','w'),ensure_ascii=False,indent=0)
-print('registry',len(REG),'wd kept',WDKEPT,'fifi rows',FIFI_N,'old m',len(oldm),'new from m',len(DOM_old))
+json.dump({'kept':M_KEPT,'dropped':M_DROP},open(W+'m_fate.json','w'),ensure_ascii=False)
+print('m kept',len(M_KEPT),'dropped',len(M_DROP))
+print('registry',len(REG),'wd kept',WDKEPT,'fifi rows',FIFI_N,'old m',len(oldm))

@@ -11,3 +11,4 @@ step9: lib.py bread.py crisps.py written (entries); next nuts.py then build.py
 step10: build.py runs, part file written; validating
 step11: report written, done
 step12 (restructure request): gap research done (EU regs, Loaf Mark total 219=complete, DE/FR/BR/Africa figures); next build2.py: no tier shelves, brands in product kinds
+step13: restructure done, validated, report updated
