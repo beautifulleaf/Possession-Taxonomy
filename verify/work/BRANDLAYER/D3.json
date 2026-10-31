@@ -45,19 +45,23 @@
    "axis": "kind",
    "item": "Soundbars & wireless speakers",
    "queries": [
-    "EISA 2024-27"
+    "EISA 2024-27",
+    "rtings best soundbars",
+    "rtings best bluetooth speakers"
    ],
    "found": 5,
-   "note": "partial: sources listed; open per-section queries not run"
+   "note": "RTINGS speakers done"
   },
   {
    "axis": "kind",
    "item": "Turntables & vinyl playback (all 4 sections)",
    "queries": [
-    "Stereophile 2025 turntables/tonearms/cartridges/phono"
+    "Stereophile 2025 turntables/tonearms/cartridges/phono",
+    "Wirecutter best turntable",
+    "best phono cartridges ecoustics"
    ],
    "found": 30,
-   "note": "partial: sources listed; open per-section queries not run"
+   "note": "done beyond Stereophile; Crosley only appears in negative/mixed reviews (not recorded as quality; cultural needs a page)"
   },
   {
    "axis": "kind",
@@ -81,19 +85,26 @@
    "axis": "kind",
    "item": "TVs, projectors & video players",
    "queries": [
-    "EISA home theatre 2026, RTINGS excerpt; brands mostly known"
+    "EISA home theatre 2026, RTINGS excerpt; brands mostly known",
+    "rtings best projectors",
+    "rtings best TVs (tv/best URL 404, not guessed)",
+    "rtings best TV brands"
    ],
    "found": 4,
-   "note": "partial: sources listed; open per-section queries not run"
+   "note": "done"
   },
   {
    "axis": "kind",
    "item": "Radios & music systems",
    "queries": [
-    "What Hi-Fi 2025 radios; D2 MOVES file absent"
+    "What Hi-Fi 2025 radios; D2 MOVES file absent",
+    "Roberts Royal Warrant",
+    "best tabletop radios",
+    "best DAB radios",
+    "best shortwave radios (Reddit only, not recorded)"
    ],
    "found": 1,
-   "note": "partial: sources listed; open per-section queries not run"
+   "note": "done: Tecsun/Crosley not attested by a quality page"
   },
   {
    "axis": "kind",
@@ -108,10 +119,11 @@
    "axis": "kind",
    "item": "Smart speakers & displays",
    "queries": [
-    "not swept (global market)"
+    "not swept (global market)",
+    "rtings best smart speakers (search excerpt only: Amazon Echo Studio, Sonos Play, Google Home Speaker); global market, nothing distinctive"
    ],
    "found": 0,
-   "note": "NOT TRIED - next agent"
+   "note": "global market, nothing distinctive"
   },
   {
    "axis": "kind",
@@ -653,6 +665,96 @@
    "new_names": 3,
    "status": "done",
    "note": " (confirmed known: 21)"
+  },
+  {
+   "url": "https://www.rtings.com/soundbar/reviews/best/soundbar",
+   "title": "RTINGS best soundbars 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 7,
+   "new_names": 0,
+   "status": "done",
+   "note": " (confirmed known: 7)"
+  },
+  {
+   "url": "https://www.rtings.com/projector/reviews/best/projector",
+   "title": "RTINGS best projectors 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 7,
+   "new_names": 5,
+   "status": "done",
+   "note": " (confirmed known: 1)"
+  },
+  {
+   "url": "https://www.rtings.com/speaker/reviews/best/sounding-bluetooth",
+   "title": "RTINGS best-sounding Bluetooth speakers",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 11,
+   "new_names": 2,
+   "status": "done",
+   "note": " (confirmed known: 8)"
+  },
+  {
+   "url": "https://www.rtings.com/tv/reviews/best/brands",
+   "title": "RTINGS best TV brands",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 6,
+   "new_names": 0,
+   "status": "done",
+   "note": " (confirmed known: 6)"
+  },
+  {
+   "url": "https://www.royalwarrant.org/company/roberts-radio-limited",
+   "title": "Royal Warrant: Roberts Radio",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": " (confirmed known: 1)"
+  },
+  {
+   "url": "https://www.themasterswitch.com/best-tabletop-radios",
+   "title": "Best Tabletop Radios",
+   "kind": "ranking",
+   "years": "2024",
+   "names_on_page": 14,
+   "new_names": 6,
+   "status": "done",
+   "note": " (confirmed known: 7)"
+  },
+  {
+   "url": "https://www.goodhousekeeping.com/uk/product-reviews/tech/g25301461/best-dab-radios",
+   "title": "Best DAB radios",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": " (confirmed known: 1)"
+  },
+  {
+   "url": "https://www.ecoustics.com/articles/best-phono-cartridges-2024",
+   "title": "Best Phono Cartridges 2024",
+   "kind": "ranking",
+   "years": "2024",
+   "names_on_page": 10,
+   "new_names": 1,
+   "status": "done",
+   "note": " (confirmed known: 4)"
+  },
+  {
+   "url": "https://www.nytimes.com/wirecutter/reviews/best-turntable",
+   "title": "Wirecutter best turntables",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": " (confirmed known: 1)"
   }
  ],
  "brands": [
@@ -2286,6 +2388,126 @@
    "says": "What Hi-Fi? Awards 2024 winner (consumer-test award; reported by Son-Video blog)",
    "country": "",
    "dept": "mixed"
+  },
+  {
+   "n": "JMGO",
+   "layer": "premium",
+   "src": "https://www.rtings.com/projector/reviews/best/projector",
+   "says": "RTINGS best projectors 2026 (lab-tested pick or notable mention)",
+   "country": "",
+   "dept": "projectors"
+  },
+  {
+   "n": "NexiGo",
+   "layer": "premium",
+   "src": "https://www.rtings.com/projector/reviews/best/projector",
+   "says": "RTINGS best projectors 2026 (lab-tested pick or notable mention)",
+   "country": "",
+   "dept": "projectors"
+  },
+  {
+   "n": "AWOL Vision",
+   "layer": "premium",
+   "src": "https://www.rtings.com/projector/reviews/best/projector",
+   "says": "RTINGS best projectors 2026 (lab-tested pick or notable mention)",
+   "country": "",
+   "dept": "projectors"
+  },
+  {
+   "n": "Valerion",
+   "layer": "premium",
+   "src": "https://www.rtings.com/projector/reviews/best/projector",
+   "says": "RTINGS best projectors 2026 (lab-tested pick or notable mention)",
+   "country": "",
+   "dept": "projectors"
+  },
+  {
+   "n": "Aurzen",
+   "layer": "premium",
+   "src": "https://www.rtings.com/projector/reviews/best/projector",
+   "says": "RTINGS best projectors 2026 (lab-tested pick or notable mention)",
+   "country": "",
+   "dept": "projectors"
+  },
+  {
+   "n": "Tribit",
+   "layer": "premium",
+   "src": "https://www.rtings.com/speaker/reviews/best/sounding-bluetooth",
+   "says": "RTINGS best-sounding Bluetooth speakers 2026 (lab-tested pick or notable mention)",
+   "country": "",
+   "dept": "Bluetooth speakers"
+  },
+  {
+   "n": "Anker Soundcore",
+   "layer": "premium",
+   "src": "https://www.rtings.com/speaker/reviews/best/sounding-bluetooth",
+   "says": "RTINGS best-sounding Bluetooth speakers 2026 (lab-tested pick or notable mention)",
+   "country": "",
+   "dept": "Bluetooth speakers"
+  },
+  {
+   "n": "Sangean",
+   "layer": "premium",
+   "src": "https://www.themasterswitch.com/best-tabletop-radios",
+   "says": "The Master Switch best tabletop radios (independent review roundup)",
+   "country": "",
+   "dept": "radios"
+  },
+  {
+   "n": "Grace Digital",
+   "layer": "premium",
+   "src": "https://www.themasterswitch.com/best-tabletop-radios",
+   "says": "The Master Switch best tabletop radios (independent review roundup)",
+   "country": "",
+   "dept": "radios"
+  },
+  {
+   "n": "C.Crane",
+   "layer": "premium",
+   "src": "https://www.themasterswitch.com/best-tabletop-radios",
+   "says": "The Master Switch best tabletop radios (independent review roundup)",
+   "country": "",
+   "dept": "radios"
+  },
+  {
+   "n": "Victrola",
+   "layer": "premium",
+   "src": "https://www.themasterswitch.com/best-tabletop-radios",
+   "says": "The Master Switch best tabletop radios (independent review roundup)",
+   "country": "",
+   "dept": "radios"
+  },
+  {
+   "n": "Avantree",
+   "layer": "premium",
+   "src": "https://www.themasterswitch.com/best-tabletop-radios",
+   "says": "The Master Switch best tabletop radios (independent review roundup)",
+   "country": "",
+   "dept": "radios"
+  },
+  {
+   "n": "The+Radio",
+   "layer": "premium",
+   "src": "https://www.themasterswitch.com/best-tabletop-radios",
+   "says": "The Master Switch best tabletop radios (independent review roundup)",
+   "country": "",
+   "dept": "radios"
+  },
+  {
+   "n": "Le Son International",
+   "layer": "premium",
+   "src": "https://www.ecoustics.com/articles/best-phono-cartridges-2024",
+   "says": "ecoustics Best Phono Cartridges Editors' Choice 2024 (expert review)",
+   "country": "",
+   "dept": "cartridges"
+  },
+  {
+   "n": "Fluance",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/wirecutter/reviews/best-turntable",
+   "says": "Wirecutter best turntables 2026: top pick Fluance RT85N; Nagaoka MP-110 recommended cartridge",
+   "country": "",
+   "dept": "turntables"
   }
  ]
 }
