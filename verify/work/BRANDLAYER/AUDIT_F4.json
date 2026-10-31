@@ -807,13 +807,15 @@
    "region": "Puglia"
   },
   {
-   "n": "Hereke (Hereke Imperial Factory)",
+   "n": "Hereke Silk Weaving and Carpet Factory",
    "layer": "cultural",
    "src": "https://dergipark.org.tr/tr/download/article-file/6130378",
    "says": "Ottoman imperial carpet factory whose silk and wool prayer rugs (seccade) signed 'Hereke' form the focus of the Yildiz Palace Carpet Museum, National Palaces collection (Aris journal, 2026)",
    "country": "Turkey",
    "dept": "Mats, shawls & hangings (prayer rug)",
-   "region": "Hereke, Kocaeli"
+   "region": "Hereke, Kocaeli",
+   "cross_tag": "F4",
+   "already": true
   },
   {
    "n": "Tashan (Oltu stone tesbih)",
@@ -869,7 +871,9 @@
    "says": "Japanese incense house named among the major sellers or oldest companies that also export (Wikipedia)",
    "country": "Japan",
    "dept": "Incense & burners",
-   "region": ""
+   "region": "",
+   "cross_tag": "F4",
+   "already": true
   },
   {
    "n": "Kokando (incense)",
@@ -924,7 +928,9 @@
    "says": "Teshie workshop of Kane Kwei, originator of Ga fantasy coffins in the 1950s; the other ~10 Accra workshops are owned by his former apprentices; coffins sought by collectors worldwide (National Geographic; LA Times 1995)",
    "country": "Ghana",
    "dept": "Containers for body & ashes (fantasy coffin)",
-   "region": "Teshie, Accra"
+   "region": "Teshie, Accra",
+   "cross_tag": "F4",
+   "already": true
   },
   {
    "n": "Paa Joe (coffin workshop)",
@@ -943,6 +949,79 @@
    "country": "United States",
    "dept": "Containers for body & ashes (casket, urn)",
    "region": "Iowa"
+  },
+  {
+   "n": "Talleres de Arte Granda",
+   "layer": "premium",
+   "src": "https://granda.com/historia/",
+   "says": "liturgical art workshops founded 1891 by priest-artist Felix Granda (Madrid/Alcala de Henares): chalices, ciboria, monstrances, tabernacles, retablos, vestments; papal ornaments (maker's own page)",
+   "country": "Spain",
+   "dept": "Ritual vessels & implements; church goods",
+   "region": "Madrid"
+  },
+  {
+   "n": "Orfebreria Marmolejo",
+   "layer": "cultural",
+   "src": "https://orfebreriamarmolejo.es/nuestra-historia-orfebreria-en-sevilla",
+   "says": "Seville religious silversmith workshop founded 1947 by Fernando Marmolejo, works for the great Seville cofradias (maker's own page)",
+   "country": "Spain",
+   "dept": "Ritual vessels & implements (Holy Week silver)",
+   "region": "Seville"
+  },
+  {
+   "n": "Ban Bat alms-bowl community",
+   "layer": "cultural",
+   "role": "maker",
+   "src": "https://nathan-hutchinson.com/ban-bat-alms-bowl-makers-thailand",
+   "says": "last Bangkok community hand-forging monks' alms bowls (bat) since King Rama I allotted three villages for the craft; few families remain, e.g. fourth-generation maker Mayuree Serseeserm (photo-essay; Bangkok Post 2003 quoted on crossing-textiles)",
+   "country": "Thailand",
+   "dept": "Ritual vessels & implements (alms bowl)",
+   "region": "Bangkok"
+  },
+  {
+   "n": "Cagayat workshop (Paete)",
+   "layer": "cultural",
+   "src": "https://newsinfo.inquirer.net/1111371/wood-carving-art-alive-in-paete",
+   "says": "Paete santo workshop of master carver Justino 'Paloy' Cagayat Jr., who carved the official image of San Pedro Calungsod; Paete is the declared Carving Capital of the Philippines (Inquirer; Climate Tracker Asia)",
+   "country": "Philippines",
+   "dept": "Sculpted figures & scenes (santos)",
+   "region": "Paete, Laguna"
+  },
+  {
+   "n": "Ihling Bros. Everard (Kalamazoo Regalia)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Ihling_Brothers_Everard_Company",
+   "says": "one of the oldest US Masonic and fraternal regalia manufacturers (Kalamazoo, from 1869; regalia dept c.1900), continued as Kalamazoo Regalia (Wikipedia; Kalamazoo Valley Museum)",
+   "country": "United States",
+   "dept": "Ceremonial regalia (Masonic)",
+   "region": "Kalamazoo, Michigan"
+  },
+  {
+   "n": "George H Lilley",
+   "layer": "cultural",
+   "src": "https://www.ghlilley.com.au/pages/about-us",
+   "says": "Melbourne regalia maker founded 1947 as Coronet Regalia, primarily Masonic regalia; also mayoral robes and chains (maker's own page)",
+   "country": "Australia",
+   "dept": "Ceremonial regalia (Masonic, mayoral chains)",
+   "region": "Melbourne"
+  },
+  {
+   "n": "Palekhsky Ikonostas",
+   "layer": "premium",
+   "src": "https://rg.ru/2024/04/10/reg-cfo/svoi-v-doskah.html",
+   "says": "Palekh icon and iconostasis workshop grown in ~30 years from a family studio to a full-cycle works with 150 staff (plus ~100 on projects), lime-board tempera icons on levkas made by traditional 17th-century method (Rossiyskaya Gazeta 2024)",
+   "country": "Russia",
+   "dept": "Painted & written images (icons, iconostases)",
+   "region": "Palekh, Ivanovo"
+  },
+  {
+   "n": "Wu Lu Heng Luojing (吴鲁衡罗经店)",
+   "layer": "premium",
+   "src": "http://www.tianxiawushi.com/m/view.php?aid=8529",
+   "says": "luopan (feng shui compass) shop founded 1723 in Wan'an, Xiuning, by master Wu Luheng, the most renowned luopan maker in Chinese history; now run by 7th-generation heir; Wan'an luopan national intangible heritage 2006 (China Report feature)",
+   "country": "China",
+   "dept": "Watching & pointing tools (luopan)",
+   "region": "Wan'an, Xiuning, Anhui"
   }
  ],
  "add_regions": [
@@ -1086,6 +1165,72 @@
     "Ban Kah Hiang",
     "Sin Hoe Hin Joss Paper Dealer",
     "Hoe Heng Joss Papers"
+   ]
+  },
+  {
+   "region": "Thailand (Bangkok, Ban Bat / Bamrung Mueang)",
+   "speciality": "hand-forged monks' alms bowls and Buddhist temple-supply street",
+   "src": "https://nathan-hutchinson.com/ban-bat-alms-bowl-makers-thailand",
+   "brands": [
+    "Ban Bat alms-bowl community"
+   ]
+  },
+  {
+   "region": "Philippines (Paete, Laguna)",
+   "speciality": "carved wooden santos; Carving Capital of the Philippines (2005)",
+   "src": "https://newsinfo.inquirer.net/1111371/wood-carving-art-alive-in-paete",
+   "brands": [
+    "Cagayat workshop (Paete)"
+   ]
+  },
+  {
+   "region": "Spain (Seville; Madrid)",
+   "speciality": "Holy Week processional silver (orfebreria cofrade), imagineria, liturgical art",
+   "src": "https://orfebreriamarmolejo.es/nuestra-historia-orfebreria-en-sevilla",
+   "brands": [
+    "Orfebreria Marmolejo",
+    "Talleres de Arte Granda"
+   ]
+  },
+  {
+   "region": "United States (Ohio, Michigan)",
+   "speciality": "fraternal and Masonic regalia industry from 1865 (M.C. Lilley, Henderson-Ames, Ihling Bros.)",
+   "src": "https://en.wikipedia.org/wiki/Ihling_Brothers_Everard_Company",
+   "brands": [
+    "Ihling Bros. Everard (Kalamazoo Regalia)"
+   ]
+  },
+  {
+   "region": "Russia (Palekh, Mstera, Kholui)",
+   "speciality": "historic icon-painting villages (17th-19th c.), icon work revived in Palekh since the 1990s",
+   "src": "https://rg.ru/2024/04/10/reg-cfo/svoi-v-doskah.html",
+   "brands": [
+    "Palekhsky Ikonostas",
+    "Sofrino"
+   ]
+  },
+  {
+   "region": "China (Wan'an, Xiuning, Anhui)",
+   "speciality": "Wan'an luopan feng-shui compasses, national intangible cultural heritage (2006)",
+   "src": "http://www.tianxiawushi.com/m/view.php?aid=8529",
+   "brands": [
+    "Wu Lu Heng Luojing"
+   ]
+  },
+  {
+   "region": "India (Moradabad, Uttar Pradesh)",
+   "speciality": "Moradabad Metal Craft GI (no. 161, 2014), 'Peetal Nagri' brass city incl. puja brassware; the 36 authorised users are general export houses (first 10 visible: Shree Sai De Art, S. S. Inc, Rozy International, Param International...), none shown as religious-goods specialists, so none recorded as F4 brands",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/161",
+   "brands": []
+  },
+  {
+   "region": "India (Karnataka)",
+   "speciality": "Mysore Agarbathi GI (All India Agarbathi Manufacturers Association); no authorised users listed",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/18",
+   "brands": [
+    "Cycle Pure Agarbathies",
+    "Satya",
+    "Shrinivas Sugandhalaya"
    ]
   }
  ],

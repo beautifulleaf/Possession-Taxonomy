@@ -184,9 +184,107 @@
    "country": "Switzerland",
    "dept": "stamp printer",
    "region": "Swiss Jura (La Chaux-de-Fonds)"
+  },
+  {
+   "n": "Noonans",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://en.wikipedia.org/wiki/Noonans_Mayfair",
+   "says": "formerly Dix Noonan Webb (1990); London auction house for coins, medals and paper money; largest numismatics auctioneer in London, over 400,000 lots sold",
+   "country": "United Kingdom",
+   "dept": "auction house",
+   "region": "London"
+  },
+  {
+   "n": "Baldwin's (coins)",
+   "homonym": true,
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://en.numista.com/outings/a-h-baldwin-sons-ltd-london-388.html",
+   "says": "A. H. Baldwin & Sons, est. 1872, one of the largest and longest established numismatic dealers; auctions in London, New York, Hong Kong. HOMONYM: register 'Baldwin' (B8) is a lock and hardware brand, not this firm (the harvest notes wrongly treat it as known)",
+   "country": "United Kingdom",
+   "dept": "dealer, auction house",
+   "region": "London"
+  },
+  {
+   "n": "Crane Currency",
+   "layer": "premium",
+   "src": "https://www.coinbooks.org/v29/esylum_v29n17a22.html",
+   "says": "printed (on paper) the Curaçao and Sint Maarten 200 gulden note, IBNS Bank Note of the Year 2025. Distinct from register 'Crane' (steam inhalers, H2)",
+   "country": "United States",
+   "dept": "banknote printer",
+   "region": ""
+  },
+  {
+   "n": "Note Printing Australia",
+   "layer": "premium",
+   "src": "https://www.theibns.org/joomla/index.php?Itemid=51&catid=39%3Abnoy-2022&id=861%3A&option=com_content&view=article",
+   "says": "Reserve Bank of Australia subsidiary that printed the Philippines 1000 piso polymer note, IBNS Bank Note of the Year 2022",
+   "country": "Australia",
+   "dept": "banknote printer",
+   "region": ""
+  },
+  {
+   "n": "Orell Füssli",
+   "layer": "premium",
+   "src": "https://www.theibns.org/joomla/index.php?Itemid=51&id=651%3Aswitzerland-repeat-winner-of-ibns-bank-note-of-year-award&catid=37%3Abnoy-2017&option=com_content&view=article",
+   "says": "Orell Füssli Security Printing, Zurich, printed the Swiss 9th-series notes; Switzerland won IBNS Bank Note of the Year 2016 and 2017",
+   "country": "Switzerland",
+   "dept": "banknote printer",
+   "region": "Zurich"
+  },
+  {
+   "n": "Yvert et Tellier",
+   "layer": "cultural",
+   "src": "https://fr.wikipedia.org/wiki/Yvert_et_Tellier",
+   "says": "Amiens (1831); catalogue and album since 1896; its stamp catalogue is the French reference and one of the international references with Stanley Gibbons, Michel and Scott; sells albums under its brand",
+   "country": "France",
+   "dept": "stamp albums and catalogues",
+   "region": "Amiens"
+  },
+  {
+   "n": "Michel (Schwaneberger Verlag)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Michel_catalog",
+   "says": "the leading stamp catalogue of the German-speaking world since 1910, ~400,000 printed a year; published by album maker Schwaneberger Verlag, Munich",
+   "country": "Germany",
+   "dept": "stamp catalogues and albums",
+   "region": "Munich"
   }
  ],
- "add_regions": [],
+ "add_regions": [
+  {
+   "region": "Ticino (southern Switzerland)",
+   "speciality": "gold refining and bullion bars: BBC - four of the world's biggest gold refineries are in Switzerland, three of them in Ticino; about two-thirds of the world's gold refined in Switzerland. Replaces the harvest's LBMA-sourced Swiss region (LBMA page shows no names raw)",
+   "src": "https://www.bbc.com/news/world-europe-20813983",
+   "brands": [
+    "Argor-Heraeus",
+    "Valcambi",
+    "PAMP",
+    "Metalor"
+   ],
+   "note": "BBC names no firms in the fetched excerpt; refiner names and Swiss location from the Borsa Istanbul PDF (LBMA list)"
+  },
+  {
+   "region": "Pforzheim (Goldstadt), Baden-Württemberg",
+   "speciality": "precious-metal refining (Scheideanstalten) serving the jewellery and watch industry; Wikipedia: nickname Goldstadt, ~70% of German jewellery and silverware sales; ESG page names the Pforzheim-region Scheideanstalten",
+   "src": "https://en.wikipedia.org/wiki/Pforzheim",
+   "brands": [
+    "Agosi",
+    "Heimerle + Meule",
+    "C. Hafner"
+   ],
+   "src2": "https://www.scheideanstalt.de/was-wir-kaufen/gold/goldankauf/pforzheim"
+  },
+  {
+   "region": "Kremnica (Golden Kremnica), Slovakia",
+   "speciality": "oldest still-working mint in the world (1328); Kremnica ducats used internationally for their consistently high gold purity",
+   "src": "https://en.wikipedia.org/wiki/Kremnica",
+   "brands": [
+    "Kremnica Mint"
+   ]
+  }
+ ],
  "drop": [
   {
    "n": "The Mint (Carlingford)",
@@ -399,6 +497,24 @@
    "to": "one brand 'Cartor' (re-source)",
    "why": "Walsall (1892), ISP and Cartor rebranded as one group 'Cartor Security Printers' in 2021 (cartor.com media); prints for over 180 postal administrations; bought Courvoisier's presses 2001; Åland stamp it printed won World's Best Stamp 2025",
    "src": "https://www.earthisland.co.uk/single-post/cartor-s-security-print-expertise-recognised-through-prize-winning-%C3%A5land-post-stamp"
+  },
+  {
+   "n": "Bundesdruckerei",
+   "to": "premium (re-source)",
+   "why": "IACA Excellence in Currency Awards 2026 Best New House Note (STELLA)",
+   "src": "https://currencyresearch.com/the-banknote-conference"
+  },
+  {
+   "n": "De La Rue (quality)",
+   "to": "premium",
+   "why": "designed and made the East Caribbean $2 note, IBNS Bank Note of the Year 2023",
+   "src": "https://www.theibns.org/joomla/index.php?Itemid=51&catid=42%3Abnoy-2023&id=902%3Abanknote-of-2023&option=com_content&view=article"
+  },
+  {
+   "n": "India Government Mint",
+   "to": "cultural (add SPMCIL as owner)",
+   "why": "Government of India Statistical Year Book: IGMs at Mumbai, Hyderabad, Kolkata and Noida 'have made a niche in the minting world ... a long tradition of craftsmanship'; units of SPMCIL",
+   "src": "https://mospi.gov.in/sites/default/files/Statistical_year_book_india_chapters/Ch_40_SYB2017.pdf"
   }
  ],
  "notes": ""
