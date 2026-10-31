@@ -5,3 +5,4 @@ step3: edit2.py applied (OnePlus,Xiaomi,Poco,Garmin handhelds,inReach,ham,ms for
 step4: edit3 (Tab S/A, Watch years) + edit4 (coverage lines, all 61 kinds) applied; ~42 fetches. next: use remaining ~15 fetches on year gaps, then report
 step5: edit5 applied; ~49 fetches; next write report
 ROUND2 started: owners via Wikidata, page tails, years, full-year shares
+R2 step1: owners edit6 applied (cty/own/tier from fetched maker extracts; 8 API fetches + 1 SPARQL). next: page tails, years, full-year shares
