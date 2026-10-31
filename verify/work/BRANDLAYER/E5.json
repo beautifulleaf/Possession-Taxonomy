@@ -46,7 +46,7 @@
    "item": "all other regions",
    "queries": [],
    "found": 0,
-   "note": "NOT RUN: global concentrated market; context exhausted by large Parallel outputs. Next: one search per region"
+   "note": "NOT RUN for most regions; regions evidenced via Famiclone page (Russia, Brazil, China/Taiwan, Poland, Argentina, Arabian Peninsula, India, Thailand). Remaining: W/N/S Europe, N Africa, SS Africa, Central Asia, Oceania, N America. Global concentrated market."
   },
   {
    "axis": "kind",
@@ -84,6 +84,35 @@
    ],
    "found": 0,
    "note": "PCMag extract only Meta Quest 3; Valve, Pimax, Bigscreen known; Varjo not on a fetched page yet"
+  },
+  {
+   "axis": "kind",
+   "item": "Arcade & coin-op > Pinball machines",
+   "queries": [
+    "List of pinball manufacturers Wikipedia",
+    "Category:Pinball manufacturers"
+   ],
+   "found": 37,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Regional/historic clone consoles",
+   "queries": [
+    "Dendy Steepler Famicom clone Russia",
+    "Tectoy Gradiente Brazil Master System"
+   ],
+   "found": 24,
+   "note": "Famiclone page; Polystation named only as counterfeit console (not recorded)"
+  },
+  {
+   "axis": "kind",
+   "item": "VR & XR > VR headsets",
+   "queries": [
+    "Category:Virtual reality headsets"
+   ],
+   "found": 3,
+   "note": ""
   }
  ],
  "regions": [
@@ -121,18 +150,7 @@
    ]
   },
   {
-   "region": "China",
-   "speciality": "direct-drive sim racing wheels and wheelbases",
-   "src": "https://simracingcockpit.gg/sim-racing-wheels/",
-   "brands": [
-    "Moza",
-    "Simagic",
-    "Conspit",
-    "PXN"
-   ]
-  },
-  {
-   "region": "Italy/Europe",
+   "region": "Sim racing premium rims (country not stated)",
    "speciality": "premium sim racing rims",
    "src": "https://simracingcockpit.gg/sim-racing-wheels/",
    "brands": [
@@ -140,6 +158,82 @@
     "Ascher Racing",
     "Grid Engineering",
     "Sim-Lab"
+   ]
+  },
+  {
+   "region": "Russia / former USSR",
+   "speciality": "Dendy Famicom clones (Steepler)",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "brands": [
+    "Steepler",
+    "Bit Corporation"
+   ]
+  },
+  {
+   "region": "Brazil",
+   "speciality": "locally made clones and licensed Sega consoles under import ban",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "brands": [
+    "Gradiente",
+    "Dynacom",
+    "Dismac",
+    "Estrela",
+    "Playtronic",
+    "Tec Toy"
+   ]
+  },
+  {
+   "region": "China / Taiwan",
+   "speciality": "Famiclone and handheld clone manufacture",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "brands": [
+    "Subor",
+    "New Star",
+    "Micro Genius",
+    "NTDEC",
+    "Sachen",
+    "Jichang Electronics"
+   ]
+  },
+  {
+   "region": "Eastern Europe (Poland)",
+   "speciality": "Pegasus Famiclone",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "brands": [
+    "BobMark International"
+   ]
+  },
+  {
+   "region": "Latin America (Argentina)",
+   "speciality": "Family Game clones",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "brands": [
+    "Electrolab",
+    "Bit Argentina"
+   ]
+  },
+  {
+   "region": "Middle East / Arabian Peninsula",
+   "speciality": "Rinco and Al Sagr clones",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "brands": [
+    "Ramar International"
+   ]
+  },
+  {
+   "region": "South Asia (India)",
+   "speciality": "Samurai NES distribution, clones",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "brands": [
+    "Samurai Electronics"
+   ]
+  },
+  {
+   "region": "Southeast Asia (Thailand)",
+   "speciality": "Family brand clones",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "brands": [
+    "Family TSI"
    ]
   }
  ],
@@ -263,6 +357,56 @@
    "new_names": 0,
    "status": "partial",
    "note": "extract gave Meta Quest 3 only (known)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "title": "List of pinball manufacturers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 80,
+   "new_names": 37,
+   "status": "done",
+   "note": "Stern, Jersey Jack, Spooky, American Pinball, Chicago Gaming, Gottlieb, Bally, Williams already known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Famiclone",
+   "title": "Famiclone",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 40,
+   "new_names": 24,
+   "status": "done",
+   "note": "clone makers by region; Gradiente, Spica, CCE known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Virtual_reality_headsets",
+   "title": "Category:Virtual reality headsets",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 14,
+   "new_names": 3,
+   "status": "done",
+   "note": "Valve, Pimax, Bigscreen, HTC, Meta etc known"
+  },
+  {
+   "url": "https://uk.pcmag.com/game-controllers-accessories/139697/how-to-choose-the-best-fight-stick-no-matter-your-budget?p=1",
+   "title": "The Best Fight Sticks for 2026 | PCMag",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 6,
+   "new_names": 0,
+   "status": "done",
+   "note": "Hori, Qanba, Victrix, Razer, Sanwa all known or already recorded"
+  },
+  {
+   "url": "https://www.techradar.com/tech/techradar-product-of-the-year-awards-2026-winners",
+   "title": "TechRadar Product of the Year 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 2,
+   "new_names": 0,
+   "status": "partial",
+   "note": "SteelSeries Arctis Nova Elite best headset, 8BitDo Pro 3 best controller (known)"
   }
  ],
  "brands": [
@@ -453,7 +597,7 @@
    "layer": "premium",
    "src": "https://www.windowscentral.com/best-joysticks-and-flight-sticks-microsoft-flight-simulator",
    "says": "VelocityOne Flightdeck named best overall flight stick/HOTAS (Windows Central 2026)",
-   "country": "USA",
+   "country": "",
    "dept": "Flight controllers"
   },
   {
@@ -469,7 +613,7 @@
    "layer": "premium",
    "src": "https://simracingcockpit.gg/sim-racing-wheels/",
    "says": "F-Core 'flagship feel for less'; carbon Formula wheels 'half-step ahead on tactile finish'",
-   "country": "Italy",
+   "country": "",
    "dept": "Racing wheel / rim"
   },
   {
@@ -485,7 +629,7 @@
    "layer": "premium",
    "src": "https://simracingcockpit.gg/sim-racing-wheels/",
    "says": "GT Neo 'best value, full stop'",
-   "country": "China",
+   "country": "",
    "dept": "Racing wheel / rim"
   },
   {
@@ -493,7 +637,7 @@
    "layer": "premium",
    "src": "https://simracingcockpit.gg/sim-racing-wheels/",
    "says": "FSR2 'best formula value'; CS Pro; R5 bundle recommended for beginners; Revuelto 'build quality is exceptional'",
-   "country": "China",
+   "country": "",
    "dept": "Racing wheel / rim"
   },
   {
@@ -501,7 +645,7 @@
    "layer": "premium",
    "src": "https://simracingcockpit.gg/sim-racing-wheels/",
    "says": "310 APEX die-cast aluminium wheel recommended",
-   "country": "China",
+   "country": "",
    "dept": "Racing wheel / rim"
   },
   {
@@ -509,7 +653,7 @@
    "layer": "premium",
    "src": "https://simracingcockpit.gg/sim-racing-wheels/",
    "says": "Sells Grid MPX; owns Grid Engineering",
-   "country": "Netherlands",
+   "country": "",
    "dept": "Racing wheel / rim"
   },
   {
@@ -517,7 +661,7 @@
    "layer": "premium",
    "src": "https://simracingcockpit.gg/sim-racing-wheels/",
    "says": "GT One 'end of the entry-level ecosystem tax' EUR200 wheel",
-   "country": "China",
+   "country": "",
    "dept": "Racing wheel / rim"
   },
   {
@@ -527,6 +671,518 @@
    "says": "V-PF1 Formula wheel 'high-end Formula rim'",
    "country": "",
    "dept": "Racing wheel / rim"
+  },
+  {
+   "n": "Barrels of Fun",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (founded 2021)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Dutch Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (founded 2010)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Hexa Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2023)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Homepin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: Homepin Taiwan Co. Ltd., present maker (2013)",
+   "country": "Taiwan",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Multimorphic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2009)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Pawlowski Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2023)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Pedretti Gaming",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (founded 1976, pinball 2024)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Phenix Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2018)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Pinball Adventures",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2018)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Pinball Brothers",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2018)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Quetzal Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2012)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Team Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2018)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "TiltBob Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2023)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Turner Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2022)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Vector Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2022)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Wonderland Amusements",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: present maker (2024)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Data East",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 1986-1994",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Game Plan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Genco",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 1931-1958",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Heighway Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 2012-2018",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Inder",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 1971-1993",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Maresa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 1960-1976",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Midway Games",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Peyper",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 1977-1994",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Playmatic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Zaccaria",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Recel",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker (Petaco/Recel/Sleic)",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Alvin G & Co.",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 1991-1994",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Allied Leisure",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Taito of Brazil",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 1972-1985",
+   "country": "Brazil",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Haggis Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 2021-2024",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Jennings & Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Mirco Games",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Exhibit Supply Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 1901-1979",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "J.H. Keeney & Co.",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "A. Hankin & Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 1978-1980",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "WhizBang Pinball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "List of pinball manufacturers: past pinball maker 2011-2017",
+   "country": "",
+   "dept": "Pinball machines"
+  },
+  {
+   "n": "Steepler",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Dendy maker, regarded as catalyst of Russian console market; agreement with Nintendo 1994",
+   "country": "Russia",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Dynacom",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Dynavision 2 (1989), first Brazilian Famicom-compatible system",
+   "country": "Brazil",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Dismac",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: BitSystem Famicom clone",
+   "country": "Brazil",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Estrela",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: toy company; joint venture Playtronic with Gradiente made official NES in Brazil",
+   "country": "Brazil",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Playtronic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Estrela-Gradiente joint venture, official NES in Brazil 1993",
+   "country": "Brazil",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Subor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Xiao Bawang (Little Bawang) clone, claimed among China's largest game producers",
+   "country": "China",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "New Star",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: claimed 15% of Chinese Famiclone market",
+   "country": "China",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Micro Genius",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Taiwan clone brand sold across SE Asia, Africa, Middle East, Iran",
+   "country": "Taiwan",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "NTDEC",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Taiwan unlicensed maker of clones and games",
+   "country": "Taiwan",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Sachen",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Thin Chen Enterprise games sold in Egypt/North Africa",
+   "country": "Taiwan",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Bit Corporation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: BIT70, Soviet-era Famiclone",
+   "country": "Russia",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "BobMark International",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Pegasus console, Poland (1991)",
+   "country": "Poland",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Electrolab",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Family Game, Argentina",
+   "country": "Argentina",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Bit Argentina",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Bitgame; official Nintendo distributor Argentina",
+   "country": "Argentina",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Ramar International",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Rinco Home Computer, Al Sagr (Arabian Peninsula)",
+   "country": "Arabian Peninsula",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Samurai Electronics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: marketed Nintendo NES as Samurai in India 1987",
+   "country": "India",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Family TSI",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: FR 102/FR 202 best-selling Thai clones",
+   "country": "Thailand",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Gihan Electronics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Family Computer GH-100, South Korea",
+   "country": "South Korea",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "dreamGEAR",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: My Arcade Micro Player, Torrance CA video game accessories company",
+   "country": "USA",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "GameTech",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: PocketFami handheld Famicom clone (2004)",
+   "country": "",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Merkury Innovations",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: portable famiclones sold at Five Below and Walmart",
+   "country": "USA",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Tec Toy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Sega distributor/manufacturer in Brazil; Master System sold 8M units there",
+   "country": "Brazil",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Nanbeng",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Chinese Famiclone brand",
+   "country": "",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Jichang Electronics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Famiclone",
+   "says": "Famiclone article: Chinese Famiclone maker",
+   "country": "China",
+   "dept": "Home console (clone)"
+  },
+  {
+   "n": "Varjo",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Category:Virtual_reality_headsets",
+   "says": "listed in Wikipedia Category:Virtual reality headsets (existence only)",
+   "country": "",
+   "dept": "VR headsets"
+  },
+  {
+   "n": "AntVR",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Virtual_reality_headsets",
+   "says": "listed in Category:Virtual reality headsets",
+   "country": "",
+   "dept": "VR headsets"
+  },
+  {
+   "n": "Virtuality",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Virtual_reality_headsets",
+   "says": "early VR product, listed in Category:Virtual reality headsets",
+   "country": "",
+   "dept": "VR headsets"
   }
  ]
 }
