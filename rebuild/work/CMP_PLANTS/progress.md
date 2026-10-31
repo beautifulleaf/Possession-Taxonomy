@@ -5,3 +5,5 @@ step2 enumerated: wd_Apple.tsv (245 apple cultivars w/ enwiki, via en.py class-l
 step2b wd_other.tsv done (kind|Q|label|year|country, fruit/veg classes). Still to do: rose/dahlia etc for C3, grape variety (table grapes), apple done in wd_Apple.tsv. Then step3 apply script
 step2c wd_it.tsv (Italian PDO/PGI confirmed from Wikipedia list), wd_fp.tsv (freshplaza). Next: apply_j4.py
 step3 J4 applied via apply_j4.py (idempotent from bak), validate OK; unconfirmed.json holds confirmed/unconfirmed removed names. Next: C3
+step4 wd_roses.tsv done (rose cultivars classified by description). Next: dahlia/clematis/lilium/rhododendron/cannabis from wd, camellia lookups, apply_c3.py
+step5 C3 applied (apply_c3.py) validate OK. Next: report
