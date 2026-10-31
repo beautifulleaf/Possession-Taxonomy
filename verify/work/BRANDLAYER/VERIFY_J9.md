@@ -1,0 +1,9 @@
+# VERIFY J9 Soft Drinks & Water (lean, one fused pass)
+
+Status: done. 539 rows checked: quality 107, cultural 119, listed 313. Not shown: 3 (Puritas, San Graziano, Marlish). 19 dropped as generic names or flavour variants (Kvass, Tonic water, Red lemonade, Pamir Lemonade and others). Pop Cola and Fizz up were put back as listed. No AUDIT_J9 existed, so the harvest list was the input.
+
+- Tiers set by script. Berkeley Springs placings on the saved 1991-2023 PDF are quality. Puritas and San Graziano (2026, excerpt only) are listed and not shown. A Wikipedia country-list row is cultural only if it links to the brand's own article (114), otherwise listed. Bottled-water list rows follow the same rule. Booths rows are listed (shop list, seller praise). Hata Kosen (own site, with Mainichi as src2) and Kimura Drink are listed. Fentimans and bottlegreen Great Taste releases add no new rows.
+- 15-row sample (seed 7): all 15 are shown on the saved pages. 3 missing countries were filled. Azuga's placing differs from the page: the page shows 5th, Sparkling, 2020; the harvest says 4th tie, 2026.
+- Homonyms (by script against _brand_index): Duke's (soft drink) is flagged against Duke's (J5 mayonnaise). Almarai (J3) and Naya Waters are the same companies as the register entries, so they are not flagged.
+- Retry (4 fetches). Middle East: Global Brands Magazine 2026 top 10, cultural: Almarai, Barbican, Al Rabie, Suntop. India: paulwriter list, listed: Duke's, Kissan, Bovonto, Svami. Kenya: toasterding list, listed: Afia, Safari Lemonade, Alvaro, Steam Energy. Algeria: Family Business Histories, cultural: Selecto. Names already in the register were skipped.
+- Regions: renown only for Japan (ramune), from Mainichi. Mexico (own site), UK (shop page) and the four Berkeley water regions (winners list only) have no renown.
