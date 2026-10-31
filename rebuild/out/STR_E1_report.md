@@ -14,7 +14,7 @@
 
 **Demoted generic archetypes (73, kept as types under "Named forms"):** Three-lobed bearing spinner, Magnetic push slider, Stress ball, the burr, bottle, kite, draughts, xiangqi, domino and miniature-scale entries, controller, decoder and point-motor entries, juggling and poi generics, and similar. Squishy archetype became a kind. Full list: `rebuild/work/STR_E1/log.json`.
 
-**Types:** all flat `t` replaced by `tt`. Most use an automatic grouping (scale or size, material, edition, form) and are not hand-checked; fidget, twisty and casino kinds were written by hand.
+**Types (tt-fix):** every `tt` is now written by hand (rebuild/work/STR_E1/tt_data.py); each group label is one question (Material, Scale, Power source, Frame...), and the vague labels are gone. Restored from backup as sourced archetypes: Six-piece, High-level and Diagonal burr; Ship and Fruit in a bottle; eight kite patterns; five draughts variants; Chinese domino set; two marble types. Other demoted generics (for example Reborn doll, Steelie, sock poi, DCC decoders) stay only as plain types or were dropped. Brand ranges moved to `r`: all 9 kit makers, 4 die-cast, Axial and Mini-Z, Carrera, Ninco, Mega, COBI, BlueBrixx, 3 sleeve and 3 binder ranges (their versions were not kept). Dropped from types: Spirit board.
 
 **References fetched (coverage):** Wikipedia Fidget toy, Pop it, Begleri, Infinity cube, NeeDoh, Worry stone, Baoding balls, Komboloi, Desk toy, Mechanical puzzle, Combination puzzle, Jigsaw puzzle, Skill toy, Tabletop game, Doll, Action figure, Scale model, Model railway, Playground, Toy; retailer: specialneedstoys.com fidget page, thecubicle.com haptic coin. Search-only (not fetched): fidget-retailer pages.
 
@@ -22,7 +22,7 @@
 
 **Moves:** none. Brand added: Schylling.
 
-**Could not source:** fidget pad (no page found), Torqbar and haptic-coin makers or years, Nice Cube year, Umburry coin (search excerpt only). Retailer fidget pages for Fiddlers Green (503) and Therapy Shoppe (403) failed. Brand-range archetypes in kits and RC (for example "Airfix kits", "Tamiya Hornet") were not reviewed. No fetched coverage reference for Pretend play, Baby toys or Science kits.
+**Could not source:** fidget pad (no page found), Torqbar and haptic-coin makers or years, Nice Cube year, Umburry coin (search excerpt only). Retailer fidget pages for Fiddlers Green (503) and Therapy Shoppe (403) failed. Tamiya Hornet-type single RC models stay as archetypes. No fetched coverage reference for Pretend play, Baby toys or Science kits.
 
 ## Brief notes
 - The "no curl" rule and the Parallel tools: Parallel_Auth returned 402 (no credit); WebFetch worked but is a summariser, so quotes are paraphrases.

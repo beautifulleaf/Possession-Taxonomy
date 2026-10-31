@@ -44,6 +44,7 @@ for c in sys.argv[1:]:
             if cov and cov.startswith('='):  # coordinator rename on arrival (e.g. an 'Other …' catch-all)
                 m = dict(m, kind=dict(m['kind'], n=cov[1:])); print('renamed', m['kind']['n'])
                 cov = None
+                if m['kind']['n'].lower() in names: continue  # the rebuilt file already has the renamed kind
             if cov:
                 k = next((k for dp in d['depts'] for s in dp['s'] for k in s['k'] if k['n'] == cov), None)
                 if k is not None:

@@ -519,84 +519,6 @@
            "d": ""
           }
          ]
-        },
-        {
-         "n": "Mega (Mega Bloks / Mega Construx)",
-         "a": "",
-         "d": "Canadian bricks: large Mega Bloks for toddlers and Mega Construx licensed sets.",
-         "mk": "Mega",
-         "y": "1967",
-         "s": "https://en.wikipedia.org/wiki/Mega_Brands",
-         "v": [
-          {
-           "n": "Mega Bloks 1st Builders",
-           "mk": "Mega",
-           "y": "",
-           "d": "large pre-school bricks"
-          },
-          {
-           "n": "Mega Construx",
-           "mk": "Mega",
-           "y": "2017",
-           "d": "ages 4+ and collectors"
-          },
-          {
-           "n": "MEGA rebrand",
-           "mk": "Mega",
-           "y": "2022",
-           "d": ""
-          },
-          {
-           "n": "Halo licence",
-           "mk": "Mega",
-           "y": "",
-           "d": ""
-          }
-         ]
-        },
-        {
-         "n": "COBI",
-         "a": "",
-         "d": "Polish compatible bricks known for military vehicles and licensed cars.",
-         "mk": "COBI",
-         "y": "1987",
-         "s": "https://en.wikipedia.org/wiki/Cobi_(building_blocks)",
-         "v": [
-          {
-           "n": "1937 Horch 901",
-           "mk": "COBI",
-           "y": "",
-           "d": "military vehicle kit"
-          }
-         ]
-        },
-        {
-         "n": "BlueBrixx",
-         "a": "",
-         "d": "German compatible bricks focused on detailed display models.",
-         "mk": "BlueBrixx",
-         "y": "2018",
-         "s": "https://en.wikipedia.org/wiki/BlueBrixx",
-         "v": [
-          {
-           "n": "BlueBrixx Specials",
-           "mk": "BlueBrixx",
-           "y": "",
-           "d": "own series"
-          },
-          {
-           "n": "Astronomers Lighthouse",
-           "mk": "BlueBrixx",
-           "y": "",
-           "d": "6,886 pieces"
-          },
-          {
-           "n": "Star Trek licence",
-           "mk": "BlueBrixx",
-           "y": "",
-           "d": ""
-          }
-         ]
         }
        ],
        "r": [
@@ -823,22 +745,41 @@
         [
          "LEGO Wednesday",
          "LEGO"
+        ],
+        [
+         "Mega (Mega Bloks / Mega Construx)",
+         "Mega"
+        ],
+        [
+         "COBI",
+         "COBI"
+        ],
+        [
+         "BlueBrixx",
+         "BlueBrixx"
         ]
        ],
        "tt": [
         [
-         "Scale or size",
+         "Brick size",
          [
+          "Standard bricks",
           "Large-format (Duplo-size) bricks"
          ]
         ],
         [
-         "Form and use",
+         "Maker system",
+         [
+          "Own-brand",
+          "Compatible (non-LEGO) bricks"
+         ]
+        ],
+        [
+         "Set type",
          [
           "Loose brick box",
           "Themed play set",
-          "Display model for adults",
-          "Compatible (non-LEGO) bricks"
+          "Display model for adults"
          ]
         ]
        ]
@@ -912,15 +853,16 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Figure type",
          [
           "Standard minifigure",
           "Mini-doll"
          ]
         ],
         [
-         "Form and use",
+         "Sale format",
          [
+          "Boxed",
           "Blind-bag collectible"
          ]
         ]
@@ -1036,17 +978,18 @@
        ],
        "tt": [
         [
-         "Material",
-         [
-          "Magnetic wooden blocks"
-         ]
-        ],
-        [
-         "Form and use",
+         "Block shape",
          [
           "Unit blocks",
           "Planks",
           "Stone blocks"
+         ]
+        ],
+        [
+         "Joining",
+         [
+          "Stacked",
+          "Magnetic wooden blocks"
          ]
         ]
        ]
@@ -1104,15 +1047,10 @@
        ],
        "tt": [
         [
-         "Material",
+         "Piece type",
          [
+          "Flat tiles",
           "Rods and steel balls"
-         ]
-        ],
-        [
-         "Form and use",
-         [
-          "Flat tiles"
          ]
         ]
        ]
@@ -1208,7 +1146,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Set purpose",
          [
           "Outfit set",
           "Model kit",
@@ -1258,7 +1196,7 @@
        ],
        "tt": [
         [
-         "Material",
+         "Rod material",
          [
           "Wooden spools and sticks",
           "Plastic rods and connectors"
@@ -1382,10 +1320,17 @@
          ]
         ],
         [
-         "Form and use",
+         "Power source",
+         [
+          "Gravity only",
+          "Electronic or motorised"
+         ]
+        ],
+        [
+         "Compatibility",
          [
           "Brick-compatible",
-          "Electronic or motorised"
+          "Own system"
          ]
         ]
        ]
@@ -1590,18 +1535,26 @@
        ],
        "tt": [
         [
-         "Material",
+         "Power source",
          [
-          "Wind-up tin robot"
+          "Wind-up",
+          "Battery",
+          "Rechargeable"
          ]
         ],
         [
-         "Form and use",
+         "Control",
          [
-          "Battery-operated robot",
-          "Interactive pet or companion robot",
-          "Remote-controlled robot",
-          "App-controlled robot"
+          "Autonomous",
+          "Remote-controlled",
+          "App-controlled"
+         ]
+        ],
+        [
+         "Role",
+         [
+          "Tin collector robot",
+          "Interactive pet or companion robot"
          ]
         ]
        ]
@@ -1778,11 +1731,17 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Interface",
          [
-          "Screen-free coding robot",
+          "Screen-free",
+          "App-coded"
+         ]
+        ],
+        [
+         "Body",
+         [
           "Floor robot",
-          "App-coded robot ball",
+          "Robot ball",
           "Programmable brick kit"
          ]
         ]
@@ -1845,9 +1804,15 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Container",
          [
-          "Tub or can",
+          "Tub or can"
+         ]
+        ],
+        [
+         "Set type",
+         [
+          "Dough only",
           "Playset with tools",
           "Extruder"
          ]
@@ -1945,10 +1910,15 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Mechanism",
          [
           "Gear-ring set",
-          "Magnetic screen",
+          "Magnetic screen"
+         ]
+        ],
+        [
+         "Consumable",
+         [
           "Refill pens"
          ]
         ]
@@ -1998,15 +1968,10 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Display",
          [
+          "Flat screen",
           "3D cube"
-         ]
-        ],
-        [
-         "Form and use",
-         [
-          "Flat screen"
          ]
         ]
        ]
@@ -2113,18 +2078,23 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Bead size",
          [
-          "5 mm bead size",
           "2 mm mini",
+          "5 mm",
           "10 mm maxi"
          ]
         ],
         [
-         "Form and use",
+         "Fusing method",
          [
           "Heat-fused",
-          "Water-fused",
+          "Water-fused"
+         ]
+        ],
+        [
+         "Accessory",
+         [
           "Pegboard",
           "Pattern sheets"
          ]
@@ -2169,7 +2139,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Sheet type",
          [
           "Pre-printed kit",
           "Blank sheets"
@@ -2242,11 +2212,17 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Container",
          [
           "Pot",
-          "Novelty container",
-          "Kit"
+          "Novelty container"
+         ]
+        ],
+        [
+         "Set type",
+         [
+          "Kit",
+          "Single pot"
          ]
         ]
        ]
@@ -2570,21 +2546,17 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Size",
          [
+          "Standard",
           "Mini doll"
          ]
         ],
         [
-         "Edition and condition",
+         "Market",
          [
+          "Play line",
           "Collector edition"
-         ]
-        ],
-        [
-         "Form and use",
-         [
-          "Play line"
          ]
         ]
        ]
@@ -2647,7 +2619,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Character",
          [
           "Historical character",
           "Contemporary or look-alike doll"
@@ -2785,17 +2757,24 @@
        ],
        "tt": [
         [
-         "Material",
+         "Body",
          [
+          "Soft-bodied",
           "All-vinyl"
          ]
         ],
         [
-         "Form and use",
+         "Features",
          [
-          "Soft-bodied",
-          "Interactive (drinks, wets, cries)",
-          "Reborn doll"
+          "Plain",
+          "Interactive (drinks, wets, cries)"
+         ]
+        ],
+        [
+         "Finish",
+         [
+          "Play doll",
+          "Reborn (hand-finished lifelike)"
          ]
         ]
        ]
@@ -2954,7 +2933,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Size",
          [
           "Full size (SD, about 60 cm)",
           "Mini (MSD, about 40 cm)",
@@ -2994,11 +2973,11 @@
        "s": "https://en.wikipedia.org/wiki/Doll",
        "tt": [
         [
-         "Form",
+         "Sale format",
          [
           "Book of cut-outs",
           "Boxed set",
-          "Magnetic"
+          "Magnetic set"
          ]
         ]
        ]
@@ -3167,7 +3146,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Head fitting",
          [
           "Socket head on composition body",
           "Shoulder head on kid body"
@@ -3330,8 +3309,9 @@
          ]
         ],
         [
-         "Form and use",
+         "Use",
          [
+          "Play doll",
           "Ceremonial display set"
          ]
         ]
@@ -3568,7 +3548,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale",
          [
           "1:12 collector scale",
           "1:16 / 1:18 play scale",
@@ -3576,10 +3556,17 @@
          ]
         ],
         [
-         "Form and use",
+         "Supply",
          [
-          "Kit or ready-built",
-          "Hinged front or open back"
+          "Kit",
+          "Ready-built"
+         ]
+        ],
+        [
+         "Opening",
+         [
+          "Hinged front",
+          "Open back"
          ]
         ]
        ]
@@ -3611,30 +3598,22 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale",
          [
           "1:12 (one inch)",
           "1:24 (half scale)",
-          "1:48 and smaller"
+          "1:48 and smaller",
+          "1:18 play scale"
          ]
         ],
         [
-         "Form and use",
+         "Item",
          [
           "Furniture",
           "Lighting and electrics",
           "Wallpaper and flooring",
           "Food and accessories",
           "Dolls"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "1:12 miniatures",
-          "1:24 miniatures",
-          "1:48 miniatures",
-          "1:18 play-scale miniatures"
          ]
         ]
        ]
@@ -3803,10 +3782,16 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Contents",
          [
           "Figure pack",
-          "Building or vehicle playset",
+          "Building or vehicle playset"
+         ]
+        ],
+        [
+         "Case",
+         [
+          "Open",
           "Compact or carry case"
          ]
         ]
@@ -4017,23 +4002,31 @@
        ],
        "tt": [
         [
-         "Material",
+         "Construction",
          [
-          "Jointed mohair bear"
+          "Jointed",
+          "Unjointed"
          ]
         ],
         [
-         "Edition and condition",
+         "Fur",
          [
+          "Mohair",
+          "Plush"
+         ]
+        ],
+        [
+         "Maker type",
+         [
+          "Factory",
           "Artist or limited-edition bear"
          ]
         ],
         [
-         "Form and use",
+         "Feature",
          [
-          "Unjointed plush bear",
-          "Replica of an antique bear",
-          "Musical or dangling bear"
+          "Musical",
+          "Dangling"
          ]
         ]
        ]
@@ -4207,11 +4200,22 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Subject",
          [
           "Animal",
-          "Licensed character",
+          "Licensed character"
+         ]
+        ],
+        [
+         "Filling",
+         [
           "Bean-filled",
+          "Polyester-filled"
+         ]
+        ],
+        [
+         "Use",
+         [
           "Clip-on or bag charm",
           "Pillow plush",
           "Comforter"
@@ -4310,15 +4314,20 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Operation",
          [
-          "Hand or glove puppet",
-          "Finger puppet",
-          "Rod puppet",
-          "Marionette (string puppet)",
-          "Shadow puppet",
+          "Hand or glove",
+          "Finger",
+          "Rod",
+          "String (marionette)",
+          "Shadow",
+          "Ventriloquist dummy"
+         ]
+        ],
+        [
+         "Setting",
+         [
           "Sock puppet",
-          "Ventriloquist dummy",
           "Puppet theatre or booth"
          ]
         ]
@@ -4752,7 +4761,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale",
          [
           "3.75-inch (1:18)",
           "5–5.5-inch",
@@ -4761,16 +4770,17 @@
          ]
         ],
         [
-         "Edition and condition",
+         "Packaging",
          [
-          "Carded or loose",
-          "Exclusive or convention release"
+          "Carded",
+          "Loose"
          ]
         ],
         [
-         "Form and use",
+         "Release",
          [
-          "Card-back variation"
+          "Regular",
+          "Exclusive or convention release"
          ]
         ]
        ]
@@ -4871,17 +4881,24 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Alt mode",
          [
+          "Vehicle",
+          "Animal or beast"
+         ]
+        ],
+        [
+         "Size class",
+         [
+          "Standard",
+          "Combiner",
           "Masterpiece scale"
          ]
         ],
         [
-         "Form and use",
+         "Maker",
          [
-          "Vehicle mode",
-          "Animal or beast mode",
-          "Combiner",
+          "Licensed",
           "Third-party"
          ]
         ]
@@ -4914,10 +4931,16 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Subject",
          [
           "Film or TV character",
-          "Military",
+          "Military"
+         ]
+        ],
+        [
+         "Sale format",
+         [
+          "Complete figure",
           "Head sculpt or body only"
          ]
         ]
@@ -5086,7 +5109,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale",
          [
           "54 mm (1:32)",
           "1:72"
@@ -5095,28 +5118,21 @@
         [
          "Material",
          [
+          "Flat tin",
+          "Hollow-cast lead",
+          "Composition",
           "Plastic"
          ]
         ],
         [
-         "Form and use",
+         "Subject",
          [
-          "Flat",
-          "Hollow-cast lead",
-          "Composition",
+          "Soldier",
           "Farm animal",
           "Wild animal",
           "Horse",
           "Dinosaur",
           "Knight or fantasy"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "Flat tin figure",
-          "Composition figures",
-          "Plastic toy soldiers"
          ]
         ]
        ]
@@ -5168,23 +5184,18 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale",
          [
           "1/7 or 1/8 scale",
-          "Loose game miniature"
+          "Statue size"
          ]
         ],
         [
-         "Material",
-         [
-          "Garage kit (unpainted resin)"
-         ]
-        ],
-        [
-         "Form and use",
+         "Sale format",
          [
           "Prize figure",
-          "Statue"
+          "Garage kit (unpainted resin)",
+          "Loose game miniature"
          ]
         ]
        ]
@@ -5235,18 +5246,17 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Use",
          [
           "Sports giveaway",
-          "Licensed character",
-          "Custom portrait",
           "Dashboard nodder"
          ]
         ],
         [
-         "Named forms",
+         "Subject",
          [
-          "Baseball bobblehead"
+          "Licensed character",
+          "Custom portrait"
          ]
         ]
        ]
@@ -5332,13 +5342,24 @@
        ],
        "tt": [
         [
-         "Edition and condition",
+         "Rarity",
          [
           "Common release",
-          "Chase variant",
-          "Convention exclusive",
-          "Retailer exclusive (sticker)",
-          "Boxed or out of box"
+          "Chase variant"
+         ]
+        ],
+        [
+         "Exclusive to",
+         [
+          "Convention",
+          "Retailer (sticker)"
+         ]
+        ],
+        [
+         "Condition",
+         [
+          "Boxed",
+          "Out of box"
          ]
         ]
        ]
@@ -5582,9 +5603,11 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Size",
          [
-          "Size (100% / 400% / 1000%)"
+          "100%",
+          "400%",
+          "1000%"
          ]
         ],
         [
@@ -5596,8 +5619,9 @@
          ]
         ],
         [
-         "Form and use",
+         "Sale format",
          [
+          "Open sale",
           "Blind box",
           "Secret figure",
           "Platform (DIY) toy"
@@ -5631,13 +5655,14 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Size",
          [
+          "Standard",
           "Mini or petite"
          ]
         ],
         [
-         "Form and use",
+         "Features",
          [
           "Swappable faces and parts"
          ]
@@ -5682,268 +5707,9 @@
        "a": "assembly scale model · plastic kit",
        "d": "A model of a vehicle, machine, figure or structure sold as parts to assemble, paint and display.",
        "s": "https://www.scalemodelshop.co.uk/tamiya-mazda-roadster-mx-5-24342",
-       "x": [
-        {
-         "n": "Frog plastic kits",
-         "a": "",
-         "d": "The first plastic model kits, made in Britain.",
-         "mk": "Frog",
-         "y": "1936",
-         "s": "https://en.wikipedia.org/wiki/Plastic_model_kit",
-         "v": []
-        },
-        {
-         "n": "Airfix kits",
-         "a": "",
-         "d": "British polystyrene kits in numbered series, the classic first kit for many modellers.",
-         "mk": "Airfix",
-         "y": "1949",
-         "s": "https://en.wikipedia.org/wiki/Airfix",
-         "v": [
-          {
-           "n": "Ferguson TE20 tractor",
-           "mk": "Airfix",
-           "y": "1949",
-           "d": "promotional model, then sold as a kit by Woolworths"
-          },
-          {
-           "n": "Supermarine Spitfire Mk I",
-           "mk": "Airfix",
-           "y": "1953",
-           "d": "first aircraft kit; date questioned"
-          },
-          {
-           "n": "Golden Hind",
-           "mk": "Airfix",
-           "y": "1954",
-           "d": "Woolworths suggestion"
-          }
-         ],
-         "dt": "series number · scale · box art edition"
-        },
-        {
-         "n": "Revell kits",
-         "a": "",
-         "d": "American-founded kits, later Revell-Monogram and Revell Germany.",
-         "mk": "Revell",
-         "y": "1950s",
-         "s": "https://en.wikipedia.org/wiki/Revell",
-         "v": [
-          {
-           "n": "Highway Pioneers",
-           "mk": "Revell",
-           "y": "1950s",
-           "d": "1:32 quick-construction cars"
-          },
-          {
-           "n": "Revell Germany kits",
-           "mk": "Revell",
-           "y": "1956",
-           "d": "Bünde subsidiary"
-          },
-          {
-           "n": "Revell-Monogram",
-           "mk": "Revell",
-           "y": "1986",
-           "d": "merger"
-          }
-         ]
-        },
-        {
-         "n": "Tamiya kits",
-         "a": "",
-         "d": "Precisely engineered Japanese kits of armour, cars, motorcycles and aircraft.",
-         "mk": "Tamiya",
-         "y": "1960",
-         "s": "https://en.wikipedia.org/wiki/Tamiya_Corporation",
-         "v": [
-          {
-           "n": "Battleship Yamato 1:800",
-           "mk": "Tamiya",
-           "y": "1960",
-           "d": "first plastic kit"
-          },
-          {
-           "n": "Panther 1:35",
-           "mk": "Tamiya",
-           "y": "1961",
-           "d": "first tank; origin of 1:35"
-          },
-          {
-           "n": "Honda F-1 1:12",
-           "mk": "Tamiya",
-           "y": "1967",
-           "d": "Big Scale"
-          },
-          {
-           "n": "1:35 Military Miniature Series",
-           "mk": "Tamiya",
-           "y": "1968",
-           "d": "began with German Tank Soldier Set"
-          },
-          {
-           "n": "Porsche 934 Turbo RSR 1:12",
-           "mk": "Tamiya",
-           "y": "1976",
-           "d": ""
-          },
-          {
-           "n": "1:48 military series",
-           "mk": "Tamiya",
-           "y": "2004",
-           "d": ""
-          },
-          {
-           "n": "Nissan Skyline GT-R V. Spec",
-           "mk": "Tamiya",
-           "y": "",
-           "d": "from old data"
-          },
-          {
-           "n": "Toyota Supra",
-           "mk": "Tamiya",
-           "y": "",
-           "d": "from old data"
-          },
-          {
-           "n": "Porsche 911 Turbo 1988",
-           "mk": "Tamiya",
-           "y": "",
-           "d": "from old data"
-          },
-          {
-           "n": "Mazda Roadster MX-5",
-           "mk": "Tamiya",
-           "y": "",
-           "d": "from old data"
-          },
-          {
-           "n": "Ford GT",
-           "mk": "Tamiya",
-           "y": "",
-           "d": "from old data"
-          },
-          {
-           "n": "McLaren Senna",
-           "mk": "Tamiya",
-           "y": "",
-           "d": "from old data"
-          },
-          {
-           "n": "Suzuki GSX750S New Katana",
-           "mk": "Tamiya",
-           "y": "",
-           "d": "from old data"
-          }
-         ],
-         "dt": "scale · series · item number"
-        },
-        {
-         "n": "Hasegawa kits",
-         "a": "",
-         "d": "Shizuoka maker of aircraft, ship and car kits.",
-         "mk": "Hasegawa",
-         "y": "1961",
-         "s": "https://en.wikipedia.org/wiki/Hasegawa_Corporation",
-         "v": [
-          {
-           "n": "Glider kits",
-           "mk": "Hasegawa",
-           "y": "1961",
-           "d": "first plastic models"
-          },
-          {
-           "n": "Battleship Yamato 1/450",
-           "mk": "Hasegawa",
-           "y": "1962",
-           "d": "about 150,000 sold that year"
-          },
-          {
-           "n": "F-104 Starfighter 1/90",
-           "mk": "Hasegawa",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "P-51 Mustang 1/70",
-           "mk": "Hasegawa",
-           "y": "",
-           "d": ""
-          }
-         ]
-        },
-        {
-         "n": "Italeri kits",
-         "a": "",
-         "d": "Italian aircraft, military vehicle, ship and truck kits.",
-         "mk": "Italeri",
-         "y": "1962",
-         "s": "https://en.wikipedia.org/wiki/Italeri",
-         "v": [
-          {
-           "n": "1:72 aircraft",
-           "mk": "Italeri",
-           "y": "",
-           "d": "e.g. SM.79"
-          },
-          {
-           "n": "1:35 military vehicles",
-           "mk": "Italeri",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "1:24 trucks and trailers",
-           "mk": "Italeri",
-           "y": "",
-           "d": ""
-          }
-         ]
-        },
-        {
-         "n": "Eduard kits",
-         "a": "",
-         "d": "Czech aircraft kits from a photo-etch specialist.",
-         "mk": "Eduard",
-         "y": "1993",
-         "s": "https://en.wikipedia.org/wiki/Eduard_(manufacturer)",
-         "v": [
-          {
-           "n": "Photo-etched detail sets",
-           "mk": "Eduard",
-           "y": "1989",
-           "d": "brass parts"
-          },
-          {
-           "n": "ProfiPACK",
-           "mk": "Eduard",
-           "y": "",
-           "d": "kit with resin, photo-etch and masks"
-          }
-         ]
-        },
-        {
-         "n": "Zvezda kits",
-         "a": "",
-         "d": "Russian kits of aircraft, military vehicles, ships and wargame figures.",
-         "mk": "Zvezda",
-         "y": "1990",
-         "s": "https://en.wikipedia.org/wiki/Zvezda_(company)",
-         "v": []
-        },
-        {
-         "n": "Trumpeter kits",
-         "a": "",
-         "d": "Chinese injection-moulded kits of ships, aircraft, cars and armour.",
-         "mk": "Trumpeter",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Trumpeter_(company)",
-         "v": []
-        }
-       ],
        "tt": [
         [
-         "Scale or size",
+         "Scale",
          [
           "1:72",
           "1:48",
@@ -5953,13 +5719,7 @@
          ]
         ],
         [
-         "Material",
-         [
-          "Resin"
-         ]
-        ],
-        [
-         "Form and use",
+         "Subject",
          [
           "Aircraft",
           "Armour and military vehicle",
@@ -5967,12 +5727,67 @@
           "Ship",
           "Figure",
           "Sci-fi and space",
-          "Building, ruin or diorama",
+          "Building, ruin or diorama"
+         ]
+        ],
+        [
+         "Material",
+         [
           "Injection-moulded polystyrene",
-          "Vacuform",
-          "Snap-fit",
+          "Resin",
+          "Vacuform"
+         ]
+        ],
+        [
+         "Assembly",
+         [
+          "Glue-together",
+          "Snap-fit"
+         ]
+        ],
+        [
+         "Add-on",
+         [
           "Photo-etch and aftermarket detail set"
          ]
+        ]
+       ],
+       "r": [
+        [
+         "Frog plastic kits",
+         "Frog"
+        ],
+        [
+         "Airfix kits",
+         "Airfix"
+        ],
+        [
+         "Revell kits",
+         "Revell"
+        ],
+        [
+         "Tamiya kits",
+         "Tamiya"
+        ],
+        [
+         "Hasegawa kits",
+         "Hasegawa"
+        ],
+        [
+         "Italeri kits",
+         "Italeri"
+        ],
+        [
+         "Eduard kits",
+         "Eduard"
+        ],
+        [
+         "Zvezda kits",
+         "Zvezda"
+        ],
+        [
+         "Trumpeter kits",
+         "Trumpeter"
         ]
        ]
       },
@@ -6114,7 +5929,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale",
          [
           "1/144",
           "1/100",
@@ -6122,9 +5937,15 @@
          ]
         ],
         [
-         "Form and use",
+         "Proportion",
          [
-          "Super-deformed",
+          "Realistic",
+          "Super-deformed"
+         ]
+        ],
+        [
+         "Construction",
+         [
           "Inner frame",
           "Snap-fit with polycaps"
          ]
@@ -6362,80 +6183,11 @@
            "d": ""
           }
          ]
-        },
-        {
-         "n": "Bburago 1:18",
-         "a": "",
-         "d": "Italian 1:18 cars that grew the large-scale market.",
-         "mk": "Bburago",
-         "y": "1980s",
-         "s": "https://en.wikipedia.org/wiki/1:18_scale_diecast_replica",
-         "v": [
-          {
-           "n": "Maisto-owned Bburago",
-           "mk": "Maisto",
-           "y": "2006",
-           "d": ""
-          }
-         ]
-        },
-        {
-         "n": "Maisto",
-         "a": "",
-         "d": "Budget die-cast in many scales, a leading 1:18 maker.",
-         "mk": "Maisto",
-         "y": "1990",
-         "s": "https://en.wikipedia.org/wiki/Maisto",
-         "v": [
-          {
-           "n": "Special Edition",
-           "mk": "Maisto",
-           "y": "",
-           "d": "mid-range on stands"
-          }
-         ]
-        },
-        {
-         "n": "AUTOart",
-         "a": "",
-         "d": "Premium detailed models, now composite bodies.",
-         "mk": "AUTOart",
-         "y": "1998",
-         "s": "https://en.wikipedia.org/wiki/AUTOart",
-         "v": [
-          {
-           "n": "Signature",
-           "mk": "AUTOart",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Millennium",
-           "mk": "AUTOart",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Performance",
-           "mk": "AUTOart",
-           "y": "",
-           "d": ""
-          }
-         ]
-        },
-        {
-         "n": "Minichamps",
-         "a": "",
-         "d": "German die-cast racing and road cars, especially Formula One.",
-         "mk": "Minichamps",
-         "y": "1990",
-         "s": "https://en.wikipedia.org/wiki/Minichamps",
-         "v": []
         }
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale",
          [
           "1:64",
           "1:43",
@@ -6444,17 +6196,36 @@
          ]
         ],
         [
-         "Edition and condition",
+         "Body",
          [
-          "Sealed resin",
-          "Carded or boxed"
+          "Opening parts",
+          "Sealed resin"
          ]
         ],
         [
-         "Form and use",
+         "Packaging",
          [
-          "Opening parts"
+          "Carded",
+          "Boxed"
          ]
+        ]
+       ],
+       "r": [
+        [
+         "Bburago 1:18",
+         "Bburago"
+        ],
+        [
+         "Maisto",
+         "Maisto"
+        ],
+        [
+         "AUTOart",
+         "AUTOart"
+        ],
+        [
+         "Minichamps",
+         "Minichamps"
         ]
        ]
       }
@@ -6646,7 +6417,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale or gauge",
          [
           "Z (1:220, 6.5 mm)",
           "N (1:160; British N 1:148, 9 mm)",
@@ -6661,7 +6432,7 @@
          ]
         ],
         [
-         "Form and use",
+         "Power and control",
          [
           "Analogue DC",
           "Digital (DCC, mfx)",
@@ -6819,7 +6590,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale or gauge",
          [
           "Z (1:220, 6.5 mm)",
           "N (1:160; British N 1:148, 9 mm)",
@@ -6834,15 +6605,26 @@
          ]
         ],
         [
-         "Form and use",
+         "Prototype",
          [
           "Steam outline",
           "Diesel outline",
           "Electric outline",
-          "Multiple unit",
+          "Multiple unit"
+         ]
+        ],
+        [
+         "Control fitting",
+         [
           "DCC ready",
           "DCC fitted",
-          "DCC sound",
+          "DCC sound"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Electric",
           "Live steam"
          ]
         ]
@@ -6960,7 +6742,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale or gauge",
          [
           "Z (1:220, 6.5 mm)",
           "N (1:160; British N 1:148, 9 mm)",
@@ -6975,7 +6757,7 @@
          ]
         ],
         [
-         "Form and use",
+         "Vehicle type",
          [
           "Coach or carriage",
           "Goods wagon",
@@ -7085,7 +6867,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Rail code",
          [
           "Code 100",
           "Code 83",
@@ -7094,15 +6876,33 @@
          ]
         ],
         [
-         "Form and use",
+         "Piece",
          [
           "Sectional (set) track",
           "Flexible track",
-          "Track with moulded roadbed",
           "Point or turnout",
           "Crossing",
-          "Buffer stop",
-          "Bullhead rail",
+          "Buffer stop"
+         ]
+        ],
+        [
+         "Roadbed",
+         [
+          "Plain",
+          "Moulded roadbed"
+         ]
+        ],
+        [
+         "Rail profile",
+         [
+          "Flat-bottom",
+          "Bullhead rail"
+         ]
+        ],
+        [
+         "Power pickup",
+         [
+          "Two-rail",
           "Three-rail stud contact"
          ]
         ]
@@ -7115,19 +6915,25 @@
        "s": "https://www.hattons.co.uk/stocklist/1000389/0/hornby/mfrnest",
        "tt": [
         [
-         "Form and use",
+         "Mounting",
          [
           "Below-baseboard",
-          "Surface-mounted",
-          "DCC-fitted",
+          "Surface-mounted"
+         ]
+        ],
+        [
+         "Drive",
+         [
+          "Solenoid",
+          "Slow-action stall motor",
           "Servo"
          ]
         ],
         [
-         "Named forms",
+         "Control",
          [
-          "Solenoid point motor",
-          "Slow-action stall motor"
+          "Analogue",
+          "DCC-fitted"
          ]
         ]
        ]
@@ -7215,13 +7021,24 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Control type",
          [
           "Analogue DC controller",
           "AC transformer",
-          "DCC command station",
+          "DCC command station"
+         ]
+        ],
+        [
+         "Interface",
+         [
           "Handheld throttle",
-          "Wireless or app control",
+          "Wireless or app control"
+         ]
+        ],
+        [
+         "Role",
+         [
+          "Main unit",
           "Booster"
          ]
         ]
@@ -7234,26 +7051,19 @@
        "s": "https://www.hattons.co.uk/stocklist/1000389/0/hornby/mfrnest",
        "tt": [
         [
-         "Scale or size",
-         [
-          "21-pin"
-         ]
-        ],
-        [
-         "Form and use",
+         "Function",
          [
           "Locomotive (mobile) decoder",
           "Sound decoder",
           "Function decoder",
-          "Accessory decoder",
-          "Hardwired"
+          "Accessory decoder"
          ]
         ],
         [
-         "Named forms",
+         "Connection",
          [
-          "DCC locomotive decoder",
-          "DCC accessory decoder"
+          "21-pin",
+          "Hardwired"
          ]
         ]
        ]
@@ -7326,7 +7136,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Item",
          [
           "Building kit",
           "Ready-built building",
@@ -7505,15 +7315,6 @@
          ]
         },
         {
-         "n": "Kyosho Mini-Z",
-         "a": "",
-         "d": "1:28 scale small electric racers.",
-         "mk": "Kyosho",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Kyosho",
-         "v": []
-        },
-        {
          "n": "Traxxas Maxx",
          "a": "",
          "d": "Large monster trucks, nitro then electric.",
@@ -7559,28 +7360,6 @@
            "d": "small-scale version (old data)"
           }
          ]
-        },
-        {
-         "n": "Axial AX10 and SCX10 crawlers",
-         "a": "",
-         "d": "Purpose-built rock crawlers; the SCX10 set the scale-crawler pattern.",
-         "mk": "Axial",
-         "y": "2007",
-         "s": "https://www.axialadventure.com/axi-blog-flashback-ax10.html",
-         "v": [
-          {
-           "n": "AX10 Scorpion",
-           "mk": "Axial",
-           "y": "2007",
-           "d": "first purpose-built crawler"
-          },
-          {
-           "n": "SCX10",
-           "mk": "Axial",
-           "y": "",
-           "d": "followed the AX10"
-          }
-         ]
         }
        ],
        "m": [
@@ -7595,7 +7374,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale",
          [
           "1:8",
           "1:10",
@@ -7604,30 +7383,51 @@
          ]
         ],
         [
-         "Edition and condition",
+         "Grade",
          [
-          "Rock crawler or trail truck"
+          "Toy-grade",
+          "Hobby-grade"
          ]
         ],
         [
-         "Form and use",
+         "Supply",
          [
-          "Toy-grade",
-          "Hobby-grade kit",
-          "Ready-to-run (RTR)",
+          "Kit",
+          "Ready-to-run (RTR)"
+         ]
+        ],
+        [
+         "Power",
+         [
           "Electric (brushed or brushless)",
-          "Nitro (glow engine)",
+          "Nitro (glow engine)"
+         ]
+        ],
+        [
+         "Type",
+         [
           "Off-road buggy",
           "Monster truck",
           "Short-course truck",
           "Stadium truck",
           "Touring car",
+          "Rock crawler or trail truck",
           "Drift car",
-          "RC boat",
-          "RC aircraft",
-          "RC helicopter",
+          "Boat",
+          "Aircraft",
+          "Helicopter",
           "Hobby drone (no camera)"
          ]
+        ]
+       ],
+       "r": [
+        [
+         "Kyosho Mini-Z",
+         "Kyosho"
+        ],
+        [
+         "Axial AX10 and SCX10 crawlers",
+         "Axial"
         ]
        ]
       },
@@ -7726,49 +7526,6 @@
            "d": "in-line motor"
           }
          ]
-        },
-        {
-         "n": "Carrera",
-         "a": "",
-         "d": "German slot-car system with 1:24, 1:32 and 1:43 lines and Digital 132.",
-         "mk": "Carrera",
-         "y": "early 1960s",
-         "s": "https://en.wikipedia.org/wiki/Carrera_(slot_car_brand)",
-         "v": [
-          {
-           "n": "Servo",
-           "mk": "Carrera",
-           "y": "1970",
-           "d": "lane changes by guard rails"
-          },
-          {
-           "n": "Carrera Exclusiv",
-           "mk": "Carrera",
-           "y": "1999",
-           "d": "1:24"
-          },
-          {
-           "n": "Carrera Go!!!",
-           "mk": "Carrera",
-           "y": "2001",
-           "d": "entry level"
-          },
-          {
-           "n": "Evolution / Digital 132",
-           "mk": "Carrera",
-           "y": "",
-           "d": "up to six cars overtake"
-          }
-         ]
-        },
-        {
-         "n": "Ninco",
-         "a": "",
-         "d": "Spanish 1:32 slot cars and track, with a digital system for up to eight cars.",
-         "mk": "Ninco",
-         "y": "1993",
-         "s": "https://en.wikipedia.org/wiki/Ninco",
-         "v": []
         }
        ],
        "m": [
@@ -7801,25 +7558,39 @@
         [
          "Scalextric Standard Race Sets",
          "Scalextric"
+        ],
+        [
+         "Carrera",
+         "Carrera"
+        ],
+        [
+         "Ninco",
+         "Ninco"
         ]
        ],
        "tt": [
         [
-         "Scale or size",
+         "Scale",
          [
           "1:32",
           "1:24",
           "1:43",
-          "HO (about 1:64)",
-          "Track and borders"
+          "HO (about 1:64)"
          ]
         ],
         [
-         "Form and use",
+         "Control",
          [
           "Analogue",
-          "Digital (lane-changing)",
+          "Digital (lane-changing)"
+         ]
+        ],
+        [
+         "Sale format",
+         [
+          "Boxed set",
           "Slot car (single)",
+          "Track and borders",
           "Hand controller"
          ]
         ]
@@ -7867,7 +7638,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Product",
          [
           "Kit",
           "Chassis",
@@ -7963,17 +7734,31 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Fidelity",
          [
-          "Semi-scale",
-          "Micro (6 mm motor)"
+          "Sport",
+          "Semi-scale"
          ]
         ],
         [
-         "Form and use",
+         "Payload",
          [
-          "Camera rocket",
+          "Plain",
+          "Camera rocket"
+         ]
+        ],
+        [
+         "Recovery",
+         [
+          "Parachute",
           "Glide recovery"
+         ]
+        ],
+        [
+         "Motor size",
+         [
+          "Standard",
+          "Micro (6 mm motor)"
          ]
         ]
        ]
@@ -7985,18 +7770,20 @@
        "s": "https://en.wikipedia.org/wiki/Model_rocket",
        "tt": [
         [
-         "Scale or size",
-         [
-          "1/4A to G (model rocket)",
-          "Micro 6 mm",
-          "10.5 mm micro (discontinued 2001)"
-         ]
-        ],
-        [
-         "Form and use",
+         "Propellant",
          [
           "Black powder (up to F)",
           "Composite (A to O)"
+         ]
+        ],
+        [
+         "Diameter",
+         [
+          "13 mm",
+          "18 mm",
+          "24 mm",
+          "Micro 6 mm",
+          "10.5 mm micro (discontinued 2001)"
          ]
         ]
        ]
@@ -8008,9 +7795,10 @@
        "s": "https://en.wikipedia.org/wiki/Model_rocket",
        "tt": [
         [
-         "Form and use",
+         "Contents",
          [
-          "Pad and controller set"
+          "Pad and controller set",
+          "Pad only"
          ]
         ]
        ]
@@ -8169,7 +7957,7 @@
        ],
        "tt": [
         [
-         "Material",
+         "Piece material",
          [
           "Wood",
           "Weighted plastic",
@@ -8178,13 +7966,19 @@
          ]
         ],
         [
-         "Form and use",
+         "Format",
          [
-          "King height",
           "Board with set",
           "Folding or travel set",
           "Magnetic set",
           "Electronic board"
+         ]
+        ],
+        [
+         "King height",
+         [
+          "Small",
+          "Tournament size"
          ]
         ]
        ]
@@ -8233,16 +8027,16 @@
        ],
        "tt": [
         [
-         "Material",
+         "Piece type",
          [
-          "Wooden board",
+          "Printed pieces",
           "Boxwood pieces"
          ]
         ],
         [
-         "Form and use",
+         "Board",
          [
-          "Printed pieces",
+          "Wooden board",
           "Folding board"
          ]
         ]
@@ -8255,28 +8049,27 @@
        "s": "https://en.wikipedia.org/wiki/Xiangqi",
        "tt": [
         [
-         "Material",
+         "Board",
          [
           "Paper or cloth board",
-          "Wooden board",
-          "Plastic pieces",
-          "Wooden pieces",
-          "Jade, horn or bone pieces"
+          "Wooden board"
          ]
         ],
         [
-         "Form and use",
+         "Piece material",
          [
-          "Engraved characters"
+          "Plastic",
+          "Wooden",
+          "Jade, horn or bone"
          ]
         ],
         [
-         "Named forms",
+         "Characters",
          [
-          "Traditional-character xiangqi set",
-          "Simplified-character xiangqi set",
-          "Same-character xiangqi set",
-          "Different-character xiangqi set"
+          "Traditional",
+          "Simplified",
+          "Same on both sides",
+          "Different for each side"
          ]
         ]
        ]
@@ -8288,29 +8081,66 @@
        "s": "https://www.mastersofgames.com/cat/board/draughts-checkers.htm",
        "tt": [
         [
-         "Scale or size",
+         "Board size",
          [
           "8×8 board",
           "10×10 board"
          ]
         ],
         [
-         "Material",
+         "Piece material",
          [
           "Wooden pieces",
           "Plastic pieces"
          ]
-        ],
-        [
-         "Named forms",
-         [
-          "International draughts set",
-          "English draughts set",
-          "Russian draughts set",
-          "Brazilian draughts set",
-          "Canadian checkers set"
-         ]
         ]
+       ],
+       "x": [
+        {
+         "n": "International draughts set",
+         "a": "",
+         "d": "10×10 board with 50 playing squares and 20 pieces a side.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Draughts",
+         "v": []
+        },
+        {
+         "n": "English draughts set",
+         "a": "American checkers",
+         "d": "8×8 board and 12 pieces a side; American checkers.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Draughts",
+         "v": []
+        },
+        {
+         "n": "Russian draughts set",
+         "a": "",
+         "d": "8×8 board and 12 pieces a side.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Draughts",
+         "v": []
+        },
+        {
+         "n": "Brazilian draughts set",
+         "a": "",
+         "d": "8×8 board and 12 pieces a side.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Draughts",
+         "v": []
+        },
+        {
+         "n": "Canadian checkers set",
+         "a": "",
+         "d": "12×12 board and 30 pieces a side; also played in Malaysia and Singapore.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Draughts",
+         "v": []
+        }
        ]
       },
       {
@@ -8378,14 +8208,13 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Board size",
          [
-          "8×8 board",
-          "64 two-sided discs"
+          "8×8 board"
          ]
         ],
         [
-         "Material",
+         "Piece material",
          [
           "Wooden",
           "Plastic"
@@ -8450,7 +8279,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Board size",
          [
           "19×19 board",
           "13×13 board",
@@ -8458,21 +8287,20 @@
          ]
         ],
         [
-         "Material",
-         [
-          "Glass stones",
-          "Plastic stones"
-         ]
-        ],
-        [
-         "Form and use",
+         "Board type",
          [
           "Table board",
           "Floor board with legs",
-          "Folding board",
-          "Lens-shaped (Japanese/Korean) stones",
-          "Flat-bottomed (Chinese) stones",
-          "Stone bowls"
+          "Folding board"
+         ]
+        ],
+        [
+         "Stones",
+         [
+          "Lens-shaped (Japanese/Korean)",
+          "Flat-bottomed (Chinese)",
+          "Glass",
+          "Plastic"
          ]
         ]
        ]
@@ -8495,22 +8323,23 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Board",
          [
-          "Tournament size (44 × 55 cm and up)"
-         ]
-        ],
-        [
-         "Material",
-         [
+          "Folding case board",
           "Inlaid wooden board",
           "Leather board"
          ]
         ],
         [
-         "Form and use",
+         "Size",
          [
-          "Folding case board",
+          "Standard",
+          "Tournament size (44 × 55 cm and up)"
+         ]
+        ],
+        [
+         "Accessory",
+         [
           "Doubling cube",
           "Precision dice",
           "Dice cups"
@@ -8554,7 +8383,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Pit layout",
          [
           "2 × 6 pits",
           "2 × 7 pits",
@@ -8562,10 +8391,17 @@
          ]
         ],
         [
-         "Form and use",
+         "Board type",
          [
           "Folding board",
-          "Stores at the ends"
+          "Solid board"
+         ]
+        ],
+        [
+         "Stores",
+         [
+          "Stores at the ends",
+          "No stores"
          ]
         ]
        ]
@@ -8583,7 +8419,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Set size",
          [
           "Double-six (28 tiles)",
           "Double-nine (55 tiles)",
@@ -8593,30 +8429,30 @@
          ]
         ],
         [
-         "Material",
+         "Tile material",
          [
           "Bone or hardwood",
           "Plastic"
          ]
         ],
         [
-         "Form and use",
+         "Pips",
          [
-          "Coloured pips",
-          "Box"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "Double-six domino set",
-          "Double-nine domino set",
-          "Double-twelve domino set",
-          "Double-fifteen domino set",
-          "Double-eighteen domino set",
-          "Chinese domino set"
+          "Plain",
+          "Coloured"
          ]
         ]
+       ],
+       "x": [
+        {
+         "n": "Chinese domino set",
+         "a": "",
+         "d": "32 tiles from the 21 throws of two dice, no blanks, longer tiles.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Dominoes",
+         "v": []
+        }
        ]
       },
       {
@@ -8695,15 +8531,15 @@
        ],
        "tt": [
         [
-         "Material",
+         "Tile material",
          [
-          "Melamine or plastic tiles",
+          "Melamine or plastic",
           "Bone and bamboo",
           "Bakelite or catalin"
          ]
         ],
         [
-         "Form and use",
+         "Accessory",
          [
           "Racks",
           "Case"
@@ -8766,22 +8602,19 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Mechanism",
          [
           "Mechanical (analogue)",
           "Digital",
-          "Increment (Fischer)",
-          "Delay",
-          "Byo-yomi",
           "Hourglass"
          ]
         ],
         [
-         "Named forms",
+         "Timing rule",
          [
-          "Mechanical chess clock",
-          "Digital chess clock",
-          "Byo-yomi timer"
+          "Increment (Fischer)",
+          "Delay",
+          "Byo-yomi"
          ]
         ]
        ]
@@ -8800,27 +8633,36 @@
        "s": "https://mastersofgames.com/cat/board/zaroc.htm",
        "tt": [
         [
-         "Edition and condition",
+         "Edition",
          [
           "Standard edition",
           "First edition",
           "Deluxe or collector's edition",
-          "Kickstarter all-in or pledge edition",
-          "Expansion",
-          "Promo pieces",
-          "Complete",
-          "Incomplete or missing pieces",
-          "Sealed",
+          "Kickstarter pledge edition",
           "Travel edition"
          ]
         ],
         [
-         "Form and use",
+         "Completeness",
+         [
+          "Complete",
+          "Incomplete or missing pieces",
+          "Sealed"
+         ]
+        ],
+        [
+         "Add-on",
+         [
+          "Expansion",
+          "Promo pieces"
+         ]
+        ],
+        [
+         "Audience",
          [
           "Family game",
           "Strategy (hobby) game",
-          "Party game",
-          "Spirit board"
+          "Party game"
          ]
         ]
        ]
@@ -8832,21 +8674,31 @@
        "s": "https://mastersofgames.com/cat/board/zaroc.htm",
        "tt": [
         [
-         "Edition and condition",
+         "Edition",
          [
           "Standard edition",
           "First edition",
           "Deluxe or collector's edition",
-          "Kickstarter all-in or pledge edition",
-          "Expansion",
-          "Promo pieces",
+          "Kickstarter pledge edition"
+         ]
+        ],
+        [
+         "Completeness",
+         [
           "Complete",
           "Incomplete or missing pieces",
           "Sealed"
          ]
         ],
         [
-         "Form and use",
+         "Add-on",
+         [
+          "Expansion",
+          "Promo pieces"
+         ]
+        ],
+        [
+         "Design",
          [
           "Deck-building game",
           "Party card game"
@@ -8861,24 +8713,39 @@
        "s": "https://mastersofgames.com/cat/board/zaroc.htm",
        "tt": [
         [
-         "Edition and condition",
+         "Edition",
          [
           "Standard edition",
           "First edition",
           "Deluxe or collector's edition",
-          "Kickstarter all-in or pledge edition",
-          "Expansion",
-          "Promo pieces",
+          "Kickstarter pledge edition"
+         ]
+        ],
+        [
+         "Completeness",
+         [
           "Complete",
           "Incomplete or missing pieces",
           "Sealed"
          ]
         ],
         [
-         "Form and use",
+         "Add-on",
+         [
+          "Expansion",
+          "Promo pieces"
+         ]
+        ],
+        [
+         "Tile marking",
          [
           "Letter tiles",
-          "Number tiles",
+          "Number tiles"
+         ]
+        ],
+        [
+         "Accessory",
+         [
           "Tile racks"
          ]
         ]
@@ -8891,21 +8758,31 @@
        "s": "https://www.walmart.com/browse/games-puzzles/dice-games/4171_4191_3010025",
        "tt": [
         [
-         "Edition and condition",
+         "Edition",
          [
           "Standard edition",
           "First edition",
           "Deluxe or collector's edition",
-          "Kickstarter all-in or pledge edition",
-          "Expansion",
-          "Promo pieces",
+          "Kickstarter pledge edition"
+         ]
+        ],
+        [
+         "Completeness",
+         [
           "Complete",
           "Incomplete or missing pieces",
           "Sealed"
          ]
         ],
         [
-         "Form and use",
+         "Add-on",
+         [
+          "Expansion",
+          "Promo pieces"
+         ]
+        ],
+        [
+         "Accessory",
          [
           "Shut-the-box tray",
           "Dice cup",
@@ -9190,14 +9067,19 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Deck size",
          [
           "52-card (with jokers)",
           "32-card piquet",
           "36-card",
           "40-card",
           "48-card",
-          "54-card tarock",
+          "54-card tarock"
+         ]
+        ],
+        [
+         "Card size",
+         [
           "Poker size",
           "Bridge size",
           "Patience size"
@@ -9206,16 +9088,23 @@
         [
          "Material",
          [
+          "Paper",
           "Plastic"
          ]
         ],
         [
-         "Form and use",
+         "Index",
          [
           "Jumbo index",
-          "Linen or air-cushion finish",
-          "Double-ended courts",
-          "Corner indices"
+          "Corner indices",
+          "Double-ended courts"
+         ]
+        ],
+        [
+         "Finish",
+         [
+          "Linen",
+          "Air-cushion"
          ]
         ]
        ]
@@ -9263,8 +9152,9 @@
          ]
         ],
         [
-         "Edition and condition",
+         "Design",
          [
+          "Standard",
           "Themed edition"
          ]
         ]
@@ -9283,7 +9173,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Dice shape",
          [
           "d4",
           "d6",
@@ -9298,22 +9188,23 @@
          "Material",
          [
           "Resin",
-          "Metal"
+          "Metal",
+          "Gemstone"
          ]
         ],
         [
-         "Form and use",
+         "Use",
          [
           "Precision casino dice",
           "Poker dice",
-          "Gemstone",
-          "Dice bag or tray"
+          "RPG set"
          ]
         ],
         [
-         "Named forms",
+         "Accessory",
          [
-          "Polyhedral RPG dice set"
+          "Dice bag",
+          "Dice tray"
          ]
         ]
        ]
@@ -9325,7 +9216,7 @@
        "s": "https://www.mastersofgames.com/cat/table/crokinole.htm",
        "tt": [
         [
-         "Form and use",
+         "Piece",
          [
           "Pawns and tokens",
           "Game money",
@@ -9523,27 +9414,33 @@
        ],
        "tt": [
         [
-         "Material",
+         "Pack size",
          [
+          "Booster pack",
+          "Booster box",
+          "Collection or gift box",
           "Tin"
          ]
         ],
         [
-         "Edition and condition",
+         "Deck type",
          [
-          "First edition print"
+          "Starter or structure deck",
+          "Preconstructed (Commander) deck"
          ]
         ],
         [
-         "Form and use",
+         "Language",
          [
-          "Booster pack",
-          "Booster box",
-          "Starter or structure deck",
-          "Preconstructed (Commander) deck",
-          "Collection or gift box",
-          "Japanese-language",
-          "English-language"
+          "Japanese",
+          "English"
+         ]
+        ],
+        [
+         "Print run",
+         [
+          "First edition print",
+          "Later print"
          ]
         ]
        ]
@@ -9585,23 +9482,33 @@
        ],
        "tt": [
         [
-         "Edition and condition",
+         "Rarity",
          [
           "Common",
           "Uncommon",
-          "Rare",
-          "Foil or holo",
-          "First edition",
-          "Unlimited",
-          "Promo",
-          "Raw",
-          "Graded (see collecting view)"
+          "Rare"
          ]
         ],
         [
-         "Form and use",
+         "Finish",
          [
-          "Language"
+          "Regular",
+          "Foil or holo"
+         ]
+        ],
+        [
+         "Print run",
+         [
+          "First edition",
+          "Unlimited",
+          "Promo"
+         ]
+        ],
+        [
+         "Condition",
+         [
+          "Raw",
+          "Graded (see collecting view)"
          ]
         ]
        ]
@@ -9746,28 +9653,18 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Box type",
          [
-          "Pre-painted miniatures"
-         ]
-        ],
-        [
-         "Material",
-         [
-          "Unpainted plastic kits"
-         ]
-        ],
-        [
-         "Edition and condition",
-         [
+          "Two-player starter",
+          "Core set",
           "Edition launch box"
          ]
         ],
         [
-         "Form and use",
+         "Miniatures",
          [
-          "Two-player starter",
-          "Core set"
+          "Pre-painted",
+          "Unpainted plastic kits"
          ]
         ]
        ]
@@ -9791,18 +9688,18 @@
        ],
        "tt": [
         [
-         "Edition and condition",
-         [
-          "Ship or vehicle expansion"
-         ]
-        ],
-        [
-         "Form and use",
+         "Box type",
          [
           "Unit box",
           "Combat Patrol or starter army",
-          "Battleforce or army deal",
-          "Character model"
+          "Battleforce or army deal"
+         ]
+        ],
+        [
+         "Contents",
+         [
+          "Character model",
+          "Ship or vehicle expansion"
          ]
         ]
        ]
@@ -9812,80 +9709,38 @@
        "a": "card protector",
        "d": "A protective sleeve for individual playing or trading cards.",
        "s": "https://bardsandcards.com/blogs/news/complete-guide-card-sleeves-deck-boxes-tcg-storage",
-       "x": [
-        {
-         "n": "Dragon Shield sleeves",
-         "a": "",
-         "d": "Matte opaque-backed sleeves, the most recommended line.",
-         "mk": "Arcane Tinmen",
-         "y": "",
-         "s": "https://bardsandcards.com/blogs/news/complete-guide-card-sleeves-deck-boxes-tcg-storage",
-         "v": [
-          {
-           "n": "Matte",
-           "mk": "Arcane Tinmen",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Non-Glare",
-           "mk": "Arcane Tinmen",
-           "y": "",
-           "d": "tournament favourite"
-          },
-          {
-           "n": "Perfect Fit",
-           "mk": "Arcane Tinmen",
-           "y": "",
-           "d": "thin inner sleeve"
-          }
-         ]
-        },
-        {
-         "n": "KMC Hyper Matte",
-         "a": "",
-         "d": "Silky, slightly thinner Japanese sleeves, good for double-sleeving.",
-         "mk": "KMC",
-         "y": "",
-         "s": "https://bardsandcards.com/blogs/news/complete-guide-card-sleeves-deck-boxes-tcg-storage",
-         "v": []
-        },
-        {
-         "n": "Gamegenic sleeves",
-         "a": "",
-         "d": "Value-pack sleeves.",
-         "mk": "Gamegenic",
-         "y": "",
-         "s": "https://bardsandcards.com/blogs/news/complete-guide-card-sleeves-deck-boxes-tcg-storage",
-         "v": [
-          {
-           "n": "Value Pack (200)",
-           "mk": "Gamegenic",
-           "y": "",
-           "d": ""
-          }
-         ]
-        }
-       ],
        "r": [
         [
          "Dragon Shield sleeves",
          "Arcane Tinmen"
+        ],
+        [
+         "KMC Hyper Matte",
+         "KMC"
+        ],
+        [
+         "Gamegenic sleeves",
+         "Gamegenic"
         ]
        ],
        "tt": [
         [
-         "Scale or size",
+         "Card size",
          [
           "Standard (63 × 88 mm)",
           "Small / Japanese (62 × 89 mm)"
          ]
         ],
         [
-         "Form and use",
+         "Fit",
          [
           "Inner (perfect-fit)",
-          "Outer",
+          "Outer"
+         ]
+        ],
+        [
+         "Finish",
+         [
           "Matte",
           "Gloss",
           "Art-backed"
@@ -9918,17 +9773,24 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Capacity",
          [
+          "Standard",
           "Commander (100+)"
          ]
         ],
         [
-         "Form and use",
+         "Closure",
          [
           "Snap-top",
-          "Magnetic",
-          "With dice tray"
+          "Magnetic"
+         ]
+        ],
+        [
+         "Extra",
+         [
+          "With dice tray",
+          "Plain"
          ]
         ]
        ]
@@ -9938,98 +9800,50 @@
        "a": "playmat · play mat · card binder · card album",
        "d": "A cloth-topped rubber mat for playing cards on, or a binder of pocket pages for storing a card collection.",
        "s": "https://geekydomain.com/products/celestial-tcg-playmat-standard-24-14-card-game-mat-geeky-domain",
-       "x": [
-        {
-         "n": "Ultimate Guard Zipfolio",
-         "a": "",
-         "d": "Zipped card portfolio in several capacities.",
-         "mk": "Ultimate Guard",
-         "y": "",
-         "s": "https://comicbook.com/gear/product-news/best-card-binders-pokemon-tcg/",
-         "v": [
-          {
-           "n": "Zipfolio 160",
-           "mk": "Ultimate Guard",
-           "y": "",
-           "d": "8-pocket"
-          },
-          {
-           "n": "Zipfolio 360",
-           "mk": "Ultimate Guard",
-           "y": "",
-           "d": "18-pocket"
-          },
-          {
-           "n": "Zipfolio 480",
-           "mk": "Ultimate Guard",
-           "y": "",
-           "d": "24-pocket"
-          }
-         ]
-        },
-        {
-         "n": "Vault X Exo-Tec zip binder",
-         "a": "",
-         "d": "Zipped binder with side-loading pockets.",
-         "mk": "Vault X",
-         "y": "",
-         "s": "https://comicbook.com/gear/product-news/best-card-binders-pokemon-tcg/",
-         "v": [
-          {
-           "n": "9-Pocket",
-           "mk": "Vault X",
-           "y": "",
-           "d": "360 cards"
-          },
-          {
-           "n": "12-Pocket",
-           "mk": "Vault X",
-           "y": "",
-           "d": "480 cards"
-          }
-         ]
-        },
-        {
-         "n": "Dragon Shield Card Codex",
-         "a": "",
-         "d": "Side-loading card portfolio.",
-         "mk": "Arcane Tinmen",
-         "y": "",
-         "s": "https://comicbook.com/gear/product-news/best-card-binders-pokemon-tcg/",
-         "v": [
-          {
-           "n": "Card Codex 576",
-           "mk": "Arcane Tinmen",
-           "y": "",
-           "d": "24 per page"
-          }
-         ]
-        }
-       ],
        "tt": [
         [
-         "Scale or size",
+         "Product",
          [
-          "Playmat 24 × 14 in",
-          "9-pocket pages",
-          "4- and 12-pocket pages"
+          "Playmat",
+          "Mat tube",
+          "Ring binder",
+          "Zip binder"
          ]
         ],
         [
-         "Material",
+         "Page layout",
+         [
+          "9-pocket pages",
+          "4- and 12-pocket pages",
+          "Side-loading pockets"
+         ]
+        ],
+        [
+         "Playmat base",
          [
           "Neoprene or rubber base"
          ]
         ],
         [
-         "Form and use",
+         "Playmat edge",
          [
           "Stitched edges",
-          "Mat tube",
-          "Side-loading pockets",
-          "Zip binder",
-          "Ring binder"
+          "Plain edges"
          ]
+        ]
+       ],
+       "r": [
+        [
+         "Ultimate Guard Zipfolio",
+         "Ultimate Guard"
+        ],
+        [
+         "Vault X Exo-Tec zip binder",
+         "Vault X"
+        ],
+        [
+         "Dragon Shield Card Codex",
+         "Arcane Tinmen"
         ]
        ]
       }
@@ -10137,12 +9951,23 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Goalkeepers",
          [
-          "European (one goalkeeper)",
-          "American (three goalkeepers)",
-          "Futbolín",
+          "One goalkeeper (European)",
+          "Three goalkeepers (American)"
+         ]
+        ],
+        [
+         "Operation",
+         [
           "Coin-operated",
+          "Home"
+         ]
+        ],
+        [
+         "Size",
+         [
+          "Full size",
           "Folding / home",
           "Tabletop"
          ]
@@ -10187,7 +10012,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Size",
          [
           "8-foot tournament",
           "Full-size novelty",
@@ -10195,10 +10020,17 @@
          ]
         ],
         [
-         "Form and use",
+         "Players",
          [
-          "Four-player",
-          "Coin-operated"
+          "Two-player",
+          "Four-player"
+         ]
+        ],
+        [
+         "Operation",
+         [
+          "Coin-operated",
+          "Home"
          ]
         ]
        ]
@@ -10300,15 +10132,15 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Board size",
          [
-          "ICF tournament board (73.5-74 cm)"
+          "ICF tournament board (73.5-74 cm)",
+          "Family board"
          ]
         ],
         [
-         "Form and use",
+         "Format",
          [
-          "Family board",
           "Folding / portable",
           "With stand"
          ]
@@ -10364,17 +10196,24 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Shape",
          [
+          "Octagonal",
+          "Round"
+         ]
+        ],
+        [
+         "Size",
+         [
+          "Standard",
           "Tournament (26 in)"
          ]
         ],
         [
-         "Form and use",
+         "Format",
          [
-          "Octagonal",
-          "Round",
-          "Folding"
+          "Folding",
+          "Solid"
          ]
         ]
        ]
@@ -10386,16 +10225,10 @@
        "s": "https://en.wikipedia.org/wiki/Novuss",
        "tt": [
         [
-         "Form and use",
+         "Mounting",
          [
           "Tabletop",
           "On stand"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "Novuss"
          ]
         ]
        ]
@@ -10437,22 +10270,17 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Length",
          [
           "Full-length (9-22 ft)",
           "Sjoelbak (about 2 m)"
          ]
         ],
         [
-         "Form and use",
+         "Puck game",
          [
-          "Shove ha'penny board"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "Table shuffleboard"
+          "Shove ha'penny board",
+          "Shuffleboard"
          ]
         ]
        ]
@@ -10501,15 +10329,16 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Width",
          [
           "Standard league (32 in)",
           "Narrow (28 in)"
          ]
         ],
         [
-         "Form and use",
+         "Mounting",
          [
+          "Floor-standing",
           "Tabletop"
          ]
         ]
@@ -10617,7 +10446,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Action",
          [
           "Stacking",
           "Pulling",
@@ -10687,7 +10516,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Contents",
          [
           "Chip set",
           "Chip case"
@@ -10702,7 +10531,7 @@
        "s": "https://pokerchiplounge.com/products/6-deck-blackjack-shoe",
        "tt": [
         [
-         "Form and use",
+         "Device",
          [
           "Dealing shoe",
           "Card shuffler"
@@ -10733,9 +10562,9 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Equipment",
          [
-          "Bingo set",
+          "Bingo cards and markers",
           "Bingo cage",
           "Raffle drum"
          ]
@@ -10913,15 +10742,17 @@
         [
          "Material",
          [
-          "Plastic snap-together sphere",
+          "Plastic snap-together",
           "Wooden",
           "Foam"
          ]
         ],
         [
-         "Form and use",
+         "Shape",
          [
-          "Puzzle globe"
+          "Sphere",
+          "Puzzle globe",
+          "Building"
          ]
         ]
        ]
@@ -11548,7 +11379,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Dimension",
          [
           "Two-dimensional dissection",
           "Three-dimensional packing"
@@ -11665,17 +11496,11 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Object",
          [
           "Secret box",
           "Trick lock",
           "Match safe"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "Trick puzzle lock"
          ]
         ]
        ]
@@ -11687,24 +11512,94 @@
        "s": "https://blogs.libraries.indiana.edu/lilly/2025/04/02/what-are-mechanical-puzzles/",
        "tt": [
         [
-         "Scale or size",
+         "Piece count",
          [
-          "Larger burr"
+          "Six-piece",
+          "Larger"
          ]
         ],
         [
-         "Form and use",
+         "Piece shape",
          [
-          "Six-piece burr",
-          "Diagonal burr"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "High-level burr"
+          "Square-section",
+          "Diagonal"
          ]
         ]
+       ],
+       "x": [
+        {
+         "n": "Six-piece burr",
+         "a": "Chinese cross · puzzle knot",
+         "d": "Interlocking notched square sticks forming three crossed pairs; oldest known burr, first seen in a 1698 engraving.",
+         "mk": "",
+         "y": "1698 engraving",
+         "s": "https://en.wikipedia.org/wiki/Burr_puzzle",
+         "v": [
+          {
+           "n": "Altekruse",
+           "mk": "",
+           "y": "1890",
+           "d": "named after the patent holder; older puzzle"
+          },
+          {
+           "n": "Chuck",
+           "mk": "Edward Nelson",
+           "y": "1897",
+           "d": "patent"
+          },
+          {
+           "n": "Pagoda burr",
+           "mk": "",
+           "y": "1928",
+           "d": "described in Wyatt's Puzzles in Wood"
+          },
+          {
+           "n": "Cutler analysis",
+           "mk": "Bill Cutler",
+           "y": "1978",
+           "d": "published by Martin Gardner in Scientific American"
+          }
+         ],
+         "dt": "level (moves to remove first piece) · notch pattern · wood"
+        },
+        {
+         "n": "High-level burr",
+         "a": "",
+         "d": "Six-piece burr needing many moves to free the first piece, found by computer-aided designers.",
+         "mk": "",
+         "y": "1979",
+         "s": "https://en.wikipedia.org/wiki/Burr_puzzle",
+         "v": [
+          {
+           "n": "Level-3 burr",
+           "mk": "Stewart Coffin",
+           "y": "1979",
+           "d": ""
+          },
+          {
+           "n": "Level-5 burr",
+           "mk": "Bill Cutler",
+           "y": "1985",
+           "d": "highest possible with notchable pieces"
+          },
+          {
+           "n": "Level-7 burr",
+           "mk": "Philippe Dubois",
+           "y": "",
+           "d": "shortly after 1985"
+          }
+         ],
+         "dt": "level"
+        },
+        {
+         "n": "Diagonal burr",
+         "a": "Giant Star",
+         "d": "Burr with V-shaped notches cut at 45 degrees, also called Giant Star.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Burr_puzzle",
+         "v": []
+        }
        ]
       },
       {
@@ -11801,20 +11696,9 @@
         [
          "Material",
          [
-          "Cast metal"
-         ]
-        ],
-        [
-         "Form and use",
-         [
+          "Cast metal",
           "Wire",
           "Rope and string"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "Wire disentanglement puzzle"
          ]
         ]
        ]
@@ -11931,11 +11815,11 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Moving part",
          [
           "Sliding tiles",
           "Sliding blocks",
-          "Disk-moving"
+          "Disks on pegs"
          ]
         ]
        ]
@@ -12003,19 +11887,8 @@
         [
          "Material",
          [
-          "Paper flexagon"
-         ]
-        ],
-        [
-         "Form and use",
-         [
-          "Tile folder"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "Paper fold puzzle"
+          "Tiles on hinges",
+          "Paper"
          ]
         ]
        ]
@@ -12088,7 +11961,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Maze type",
          [
           "Tilt-box maze",
           "Handheld sphere maze"
@@ -12139,7 +12012,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Vessel",
          [
           "Jug",
           "Cup"
@@ -12154,19 +12027,47 @@
        "s": "https://blogs.libraries.indiana.edu/lilly/2025/04/02/what-are-mechanical-puzzles/",
        "tt": [
         [
-         "Form and use",
+         "Container",
          [
-          "Ship in a bottle",
-          "Fruit in a bottle",
-          "Padlock or knot in a bottle"
+          "Bottle",
+          "Glass"
          ]
         ],
         [
-         "Named forms",
+         "Object inside",
          [
-          "Object in a bottle"
+          "Ship",
+          "Fruit",
+          "Padlock or knot"
          ]
         ]
+       ],
+       "x": [
+        {
+         "n": "Ship in a bottle",
+         "a": "",
+         "d": "Model ship built inside a bottle; the oldest survivors are by Giovanni Biondo, dated 1784, 1786 and 1792.",
+         "mk": "Giovanni Biondo",
+         "y": "late 18th century",
+         "s": "https://en.wikipedia.org/wiki/Ship_in_a_bottle",
+         "v": [
+          {
+           "n": "Biondo dated examples",
+           "mk": "Giovanni Biondo",
+           "y": "1784-1792",
+           "d": "1784, 1786 and 1792"
+          }
+         ]
+        },
+        {
+         "n": "Fruit in a bottle",
+         "a": "",
+         "d": "Fruit grown or dried inside a bottle, as with Poire Williams pear brandy.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Ship_in_a_bottle",
+         "v": []
+        }
        ]
       },
       {
@@ -12258,7 +12159,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Equipment",
          [
           "Peg board",
           "Challenge-card puzzle"
@@ -12293,8 +12194,9 @@
          ]
         ],
         [
-         "Worn form",
+         "Wear",
          [
+          "Held",
           "Spinner ring"
          ]
         ]
@@ -12344,7 +12246,7 @@
        "d": "A hand-held toy of buttons, switches and dials that are clicked, pressed and flipped; bubble-popping toys are poppers.",
        "tt": [
         [
-         "Form",
+         "Product",
          [
           "Fidget cube",
           "Button keychain",
@@ -12352,7 +12254,7 @@
          ]
         ],
         [
-         "Controls",
+         "Control",
          [
           "Buttons",
           "Switches",
@@ -12388,7 +12290,7 @@
        "d": "A silicone board or toy of bubbles pushed in and out with a pop; the hand repeats the push and there is nothing to solve.",
        "tt": [
         [
-         "Form",
+         "Product",
          [
           "Bubble board",
           "Popper keychain",
@@ -12397,7 +12299,7 @@
          ]
         ],
         [
-         "Shape",
+         "Outline",
          [
           "Round",
           "Square",
@@ -12452,7 +12354,7 @@
        "d": "A pocket metal object that slides back and forth, or spins between finger pads, against magnet resistance; sold for everyday carry.",
        "tt": [
         [
-         "Form",
+         "Shape",
          [
           "Magnetic slider",
           "Haptic slider",
@@ -12537,11 +12439,11 @@
        "d": "A slow-rising foam or silicone squeeze toy in animal or food shapes, from Japan; reached the US in 2017.",
        "tt": [
         [
-         "Form",
+         "Filling",
          [
           "Slow-rise foam",
-          "Mochi squishy",
-          "Gel animal keychain"
+          "Silicone mochi",
+          "Gel"
          ]
         ]
        ],
@@ -12560,7 +12462,7 @@
        "d": "A toy pulled and released in the hands, such as a water snake, stretchy string or fidget band; putty and slime are modelling toys.",
        "tt": [
         [
-         "Form",
+         "Product",
          [
           "Water snake",
           "Stretchy string",
@@ -12645,9 +12547,9 @@
        "d": "Linked blocks that fold and open over one another without a goal; cube-shaped versions are called infinity cubes.",
        "tt": [
         [
-         "Form",
+         "Shape",
          [
-          "Infinity cube"
+          "Cube"
          ]
         ]
        ],
@@ -12765,9 +12667,9 @@
        "d": "Greek hand toy of a bead at each end of a short cord or chain, flicked and twirled; descended from the komboloi.",
        "tt": [
         [
-         "Form",
+         "Link between beads",
          [
-          "Cord and beads",
+          "Cord",
           "Rigid bar",
           "Chain"
          ]
@@ -12809,15 +12711,10 @@
        ],
        "tt": [
         [
-         "Material",
+         "Frame",
          [
-          "Wooden frame"
-         ]
-        ],
-        [
-         "Form and use",
-         [
-          "Chrome frame"
+          "Wooden",
+          "Chrome"
          ]
         ]
        ]
@@ -12860,7 +12757,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Piece shape",
          [
           "Spheres",
           "Cubes"
@@ -13012,11 +12909,11 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Product",
          [
           "Moulding sand",
           "Framed sand picture",
-          "Bottle"
+          "Sand in a bottle"
          ]
         ]
        ]
@@ -13148,7 +13045,7 @@
        "s": "https://www.canadiantire.ca/en/shop-all/cat/toys-games/pretend-play-DC0002536.html",
        "tt": [
         [
-         "Form and use",
+         "Item",
          [
           "Play food",
           "Toy cookware",
@@ -13164,12 +13061,17 @@
        "s": "https://www.canadiantire.ca/en/shop-all/cat/toys-games/pretend-play-DC0002536.html",
        "tt": [
         [
-         "Form and use",
+         "Role",
          [
           "Play shop or till",
           "Tool bench or tool set",
-          "Play money",
           "Toy garden tools"
+         ]
+        ],
+        [
+         "Accessory",
+         [
+          "Play money"
          ]
         ]
        ]
@@ -13208,13 +13110,13 @@
        "r": [],
        "tt": [
         [
-         "Form and use",
+         "Style",
          [
-          "party hat",
+          "Party hat",
           "Santa hat",
-          "wizard / witch hat",
-          "dunce cap",
-          "umbrella hat"
+          "Wizard or witch hat",
+          "Dunce cap",
+          "Umbrella hat"
          ]
         ]
        ]
@@ -13333,25 +13235,39 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Firing mechanism",
          [
+          "Spring-powered (single shot)",
+          "Flywheel (motorised)"
+         ]
+        ],
+        [
+         "Feed",
+         [
+          "Single shot",
+          "Clip or drum fed"
+         ]
+        ],
+        [
+         "Shape",
+         [
+          "Pistol",
+          "Rifle",
+          "Bolt-action"
+         ]
+        ],
+        [
+         "Dart size",
+         [
+          "Standard",
           "Mega (large dart)"
          ]
         ],
         [
-         "Form and use",
+         "Ammunition",
          [
-          "Spring-powered (single shot)",
-          "Flywheel (motorised)",
-          "Clip or drum fed",
-          "Pistol",
-          "Rifle",
-          "Bolt-action",
-          "Modulus (modular)",
-          "Gel blaster (water-bead)",
-          "Slingshot toy",
-          "Blowgun toy",
-          "Third-party (Dart Zone, X-Shot)"
+          "Foam dart",
+          "Gel ball (water-bead)"
          ]
         ]
        ]
@@ -13426,14 +13342,20 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Pressure source",
          [
           "Piston pumper",
           "Pressurised reservoir",
           "Air-pressure chamber",
           "Spring-powered",
           "Motorised",
-          "Constant Pressure System (CPS)",
+          "Constant Pressure System (CPS)"
+         ]
+        ],
+        [
+         "Carrying",
+         [
+          "Handheld",
           "Backpack"
          ]
         ]
@@ -13468,15 +13390,21 @@
         [
          "Material",
          [
-          "Foam sword",
-          "Foam axe",
-          "Foam dagger",
-          "Plastic sword",
-          "Wooden sword"
+          "Foam",
+          "Plastic",
+          "Wooden"
          ]
         ],
         [
-         "Form and use",
+         "Blade type",
+         [
+          "Sword",
+          "Axe",
+          "Dagger"
+         ]
+        ],
+        [
+         "Extra",
          [
           "Shield and sword set",
           "Light-up"
@@ -13562,11 +13490,11 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Piece",
          [
-          "Ring stacker",
-          "Stacking cups",
-          "Stacking blocks"
+          "Rings",
+          "Cups",
+          "Blocks"
          ]
         ]
        ]
@@ -13637,7 +13565,7 @@
        "s": "https://www.wintergreen.ca/toddler-sand-water-table-lc978",
        "tt": [
         [
-         "Form and use",
+         "Surface",
          [
           "Activity table",
           "Sand and water table"
@@ -13720,11 +13648,11 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Part",
          [
-          "figure",
-          "card",
-          "player"
+          "Figure",
+          "Card",
+          "Player"
          ]
         ]
        ]
@@ -13792,7 +13720,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Play style",
          [
           "Responsive (0A)",
           "Unresponsive (1A)",
@@ -13803,13 +13731,7 @@
          ]
         ],
         [
-         "Material",
-         [
-          "Novelty or tin"
-         ]
-        ],
-        [
-         "Form and use",
+         "Axle",
          [
           "Fixed axle",
           "Transaxle",
@@ -13817,9 +13739,10 @@
          ]
         ],
         [
-         "Named forms",
+         "Grade",
          [
-          "Ball-bearing yo-yo"
+          "Novelty or tin",
+          "Performance"
          ]
         ]
        ]
@@ -13877,13 +13800,25 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Spin method",
          [
           "Hand-spun",
-          "String-pulled peg top",
-          "Launcher battle top",
-          "Humming top",
-          "Dreidel"
+          "String-pulled",
+          "Launcher"
+         ]
+        ],
+        [
+         "Sound",
+         [
+          "Silent",
+          "Humming"
+         ]
+        ],
+        [
+         "Marking",
+         [
+          "Plain",
+          "Lettered (dreidel)"
          ]
         ]
        ]
@@ -13956,17 +13891,17 @@
        ],
        "tt": [
         [
-         "Material",
-         [
-          "Wood finish / paint",
-          "Rubber-coated"
-         ]
-        ],
-        [
-         "Form and use",
+         "Use",
          [
           "Competition (Japan Kendama Association style)",
           "Beginner"
+         ]
+        ],
+        [
+         "Finish",
+         [
+          "Painted wood",
+          "Rubber-coated"
          ]
         ]
        ]
@@ -14082,6 +14017,44 @@
          "y": "1934",
          "s": "https://en.wikipedia.org/wiki/Marbles",
          "v": []
+        },
+        {
+         "n": "German handmade glass marble",
+         "a": "",
+         "d": "Antique hand-drawn glass marbles with swirled bodies, sold across Europe.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Marbles",
+         "v": [
+          {
+           "n": "Sulphide",
+           "mk": "",
+           "y": "",
+           "d": "contains a small figure"
+          },
+          {
+           "n": "Lutz",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Onionskin",
+           "mk": "",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "swirl pattern · size · condition"
+        },
+        {
+         "n": "Clay and china marble",
+         "a": "",
+         "d": "Cheap unglazed clay (commie or crock) and painted china marbles, mass-produced after the 1870s.",
+         "mk": "",
+         "y": "1870s",
+         "s": "https://en.wikipedia.org/wiki/Marbles",
+         "v": []
         }
        ],
        "see": [
@@ -14093,7 +14066,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Glass type",
          [
           "Alley",
           "Aggie (agate)",
@@ -14103,15 +14076,6 @@
           "Bumblebee",
           "Galaxy",
           "Swirly"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "German handmade glass marble",
-          "Clay and china marble",
-          "Steelie",
-          "Contemporary art marble"
          ]
         ]
        ]
@@ -14149,22 +14113,16 @@
         [
          "Material",
          [
-          "Foam ball"
+          "Rubber",
+          "Foam",
+          "Plastic"
          ]
         ],
         [
-         "Form and use",
+         "Use",
          [
           "Playground (utility) ball",
-          "Bouncy ball",
-          "Koosh ball",
-          "Spaldeen"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "Utility ball"
+          "Bouncy ball"
          ]
         ]
        ]
@@ -14264,19 +14222,26 @@
        ],
        "tt": [
         [
-         "Material",
+         "Shape",
          [
-          "Plastic toy disc",
-          "Foam disc"
+          "Disc",
+          "Flying ring"
          ]
         ],
         [
-         "Form and use",
+         "Material",
          [
-          "Flying ring",
-          "Ultimate disc",
-          "Disc golf disc",
-          "Freestyle disc"
+          "Plastic",
+          "Foam"
+         ]
+        ],
+        [
+         "Sport",
+         [
+          "Ultimate",
+          "Disc golf",
+          "Freestyle",
+          "Casual"
          ]
         ]
        ]
@@ -14288,36 +14253,117 @@
        "s": "https://en.wikipedia.org/wiki/Kite",
        "tt": [
         [
-         "Edition and condition",
+         "Shape",
          [
+          "Diamond",
+          "Delta",
+          "Box",
+          "Sled",
           "Parafoil"
          ]
         ],
         [
-         "Form and use",
+         "Lines",
          [
-          "Diamond",
-          "Delta",
-          "Sled",
-          "Box",
-          "Fighter",
-          "Character kite",
-          "Inflatable single-line"
+          "Single-line",
+          "Two-line fighter"
          ]
         ],
         [
-         "Named forms",
+         "Subject",
          [
-          "Delta kite",
-          "Diamond kite",
-          "Box kite",
-          "Sled kite",
-          "Parafoil kite",
-          "Malay kite",
-          "Rokkaku kite",
-          "Fighter kite"
+          "Plain",
+          "Character kite"
+         ]
+        ],
+        [
+         "Structure",
+         [
+          "Framed",
+          "Inflatable"
          ]
         ]
+       ],
+       "x": [
+        {
+         "n": "Delta kite",
+         "a": "",
+         "d": "Triangular single-line kite, a popular easy-flying shape.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kite",
+         "v": []
+        },
+        {
+         "n": "Diamond kite",
+         "a": "",
+         "d": "Classic two-stick kite, usually with a tail for stability.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kite",
+         "v": []
+        },
+        {
+         "n": "Box kite",
+         "a": "",
+         "d": "Single-line kite with a box-shaped cell frame.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kite_types",
+         "v": []
+        },
+        {
+         "n": "Sled kite",
+         "a": "",
+         "d": "Frameless-spar single-line kite; the earliest example named in the kite-type list is the 1904 Buda Jewish kite.",
+         "mk": "",
+         "y": "1904",
+         "s": "https://en.wikipedia.org/wiki/Kite_types",
+         "v": []
+        },
+        {
+         "n": "Parafoil kite",
+         "a": "",
+         "d": "Spar-less ram-air kite based on the wing invented by Domina Jalbert.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kite_types",
+         "v": []
+        },
+        {
+         "n": "Malay kite",
+         "a": "",
+         "d": "Pre-Eddy bowed kite; the Kirby and Woglum kites are variants.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kite_types",
+         "v": [
+          {
+           "n": "Eddy kite",
+           "mk": "",
+           "y": "",
+           "d": "named for William A. Eddy; US patent 646375"
+          }
+         ]
+        },
+        {
+         "n": "Rokkaku kite",
+         "a": "",
+         "d": "Bowed hexagonal kite.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kite_types",
+         "v": []
+        },
+        {
+         "n": "Fighter kite",
+         "a": "",
+         "d": "Light single-line kite that can move fast under control.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Kite_types",
+         "v": []
+        }
        ]
       },
       {
@@ -14333,7 +14379,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Device",
          [
           "Wand and bottle",
           "Bubble ring",
@@ -14377,17 +14423,12 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Type",
          [
-          "Contact ball"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "Beanbag juggling ball",
-          "Stage ball",
-          "Bouncing ball"
+          "Beanbag",
+          "Stage",
+          "Contact",
+          "Bouncing"
          ]
         ]
        ]
@@ -14399,18 +14440,10 @@
        "s": "https://en.wikipedia.org/wiki/Juggling_club",
        "tt": [
         [
-         "Form and use",
+         "Fuel",
          [
+          "Standard",
           "Fire club"
-         ]
-        ],
-        [
-         "Named forms",
-         [
-          "American-style wooden club",
-          "European club",
-          "One-piece plastic club",
-          "Multi-piece composite club"
          ]
         ]
        ]
@@ -14422,7 +14455,7 @@
        "s": "https://en.wikipedia.org/wiki/Juggling_prop",
        "tt": [
         [
-         "Form and use",
+         "Type",
          [
           "Standard ring"
          ]
@@ -14447,17 +14480,18 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Lighting",
          [
+          "Plain",
           "Fire",
-          "Illuminated (LED)",
-          "Weighted-end baton"
+          "Illuminated (LED)"
          ]
         ],
         [
-         "Named forms",
+         "Weighting",
          [
-          "Tapered devil stick"
+          "Weighted-end baton",
+          "Tapered"
          ]
         ]
        ]
@@ -14516,7 +14550,7 @@
          ]
         ],
         [
-         "Form and use",
+         "Axle",
          [
           "Fixed axle",
           "Bearing axle"
@@ -14549,20 +14583,26 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Length",
          [
           "Short",
-          "Long",
-          "Glow or LED",
-          "Fire (Kevlar or Technora wicks)",
-          "Contact ball"
+          "Long"
          ]
         ],
         [
-         "Named forms",
+         "Lighting",
          [
-          "Sock poi",
-          "Rope-and-ball poi"
+          "Plain",
+          "Glow or LED",
+          "Fire (Kevlar or Technora wicks)"
+         ]
+        ],
+        [
+         "Weight",
+         [
+          "Sock",
+          "Rope and ball",
+          "Contact ball"
          ]
         ]
        ]
@@ -14654,19 +14694,19 @@
        ],
        "tt": [
         [
-         "Material",
-         [
-          "Wooden",
-          "Plastic"
-         ]
-        ],
-        [
-         "Form and use",
+         "Instrument",
          [
           "Toy piano",
           "Toy xylophone or glockenspiel",
           "Rhythm set",
           "Pull-along musical toy"
+         ]
+        ],
+        [
+         "Material",
+         [
+          "Wooden",
+          "Plastic"
          ]
         ]
        ]
@@ -14745,11 +14785,16 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Set size",
          [
           "Beginner box",
           "Hat or case set",
-          "Deluxe cabinet",
+          "Deluxe cabinet"
+         ]
+        ],
+        [
+         "Trick type",
+         [
           "Card trick set",
           "Mind-reading set"
          ]
@@ -14887,16 +14932,22 @@
         [
          "Material",
          [
-          "Cast iron original",
-          "Late tin bank"
+          "Cast iron",
+          "Tin"
          ]
         ],
         [
-         "Form and use",
+         "Origin",
          [
-          "Reproduction",
-          "Coin-in-hand action",
-          "Lever action"
+          "Original",
+          "Reproduction"
+         ]
+        ],
+        [
+         "Action",
+         [
+          "Coin-in-hand",
+          "Lever"
          ]
         ]
        ]
@@ -14980,7 +15031,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Game type",
          [
           "LED game",
           "LCD game",
@@ -15003,11 +15054,17 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Type",
          [
           "Projector torch",
           "Nightlight",
-          "Glow toy",
+          "Glow toy"
+         ]
+        ],
+        [
+         "Shape",
+         [
+          "Plain",
           "Animal-shaped"
          ]
         ]
@@ -15052,12 +15109,23 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Material",
          [
           "Papier-mâché",
-          "Clay pot (traditional)",
+          "Clay pot (traditional)"
+         ]
+        ],
+        [
+         "Shape",
+         [
           "Seven-point star",
-          "Character piñata",
+          "Character piñata"
+         ]
+        ],
+        [
+         "Opening",
+         [
+          "Struck open",
           "Pull-string"
          ]
         ]
@@ -15188,24 +15256,26 @@
        ],
        "tt": [
         [
-         "Scale or size",
-         [
-          "Plastic 1:16 farm and construction vehicle"
-         ]
-        ],
-        [
          "Material",
          [
-          "Steel construction truck",
-          "Recycled-plastic vehicle",
-          "Wooden pull-along"
+          "Steel",
+          "Recycled plastic",
+          "Wooden"
          ]
         ],
         [
-         "Form and use",
+         "Scale",
          [
+          "1:16 farm and construction vehicle",
+          "Play size"
+         ]
+        ],
+        [
+         "Drive",
+         [
+          "Push-along",
           "Pull-back / friction",
-          "Die-cast (see Models, kits & railways)"
+          "Pull-along"
          ]
         ]
        ]
@@ -15277,18 +15347,30 @@
        ],
        "tt": [
         [
-         "Edition and condition",
+         "Coupling",
          [
-          "Expansion pack"
+          "Magnetic couplings"
          ]
         ],
         [
-         "Form and use",
+         "Locomotive",
          [
-          "Magnetic couplings",
-          "Battery locomotive",
-          "Licensed (Thomas & Friends)",
-          "Starter set"
+          "Hand-pushed",
+          "Battery"
+         ]
+        ],
+        [
+         "Licence",
+         [
+          "Own design",
+          "Licensed (Thomas & Friends)"
+         ]
+        ],
+        [
+         "Sale format",
+         [
+          "Starter set",
+          "Expansion pack"
          ]
         ]
        ]
@@ -15352,18 +15434,24 @@
        ],
        "tt": [
         [
-         "Material",
+         "Locomotive",
          [
-          "Track-compatible with wooden rail"
+          "Battery",
+          "Hand-pushed"
          ]
         ],
         [
-         "Form and use",
+         "Theme",
          [
-          "Battery locomotive",
-          "Hand-pushed",
-          "Thomas range (TrackMaster)",
+          "Thomas range",
           "Shinkansen / real-train range"
+         ]
+        ],
+        [
+         "Compatibility",
+         [
+          "Own track",
+          "Track-compatible with wooden rail"
          ]
         ]
        ]
@@ -15479,25 +15567,19 @@
        ],
        "tt": [
         [
-         "Scale or size",
+         "Wheel size",
          [
           "12-inch wheels (2-5 years)",
-          "14-inch wheels (3+)",
-          "Aluminium"
+          "14-inch wheels (3+)"
          ]
         ],
         [
-         "Material",
+         "Frame material",
          [
+          "Aluminium",
           "Steel",
           "Wooden",
           "Plastic"
-         ]
-        ],
-        [
-         "Form and use",
-         [
-          "Wheeled ride-on (Ziggle)"
          ]
         ]
        ]
@@ -15544,13 +15626,7 @@
        ],
        "tt": [
         [
-         "Scale or size",
-         [
-          "Convertible (2-in-1, 4-in-1)"
-         ]
-        ],
-        [
-         "Material",
+         "Frame material",
          [
           "Metal",
           "Plastic",
@@ -15558,10 +15634,23 @@
          ]
         ],
         [
-         "Form and use",
+         "Drive",
          [
           "Front-drive",
-          "Chain-drive",
+          "Chain-drive"
+         ]
+        ],
+        [
+         "Format",
+         [
+          "Fixed",
+          "Convertible (2-in-1, 4-in-1)"
+         ]
+        ],
+        [
+         "Handle",
+         [
+          "Plain",
           "With push bar"
          ]
         ]
@@ -15621,11 +15710,17 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Power source",
          [
           "Foot-powered",
           "Pedal",
-          "Battery-powered",
+          "Battery-powered"
+         ]
+        ],
+        [
+         "Handle",
+         [
+          "Plain",
           "Push-along with handle"
          ]
         ]
@@ -15676,8 +15771,9 @@
          ]
         ],
         [
-         "Form and use",
+         "Format",
          [
+          "Fixed",
           "Folding"
          ]
         ]
@@ -15740,16 +15836,10 @@
        ],
        "tt": [
         [
-         "Material",
+         "Frame material",
          [
-          "Wooden swing set",
-          "Metal swing set"
-         ]
-        ],
-        [
-         "Form and use",
-         [
-          "Replacement swing seat"
+          "Wooden",
+          "Metal"
          ]
         ]
        ]
@@ -15779,7 +15869,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Structure",
          [
           "Slide",
           "Climbing frame",
@@ -15868,7 +15958,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Structure",
          [
           "Bouncy castle",
           "Inflatable play centre",
@@ -15924,7 +16014,7 @@
        ],
        "tt": [
         [
-         "Form and use",
+         "Build",
          [
           "Inflatable",
           "Rigid"

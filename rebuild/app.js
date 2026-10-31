@@ -125,7 +125,7 @@ function renderTree() {
   const head = $('div', { class: 'cat-head' }, $('h2', {}, $('span', { class: 'cc', text: cur }), catName(cur)), $('p', { text: data.lead || '' }));
   if (fwc.test) head.append($('p', { class: 'test' }, $('b', { text: 'Belongs here: ' }), fwc.test));
   head.append($('p', { class: 'stats' }, [[total, 'kinds'], [data.depts.length, data.depts.length === 1 ? 'department' : 'departments'], [data.depts.reduce((a, d) => a + d.s.length, 0), 'shelves'], [arch, 'archetypes'], [ci.nb || 0, 'brands']].filter(([n]) => n).map(([n, l]) => $('span', {}, $('b', { text: n.toLocaleString() }), ' ' + l))));
-  if (data.ax) head.append($('p', { class: 'axis' }, $('b', { text: 'Departments by ' }), data.ax.replace(/^departments by /i, '')));
+  if (data.ax) head.append($('p', { class: 'axis' }, $('b', { text: 'How it splits: ' }), data.ax));
   const keySteps = [...(data.key || [])], prec = fwc.prec || [];
   if (keySteps.length || prec.length) head.append($('details', { class: 'key' }, $('summary', { text: 'Key to this category' }), keySteps.map(p => { const e = $('p'); e.innerHTML = p; return e; }), prec.length ? $('p', {}, $('b', { text: 'Edges with other categories' })) : null, prec.map(p => $('p', { class: 'prec', text: p }))));
   main.append(head);
@@ -134,11 +134,11 @@ function renderTree() {
   data.depts.forEach((d, i) => {
     const sec = $('section', { class: 'dept', id: slug('d', i) }, $('h3', { class: 'dept-name' }, $('span', { class: 'cc', text: d.code }), d.n, d.mode ? $('span', { class: 'mode', title: MODE_TIP[d.mode] || '', text: MODE[d.mode] || d.mode }) : null));
     if (d.t) sec.append($('p', { class: 'test', text: d.t }));
-    if (d.ax) sec.append($('p', { class: 'axis' }, $('b', { text: 'Shelves by ' }), d.ax.replace(/^shelves by /i, '')));
+    if (d.ax) sec.append($('p', { class: 'axis' }, $('b', { text: 'How it splits: ' }), d.ax));
     if (d.note) sec.append($('p', { class: 'note', text: d.note }));
     if ((d.b || []).length) sec.append(best(d.b));
     d.s.forEach((s, j) => sec.append($('section', { class: 'shelf', id: slug('s', i, j) }, (d.s.length > 1 || s.n !== d.n) ? $('h4', { class: 'shelf-name' }, $('span', { class: 'cc', text: s.code }), s.n, $('span', { text: s.k.length + (s.k.length === 1 ? ' kind' : ' kinds') })) : null,
-      s.t ? $('p', { class: 'defn', text: s.t }) : null, s.ax ? $('p', { class: 'axis' }, $('b', { text: 'Kinds by ' }), s.ax.replace(/^kinds by /i, '')) : null, $('div', { class: 'items' }, s.k.map(k => item(k))))));
+      s.t ? $('p', { class: 'defn', text: s.t }) : null, s.ax ? $('p', { class: 'axis' }, $('b', { text: 'Order: ' }), s.ax.replace(/^kinds (are )?(ordered |sorted )?by /i, 'by ')) : null, $('div', { class: 'items' }, s.k.map(k => item(k))))));
     main.append(sec);
   });
   spy();
