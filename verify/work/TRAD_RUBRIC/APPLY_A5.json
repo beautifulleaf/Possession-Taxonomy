@@ -1,0 +1,91 @@
+{
+ "cat": "A5",
+ "items": [
+  {
+   "rubric_id": 0,
+   "tradition": "Swiss and French Jura watchmaking",
+   "decision": "technique_only",
+   "dept": "",
+   "shelf": "",
+   "kind": "",
+   "record": {},
+   "makers": [],
+   "ve_link": "Swiss and French Jura watchmaking",
+   "why": "Ambiguous resolved: names the craft of mechanical watchmaking in the Jura arc, not a ware; the watches themselves are already held by the function kinds and the Swiss houses in the brand register."
+  },
+  {
+   "rubric_id": 3,
+   "tradition": "Glashütte watchmaking",
+   "decision": "add_kind",
+   "dept": "Wristwatches",
+   "shelf": "Style & dress watches",
+   "kind": "",
+   "record": {
+    "n": "Glashütte watch",
+    "a": "Glashütte designation of origin",
+    "d": "Mechanical watch carrying the legally protected 'Glashütte' designation, which since 2022 requires at least 50% of the value chain, including movement making, casing and final inspection, in Glashütte.",
+    "s": "https://www.dw.com/en/germanys-glash%C3%BCtte-watches-now-ticking-on-safer-legal-ground/a-61094699"
+   },
+   "makers": [
+    {
+     "n": "A. Lange & Söhne",
+     "role": "maker",
+     "src": "https://www.dw.com/en/germanys-glash%C3%BCtte-watches-now-ticking-on-safer-legal-ground/a-61094699"
+    }
+   ],
+   "ve_link": "Glashütte watchmaking",
+   "why": "Protected designation of origin for a manufactured product, which the rubric keeps here with its producer list; no function kind covers an origin, so a kind (alternatively a Glashütte regional division in the brand register)."
+  },
+  {
+   "rubric_id": 7,
+   "tradition": "Vienna regulator clockmaking",
+   "decision": "skip",
+   "dept": "Collectible clocks",
+   "shelf": "Precision clocks",
+   "kind": "Wall regulator",
+   "record": {},
+   "makers": [],
+   "ve_link": "Vienna regulator clockmaking",
+   "why": "Already present: 'Vienna regulator' is an archetype under Wall regulator (and an alias of the kind) in rebuild/out/A5.json; the rubric's exists=false was wrong."
+  },
+  {
+   "rubric_id": 9,
+   "tradition": "Soviet watchmaking",
+   "decision": "add_kind",
+   "dept": "Wristwatches",
+   "shelf": "Style & dress watches",
+   "kind": "",
+   "record": {
+    "n": "Soviet wristwatch",
+    "a": "USSR watch · Russian mechanical watch",
+    "d": "Mechanical wristwatch from the Soviet state watch industry, which began with the First Moscow Watch Factory in 1930 and made brands such as Pobeda (from 1947), Sturmanskie and Poljot (from 1964).",
+    "s": "https://en.wikipedia.org/wiki/Poljot"
+   },
+   "makers": [
+    {
+     "n": "Poljot (First Moscow Watch Factory)",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Poljot"
+    },
+    {
+     "n": "Sturmanskie",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Poljot"
+    },
+    {
+     "n": "Pobeda",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Poljot"
+    },
+    {
+     "n": "Volmax",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Poljot"
+    }
+   ],
+   "ve_link": "Soviet watchmaking",
+   "why": "Collected and sold as a group by origin; no function kind covers it."
+  }
+ ],
+ "done": true
+}
