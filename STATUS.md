@@ -401,3 +401,4 @@ Next: write the v4 brief (named-entry standard + market layer + No & low), then 
 - 2026-10-31: B wave brand layers (B1–B10) all merged; artifact republished as v44.
 - 2026-10-31: C wave brand layers (C1–C5, C7, C8) and D2 merged; artifact republished as v45. Pending: D1 verify, D3/D4 audits, E1/E2 harvests; MOVES_C8 (G3, B8) and MOVES_D2 (D3, G1, D1, A5) to fold in at those categories' verifies.
 - FCDEFER: first batch fetched 2026-10-31 (B3, B7, B1, J6, J7); Firecrawl credit out again; resume trigger trig_01SpLE9wqQzyhL3TBNrufK6J at 2026-11-01 21:20 UTC.
+- 2026-10-31: brand layers merged for A–E (except E3 pending) plus F1, F2; artifact republished as v46. Deferred files: DEFER_E1 (game publishers → Interactive Entertainment), DEFER_F1 (publishers/labels → Literary/music).

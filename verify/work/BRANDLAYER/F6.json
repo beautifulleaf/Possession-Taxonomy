@@ -150,6 +150,89 @@
    ],
    "found": 2,
    "note": "Afghan lapis via Peshawar page; no Central Asian (Uzbek/Kazakh) maker found"
+  },
+  {
+   "axis": "kind",
+   "item": "Shells & coral",
+   "queries": [
+    "shell dealers directory conchology",
+    "Conchologists of America dealers",
+    "Torre del Greco coral",
+    "CITES precious coral"
+   ],
+   "found": 1,
+   "note": "shell dealers (Schooner Specimen Shells, Conchology Inc, Shell Horizons) seen only in search excerpts, not fetched, not recorded; coral: Antonino De Simone recorded"
+  },
+  {
+   "axis": "kind",
+   "item": "Element samples",
+   "queries": [
+    "Luciteria element collection"
+   ],
+   "found": 0,
+   "note": "Luciteria already in register"
+  },
+  {
+   "axis": "kind",
+   "item": "Display cases & domes",
+   "queries": [
+    "museum quality display case makers specimen domes"
+   ],
+   "found": 0,
+   "note": "Pin-It Entomological Supply (drawers/cases, after BioQuip closed 2022) seen only in excerpt; no fetch"
+  },
+  {
+   "axis": "kind",
+   "item": "Gemstones & pearls (opal)",
+   "queries": [
+    "Australian opal dealers Coober Pedy"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Australian opal fields renowned"
+   ],
+   "found": 1,
+   "note": "Coober Pedy/Lightning Ridge fame seen in excerpts; region not recorded because a fetched page stating it was not obtained"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Torre del Greco coral"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Japan mineral specimens renowned",
+    "Tokyo mineral fair"
+   ],
+   "found": 0,
+   "note": "only a dealer's event calendar seen; nothing fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Vietnam Myanmar Mogok Sri Lanka gems"
+   ],
+   "found": 0,
+   "note": "search truncated; not done"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East / Northern Europe",
+   "queries": [],
+   "found": 0,
+   "note": "not searched"
   }
  ],
  "regions": [
@@ -239,6 +322,14 @@
    "brands": [
     "Mineral Capture",
     "Fine Arts Minerals"
+   ]
+  },
+  {
+   "region": "Italy (Torre del Greco, Campania)",
+   "speciality": "precious red coral working and cameos since the 17th century; locals called 'corallini'; coral school (Istituto Francesco Degni); Assocoral trade association. CITES: Mediterranean Corallium rubrum not listed; several Pacific precious corals Appendix III",
+   "src": "https://www.fao.org/newsroom/story/The-future-of-precious-red-coral-in-the-Mediterranean/en",
+   "brands": [
+    "Antonino De Simone"
    ]
   }
  ],
@@ -382,6 +473,36 @@
    "new_names": 2,
    "status": "done",
    "note": "seller role; lapis Kokcha mine 4 and nephrite Mohmand named as quality sources (0 already in register)"
+  },
+  {
+   "url": "https://museodelcorallotorredelgreco.com/",
+   "title": "Coral Museum of Torre del Greco (Antonino De Simone company)",
+   "kind": "heritage",
+   "years": "1830-",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": " (1 already in register)"
+  },
+  {
+   "url": "https://www.cooberpedy.com/opal-wholesalers/",
+   "title": "Coober Pedy Opal Wholesalers (tourism association)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "seller role (0 already in register)"
+  },
+  {
+   "url": "https://www.fao.org/newsroom/story/The-future-of-precious-red-coral-in-the-Mediterranean/en",
+   "title": "FAO: The future of precious red coral in the Mediterranean",
+   "kind": "encyclopedia",
+   "years": "2021",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "region evidence; Assocoral association named (not a brand)"
   }
  ],
  "brands": [
@@ -995,7 +1116,8 @@
    "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
    "country": "UK",
    "dept": "fossils",
-   "already": false
+   "already": false,
+   "homonym_check": "register has Moussa Style (A1 streetwear) and Moussaieff (A3 gems); different companies, no cross-tag"
   },
   {
    "n": "Nature & Art",
@@ -1247,7 +1369,8 @@
    "says": "business member of the Association of Applied Paleontological Sciences, bound by its Code of Ethics",
    "country": "US",
    "dept": "fossils",
-   "already": false
+   "already": true,
+   "cross_tag": "Black Hills Institute of Geological Research"
   },
   {
    "n": "Deyrolle",
@@ -1256,7 +1379,8 @@
    "says": "historic Paris natural history house founded 1831, reference in taxidermy and entomology; CITES-compliant sourcing stated",
    "country": "France",
    "dept": "taxidermy, entomology, minerals",
-   "already": false
+   "already": false,
+   "cites": "check CITES for taxa traded (taxidermy/shell/coral material)"
   },
   {
    "n": "Meteorite Exchange",
@@ -1510,7 +1634,8 @@
    "country": "UK",
    "dept": "taxidermy mounts, hire, restoration, display cases",
    "already": false,
-   "role": "seller"
+   "role": "seller",
+   "cites": "check CITES for taxa traded (taxidermy/shell/coral material)"
   },
   {
    "n": "Gargoti Museum",
@@ -1551,7 +1676,17 @@
    "dept": "mineral specimens (Peshawar)",
    "already": false,
    "role": "seller"
+  },
+  {
+   "n": "Dale Price Opals",
+   "layer": "cultural",
+   "src": "https://www.cooberpedy.com/opal-wholesalers/",
+   "says": "listed by the Coober Pedy retail/tourism association as opal miner and wholesaler (existence only)",
+   "country": "Australia",
+   "dept": "rough opal, specimens, cut stones (miner and wholesaler)",
+   "already": false,
+   "role": "seller"
   }
  ],
- "notes_next": "TODO: shells/coral dealers, entomology dealers (Bugs and bits), display-case makers, element samples (Luciteria known), gem specimen dealers, Japan/India/Russia/Central Asia/SE Asia/Oceania regions, Messel/Solnhofen/Dalnegorsk/Tsumeb pages, Sainte-Marie-aux-Mines, Mineralogical Record label archive page. CITES flags: ivory, coral, some shells, taxidermy of listed taxa (Deyrolle page notes CITES compliance)."
+ "notes_next": "NEXT (final harvest round did not finish): (1) fetch pages for Russia/Dalnegorsk renown, Japan (Tokyo International Mineral Fair/Kyoto show organiser pages), Southeast Asia (Mogok/Sri Lanka gem renown), Australia opal renown (Australian Museum 'Minerals from Australia' page located in search, not fetched); (2) shell dealers: fetch Conchology Inc (conchology.be), Schooner Specimen Shells, Shell Horizons and record as sellers with CITES flag; (3) entomology: BugsDirect about-us, BicBugs, Pin-It Entomological Supply, Deyrolle done; (4) taxidermy: Guild of Taxidermists accredited-member directory not reachable (members area); Border Taxidermy Studios, Lost and Profound, Second Life Taxidermy seen in excerpts only; German Präparatoren associations not searched successfully; (5) Sainte-Marie-aux-Mines exhibitor list URL 404, find a live exhibitor page via the show site; Munich Show exhibitor list is JS; (6) Messel/Solnhofen/Tsumeb done as regions (no makers); Jebal Gems, Crystal Cave India seen in excerpts only (Deccan zeolite sellers) - fetch to record; (7) Northern Europe, Middle East regions not searched."
 }
