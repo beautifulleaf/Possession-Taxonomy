@@ -10,7 +10,7 @@
     "Hereke carpet makers; Persian rug workshops Tabriz; Jaipur Rugs; Tibetan carpets"
    ],
    "found": 9,
-   "note": "Persian/Afghan/Caucasian/Central Asian: retailer pages only, no maker brand evidenced"
+   "note": "Persian/Afghan/Caucasian/Central Asian: retailer pages only, no maker brand evidenced; sellers recorded per 2026-10-31 rule"
   },
   {
    "axis": "kind",
@@ -358,7 +358,10 @@
    "speciality": "Peshtemal/hamam towels and cotton terry (Buldan weaving)",
    "src": "https://www.dailysabah.com/life/2016/12/01/turkish-pestemal-bath-towels-go-chic-reach-larger-export-market",
    "brands": [
-    "Veritas"
+    "Veritas",
+    "Nomads Loom",
+    "Nakkas Rug",
+    "Nejad Rugs"
    ]
   },
   {
@@ -409,8 +412,11 @@
    "speciality": "Carpet weaving on UNESCO Intangible Heritage lists (Fars, Kashan 2010; Azerbaijan 2010)",
    "src": "https://en.wikipedia.org/wiki/Carpet",
    "brands": [
-    "Dilmaghani"
-   ]
+    "Catalina Rug",
+    "UNIQ Rugs",
+    "Rugway"
+   ],
+   "note": "sellers only (role seller), no maker brand evidenced"
   },
   {
    "region": "Scotland",
@@ -425,21 +431,30 @@
    "speciality": "Palace-lineage silk and wool hand-knotted carpets, double Turkish knot",
    "src": "https://www.turkiyetoday.com/culture/ottoman-era-hereke-silk-and-carpet-factory-in-turkiye-still-thriving-after-nearly-two-3202767",
    "brands": [
-    "Hereke Silk Weaving and Carpet Factory"
+    "Hereke Silk Weaving and Carpet Factory",
+    "Nomads Loom",
+    "Nakkas Rug",
+    "Nejad Rugs"
    ]
   },
   {
    "region": "Iran (Tabriz, Kashan, Isfahan)",
    "speciality": "Persian city-workshop carpets (retailer page names master lines Haji Jalili, Shahsavarpour)",
    "src": "https://www.uniqrugs.com/oriental-rugs/tabriz-rugs-c-25",
-   "brands": []
+   "brands": [
+    "Catalina Rug",
+    "UNIQ Rugs",
+    "Rugway"
+   ],
+   "note": "sellers only (role seller), no maker brand evidenced"
   },
   {
    "region": "Morocco",
    "speciality": "Beni Ourain and R'bati hand-knotted wool rugs",
    "src": "https://www.benirugs.com/homepage",
    "brands": [
-    "Beni Rugs"
+    "Beni Rugs",
+    "Benihaus"
    ]
   },
   {
@@ -1478,6 +1493,76 @@
    "says": "Own site: hand-knotted in Kathmandu from hand-spun Tibetan wool, award-winner collections (weak)",
    "country": "Nepal",
    "dept": "rugs",
+   "already": false
+  },
+  {
+   "n": "Nomads Loom",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.nlrugs.com/about-us/",
+   "says": "Dallas family dealer in antique Anatolian, Persian, Moroccan and kilim rugs; Hereke silk heritage (own About page) (page text seen via search result)",
+   "country": "US (Turkish-Armenian lineage)",
+   "dept": "Anatolian/Hereke/Persian rugs, kilims",
+   "already": false
+  },
+  {
+   "n": "Catalina Rug",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.catalinarug.com/product-category/persian-rugs/",
+   "says": "Specialist dealer in hand-knotted Persian rugs (Tabriz, Kashan, Heriz, Isfahan), certified authentic, since 1998 (page text seen via search result)",
+   "country": "US",
+   "dept": "Persian rugs",
+   "already": false
+  },
+  {
+   "n": "Nakkas Rug",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://nakkasrug.com/",
+   "says": "Specialist seller of Turkish Hereke, Oushak rugs and Turkish kilims (page text seen via search result)",
+   "country": "Turkey",
+   "dept": "Turkish rugs & kilims",
+   "already": false
+  },
+  {
+   "n": "Nejad Rugs",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.nejad.com/2015/ANTIQUE/hereke-rugs.html",
+   "says": "Designer, manufacturer and importer of Oriental carpets, member of the Oriental Rug Importers Association; sells antique Hereke (page text seen via search result)",
+   "country": "US",
+   "dept": "Hereke/Oriental rugs",
+   "already": false
+  },
+  {
+   "n": "UNIQ Rugs",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.uniqrugs.com/oriental-rugs/tabriz-rugs-c-25",
+   "says": "Specialist dealer in hand-knotted Persian Tabriz, Qom, Isfahan, Nain rugs and kilims, since 1998 (page text seen via search result)",
+   "country": "Germany",
+   "dept": "Persian rugs & kilims",
+   "already": false
+  },
+  {
+   "n": "Rugway",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.rugway.com/oriental-rugs/persian-rugs/tabriz-rugs",
+   "says": "Specialist oriental rug dealer: Persian, Turkmen, Baluch, Kazak, Anatolian kilims; Care & Fair member (page text seen via search result)",
+   "country": "Germany",
+   "dept": "Persian/Turkmen/Caucasian rugs",
+   "already": false
+  },
+  {
+   "n": "Benihaus",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://benihaus.co.uk/",
+   "says": "Specialist seller of hand-knotted Beni Ourain, Azilal and Boucherouite Moroccan rugs (page text seen via search result)",
+   "country": "UK/Morocco",
+   "dept": "Moroccan rugs",
    "already": false
   }
  ]

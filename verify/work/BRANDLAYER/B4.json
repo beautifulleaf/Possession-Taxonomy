@@ -428,6 +428,26 @@
    ],
    "found": 0,
    "note": "Studio Badge (Ghana), The Kenyan Crafts Company, Akwaaba, Saah Craft, 54kibo named only in marketplace/search summaries; not fetched, not logged as brands"
+  },
+  {
+   "axis": "kind",
+   "item": "Mirrors",
+   "queries": [
+    "best handmade picture frame makers craftsmanship",
+    "renowned gilded mirror makers",
+    "best wall mirror brands"
+   ],
+   "found": 0,
+   "note": "Search surfaced bespoke workshops/retailers (Reid & Wright, Campbell's of London, Graham Harrison, Carolina Mirror Co. founded 1923, Silver Inc) from their own sites only; no independent test/award/list page. Mirrors and frames: mostly workshop-led, generic; not logged as brands."
+  },
+  {
+   "axis": "kind",
+   "item": "Frames & wall pieces",
+   "queries": [
+    "best handmade picture frame makers craftsmanship"
+   ],
+   "found": 0,
+   "note": "as Mirrors: self-descriptions only"
   }
  ],
  "regions": [
@@ -716,6 +736,18 @@
    "brands": [
     "Rustam Usmanov workshop",
     "Alisher Nazirov workshop"
+   ]
+  },
+  {
+   "region": "France",
+   "speciality": "Heritage candle-making (EPV label) and artistic glass; Diptyque-style luxury candles",
+   "src": "https://www.marques-de-france.fr/la-liste-complete-des-entreprises-epv/",
+   "brands": [
+    "Bougies La Française",
+    "Société Bourguignonne des Cires et Dérivés 1827",
+    "Ciergerie de Lourdes",
+    "Atelier Bernard Pictet",
+    "Diptyque"
    ]
   }
  ],
@@ -1214,6 +1246,28 @@
    "known_confirmed": 0,
    "status": "done",
    "note": "guide lists both workshops; Nazirov page not separately fetched"
+  },
+  {
+   "url": "https://www.marques-de-france.fr/la-liste-complete-des-entreprises-epv/",
+   "title": "Marques de France: complete EPV (Entreprise du Patrimoine Vivant) list",
+   "kind": "heritage",
+   "years": "2021-2026",
+   "names_on_page": 6,
+   "new_names": 5,
+   "known_confirmed": 1,
+   "status": "partial",
+   "note": "excerpt-mode fetch of a very long table; only decor/candle/glass rows seen; Ciergerie des Prémontrés and Cristallerie de Montbronn EPV per search summary only. Re-fetch full_content if more needed."
+  },
+  {
+   "url": "https://www.royalwarrant.org/company/prices-patent-candles-ltd",
+   "title": "Royal Warrant Holders Association: Price's Patent Candles",
+   "kind": "heritage",
+   "years": "1850-present",
+   "names_on_page": 1,
+   "new_names": 0,
+   "known_confirmed": 0,
+   "status": "partial",
+   "note": "single company page; full RWHA directory by trade category (Candlemakers, Homes & Household Goods) not enumerated"
   }
  ],
  "brands": [
@@ -2704,6 +2758,46 @@
    "says": "Named master workshops of Rishtan blue ishkor-glaze ceramics (Fergana Valley)",
    "country": "Uzbekistan",
    "dept": "decorative ceramics"
+  },
+  {
+   "n": "Bougies La Française",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/la-liste-complete-des-entreprises-epv/",
+   "says": "EPV state label, sector Ameublement et décoration (candles/cierges since 1902/1827/1928; cold-worked decorative glass; limestone decor objects)",
+   "country": "France",
+   "dept": "candles / decorative glass / decor objects"
+  },
+  {
+   "n": "Société Bourguignonne des Cires et Dérivés 1827",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/la-liste-complete-des-entreprises-epv/",
+   "says": "EPV state label, sector Ameublement et décoration (candles/cierges since 1902/1827/1928; cold-worked decorative glass; limestone decor objects)",
+   "country": "France",
+   "dept": "candles / decorative glass / decor objects"
+  },
+  {
+   "n": "Ciergerie de Lourdes",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/la-liste-complete-des-entreprises-epv/",
+   "says": "EPV state label, sector Ameublement et décoration (candles/cierges since 1902/1827/1928; cold-worked decorative glass; limestone decor objects)",
+   "country": "France",
+   "dept": "candles / decorative glass / decor objects"
+  },
+  {
+   "n": "Atelier Bernard Pictet",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/la-liste-complete-des-entreprises-epv/",
+   "says": "EPV state label, sector Ameublement et décoration (candles/cierges since 1902/1827/1928; cold-worked decorative glass; limestone decor objects)",
+   "country": "France",
+   "dept": "candles / decorative glass / decor objects"
+  },
+  {
+   "n": "Fontaines Pétrifiantes de Saint-Nectaire",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/la-liste-complete-des-entreprises-epv/",
+   "says": "EPV state label, sector Ameublement et décoration (candles/cierges since 1902/1827/1928; cold-worked decorative glass; limestone decor objects)",
+   "country": "France",
+   "dept": "candles / decorative glass / decor objects"
   }
  ]
 }
