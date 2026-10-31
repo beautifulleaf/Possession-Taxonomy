@@ -21,6 +21,42 @@
    ],
    "found": 8,
    "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "best fan brands Philippines Malaysia Thailand"
+   ],
+   "found": 6,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "best fan brands South Africa heaters Defy Mellerware Goldair"
+   ],
+   "found": 1,
+   "note": "only Defy has a fetched page; Goldair/Mellerware only seen in retailer search listings, not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "أفضل ماركات مراوح ومدافئ ومكيفات متنقلة في الخليج"
+   ],
+   "found": 1,
+   "note": "mostly retail; one weak self-description"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Japan air purifier humidifier brands"
+   ],
+   "found": 2,
+   "note": ""
   }
  ],
  "regions": [
@@ -55,6 +91,54 @@
     "V-Guard",
     "Orpat",
     "Khaitan"
+   ]
+  },
+  {
+   "region": "East Asia (Japan)",
+   "speciality": "electric fans, air purifiers (KDK world's largest fan maker; Sharp Plasmacluster, Daikin Streamer, Panasonic Red Dot Best of Best purifier)",
+   "src": "https://en.wikipedia.org/wiki/KDK",
+   "brands": [
+    "KDK",
+    "Panasonic",
+    "Sharp",
+    "Daikin",
+    "Balmuda",
+    "Iris Ohyama",
+    "Zojirushi",
+    "Cado"
+   ]
+  },
+  {
+   "region": "Southeast Asia",
+   "speciality": "electric fans: Malaysia (Khind, Pensonic), Thailand (Hatari), Philippines (Asahi, Hanabishi, Imarflex, Union)",
+   "src": "https://mall.homecredit.ph/blog/best-electric-fan-brands-philippines",
+   "brands": [
+    "Khind",
+    "Pensonic",
+    "Hatari",
+    "Asahi (fans)",
+    "Hanabishi",
+    "Imarflex",
+    "Union (fans)",
+    "KDK"
+   ]
+  },
+  {
+   "region": "Sub-Saharan Africa (South Africa)",
+   "speciality": "heaters and fans: Defy, Goldair, Mellerware",
+   "src": "https://enterprise-africa.net/award-winning-appliance-quality/",
+   "brands": [
+    "Defy",
+    "Goldair",
+    "Mellerware"
+   ]
+  },
+  {
+   "region": "Middle East (Saudi Arabia)",
+   "speciality": "air conditioners incl. portable",
+   "src": "https://www.fregoproducts.com/ksa/about/",
+   "brands": [
+    "FREGO"
    ]
   }
  ],
@@ -108,6 +192,46 @@
    "new_names": 0,
    "status": "done",
    "note": "Bosch, Philips, Dyson, Xiaomi known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/KDK",
+   "title": "Wikipedia KDK",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://productnation.co/ph/1624/best-electric-fans-philippines/",
+   "title": "ProductNation PH best electric fans 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 10,
+   "new_names": 4,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://mall.homecredit.ph/blog/best-electric-fan-brands-philippines",
+   "title": "Home Credit PH best electric fan brands",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 5,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://enterprise-africa.net/award-winning-appliance-quality/",
+   "title": "Defy award winning appliance quality",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -262,6 +386,78 @@
    "says": "BioGS 2.0 air purifier won Red Dot and Good Design Awards (designer Guto Indio da Costa)",
    "country": "USA",
    "dept": "Purifiers & filters"
+  },
+  {
+   "n": "KDK",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/KDK",
+   "says": "Wikipedia: 'the world's largest manufacturer of electronical fans' (Japan; also makes National/Panasonic fans)",
+   "country": "Japan",
+   "dept": "Fans"
+  },
+  {
+   "n": "Khind",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Khind_Holdings",
+   "says": "Listed as Khind-Mistral in Wikipedia Home appliance brands template/category (Malaysia, founded 1961)",
+   "country": "Malaysia",
+   "dept": "Fans"
+  },
+  {
+   "n": "Pensonic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
+   "says": "Wikipedia Category:Home appliance brands (Malaysia)",
+   "country": "Malaysia",
+   "dept": "Fans"
+  },
+  {
+   "n": "Asahi (fans)",
+   "layer": "premium",
+   "src": "https://mall.homecredit.ph/blog/best-electric-fan-brands-philippines",
+   "says": "Home Credit PH: 'known for its durable and high-quality electric fans', heavy-duty motors (Philippines)",
+   "country": "Philippines",
+   "dept": "Fans"
+  },
+  {
+   "n": "Hanabishi",
+   "layer": "cultural",
+   "src": "https://productnation.co/ph/1624/best-electric-fans-philippines/",
+   "says": "ProductNation PH top 10 electric fans 2026: Hanabishi stand fan best overall",
+   "country": "Philippines",
+   "dept": "Fans"
+  },
+  {
+   "n": "Imarflex",
+   "layer": "cultural",
+   "src": "https://productnation.co/ph/1624/best-electric-fans-philippines/",
+   "says": "ProductNation PH top 10 electric fans 2026 (IFC-812SL air circulator)",
+   "country": "Philippines",
+   "dept": "Fans"
+  },
+  {
+   "n": "Union (fans)",
+   "layer": "cultural",
+   "src": "https://productnation.co/ph/1624/best-electric-fans-philippines/",
+   "says": "ProductNation PH top 10 electric fans 2026 (UGM-18OF)",
+   "country": "Philippines",
+   "dept": "Fans"
+  },
+  {
+   "n": "Defy",
+   "layer": "cultural",
+   "src": "https://enterprise-africa.net/award-winning-appliance-quality/",
+   "says": "Defy Appliances: 110+ years, one of South Africa's most popular brands (also sells convector heaters)",
+   "country": "South Africa",
+   "dept": "Warm-air heaters"
+  },
+  {
+   "n": "FREGO",
+   "layer": "cultural",
+   "src": "https://www.fregoproducts.com/ksa/about/",
+   "says": "FAWAZ Group Saudi brand of air-conditioners incl. portable/free-standing (self-description; weak)",
+   "country": "Saudi Arabia",
+   "dept": "Air conditioners"
   }
  ]
 }
