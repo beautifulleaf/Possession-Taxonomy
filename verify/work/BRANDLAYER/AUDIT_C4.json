@@ -181,8 +181,110 @@
    }
   ]
  },
- "add_brands": [],
- "add_regions": [],
+ "add_brands": [
+  {
+   "n": "Robert Doak & Associates",
+   "layer": "premium",
+   "src": "https://www.handprint.com/HP/WCL/pigmt2.html",
+   "says": "Handprint (Bruce MacEvoy, independent watercolour brand reviews with 2004 lightfastness retests) reviews Robert Doak's line of 27 genuine liquid watercolours made in Brooklyn",
+   "country": "United States",
+   "dept": "watercolour paint",
+   "region": "North America"
+  },
+  {
+   "n": "Roman Szmal",
+   "layer": "premium",
+   "src": "http://www.ellenwilberg.net/blog/romanszmalreview",
+   "says": "Independent artist review: Polish watercolour maker, 140 colours (117 single-pigment), honey-based; 'great paints', became one of reviewer's favourite brands",
+   "country": "Poland",
+   "dept": "watercolour paint",
+   "region": "Central & Eastern Europe"
+  },
+  {
+   "n": "J. & F.J. Baker (Baker's Tannery)",
+   "layer": "cultural",
+   "src": "http://www.jfjbaker.co.uk/",
+   "says": "Britain's only remaining traditional oak-bark tannery, Colyton, Devon, family-run since 1862 on a site tanning since Roman times; leather favoured by shoemakers and craftsmen (maker's own page)",
+   "country": "United Kingdom",
+   "dept": "vegetable-tanned leather",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Hermann Oak Leather",
+   "layer": "listed",
+   "src": "https://www.weaverleathersupply.com/pages/vegetable-tanned-leather-a-look-at-its-history-and-why-makers-still-love-it-today",
+   "says": "Weaver Leather Supply (seller) names Hermann Oak among 'industry leading tanneries' for veg-tan tooling leather; own site: St. Louis tannery since 1881, five generations (no independent quality page found)",
+   "country": "United States",
+   "dept": "vegetable-tanned leather",
+   "region": "North America"
+  },
+  {
+   "n": "Weaver Leather Supply",
+   "layer": "listed",
+   "src": "https://www.weaverleathersupply.com/pages/vegetable-tanned-leather-a-look-at-its-history-and-why-makers-still-love-it-today",
+   "says": "Ohio leathercraft supplier (own page) stocking Hermann Oak and Chahinleather hides, Master Tool machines, Fiebing's dye; existence only",
+   "country": "United States",
+   "dept": "leathercraft supplies",
+   "region": "North America"
+  },
+  {
+   "n": "Barry King Tools",
+   "layer": "cultural",
+   "src": "https://www.sheridanwyoming.org/the-culture-of-craft-how-leather-carving-became-a-part-of-sheridan-wyomings-identity",
+   "says": "Sheridan County tourism: Sheridan-style leather carving tradition upheld by Barry and Ryan King (Don King's grandsons); Barry King's work shown with Japanese masters. barrykingtools.com: stainless stamping tools for Sheridan-style carving, Sheridan WY",
+   "country": "United States",
+   "dept": "leather stamping tools",
+   "region": "North America"
+  },
+  {
+   "n": "Craftool Co.",
+   "layer": "cultural",
+   "src": "https://www.sheridanwyoming.org/the-culture-of-craft-how-leather-carving-became-a-part-of-sheridan-wyomings-identity",
+   "says": "Al Stohlman's books 'Figure Carving' and 'How to Carve Leather' for Craftool Co. were instrumental in introducing leathercraft worldwide (Craftool is now a Tandy tool line)",
+   "country": "United States",
+   "dept": "leather tools",
+   "region": "North America"
+  },
+  {
+   "n": "Taller Santos Rojas",
+   "layer": "cultural",
+   "src": "https://international.ua.edu/spotlight/jillian-sico-book-arts/",
+   "says": "University of Alabama: amate bark-paper workshop of the Santos Rojas family in San Pablito, Puebla, among Mexican workshops revitalising paper traditions",
+   "country": "Mexico",
+   "dept": "amate bark paper",
+   "region": "Latin America & Caribbean"
+  },
+  {
+   "n": "Fausto Santos (San Pablito amate)",
+   "layer": "cultural",
+   "src": "https://spanish.news.cn/20230127/3c94f34b08ab406fa53e01578e9f8064/c.html",
+   "says": "Xinhua: Otomí amate maker Fausto Santos of San Pablito, Pahuatlán, sells amate sheets and works in his family gallery",
+   "country": "Mexico",
+   "dept": "amate bark paper",
+   "region": "Latin America & Caribbean",
+   "role": "seller"
+  }
+ ],
+ "add_regions": [
+  {
+   "region": "San Pablito, Pahuatlán (Puebla, Mexico)",
+   "speciality": "Otomí amate bark paper, made continuously since pre-Hispanic times",
+   "src": "https://international.ua.edu/spotlight/jillian-sico-book-arts/",
+   "brands": [
+    "Taller Santos Rojas",
+    "Fausto Santos (San Pablito amate)"
+   ]
+  },
+  {
+   "region": "Sheridan, Wyoming (USA)",
+   "speciality": "Sheridan-style floral leather carving and its tool makers",
+   "src": "https://www.sheridanwyoming.org/the-culture-of-craft-how-leather-carving-became-a-part-of-sheridan-wyomings-identity",
+   "brands": [
+    "Barry King Tools",
+    "Craftool Co."
+   ]
+  }
+ ],
  "drop": [
   {
    "n": "Kagzi India",

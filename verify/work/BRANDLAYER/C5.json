@@ -106,6 +106,16 @@
    ],
    "found": 14,
    "note": "Royal Warrant PDF excerpt only; Marchi Storici not located"
+  },
+  {
+   "axis": "kind",
+   "item": "Brush calligraphy tools (ink stick, inkstone, brush, xuan paper)",
+   "queries": [
+    "Hu Kaiwen Cao Sugong ink",
+    "Huzhou Hu brush Duan She inkstone Xuan paper makers"
+   ],
+   "found": 9,
+   "note": "ink sticks covered; named brush, Duan/She inkstone and Xuan paper workshops not found on fetched pages (only places); next: Hongxing/Red Star xuan paper, Zhonghua time-honoured list"
   }
  ],
  "regions": [
@@ -319,6 +329,17 @@
    "brands": [
     "Fabriano",
     "Legami"
+   ]
+  },
+  {
+   "region": "China (Anhui/Zhejiang/Guangdong)",
+   "speciality": "Four Treasures of the Study: Hui ink sticks (Huizhou), Hu brushes (Huzhou), Xuan paper (Jing County), Duan and She inkstones",
+   "src": "http://www.chinadaily.com.cn/m/anhui/travel/2010-06/02/content_9948922.htm",
+   "brands": [
+    "Hu Kaiwen",
+    "Cao Sugong",
+    "Old Hu Kai Wen",
+    "Jiang Si Xu Tang"
    ]
   }
  ],
@@ -629,6 +650,28 @@
    "status": "done",
    "note": "",
    "new_names": 2,
+   "known_confirmed": 0
+  },
+  {
+   "url": "http://www.chinadaily.com.cn/m/anhui/travel/2010-06/02/content_9948922.htm",
+   "title": "Four treasures of Study tour (China Daily)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 3,
+   "status": "done",
+   "note": "",
+   "new_names": 4,
+   "known_confirmed": 1
+  },
+  {
+   "url": "https://www.inkston.com/stories/guides/chinese-inks",
+   "title": "Chinese ink (Inkston)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 4,
+   "status": "done",
+   "note": "specialist seller guide",
+   "new_names": 4,
    "known_confirmed": 0
   }
  ],
@@ -1920,6 +1963,70 @@
    "says": "Itoya fountain pen line launched 1914, revived 2009",
    "country": "Japan",
    "dept": "pens"
+  },
+  {
+   "n": "Cao Sugong",
+   "layer": "cultural",
+   "src": "http://www.chinadaily.com.cn/m/anhui/travel/2010-06/02/content_9948922.htm",
+   "says": "one of four Qing masters of Huizhou ink-stick making; Cao Sugong Ink Stick Plant in Huangshan",
+   "country": "China",
+   "dept": "ink stick"
+  },
+  {
+   "n": "Tunxi Ink Stick Plant",
+   "layer": "cultural",
+   "src": "http://www.chinadaily.com.cn/m/anhui/travel/2010-06/02/content_9948922.htm",
+   "says": "Huizhou ink stick plant in Huangshan",
+   "country": "China",
+   "dept": "ink stick"
+  },
+  {
+   "n": "Wang Jinsheng",
+   "layer": "cultural",
+   "src": "http://www.chinadaily.com.cn/m/anhui/travel/2010-06/02/content_9948922.htm",
+   "says": "one of Four Masters of ink-stick making (Qing)",
+   "country": "China",
+   "dept": "ink stick"
+  },
+  {
+   "n": "Wang Jiean",
+   "layer": "cultural",
+   "src": "http://www.chinadaily.com.cn/m/anhui/travel/2010-06/02/content_9948922.htm",
+   "says": "one of Four Masters of ink-stick making (Qing)",
+   "country": "China",
+   "dept": "ink stick"
+  },
+  {
+   "n": "Old Hu Kai Wen",
+   "layer": "premium",
+   "src": "https://www.inkston.com/stories/guides/chinese-inks",
+   "says": "most celebrated Hui ink workshop, 18th c., supplied Qing court, China Time-Honoured Brand accreditation",
+   "country": "China",
+   "dept": "ink stick"
+  },
+  {
+   "n": "Li Ting Gui inksticks",
+   "layer": "cultural",
+   "src": "https://www.inkston.com/stories/guides/chinese-inks",
+   "says": "ancient ink recipe still made by Old Hu Kai Wen",
+   "country": "China",
+   "dept": "ink stick"
+  },
+  {
+   "n": "Jiang Si Xu Tang",
+   "layer": "premium",
+   "src": "https://www.inkston.com/stories/guides/chinese-inks",
+   "says": "described as most prestigious natural colour workshop in China",
+   "country": "China",
+   "dept": "pigments"
+  },
+  {
+   "n": "Inkston",
+   "layer": "cultural",
+   "src": "https://www.inkston.com/stories/guides/chinese-inks",
+   "says": "specialist seller of Chinese brush/ink/inkstone",
+   "country": "China",
+   "dept": "seller"
   }
  ]
 }

@@ -84,6 +84,26 @@
    "new_names": 161,
    "status": "done",
    "note": "only rows with 'seit' (still active) taken; 490 defunct rows not taken (see notes)"
+  },
+  {
+   "url": "https://www.tractoroftheyear.org/winners",
+   "title": "Tractor of the Year winners (all years)",
+   "kind": "award",
+   "years": "c.2000-2026",
+   "names_on_page": 25,
+   "new_names": 0,
+   "status": "done",
+   "note": "brands upgraded cultural->premium where already listed"
+  },
+  {
+   "url": "https://www.farmmachine.eu/en/winners-2026",
+   "title": "Farm Machine 2026 winners",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 14,
+   "new_names": 0,
+   "status": "partial",
+   "note": "earlier years (Machine of the Year since 1997) not fetched"
   }
  ],
  "brands": [
@@ -105,9 +125,9 @@
   },
   {
    "n": "Antonio Carraro",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
-   "says": "listed on Wikipedia 'List of tractor manufacturers' (current tractor makers by country)",
+   "layer": "premium",
+   "src": "https://www.tractoroftheyear.org/winners",
+   "says": "Tractor of the Year (jury of European farm-machinery journalists) category winner in one or more years since the 2000s",
    "country": "Italy",
    "dept": "tractors"
   },
@@ -249,9 +269,9 @@
   },
   {
    "n": "JCB",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
-   "says": "listed on Wikipedia 'List of tractor manufacturers' (current tractor makers by country)",
+   "layer": "premium",
+   "src": "https://www.tractoroftheyear.org/winners",
+   "says": "Tractor of the Year (jury of European farm-machinery journalists) category winner in one or more years since the 2000s",
    "country": "England",
    "dept": "tractors"
   },
@@ -353,17 +373,17 @@
   },
   {
    "n": "Steyr",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
-   "says": "listed on Wikipedia 'List of tractor manufacturers' (current tractor makers by country)",
+   "layer": "premium",
+   "src": "https://www.tractoroftheyear.org/winners",
+   "says": "Tractor of the Year (jury of European farm-machinery journalists) category winner in one or more years since the 2000s",
    "country": "Austria",
    "dept": "tractors"
   },
   {
    "n": "Valtra",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
-   "says": "listed on Wikipedia 'List of tractor manufacturers' (current tractor makers by country)",
+   "layer": "premium",
+   "src": "https://www.tractoroftheyear.org/winners",
+   "says": "Tractor of the Year (jury of European farm-machinery journalists) category winner in one or more years since the 2000s",
    "country": "Finland",
    "dept": "tractors"
   },
@@ -561,9 +581,9 @@
   },
   {
    "n": "Deutz-Fahr",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
-   "says": "listed on Wikipedia 'List of tractor manufacturers' (current tractor makers by country)",
+   "layer": "premium",
+   "src": "https://www.tractoroftheyear.org/winners",
+   "says": "Tractor of the Year (jury of European farm-machinery journalists) category winner in one or more years since the 2000s",
    "country": "Germany",
    "dept": "tractors"
   },
@@ -2742,6 +2762,22 @@
    "says": "listed on German Wikipedia 'Liste von Landmaschinenherstellern' (active makers 'seit')",
    "country": "Germany",
    "dept": "farm machinery"
+  },
+  {
+   "n": "Aebi",
+   "layer": "premium",
+   "src": "https://www.tractoroftheyear.org/winners",
+   "says": "Tractor of the Year (jury of European farm-machinery journalists) category winner in one or more years since the 2000s",
+   "country": "Switzerland",
+   "dept": "tractors"
+  },
+  {
+   "n": "Treffler",
+   "layer": "premium",
+   "src": "https://www.farmmachine.eu/en/winners-2026",
+   "says": "FARM MACHINE 2026 category winner (jury of European farm-machinery magazines)",
+   "country": "Germany",
+   "dept": "tractors/implements"
   }
  ]
 }
