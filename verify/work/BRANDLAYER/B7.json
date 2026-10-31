@@ -57,6 +57,30 @@
    ],
    "found": 2,
    "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Vortice storia",
+    "Marchi storici ventilatori",
+    "Orbegozo Taurus Cecotec",
+    "OCU deshumidificadores",
+    "Altroconsumo deumidificatori"
+   ],
+   "found": 5,
+   "note": "Ariete/Imetec/Bimar/Argo/Taurus/Cecotec unconfirmed: no fetched page"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Que Choisir test purificateurs",
+    "Consumentenbond luchtontvochtigers",
+    "Rommelsbacher Heizlüfter Testsieger"
+   ],
+   "found": 1,
+   "note": "Que Choisir/Consumentenbond mostly paywalled or no brand lists; Rommelsbacher unconfirmed"
   }
  ],
  "regions": [
@@ -139,6 +163,31 @@
    "src": "https://www.fregoproducts.com/ksa/about/",
    "brands": [
     "FREGO"
+   ]
+  },
+  {
+   "region": "Southern Europe (Italy)",
+   "speciality": "fans, fan heaters and dehumidifiers; design-led (Vortice Ariante, Compasso d'Oro 1979, MoMA)",
+   "src": "https://www.ingenio-web.it/articoli/le-macchine-del-vento/",
+   "brands": [
+    "Vortice",
+    "De'Longhi",
+    "Olimpia Splendid",
+    "Ariete",
+    "Imetec",
+    "Bimar",
+    "Argo"
+   ]
+  },
+  {
+   "region": "Southern Europe (Spain)",
+   "speciality": "small heating and cooling appliances; dehumidifiers",
+   "src": "https://www.greenme.it/lifestyle/sai-cosa-compri/deumidificatori-portatili-sono-queste-le-marche-migliori-e-piu-affidabili-secondo-altroconsumo/",
+   "brands": [
+    "Orbegozo",
+    "Daitsu",
+    "Taurus",
+    "Cecotec"
    ]
   }
  ],
@@ -232,6 +281,56 @@
    "new_names": 1,
    "status": "done",
    "note": ""
+  },
+  {
+   "url": "https://www.ingenio-web.it/articoli/le-macchine-del-vento/",
+   "title": "Ingenio: Le macchine del vento (Vortice)",
+   "kind": "collection",
+   "years": "2014",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.greenme.it/lifestyle/sai-cosa-compri/deumidificatori-portatili-sono-queste-le-marche-migliori-e-piu-affidabili-secondo-altroconsumo/",
+   "title": "GreenMe: Altroconsumo portable dehumidifier test",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 8,
+   "new_names": 3,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.ocu.org/vivienda-y-energia/equipamiento-hogar/informe/mejores-deshumidificadores",
+   "title": "OCU best dehumidifiers",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 1,
+   "status": "partial",
+   "note": "paywalled"
+  },
+  {
+   "url": "https://www.futura-sciences.com/conso/comparatifs/meilleur-purificateur-dair-comparatif/",
+   "title": "Futura-Sciences best air purifier 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 10,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.cosedicasa.com/ristrutturare/impianti/i-marchi-storici-di-interesse-nazionale-riassumono-la-produzione-industriale-italiana-38596",
+   "title": "Marchi storici register (article)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "describes register only; no B7 brands confirmed (search could not confirm Ariete/Bimar/Argo/Imetec); registry lookup not fetched"
   }
  ],
  "brands": [
@@ -458,6 +557,46 @@
    "says": "FAWAZ Group Saudi brand of air-conditioners incl. portable/free-standing (self-description; weak)",
    "country": "Saudi Arabia",
    "dept": "Air conditioners"
+  },
+  {
+   "n": "Daitsu",
+   "layer": "premium",
+   "src": "https://www.greenme.it/lifestyle/sai-cosa-compri/deumidificatori-portatili-sono-queste-le-marche-migliori-e-piu-affidabili-secondo-altroconsumo/",
+   "says": "Altroconsumo portable dehumidifier test: ADD-20XA rated 'qualità ottima'",
+   "country": "Spain",
+   "dept": "Removing moisture"
+  },
+  {
+   "n": "Comfee",
+   "layer": "premium",
+   "src": "https://www.greenme.it/lifestyle/sai-cosa-compri/deumidificatori-portatili-sono-queste-le-marche-migliori-e-piu-affidabili-secondo-altroconsumo/",
+   "says": "Altroconsumo dehumidifier test: MDDF-16DEN7-WF 'miglior acquisto' (best buy); Futura-Sciences lists among main dehumidifier makers",
+   "country": "China (Midea brand)",
+   "dept": "Removing moisture"
+  },
+  {
+   "n": "Orbegozo",
+   "layer": "premium",
+   "src": "https://www.ocu.org/vivienda-y-energia/equipamiento-hogar/informe/mejores-deshumidificadores",
+   "says": "OCU dehumidifier report: 'El modelo Orbegozo DH 1655 destaca tanto por su calidad como por su precio'",
+   "country": "Spain",
+   "dept": "Removing moisture"
+  },
+  {
+   "n": "Clean Air Optima",
+   "layer": "premium",
+   "src": "https://www.futura-sciences.com/conso/comparatifs/meilleur-purificateur-dair-comparatif/",
+   "says": "Futura-Sciences air purifier comparison 08/2026: CA-706 Smart rated 'très bien' (19.83); also tested by Consumentenbond",
+   "country": "Netherlands",
+   "dept": "Purifiers & filters"
+  },
+  {
+   "n": "Vortice",
+   "layer": "premium",
+   "src": "https://www.ingenio-web.it/articoli/le-macchine-del-vento/",
+   "says": "Ariante fan (Marco Zanuso 1975) won Compasso d'Oro 1979, 'icona del Design italiano', exhibited at MoMA New York; Vortice fans since 1955 (Atomium)",
+   "country": "Italy",
+   "dept": "Table, floor & stand fans"
   }
  ]
 }

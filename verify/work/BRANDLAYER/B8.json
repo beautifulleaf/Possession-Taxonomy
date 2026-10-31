@@ -186,6 +186,15 @@
    "queries": [],
    "found": 0,
    "note": "not yet searched / empty"
+  },
+  {
+   "axis": "kind",
+   "item": "Safes & key boxes (Sold Secure 2024 domestic safes, key safes)",
+   "queries": [
+    "Sold Secure 2024 catalogue domestic safe key safe"
+   ],
+   "found": 3,
+   "note": ""
   }
  ],
  "regions": [
@@ -339,6 +348,29 @@
     "Federal Lock",
     "Wangli"
    ]
+  },
+  {
+   "region": "Austria/Germany (safes)",
+   "speciality": "EN1143 certified (VdS/ECB-S) safes",
+   "src": "https://wertheim-safes.com/quality-certifications",
+   "brands": [
+    "Wertheim",
+    "Hartmann Tresore"
+   ]
+  },
+  {
+   "region": "France (security locks)",
+   "speciality": "A2P-certified locks and armoured doors (CNPP)",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "brands": [
+    "Bricard",
+    "Vachette",
+    "Thirard",
+    "Point Fort Fichet",
+    "Picard Serrures",
+    "Decayeux",
+    "Heracles"
+   ]
   }
  ],
  "sources": [
@@ -483,16 +515,6 @@
    "note": "topic pages"
   },
   {
-   "url": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
-   "title": "Big Red Guide extinguisher makers",
-   "kind": "retailer",
-   "years": "n/a",
-   "names_on_page": 100,
-   "new_names": 0,
-   "status": "partial",
-   "note": "industrial directory, not parsed"
-  },
-  {
    "url": "https://key.asti24.co.jp/article/4443",
    "title": "玄関の鍵メーカー一覧 (Japanese entrance lock makers)",
    "kind": "retailer",
@@ -501,26 +523,6 @@
    "new_names": 3,
    "status": "done",
    "note": "locksmith article via search excerpt; MIWA ~60% share, GOAL, Opnus known"
-  },
-  {
-   "url": "https://www.solitykorea.com/en/about",
-   "title": "Solity about",
-   "kind": "heritage",
-   "years": "n/a",
-   "names_on_page": 1,
-   "new_names": 1,
-   "status": "done",
-   "note": ""
-  },
-  {
-   "url": "https://shop.godrejsecure.com/about-us",
-   "title": "Godrej Security about",
-   "kind": "heritage",
-   "years": "n/a",
-   "names_on_page": 1,
-   "new_names": 1,
-   "status": "done",
-   "note": ""
   },
   {
    "url": "https://www.mottura.it/en/prodotti",
@@ -561,6 +563,116 @@
    "new_names": 0,
    "status": "done",
    "note": "group pages; subsidiaries (Kwikset, Baldwin, Weiser, National Hardware, CISA, Schlage) already added or known"
+  },
+  {
+   "url": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "title": "The Big Red Guide - Fire Extinguisher Manufacturers & Brands",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 110,
+   "new_names": 18,
+   "status": "done",
+   "note": "Specialist fire-protection directory; ~110 makes parsed; 18 not-known makers recorded (main brands; Chinese contract makers skipped)"
+  },
+  {
+   "url": "https://www.miwa-lock.co.jp/corp/about.html",
+   "title": "MIWA corporate (ja) and miwa-lock.biz/en/business",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Re-fetched: MIWA est. 1945, nearly 60% Japanese building-lock market share, largest lock plant in Japan (Tamaki). Already in register."
+  },
+  {
+   "url": "https://www.solitykorea.com/en/about",
+   "title": "Solity about",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Re-fetched: since 1980, first digital door lock BON 2004, 45% market share Korea"
+  },
+  {
+   "url": "https://shop.godrejsecure.com/about-us",
+   "title": "Godrej Security about",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Re-fetched: first indigenous lock 1897, Mumbai"
+  },
+  {
+   "url": "https://soldsecure.com/files/downloads/Sold%20Secure%202024%20Approved%20Product%20Catalogue%20Web.pdf",
+   "title": "Sold Secure Approved Product Catalogue 2024",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 60,
+   "new_names": 10,
+   "status": "done",
+   "note": "Fetched via objective-focused excerpts of provider list (full PDF not read); 2023 catalogue url found in search but providers mostly same as 2024/2025"
+  },
+  {
+   "url": "https://soldsecure.com/files/downloads/Sold-Secure-Approved-Product-Catalogue-2023-Web.pdf",
+   "title": "Sold Secure Approved Product Catalogue 2023",
+   "kind": "award",
+   "years": "2023",
+   "names_on_page": 45,
+   "new_names": 4,
+   "status": "done",
+   "note": "Objective-focused excerpts; cycle/vehicle providers excluded"
+  },
+  {
+   "url": "http://a2p-certification.org/serrures-de-securite",
+   "title": "A2P Certification - serrures de sécurité (manufacturers)",
+   "kind": "award",
+   "years": "2021-2026",
+   "names_on_page": 21,
+   "new_names": 15,
+   "status": "done",
+   "note": "A2P manufacturer logos; CNPP certified list page cnpp.com/en/certified/products is a dynamic search (not parseable)"
+  },
+  {
+   "url": "https://wertheim-safes.com/quality-certifications",
+   "title": "Wertheim safes certifications",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://hartmann-safes.com/about-us/",
+   "title": "Hartmann Tresore about",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.cnpp.com/en/certified/products",
+   "title": "CNPP certified list (A2P)",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "dynamic search; sample row ABLOY, AGA (both known); A2P building locks 127 entries not fetchable as list"
+  },
+  {
+   "url": "https://www.ecb-s.com/_rubric/index.php?rubric=ECB-S%20EN%20Certification%20certified-products",
+   "title": "ECB-S product locator",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "dynamic locator; excerpt showed Diplomat Safe only; VdS list not found as static page"
   }
  ],
  "brands": [
@@ -1464,7 +1576,7 @@
    "n": "Solity",
    "layer": "cultural",
    "src": "https://www.solitykorea.com/en/about",
-   "says": "Korean smart door-lock leader since 2004 BON series; Korea >80% households use smart locks",
+   "says": "Korean maker since 1980; first digital door lock BON (2004); 45% share of Korean smart-lock market",
    "country": "South Korea",
    "dept": "Smart lock"
   },
@@ -1472,7 +1584,7 @@
    "n": "Godrej Security Solutions",
    "layer": "cultural",
    "src": "https://shop.godrejsecure.com/about-us",
-   "says": "India's first indigenous lock 1897, safes, lockers; 125+ years",
+   "says": "India's first indigenous lock 1897 (Pirojsha Godrej); locks, safes, lockers, cameras; 125+ years",
    "country": "India",
    "dept": "Locks & safes"
   },
@@ -1515,6 +1627,398 @@
    "says": "BabyGearLab tested: Summer Deluxe Stairway best baby gate for stairs",
    "country": "US",
    "dept": "Baby gates"
+  },
+  {
+   "n": "Gloria",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Germany",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Jockel",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Germany",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Ansul",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "US",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Hatsuta",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Japan",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Pozhtechnika",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Russia",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Cervinka",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Czechia",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Potter Roemer",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "US",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Desautel",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "France",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Ceasefire",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "India",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Badger",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "US",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Rosenbauer",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Austria",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Fireblitz",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "UK",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Lingjack",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Singapore",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Bavaria Brandschutz",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Germany",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Mobiak",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Spain/Portugal",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Pii Srl",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Italy",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "OGNIOCHRON",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Poland",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Pastor",
+   "layer": "cultural",
+   "src": "https://www.thebigredguide.com/browse-all/extinguishers/make.html",
+   "says": "Listed in The Big Red Guide fire extinguisher manufacturers and brands directory (specialist fire-protection directory)",
+   "country": "Italy",
+   "dept": "Fire extinguishers"
+  },
+  {
+   "n": "Ultion",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold%20Secure%202024%20Approved%20Product%20Catalogue%20Web.pdf",
+   "says": "Sold Secure 2024: Ultion 3 Star Euro Cylinder rated Diamond",
+   "country": "UK",
+   "dept": "Lock cylinders"
+  },
+  {
+   "n": "Gunnebo",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold%20Secure%202024%20Approved%20Product%20Catalogue%20Web.pdf",
+   "says": "Sold Secure 2024: HomeVault S2, EverydaySafe approved",
+   "country": "Sweden",
+   "dept": "Domestic safes"
+  },
+  {
+   "n": "Aldridge Security",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold%20Secure%202024%20Approved%20Product%20Catalogue%20Web.pdf",
+   "says": "Sold Secure 2024: Caveo Secure euro cylinder Gold/Diamond",
+   "country": "UK",
+   "dept": "Lock cylinders"
+  },
+  {
+   "n": "Oxford Products",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold%20Secure%202024%20Approved%20Product%20Catalogue%20Web.pdf",
+   "says": "Sold Secure 2024: many Gold/Diamond locks (Monster, Nemesis, Hardcore)",
+   "country": "UK",
+   "dept": "Cycle/motorcycle locks"
+  },
+  {
+   "n": "Gretsch-Unitas",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold%20Secure%202024%20Approved%20Product%20Catalogue%20Web.pdf",
+   "says": "Sold Secure 2024: G4 Rhinobolt multipoint lock",
+   "country": "Germany",
+   "dept": "Multipoint locks"
+  },
+  {
+   "n": "Sinox",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold%20Secure%202024%20Approved%20Product%20Catalogue%20Web.pdf",
+   "says": "Sold Secure 2024: provider, established 1978, security locks",
+   "country": "Taiwan",
+   "dept": "Lock cylinders"
+  },
+  {
+   "n": "Howsarlock",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold%20Secure%202024%20Approved%20Product%20Catalogue%20Web.pdf",
+   "says": "Sold Secure 2024: portable door lock, Bronze-Gold",
+   "country": "UK",
+   "dept": "Portable door locks"
+  },
+  {
+   "n": "Serrature Meroni",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold%20Secure%202024%20Approved%20Product%20Catalogue%20Web.pdf",
+   "says": "Sold Secure 2024: UFO3 Comfort Gold",
+   "country": "Italy",
+   "dept": "Van door locks"
+  },
+  {
+   "n": "Masterkey Systems",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold%20Secure%202024%20Approved%20Product%20Catalogue%20Web.pdf",
+   "says": "Sold Secure 2024: Adapta Prime HS Diamond",
+   "country": "UK",
+   "dept": "Lock cylinders"
+  },
+  {
+   "n": "Prolox",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold%20Secure%202024%20Approved%20Product%20Catalogue%20Web.pdf",
+   "says": "Sold Secure 2024: Prolox Zero Lift Gold",
+   "country": "UK",
+   "dept": "Lock cylinders"
+  },
+  {
+   "n": "MILA Hardware",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold-Secure-Approved-Product-Catalogue-2023-Web.pdf",
+   "says": "Sold Secure 2023: ProSecure 3-Star cylinder approved",
+   "country": "UK",
+   "dept": "Lock cylinders"
+  },
+  {
+   "n": "Avocet Hardware",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold-Secure-Approved-Product-Catalogue-2023-Web.pdf",
+   "says": "Sold Secure 2023: ABS Master Series Euro cylinder approved",
+   "country": "UK",
+   "dept": "Lock cylinders"
+  },
+  {
+   "n": "M&C Protect",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold-Secure-Approved-Product-Catalogue-2023-Web.pdf",
+   "says": "Sold Secure 2023: M&C-Condor cylinder approved",
+   "country": "Netherlands",
+   "dept": "Lock cylinders"
+  },
+  {
+   "n": "Adaptalock",
+   "layer": "premium",
+   "src": "https://soldsecure.com/files/downloads/Sold-Secure-Approved-Product-Catalogue-2023-Web.pdf",
+   "says": "Sold Secure 2023: Adaptalock Universal Locking System listed",
+   "country": "UK",
+   "dept": "Multipoint locks"
+  },
+  {
+   "n": "CES",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "Germany",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Decayeux",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "France",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Dierre",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "Italy",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Ferco",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "France",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Gardesa",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "Spain",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Heracles",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "France",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Impar",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "France",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "KFV",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "Germany",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "MUEL",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "France",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Picard Serrures",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "France",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Reelax",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "France",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Valente",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "Italy",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Vighi",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "Italy",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "AM Locks",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "Portugal",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Marc",
+   "layer": "premium",
+   "src": "http://a2p-certification.org/serrures-de-securite",
+   "says": "Listed on a2p-certification.org as maker of A2P-certified (CNPP burglary-resistance) security locks/doors",
+   "country": "Portugal",
+   "dept": "Locks & door security"
+  },
+  {
+   "n": "Wertheim",
+   "layer": "premium",
+   "src": "https://wertheim-safes.com/quality-certifications",
+   "says": "Austrian safe maker certified EN1143-1, VdS, ECB-S, A2P, VSÖ",
+   "country": "Austria",
+   "dept": "Safes"
+  },
+  {
+   "n": "Hartmann Tresore",
+   "layer": "premium",
+   "src": "https://hartmann-safes.com/about-us/",
+   "says": "German safe maker (specialised since 1983), VdS and ECB-S certified",
+   "country": "Germany",
+   "dept": "Safes"
   }
  ]
 }

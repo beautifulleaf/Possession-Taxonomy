@@ -2800,15 +2800,15 @@
   {
    "n": "Inis Meáin Knitting Company",
    "aliases": [],
-   "tier": null,
+   "tier": "quality",
    "layer_harvest": "premium",
    "src": "https://www.gq.com/story/best-mens-fisherman-sweaters",
    "src2": "",
-   "shown": null,
+   "shown": true,
    "region": "",
    "dept": "hand-finished Aran sweaters on Aran islands",
    "country": "",
-   "note": "pending: GQ page returned no content (263 chars)"
+   "note": "GQ: 'still makes Aran sweaters the true, painstaking, hand-finished, traditional way, in their own knitting factory on the Aran islands'"
   },
   {
    "n": "Budgy Smuggler",
@@ -5036,15 +5036,15 @@
   {
    "n": "Remigio Mestas",
    "aliases": [],
-   "tier": null,
+   "tier": "cultural",
    "layer_harvest": "premium",
    "src": "https://museotextildeoaxaca.org/wp-content/uploads/2020/06/TramasDeVientoYMar.pdf",
    "src2": "",
-   "shown": null,
+   "shown": true,
    "region": "",
    "dept": "huipiles",
    "country": "Mexico",
-   "note": "[audit add] undecided"
+   "note": "[audit add] Museo Textil de Oaxaca publication: promoter who seeks out master backstrap weavers in remote villages (museum source)"
   },
   {
    "n": "Khadi Oaxaca",
@@ -5062,54 +5062,54 @@
   {
    "n": "Maribel Espinosa",
    "aliases": [],
-   "tier": null,
+   "tier": "quality",
    "layer_harvest": "cultural",
    "src": "https://micultura.gob.pa/2025/11/30/san-jose-de-las-tablas-celebra-con-orgullo-el-talento-de-sus-artesanos",
    "src2": "",
-   "shown": null,
-   "region": "",
+   "shown": true,
+   "region": "Panama (Las Tablas, Los Santos)",
    "dept": "pollera",
    "country": "Panama",
-   "note": "[audit add] undecided"
+   "note": "[audit add] Panama Ministry of Culture: pollera montuna made by 'la maestra artesana, Maribel Espinosa'"
   },
   {
    "n": "Valstar",
    "aliases": [],
-   "tier": null,
+   "tier": "quality",
    "layer_harvest": "premium",
    "src": "https://www.analogshift.com/blogs/transmissions/varsity-jacket-history",
    "src2": "",
-   "shown": null,
+   "shown": true,
    "region": "",
    "dept": "jackets",
    "country": "Italy",
-   "note": "[audit add] undecided"
+   "note": "[audit add] Analog/Shift: 'upscale makers such as Valstar ... using fine materials and painstaking production methods'"
   },
   {
    "n": "Stewart & Strauss",
    "aliases": [],
-   "tier": null,
+   "tier": "listed",
    "layer_harvest": "cultural",
    "src": "https://jacketshop.com/",
    "src2": "",
-   "shown": null,
+   "shown": true,
    "region": "",
    "dept": "varsity jackets",
    "country": "United States",
-   "note": "[audit add] undecided"
+   "note": "[audit add] own website only"
   },
   {
    "n": "Safawala (Ronak Dave)",
    "aliases": [],
-   "tier": null,
+   "tier": "seller",
    "layer_harvest": "cultural",
    "src": "https://www.ronakdave.com/",
    "src2": "",
-   "shown": null,
+   "shown": true,
    "region": "",
    "dept": "safa, pagdi (turbans)",
    "country": "India",
-   "note": "[audit add] undecided"
+   "note": "[audit add] maker's own website; wedding safa and pagdi specialist (own-website rule)"
   }
  ],
  "regions": [
@@ -5201,37 +5201,55 @@
    "region": "Norway",
    "speciality": "Norwegian knitwear; Dale of Norway renowned since 1956 for official Olympic ski-team sweaters, Devold (1853), Oleana",
    "src": "https://thehiddennorth.com/norwegian-knitwear-brands-where-to-buy-them",
-   "renown": null,
-   "quote": "",
-   "brands": [],
-   "note": "undecided"
+   "renown": true,
+   "quote": "Norway's rich knitting heritage lives on through a mix of brands with centuries of history",
+   "brands": [
+    "Dale of Norway",
+    "Devold of Norway",
+    "Oleana",
+    "We Norwegians",
+    "Kari Traa",
+    "Susan Fosse"
+   ],
+   "note": ""
   },
   {
    "region": "Ireland (Aran Islands)",
    "speciality": "Aran sweaters; Inis Meáin still makes them in the traditional hand-finished way on the Aran islands (GQ); Aran Crafts 'largest Aran producer'",
    "src": "https://www.gq.com/story/best-mens-fisherman-sweaters",
-   "renown": null,
+   "renown": false,
    "quote": "",
-   "brands": [],
-   "note": "undecided"
+   "brands": [
+    "Inis Meáin Knitting Company"
+   ],
+   "note": "GQ describes Inis Meáin's factory on the Aran islands but does not say the islands are renowned; Aran Crafts and Aran Sweater Market not on page"
   },
   {
    "region": "Scotland (Shetland, Edinburgh)",
    "speciality": "Shetland and Fair Isle knitwear (Jamieson's of Shetland, only business taking Shetland wool from fleece to finished knitwear in the Isles); Highland dress and kilts (Kinloch Anderson, Royal Warrants since 1934)",
    "src": "https://www.jamiesonsofshetland.co.uk/",
-   "renown": null,
+   "renown": false,
    "quote": "",
-   "brands": [],
-   "note": "undecided"
+   "brands": [
+    "Jamieson's of Shetland"
+   ],
+   "note": "src is Jamieson's own website; Kinloch Anderson and William Lockie not on page"
   },
   {
    "region": "Japan (Okayama, Kojima)",
    "speciality": "selvedge denim: 'Okayama prefecture, where denim factories have been turning out high-quality selvedge denim for decades using 1940s shuttle looms'; Japan described as 'denim promised land'",
    "src": "https://saltoptics.com/blogs/news/6-japanese-denim-brands-to-know",
-   "renown": null,
-   "quote": "",
-   "brands": [],
-   "note": "undecided"
+   "renown": true,
+   "quote": "Especially in the Okayama prefecture, where a cache of denim factories have been turning out high-quality selvedge denim for decades",
+   "brands": [
+    "Studio D'Artisan",
+    "Iron Heart",
+    "Samurai",
+    "Sugar Cane",
+    "The Strike Gold",
+    "Stevenson Overall Co."
+   ],
+   "note": ""
   },
   {
    "region": "Japan (Kyoto)",
@@ -5279,10 +5297,12 @@
    "region": "Morocco / North Africa",
    "speciality": "the Moroccan caftan, a symbol of national identity over eight centuries, listed on UNESCO Intangible Cultural Heritage (Dec 2025); Morocco named by UNESCO fashion report as supportive environment for local brands",
    "src": "https://www.africanews.com/2025/12/31/meet-the-moroccan-designer-modernising-the-traditional-caftan",
-   "renown": null,
-   "quote": "",
-   "brands": [],
-   "note": "undecided"
+   "renown": true,
+   "quote": "The garment [the caftan] recently made it onto the UNESCO list of Intangible Cultural Heritage.",
+   "brands": [
+    "New Tangier"
+   ],
+   "note": ""
   },
   {
    "region": "West Africa (Nigeria, Senegal, Mali)",
@@ -5312,28 +5332,40 @@
    "region": "Australia",
    "speciality": "wool, outback and surf clothing brands per Wikipedia category (79 brands); International Woolmark Prize is Australian Merino wool",
    "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_Australia",
-   "renown": null,
+   "renown": false,
    "quote": "",
-   "brands": [],
-   "note": "undecided"
+   "brands": [
+    "R. M. Williams",
+    "Akubra",
+    "Driza-Bone",
+    "Blundstone Footwear",
+    "Bonds",
+    "Zimmermann",
+    "Country Road Group"
+   ],
+   "note": "src is a Wikipedia category page: all seven are members, but a category page states no renown"
   },
   {
    "region": "Ecuador (Montecristi)",
    "speciality": "Panama (toquilla straw) hats; Montecristi produces the finest Panamas",
    "src": "https://www.lockhatters.com/collections/panama-hats",
-   "renown": null,
+   "renown": false,
    "quote": "",
-   "brands": [],
-   "note": "undecided"
+   "brands": [
+    "Lock & Co. Hatters"
+   ],
+   "note": "src is Lock & Co.'s own shop page (hand-woven in Ecuador from the finest toquilla straw); Brent Black and Panama Hatters not on page"
   },
   {
    "region": "France (Béarn, Oloron-Sainte-Marie)",
    "speciality": "the Basque/French beret, made at Laulhère since 1840, EPV-labelled; Béarn the origin of the beret",
    "src": "https://laulhere-france.com/us/berets.html",
-   "renown": null,
+   "renown": false,
    "quote": "",
-   "brands": [],
-   "note": "undecided"
+   "brands": [
+    "Laulhère"
+   ],
+   "note": "src is Laulhère's own website ('Made in Oloron-Sainte-Marie since 1840')"
   },
   {
    "region": "France (Millau, Aveyron)",
@@ -5442,10 +5474,12 @@
    "region": "Panama (Las Tablas, Los Santos)",
    "speciality": "hand-made pollera (national dress); San José de Las Tablas artisans, Festival del Tambor y la Pollera, planned Ruta de la Pollera",
    "src": "https://micultura.gob.pa/2025/11/30/san-jose-de-las-tablas-celebra-con-orgullo-el-talento-de-sus-artesanos",
-   "renown": null,
-   "quote": "",
-   "brands": [],
-   "note": "undecided [audit add]"
+   "renown": true,
+   "quote": "San José de Las Tablas celebra con orgullo el talento de sus artesanos (Festival del Tambor y la Pollera)",
+   "brands": [
+    "Maribel Espinosa"
+   ],
+   "note": "ministry page celebrates the town's pollera artisans; no explicit 'renowned' wording [audit add]"
   },
   {
    "region": "Mexico (Chiapas highlands and Oaxaca)",
@@ -5482,16 +5516,16 @@
   }
  ],
  "stats": {
-  "checked": 378,
+  "checked": 384,
   "total": 393,
   "shown_false": 0,
   "by_tier": {
-   "cultural": 142,
-   "quality": 110,
-   "listed": 88,
-   "seller": 38
+   "cultural": 143,
+   "quality": 113,
+   "listed": 89,
+   "seller": 39
   },
-  "regions_renown": 9,
-  "regions_no_renown": 8
+  "regions_renown": 13,
+  "regions_no_renown": 13
  }
 }

@@ -7,9 +7,10 @@
    "axis": "region",
    "item": "Western Europe",
    "queries": [
-    "renowned cleaning tools/laundry makers Western Europe"
+    "renowned cleaning tools/laundry makers Western Europe",
+    "savon de Marseille authentic makers UPSM"
    ],
-   "found": 3,
+   "found": 8,
    "note": ""
   },
   {
@@ -44,26 +45,33 @@
    "item": "Middle East",
    "queries": [
     "renowned cleaning tools/laundry makers Middle East",
-    "Wikipedia Category:Home appliance brands (regional makers)"
+    "Wikipedia Category:Home appliance brands (regional makers)",
+    "Nabulsi soap factory Nablus",
+    "Aleppo soap makers"
    ],
-   "found": 6,
-   "note": "from encyclopedia category"
+   "found": 12,
+   "note": "Nablus and Aleppo soaps"
   },
   {
    "axis": "region",
    "item": "North Africa",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "Marseille/Aleppo/Nabulsi soap sweep (North Africa soap traditions: only Levant/Marseille surfaced)",
+    "savon noir beldi Maroc marque traditionnelle hammam",
+    "Egypt household detergent brands local manufacturers"
+   ],
+   "found": 2,
+   "note": "Egypt: Madar, Oxi; Moroccan savon beldi brands not surfaced"
   },
   {
    "axis": "region",
    "item": "Sub-Saharan Africa",
    "queries": [
-    "Wikipedia Category:Home appliance brands (regional makers)"
+    "Wikipedia Category:Home appliance brands (regional makers)",
+    "African household cleaning brands Nigeria Kenya South Africa detergent leading brands"
    ],
-   "found": 1,
-   "note": "from encyclopedia category"
+   "found": 7,
+   "note": "Kenya heavy; Nigeria/Ghana/South African local makers not surfaced"
   },
   {
    "axis": "region",
@@ -140,39 +148,49 @@
   {
    "axis": "kind",
    "item": "Vacuums & floor machines > Shop & ash vacuums",
-   "queries": [],
+   "queries": [
+    "best wet dry shop vac tested (Vacuum Wars, Pro Tool Reviews)"
+   ],
    "found": 0,
-   "note": "NOT TRIED"
+   "note": "Ridgid, Craftsman, Milwaukee, EGO, Shop-Vac all already known"
   },
   {
    "axis": "kind",
    "item": "Vacuums & floor machines > Floor washers, carpet & steam cleaners",
-   "queries": [],
+   "queries": [
+    "best steam cleaner tested Independent Which? Guardian CR",
+    "best carpet cleaner Consumer Reports"
+   ],
    "found": 0,
-   "note": "NOT TRIED"
+   "note": "Karcher, Polti, Shark, Vax, Bissell, Rug Doctor, Tineco, Vileda all known"
   },
   {
    "axis": "kind",
    "item": "Vacuums & floor machines > Window machines",
-   "queries": [],
+   "queries": [
+    "best window cleaning robot Hobot Ecovacs Winbot"
+   ],
    "found": 0,
-   "note": "NOT TRIED"
+   "note": "Ecovacs, Hobot known"
   },
   {
    "axis": "kind",
    "item": "Mops, brooms & cloths > Mops & buckets",
-   "queries": [],
+   "queries": [
+    "best mops tested wirecutter yahoo"
+   ],
    "found": 0,
-   "note": "NOT TRIED"
+   "note": "O-Cedar, Libman, Swiffer known"
   },
   {
    "axis": "kind",
    "item": "Mops, brooms & cloths > Brooms & dustpans",
    "queries": [
-    "best makers / independent test (partial)"
+    "best makers / independent test (partial)",
+    "Wirecutter best broom dustpan dust mop"
    ],
    "found": 0,
-   "note": ""
+   "note": "Bona known"
   },
   {
    "axis": "kind",
@@ -186,9 +204,12 @@
   {
    "axis": "kind",
    "item": "Mops, brooms & cloths > Cloths, dusters & squeegees",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "best microfiber cloths tested",
+    "best squeegee window cleaning brand"
+   ],
+   "found": 4,
+   "note": "squeegee brands not evidenced"
   },
   {
    "axis": "kind",
@@ -221,9 +242,11 @@
   {
    "axis": "kind",
    "item": "Cleaning products > Floor, carpet & furniture care",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "Pilgrim Payne royal warrant"
+   ],
+   "found": 1,
+   "note": ""
   },
   {
    "axis": "kind",
@@ -509,6 +532,60 @@
     "Candy",
     "Smeg"
    ]
+  },
+  {
+   "region": "France (Marseille)",
+   "speciality": "Savon de Marseille, 72% oil cauldron-cooked soap, protected by collective mark",
+   "src": "https://www.marius-fabre.com/en/content/14-union-of-professionals-of-marseille-soap",
+   "brands": [
+    "Marius Fabre",
+    "Fer à Cheval",
+    "Savonnerie du Midi",
+    "Le Sérail",
+    "La Licorne (Savonnerie de la Licorne)"
+   ]
+  },
+  {
+   "region": "Palestine (Nablus)",
+   "speciality": "Nabulsi olive oil soap, produced since the 10th century, stamped with the factory seal",
+   "src": "https://www.palquest.org/en/highlight/15993/nablus-soap-production",
+   "brands": [
+    "Touqan Soap Factory",
+    "Shaka'a Soap Factory",
+    "Al-Nabulsi Soap Factory",
+    "Palestinian Soap Cooperative"
+   ]
+  },
+  {
+   "region": "Syria (Aleppo)",
+   "speciality": "Aleppo ghar (laurel and olive oil) soap, inscribed on UNESCO ICH list Dec 2024",
+   "src": "https://ich.unesco.org/en/RL/craftsmanship-of-aleppo-ghar-soap-02132",
+   "brands": [
+    "Aleppo Savon (Sabouni)",
+    "Alepia"
+   ]
+  },
+  {
+   "region": "Sub-Saharan Africa (East Africa)",
+   "speciality": "Local laundry detergents and bar soaps that compete with multinationals (Kenya)",
+   "src": "https://www.theafricareport.com/5741/the-rise-of-africas-b-brands",
+   "brands": [
+    "Menengai",
+    "Toss",
+    "Jamaa",
+    "Powerboy",
+    "Safisha",
+    "Omo"
+   ]
+  },
+  {
+   "region": "Egypt / Middle East",
+   "speciality": "Regional detergent brands (Madar Group, ARMA Oxi)",
+   "src": "https://madargroup.com/",
+   "brands": [
+    "Madar",
+    "Oxi (ARMA)"
+   ]
   }
  ],
  "sources": [
@@ -641,6 +718,116 @@
    "new_names": 4,
    "status": "partial",
    "note": "editorial recommendation list; affiliate links"
+  },
+  {
+   "url": "https://www.marius-fabre.com/en/content/14-union-of-professionals-of-marseille-soap",
+   "title": "Union des Professionnels du Savon de Marseille (via Marius Fabre)",
+   "kind": "guild",
+   "years": "2011-",
+   "names_on_page": 4,
+   "new_names": 4,
+   "status": "done",
+   "note": "4 founding members"
+  },
+  {
+   "url": "https://www.palquest.org/en/highlight/15993/nablus-soap-production",
+   "title": "Palquest: Nablus soap production",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 3,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://ich.unesco.org/en/RL/craftsmanship-of-aleppo-ghar-soap-02132",
+   "title": "UNESCO ICH: Craftsmanship of Aleppo Ghar soap",
+   "kind": "heritage",
+   "years": "2024",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "tradition, not brands; supports Syria region"
+  },
+  {
+   "url": "https://www.goodhousekeeping.com/home-products/g73533729/best-microfiber-cleaning-cloth",
+   "title": "Good Housekeeping 5 Best Microfiber Cleaning Cloths 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 3,
+   "new_names": 3,
+   "status": "done",
+   "note": "Bona/O-Cedar/Unger already known; seen on Wirecutter/Yahoo mop tests"
+  },
+  {
+   "url": "https://www.nytimes.com/wirecutter/reviews/roundup-essential-cleaning-supplies",
+   "title": "Wirecutter essential cleaning supplies roundup",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "partial",
+   "note": "excerpt only"
+  },
+  {
+   "url": "https://www.nytimes.com/wirecutter/reviews/best-broom-dustpan-dustmop/",
+   "title": "Wirecutter best broom dustpan dust mop 2026 (Bona)",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Bona known"
+  },
+  {
+   "url": "https://www.which.co.uk/reviews/washing-machines/article/which-washing-machine/which-washing-machine-should-you-buy-aafjl7E6UgGx",
+   "title": "Which? best washing machines and vacuum pages",
+   "kind": "award",
+   "years": "2025-2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "Which? Best Buy lists are member-only paywalled; only retailer-brand mentions visible (AEG, Bosch, Hotpoint, LG, Miele, Shark, Henry, Vax); Miele page cites Stiftung Warentest Testsieger"
+  },
+  {
+   "url": "https://www.consumerreports.org/appliances/carpet-cleaners/",
+   "title": "CR carpet cleaners and steam mops; Independent/Guardian steam cleaner tests; Vacuum Wars and Pro Tool Reviews shop vacs",
+   "kind": "award",
+   "years": "2025-2026",
+   "names_on_page": 16,
+   "new_names": 0,
+   "status": "done",
+   "note": "all brands already in register"
+  },
+  {
+   "url": "https://sagaciresearch.com/ariel-takes-the-lead-as-kenyas-preferred-detergent/",
+   "title": "Sagaci Research: Ariel leads Kenya's preferred detergent (SagaBrand)",
+   "kind": "ranking",
+   "years": "2021",
+   "names_on_page": 6,
+   "new_names": 2,
+   "status": "done",
+   "note": "Ariel, Sunlight, Persil known"
+  },
+  {
+   "url": "https://www.theafricareport.com/5741/the-rise-of-africas-b-brands",
+   "title": "The Africa Report: rise of Africa's B-brands",
+   "kind": "ranking",
+   "years": "2013",
+   "names_on_page": 3,
+   "new_names": 3,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://madargroup.com/",
+   "title": "Madar Group brands",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "manufacturer page"
   }
  ],
  "brands": [
@@ -1531,6 +1718,176 @@
    "says": "Household detergent brand by Shikoku Kasei Kogyo, developed by chlorine specialists",
    "country": "Japan",
    "dept": "Household detergent"
+  },
+  {
+   "n": "Savonnerie du Midi",
+   "layer": "cultural",
+   "src": "https://www.marius-fabre.com/en/content/14-union-of-professionals-of-marseille-soap",
+   "says": "Founding member (2011) of the Union des Professionnels du Savon de Marseille, collective mark for genuine Savon de Marseille (laundry/household soap)",
+   "country": "France",
+   "dept": "Laundry and household soap"
+  },
+  {
+   "n": "Le Sérail",
+   "layer": "cultural",
+   "src": "https://www.marius-fabre.com/en/content/14-union-of-professionals-of-marseille-soap",
+   "says": "Founding member (2011) of the Union des Professionnels du Savon de Marseille, collective mark for genuine Savon de Marseille (laundry/household soap)",
+   "country": "France",
+   "dept": "Laundry and household soap"
+  },
+  {
+   "n": "La Licorne (Savonnerie de la Licorne)",
+   "layer": "cultural",
+   "src": "https://www.marseille-tourisme.com/en/discover-marseille/traditions/marseille-soap/",
+   "says": "Marseille Tourism guide to genuine Marseille soap factories; Licorne is a Marseille master soap maker, member of the Marseille soap makers' association (own site)",
+   "country": "France",
+   "dept": "Laundry and household soap"
+  },
+  {
+   "n": "Touqan Soap Factory",
+   "layer": "cultural",
+   "src": "http://www.xinhuanet.com/english/2018-02/25/c_136997486.htm",
+   "says": "Xinhua: one of the oldest manual factories in Nablus making Nabulsi soap since 1894; one of two remaining",
+   "country": "Palestine",
+   "dept": "Olive oil cleaning/laundry soap"
+  },
+  {
+   "n": "Shaka'a Soap Factory",
+   "layer": "cultural",
+   "src": "https://www.palquest.org/en/highlight/15993/nablus-soap-production",
+   "says": "Palquest: since 2007 only two Nablus soap factories remain, owned by the Tuqan and Shaka'a families, kept as heritage",
+   "country": "Palestine",
+   "dept": "Olive oil cleaning/laundry soap"
+  },
+  {
+   "n": "Al-Nabulsi Soap Factory",
+   "layer": "cultural",
+   "src": "https://www.palquest.org/en/highlight/15993/nablus-soap-production",
+   "says": "Heinrich Boll Stiftung / Nablus Municipality: Al-Nabulsi family soap factory in Nablus old city, traditional olive oil soap",
+   "country": "Palestine",
+   "dept": "Olive oil soap"
+  },
+  {
+   "n": "Palestinian Soap Cooperative",
+   "layer": "cultural",
+   "src": "https://palestiniansoap.coop/",
+   "says": "Distributes Nablus soap for all Palestinian soap factories and family producers",
+   "country": "Palestine",
+   "dept": "Olive oil soap",
+   "role": "seller"
+  },
+  {
+   "n": "Alepia",
+   "layer": "cultural",
+   "src": "https://alepia.com/gb/content/4-about-us",
+   "says": "French maker reviving Aleppo soap in Santeny, sources oil and laurel berry oil from Aleppo artisans; cites UNESCO Dec 2024 inscription of Aleppo ghar soap craft",
+   "country": "France / Syria",
+   "dept": "Aleppo laurel soap",
+   "role": "seller"
+  },
+  {
+   "n": "Aleppo Savon (Sabouni)",
+   "layer": "cultural",
+   "src": "https://alepposavon.ca/pages/our-story",
+   "says": "Sabouni family, fourth-generation Syrian soap makers (125+ years), now in Calgary, making Aleppo soap",
+   "country": "Syria / Canada",
+   "dept": "Aleppo laurel soap"
+  },
+  {
+   "n": "Norwex",
+   "layer": "premium",
+   "src": "https://www.goodhousekeeping.com/home-products/g73533729/best-microfiber-cleaning-cloth",
+   "says": "Good Housekeeping tested microfiber cloths 2026 (Aug 27, 2026): Best overall Norwex EnviroCloth",
+   "country": "",
+   "dept": "Microfibre cloths"
+  },
+  {
+   "n": "E-Cloth",
+   "layer": "premium",
+   "src": "https://www.goodhousekeeping.com/home-products/g73533729/best-microfiber-cleaning-cloth",
+   "says": "Good Housekeeping 2026 microfiber test: best for windows E-Cloth Window Cleaner",
+   "country": "",
+   "dept": "Microfibre cloths"
+  },
+  {
+   "n": "Mr.Siga",
+   "layer": "premium",
+   "src": "https://www.goodhousekeeping.com/home-products/g73533729/best-microfiber-cleaning-cloth",
+   "says": "Good Housekeeping 2026 microfiber test: best value Mr.Siga Microfiber Cleaning Cloths (affordable quality)",
+   "country": "",
+   "dept": "Microfibre cloths"
+  },
+  {
+   "n": "Fixsmith",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/wirecutter/reviews/roundup-essential-cleaning-supplies",
+   "says": "Wirecutter essential cleaning supplies: Fixsmith Microfiber Cleaning Cloth top spot in testing",
+   "country": "",
+   "dept": "Microfibre cloths"
+  },
+  {
+   "n": "Menengai",
+   "layer": "cultural",
+   "src": "https://sagaciresearch.com/ariel-takes-the-lead-as-kenyas-preferred-detergent/",
+   "says": "SagaBrand Kenya Oct 2021: third preferred detergent brand (18%) after Ariel and Sunlight",
+   "country": "Kenya",
+   "dept": "Laundry detergent / soap"
+  },
+  {
+   "n": "Omo",
+   "layer": "cultural",
+   "src": "https://sagaciresearch.com/ariel-takes-the-lead-as-kenyas-preferred-detergent/",
+   "says": "SagaBrand Kenya: Omo 4th in preference; also OMO South Africa product range page (omo.com/za)",
+   "country": "South Africa / Kenya",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Toss",
+   "layer": "cultural",
+   "src": "https://www.theafricareport.com/5741/the-rise-of-africas-b-brands",
+   "says": "Africa Report: Toss detergent brand of Kenyan firm Kapa Oil Refineries; Jamaa laundry soap also",
+   "country": "Kenya",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Jamaa",
+   "layer": "cultural",
+   "src": "https://www.theafricareport.com/5741/the-rise-of-africas-b-brands",
+   "says": "Africa Report: Jamaa laundry soap from Kapa Oil Refineries, Kenya",
+   "country": "Kenya",
+   "dept": "Laundry soap"
+  },
+  {
+   "n": "Powerboy",
+   "layer": "cultural",
+   "src": "https://www.theafricareport.com/5741/the-rise-of-africas-b-brands",
+   "says": "Africa Report: Bidco's Powerboy washing powder, local challenger to Omo (Powerboy Proactive Liquid launched)",
+   "country": "Kenya",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Safisha",
+   "layer": "cultural",
+   "src": "https://safisha.com/",
+   "says": "Sundries Bargains Nairobi: Safisha ('to clean') brand, leading local maker of industrial and domestic cleaning products, scouring pads and sponges, Kenya and East Africa",
+   "country": "Kenya",
+   "dept": "Cleaning products, scourers"
+  },
+  {
+   "n": "Madar",
+   "layer": "cultural",
+   "src": "https://madargroup.com/",
+   "says": "Madar Group (est. 1986): detergents and home care brand Madar launched late 1980s, factories in Turkey, Egypt, Iraq, Jordan, Sudan, Senegal, Angola, Cameroon, Uganda",
+   "country": "Middle East / Africa",
+   "dept": "Laundry and home care"
+  },
+  {
+   "n": "Oxi (ARMA)",
+   "layer": "cultural",
+   "src": "https://www.africa2trust.com/B2BAfrica/egypt/industrial/manufacturing-industries/arma-soap-detergent-co-arma-group-egy/Profile/AboutUs/1/48/83026/3",
+   "says": "ARMA Soap & Detergent Co., Heliopolis Cairo: Oxi brand laundry detergents, exported regionally",
+   "country": "Egypt",
+   "dept": "Laundry detergent"
   }
  ]
 }

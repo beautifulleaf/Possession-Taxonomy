@@ -321,12 +321,12 @@
    "tier": "listed",
    "layer_harvest": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Jewellery_companies_of_Canada",
-   "src2": null,
-   "shown": false,
+   "src2": "https://ecksand.com/pages/about",
+   "shown": true,
    "region": null,
    "dept": "jewellery",
    "country": null,
-   "note": "not on Category:Jewellery companies of Canada (raw: Bijoux Medusa, Birks Group, Pyrrha only); search pending"
+   "note": "NOT on cited src; shown on src2. not on Category:Jewellery companies of Canada (raw); own site (raw): Montreal fine-jewellery maison, Canadian National Hallmark (self-stated); no own en.wikipedia article found in category"
   },
   {
    "n": "O'Che 1867",
@@ -1619,12 +1619,12 @@
    "tier": "listed",
    "layer_harvest": "cultural",
    "src": "https://www.vo-plus.com/en/jewelry-features/78the-valenza-goldsmithing-district",
-   "src2": null,
-   "shown": false,
+   "src2": "https://www.ice.it/it/sites/default/files/inline-files/CATALOGO%20JIS_FINALE.pdf",
+   "shown": true,
    "region": null,
    "dept": "jewellery",
    "country": "",
-   "note": "not on VO+ Valenza page (full raw text checked); search pending"
+   "note": "NOT on cited src; shown on src2. not on VO+ Valenza page (full raw); Italian Trade Agency JIS 2019 exhibitor catalogue (raw): 'founded and based in Valenza since 1922' (directory row). Not placed in Valenza region (region src does not name it)"
   },
   {
    "n": "Raniwala 1881",
@@ -1860,16 +1860,18 @@
   },
   {
    "n": "Smith & Pepper",
-   "aliases": [],
-   "tier": "listed",
+   "aliases": [
+    "Smith and Pepper"
+   ],
+   "tier": "cultural",
    "layer_harvest": "cultural",
    "src": "https://visitbirmingham.com/inspire-me/areas/the-jewellery-quarter",
-   "src2": null,
-   "shown": false,
+   "src2": "https://en.wikipedia.org/wiki/Smith_and_Pepper",
+   "shown": true,
    "region": null,
    "dept": "jewellery",
    "country": "",
-   "note": "not on Visit Birmingham Jewellery Quarter page (full raw text checked); search pending"
+   "note": "NOT on cited src; shown on src2. not on cited Visit Birmingham page; own en.wikipedia article (raw): Birmingham jewellery firm 1899-1981, factory now the Museum of the Jewellery Quarter. DEFUNCT (historic maker); not placed in the Birmingham region (region src does not name it)"
   },
   {
    "n": "Hey Harper",
@@ -2358,7 +2360,7 @@
    "src": "https://visi.co.za/online-shopping-30-local-jewellery-design-brands/",
    "src2": null,
    "shown": true,
-   "region": null,
+   "region": "South Africa",
    "dept": "jewellery",
    "country": "South Africa",
    "note": "Visi '32 Must-Know South African Jewellery Brands' (raw): 'renowned for its bespoke porcelain designs, blending intricate craftsmanship'"
@@ -2373,7 +2375,7 @@
    "src": "https://visi.co.za/online-shopping-30-local-jewellery-design-brands/",
    "src2": null,
    "shown": true,
-   "region": null,
+   "region": "South Africa",
    "dept": "jewellery",
    "country": "South Africa",
    "note": "Visi '32 Must-Know South African Jewellery Brands' (raw): 'MΛRY JEΛN Jewellery', fine handcrafted jewellery"
@@ -2386,7 +2388,7 @@
    "src": "https://visi.co.za/online-shopping-30-local-jewellery-design-brands/",
    "src2": null,
    "shown": true,
-   "region": null,
+   "region": "South Africa",
    "dept": "jewellery",
    "country": "South Africa",
    "note": "Visi '32 Must-Know South African Jewellery Brands' (raw): handmade enamel jewellery, glass powder fused to metal in a kiln (Muizenberg)"
@@ -2399,7 +2401,7 @@
    "src": "https://visi.co.za/online-shopping-30-local-jewellery-design-brands/",
    "src2": null,
    "shown": true,
-   "region": null,
+   "region": "South Africa",
    "dept": "jewellery",
    "country": "South Africa",
    "note": "Visi '32 Must-Know South African Jewellery Brands' (raw): 'known for its juicy colour combinations'; no craft claim"
@@ -2535,7 +2537,7 @@
    "src": "https://www.whowhatwear.com/fashion/jewelry/asian-founded-jewelry-brands",
    "src2": null,
    "shown": true,
-   "region": null,
+   "region": "South Korea",
    "dept": "jewellery",
    "country": "South Korea",
    "note": "Who What Wear Asian-founded brands (raw): Seoul-born designer; 'renowned for its classic collections that emphasize craftsmanship'"
@@ -2712,7 +2714,7 @@
    "src": "https://www.jckonline.com/editorial-article/nada-ghazal-eyes-expansion",
    "src2": null,
    "shown": true,
-   "region": null,
+   "region": "Lebanon: Beirut",
    "dept": "fine jewellery",
    "country": "Lebanon",
    "note": "JCK (raw): exhibited as a Rising Star designer at JCK Las Vegas 2012; Beirut retail; rebranded Nada Ghazal Fine Jewellery"
@@ -2792,7 +2794,7 @@
    "src": "https://www.mauidivers.com/pages/maui-divers-jewelry-make-a-wish-hawaii-april-1-2026",
    "src2": null,
    "shown": true,
-   "region": null,
+   "region": "Hawaii",
    "dept": "Hawaiian heirloom and coral jewellery",
    "country": "United States (Hawaii)",
    "note": "own website only (raw): founded 1959, 'Hawaii's most celebrated fine jewelry brand' (self-stated), Hawaiian black coral"
@@ -3104,7 +3106,7 @@
    "src": "https://www.kazurasei.co.jp/f/en_about",
    "src2": null,
    "shown": true,
-   "region": null,
+   "region": "Japan: Kyoto",
    "dept": "kanzashi / hair ornaments",
    "country": "Japan",
    "note": "own website only (raw): Kyoto house: urushi lacquer combs and kanzashi with makie and raden (self-stated)"
@@ -3130,7 +3132,7 @@
    "src": "https://parshwanathjewellers.in/",
    "src2": null,
    "shown": true,
-   "region": null,
+   "region": "India: Hupari, Kolhapur",
    "dept": "silver anklets (payal) and toe rings",
    "country": "India",
    "note": "own website only (raw): Hupari silver payal maker since 1982, three generations (self-stated)"
@@ -3527,10 +3529,15 @@
   ],
   "checked": 230,
   "of": 230,
-  "shown_false": 3,
+  "shown_false": 0,
+  "not_on_cited_src_recovered_via_src2": [
+   "Ecksand",
+   "Moraglione 1922",
+   "Smith & Pepper"
+  ],
   "by_tier": {
-   "cultural": 72,
-   "listed": 61,
+   "cultural": 73,
+   "listed": 60,
    "quality": 97
   },
   "regions_checked": 34,

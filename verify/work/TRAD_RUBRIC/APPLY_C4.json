@@ -1,0 +1,191 @@
+{
+ "cat": "C4",
+ "items": [
+  {
+   "rubric_id": "C4-19",
+   "tradition": "Nantucket lightship baskets",
+   "decision": "add_archetype",
+   "dept": "Handbags",
+   "shelf": "Top-handle & tote bags",
+   "kind": "Basket & woven bag",
+   "record": {
+    "n": "Nantucket lightship basket",
+    "a": "Nantucket basket",
+    "d": "Basket woven on a mould with rattan staves, cane weavers and a solid wood base, developed on Nantucket in the 19th century and a keepsake of island visits from the 1860s.",
+    "mk": "",
+    "y": "19th century",
+    "s": "https://nha.org/history-online/nantucket-lightship-baskets/",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "José Reyes",
+     "role": "maker",
+     "src": "https://nha.org/history-online/nantucket-lightship-baskets/"
+    }
+   ],
+   "ve_link": "Nantucket lightship baskets",
+   "why": "Product; placement is in category A4 (Handbags), not C4, as the rubric note says."
+  },
+  {
+   "rubric_id": "C4-5",
+   "tradition": "Shibori",
+   "decision": "add_archetype",
+   "dept": "Fabric, thread & sewing machines",
+   "shelf": "Fabric",
+   "kind": "Resist-dyed cloth (new kind, see C4-6)",
+   "record": {
+    "n": "Shibori cloth",
+    "a": "shibori-dyed cloth · kanoko shibori · Arimatsu-Narumi shibori",
+    "d": "Japanese cloth patterned by binding, stitching, folding or clamping before dyeing, with surviving shibori-dyed cloth dating to the mid-8th century.",
+    "mk": "",
+    "y": "8th century–",
+    "s": "https://en.wikipedia.org/wiki/Shibori",
+    "v": [
+     {
+      "n": "Kanoko shibori",
+      "mk": "",
+      "y": "",
+      "d": "bound 'fawn spots'"
+     },
+     {
+      "n": "Beni itajime",
+      "mk": "",
+      "y": "to early Shōwa",
+      "d": "clamp-resist safflower-red lining silk from Kyoto and Takasaki"
+     }
+    ],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Arimatsu Shibori Mutsumi-kai",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Shibori"
+    }
+   ],
+   "ve_link": "Shibori",
+   "why": "Ambiguous resolved: shibori-dyed cloth is sold under the name (Arimatsu-Narumi), so the cloth is a product here; the binding and folding techniques stay in VE."
+  },
+  {
+   "rubric_id": "C4-6",
+   "tradition": "Batik",
+   "decision": "add_kind",
+   "dept": "Fabric, thread & sewing machines",
+   "shelf": "Fabric",
+   "kind": "",
+   "record": {
+    "n": "Resist-dyed cloth",
+    "a": "batik · tie-dye cloth · adire · bandhani · shibori",
+    "d": "Cloth bought already patterned by resist dyeing, such as Javanese batik, whose locally made cloths out-competed Dutch chintz imports in the 17th century.",
+    "s": "https://en.wikipedia.org/wiki/Batik"
+   },
+   "archetype": {
+    "n": "Batik cloth",
+    "a": "Javanese batik · batik tulis · batik cap",
+    "d": "Wax-resist dyed cloth most highly developed on Java, Indonesia, made in regional styles such as the pesisir coastal batik of Pekalongan, Cirebon and Lasem.",
+    "mk": "",
+    "y": "",
+    "s": "https://en.wikipedia.org/wiki/Batik",
+    "v": [
+     {
+      "n": "Pesisir (coastal) batik",
+      "mk": "",
+      "y": "19th–early 20th century",
+      "d": "north-coast Java style with Chinese and Indo-European influence"
+     },
+     {
+      "n": "Shantiniketan batik",
+      "mk": "",
+      "y": "GI 2026",
+      "d": "Indian GI product"
+     }
+    ],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Eliza van Zuylen",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Batik"
+    },
+    {
+     "n": "Oey Soe Tjoen",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Batik"
+    }
+   ],
+   "ve_link": "Batik",
+   "why": "Ambiguous resolved: batik cloth is bought by name, so it is a product; no Fabric kind covers resist-dyed cloth (Wax-print fabric is the industrial Dutch-wax cloth), so one new kind holds batik, adire, bandhani and shibori, with batik as its first archetype (extra 'archetype' field). The wax and tjanting supplies already sit under Batik wax and tjanting."
+  },
+  {
+   "rubric_id": "C4-7",
+   "tradition": "Adire",
+   "decision": "add_archetype",
+   "dept": "Fabric, thread & sewing machines",
+   "shelf": "Fabric",
+   "kind": "Resist-dyed cloth (new kind, see C4-6)",
+   "record": {
+    "n": "Adire cloth",
+    "a": "àdìrẹ · adire eleko",
+    "d": "Resist-dyed cloth traditionally made by Yoruba women in south-western Nigeria, common among the Egba of Ogun State.",
+    "mk": "",
+    "y": "",
+    "s": "https://en.wikipedia.org/wiki/Adire_(textile_art)",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [],
+   "ve_link": "Adire",
+   "why": "Ambiguous resolved: adire is a named cloth sold in markets (Adire Market Week), so a product."
+  },
+  {
+   "rubric_id": "C4-8",
+   "tradition": "Bandhani",
+   "decision": "add_archetype",
+   "dept": "Fabric, thread & sewing machines",
+   "shelf": "Fabric",
+   "kind": "Resist-dyed cloth (new kind, see C4-6)",
+   "record": {
+    "n": "Bandhani cloth",
+    "a": "bandhej · bandhni · piliya · chungidi · sungudi",
+    "d": "Indian tie-dye textile patterned with thousands of tiny bound dots, made mainly in Rajasthan and Gujarat and sold as cloth and bandhej saris.",
+    "mk": "",
+    "y": "",
+    "s": "https://en.wikipedia.org/wiki/Bandhani",
+    "v": [
+     {
+      "n": "Kutchi bandhani",
+      "mk": "",
+      "y": "",
+      "d": "Kutch belt, made by the Khatri community"
+     },
+     {
+      "n": "Rajasthani bandhani",
+      "mk": "",
+      "y": "",
+      "d": "different colours and designs"
+     },
+     {
+      "n": "Madurai sungudi",
+      "mk": "",
+      "y": "",
+      "d": "Tamil Nadu form"
+     },
+     {
+      "n": "Bandhej sari",
+      "mk": "",
+      "y": "",
+      "d": "Pethapur, Mandvi, Bhuj, Jamnagar, Jaipur and others"
+     }
+    ],
+    "dt": ""
+   },
+   "makers": [],
+   "ve_link": "Bandhani",
+   "why": "Ambiguous resolved: bandhani cloth and saris are bought by name, so a product."
+  }
+ ],
+ "done": true
+}
