@@ -349,15 +349,6 @@
   },
   {
    "axis": "kind",
-   "item": "Adhesives, sealants & packing > Tiling & sealing",
-   "queries": [
-    "CR best caulks"
-   ],
-   "found": 4,
-   "note": ""
-  },
-  {
-   "axis": "kind",
    "item": "Adhesives, sealants & packing > Packing & moving",
    "queries": [
     "best packing tape"
@@ -419,6 +410,16 @@
     "Brick Awards"
    ],
    "found": 12,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Adhesives, sealants & packing > Tiling & sealing",
+   "queries": [
+    "CR caulks",
+    "Wikipedia construction chemicals"
+   ],
+   "found": 9,
    "note": ""
   }
  ],
@@ -875,6 +876,36 @@
    "new_names": 13,
    "status": "done",
    "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Construction_chemicals_companies",
+   "title": "Wikipedia Category:Construction chemicals companies",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 7,
+   "new_names": 4,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Granite_companies",
+   "title": "Wikipedia Category:Granite companies",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 15,
+   "new_names": 4,
+   "status": "done",
+   "note": "monument/quarry firms, edge of C8"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers",
+   "title": "Wikipedia Category:Ceramics manufacturers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 21,
+   "new_names": 0,
+   "status": "partial",
+   "note": "top level is tableware/industrial; country subcategories fetched separately"
   }
  ],
  "brands": [
@@ -2191,6 +2222,70 @@
    "says": "Wikipedia Category:Wallpaper manufacturers",
    "country": "",
    "dept": "wallpaper"
+  },
+  {
+   "n": "Akemi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Construction_chemicals_companies",
+   "says": "Wikipedia Category:Construction chemicals companies",
+   "country": "",
+   "dept": "adhesives/tiling chemicals"
+  },
+  {
+   "n": "Ardex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Construction_chemicals_companies",
+   "says": "Wikipedia Category:Construction chemicals companies",
+   "country": "",
+   "dept": "adhesives/tiling chemicals"
+  },
+  {
+   "n": "Fosroc",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Construction_chemicals_companies",
+   "says": "Wikipedia Category:Construction chemicals companies",
+   "country": "",
+   "dept": "adhesives/tiling chemicals"
+  },
+  {
+   "n": "GCP Applied Technologies",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Construction_chemicals_companies",
+   "says": "Wikipedia Category:Construction chemicals companies",
+   "country": "",
+   "dept": "adhesives/tiling chemicals"
+  },
+  {
+   "n": "Rock of Ages Corporation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Granite_companies",
+   "says": "Wikipedia Category:Granite companies (dimension-stone/paving)",
+   "country": "",
+   "dept": "paving/stone"
+  },
+  {
+   "n": "Coldspring",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Granite_companies",
+   "says": "Wikipedia Category:Granite companies (dimension-stone/paving)",
+   "country": "",
+   "dept": "paving/stone"
+  },
+  {
+   "n": "Graniterock",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Granite_companies",
+   "says": "Wikipedia Category:Granite companies (dimension-stone/paving)",
+   "country": "",
+   "dept": "paving/stone"
+  },
+  {
+   "n": "Penmaenmawr & Welsh Granite Co.",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Granite_companies",
+   "says": "Wikipedia Category:Granite companies (dimension-stone/paving)",
+   "country": "",
+   "dept": "paving/stone"
   }
  ]
 }
