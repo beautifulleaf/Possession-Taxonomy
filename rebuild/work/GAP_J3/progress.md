@@ -5,3 +5,4 @@ step3 apply1 entries added (wikidata + german/dutch/italian)
 step4 sections xg/g added to 13 kinds >12 entries
 step5 coverage lines done
 step6 market facts (Almarai), Savencia/Almarai brands added; Amul/Yili/Mengniu/Clover/Nestle searched
+step7 report written; done
