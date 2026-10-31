@@ -8,3 +8,4 @@ ROUND2 started: items 1 market shares, 2 g sections via API extracts, 3 owners r
 R2 item2 done: g added to tableware kinds (g2.py); ~20 fetches used; left Hauck, Screwpull country unsourced. next: item3 owners, item1 market shares
 R2 item3 done: Richard-Ginori Kering 2013, Chemex family-owned, Zalto GmbH, Moser 1857; Dualit, Oster, Hario, Narumi stay empty. ~24 fetches used; next item1 market shares
 R2 item1 partly done: De'Longhi 2016 shares added to ms (Coffee 1, Kitchen 4). ~31 fetches. remaining: maybe Whirlpool/Electrolux annual report, kettles; then report
+R2 done, report updated

@@ -23,3 +23,4 @@ R2 step5: build2.py run -> EUROPE.json rewritten (1489 entries, 641 y_updates). 
 R2 done: report updated
 ROUND3 started: finish VW/BMW/Mercedes/Audi/Peugeot windows; categories Alfa Lancia Jaguar LandRover Bentley Morris Triumph Lada Pagani Trabant + Rover next page; generation versions v. Backup EUROPE_r2.json
 R3 step1: fetched VW past models, BMW/Mercedes/Audi/Peugeot remaining windows (limited data), categories Alfa Lancia Jaguar LandRover Bentley Morris Triumph Lada VAZ Rover -> lists_r3.txt; versions_r3.txt (BMW/Audi/Mercedes/VW codes with years from list tables seen). ~17 fetches R3. Next build3.py
+R3 done: EUROPE.json 1674 entries, report updated

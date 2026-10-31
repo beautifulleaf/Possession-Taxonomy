@@ -17,3 +17,18 @@ Validator: OK (--v3), 277 kinds, 737 entries. About 58 fetches used. Backups in 
 - Section axis (step 5): Cutlery set (17 entries) and the other tableware kinds (Plate, Steak knife, Serving, Butter dish etc.) still have no `g`; maker countries are not on the cited pages and the brand register lacks them. Cocktail shaker and Corkscrew have `xg` but no `g`.
 - Not touched: Susie Cooper and Pyrex patterns, Ninja Foodi 2018 source, Misono and Tojiro founding years, Kai and Lodge Wikipedia 404s.
 - Not attempted: Wikidata SPARQL for glassware makers; Firecrawl (none needed, nothing deferred).
+
+# Round 2 (about 36 fetches; validator OK, 737 entries)
+
+## Closed
+- **Sections for tableware kinds.** Every entry in Plate, Cutlery set, Steak knife, Chopsticks, Serving bowl and tray, Cheese board, Butter dish, Sugar bowl and creamer, Cruet set, Coaster and Corkscrew/Cocktail shaker (except two) now has `g` (maker or origin country) and `xg`; kinds sorted by country, year, name. Countries from Wikipedia API extracts (Georg Jensen, Christofle, Alessi, WMF, Iittala, Opinel, Le Creuset, Royal Copenhagen, Bing & Grøndahl, Puiforcat, Tête de Moine, Cheese slicer, Cow creamer, Corkscrew), V&A (Gense, Sweden), Cutipol's site (Portugal), Cool Hunting (Perceval, France), Spitalfields Life (Kaymet, London). Stelton's Cylinda-Line is placed in Denmark as a Arne Jacobsen design (the Wikipedia page gives the Danish ID-prize but does not name Stelton's country).
+- **Owners.** Richard-Ginori: Kering, 2013 (Kering page lists Ginori 1735, formerly Richard Ginori). Chemex: Chemex Corporation, family-owned (own site; no year). Zalto: ZALTO Glas GmbH, Gmünd, Austria (no owner family named). Moser: founding year 1857 added.
+- **Market shares.**
+  - De'Longhi Group, 2016, company data, 47 countries excl. US, China, India: espresso coffee makers 33 %, hand blenders 24 %, kitchen machines 37 %, food processors 17 %; kettles and toasters 8 % (39 countries). Added to `ms` of Coffee and Kitchen appliances.
+  - US home appliances 2023, share of sales (TraQline, via Korea JoongAng Daily): Samsung 21 %, LG 19 %, GE 18 %, Whirlpool 15 %; units 19, 16, 17, 16 %.
+
+## Remains (two attempts each)
+- Owner not stated: Dualit (own history page and Wikipedia name only the Gort-Barten family; trademark records show Dualit Holdings Limited), Oster/Osterizer (page gives Sunbeam 1960 only), Hario, Narumi (Wikipedia 404; search "Narumi porcelain company Nagoya founded 1946 owner").
+- Country not stated: Hauck shaker maker and Screwpull; those two kinds carry no `xg`.
+- Haier percentage: Haier's pages give rank only ("No. 1 by volume 2024, 16th year"); haier-europe.com 403, listed in firecrawl_deferred.md. No Samsung/LG global figure found.
+- Electric kettles: no brand share on a fetched page (GMI page 410; searches "UK electric kettle market share brands ..."). SharkNinja and Groupe SEB: no share percentages found (SharkNinja press release gives segment sales only; channelnews page blocked; De'Longhi 2024 report PDF over the size limit). Whirlpool/Electrolux annual reports not fetched.

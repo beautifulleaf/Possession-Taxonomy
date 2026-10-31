@@ -18,3 +18,5 @@ LONG PAGES: WebFetch returns at most about 100,000 characters per call. For a lo
 FIRECRAWL (2026-10-31): credits are used up until about 21:00 UTC. Do not call Firecrawl. When WebFetch gets 403 or a JavaScript-only page, append one line to /home/user/Possession-Taxonomy/verify/work/GEN/firecrawl_deferred.md ("- <CODE>: <url or page> — <what it would give>") and carry on with other sources.
 
 BUDGET: use the whole fetch budget on open gaps before stopping. Stop early only when every gap is closed or every remaining gap has two recorded failed attempts.
+
+SECTIONS: a section axis must be a domain axis (country, maker, class, type, period, region). Never section by initial letter or alphabetical band; leave a kind unsectioned until a real axis is sourced.
