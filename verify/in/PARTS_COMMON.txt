@@ -11,3 +11,5 @@ Parts:
 - Validate your part by wrapping it: python3 -I -c "import json,sys;p=json.load(open(sys.argv[1]));json.dump({'c':'<CODE>','ax':'x','key':['1. x? → '+p['depts'][0]['n']],'depts':p['depts']},open(sys.argv[2],'w'))" <part file> rebuild/work/<BATCH>/check.json && python3 /home/user/Possession-Taxonomy/rebuild/validate.py --v3 rebuild/work/<BATCH>/check.json (ignore only errors about the category key).
 - Budget: about 60 fetches; Wikidata queries count as fetches.
 - Report: rebuild/out/<BATCH>_report.md (≤ 450 words): per kind entries before → after, references and coverage, market facts with years, what could not be sourced. Reply with a short summary.
+
+LONG PAGES: WebFetch returns at most about 100,000 characters per call. For a longer page, call it again with the offset parameter (100000, 200000, …) until the page ends, and ask for rows verbatim ("name | year | maker"), not a summary. A page read only to its first window is not read. Never guess a URL: find every page with WebSearch.

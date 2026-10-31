@@ -134,7 +134,7 @@ prot_bread=[
  E('Focaccia di Recco col formaggio','Two thin layers of dough with cheese from Recco, Liguria; PGI status.',S_WD+'Q3746935',y='PGI',g='Italy'),
 ]
 prot_bake=[
- E('Aachener Printen',reuse='Aachener Printen',g='Germany',s=S_WD+'Q153254',y='PGI',d='Hard Lebkuchen from Aachen; the Wikidata record shows EU protection from 1997-01-24 and an eAmbrosia entry.'),
+ E('Aachener Printen',reuse='Aachener Printen',g='Germany',s=S_WD+'Q153254'),
  E('Nürnberger Lebkuchen',reuse='Nürnberger Lebkuchen',g='Germany'),
  E('Dresdner Stollen',reuse='Dresdner Stollen',g='Germany'),
  E('Toruń gingerbread',reuse='Toruń gingerbread',g='Poland'),

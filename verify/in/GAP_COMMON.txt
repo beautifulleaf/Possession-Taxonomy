@@ -12,3 +12,5 @@ Close, in this order:
 4. Every gap the reports list (missing market facts, owners not stated, pages not read, sections missing, roles never checked): try again with a different source (WebSearch for another page; Firecrawl only for a page WebFetch cannot read). Where a fact truly has no fetched source after two attempts, leave it empty and record "searched: <queries>" in the report; never guess.
 5. Entries without `g` in a kind that has `xg`, and kinds over about 12 entries without sections: add the section axis from the reference.
 Budget: about 60 fetches. Validate with python3 /home/user/Possession-Taxonomy/rebuild/validate.py --v3 rebuild/out/<CODE>.json until OK. Report rebuild/out/GAP_<CODE>_report.md (≤ 400 words): each gap and what closed it, what remains (with searches tried). Reply with a short summary.
+
+LONG PAGES: WebFetch returns at most about 100,000 characters per call. For a longer page, call it again with the offset parameter (100000, 200000, …) until the page ends, and ask for rows verbatim ("name | year | maker"), not a summary. A page read only to its first window is not read. Never guess a URL: find every page with WebSearch.
