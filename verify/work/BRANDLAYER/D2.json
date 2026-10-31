@@ -295,6 +295,56 @@
    "new_names": 3,
    "status": "done",
    "note": "Device category winners; 15 makers already known (Apple, Google, Samsung, Honor, Garmin, TECNO, Xiaomi, Oppo, OnePlus, TCL, Motorola, ZTE, Huawei, Vodafone, Porsche Design). 2011-2019 not fetched."
+  },
+  {
+   "url": "https://www.zdnet.com/article/best-rugged-phone/",
+   "title": "ZDNET best rugged phones 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 6,
+   "new_names": 2,
+   "status": "done",
+   "note": "Oukitel WP210, Doogee V Max Pro/S200 X, Samsung XCover7 Pro, AGM H6, Google Pixel Fold, Ulefone Armor 25T Pro; Doogee, Samsung, Google, Ulefone known"
+  },
+  {
+   "url": "https://www.zdnet.com/article/best-e-reader",
+   "title": "ZDNET best e-readers 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 7,
+   "new_names": 1,
+   "status": "done",
+   "note": "Kindle, Boox, Kobo, Nook; Kobo/Nook known"
+  },
+  {
+   "url": "https://www.test.de/Tablets-im-Test-4627215-0/",
+   "title": "Stiftung Warentest tablets",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "mention Apple, Samsung, Lenovo, Honor, Huawei, Amazon, Xiaomi, Oppo, Google, Motorola all known; nav menu names not tested"
+  },
+  {
+   "url": "https://www.test.de/Smartwatches-und-Fitness-Tracker-im-Test-5254021-0/",
+   "title": "Stiftung Warentest smartwatches/fitness trackers",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "Apple, Garmin, Amazfit, Suunto, Polar, Samsung, Google, Fitbit, Huawei, Xiaomi all known"
+  },
+  {
+   "url": "https://www.which.co.uk/reviews/ebook-readers/article/how-to-buy-the-best-ebook-reader-ak5yG0F02K9Z",
+   "title": "Which? e-readers",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 3,
+   "new_names": 0,
+   "status": "partial",
+   "note": "login-gated; names Kindle, Kobo, PocketBook (all known); best buys hidden"
   }
  ],
  "brands": [
@@ -340,9 +390,9 @@
   },
   {
    "n": "Oukitel",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_mobile_phone_brands_by_country",
-   "says": "Wikipedia List of mobile phone brands by country: brand linked to its own en-Wikipedia article",
+   "layer": "premium",
+   "src": "https://www.zdnet.com/article/best-rugged-phone/",
+   "says": "ZDNET 'best rugged phones in 2026' pick: Best rugged phone overall (Oukitel WP210)",
    "country": "China",
    "dept": ""
   },
@@ -876,9 +926,9 @@
   },
   {
    "n": "Bullitt Group",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/List_of_mobile_phone_brands_by_country",
-   "says": "Wikipedia List of mobile phone brands by country: brand linked to its own en-Wikipedia article",
+   "layer": "premium",
+   "src": "https://www.gsma.com/newsroom/press-release/2023-glomo-award-winners-announced-at-mwc-barcelona-2023",
+   "says": "GLOMO Awards 2023 Best in Show: Motorola Defy Satellite Link made by Bullitt (merged with Bullitt Group)",
    "country": "United Kingdom",
    "dept": ""
   },
@@ -1571,20 +1621,28 @@
    "dept": "pocket translator"
   },
   {
-   "n": "Bullitt",
-   "layer": "premium",
-   "src": "https://www.gsma.com/newsroom/press-release/2023-glomo-award-winners-announced-at-mwc-barcelona-2023",
-   "says": "GLOMO Awards 2023 Best in Show: Motorola Defy Satellite Link made by Bullitt",
-   "country": "",
-   "dept": "rugged phone"
-  },
-  {
    "n": "RAZ Mobility",
    "layer": "premium",
    "src": "https://www.gsma.com/newsroom/press-release/2025-glomo-awards-winners-unveiled-at-mwc25-barcelona",
    "says": "GLOMO Awards 2025 Best Use of Mobile for Accessibility & Inclusion: RAZ Memory Cell Phone",
    "country": "",
    "dept": "accessible phone"
+  },
+  {
+   "n": "AGM",
+   "layer": "premium",
+   "src": "https://www.zdnet.com/article/best-rugged-phone/",
+   "says": "ZDNET 'best rugged phones in 2026' pick: AGM H6 (best affordable rugged phone)",
+   "country": "",
+   "dept": "rugged phone"
+  },
+  {
+   "n": "Boox",
+   "layer": "premium",
+   "src": "https://www.zdnet.com/article/best-e-reader",
+   "says": "ZDNET best e-readers of 2026: Boox Tab Mini C (best for note-taking), Boox Palma 2 (best small e-reader)",
+   "country": "China",
+   "dept": "e-reader"
   }
  ]
 }
