@@ -1,0 +1,58 @@
+import sys; sys.path.insert(0,'/home/user/Possession-Taxonomy/rebuild/work/STR_G1')
+from edit import *
+P=POWER
+S='https://en.wikipedia.org/wiki/Car_body_style'
+spec=dict(
+t="Passenger cars, new or classic, named by body shape and purpose; a van or lorry → Vans, trucks & buses; a machine for rough ground without car bodywork → Off-road & leisure vehicles; a toy car → E1.",
+ax="What is the car for: family use, comfort and status, open-air driving, speed, rough ground, tiny size, or a body built outside the factory?",
+add=[dict(n="Utility coupé",a="ute · coupé utility",d="Car-based pickup with the cab and load bed made as one body, popular in Australia and New Zealand.",s=S,tt=[["Cab",["Single cab","Double cab"]],["Load bed",["Open tray","Fitted tub"]]])],
+dem=[("Hot rod and custom car","Street rod","type"),("Hot rod and custom car","Rat rod","type"),("Hot rod and custom car","Lowrider","type"),("Dune buggy","Sandrail","type")] if False else [("Hot rod and custom car","Street rod","type"),("Hot rod and custom car","Rat rod","type"),("Hot rod and custom car","Lowrider","type")],
+tt={
+"Hatchback":P+";Doors:Three-door|Five-door|Liftback;Size:Supermini (B-segment)|Small family (C-segment)",
+"Saloon":P+";Doors:Two-door|Four-door;Roofline:Notchback|Fastback|Four-door coupé;Size:Compact executive|Large family (D-segment)",
+"Estate":P+";Size:Compact estate|Large estate;Style:Shooting brake|Raised all-terrain estate",
+"SUV":P+";Size:Crossover|Compact|Mid-size|Full-size;Drive:Two-wheel drive|Four-wheel drive",
+"MPV":P+";Size:Compact MPV|Large MPV;Seats:Five|Seven|Eight;Rear doors:Hinged|Sliding",
+"City car":P+";Seats:Two|Four;Doors:Three-door|Five-door",
+"Luxury saloon":"Wheelbase:Standard|Long;Power:Petrol|Plug-in hybrid|Battery electric",
+"Grand tourer":"Body:Coupé|Convertible|Shooting brake;Seats:Two-seater|2+2",
+"Limousine":"Origin:Factory long-wheelbase|Stretch conversion;Body:Pullman (with partition)|Landaulet",
+"Coachbuilt car":"Run:One-off|Limited series;Basis:Factory-licensed body|Rebody of an existing chassis",
+"Sports car":"Engine position:Front-engined|Mid-engined|Rear-engined;Roof:Coupé|Targa|Open",
+"Coupé":"Roofline:Fastback|Hardtop;Seats:Two-seat|2+2",
+"Convertible":"Roof:Soft top|Folding hard top;Seats:2+2|Four-seat",
+"Roadster":"Roof:Soft top|Hard top;Engine position:Front-engined|Mid-engined",
+"Hot hatch":"Drive:Front-wheel drive|All-wheel drive;Doors:Three-door|Five-door",
+"Muscle car":"Engine:V8;Body:Coupé|Convertible|Fastback",
+"Supercar":"Engine:V8|V10|V12;Layout:Mid-engined;Body:Coupé|Spider",
+"Hypercar":"Engine:V8|V12|W16;Power:Combustion|Hybrid;Body:Coupé|Roadster",
+"Track and racing car":"Legality:Road-legal|Race-only;Layout:Open-wheel|Sports prototype;Era:Historic|Current",
+"Off-roader":"Wheelbase:Short|Long;Body:Soft top|Hard top|Station wagon|Pickup or cab chassis",
+"Pickup truck":"Cab:Single cab|Extended cab|Double cab;Size:Compact or mid-size|Full-size|Heavy duty",
+"Kit car":"Build:Component car|Turnkey build;Basis:Donor-based|Own chassis;Form:Replica|Original design",
+"Hot rod and custom car":"Style:Traditional|Street rod|Rat rod|Lowrider|Pro-street;Body work:Highboy|Chopped roof|Channelled",
+"Kei car":"Body:Kei hatchback|Tall-roof kei|Kei sports car|Kei off-roader",
+"Microcar":"Class:Bubble car|Light quadricycle|Heavy quadricycle;Power:Petrol|Battery electric",
+"Three-wheeled car":"Wheel layout:Single front wheel|Single rear wheel;Engine:Motorcycle-engined",
+},
+see={
+"Pickup truck":[["G1","Utility coupé","car-based load bed"]],
+"Utility coupé":[["G1","Pickup truck","truck-based load bed"]],
+"Off-roader":[["G1","Side-by-side","off-road, no car body"]],
+"Microcar":[["G1","Three-wheeled car","three-wheeled microcars"]],
+"Three-wheeled car":[["G1","Trike","motorcycle-based three-wheeler"]],
+"Track and racing car":[["G1","Go-kart","small racing chassis"]],
+"Convertible":[["G1","Roadster","open two-seater"]],
+"Roadster":[["G1","Convertible","open car with four seats"]],
+"Grand tourer":[["G1","Coupé","closed two-door body"]],
+},
+shelves=[
+dict(n="Everyday cars",t="Cars bought to carry a household day to day, named by body shape; a car chosen for comfort and status → Luxury cars, for speed → Performance cars.",ax="kinds by body shape for people and luggage, smallest first",k=["City car","Hatchback","Saloon","Estate","MPV","SUV"]),
+dict(n="Luxury cars",t="Large, refined cars bought for comfort and status: executive saloons, long-distance grand tourers and chauffeur limousines; a cheaper family car → Everyday cars.",ax="kinds by how the car is used: driven by the owner, driven long distance, or driven by a chauffeur",k=["Luxury saloon","Grand tourer","Limousine"]),
+dict(n="Sports & open cars",t="Two-door cars bought for driving pleasure, from the general sports car to its closed and open body styles; a faster road car → Performance cars.",ax="kinds by roof and seating: sports car in general, closed coupé, open four-seater, open two-seater",k=["Sports car","Coupé","Convertible","Roadster"]),
+dict(n="Performance cars",t="Cars tuned or built for speed beyond ordinary road use, from fast family hatchbacks to racing cars; a gentler sports car → Sports & open cars.",ax="kinds by how far they go beyond a road car, from tuned hatchback to racing car",k=["Hot hatch","Muscle car","Supercar","Hypercar","Track and racing car"]),
+dict(n="Off-roaders & pickups",t="Cars with a separate load bed or built for rough ground; a smaller machine without a car body → Off-road & leisure vehicles.",ax="kinds by what they carry or cross: rough ground, an open load bed, or both in one car body",k=["Off-roader","Pickup truck","Utility coupé"]),
+dict(n="Tiny cars",t="Very small cars defined by a size, weight or engine limit that sets their licence and tax; a normal small car → City car.",ax="kinds by the rule class that defines them: Japanese kei, European quadricycle, three-wheeler",k=["Kei car","Microcar","Three-wheeled car"]),
+dict(n="Built & custom cars",t="Cars whose body or build did not come from a mass-production line: kits, customised hot rods and coachbuilt bodies; a standard factory car → the other shelves.",ax="who builds or reshapes the body: a home builder, a customiser, a coachbuilder",k=["Kit car","Hot rod and custom car","Coachbuilt car"]),
+])
+if __name__=='__main__': apply("Cars",spec)
