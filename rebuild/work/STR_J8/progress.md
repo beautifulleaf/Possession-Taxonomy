@@ -3,3 +3,4 @@ step1: read all, fetched refs (lists of breads/pastries/cakes/cookies/crackers/s
 step2: wrote spec_tt.py (tt dict)
 step3: spec_struct.py written
 step4: installed new J8.json, renames; next verify see targets, size, report
+step5: report written; done
