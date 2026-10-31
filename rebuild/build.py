@@ -61,6 +61,8 @@ article.item.open p.desc.clamp { -webkit-line-clamp: unset; display: block; }
 .kfoot { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 2px; }
 .kfacts { font: 12px/1.3 var(--mono); color: var(--muted); }
 .open-btn { border: 1px solid var(--rule); background: var(--bg); color: var(--accent); border-radius: 999px; padding: 3px 12px; font: 600 13px/1.4 var(--body); cursor: pointer; }
+.copy-btn { border: 0; background: none; color: var(--muted); cursor: pointer; padding: 3px 4px; font: 600 13px/1.4 var(--body); margin-left: auto; margin-right: 10px; }
+.copy-btn:hover { color: var(--accent); }
 .kbody { display: grid; gap: 8px; margin-top: 6px; border-top: 1px solid var(--rule); padding-top: 8px; }
 .entries { display: grid; gap: 6px; }
 .ehead { margin: 4px 0 0; font-size: 13.5px; color: var(--muted); } .ehead b { color: var(--ink); }

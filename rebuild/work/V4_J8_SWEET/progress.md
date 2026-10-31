@@ -7,3 +7,4 @@ step5: wrote data_common/choc/sweet/ice/bisc.py and data_cb_rest.txt in work dir
 step6: build.py runs, part written; validating + QA
 step7: part validated OK, report written. DONE.
 step8: coordinator follow-up round started (cookies list, PDO lists, Meiji/Lotte/Morinaga/Glico/Orion/Haitai, national shares, d lines)
+step9: follow-up fetches done (~50): cookie list again, GI shortlist+Mercosur annex via pdftotext (gi_nz.txt, gi_mercosur.txt), Meiji brand list (firecrawl), Lotte JP catalogue, Morinaga, Glico, Orion, Haitai pages, share pages (US 2018 Euromonitor, Japan 2013, China 2017/2024, UK choc 2020, US ice 2024). NEXT: data_cookies.txt, data_asia.py, patch build.py, rebuild, validate, report

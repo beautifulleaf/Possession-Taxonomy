@@ -5,6 +5,8 @@ from data_choc import CHOC,R
 from data_sweet import SWEET
 from data_ice import ICE
 from data_bisc import BISC
+from data_asia import ASIA,SRCX,GI_ANNOT
+SRC.update(SRCX)
 ROOT='/home/user/Possession-Taxonomy/rebuild/'
 SRC['BT']='https://businesstoday.in/story/biscuit-market-global-firms-want-an-indian-share/1/13884.html'
 DEPTS=('Chocolate','Sweets & confectionery','Biscuits & crackers','Ice cream')
@@ -16,7 +18,8 @@ notes=[]
 def canon(n): return re.sub(r'[^a-z0-9]','',n.lower())
 # ---------- rows
 rows=[]
-for lst in (CHOC,SWEET,ICE,BISC): rows+=lst
+for lst in (CHOC,SWEET,ICE,BISC,ASIA): rows+=lst
+rows=[r for r in rows if r['n']!='Pretz Mikado']
 KFIX={'Hello Panda':'Chocolate-coated biscuit','Yan Yan':'Chocolate-coated biscuit','Kinoko no Yama':'Chocolate-coated biscuit','Pepero':'Chocolate-coated biscuit','Penguin':'Chocolate-coated biscuit','Club':'Chocolate-coated biscuit','Trio':'Chocolate-coated biscuit','Pocky':'Chocolate-coated biscuit',"Tunnock's Caramel Wafer":'Chocolate-coated biscuit','Black Thunder':'Chocolate-coated biscuit',
  'Sweet biscuits':'Digestive & plain biscuit','Savoury biscuit':'Cheese cracker','Ghirardelli':'Milk chocolate bar'}
 KMAP={'Sweet biscuits':'Digestive & plain biscuit','Savoury biscuit':'Cheese cracker'}
@@ -45,6 +48,23 @@ B2B=[('Ah Cacao Real Chocolate','Mexico','2003'),('Amano Artisan Chocolate','Uni
 for n,c,y in B2B:
     if canon(n) in {canon(r['n']) for r in rows}: continue
     rows.append(R(n,'Single-origin dark chocolate',n,c,y,f'Bean-to-bar chocolate maker founded in {y} in {c}.','B2B',t='Craft & indie'))
+CK_KIND={'S':'Shortbread & butter biscuit','P':'Speculoos & spiced biscuit','B':'Biscotti & amaretti','W':'Wafer','C':'Cookie','D':'Digestive & plain biscuit','M':'Macaron & meringue','X':'Chocolate-coated biscuit','A':'Sandwich cream biscuit'}
+def ctry(o):
+    o=o.strip()
+    m=re.match(r'^([^(,/]+?)\s*(\(|,|/| and |$)',o)
+    c=m.group(1).strip() if m else o
+    return {'Origin not stated':'Origin not stated','Jewish':'Jewish (Ashkenazi)'}.get(c,c)
+for ln in open('/home/user/Possession-Taxonomy/rebuild/work/V4_J8_SWEET/data_cookies.txt',encoding='utf-8'):
+    ln=ln.rstrip('\n')
+    if not ln: continue
+    n,orig,code=ln.split('|')
+    r=R(n,CK_KIND[code],'',  '' ,'',f'Listed in Wikipedia\'s List of biscuits and cookies as from {orig}.' if orig!='Origin not stated' else 'Listed in Wikipedia\'s List of biscuits and cookies; no origin is given.','CK')
+    c=ctry(orig)
+    r['form']=f'Traditional forms: {c}'
+    rows.append(r)
+for r in rows:
+    if r['s'] in('MERC','NZGI'):
+        r['o']='';r['form']='Protected or traditional forms: '+r['c']
 rows=[r for r in rows if r['k'] not in DROP and r['n'] not in DROPN]
 for r in rows:
     r['k']=KFIX.get(r['n'],KMAP.get(r['k'],r['k']))
@@ -143,7 +163,8 @@ for r in rows:
         merged+=1; continue
     kdn,k=kinds[r['k']]
     en={'n':r['n'],'a':r['a'],'d':r['d'],'mk':'' if r['o']=='owner not stated' else r['o'],'y':r['y'],'s':SRC[r['s']],'v':[{'n':n,'y':y,'d':d} for n,y,d in r['v']],'dt':''}
-    en['own']=r['o']
+    if r['o']: en['own']=r['o']
+    if r.get('form'): en['_g']=r['form']
     if t: en['tier']=t
     if r['c']: en['cty']=r['c']
     if r['oy']: en['own_y']=r['oy']
@@ -161,8 +182,9 @@ def grank(e):
     t=e.get('tier','')
     if t=='Global group':
         o=e.get('own'); return (0,GL.index(o) if o in GL else 99)
-    return {'National champion':(1,0),'Independent':(2,0),'Craft & indie':(3,0),'Own label':(4,0)}.get(t,(5,0))
+    return {'National champion':(1,0),'Independent':(2,0),'Craft & indie':(3,0),'Own label':(4,0)}.get(t,(5,0) if not e.get('_g') else (6,0))
 def gname(e):
+    if e.get('_g'): return e['_g']
     t=e.get('tier','')
     if t=='Global group': return f"Global group: {e.get('own')}"
     if t: return t
@@ -181,7 +203,7 @@ for kn,(dn,k) in kinds.items():
         if e.get('role') and e['n'] not in OKROLE and not e.get('_keep'):
             # keep only roles that came from the structure pass (not set by me)
             pass
-    k['x'].sort(key=lambda e:(grank(e),ykey(e),e['n'].lower()))
+    k['x'].sort(key=lambda e:(grank(e),e.get('_g',''),ykey(e),e['n'].lower()))
     # role cap
     cap=max(1,math.ceil(len(k['x'])/5))
     rl=[e for e in k['x'] if e.get('role')]

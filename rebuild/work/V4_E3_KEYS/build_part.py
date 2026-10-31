@@ -365,6 +365,7 @@ add('DJ media player',
     E('Pioneer DMP-555', 'AlphaTheta (Pioneer DJ)', '2002', 'Pioneer media player listed in the CDJ article, April 2002.', 'CDJ'))
 add('DJ controller', E('Korg Kaoss DJ', 'Korg', '2015', 'Korg DJ controller of 2015.', 'KO'))
 
+exec(open(ROOT + 'work/V4_E3_KEYS/extra.py').read())
 # --- m -> conversion rules ---
 # (kind, mname) -> ('v', entry, [name]) | ('drop', why) ; default entry
 MR = {}
@@ -376,9 +377,10 @@ vr('Grand piano', 'C. Bechstein Concert grands', ['D 282', 'C 234', 'B 212', 'A 
 MR[('Grand piano', 'Bösendorfer VC grands')] = ('e', 'Bösendorfer VC grands')
 MR[('Grand piano', 'Fazioli smaller grands')] = ('e', 'Fazioli F-series grands')
 MR[('Grand piano', 'C. Bechstein Concert grands')] = ('e', 'C. Bechstein Concert grands')
-vr('Tonewheel organ', 'Hammond clonewheel line (XB/XK/SK)', ['Hammond XB-2 / XB-3 / XB-5', 'Hammond XK-3', 'Hammond XK-5', 'Hammond XK-1c', 'Hammond SK1', 'Hammond SK-X'], 'Hammond')
+for _n in ['Hammond XB-2 / XB-3 / XB-5', 'Hammond XK-3', 'Hammond XK-5', 'Hammond XK-1c', 'Hammond SK1', 'Hammond SK-X']: MR[('Tonewheel organ', _n)] = ('drop', 'folded into Hammond XK clonewheel line')
 vr('Tonewheel organ', 'Nord Electro', ['Nord Electro 2', 'Nord Electro 3', 'Nord Electro 4', 'Nord Electro 5', 'Nord Electro 6'], 'Clavia')
 MR[('Tonewheel organ', 'Nord Electro')] = ('e', 'Nord Electro')
+ENFIX = {'Moog Music': 'Moog'}
 vr('Electronic organ', 'Lowrey home organ', ['Model S Spinet (Berkshire)', 'Holiday Deluxe LSL', 'DSO-1 Heritage Deluxe', 'Kalamazoo K-101 / Gibson G-101', 'Genie', 'C500 Celebration', 'MicroGenie Pro V600', 'NT series (Holiday, Heritage, MX-2)'], 'Lowrey')
 vr(DMK, 'Elektron Machinedrum', ['Machinedrum SPS-1'], 'Elektron')
 MR[(DMK, 'Elektron Machinedrum lineage')] = ('e', 'Elektron Machinedrum')
@@ -407,7 +409,7 @@ RENAMES = {}
 NAMEFIX = {'Zoom (audio)': 'Zoom', 'JBL (audio)': 'JBL', 'AlphaTheta (Pioneer DJ)': 'Pioneer DJ'}
 
 def ename(name, mk):
-    mk2 = NAMEFIX.get(mk, mk)
+    mk2 = ENFIX.get(mk, NAMEFIX.get(mk, mk))
     if not mk2 or norm(name).startswith(norm(mk2)) or norm(mk2) in norm(name): return name
     return f'{mk2} {name}'
 
@@ -427,6 +429,7 @@ OWN = {  # maker: (own, tier, cty, own_y) only where a fetched page states it
     'Sabian': ('Sabian', 'Independent', 'Canada', ''),
 }
 SECT_UNKNOWN = 'Other and historical makers'
+OWN.update(OWN2)
 
 def finish_entry(e, extra_src=None):
     mk = e.get('mk', '')
@@ -436,6 +439,8 @@ def finish_entry(e, extra_src=None):
         e['own'], e['tier'], e['cty'] = o[0], o[1], o[2]
         if o[3]: e['own_y'] = o[3]
     used_brands.add(mk)
+    if e['n'] in ROLES:
+        e['role'] = ROLES[e['n']][0]
     e['g'] = NAMEFIX.get(mk, mk) if mk else SECT_UNKNOWN
     for v in e.get('v', []): used_brands.add(v.get('mk', ''))
     return e
@@ -483,11 +488,28 @@ for dep in src['depts']:
                     if nm in created: continue
                     report_rows.append((kn, mn, 'already an entry')); continue
                 en = E(nm, mk, '', f'Current {kn.lower()} model from {NAMEFIX.get(mk, mk)}, listed on a retailer catalogue page.' if mk else f'{nm}, a maker or tradition named in the earlier list.', k.get('s', ''))
+                en['_m'] = (mn, mk)
                 created[nm] = en; n_conv += 1
                 report_rows.append((kn, mn, 'entry ' + nm))
-            for en in created.values():
-                allnames[norm(en['n'])] = 1
-                xs.append(en); by[en['n']] = en
+            rr = k2.setdefault('r', [])
+            for en in list(created.values()):
+                nm = en['n']
+                if '_m' in en:
+                    mn0, mk0 = en.pop('_m')
+                    if nm in CONFIRM:
+                        sk, y0, d0 = CONFIRM[nm]
+                        en.update(s=U[sk], d=d0)
+                        if y0: en['y'] = y0
+                    elif nm in DUPES:
+                        n_conv -= 1; continue
+                    else:
+                        n_conv -= 1
+                        if [mn0, mk0] not in rr: rr.append([mn0, mk0])
+                        for v in en.get('v', []):
+                            if [v['n'], v['mk']] not in rr: rr.append([v['n'], v['mk']])
+                        continue
+                allnames[norm(nm)] = 1
+                xs.append(en); by[nm] = en
             # new from references
             n_new = 0
             for en in NEW.get(kn, []):
@@ -523,9 +545,9 @@ for dep in src['depts']:
                 refnames = [r.split('/')[-1].replace('_', ' ') for r in refs]
                 cov = ''
                 if kn in (MON, POL):
-                    cov = f' Complete: 42 of 43 rows in Wikipedia "List of synthesizers" (ReBirth is software and belongs to I1); the Korg, Roland Jupiter, Moog, Sequential and Oberheim pages add the makers\' own lines.'
+                    cov = f' Complete: 42 of 43 rows in Wikipedia "List of synthesizers" (ReBirth is software and belongs to I1); the Korg list is read in full (instruments only; tuners, effects, recorders, software and amplifiers are out of scope) and the Roland Jupiter, Moog, Sequential, Oberheim, Nord, Novation, Arturia, Ensoniq and Kurzweil pages add the makers\' own lines.'
                 elif kn == DMK:
-                    cov = ' Complete: every hardware drum machine named in Wikipedia "Drum machine" (about 45); Korg rows come from the first 100,000 and last 39,084 characters of "List of Korg products" as condensed by the page summariser, so some Korg drum machines may be missing.'
+                    cov = ' Complete: every hardware drum machine named in Wikipedia "Drum machine" (about 45) and every drum machine in "List of Korg products" (read to character 135,000 of 139,084; the rest is references).'
                 elif kn in ('Digital piano', 'Portable keyboard', 'Keytar', 'Sampler', 'Groovebox', 'Step sequencer', 'Tonewheel organ', 'Electric piano', 'Grand piano'):
                     cov = f' Covers {len(xs)} entries; the maker pages cited list only part of each canon and Wikipedia has no complete list of this kind.'
                 elif dep['n'] == 'Recording & live sound':
@@ -536,13 +558,11 @@ for dep in src['depts']:
                     cov = f' Covers {len(xs)} entries; the Pearl, Paiste, Ludwig, Tama and Drum Workshop pages name few lines and no Sabian, Zildjian, Gretsch, Sonor, Yamaha or Tama line page gave a list.'
                 else:
                     cov = f' Covers {len(xs)} entries; no complete reference list exists for this kind.'
-                k2['sel'] = ('Follows the existing hobby reference pages for each entry, with additions from ' + (', '.join(refnames) if refnames else 'no new page') + '; loose models were turned into entries or versions.' + cov)
+                k2['sel'] = ('Follows the existing hobby reference pages for each entry, with additions from ' + (', '.join(refnames) if refnames else 'no new page') + '; loose models confirmed on a maker or Wikipedia page became entries or versions and the rest are kept as ranges (r).' + cov)
                 k2['xg'] = 'Sections are makers; within each, by year then name.'
             stats[kn] = (len(k.get('x', [])), len(xs), len(k.get('m', [])), n_conv, n_ver, n_drop, n_new)
             # ranges: drop those now covered
-            if 'r' in k2:
-                if kn in ('Grand piano', 'Upright piano', 'Pipe organ', 'Electronic organ', 'Conga', 'Bongos'):
-                    k2.pop('r')
+            if not k2.get('r'): k2.pop('r', None)
             sh2['k'].append(k2)
         d2['s'].append(sh2)
     out_depts.append(d2)
@@ -554,17 +574,18 @@ for d2 in out_depts:
         d2['ms'] = [
             {"mkt": "Musical instruments and audio, company revenue", "who": "Yamaha Corporation", "share": "¥462.08 billion", "yr": 2025, "s": U['YA'], "note": "revenue of the whole company as the page states, not a market share"},
             {"mkt": "Electronic instruments, company revenue", "who": "Roland Corporation", "share": "¥102.4 billion", "yr": 2023, "s": U['RO'], "note": "revenue of the whole company (about $668 million), not a market share"},
+            {"mkt": "Pianos and digital pianos, company revenue", "who": "Kawai Musical Instruments", "share": "¥80,192 million", "yr": 2024, "s": U['KW'], "note": "revenue of the whole company (about $530 million), a decrease on the year before"},
             {"mkt": "Concert and home pianos, ownership deal", "who": "Paulson & Co.", "share": "$512 million", "yr": 2013, "s": U['ST'], "note": "offer for Steinway Musical Instruments that beat a $438 million offer from Kohlberg & Company"},
         ]
     if d2['n'] == DEPTS[1]:
         d2['msum'] = 'No page read gave a drum or cymbal market share; ownership of the main kit and cymbal makers is shown on the entries.'
-        d2['ms'] = []
+        d2['ms'] = [{"mkt": "Drum kits, ownership deal", "who": "Roland Corporation", "share": "$65 million", "yr": 2022, "s": U['DW'], "note": "announced late 2022 purchase of Drum Workshop, as the page states"}]
     if d2['n'] == DEPTS[2]:
         d2['msum'] = 'The Shure page states no revenue; Shure is privately held. No page read gave a share of the microphone or console market.'
-        d2['ms'] = []
+        d2['ms'] = [{"mkt": "Microphones and headphones, company revenue", "who": "Sennheiser", "share": "EUR 507.4 million", "yr": 2022, "s": U['SE'], "note": "revenue of the whole company as the infobox states, not a market share"}, {"mkt": "Microphones and headphones, company revenue", "who": "Sennheiser", "share": "EUR 756.7 million", "yr": 2019, "s": U['SE'], "note": "revenue of the whole company as the introduction states"}]
     if d2['n'] == DEPTS[3]:
         d2['msum'] = 'No page read gave a DJ equipment market share.'
-        d2['ms'] = []
+        d2['ms'] = [{"mkt": "DJ equipment, ownership deal", "who": "KKR", "share": "86 %", "yr": 2014, "s": U['PD'], "note": "stake of the Pioneer DJ business that Pioneer Corporation agreed to sell to KKR"}]
 
 brands = []
 for mk in sorted(m for m in used_brands if m and m not in brands_reg):

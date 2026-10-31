@@ -54,6 +54,30 @@ function entries(k) {
   gs.forEach(([g, xs], n) => box.append($('h6', { class: 'xg', id: ids[n] }, g || 'Other', $('span', { text: ' ' + xs.length })), $('div', { class: 'erows' }, xs.map(erow))));
   return box;
 }
+/* Copy a kind card as formatted text, like the Culinary taxonomy: the kind name as a heading, one bullet per type group and per
+   entry section ("Section: entry (version, version), entry"), as HTML lists (Notion and docs build nested bullets) plus the same outline as Markdown. No counts or codes. */
+const escH = t => String(t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+function kindTree(k) {
+  const items = [], ent = x => x.n + (x.v && x.v.length ? ' (' + x.v.map(v => v.n).join(', ') + ')' : '');
+  if (k.d) items.push({ head: '', text: k.d });
+  (k.tt || []).forEach(([ax, ts]) => items.push({ head: ax, text: ts.join(', ') }));
+  if (!(k.tt && k.tt.length) && k.t && k.t.length) items.push({ head: 'Types', text: k.t.join(', ') });
+  const gs = []; (k.x || []).forEach(x => { const g = x.g || ''; let e = gs.find(z => z[0] === g); if (!e) gs.push(e = [g, []]); e[1].push(x); });
+  gs.forEach(([g, xs]) => items.push({ head: g || (gs.length > 1 ? 'Other' : 'Named entries'), text: xs.map(ent).join(', ') }));
+  if (k.m && k.m.length) items.push({ head: 'Models', text: k.m.map(m => m[0]).join(', ') });
+  if (k.see && k.see.length) items.push({ head: 'See also', text: k.see.map(([c, n]) => n + (c !== cur ? ' (' + catName(c) + ')' : '')).join(', ') });
+  return { title: k.n, items };
+}
+function copyKind(k, btn) {
+  const T = kindTree(k);
+  const md = [T.title, ...T.items.map(n => '- ' + (n.head ? '**' + n.head + ':** ' : '') + n.text)].join('\n');
+  const html = '<p><strong>' + escH(T.title) + '</strong></p><ul>' + T.items.map(n => '<li>' + (n.head ? '<strong>' + escH(n.head) + ':</strong> ' : '') + escH(n.text) + '</li>').join('') + '</ul>';
+  let ok = false; const h = e => { e.clipboardData.setData('text/plain', md); e.clipboardData.setData('text/html', html); e.preventDefault(); ok = true; };
+  document.addEventListener('copy', h); try { document.execCommand('copy'); } catch (e) {} document.removeEventListener('copy', h);
+  const done = t => { btn.textContent = t; setTimeout(() => { btn.textContent = 'Copy'; }, 1500); };
+  if (ok) return done('Copied');
+  if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(md).then(() => done('Copied'), () => done('Copy failed')); else done('Copy failed');
+}
 function item(k, term, openNow) {
   const nx = (k.x || []).length, m = k.m || [], r = k.r || [];
   const a = $('article', { class: 'item', 'data-n': k.n, id: k.code ? 'k-' + k.code : null }, $('h5', {}, hl(k.n, term), k.code ? $('span', { class: 'kc', text: k.code }) : null));
@@ -64,7 +88,9 @@ function item(k, term, openNow) {
   const facts = [nx ? nx + ' named' : '', m.length ? m.length + ' models' : '', r.length ? r.length + ' ranges' : '', k.tt && k.tt.length ? k.tt.length + ' type groups' : ''].filter(Boolean).join(' · ');
   const body = $('div', { class: 'kbody' }); body.hidden = true;
   const btn = $('button', { type: 'button', class: 'open-btn' }, 'Show');
-  a.append($('div', { class: 'kfoot' }, $('span', { class: 'kfacts', text: facts }), btn), body);
+  const cbtn = $('button', { type: 'button', class: 'copy-btn', title: "Copy this kind's types and named entries as formatted text" }, 'Copy');
+  cbtn.addEventListener('click', () => copyKind(k, cbtn));  // copy inside the click: browsers allow clipboard writes only during it
+  a.append($('div', { class: 'kfoot' }, $('span', { class: 'kfacts', text: facts }), cbtn, btn), body);
   let built = false;
   const build = () => { if (built) return; built = true;
     if (k.tt && k.tt.length) body.append($('div', { class: 'tt' }, k.tt.map(([ax, ts]) => $('p', { class: 'also' }, $('b', { text: ax + ': ' }), hl(ts.join(' · '), term)))));

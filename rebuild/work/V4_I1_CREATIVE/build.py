@@ -1,8 +1,12 @@
 import json,re,copy,sys
 sys.path.insert(0,'.')
-from data import K,R
+from data2 import *
+from collections import Counter
 OLD=json.load(open('../../out/I1.json'))
 NAMES=["Photo, design & 3D","Video & animation","Music & audio","Audio plug-ins & virtual instruments","Hobbies, science & sky"]
+FACTD={}
+for l in FACTS.strip().split('\n'):
+    a,b,c,d_=l.split('|'); FACTD[a]=(b,c,d_)
 depts=[copy.deepcopy(d) for d in OLD['depts'] if d['n'] in NAMES]
 # extra rows with other refs
 EXTRA={'Software synthesiser':[('FabFilter Twin@FF','FabFilter','2005',''),('FabFilter One@FF','FabFilter','2004',''),
@@ -13,7 +17,7 @@ TOT={'RA':('Wikipedia, Comparison of raster graphics editors',95),'VE':('Wikiped
 'GEN':('Wikipedia, Genealogy software',60),'SW':('Wikipedia, List of screenwriting software',19),'CAD':('Wikipedia, Comparison of computer-aided design editors',70),
 'EDA':('Wikipedia, Comparison of EDA software',40),'SCR':('Wikipedia, Comparison of screencasting software',40),'AUD':('Wikipedia, Comparison of audio player software',46),
 'VPL':('Wikipedia, Comparison of video player software',48),'STAT':('Wikipedia, Comparison of statistical packages',60),'T2I':('Wikipedia, Text-to-image model',31),
-'AP':('Wikipedia, Audio plug-in',13),'WA':('Wikipedia, Waves Audio',31),'NI':('Wikipedia, Native Instruments',16),'FF':('Wikipedia, FabFilter',14),'SP':('Wikipedia, Spectrasonics',6),'UA':('Wikipedia, Universal Audio (company)',11),'XF':('Wikipedia, Xfer Records',2),'MUS':('',0)}
+'AP':('Wikipedia, Audio plug-in',13),'WA':('Wikipedia, Waves Audio',31),'NI':('Wikipedia, Native Instruments',16),'FF':('Wikipedia, FabFilter',14),'SP':('Wikipedia, Spectrasonics',6),'UA':('Wikipedia, Universal Audio (company)',11),'XF':('Wikipedia, Xfer Records',2),'MUS':('Wikipedia, List of music software',60),'PG':('Wikipedia, Comparison of photogrammetry software',12),'AR':('Wikipedia, List of amateur radio software',50),'RL':('rtl-sdr.com, The BIG List of RTL-SDR Supported Software',130),'ADBE':('',0),'ADSK':('',0),'PE':('',0)}
 MAKERN={'Adobe Inc.':'Adobe','Adobe Systems':'Adobe','Avid':'Avid Technology','Microsoft Corporation':'Microsoft','Corel Corporation':'Corel','Serif Europe':'Serif (Europe)','Serif':'Serif (Europe)',
 'Propellerhead Software':'Reason Studios','Waves':'Waves Audio','Xfer':'Xfer Records','Maxon':'Maxon','MAGIX':'MAGIX','Magix':'MAGIX','Foundry':'The Foundry'}
 DROP={'Quad Cortex','Gardena','Lexicon 224 and 480L','Valhalla reverbs','Tokyo Dawn Labs free dynamics','Neural DSP plug-ins','Mastering The Mix metering','Mastering The Mix meters'}
@@ -32,9 +36,9 @@ reg={key(b['n']) for b in json.load(open('../../out/I1_brands.json'))['b']}
 used=set()
 report=[]
 def mkentry(n,mk,y,a,src,kindnoun,ref=None,note=''):
+    note=note or NOTES.get(n,'')
     mk=nm(mk)
-    d=(f"{n}, a {kindnoun} from {mk}" if mk else f"{n}, a {kindnoun}")+(f", first released {y}." if y else ".")
-    e={'n':n,'a':a,'d':d,'mk':mk,'y':y,'s':src,'v':[],'dt':''}
+    e={'n':n,'a':a,'d':note,'mk':mk,'y':y,'s':src,'v':[],'dt':''}
     if mk:
         e['own']=mk
         used.add(mk)
@@ -75,7 +79,11 @@ for d in depts:
             n,mk=m[0],m[1]
             if key(n) in seen or n in DROP or re.search(r'plug-ins$|reverbs$|delays$|meters$|metering$|free dynamics$|alignment tools$',n): continue
             seen.add(key(n))
-            xs.append(mkentry(n,mk,'',' ',src_k or R['MUS'],noun)); xs[-1]['a']=''
+            e=mkentry(n,mk,'',' ',src_k or R['MUS'],noun); e['a']=''
+            if n in FACTD:
+                ref,fy,fm=FACTD[n]; e['s']=R[ref]; e['y']=fy
+                if fm: e['mk']=nm(fm); e['own']=nm(fm); used.add(nm(fm))
+            xs.append(e)
         kept_from_m=len(xs)-existing_n
         rows=[]
         if spec:
@@ -84,6 +92,7 @@ for d in depts:
                 n,mk,y,a=p[0],p[1],p[2],p[3]
                 ref=spec['ref']
                 if '@' in n: n,ref=n.split('@')
+                if spec.get('notecol'): NOTES.setdefault(n.split('@')[0],a); a=''
                 rows.append((n,mk,y,a,ref))
         for n,mk,y,a in EXTRA.get(kn,[]):
             ref='FF'
@@ -104,6 +113,19 @@ for d in depts:
             if x['n']=='Serum':
                 if not any(v['n']=='Serum 2' for v in x.get('v',[])): x.setdefault('v',[]).append({'n':'Serum 2','mk':'Xfer Records','y':'2025','d':'Second generation'})
         for x in xs:
+            if x['n'] in VERS:
+                full=x['n'] in('Autodesk Maya','Autodesk 3ds Max','Cinema 4D')
+                if full: x['v']=[]
+                have={key(v['n']) for v in x.get('v',[])}
+                for vn,vy,vd in VERS[x['n']]:
+                    if key(vn) not in have: x.setdefault('v',[]).append({'n':vn,'mk':x.get('mk',''),'y':vy,'d':vd})
+            elif x['n'].replace('Autodesk ','') in VERS and x['n'] in ('Autodesk Maya',): pass
+            om=OWNMAP.get(x.get('mk',''))
+            if om:
+                x['own'],x['tier'],x['cty']=om
+            oy=OWNY.get(x['n'])
+            if oy: x['own_y']=oy
+        for x in xs:
             x['g']=grp(x)
             x.setdefault('v',[])
             x.setdefault('dt','')
@@ -122,16 +144,19 @@ for d in depts:
             k['xg']="by maker, then year of first release, then name"
             if spec:
                 parts=[]
+                cnt=Counter(x['s'] for x in xs)
+                refcount={r:cnt[R[r]] for r in TOT if TOT[r][1] and R.get(r) in cnt}
                 for ref,c in refcount.items():
                     t,tot=TOT[ref]
                     parts.append(f"{c} of about {tot} in {t}")
                 refs='; '.join(sorted({TOT[r][0] for r in refcount})) or ''
-                old=f" Entries from the previous edition ({existing_n} named products and {kept_from_m} former model-list items) are kept."
+                nconf=sum(1 for x in xs if x['n'] in FACTD)
+                old=f" Entries from the previous edition ({existing_n} named products and {kept_from_m} former model-list items) are kept; {nconf} of them are confirmed on the fetched page named in their source."
                 base=f"Follows {refs}: every product on the page that is still sold or widely used, placed under this kind; discontinued products, libraries, servers and trade tools, and products placed in another kind, are left out.{old}"
                 cov=' Covers '+'; '.join(parts)+'; the rest are discontinued, trade or placed in other kinds.' if parts else ''
                 k['sel']=base+cov
             else:
-                k['sel']=f"No whole-space reference list was fetched for this kind; the list follows the previous edition's sources ({src_k}), with former model-list items now entries ({kept_from_m}). Covers {len(xs)} entries kept or converted; no complete reference was read."
+                k['sel']=f"No whole-space reference list was fetched for this kind; the list follows the previous edition's sources ({src_k}), with former model-list items now entries ({kept_from_m}). A search for a Wikipedia comparison or list page for this kind found none, so the list follows the previous edition's sources. Covers {len(xs)} entries kept from the previous edition; no complete reference list exists to count against."
             report.append((kn,existing_n,kept_from_m,len(xs)-existing_n-kept_from_m,len(xs)))
         # drop empty x
         if not xs: k.pop('x',None)
@@ -141,7 +166,9 @@ for d in depts:
     for sh in d['s']:
         if not sh.get('t'): sh['t']=sh.get('t') or 'Programs of this kind.'
         sh.pop('shelf_t',None)
-# market summary: none sourced
+for d in depts:
+    if d['n'] in MS: d['ms']=MS[d['n']]; d['msum']=MSUM[d['n']]
+
 brands=[]
 for mkr in sorted(used):
     if key(mkr) not in reg:
