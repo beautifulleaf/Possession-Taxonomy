@@ -372,3 +372,7 @@ Known weak spots (from the reports): Firecrawl and Parallel ran out of credit, s
 
 ## Next
 Owner reads v30 and the session-13 owner queue above. Suggested follow-ups: retailer-page coverage checks for the shelves the reports list as unchecked once a fetch tool has credit; place the 58 unplaced restored names; a blind findability test on the new structure.
+
+## Session 13, continued — named-entry standard (owner discussion)
+Owner decisions recorded in BRIEF.md ("Owner decisions 2026-10-31"). Pilot ARC_E5 (video game consoles) published as artifact v31–v32.
+Next: write the v4 brief (named-entry standard + market layer + No & low), then pilots in this order: J9 Soft Drinks & Water (market layer), J7 Wine, Beer & Spirits (appellations, styles, distilleries, No & low), A1 Clothing (patterns + brand market), then roll out by treatment group.
