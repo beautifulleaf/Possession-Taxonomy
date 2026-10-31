@@ -190,6 +190,115 @@
    "queries": [],
    "found": 0,
    "note": "NOT YET SWEPT (budget); next agent"
+  },
+  {
+   "axis": "kind",
+   "item": "Budo > Kendo/yumi",
+   "queries": [
+    "kendo bogu maker Japan",
+    "Shibata Kanjuro yumi"
+   ],
+   "found": 1,
+   "note": "kendo bogu makers (Mitsuboshi, Matsukan, Eiko Budogu, Tozando) only on shop pages, not fetched; yumi: Shibata"
+  },
+  {
+   "axis": "kind",
+   "item": "Curling",
+   "queries": [
+    "Kays curling stones Ailsa Craig"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "ISPO awards (all kinds)",
+   "queries": [
+    "ISPO Award winners"
+   ],
+   "found": 0,
+   "note": "see sources"
+  },
+  {
+   "axis": "kind",
+   "item": "Climbing & caving > Worn kit",
+   "queries": [
+    "OutdoorGearLab best climbing shoes"
+   ],
+   "found": 7,
+   "note": "ropes/harness/protection pages not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Camping & hiking > Tents & shelters",
+   "queries": [
+    "OutdoorGearLab best camping tents"
+   ],
+   "found": 15,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Climbing & caving (all)",
+   "queries": [
+    "wikipedia climbing equipment companies"
+   ],
+   "found": 50,
+   "note": "weighmyrack rope-brand list seen in search only"
+  },
+  {
+   "axis": "kind",
+   "item": "Water > Diving",
+   "queries": [
+    "wikipedia diving equipment manufacturers"
+   ],
+   "found": 37,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Racket sports > Tennis",
+   "queries": [
+    "wikipedia tennis equipment manufacturers"
+   ],
+   "found": 16,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Water > Surfing",
+   "queries": [
+    "wikipedia surfboard shapers"
+   ],
+   "found": 18,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Lacrosse sticks / Haudenosaunee",
+   "queries": [
+    "Onondaga lacrosse stick makers"
+   ],
+   "found": 2,
+   "note": "WAER article names Lewis Mitchell (Mohawk) and Oneida Ron Patterson, not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Tenkara rods",
+   "queries": [
+    "tenkara rod makers Japan"
+   ],
+   "found": 3,
+   "note": "seller source only"
+  },
+  {
+   "axis": "kind",
+   "item": "Basque cesta/pelota",
+   "queries": [
+    "cesta punta makers Basque"
+   ],
+   "found": 0,
+   "note": "no named maker found on tourism pages; not fetched further"
   }
  ],
  "regions": [
@@ -390,6 +499,75 @@
    "brands": [
     "O'Neills",
     "Mycro Sportsgear"
+   ]
+  },
+  {
+   "region": "Scotland (curling)",
+   "speciality": "curling stones from Ailsa Craig granite",
+   "src": "https://www.bbc.co.uk/news/uk-scotland-60259628",
+   "brands": [
+    "Kays Curling (Kays of Scotland)"
+   ]
+  },
+  {
+   "region": "Japan (kyudo)",
+   "speciality": "bamboo yumi bows",
+   "src": "https://www.newyorkbudoassociation.org/shibata-sensei-xxi",
+   "brands": [
+    "Shibata Kanjuro (yumi bowmaker)"
+   ]
+  },
+  {
+   "region": "Hawaii/California/Australia (surfing)",
+   "speciality": "surfboard shaping",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "brands": [
+    "Hobie (Hobart Alter)",
+    "Haydenshapes (Hayden Cox)",
+    "Bob McTavish"
+   ]
+  },
+  {
+   "region": "Italy (diving, climbing)",
+   "speciality": "dive gear (Cressi, Mares, Technisub) and climbing hardware/boots (CAMP, La Sportiva, Scarpa)",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "brands": [
+    "Cressi",
+    "Mares",
+    "Technisub",
+    "CAMP",
+    "La Sportiva",
+    "Scarpa"
+   ]
+  },
+  {
+   "region": "France (alpine, diving)",
+   "speciality": "Petzl, Grivel(IT), Millet, Beuchat, Aqua Lung",
+   "src": "https://en.wikipedia.org/wiki/Category:Climbing_and_mountaineering_equipment_companies",
+   "brands": [
+    "Petzl",
+    "Millet",
+    "Beuchat",
+    "Aqua Lung"
+   ]
+  },
+  {
+   "region": "Haudenosaunee / Onondaga Nation (North America)",
+   "speciality": "hand-carved hickory wooden lacrosse sticks",
+   "src": "https://www.usalacrosse.com/news-media-blog/legendary-lacrosse-stickmaker-alfie-jacques-passes-away",
+   "brands": [
+    "Alfie Jacques (Onondaga stickmaker)",
+    "Benedict Lacrosse Factory"
+   ]
+  },
+  {
+   "region": "Japan (tenkara)",
+   "speciality": "tenkara rods",
+   "src": "https://www.tenkarabum.com/tenryu-furaibo.html",
+   "brands": [
+    "Tenryu (tenkara rods)",
+    "Suntech",
+    "Nissin"
    ]
   }
  ],
@@ -613,6 +791,106 @@
    "new_names": 0,
    "status": "partial",
    "note": "index of 37 country categories; fetched 11 (Pakistan, India, Japan, S Korea, Finland, Sweden, Switzerland, Mexico, Thailand, NZ, Spain, Ireland). NOT yet fetched: Argentina, Australia, Austria, Belgium, Brazil, Canada, China, Colombia, Denmark, France, Germany, Hong Kong, Israel, Italy, Malta, Netherlands, Norway, Philippines, Portugal, Slovakia, Slovenia, Taiwan, UAE, UK, USA"
+  },
+  {
+   "url": "https://www.bbc.co.uk/news/uk-scotland-60259628",
+   "title": "Kays curling BBC + Shibata NYBA + Fairtex about + cricketbats.com index",
+   "kind": "heritage",
+   "years": "n/a",
+   "status": "done",
+   "note": "tradition searches: curling, yumi, Muay Thai, cricket bats; cricketbats.com is a directory (existence only)",
+   "names_on_page": 17,
+   "new_names": 8
+  },
+  {
+   "url": "https://www.ispo.com/award-winner",
+   "title": "ISPO Award Winner list (pages fetched)",
+   "kind": "award",
+   "years": "2025",
+   "status": "partial",
+   "note": "fetched list pages showed 2025 winners only; 2024 winners seen via individual ispo.com article pages in search (not yet fetched)",
+   "names_on_page": 32,
+   "new_names": 10
+  },
+  {
+   "url": "https://www.ispo.com/news-article/promotion?start=80",
+   "title": "ISPO Award Winner 2024 articles (promotion pages 60-90)",
+   "kind": "award",
+   "years": "2024-2025",
+   "status": "partial",
+   "note": "only part of 2024 reached (pages start=60..90); earlier 2024 and 2022-2023 winners not fetched; ISPO list pages show 2025 only",
+   "names_on_page": 15,
+   "new_names": 6
+  },
+  {
+   "url": "https://www.outdoorgearlab.com/topics/climbing/best-climbing-shoes",
+   "title": "OutdoorGearLab best climbing shoes 2026",
+   "kind": "award",
+   "years": "2026",
+   "status": "done",
+   "note": "",
+   "names_on_page": 7,
+   "new_names": 3
+  },
+  {
+   "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-tent",
+   "title": "OutdoorGearLab best camping tents 2026",
+   "kind": "award",
+   "years": "2026",
+   "status": "done",
+   "note": "",
+   "names_on_page": 15,
+   "new_names": 8
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Climbing_and_mountaineering_equipment_companies",
+   "title": "Wikipedia Category:Climbing and mountaineering equipment companies",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "status": "done",
+   "note": "retailers excluded",
+   "names_on_page": 50,
+   "new_names": 3
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "title": "Wikipedia Category:Underwater diving equipment manufacturers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "status": "done",
+   "note": "",
+   "names_on_page": 37,
+   "new_names": 27
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Tennis_equipment_manufacturers",
+   "title": "Wikipedia Category:Tennis equipment manufacturers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "status": "done",
+   "note": "",
+   "names_on_page": 16,
+   "new_names": 4
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "title": "Wikipedia Category:Surfboard shapers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "status": "done",
+   "note": "named shapers (people with own article); labels are shaper names",
+   "names_on_page": 18,
+   "new_names": 18
+  },
+  {
+   "url": "https://www.usalacrosse.com/news-media-blog/legendary-lacrosse-stickmaker-alfie-jacques-passes-away",
+   "title": "Lacrosse (Haudenosaunee) + tenkara maker pages",
+   "kind": "collection",
+   "years": "n/a",
+   "status": "done",
+   "note": "Smithsonian + USA Lacrosse + tenkarabum seller page",
+   "names_on_page": 5,
+   "new_names": 5
   }
  ],
  "brands": [
@@ -1975,6 +2253,743 @@
    "says": "listed in Wikipedia Category:Sporting goods manufacturers of Switzerland",
    "country": "Switzerland",
    "dept": "snowboards"
+  },
+  {
+   "n": "Kays Curling (Kays of Scotland)",
+   "layer": "premium",
+   "src": "https://www.bbc.co.uk/news/uk-scotland-60259628",
+   "says": "Only stones used in competition by the World Curling Federation; Olympic supplier since 1924; hand-crafted from Ailsa Craig granite since 1851",
+   "country": "Scotland",
+   "dept": "curling stones"
+  },
+  {
+   "n": "Shibata Kanjuro (yumi bowmaker)",
+   "layer": "cultural",
+   "src": "https://www.newyorkbudoassociation.org/shibata-sensei-xxi",
+   "says": "21st generation master bowmaker, 4th generation official bowmaker to the Emperor of Japan",
+   "country": "Japan",
+   "dept": "kyudo bows (yumi)"
+  },
+  {
+   "n": "SS (Sareen Sports)",
+   "layer": "cultural",
+   "src": "https://cricketbats.com/manufacturers",
+   "says": "listed in CricketBats.com manufacturers index (est. 1969); existence only",
+   "country": "India",
+   "dept": "cricket bats"
+  },
+  {
+   "n": "Spartan",
+   "layer": "cultural",
+   "src": "https://cricketbats.com/manufacturers",
+   "says": "listed in CricketBats.com manufacturers index (est. 2003); existence only",
+   "country": "Australia / India",
+   "dept": "cricket bats"
+  },
+  {
+   "n": "DSC",
+   "layer": "cultural",
+   "src": "https://cricketbats.com/manufacturers",
+   "says": "listed in CricketBats.com manufacturers index (est. 2002); existence only",
+   "country": "India / UAE",
+   "dept": "cricket bats"
+  },
+  {
+   "n": "SG (Sanspareils Greenlands)",
+   "layer": "cultural",
+   "src": "https://cricketbats.com/manufacturers",
+   "says": "listed in CricketBats.com manufacturers index (est. 1931); existence only",
+   "country": "India",
+   "dept": "cricket bats"
+  },
+  {
+   "n": "New Balance Cricket",
+   "layer": "cultural",
+   "src": "https://cricketbats.com/manufacturers",
+   "says": "listed in CricketBats.com manufacturers index (est. 2014); existence only",
+   "country": "USA / UK",
+   "dept": "cricket bats"
+  },
+  {
+   "n": "Woodworm",
+   "layer": "cultural",
+   "src": "https://cricketbats.com/manufacturers",
+   "says": "listed in CricketBats.com manufacturers index (est. 2003); existence only",
+   "country": "England",
+   "dept": "cricket bats"
+  },
+  {
+   "n": "Pelliot",
+   "layer": "premium",
+   "src": "https://www.ispo.com/award-winner",
+   "says": "ISPO Award Winner 2025: Polaris Hardshell, Limit down suit",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Acemate",
+   "layer": "premium",
+   "src": "https://www.ispo.com/award-winner",
+   "says": "ISPO Award Winner 2025: Tennis Robot",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Robens",
+   "layer": "premium",
+   "src": "https://www.ispo.com/award-winner",
+   "says": "ISPO Award Winner 2025: Via 2 UL tent, LightCore UL mat, Scoria Quilt UL",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Zhongqiao",
+   "layer": "premium",
+   "src": "https://www.ispo.com/award-winner",
+   "says": "ISPO Award Winner 2025: Illuminated Cycling Windbreaker",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Vitbio",
+   "layer": "premium",
+   "src": "https://www.ispo.com/award-winner",
+   "says": "ISPO Award Winner 2025: OmniGmot Golfer",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Impetus",
+   "layer": "premium",
+   "src": "https://www.ispo.com/award-winner",
+   "says": "ISPO Award Winner 2025: ImNatura",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Outopia",
+   "layer": "premium",
+   "src": "https://www.ispo.com/award-winner",
+   "says": "ISPO Award Winner 2025: Vita Shell Jacket",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "EGGspander",
+   "layer": "premium",
+   "src": "https://www.ispo.com/award-winner",
+   "says": "ISPO Award Winner 2025: functional strength trainer",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "EDV",
+   "layer": "premium",
+   "src": "https://www.ispo.com/award-winner",
+   "says": "ISPO Award Winner 2025: x i:D Aether S1 deck shoes",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Simond",
+   "layer": "premium",
+   "src": "https://www.ispo.com/award-winner",
+   "says": "ISPO Award Winner 2025: MT900 backpack, Single Wall Trekking Tent",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Adidas Terrex",
+   "layer": "premium",
+   "src": "https://www.ispo.com/news-article/promotion?start=80",
+   "says": "ISPO Award Winner: Xperior Climawarm+ Down Jacket 2024",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Tokio Sports",
+   "layer": "premium",
+   "src": "https://www.ispo.com/news-article/promotion?start=80",
+   "says": "ISPO Award Winner: Women football boot 2024",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Raide",
+   "layer": "premium",
+   "src": "https://www.ispo.com/news-article/promotion?start=80",
+   "says": "ISPO Award Winner: LF 30L backpack 2024",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Reboots",
+   "layer": "premium",
+   "src": "https://www.ispo.com/news-article/promotion?start=80",
+   "says": "ISPO Award Winner: Go X recovery 2024",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Ruroc",
+   "layer": "premium",
+   "src": "https://www.ispo.com/news-article/promotion?start=80",
+   "says": "ISPO Award Winner: RG2 helmet 2024",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Gore Wear",
+   "layer": "premium",
+   "src": "https://www.ispo.com/news-article/promotion?start=80",
+   "says": "ISPO Award Winner: CONCURVE WINDSTOPPER jacket 2024",
+   "country": "",
+   "dept": "outdoor/sports"
+  },
+  {
+   "n": "Ocun",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/climbing/best-climbing-shoes",
+   "says": "OutdoorGearLab Best Buy Bullit",
+   "country": "Czech Republic",
+   "dept": "climbing"
+  },
+  {
+   "n": "Unparallel",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/climbing/best-climbing-shoes",
+   "says": "OutdoorGearLab Top Pick UpMocc",
+   "country": "USA",
+   "dept": "climbing"
+  },
+  {
+   "n": "Butora",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/climbing/best-climbing-shoes",
+   "says": "OutdoorGearLab Best Buy kids Brava",
+   "country": "Korea/USA",
+   "dept": "climbing"
+  },
+  {
+   "n": "Zempire",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-tent",
+   "says": "OutdoorGearLab Top Pick Evo TM V2 air tent",
+   "country": "",
+   "dept": "camping"
+  },
+  {
+   "n": "CORE",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-tent",
+   "says": "OutdoorGearLab Best Buy 9 Instant Cabin",
+   "country": "",
+   "dept": "camping"
+  },
+  {
+   "n": "Fanttik",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-tent",
+   "says": "OutdoorGearLab Best Buy Zeta C6 Pro",
+   "country": "",
+   "dept": "camping"
+  },
+  {
+   "n": "Gazelle Tents",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-tent",
+   "says": "OutdoorGearLab Top Pick T4 Hub",
+   "country": "",
+   "dept": "camping"
+  },
+  {
+   "n": "Smittybilt",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-tent",
+   "says": "OutdoorGearLab Best Buy GEN2 Overlander",
+   "country": "",
+   "dept": "camping"
+  },
+  {
+   "n": "Roofnest",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-tent",
+   "says": "OutdoorGearLab Top Pick Falcon 3 EVO",
+   "country": "",
+   "dept": "camping"
+  },
+  {
+   "n": "E-Z Up",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-tent",
+   "says": "OutdoorGearLab Top Pick Pyramid canopy",
+   "country": "",
+   "dept": "camping"
+  },
+  {
+   "n": "Clam Outdoors",
+   "layer": "premium",
+   "src": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-tent",
+   "says": "OutdoorGearLab Top Pick Quick-Set Escape",
+   "country": "",
+   "dept": "camping"
+  },
+  {
+   "n": "Arthur Beale",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Climbing_and_mountaineering_equipment_companies",
+   "says": "listed in Wikipedia Category:Climbing and mountaineering equipment companies, own article",
+   "country": "",
+   "dept": "climbing/camping"
+  },
+  {
+   "n": "Holubar Mountaineering",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Climbing_and_mountaineering_equipment_companies",
+   "says": "listed in Wikipedia Category:Climbing and mountaineering equipment companies, own article",
+   "country": "",
+   "dept": "climbing/camping"
+  },
+  {
+   "n": "Mountain Safety Research",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Climbing_and_mountaineering_equipment_companies",
+   "says": "listed in Wikipedia Category:Climbing and mountaineering equipment companies, own article",
+   "country": "",
+   "dept": "climbing/camping"
+  },
+  {
+   "n": "Aeris",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "AP Diving",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Avon Technologies",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Divesoft",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Divex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Drass-Galeazzi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Halcyon Dive Systems",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Heinke",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "HeinrichsWeikamp",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Interspiro",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Kirby Morgan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Morse Diving",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Nemrod",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Nuytco Research",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Oceanic Worldwide",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Ratio Computers",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Shearwater Research",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Siebe Gorman",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Technisub",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "U.S. Divers",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Viking dry suits",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Dive Xtras",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Luxfer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Faber",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Pelagic Pressure Systems",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Rouquayrol-Denayrouze",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Spearfisherman",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Underwater diving equipment manufacturers, own article",
+   "country": "",
+   "dept": "diving"
+  },
+  {
+   "n": "Bosworth Tennis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tennis_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Tennis equipment manufacturers, own article",
+   "country": "",
+   "dept": "racket sports"
+  },
+  {
+   "n": "Penn Racquet Sports",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tennis_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Tennis equipment manufacturers, own article",
+   "country": "",
+   "dept": "racket sports"
+  },
+  {
+   "n": "Prince Sports",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tennis_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Tennis equipment manufacturers, own article",
+   "country": "",
+   "dept": "racket sports"
+  },
+  {
+   "n": "ProKennex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tennis_equipment_manufacturers",
+   "says": "listed in Wikipedia Category:Tennis equipment manufacturers, own article",
+   "country": "",
+   "dept": "racket sports"
+  },
+  {
+   "n": "Haydenshapes (Hayden Cox)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Hobie (Hobart Alter)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Simon Anderson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Greg Noll",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Dale Velzy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Bob McTavish",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Gerry Lopez",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Donald Takayama",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Reynolds Yater",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Skip Frye",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Mark Richards",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "George Greenough",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Chris Christenson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Robert August",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Terry Martin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Jimmy Lewis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Mickey Munoz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Doug Warbrick",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Surfboard_shapers",
+   "says": "listed in Wikipedia Category:Surfboard shapers, own article",
+   "country": "",
+   "dept": "surfing"
+  },
+  {
+   "n": "Alfie Jacques (Onondaga stickmaker)",
+   "layer": "cultural",
+   "src": "https://www.usalacrosse.com/news-media-blog/legendary-lacrosse-stickmaker-alfie-jacques-passes-away",
+   "says": "USA Lacrosse: legendary Onondaga Nation stickmaker, handcrafted 80,000+ wooden lacrosse sticks; sticks displayed in National Lacrosse Hall of Fame",
+   "country": "USA (Onondaga Nation)",
+   "dept": "lacrosse sticks",
+   "role": "maker"
+  },
+  {
+   "n": "Benedict Lacrosse Factory",
+   "layer": "cultural",
+   "src": "https://festival.si.edu/storied-objects/haudenosaunee-lacrosse-stick",
+   "says": "Smithsonian Folklife collection holds a Haudenosaunee wood-and-rawhide lacrosse stick by Benedict Lacrosse Factory, Akwesasne",
+   "country": "USA/Canada (Akwesasne)",
+   "dept": "lacrosse sticks"
+  },
+  {
+   "n": "Tenryu (tenkara rods)",
+   "layer": "premium",
+   "src": "https://www.tenkarabum.com/tenryu-furaibo.html",
+   "says": "seller page quotes Go Ishii: many think Tenryu makes the best blanks in Japan (existence/listed only, seller source)",
+   "country": "Japan",
+   "dept": "tenkara rods"
+  },
+  {
+   "n": "Suntech",
+   "layer": "premium",
+   "src": "https://www.tenkarabum.com/tenryu-furaibo.html",
+   "says": "Japanese tenkara rod maker named on seller page (existence only)",
+   "country": "Japan",
+   "dept": "tenkara rods"
+  },
+  {
+   "n": "Nissin",
+   "layer": "premium",
+   "src": "https://www.tenkarabum.com/tenryu-furaibo.html",
+   "says": "Japanese tenkara rod/line maker named on seller page (existence only)",
+   "country": "Japan",
+   "dept": "tenkara rods"
   }
  ]
 }

@@ -2,8 +2,80 @@
  "cat": "E1",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Channapatna Kondapalli toy makers"
+   ],
+   "found": 2,
+   "note": "GI-tagged toy crafts; maker names few"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Erzgebirge Seiffen nutcracker makers"
+   ],
+   "found": 98,
+   "note": "Erzgebirge directory"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "Dalahäst makers Nusnäs"
+   ],
+   "found": 2,
+   "note": ""
+  }
+ ],
+ "regions": [
+  {
+   "region": "East Asia (Japan: Hakone/Odawara)",
+   "speciality": "Himitsu-bako secret/puzzle boxes and yosegi-zaiku marquetry from Hatajuku, Hakone (designated traditional craft 1984)",
+   "src": "https://hakone-japan.com/yosegizaiku",
+   "brands": [
+    "Karakuri Creation Group",
+    "Hamamatsuya",
+    "Honma Mokkojo",
+    "Kanazashi Woodcraft"
+   ]
+  },
+  {
+   "region": "Central Europe (Germany: Erzgebirge/Seiffen)",
+   "speciality": "Hand-turned wooden nutcrackers, incense smokers, pyramids and toys from the Ore Mountains; Seiffen is the toy village",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "brands": [
+    "KWO",
+    "Seiffener Volkskunst",
+    "Steinbach Volkskunst",
+    "Christian Ulbricht",
+    "Dregeno Seiffen",
+    "Richard Glässer",
+    "Erzi"
+   ]
+  },
+  {
+   "region": "South Asia (India: Channapatna, Kondapalli)",
+   "speciality": "GI-tagged lacquered wooden toys (Channapatna, Karnataka) and Kondapalli village toys (Andhra Pradesh)",
+   "src": "https://karnatakatourism.org/experiences/channapatna-toys",
+   "brands": [
+    "Meeran Art & Crafts",
+    "Kondapalli Wooden Toys"
+   ]
+  },
+  {
+   "region": "Northern Europe (Sweden: Nusnäs, Dalarna)",
+   "speciality": "Hand-carved, kurbits-painted Dala horses; two historic workshops side by side in Nusnäs",
+   "src": "https://en.wikipedia.org/wiki/Dalecarlian_horse",
+   "brands": [
+    "Grannas A. Olssons Hemslöjd",
+    "Nils Olssons Dalahästar"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/Spiel_des_Jahres",
@@ -359,6 +431,126 @@
    "url": "https://en.wikipedia.org/wiki/Category:Toy_companies_of_Finland",
    "title": "Wikipedia Category:Toy companies of Finland",
    "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://www.originsawards.net/origins-award-winners",
+   "title": "Origin Awards winners (AAGAD)",
+   "kind": "award",
+   "years": "2000-2018, 2024, 2025",
+   "names_on_page": 110,
+   "new_names": 71,
+   "status": "done",
+   "note": " confirmed known: 10"
+  },
+  {
+   "url": "https://www.toyassociation.org/ta/PressRoom2/News/2023_News/the-best-in-the-toy-industry-takes-center-stage-at-the-2023-toy-of-the-year-awards.aspx",
+   "title": "Toy of the Year (TOTY) Awards 2023, 2026",
+   "kind": "award",
+   "years": "2023, 2026",
+   "names_on_page": 20,
+   "new_names": 6,
+   "status": "done",
+   "note": " confirmed known: 11"
+  },
+  {
+   "url": "https://www.toyretailersassociation.co.uk/toy-of-the-year-2018/",
+   "title": "UK Toy of the Year / Toy Industry Awards (BTHA, TRA) 2015-2022",
+   "kind": "award",
+   "years": "2015-2022",
+   "names_on_page": 7,
+   "new_names": 5,
+   "status": "done",
+   "note": " confirmed known: 1"
+  },
+  {
+   "url": "https://hakone-japan.com/yosegizaiku",
+   "title": "Hakone-Yosegi-Zaiku (Hakone Tourist Association) + Karakuri Box",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 3,
+   "status": "done",
+   "note": " confirmed known: 1"
+  },
+  {
+   "url": "https://hakone-japan.com/discover/history/hakone-history/yosegi-hatajuku-and-ichirizuka-2",
+   "title": "Hakone yosegi shops",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 4,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://www.erzgebirgepalace.com/index.php?cPath=50_83&filter_id=2&language=en",
+   "title": "Erzgebirge-Palace maker pages (KWO, Seiffener Volkskunst)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 1"
+  },
+  {
+   "url": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "title": "Erzgebirge-Palace manufacturer list",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 96,
+   "new_names": 87,
+   "status": "done",
+   "note": "toy/wood makers only; candle, star and lace makers skipped confirmed known: 9"
+  },
+  {
+   "url": "https://www.channapatnatoys.co.in/",
+   "title": "Meeran Art & Crafts",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://www.kondapalliwoodentoys.com/about",
+   "title": "Kondapalli Toys shop",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://kendamausa.com/",
+   "title": "Kendama USA",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 0"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dalecarlian_horse",
+   "title": "Dala horse (Wikipedia)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": " confirmed known: 1"
+  },
+  {
+   "url": "https://www.ostheimer.de/en",
+   "title": "Ostheimer",
+   "kind": "retailer",
    "years": "n/a",
    "names_on_page": 1,
    "new_names": 1,
@@ -2177,14 +2369,6 @@
   },
   {
    "n": "Melissa & Doug",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Toy_companies_of_the_United_States",
-   "says": "member of Wikipedia Category: Toy companies of the United States",
-   "country": "",
-   "dept": "toys"
-  },
-  {
-   "n": "Multiple Toymakers",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Toy_companies_of_the_United_States",
    "says": "member of Wikipedia Category: Toy companies of the United States",
@@ -4702,6 +4886,1459 @@
    "says": "member of Wikipedia Category:Toy companies of Finland",
    "country": "Finland",
    "dept": "toys & games"
+  },
+  {
+   "n": "CMON",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Hachette Boardgames USA",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "R2i",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Greater Than Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Hit Point Press",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Possum Creek Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Chaosium",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Alderac Entertainment Group",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Monte Cook Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "The Broken Token",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Lost Battalion Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Arcane Wonders",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "White Wizard Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "IELLO",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "The Spoils USA",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Ares Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Osprey Publishing",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Green Ronin Publishing",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Wyrd Miniatures",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Academy Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Battlefront Miniatures",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Proving Ground Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Cubicle 7",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Margaret Weis Productions",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Victrix Limited",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Mayday Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Paradigm Concepts",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Catalyst Game Labs",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Open Design",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Archaia Studios Press",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Dragonfire Laser Crafts",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Tropical Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Splintered Light Miniatures",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Hero Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Burning Wheel",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Pinnacle Entertainment Group",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Sash and Saber",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Paizo Publishing",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Twilight Creations",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Decipher",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Eden Studios",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Eagle-Gryphon Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Jolly Roger Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Pagan Publishing",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Agents of Gaming",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Easy Eight Enterprises",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Forge World",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "White Wolf Game Studio",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Crocodile Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Two Hour Wargames",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Matrix Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Hawgleg Publishing",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Ad Astra Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Dark Sword Miniatures",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Brigade Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Clash of Arms Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Guardians of Order",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Cephalofair",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Evil Hat Productions",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Harlequin Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Wargames Foundry",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Warhammer Historical Wargames",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Horrible Guild",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Absurdist Productions",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Chaotic Great Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Goblin Hobbies",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Exalted Funeral",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "UVS Games",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Shard Bugs",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "Panzerkompanie",
+   "layer": "premium",
+   "src": "https://www.originsawards.net/origins-award-winners",
+   "says": "publisher/company of an Origin Award winning product (winners page 2025 table and winner PDFs 2000-2018, 2024)",
+   "country": "USA",
+   "dept": "board, card, miniatures games"
+  },
+  {
+   "n": "ZB Designs",
+   "layer": "premium",
+   "src": "https://www.toyassociation.org/ta/PressRoom2/News/2023_News/the-best-in-the-toy-industry-takes-center-stage-at-the-2023-toy-of-the-year-awards.aspx",
+   "says": "maker of a Toy of the Year (TOTY) Awards category winner, 2023 and 2026 press releases (Toy Association, US)",
+   "country": "USA",
+   "dept": "toys"
+  },
+  {
+   "n": "Just Play",
+   "layer": "premium",
+   "src": "https://www.toyassociation.org/ta/PressRoom2/News/2023_News/the-best-in-the-toy-industry-takes-center-stage-at-the-2023-toy-of-the-year-awards.aspx",
+   "says": "maker of a Toy of the Year (TOTY) Awards category winner, 2023 and 2026 press releases (Toy Association, US)",
+   "country": "USA",
+   "dept": "toys"
+  },
+  {
+   "n": "South Beach Bubbles",
+   "layer": "premium",
+   "src": "https://www.toyassociation.org/ta/PressRoom2/News/2023_News/the-best-in-the-toy-industry-takes-center-stage-at-the-2023-toy-of-the-year-awards.aspx",
+   "says": "maker of a Toy of the Year (TOTY) Awards category winner, 2023 and 2026 press releases (Toy Association, US)",
+   "country": "USA",
+   "dept": "toys"
+  },
+  {
+   "n": "Thames & Kosmos",
+   "layer": "premium",
+   "src": "https://www.toyassociation.org/ta/PressRoom2/News/2023_News/the-best-in-the-toy-industry-takes-center-stage-at-the-2023-toy-of-the-year-awards.aspx",
+   "says": "maker of a Toy of the Year (TOTY) Awards category winner, 2023 and 2026 press releases (Toy Association, US)",
+   "country": "USA",
+   "dept": "toys"
+  },
+  {
+   "n": "Thin Air Brands",
+   "layer": "premium",
+   "src": "https://www.toyassociation.org/ta/PressRoom2/News/2023_News/the-best-in-the-toy-industry-takes-center-stage-at-the-2023-toy-of-the-year-awards.aspx",
+   "says": "maker of a Toy of the Year (TOTY) Awards category winner, 2023 and 2026 press releases (Toy Association, US)",
+   "country": "USA",
+   "dept": "toys"
+  },
+  {
+   "n": "Bonkers Toys",
+   "layer": "premium",
+   "src": "https://www.toyassociation.org/ta/PressRoom2/News/2023_News/the-best-in-the-toy-industry-takes-center-stage-at-the-2023-toy-of-the-year-awards.aspx",
+   "says": "maker of a Toy of the Year (TOTY) Awards category winner, 2023 and 2026 press releases (Toy Association, US)",
+   "country": "USA",
+   "dept": "toys"
+  },
+  {
+   "n": "Character Options",
+   "layer": "premium",
+   "src": "https://www.toyretailersassociation.co.uk/toy-of-the-year-2018/",
+   "says": "supplier of a UK Toy Industry Awards winning toy or Supplier of the Year (BTHA/TRA 2018, 2020, 2022 pages)",
+   "country": "UK",
+   "dept": "toys"
+  },
+  {
+   "n": "Vivid Imaginations",
+   "layer": "premium",
+   "src": "https://www.toyretailersassociation.co.uk/toy-of-the-year-2018/",
+   "says": "supplier of a UK Toy Industry Awards winning toy or Supplier of the Year (BTHA/TRA 2018, 2020, 2022 pages)",
+   "country": "UK",
+   "dept": "toys"
+  },
+  {
+   "n": "Worlds Apart",
+   "layer": "premium",
+   "src": "https://www.toyretailersassociation.co.uk/toy-of-the-year-2018/",
+   "says": "supplier of a UK Toy Industry Awards winning toy or Supplier of the Year (BTHA/TRA 2018, 2020, 2022 pages)",
+   "country": "UK",
+   "dept": "toys"
+  },
+  {
+   "n": "Hornby Hobbies",
+   "layer": "premium",
+   "src": "https://www.toyretailersassociation.co.uk/toy-of-the-year-2018/",
+   "says": "supplier of a UK Toy Industry Awards winning toy or Supplier of the Year (BTHA/TRA 2018, 2020, 2022 pages)",
+   "country": "UK",
+   "dept": "toys"
+  },
+  {
+   "n": "MV Sports",
+   "layer": "premium",
+   "src": "https://www.toyretailersassociation.co.uk/toy-of-the-year-2018/",
+   "says": "supplier of a UK Toy Industry Awards winning toy or Supplier of the Year (BTHA/TRA 2018, 2020, 2022 pages)",
+   "country": "UK",
+   "dept": "toys"
+  },
+  {
+   "n": "Hamamatsuya",
+   "layer": "premium",
+   "src": "https://hakone-japan.com/yosegizaiku",
+   "says": "Hakone yosegi-zaiku workshops of government-recognised Japanese traditional craftsmen (Honma Noboru, Ishikawa Ichiro, Kanazashi Katsuhiro); Karakuri Creation Group = 12 craftsmen making Hakone/Odawara karakuri (secret/puzzle) boxes",
+   "country": "Japan",
+   "dept": "puzzle boxes (himitsu-bako), yosegi marquetry"
+  },
+  {
+   "n": "Honma Mokkojo",
+   "layer": "premium",
+   "src": "https://hakone-japan.com/yosegizaiku",
+   "says": "Hakone yosegi-zaiku workshops of government-recognised Japanese traditional craftsmen (Honma Noboru, Ishikawa Ichiro, Kanazashi Katsuhiro); Karakuri Creation Group = 12 craftsmen making Hakone/Odawara karakuri (secret/puzzle) boxes",
+   "country": "Japan",
+   "dept": "puzzle boxes (himitsu-bako), yosegi marquetry"
+  },
+  {
+   "n": "Kanazashi Woodcraft",
+   "layer": "premium",
+   "src": "https://hakone-japan.com/yosegizaiku",
+   "says": "Hakone yosegi-zaiku workshops of government-recognised Japanese traditional craftsmen (Honma Noboru, Ishikawa Ichiro, Kanazashi Katsuhiro); Karakuri Creation Group = 12 craftsmen making Hakone/Odawara karakuri (secret/puzzle) boxes",
+   "country": "Japan",
+   "dept": "puzzle boxes (himitsu-bako), yosegi marquetry"
+  },
+  {
+   "n": "Yosegi-Zaiku Uchihara",
+   "layer": "cultural",
+   "src": "https://hakone-japan.com/discover/history/hakone-history/yosegi-hatajuku-and-ichirizuka-2",
+   "says": "Hakone shops listed as selling yosegi-zaiku (Japan Tourism Agency text, Hakone travel ideas)",
+   "country": "Japan",
+   "dept": "puzzle boxes, yosegi",
+   "role": "seller"
+  },
+  {
+   "n": "Hakone Maruyama",
+   "layer": "cultural",
+   "src": "https://hakone-japan.com/discover/history/hakone-history/yosegi-hatajuku-and-ichirizuka-2",
+   "says": "Hakone shops listed as selling yosegi-zaiku (Japan Tourism Agency text, Hakone travel ideas)",
+   "country": "Japan",
+   "dept": "puzzle boxes, yosegi",
+   "role": "seller"
+  },
+  {
+   "n": "Yosegi-Zaiku Store Izumiya",
+   "layer": "cultural",
+   "src": "https://hakone-japan.com/discover/history/hakone-history/yosegi-hatajuku-and-ichirizuka-2",
+   "says": "Hakone shops listed as selling yosegi-zaiku (Japan Tourism Agency text, Hakone travel ideas)",
+   "country": "Japan",
+   "dept": "puzzle boxes, yosegi",
+   "role": "seller"
+  },
+  {
+   "n": "Hakone Gora Kakutaya",
+   "layer": "cultural",
+   "src": "https://hakone-japan.com/discover/history/hakone-history/yosegi-hatajuku-and-ichirizuka-2",
+   "says": "Hakone shops listed as selling yosegi-zaiku (Japan Tourism Agency text, Hakone travel ideas)",
+   "country": "Japan",
+   "dept": "puzzle boxes, yosegi",
+   "role": "seller"
+  },
+  {
+   "n": "Seiffener Volkskunst",
+   "layer": "premium",
+   "src": "https://www.erzgebirgepalace.com/index.php?cPath=50_83&filter_id=2&language=en",
+   "says": "KWO (Kunstgewerbe-Werkstätten Olbernhau) won the German Toy Design Prize (Tradition & Form), Saxon State Prize for Design and Federal Product Design Prize; Seiffener Volkskunst eG (est. 1958, hand-turned nutcrackers) member of the Association of Erzgebirge Craftsmen and Toy Manufacturers with awards (shop text, so quality claim is the shop restating prizes)",
+   "country": "Germany",
+   "dept": "Erzgebirge nutcrackers, smokers"
+  },
+  {
+   "n": "Albin Preissler",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Armin Braun",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Björn Köhler Kunsthandwerk",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Blank Kunsthandwerk",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Carl Dietrich",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Drechselwerkstatt Uhlig",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Drechslerei Breitfeld",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Drechslerei Findeisen",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Drechslerei Martin",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Drechslerei Schalling",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Drechslerei Tilo Kempf",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Dregeno Seiffen",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Erzi",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Frank Neumann",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Frank Weber Holzkunst",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Franz Karl",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Friedbert Uhlig",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Frieder Weisflog",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Gerd Protzner Holzkunst",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Gotthard Steglich",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Graupner Holzminiaturen",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Heinz Lorenz Pyramiden",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Hennig Figuren",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Hess Spielzeug",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "HoDreWa Legler",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Hobler Figuren",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Holz Wenzel",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Holzkunst Dost",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Holzkunst Gahlenz",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Holzkunst Müller",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Holzkunst Schalling",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Holzkunst Schubert",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Holzspielwaren Ebert",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Holzwaren Egermann",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Holzwarenfabrik Neumann",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Holzwerkstatt Weisbach",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Häuselmacher Naumann",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Individuelle Holzkunst",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Jan Stephani",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Jähnig Holzkunst",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "KDE Ellmann",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Kaden Holzgestaltung",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Karl Werner",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Karsten Braune",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Knuth Neuber",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Kramer Holz Design",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Kreißl",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Kunstgewerbe Hofmann",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Kunstgewerbe Lenk & Sohn",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Kunstgewerbe Taulin",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Kunstgewerbe Uhlig",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Kunsthandwerk Eva Beyer",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Manufaktur Klaus Kolbe",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Manufaktur Seidel",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Marlen Tröger",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Michael Müller",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Miniaturendrechslerei Uhlig",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Näumanns",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "PeWo",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Peter Ulbricht Kletterfiguren",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Pönig Holzkunst",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Robbi Weber Holzspielzeug",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Rülke Holzspielzeug",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Saico Seiffen",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Schlick & Türk",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Schnitzerei Helbig",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Schwibbogenwerkstatt Weißbach",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Seiffener Stübelmacher",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Sina Spielzeug",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Spielwarenmacher Günther",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Steinbach Volkskunst",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Sven Harzer Holzkunst",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Theo Lorenz Kunsthandwerk",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "ULMIK",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Ullrich Kunsthandwerk",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Volker & Heiko Flath",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Volkmar Wagner",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Volkskunst Krauß",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Volkskunst Schmidt",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Volkskunstwerkstatt Unger",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "WEHA Kunst",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Walter Werner Kunsthandwerk",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Weigla Holzkunst",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Werdauer Holzspielzeug",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Werkstätten Flade",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Werner Reifentiere",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Zenker Volkskunst",
+   "layer": "cultural",
+   "src": "https://www.erzgebirgepalace.com/All-Nutcrackers-by-Seiffener-Volkskunst::.::5.50_83.html",
+   "says": "Erzgebirge (Ore Mountains) wooden toy/folk-art maker listed in the maker directory of a specialist Erzgebirge shop (existence only)",
+   "country": "Germany",
+   "dept": "Erzgebirge wooden toys, nutcrackers, smokers, pyramids"
+  },
+  {
+   "n": "Meeran Art & Crafts",
+   "layer": "cultural",
+   "src": "https://www.channapatnatoys.co.in/",
+   "says": "GI-authorized producer of Channapatna toys, founded 1946 (self description); craft is GI-tagged per Karnataka Tourism",
+   "country": "India",
+   "dept": "Channapatna lacquered wooden toys"
+  },
+  {
+   "n": "Kondapalli Wooden Toys",
+   "layer": "cultural",
+   "src": "https://www.kondapalliwoodentoys.com/about",
+   "says": "sells GI-tagged Kondapalli toys direct from Kondapalli village artisans",
+   "country": "India",
+   "dept": "Kondapalli wooden toys",
+   "role": "seller"
+  },
+  {
+   "n": "Kendama USA",
+   "layer": "cultural",
+   "src": "https://kendamausa.com/",
+   "says": "self-described America's original kendama company since 2006; Craft Kendama handmade in USA from North American hardwoods",
+   "country": "USA",
+   "dept": "kendama"
+  },
+  {
+   "n": "Nils Olssons Dalahästar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Dalecarlian_horse",
+   "says": "Wikipedia (Dala horse article): Nusnäs is the centre of Dala horse production, most famous workshops Nils Olsson and Grannas Olsson; Grannas A. Olssons Hemslöjd (1922) is oldest company still making Dala horses",
+   "country": "Sweden",
+   "dept": "Dala horses"
+  },
+  {
+   "n": "Ostheimer Wooden Toys",
+   "layer": "premium",
+   "src": "https://www.ostheimer.de/en",
+   "says": "Margarete Ostheimer GmbH: handmade wooden figures, every production step by hand (maker site; quality statement is the maker's own, listed)",
+   "country": "Germany",
+   "dept": "Waldorf-style wooden figures"
   }
  ]
 }
