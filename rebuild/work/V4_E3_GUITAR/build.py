@@ -1,8 +1,9 @@
 import json,copy,re,sys
 sys.path.insert(0,'.')
-import adds
+import adds,adds2
 from adds import A,_mv
 from data import *
+CTY={'Fender':'United States','Squier':'United States','Gibson':'United States','Martin':'United States','Gretsch':'United States','Epiphone':'United States','Rickenbacker':'United States','Jackson':'United States','PRS':'United States','Guild':'United States','Taylor':'United States','Ovation':'United States','Schecter':'United States','Music Man':'United States','Washburn':'United States','Danelectro':'United States','Peavey':'United States','Ampeg':'United States','Mesa/Boogie':'United States','Spector':'United States','Steinberger':'United States','Kay':'United States','Dean':'United States','Alembic':'United States','Ibanez':'Japan','ESP':'Japan','Yamaha':'Japan','Takamine':'Japan','Roland':'Japan','Boss':'Japan','Korg':'Japan','Höfner':'Germany','Warwick':'Germany','Hagström':'Sweden','Vox':'United Kingdom','Marshall Amplification':'United Kingdom','Marshall':'United Kingdom','Orange':'United Kingdom','MXR':'United States','Electro-Harmonix':'United States','Dunlop':'United States','TC Electronic':'Denmark','Moog':'United States','DiMarzio':'United States','Seymour Duncan':'United States',"D'Addario":'United States'}
 _mv('Boss TW-1 T Wah','Tremolo and vibe pedal','Wah pedal')
 old=json.load(open('../../out/E3.json'))
 names={'Guitars & basses','Guitar & bass parts','Amps & effects'}
@@ -64,7 +65,7 @@ for dp in depts:
       for e in ex:
           c=CTY.get(e.get('mk',''))
           if not c: unk.add(e.get('mk'))
-          e['g']=(c or 'Country not stated')+' · '+(e.get('mk') or 'Maker not stated')
+          e['g']=(c or 'Country not stated on a fetched page')+' · '+(e.get('mk') or 'Maker not stated')
       ex.sort(key=lambda e:(e['g'],ystart(e.get('y')),e['n']))
       if not ex: k.pop('x',None)
       stats[kn]=(len(ex),added)
@@ -74,6 +75,10 @@ for dp in depts:
           k['sel']="Wikipedia's Effects unit and Boss Corporation articles (read in full) plus the earlier sourced entries; pedals of other makers had no fetched page and are removed."
       elif not ex:
           k['sel']='No named entries: a commodity or parts kind with no fetched canon.'
+      if ex and kn in A:
+          if kn in('Combo amp','Amp head','Speaker cabinet'): k['sel']+=' Also the Orange, Peavey, Ampeg, Warwick, Music Man and PRS pages.'
+          elif not kn.endswith('pedal') and kn not in EFXK and kn!='Guitar pickup': k['sel']+=' Also the Taylor, PRS, Guild, Ovation, Schecter, Music Man, Washburn, Takamine, Hofner, Danelectro, Squier, Warwick, Spector, Steinberger, Yamaha electric guitar models and vintagemartin.com sizes pages.'
+      if ex: k['sel']+=' Maker country is taken from the maker page or a Wikidata country query; where none was fetched the section reads Country not stated on a fetched page.'
       if ex: k['xg']='by maker country, then maker, then year'
       if ex and 'sel' not in k:
           k['nl']='One entry is a named model line.'; k['sel']='Existing entries.'

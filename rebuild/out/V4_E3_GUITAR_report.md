@@ -26,3 +26,13 @@ All removed or converted. Converted to entries or versions: Fender HM Strat, Mes
 - Talk boxes, ring modulators, EBow and Korg Kaoss Pad (Effects unit page) had no kind and were left out.
 - Amp makers beyond Fender, Marshall, Vox, Mesa (Orange, Peavey, Ampeg and others) have only their earlier entries.
 - Brand register not extended.
+
+## Round two (coordinator request)
+Part file now 468 KB, 46 kinds, 961 entries (from 575). About 38 more fetches. Validates OK.
+- Ibanez read from offset 100000 to its end (page ends at 130,308): no model rows there, only navigation; nothing added.
+- Pages read and placed: Taylor, PRS, Guild, Ovation, Schecter, Music Man, Washburn, Takamine, Hofner, Danelectro, Squier, Warwick (guitar manufacturer), Spector (company), Steinberger, Yamaha electric guitar models, Pacifica history, Martin body sizes (vintagemartin.com), Orange, Peavey, Ampeg. Marshall history and Fender company pages re-read for dates and country; no new Marshall lines beyond round one.
+- Entries now: solid-body 316, semi-hollow 32, hollow-body 37, steel-string 107, archtop acoustic 15, electric bass 135, combo amps 77, heads 74, cabinets 12.
+- Country in `g`: now from fetched pages only (maker pages above, plus two Wikidata country queries of 32 and 95 rows, noisy). Makers with no fetched country read "Country not stated on a fetched page" (about 50 makers, e.g. Ernie Ball, Celestion, EMG, Klon, Maestro, Tokai, Line 6, Kemper, Neural DSP, DOD, Eventide). Wikidata country rows were used only where they agreed; ambiguous ones (Kemper, Selmer, Maestro, Eventide, Line 6, Strymon, Steinberger) were not used.
+- Not reachable: Wikipedia pages Spector_Bass_Guitars and Spector_Guitars (404; Spector (company) used), Yamaha guitars article (404; Yamaha electric guitar models used), no Wikipedia Martin full model list exists (404 or absent; Martin lines come from the Martin article and vintagemartin.com sizes). Rickenbacker, Gretsch, ESP/LTD, Jackson, Epiphone, Fender, Vox and Mesa have only the round-one pages: their own model archives were not fetched, so their lists are not complete. Taylor, PRS and Guild rows are series and models the Wikipedia pages name; the pages date few of them.
+- Several pages were summarised, which drops rows: the Washburn, Schecter and Yamaha lists may be partial.
+- Fender amplifier list: all dated rows plus navigation names placed; Princeton Reverb added.

@@ -1,24 +1,26 @@
-# V4_E2_OUTDOOR report
+# V4_E2_OUTDOOR report (second pass)
 
-Part file: rebuild/out/E2_parts/OUTDOOR.json (about 515 KB). Replaces Fishing & hunting; Camping & hiking; Climbing & caving; Water, wind & air sports; Snow, ice & wheels. Validates OK (199 kinds, 1,364 entries). No renames, no moves (every kind reappears).
+Part file: rebuild/out/E2_parts/OUTDOOR.json (about 400 KB, validates OK, 199 kinds, 1,038 entries, 5 roles). Replaces the five outdoor departments; no renames or moves. First-pass copy kept in work/V4_E2_OUTDOOR/bak/OUTDOOR.v1.json.
 
-## Entries before -> after
-358 entries and 924 loose models before; 1,364 entries and 0 loose models after.
-- 921 of 924 loose models became entries: 523 sourced from the stage-3 harvest record data/named_forms.tsv (page per model), 398 take their kind's page as source because the harvest stored no per-model page. 2 were duplicates of existing entries; 1 removed (Core 6-Person Instant Cabin Tent, no source).
-- Ranges (r) kept only where a maker still has entries (47 before, fewer after).
-- 85 new canon entries from fetched Wikipedia pages: Artificial fly 33 patterns (article's named examples, by type); Surfboard shapes 10; Kite classes 5; Kiteboard types 6; Paraglider wing classes 6; Skateboard deck shapes 5; Snowboard makers and shapes 8; Cams 5; Belay devices 4. Roles origin: Wild Country Friend, Snurfer (existing text).
-- Entries carry g (maker or section), own/tier/cty/own_y where a fetched page states it; every kind with entries has nl, sel (with coverage line), xg.
+## What changed
+- One named level per kind. In the line kinds (rods, reels, lures, flies, tents, hammocks, mats, bags, stoves, harnesses, cams, belay devices, skis, snowboards, boards, wetsuits, kites, wings, wheels) an entry is a model line; SKU-level models became versions. Models with a per-model page (523) group by line name into line entries; models with no per-model page (398) are either versions of a line confirmed on a fetched range page or sit as versions under one maker entry ("<Maker> <kind> models", 84 of these) on the kind's retail category page. No loose models, no unsourced lines. Ranges (r) dropped.
+- Model `d` templates removed (643 entries have no `d`; only facts from fetched pages kept).
+- Commodity kinds (88 kinds with entries removed: camp furniture, tarps, bivvy bags, water filters, hunting aids, fish finders and alarms, helmets, chalk, slings, pulleys, ascenders, caving kit, goggles, masks, paddles, life jackets, ski helmets and goggles, avalanche kit, cycling clothing and helmets, trainers) keep only an origin entry (CamelBak, Jumar, Morey Boogie) per the icon rule. 579 named entries and models removed; the full list is rebuild/work/V4_E2_OUTDOOR/removed.json (by kind).
 
-## References
-Wikipedia: Artificial fly, Surfboard, Kitesurfing, Paragliding, Skateboard deck, Snowboard, Spring-loaded camming device, Belay device, plus the company pages below.
+## Canons built from fetched pages (counts in each kind's sel)
+- Artificial fly 172 patterns: Wikipedia Artificial fly plus Orvis dry, wet, streamer, bass and panfish, nymph (UK page 1 of 2) and 12 must-have pages. Orvis dry and streamer pages were truncated by the fetch (about 105 and 80 listed); not complete. Wikipedia List of fly patterns is 404.
+- Reels: Shimano 18 spinning lines (Tackle Warehouse) and 5 baitcasting (Bassmaster); Daiwa 20 spinning and 7 baitcasting; Penn 5 spinning and 2 multiplier; Abu Garcia 3 spinning and 5 baitcasting (abugarcia.com).
+- Tents: MSR 6, Nemo 6, Big Agnes 9, Hilleberg 16 lines (REI, MEC, Campmor, Nordic Outdoor). Packs (Osprey, Gregory, Deuter) were fetched (Osprey: Atmos, Aether, Exos, Kestrel, Farpoint and others; Gregory: Baltoro, Stout, Paragon, Zulu, Jade, Deva, Maven, Amber) but E2 has no pack kind (rucksacks belong to A4), so they are not entered here; they need adding in A4.
+- Climbing: Black Diamond (belay 5, carabiner 10, Camalot 3, Stopper, harness 3), Petzl (belay 4, carabiner 11), Wild Country (Zero Friend, carabiners, quickdraws). DMM page not reached.
+- Snow: Burton 14 board lines, Lib Tech 17 board and 2 split lines; skis Atomic 5, Salomon 7, Rossignol 10, K2 3. Head, Völkl, Jones range pages not fetched (Jones, Völkl entries remain from earlier pass).
+- Paraglider: DHV LTF classes A to D (dhv.de). EN 926 equivalence is not on the page; EN 926 PDF returned 404.
+- Surfboard, kite, kiteboard, deck, snowboard shapes, cams, belay devices: Wikipedia articles from the first pass.
 
-## Market facts (department ms)
-Shimano revenue US$2.872bn, fishing 23.3 % (2024); bicycle components about 85 % by value. VF Corporation US$10.45bn (2024). Amer Sports US$5.18bn (2024), owners Anta 44.5 %. Johnson Outdoors US$592m (2025; page also says "more than $315m"). Burton 40-45 % of a US$236m US market (2013). Black Diamond bought by Clarus for US$90m (2010). Pure Fishing owned by Sycamore Partners since 2019. Rapala acquisitions 1999-2023. Eight owner brands added to the register; 17 brand_updates.
+## Market
+Unchanged from first pass (Shimano, VF, Amer, Johnson Outdoors, Burton, Clarus, Pure Fishing, Rapala, Petzl, with years).
 
-## Not done / could not be sourced
-- No "Complete: n of n" coverage line anywhere: no whole-space reference was fetched for any kind. Wikipedia List of fly patterns returned 404; the fly canon is the Artificial fly article's examples only. Wikidata was not queried.
-- Named lines in the prompt not yet added as new entries: Trangia, Hilleberg, Osprey Atmos, Camalot and GriGri already exist; Osprey Atmos, Burton Custom/Rossignol/Atomic Redster lines beyond those present, Daiwa/Penn reels beyond existing ones were not extended.
-- EN A-D paraglider classes: the fetched page does not describe them.
-- Model-level `d` is templated ("<kind> model from <maker>"); `y` filled only where the harvest had a year. 398 entries rest on a kind-level retail page.
-- Kinds with no entries (hooks, floats, sinkers, ice-fishing kit, bear canister and similar) stay commodity kinds.
-- About 38 fetches used.
+## Not done
+- No "Complete: n of n" claim anywhere; every sel says what was read and that the kind is not a complete list.
+- Head, Völkl, Jones, DMM, Deuter, Wild Country nuts and Hilleberg official pages not fetched; Daiwa/Penn rod lines and fly rods not fetched.
+- Maker groups (84) rest on a retail category page, not on a per-model page.
+- About 47 fetches used in this pass (Firecrawl for 403 pages: REI, MEC, Campmor and the maker shops).
