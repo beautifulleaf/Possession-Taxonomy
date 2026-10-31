@@ -203,16 +203,20 @@
   {
    "axis": "kind",
    "item": "Cleaning products > Bathroom & drain cleaners",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "de.wikipedia Markenname Haushaltschemie"
+   ],
+   "found": 1,
+   "note": "WC-Ente"
   },
   {
    "axis": "kind",
    "item": "Cleaning products > Kitchen & appliance cleaners",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "de.wikipedia Markenname Haushaltschemie"
+   ],
+   "found": 1,
+   "note": "Durgol descaler"
   },
   {
    "axis": "kind",
@@ -224,9 +228,11 @@
   {
    "axis": "kind",
    "item": "Cleaning products > Dishwashing",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "de.wikipedia Markenname Haushaltschemie"
+   ],
+   "found": 4,
+   "note": ""
   },
   {
    "axis": "kind",
@@ -255,17 +261,21 @@
    "axis": "kind",
    "item": "Laundry products > Washing & stain care",
    "queries": [
-    "best makers / independent test (partial)"
+    "best makers / independent test (partial)",
+    "de.wikipedia Kategorie Waschmittelmarke",
+    "ja detergent brand search"
    ],
-   "found": 0,
+   "found": 18,
    "note": ""
   },
   {
    "axis": "kind",
    "item": "Laundry products > After the wash",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "de.wikipedia Waschmittelmarke"
+   ],
+   "found": 2,
+   "note": "Lenor, Kuschelweich"
   },
   {
    "axis": "kind",
@@ -327,14 +337,23 @@
  "regions": [
   {
    "region": "Germany",
-   "speciality": "durable vacuums and washers, natural-fibre brushes",
+   "speciality": "durable vacuums and washers, natural-fibre brushes; Laundry detergents and household chemistry; organic detergents (Sonett, Sodasan, AlmaWin)",
    "src": "https://www.redecker.de/en/about-us/the-redecker-way",
    "brands": [
-    "Miele",
-    "Vorwerk",
-    "SEBO",
+    "AlmaWin",
+    "Fit",
+    "Frosch",
     "Kärcher",
-    "Redecker"
+    "Lenor",
+    "Miele",
+    "Persil",
+    "Perwoll",
+    "Redecker",
+    "SEBO",
+    "Sodasan",
+    "Sonett",
+    "Spee",
+    "Vorwerk"
    ]
   },
   {
@@ -358,11 +377,14 @@
   },
   {
    "region": "Japan",
-   "speciality": "tawashi palm-fibre scrubbing brushes and brooms",
+   "speciality": "tawashi palm-fibre scrubbing brushes and brooms; Detergents and spot-cleaning soaps (Utamaro, Yashinomi)",
    "src": "https://jinenstore.com/products/kamenoko-tawashi",
    "brands": [
+    "Kamenoko Tawashi (Nishio Shoten)",
+    "Saraya (Yashinomi)",
     "Takada Tawashi",
-    "Kamenoko Tawashi (Nishio Shoten)"
+    "Utamaro (Toho)",
+    "Washmania (Shikoku Kasei)"
    ]
   },
   {
@@ -589,6 +611,36 @@
    "new_names": 28,
    "status": "done",
    "note": "only laundry/cleaning-relevant makers taken; 44 of 91 candidates already known"
+  },
+  {
+   "url": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "title": "de.wikipedia Kategorie:Waschmittelmarke",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 17,
+   "new_names": 13,
+   "status": "done",
+   "note": "Ariel, Persil, Tide known"
+  },
+  {
+   "url": "https://de.wikipedia.org/wiki/Kategorie:Markenname_(Haushaltschemie)",
+   "title": "de.wikipedia Kategorie:Markenname (Haushaltschemie)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 21,
+   "new_names": 9,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://eleminist.com/article/2489",
+   "title": "ELEMINIST organic detergent guide (Japanese)",
+   "kind": "retailer",
+   "years": "2023",
+   "names_on_page": 6,
+   "new_names": 4,
+   "status": "partial",
+   "note": "editorial recommendation list; affiliate links"
   }
  ],
  "brands": [
@@ -1279,6 +1331,206 @@
    "says": "Listed in Wikipedia Category/Template: Home appliance brands (washing machine / vacuum / laundry-appliance maker, regional brand)",
    "country": "Sri Lanka",
    "dept": "Washing machines & dryers / appliances"
+  },
+  {
+   "n": "Fakt",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Fewa",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Fit",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Laundry/dish detergent"
+  },
+  {
+   "n": "IMI",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Lenor",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Fabric conditioner"
+  },
+  {
+   "n": "Linda",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Linux",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Milwa",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Perwoll",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Fine-wash detergent"
+  },
+  {
+   "n": "Sanso",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Seti",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Spee",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Thompson-Siegel",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Waschmittelmarke",
+   "says": "Listed in de.wikipedia Kategorie:Waschmittelmarke (17 entries)",
+   "country": "Germany",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Erdal",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Markenname_(Haushaltschemie)",
+   "says": "Listed in de.wikipedia Kategorie:Markenname (Haushaltschemie), 21 entries",
+   "country": "Germany",
+   "dept": "Shoe/household care"
+  },
+  {
+   "n": "Kuschelweich",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Markenname_(Haushaltschemie)",
+   "says": "Listed in de.wikipedia Kategorie:Markenname (Haushaltschemie), 21 entries",
+   "country": "Germany",
+   "dept": "Fabric conditioner"
+  },
+  {
+   "n": "Pril",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Markenname_(Haushaltschemie)",
+   "says": "Listed in de.wikipedia Kategorie:Markenname (Haushaltschemie), 21 entries",
+   "country": "Germany",
+   "dept": "Washing-up liquid"
+  },
+  {
+   "n": "Simple Green",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Markenname_(Haushaltschemie)",
+   "says": "Listed in de.wikipedia Kategorie:Markenname (Haushaltschemie), 21 entries",
+   "country": "United States",
+   "dept": "General cleaner"
+  },
+  {
+   "n": "WC-Ente",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Markenname_(Haushaltschemie)",
+   "says": "Listed in de.wikipedia Kategorie:Markenname (Haushaltschemie), 21 entries",
+   "country": "Germany",
+   "dept": "Toilet cleaner"
+  },
+  {
+   "n": "Oust",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Markenname_(Haushaltschemie)",
+   "says": "Listed in de.wikipedia Kategorie:Markenname (Haushaltschemie), 21 entries",
+   "country": "United States",
+   "dept": "Air/odour"
+  },
+  {
+   "n": "Sonett",
+   "layer": "cultural",
+   "src": "https://eleminist.com/article/2489",
+   "says": "Named by ELEMINIST as recommended organic detergent brand, born Germany 1977, 40+ year history",
+   "country": "Germany",
+   "dept": "Laundry detergent (organic)"
+  },
+  {
+   "n": "Sodasan",
+   "layer": "cultural",
+   "src": "https://eleminist.com/article/2489",
+   "says": "Named by ELEMINIST as recommended organic detergent brand, founded 1982 in Uplengen",
+   "country": "Germany",
+   "dept": "Laundry detergent (organic)"
+  },
+  {
+   "n": "AlmaWin",
+   "layer": "cultural",
+   "src": "https://eleminist.com/article/2489",
+   "says": "Named by ELEMINIST: German household detergent maker meeting BioForum standards",
+   "country": "Germany",
+   "dept": "Laundry detergent (organic)"
+  },
+  {
+   "n": "Saraya (Yashinomi)",
+   "layer": "cultural",
+   "src": "https://eleminist.com/article/2489",
+   "says": "ELEMINIST feature: Yashinomi detergent by Saraya, 55-year-old maker of river-friendly detergent",
+   "country": "Japan",
+   "dept": "Dishwashing/laundry"
+  },
+  {
+   "n": "Utamaro (Toho)",
+   "layer": "cultural",
+   "src": "https://www.toholtd.com/product",
+   "says": "Toho Co. Utamaro series, detergent brand: Utamaro soap, liquid, cleaner, kitchen",
+   "country": "Japan",
+   "dept": "Laundry spot soap / cleaners"
+  },
+  {
+   "n": "Washmania (Shikoku Kasei)",
+   "layer": "cultural",
+   "src": "https://www.shikoku.co.jp/sns/",
+   "says": "Household detergent brand by Shikoku Kasei Kogyo, developed by chlorine specialists",
+   "country": "Japan",
+   "dept": "Household detergent"
   }
  ]
 }
