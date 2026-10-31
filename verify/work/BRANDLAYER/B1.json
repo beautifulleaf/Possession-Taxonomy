@@ -264,6 +264,66 @@
    "new_names": 0,
    "status": "done",
    "note": "editorial"
+  },
+  {
+   "url": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "title": "Entreprises du Patrimoine Vivant (EPV) list, data.economie.gouv.fr",
+   "kind": "heritage",
+   "years": "label 2005-2026",
+   "names_on_page": 1300,
+   "new_names": 19,
+   "status": "done",
+   "note": "list has no per-company sector in the fetched text; names with furniture/upholstery/bedding/seat keywords taken; Tolix Steel Design, Roset, Lafuma Mobilier, Jouffre, Atelier d'Offard confirmed on it"
+  },
+  {
+   "url": "https://www.royalwarrant.org/company/hypnos-ltd",
+   "title": "Royal Warrant Holders Association: Hypnos",
+   "kind": "heritage",
+   "years": "since 1929",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Hypnos already known; the RWHA directory not enumerated (search page only)"
+  },
+  {
+   "url": "https://www.red-dot.org/magazine/red-dot-design-ranking-on-the-occasion-of-the-imm-cologne-the-most-successful-seating-furniture-manufacturers",
+   "title": "Red Dot Design Ranking: most successful seating furniture manufacturers (2010-2014)",
+   "kind": "award",
+   "years": "2010-2014",
+   "names_on_page": 6,
+   "new_names": 5,
+   "status": "done",
+   "note": "Bernhardt Design counted in Wikipedia US category already"
+  },
+  {
+   "url": "https://www.domusweb.it/en/news/gallery/2026/05/23/compasso-doro-2026-winners.html",
+   "title": "Domus: Compasso d'Oro 2026 winners",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 22,
+   "new_names": 3,
+   "status": "done",
+   "note": "furniture companies only"
+  },
+  {
+   "url": "https://designdiffusion.com/en/2024/06/21/all-the-winners-at-the-compasso-doro-awards-2024",
+   "title": "Design Diffusion: Compasso d'Oro 2024 winners",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 20,
+   "new_names": 1,
+   "status": "done",
+   "note": "Zanotta, Magis already known"
+  },
+  {
+   "url": "https://www.domusweb.it/en/news/gallery/2025/09/08/winners-compasso-oro-international-award-2025.html",
+   "title": "Domus: Compasso d'Oro International Award 2025",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 20,
+   "new_names": 1,
+   "status": "done",
+   "note": "Kartell, Hida Sangyo, Caimi Brevetti found"
   }
  ],
  "brands": [
@@ -1525,7 +1585,10 @@
    "country": "France",
    "dept": "",
    "already": false,
-   "pending_retail": false
+   "pending_retail": false,
+   "also": [
+    "EPV list https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view"
+   ]
   },
   {
    "n": "Bultex",
@@ -1565,7 +1628,10 @@
    "country": "France",
    "dept": "",
    "already": false,
-   "pending_retail": false
+   "pending_retail": false,
+   "also": [
+    "EPV list https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view"
+   ]
   },
   {
    "n": "Burger & Cie",
@@ -1615,7 +1681,10 @@
    "country": "France",
    "dept": "",
    "already": false,
-   "pending_retail": false
+   "pending_retail": false,
+   "also": [
+    "EPV list https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view"
+   ]
   },
   {
    "n": "Atelier d'Offard",
@@ -1625,7 +1694,10 @@
    "country": "France",
    "dept": "",
    "already": false,
-   "pending_retail": false
+   "pending_retail": false,
+   "also": [
+    "EPV list https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view"
+   ]
   },
   {
    "n": "Maison Belloir et Vazelle",
@@ -2255,7 +2327,10 @@
    "country": "Japan",
    "dept": "chairs",
    "already": false,
-   "pending_retail": false
+   "pending_retail": false,
+   "also": [
+    "Compasso d'Oro International Award 2025 (Domus): https://www.domusweb.it/en/news/gallery/2025/09/08/winners-compasso-oro-international-award-2025.html"
+   ]
   },
   {
    "n": "Kashiwa Mokko",
@@ -2794,6 +2869,276 @@
    "says": "Archello '25 best outdoor furniture manufacturers' ",
    "country": "",
    "dept": "garden furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Alsace Bedding",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list",
+   "country": "France",
+   "dept": "mattresses",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Centre Bedding",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list",
+   "country": "France",
+   "dept": "mattresses",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Duvivier Canapés",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list (CDHC Productions - Duvivier canapés)",
+   "country": "France",
+   "dept": "sofas",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Dumaine Sièges",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list",
+   "country": "France",
+   "dept": "chairs",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Jean-Pierre Besse",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list (Manufacture de sièges)",
+   "country": "France",
+   "dept": "chairs",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Literie Bonnet",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list",
+   "country": "France",
+   "dept": "mattresses",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Meubles Rinck",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list",
+   "country": "France",
+   "dept": "furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Sièges Bastiat",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list (Hagetmau, chairs and upholstery)",
+   "country": "France",
+   "dept": "chairs",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Anjou Sièges Création",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list (Ralph M.)",
+   "country": "France",
+   "dept": "chairs",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Canapés Design",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list",
+   "country": "France",
+   "dept": "sofas",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Fabrique de Meubles de Coulombs",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list",
+   "country": "France",
+   "dept": "furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Atelier du Meuble Contemporain",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list",
+   "country": "France",
+   "dept": "furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Ébénisterie Michel Jamet",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list",
+   "country": "France",
+   "dept": "cabinetmaking",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Ébénisterie Pierre Joussot et Fils",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list",
+   "country": "France",
+   "dept": "cabinetmaking",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Les Sièges d'Argentat",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list (Nouvelle-Aquitaine EPV list 2026)",
+   "country": "France",
+   "dept": "chairs",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Atelier Monceau",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list (restoration of furniture)",
+   "country": "France",
+   "dept": "cabinetmaking",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Coulon Tapissier",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list (upholsterer)",
+   "country": "France",
+   "dept": "upholstery",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Tapissier Seigneur",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list (upholsterer)",
+   "country": "France",
+   "dept": "upholstery",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Phelippeau Tapissier",
+   "layer": "premium",
+   "src": "https://data.economie.gouv.fr/explore/assets/entreprise-patrimoine-vivant/view",
+   "says": "Holds the French State label Entreprise du Patrimoine Vivant (EPV, rare and exceptional craft/industrial know-how); named on the EPV list (upholsterer)",
+   "country": "France",
+   "dept": "upholstery",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Walter Knoll",
+   "layer": "premium",
+   "src": "https://www.red-dot.org/magazine/red-dot-design-ranking-on-the-occasion-of-the-imm-cologne-the-most-successful-seating-furniture-manufacturers",
+   "says": "Red Dot Design Ranking of most successful seating-furniture manufacturers 2010-2014 (most Red Dot awards for seating)",
+   "country": "Germany",
+   "dept": "seating",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Intertime",
+   "layer": "premium",
+   "src": "https://www.red-dot.org/magazine/red-dot-design-ranking-on-the-occasion-of-the-imm-cologne-the-most-successful-seating-furniture-manufacturers",
+   "says": "Red Dot Design Ranking of most successful seating-furniture manufacturers 2010-2014 (most Red Dot awards for seating)",
+   "country": "",
+   "dept": "seating",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Tonon & C.",
+   "layer": "premium",
+   "src": "https://www.red-dot.org/magazine/red-dot-design-ranking-on-the-occasion-of-the-imm-cologne-the-most-successful-seating-furniture-manufacturers",
+   "says": "Red Dot Design Ranking of most successful seating-furniture manufacturers 2010-2014 (most Red Dot awards for seating)",
+   "country": "",
+   "dept": "seating",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Arper",
+   "layer": "premium",
+   "src": "https://www.red-dot.org/magazine/red-dot-design-ranking-on-the-occasion-of-the-imm-cologne-the-most-successful-seating-furniture-manufacturers",
+   "says": "Red Dot Design Ranking of most successful seating-furniture manufacturers 2010-2014 (most Red Dot awards for seating)",
+   "country": "",
+   "dept": "seating",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Gaber",
+   "layer": "premium",
+   "src": "https://www.red-dot.org/magazine/red-dot-design-ranking-on-the-occasion-of-the-imm-cologne-the-most-successful-seating-furniture-manufacturers",
+   "says": "Red Dot Design Ranking of most successful seating-furniture manufacturers 2010-2014 (most Red Dot awards for seating)",
+   "country": "",
+   "dept": "seating",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "De Padova",
+   "layer": "premium",
+   "src": "https://www.domusweb.it/en/news/gallery/2026/05/23/compasso-doro-2026-winners.html",
+   "says": "Company among Compasso d'Oro 2026 winners (ADI)",
+   "country": "Italy",
+   "dept": "furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "MDF Italia",
+   "layer": "premium",
+   "src": "https://www.domusweb.it/en/news/gallery/2026/05/23/compasso-doro-2026-winners.html",
+   "says": "Company among Compasso d'Oro 2026 winners (ADI)",
+   "country": "Italy",
+   "dept": "furniture",
+   "already": false,
+   "pending_retail": false
+  },
+  {
+   "n": "Hangzhou Gedu Furniture Design",
+   "layer": "premium",
+   "src": "https://www.domusweb.it/en/news/gallery/2025/09/08/winners-compasso-oro-international-award-2025.html",
+   "says": "Compasso d'Oro International Award 2025, Hippo Pouf, 'furniture piece for the Eastern market'",
+   "country": "China",
+   "dept": "poufs",
    "already": false,
    "pending_retail": false
   }

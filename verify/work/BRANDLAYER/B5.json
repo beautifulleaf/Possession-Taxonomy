@@ -241,6 +241,34 @@
    ],
    "found": 0,
    "note": "gap"
+  },
+  {
+   "axis": "kind",
+   "item": "Tea & kettles (Chinese tea)",
+   "queries": [
+    "Yixing zisha teapot famous workshops makers brands"
+   ],
+   "found": 1,
+   "note": "GI + factory page; individual masters are artists, not brands; Yixing Zisha Factory No.1 logged"
+  },
+  {
+   "axis": "kind",
+   "item": "Knives & cutting (Chinese cleavers)",
+   "queries": [
+    "Chinese cleaver famous maker Shibazi Zhang Xiaoquan heritage brand"
+   ],
+   "found": 1,
+   "note": "Zhang Xiaoquan time-honored brand logged; Shibazi/Dao Zhang not named by a fetched page"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe (heritage registers)",
+   "queries": [
+    "Entreprise du Patrimoine Vivant coutellerie porcelaine",
+    "Marchi Storici casalinghi"
+   ],
+   "found": 8,
+   "note": "EPV: Haviland, Cristel, Degrenne, Au Sabot, Arbalete; Italian register is database only"
   }
  ],
  "regions": [
@@ -723,12 +751,6 @@
    ]
   },
   {
-   "region": "China - Yixing (Jiangsu)",
-   "speciality": "zisha purple-clay teapots",
-   "src": "https://www.yoshien.com/en/teaware",
-   "brands": []
-  },
-  {
    "region": "Italy - Murano",
    "speciality": "hand-blown art glass; ~60 furnaces remain",
    "src": "https://www.spinzi.com/top-10-legendary-murano-glass-makers",
@@ -748,6 +770,22 @@
    "brands": [
     "Moser",
     "Ajka Crystal"
+   ]
+  },
+  {
+   "region": "China - Yixing (Jiangsu)",
+   "speciality": "zisha purple-clay teapots; GI-protected clay and 2006 national intangible heritage technique",
+   "src": "https://english.cnipa.gov.cn/attach/0/efd85b77f51c4d519815d83725367c38.pdf",
+   "brands": [
+    "Yixing Zisha Factory No. 1"
+   ]
+  },
+  {
+   "region": "China - Hangzhou",
+   "speciality": "Zhang Xiaoquan scissors and knives, 1628, 72-step hand forging",
+   "src": "https://en.wikipedia.org/wiki/Zhang_Xiaoquan",
+   "brands": [
+    "Zhang Xiaoquan"
    ]
   }
  ],
@@ -899,6 +937,165 @@
    "status": "done",
    "note": "pages 1-8 raw; industrial blade/grinding/salon firms skipped",
    "_known": 9
+  },
+  {
+   "url": "https://ivsh.de/mitglieder/4",
+   "title": "IVSH Haushaltwaren members, all 3 pages raw",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 25,
+   "new_names": 10,
+   "status": "done",
+   "note": "pages 1-3 raw",
+   "_known": 1
+  },
+  {
+   "url": "https://www.chuboknives.com/pages/brands",
+   "title": "Chubo Knives (Japanese-knife specialist) brands page",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 18,
+   "new_names": 13,
+   "status": "done",
+   "note": "raw full_content",
+   "_known": 3
+  },
+  {
+   "url": "https://us.seisukeknife.com/pages/makers",
+   "title": "Seisuke Knife (Portland/Tokyo) maker directory",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 30,
+   "new_names": 18,
+   "status": "done",
+   "note": "raw full_content",
+   "_known": 2
+  },
+  {
+   "url": "https://seisukeknifekappabashi.com/pages/brands",
+   "title": "Seisuke Knife Kappabashi brands page",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 7,
+   "new_names": 5,
+   "status": "done",
+   "note": "raw full_content"
+  },
+  {
+   "url": "https://www.nytimes.com/wirecutter/reviews/the-best-chefs-knife-for-most-cooks",
+   "title": "Wirecutter best chef's knife (updated Sept 2026)",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Wirecutter pages seen only as search excerpts; other categories not opened",
+   "_known": 1
+  },
+  {
+   "url": "https://www.bonappetit.com/story/how-to-find-the-best-chefs-knife-for-you",
+   "title": "Bon Appetit 42 chef knives tested",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 0,
+   "status": "partial",
+   "note": "excerpt",
+   "_known": 2
+  },
+  {
+   "url": "https://www.srf.ch/sendungen/kassensturz-espresso/tests/haushaltsgeraete/messer-test-auch-zwei-guenstige-kochmesser-schneiden-gut-ab",
+   "title": "Kassensturz/A Bon Entendeur Swiss consumer knife test 2022",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 0,
+   "status": "done",
+   "note": "all names already known",
+   "_known": 2
+  },
+  {
+   "url": "https://www.messer-mojo.de/kochmesser-test-und-vergleich",
+   "title": "Messer-Mojo Kochmesser Test (9 knives)",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 5,
+   "new_names": 1,
+   "status": "done",
+   "note": "",
+   "_known": 2
+  },
+  {
+   "url": "https://www.americastestkitchen.com/equipment_reviews/2593-the-best-stand-mixers",
+   "title": "America's Test Kitchen best stand mixers 2026",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "partial",
+   "note": "excerpt; other ATK equipment categories not opened",
+   "_known": 4
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Zhang_Xiaoquan",
+   "title": "Wikipedia Zhang Xiaoquan (China Time-honored Brand)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://english.cnipa.gov.cn/attach/0/efd85b77f51c4d519815d83725367c38.pdf",
+   "title": "CNIPA Yixing Zisha Ware geographical indication",
+   "kind": "pdo",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "GI covers a region, no producers named"
+  },
+  {
+   "url": "https://yixingteapot.art/blogs/news/yixing-zisha-factory-no-1",
+   "title": "Yixing Zisha Factory No. 1 history (SiYuTao)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.marques-de-france.fr/definition/entreprise-du-patrimoine-vivant-epv",
+   "title": "Marques de France - brands holding the EPV (Entreprise du Patrimoine Vivant) label, kitchen/table excerpts",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 5,
+   "new_names": 4,
+   "status": "partial",
+   "note": "only the excerpt of the EPV listing seen; full listing (data.economie.gouv.fr dataset) not opened"
+  },
+  {
+   "url": "https://www.sambonet.com/en-it",
+   "title": "Sambonet / Arcturus Group portfolio page",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 8,
+   "new_names": 4,
+   "status": "done",
+   "note": "",
+   "_known": 3
+  },
+  {
+   "url": "https://uibm.mise.gov.it/index.php/it/marchio-storico-di-interesse-nazionale",
+   "title": "Italy Registro dei Marchi Storici (UIBM)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "register is a database (uibm.gov.it/bancadati), not fetched as list; no kitchen names obtained"
   }
  ],
  "brands": [
@@ -925,6 +1122,22 @@
    "says": "listed in Wikipedia Category:Glassmaking companies",
    "country": "Hungary",
    "dept": "glassware"
+  },
+  {
+   "n": "Akira-Saku",
+   "layer": "premium",
+   "src": "https://www.chuboknives.com/pages/brands",
+   "says": "listed among Japanese knife brands by Chubo Knives, specialist retailer, with craft description",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Akitada Minamoto",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
+   "dept": "knives"
   },
   {
    "n": "Alcoso",
@@ -983,6 +1196,14 @@
    "dept": "knives"
   },
   {
+   "n": "Arbalète G. David",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/definition/entreprise-du-patrimoine-vivant-epv",
+   "says": "holds the French state EPV Living Heritage Company label (Limoges porcelain / Normandy stainless cookware and cutlery / Thiers knives)",
+   "country": "France",
+   "dept": "tableware"
+  },
+  {
    "n": "Arkel",
    "layer": "premium",
    "src": "https://www.wholelattelove.com/collections/espresso-machines",
@@ -996,6 +1217,14 @@
    "src": "https://en.wikipedia.org/wiki/List_of_porcelain_manufacturers",
    "says": "listed as a porcelain manufacturer in Wikipedia List of porcelain manufacturers (present-day maker)",
    "country": "India",
+   "dept": "tableware"
+  },
+  {
+   "n": "Arthur Krupp",
+   "layer": "premium",
+   "src": "https://www.sambonet.com/en-it",
+   "says": "brand of the Arcturus Group tableware portfolio (Sambonet founded 1856)",
+   "country": "Austria",
    "dept": "tableware"
   },
   {
@@ -1029,6 +1258,14 @@
    "says": "listed in Wikipedia Category:Home appliance brands / appliance-brands navbox",
    "country": "Sweden",
    "dept": "appliances"
+  },
+  {
+   "n": "Au Sabot",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/definition/entreprise-du-patrimoine-vivant-epv",
+   "says": "holds the French state EPV Living Heritage Company label (Limoges porcelain / Normandy stainless cookware and cutlery / Thiers knives)",
+   "country": "France",
+   "dept": "tableware"
   },
   {
    "n": "Aynsley China",
@@ -1207,6 +1444,14 @@
    "dept": "knives"
   },
   {
+   "n": "Chubo Inox",
+   "layer": "premium",
+   "src": "https://www.chuboknives.com/pages/brands",
+   "says": "listed among Japanese knife brands by Chubo Knives, specialist retailer, with craft description",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
    "n": "Chue Chin Hua",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Kitchenware_brands",
@@ -1263,6 +1508,14 @@
    "dept": "tableware"
   },
   {
+   "n": "Cookvision",
+   "layer": "premium",
+   "src": "https://ivsh.de/mitglieder/4",
+   "says": "member of IVSH Haushaltwaren (Solingen/German household-goods industry association)",
+   "country": "Germany",
+   "dept": "cookware and tools"
+  },
+  {
    "n": "CorningWare",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Kitchenware_brands",
@@ -1317,6 +1570,14 @@
    "says": "brand carried by Whole Latte Love, specialty espresso retailer (in-house tested)",
    "country": "Spain",
    "dept": "coffee machines"
+  },
+  {
+   "n": "Cristel",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/definition/entreprise-du-patrimoine-vivant-epv",
+   "says": "holds the French state EPV Living Heritage Company label (Limoges porcelain / Normandy stainless cookware and cutlery / Thiers knives)",
+   "country": "France",
+   "dept": "tableware"
   },
   {
    "n": "Crock-Pot",
@@ -1397,6 +1658,14 @@
    "says": "listed in Wikipedia Category:Home appliance brands / appliance-brands navbox",
    "country": "South Africa",
    "dept": "appliances"
+  },
+  {
+   "n": "Degrenne",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/definition/entreprise-du-patrimoine-vivant-epv",
+   "says": "holds the French state EPV Living Heritage Company label (Limoges porcelain / Normandy stainless cookware and cutlery / Thiers knives)",
+   "country": "France",
+   "dept": "tableware"
   },
   {
    "n": "Descoware",
@@ -1487,6 +1756,14 @@
    "dept": "appliances"
   },
   {
+   "n": "Elo",
+   "layer": "premium",
+   "src": "https://ivsh.de/mitglieder/4",
+   "says": "member of IVSH Haushaltwaren (Solingen/German household-goods industry association)",
+   "country": "Germany",
+   "dept": "cookware and tools"
+  },
+  {
    "n": "Emil Schmidt",
    "layer": "premium",
    "src": "https://ivsh.de/mitglieder/2",
@@ -1509,6 +1786,14 @@
    "says": "member of IVSH Schneidwaren (Solingen cutlery and cutting-goods industry association)",
    "country": "Germany",
    "dept": "knives"
+  },
+  {
+   "n": "Ercuis",
+   "layer": "premium",
+   "src": "https://www.sambonet.com/en-it",
+   "says": "brand of the Arcturus Group tableware portfolio (Sambonet founded 1856)",
+   "country": "France",
+   "dept": "tableware"
   },
   {
    "n": "Farberware",
@@ -1927,6 +2212,14 @@
    "dept": "appliances"
   },
   {
+   "n": "Hoffmann Pfannen (IBT)",
+   "layer": "premium",
+   "src": "https://ivsh.de/mitglieder/4",
+   "says": "member of IVSH Haushaltwaren (Solingen/German household-goods industry association)",
+   "country": "Germany",
+   "dept": "cookware and tools"
+  },
+  {
    "n": "Hollóháza Porcelain Manufactory",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_porcelain_manufacturers",
@@ -1989,6 +2282,14 @@
    "says": "listed in Wikipedia Category:Kitchenware brands",
    "country": "US",
    "dept": "kitchenware"
+  },
+  {
+   "n": "Iseya",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
+   "dept": "knives"
   },
   {
    "n": "iSi",
@@ -2055,6 +2356,14 @@
    "dept": "tableware"
   },
   {
+   "n": "Kajin",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
    "n": "Kakiemon",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_porcelain_manufacturers",
@@ -2095,6 +2404,22 @@
    "dept": "knives"
   },
   {
+   "n": "Kanetsune",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Karaku",
+   "layer": "premium",
+   "src": "https://www.chuboknives.com/pages/brands",
+   "says": "listed among Japanese knife brands by Chubo Knives, specialist retailer, with craft description",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
    "n": "Kastrup Vaerk",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_porcelain_manufacturers",
@@ -2107,6 +2432,30 @@
    "layer": "premium",
    "src": "https://www.takefu-knifevillage.jp/members",
    "says": "member of Takefu Knife Village cooperative (Echizen), traditional-craftsman makers",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Kawamura",
+   "layer": "premium",
+   "src": "https://seisukeknifekappabashi.com/pages/brands",
+   "says": "listed among brands at Seisuke Knife Kappabashi Tokyo (Sakai Wazashu award 2011 for Kawamura; Sukenari honyaki since 1933)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Kazan",
+   "layer": "premium",
+   "src": "https://www.chuboknives.com/pages/brands",
+   "says": "listed among Japanese knife brands by Chubo Knives, specialist retailer, with craft description",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Kei Kobayashi",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
    "country": "Japan",
    "dept": "knives"
   },
@@ -2197,6 +2546,22 @@
    "says": "listed as a porcelain manufacturer in Wikipedia List of porcelain manufacturers (present-day maker)",
    "country": "Poland",
    "dept": "tableware"
+  },
+  {
+   "n": "Kunihira",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Kupfermanufaktur Weyersberg",
+   "layer": "premium",
+   "src": "https://ivsh.de/mitglieder/4",
+   "says": "member of IVSH Haushaltwaren (Solingen/German household-goods industry association)",
+   "country": "Germany",
+   "dept": "cookware and tools"
   },
   {
    "n": "Kurosaki Knives",
@@ -2383,10 +2748,26 @@
    "dept": "knives"
   },
   {
+   "n": "Masamoto",
+   "layer": "premium",
+   "src": "https://www.chuboknives.com/pages/brands",
+   "says": "listed among Japanese knife brands by Chubo Knives, specialist retailer, with craft description",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
    "n": "Masutani Hamono",
    "layer": "premium",
    "src": "https://knifewear.com/collections/brands?page_5acf3f03=2",
    "says": "listed as a knife brand by Knifewear, specialist Japanese-knife retailer (handcrafted, makers named with city)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Matsubara",
+   "layer": "premium",
+   "src": "https://www.chuboknives.com/pages/brands",
+   "says": "listed among Japanese knife brands by Chubo Knives, specialist retailer, with craft description",
    "country": "Japan",
    "dept": "knives"
   },
@@ -2447,6 +2828,14 @@
    "dept": "kitchenware"
   },
   {
+   "n": "Michiko Kubota",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
    "n": "Mikuri",
    "layer": "premium",
    "src": "https://knifewear.com/collections/brands?page_5acf3f03=2",
@@ -2479,6 +2868,14 @@
    "dept": "knives"
   },
   {
+   "n": "Miyako",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
    "n": "Moffat",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
@@ -2500,6 +2897,14 @@
    "src": "https://ivsh.de/mitglieder/2",
    "says": "member of IVSH Schneidwaren (Solingen cutlery and cutting-goods industry association)",
    "country": "Germany",
+   "dept": "knives"
+  },
+  {
+   "n": "Nao Yamamoto",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
    "dept": "knives"
   },
   {
@@ -2605,6 +3010,22 @@
    "says": "member of IVSH Schneidwaren (Solingen cutlery and cutting-goods industry association)",
    "country": "Germany",
    "dept": "knives"
+  },
+  {
+   "n": "OUL",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Paderno",
+   "layer": "premium",
+   "src": "https://www.sambonet.com/en-it",
+   "says": "brand of the Arcturus Group tableware portfolio (Sambonet founded 1856)",
+   "country": "Italy",
+   "dept": "tableware"
   },
   {
    "n": "Pampered Chef",
@@ -2767,6 +3188,14 @@
    "dept": "appliances"
   },
   {
+   "n": "Profino",
+   "layer": "premium",
+   "src": "https://ivsh.de/mitglieder/4",
+   "says": "member of IVSH Haushaltwaren (Solingen/German household-goods industry association)",
+   "country": "Germany",
+   "dept": "cookware and tools"
+  },
+  {
    "n": "Prouna",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_porcelain_manufacturers",
@@ -2812,6 +3241,14 @@
    "src": "https://en.wikipedia.org/wiki/List_of_porcelain_manufacturers",
    "says": "listed as a porcelain manufacturer in Wikipedia List of porcelain manufacturers (present-day maker)",
    "country": "UAE",
+   "dept": "tableware"
+  },
+  {
+   "n": "Raynaud",
+   "layer": "premium",
+   "src": "https://www.sambonet.com/en-it",
+   "says": "brand of the Arcturus Group tableware portfolio (Sambonet founded 1856)",
+   "country": "France",
    "dept": "tableware"
   },
   {
@@ -3015,6 +3452,14 @@
    "dept": "knives"
   },
   {
+   "n": "Sakai Jikko",
+   "layer": "premium",
+   "src": "https://seisukeknifekappabashi.com/pages/brands",
+   "says": "listed among brands at Seisuke Knife Kappabashi Tokyo (Sakai Wazashu award 2011 for Kawamura; Sukenari honyaki since 1933)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
    "n": "Sakai Kikumori",
    "layer": "premium",
    "src": "https://knifewear.com/collections/brands?page_5acf3f03=2",
@@ -3047,11 +3492,27 @@
    "dept": "kitchenware"
   },
   {
+   "n": "Schulte-Ufer",
+   "layer": "premium",
+   "src": "https://ivsh.de/mitglieder/4",
+   "says": "member of IVSH Haushaltwaren (Solingen/German household-goods industry association)",
+   "country": "Germany",
+   "dept": "cookware and tools"
+  },
+  {
    "n": "Schwertkrone",
    "layer": "premium",
    "src": "https://ivsh.de/mitglieder/2",
    "says": "member of IVSH Schneidwaren (Solingen cutlery and cutting-goods industry association)",
    "country": "Germany",
+   "dept": "knives"
+  },
+  {
+   "n": "Seisuke Knife",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
    "dept": "knives"
   },
   {
@@ -3087,6 +3548,14 @@
    "dept": "cutlery"
   },
   {
+   "n": "Shibata Kotetsu",
+   "layer": "premium",
+   "src": "https://www.chuboknives.com/pages/brands",
+   "says": "listed among Japanese knife brands by Chubo Knives, specialist retailer, with craft description",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
    "n": "Shibata Tinker",
    "layer": "premium",
    "src": "https://knifewear.com/collections/brands?page_5acf3f03=2",
@@ -3095,10 +3564,34 @@
    "dept": "knives"
   },
   {
+   "n": "Shigeki Tanaka",
+   "layer": "premium",
+   "src": "https://seisukeknifekappabashi.com/pages/brands",
+   "says": "listed among brands at Seisuke Knife Kappabashi Tokyo (Sakai Wazashu award 2011 for Kawamura; Sukenari honyaki since 1933)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Shizu",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
    "n": "Shizu Hamono",
    "layer": "premium",
    "src": "https://knifewear.com/collections/brands?page_5acf3f03=2",
    "says": "listed as a knife brand by Knifewear, specialist Japanese-knife retailer (handcrafted, makers named with city)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Shungo Ogata",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
    "country": "Japan",
    "dept": "knives"
   },
@@ -3167,6 +3660,14 @@
    "dept": "kitchenware"
   },
   {
+   "n": "STUR Cookware",
+   "layer": "premium",
+   "src": "https://ivsh.de/mitglieder/4",
+   "says": "member of IVSH Haushaltwaren (Solingen/German household-goods industry association)",
+   "country": "Germany",
+   "dept": "cookware and tools"
+  },
+  {
    "n": "Style K (Makoto Kurosaki)",
    "layer": "premium",
    "src": "https://knifewear.com/collections/brands?page_5acf3f03=2",
@@ -3175,12 +3676,28 @@
    "dept": "knives"
   },
   {
+   "n": "Städter",
+   "layer": "premium",
+   "src": "https://ivsh.de/mitglieder/4",
+   "says": "member of IVSH Haushaltwaren (Solingen/German household-goods industry association)",
+   "country": "Germany",
+   "dept": "cookware and tools"
+  },
+  {
    "n": "Suisse Langenthal",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_porcelain_manufacturers",
    "says": "listed as a porcelain manufacturer in Wikipedia List of porcelain manufacturers (present-day maker)",
    "country": "Switzerland",
    "dept": "tableware"
+  },
+  {
+   "n": "Sukenari",
+   "layer": "premium",
+   "src": "https://seisukeknifekappabashi.com/pages/brands",
+   "says": "listed among brands at Seisuke Knife Kappabashi Tokyo (Sakai Wazashu award 2011 for Kawamura; Sukenari honyaki since 1933)",
+   "country": "Japan",
+   "dept": "knives"
   },
   {
    "n": "Sunbeam Australia",
@@ -3237,6 +3754,30 @@
    "says": "listed as a porcelain manufacturer in Wikipedia List of porcelain manufacturers (present-day maker)",
    "country": "France",
    "dept": "tableware"
+  },
+  {
+   "n": "Takamura",
+   "layer": "premium",
+   "src": "https://www.chuboknives.com/pages/brands",
+   "says": "listed among Japanese knife brands by Chubo Knives, specialist retailer, with craft description",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Takayuki Iwai",
+   "layer": "premium",
+   "src": "https://seisukeknifekappabashi.com/pages/brands",
+   "says": "listed among brands at Seisuke Knife Kappabashi Tokyo (Sakai Wazashu award 2011 for Kawamura; Sukenari honyaki since 1933)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
+   "n": "Takeda",
+   "layer": "premium",
+   "src": "https://www.chuboknives.com/pages/brands",
+   "says": "listed among Japanese knife brands by Chubo Knives, specialist retailer, with craft description",
+   "country": "Japan",
+   "dept": "knives"
   },
   {
    "n": "Taylor & Ng",
@@ -3333,6 +3874,14 @@
    "says": "listed in Wikipedia Category:Cutlery brands",
    "country": "US",
    "dept": "cutlery"
+  },
+  {
+   "n": "Triangle",
+   "layer": "premium",
+   "src": "https://ivsh.de/mitglieder/4",
+   "says": "member of IVSH Haushaltwaren (Solingen/German household-goods industry association)",
+   "country": "Germany",
+   "dept": "cookware and tools"
   },
   {
    "n": "Trudeau Corporation",
@@ -3503,6 +4052,14 @@
    "dept": "appliances"
   },
   {
+   "n": "Woll",
+   "layer": "premium",
+   "src": "https://ivsh.de/mitglieder/4",
+   "says": "member of IVSH Haushaltwaren (Solingen/German household-goods industry association)",
+   "country": "Germany",
+   "dept": "cookware and tools"
+  },
+  {
    "n": "Yamamoto Knives",
    "layer": "premium",
    "src": "https://www.takefu-knifevillage.jp/members",
@@ -3519,12 +4076,36 @@
    "dept": "tableware"
   },
   {
+   "n": "Yixing Zisha Factory No. 1",
+   "layer": "premium",
+   "src": "https://yixingteapot.art/blogs/news/yixing-zisha-factory-no-1",
+   "says": "state zisha factory 1958, Fang Yuan brand teapots exported worldwide, trained Zhou Guizhen and Li Changhong",
+   "country": "China",
+   "dept": "tea"
+  },
+  {
+   "n": "Yoshimi Kato",
+   "layer": "premium",
+   "src": "https://us.seisukeknife.com/pages/makers",
+   "says": "listed in maker directory of Seisuke Knife, specialist Japanese-knife retailer (Echizen, Sakai, Seki)",
+   "country": "Japan",
+   "dept": "knives"
+  },
+  {
    "n": "Zarin Iran Porcelain Industries",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_porcelain_manufacturers",
    "says": "listed as a porcelain manufacturer in Wikipedia List of porcelain manufacturers (present-day maker)",
    "country": "Iran",
    "dept": "tableware"
+  },
+  {
+   "n": "Zhang Xiaoquan",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Zhang_Xiaoquan",
+   "says": "Hangzhou scissors and knife maker founded 1628/1663; China Time-honored Brand (1991, reaffirmed 2006); forging craft on national intangible heritage list",
+   "country": "China",
+   "dept": "knives"
   },
   {
    "n": "Ziploc",

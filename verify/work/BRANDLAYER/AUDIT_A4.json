@@ -183,15 +183,6 @@
  },
  "add_brands": [
   {
-   "n": "Didymos",
-   "layer": "premium",
-   "src": "https://www.littlezenone.com/pages/authorized-retailer-our-brands",
-   "says": "The original woven wrap company, weaving in Germany since 1972; GOTS organic cotton",
-   "country": "Germany",
-   "dept": "baby carriers",
-   "region": "Western Europe"
-  },
-  {
    "n": "Oscha Slings",
    "layer": "premium",
    "src": "https://www.littlezenone.com/pages/authorized-retailer-our-brands",
@@ -289,15 +280,6 @@
    "country": "France",
    "dept": "umbrellas",
    "region": "Western Europe"
-  },
-  {
-   "n": "Hiyoshiya",
-   "layer": "premium",
-   "src": "https://shop.wagasa.com/en",
-   "says": "Historic Kyoto atelier (160+ years), the only maker of Kyo-wagasa in Kyoto",
-   "country": "Japan",
-   "dept": "umbrellas",
-   "region": "East Asia"
   },
   {
    "n": "OSOI",
@@ -466,15 +448,6 @@
    "layer": "premium",
    "src": "https://www.irunfar.com/best-running-sunglasses",
    "says": "Roka Braker 2.0: iRunFar Best Crossover Sunglasses (tested)",
-   "country": "USA",
-   "dept": "eyewear (sports sunglasses)",
-   "region": "North America"
-  },
-  {
-   "n": "District Vision",
-   "layer": "premium",
-   "src": "https://www.outdoorgearlab.com/topics/fitness/best-running-sunglasses",
-   "says": "Tracksmith x District Vision Kazu Tourer: OutdoorGearLab Best Upgraded Pick, retro design with advanced optics",
    "country": "USA",
    "dept": "eyewear (sports sunglasses)",
    "region": "North America"
@@ -694,6 +667,78 @@
    "country": "USA",
    "dept": "luggage",
    "region": "North America"
+  },
+  {
+   "n": "Mola Sasa",
+   "layer": "cultural",
+   "src": "https://www.fashionkind.com/blogs/brands/mola-sasa",
+   "says": "Bogota label whose iconic clutches use Guna (Kuna) mola applique, with Kankuamo fique, caña flecha and iraca palm crafts by Colombian artisans",
+   "country": "Colombia",
+   "dept": "handbags",
+   "region": "Latin America & Caribbean"
+  },
+  {
+   "n": "Kachorovska",
+   "layer": "cultural",
+   "src": "https://inkorr.com/en/top-5-brendiv-zinocih-sumok-ukraini-u-2026-350441",
+   "says": "No. 1 in the Ukrainian Business Award ranking of women's bag brands 2026 (shoemaking family since 1957)",
+   "country": "Ukraine",
+   "dept": "handbags",
+   "region": "Central & Eastern Europe"
+  },
+  {
+   "n": "Callista Crafts",
+   "layer": "premium",
+   "src": "https://www.collectioneu.com/blogs/blog/4-greek-brands-manufacturing-bags-made-in-greece",
+   "says": "Athens atelier (2013), hand-stitched leather totes; one of four Greek bag brands worth knowing; NYT profile",
+   "country": "Greece",
+   "dept": "handbags",
+   "region": "Southern Europe"
+  },
+  {
+   "n": "Kooreloo",
+   "layer": "cultural",
+   "src": "https://www.collectioneu.com/blogs/blog/4-greek-brands-manufacturing-bags-made-in-greece",
+   "says": "Athens bags hand-woven from patchwork textiles in the Greek kourelou rug tradition",
+   "country": "Greece",
+   "dept": "handbags",
+   "region": "Southern Europe"
+  },
+  {
+   "n": "Ames",
+   "layer": "premium",
+   "src": "https://www.collectioneu.com/blogs/blog/4-greek-brands-manufacturing-bags-made-in-greece",
+   "says": "Athens leather bags built on the Minoan labyrinth/meander motif, handcrafted in Athens",
+   "country": "Greece",
+   "dept": "handbags",
+   "region": "Southern Europe"
+  },
+  {
+   "n": "Tumar",
+   "layer": "cultural",
+   "src": "https://www.afar.com/magazine/how-modern-artisans-revived-the-kyrgyz-art-of-felting",
+   "says": "Bishkek felting collective (1998) reviving Kyrgyz felt craft; felted tote bags among its goods; a brand Kyrgyz people name with pride",
+   "country": "Kyrgyzstan",
+   "dept": "bags (felt)",
+   "region": "Central Asia"
+  },
+  {
+   "n": "Jaukae Bilum Products",
+   "layer": "cultural",
+   "src": "https://pnghausbung.com/florence-jaukae-kamel-to-lead-png-fashion",
+   "says": "Social enterprise of 'Bilum Queen' Florence Jaukae Kamel, working with women bilum weavers across the PNG Highlands; headlined PNG Fashion Week",
+   "country": "Papua New Guinea",
+   "dept": "bags (bilum)",
+   "region": "Oceania"
+  },
+  {
+   "n": "Artipoppe",
+   "layer": "premium",
+   "src": "https://shop.artipoppe.com/us/baby-carrier",
+   "says": "Dutch luxury baby carriers jacquard-woven in Lithuania from natural yarns incl. cashmere and vicuna",
+   "country": "Netherlands",
+   "dept": "baby carriers",
+   "region": "Western Europe"
   }
  ],
  "add_regions": [
@@ -754,8 +799,75 @@
     "Martine Hacquart",
     "Duvelleroy"
    ]
+  },
+  {
+   "region": "Papua New Guinea (Highlands bilum)",
+   "speciality": "Bilum string bags woven by women from natural fibres; carry babies and goods and serve in bride-price ceremonies; Mt Hagen market",
+   "src": "https://blogs.adb.org/index.php/id/blog/bilum-more-just-bag-papua-new-guinea",
+   "brands": []
   }
  ],
- "drop": [],
- "notes": ""
+ "drop": [
+  {
+   "n": "DITTO",
+   "why": "Not on its cited page (Wikipedia Category:Leather manufacturers, fetched raw); no evidence it is a bag/eyewear brand. Drop unless re-sourced."
+  },
+  {
+   "n": "Vava Eyewear",
+   "why": "Cited Silmo laureates page now lists only 2026 winners and does not name Vava. Drop or re-source to a dated Silmo d'Or page."
+  },
+  {
+   "n": "Rolf Spectacles",
+   "why": "Duplicate of Rolf Eyewear (same Austrian maker); keep one entry (Rolf Eyewear, Silmo d'Or 2026)."
+  },
+  {
+   "n": "OtterBox",
+   "why": "Phone-case maker, not a bag or luggage brand; out of A4."
+  },
+  {
+   "n": "Inspirion",
+   "why": "Promotional-merchandise supplier on a retailer A-Z list; budget, no cultural footprint."
+  },
+  {
+   "n": "Karactermania",
+   "why": "Licensed character-merchandise bags on a retailer A-Z list; no craft or cultural standing."
+  },
+  {
+   "n": "KLICKfix",
+   "why": "Bicycle bag-mounting hardware; marginal to A4 and only on a retailer A-Z list."
+  },
+  {
+   "n": "Waterfly",
+   "why": "Amazon budget belt-bag label from an affiliate list; no cultural footprint."
+  },
+  {
+   "n": "Veckle",
+   "why": "Amazon budget belt-bag label from an affiliate list; no cultural footprint."
+  },
+  {
+   "n": "UTO",
+   "why": "Amazon budget belt-bag label from an affiliate list; no cultural footprint."
+  },
+  {
+   "n": "Cabeau",
+   "why": "Travel-pillow brand on a retailer A-Z list; the page itself makes no quality claim; budget."
+  },
+  {
+   "n": "Natural Games",
+   "why": "Unknown label only on a retailer A-Z list; no quality or cultural evidence."
+  },
+  {
+   "n": "Rimmel Eyewear",
+   "why": "Appears on Optician Now as a paid 'premium listing' advert block, not an optician recommendation."
+  },
+  {
+   "n": "Follmer, Clogg and Company",
+   "why": "A 19th-century US umbrella-factory building (NRHP listing), not a living brand; keep only if historic makers are wanted."
+  },
+  {
+   "n": "Papworth Industries",
+   "why": "Wikipedia luggage category entry with no quality or cultural claim; sheltered-workshop manufacturer, no brand footprint."
+  }
+ ],
+ "notes": "Accuracy: 2/25 wrong (Vava Eyewear not on the cited Silmo page, which now shows only 2026 winners; DITTO not in the cited Wikipedia category). The other 23 are named on their source pages. Layer problem: 12 of the 25 are labelled premium only because they appear on a retailer A-Z list (Markenkoffer: 9) or an optician directory with paid listings (Optician Now, non-bold entries). Markenkoffer's own page calls Travelite the pick 'for budget-conscious travellers'. Treat Markenkoffer, Optician Now (non-bold), Luxe Digital and Wikipedia category listings as name-existence evidence only, not quality evidence: retag them cultural/unverified or re-source them. SYSTEMATIC SRC ERROR: about 19 harvested names (Carmen Steffens, Alexander Daas, Epiphany Eyewear, Flying Eyes Optics, Revant Optics, Serengeti Eyewear, Shred Optics, Bluesmart, G.W. Scott and Sons, Kennebunk Manufacturing Company, Sljeme, Blue Elephant, DITTO, Solstice Sunglasses, Belen Echandia, English Retreads, Flowfold, Harveys SeatbeltBags, House of Harlow) cite https://en.wikipedia.org/wiki/Category:Leather_manufacturers but are not on that page. They come from other Wikipedia categories (Sunglasses/Eyewear brands, Luggage manufacturers, Fashion accessory brands), so each needs its true category URL. The Silmo src also needs dated per-year pages. Additions: 62 brands and 7 regions, all on raw-fetched pages. They fill these gaps: baby carriers (the harvest had almost none: Didymos, Oscha, Girasol, LennyLamb, Storchenwiege, Natibaby, Kinderpack, Artipoppe); Korean and Chinese handbags (OSOI, Samo Ondoh, Marhen.J, Songmont, Qiuzhen, Grotto, Duanmu); Indian luggage icons (Safari, Skybags, Aristocrat, Carlton, Mokobara); Kerala umbrellas (Popy, John's); French EPV umbrella and fan makers; wagasa and oil-paper umbrellas (Guang Jin Sheng, Bo Sang; Hiyoshiya was already known); sports and running sunglasses (Goodr, Tifosi, Roka, SunGod etc.), which the harvest had at 0; Chinese domestic eyewear; MENA (Okhtein, Sarah's Bag); Africa (Zaaf, Adele Dejak); Central Asia (Tumar, which was 0); Oceania bilum; Ukraine, Greece and Colombia. Thin-area retries: Southern Europe (Ubrique and Greece found), Western Europe Germany (Offenbach, Comtesse), Central Asia (Tumar), Oceania (bilum), East Asia Korea/China/Taiwan (found), SE Asia (Exsport, NaRaYa, Bo Sang), South Asia (Indian luggage and umbrellas; Pakistan/Bangladesh still nothing usable), sports sunglasses (found). Still blind: reading glasses (Forbes test page blocked; Peepers, ThinOptics, Izipizi not attested), folding and clip-on sunglasses, garment and dry bags, Caribbean, Pakistan, Bangladesh, Sri Lanka, Finland eyewear, Russia, Turkey, Brazil (only Serpui's own page, not added), Mexico (Vogue MX page empty), Maori kete makers, antique eyewear makers.\n"
 }

@@ -326,6 +326,63 @@
    "queries": [],
    "found": 0,
    "note": "not searched this run; follow-up needed"
+  },
+  {
+   "axis": "kind",
+   "item": "Diffusers, melts & sprays",
+   "queries": [
+    "best reed diffusers tested review",
+    "best room sprays tested review",
+    "best scented candles independent test"
+   ],
+   "found": 14,
+   "note": "English Home, Guardian, Candle Delirium (retailer test), Allure, Telegraph; room sprays page (Allure/Spruce/D&J) excerpt only: Mrs. Meyer's, Aesop"
+  },
+  {
+   "axis": "kind",
+   "item": "Halloween",
+   "queries": [
+    "vintage Halloween decorations makers Beistle Empire blow mold brands"
+   ],
+   "found": 1,
+   "note": "Beistle (Wikipedia). Union Products already known. Empire Plastics/General Foam/Bayshore/Renzi only in search summary, not attested by fetched page."
+  },
+  {
+   "axis": "kind",
+   "item": "Folk dolls & figures",
+   "queries": [
+    "Mexican folk art makers alebrije workshops Oaxaca",
+    "Matryoshka Dala horse kokeshi Daruma renowned makers"
+   ],
+   "found": 1,
+   "note": "Jacobo y Maria Angeles (Wikipedia). Daruma: Takasaki (Gunma) region; Usaburo Kokeshi named best-known sosaku kokeshi maker in a search summary only."
+  },
+  {
+   "axis": "kind",
+   "item": "Easter",
+   "queries": [
+    "Polish wycinanki; Ukrainian pysanka Easter egg makers; Easter ornaments brands"
+   ],
+   "found": 0,
+   "note": "Pysanky/pisanki are a tradition (UNESCO ICH) not brands; no maker brand surfaced. Not brand-led."
+  },
+  {
+   "axis": "kind",
+   "item": "Festival decor of Mexico and India",
+   "queries": [
+    "papel picado makers Mexico; toran rangoli"
+   ],
+   "found": 0,
+   "note": "Papel picado centred on San Salvador Huixcolotla (Puebla) with family workshops (Reynoso) per search summary; no brand page fetched. Rangoli/toran: tradition, not brand-led."
+  },
+  {
+   "axis": "kind",
+   "item": "East Asian festival decor",
+   "queries": [
+    "nianhua Yangliuqing Weifang Taohuawu workshops renowned"
+   ],
+   "found": 0,
+   "note": "No results beyond tradition; not brand-led (place-named craft traditions)."
   }
  ],
  "regions": [
@@ -552,6 +609,37 @@
     "Amouage",
     "Rasasi"
    ]
+  },
+  {
+   "region": "Sweden (Dalarna, Nusnäs)",
+   "speciality": "Dala horse, hand-carved and painted kurbits-style wooden horse",
+   "src": "https://en.wikipedia.org/wiki/Dala_horse",
+   "brands": [
+    "Grannas A. Olssons Hemslöjd",
+    "Nils Olssons Hemslöjd"
+   ]
+  },
+  {
+   "region": "Russia (Sergiev Posad, Semyonov)",
+   "speciality": "Matryoshka nesting dolls, linden wood, hand-painted",
+   "src": "https://en.wikipedia.org/wiki/Matryoshka_doll",
+   "brands": []
+  },
+  {
+   "region": "Mexico (Oaxaca)",
+   "speciality": "Alebrije carved and painted copal-wood figures",
+   "src": "https://en.wikipedia.org/wiki/Jacobo_Angeles",
+   "brands": [
+    "Jacobo y Maria Angeles"
+   ]
+  },
+  {
+   "region": "United States (Pennsylvania)",
+   "speciality": "Halloween and holiday paper decorations",
+   "src": "https://en.wikipedia.org/wiki/The_Beistle_Company",
+   "brands": [
+    "Beistle"
+   ]
   }
  ],
  "sources": [
@@ -620,39 +708,6 @@
    "known_confirmed": 4,
    "status": "done",
    "note": "all four already known"
-  },
-  {
-   "url": "https://www.nytimes.com/wirecutter/reviews/best-candles",
-   "title": "Wirecutter best scented candles 2026 (paywalled; only excerpt readable)",
-   "kind": "award",
-   "years": "2026",
-   "names_on_page": 3,
-   "new_names": 2,
-   "known_confirmed": 1,
-   "status": "partial",
-   "note": "full text empty; partial"
-  },
-  {
-   "url": "https://www.allure.com/story/best-of-beauty-fragrance-winners-2025",
-   "title": "Allure Best of Beauty 2025 scent winners (candles)",
-   "kind": "award",
-   "years": "2025",
-   "names_on_page": 3,
-   "new_names": 1,
-   "known_confirmed": 2,
-   "status": "partial",
-   "note": "only excerpt readable; partial"
-  },
-  {
-   "url": "https://www.independent.co.uk/extras/indybest/house-garden/home-fragrances/best-scented-candles-b2729650.html",
-   "title": "Independent best scented candles 2026",
-   "kind": "award",
-   "years": "2026",
-   "names_on_page": 1,
-   "new_names": 1,
-   "known_confirmed": 0,
-   "status": "partial",
-   "note": "only excerpt readable; partial"
   },
   {
    "url": "https://en.wikipedia.org/wiki/Category:Glassmaking_companies_of_Italy",
@@ -939,6 +994,116 @@
    "known_confirmed": 1,
    "status": "done",
    "note": "excerpt-mode fetch; only Diptyque named in excerpt"
+  },
+  {
+   "url": "https://www.candledelirium.com/blogs/luxury-candles/best-luxury-reed-diffusers-tested",
+   "title": "Candle Delirium: 12 luxury reed diffusers tested (2026)",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 11,
+   "new_names": 7,
+   "known_confirmed": 4,
+   "status": "done",
+   "note": "retailer-run test, not independent"
+  },
+  {
+   "url": "https://www.allure.com/story/best-reed-diffusers",
+   "title": "Allure 12 best reed diffusers",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 1,
+   "new_names": 1,
+   "known_confirmed": 0,
+   "status": "partial",
+   "note": "excerpt only names best overall"
+  },
+  {
+   "url": "https://www.telegraph.co.uk/recommended/home/best-diffusers/",
+   "title": "Telegraph 13 best diffusers",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 2,
+   "new_names": 1,
+   "known_confirmed": 1,
+   "status": "partial",
+   "note": "paywalled"
+  },
+  {
+   "url": "https://www.independent.co.uk/extras/indybest/house-garden/home-fragrances/best-scented-candles-b2729650.html",
+   "title": "Independent IndyBest 18 best scented candles tried and tested (2026)",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 2,
+   "new_names": 1,
+   "known_confirmed": 0,
+   "status": "done",
+   "note": "raw-verified by fetch; excerpt names top picks"
+  },
+  {
+   "url": "https://www.allure.com/story/best-of-beauty-fragrance-winners-2025",
+   "title": "Allure Best of Beauty 2025 scent winners",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 4,
+   "new_names": 1,
+   "known_confirmed": 2,
+   "status": "done",
+   "note": "raw-verified"
+  },
+  {
+   "url": "https://www.nytimes.com/wirecutter/reviews/best-candles",
+   "title": "Wirecutter 16 favorite scented candles 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 3,
+   "new_names": 0,
+   "known_confirmed": 1,
+   "status": "done",
+   "note": "raw-verified"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/The_Beistle_Company",
+   "title": "Wikipedia: The Beistle Company",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "known_confirmed": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jacobo_Angeles",
+   "title": "Wikipedia: Jacobo Angeles",
+   "kind": "collection",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "known_confirmed": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dala_horse",
+   "title": "Wikipedia: Dala horse",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 0,
+   "known_confirmed": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Matryoshka_doll",
+   "title": "Wikipedia: Matryoshka doll",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "known_confirmed": 0,
+   "status": "done",
+   "note": "tradition and towns, no brand names; gold medal Milan 1906"
   }
  ],
  "brands": [
@@ -2245,6 +2410,102 @@
    "says": "Hands-on tested best reed diffusers (2025); Molton Brown holds a Royal Warrant per page",
    "country": "",
    "dept": "diffusers"
+  },
+  {
+   "n": "Trapp",
+   "layer": "premium",
+   "src": "https://www.candledelirium.com/blogs/luxury-candles/best-luxury-reed-diffusers-tested",
+   "says": "Specialist home-fragrance retailer's scored test of 12 reed diffusers (2026)",
+   "country": "",
+   "dept": "diffusers"
+  },
+  {
+   "n": "Thymes",
+   "layer": "premium",
+   "src": "https://www.candledelirium.com/blogs/luxury-candles/best-luxury-reed-diffusers-tested",
+   "says": "Specialist home-fragrance retailer's scored test of 12 reed diffusers (2026)",
+   "country": "",
+   "dept": "diffusers"
+  },
+  {
+   "n": "Cereria Molla",
+   "layer": "premium",
+   "src": "https://www.candledelirium.com/blogs/luxury-candles/best-luxury-reed-diffusers-tested",
+   "says": "Specialist home-fragrance retailer's scored test of 12 reed diffusers (2026)",
+   "country": "",
+   "dept": "diffusers"
+  },
+  {
+   "n": "Archipelago",
+   "layer": "premium",
+   "src": "https://www.candledelirium.com/blogs/luxury-candles/best-luxury-reed-diffusers-tested",
+   "says": "Specialist home-fragrance retailer's scored test of 12 reed diffusers (2026)",
+   "country": "",
+   "dept": "diffusers"
+  },
+  {
+   "n": "Glasshouse",
+   "layer": "premium",
+   "src": "https://www.candledelirium.com/blogs/luxury-candles/best-luxury-reed-diffusers-tested",
+   "says": "Specialist home-fragrance retailer's scored test of 12 reed diffusers (2026)",
+   "country": "",
+   "dept": "diffusers"
+  },
+  {
+   "n": "LAFCO",
+   "layer": "premium",
+   "src": "https://www.candledelirium.com/blogs/luxury-candles/best-luxury-reed-diffusers-tested",
+   "says": "Specialist home-fragrance retailer's scored test of 12 reed diffusers (2026)",
+   "country": "",
+   "dept": "diffusers"
+  },
+  {
+   "n": "Lake & Skye",
+   "layer": "premium",
+   "src": "https://www.allure.com/story/best-reed-diffusers",
+   "says": "Allure Best Overall reed diffuser",
+   "country": "",
+   "dept": "diffusers"
+  },
+  {
+   "n": "Stoneglow",
+   "layer": "premium",
+   "src": "https://www.telegraph.co.uk/recommended/home/best-diffusers/",
+   "says": "Telegraph tested; Stoneglow noted for scent throw (search excerpt)",
+   "country": "",
+   "dept": "diffusers"
+  },
+  {
+   "n": "Meadow Farm",
+   "layer": "premium",
+   "src": "https://www.independent.co.uk/extras/indybest/house-garden/home-fragrances/best-scented-candles-b2729650.html",
+   "says": "Independent tested: Meadow Farm smoked honey and orange = best scented candle overall",
+   "country": "",
+   "dept": "candles"
+  },
+  {
+   "n": "Homecourt",
+   "layer": "premium",
+   "src": "https://www.allure.com/story/best-of-beauty-fragrance-winners-2025",
+   "says": "Allure Best of Beauty 2025: Best Candles (Malin+Goetz Otto), Best Earthy Candle Nette Laide Tomate, Best Room Spray Homecourt Cece",
+   "country": "",
+   "dept": "candles / room spray"
+  },
+  {
+   "n": "Beistle",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/The_Beistle_Company",
+   "says": "Founded 1900 Pennsylvania; oldest continuing US maker of decorations/party goods, 1,000+ Halloween designs",
+   "country": "USA",
+   "dept": "Halloween / party decor"
+  },
+  {
+   "n": "Jacobo y Maria Angeles",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Jacobo_Angeles",
+   "says": "Oaxacan alebrije workshop (San Martin Tilcajete); exhibited at Smithsonian NMAI and National Museum of Mexican Art",
+   "country": "Mexico",
+   "dept": "folk dolls & figures (alebrije)"
   }
  ]
 }

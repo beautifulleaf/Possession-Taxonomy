@@ -2,8 +2,461 @@
  "cat": "B3",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Lamps > Table & floor lamps",
+   "queries": [
+    "Compasso d'Oro lamp winners",
+    "Lumens/Lightology brand directories"
+   ],
+   "found": 40,
+   "note": "via Compasso d'Oro (Artemide, Oluce, Luceplan, Foscarini) and cross-checked retailer directories"
+  },
+  {
+   "axis": "kind",
+   "item": "Lamps > Desk & task lamps",
+   "queries": [
+    "Lumens/Lightology brand directories"
+   ],
+   "found": 0,
+   "note": "no dedicated query; Anglepoise, Luxo, Tolomeo makers already known"
+  },
+  {
+   "axis": "kind",
+   "item": "Lamps > Night lights & wake-up lights",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Ceiling lights > Pendants",
+   "queries": [
+    "Lumens/Lightology brand directories",
+    "AM Studio brand page"
+   ],
+   "found": 60,
+   "note": "pendant makers via retailer directories"
+  },
+  {
+   "axis": "kind",
+   "item": "Ceiling lights > Chandeliers",
+   "queries": [
+    "Bohemian crystal chandelier makers",
+    "Murano glass chandelier makers",
+    "Royal Warrant chandelier"
+   ],
+   "found": 8,
+   "note": "Lasvit, Bomma, Brokis, Wilkinson; Murano search returned only a retailer, Mazzega/Vistosi came from directories"
+  },
+  {
+   "axis": "kind",
+   "item": "Ceiling lights > Fitted ceiling lights",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Wall lights > Room wall lights",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched separately; covered by directories"
+  },
+  {
+   "axis": "kind",
+   "item": "Wall lights > Mirror & bathroom lights",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Decorative lighting > Novelty lamps",
+   "queries": [
+    "Wikipedia Category:Lighting brands"
+   ],
+   "found": 1,
+   "note": "Mathmos (lava lamp) from Wikipedia category"
+  },
+  {
+   "axis": "kind",
+   "item": "Decorative lighting > Wall & hanging lights",
+   "queries": [
+    "Japanese chochin makers",
+    "Gifu/Yame lanterns",
+    "parol Pampanga",
+    "Egyptian fanous",
+    "Mexican punched tin",
+    "Turkish mosaic lamps",
+    "Moroccan brass lanterns"
+   ],
+   "found": 5,
+   "note": "traditional lanterns; Turkish and Moroccan results were retailers only so no brands taken"
+  },
+  {
+   "axis": "kind",
+   "item": "Outdoor lights > Wall, post & flood lights",
+   "queries": [
+    "Wikipedia Category:Lighting brands",
+    "Royal Warrant lanterns"
+   ],
+   "found": 3,
+   "note": "Bevolo, Holophane, DW Windsor (DW Windsor only in a search excerpt, not recorded)"
+  },
+  {
+   "axis": "kind",
+   "item": "Outdoor lights > Ground & garden lights",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Torches & lanterns > Handheld torches",
+   "queries": [
+    "Wikipedia Category:Flashlights",
+    "Flashlight Wiki manufacturers",
+    "FlashlightRatings brands",
+    "Bob Vila best flashlight brands",
+    "Consumer Reports best flashlights"
+   ],
+   "found": 30,
+   "note": "Consumer Reports page fetched but gave no brand names in the excerpt; Wirecutter flashlight page not found"
+  },
+  {
+   "axis": "kind",
+   "item": "Torches & lanterns > Worn lights",
+   "queries": [
+    "OutdoorGearLab best headlamp",
+    "Wirecutter best headlamp"
+   ],
+   "found": 2,
+   "note": "Princeton Tec; Wirecutter picks Black Diamond and BioLite (known)"
+  },
+  {
+   "axis": "kind",
+   "item": "Torches & lanterns > Flame lanterns & lamps",
+   "queries": [
+    "hurricane lantern kerosene brands collectors"
+   ],
+   "found": 0,
+   "note": "only forum results; Petromax, Tilley, Dietz, Feuerhand, Aladdin are known or unconfirmed by a fetched page"
+  },
+  {
+   "axis": "kind",
+   "item": "Torches & lanterns > Battery lanterns & work lights",
+   "queries": [
+    "OutdoorGearLab best lantern",
+    "CleverHiker lanterns",
+    "GearJunkie lanterns"
+   ],
+   "found": 3,
+   "note": "Goal Zero, UST, LuminAid"
+  },
+  {
+   "axis": "kind",
+   "item": "Bulbs & strips > Bulbs",
+   "queries": [
+    "Wirecutter best LED bulb",
+    "Which? / best LED bulbs tested"
+   ],
+   "found": 0,
+   "note": "Wirecutter pick Feit Electric (known); Which? pages not retrievable; Wikipedia category gave Osram, Ledvance, Tungsram, Mazda"
+  },
+  {
+   "axis": "kind",
+   "item": "Bulbs & strips > Tubes & strips",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Shades & lamp parts > Shades & lamp parts",
+   "queries": [
+    "Wikipedia Category:Lighting brands"
+   ],
+   "found": 1,
+   "note": "Le Klint; otherwise not searched"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Royal Warrant chandelier",
+    "Tecnolumen Bauhaus"
+   ],
+   "found": 1,
+   "note": "Wilkinson, Tecnolumen, Osram, Ledvance"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "Danish lighting brands Le Klint Frandsen Lyfa"
+   ],
+   "found": 1,
+   "note": "Frandsen, Lyfa, Le Klint"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Compasso d'Oro lighting winners",
+    "Murano chandelier makers"
+   ],
+   "found": 1,
+   "note": "Viabizzuno, Prandina; Spain via AM Studio"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Bohemian crystal chandelier makers"
+   ],
+   "found": 1,
+   "note": "Lasvit, Bomma, Brokis, Tungsram, Varton, Svetlina"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Turkish mosaic lamp makers"
+   ],
+   "found": 0,
+   "note": "only retailer pages; no brands recorded"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "Moroccan brass lantern makers",
+    "Egyptian fanous makers"
+   ],
+   "found": 1,
+   "note": "Egypt page fetched (no brand names), Moroccan pages retailers only"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "Ghana Nigeria Kenya handmade lamp brand"
+   ],
+   "found": 0,
+   "note": "query composed but results only covered Egypt; NOT searched properly"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Indian lighting brands Jaipur brass; Havells Crompton Wipro"
+   ],
+   "found": 1,
+   "note": "only blog/retailer results; Havells Sylvania taken from Wikipedia"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Japanese chochin makers",
+    "Gifu Yame lanterns",
+    "Chinese flashlight makers"
+   ],
+   "found": 1,
+   "note": "Ito Gonjiro Shoten, Yoshinoya Shoten, Yamagiwa, many flashlight makers; Japanese/German/French Wikipedia categories not retrievable"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Philippines parol Pampanga"
+   ],
+   "found": 1,
+   "note": "Rolren's; Hoi An/Thailand/Indonesia not covered"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched separately; David Trubridge appears in directories"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Wikipedia flashlights category",
+    "Wirecutter headlamp",
+    "Goal Zero"
+   ],
+   "found": 1,
+   "note": "US makers"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Mexican punched tin lanterns"
+   ],
+   "found": 0,
+   "note": "retailer pages only; no brands recorded"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Northern Europe (Denmark/Scandinavia)",
+   "speciality": "Danish lighting design: paper/shade and modernist pendants, Nordic design tradition",
+   "src": "https://www.finnishdesignshop.com/en-ca/manufacturer/frandsen",
+   "brands": [
+    "Frandsen",
+    "Le Klint",
+    "Lyfa",
+    "Louis Poulsen"
+   ]
+  },
+  {
+   "region": "Southern Europe (Italy)",
+   "speciality": "Italian design lighting; Compasso d'Oro winners in lighting (Eclisse, Atollo, Tolomeo, Mite, Ascent, Counterbalance, Anima, Biga, Figaroqua)",
+   "src": "https://www.casadiluce.ca/blogs/how-to/compasso-doro-award-winners",
+   "brands": [
+    "Artemide",
+    "Oluce",
+    "Luceplan",
+    "Foscarini",
+    "Flos",
+    "Davide Groppi",
+    "Lym",
+    "Viabizzuno"
+   ]
+  },
+  {
+   "region": "Central & Eastern Europe (Czechia/Bohemia)",
+   "speciality": "Bohemian crystal and glass chandeliers; Preciosa 300 years of chandeliers, Lasvit, Bomma",
+   "src": "https://www.visitczechia.com/en-us/news/2025/08/n-czech-glass-craft-crystal-art",
+   "brands": [
+    "Preciosa",
+    "Lasvit",
+    "Bomma",
+    "Brokis"
+   ]
+  },
+  {
+   "region": "Western Europe (Germany, Bauhaus)",
+   "speciality": "Bauhaus-era reissue lamps (Wagenfeld WA 24); German lighting makers",
+   "src": "https://www.architonic.com/it/b/tecnolumen/3100132",
+   "brands": [
+    "Tecnolumen",
+    "Osram",
+    "Ledvance",
+    "Trilux",
+    "Ledlenser"
+   ]
+  },
+  {
+   "region": "Western Europe (UK)",
+   "speciality": "Royal Warrant chandelier specialists; Victorian-pattern lanterns; classic UK lamps",
+   "src": "https://www.wilkinson-ltd.com/royal-warrant/",
+   "brands": [
+    "Wilkinson Ltd",
+    "Anglepoise",
+    "Thorn Lighting",
+    "Mathmos",
+    "Tilley lamp"
+   ]
+  },
+  {
+   "region": "Southern Europe (Spain)",
+   "speciality": "Barcelona/Valencia architectural and handcrafted wood-veneer lighting",
+   "src": "https://www.amstudio.ca/home",
+   "brands": [
+    "Vibia",
+    "Marset",
+    "LZF",
+    "Estiluz",
+    "Santa & Cole"
+   ]
+  },
+  {
+   "region": "East Asia (Japan)",
+   "speciality": "Washi-paper chochin lanterns: Gifu, Yame, Kyoto, Edo traditions; Noguchi Akari",
+   "src": "https://kogeijapan.com/locale/en_US/gifuchochin/",
+   "brands": [
+    "Ozeki & Co.",
+    "Ito Gonjiro Shoten",
+    "Yoshinoya Shoten",
+    "Akari Lighting & Technology",
+    "Yamagiwa"
+   ]
+  },
+  {
+   "region": "East Asia (China)",
+   "speciality": "Flashlight (Olight, Nitecore, Fenix etc.) and LED lighting manufacturing",
+   "src": "https://www.flashlightratings.com/brands",
+   "brands": [
+    "Olight",
+    "Nitecore",
+    "Fenix",
+    "Sofirn",
+    "Wurkkos",
+    "ThruNite",
+    "Klarus",
+    "Opple Lighting",
+    "NVC International"
+   ]
+  },
+  {
+   "region": "North America (USA/Canada)",
+   "speciality": "Duty/tactical flashlights, camp lanterns, American heritage lighting",
+   "src": "https://www.flashlightratings.com/brands",
+   "brands": [
+    "SureFire",
+    "Streamlight",
+    "Maglite",
+    "Pelican Products",
+    "Goal Zero",
+    "Rejuvenation",
+    "Armytek",
+    "Dainolite"
+   ]
+  },
+  {
+   "region": "Southeast Asia (Philippines)",
+   "speciality": "Pampanga parol star lanterns; San Fernando 'Christmas capital'",
+   "src": "https://thebeat.asia/manila/nomads/explore/brighten-up-your-holidays-heres-where-to-find-the-best-parol-makers-in-the-philippines",
+   "brands": [
+    "Rolren's Lantern and General Merchandise"
+   ]
+  },
+  {
+   "region": "North Africa / Middle East (Egypt)",
+   "speciality": "Cairo handmade Ramadan fanous lanterns, Sayeda Zeinab workshops (no brand name found)",
+   "src": "https://egyptianstreets.com/2016/06/10/exploring-the-industry-behind-egypts-colourful-ramadan-lanterns/",
+   "brands": []
+  },
+  {
+   "region": "Latin America (Mexico)",
+   "speciality": "Handmade punched-tin hanging lanterns (retailer page; no maker brand)",
+   "src": "https://www.lafuente.com/Lighting/Mexican-Tin-Lighting/Hanging-Lanterns/8707/",
+   "brands": []
+  },
+  {
+   "region": "Oceania (New Zealand)",
+   "speciality": "Handcrafted wood designer lighting (David Trubridge listed by Lumens and Lightology; country not stated on page, so unconfirmed)",
+   "src": "https://www.lumens.com/brands",
+   "brands": [
+    "David Trubridge"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/Category:Lighting_brands",
@@ -194,6 +647,66 @@
    "new_names": 1,
    "status": "done",
    "note": "Japan"
+  },
+  {
+   "url": "https://www.lightology.com/index.php?module=vend",
+   "title": "Lightology Shop By Brand",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 403,
+   "new_names": 0,
+   "status": "done",
+   "note": "45 known; intersected with Lumens list (see Lumens source)"
+  },
+  {
+   "url": "https://www.nytimes.com/wirecutter/reviews/best-headlamp/",
+   "title": "Wirecutter best headlamp / best LED bulb",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "done",
+   "note": "Black Diamond, BioLite, Feit Electric all known"
+  },
+  {
+   "url": "https://www.consumerreports.org/home-garden/emergency-preparedness/best-flashlights-a4245748757",
+   "title": "Consumer Reports best flashlights",
+   "kind": "ranking",
+   "years": "2024",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "excerpt gave no brand names"
+  },
+  {
+   "url": "https://it.wikipedia.org/wiki/Premio_Compasso_d'oro",
+   "title": "it.wikipedia Premio Compasso d'oro",
+   "kind": "award",
+   "years": "1954-2022",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "page lists only editions; per-year pages not fetched (budget)"
+  },
+  {
+   "url": "https://de.wikipedia.org/wiki/Kategorie:Leuchtenhersteller",
+   "title": "de.wikipedia Leuchtenhersteller",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "404; fr/ja/it category pages not located by search"
+  },
+  {
+   "url": "https://www.red-dot.org/magazine/in-a-favourable-light-puristic-and-exceptional-lamps",
+   "title": "Red Dot lighting",
+   "kind": "award",
+   "years": "2018",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "located only; winner lists for Red Dot, iF, German Design Award not harvested"
   }
  ],
  "brands": [
