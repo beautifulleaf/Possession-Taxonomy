@@ -589,7 +589,7 @@ bw = K('Black-and-white film', x=bwx, tt=[['Film format', FILMFMT],
                                            ['Packaging', ['Cartridge', 'Bulk roll']],
                                            ['Grain structure', ['Traditional grain', 'Tabular grain']],
                                            ['Colour sensitivity', ['Panchromatic', 'Orthochromatic']]])
-slide = K('Slide film', tt=[['Film format', FILMFMT + ['Super 8']], ['Process', ['E-6', 'K-14 (Kodachrome, discontinued)']],
+slide = K('Slide film', tt=[['Film format', FILMFMT + ['Super 8']], ['Process', ['E-6', 'K-14 (discontinued)']],
                              ['Light balance', ['Daylight', 'Tungsten']]],
           see=[['D3', 'Slide projector', 'shows the slides this film makes'], ['F5', 'Slide', 'a slide as a collected object']])
 bwrev = K('Black-and-white reversal film', x=[a for a in old['Black-and-white reversal film']['x'] if a['n'] != 'Kodak Tri-X reversal'],
