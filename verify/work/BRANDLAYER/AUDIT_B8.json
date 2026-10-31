@@ -622,6 +622,25 @@
    "country": "Nigeria",
    "dept": "Mosquito nets",
    "region": "Sub-Saharan Africa"
+  },
+  {
+   "n": "Dindigul Lock, Hardware and Steel Furniture Workers Industrial Co-operative Society",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/400",
+   "says": "Registered proprietor of the 'Dindigul Locks' Geographical Indication (cert. 358, 2019); cooperative of Dindigul handmade lock makers (est. 1957/58)",
+   "country": "India",
+   "dept": "Handmade locks (mango lock)",
+   "region": "South Asia"
+  },
+  {
+   "n": "Poompuhar (Tamil Nadu Handicraft Development Corporation)",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/400",
+   "says": "Registered authorized user of the Dindigul Locks GI; state handicraft emporium selling them",
+   "country": "India",
+   "dept": "Handmade locks",
+   "region": "South Asia"
   }
  ],
  "add_regions": [
@@ -687,8 +706,46 @@
    "brands": [
     "Khóa Việt-Tiệp"
    ]
+  },
+  {
+   "region": "Dindigul, Tamil Nadu, India",
+   "speciality": "GI-registered handmade lever locks (mango lock / mangai pootu) trusted for 200 years by temples, zamindars and the East India Company",
+   "src": "https://www.newindianexpress.com/states/tamil-nadu/2025/Apr/02/nearly-impossible-to-breach-dindiguls-famed-200-year-old-lock-making-legacy",
+   "brands": [
+    "Dindigul Lock, Hardware and Steel Furniture Workers Industrial Co-operative Society",
+    "Poompuhar (Tamil Nadu Handicraft Development Corporation)"
+   ]
   }
  ],
- "drop": [],
- "notes": ""
+ "drop": [
+  {
+   "n": "Serrature Meroni",
+   "why": "Sold Secure listing is for a van door lock (UFO3, Automotive category): vehicle security, outside B8 home scope"
+  },
+  {
+   "n": "Oxford Products",
+   "why": "Listed for cycle/motorcycle locks (vehicle/bike security), not home security"
+  },
+  {
+   "n": "Magpie Security Services",
+   "why": "Royal Warrant locksmith/security service contractor, not a maker or seller of a traditional item"
+  },
+  {
+   "n": "LockPickWorld",
+   "why": "General online retailer of pick sets; not a maker, and not a seller of a traditional/regional item as the seller rule requires"
+  },
+  {
+   "n": "UKBumpKeys",
+   "why": "Online retailer (blog source); same as LockPickWorld"
+  },
+  {
+   "n": "Letterbox 4 You",
+   "why": "Online letterbox retailer; not a maker or traditional seller"
+  },
+  {
+   "n": "Diebold",
+   "why": "Weak: listed only as a Lockwiki group heading; Diebold is an ATM/bank-vault maker with no home-safety product footprint (keep only if heritage bank-safe makers are wanted)"
+  }
+ ],
+ "notes": "Accuracy: 25 sampled (random.seed(7)); all 25 names appear on their src pages (fetched raw via Parallel full_content and parsed in python); no outright wrong claims. Minor: Kasp country 'UK/Italy' not on page (UK only); Federal Lock 'chains Silver' not found in parsed 2025 catalogue text; Serrature Meroni is a vehicle lock (scope). Rechecked LatAm/Africa excerpt-based entries by raw fetch: all names present (Viro, Tenacity, Trellidor, Solex, Lockshop, Mutual Safe, BTV, Papaiz, Phillips, Hermex, Pado, Stam, Arouca, Imab, Cajas Fuertes Colombia, Fanal, Gerda/Tedee, Promet). Claim issues: Tenacity 'Kenya's premier locks company' not on page (page says quality over a decade in Kenya); Phillips 'largest lock factory in LatAm' supported ('la mayor fábrica de cerraduras y candados de América Latina'). Weak attestations (name only in catalogues/retailer listings, no quality or cultural statement): Pado, Stam, Arouca, Imab (3F cylinder catalogue), Hermex (retailer), Mutual Safe (directory).\nThin areas retried: North Africa now has ACCEA Maroc, SOFICLEF (Algeria), Ahram/IZO (Egypt, via SOFICLEF history); S.I.H Group (Algeria hotel e-locks) seen but not added (hotel/commercial). Central Asia: LKW (Kazakhstan), NOVZA (Uzbekistan); Promet's Central Asian sites confirm Russian import dominance. VdS/ECB-S/CNPP: certifier lists remain dynamic; added Rottner (EN 1143-1/ECB, Eurograde 6) and Conforti (Grade III) from maker pages; Hekatron/Ei carry VdS + Q-label. Fire blankets: Bridgehill (Norway). Bird deterrents: Bird-X. Pest repellers: still nothing creditable; search finds only affiliate roundups (Ever Pest, Bell+Howell) and FTC/consumer-group warnings that ultrasonic repellers do not work; recommend leaving the kind brandless or citing that evidence. Firecrawl credits ran out mid-run; Parallel used throughout.\nBlind spots still open: Gulf/Iran lock and safe makers; West/Central Africa makers other than nets; Turkey beyond Kale (Yuma Kilit only on a forum); Japanese safes (Eagle, Diplomat) and Japanese baby/child-safety makers; Korean Milre/Epic; fire escape ladders, door viewers, security film beyond 3M/LLumar; Latin America outside Brazil/Mexico/Peru (Argentina Kallay/Trabex/Prive seen only as retailer listings 'fabricada en Argentina'; Forte (Peru, Assa Abloy) seen only in search); child-safety (Geuther, Lindam, Hauck appear only in Which? tests; not added); baby monitors (Cubo Ai page failed to fetch).\nName collisions with other categories in _brand_index (different entities, disambiguate on merge): TESA (Spanish locks vs tesa tape), MCM (Spanish locks vs MCM fashion), HIT (Indonesian insecticide), Busch-Jaeger and Verisure already indexed elsewhere (same firms, add B8).\n"
 }

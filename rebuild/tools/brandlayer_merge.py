@@ -30,12 +30,13 @@ for c in sys.argv[1:]:
         keys=[norm(b['n'])]+[norm(a) for a in b.get('aliases',[])]
         tier=b.get('tier','listed'); rg=b.get('region') or next((reg_of[k] for k in keys if k in reg_of),'')
         src=b.get('src2') or b.get('src') or ''
-        hit=next((here[k] for k in keys if k in here),None)
+        homo=b.get('homonym')
+        hit=None if homo else next((here[k] for k in keys if k in here),None)
         if hit:
             if 'tier' not in hit or RANK.get(tier,3)<RANK.get(hit['tier'],3): hit['tier']=tier
             if rg and not hit.get('rg'): hit['rg']=rg
             upd+=1; continue
-        g=next((glob_idx[k] for k in keys if k in glob_idx),None)
+        g=None if homo else next((glob_idx[k] for k in keys if k in glob_idx),None)
         if g:  # known in another category: add C with a minimal entry (merge.py unions cats)
             e={'n':g,'tier':tier}; 
             if rg: e['rg']=rg
@@ -44,7 +45,7 @@ for c in sys.argv[1:]:
         if b.get('aliases'): e['an']=' · '.join(b['aliases'])
         if rg: e['rg']=rg
         if b.get('role')=='seller' or tier=='seller': e['role']='seller'
-        B['b'].append(e); here[norm(b['n'])]=e; new+=1
+        B['b'].append(e); here[b['n'].lower() if homo else norm(b['n'])]=e; new+=1
     for n in v.get('cross_tag',[]):
         nm=n if isinstance(n,str) else n.get('n')
         g=glob_idx.get(norm(nm))
