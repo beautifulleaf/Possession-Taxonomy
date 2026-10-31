@@ -284,6 +284,7 @@ shelves['European footwear']['k'].append(tk('Named European forms', 'Regional an
   TE('Haferlschuh', 'Austria and Bavaria'), TE('Furlane', 'Italy'), TE('Ciocia', 'Italy'), TE('Sabot', 'France')], tt_form, 'Europe'))
 shelves['Arctic, Philippine & African footwear']['k'].append(tk('Named South-East Asian and African forms', 'Further shoe forms of South-East Asia and southern Africa that Wikipedia names in its shoe-style list.', [
   TE('Hnyat-phanat', 'Myanmar'), TE('Peranakan beaded slippers', 'South-East Asia'), TE('Abaca slippers', 'Philippines'), TE('Opinga', 'South Africa')], tt_form, 'SE Asia and Africa'))
+shelves['Arctic, Philippine & African footwear'].setdefault('ax','Which cold-climate, tropical or southern African tradition does the shoe belong to?')
 trad['s'].append({'n': 'Forms the list does not place', 't': 'Shoe forms named in the Wikipedia shoe-style list with no region on the list or on a page read; a modern shoe → its own department.',
   'k': [tk('Unplaced named forms', 'Shoe forms that appear only as names in the Wikipedia shoe-style list.', [TE('Pulhoer', 'Region not stated'), TE('Pointinini', 'Region not stated')], tt_form, '')]})
 

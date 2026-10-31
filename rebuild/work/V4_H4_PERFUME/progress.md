@@ -6,3 +6,4 @@ step4: lop.txt written (List of perfumes rows); FiFi page fetched (will write fi
 step5: fifi.txt written (all FOTY + HoF rows from wikipedia FiFi_Award)
 step6: owners fetched (Coty, Puig, L'Oreal, ELC, LVMH) + niche houses (Diptyque, Le Labo, Lutens, Malle, Creed, Byredo, Amouage). 404: Inter Parfums, MFK, Osmotheque. Next: search MFK, Interparfums, Osmotheque, Serge Lutens owner, Guerlain, Chanel, market share, then build
 step7: Osmotheque, Kurkdjian works, Interparfums 10-K, Puig article, Guerlain, Chanel fetched. Next: 1-2 market-size fetches, then build part file by python script build_part.py
+step8: data_extra.py written (WD rows, Guerlain/Chanel/Kurkdjian/Osmotheque lists). Next: build_part.py
