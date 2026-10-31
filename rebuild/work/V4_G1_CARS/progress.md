@@ -5,3 +5,5 @@ step3: switched to Wikipedia category API listing (https://en.wikipedia.org/w/ap
 step4: Subaru, Mitsubishi, Suzuki done (category)
 step5: Ford, Chevrolet, Cadillac, Buick done (category). Todo: Ford subcats (Europe, Australia), GMC, Jeep, Lincoln, Mercury, Tesla, Dodge/Chrysler use Wikidata
 step6: Ford Europe, Lincoln, Jeep done. Tesla category name 'Tesla,_Inc._vehicles' empty -> try Tesla_vehicles
+COORDINATOR NOTE: drop kind 'Pickup truck' (renames {'Pickup truck':'Utility pickup'}); do not hold any pickups (codes I and J) in the part; list pickups held (old Pickup truck x entries + I/J items) in report for COMMERCIAL check. Pickups that are also SUVs (Ridgeline) stay with COMMERCIAL.
+step7: BMW, Mercedes-Benz, Tesla, Renault done

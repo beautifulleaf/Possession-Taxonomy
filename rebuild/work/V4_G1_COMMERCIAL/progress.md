@@ -12,3 +12,4 @@ step11 done: fetched Recreational_vehicle, Snowmobile, Pickup_truck, Golf_cart (
 step12 done: build.py runs -> out/G1_parts/COMMERCIAL.json; next validate + review + report
 step13 done: validated OK; remaining: report + final reply
 step14 start: coordinator round 2 (trucks offset 100000+, ATV 100000+, owners from pages, Yamaha/Kawasaki/Suzuki ATV, Chieftain, market shares)
+step14a done: List_of_trucks fully read (0-269154; windows 100k,200k fetched; rows in context, need raw_trucks.txt); ATV article 100000+ has nothing (fully read). next: owners fetches
