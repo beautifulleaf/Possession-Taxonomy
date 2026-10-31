@@ -1,0 +1,111 @@
+===== Operating systems & system tools
+ SHELF Operating systems
+   KIND Desktop operating system | keys ['tt'] x ['Windows', 'macOS', 'ChromeOS'] m []
+   KIND Linux distribution | keys ['tt'] x ['Debian', 'Fedora', 'Arch Linux', 'openSUSE', 'Mandrake Linux', 'Slackware', 'Gentoo Linux', 'NixOS'] m ['Void Linux', 'Alpine', 'Solus', 'Puppy Linux', 'Tiny Core Linux', 'Guix System', 'Linux From Scratch', 'GoboLinux', 'CRUX', 'Source Mage', 'Debian lineage', 'Red Hat and Fedora lineage', 'Arch lineage', 'openSUSE lineage', 'Mandriva lineage', 'Gentoo lineage']
+   KIND Alternative & hobby operating system | keys ['tt'] x ['FreeBSD', 'Haiku', 'RISC OS', 'OS/2', 'AmigaOS', 'ReactOS', 'SerenityOS', 'FreeDOS'] m ['OS/2 continuations']
+ SHELF Running other systems' software
+   KIND Virtual machine software | keys ['tt', 'see'] x [] m ['VirtualBox', 'VMware Workstation', 'VMware Fusion', 'VMware Player', 'Parallels Desktop for Mac', 'Hyper-V', 'QEMU', 'UTM', 'KVM', 'Virtual Machine Manager', 'Proxmox VE', 'bhyve', 'Windows Virtual PC', 'Virtual PC', 'DOSBox', '86Box', 'Bochs']
+   KIND App compatibility layer | keys ['tt', 'see'] x [] m ['Wine', 'Proton', 'CrossOver', 'Bottles', 'Wineskin', 'Rosetta 2', 'Box64', 'FEX', 'Hangover', 'Winlator', 'WOW64']
+   KIND Game emulator | keys ['tt', 'see'] x ['MAME', 'RetroArch', 'OpenEmu', 'Dolphin', 'Cemu', 'PCSX2', 'RPCS3', 'PPSSPP', 'DOSBox', 'ScummVM', 'VICE', 'WinUAE'] m ['Mednafen', 'Delta', 'Yuzu', 'Ryujinx', 'Suyu', 'Torzu', 'Eden', 'Citron', 'Citra', 'FCEUX', 'Nestopia', 'NESticle', 'Snes9x', 'ZSNES', 'higan', 'UltraHLE', 'Project64', 'Mupen64Plus', 'Project Unreality', 'VisualBoyAdvance', 'VisualBoyAdvance-M', 'Wzonka-Lad', 'DuckStation', 'ePSXe', 'PCSX-Reloaded', 'bleem!', 'bleemcast!', 'Connectix Virtual Game Station', 'shadPS4', 'KytyPS5', 'Vita3K', 'Stella', 'NeoCD', 'Visual Pinball']
+ SHELF Cleaning, tuning & repair
+   KIND PC cleaner | keys ['tt'] x [] m ['CCleaner', 'Windows Storage Sense', 'Advanced SystemCare', 'AVG TuneUp', 'Avast Cleanup', 'Norton Utilities Premium', 'System Mechanic', 'Ashampoo WinOptimizer', 'Glary Utilities', 'BleachBit', 'SD Maid SE']
+   KIND Uninstaller | keys ['tt'] x [] m ['Revo Uninstaller', 'IObit Uninstaller', 'Geek Uninstaller', 'Ashampoo Uninstaller', 'Wise Program Uninstaller', 'HiBit Uninstaller', 'Total Uninstall', 'Advanced Uninstaller Pro', 'Soft Organizer']
+   KIND Driver updater | keys ['tt'] x [] m ['Driver Booster', 'Driver Easy', 'Auslogics Driver Updater', 'Avast Driver Updater', 'Glary Drivers Manager', 'DriverPack Solution']
+   KIND Disk space analyser | keys ['tt', 'see'] x [] m []
+   KIND Partition manager | keys ['tt'] x [] m ['GParted', 'MiniTool Partition Wizard', 'AOMEI Partition Assistant', 'DiskGenius', 'Acronis Disk Director', 'KDE Partition Manager', 'GNOME Disks', 'Disk Utility', 'Logical Disk Manager', 'diskpart', 'fdisk (Unix-like)', 'PartitionMagic']
+   KIND System utility suite | keys ['tt'] x [] m ['Microsoft PowerToys', 'Windows Repair Toolbox', 'WinTools.net']
+ SHELF Backup & recovery
+   KIND Backup software | keys ['tt', 'see'] x [] m ['Time Machine', 'Windows Backup and Restore', 'Acronis True Image', 'Macrium Reflect', 'Carbon Copy Cloner', 'Retrospect', 'Clonezilla', 'Restic', 'BorgBackup']
+   KIND Data recovery software | keys ['tt'] x [] m ['Disk Drill', 'EaseUS Data Recovery Wizard', 'Stellar Data Recovery', 'Recoverit', 'MiniTool Power Data Recovery', 'Windows File Recovery', '4DDiG Data Recovery', 'iBoysoft Data Recovery', 'Wise Data Recovery', 'Puran File Recovery']
+   KIND PC migration software | keys ['tt', 'see'] x [] m ['Laplink PCmover', 'EaseUS Todo PCTrans', 'Zinstall WinWin', 'Zinstall Easy Transfer', 'Windows Easy Transfer', 'Transwiz']
+ SHELF Files, search & access
+   KIND File manager | keys ['tt'] x [] m ['File Explorer', 'Finder', 'Files by Google', 'Total Commander', 'Directory Opus', 'XYplorer', 'Dolphin', 'Midnight Commander']
+   KIND File archiver | keys ['tt'] x [] m ['7-Zip', 'WinRAR', 'WinZip', 'Compressed Folders', 'Archive Utility', 'PeaZip', 'Bandizip', 'PowerArchiver', 'The Unarchiver', 'BetterZip', 'Archive Manager (File Roller)', 'Ark', 'GNU tar', 'Info-ZIP', 'PKZIP', 'StuffIt']
+   KIND File comparison tool | keys ['tt'] x [] m []
+   KIND Desktop search tool | keys ['tt'] x [] m ['Windows Search', 'Spotlight', 'Everything', 'Copernic Desktop Search', 'X1 Desktop Search', 'Lookeen', 'DocFetcher', 'Recoll', 'Baloo', 'Tracker', 'Google Desktop']
+   KIND Disc burning software | keys ['tt'] x [] m ['Nero Burning ROM', 'Roxio Creator', 'Roxio Toast', 'ImgBurn', 'CDBurnerXP', 'Ashampoo Burning Studio', 'AnyBurn', 'PowerISO', 'UltraISO', 'Alcohol 120%', 'K3b', 'Brasero', 'Xfburn', 'DVDStyler']
+   KIND Remote desktop software | keys ['tt'] x [] m ['TeamViewer', 'AnyDesk', 'Chrome Remote Desktop', 'Remote Desktop Services', 'Apple Screen Sharing', 'RustDesk', 'Splashtop', 'Parsec', 'RealVNC', 'TightVNC', 'UltraVNC', 'NoMachine', 'GoToMyPC', 'Remmina']
+   KIND Home server software | keys ['tt'] x ['Home Assistant', 'TrueNAS', 'Unraid', 'Plex Media Server', 'Jellyfin'] m []
+ SHELF Customising & automating
+   KIND App launcher | keys ['tt'] x [] m ['Alfred', 'Raycast', 'LaunchBar', 'Quicksilver', 'Microsoft PowerToys Run', 'Launchy', 'Wox', 'ueli', 'Synapse', 'dmenu']
+   KIND Clipboard manager | keys ['tt', 'see'] x [] m []
+   KIND Desktop customisation tool | keys ['tt'] x ['Rainmeter', 'Wallpaper Engine', 'AutoHotkey'] m []
+   KIND Game mod manager | keys ['tt'] x ['Vortex', 'Mod Organizer 2', 'Nexus Mods App', 'Thunderstore Mod Manager'] m ['ME3Tweaks Mod Manager', 'CKAN', 'RimSort', 'Stardrop', 'Wrye Bash', 'LOOT', 'CurseForge', 'Modrinth']
+===== Security & privacy
+ SHELF Device & family protection
+   KIND Antivirus software | keys ['r', 'tt'] x [] m ['Microsoft Defender Antivirus', 'Norton 360', 'Bitdefender Total Security', 'Kaspersky Premium', 'McAfee Total Protection', 'Avast One', 'AVG AntiVirus', 'ESET Security Ultimate', 'Malwarebytes Premium', 'TotalAV', 'Trend Micro Internet Security', 'F-Secure Total']
+   KIND Firewall | keys ['tt'] x [] m ['Little Snitch', 'LuLu', 'GlassWire', 'simplewall', 'TinyWall', 'Portmaster', 'OpenSnitch', 'NetGuard', 'Comodo Firewall', 'ZoneAlarm Free Firewall', 'AFWall+', 'RethinkDNS']
+   KIND Parental controls | keys ['tg', 'tt'] x [] m ['Qustodio', 'Bark', 'Aura Family Plan', 'Kaspersky Safe Kids', 'Net Nanny', 'Mobicip', 'Covenant Eyes', 'ScreenLimit']
+ SHELF Accounts, connections & data
+   KIND Password manager | keys ['tt', 'see'] x [] m ['1Password', 'Bitwarden', 'Dashlane', 'Keeper', 'NordPass', 'Proton Pass', 'LastPass', 'RoboForm', 'Passwords', 'Google Password Manager', 'KeePassXC']
+   KIND Authenticator app | keys ['tt', 'see'] x [] m []
+   KIND VPN | keys ['tt'] x [] m ['NordVPN', 'ExpressVPN', 'Surfshark', 'ProtonVPN', 'Mullvad', 'Private Internet Access', 'CyberGhost', 'IPVanish', 'Windscribe', 'TunnelBear']
+   KIND Encryption software | keys ['tt'] x [] m ['BitLocker', 'FileVault', 'dm-crypt / LUKS', 'VeraCrypt', 'BestCrypt', 'Cryptomator', 'GnuPG', 'TrueCrypt']
+   KIND Data eraser | keys ['tt'] x [] m ['Eraser', "Darik's Boot and Nuke", 'nwipe', 'ShredOS', 'Active@ KillDisk', 'BleachBit', 'CCleaner', 'Disk Utility', 'shred']
+   KIND Password recovery software | keys ['tt'] x [] m ['Passware Kit', 'PassFab 4WinKey']
+===== Office & productivity
+ SHELF Documents & forms
+   KIND Office suite | keys ['tt', 'see'] x ['Microsoft Office', 'iWork', 'Google Workspace', 'LibreOffice', 'WPS Office', 'OnlyOffice'] m ['Apache OpenOffice', 'SoftMaker Office', 'Zoho Workplace', 'Hancom Office', 'WordPerfect Office', 'Calligra Suite', 'Collabora Online', 'Apple Creator Studio']
+   KIND Word processor | keys ['tt', 'see'] x [] m ['Microsoft Word', 'Pages', 'Google Docs']
+   KIND Spreadsheet program | keys ['tt', 'see'] x [] m ['Microsoft Excel', 'Numbers', 'Google Sheets']
+   KIND Presentation program | keys ['tt', 'see'] x [] m ['Microsoft PowerPoint', 'Apple Keynote', 'Google Slides']
+   KIND PDF editor | keys ['tt'] x ['Adobe Acrobat'] m ['Foxit PDF Editor', 'Preview', 'PDF Expert', 'PDFelement', 'Nitro PDF Pro', 'PDF-XChange', 'Sumatra PDF', 'Okular', 'PDFgear', 'PDF24 Creator', 'Adobe Reader']
+   KIND OCR software | keys ['tt'] x ['ABBYY FineReader'] m ['OmniPage', 'Tesseract', 'OCRFeeder', 'OCRopus', 'GOCR', 'Ocrad', 'CuneiForm', 'E-aksharayan']
+   KIND Long-form writing app | keys ['tt'] x ['Scrivener'] m []
+   KIND Survey and form software | keys ['tt'] x [] m []
+ SHELF Notes, plans & time
+   KIND Note-taking app | keys ['tt'] x [] m ['Microsoft OneNote', 'Apple Notes', 'Google Keep', 'Evernote', 'Notion', 'Obsidian', 'Samsung Notes', 'Joplin', 'Bear', 'Notability', 'Simplenote', 'Day One']
+   KIND Task manager | keys ['tt'] x [] m ['Todoist', 'Microsoft To Do', 'Apple Reminders', 'TickTick', 'Things', 'OmniFocus', 'Any.do', 'Remember the Milk', 'Trello', 'Asana', 'ClickUp', 'Basecamp']
+   KIND Calendar app | keys ['tt'] x [] m ['Google Calendar', 'Apple Calendar', 'Outlook Calendar', 'Fantastical', 'Proton Calendar', 'Notion Calendar', 'Morgen', 'Cozi Central', 'Calendly', 'Motion']
+   KIND Time-tracking software | keys ['tt'] x [] m ['Toggl', 'Harvest', 'Everhour', 'ManicTime', 'Fanurio']
+   KIND Mind mapping software | keys ['tt'] x [] m ['XMind', 'MindManager', 'MindMeister', 'MindView', 'Mindomo', 'MindMapper', 'ConceptDraw MINDMAP', 'TheBrain', 'CmapTools']
+   KIND Diagramming software | keys ['tt', 'see'] x [] m ['Microsoft Visio', 'draw.io', 'Lucidchart', 'OmniGraffle', 'SmartDraw', 'EdrawMax', 'yEd', 'Google Drawings', 'LibreOffice Draw', 'Dia', 'Gliffy', 'Creately', 'Miro', 'Excalidraw', 'Whimsical']
+ SHELF Language, typing & voice
+   KIND Language-learning software | keys ['tt'] x [] m ['Duolingo', 'Babbel', 'Rosetta Stone', 'Busuu', 'Memrise', 'Pimsleur', 'Mondly', 'Drops', 'LingQ', 'Anki', 'HelloTalk', 'Pleco']
+   KIND Machine translation software | keys ['tt'] x [] m ['Google Translate', 'DeepL', 'Microsoft Translator', 'Apple Translate', 'Naver Papago', 'Baidu Fanyi', 'Yandex Translate', 'Reverso', 'PROMT', 'SYSTRAN']
+   KIND Computer-assisted translation tool | keys ['tt'] x [] m []
+   KIND Input method editor | keys ['tt'] x [] m ['Microsoft IME', 'Microsoft Pinyin IME', 'Kotoeri', 'Gboard', 'Google Japanese Input', 'Google Input Tools', 'ATOK', 'Sogou Pinyin', 'Baidu Input', 'QQ Pinyin', 'Anthy']
+   KIND Typing tutor | keys ['tt'] x [] m ['Ratatype', 'TIPP10', 'KTouch', 'Klavaro', 'Tux Typing', 'FingerGo', 'Open-Typer']
+   KIND Dictation software | keys ['tt'] x [] m ['Dragon Professional', 'Dragon Anywhere Mobile', 'Dragon NaturallySpeaking', 'Apple Dictation', 'Windows Voice Typing', 'Windows Voice Access', 'Google Docs Voice Typing', 'Microsoft 365 Dictation', 'Wispr Flow', 'SuperWhisper', 'Otter.ai', 'Talon Voice']
+   KIND Text-to-speech software | keys ['tt'] x [] m ['Typecast', 'CereProc', 'Cepstral', 'VoiceText', 'Nuance Vocalizer', 'Microsoft Speech API', 'eSpeak', 'Festival Speech Synthesis System', 'Balabolka', 'NaturalReader', 'Panopreter Basic']
+ SHELF Money, tax & freelance work
+   KIND Personal finance manager | keys ['tt'] x [] m ['Quicken', 'You Need a Budget', 'Monarch Money', 'Copilot Money', 'Empower Personal Dashboard', 'EveryDollar', 'Goodbudget', 'GnuCash', 'Moneydance', 'Banktivity', 'Money Forward ME', 'Zaim']
+   KIND Tax software | keys ['tt'] x [] m ['TurboTax', 'H&R Block Tax Software', 'TaxAct', 'FreeTaxUSA', 'TaxSlayer', 'Cash App Taxes', 'ELSTER', 'WISO Steuer', 'Taxfix', 'smartsteuer', 'Steuer-Spar-Erklärung']
+   KIND Accounting software | keys ['tt'] x [] m []
+===== Internet & AI
+ SHELF Browsers, mail & downloads
+   KIND Web browser | keys ['tt'] x [] m ['Google Chrome', 'Microsoft Edge', 'Safari', 'Mozilla Firefox', 'Samsung Browser', 'Opera', 'Brave', 'Vivaldi', 'DuckDuckGo Browser', 'Tor Browser', 'Internet Explorer', 'Netscape Navigator']
+   KIND Email client | keys ['tt'] x [] m ['Microsoft Outlook', 'Apple Mail', 'Mozilla Thunderbird', 'Samsung Email', 'Spark', 'EM Client', 'Mailbird', 'Superhuman', 'Canary Mail', 'K-9 Mail', 'Mutt', 'Eudora']
+   KIND Feed reader | keys ['tt', 'see'] x [] m []
+   KIND Download manager | keys ['tt'] x [] m ['Internet Download Manager', 'Free Download Manager', 'JDownloader', 'Xunlei', 'Download Accelerator Plus', 'KGet', 'FlashGet', 'GetRight']
+   KIND BitTorrent client | keys ['tt', 'see'] x [] m ['qBittorrent', 'Transmission', 'Deluge', 'uTorrent', 'BitTorrent', 'BiglyBT', 'Vuze', 'BitComet', 'Tixati', 'KTorrent', 'rTorrent', 'Tribler']
+ SHELF AI assistants & agents
+   KIND AI assistant | keys ['tt'] x [] m ['ChatGPT', 'Gemini', 'Claude', 'Microsoft Copilot', 'Meta AI', 'Grok', 'DeepSeek', 'Doubao', 'Qwen', 'Siri', 'Alexa', 'Google Assistant']
+   KIND AI answer engine | keys ['tt'] x [] m ['Perplexity', 'Kagi', 'You.com', 'Genspark', 'Andi', 'Consensus', 'Elicit']
+   KIND AI agent platform | keys ['tt'] x [] m ['Manus', 'OpenClaw', 'Zapier Agents', 'Make AI Agents', 'n8n', 'Lindy', 'Gumloop', 'Bardeen', 'Activepieces', 'Magic Loops', 'Replit Agent']
+ SHELF Add-ons & device apps
+   KIND Browser extension | keys ['tt', 'see'] x [] m ['uBlock Origin', 'Adblock Plus', 'AdGuard AdBlocker', 'Privacy Badger', 'Ghostery', 'Bitwarden Password Manager', 'LastPass', 'Grammarly', 'Dark Reader', 'SponsorBlock', 'Return YouTube Dislike', 'Video DownloadHelper']
+   KIND Office suite add-in | keys ['tt'] x [] m ['MathType', 'DocuSign', 'DocHub', 'Mailtrack', 'Boomerang', 'Yet Another Mail Merge', 'GPT for Excel & Sheets', 'Canva for Google Workspace', 'Lucidchart', 'draw.io', 'Zoom for Gmail', 'Dropbox for Gmail']
+   KIND Device companion app | keys ['tt'] x [] m ['Garmin Connect', 'Fitbit', 'Polar Flow', 'Mi Fit']
+   KIND Device feature unlock | keys ['r', 'tt'] x [] m ['Tesla rear heated seats unlock', 'BMW heated seats activation', 'BMW adaptive cruise control subscription', 'BMW Apple CarPlay preparation', 'BMW remote engine start', 'Audi Virtual Cockpit Functions on Demand', 'Porsche adaptive steering Plus', 'Porsche Intelligent Range Manager', 'Volkswagen voice control', 'Opel live data']
+===== Developer tools
+ SHELF Writing & building code
+   KIND Code editor | keys ['tt'] x ['Visual Studio Code', 'Visual Studio', 'JetBrains IDEs', 'Xcode', 'Vim', 'GNU Emacs', 'Sublime Text', 'Notepad++'] m ['Eclipse', 'NetBeans', 'Code::Blocks', 'Qt Creator', 'Lazarus', 'Delphi', 'Arduino IDE', 'Thonny', 'Geany', 'KDevelop', 'Spyder', 'Atom', 'Replit', 'GitHub Codespaces', 'BlueJ', 'Dev-C++']
+   KIND Code editor plug-in | keys ['tt', 'see'] x [] m ['ESLint', 'Prettier', 'GitLens', 'Live Server', 'IdeaVim', 'SonarLint', 'Error Lens', 'Gemini Code Assist', 'GitHub Copilot for VS Code', 'Tabnine for VS Code', 'JetBrains AI Assistant', 'Junie', 'GitHub Copilot for JetBrains', 'Continue for JetBrains', 'Visual Studio Code extensions', 'JetBrains Marketplace plug-ins']
+   KIND AI coding assistant | keys ['tt', 'see'] x ['GitHub Copilot', 'Claude Code', 'OpenAI Codex', 'Cursor', 'Windsurf'] m ['Tabnine', 'Amazon Q Developer', 'Cline', 'Aider', 'Continue', 'Zed Agent', 'Devin', 'Sourcegraph Cody', 'Google Antigravity']
+   KIND Compiler and runtime | keys ['tt'] x ['GCC', 'Clang and LLVM', 'Microsoft Visual C++', '.NET', 'OpenJDK', 'Python', 'Node.js'] m ['rustc', 'GHC', 'Free Pascal', 'Intel oneAPI DPC++/C++ Compiler', 'Steel Bank Common Lisp', 'Racket', 'Mono', 'SDCC (Small Device C Compiler)', 'cc65', 'FreeBASIC']
+   KIND Version control software | keys ['tt'] x ['Git', 'Mercurial', 'Subversion'] m ['GitHub Desktop', 'Sourcetree', 'GitKraken', 'TortoiseGit', 'SmartGit', 'Fork', 'Git Extensions', 'Gitg', 'Git Cola', 'Fossil', 'Perforce P4', 'darcs']
+ SHELF Making games & sites
+   KIND Game engine | keys ['tt', 'see'] x ['Unity', 'Unreal Engine', 'Godot', 'GameMaker', 'RPG Maker', 'Construct', 'PICO-8', "Ren'Py", 'Twine', 'Adventure Game Studio'] m ['GDevelop', 'Clickteam Fusion', 'Stencyl', 'GameSalad', 'Buildbox', 'Defold', 'LÖVE', 'MonoGame', 'LibGDX', 'Phaser', 'Three.js', 'Babylon.js', 'PlayCanvas', 'Panda3D', 'Open 3D Engine', 'CryEngine', 'Stride', 'Solar2D', 'AppGameKit', 'Scratch']
+   KIND Web design software | keys ['tt'] x ['Adobe Dreamweaver', 'Webflow', 'Adobe GoLive', 'iWeb'] m ['Wix Editor', 'Jimdo', 'Google Web Designer', 'CoffeeCup HTML Editor', 'Xara Web Designer', 'Microsoft Expression Web', 'Microsoft FrontPage', 'Adobe Muse', 'Adobe PageMill']
+ SHELF Databases, terminals & networks
+   KIND Desktop database software | keys ['tt'] x [] m ['FileMaker', 'Microsoft Access', 'SQLite', '4D', 'Omnis Studio', 'R:Base', 'Paradox', 'Microsoft Visual FoxPro', 'Superbase', 'LibreOffice Base', 'DB Browser for SQLite']
+   KIND Terminal emulator | keys ['tt'] x [] m ['Windows Terminal', 'Terminal.app', 'iTerm2', 'GNOME Terminal', 'Konsole', 'Alacritty', 'kitty', 'WezTerm']
+   KIND SSH and FTP client | keys ['tt'] x [] m ['OpenSSH', 'PuTTY', 'KiTTY', 'WinSCP', 'FileZilla', 'Cyberduck', 'Transmit', 'SmartFTP', 'Termius', 'SecureCRT', 'MobaXterm', 'Bitvise SSH Client', 'Xshell', 'Blink Shell', 'ConnectBot', 'Secure ShellFish']
+   KIND Network analyser | keys ['tt'] x [] m ['Wireshark', 'tcpdump', 'Fiddler', 'Charles Web Debugging Proxy', 'Kismet', 'EtherApe', 'CommView']
+===== Classic software
+ SHELF Classic & discontinued software
+   KIND Screen saver | keys ['tt', 'see'] x ['After Dark', 'SCRNSAVE', 'Johnny Castaway', 'XScreenSaver', 'Flurry', 'Electric Sheep'] m ['Fliqlo', 'Plane9', 'Aerial', 'Hyperspace', 'Nixie', 'Polar Clock', 'Another Matrix', 'Bliss', 'Aerial Views', 'Dream Aquarium 3D', 'Living Marine Aquarium 2', 'Starfield Simulation', 'Mamesaver', 'YoWindow', 'Helios', 'Felix', 'FlipCloc', '3D Pipes', '3D Maze', 'Microsoft Plus! savers', 'Windows built-in savers']
+   KIND Reference CD-ROM | keys ['tt'] x ['Microsoft Encarta', 'Microsoft Bookshelf', "Compton's Encyclopedia", 'Grolier Electronic Encyclopedia', 'Encyclopaedia Britannica on disc'] m ['World Book Encyclopedia electronic edition', 'Merriam-Webster CD-ROM dictionary', 'Macmillan Dictionary for Children', 'The 20th Century Almanac', 'The Guinness Disc of Records', 'World Atlas CD-ROM']
+   KIND Home publishing software | keys ['tt'] x ['The Print Shop', 'PrintMaster', 'Print Artist'] m ['Print Explosion']
+   KIND Peer-to-peer file sharing client | keys ['tt', 'see'] x ['Napster', 'Kazaa', 'eDonkey2000', 'Soulseek', 'WinMX'] m ['Ares Galaxy', 'Morpheus', 'Grokster', 'iMesh', 'BitComet', 'Winny', 'Perfect Dark', 'Share', 'Freenet FProxy', 'Fopnu', 'I2Phex', 'KCeasy', 'Shareaza', 'Retroshare', 'Tribler', 'LimeWire', 'BearShare', 'Gnucleus', 'Phex', 'gtk-gnutella', 'FrostWire', 'DC++', 'EiskaltDC++']
