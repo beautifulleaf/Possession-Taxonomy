@@ -32,6 +32,49 @@
     "Vixen",
     "Canon"
    ]
+  },
+  {
+   "region": "United States",
+   "speciality": "custom truss Dobsonians and large refractors",
+   "src": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+   "brands": [
+    "Obsession Telescopes",
+    "StarStructure",
+    "Webster Telescopes",
+    "AstroSystems",
+    "Teeter's Telescopes",
+    "Hubble Optics",
+    "Waite Research",
+    "New Moon Telescopes",
+    "Stellarvue",
+    "Astro-Physics"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "fluorite apochromatic refractors (Takahashi FSQ 'legendary')",
+   "src": "https://skyandtelescope.org/astronomy-news/sky-telescope-reports-new-telescopes-and-more-at-neaf",
+   "brands": [
+    "Takahashi Seisakusho",
+    "Vixen"
+   ]
+  },
+  {
+   "region": "Italy",
+   "speciality": "astrographs and observatory optics",
+   "src": "https://en.wikipedia.org/wiki/Officina_Stellare",
+   "brands": [
+    "Officina Stellare",
+    "Primalucelab"
+   ]
+  },
+  {
+   "region": "Canada",
+   "speciality": "giant folded Newtonians",
+   "src": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+   "brands": [
+    "Optiques Fullum"
+   ]
   }
  ],
  "sources": [
@@ -94,6 +137,26 @@
    "new_names": 0,
    "status": "partial",
    "note": "only intro text returned"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+   "title": "Wikipedia Dobsonian telescope (commercial adaptations)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 12,
+   "new_names": 8,
+   "status": "done",
+   "note": "states low-volume truss builders offer premium mirrors and custom craftsmanship"
+  },
+  {
+   "url": "https://skyandtelescope.org/astronomy-news/sky-telescope-reports-new-telescopes-and-more-at-neaf",
+   "title": "Sky & Telescope NEAF report 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 15,
+   "new_names": 3,
+   "status": "done",
+   "note": "trade-show report; Astro-Physics/Stellarvue big refractors, Takahashi 'legendary FSQ line', ZWO/DwarfLab/Vaonis smartscopes known"
   }
  ],
  "brands": [
@@ -320,6 +383,94 @@
    "says": "Nocs Provisions 8x25 Waterproof tested in OutdoorGearLab binocular roundup (GearJunkie also best monocular earlier)",
    "country": "USA",
    "dept": "binoculars/monoculars"
+  },
+  {
+   "n": "StarStructure",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+   "says": "low-volume truss Dobsonian builder offering premium mirrors, high-end materials, custom craftsmanship",
+   "country": "USA",
+   "dept": "Dobsonian"
+  },
+  {
+   "n": "Webster Telescopes",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+   "says": "as above (low-volume premium truss Dobsonians)",
+   "country": "USA",
+   "dept": "Dobsonian"
+  },
+  {
+   "n": "AstroSystems",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+   "says": "as above",
+   "country": "USA",
+   "dept": "Dobsonian"
+  },
+  {
+   "n": "Teeter's Telescopes",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+   "says": "as above",
+   "country": "USA",
+   "dept": "Dobsonian"
+  },
+  {
+   "n": "Hubble Optics",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+   "says": "as above",
+   "country": "USA",
+   "dept": "Dobsonian"
+  },
+  {
+   "n": "Waite Research",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+   "says": "as above",
+   "country": "USA",
+   "dept": "Dobsonian"
+  },
+  {
+   "n": "New Moon Telescopes",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+   "says": "as above; built 36-inch hybrid shown at NEAF 2018",
+   "country": "USA",
+   "dept": "Dobsonian"
+  },
+  {
+   "n": "Optiques Fullum",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Dobsonian_telescope",
+   "says": "Canadian maker of 50-inch folded Newtonian installed in New Jersey 2019",
+   "country": "Canada",
+   "dept": "large Newtonians"
+  },
+  {
+   "n": "Stellarvue",
+   "layer": "premium",
+   "src": "https://skyandtelescope.org/astronomy-news/sky-telescope-reports-new-telescopes-and-more-at-neaf",
+   "says": "big refractors towering over NEAF 2026 showroom floor, Sky & Telescope report",
+   "country": "USA",
+   "dept": "refractors"
+  },
+  {
+   "n": "PlaneWave Instruments",
+   "layer": "premium",
+   "src": "https://skyandtelescope.org/astronomy-news/sky-telescope-reports-new-telescopes-and-more-at-neaf",
+   "says": "merged with Observable Space; named in S&T NEAF 2026 report (CDK astrographs)",
+   "country": "USA",
+   "dept": "observatory telescopes"
+  },
+  {
+   "n": "Primalucelab",
+   "layer": "premium",
+   "src": "https://skyandtelescope.org/astronomy-news/sky-telescope-reports-new-telescopes-and-more-at-neaf",
+   "says": "alt-az satellite trackers shown NEAF 2026",
+   "country": "Italy",
+   "dept": "mounts"
   }
  ]
 }
