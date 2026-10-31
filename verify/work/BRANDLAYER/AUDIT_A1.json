@@ -806,6 +806,34 @@
    "country": "Panama",
    "dept": "pollera",
    "region": "Las Tablas, Los Santos"
+  },
+  {
+   "n": "Valstar",
+   "layer": "premium",
+   "src": "https://www.analogshift.com/blogs/transmissions/varsity-jacket-history",
+   "says": "named among 'upscale makers' of varsity jackets 'using fine materials and painstaking production methods'",
+   "country": "Italy",
+   "dept": "jackets",
+   "region": "Milan"
+  },
+  {
+   "n": "Stewart & Strauss",
+   "layer": "cultural",
+   "src": "https://jacketshop.com/",
+   "says": "family-owned US maker of custom varsity letterman jackets and letter sweaters since 1977, outfitting schools and teams",
+   "country": "United States",
+   "dept": "varsity jackets",
+   "region": ""
+  },
+  {
+   "n": "Safawala (Ronak Dave)",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.ronakdave.com/",
+   "says": "third-generation (40+ years) wedding safa and pagdi specialist; Rajasthani safa, Jodhpuri pagdi; styled Ambani weddings (own site claims)",
+   "country": "India",
+   "dept": "safa, pagdi (turbans)",
+   "region": "Vadodara / Jaipur"
   }
  ],
  "add_regions": [
@@ -906,8 +934,34 @@
     "Remigio Mestas",
     "Khadi Oaxaca"
    ]
+  },
+  {
+   "region": "Morocco (Casablanca, Marrakech) - caftan couture",
+   "speciality": "haute-couture caftan and takchita; the Caftan show (Femmes du Maroc) as launch platform; Tamy Tazi credited with reinventing the caftan",
+   "src": "https://www.museeyslmarrakech.com/en/_expositions/une-amitie-marocaine",
+   "brands": [
+    "Tamy Tazi",
+    "Albert Oiknine",
+    "Zhor Raïs",
+    "Noureddine Amir",
+    "Samira Haddouchi",
+    "Simohamed Lakhdar"
+   ]
+  },
+  {
+   "region": "Ghana (Bonwire and Adanwomase, Ashanti) - kente sellers",
+   "speciality": "Bonwire 'the leading centre of kente weaving in Ashanti', community workshop and village shops",
+   "src": "https://visitghana.com/bonwire-kente",
+   "brands": [
+    "Bonwire Kente Weaving Centre"
+   ]
   }
  ],
- "drop": [],
- "notes": ""
+ "drop": [
+  {
+   "n": "AYA",
+   "why": "src (mommypotamus) lists AYA only under 'Brands I'd Like To Test' with the brand's own claim; recorded claim 'tested and recommended' is false and no quality evidence is given"
+  }
+ ],
+ "notes": "Accuracy 3/25 wrong (12%): Suket Dhir's src (woolmarkprize.com/designers) lists only 2019-2025 finalists, so his 2016 win is not on the page (keep, re-source); Ullarselid Wool Center's 'says' describes Alafoss (fix says: page names Ullarselid in Hvanneyri as seller of lopapeysa by local knitters); AYA not tested (drop). Syrn, United States Polo Association, Sasson Jeans are on the paginated next page of Category:Clothing brands of the United States, not on the src URL itself: src should be the pagefrom URL. Quality concern: about half the harvest (160 cultural) rests only on Wikipedia 'Clothing brands' categories, which prove existence, not cultural footprint (e.g. Cassidi, Claudia Sträter, Sophie Paris Vietnam, Acqua Limone, Honigman, LONDI); British Made Clothing directory entries (Abe House est. 2024, Daffodil and Leek, Worn To Threads) are marked premium on a self-listing directory with no quality judgement. Suggest re-layering these as cultural/unverified rather than premium. Additions verified by live web_fetch (Parallel, excerpt mode with objective; several multi-brand pages). Owner rule 2026-10-31 applied: role 'seller' for Sna Jolobil (huipil), Nurmuhammad Valiev workshop (ikat), Bonwire Kente Weaving Centre (kente), Habesha Dress Store (habesha kemis), Safawala (safa). Removed as already known during audit: MacGregor & MacDuff, Adanwomase Kente. Thin-area retries: varsity jackets (found Valstar, Stewart & Strauss), uniforms & trade (Chef Works, Tilit, Hedley & Bennett, Clement Design, FIGS, Jaanuu, Barco), hanbok (already covered: Tchai Kim, Leesle, Danha, Kim Hye-soon in known names), African dress (Bonwire, Clairla, Tide Chen, Mafi Mafi, Duro Olowu, Chris Seydou, Tsehaye Mehari), kilts (Stewart Christie, Andrea Chappell), Americas (Kuna, Kimbilá workshops, Guayaberas Cab, Artelvia, Sna Jolobil, Remigio Mestas, Khadi Oaxaca, Maribel Espinosa pollera), Middle East (Al Aseel, Al Daffah, Moroccan caftan couturiers), Southeast Asia (Bernard Chandran, Patis Tesoro, Pitoy Moreno, Francis Libiran, Sy Hoang, Minh Hanh, Lan Huong), Central Asia (Aida Kaumenova, AIDAI design, Anor Atelier, Valiev). Still thin: jumpsuits (no maker list; category is generic), batik (covered by known Danar Hadi, Batik Keris, Iwan Tirta), kitenge (only fabric mills found, e.g. Nida Textiles; not recorded as fabric not garment), A Man Hing Cheong (SCMP page 403). Historical/defunct houses flagged in says: Chris Seydou, Pitoy Moreno. Chester Jefferies (closed 2022), Lavabre Cadet and Peter Scott (ceased) deliberately not added."
 }
