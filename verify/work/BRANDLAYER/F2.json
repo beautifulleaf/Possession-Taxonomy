@@ -30,6 +30,97 @@
    ],
    "found": 38,
    "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Prints > Relief prints",
+   "queries": [
+    "IFPDA members",
+    "Dorset Fine Arts Kinngait"
+   ],
+   "found": 38,
+   "note": "IFPDA 139 members; Kinngait fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Prints > Relief prints (Ukiyo-e, Shin-hanga)",
+   "queries": [
+    "Adachi Watanabe Unsodo publisher"
+   ],
+   "found": 12,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Japanese woodblock publishers"
+   ],
+   "found": 12,
+   "note": "Rongbaozhai, Korean not yet tried"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia (China)",
+   "queries": [
+    "Rongbaozhai"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Paintings > Folk, indigenous & outsider painting (Tingatinga)",
+   "queries": [
+    "Tingatinga cooperative"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "Tingatinga cooperative"
+   ],
+   "found": 1,
+   "note": "Ndebele, Ethiopian not yet found"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean (Haiti)",
+   "queries": [
+    "Centre d'Art Port-au-Prince"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Latin America (Mexico)",
+   "queries": [
+    "Taller de Gr\u00e1fica Popular"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Paintings > Folk, indigenous & outsider painting (IACA)",
+   "queries": [
+    "IACA members"
+   ],
+   "found": 13,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Paintings > Folk, indigenous & outsider painting (AACHWA)",
+   "queries": [
+    "AACHWA members"
+   ],
+   "found": 24,
+   "note": "ANKAAA list not yet fetched"
   }
  ],
  "regions": [
@@ -58,6 +149,119 @@
     "Durham Press",
     "Pace Prints"
    ]
+  },
+  {
+   "region": "Canadian Arctic (Nunavut)",
+   "speciality": "Inuit stonecut and lithograph prints from Kinngait",
+   "src": "https://www.dorsetfinearts.com/kinngait-studios",
+   "brands": [
+    "Kinngait Studios",
+    "Dorset Fine Arts",
+    "West Baffin Eskimo Cooperative"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "Woodblock (ukiyo-e, shin-hanga) print publishing",
+   "src": "https://myhanga.com/publishers",
+   "brands": [
+    "Adachi Institute of Woodcut Prints",
+    "Unsodo",
+    "Watanabe Shozaburo (Watanabe Hanga-ten)",
+    "Yoshida Studio",
+    "Doi Sadaichi",
+    "Takamizawa Mokuhansha",
+    "Kyoto Hanga-in",
+    "Uchida Bijutsu Shoten",
+    "Fusui Gabo",
+    "Nihon Hanga Kenkyujo",
+    "Yokohamaya",
+    "Bijutsusha",
+    "Kawaguchi Art"
+   ]
+  },
+  {
+   "region": "China",
+   "speciality": "Woodblock water-print reproduction and painting/calligraphy supplies",
+   "src": "https://english.beijing.gov.cn/livinginbeijing/Beijingbrands/202006/t20200616_1925653.html",
+   "brands": [
+    "Rongbaozhai"
+   ]
+  },
+  {
+   "region": "Tanzania",
+   "speciality": "Tingatinga enamel-paint animal painting",
+   "src": "https://www.tingatinga.ch/en/direct.html",
+   "brands": [
+    "Tingatinga Arts Cooperative Society"
+   ]
+  },
+  {
+   "region": "Haiti",
+   "speciality": "Haitian self-taught/naive painting",
+   "src": "https://haitianartsociety.org/le-centre-d-art",
+   "brands": [
+    "Le Centre d'Art"
+   ]
+  },
+  {
+   "region": "Mexico",
+   "speciality": "Political and popular printmaking",
+   "src": "https://www.metmuseum.org/essays/printmaking-in-mexico-1900-1950",
+   "brands": [
+    "Taller de Gr\u00e1fica Popular"
+   ]
+  },
+  {
+   "region": "Australia (Far North Queensland, Torres Strait)",
+   "speciality": "Community art centres: weaving, printmaking, ceramics, painting",
+   "src": "https://iaca.com.au/art-centres",
+   "brands": [
+    "Badu Art Centre",
+    "Bana Yirriji Art Centre",
+    "Erub Arts",
+    "Gab Titui Cultural Centre",
+    "Girringun Aboriginal Art Centre",
+    "Hopevale Arts & Cultural Centre",
+    "Mornington Island Art",
+    "Moa Arts",
+    "Pormpuraaw Art & Culture Centre",
+    "Wei'num Aboriginal Corporation",
+    "Wik & Kugu Arts Centre",
+    "Yalanji Arts",
+    "Yarrabah Arts & Cultural Precinct"
+   ]
+  },
+  {
+   "region": "Australia (Western Australia)",
+   "speciality": "Kimberley, Pilbara, Desert community art centres: painting, weaving, textiles, ceramics",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "brands": [
+    "Birriliburu Artists / Tjukurba Gallery",
+    "Cheeditha Art Group",
+    "Ingarlgalandij Arts and Culture Hub",
+    "Juluwarlu Group Aboriginal Corporation",
+    "Kira Kiro Kalumburu Art Centre",
+    "Ku'Arlu Mangga",
+    "Mangkaja Arts Resource Agency",
+    "Martumili Artists",
+    "Mowanjum Aboriginal Art & Culture Centre",
+    "Nagula Jarndu Designs",
+    "Papulankutja Artists",
+    "Tjanpi Desert Weavers",
+    "Tjarlirli Art",
+    "Walkatjurra Cultural Centre",
+    "Wangaba Roebourne Art Group",
+    "Warakurna Artists",
+    "Waringarri Aboriginal Arts",
+    "Warlayirti Artists",
+    "Warmun Art Centre",
+    "Wirnda Barna Art Centre",
+    "Yamaji Art",
+    "Yarliyil Art Centre",
+    "Yinjaa-Barni Art",
+    "Spinifex Hill Studio"
+   ]
   }
  ],
  "sources": [
@@ -82,6 +286,115 @@
    "status": "done",
    "note": "peak-body member list",
    "evidence": "cultural"
+  },
+  {
+   "url": "https://ifpda.org/members",
+   "title": "IFPDA members",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 139,
+   "new_names": 38,
+   "status": "done",
+   "note": "dealers' association; publishers/studios + specialist print dealers taken, general contemporary galleries skipped; 3 already in register",
+   "evidence": "cultural"
+  },
+  {
+   "url": "https://www.dorsetfinearts.com/kinngait-studios",
+   "title": "Kinngait Studios - Dorset Fine Arts",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 3,
+   "status": "done",
+   "note": "",
+   "evidence": "cultural"
+  },
+  {
+   "url": "https://myhanga.com/publishers",
+   "title": "Japanese Woodblock Print Publishers - Hanga",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 13,
+   "new_names": 12,
+   "status": "done",
+   "note": "enthusiast directory; Adachi/Unsodo/Watanabe/Yoshida described as leading; others existence only",
+   "evidence": "mixed"
+  },
+  {
+   "url": "https://english.beijing.gov.cn/livinginbeijing/Beijingbrands/202006/t20200616_1925653.html",
+   "title": "Rongbaozhai - Beijing Time-Honored Brands",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "evidence": "cultural",
+   "note": "official Beijing time-honored brand page",
+   "new_names": 0,
+   "status": "done"
+  },
+  {
+   "url": "https://www.tingatinga.ch/en/direct.html",
+   "title": "Tingatinga Arts Cooperative Society",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 1,
+   "evidence": "cultural",
+   "note": "seller co-op, Dar es Salaam",
+   "new_names": 0,
+   "status": "done"
+  },
+  {
+   "url": "https://haitianartsociety.org/le-centre-d-art",
+   "title": "Le Centre d'Art - Haitian Art Society",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "evidence": "cultural",
+   "note": "state-recognised 1947",
+   "new_names": 1,
+   "status": "done"
+  },
+  {
+   "url": "https://www.metmuseum.org/essays/printmaking-in-mexico-1900-1950",
+   "title": "Printmaking in Mexico 1900-1950 - Met essay",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "evidence": "cultural",
+   "note": "essay naming TGP as publisher; museum essay used only for standing",
+   "new_names": 1,
+   "status": "done"
+  },
+  {
+   "url": "https://iaca.com.au/art-centres",
+   "title": "Member Art Centres - IACA",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 13,
+   "evidence": "cultural",
+   "note": "peak-body member list, FNQ and Torres Strait",
+   "new_names": 13,
+   "status": "done"
+  },
+  {
+   "url": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "title": "AACHWA Annual Report 2023",
+   "kind": "guild",
+   "years": "2023",
+   "names_on_page": 23,
+   "evidence": "cultural",
+   "note": "peak-body member list (23 members) plus Spinifex Hill Studio named as member director's centre",
+   "new_names": 20,
+   "status": "done"
+  },
+  {
+   "url": "https://anka.org.au/art-centres/anka-art-centres",
+   "title": "ANKA Art Centre Index",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "index is JS-rendered; fetch returned no names. Try the 2018 Art Guide PDF https://www.anka.org.au/assets/Art-Centres/00-Buy-Ethically/2018-Art-Guide-NO-Spread-SML.pdf (found by search)"
   }
  ],
  "brands": [
@@ -746,6 +1059,867 @@
    "dept": "Aboriginal painting/craft",
    "already": false,
    "evidence": "cultural"
+  },
+  {
+   "n": "Anderson Ranch Editions",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Atelier-Galerie A. Piroir",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print atelier",
+   "country": "Canada",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Burnet Editions",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Cirrus Editions",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Flatbed Press",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print studio",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Flying Horse Editions",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Goya-Girl Press",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print studio",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Jungle Press Editions",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Knust Kunz Gallery Editions",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "Germany",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Edicions T",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "Spain",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "LeRoy Neiman Center for Print Studies",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print studio",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Lower East Side Printshop",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print studio",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Manifold Editions",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "UK",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Manneken Press",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print studio",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Pol\u00edgrafa Obra Gr\u00e0fica",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "Spain",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "SOLO Impression",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Stoney Road Press",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print studio",
+   "country": "Ireland",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "STPI",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print workshop",
+   "country": "Singapore",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Tamarind Institute",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print workshop",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Utopia Editions",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Wildwood Press",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print studio",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "World House Editions",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Wingate Studio",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), paper/print studio",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Shore Publishing",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), publisher",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Kinngait Studios",
+   "layer": "cultural",
+   "src": "https://www.dorsetfinearts.com/kinngait-studios",
+   "says": "Kinngait Studios/West Baffin Eskimo Co-operative: worldwide reputation for quality and originality of limited-edition prints; annual collection since 1959, longest continuously running print studio in Canada",
+   "country": "Canada",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Dorset Fine Arts",
+   "layer": "cultural",
+   "src": "https://www.dorsetfinearts.com/kinngait-studios",
+   "says": "Kinngait Studios/West Baffin Eskimo Co-operative: worldwide reputation for quality and originality of limited-edition prints; annual collection since 1959, longest continuously running print studio in Canada",
+   "country": "Canada",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "West Baffin Eskimo Cooperative",
+   "layer": "cultural",
+   "src": "https://www.dorsetfinearts.com/kinngait-studios",
+   "says": "Kinngait Studios/West Baffin Eskimo Co-operative: worldwide reputation for quality and originality of limited-edition prints; annual collection since 1959, longest continuously running print studio in Canada",
+   "country": "Canada",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Egenolf Gallery Japanese Prints",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), seller of Japanese prints",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural",
+   "role": "seller"
+  },
+  {
+   "n": "Scholten Japanese Art",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), seller of Japanese prints",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural",
+   "role": "seller"
+  },
+  {
+   "n": "Gallery Saint-Guillaume",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), seller of prints",
+   "country": "Japan",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural",
+   "role": "seller"
+  },
+  {
+   "n": "C.G. Boerner",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print dealer",
+   "country": "Germany/US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural",
+   "role": "seller"
+  },
+  {
+   "n": "Paul Prout\u00e9",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print dealer",
+   "country": "France",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural",
+   "role": "seller"
+  },
+  {
+   "n": "The Old Print Shop",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print dealer",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural",
+   "role": "seller"
+  },
+  {
+   "n": "Sims Reed Gallery",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print dealer",
+   "country": "UK",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural",
+   "role": "seller"
+  },
+  {
+   "n": "Cristea Roberts Gallery",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print dealer",
+   "country": "UK",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural",
+   "role": "seller"
+  },
+  {
+   "n": "Frederick Mulder",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print dealer",
+   "country": "UK",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural",
+   "role": "seller"
+  },
+  {
+   "n": "Weyhe Gallery",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print dealer",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural",
+   "role": "seller"
+  },
+  {
+   "n": "David Tunick",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "Member of IFPDA (vetted dealers/publishers of fine prints), print dealer",
+   "country": "US",
+   "dept": "Prints",
+   "already": false,
+   "evidence": "cultural",
+   "role": "seller"
+  },
+  {
+   "n": "Adachi Institute of Woodcut Prints",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: founded 1928; one of the last traditional woodblock publishers, reproduced ~1,200 ukiyo-e works",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Unsodo",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: Kyoto publisher founded 1891, one of Japan's oldest continuously operating print publishers",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Yoshida Studio",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: Hiroshi Yoshida's own publishing workshop, imprint among the most recognized in Japanese printmaking",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "cultural"
+  },
+  {
+   "n": "Doi Sadaichi",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: Tokyo shin-hanga publisher 1920-1945, publisher of Tsuchiya Koitsu",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "existence"
+  },
+  {
+   "n": "Takamizawa Mokuhansha",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: Tokyo woodblock publisher 1920-1980, reprints of shin-hanga",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "existence"
+  },
+  {
+   "n": "Kyoto Hanga-in",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: Kyoto publisher/workshop 1930-1975",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "existence"
+  },
+  {
+   "n": "Uchida Bijutsu Shoten",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: Kyoto art-book and woodblock publisher 1910-1970",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "existence"
+  },
+  {
+   "n": "Fusui Gabo",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: Tokyo woodblock publisher 1900-1945",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "existence"
+  },
+  {
+   "n": "Nihon Hanga Kenkyujo",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: publisher/research org 1930-1975",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "existence"
+  },
+  {
+   "n": "Yokohamaya",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: Yokohama export print publisher 1900-1945",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "existence"
+  },
+  {
+   "n": "Bijutsusha",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: art publisher 1925-1970",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "existence"
+  },
+  {
+   "n": "Kawaguchi Art",
+   "layer": "cultural",
+   "src": "https://myhanga.com/publishers",
+   "says": "Listed on Hanga publishers page: woodblock publisher 1920-1960",
+   "country": "Japan",
+   "dept": "Ukiyo-e / shin-hanga prints",
+   "already": false,
+   "evidence": "existence"
+  },
+  {
+   "n": "Le Centre d'Art",
+   "src": "https://haitianartsociety.org/le-centre-d-art",
+   "says": "Port-au-Prince art centre est. 1944; recognised 1947 as institution of public utility; associated with Hyppolite, Obin",
+   "country": "Haiti",
+   "dept": "Haitian painting",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Taller de Gr\u00e1fica Popular",
+   "src": "https://www.metmuseum.org/essays/printmaking-in-mexico-1900-1950",
+   "says": "Print collective founded 1937 Mexico City; best expresses symbiosis of prints and politics (Met essay); publisher of portfolios",
+   "country": "Mexico",
+   "dept": "Prints",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Badu Art Centre",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Bana Yirriji Art Centre",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Erub Arts",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Gab Titui Cultural Centre",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Girringun Aboriginal Art Centre",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Hopevale Arts & Cultural Centre",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Mornington Island Art",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Moa Arts",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Pormpuraaw Art & Culture Centre",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Wei'num Aboriginal Corporation",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Wik & Kugu Arts Centre",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Yalanji Arts",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Yarrabah Arts & Cultural Precinct",
+   "src": "https://iaca.com.au/art-centres",
+   "says": "Member art centre of Indigenous Art Centre Alliance (peak body, FNQ/Torres Strait)",
+   "country": "Australia",
+   "dept": "Aboriginal and Torres Strait Islander art",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Birriliburu Artists / Tjukurba Gallery",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Cheeditha Art Group",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Ingarlgalandij Arts and Culture Hub",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Juluwarlu Group Aboriginal Corporation",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Kira Kiro Kalumburu Art Centre",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Ku'Arlu Mangga",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Mangkaja Arts Resource Agency",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Mowanjum Aboriginal Art & Culture Centre",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Nagula Jarndu Designs",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Tjarlirli Art",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Walkatjurra Cultural Centre",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Wangaba Roebourne Art Group",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Waringarri Aboriginal Arts",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Warlayirti Artists",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Warmun Art Centre",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Wirnda Barna Art Centre",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Yamaji Art",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Yarliyil Art Centre",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Yinjaa-Barni Art",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
+  },
+  {
+   "n": "Spinifex Hill Studio",
+   "src": "https://aachwa.com.au/wp-content/uploads/2024/05/AACHWA_Annual-Report_2023-WEB.pdf",
+   "says": "Member art centre of AACHWA (Aboriginal Art Centre Hub of Western Australia), peak body",
+   "country": "Australia",
+   "dept": "Aboriginal art / textiles / craft",
+   "evidence": "cultural",
+   "layer": "cultural",
+   "already": false
   }
  ]
 }

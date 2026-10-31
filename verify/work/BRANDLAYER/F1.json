@@ -2,8 +2,244 @@
 "cat": "F1",
 "status": "partial",
 "brand_led": true,
-"sweeps": [],
-"regions": [],
+"sweeps": [
+{
+"axis": "kind",
+"item": "Books (all sections)",
+"queries": [
+"Wikipedia fine press list",
+"British Book Awards publisher of the year",
+"English-language book publishers"
+],
+"found": 0,
+"note": "fine press + Nibbies 2025/2026 done; other years, comics/BD/children's/SF/university presses lists, regional publishers NOT yet done"
+},
+{
+"axis": "kind",
+"item": "Records & audio",
+"queries": [
+"Wikipedia list of record labels A-Z",
+"UK independent labels",
+"best audiophile vinyl reissue labels"
+],
+"found": 0,
+"note": "done via Wikipedia lists and one retailer list; independent audiophile press (Stereophile/Tracking Angle) not fetched"
+},
+{
+"axis": "kind",
+"item": "Comics & manga",
+"queries": [
+"List of comics publishing companies",
+"List of manga publishers"
+],
+"found": 0,
+"note": "done; per-country categories (BD, Bonelli, Amar Chitra Katha) not fetched"
+},
+{
+"axis": "kind",
+"item": "Sheet music",
+"queries": [
+"Category sheet music publishing companies"
+],
+"found": 0,
+"note": "done"
+},
+{
+"axis": "kind",
+"item": "Maps, atlases & globes",
+"queries": [
+"Category map publishing companies",
+"globe makers omniterrum"
+],
+"found": 0,
+"note": "partial; Omniterrum page covered part of alphabet; Michelin/OS known; Bellerby etc. not fetched"
+},
+{
+"axis": "kind",
+"item": "Films & video",
+"queries": [
+"boutique Blu-ray label best"
+],
+"found": 0,
+"note": "searched only; Wikipedia Boutique Blu-ray label article not fetched"
+},
+{
+"axis": "kind",
+"item": "Magazines & newspapers; Storage & protection",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "Western Europe",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "Northern Europe",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "Southern Europe",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "Central & Eastern Europe",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "Middle East",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "North Africa",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "Sub-Saharan Africa",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "South Asia",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "East Asia",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "Southeast Asia",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "Central Asia",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "Oceania",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "North America",
+"queries": [],
+"found": 0,
+"note": "not started"
+},
+{
+"axis": "region",
+"item": "Latin America & Caribbean",
+"queries": [],
+"found": 0,
+"note": "not started"
+}
+],
+"regions": [
+{
+"region": "United Kingdom",
+"speciality": "fine-press and private-press books (Kelmscott tradition, Arts and Crafts movement)",
+"src": "https://en.wikipedia.org/wiki/Fine_press",
+"brands": [
+"Kelmscott Press",
+"Doves Press",
+"Ashendene Press",
+"Golden Cockerel Press",
+"Folio Society",
+"Nonesuch Press",
+"Gregynog Press"
+]
+},
+{
+"region": "United States (San Francisco, Los Angeles)",
+"speciality": "fine-press printing centres",
+"src": "https://en.wikipedia.org/wiki/Fine_press",
+"brands": [
+"Arion Press",
+"Grabhorn Press",
+"Roycroft Press",
+"Easton Press",
+"Thornwillow Press"
+]
+},
+{
+"region": "Australia",
+"speciality": "fine press",
+"src": "https://en.wikipedia.org/wiki/Fine_press",
+"brands": [
+"Finlay Press"
+]
+},
+{
+"region": "Japan",
+"speciality": "manga publishing",
+"src": "https://en.wikipedia.org/wiki/List_of_manga_publishers",
+"brands": [
+"Kodansha",
+"Shueisha",
+"Kadokawa Shoten",
+"Hakusensha",
+"Futabasha"
+]
+},
+{
+"region": "France (Paris)",
+"speciality": "audiophile jazz reissues; sheet music houses",
+"src": "https://girdermusic.com/blogs/news/audiophile-labels-and-pressings",
+"brands": [
+"Sam Records",
+"Éditions Durand",
+"Éditions Alphonse Leduc"
+]
+},
+{
+"region": "Germany",
+"speciality": "urtext sheet music and audiophile jazz/classical reissues",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"brands": [
+"G. Henle Verlag",
+"Bärenreiter",
+"Breitkopf & Härtel",
+"Schott Music",
+"Speakers Corner Records",
+"Deutsche Grammophon"
+]
+}
+],
 "sources": [
 {
 "url": "https://en.wikipedia.org/wiki/List_of_comics_publishing_companies",
@@ -54,6 +290,86 @@
 "new_names": 1088,
 "status": "done",
 "note": " known confirmed 0"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"title": "Category: Sheet music publishing companies",
+"kind": "encyclopedia",
+"years": "n/a",
+"names_on_page": 55,
+"new_names": 46,
+"status": "done",
+"note": " known confirmed 8"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"title": "Category: Map publishing companies",
+"kind": "encyclopedia",
+"years": "n/a",
+"names_on_page": 23,
+"new_names": 22,
+"status": "done",
+"note": " known confirmed 1"
+},
+{
+"url": "https://en.wikipedia.org/wiki/Fine_press",
+"title": "Fine press (Wikipedia list of fine presses)",
+"kind": "encyclopedia",
+"years": "n/a",
+"names_on_page": 23,
+"new_names": 7,
+"status": "done",
+"note": " known confirmed 16"
+},
+{
+"url": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"title": "List of independent UK record labels",
+"kind": "encyclopedia",
+"years": "n/a",
+"names_on_page": 586,
+"new_names": 283,
+"status": "done",
+"note": " known confirmed 0"
+},
+{
+"url": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"title": "British Book Awards Publisher of the Year 2026 winner and shortlist",
+"kind": "award",
+"years": "2026",
+"names_on_page": 12,
+"new_names": 11,
+"status": "done",
+"note": "Only 2026 page fetched; other years named by search excerpts only - to fetch via past-winners page known confirmed 1"
+},
+{
+"url": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"title": "British Book Awards Publisher of the Year 2025 winner and shortlist",
+"kind": "award",
+"years": "2025",
+"names_on_page": 14,
+"new_names": 12,
+"status": "done",
+"note": " known confirmed 1"
+},
+{
+"url": "https://www.omniterrum.com/reference/globe-makers",
+"title": "Omniterrum Globe Maker Archives",
+"kind": "collection",
+"years": "n/a",
+"names_on_page": 62,
+"new_names": 58,
+"status": "done",
+"note": "Page text covered only part of the alphabet in fetch; re-fetch for rest known confirmed 3"
+},
+{
+"url": "https://girdermusic.com/blogs/news/audiophile-labels-and-pressings",
+"title": "Girder Music: Audiophile Labels and Pressings",
+"kind": "retailer",
+"years": "2022",
+"names_on_page": 19,
+"new_names": 9,
+"status": "done",
+"note": "Retailer list: merge files as listed known confirmed 8"
 }
 ],
 "brands": [
@@ -3454,20 +3770,6 @@
 },
 {
 "n": "TVM Comics (defunct)",
-"layer": "cultural",
-"src": "https://en.wikipedia.org/wiki/List_of_manga_publishers",
-"says": "Listed in Wikipedia List of manga publishers (own article)",
-"dept": "manga"
-},
-{
-"n": "List of comics publishing companies",
-"layer": "cultural",
-"src": "https://en.wikipedia.org/wiki/List_of_manga_publishers",
-"says": "Listed in Wikipedia List of manga publishers (own article)",
-"dept": "manga"
-},
-{
-"n": "List of manga distributors",
 "layer": "cultural",
 "src": "https://en.wikipedia.org/wiki/List_of_manga_publishers",
 "says": "Listed in Wikipedia List of manga publishers (own article)",
@@ -13884,27 +14186,6 @@
 },
 {
 "n": "Record production portal",
-"layer": "cultural",
-"src": "https://en.wikipedia.org/wiki/List_of_record_labels:_A–H",
-"says": "Listed in Wikipedia List of record labels (own article)",
-"dept": "records"
-},
-{
-"n": "List of electronic music record labels",
-"layer": "cultural",
-"src": "https://en.wikipedia.org/wiki/List_of_record_labels:_A–H",
-"says": "Listed in Wikipedia List of record labels (own article)",
-"dept": "records"
-},
-{
-"n": "List of independent UK record labels",
-"layer": "cultural",
-"src": "https://en.wikipedia.org/wiki/List_of_record_labels:_A–H",
-"says": "Listed in Wikipedia List of record labels (own article)",
-"dept": "records"
-},
-{
-"n": "List of Bangladeshi record labels",
 "layer": "cultural",
 "src": "https://en.wikipedia.org/wiki/List_of_record_labels:_A–H",
 "says": "Listed in Wikipedia List of record labels (own article)",
@@ -28546,6 +28827,3135 @@
 "src": "https://en.wikipedia.org/wiki/List_of_record_labels:_R–Z",
 "says": "Listed in Wikipedia List of record labels (own article)",
 "dept": "records"
+},
+{
+"n": "Artaria",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Augener & Co.",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Mel Bay",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Bourne Co. Music Publishers",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "S. Brainard Sons",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Carl Fischer Music",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Carus-Verlag",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Casa Ricordi",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Le Chant du Monde",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Chappell & Co.",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Cherry Lane Music",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Robert Cocks & Co.",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Cramer & Co.",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Curwen Press",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Éditions Durand",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Donemus",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Éditions de l'Oiseau-Lyre",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Éditions Russes de Musique",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Ernst Eulenburg",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Faber Music",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Leo Feist, Inc.",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Frederick Harris Music",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Edition Wilhelm Hansen",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Heugel",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Friedrich Hofmeister Musikverlag",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "International Music Publications",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Éditions Alphonse Leduc",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Moeck Musikinstrumente + Verlag",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Music Minus One",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Oxford University Press",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "PWM Edition",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Francis Salabert",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "G. Schirmer, Inc.",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Schott frères",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Schott Music",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Shapiro, Bernstein & Co.",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Shawnee Press",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Hans Sikorski",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Stainer & Bell",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Suvini Zerboni",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Theodore Presser Company",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Voggenreiter Verlag",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Wise Music Group",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Zen-On Music Company",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "Wai-te-ata Music Press",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "The Early Music Company",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Sheet_music_publishing_companies",
+"says": "Wikipedia category Sheet music publishing companies (own article)",
+"dept": "sheet music"
+},
+{
+"n": "John Arrowsmith",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Bella Terra Publishing",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Blue Crow Media",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "J. H. Colton",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Compass Maps",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "George F. Cram",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Dolph Map Company",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Geo4Map",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Geographia Map Company",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Hermann Haack",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Hema Maps",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Kompass Karten",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Paul Langhans",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "MapArt",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Justus Perthes",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Rand McNally",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Matthäus Seutter",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "SinoMaps Press",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Adolf Stieler",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Emil von Sydow",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Universal Publishers (Australia)",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Wilderness Press",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/Category:Map_publishing_companies",
+"says": "Wikipedia category Map publishing companies",
+"dept": "maps"
+},
+{
+"n": "Blue Sky Press",
+"layer": "premium",
+"src": "https://en.wikipedia.org/wiki/Fine_press",
+"says": "Wikipedia Fine press article: press 'of exceptional intrinsic quality and artistic taste' listed",
+"dept": "private-press books"
+},
+{
+"n": "Marion Press",
+"layer": "premium",
+"src": "https://en.wikipedia.org/wiki/Fine_press",
+"says": "Wikipedia Fine press article: press 'of exceptional intrinsic quality and artistic taste' listed",
+"dept": "private-press books"
+},
+{
+"n": "The Mosher Press",
+"layer": "premium",
+"src": "https://en.wikipedia.org/wiki/Fine_press",
+"says": "Wikipedia Fine press article: press 'of exceptional intrinsic quality and artistic taste' listed",
+"dept": "private-press books"
+},
+{
+"n": "Trovillion Press",
+"layer": "premium",
+"src": "https://en.wikipedia.org/wiki/Fine_press",
+"says": "Wikipedia Fine press article: press 'of exceptional intrinsic quality and artistic taste' listed",
+"dept": "private-press books"
+},
+{
+"n": "Thornwillow Press",
+"layer": "premium",
+"src": "https://en.wikipedia.org/wiki/Fine_press",
+"says": "Wikipedia Fine press article: press 'of exceptional intrinsic quality and artistic taste' listed",
+"dept": "private-press books"
+},
+{
+"n": "Vale Press",
+"layer": "premium",
+"src": "https://en.wikipedia.org/wiki/Fine_press",
+"says": "Wikipedia Fine press article: press 'of exceptional intrinsic quality and artistic taste' listed",
+"dept": "private-press books"
+},
+{
+"n": "Eragny Press",
+"layer": "premium",
+"src": "https://en.wikipedia.org/wiki/Fine_press",
+"says": "Wikipedia Fine press article: press 'of exceptional intrinsic quality and artistic taste' listed",
+"dept": "private-press books"
+},
+{
+"n": "2Point9 Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "2 Tone Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "3 Beat Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "4AD",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "53rd & 3rd",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Adaadat",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Aesop (record label)",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Ambush Reality",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Believers Roast",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Bloody Chamber Music",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Broadside Hacks",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Cherry Red",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Chrysalis",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Creole",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Critical Music",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Damaged Goods Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Dance Concept",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Dharma Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Dharma Worldwide",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Dick Bros Record Company",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Dimension",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Disciple",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Double Denim Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Drowned in Sound",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Earache",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Earworm Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Él",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Ember Records (UK label)",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "EmuBands",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Fashion Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Fellside Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "FM Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "FM-Revolver Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Food",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Fresh Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "G&R London",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Gargleblast Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Gimell Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Good Soldier",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Gringo Recordsjames",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Heaven Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "High Focus Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Household Name Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "How Does It Feel to Be Loved?",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Ill Flava Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Independiente Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Instant Karma (record label)",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Jacaranda Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Jazz Refreshed",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Josaka",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Kaycee Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Kold Sweat Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Leader Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Loog Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Low Life Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Major League Productions (MLP)",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Moshi Moshi",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Mukatsuku Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Mushroom",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Naim Edge",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Network",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "New Hormones",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Nude",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Oaken Palace Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Oriole Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Persistence of Sound",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Phantasy Sound",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Play It Again Sam",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Pointy Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Red Girl Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Rekids",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Revolver Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Rinse FM Recordings",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Shinkansen Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Skull Disco",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Sleep It Off Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Smalltown America",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Sons Ltd.",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Static Shock Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Tectonic (record label)",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Tempa Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Temple Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Tiger Aspect Productions",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Triumph Records (UK)",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Truck Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Upset the Rhythm",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Vertical Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "V/VM",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Warp Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Weekender Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Willkommen Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Woof Records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Yellowdog Creative Project Management",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "v",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "t",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "e",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "AMPROFON",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "ARIA",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "BVMI",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "BPI",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music Canada",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "FIMI",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "IFPI (worldwide)",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "PMB",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "PROMUSICAE",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "RIAA",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "SNEP",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Sony Music Publishing",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Universal Music Publishing Group",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Warner Chappell Music",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Disney Music Publishing",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Concord Music Publishing",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Allied Artists Music Group",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Reservoir Media",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "TVT Music Enterprises",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Create Music Group",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Universal",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Warner",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Secretly",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Big Machine",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "PIAS",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Beggars",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Disney",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Domino",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "AAMG",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Glassnote",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Empire",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "ECR",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Create",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Independent UK record labels",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Notable independent record labels",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Digital music stores",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Fnac",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "HMV",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Kaspien",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Virgin Megastores",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "CTS Eventim",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Live Nation",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "LiveStyle",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Ticketmaster",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Blues",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Country",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Easy listening",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Electronic",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Experimental",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Gospel",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Hip-hop",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Latin",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Metal",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "New Age",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Pop",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Reggae",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Rhythm and blues",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Rock",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "World",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Album cover design",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Artists and repertoire (A&R)",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Disc jockey",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Distribution",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Entertainment law",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music education",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music executive",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music and fashion",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music journalism",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music publisher",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music store",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music venue",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Musical instruments",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Professional audio store",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Promotion",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Radio promotion",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Record label",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Record shop",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Road crew",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Talent manager",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Tour promoter",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Songwriter",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Composer",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Lyricist",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Conductor",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Hip-hop producer",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Horn section",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Record producer",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Rhythm section",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Orchestrator",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Session musician",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Backup singer",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Ghost singer",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Vocal coach",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Ghostwriter",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Sound engineer",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Single",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Album",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Double album",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music video",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Visual album",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Promotional recording",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Phonograph record",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Eight-track",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Compact cassette",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "DVD",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Airplay",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music download",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music streaming service",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Concert",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Concert tour",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Concert residency",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music festival",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music competition",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "ARIA Charts",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "_Billboard_ Hot 100",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "_Billboard_ Argentina Hot 100",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "_Billboard_ Brasil Hot 100",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Canadian Hot 100",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Circle Chart",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "G-Music chart",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Irish Singles Chart",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Italian singles chart",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "GfK Entertainment charts",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Entertainment Monitoring Africa",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Oricon charts",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "New Zealand singles chart",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "_Rolling Stone_ Top 100",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Sino Chart",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "TME Physical Album Sales Chart",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "SNEP singles chart",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Sverigetopplistan",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "UK singles chart",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Fuse",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Mnet",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "MTV",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "MTV2",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Tr3s",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "MuchMusic",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "The Music Factory",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "VH1",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "The Country Network",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music award",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Best-selling music artists",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Girl Groups",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Finland",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Germany",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Japan",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "United Kingdom",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "United States",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Belgian",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Brazilian",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "British",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Italian",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Swedish",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Best-selling albums",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "by country",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Best-selling singles",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Highest-paid musicians",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Highest-grossing live music artists",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Highest-grossing concert tours",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "by women",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Highest-grossing concert residencies",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Highest-grossing benefit concerts",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Most-attended concert tours",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Most-attended concert residencies",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Most-attended concerts",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Global Recording Artist of the Year",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Wealthiest musical artists",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Album era",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Album-equivalent unit",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "A-side and B-side",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Backmasking",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Bootleg recording",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Christian music industry",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Environmental impact",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Global Release Day",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Hidden track",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Japanese edition",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Largest music deals",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Largest recorded music markets",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Most expensive albums",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Most valuable records",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Music certification",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Parental Advisory",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Record sales",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "White label",
+"layer": "cultural",
+"src": "https://en.wikipedia.org/wiki/List_of_independent_UK_record_labels",
+"says": "Listed in Wikipedia List of independent UK record labels (own article)",
+"dept": "records"
+},
+{
+"n": "Little, Brown",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"says": "Winner/shortlist or named division, Publisher of the Year 2026, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Canongate",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"says": "Winner/shortlist or named division, Publisher of the Year 2026, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "HarperFiction",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"says": "Winner/shortlist or named division, Publisher of the Year 2026, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "John Murray",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"says": "Winner/shortlist or named division, Publisher of the Year 2026, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Nosy Crow",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"says": "Winner/shortlist or named division, Publisher of the Year 2026, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Orion Publishing Group",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"says": "Winner/shortlist or named division, Publisher of the Year 2026, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Transworld",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"says": "Winner/shortlist or named division, Publisher of the Year 2026, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Wonderbly",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"says": "Winner/shortlist or named division, Publisher of the Year 2026, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Quercus",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"says": "Winner/shortlist or named division, Publisher of the Year 2026, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Piatkus",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"says": "Winner/shortlist or named division, Publisher of the Year 2026, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Orbit Books",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year",
+"says": "Winner/shortlist or named division, Publisher of the Year 2026, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Bloomsbury Adult",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Head of Zeus",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Cornerstone",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Pan Macmillan",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Penguin General",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Vintage",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Laurence King",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Fig Tree",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Hamish Hamilton",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "HarperVoyager",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "The Borough Press",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Inklore",
+"layer": "premium",
+"src": "https://www.thebookseller.com/british-book-awards-content/publisher-of-the-year-2025",
+"says": "Winner/shortlist or named imprint, Publisher of the Year 2025, British Book Awards (The Bookseller)",
+"dept": "general trade books"
+},
+{
+"n": "Carl Adami",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "John Addison",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "A.H. Andrews & Co",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Erik Akerland",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Anders Akerman",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Carl Fredrik Akrel",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Fredrik Akrel",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "American School Apparatus Co.",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "William B. Annin",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Annin & Smith",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "G. W. Bacon & Co.",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "W. & T.M. Bardin",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Thomas Harris Barlow",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Johann Bauer",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Emile Bertaux",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "John Betts",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Benjamin Cole",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Henry George Collins",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Columbus Globes",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "James Cox",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "George F. Cram Company",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "George Fredrick Cruchley",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Ernst Debes",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Freytag & Berndt",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Dr. C Garthe",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Geographia",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Robert Haardt",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "C.S. Hammond & Co.",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Otto Herkt",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Ludwig Julius Heymann",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Institute National de Géographie",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Gilman Joslin",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "JRO-Verlag",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Louis Paul Juvet",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Heinrich Kiepert",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Georg Johann Klinger",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Emanuel Kogutowicz",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Friedrich Kretzschmar",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Lebegue & Cie",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Josiah Loring",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Adolf Mang",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Merzbach & Falk",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "H.B. Nims & Co., Nims & Knight",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "A.J. Nystrom & Co",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Paul Raeth",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Rand McNally & Co.",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Dietrich Verlag Reimer",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Replogle",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Didier Robert de Vaugondy",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Joseph Schedler",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Ernst Schotte",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Schwitzky & Strunz",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Forrest Shepherd",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Smith & son",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "C.F. Weber & Co",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Weber Costello Co",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "James Wilson",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Wilson & Son",
+"layer": "cultural",
+"src": "https://www.omniterrum.com/reference/globe-makers",
+"says": "Listed in Omniterrum Globe Maker Archives (reference of historic globe makers)",
+"dept": "globes"
+},
+{
+"n": "Sam Records",
+"layer": "premium",
+"src": "https://girdermusic.com/blogs/news/audiophile-labels-and-pressings",
+"says": "Retailer blog 'best audiophile labels' list (existence only; not independent)",
+"dept": "audiophile vinyl reissues"
+},
+{
+"n": "Tone Poet Audiophile Vinyl Reissue Series",
+"layer": "premium",
+"src": "https://girdermusic.com/blogs/news/audiophile-labels-and-pressings",
+"says": "Retailer blog 'best audiophile labels' list (existence only; not independent)",
+"dept": "audiophile vinyl reissues"
+},
+{
+"n": "Pure Pleasure Records",
+"layer": "premium",
+"src": "https://girdermusic.com/blogs/news/audiophile-labels-and-pressings",
+"says": "Retailer blog 'best audiophile labels' list (existence only; not independent)",
+"dept": "audiophile vinyl reissues"
+},
+{
+"n": "Electric Recording Company",
+"layer": "premium",
+"src": "https://girdermusic.com/blogs/news/audiophile-labels-and-pressings",
+"says": "Retailer blog 'best audiophile labels' list (existence only; not independent)",
+"dept": "audiophile vinyl reissues"
+},
+{
+"n": "Music Matters Jazz",
+"layer": "premium",
+"src": "https://girdermusic.com/blogs/news/audiophile-labels-and-pressings",
+"says": "Retailer blog 'best audiophile labels' list (existence only; not independent)",
+"dept": "audiophile vinyl reissues"
+},
+{
+"n": "Audio Fidelity",
+"layer": "premium",
+"src": "https://girdermusic.com/blogs/news/audiophile-labels-and-pressings",
+"says": "Retailer blog 'best audiophile labels' list (existence only; not independent)",
+"dept": "audiophile vinyl reissues"
+},
+{
+"n": "Reference Recordings",
+"layer": "premium",
+"src": "https://girdermusic.com/blogs/news/audiophile-labels-and-pressings",
+"says": "Retailer blog 'best audiophile labels' list (existence only; not independent)",
+"dept": "audiophile vinyl reissues"
+},
+{
+"n": "Three Blind Mice",
+"layer": "premium",
+"src": "https://girdermusic.com/blogs/news/audiophile-labels-and-pressings",
+"says": "Retailer blog 'best audiophile labels' list (existence only; not independent)",
+"dept": "audiophile vinyl reissues"
+},
+{
+"n": "Chasing The Dragon",
+"layer": "premium",
+"src": "https://girdermusic.com/blogs/news/audiophile-labels-and-pressings",
+"says": "Retailer blog 'best audiophile labels' list (existence only; not independent)",
+"dept": "audiophile vinyl reissues"
 }
 ]
 }
