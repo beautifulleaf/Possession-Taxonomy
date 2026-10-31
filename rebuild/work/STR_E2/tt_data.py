@@ -33,6 +33,7 @@ TT = {
 "Exercise ball": [g("Diameter","45 cm","55 cm","65 cm","75 cm","85 cm"), g("Build","Standard","Anti-burst")],
 "Pilates reformer": [g("Setting","Studio","Home folding"), g("Resistance","Spring","Cord")],
 "Balance board": [g("Shape","Rocker","Roller board","Wobble disc","Sphere-and-ring")],
+"Vibration plate": [g("Motion","Vertical (linear)","Oscillating","Triplanar")],
 # --- Cycling kit
 "Cycling helmet": [g("Discipline","Road","Aero","Gravel or all-mountain","Mountain-bike open-face","Full-face","Urban commuter","E-bike (NTA 8776)"), g("Protection","Standard","Rotational system (MIPS or similar)")],
 "Cycling shoe": [g("Cleat fitting","3-bolt road","2-bolt mountain","Flat pedal"), g("Closure","Lace","Hook-and-loop","Dial")],

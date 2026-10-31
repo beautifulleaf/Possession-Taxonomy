@@ -68,7 +68,9 @@ def D(n, mode, t, ax, shelves, note=None, b=None):
     dp = {'n': n, 'mode': mode, 't': t, 'ax': ax}
     if note: dp['note'] = note
     if b: dp['b'] = b
-    elif 'b' in next(x for x in old['depts'] if x['n'] == n): dp['b'] = next(x for x in old['depts'] if x['n'] == n)['b']
+    else:
+        od = [x for x in old['depts'] if x['n'] == n]
+        if od and od[0].get('b'): dp['b'] = od[0]['b']
     dp['s'] = shelves
     return dp
 
