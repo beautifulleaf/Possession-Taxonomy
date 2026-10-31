@@ -1393,6 +1393,33 @@
    "country": "Japan",
    "dept": "seafood (frozen, tinned, surimi)",
    "region": ""
+  },
+  {
+   "n": "Von Iceland",
+   "layer": "cultural",
+   "src": "https://grapevine.is/mag/2023/02/15/how-its-made-hardfiskur/",
+   "says": "Reykjavík Grapevine 2023: Hafnarfjörður family firm making harðfiskur (Icelandic dried fish, sold in almost every Icelandic shop) and Crunchy Fish",
+   "country": "Iceland",
+   "dept": "dried fish (harðfiskur)",
+   "region": "Iceland (harðfiskur, Westfjords)"
+  },
+  {
+   "n": "Harðfiskverkun Finnboga",
+   "layer": "cultural",
+   "src": "https://icelandmonitor.mbl.is/news/eat_and_drink/2019/06/12/how_dried_fish_is_made",
+   "says": "Iceland Monitor (Morgunblaðið) 2019: Ísafjörður harðfiskur maker drying fish the old-fashioned way in a shed, since the mid-1980s",
+   "country": "Iceland",
+   "dept": "dried fish (harðfiskur)",
+   "region": "Iceland (harðfiskur, Westfjords)"
+  },
+  {
+   "n": "Breki",
+   "layer": "cultural",
+   "src": "https://icelandmonitor.mbl.is/news/culture_and_living/2015/01/21/dried_fish_receives_a_facelift",
+   "says": "Iceland Monitor 2015: Icelandic company relaunching harðfiskur as 80%-protein flakes and fish jerky",
+   "country": "Iceland",
+   "dept": "dried fish (harðfiskur)",
+   "region": "Iceland (harðfiskur, Westfjords)"
   }
  ],
  "add_regions": [
@@ -1641,6 +1668,37 @@
     "Caspian Monarque",
     "Dornika Caspian"
    ]
+  },
+  {
+   "region": "Iceland (harðfiskur, Westfjords)",
+   "speciality": "harðfiskur wind-dried fish; Visit Westfjords: 'part of Iceland's rich culinary heritage', racks across the Westfjords",
+   "src": "https://www.westfjords.is/en/moya/news/hardfiskur-a-taste-of-icelandic-tradition",
+   "brands": [
+    "Harðfiskverkun Finnboga",
+    "Von Iceland",
+    "Breki"
+   ]
+  },
+  {
+   "region": "Netherlands (Hollandse Nieuwe herring)",
+   "speciality": "Hollandse Nieuwe herring; AD national herring test",
+   "src": "https://www.welingelichtekringen.nl/samenleving/haringtest-ad-2016-is-een-geweldig-jaar",
+   "brands": [
+    "Vishandel Gebroeders Simonis",
+    "Vishandel Arenthals"
+   ]
+  },
+  {
+   "region": "Japan (kamaboko: Odawara, Niigata, Nanao, Nagato)",
+   "speciality": "fish-paste products; FY2018 top makers",
+   "src": "https://www.seafoodsource.com/news/premium/supply-trade/japans-top-fishcake-makers-look-abroad",
+   "brands": [
+    "Kibun Foods",
+    "Ichimasa Kamaboko",
+    "Sugiyo",
+    "Fujimitsu Corporation",
+    "Suzuhiro Kamaboko"
+   ]
   }
  ],
  "drop": [
@@ -1665,7 +1723,7 @@
    "why": "not a drop: tier 'listed' (seller praise) and its product colatura di alici is a fish-sauce-type condiment (J5 per owner's fish-sauce rule) - consider MOVE to J5"
   }
  ],
- "notes": "",
+ "notes": "Retry round focused on additions from fetched raw pages (Parallel web_fetch full_content, saved to AUDIT_J2_tmp/pages and parsed with python). Sources added: VisitScotland Arbroath Smokie Trail (10 producers), UK PFN Whitstable oysters application, Visit Lofoten + FHF (Tørrfisk fra Lofoten AS), TasteAtlas US smoked fish / Europe smoked salmon / Europe anchovies / Spain canned fish / Northern Europe preserved fish, olive magazine smoked salmon and anchovy taste tests, Falstaff smoked fish, Great Taste 3-star 2021 + Golden Fork nominees 2025/2026, Good Food Award year pages 2017-2026, Fukuoka tourism mentaiko makers, MAFF Japan GI register (fish GIs and registered groups), SeafoodSource kamaboko market ranking, Wikipedia (Kaluga Queen, Russian Caviar House, Conservas Ramirez, Cofaco, MIFCO, Fujimitsu, Maruha Nichiro, Stabburet), SNL, VLE (Vičiūnai), Lojas com História (Conserveira de Lisboa), Prior 'Tin Town', SheerLuxe London fishmongers, Sydney Royal oyster results, Michelin Thailand (Bang Bo gourami), HKTB QTS (Shing Lung Hong), Slow Food Presidio Cabras bottarga, AD Haringtest, Iceland Monitor/Grapevine harðfiskur. Region designations (DESIGNATION AS RENOWN): Arbroath Smokies PGI, Whitstable oysters PFN, Tørrfisk fra Lofoten PGI, London cure smoked salmon PGI and Grimsby traditional smoked fish PGI (named on pages), Japan GIs: Lake Hamanako Unagi, Makurazaki/Ibusuki Katsuobushi, Shimonoseki Fuku, Echizen Gani, Wakasa Obama Kodai Sasazuke, Miyagi Salmon, Iwate Nodamura Araumi Hotate, Hamanaka Youshoku Uni, Awajishima 3nen Torafugu, Toyoshima Tachiuo, Jusanko Yamato Shijimi (further fish GIs on the MAFF list without fetched group pages: Lake Ogawara and Lake Shinji clams, Abashiri clams, Hirotawan Ishikagegai, Tanoura Gindachi, Ono Asari). Owner decision applied: Kalles = J2 (via register row Abba). Sea vegetables (Good Food Award kelp/seaweed winners: Atlantic Sea Farms, Barnacle Foods, Daybreak Seaweed, Kelpful, Maine Coast Sea Vegetables, Smithereen Farm, Soba Mill furikake) deliberately NOT added. Blind spots after this round: West African smoked/dried fish (only FAO/NGO pages, no named makers or sellers: artisanal women processors, REGIONS ARE NOT QUOTAS); Peru/Chile (industry is fishmeal and commodity canning; Florida/Compass brands only in food-safety news, Camanchaca/Austral trade press only - not added); Russia (Russian Caviar House only); Poland (Koral, Suempol located only in directories, not added); Korea (Yeonggwang gulbi and Ganggyeong jeotgal regions confirmed, but only two 1996 market merchants named; no maker page fetched); Philippines (Barrio Fiesta only; Cebu Taboan danggit sellers located in travel pages not fetched); Indonesia terasi, Vietnam, India (Bombay duck), China mainland (Zhoushan, Dalian sea cucumber), Turkey (lakerda), Greece, Mexico (Dolores is a redlink in Wikipedia's Mexilink article), Morocco (one directory row), Chile; Great Taste full winners table (official site not fetched; only 2021 3-star and Golden Fork nominee lists); Serious Eats winner not visible in raw fetch (truncated to 9 contenders); Gambero Rosso bottarga ranking blocked (403). Fetch caveat: Parallel raw full_content for Serious Eats, Food & Wine and Wirecutter returns only a few lines; those names were confirmed with excerpt-mode fetches. Firecrawl credits exhausted during this run.",
  "tier_fixes": [
   {
    "n": [
