@@ -107,6 +107,33 @@
    ],
    "found": 1,
    "note": "collective only"
+  },
+  {
+   "axis": "kind",
+   "item": "Salted, dried & fermented fish > Dried fish (Katsuobushi)",
+   "queries": [
+    "Makurazaki katsuobushi association producers Kagoshima"
+   ],
+   "found": 3,
+   "note": "GI group + three makers"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia (Korea gim)",
+   "queries": [
+    "Korean gim laver brands Wando Gwangcheon"
+   ],
+   "found": 0,
+   "note": "gim is sea vegetable, not in J2 kinds; jeotgal makers not surfaced"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Sealord Sanford New Zealand green-lipped mussel brand"
+   ],
+   "found": 2,
+   "note": "Tasmania covered by earlier Huon/Tassal"
   }
  ],
  "regions": [
@@ -187,6 +214,34 @@
    "src": "https://petrossian.com/",
    "brands": [
     "Petrossian"
+   ]
+  },
+  {
+   "region": "Japan (Makurazaki, Kagoshima)",
+   "speciality": "Katsuobushi; Japan GI No.168; ~40% of national output; 300+ years",
+   "src": "https://n-asamori.jp/english",
+   "brands": [
+    "Nishimura Asamori Shoten",
+    "Marumo (Makurazaki katsuobushi)",
+    "Tateaki Suisan",
+    "Yamahide"
+   ]
+  },
+  {
+   "region": "New Zealand",
+   "speciality": "Greenshell (green-lipped) mussels, King salmon",
+   "src": "https://www.sanford.co.nz/operations/aquaculture/mussels",
+   "brands": [
+    "Sanford (New Zealand)",
+    "Talley's"
+   ]
+  },
+  {
+   "region": "Italy (Lombardy)",
+   "speciality": "Farmed sturgeon caviar (Ticino Park)",
+   "src": "https://www.calvisius.com/caviar",
+   "brands": [
+    "Calvisius"
    ]
   }
  ],
@@ -340,6 +395,96 @@
    "new_names": 1,
    "status": "done",
    "note": "PGI + Label Rouge; individual producers not listed on this page"
+  },
+  {
+   "url": "https://www.maff.go.jp/e/policies/intel/gi_act/register/250715_3.html",
+   "title": "MAFF GI No.168 Makurazaki Katsuobushi",
+   "kind": "pdo",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "GI group only; producers not listed"
+  },
+  {
+   "url": "https://n-asamori.jp/english",
+   "title": "Nishimura Asamori",
+   "kind": "award",
+   "years": "quadrennial National Katsuobushi Competition",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://tateaki.co.jp/en",
+   "title": "Tateaki Suisan",
+   "kind": "award",
+   "years": "1993,2008",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://kk-marumo.co.jp/wp/wp-content/uploads/2021/06/marumo_brochure_en.pdf",
+   "title": "Marumo brochure",
+   "kind": "heritage",
+   "years": "1928",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.kckim.com/about-us-2?lang=en",
+   "title": "KwangcheonKim",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Korean seasoned laver: sea vegetables, outside J2 kinds list; not recorded as J2 brand (flag for sea-vegetable category)"
+  },
+  {
+   "url": "https://www.sanford.co.nz/operations/aquaculture/mussels",
+   "title": "Sanford mussels",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.talleys.co.nz/",
+   "title": "Talley's",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.calvisius.com/caviar",
+   "title": "Calvisius",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "CITES"
+  },
+  {
+   "url": "https://conservaslagopaganini.com/en",
+   "title": "Lago Paganini",
+   "kind": "heritage",
+   "years": "1915",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -1183,6 +1328,71 @@
    "says": "Producers' quality group for Marennes Oléron oysters: PGI (EU 2009) and two Label Rouge (Fines de Claires Vertes 1989, Pousse en Claire 1999)",
    "country": "France",
    "dept": "oysters",
+   "already": false
+  },
+  {
+   "n": "Nishimura Asamori Shoten",
+   "layer": "premium",
+   "src": "https://n-asamori.jp/english",
+   "says": "Makurazaki katsuobushi maker est. 1950; National Katsuobushi Competition: Minister of Agriculture, Forestry and Fisheries Award x2, Fisheries Agency Commissioner Award x4",
+   "country": "Japan",
+   "dept": "katsuobushi",
+   "already": false
+  },
+  {
+   "n": "Marumo (Makurazaki katsuobushi)",
+   "layer": "cultural",
+   "src": "https://kk-marumo.co.jp/wp/wp-content/uploads/2021/06/marumo_brochure_en.pdf",
+   "says": "Marumo Co., Ltd., katsuobushi maker in Makurazaki since 1928 (Oshige Morizo Shoten)",
+   "country": "Japan",
+   "dept": "katsuobushi",
+   "homonym": true,
+   "already": false
+  },
+  {
+   "n": "Tateaki Suisan",
+   "layer": "premium",
+   "src": "https://tateaki.co.jp/en",
+   "says": "Makurazaki bushi maker (founded 1947); Minister of Agriculture, Forestry and Fisheries Award 1993 and 2008 for kare-wari sababushi",
+   "country": "Japan",
+   "dept": "dried mackerel bushi",
+   "already": false
+  },
+  {
+   "n": "Makurazaki Marine Products Processing Industries Cooperative",
+   "layer": "cultural",
+   "src": "https://www.maff.go.jp/e/policies/intel/gi_act/register/250715_3.html",
+   "says": "Registered group of Japan GI No.168 Makurazaki Katsuobushi",
+   "country": "Japan",
+   "dept": "katsuobushi",
+   "already": false
+  },
+  {
+   "n": "Sanford (New Zealand)",
+   "layer": "cultural",
+   "src": "https://www.sanford.co.nz/operations/aquaculture/mussels",
+   "says": "NZ's oldest integrated seafood company; >40% of national Greenshell mussel harvest",
+   "country": "New Zealand",
+   "dept": "mussels, salmon",
+   "homonym": true,
+   "already": false
+  },
+  {
+   "n": "Talley's",
+   "layer": "cultural",
+   "src": "https://www.talleys.co.nz/",
+   "says": "Family-run NZ seafood company since ~1930s Motueka; Greenshell mussels and wild fish",
+   "country": "New Zealand",
+   "dept": "mussels, fish",
+   "already": false
+  },
+  {
+   "n": "Conservas Lago Paganini",
+   "layer": "cultural",
+   "src": "https://conservaslagopaganini.com/en",
+   "says": "Galician canner using traditional methods since 1915 (mussels, bluefish, Balea range)",
+   "country": "Spain",
+   "dept": "tinned shellfish and fish",
    "already": false
   }
  ]

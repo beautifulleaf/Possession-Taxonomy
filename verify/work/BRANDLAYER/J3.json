@@ -216,6 +216,43 @@
     "Alpura",
     "Chilchota Alimentos"
    ]
+  },
+  {
+   "region": "Po Valley, Italy (Lombardy, Veneto, Piedmont, Emilia-Romagna, Trentino; 33 provinces)",
+   "speciality": "Grana Padano DOP",
+   "src": "https://www.parmigianoreggiano.com/it/prodotto-guida-parmigiano-reggiano-grana-padano",
+   "brands": [
+    "Bongetta Formaggi",
+    "Lattebusche"
+   ]
+  },
+  {
+   "region": "Parma, Reggio Emilia, Modena, parts of Mantua and Bologna, Italy",
+   "speciality": "Parmigiano Reggiano DOP",
+   "src": "https://www.parmigianoreggiano.com/it/prodotto-guida-parmigiano-reggiano-grana-padano",
+   "brands": []
+  },
+  {
+   "region": "Gruyères / Fribourg, Vaud, Jura, Neuchâtel, Bern, Switzerland",
+   "speciality": "Gruyère AOP (160+ village dairies, 11 affineurs)",
+   "src": "https://www.gruyere.com/fabrication/les-acteurs-de-la-filiere",
+   "brands": [
+    "Fromage Gruyère SA",
+    "Mifroma",
+    "Gourmino"
+   ]
+  },
+  {
+   "region": "Jura massif (Doubs, Jura, Ain), France",
+   "speciality": "Comté AOP, fruitière cooperatives (~140 dairies)",
+   "src": "https://www.inao.gouv.fr/node/39338/printable/print",
+   "brands": []
+  },
+  {
+   "region": "Haute-Savoie and Val d'Arly, France",
+   "speciality": "Reblochon de Savoie AOP",
+   "src": "https://www.reblochon.fr/en/the-reblochon-pdo/specifications",
+   "brands": []
   }
  ],
  "sources": [
@@ -428,6 +465,86 @@
    "new_names": 4,
    "status": "done",
    "note": " 0 known"
+  },
+  {
+   "url": "https://www.granapadano.it/it-it/il-consorzio-di-tutela/i-protagonisti-i-consorziati/",
+   "title": "Grana Padano consortium members (partial excerpt)",
+   "kind": "pdo",
+   "years": "2023-",
+   "status": "partial",
+   "note": "only 8 members visible in excerpt mode 0 known",
+   "names_on_page": 8,
+   "new_names": 8
+  },
+  {
+   "url": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "title": "Parmigiano Reggiano consortium: Caseifici Aperti 2025 map (53 member dairies)",
+   "kind": "pdo",
+   "years": "2025",
+   "status": "partial",
+   "note": "53 of ~282 dairies; full register search page is dynamic 0 known",
+   "names_on_page": 52,
+   "new_names": 51
+  },
+  {
+   "url": "https://www.gruyere.com/fabrication/les-acteurs-de-la-filiere/les-affineurs",
+   "title": "Le Gruyère AOP interprofession: affineurs",
+   "kind": "pdo",
+   "years": "n/a",
+   "status": "done",
+   "names_on_page": 11,
+   "new_names": 7,
+   "note": " 2 known"
+  },
+  {
+   "url": "https://www.camembert-museum.com/pages/departements/74-haute-savoie",
+   "title": "Camembert Museum: dairies of Haute-Savoie (historic directory)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "status": "done",
+   "note": "mostly historic; kept only those tagged Reblochon AOP fermier 0 known",
+   "names_on_page": 7,
+   "new_names": 7
+  },
+  {
+   "url": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "title": "culture magazine: World Cheese Awards 2019 Super Gold winners",
+   "kind": "award",
+   "years": "2019",
+   "status": "done",
+   "names_on_page": 65,
+   "new_names": 56,
+   "note": " 3 known"
+  },
+  {
+   "url": "https://perishablenews.com/deli/the-world-cheese-awards-2022-results-are-in-including-world-champion-cheese-2022/",
+   "title": "Perishable News: World Cheese Awards 2022 results",
+   "kind": "award",
+   "years": "2022",
+   "status": "partial",
+   "note": "only a few producer names in excerpt; top 16 list not fully shown 1 known",
+   "names_on_page": 5,
+   "new_names": 1
+  },
+  {
+   "url": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "title": "Good Food Awards 2026 cheese winners (blind tasting)",
+   "kind": "award",
+   "years": "2026",
+   "status": "partial",
+   "note": "further years pending in notes 0 known",
+   "names_on_page": 15,
+   "new_names": 13
+  },
+  {
+   "url": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "title": "Good Food Awards cheese winners 2023, 2024, 2025 (blind tasting; also /2023/cheese, /2025/cheese)",
+   "kind": "award",
+   "years": "2023-2025",
+   "status": "partial",
+   "note": "2011-2022 years still to do; 2022 partly seen (regional pages) 1 known",
+   "names_on_page": 16,
+   "new_names": 15
   }
  ],
  "brands": [
@@ -2446,6 +2563,1270 @@
    "says": "listed in Wikipedia Category:Dairy products companies of Italy",
    "country": "Italy",
    "dept": ""
+  },
+  {
+   "n": "Santangiolina Latte Fattorie Lombarde",
+   "layer": "cultural",
+   "src": "https://www.granapadano.it/it-it/il-consorzio-di-tutela/i-protagonisti-i-consorziati/",
+   "says": "Grana Padano DOP consortium member",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Agricola Primavera",
+   "layer": "cultural",
+   "src": "https://www.granapadano.it/it-it/il-consorzio-di-tutela/i-protagonisti-i-consorziati/",
+   "says": "Grana Padano DOP consortium member",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Bresciangrana",
+   "layer": "cultural",
+   "src": "https://www.granapadano.it/it-it/il-consorzio-di-tutela/i-protagonisti-i-consorziati/",
+   "says": "Grana Padano DOP consortium member",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Lattebusche",
+   "layer": "cultural",
+   "src": "https://www.granapadano.it/it-it/il-consorzio-di-tutela/i-protagonisti-i-consorziati/",
+   "says": "Grana Padano DOP consortium member",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Gruppo Formaggi del Trentino",
+   "layer": "cultural",
+   "src": "https://www.granapadano.it/it-it/il-consorzio-di-tutela/i-protagonisti-i-consorziati/",
+   "says": "Grana Padano DOP consortium member",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Bongetta Formaggi",
+   "layer": "cultural",
+   "src": "https://www.granapadano.it/it-it/il-consorzio-di-tutela/i-protagonisti-i-consorziati/",
+   "says": "Grana Padano DOP consortium member",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseifici Granterre",
+   "layer": "cultural",
+   "src": "https://www.granapadano.it/it-it/il-consorzio-di-tutela/i-protagonisti-i-consorziati/",
+   "says": "Grana Padano DOP consortium member",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Gardoni",
+   "layer": "cultural",
+   "src": "https://www.granapadano.it/it-it/il-consorzio-di-tutela/i-protagonisti-i-consorziati/",
+   "says": "Grana Padano DOP consortium member",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Consorzio Vacche Rosse",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Villa Curta",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Antica Fattoria Caseificio Scalabrini",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Sociale San Giorgio",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Rossi Fratelli",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Sociale Castellazzo",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Sociale Nuova Lago Razza",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Sociale San Girolamo",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Sociale Collina",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "La Grande Castelnovo Sotto",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio San Simone dal 1902",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Boiardo Matilde di Canossa",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Sociale del Parco",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Bio Reggiani",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Antica Latteria Ducale",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "La Cappelletta di San Possidonio",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Rosola di Zocca",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Azienda Agricola Moscattini",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "4 Madonne Caseificio dell'Emilia",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria di Campogalliano",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Bucamante",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Oratorio San Giorgio",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Dismano",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Vo' Grande",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Sociale Gonfo",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Fienilnuovo",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Agricola Begozzo",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Agricola Mogliese",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Il Battistero",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Giansanti",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Parma 2064",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Valserena",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Sociale Santo Stefano",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio La Madonnina",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Il Trionfo Caseificio",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Cooperativa Sociale di Soragna",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Ugolotti",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Sociale La Medesanese",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Saliceto",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Azienda Agricola Iris",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Basilicanova",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Montauro",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Agrizoo",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "La Crocetta Cacciali",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Bertinelli Gianni e Nicola",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Sociale San Pier Damiani",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Sociale Val d'Enza",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Butteri",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Bazzanese",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Sociale Canevaccia",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Fior di Latte Caseificio Sociale",
+   "layer": "cultural",
+   "src": "https://backend.parmigianoreggiano.com/uploads/Parmigiano_Reggiano_Mappa_Caseifici_Aperti_10_X10_cm_LOW_c522c4330d.pdf",
+   "says": "Parmigiano Reggiano DOP dairy in consortium open-dairies 2025 list",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Coopérative fribourgeoise des fromages d'alpage",
+   "layer": "cultural",
+   "src": "https://www.gruyere.com/fabrication/les-acteurs-de-la-filiere/les-affineurs",
+   "says": "Gruyère AOP affineur listed by the Interprofession du Gruyère",
+   "country": "Switzerland",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Fromage Gruyère SA",
+   "layer": "cultural",
+   "src": "https://www.gruyere.com/fabrication/les-acteurs-de-la-filiere/les-affineurs",
+   "says": "Gruyère AOP affineur listed by the Interprofession du Gruyère",
+   "country": "Switzerland",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Fromco",
+   "layer": "cultural",
+   "src": "https://www.gruyere.com/fabrication/les-acteurs-de-la-filiere/les-affineurs",
+   "says": "Gruyère AOP affineur listed by the Interprofession du Gruyère",
+   "country": "Switzerland",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Intercheese",
+   "layer": "cultural",
+   "src": "https://www.gruyere.com/fabrication/les-acteurs-de-la-filiere/les-affineurs",
+   "says": "Gruyère AOP affineur listed by the Interprofession du Gruyère",
+   "country": "Switzerland",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Lustenberger & Dürst",
+   "layer": "cultural",
+   "src": "https://www.gruyere.com/fabrication/les-acteurs-de-la-filiere/les-affineurs",
+   "says": "Gruyère AOP affineur listed by the Interprofession du Gruyère",
+   "country": "Switzerland",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Margot Fromages",
+   "layer": "cultural",
+   "src": "https://www.gruyere.com/fabrication/les-acteurs-de-la-filiere/les-affineurs",
+   "says": "Gruyère AOP affineur listed by the Interprofession du Gruyère",
+   "country": "Switzerland",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Milka Käse",
+   "layer": "cultural",
+   "src": "https://www.gruyere.com/fabrication/les-acteurs-de-la-filiere/les-affineurs",
+   "says": "Gruyère AOP affineur listed by the Interprofession du Gruyère",
+   "country": "Switzerland",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "GAEC de la Vallée Blanche (Clavel Frères)",
+   "layer": "cultural",
+   "src": "https://www.camembert-museum.com/pages/departements/74-haute-savoie",
+   "says": "listed as Reblochon AOP farm producer in Haute-Savoie dairies directory",
+   "country": "France",
+   "dept": "Washed-rind cheese"
+  },
+  {
+   "n": "Les Délices Savoyards (Hudry)",
+   "layer": "cultural",
+   "src": "https://www.camembert-museum.com/pages/departements/74-haute-savoie",
+   "says": "listed as Reblochon AOP farm producer in Haute-Savoie dairies directory",
+   "country": "France",
+   "dept": "Washed-rind cheese"
+  },
+  {
+   "n": "GAEC Le Vieux Village (Pernet-Sollier)",
+   "layer": "cultural",
+   "src": "https://www.camembert-museum.com/pages/departements/74-haute-savoie",
+   "says": "listed as Reblochon AOP farm producer in Haute-Savoie dairies directory",
+   "country": "France",
+   "dept": "Washed-rind cheese"
+  },
+  {
+   "n": "La Ferme des Belles Violettes",
+   "layer": "cultural",
+   "src": "https://www.camembert-museum.com/pages/departements/74-haute-savoie",
+   "says": "listed as Reblochon AOP farm producer in Haute-Savoie dairies directory",
+   "country": "France",
+   "dept": "Washed-rind cheese"
+  },
+  {
+   "n": "Fruitière de Vers",
+   "layer": "cultural",
+   "src": "https://www.camembert-museum.com/pages/departements/74-haute-savoie",
+   "says": "listed as Reblochon AOP farm producer in Haute-Savoie dairies directory",
+   "country": "France",
+   "dept": "Washed-rind cheese"
+  },
+  {
+   "n": "Fromagerie Duparc",
+   "layer": "cultural",
+   "src": "https://www.camembert-museum.com/pages/departements/74-haute-savoie",
+   "says": "listed as Reblochon AOP farm producer in Haute-Savoie dairies directory",
+   "country": "France",
+   "dept": "Washed-rind cheese"
+  },
+  {
+   "n": "La Savoyarde du Reblochon",
+   "layer": "cultural",
+   "src": "https://www.camembert-museum.com/pages/departements/74-haute-savoie",
+   "says": "listed as Reblochon AOP farm producer in Haute-Savoie dairies directory",
+   "country": "France",
+   "dept": "Washed-rind cheese"
+  },
+  {
+   "n": "Cerney Cheese",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "UK",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Carozzi Formaggi",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Etyeki Kecskesajt Manufaktúra",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Hungary",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Lavialattea",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Casale Roccolo",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Quesos Sierra Sur",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Almenland Stollenkäse",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Austria",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Formatgeries Montbrú",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Lega",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Norway",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Francisco Morán e Hijos",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Arnoldi Valtaleggio",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Caseificio Storico Amatrice F.lli Petrucci",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Jerriaise d'Or Goat Farm",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Jersey",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Nasu no Mori",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Japan",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Don Merendón (Quesos Parra Jiménez)",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Quesería Entrepinares",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Castelli UK",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Lácteos Martínez Los Cameros",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Les Fromages du Moulin (Rodolphe Le Meunier)",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "France",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Quesos Artesanos Villarejo",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Quesos El Bosqueño",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Caseificio Val d'Orcia",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Caseificio Cugusi Silvana",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Quesos Vega Sotuelamos",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Sierra Nevada Cheese Company",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Latteria Centro Rubbianino",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Latteria Sociale Garfagnolo",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Quesería Doña Francisca",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "De Fryske",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Netherlands",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Käserei Studer",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Switzerland",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Molkerei Davos",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Switzerland",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Berglandmilch",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Austria",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Son Vives",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Sartori Company",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Ashley Chase Estate",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "UK",
+   "dept": "Cheese"
+  },
+  {
+   "n": "FireFly Farms",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Emilio Mauri",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Laiteries H. Triballat",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "France",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Traditional Cheese Co",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Ireland",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Quesería Sarrianas",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Two Hoots Cheese",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "UK",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Carr Valley Cheese",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "High Weald Dairy",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "UK",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Carron Lodge",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "UK",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Queso Quintana",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Furore",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Austria",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Cetra Alimentari",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Switzerland",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Delizia",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Italy",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Iberqués Extremadura",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Quesos Subaida",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Spain",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Agrolaguna",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Croatia",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Tenacres Cheese",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "UK",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Käserei Flüeler",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Switzerland",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Zijerveld",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "Netherlands",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Roth Cheese",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Saputo Cheese USA",
+   "layer": "premium",
+   "src": "https://culturecheesemag.com/awards/2019-world-cheese-awards-super-gold-winners",
+   "says": "Super Gold, World Cheese Awards 2019 (Bergamo; juried)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Vorderfultigen",
+   "layer": "premium",
+   "src": "https://perishablenews.com/deli/the-world-cheese-awards-2022-results-are-in-including-world-champion-cheese-2022/",
+   "says": "World Champion Cheese 2022 (Le Gruyère AOP surchoix)",
+   "country": "Switzerland",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Backyard Buffalo",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Bellwether Farms",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Black Radish Creamery",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Blackberry Farm",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Brush Creek Creamery",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Cascadia Creamery",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Green Dirt Farm",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "High Lawn Farm",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Perrystead Dairy",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Point Reyes Farmstead Cheese",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Sach Foods",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Samish Bay Cheese",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Woodlawn Creamery",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2026/cheese",
+   "says": "Good Food Awards cheese winner 2026 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Briar Rose Creamery",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Cherry Grove Farm",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Pennyroyal Farm",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Spring Brook Farm Cheese",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "St. Isidore's Dairy",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "The Grey Barn and Farm",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Tomales Farmstead Creamery",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Tulip Tree Creamery",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Working Cows Dairy",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Boxcarr Handmade Cheese",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Capriole",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "CheeseSmith Artisan Creamery",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Landmark Creamery",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Nettle Meadow",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "The Mystic Cheese Company",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "says": "Good Food Awards cheese winner 2023-2025 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
   }
  ]
 }
