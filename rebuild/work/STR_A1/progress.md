@@ -5,3 +5,4 @@ step3: dsl.py written; writing spec_a.py (tops..coats), spec_b.py (suits..workwe
 step4: spec_a, spec_a2 written (Tops..Coats)
 step5: cricket src ok; dropped american football jersey (unsourced)
 step6: spec_b first part (suits..scarves) written
+step7: spec_c (traditional, workwear) written; next build.py

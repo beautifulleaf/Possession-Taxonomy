@@ -171,7 +171,7 @@ def shelf(n, t, ax, names):
 
 depts = []
 depts.append({'n': 'Locks & door security', 'mode': 'mixed',
- 't': 'Locks, bolts, padlocks and deterrents that keep a door, window, gate or shed shut or show who is outside; a lock kept as a collectable or for practice → Locksport & lock collecting; a box for valuables → Safes & key boxes.',
+ 't': 'Locks, bolts, padlocks and deterrents that keep a door, window, gate or shed shut; a collectable or practice lock → Locksport & lock collecting; a box for valuables → Safes & key boxes.',
  'ax': 'Where is the protection fitted: built into the door, added onto a door or window, carried on a padlock, or placed around the property?',
  's': [
   shelf('Door & cabinet locks', 'Lock bodies, cylinders and electronic locks built into a door, gate or cabinet, such as mortice locks, deadbolts and smart locks; a bolt or bar added on the surface → Add-on door, window & gate security.',
