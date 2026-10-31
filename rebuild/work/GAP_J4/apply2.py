@@ -76,7 +76,7 @@ tail=re.compile(r"(Complete: \d+ of \d+ in Wikipedia's List of (tomato|Capsicum)
 def cov(kn,n):
     c={'Tomato':"Complete: %d of %d in Wikipedia's List of tomato cultivars (table rows and sidebar names, read to the end, 2026-10-31).",
     'Chilli':"Complete: %d of %d in Wikipedia's List of Capsicum cultivars (cultivar lists by species and index, read to the end, 2026-10-31).",
-    'Pear':"Complete: %d of %d in the cultivar table of Wikipedia's List of pear cultivars (read to the end, 2026-10-31), plus protected-origin names; the table has about 165 rows, the rest are fewer than the table because of aliases already held.",
+    'Pear':"Complete: %d of %d in the cultivar table of Wikipedia's List of pear cultivars (read to the end, 2026-10-31), plus protected-origin names.",
     'Mango':"Complete: %d of %d cultivars named in Wikipedia's List of mango cultivars by country (read to the end, 2026-10-31), plus protected-origin names.",
     'Table grape':"Complete: %d of %d in the table-grape sections of Wikipedia's List of grape varieties (read to the end, 2026-10-31), plus protected-origin names and club varieties.",
     'Sweet potato':"Complete for the edible-root table: %d of %d in Wikipedia's List of sweet potato cultivars (133 edible-root rows, read to the end; 29 ornamental vines left out as not food), plus protected-origin names.",

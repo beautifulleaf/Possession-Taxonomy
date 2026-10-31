@@ -31,7 +31,7 @@ B('Chipita','Sweet biscuits',MD,'Greece','Greek baked-snack maker, acquisition c
 B('McVitie\'s Digestive','Digestive & plain biscuit',PL,'United Kingdom','Best-selling biscuit in the UK; secret recipe by Sir Alexander Grant.','PLA','',  'National champion'),
 B('McVitie\'s Rich Tea','Digestive & plain biscuit',PL,'United Kingdom','Light plain biscuit.','PLA'),
 B('Hobnobs','Digestive & plain biscuit',PL,'United Kingdom','Rolled-oat biscuit introduced 1985.','PLA'),
-B('Jacob\'s','Cream cracker',PL,'Ireland','Waterford biscuit maker, 1851.','PLA',y='1851'),
+B('Jacob\'s','Water biscuit & cream cracker',PL,'Ireland','Waterford biscuit maker, 1851.','PLA',y='1851'),
 B('Carr\'s','Water biscuit & cream cracker',PL,'United Kingdom','Cracker maker.','PLA'),
 B('Verkade','Chocolate-coated biscuit',PL,'Netherlands','Zaandam chocolate and biscuit maker, 1886.','PLA',y='1886'),
 B('Go Ahead','Sweet biscuits',PL,'United Kingdom','Fruit-filled biscuit bar.','PLA'),
