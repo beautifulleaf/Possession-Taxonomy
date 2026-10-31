@@ -8,3 +8,4 @@ step6: edit3 coverage+brands done; next report
 ROUND2 start: fetch List of circulating currencies
 ROUND2 step1: fetched circulating currencies list (offsets 0, 90000, complete to end). next: write currency entries
 ROUND2 step2: currencies added (edit4: +145 coin, +145 note). next: coverage-line fix, definitive stamps, G20 orders
+ROUND2 step3: fetched G20 OD&M articles (Brazil, Germany FRG, Argentina, Australia, Canada, China, India, Indonesia, Italy, Mexico, Russia, Saudi, S.Africa, S.Korea, Turkey); next write awards.txt + edit5
