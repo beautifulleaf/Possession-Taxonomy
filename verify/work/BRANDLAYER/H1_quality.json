@@ -1,0 +1,55 @@
+{
+ "cat": "H1",
+ "part": "quality",
+ "status": "partial",
+ "brand_led": true,
+ "sweeps": [],
+ "regions": [],
+ "sources": [
+  {
+   "url": "https://www.allure.com/story/best-of-beauty-2025-all-winners-index",
+   "title": "Allure 2025 Best of Beauty all winners index",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "partial",
+   "note": "JURIED (quality). Parallel fetch returns only first table row (Bobbi Brown, known); WebFetch blocked for allure.com; Firecrawl out of credits. Search excerpts named Joey Healy and Prequel (unfetched, not recorded: candidate leads)."
+  },
+  {
+   "url": "http://allure.com/story/best-of-beauty-skin-care-product-winners-2025",
+   "title": "Allure Best of Beauty 2025 skin-care winners",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 2,
+   "new_names": 0,
+   "status": "partial",
+   "note": "juried; excerpt shows iS Clinical, SkinCeuticals (both known)"
+  },
+  {
+   "url": "https://www.allure.com/story/best-of-beauty-2026-skin-care-product-winners",
+   "title": "Allure Best of Beauty 2026 skin-care winners",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "partial",
+   "note": "juried; Beauty of Joseon, Inkey List, Youth to the People, Centellian 24 all known. Other 2026 pages: /best-of-beauty-2026-winners/{lips,base,skin,hair} (seen in search, untried)."
+  },
+  {
+   "url": "https://business.hwahae.co.kr/insight/hwahae-awards-2025-h2-winners/",
+   "title": "Hwahae Awards 2025 H2 winners",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "READER-DATA awards (cultural). Page links winners to a Google Sheet only; no names fetched. Yearly pages exist for 2021-2026 H1 on business.hwahae.co.kr."
+  }
+ ],
+ "brands": [],
+ "next": [
+  "Tooling constraint: Parallel excerpt mode returns 1-4 lines per page; allure.com blocked in WebFetch; Firecrawl 0 credits; full_content true returned empty. A run with a working raw fetch should retry Allure category pages (2025/2026 hair, base, lips, eyes, sensitive, splurges, steals, clean, breakthroughs) and earlier years, then Cosmopolitan UK, Marie Claire Prix d'Excellence, Elle, Olive Young, @cosme, Nykaa Femina, Glamour, Byrdie Eco, Pure Beauty, CEW, Which?, Stiftung Warentest/Oeko-Test, Choice sunscreen, Good Housekeeping, Skin Cancer Foundation Seal.",
+  "Leads from search excerpts only (unfetched): Joey Healy, Prequel (new vs register), Poppy & Pout (pending in retail)."
+ ]
+}

@@ -18,3 +18,5 @@ Collected from BRANDLAYER and retailer work; one line per page, with why it matt
 | A1–B5 | Italian Marchi Storici register (category view) | database only | historic Italian makers in every category |
 | J2, J4, J5, J8 | EU eAmbrosia register of PDO/PGI names (fish, fruit and vegetables, olive oils, bakery) — or its CSV export | JavaScript app, empty to every fetcher | protected-name lists |
 | J7 | IDAC 2019 press kit PDF (Normandy cider, perry and pommeau appellations) | all fetchers fail | appellation list |
+| H1 | Allure Best of Beauty winners pages (all categories, any years) | allure.com returns 1–4 lines to every fetcher | juried beauty awards |
+| H1 | Hwahae Awards winners (the Google Sheet linked from the awards page) | sheet not readable by fetchers | Korean skincare awards |
