@@ -20,3 +20,4 @@ Rules for the enrichment pass:
 - CROSS-TAG REVIEW (coordinator, later): C2 overlaps flagged by VERIFY_C2 — Kingsford/Big K (barbecue fuel), Kubota, BCS, Gravely, Pellenc (garden machinery), Keter (planters): add C2 tags if their C2 products are confirmed.
 - MOVES: verify agents may write MOVES_<C>.json ({"to":{CODE:[verified brands]}}) for brands that belong in another category; feed them to that category's harvest as ALREADY KNOWN and merge them with its verify (C8 → G3 sanitaryware/taps/flooring, B8 locks).
 - INDEX CLEANUP: Ferrari (cars/fragrance) and Deutz (champagne) rows carry a C7 tag meant for the tractor makers; remove it (VERIFY_C7 creates Ferrari (tractors) and Deutz-Fahr).
+- C5 open questions (coordinator, index cleanup): Uni-ball vs Mitsubishi Pencil rows (brand of that maker: add rel), Helix (now Maped), Wahl-Eversharp vs Eversharp, Camlin vs Camel (same Kokuyo Camlin company: link with rel).

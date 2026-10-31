@@ -1,0 +1,981 @@
+{
+ "cat": "D4",
+ "status": "partial",
+ "brand_led": true,
+ "sweeps": [],
+ "regions": [],
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "title": "Category:Lens manufacturers - Wikipedia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 53,
+   "new_names": 16,
+   "status": "done",
+   "note": "Rodenstock, Zeiss, Schneider etc known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "title": "Category:Movie camera manufacturers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 21,
+   "new_names": 14,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Photographic_flashes_by_brand",
+   "title": "Category:Photographic flashes by brand",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 10,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Photographic_film_manufacturers",
+   "title": "Category:Photographic film manufacturers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 23,
+   "new_names": 5,
+   "status": "done",
+   "note": "from search result listing of the fetched category; ADOX, Ilford, Foma, ORWO, Bergger, Ferrania etc already known"
+  },
+  {
+   "url": "https://www.tipa.com/archive-search",
+   "title": "TIPA World Awards archive",
+   "kind": "award",
+   "years": "1991-2026",
+   "names_on_page": 150,
+   "new_names": 15,
+   "status": "partial",
+   "note": "manufacturer dropdown only; product pages not fetched. Known confirmed: Canon Nikon Sony Fujifilm Sigma etc."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "title": "List of photographic equipment makers - Wikipedia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 493,
+   "new_names": 56,
+   "status": "done",
+   "note": "only linked rows with own articles taken; saved raw in D4_tmp/wp_list.txt"
+  },
+  {
+   "url": "https://gearjunkie.com/technology/camera/best-camera-backpack",
+   "title": "GearJunkie best camera backpacks 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 11,
+   "new_names": 4,
+   "status": "done",
+   "note": "Peak Design, Shimoda, Lowepro, Manfrotto known"
+  },
+  {
+   "url": "https://www.cnet.com/tech/computing/best-tripod-for-photos-and-video",
+   "title": "CNET best tripod",
+   "kind": "ranking",
+   "years": "2024-2026",
+   "names_on_page": 7,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.digitalcameraworld.com/buying-guides/best-variable-nd-filters",
+   "title": "Digital Camera World best variable ND filters",
+   "kind": "ranking",
+   "years": "2022-2026",
+   "names_on_page": 10,
+   "new_names": 6,
+   "status": "done",
+   "note": "Hoya, Kenko known"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Angénieux",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "France",
+   "dept": "cine lenses"
+  },
+  {
+   "n": "Century Precision Optics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "USA",
+   "dept": "lenses"
+  },
+  {
+   "n": "Charles Frank",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "UK",
+   "dept": "lenses"
+  },
+  {
+   "n": "Chinon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "Japan",
+   "dept": "cameras"
+  },
+  {
+   "n": "Cooke Optics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "UK",
+   "dept": "cine lenses"
+  },
+  {
+   "n": "Cosina",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "Japan",
+   "dept": "lenses and cameras"
+  },
+  {
+   "n": "Dallmeyer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "UK",
+   "dept": "lenses"
+  },
+  {
+   "n": "Meyer Optik Görlitz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "Germany",
+   "dept": "lenses"
+  },
+  {
+   "n": "Leidolf",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "Germany",
+   "dept": "lenses"
+  },
+  {
+   "n": "K. G. Corfield",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "UK",
+   "dept": "cameras"
+  },
+  {
+   "n": "Noblex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "Germany",
+   "dept": "panoramic cameras"
+  },
+  {
+   "n": "Soligor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "USA",
+   "dept": "lenses"
+  },
+  {
+   "n": "Taylor Hobson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "UK",
+   "dept": "lenses"
+  },
+  {
+   "n": "Wray",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "UK",
+   "dept": "lenses"
+  },
+  {
+   "n": "Yongnuo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "China",
+   "dept": "flash and lenses"
+  },
+  {
+   "n": "Hirox",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Lens_manufacturers",
+   "says": "Wikipedia Category:Lens manufacturers (own article)",
+   "country": "Japan",
+   "dept": "optics"
+  },
+  {
+   "n": "Aaton",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "France",
+   "dept": "cine cameras"
+  },
+  {
+   "n": "Auricon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "USA",
+   "dept": "cine cameras"
+  },
+  {
+   "n": "AXIOM",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "Belgium",
+   "dept": "open cine camera"
+  },
+  {
+   "n": "Bell & Howell",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "USA",
+   "dept": "cine cameras"
+  },
+  {
+   "n": "Cinema Products",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "USA",
+   "dept": "Steadicam maker"
+  },
+  {
+   "n": "Digital Bolex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "USA",
+   "dept": "cine camera"
+  },
+  {
+   "n": "Mitchell Camera",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "USA",
+   "dept": "cine cameras"
+  },
+  {
+   "n": "Moviecam",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "Austria",
+   "dept": "cine cameras"
+  },
+  {
+   "n": "Newman-Sinclair",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "UK",
+   "dept": "cine cameras"
+  },
+  {
+   "n": "Panavision",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "USA",
+   "dept": "cine cameras and lenses"
+  },
+  {
+   "n": "Parvo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "France",
+   "dept": "cine cameras"
+  },
+  {
+   "n": "Totalvision",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "Spain",
+   "dept": "cine cameras"
+  },
+  {
+   "n": "Red Digital Cinema",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "USA",
+   "dept": "cine cameras"
+  },
+  {
+   "n": "Krasnogorsky Zavod",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Movie_camera_manufacturers",
+   "says": "Wikipedia Category:Movie camera manufacturers (own article)",
+   "country": "Russia",
+   "dept": "cameras and optics"
+  },
+  {
+   "n": "Metz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_flashes_by_brand",
+   "says": "Wikipedia Category:Photographic flashes by brand (Metz, Sunpak flashes categories)",
+   "country": "Germany",
+   "dept": "flash"
+  },
+  {
+   "n": "Sunpak",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_flashes_by_brand",
+   "says": "Wikipedia Category:Photographic flashes by brand (Metz, Sunpak flashes categories)",
+   "country": "Japan",
+   "dept": "flash"
+  },
+  {
+   "n": "Kodak Alaris",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_film_manufacturers",
+   "says": "Wikipedia Category:Photographic film manufacturers (own article)",
+   "country": "USA",
+   "dept": "film"
+  },
+  {
+   "n": "Gevacolor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_film_manufacturers",
+   "says": "Wikipedia Category:Photographic film manufacturers (own article)",
+   "country": "Belgium",
+   "dept": "film"
+  },
+  {
+   "n": "Hindustan Photo Films",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_film_manufacturers",
+   "says": "Wikipedia Category:Photographic film manufacturers (own article)",
+   "country": "India",
+   "dept": "film"
+  },
+  {
+   "n": "China Lucky Film",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_film_manufacturers",
+   "says": "Wikipedia Category:Photographic film manufacturers (own article)",
+   "country": "China",
+   "dept": "film"
+  },
+  {
+   "n": "Maco",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Photographic_film_manufacturers",
+   "says": "Wikipedia Category:Photographic film manufacturers (own article)",
+   "country": "Germany",
+   "dept": "film"
+  },
+  {
+   "n": "Aputure",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "China",
+   "dept": "lighting"
+  },
+  {
+   "n": "AstrHori",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "China",
+   "dept": "lenses"
+  },
+  {
+   "n": "Atomos",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "Australia",
+   "dept": "monitors recorders"
+  },
+  {
+   "n": "Blackmagic Design",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "Australia",
+   "dept": "cine cameras"
+  },
+  {
+   "n": "Impossible",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "Netherlands",
+   "dept": "instant film"
+  },
+  {
+   "n": "Kata",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "Israel",
+   "dept": "camera bags"
+  },
+  {
+   "n": "Multiblitz",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "Germany",
+   "dept": "studio flash"
+  },
+  {
+   "n": "Nissin",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "Japan",
+   "dept": "flash"
+  },
+  {
+   "n": "O'Connor",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "USA",
+   "dept": "fluid heads"
+  },
+  {
+   "n": "Redrock Micro",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "USA",
+   "dept": "video rigs"
+  },
+  {
+   "n": "Tiffen",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "USA",
+   "dept": "filters"
+  },
+  {
+   "n": "Tetenal",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "Germany",
+   "dept": "film chemistry"
+  },
+  {
+   "n": "Uniqball",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "Hong Kong",
+   "dept": "gimbal"
+  },
+  {
+   "n": "Yuneec",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "China",
+   "dept": "drones"
+  },
+  {
+   "n": "Delkin",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA World Awards archive manufacturer list (award-winning manufacturers 1991-2026)",
+   "country": "USA",
+   "dept": "memory accessories"
+  },
+  {
+   "n": "BelOMO",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Cokin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Exakta",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Folmer and Schwing",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Gowland",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Hanimex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Hartblei",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Kiev-Arsenal",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Kino Precision",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Littmann",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Silvestri",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Steinheil",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Vivitar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Walz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Taiyodo Koki",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Carl Braun Camera-Werk",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Coronet Camera Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Otto Berning",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "DHW Fototechnik",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Franka Kamerawerk",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "J. Lancaster & Son",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Keystone",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Kiron Lenses",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Okaya",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Micro Precision Products",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Nicca",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Nimslo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Norita",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "OPL",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Praktica",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Rectaflex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Tessina",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Thornton-Pickard",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "VE-JA-DE",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Wollensak",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Bowens",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Cactus",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Gary Fong",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Foba",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Lee Filters",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "LPA Design",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Sun Ray Photo Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Triggertrap",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Velbon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Otto Perutz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Durst",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "Cambo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_photographic_equipment_makers",
+   "says": "Wikipedia List of photographic equipment makers (linked entry with own article)",
+   "country": "",
+   "dept": ""
+  },
+  {
+   "n": "CADeN",
+   "layer": "premium",
+   "src": "https://gearjunkie.com/technology/camera/best-camera-backpack",
+   "says": "GearJunkie Tested 2026 best camera backpacks and bags (tested pick)",
+   "country": "China",
+   "dept": "camera bags"
+  },
+  {
+   "n": "Nomatic",
+   "layer": "premium",
+   "src": "https://gearjunkie.com/technology/camera/best-camera-backpack",
+   "says": "GearJunkie Tested 2026 best camera backpacks and bags (tested pick)",
+   "country": "USA",
+   "dept": "camera backpacks"
+  },
+  {
+   "n": "Wandrd",
+   "layer": "premium",
+   "src": "https://gearjunkie.com/technology/camera/best-camera-backpack",
+   "says": "GearJunkie Tested 2026 best camera backpacks and bags (tested pick)",
+   "country": "USA",
+   "dept": "camera bags"
+  },
+  {
+   "n": "Moment",
+   "layer": "premium",
+   "src": "https://gearjunkie.com/technology/camera/best-camera-backpack",
+   "says": "GearJunkie Tested 2026 best camera backpacks and bags (tested pick)",
+   "country": "USA",
+   "dept": "camera bags"
+  },
+  {
+   "n": "3 Legged Thing",
+   "layer": "premium",
+   "src": "https://www.cnet.com/tech/computing/best-tripod-for-photos-and-video",
+   "says": "CNET Editors Choice best tripod roundup (tested pick)",
+   "country": "UK",
+   "dept": "tripods"
+  },
+  {
+   "n": "NiSi",
+   "layer": "premium",
+   "src": "https://www.digitalcameraworld.com/buying-guides/best-variable-nd-filters",
+   "says": "Digital Camera World best variable ND filters (tested pick)",
+   "country": "China",
+   "dept": "filters"
+  },
+  {
+   "n": "Haida",
+   "layer": "premium",
+   "src": "https://www.digitalcameraworld.com/buying-guides/best-variable-nd-filters",
+   "says": "Digital Camera World best variable ND filters (tested pick)",
+   "country": "China",
+   "dept": "filters"
+  },
+  {
+   "n": "Freewell",
+   "layer": "premium",
+   "src": "https://www.digitalcameraworld.com/buying-guides/best-variable-nd-filters",
+   "says": "Digital Camera World best variable ND filters (tested pick)",
+   "country": "China",
+   "dept": "filters"
+  },
+  {
+   "n": "H&Y",
+   "layer": "premium",
+   "src": "https://www.digitalcameraworld.com/buying-guides/best-variable-nd-filters",
+   "says": "Digital Camera World best variable ND filters (tested pick)",
+   "country": "China",
+   "dept": "filters"
+  },
+  {
+   "n": "Neewer",
+   "layer": "premium",
+   "src": "https://www.digitalcameraworld.com/buying-guides/best-variable-nd-filters",
+   "says": "Digital Camera World best variable ND filters (tested pick)",
+   "country": "China",
+   "dept": "lighting and tripods"
+  },
+  {
+   "n": "PolarPro",
+   "layer": "premium",
+   "src": "https://www.digitalcameraworld.com/buying-guides/best-variable-nd-filters",
+   "says": "Digital Camera World best variable ND filters (tested pick)",
+   "country": "USA",
+   "dept": "filters"
+  }
+ ]
+}
