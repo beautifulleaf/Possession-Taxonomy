@@ -792,6 +792,178 @@ for k in (find_kind(d4, 'Railcar'), find_kind(d4, 'Railway carriage'), find_kind
 for k in [kk for s in d4['s'] for kk in s['k']]:
     for e in k.get('x', []): e.setdefault('g', e.get('mk') or 'Other')
 
+
+# ================================================================ ROUND 2
+U_YAM = 'https://cdn-fastly.atv.com/manufacturers/yamaha.html'
+U_SUZ = 'https://www.atv.com/manufacturers/suzuki.html'
+U_SUZ07 = 'https://powersportsbusiness.com/features/2007/11/12/nov-12-2007-suzuki-streamlines-atv-product-names/'
+U_KAW = WP + 'List_of_Kawasaki_motorcycles'
+U_WMS = 'https://winnebago.com/lifestyle/winnebagolife/showroom/winnebago-milestones-pioneering-for-65-years'
+U_FSER = WP + 'Ford_F-Series'
+U_BT = 'http://www.brusselstimes.com/1414185/over-1-5-million-vans-registered-in-eu-in-2024'
+U_VT = 'https://www.volvotrucks.com/th-th/news/press-releases/2025/feb/volvo-trucks-leads-the-heavy-truck-market-in-europe.html'
+GG, NC, IND = 'Global group', 'National champion', 'Independent'
+SELL = 'Stellantis'
+OWN2 = {  # marque -> (own, tier, cty, own_y); every row rests on a fetched owner page (Wikipedia articles of the company)
+ 'Ford': ('Ford Motor Company', GG, 'United States', None),
+ 'Chevrolet': ('General Motors', GG, 'United States', '1918'), 'GMC': ('General Motors', GG, 'United States', '1909'),
+ 'Ram': (SELL, GG, 'United States', '2021'), 'Jeep': (SELL, GG, 'United States', '2021'), 'Dodge': (SELL, GG, 'United States', '2021'), 'Chrysler': (SELL, GG, 'United States', '2021'),
+ 'Fiat': (SELL, GG, 'Italy', '2021'), 'Fiat Professional': (SELL, GG, 'Italy', '2021'), 'Citroën': (SELL, GG, 'France', '2021'), 'Peugeot': (SELL, GG, 'France', '2021'),
+ 'Opel': (SELL, GG, 'Germany', '2021'), 'Opel/Vauxhall': (SELL, GG, 'Germany', '2021'), 'Vauxhall': (SELL, GG, 'United Kingdom', '2021'),
+ 'Toyota': ('Toyota Motor Corporation', GG, 'Japan', None), 'Daihatsu': ('Toyota Motor Corporation', GG, 'Japan', '2016'), 'Hino': ('Archion', GG, 'Japan', '2026'),
+ 'Isuzu': ('Isuzu Motors', GG, 'Japan', None), 'UD Trucks': ('Isuzu Motors', GG, None, '2021'),
+ 'Nissan': ('Nissan Motor Corporation', GG, 'Japan', None), 'Mitsubishi': ('Mitsubishi Motors', GG, 'Japan', None),
+ 'Hyundai': ('Hyundai Motor Group', GG, 'South Korea', None), 'Kia': ('Hyundai Motor Group', GG, 'South Korea', '1998'),
+ 'Renault': ('Renault Group', GG, 'France', None), 'Dacia': ('Renault Group', GG, 'Romania', '1999'),
+ 'Mercedes-Benz': ('Mercedes-Benz Group', GG, 'Germany', None),
+ 'Freightliner': ('Daimler Truck', GG, None, None), 'Western Star': ('Daimler Truck', GG, None, None), 'Mitsubishi Fuso': ('Daimler Truck', GG, None, None),
+ 'Volkswagen': ('Volkswagen Group', GG, 'Germany', None), 'Volkswagen Truck & Bus': ('Traton', GG, 'Brazil', None),
+ 'MAN': ('Traton', GG, 'Germany', '2021'), 'Scania': ('Traton', GG, 'Sweden', '2021'), 'International': ('Traton', GG, 'United States', '2021'), 'International Motors': ('Traton', GG, 'United States', '2021'),
+ 'Volvo Trucks': ('Volvo Group', GG, 'Sweden', None), 'Renault Trucks': ('Volvo Group', GG, 'France', '2000'), 'Mack': ('Volvo Group', GG, None, '2000'),
+ 'Kenworth': ('Paccar', GG, None, None), 'Peterbilt': ('Paccar', GG, None, None), 'DAF': ('Paccar', GG, None, None),
+ 'Iveco': ('Iveco Group', GG, 'Italy', '2022'),
+ 'Tata': ('Tata Motors', NC, 'India', None), 'Tata Motors': ('Tata Motors', NC, 'India', None), 'Tata Daewoo': ('Tata Motors', NC, None, '2004'),
+ 'Ashok Leyland': ('Hinduja Group', NC, 'India', None), 'Mahindra': ('Mahindra Group', NC, 'India', None), 'Mahindra & Mahindra': ('Mahindra Group', NC, 'India', None),
+ 'KGM': ('KG Group', IND, 'South Korea', '2022'), 'Land Rover': ('Tata Motors', IND, None, '2008'),
+ 'Honda': ('Honda Motor Company', GG, 'Japan', None), 'Suzuki': ('Suzuki Motor Corporation', GG, 'Japan', None), 'Kawasaki': ('Kawasaki Heavy Industries', GG, 'Japan', None),
+ 'Polaris': ('Polaris Inc.', GG, 'United States', None),
+ 'Can-Am': ('Bombardier Recreational Products', GG, 'Canada', None), 'Ski-Doo': ('Bombardier Recreational Products', GG, 'Canada', None),
+ 'Bombardier': ('Bombardier Recreational Products', GG, 'Canada', None), 'Lynx': ('Bombardier Recreational Products', GG, 'Finland', '1988'),
+ 'Arctic Cat': ('Brad Darling and an investment group', IND, 'United States', '2025'), 'Club Car': ('Platinum Equity', IND, 'United States', '2021'),
+}
+OFFROAD_NAMES = set()
+def set_own(e, key=None):
+    for kk in ('own', 'tier', 'cty', 'own_y'): e.pop(kk, None)
+    k = key or e.get('mk', '')
+    if 'Unimog' in e['n']: o = ('Daimler Truck', GG, None, '2021')
+    else: o = OWN2.get(k)
+    if o:
+        for kk, vv in zip(('own', 'tier', 'cty', 'own_y'), o):
+            if vv: e[kk] = vv
+
+# ---- trucks (List of trucks read to its end)
+rigid = find_kind(d1, 'Rigid truck'); tu = find_kind(d1, 'Tractor unit')
+heavy = {'n': 'Heavy truck', 'a': 'lorry · HGV · semi-trailer tractor · artic', 'd': 'Lorry of the heavy weight class, from road tractors to military trucks; a van-based or light lorry → Rigid truck.',
+         's': U_TRUCKS, 'x': [], 'tt': [['Class', ['Heavy', 'Extra heavy']], ['Drive', ['4x2', '6x4', '8x4', 'All-wheel drive']], ['Cab', ['Day cab', 'Sleeper cab']]],
+         'see': [['G1', 'Tractor unit', 'a heavy truck that hauls a semi-trailer']]}
+d1['s'][2]['k'].insert(1, heavy)
+existing_dept1 = set()
+for kk in [k for s in d1['s'] for k in s['k']]:
+    for e in kk.get('x', []):
+        existing_dept1.add(norm(e['n']))
+        for v in e.get('v', []): existing_dept1.add(norm(v['n']))
+ntr = {'rigid': 0, 'heavy': 0, 'skipped': 0}
+CL = {'L': 'Light', 'M': 'Medium', 'H': 'Heavy', 'X': 'Extra heavy'}
+for line in open(W + 'trucks_raw.txt', encoding='utf-8').read().strip().split('\n'):
+    st, origin, maker, items = line.split('|')
+    for it in items.split(';'):
+        c, name = it.split(':', 1)
+        if norm(name) in existing_dept1:
+            ntr['skipped'] += 1; continue
+        existing_dept1.add(norm(name))
+        cls = CL[c]
+        if st == 'A': d = f'{cls} truck in production at the time of the list.'
+        else: d = f'{cls} truck, out of production; origin {origin}.'
+        e = E(name, mk=maker, y='', d=d, s=U_TRUCKS, g=maker)
+        set_own(e)
+        if c == 'H': heavy['x'].append(e); ntr['heavy'] += 1
+        else: rigid.setdefault('x', []).append(e); ntr['rigid'] += 1
+for e in rigid['x']: e.setdefault('g', e.get('mk', ''))
+rigid['x'].sort(key=lambda e: (e['g'].lower(), e['n'].lower()))
+heavy['x'].sort(key=lambda e: (e['g'].lower(), e['n'].lower()))
+rigid['nl'] = 'One entry is a light or medium lorry model line sold under its own name; cab and chassis lengths are versions.'
+heavy['nl'] = 'One entry is a heavy or extra-heavy lorry model line sold under its own name, including road tractors and military trucks that collectors buy; cab and axle variants are versions.'
+for k in (rigid, heavy):
+    k['xg'] = 'by maker'
+    k['sel'] = (f'Every row of Wikipedia\'s List of trucks (active and discontinued tables), read in three windows to the end of the page text (characters 0-269,154), split by the page\'s own class column '
+                f'(light and medium here, heavy and extra heavy under Heavy truck); rows already in the van or pickup kinds are not repeated, and the Mercedes-Benz Actros row was cut at a window edge and added from that note. '
+                f'Complete: {len(k["x"])} entries here; {ntr["rigid"] + ntr["heavy"]} new entries across both kinds from the page, {ntr["skipped"]} rows skipped as duplicates.')
+tu['nl'] = ''
+tu.pop('nl'); tu.pop('sel', None)
+
+# ---- owners recomputed from fetched pages only
+for kk in [k for s in d1['s'] for k in s['k']]:
+    for e in kk.get('x', []):
+        set_own(e)
+for kk in (quad, sxs, dune, snow, amph, golf, kart):
+    for e in kk.get('x', []):
+        set_own(e, 'Yamaha-none' if e.get('mk') in ('Yamaha', 'Yamaha Motor') else None)
+# caravans: blank what no fetched page states
+BLANK = {'Boler', 'nuCamp T@B', 'Classic plywood teardrop', 'Conqueror UEV-440', 'Patriot X1', 'Four Wheel Campers pop-up', 'Lance hard-side camper', 'GMC Motorhome', 'Blue Bird Wanderlodge', 'EarthRoamer', 'Bedford Dormobile'}
+for kk in (touring, fifth, tear, fold, toy, offr, camper, truckc, lowp, over, acl, expd):
+    for e in kk.get('x', []):
+        if e['n'] in BLANK:
+            for q in ('own', 'tier', 'cty', 'own_y'): e.pop(q, None)
+        if e['n'] == 'Unimog expedition camper': e.update({'own': 'Daimler Truck', 'tier': GG, 'cty': 'Germany', 'own_y': '2021'}); 
+        if e['n'] == 'Sprite': e['own_y'] = '1994'
+        if e['n'] == 'Volkswagen Westfalia Camper': e['own'] = 'Volkswagen Group'; e['cty'] = 'Germany'; e.pop('own_y', None)
+        if e['n'] == 'GMC Motorhome': e['cty'] = 'United States'
+        if e['n'] == 'Mercedes-Benz Marco Polo': e['own'] = 'Mercedes-Benz Group'
+
+# ---- Winnebago: Chieftain and dated corrections
+add(acl, E('Winnebago Chieftain', mk='Winnebago', y='1969', d='Winnebago model introduced in 1969; the fetched pages do not state its class, so it sits here with the other Winnebago motorhomes.', s=U_WMS, g=G_WIN, own='Winnebago Industries', tier=NC, cty='United States'))
+for kk in (camper, over, acl):
+    for e in kk['x']:
+        if e['n'] == 'Winnebago Winnie Wagon': e['y'] = '1974'; e['s'] = U_WMS; e['d'] = 'Small low-profile pop-top motorhome from 1974.'
+        if e['n'] == 'Winnebago LeSharo': e['y'] = '1983'; e['s'] = U_WMS
+        if e['n'] == 'Winnebago Rialta': e['y'] = '1995'; e['s'] = U_WMS
+        if e['n'] == 'Winnebago Minnie Winnie': e['d'] = 'Motorhome on a Dodge chassis, then Chevrolet or Ford after 1980; the Winnebago Industries article dates it from 1973, while the company\'s milestones page dates the line to 1994.'
+sort_kind(acl, GORD)
+sort_kind(camper, GORD)
+
+# ---- ATV and side-by-side lines from the new pages
+def addo(k, n, mk, y, d, s, v=None, role=None):
+    e = E(n, mk=mk, y=y, d=d, s=s, v=v, role=role, g=mk)
+    set_own(e, 'Yamaha-none' if mk == 'Yamaha' else mk)
+    return add(k, e)
+for e in quad['x']:
+    if e['n'] == 'Yamaha Grizzly':
+        e['v'] += [V('Grizzly EPS SE', '2021', 'trim', 'Yamaha'), V('Grizzly EPS XT-R', '2021', 'trim', 'Yamaha'), V('Grizzly 90', '2021', 'youth model', 'Yamaha')]
+        e['s'] = U_YAM
+    if e['n'] == 'Yamaha Raptor':
+        e['v'] += [V('Raptor 90', '2021', 'youth model', 'Yamaha'), V('Raptor 700R SE', '2021', '', 'Yamaha')]
+addo(quad, 'Yamaha Kodiak', 'Yamaha', '2021', 'Utility ATV in 450 and 700 versions, each in base, EPS and EPS SE trims.', U_YAM, v=[V('Kodiak 450', '2021', '', 'Yamaha'), V('Kodiak 700', '2021', '', 'Yamaha')])
+addo(quad, 'Yamaha YFZ450R', 'Yamaha', '2021', 'Sport ATV in YFZ450R and YFZ450R SE versions.', U_YAM)
+addo(sxs, 'Yamaha Wolverine', 'Yamaha', '2021', 'Side-by-side family: X2, X4 850, RMAX2 1000 and RMAX4 1000 (RMAX family new for 2021).', U_YAM)
+addo(sxs, 'Yamaha Viking', 'Yamaha', '2021', 'Side-by-side in Viking, EPS, EPS Ranch Edition and six-seat Viking VI.', U_YAM)
+for e in sxs['x']:
+    if e['n'] == 'Yamaha YXZ1000R':
+        e['v'] = [V('YXZ1000R SE', '2021', '', 'Yamaha'), V('YXZ1000R SS', '2021', '', 'Yamaha'), V('YXZ1000R SS SE', '2021', '', 'Yamaha'), V('YXZ1000R SS XT-R', '2021', '', 'Yamaha')]
+        e['s'] = U_YAM
+kv = lambda *a: [V(x, '', '', 'Kawasaki') for x in a]
+addo(quad, 'Kawasaki Bayou', 'Kawasaki', '', 'Kawasaki utility ATV in 185, 220, 250, 300 and 400 versions.', U_KAW, v=kv('Bayou 185', 'Bayou 220', 'Bayou 250', 'Bayou 300', 'Bayou 400'))
+addo(quad, 'Kawasaki Brute Force', 'Kawasaki', '', 'Kawasaki utility ATV in 300, 650 and 750 versions.', U_KAW, v=kv('Brute Force 300', 'Brute Force 650', 'Brute Force 750'))
+addo(quad, 'Kawasaki Prairie', 'Kawasaki', '', 'Kawasaki utility ATV from 250 to 700; the 400 was among the first full-size ATVs with fully automatic transmission and the 650 an early V-twin ATV.', U_KAW, v=kv('Prairie 250', 'Prairie 300', 'Prairie 360', 'Prairie 400', 'Prairie 650', 'Prairie 700'))
+addo(quad, 'Kawasaki KFX', 'Kawasaki', '', 'Kawasaki sport and youth ATVs; the KFX 80 and KFX 400 were rebadged Suzukis and the KFX 50 was Suzuki-based until 2006.', U_KAW, v=kv('KFX 50', 'KFX 80', 'KFX 90', 'KFX 400', 'KFX 450R', 'KFX 700 V-Force'))
+addo(quad, 'Kawasaki Lakota', 'Kawasaki', '', 'Kawasaki sport ATV in Lakota 300 and Lakota Sport 300 versions.', U_KAW, v=kv('Lakota 300', 'Lakota Sport 300'))
+addo(quad, 'Kawasaki Mojave', 'Kawasaki', '', 'Kawasaki sport ATV in 110 and 250 versions.', U_KAW, v=kv('Mojave 110', 'Mojave 250'))
+sv = lambda *a: [V(x, '', '', 'Suzuki') for x in a]
+addo(quad, 'Suzuki KingQuad', 'Suzuki', '1991', 'Utility ATV introduced in 1991 and returned in 2005 as the KingQuad 700; the Eiger name was used for the 400 class until 2008, when KingQuad replaced it.', U_SUZ,
+     v=[V('KingQuad 400', '2020', '400AS and 400FS variants with swingarm and foot shift (2008)', 'Suzuki'), V('KingQuad 500', '2020', '', 'Suzuki'), V('KingQuad 750', '2019', 'overhauled for 2019; 750 AXi from 2008', 'Suzuki')])
+addo(quad, 'Suzuki Eiger', 'Suzuki', '2002–2008', 'Suzuki 400-class utility ATV built from 2002 (2003 at the Rome, Georgia plant); the name was dropped for KingQuad in 2008.', U_SUZ07)
+addo(quad, 'Suzuki QuadSport', 'Suzuki', '', 'Suzuki sport ATVs; the Z50 and Z90 are 2020 models and the Z400 was reviewed in 2009.', U_SUZ, v=sv('QuadSport Z50', 'QuadSport Z90', 'QuadSport Z400'))
+addo(quad, 'Suzuki QuadRacer LT-R450', 'Suzuki', '2006', 'Sport quad introduced in 2006.', U_SUZ07)
+sort_kind(quad, ['Honda', 'Yamaha', 'Suzuki', 'Kawasaki', 'Polaris', 'Can-Am', 'Other makers'])
+sort_kind(sxs, ['Yamaha', 'Polaris', 'Can-Am', 'Kawasaki', 'Club Car', 'Other makers'])
+for k in (quad, sxs):
+    k['sel'] = k['sel'].replace('Total', 'Yamaha lines from atv.com (2021 model year), Kawasaki lines from Wikipedia\'s List of Kawasaki motorcycles (no years given) and Suzuki lines from atv.com and Powersports Business (2007). The All-terrain vehicle article was read to its end (100,000 of 131,840 characters held no further content). Total', 1)
+
+# ---- market facts
+d1['ms'] = [
+ {'mkt': 'EU new vans', 'who': 'All makers', 'share': '1,586,688 units, up 8.3 %', 'yr': 2024, 's': U_BT, 'note': 'diesel 84.5 % of registrations, electric 6.1 %; no brand shares on the page'},
+ {'mkt': 'EU new trucks', 'who': 'All makers', 'share': '327,896 units, down 6.3 %', 'yr': 2024, 's': U_BT, 'note': 'diesel 95.1 % of registrations'},
+ {'mkt': 'EU new buses', 'who': 'All makers', 'share': '35,579 units, up 9.2 %', 'yr': 2024, 's': U_BT, 'note': 'diesel 63.1 %, electric 18.5 %'},
+ {'mkt': 'European heavy trucks (16 tonnes and above)', 'who': 'Volvo Trucks', 'share': '17.9 %', 'yr': 2024, 's': U_VT, 'note': '56,331 trucks registered; Volvo\'s own press release, no competitor figures'},
+ {'mkt': 'Brazil heavy trucks', 'who': 'Volvo Trucks', 'share': '23.7 %', 'yr': 2024, 's': U_VT, 'note': 'Volvo\'s own press release'},
+ {'mkt': 'North American heavy trucks', 'who': 'Volvo Trucks', 'share': '10.5 %', 'yr': 2024, 's': U_VT, 'note': 'US and Canada; 10.2 % in 2023'},
+ {'mkt': 'US pickups', 'who': 'Ford F-Series', 'share': '765,649 units', 'yr': 2024, 's': U_FSER, 'note': '828,832 in 2025; best-selling pickup line in the US since 1977'},
+ {'mkt': 'European pickups', 'who': 'Ford Ranger', 'share': '27,300 units', 'yr': 2015, 's': U_PU, 'note': 'most popular pickup in Europe; all pickups under 1 % of light vehicles sold'},
+ {'mkt': 'China pickups', 'who': 'Chinese pickups led by the Great Wall Wingle', 'share': '378,000 units, up 48 %', 'yr': 2010, 's': U_PU, 'note': 'from the page\'s ChinaAutoWeb reference'},
+]
+d1['msum'] = 'Registration totals are from a news report of ACEA\'s 2024 figures, truck shares from Volvo\'s press release and pickup sales from the Ford F-Series article; no source found gives brand shares for vans or for rival truck makers.'
+d1['note'] = 'Vans, pickups, lorries and preserved buses are named by marque from Wikipedia lists; owners and tiers come from each company\'s Wikipedia article.'
+d1['t'] = ('Vans, minibuses, taxis, pickups, lorries and coaches that a person owns or converts; a family car or SUV → Cars; a van converted for living in → Caravans, motorhomes & trailers.')
+
 # ================================================================ assemble
 depts = [dept[n] for n in NAMES]
 part_bu = {
