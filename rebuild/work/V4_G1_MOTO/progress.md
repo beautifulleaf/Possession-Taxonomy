@@ -9,3 +9,4 @@ wd all done (1194 rows, wd0-wd5, tail added). next: Wikipedia lists by manufactu
 wp_honda.txt written (curated extras from Wikipedia List_of_Honda_motorcycles engine-size table); fetches used ~16. next lists: Yamaha, Suzuki, Kawasaki, HD, BMW, RE, Triumph, Guzzi, others
 wp_yamaha.txt done (concepts/prototypes excluded as out of scope: not sold). fetches ~17
 wp_suzuki.txt done (concepts excluded). fetches ~18
+wp_kawasaki.txt, wp_hd.txt done (hd has years in parens). fetches ~22

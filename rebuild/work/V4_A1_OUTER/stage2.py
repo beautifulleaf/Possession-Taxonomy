@@ -51,7 +51,7 @@ brands=[{'n':n,'c':c,'f':'1846' if n=='Castell & Son' else ('1904' if n=='Blue B
 segs=set(json.load(open(R+'rebuild/out/A1_brands.json'))['b'][i]['seg'] for i in range(2531))
 print('segs',sorted(segs))
 OWN={'Aquascutum':('Shandong Ruyi','Independent',''),"Arc'teryx":('Amer Sports','Global group',''),'Mackintosh':('Yagi Tsusho','Independent',''),'Napapijri':('VF Corporation','Global group','2004'),'Rab':('Equip','Independent',''),'Stone Island':('Moncler','Global group','2020'),'The North Face':('VF Corporation','Global group','2000'),'DAKS':('Sankyo Seiko','Independent','1991'),"OshKosh B'gosh":("Carter's",'Global group',''),'Stubbies':('Workwear Group','Independent',''),'Fjällräven':('Fenix Outdoor','Independent',''),'Lacoste':('Maus Frères','Independent','')}
-bu={n:{'own':o[0],'tier':o[1],'c':{x['n']:x['c'] for x in json.load(open(R+'rebuild/out/A1_brands.json'))['b']}[n]} for n,o in OWN.items()}
+bu={n:{'own':o[0],'tier':o[1],'c':{x['n']:x.get('c','') for x in json.load(open(R+'rebuild/out/A1_brands.json'))['b']}[n]} for n,o in OWN.items()}
 for n,o in OWN.items():
     if o[2]: bu[n]['own_y']=o[2]
 import os
