@@ -34,3 +34,4 @@ Rules for the enrichment pass:
 - INDEX CLEANUP (G3): merge 'Vitra (tiles)' (C8) and 'VitrA (sanitaryware)' (G3) — same Turkish company.
 - INDEX CLEANUP (H3): NJOY row merges a vape maker (J10) with a stainless-steel toy maker (H3) — split.
 - INDEX CLEANUP (G2): 'Bentley' row mixes the car maker (G1, now G2 too) with an E3 Bentley — split.
+- INDEX CLEANUP (H4): Shoyeido and Nippon Kodo carry H4 codes in the register but make incense (B4/F4) — review.

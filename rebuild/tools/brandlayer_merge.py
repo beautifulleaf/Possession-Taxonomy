@@ -44,17 +44,22 @@ for c in sys.argv[1:]:
             if 'tier' not in hit or RANK.get(tier,3)<RANK.get(hit['tier'],3): hit['tier']=tier
             if rg and not hit.get('rg'): hit['rg']=rg
             if b.get('legal') and not hit.get('legal'): hit['legal']=str(b['legal'])[:240]
+            if b.get('scene'):
+                sc=hit.get('sc') or []
+                if b['scene'] not in sc: hit['sc']=sc+[b['scene']]
             upd+=1; continue
         g=None if homo else next((glob_idx[k] for k in keys if k in glob_idx),None)
         if g:  # known in another category: add C with a minimal entry (merge.py unions cats)
             e={'n':g,'tier':tier}; 
             if rg: e['rg']=rg
             if b.get('legal'): e['legal']=str(b['legal'])[:240]
+            if b.get('scene'): e['sc']=[b['scene']]
             B['b'].append(e); here[norm(g)]=e; cross+=1; continue
         e={'n':b['n'],'c':b.get('country',''),'seg':'','kf':(b.get('dept') or '')[:40],'d':(b.get('note') or '')[:240],'s':src,'tier':tier}
         if b.get('aliases'): e['an']=' · '.join(b['aliases'])
         if rg: e['rg']=rg
         if b.get('legal'): e['legal']=str(b['legal'])[:240]
+        if b.get('scene'): e['sc']=[b['scene']]; e['seg']=b['scene']
         if b.get('role')=='seller' or tier=='seller': e['role']='seller'
         B['b'].append(e); here[b['n'].lower() if homo else norm(b['n'])]=e; new+=1
     for n in v.get('cross_tag',[]):
