@@ -3,3 +3,4 @@ step1 done (no m). step2 done: coverage lines rewritten on 90 kinds by cov.py (G
 step3 glass houses +6 done (107); coverage line written
 step4a owners: own1.py, own2.py applied (Anova, Blendtec, AeroPress, Instant Pot, La Marzocco, Rancilio, SodaStream, CamelBak, Viking, AGA group, Cuisinart, Sunbeam, Russell Hobbs, Bodum, Melitta); ~46 fetches used; next: Waring/Oster/Hario/Fellow/Eureka/Zwilling etc via search, then tableware g axis, report
 step4b: Waring/Conair done; Oster, Hario owner searched twice -> not stated; Eureka wrong page
+report written; done
