@@ -77,6 +77,8 @@ for dp in depts:
       if ex: k['xg']='by maker country, then maker, then year'
       if ex and 'sel' not in k:
           k['nl']='One entry is a named model line.'; k['sel']='Existing entries.'
-      if ex: k['sel']+=f" Shows {len(ex)} entries."
+      if ex:
+          if kn in('Guitar strings',): k['sel']+=' Complete: 1 of 1 origin entry the fetched page supports.'
+          else: k['sel']+=f' Covers {len(ex)} entries ({len(ex)-added} kept from the structure pass, {added} added from the fetched pages); the pages do not list every model of every maker, so the list is not the whole market.'
 print(stats); print('unknown cty',unk)
 json.dump({'replaces':sorted(names),'depts':depts,'brands':[],'brand_updates':{},'renames':{},'moves':[]},open('../../out/E3_parts/GUITAR.json','w'),ensure_ascii=False,indent=1)
