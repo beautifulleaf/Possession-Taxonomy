@@ -2,7 +2,117 @@
  "cat": "F4",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Ritual vessels & implements / Light, incense (Japan)",
+   "queries": [
+    "Takaoka copperware Buddhist altar fittings",
+    "Japanese incense makers"
+   ],
+   "found": 5,
+   "note": "Takaoka factory page, Wikipedia incense companies (4 known)"
+  },
+  {
+   "axis": "kind",
+   "item": "Tarot & divination > Tarot & oracle decks",
+   "queries": [
+    "tarot publishers list"
+   ],
+   "found": 3,
+   "note": "Aeclectic publishers"
+  },
+  {
+   "axis": "kind",
+   "item": "Images, altars & shrines > Sculpted figures (India)",
+   "queries": [
+    "Swamimalai bronze icons GI"
+   ],
+   "found": 17,
+   "note": "GI authorised users"
+  },
+  {
+   "axis": "kind",
+   "item": "Ceremonial regalia & office insignia",
+   "queries": [
+    "Toye Kenning Spencer masonic regalia"
+   ],
+   "found": 1,
+   "note": "Royal Warrant"
+  },
+  {
+   "axis": "kind",
+   "item": "Scriptures, scrolls & holders / Ritual vessels (Judaica)",
+   "queries": [
+    "Hazorfim Judaica silversmith"
+   ],
+   "found": 1,
+   "note": "only one maker fetched; Judaica heritage makers otherwise open"
+  },
+  {
+   "axis": "kind",
+   "item": "Prayer & devotion aids > Articles of faith worn / Christian vestments",
+   "queries": [
+    "Gammarelli ecclesiastical tailor"
+   ],
+   "found": 1,
+   "note": "Mancinelli seen only in a search excerpt, not recorded"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Takaoka",
+    "Japanese incense"
+   ],
+   "found": 5,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Swamimalai bronze"
+   ],
+   "found": 17,
+   "note": "Moradabad brass, Kannauj not yet searched"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Royal Warrant regalia"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Gammarelli",
+    "tarot Italian publishers"
+   ],
+   "found": 4,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Hazorfim Israel"
+   ],
+   "found": 1,
+   "note": "Islamic prayer rug/misbaha not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa / North Africa / Southeast Asia / Central Asia / Oceania / Latin America / North America / Northern Europe / Central & Eastern Europe",
+   "queries": [],
+   "found": 0,
+   "note": "NOT TRIED (context budget); see notes next list"
+  }
+ ],
  "regions": [
   {
    "region": "Japan (Takaoka, Toyama)",
@@ -54,6 +164,27 @@
    "src": "https://www.catholicworldreport.com/2024/12/03/romes-famous-tailor-prepares-for-the-catholic-churchs-new-cardinals",
    "brands": [
     "Ditta Annibale Gammarelli"
+   ]
+  },
+  {
+   "region": "India (Swamimalai, Tamil Nadu)",
+   "speciality": "lost-wax bronze Hindu icons, GI protected",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "brands": [
+    "The Swamimalai Icon Manufacturers Co-operative Cottage Industrial Society",
+    "Sri Jayam Industries",
+    "Jayadeva Sirpa Nilayam",
+    "Wiswakarma Icon Sales Emporium",
+    "Kuberan Icon Industries",
+    "Mohan Fine Arts (Swamimalai)"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "ceremonial and Masonic regalia",
+   "src": "https://www.royalwarrant.org/company/toye-kenning-spencer-ltd",
+   "brands": [
+    "Toye, Kenning & Spencer"
    ]
   }
  ],
@@ -107,6 +238,26 @@
    "new_names": 1,
    "status": "done",
    "note": "maker's own page; quality claim is self-statement, see also third-party retailer Judaica Webstore (excerpt only, not fetched)"
+  },
+  {
+   "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "title": "India GI Registry: Swamimalai Bronze Icons, authorised users",
+   "kind": "pdo",
+   "years": "GI registered 2008",
+   "names_on_page": 85,
+   "new_names": 17,
+   "status": "done",
+   "note": "raw fetch; 85 authorised users, many individuals (skipped); named workshops kept as makers; generic names (Arts & Crafts alone) skipped as homonym-prone"
+  },
+  {
+   "url": "https://www.royalwarrant.org/company/toye-kenning-spencer-ltd",
+   "title": "Royal Warrant Holders Association: Toye, Kenning & Spencer",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "trade category Ceremonial, Medals & Insignia; warrant: HM The King"
   }
  ],
  "brands": [
@@ -225,13 +376,15 @@
    "cross_tag": "F4"
   },
   {
-   "n": "Ditta Annibale Gammarelli",
+   "n": "Gammarelli",
    "layer": "cultural",
    "src": "https://www.catholicworldreport.com/2024/12/03/romes-famous-tailor-prepares-for-the-catholic-churchs-new-cardinals",
    "says": "ecclesiastical tailor and vestment maker since 1798, added to a list of historic shops in Rome in 2000",
    "country": "Italy",
    "dept": "Clerical vestments (dress is A1; vestments for liturgy)",
-   "homonym": false
+   "homonym": false,
+   "already": true,
+   "cross_tag": "F4"
   },
   {
    "n": "Hazorfim",
@@ -240,6 +393,169 @@
    "says": "Israeli silversmith house founded 1952, hand-crafted sterling silver Judaica, stamped",
    "country": "Israel",
    "dept": "Judaica silver"
+  },
+  {
+   "n": "The Swamimalai Icon Manufacturers Co-operative Cottage Industrial Society",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Sri Jayam Industries",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Jayadeva Sirpa Nilayam",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Wiswakarma Icon Sales Emporium",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Kuberan Icon Industries",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Mohan Fine Arts (Swamimalai)",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Venopa Arts & Crafts",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Swaminatha Sthapathy Arts & Crafts",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Sri Annam Handicrafts",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Thavari Arts & Crafts",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Padmanabha Handicrafts",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Shri Tharson Art Metals",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Balaa Sirpa Saalai",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Nataraja Sirpa Kalai Koodam",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Sri Raja Ganapathi Sirpa Kalai Koodam",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Sri Gayathri Sirpa Salai",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Mallika Arts & Crafts (Swamimalai)",
+   "layer": "cultural",
+   "src": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/64",
+   "says": "authorised user of the Swamimalai Bronze Icons GI (Tamil Nadu)",
+   "country": "India",
+   "dept": "Hindu bronze deity icons",
+   "role": "maker"
+  },
+  {
+   "n": "Toye, Kenning & Spencer",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/company/toye-kenning-spencer-ltd",
+   "says": "Royal Warrant holder (Ceremonial, Medals & Insignia), insignia and regalia maker since 1685; regalia for fraternal societies",
+   "country": "United Kingdom",
+   "dept": "Ceremonial regalia (Masonic)",
+   "already": true,
+   "cross_tag": "F4"
   }
  ]
 }
