@@ -20,3 +20,5 @@ FIRECRAWL (2026-10-31): credits are used up until about 21:00 UTC. Do not call F
 BUDGET: use the whole fetch budget on open gaps before stopping. Stop early only when every gap is closed or every remaining gap has two recorded failed attempts.
 
 SECTIONS: a section axis must be a domain axis (country, maker, class, type, period, region). Never section by initial letter or alphabetical band; leave a kind unsectioned until a real axis is sourced.
+
+OWNERS IN BULK: WebFetch the Wikipedia MediaWiki API with prop=revisions&rvprop=content&rvsection=0&titles=A|B|… (up to 20 titles, with redirects) to get each article's infobox owner/parent field and lead in one call. Company pages, not person pages (Dior → Christian Dior SE, Chanel → Chanel (company)).
