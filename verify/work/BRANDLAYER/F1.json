@@ -238,6 +238,65 @@
     "Speakers Corner Records",
     "Deutsche Grammophon"
    ]
+  },
+  {
+   "region": "Arab world (Egypt, Lebanon, Iraq, Morocco)",
+   "speciality": "Arabic-language publishing houses (dar al-nashr) centred on Cairo and Beirut",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "brands": [
+    "Dar Al Shorouk",
+    "Dar Al Adab",
+    "Dar Al Nahda Alarabia",
+    "Dar Al Hilal",
+    "Dar Al Maaref",
+    "Dar Sader",
+    "Editions Toubkal",
+    "Hindawi Publishing"
+   ]
+  },
+  {
+   "region": "Sub-Saharan Africa",
+   "speciality": "independently published African books distributed by the African-owned African Books Collective",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "brands": [
+    "Baobab Books",
+    "Addis Ababa University Press",
+    "African Minds",
+    "Bakwa Books",
+    "Bookmark Africa",
+    "Black Crake Books",
+    "Basler Afrika Bibliographien",
+    "Bayero University Press"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "boutique and restoration Blu-ray labels (Arrow, Eureka/Masters of Cinema, Indicator, Second Run, BFI)",
+   "src": "https://boutiquebluray.miraheze.org/wiki/Main_Page",
+   "brands": [
+    "Arrow Films",
+    "Eureka",
+    "Powerhouse Films",
+    "Indicator",
+    "Second Run",
+    "British Film Institute",
+    "88 Films",
+    "101 Films"
+   ]
+  },
+  {
+   "region": "United States",
+   "speciality": "boutique Blu-ray labels",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "brands": [
+    "Criterion Collection",
+    "Shout! Factory",
+    "Kino Lorber",
+    "Twilight Time",
+    "Olive Films",
+    "Vinegar Syndrome",
+    "Flicker Alley"
+   ]
   }
  ],
  "sources": [
@@ -400,6 +459,56 @@
    "new_names": 53,
    "status": "done",
    "note": " known=0"
+  },
+  {
+   "url": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "title": "Small Press of the Year 2025",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 46,
+   "new_names": 13,
+   "status": "done",
+   "note": " known=0"
+  },
+  {
+   "url": "https://www.africanbookscollective.com/publishers",
+   "title": "African Books Collective publishers",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 37,
+   "new_names": 37,
+   "status": "partial",
+   "note": "only A-Bookmark (first 50 of list) returned by fetch; rest not retrieved known=0"
+  },
+  {
+   "url": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "title": "Arab World Books publishers",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 87,
+   "new_names": 87,
+   "status": "partial",
+   "note": "only Dar* names and 3 others taken; run-on list known=0"
+  },
+  {
+   "url": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "title": "Paste best boutique Blu-ray distributors",
+   "kind": "award",
+   "years": "2017",
+   "names_on_page": 12,
+   "new_names": 11,
+   "status": "done",
+   "note": " known=1"
+  },
+  {
+   "url": "https://boutiquebluray.miraheze.org/wiki/Main_Page",
+   "title": "Boutique Blu-ray Wiki",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 19,
+   "new_names": 9,
+   "status": "done",
+   "note": " known=8"
   }
  ],
  "brands": [
@@ -32531,6 +32640,1262 @@
    "says": "Small Press of the Year 2024: regional winner, highly commended or finalist (Magic Cat Publishing won)",
    "country": "UK",
    "dept": "books"
+  },
+  {
+   "n": "Verve Books",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "Bedford Square",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "Seren Books",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "Arachne Press",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "Aurora Metro and Supernova Books",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "Orenda Books",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "Henson Editorial",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "Comma Press",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "Peepal Tree Press",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "UCLan Publishing",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "Hashtag Press",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "Books on the Hill Press",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "Broken Sleep Books",
+   "layer": "premium",
+   "src": "https://www.thebookseller.com/british-book-awards-content/small-press-of-the-year-2025",
+   "says": "Small Press of the Year 2025 regional winner/highly commended/finalist (Sweet Cherry Publishing overall winner)",
+   "country": "UK",
+   "dept": "books"
+  },
+  {
+   "n": "ABETO",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Academic Publishers",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Academy Science Publishers",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Addis Ababa University Press",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "AdelPhil Consultancy",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Adwinsa Publications",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Afram Publications",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Africa Christian Press",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Africa Community Publishing & Development Trust",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Africa Talent Publishers",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Africae Studies",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "African Heritage Press",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "African Minds",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "African Perspectives",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "African Renaissance",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "African Writers Trust",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Afro-Middle East Centre",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Alpha Crownes Publishing",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "amabooks Publishers",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "AmaGugu Publishers",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Amanza Ltd",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Andariya",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Apex Books",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Art Initiates",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Asdan Vision Books",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Asmaou Publishing",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Author Crafts",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Bakwa Books",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Baobab Books",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Basler Afrika Bibliographien",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Bayero University Press",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Bhiyoza Publishers",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Black Crake Books",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Blackmask",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "BookBuilders Editions Africa",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Booklove Publishers",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Bookmark Africa",
+   "layer": "cultural",
+   "src": "https://www.africanbookscollective.com/publishers",
+   "says": "Participating publisher of African Books Collective (African-owned distribution of independently published African books)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Adahriah",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Adham",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Adab",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Aman",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Farabi",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Ghaoon",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Hilal",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Kalima",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Kitab Alarabe",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Maaref",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Mostakbal Alarabi",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Nagham",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Nahda Alarabia",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Nasher",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Nasser",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Reda",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Shorouk",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Takween",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Wafaa",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Watan",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al Yanabee",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Al qalam",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Alabdaa Tikrit",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Alca",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Aldaraweesh",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Algaleel",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Alhadatha Beirut",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Alhadeeth",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Alhuda",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Aljil",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Alkhaleej",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Almada",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Almidan",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Almofaker Al Araby",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Almoharer",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Alnabegha",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Alnassim",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Alrafidain",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Alsadaqa",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Altanweer",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Althaqafa Algadeeda",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Alwah",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Annafaes",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Annahar",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Arab",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Bassma",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar El Awtan",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar El Eslam",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar El-Farouk",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar El-kotob El-Ilmiyya",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Elbasheer",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Elmoudjadid",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Elwehaby",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Erfaa",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Faradees",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Fekra",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Ghorab",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Hala",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Hamsa",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Haven",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Kalimat Arabia",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Kanaan",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Kitabouna",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Konoz",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Madarat",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Madaress",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Merit",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Noon Publishing",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Oktob",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Rafiki",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Rawafed",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Reyada",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Rowwad",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Roznama",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Sader",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Sanabel",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Sefsafa",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Sharkiyat",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Tlass",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar University Baghdad",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar Waad",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar el-Fikr el-Arabi",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar elfarashah",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Dar kelim",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Editions Toubkal",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Diwan Publishing",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Hindawi Publishing",
+   "layer": "cultural",
+   "src": "https://www.arabworldbooks.com/public/en/books?page=102",
+   "says": "Publisher listed in Arab World Books publisher directory (existence only; Dar* names split from run-on text)",
+   "evidence": "existence",
+   "dept": "books"
+  },
+  {
+   "n": "Arrow Video",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "says": "Paste Magazine editorial list \"The Best Boutique Blu-ray Distributors (Who Aren't Criterion)\" 2017",
+   "country": "US/UK",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Shout! Factory",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "says": "Paste Magazine editorial list \"The Best Boutique Blu-ray Distributors (Who Aren't Criterion)\" 2017",
+   "country": "US/UK",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Scream Factory",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "says": "Paste Magazine editorial list \"The Best Boutique Blu-ray Distributors (Who Aren't Criterion)\" 2017",
+   "country": "US/UK",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Twilight Time",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "says": "Paste Magazine editorial list \"The Best Boutique Blu-ray Distributors (Who Aren't Criterion)\" 2017",
+   "country": "US/UK",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Olive Films",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "says": "Paste Magazine editorial list \"The Best Boutique Blu-ray Distributors (Who Aren't Criterion)\" 2017",
+   "country": "US/UK",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Cinema Guild",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "says": "Paste Magazine editorial list \"The Best Boutique Blu-ray Distributors (Who Aren't Criterion)\" 2017",
+   "country": "US/UK",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Oscilloscope Laboratories",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "says": "Paste Magazine editorial list \"The Best Boutique Blu-ray Distributors (Who Aren't Criterion)\" 2017",
+   "country": "US/UK",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Cohen Media",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "says": "Paste Magazine editorial list \"The Best Boutique Blu-ray Distributors (Who Aren't Criterion)\" 2017",
+   "country": "US/UK",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Blue Underground",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "says": "Paste Magazine editorial list \"The Best Boutique Blu-ray Distributors (Who Aren't Criterion)\" 2017",
+   "country": "US/UK",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Film Movement",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "says": "Paste Magazine editorial list \"The Best Boutique Blu-ray Distributors (Who Aren't Criterion)\" 2017",
+   "country": "US/UK",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Anchor Bay",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/movies/blu-ray/the-best-boutique-blu-ray-distributors-who-arent-c",
+   "says": "Paste Magazine editorial list \"The Best Boutique Blu-ray Distributors (Who Aren't Criterion)\" 2017",
+   "country": "US/UK",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Flicker Alley",
+   "layer": "cultural",
+   "src": "https://boutiquebluray.miraheze.org/wiki/Main_Page",
+   "says": "Label with release lists on the Boutique Blu-ray Wiki",
+   "evidence": "existence",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Vestron Video",
+   "layer": "cultural",
+   "src": "https://boutiquebluray.miraheze.org/wiki/Main_Page",
+   "says": "Label with release lists on the Boutique Blu-ray Wiki",
+   "evidence": "existence",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "101 Films",
+   "layer": "cultural",
+   "src": "https://boutiquebluray.miraheze.org/wiki/Main_Page",
+   "says": "Label with release lists on the Boutique Blu-ray Wiki",
+   "evidence": "existence",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Curzon Artificial Eye",
+   "layer": "cultural",
+   "src": "https://boutiquebluray.miraheze.org/wiki/Main_Page",
+   "says": "Label with release lists on the Boutique Blu-ray Wiki",
+   "evidence": "existence",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Network Distribution",
+   "layer": "cultural",
+   "src": "https://boutiquebluray.miraheze.org/wiki/Main_Page",
+   "says": "Label with release lists on the Boutique Blu-ray Wiki",
+   "evidence": "existence",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Indicator",
+   "layer": "cultural",
+   "src": "https://boutiquebluray.miraheze.org/wiki/Main_Page",
+   "says": "Label with release lists on the Boutique Blu-ray Wiki",
+   "evidence": "existence",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Signal One Entertainment",
+   "layer": "cultural",
+   "src": "https://boutiquebluray.miraheze.org/wiki/Main_Page",
+   "says": "Label with release lists on the Boutique Blu-ray Wiki",
+   "evidence": "existence",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Montage Pictures",
+   "layer": "cultural",
+   "src": "https://boutiquebluray.miraheze.org/wiki/Main_Page",
+   "says": "Label with release lists on the Boutique Blu-ray Wiki",
+   "evidence": "existence",
+   "dept": "boutique video discs"
+  },
+  {
+   "n": "Warner Archive Collection",
+   "layer": "cultural",
+   "src": "https://boutiquebluray.miraheze.org/wiki/Main_Page",
+   "says": "Label with release lists on the Boutique Blu-ray Wiki",
+   "evidence": "existence",
+   "dept": "boutique video discs"
   }
  ]
 }

@@ -3397,7 +3397,7 @@
    "layer_harvest": "premium",
    "src": "https://global.bushizo.com/blogs/oyakutdachi/1040",
    "src2": "",
-   "shown": false,
+   "shown": true,
    "region": "",
    "dept": "budo (kendo bogu)",
    "country": "Japan",
@@ -3453,7 +3453,7 @@
    "layer_harvest": "cultural",
    "src": "https://kendojidai.com/kendo-shop",
    "src2": "",
-   "shown": false,
+   "shown": true,
    "region": "",
    "dept": "budo (kendo bogu)",
    "country": "Japan",
@@ -3511,7 +3511,7 @@
    "src": "https://www.greaterkashmir.com/sports/international-cricketers-to-use-kashmir-willow-bats-during-odi-world-cup-in-india",
    "src2": "",
    "shown": true,
-   "region": "",
+   "region": "Kashmir valley (Sangam/Bijbehara, Anantnag), India",
    "dept": "team sports (cricket bats)",
    "country": "India",
    "note": "Greater Kashmir: \"first and only brand from Jammu and Kashmir to earn International Cricket Council (ICC) approval\" (2021)",
@@ -4273,7 +4273,7 @@
    "layer_harvest": "cultural",
    "src": "https://www.tt-spin.com/brands/",
    "src2": "",
-   "shown": false,
+   "shown": true,
    "region": "",
    "dept": "table tennis",
    "country": "Japan",
@@ -4417,7 +4417,7 @@
    "region": "",
    "dept": "camping & hiking (snowshoes)",
    "country": "Canada",
-   "note": "Wooden Canoe Museum builder record: Faber & Company, Loretteville, \"still exists, but only manufactures snowshoes\"; page form: Faber and Company; HOMONYM: not Faber (diving) nor Faber-Castell",
+   "note": "Wooden Canoe Museum builder record: Faber & Company, Loretteville, \"still exists, but only manufactures snowshoes\"; HOMONYM: not Faber (diving) nor Faber-Castell",
    "origin": "audit",
    "homonym": true
   }
@@ -4749,38 +4749,36 @@
    "region": "Italy (diving, climbing)",
    "speciality": "dive gear (Cressi, Mares, Technisub) and climbing hardware/boots (CAMP, La Sportiva, Scarpa)",
    "src": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
-   "src2": "",
+   "src2": "https://en.wikipedia.org/wiki/Category:Climbing_and_mountaineering_equipment_companies",
    "renown": false,
    "quote": "",
    "brands": [
     "Cressi",
     "Mares",
-    "Technisub"
-   ],
-   "dropped_not_shown": [
+    "Technisub",
     "CAMP",
     "La Sportiva",
     "Scarpa"
    ],
-   "note": "category page: no renown statement",
+   "dropped_not_shown": [],
+   "note": "diving and climbing category pages: no renown statement",
    "origin": "harvest"
   },
   {
    "region": "France (alpine, diving)",
    "speciality": "Petzl, Grivel(IT), Millet, Beuchat, Aqua Lung",
    "src": "https://en.wikipedia.org/wiki/Category:Climbing_and_mountaineering_equipment_companies",
-   "src2": "",
+   "src2": "https://en.wikipedia.org/wiki/Category:Underwater_diving_equipment_manufacturers",
    "renown": false,
    "quote": "",
    "brands": [
     "Petzl",
-    "Millet"
-   ],
-   "dropped_not_shown": [
+    "Millet",
     "Beuchat",
     "Aqua Lung"
    ],
-   "note": "category page: no renown statement",
+   "dropped_not_shown": [],
+   "note": "climbing and diving category pages: no renown statement",
    "origin": "harvest"
   },
   {
@@ -4859,10 +4857,10 @@
    "src2": "",
    "renown": true,
    "quote": "Known for their durability and affordability, Kashmir's bats give English willows ... a run for their money",
-   "brands": [],
-   "dropped_not_shown": [
+   "brands": [
     "GR8 Sports"
    ],
+   "dropped_not_shown": [],
    "note": "",
    "origin": "audit"
   },
@@ -5178,7 +5176,7 @@
  },
  "stats": {
   "checked": 310,
-  "shown_false": 3,
+  "shown_false": 0,
   "by_tier": {
    "cultural": 218,
    "quality": 50,
