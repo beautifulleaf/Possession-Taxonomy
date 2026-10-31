@@ -8,3 +8,5 @@ step6: owners fetched (Coty, Puig, L'Oreal, ELC, LVMH) + niche houses (Diptyque,
 step7: Osmotheque, Kurkdjian works, Interparfums 10-K, Puig article, Guerlain, Chanel fetched. Next: 1-2 market-size fetches, then build part file by python script build_part.py
 step8: data_extra.py written (WD rows, Guerlain/Chanel/Kurkdjian/Osmotheque lists). Next: build_part.py
 step9: build_part.py ran, part file written 207KB; validating
+step10: part validated OK (611 entries). Next: report
+step11: report written; DONE

@@ -171,6 +171,7 @@ for line in open(W+'lop.txt',encoding='utf-8'):
     p=line.rstrip('\n').split('|')
     if len(p)<4: continue
     n,y,mk,per=p[:4]
+    if mk=='unknown': mk=''
     if n=='Y': n='Y (1964)'
     add(n,y,mk,per,LOP)
 # 3 wikidata
@@ -272,7 +273,7 @@ def mkentry(k,kindname):
         l=''
         if base.get('y') and base.get('mk'): l=f"Launched {base['y']} by {base['mk']}"
         elif base.get('mk'): l=f"Fragrance by {base['mk']}"
-        elif base.get('y'): l=f"Launched {base['y']}"
+        elif base.get('y'): l=(f"Dated to the {base['y']}; maker not stated" if 'century' in base['y'] else f"Launched {base['y']}")
         if l:
             if e.get('per'): l+=f"; perfumer {e['per']}"
             bits.append(l+'.')

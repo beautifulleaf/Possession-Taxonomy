@@ -18,3 +18,12 @@ OWN2 = {  # brand -> (own, own_y, tier, c, src)
  'Paraboot': ('family business (Richard-Pontvert)', '', 'Independent', 'France', W+'Paraboot'),
  'On': ('On Holding AG', '', 'Independent', 'Switzerland', W+'On_(company)'),
 }
+OWN3 = {
+ 'Gucci': ('Kering', '1999', W+'Kering'), 'Balenciaga': ('Kering', '2001', W+'Kering'), 'Alexander McQueen': ('Kering', '2001', W+'Kering'),
+ 'Louis Vuitton': ('LVMH', '1987', W+'LVMH'), 'Dior': ('LVMH', '2017', W+'LVMH'),
+ 'Lowa': ('Tecnica Group', '1993', W+'Tecnica_Group'), 'Moon Boot': ('Tecnica Group', '', W+'Tecnica_Group'),
+ 'Sorel': ('Columbia Sportswear', '2000', W+'Columbia_Sportswear'),
+ 'Hunter': ('Pall Mall Legacy (majority owner)', '', W+'Hunter_Boot_Ltd'),
+ 'Fila': ('Misto Holdings', '', W+'Fila_(company)'),
+ 'Roger Vivier': ("Tod's Group", '1995', W+'Tod%27s'),
+}

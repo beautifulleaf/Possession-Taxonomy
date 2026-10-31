@@ -1,19 +1,19 @@
-# V4_A5_WRIST report
+# V4_A5_WRIST report (round 2)
 
-Part file: `rebuild/out/A5_parts/WRIST.json` (replaces "Wristwatches"). Validator OK: 28 kinds, 277 entries, about 244 KB.
+Part file `rebuild/out/A5_parts/WRIST.json` replaces "Wristwatches". Validator OK: 29 kinds, 420 entries (184 originally), about 315 KB. Source log: `work/V4_A5_WRIST/sources.tsv` (all fetches, backfilled from Breitling onwards).
 
-**Entries before → after (all kinds):** 184 → 277. Largest: Digital watch 11 → 38 (G-Shock series from the G-Shock page), Dress watch 24 → 39, Dive 30 → 32, Chronograph 23 → 30, Pilot 11 → 20. Each kind has `nl`, `sel` with coverage line, `xg` (maker country, maker, year); each entry has `g`, `own`, `cty`, and `tier`/`own_y` where a fetched page supports them. About 8 role badges (origin or landmark), each per a fetched page.
+**Entries before → after (largest):** Digital 11 → 39, Dress 24 → about 75, Chronograph 23 → about 55, Dive 30 → about 45, Pilot 11 → about 30. New shelf "Movements" with kind "Watch movement": 0 → 17 calibres. Trench watch 0 → 1 (Waltham trench watch, 1914). Skeleton watch 0 → 3 (Santos de Cartier, Crash and Monaco skeleton versions, from Watchbase).
 
-**References:** Wikipedia pages of 26 makers/lines (Rolex, Omega, Seiko, G-Shock, Grand Seiko, Patek, AP, Cartier, Breitling, TAG Heuer, IWC, JLC, Longines, Tudor, Hamilton, Zenith, Tissot, Panerai, Vacheron, Swatch, Bulova, Lange, Hublot, Junghans, Citizen, Casio); Category:Watch models and its Rolex (15 of 15), Omega (10), Casio (11), Timex (4) subcategories; Wikidata instances of watch (Q178794, 141 items, about 50 named wristwatch models, rest are museum objects).
+**References:** Wikipedia pages of about 45 makers and lines, Category:Watch models and its Rolex, Omega, Casio and Timex subcategories, Wikidata watch class Q178794, and Watchbase family lists through Firecrawl for nine makers (Rolex, Omega, Patek Philippe, Audemars Piguet, Cartier, Breitling, TAG Heuer, IWC, Jaeger-LeCoultre). Calibres from Wikipedia (ETA, List of ETA Movements, Valjoux 7750, Miyota, Co-axial escapement) and Caliber Corner (ETA 2824-2, Sellita SW200-1, Seiko NH35, Rolex 3135).
 
-**Loose models (51 `m`):** converted to versions where the line is an entry (Royal Oak Perpetual Calendar and Repeater Supersonnerie, Code 11.59 RD#4, Octo Finissimo Ultra Tourbillon, Portugieser Grande Complication); promoted to entries (Omega Bullhead, IWC Grande Complication 3770); the rest removed as single-SKU pieces of independents with no page fetched this session (Mr Jones, Ming, Voutilainen, Kudoke, MeisterSinger, Laurent Ferrier, Andersen, Daniel Roth, Chopard, Dior, Genta and others; list in `work/V4_A5_WRIST/removed.json`).
+**Market facts added:** owners and years from the maker pages: Sinn (Lothar Schmidt, 1994), Oris (management buyout 1982), Orient (Seiko Epson, majority 2001), Rado (ASUAG 1968), Piaget (1988), Montblanc (Richemont 1993), Glashütte Original (Swatch Group 2000), Breguet (Swatch Group 1999), F.P. Journe (Chanel 20 %, 2018), MB&F (Chanel 25 %, 2024), Richard Mille (private group). 15 more brand-register entries. Earlier panel (17 market facts) is unchanged.
 
-**Market layer:** `ms` has 17 facts: Swiss exports CHF 25,552 million in 2025 (-1.7 %), US about 17 %; Morgan Stanley/LuxeConsult shares for 2024 (Rolex about 32 %, Big Four 47 %, LVMH just under 6 %) and 2025 turnover (Rolex about CHF 11 bn, Cartier 3.5 to 3.6, AP 2.6, Patek 2.5, Omega 2.2, Richard Mille 1.7); group revenue for Swatch Group, Richemont, Citizen, Seiko, Casio, Fossil, Movado; Patek and AP output. Owner years: Longines 1983, Blancpain 1992, Breguet 1999, Vacheron 1996, IWC/JLC/Lange 2000, TAG Heuer/Zenith 1999, Hublot 2008, Bulgari 2011, Bulova 2008, Zodiac 2001, Breitling 2022, Patek (Stern) 1932, Junghans 2008. Tiers: Global group = Swatch, Richemont, LVMH; National champion = Seiko, Grand Seiko, Citizen, Casio; others Independent. 12 brand-register entries added, 35 brand updates.
+**Moves to D2 (Wearables):** Smartwatch (I'm Watch, Fossil Wrist PDA, TAG Heuer Connected) and Multisport GPS watch (Garmin Forerunner 2003, fēnix 2012, Descent 2017). D2 already has both kinds, so these are merge entries.
 
-**Not sourced / short:**
-- Watchbase was not tried (blocked per earlier report); makers without a fetched page (Sinn, Oris, Nomos, Orient, Richard Mille, F.P. Journe, MB&F, Urwerk and others) keep earlier entries, with `own` "owner not stated" and no tier.
-- Richard Mille, Tour de l'Île, Rodina watch II pages returned 404; Hamilton's SSIH sale date conflicts (1971 or 1974), so no `own_y`.
-- Swatch Group and Richemont maker-share percentages appeared only in search snippets, so are not used.
-- No movement kind: calibres are named in entry text only where a fetched page gives them (Spring Drive, El Primero, Miyota); ETA 2824, Valjoux 7750, NH35 were not fetched.
-- Trench watch and Skeleton watch kinds have no entries. Fossil Wrist PDA and I'm Watch (smartwatches) are not moved; no D2 kind was named for them.
-- About 62 fetches including 2 Wikidata queries; Firecrawl not used.
+**Could not be sourced:**
+- Pages not retrievable: Seiko Prospex/Presage (404), Tour de l'Île, Rodina watch II, Sellita and Zenith El Primero Wikipedia pages (404), Miyota 8215 and Omega 8500 Caliber Corner pages (403), Rolex 3235 (403), Fratello Omega 8500 (no body). Omega 8500, 3861, Rolex 3235, Sellita SW500 and Seiko 6R are therefore not listed.
+- Wikipedia "Urwerk" is a band page; Urwerk was read from urwerk.com/story instead (owner not stated).
+- Tier and acquisition year still missing, with `own` "owner not stated" (42 entries): Baltic, Chanel, Chopard, Christopher Ward, Doxa, Gallet, Girard-Perregaux, Glycine, Greubel Forsey, Lorier, Nomos, Philippe Dufour, Poljot, Sellita, Sinclair Radionics, Tutima, Universal Genève, Urwerk, Vostok, Waltham and the W.W.W. makers.
+- Own-year gaps: Omega, Tissot, Hamilton (1971 or 1974 conflict), Panerai, Cartier, Swatch brands (page gives no year).
+- Watchbase was read for nine makers only; Seiko, Tudor, Longines, Hamilton, Zenith, Tissot, Panerai, Vacheron, Lange and Citizen lines rest on Wikipedia. Watchbase calibre lists were not imported (movement kind limited to a fetched-page canon).
+- Casio G-Shock series are listed from the G-Shock page; SKU-level references stay versions.

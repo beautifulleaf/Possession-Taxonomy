@@ -140,8 +140,7 @@ addx(gv, ven_es + lal_es + [SEG])
 fz = [x for x in gv['x'] if x['n'] == 'Fazzoletto'][0]
 fz['v'].append({"n": "Handkerchief vase, V&A", "mk": "Venini", "y": "1949", "d": "designed by Fulvio Bianconi; held by the V&A"})
 gv['sel'] = ("Follows the V&A's Venini (38 objects) and Lalique glassworks (47 objects) records, every vase listed on each; the ADI Design Museum's Compasso d'Oro collection (Seguso 9822, 1954); and the house pages already cited. "
-             "Complete: %d named vases, the 9 Venini and 10 Lalique vases not already listed plus the Seguso vase; bowls, bottles, goblets and figures on those V&A pages are held under their own kinds or left out." % len(gv['x']))
-gv['sel'] = re.sub(r'Complete: \d+ named', 'Complete: %d named' % len(gv['x']), gv['sel'])
+             "Covers %d named vases: every titled Lalique vase on the V&A page, the titled Venini vases, and the Seguso vase; three untitled or later Venini vases (c. 1951, Asti 1970, Bellini 1992) and the bowls, bottles, goblets and figures on those pages are not added." % len(gv['x']))
 # Omaggio
 eth = K['Earthenware & stoneware vase']
 addx(eth, [E("Omaggio vase", "Kähler stoneware-glaze vase designed by Ditte Reckweg and Jelena Schou Nordentoft of Stilleben, sold in H 20 cm and H 31 cm.",
