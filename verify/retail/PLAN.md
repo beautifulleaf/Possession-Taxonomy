@@ -30,3 +30,4 @@ Rules for the enrichment pass:
 - INDEX CLEANUP (F1): register 'Linn' row carries E3 (likely Roger Linn's drum machines, a different company) — split.
 - INDEX CLEANUP (E3): register 'King' row tagged J8 (crisps) and E3 — split.
 - H1 and H4 final rounds run as parallel parts writing separate files (H1_trad/H1_quality/H1_portfolio.json; H4.json + H4_countries.json); the audit reads all parts.
+- INDEX CLEANUP (G1): rows mixing different companies — Jaguar (A5 Festina watches), Ferrari (J7 Ferrari Trento), Yeti, Bell, Sunbeam, Imperial, Alpina, Suzuki, Proton, Benelli, Singer; Koenigsegg duplicated.

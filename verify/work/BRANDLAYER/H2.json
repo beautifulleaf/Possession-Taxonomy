@@ -2,7 +2,29 @@
  "cat": "H2",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Hearing > Ear-worn hearing devices",
+   "queries": [
+    "Which? best hearing aids brands tested",
+    "Stiftung Warentest Hörgeräte Test Hersteller"
+   ],
+   "found": 5,
+   "note": "CR OTC page fetched; Stiftung Warentest has no brand test of hearing aids (only acousticians/batteries/hearables - excerpt)"
+  },
+  {
+   "axis": "kind",
+   "item": "Monitors, tests & dosing > Vital signs",
+   "queries": [
+    "BIHS validated blood pressure monitors list",
+    "STRIDE BP validated monitors",
+    "best blood pressure monitors independent test"
+   ],
+   "found": 72,
+   "note": "STRIDE home list fetched"
+  }
+ ],
  "regions": [],
  "sources": [
   {
@@ -54,6 +76,16 @@
    "new_names": 58,
    "status": "done",
    "note": "Homonym check needed: Citizen, Philips, Panasonic, Braun, Terumo, Medicare, Oregon, Welch Allyn, Hartmann may be same as other-category brand; merge to decide 16 already in register"
+  },
+  {
+   "url": "https://www.consumerreports.org/health/hearing-aids/best-over-the-counter-hearing-aids-review-a7906529120/",
+   "title": "CR Best Over-the-Counter Hearing Aids 2026",
+   "kind": "ranking",
+   "years": "2023-2026",
+   "names_on_page": 5,
+   "new_names": 1,
+   "status": "done",
+   "note": "Also tested, not recommended-by-name in excerpt: Yeasound, Soundbright, Elehear, Concha Labs, Audien (not recorded) 4 already in register"
   }
  ],
  "brands": [
@@ -866,6 +898,15 @@
    "says": "Manufacturer has a device on the STRIDE BP validated-devices list (clinically validated accuracy)",
    "country": "",
    "dept": "Blood-pressure monitor",
+   "already": false
+  },
+  {
+   "n": "Lexie",
+   "layer": "premium",
+   "src": "https://www.consumerreports.org/health/hearing-aids/best-over-the-counter-hearing-aids-review-a7906529120/",
+   "says": "Consumer Reports tested and recommended an OTC hearing aid (Lexie B2 Plus powered by Bose, Eargo 8/SE, Sony CRE-C20, Sennheiser All Day Clear Slim)",
+   "country": "",
+   "dept": "Hearing aids",
    "already": false
   }
  ]
