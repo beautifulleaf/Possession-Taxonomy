@@ -18,4 +18,3 @@ Collected from BRANDLAYER and retailer work; one line per page, with why it matt
 | A1–B5 | Italian Marchi Storici register (category view) | database only | historic Italian makers in every category |
 | J2, J4, J5, J8 | EU eAmbrosia register of PDO/PGI names (fish, fruit and vegetables, olive oils, bakery) — or its CSV export | JavaScript app, empty to every fetcher | protected-name lists |
 | J7 | IDAC 2019 press kit PDF (Normandy cider, perry and pommeau appellations) | all fetchers fail | appellation list |
-| B4 | MoMA collection search "vase", results 43–178 | behind a JS "Show more" button | design-collection vases |

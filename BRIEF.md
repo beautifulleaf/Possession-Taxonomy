@@ -123,3 +123,7 @@ Agreed with the owner on 2026-10-17.
 ## Regional sweeps are not quotas (owner, 2026-10-31)
 "Gaps for D2 are understandable since there's legitimately a global monopoly in those industries, I definitely don't want to force it, it is more relevant for unique traditional items (like bodycare products, Japanese puzzle boxes, etc)."
 → In globally concentrated industries (phones, computers, cameras, other electronics), a region with no makers of note is a valid result: log the sweep as "global market, nothing distinctive" and move on. Push hard on regional discovery where traditions make goods distinctive (body care, crafts, food, textiles, puzzle boxes and similar).
+
+## Museum design collections belong to Visual Entertainment (owner, 2026-10-31)
+"The MoMa stuff is probably more appropriate for a design section in the VE taxonomy anyway, it isnt like it's available to purchase."
+→ Do not mine museum collection listings (MoMA and similar) for kinds or archetypes here. A designed object stays in this taxonomy only as something a person can buy (new, reissued or second-hand), sourced to a page about the product or its maker; a museum holding may still be cited as a brand's or design's standing, but is not a reason to add an entry.

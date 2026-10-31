@@ -173,6 +173,25 @@
    ],
    "found": 14,
    "note": "Gardone Val Trompia: only Beretta page seen via search excerpt, no fetched makers list yet"
+  },
+  {
+   "axis": "kind",
+   "item": "Armour & shields (reproduction)",
+   "queries": [
+    "best historical plate armour makers armourers directory"
+   ],
+   "found": 3,
+   "note": "only retailer blog; Avalon/Armour Class etc. not found on a fetched page"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "Uzbek pichak knife makers Shahrisabz Chust masters",
+    "Kubachi Dagestan masters"
+   ],
+   "found": 1,
+   "note": "Chust/Shakhrikhan tradition; Kubachi names only on unfetched page"
   }
  ],
  "regions": [
@@ -443,6 +462,24 @@
     "Francotte",
     "Defourny",
     "Dumoulin"
+   ]
+  },
+  {
+   "region": "Czechia",
+   "speciality": "reproduction plate armour workshops, exported worldwide",
+   "src": "https://www.outfit4events.com/eur/articles/historical-armor/armourers-and-the-production-of-plate-armour",
+   "brands": [
+    "Klepáč (armourers)",
+    "Brožka (armourers)",
+    "Nádvorník (armourers)"
+   ]
+  },
+  {
+   "region": "Central Asia (Uzbekistan, Fergana Valley)",
+   "speciality": "pichak knives of Shakhrikhan, hereditary blacksmiths (9 generations)",
+   "src": "http://chessnok.kz/uzbek-knife-english",
+   "brands": [
+    "Umarov Muzaffar (Shakhrikhan pichok)"
    ]
   }
  ],
@@ -746,6 +783,26 @@
    "new_names": 4,
    "status": "done",
    "note": "Liege makers named; proof-house statistics only"
+  },
+  {
+   "url": "https://www.outfit4events.com/eur/articles/historical-armor/armourers-and-the-production-of-plate-armour",
+   "title": "Armourers and the production of plate armour (Outfit4Events retailer blog)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 3,
+   "status": "done",
+   "note": "retailer statement: about 10 Czech plate-armour workshops, these three most famous; listed-level"
+  },
+  {
+   "url": "http://chessnok.kz/uzbek-knife-english",
+   "title": "Uzbek knives, Master Umarov Muzaffar (seller page)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "seller page; Shakhrikhan blacksmiths 9 generations"
   }
  ],
  "brands": [
@@ -3297,6 +3354,39 @@
    "says": "last of Liege bespoke makers; Tsar Nicholas II owned Lebeau guns",
    "country": "Belgium",
    "dept": "shotguns"
+  },
+  {
+   "n": "Klepáč (armourers)",
+   "layer": "premium",
+   "src": "https://www.outfit4events.com/eur/articles/historical-armor/armourers-and-the-production-of-plate-armour",
+   "says": "named among most famous Czech plate armour workshops, exported to Germany, Italy, France, Australia, USA (retailer statement; listed-level)",
+   "country": "Czechia",
+   "dept": "reproduction plate armour"
+  },
+  {
+   "n": "Brožka (armourers)",
+   "layer": "premium",
+   "src": "https://www.outfit4events.com/eur/articles/historical-armor/armourers-and-the-production-of-plate-armour",
+   "says": "named among most famous Czech plate armour workshops (retailer statement; listed-level)",
+   "country": "Czechia",
+   "dept": "reproduction plate armour"
+  },
+  {
+   "n": "Nádvorník (armourers)",
+   "layer": "premium",
+   "src": "https://www.outfit4events.com/eur/articles/historical-armor/armourers-and-the-production-of-plate-armour",
+   "says": "named among most famous Czech plate armour workshops (retailer statement; listed-level)",
+   "country": "Czechia",
+   "dept": "reproduction plate armour"
+  },
+  {
+   "n": "Umarov Muzaffar (Shakhrikhan pichok)",
+   "layer": "cultural",
+   "src": "http://chessnok.kz/uzbek-knife-english",
+   "says": "master blacksmith (pichokchi) of Shakhrikhan pichoks, Fergana Valley; seller page",
+   "country": "Uzbekistan",
+   "dept": "Central Asian knives",
+   "role": "seller"
   }
  ]
 }
