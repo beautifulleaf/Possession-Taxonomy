@@ -1,0 +1,890 @@
+{
+ "cat": "B10",
+ "status": "partial",
+ "brand_led": true,
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Dogs",
+   "queries": [
+    "dog harness/lead/bed best brands tested"
+   ],
+   "found": 0,
+   "note": "partial: see sources"
+  },
+  {
+   "axis": "kind",
+   "item": "Horses & riding",
+   "queries": [
+    "saddle makers lists, SMS"
+   ],
+   "found": 0,
+   "note": "partial: see sources"
+  },
+  {
+   "axis": "kind",
+   "item": "Aquariums",
+   "queries": [
+    "PFK poll, filters"
+   ],
+   "found": 0,
+   "note": "partial: see sources"
+  },
+  {
+   "axis": "kind",
+   "item": "Birds",
+   "queries": [
+    "bird feeders; falconry"
+   ],
+   "found": 0,
+   "note": "partial: see sources"
+  },
+  {
+   "axis": "kind",
+   "item": "Beekeeping",
+   "queries": [
+    "beekeeping suppliers"
+   ],
+   "found": 0,
+   "note": "partial: see sources"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "German/English saddle makers"
+   ],
+   "found": 10,
+   "note": "England, Germany covered for saddlery/aquaria"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Western saddle makers; bird feeders"
+   ],
+   "found": 6,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Australian saddlery"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "falconry equipment"
+   ],
+   "found": 1,
+   "note": "Saeed Sons; more needed"
+  }
+ ],
+ "regions": [
+  {
+   "region": "England (Walsall, West Midlands)",
+   "speciality": "Saddle making; Walsall called the heart of the UK saddle industry since the 18th century",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "brands": [
+    "Albion Saddlemakers",
+    "Ideal Saddles",
+    "Fairfax Saddles",
+    "Frank Baines",
+    "Black Country Saddles"
+   ]
+  },
+  {
+   "region": "Germany (Munich, Langenhagen, Kempen)",
+   "speciality": "Dressage/jumping saddles and bridles, handmade; Kieffer 1848, Passier 1867, Stübben",
+   "src": "https://passier.com/en",
+   "brands": [
+    "Passier",
+    "Stübben",
+    "Kieffer"
+   ]
+  },
+  {
+   "region": "USA (Texas/Oklahoma)",
+   "speciality": "Handmade Western saddles",
+   "src": "https://genuinebillycook.com/pages/about-us",
+   "brands": [
+    "Billy Cook",
+    "Circle Y",
+    "Martin Saddlery",
+    "Tucker Saddles"
+   ]
+  },
+  {
+   "region": "Australia",
+   "speciality": "Stock saddles, half-breed and western saddlery",
+   "src": "https://www.sydhill.com.au/collections/saddles",
+   "brands": [
+    "Syd Hill",
+    "Wintec"
+   ]
+  },
+  {
+   "region": "Germany",
+   "speciality": "Aquarium filters, planted-tank and nano aquascaping equipment, complete aquarium systems",
+   "src": "https://aqua-verdict.com/brands",
+   "brands": [
+    "Eheim",
+    "Oase",
+    "Dennerle",
+    "JBL",
+    "Juwel",
+    "Tetra",
+    "Sera"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "Aquascaping equipment (ADA), premium fish food (Hikari)",
+   "src": "https://aqua-verdict.com/brands",
+   "brands": [
+    "ADA",
+    "Hikari"
+   ]
+  },
+  {
+   "region": "Canada",
+   "speciality": "Aquarium equipment (Rolf C. Hagen/Fluval)",
+   "src": "https://www.practicalfishkeeping.co.uk/fishkeeping-news/readers-top-shops-2013",
+   "brands": [
+    "Rolf C. Hagen",
+    "Fluval"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "title": "WP Cat food/Dog food/Fish food brands",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 47,
+   "new_names": 24,
+   "status": "done",
+   "note": " known=23"
+  },
+  {
+   "url": "https://www.treelinereview.com/gearreviews/best-dog-harnesses",
+   "title": "Treeline Review best dog harnesses 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 6,
+   "new_names": 3,
+   "status": "done",
+   "note": " known=3"
+  },
+  {
+   "url": "https://www.nytimes.com/wirecutter/reviews/best-everyday-dog-leash",
+   "title": "Wirecutter best dog leash / harness / bed",
+   "kind": "ranking",
+   "years": "2017-2026",
+   "names_on_page": 4,
+   "new_names": 2,
+   "status": "done",
+   "note": "Orvis is bed pick known=2"
+  },
+  {
+   "url": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "title": "Saddle Bank UK saddle maker list",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 28,
+   "new_names": 27,
+   "status": "done",
+   "note": " known=1"
+  },
+  {
+   "url": "https://runequestrian.com/top-reliable-horse-saddle-manufacturers",
+   "title": "Run Equestrian top saddle manufacturers 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 7,
+   "new_names": 4,
+   "status": "done",
+   "note": " known=3"
+  },
+  {
+   "url": "https://kieffer.net/en/pages/about-the-kieffer-brand",
+   "title": "Brand heritage pages (Kieffer 1848 Munich, Passier 1867, Syd Hill)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "done",
+   "note": " known=1"
+  },
+  {
+   "url": "https://www.practicalfishkeeping.co.uk/fishkeeping-news/readers-top-shops-2013",
+   "title": "Practical Fishkeeping Readers' Poll 2010 and 2013 (manufacturer/product awards)",
+   "kind": "award",
+   "years": "2010,2013",
+   "names_on_page": 12,
+   "new_names": 5,
+   "status": "done",
+   "note": "PFK readers' poll; 2025 page lists retailers only known=7"
+  },
+  {
+   "url": "https://www.practicalfishkeeping.co.uk/features/buyers-guide-to-external-filters",
+   "title": "Practical Fishkeeping buyer's guide to external filters",
+   "kind": "ranking",
+   "years": "2016",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "done",
+   "note": " known=4"
+  },
+  {
+   "url": "https://aqua-verdict.com/brands",
+   "title": "AquaVerdict aquarium brands compared",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 10,
+   "new_names": 2,
+   "status": "done",
+   "note": " known=8"
+  },
+  {
+   "url": "https://reefoctopus.com/product/octo-classic-protein-skimmers-int",
+   "title": "Reef Octopus (Honya) protein skimmers",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": " known=1"
+  },
+  {
+   "url": "https://www.nytimes.com/wirecutter/reviews/best-bird-feeders",
+   "title": "Wirecutter best bird feeders",
+   "kind": "ranking",
+   "years": "2015-2026",
+   "names_on_page": 4,
+   "new_names": 4,
+   "status": "done",
+   "note": "Droll Yankees since 1969, first commercial tube feeder known=0"
+  },
+  {
+   "url": "https://www.saeedsonsfalconry.com/",
+   "title": "Saeed Sons Falconry",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker's own site known=0"
+  },
+  {
+   "url": "https://www.mannlakeltd.com/",
+   "title": "Mann Lake",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": " known=1"
+  }
+ ],
+ "brands": [
+  {
+   "n": "9Lives",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "The Goodlife Recipe",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Natural Balance",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Nature's Variety",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "PrettyLitter",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Top Cat",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Beggin' Strips",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Bonio",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Frosty Paws",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Gaines-Burgers",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Gravy Train",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Ken-L Ration",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Kennomeat",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Kibbles 'n Bits",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Ol' Roy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Spratt's",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Wellness Pet Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Winalot",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Bob Martin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Huds and Toke",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Red Dog Blue Kat",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Sera",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Wardley",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Tom Balding Bits & Spurs",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dog_food_brands",
+   "says": "Wikipedia category of dog/cat/fish food brands",
+   "country": "",
+   "dept": "Dogs/Cats/Aquariums food"
+  },
+  {
+   "n": "Non-stop dogwear",
+   "layer": "premium",
+   "src": "https://www.treelinereview.com/gearreviews/best-dog-harnesses",
+   "says": "Treeline award winner / tested dog harness",
+   "country": "",
+   "dept": "Dogs: harness"
+  },
+  {
+   "n": "Wilderdog",
+   "layer": "premium",
+   "src": "https://www.treelinereview.com/gearreviews/best-dog-harnesses",
+   "says": "Treeline award winner / tested dog harness",
+   "country": "",
+   "dept": "Dogs: harness"
+  },
+  {
+   "n": "rabbitgoo",
+   "layer": "premium",
+   "src": "https://www.treelinereview.com/gearreviews/best-dog-harnesses",
+   "says": "Treeline award winner / tested dog harness",
+   "country": "",
+   "dept": "Dogs: harness"
+  },
+  {
+   "n": "Tuff Mutt",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/wirecutter/reviews/best-everyday-dog-leash",
+   "says": "Wirecutter pick (leash, harness, bed)",
+   "country": "",
+   "dept": "Dogs: lead, harness, bed"
+  },
+  {
+   "n": "Canis Mountain Outfitters",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/wirecutter/reviews/best-everyday-dog-leash",
+   "says": "Wirecutter pick (leash, harness, bed)",
+   "country": "",
+   "dept": "Dogs: lead, harness, bed"
+  },
+  {
+   "n": "Albion Saddlemakers",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Andrea Hicks",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Barnsby",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Black Country Saddles",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Bliss of London",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Cavaletti Collection",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Chunky Monkey",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Comfort Elite",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Fairfax Saddles",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Farrington's Saddles",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Frank Baines",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Fylde Saddlery",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "GFS Saddles",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Hastilow & Sons",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Ideal Saddles",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Exselle",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Jeffries",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "John Whitaker",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Kent & Masters",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Loxley by Bliss",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Optimum Performance",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Paul Jones",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Ryder Saddles",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "The Saddle Company",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Sankey",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Thorowgood",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Winners Circle",
+   "layer": "premium",
+   "src": "https://www.thesaddlebank.com/blog/saddle-maker-list",
+   "says": "listed as UK saddle maker/brand; Walsall heart of UK saddle making",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Circle Y",
+   "layer": "premium",
+   "src": "https://runequestrian.com/top-reliable-horse-saddle-manufacturers",
+   "says": "listed among top 8 reliable saddle manufacturers",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Billy Cook",
+   "layer": "premium",
+   "src": "https://runequestrian.com/top-reliable-horse-saddle-manufacturers",
+   "says": "listed among top 8 reliable saddle manufacturers",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Tucker Saddles",
+   "layer": "premium",
+   "src": "https://runequestrian.com/top-reliable-horse-saddle-manufacturers",
+   "says": "listed among top 8 reliable saddle manufacturers",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Martin Saddlery",
+   "layer": "premium",
+   "src": "https://runequestrian.com/top-reliable-horse-saddle-manufacturers",
+   "says": "listed among top 8 reliable saddle manufacturers",
+   "country": "",
+   "dept": "Horses: saddles"
+  },
+  {
+   "n": "Kieffer",
+   "layer": "premium",
+   "src": "https://kieffer.net/en/pages/about-the-kieffer-brand",
+   "says": "Founded 1848 Munich as royal court supplier; one of Europe's most renowned equestrian brands",
+   "country": "",
+   "dept": "Horses: saddles/tack"
+  },
+  {
+   "n": "Passier",
+   "layer": "premium",
+   "src": "https://kieffer.net/en/pages/about-the-kieffer-brand",
+   "says": "Founded 1848 Munich as royal court supplier; one of Europe's most renowned equestrian brands",
+   "country": "",
+   "dept": "Horses: saddles/tack"
+  },
+  {
+   "n": "TMC",
+   "layer": "premium",
+   "src": "https://www.practicalfishkeeping.co.uk/fishkeeping-news/readers-top-shops-2013",
+   "says": "Manufacturer/product of the year or runner-up in PFK Readers' Poll",
+   "country": "",
+   "dept": "Aquariums/ponds"
+  },
+  {
+   "n": "Aqua One",
+   "layer": "premium",
+   "src": "https://www.practicalfishkeeping.co.uk/fishkeeping-news/readers-top-shops-2013",
+   "says": "Manufacturer/product of the year or runner-up in PFK Readers' Poll",
+   "country": "",
+   "dept": "Aquariums/ponds"
+  },
+  {
+   "n": "Kockney Koi",
+   "layer": "premium",
+   "src": "https://www.practicalfishkeeping.co.uk/fishkeeping-news/readers-top-shops-2013",
+   "says": "Manufacturer/product of the year or runner-up in PFK Readers' Poll",
+   "country": "",
+   "dept": "Aquariums/ponds"
+  },
+  {
+   "n": "D-D The Aquarium Solution",
+   "layer": "premium",
+   "src": "https://www.practicalfishkeeping.co.uk/fishkeeping-news/readers-top-shops-2013",
+   "says": "Manufacturer/product of the year or runner-up in PFK Readers' Poll",
+   "country": "",
+   "dept": "Aquariums/ponds"
+  },
+  {
+   "n": "ALF",
+   "layer": "premium",
+   "src": "https://www.practicalfishkeeping.co.uk/fishkeeping-news/readers-top-shops-2013",
+   "says": "Manufacturer/product of the year or runner-up in PFK Readers' Poll",
+   "country": "",
+   "dept": "Aquariums/ponds"
+  },
+  {
+   "n": "Juwel",
+   "layer": "premium",
+   "src": "https://aqua-verdict.com/brands",
+   "says": "brand profile: German canister/planted-tank specialist",
+   "country": "",
+   "dept": "Aquariums"
+  },
+  {
+   "n": "Dennerle",
+   "layer": "premium",
+   "src": "https://aqua-verdict.com/brands",
+   "says": "brand profile: German canister/planted-tank specialist",
+   "country": "",
+   "dept": "Aquariums"
+  },
+  {
+   "n": "Droll Yankees",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/wirecutter/reviews/best-bird-feeders",
+   "says": "tested brands/picks: Droll Yankees tube feeders, Aspects, Wild Birds Unlimited, Perky-Pet",
+   "country": "",
+   "dept": "Birds: wild bird feeders"
+  },
+  {
+   "n": "Aspects",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/wirecutter/reviews/best-bird-feeders",
+   "says": "tested brands/picks: Droll Yankees tube feeders, Aspects, Wild Birds Unlimited, Perky-Pet",
+   "country": "",
+   "dept": "Birds: wild bird feeders"
+  },
+  {
+   "n": "Perky-Pet",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/wirecutter/reviews/best-bird-feeders",
+   "says": "tested brands/picks: Droll Yankees tube feeders, Aspects, Wild Birds Unlimited, Perky-Pet",
+   "country": "",
+   "dept": "Birds: wild bird feeders"
+  },
+  {
+   "n": "More Birds",
+   "layer": "premium",
+   "src": "https://www.nytimes.com/wirecutter/reviews/best-bird-feeders",
+   "says": "tested brands/picks: Droll Yankees tube feeders, Aspects, Wild Birds Unlimited, Perky-Pet",
+   "country": "",
+   "dept": "Birds: wild bird feeders"
+  },
+  {
+   "n": "Saeed Sons Falconry",
+   "layer": "cultural",
+   "src": "https://www.saeedsonsfalconry.com/",
+   "says": "falconry equipment maker/seller (hoods, jesses, gloves; Arabian styles; ships Gulf/Pakistan)",
+   "country": "",
+   "dept": "Birds: falconry"
+  }
+ ]
+}

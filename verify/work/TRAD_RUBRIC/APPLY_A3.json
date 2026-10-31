@@ -1,0 +1,336 @@
+{
+ "cat": "A3",
+ "items": [
+  {
+   "rubric_id": 1,
+   "tradition": "Victorian mourning jewellery",
+   "decision": "add_kind",
+   "dept": "Necklaces & pendants",
+   "shelf": "Pendants, lockets & charms",
+   "kind": "",
+   "record": {
+    "n": "Mourning jewellery",
+    "a": "memorial jewellery · hair jewellery · Whitby jet mourning jewellery",
+    "d": "Jewellery worn as a sign of mourning, made specifically for it from the 16th century and at its peak in the second half of the 19th century, often of jet, black enamel or the deceased's hair.",
+    "s": "https://en.wikipedia.org/wiki/Mourning_jewelry"
+   },
+   "makers": [],
+   "ve_link": "Victorian mourning jewellery",
+   "why": "A bought and owned jewellery type (rings, lockets, brooches); spans forms, so a kind on the lockets shelf rather than the rings-only Memento mori ring (which keeps 'mourning ring')."
+  },
+  {
+   "rubric_id": 2,
+   "tradition": "Navajo silversmithing",
+   "decision": "add_kind",
+   "dept": "Traditional & regional jewellery",
+   "shelf": "Native American jewellery",
+   "kind": "",
+   "record": {
+    "n": "Navajo silver jewellery",
+    "a": "Navajo silverwork · Navajo turquoise jewellery",
+    "d": "Hammered, stamped or sand-cast silver jewellery made by Navajo smiths since the mid-19th century, set with turquoise from about 1880: bracelets, conchos, najas, bow guards and squash blossoms.",
+    "s": "https://heard.org/southwest-silverwork-1850-1940/"
+   },
+   "makers": [
+    {
+     "n": "Atsidi Sani (Herrero)",
+     "role": "maker",
+     "src": "https://heard.org/southwest-silverwork-1850-1940/"
+    },
+    {
+     "n": "Long Moustache",
+     "role": "maker",
+     "src": "https://heard.org/southwest-silverwork-1850-1940/"
+    }
+   ],
+   "ve_link": "Navajo silversmithing",
+   "why": "Named jewellery sold as Navajo silver; the existing Squash blossom and Concho belt kinds stay as forms, this kind holds the general Navajo silver piece."
+  },
+  {
+   "rubric_id": 4,
+   "tradition": "Kundan",
+   "decision": "add_kind",
+   "dept": "Traditional & regional jewellery",
+   "shelf": "South Asian jewellery",
+   "kind": "",
+   "record": {
+    "n": "Kundan jewellery",
+    "a": "kundan · jadau jewellery",
+    "d": "Traditional Indian gem-set jewellery in which stones are set with gold foil between them and the mount, centred on Jaipur and flourishing under Mughal patronage.",
+    "s": "https://en.wikipedia.org/wiki/Kundan"
+   },
+   "makers": [],
+   "ve_link": "Kundan",
+   "why": "Sold as 'kundan jewellery' (necklace sets etc.); the foil-setting method itself stays in Visual Entertainment."
+  },
+  {
+   "rubric_id": 5,
+   "tradition": "Polki",
+   "decision": "add_archetype",
+   "dept": "Traditional & regional jewellery",
+   "shelf": "South Asian jewellery",
+   "kind": "Kundan jewellery",
+   "record": {
+    "n": "Polki jewellery",
+    "a": "uncut diamond jewellery · polki",
+    "d": "Jewellery set with uncut, unpolished natural diamonds backed with gold or silver foil, brought to India by the Mughals; Bikaner is its present centre.",
+    "mk": "",
+    "y": "Mughal era",
+    "s": "https://www.naturaldiamonds.com/ae/visual-stories-ae/decoding-uncut-polki-diamonds",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Sunita Shekhawat",
+     "role": "maker",
+     "src": "https://www.naturaldiamonds.com/ae/visual-stories-ae/decoding-uncut-polki-diamonds"
+    },
+    {
+     "n": "Birdhichand Ghanshyamdas",
+     "role": "maker",
+     "src": "https://www.naturaldiamonds.com/ae/visual-stories-ae/decoding-uncut-polki-diamonds"
+    },
+    {
+     "n": "Jaipur Gems",
+     "role": "maker",
+     "src": "https://www.naturaldiamonds.com/ae/visual-stories-ae/decoding-uncut-polki-diamonds"
+    },
+    {
+     "n": "Neha Lulla Jewellery",
+     "role": "maker",
+     "src": "https://www.naturaldiamonds.com/ae/visual-stories-ae/decoding-uncut-polki-diamonds"
+    },
+    {
+     "n": "House of Rose",
+     "role": "maker",
+     "src": "https://www.naturaldiamonds.com/ae/visual-stories-ae/decoding-uncut-polki-diamonds"
+    },
+    {
+     "n": "Sona Chandi Jewellers",
+     "role": "maker",
+     "src": "https://www.naturaldiamonds.com/ae/visual-stories-ae/decoding-uncut-polki-diamonds"
+    },
+    {
+     "n": "Raniwala 1881",
+     "role": "maker",
+     "src": "https://www.naturaldiamonds.com/ae/visual-stories-ae/decoding-uncut-polki-diamonds"
+    },
+    {
+     "n": "Umrao Jewels",
+     "role": "maker",
+     "src": "https://www.naturaldiamonds.com/ae/visual-stories-ae/decoding-uncut-polki-diamonds"
+    }
+   ],
+   "ve_link": "Polki",
+   "why": "Polki is the stone; polki jewellery is kundan/jadau-set jewellery with uncut diamonds, so a version under the new Kundan jewellery kind (page: 'Polki is a stone, Jadau is the technique')."
+  },
+  {
+   "rubric_id": 6,
+   "tradition": "Jadau",
+   "decision": "technique_only",
+   "dept": "",
+   "shelf": "",
+   "kind": "",
+   "record": {},
+   "makers": [],
+   "ve_link": "Jadau",
+   "why": "Fetched page (naturaldiamonds.com polki article) defines jadau as the setting technique; the pieces it makes are already covered by Kundan jewellery (alias 'jadau jewellery') and Polki jewellery."
+  },
+  {
+   "rubric_id": 7,
+   "tradition": "Meenakari",
+   "decision": "technique_only",
+   "dept": "",
+   "shelf": "",
+   "kind": "",
+   "record": {},
+   "makers": [],
+   "ve_link": "Meenakari",
+   "why": "Ambiguous resolved: meenakari is enamelling applied to many objects (often the back of kundan pieces); it names a way of decorating, not a distinct jewellery product."
+  },
+  {
+   "rubric_id": 8,
+   "tradition": "Temple jewellery of Nagercoil",
+   "decision": "add_kind",
+   "dept": "Traditional & regional jewellery",
+   "shelf": "Regional Indian jewellery",
+   "kind": "",
+   "record": {
+    "n": "Nagercoil temple jewellery",
+    "a": "Temple Jewellery of Nagercoil (GI)",
+    "d": "Gold jewellery set with red and green 'kuchu kal' stones from the Nagercoil region of Tamil Nadu, first made to adorn temple idols and registered as a geographical indication in 2007–08.",
+    "s": "https://en.wikipedia.org/wiki/Temple_Jewellery_of_Nagercoil"
+   },
+   "makers": [],
+   "ve_link": "Temple jewellery of Nagercoil",
+   "why": "GI-protected product name."
+  },
+  {
+   "rubric_id": 9,
+   "tradition": "Thewa",
+   "decision": "add_kind",
+   "dept": "Traditional & regional jewellery",
+   "shelf": "South Asian jewellery",
+   "kind": "",
+   "record": {
+    "n": "Thewa jewellery",
+    "a": "thewa · Pratapgarh thewa",
+    "d": "Jewellery of intricately worked 23-carat gold sheet fused onto coloured glass, developed in Pratapgarh district, Rajasthan, and kept within the Raj-Soni family.",
+    "s": "https://en.wikipedia.org/wiki/Thewa"
+   },
+   "makers": [
+    {
+     "n": "Nathu ji Soni",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Thewa"
+    },
+    {
+     "n": "Mahesh Raj Soni",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Thewa"
+    },
+    {
+     "n": "Jagdish Lal Raj Soni",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Thewa"
+    },
+    {
+     "n": "Beni Ram Soni",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Thewa"
+    },
+    {
+     "n": "Girish Rajsoni",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Thewa"
+    }
+   ],
+   "ve_link": "Thewa",
+   "why": "Pieces are sold as thewa jewellery; one family workshop line."
+  },
+  {
+   "rubric_id": 10,
+   "tradition": "Tarakasi",
+   "decision": "add_kind",
+   "dept": "Traditional & regional jewellery",
+   "shelf": "Regional Indian jewellery",
+   "kind": "",
+   "record": {
+    "n": "Cuttack silver filigree jewellery",
+    "a": "Tarakasi · tarakashi",
+    "d": "Silver filigree jewellery from Cuttack, Odisha, a craft over 500 years old, especially anklets, arm jewellery, necklaces and the ornaments worn in Odissi dance.",
+    "s": "https://en.wikipedia.org/wiki/Tarakasi"
+   },
+   "makers": [],
+   "ve_link": "Tarakasi",
+   "why": "The page names filigree jewellery (anklets, necklaces, Odissi sets) as the product made in Cuttack."
+  },
+  {
+   "rubric_id": 11,
+   "tradition": "Zuni inlay and clusterwork",
+   "decision": "add_kind",
+   "dept": "Traditional & regional jewellery",
+   "shelf": "Native American jewellery",
+   "kind": "",
+   "record": {
+    "n": "Zuni inlay jewellery",
+    "a": "Zuni needlepoint · Zuni petit point · Zuni clusterwork",
+    "d": "Silver jewellery from Zuni Pueblo with inlaid stone patterns of turquoise, shell, coral, jet and other stones, and fine 'needlepoint' and 'petit point' turquoise settings.",
+    "s": "https://musnaz.org/?p=96381"
+   },
+   "makers": [],
+   "ve_link": "Zuni inlay and clusterwork",
+   "why": "Pieces sold as Zuni inlay/needlepoint jewellery."
+  },
+  {
+   "rubric_id": 12,
+   "tradition": "Hopi overlay",
+   "decision": "add_kind",
+   "dept": "Traditional & regional jewellery",
+   "shelf": "Native American jewellery",
+   "kind": "",
+   "record": {
+    "n": "Hopi overlay jewellery",
+    "a": "Hopi overlay silver",
+    "d": "Hopi silver jewellery in the overlay style developed from the late 1930s, suggested by the Museum of Northern Arizona and taken up by Paul Saufkie and Fred Kabotie.",
+    "s": "https://musnaz.org/?p=96381"
+   },
+   "makers": [
+    {
+     "n": "Hopi Silvercraft Cooperative Guild",
+     "role": "maker",
+     "src": "https://musnaz.org/?p=96381"
+    },
+    {
+     "n": "Paul Saufkie",
+     "role": "maker",
+     "src": "https://musnaz.org/?p=96381"
+    },
+    {
+     "n": "Fred Kabotie",
+     "role": "maker",
+     "src": "https://musnaz.org/?p=96381"
+    }
+   ],
+   "ve_link": "Hopi overlay",
+   "why": "A named jewellery style bought as such."
+  },
+  {
+   "rubric_id": 18,
+   "tradition": "Chinese jade carving",
+   "decision": "add_kind",
+   "dept": "Traditional & regional jewellery",
+   "shelf": "East Asian jewellery",
+   "kind": "",
+   "record": {
+    "n": "Chinese jade pendant",
+    "a": "yupei · jade pendant · huang pendant",
+    "d": "Pendants and beads carved from jade mined in China, worn since the Neolithic Hongshan culture, from half-ring huang pendants to Ming dynasty pendants.",
+    "s": "https://en.wikipedia.org/wiki/Chinese_jade"
+   },
+   "makers": [],
+   "ve_link": "Chinese jade carving",
+   "why": "Carving is the VE technique; the jade pendant is the bought piece. The page names pendants, not bangles, so the kind is the pendant only."
+  },
+  {
+   "rubric_id": 19,
+   "tradition": "Taxco silver",
+   "decision": "add_kind",
+   "dept": "Traditional & regional jewellery",
+   "shelf": "European, American & Oceanic jewellery",
+   "kind": "",
+   "record": {
+    "n": "Taxco silver jewellery",
+    "a": "Mexican silver · Taxco silver",
+    "d": "Silver jewellery made and sold in Taxco, Guerrero, whose silversmithing was revived by William Spratling's workshops from 1929 and now employs over 3,000 artisans.",
+    "s": "https://en.wikipedia.org/wiki/Taxco"
+   },
+   "makers": [
+    {
+     "n": "William Spratling",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Taxco"
+    },
+    {
+     "n": "Artemio Navarrete",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Taxco"
+    },
+    {
+     "n": "Alfonso Mondragón",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Taxco"
+    },
+    {
+     "n": "Wenceslao Herrera",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Taxco"
+    }
+   ],
+   "ve_link": "Taxco silver",
+   "why": "Origin-named product sold in Taxco silver shops."
+  }
+ ],
+ "done": true
+}
