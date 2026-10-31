@@ -143,6 +143,140 @@
    "queries": [],
    "found": 0,
    "note": "NOT TRIED"
+  },
+  {
+   "axis": "kind",
+   "item": "Pressed & hard cheese (consortium/PDO lists)",
+   "queries": [
+    "Parmigiano Reggiano caseifici elenco consorzio",
+    "Grana Padano produttori elenco",
+    "Gruyère AOP producteurs"
+   ],
+   "found": 78,
+   "note": "Parmigiano 53 of ~282, Grana Padano 8, Gruyère affineurs 11; Comté/Beaufort/Manchego/Feta/Bufala not tried"
+  },
+  {
+   "axis": "kind",
+   "item": "Cheese awards (Good Food Awards, WCA 2019/2022)",
+   "queries": [
+    "Good Food Awards cheese winners",
+    "World Cheese Awards 2022 2021 2019 super gold"
+   ],
+   "found": 160,
+   "note": "Good Food 2011-2026 done; WCA 2021 and 2020 not fetched; Great Taste/ICDA not tried"
+  },
+  {
+   "axis": "kind",
+   "item": "Butter & ghee",
+   "queries": [
+    "Échiré beurre AOP coopérative",
+    "best butter Isigny Echire",
+    "top ghee brands India"
+   ],
+   "found": 17,
+   "note": "Charentes-Poitou AOP dairies, TasteAtlas French butters, India top players; Échiré/Isigny independent awards seen only as search excerpts (Isigny Lyon gold 2025 via TasteAtlas)"
+  },
+  {
+   "axis": "kind",
+   "item": "Stretched, brined & dried cheese (halloumi)",
+   "queries": [
+    "Halloumi PDO registered producers Cyprus"
+   ],
+   "found": 8,
+   "note": "Cyprus exporters via trade brochure; Feta PDO, Mozzarella di Bufala, Manchego lists not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Dairy-free alternatives",
+   "queries": [
+    "best oat milk taste test Minor Figures Oatly Alpro"
+   ],
+   "found": 6,
+   "note": "Vegan Review barista test fetched; Wirecutter, Epicurious, Olive, Guardian (blocked earlier) only seen in excerpts"
+  },
+  {
+   "axis": "kind",
+   "item": "Cheesemongers (sellers)",
+   "queries": [
+    "Neal's Yard Dairy cheesemakers",
+    "best cheesemongers"
+   ],
+   "found": 12,
+   "note": "UK sellers via delicious.; Androuet, Murray's, La Fromagerie not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "top ghee brands India Gowardhan Amul Nandini Milma"
+   ],
+   "found": 36,
+   "note": "MoFPI dairy profile; Bangladesh category"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Wikipedia Category Dairy products companies Malaysia Thailand Philippines Indonesia"
+   ],
+   "found": 9,
+   "note": "Dutch Lady, Dutch Mill, CP-Meiji, Farm Chokchai, Greenfields, Magnolia (Philippine, homonym), Desa, Farm Fresh"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Wikipedia Category Dairy products companies of Argentina"
+   ],
+   "found": 5,
+   "note": "La Serenísima, SanCor, La Martona, Tregar, Grido; Cotija/Oaxaca/Mexico beyond earlier row not tried"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "Dairy products companies of Uganda, South Africa"
+   ],
+   "found": 8,
+   "note": "Uganda 7 firms, Clover Industries (homonym); Brookside (Kenya) not found"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Dairy products companies of Australia"
+   ],
+   "found": 22,
+   "note": "Australia category (ice-cream/burger entries skipped)"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Dairy products companies of Serbia"
+   ],
+   "found": 2,
+   "note": "Imlek, Mlekara Subotica; Poland/Lithuania/Baltics not tried"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Good Food Awards cheese winners"
+   ],
+   "found": 95,
+   "note": "US farmstead cheese 2011-2026; Canada not tried"
+  },
+  {
+   "axis": "region",
+   "item": "Western/Southern Europe (PDO cheeses)",
+   "queries": [
+    "Parmigiano Reggiano caseifici",
+    "Gruyère affineurs",
+    "Reblochon producers"
+   ],
+   "found": 100,
+   "note": "Italy, Switzerland, France, Spain via WCA 2019/2021"
   }
  ],
  "regions": [
@@ -253,6 +387,99 @@
    "speciality": "Reblochon de Savoie AOP",
    "src": "https://www.reblochon.fr/en/the-reblochon-pdo/specifications",
    "brands": []
+  },
+  {
+   "region": "United States (farmstead cheese: Vermont, California, Wisconsin, Oregon, Georgia, Tennessee)",
+   "speciality": "American artisan and farmstead cheese, judged blind by Good Food Awards 2011-2026",
+   "src": "https://goodfoodfdn.org/awards/winners/2024/cheese",
+   "brands": [
+    "Uplands Cheese",
+    "Point Reyes Farmstead Cheese",
+    "Rogue Creamery",
+    "Vermont Creamery",
+    "Jasper Hill Farm",
+    "Cowgirl Creamery",
+    "Sweet Grass Dairy",
+    "Bellwether Farms",
+    "Cascadia Creamery",
+    "Tomales Farmstead Creamery"
+   ]
+  },
+  {
+   "region": "Charentes-Poitou (Charente, Charente-Maritime, Deux-Sèvres, Vienne, Vendée), France",
+   "speciality": "Charentes-Poitou AOP butter, barrel-churned (Échiré since 1894)",
+   "src": "https://aop-beurre-charentes-poitou.fr/la-fabrication-en-laiterie",
+   "brands": [
+    "Échiré",
+    "Lescure",
+    "Laiterie Coopérative de Pamplie",
+    "Laiterie de Montaigu"
+   ]
+  },
+  {
+   "region": "Normandy (Isigny-sur-Mer), France",
+   "speciality": "Isigny AOP butter and cream",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "brands": [
+    "Isigny Sainte-Mère"
+   ]
+  },
+  {
+   "region": "Brittany, France",
+   "speciality": "hand-kneaded and raw-milk butter (Bordier, Le Ponclet)",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "brands": [
+    "Maison Bordier",
+    "Le Ponclet"
+   ]
+  },
+  {
+   "region": "Cyprus",
+   "speciality": "Halloumi/Hellim PDO (registered by EU April 2021), anari",
+   "src": "https://halloumi.cy/article/european-commission-registers-halloumi-pdo",
+   "brands": [
+    "Alambra (Petrou Bros)",
+    "Charalambides Christis",
+    "Papouis Dairies",
+    "Pantziarou Dairies",
+    "Olympus Foods Cyprus"
+   ]
+  },
+  {
+   "region": "India (Gujarat, Karnataka, Kerala, Tamil Nadu, Maharashtra, Punjab)",
+   "speciality": "dairy cooperatives (Anand pattern): milk, ghee, paneer, curd; Amul world's largest farmer-owned dairy cooperative",
+   "src": "https://amul.com/our-cooperative",
+   "brands": [
+    "Amul",
+    "Nandini",
+    "Milma",
+    "Aavin",
+    "Verka",
+    "Gokul",
+    "Warana",
+    "Sudha"
+   ]
+  },
+  {
+   "region": "Sweden",
+   "speciality": "oat drinks (Oatly) and pea milk (Sproud)",
+   "src": "https://www.theveganreview.com/whats-the-best-barista-milk-in-the-uk-we-tested-12-in-3-ways-to-find-out",
+   "brands": [
+    "Oatly",
+    "Sproud"
+   ]
+  },
+  {
+   "region": "Britain and Ireland (Somerset, Lancashire, Cheshire, Nottinghamshire)",
+   "speciality": "farmhouse territorial cheeses (Cheddar, Lancashire, Cheshire, Stilton) championed by Neal's Yard Dairy",
+   "src": "https://www.pastemagazine.com/food/cheese/pride-passion-and-cheese-a-week-with-neals-yard-da",
+   "brands": [
+    "Montgomery's Cheddar",
+    "Mrs Kirkham's Lancashire",
+    "Appleby's Cheshire",
+    "Colston Bassett Dairy",
+    "Neal's Yard Dairy"
+   ]
   }
  ],
  "sources": [
@@ -565,6 +792,106 @@
    "note": "2011-2014 not fetched (pages exist: /winners/2011..2014/cheese); 2016 excerpt partly elided 0 known",
    "names_on_page": 23,
    "new_names": 22
+  },
+  {
+   "url": "https://goodfoodfdn.org/awards/winners/2012/cheese",
+   "title": "Good Food Awards cheese winners 2011-2014 (/2011,/2013,/2014/cheese)",
+   "kind": "award",
+   "years": "2011-2014",
+   "status": "done",
+   "note": "with the 2015-2026 entries all Good Food cheese years 2011-2026 covered (2016 excerpt partly elided) 0 known",
+   "names_on_page": 13,
+   "new_names": 10
+  },
+  {
+   "url": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "title": "Parmigiano Reggiano consortium: World Cheese Awards 2021 medals",
+   "kind": "award",
+   "years": "2021",
+   "status": "partial",
+   "note": "excerpt shows part of the medal list 0 known",
+   "names_on_page": 27,
+   "new_names": 26
+  },
+  {
+   "url": "https://aop-beurre-charentes-poitou.fr/la-fabrication-en-laiterie",
+   "title": "AOP Beurre Charentes-Poitou: the five dairies and brands",
+   "kind": "pdo",
+   "years": "2024",
+   "status": "done",
+   "names_on_page": 6,
+   "new_names": 5,
+   "note": " 1 known"
+  },
+  {
+   "url": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "title": "TasteAtlas 15 Best Butters in France (audience ranking, with award notes)",
+   "kind": "ranking",
+   "years": "2025-2026",
+   "status": "done",
+   "note": "audience ratings = standing not blind tasting; includes awards noted per producer 1 known",
+   "names_on_page": 12,
+   "new_names": 11
+  },
+  {
+   "url": "https://ctcdubai.org/wp-content/uploads/2025/02/Brochure-Cyprus-Gulfood-2025-Final.pdf",
+   "title": "Cyprus Trade Centre Dubai: Cyprus exhibitors at Gulfood 2025 (halloumi PDO producers)",
+   "kind": "heritage",
+   "years": "2025",
+   "status": "done",
+   "note": "trade brochure: proves existence and PDO halloumi production; not a quality test 0 known",
+   "names_on_page": 8,
+   "new_names": 8
+  },
+  {
+   "url": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "title": "India Ministry of Food Processing Industries: Dairy sector profile, Table 4 top players",
+   "kind": "ranking",
+   "years": "2025",
+   "status": "done",
+   "note": "government sector profile, no rank order 4 known",
+   "names_on_page": 42,
+   "new_names": 36
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "title": "Wikipedia Category:Dairy products companies of Argentina, Thailand, Australia, Philippines, Uganda, Bangladesh, Malaysia, Indonesia, South Africa, Serbia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "status": "done",
+   "note": "ice-cream and burger entries skipped; 10 country categories in one source 2 known",
+   "names_on_page": 46,
+   "new_names": 38
+  },
+  {
+   "url": "https://www.theveganreview.com/whats-the-best-barista-milk-in-the-uk-we-tested-12-in-3-ways-to-find-out",
+   "title": "The Vegan Review: best barista plant milk UK, 12 tested (2021)",
+   "kind": "award",
+   "years": "2021",
+   "status": "done",
+   "note": "independent expert test (single reviewer); Food & Wine oat milk test page returned headline only 6 known",
+   "names_on_page": 12,
+   "new_names": 6
+  },
+  {
+   "url": "https://www.deliciousmagazine.co.uk/britains-best-cheese-shops",
+   "title": "delicious. magazine: Britain's best cheese shops (2022)",
+   "kind": "retailer",
+   "years": "2022",
+   "status": "done",
+   "names_on_page": 9,
+   "new_names": 8,
+   "note": " 1 known"
+  },
+  {
+   "url": "https://www.pastemagazine.com/food/cheese/pride-passion-and-cheese-a-week-with-neals-yard-da",
+   "title": "Paste: A week with Neal's Yard Dairy (makers it selects)",
+   "kind": "retailer",
+   "years": "2017",
+   "status": "done",
+   "names_on_page": 4,
+   "new_names": 3,
+   "note": " 0 known"
   }
  ],
  "brands": [
@@ -4135,6 +4462,1233 @@
    "says": "Good Food Awards cheese winner 2015-2018 (blind tasted)",
    "country": "USA",
    "dept": "Cheese"
+  },
+  {
+   "n": "Rivers Edge Chèvre",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2012/cheese",
+   "says": "Good Food Awards cheese winner 2011-2014 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Cobb Hill Cheese",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2012/cheese",
+   "says": "Good Food Awards cheese winner 2011-2014 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Fortsonia Gruyere (Nature's Harmony Farm)",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2012/cheese",
+   "says": "Good Food Awards cheese winner 2011-2014 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Weirauch Farm & Creamery",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2012/cheese",
+   "says": "Good Food Awards cheese winner 2011-2014 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Garden Variety Cheese",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2012/cheese",
+   "says": "Good Food Awards cheese winner 2011-2014 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Mozzarella Company",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2012/cheese",
+   "says": "Good Food Awards cheese winner 2011-2014 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Old Chatham Sheepherding Company",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2012/cheese",
+   "says": "Good Food Awards cheese winner 2011-2014 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Rainbeau Ridge",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2012/cheese",
+   "says": "Good Food Awards cheese winner 2011-2014 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Caves of Faribault",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2012/cheese",
+   "says": "Good Food Awards cheese winner 2011-2014 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Glendale Shepherd",
+   "layer": "premium",
+   "src": "https://goodfoodfdn.org/awards/winners/2012/cheese",
+   "says": "Good Food Awards cheese winner 2011-2014 (blind tasted)",
+   "country": "USA",
+   "dept": "Cheese"
+  },
+  {
+   "n": "Grana d'Oro Vacche Rosse",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Super Gold WCA 2021",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Collina",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Super Gold WCA 2021",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Rosola di Zocca",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Super Gold WCA 2021",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Punto Latte",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Super Gold WCA 2021",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Sociale La Nuova 2000",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Super Gold WCA 2021",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Consorzio Latterie Virgilio",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Super Gold WCA 2021",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Quesos y Besos (Lácteos Romero Peláez)",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "World Champion Cheese 2021, Olavidia",
+   "country": "Spain",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Fattoria San Rocco",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Casearia di Sant'Anna",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Quistello",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Croce",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Frizza",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Venera Vecchia",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Cooperativa Casearia Castelnovese",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Razionale Novese",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Albalat",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio di Ravarano e Casaselvatica",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Gennari Sergio & Figli",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Caseificio Sociale Palazzo",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "San Bernardino di Caramaschi",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Araldi Pietro e Luigi",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Barchessone",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Casearia Tricolore",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria del Fornacione",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Casearia Fratelli Dotti",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Latteria Sociale Paverazzi",
+   "layer": "premium",
+   "src": "https://www.parmigianoreggiano.com/news/World-Cheese-Awards-2021-ENG",
+   "says": "Medal (Super Gold/Gold/Silver) at World Cheese Awards 2021 for Parmigiano Reggiano",
+   "country": "Italy",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Laiterie Coopérative de Pamplie",
+   "layer": "cultural",
+   "src": "https://aop-beurre-charentes-poitou.fr/la-fabrication-en-laiterie",
+   "says": "Charentes-Poitou AOP butter dairy/brand named by the AOP body",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Lescure",
+   "layer": "cultural",
+   "src": "https://aop-beurre-charentes-poitou.fr/la-fabrication-en-laiterie",
+   "says": "Charentes-Poitou AOP butter dairy/brand named by the AOP body",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Laiterie de Montaigu",
+   "layer": "cultural",
+   "src": "https://aop-beurre-charentes-poitou.fr/la-fabrication-en-laiterie",
+   "says": "Charentes-Poitou AOP butter dairy/brand named by the AOP body",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Eurial",
+   "layer": "cultural",
+   "src": "https://aop-beurre-charentes-poitou.fr/la-fabrication-en-laiterie",
+   "says": "Charentes-Poitou AOP butter dairy/brand named by the AOP body",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Grand Fermage",
+   "layer": "cultural",
+   "src": "https://aop-beurre-charentes-poitou.fr/la-fabrication-en-laiterie",
+   "says": "Charentes-Poitou AOP butter dairy/brand named by the AOP body",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Maison Bordier",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "says": "TasteAtlas #1 French butter; artisan hand-kneaded butter since 1985",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Le Ponclet",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "says": "TasteAtlas #2; raw-milk butter praised by chefs",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Rodolphe Le Meunier",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "says": "TasteAtlas #5; WCA Super Gold 2021, 2023",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Laiterie Coopérative d'Etrez-Foissiat",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "says": "TasteAtlas #6; Bresse AOP butter; Concours Général Agricole gold 2022",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Fromager Marie-Anne Cantin",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "says": "TasteAtlas top 10",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Fromagerie Beillevaire",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "says": "TasteAtlas top 10",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Paysan Breton",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "says": "Listed in TasteAtlas top French butters ranking (audience rated)",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "César Losfeld",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "says": "Listed in TasteAtlas top French butters ranking (audience rated)",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Fromagerie Réo",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "says": "Listed in TasteAtlas top French butters ranking (audience rated)",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Laiterie de Tregorn",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "says": "Listed in TasteAtlas top French butters ranking (audience rated)",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Ferme du Chalet",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-butters-in-france",
+   "says": "Listed in TasteAtlas top French butters ranking (audience rated)",
+   "country": "France",
+   "dept": "Butter"
+  },
+  {
+   "n": "Alambra (Petrou Bros)",
+   "layer": "cultural",
+   "src": "https://ctcdubai.org/wp-content/uploads/2025/02/Brochure-Cyprus-Gulfood-2025-Final.pdf",
+   "says": "Halloumi PDO; ALAMBRA ~30% share of Cyprus halloumi market",
+   "country": "Cyprus",
+   "dept": "Stretched, brined & dried cheese"
+  },
+  {
+   "n": "Charalambides Christis",
+   "layer": "cultural",
+   "src": "https://ctcdubai.org/wp-content/uploads/2025/02/Brochure-Cyprus-Gulfood-2025-Final.pdf",
+   "says": "largest and longest-running dairy company in Cyprus; halloumi PDO",
+   "country": "Cyprus",
+   "dept": "Stretched, brined & dried cheese"
+  },
+  {
+   "n": "Papouis Dairies",
+   "layer": "cultural",
+   "src": "https://ctcdubai.org/wp-content/uploads/2025/02/Brochure-Cyprus-Gulfood-2025-Final.pdf",
+   "says": "halloumi PDO, 12,000 t/yr, exports to 35 countries",
+   "country": "Cyprus",
+   "dept": "Stretched, brined & dried cheese"
+  },
+  {
+   "n": "Olympus Foods Cyprus",
+   "layer": "cultural",
+   "src": "https://ctcdubai.org/wp-content/uploads/2025/02/Brochure-Cyprus-Gulfood-2025-Final.pdf",
+   "says": "halloumi PDO plant 2024",
+   "country": "Cyprus",
+   "dept": "Stretched, brined & dried cheese"
+  },
+  {
+   "n": "Achnagal (Eleftherios G. Eleftheriou)",
+   "layer": "cultural",
+   "src": "https://ctcdubai.org/wp-content/uploads/2025/02/Brochure-Cyprus-Gulfood-2025-Final.pdf",
+   "says": "dairy founded 1977, traditional halloumi",
+   "country": "Cyprus",
+   "dept": "Stretched, brined & dried cheese"
+  },
+  {
+   "n": "Zerzekkis (Multego Trading)",
+   "layer": "cultural",
+   "src": "https://ctcdubai.org/wp-content/uploads/2025/02/Brochure-Cyprus-Gulfood-2025-Final.pdf",
+   "says": "halloumi PDO, Superior Taste Award 2024, 2025",
+   "country": "Cyprus",
+   "dept": "Stretched, brined & dried cheese"
+  },
+  {
+   "n": "Strouthos Farm House Dairies",
+   "layer": "cultural",
+   "src": "https://ctcdubai.org/wp-content/uploads/2025/02/Brochure-Cyprus-Gulfood-2025-Final.pdf",
+   "says": "family halloumi with own dairy farms",
+   "country": "Cyprus",
+   "dept": "Stretched, brined & dried cheese"
+  },
+  {
+   "n": "Serano (E. Neophytou Trading)",
+   "layer": "cultural",
+   "src": "https://ctcdubai.org/wp-content/uploads/2025/02/Brochure-Cyprus-Gulfood-2025-Final.pdf",
+   "says": "Cypriot halloumi PDO dairy exporter named in Cyprus Trade Centre Gulfood 2025 brochure",
+   "country": "Cyprus",
+   "dept": "Stretched, brined & dried cheese"
+  },
+  {
+   "n": "Nandini",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Verka",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Sudha",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Snowcap",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Him",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer",
+   "homonym": true
+  },
+  {
+   "n": "Devbhog",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Gokul",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Warana",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Dudh Pandhari",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Rajhans",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Katraj",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Omfed",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Milma",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Vijaya",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer",
+   "homonym": true
+  },
+  {
+   "n": "Aanchal",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Milkcon",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Mulco",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Goa Dairy",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Purabi",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Gomati",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Saras",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Vita",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer",
+   "homonym": true
+  },
+  {
+   "n": "Mahanad",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Shivamrut",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Krishna",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer",
+   "homonym": true
+  },
+  {
+   "n": "Parag",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Gowardhan",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Benmilk",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Britannia",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer",
+   "homonym": true
+  },
+  {
+   "n": "Sanchi",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Paras",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Serap",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Schreiber Dynamix",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Saahaj",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Mahaan",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Creamline",
+   "layer": "cultural",
+   "src": "https://mofpi.gov.in/sites/default/files/KnowledgeCentre/Sector%20Profile/Sector_Profile_Dairy%20(1)22.pdf",
+   "says": "Named as a top dairy player in India in the Ministry of Food Processing Industries dairy sector profile 2025",
+   "country": "India",
+   "dept": "Milk, ghee, paneer"
+  },
+  {
+   "n": "Grido Helado",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Argentina",
+   "dept": "Dairy"
+  },
+  {
+   "n": "La Martona",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Argentina",
+   "dept": "Dairy"
+  },
+  {
+   "n": "SanCor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Argentina",
+   "dept": "Dairy"
+  },
+  {
+   "n": "La Serenísima",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Argentina",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Tregar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Argentina",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Farm Chokchai",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Thailand",
+   "dept": "Dairy"
+  },
+  {
+   "n": "CP-Meiji",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Thailand",
+   "dept": "Dairy"
+  },
+  {
+   "n": "The a2 Milk Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Bellamy's Organic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Big M (flavoured milk)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy",
+   "homonym": true
+  },
+  {
+   "n": "Brownes",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Bulla Dairy Foods",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Dairy Farmers (Australia)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Dare (flavoured milk)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy",
+   "homonym": true
+  },
+  {
+   "n": "Farmers Union (brand)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Norco Co-operative",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Pauls (dairy)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy",
+   "homonym": true
+  },
+  {
+   "n": "Pura Milk",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy",
+   "homonym": true
+  },
+  {
+   "n": "Western Star (butter)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Australia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Magnolia (Philippine company)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Philippines",
+   "dept": "Dairy",
+   "homonym": true
+  },
+  {
+   "n": "Amos Dairies Uganda",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Uganda",
+   "dept": "Dairy"
+  },
+  {
+   "n": "GBK Dairy Products",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Uganda",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Jesa Farm Dairy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Uganda",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Lakeside Dairy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Uganda",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Paramount Dairies",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Uganda",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Pearl Dairy Farms",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Uganda",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Vital Tomosi Dairy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Uganda",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Grameen Danone",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Bangladesh",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Milk Vita",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Bangladesh",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Matri Bhandar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Bangladesh",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Kazi Farms",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Bangladesh",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Desa Group",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Malaysia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Farm Fresh (Malaysia)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Malaysia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Dutch Lady Milk Industries",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Malaysia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Greenfields (Indonesia)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Indonesia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Clover Industries",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "South Africa",
+   "dept": "Dairy",
+   "homonym": true
+  },
+  {
+   "n": "Imlek",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Serbia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Mlekara Subotica",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Australia",
+   "says": "Listed in Wikipedia Category: Dairy products companies of <country>",
+   "country": "Serbia",
+   "dept": "Dairy"
+  },
+  {
+   "n": "Happy Happy Soy Boy",
+   "layer": "premium",
+   "src": "https://www.theveganreview.com/whats-the-best-barista-milk-in-the-uk-we-tested-12-in-3-ways-to-find-out",
+   "says": "'possibly the best soy milk' foodservice",
+   "country": "UK",
+   "dept": "Dairy-free alternatives"
+  },
+  {
+   "n": "Rebel Kitchen",
+   "layer": "premium",
+   "src": "https://www.theveganreview.com/whats-the-best-barista-milk-in-the-uk-we-tested-12-in-3-ways-to-find-out",
+   "says": "Tested in The Vegan Review 2021 barista plant-milk showdown (Minor Figures, Sproud, Happy Happy Soy Boy scored top marks)",
+   "country": "UK",
+   "dept": "Dairy-free alternatives"
+  },
+  {
+   "n": "Good Hemp",
+   "layer": "premium",
+   "src": "https://www.theveganreview.com/whats-the-best-barista-milk-in-the-uk-we-tested-12-in-3-ways-to-find-out",
+   "says": "Tested in The Vegan Review 2021 barista plant-milk showdown (Minor Figures, Sproud, Happy Happy Soy Boy scored top marks)",
+   "country": "UK",
+   "dept": "Dairy-free alternatives"
+  },
+  {
+   "n": "Oaty Bruce",
+   "layer": "premium",
+   "src": "https://www.theveganreview.com/whats-the-best-barista-milk-in-the-uk-we-tested-12-in-3-ways-to-find-out",
+   "says": "Tested in The Vegan Review 2021 barista plant-milk showdown (Minor Figures, Sproud, Happy Happy Soy Boy scored top marks)",
+   "country": "UK",
+   "dept": "Dairy-free alternatives"
+  },
+  {
+   "n": "Provamel",
+   "layer": "premium",
+   "src": "https://www.theveganreview.com/whats-the-best-barista-milk-in-the-uk-we-tested-12-in-3-ways-to-find-out",
+   "says": "Danone organic brand",
+   "country": "Belgium",
+   "dept": "Dairy-free alternatives"
+  },
+  {
+   "n": "Almond Breeze",
+   "layer": "premium",
+   "src": "https://www.theveganreview.com/whats-the-best-barista-milk-in-the-uk-we-tested-12-in-3-ways-to-find-out",
+   "says": "Tested in The Vegan Review 2021 barista plant-milk showdown (Minor Figures, Sproud, Happy Happy Soy Boy scored top marks)",
+   "country": "USA",
+   "dept": "Dairy-free alternatives"
+  },
+  {
+   "n": "Chorlton Cheesemongers",
+   "layer": "cultural",
+   "src": "https://www.deliciousmagazine.co.uk/britains-best-cheese-shops",
+   "says": "Named by delicious. magazine as one of Britain's best cheesemongers",
+   "country": "UK",
+   "dept": "Cheesemonger",
+   "role": "seller"
+  },
+  {
+   "n": "The Courtyard Dairy",
+   "layer": "cultural",
+   "src": "https://www.deliciousmagazine.co.uk/britains-best-cheese-shops",
+   "says": "Named by delicious. magazine as one of Britain's best cheesemongers",
+   "country": "UK",
+   "dept": "Cheesemonger",
+   "role": "seller"
+  },
+  {
+   "n": "Mellis Cheesemongers",
+   "layer": "cultural",
+   "src": "https://www.deliciousmagazine.co.uk/britains-best-cheese-shops",
+   "says": "Named by delicious. magazine as one of Britain's best cheesemongers",
+   "country": "UK",
+   "dept": "Cheesemonger",
+   "role": "seller"
+  },
+  {
+   "n": "Magdalen Cheese",
+   "layer": "cultural",
+   "src": "https://www.deliciousmagazine.co.uk/britains-best-cheese-shops",
+   "says": "Named by delicious. magazine as one of Britain's best cheesemongers",
+   "country": "UK",
+   "dept": "Cheesemonger",
+   "role": "seller"
+  },
+  {
+   "n": "The Fine Cheese Company",
+   "layer": "cultural",
+   "src": "https://www.deliciousmagazine.co.uk/britains-best-cheese-shops",
+   "says": "Named by delicious. magazine as one of Britain's best cheesemongers",
+   "country": "UK",
+   "dept": "Cheesemonger",
+   "role": "seller"
+  },
+  {
+   "n": "Slate Cheeses",
+   "layer": "cultural",
+   "src": "https://www.deliciousmagazine.co.uk/britains-best-cheese-shops",
+   "says": "Named by delicious. magazine as one of Britain's best cheesemongers",
+   "country": "UK",
+   "dept": "Cheesemonger",
+   "role": "seller"
+  },
+  {
+   "n": "Jericho Cheese Company",
+   "layer": "cultural",
+   "src": "https://www.deliciousmagazine.co.uk/britains-best-cheese-shops",
+   "says": "Named by delicious. magazine as one of Britain's best cheesemongers",
+   "country": "UK",
+   "dept": "Cheesemonger",
+   "role": "seller"
+  },
+  {
+   "n": "Paxton & Whitfield",
+   "layer": "cultural",
+   "src": "https://www.deliciousmagazine.co.uk/britains-best-cheese-shops",
+   "says": "Named by delicious. magazine as one of Britain's best cheesemongers",
+   "country": "UK",
+   "dept": "Cheesemonger",
+   "role": "seller"
+  },
+  {
+   "n": "Montgomery's Cheddar",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/food/cheese/pride-passion-and-cheese-a-week-with-neals-yard-da",
+   "says": "Farmhouse cheesemaker selected and matured by Neal's Yard Dairy (visited monthly), per Paste magazine",
+   "country": "UK",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Mrs Kirkham's Lancashire",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/food/cheese/pride-passion-and-cheese-a-week-with-neals-yard-da",
+   "says": "Farmhouse cheesemaker selected and matured by Neal's Yard Dairy (visited monthly), per Paste magazine",
+   "country": "UK",
+   "dept": "Pressed & hard cheese"
+  },
+  {
+   "n": "Appleby's Cheshire (Hawkstone Abbey Farm)",
+   "layer": "premium",
+   "src": "https://www.pastemagazine.com/food/cheese/pride-passion-and-cheese-a-week-with-neals-yard-da",
+   "says": "Farmhouse cheesemaker selected and matured by Neal's Yard Dairy (visited monthly), per Paste magazine",
+   "country": "UK",
+   "dept": "Pressed & hard cheese"
   }
  ]
 }
