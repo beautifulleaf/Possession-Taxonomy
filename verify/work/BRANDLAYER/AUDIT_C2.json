@@ -815,5 +815,89 @@
    "why": "homonym: index Viking = Viking Range (B5/E6); the garden brand is STIHL's former Viking mower line; split or remove C2"
   }
  ],
- "notes": ""
+ "notes": "Accuracy: all 25 sampled brands appear on their src pages and the stated claims are supported (0/25 wrong), but 6 of the 25 carry a premium layer resting on seller praise or second-hand reports (Kokido, Pleatco, Rain Bird, Clementi, Bigei, Earthquake); see downgrade_to_listed for the full weak-evidence set. Additions focus on thin sweeps: pressure washers (Kranzle), sprayers (Birchmeier), greenhouse climate kit (Bio Green, Bayliss), covers/fleece (Haxnicks, Harrod Horticultural, Claverton Cloches), water butts (Harcostar), lawn treatment (SISIS), pool water care/pumps/pools (Taylor Technologies, Pentair, Polaris, Intex, Desjoyaux), open cookers/planchas (Eno, Le Marquier, Plancha Tonio, Forge Adour), tandoors (Amfora etc.), Latin America (Uriarte and Puebla talavera, Truper, Tromen, Parrigas), Japan (Noto shichirin makers, Hyponex), Oceania icons (Yates, Seasol, Masport, Rover Mowers), Germany (Neudorff), India (Ugaoo), Africa (Chillington Crocodile), RHS Chelsea 2019 Product of the Year finalists and 2025 tradestand medallists. Retried and still thin: Turkish/Gulf mangal makers (Turkish queries return only retailers/restaurants; no named maker with standing), bonsai wire and display stands (only seller-made wire such as Bonsai Mirai, Eastern Leaf, Adams-McKinney; not added), pool covers (Coverstar only own page, not added), Mexican clay chimineas (none found), Yixing flower pots (Palace Museum documents the Yixing kiln tradition but no current maker named), Korean onggi pots, Gulf barbecue makers. Homonym watch: Rover (cars) vs Rover Mowers; Hunter (wellingtons) vs Hunter Industries; Polaris (snowmobiles) vs Polaris pool cleaners; Zodiac (watches) vs Zodiac pool; Solo (soda) vs Solo sprayers; Gloria (extinguishers) vs Gloria sprayers; Eden/Robinsons/Trojan in other categories vs greenhouse/wheelbarrow makers; Halls and Viking C2 tags on wrong-sense rows; Uriarte also tableware (place under C2 only for planters). Not yet evidenced but likely omissions for a next pass: Mountfield, AL-KO, Sabo, Etesia, Countax, Westwood, Scag, Ferris, Hustler, Grillo (Italy), Pubert, Billy Goat, Scotts/Westland/Levington/Compo/Substral/Espoma, Claber, Melnor, Leborgne, Outils Perrin, Clarington Forge, Herragro/Incolma (Colombian machetes), Jacto (Brazil sprayers; only seller page found), Ofyr and Hofats fire bowls (only retailer/own pages), PK Grills (tests found in excerpts only), AstralPool, Waterco, Davey, Bayrol, HTH, Kasai Grills, Eliet, Jo Beau, Timberwolf, Laski, Spider Farmer, Mars Hydro, AC Infinity, Gavita, Click & Grow, AeroGarden, Gardyn, Canna, BioBizz.",
+ "downgrade_to_listed": [
+  {
+   "n": [
+    "Kokido",
+    "Pleatco",
+    "Jandy",
+    "Waterway",
+    "SmartPool",
+    "Water Tech",
+    "Intermatic",
+    "Baracuda",
+    "Kreepy Krauly"
+   ],
+   "why": "only a manufacturer filter on In The Swim retailer catalogue; premium unsupported"
+  },
+  {
+   "n": [
+    "Rain Bird",
+    "Weathermatic",
+    "Netafim"
+   ],
+   "why": "retailer (Sprinkler Supply Store) praise of brands it stocks"
+  },
+  {
+   "n": [
+    "Clementi"
+   ],
+   "why": "ATBBQ retailer praise"
+  },
+  {
+   "n": [
+    "Bigei"
+   ],
+   "why": "Bonsai Outlet retailer praise"
+  },
+  {
+   "n": [
+    "Pondmaster",
+    "Tetra Pond",
+    "Alpine Corporation"
+   ],
+   "why": "affiliate review sites (zamd, backyardstyle, lawntrend); no independent test"
+  },
+  {
+   "n": [
+    "Earthquake"
+   ],
+   "why": "spade-shop blog relaying Bob Vila; fetch bobvila.com page to restore premium"
+  },
+  {
+   "n": [
+    "Cellfast",
+    "Prosperplast",
+    "Walkiewicz",
+    "Esschert Design"
+   ],
+   "why": "Polish retailer brand/producer filters only"
+  },
+  {
+   "n": [
+    "Hayward",
+    "Fluidra",
+    "Natural Chemistry",
+    "Latham",
+    "Wilbar Group"
+   ],
+   "why": "swimmingpool.com is a pool-sales site recommending brands it lists (seller praise)"
+  },
+  {
+   "n": [
+    "Tower"
+   ],
+   "why": "kamado test winner praised as affordable; budget appliance brand, quality summit doubtful (keep as cultural/listed)"
+  }
+ ],
+ "category_tag_fixes": [
+  "Oase (index B10, pond pumps) should also carry C2 (Garden ponds); testsieger.de shows Oase pond pumps top-scored",
+  "Bestway (index G3) should carry C2 (above-ground pools; Reviewed names Intex and Bestway the two leading brands)",
+  "Poterie Ravel (B4) garden terracotta should carry C2",
+  "Morsø (G3) for Morsø Forno outdoor ovens",
+  "Kingsford, Big K (C8) overlap with C2 Barbecue fuel",
+  "Kubota, BCS, Gravely, Pellenc (C7) overlap with C2 riding/garden machinery",
+  "Keter (G3) planters/raised beds overlap"
+ ]
 }
