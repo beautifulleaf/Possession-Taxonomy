@@ -10,3 +10,4 @@ pulp2.txt written (rows 301-600)
 pulp3 written; pulp_rows.txt assembled
 globes.txt written (Archimedes excluded, Replogle/Bellerby exist)
 step5 installed to out/F1.json; remaining: report
+report updated; done
