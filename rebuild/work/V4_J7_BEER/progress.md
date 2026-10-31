@@ -4,3 +4,4 @@ step2 fetched BA top50, Molson Coors (done)
 step3 fetched Carlsberg Asahi Kirin Snow Tsingtao (done)
 step4 fetched region/market pages India Brazil Mexico SA Germany, own label punch (done)
 step5 fetched 9 more Beer_in_ pages (done)
+step6 sources done; writing build.py (data + old-entry mapping) next

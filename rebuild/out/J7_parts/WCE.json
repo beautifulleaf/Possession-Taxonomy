@@ -1,0 +1,6191 @@
+{
+ "depts": [
+  {
+   "n": "Wine of Germany, Austria & Switzerland",
+   "mode": "variety",
+   "t": "Wine named for its German, Austrian or Swiss place: regions, districts and DAC or AOC areas; a grape sold worldwide → the grape departments.",
+   "ax": "Which country and which tier of its place system names the wine?",
+   "s": [
+    {
+     "n": "Germany",
+     "t": "The German Anbaugebiete, their Bereiche and the Landwein regions.",
+     "ax": "kinds by tier of German place",
+     "k": [
+      {
+       "n": "Germany: Anbaugebiete",
+       "d": "The thirteen German quality-wine regions (Anbaugebiete), the top geographic tier of German wine.",
+       "nl": "One entry is one of the thirteen German Anbaugebiete, the quality-wine regions defined in German wine law; its Bereiche are in the next kind.",
+       "sel": "All thirteen Anbaugebiete in Wikipedia German wine (2023 area table), in the order of that table; Bereiche, Grosslagen and Landwein regions are separate kinds.",
+       "xg": "one flat list of thirteen regions",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Riesling",
+          "Müller-Thurgau",
+          "Silvaner",
+          "Pinot noir (Spätburgunder)",
+          "Pinot gris",
+          "Pinot blanc",
+          "Dornfelder",
+          "Trollinger",
+          "Lemberger",
+          "Bacchus",
+          "Elbling"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Ahr",
+         "a": "",
+         "d": "21 % white, 79 % red; 1 Bereich; Pinot noir 64.7 %, Riesling 8.2 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Baden",
+         "a": "",
+         "d": "62 % white, 38 % red; 9 Bereiche; Pinot noir 32.1 %, Pinot gris 15.3 %, Müller-Thurgau 13.8 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Franken",
+         "a": "Franconia",
+         "d": "83 % white, 17 % red; 3 Bereiche; Silvaner 25.3 %, Müller-Thurgau 22.3 %, Bacchus 11.9 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Hessische Bergstraße",
+         "a": "",
+         "d": "79 % white, 21 % red; 2 Bereiche; Riesling 35.6 %, Pinot gris 12.8 %, Pinot noir 10.8 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Mittelrhein",
+         "a": "",
+         "d": "84 % white, 16 % red; 2 Bereiche; Riesling 63.3 %, Pinot noir 10.7 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Mosel",
+         "a": "",
+         "d": "91 % white, 9 % red; 6 Bereiche; Riesling 62.4 %, Müller-Thurgau 9.0 %, Elbling 5.0 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Nahe",
+         "a": "",
+         "d": "77 % white, 23 % red; 1 Bereich; Riesling 29.3 %, Müller-Thurgau 11.0 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Pfalz",
+         "a": "Palatinate",
+         "d": "68 % white, 32 % red; 2 Bereiche; Riesling 25.2 %, Dornfelder 10.3 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Rheingau",
+         "a": "",
+         "d": "85 % white, 15 % red; 1 Bereich; Riesling 76.1 %, Pinot noir 12.6 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Rheinhessen",
+         "a": "",
+         "d": "74 % white, 26 % red; 3 Bereiche; Riesling 19.6 %, Müller-Thurgau 13.9 %, Dornfelder 11.0 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Saale-Unstrut",
+         "a": "",
+         "d": "77 % white, 23 % red; 2 Bereiche; Müller-Thurgau 14.3 %, Pinot blanc 13.7 %, Riesling 9.4 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Sachsen",
+         "a": "Saxony",
+         "d": "81 % white, 19 % red; 2 Bereiche; Riesling 14.2 %, Müller-Thurgau 11.4 %, Pinot blanc 11.5 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        },
+        {
+         "n": "Württemberg",
+         "a": "",
+         "d": "36 % white, 64 % red; 6 Bereiche; Trollinger 8.7 %, Lemberger 5.2 %.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": []
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/German_wine"
+      },
+      {
+       "n": "Germany: Bereiche",
+       "d": "The Bereiche (districts) inside each German Anbaugebiet, each with its Grosslagen.",
+       "nl": "One entry is one Bereich, a district inside an Anbaugebiet; the Grosslagen (collective vineyard sites) of the district are its versions.",
+       "sel": "Every Bereich and Grosslage named in Wikipedia List of German wine regions as fetched (40 Bereiche); Einzellagen (single vineyards) and VDP Grosse Lage sites are out because no fetched page lists them. Wikipedia German wine says 39 Bereiche; the list page gives 40.",
+       "xg": "by Anbaugebiet",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "White",
+          "Red",
+          "Rosé",
+          "Sparkling"
+         ]
+        ],
+        [
+         "Leading grape",
+         [
+          "Riesling",
+          "Pinot noir (Spätburgunder)",
+          "Silvaner",
+          "Müller-Thurgau",
+          "Pinot gris",
+          "Lemberger",
+          "Trollinger"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Walporzheim/Ahrtal",
+         "a": "",
+         "d": "Bereich (district) of the Ahr Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Klosterberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Walporzheim/Ahrtal"
+          }
+         ],
+         "g": "Ahr"
+        },
+        {
+         "n": "Badische Bergstraße",
+         "a": "",
+         "d": "Bereich (district) of the Baden Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Hohenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Badische Bergstraße"
+          },
+          {
+           "n": "Mannaberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Badische Bergstraße"
+          },
+          {
+           "n": "Rittersberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Badische Bergstraße"
+          },
+          {
+           "n": "Stiftsberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Badische Bergstraße"
+          }
+         ],
+         "g": "Baden"
+        },
+        {
+         "n": "Bodensee",
+         "a": "",
+         "d": "Bereich (district) of the Baden Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Sonnenufer",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bodensee"
+          }
+         ],
+         "g": "Baden"
+        },
+        {
+         "n": "Breisgau",
+         "a": "",
+         "d": "Bereich (district) of the Baden Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Burg Lichteneck",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Breisgau"
+          },
+          {
+           "n": "Burg Zähringen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Breisgau"
+          },
+          {
+           "n": "Schutterlindenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Breisgau"
+          }
+         ],
+         "g": "Baden"
+        },
+        {
+         "n": "Kaiserstuhl",
+         "a": "",
+         "d": "Bereich (district) of the Baden Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Vulkanfelsen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Kaiserstuhl"
+          }
+         ],
+         "g": "Baden"
+        },
+        {
+         "n": "Kraichgau",
+         "a": "",
+         "d": "Bereich (district) of the Baden Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [],
+         "g": "Baden"
+        },
+        {
+         "n": "Markgräflerland",
+         "a": "",
+         "d": "Bereich (district) of the Baden Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Attilafelsen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Markgräflerland"
+          },
+          {
+           "n": "Burg Neuenfels",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Markgräflerland"
+          },
+          {
+           "n": "Lorettoberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Markgräflerland"
+          },
+          {
+           "n": "Vogtei Rötteln",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Markgräflerland"
+          }
+         ],
+         "g": "Baden"
+        },
+        {
+         "n": "Ortenau",
+         "a": "",
+         "d": "Bereich (district) of the Baden Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Fürsteneck",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Ortenau"
+          },
+          {
+           "n": "Schloss Rodeck",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Ortenau"
+          }
+         ],
+         "g": "Baden"
+        },
+        {
+         "n": "Tauberfranken",
+         "a": "",
+         "d": "Bereich (district) of the Baden Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Tauberklinge",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Tauberfranken"
+          }
+         ],
+         "g": "Baden"
+        },
+        {
+         "n": "Tuniberg",
+         "a": "",
+         "d": "Bereich (district) of the Baden Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [],
+         "g": "Baden"
+        },
+        {
+         "n": "Maindreieck",
+         "a": "",
+         "d": "Bereich (district) of the Franken Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Burg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          },
+          {
+           "n": "Engelsberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          },
+          {
+           "n": "Ewig Leben",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          },
+          {
+           "n": "Hofrat",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          },
+          {
+           "n": "Honigberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          },
+          {
+           "n": "Kirchberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          },
+          {
+           "n": "Marienberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          },
+          {
+           "n": "Markgraf Babenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          },
+          {
+           "n": "Oelspiel",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          },
+          {
+           "n": "Ravensburg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          },
+          {
+           "n": "Rosstal",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          },
+          {
+           "n": "Teufelstor",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Maindreieck"
+          }
+         ],
+         "g": "Franken"
+        },
+        {
+         "n": "Mainviereck",
+         "a": "",
+         "d": "Bereich (district) of the Franken Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Heiligenthal",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mainviereck"
+          },
+          {
+           "n": "Reuschberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mainviereck"
+          }
+         ],
+         "g": "Franken"
+        },
+        {
+         "n": "Steigerwald",
+         "a": "",
+         "d": "Bereich (district) of the Franken Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Burgweg-Franken",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Steigerwald"
+          },
+          {
+           "n": "Herrenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Steigerwald"
+          },
+          {
+           "n": "Kapellenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Steigerwald"
+          },
+          {
+           "n": "Schild",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Steigerwald"
+          },
+          {
+           "n": "Schlossberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Steigerwald"
+          },
+          {
+           "n": "Schlossstück",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Steigerwald"
+          }
+         ],
+         "g": "Franken"
+        },
+        {
+         "n": "Starkenburg",
+         "a": "",
+         "d": "Bereich (district) of the Hessische Bergstraße Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Rott",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Starkenburg"
+          },
+          {
+           "n": "Schlossberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Starkenburg"
+          },
+          {
+           "n": "Wolfsmagen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Starkenburg"
+          }
+         ],
+         "g": "Hessische Bergstraße"
+        },
+        {
+         "n": "Umstadt",
+         "a": "",
+         "d": "Bereich (district) of the Hessische Bergstraße Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [],
+         "g": "Hessische Bergstraße"
+        },
+        {
+         "n": "Loreley",
+         "a": "",
+         "d": "Bereich (district) of the Mittelrhein Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Burg Hammerstein",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Loreley"
+          },
+          {
+           "n": "Burg Rheinfels",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Loreley"
+          },
+          {
+           "n": "Gedeonseck",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Loreley"
+          },
+          {
+           "n": "Schloss Herrenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Loreley"
+          },
+          {
+           "n": "Lahntal",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Loreley"
+          },
+          {
+           "n": "Loreleyfelsen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Loreley"
+          },
+          {
+           "n": "Marksburg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Loreley"
+          },
+          {
+           "n": "Schloss Reichenstein",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Loreley"
+          },
+          {
+           "n": "Schloss Schönburg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Loreley"
+          },
+          {
+           "n": "Schloss Stahleck",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Loreley"
+          }
+         ],
+         "g": "Mittelrhein"
+        },
+        {
+         "n": "Siebengebirge",
+         "a": "",
+         "d": "Bereich (district) of the Mittelrhein Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Petersberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Siebengebirge"
+          }
+         ],
+         "g": "Mittelrhein"
+        },
+        {
+         "n": "Bernkastel",
+         "a": "",
+         "d": "Bereich (district) of the Mosel Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Badstube",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bernkastel"
+          },
+          {
+           "n": "Kurfürstlay",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bernkastel"
+          },
+          {
+           "n": "Michelsberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bernkastel"
+          },
+          {
+           "n": "Münzlay",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bernkastel"
+          },
+          {
+           "n": "Nacktarsch",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bernkastel"
+          },
+          {
+           "n": "Probstberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bernkastel"
+          },
+          {
+           "n": "St. Michael",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bernkastel"
+          },
+          {
+           "n": "Schwarzlay",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bernkastel"
+          },
+          {
+           "n": "Vom Heißen Stein",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bernkastel"
+          }
+         ],
+         "g": "Mosel"
+        },
+        {
+         "n": "Burg Cochem",
+         "a": "",
+         "d": "Bereich (district) of the Mosel Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Goldbäumchen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Burg Cochem"
+          },
+          {
+           "n": "Gradschaft",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Burg Cochem"
+          },
+          {
+           "n": "Rosenhang",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Burg Cochem"
+          },
+          {
+           "n": "Schwarze Katz",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Burg Cochem"
+          },
+          {
+           "n": "Weinhex",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Burg Cochem"
+          }
+         ],
+         "g": "Mosel"
+        },
+        {
+         "n": "Moseltor",
+         "a": "",
+         "d": "Bereich (district) of the Mosel Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Schloss Bübinger",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Moseltor"
+          }
+         ],
+         "g": "Mosel"
+        },
+        {
+         "n": "Obermosel",
+         "a": "",
+         "d": "Bereich (district) of the Mosel Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Gipfel",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Obermosel"
+          },
+          {
+           "n": "Königsberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Obermosel"
+          }
+         ],
+         "g": "Mosel"
+        },
+        {
+         "n": "Ruwertal",
+         "a": "",
+         "d": "Bereich (district) of the Mosel Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Römerlay",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Ruwertal"
+          }
+         ],
+         "g": "Mosel"
+        },
+        {
+         "n": "Saar",
+         "a": "",
+         "d": "Bereich (district) of the Mosel Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Scharzberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Saar"
+          }
+         ],
+         "g": "Mosel"
+        },
+        {
+         "n": "Nahetal",
+         "a": "",
+         "d": "Bereich (district) of the Nahe Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Burgweg-Nahe",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nahetal"
+          },
+          {
+           "n": "Kronenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nahetal"
+          },
+          {
+           "n": "Paradiesgarten",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nahetal"
+          },
+          {
+           "n": "Pfarrgarten",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nahetal"
+          },
+          {
+           "n": "Rosengarten",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nahetal"
+          },
+          {
+           "n": "Schlosskapelle",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nahetal"
+          },
+          {
+           "n": "Sonnenborn",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nahetal"
+          }
+         ],
+         "g": "Nahe"
+        },
+        {
+         "n": "Mittelhaardt-Deutsche Weinstraße",
+         "a": "",
+         "d": "Bereich (district) of the Pfalz Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Feuerberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Gradenstück",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Hochmess",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Hofstück",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Höllenpfad",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Honigsäckel",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Kobnert",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Mariengarten",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Meerspinne",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Pfaffengrund",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Rebstöckel",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Rosenbühl",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Schenkenböhl",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Schnepfenflug an der Weinstraße",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Schnepfenflug vom Zellertal",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          },
+          {
+           "n": "Schwarzerde",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Mittelhaardt-Deutsche Weinstraße"
+          }
+         ],
+         "g": "Pfalz"
+        },
+        {
+         "n": "Südliche Weinstraße",
+         "a": "",
+         "d": "Bereich (district) of the Pfalz Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Bischofskreuz",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Südliche Weinstraße"
+          },
+          {
+           "n": "Guttenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Südliche Weinstraße"
+          },
+          {
+           "n": "Herrlich",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Südliche Weinstraße"
+          },
+          {
+           "n": "Kloster Liebrauenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Südliche Weinstraße"
+          },
+          {
+           "n": "Königsgarten",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Südliche Weinstraße"
+          },
+          {
+           "n": "Mandelhöhe",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Südliche Weinstraße"
+          },
+          {
+           "n": "Ordensgut",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Südliche Weinstraße"
+          },
+          {
+           "n": "Schloss Ludwigshöhe",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Südliche Weinstraße"
+          },
+          {
+           "n": "Trappenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Südliche Weinstraße"
+          }
+         ],
+         "g": "Pfalz"
+        },
+        {
+         "n": "Johannisberg",
+         "a": "",
+         "d": "Bereich (district) of the Rheingau Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Burgweg-Rheingau",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Johannisberg"
+          },
+          {
+           "n": "Daubhaus",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Johannisberg"
+          },
+          {
+           "n": "Deutelsberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Johannisberg"
+          },
+          {
+           "n": "Erntebringer",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Johannisberg"
+          },
+          {
+           "n": "Gottesthal",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Johannisberg"
+          },
+          {
+           "n": "Heiligenstock",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Johannisberg"
+          },
+          {
+           "n": "Honigberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Johannisberg"
+          },
+          {
+           "n": "Mehrhölzchen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Johannisberg"
+          },
+          {
+           "n": "Steil",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Johannisberg"
+          },
+          {
+           "n": "Steinmächer",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Johannisberg"
+          }
+         ],
+         "g": "Rheingau"
+        },
+        {
+         "n": "Bingen",
+         "a": "",
+         "d": "Bereich (district) of the Rheinhessen Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Abtey",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bingen"
+          },
+          {
+           "n": "Adelberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bingen"
+          },
+          {
+           "n": "Kaiserpfalz",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bingen"
+          },
+          {
+           "n": "Kurfüstenstück",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bingen"
+          },
+          {
+           "n": "Rheingrafenstein",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bingen"
+          },
+          {
+           "n": "Sankt Rochuskapelle",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bingen"
+          }
+         ],
+         "g": "Rheinhessen"
+        },
+        {
+         "n": "Nierstein",
+         "a": "",
+         "d": "Bereich (district) of the Rheinhessen Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Auflangen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nierstein"
+          },
+          {
+           "n": "Domherr",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nierstein"
+          },
+          {
+           "n": "Güldenmorgen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nierstein"
+          },
+          {
+           "n": "Gutes Domtal",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nierstein"
+          },
+          {
+           "n": "Krötenbrunnen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nierstein"
+          },
+          {
+           "n": "Petersberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nierstein"
+          },
+          {
+           "n": "Rehbach",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nierstein"
+          },
+          {
+           "n": "Rheinblick",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nierstein"
+          },
+          {
+           "n": "Sankt Alban",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nierstein"
+          },
+          {
+           "n": "Spiegelberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nierstein"
+          },
+          {
+           "n": "Vogelsgärten",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Nierstein"
+          }
+         ],
+         "g": "Rheinhessen"
+        },
+        {
+         "n": "Wonnegau",
+         "a": "",
+         "d": "Bereich (district) of the Rheinhessen Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Bergkloster",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Wonnegau"
+          },
+          {
+           "n": "Burg Rodenstein",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Wonnegau"
+          },
+          {
+           "n": "Domblick",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Wonnegau"
+          },
+          {
+           "n": "Gotteshilfe",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Wonnegau"
+          },
+          {
+           "n": "Liebfrauenmorgen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Wonnegau"
+          },
+          {
+           "n": "Pilgerpfad",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Wonnegau"
+          },
+          {
+           "n": "Sybillinenstein",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Wonnegau"
+          }
+         ],
+         "g": "Rheinhessen"
+        },
+        {
+         "n": "Schlossneuenburg",
+         "a": "",
+         "d": "Bereich (district) of the Saale-Unstrut Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Blütengrund",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Schlossneuenburg"
+          },
+          {
+           "n": "Göttersitz",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Schlossneuenburg"
+          },
+          {
+           "n": "Kelterberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Schlossneuenburg"
+          },
+          {
+           "n": "Schweigenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Schlossneuenburg"
+          }
+         ],
+         "g": "Saale-Unstrut"
+        },
+        {
+         "n": "Thüringen",
+         "a": "",
+         "d": "Bereich (district) of the Saale-Unstrut Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Mark Brandenburg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Thüringen"
+          }
+         ],
+         "g": "Saale-Unstrut"
+        },
+        {
+         "n": "Dresden",
+         "a": "",
+         "d": "Bereich (district) of the Sachsen Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Elbhänge",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Dresden"
+          },
+          {
+           "n": "Lössnitz",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Dresden"
+          }
+         ],
+         "g": "Sachsen"
+        },
+        {
+         "n": "Elstertal",
+         "a": "",
+         "d": "Bereich (district) of the Sachsen Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [],
+         "g": "Sachsen"
+        },
+        {
+         "n": "Meissen",
+         "a": "",
+         "d": "Bereich (district) of the Sachsen Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Schloss-Weinberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Meissen"
+          },
+          {
+           "n": "Spaargebirge",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Meissen"
+          }
+         ],
+         "g": "Sachsen"
+        },
+        {
+         "n": "Bayerischer Bodensee",
+         "a": "",
+         "d": "Bereich (district) of the Württemberg Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Lindauer Seegarten",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Bayerischer Bodensee"
+          }
+         ],
+         "g": "Württemberg"
+        },
+        {
+         "n": "Kocher-Jagst-Tauber",
+         "a": "",
+         "d": "Bereich (district) of the Württemberg Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Kocherberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Kocher-Jagst-Tauber"
+          },
+          {
+           "n": "Tauberberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Kocher-Jagst-Tauber"
+          }
+         ],
+         "g": "Württemberg"
+        },
+        {
+         "n": "Oberer Neckar",
+         "a": "",
+         "d": "Bereich (district) of the Württemberg Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [],
+         "g": "Württemberg"
+        },
+        {
+         "n": "Remstal-Stuttgart",
+         "a": "",
+         "d": "Bereich (district) of the Württemberg Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Hohenneuffen",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Remstal-Stuttgart"
+          },
+          {
+           "n": "Kopf",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Remstal-Stuttgart"
+          },
+          {
+           "n": "Sonnenbühl",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Remstal-Stuttgart"
+          },
+          {
+           "n": "Wartbühl",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Remstal-Stuttgart"
+          },
+          {
+           "n": "Weinsteige",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Remstal-Stuttgart"
+          }
+         ],
+         "g": "Württemberg"
+        },
+        {
+         "n": "Württembergisch Bodensee",
+         "a": "",
+         "d": "Bereich (district) of the Württemberg Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [],
+         "g": "Württemberg"
+        },
+        {
+         "n": "Württembergisch Unterland",
+         "a": "",
+         "d": "Bereich (district) of the Württemberg Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions",
+         "v": [
+          {
+           "n": "Heuchelberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Württembergisch Unterland"
+          },
+          {
+           "n": "Kirchenweinberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Württembergisch Unterland"
+          },
+          {
+           "n": "Lindelberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Württembergisch Unterland"
+          },
+          {
+           "n": "Salzberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Württembergisch Unterland"
+          },
+          {
+           "n": "Schalkstein",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Württembergisch Unterland"
+          },
+          {
+           "n": "Schozachtal",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Württembergisch Unterland"
+          },
+          {
+           "n": "Staufenberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Württembergisch Unterland"
+          },
+          {
+           "n": "Stromberg",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Württembergisch Unterland"
+          },
+          {
+           "n": "Wunnenstein",
+           "mk": "",
+           "y": "",
+           "d": "Grosslage (collective vineyard site) in the Bereich Württembergisch Unterland"
+          }
+         ],
+         "g": "Württemberg"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/List_of_German_wine_regions"
+      },
+      {
+       "n": "Germany: Landwein regions",
+       "d": "The regional Landwein (country wine) areas of Germany, a tier below quality wine.",
+       "nl": "One entry is one German Landwein region, a protected geographical indication that lies over one or more quality-wine regions.",
+       "sel": "The Landwein regions named in Wikipedia German wine; the page says 21, and 19 are named in the part read (the Saar and Ruwer Landweine are not named separately). Entries ordered with the quality region they overlie first.",
+       "xg": "Landwein over a quality region, then those outside the quality regions",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Ahrtaler Landwein",
+         "a": "",
+         "d": "Landwein region over the Ahr Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Rheinburgen-Landwein",
+         "a": "",
+         "d": "Landwein region over the Mittelrhein Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Rheingauer Landwein",
+         "a": "",
+         "d": "Landwein region over the Rheingau Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Nahegauer Landwein",
+         "a": "",
+         "d": "Landwein region over the Nahe Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Rheinischer Landwein",
+         "a": "",
+         "d": "Landwein region over the Rheinhessen Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Pfälzer Landwein",
+         "a": "",
+         "d": "Landwein region over the Pfalz Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Starkenburger Landwein",
+         "a": "",
+         "d": "Landwein region over the Hessische Bergstraße Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Landwein der Mosel",
+         "a": "",
+         "d": "Landwein region over the Mosel Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Landwein Main",
+         "a": "",
+         "d": "Landwein region over the Franken Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Schwäbischer Landwein",
+         "a": "",
+         "d": "Landwein region over the Württemberg Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Badischer Landwein",
+         "a": "",
+         "d": "Landwein region over the Baden Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Sächsischer Landwein",
+         "a": "",
+         "d": "Landwein region over the Sachsen Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Mitteldeutscher Landwein",
+         "a": "",
+         "d": "Landwein region over the Saale-Unstrut Anbaugebiet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Over an Anbaugebiet"
+        },
+        {
+         "n": "Bayerischer Bodensee-Landwein",
+         "a": "",
+         "d": "Landwein region not mapped to a quality region by the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Not mapped to an Anbaugebiet"
+        },
+        {
+         "n": "Regensburger Landwein",
+         "a": "",
+         "d": "Landwein region not mapped to a quality region by the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Not mapped to an Anbaugebiet"
+        },
+        {
+         "n": "Taubertäler Landwein",
+         "a": "",
+         "d": "Landwein region not mapped to a quality region by the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Not mapped to an Anbaugebiet"
+        },
+        {
+         "n": "Brandenburger Landwein",
+         "a": "",
+         "d": "Landwein region not mapped to a quality region by the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Not mapped to an Anbaugebiet"
+        },
+        {
+         "n": "Mecklenburger Landwein",
+         "a": "",
+         "d": "Landwein region not mapped to a quality region by the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Not mapped to an Anbaugebiet"
+        },
+        {
+         "n": "Stargarder Land Landwein",
+         "a": "",
+         "d": "Landwein region not mapped to a quality region by the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/German_wine",
+         "v": [],
+         "g": "Not mapped to an Anbaugebiet"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/German_wine"
+      }
+     ]
+    },
+    {
+     "n": "Austria",
+     "t": "The Austrian wine-growing areas and DACs.",
+     "ax": "kinds by tier",
+     "k": [
+      {
+       "n": "Austria: Weinbaugebiete",
+       "d": "The wine-growing areas of Austria above the DACs: Niederösterreich, Burgenland, Wien, Steiermark and Bergland.",
+       "nl": "One entry is one Austrian Weinbaugebiet (wine-growing area), the tier above the DACs.",
+       "sel": "The five areas named in Wikipedia Austrian wine (2024 hectares).",
+       "xg": "Weinland, then Steiermark and Bergland",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "White",
+          "Red",
+          "Rosé",
+          "Sparkling",
+          "Sweet"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Niederösterreich",
+         "a": "",
+         "d": "26,723 ha; Wachau, Kremstal, Kamptal, Traisental, Wagram, Weinviertel, Carnuntum, Thermenregion.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": [],
+         "g": "Weinland"
+        },
+        {
+         "n": "Burgenland",
+         "a": "",
+         "d": "11,538 ha; Neusiedlersee, Leithaberg, Mittelburgenland, Eisenberg.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": [],
+         "g": "Weinland"
+        },
+        {
+         "n": "Wien",
+         "a": "",
+         "d": "588 ha; the city of Vienna.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": [],
+         "g": "Weinland"
+        },
+        {
+         "n": "Steiermark",
+         "a": "",
+         "d": "5,109 ha; Vulkanland Steiermark, Südsteiermark, Weststeiermark.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": [],
+         "g": "Other areas"
+        },
+        {
+         "n": "Bergland",
+         "a": "",
+         "d": "243 ha; rest of Austria, no sub-regions listed.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": [],
+         "g": "Other areas"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Austrian_wine"
+      },
+      {
+       "n": "Austria: DAC appellations",
+       "d": "The eighteen Districtus Austriae Controllatus (DAC) wine appellations of Austria.",
+       "nl": "One entry is one Austrian DAC, a regional appellation named for its place, in the year order of its first vintage.",
+       "sel": "All eighteen DACs in Wikipedia Austrian wine, ordered by first vintage; the Wachau grades (Steinfeder, Federspiel, Smaragd) are versions of Wachau. The ÖTW Erste Lage vineyard classification is not on a fetched page and is not included.",
+       "xg": "by year of first DAC vintage",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Grüner Veltliner",
+          "Welschriesling",
+          "Riesling",
+          "Blaufränkisch",
+          "Zweigelt",
+          "St. Laurent",
+          "Sauvignon blanc",
+          "Gemischter Satz field blend",
+          "Schilcher (Blauer Wildbacher)"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Weinviertel",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2002. Grüner Veltliner; Reserve from 2009.",
+         "mk": "",
+         "y": "2002",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": [],
+         "role": "origin"
+        },
+        {
+         "n": "Mittelburgenland",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2005. Blaufränkisch red.",
+         "mk": "",
+         "y": "2005",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Traisental",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2006.",
+         "mk": "",
+         "y": "2006",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Kremstal",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2007.",
+         "mk": "",
+         "y": "2007",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Kamptal",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2008.",
+         "mk": "",
+         "y": "2008",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Leithaberg",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2009. White from 2009, red from 2008.",
+         "mk": "",
+         "y": "2009",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Eisenberg",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2009. Blaufränkisch is the local red.",
+         "mk": "",
+         "y": "2009",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Neusiedlersee",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2011. Klassik from 2011, Reserve 2010, sweet styles added 2020.",
+         "mk": "",
+         "y": "2011",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Wiener Gemischter Satz",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2013. Field blends (Gemischter Satz) from Vienna.",
+         "mk": "",
+         "y": "2013",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Rosalia",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2017.",
+         "mk": "",
+         "y": "2017",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Vulkanland Steiermark",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2018.",
+         "mk": "",
+         "y": "2018",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Südsteiermark",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2018. Sauvignon blanc dominates.",
+         "mk": "",
+         "y": "2018",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Weststeiermark",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2018. Schilcher rosé is the local speciality.",
+         "mk": "",
+         "y": "2018",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Carnuntum",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2019. Zweigelt and Blaufränkisch red.",
+         "mk": "",
+         "y": "2019",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Wachau",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2020. Dry whites graded Steinfeder, Federspiel, Smaragd.",
+         "mk": "",
+         "y": "2020",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": [
+          {
+           "n": "Steinfeder",
+           "mk": "",
+           "y": "",
+           "d": "lightest Wachau grade, up to 11.5 % alcohol, mostly for local drinking"
+          },
+          {
+           "n": "Federspiel",
+           "mk": "",
+           "y": "",
+           "d": "Wachau grade of 11.5 to 12.5 % alcohol, minimum must weight 17° KMW, about Kabinett level"
+          },
+          {
+           "n": "Smaragd",
+           "mk": "",
+           "y": "",
+           "d": "top Wachau grade, at least 12.5 % alcohol and at most 9 g/l residual sugar"
+          }
+         ]
+        },
+        {
+         "n": "Ruster Ausbruch",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2020. Sweet Trockenbeerenauslese-level dessert wine from Rust.",
+         "mk": "",
+         "y": "2020",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Wagram",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2021.",
+         "mk": "",
+         "y": "2021",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        },
+        {
+         "n": "Thermenregion",
+         "a": "",
+         "d": "Austrian DAC, first vintage 2023.",
+         "mk": "",
+         "y": "2023",
+         "s": "https://en.wikipedia.org/wiki/Austrian_wine",
+         "v": []
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Austrian_wine"
+      }
+     ]
+    },
+    {
+     "n": "Switzerland",
+     "t": "The Swiss regions and the Vaud AOCs.",
+     "ax": "kinds by tier",
+     "k": [
+      {
+       "n": "Switzerland: wine regions",
+       "d": "The six Swiss wine regions grouped from the cantonal AOCs.",
+       "nl": "One entry is one of the six Swiss wine regions defined by Swiss Wine Promotion, which group the cantonal AOCs.",
+       "sel": "The six regions on Swiss Wine Promotion and Wikipedia Swiss wine. The cantonal AOCs (62 according to Swiss Wine Promotion) are not listed on any fetched page except the Vaud ones in the next kind, so they are not included.",
+       "xg": "one flat list of six regions",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Pinot noir",
+          "Chasselas",
+          "Gamay",
+          "Merlot",
+          "Müller-Thurgau",
+          "Gamaret",
+          "Chardonnay",
+          "Petite Arvine",
+          "Humagne rouge",
+          "Cornalin",
+          "Heida"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Valais",
+         "a": "",
+         "d": "Alpine region with almost one third of Swiss vineyards; terraced vineyards.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.swisswine.com/en/swiss-wine-regions",
+         "v": [
+          {
+           "n": "Vin des glaciers",
+           "mk": "",
+           "y": "",
+           "d": "solera-aged wine from the Rèze grape in larch or oak barrels"
+          }
+         ]
+        },
+        {
+         "n": "Vaud",
+         "a": "",
+         "d": "Stretches from Lake Geneva to Lake Neuchâtel; six AOCs and two Grand Cru AOCs.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.swisswine.com/en/swiss-wine-regions",
+         "v": []
+        },
+        {
+         "n": "German-speaking Switzerland",
+         "a": "",
+         "d": "Sixteen cantons; Pinot noir and Müller-Thurgau dominate.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.swisswine.com/en/swiss-wine-regions",
+         "v": []
+        },
+        {
+         "n": "Geneva",
+         "a": "",
+         "d": "First canton to adopt an AOC label; Satigny is the largest winemaking municipality.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Swiss_wine",
+         "v": []
+        },
+        {
+         "n": "Ticino",
+         "a": "",
+         "d": "South of the Alps, facing Italy; Merlot is more than 80 % of the vineyard.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.swisswine.com/en/swiss-wine-regions",
+         "v": []
+        },
+        {
+         "n": "Three Lakes (Trois-Lacs)",
+         "a": "Trois-Lacs · Drei Seen",
+         "d": "Neuchâtel, Lake Biel and Vully.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.swisswine.com/en/swiss-wine-regions",
+         "v": [
+          {
+           "n": "Neuchâtel",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Lake Biel",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Vully",
+           "mk": "",
+           "y": "",
+           "d": ""
+          }
+         ]
+        }
+       ],
+       "s": "https://www.swisswine.com/en/swiss-wine-regions"
+      },
+      {
+       "n": "Switzerland: Vaud AOCs",
+       "d": "The six Vaud AOC areas and the Dézaley Grand Cru.",
+       "nl": "One entry is one AOC area of the canton of Vaud.",
+       "sel": "The six AOCs and the Dézaley Grand Cru named on the Vaud wine-region page; the page says there are two Vaud Grand Cru AOCs but names only Dézaley.",
+       "xg": "one flat list",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "White",
+          "Red",
+          "Rosé"
+         ]
+        ],
+        [
+         "Leading grape",
+         [
+          "Chasselas",
+          "Pinot noir",
+          "Gamay"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "La Côte",
+         "a": "",
+         "d": "Vaud AOC area.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.mescavesouvertes.ch/en/les-regions",
+         "v": []
+        },
+        {
+         "n": "Lavaux",
+         "a": "",
+         "d": "Vaud AOC area of terraced vineyards on Lake Geneva.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.mescavesouvertes.ch/en/les-regions",
+         "v": [
+          {
+           "n": "Dézaley Grand Cru",
+           "mk": "",
+           "y": "",
+           "d": "AOC Grand Cru located within Lavaux"
+          }
+         ]
+        },
+        {
+         "n": "Chablais",
+         "a": "",
+         "d": "Vaud AOC area.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.mescavesouvertes.ch/en/les-regions",
+         "v": []
+        },
+        {
+         "n": "Côtes de l'Orbe",
+         "a": "",
+         "d": "Vaud AOC area.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.mescavesouvertes.ch/en/les-regions",
+         "v": []
+        },
+        {
+         "n": "Bonvillars",
+         "a": "",
+         "d": "Vaud AOC area.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.mescavesouvertes.ch/en/les-regions",
+         "v": []
+        },
+        {
+         "n": "Vully",
+         "a": "",
+         "d": "Vaud AOC area.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.mescavesouvertes.ch/en/les-regions",
+         "v": []
+        }
+       ],
+       "s": "https://www.mescavesouvertes.ch/en/les-regions"
+      }
+     ]
+    }
+   ],
+   "b": [
+    {
+     "m": "Appellation and classification",
+     "v": "regional → district → village or vineyard where the country has a classification",
+     "w": "Official appellation systems set the expected quality and style."
+    },
+    {
+     "m": "Vintage and drinking window",
+     "w": "The harvest year decides whether the wine is ready, improving or past its best."
+    }
+   ]
+  },
+  {
+   "n": "Wine of Hungary & Central Europe",
+   "mode": "variety",
+   "t": "Wine named for its Hungarian, Czech, Slovak or Polish place, including Tokaj and its sweet styles.",
+   "ax": "Which country and wine region names the wine?",
+   "s": [
+    {
+     "n": "Hungary",
+     "t": "The 22 Hungarian wine regions, with Tokaj's styles.",
+     "ax": "one kind",
+     "k": [
+      {
+       "n": "Hungary: wine regions",
+       "d": "The 22 Hungarian wine regions, with Tokaj's wine styles and classes as versions.",
+       "nl": "One entry is one of the 22 Hungarian wine regions, grouped by the wine-region group it belongs to.",
+       "sel": "All 22 regions in Wikipedia Hungarian wine, by group (Balaton, Duna, Eger, Észak-Dunántúl, Pannon, Tokaj); Tokaj styles from Wikipedia Tokaji. The page names no PDO sub-districts and no named first-growth vineyards beyond Úrágya, so none are listed.",
+       "xg": "by wine-region group",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Furmint",
+          "Hárslevelű",
+          "Olaszrizling",
+          "Kékfrankos",
+          "Kadarka",
+          "Cabernet franc",
+          "Merlot",
+          "Ezerjó",
+          "Blauer Portugieser",
+          "Kéknyelű",
+          "Sárgamuskotály"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Badacsony",
+         "a": "",
+         "d": "Volcanic soils; full-bodied whites with considerable acidity; Kéknyelű.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Balaton"
+        },
+        {
+         "n": "Balatonboglár",
+         "a": "",
+         "d": "Full-bodied whites and reds, moderate acidity.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Balaton"
+        },
+        {
+         "n": "Balaton-felvidék",
+         "a": "",
+         "d": "Volcanic soils; full-bodied whites.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Balaton"
+        },
+        {
+         "n": "Balatonfüred-Csopak",
+         "a": "",
+         "d": "Terra rossa soils; full-bodied whites.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Balaton"
+        },
+        {
+         "n": "Nagy-Somló",
+         "a": "",
+         "d": "Volcanic soil; full-bodied whites with high acidity; Olaszrizling, Hárslevelű, Furmint.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Balaton"
+        },
+        {
+         "n": "Zala",
+         "a": "",
+         "d": "Mainly white wines.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Balaton"
+        },
+        {
+         "n": "Csongrád",
+         "a": "",
+         "d": "Fresh, light wines.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Duna"
+        },
+        {
+         "n": "Hajós-Baja",
+         "a": "",
+         "d": "Fresh, light wines.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Duna"
+        },
+        {
+         "n": "Kunság",
+         "a": "",
+         "d": "Fresh, light wines.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Duna"
+        },
+        {
+         "n": "Bükk",
+         "a": "",
+         "d": "Mainly white wines.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Eger"
+        },
+        {
+         "n": "Eger",
+         "a": "",
+         "d": "Fresh and full-bodied whites, good Pinot noirs; Leányka, Királyleányka, Olaszrizling, Kékfrankos.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [
+          {
+           "n": "Egri Bikavér",
+           "mk": "",
+           "y": "",
+           "d": "elegant red blend from Eger"
+          }
+         ],
+         "g": "Eger"
+        },
+        {
+         "n": "Mátra",
+         "a": "",
+         "d": "Elegant, full-bodied whites from volcanic soil.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Eger"
+        },
+        {
+         "n": "Neszmély",
+         "a": "",
+         "d": "Fresh, aromatic whites.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Észak-Dunántúl"
+        },
+        {
+         "n": "Etyek-Buda",
+         "a": "",
+         "d": "Fresh whites with considerable acidity.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Észak-Dunántúl"
+        },
+        {
+         "n": "Mór",
+         "a": "",
+         "d": "Volcanic soil; full-bodied whites; Ezerjó.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Észak-Dunántúl"
+        },
+        {
+         "n": "Pannonhalma",
+         "a": "",
+         "d": "Full-bodied whites.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Észak-Dunántúl"
+        },
+        {
+         "n": "Sopron",
+         "a": "",
+         "d": "Elegant reds; Kékfrankos.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Észak-Dunántúl"
+        },
+        {
+         "n": "Pécs",
+         "a": "",
+         "d": "Mainly whites; Cirfandli.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Pannon"
+        },
+        {
+         "n": "Szekszárd",
+         "a": "",
+         "d": "Full-bodied, spicy reds; Kadarka, Kékfrankos, Cabernet franc, Merlot.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [
+          {
+           "n": "Szekszárdi Bikavér",
+           "mk": "",
+           "y": "",
+           "d": "red blend from Szekszárd"
+          }
+         ],
+         "g": "Pannon"
+        },
+        {
+         "n": "Tolna",
+         "a": "",
+         "d": "No description on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Pannon"
+        },
+        {
+         "n": "Villány",
+         "a": "",
+         "d": "Robust, full-bodied, spicy reds; Blauer Portugieser, Cabernets, Merlot.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hungarian_wine",
+         "v": [],
+         "g": "Pannon"
+        },
+        {
+         "n": "Tokaj",
+         "a": "",
+         "d": "Sweet botrytised aszú wines and dry Furmint; Furmint, Hárslevelű, Sárgamuskotály, Kövérszőlő, Zéta.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Tokaji",
+         "v": [
+          {
+           "n": "Tokaji Aszú",
+           "mk": "",
+           "y": "",
+           "d": "3 to 6 puttonyos, set by sugar and sugar-free extract; usually above 14 % alcohol"
+          },
+          {
+           "n": "Aszú-Eszencia",
+           "mk": "",
+           "y": "",
+           "d": "sweeter than 6 puttonyos"
+          },
+          {
+           "n": "Tokaji Eszencia",
+           "mk": "",
+           "y": "",
+           "d": "free-run juice of aszú berries, 500 to 700 g/l sugar, about 5 to 6 % alcohol"
+          },
+          {
+           "n": "Tokaji Szamorodni",
+           "mk": "",
+           "y": "",
+           "d": "from bunches with a share of botrytised berries; dry (száraz) or sweet (édes), about 14 % alcohol"
+          },
+          {
+           "n": "Tokaji Fordítás",
+           "mk": "",
+           "y": "",
+           "d": "must poured on used aszú dough"
+          },
+          {
+           "n": "Tokaji Máslás",
+           "mk": "",
+           "y": "",
+           "d": "must poured on aszú lees"
+          },
+          {
+           "n": "Dry Tokaji Furmint",
+           "mk": "",
+           "y": "",
+           "d": "single-vineyard dry Furmint, led by Szepsy Úrágya 2000; Mád makes a commune-level wine"
+          },
+          {
+           "n": "First-class vineyards (1730 classification)",
+           "mk": "",
+           "y": "",
+           "d": "vineyards sorted into first, second and third class by soil, sun and noble rot; completed by the 1765 and 1772 censuses"
+          }
+         ],
+         "g": "Tokaj"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Hungarian_wine"
+      }
+     ]
+    },
+    {
+     "n": "Czechia, Slovakia & Poland",
+     "t": "Wine regions of the Czech Republic, Slovakia and Poland.",
+     "ax": "one kind per country",
+     "k": [
+      {
+       "n": "Czechia: wine sub-regions",
+       "d": "The two Czech wine regions and their six sub-regions, with the VOC appellations.",
+       "nl": "One entry is one Czech wine sub-region (podoblast); VOC appellations are versions.",
+       "sel": "The six sub-regions in Wikipedia Czech wine; VOC Znojmo, Mikulov and Mělník are the VOC examples that page names.",
+       "xg": "Moravia, then Bohemia",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Pálava",
+          "Riesling",
+          "Pinot gris",
+          "Pinot noir",
+          "Blaufränkisch",
+          "Zweigelt",
+          "St. Laurent",
+          "Hibernal",
+          "Moravian Muscat"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Mikulovská",
+         "a": "",
+         "d": "Moravian sub-region around Mikulov.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Czech_wine",
+         "v": [
+          {
+           "n": "VOC Mikulov",
+           "mk": "",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "g": "Moravia (about 96 % of Czech wine)"
+        },
+        {
+         "n": "Znojemská",
+         "a": "",
+         "d": "Moravian sub-region around Znojmo.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Czech_wine",
+         "v": [
+          {
+           "n": "VOC Znojmo",
+           "mk": "",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "g": "Moravia (about 96 % of Czech wine)"
+        },
+        {
+         "n": "Velkopavlovická",
+         "a": "",
+         "d": "Moravian sub-region around Velké Pavlovice.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Czech_wine",
+         "v": [],
+         "g": "Moravia (about 96 % of Czech wine)"
+        },
+        {
+         "n": "Slovácká",
+         "a": "",
+         "d": "Moravian sub-region of Slovácko.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Czech_wine",
+         "v": [],
+         "g": "Moravia (about 96 % of Czech wine)"
+        },
+        {
+         "n": "Mělnická",
+         "a": "",
+         "d": "Bohemian sub-region around Mělník.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Czech_wine",
+         "v": [
+          {
+           "n": "VOC Mělník",
+           "mk": "",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "g": "Bohemia"
+        },
+        {
+         "n": "Litoměřická",
+         "a": "",
+         "d": "Bohemian sub-region around Litoměřice.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Czech_wine",
+         "v": [],
+         "g": "Bohemia"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Czech_wine"
+      },
+      {
+       "n": "Slovakia: wine regions",
+       "d": "The six Slovak wine regions, with the Slovak Tokaj styles.",
+       "nl": "One entry is one of the six Slovak wine regions.",
+       "sel": "The six regions in Wikipedia Slovak wine; the 40 districts are not named on the page. Slovak Tokaj styles from Wikipedia Tokaj wine region.",
+       "xg": "one flat list",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Grüner Veltliner",
+          "Welschriesling",
+          "Blaufränkisch",
+          "Müller-Thurgau",
+          "St. Laurent",
+          "Pinot blanc",
+          "Riesling",
+          "Furmint",
+          "Lipovina (Hárslevelű)"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Malokarpatská",
+         "a": "",
+         "d": "Little Carpathians region.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovak_wine",
+         "v": []
+        },
+        {
+         "n": "Južnoslovenská",
+         "a": "",
+         "d": "South Slovak region.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovak_wine",
+         "v": []
+        },
+        {
+         "n": "Nitrianska",
+         "a": "",
+         "d": "Nitra region.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovak_wine",
+         "v": []
+        },
+        {
+         "n": "Stredoslovenská",
+         "a": "",
+         "d": "Central Slovak region.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovak_wine",
+         "v": []
+        },
+        {
+         "n": "Východoslovenská",
+         "a": "",
+         "d": "East Slovak region.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovak_wine",
+         "v": []
+        },
+        {
+         "n": "Tokaj (Slovakia)",
+         "a": "Tokajská oblasť",
+         "d": "Seven communities: Bara, Čerhov, Černochov, Malá Tŕňa, Slovenské Nové Mesto, Veľká Tŕňa, Viničky.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+         "v": [
+          {
+           "n": "Tokajské samorodné",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Tokajská výberová esencia",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Tokajská esencia-nektár",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Mášláš",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Fordítáš",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Tokajský Furmint",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Tokajská Lipovina",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Tokajský Muškát žltý",
+           "mk": "",
+           "y": "",
+           "d": ""
+          }
+         ]
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Slovak_wine"
+      },
+      {
+       "n": "Poland: wine areas",
+       "d": "The wine-growing areas of Poland named on the national wine page.",
+       "nl": "One entry is one Polish wine-growing area; Poland has no appellation list on the fetched page.",
+       "sel": "Areas named in Wikipedia Polish wine; no official appellation list is on a fetched page.",
+       "xg": "one flat list",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Regent",
+          "Rondo",
+          "Pinot noir",
+          "Solaris",
+          "Riesling",
+          "Seyval blanc",
+          "Pinot gris",
+          "Johanniter",
+          "Hibernal"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Lower Silesia",
+         "a": "",
+         "d": "South-western area with a strong grouping of wineries around Wrocław.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Polish_wine",
+         "v": []
+        },
+        {
+         "n": "Zielona Góra",
+         "a": "",
+         "d": "Western area where wineries cluster.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Polish_wine",
+         "v": []
+        },
+        {
+         "n": "Lesser Poland",
+         "a": "",
+         "d": "Southern area around Kraków.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Polish_wine",
+         "v": []
+        },
+        {
+         "n": "Subcarpathia",
+         "a": "",
+         "d": "South-eastern area (Podkarpacie).",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Polish_wine",
+         "v": []
+        },
+        {
+         "n": "Lublin",
+         "a": "",
+         "d": "Eastern area including Kazimierz Dolny.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Polish_wine",
+         "v": []
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Polish_wine"
+      }
+     ]
+    }
+   ],
+   "b": [
+    {
+     "m": "Appellation and classification",
+     "v": "regional → district → village or vineyard where the country has a classification",
+     "w": "Official appellation systems set the expected quality and style."
+    },
+    {
+     "m": "Vintage and drinking window",
+     "w": "The harvest year decides whether the wine is ready, improving or past its best."
+    }
+   ]
+  },
+  {
+   "n": "Wine of the Balkans",
+   "mode": "variety",
+   "t": "Wine named for its place in Slovenia, Croatia, Serbia and the southern Balkans.",
+   "ax": "Which country and wine region names the wine?",
+   "s": [
+    {
+     "n": "Slovenia & Croatia",
+     "t": "Slovenian districts and Croatian sub-regions.",
+     "ax": "one kind per country",
+     "k": [
+      {
+       "n": "Slovenia: wine districts",
+       "d": "The Slovenian wine districts in the three wine regions.",
+       "nl": "One entry is one Slovenian wine district; traditional protected wines are versions.",
+       "sel": "The districts named in Wikipedia Slovenian wine (14); the page does not use official PDO district names.",
+       "xg": "by wine region",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Rebula (Ribolla)",
+          "Malvazija",
+          "Refošk",
+          "Merlot",
+          "Sauvignon blanc",
+          "Welschriesling",
+          "Šipon (Furmint)",
+          "Zweigelt",
+          "Blaufränkisch",
+          "Kraljevina"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Goriška Brda",
+         "a": "",
+         "d": "Includes passito-style Verduc and Pikolit.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [],
+         "g": "Primorska (Littoral)"
+        },
+        {
+         "n": "Koper",
+         "a": "",
+         "d": "Covers the Istrian peninsula.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [],
+         "g": "Primorska (Littoral)"
+        },
+        {
+         "n": "Kras",
+         "a": "",
+         "d": "The Karst.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [
+          {
+           "n": "Teran",
+           "mk": "",
+           "y": "",
+           "d": "traditional protected wine of the Karst"
+          }
+         ],
+         "g": "Primorska (Littoral)"
+        },
+        {
+         "n": "Vipava Valley",
+         "a": "",
+         "d": "Slovenian wine district.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [],
+         "g": "Primorska (Littoral)"
+        },
+        {
+         "n": "Bizeljsko-Sremič",
+         "a": "",
+         "d": "Known for sparkling wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [
+          {
+           "n": "Bizeljčan",
+           "mk": "",
+           "y": "",
+           "d": "traditional protected wine"
+          }
+         ],
+         "g": "Posavje (Lower Sava)"
+        },
+        {
+         "n": "Dolenjska (Lower Carniola)",
+         "a": "",
+         "d": "Slovenian wine district.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [
+          {
+           "n": "Cviček",
+           "mk": "",
+           "y": "",
+           "d": "traditional protected wine"
+          }
+         ],
+         "g": "Posavje (Lower Sava)"
+        },
+        {
+         "n": "Bela krajina (White Carniola)",
+         "a": "",
+         "d": "Slovenian wine district.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [
+          {
+           "n": "Belokranjec",
+           "mk": "",
+           "y": "",
+           "d": "traditional protected wine"
+          },
+          {
+           "n": "Metliška Črnina",
+           "mk": "",
+           "y": "",
+           "d": "traditional protected wine"
+          }
+         ],
+         "g": "Posavje (Lower Sava)"
+        },
+        {
+         "n": "Radgona-Kapela",
+         "a": "",
+         "d": "Méthode champenoise sparkling wine from 1852.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [],
+         "g": "Podravje (Drava)"
+        },
+        {
+         "n": "Ljutomer-Ormož",
+         "a": "",
+         "d": "Slovenian wine district.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [],
+         "g": "Podravje (Drava)"
+        },
+        {
+         "n": "Maribor",
+         "a": "",
+         "d": "Slovenian wine district.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [],
+         "g": "Podravje (Drava)"
+        },
+        {
+         "n": "Haloze",
+         "a": "",
+         "d": "Slovenian wine district.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [],
+         "g": "Podravje (Drava)"
+        },
+        {
+         "n": "Prekmurje",
+         "a": "",
+         "d": "Slovenian wine district.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [],
+         "g": "Podravje (Drava)"
+        },
+        {
+         "n": "Central Slovene Hills",
+         "a": "",
+         "d": "Slovenian wine district.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [],
+         "g": "Podravje (Drava)"
+        },
+        {
+         "n": "Šmarje-Virštanj",
+         "a": "",
+         "d": "Slovenian wine district.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Slovenian_wine",
+         "v": [],
+         "g": "Podravje (Drava)"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Slovenian_wine"
+      },
+      {
+       "n": "Croatia: wine sub-regions",
+       "d": "The Croatian wine regions and sub-regions, with the named hill appellations as versions.",
+       "nl": "One entry is one Croatian wine sub-region (podregija); named hills are versions.",
+       "sel": "The twelve sub-regions in Wikipedia Croatian wine (first 100,000 characters read). Croatia has no PDO list on that page; Dingač and Postup are named hills with Yugoslav state protection.",
+       "xg": "by wine region",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Graševina",
+          "Plavac Mali",
+          "Malvazija Istarska",
+          "Teran",
+          "Pošip",
+          "Grk",
+          "Babić",
+          "Škrlet",
+          "Žlahtina",
+          "Kujundžuša"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Podunavlje",
+         "a": "",
+         "d": "Baranja, Erdut, Srijem.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [],
+         "g": "Eastern Continental"
+        },
+        {
+         "n": "Slavonija",
+         "a": "",
+         "d": "Premium Graševina; Daruvar, Đakovo, Kutjevo, Požega-Pleternica and others.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [],
+         "g": "Eastern Continental"
+        },
+        {
+         "n": "Moslavina",
+         "a": "",
+         "d": "Škrlet, Kraljevina, Moslavac.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [],
+         "g": "Western Continental"
+        },
+        {
+         "n": "Plešivica",
+         "a": "",
+         "d": "Samobor, Plešivica-Okić and others.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [],
+         "g": "Western Continental"
+        },
+        {
+         "n": "Pokuplje",
+         "a": "",
+         "d": "Croatian wine sub-region.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [],
+         "g": "Western Continental"
+        },
+        {
+         "n": "Prigorje-Bilogorje",
+         "a": "",
+         "d": "Zagreb, Kalnik, Bilogora and others.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [],
+         "g": "Western Continental"
+        },
+        {
+         "n": "Zagorje-Međimurje",
+         "a": "",
+         "d": "Croatian wine sub-region.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [],
+         "g": "Western Continental"
+        },
+        {
+         "n": "Istria",
+         "a": "",
+         "d": "Malvazija Istarska white and Teran red.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [],
+         "g": "Coastal: Istria and Kvarner"
+        },
+        {
+         "n": "Hrvatsko Primorje",
+         "a": "",
+         "d": "Opatija-Rijeka-Vinodol and the islands Krk, Rab, Cres-Lošinj, Pag; Žlahtina on Krk.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [],
+         "g": "Coastal: Istria and Kvarner"
+        },
+        {
+         "n": "Northern Dalmatia",
+         "a": "",
+         "d": "Pirovac-Skradin, Primošten, Šibenik, Zadar-Biograd; Babić, Debit.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [],
+         "g": "Coastal: Dalmatia"
+        },
+        {
+         "n": "Dalmatian interior",
+         "a": "",
+         "d": "Dalmatinska Zagora, Imotski, Sinj; Kujundžuša.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [],
+         "g": "Coastal: Dalmatia"
+        },
+        {
+         "n": "Central and South Dalmatia",
+         "a": "",
+         "d": "Kaštela-Trogir, Split-Omiš-Makarska, Neretva, Konavle, Pelješac and the islands; Plavac Mali, Pošip, Grk, Prošek.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Croatian_wine",
+         "v": [
+          {
+           "n": "Dingač",
+           "mk": "",
+           "y": "1961",
+           "d": "Pelješac hill, registered for Yugoslav state protection in 1961"
+          },
+          {
+           "n": "Postup",
+           "mk": "",
+           "y": "1967",
+           "d": "Pelješac hill, registered for Yugoslav state protection in 1967"
+          },
+          {
+           "n": "Prošek",
+           "mk": "",
+           "y": "",
+           "d": "Dalmatian dessert wine from dried grapes"
+          }
+         ],
+         "g": "Coastal: Dalmatia"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Croatian_wine"
+      }
+     ]
+    },
+    {
+     "n": "Serbia",
+     "t": "The 22 Serbian wine regions.",
+     "ax": "one kind",
+     "k": [
+      {
+       "n": "Serbia: wine regions",
+       "d": "The 22 Serbian wine regions of the 2013 classification, including the Kosovo regions it lists.",
+       "nl": "One entry is one wine region of the 2013 Serbian classification.",
+       "sel": "All 22 regions of the 2013 classification in Wikipedia Serbian wine (the 1970s classification of nine regions is not used); Fruška Gora is a hill area within Srem and not an entry.",
+       "xg": "by province",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Prokupac",
+          "Vranac",
+          "Smederevka",
+          "Tamjanika",
+          "Krstač",
+          "Welschriesling (Grašac)",
+          "Merlot",
+          "Cabernet Sauvignon"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Srem",
+         "a": "",
+         "d": "Serbian wine region in Vojvodina.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [
+          {
+           "n": "Bermet",
+           "mk": "",
+           "y": "",
+           "d": "revived traditional wine from Sremski Karlovci"
+          }
+         ],
+         "g": "Vojvodina"
+        },
+        {
+         "n": "Subotica",
+         "a": "",
+         "d": "Serbian wine region in Vojvodina.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Vojvodina"
+        },
+        {
+         "n": "Telečka",
+         "a": "",
+         "d": "Serbian wine region in Vojvodina.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Vojvodina"
+        },
+        {
+         "n": "Potisje",
+         "a": "",
+         "d": "Serbian wine region in Vojvodina.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Vojvodina"
+        },
+        {
+         "n": "Banat",
+         "a": "",
+         "d": "Serbian wine region in Vojvodina.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Vojvodina"
+        },
+        {
+         "n": "South Banat",
+         "a": "",
+         "d": "Serbian wine region in Vojvodina.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Vojvodina"
+        },
+        {
+         "n": "Bačka",
+         "a": "",
+         "d": "Serbian wine region in Vojvodina.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Vojvodina"
+        },
+        {
+         "n": "Pocerina-Valjevo",
+         "a": "",
+         "d": "Serbian wine region in Central Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Central Serbia"
+        },
+        {
+         "n": "Mlava",
+         "a": "",
+         "d": "Serbian wine region in Central Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Central Serbia"
+        },
+        {
+         "n": "Toplica",
+         "a": "",
+         "d": "Serbian wine region in Central Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Central Serbia"
+        },
+        {
+         "n": "Čačak-Kraljevo",
+         "a": "",
+         "d": "Serbian wine region in Central Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Central Serbia"
+        },
+        {
+         "n": "Three Moravas",
+         "a": "",
+         "d": "Serbian wine region in Central Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Central Serbia"
+        },
+        {
+         "n": "Belgrade",
+         "a": "",
+         "d": "Serbian wine region in Central Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Central Serbia"
+        },
+        {
+         "n": "Šumadija",
+         "a": "",
+         "d": "Serbian wine region in Central Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Central Serbia"
+        },
+        {
+         "n": "Negotin Valley",
+         "a": "",
+         "d": "Serbian wine region in Eastern and southern Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Eastern and southern Serbia"
+        },
+        {
+         "n": "Knjaževac",
+         "a": "",
+         "d": "Serbian wine region in Eastern and southern Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Eastern and southern Serbia"
+        },
+        {
+         "n": "Niš",
+         "a": "",
+         "d": "Serbian wine region in Eastern and southern Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Eastern and southern Serbia"
+        },
+        {
+         "n": "Nišava",
+         "a": "",
+         "d": "Serbian wine region in Eastern and southern Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Eastern and southern Serbia"
+        },
+        {
+         "n": "Leskovac",
+         "a": "",
+         "d": "Serbian wine region in Eastern and southern Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Eastern and southern Serbia"
+        },
+        {
+         "n": "Vranje",
+         "a": "",
+         "d": "Serbian wine region in Eastern and southern Serbia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Eastern and southern Serbia"
+        },
+        {
+         "n": "North Metohija",
+         "a": "",
+         "d": "Serbian wine region in Kosovo.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Kosovo"
+        },
+        {
+         "n": "South Metohija",
+         "a": "",
+         "d": "Serbian wine region in Kosovo.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Serbian_wine",
+         "v": [],
+         "g": "Kosovo"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Serbian_wine"
+      }
+     ]
+    },
+    {
+     "n": "Southern Balkans",
+     "t": "North Macedonia, Montenegro, Bosnia and Herzegovina and Albania.",
+     "ax": "one kind",
+     "k": [
+      {
+       "n": "Southern Balkans: wine regions",
+       "d": "The wine regions of North Macedonia, Montenegro, Bosnia and Herzegovina and Albania named on national wine pages.",
+       "nl": "One entry is one wine region or zone of a southern Balkan country, as the national wine page names it.",
+       "sel": "Regions named in Wikipedia pages for North Macedonia, Montenegro, Bosnia and Herzegovina and Albania; none of these pages lists protected names, so no appellation list is claimed.",
+       "xg": "by country",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Vranec",
+          "Kratošija",
+          "Vranac",
+          "Krstač",
+          "Žilavka",
+          "Blatina",
+          "Shesh",
+          "Kallmet",
+          "Smederevka",
+          "Stanušina crna"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Povardarie",
+         "a": "",
+         "d": "Vardar valley around Negotino and Kavadarci; leading region for volume and quality.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Macedonian_wine",
+         "v": [],
+         "g": "North Macedonia"
+        },
+        {
+         "n": "Pčinja-Osogovo",
+         "a": "",
+         "d": "Eastern region along the Bulgarian border.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Macedonian_wine",
+         "v": [],
+         "g": "North Macedonia"
+        },
+        {
+         "n": "Pelagonija-Polog",
+         "a": "",
+         "d": "Western region around Lake Ohrid.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Macedonian_wine",
+         "v": [],
+         "g": "North Macedonia"
+        },
+        {
+         "n": "Lake Skadar region",
+         "a": "",
+         "d": "The most important Montenegrin wine region; the page counts four regions and fifteen sub-regions without naming them.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Montenegrin_wine",
+         "v": [],
+         "g": "Montenegro"
+        },
+        {
+         "n": "Montenegrin Adriatic coast",
+         "a": "",
+         "d": "The other principal Montenegrin wine area.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Montenegrin_wine",
+         "v": [],
+         "g": "Montenegro"
+        },
+        {
+         "n": "Southern Herzegovina",
+         "a": "",
+         "d": "South of Mostar around Čitluk, Međugorje, Ljubuški and Čapljina.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_wine",
+         "v": [],
+         "g": "Bosnia and Herzegovina"
+        },
+        {
+         "n": "Trebinje area",
+         "a": "",
+         "d": "Includes the Tvrdoš Monastery cellars.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_wine",
+         "v": [],
+         "g": "Bosnia and Herzegovina"
+        },
+        {
+         "n": "Northern Bosnia",
+         "a": "",
+         "d": "Several wineries east of Banja Luka.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_wine",
+         "v": [],
+         "g": "Bosnia and Herzegovina"
+        },
+        {
+         "n": "Albanian coastal plains",
+         "a": "",
+         "d": "Western lowlands to 300 m: Tirana, Durrës, Shkodër, Lezhë, Fier, Vlorë, Delvinë.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Albanian_wine",
+         "v": [],
+         "g": "Albania"
+        },
+        {
+         "n": "Albanian central hills",
+         "a": "",
+         "d": "300 to 600 m: Elbasan, Krujë, Berat, Përmet, Librazhd.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Albanian_wine",
+         "v": [],
+         "g": "Albania"
+        },
+        {
+         "n": "Albanian eastern sub-mountains",
+         "a": "",
+         "d": "600 to 800 m: Pogradec, Korçë, Leskovik, Peshkopi.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Albanian_wine",
+         "v": [],
+         "g": "Albania"
+        },
+        {
+         "n": "Albanian highlands",
+         "a": "",
+         "d": "Vines to about 1,000 m on clay-silica soils.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Albanian_wine",
+         "v": [],
+         "g": "Albania"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Macedonian_wine"
+      }
+     ]
+    }
+   ],
+   "b": [
+    {
+     "m": "Appellation and classification",
+     "v": "regional → district → village or vineyard where the country has a classification",
+     "w": "Official appellation systems set the expected quality and style."
+    },
+    {
+     "m": "Vintage and drinking window",
+     "w": "The harvest year decides whether the wine is ready, improving or past its best."
+    }
+   ]
+  },
+  {
+   "n": "Wine of Eastern Europe",
+   "mode": "variety",
+   "t": "Wine named for its place in Romania, Bulgaria, Moldova, Ukraine and Russia.",
+   "ax": "Which country and wine region names the wine?",
+   "s": [
+    {
+     "n": "Romania & Bulgaria",
+     "t": "Romanian vineyards and Bulgarian regions.",
+     "ax": "one kind per country",
+     "k": [
+      {
+       "n": "Romania: wine regions and vineyards",
+       "d": "The Romanian wine regions (podgorii) grouped by hill area.",
+       "nl": "One entry is one Romanian wine region or vineyard (podgorie) as the national wine page groups them.",
+       "sel": "All 8 hill groups and 43 vineyards in Wikipedia Romanian wine; the page does not list DOC or IGP names, so no appellation status is claimed.",
+       "xg": "by hill area",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Fetească albă",
+          "Fetească regală",
+          "Fetească neagră",
+          "Crâmpoșie",
+          "Tămâioasă Românească",
+          "Busuioacă de Bohotin",
+          "Băbească neagră",
+          "Grasă de Cotnari"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Târnave",
+         "a": "",
+         "d": "Romanian wine region in the Transylvanian Plateau.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Transylvanian Plateau"
+        },
+        {
+         "n": "Alba",
+         "a": "",
+         "d": "Romanian wine region in the Transylvanian Plateau.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Transylvanian Plateau"
+        },
+        {
+         "n": "Aiud",
+         "a": "",
+         "d": "Romanian wine region in the Transylvanian Plateau.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Transylvanian Plateau"
+        },
+        {
+         "n": "Sebeș-Apold",
+         "a": "",
+         "d": "Romanian wine region in the Transylvanian Plateau.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Transylvanian Plateau"
+        },
+        {
+         "n": "Lechința",
+         "a": "",
+         "d": "Romanian wine region in the Transylvanian Plateau.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Transylvanian Plateau"
+        },
+        {
+         "n": "Cotnari",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Iași",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Huși",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Zeletin",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Colinele Tutovei",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Dealul Bujorului",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Iveşti",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Nicoreşti",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Covurlui",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Panciu",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Odobești",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Cotești",
+         "a": "",
+         "d": "Romanian wine region in the Moldavian Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Moldavian Hills"
+        },
+        {
+         "n": "Dealurile Buzăului",
+         "a": "",
+         "d": "Romanian wine region in the Muntenia and Oltenia Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Muntenia and Oltenia Hills"
+        },
+        {
+         "n": "Dealu Mare",
+         "a": "",
+         "d": "Romanian wine region in the Muntenia and Oltenia Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Muntenia and Oltenia Hills"
+        },
+        {
+         "n": "Ștefănești",
+         "a": "",
+         "d": "Romanian wine region in the Muntenia and Oltenia Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Muntenia and Oltenia Hills"
+        },
+        {
+         "n": "Sâmburești",
+         "a": "",
+         "d": "Romanian wine region in the Muntenia and Oltenia Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Muntenia and Oltenia Hills"
+        },
+        {
+         "n": "Drăgășani",
+         "a": "",
+         "d": "Romanian wine region in the Muntenia and Oltenia Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Muntenia and Oltenia Hills"
+        },
+        {
+         "n": "Dealurile Craiovei",
+         "a": "",
+         "d": "Romanian wine region in the Muntenia and Oltenia Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Muntenia and Oltenia Hills"
+        },
+        {
+         "n": "Podgoria Severinului",
+         "a": "",
+         "d": "Romanian wine region in the Muntenia and Oltenia Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Muntenia and Oltenia Hills"
+        },
+        {
+         "n": "Plaiurile Drâncei",
+         "a": "",
+         "d": "Romanian wine region in the Muntenia and Oltenia Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Muntenia and Oltenia Hills"
+        },
+        {
+         "n": "Moldova Nouă",
+         "a": "",
+         "d": "Romanian wine region in the Banat Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Banat Hills"
+        },
+        {
+         "n": "Recaș",
+         "a": "",
+         "d": "Romanian wine region in the Banat Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Banat Hills"
+        },
+        {
+         "n": "Silagiu",
+         "a": "",
+         "d": "Romanian wine region in the Banat Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Banat Hills"
+        },
+        {
+         "n": "Teremia",
+         "a": "",
+         "d": "Romanian wine region in the Banat Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Banat Hills"
+        },
+        {
+         "n": "Tirol",
+         "a": "",
+         "d": "Romanian wine region in the Banat Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Banat Hills"
+        },
+        {
+         "n": "Miniș-Măderat",
+         "a": "",
+         "d": "Romanian wine region in the Crișana Hills and Maramureș.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Crișana Hills and Maramureș"
+        },
+        {
+         "n": "Diosig",
+         "a": "",
+         "d": "Romanian wine region in the Crișana Hills and Maramureș.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Crișana Hills and Maramureș"
+        },
+        {
+         "n": "Șimleu Silvaniei",
+         "a": "",
+         "d": "Romanian wine region in the Crișana Hills and Maramureș.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Crișana Hills and Maramureș"
+        },
+        {
+         "n": "Valea lui Mihai",
+         "a": "",
+         "d": "Romanian wine region in the Crișana Hills and Maramureș.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Crișana Hills and Maramureș"
+        },
+        {
+         "n": "Sarica-Niculițel",
+         "a": "",
+         "d": "Romanian wine region in the Dobruja Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Dobruja Hills"
+        },
+        {
+         "n": "Istria-Babadag",
+         "a": "",
+         "d": "Romanian wine region in the Dobruja Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Dobruja Hills"
+        },
+        {
+         "n": "Murfatlar",
+         "a": "",
+         "d": "Romanian wine region in the Dobruja Hills.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Dobruja Hills"
+        },
+        {
+         "n": "Greaca",
+         "a": "",
+         "d": "Romanian wine region in the Danube Terraces.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Danube Terraces"
+        },
+        {
+         "n": "Ostrov",
+         "a": "",
+         "d": "Romanian wine region in the Danube Terraces.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Danube Terraces"
+        },
+        {
+         "n": "Sadova-Corabia",
+         "a": "",
+         "d": "Romanian wine region in the Southern sandy regions.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Southern sandy regions"
+        },
+        {
+         "n": "Calafat",
+         "a": "",
+         "d": "Romanian wine region in the Southern sandy regions.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Southern sandy regions"
+        },
+        {
+         "n": "Podgoria Dacilor",
+         "a": "",
+         "d": "Romanian wine region in the Southern sandy regions.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Romanian_wine",
+         "v": [],
+         "g": "Southern sandy regions"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Romanian_wine"
+      },
+      {
+       "n": "Bulgaria: wine regions",
+       "d": "The five Bulgarian wine regions.",
+       "nl": "One entry is one of the five Bulgarian wine regions.",
+       "sel": "The five regions in Wikipedia Bulgarian wine; the page names no PDO or PGI areas.",
+       "xg": "from the Danube south",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Mavrud",
+          "Gamza",
+          "Pamid",
+          "Dimyat",
+          "Red Misket",
+          "Shiroka Melnishka Losa",
+          "Muscat Ottonel",
+          "Cabernet Sauvignon",
+          "Merlot"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Danubian Plain",
+         "a": "",
+         "d": "North Bulgarian region on the south bank of the Danube; Gamza, Muscat Ottonel, Cabernet Sauvignon.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Bulgarian_wine",
+         "v": []
+        },
+        {
+         "n": "Black Sea",
+         "a": "",
+         "d": "East Bulgarian region with about 30 % of the vines; white wine, Dimyat, Riesling.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Bulgarian_wine",
+         "v": []
+        },
+        {
+         "n": "Rose Valley",
+         "a": "",
+         "d": "Sub-Balkan region of dry and off-dry whites.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Bulgarian_wine",
+         "v": [
+          {
+           "n": "Sungurlare Valley",
+           "mk": "",
+           "y": "",
+           "d": "known for Red Misket"
+          }
+         ]
+        },
+        {
+         "n": "Thracian Lowland",
+         "a": "",
+         "d": "South Bulgarian region; Mavrud, Merlot, Cabernet Sauvignon.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Bulgarian_wine",
+         "v": []
+        },
+        {
+         "n": "Struma River Valley",
+         "a": "",
+         "d": "South-west region with Mediterranean influence; Melnik.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Bulgarian_wine",
+         "v": [
+          {
+           "n": "Melnik",
+           "mk": "",
+           "y": "",
+           "d": "Shiroka Melnishka Losa"
+          }
+         ]
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Bulgarian_wine"
+      }
+     ]
+    },
+    {
+     "n": "Moldova, Ukraine & Russia",
+     "t": "Moldovan PGI regions, Ukrainian areas and Russian appellations.",
+     "ax": "one kind per country",
+     "k": [
+      {
+       "n": "Moldova: wine regions",
+       "d": "The Moldovan protected wine regions and growing zones.",
+       "nl": "One entry is one Moldovan wine region with a protected geographical indication or a main growing zone.",
+       "sel": "The three PGI regions and four growing zones in Wikipedia Moldovan wine.",
+       "xg": "PGI regions, then growing zones",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Fetească albă",
+          "Fetească regală",
+          "Rară neagră",
+          "Fetească neagră",
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Rkatsiteli",
+          "Aligoté"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Codru",
+         "a": "",
+         "d": "Central historical region with a protected geographical indication.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Moldovan_wine",
+         "v": [],
+         "g": "Protected geographical indications"
+        },
+        {
+         "n": "Valul lui Traian",
+         "a": "",
+         "d": "South-western historical region with a protected geographical indication.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Moldovan_wine",
+         "v": [],
+         "g": "Protected geographical indications"
+        },
+        {
+         "n": "Ștefan Vodă",
+         "a": "",
+         "d": "South-eastern historical region with a protected geographical indication.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Moldovan_wine",
+         "v": [],
+         "g": "Protected geographical indications"
+        },
+        {
+         "n": "Bălți",
+         "a": "",
+         "d": "Northern growing zone.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Moldovan_wine",
+         "v": [],
+         "g": "Growing zones"
+        },
+        {
+         "n": "Purcari",
+         "a": "",
+         "d": "South-eastern growing zone.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Moldovan_wine",
+         "v": [],
+         "g": "Growing zones"
+        },
+        {
+         "n": "Cahul",
+         "a": "",
+         "d": "Southern growing zone, suited to red sweet and semi-sweet wines.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Moldovan_wine",
+         "v": [],
+         "g": "Growing zones"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Moldovan_wine"
+      },
+      {
+       "n": "Ukraine: wine areas",
+       "d": "The wine areas of Ukraine named on the national wine page.",
+       "nl": "One entry is one Ukrainian wine area.",
+       "sel": "Areas named in Wikipedia Ukrainian wine; no appellation list is on the page.",
+       "xg": "by area",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Aligoté",
+          "Muscat",
+          "Traminer",
+          "Cabernet Sauvignon",
+          "Chardonnay",
+          "Pinot noir",
+          "Rkatsiteli",
+          "Golubok"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Southern Ukraine",
+         "a": "",
+         "d": "Mykolaiv, Kherson, Dnipropetrovsk and Odesa oblasts.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Ukrainian_wine",
+         "v": []
+        },
+        {
+         "n": "Bessarabia (Budjak)",
+         "a": "",
+         "d": "Odesa Oblast; Shabo and Krynychne.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Ukrainian_wine",
+         "v": []
+        },
+        {
+         "n": "Zakarpattia",
+         "a": "",
+         "d": "Tisza valley, Carpathian Ruthenia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Ukrainian_wine",
+         "v": []
+        },
+        {
+         "n": "Crimea",
+         "a": "",
+         "d": "Balaklava and Massandra; occupied by Russia since 2014.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Ukrainian_wine",
+         "v": []
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Ukrainian_wine"
+      },
+      {
+       "n": "Russia: wine regions and appellations",
+       "d": "The Russian wine regions and the controlled appellations the national wine page names.",
+       "nl": "One entry is one Russian wine region or controlled appellation.",
+       "sel": "Regions and the eleven appellations in Wikipedia Russian wine; the page gives no boundaries for the appellations.",
+       "xg": "regions, then appellations",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Rkatsiteli",
+          "Aligoté",
+          "Saperavi",
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Tsimlyansky Cherny",
+          "Krasnostop Zolotovsky"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Krasnodar (Kuban and Taman)",
+         "a": "",
+         "d": "Wine region of Russia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Regions"
+        },
+        {
+         "n": "Rostov (Don Valley)",
+         "a": "",
+         "d": "Wine region of Russia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Regions"
+        },
+        {
+         "n": "Stavropol",
+         "a": "",
+         "d": "Wine region of Russia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Regions"
+        },
+        {
+         "n": "Dagestan",
+         "a": "",
+         "d": "Wine region of Russia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Regions"
+        },
+        {
+         "n": "Sibirkovy",
+         "a": "",
+         "d": "Controlled appellation named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Controlled appellations"
+        },
+        {
+         "n": "Tsimlyanski Cherny",
+         "a": "",
+         "d": "Controlled appellation named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Controlled appellations"
+        },
+        {
+         "n": "Plechistik",
+         "a": "",
+         "d": "Controlled appellation named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Controlled appellations"
+        },
+        {
+         "n": "Narma",
+         "a": "",
+         "d": "Controlled appellation named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Controlled appellations"
+        },
+        {
+         "n": "Güliabi Dagestanski",
+         "a": "",
+         "d": "Controlled appellation named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Controlled appellations"
+        },
+        {
+         "n": "Krasnostop Zolotovsky",
+         "a": "",
+         "d": "Controlled appellation named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Controlled appellations"
+        },
+        {
+         "n": "Saperavi",
+         "a": "",
+         "d": "Controlled appellation named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Controlled appellations"
+        },
+        {
+         "n": "Platovsky",
+         "a": "",
+         "d": "Controlled appellation named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Controlled appellations"
+        },
+        {
+         "n": "Bastardo Magarachsky",
+         "a": "",
+         "d": "Controlled appellation named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Controlled appellations"
+        },
+        {
+         "n": "Kefesia",
+         "a": "",
+         "d": "Controlled appellation named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Controlled appellations"
+        },
+        {
+         "n": "Kokur Belyi",
+         "a": "",
+         "d": "Controlled appellation named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Russian_wine",
+         "v": [],
+         "g": "Controlled appellations"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Russian_wine"
+      }
+     ]
+    }
+   ],
+   "b": [
+    {
+     "m": "Appellation and classification",
+     "v": "regional → district → village or vineyard where the country has a classification",
+     "w": "Official appellation systems set the expected quality and style."
+    },
+    {
+     "m": "Vintage and drinking window",
+     "w": "The harvest year decides whether the wine is ready, improving or past its best."
+    }
+   ]
+  },
+  {
+   "n": "Wine of Greece & Cyprus",
+   "mode": "variety",
+   "t": "Wine named for its Greek or Cypriot place: PDO zones and island areas; a retsina or a sweet Samos is still named by its zone here.",
+   "ax": "Which country and which zone names the wine?",
+   "s": [
+    {
+     "n": "Greece",
+     "t": "Greek PDO zones by region.",
+     "ax": "one kind",
+     "k": [
+      {
+       "n": "Greece: PDO wines",
+       "d": "The Greek protected-designation wines named on fetched wine pages.",
+       "nl": "One entry is one Greek PDO, a protected wine zone named for its place, sectioned by region.",
+       "sel": "Greece has 33 PDOs and 114 PGIs (Vinepair, WineWithSeth). Only the 19 PDOs named with details on the fetched pages are listed; the eAmbrosia register was not retrievable, so this is NOT the complete list and the remaining PDOs and all PGIs are missing.",
+       "xg": "by Greek wine region",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Xinomavro",
+          "Agiorgitiko",
+          "Moschofilero",
+          "Assyrtiko",
+          "Mavrodaphne",
+          "Muscat",
+          "Roditis",
+          "Kotsifali",
+          "Mandilaria",
+          "Liatiko",
+          "Vilana"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Naoussa",
+         "a": "",
+         "d": "Age-worthy red from 100 % Xinomavro on the south-east slopes of Mount Vermio.",
+         "mk": "",
+         "y": "1971",
+         "s": "https://www.winewithseth.com/winewiki/opap-greek-pdo-classification-system/",
+         "v": [],
+         "g": "Macedonia"
+        },
+        {
+         "n": "Amyntaio",
+         "a": "",
+         "d": "Xinomavro red, still rosé and sparkling wines on a plateau at 570 to 750 m.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/pdo-greece/",
+         "v": [],
+         "g": "Macedonia"
+        },
+        {
+         "n": "Goumenissa",
+         "a": "",
+         "d": "Xinomavro-based red.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/opap-greek-pdo-classification-system/",
+         "v": [],
+         "g": "Macedonia"
+        },
+        {
+         "n": "Rapsani",
+         "a": "",
+         "d": "Xinomavro-based red.",
+         "mk": "",
+         "y": "1971",
+         "s": "https://www.winewithseth.com/winewiki/opap-greek-pdo-classification-system/",
+         "v": [],
+         "g": "Thessaly"
+        },
+        {
+         "n": "Nemea",
+         "a": "",
+         "d": "Red from 100 % Agiorgitiko.",
+         "mk": "",
+         "y": "1971",
+         "s": "https://www.winewithseth.com/winewiki/peloponnese-wine-region/",
+         "v": [],
+         "g": "Peloponnese"
+        },
+        {
+         "n": "Mantinia",
+         "a": "",
+         "d": "White from at least 85 % Moschofilero.",
+         "mk": "",
+         "y": "1971",
+         "s": "https://www.winewithseth.com/winewiki/peloponnese-wine-region/",
+         "v": [],
+         "g": "Peloponnese"
+        },
+        {
+         "n": "Patras",
+         "a": "",
+         "d": "Dry white from 100 % Roditis.",
+         "mk": "",
+         "y": "1972",
+         "s": "https://www.winewithseth.com/winewiki/peloponnese-wine-region/",
+         "v": [],
+         "g": "Peloponnese"
+        },
+        {
+         "n": "Mavrodaphne of Patras",
+         "a": "",
+         "d": "Sweet fortified red from at least 51 % Mavrodaphne.",
+         "mk": "",
+         "y": "1971",
+         "s": "https://www.winewithseth.com/winewiki/peloponnese-wine-region/",
+         "v": [],
+         "g": "Peloponnese"
+        },
+        {
+         "n": "Muscat of Patras",
+         "a": "",
+         "d": "Sweet wine from 100 % Muscat Blanc.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/peloponnese-wine-region/",
+         "v": [],
+         "g": "Peloponnese"
+        },
+        {
+         "n": "Muscat of Rio Patras",
+         "a": "",
+         "d": "Sweet wine from 100 % Muscat Blanc.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/peloponnese-wine-region/",
+         "v": [],
+         "g": "Peloponnese"
+        },
+        {
+         "n": "Monemvasia-Malvasia",
+         "a": "",
+         "d": "Sweet white from at least 51 % Monemvasia.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/peloponnese-wine-region/",
+         "v": [],
+         "g": "Peloponnese"
+        },
+        {
+         "n": "Santorini",
+         "a": "",
+         "d": "Dry white from at least 85 % Assyrtiko; also Nykteri and sweet Vinsanto.",
+         "mk": "",
+         "y": "1971",
+         "s": "https://www.winewithseth.com/winewiki/pdo-greece/",
+         "v": [
+          {
+           "n": "Nykteri",
+           "mk": "",
+           "y": "",
+           "d": "Santorini white"
+          },
+          {
+           "n": "Vinsanto",
+           "mk": "",
+           "y": "",
+           "d": "sweet, at least 51 % Assyrtiko, sun-dried"
+          }
+         ],
+         "g": "Aegean islands"
+        },
+        {
+         "n": "Lemnos",
+         "a": "",
+         "d": "Sweet Muscat wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/opap-greek-pdo-classification-system/",
+         "v": [],
+         "g": "Aegean islands"
+        },
+        {
+         "n": "Samos",
+         "a": "",
+         "d": "Sweet Muscat wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/opap-greek-pdo-classification-system/",
+         "v": [],
+         "g": "Aegean islands"
+        },
+        {
+         "n": "Mavrodaphne of Cephalonia",
+         "a": "",
+         "d": "Fortified red from Mavrodaphne.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/opap-greek-pdo-classification-system/",
+         "v": [],
+         "g": "Ionian islands"
+        },
+        {
+         "n": "Peza",
+         "a": "",
+         "d": "Largest Cretan PDO, about 70 % of Cretan wine; Kotsifali and Mandilaria reds, Vilana whites.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/crete-pdos-peza-archanes-dafnes-sitia/",
+         "v": [],
+         "g": "Crete"
+        },
+        {
+         "n": "Archanes",
+         "a": "",
+         "d": "Dry red co-fermented from Kotsifali and Mandilaria.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/crete-pdos-peza-archanes-dafnes-sitia/",
+         "v": [],
+         "g": "Crete"
+        },
+        {
+         "n": "Dafnes",
+         "a": "",
+         "d": "Liatiko dry reds and sweet wines from sun-dried grapes.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/crete-pdos-peza-archanes-dafnes-sitia/",
+         "v": [],
+         "g": "Crete"
+        },
+        {
+         "n": "Sitia",
+         "a": "",
+         "d": "Liatiko and Mandilaria reds; Vilana and Thrapsathiri whites.",
+         "mk": "",
+         "y": "",
+         "s": "https://www.winewithseth.com/winewiki/crete-pdos-peza-archanes-dafnes-sitia/",
+         "v": [],
+         "g": "Crete"
+        }
+       ],
+       "s": "https://www.winewithseth.com/winewiki/opap-greek-pdo-classification-system/"
+      }
+     ]
+    },
+    {
+     "n": "Cyprus",
+     "t": "Cypriot local-wine areas and Commandaria.",
+     "ax": "one kind",
+     "k": [
+      {
+       "n": "Cyprus: wine areas",
+       "d": "The Cypriot local-wine areas and the Commandaria zone.",
+       "nl": "One entry is one Cypriot wine area or protected zone.",
+       "sel": "The four local-wine areas and wine routes named in Wikipedia Cypriot wine; the page does not name the PDO areas individually other than Commandaria.",
+       "xg": "local-wine areas, then the Commandaria zone",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Xynisteri",
+          "Mavro",
+          "Maratheftiko",
+          "Carignan",
+          "Shiraz",
+          "Yiannoudi",
+          "Ofthalmo"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Lefkosia",
+         "a": "",
+         "d": "Cypriot local-wine (geographical indication) area.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Cypriot_wine",
+         "v": [],
+         "g": "Local-wine areas"
+        },
+        {
+         "n": "Lemesos",
+         "a": "",
+         "d": "Cypriot local-wine (geographical indication) area.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Cypriot_wine",
+         "v": [],
+         "g": "Local-wine areas"
+        },
+        {
+         "n": "Larnaca",
+         "a": "",
+         "d": "Cypriot local-wine (geographical indication) area.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Cypriot_wine",
+         "v": [],
+         "g": "Local-wine areas"
+        },
+        {
+         "n": "Paphos",
+         "a": "",
+         "d": "Cypriot local-wine (geographical indication) area.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Cypriot_wine",
+         "v": [],
+         "g": "Local-wine areas"
+        },
+        {
+         "n": "Commandaria",
+         "a": "",
+         "d": "Sweet, high-alcohol wine mainly from Mavro, listed as the Koumandaria wine route.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Cypriot_wine",
+         "v": [],
+         "g": "Protected zone"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Cypriot_wine"
+      }
+     ]
+    }
+   ],
+   "b": [
+    {
+     "m": "Appellation and classification",
+     "v": "regional → district → village or vineyard where the country has a classification",
+     "w": "Official appellation systems set the expected quality and style."
+    },
+    {
+     "m": "Vintage and drinking window",
+     "w": "The harvest year decides whether the wine is ready, improving or past its best."
+    }
+   ]
+  },
+  {
+   "n": "Wine of Turkey, the Caucasus & the Levant",
+   "mode": "variety",
+   "t": "Wine named for its place in Turkey, Georgia, Armenia, Lebanon and Israel, including Georgian named wines.",
+   "ax": "Which country and wine region names the wine?",
+   "s": [
+    {
+     "n": "Turkey",
+     "t": "Turkish wine regions.",
+     "ax": "one kind",
+     "k": [
+      {
+       "n": "Turkey: wine regions",
+       "d": "The Turkish wine regions and the districts the national wine page names.",
+       "nl": "One entry is one Turkish wine region or district.",
+       "sel": "Regions and districts in Wikipedia Turkish wine; Turkey has no appellation list on the page.",
+       "xg": "by wine region",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Öküzgözü",
+          "Boğazkere",
+          "Kalecik Karası",
+          "Papazkarası",
+          "Narince",
+          "Emir",
+          "Sultaniye",
+          "Bornova Misketi",
+          "Çalkarası"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Thrace and Marmara",
+         "a": "",
+         "d": "Kırklareli, Tekirdağ, Şarköy, Gelibolu; 30 to 40 % of Turkish wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Turkish_wine",
+         "v": []
+        },
+        {
+         "n": "Aegean",
+         "a": "",
+         "d": "Largest region by volume: Urla, Çeşme, Bozcaada, Denizli (Çal), Manisa.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Turkish_wine",
+         "v": []
+        },
+        {
+         "n": "Central Anatolia",
+         "a": "",
+         "d": "Cappadocia and Ankara, including Kalecik.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Turkish_wine",
+         "v": []
+        },
+        {
+         "n": "Eastern and Southeastern Anatolia",
+         "a": "",
+         "d": "Elazığ, Malatya, Diyarbakır, Mardin.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Turkish_wine",
+         "v": []
+        },
+        {
+         "n": "Mediterranean",
+         "a": "",
+         "d": "Scattered vineyards around Elmalı in Antalya.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Turkish_wine",
+         "v": []
+        },
+        {
+         "n": "Black Sea",
+         "a": "",
+         "d": "Tokat province.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Turkish_wine",
+         "v": []
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Turkish_wine"
+      }
+     ]
+    },
+    {
+     "n": "Georgia & Armenia",
+     "t": "Georgian regions and named wines; Armenian regions.",
+     "ax": "one kind per country",
+     "k": [
+      {
+       "n": "Georgia: wine regions and named wines",
+       "d": "The Georgian wine regions and the named wines the national wine page lists by colour and style.",
+       "nl": "One entry is one Georgian named wine (appellation-style name) or wine region.",
+       "sel": "The five regions and 46 named wines in Wikipedia Georgian wine (first 100,000 characters read); the page does not mark which names are legally protected, so no PDO status is claimed. Mukuzani, Kindzmarauli, Khvanchkara, Akhasheni, Napareuli and Tsinandali take over the old Saperavi, Aleksandrouli and Rkatsiteli kinds.",
+       "xg": "regions, then wines by colour and style",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Rkatsiteli",
+          "Mtsvane",
+          "Saperavi",
+          "Tsolikauri",
+          "Tsitska",
+          "Alexandrouli",
+          "Mudzhuretuli",
+          "Ojaleshi",
+          "Krakhuna",
+          "Khikhvi"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Kakheti",
+         "a": "",
+         "d": "Telavi and Kvareli micro-regions; about 70 % of Georgian grapes.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Regions"
+        },
+        {
+         "n": "Kartli",
+         "a": "",
+         "d": "Georgian wine region.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Regions"
+        },
+        {
+         "n": "Imereti",
+         "a": "",
+         "d": "Georgian wine region.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Regions"
+        },
+        {
+         "n": "Racha-Lechkhumi and Kvemo Svaneti",
+         "a": "",
+         "d": "Georgian wine region.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Regions"
+        },
+        {
+         "n": "Adjara",
+         "a": "",
+         "d": "Georgian wine region.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Regions"
+        },
+        {
+         "n": "Tsinandali",
+         "a": "",
+         "d": "Rkatsiteli and Mtsvane; Telavi and Kvareli.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Mtsvane",
+         "a": "",
+         "d": "Dry.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Tvishi",
+         "a": "",
+         "d": "Natural semi-sweet Tsolikauri from Lechkhumi.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Pirosmani (white)",
+         "a": "",
+         "d": "Semi-sweet; 40 % Tsolikauri, 60 % Tsitska.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Alaznis Veli",
+         "a": "",
+         "d": "Semi-sweet.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Anakopia",
+         "a": "",
+         "d": "Semi-dry Tsolikauri.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Khikhvi",
+         "a": "",
+         "d": "Amber dessert wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Saamo",
+         "a": "",
+         "d": "Sweet dessert Rkatsiteli.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Gelati",
+         "a": "",
+         "d": "Dry Tsolikauri, Tsitska, Krakhuna.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Kakheti (table wine)",
+         "a": "",
+         "d": "Amber Rkatsiteli and Mtsvane.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Bodbe",
+         "a": "",
+         "d": "Rkatsiteli; Magaro.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Dimi",
+         "a": "",
+         "d": "Tsolikauri, Krakhuna; Imereti.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Gareji",
+         "a": "",
+         "d": "Dry Rkatsiteli and Mtsvane.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Ereti",
+         "a": "",
+         "d": "Dry Rkatsiteli and Mtsvane.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Shuamta",
+         "a": "",
+         "d": "Dry amber Rkatsiteli and Mtsvane.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Alazani (white)",
+         "a": "",
+         "d": "Semi-sweet 100 % Rkatsiteli.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Alaverdi (white)",
+         "a": "",
+         "d": "White Georgian wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "White wines"
+        },
+        {
+         "n": "Tbilisuri",
+         "a": "",
+         "d": "Semi-dry; Saperavi, Cabernet, Rkatsiteli.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Rosé wines"
+        },
+        {
+         "n": "Aguna",
+         "a": "",
+         "d": "Semi-dry; Saperavi, Cabernet, Rkatsiteli.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Rosé wines"
+        },
+        {
+         "n": "Mtatsminda",
+         "a": "",
+         "d": "Semi-dry; Saperavi, Tavkveri, Asuretuli, Rkatsiteli.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Rosé wines"
+        },
+        {
+         "n": "Sachino",
+         "a": "",
+         "d": "Semi-dry; West Georgia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Rosé wines"
+        },
+        {
+         "n": "Lykhny",
+         "a": "",
+         "d": "Semi-sweet Izabela; Abkhazia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Rosé wines"
+        },
+        {
+         "n": "Akhasheni",
+         "a": "",
+         "d": "Semi-sweet Saperavi from Gurjaani.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Khvanchkara",
+         "a": "",
+         "d": "Semi-sweet Alexandrouli and Mudzhuretuli from Racha.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Kindzmarauli",
+         "a": "",
+         "d": "Semi-sweet Saperavi from Kvareli.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Mukuzani",
+         "a": "",
+         "d": "Dry oak-aged 100 % Saperavi.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Napareuli",
+         "a": "",
+         "d": "Red Georgian wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Ojaleshi",
+         "a": "",
+         "d": "Semi-sweet Ojaleshi from Samegrelo.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Pirosmani (red)",
+         "a": "",
+         "d": "Semi-sweet Saperavi.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Saperavi",
+         "a": "",
+         "d": "Extractive Saperavi from Kakheti.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Usakhelauri",
+         "a": "",
+         "d": "Semi-sweet; West Georgia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Apsny",
+         "a": "",
+         "d": "Semi-sweet; Abkhazia.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Barakoni",
+         "a": "",
+         "d": "Semi-dry; Rioni gorge.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Salkhino",
+         "a": "",
+         "d": "Liqueur-type dessert wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Alazani (red)",
+         "a": "",
+         "d": "Semi-sweet; 60 % Saperavi, 40 % Rkatsiteli.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Alaverdi (red)",
+         "a": "",
+         "d": "Red Georgian wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Rkatsiteli Mtsvani",
+         "a": "",
+         "d": "Red Georgian wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Saperavi Dzelshavi",
+         "a": "",
+         "d": "Red Georgian wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Red wines"
+        },
+        {
+         "n": "Kardanakhi",
+         "a": "",
+         "d": "Amber fortified white, port type; Gurjaani.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Fortified wines"
+        },
+        {
+         "n": "Anaga",
+         "a": "",
+         "d": "Madeira-type.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Fortified wines"
+        },
+        {
+         "n": "Sighnaghi",
+         "a": "",
+         "d": "Amber, port type.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Fortified wines"
+        },
+        {
+         "n": "Veria",
+         "a": "",
+         "d": "Amber fortified white.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Fortified wines"
+        },
+        {
+         "n": "Lelo",
+         "a": "",
+         "d": "Golden, port type.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Fortified wines"
+        },
+        {
+         "n": "Marabda",
+         "a": "",
+         "d": "Light golden, port type.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Fortified wines"
+        },
+        {
+         "n": "Kolkheti",
+         "a": "",
+         "d": "Amber fortified white.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Fortified wines"
+        },
+        {
+         "n": "Taribana",
+         "a": "",
+         "d": "Port type; Rkatsiteli.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Georgian_wine",
+         "v": [],
+         "g": "Fortified wines"
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Georgian_wine"
+      },
+      {
+       "n": "Armenia: wine regions",
+       "d": "The Armenian wine regions named on the national wine page.",
+       "nl": "One entry is one Armenian wine region.",
+       "sel": "Regions named in Wikipedia Armenian wine (first 100,000 characters read); the page mentions no PGI list.",
+       "xg": "one flat list",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Areni",
+          "Voskehat",
+          "Kangun",
+          "Saperavi",
+          "Pinot noir",
+          "Chilar"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Vayots Dzor",
+         "a": "",
+         "d": "Includes Areni; Areni and Voskehat grapes.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Armenian_wine",
+         "v": []
+        },
+        {
+         "n": "Aragatsotn",
+         "a": "",
+         "d": "Areni and Voskehat grapes.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Armenian_wine",
+         "v": []
+        },
+        {
+         "n": "Ararat",
+         "a": "",
+         "d": "Ararat plain; Areni, Saperavi, Muscat, Kharji.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Armenian_wine",
+         "v": []
+        },
+        {
+         "n": "Armavir",
+         "a": "",
+         "d": "Wines from the Ararat plain.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Armenian_wine",
+         "v": []
+        },
+        {
+         "n": "Tavush",
+         "a": "",
+         "d": "Aghstev valley; known for pomegranate wine.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Armenian_wine",
+         "v": []
+        },
+        {
+         "n": "Gegharkunik",
+         "a": "",
+         "d": "Region named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Armenian_wine",
+         "v": []
+        },
+        {
+         "n": "Kotayk",
+         "a": "",
+         "d": "Region named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Armenian_wine",
+         "v": []
+        },
+        {
+         "n": "Shirak",
+         "a": "",
+         "d": "Region named on the page.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Armenian_wine",
+         "v": []
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Armenian_wine"
+      }
+     ]
+    },
+    {
+     "n": "Lebanon & Israel",
+     "t": "Levant wine regions.",
+     "ax": "one kind per country",
+     "k": [
+      {
+       "n": "Lebanon: wine regions",
+       "d": "The Lebanese wine regions named on the national wine page.",
+       "nl": "One entry is one Lebanese wine region.",
+       "sel": "Regions in Wikipedia Lebanese wine; the page describes no formal appellation system.",
+       "xg": "one flat list",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Cabernet Sauvignon",
+          "Syrah",
+          "Cinsault",
+          "Carignan",
+          "Merlot",
+          "Chardonnay",
+          "Obeideh",
+          "Merwah",
+          "Meksassi"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Bekaa Valley",
+         "a": "",
+         "d": "Produces most Lebanese wine; continental climate.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Lebanese_wine",
+         "v": []
+        },
+        {
+         "n": "Batroun",
+         "a": "",
+         "d": "High-altitude district in North Lebanon.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Lebanese_wine",
+         "v": []
+        },
+        {
+         "n": "Mount Lebanon",
+         "a": "",
+         "d": "High-altitude area.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Lebanese_wine",
+         "v": []
+        },
+        {
+         "n": "North Lebanon",
+         "a": "",
+         "d": "High-altitude area.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Lebanese_wine",
+         "v": []
+        },
+        {
+         "n": "Southern Lebanon (Jezzine)",
+         "a": "",
+         "d": "High-altitude area around Jezzine.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Lebanese_wine",
+         "v": []
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Lebanese_wine"
+      },
+      {
+       "n": "Israel: wine regions",
+       "d": "The Israeli wine regions and sub-regions named on the national wine page.",
+       "nl": "One entry is one Israeli wine region; sub-regions are versions.",
+       "sel": "Regions in Wikipedia Israeli wine; the page gives no full sub-region list.",
+       "xg": "one flat list",
+       "tt": [
+        [
+         "Colour and style",
+         [
+          "Red",
+          "White",
+          "Rosé",
+          "Sparkling",
+          "Sweet",
+          "Fortified"
+         ]
+        ],
+        [
+         "Permitted or leading grapes",
+         [
+          "Cabernet Sauvignon",
+          "Merlot",
+          "Chardonnay",
+          "Sauvignon blanc",
+          "Cabernet franc",
+          "Syrah",
+          "Argaman"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Galilee",
+         "a": "",
+         "d": "Most suited region, high and cool.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Israeli_wine",
+         "v": [
+          {
+           "n": "Upper Galilee",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Lower Galilee",
+           "mk": "",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Golan Heights",
+           "mk": "",
+           "y": "",
+           "d": "legal status contested abroad"
+          }
+         ]
+        },
+        {
+         "n": "Judean Hills",
+         "a": "",
+         "d": "Surrounds Jerusalem.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Israeli_wine",
+         "v": []
+        },
+        {
+         "n": "Shimshon (Samson)",
+         "a": "",
+         "d": "Between the Judean Hills and the coastal plain.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Israeli_wine",
+         "v": []
+        },
+        {
+         "n": "Negev",
+         "a": "",
+         "d": "Semi-arid, drip-irrigated vineyards.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Israeli_wine",
+         "v": []
+        },
+        {
+         "n": "Sharon Plain",
+         "a": "",
+         "d": "Near Zichron Ya'akov and Binyamina; largest grape-growing area.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Israeli_wine",
+         "v": []
+        }
+       ],
+       "s": "https://en.wikipedia.org/wiki/Israeli_wine"
+      }
+     ]
+    }
+   ],
+   "b": [
+    {
+     "m": "Appellation and classification",
+     "v": "regional → district → village or vineyard where the country has a classification",
+     "w": "Official appellation systems set the expected quality and style."
+    },
+    {
+     "m": "Vintage and drinking window",
+     "w": "The harvest year decides whether the wine is ready, improving or past its best."
+    }
+   ]
+  }
+ ],
+ "brands": [],
+ "renames": {
+  "Blaufränkisch": "Austria: DAC appellations",
+  "Zweigelt": "Austria: DAC appellations",
+  "Kadarka": "Hungary: wine regions",
+  "Furmint": "Hungary: wine regions",
+  "Tokaji": "Hungary: wine regions",
+  "Plavac Mali": "Croatia: wine sub-regions",
+  "Prokupac": "Serbia: wine regions",
+  "Mavrud": "Bulgaria: wine regions",
+  "Xinomavro": "Greece: PDO wines",
+  "Agiorgitiko": "Greece: PDO wines",
+  "Assyrtiko": "Greece: PDO wines",
+  "Moschofilero": "Greece: PDO wines",
+  "Saperavi": "Georgia: wine regions and named wines",
+  "Aleksandrouli": "Georgia: wine regions and named wines",
+  "Rkatsiteli": "Georgia: wine regions and named wines",
+  "Kisi": "Georgia: wine regions and named wines",
+  "Müller-Thurgau": "Germany: Anbaugebiete",
+  "Sylvaner": "Germany: Anbaugebiete",
+  "Kerner": "Germany: Anbaugebiete"
+ },
+ "moves": []
+}
