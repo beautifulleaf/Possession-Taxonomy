@@ -181,8 +181,118 @@
    }
   ]
  },
- "add_brands": [],
- "add_regions": [],
+ "add_brands": [
+  {
+   "n": "Two Palms",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "IFPDA member since 2005 (vetted print publishers/dealers); also on SVA Printshop publishers list",
+   "country": "USA",
+   "dept": "Prints",
+   "region": "North America"
+  },
+  {
+   "n": "Shark's Ink",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "IFPDA member since 1991, Lyons CO print publisher/workshop",
+   "country": "USA",
+   "dept": "Prints",
+   "region": "North America"
+  },
+  {
+   "n": "Stewart & Stewart",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "IFPDA member since 1992, Bloomfield Hills MI print publisher",
+   "country": "USA",
+   "dept": "Prints",
+   "region": "North America"
+  },
+  {
+   "n": "Center Street Studio",
+   "layer": "cultural",
+   "src": "https://ifpda.org/members",
+   "says": "IFPDA member since 2025, Milton MA print studio/publisher",
+   "country": "USA",
+   "dept": "Prints",
+   "region": "North America"
+  },
+  {
+   "n": "Harris Schrank Fine Prints",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://ifpda.org/members",
+   "says": "IFPDA member since 2007, specialist fine print dealer",
+   "country": "USA",
+   "dept": "Prints",
+   "region": "North America"
+  },
+  {
+   "n": "William P. Carl Fine Prints",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://ifpda.org/members",
+   "says": "IFPDA member since 1991, specialist fine print dealer",
+   "country": "USA",
+   "dept": "Prints",
+   "region": "North America"
+  },
+  {
+   "n": "The Tolman Collection of New York",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://ifpda.org/members",
+   "says": "IFPDA member since 2009 (Japanese print specialist; specialty not shown per row on the list page)",
+   "country": "USA",
+   "dept": "Prints",
+   "region": "North America"
+  },
+  {
+   "n": "Marakame (Arte Marakame)",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://en.artemarakame.com/pages/about-us",
+   "says": "Brand marketing Wixárika (Huichol) bead and yarn art, Oaxacan alebrijes and Mata Ortiz ceramics made by families in Jalisco, Nayarit, Chihuahua and Oaxaca; supports Huichol families via Marakame AC Foundation",
+   "country": "Mexico",
+   "dept": "Folk, indigenous & outsider painting",
+   "region": "Latin America"
+  },
+  {
+   "n": "Madhubani Art Centre",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.madhubani.com/",
+   "says": "New Delhi centre est. 1998 by artist Manisha Jha Mishra to promote and sell Mithila (Madhubani) paintings by women artists of Mithila; 250+ exhibitions",
+   "country": "India",
+   "dept": "Indian folk painting",
+   "region": "South Asia"
+  }
+ ],
+ "add_regions": [
+  {
+   "region": "Mithila (Madhubani district, Bihar, India)",
+   "speciality": "Madhubani/Mithila painting on paper and cloth, sold worldwide; primary income for many families",
+   "src": "https://madhubani.nic.in/handicraft",
+   "brands": [
+    "Madhubani Art Centre"
+   ]
+  },
+  {
+   "region": "Nathdwara (Rajasthan, India)",
+   "speciality": "Pichwai and Nathdwara-school devotional paintings, workshop-made under a master artist",
+   "src": "https://www.archerindia.com/blog/post/pichwai-paintings-from-the-gates-of-heaven",
+   "brands": []
+  },
+  {
+   "region": "Wixárika (Huichol) Sierra Madre Occidental, Mexico",
+   "speciality": "Huichol yarn paintings and bead (chaquira) art",
+   "src": "https://en.artemarakame.com/pages/about-us",
+   "brands": [
+    "Marakame (Arte Marakame)"
+   ]
+  }
+ ],
  "drop": [
   {
    "n": "Birriliburu Artists / Tjukurba Gallery",
