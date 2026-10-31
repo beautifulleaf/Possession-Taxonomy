@@ -299,6 +299,45 @@
    "country": "South Korea",
    "dept": "dance arcade cabinets, redemption games",
    "region": "East Asia"
+  },
+  {
+   "n": "Chicago Coin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "linked row on the pinball manufacturers list: 1932-1976, assets sold to Stern Electronics (missed by harvest)",
+   "country": "USA",
+   "dept": "pinball & electromechanical arcade",
+   "region": "North America"
+  },
+  {
+   "n": "Rally",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_pinball_manufacturers",
+   "says": "linked row 'Rally (pinball company)' (Rally Play), 1961-1969 (missed by harvest)",
+   "country": "",
+   "dept": "pinball machines",
+   "region": ""
+  },
+  {
+   "n": "Hand Held Legend",
+   "layer": "cultural",
+   "role": "seller",
+   "tier": "listed",
+   "src": "https://handheldlegend.com/pages/about-us",
+   "says": "own about page: founded 2013, retro handheld mod parts, custom 'Ultimate' consoles and ProGCC controllers (self-description; existence only)",
+   "country": "USA",
+   "dept": "modding & repair",
+   "region": "North America"
+  },
+  {
+   "n": "eXtremeRate",
+   "layer": "cultural",
+   "tier": "listed",
+   "src": "https://handheldlegend.com/pages/about-us",
+   "says": "named among Hand Held Legend's modding partner brands (existence only; shell/replacement-part maker)",
+   "country": "",
+   "dept": "replacement shells",
+   "region": ""
   }
  ],
  "add_regions": [
@@ -315,10 +354,166 @@
     "Sankyo"
    ],
    "note": "history page of a US pachinko dealer: existence/history only, so brands listed; SANKYO separately sourced on Wikipedia"
+  },
+  {
+   "region": "South Korea",
+   "speciality": "own console/arcade lineage: Daewoo Zemmix MSX consoles (Korea-only) and Andamiro dance/redemption cabinets",
+   "src": "https://en.wikipedia.org/wiki/Zemmix",
+   "brands": [
+    "Daewoo Electronics",
+    "Andamiro",
+    "Gihan Electronics",
+    "Gamepark Holdings",
+    "Samsung"
+   ]
+  },
+  {
+   "region": "Australia",
+   "speciality": "gambling/slot machines ('pokies')",
+   "src": "https://en.wikipedia.org/wiki/Aristocrat_Leisure",
+   "brands": [
+    "Aristocrat Leisure"
+   ]
   }
  ],
- "drop": [],
- "relayer": [],
+ "drop": [
+  {
+   "n": "Merkury Innovations",
+   "why": "budget famiclone portables sold at Five Below/Walmart; no cultural footprint on the page"
+  },
+  {
+   "n": "Nanbeng",
+   "why": "only in a 'many brands existed like...' aside; no standing"
+  },
+  {
+   "n": "Jichang Electronics",
+   "why": "same aside as Nanbeng; no standing"
+  },
+  {
+   "n": "Estrela",
+   "why": "toy company (E1); on the page only as JV parent of Playtronic, which made the NES; keep Playtronic in E5, Estrela in E1"
+  },
+  {
+   "n": "Bethesda Softworks",
+   "why": "(from AUDIT_E1 drops) software publisher, belongs in I1/F1 not E5 hardware"
+  },
+  {
+   "n": "THQ",
+   "why": "software publisher -> I1/F1, not E5"
+  },
+  {
+   "n": "Melbourne House",
+   "why": "software publisher -> I1/F1, not E5"
+  },
+  {
+   "n": "Humanhead Studios",
+   "why": "game studio -> I1/F1, not E5"
+  }
+ ],
+ "relayer": [
+  {
+   "n": [
+    "Ascher Racing",
+    "Cube Controls",
+    "Grid Engineering",
+    "Simagic",
+    "Conspit",
+    "Sim-Lab",
+    "PXN",
+    "VPG"
+   ],
+   "to": "listed",
+   "why": "sole source simracingcockpit.gg is a one-author affiliate publisher (footer: 'I get a commission if you buy something through this site'; every pick carries a live price and buy link). Not a shop, and the tests are first-hand, but under the affiliate rule premium is not independently supported. Sim-Lab is named only as seller/owner of Grid; PXN is a EUR200 budget wheel; VPG is an image caption."
+  },
+  {
+   "n": [
+    "Moza"
+   ],
+   "to": "merge",
+   "why": "same company as 'Moza Racing' already in the index (E5) and 'MOZA' in MOVES_D1; keep one entry."
+  },
+  {
+   "n": [
+    "Varjo"
+   ],
+   "to": "listed",
+   "why": "only a Wikipedia category membership; premium unsupported."
+  },
+  {
+   "n": [
+    "iam8bit",
+    "Strictly Limited Games"
+   ],
+   "to": "listed",
+   "why": "own pages, self-praise."
+  },
+  {
+   "n": [
+    "Barrels of Fun",
+    "Dutch Pinball",
+    "Hexa Pinball",
+    "Homepin",
+    "Multimorphic",
+    "Pawlowski Pinball",
+    "Pedretti Gaming",
+    "Phenix Pinball",
+    "Pinball Adventures",
+    "Pinball Brothers",
+    "Quetzal Pinball",
+    "Team Pinball",
+    "TiltBob Pinball",
+    "Turner Pinball",
+    "Vector Pinball",
+    "Wonderland Amusements",
+    "A. Hankin & Company",
+    "Alvin G & Co.",
+    "Exhibit Supply Company",
+    "Genco",
+    "Haggis Pinball",
+    "J.H. Keeney & Co.",
+    "Peyper",
+    "WhizBang Pinball",
+    "Recel"
+   ],
+   "to": "listed",
+   "why": "unlinked rows (no own article) on the pinball list; existence/dates only. Linked rows (Data East, Game Plan, Heighway, Inder, Jennings, Maresa, Mirco, Midway, Playmatic, Zaccaria, Allied Leisure, Taito of Brazil) stay cultural."
+  },
+  {
+   "n": [
+    "New Star",
+    "Dynacom",
+    "Dismac",
+    "Electrolab",
+    "Bit Argentina",
+    "Ramar International",
+    "Family TSI",
+    "Gihan Electronics",
+    "GameTech",
+    "dreamGEAR",
+    "BobMark International"
+   ],
+   "to": "listed",
+   "why": "Famiclone page names them without linking an own article; most are unlicensed clone makers/distributors (page frames these markets as 'counterfeit 8-bit systems'; GameTech's PocketFami 'an unlicensed hardware clone', sued by Nintendo; Ramar 'published a few unique bootleg games'; BobMark sold bootleg games until 1994)."
+  },
+  {
+   "n": [
+    "Subor",
+    "NTDEC",
+    "Sachen",
+    "Micro Genius"
+   ],
+   "to": "cultural (flag)",
+   "why": "own articles linked, so cultural stands, but the page describes them as unlicensed clone/bootleg makers; flag 'unlicensed clone' in the note."
+  },
+  {
+   "n": [
+    "Welback Holdings",
+    "Dingoo"
+   ],
+   "to": "keep",
+   "why": "note: the 'own article' is the product (Mega Duck / Dingoo A320), not the maker."
+  }
+ ],
  "fix": [
   {
    "n": "Tec Toy",
@@ -333,5 +528,5 @@
    "why": "duplicate of 'Toymax' already in the brand index (E5); merge."
   }
  ],
- "notes": "in progress"
+ "notes": "MOVES: MOZA -> merge with Moza Racing (already E5); GameSir -> E5 yes (controller maker, own article); JXD -> E5 yes (retro handhelds; cultural/listed). Bethesda, THQ, Melbourne House, Humanhead -> NOT E5 (software; I1/F1). Accuracy: 25 checked, 1 wrong (Sim-Lab 'premium' not supported). Outside the sample: Tec Toy's claim is not on its src (fixed via Tectoy wiki); Bit Corporation country wrong (Taiwan, not Russia); Toymax International duplicates Toymax. Sim Racing Cockpit = one-author affiliate publisher (commission footer, buy links): quality -> listed. HeliSimmer (Virpil) also carries marked affiliate links and a disclosed review unit, but the review is editorial with a 10/10 verdict and the buy link is stated not to be an endorsement. Homonyms: Elektronika already in the index under A5 (Soviet watches, same state brand umbrella) -> add E5 dept; Asetek is in D1 (liquid cooling), its SimSports sim-racing line is unsourced here; Codemasters is in E5 only through Game Genie (mainly software). Victrix, Cube, Grid, PXN, Ramar, Electrolab, Zaccaria have no clashing index rows. Thin areas retried: Virpil (added, premium), Nacon (added), Tectoy (re-sourced), Playdate/Panic and Heusinkveld (already in index), home arcade (Raw Thrills added), music/dance (Andamiro added; CRKD only own shop), modding (Hand Held Legend, eXtremeRate, existence), Brook/Ultimarc/Scuf/CH Products/Elaut/Trak Racer/Asetek: only own or shop/investor pages found -> not added. CES honoree listings are dynamic, and the static CES pages fetched name no gaming hardware. Regions not quotas: Africa, Middle East (beyond Ramar), Central/South Asia have no distinctive hardware makers; not counted as omissions."
 }
