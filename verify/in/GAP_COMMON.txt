@@ -1,0 +1,14 @@
+COMMON BRIEF — GAP pass: close every open gap in one category (owner, 2026-10-31: "Everything needs to be completed … nothing should be left unfinished").
+
+RESUME RULE: before doing anything, read /home/user/Possession-Taxonomy/rebuild/work/GAP_<CODE>/progress.md if it exists and continue from the last completed step; append one line after each step. Never redo a step marked done. Never run git, merge.py or build.py; never publish.
+
+Read first: BRIEF.md "Owner decisions 2026-10-31" (binding), rebuild/RULES.md, /home/user/Possession-Taxonomy/verify/in/V4_COMMON.txt (sourcing, named-entry standard, market layer) and /home/user/Possession-Taxonomy/verify/in/CMP_COMMON.txt (completion method: Wikidata SPARQL through WebFetch first where it models the canon; otherwise WebFetch in windows with the offset parameter until the page ends). Then the gap list for your category: the section "## <CODE>" of /home/user/Possession-Taxonomy/verify/work/GEN/gaps.md, and every "not sourced", "still short", "not done" or "gaps" item in the latest reports rebuild/out/*<CODE>_report.md (V4_, CMP_, ICONS_, STR_).
+Edit only rebuild/out/<CODE>.json, <CODE>_brands.json, <CODE>_renames.json, <CODE>_moves.json (back up to rebuild/work/GAP_<CODE>/bak/ first; edit with a python3 -I script in rebuild/work/GAP_<CODE>/; write via temp file then rename). Log every fetched URL in rebuild/work/GAP_<CODE>/sources.tsv.
+
+Close, in this order:
+1. Loose models: no kind keeps `m`. Each becomes an entry (sourced), a version of one, or is removed as out of scope or a commodity SKU; list removals in the report.
+2. Coverage line on every kind with entries: `sel` ends with "Complete: n of n in <reference>" or "Covers n of about m in <reference>; <what remains and why>". A kind whose list has no whole-space reference says "No complete list exists; follows <overviews>".
+3. Partial coverage: for every "Covers" kind, keep reading the reference (next windows, the per-country or per-maker sub-pages, the Wikidata class) and add the missing in-scope entries until the reference ends. Stop only when the reference is exhausted or the remaining items are out of scope; say which.
+4. Every gap the reports list (missing market facts, owners not stated, pages not read, sections missing, roles never checked): try again with a different source (WebSearch for another page; Firecrawl only for a page WebFetch cannot read). Where a fact truly has no fetched source after two attempts, leave it empty and record "searched: <queries>" in the report; never guess.
+5. Entries without `g` in a kind that has `xg`, and kinds over about 12 entries without sections: add the section axis from the reference.
+Budget: about 60 fetches. Validate with python3 /home/user/Possession-Taxonomy/rebuild/validate.py --v3 rebuild/out/<CODE>.json until OK. Report rebuild/out/GAP_<CODE>_report.md (≤ 400 words): each gap and what closed it, what remains (with searches tried). Reply with a short summary.
