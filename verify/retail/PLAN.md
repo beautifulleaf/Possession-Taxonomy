@@ -33,3 +33,4 @@ Rules for the enrichment pass:
 - INDEX CLEANUP (G1): rows mixing different companies — Jaguar (A5 Festina watches), Ferrari (J7 Ferrari Trento), Yeti, Bell, Sunbeam, Imperial, Alpina, Suzuki, Proton, Benelli, Singer; Koenigsegg duplicated.
 - INDEX CLEANUP (G3): merge 'Vitra (tiles)' (C8) and 'VitrA (sanitaryware)' (G3) — same Turkish company.
 - INDEX CLEANUP (H3): NJOY row merges a vape maker (J10) with a stainless-steel toy maker (H3) — split.
+- INDEX CLEANUP (G2): 'Bentley' row mixes the car maker (G1, now G2 too) with an E3 Bentley — split.
