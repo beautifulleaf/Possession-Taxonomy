@@ -1,0 +1,4665 @@
+{
+ "cat": "J9",
+ "status": "partial",
+ "brand_led": true,
+ "sweeps": [
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in LEAN mode; only Wikipedia country list covers it"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in LEAN mode; only Wikipedia country list covers it"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in LEAN mode; only Wikipedia country list covers it"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in LEAN mode; only Wikipedia country list covers it"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in LEAN mode; only Wikipedia country list covers it"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in LEAN mode; only Wikipedia country list covers it"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in LEAN mode; only Wikipedia country list covers it"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in LEAN mode; only Wikipedia country list covers it"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in LEAN mode; only Wikipedia country list covers it"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in LEAN mode; only Wikipedia country list covers it"
+  },
+  {
+   "axis": "region",
+   "item": "Japan/East Asia",
+   "queries": [
+    "ramune traditional makers Japan"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Latin America (Mexico)",
+   "queries": [
+    "Mexican sodas Jarritos Sidral Mundet"
+   ],
+   "found": 1,
+   "note": "only Sidral, known"
+  },
+  {
+   "axis": "region",
+   "item": "Russia/Ukraine kvass",
+   "queries": [
+    "kvass brands"
+   ],
+   "found": 0,
+   "note": "search returned Britannica only, no brands"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East/Africa soft drinks",
+   "queries": [
+    "Vimto Barbican; African soft drink heritage"
+   ],
+   "found": 0,
+   "note": "search not returned usable results (only ramune/Mexico/kvass came back)"
+  },
+  {
+   "axis": "kind",
+   "item": "Water",
+   "queries": [
+    "Berkeley Springs winners",
+    "bottled water list"
+   ],
+   "found": 126,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Sodas / Syrups & cordials / Tonic & mixers",
+   "queries": [
+    "best tonic waters",
+    "Great Taste soft drinks"
+   ],
+   "found": 12,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Fermented soft drinks",
+   "queries": [],
+   "found": 2,
+   "note": "kombucha only via Booths"
+  },
+  {
+   "axis": "kind",
+   "item": "Juices & smoothies; Energy & sports drinks; RTD coffee & tea",
+   "queries": [],
+   "found": 0,
+   "note": "not searched"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Japan (ramune)",
+   "speciality": "marble-stopper ramune soda; ~2,300 makers at peak, national ramune association",
+   "src": "https://mainichi.jp/english/articles/20240711/p2a/00m/0li/005000c",
+   "brands": [
+    "Hata Kosen",
+    "Kimura Drink"
+   ]
+  },
+  {
+   "region": "Mexico",
+   "speciality": "apple soda Sidral Mundet since 1902; Jarritos, Sangria Senorial",
+   "src": "https://sidralmundet.com/about-us/",
+   "brands": [
+    "Sidral Mundet"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "botanically brewed craft sodas, cordials and premium mixers (Great Taste awarded)",
+   "src": "https://www.booths.co.uk/our-stories/our-products/craft-soft-drinks-range",
+   "brands": [
+    "Fentimans",
+    "bottlegreen",
+    "Mawson's",
+    "Jeffrey's",
+    "Kolibri",
+    "Belvoir Fruit Farms",
+    "Fever-Tree",
+    "Skinny Tonic",
+    "Marlish"
+   ]
+  },
+  {
+   "region": "Southern/Eastern Europe (waters)",
+   "speciality": "juried-tasting medal waters: Sardinia, Crete/Greece, Bosnia (Tesanj), Macedonia, Hungary",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "brands": [
+    "Smeraldina",
+    "Theoni",
+    "Samaria",
+    "Dijamant",
+    "Oaza",
+    "Dobra Voda",
+    "Peridot"
+   ]
+  },
+  {
+   "region": "Oceania (waters)",
+   "speciality": "New Zealand and Australian artesian and sparkling waters repeatedly placed",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "brands": [
+    "Antipodes Water",
+    "Fleck Sparkling Mineral Water",
+    "Waiheke Mineral Plus",
+    "Big Wet Sparkling Spring Water",
+    "Waiwera"
+   ]
+  },
+  {
+   "region": "East Asia (waters)",
+   "speciality": "Japanese and Taiwanese deep-ocean and spring waters placed at Berkeley Springs",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "brands": [
+    "Fuji no Tennensui Sarari",
+    "Asagiri no Shizuku",
+    "Taifer Group Deep Ocean Water",
+    "Atomy Deep Ocean Water",
+    "Amamizu Water"
+   ]
+  },
+  {
+   "region": "North America (waters)",
+   "speciality": "US/Canadian spring and purified waters at Berkeley Springs",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "brands": [
+    "Eldorado Natural Spring Water",
+    "Vortex Energy",
+    "Hope Natural Spring Water",
+    "Jano"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "title": "Berkeley Springs International Water Tasting winners 1991-2023",
+   "kind": "award",
+   "years": "1991-2023 (juried tasting)",
+   "names_on_page": 140,
+   "new_names": 109,
+   "status": "done",
+   "note": "bottled/sparkling/purified placings hand-curated, municipal supplies excluded; 2026 from search excerpt of winners page only"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "title": "List of soft drinks by country",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1369,
+   "new_names": 409,
+   "status": "done",
+   "note": "flavour variants of known brands removed by script; 'Brand name soft drink products' list (297 names) also fetched, mostly flavours of known brands"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "title": "List of bottled water brands",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 122,
+   "new_names": 17,
+   "status": "done",
+   "note": "~100 confirmed already known"
+  },
+  {
+   "url": "https://www.booths.co.uk/our-stories/our-products/craft-soft-drinks-range",
+   "title": "Booths craft soft drinks range",
+   "kind": "retailer",
+   "years": "2020",
+   "names_on_page": 10,
+   "new_names": 9,
+   "status": "done",
+   "note": "shop list: existence only"
+  },
+  {
+   "url": "https://www.fentimans.com/blogs/press-releases/fentimans-botanically-brewed-beverages-receive-global-recognition-from-great-taste-awards",
+   "title": "Fentimans Great Taste 2024",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "brand known"
+  },
+  {
+   "url": "https://shs-group.co.uk/newsroom/2025/great-taste-awards",
+   "title": "SHS Great Taste 2025",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "bottlegreen known"
+  },
+  {
+   "url": "https://mainichi.jp/english/articles/20240711/p2a/00m/0li/005000c",
+   "title": "Mainichi on ramune",
+   "kind": "encyclopedia",
+   "years": "2024",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": "regions evidence"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Smeraldina",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs International Water Tasting winners 1991-2023 (juried): Best Bottled Water 1st 2023; also 2022, 2025 list",
+   "country": "Sardinia, Italy",
+   "dept": "Water"
+  },
+  {
+   "n": "Hope Natural Spring Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled 2nd 2023",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Jano",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled 3rd 2023",
+   "country": "Canada",
+   "dept": "Water"
+  },
+  {
+   "n": "Floridian Spring Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled 4th 2023",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Vortex Energy",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled 1st 2022",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Dijamant",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Sparkling 1st 2023 (Tesanjski Dijamant, Tesanj)",
+   "country": "Bosnia and Herzegovina",
+   "dept": "Water"
+  },
+  {
+   "n": "Antipodes Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Sparkling 2nd 2023, repeat placings and People's Choice Package Design",
+   "country": "New Zealand",
+   "dept": "Water"
+  },
+  {
+   "n": "Cedea",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Sparkling 3rd 2023 (Dolomites)",
+   "country": "Italy",
+   "dept": "Water"
+  },
+  {
+   "n": "Boston Clear Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs sparkling 4th 2023",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Theoni",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placings 2022, 2023 and Best Non-Carbonated 1st 2025 (press)",
+   "country": "Greece",
+   "dept": "Water"
+  },
+  {
+   "n": "Taifer Group Deep Ocean Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Purified 1st (tie) 2023",
+   "country": "Taiwan",
+   "dept": "Water"
+  },
+  {
+   "n": "Taiwan Yes Deep Ocean Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Purified 1st (tie) 2023",
+   "country": "Taiwan",
+   "dept": "Water"
+  },
+  {
+   "n": "Atomy Deep Ocean Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Purified 2nd 2023",
+   "country": "Taiwan",
+   "dept": "Water"
+  },
+  {
+   "n": "VIBRANT WTR",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Purified 3rd 2023",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Lesage Natural",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Purified placings 2021-2023",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Amamizu Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs People's Choice Package Design 2nd 2023",
+   "country": "Japan",
+   "dept": "Water"
+  },
+  {
+   "n": "Halstead Springs",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled 2nd 2022",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Asagiri no Shizuku",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled 3rd (tie) 2022",
+   "country": "Japan",
+   "dept": "Water"
+  },
+  {
+   "n": "Grand Springs",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled placings 2021-2022",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Big Wet Sparkling Spring Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Sparkling 1st 2022",
+   "country": "Australia",
+   "dept": "Water"
+  },
+  {
+   "n": "Aqua To Go",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Sparkling 3rd 2022",
+   "country": "Australia",
+   "dept": "Water"
+  },
+  {
+   "n": "Ophora",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Purified 1st 2021, 2022",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Hawaiian Springs",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs People's Choice Package Design 1st 2022",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Babinda Springs",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placings 2022 and 2026",
+   "country": "Australia",
+   "dept": "Water"
+  },
+  {
+   "n": "Svalbarði Polar Iceberg Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs package design 4th 2022",
+   "country": "Norway",
+   "dept": "Water"
+  },
+  {
+   "n": "Fuji no Tennensui Sarari",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled 1st 2021 (Tokai Corporation)",
+   "country": "Japan",
+   "dept": "Water"
+  },
+  {
+   "n": "Eldorado Natural Spring Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled 2nd 2021, repeat medals",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Jasa Spring Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled 3rd 2021",
+   "country": "Canada",
+   "dept": "Water"
+  },
+  {
+   "n": "Samaria",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled 4th and Best Sparkling 2nd 2021 (Crete)",
+   "country": "Greece",
+   "dept": "Water"
+  },
+  {
+   "n": "Fleck Sparkling Mineral Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Sparkling 1st 2021",
+   "country": "New Zealand",
+   "dept": "Water"
+  },
+  {
+   "n": "Mount Pure",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Sparkling 3rd 2021",
+   "country": "Grenada",
+   "dept": "Water"
+  },
+  {
+   "n": "Tesanjski Kiseljak",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs sparkling placings",
+   "country": "Bosnia and Herzegovina",
+   "dept": "Water"
+  },
+  {
+   "n": "Hita no Homare Cosmo Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing (Cosmo Water)",
+   "country": "Japan",
+   "dept": "Water"
+  },
+  {
+   "n": "Fuji no Hibiki Cosmo Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing (Cosmo Water)",
+   "country": "Japan",
+   "dept": "Water"
+  },
+  {
+   "n": "Koto no Tennensui Cosmo Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing (Cosmo Water)",
+   "country": "Japan",
+   "dept": "Water"
+  },
+  {
+   "n": "King Island Cloud Juice",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs 3rd placing",
+   "country": "Australia",
+   "dept": "Water"
+  },
+  {
+   "n": "Pura Volcanic",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Voyage Spring Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Sparkling 2020",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Azuga",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs sparkling 4th (tie) 2026",
+   "country": "Romania",
+   "dept": "Water"
+  },
+  {
+   "n": "Touch Sparkling Mineral Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs carbonated gold (tie) 2023 list",
+   "country": "Canada",
+   "dept": "Water"
+  },
+  {
+   "n": "Oravida",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "New Zealand",
+   "dept": "Water"
+  },
+  {
+   "n": "BLVD",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs 4th placing (Yolla, Tasmania)",
+   "country": "Australia",
+   "dept": "Water"
+  },
+  {
+   "n": "OGO",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs sparkling 5th placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Waiheke Mineral Plus",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Purified silver (tie) 2019",
+   "country": "New Zealand",
+   "dept": "Water"
+  },
+  {
+   "n": "Iceberg Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs 3rd placing (Lewisporte, NL)",
+   "country": "Canada",
+   "dept": "Water"
+  },
+  {
+   "n": "Frequency H2O",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Bottled Water 2018 1st",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Jackson Springs",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placings",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "KOPU",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Sparkling 2018",
+   "country": "New Zealand",
+   "dept": "Water"
+  },
+  {
+   "n": "GP8 Oxygen Alkaline Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Purified",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Rain Fresh",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Best Purified placings",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Catt Springs",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs people's choice list",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Planet H2O",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs 4th placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Thermodx Thirst",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Purified bronze/4th",
+   "country": "Canada",
+   "dept": "Water"
+  },
+  {
+   "n": "Otakiri Reserve",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs silver",
+   "country": "New Zealand",
+   "dept": "Water"
+  },
+  {
+   "n": "Aqua Nobel",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs carbonated bronze",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Oro Luxury Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs 4th placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Waiheke Imperial",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs silver",
+   "country": "New Zealand",
+   "dept": "Water"
+  },
+  {
+   "n": "Marysville",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs silver",
+   "country": "Australia",
+   "dept": "Water"
+  },
+  {
+   "n": "Prairie Crystal",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs silver",
+   "country": "Canada",
+   "dept": "Water"
+  },
+  {
+   "n": "Eau De Source 83",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs bronze",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Davia Organic Maple Sap Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs 4th placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Bar H2O",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Purified gold",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Divinia",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs silver",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Celvick Dobri Kiseljak",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs bronze",
+   "country": "Bosnia and Herzegovina",
+   "dept": "Water"
+  },
+  {
+   "n": "Deluge",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs sparkling 4th (tie)",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Nakd Luxury Artesian Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs People's Choice packaging gold",
+   "country": "New Zealand",
+   "dept": "Water"
+  },
+  {
+   "n": "Fengari Platinum",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Non-Carbonated gold",
+   "country": "Greece",
+   "dept": "Water"
+  },
+  {
+   "n": "Castle Rock Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs silver (Dunsmuir)",
+   "country": "Canada",
+   "dept": "Water"
+  },
+  {
+   "n": "Indigo H2O",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Purified gold",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "January Springs",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs silver (tie)",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Whispering Springs",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs bronze/placings",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Daphne",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Carbonated gold",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Oaza",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs silver (Tesanj)",
+   "country": "Bosnia and Herzegovina",
+   "dept": "Water"
+  },
+  {
+   "n": "Eternal Naturally Alkaline Spring Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs People's Choice packaging gold",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Waiwera",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs bronze",
+   "country": "New Zealand",
+   "dept": "Water"
+  },
+  {
+   "n": "Arisu",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs 4th placing (Seoul)",
+   "country": "South Korea",
+   "dept": "Water"
+  },
+  {
+   "n": "Hallasu",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "South Korea",
+   "dept": "Water"
+  },
+  {
+   "n": "Bama Tianshou Spring",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs silver (Bama)",
+   "country": "China",
+   "dept": "Water"
+  },
+  {
+   "n": "Waiakea",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Cerebellum H2O",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Marvelus Sparkling Mineral Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Mountain Drop",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs purified gold/4th",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Branchwater",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "StoneClear",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placings",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "I am Healthy",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "John Deere Artesian Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Eska",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "Poland",
+   "dept": "Water"
+  },
+  {
+   "n": "Aquaroyale",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Woolrich Spring Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Coral Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Purified gold",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Crystal Mountain Natural Spring Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Purified gold",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Esparanza",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs carbonated gold",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Hana Sparkling",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs carbonated placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Dobra Voda",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs carbonated gold (Kratovo)",
+   "country": "North Macedonia",
+   "dept": "Water"
+  },
+  {
+   "n": "Kuohun Kirkas",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Non-Carbonated gold",
+   "country": "Finland",
+   "dept": "Water"
+  },
+  {
+   "n": "Avita Artesian Spring Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Good Hydration",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Clear Creek Water Company",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Purified gold",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Blue Moon Water Systems",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Purified silver",
+   "country": "Canada",
+   "dept": "Water"
+  },
+  {
+   "n": "Seven Mills Water",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs Purified bronze",
+   "country": "USA",
+   "dept": "Water"
+  },
+  {
+   "n": "Eden Spring",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "BlueStar",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Kiseljak Princess",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "Bosnia and Herzegovina",
+   "dept": "Water"
+  },
+  {
+   "n": "ICE MIST",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs placing",
+   "country": "",
+   "dept": "Water"
+  },
+  {
+   "n": "Salvus",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs carbonated gold (Emsdetten)",
+   "country": "Germany",
+   "dept": "Water"
+  },
+  {
+   "n": "Zema Woda",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs carbonated silver",
+   "country": "Bosnia and Herzegovina",
+   "dept": "Water"
+  },
+  {
+   "n": "Puritas",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs 3rd 2026 (winners page)",
+   "country": "South Africa",
+   "dept": "Water"
+  },
+  {
+   "n": "Zaro's",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs 2026 participant/winner list",
+   "country": "Greece",
+   "dept": "Water"
+  },
+  {
+   "n": "San Graziano",
+   "layer": "premium",
+   "src": "https://berkeleyspringswatertasting.com/wp-content/uploads/2023/03/Winners91-2023.pdf",
+   "says": "Berkeley Springs 5th (tie) 2026",
+   "country": "Italy",
+   "dept": "Water"
+  },
+  {
+   "n": "Mawson's",
+   "layer": "premium",
+   "src": "https://www.booths.co.uk/our-stories/our-products/craft-soft-drinks-range",
+   "says": "Booths: Mawson's cordials won Great Taste Awards (sarsaparilla since 1933, Oldham)",
+   "country": "United Kingdom",
+   "dept": "Syrups & cordials"
+  },
+  {
+   "n": "Jeffrey's",
+   "layer": "premium",
+   "src": "https://www.booths.co.uk/our-stories/our-products/craft-soft-drinks-range",
+   "says": "Booths craft range: hand-crafted cordials and Indian tonic syrup, made in Chester",
+   "country": "United Kingdom",
+   "dept": "Syrups & cordials"
+  },
+  {
+   "n": "Kolibri",
+   "layer": "premium",
+   "src": "https://www.booths.co.uk/our-stories/our-products/craft-soft-drinks-range",
+   "says": "Booths: UK's most awarded drink innovation of 2019 (Botanical Infusions)",
+   "country": "United Kingdom",
+   "dept": "Tonic & mixers"
+  },
+  {
+   "n": "Belvoir Fruit Farms",
+   "layer": "premium",
+   "src": "https://www.booths.co.uk/our-stories/our-products/craft-soft-drinks-range",
+   "says": "Booths craft range: premium cordials and pressés, 35 years",
+   "country": "United Kingdom",
+   "dept": "Syrups & cordials"
+  },
+  {
+   "n": "Skinny Tonic",
+   "layer": "premium",
+   "src": "https://www.booths.co.uk/our-stories/our-products/craft-soft-drinks-range",
+   "says": "Booths craft range: zero-sugar premium tonic waters",
+   "country": "United Kingdom",
+   "dept": "Tonic & mixers"
+  },
+  {
+   "n": "Marlish",
+   "layer": "premium",
+   "src": "https://www.booths.co.uk/our-stories/our-products/craft-soft-drinks-range",
+   "says": "Booths craft range: Northumberland farm spring water",
+   "country": "United Kingdom",
+   "dept": "Water"
+  },
+  {
+   "n": "Nix and Kix",
+   "layer": "premium",
+   "src": "https://www.booths.co.uk/our-stories/our-products/craft-soft-drinks-range",
+   "says": "Booths craft range: grown-up soft drinks with cayenne",
+   "country": "",
+   "dept": "Sodas"
+  },
+  {
+   "n": "Nexba",
+   "layer": "premium",
+   "src": "https://www.booths.co.uk/our-stories/our-products/craft-soft-drinks-range",
+   "says": "Booths craft range: award-winning Australian kombucha/kefir",
+   "country": "Australia",
+   "dept": "Fermented soft drinks"
+  },
+  {
+   "n": "Hata Kosen",
+   "layer": "cultural",
+   "src": "https://www.hata-kosen.co.jp/en/pages/54",
+   "says": "Largest ramune maker in Japan, founded 1946, exports to 95 countries",
+   "country": "Japan",
+   "dept": "Sodas"
+  },
+  {
+   "n": "Kimura Drink",
+   "layer": "cultural",
+   "src": "https://mainichi.jp/english/articles/20240711/p2a/00m/0li/005000c",
+   "says": "Mainichi: iconic marble-sealed ramune; president heads national ramune association",
+   "country": "Japan",
+   "dept": "Sodas"
+  },
+  {
+   "n": "Agua Vida",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "Mexico",
+   "dept": "Water"
+  },
+  {
+   "n": "Amma Kudineer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "India",
+   "dept": "Water"
+  },
+  {
+   "n": "Bai Brands",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "United States",
+   "dept": "Water"
+  },
+  {
+   "n": "Bear-lithia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "United States",
+   "dept": "Water"
+  },
+  {
+   "n": "Deep Spring",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "United States",
+   "dept": "Water"
+  },
+  {
+   "n": "Deer Park Spring Water",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "United States",
+   "dept": "Water"
+  },
+  {
+   "n": "Iceland Pure Spring Water",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "Iceland",
+   "dept": "Water"
+  },
+  {
+   "n": "Jana",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "Croatia",
+   "dept": "Water"
+  },
+  {
+   "n": "LEVEL Ultra-Purified Water+",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "United States",
+   "dept": "Water"
+  },
+  {
+   "n": "Lithia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "United States",
+   "dept": "Water"
+  },
+  {
+   "n": "Londonderry Lithia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "United States",
+   "dept": "Water"
+  },
+  {
+   "n": "Naya Waters",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "Canada",
+   "dept": "Water"
+  },
+  {
+   "n": "NEWater",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "Singapore",
+   "dept": "Water"
+  },
+  {
+   "n": "Pluto Water",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "United States",
+   "dept": "Water"
+  },
+  {
+   "n": "Powwow Water",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "United States",
+   "dept": "Water"
+  },
+  {
+   "n": "Propel Fitness Water",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "United States",
+   "dept": "Water"
+  },
+  {
+   "n": "Verna Natural Mineral Water",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bottled_water_brands",
+   "says": "Listed in Wikipedia List of bottled water brands",
+   "country": "Italy",
+   "dept": "Water"
+  },
+  {
+   "n": "Pamir Mountain",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Afghanistan",
+   "country": "Afghanistan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Pamir Lemonade",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Afghanistan",
+   "country": "Afghanistan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Apla",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Cabalgata",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Chañi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Chinchibirra",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Goliat",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Neuss",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Pastore",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Blue Demon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Ser",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Torasso",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Tradicional de Secco Secco",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Tubito",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Argentina",
+   "country": "Argentina",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "16 classic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Armenia",
+   "country": "Armenia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Back o' Bourke Cordials",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "BCX Royal Standard",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Berts Soft Drinks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Cohns",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Count Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Crows Nest Soft Drinks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Hartz Tasmania",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Ladd's cordials",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "LA Ice Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Leed",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Loys",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "McSars",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "McMahons soft drinks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Marchants",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Orfords",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "PipeLime",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Port Of Echuca",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "River Port Beverages",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Shelleys",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Tarax",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Weaver and Lock",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Whitbreads Cordials",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Australia",
+   "country": "Australia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Blue Ox",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Austria",
+   "country": "Austria",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "A+CO",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Azerbaijan",
+   "country": "Azerbaijan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Hoqqa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Azerbaijan",
+   "country": "Azerbaijan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "GO Energy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Azerbaijan",
+   "country": "Azerbaijan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Refreshhh!",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Azerbaijan",
+   "country": "Azerbaijan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Turbin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Azerbaijan",
+   "country": "Azerbaijan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Island Queen",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bahamas",
+   "country": "Bahamas",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Clemon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Twing",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Gear",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fizz up",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Lychena",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mangolee",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Oranjee",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Lemonjee",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Deshbondhu Friends Up",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Deshbondhu Honey Ginger",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Deshbondhu Lychee",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Deshbondhu Zeera Pani",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Friends Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bangladesh",
+   "country": "Bangladesh",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Frutee",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Barbados",
+   "country": "Barbados",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Plus",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Barbados",
+   "country": "Barbados",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Nalu",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Belgium",
+   "country": "Belgium",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Yazoo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Belgium",
+   "country": "Belgium",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Drink a Flower",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Belgium",
+   "country": "Belgium",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Coca Brynco",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bolivia",
+   "country": "Bolivia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Artemis Guaraná",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Brazil",
+   "country": "Brazil",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "CINI",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Brazil",
+   "country": "Brazil",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Esportivo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Brazil",
+   "country": "Brazil",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Goianinho Guaraná",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Brazil",
+   "country": "Brazil",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mineirinho",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Brazil",
+   "country": "Brazil",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fruthos",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Brazil",
+   "country": "Brazil",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Soda Antarctica",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Brazil",
+   "country": "Brazil",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Pon Chic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Brazil",
+   "country": "Brazil",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Guarapan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Brazil",
+   "country": "Brazil",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Altai",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bulgaria",
+   "country": "Bulgaria",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Aspasia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bulgaria",
+   "country": "Bulgaria",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Etar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Bulgaria",
+   "country": "Bulgaria",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Eskimo Soft Drinks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Canada",
+   "country": "Canada",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Freshie",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Canada",
+   "country": "Canada",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Life",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Canada",
+   "country": "Canada",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Spruce Beer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Canada",
+   "country": "Canada",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Propeller Brewery",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Canada",
+   "country": "Canada",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Seaman's Beverages",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Canada",
+   "country": "Canada",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Vrroom",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Canada",
+   "country": "Canada",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Gaseosas Pool",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Colombia",
+   "country": "Colombia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Gaseosas Cóndor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Colombia",
+   "country": "Colombia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Gaseosas Glacial",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Colombia",
+   "country": "Colombia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Gaseosas Hipinto",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Colombia",
+   "country": "Colombia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Gaseosas Sol",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Colombia",
+   "country": "Colombia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Malta Leona",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Colombia",
+   "country": "Colombia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Pro Sport",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Croatia",
+   "country": "Croatia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Toco",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Croatia",
+   "country": "Croatia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Juicy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Croatia",
+   "country": "Croatia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Gaseosa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Cuba",
+   "country": "Cuba",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Iron Beer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Cuba",
+   "country": "Cuba",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Malta",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Cuba",
+   "country": "Cuba",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Prolinie",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Czech Republic",
+   "country": "Czech Republic",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Carlsberg Sport",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Denmark",
+   "country": "Denmark",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Maribo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Denmark",
+   "country": "Denmark",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fruit",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ecuador",
+   "country": "Ecuador",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Manzana",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ecuador",
+   "country": "Ecuador",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Orangine",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ecuador",
+   "country": "Ecuador",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Kolashanpan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under El Salvador",
+   "country": "El Salvador",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Blue Sheep More Hito",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Estonia",
+   "country": "Estonia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Düšess",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Estonia",
+   "country": "Estonia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Lumivalgeke",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Estonia",
+   "country": "Estonia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mõmmi Limonaad",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Estonia",
+   "country": "Estonia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Punane Sõstar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Estonia",
+   "country": "Estonia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Hull Õun",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Estonia",
+   "country": "Estonia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Tarumba",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Fiji",
+   "country": "Fiji",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Raro",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Fiji",
+   "country": "Fiji",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Kava",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Fiji",
+   "country": "Fiji",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Bratz Vadelma",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Finland",
+   "country": "Finland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Hyvää Päivää",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Finland",
+   "country": "Finland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Omenalimonadi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Finland",
+   "country": "Finland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Puolukkapore",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Finland",
+   "country": "Finland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Päärynälimonadi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Finland",
+   "country": "Finland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Rio Rita",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Finland",
+   "country": "Finland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sittis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Finland",
+   "country": "Finland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "SitruunaSooda",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Finland",
+   "country": "Finland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Smurffi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Finland",
+   "country": "Finland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Turtles Päärynä",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Finland",
+   "country": "Finland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Vadelmalimonadi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Finland",
+   "country": "Finland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Gini",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under France",
+   "country": "France",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Joker",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under France",
+   "country": "France",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Ricqlès",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under France",
+   "country": "France",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Tropico",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under France",
+   "country": "France",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Lagidze water",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Georgia",
+   "country": "Georgia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Apfelschorle",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Germany",
+   "country": "Germany",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Dark Thunder",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Germany",
+   "country": "Germany",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Libella",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Germany",
+   "country": "Germany",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "OstMost",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Germany",
+   "country": "Germany",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Red Thunder",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Germany",
+   "country": "Germany",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "VAP",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Greece",
+   "country": "Greece",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Aquafine Blue Naturelle",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Haiti",
+   "country": "Haiti",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Big Shake",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Haiti",
+   "country": "Haiti",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Cola Lacaye",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Haiti",
+   "country": "Haiti",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fiesta",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Haiti",
+   "country": "Haiti",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Limonade",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Haiti",
+   "country": "Haiti",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Malta H",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Haiti",
+   "country": "Haiti",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Megawatt",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Haiti",
+   "country": "Haiti",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Ragaman",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Haiti",
+   "country": "Haiti",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Robusto",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Haiti",
+   "country": "Haiti",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Frucano Juice",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Haiti",
+   "country": "Haiti",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Yeung Gwong",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hong Kong",
+   "country": "Hong Kong",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Almuska",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Et-Üd",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Rorange",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Extra",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Frutti",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Gyöngy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Hajdú",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Hüsi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Kati",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Márka",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Oázis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Olympos",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Pataki",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Róna",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Salgó",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sárközi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sió",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Szivügy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sztár",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Tutti Juice",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Utas",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Vitis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Zselic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Hungary",
+   "country": "Hungary",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mix",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Iceland",
+   "country": "Iceland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Orka",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Iceland",
+   "country": "Iceland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Appy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under India",
+   "country": "India",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Juicila",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under India",
+   "country": "India",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fruity powder drink",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Indonesia",
+   "country": "Indonesia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Green Sands",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Indonesia",
+   "country": "Indonesia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Hemaviton",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Indonesia",
+   "country": "Indonesia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Badak",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Indonesia",
+   "country": "Indonesia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "temulawak Agung Ngoro",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Indonesia",
+   "country": "Indonesia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Coffee Beer Agung Ngoro",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Indonesia",
+   "country": "Indonesia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sherkat alice",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Iran",
+   "country": "Iran",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Ushkaya",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Iran",
+   "country": "Iran",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Brown lemonade",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ireland",
+   "country": "Ireland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Cavan Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ireland",
+   "country": "Ireland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Country Spring",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ireland",
+   "country": "Ireland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Finches",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ireland",
+   "country": "Ireland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "JaffO Juice Super Juice",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ireland",
+   "country": "Ireland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "McDaid's Football Special",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ireland",
+   "country": "Ireland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Red lemonade",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ireland",
+   "country": "Ireland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sports Special",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ireland",
+   "country": "Ireland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Tanora",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ireland",
+   "country": "Ireland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Tipperary Clearly",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ireland",
+   "country": "Ireland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "White Lemonade",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Ireland",
+   "country": "Ireland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Kristal",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Israel",
+   "country": "Israel",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Rozina's",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Israel",
+   "country": "Israel",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Super Drink",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Israel",
+   "country": "Israel",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Island",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Israel",
+   "country": "Israel",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sprit",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Israel",
+   "country": "Israel",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Spuma",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Italy",
+   "country": "Italy",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sorrel",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Jamaica",
+   "country": "Jamaica",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Chanmery",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Japan",
+   "country": "Japan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Hoppy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Japan",
+   "country": "Japan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Match",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Japan",
+   "country": "Japan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sangaria",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Japan",
+   "country": "Japan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fire",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Japan",
+   "country": "Japan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Latte Latte",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Japan",
+   "country": "Japan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Amino-Value",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Japan",
+   "country": "Japan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Lemongina",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Japan",
+   "country": "Japan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Momo no Ten-nen sui",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Japan",
+   "country": "Japan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Lipovitan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Japan",
+   "country": "Japan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Super",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Jordan",
+   "country": "Jordan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Arabian Beverage Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Kuwait",
+   "country": "Kuwait",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Judi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Libya",
+   "country": "Libya",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Al Naseem",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Libya",
+   "country": "Libya",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Apelsinas",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Bachmaro",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Baikalas",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Buratinas",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Diušes",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mandarinas",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sajanai",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Svaja",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Šaltukas",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Tarchunas",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Varpelis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Vėsa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Lithuania",
+   "country": "Lithuania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "BonBon Anglais",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Madagascar",
+   "country": "Madagascar",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Leema",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Malaysia",
+   "country": "Malaysia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Eski",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Mauritius",
+   "country": "Mauritius",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Evervess",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Morocco",
+   "country": "Morocco",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Blue Mountain",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Myanmar",
+   "country": "Myanmar",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Max Plus",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Myanmar",
+   "country": "Myanmar",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Max",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Myanmar",
+   "country": "Myanmar",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Ve Ve",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Myanmar",
+   "country": "Myanmar",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Rocker",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Myanmar",
+   "country": "Myanmar",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "3ES",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Netherlands",
+   "country": "Netherlands",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Endeavour Mixers",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under New Zealand",
+   "country": "New Zealand",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Julebrus",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Norway",
+   "country": "Norway",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fruit-a-Vitals",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Pakistan",
+   "country": "Pakistan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Nooras",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Pakistan",
+   "country": "Pakistan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Shakarganj Food Products",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Pakistan",
+   "country": "Pakistan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Shandy Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Pakistan",
+   "country": "Pakistan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mashmoom",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Pakistan",
+   "country": "Pakistan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Xtreme",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Pakistan",
+   "country": "Pakistan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Pulp",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Paraguay",
+   "country": "Paraguay",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Terere",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Paraguay",
+   "country": "Paraguay",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mate Cocido",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Paraguay",
+   "country": "Paraguay",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Cachaza",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Paraguay",
+   "country": "Paraguay",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Clerico",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Paraguay",
+   "country": "Paraguay",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Chicha",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Paraguay",
+   "country": "Paraguay",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fuji-Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Peru",
+   "country": "Peru",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Guaraná",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Peru",
+   "country": "Peru",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Jaz Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Lemo-Lime",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Pop Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Seetrus",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "San Mig Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Blue Men",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "I-On by Revicon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Bacchus",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Lobo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Samurai",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "BIG 250",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Drinky",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Eight O'Clock",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fres-C",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Funchum",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Jungle Juice",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mix Frutz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Pek-Pek Juice",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Ponkana",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Refresh",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sundays",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Philippines",
+   "country": "Philippines",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Koral Ekipa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Poland",
+   "country": "Poland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Lemo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Poland",
+   "country": "Poland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Oranżada",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Poland",
+   "country": "Poland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Tonik",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Poland",
+   "country": "Poland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Bussaco",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Portugal",
+   "country": "Portugal",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Frisumo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Portugal",
+   "country": "Portugal",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Frutis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Portugal",
+   "country": "Portugal",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "IKA",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Portugal",
+   "country": "Portugal",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Snappy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Portugal",
+   "country": "Portugal",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "SUCOL",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Portugal",
+   "country": "Portugal",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Boza",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Romania",
+   "country": "Romania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Compot",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Romania",
+   "country": "Romania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Izvorul Alb",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Romania",
+   "country": "Romania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Socată",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Romania",
+   "country": "Romania",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Kvass",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Russia",
+   "country": "Russia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Napitki iz CernoGolovki",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Russia",
+   "country": "Russia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Code Red",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Saudi Arabia",
+   "country": "Saudi Arabia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "fifa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Saudi Arabia",
+   "country": "Saudi Arabia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Leemo-1",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Saudi Arabia",
+   "country": "Saudi Arabia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Nerve",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Saudi Arabia",
+   "country": "Saudi Arabia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Stream",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Saudi Arabia",
+   "country": "Saudi Arabia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Na eks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Serbia",
+   "country": "Serbia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Feshta",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Serbia",
+   "country": "Serbia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Frutella",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Serbia",
+   "country": "Serbia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fruvita",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Serbia",
+   "country": "Serbia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Guarana no sleep",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Serbia",
+   "country": "Serbia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Doctor Night",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Serbia",
+   "country": "Serbia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "After Party",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Serbia",
+   "country": "Serbia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Excess",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Serbia",
+   "country": "Serbia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fast Energy Drink",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Serbia",
+   "country": "Serbia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Joe Drink",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Singapore",
+   "country": "Singapore",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Naughty G series",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Singapore",
+   "country": "Singapore",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "POP",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Singapore",
+   "country": "Singapore",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Ora",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Slovenia",
+   "country": "Slovenia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Stil",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Slovenia",
+   "country": "Slovenia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Bashew's",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under South Africa",
+   "country": "South Africa",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Soda King",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under South Africa",
+   "country": "South Africa",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Soraya Apple Malt",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under South Africa",
+   "country": "South Africa",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sparletta",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under South Africa",
+   "country": "South Africa",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Stoney",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under South Africa",
+   "country": "South Africa",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Da Jun Moon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under South Korea",
+   "country": "South Korea",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Hong Gee Won",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under South Korea",
+   "country": "South Korea",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "ILAC",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under South Korea",
+   "country": "South Korea",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Misofiber",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under South Korea",
+   "country": "South Korea",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sparkling",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under South Korea",
+   "country": "South Korea",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Baby Brand",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sri Lanka",
+   "country": "Sri Lanka",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "My Cream Soda",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sri Lanka",
+   "country": "Sri Lanka",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Basic One",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Suriname",
+   "country": "Suriname",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Para springs",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Suriname",
+   "country": "Suriname",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Alla tiders",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Bordsdricka",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Citronil",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Enbärsdricka",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fruktsoda",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Green cow",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Guldus",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Haiwa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "M.A.C. Black Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Merry",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Portello",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Päronsoda",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Palestine Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Rio",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sockerdricka",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Svagdricka",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Syd",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Festis",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "MER",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Smil",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Sweden",
+   "country": "Sweden",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Baerg Goggi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Switzerland",
+   "country": "Switzerland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Gazosa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Switzerland",
+   "country": "Switzerland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "M-Budget",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Switzerland",
+   "country": "Switzerland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Ramseier",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Switzerland",
+   "country": "Switzerland",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Cha Li Wang",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Taiwan",
+   "country": "Taiwan",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Cocktail de Fruit",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Togo",
+   "country": "Togo",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Singha",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Togo",
+   "country": "Togo",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Cannings",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Trinidad and Tobago",
+   "country": "Trinidad and Tobago",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mauby Fizz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Trinidad and Tobago",
+   "country": "Trinidad and Tobago",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Shandy Carib",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Trinidad and Tobago",
+   "country": "Trinidad and Tobago",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Upper 10",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Trinidad and Tobago",
+   "country": "Trinidad and Tobago",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Danao",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Tunisia",
+   "country": "Tunisia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Oh!",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Tunisia",
+   "country": "Tunisia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Freez",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Tunisia",
+   "country": "Tunisia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Raouaa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Tunisia",
+   "country": "Tunisia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Diva",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Tunisia",
+   "country": "Tunisia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Florida",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Tunisia",
+   "country": "Tunisia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Fourat",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Tunisia",
+   "country": "Tunisia",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "7 Gün",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Turkey",
+   "country": "Turkey",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Şalgam",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Turkey",
+   "country": "Turkey",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Alokozay",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Arab Emirates",
+   "country": "United Arab Emirates",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Amé",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Barley water",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Bouvrage",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Cresta",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Dandelion and burdock",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Evoid Drinks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Explosade",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Feel Good Drinks Co",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Gaza Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Ginger beer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Lurvills Delight",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Tonic water",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Twiss",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Virgin Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United Kingdom",
+   "country": "United Kingdom",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "A-Treat",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Big Ben's",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Chucker",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Egg cream",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Frostop",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Grapico",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Hyvee",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Jolly Good",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Josta",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Kola Champagne",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Loganberry",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mary Jane's Relaxing Soda",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "OK Soda",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Old Colony",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "RESQ",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Refresco Goya",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Rock Creek Soda",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Safeway Select",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sam's Choice",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sarsaparilla soda",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Steaz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Sunny Select",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Vault",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "White Rock",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "WPOP",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under United States",
+   "country": "United States",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Frescolita",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Venezuela",
+   "country": "Venezuela",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Papelón con limón",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Venezuela",
+   "country": "Venezuela",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Glup",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Venezuela",
+   "country": "Venezuela",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Xá xị",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Vietnam",
+   "country": "Vietnam",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Soda kem",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Vietnam",
+   "country": "Vietnam",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Number One Cola",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Vietnam",
+   "country": "Vietnam",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Blue mountain juices",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Zimbabwe",
+   "country": "Zimbabwe",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Carimba",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Zimbabwe",
+   "country": "Zimbabwe",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mahewu",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Zimbabwe",
+   "country": "Zimbabwe",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Mazoe",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Zimbabwe",
+   "country": "Zimbabwe",
+   "dept": "Soft drinks"
+  },
+  {
+   "n": "Quench",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_soft_drinks_by_country",
+   "says": "Listed in Wikipedia List of soft drinks by country under Zimbabwe",
+   "country": "Zimbabwe",
+   "dept": "Soft drinks"
+  }
+ ]
+}
