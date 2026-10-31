@@ -2,8 +2,188 @@
  "cat": "F3",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "region",
+   "item": "Western/Southern/Central & Eastern Europe, East Asia, Central Asia, Sub-Saharan Africa, Oceania, North America, Latin America, Middle East (via mint, refiner, COTY, printer lists)",
+   "queries": [
+    "List of mints",
+    "LBMA gold list",
+    "Coin of the Year winners",
+    "Colnect stamp printers"
+   ],
+   "found": 211,
+   "note": "covered only through global lists; no dedicated per-region searches yet"
+  },
+  {
+   "axis": "kind",
+   "item": "all 27 sections",
+   "queries": "none run",
+   "found": 0,
+   "note": "section-by-section open searches NOT done (context exhausted); see notes"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Switzerland (Ticino, Neuchâtel, Jura)",
+   "speciality": "gold and silver refining and bullion bars; five Swiss refiners on the LBMA Good Delivery gold list",
+   "src": "https://www.lbma.org.uk/good-delivery-list",
+   "brands": [
+    "Argor-Heraeus",
+    "Valcambi",
+    "PAMP",
+    "Metalor",
+    "Précinox"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "eleven LBMA-accredited gold refiners plus the Japan Mint",
+   "src": "https://www.lbma.org.uk/good-delivery-list",
+   "brands": [
+    "Tanaka Precious Metals",
+    "Mitsubishi Materials",
+    "Sumitomo Metal Mining",
+    "Japan Mint",
+    "Tokuriki Honten"
+   ]
+  },
+  {
+   "region": "China",
+   "speciality": "fifteen LBMA-accredited gold refiners; first Coin of the Year (2026) for a Shenzhen Guobao silver dragon",
+   "src": "https://www.lbma.org.uk/good-delivery-list",
+   "brands": [
+    "Shenzhen Guobao Mint",
+    "China Banknote Printing and Minting Corporation",
+    "Zijin Mining",
+    "Shandong Gold Smelting"
+   ]
+  },
+  {
+   "region": "Austria",
+   "speciality": "most Coin of the Year awards of any mint (gold, bi-metallic, silver collector coins)",
+   "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year",
+   "brands": [
+    "Austrian Mint"
+   ]
+  },
+  {
+   "region": "France",
+   "speciality": "mint art coins and medals (Coin of the Year 2026 Most Artistic and Most Innovative)",
+   "src": "https://www.numismaticnews.net/winners-announced-for-2026-coin-of-the-year",
+   "brands": [
+    "Monnaie de Paris"
+   ]
+  },
+  {
+   "region": "United Kingdom and Netherlands",
+   "speciality": "postage stamp security printing for postal administrations worldwide",
+   "src": "https://colnect.com/en/stamps/printers",
+   "brands": [
+    "Cartor",
+    "Walsall Security Printers",
+    "Waterlow & Sons",
+    "De La Rue",
+    "Joh. Enschedé",
+    "Harrison & Sons"
+   ]
+  },
+  {
+   "region": "North America",
+   "speciality": "sports and non-sports trading cards",
+   "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
+   "brands": [
+    "Topps",
+    "Upper Deck",
+    "Fleer",
+    "Donruss",
+    "Bowman",
+    "O-Pee-Chee"
+   ]
+  },
+  {
+   "region": "Japan (cards)",
+   "speciality": "character and collectible card games",
+   "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
+   "brands": [
+    "Bandai",
+    "Konami",
+    "Bushiroad"
+   ]
+  },
+  {
+   "region": "Italy",
+   "speciality": "football sticker and card albums; refiners in Arezzo",
+   "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
+   "brands": [
+    "Panini",
+    "Chimet",
+    "Italpreziosi",
+    "TCA S.p.A."
+   ]
+  },
+  {
+   "region": "Germany (Pforzheim)",
+   "speciality": "precious-metal refining",
+   "src": "https://www.lbma.org.uk/good-delivery-list",
+   "brands": [
+    "Agosi",
+    "C. Hafner",
+    "Heimerle + Meule",
+    "Heraeus"
+   ]
+  },
+  {
+   "region": "South Africa",
+   "speciality": "Krugerrand refining and minting",
+   "src": "https://www.lbma.org.uk/good-delivery-list",
+   "brands": [
+    "Rand Refinery",
+    "South African Mint"
+   ]
+  },
+  {
+   "region": "Australia",
+   "speciality": "bullion coins and refining",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "brands": [
+    "Perth Mint",
+    "Royal Australian Mint",
+    "ABC Refinery"
+   ]
+  },
+  {
+   "region": "Latin America",
+   "speciality": "state mints and refiners",
+   "src": "https://www.lbma.org.uk/good-delivery-list",
+   "brands": [
+    "Met-Mex Peñoles",
+    "AngloGold Ashanti",
+    "Casa da Moeda do Brasil"
+   ]
+  },
+  {
+   "region": "Central Asia",
+   "speciality": "state gold refiners",
+   "src": "https://www.lbma.org.uk/good-delivery-list",
+   "brands": [
+    "Navoi Mining and Metallurgical Combinat",
+    "Almalyk Mining and Metallurgical Complex",
+    "Kyrgyzaltyn",
+    "Tau-Ken Altyn",
+    "Kazzinc"
+   ]
+  },
+  {
+   "region": "Turkey",
+   "speciality": "Istanbul gold refining",
+   "src": "https://www.lbma.org.uk/good-delivery-list",
+   "brands": [
+    "Istanbul Gold Refinery",
+    "Nadir Metal Rafineri"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/List_of_mints",
@@ -64,6 +244,26 @@
    "new_names": 16,
    "status": "done",
    "note": "11 already known; Nintendo/Square Enix/Tomy/Capstan/CardsHQ/TCG Machines left out as not card-led"
+  },
+  {
+   "url": "https://colnect.com/en/stamps/printers",
+   "title": "Colnect stamp printers list",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1482,
+   "new_names": 57,
+   "status": "done",
+   "note": "catalog count list; took printers with >=1000 stamps; proves existence only (listed)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "title": "List of bullion dealers - Wikipedia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 26,
+   "new_names": 12,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -1217,7 +1417,8 @@
    "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year",
    "says": "COTY winner",
    "country": "",
-   "dept": "mint"
+   "dept": "mint",
+   "already": false
   },
   {
    "n": "Monnaie de Paris",
@@ -1225,7 +1426,8 @@
    "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year",
    "says": "COTY winner",
    "country": "",
-   "dept": "mint"
+   "dept": "mint",
+   "already": false
   },
   {
    "n": "Royal Canadian Mint",
@@ -1233,7 +1435,8 @@
    "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year",
    "says": "COTY winner",
    "country": "",
-   "dept": "mint"
+   "dept": "mint",
+   "already": false
   },
   {
    "n": "Royal Australian Mint",
@@ -1241,7 +1444,8 @@
    "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year",
    "says": "COTY winner",
    "country": "",
-   "dept": "mint"
+   "dept": "mint",
+   "already": false
   },
   {
    "n": "National Bank of Ukraine",
@@ -1249,7 +1453,8 @@
    "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year",
    "says": "COTY winner",
    "country": "",
-   "dept": "mint"
+   "dept": "mint",
+   "already": false
   },
   {
    "n": "Swissmint",
@@ -1257,7 +1462,8 @@
    "src": "https://en.wikipedia.org/wiki/Coin_of_the_Year",
    "says": "COTY winner",
    "country": "",
-   "dept": "mint"
+   "dept": "mint",
+   "already": false
   },
   {
    "n": "Shenzhen Guobao Mint",
@@ -1265,7 +1471,8 @@
    "src": "https://www.numismaticnews.net/winners-announced-for-2026-coin-of-the-year",
    "says": "2026 Coin of the Year winner (Chinese Dragon 10 yuan)",
    "country": "China",
-   "dept": "mint"
+   "dept": "mint",
+   "already": false
   },
   {
    "n": "Alderac Entertainment Group",
@@ -1273,7 +1480,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
   },
   {
    "n": "Bushiroad",
@@ -1281,7 +1489,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
   },
   {
    "n": "Chaosium",
@@ -1289,7 +1498,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
   },
   {
    "n": "Cryptozoic Entertainment",
@@ -1297,7 +1507,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
   },
   {
    "n": "Decipher",
@@ -1305,7 +1516,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
   },
   {
    "n": "Goodwin & Company",
@@ -1313,23 +1525,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
-  },
-  {
-   "n": "Leaf Trading Cards",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
-   "says": "Wikipedia Category:Trading card companies",
-   "country": "",
-   "dept": "trading cards"
-  },
-  {
-   "n": "Merlin Publishing",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
-   "says": "Wikipedia Category:Trading card companies",
-   "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
   },
   {
    "n": "Pacific Trading Cards",
@@ -1337,15 +1534,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
-  },
-  {
-   "n": "Pinnacle Brands",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
-   "says": "Wikipedia Category:Trading card companies",
-   "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
   },
   {
    "n": "Pro Set",
@@ -1353,15 +1543,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
-  },
-  {
-   "n": "Professional Sports Authenticator",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
-   "says": "Wikipedia Category:Trading card companies",
-   "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
   },
   {
    "n": "Renegade Game Studios",
@@ -1369,7 +1552,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
   },
   {
    "n": "Scanlens",
@@ -1377,7 +1561,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
   },
   {
    "n": "SkyBox International",
@@ -1385,7 +1570,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
   },
   {
    "n": "Tristar Productions",
@@ -1393,7 +1579,600 @@
    "src": "https://en.wikipedia.org/wiki/Category:Trading_card_companies",
    "says": "Wikipedia Category:Trading card companies",
    "country": "",
-   "dept": "trading cards"
+   "dept": "trading cards",
+   "already": false
+  },
+  {
+   "n": "Joh. Enschedé",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Netherlands",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Cartor",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "UK/France",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Walsall Security Printers",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "UK",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "International Security Printers",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "UK",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Harrison & Sons",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "UK",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Bradbury, Wilkinson & Co.",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "UK",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "House of Questa",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "UK",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "John Waddington Security Print",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "UK",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Format International Security Printers",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "UK",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Mayfair International Security Printers",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "UK",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Bundesdruckerei",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Germany",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Reichsdruckerei",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Germany",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Giesecke & Devrient",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Germany",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Bagel Security-Print",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Germany",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Berliner Staatsdruckerei",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Germany",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Graphische Werkstätten Leipzig",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Germany",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Bureau of Engraving and Printing",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "USA",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Ashton-Potter",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Canada/USA",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Canadian Bank Note Company",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Canada",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "British American Bank Note Company",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Canada",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Lowe-Martin Group",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Canada",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Leigh-Mardon",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Australia",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Southern Colour Print",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "New Zealand",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Delrieu",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "France",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Hélio-Vaugirard",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "France",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Institut de Gravure et d'Impression de Papiers-Valeurs",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "France",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Atelier de Fabrication des Timbres-Poste",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "France",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Imprimerie des Timbres-Poste",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "France",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Atelier du Timbre Malines",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Belgium",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Atelier Général du Timbre",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Belgium",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "bpost Philately & Stamps Printing",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Belgium",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Stamp Printing Office of Royal Swedish Post",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Sweden",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Bank of Finland Security Printing House",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Finland",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Emil Moestue",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Norway",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Poštovní tiskárna cenin",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Czech Republic",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Polska Wytwórnia Papierów Wartościowych",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Poland",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Zrinski",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Croatia",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Tiskarna Forum / FORUM Novi Sad",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Serbia",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Baltic Banknote",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Latvia",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "AS Vaba Maa",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Estonia",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Government Printing Bureau Tokyo",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Japan",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Security Printing Press Nashik",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "India",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Security Printing Press Hyderabad",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "India",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Percetakan Nasional Malaysia",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Malaysia",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Thai British Security Printing",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Thailand",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Pakistan Security Printing Corporation",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Pakistan",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Oriental Press Bahrain",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Bahrain",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Government Printer Pretoria",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "South Africa",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Carvajal",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Colombia",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Imprenta Nacional Montevideo",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Uruguay",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Thomas Greg & Sons",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Peru",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Litografia Maia",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Portugal",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Rosenbaum Bros.",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Austria",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Tunisia Post Printing House",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Tunisia",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Casa de Moneda de Chile",
+   "layer": "cultural",
+   "src": "https://colnect.com/en/stamps/printers",
+   "says": "Colnect stamp catalog printers list (over 1,000 stamps catalogued); existence only",
+   "country": "Chile",
+   "dept": "stamp printer",
+   "already": false
+  },
+  {
+   "n": "Chards Coin and Bullion",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "says": "Wikipedia List of bullion dealers (notable companies)",
+   "country": "United Kingdom",
+   "dept": "bullion",
+   "role": "seller",
+   "already": false
+  },
+  {
+   "n": "DGSE Companies",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "says": "Wikipedia List of bullion dealers (notable companies)",
+   "country": "United States",
+   "dept": "bullion",
+   "role": "seller",
+   "already": false
+  },
+  {
+   "n": "Emirates Gold",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "says": "Wikipedia List of bullion dealers (notable companies)",
+   "country": "United Arab Emirates",
+   "dept": "bullion",
+   "already": false
+  },
+  {
+   "n": "Garfield Refining",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "says": "Wikipedia List of bullion dealers (notable companies)",
+   "country": "United States",
+   "dept": "bullion",
+   "already": false
+  },
+  {
+   "n": "Goldline International",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "says": "Wikipedia List of bullion dealers (notable companies)",
+   "country": "United States",
+   "dept": "bullion",
+   "role": "seller",
+   "already": false
+  },
+  {
+   "n": "Johnson Matthey",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "says": "Wikipedia List of bullion dealers (notable companies)",
+   "country": "United Kingdom",
+   "dept": "bullion",
+   "already": false
+  },
+  {
+   "n": "Monex Precious Metals",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "says": "Wikipedia List of bullion dealers (notable companies)",
+   "country": "United States",
+   "dept": "bullion",
+   "role": "seller",
+   "already": false
+  },
+  {
+   "n": "Pallion Group",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "says": "Wikipedia List of bullion dealers (notable companies)",
+   "country": "Australia",
+   "dept": "bullion",
+   "role": "seller",
+   "already": false
+  },
+  {
+   "n": "Sharps Pixley",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "says": "Wikipedia List of bullion dealers (notable companies)",
+   "country": "United Kingdom",
+   "dept": "bullion",
+   "role": "seller",
+   "already": false
+  },
+  {
+   "n": "Texas Precious Metals",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_bullion_dealers",
+   "says": "Wikipedia List of bullion dealers (notable companies)",
+   "country": "United States",
+   "dept": "bullion",
+   "role": "seller",
+   "already": false
   }
  ]
 }
