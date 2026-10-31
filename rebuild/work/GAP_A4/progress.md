@@ -1,2 +1,3 @@
 step0: backups done, inspected
 step1: owners fetched Herschel(Eurazeo Brands minority 2019, ACG, HOOPP; founders Cormack), Mulberry(Challice 56.4%, Frasers 37%; England 1971), Globe-Trotter(Oakley Capital majority 4 Mar 2020 from Takubo), Polene(L Catterton minority Aug 2024; founders Mothay 2016), Away(privately held, no owner; investors list). pending: Monos, lines (Fendi,LV,Hermes,KateSpade,Telfar,Persol,WarbyParker,Briggs), countries, then data edit
+step2: Fendi lines from luxe.digital (Baguette 1997, Peekaboo 2008, First 2021, Fendigraphy 2022, Sunshine 2020, Origami 2023, By The Way 2014, C'Mon 2023, Mon Tresor 2018, Kan I 2017); Monos Canada(Vancouver) 2018 Series A Venn Growth Partners Jan2022 $10m, Series B Sep2022 $30m
