@@ -1,0 +1,991 @@
+{
+ "cat": "A1",
+ "status": "partial",
+ "brand_led": true,
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_Kingdom",
+   "title": "Wikipedia Category:Clothing brands of the United Kingdom (raw, 139 pages)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 139,
+   "status": "partial",
+   "note": "raw-verified; removed Haerfest, E. Thomas (High fashion page, unverified raw); pending elsewhere: Duchamp, Rat & Boa",
+   "new_names": 6
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "title": "Wikipedia Category:Clothing brands of the United States (both pages)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 365,
+   "status": "done",
+   "note": "raw-verified both pages; ~270 known; ~10 pending; retailers/non-apparel skipped",
+   "new_names": 26
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "title": "Wikipedia Category:Clothing brands (top level)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 175,
+   "status": "partial",
+   "note": "raw-verified (Parallel full_content); subcategories (by country 36, by type 9) not walked yet; pending elsewhere: Ken Done, House of Harlow, Lover, OGGI, Polly Flinders, John Weitz, Duchamp",
+   "new_names": 40
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "title": "LVMH Prize winners and finalists 2014-2026",
+   "kind": "award",
+   "years": "2014-2026",
+   "names_on_page": 62,
+   "status": "done",
+   "note": "re-fetched raw via Parallel; removed 3 names (Julie Kegels, LII, Yoshita 1967) that WebFetch summary invented for 2026; page ends at 2025",
+   "new_names": 21
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_France",
+   "title": "Wikipedia Category:Clothing brands of France / Italy / Japan (raw)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 184,
+   "status": "partial",
+   "note": "France 50, Italy 96, Japan 38 raw-verified (URLs for Italy and Japan are Category:Clothing_brands_of_Italy / _Japan); 175 known; 2 pending in Depop (La Redoute, Maurizio Baldassari, Versus). Other 33 country categories not walked",
+   "new_names": 2
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_Italy",
+   "title": "Wikipedia Category:Clothing brands of Italy (raw)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 96,
+   "status": "done",
+   "note": "raw-verified",
+   "new_names": 3
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_Japan",
+   "title": "Wikipedia Category:Clothing brands of Japan (raw)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 38,
+   "new_names": 0,
+   "status": "done",
+   "note": "all known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Savile_Row_Bespoke_Association_members",
+   "title": "SRBA member category + British suit makers (raw) + savilerowbespoke.com members",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 27,
+   "new_names": 0,
+   "status": "done",
+   "note": "British suit makers raw-verified; all known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:British_royal_warrant_holders",
+   "title": "Royal Warrant holders (Wikipedia)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 228,
+   "new_names": 0,
+   "status": "partial",
+   "note": "read only via WebFetch summary, so candidates (Barrow Hepburn & Gale, Calders & Grandidge, Corgi Socks, House of Benney, Hampton & Sons, Howard & Sons) NOT recorded; needs raw re-fetch of both pages (pagefrom=Tabasco+sauce)"
+  },
+  {
+   "url": "https://www.woolmarkprize.com/about/",
+   "title": "International Woolmark Prize alumni",
+   "kind": "award",
+   "years": "1953-2025",
+   "names_on_page": 12,
+   "new_names": 0,
+   "status": "partial",
+   "note": "WebFetch summary only; candidates Edward Crutchley, Lagos Space Programme, Suket Dhir, Teatum Jones, Bodice, M.Patmos, Colovos, ACT N1, Diotima not recorded pending raw fetch"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Kukhareva London",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_Kingdom",
+   "says": "listed in Wikipedia clothing-brand category",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Pour Moi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_Kingdom",
+   "says": "listed in Wikipedia clothing-brand category",
+   "country": "",
+   "dept": "lingerie/swimwear",
+   "already": false
+  },
+  {
+   "n": "Splash About International",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_Kingdom",
+   "says": "listed in Wikipedia clothing-brand category",
+   "country": "",
+   "dept": "children's swimwear",
+   "already": false
+  },
+  {
+   "n": "Swanky Modes",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_Kingdom",
+   "says": "listed in Wikipedia clothing-brand category",
+   "country": "",
+   "dept": "dresses",
+   "already": false
+  },
+  {
+   "n": "Tata Naka",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_Kingdom",
+   "says": "listed in Wikipedia clothing-brand category",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Tick-a-Tee",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_Kingdom",
+   "says": "listed in Wikipedia clothing-brand category",
+   "country": "",
+   "dept": "children's clothing",
+   "already": false
+  },
+  {
+   "n": "Anchor Blue",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "jeans",
+   "already": false
+  },
+  {
+   "n": "Atticus Clothing",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "streetwear",
+   "already": false
+  },
+  {
+   "n": "Big Dog",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "casualwear",
+   "already": false
+  },
+  {
+   "n": "Big Johnson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "t-shirts",
+   "already": false
+  },
+  {
+   "n": "Blanc & Eclare",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Carlisle Collection",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Dollie & Me",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "matching clothing",
+   "already": false
+  },
+  {
+   "n": "E. Y. Wada",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "EMEL Fashion",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "C.F. Hathaway Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "shirts",
+   "already": false
+  },
+  {
+   "n": "Jovani Fashion",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "eveningwear",
+   "already": false
+  },
+  {
+   "n": "Jovovich-Hawk",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Level 27 Clothing",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "streetwear",
+   "already": false
+  },
+  {
+   "n": "Love 21",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Ruehl No.925",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "casual",
+   "already": false
+  },
+  {
+   "n": "Sasson Jeans",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "jeans",
+   "already": false
+  },
+  {
+   "n": "Solumbra",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "sun-protective clothing",
+   "already": false
+  },
+  {
+   "n": "Timo Weiland",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Vedette Shapewear",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "shapewear",
+   "already": false
+  },
+  {
+   "n": "Vivet",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "activewear",
+   "already": false
+  },
+  {
+   "n": "Syrn",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Suay Sew Shop",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Undrest",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Karolina Zmarlak",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Stuff by Hilary Duff",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "United States Polo Association",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_the_United_States",
+   "says": "listed in Wikipedia Category:Clothing brands of the United States",
+   "country": "",
+   "dept": "polo clothing",
+   "already": false
+  },
+  {
+   "n": "Acqua Limone",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Armoire Officielle",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Bogart Man",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "menswear",
+   "already": false
+  },
+  {
+   "n": "Callisti",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Carbrini Sportswear",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "sportswear",
+   "already": false
+  },
+  {
+   "n": "Cassidi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Castro",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "Israel fashion",
+   "already": false
+  },
+  {
+   "n": "Claudia Strater",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Croc O' Shirt",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "polo",
+   "already": false
+  },
+  {
+   "n": "Crocodile International",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "menswear",
+   "already": false
+  },
+  {
+   "n": "CVLT Nation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "streetwear",
+   "already": false
+  },
+  {
+   "n": "Design For All",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Dolfin Swimwear",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "swimwear",
+   "already": false
+  },
+  {
+   "n": "Dynamite Clothing",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Gebrüder Stitch",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Go International",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Gunhild",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Han Kjøbenhavn",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "menswear",
+   "already": false
+  },
+  {
+   "n": "Antthony Mark Hankins",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Jenny Hellström",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Anne T. Hill",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Honigman",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Kidiliz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "children's clothing",
+   "already": false
+  },
+  {
+   "n": "André Kim",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Elaine Kim",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Loyandford",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Mavi Jeans",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "Turkey",
+   "country": "",
+   "dept": "jeans",
+   "already": false
+  },
+  {
+   "n": "MCS",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Miuniku",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Monte Carlo Fashions",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "India",
+   "country": "",
+   "dept": "knitwear",
+   "already": false
+  },
+  {
+   "n": "Moshions",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Rêve En Vert",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "sustainable fashion",
+   "already": false
+  },
+  {
+   "n": "Saint Tropez",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Sakis Rouvas Collection",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "menswear",
+   "already": false
+  },
+  {
+   "n": "Sandro Paris",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "France",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Six Deuce",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Sophie Paris Vietnam",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "SRTX",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Tribute Brand",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "listed in Wikipedia Category:Clothing brands",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "White Stuff Clothing",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands",
+   "says": "UK",
+   "country": "",
+   "dept": "casualwear",
+   "already": false
+  },
+  {
+   "n": "Thomas Tait",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2014 winner",
+   "country": "Canada",
+   "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Matty Bovan",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2015 Graduates Award",
+   "country": "UK",
+   "dept": "knitwear/womenswear",
+   "already": false
+  },
+  {
+   "n": "Vejas",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2016 Special/Karl Lagerfeld Prize",
+   "country": "Lithuania",
+   "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Kozaburo",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2017 Special/Karl Lagerfeld Prize",
+   "country": "Japan",
+   "dept": "menswear",
+   "already": false
+  },
+  {
+   "n": "Alice Paris",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2019 Graduates Award",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Tomo Koizumi",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2020 finalist",
+   "country": "Japan",
+   "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Sindiso Khumalo",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2020 finalist",
+   "country": "South Africa",
+   "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Lukhanyo Mdingi",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2021 Special/Karl Lagerfeld Prize",
+   "country": "South Africa",
+   "dept": "knitwear/menswear",
+   "already": false
+  },
+  {
+   "n": "Adam Kost",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2021 Graduates Award",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Eric Starc",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2021 Graduates Award",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Setchu",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2023 winner",
+   "country": "Japan",
+   "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Standing Ground",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2024 Savoir-Faire Prize",
+   "country": "UK",
+   "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Steve O Smith",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2025 Karl Lagerfeld Prize",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Torishéju",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2025 Savoir-Faire Prize",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Scylia Chevaux",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2018 Graduates Award",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Marine Gilles",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2024 Graduates Award",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Lovro Lukić",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2024 Graduates Award",
+   "country": "Croatia",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Mickaël Nana",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2024 Graduates Award",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Luc Albert",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2023 Graduates Award",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Justine Janot",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2023 Graduates Award",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Nikki Park",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/LVMH_Prize",
+   "says": "LVMH Prize 2023 Graduates Award",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Romain Kremer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_France",
+   "says": "listed in Wikipedia Category:Clothing brands of France",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Marithé et François Girbaud",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_France",
+   "says": "listed in Wikipedia Category:Clothing brands of France",
+   "country": "",
+   "dept": "jeans/fashion",
+   "already": false
+  },
+  {
+   "n": "Isabel Garcia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_Italy",
+   "says": "listed in Wikipedia Category:Clothing brands of Italy",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Michela Ferriero",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_Italy",
+   "says": "listed in Wikipedia Category:Clothing brands of Italy",
+   "country": "",
+   "dept": "fashion",
+   "already": false
+  },
+  {
+   "n": "Oniverse",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_Italy",
+   "says": "listed in Wikipedia Category:Clothing brands of Italy",
+   "country": "",
+   "dept": "knitwear",
+   "already": false
+  }
+ ]
+}

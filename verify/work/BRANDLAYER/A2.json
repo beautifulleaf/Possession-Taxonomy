@@ -1,0 +1,415 @@
+{
+ "cat": "A2",
+ "status": "partial",
+ "brand_led": true,
+ "sources": [
+  {
+   "url": "https://www.royalwarrant.org/sites/default/files/2024-05/List%20of%20Royal%20Warrants%20May%202024_1.pdf",
+   "title": "Royal Warrant holders May 2024 (HM The King)",
+   "kind": "heritage",
+   "years": "2024",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "done",
+   "note": "footwear holders: Crockett and Jones, John Lobb, R. E. Tricker, J. Barbour (footwear) ; 3 already known (Tricker's already in register)"
+  },
+  {
+   "url": "https://www.mimit.gov.it/images/stories/documenti/allegati/Marchi_Storici_Elenco_2026.pdf",
+   "title": "Registro marchi storici di interesse nazionale, elenco 2026 (MIMIT)",
+   "kind": "heritage",
+   "years": "2020-2026",
+   "names_on_page": 7,
+   "new_names": 2,
+   "status": "done",
+   "note": "footwear/shoe-care marks: Moreschi, Fabi, Sergio Rossi, Doucal's, Scarpa, Scik, Aquila lucido grasso, FILA creme calzature; several known"
+  },
+  {
+   "url": "https://de.wikipedia.org/wiki/Kategorie:Schuhmarke",
+   "title": "de.wikipedia Kategorie:Schuhmarke",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 59,
+   "new_names": 9,
+   "status": "done",
+   "note": "others in category (Bongo, Unihoc, Ultrasonic, Otter etc.) excluded as non-footwear or ambiguous | re-read from raw Parallel full_content"
+  },
+  {
+   "url": "https://fr.wikipedia.org/wiki/Catégorie:Marque_de_chaussure",
+   "title": "fr.wikipedia Catégorie:Marque de chaussure",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 51,
+   "new_names": 7,
+   "status": "done",
+   "note": "Maison Corthay already known | re-read from raw Parallel full_content"
+  },
+  {
+   "url": "https://es.wikipedia.org/wiki/Categoría:Empresas_de_calzado",
+   "title": "es.wikipedia Categoría:Empresas de calzado",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 67,
+   "new_names": 2,
+   "status": "done",
+   "note": "only clearly footwear-brand pages taken | re-read from raw Parallel full_content"
+  },
+  {
+   "url": "https://it.wikipedia.org/wiki/Categoria:Aziende_italiane_di_calzature",
+   "title": "it.wikipedia Categoria:Aziende italiane di calzature",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 38,
+   "new_names": 4,
+   "status": "done",
+   "note": "Fratelli Soldini, Falc, Simod pending in retail lists | re-read from raw Parallel full_content"
+  },
+  {
+   "url": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "title": "ja.wikipedia Category:靴のブランド",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 110,
+   "new_names": 15,
+   "status": "done",
+   "note": "names romanised from katakana/kanji by me; verify spelling | re-read from raw Parallel full_content"
+  }
+ ],
+ "brands": [
+  {
+   "n": "Moreschi",
+   "layer": "cultural",
+   "src": "https://www.mimit.gov.it/images/stories/documenti/allegati/Marchi_Storici_Elenco_2026.pdf",
+   "says": "Registered Italian historic mark (2020), figurative mark of two shoes, Moreschi S.p.a. Vigevano",
+   "country": "Italy",
+   "dept": "men's leather shoes"
+  },
+  {
+   "n": "Scik",
+   "layer": "cultural",
+   "src": "https://www.mimit.gov.it/images/stories/documenti/allegati/Marchi_Storici_Elenco_2026.pdf",
+   "says": "Registered Italian historic mark (2022) 'Scik lucido al silicone', product of Ebano",
+   "country": "Italy",
+   "dept": "shoe polish"
+  },
+  {
+   "n": "Jomos",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Schuhmarke",
+   "says": "listed in de.wikipedia Kategorie:Schuhmarke",
+   "country": "Germany",
+   "dept": "shoes"
+  },
+  {
+   "n": "Kastinger",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Schuhmarke",
+   "says": "listed in de.wikipedia Kategorie:Schuhmarke",
+   "country": "Austria",
+   "dept": "shoes"
+  },
+  {
+   "n": "Legero",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Schuhmarke",
+   "says": "listed in de.wikipedia Kategorie:Schuhmarke",
+   "country": "Austria",
+   "dept": "shoes"
+  },
+  {
+   "n": "Salamander",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Schuhmarke",
+   "says": "listed in de.wikipedia Kategorie:Schuhmarke",
+   "country": "Germany",
+   "dept": "shoes"
+  },
+  {
+   "n": "Hellstern & Sons",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Schuhmarke",
+   "says": "listed in de.wikipedia Kategorie:Schuhmarke",
+   "country": "Germany",
+   "dept": "shoes"
+  },
+  {
+   "n": "Inkaras",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Schuhmarke",
+   "says": "listed in de.wikipedia Kategorie:Schuhmarke",
+   "country": "Lithuania",
+   "dept": "shoes"
+  },
+  {
+   "n": "Mekap",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Schuhmarke",
+   "says": "listed in de.wikipedia Kategorie:Schuhmarke",
+   "country": "Hungary",
+   "dept": "shoes"
+  },
+  {
+   "n": "Sanjo",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Schuhmarke",
+   "says": "listed in de.wikipedia Kategorie:Schuhmarke",
+   "country": "Japan",
+   "dept": "school/sports shoes"
+  },
+  {
+   "n": "Masai Barefoot Technology",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Schuhmarke",
+   "says": "listed in de.wikipedia Kategorie:Schuhmarke",
+   "country": "Switzerland",
+   "dept": "rocker-sole shoes"
+  },
+  {
+   "n": "Startas",
+   "layer": "cultural",
+   "src": "https://de.wikipedia.org/wiki/Kategorie:Schuhmarke",
+   "says": "listed in de.wikipedia Kategorie:Schuhmarke",
+   "country": "Lithuania/Russia",
+   "dept": "shoes"
+  },
+  {
+   "n": "André",
+   "layer": "cultural",
+   "src": "https://fr.wikipedia.org/wiki/Catégorie:Marque_de_chaussure",
+   "says": "listed in fr.wikipedia Catégorie:Marque de chaussure",
+   "country": "France",
+   "dept": "shoes (retail brand)"
+  },
+  {
+   "n": "Ducerf-Scavini",
+   "layer": "cultural",
+   "src": "https://fr.wikipedia.org/wiki/Catégorie:Marque_de_chaussure",
+   "says": "listed in fr.wikipedia Catégorie:Marque de chaussure",
+   "country": "France",
+   "dept": "shoes"
+  },
+  {
+   "n": "Éram",
+   "layer": "cultural",
+   "src": "https://fr.wikipedia.org/wiki/Catégorie:Marque_de_chaussure",
+   "says": "listed in fr.wikipedia Catégorie:Marque de chaussure",
+   "country": "France",
+   "dept": "shoes"
+  },
+  {
+   "n": "La Chausseria",
+   "layer": "cultural",
+   "src": "https://fr.wikipedia.org/wiki/Catégorie:Marque_de_chaussure",
+   "says": "listed in fr.wikipedia Catégorie:Marque de chaussure",
+   "country": "France",
+   "dept": "shoes"
+  },
+  {
+   "n": "Loding",
+   "layer": "cultural",
+   "src": "https://fr.wikipedia.org/wiki/Catégorie:Marque_de_chaussure",
+   "says": "listed in fr.wikipedia Catégorie:Marque de chaussure",
+   "country": "France",
+   "dept": "shoes"
+  },
+  {
+   "n": "Régence",
+   "layer": "cultural",
+   "src": "https://fr.wikipedia.org/wiki/Catégorie:Marque_de_chaussure",
+   "says": "listed in fr.wikipedia Catégorie:Marque de chaussure",
+   "country": "France",
+   "dept": "shoes"
+  },
+  {
+   "n": "Walter Steiger",
+   "layer": "cultural",
+   "src": "https://fr.wikipedia.org/wiki/Catégorie:Marque_de_chaussure",
+   "says": "listed in fr.wikipedia Catégorie:Marque de chaussure",
+   "country": "Switzerland",
+   "dept": "luxury shoes"
+  },
+  {
+   "n": "Alpargatas",
+   "layer": "cultural",
+   "src": "https://es.wikipedia.org/wiki/Categoría:Empresas_de_calzado",
+   "says": "es.wikipedia Categoría:Empresas de calzado subcategory 'Alpargatas (empresa)'",
+   "country": "",
+   "dept": "espadrilles/footwear"
+  },
+  {
+   "n": "TBS",
+   "layer": "cultural",
+   "src": "https://es.wikipedia.org/wiki/Categoría:Empresas_de_calzado",
+   "says": "listed in es.wikipedia Categoría:Empresas de calzado",
+   "country": "",
+   "dept": "footwear"
+  },
+  {
+   "n": "Calzaturificio Giuseppe Borri",
+   "layer": "cultural",
+   "src": "https://it.wikipedia.org/wiki/Categoria:Aziende_italiane_di_calzature",
+   "says": "listed in it.wikipedia Categoria:Aziende italiane di calzature",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "De Fonseca",
+   "layer": "cultural",
+   "src": "https://it.wikipedia.org/wiki/Categoria:Aziende_italiane_di_calzature",
+   "says": "listed in it.wikipedia Categoria:Aziende italiane di calzature",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "El Vaquero",
+   "layer": "cultural",
+   "src": "https://it.wikipedia.org/wiki/Categoria:Aziende_italiane_di_calzature",
+   "says": "listed in it.wikipedia Categoria:Aziende italiane di calzature",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Testoni",
+   "layer": "cultural",
+   "src": "https://it.wikipedia.org/wiki/Categoria:Aziende_italiane_di_calzature",
+   "says": "listed in it.wikipedia Categoria:Aziende italiane di calzature",
+   "country": "",
+   "dept": "luxury leather shoes"
+  },
+  {
+   "n": "Aoki Anzenkutsu",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: 青木安全靴 (Latin name romanised by agent)",
+   "country": "",
+   "dept": "safety shoes"
+  },
+  {
+   "n": "Achilles",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: アキレス (化学工業) (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Otsuka Shoe",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: 大塚製靴 (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Ginza Yoshinoya",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: 銀座ヨシノヤ (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Standard Shoes",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: スタンダード靴 (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Madras",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: マドラス (企業) (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Regal Corporation",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: リーガルコーポレーション (Latin name romanised by agent)",
+   "country": "",
+   "dept": "leather shoes"
+  },
+  {
+   "n": "Rigetta",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: リゲッタ (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Sekaicho",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: 世界長 (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Harta",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: ハルタ (企業) (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Komariyo",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: コマリヨー (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Diana",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: ダイアナ (靴販売業者) (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Gaerne",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: ガエルネ (Latin name romanised by agent)",
+   "country": "",
+   "dept": "cycling/moto boots"
+  },
+  {
+   "n": "Whites Boots",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: ホワイツブーツ (Latin name romanised by agent)",
+   "country": "",
+   "dept": "work boots"
+  },
+  {
+   "n": "Heinrich Dinkelacker",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: ハインリッヒディンケラッカー (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Bonora",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: ボノーラ (Latin name romanised by agent)",
+   "country": "",
+   "dept": "shoes"
+  },
+  {
+   "n": "Spotbilt",
+   "layer": "cultural",
+   "src": "https://ja.wikipedia.org/wiki/Category:靴のブランド",
+   "says": "listed in ja.wikipedia Category:靴のブランド (靴のブランド) ; page link text: スポットビルト (Latin name romanised by agent)",
+   "country": "",
+   "dept": "baseball cleats"
+  }
+ ]
+}

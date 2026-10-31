@@ -6,3 +6,9 @@ verify/work/*/*
 !verify/work/*/done.tsv
 __pycache__/
 *.pyc
+
+# brand-layer outputs are kept (owner-visible results)
+!verify/work/BRANDLAYER/
+!verify/work/BRANDLAYER/*.json
+!verify/work/BRANDLAYER/*.md
+!verify/work/BRANDLAYER/ORDER.txt
