@@ -21,4 +21,4 @@ Part file: rebuild/out/G1_parts/BOATSAIR.json (324 KB; validator OK, 92 kinds, 6
 8 new register entries (Jeanneau, Groupe Beneteau, Brunswick, DJI, Johnson Outdoors, Azimut Benetti, CAIGA, US Financial). 14 brand_updates with owner, tier and ownership year where a fetched page gives it (Sunseeker 2024, Jeanneau 1995, Boston Whaler 1996, Sea Ray 1986, Cirrus 2011, Mooney 2020, Old Town 2004).
 
 ## Not sourced
-Meguiar's ownership by 3M (stated only in the existing register; the Wikipedia Meguiar's URL returned the 3M page). No market-share figures for boats or aircraft. Role badges (origin, landmark) were not added except DJI Mavic; no fetched page named a first or best-selling entry in these kinds.
+Meguiar's ownership by 3M (stated only in the existing register; the Wikipedia Meguiar's URL returned the 3M page). No market-share figures for boats or aircraft. No role badges (origin, landmark) were added; no fetched page named a first or best-selling entry in these kinds.
