@@ -1,25 +1,19 @@
 # GAP_H4 report (Fragrance)
 
-validate --v3 rebuild/out/H4.json: OK. Backups in rebuild/work/GAP_H4/bak/; scripts apply.py, apply2.py, apply3.py; URLs in sources.tsv. About 58 fetches, no Firecrawl.
+validate --v3: OK. Backups and scripts in rebuild/work/GAP_H4/; URLs in sources.tsv and r2hits.tsv. No Firecrawl.
 
-## Closed
-- **Loose models:** none remain (the earlier V4 pass converted or removed them all); nothing to do.
-- **Family not stated (biggest gap): 468 -> 444.** 24 perfumes moved because a fetched page names the family.
-  - Floral: Estée, Blue Grass, Norell, Private Collection, Charlie, White Shoulders, Chanel No. 22, Anaïs Anaïs, Eden.
-  - Chypre: Halston, Polo, Fidji (French Wikipedia).
-  - Amber: Oscar, Classique, Ambre Antique and L'Origan (French Wikipedia), Old Spice, LouLou.
-  - Gourmand: A*Men, Lolita Lempicka, Euphoria (Wikipedia Gourmand page).
-  - Fruity: Fantasy. Fougère: Chaz. Aquatic: Escape (Calvin Klein page).
-  - Each `d` now opens with the family words and `s` is the page that states them.
-- **Coverage lines** added to Collectible perfume bottle, Bulb atomiser, Absolute & CO2 extract and Animalic & resin material. The Alcohol-based perfume line now reads "Covers 444 of the 611".
-- **Sections (step 5):** the 13 family kinds now have `g` (launch period) and `xg`, entries sorted by period, year, name.
+## Round 1 (about 58 fetches)
+Loose models: none remain. Family not stated 468 -> 444 (24 placed from Wikipedia API extracts, snippets and French Wikipedia). Coverage lines added to four kinds without one; sections (`g`, `xg`) added to the 13 family kinds.
 
-## Method and what it showed
-MediaWiki API: category listing, 20-title intro extracts, existence checks (50 titles per call), search snippets by family term; French Wikipedia; house pages (Caron, Rochas, Givenchy, Kenzo, Burberry, Versace, Ralph Lauren, Victoria's Secret, Elizabeth Arden, Mugler, Tom Ford, Calvin Klein, Cacharel). English Wikipedia has an article for only about one in ten of these perfumes, and house pages almost never state families. The summariser also gave no verbatim text, so only statements it quoted were used.
+## Round 2 (about 100 fetches)
+validate --v3 rebuild/out/H4.json: OK. Backup before round 2: rebuild/work/GAP_H4/bak/H4_before_r2.json; hits in r2hits.tsv; script apply_r2.py.
 
-## Remains (searched)
-- **444 perfumes without a fetched family.** Searches: "<family> fragrance released" variants (floral, chypre, oriental, woody, fougère, aquatic, green, fruity, leather, musk), fr.wikipedia "famille olfactive", Bois de Jasmin decade series.
-- **Lead for a later pass:** Perfume Intelligence (perfumeintelligence.co.uk/library, A-Z pages) states a family for most perfumes ("a fresh floral white flower bouquet"). Pages hold about 50 names each and chapters run to many pages, so it needs about 100 fetches; not possible in this budget.
-- Unplaced because a page gave only part of the name or a paraphrase: White Diamonds (floral, paraphrase only), The One (page covers both versions), Liberté (a Cacharel perfume not in the list).
-- Owners not stated for Fabergé, Grès, Guy Laroche, Dana, Piguet, Houbigant and celebrity lines: not retried.
-- Jean Paul Gaultier brand page: 404, no other page tried.
+**Family not stated: 444 -> 373.** 71 more perfumes moved, each with the Perfume Intelligence page that states the family in `s` and the wording in `d`.
+- Method: A-Z pages hold about 50 names each and cost about 3 fetches per page for 1 to 3 hits. Perfume Intelligence house pages (/library/perfume/<letter>/houses/<House>.htm, found by site-restricted search) list a whole house with families and gave most hits: 26 houses read, from Rochas and YSL to Kenzo and Max Factor.
+- Mapping rule: the page's last family noun decides (floral-oriental goes to Amber, woody chypre to Chypre, floral aldehyde to Floral). Entries with two competing descriptions (Gentleman, Blue Jeans & Red Jeans, Ysatis) were left unplaced.
+
+**Owners.** Set from fetched pages: Dana and Tabu lines to Dana Classic Fragrances (2003, Wikipedia Tabu by Dana); Guy Laroche to L'Oréal (house page: "now part of L'Oreal group", no year); Prince Matchabelli to DeCoeur Fragrances; Gloria Vanderbilt to Selective Beauté International; Britney Spears lines to Elizabeth Arden; Rihanna's Rebelle and Rogue to Parlux Fragrances; Fame, Glowing, Celine Dion Parfums and Rise to Coty (licence holders). 
+
+## Remains
+- **373 perfumes without a family.** Guerlain (27), Tom Ford (24), Coty lines (32), Avon (7) and Victoria's Secret (12) lie on pages not read or have no family on the page read.
+- **Owners still empty after two attempts each:** Houbigant (Wikipedia: only licences, no owner; PI search names Aladdin Fragrances for two ex-Houbigant scents only), Robert Piguet (Wikipedia and PI house page state none), Fabergé (Wikipedia gives the 2025 SMG Capital purchase of the jewellery company, not the fragrance line), Grès (Wikipedia: fashion house sold to Yagi Tsusho; perfume owner not stated).

@@ -18,3 +18,4 @@ r2: ~79 fetches; houses done also Ricci, VanderG, Davidoff, KlienC, Rabanne, Ken
 r2: ~85 fetches. added Miracle Homme, California for Men. Max Factor owner P&G since 1991 (factor.htm). Next arden2, Roger Gallet/Caron search, Mugler, VS
 r2: ~90 fetches. Red Door, Dream Angels x2, Dream added. Next: A-Z pages n1p4 g3p3 b3p7 c7p6 s5p4 f2p3 e6p5 h2p5 j1p4 m4p7 (found by search)
 r2: ~95 fetches. Narcisse Noir, Spirit added. Now owners searches (Houbigant, Piguet, Guy Laroche, Faberge, Gres) then apply+report
+r2 done: 444->373; report updated; ~100 fetches
