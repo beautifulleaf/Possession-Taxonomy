@@ -19,3 +19,11 @@ Edited J10.json and J10_brands.json (+30 makers and owners). Validator OK (133 k
 - **Oriental blends:** covers 4 only; Kizami owners unstated.
 - **Not attempted (budget and sources):** pipe-blend target of 40 to 60, cannabis strain lineage (Leafly/Seedfinder), Kaywoodie, Vauen, Ascorti, Radice, Bo Nordh (earlier 404/403), 11 Habanos marques without vitola lists, individual PMI/BAT/JT shares (chart only).
 - **Dissolvable nicotine:** page names none; kind stays empty.
+
+# Second round (coordinator items 1 to 5)
+About 40 more fetches. Validator OK (133 kinds, 457 archetypes).
+1. **Habanos vitolas:** added for Vegueros, Diplomaticos, La Gloria Cubana (Wikipedia), Por Larranaga (Wikipedia), Rafael Gonzalez (Chaveta). Still none: Jose L. Piedra, Quintero, Fonseca, Vegas Robaina, El Rey del Mundo, Juan Lopez, La Flor de Cano, Saint Luis Rey. Their Wikipedia pages carry no vitola list; cubancigarwebsite.com gave 403 and Firecrawl is out of credits. Searched: Habanos brand vitola lists, per-marque pages.
+2. **Pipe blends:** TobaccoReviews brand pages read for Samuel Gawith (122 blends), Peterson (82), Mac Baren (131), Cornell and Diehl (386; first 100,000 of 165,159 characters). About 90 blends with many reviews added across the five blend kinds; mis-typed Cornell and Diehl rows (Billy Budd, Epiphany, Bayou Night: types the kinds do not hold) were left out. Not done: Gawith Hoggarth, G.L. Pease, Sutliff, Davidoff, Orlik, Captain Black (brand page IDs not found in budget); C&D remainder.
+3. **Pipe makers:** Peterson (1865, Ireland, Laudisi Enterprises since 2018) and Savinelli (1876, Italy) registered from Wikipedia. Kaywoodie, Vauen, Stanwell, Dunhill: Wikipedia has no usable page, Pipedia returned 403; search excerpts only, so not registered.
+4. **Vaporisers:** Storz and Bickel redirects to Electronic cigarette on Wikipedia with no company facts; official site not found by search. SMOK, Vaporesso, VooPoo, Geek Bar: no trade-press page fetched (budget). Searched: "Storz Bickel Volcano Wikipedia", vape brand lists.
+5. **Shares:** PMI FY2024 10-K added to the cigarette market panel: international share 28.7 % (cigarettes 23.5 %, heated tobacco 5.2 %), cigarette-over-cigarette 25.3 %, Marlboro 10.1 %, all 2024, excluding China and the US. BAT and JT annual-report shares not fetched.

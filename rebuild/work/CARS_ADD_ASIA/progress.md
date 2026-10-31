@@ -1,0 +1,1 @@
+step1: marque category existence checked; fetched cats Chery,Haval,Changan,FAW,Hongqi,Roewe,Trumpchi,Aion,BAIC,JAC,Baojun,LiAuto,Zeekr,Leapmotor,Xiaomi,Jetour,Proton,Perodua,VinFast (raw in data1.txt)

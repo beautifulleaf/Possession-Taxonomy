@@ -19,7 +19,18 @@ A['Islamic calligraphy']=('Islamic_calligraphy',"Wikipedia's Islamic calligraphy
  ('Sudani script','','Maghrebi sub-style developed in the West African Sahel.',''),
  ('Diwani','16th to early 17th century','Ornate Ottoman cursive for court documents; the djali variant is densely decorated.','Divani'),
  ("Nasta'liq",'','Persian cursive script with sloped lines and high-contrast hook-like letters; shikasteh is a 17th-century variant.','Nastaliq'),
- ('Sini script','','Chinese-influenced style written with a horsehair brush.','')])
+ ('Sini script','','Chinese-influenced style written with a horsehair brush.',''),
+ ('Mashq','','Arabic script style listed in the article\'s styles index; no description given.',''),
+ ('Taʿlīq','','Persian script style listed in the article; no description given.','Ta\'liq'),
+ ('Tawqi','','Ottoman script style listed in the article\'s styles index; no description given.','Tevki'),
+ ('Hijazi script','','Arabic script style listed in the article\'s styles index; no description given.',''),
+ ('Kairouani script','','Arabic script style listed in the article\'s styles index; no description given.',''),
+ ('Moalla','','Persian script style listed in the article; no description given.',''),
+ ('Jeli Thuluth','','Thuluth style listed separately in the article\'s styles index.',''),
+ ('Andalusi script','Nasrid period','Maghrebi-family script of a Surah Az-Zumar folio from Al-Andalus.',''),
+ ('Suqi script','','Script of a Surah Al-A\'raf manuscript, named after Essouk.',''),
+ ('Muraqqa','','Album format combining calligraphy and painting; one was made for Sultan Murad III.','Album'),
+ ('Calligraffiti','2016 example','Contemporary style blending Arabic calligraphy with graffiti.','')])
 A['Western calligraphy']=('Western_calligraphy',"Wikipedia's Western calligraphy article",26,"the page names 26 hands; Merovingian script, Humanist minuscule and Antiqua are named without description and are included as entries only where the page dates them",[
  ('Roman square capitals','','Formal Roman capital letters.',''),
  ('Rustic capitals','','Early Roman capital lettering, later used in manuscripts.',''),
@@ -47,7 +58,10 @@ A['East Asian calligraphy']=('Shufa',"Wikipedia's Shufa article",10,"the article
  ('Regular script','mature by the 7th century','Newest major style, with the most standardised strokes.','Kaishu'),
  ('Semi-cursive script','Han origins','Partly abbreviated running style that most readers of regular script can follow.','Xingshu'),
  ('Cursive script','Han through Jin','Fast, highly abbreviated style that is hard for non-practitioners to read.','Caoshu'),
- ('Slender gold script','early 12th century','Imperial style of gold-coloured writing used by Emperor Huizong on paintings.','Shoujinshu')])
+ ('Slender gold script','early 12th century','Imperial style of gold-coloured writing used by Emperor Huizong on paintings.','Shoujinshu'),
+ ('Large seal script','','Seal script subtype listed in the article; no description given.','Dazhuan'),
+ ('Bird-worm seal script','','Seal script subtype listed in the article; no description given.',''),
+ ('Nine-fold seal script','','Seal script subtype listed in the article; no description given.','')])
 A['Carved seal']=('Seal_carving',"Wikipedia's Seal carving article",14,"the other rows are state seals and navigation-box items, which are not carved personal seals",[
  ('Hui (Wan) School seal','Ming and Qing','Anhui school of seal carving, also called the Wan School.','Wan School seal'),
  ('Hai School seal','late Qing and Republic','Shanghai school of seal carving.',''),
@@ -234,6 +248,7 @@ A['Aboriginal Australian painting']=('Contemporary_Indigenous_Australian_art',"W
  ('Ernabella acrylic design and batik','late 1950s','Acrylic poster designs that led to batik, from Australia\'s oldest Indigenous art centre.',''),
  ('Torres Strait printmaking','1990s','Linocut and etching from the Torres Strait Islands and north Queensland.',''),
  ('Pokerwork carving','','Significant carving medium in central Australian communities.','')])
+A['Hermannsburg_batik']=None
 A['Naive painting']=('Na%C3%AFve_art',"Wikipedia's Naïve art article",8,"museums named by the page are institutions, not kinds",[
  ('Saint Soleil painting','1970–1999','Haitian school named in the article navigation box.',''),
  ('Safed circle painting','late 19th to early 20th century','Naïve painting of Safed with Moshe Mizrahi Shah; Yitzhak Frenkel was influenced.','')])
@@ -315,6 +330,9 @@ A['Stone carving']=('Sculpture',"Wikipedia's Sculpture article",60,"the rest are
  ('Porphyry carving','','Hard stone used for the Four Tetrarchs.',''),
  ('Soapstone carving','','Zimbabwe Birds and modern Zimbabwean carving.',''),
  ('Sandstone carving','','Mathura sculptures and Meroitic reliefs.','')])
+A['Plaster sculpture']=('Sculpture',"Wikipedia's Sculpture article",60,"ephemeral media (ice, snow, butter, gas, light, sound) and environmental works are not objects owned",[
+ ('Wax sculpture','','Modelling and casting material.',''),
+ ('Plaster cast','','Mould-based reproduction in plaster.','')])
 A['Terracotta sculpture']=('Sculpture',"Wikipedia's Sculpture article",60,"funerary forms (Terracotta Army, shabti) are tomb goods",[
  ('Sancai tomb figure','Tang','Three-colour glazed pottery figure for Tang tombs.',''),
  ('Dogū','Jōmon','Stylised Japanese pottery figure.',''),
