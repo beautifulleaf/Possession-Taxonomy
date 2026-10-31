@@ -2,8 +2,396 @@
  "cat": "C7",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Tractors & tractor fittings",
+   "queries": [
+    "Agritechnica innovation award winners",
+    "tractor manufacturers list wikipedia",
+    "Tractor of the Year winners"
+   ],
+   "found": 60,
+   "note": "via award and encyclopedia lists; tyres/tracks/guidance only via Agritechnica silver (Nokian, Continental)"
+  },
+  {
+   "axis": "kind",
+   "item": "Field implements & crop machines",
+   "queries": [
+    "Agritechnica 2019/2022/2023/2025 winners",
+    "de.wikipedia Liste von Landmaschinenherstellern"
+   ],
+   "found": 200,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Loaders & earthmoving",
+   "queries": [
+    "Agritechnica winners (Stoll loader)"
+   ],
+   "found": 1,
+   "note": "no dedicated sweep for telehandler/skid steer makers"
+  },
+  {
+   "axis": "kind",
+   "item": "Woodland & firewood",
+   "queries": [
+    "forestry machine manufacturers list",
+    "Interforst innovation award winners"
+   ],
+   "found": 0,
+   "note": "searches returned only directory profiles/blogs; no fetchable list; NOT done"
+  },
+  {
+   "axis": "kind",
+   "item": "Smallholding livestock",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (milking, handling, shearing, stunning): pending"
+  },
+  {
+   "axis": "kind",
+   "item": "Vintage tractors & engines",
+   "queries": [
+    "List of former tractor manufacturers",
+    "List of traction engine manufacturers"
+   ],
+   "found": 76,
+   "note": "Wikipedia lists; stationary engine/thresher makers pending"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "List of tractor manufacturers (by country)"
+   ],
+   "found": 0,
+   "note": "from country annotations in Wikipedia lists"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "List of tractor manufacturers (by country)"
+   ],
+   "found": 0,
+   "note": "from country annotations in Wikipedia lists"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "List of tractor manufacturers (by country)"
+   ],
+   "found": 0,
+   "note": "from country annotations in Wikipedia lists"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "List of tractor manufacturers (by country)"
+   ],
+   "found": 0,
+   "note": "from country annotations in Wikipedia lists"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "List of tractor manufacturers (by country)"
+   ],
+   "found": 0,
+   "note": "from country annotations in Wikipedia lists"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "List of tractor manufacturers (by country)"
+   ],
+   "found": 0,
+   "note": "from country annotations in Wikipedia lists"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "List of tractor manufacturers (by country)"
+   ],
+   "found": 0,
+   "note": "from country annotations in Wikipedia lists"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "List of tractor manufacturers (by country)"
+   ],
+   "found": 0,
+   "note": "from country annotations in Wikipedia lists"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (Southeast Asia, Central Asia, Oceania e.g. Thailand/Australia/NZ pending)"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (Southeast Asia, Central Asia, Oceania e.g. Thailand/Australia/NZ pending)"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (Southeast Asia, Central Asia, Oceania e.g. Thailand/Australia/NZ pending)"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "List of tractor manufacturers (by country)"
+   ],
+   "found": 0,
+   "note": "from country annotations in Wikipedia lists"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "List of tractor manufacturers (by country)"
+   ],
+   "found": 0,
+   "note": "from country annotations in Wikipedia lists"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "List of tractor manufacturers (by country)"
+   ],
+   "found": 0,
+   "note": "from country annotations in Wikipedia lists"
+  }
+ ],
+ "regions": [
+  {
+   "region": "India (South Asia)",
+   "speciality": "world's largest tractor market; mass-market and small-farm tractors (Mahindra, Swaraj, Sonalika, TAFE, Escorts, Eicher, HMT, Captain mini tractors)",
+   "src": "https://en.wikipedia.org/wiki/Tractors_in_India",
+   "brands": [
+    "Mahindra",
+    "Swaraj",
+    "Sonalika",
+    "TAFE",
+    "Escorts Kubota",
+    "Eicher",
+    "HMT Tractors",
+    "Captain Tractors",
+    "Standard Tractors",
+    "Agri King",
+    "Force Motors",
+    "Indo Farm",
+    "Preet",
+    "VST Tillers"
+   ]
+  },
+  {
+   "region": "Pakistan (South Asia)",
+   "speciality": "tractor makers listed by country",
+   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
+   "brands": [
+    "Millat Tractors",
+    "Al-Ghazi Tractors"
+   ]
+  },
+  {
+   "region": "Turkey (Middle East / Europe)",
+   "speciality": "tractor industry listed by country",
+   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
+   "brands": [
+    "Basak Traktor",
+    "Hattat",
+    "Tumosan",
+    "Erkunt",
+    "Yagmur"
+   ]
+  },
+  {
+   "region": "Israel and Algeria (Middle East / North Africa)",
+   "speciality": "tractor/agri-robot makers listed by country",
+   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
+   "brands": [
+    "Blue White Robotics",
+    "ETRAG"
+   ]
+  },
+  {
+   "region": "China (East Asia)",
+   "speciality": "large domestic tractor industry listed on Wikipedia",
+   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
+   "brands": [
+    "YTO",
+    "Jinma",
+    "Lovol",
+    "LiuGong",
+    "Zoomlion",
+    "Chalion",
+    "Wuzheng",
+    "Telake",
+    "Harbin",
+    "Mingsin"
+   ]
+  },
+  {
+   "region": "Japan (East Asia)",
+   "speciality": "compact and rice-farming tractors and small machines",
+   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
+   "brands": [
+    "Kubota",
+    "Yanmar",
+    "Iseki",
+    "Mitsubishi Agricultural Machinery"
+   ]
+  },
+  {
+   "region": "South Korea (East Asia)",
+   "speciality": "compact tractors",
+   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
+   "brands": [
+    "Daedong",
+    "Kioti",
+    "TYM",
+    "LS Mtron"
+   ]
+  },
+  {
+   "region": "Italy (Southern Europe)",
+   "speciality": "specialised orchard/vineyard tractors; TOTY 'Specialized' winners include Antonio Carraro, SAME, Landini",
+   "src": "https://www.tractoroftheyear.org/winners",
+   "brands": [
+    "Antonio Carraro",
+    "SAME",
+    "Landini",
+    "McCormick",
+    "Goldoni",
+    "Valpadana",
+    "Carraro Agritalia",
+    "Lamborghini Trattori"
+   ]
+  },
+  {
+   "region": "Austria and Switzerland (Alpine Europe)",
+   "speciality": "slope and specialist tractors (Aebi Viatrac TOTY Specialized; Lindner, Reform)",
+   "src": "https://www.tractoroftheyear.org/winners",
+   "brands": [
+    "Aebi",
+    "Lindner",
+    "Reform",
+    "Steyr",
+    "Hürlimann",
+    "Einböck",
+    "Göweil"
+   ]
+  },
+  {
+   "region": "Germany (Western Europe)",
+   "speciality": "implements, combines, balers, DLG/Agritechnica award winners",
+   "src": "https://agritechnica.com/en/awards/innovation-award/winners-2025",
+   "brands": [
+    "Claas",
+    "Fendt",
+    "Lemken",
+    "Amazone",
+    "Krone",
+    "Horsch",
+    "Grimme",
+    "Rauch",
+    "Müller Landmaschinen",
+    "Wilhelm Stoll Maschinenfabrik",
+    "Zunhammer",
+    "Schumacher",
+    "Carl Geringhoff"
+   ]
+  },
+  {
+   "region": "Nordic Europe (Finland, Sweden, Denmark)",
+   "speciality": "tractors, forestry and farm machines in Wikipedia/Agritechnica lists",
+   "src": "https://de.wikipedia.org/wiki/Liste_von_Landmaschinenherstellern",
+   "brands": [
+    "Valtra",
+    "Valmet",
+    "Sampo Rosenlew",
+    "Väderstad",
+    "Fasterholt Maskinfabrik",
+    "Agro Intelligence",
+    "Kongskilde Industries",
+    "Nokian Heavy Tyres"
+   ]
+  },
+  {
+   "region": "Central & Eastern Europe",
+   "speciality": "tractor works of the Soviet/Eastern bloc and Poland, Serbia, Czechia",
+   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
+   "brands": [
+    "MTZ Belarus",
+    "Pronar",
+    "Pol-Mot",
+    "Zetor",
+    "IMT",
+    "Majevica",
+    "Rostselmash",
+    "Terrion",
+    "Kirovets",
+    "YuMZ",
+    "KhTZ"
+   ]
+  },
+  {
+   "region": "Argentina and Brazil (Latin America)",
+   "speciality": "national tractor industries listed by country",
+   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
+   "brands": [
+    "Pauny",
+    "Zanello",
+    "Agrinar",
+    "Agrale",
+    "Metalfor",
+    "Stara",
+    "TATU Marchesan",
+    "Vassalli Fabril"
+   ]
+  },
+  {
+   "region": "North America",
+   "speciality": "large 4WD and row-crop tractors, historic steam/tractor makers",
+   "src": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
+   "brands": [
+    "John Deere",
+    "Case IH",
+    "Versatile",
+    "Ventrac",
+    "Ursa Ag",
+    "Kinze Manufacturing",
+    "MacDon"
+   ]
+  },
+  {
+   "region": "Southern Africa",
+   "speciality": "planting machinery",
+   "src": "https://de.wikipedia.org/wiki/Liste_von_Landmaschinenherstellern",
+   "brands": [
+    "Voor Planter"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/List_of_tractor_manufacturers",
@@ -104,6 +492,16 @@
    "new_names": 0,
    "status": "partial",
    "note": "earlier years (Machine of the Year since 1997) not fetched"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Tractors_in_India",
+   "title": "Tractors in India - Wikipedia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 40,
+   "new_names": 6,
+   "status": "done",
+   "note": "Mahindra, Sonalika, TAFE, Escorts, Eicher, New Holland etc. confirmed/already listed"
   }
  ],
  "brands": [
@@ -2778,6 +3176,54 @@
    "says": "FARM MACHINE 2026 category winner (jury of European farm-machinery magazines)",
    "country": "Germany",
    "dept": "tractors/implements"
+  },
+  {
+   "n": "Swaraj",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Tractors_in_India",
+   "says": "named as an Indian tractor brand on Wikipedia 'Tractors in India'",
+   "country": "India",
+   "dept": "tractors"
+  },
+  {
+   "n": "Captain Tractors",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Tractors_in_India",
+   "says": "named as an Indian tractor brand on Wikipedia 'Tractors in India'",
+   "country": "India",
+   "dept": "tractors"
+  },
+  {
+   "n": "HMT Tractors",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Tractors_in_India",
+   "says": "named as an Indian tractor brand on Wikipedia 'Tractors in India'",
+   "country": "India",
+   "dept": "tractors"
+  },
+  {
+   "n": "Standard Tractors",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Tractors_in_India",
+   "says": "named as an Indian tractor brand on Wikipedia 'Tractors in India'",
+   "country": "India",
+   "dept": "tractors"
+  },
+  {
+   "n": "Agri King",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Tractors_in_India",
+   "says": "named as an Indian tractor brand on Wikipedia 'Tractors in India'",
+   "country": "India",
+   "dept": "tractors"
+  },
+  {
+   "n": "Force Motors",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Tractors_in_India",
+   "says": "named as an Indian tractor brand on Wikipedia 'Tractors in India'",
+   "country": "India",
+   "dept": "tractors"
   }
  ]
 }

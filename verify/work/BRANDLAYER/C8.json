@@ -46,16 +46,6 @@
   },
   {
    "axis": "kind",
-   "item": "Paint & decorating > Tiles, wallpaper & plaster",
-   "queries": [
-    "Ceramics of Italy winners",
-    "Tile of Spain"
-   ],
-   "found": 8,
-   "note": "Floor tile partly via Archello wood flooring list; wallpaper makers category not fetched"
-  },
-  {
-   "axis": "kind",
    "item": "Plumbing, drainage & electrical",
    "queries": [
     "Wikipedia plumbing/bathroom companies"
@@ -267,15 +257,6 @@
   },
   {
    "axis": "kind",
-   "item": "Masonry, roofing & insulation > Bricks, blocks & cement",
-   "queries": [
-    "Brick Awards winners brick manufacturer"
-   ],
-   "found": 5,
-   "note": "BDA Brick Awards"
-  },
-  {
-   "axis": "kind",
    "item": "Masonry, roofing & insulation > Roofing",
    "queries": [
     "natural slate quarry renowned Welsh Spanish"
@@ -355,6 +336,90 @@
    ],
    "found": 0,
    "note": "search returned no test page; see fixings note"
+  },
+  {
+   "axis": "kind",
+   "item": "Adhesives, sealants & packing > Adhesives & glue",
+   "queries": [
+    "best wood glue tested",
+    "best construction adhesive tested"
+   ],
+   "found": 4,
+   "note": "Wood By Wright YouTube blog test not fetched as list"
+  },
+  {
+   "axis": "kind",
+   "item": "Adhesives, sealants & packing > Tiling & sealing",
+   "queries": [
+    "CR best caulks"
+   ],
+   "found": 4,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Adhesives, sealants & packing > Packing & moving",
+   "queries": [
+    "best packing tape"
+   ],
+   "found": 0,
+   "note": "not tried beyond; low brand-led"
+  },
+  {
+   "axis": "kind",
+   "item": "Batteries, fuel & firelighting > Batteries & chargers",
+   "queries": [
+    "Which? best batteries",
+    "CNET alkaline"
+   ],
+   "found": 0,
+   "note": "all major tested brands already in register"
+  },
+  {
+   "axis": "kind",
+   "item": "Batteries, fuel & firelighting > Gas, liquid fuel & lubricants",
+   "queries": [
+    "best Gas, liquid fuel & lubricants"
+   ],
+   "found": 0,
+   "note": "not searched this round; next agent"
+  },
+  {
+   "axis": "kind",
+   "item": "Batteries, fuel & firelighting > Solid fuel",
+   "queries": [
+    "best Solid fuel"
+   ],
+   "found": 0,
+   "note": "not searched this round; next agent"
+  },
+  {
+   "axis": "kind",
+   "item": "Batteries, fuel & firelighting > Firelighters, matches & lighters",
+   "queries": [
+    "best Firelighters, matches & lighters"
+   ],
+   "found": 0,
+   "note": "not searched this round; next agent"
+  },
+  {
+   "axis": "kind",
+   "item": "Paint & decorating > Tiles, wallpaper & plaster",
+   "queries": [
+    "Wikipedia wallpaper manufacturers"
+   ],
+   "found": 13,
+   "note": "adds wallpaper makers"
+  },
+  {
+   "axis": "kind",
+   "item": "Masonry, roofing & insulation > Bricks, blocks & cement",
+   "queries": [
+    "Wikipedia brick manufacturers",
+    "Brick Awards"
+   ],
+   "found": 12,
+   "note": ""
   }
  ],
  "regions": [
@@ -760,6 +825,56 @@
    "new_names": 0,
    "status": "done",
    "note": "contractors, not product brands"
+  },
+  {
+   "url": "https://www.consumerreports.org/home-garden/home-improvement-remodeling/best-caulks-and-sealants-a1807964767/",
+   "title": "Consumer Reports best caulks and sealants",
+   "kind": "ranking",
+   "years": "2025",
+   "names_on_page": 8,
+   "new_names": 4,
+   "status": "done",
+   "note": "tested-list; brands recorded as tested not as winners"
+  },
+  {
+   "url": "https://www.which.co.uk/reviews/batteries/article/how-to-buy-the-best-batteries-a0JRf6d3M52H",
+   "title": "Which? best AA/AAA batteries",
+   "kind": "ranking",
+   "years": "2025",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "table paywalled; known battery brands Duracell/Energizer/Varta/GP already in register"
+  },
+  {
+   "url": "https://www.trustedreviews.com/best/best-aa-and-aaa-batteries-4256368",
+   "title": "Trusted Reviews best AA/AAA batteries",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "done",
+   "note": "GP, Duracell already in register"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "title": "Wikipedia Category:Brick manufacturers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 42,
+   "new_names": 12,
+   "status": "done",
+   "note": "company pages only"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "title": "Wikipedia Category:Wallpaper manufacturers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 23,
+   "new_names": 13,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -1844,6 +1959,238 @@
    "says": "paving maker; own installer awards judged by pavingexpert (maker page) - existence/weak",
    "country": "UK",
    "dept": "paving"
+  },
+  {
+   "n": "Sashco",
+   "layer": "premium",
+   "src": "https://www.consumerreports.org/home-garden/home-improvement-remodeling/best-caulks-and-sealants-a1807964767/",
+   "says": "named among eight caulks/sealants lab-tested by Consumer Reports 2025 (tested brands; two recommended)",
+   "country": "US",
+   "dept": "adhesives/sealants"
+  },
+  {
+   "n": "Loctite",
+   "layer": "premium",
+   "src": "https://www.consumerreports.org/home-garden/home-improvement-remodeling/best-caulks-and-sealants-a1807964767/",
+   "says": "named among eight caulks/sealants lab-tested by Consumer Reports 2025 (tested brands; two recommended)",
+   "country": "US",
+   "dept": "adhesives/sealants"
+  },
+  {
+   "n": "Flex Seal",
+   "layer": "premium",
+   "src": "https://www.consumerreports.org/home-garden/home-improvement-remodeling/best-caulks-and-sealants-a1807964767/",
+   "says": "named among eight caulks/sealants lab-tested by Consumer Reports 2025 (tested brands; two recommended)",
+   "country": "US",
+   "dept": "adhesives/sealants"
+  },
+  {
+   "n": "White Lightning",
+   "layer": "premium",
+   "src": "https://www.consumerreports.org/home-garden/home-improvement-remodeling/best-caulks-and-sealants-a1807964767/",
+   "says": "named among eight caulks/sealants lab-tested by Consumer Reports 2025 (tested brands; two recommended)",
+   "country": "US",
+   "dept": "adhesives/sealants"
+  },
+  {
+   "n": "Acme Brick",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "Baggeridge Brick",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "Belden Brick",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "General Shale",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "Midland Brick",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "Petersen Tegl",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "Whitemans Brick",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "HG Matthews Brickworks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "Elgin-Butler Brick Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "Hebron Brick Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "J. Hallett and Son",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "Bradley & Craven",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABrick_manufacturers",
+   "says": "Wikipedia Category:Brick manufacturers",
+   "country": "",
+   "dept": "bricks"
+  },
+  {
+   "n": "Bradbury & Bradbury",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Coloroll",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Crown Wallpaper",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Defossé & Karth",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Joseph Dufour et Cie",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Hammer Prints",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Jeffrey & Co",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Jourdan et Villard",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Lightbown Aspinall",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Marburger Tapetenfabrik",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Robert Graves Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Sanderson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
+  },
+  {
+   "n": "Walker Greenbank",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wallpaper_manufacturers",
+   "says": "Wikipedia Category:Wallpaper manufacturers",
+   "country": "",
+   "dept": "wallpaper"
   }
  ]
 }
