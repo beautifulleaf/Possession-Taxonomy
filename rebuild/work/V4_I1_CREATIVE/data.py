@@ -43,7 +43,7 @@ Pinta|Jonathan Pobst|2010
 Pixlr|Ola Sevandersson|2008
 Seashore|Mark Pazolli|2003
 Xara Photo & Graphic Designer|Xara|1995
-''',gone=['Photopea ','Pixlr '])
+''')
 kd('Photo manager & RAW developer','RA','''
 ACDSee|ACD Systems||ACDSee Home · ACDSee Pro · ACDSee Ultimate
 Bibble|Bibble Labs|2000
@@ -171,8 +171,6 @@ KTechLab|KTechLab Developers||
 ''')
 kd('Embroidery digitising software','VE','''
 Embroidermodder|Embroidermodder Team|2004
-Wilcom|Wilcom||
-Embird|Embird||
 ''')
 kd('Vector graphics editor','VE','''
 Apache OpenOffice Draw|Apache Software Foundation|2000
@@ -242,9 +240,8 @@ LosslessCut|Mikael Finstad|2016
 Nero Video|Nero AG|2002
 Pitivi|Open Source Community|2004
 VideoPad|NCH Software|2008
-Camtasia|TechSmith Corporation|2002
 Microsoft Photos Video Editor|Microsoft Corporation|2017
-''',gone=['Camtasia'])
+''')
 kd('Visual effects software','VID','''
 Autodesk Flame|Autodesk|1993
 Natron|Alexandre Gauthier, Frédéric Devernay|2014
@@ -261,7 +258,7 @@ Nuendo|Steinberg||
 Podium|Zynewave||
 Qtractor|Qtractor||
 Rosegarden|Rosegarden||
-LUNA|Universal Audio|2020|
+LUNA@UA|Universal Audio|2020|
 ''')
 kd('Music notation software','SC','''
 Canorus|Katzmann, Jekovec, Rudolph||
@@ -354,32 +351,32 @@ kd('Sampler & sample player','SS','''
 GigaSampler|NemeSys|1997
 GigaStudio|Tascam|2008
 Groove Agent ONE|Steinberg||
-Battery|Native Instruments|2002
-Maschine|Native Instruments||
+Battery@NI|Native Instruments|2002
+Maschine@NI|Native Instruments||
 ''')
 kd('Virtual piano & keys','SS','''
 Mrs Mills Piano|Spitfire Audio|2021
 Hans Zimmer Piano|Spitfire Audio|2016
 Château Piano|Spitfire Audio|2025
 Lounge Lizard EP-4|Applied Acoustics Systems|2006
-Trilian|Spectrasonics||
+Trilian@SP|Spectrasonics||
 ''')
 kd('Compressor & dynamics plug-in','WA','''
 Waves L1 Ultramaximizer|Waves Audio|1994
 Waves C6 Multiband Compressor|Waves Audio|2013
-FabFilter Pro-L|FabFilter|2010
-FabFilter Pro-MB|FabFilter|2013
-FabFilter Pro-DS|FabFilter|2012
-FabFilter Pro-G|FabFilter|2011
+FabFilter Pro-L@FF|FabFilter|2010
+FabFilter Pro-MB@FF|FabFilter|2013
+FabFilter Pro-DS@FF|FabFilter|2012
+FabFilter Pro-G@FF|FabFilter|2011
 Waves Vocal Rider|Waves Audio|2010
 Waves NS1 Noise Suppressor|Waves Audio|2012
 ''')
 kd('EQ & filter plug-in','WA','''
 Waves Q10|Waves Audio|1992
 Waves RS56 Passive EQ|Waves Audio|2013
-FabFilter Volcano|FabFilter|2005
-FabFilter Simplon|FabFilter|2007
-FabFilter Micro|FabFilter|2010
+FabFilter Volcano@FF|FabFilter|2005
+FabFilter Simplon@FF|FabFilter|2007
+FabFilter Micro@FF|FabFilter|2010
 ''')
 kd('Console & channel-strip emulation','WA','''
 Waves API Collection|Waves Audio|2007
@@ -514,6 +511,5 @@ Audio Random Access|Celemony Software||ARA
 ''',new=True)
 kd('Instrument & effect bundle','NI','''
 Komplete|Native Instruments||
-Arturia V Collection|Arturia|2024|V Collection
-Pigments|Arturia||
+Arturia V Collection@SS|Arturia|2024|V Collection
 ''',new=True)
