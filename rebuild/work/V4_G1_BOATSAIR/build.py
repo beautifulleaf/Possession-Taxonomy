@@ -59,6 +59,7 @@ def parse_auto(f):
         p=l.rstrip('\n').split('|')
         if len(p)<5: continue
         q,n,y,d,c=p[:5]; code=p[5] if len(p)>5 and p[5] else 'Y'
+        if re.fullmatch(r'[DSCKRYMOI]',c) and len(p)==5: code,c=c,''
         out.append(dict(q=q,n=n,y=y,d=d,c=c,code=code,b=''))
     return out
 for f in ('sail1.tsv','sail2.tsv','sail3.tsv','sail4.tsv'):
