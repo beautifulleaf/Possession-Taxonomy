@@ -2,7 +2,7 @@
 
 Raw fetch (mcp__Parallel__web_fetch, full_content) of all 100 distinct harvest/audit source URLs, plus the EPV CSV resource linked from the data.gouv dataset page and src2 pages (LoveCrafts GB A-Z, YarnSub, Needles and Things kit index, Kashoen, Cass Art Turner page, Toyo Co.). Pages in VERIFY_C4_tmp/pages/ (index.json maps URL to file). Blocked or empty: zoomjapan.info (bot check), nytimes.com (paywall, headline only), dw.com (excerpt mode only: Prym paragraph read).
 
-Brands checked: 342 (harvest 289 minus 8 audit drops and 5 merged duplicate rows, plus 61 audit adds, plus Royal Talens and Golden Artist Colors created as merge targets). Not shown: 0. By tier: {"cultural": 38, "listed": 259, "quality": 41, "seller": 4}. Homonyms: 1. Regions: 28 (10 with renown).
+Brands checked: 342 (harvest 289 minus 5 audit drops present in the harvest (Kagzi India, Talens, Golden, Princeton, Roberson) and 5 merged duplicate rows, plus 61 audit adds, plus Royal Talens and Golden Artist Colors created as merge targets). Not shown: 0. By tier: {"cultural": 38, "listed": 259, "quality": 41, "seller": 4}. Homonyms: 1. Regions: 28 (10 with renown).
 
 ## Tier rules applied
 - cultural: Wikipedia category members; Wikipedia list rows only when the row links to the brand's own article (Łucznik, Tikkakoski, Patons and Baldwins); own Wikipedia article (Uroboros, Ueba Esou, Fevicol); Google Arts & Culture exhibit (Salim Kagzi); Kogei Japan representative maker of a designated traditional craft (Houkodou); press/independent pages treating the brand as an icon (Camel/Camlin, Prym, Citadel, Craftool, Barry King, Toika, Army Painter, Turbodork).

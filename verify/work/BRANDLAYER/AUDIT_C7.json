@@ -300,15 +300,6 @@
    "region": "Britain"
   },
   {
-   "n": "Teagle Tomahawk",
-   "layer": "cultural",
-   "src": "https://www.fwi.co.uk/machinery/ranked-the-uks-biggest-farm-machinery-manufacturers",
-   "says": "Farmers Weekly: Cornish family firm making the 'market-leading' Tomahawk straw and forage shredders, 20,000 units by 2019 (Teagle already in index; Tomahawk is the product name)",
-   "country": "UK",
-   "dept": "bedding spreader",
-   "region": "Britain"
-  },
-  {
    "n": "Ritchie",
    "layer": "cultural",
    "src": "https://www.fwi.co.uk/machinery/ranked-the-uks-biggest-farm-machinery-manufacturers",
@@ -397,15 +388,6 @@
    "country": "Canada",
    "dept": "skidder (vintage)",
    "region": "North America"
-  },
-  {
-   "n": "Sampo Rosenlew",
-   "layer": "premium",
-   "src": "https://www.forestryjournal.co.uk/features/20141627.2022-forwarder-guide-pt-ii-rottne-logset-eco-log-sampo-rosenlew/",
-   "says": "Forestry Journal: Finnish firm whose 'quality ensures it can more than hold its own against its bigger, better-known rivals' (already in known names; this upgrades src)",
-   "country": "Finland",
-   "dept": "forwarder",
-   "region": "Nordic forestry"
   },
   {
    "n": "Quick (Karya Hidup Sentosa)",
@@ -667,6 +649,24 @@
    "country": "New Zealand",
    "dept": "livestock EID reader / ear tag",
    "region": "Oceania"
+  },
+  {
+   "n": "ITMCO (Iran Tractor Manufacturing Company)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Iran_Tractor_Manufacturing_Company",
+   "says": "own Wikipedia article: Tabriz tractor maker founded 1968 with Romania, MF licence from 1976, capacity 30,000/yr; owned the Tractor sport club (Tractor S.C.) 1968-2011",
+   "country": "Iran",
+   "dept": "utility tractor",
+   "region": "Middle East"
+  },
+  {
+   "n": "Holder",
+   "layer": "cultural",
+   "src": "https://www.onlineclassicworld.com/en/brands/holder",
+   "says": "classic-machinery site's brand history (classifieds site, history text only): Metzingen firm from 1888, world's first self-acting crop sprayer, single-axle tractor 1930, B10/A10 narrow and articulated tractors popular at vintage gatherings; 50,000th tractor 1959",
+   "country": "Germany",
+   "dept": "orchard and vineyard tractor / vintage garden tractor",
+   "region": "Western Europe"
   }
  ],
  "add_regions": [
@@ -757,7 +757,32 @@
    ]
   }
  ],
- "drop": [],
+ "drop": [
+  {
+   "n": "Gefran",
+   "why": "EIMA Technical Evolution entry for a contactless position sensor: industrial component supplier, not a farm-equipment brand"
+  },
+  {
+   "n": "Marzocchi Pompe",
+   "why": "hydraulic gear-pump component maker (EIMA Evolution); not a farm-equipment brand"
+  },
+  {
+   "n": "Cojali",
+   "why": "Jaltest diagnostics/retrofit electronics supplier; component/software, not equipment brand"
+  },
+  {
+   "n": "Melmak",
+   "why": "EIMA Evolution software/tech entry; no farm-equipment brand footprint shown"
+  },
+  {
+   "n": "CAEB",
+   "why": "hydraulic coupling component supplier (EIMA Evolution)"
+  },
+  {
+   "n": "Ropa Maschinenbau",
+   "why": "duplicate of ROPA (merge)"
+  }
+ ],
  "retier": [
   {
    "n": "AGRI FARM Maschinenbau",
@@ -1704,7 +1729,23 @@
    "value": "https://www.forestryjournal.co.uk/features/20141454.2022-forwarder-guide-pt-john-deere-komatsu-hsm-tigercat-ponsse/",
    "says": "Forestry Journal: John Deere Forestry forwarders 'remain some of the very best on offer'",
    "why": "forestry arm support"
+  },
+  {
+   "n": "Teagle",
+   "field": "src",
+   "value": "https://www.fwi.co.uk/machinery/ranked-the-uks-biggest-farm-machinery-manufacturers",
+   "layer": "cultural",
+   "says": "Farmers Weekly: Cornish family firm making the 'market-leading' Tomahawk straw and forage shredders, 20,000 units by 2019 (Teagle already in index; Tomahawk is the product name)",
+   "why": "already a known name; better source"
+  },
+  {
+   "n": "Sampo Rosenlew",
+   "field": "src",
+   "value": "https://www.forestryjournal.co.uk/features/20141627.2022-forwarder-guide-pt-ii-rottne-logset-eco-log-sampo-rosenlew/",
+   "layer": "premium",
+   "says": "Forestry Journal: Finnish firm whose 'quality ensures it can more than hold its own against its bigger, better-known rivals' (already in known names; this upgrades src)",
+   "why": "already a known name; better source"
   }
  ],
- "notes": "EIMA Technical Evolution list includes component suppliers (Gefran sensors, Marzocchi pumps, Melmak, Aitronik, Cojali diagnostics) that are not equipment brands in the owner sense; consider listed."
+ "notes": "ACCURACY: all 25 sampled names appear on their src page and every 'says' text is literally true; the error is tiering: 12/25 are Wikipedia list rows with no link to an own article (plain text or red link) yet filed cultural. Programmatic check of all 295 Wikipedia-list rows: 154 linked, ~141 unlinked -> retier listed (see 'retier'; heuristic, about 1-2% misreads, e.g. DEWA added by hand). Countries blank where the de.wikipedia row gives one (BSA Duport NL, Dal-Bo DK, DEWA BE). FORESTRY DIRECTORY: forestryequipmentmarket.com rows were filed premium on an existence-only directory; retier listed unless re-sourced - Ponsse, Komatsu Forest, Tigercat, Rottne, Eco Log, Logset, HSM now have Forestry Journal sources in 'fix'. EIMA 2026: names confirmed from raw official pages; corrections in 'fix' (Industrias David = Spain; Arcusin, Cojali, Lama = Spain; Amiad, Netafim = Israel; Naio = France; Bellon = Bellon MIT); several Technical Evolution winners are component/software suppliers (drop list). INDEX HOMONYMS (not harvest): brand index rows 'Ferrari' (car/fragrance + C7) and 'Deutz' (champagne + C7) merge unrelated brands with the tractor makers Ferrari (BCS) and Deutz-Fahr; split them. SIMA innovation awards: only CNH press releases found, no independent full winner list fetched - not added. Machine of the Year / Farm Machine: winners are majors already known. DLG test marks: no fetchable list (not retried beyond search). Additions lean on independent trade press (Farmers Weekly, Forestry Journal, Irish Farmers Journal), encyclopedias (Great Plains, Saskatchewan, Te Ara/NMA via search only), government/UN pages (INTI Argentina, UNU Zimbabwe study, Czech MPO) and own Wikipedia articles; a few rest on the maker's own heritage page (Gason, Prattley, Firestone, Allflex) and are tiered cultural on heritage facts only. Regions not treated as quotas: no maker added for North Africa or Central Asia beyond the harvest."
 }
