@@ -6,3 +6,4 @@ step4 fetched brand pages (Lego, Playmobil, Hot Wheels, Funko, Warhammer), Brick
 step5 fetched lava lamp, plasma globe, pin art, dino, helicopter, skewb, puzzle lock, happy cube, snake cube, fidget market. next: write edit.py
 step6 edit.py run, validate OK (199 kinds, 521 archetypes). next: brands, report
 step7 brands, report done
+step8 (finishing pass) started: read dump; fetching canons: List of dolls, teddy bear makers, Rail scales, Playing card, model kit makers, toy market, classics
