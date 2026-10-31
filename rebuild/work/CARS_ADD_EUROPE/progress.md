@@ -20,3 +20,4 @@ R2 step2: appended VW(first window only), Fiat, Ferrari, Volvo, Skoda, SEAT, Ast
 R2 step3: appended BMW Mercedes Audi Porsche Opel Peugeot Renault Citroen first windows (~24 fetches R2). Next: category API for Rover etc (13 marques), Rolls-Royce list, then build2
 R2 step4: category API done for Rover(3 pages of ~5, incl continue), Humber Hillman Singer Borgward Wartburg Koenigsegg Pagani Lynk Venturi Smart Rimac; Trabant category not found. RR list added. ~40 fetches. Next: build2.py with y_updates, rewrite EUROPE.json + report
 R2 step5: build2.py run -> EUROPE.json rewritten (1489 entries, 641 y_updates). Remaining: update report.
+R2 done: report updated

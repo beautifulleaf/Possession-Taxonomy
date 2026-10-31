@@ -2,3 +2,5 @@ step0 done: backups, survey (loose models already 0; coverage lines present in '
 step A: Wikidata owner lookup abandoned; fetched Henkel,Kenvue,Coty,C&D,Galderma,Revlon wiki pages (findings in notes.md)
 step B: fetched L'Occitane, Natura, Pierre Fabre, Clorox, K-C, EL, Reckitt, Edgewell, HoT, Shiseido, Kao (notes.md)
 step C: fetched Unilever, Beiersdorf, Wella, ColourPop, ABH, Moroccanoil, Neutrogena, Body Shop, Olaplex etc; market searches US/UK/DE/FR/JP shares not free (searched). ~52 fetches used. Next: write apply.py
+step D: applied owners, Poland/Japan ms, coverage lines; validated
+step E: report written

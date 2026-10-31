@@ -1,0 +1,17 @@
+# GAP_H1 report (Personal Care & Beauty)
+
+File: rebuild/out/H1.json (validates OK; 168 kinds, 1,137 archetypes). Backups: rebuild/work/GAP_H1/bak/. Sources: rebuild/work/GAP_H1/sources.tsv (about 55 fetches and 8 searches; no Firecrawl).
+
+## Closed
+1. Loose models: none remain (earlier V4 passes already turned all 109 into entries or versions).
+2. Coverage lines: every kind with entries now ends with a coverage sentence. The six brand kinds say "No complete list exists; follows the group brand pages and market overviews", plus an owner-pass note. The 40 device and tool kinds changed from "Covers n entries" to "No complete list exists; follows the maker pages and Wikipedia overviews".
+3. Partial coverage: no reference-based "Covers n of m" kind exists, because no whole-space list exists for brands.
+4. Owners: 32 ownerless brand entries now have own, tier and g from fetched Wikipedia pages (Kenvue: Neutrogena; Galderma: Cetaphil; Clorox 2007: Burt's Bees; Revlon 2016: Elizabeth Arden; Auréa Group 2024: The Body Shop; Estée Lauder: Aveda 1997, Bumble and bumble 2006; L'Occitane: Elemis, Melvita; Reckitt: Veet; Revlon: Mitchum 1970, Flex; Wella Company: Wella, Wella Professionals, Clairol, ghd; Nexus Capital 2023: Dollar Shave Club; Unilever: Degree; Kimberly-Clark: Kotex; Henkel 2026: Olaplex; Seed Beauty: ColourPop; Advent International 2021: Laura Mercier; also Moroccanoil, Weleda, Glossier, Anastasia Beverly Hills). Group pages read: Henkel, Kenvue, Coty, Church & Dwight, Galderma, Revlon, Natura, L'Occitane, Pierre Fabre, Clorox, Kimberly-Clark, Estée Lauder, Reckitt, Edgewell, Helen of Troy, Shiseido, Kao, Unilever, Beiersdorf.
+5. National champions: Poland added from the Forbes Polska 2023 revenue list (Eveline Cosmetics, Dr Irena Eris, Inglot new; Ziaja and Bielenda re-tiered); ten Polish rows in the Skincare market facts. Japan: GlobalData top three (KOSE, Shiseido, Kao) and GTAI third-largest-market fact added. Sections: all brand kinds and device kinds already carry g.
+
+## Remains (searched, no fetched source)
+- Skin-care and hair company shares for the US, UK, Germany, France: searched "Euromonitor skin care market share 2024 top companies ... United States Japan Germany France" and "UK toothpaste OR shampoo OR deodorant market share ... Kantar 2024"; results paywalled (Euromonitor, GlobalData, Statista). The Grocer UK deodorant page returned 405.
+- Japan company shares: GlobalData and GTAI give a ranking, no percentages.
+- Markets still not covered: Thailand (searched Mistine, Karmart, Srichand; the one page fetched gave no facts), Turkey (Evyap Wikipedia 404; Italian trade PDF unreadable), Mexico (Genomma Lab page fetched, but no personal-care brand named; Statista redirect), Saudi Arabia, Egypt, South Africa (Bio-Oil Wikipedia 404), Argentina, Russia (Nevskaya Cosmetics 404), France (Yves Rocher page makes no leadership claim).
+- Owners still blank: about 300 entries, mostly Korean, Japanese, Chinese and US indie brands. Wikidata owner lookup returned wrong matches and was dropped; Naos, Able C&C, Forma Brands and Procter & Gamble brands Wikipedia pages were 404. Unilever and Henkel brand lists, Piz Buin, Right Guard (listed as a former Henkel brand) and Timotei (Elida Beauty sale announced December 2023) are unresolved.
+- Revlon ownership after the 2022 bankruptcy and Elizabeth Arden's current owner are not stated on the fetched page; tier choices for Clorox, Reckitt and Kimberly-Clark (Global group) and Galderma, L'Occitane (Independent) are my judgement.

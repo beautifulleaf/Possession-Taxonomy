@@ -11,3 +11,4 @@ step9: fetched IGP 75 list (dico-du-vin), pago-system page; Cognac 402 (deferred
 step10: stageD installed (France other IGP kind 59 entries, pagos). 37 fetches. Next: Barolo MGA search, cognac alt, tequila alt, report
 step11: stageE installed (Barolo 174 + Barbaresco 66 MGA versions). 40 fetches. Next market gaps: High Noon, Kopparberg, Lyre's, WKD; then report
 step12: report written; DONE
+round2 step1: fetched ~45 pages (cognac/absinthe/armagnac/calvados/cachaça/asm/lyres). now applying phaseR2.py
