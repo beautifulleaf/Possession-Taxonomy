@@ -5,3 +5,4 @@ B4 vases done (116 entries, validated?)
 B7 fans done
 G2,G3 done; next B1(String,Thonet,Vitra,Resident Home,MoMA screen), B3 (lamps), B5
 B3 done (3 lamps)
+search call done (Resident, String, Thonet no14 found); applying B1 edits
