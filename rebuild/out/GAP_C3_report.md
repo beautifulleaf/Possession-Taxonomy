@@ -1,22 +1,22 @@
 # GAP_C3 report: Plants & Living Cultures
 
-Validator: OK (312 kinds, 1746 archetypes; +99 entries). Backups: rebuild/work/GAP_C3/bak/. Script: rebuild/work/GAP_C3/apply.py. Fetches: 10 (9 Wikipedia genus pages, 1 Wikidata count query), logged in sources.tsv.
+Validator: OK (313 kinds, 3,829 archetypes; about 2,180 entries added over the two passes). Backups: rebuild/work/GAP_C3/bak/ and bak2/. Scripts: apply.py, apply2.py. Fetches: 46 of 60 (log: sources.tsv).
+
+## Method
+Wikidata SPARQL through WebFetch, one query per genus: every species with an English Wikipedia article, or every cultivar item with one. The Wikidata query URL is each new entry's source. Three-column tables from Wikipedia were used in pass one.
 
 ## Closed
-- Loose models: none remained (0 `m`).
-- Coverage line: all 249 kinds with entries now carry a standard line in `sel`. The old "representative set" wording is replaced.
-- Completed from the reference, to the end of its species table:
-  - Astrophytum 6 of 6; Ariocarpus 7 of 7; Clivia 6 of 6; Miltoniopsis (Pansy orchid) 5 of 5.
-  - Lithops (Living stones) 6 -> 37 of 37.
-  - Epipremnum (Pothos) 2 -> 15 of 15.
-  - Sarracenia (North American pitcher plant) 20 -> 42: all 11 species, all 20 named hybrids and the RHS AGM cultivars. The last 1,199 characters of that page were not read.
-  - Heliamphora (Sun pitcher) 23 of 24 species (H. tyleri is named outside the table).
-  - Phragmipedium 18 of 18 table species; six further names with debated status are not listed.
+- Loose models: none (0 `m`).
+- Coverage line on every kind with entries (249 plus one new kind).
+- Species added (entries before to after): Philodendron 7 to 104, Anthurium 6 to 190, Hoya 5 to 163, Mammillaria 5 to 80, Echeveria 17 to 24, Haworthia 6 to 65, Monstera 3 to 48, Alocasia 6 to 31, Goeppertia/Calathea 7 to 46, Begonia 4 to 202, Pelargonium 6 to 36, Fuchsia 5 to 52, Hosta 21 to 36, Paeonia 8 to 35, Hydrangea 4 to 49, Clematis 8 to 64, Lavandula 4 to 14, Camellia 1 to 40, Rhododendron 9 to 224, Magnolia 2 to 147, Tulipa 10 to 44, Narcissus 6 to 48, Iris 4 to 243, Dahlia 19 to 27.
+- Cultivars added from Wikidata: apple 6, pear 2, plum 2, cherry 6, peach 2, citrus 5, fig, olive, strawberry 2, potato 24, tomato 2, daylily, and a few in Camellia, Clematis, Magnolia, Rhododendron.
+- Earlier pass (kept): Astrophytum, Ariocarpus, Clivia, Miltoniopsis, Lithops, Epipremnum, Sarracenia, Heliamphora, Phragmipedium completed to their Wikipedia lists.
+- Sections: 39 kinds over 12 entries with mixed name types now have `xg` and `g` (species, hybrid, cultivar or group, form).
+- Roses: 235 rose cultivars have Wikidata articles; 57 were new and sit in a new kind "Rose cultivar (class not stated)", because Wikidata gives no class.
 
-## Remaining (not done, honest)
-- About 235 kinds say "Covers n entries named on the cited pages; no complete register was fetched". These are genera and cultivar groups (Philodendron, Anthurium, Alocasia, Hoya, Mammillaria, Nepenthes, Drosera, Cattleya, the rose classes, the seed and fruit cultivar kinds and others). Finishing them needs hundreds of fetches against the 60-fetch budget.
-- Wikidata genus counts (for example Mammillaria 720, Astrophytum 52 against 6 accepted) include synonyms, so they were not used as "about m" totals. Cultivar kinds (roses, tomato, apple, potato, dahlia) have no bounded whole-space list.
-- Not attempted: market facts (no plant-breeder market list fetched), roles, missing sections.
-- Section axis (`xg`/`g`): no kind has `xg`; the kinds over 12 entries (roses, olive, tomato, beans, cannabis and others) were not sectioned. Searched: none run.
-- Dried flowers (404 in STR pass) and Dwarf conifer (404 in FIX pass) were not retried.
-- No brands, renames or moves files changed. Nothing deferred to Firecrawl.
+## Remaining
+- Species without an English Wikipedia article are not listed (Philodendron, Anthurium, Hoya, Begonia, Rhododendron and Iris genera are far larger). No accepted-species register (POWO, WFO) was fetched. Counts are "Covers n", never "Complete", for these kinds.
+- Not queried (budget): Citrus species, Acer palmatum (query returned no rows), Hippeastrum, Lilium, Sempervivum cultivars, Camellia/Hosta/Narcissus cultivar sets (Wikidata has only a few), orchid greges, RHS AGM lists.
+- Cultivar kinds over 12 entries (tomato, beans, brassica, onion, rose classes, olive, apple) have no section axis in any source read; left unsectioned.
+- Wikidata rows were returned through a summariser; large lists could have dropped rows (Hoya and Mammillaria counts matched the Wikidata counts).
+- No market facts or roles added; no plant-breeder market list exists in fetched pages. Dried flowers and dwarf conifer not retried. Firecrawl not used.

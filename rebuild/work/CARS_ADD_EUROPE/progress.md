@@ -3,3 +3,4 @@ step1: wikidata q.py works via WebFetch (json). rows1.tsv = batch1 British (Bris
 step2: q2.py (country-filter query, class regex) run for UK (wd:Q145) -> rows_uk.txt (marque | model | year | classes | enwiki title). Next countries: DE Q183, FR Q142, IT Q38, SE Q34, NL Q55, CZ Q213, ES Q29, RU Q159, PL Q36, RO Q218, RS Q403, others
 step3: Germany done -> rows_de.txt
 step4: France done -> rows_fr.txt (note Peugeot/Citroen/DS excluded as covered; PSA rows dropped). u_it.txt = Italy query url
+step5: Italy done -> rows_it.txt. REVISION read (end of CARS_ADD_COMMON.txt): unstated-class models go to kind 'Car, body style not stated' sectioned by marque; prefer Wikipedia 'List of <marque> vehicles' tables with years read in offset windows; tier Global group if sourced parent is a global carmaker else Independent. ~10 fetches used. Next: List-of pages per marque (Triumph, Rover, Austin, Morris, Vauxhall...), then facts query

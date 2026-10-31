@@ -181,6 +181,10 @@ if lg is None:
     lg=fam('Lagoon',[(a,b,'') for a,b,*_ in lag],'Lagoon',B.JEA,'Catamaran range first built by Jeanneau in 1987 with the Lagoon 55.','1987–'); mh['x'].append(lg)
 else:
     for a,b,*_ in lag: addv(lg,a,b,'',mk='Lagoon')
+# Dufour (names only, Wikidata)
+de={'n':'Dufour Yachts','a':'Dufour','d':'La Rochelle builder; its models are listed on Wikidata as sailboat classes without dates.','mk':'Dufour','y':'','s':W+'Q106489183','v':[]}
+for n in open('dufour.txt').read().split('\n'): addv(de,n,'','',mk='Dufour')
+addx(cm,de)
 # Hallberg-Rassy
 hr=next((e for e in cm['x'] if e['n']=='Hallberg-Rassy'),None)
 if hr is None:
@@ -240,10 +244,10 @@ SAILNL={'Sailing dinghy':'One entry is a sailing dinghy class or design with its
 'Cruising multihull':'One entry is a cruising catamaran or trimaran range; sizes are versions.',
 'Ice boat':'One entry is an ice-boat class.'}
 cov={}
-def covline(n): return 'Covers %d of about 1,943 in the Wikidata sailboat class set (Q106179098); the rest are classes with two or fewer Wikipedia articles, mostly one-off production yachts, not read in this pass. Windsurfer classes (RS:X, iQFoil, Mistral One Design, Windglider) are left to E2.'%nread
+def covline(n): return 'Complete: all %d English-labelled items of the Wikidata sailboat class set (Q106179098; 1,943 items with labels in all languages) were read. Windsurfer and board classes (RS:X, iQFoil, Mistral, Windglider and a block of French funboard and catamaran ranges) are left to E2, and rows that are not classes (championship result lists) or that repeat Beneteau, Jeanneau and Hallberg-Rassy models listed from the builder pages are not entered twice.'%nread
 for k in SAIL['k']:
     if k['n'] in SAILNL and k.get('x'):
-        finalize_kind(k,SAILNL[k['n']],'Follows Wikidata\'s sailboat class set (read in order of Wikipedia sitelinks, classes first, then the sitelink-2 tier A to R, reading rows 1 to 533), World Sailing and Olympic classes, plus Wikipedia builder pages for Beneteau, Jeanneau and Hallberg-Rassy. '+covline(k['n']))
+        finalize_kind(k,SAILNL[k['n']],'Follows Wikidata\'s sailboat class set (read in order of Wikipedia sitelinks, classes first, then the one-article tier to its end), World Sailing and Olympic classes, plus Wikipedia builder pages for Beneteau, Jeanneau and Hallberg-Rassy. '+covline(k['n']))
 # DN in ice boat
 wi=[r for r in [] ]
 # powerboat / other kinds
