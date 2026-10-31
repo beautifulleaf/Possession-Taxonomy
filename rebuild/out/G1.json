@@ -5492,17 +5492,13 @@
    "s": [
     {
      "n": "Road motorcycles",
+     "t": "Motorcycles built mainly for the road, named by riding position and what the engine is tuned for; a retro-look bike → Retro & custom styles.",
+     "ax": "kinds by riding position and purpose: upright all-rounder, lean-forward speed, laid-back cruising, distance, mixed surfaces",
      "k": [
       {
        "n": "Standard motorcycle",
        "a": "naked motorcycle · roadster · streetfighter · modern classic",
        "d": "General-purpose motorcycle with an upright riding position and little or no fairing.",
-       "t": [
-        "naked",
-        "retro / modern classic",
-        "streetfighter",
-        "learner-legal (A2)"
-       ],
        "s": "https://mvpmotorcycles.com/ap_branch/standard-naked",
        "x": [
         {
@@ -5840,19 +5836,28 @@
          "MT-09",
          "Yamaha Motor"
         ]
+       ],
+       "tt": [
+        [
+         "Style",
+         [
+          "Naked",
+          "Retro (modern classic)",
+          "Streetfighter"
+         ]
+        ],
+        [
+         "Licence",
+         [
+          "Learner-legal (A2)"
+         ]
+        ]
        ]
       },
       {
        "n": "Sport motorcycle",
        "a": "sportbike · superbike · supersport",
        "d": "Motorcycle built for speed and handling, with a forward-leaning position and full fairing.",
-       "t": [
-        "supersport (600–750 cc)",
-        "superbike (1000 cc class)",
-        "hypersport",
-        "sport-touring",
-        "lightweight sport"
-       ],
        "s": "https://mvpmotorcycles.com/ap_branch/standard-naked",
        "x": [
         {
@@ -6203,18 +6208,24 @@
          "Ninja 1100SX",
          "Kawasaki"
         ]
+       ],
+       "tt": [
+        [
+         "Class",
+         [
+          "Lightweight sport",
+          "Supersport (600–750 cc)",
+          "Superbike (1000 cc class)",
+          "Hypersport",
+          "Sport-touring"
+         ]
+        ]
        ]
       },
       {
        "n": "Cruiser motorcycle",
        "a": "custom · factory custom",
        "d": "Low-seated motorcycle with feet-forward controls and a laid-back riding position.",
-       "t": [
-        "classic cruiser",
-        "power cruiser",
-        "bagger",
-        "factory custom"
-       ],
        "s": "https://mvpmotorcycles.com/ap_branch/standard-naked",
        "x": [
         {
@@ -6434,18 +6445,23 @@
          "MGX-21",
          "Moto Guzzi"
         ]
+       ],
+       "tt": [
+        [
+         "Style",
+         [
+          "Classic cruiser",
+          "Power cruiser",
+          "Bagger",
+          "Factory custom"
+         ]
+        ]
        ]
       },
       {
        "n": "Touring motorcycle",
        "a": "tourer · full dresser · bagger",
        "d": "Large motorcycle made for long distances, with wind protection, luggage and passenger comfort.",
-       "t": [
-        "full dresser",
-        "bagger",
-        "sport-tourer",
-        "luxury tourer"
-       ],
        "s": "https://mvpmotorcycles.com/ap_branch/standard-naked",
        "x": [
         {
@@ -6548,18 +6564,28 @@
          ],
          "dt": "Panhead to Milwaukee-Eight · batwing or frame-mounted fairing"
         }
+       ],
+       "tt": [
+        [
+         "Equipment",
+         [
+          "Full dresser",
+          "Bagger"
+         ]
+        ],
+        [
+         "Style",
+         [
+          "Sport-tourer",
+          "Luxury tourer"
+         ]
+        ]
        ]
       },
       {
        "n": "Adventure motorcycle",
        "a": "adventure tourer · dual-sport motorcycle",
        "d": "Motorcycle made for both road and unpaved riding, with long suspension travel.",
-       "t": [
-        "adventure-touring",
-        "dual-sport",
-        "rally replica",
-        "middleweight adventure"
-       ],
        "s": "https://mvpmotorcycles.com/ap_branch/standard-naked",
        "x": [
         {
@@ -6685,16 +6711,42 @@
          ],
          "dt": "generation"
         }
+       ],
+       "tt": [
+        [
+         "Size",
+         [
+          "Middleweight adventure",
+          "Large adventure"
+         ]
+        ],
+        [
+         "Style",
+         [
+          "Adventure-touring",
+          "Rally replica"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Dual-sport motorcycle",
+         "lighter, dirt-biased cousin"
+        ]
        ]
-      },
+      }
+     ]
+    },
+    {
+     "n": "Retro & custom styles",
+     "t": "Bikes styled on an older scene, whether made by a factory or built at home; a plain modern bike → Road motorcycles.",
+     "ax": "kinds by the scene whose look they copy: 1960s road racing, 1950s dirt riding, post-war custom",
+     "k": [
       {
        "n": "Café racer",
        "a": "cafe racer · ton-up bike",
        "d": "Stripped sport roadster with low clip-on bars and rear-set footrests, from London's 1960s rocker scene; factory and custom built.",
-       "t": [
-        "factory café racer",
-        "custom café racer"
-       ],
        "s": "https://en.wikipedia.org/wiki/Café_racer",
        "x": [
         {
@@ -6813,16 +6865,21 @@
          "v": [],
          "dt": ""
         }
+       ],
+       "tt": [
+        [
+         "Origin",
+         [
+          "Factory café racer",
+          "Custom café racer"
+         ]
+        ]
        ]
       },
       {
        "n": "Scrambler",
        "a": "street scrambler",
        "d": "Road motorcycle styled for light dirt use, with high exhaust, wide bars and semi-knobbly tyres.",
-       "t": [
-        "classic scrambler",
-        "modern-classic scrambler"
-       ],
        "s": "https://www.bikebound.com/2025/12/08/what-is-a-scrambler/",
        "x": [
         {
@@ -6934,48 +6991,23 @@
          "v": [],
          "dt": ""
         }
+       ],
+       "tt": [
+        [
+         "Era",
+         [
+          "Classic scrambler",
+          "Modern-classic scrambler"
+         ]
+        ]
        ]
       },
       {
        "n": "Chopper and bobber",
        "a": "custom motorcycle · bob-job",
        "d": "Custom motorcycle either stripped to a minimum (bobber) or cut and stretched with raked forks (chopper).",
-       "t": [
-        "chopper",
-        "bobber",
-        "factory custom"
-       ],
        "s": "https://en.wikipedia.org/wiki/Chopper_(motorcycle)",
        "x": [
-        {
-         "n": "Bob-job",
-         "a": "bobber",
-         "d": "American custom stripped of front fender and excess parts on an unmodified frame.",
-         "mk": "",
-         "y": "mid-1930s",
-         "s": "https://en.wikipedia.org/wiki/Bobber_(motorcycle)",
-         "v": [
-          {
-           "n": "Honda Shadow Spirit 750",
-           "mk": "Honda",
-           "y": "2001",
-           "d": "production bobber styling"
-          },
-          {
-           "n": "Softail Cross Bones",
-           "mk": "Harley-Davidson",
-           "y": "2008",
-           "d": "springer fork, cut-down fender"
-          },
-          {
-           "n": "Yamaha XV950",
-           "mk": "Yamaha Motor",
-           "y": "2014",
-           "d": "production bobber"
-          }
-         ],
-         "dt": "springer fork · solo sprung saddle · flat paint"
-        },
         {
          "n": "Captain America chopper",
          "a": "",
@@ -7003,17 +7035,49 @@
          "v": [],
          "dt": ""
         }
+       ],
+       "m": [
+        [
+         "Honda Shadow Spirit 750",
+         "Honda"
+        ],
+        [
+         "Softail Cross Bones",
+         "Harley-Davidson"
+        ],
+        [
+         "Yamaha XV950",
+         "Yamaha Motor"
+        ]
+       ],
+       "tt": [
+        [
+         "Style",
+         [
+          "Chopper",
+          "Bobber"
+         ]
+        ],
+        [
+         "Origin",
+         [
+          "Factory custom",
+          "Home-built"
+         ]
+        ]
        ]
-      },
+      }
+     ]
+    },
+    {
+     "n": "Three-wheelers & sidecars",
+     "t": "Motorcycles that carry extra weight on a third wheel or a sidecar; a three-wheeled car → Cars.",
+     "ax": "kinds by what carries the extra weight: a rear axle or a sidecar",
+     "k": [
       {
        "n": "Trike",
        "a": "three-wheeled motorcycle · reverse trike",
        "d": "Three-wheeled motorcycle, with two wheels at the rear or two at the front.",
-       "t": [
-        "conventional trike (two rear wheels)",
-        "reverse trike (two front wheels)",
-        "trike conversion"
-       ],
        "s": "https://can-am.brp.com/on-road/us/en",
        "x": [
         {
@@ -7073,17 +7137,35 @@
          "v": [],
          "dt": ""
         }
+       ],
+       "tt": [
+        [
+         "Layout",
+         [
+          "Conventional (two rear wheels)",
+          "Reverse (two front wheels)"
+         ]
+        ],
+        [
+         "Origin",
+         [
+          "Factory built",
+          "Trike conversion"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Three-wheeled car",
+         "car-style three-wheeler"
+        ]
        ]
       },
       {
        "n": "Motorcycle with sidecar",
        "a": "sidecar outfit · combination",
        "d": "Motorcycle sold with a one-wheeled passenger car attached at the side.",
-       "t": [
-        "sidecar-wheel drive (2WD)",
-        "single-wheel drive",
-        "sidecar conversion"
-       ],
        "s": "https://www.ural.cc/modelle?lang=en",
        "x": [
         {
@@ -7174,26 +7256,35 @@
          ],
          "dt": "solo or sidecar · 650 cc boxer"
         }
+       ],
+       "tt": [
+        [
+         "Drive",
+         [
+          "Single-wheel drive",
+          "Sidecar-wheel drive (2WD)"
+         ]
+        ],
+        [
+         "Origin",
+         [
+          "Factory outfit",
+          "Sidecar conversion"
+         ]
+        ]
        ]
       }
      ]
     },
     {
      "n": "Off-road motorcycles",
+     "t": "Lightweight motorcycles for dirt, from competition machines to trail and fun bikes; a bike for tarmac and gravel touring → Adventure motorcycle.",
+     "ax": "kinds by what the rider does: race a short track, race a long course, climb obstacles, mix tarmac and dirt, ride trails",
      "k": [
       {
        "n": "Motocross bike",
        "a": "MX bike · supercross bike · minicross bike",
        "d": "Off-road racing motorcycle for closed motocross and supercross tracks, with no lights or road equipment.",
-       "t": [
-        "two-stroke",
-        "four-stroke",
-        "electric",
-        "50–85 cc youth and minicross",
-        "125 cc / 250F class",
-        "250 cc two-stroke",
-        "450 cc four-stroke"
-       ],
        "s": "https://www.husqvarna-motorcycles.com/news/2026-offroad-line-up",
        "x": [
         {
@@ -7486,19 +7577,31 @@
          "CRF150R",
          "Honda"
         ]
+       ],
+       "tt": [
+        [
+         "Engine",
+         [
+          "Two-stroke",
+          "Four-stroke",
+          "Electric"
+         ]
+        ],
+        [
+         "Class",
+         [
+          "Youth and minicross (50–85 cc)",
+          "125 cc / 250F class",
+          "250 cc two-stroke",
+          "450 cc four-stroke"
+         ]
+        ]
        ]
       },
       {
        "n": "Enduro bike",
        "a": "enduro motorcycle · cross-country bike",
        "d": "Off-road competition motorcycle with lights and a wide-ratio gearbox for long timed enduro and cross-country events.",
-       "t": [
-        "two-stroke",
-        "four-stroke",
-        "road-registered",
-        "cross-country (XC)",
-        "wide-ratio gearbox"
-       ],
        "s": "https://www.husqvarna-motorcycles.com/news/2026-offroad-line-up",
        "x": [
         {
@@ -7697,19 +7800,35 @@
          "v": [],
          "dt": "air-cooled two-stroke · vintage"
         }
+       ],
+       "tt": [
+        [
+         "Engine",
+         [
+          "Two-stroke",
+          "Four-stroke"
+         ]
+        ],
+        [
+         "Registration",
+         [
+          "Road-registered",
+          "Competition only"
+         ]
+        ],
+        [
+         "Style",
+         [
+          "Cross-country (XC)",
+          "Wide-ratio gearbox"
+         ]
+        ]
        ]
       },
       {
        "n": "Trials bike",
        "a": "trial bike · observed trials bike",
        "d": "Very light, seatless motorcycle with short suspension, ridden standing over obstacles in observed trials.",
-       "t": [
-        "two-stroke",
-        "four-stroke",
-        "electric",
-        "youth",
-        "classic twin-shock"
-       ],
        "s": "https://prebare.trial.sdi.es/en/?p=66680",
        "x": [
         {
@@ -7856,20 +7975,171 @@
          ],
          "dt": "two/four-stroke · displacement"
         }
+       ],
+       "tt": [
+        [
+         "Engine",
+         [
+          "Two-stroke",
+          "Four-stroke",
+          "Electric"
+         ]
+        ],
+        [
+         "Era",
+         [
+          "Classic twin-shock",
+          "Modern"
+         ]
+        ],
+        [
+         "Rider",
+         [
+          "Youth",
+          "Adult"
+         ]
+        ]
+       ]
+      },
+      {
+       "n": "Supermoto",
+       "a": "supermotard · motard",
+       "d": "Off-road motorcycle fitted with road wheels and tyres and big brakes for mixed tarmac and dirt riding or racing.",
+       "s": "https://en.wikipedia.org/wiki/Supermoto",
+       "x": [
+        {
+         "n": "Gilera Nordwest",
+         "a": "Nordwest",
+         "d": "The first factory-produced supermoto.",
+         "mk": "Gilera",
+         "y": "1991",
+         "s": "https://en.wikipedia.org/wiki/Supermoto",
+         "v": [],
+         "dt": "model year"
+        },
+        {
+         "n": "KTM 690 SMC R",
+         "a": "690 SMC R · SMC R",
+         "d": "KTM's single-cylinder road supermoto, fully renewed for 2019.",
+         "mk": "KTM",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/KTM",
+         "v": [
+          {
+           "n": "690 SMC R",
+           "mk": "KTM",
+           "y": "2019",
+           "d": "Renewed model"
+          },
+          {
+           "n": "450 SMR",
+           "mk": "KTM",
+           "y": "",
+           "d": "Competition supermoto"
+          }
+         ],
+         "dt": "four-stroke · model year"
+        },
+        {
+         "n": "Husqvarna 701 Supermoto",
+         "a": "701",
+         "d": "Husqvarna's 701 cc single-cylinder supermoto, sister to the 701 Enduro.",
+         "mk": "Husqvarna Motorcycles",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Husqvarna_Motorcycles",
+         "v": [
+          {
+           "n": "701 Supermoto",
+           "mk": "Husqvarna Motorcycles",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "FS 450",
+           "mk": "Husqvarna Motorcycles",
+           "y": "",
+           "d": "Competition"
+          }
+         ],
+         "dt": "four-stroke · model year"
+        }
+       ],
+       "m": [
+        [
+         "DR-Z400 SM",
+         "Suzuki"
+        ],
+        [
+         "WR250X",
+         "Yamaha Motor"
+        ],
+        [
+         "KLX300 SM",
+         "Kawasaki"
+        ],
+        [
+         "SMR 450",
+         "TM Racing"
+        ],
+        [
+         "SXV 550",
+         "Aprilia"
+        ],
+        [
+         "FXS",
+         "Zero"
+        ]
+       ],
+       "tt": [
+        [
+         "Use",
+         [
+          "Road-legal",
+          "Competition"
+         ]
+        ]
+       ]
+      },
+      {
+       "n": "Dual-sport motorcycle",
+       "a": "dual-purpose · trail-legal enduro",
+       "d": "Road-legal motorcycle with long-travel suspension and a tall seat, lighter than an adventure bike and equally at home on dirt tracks.",
+       "s": "https://en.wikipedia.org/wiki/Types_of_motorcycles",
+       "tt": [
+        [
+         "Bias",
+         [
+          "Road-biased",
+          "Dirt-biased"
+         ]
+        ],
+        [
+         "Engine size",
+         [
+          "Under 400 cc",
+          "400–650 cc"
+         ]
+        ],
+        [
+         "Start",
+         [
+          "Kick start",
+          "Electric start"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Adventure motorcycle",
+         "larger touring cousin"
+        ]
        ]
       },
       {
        "n": "Trail bike",
        "a": "trailbike · fun bike · play bike · kids' dirt bike",
        "d": "Easy recreational off-road motorcycle for trail riding and learners, often for children; not built for racing.",
-       "t": [
-        "automatic",
-        "semi-automatic",
-        "manual clutch",
-        "children's",
-        "adult",
-        "electric start"
-       ],
        "s": "https://en.wikipedia.org/wiki/Dual-sport_motorcycle",
        "x": [
         {
@@ -8022,99 +8292,29 @@
          "RR 2T 50",
          "Beta"
         ]
-       ]
-      },
-      {
-       "n": "Supermoto",
-       "a": "supermotard · motard",
-       "d": "Off-road motorcycle fitted with road wheels and tyres and big brakes for mixed tarmac and dirt riding or racing.",
-       "t": [
-        "road-legal",
-        "competition"
        ],
-       "s": "https://en.wikipedia.org/wiki/Supermoto",
-       "x": [
-        {
-         "n": "Gilera Nordwest",
-         "a": "Nordwest",
-         "d": "The first factory-produced supermoto.",
-         "mk": "Gilera",
-         "y": "1991",
-         "s": "https://en.wikipedia.org/wiki/Supermoto",
-         "v": [],
-         "dt": "model year"
-        },
-        {
-         "n": "KTM 690 SMC R",
-         "a": "690 SMC R · SMC R",
-         "d": "KTM's single-cylinder road supermoto, fully renewed for 2019.",
-         "mk": "KTM",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/KTM",
-         "v": [
-          {
-           "n": "690 SMC R",
-           "mk": "KTM",
-           "y": "2019",
-           "d": "Renewed model"
-          },
-          {
-           "n": "450 SMR",
-           "mk": "KTM",
-           "y": "",
-           "d": "Competition supermoto"
-          }
-         ],
-         "dt": "four-stroke · model year"
-        },
-        {
-         "n": "Husqvarna 701 Supermoto",
-         "a": "701",
-         "d": "Husqvarna's 701 cc single-cylinder supermoto, sister to the 701 Enduro.",
-         "mk": "Husqvarna Motorcycles",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Husqvarna_Motorcycles",
-         "v": [
-          {
-           "n": "701 Supermoto",
-           "mk": "Husqvarna Motorcycles",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "FS 450",
-           "mk": "Husqvarna Motorcycles",
-           "y": "",
-           "d": "Competition"
-          }
-         ],
-         "dt": "four-stroke · model year"
-        }
-       ],
-       "m": [
+       "tt": [
         [
-         "DR-Z400 SM",
-         "Suzuki"
+         "Clutch",
+         [
+          "Automatic",
+          "Semi-automatic",
+          "Manual clutch"
+         ]
         ],
         [
-         "WR250X",
-         "Yamaha Motor"
+         "Start",
+         [
+          "Kick start",
+          "Electric start"
+         ]
         ],
         [
-         "KLX300 SM",
-         "Kawasaki"
-        ],
-        [
-         "SMR 450",
-         "TM Racing"
-        ],
-        [
-         "SXV 550",
-         "Aprilia"
-        ],
-        [
-         "FXS",
-         "Zero"
+         "Rider",
+         [
+          "Children's",
+          "Adult"
+         ]
         ]
        ]
       },
@@ -8122,11 +8322,6 @@
        "n": "Pit bike",
        "a": "mini bike · minimoto dirt bike",
        "d": "Small-wheeled air-cooled dirt bike of 50–190 cc for fun, stunts and pit transport, typically 14-inch front and 12-inch rear wheels.",
-       "t": [
-        "50 cc",
-        "110–190 cc",
-        "Honda-clone engine"
-       ],
        "s": "https://en.wikipedia.org/wiki/Pit_bike",
        "x": [
         {
@@ -8201,23 +8396,41 @@
          "KLX110",
          "Kawasaki"
         ]
+       ],
+       "tt": [
+        [
+         "Engine size",
+         [
+          "50 cc",
+          "110–190 cc"
+         ]
+        ],
+        [
+         "Engine",
+         [
+          "Honda-clone engine"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Mini bike",
+         "small fun bikes"
+        ]
        ]
       }
      ]
     },
     {
      "n": "Scooters, mopeds & cubs",
+     "t": "Small-engined step-through machines for short trips; a pedal-assisted bicycle → Electric bike.",
+     "ax": "kinds by frame and engine layout: scooter platform, pedal frame, cub underbone, mini frame",
      "k": [
       {
        "n": "Scooter",
        "a": "motor scooter",
        "d": "Motor scooter with a step-through frame, floorboard and small wheels.",
-       "t": [
-        "classic scooter",
-        "maxi-scooter",
-        "three-wheel tilting scooter",
-        "electric scooter"
-       ],
        "s": "https://www.vespa.com/en_EN/models",
        "x": [
         {
@@ -8719,18 +8932,36 @@
          "UQi",
          "NIU"
         ]
+       ],
+       "tt": [
+        [
+         "Style",
+         [
+          "Classic scooter",
+          "Maxi-scooter",
+          "Three-wheel tilting scooter"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Petrol",
+          "Electric"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "H2",
+         "Mobility scooter",
+         "for reduced mobility, not a motorcycle"
+        ]
        ]
       },
       {
        "n": "Moped",
        "a": "",
        "d": "Light low-powered two-wheeler with a small engine or motor, historically with bicycle pedals.",
-       "t": [
-        "pedal moped",
-        "step-through moped",
-        "sports moped",
-        "electric moped"
-       ],
        "s": "https://en.wikipedia.org/wiki/Moped",
        "x": [
         {
@@ -8956,16 +9187,29 @@
          "Sprint",
          "Tomos"
         ]
+       ],
+       "tt": [
+        [
+         "Style",
+         [
+          "Pedal moped",
+          "Step-through moped",
+          "Sports moped"
+         ]
+        ],
+        [
+         "Power",
+         [
+          "Petrol",
+          "Electric"
+         ]
+        ]
        ]
       },
       {
        "n": "Underbone motorcycle",
        "a": "step-through · cub · moped (in the West)",
        "d": "Light motorcycle with a tubular backbone frame under plastic panels, often step-through, with a semi-automatic gearbox.",
-       "t": [
-        "step-through cub",
-        "sports underbone"
-       ],
        "s": "https://en.wikipedia.org/wiki/Underbone",
        "x": [
         {
@@ -9125,6 +9369,15 @@
          "XRM",
          "Honda"
         ]
+       ],
+       "tt": [
+        [
+         "Style",
+         [
+          "Step-through cub",
+          "Sports underbone"
+         ]
+        ]
        ]
       },
       {
@@ -9226,22 +9479,26 @@
          ],
          "dt": ""
         }
+       ],
+       "see": [
+        [
+         "G1",
+         "Pit bike",
+         "small off-road bikes"
+        ]
        ]
       }
      ]
     },
     {
      "n": "Electric rides",
+     "t": "Personal electric machines ridden standing or balancing; a motorised bicycle → Electric bike.",
+     "ax": "kinds by how the rider stands and balances: deck with handlebar, board, one wheel, two wheels side by side",
      "k": [
       {
        "n": "Electric kick scooter",
        "a": "e-scooter · electric scooter",
        "d": "Stand-up scooter with an electric motor, made to carry a rider from place to place.",
-       "t": [
-        "folding commuter",
-        "dual-motor performance",
-        "children's"
-       ],
        "s": "https://store.segway.com/ninebot-kickscooter-max-g30lp",
        "x": [
         {
@@ -9441,311 +9698,35 @@
          "RS",
          "InMotion"
         ]
-       ]
-      },
-      {
-       "n": "Electric unicycle",
-       "a": "EUC · e-unicycle",
-       "d": "One-wheeled self-balancing electric vehicle ridden standing.",
-       "t": [
-        "suspension",
-        "non-suspension",
-        "seated"
        ],
-       "s": "https://www.wilsonebikes.com/products/inmotion-v14-pro-electric-unicycle",
-       "x": [
-        {
-         "n": "Solowheel",
-         "a": "",
-         "d": "Shane Chen's seatless self-balancing unicycle, the first widely sold electric unicycle.",
-         "mk": "Inventist",
-         "y": "2011",
-         "s": "https://en.wikipedia.org/wiki/Electric_unicycle",
-         "v": [
-          {
-           "n": "Solowheel",
-           "mk": "Inventist",
-           "y": "2011",
-           "d": "launched February 2011; patent filed 2010"
-          }
-         ],
-         "dt": ""
-        },
-        {
-         "n": "Ninebot One",
-         "a": "",
-         "d": "Segway-Ninebot's electric unicycle range for beginners and commuters.",
-         "mk": "Segway-Ninebot",
-         "y": "2017",
-         "s": "https://en.wikipedia.org/wiki/Ninebot",
-         "v": [
-          {
-           "n": "One S1",
-           "mk": "Segway-Ninebot",
-           "y": "2017"
-          },
-          {
-           "n": "One S2",
-           "mk": "Segway-Ninebot"
-          },
-          {
-           "n": "One E+",
-           "mk": "Segway-Ninebot"
-          }
-         ],
-         "dt": "battery size"
-        },
-        {
-         "n": "Begode M-series",
-         "a": "Gotway Msuper",
-         "d": "Begode (formerly Gotway) performance wheel line that grew from the Msuper into the MSX, MSP and RS.",
-         "mk": "Begode",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Electric_unicycle",
-         "v": [
-          {
-           "n": "Msuper X",
-           "mk": "Begode"
-          },
-          {
-           "n": "MSX",
-           "mk": "Begode",
-           "y": "2018",
-           "d": "2000 W, 84 V, 18-inch"
-          },
-          {
-           "n": "MSP",
-           "mk": "Begode"
-          },
-          {
-           "n": "RS",
-           "mk": "Begode"
-          }
-         ],
-         "dt": "voltage 84–100 V · battery Wh · 18-inch wheel"
-        },
-        {
-         "n": "InMotion V11",
-         "a": "",
-         "d": "First electric unicycle with built-in air-spring pedal suspension.",
-         "mk": "InMotion",
-         "y": "2020",
-         "s": "https://www.designboom.com/technology/inmotion-v11-first-electric-unicycle-with-built-in-air-suspension-09-07-2020/",
-         "v": [
-          {
-           "n": "V11",
-           "mk": "InMotion",
-           "y": "2020",
-           "d": "2200 W, 1500 Wh, 3-inch tyre"
-          },
-          {
-           "n": "V11Y",
-           "mk": "InMotion"
-          }
-         ],
-         "dt": "suspension travel · battery Wh"
-        },
-        {
-         "n": "King Song 16X",
-         "a": "KS-16X",
-         "d": "16-inch high-capacity commuter wheel from King Song.",
-         "mk": "King Song",
-         "y": "",
-         "s": "https://kingsong.com/products/kingsong-16x",
-         "v": [
-          {
-           "n": "16X",
-           "mk": "King Song",
-           "d": "2200 W, 1554 Wh, 16-inch"
-          }
-         ],
-         "dt": "16-inch tyre · battery Wh"
-        },
-        {
-         "n": "Veteran Sherman",
-         "a": "",
-         "d": "Leaperkim's large-battery 18-inch road wheel series sold under the Veteran name.",
-         "mk": "Leaperkim",
-         "y": "",
-         "s": "https://freshlycharged.com/products/161/leaperkim-veteran-sherman-max",
-         "v": [
-          {
-           "n": "Sherman-S",
-           "mk": "Leaperkim"
-          },
-          {
-           "n": "Sherman Max",
-           "mk": "Leaperkim",
-           "y": "2022",
-           "d": "2800 W, 3600 Wh, 18-inch"
-          }
-         ],
-         "dt": "battery Wh · suspension"
-        }
-       ],
-       "m": [
+       "tt": [
         [
-         "EX",
-         "Begode"
+         "Class",
+         [
+          "Folding commuter",
+          "Dual-motor performance"
+         ]
         ],
         [
-         "Monster Pro",
-         "Begode"
-        ],
-        [
-         "Mten3",
-         "Begode"
-        ],
-        [
-         "V14 Pro",
-         "InMotion"
-        ],
-        [
-         "V12 Pro",
-         "InMotion"
-        ],
-        [
-         "S22 Pro",
-         "King Song"
-        ],
-        [
-         "Patton S",
-         "Leaperkim"
-        ],
-        [
-         "Aero",
-         "Nosfet"
+         "Rider",
+         [
+          "Adult",
+          "Children's"
+         ]
         ]
-       ]
-      },
-      {
-       "n": "Hoverboard",
-       "a": "self-balancing board · self-balancing scooter · Swegway",
-       "d": "Two-wheeled self-balancing electric board ridden standing.",
-       "s": "https://www.hover-1.com/products/hover-1-titan-hoverboard",
-       "x": [
-        {
-         "n": "Hovertrax",
-         "a": "",
-         "d": "Shane Chen's original self-balancing two-wheel board, launched on Kickstarter.",
-         "mk": "Inventist",
-         "y": "2013",
-         "s": "https://en.wikipedia.org/wiki/Self-balancing_scooter",
-         "v": [
-          {
-           "n": "Hovertrax",
-           "mk": "Inventist",
-           "y": "2013",
-           "d": "Kickstarter May 2013; patent filed February 2013"
-          }
-         ],
-         "dt": ""
-        },
-        {
-         "n": "Segway miniPRO",
-         "a": "",
-         "d": "Segway's smaller self-balancing scooter, among the first UL-certified boards.",
-         "mk": "Segway-Ninebot",
-         "y": "2016",
-         "s": "https://en.wikipedia.org/wiki/Segway_PT",
-         "v": [
-          {
-           "n": "miniPRO",
-           "mk": "Segway-Ninebot",
-           "y": "2016",
-           "d": "UL certification May 2016"
-          }
-         ],
-         "dt": ""
-        }
        ],
-       "m": [
+       "see": [
         [
-         "Titan",
-         "Hover-1"
+         "E2",
+         "Kick scooter",
+         "pushed by foot, no motor"
         ]
-       ]
-      },
-      {
-       "n": "Self-balancing personal transporter",
-       "a": "Segway · gyropode",
-       "d": "Two-wheeled self-balancing vehicle ridden standing and steered by a handlebar.",
-       "s": "https://en.wikipedia.org/wiki/Segway_PT",
-       "x": [
-        {
-         "n": "Segway PT",
-         "a": "Segway HT",
-         "d": "Dean Kamen's self-balancing transporter, unveiled 2001 and built until 2020.",
-         "mk": "Segway-Ninebot",
-         "y": "2001",
-         "s": "https://en.wikipedia.org/wiki/Segway_PT",
-         "v": [
-          {
-           "n": "i167",
-           "mk": "Segway-Ninebot",
-           "y": "2002",
-           "d": "first shipped model"
-          },
-          {
-           "n": "e167",
-           "mk": "Segway-Ninebot",
-           "d": "i167 with electric kickstand"
-          },
-          {
-           "n": "p133",
-           "mk": "Segway-Ninebot",
-           "d": "smaller, less powerful"
-          },
-          {
-           "n": "i180",
-           "mk": "Segway-Ninebot",
-           "d": "first with lithium-ion batteries"
-          },
-          {
-           "n": "XT",
-           "mk": "Segway-Ninebot",
-           "d": "first recreational model"
-          },
-          {
-           "n": "i2",
-           "mk": "Segway-Ninebot",
-           "y": "2006",
-           "d": "on-road, LeanSteer"
-          },
-          {
-           "n": "x2",
-           "mk": "Segway-Ninebot",
-           "y": "2006",
-           "d": "off-road, LeanSteer"
-          },
-          {
-           "n": "i2 SE / x2 SE",
-           "mk": "Segway-Ninebot",
-           "y": "2014",
-           "d": "third generation"
-          }
-         ],
-         "dt": "on-road or off-road tyres · battery type"
-        }
        ]
       },
       {
        "n": "Powered skateboard",
        "a": "electric skateboard · e-board · electric longboard",
        "d": "Skateboard with an electric motor, made to carry a rider from place to place.",
-       "t": [
-        "mini board",
-        "street (flexy) board",
-        "all-terrain (2-in-1) board",
-        "off-road mountainboard",
-        "racing board",
-        "folding board",
-        "one-wheel board",
-        "hub drive",
-        "direct drive",
-        "belt drive",
-        "gear drive"
-       ],
        "s": "https://www.evolveskateboards.com/",
        "x": [
         {
@@ -9924,12 +9905,348 @@
          "The Barrel",
          "LaCroix Boards"
         ]
+       ],
+       "tt": [
+        [
+         "Board",
+         [
+          "Mini board",
+          "Street (flexy) board",
+          "All-terrain (2-in-1) board",
+          "Off-road mountainboard",
+          "Racing board",
+          "Folding board",
+          "One-wheel board"
+         ]
+        ],
+        [
+         "Drive",
+         [
+          "Hub drive",
+          "Direct drive",
+          "Belt drive",
+          "Gear drive"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "E2",
+         "Skateboard",
+         "pushed by foot, no motor"
+        ]
+       ]
+      },
+      {
+       "n": "Electric unicycle",
+       "a": "EUC · e-unicycle",
+       "d": "One-wheeled self-balancing electric vehicle ridden standing.",
+       "s": "https://www.wilsonebikes.com/products/inmotion-v14-pro-electric-unicycle",
+       "x": [
+        {
+         "n": "Solowheel",
+         "a": "",
+         "d": "Shane Chen's seatless self-balancing unicycle, the first widely sold electric unicycle.",
+         "mk": "Inventist",
+         "y": "2011",
+         "s": "https://en.wikipedia.org/wiki/Electric_unicycle",
+         "v": [
+          {
+           "n": "Solowheel",
+           "mk": "Inventist",
+           "y": "2011",
+           "d": "launched February 2011; patent filed 2010"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Ninebot One",
+         "a": "",
+         "d": "Segway-Ninebot's electric unicycle range for beginners and commuters.",
+         "mk": "Segway-Ninebot",
+         "y": "2017",
+         "s": "https://en.wikipedia.org/wiki/Ninebot",
+         "v": [
+          {
+           "n": "One S1",
+           "mk": "Segway-Ninebot",
+           "y": "2017"
+          },
+          {
+           "n": "One S2",
+           "mk": "Segway-Ninebot"
+          },
+          {
+           "n": "One E+",
+           "mk": "Segway-Ninebot"
+          }
+         ],
+         "dt": "battery size"
+        },
+        {
+         "n": "Begode M-series",
+         "a": "Gotway Msuper",
+         "d": "Begode (formerly Gotway) performance wheel line that grew from the Msuper into the MSX, MSP and RS.",
+         "mk": "Begode",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Electric_unicycle",
+         "v": [
+          {
+           "n": "Msuper X",
+           "mk": "Begode"
+          },
+          {
+           "n": "MSX",
+           "mk": "Begode",
+           "y": "2018",
+           "d": "2000 W, 84 V, 18-inch"
+          },
+          {
+           "n": "MSP",
+           "mk": "Begode"
+          },
+          {
+           "n": "RS",
+           "mk": "Begode"
+          }
+         ],
+         "dt": "voltage 84–100 V · battery Wh · 18-inch wheel"
+        },
+        {
+         "n": "InMotion V11",
+         "a": "",
+         "d": "First electric unicycle with built-in air-spring pedal suspension.",
+         "mk": "InMotion",
+         "y": "2020",
+         "s": "https://www.designboom.com/technology/inmotion-v11-first-electric-unicycle-with-built-in-air-suspension-09-07-2020/",
+         "v": [
+          {
+           "n": "V11",
+           "mk": "InMotion",
+           "y": "2020",
+           "d": "2200 W, 1500 Wh, 3-inch tyre"
+          },
+          {
+           "n": "V11Y",
+           "mk": "InMotion"
+          }
+         ],
+         "dt": "suspension travel · battery Wh"
+        },
+        {
+         "n": "King Song 16X",
+         "a": "KS-16X",
+         "d": "16-inch high-capacity commuter wheel from King Song.",
+         "mk": "King Song",
+         "y": "",
+         "s": "https://kingsong.com/products/kingsong-16x",
+         "v": [
+          {
+           "n": "16X",
+           "mk": "King Song",
+           "d": "2200 W, 1554 Wh, 16-inch"
+          }
+         ],
+         "dt": "16-inch tyre · battery Wh"
+        },
+        {
+         "n": "Veteran Sherman",
+         "a": "",
+         "d": "Leaperkim's large-battery 18-inch road wheel series sold under the Veteran name.",
+         "mk": "Leaperkim",
+         "y": "",
+         "s": "https://freshlycharged.com/products/161/leaperkim-veteran-sherman-max",
+         "v": [
+          {
+           "n": "Sherman-S",
+           "mk": "Leaperkim"
+          },
+          {
+           "n": "Sherman Max",
+           "mk": "Leaperkim",
+           "y": "2022",
+           "d": "2800 W, 3600 Wh, 18-inch"
+          }
+         ],
+         "dt": "battery Wh · suspension"
+        }
+       ],
+       "m": [
+        [
+         "EX",
+         "Begode"
+        ],
+        [
+         "Monster Pro",
+         "Begode"
+        ],
+        [
+         "Mten3",
+         "Begode"
+        ],
+        [
+         "V14 Pro",
+         "InMotion"
+        ],
+        [
+         "V12 Pro",
+         "InMotion"
+        ],
+        [
+         "S22 Pro",
+         "King Song"
+        ],
+        [
+         "Patton S",
+         "Leaperkim"
+        ],
+        [
+         "Aero",
+         "Nosfet"
+        ]
+       ],
+       "tt": [
+        [
+         "Suspension",
+         [
+          "Suspension",
+          "Non-suspension"
+         ]
+        ],
+        [
+         "Seating",
+         [
+          "Standing",
+          "Seated"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "E2",
+         "Unicycle",
+         "pedalled one-wheeler"
+        ]
+       ]
+      },
+      {
+       "n": "Hoverboard",
+       "a": "self-balancing board · self-balancing scooter · Swegway",
+       "d": "Two-wheeled self-balancing electric board ridden standing.",
+       "s": "https://www.hover-1.com/products/hover-1-titan-hoverboard",
+       "x": [
+        {
+         "n": "Hovertrax",
+         "a": "",
+         "d": "Shane Chen's original self-balancing two-wheel board, launched on Kickstarter.",
+         "mk": "Inventist",
+         "y": "2013",
+         "s": "https://en.wikipedia.org/wiki/Self-balancing_scooter",
+         "v": [
+          {
+           "n": "Hovertrax",
+           "mk": "Inventist",
+           "y": "2013",
+           "d": "Kickstarter May 2013; patent filed February 2013"
+          }
+         ],
+         "dt": ""
+        },
+        {
+         "n": "Segway miniPRO",
+         "a": "",
+         "d": "Segway's smaller self-balancing scooter, among the first UL-certified boards.",
+         "mk": "Segway-Ninebot",
+         "y": "2016",
+         "s": "https://en.wikipedia.org/wiki/Segway_PT",
+         "v": [
+          {
+           "n": "miniPRO",
+           "mk": "Segway-Ninebot",
+           "y": "2016",
+           "d": "UL certification May 2016"
+          }
+         ],
+         "dt": ""
+        }
+       ],
+       "m": [
+        [
+         "Titan",
+         "Hover-1"
+        ]
+       ]
+      },
+      {
+       "n": "Self-balancing personal transporter",
+       "a": "Segway · gyropode",
+       "d": "Two-wheeled self-balancing vehicle ridden standing and steered by a handlebar.",
+       "s": "https://en.wikipedia.org/wiki/Segway_PT",
+       "x": [
+        {
+         "n": "Segway PT",
+         "a": "Segway HT",
+         "d": "Dean Kamen's self-balancing transporter, unveiled 2001 and built until 2020.",
+         "mk": "Segway-Ninebot",
+         "y": "2001",
+         "s": "https://en.wikipedia.org/wiki/Segway_PT",
+         "v": [
+          {
+           "n": "i167",
+           "mk": "Segway-Ninebot",
+           "y": "2002",
+           "d": "first shipped model"
+          },
+          {
+           "n": "e167",
+           "mk": "Segway-Ninebot",
+           "d": "i167 with electric kickstand"
+          },
+          {
+           "n": "p133",
+           "mk": "Segway-Ninebot",
+           "d": "smaller, less powerful"
+          },
+          {
+           "n": "i180",
+           "mk": "Segway-Ninebot",
+           "d": "first with lithium-ion batteries"
+          },
+          {
+           "n": "XT",
+           "mk": "Segway-Ninebot",
+           "d": "first recreational model"
+          },
+          {
+           "n": "i2",
+           "mk": "Segway-Ninebot",
+           "y": "2006",
+           "d": "on-road, LeanSteer"
+          },
+          {
+           "n": "x2",
+           "mk": "Segway-Ninebot",
+           "y": "2006",
+           "d": "off-road, LeanSteer"
+          },
+          {
+           "n": "i2 SE / x2 SE",
+           "mk": "Segway-Ninebot",
+           "y": "2014",
+           "d": "third generation"
+          }
+         ],
+         "dt": "on-road or off-road tyres · battery type"
+        }
        ]
       }
      ]
     }
    ],
-   "note": "By riding style, with model families and generations as archetypes; marques in the brand register."
+   "note": "By riding style, with model families and generations as archetypes; marques in the brand register.",
+   "t": "Powered two- and three-wheelers ridden astride or standing, from road bikes to personal electric machines; a pedal bicycle → Bicycles; riding clothing → Motorcycle riding gear.",
+   "ax": "Where and how is the machine ridden: on the road, in the dirt, as a small step-through, or on a personal electric board?"
   },
   {
    "n": "Motorcycle riding gear",
@@ -9943,21 +10260,14 @@
    ],
    "s": [
     {
-     "n": "Motorcycle helmets",
+     "n": "Head: helmets & communicators",
+     "t": "Helmets in four cover levels and the intercoms that clip to them; a helmet for one other sport → E2.",
+     "ax": "kinds by how much of the head is covered, most first, then the communicator fitted to any of them",
      "k": [
       {
        "n": "Full-face helmet",
        "a": "full face · integral helmet",
        "d": "Motorcycle helmet with a fixed chin bar enclosing the whole head and face, with a visor that swivels up and down.",
-       "t": [
-        "polycarbonate shell",
-        "fibreglass composite shell",
-        "Kevlar or carbon-fibre composite shell",
-        "round, intermediate-oval or long-oval fit",
-        "race (FIM-homologated)",
-        "sport-touring",
-        "retro"
-       ],
        "s": "https://www.revzilla.com/modular-motorcycle-helmets",
        "x": [
         {
@@ -10187,17 +10497,38 @@
          "Airstrike-X",
          "Acerbis"
         ]
+       ],
+       "tt": [
+        [
+         "Shell",
+         [
+          "Polycarbonate",
+          "Fibreglass composite",
+          "Carbon-fibre or Kevlar composite"
+         ]
+        ],
+        [
+         "Fit",
+         [
+          "Round",
+          "Intermediate-oval",
+          "Long-oval"
+         ]
+        ],
+        [
+         "Use",
+         [
+          "Race (FIM-homologated)",
+          "Sport-touring",
+          "Retro"
+         ]
+        ]
        ]
       },
       {
        "n": "Modular helmet",
        "a": "flip-up helmet · system helmet",
        "d": "Motorcycle helmet whose chin bar pivots up or can be removed, combining full-face and open-face use.",
-       "t": [
-        "P/J double-homologated",
-        "internal sun visor",
-        "intercom-ready"
-       ],
        "s": "https://www.revzilla.com/modular-motorcycle-helmets",
        "x": [
         {
@@ -10299,17 +10630,169 @@
          "E2",
          "Schuberth"
         ]
+       ],
+       "tt": [
+        [
+         "Homologation",
+         [
+          "P/J double-homologated"
+         ]
+        ],
+        [
+         "Features",
+         [
+          "Internal sun visor",
+          "Intercom-ready"
+         ]
+        ]
+       ]
+      },
+      {
+       "n": "Dual-sport helmet",
+       "a": "adventure helmet · ADV helmet",
+       "d": "Helmet combining a full-face visor with an off-road peak and chin bar, for adventure and mixed riding.",
+       "s": "https://transmoto.com.au/product-we-rate-arai-tour-x5-helmet/",
+       "x": [
+        {
+         "n": "Arai Tour-X",
+         "a": "",
+         "d": "Arai's adventure helmet with removable peak and visor that can give way to goggles.",
+         "mk": "Arai",
+         "y": "",
+         "s": "https://transmoto.com.au/product-we-rate-arai-tour-x5-helmet/",
+         "v": [
+          {
+           "n": "Tour-X4",
+           "mk": "Arai",
+           "y": "",
+           "d": "long-running predecessor"
+          },
+          {
+           "n": "Tour-X5",
+           "mk": "Arai",
+           "y": "2024",
+           "d": "complete redesign, ECE 22.06"
+          }
+         ],
+         "dt": "composite shell · peak on or off"
+        },
+        {
+         "n": "Shoei Hornet",
+         "a": "",
+         "d": "Shoei's top dual-sport helmet: fibreglass shell, full-face visor and detachable peak.",
+         "mk": "Shoei",
+         "y": "",
+         "s": "https://billyscrashhelmets.co.uk/review-shoei-hornet-adv-dual-sports-adventure-crash-helmet/",
+         "v": [
+          {
+           "n": "Hornet",
+           "mk": "Shoei",
+           "y": "",
+           "d": "original model"
+          },
+          {
+           "n": "Hornet ADV",
+           "mk": "Shoei",
+           "y": "",
+           "d": "tool-free visor, redesigned vented peak"
+          }
+         ],
+         "dt": "fibreglass shell · peak on or off"
+        }
+       ],
+       "tt": [
+        [
+         "Features",
+         [
+          "Removable peak",
+          "Goggle-compatible eye port"
+         ]
+        ]
+       ]
+      },
+      {
+       "n": "Off-road helmet",
+       "a": "motocross helmet · MX helmet · enduro helmet",
+       "d": "Full-face helmet with a long chin bar, peak and open eye port for goggles, made for motocross and enduro.",
+       "s": "https://en.wikipedia.org/wiki/Motorcycle_helmet",
+       "x": [
+        {
+         "n": "Bell Moto-3",
+         "a": "",
+         "d": "Retro dirt-street full-face with a large goggle eye port and no face shield.",
+         "mk": "Bell Sports",
+         "y": "2016",
+         "s": "https://www.revzilla.com/common-tread/the-bell-moto-3",
+         "v": [],
+         "dt": "fibreglass shell · classic colours"
+        },
+        {
+         "n": "Fox V-series",
+         "a": "",
+         "d": "Fox Racing's motocross helmet family, from the V1 up to the V3.",
+         "mk": "Fox Racing",
+         "y": "",
+         "s": "https://www.atv.com/parts-gear/fox-v3-helmet-everything-need-know",
+         "v": [
+          {
+           "n": "V1",
+           "mk": "Fox Racing",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "V3",
+           "mk": "Fox Racing",
+           "y": "",
+           "d": "carbon and fibre-reinforced shell, dual-density EPS, Fluid Inside pods"
+          },
+          {
+           "n": "V3 RS",
+           "mk": "Fox Racing",
+           "y": "",
+           "d": "adds MIPS"
+          }
+         ],
+         "dt": "shell material · graphics"
+        },
+        {
+         "n": "Troy Lee Designs SE",
+         "a": "",
+         "d": "Troy Lee Designs' flagship motocross helmet line.",
+         "mk": "Troy Lee Designs",
+         "y": "",
+         "s": "https://www.speedaddicts.com/motorcycle/troy-lee-designs-se5-carbon-helmet-team-red",
+         "v": [
+          {
+           "n": "SE5",
+           "mk": "Troy Lee Designs",
+           "y": "",
+           "d": "composite or carbon shell, MIPS Integra, EPP chin bar"
+          }
+         ],
+         "dt": "composite or carbon shell · team graphics"
+        }
+       ],
+       "tt": [
+        [
+         "Shell",
+         [
+          "Fibreglass composite",
+          "Carbon-fibre"
+         ]
+        ],
+        [
+         "Liner",
+         [
+          "MIPS or rotational-impact liner"
+         ]
+        ]
        ]
       },
       {
        "n": "Open-face helmet",
        "a": "three-quarter helmet · jet helmet",
        "d": "Motorcycle helmet with no chin bar, covering the crown, ears, cheeks and back of the head.",
-       "t": [
-        "three-quarter (jet)",
-        "half helmet (shorty, pudding basin)",
-        "with snap-on visor or bubble shield"
-       ],
        "s": "https://www.revzilla.com/modular-motorcycle-helmets",
        "x": [
         {
@@ -10384,191 +10867,215 @@
          "Hedon Heroine",
          "Hedon"
         ]
+       ],
+       "tt": [
+        [
+         "Cover",
+         [
+          "Three-quarter (jet)",
+          "Half helmet (shorty)"
+         ]
+        ],
+        [
+         "Visor",
+         [
+          "Snap-on visor",
+          "Bubble shield"
+         ]
+        ]
        ]
       },
       {
-       "n": "Off-road helmet",
-       "a": "motocross helmet · MX helmet · enduro helmet",
-       "d": "Full-face helmet with a long chin bar, peak and open eye port for goggles, made for motocross and enduro.",
-       "t": [
-        "fibreglass composite shell",
-        "carbon-fibre shell",
-        "MIPS or rotational-impact liner"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Motorcycle_helmet",
+       "n": "Helmet communicator",
+       "a": "motorcycle intercom · Bluetooth headset · mesh intercom · comms unit",
+       "d": "Helmet-mounted Bluetooth or mesh unit for rider-to-rider talk, phone calls, navigation and music.",
+       "s": "https://www.sena.com/product/50s",
        "x": [
         {
-         "n": "Bell Moto-3",
+         "n": "Cardo Packtalk",
          "a": "",
-         "d": "Retro dirt-street full-face with a large goggle eye port and no face shield.",
-         "mk": "Bell Sports",
-         "y": "2016",
-         "s": "https://www.revzilla.com/common-tread/the-bell-moto-3",
-         "v": [],
-         "dt": "fibreglass shell · classic colours"
-        },
-        {
-         "n": "Fox V-series",
-         "a": "",
-         "d": "Fox Racing's motocross helmet family, from the V1 up to the V3.",
-         "mk": "Fox Racing",
+         "d": "Cardo's flagship mesh intercom line, using Dynamic Mesh Communication for group riding.",
+         "mk": "Cardo Systems",
          "y": "",
-         "s": "https://www.atv.com/parts-gear/fox-v3-helmet-everything-need-know",
+         "s": "https://newatlas.com/motorcycles/cardo-packtalk-edge-review/",
          "v": [
           {
-           "n": "V1",
-           "mk": "Fox Racing",
+           "n": "Packtalk Black",
+           "mk": "Cardo Systems",
            "y": "",
            "d": ""
           },
           {
-           "n": "V3",
-           "mk": "Fox Racing",
+           "n": "Packtalk Bold",
+           "mk": "Cardo Systems",
            "y": "",
-           "d": "carbon and fibre-reinforced shell, dual-density EPS, Fluid Inside pods"
+           "d": ""
           },
           {
-           "n": "V3 RS",
-           "mk": "Fox Racing",
-           "y": "",
-           "d": "adds MIPS"
+           "n": "Packtalk Edge",
+           "mk": "Cardo Systems",
+           "y": "2022",
+           "d": "second-generation DMC mesh, magnetic mount"
           }
          ],
-         "dt": "shell material · graphics"
+         "dt": "single or duo · speakers · mount"
         },
         {
-         "n": "Troy Lee Designs SE",
-         "a": "",
-         "d": "Troy Lee Designs' flagship motocross helmet line.",
-         "mk": "Troy Lee Designs",
+         "n": "Sena 50 series",
+         "a": "50S · 50R",
+         "d": "Sena's premium mesh intercom family with Harman Kardon audio.",
+         "mk": "Sena",
          "y": "",
-         "s": "https://www.speedaddicts.com/motorcycle/troy-lee-designs-se5-carbon-helmet-team-red",
+         "s": "https://www.sena.com/product/50s",
          "v": [
           {
-           "n": "SE5",
-           "mk": "Troy Lee Designs",
+           "n": "50S",
+           "mk": "Sena",
            "y": "",
-           "d": "composite or carbon shell, MIPS Integra, EPP chin bar"
+           "d": "Mesh Intercom 3.0, Harman Kardon audio, Bluetooth 5.0, group mesh up to 24 riders"
+          },
+          {
+           "n": "50R",
+           "mk": "Sena",
+           "y": "",
+           "d": "low-profile sibling"
           }
          ],
-         "dt": "composite or carbon shell · team graphics"
+         "dt": "single or duo · mesh version · audio"
         }
-       ]
-      },
-      {
-       "n": "Dual-sport helmet",
-       "a": "adventure helmet · ADV helmet",
-       "d": "Helmet combining a full-face visor with an off-road peak and chin bar, for adventure and mixed riding.",
-       "t": [
-        "removable peak",
-        "goggle-compatible eye port"
        ],
-       "s": "https://transmoto.com.au/product-we-rate-arai-tour-x5-helmet/",
-       "x": [
-        {
-         "n": "Arai Tour-X",
-         "a": "",
-         "d": "Arai's adventure helmet with removable peak and visor that can give way to goggles.",
-         "mk": "Arai",
-         "y": "",
-         "s": "https://transmoto.com.au/product-we-rate-arai-tour-x5-helmet/",
-         "v": [
-          {
-           "n": "Tour-X4",
-           "mk": "Arai",
-           "y": "",
-           "d": "long-running predecessor"
-          },
-          {
-           "n": "Tour-X5",
-           "mk": "Arai",
-           "y": "2024",
-           "d": "complete redesign, ECE 22.06"
-          }
-         ],
-         "dt": "composite shell · peak on or off"
-        },
-        {
-         "n": "Shoei Hornet",
-         "a": "",
-         "d": "Shoei's top dual-sport helmet: fibreglass shell, full-face visor and detachable peak.",
-         "mk": "Shoei",
-         "y": "",
-         "s": "https://billyscrashhelmets.co.uk/review-shoei-hornet-adv-dual-sports-adventure-crash-helmet/",
-         "v": [
-          {
-           "n": "Hornet",
-           "mk": "Shoei",
-           "y": "",
-           "d": "original model"
-          },
-          {
-           "n": "Hornet ADV",
-           "mk": "Shoei",
-           "y": "",
-           "d": "tool-free visor, redesigned vented peak"
-          }
-         ],
-         "dt": "fibreglass shell · peak on or off"
-        }
-       ]
-      },
-      {
-       "n": "Motorcycle boot",
-       "a": "",
-       "d": "Boot with reinforced ankle and shin and a gear-shift area, made for riding a motorcycle.",
        "m": [
         [
-         "Tech 7",
-         "Alpinestars"
+         "60S",
+         "Sena"
         ],
         [
-         "Adventure",
-         "Forma"
+         "SRL",
+         "Sena"
         ],
         [
-         "Stormhawk",
-         "Icon"
-        ],
-        [
-         "Outlander",
-         "Klim"
-        ],
-        [
-         "Corsa",
-         "Sedici"
-        ],
-        [
-         "Adventure 2",
-         "Sidi"
-        ],
-        [
-         "Hero 2",
-         "TCX"
+         "Spider",
+         "Sena"
         ]
        ],
-       "r": [],
-       "s": "https://www.revzilla.com/motorcycle-boots"
+       "tt": [
+        [
+         "Link",
+         [
+          "Bluetooth intercom",
+          "Mesh intercom"
+         ]
+        ],
+        [
+         "Pack",
+         [
+          "Single pack",
+          "Duo pack"
+         ]
+        ],
+        [
+         "Fitting",
+         [
+          "Clip-on",
+          "Helmet-integrated"
+         ]
+        ]
+       ]
       }
      ]
     },
     {
-     "n": "Riding protection & communication",
+     "n": "Body: suits & protectors",
+     "t": "Suits that cover the rider and the armour or airbags worn in or over them; a fashion biker jacket → A1.",
+     "ax": "kinds by layer: the outer suit first, then protection worn in or over it",
      "k": [
+      {
+       "n": "Leather race suit",
+       "a": "race leathers · track leathers · one-piece leathers · two-piece leathers",
+       "d": "Close-fitting motorcycle suit of cowhide or kangaroo leather with armour and sliders, built for track and fast road riding.",
+       "s": "https://en.wikipedia.org/wiki/Motorcycle_personal_protective_equipment",
+       "x": [
+        {
+         "n": "One-piece racing leathers",
+         "a": "one-piece suit",
+         "d": "Form-fitting single-piece leather suit for racing, first commissioned in the late 1940s.",
+         "mk": "",
+         "y": "c. 1948",
+         "s": "https://en.wikipedia.org/wiki/Motorcycle_personal_protective_equipment",
+         "v": [
+          {
+           "n": "Velocette one-piece suit",
+           "mk": "Velocette",
+           "y": "c. 1948",
+           "d": "early commissioned form-fitting suit"
+          },
+          {
+           "n": "Harro suit for Anke-Eve Goldmann",
+           "mk": "Harro",
+           "y": "by 1955",
+           "d": "early one-piece suit"
+          }
+         ],
+         "dt": "leather type · armour and sliders · hump · airbag system · made-to-measure or stock"
+        },
+        {
+         "n": "Dainese Mugello R",
+         "a": "",
+         "d": "Dainese one-piece leather race suit that won design awards in 2017.",
+         "mk": "Dainese",
+         "y": "2017",
+         "s": "https://en.wikipedia.org/wiki/Dainese",
+         "v": [],
+         "dt": "leather · colourways · D-air ready versions"
+        }
+       ],
+       "m": [
+        [
+         "T-Age suit",
+         "Dainese"
+        ]
+       ],
+       "tt": [
+        [
+         "Make",
+         [
+          "One-piece",
+          "Two-piece zip-together"
+         ]
+        ],
+        [
+         "Leather",
+         [
+          "Cowhide",
+          "Kangaroo leather"
+         ]
+        ],
+        [
+         "Fit",
+         [
+          "Off the peg",
+          "Made-to-measure"
+         ]
+        ],
+        [
+         "Airbag",
+         [
+          "Airbag-ready"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "A1",
+         "Biker jacket",
+         "street leather jacket"
+        ]
+       ]
+      },
       {
        "n": "Textile riding suit",
        "a": "textile motorcycle jacket and trousers · adventure suit · touring suit · Cordura suit",
        "d": "Motorcycle jacket and trousers or one-piece suit in abrasion-resistant technical fabric, with armour pockets and usually a waterproof membrane.",
-       "t": [
-        "adventure",
-        "touring",
-        "urban",
-        "one-piece",
-        "two-piece",
-        "laminated waterproof",
-        "drop-liner waterproof",
-        "CE class A · AA · AAA"
-       ],
        "s": "https://en.wikipedia.org/wiki/Motorcycle_personal_protective_equipment",
        "x": [
         {
@@ -10627,115 +11134,44 @@
          "Adventure Rally",
          "Klim"
         ]
-       ]
-      },
-      {
-       "n": "Leather race suit",
-       "a": "race leathers · track leathers · one-piece leathers · two-piece leathers",
-       "d": "Close-fitting motorcycle suit of cowhide or kangaroo leather with armour and sliders, built for track and fast road riding.",
-       "t": [
-        "one-piece",
-        "two-piece zip-together",
-        "cowhide",
-        "kangaroo leather",
-        "airbag-ready",
-        "made-to-measure"
        ],
-       "s": "https://en.wikipedia.org/wiki/Motorcycle_personal_protective_equipment",
-       "x": [
-        {
-         "n": "One-piece racing leathers",
-         "a": "one-piece suit",
-         "d": "Form-fitting single-piece leather suit for racing, first commissioned in the late 1940s.",
-         "mk": "",
-         "y": "c. 1948",
-         "s": "https://en.wikipedia.org/wiki/Motorcycle_personal_protective_equipment",
-         "v": [
-          {
-           "n": "Velocette one-piece suit",
-           "mk": "Velocette",
-           "y": "c. 1948",
-           "d": "early commissioned form-fitting suit"
-          },
-          {
-           "n": "Harro suit for Anke-Eve Goldmann",
-           "mk": "Harro",
-           "y": "by 1955",
-           "d": "early one-piece suit"
-          }
-         ],
-         "dt": "leather type · armour and sliders · hump · airbag system · made-to-measure or stock"
-        },
-        {
-         "n": "Dainese Mugello R",
-         "a": "",
-         "d": "Dainese one-piece leather race suit that won design awards in 2017.",
-         "mk": "Dainese",
-         "y": "2017",
-         "s": "https://en.wikipedia.org/wiki/Dainese",
-         "v": [],
-         "dt": "leather · colourways · D-air ready versions"
-        }
-       ],
-       "m": [
+       "tt": [
         [
-         "T-Age suit",
-         "Dainese"
+         "Use",
+         [
+          "Adventure",
+          "Touring",
+          "Urban"
+         ]
+        ],
+        [
+         "Make",
+         [
+          "One-piece",
+          "Two-piece"
+         ]
+        ],
+        [
+         "Waterproofing",
+         [
+          "Laminated",
+          "Drop-liner"
+         ]
+        ],
+        [
+         "Protection",
+         [
+          "CE class A",
+          "CE class AA",
+          "CE class AAA"
+         ]
         ]
-       ]
-      },
-      {
-       "n": "Motorcycle gloves",
-       "a": "riding gloves · race gauntlets · summer gloves",
-       "d": "Gloves made for riding, with reinforced palms, knuckle armour on better models and certification to EN 13594.",
-       "t": [
-        "race gauntlet",
-        "sport short-cuff",
-        "summer mesh",
-        "touring waterproof",
-        "adventure",
-        "heated",
-        "EN 13594 Level 1 · Level 2"
-       ],
-       "s": "https://en.wikipedia.org/wiki/Motorcycle_personal_protective_equipment",
-       "x": [
-        {
-         "n": "Alpinestars GP Plus R",
-         "a": "",
-         "d": "Alpinestars leather sport-riding gauntlet, a reviewers' favourite and MotoCAP five-star rated in its second version.",
-         "mk": "Alpinestars",
-         "y": "",
-         "s": "https://en.wikipedia.org/wiki/Alpinestars",
-         "v": [
-          {
-           "n": "GP Plus R V2",
-           "mk": "Alpinestars",
-           "y": "",
-           "d": "praised by Bennetts"
-          },
-          {
-           "n": "GP Plus R2",
-           "mk": "Alpinestars",
-           "y": "",
-           "d": "first glove to earn a 5-star MotoCAP rating"
-          }
-         ],
-         "dt": "leather · knuckle protector · colourways · sizes"
-        }
        ]
       },
       {
        "n": "Motorcycle airbag vest",
        "a": "airbag jacket · air vest · rider airbag",
        "d": "Vest or jacket with an airbag that inflates in a crash to protect the neck, torso and back; tethered-mechanical or electronic.",
-       "t": [
-        "tethered mechanical",
-        "electronic standalone",
-        "integrated in jacket",
-        "integrated in race suit",
-        "over-jacket vest",
-        "under-jacket vest"
-       ],
        "s": "https://en.wikipedia.org/wiki/Motorcycle_personal_protective_equipment",
        "x": [
         {
@@ -10807,22 +11243,37 @@
          ],
          "dt": "colour · hi-viz · airbag size"
         }
+       ],
+       "tt": [
+        [
+         "Trigger",
+         [
+          "Tethered mechanical",
+          "Electronic standalone"
+         ]
+        ],
+        [
+         "Fitting",
+         [
+          "Integrated in jacket",
+          "Integrated in race suit",
+          "Over-jacket vest",
+          "Under-jacket vest"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Back and body protector",
+         "fixed-armour protection"
+        ]
        ]
       },
       {
        "n": "Back and body protector",
        "a": "back protector · body armour · chest protector · CE armour inserts",
        "d": "Impact-absorbing pads or plates for the back, chest, shoulders, elbows, hips and knees, worn as inserts or strapped on, tested to EN 1621.",
-       "t": [
-        "centre back",
-        "full back",
-        "chest protector",
-        "limb insert armour",
-        "strap-on",
-        "insert",
-        "CE Level 1",
-        "CE Level 2"
-       ],
        "s": "https://en.wikipedia.org/wiki/Motorcycle_personal_protective_equipment",
        "m": [
         [
@@ -10833,93 +11284,157 @@
          "Viper Pro back protector",
          "d3O"
         ]
+       ],
+       "tt": [
+        [
+         "Coverage",
+         [
+          "Centre back",
+          "Full back",
+          "Chest protector",
+          "Limb insert armour"
+         ]
+        ],
+        [
+         "Fitting",
+         [
+          "Strap-on",
+          "Insert"
+         ]
+        ],
+        [
+         "Rating",
+         [
+          "CE Level 1",
+          "CE Level 2"
+         ]
+        ]
+       ],
+       "see": [
+        [
+         "G1",
+         "Motorcycle airbag vest",
+         "inflating protection"
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "n": "Hands & feet: gloves & boots",
+     "t": "Gloves and boots made for riding; walking boots and gloves → A2.",
+     "k": [
+      {
+       "n": "Motorcycle gloves",
+       "a": "riding gloves · race gauntlets · summer gloves",
+       "d": "Gloves made for riding, with reinforced palms, knuckle armour on better models and certification to EN 13594.",
+       "s": "https://en.wikipedia.org/wiki/Motorcycle_personal_protective_equipment",
+       "x": [
+        {
+         "n": "Alpinestars GP Plus R",
+         "a": "",
+         "d": "Alpinestars leather sport-riding gauntlet, a reviewers' favourite and MotoCAP five-star rated in its second version.",
+         "mk": "Alpinestars",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Alpinestars",
+         "v": [
+          {
+           "n": "GP Plus R V2",
+           "mk": "Alpinestars",
+           "y": "",
+           "d": "praised by Bennetts"
+          },
+          {
+           "n": "GP Plus R2",
+           "mk": "Alpinestars",
+           "y": "",
+           "d": "first glove to earn a 5-star MotoCAP rating"
+          }
+         ],
+         "dt": "leather · knuckle protector · colourways · sizes"
+        }
+       ],
+       "tt": [
+        [
+         "Use",
+         [
+          "Race gauntlet",
+          "Sport short-cuff",
+          "Summer mesh",
+          "Touring waterproof",
+          "Adventure"
+         ]
+        ],
+        [
+         "Heating",
+         [
+          "Heated"
+         ]
+        ],
+        [
+         "Protection",
+         [
+          "EN 13594 Level 1",
+          "EN 13594 Level 2"
+         ]
+        ]
        ]
       },
       {
-       "n": "Helmet communicator",
-       "a": "motorcycle intercom · Bluetooth headset · mesh intercom · comms unit",
-       "d": "Helmet-mounted Bluetooth or mesh unit for rider-to-rider talk, phone calls, navigation and music.",
-       "t": [
-        "Bluetooth intercom",
-        "mesh intercom",
-        "single pack",
-        "duo pack",
-        "helmet-integrated"
-       ],
-       "s": "https://www.sena.com/product/50s",
-       "x": [
-        {
-         "n": "Cardo Packtalk",
-         "a": "",
-         "d": "Cardo's flagship mesh intercom line, using Dynamic Mesh Communication for group riding.",
-         "mk": "Cardo Systems",
-         "y": "",
-         "s": "https://newatlas.com/motorcycles/cardo-packtalk-edge-review/",
-         "v": [
-          {
-           "n": "Packtalk Black",
-           "mk": "Cardo Systems",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Packtalk Bold",
-           "mk": "Cardo Systems",
-           "y": "",
-           "d": ""
-          },
-          {
-           "n": "Packtalk Edge",
-           "mk": "Cardo Systems",
-           "y": "2022",
-           "d": "second-generation DMC mesh, magnetic mount"
-          }
-         ],
-         "dt": "single or duo · speakers · mount"
-        },
-        {
-         "n": "Sena 50 series",
-         "a": "50S · 50R",
-         "d": "Sena's premium mesh intercom family with Harman Kardon audio.",
-         "mk": "Sena",
-         "y": "",
-         "s": "https://www.sena.com/product/50s",
-         "v": [
-          {
-           "n": "50S",
-           "mk": "Sena",
-           "y": "",
-           "d": "Mesh Intercom 3.0, Harman Kardon audio, Bluetooth 5.0, group mesh up to 24 riders"
-          },
-          {
-           "n": "50R",
-           "mk": "Sena",
-           "y": "",
-           "d": "low-profile sibling"
-          }
-         ],
-         "dt": "single or duo · mesh version · audio"
-        }
-       ],
+       "n": "Motorcycle boot",
+       "a": "",
+       "d": "Boot with reinforced ankle and shin and a gear-shift area, made for riding a motorcycle.",
        "m": [
         [
-         "60S",
-         "Sena"
+         "Tech 7",
+         "Alpinestars"
         ],
         [
-         "SRL",
-         "Sena"
+         "Adventure",
+         "Forma"
         ],
         [
-         "Spider",
-         "Sena"
+         "Stormhawk",
+         "Icon"
+        ],
+        [
+         "Outlander",
+         "Klim"
+        ],
+        [
+         "Corsa",
+         "Sedici"
+        ],
+        [
+         "Adventure 2",
+         "Sidi"
+        ],
+        [
+         "Hero 2",
+         "TCX"
+        ]
+       ],
+       "r": [],
+       "s": "https://www.revzilla.com/motorcycle-boots",
+       "tt": [
+        [
+         "Use",
+         [
+          "Race",
+          "Sport",
+          "Touring",
+          "Adventure",
+          "Urban"
+         ]
         ]
        ]
       }
      ]
     }
    ],
-   "note": "Helmets moved in from Clothing; leather biker jackets stay in Clothing and motorcycle boots in Footwear."
+   "note": "Helmets moved in from Clothing; leather biker jackets stay in Clothing and motorcycle boots in Footwear.",
+   "t": "Clothing and protection worn to ride a motorcycle; a leather jacket worn for fashion → A1; a bicycle or ski helmet → E2.",
+   "ax": "Which part of the rider does it protect or serve: the head, the body, or the hands and feet?"
   },
   {
    "n": "Bicycles",

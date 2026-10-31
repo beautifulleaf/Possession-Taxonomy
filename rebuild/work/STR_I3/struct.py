@@ -1,0 +1,97 @@
+W="https://en.wikipedia.org/wiki/"
+CAT_AX="What does the recurring payment give you access to: something to watch, hear, read, play or learn, an online tool, a connection, a place or status, goods delivered, or a person's service?"
+KEY=[
+"1. Is it a plan for watching TV, films or live sport? → TV, film & sport streaming",
+"2. Is it a plan for listening to music, spoken books, radio or podcasts? → Music & audio",
+"3. Is it a plan for reading news, magazines, e-books or comics? → News, books & comics",
+"4. Is it a plan for playing games or for studying a subject or language? → Games & learning",
+"5. Is it an online tool or service for your files, mail, security, work, hosting or creators? → Online services",
+"6. Is it a phone or internet connection? → Phone & internet",
+"7. Does it give you entry, status or discounts: a club, loyalty programme, gym, venue or transport network? → Memberships & passes",
+"8. Does it deliver goods on a schedule or lend them to you? → Subscription boxes & deliveries",
+"9. Does it retain a person's work or a vehicle's use for you or your home? → Services & staff",
+"<i>Precedence: a plan that bundles several services is filed by its main content, or under Multi-service bundle when none leads; a fitness app is a membership (step 7) before a class (step 4); software bought once → I1.</i>"]
+D={}
+D["TV, film & sport streaming"]=dict(t="Plans for watching films, series, live sport and TV channels over the internet or by cable and satellite; a TV or player → D3, a single film bought once → entertainment taxonomies.",ax="How do you choose what to watch: pick a title or match from a library, or follow a schedule of channels?",
+ shelves=[("On-demand & event streaming","Plans where you pick the film, series or match yourself: video libraries and sport services; a bundle of live channels → Channel bundles shelf.","kinds by what the library holds: films and series first, then live sport",["Video streaming service","Sports streaming service"]),
+          ("Channel bundles","Plans delivering a schedule of live TV channels, over the internet or by cable and satellite; a library you browse → On-demand & event streaming shelf.","kinds by how the channels arrive: over the internet, then cable, satellite or IPTV",["Live TV streaming","Pay-TV package"])])
+D["Music & audio"]=dict(t="Plans for listening to recorded music, radio, audiobooks and podcasts; a record, player or speaker → F1 or D3.",ax="What do you listen to: music and radio, or the spoken word?",
+ shelves=[("Music & radio","Plans giving a library of recorded music or a network of radio channels, such as a music streaming plan or a satellite radio subscription.","kinds by what is played: a library you pick from, then a network of channels",["Music streaming","Satellite and internet radio"]),
+          ("Spoken word","Plans for audiobooks and paid podcasts; the audiobook file you own → I2.","kinds by how the content is chosen: a catalogue of books, then a show",["Audiobook subscription","Paid podcast subscription"])])
+D["News, books & comics"]=dict(t="Plans for reading news, magazines, e-books and comics, on paper or screen; a book or magazine bought once → F1, an e-reader → D2.",ax="Does the plan cover one title or a library of many?",
+ shelves=[("Single titles","Subscriptions to one newspaper or one magazine, delivered in print or digitally.","kinds by what you subscribe to: a newspaper, then a magazine",["Newspaper subscription","Magazine subscription"]),
+          ("Reading libraries","Plans giving access to a library of titles: many newspapers and magazines, e-books or comics.","kinds by what the library holds: news and magazines, then e-books, then comics",["News and magazine library","E-book subscription","Comic and manga subscription"])])
+D["Games & learning"]=dict(t="Plans for playing games and for studying a subject or language; a console or game bought once → E5, software bought once → I1.",ax="What do you do with the plan: play, or study?",
+ shelves=[("Games","Plans that unlock play: a catalogue, online play, a streamed session, one game or one season of a game; a console → E5.","kinds by what the plan unlocks: a catalogue, a streamed session, one game, one season",["Game subscription","Cloud gaming service","Single-game subscription","Season or battle pass"]),
+          ("Learning","Plans for lessons: a library of online classes or a course in a foreign language; a tutor who teaches you in person → Services & staff.","kinds by what is taught: general subjects, then a language",["Online class subscription","Language-learning plan"])])
+D["Online services"]=dict(t="Personal online services paid by plan: storage, mail, security, tools, information and creator or social subscriptions; software bought once → I1.",ax="What does the service do for you: keep and send your data, protect it, give you a tool or information, or connect you to people?",
+ shelves=[("Storage, mail & messaging","Services that keep your files and backups or carry your messages: cloud storage, backup, email, messaging and video calls.","kinds by what is kept or sent: files, backups, mail, then conversations",["Cloud storage plan","Online backup plan","Email service","Messaging and video calls"]),
+          ("Security & identity","Plans that protect your connection, passwords and devices; the one-off program → I1.","kinds by what is protected: the connection, the passwords, then the device",["VPN service","Password manager plan","Antivirus and security suite"]),
+          ("Tools & information","Plans giving a tool or a body of information: AI chat, office and creative software, stock assets, maps, family-history records and hosting.","kinds by what you get: an assistant, software, assets, maps, records, then rented space",["AI assistant subscription","Office and productivity suite","Creative software subscription","Stock library subscription","Maps and navigation service","Genealogy subscription","Personal web and game-server hosting"]),
+          ("People, creators & bundles","Plans that connect you to other people or creators, or combine several services in one price: creator memberships, dating apps, bundles.","kinds by who is on the other side: a creator, other members, then several providers",["Creator membership","Dating app subscription","Multi-service bundle"])])
+D["Phone & internet"]=dict(t="Plans that connect you to a network, on the move or at home; a phone → D2, a router or modem → D1.",ax="Where is the connection used: carried with you, or fixed at a home?",
+ shelves=[("Mobile plans","Plans for a connection you carry: calls, texts and data on a SIM or eSIM, a data-only SIM, or a travel eSIM.","kinds by what the plan includes: calls and data, data only, then data while travelling",["Mobile phone plan","Mobile data plan","Travel eSIM plan"]),
+          ("Home internet & phone","Plans for a connection at a fixed address, by wire, radio or satellite, and the phone or TV sold with it.","kinds by how the line reaches the home: wire, radio, satellite, then bundles and voice",["Broadband plan","Fixed wireless home internet","Satellite internet plan","Phone, internet and TV bundle","Home phone plan"])])
+D["Memberships & passes"]=dict(t="Memberships and passes bought for entry, status or discounts: clubs, loyalty programmes, gyms, venues and transport; a plan for content → earlier departments.",ax="What does the membership get you into: a club, a company's benefits, a gym, a venue or a transport network?",
+ shelves=[("Clubs & societies","Memberships of a club with premises or members: private members' clubs, golf and country clubs, sport, hobby and social clubs.","kinds by what the club is built around: socialising, then a golf course, then a sport or interest",["Private members' club","Golf or country club membership","Sports, hobby or social club membership"]),
+          ("Loyalty, status & buying clubs","Programmes run by a company that give status, access or discounts: airlines, hotels, lounges, warehouse and retail clubs, motoring clubs.","kinds by what the company gives: travel status, shopping discounts, roadside help",["Airline status and frequent-flyer programme","Hotel loyalty status","Airport lounge membership","Warehouse club membership","Retailer delivery membership","Motoring club and breakdown cover"]),
+          ("Gyms, studios & fitness apps","Memberships for exercise and wellbeing: a gym or leisure centre, classes across many studios, or a fitness or meditation app.","kinds by where you train: one operator's site, many studios, then at home on an app",["Gym or leisure membership","Class pass","Fitness and wellness app"]),
+          ("Museums, attractions & season tickets","Passes for visits and events: one venue, one body's sites, many bodies' venues, a season of events, a ski resort group.","kinds by how many venues the pass covers: one, one body's sites, many bodies', a series of events, a resort group",["Single-venue annual pass","Heritage & parks membership","City & museum pass","Season ticket","Ski resort pass"]),
+          ("Transport passes & cards","Passes and cards that pay for travel or cut its price: transit passes, rail discount cards, shared-vehicle memberships.","kinds by what you buy: travel itself, a discount on tickets, then use of a shared vehicle",["Transit pass","Rail discount card","Vehicle-sharing membership"])])
+D["Subscription boxes & deliveries"]=dict(t="Recurring deliveries of goods or loans of goods; one-off orders and food products themselves → J, a gift card → F5.",ax="Who decides what arrives: the member, or the provider or producer?",
+ shelves=[("Chosen by the member","Deliveries the member sets up: a menu they pick, repeat orders of staples, or goods lent and returned.","kinds by what the member orders: meals, staples, then borrowed goods",["Meal kit and menu plan","Replenishment subscription","Rental subscription"]),
+          ("Chosen by the provider","Deliveries whose contents the provider or producer picks: themed boxes, produce boxes and producer clubs.","kinds by what the provider sends: mixed themed goods, produce, then a producer's own goods",["Curated subscription box","Grocery and veg box","Producer club"])])
+D["Services & staff"]=dict(t="Recurring or retained services for a home and household, and the staff and travel arrangements of a luxury lifestyle; one-off jobs and trade services are out.",ax="What does the contract serve: the house, the family and its pets, the running of the household, or getting about?",
+ shelves=[("Home upkeep contracts","Regular work or cover on the house and grounds: cleaning, windows, laundry, garden, pool, pests, emergency repairs, alarm monitoring.","kinds by the part of the home served: inside, outside, then protection and repair",["Home cleaning service","Window and gutter cleaning","Laundry and dry-cleaning subscription","Garden maintenance contract","Pool and hot-tub maintenance","Pest-control contract","Home emergency and appliance cover","Home security monitoring"]),
+          ("Family, pet & personal services","Regular help for the people and pets of a household: childcare, pet care, training, teaching, cooking, styling and care at home.","kinds by who is served: children, pets, then the adult",["Nanny and au pair","Dog walking and pet sitting","Private tutor","Personal trainer","Personal chef service","Personal stylist and personal shopper","Home carer"]),
+          ("Household staff & concierge","Staff and retained helpers who run a household or arrange its life: agency-placed staff, personal assistants, concierge and medical concierge.","kinds by what is run: the household, the diary, then health",["Domestic staff via staffing agency","Personal assistant","Lifestyle concierge membership","Wellness and medical concierge"]),
+          ("Chauffeur, jet & yacht","Retained driving, private aviation and boat access: a chauffeur on retainer, jet cards and shares, boat clubs and yacht shares.","kinds by how you travel: by car, by air, then by water",["Chauffeur service","Private jet card and membership","Boat club and fractional yacht"])])
+NEW={
+"Cloud gaming service":dict(a="game streaming · cloud play",d="Plan streaming games played on a remote machine to any screen, either the provider's catalogue or your own purchased games.",s=W+"Cloud_gaming",m=[["Amazon Luna","Amazon"],["GeForce Now","NVIDIA"],["Xbox Cloud Gaming","Microsoft"],["Boosteroid","Boosteroid"],["Shadow","Shadow"]]),
+"Password manager plan":dict(a="password vault · credential manager",d="Plan storing a person's logins in an encrypted vault and filling them across devices, from a free tier to paid family plans.",s=W+"Password_manager",m=[["1Password","AgileBits"],["Bitwarden","Bitwarden"],["Dashlane","Dashlane"],["LastPass","LastPass"]]),
+"Antivirus and security suite":dict(a="internet security suite · anti-malware subscription",d="Yearly plan for software that finds and removes malware, sold alone or as a suite with extra protection.",s=W+"Antivirus_software",m=[["Norton","Gen Digital"],["McAfee","McAfee"],["Avast","Avast"]]),
+"Office and productivity suite":dict(a="Microsoft 365 · office subscription",d="Plan renting a suite of office programs with cloud storage, for one person or a family.",s=W+"Microsoft_365",m=[["Microsoft 365","Microsoft"]]),
+"Creative software subscription":dict(a="Creative Cloud · design software plan",d="Monthly or annual plan renting design, photo and video software, from a single app to the full suite.",s=W+"Adobe_Creative_Cloud",m=[["Adobe Creative Cloud","Adobe"]]),
+"Genealogy subscription":dict(a="family history service · ancestry records",d="Plan giving access to historical records, family-tree hosting and DNA matching for researching family history.",s=W+"Ancestry.com",m=[["Ancestry","Ancestry.com"]]),
+"Fixed wireless home internet":dict(a="home 5G · fixed wireless access · wireless broadband",d="Home internet delivered by radio to an antenna or modem at the house, useful where wired lines are poor.",s=W+"Fixed_wireless"),
+"Retailer delivery membership":dict(a="delivery pass · shopping membership · Prime-type membership",d="Yearly or monthly membership of a shop or delivery app giving free or fast delivery and member prices.",s=W+"Amazon_Prime",m=[["Amazon Prime","Amazon"]]),
+"Fitness and wellness app":dict(a="workout app · meditation app · activity tracker subscription",d="Paid tier of an app for workouts, activity tracking or meditation, used at home instead of at a gym.",s=W+"Strava",m=[["Strava","Strava"],["Headspace","Headspace"]]),
+"Ski resort pass":dict(a="lift pass · ski season pass · multi-resort pass",d="Pass for ski lifts valid for a season, several days or a day, at one resort or across a group.",s=W+"Ski_pass",x_from="Season ticket"),
+"Grocery and veg box":dict(a="vegetable box · produce box · organic box",d="Weekly or fortnightly box of produce and groceries, chosen by the grower or supplier and delivered or collected.",s=W+"Vegetable_box_scheme"),
+"Home carer":dict(a="care at home · domiciliary care · elder care",d="Carers who visit or stay with an older, ill or disabled person to help with daily living or nursing, arranged privately.",s=W+"Home_care"),
+"Personal assistant":dict(a="PA · private assistant · virtual assistant",d="Person retained to handle errands, travel, bills and the diary of one individual, in person or remotely.",s=W+"Personal_assistant"),
+}
+SEE={
+"Video streaming service":[["D3","Streaming stick or box","the device that plays it"]],
+"Audiobook subscription":[["I2","Audiobook file","a file you own"]],
+"E-book subscription":[["D2","E-reader","the device to read on"],["I2","E-book","a file you own"]],
+"Game subscription":[["E5","Home console","the console it runs on"]],
+"Cloud gaming service":[["E5","Home console","play on a console instead"]],
+"Language-learning plan":[["I1","Language-learning software","bought once as software"]],
+"Online backup plan":[["I1","Backup software","software you run yourself"]],
+"VPN service":[["I1","VPN","the app itself"]],
+"Password manager plan":[["I1","Password manager","the app itself"]],
+"Antivirus and security suite":[["I1","Antivirus software","the program itself"]],
+"AI assistant subscription":[["I1","AI assistant","the assistant as software"]],
+"Office and productivity suite":[["I1","Office suite","bought once as software"]],
+"Creative software subscription":[["I1","Creative suite","bought once as software"]],
+"Genealogy subscription":[["I1","Genealogy software","software you run yourself"]],
+"Email service":[["I1","Email client","the program that reads it"]],
+"Mobile phone plan":[["F5","SIM card","the card itself"]],
+"Travel eSIM plan":[["F5","SIM card","the card itself"]],
+"Broadband plan":[["D1","Wi-Fi router","the equipment at home"],["D1","Modem","the equipment at home"]],
+"Fixed wireless home internet":[["D1","Wi-Fi router","the equipment at home"]],
+"Curated subscription box":[["C3","Mixed bouquet","flowers bought once"]],
+"Home security monitoring":[["G3","Intruder alarm system","the fitted system"],["B8","Security camera","the camera itself"]],
+"Private jet card and membership":[["G1","Jet","owning the aircraft"]],
+"Boat club and fractional yacht":[["G1","Motor yacht","owning the boat"]],
+"Pool and hot-tub maintenance":[["C2","Pool cleaner","the equipment itself"]],
+"Retailer delivery membership":[["I3","Multi-service bundle","a bundle with media"]],
+"Multi-service bundle":[["I3","Retailer delivery membership","delivery perks first"]],
+"Cloud gaming service":[["I3","Game subscription","catalogue plan"]],
+"Gym or leisure membership":[["I3","Fitness and wellness app","exercise at home"]],
+"Fitness and wellness app":[["I3","Gym or leisure membership","exercise on site"]],
+"Nanny and au pair":[["I3","Domestic staff via staffing agency","staff placed by an agency"]],
+"Home carer":[["I3","Wellness and medical concierge","medical access"]],
+"Personal assistant":[["I3","Lifestyle concierge membership","a team, not one person"]],
+}
