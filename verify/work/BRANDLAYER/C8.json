@@ -5,44 +5,12 @@
  "sweeps": [
   {
    "axis": "kind",
-   "item": "Heritage & reclaimed materials > Heritage tiles",
-   "queries": [
-    "Talavera certified workshops",
-    "zellige Fez workshop",
-    "Iznik tile makers",
-    "Portuguese azulejo factories"
-   ],
-   "found": 11,
-   "note": "Iznik/Kütahya makers: search returned none; cuerda seca, encaustic, Delft, cement tile not done"
-  },
-  {
-   "axis": "kind",
    "item": "Heritage > Lime & traditional finishes",
    "queries": [
     "limewash mineral silicate paint makers"
    ],
    "found": 2,
    "note": "Keim, BEECK; lime putty/NHL/clay plaster/hempcrete makers not done"
-  },
-  {
-   "axis": "kind",
-   "item": "Paint & decorating > Paint",
-   "queries": [
-    "Wikipedia paint manufacturer categories",
-    "PaintDB directory"
-   ],
-   "found": 70,
-   "note": "no independent test body (Which?, Consumer Reports) fetched yet"
-  },
-  {
-   "axis": "kind",
-   "item": "Ironmongery > Hinges & handles",
-   "queries": [
-    "architectural door handle makers Red Dot",
-    "GAI awards"
-   ],
-   "found": 6,
-   "note": "Red Dot/iF/German Design Award building winners only seen through maker pages; official winner lists not fetched"
   },
   {
    "axis": "kind",
@@ -171,48 +139,6 @@
    "queries": [],
    "found": 5,
    "note": "US paint cos and flooring"
-  },
-  {
-   "axis": "region",
-   "item": "Central & Eastern Europe",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED (Iznik/Turkey, RAK Ceramics UAE, Plascon SA, Resene NZ only seen incidentally)"
-  },
-  {
-   "axis": "region",
-   "item": "Middle East",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED (Iznik/Turkey, RAK Ceramics UAE, Plascon SA, Resene NZ only seen incidentally)"
-  },
-  {
-   "axis": "region",
-   "item": "Sub-Saharan Africa",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED (Iznik/Turkey, RAK Ceramics UAE, Plascon SA, Resene NZ only seen incidentally)"
-  },
-  {
-   "axis": "region",
-   "item": "Southeast Asia",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED (Iznik/Turkey, RAK Ceramics UAE, Plascon SA, Resene NZ only seen incidentally)"
-  },
-  {
-   "axis": "region",
-   "item": "Central Asia",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED (Iznik/Turkey, RAK Ceramics UAE, Plascon SA, Resene NZ only seen incidentally)"
-  },
-  {
-   "axis": "region",
-   "item": "Oceania",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED (Iznik/Turkey, RAK Ceramics UAE, Plascon SA, Resene NZ only seen incidentally)"
   },
   {
    "axis": "kind",
@@ -395,15 +321,6 @@
   },
   {
    "axis": "kind",
-   "item": "Paint & decorating > Tiles, wallpaper & plaster",
-   "queries": [
-    "Wikipedia wallpaper manufacturers"
-   ],
-   "found": 13,
-   "note": "adds wallpaper makers"
-  },
-  {
-   "axis": "kind",
    "item": "Masonry, roofing & insulation > Bricks, blocks & cement",
    "queries": [
     "Wikipedia brick manufacturers",
@@ -421,6 +338,226 @@
    ],
    "found": 9,
    "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Heritage & reclaimed materials > Heritage tiles",
+   "queries": [
+    "Iznik tile makers",
+    "Kütahya",
+    "Delft tile",
+    "Talavera",
+    "azulejo"
+   ],
+   "found": 25,
+   "note": "Kütahya and Delft done via Wikipedia categories; encaustic/cement/cuerda seca still to do"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Wikipedia paint Australia",
+    "APMF members",
+    "NZ miproducts"
+   ],
+   "found": 10,
+   "note": "paint, cladding, bricks; NZ Resene, Porter's"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "paint industry South Africa"
+   ],
+   "found": 1,
+   "note": "Plascon, Prominent; Kenya/Nigeria not yet"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "building materials Uzbekistan Kazakhstan"
+   ],
+   "found": 1,
+   "note": "only AKFA Group via Wikipedia; nothing else searched"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "TOA Beger Nippon Paint Thailand",
+    "SCG"
+   ],
+   "found": 7,
+   "note": "Indonesia/Malaysia/Vietnam local makers not found beyond Arwana"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Śnieżka Opoczno Zsolnay"
+   ],
+   "found": 3,
+   "note": "Poland, Hungary; Czech/Romania roofing not tried"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "RAK Saudi Ceramics Ritver Kütahya"
+   ],
+   "found": 4,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Paint & decorating > Paint",
+   "queries": [
+    "CR interior/exterior paints",
+    "GH UK best paint",
+    "Which? emulsion"
+   ],
+   "found": 5,
+   "note": "Which? list paywalled"
+  },
+  {
+   "axis": "kind",
+   "item": "Paint & decorating > Wood finishes & sanding",
+   "queries": [
+    "CR wood stains",
+    "hardwax oil comparison"
+   ],
+   "found": 4,
+   "note": "sandpaper not searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Heritage & reclaimed materials > Lime & traditional finishes",
+   "queries": [
+    "Royal Warrant holders paint wood finishes"
+   ],
+   "found": 19,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Paint & decorating > Tiles, wallpaper & plaster",
+   "queries": [
+    "Ceramics of Italy",
+    "Marchi Storici Marazzi",
+    "Wikipedia wallpaper"
+   ],
+   "found": 36,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Ironmongery > Hinges & handles",
+   "queries": [
+    "Architizer Doors & Hardware 2024-2025"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Ironmongery > Knockers & letter plates",
+   "queries": [
+    "letter plate door knocker heritage brass makers"
+   ],
+   "found": 1,
+   "note": "Heritage Brass/M. Marcus"
+  },
+  {
+   "axis": "kind",
+   "item": "Ironmongery > Latches, bolts & brackets",
+   "queries": [
+    "Suffolk latch thumb latch forge makers"
+   ],
+   "found": 5,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Screws, nails & fixings > Nails & staples",
+   "queries": [
+    "fixings award winners"
+   ],
+   "found": 0,
+   "note": "nothing independent found"
+  },
+  {
+   "axis": "kind",
+   "item": "Screws, nails & fixings > Bolts, nuts & rivets",
+   "queries": [
+    "fixings award winners"
+   ],
+   "found": 0,
+   "note": "nothing independent found"
+  },
+  {
+   "axis": "kind",
+   "item": "Screws, nails & fixings > Wall plugs & anchors",
+   "queries": [
+    "Hilti Fischer award"
+   ],
+   "found": 0,
+   "note": "no list page found; Rotho Blaas won Structural Timber Awards 2025"
+  },
+  {
+   "axis": "kind",
+   "item": "Screws, nails & fixings > Connectors & joints",
+   "queries": [
+    "Structural Timber Awards Product/System Innovation"
+   ],
+   "found": 2,
+   "note": "Rotho Blaas, Ultrapanel"
+  },
+  {
+   "axis": "kind",
+   "item": "Plumbing, drainage & electrical > Pipe & fittings",
+   "queries": [
+    "Wikipedia Plumbing materials companies",
+    "bathroom fixtures"
+   ],
+   "found": 0,
+   "note": "covered at section level in earlier round (34 found incl. Wikipedia bathroom fixture companies); pipe/valve makers not searched separately"
+  },
+  {
+   "axis": "kind",
+   "item": "Plumbing, drainage & electrical > Waste & drainage",
+   "queries": [
+    "-"
+   ],
+   "found": 0,
+   "note": "not searched; next agent"
+  },
+  {
+   "axis": "kind",
+   "item": "Plumbing, drainage & electrical > Cable, plugs & leads",
+   "queries": [
+    "-"
+   ],
+   "found": 0,
+   "note": "not searched; next agent (BSI Kitemark / electrical accessory makers)"
+  },
+  {
+   "axis": "kind",
+   "item": "Masonry, roofing & insulation > Flues & chimneys",
+   "queries": [
+    "-"
+   ],
+   "found": 0,
+   "note": "not searched; next agent"
+  },
+  {
+   "axis": "kind",
+   "item": "Heritage & reclaimed materials > Reclaimed & salvage",
+   "queries": [
+    "Brick Awards reclaimed brick (Coleford)"
+   ],
+   "found": 1,
+   "note": "only Coleford Brick and Tile; salvage yards not searched"
   }
  ],
  "regions": [
@@ -543,6 +680,201 @@
    "src": "https://ateliersdefrance.com/en/companies/vld",
    "brands": [
     "VLD"
+   ]
+  },
+  {
+   "region": "Turkey (Kütahya)",
+   "speciality": "Kütahya/Iznik-tradition tile and ceramics, industrial tile",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Turkey",
+   "brands": [
+    "Kütahya Porselen",
+    "NG Group"
+   ]
+  },
+  {
+   "region": "Netherlands (Delft, Makkum)",
+   "speciality": "Delft blue tile and faience",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_the_Netherlands",
+   "brands": [
+    "Royal Delft (De Koninklijke Porceleyne Fles)",
+    "Royal Tichelaar Makkum",
+    "De Delftse Pauw"
+   ]
+  },
+  {
+   "region": "Hungary (Pécs)",
+   "speciality": "Zsolnay eosin-glazed architectural ceramics",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Hungary",
+   "brands": [
+    "Zsolnay"
+   ]
+  },
+  {
+   "region": "UAE (Ras Al Khaimah)",
+   "speciality": "large-scale tile and sanitaryware",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_the_United_Arab_Emirates",
+   "brands": [
+    "RAK Ceramics"
+   ]
+  },
+  {
+   "region": "Poland",
+   "speciality": "tile",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Poland",
+   "brands": [
+    "Opoczno"
+   ]
+  },
+  {
+   "region": "Colombia",
+   "speciality": "tile and sanitaryware",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Colombia",
+   "brands": [
+    "Organización Corona"
+   ]
+  },
+  {
+   "region": "Australia",
+   "speciality": "sanitaryware",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Australia",
+   "brands": [
+    "Caroma"
+   ]
+  },
+  {
+   "region": "New Zealand",
+   "speciality": "sanitaryware",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_New_Zealand",
+   "brands": [
+    "Crown Lynn"
+   ]
+  },
+  {
+   "region": "India",
+   "speciality": "tile",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_India",
+   "brands": [
+    "Somany Ceramics",
+    "Kerala Ceramics"
+   ]
+  },
+  {
+   "region": "United Kingdom (Shropshire)",
+   "speciality": "encaustic and decorative heritage tiles (Jackfield)",
+   "src": "https://heritagecrafts.org.uk/craft/encaustic-tile-making/",
+   "brands": [
+    "Craven Dunnill Jackfield",
+    "Minton",
+    "Maw & Co"
+   ]
+  },
+  {
+   "region": "Turkey (Iznik)",
+   "speciality": "Iznik underglaze fritware tile tradition",
+   "src": "https://iznikmavicini.com/en",
+   "brands": [
+    "İznik Mavi Çini",
+    "Kütahya Porselen"
+   ]
+  },
+  {
+   "region": "Australia / New Zealand",
+   "speciality": "paint (Dulux AU, Taubmans, Wattyl, Haymes; Resene NZ), fibre-cement cladding (James Hardie)",
+   "src": "https://en.wikipedia.org/wiki/Category:Paint_and_coatings_companies_of_Australia",
+   "brands": [
+    "Taubmans",
+    "Wattyl",
+    "Bristol Paint",
+    "Haymes Paints",
+    "Resene",
+    "Mirotone",
+    "Porter's Paints",
+    "James Hardie",
+    "Dulux"
+   ]
+  },
+  {
+   "region": "South Africa",
+   "speciality": "decorative paint (Plascon, Prominent Paints)",
+   "src": "https://www.whoownswhom.co.za/store/paint-industry-south-africa/",
+   "brands": [
+    "Plascon",
+    "Prominent Paints"
+   ]
+  },
+  {
+   "region": "Uzbekistan (Central Asia)",
+   "speciality": "building materials/profile systems group",
+   "src": "https://en.wikipedia.org/wiki/Category:Building_materials_companies",
+   "brands": [
+    "AKFA Group"
+   ]
+  },
+  {
+   "region": "Southeast Asia (Thailand)",
+   "speciality": "decorative paint (TOA, Beger, Nippon Paint Thailand) and tile (SCG)",
+   "src": "https://coatingsworld.texterity.com/coatingsworld/july_august_2022/MobilePagedArticle.action?articleId=1809615",
+   "brands": [
+    "TOA Paint",
+    "Beger",
+    "Nippon Paint",
+    "SCG Ceramics"
+   ]
+  },
+  {
+   "region": "Central & Eastern Europe (Poland)",
+   "speciality": "paint (Śnieżka), tile (Opoczno)",
+   "src": "https://coatingsworld.texterity.com/coatingsworld/july_august_2022/MobilePagedArticle.action?articleId=1809615",
+   "brands": [
+    "Śnieżka",
+    "Opoczno"
+   ]
+  },
+  {
+   "region": "India",
+   "speciality": "tile (Kajaria, Somany)",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "brands": [
+    "Kajaria Ceramics",
+    "Somany Ceramics"
+   ]
+  },
+  {
+   "region": "Saudi Arabia / Gulf",
+   "speciality": "tile and paint (Saudi Ceramics, RAK, Ritver)",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "brands": [
+    "Saudi Ceramics",
+    "RAK Ceramics",
+    "Ritver"
+   ]
+  },
+  {
+   "region": "Italy (Sassuolo)",
+   "speciality": "porcelain stoneware tile district (Emilia-Romagna)",
+   "src": "https://www.marazzigroup.com/about-us",
+   "brands": [
+    "Marazzi",
+    "Atlas Concorde",
+    "Florim",
+    "Iris Ceramica",
+    "Mirage Granito Ceramico",
+    "Cotto d'Este",
+    "Fap Ceramiche",
+    "Emilceramica"
+   ]
+  },
+  {
+   "region": "United Kingdom (traditional ironwork)",
+   "speciality": "hand-forged Suffolk/thumb latches, knockers, letter plates in solid brass",
+   "src": "https://www.heritagebrass.co.uk/",
+   "brands": [
+    "From The Anvil",
+    "Heritage Brass (M. Marcus)",
+    "Fransham Forge",
+    "The Heritage Forge Company",
+    "Tim Morgan Blacksmith",
+    "Carlisle Brass"
    ]
   }
  ],
@@ -906,6 +1238,286 @@
    "new_names": 0,
    "status": "partial",
    "note": "top level is tableware/industrial; country subcategories fetched separately"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_(country subcategories x14)",
+   "title": "Wikipedia Ceramics manufacturers by country (TR PT MX PL CO HU NL ES IT AE IN AU NZ JP CN)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 40,
+   "new_names": 14,
+   "status": "done",
+   "note": "tableware makers skipped"
+  },
+  {
+   "url": "https://heritagecrafts.org.uk/craft/encaustic-tile-making/",
+   "title": "Heritage Crafts: encaustic tile making",
+   "kind": "heritage",
+   "years": "2024",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "Red List craft page; also homeofceramics.uk names Godwin, Maw, Minton"
+  },
+  {
+   "url": "https://iznikmavicini.com/en",
+   "title": "Iznik Mavi Cini",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "partial",
+   "note": "maker site; independent Iznik quality evidence not found"
+  },
+  {
+   "url": "https://www.sieger-design.com/en/agency/awards",
+   "title": "sieger design awards list (Red Dot/iF winners by maker)",
+   "kind": "award",
+   "years": "2000-2018",
+   "names_on_page": 12,
+   "new_names": 4,
+   "status": "done",
+   "note": "agency page listing winning products and makers"
+  },
+  {
+   "url": "https://www.red-dot.org/press/red-dot-award-product-design-2025-press-lists",
+   "title": "Red Dot Product Design 2025 press lists",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "winner lists are .xlsx files marked not for full publication; not extractable"
+  },
+  {
+   "url": "https://www.german-design-award.com/en",
+   "title": "German Design Award",
+   "kind": "award",
+   "years": "2027",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "gallery pages are per-project, no winner list page found"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Paint_and_coatings_companies_of_Australia",
+   "title": "Wikipedia Paint and coatings companies of Australia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 3,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "http://www.apmf.asn.au/wp-content/uploads/2025/09/Annual-Report-2025-Final-Protected.pdf",
+   "title": "APMF annual report 2025 member list",
+   "kind": "guild",
+   "years": "2021-2025",
+   "names_on_page": 20,
+   "new_names": 2,
+   "status": "done",
+   "note": "association member list"
+  },
+  {
+   "url": "https://miproducts.co.nz/category/67/p1/Search-Results-6365.htm",
+   "title": "miproducts NZ building products database",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 30,
+   "new_names": 2,
+   "status": "done",
+   "note": "directory: existence only"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category%3ABuilding_materials_companies_of_Australia",
+   "title": "Wikipedia Building materials companies of Australia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 17,
+   "new_names": 3,
+   "status": "done",
+   "note": "retailers (Mitre 10, Masters, Total Tools) skipped"
+  },
+  {
+   "url": "https://www.whoownswhom.co.za/store/paint-industry-south-africa/",
+   "title": "Who Owns Whom paint industry South Africa",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 6,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Building_materials_companies",
+   "title": "Wikipedia Building materials companies",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 23,
+   "new_names": 4,
+   "status": "partial",
+   "note": "partial: only part of list visible"
+  },
+  {
+   "url": "https://coatingsworld.texterity.com/coatingsworld/july_august_2022/MobilePagedArticle.action?articleId=1809615",
+   "title": "Coatings World Top Companies 2022",
+   "kind": "ranking",
+   "years": "2022",
+   "names_on_page": 50,
+   "new_names": 3,
+   "status": "done",
+   "note": "only excerpt visible"
+  },
+  {
+   "url": "https://market.sec.or.th/public/ipos/IPOSGetFile.aspx?TransFileSeq=344&TransID=133706",
+   "title": "Frost & Sullivan SE Asia paint research",
+   "kind": "ranking",
+   "years": "2017",
+   "names_on_page": 8,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://nipponpaint.com.vn/en/about-us",
+   "title": "Nippon Paint Vietnam",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "title": "Ceramic World Web top tile groups",
+   "kind": "ranking",
+   "years": "2021-2024",
+   "names_on_page": 25,
+   "new_names": 10,
+   "status": "done",
+   "note": "volume ranking, not quality"
+  },
+  {
+   "url": "https://www.consumerreports.org/home-garden/wood-stains/best-wood-stains-from-consumer-reports-tests-a4478428531",
+   "title": "Consumer Reports best wood stains",
+   "kind": "ranking",
+   "years": "2020-2026",
+   "names_on_page": 5,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.consumerreports.org/home-garden/paints/best-interior-paints-from-consumer-reports-tests-a7255068381/",
+   "title": "Consumer Reports best interior paints",
+   "kind": "ranking",
+   "years": "2019-2026",
+   "names_on_page": 10,
+   "new_names": 2,
+   "status": "done",
+   "note": "Behr, Benjamin Moore, Sherwin-Williams, Valspar already in register"
+  },
+  {
+   "url": "https://www.goodhousekeeping.com/uk/product-reviews/house-garden/g65043495/best-paint",
+   "title": "Good Housekeeping UK best paint",
+   "kind": "ranking",
+   "years": "2025-2026",
+   "names_on_page": 10,
+   "new_names": 2,
+   "status": "done",
+   "note": "Dulux, F&B, Little Greene known"
+  },
+  {
+   "url": "https://thewoodwhisperer.com/videos/step-aside-rubio-the-game-has-changed-hardwax-oil-comparison",
+   "title": "Wood Whisperer hardwax oil comparison",
+   "kind": "ranking",
+   "years": "2023",
+   "names_on_page": 5,
+   "new_names": 3,
+   "status": "done",
+   "note": "woodworker test video, independent of makers"
+  },
+  {
+   "url": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "title": "Royal Warrant Holders Association list (HM The King)",
+   "kind": "heritage",
+   "years": "2026",
+   "names_on_page": 150,
+   "new_names": 19,
+   "status": "partial",
+   "note": "excerpt-based extraction relevant to building trades; list truncated by tool, so partial"
+  },
+  {
+   "url": "https://www.marazzigroup.com/about-us",
+   "title": "Marazzi about us (Historic Brands register)",
+   "kind": "heritage",
+   "years": "2023",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "maker page citing MISE register"
+  },
+  {
+   "url": "https://www.italytile.com/",
+   "title": "Italy Tile / Ceramics of Italy",
+   "kind": "guild",
+   "years": "2015",
+   "names_on_page": 22,
+   "new_names": 21,
+   "status": "done",
+   "note": "exhibitor list of one trade show"
+  },
+  {
+   "url": "https://www.florim.com/en",
+   "title": "Florim",
+   "kind": "guild",
+   "years": "2022",
+   "names_on_page": 1,
+   "new_names": 2,
+   "status": "done",
+   "note": "Altagamma membership"
+  },
+  {
+   "url": "https://winners.architizer.com/2025/Products",
+   "title": "Architizer A+Product Awards 2025 winners",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 45,
+   "new_names": 9,
+   "status": "done",
+   "note": "building-product categories only"
+  },
+  {
+   "url": "https://winners.architizer.com/2024/Products",
+   "title": "Architizer A+Product Awards 2024 winners",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 45,
+   "new_names": 7,
+   "status": "done",
+   "note": "building-product categories only"
+  },
+  {
+   "url": "https://architizer.com/blog/inspiration/industry/aproduct-awards-2025-winners-revealed",
+   "title": "Architizer 2025 winners article",
+   "kind": "award",
+   "years": "2023",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "2023 winners page not found by search; 2023 still to do"
+  },
+  {
+   "url": "https://www.fromtheanvil.co.uk/pages/our-story",
+   "title": "Traditional ironmongery makers/sellers (From The Anvil, Heritage Brass, forges)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 6,
+   "new_names": 6,
+   "status": "done",
+   "note": "maker/seller pages prove existence only"
   }
  ],
  "brands": [
@@ -2286,6 +2898,1023 @@
    "says": "Wikipedia Category:Granite companies (dimension-stone/paving)",
    "country": "",
    "dept": "paving/stone"
+  },
+  {
+   "n": "NG Group",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Turkey",
+   "says": "Wikipedia Category:Ceramics manufacturers of Turkey",
+   "country": "Turkey",
+   "dept": "tiles"
+  },
+  {
+   "n": "Revigrés",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Portugal",
+   "says": "Wikipedia Category:Ceramics manufacturers of Portugal",
+   "country": "Portugal",
+   "dept": "tiles"
+  },
+  {
+   "n": "Porches Pottery",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Portugal",
+   "says": "Wikipedia Category:Ceramics manufacturers of Portugal",
+   "country": "Portugal",
+   "dept": "tiles"
+  },
+  {
+   "n": "Opoczno",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Poland",
+   "says": "Wikipedia Category:Ceramics manufacturers of Poland",
+   "country": "Poland",
+   "dept": "tiles"
+  },
+  {
+   "n": "Organización Corona",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Colombia",
+   "says": "Wikipedia Category:Ceramics manufacturers of Colombia",
+   "country": "Colombia",
+   "dept": "tiles/sanitaryware"
+  },
+  {
+   "n": "Royal Delft (De Koninklijke Porceleyne Fles)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_the_Netherlands",
+   "says": "Wikipedia Category:Ceramics manufacturers of the Netherlands",
+   "country": "Netherlands",
+   "dept": "Delft tile"
+  },
+  {
+   "n": "De Delftse Pauw",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_the_Netherlands",
+   "says": "Wikipedia Category:Ceramics manufacturers of the Netherlands",
+   "country": "Netherlands",
+   "dept": "Delft tile"
+  },
+  {
+   "n": "Porcelanosa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Spain",
+   "says": "Wikipedia Category:Ceramics manufacturers of Spain",
+   "country": "Spain",
+   "dept": "tiles/sanitaryware"
+  },
+  {
+   "n": "Grazia Deruta",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Italy",
+   "says": "Wikipedia Category:Ceramics manufacturers of Italy",
+   "country": "Italy",
+   "dept": "maiolica"
+  },
+  {
+   "n": "Majello",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Italy",
+   "says": "Wikipedia Category:Ceramics manufacturers of Italy",
+   "country": "Italy",
+   "dept": "maiolica"
+  },
+  {
+   "n": "RAK Ceramics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_the_United_Arab_Emirates",
+   "says": "Wikipedia Category:Ceramics manufacturers of the United Arab Emirates",
+   "country": "UAE",
+   "dept": "tiles/sanitaryware"
+  },
+  {
+   "n": "Somany Ceramics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_India",
+   "says": "Wikipedia Category:Ceramics manufacturers of India",
+   "country": "India",
+   "dept": "tiles"
+  },
+  {
+   "n": "Kerala Ceramics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_India",
+   "says": "Wikipedia Category:Ceramics manufacturers of India",
+   "country": "India",
+   "dept": "tiles"
+  },
+  {
+   "n": "Nikko Ceramics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ceramics_manufacturers_of_Japan",
+   "says": "Wikipedia Category:Ceramics manufacturers of Japan",
+   "country": "Japan",
+   "dept": "sanitaryware/ceramics"
+  },
+  {
+   "n": "Craven Dunnill Jackfield",
+   "layer": "premium",
+   "src": "https://heritagecrafts.org.uk/craft/encaustic-tile-making/",
+   "says": "Heritage Crafts: leading world manufacturer of encaustic tiles (apprentice-trained); TTA Awards 2019 Best Heritage Project; replaced Palace of Westminster floors",
+   "country": "UK",
+   "dept": "encaustic tile"
+  },
+  {
+   "n": "İznik Mavi Çini",
+   "layer": "cultural",
+   "src": "https://iznikmavicini.com/en",
+   "says": "Iznik workshop producing underglaze fritware tiles; maker site (existence/tradition)",
+   "country": "Turkey",
+   "dept": "Iznik tile"
+  },
+  {
+   "n": "Winckelmans",
+   "layer": "cultural",
+   "src": "https://www.tile-source.com/",
+   "says": "Tile Source: North American partner for Craven Dunnill Jackfield and Winckelmans (geometric porcelain tile); seller page",
+   "country": "Belgium/US",
+   "dept": "encaustic/geometric tile"
+  },
+  {
+   "n": "Tile Source",
+   "layer": "cultural",
+   "src": "https://www.tile-source.com/",
+   "says": "Tile Source: North American partner for Craven Dunnill Jackfield and Winckelmans (geometric porcelain tile); seller page",
+   "country": "Belgium/US",
+   "dept": "encaustic/geometric tile",
+   "role": "seller"
+  },
+  {
+   "n": "Griffwerk",
+   "layer": "premium",
+   "src": "https://www.sieger-design.com/en/agency/awards",
+   "says": "named as maker of Red Dot / iF / Interior Innovation winning products (door glass lock Gate 2014, TG 9830 handle iF 2001, angle stop valve and fittings Red Dot, Components basin range Red Dot) on design agency awards list",
+   "country": "Germany",
+   "dept": "door hardware/plumbing"
+  },
+  {
+   "n": "Ogro",
+   "layer": "premium",
+   "src": "https://www.sieger-design.com/en/agency/awards",
+   "says": "named as maker of Red Dot / iF / Interior Innovation winning products (door glass lock Gate 2014, TG 9830 handle iF 2001, angle stop valve and fittings Red Dot, Components basin range Red Dot) on design agency awards list",
+   "country": "Germany",
+   "dept": "door hardware/plumbing"
+  },
+  {
+   "n": "Schell",
+   "layer": "premium",
+   "src": "https://www.sieger-design.com/en/agency/awards",
+   "says": "named as maker of Red Dot / iF / Interior Innovation winning products (door glass lock Gate 2014, TG 9830 handle iF 2001, angle stop valve and fittings Red Dot, Components basin range Red Dot) on design agency awards list",
+   "country": "Germany",
+   "dept": "door hardware/plumbing"
+  },
+  {
+   "n": "Alape",
+   "layer": "premium",
+   "src": "https://www.sieger-design.com/en/agency/awards",
+   "says": "named as maker of Red Dot / iF / Interior Innovation winning products (door glass lock Gate 2014, TG 9830 handle iF 2001, angle stop valve and fittings Red Dot, Components basin range Red Dot) on design agency awards list",
+   "country": "Germany",
+   "dept": "door hardware/plumbing"
+  },
+  {
+   "n": "CES (C. Ed. Schulte)",
+   "layer": "premium",
+   "src": "https://www.ces.eu/en-gb/service-support/news-blog/cesentry-gewinnt-if-design-award-2025",
+   "says": "iF Design Award 2025 Building Technology, CESentry locking systems (maker page quoting 131-member jury)",
+   "country": "Germany",
+   "dept": "locks/door hardware"
+  },
+  {
+   "n": "Taubmans",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Paint_and_coatings_companies_of_Australia",
+   "says": "Wikipedia Category:Paint and coatings companies of Australia",
+   "country": "Australia",
+   "dept": "paint"
+  },
+  {
+   "n": "Wattyl",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Paint_and_coatings_companies_of_Australia",
+   "says": "Wikipedia Category:Paint and coatings companies of Australia",
+   "country": "Australia",
+   "dept": "paint"
+  },
+  {
+   "n": "Bristol Paint",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Paint_and_coatings_companies_of_Australia",
+   "says": "Wikipedia Category:Paint and coatings companies of Australia",
+   "country": "Australia",
+   "dept": "paint"
+  },
+  {
+   "n": "Haymes Paints",
+   "layer": "cultural",
+   "src": "http://www.apmf.asn.au/wp-content/uploads/2025/09/Annual-Report-2025-Final-Protected.pdf",
+   "says": "member of Australian Paint Manufacturers' Federation (association member list; Hempel via Wattyl, Resene associate)",
+   "country": "Australia/NZ",
+   "dept": "paint"
+  },
+  {
+   "n": "Mirotone",
+   "layer": "cultural",
+   "src": "http://www.apmf.asn.au/wp-content/uploads/2025/09/Annual-Report-2025-Final-Protected.pdf",
+   "says": "member of Australian Paint Manufacturers' Federation (association member list; Hempel via Wattyl, Resene associate)",
+   "country": "Australia/NZ",
+   "dept": "paint"
+  },
+  {
+   "n": "Porter's Paints",
+   "layer": "cultural",
+   "src": "https://miproducts.co.nz/category/67/p1/Search-Results-6365.htm",
+   "says": "listed supplier in NZ building-products database (existence only)",
+   "country": "New Zealand",
+   "dept": "paint"
+  },
+  {
+   "n": "Natural Paint Co",
+   "layer": "cultural",
+   "src": "https://miproducts.co.nz/category/67/p1/Search-Results-6365.htm",
+   "says": "listed supplier in NZ building-products database (existence only)",
+   "country": "New Zealand",
+   "dept": "paint"
+  },
+  {
+   "n": "James Hardie",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABuilding_materials_companies_of_Australia",
+   "says": "Wikipedia Category:Building materials companies of Australia",
+   "country": "Australia",
+   "dept": "cladding/cement/masonry"
+  },
+  {
+   "n": "Boral",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABuilding_materials_companies_of_Australia",
+   "says": "Wikipedia Category:Building materials companies of Australia",
+   "country": "Australia",
+   "dept": "cladding/cement/masonry"
+  },
+  {
+   "n": "Wagners",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ABuilding_materials_companies_of_Australia",
+   "says": "Wikipedia Category:Building materials companies of Australia",
+   "country": "Australia",
+   "dept": "cladding/cement/masonry"
+  },
+  {
+   "n": "Prominent Paints",
+   "layer": "cultural",
+   "src": "https://www.whoownswhom.co.za/store/paint-industry-south-africa/",
+   "says": "Who Owns Whom: major South African paint players (Kansai Plascon, Dulux, Prominent Paints)",
+   "country": "South Africa",
+   "dept": "paint"
+  },
+  {
+   "n": "Knauf",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Building_materials_companies",
+   "says": "Wikipedia Category:Building materials companies (Knauf plasterboard, Kingspan insulation, Lixil bathroom/fittings, Greenply plywood India, AKFA Uzbekistan)",
+   "country": "Germany",
+   "dept": "insulation/plasterboard/plywood"
+  },
+  {
+   "n": "Kingspan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Building_materials_companies",
+   "says": "Wikipedia Category:Building materials companies (Knauf plasterboard, Kingspan insulation, Lixil bathroom/fittings, Greenply plywood India, AKFA Uzbekistan)",
+   "country": "Ireland",
+   "dept": "insulation/plasterboard/plywood"
+  },
+  {
+   "n": "Greenply",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Building_materials_companies",
+   "says": "Wikipedia Category:Building materials companies (Knauf plasterboard, Kingspan insulation, Lixil bathroom/fittings, Greenply plywood India, AKFA Uzbekistan)",
+   "country": "",
+   "dept": "insulation/plasterboard/plywood"
+  },
+  {
+   "n": "AKFA Group",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Building_materials_companies",
+   "says": "Wikipedia Category:Building materials companies (Knauf plasterboard, Kingspan insulation, Lixil bathroom/fittings, Greenply plywood India, AKFA Uzbekistan)",
+   "country": "Uzbekistan",
+   "dept": "insulation/plasterboard/plywood"
+  },
+  {
+   "n": "TOA Paint",
+   "layer": "cultural",
+   "src": "https://coatingsworld.texterity.com/coatingsworld/july_august_2022/MobilePagedArticle.action?articleId=1809615",
+   "says": "Coatings World Top Companies Report 2022 entry (ranking by sales); TOA largest decorative paint maker in SE Asia; Śnieżka leading Polish paint maker; Ritver (UAE/Saudi/Nigeria)",
+   "country": "Thailand",
+   "dept": "paint"
+  },
+  {
+   "n": "Śnieżka",
+   "layer": "cultural",
+   "src": "https://coatingsworld.texterity.com/coatingsworld/july_august_2022/MobilePagedArticle.action?articleId=1809615",
+   "says": "Coatings World Top Companies Report 2022 entry (ranking by sales); TOA largest decorative paint maker in SE Asia; Śnieżka leading Polish paint maker; Ritver (UAE/Saudi/Nigeria)",
+   "country": "Poland",
+   "dept": "paint"
+  },
+  {
+   "n": "Ritver",
+   "layer": "cultural",
+   "src": "https://coatingsworld.texterity.com/coatingsworld/july_august_2022/MobilePagedArticle.action?articleId=1809615",
+   "says": "Coatings World Top Companies Report 2022 entry (ranking by sales); TOA largest decorative paint maker in SE Asia; Śnieżka leading Polish paint maker; Ritver (UAE/Saudi/Nigeria)",
+   "country": "UAE",
+   "dept": "paint"
+  },
+  {
+   "n": "Beger",
+   "layer": "cultural",
+   "src": "https://market.sec.or.th/public/ipos/IPOSGetFile.aspx?TransFileSeq=344&TransID=133706",
+   "says": "Frost & Sullivan independent market research: among major paint makers in Thailand",
+   "country": "Thailand",
+   "dept": "paint"
+  },
+  {
+   "n": "Nippon Paint",
+   "layer": "cultural",
+   "src": "https://nipponpaint.com.vn/en/about-us",
+   "says": "Nippon Paint: founded 1881 Tokyo, top-4 global coatings by revenue (maker page); Selleys (DuluxGroup) introduced to Vietnam",
+   "country": "Japan",
+   "dept": "paint/sealants"
+  },
+  {
+   "n": "Selleys",
+   "layer": "cultural",
+   "src": "https://nipponpaint.com.vn/en/about-us",
+   "says": "Nippon Paint: founded 1881 Tokyo, top-4 global coatings by revenue (maker page); Selleys (DuluxGroup) introduced to Vietnam",
+   "country": "Japan",
+   "dept": "paint/sealants"
+  },
+  {
+   "n": "Mohawk Industries",
+   "layer": "cultural",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "says": "Ceramic World Review top-25 ceramic tile groups by volume (2021 ranking)",
+   "country": "",
+   "dept": "tiles"
+  },
+  {
+   "n": "Lamosa",
+   "layer": "cultural",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "says": "Ceramic World Review top-25 ceramic tile groups by volume (2021 ranking)",
+   "country": "",
+   "dept": "tiles"
+  },
+  {
+   "n": "SCG Ceramics",
+   "layer": "cultural",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "says": "Ceramic World Review top-25 ceramic tile groups by volume (2021 ranking)",
+   "country": "",
+   "dept": "tiles"
+  },
+  {
+   "n": "Pamesa",
+   "layer": "cultural",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "says": "Ceramic World Review top-25 ceramic tile groups by volume (2021 ranking)",
+   "country": "",
+   "dept": "tiles"
+  },
+  {
+   "n": "Cerámica Carmelo Fior",
+   "layer": "cultural",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "says": "Ceramic World Review top-25 ceramic tile groups by volume (2021 ranking)",
+   "country": "",
+   "dept": "tiles"
+  },
+  {
+   "n": "Kajaria Ceramics",
+   "layer": "cultural",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "says": "Ceramic World Review top-25 ceramic tile groups by volume (2021 ranking)",
+   "country": "",
+   "dept": "tiles"
+  },
+  {
+   "n": "STN Group",
+   "layer": "cultural",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "says": "Ceramic World Review top-25 ceramic tile groups by volume (2021 ranking)",
+   "country": "",
+   "dept": "tiles"
+  },
+  {
+   "n": "Arwana",
+   "layer": "cultural",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "says": "Ceramic World Review top-25 ceramic tile groups by volume (2021 ranking)",
+   "country": "",
+   "dept": "tiles"
+  },
+  {
+   "n": "Saudi Ceramics",
+   "layer": "cultural",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "says": "Ceramic World Review top-25 ceramic tile groups by volume (2021 ranking)",
+   "country": "",
+   "dept": "tiles"
+  },
+  {
+   "n": "Grupo Halcon",
+   "layer": "cultural",
+   "src": "https://ceramicworldweb.com/en/economics-and-markets/worlds-top-ceramic-tile-manufacturers",
+   "says": "Ceramic World Review top-25 ceramic tile groups by volume (2021 ranking)",
+   "country": "",
+   "dept": "tiles"
+  },
+  {
+   "n": "Olympic",
+   "layer": "premium",
+   "src": "https://www.consumerreports.org/home-garden/wood-stains/best-wood-stains-from-consumer-reports-tests-a4478428531",
+   "says": "Consumer Reports wood stain tests: Olympic named with Behr and Valspar for highly rated solid deck stains",
+   "country": "US",
+   "dept": "wood stain"
+  },
+  {
+   "n": "Kilz",
+   "layer": "premium",
+   "src": "https://www.consumerreports.org/home-garden/paints/best-interior-paints-from-consumer-reports-tests-a7255068381/",
+   "says": "Consumer Reports interior paint ratings include Kilz and PPG lines among tested brands",
+   "country": "US",
+   "dept": "paint"
+  },
+  {
+   "n": "PPG",
+   "layer": "premium",
+   "src": "https://www.consumerreports.org/home-garden/paints/best-interior-paints-from-consumer-reports-tests-a7255068381/",
+   "says": "Consumer Reports interior paint ratings include Kilz and PPG lines among tested brands",
+   "country": "US",
+   "dept": "paint"
+  },
+  {
+   "n": "Claypaint",
+   "layer": "premium",
+   "src": "https://www.goodhousekeeping.com/uk/product-reviews/house-garden/g65043495/best-paint",
+   "says": "Good Housekeeping Institute UK tested market-leading matt emulsions; Claypaint listed in best wall paint 2026; Lick tested",
+   "country": "UK",
+   "dept": "paint"
+  },
+  {
+   "n": "Lick",
+   "layer": "premium",
+   "src": "https://www.goodhousekeeping.com/uk/product-reviews/house-garden/g65043495/best-paint",
+   "says": "Good Housekeeping Institute UK tested market-leading matt emulsions; Claypaint listed in best wall paint 2026; Lick tested",
+   "country": "UK",
+   "dept": "paint"
+  },
+  {
+   "n": "Natura Onecoat",
+   "layer": "premium",
+   "src": "https://thewoodwhisperer.com/videos/step-aside-rubio-the-game-has-changed-hardwax-oil-comparison",
+   "says": "Wood Whisperer hardwax oil comparison 2023: Natura Onecoat most durable; Osmo 2K best looking; Rubio Monocoat and General Finishes tested",
+   "country": "",
+   "dept": "wood oil"
+  },
+  {
+   "n": "Rubio Monocoat",
+   "layer": "premium",
+   "src": "https://thewoodwhisperer.com/videos/step-aside-rubio-the-game-has-changed-hardwax-oil-comparison",
+   "says": "Wood Whisperer hardwax oil comparison 2023: Natura Onecoat most durable; Osmo 2K best looking; Rubio Monocoat and General Finishes tested",
+   "country": "",
+   "dept": "wood oil"
+  },
+  {
+   "n": "General Finishes",
+   "layer": "premium",
+   "src": "https://thewoodwhisperer.com/videos/step-aside-rubio-the-game-has-changed-hardwax-oil-comparison",
+   "says": "Wood Whisperer hardwax oil comparison 2023: Natura Onecoat most durable; Osmo 2K best looking; Rubio Monocoat and General Finishes tested",
+   "country": "",
+   "dept": "wood oil"
+  },
+  {
+   "n": "Dacrylate Paints",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Manufacturers of Paints, Varnishes and Emulsions",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "John Myland",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Manufacturers of French Polishes, Stains & Varnishes",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "Morrells Woodfinishes",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Manufacturers of Wood Finishes",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "T & R Williamson (Thomas Howse)",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Manufacturer of Coatings and Paints",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "G.P. & J. Baker",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Suppliers of Furnishing Fabrics & Wallcoverings",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "Porcelanosa UK",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Manufacturers and Distributors of Ceramic Tiles and Building Products",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "The Traditional Company (Ironwork)",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Supplier and Manufacturer of Legacy Edging",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "A. J. Charlton & Sons",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Timber Merchants and Manufacturers of Timber Gates",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "Wrights of Lymm",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Supplier of Gold Leaf and Gilding Products",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "Forbo Flooring",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Manufacturers of Floor Covering",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "Mick George",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Suppliers of Crushed & Graded Aggregates",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "Witham Oil & Paint",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant Holders Association list of warrant holders to HM The King (April/May 2026): Lubricant Blenders and Paint Suppliers",
+   "country": "UK",
+   "dept": "building materials"
+  },
+  {
+   "n": "Moss & Co. (Hammersmith)",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder: Timber Merchants",
+   "country": "UK",
+   "dept": "merchant",
+   "role": "seller"
+  },
+  {
+   "n": "Pattrick & Thompsons",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder: Timber Merchants",
+   "country": "UK",
+   "dept": "merchant",
+   "role": "seller"
+  },
+  {
+   "n": "James Cordiner & Son",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder: Timber and Builders Merchant",
+   "country": "UK",
+   "dept": "merchant",
+   "role": "seller"
+  },
+  {
+   "n": "C. Brewer and Sons",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder: Decorators' Merchant",
+   "country": "UK",
+   "dept": "merchant",
+   "role": "seller"
+  },
+  {
+   "n": "Huws Gray",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder: Suppliers of Building Materials",
+   "country": "UK",
+   "dept": "merchant",
+   "role": "seller"
+  },
+  {
+   "n": "Mid Beds Locksmiths",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder: Locksmiths and Architectural Ironmongers",
+   "country": "UK",
+   "dept": "merchant",
+   "role": "seller"
+  },
+  {
+   "n": "BJA Trading (Birkdale Sales)",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/media/2986/download?inline=",
+   "says": "Royal Warrant holder: Ironmongers",
+   "country": "UK",
+   "dept": "merchant",
+   "role": "seller"
+  },
+  {
+   "n": "Atlas Concorde",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Ascot Ceramiche",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Cerdisa",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Cooperativa Ceramica d'Imola",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Cotto d'Este",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Fap Ceramiche",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Fincibec",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Ceramica Fondovalle",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "La Fabbrica",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Marca Corona",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Ornamenta",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Refin Ceramiche",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Rondine",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Settecento",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Simas",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Tagina Ceramiche d'Arte",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Vallelunga & Co.",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Ceramiche Caesar",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Lea Ceramiche",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Floor Gres",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Edimax",
+   "layer": "premium",
+   "src": "https://www.italytile.com/",
+   "says": "Ceramics of Italy (Confindustria Ceramica / Italian Trade Commission) multi-brand exhibit; member manufacturers of the Italian tile industry (trade-association promotion, existence + membership)",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Florim",
+   "layer": "premium",
+   "src": "https://www.florim.com/en",
+   "says": "Italian porcelain tile makers (Florim in Altagamma since 2022; Iris Ceramica Group); maker pages",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Iris Ceramica",
+   "layer": "premium",
+   "src": "https://www.florim.com/en",
+   "says": "Italian porcelain tile makers (Florim in Altagamma since 2022; Iris Ceramica Group); maker pages",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Glen Gery",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2025/Products",
+   "says": "Architizer 2025 A+Product Awards Jury Winner (clay brick), Building Envelopes, Cladding & Roofing",
+   "country": "US",
+   "dept": "bricks"
+  },
+  {
+   "n": "Maximo",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2025/Products",
+   "says": "Architizer 2025 A+Product Awards Popular Choice Winner (thermowood), Building Envelopes, Cladding & Roofing",
+   "country": "NZ",
+   "dept": "timber cladding"
+  },
+  {
+   "n": "Modern Mill",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2025/Products",
+   "says": "Architizer 2025 A+Product Awards Finalist, Cladding",
+   "country": "US",
+   "dept": "timber cladding"
+  },
+  {
+   "n": "Emser Tile",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2025/Products",
+   "says": "Architizer 2025 A+Product Awards Finalist, Hard Surfacing, Tiles & Stone",
+   "country": "US",
+   "dept": "tiles"
+  },
+  {
+   "n": "Villa Lagoon Tile",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2025/Products",
+   "says": "Architizer 2025 A+Product Awards Special Mention (cement tile), Hard Surfacing, Tiles & Stone",
+   "country": "US",
+   "dept": "cement tile"
+  },
+  {
+   "n": "C.R. Laurence",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2025/Products",
+   "says": "Architizer 2025 A+Product Awards Finalist/Special Mention, Doors & Hardware",
+   "country": "US",
+   "dept": "door hardware"
+  },
+  {
+   "n": "Maya Romanoff",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2025/Products",
+   "says": "Architizer 2025 A+Product Awards Special Mention, Walls & Wall Coverings",
+   "country": "US",
+   "dept": "wallcoverings"
+  },
+  {
+   "n": "Plyboo by Smith & Fong",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2025/Products",
+   "says": "Architizer 2025 A+Product Awards Popular Choice Winner, Walls & Wall Coverings",
+   "country": "US",
+   "dept": "bamboo panels"
+  },
+  {
+   "n": "Siplast",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2025/Products",
+   "says": "Architizer 2025 A+Product Awards Special Mention (air/water barrier), Cladding",
+   "country": "US",
+   "dept": "membranes"
+  },
+  {
+   "n": "Cupa Pizarras",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2024/Products",
+   "says": "Architizer 2024 A+Product Awards Popular Choice Winner (slate cladding), Building Envelopes, Cladding & Roofing",
+   "country": "Spain",
+   "dept": "slate"
+  },
+  {
+   "n": "Inox",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2024/Products",
+   "says": "Architizer 2024 A+Product Awards Special Mention (mortise lock), Doors & Hardware",
+   "country": "Korea",
+   "dept": "locks"
+  },
+  {
+   "n": "Gruppo Romani",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2024/Products",
+   "says": "Architizer 2024 A+Product Awards Popular Choice Winner, Hard Surfacing, Tiles & Stone",
+   "country": "Italy",
+   "dept": "tiles"
+  },
+  {
+   "n": "Durasein",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2024/Products",
+   "says": "Architizer 2024 A+Product Awards Special Mention, Hard Surfacing",
+   "country": "US",
+   "dept": "solid surface"
+  },
+  {
+   "n": "Castaa",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2024/Products",
+   "says": "Architizer 2024 A+Product Awards Special Mention, Hard Surfacing",
+   "country": "US",
+   "dept": "stone/tile"
+  },
+  {
+   "n": "Kirei",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2024/Products",
+   "says": "Architizer 2024 A+Product Awards Special Mention, Walls & Wall Coverings",
+   "country": "US",
+   "dept": "panels"
+  },
+  {
+   "n": "Novawood",
+   "layer": "premium",
+   "src": "https://winners.architizer.com/2024/Products",
+   "says": "Architizer 2024 A+Product Awards thermowood, Cladding",
+   "country": "Portugal",
+   "dept": "timber"
+  },
+  {
+   "n": "From The Anvil",
+   "layer": "cultural",
+   "src": "https://www.fromtheanvil.co.uk/pages/our-story",
+   "says": "maker of hand-forged traditional ironmongery (Suffolk latches, thumb latches, knockers) since 1998; maker page (existence)",
+   "country": "UK",
+   "dept": "latches/hinges"
+  },
+  {
+   "n": "Heritage Brass (M. Marcus)",
+   "layer": "cultural",
+   "src": "https://www.heritagebrass.co.uk/",
+   "says": "M. Marcus, family-run maker of solid-brass door hardware and letter plates since 1940 from Ironmongers Row, London (maker page)",
+   "country": "UK",
+   "dept": "letter plates/door furniture"
+  },
+  {
+   "n": "Fransham Forge",
+   "layer": "cultural",
+   "src": "https://forged-ironmongery.co.uk/product-category/home-garden/traditional-door-furniture",
+   "says": "Norfolk forge hand-forging latches, knockers, hinges for historic restoration (maker shop)",
+   "country": "UK",
+   "dept": "latches/knockers"
+  },
+  {
+   "n": "The Heritage Forge Company",
+   "layer": "cultural",
+   "src": "http://www.livingwithtradition.co.uk/",
+   "says": "traditional English blacksmiths making Suffolk latches and door hinges (maker page)",
+   "country": "UK",
+   "dept": "latches"
+  },
+  {
+   "n": "Tim Morgan Blacksmith",
+   "layer": "cultural",
+   "src": "https://www.timmorganblacksmith.co.uk/",
+   "says": "blacksmith forging Suffolk latches and traditional ironmongery (maker page)",
+   "country": "UK",
+   "dept": "latches"
+  },
+  {
+   "n": "Suffolk Latch Company",
+   "layer": "cultural",
+   "src": "https://www.suffolklatchcompany.com/",
+   "says": "specialist supplier of Suffolk latches and traditional hand-forged ironmongery",
+   "country": "UK",
+   "dept": "latches",
+   "role": "seller"
   }
  ]
 }

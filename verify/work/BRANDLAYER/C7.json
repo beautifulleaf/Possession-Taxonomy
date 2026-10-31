@@ -19,18 +19,22 @@
    "item": "Field implements & crop machines",
    "queries": [
     "Agritechnica 2019/2022/2023/2025 winners",
-    "de.wikipedia Liste von Landmaschinenherstellern"
+    "de.wikipedia Liste von Landmaschinenherstellern",
+    "Agritechnica 2017 winners",
+    "Machine of the Year 2018",
+    "EIMA 2026 technical innovation"
    ],
-   "found": 200,
+   "found": 268,
    "note": ""
   },
   {
    "axis": "kind",
    "item": "Loaders & earthmoving",
    "queries": [
-    "Agritechnica winners (Stoll loader)"
+    "Agritechnica winners (Stoll loader)",
+    "Bell Equipment"
    ],
-   "found": 1,
+   "found": 2,
    "note": "no dedicated sweep for telehandler/skid steer makers"
   },
   {
@@ -38,27 +42,34 @@
    "item": "Woodland & firewood",
    "queries": [
     "forestry machine manufacturers list",
-    "Interforst innovation award winners"
+    "Interforst innovation award winners",
+    "forestry equipment manufacturers directory",
+    "KWF Innovationsmedaille Preisträger",
+    "SkogsElmia Innovation Award winners"
    ],
-   "found": 0,
-   "note": "searches returned only directory profiles/blogs; no fetchable list; NOT done"
+   "found": 25,
+   "note": "searches returned only directory profiles/blogs; no fetchable list; NOT done directory only; no independent award list fetched yet SkogsElmia full winner list not fetchable; KWF only 2012 fetched"
   },
   {
    "axis": "kind",
    "item": "Smallholding livestock",
-   "queries": [],
-   "found": 0,
-   "note": "not searched (milking, handling, shearing, stunning): pending"
+   "queries": [
+    "milking machine manufacturers list",
+    "Burgon & Ball sheep shears Lister Heiniger"
+   ],
+   "found": 2,
+   "note": "not searched (milking, handling, shearing, stunning): pending only market-report pages; no fetched list yet Heiniger not on a fetched page"
   },
   {
    "axis": "kind",
    "item": "Vintage tractors & engines",
    "queries": [
     "List of former tractor manufacturers",
-    "List of traction engine manufacturers"
+    "List of traction engine manufacturers",
+    "hit and miss engine makers"
    ],
-   "found": 76,
-   "note": "Wikipedia lists; stationary engine/thresher makers pending"
+   "found": 83,
+   "note": "Wikipedia lists; stationary engine/thresher makers pending Stover has no own article on that page"
   },
   {
    "axis": "region",
@@ -82,9 +93,10 @@
    "axis": "region",
    "item": "Southern Europe",
    "queries": [
-    "List of tractor manufacturers (by country)"
+    "List of tractor manufacturers (by country)",
+    "EIMA technical innovation contest"
    ],
-   "found": 0,
+   "found": 48,
    "note": "from country annotations in Wikipedia lists"
   },
   {
@@ -135,22 +147,28 @@
   {
    "axis": "region",
    "item": "Southeast Asia",
-   "queries": [],
+   "queries": [
+    "Kubota Iseki Yanmar tractors Southeast Asia"
+   ],
    "found": 0,
-   "note": "not searched (Southeast Asia, Central Asia, Oceania e.g. Thailand/Australia/NZ pending)"
+   "note": "not searched (Southeast Asia, Central Asia, Oceania e.g. Thailand/Australia/NZ pending) search summaries only; Kubota/Yanmar/Iseki Japanese, in register or unfetched"
   },
   {
    "axis": "region",
    "item": "Central Asia",
-   "queries": [],
-   "found": 0,
+   "queries": [
+    "Kazakhstan Uzbekistan tractor plants"
+   ],
+   "found": 3,
    "note": "not searched (Southeast Asia, Central Asia, Oceania e.g. Thailand/Australia/NZ pending)"
   },
   {
    "axis": "region",
    "item": "Oceania",
-   "queries": [],
-   "found": 0,
+   "queries": [
+    "Gason Horwood Bagshaw Shearer Australian farm machinery"
+   ],
+   "found": 2,
    "note": "not searched (Southeast Asia, Central Asia, Oceania e.g. Thailand/Australia/NZ pending)"
   },
   {
@@ -175,10 +193,12 @@
    "axis": "region",
    "item": "Sub-Saharan Africa",
    "queries": [
-    "List of tractor manufacturers (by country)"
+    "List of tractor manufacturers (by country)",
+    "Africa agricultural machinery manufacturers",
+    "Bell Equipment South Africa"
    ],
-   "found": 0,
-   "note": "from country annotations in Wikipedia lists"
+   "found": 1,
+   "note": "from country annotations in Wikipedia lists only foreign-assembly news; no indigenous maker page; Bell Equipment seen in search excerpt only"
   }
  ],
  "regions": [
@@ -390,6 +410,60 @@
    "brands": [
     "Voor Planter"
    ]
+  },
+  {
+   "region": "Austria (Alpine Europe)",
+   "speciality": "Scythe forging (Sensenschmieden), Roßleithen scythe works since 1687; on Austrian intangible heritage list application",
+   "src": "https://www.unesco.at/fileadmin/Redaktion/Kultur/IKE/IKE-DB/files/952.pdf",
+   "brands": [
+    "Schröckenfux",
+    "Johann Offner"
+   ]
+  },
+  {
+   "region": "Australia (Oceania)",
+   "speciality": "Farm implements for dryland farming (stump-jump plough, Shearer, Horwood Bagshaw, Gason); sheep shearing equipment exported to Australia",
+   "src": "https://fwi.co.uk/farm-life/best-of-british-lister-shearing-equipment",
+   "brands": [
+    "Horwood Bagshaw",
+    "John Shearer & Sons",
+    "Lister Shearing Equipment",
+    "Burgon & Ball"
+   ]
+  },
+  {
+   "region": "Italy (Southern Europe)",
+   "speciality": "Agricultural machinery and components; EIMA Bologna technical innovation contest since 1986 (FederUnacoma)",
+   "src": "https://www.eima.it/en/technical-innovation-contest-eima.php",
+   "brands": [
+    "Maschio Gaspardo",
+    "Merlo",
+    "Nobili",
+    "Landini",
+    "Alpego",
+    "Nardi",
+    "Zanon",
+    "Marzocchi Pompe",
+    "Olmi"
+   ]
+  },
+  {
+   "region": "Central Asia",
+   "speciality": "Tractor assembly (Kostanay Tractor Plant/Kirovets in Kazakhstan; Tashkent Tractor Plant in Uzbekistan)",
+   "src": "https://primeminister.kz/en/news/premer-ministr-rk-askar-mamin-ispytal-pervyy-proizvedennyy-v-kazahstane-traktor-kirovec",
+   "brands": [
+    "Kostanay Tractor Plant",
+    "Kirovets",
+    "Tashkent Tractor Plant"
+   ]
+  },
+  {
+   "region": "South Africa (Sub-Saharan Africa)",
+   "speciality": "Sugar-cane loaders and heavy equipment (Bell Equipment, Richards Bay)",
+   "src": "https://www.namibian.com.na/the-story-of-bell-equipment-an-african-legend/",
+   "brands": [
+    "Bell Equipment"
+   ]
   }
  ],
  "sources": [
@@ -502,6 +576,176 @@
    "new_names": 6,
    "status": "done",
    "note": "Mahindra, Sonalika, TAFE, Escorts, Eicher, New Holland etc. confirmed/already listed"
+  },
+  {
+   "url": "https://liu.se/en/news-item/agtech-swedens-storsatsning-pa-elmia-lantbruk",
+   "title": "Elmia Lantbruk 2024 Innovation Award",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 8,
+   "new_names": 2,
+   "status": "done",
+   "note": " (6 already in register)"
+  },
+  {
+   "url": "https://forestryequipmentmarket.com/manufacturers",
+   "title": "Forestry Equipment Market manufacturers",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 20,
+   "new_names": 15,
+   "status": "done",
+   "note": "directory proves existence only (4 already in register)"
+  },
+  {
+   "url": "https://www.oemoffhighway.com/home/news/10729727/kwftagung-2012-announces-winners-of-kwf-innovation-medal",
+   "title": "KWF Innovation Medal 2012 winners",
+   "kind": "award",
+   "years": "2012",
+   "names_on_page": 5,
+   "new_names": 5,
+   "status": "partial",
+   "note": "5 of 8 winners shown in fetched excerpt only (0 already in register)"
+  },
+  {
+   "url": "https://www.unesco.at/fileadmin/Redaktion/Kultur/IKE/IKE-DB/files/952.pdf",
+   "title": "Austrian intangible heritage application: scythe forging and mowing",
+   "kind": "heritage",
+   "years": "2014",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " (0 already in register)"
+  },
+  {
+   "url": "https://www.scythecymru.co.uk/2025/12/04/visit-to-the-schrockenfux-scythe-factory-austria/",
+   "title": "Scythe Cymru (seller of scythes)",
+   "kind": "retailer",
+   "years": "2025",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "seller (0 already in register)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Horwood_Bagshaw",
+   "title": "Wikipedia: Horwood Bagshaw",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " (0 already in register)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/John_Shearer_%26_Sons",
+   "title": "Wikipedia: John Shearer & Sons",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " (0 already in register)"
+  },
+  {
+   "url": "https://fwi.co.uk/farm-life/best-of-british-lister-shearing-equipment",
+   "title": "Farmers Weekly Best of British: Lister Shearing Equipment",
+   "kind": "heritage",
+   "years": "2009",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " (0 already in register)"
+  },
+  {
+   "url": "https://www.sheffieldhistory.co.uk/forums/topic/1099-burgon-and-ball/",
+   "title": "Sheffield History forum: Burgon & Ball",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": " (1 already in register)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hit-and-miss_engine",
+   "title": "Wikipedia: Hit-and-miss engine",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 7,
+   "new_names": 2,
+   "status": "done",
+   "note": " (5 already in register)"
+  },
+  {
+   "url": "https://www.topagrar.com/technik/news/agritechnica-vergibt-zwei-gold-und-29-silbermedaillen-9365273.html",
+   "title": "top agrar: Agritechnica 2017 gold and silver medals",
+   "kind": "award",
+   "years": "2017",
+   "names_on_page": 27,
+   "new_names": 8,
+   "status": "done",
+   "note": " (15 already in register)"
+  },
+  {
+   "url": "https://latifundist.com/en/novosti/37839-nazvany-pobediteli-konkursa-mashina-goda-na-agritechnica-2017",
+   "title": "Machine of the Year 2018 (announced Agritechnica 2017)",
+   "kind": "award",
+   "years": "2018",
+   "names_on_page": 10,
+   "new_names": 0,
+   "status": "done",
+   "note": " (9 already in register)"
+  },
+  {
+   "url": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "title": "EIMA International 2026 Technical Innovation winners",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 20,
+   "new_names": 15,
+   "status": "done",
+   "note": "country default Italy unverified per row; only EIMA listing (3 already in register)"
+  },
+  {
+   "url": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "title": "EIMA International 2026 Technical Evolution winners",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 28,
+   "new_names": 23,
+   "status": "done",
+   "note": " (5 already in register)"
+  },
+  {
+   "url": "https://primeminister.kz/en/news/premer-ministr-rk-askar-mamin-ispytal-pervyy-proizvedennyy-v-kazahstane-traktor-kirovec",
+   "title": "Kazakh PM: Kirovets tractor assembled at Kostanay Tractor Plant",
+   "kind": "heritage",
+   "years": "2019",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "done",
+   "note": " (0 already in register)"
+  },
+  {
+   "url": "https://www.intellinews.com/uzbekistan-plans-to-establish-assembly-plants-for-agricultural-machinery-in-azerbaijan-and-kazakhstan-284723",
+   "title": "bne IntelliNews: Tashkent Tractor Plant",
+   "kind": "retailer",
+   "years": "2023",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " (0 already in register)"
+  },
+  {
+   "url": "https://www.namibian.com.na/the-story-of-bell-equipment-an-african-legend/",
+   "title": "The Namibian: The Story of Bell Equipment, An African Legend",
+   "kind": "heritage",
+   "years": "2018",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": " (0 already in register)"
   }
  ],
  "brands": [
@@ -3224,6 +3468,639 @@
    "says": "named as an Indian tractor brand on Wikipedia 'Tractors in India'",
    "country": "India",
    "dept": "tractors"
+  },
+  {
+   "n": "Rongers",
+   "layer": "premium",
+   "src": "https://liu.se/en/news-item/agtech-swedens-storsatsning-pa-elmia-lantbruk",
+   "says": "Elmia Lantbruk 2024 Innovation Award gold/silver winner",
+   "country": "Sweden",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Ystadmaskiner",
+   "layer": "premium",
+   "src": "https://liu.se/en/news-item/agtech-swedens-storsatsning-pa-elmia-lantbruk",
+   "says": "Elmia Lantbruk 2024 Innovation Award gold/silver winner",
+   "country": "Sweden",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Ponsse",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "Finland",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "John Deere Forestry",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "United States",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Komatsu Forest",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "Sweden",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Tigercat",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "Canada",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Rottne",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "Sweden",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Eco Log",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "Sweden",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Logset",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "Finland",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "TimberPro",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "United States",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Barko",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "United States",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Sennebogen",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "Germany",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Waratah",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "New Zealand",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Log Max",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "Sweden",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "SP Maskiner",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "Sweden",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Bandit",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "United States",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Morbark",
+   "layer": "premium",
+   "src": "https://forestryequipmentmarket.com/manufacturers",
+   "says": "listed in forestry equipment directory (existence only)",
+   "country": "United States",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "HSM Hohenloher Spezialmaschinenbau",
+   "layer": "premium",
+   "src": "https://www.oemoffhighway.com/home/news/10729727/kwftagung-2012-announces-winners-of-kwf-innovation-medal",
+   "says": "KWF Innovation Medal 2012 winner (jury of professionals)",
+   "country": "Germany",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Konrad Forsttechnik",
+   "layer": "premium",
+   "src": "https://www.oemoffhighway.com/home/news/10729727/kwftagung-2012-announces-winners-of-kwf-innovation-medal",
+   "says": "KWF Innovation Medal 2012 winner (jury of professionals)",
+   "country": "Austria",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "AST mecaplus",
+   "layer": "premium",
+   "src": "https://www.oemoffhighway.com/home/news/10729727/kwftagung-2012-announces-winners-of-kwf-innovation-medal",
+   "says": "KWF Innovation Medal 2012 winner (jury of professionals)",
+   "country": "Germany",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Doll Fahrzeugbau",
+   "layer": "premium",
+   "src": "https://www.oemoffhighway.com/home/news/10729727/kwftagung-2012-announces-winners-of-kwf-innovation-medal",
+   "says": "KWF Innovation Medal 2012 winner (jury of professionals)",
+   "country": "Germany",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Martens Forsttechnik",
+   "layer": "premium",
+   "src": "https://www.oemoffhighway.com/home/news/10729727/kwftagung-2012-announces-winners-of-kwf-innovation-medal",
+   "says": "KWF Innovation Medal 2012 winner (jury of professionals)",
+   "country": "Germany",
+   "dept": "forestry machines"
+  },
+  {
+   "n": "Johann Offner",
+   "layer": "premium",
+   "src": "https://www.unesco.at/fileadmin/Redaktion/Kultur/IKE/IKE-DB/files/952.pdf",
+   "says": "named as scythe maker (Sensenhersteller) in the application for Austria intangible cultural heritage list: scythe forging and mowing",
+   "country": "Austria",
+   "dept": "scythes"
+  },
+  {
+   "n": "Scythe Cymru",
+   "layer": "cultural",
+   "src": "https://www.scythecymru.co.uk/2025/12/04/visit-to-the-schrockenfux-scythe-factory-austria/",
+   "says": "UK specialist seller of scythes, sharpening stones and hand tools",
+   "country": "United Kingdom",
+   "dept": "scythes",
+   "role": "seller"
+  },
+  {
+   "n": "Horwood Bagshaw",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Horwood_Bagshaw",
+   "says": "has own Wikipedia article: Australian agricultural machinery maker, origins late 1800s",
+   "country": "Australia",
+   "dept": "implements"
+  },
+  {
+   "n": "John Shearer & Sons",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/John_Shearer_%26_Sons",
+   "says": "has own Wikipedia article: South Australian farm machinery maker est. 1877",
+   "country": "Australia",
+   "dept": "implements"
+  },
+  {
+   "n": "Lister Shearing Equipment",
+   "layer": "cultural",
+   "src": "https://fwi.co.uk/farm-life/best-of-british-lister-shearing-equipment",
+   "says": "profiled in Farmers Weekly series on British farm machinery makers; sheep shears since 1909, sold in 60 countries",
+   "country": "United Kingdom",
+   "dept": "sheep shears"
+  },
+  {
+   "n": "Hercules Engine Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Hit-and-miss_engine",
+   "says": "named among the largest hit-and-miss stationary engine makers (Wikipedia); linked rows with own article: Landini, Hercules Engine Company, International Harvester, John Deere, Maytag, Fairbanks Morse; Stover not linked",
+   "country": "United States",
+   "dept": "stationary engines"
+  },
+  {
+   "n": "Stover Engine Works",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Hit-and-miss_engine",
+   "says": "named among the largest hit-and-miss stationary engine makers (Wikipedia); linked rows with own article: Landini, Hercules Engine Company, International Harvester, John Deere, Maytag, Fairbanks Morse; Stover not linked",
+   "country": "United States",
+   "dept": "stationary engines"
+  },
+  {
+   "n": "Wienhoff",
+   "layer": "premium",
+   "src": "https://www.topagrar.com/technik/news/agritechnica-vergibt-zwei-gold-und-29-silbermedaillen-9365273.html",
+   "says": "DLG Innovation Award Agritechnica 2017 gold/silver",
+   "country": "Germany",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Hatzenbichler",
+   "layer": "premium",
+   "src": "https://www.topagrar.com/technik/news/agritechnica-vergibt-zwei-gold-und-29-silbermedaillen-9365273.html",
+   "says": "DLG Innovation Award Agritechnica 2017 gold/silver",
+   "country": "Austria",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Bednar",
+   "layer": "premium",
+   "src": "https://www.topagrar.com/technik/news/agritechnica-vergibt-zwei-gold-und-29-silbermedaillen-9365273.html",
+   "says": "DLG Innovation Award Agritechnica 2017 gold/silver",
+   "country": "Czech Republic",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Carré",
+   "layer": "premium",
+   "src": "https://www.topagrar.com/technik/news/agritechnica-vergibt-zwei-gold-und-29-silbermedaillen-9365273.html",
+   "says": "DLG Innovation Award Agritechnica 2017 gold/silver",
+   "country": "France",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Petkus",
+   "layer": "premium",
+   "src": "https://www.topagrar.com/technik/news/agritechnica-vergibt-zwei-gold-und-29-silbermedaillen-9365273.html",
+   "says": "DLG Innovation Award Agritechnica 2017 gold/silver",
+   "country": "Germany",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "GSI",
+   "layer": "premium",
+   "src": "https://www.topagrar.com/technik/news/agritechnica-vergibt-zwei-gold-und-29-silbermedaillen-9365273.html",
+   "says": "DLG Innovation Award Agritechnica 2017 gold/silver",
+   "country": "United States",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Fruit-Tec",
+   "layer": "premium",
+   "src": "https://www.topagrar.com/technik/news/agritechnica-vergibt-zwei-gold-und-29-silbermedaillen-9365273.html",
+   "says": "DLG Innovation Award Agritechnica 2017 gold/silver",
+   "country": "Germany",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Agrocom",
+   "layer": "premium",
+   "src": "https://www.topagrar.com/technik/news/agritechnica-vergibt-zwei-gold-und-29-silbermedaillen-9365273.html",
+   "says": "DLG Innovation Award Agritechnica 2017 gold/silver",
+   "country": "Germany",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Alpego",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Bellon",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Cifarelli",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Clear Drop Tech",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "DCM Spreaders",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "ERO",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Germany",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Eurocardan",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Farmfront",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Ferri",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Industrias David",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "LaCruz",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Spezia Tecnovict",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Startec",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "TeeJet",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "United States",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Zanon",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-innovation-2026.php",
+   "says": "EIMA Technical Innovation Contest 2026 winner (jury of experts)",
+   "country": "Italy",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "ADR",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Aitronik",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "AMA",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Amiad",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Arcusin",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Arrizza",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "CAEB",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Cojali",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "ER.MO",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Gefran",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Guaresi",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Lama",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Marzocchi Pompe",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Mascar",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "MDB",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Melmak",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "MultiOne",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Naio",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Netafim",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Olmi",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Tritecnica",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Valsovi",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Zappettificio Muzzi",
+   "layer": "premium",
+   "src": "https://www.eima.it/en/eima-technical-evolution-2026.php",
+   "says": "EIMA Technical Evolution 2026 winner (jury of experts)",
+   "country": "",
+   "dept": "farm machinery"
+  },
+  {
+   "n": "Kostanay Tractor Plant",
+   "layer": "cultural",
+   "src": "https://primeminister.kz/en/news/premer-ministr-rk-askar-mamin-ispytal-pervyy-proizvedennyy-v-kazahstane-traktor-kirovec",
+   "says": "official Kazakh government page: Kostanay Tractor Plant assembling Kirovets; Kirovets called legendary, ~500 sold 2014-17",
+   "country": "Kazakhstan",
+   "dept": "tractors"
+  },
+  {
+   "n": "Petersburg Tractor Plant",
+   "layer": "cultural",
+   "src": "https://primeminister.kz/en/news/premer-ministr-rk-askar-mamin-ispytal-pervyy-proizvedennyy-v-kazahstane-traktor-kirovec",
+   "says": "official Kazakh government page: Kostanay Tractor Plant assembling Kirovets; Kirovets called legendary, ~500 sold 2014-17",
+   "country": "Russia",
+   "dept": "tractors"
+  },
+  {
+   "n": "Tashkent Tractor Plant",
+   "layer": "cultural",
+   "src": "https://www.intellinews.com/uzbekistan-plans-to-establish-assembly-plants-for-agricultural-machinery-in-azerbaijan-and-kazakhstan-284723",
+   "says": "Tashkent Tractor Plant LLC, Uzbek maker exporting to neighbours, capacity 15,000 units a year",
+   "country": "Uzbekistan",
+   "dept": "tractors"
+  },
+  {
+   "n": "Bell Equipment",
+   "layer": "cultural",
+   "src": "https://www.namibian.com.na/the-story-of-bell-equipment-an-african-legend/",
+   "says": "press feature calling Bell Equipment Africa best automotive story; Bell cane loader patented 1964; South African heavy equipment incl. forestry and agri",
+   "country": "South Africa",
+   "dept": "loaders / forestry"
   }
  ]
 }
