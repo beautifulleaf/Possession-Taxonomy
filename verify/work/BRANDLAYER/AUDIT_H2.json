@@ -702,7 +702,7 @@
    "why": "Subsidiary of register Cochlear (H2), Baha processors - alias, not new"
   }
  ],
- "notes": "Accuracy: all 25 sampled names shown on raw src; claims supported (listing/validation/membership) — 1 category-fit doubt (Xinbaotang chenpi). ",
+ "notes": "Accuracy: all 25 sampled names shown on raw src; claims supported (listing/validation/membership) — 1 category-fit doubt (Xinbaotang chenpi). Main issues: (1) many STRIDE rows are Chinese/Taiwanese OEM/ODM factories, not consumer brands (see consumer_brand_check); (2) retailer/service labels remain (Amplifon, Hanger, CareCo, RPM vendors, Chinese pharmacy chains and hospitals) - see drop; (3) ~9 duplicates of register rows; (4) pinyin errors: Hennian Tang->Henian Tang, Pan Chor Shun->Pan Gaoshou, Laobo Yuntang->Lao Boyuntang; (5) harvest skipped STRIDE/VDL names already in register under other categories (cross_tag). Tier notes: STRIDE/VDL = independent validation (quality) of a device; Which? scooter rows = listed; JKMA membership = cultural standing (trade association); Time-honored register = cultural (designation).",
  "cross_tag": [
   {
    "n": "Emami",
@@ -724,6 +724,69 @@
    "add_cat": "H2",
    "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
    "says": "Register row (H1, toothpaste) is the Yunnan Baiyao Group, a haemostatic TCM maker; Time-honored row 1088 云南白药集团股份有限公司 云南白药; harvest region list names it but no brand row"
+  },
+  {
+   "n": "HoMedics",
+   "existing_cat": "H1",
+   "add_cat": "H2",
+   "src": "https://www.stridebp.org/home-pdf",
+   "says": "STRIDE validated BP monitors (BPA-300, WGNBPA-540) and VDL brand facet Homedics (11) - omitted by harvest"
+  },
+  {
+   "n": "Hartmann (Paul Hartmann AG)",
+   "existing_cat": "new",
+   "add_cat": "H2",
+   "src": "https://www.stridebp.org/home-pdf",
+   "says": "STRIDE: Hartmann Veroval monitors - omitted by harvest. HOMONYM of register Hartmann (A4 luggage) and Hartmann Tresore (B8): add as 'Hartmann (medical)'"
+  },
+  {
+   "n": "Panasonic",
+   "existing_cat": "many",
+   "add_cat": "H2",
+   "src": "https://www.stridebp.org/home-pdf",
+   "says": "STRIDE: Panasonic EW3106/EW3109"
+  },
+  {
+   "n": "Citizen",
+   "existing_cat": "A5",
+   "add_cat": "H2",
+   "src": "https://www.stridebp.org/home-pdf",
+   "says": "STRIDE: Citizen CH-432B etc. (Citizen Systems Japan, Citizen group) - same group, cross-tag"
+  },
+  {
+   "n": "Oregon Scientific",
+   "existing_cat": "A5",
+   "add_cat": "H2",
+   "src": "https://www.stridebp.org/home-pdf",
+   "says": "STRIDE lists 'Oregon BPU 330'; register 'Oregon' (C2) is the chain-saw firm - do NOT tag that row (homonym)"
+  },
+  {
+   "n": "Hanvon",
+   "existing_cat": "D2",
+   "add_cat": "H2",
+   "src": "https://www.stridebp.org/home-pdf",
+   "says": "STRIDE: Hanvon FF680, KSY3600 etc."
+  },
+  {
+   "n": "Artsana (Pic Indolor)",
+   "existing_cat": "E1",
+   "add_cat": "H2",
+   "src": "https://www.stridebp.org/home-pdf",
+   "says": "STRIDE: Artsana Pic Indolor monitors"
+  },
+  {
+   "n": "Gendron, Inc.",
+   "existing_cat": "E1",
+   "add_cat": "H2",
+   "src": "https://en.wikipedia.org/wiki/Category:Wheelchair_manufacturers",
+   "says": "member of Category:Wheelchair manufacturers; register row is in E1 only"
+  },
+  {
+   "n": "Forest Essentials",
+   "existing_cat": "H1,H4",
+   "add_cat": "(none)",
+   "src": "https://en.wikipedia.org/wiki/Category:Ayurvedic_companies",
+   "says": "in Ayurvedic category but a luxury cosmetics brand - leave out of H2"
   }
  ],
  "corrections": [
@@ -857,5 +920,44 @@
    "Medipro"
   ],
   "recommendation": "Under BRIEF (budget/private labels without cultural footprint are out) the OEM/ODM rows should be dropped or kept only as 'listed' with no cultural layer; STRIDE listing is validation (quality) of a device, but these firms are not consumer brands."
- }
+ },
+ "candidates_not_fetched": "Seen only in search excerpts or known, no raw page fetched in this pass (next agent): Hoe Hin White Flower Embrocation (whiteflower.com history, own site), Wong To Yick Wood Lock (own site), Kwan Loong, Eagle Brand medicated oil, Mölnlycke Health Care (Wikipedia URL https://en.wikipedia.org/wiki/M%C3%B6lnlycke_Health_Care seen), Lohmann & Rauscher (own press release only), Dr. Willmar Schwabe, Similasan, A. Vogel/Bioforce, Nelsons (Bach Rescue Remedy), Doppelherz (Queisser), Tetesept, Leukoplast (BSN), Mercurochrome, Thuasne, Zamst, McDavid, Aircast, KT Tape, Kinesio, Qarshi (Pakistan Unani), Impcops (Siddha, Chennai), Kerala Ayurveda Ltd, Kottakkal (=Arya Vaidya Sala, already harvested), Acuvue (alias of register Johnson & Johnson Vision).",
+ "thin_area_retries": [
+  {
+   "item": "Western Europe",
+   "result": "Klosterfrau Melissengeist, Ricola, Orthomol, Ratiopharm, Stada added from Wikipedia pages/categories"
+  },
+  {
+   "item": "Southeast Asia",
+   "result": "Axe Brand (SG50 heritage), Sido Muncul (jamu), Takabb, Snake Brand, Kalbe Farma added"
+  },
+  {
+   "item": "East Asia",
+   "result": "25 more Time-honored medicine makers from the two fetched register PDFs; Po Chai Pills, Chuang Song Zong; Bozhou and Geumsan regions"
+  },
+  {
+   "item": "South Asia beyond Ayurveda",
+   "result": "Zandu added; Unani: Hamdard Pakistan/India/Bangladesh present; Qarshi and Siddha (Impcops) not attested on a fetched page"
+  },
+  {
+   "item": "Sub-Saharan Africa",
+   "result": "Wikipedia pharma categories of Ghana, Nigeria, Kenya, Uganda fetched: only generic/defunct pharma (Starwin defunct, Neimeth, Dawa, Quality Chemicals) - no consumer/traditional makers; concentrated - not an omission (REGIONS ARE NOT QUOTAS)"
+  },
+  {
+   "item": "Middle East / North Africa",
+   "result": "Iran/Tunisia pharma categories fetched: generic pharma only (Barakat, Cobel Darou, Adwya) - no consumer brand added"
+  },
+  {
+   "item": "Latin America",
+   "result": "Genomma Lab (Mexico), Hypera Pharma (Brazil) added; no herbal maker attested"
+  },
+  {
+   "item": "Contact lenses, condoms, CPAP, glucose, TENS, sports nutrition",
+   "result": "already well covered in register (CooperVision, Menicon, Alcon, B+L, J&J Vision; Okamoto, Sagami, Durex, Skyn; ResMed, Philips Respironics, Fisher & Paykel; Dexcom, Abbott, Ascensia, i-Sens; Compex, Bluetens; Optimum Nutrition, Myprotein etc.) - no gap"
+  },
+  {
+   "item": "Kerala Ayurveda, Kampo, Odense/Denmark hearing-aid renown pages",
+   "result": "not fetched in this pass (no independent URL found before context limit)"
+  }
+ ]
 }

@@ -12450,16 +12450,16 @@
   {
    "n": "M.L. Ramnarain Perfumers",
    "aliases": [],
-   "tier": "listed",
+   "tier": "cultural",
    "layer_harvest": "cultural",
    "src": "https://mlramnarain.com/",
-   "src2": "",
-   "shown": false,
-   "region": "",
-   "scene": "",
+   "src2": "https://www.fortuneindia.com/long-reads/kannaujs-attar-reinvention/117050",
+   "shown": true,
+   "region": "Kannauj, India (attar)",
+   "scene": "South Asian attar houses",
    "dept": "Attars and oils",
    "country": "India",
-   "note": "maker's own website: existence only",
+   "note": "maker's own website: existence only; Fortune India (bylined, 2024): \"200-year-old perfume distillery\" of fifth-generation perfumer Pranjal Kapoor in Kannauj, traditional deg-bhapka distillation; scene from independent page (Fortune India: Kannauj distillery)",
    "origin": "harvest"
   },
   {
@@ -12473,10 +12473,10 @@
    "src2": "https://www.taipeitimes.com/News/feat/archives/2012/09/20/2003543194",
    "shown": true,
    "region": "",
-   "scene": "",
+   "scene": "South Asian attar houses",
    "dept": "Attars and oils",
    "country": "India",
-   "note": "maker's own website: existence only; AFP (Taipei Times 2012) as Gulab Singh Johrimal: Old Delhi attar house, family business since 1816",
+   "note": "maker's own website: existence only; AFP (Taipei Times 2012) as Gulab Singh Johrimal: Old Delhi attar house, family business since 1816; scene from independent page (AFP: Old Delhi attar house)",
    "origin": "harvest"
   },
   {
@@ -12484,8 +12484,8 @@
    "aliases": [],
    "tier": "quality",
    "layer_harvest": "cultural",
-   "src": "https://www.bbc.com/travel/article/20200407-turkeys-unique-hand-sanitiser",
-   "src2": "https://www.marieclaire.com.tr/marie-claire-fragrance-awards-kazananlari https://www.fragrantica.com/country/Turkey.html",
+   "src": "https://www.marieclaire.com.tr/marie-claire-fragrance-awards-kazananlari",
+   "src2": "https://www.fragrantica.com/country/Turkey.html https://www.bbc.com/travel/article/20200407-turkeys-unique-hand-sanitiser",
    "shown": true,
    "region": "",
    "scene": "Middle Eastern perfumery",
@@ -12499,8 +12499,8 @@
    "aliases": [],
    "tier": "listed",
    "layer_harvest": "cultural",
-   "src": "https://www.businessinsider.com/turkey-kolonya-cologne-covid-coronavirus-hand-sanitizer-2020-11",
-   "src2": "https://www.fragrantica.com/country/Turkey.html",
+   "src": "https://www.fragrantica.com/country/Turkey.html",
+   "src2": "https://www.businessinsider.com/turkey-kolonya-cologne-covid-coronavirus-hand-sanitizer-2020-11",
    "shown": true,
    "region": "",
    "scene": "Middle Eastern perfumery",
@@ -15923,9 +15923,11 @@
    "src2": "https://www.taipeitimes.com/News/feat/archives/2012/09/20/2003543194",
    "renown": true,
    "quote": "Kannauj is to India what Grasse is to France. Here perfume-making is art. (AFP)",
-   "note": "designation: Kannauj Perfume GI (Wikipedia page); GI page names no houses; brands from AFP/Taipei Times. M.L. Ramnarain rests on its own site only (not in region). Gulab Singh Johrimal is named on the same AFP page but is an Old Delhi house: South Asian attar scene, not the Kannauj region",
+   "src3": "https://www.fortuneindia.com/long-reads/kannaujs-attar-reinvention/117050",
+   "note": "designation: Kannauj Perfume GI (Wikipedia page); GI page names no houses; brands from AFP/Taipei Times. M.L. Ramnarain is placed via Fortune India (src3, bylined, \"ancient town known for its perfumery\"). Gulab Singh Johrimal is named on the same AFP page but is an Old Delhi house: South Asian attar scene, not the Kannauj region",
    "brands": [
-    "Pragati Aroma Oil Distillers"
+    "Pragati Aroma Oil Distillers",
+    "M.L. Ramnarain Perfumers"
    ]
   },
   {
@@ -16498,22 +16500,22 @@
  ],
  "stats": {
   "checked": 1055,
-  "shown_false": 1,
+  "shown_false": 0,
   "by_tier": {
-   "listed": 790,
-   "cultural": 45,
+   "listed": 789,
+   "cultural": 46,
    "quality": 220
   },
   "by_scene": {
    "Middle Eastern perfumery": 728,
-   "South Asian attar houses": 70
+   "South Asian attar houses": 72
   },
   "homonyms": 19,
-  "src2_used": 24,
+  "src2_used": 25,
   "regions": 9,
   "regions_renown": 6,
   "regions_no_renown": 3,
-  "brands_with_region": 10,
+  "brands_with_region": 11,
   "by_origin": {
    "harvest": 831,
    "harvest_countries": 185,

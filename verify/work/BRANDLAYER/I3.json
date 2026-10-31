@@ -32,6 +32,38 @@
    ],
    "found": 69,
    "note": "2024 global awards PDF done; per-country Opensignal reports, 2020-2023/2025 global awards, 5G awards 2024/2025, Ookla awards not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Food & drink subscriptions (meal kits, warehouse clubs)",
+   "queries": [
+    "wikipedia Category:Meal kit companies (404)",
+    "wikipedia Meal kit",
+    "wikipedia Category:Warehouse clubs"
+   ],
+   "found": 27,
+   "note": "Oisix/Japan not found on fetched page; subscription boxes not searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Motoring & breakdown cover clubs",
+   "queries": [
+    "wikipedia Automobile association",
+    "fia.com members (search only)"
+   ],
+   "found": 18,
+   "note": "ACI, TCS, ADAC etc. known"
+  },
+  {
+   "axis": "kind",
+   "item": "Telecom service quality (broadband/mobile)",
+   "queries": [
+    "Which? Recommended Providers (paywalled)",
+    "J.D. Power 2026 ISP study",
+    "Ookla Speedtest Awards 2025"
+   ],
+   "found": 36,
+   "note": "Which? blocked"
   }
  ],
  "regions": [],
@@ -135,6 +167,36 @@
    "new_names": 5,
    "status": "done",
    "note": "standing; wireless carrier study (Volume/satisfaction) press release not fetched"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "title": "Wikipedia: Automobile association",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 28,
+   "new_names": 18,
+   "status": "done",
+   "note": "national motoring clubs list; 12 already in register; ACI/TCS not on this page"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Warehouse_clubs",
+   "title": "Wikipedia: Category:Warehouse clubs",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 11,
+   "new_names": 4,
+   "status": "done",
+   "note": "13 pages; Fedco, Gemco, Pace defunct"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Meal_kit",
+   "title": "Wikipedia: Meal kit",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 16,
+   "new_names": 3,
+   "status": "done",
+   "note": "list of notable services + history"
   }
  ],
  "brands": [
@@ -2350,6 +2412,224 @@
    "dept": "Home internet",
    "already": false,
    "country": "United States"
+  },
+  {
+   "n": "Automobile Association of Bangladesh",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Bangladesh"
+  },
+  {
+   "n": "Japan Automobile Federation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Japan"
+  },
+  {
+   "n": "RACQ",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Australia"
+  },
+  {
+   "n": "RAC WA",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Australia"
+  },
+  {
+   "n": "RACT",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Australia"
+  },
+  {
+   "n": "Royal Automobile Association",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Australia"
+  },
+  {
+   "n": "Automobile Association of the Northern Territory",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Australia"
+  },
+  {
+   "n": "Armenian Automobile Federation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Armenia"
+  },
+  {
+   "n": "ARBÖ",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Austria"
+  },
+  {
+   "n": "BIHAMK",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Bosnia and Herzegovina"
+  },
+  {
+   "n": "Croatian Auto Club",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Croatia"
+  },
+  {
+   "n": "AvD",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Germany"
+  },
+  {
+   "n": "Civil Service Motoring Association",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "UK"
+  },
+  {
+   "n": "The Automobile Association",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "UK"
+  },
+  {
+   "n": "Argentine Automobile Club",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Argentina"
+  },
+  {
+   "n": "Better World Club",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "USA"
+  },
+  {
+   "n": "Canadian Automobile Association",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "Canada"
+  },
+  {
+   "n": "Good Sam Club",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Automobile_associations",
+   "says": "listed in Wikipedia \"Automobile association\" (national motoring clubs / breakdown cover)",
+   "dept": "Breakdown cover & motoring club membership",
+   "already": false,
+   "country": "USA"
+  },
+  {
+   "n": "Fedco",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Warehouse_clubs",
+   "says": "listed in Wikipedia Category:Warehouse clubs (membership warehouse; some defunct)",
+   "dept": "Warehouse club membership",
+   "already": false
+  },
+  {
+   "n": "Gemco",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Warehouse_clubs",
+   "says": "listed in Wikipedia Category:Warehouse clubs (membership warehouse; some defunct)",
+   "dept": "Warehouse club membership",
+   "already": false
+  },
+  {
+   "n": "Pace Membership Warehouse",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Warehouse_clubs",
+   "says": "listed in Wikipedia Category:Warehouse clubs (membership warehouse; some defunct)",
+   "dept": "Warehouse club membership",
+   "already": false
+  },
+  {
+   "n": "Sam's Club",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Warehouse_clubs",
+   "says": "listed in Wikipedia Category:Warehouse clubs (membership warehouse; some defunct)",
+   "dept": "Warehouse club membership",
+   "already": false
+  },
+  {
+   "n": "Plated",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Meal_kit",
+   "says": "listed in Wikipedia \"Meal kit\" (notable meal kit services; Middagsfrid named as the Swedish originator)",
+   "dept": "Meal kit subscription",
+   "already": false
+  },
+  {
+   "n": "Green Chef",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Meal_kit",
+   "says": "listed in Wikipedia \"Meal kit\" (notable meal kit services; Middagsfrid named as the Swedish originator)",
+   "dept": "Meal kit subscription",
+   "already": false
+  },
+  {
+   "n": "EveryPlate",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Meal_kit",
+   "says": "listed in Wikipedia \"Meal kit\" (notable meal kit services; Middagsfrid named as the Swedish originator)",
+   "dept": "Meal kit subscription",
+   "already": false
   }
  ]
 }
