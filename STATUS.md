@@ -358,3 +358,17 @@ Owner reads the reader page and the queue; moves between categories change the t
 7. Portable power station has no home (B7 is air only, home battery is G3): C1 or D2?
 8. Portable saunas and inflatable hot tubs in G3 (built-in rule) although movable: keep?
 9. Fresh ready-to-eat food (sandwiches, salads, takeaway): in J5, or out as dishes?
+
+## Session 13, continued — structure pass STR done for all 57 categories (artifact v30)
+| Step | Result |
+|---|---|
+| STR pass | One Sonnet agent per category (verify/in/STR_<CODE>.prompt.txt over STR_COMMON.txt; reports rebuild/out/STR_<CODE>_report.md). Every category has `ax` and a placement `key`; every department `t` and `ax`; every shelf `t` (and `ax` above 3 kinds); 7,892 kinds have hand-written type groups (`tt`). All 57 files pass `validate.py --v3`. |
+| Totals (v28 → v30) | departments 488 → 503; shelves 1,362 → 1,819; kinds 7,811 → 8,892; archetypes 18,649 → 16,758 (generic ones demoted to types, models or ranges); models 17,313 → 20,702; cross-links 0 → 1,823. |
+| Restore pass | The agents dropped versions of demoted archetypes; tools/restore_lost.py put 1,685 concrete names back as models from the pre-pass backups. 58 could not be placed and 831 maker-less generic patterns were left out on purpose (rebuild/work/_restore/<CODE>.tsv). |
+| Coordinator fixes | In-game currency kind removed from I2 (stored value is out); 16 cross-links retargeted after renames (tools/see_check.py, fix_see_links.py); 6 same-name different objects renamed apart and 4 same-object pairs linked (tools/fix_homonyms.py); merge.py folds moved-in kinds into kinds an agent merged or renamed (out/<CODE>_renames.json). |
+| Page | Codes on departments, shelves and kinds; "Belongs here", "How it splits" and "Order" lines; grouped types; See-also links; per-category key; "How to place" view (framework v0.8); models are searchable. https://claude.ai/artifact/C1cQq1ygVd7bWfw7Duem6n v30. |
+
+Known weak spots (from the reports): Firecrawl and Parallel ran out of credit, so coverage checks used WebFetch summaries, mostly Wikipedia; many shelves have no whole-space reference (listed per category in the STR reports); some type lists come from general knowledge; producer houses in J2 went to models instead of ranges; Strunz placements of four F6 minerals to spot-check; jacks and hoists (G1) may belong in C1.
+
+## Next
+Owner reads v30 and the session-13 owner queue above. Suggested follow-ups: retailer-page coverage checks for the shelves the reports list as unchecked once a fetch tool has credit; place the 58 unplaced restored names; a blind findability test on the new structure.

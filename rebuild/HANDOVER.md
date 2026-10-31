@@ -37,3 +37,10 @@ Sources: Wikipedia/Wikidata APIs (throttle), Firecrawl/Parallel search+scrape, o
 - Totals: kinds 7,932 → 7,811 (merges of attribute-only kinds), archetypes 17,595 → 18,649, brands 12,813, traditions 835. tools/lost_check.py <ref> lists vanished names (all checked: renames, merges into types, catch-alls, concepts).
 - app.js: archetype field `ex` shown as "Example:"; brands flagged `stub` grouped last as "Listed only".
 - Follow-ups (rebuild/work/_fixqueue.md): cross-link field in the schema (many cross-category pairs left as duplicates: D3/E3 turntables and mics, C4/C5 inkstones, B5/G3 range cookers, D2/E5 XR glasses, D1/E5 THEC64, B4/F2 Venini, C2/C8 barbecue fuel); J7-5 wine re-levelled by appellation > producer > classification; E3-7 orchestral vs folk split by culture; E4-5 Japanese swords by school and period with a smith register; F2-6 ULAN artist register; C3-3 living-plants species register; J2 species vs family consistency; many unsourced icons listed per report (blocked databases: Watchbase, Fragrantica, Parfumo, vitra.com, Shimano).
+
+## 2026-10-31 (session 13, on main): structure pass STR, artifact v30
+- main now carries this rebuild (merged from claude/toy-organization-system-mapqhu). Work on main.
+- Schema v3 (verify/in/STR_COMMON.txt): category `ax`, `key`; department `t`, `ax`; shelf `t`, `ax`; kind `tt` [[axis,[types]]] and `see` [[CODE,kind,why]]. Check with `validate.py --v3`.
+- Loop per category: agent edits out/<CODE>.json (+ _renames.json, _moves.json) → tools/str_merge.sh <CODE> (merge, validate, commit, push) → build.py → publish.
+- After any pass that demotes archetypes: tools/restore_lost.py --write (from work/STR_<CODE>/bak), then tools/see_check.py --fix.
+- Framework v0.8: framework/CATEGORIES_v0_8.md; page data framework/key_v0_8.json (build.py embeds it).

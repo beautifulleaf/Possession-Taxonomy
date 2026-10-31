@@ -72,6 +72,8 @@ for c in meta['cats']:
                 n += 1; index.append([c['c'], k['n'], k.get('a', ''), ''])
                 for x in k.get('x', []) or []:
                     index.append([c['c'], x['n'], x.get('a', '') or '', k['n']])
+                for m in k.get('m', []) or []:  # models (incl. versions the structure pass demoted) are findable too
+                    index.append([c['c'], m[0], m[1] if len(m) > 1 else '', k['n']])
     r = REG.get(c['c'], {})
     cats.append(dict(c, k=n, nb=r.get('brands', 0), nt=r.get('traditions', 0), ns=r.get('species', 0)))
 FW = '../framework/key_v0_8.json'
