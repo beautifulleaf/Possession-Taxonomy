@@ -37,8 +37,9 @@ for n,desc,items,tt in [
     k={"n":n,"a":"","d":desc,"s":W,"x":items,"tt":tt}; k.update(base); sh.append(k)
 # insert new kinds after Warre, before Skep
 sh[:]=[k for k in sh if k['n'] not in('Log hive','Stingless bee hive')][:4]+[k for k in sh if k['n'] in('Log hive','Stingless bee hive')]+[k for k in sh if k['n'] not in('Log hive','Stingless bee hive')][4:]
-cov="Complete: all designs Wikipedia's Beehive article names with a description are listed (Langstroth to UTOB, 33 entries including the Flow Hive and Rose hive from earlier pages). Left out: Stewarton hive, which that page links but does not describe, and the Skep, which is its own kind."
+cov="Complete: all designs Wikipedia's Beehive article names with a description are listed (Langstroth to UTOB, 31 entries including the Flow Hive and Rose hive from earlier pages). Left out: Stewarton hive, which that page links but does not describe, and the Skep, which is its own kind."
 for n in ['Framed vertical hive','Long hive','Top-bar hive','Warré hive','Log hive','Stingless bee hive']:
     k=ks.get(n) or next(k for k in sh if k['n']==n)
-    k['sel']=k['sel'].split(' Covers 15')[0]+' '+cov if 'sel' in k and 'Covers 15' in k['sel'] else (k['sel']+' '+cov)
+    b=k.get('sel','Hive designs named in Wikipedia Beehive article.').split(' Covers 15')[0]
+    k['sel']=b+' '+cov
 json.dump(d,open(p+'.tmp','w'),ensure_ascii=False,indent=1); os.rename(p+'.tmp',p)
