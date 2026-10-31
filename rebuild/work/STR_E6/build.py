@@ -149,7 +149,7 @@ telescopes = {'n': 'Telescopes', 'mode': 'variety', 'b': K and old['depts'][0]['
       'k': [sct, mct, astrograph]},
      {'n': 'Smart telescopes', 't': 'Self-aligning telescopes with a camera and app that show the sky on a screen, such as the Vaonis Stellina and Unistellar eVscope; a manual telescope with a camera → Astrophotography.',
       'k': [smart]},
-     {'n': 'Solar observing', 't': 'Telescopes and filters made to view the Sun safely, such as an H-alpha telescope, a white-light film filter or eclipse glasses; ordinary night telescopes need a filter to join this shelf.',
+     {'n': 'Solar observing', 't': 'Telescopes and filters made to view the Sun safely, such as an H-alpha telescope, a white-light film filter or eclipse glasses.',
       'ax': 'kinds by how much of the Sun they show: a dedicated telescope, a filter for your own optics, or glasses for the naked eye',
       'k': [solar_t, solar_f, eclipse]}]}
 
@@ -329,7 +329,7 @@ microscopes = {'n': 'Microscopes & magnifiers', 'mode': 'mixed', 'b': old['depts
       'k': [simple, compound, stereo, polar, inv, dig, pocket]},
      {'n': 'Microscope parts & slides', 't': 'Objectives, eyepieces, condensers, cameras and slides bought apart from the stand to upgrade, record or load a microscope.',
       'k': [mparts, mcam, mslide]},
-     {'n': 'Magnifiers & loupes', 't': 'Lenses used without a stand tube: a handled glass, a desk magnifier, a jeweller\'s loupe or a head-worn magnifier; a low-vision aid → H2.',
+     {'n': 'Magnifiers & loupes', 't': 'Lenses used without a microscope stand: a handled glass, a desk magnifier, a jeweller\'s loupe or a head-worn magnifier; a low-vision aid → H2.',
       'ax': 'kinds by how the lens is held: in the hand, on a stand, at the eye, on the head',
       'k': [hand, stand, loupe, headm]}]}
 

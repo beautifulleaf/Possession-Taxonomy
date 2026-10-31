@@ -6,7 +6,7 @@ pol = [
  nk('Pike', 'Very long infantry spear held in massed ranks, used from the Macedonian sarissa to the 17th century.', PA, a='infantry pike · half-pike',
     x=[xold('Spear', 'Sarissa'), xold('Spear', 'Pike')]),
  mod('Partisan', drop_x=['Partisan'], tt=[['Use', ['Fighting', 'Ceremonial']]]),
- nk('Corseque', 'Polearm with a three-bladed head on a 6-8 ft haft, popular in Europe in the 16th and 17th centuries.', PA, a='ranseur · spetum'),
+ nk('Corseque', 'Polearm with a three-bladed head on a 6-8 ft haft, popular in Europe in the 16th and 17th centuries.', PA),
  mod('Glaive', tt=[['Form', ['Plain', 'With back hook (glaive-guisarme)']]]),
  nk('Fauchard', 'Polearm with a curved blade on a 6-7 ft pole, cutting on the convex side, used in Europe from the 11th to the 14th century.', PA),
  nk('Voulge', 'Polearm with a single- or double-edged tapering blade on a socket, used widely in France and Burgundy in the 15th century.', PA, a='vouge'),
