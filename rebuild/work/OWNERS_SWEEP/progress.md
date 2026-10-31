@@ -7,3 +7,4 @@ H1: 2 calls done (hits in res_H1.tsv; Revlon infobox MacAndrews&Forbes stale -> 
 H1: 4 calls done, hits added. Skipped: Fenty Beauty (mk is Fenty Hair), Libra->Libresse mismatch, Heno de Pravia vague. Next: J9
 J9: call 1 done (hits in res_J9.tsv). call 2 (>50 titles) errored, resplit
 J9: 3 calls done total (+1 errored); hits added. Next: apply script apply.py, validate, sources.tsv, report
+applied + validated all 3 (OK). writing report
