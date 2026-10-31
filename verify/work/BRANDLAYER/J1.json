@@ -2,7 +2,146 @@
  "cat": "J1",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Ham, bacon & cured meats > Dry-cured hams",
+   "queries": [
+    "Prosciutto di Parma / San Daniele consortia producers",
+    "DOP Guijuelo/Jabugo/Dehesa listings",
+    "TasteAtlas best hams",
+    "Schwarzwälder Schinken Verband"
+   ],
+   "found": 0,
+   "note": "Parma 126, San Daniele ~19 of 31, Black Forest 12, TasteAtlas hams 14 new; Spanish DO bodies' own bodega lists not fetched (only search excerpts)"
+  },
+  {
+   "axis": "kind",
+   "item": "Sausages & salami (all sections)",
+   "queries": [
+    "tasteatlas best sausages/salami producers"
+   ],
+   "found": 0,
+   "note": "TasteAtlas Gourmet lists done; national award lists not yet"
+  },
+  {
+   "axis": "kind",
+   "item": "Beef & veal > Steaks / Graded beef",
+   "queries": [
+    "World Steak Challenge winners list"
+   ],
+   "found": 0,
+   "note": "2025 medallists page fetched; 2023, 2024, 2026 pages and silver/bronze pending"
+  },
+  {
+   "axis": "kind",
+   "item": "Poultry",
+   "queries": [
+    "Wikipedia Category:Brand name poultry meats",
+    "Poulet de Bresse AOP"
+   ],
+   "found": 0,
+   "note": "Bresse CIVB breeder map not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Parma/Black Forest/TasteAtlas France, Spain, Germany"
+   ],
+   "found": 0,
+   "note": "covered by sources above"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Wikipedia brand name meats category"
+   ],
+   "found": 0,
+   "note": "US brands via Wikipedia; craft charcuterie via TasteAtlas (Olympia Provisions, Fra' Mani, Smoking Goose, Tempesta)"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "World Steak Challenge, TasteAtlas Argentina"
+   ],
+   "found": 0,
+   "note": "Argentina/Uruguay/Chile beef and chorizo makers found; Mexico/Brazil/Caribbean not searched"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "World Steak Challenge, Goose on the Loose"
+   ],
+   "found": 0,
+   "note": "Australia/NZ beef and smallgoods found"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Kobe Beef Association shop list (search only)",
+    "World Steak Challenge Japan"
+   ],
+   "found": 0,
+   "note": "Kobe shop list URL seen in search (kobe-niku.jp/shop) but not fetched; Jinhua, Hanwoo not searched"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "TasteAtlas Spain/Portugal/Italy"
+   ],
+   "found": 0,
+   "note": "covered"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "TasteAtlas Poland, Hungary, Czech, Romania, Croatia, Slovenia"
+   ],
+   "found": 0,
+   "note": "covered by TasteAtlas gourmet lists"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "World Steak Challenge Sweden, Finland, Norway"
+   ],
+   "found": 0,
+   "note": "beef producers only"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "TasteAtlas sucuk Turkey"
+   ],
+   "found": 0,
+   "note": "Cumhuriyet Sucukları found; basturma, halal not searched"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "TasteAtlas salami South Africa"
+   ],
+   "found": 0,
+   "note": "Richard Bosman found; biltong makers not searched"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa / South Asia / Southeast Asia / Central Asia",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched yet"
+  }
+ ],
  "regions": [
   {
    "region": "Friuli-Venezia Giulia, Italy",
@@ -485,6 +624,25 @@
     "First Light Farms",
     "Alliance Group"
    ]
+  },
+  {
+   "region": "Black Forest, Germany",
+   "speciality": "Schwarzwälder Schinken PGI (smoked raw ham)",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "brands": [
+    "Adler Schwarzwald",
+    "Bell Schwarzwälder Schinken",
+    "Metzgerei Dosenbach",
+    "The Family Butchers",
+    "Metzgerei Max Holwegler",
+    "Metzgerei Mülhaupt",
+    "Schwarzwaldmetzgerei Kalbacher",
+    "Schwarzwaldhaus",
+    "Siegfried Spinner Schwarzwälder Spezialitäten",
+    "Tannenhof Schwarzwälder Fleischwaren",
+    "Hermann Wein",
+    "Metzgerei Reichenbach"
+   ]
   }
  ],
  "sources": [
@@ -587,6 +745,16 @@
    "new_names": 60,
    "status": "partial",
    "note": "0 known; gold medallists and winners taken, silver/bronze largely skipped; retailers (Lidl, Aldi, ASDA, Tesco, Waitrose, M&S, Morrisons, Co-op) omitted; 2024/2023/2026 pages and silver/bronze still to fetch"
+  },
+  {
+   "url": "https://schwarzwaelder-schinken-verband.de/",
+   "title": "Schutzverband der Schwarzwälder Schinkenhersteller - Hersteller",
+   "kind": "pdo",
+   "years": "2025/26",
+   "names_on_page": 15,
+   "new_names": 11,
+   "status": "done",
+   "note": "0 known; Metzgerei Reichenbach already via TasteAtlas; guild bodies (Fleischerinnung) and EDEKA omitted"
   }
  ],
  "brands": [
@@ -3398,6 +3566,94 @@
    "says": "medal (gold/silver/bronze) or category/continental winner, World Steak Challenge 2025 (blind panel of 80+ judges)",
    "country": "Croatia",
    "dept": "Beef"
+  },
+  {
+   "n": "Adler Schwarzwald",
+   "layer": "cultural",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "says": "member of Schutzverband der Schwarzwälder Schinkenhersteller (PGI Schwarzwälder Schinken)",
+   "country": "Germany",
+   "dept": "Dry-cured hams"
+  },
+  {
+   "n": "Bell Schwarzwälder Schinken",
+   "layer": "cultural",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "says": "member of Schutzverband der Schwarzwälder Schinkenhersteller (PGI Schwarzwälder Schinken)",
+   "country": "Germany",
+   "dept": "Dry-cured hams"
+  },
+  {
+   "n": "Metzgerei Dosenbach",
+   "layer": "cultural",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "says": "member of Schutzverband der Schwarzwälder Schinkenhersteller (PGI Schwarzwälder Schinken)",
+   "country": "Germany",
+   "dept": "Dry-cured hams"
+  },
+  {
+   "n": "The Family Butchers",
+   "layer": "cultural",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "says": "member of Schutzverband der Schwarzwälder Schinkenhersteller (PGI Schwarzwälder Schinken)",
+   "country": "Germany",
+   "dept": "Dry-cured hams"
+  },
+  {
+   "n": "Metzgerei Max Holwegler",
+   "layer": "cultural",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "says": "member of Schutzverband der Schwarzwälder Schinkenhersteller (PGI Schwarzwälder Schinken)",
+   "country": "Germany",
+   "dept": "Dry-cured hams"
+  },
+  {
+   "n": "Metzgerei Mülhaupt",
+   "layer": "cultural",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "says": "member of Schutzverband der Schwarzwälder Schinkenhersteller (PGI Schwarzwälder Schinken)",
+   "country": "Germany",
+   "dept": "Dry-cured hams"
+  },
+  {
+   "n": "Schwarzwaldmetzgerei Kalbacher",
+   "layer": "cultural",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "says": "member of Schutzverband der Schwarzwälder Schinkenhersteller (PGI Schwarzwälder Schinken)",
+   "country": "Germany",
+   "dept": "Dry-cured hams"
+  },
+  {
+   "n": "Schwarzwaldhaus",
+   "layer": "cultural",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "says": "member of Schutzverband der Schwarzwälder Schinkenhersteller (PGI Schwarzwälder Schinken)",
+   "country": "Germany",
+   "dept": "Dry-cured hams"
+  },
+  {
+   "n": "Siegfried Spinner Schwarzwälder Spezialitäten",
+   "layer": "cultural",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "says": "member of Schutzverband der Schwarzwälder Schinkenhersteller (PGI Schwarzwälder Schinken)",
+   "country": "Germany",
+   "dept": "Dry-cured hams"
+  },
+  {
+   "n": "Tannenhof Schwarzwälder Fleischwaren",
+   "layer": "cultural",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "says": "member of Schutzverband der Schwarzwälder Schinkenhersteller (PGI Schwarzwälder Schinken)",
+   "country": "Germany",
+   "dept": "Dry-cured hams"
+  },
+  {
+   "n": "Hermann Wein",
+   "layer": "cultural",
+   "src": "https://schwarzwaelder-schinken-verband.de/",
+   "says": "member of Schutzverband der Schwarzwälder Schinkenhersteller (PGI Schwarzwälder Schinken)",
+   "country": "Germany",
+   "dept": "Dry-cured hams"
   }
  ]
 }
