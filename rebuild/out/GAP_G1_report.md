@@ -20,3 +20,15 @@ Added or corrected on 46 kinds: 16 small motorcycle types, Utility coupé, Full-
 - Steps 3 to 5 of the common brief (partial-coverage reading, report gaps from V4/CMP/STR reports, section axis for kinds with `xg`) were not reached.
 - Redirect hazard: the API follows redirects, so some returned pages differ from the entry (e.g. Chrysler Shadow to Dodge Shadow). Only pairs that are the same model (rebadges) were applied; doubtful ones were skipped.
 - No Firecrawl calls; no 403s met.
+
+# Round 2
+
+Fetches: 94 MediaWiki API intro extracts (20 titles per call), logged in progress.md; decisions in rebuild/work/GAP_G1/dec2_cars.tsv and dec2_moto.tsv. Validation: OK (0 errors, 247 kinds, 12,870 entries).
+
+1. **Article titles finished.** Cars from Plymouth to the end of the alphabet and motorcycles from Yamaha to the end were read.
+2. **List and category entries.** About 1,260 car names were tried as titles with redirects; roughly 40 % resolved, mostly to the same model. Redirects to a different model (for example Chevrolet Aska to Isuzu Aska) were applied only for true rebadges. About 100 motorcycle names from Kawasaki, Harley-Davidson, Triumph, Peugeot and Bimota gave almost no pages (model-code rows have no article), so that route was stopped.
+3. **Totals.** "Car, body style not stated": 2,155 to 1,780 (about 375 moved on a stated body style; 625 of the remaining 1,780 still lack a year). "Motorcycle, type not stated": 1,996 to 1,966 (1,128 of them without a year). Blank years across G1: 7,003 to 6,704.
+4. **Step 5 (sections).** Nothing to do: every entry in every kind already carries `g`, and every kind with entries has `xg` except Utility coupé (7 entries) and Full-face helmet (1).
+5. **Coverage lines** on the two unstated kinds and the 26 car kinds updated to the new counts.
+
+Still open: about 1,780 cars and 1,966 motorcycles without a stated type. The searched titles that returned "missing" are the evidence that no Wikipedia article exists; the remaining model-code rows (Kawasaki, Benelli, BSA, Norton, Moto Guzzi, Laverda, Greeves lists) were not tried in bulk because the sample gave no pages. Unread list batches: Toyota rebadges (Reiz onward), some Mazda numerals, and Lada VAZ codes.
