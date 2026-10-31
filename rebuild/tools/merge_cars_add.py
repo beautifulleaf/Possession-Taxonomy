@@ -31,6 +31,10 @@ for f in sorted(glob.glob('out/G1_parts/cars_add/*.json')):
         for x in kk.get('x') or []:
             y = yu.get(((x.get('mk') or x.get('g') or '') + '|' + x['n']).lower())
             if y and not x.get('y'): x['y'] = y
+            vu = (a.get('v_updates') or {}).get((x.get('mk') or x.get('g') or '') + '|' + x['n'])
+            if vu:
+                have_v = {v['n'] for v in x.get('v') or []}
+                x.setdefault('v', []).extend(v for v in vu if v.get('n') not in have_v)
     names = {b['n'].lower() for b in brands}
     brands += [b for b in a.get('brands') or [] if b.get('n') and b['n'].lower() not in names]
     for m, u in (a.get('brand_updates') or {}).items(): bu.setdefault(m, {}).update(u)
