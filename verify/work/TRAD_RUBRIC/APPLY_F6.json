@@ -1,0 +1,110 @@
+{
+ "cat": "F6",
+ "items": [
+  {
+   "rubric_id": "F6-0",
+   "tradition": "Idar-Oberstein agate cutting",
+   "decision": "add_archetype",
+   "dept": "Minerals: non-silicates",
+   "shelf": "Oxides, hydroxides & silica",
+   "kind": "Agate and chalcedony",
+   "record": {
+    "n": "Idar-Oberstein agate",
+    "a": "Nahe agate · Idar agate",
+    "d": "Agate from the Idar-Oberstein area, a source of agate and jasper until the 18th century and the base of the town's gemstone-cutting industry, which later cut and dyed Brazilian agate imported from 1834.",
+    "mk": "",
+    "y": "to 18th century (local mining)",
+    "s": "https://en.wikipedia.org/wiki/Idar-Oberstein",
+    "v": [
+     {
+      "n": "Idar-Oberstein cut and dyed agate",
+      "mk": "",
+      "y": "from 1834, peak c. 1900",
+      "d": "Rio Grande do Sul agate cut and chemically dyed in Idar-Oberstein"
+     }
+    ],
+    "dt": "locality · banding · cut or rough"
+   },
+   "makers": [
+    {
+     "n": "Bundesverband der Diamant- und Edelsteinindustrie",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Idar-Oberstein"
+    }
+   ],
+   "ve_link": "Idar-Oberstein agate cutting",
+   "why": "Product: Idar agate specimens and cut agate are bought; the cutting craft stays in VE."
+  },
+  {
+   "rubric_id": "F6-1",
+   "tradition": "Chinese jade carving",
+   "decision": "skip",
+   "dept": "",
+   "shelf": "",
+   "kind": "",
+   "record": {},
+   "makers": [],
+   "ve_link": "Chinese jade carving",
+   "why": "Ambiguous resolved: carved jade objects are a product, but not a mineral specimen; their home is a carved-object kind outside F6 (decorative carvings in F2 or jewellery), so nothing is added under Jadeite/Nephrite, which already hold the raw materials. Flagged for placement in F2."
+  },
+  {
+   "rubric_id": "F6-2",
+   "tradition": "Victorian taxidermy",
+   "decision": "skip",
+   "dept": "Taxidermy, bones & preserved specimens",
+   "shelf": "Taxidermy mounts",
+   "kind": "Taxidermy bird mount",
+   "record": {},
+   "makers": [],
+   "ve_link": "Victorian taxidermy",
+   "why": "Already present: 'Victorian cased bird' under Taxidermy bird mount (plus Anthropomorphic tableau and Rowland Ward mounts)."
+  },
+  {
+   "rubric_id": "F6-3",
+   "tradition": "Indian trophy taxidermy",
+   "decision": "add_archetype",
+   "dept": "Taxidermy, bones & preserved specimens",
+   "shelf": "Taxidermy mounts",
+   "kind": "Taxidermy mammal mount",
+   "record": {
+    "n": "Van Ingen tiger mount",
+    "a": "Van Ingen of Mysore trophy · Mysore shikar trophy",
+    "d": "Tiger or leopard trophy mount from Van Ingen & Van Ingen of Mysore, which processed more than 43,000 tiger and leopard trophies as head mounts, full mounts and rugs between 1900 and 1999.",
+    "mk": "Van Ingen & Van Ingen",
+    "y": "1900–1999",
+    "s": "https://en.wikipedia.org/wiki/Van_Ingen_%26_Van_Ingen",
+    "v": [
+     {
+      "n": "Head mount on shield",
+      "mk": "Van Ingen & Van Ingen",
+      "y": "",
+      "d": "signature form"
+     },
+     {
+      "n": "Rug mount with head",
+      "mk": "Van Ingen & Van Ingen",
+      "y": "",
+      "d": "flat skin rug with mounted head"
+     },
+     {
+      "n": "Full mount",
+      "mk": "Van Ingen & Van Ingen",
+      "y": "",
+      "d": "life-size"
+     }
+    ],
+    "dt": "species: tiger, leopard, bear, lion, ungulates"
+   },
+   "makers": [
+    {
+     "n": "Van Ingen & Van Ingen",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Van_Ingen_%26_Van_Ingen"
+    }
+   ],
+   "ve_link": "Indian trophy taxidermy",
+   "why": "Product: Van Ingen mounts are collected and sold at auction; placed as an archetype beside the Rowland Ward big-game mount."
+  }
+ ],
+ "done": true
+}

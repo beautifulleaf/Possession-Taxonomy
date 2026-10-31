@@ -122,6 +122,182 @@
    ],
    "found": 2,
    "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Warm-air heaters",
+   "queries": [
+    "best space heaters tested",
+    "Dyson Hot+Cool Royal use"
+   ],
+   "found": 0,
+   "note": "HGTV/This Old House/PickHVAC: Dreo, Vornado, Lasko, De'Longhi etc. already known; Rommelsbacher, Stiebel, Defy only"
+  },
+  {
+   "axis": "kind",
+   "item": "Radiant heaters",
+   "queries": [
+    "best infrared space heaters"
+   ],
+   "found": 0,
+   "note": "Dr Infrared known; no new tested names"
+  },
+  {
+   "axis": "kind",
+   "item": "Flame & fuel heaters",
+   "queries": [
+    "electric fireplaces tested",
+    "kerosene heater Corona Toyotomi"
+   ],
+   "found": 3,
+   "note": "Duraflame, Touchstone added; Corona/Toyotomi known; Sengoku not found"
+  },
+  {
+   "axis": "kind",
+   "item": "Air conditioners",
+   "queries": [
+    "best portable and window air conditioners 2026"
+   ],
+   "found": 0,
+   "note": "Midea, LG, Whynter, Hisense known; SereneLife/Humhold/Gasbye budget Amazon labels skipped; Fedders, Seeley added via Wikipedia"
+  },
+  {
+   "axis": "kind",
+   "item": "Evaporative coolers",
+   "queries": [
+    "best evaporative coolers",
+    "Seeley Breezair"
+   ],
+   "found": 1,
+   "note": "Hessaire/Symphony known; Seeley added"
+  },
+  {
+   "axis": "kind",
+   "item": "Table, floor & stand fans",
+   "queries": [
+    "best pedestal tower fans",
+    "Brazil/India/Philippines fan brands"
+   ],
+   "found": 20,
+   "note": "large regional gain"
+  },
+  {
+   "axis": "kind",
+   "item": "Mounted fans",
+   "queries": [
+    "wall fan brands Brazil India"
+   ],
+   "found": 5,
+   "note": "covered with table fans"
+  },
+  {
+   "axis": "kind",
+   "item": "Personal fans",
+   "queries": [
+    "neck fan handheld fan best"
+   ],
+   "found": 0,
+   "note": "not searched beyond general results; gap"
+  },
+  {
+   "axis": "kind",
+   "item": "Design & vintage fans",
+   "queries": [
+    "vintage electric fan makers",
+    "Vortice Ariante Compasso d'Oro",
+    "Balmuda GreenFan"
+   ],
+   "found": 5,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Purifiers & filters",
+   "queries": [
+    "Stiftung Warentest Luftreiniger",
+    "Red Dot air purifier",
+    "Korean air purifier brands",
+    "Futura-Sciences purificateur"
+   ],
+   "found": 6,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Air monitors",
+   "queries": [
+    "best indoor air quality monitors"
+   ],
+   "found": 0,
+   "note": "all known; uHoo not on a fetched page"
+  },
+  {
+   "axis": "kind",
+   "item": "Adding moisture",
+   "queries": [
+    "Stiftung Warentest Luftbefeuchter",
+    "best humidifier Wirecutter"
+   ],
+   "found": 0,
+   "note": "Beurer, Venta, Stadler, Philips known"
+  },
+  {
+   "axis": "kind",
+   "item": "Removing moisture",
+   "queries": [
+    "Altroconsumo deumidificatori",
+    "OCU deshumidificadores",
+    "Futura-Sciences déshumidificateur"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Ballu Sencor Polaris Zanussi ratings"
+   ],
+   "found": 0,
+   "note": "only retailer/manufacturer pages; nothing citeable"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "Aquatherm Tashkent Turkish pavilion"
+   ],
+   "found": 0,
+   "note": "nothing relevant; gap"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "Algeria/Egypt appliance makers (Wikipedia category listing seen only)"
+   ],
+   "found": 0,
+   "note": "Home appliance manufacturers of Algeria category exists but not fetched; gap"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Which? air purifiers",
+    "Consumentenbond",
+    "Que Choisir"
+   ],
+   "found": 0,
+   "note": "paywalled; Princess/Trotec only seen in search listings"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Turkish fan/heater brands Arçelik Vestel Fakir"
+   ],
+   "found": 1,
+   "note": "Arçelik/Vestel only in Wikipedia home appliance brands category (not added: general appliance makers)"
   }
  ],
  "regions": [
@@ -304,6 +480,28 @@
     "Gree",
     "Xiaomi",
     "Smartmi"
+   ]
+  },
+  {
+   "region": "East Asia (Japan, kerosene heating)",
+   "speciality": "pressure-type kerosene heaters and stoves: Corona (first Japanese pressure kerosene heater 1955), Toyotomi (TOYOSTOVE, sold in Europe as Zibro)",
+   "src": "https://www.corona.co.jp/en/history/",
+   "brands": [
+    "Corona",
+    "Toyotomi",
+    "Zibro"
+   ]
+  },
+  {
+   "region": "North America (vintage)",
+   "speciality": "early electric fans: Emerson, Westinghouse, Robbins & Myers, GE, Menominee",
+   "src": "https://journalofantiques.com/digital-publications/joac-magazine/features/vintage-fans-that-define-summer-decor/",
+   "brands": [
+    "Emerson",
+    "Westinghouse",
+    "Robbins & Myers",
+    "Menominee",
+    "General Electric"
    ]
   }
  ],
@@ -597,6 +795,116 @@
    "new_names": 1,
    "status": "done",
    "note": ""
+  },
+  {
+   "url": "https://www.corona.co.jp/en/history/",
+   "title": "Corona Corporation history",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Corona/Toyotomi already in register"
+  },
+  {
+   "url": "https://en.toyotomi.jp/company/history",
+   "title": "Toyotomi history",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "already known"
+  },
+  {
+   "url": "https://journalofantiques.com/digital-publications/joac-magazine/features/vintage-fans-that-define-summer-decor/",
+   "title": "Journal of Antiques: vintage fans",
+   "kind": "collection",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 3,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://shelburnemuseum.org/2020/05/13/fan-club/",
+   "title": "Shelburne Museum Fan Club",
+   "kind": "collection",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.popsci.com/gear/best-electric-fireplaces/",
+   "title": "Popular Science best electric fireplaces",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 8,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.theconsumers.guide/reviews/best-electric-fireplace-inserts-freestanding-2026",
+   "title": "Consumers Guide electric fireplaces 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 10,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://reviewed.com/home-outdoors/best-right-now/best-indoor-air-quality-monitors",
+   "title": "Reviewed best IAQ monitors",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 8,
+   "new_names": 0,
+   "status": "done",
+   "note": "Airthings, Awair, Aranet, Inkbird etc. already known; uHoo not on fetched page"
+  },
+  {
+   "url": "https://www.beghelli.it/en/news/will-sanificaaria-be-the-most-beautiful-in-italy-by-winning-the-compasso-d'oro-136828",
+   "title": "Beghelli ADI Design Index 2021",
+   "kind": "award",
+   "years": "2021",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.red-dot.org",
+   "title": "Red Dot via winners press pages (Rabbit Air, Tubes, Coway)",
+   "kind": "award",
+   "years": "2019-2026",
+   "names_on_page": 4,
+   "new_names": 1,
+   "status": "partial",
+   "note": "only via manufacturer pages; full Red Dot/iF winner databases not fetched (large, not harvested)"
+  },
+  {
+   "url": "n/a (Royal Warrant / EPV / shinise searched)",
+   "title": "Heritage registers",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Royal Warrant search found no portable climate holders; EPV and shinise lists not fetched; Marchi Storici register not searched by name"
+  },
+  {
+   "url": "https://www.which.co.uk/reviews/air-purifiers",
+   "title": "Which? reviews",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "paywalled; brand pages seen only in search (Princess, Challenge, Swan, Electriq known)"
   }
  ],
  "brands": [
@@ -606,7 +914,8 @@
    "src": "https://www.casadoseletrodomesticos.com.br/melhores-marcas-de-ventilador-de-parede",
    "says": "Casa dos Eletrodomésticos 'Melhores marcas de ventilador de parede': wall fans: most approved models, highest score and airflow 1.44 m3/s",
    "country": "Brazil",
-   "dept": "Table, floor & stand fans"
+   "dept": "Table, floor & stand fans",
+   "already": false
   },
   {
    "n": "Ventisol",
@@ -614,7 +923,8 @@
    "src": "https://www.casadoseletrodomesticos.com.br/melhores-marcas-de-ventilador-de-parede",
    "says": "Casa dos Eletrodomésticos 'Melhores marcas de ventilador de parede': wall fans: two approved models, lowest consumption",
    "country": "Brazil",
-   "dept": "Table, floor & stand fans"
+   "dept": "Table, floor & stand fans",
+   "already": false
   },
   {
    "n": "Venti-Delta",
@@ -622,7 +932,8 @@
    "src": "https://www.casadoseletrodomesticos.com.br/melhores-marcas-de-ventilador-de-parede",
    "says": "Casa dos Eletrodomésticos 'Melhores marcas de ventilador de parede': wall fan approved on measurements",
    "country": "Brazil",
-   "dept": "Table, floor & stand fans"
+   "dept": "Table, floor & stand fans",
+   "already": false
   },
   {
    "n": "WAP",
@@ -630,7 +941,8 @@
    "src": "https://www.casadoseletrodomesticos.com.br/melhores-marcas-de-ventilador-de-parede",
    "says": "Casa dos Eletrodomésticos 'Melhores marcas de ventilador de parede': wall fan approved on measurements",
    "country": "Brazil",
-   "dept": "Table, floor & stand fans"
+   "dept": "Table, floor & stand fans",
+   "already": false
   },
   {
    "n": "Britânia",
@@ -638,7 +950,8 @@
    "src": "https://www.casadoseletrodomesticos.com.br/melhores-marcas-de-ventilador-de-parede",
    "says": "Casa dos Eletrodomésticos 'Melhores marcas de ventilador de parede': wall fan approved on measurements",
    "country": "Brazil",
-   "dept": "Table, floor & stand fans"
+   "dept": "Table, floor & stand fans",
+   "already": false
   },
   {
    "n": "Mallory",
@@ -646,7 +959,8 @@
    "src": "https://www.casadoseletrodomesticos.com.br/melhores-marcas-de-ventilador-de-parede",
    "says": "Casa dos Eletrodomésticos 'Melhores marcas de ventilador de parede': named as well-known fan brand in the wall-fan brand test article",
    "country": "Brazil",
-   "dept": "Table, floor & stand fans"
+   "dept": "Table, floor & stand fans",
+   "already": false
   },
   {
    "n": "Cadence",
@@ -654,7 +968,8 @@
    "src": "https://ositensdecasa.com.br/melhor-marca-de-ventilador/",
    "says": "listed among standout fan brands in Brazil 2026",
    "country": "Brazil",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Elgin",
@@ -662,7 +977,8 @@
    "src": "https://ositensdecasa.com.br/melhor-marca-de-ventilador/",
    "says": "listed among standout fan brands in Brazil 2026",
    "country": "Brazil",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Crompton",
@@ -670,7 +986,8 @@
    "src": "https://outlookindia.com/whats-hot/10-best-table-fans-in-india-2024",
    "says": "Outlook India 10 best table fans list (Crompton HighSpeed Torpedo pedestal fan); Croma/CashKaro: leading Indian consumer company, Murugappa Group, 75+ years",
    "country": "India",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Havells",
@@ -678,7 +995,8 @@
    "src": "https://outlookindia.com/whats-hot/10-best-table-fans-in-india-2024",
    "says": "Outlook India 10 best table fans (Havells Sameera table fan); Croma 2026 best fan brands; Wikipedia home appliance brands",
    "country": "India",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Usha",
@@ -686,7 +1004,8 @@
    "src": "https://outlookindia.com/whats-hot/10-best-table-fans-in-india-2024",
    "says": "Outlook India table fans list; CashKaro: Usha International founded 1934, popular fan brand",
    "country": "India",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Luminous (RR Signature)",
@@ -694,7 +1013,8 @@
    "src": "https://outlookindia.com/whats-hot/10-best-table-fans-in-india-2024",
    "says": "Outlook India table fans: RR Signature (previously Luminous) Buddy table/wall fan",
    "country": "India",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "V-Guard",
@@ -702,7 +1022,8 @@
    "src": "https://outlookindia.com/whats-hot/10-best-table-fans-in-india-2024",
    "says": "Outlook India table fans: Esfera STS Plus pedestal cum table fan",
    "country": "India",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Atomberg",
@@ -710,7 +1031,8 @@
    "src": "https://www.croma.com/unboxed/best-ceiling-fan-brands-in-india-2026",
    "says": "Croma 2026 best ceiling fan brands list; CashKaro: Indian company founded by IIT Bombay graduates, BLDC energy-saving fans",
    "country": "India",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Orpat",
@@ -718,7 +1040,8 @@
    "src": "https://cashkaro.com/blog/best-ceiling-fan-brands/35100",
    "says": "CashKaro 11 best ceiling fan brands in India list",
    "country": "India",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Khaitan",
@@ -726,7 +1049,8 @@
    "src": "https://cashkaro.com/blog/best-ceiling-fan-brands/35100",
    "says": "CashKaro 11 best ceiling fan brands in India list",
    "country": "India",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Candes",
@@ -734,7 +1058,8 @@
    "src": "https://cashkaro.com/blog/best-ceiling-fan-brands/35100",
    "says": "CashKaro 11 best ceiling fan brands in India list",
    "country": "India",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Activa",
@@ -742,7 +1067,8 @@
    "src": "https://cashkaro.com/blog/best-ceiling-fan-brands/35100",
    "says": "CashKaro 11 best ceiling fan brands in India list",
    "country": "India",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Rabbit Air",
@@ -750,7 +1076,8 @@
    "src": "https://rabbitair.com/pages/biogs-2-0-awards",
    "says": "BioGS 2.0 air purifier won Red Dot and Good Design Awards (designer Guto Indio da Costa)",
    "country": "USA",
-   "dept": "Purifiers & filters"
+   "dept": "Purifiers & filters",
+   "already": false
   },
   {
    "n": "KDK",
@@ -758,7 +1085,8 @@
    "src": "https://en.wikipedia.org/wiki/KDK",
    "says": "Wikipedia: 'the world's largest manufacturer of electronical fans' (Japan; also makes National/Panasonic fans)",
    "country": "Japan",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Khind",
@@ -766,7 +1094,8 @@
    "src": "https://en.wikipedia.org/wiki/Khind_Holdings",
    "says": "Listed as Khind-Mistral in Wikipedia Home appliance brands template/category (Malaysia, founded 1961)",
    "country": "Malaysia",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Pensonic",
@@ -774,7 +1103,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
    "says": "Wikipedia Category:Home appliance brands (Malaysia)",
    "country": "Malaysia",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Asahi (fans)",
@@ -782,7 +1112,8 @@
    "src": "https://mall.homecredit.ph/blog/best-electric-fan-brands-philippines",
    "says": "Home Credit PH: 'known for its durable and high-quality electric fans', heavy-duty motors (Philippines)",
    "country": "Philippines",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Hanabishi",
@@ -790,7 +1121,8 @@
    "src": "https://productnation.co/ph/1624/best-electric-fans-philippines/",
    "says": "ProductNation PH top 10 electric fans 2026: Hanabishi stand fan best overall",
    "country": "Philippines",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Imarflex",
@@ -798,7 +1130,8 @@
    "src": "https://productnation.co/ph/1624/best-electric-fans-philippines/",
    "says": "ProductNation PH top 10 electric fans 2026 (IFC-812SL air circulator)",
    "country": "Philippines",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Union (fans)",
@@ -806,7 +1139,8 @@
    "src": "https://productnation.co/ph/1624/best-electric-fans-philippines/",
    "says": "ProductNation PH top 10 electric fans 2026 (UGM-18OF)",
    "country": "Philippines",
-   "dept": "Fans"
+   "dept": "Fans",
+   "already": false
   },
   {
    "n": "Defy",
@@ -814,7 +1148,8 @@
    "src": "https://enterprise-africa.net/award-winning-appliance-quality/",
    "says": "Defy Appliances: 110+ years, one of South Africa's most popular brands (also sells convector heaters)",
    "country": "South Africa",
-   "dept": "Warm-air heaters"
+   "dept": "Warm-air heaters",
+   "already": false
   },
   {
    "n": "FREGO",
@@ -822,7 +1157,8 @@
    "src": "https://www.fregoproducts.com/ksa/about/",
    "says": "FAWAZ Group Saudi brand of air-conditioners incl. portable/free-standing (self-description; weak)",
    "country": "Saudi Arabia",
-   "dept": "Air conditioners"
+   "dept": "Air conditioners",
+   "already": false
   },
   {
    "n": "Daitsu",
@@ -830,7 +1166,8 @@
    "src": "https://www.greenme.it/lifestyle/sai-cosa-compri/deumidificatori-portatili-sono-queste-le-marche-migliori-e-piu-affidabili-secondo-altroconsumo/",
    "says": "Altroconsumo portable dehumidifier test: ADD-20XA rated 'qualità ottima'",
    "country": "Spain",
-   "dept": "Removing moisture"
+   "dept": "Removing moisture",
+   "already": false
   },
   {
    "n": "Comfee",
@@ -838,7 +1175,8 @@
    "src": "https://www.greenme.it/lifestyle/sai-cosa-compri/deumidificatori-portatili-sono-queste-le-marche-migliori-e-piu-affidabili-secondo-altroconsumo/",
    "says": "Altroconsumo dehumidifier test: MDDF-16DEN7-WF 'miglior acquisto' (best buy); Futura-Sciences lists among main dehumidifier makers",
    "country": "China (Midea brand)",
-   "dept": "Removing moisture"
+   "dept": "Removing moisture",
+   "already": false
   },
   {
    "n": "Orbegozo",
@@ -846,7 +1184,8 @@
    "src": "https://www.ocu.org/vivienda-y-energia/equipamiento-hogar/informe/mejores-deshumidificadores",
    "says": "OCU dehumidifier report: 'El modelo Orbegozo DH 1655 destaca tanto por su calidad como por su precio'",
    "country": "Spain",
-   "dept": "Removing moisture"
+   "dept": "Removing moisture",
+   "already": false
   },
   {
    "n": "Clean Air Optima",
@@ -854,7 +1193,8 @@
    "src": "https://www.futura-sciences.com/conso/comparatifs/meilleur-purificateur-dair-comparatif/",
    "says": "Futura-Sciences air purifier comparison 08/2026: CA-706 Smart rated 'très bien' (19.83); also tested by Consumentenbond",
    "country": "Netherlands",
-   "dept": "Purifiers & filters"
+   "dept": "Purifiers & filters",
+   "already": false
   },
   {
    "n": "Vortice",
@@ -862,7 +1202,8 @@
    "src": "https://www.ingenio-web.it/articoli/le-macchine-del-vento/",
    "says": "Ariante fan (Marco Zanuso 1975) won Compasso d'Oro 1979, 'icona del Design italiano', exhibited at MoMA New York; Vortice fans since 1955 (Atomium)",
    "country": "Italy",
-   "dept": "Table, floor & stand fans"
+   "dept": "Table, floor & stand fans",
+   "already": false
   },
   {
    "n": "Airshot",
@@ -870,7 +1211,8 @@
    "src": "https://www.expatguidekorea.com/article/top-7-korean-air-purifier-brands.html",
    "says": "Expat Guide Korea 'Top 7 Korean Air Purifier Brands': #2, 'a familiar brand in Korea' (OMNI purifier)",
    "country": "South Korea",
-   "dept": "Purifiers & filters"
+   "dept": "Purifiers & filters",
+   "already": false
   },
   {
    "n": "Chungho",
@@ -878,7 +1220,8 @@
    "src": "https://www.expatguidekorea.com/article/top-7-korean-air-purifier-brands.html",
    "says": "Expat Guide Korea 'Top 7 Korean Air Purifier Brands': #7 Chungho (Chungho Nais)",
    "country": "South Korea",
-   "dept": "Purifiers & filters"
+   "dept": "Purifiers & filters",
+   "already": false
   },
   {
    "n": "Seeley International (Breezair)",
@@ -886,7 +1229,8 @@
    "src": "https://en.wikipedia.org/wiki/Seeley_International",
    "says": "Wikipedia: Australian family-owned maker of evaporative air conditioners (Breezair, Braemar, Coolair), founded 1972; reportedly Australia's largest heating/cooling manufacturer; in Wikipedia HVAC companies category",
    "country": "Australia",
-   "dept": "Evaporative coolers"
+   "dept": "Evaporative coolers",
+   "already": false
   },
   {
    "n": "Fedders",
@@ -894,7 +1238,8 @@
    "src": "https://en.wikipedia.org/wiki/Fedders",
    "says": "Wikipedia: US room air-conditioner maker, founded 1896, room ACs since 1946; in HVAC companies category",
    "country": "USA",
-   "dept": "Air conditioners"
+   "dept": "Air conditioners",
+   "already": false
   },
   {
    "n": "Airmate",
@@ -902,7 +1247,8 @@
    "src": "https://en.wikipedia.org/wiki/Airmate",
    "says": "Wikipedia: Chinese air and ventilation brand and OEM maker of household electric fans for other brands (Hitachi, Rowenta, Vornado, Samsung etc.), founded 1973 Taiwan",
    "country": "China / Taiwan",
-   "dept": "Table, floor & stand fans"
+   "dept": "Table, floor & stand fans",
+   "already": false
   },
   {
    "n": "Snowa",
@@ -910,7 +1256,62 @@
    "src": "https://en.wikipedia.org/wiki/Snowa",
    "says": "Wikipedia: Iranian home appliance brand (heaters, air-conditioners, small appliances), Entekhab Group; in Wikipedia HVAC/home appliance categories",
    "country": "Iran",
-   "dept": "Portable heating"
+   "dept": "Portable heating",
+   "already": false
+  },
+  {
+   "n": "Beghelli",
+   "layer": "premium",
+   "src": "https://www.beghelli.it/en/news/will-sanificaaria-be-the-most-beautiful-in-italy-by-winning-the-compasso-d'oro-136828",
+   "says": "SanificaAria 30 air purifier selected for ADI Design Index 2021 (Compasso d'Oro shortlist), made in Italy",
+   "country": "Italy",
+   "dept": "Purifiers & filters",
+   "already": false
+  },
+  {
+   "n": "Duraflame",
+   "layer": "premium",
+   "src": "https://www.popsci.com/gear/best-electric-fireplaces/",
+   "says": "Popular Science best electric fireplaces: Duraflame Electric Infrared Quartz Fireplace 'Best budget' (affordable quality)",
+   "country": "USA",
+   "dept": "Flame & fuel heaters",
+   "already": false
+  },
+  {
+   "n": "Touchstone",
+   "layer": "premium",
+   "src": "https://www.theconsumers.guide/reviews/best-electric-fireplace-inserts-freestanding-2026",
+   "says": "The Consumers Guide 2026 electric fireplaces: Touchstone Sideline Elite Pro 50in 'Best Smart Fireplace'",
+   "country": "USA",
+   "dept": "Flame & fuel heaters",
+   "already": false
+  },
+  {
+   "n": "Robbins & Myers",
+   "layer": "cultural",
+   "src": "https://journalofantiques.com/digital-publications/joac-magazine/features/vintage-fans-that-define-summer-decor/",
+   "says": "Journal of Antiques: early 20th-century American makers of household electric fans (with GE, Westinghouse, Emerson)",
+   "country": "USA",
+   "dept": "Design & vintage fans",
+   "already": false
+  },
+  {
+   "n": "Westinghouse",
+   "layer": "cultural",
+   "src": "https://shelburnemuseum.org/2020/05/13/fan-club/",
+   "says": "Shelburne Museum 'Fan Club' and Journal of Antiques: vintage Westinghouse electric fans (collector items)",
+   "country": "USA",
+   "dept": "Design & vintage fans",
+   "already": false
+  },
+  {
+   "n": "Menominee",
+   "layer": "cultural",
+   "src": "https://journalofantiques.com/digital-publications/joac-magazine/features/vintage-fans-that-define-summer-decor/",
+   "says": "Journal of Antiques: 1918 Menominee clamshell desk fan, vintage collectible fan",
+   "country": "USA",
+   "dept": "Design & vintage fans",
+   "already": false
   }
  ]
 }

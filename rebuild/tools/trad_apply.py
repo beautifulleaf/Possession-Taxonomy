@@ -17,9 +17,12 @@ for c in sys.argv[1:]:
         r={k:v for k,v in it['record'].items() if v not in ('',[],None) or k in('n','d','s')}
         if it['decision']=='add_kind':
             if any(k['n']==r['n'] for k in sh['k']): skipped+=1; continue
-            sh['k'].append({k:r[k] for k in ('n','a','d','s') if k in r}); added+=1
+            nk={k:r[k] for k in ('n','a','d','s') if k in r}
+            if it.get('archetype'): nk['x']=[dict(it['archetype'],mk=it['archetype'].get('mk',''))]
+            sh['k'].append(nk); added+=1
         else:
-            k=next((x for x in sh['k'] if x['n']==it['kind']),None)
+            kn=it['kind'].split(' (new kind')[0]
+            k=next((x for x in sh['k'] if x['n']==kn),None)
             if not k: print(c,'NO KIND',it['kind']); skipped+=1; continue
             xs=k.setdefault('x',[])
             if any(x['n']==r['n'] for x in xs): skipped+=1; continue

@@ -1,6 +1,6 @@
 {
  "cat": "B6",
- "status": "partial",
+ "status": "done",
  "brand_led": true,
  "sweeps": [
   {
@@ -26,20 +26,26 @@
    "axis": "region",
    "item": "Southern Europe",
    "queries": [
-    "Wikipedia Category:Home appliance brands (regional makers)"
+    "Wikipedia Category:Home appliance brands (regional makers)",
+    "marchi storici detersivi italiani Chanteclair Svelto Marsiglia",
+    "marcas detergente españolas Colon Skip",
+    "marche detersivi italiani Dixan Bio Presto"
    ],
-   "found": 3,
-   "note": "from encyclopedia category"
+   "found": 11,
+   "note": ""
   },
   {
    "axis": "region",
    "item": "Central & Eastern Europe",
    "queries": [
     "Wikipedia Category:Home appliance brands (regional makers)",
-    "Turkish/CEE household cleaning brands"
+    "Turkish/CEE household cleaning brands",
+    "Polska marki detergenty Ludwik Vizir",
+    "российские бренды бытовая химия",
+    "Россия бытовая химия бренды Mif Losk Sarma Aist"
    ],
-   "found": 2,
-   "note": "covered through Amica/Gorenje appliances; local detergent makers not found"
+   "found": 4,
+   "note": "no Russian page surfaced"
   },
   {
    "axis": "region",
@@ -89,10 +95,12 @@
    "axis": "region",
    "item": "East Asia",
    "queries": [
-    "renowned cleaning tools/laundry makers East Asia"
+    "renowned cleaning tools/laundry makers East Asia",
+    "江戸ほうき 老舗 メーカー",
+    "애경 LG생활건강 세제 브랜드 역사"
    ],
-   "found": 4,
-   "note": ""
+   "found": 5,
+   "note": "Korean query returned no Korean household brand page; LG/Samsung/Winia known/recorded; Hindi/Korean Wikipedia categories not reached"
   },
   {
    "axis": "region",
@@ -109,20 +117,23 @@
    "axis": "region",
    "item": "Central Asia",
    "queries": [
-    "Rossmann Azerbaijan household brands"
+    "Rossmann Azerbaijan household brands",
+    "Россия бытовая химия бренды Mif Losk Sarma Aist"
    ],
    "found": 0,
-   "note": "Caucasus only; nothing for Kazakhstan/Uzbekistan etc."
+   "note": "search returned no Russian/Kazakh/Uzbek brand page"
   },
   {
    "axis": "region",
    "item": "Oceania",
    "queries": [
     "renowned cleaning tools/laundry makers Oceania",
-    "Wikipedia Category:Home appliance brands (regional makers)"
+    "Wikipedia Category:Home appliance brands (regional makers)",
+    "Australia New Zealand household cleaning brands Earth Choice",
+    "CHOICE eco cleaning test"
    ],
-   "found": 1,
-   "note": "from encyclopedia category"
+   "found": 5,
+   "note": ""
   },
   {
    "axis": "region",
@@ -198,10 +209,11 @@
    "item": "Mops, brooms & cloths > Brooms & dustpans",
    "queries": [
     "best makers / independent test (partial)",
-    "Wirecutter best broom dustpan dust mop"
+    "Wirecutter best broom dustpan dust mop",
+    "江戸ほうき 職人 老舗"
    ],
-   "found": 0,
-   "note": "Bona known"
+   "found": 1,
+   "note": "Shirakiya Denbei"
   },
   {
    "axis": "kind",
@@ -306,19 +318,22 @@
    "queries": [
     "best makers / independent test (partial)",
     "de.wikipedia Kategorie Waschmittelmarke",
-    "ja detergent brand search"
+    "ja detergent brand search",
+    "Nikwax Grangers tech wash",
+    "EU Ecolabel laundry detergents catalogue"
    ],
-   "found": 18,
+   "found": 23,
    "note": ""
   },
   {
    "axis": "kind",
    "item": "Laundry products > After the wash",
    "queries": [
-    "de.wikipedia Waschmittelmarke"
+    "de.wikipedia Waschmittelmarke",
+    "fabric softener ironing spray lint remover EU brands"
    ],
-   "found": 2,
-   "note": "Lenor, Kuschelweich"
+   "found": 3,
+   "note": "Vernel; no ironing spray or lint remover brand evidence"
   },
   {
    "axis": "kind",
@@ -342,9 +357,12 @@
   {
    "axis": "kind",
    "item": "Ironing & drying > Carrying & hand washing",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "washboard hand wash tools makers",
+    "washboard hand-wash maker Lehman's Columbus"
+   ],
+   "found": 2,
+   "note": "laundry baskets not evidenced"
   },
   {
    "axis": "kind",
@@ -385,9 +403,12 @@
   {
    "axis": "kind",
    "item": "Spare parts & consumables > Spare parts",
-   "queries": [],
-   "found": 0,
-   "note": "NOT TRIED"
+   "queries": [
+    "vacuum washing machine spare parts makers (not tried via search; Kärcher, Miele, Vorwerk part makers none surfaced)",
+    "genuine spare parts vacuum washing machine Wpro Miele"
+   ],
+   "found": 3,
+   "note": "Miele, Wpro, Schulthess; spare-part makers are mostly maker-own lines"
   }
  ],
  "regions": [
@@ -433,11 +454,12 @@
   },
   {
    "region": "Japan",
-   "speciality": "tawashi palm-fibre scrubbing brushes and brooms; Detergents and spot-cleaning soaps (Utamaro, Yashinomi)",
+   "speciality": "tawashi palm-fibre scrubbing brushes and brooms; Detergents and spot-cleaning soaps (Utamaro, Yashinomi); Handmade Edo brooms (Shirakiya Denbei, 1830), tawashi scrubbers",
    "src": "https://jinenstore.com/products/kamenoko-tawashi",
    "brands": [
     "Kamenoko Tawashi (Nishio Shoten)",
     "Saraya (Yashinomi)",
+    "Shirakiya Denbei (Edo hōki)",
     "Takada Tawashi",
     "Utamaro (Toho)",
     "Washmania (Shikoku Kasei)"
@@ -548,33 +570,46 @@
   },
   {
    "region": "Oceania",
-   "speciality": "Home appliances (Australia, New Zealand)",
+   "speciality": "Home appliances (Australia, New Zealand); Eco household cleaning and laundry (Earth Choice, Ecostore); Fisher & Paykel washers; Bosisto's",
    "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
    "brands": [
-    "Kleenmaid",
+    "Bosisto's",
+    "Earth Choice",
+    "Earth Rescue",
+    "Ecostore",
     "Fisher & Paykel",
+    "Kleenmaid",
     "Simpson"
    ]
   },
   {
    "region": "Central & Eastern Europe",
-   "speciality": "Home appliances (Poland, Slovenia)",
+   "speciality": "Home appliances (Poland, Slovenia); EU-Ecolabel detergents from Poland and Czechia",
    "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
    "brands": [
     "Amica",
+    "FeelEco",
+    "Formil nature",
     "Gorenje"
    ]
   },
   {
    "region": "Southern Europe",
-   "speciality": "Home appliances (Spain, Greece, Italy)",
+   "speciality": "Home appliances (Spain, Greece, Italy); Laundry detergents (Spain: Colon, Wipp, Skip, Trébol Verde; Italy: Dixan, Bio Presto)",
    "src": "https://en.wikipedia.org/wiki/Category:Home_appliance_brands",
    "brands": [
     "Balay",
-    "Edesa",
-    "Pitsos",
+    "Bio Presto",
     "Candy",
-    "Smeg"
+    "Colon",
+    "Dixan",
+    "Edesa",
+    "Lanta",
+    "Pitsos",
+    "Skip",
+    "Smeg",
+    "Trébol Verde",
+    "Wipp"
    ]
   },
   {
@@ -698,6 +733,25 @@
     "Roma",
     "Zote",
     "Suavitel"
+   ]
+  },
+  {
+   "region": "North America",
+   "speciality": "Washboards and non-electric laundry (Columbus Washboard Co., Lehman's); washers Speed Queen, Kirby; vacuums Rexair",
+   "src": "https://columbuswashboard.com/pages/columbus-washboard-company-heritage",
+   "brands": [
+    "Columbus Washboard Company",
+    "Lehman's",
+    "Speed Queen"
+   ]
+  },
+  {
+   "region": "Switzerland",
+   "speciality": "Premium laundry appliances (Schulthess, V-Zug)",
+   "src": "https://ace-electromenager.ch/en",
+   "brands": [
+    "Schulthess",
+    "V-Zug"
    ]
   }
  ],
@@ -1121,6 +1175,76 @@
    "new_names": 0,
    "status": "partial",
    "note": "Fairy Platinum best per BBC Sliced Bread; Ecover, Finish known"
+  },
+  {
+   "url": "https://www.choice.com.au/home-and-living/laundry-and-cleaning/laundry-detergents/articles/the-eco-cleaning-products-you-should-and-shouldnt-buy",
+   "title": "CHOICE Australia eco cleaning products test",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 6,
+   "new_names": 3,
+   "status": "done",
+   "note": "CHOICE: no eco laundry detergent recommended; top scores 48-49%"
+  },
+  {
+   "url": "https://agatajapan.com/tokyo/column/itsutsunoogi-shirakiyadenbe",
+   "title": "agataJapan: Shirakiya Denbei Edo hoki shinise",
+   "kind": "heritage",
+   "years": "1830-",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "shinise (100+ year company) feature"
+  },
+  {
+   "url": "https://nikwax.com/en-gb/",
+   "title": "Nikwax (technical fabric wash and waterproofer, since 1977)",
+   "kind": "retailer",
+   "years": "1977-",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Nikwax already in register"
+  },
+  {
+   "url": "https://environmental-data.ec.europa.eu/ecolabel/groups/group_47.html",
+   "title": "EU Ecolabel catalogue: laundry detergents",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 15,
+   "new_names": 5,
+   "status": "partial",
+   "note": "excerpt only; Frosch, Omo, Vanish, Presto! known/tagged"
+  },
+  {
+   "url": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC96846/laundry%20pubsy%2020151104.pdf",
+   "title": "EU JRC laundry detergent study (market share)",
+   "kind": "ranking",
+   "years": "2015",
+   "names_on_page": 15,
+   "new_names": 4,
+   "status": "partial",
+   "note": "excerpt only"
+  },
+  {
+   "url": "https://www.mieleusa.com/c/parts-and-accessories-24.htm",
+   "title": "Miele original spare parts (15-year availability)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "Miele known; maker's own claim: parts kept at least 15 years"
+  },
+  {
+   "url": "https://columbuswashboard.com/pages/columbus-washboard-company-heritage",
+   "title": "Columbus Washboard Company heritage",
+   "kind": "heritage",
+   "years": "1895-",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -2653,6 +2777,175 @@
    "says": "testbericht.de aggregates 18 tests: Diversey SUN Professional Classic tablets average 69/100",
    "country": "",
    "dept": "Dishwasher detergent (professional)"
+  },
+  {
+   "n": "Shirakiya Denbei (Edo hōki)",
+   "layer": "cultural",
+   "src": "https://agatajapan.com/tokyo/column/itsutsunoogi-shirakiyadenbe",
+   "says": "Shinise founded 1830 in Tokyo Kyobashi, 7th-generation maker of Edo brooms (hōki), 99% handmade from natural materials, ~15,000 brooms a year, lasting 10+ years",
+   "country": "Japan",
+   "dept": "Brooms"
+  },
+  {
+   "n": "Earth Choice",
+   "layer": "cultural",
+   "src": "https://earthchoice.com.au/",
+   "says": "Australian eco cleaning and laundry brand since 1981 ('45 years'), made in Australia; CHOICE rated Earth Choice Laundry Liquid Pure Clean top eco detergent 49%",
+   "country": "Australia",
+   "dept": "Laundry and cleaning"
+  },
+  {
+   "n": "Ecostore",
+   "layer": "cultural",
+   "src": "https://www.choice.com.au/home-and-living/laundry-and-cleaning/laundry-detergents/articles/the-eco-cleaning-products-you-should-and-shouldnt-buy",
+   "says": "CHOICE Australia test: Ecostore bathroom cleaner came out on top, beating traditional products; Ecostore Laundry Liquid Eucalyptus 48%",
+   "country": "New Zealand",
+   "dept": "Bathroom cleaner, laundry"
+  },
+  {
+   "n": "Earth Rescue",
+   "layer": "cultural",
+   "src": "https://www.choice.com.au/home-and-living/laundry-and-cleaning/laundry-detergents/articles/the-eco-cleaning-products-you-should-and-shouldnt-buy",
+   "says": "CHOICE Australia eco laundry test: Earth Rescue detergent sheets 48%",
+   "country": "Australia",
+   "dept": "Laundry detergent sheets"
+  },
+  {
+   "n": "Formil nature",
+   "layer": "premium",
+   "src": "https://environmental-data.ec.europa.eu/ecolabel/groups/group_47.html",
+   "says": "EU Ecolabel catalogue (laundry detergents) lists Formil nature (Persan Polska) as certified product",
+   "country": "Poland",
+   "dept": "Laundry detergent (ecolabel)"
+  },
+  {
+   "n": "Rainett",
+   "layer": "premium",
+   "src": "https://environmental-data.ec.europa.eu/ecolabel/groups/group_47.html",
+   "says": "EU Ecolabel catalogue (laundry detergents) lists Rainett (Werner & Mertz) as certified product",
+   "country": "Germany/France",
+   "dept": "Laundry detergent (ecolabel)"
+  },
+  {
+   "n": "FeelEco",
+   "layer": "premium",
+   "src": "https://environmental-data.ec.europa.eu/ecolabel/groups/group_47.html",
+   "says": "EU Ecolabel catalogue (laundry detergents) lists FeelEco (Fosfa a.s.) as certified product",
+   "country": "Czech Republic",
+   "dept": "Laundry detergent (ecolabel)"
+  },
+  {
+   "n": "Trébol Verde",
+   "layer": "premium",
+   "src": "https://environmental-data.ec.europa.eu/ecolabel/groups/group_47.html",
+   "says": "EU Ecolabel catalogue (laundry detergents) lists Trébol Verde (Endemic Biotech S.L.) as certified product",
+   "country": "Spain",
+   "dept": "Laundry detergent (ecolabel)"
+  },
+  {
+   "n": "Skip",
+   "layer": "cultural",
+   "src": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC96846/laundry%20pubsy%2020151104.pdf",
+   "says": "EU JRC laundry study: Skip, Persil, Comfort among common EU brands by market share",
+   "country": "Europe",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Dixan",
+   "layer": "cultural",
+   "src": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC96846/laundry%20pubsy%2020151104.pdf",
+   "says": "EU JRC laundry study: Dixan about 3% EU retail share (Henkel)",
+   "country": "Italy/Europe",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Le Chat",
+   "layer": "cultural",
+   "src": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC96846/laundry%20pubsy%2020151104.pdf",
+   "says": "EU JRC laundry study: Le Chat 1% EU retail share (Henkel, France)",
+   "country": "France",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Bio Presto",
+   "layer": "cultural",
+   "src": "https://italianabrand.com/en/868-laundry-detergents",
+   "says": "Italianabrand wholesale: Bio Presto Italian laundry detergent range (liquid, powder, caps)",
+   "country": "Italy",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Colon",
+   "layer": "cultural",
+   "src": "https://www.carrefour.es/supermercado/limpieza-y-hogar/cuidado-de-la-ropa/detergentes-colon/F-p64qZ1124/c",
+   "says": "Carrefour Spain: Colon detergent brand with its own category page (liquid, powder)",
+   "country": "Spain",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Wipp",
+   "layer": "cultural",
+   "src": "https://www.carrefour.es/supermercado/limpieza-y-hogar/cuidado-de-la-ropa/detergentes-colon/F-p64qZ1124/c",
+   "says": "Carrefour Spain brand filter: Wipp (11 products) alongside Colon and Ariel",
+   "country": "Spain",
+   "dept": "Laundry detergent"
+  },
+  {
+   "n": "Tierra Verde",
+   "layer": "cultural",
+   "src": "https://www.emerosa.com/stain-removers",
+   "says": "Emerosa eco stockist: Tierra Verde laundry and stain remover range",
+   "country": "Spain",
+   "dept": "Stain remover / eco laundry"
+  },
+  {
+   "n": "Attitude",
+   "layer": "cultural",
+   "src": "https://www.emerosa.com/stain-removers",
+   "says": "Emerosa eco stockist: Attitude children's laundry stain remover",
+   "country": "Canada",
+   "dept": "Stain remover / eco laundry"
+  },
+  {
+   "n": "Columbus Washboard Company",
+   "layer": "cultural",
+   "src": "https://columbuswashboard.com/pages/columbus-washboard-company-heritage",
+   "says": "Heritage page: last manufacturer of genuine usable washboards in the USA (Ohio), trademarked brands Dubl Handi, Maid-Rite, Sunnyland, Crystal Cascade; hand-assembled; Amish customers",
+   "country": "United States",
+   "dept": "Washboards and hand-wash tools"
+  },
+  {
+   "n": "Lehman's",
+   "layer": "cultural",
+   "src": "https://www.smithsonianmag.com/travel/only-one-factory-north-america-still-makes-washboards-they-are-flying-off-shelves-180976194/",
+   "says": "Smithsonian 2020: Lehman's Hardware (Kidron, Ohio), store focused on non-electric products, sells washboards; sells own USA-made washboard",
+   "country": "United States",
+   "dept": "Washboards and non-electric laundry tools",
+   "role": "seller"
+  },
+  {
+   "n": "Wpro",
+   "layer": "cultural",
+   "src": "https://applias.com/w-pro-v4846.html",
+   "says": "Wpro: Whirlpool Corporation brand of appliance cleaning, descaling and maintenance products, universal accessories",
+   "country": "United States",
+   "dept": "Appliance cleaners and spare parts"
+  },
+  {
+   "n": "Schulthess",
+   "layer": "cultural",
+   "src": "https://ace-electromenager.ch/en",
+   "says": "Swiss repairer Ace lists Schulthess, V-Zug, Liebherr among washing/laundry appliance brands serviced in French-speaking Switzerland",
+   "country": "Switzerland",
+   "dept": "Washing machines and dryers"
+  },
+  {
+   "n": "V-Zug",
+   "layer": "cultural",
+   "src": "https://ace-electromenager.ch/en",
+   "says": "Swiss repairer Ace lists V-Zug among laundry appliance brands serviced in Switzerland",
+   "country": "Switzerland",
+   "dept": "Washing machines and dryers"
   }
  ]
 }

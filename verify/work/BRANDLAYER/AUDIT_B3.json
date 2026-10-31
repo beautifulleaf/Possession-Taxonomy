@@ -206,8 +206,7 @@
    "says": "San Francisco studio with international recognition for innovative lighting designs",
    "country": "United States",
    "region": "North America",
-   "dept": "lighting",
-   "known_status": "PART:lodes"
+   "dept": "lighting"
   },
   {
    "n": "Brand van Egmond",
@@ -1001,6 +1000,69 @@
    "country": "Philippines",
    "region": "Southeast Asia (Philippines)",
    "dept": "lighting"
+  },
+  {
+   "n": "Fermoie",
+   "layer": "premium",
+   "src": "https://www.sheerluxe.com/home/interior-design/coolest-lampshade-brands-transform-room",
+   "says": "SheerLuxe: lampshade brand founded by the duo who ran Farrow & Ball; printed-fabric shades",
+   "country": "United Kingdom",
+   "dept": "lamp shade",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Rosi de Ruig",
+   "layer": "premium",
+   "src": "https://www.sheerluxe.com/home/interior-design/coolest-lampshade-brands-transform-room",
+   "says": "SheerLuxe: designer making lampshades by hand in her West London studio",
+   "country": "United Kingdom",
+   "dept": "lamp shade",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Matilda Goad",
+   "layer": "cultural",
+   "src": "https://www.sheerluxe.com/home/interior-design/coolest-lampshade-brands-transform-room",
+   "says": "SheerLuxe: one of six lampshade brands to know (scalloped shades)",
+   "country": "United Kingdom",
+   "dept": "lamp shade",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Hunza",
+   "layer": "premium",
+   "src": "https://landscapearchitect.com/ladetails/landscape-product/misc-lighting/hunza-lighting-usa/hunza-twig-lite",
+   "says": "landscape lighting precision engineered and hand assembled in New Zealand 'to last a lifetime', solid copper or 316 stainless",
+   "country": "New Zealand",
+   "dept": "garden light",
+   "region": "Oceania"
+  },
+  {
+   "n": ".PSLAB",
+   "layer": "premium",
+   "src": "https://metropolismag.com/profiles/pslab-leading-light-beiruts-design-vanguard/",
+   "says": "Metropolis: leading Beirut lighting studio (2004), custom lighting all manufactured in-house, constant high-end quality; studios in Stuttgart, Helsinki, Bologna, Singapore",
+   "country": "Lebanon",
+   "region": "Middle East",
+   "dept": "lighting"
+  },
+  {
+   "n": "Fabraca Studios",
+   "layer": "premium",
+   "src": "https://designdoha.org.qa/en/calendar/design-doha-prize2024/fabraca-studios-samer-saadeh-lebanon/",
+   "says": "Design Doha Prize 2024 winner (product design): Beirut bespoke-lighting studio working with the city's artisans",
+   "country": "Lebanon",
+   "region": "Middle East",
+   "dept": "lighting"
+  },
+  {
+   "n": "Lava Lite (Lava World International)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Lava_lamp",
+   "says": "Chicago maker of the American 'Lava Lite Lamp' (Lava Manufacturing Corp., then Haggerty's Lava World International, 30+ years of American lava lamps)",
+   "country": "United States",
+   "dept": "lava lamp",
+   "region": "North America"
   }
  ],
  "add_regions": [
@@ -1140,7 +1202,11 @@
   {
    "n": "Lighting Ever",
    "why": "Amazon budget label (OutdoorGearLab budget pick), no cultural footprint"
+  },
+  {
+   "n": "ED Ellen DeGeneres",
+   "why": "celebrity licensing label produced by Generation Lighting (already listed); no separate maker identity - consider merging rather than listing"
   }
  ],
- "notes": "in progress"
+ "notes": "Accuracy: 25 sampled (random.seed(7), random.sample) all shown on their src page and claims supported (0 wrong); fetched raw via Parallel web_fetch full_content. Caveat: 104 Lampenwelt and 128 Lumens directory entries carry only a 'listed in a retailer directory' claim with no quality statement; several such entries are components or controls rather than lights (Theben, Tridonic, Eutrac, Thomas Research Products - see drop) or studio lights (Aputure, D4). Omissions found (100 brands, 11 regions): US craft studios (Allied Maker, Cedar & Moss, Workstead, Apparatus, Lindsey Adelman, Urban Electric, Bocci), UK makers (Porta Romana, Pooky, Bella Figura, Tom Raffield, Novocastrian, J.Adams&Co; Charles Edwards not added - Country Life/House&Garden pages returned empty), French Made-in-France makers (Sammode, Le Deun, Mathieu Lustrerie, Maison Lucien Gau, Disderot, Roger Pradier), Murano (Leucos, Salviati, La Murrina, De Majo), Vienna (Bakalowits), Nordic (Wästberg, Örsjö), German bike lights (Lupine, Supernova, Busch & Müller), US custom flashlights (HDS, McGizmo, Oveready, Prometheus), railway and miner's lanterns (Adlake, Handlan-Buck, Star Headlight, Armspear, Protector), neon (God's Own Junkyard), lava lamp (Lava Lite), bulbs (Girard Sudron, Plumen), lampshades (Fermoie, Rosi de Ruig, Matilda Goad, Baba Tree), garden (Hunza). Thin areas retried: Latin America now has Mexico (AD Mexico six brands), Brazil (Lumini iF/Red Dot page, ABILUX 2026 winners, EDIDA BR, Itens) and Argentina (Sello Buen Diseño, BIEL LumiAR); Central Asia only one designer-maker (Danik Uderbekov, Kazakhstan felt lamp) - no Uzbek/Tajik lamp maker page found; Turkey: Özartaş Avize (Hürriyet) and Elements Istanbul (Time Out); Morocco: Moroccan Bazaar, Hamimi, Atelier Landon (makers, not just sellers); paper lanterns: Kojima Shoten (Kyoto chochin), Huynh Van Ba (Hoi An), Jungmo Seungyeon (Korean hanji); Egypt fanous: Mohamed Fawzi workshop (Qantara); Middle East: .PSLAB, Fabraca Studios (Beirut); Southeast Asia: Ango (Bangkok), Venzon, Ruby Shells (Philippine capiz); India: Atelier Lumys, Zishta as seller of Nachiar Kovil vilakku. Still thin: fitted ceiling and bathroom/mirror lights (only private-label/retailer results; Japanese ceiling-light makers Koizumi/Odelic/Daiko not attested), LED strips and string lights (Twinkly not attested), work lights (no independent test page), night lights, Chinese makers beyond flashlights (palace-lantern factory named only in a search excerpt, Wen Sheng Zhai/Beijing Fine Arts Red Lantern Factory, not on a fetched page), Iran/Gulf, East Africa, Charles Edwards/Vaughan/Penny Morrison (pages not fetched). All 100 adds are absent from the brand index, the B3 harvest and retail 'new' lists (normalised-name check). Areti country recorded as Austria (Vienna studio). Sources fetched raw are cached in AUDIT_B3_tmp/f*.json."
 }

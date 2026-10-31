@@ -1,6 +1,6 @@
 {
  "cat": "B8",
- "status": "partial",
+ "status": "done",
  "brand_led": true,
  "sweeps": [
   {
@@ -330,6 +330,92 @@
    ],
    "found": 1,
    "note": "Solex (Thailand) found via Africa search; dedicated SE Asia search still pending"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Phillips Hermex Mexico cerraduras candados",
+    "Papaiz Stam Pado fechaduras",
+    "fabricante cajas fuertes Colombia"
+   ],
+   "found": 8,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Gerda Poland lock manufacturer",
+    "Czech Hungarian Romanian lock safe manufacturer"
+   ],
+   "found": 3,
+   "note": "Poland and Russia found; Czech/Hungarian/Romanian makers not surfaced"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "Kazakhstan Uzbekistan lock manufacturer safes"
+   ],
+   "found": 0,
+   "note": "only Promet (Russia) exports to Kazakhstan; no Central Asian maker found"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "Egypt Morocco Algeria safe lock manufacturer company"
+   ],
+   "found": 0,
+   "note": "second attempt, again nothing surfaced; dormakaba has country sites for Morocco only"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe (Spain)",
+   "queries": [
+    "Categoría:Cerraduras Wikipedia fabricantes"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "East Asia (ja/ko/zh Wikipedia)",
+   "queries": [
+    "Wikipedia 鍵 メーカー カテゴリ",
+    "분류:잠금장치",
+    "分类:锁 维基百科"
+   ],
+   "found": 0,
+   "note": "no lock-maker category surfaced for ja/ko/zh"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Mul-T-Lock Israel; Kale Kilit Turkey (earlier rounds)"
+   ],
+   "found": 2,
+   "note": "covered earlier: Mul-T-Lock, Kale Kilit"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Lockwood Australia; earlier rounds"
+   ],
+   "found": 1,
+   "note": "covered earlier (Lockwood)"
+  },
+  {
+   "axis": "kind",
+   "item": "Child & home safety",
+   "queries": [
+    "BabyGearLab best baby gate (earlier)"
+   ],
+   "found": 2,
+   "note": ""
   }
  ],
  "regions": [
@@ -557,19 +643,44 @@
    "brands": [
     "Solex"
    ]
+  },
+  {
+   "region": "Latin America (Brazil, Mexico)",
+   "speciality": "Locks and padlocks: Papaiz, Pado, Stam (Brazil); Phillips, Hermex (Mexico), largest lock factory in LatAm",
+   "src": "https://www.phillips.com.mx/es/nosotros",
+   "brands": [
+    "Papaiz",
+    "Pado",
+    "Stam",
+    "Arouca",
+    "Imab",
+    "Phillips (Cerraduras y Candados)",
+    "Hermex"
+   ]
+  },
+  {
+   "region": "Central & Eastern Europe",
+   "speciality": "Door locks and smart locks (Poland: Gerda/Tedee); safes (Russia: Promet)",
+   "src": "https://gerda.com/",
+   "brands": [
+    "Gerda",
+    "Tedee",
+    "Promet (NPO Promet)"
+   ]
+  },
+  {
+   "region": "Spain",
+   "speciality": "Furniture and door locks (Barcelona, Aragon)",
+   "src": "https://keya.es/keya-empresa-con-mas-de-50-anos-fabricando-cerraduras-electronicas-y-mecanicas",
+   "brands": [
+    "KEYA",
+    "CVL",
+    "BTV",
+    "CISA (Spain)"
+   ]
   }
  ],
  "sources": [
-  {
-   "url": "https://en.wikipedia.org/wiki/Category:Lock_manufacturers",
-   "title": "Wikipedia Category:Lock manufacturers",
-   "kind": "encyclopedia",
-   "years": "n/a",
-   "names_on_page": 27,
-   "new_names": 13,
-   "status": "done",
-   "note": ""
-  },
   {
    "url": "https://en.wikipedia.org/wiki/Category:Insecticide_brands",
    "title": "Wikipedia Category:Insecticide brands",
@@ -1009,6 +1120,46 @@
    "new_names": 1,
    "status": "partial",
    "note": "Directory page 1 only; CISA SA, ASSA ABLOY, BTV"
+  },
+  {
+   "url": "https://www.papaiz.com.br/pt/index",
+   "title": "Papaiz / Phillips about pages; Gravia lock brand directory; 3F cylinder catalogue",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 9,
+   "new_names": 8,
+   "status": "done",
+   "note": "pt/es sources"
+  },
+  {
+   "url": "https://gerda.com/",
+   "title": "Gerda about pages",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "http://www.safe.ru/en/",
+   "title": "Promet (safe.ru)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "Russia/Belarus/Kazakhstan market leader per its own page"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Lock_manufacturers",
+   "title": "Wikipedia ko/ja/zh/es/pt lock categories (search)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Search for ja/ko/zh/es/pt Wikipedia lock/pesticide categories returned only the English category and a ko 'fasteners' category (not lock makers); no usable list found. Spanish/Portuguese commercial pages gave KEYA, CVL, Fanal"
   }
  ],
  "brands": [
@@ -2634,6 +2785,118 @@
    "says": "Spanish family-owned maker of safes, locks, access and key-management products (La Puebla de Alfindén, Zaragoza) per Source Security directory",
    "country": "Spain",
    "dept": "Safes & locks"
+  },
+  {
+   "n": "Papaiz",
+   "layer": "cultural",
+   "src": "https://www.papaiz.com.br/pt/index",
+   "says": "Brazilian lock and padlock brand founded 1952, present in 20+ countries, part of ASSA ABLOY, Top of Mind award",
+   "country": "Brazil",
+   "dept": "Locks & padlocks"
+  },
+  {
+   "n": "Phillips (Cerraduras y Candados)",
+   "layer": "cultural",
+   "src": "https://www.phillips.com.mx/es/nosotros",
+   "says": "Mexican lock and padlock maker (est. 1959), self-described largest lock factory in Latin America; ASSA ABLOY since 2002",
+   "country": "Mexico",
+   "dept": "Locks & padlocks"
+  },
+  {
+   "n": "Hermex",
+   "layer": "cultural",
+   "src": "https://guicom.com.mx/producto/candado-de-combinacion-40-mm-personalizable-hermex",
+   "says": "Mexican padlock brand sold by industrial-safety retailer Guicom",
+   "country": "Mexico",
+   "dept": "Padlocks"
+  },
+  {
+   "n": "Pado",
+   "layer": "cultural",
+   "src": "https://www.gravia.com/ferragens/fechaduras",
+   "says": "Brazilian lock brand listed (Pado S.A. Indl. Coml. e Importadora) in Gravia lock brand directory",
+   "country": "Brazil",
+   "dept": "Door locks"
+  },
+  {
+   "n": "Stam",
+   "layer": "cultural",
+   "src": "https://3f.com.br/comum/code/MostrarArquivo.php?C=MTQwMDU%2C",
+   "says": "Brazilian lock brand referenced in replacement-cylinder catalogue (with Pado, Papaiz, Arouca, Haga, Imab, Hela, Soprano, MGM)",
+   "country": "Brazil",
+   "dept": "Door locks"
+  },
+  {
+   "n": "Arouca",
+   "layer": "cultural",
+   "src": "https://3f.com.br/comum/code/MostrarArquivo.php?C=MTQwMDU%2C",
+   "says": "Brazilian lock brand referenced in replacement-cylinder catalogue",
+   "country": "Brazil",
+   "dept": "Door locks"
+  },
+  {
+   "n": "Imab",
+   "layer": "cultural",
+   "src": "https://3f.com.br/comum/code/MostrarArquivo.php?C=MTQwMDU%2C",
+   "says": "Brazilian lock brand referenced in replacement-cylinder catalogue",
+   "country": "Brazil",
+   "dept": "Door locks"
+  },
+  {
+   "n": "Cajas Fuertes Colombia",
+   "layer": "cultural",
+   "src": "https://cajasfuertescolombia.com/",
+   "says": "Barranquilla maker of safes and armoured doors since 2002",
+   "country": "Colombia",
+   "dept": "Safes"
+  },
+  {
+   "n": "Gerda",
+   "layer": "cultural",
+   "src": "https://gerda.com/",
+   "says": "Poland's most recognised maker of doors, locks, cylinders and security systems (nearly 40 years); creator of Tedee smart lock; locks tested by Institute of Precision Mechanics",
+   "country": "Poland",
+   "dept": "Locks & doors"
+  },
+  {
+   "n": "Tedee",
+   "layer": "premium",
+   "src": "https://gerda.com/",
+   "says": "Described as 'the world's smallest smart lock', award-winning, created by Gerda",
+   "country": "Poland",
+   "dept": "Smart locks"
+  },
+  {
+   "n": "Promet (NPO Promet)",
+   "layer": "cultural",
+   "src": "http://www.safe.ru/en/",
+   "says": "Largest Russian manufacturer of safes and steel furniture (35 years), ECB-S certified electronic locks, brands Valberg and Aiko; dealers in 50+ countries",
+   "country": "Russia",
+   "dept": "Safes"
+  },
+  {
+   "n": "KEYA",
+   "layer": "cultural",
+   "src": "https://keya.es/keya-empresa-con-mas-de-50-anos-fabricando-cerraduras-electronicas-y-mecanicas",
+   "says": "Barcelona (Rubí) maker of mechanical and electronic furniture/locker locks since 1965, 100% made in Barcelona",
+   "country": "Spain",
+   "dept": "Cabinet locks"
+  },
+  {
+   "n": "CVL",
+   "layer": "cultural",
+   "src": "https://www.cvl.es/producto",
+   "says": "Spanish lock maker (mortise and surface locks for metal and wooden doors, multipoint)",
+   "country": "Spain",
+   "dept": "Door locks"
+  },
+  {
+   "n": "Fanal",
+   "layer": "cultural",
+   "src": "https://fanallatam.com/",
+   "says": "Latin American maker of padlocks, locks, hinges with 75+ years; part of ASSA ABLOY",
+   "country": "Latin America",
+   "dept": "Locks & padlocks"
   }
  ]
 }
