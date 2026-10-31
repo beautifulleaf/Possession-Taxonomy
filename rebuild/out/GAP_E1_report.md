@@ -22,3 +22,13 @@ About 58 fetches (sources.tsv in rebuild/work/GAP_E1/). Backups in rebuild/work/
 - **Wikidata matches:** ambiguous labels (Oxford, Coco, Trix, Blythe) were ignored; Medicom Toy page 404.
 - **Not reached:** Neocube, Giiker, Pelikan, Nice Cube year, fidget pad, haptic-coin makers, Roco/Lima rolling stock, countries for the 385 kit makers and 240 die-cast brands (about 130 brands still "owner not stated").
 - Playing cards, scale kits, die-cast: references unchanged and already Complete.
+
+# Round 2
+
+About 45 fetches (MediaWiki extracts API, link lists, Roco and Lima pages, ruwix). Validate: OK.
+
+- **Method:** the list pages' own links (API prop=links) gave the exact article titles; guessing titles from entry names mostly returned wrong or missing pages. The kit list links about 180 articles, the model-car list about 500, the toy-soldier list 50; about 220 maker intros were read (20 per call).
+- **Countries:** kits 378 of 385, die-cast 179 of 240 (from the list's own country sections plus article intros). Toy soldiers: 18 of 119 have a country; the other 101 have no Wikipedia article ("Country not stated"). Letter bands removed; all five big kinds (kits, die-cast, toy soldiers, Fashion doll, Teddy bear) are sectioned by country, with "Country not stated" last.
+- **Owners:** 43 new owners with years (Hornby for Corgi, Humbrol, Pocher; Mattel for Matchbox, Tyco, Mebetoys; Simba Dickie for Majorette, Schuco, Solido; May Cheong for Bburago, Maisto, Martoys; Round 2 for Johnny Lightning, Racing Champions, Hawk, MPC; Hasbro for Tonka, Action Man, Super Soaker; and others). Kits now 13 owned, die-cast 30.
+- **Added:** NeoCube; Giiker Cube, Rubik's Touch, Futuro Cube, Rubik's Spark (ruwix electronic cubes page); Lima (Italy 1946, Hornby 2004, six versions) and Roco (Austria 1960; its page names no rolling-stock series, only Lionel HO 1974-75 as a version).
+- **Not closed:** most obscure makers have no article, so about 60 die-cast and 120 kit makers keep no country or owner ("searched" via the API; Redbox resolved to a DVD-kiosk article and was discarded). Brand owners for the other ~100 "owner not stated" brands were not reached (budget); Giiker maker and year are not on the ruwix page; NeoCube inventor conflicts across news pages and is left out.

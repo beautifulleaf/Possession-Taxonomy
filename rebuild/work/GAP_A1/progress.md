@@ -1,0 +1,1 @@
+step0: read briefs, backups made (bak/), analysis: no loose m; 3 kinds lack coverage (Fur coat, Thobe, Southern African dress); to do: Folk costume tail, sporran/kilt pin/sgian-dubh, national champions, owners

@@ -6,3 +6,5 @@ step4: apply2.py Muuto (14 entries via scandinaviandesign.com)
 step5: String/Resident pages 403 -> deferred file
 step6: apply3 (7 Wikidata maker items); Design Museum London only 2 furniture objects; Vitra/MoMA need JS
 step7: apply4 owners (Vitra Steelcase LaZBoy Kartell Emeco Artifort Secretlab Isokon Gufram Memphis)
+step8: apply5 owners GUBI Fredericia ErikJ Graco Arflex Vitsoe
+step9: apply6 market facts (Home News Now 125; HNI Steelcase)
