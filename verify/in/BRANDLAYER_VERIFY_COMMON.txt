@@ -16,3 +16,4 @@ REPLY: counts by tier, how many not shown, regions with/without renown.
 
 HOMONYMS: when a brand's name matches a register brand (rebuild/reader/_brand_index.json) that is a DIFFERENT company (e.g. TESA locks vs tesa tape, MCM locks vs MCM fashion), set "homonym": true and rename it with a short qualifier in parentheses, e.g. "TESA (locks)". When it is the same company, leave it unflagged so the merge adds this category to the existing brand.
 SELLER PRAISE: a shop's or dealer's praise of a brand it stocks (product page, brand page, shop blog) is not independent; tier such a brand "listed" unless another independent page supports quality.
+OWN-SITE RENOWN: a region's renown quote must come from an independent page; a maker's own site cannot establish regional renown.
