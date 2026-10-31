@@ -116,7 +116,7 @@ Paglieri||S||''|Italy||IT|Italian company named in the Wikipedia category
 KIKO Milano||M||''|Italy||CB|Italian make-up brand
 Sol de Janeiro||S||''|Brazil||US|brand named in the Wikipedia category
 Glossier||B||''|United States||US|American brand named in the Wikipedia category
-Rare Beauty||M||Rare Beauty|CI|United States||BI|named among 15 indie brands in the Kline and NIQ report (2023)
+Rare Beauty||M|Rare Beauty|CI|United States||BI|named among 15 indie brands in the Kline and NIQ report (2023)
 Danessa Myricks Beauty|Danessa Myricks|M|Danessa Myricks Beauty|CI|United States||BI|named in the Kline and NIQ indie report (2023)
 Jones Road Beauty|Jones Road|M|Jones Road Beauty|CI|United States||BI|named in the Kline and NIQ indie report (2023)
 OSEA||S|OSEA|CI|United States||BI|named in the Kline and NIQ indie report (2023)
