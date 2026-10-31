@@ -22,7 +22,7 @@ DEPTS = [
    ("Everyday books", "Current books in ordinary trade formats, split by how the pages are held; a children's format → Children's books shelf; a collector's special state → Publisher special editions.",
     "kinds by binding: rigid boards, glued flexible cover, wire or comb, rings, stapled sheets",
     ["Hardback book","Paperback book","Spiral-bound book","Loose-leaf book","Pamphlet"]),
-   ("Children's books", "Books built for young children, from baby books to series and annuals; a book of moving parts for adults → Novelty book still sits here.",
+   ("Children's books", "Books built for young children, from baby books to series and annuals; an adult pop-up art book → Coffee table book.",
     "kinds by how the book is built or sold for children: sturdy materials, moving parts, folded sheet, uniform series, yearly annual",
     ["Board book","Cloth, bath or foam book","Novelty book","Fold-out book","Children's series book","Big Little Book","Children's annual"]),
    ("Publisher special editions", "Copies a publisher issues in a special state, such as a numbered run, a subscription series or a pre-publication proof; a book bound or printed by hand → Hand-crafted books.",
