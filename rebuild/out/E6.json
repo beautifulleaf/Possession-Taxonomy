@@ -4707,6 +4707,87 @@
          "the software side"
         ]
        ]
+      },
+      {
+       "n": "Guide scope",
+       "a": "autoguiding scope · guider",
+       "d": "Small second telescope on the main rig; a camera on it watches a star so software can correct the mount's tracking.",
+       "s": "https://astrobackyard.com/guide-scope-for-astrophotography/",
+       "x": [
+        {
+         "n": "Orion 50mm Mini Guide Scope",
+         "a": "",
+         "d": "Compact guide scope sold by Orion for autoguiding.",
+         "mk": "Orion",
+         "y": "",
+         "s": "https://astrobackyard.com/guide-scope-for-astrophotography/",
+         "v": [],
+         "dt": "",
+         "g": "Maker lines"
+        },
+        {
+         "n": "William Optics UniGuide 50mm",
+         "a": "",
+         "d": "50 mm slide-base guide scope.",
+         "mk": "William Optics",
+         "y": "",
+         "s": "https://astrobackyard.com/guide-scope-for-astrophotography/",
+         "v": [],
+         "dt": "",
+         "g": "Maker lines"
+        },
+        {
+         "n": "William Optics 32mm Guide Scope",
+         "a": "",
+         "d": "32 mm guide scope.",
+         "mk": "William Optics",
+         "y": "",
+         "s": "https://astrobackyard.com/guide-scope-for-astrophotography/",
+         "v": [],
+         "dt": "",
+         "g": "Maker lines"
+        },
+        {
+         "n": "ZWO ASI120MM Mini",
+         "a": "",
+         "d": "Small monochrome camera used for autoguiding.",
+         "mk": "ZWO",
+         "y": "",
+         "s": "https://astrobackyard.com/guide-scope-for-astrophotography/",
+         "v": [],
+         "dt": "",
+         "g": "Guide cameras"
+        },
+        {
+         "n": "Starlight Xpress Lodestar X2",
+         "a": "",
+         "d": "Guide camera used with an off-axis guider.",
+         "mk": "Starlight Xpress",
+         "y": "",
+         "s": "https://astrobackyard.com/guide-scope-for-astrophotography/",
+         "v": [],
+         "dt": "",
+         "g": "Guide cameras"
+        }
+       ],
+       "nl": "One entry is a guide scope or guide camera line sold under its own name.",
+       "xg": "guide scopes, then guide cameras",
+       "sel": "No complete list exists; follows the AstroBackyard guide-scope article, one retailer-neutral overview.",
+       "tt": [
+        [
+         "Guiding method",
+         [
+          "Separate guide scope",
+          "Off-axis guider"
+         ]
+        ]
+       ]
+      },
+      {
+       "n": "Off-axis guider",
+       "a": "OAG",
+       "d": "Pick-off prism that diverts a star from the main telescope's own field to a guide camera, so guiding runs at the main focal length.",
+       "s": "https://astrobackyard.com/guide-scope-for-astrophotography/"
       }
      ]
     },
@@ -8875,9 +8956,98 @@
          ]
         ]
        ],
-       "nl": "One entry is a weather instrument line or historic form sold or collected under its own name; models are versions.",
-       "sel": "Instrument types follow Wikipedia's List of weather instruments (thermometer, barometer, hygrometer, anemometer, pyranometer, rain gauge, wind vane, wind sock); lines are from the earlier pass.",
+       "nl": "One entry is a home or outdoor thermometer principle named in the Wikipedia article Thermometer, or a thermometer line sold under its own name.",
+       "sel": "Principles from the first 100,000 of 138,000 characters of the Wikipedia article Thermometer (clinical, electronic-sensor, laboratory and industrial types are out of scope here; the last 38,000 characters are not read), then maker lines.",
        "x": [
+        {
+         "n": "Thermoscope",
+         "a": "",
+         "d": "Air-filled bulb joined to a partly water-filled tube; shows relative heat changes but has no scale.",
+         "mk": "Galileo Galilei",
+         "y": "late 16th century",
+         "s": "https://en.wikipedia.org/wiki/Thermometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles",
+         "role": "origin"
+        },
+        {
+         "n": "Air thermometer",
+         "a": "",
+         "d": "Vertical tube closed by an air bulb and opening into water, with a scale; the water level tracks air expansion.",
+         "mk": "Santorio Santorio",
+         "y": "1625",
+         "s": "https://en.wikipedia.org/wiki/Thermometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Sealed liquid-in-glass thermometer",
+         "a": "",
+         "d": "Sealed tube with a bulb and a numbered scale, independent of air pressure; the modern form dates from about 1654.",
+         "mk": "Ferdinando II de' Medici",
+         "y": "c. 1654",
+         "s": "https://en.wikipedia.org/wiki/Thermometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Mercury-in-glass thermometer",
+         "a": "",
+         "d": "Reliable mercury thermometer that replaced alcohol and water mixtures; accurate but toxic.",
+         "mk": "Daniel Gabriel Fahrenheit",
+         "y": "1714",
+         "s": "https://en.wikipedia.org/wiki/Thermometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Alcohol thermometer",
+         "a": "",
+         "d": "Liquid-expansion thermometer using alcohol, less reliable than mercury in its first form.",
+         "mk": "René Antoine Ferchault de Réaumur",
+         "y": "1730",
+         "s": "https://en.wikipedia.org/wiki/Thermometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Six's maximum-minimum thermometer",
+         "a": "",
+         "d": "Records the highest and lowest temperatures; used in meteorology and climatology.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Thermometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Bimetallic thermometer",
+         "a": "",
+         "d": "Two metals with different expansion coefficients; used in ovens and meat thermometers.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Thermometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Liquid crystal thermometer",
+         "a": "",
+         "d": "Thermochromic compounds show the temperature; used in forehead thermometers and mood rings.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Thermometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
         {
          "n": "TFA Dostmann DOUBLE-CHECK",
          "a": "",
@@ -8900,7 +9070,8 @@
          "dt": "",
          "g": "Maker lines"
         }
-       ]
+       ],
+       "xg": "principle, then maker lines"
       },
       {
        "n": "Galileo thermometer",
@@ -11214,10 +11385,55 @@
          "v": [],
          "dt": "",
          "g": "Early modern (1500–1800)"
+        },
+        {
+         "n": "Sinecal quadrant",
+         "a": "",
+         "d": "Gridded quadrant with a 90 degree arc, cord, bead and plumb bob, used for trigonometry and observations.",
+         "mk": "Muhammad ibn Musa al-Khwarizmi",
+         "y": "9th century",
+         "s": "https://en.wikipedia.org/wiki/Quadrant_(instrument)",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)",
+         "role": "origin"
+        },
+        {
+         "n": "Horary quadrant",
+         "a": "",
+         "d": "Tells the time of day from the sun's position, using equal or unequal hours; the oldest found dates to about 1300.",
+         "mk": "",
+         "y": "c. 1300",
+         "s": "https://en.wikipedia.org/wiki/Quadrant_(instrument)",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)"
+        },
+        {
+         "n": "Islamic astrolabe quadrant",
+         "a": "",
+         "d": "Half of an astrolabe plate with a cord and bead to mark the positions of the sun or stars.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Quadrant_(instrument)",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)"
+        },
+        {
+         "n": "Geometric quadrant",
+         "a": "",
+         "d": "Quarter-circle wood or brass panel with sights and a plumb bob, used by surveyors and navigators; marine examples from about 1460.",
+         "mk": "",
+         "y": "c. 1460",
+         "s": "https://en.wikipedia.org/wiki/Quadrant_(instrument)",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)"
         }
        ],
        "nl": "One entry is a named instrument from Wikipedia's List of astronomical instruments; makers' pieces and replicas are versions.",
-       "sel": "Every historic instrument in Wikipedia's List of astronomical instruments, grouped by the period of first use; modern detectors, space and electronic items in that list (CCD, CMOS, bolometer, photometer, spectrometer, interferometer, space telescope, computers) are out of scope here. Wikipedia's historical-instruments list could not be fetched (404).",
+       "sel": "Quadrant types named in the Wikipedia article Quadrant (instrument): 8 of 8 types described there (Cole and Hadley quadrants are under Backstaff and Sextant).",
        "xg": "by period"
       },
       {
