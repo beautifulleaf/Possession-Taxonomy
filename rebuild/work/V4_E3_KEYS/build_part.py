@@ -44,7 +44,6 @@ add('Electric piano',
       v=[V('140', 'Wurlitzer', '1962'), V('145 / 145B', 'Wurlitzer', '', 'phased out late 1965'), V('146 / 146B', 'Wurlitzer', '', 'solid-state classroom variant')]),
     E('Wurlitzer 300', 'Wurlitzer', '1973', 'European-only Wurlitzer electric piano of early 1973.', 'WU'),
     E('Wurlitzer 700', 'Wurlitzer', '', 'Wurlitzer electric piano listed with the 720; year not stated on the page.', 'WU', v=[V('720', 'Wurlitzer')]))
-addv('Tonewheel organ', 'Hammond B-3', V('Hammond B-3 (infobox date)', 'Hammond', '1955', 'The article infobox gives 1955; the text gives 1954'))
 add('Tonewheel organ',
     E('Hammond Model BC', 'Hammond', '1936', 'Two-manual tonewheel console from 1936.', 'HA'),
     E('Hammond Model D', 'Hammond', '1939', 'Hammond console of 1939 in the early A to D series.', 'HA'),
@@ -169,7 +168,7 @@ add(POL,
     E('Elektron SidStation', 'Elektron', '1999', 'Elektron synthesizer built around the SID chip, 1999.', 'SY'),
     E('Elektron Analog Four', 'Elektron', '2012', 'Elektron four-voice analogue synthesizer of 2012.', 'SY'),
     E('Elektron Digitone', 'Elektron', '2018', 'Elektron eight-voice FM synthesizer of 2018.', 'SY'),
-    E('Akai MPC-era Prophet 2000', 'Sequential', '', 'Sequential Prophet 2000 sampling keyboard named in the Sequential article.', 'SQ'))
+    E('Oberheim Eight Voice', 'Oberheim', '', 'Oberheim eight-voice synthesizer named in the Oberheim article; year not stated.', 'OB'))
 add('Modular synthesizer and Eurorack module',
     E('Moog modular (reissue)', 'Moog Music', '2015', 'Moog modular system produced 1963 to 1980 and again from 2015.', 'MO'),
     E('Emerson Moog Modular', 'Moog Music', '2014', 'Moog modular recreation of 2014.', 'MO'),
@@ -190,7 +189,7 @@ add('Sampler',
     E('Korg DSS-1', 'Korg', '1986', 'Korg sampling synthesizer of 1986.', 'KO'),
     E('Ensoniq Mirage', 'Ensoniq', '1984', 'Ensoniq sampling keyboard of 1984.', 'SY'),
     E('E-mu Emulator II', 'E-mu Systems', '1984', 'E-mu sampling keyboard of 1984.', 'SY'),
-    E('Casio FZ-1', 'Casio', '', 'Casio sampling keyboard named on Wikidata; year not stated.', 'https://www.wikidata.org/wiki/Special:Search?search=Casio+FZ-1'),
+    E('Sequential Prophet 2000', 'Sequential', '', 'Sequential Circuits sampling keyboard named in the Sequential article; year not stated.', 'SQ'),
     E('Sequential Prophet 3000', 'Sequential', '1987', 'Sequential Circuits sampler of 1987.', 'SQ'),
     E('Sequential Studio 440', 'Sequential', '', 'Sequential Circuits sampling drum machine and sequencer named in the Sequential article.', 'SQ'))
 addv('Sampler', 'Akai MPC', V('MPC60 MkII', 'Akai Professional', '', 'Used by DJ Shadow for the 1996 album Endtroducing'), V('MPC2000XL', 'Akai Professional', '', 'Used by Kanye West for a 2010 MTV Video Music Awards performance'))
@@ -360,7 +359,7 @@ addv('DJ media player', 'Pioneer CDJ',
      V('CDJ-800 MK2', 'Pioneer', '2006'), V('CDJ-400', 'Pioneer', '2007'), V('CDJ-850', 'Pioneer', '2010'), V('CDJ-350', 'Pioneer', '2010'),
      V('CDJ-900 NXS', 'Pioneer', '2013'), V('CDJ-1000 MK1', 'Pioneer', '2001'), V('CDJ-1000 MK2', 'Pioneer', '2003'), V('CDJ-3000X', 'AlphaTheta (Pioneer DJ)', '2025'), V('CDJ-1500X', 'AlphaTheta (Pioneer DJ)', '2026'),
      V('XDJ-1000 MK2', 'Pioneer'))
-addv('DJ media player', 'Pioneer DJM',
+addv('DJ mixer', 'Pioneer DJM',
      *[V(n, 'Pioneer') for n in ['DJM-300', 'DJM-350', 'DJM-400', 'DJM-450', 'DJM-600', 'DJM-700', 'DJM-750', 'DJM-707', 'DJM-850', 'DJM-900 Nexus', 'DJM-900 Nexus 2', 'DJM-V10', 'DJM-909', 'DJM-1000', 'DJM-2000', 'DJM-250', 'DJM-900SRT']])
 add('DJ media player',
     E('Pioneer DMP-555', 'AlphaTheta (Pioneer DJ)', '2002', 'Pioneer media player listed in the CDJ article, April 2002.', 'CDJ'))
