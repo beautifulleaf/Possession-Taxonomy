@@ -9,3 +9,4 @@ step8: fetched sakwiki 58/84x4 (total fetches ~46). NEXT: write ed.py applying a
 step9: ed.py applied (do NOT rerun; backup in bak/). validate OK. Remaining: patch os field, friction xg, report
 step10: report written; done
 ROUND2 started: tasks 1 sakwiki 65/74/75/130/84-5layer/Wenger+Delemont 85; 2 Veritas via Lee Valley; 3 lock types; 4 Morakniv history. ed.py already applied in round 1 - write new script ed2.py operating on current out/C1.json (backup bak/C1_r2.json)
+r2 step1: fetched sakwiki 74mm, Wenger65, Wenger85 2/5/6plus, Delemont85 4. Next: find Wenger85 1/3/4, Delemont 85/65 pages, 130mm, 84-5layer, 75mm via search; Veritas leevalley; locks; morakniv.se

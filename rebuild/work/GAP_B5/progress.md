@@ -4,3 +4,4 @@ step3 glass houses +6 done (107); coverage line written
 step4a owners: own1.py, own2.py applied (Anova, Blendtec, AeroPress, Instant Pot, La Marzocco, Rancilio, SodaStream, CamelBak, Viking, AGA group, Cuisinart, Sunbeam, Russell Hobbs, Bodum, Melitta); ~46 fetches used; next: Waring/Oster/Hario/Fellow/Eureka/Zwilling etc via search, then tableware g axis, report
 step4b: Waring/Conair done; Oster, Hario owner searched twice -> not stated; Eureka wrong page
 report written; done
+ROUND2 started: items 1 market shares, 2 g sections via API extracts, 3 owners retry. fetch count r2: 0
