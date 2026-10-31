@@ -107,7 +107,7 @@ dept("General hand tools",
   "kinds by the work: drive nails, shape metal, break masonry, strike softly, punch and chisel, lever",
   ["Claw hammer", "Genno (Japanese hammer)", "Ball-pein hammer", "Cross-pein hammer", "Club hammer", "Sledgehammer", "Brick hammer", "Slater's hammer", "Mallet", "Punch", "Cold chisel", "Pry bar & wrecking bar"]),
  ("Plumbing & pipework",
-  "Hand tools for gripping, cutting and clearing pipes; a basin or pipe wrench is a wrench, but here it sits with its job.",
+  "Hand tools for gripping, cutting and clearing pipes and drains.",
   "kinds by the pipework job: grip, cut, clear a blockage",
   ["Pipe wrench", "Basin wrench", "Pipe cutter", "Plunger", "Drain auger"]),
  ("Decorating, plastering & tiling",
@@ -178,7 +178,7 @@ dept("Workshop machinery",
  ])
 
 dept("Measuring & detecting",
- "Tools that read or mark a length, angle, level or hidden or electrical value; a scale for weighing → B5 or H1, a thermometer for the weather → a weather category.",
+ "Tools that read or mark a length, angle, level or hidden or electrical value; a kitchen or bathroom scale → B5 or H1.",
  "What is measured or marked: a size to fine tolerance, a line to cut to, a length or level on site, an electrical value, or something hidden?",
  [
  ("Precision measuring",

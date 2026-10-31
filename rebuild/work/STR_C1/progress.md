@@ -2,3 +2,6 @@ step0 read brief, dumped structure
 step1 plan made; fetched List_of_tools p1 (ok)
 step2 research fetches done (sources in head, logging pending)
 step3 design done; next: write build script work/STR_C1/build.py
+step4 wrote c1struct.py tt.txt build.py; run build
+step5 built + validate attempted
+step6 DONE: report written, validate OK

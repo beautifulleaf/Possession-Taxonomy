@@ -1,0 +1,1 @@
+step1 read brief, F3, E1 pilot; design done; fetched exonumia, scripophily, postage_due, official_mail, postage_meter, military awards, booster pack, traveller cheque, RHS (all en.wikipedia.org); next: fetch few more refs, then build.py
