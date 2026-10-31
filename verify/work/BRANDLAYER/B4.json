@@ -383,6 +383,51 @@
    ],
    "found": 0,
    "note": "No results beyond tradition; not brand-led (place-named craft traditions)."
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Australian New Zealand home fragrance candle makers brands best"
+   ],
+   "found": 8,
+   "note": "Broadsheet editorial list fetched; Glasshouse, ECOYA, Ashley & Co named in search summaries only (not fetched)"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Southeast Asia home decor renowned makers Thai Balinese Vietnamese lacquer, Philippine parol"
+   ],
+   "found": 1,
+   "note": "Philippine parol makers fetched; Thai/Balinese/Vietnamese lacquer: only dealer listings and exporter marketing, no attestable renowned maker"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "Uzbek Rishtan ceramics Bukhara suzani Kyrgyz shyrdak workshops makers"
+   ],
+   "found": 2,
+   "note": "Rishtan workshops; shyrdak search returned nothing; suzani is textile (other category)"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "Moroccan lanterns mirrors decor makers Fez pottery renowned"
+   ],
+   "found": 0,
+   "note": "Fez (blue), Safi, Tamegroute (green glaze) pottery and Marrakech brass lanterns as traditions; no named maker attested by an authoritative page (retailer/1stDibs only)"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "Ghana Kenya African home decor brands handcrafted known"
+   ],
+   "found": 0,
+   "note": "Studio Badge (Ghana), The Kenyan Crafts Company, Akwaaba, Saah Craft, 54kibo named only in marketplace/search summaries; not fetched, not logged as brands"
   }
  ],
  "regions": [
@@ -639,6 +684,38 @@
    "src": "https://en.wikipedia.org/wiki/The_Beistle_Company",
    "brands": [
     "Beistle"
+   ]
+  },
+  {
+   "region": "Australia/New Zealand (Oceania)",
+   "speciality": "Soy candles and home fragrance, Australian Made",
+   "src": "https://www.broadsheet.com.au/national/home-and-lifestyle/article/best-home-fragrances-australian-made",
+   "brands": [
+    "Red Hill Candle Co",
+    "Conscious Candle Co",
+    "Beloved Scents",
+    "Viam Organics",
+    "Dindi Naturals",
+    "Denu",
+    "Wattle Grove",
+    "Exuro"
+   ]
+  },
+  {
+   "region": "Philippines (Southeast Asia)",
+   "speciality": "Pampanga giant lanterns / parol, capiz shell Christmas lanterns",
+   "src": "https://thebeat.asia/manila/nomads/explore/brighten-up-your-holidays-heres-where-to-find-the-best-parol-makers-in-the-philippines",
+   "brands": [
+    "Rolren's Lantern and General Merchandise"
+   ]
+  },
+  {
+   "region": "Uzbekistan (Central Asia)",
+   "speciality": "Rishtan blue ishkor-glazed ceramics, Fergana Valley",
+   "src": "https://www.orexca.com/uzbekistan/rishtan/rustam_usmanov_workshop.htm",
+   "brands": [
+    "Rustam Usmanov workshop",
+    "Alisher Nazirov workshop"
    ]
   }
  ],
@@ -1104,6 +1181,39 @@
    "known_confirmed": 0,
    "status": "done",
    "note": "tradition and towns, no brand names; gold medal Milan 1906"
+  },
+  {
+   "url": "https://www.broadsheet.com.au/national/home-and-lifestyle/article/best-home-fragrances-australian-made",
+   "title": "Broadsheet: Australian-made home fragrances (2026)",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 8,
+   "new_names": 8,
+   "known_confirmed": 0,
+   "status": "done",
+   "note": "partnered editorial; moderate weight"
+  },
+  {
+   "url": "https://thebeat.asia/manila/nomads/explore/brighten-up-your-holidays-heres-where-to-find-the-best-parol-makers-in-the-philippines",
+   "title": "The Beat: 5 best parol makers in the Philippines",
+   "kind": "ranking",
+   "years": "2022",
+   "names_on_page": 1,
+   "new_names": 1,
+   "known_confirmed": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.orexca.com/uzbekistan/rishtan/rustam_usmanov_workshop.htm",
+   "title": "OrexCA: Rishtan blue ceramics, Rustam Usmanov workshop",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "known_confirmed": 0,
+   "status": "done",
+   "note": "guide lists both workshops; Nazirov page not separately fetched"
   }
  ],
  "brands": [
@@ -2506,6 +2616,94 @@
    "says": "Oaxacan alebrije workshop (San Martin Tilcajete); exhibited at Smithsonian NMAI and National Museum of Mexican Art",
    "country": "Mexico",
    "dept": "folk dolls & figures (alebrije)"
+  },
+  {
+   "n": "Red Hill Candle Co",
+   "layer": "premium",
+   "src": "https://www.broadsheet.com.au/national/home-and-lifestyle/article/best-home-fragrances-australian-made",
+   "says": "Editorial picks of Australian-made candles, diffusers, room mists, incense (partnered with Australian Made)",
+   "country": "Australia",
+   "dept": "candles / diffusers / incense"
+  },
+  {
+   "n": "Conscious Candle Co",
+   "layer": "premium",
+   "src": "https://www.broadsheet.com.au/national/home-and-lifestyle/article/best-home-fragrances-australian-made",
+   "says": "Editorial picks of Australian-made candles, diffusers, room mists, incense (partnered with Australian Made)",
+   "country": "Australia (100h soy candle)",
+   "dept": "candles / diffusers / incense"
+  },
+  {
+   "n": "Beloved Scents",
+   "layer": "premium",
+   "src": "https://www.broadsheet.com.au/national/home-and-lifestyle/article/best-home-fragrances-australian-made",
+   "says": "Editorial picks of Australian-made candles, diffusers, room mists, incense (partnered with Australian Made)",
+   "country": "",
+   "dept": "candles / diffusers / incense"
+  },
+  {
+   "n": "Viam Organics",
+   "layer": "premium",
+   "src": "https://www.broadsheet.com.au/national/home-and-lifestyle/article/best-home-fragrances-australian-made",
+   "says": "Editorial picks of Australian-made candles, diffusers, room mists, incense (partnered with Australian Made)",
+   "country": "",
+   "dept": "candles / diffusers / incense"
+  },
+  {
+   "n": "Dindi Naturals",
+   "layer": "premium",
+   "src": "https://www.broadsheet.com.au/national/home-and-lifestyle/article/best-home-fragrances-australian-made",
+   "says": "Editorial picks of Australian-made candles, diffusers, room mists, incense (partnered with Australian Made)",
+   "country": "",
+   "dept": "candles / diffusers / incense"
+  },
+  {
+   "n": "Denu",
+   "layer": "premium",
+   "src": "https://www.broadsheet.com.au/national/home-and-lifestyle/article/best-home-fragrances-australian-made",
+   "says": "Editorial picks of Australian-made candles, diffusers, room mists, incense (partnered with Australian Made)",
+   "country": "",
+   "dept": "candles / diffusers / incense"
+  },
+  {
+   "n": "Wattle Grove",
+   "layer": "premium",
+   "src": "https://www.broadsheet.com.au/national/home-and-lifestyle/article/best-home-fragrances-australian-made",
+   "says": "Editorial picks of Australian-made candles, diffusers, room mists, incense (partnered with Australian Made)",
+   "country": "",
+   "dept": "candles / diffusers / incense"
+  },
+  {
+   "n": "Exuro",
+   "layer": "premium",
+   "src": "https://www.broadsheet.com.au/national/home-and-lifestyle/article/best-home-fragrances-australian-made",
+   "says": "Editorial picks of Australian-made candles, diffusers, room mists, incense (partnered with Australian Made)",
+   "country": "Australia (Melbourne)",
+   "dept": "candles / diffusers / incense"
+  },
+  {
+   "n": "Rolren's Lantern and General Merchandise",
+   "layer": "premium",
+   "src": "https://thebeat.asia/manila/nomads/explore/brighten-up-your-holidays-heres-where-to-find-the-best-parol-makers-in-the-philippines",
+   "says": "Roland Quiambao 'Master Lantern Maker', San Fernando Pampanga, since 1986; Giant Lantern Festival Hall of Fame; Taiwan Lantern Festival 2017",
+   "country": "Philippines",
+   "dept": "Christmas lantern (parol)"
+  },
+  {
+   "n": "Rustam Usmanov workshop",
+   "layer": "premium",
+   "src": "https://www.orexca.com/uzbekistan/rishtan/rustam_usmanov_workshop.htm",
+   "says": "Named master workshops of Rishtan blue ishkor-glaze ceramics (Fergana Valley)",
+   "country": "Uzbekistan",
+   "dept": "decorative ceramics"
+  },
+  {
+   "n": "Alisher Nazirov workshop",
+   "layer": "premium",
+   "src": "https://www.orexca.com/uzbekistan/rishtan/rustam_usmanov_workshop.htm",
+   "says": "Named master workshops of Rishtan blue ishkor-glaze ceramics (Fergana Valley)",
+   "country": "Uzbekistan",
+   "dept": "decorative ceramics"
   }
  ]
 }
