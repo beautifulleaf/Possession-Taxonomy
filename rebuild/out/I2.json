@@ -7856,6 +7856,24 @@
            "mk": "Stability AI",
            "y": "2023",
            "d": "28 Jul 2023 (cgpress), text-to-image with a fine-tuning option; April 2023 beta before it"
+          },
+          {
+           "n": "Stable Cascade",
+           "mk": "Stability AI",
+           "y": "2024",
+           "d": "Open weights, per the aiwiki.ai overview"
+          },
+          {
+           "n": "Stable Diffusion 3",
+           "mk": "Stability AI",
+           "y": "2024",
+           "d": "Open weights, per the aiwiki.ai overview"
+          },
+          {
+           "n": "Stable Diffusion 3.5",
+           "mk": "Stability AI",
+           "y": "2024",
+           "d": "Open weights, per the aiwiki.ai overview"
           }
          ],
          "g": "Stability AI"
@@ -7879,9 +7897,66 @@
            "mk": "Black Forest Labs",
            "y": "2024",
            "d": "Distilled few-step model, Apache 2.0"
+          },
+          {
+           "n": "FLUX.1 Kontext",
+           "mk": "Black Forest Labs",
+           "y": "2025",
+           "d": "Open variants exist alongside closed Pro tiers"
+          },
+          {
+           "n": "FLUX.2",
+           "mk": "Black Forest Labs",
+           "y": "2025",
+           "d": "Open variants exist alongside closed Pro tiers"
           }
          ],
          "g": "Black Forest Labs"
+        },
+        {
+         "n": "Hunyuan-DiT",
+         "a": "",
+         "d": "Open text-to-image model from Tencent, released 2024.",
+         "mk": "Tencent",
+         "y": "2024",
+         "s": "https://aiwiki.ai/wiki/text-to-image_models/raw",
+         "g": "Tencent"
+        },
+        {
+         "n": "Janus-Pro",
+         "a": "",
+         "d": "Open multimodal model from DeepSeek that also generates images, released 2025.",
+         "mk": "DeepSeek",
+         "y": "2025",
+         "s": "https://aiwiki.ai/wiki/text-to-image_models/raw",
+         "g": "DeepSeek"
+        },
+        {
+         "n": "HiDream-I1",
+         "a": "",
+         "d": "Open text-to-image model from HiDream AI, released 2025.",
+         "mk": "HiDream AI",
+         "y": "2025",
+         "s": "https://aiwiki.ai/wiki/text-to-image_models/raw",
+         "g": "HiDream AI"
+        },
+        {
+         "n": "Qwen-Image",
+         "a": "",
+         "d": "Open text-to-image model from Alibaba under the Apache 2.0 licence, released 2025.",
+         "mk": "Alibaba",
+         "y": "2025",
+         "s": "https://aiwiki.ai/wiki/text-to-image_models/raw",
+         "g": "Alibaba"
+        },
+        {
+         "n": "PixArt-Alpha",
+         "a": "",
+         "d": "Open text-to-image model released 2023; the overview does not name its lab.",
+         "mk": "",
+         "y": "2023",
+         "s": "https://aiwiki.ai/wiki/text-to-image_models/raw",
+         "g": "Lab not stated"
         }
        ],
        "tt": [
@@ -7901,7 +7976,7 @@
         ]
        ],
        "nl": "One entry is a family of downloadable model weights from one lab.",
-       "sel": "Families named by the fetched pages in each entry; Wikipedia's List of large language models covers language models only, so no whole-space list exists for this kind.",
+       "sel": "Open-weight image families in the aiwiki.ai overview of text-to-image models (https://aiwiki.ai/wiki/text-to-image_models/raw), grouped by lab. Complete: 7 of 7 open-weight families in that overview; closed services (DALL-E, Imagen, Midjourney, Ideogram, Recraft, Seedream) are not owned files, and Kolors, Sana and Lumina-mGPT were left out because the page states no licence.",
        "xg": "by lab"
       },
       {
@@ -7955,7 +8030,7 @@
         ]
        ],
        "nl": "One entry is a family of downloadable model weights from one lab.",
-       "sel": "Families named by the fetched pages in each entry; Wikipedia's List of large language models covers language models only, so no whole-space list exists for this kind.",
+       "sel": "No complete list exists; follows the one fetched page in the entry. Searched: open speech model lists; no page naming open speech models with licences was found.",
        "xg": "by lab"
       }
      ]
@@ -11265,6 +11340,78 @@
          "y": "",
          "s": "https://ens.readthedocs.io/en/stable/introduction.html",
          "v": []
+        },
+        {
+         "n": "Unstoppable Domains",
+         "a": "",
+         "d": "Naming service with no renewal fees and tools for decentralised websites.",
+         "mk": "",
+         "y": "",
+         "s": "https://paragraph.com/@droomdroom/best-10-decentralized-domain-name-services"
+        },
+        {
+         "n": "Stacks naming",
+         "a": "",
+         "d": "Links names directly to Bitcoin addresses and supports decentralised websites.",
+         "mk": "",
+         "y": "",
+         "s": "https://paragraph.com/@droomdroom/best-10-decentralized-domain-name-services"
+        },
+        {
+         "n": "Emercoin EmerDNS",
+         "a": "",
+         "d": "Domain registration on the Emercoin blockchain focused on reliability and security.",
+         "mk": "",
+         "y": "",
+         "s": "https://paragraph.com/@droomdroom/best-10-decentralized-domain-name-services"
+        },
+        {
+         "n": "Arweave Name System",
+         "a": "",
+         "d": "Connects readable names to permanent data on the Arweave network.",
+         "mk": "",
+         "y": "",
+         "s": "https://paragraph.com/@droomdroom/best-10-decentralized-domain-name-services"
+        },
+        {
+         "n": "RIF Name Service",
+         "a": "",
+         "d": "Naming service on the RSK network with cross-network interoperability.",
+         "mk": "",
+         "y": "",
+         "s": "https://paragraph.com/@droomdroom/best-10-decentralized-domain-name-services"
+        },
+        {
+         "n": "Handshake",
+         "a": "",
+         "d": "Auctions top-level domains to keep ownership decentralised.",
+         "mk": "",
+         "y": "",
+         "s": "https://paragraph.com/@droomdroom/best-10-decentralized-domain-name-services"
+        },
+        {
+         "n": "PeerName",
+         "a": "",
+         "d": "Interface for managing domains across several blockchains.",
+         "mk": "",
+         "y": "",
+         "s": "https://paragraph.com/@droomdroom/best-10-decentralized-domain-name-services"
+        },
+        {
+         "n": "Diode",
+         "a": "",
+         "d": "Decentralised identity naming service.",
+         "mk": "",
+         "y": "",
+         "s": "https://paragraph.com/@droomdroom/best-10-decentralized-domain-name-services"
+        },
+        {
+         "n": "Proton Naming Service",
+         "a": "",
+         "d": "Naming within the Proton ecosystem with an emphasis on privacy.",
+         "mk": "",
+         "y": "",
+         "s": "https://paragraph.com/@droomdroom/best-10-decentralized-domain-name-services"
         }
        ],
        "tt": [
@@ -11277,7 +11424,7 @@
         ]
        ],
        "nl": "One entry is a named collection, name service or platform; individual tokens are not entries.",
-       "sel": "Collections named by the fetched pages in each entry; no whole-space reference was read, so no complete list is claimed."
+       "sel": "Naming services in the Paragraph overview of ten decentralised domain-name services (https://paragraph.com/@droomdroom/best-10-decentralized-domain-name-services). Complete: 10 of 10 services in that overview; no whole-space list exists beyond it."
       }
      ]
     },
@@ -11559,7 +11706,7 @@
         ]
        ],
        "nl": "One entry is a named collection, name service or platform; individual tokens are not entries.",
-       "sel": "Collections named by Built In's list of 24 NFT collections and by the fetched pages in each entry. No complete list exists; follows those overviews. Covers 5 of 24 in the Built In list (Art Blocks, Loot, plus the generative entries from other pages); the rest belong to other kinds."
+       "sel": "No complete list exists; follows Built In's list of 24 NFT collections and the pages in each entry. Covers 2 of 24 in the Built In list (Art Blocks, Loot); Fidenza and Terraforms come from their own pages."
       },
       {
        "n": "Bitcoin Ordinal inscription",
