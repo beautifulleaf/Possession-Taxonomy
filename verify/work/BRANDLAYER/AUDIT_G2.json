@@ -181,8 +181,490 @@
    }
   ]
  },
- "add_brands": [],
+ "add_brands": [
+  {
+   "n": "John Taylor (estate agent)",
+   "layer": "cultural",
+   "src": "https://worthbury.com/magazine/best-real-estate-companies-world/",
+   "says": "Worthbury top luxury real estate companies: John Taylor, founded 1864 Monaco; Monaco, Paris, Dubai, Geneva",
+   "country": "Monaco",
+   "dept": "estate agent / property seller",
+   "region": "",
+   "role": "seller",
+   "homonym": true,
+   "note": "register John Taylor (E3) is the bell foundry, a different company; the harvest skipped this row by name match"
+  },
+  {
+   "n": "Roberto Cavalli",
+   "layer": "cultural",
+   "src": "https://pdf.savills.com/documents/Branded-Residences-2023.pdf",
+   "says": "Savills Branded Residences 2023: on the top non-hotel branded-residence brands chart (number of schemes)",
+   "country": "Italy",
+   "dept": "branded residence (market entry)",
+   "region": "",
+   "cross_tag": true,
+   "note": "same company as the register brand; page shows it as a branded-residence brand"
+  },
+  {
+   "n": "Fendi",
+   "layer": "cultural",
+   "src": "https://pdf.savills.com/documents/Branded-Residences-2023.pdf",
+   "says": "Savills Branded Residences 2023: on the top non-hotel branded-residence brands chart (number of schemes)",
+   "country": "Italy",
+   "dept": "branded residence (market entry)",
+   "region": "",
+   "cross_tag": true,
+   "note": "same company as the register brand; page shows it as a branded-residence brand"
+  },
+  {
+   "n": "Baccarat",
+   "layer": "cultural",
+   "src": "https://pdf.savills.com/documents/Branded-Residences-2023.pdf",
+   "says": "Savills Branded Residences 2023: on the top non-hotel branded-residence brands chart (number of schemes)",
+   "country": "France",
+   "dept": "branded residence (market entry)",
+   "region": "",
+   "cross_tag": true,
+   "note": "same company as the register brand; page shows it as a branded-residence brand"
+  },
+  {
+   "n": "Greg Norman",
+   "layer": "cultural",
+   "src": "https://pdf.savills.com/documents/Branded-Residences-2023.pdf",
+   "says": "Savills Branded Residences 2023: on the top non-hotel branded-residence brands chart (number of schemes)",
+   "country": "Australia/US",
+   "dept": "branded residence (market entry)",
+   "region": "",
+   "cross_tag": true,
+   "note": "same company as the register brand; page shows it as a branded-residence brand"
+  },
+  {
+   "n": "Nobu",
+   "layer": "cultural",
+   "src": "https://pdf.savills.com/documents/Branded-Residences-2023.pdf",
+   "says": "Savills Branded Residences 2023: named branded-residence brand (non-hotel chart, or caption SLS Palm Jumeirah Dubai Residences / InterContinental Residences Hua Hin)",
+   "country": "US/Japan",
+   "dept": "branded residence (market entry)",
+   "region": ""
+  },
+  {
+   "n": "Fashion TV",
+   "layer": "cultural",
+   "src": "https://pdf.savills.com/documents/Branded-Residences-2023.pdf",
+   "says": "Savills Branded Residences 2023: named branded-residence brand (non-hotel chart, or caption SLS Palm Jumeirah Dubai Residences / InterContinental Residences Hua Hin)",
+   "country": "France",
+   "dept": "branded residence (market entry)",
+   "region": ""
+  },
+  {
+   "n": "SLS",
+   "layer": "cultural",
+   "src": "https://pdf.savills.com/documents/Branded-Residences-2023.pdf",
+   "says": "Savills Branded Residences 2023: named branded-residence brand (non-hotel chart, or caption SLS Palm Jumeirah Dubai Residences / InterContinental Residences Hua Hin)",
+   "country": "US",
+   "dept": "branded residence (market entry)",
+   "region": "Dubai (branded residences)"
+  },
+  {
+   "n": "InterContinental",
+   "layer": "cultural",
+   "src": "https://pdf.savills.com/documents/Branded-Residences-2023.pdf",
+   "says": "Savills Branded Residences 2023: named branded-residence brand (non-hotel chart, or caption SLS Palm Jumeirah Dubai Residences / InterContinental Residences Hua Hin)",
+   "country": "UK",
+   "dept": "branded residence (market entry)",
+   "region": ""
+  },
+  {
+   "n": "LightArt",
+   "layer": "cultural",
+   "src": "https://pdf.savills.com/documents/Branded-Residences-2023.pdf",
+   "says": "Savills Branded Residences 2023: named branded-residence brand (non-hotel chart, or caption SLS Palm Jumeirah Dubai Residences / InterContinental Residences Hua Hin)",
+   "country": "",
+   "dept": "branded residence (market entry)",
+   "region": ""
+  },
+  {
+   "n": "The Villages of Lake Sumter",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), Florida retirement community developer, rank 28; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "BBL Building Co.",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 50; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Hancock Builders",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 51; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "The Challenger Group",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 55; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "United Homes Group",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 56; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Homes by Westbay",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 57; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "HHHunt Corp.",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 69; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "First America Homes",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 75; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Esperanza Homes",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 78; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Jim Chapman Construction Group",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 79; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Colen Built Development",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 83; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Riverside Homebuilders",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 84; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Veridian Homes",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 86; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Home Creations",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 88; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Visionary Homes",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 91; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "San Joaquin Valley Homes",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 94; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "National Home Corp.",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 95; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Colina Homes",
+   "layer": "cultural",
+   "src": "https://www.builderonline.com/builder-100/builder-100-list/2026",
+   "says": "Builder 100 2026 (ranked by 2025 closings), rank 96; omitted by the harvest",
+   "country": "United States",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Denbury Homes",
+   "layer": "cultural",
+   "src": "https://www.hbf.co.uk/documents/15516/HBF_CSS_and_Star_ratings_2026_brochure_4.pdf",
+   "says": "HBF 2026 Star Rating table (sample 92); buyer survey = standing, not a test",
+   "country": "United Kingdom",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Homes by Honey",
+   "layer": "cultural",
+   "src": "https://www.hbf.co.uk/documents/15516/HBF_CSS_and_Star_ratings_2026_brochure_4.pdf",
+   "says": "HBF 2026 Star Rating table (sample 83); buyer survey = standing, not a test",
+   "country": "United Kingdom",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Cavanna Homes",
+   "layer": "cultural",
+   "src": "https://www.hbf.co.uk/documents/15516/HBF_CSS_and_Star_ratings_2026_brochure_4.pdf",
+   "says": "HBF 2026 Star Rating table (sample 233); buyer survey = standing, not a test",
+   "country": "United Kingdom",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Stancliffe Homes",
+   "layer": "cultural",
+   "src": "https://www.hbf.co.uk/documents/15516/HBF_CSS_and_Star_ratings_2026_brochure_4.pdf",
+   "says": "HBF 2026 Star Rating table (sample 39); buyer survey = standing, not a test",
+   "country": "United Kingdom",
+   "dept": "volume housebuilder",
+   "region": ""
+  },
+  {
+   "n": "Bien-Zenker",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "Haas Fertigbau",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "Fertighaus WEISS",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "FingerHaus",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "Hanse Haus",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "Kampa",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "Living Haus",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "Luxhaus",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "Rensch-Haus",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "ScanHaus Marlow",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "SchwörerHaus",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "Streif Haus",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "WeberHaus",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money / ServiceValue 'Fairness von Fertighausanbietern 2025' buyer survey: top mark 'sehr gut' (13 of 35 makers), reported by fertighaus.de (portal; survey = standing, not a test)",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "Schwabenhaus",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "FOCUS Money 2024 fairness survey 'sehr gut'; also among analysed makers in Capital Fertighaus-Kompass",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": ""
+  },
+  {
+   "n": "DFH Deutsche Fertighaus Holding",
+   "layer": "cultural",
+   "src": "https://www.fertighaus.de/beste-fertighausanbieter",
+   "says": "largest German prefab-house maker by houses built (over 3,000 projects a year), brands massa haus, allkauf haus, OKAL Haus, EinSteinHaus",
+   "country": "Germany",
+   "dept": "prefab house maker (Fertighaus)",
+   "region": "",
+   "aliases": [
+    "massa haus",
+    "allkauf haus",
+    "OKAL Haus",
+    "EinSteinHaus"
+   ]
+  }
+ ],
  "add_regions": [],
- "drop": [],
+ "drop": [
+  {
+   "n": "Loveday Belgravia",
+   "why": "luxury nursing/residential care home (Loveday & Co, care fees from GBP 4,500/week): a care service, not property bought or owned; out of the G2 test"
+  },
+  {
+   "n": "Claesson Koivisto Rune",
+   "why": "Swedish architecture practice (the Tind House designer), not a house maker or seller; architects are out per the brief"
+  },
+  {
+   "n": "Capri Holdings",
+   "why": "parent group, not a residence brand; Savills names it only as 'Capri Holdings (Versace)': fold into Versace as alias (Capri Holdings' A2 register row is footwear: Jimmy Choo/Michael Kors)"
+  },
+  {
+   "n": "Klaus",
+   "why": "garbled name on an AI-assisted listicle: the text links k-haus.co.uk (K-Haus); no firm called Klaus shown. Re-source as K-Haus only if a page names it"
+  },
+  {
+   "n": "Spazio",
+   "why": "misnamed: the page itself says 'Spassio' and that the house is designed by Aito Lapland (Finland); no firm 'Spazio'"
+  },
+  {
+   "n": "Simple Homes",
+   "why": "the listicle row links an unrelated Australian site (harwyn.com.au) and describes a Vancouver laneway house; identity unclear, existence-only page"
+  },
+  {
+   "n": "Rectory Homes",
+   "why": "rests only on newbuildrankings.com (10 surveyed); absent from the HBF 2026 Star Rating table, so the 'HBF 5-star band' claim is not HBF's"
+  },
+  {
+   "n": "Dolphin Square",
+   "why": "a single Pimlico rental apartment block named as its own 'developer' on a renovation award; a building, not a homebuilder brand"
+  },
+  {
+   "n": "PLATFORM_",
+   "why": "build-to-rent landlord (WhatHouse Best Build to Rent Developer): renting is not buying or owning; scope query for the coordinator"
+  },
+  {
+   "n": "Dandara Living",
+   "why": "Dandara's build-to-rent arm (same group as Dandara Homes, which stays); scope query as PLATFORM_"
+  }
+ ],
  "notes": ""
 }

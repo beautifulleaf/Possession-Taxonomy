@@ -3543,9 +3543,90 @@
    "says": "Plane & Pilot: LSA producer in GAMA's review (Carbon Cub)",
    "country": "United States",
    "dept": "Aircraft (light-sport)"
+  },
+  {
+   "n": "Dallara",
+   "layer": "premium",
+   "src": "https://www.motorvalley.it/en/partners/brands/dallara-automobili",
+   "says": "Motor Valley (Emilia-Romagna) brand: 'one of the most important companies specializing in the design, production and development of racing cars'; makes the Dallara Stradale road car",
+   "country": "Italy",
+   "dept": "Cars (performance)",
+   "region": "Motor Valley, Emilia-Romagna"
+  },
+  {
+   "n": "Juma Hassoon boat factory (Sur)",
+   "layer": "cultural",
+   "role": "maker",
+   "src": "http://www.sonalshah.in/wp-content/uploads/2019/05/Oman-Sailing-Final.pdf",
+   "says": "National Geographic Traveller India (Feb 2018): Juma Hassoon Al-Araimi, 'one of the last master carpenters in Oman', whose Sur factory has built dhows for about 45 years; royal commission from Sultan Qaboos",
+   "country": "Oman",
+   "dept": "Boats (dhows)",
+   "region": "Sur, Oman"
+  },
+  {
+   "n": "Rajab Khamis boat yard (Sur)",
+   "layer": "cultural",
+   "src": "https://www.thenationalnews.com/world/mena/oman-traditional-boat-builders-see-surge-in-demand-amid-low-oil-prices-1.664434",
+   "says": "The National (2017): Rajab Khamis owns a boat yard in Sur building hand-built teak dhows (200-tonne boats, 18 months each)",
+   "country": "Oman",
+   "dept": "Boats (dhows)",
+   "region": "Sur, Oman"
+  },
+  {
+   "n": "Saleh Al Shahri boatyard (Ashkara)",
+   "layer": "cultural",
+   "src": "https://www.thenationalnews.com/world/mena/oman-traditional-boat-builders-see-surge-in-demand-amid-low-oil-prices-1.664434",
+   "says": "The National (2017): Saleh Al Shahri, 40-year veteran boat builder in Ashkara near Sur, building 14 traditional wooden boats of 150-500 tonnes",
+   "country": "Oman",
+   "dept": "Boats (dhows)",
+   "region": "Sur, Oman"
   }
  ],
- "add_regions": [],
+ "add_regions": [
+  {
+   "region": "Sur (and Ashkara), Oman",
+   "speciality": "hand-built teak dhows (ghanjah, sambuq, boom) without blueprints; >1,000-year boatbuilding centre",
+   "src": "https://www.thenationalnews.com/world/mena/oman-traditional-boat-builders-see-surge-in-demand-amid-low-oil-prices-1.664434",
+   "brands": [
+    "Rajab Khamis boat yard (Sur)",
+    "Saleh Al Shahri boatyard (Ashkara)",
+    "Juma Hassoon boat factory (Sur)"
+   ],
+   "note": "replaces the harvest's empty Sur region (brands [])"
+  },
+  {
+   "region": "Motor Valley, Emilia-Romagna (Modena/Bologna/Parma), Italy",
+   "speciality": "sports, super and racing cars and motorcycles: 6 brands Ferrari, Lamborghini, Dallara, Ducati, Maserati, Pagani",
+   "src": "https://www.investinemiliaromagna.eu/sectors/motor-valley",
+   "brands": [
+    "Ferrari",
+    "Lamborghini",
+    "Maserati",
+    "Pagani",
+    "Ducati",
+    "Dallara"
+   ],
+   "note": "src seen in search excerpt (Nomisma 2025 figure: 6 brands); brand rows: Dallara added from fetched motorvalley.it page, others already in register"
+  },
+  {
+   "region": "Coventry, England",
+   "speciality": "birthplace of the British cycle and motor industry (Daimler 1896, Starley Rover safety bicycle 1885); >50 vehicle makers by the 1930s",
+   "src": "https://experttechnologiesgroup.com/coventrys-rich-manufacturing-heritage",
+   "brands": [
+    "Daimler",
+    "Jaguar",
+    "Armstrong Siddeley",
+    "Alvis",
+    "Hillman",
+    "Triumph",
+    "Singer",
+    "Humber",
+    "Lanchester",
+    "Rover"
+   ],
+   "note": "second source coventry.gov.uk/local-history-heritage/coventrys-history (Daimler 1896; 'home of the cycle industry in Britain')"
+  }
+ ],
  "homonym_adds": [
   {
    "n": "British Motor Corporation (Australia)",
