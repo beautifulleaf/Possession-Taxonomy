@@ -81,6 +81,7 @@ def models_to_entries(k, existing_names):
             line = toks[0] if toks else nm
             line = nm if len(toks) <= 1 else line
         key = (mk, line)
+        if not mk: key = ('', line)
         groups.setdefault(key, []).append((name, maker))
         if key not in order: order.append(key)
     out = []
@@ -90,10 +91,10 @@ def models_to_entries(k, existing_names):
         if len(items) == 1 and items[0][0] not in OVR:
             nm = items[0][0]
             if nm.lower().startswith(mk.lower() + ' '): nm = nm[len(mk) + 1:]
-            ename = f'{mk} {nm}'
+            ename = f'{mk} {nm}'.strip()
             vs = []
         else:
-            ename = f'{mk} {line}'
+            ename = f'{mk} {line}'.strip()
             vs = [{'n': it[0], 'mk': mk, 'y': '', 'd': ''} for it in items]
         if ename.lower() in existing_names: continue
         existing_names.add(ename.lower())
@@ -138,7 +139,8 @@ NL = {
 }
 def nlfor(kn):
     k = kn.lower()
-    if any(w in k for w in ('racket', 'paddle', 'bat', 'stick', 'hurley')) and 'ball' not in k: return NL['bat'] if any(w in k for w in ('bat', 'stick', 'hurley')) else NL['racket']
+    if k.endswith('ball') or k in ('sliotar',): return NL['ball']
+    if any(w in k for w in ('racket', 'paddle', 'bat', 'stick', 'hurley')): return NL['bat'] if any(w in k for w in ('bat', 'stick', 'hurley')) else NL['racket']
     if any(w in k for w in ('driver', 'wood', 'hybrid', 'iron', 'wedge', 'putter')): return NL['club']
     if 'ball' in k or k in ('sliotar',): return NL['ball']
     return NL['gear']

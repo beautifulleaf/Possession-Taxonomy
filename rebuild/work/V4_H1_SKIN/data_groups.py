@@ -106,8 +106,8 @@ GROUPS={
   "Ayush||S||Beauty, well-being and personal care||",
  ]),
  "Procter & Gamble":('PG',"Procter & Gamble",[
-  "Olay||S||Skin and beauty||",
-  "SK-II||S||Skin and beauty||",
+  "Olay||S||||",
+  "SK-II||S||||",
  ]),
  "Shiseido":('SH',"Shiseido",[
   "Shiseido||B||Prestige|1872|Shiseido Pharmacy established 1872",
@@ -146,15 +146,15 @@ GROUPS={
   "Florena||S||Beiersdorf brands||",
  ]),
  "Coty":('CO',"Coty",[
-  "Rimmel||M|1996|Consumer Beauty||acquired from Unilever's European cosmetics brands",
-  "Sally Hansen||M|2007|Consumer Beauty||via DLI Holding",
-  "NYC New York Color|NYC|M|2007|Consumer Beauty||via DLI Holding",
-  "Bourjois||M|2014|Consumer Beauty||",
-  "philosophy||S|2010|Consumer Beauty||bought from The Carlyle Group",
-  "OPI||M|2010|Consumer Beauty||majority later sold to KKR, December 2020",
-  "CoverGirl||M|2016|Consumer Beauty||P&G deal, 2015-2016",
-  "Max Factor||M|2016|Consumer Beauty||P&G deal, 2015-2016",
-  "Kylie Cosmetics||M|2019|Consumer Beauty||51% stake announced November 2019",
+  "Rimmel||M|1996|||acquired from Unilever's European cosmetics brands",
+  "Sally Hansen||M|2007|||via DLI Holding",
+  "NYC New York Color|NYC|M|2007|||via DLI Holding",
+  "Bourjois||M|2014|||",
+  "philosophy||S|2010|||bought from The Carlyle Group",
+  "OPI||M|2010|||majority later sold to KKR, December 2020",
+  "CoverGirl||M|2016|||P&G deal, 2015-2016",
+  "Max Factor||M|2016|||P&G deal, 2015-2016",
+  "Kylie Cosmetics||M|2019|||51% stake announced November 2019",
  ]),
  "LVMH":('LV',"LVMH",[
   "Dior||B||Perfumes and Cosmetics||Parfums Christian Dior",
@@ -171,7 +171,7 @@ GROUPS={
   "Cha Ling||S||Perfumes and Cosmetics||",
  ]),
  "Chanel":('CH',"Chanel",[
-  "Chanel||B||Beauty|1999|first skin care line Précision 1999; N°1 line 2022",
+  "Chanel||B|||1999|first skin care line Précision 1999; N°1 line 2022",
  ]),
  "Amorepacific":('AM',"Amorepacific",[
   "Sulwhasoo||S||Amorepacific brands||",

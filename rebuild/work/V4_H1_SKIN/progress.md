@@ -7,3 +7,4 @@ step5 done: more category pages (UK US L'Oreal ELC skincare TR ID RU AU IL UG CA
 step6 done: indie/KJ lists + 36kr ranking, gtai; sourcing finished; next: build script rebuild/work/V4_H1_SKIN/build.py
 step7: wrote data_groups.py (group portfolios)
 step8: wrote data_others.py
+step9: build.py assembly functions written (build_dept, product_shelves); next: ms panels, dept dicts, validate
