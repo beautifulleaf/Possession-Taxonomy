@@ -15,3 +15,6 @@ moto 22-23 + cars 33-35 done (59 fetches total); next: apply, coverage lines, re
 all done; report written
 ROUND 2 started: urls2.json (cars 0-17 articles, 18-80 lists; moto 0-3 articles, 4-81 lists), decisions in dec2_*.tsv with codes (see apply.py CODES); fetch count restarts at 0
 R2 fetches 1-5 done (cars art batches 0-4)
+R2 fetches 6-10 done (cars art 5-9)
+R2 fetches 11-15 done (cars art 10-14)
+R2 fetches 16-21 done (cars art 15-17, moto art 0-2; moto art batch 0 (Yamaha IT250H..RX-King135) needs refetch)

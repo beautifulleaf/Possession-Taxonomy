@@ -4,3 +4,4 @@ step2 done: market/owner fetches done (logged). next: apply edits via work/GAP_A
 step3 done: apply.py run, validate OK; report written
 round2 start: batch Wikipedia API extracts for brands used by entries
 round2: batches 0-6 of 19 fetched (results to be recorded in work/GAP_A1/r2_results.tsv); continuing 7-18
+round2: apply2.py applied used-brand batches 0-18 and rest 2 batches; next: guessed-title batches for failed names, then report

@@ -62,7 +62,7 @@ D={
 'Charnos':('Pour Moi Ltd',2019,'Charnos'),
 'Ebbets Field Flannels':('Lids',None,'Ebbets_Field_Flannels'),
 'Kangol':('Frasers Group',None,'Kangol'),
-'Tilley Endurables':('Gibraltar & Company',2018,'Tilley_Endurables'),
+
 'Vilebrequin':('G-III Apparel Group',None,'Vilebrequin'),
 'Von Dutch':('WSG Brands',2024,'Von_Dutch'),
 'Wigwam Mills':('Margaret Newhard and Chris Chesebro',None,'Wigwam_Mills'),
@@ -81,6 +81,13 @@ D={
 'Pampero':('Grupo Cardon',None,'Pampero'),
 'Cimalp':('Manufacture Drômoise de Confection',None,'Cimalp'),
 'Krizia':('Shenzhen Marisfrolg',None,'Krizia'),
+'Tilley':('Gibraltar & Company',2018,'Tilley_Endurables'),
+'Gieves & Hawkes':('Frasers Group',2022,''),
+'Gul Ahmed':('Gul Ahmed Group',None,''),
+'E. Marinella':('Marinella family',None,''),
+'Loden-Frey':('Loden-Frey family',None,''),
+'Rowing Blazers':('Burch Creative Capital',2024,''),
+'Shukr':('Niswa Fashion',None,''),
 }
 extra=[]
 for n,(own,y,t) in D.items():
