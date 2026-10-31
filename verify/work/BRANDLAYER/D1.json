@@ -136,6 +136,98 @@
    ],
    "found": 0,
    "note": "all brands known; MCHOSE/Endgame Gear/Lamzu only seen in search excerpts, not recorded"
+  },
+  {
+   "axis": "kind",
+   "item": "Enthusiast keyboards > Switches, keycaps & feel parts (artisan)",
+   "queries": [
+    "artisan keycap makers directory"
+   ],
+   "found": 17,
+   "note": "switch makers Cherry/Gateron/Kailh/Topre not yet fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Computers > Desktops & mini PCs (boutique builders)",
+   "queries": [
+    "best boutique PC builders custom"
+   ],
+   "found": 7,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Stiftung Warentest Router Test",
+    "c't/CHIP Bestenliste",
+    "ComputerBase Reader's Choice"
+   ],
+   "found": 12,
+   "note": "Germany sources"
+  },
+  {
+   "axis": "kind",
+   "item": "Networking > Internet entry",
+   "queries": [
+    "Stiftung Warentest Router Test Fritzbox Testsieger"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "Category:Computer companies of Sweden/Finland/Denmark"
+   ],
+   "found": 0,
+   "note": "only known brands"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Category:Computer companies of Italy"
+   ],
+   "found": 0,
+   "note": "Olivetti known"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Category:Computer companies of Slovenia"
+   ],
+   "found": 1,
+   "note": "Poland/Russia/Czech not yet fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Category:Computer companies of Iran/Jordan"
+   ],
+   "found": 0,
+   "note": "no brand-led rows"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Category:Computer companies of Canada"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Category:Computer companies of France"
+   ],
+   "found": 3,
+   "note": ""
   }
  ],
  "regions": [
@@ -265,6 +357,97 @@
     "Elecom",
     "Epson",
     "Brother Industries"
+   ]
+  },
+  {
+   "region": "USA (boutique PC builders)",
+   "speciality": "hand-built custom gaming/workstation PCs",
+   "src": "https://www.xda-developers.com/best-custom-pc-builders",
+   "brands": [
+    "Falcon Northwest",
+    "Origin PC",
+    "Maingear",
+    "Xidax",
+    "CyberPowerPC"
+   ]
+  },
+  {
+   "region": "Southeast Asia (Vietnam), Oceania (Australia)",
+   "speciality": "artisan keycaps",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "brands": [
+    "Jelly Key",
+    "Coz Caps",
+    "Rama"
+   ]
+  },
+  {
+   "region": "Germany (networking, monitors)",
+   "speciality": "Fritz!Box routers (AVM); IT-retail monitor brands",
+   "src": "https://www.chip.de/bestenlisten/Bestenliste-WLAN-Router--index/index/id/1138",
+   "brands": [
+    "AVM",
+    "LC-Power",
+    "Medion",
+    "Wortmann",
+    "PEAQ",
+    "Terra"
+   ]
+  },
+  {
+   "region": "Japan (monitors)",
+   "speciality": "professional and enthusiast monitors",
+   "src": "https://www.computerbase.de/artikel/monitore/readers-choice-awards-bester-monitor-hersteller-2026.97179/",
+   "brands": [
+    "Eizo",
+    "iiyama",
+    "NEC",
+    "Sony"
+   ]
+  },
+  {
+   "region": "Northern Europe (Sweden, Denmark)",
+   "speciality": "PC cases (Fractal Design), gaming peripherals (SteelSeries)",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Sweden",
+   "brands": [
+    "Fractal Design",
+    "SteelSeries"
+   ]
+  },
+  {
+   "region": "Southern Europe (Italy)",
+   "speciality": "historic office computing and typewriters (Olivetti)",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Italy",
+   "brands": [
+    "Olivetti"
+   ]
+  },
+  {
+   "region": "Central & Eastern Europe (Slovenia/Yugoslavia)",
+   "speciality": "1980s home computers",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Slovenia",
+   "brands": [
+    "Iskra Delta"
+   ]
+  },
+  {
+   "region": "North America (Canada)",
+   "speciality": "graphics cards and USB/connectivity accessories",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Canada",
+   "brands": [
+    "Matrox",
+    "StarTech.com"
+   ]
+  },
+  {
+   "region": "Western Europe (France)",
+   "speciality": "storage design (LaCie), flash media, small PCs",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_France",
+   "brands": [
+    "LaCie",
+    "Dane-Elec",
+    "EMTEC",
+    "Linutop"
    ]
   }
  ],
@@ -518,6 +701,146 @@
    "new_names": 0,
    "status": "done",
    "note": "Logitech, Razer, Keychron already known"
+  },
+  {
+   "url": "https://www.xda-developers.com/best-custom-pc-builders",
+   "title": "XDA Best custom PC builders",
+   "kind": "ranking",
+   "years": "2024-25",
+   "names_on_page": 5,
+   "new_names": 4,
+   "status": "done",
+   "note": "editorial"
+  },
+  {
+   "url": "https://www.criticalhit.net/?p=1210505",
+   "title": "criticalhit 7 best custom gaming PC builders 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 7,
+   "new_names": 3,
+   "status": "done",
+   "note": "editorial; brand names only"
+  },
+  {
+   "url": "https://artisancollector.com/artisan-keycap-history",
+   "title": "Artisan Keycap History (Artisan Collector)",
+   "kind": "encyclopedia",
+   "years": "2007-2016+",
+   "names_on_page": 17,
+   "new_names": 17,
+   "status": "done",
+   "note": "hobby community archive; cultural only"
+  },
+  {
+   "url": "https://www.chip.de/bestenlisten/Bestenliste-WLAN-Router--index/index/id/1138",
+   "title": "CHIP WLAN-Router Bestenliste",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 7,
+   "new_names": 2,
+   "status": "done",
+   "note": "independent lab test; confirmed AVM, TP-Link, Asus, Synology, Huawei"
+  },
+  {
+   "url": "https://www.computerbase.de/artikel/monitore/readers-choice-awards-bester-monitor-hersteller-2026.97179/",
+   "title": "ComputerBase Reader's Choice 2026 best monitor maker",
+   "kind": "award",
+   "years": "2026 (also 2024-25 history)",
+   "names_on_page": 65,
+   "new_names": 10,
+   "status": "done",
+   "note": "reader poll = community opinion; Eizo 4.8%, iiyama 3.9%, Philips 2.3%"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Sweden",
+   "title": "Category:Computer companies of Sweden",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 5,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Finland",
+   "title": "Category:Computer companies of Finland",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Denmark",
+   "title": "Category:Computer companies of Denmark",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Italy",
+   "title": "Category:Computer companies of Italy",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_France",
+   "title": "Category:Computer companies of France",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 26,
+   "new_names": 3,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Canada",
+   "title": "Category:Computer companies of Canada",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 11,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Slovenia",
+   "title": "Category:Computer companies of Slovenia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Iran",
+   "title": "Category:Computer companies of Iran",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Jordan",
+   "title": "Category:Computer companies of Jordan",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -859,11 +1182,12 @@
   },
   {
    "n": "Falcon Northwest",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Computer_enclosure_companies",
-   "says": "Wikipedia category row with own article",
-   "dept": "cases / boutique PC builders",
-   "already": false
+   "layer": "premium",
+   "src": "https://www.xda-developers.com/best-custom-pc-builders",
+   "says": "XDA 'best for enthusiasts' custom PC builder; criticalhit: best build quality and craftsmanship",
+   "dept": "boutique PCs",
+   "already": false,
+   "country": "USA"
   },
   {
    "n": "In Win",
@@ -875,11 +1199,12 @@
   },
   {
    "n": "Origin PC",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Computer_enclosure_companies",
-   "says": "Wikipedia category row with own article",
-   "dept": "cases / boutique PC builders",
-   "already": false
+   "layer": "premium",
+   "src": "https://www.xda-developers.com/best-custom-pc-builders",
+   "says": "XDA 'best for high-end custom builds'; hand-painted cases, award-winning cable management per criticalhit",
+   "dept": "boutique PCs",
+   "already": false,
+   "country": "USA"
   },
   {
    "n": "Phanteks",
@@ -2395,6 +2720,330 @@
    "src": "https://www.rtings.com/monitor/reviews/best/monitors",
    "says": "named as entry-level Mini LED alternative in RTINGS best monitors 2026",
    "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "Maingear",
+   "layer": "premium",
+   "src": "https://www.criticalhit.net/?p=1210505",
+   "says": "criticalhit 2026 list: boutique builder focused on quality materials and craftsmanship",
+   "country": "USA",
+   "dept": "boutique PCs",
+   "already": false
+  },
+  {
+   "n": "CyberPowerPC",
+   "layer": "cultural",
+   "src": "https://www.xda-developers.com/best-custom-pc-builders",
+   "says": "XDA editor's choice custom PC builder",
+   "country": "USA",
+   "dept": "boutique PCs",
+   "already": false
+  },
+  {
+   "n": "Xidax",
+   "layer": "cultural",
+   "src": "https://www.xda-developers.com/best-custom-pc-builders",
+   "says": "XDA best for warranty (lifetime warranty)",
+   "country": "USA",
+   "dept": "boutique PCs",
+   "already": false
+  },
+  {
+   "n": "MetaPCs",
+   "layer": "cultural",
+   "src": "https://www.criticalhit.net/?p=1210505",
+   "says": "criticalhit 2026 list of custom PC builders",
+   "country": "USA",
+   "dept": "boutique PCs",
+   "already": false
+  },
+  {
+   "n": "iBUYPOWER",
+   "layer": "cultural",
+   "src": "https://www.criticalhit.net/?p=1210505",
+   "says": "criticalhit 2026 list of custom PC builders",
+   "country": "USA",
+   "dept": "boutique PCs",
+   "already": false
+  },
+  {
+   "n": "Bro Caps",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Hunger Work Studio",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Jelly Key",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "Vietnam",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "KatzenKinder",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Clack Factory",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "CtrlAlt",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Techkeys",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Coz Caps",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "Australia",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Suited Up Keycaps",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "BadMojo Caps",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "Canada",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Aero Keys",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Elsea Keys",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Gloyz",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Krytone",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Hypnocaps",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "GirlDC",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "South Korea",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "Rama",
+   "layer": "cultural",
+   "src": "https://artisancollector.com/artisan-keycap-history",
+   "says": "artisan keycap maker/vendor in Artisan Collector's history timeline (community archive, not an independent test)",
+   "country": "Australia",
+   "dept": "artisan keycaps",
+   "already": false
+  },
+  {
+   "n": "eero",
+   "layer": "cultural",
+   "src": "https://www.chip.de/bestenlisten/Bestenliste-WLAN-Router--index/index/id/1138",
+   "says": "CHIP Testcenter router Bestenliste filter lists eero",
+   "country": "US",
+   "dept": "routers",
+   "already": false
+  },
+  {
+   "n": "Eizo",
+   "layer": "cultural",
+   "src": "https://www.computerbase.de/artikel/monitore/readers-choice-awards-bester-monitor-hersteller-2026.97179/",
+   "says": "ComputerBase Reader's Choice Awards 2026 best monitor maker poll: on the ballot (reader vote = community opinion)",
+   "country": "Japan",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "LC-Power",
+   "layer": "cultural",
+   "src": "https://www.computerbase.de/artikel/monitore/readers-choice-awards-bester-monitor-hersteller-2026.97179/",
+   "says": "ComputerBase Reader's Choice Awards 2026 best monitor maker poll: on the ballot (reader vote = community opinion)",
+   "country": "Germany",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "Medion",
+   "layer": "cultural",
+   "src": "https://www.computerbase.de/artikel/monitore/readers-choice-awards-bester-monitor-hersteller-2026.97179/",
+   "says": "ComputerBase Reader's Choice Awards 2026 best monitor maker poll: on the ballot (reader vote = community opinion)",
+   "country": "Germany",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "Wortmann",
+   "layer": "cultural",
+   "src": "https://www.computerbase.de/artikel/monitore/readers-choice-awards-bester-monitor-hersteller-2026.97179/",
+   "says": "ComputerBase Reader's Choice Awards 2026 best monitor maker poll: on the ballot (reader vote = community opinion)",
+   "country": "Germany",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "Hannspree",
+   "layer": "cultural",
+   "src": "https://www.computerbase.de/artikel/monitore/readers-choice-awards-bester-monitor-hersteller-2026.97179/",
+   "says": "ComputerBase Reader's Choice Awards 2026 best monitor maker poll: on the ballot (reader vote = community opinion)",
+   "country": "Taiwan",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "AG Neovo",
+   "layer": "cultural",
+   "src": "https://www.computerbase.de/artikel/monitore/readers-choice-awards-bester-monitor-hersteller-2026.97179/",
+   "says": "ComputerBase Reader's Choice Awards 2026 best monitor maker poll: on the ballot (reader vote = community opinion)",
+   "country": "Taiwan",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "PEAQ",
+   "layer": "cultural",
+   "src": "https://www.computerbase.de/artikel/monitore/readers-choice-awards-bester-monitor-hersteller-2026.97179/",
+   "says": "ComputerBase Reader's Choice Awards 2026 best monitor maker poll: on the ballot (reader vote = community opinion)",
+   "country": "Germany",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "Odys",
+   "layer": "cultural",
+   "src": "https://www.computerbase.de/artikel/monitore/readers-choice-awards-bester-monitor-hersteller-2026.97179/",
+   "says": "ComputerBase Reader's Choice Awards 2026 best monitor maker poll: on the ballot (reader vote = community opinion)",
+   "country": "Germany",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "Terra",
+   "layer": "cultural",
+   "src": "https://www.computerbase.de/artikel/monitore/readers-choice-awards-bester-monitor-hersteller-2026.97179/",
+   "says": "ComputerBase Reader's Choice Awards 2026 best monitor maker poll: on the ballot (reader vote = community opinion)",
+   "country": "Germany",
+   "dept": "monitors",
+   "already": false
+  },
+  {
+   "n": "Matrox",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Canada",
+   "says": "Wikipedia category row with own article (Canada)",
+   "country": "Canada",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "EMTEC",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_France",
+   "says": "Wikipedia category row with own article (France)",
+   "country": "France",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Linutop",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_France",
+   "says": "Wikipedia category row with own article (France)",
+   "country": "France",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Iskra Delta",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Slovenia",
+   "says": "Wikipedia category row with own article (Slovenia)",
+   "country": "Slovenia",
+   "dept": "hardware",
    "already": false
   }
  ]

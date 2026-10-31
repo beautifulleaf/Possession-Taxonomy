@@ -41,6 +41,141 @@
    ],
    "found": 0,
    "note": "covered only through the Wikipedia country list; no per-region renown searches run"
+  },
+  {
+   "axis": "kind",
+   "item": "Radio manufacturers / amateur radio",
+   "queries": [
+    "Wikipedia Category:Radio manufacturers; Amateur radio companies"
+   ],
+   "found": 33,
+   "note": "33 known, ~30 new cultural"
+  },
+  {
+   "axis": "kind",
+   "item": "E-readers",
+   "queries": [
+    "Wikipedia Category:Dedicated ebook devices; ZDNet best e-readers 2026; Which? e-readers (login-gated); Wirecutter (not readable)"
+   ],
+   "found": 10,
+   "note": "Boox premium; Wirecutter, Guardian, RTINGS returned empty/404; Durobo seen only in a search excerpt, not recorded"
+  },
+  {
+   "axis": "kind",
+   "item": "Smartwatches / fitness trackers",
+   "queries": [
+    "Wikipedia Category:Smartwatches; Stiftung Warentest smartwatches page"
+   ],
+   "found": 4,
+   "note": "all test brands known (Apple, Garmin, Amazfit, Suunto, Polar, Samsung, Google, Fitbit, Huawei, Xiaomi); Mobvoi, Zepp not evidenced by a fetched page"
+  },
+  {
+   "axis": "kind",
+   "item": "Tablets",
+   "queries": [
+    "Stiftung Warentest tablets"
+   ],
+   "found": 0,
+   "note": "all brands known"
+  },
+  {
+   "axis": "kind",
+   "item": "Rugged phones",
+   "queries": [
+    "ZDNET best rugged phones 2026"
+   ],
+   "found": 2,
+   "note": "Oukitel upgraded to premium, AGM new"
+  },
+  {
+   "axis": "kind",
+   "item": "Minimalist phones",
+   "queries": [
+    "Light Phone, Mudita, Punkt pages"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Satellite messengers / PLB / two-way radios",
+   "queries": [
+    "not done this round"
+   ],
+   "found": 0,
+   "note": "Garmin Zoleo Iridium known; no independent test page fetched; next round"
+  },
+  {
+   "axis": "kind",
+   "item": "Navigation, trackers, PDAs, power, cases",
+   "queries": [
+    "not done"
+   ],
+   "found": 0,
+   "note": "empty this round"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "Transsion, Mara pages"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "Suunto/Polar pages"
+   ],
+   "found": 0,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Lava, Symphony, Walton pages"
+   ],
+   "found": 0,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Latin America",
+   "queries": [
+    "only Positivo/Multilaser in country list"
+   ],
+   "found": 0,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "only Cherry Mobile/Advan in country list"
+   ],
+   "found": 0,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Prestigio/BQ/Allview in country list; Prestigio not recorded"
+   ],
+   "found": 0,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Middle East, Central Asia, Oceania, North Africa",
+   "queries": [
+    "not searched this round"
+   ],
+   "found": 0,
+   "note": ""
   }
  ],
  "regions": [
@@ -192,6 +327,41 @@
     "Vibroplex",
     "Purism",
     "Caterpillar"
+   ]
+  },
+  {
+   "region": "Sub-Saharan Africa",
+   "speciality": "Phones tailored to African markets (dual SIM, long battery, camera tuned for darker skin tones, African-language keyboards) and first locally manufactured smartphones",
+   "src": "https://en.wikipedia.org/wiki/Transsion_Holdings",
+   "brands": [
+    "Tecno",
+    "itel",
+    "Infinix",
+    "Transsion",
+    "Mara Phones"
+   ]
+  },
+  {
+   "region": "Northern Europe (Finland)",
+   "speciality": "Sports watches, dive computers, compasses and the first wireless heart-rate monitor",
+   "src": "https://en.wikipedia.org/wiki/Polar_Electro",
+   "brands": [
+    "Suunto",
+    "Polar",
+    "Nokia"
+   ]
+  },
+  {
+   "region": "South Asia",
+   "speciality": "Locally designed and manufactured affordable phones (India: Lava leads feature phones; Bangladesh: Symphony, Walton)",
+   "src": "https://en.wikipedia.org/wiki/Lava_International",
+   "brands": [
+    "Lava",
+    "Micromax",
+    "Karbonn",
+    "Xolo",
+    "Symphony",
+    "Walton"
    ]
   }
  ],
@@ -345,6 +515,46 @@
    "new_names": 0,
    "status": "partial",
    "note": "login-gated; names Kindle, Kobo, PocketBook (all known); best buys hidden"
+  },
+  {
+   "url": "https://mudita.com/products/phones/mudita-kompakt",
+   "title": "Light Phone, Mudita, Punkt (niche minimalist phone makers)",
+   "kind": "award",
+   "years": "2025-2026",
+   "names_on_page": 3,
+   "new_names": 3,
+   "status": "done",
+   "note": "Punkt evidence is the maker's own page only; Mudita awards are Red Dot/iF"
+  },
+  {
+   "url": "https://www.weforum.org/stories/geographies-in-depth/rwanda-launches-first-made-in-africa-smartphones",
+   "title": "WEF/Reuters: first Made in Africa smartphones (Mara)",
+   "kind": "encyclopedia",
+   "years": "2019",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "news page, cultural footprint only"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Transsion_Holdings",
+   "title": "Transsion (Wikipedia)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 1,
+   "status": "done",
+   "note": "Tecno, itel, Infinix known/in list; Transsion new"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Suunto",
+   "title": "Suunto, Polar Electro, Lava International, Symphony Mobile (Wikipedia)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "done",
+   "note": "all four already known; used for regions"
   }
  ],
  "brands": [
@@ -1643,6 +1853,46 @@
    "says": "ZDNET best e-readers of 2026: Boox Tab Mini C (best for note-taking), Boox Palma 2 (best small e-reader)",
    "country": "China",
    "dept": "e-reader"
+  },
+  {
+   "n": "Light Phone",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Light_Phone",
+   "says": "Own Wikipedia article: brand of minimalist mobile phones by The Light Phone, Inc., Brooklyn",
+   "country": "United States",
+   "dept": "minimalist phone"
+  },
+  {
+   "n": "Mudita",
+   "layer": "premium",
+   "src": "https://mudita.com/products/phones/mudita-kompakt",
+   "says": "Maker's page states Mudita Kompakt won Red Dot 2025 and iF Design Award 2025 (design awards); TechAeris Top Pick 2025",
+   "country": "Poland",
+   "dept": "minimalist phone"
+  },
+  {
+   "n": "Punkt.",
+   "layer": "cultural",
+   "src": "https://www.punkt.ch/blogs/news/punkt-unveils-mc03",
+   "says": "Maker's own page (existence only): Swiss minimalist smartphone brand, MC03 shown at CES 2026, built at Gigaset in Germany",
+   "country": "Switzerland",
+   "dept": "minimalist smartphone"
+  },
+  {
+   "n": "Mara Phones",
+   "layer": "cultural",
+   "src": "https://www.weforum.org/stories/geographies-in-depth/rwanda-launches-first-made-in-africa-smartphones",
+   "says": "WEF/Reuters 2019: Mara Group launched Mara X and Mara Z, described as the first 'Made in Africa' smartphones; aims at buyers who pay for quality",
+   "country": "Rwanda",
+   "dept": "smartphone"
+  },
+  {
+   "n": "Transsion",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Transsion_Holdings",
+   "says": "Own Wikipedia article: largest smartphone maker in Africa 2017; owns Tecno, itel, Infinix; 48.2% African share 2021",
+   "country": "China",
+   "dept": "smartphone"
   }
  ]
 }
