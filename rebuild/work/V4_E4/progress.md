@@ -5,3 +5,4 @@ step3 lib.py written (rebuild/work/V4_E4/lib.py); apply.py parts to follow, alwa
 step4 p1_swords.py written
 step5 p2_blades.py written
 step6 p3_bows.py written
+step7 p4_ammo.py written (cartridge subsets)
