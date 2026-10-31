@@ -1,7 +1,7 @@
 import json,re,sys
 sys.path.insert(0,'.')
 from rows import R,LC,CP
-import rows2, rows3
+import rows2, rows3, rows4
 base=json.load(open('../../out/B1.json'))
 MKT={
 "IKEA":("Inter IKEA Systems B.V.","Own label","Sweden",""),
@@ -151,7 +151,7 @@ for dp in base['depts']:
                 k['sel']=("Brands named by the fetched Wikipedia Mattress article (Tempur Sealy, Sleep Number, Casper, Simba, Vispring, Hästens, Serta, Simmons), plus Hypnos, Leesa, Nectar and Emma from their own fetched pages. Covers "+str(n)+" of about 13 brands named; no complete brand list was fetched, so the long tail is missing.")
             else:
                 k['xg']="by decade of design"
-                k['sel']=(f"Designs named in Wikipedia's List of chairs and Category:Chairs, the Wikidata chairs and museum-held furniture items, MoMA's Design collection searched for chair, table, sofa, stool, bench, shelf, cabinet, desk, bed and screen (chair 3 of 3 pages, table 6 of 8 pages, the others page 1), the Vitra Design Museum collection searched for chair (page 1 of 1,191 results), table, shelf, bed and cabinet, the Compasso d'Oro page, designer pages (Wegner, Jacobsen, Juhl, Panton, Eames, Aalto, Perriand, Kjærholm, Nelson, Castiglioni, Ponti, Sottsass and others) and maker pages (Knoll, Herman Miller, Cassina, Fritz Hansen, Artek, B&B Italia, Ligne Roset, Poltrona Frau, Flexform, Vitsœ, HAY, USM, de Sede, &Tradition, GUBI) that belong to this kind. Generic types and historic styles are see-notes. Covers {n} designs in this kind. Not covered: the other 1,160 Vitra Design Museum chair results, MoMA results beyond the pages read for cabinet, desk, bed and screen (further pages were unrelated matches), the V&A (its API search returned mostly photographs and 19th-century items), and Muuto, Thonet and String, which gave no readable product list.")
+                k['sel']=(f"Designs named in Wikipedia's List of chairs and Category:Chairs, the Wikidata chairs and museum-held furniture items, MoMA's Design collection searched for chair (3 of 3 pages), table (6 of 8), sofa, stool, bench, shelf, cabinet, desk, bed and screen (page 1 each), the Vitra Design Museum collection searched for chair (page 1 of 1,191 results; the site pages client-side, so later pages could not be read) and for chair with Panton, Jacobsen, Aalto, Breuer, Rietveld, Prouvé, Corbusier, Starck and Colombo (first 30 each), plus table, shelf, bed and cabinet; the V&A API with plywood as material and 1900 onwards (103 chair records and 168 furniture records, read to the end); the Compasso d'Oro page, designer pages and maker pages (Knoll, Herman Miller, Cassina, Fritz Hansen, Artek, B&B Italia, Ligne Roset, Poltrona Frau, Flexform, Vitsœ, HAY, USM, de Sede, &Tradition, GUBI) that belong to this kind. Generic types and historic styles are see-notes. Covers {n} designs in this kind. Not covered: Vitra Design Museum chair results beyond those queries, MoMA pages 2 onward for cabinet, desk, bed and screen (blocked when Firecrawl credits ran out), V&A pieces in other materials, and Thonet, String and Muuto product designs (Thonet 404, String 403, Muuto page names families without designers).")
             cnt[kn]=n
 for dp in base['depts']:
     for sh in dp['s']:

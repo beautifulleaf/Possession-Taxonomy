@@ -6,3 +6,4 @@ step4: boat builder pages fetched (BW,SeaRay,Beneteau,Jeanneau,HR,Sunseeker,Azim
 step5: all fetching done (28 WebFetch + 3 search + 1 firecrawl). Aircraft/boat builder data only in conversation; writing build.py now (data modules data_boats.py data_air.py)
 step6: data_boats.py written (Beneteau/Jeanneau/HR rows)
 step7: data_air.py written
+step8: build.py (boats) + air.py done -> boats_out.json air_out.json; next vehicle care + assemble part + validate + report

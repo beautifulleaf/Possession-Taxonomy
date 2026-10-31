@@ -7,3 +7,5 @@ step5: Ford, Chevrolet, Cadillac, Buick done (category). Todo: Ford subcats (Eur
 step6: Ford Europe, Lincoln, Jeep done. Tesla category name 'Tesla,_Inc._vehicles' empty -> try Tesla_vehicles
 COORDINATOR NOTE: drop kind 'Pickup truck' (renames {'Pickup truck':'Utility pickup'}); do not hold any pickups (codes I and J) in the part; list pickups held (old Pickup truck x entries + I/J items) in report for COMMERCIAL check. Pickups that are also SUVs (Ridgeline) stay with COMMERCIAL.
 step7: BMW, Mercedes-Benz, Tesla, Renault done
+step8: Peugeot (Type N early cars omitted), Citroën, Fiat, Opel
+step9: Kia, Volvo, Jaguar done; Hyundai category name TBD (try Hyundai_vehicles)

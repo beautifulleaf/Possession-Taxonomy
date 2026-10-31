@@ -52,3 +52,12 @@ de Sede DS-600	https://desede.ch/en-en/collections/ds-600	2026-10-31	ok
 &Tradition products	https://www.andtradition.com/products	2026-10-31	firecrawl
 Gubi home	https://www.gubi.com/	2026-10-31	firecrawl 2 items
 String	https://www.stringfurniture.com/en/series/system	2026-10-31	search excerpt only
+VDM chair start=32..192	https://collection.design-museum.de/en/collection/?q=chair&start=N	2026-10-31	firecrawl; every start/page value returned page 1 again (pager is client-side); not paginable
+VDM chair+designer queries	https://collection.design-museum.de/en/collection/?q=chair+<Panton|Jacobsen|Aalto|Breuer|Rietveld|Prouvé|Corbusier|Starck|Colombo|Eames>	2026-10-31	firecrawl; 32,13,28,24,20,20,3,9,13 results; Firecrawl credits then ran out
+V&A API plywood	https://api.vam.ac.uk/v2/objects/search?q=chair&id_material=AAT12849&year_made_from=1900&page_size=100 (pages 1-2)	2026-10-31	103 records read to the end
+V&A API plywood furniture	https://api.vam.ac.uk/v2/objects/search?q=furniture&id_material=AAT12849&year_made_from=1900&page_size=100 (pages 1-2)	2026-10-31	168 records read to the end
+V&A API category filter	https://api.vam.ac.uk/v2/objects/search?q=designer%20chair&id_category=THES48885&year_made_from=1920	2026-10-31	33 records, all textiles and drawings, nothing used
+Muuto	https://www.muuto.com/products/	2026-10-31	ok 21 families, no designers
+Thonet	https://www.thonet.de/en/products	2026-10-31	404
+String	https://www.stringfurniture.com/en/series/system	2026-10-31	403
+MoMA cabinet page 2	https://www.moma.org/collection/works?q=cabinet&classifications=3&page=2	2026-10-31	403 on WebFetch; Firecrawl out of credits

@@ -54,8 +54,10 @@ seen=set()
 for f in ('sail1.tsv','sail2.tsv'):
     for l in open(f):
         p=l.rstrip('\n').split('|')
-        if len(p)<6: p+=['']*(7-len(p))
-        q,n,y,d,c,code=p[:6]; bld=p[6] if len(p)>6 else ''
+        ci=next(i for i in range(2,len(p)) if re.fullmatch(r'[DSCKRYMOI]',p[i]))
+        mid=(p[2:ci]+['','',''])[:3]
+        if ci==5 and False: pass
+        q,n=p[0],p[1]; y,d,c=mid; code=p[ci]; bld=p[ci+1] if len(p)>ci+1 else ''
         if q in seen: continue
         seen.add(q)
         if n.startswith('Beneteau') or bld=='Beneteau' or n in EXCL_NAMES: continue

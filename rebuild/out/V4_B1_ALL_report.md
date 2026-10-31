@@ -39,3 +39,14 @@ About 45 further fetches (Firecrawl JSON extraction on the museum search pages).
 **Makers:** HAY (About A Chair, Stool, Table, Lounge), USM (Haller Tables, Kitos Desks), de Sede (DS-600 Snake, 1972, with designers), &Tradition (14 furniture families with designers) and GUBI (Totto stool, Lotus table; its page gave only two) added from their own sites. String: only a search excerpt (1949, Kajsa and Nisse Strinning), already an entry. Muuto, Thonet: no product list found. Entries were de-duplicated by name and alias across the whole part.
 
 **Still short:** Vitra Design Museum chair results 31 to 1,191; MoMA pages beyond page 1 for cabinet, desk, bed, screen; V&A design holdings; Le Corbusier page end.
+
+## Round 4
+Part file: 845 entries (was 704), 366 KB, validates OK. Firecrawl credits ran out mid-round (about 25 calls in); nothing was retried.
+
+**Vitra Design Museum chairs:** the search pager is client-side. Requests with `page=2` and `start=32, 64, 96, 128, 160, 192` all returned page 1 again, so pages 2 onward of the 1,191 results cannot be read by URL. Stopped at page 1. Workaround: chair searches by designer (Panton 32 results, Jacobsen 13, Aalto 28, Breuer 24, Rietveld 20, Prouvé 20, Le Corbusier 3, Starck 9, Colombo 13), each under the 30-row display limit, about 110 new chairs after de-duplication. Queries for Saarinen, Nelson, Pesce, Magistretti, Wegner, Juhl, Sottsass, Arad, Morrison, Eames (74 results) and others failed on credits.
+
+**MoMA cabinet, desk, bed, screen:** the remaining pages were not read. WebFetch gets 403 and Firecrawl had no credits. Pages 2 onward remain unread.
+
+**V&A:** the API's id_material filter (plywood, AAT12849) with year_made_from=1900 narrowed it to design pieces: q=chair gave 103 records, q=furniture 168; both read to the end (page 2 each). About 65 entries added (chairs, stools, cabinets, drawers, desks). The id_category filter with textiles (THES48885) returned only fabrics and drawings. Pieces in other materials (steel, plastics, upholstery) are not covered; the API's category parameters are undocumented in what WebSearch found.
+
+**Muuto, Thonet, String:** Muuto products page names 21 families (Ambit, Compile, Connect, Fiber, Oslo, Stacked and others) with no designers or years, not added as entries. Thonet product page 404, String 403; Firecrawl would have been the route. String remains an entry from round 3.
