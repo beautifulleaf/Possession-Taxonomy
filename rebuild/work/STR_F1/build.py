@@ -30,6 +30,12 @@ for name, k in oldk.items():
     xs = []
     for x in k.get('x', []) or []:
         if x['n'] in drop:
+            mm = k.setdefault('m', [])
+            vs = x.get('v') or []
+            cand = [[v['n'], v.get('mk') or x.get('mk') or ''] for v in vs] or ([[x['n'], x.get('mk') or '']] if x.get('s') else [])
+            for c in cand:
+                if c not in mm and c[0] not in [q[0] for q in mm]:
+                    mm.append(c)
             continue
         if x['n'] in to_r:
             v = to_r[x['n']]
