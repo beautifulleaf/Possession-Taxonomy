@@ -1,0 +1,8 @@
+Batch FCDEFER: fetch the pages deferred for lack of Firecrawl credit and record what they show. Working directory /home/user/Possession-Taxonomy.
+
+TASK: work through verify/work/GEN/firecrawl_deferred.md item by item, in this priority order: (1) B3 Compasso d'Oro and lighting pages, B7 MoMA fans, B1 Vitra/MoMA/Thonet/String pages, B4 MoMA vases; (2) J2/J4/J5/J8 eAmbrosia (try Firecrawl waitFor/actions; or a CSV export found by search), J7 IDAC PDF, J7 cognac-expert list, J6 indiatea; (3) A1 product pages; (4) everything else on the list.
+TOOLS: mcp__Firecrawl__firecrawl_scrape only for URLs written in the deferred file or found in search results / fetched pages (never construct or guess URLs). If Firecrawl reports no credit, stop at once and say so. Request markdown; keep only what the item needs.
+OUTPUT: for each item write verify/work/FCDEFER/<ID>.json (ID = category code plus short slug), {"item": "<line from the deferred file>", "url": "...", "status": "ok|blocked|empty", "facts": [{"name": "...", "fact": "...", "quote": "exact words from the page"}], "page_file": "pages/<ID>.md"} and save the raw markdown to verify/work/FCDEFER/pages/<ID>.md. Facts must be copied from the page text, never from memory or search excerpts. Keep a running verify/work/FCDEFER/LOG.md with one line per item (done / blocked / skipped and why).
+DO NOT edit rebuild/, data/, framework/, audit/, BRIEF.md or the deferred file. Never run git.
+RESUME RULE: if verify/work/FCDEFER/LOG.md exists, read it first and skip items already logged.
+CONTEXT BUDGET: write each item's file as soon as it is done; stop cleanly before your context fills, with LOG.md saying where you stopped.
