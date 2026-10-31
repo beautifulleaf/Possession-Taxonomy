@@ -152,6 +152,43 @@
    ],
    "found": 11,
    "note": "IFA catalogue only"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "best braai brands South Africa Cadac Weber Jetmaster"
+   ],
+   "found": 2,
+   "note": "Jetmaster, Chef; Cadac known"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Tramontina Truper herramientas de jardin marcas",
+    "Argentine parrilla asado grill brands manufacturers"
+   ],
+   "found": 1,
+   "note": "Tramontina known; no Truper evidence page; parrilla makers found only via US/UK sellers"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Japanese shichirin binchotan grill makers"
+   ],
+   "found": 2,
+   "note": "Konro Grill / Yakiniku are European sellers of Japanese shichirin"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "best kamado, pizza oven, barbecue tests"
+   ],
+   "found": 10,
+   "note": "see outdoor cooking"
   }
  ],
  "regions": [
@@ -199,6 +236,35 @@
     "Wingart",
     "Dolmar",
     "Helko"
+   ]
+  },
+  {
+   "region": "South Africa",
+   "speciality": "braais (stainless gas and charcoal), fireplaces; potjie",
+   "src": "https://jetmaster.co.za/",
+   "brands": [
+    "Jetmaster",
+    "Chef",
+    "Cadac"
+   ]
+  },
+  {
+   "region": "Argentina / Brazil / South America",
+   "speciality": "parrilla/asado wood-fired grills and churrasco; Brazilian hand tools",
+   "src": "https://www.madeinbritain.org/members?listType=list&q=Grande%20Grill",
+   "brands": [
+    "Tramontina",
+    "Somerset Grill Company",
+    "Wildwood Ovens"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "shichirin / konro binchotan table grills of diatomite",
+   "src": "https://konro-grill.com/en/faq",
+   "brands": [
+    "Konro Grill",
+    "Yakiniku"
    ]
   }
  ],
@@ -422,6 +488,46 @@
    "new_names": 11,
    "status": "done",
    "note": ""
+  },
+  {
+   "url": "https://jetmaster.co.za/",
+   "title": "Jetmaster",
+   "kind": "heritage",
+   "years": "70+ years",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://chef.co.za/about-us",
+   "title": "Chef Gas Braais",
+   "kind": "heritage",
+   "years": "since 1991",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.madeinbritain.org/members?listType=list&q=Grande%20Grill",
+   "title": "Made in Britain members",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "partial",
+   "note": "only a search slice; garden sector list not fetched"
+  },
+  {
+   "url": "https://global.tramontina.com/es",
+   "title": "Tramontina",
+   "kind": "heritage",
+   "years": "since 1911",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "known"
   }
  ],
  "brands": [
@@ -1050,6 +1156,64 @@
    "says": "brand stocked in IFA cooperative fertilizer catalogue (lawn and garden)",
    "country": "US",
    "dept": "fertilisers"
+  },
+  {
+   "n": "Jetmaster",
+   "layer": "cultural",
+   "src": "https://jetmaster.co.za/",
+   "says": "South African braai and fireplace maker for 70+ years, one of top recognised SA brands, exported",
+   "country": "South Africa",
+   "dept": "braais"
+  },
+  {
+   "n": "Chef",
+   "layer": "cultural",
+   "src": "https://chef.co.za/about-us",
+   "says": "South African stainless steel gas and charcoal braai maker since 1991, patented high-pressure gas system",
+   "country": "South Africa",
+   "dept": "braais"
+  },
+  {
+   "n": "Somerset Grill Company",
+   "layer": "premium",
+   "src": "https://www.madeinbritain.org/members?listType=list&q=Grande%20Grill",
+   "says": "Made in Britain member; makes Argentinian-style asado grills designed in house",
+   "country": "UK",
+   "dept": "asado grills"
+  },
+  {
+   "n": "Ox Grills",
+   "layer": "premium",
+   "src": "https://www.madeinbritain.org/members?listType=list&q=Grande%20Grill",
+   "says": "Made in Britain member; commercial-grade grills used in renowned restaurants worldwide",
+   "country": "UK",
+   "dept": "grills"
+  },
+  {
+   "n": "Konro Grill",
+   "layer": "cultural",
+   "src": "https://konro-grill.com/en/faq",
+   "says": "specialist seller of Japanese konro/shichirin diatomite grills (original made in Japan, centuries-old tradition)",
+   "country": "Netherlands",
+   "dept": "shichirin",
+   "role": "seller"
+  },
+  {
+   "n": "Yakiniku",
+   "layer": "cultural",
+   "src": "https://www.yakinikugrill.com/en/shichirin",
+   "says": "seller of traditional Japanese shichirin ceramic table grills with binchotan",
+   "country": "Netherlands",
+   "dept": "shichirin",
+   "role": "seller"
+  },
+  {
+   "n": "Wildwood Ovens",
+   "layer": "cultural",
+   "src": "https://wildwoodovens.com/product/argentinean-grill-combo-2",
+   "says": "maker of Argentine parrilla and Brazilian rodizio wood-fired grills",
+   "country": "US",
+   "dept": "parrilla grills"
   }
  ]
 }
