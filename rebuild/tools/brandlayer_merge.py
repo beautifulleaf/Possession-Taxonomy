@@ -60,6 +60,7 @@ for c in sys.argv[1:]:
         if rg: e['rg']=rg
         if b.get('legal'): e['legal']=str(b['legal'])[:240]
         if b.get('scene'): e['sc']=[b['scene']]; e['seg']=b['scene']
+        if b.get('owner'): e['rel']=[str(b['owner'])]; e['d']=(e.get('d') or '')[:200]+('' if 'owner' in (e.get('d') or '').lower() else ' Owner: '+str(b['owner'])+'.')
         if b.get('role')=='seller' or tier=='seller': e['role']='seller'
         B['b'].append(e); here[b['n'].lower() if homo else norm(b['n'])]=e; new+=1
     for n in v.get('cross_tag',[]):

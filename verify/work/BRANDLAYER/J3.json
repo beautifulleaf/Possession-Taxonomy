@@ -12,6 +12,137 @@
    ],
    "found": 30,
    "note": "WCA champions fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Milk & cream; Concentrated & dried milk",
+   "queries": [
+    "Wikipedia Brand name dairy products; Plant milk"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Butter & ghee",
+   "queries": [
+    "CHOICE butter test; Wikipedia butter brands"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Yoghurt & fermented milks",
+   "queries": [
+    "Wikipedia Brand name yogurts"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Fresh, soft & blue cheese; Pressed & hard cheese; Stretched, brined & dried cheese",
+   "queries": [
+    "World Cheese Awards 2023-2025 + champions 1988-2025; Roquefort, Stilton consortia"
+   ],
+   "found": 1,
+   "note": "2019-2022 WCA pages not fetched; PDO consortium lists (Parmigiano, Grana Padano, Comté, Manchego, Feta, Mozzarella di Bufala) not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Dairy-free alternatives",
+   "queries": [
+    "Wikipedia Plant milk navbox"
+   ],
+   "found": 1,
+   "note": "Guardian test blocked"
+  },
+  {
+   "axis": "kind",
+   "item": "Eggs; Baby & toddler milks; Tofu, tempeh & yuba",
+   "queries": [],
+   "found": 0,
+   "note": "NOT TRIED"
+  },
+  {
+   "axis": "region",
+   "item": "Western/Northern/Southern/Central & Eastern Europe",
+   "queries": [
+    "WCA winners by country"
+   ],
+   "found": 1,
+   "note": "covered via WCA only"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Wikipedia India dairy category"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Wikipedia Japan/Korea dairy categories"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Wikipedia Saudi dairy category"
+   ],
+   "found": 1,
+   "note": "labneh/Israel/Turkey not tried"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Wikipedia Mexico dairy category"
+   ],
+   "found": 1,
+   "note": "Cotija/Oaxaca not tried"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "WCA 2023 US lists"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "CHOICE butter test; WCA Australia"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "WCA 2024-25 South Africa trophy winners (Klein River, Dalewood)"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia; Central Asia; North Africa",
+   "queries": [],
+   "found": 0,
+   "note": "NOT TRIED"
   }
  ],
  "regions": [
@@ -38,6 +169,52 @@
     "Hartington Creamery",
     "Long Clawson Dairy",
     "Cropwell Bishop Creamery"
+   ]
+  },
+  {
+   "region": "South Asia (India)",
+   "speciality": "cooperative and everyday dairy: milk, ghee, paneer, dahi (Amul, Mother Dairy, Aavin, Banas, Dudhsagar)",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "brands": [
+    "Amul",
+    "Mother Dairy",
+    "Aavin",
+    "Banas Dairy",
+    "Dudhsagar Dairy",
+    "Parag Milk Foods",
+    "Milky Mist",
+    "Parsi Dairy Farm"
+   ]
+  },
+  {
+   "region": "East Asia (Japan)",
+   "speciality": "milk, yoghurt and lactic-acid drinks (Yakult, Meiji, Morinaga, Snow Brand)",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Japan",
+   "brands": [
+    "Megmilk Snow Brand",
+    "Meiji",
+    "Morinaga Milk",
+    "Yakult Honsha"
+   ]
+  },
+  {
+   "region": "Middle East (Saudi Arabia)",
+   "speciality": "milk, laban and labneh from large Gulf dairies",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Saudi_Arabia",
+   "brands": [
+    "Almarai",
+    "Nadec",
+    "Sawani",
+    "Saudia Dairy and Foodstuff Co."
+   ]
+  },
+  {
+   "region": "Latin America (Mexico)",
+   "speciality": "milk, cream and queso from national dairies",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Mexico",
+   "brands": [
+    "Alpura",
+    "Chilchota Alimentos"
    ]
   }
  ],
@@ -191,6 +368,66 @@
    "new_names": 0,
    "status": "blocked",
    "note": "fetch returns only intro, no brand list"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "title": "Wikipedia Category:Dairy products companies of India",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "note": "page excerpt truncated in places (B-D, K, O gaps) 3 known",
+   "names_on_page": 17,
+   "new_names": 14,
+   "status": "done"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Japan",
+   "title": "Wikipedia Category:Dairy products companies of Japan",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 2,
+   "status": "done",
+   "note": " 2 known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Saudi_Arabia",
+   "title": "Wikipedia Category:Dairy products companies of Saudi Arabia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 3,
+   "status": "done",
+   "note": " 1 known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Mexico",
+   "title": "Wikipedia Category:Dairy products companies of Mexico",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": " 0 known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_South_Korea",
+   "title": "Wikipedia Category:Dairy products companies of South Korea",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 1,
+   "status": "done",
+   "note": " 1 known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Italy",
+   "title": "Wikipedia Category:Dairy products companies of Italy",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 5,
+   "new_names": 4,
+   "status": "done",
+   "note": " 0 known"
   }
  ],
  "brands": [
@@ -1115,14 +1352,6 @@
    "dept": "cheese"
   },
   {
-   "n": "Vivanda Gourmet (Eleftheria)",
-   "layer": "premium",
-   "src": "https://gff.co.uk/world-cheese-awards-2025-trophy-winners/",
-   "says": "Best Indian Cheese 2025",
-   "country": "India",
-   "dept": "cheese"
-  },
-  {
    "n": "Inagh Farmhouse Cheese (St Tola)",
    "layer": "premium",
    "src": "https://gff.co.uk/world-cheese-awards-2025-trophy-winners/",
@@ -2017,6 +2246,206 @@
    "says": "listed under Brands, companies in Wikipedia Plant milk navbox",
    "country": "",
    "dept": "plant milk"
+  },
+  {
+   "n": "Akshayakalpa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Ananda Dairy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Anikspray",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Banas Dairy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Delhi Milk Scheme",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Dudhsagar Dairy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Hatsun Agro",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Heritage Foods",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Kwality Ltd.",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Milk Mantra",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Milky Mist",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Parag Milk Foods",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Parsi Dairy Farm",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Vasudhara Dairy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_India",
+   "says": "listed in Wikipedia Category:Dairy products companies of India",
+   "country": "India",
+   "dept": ""
+  },
+  {
+   "n": "Megmilk Snow Brand",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Japan",
+   "says": "listed in Wikipedia Category:Dairy products companies of Japan",
+   "country": "Japan",
+   "dept": ""
+  },
+  {
+   "n": "Morinaga Milk",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Japan",
+   "says": "listed in Wikipedia Category:Dairy products companies of Japan",
+   "country": "Japan",
+   "dept": ""
+  },
+  {
+   "n": "Nadec",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Saudi_Arabia",
+   "says": "listed in Wikipedia Category:Dairy products companies of Saudi Arabia",
+   "country": "Saudi Arabia",
+   "dept": ""
+  },
+  {
+   "n": "Saudia Dairy and Foodstuff Co.",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Saudi_Arabia",
+   "says": "listed in Wikipedia Category:Dairy products companies of Saudi Arabia",
+   "country": "Saudi Arabia",
+   "dept": ""
+  },
+  {
+   "n": "Sawani",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Saudi_Arabia",
+   "says": "listed in Wikipedia Category:Dairy products companies of Saudi Arabia",
+   "country": "Saudi Arabia",
+   "dept": ""
+  },
+  {
+   "n": "Chilchota Alimentos",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Mexico",
+   "says": "listed in Wikipedia Category:Dairy products companies of Mexico",
+   "country": "Mexico",
+   "dept": ""
+  },
+  {
+   "n": "Namyang Dairy Products",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_South_Korea",
+   "says": "listed in Wikipedia Category:Dairy products companies of South Korea",
+   "country": "South Korea",
+   "dept": ""
+  },
+  {
+   "n": "Auricchio",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Italy",
+   "says": "listed in Wikipedia Category:Dairy products companies of Italy",
+   "country": "Italy",
+   "dept": ""
+  },
+  {
+   "n": "Cielo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Italy",
+   "says": "listed in Wikipedia Category:Dairy products companies of Italy",
+   "country": "Italy",
+   "dept": ""
+  },
+  {
+   "n": "Granarolo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Italy",
+   "says": "listed in Wikipedia Category:Dairy products companies of Italy",
+   "country": "Italy",
+   "dept": ""
+  },
+  {
+   "n": "Sterilgarda",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Dairy_products_companies_of_Italy",
+   "says": "listed in Wikipedia Category:Dairy products companies of Italy",
+   "country": "Italy",
+   "dept": ""
   }
  ]
 }

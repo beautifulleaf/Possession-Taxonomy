@@ -881,15 +881,6 @@
    "region": ""
   },
   {
-   "n": "Boharat type foundry",
-   "layer": "premium",
-   "src": "https://www.oneclub.org/awards/tdcawards/-archive/awards/2023/224/all/select",
-   "says": "TDC Awards 2023 Type Design winner (juried; One Club TDC archive)",
-   "country": "Egypt",
-   "dept": "Fonts & typefaces",
-   "region": ""
-  },
-  {
    "n": "Willow Type Foundry",
    "layer": "premium",
    "src": "https://www.oneclub.org/awards/tdcawards/-archive/awards/2023/224/all/select",
@@ -922,15 +913,6 @@
    "src": "https://granshan.com/insights/results-13th-granshan-type-design-competition",
    "says": "prize winner, 13th GRANSHAN Type Design Competition 2023/24 (juried, non-Latin scripts)",
    "country": "China",
-   "dept": "Fonts & typefaces",
-   "region": ""
-  },
-  {
-   "n": "TypeType",
-   "layer": "premium",
-   "src": "https://granshan.com/insights/results-13th-granshan-type-design-competition",
-   "says": "prize winner, 13th GRANSHAN Type Design Competition 2023/24 (juried, non-Latin scripts)",
-   "country": "Cyprus",
    "dept": "Fonts & typefaces",
    "region": ""
   },
@@ -1524,9 +1506,106 @@
    "region": ""
   }
  ],
- "add_regions": [],
- "drop": [],
- "homonym": [],
+ "add_regions": [
+  {
+   "region": "Japan (East Asia)",
+   "speciality": "Japanese (kanji/kana) type foundries",
+   "src": "https://www.myfonts.com/pages/fontshop-the-japanese-foundry-scene",
+   "brands": [
+    "Morisawa",
+    "Fontworks",
+    "Motoya",
+    "Iwata (fonts)",
+    "Jiyukobo",
+    "Shaken",
+    "TypeBank",
+    "Hakusyu Fonts"
+   ],
+   "note": "extends harvest region 'Japan (East Asia)'; page is FontShop's overview of 'the most important foundries' in Japan"
+  },
+  {
+   "region": "Thailand (Southeast Asia)",
+   "speciality": "Thai-script type design",
+   "src": "https://granshan.com/supporting-foundries/cadson-demak",
+   "brands": [
+    "Cadson Demak"
+   ],
+   "note": "Granshan page: Cadson Demak 'has had major influence on Thai design'; AGI page (a-g-i.org/user/Anuthin) quotes Computer Arts naming it 'The Most Influential Type Foundry in Thailand'; Typebase lists Produce, Superstore font (TH)"
+  },
+  {
+   "region": "Nigeria (West Africa)",
+   "speciality": "African-expression type design (Lagos)",
+   "src": "https://www.itsnicethat.com/articles/the-view-from-lagos-type-design-typography-graphic-design-041125",
+   "brands": [
+    "Afrotype",
+    "Ụdị Foundry"
+   ],
+   "note": "It's Nice That feature 'Meet the Nigerian graphic designers bringing African expression to typography'; renown is emerging scene, verifier to judge"
+  }
+ ],
+ "drop": [
+  {
+   "n": "Commercial type foundries",
+   "why": "Wikipedia subcategory row, not a brand"
+  },
+  {
+   "n": "Independent type foundries",
+   "why": "Wikipedia subcategory row, not a brand"
+  },
+  {
+   "n": "Cold type foundries",
+   "why": "Wikipedia subcategory row, not a brand"
+  },
+  {
+   "n": "Letterpress font foundries",
+   "why": "Wikipedia subcategory row, not a brand"
+  },
+  {
+   "n": "List of freeware type designers",
+   "why": "Wikipedia list article row, not a brand"
+  },
+  {
+   "n": "Jeremy Tankard",
+   "why": "duplicate of 'Jeremy Tankard Typography' (merge as alias)"
+  }
+ ],
+ "homonym": [
+  {
+   "n": "Iwata (fonts)",
+   "register": "Iwata (C4 airbrushes)",
+   "note": "different company"
+  },
+  {
+   "n": "Tlab (fonts)",
+   "register": "T-lab (A1)",
+   "note": "different company"
+  },
+  {
+   "n": "JAMO (type)",
+   "register": "JAMO (D3 speakers)",
+   "note": "different company"
+  },
+  {
+   "n": "Atlas (type foundry)",
+   "register": "Atlas (C1 hobby lathes)",
+   "note": "different company; masked in harvest"
+  },
+  {
+   "n": "Neubau (type foundry)",
+   "register": "Neubau (A4 eyewear)",
+   "note": "different company; masked in harvest"
+  },
+  {
+   "n": "Klim Type Foundry",
+   "register": "Klim (G1 riding gear)",
+   "note": "register already separates them; no action"
+  },
+  {
+   "n": "Swiss Typefaces / Village Type and Design / Process Type Foundry / Optimo / Rosetta",
+   "register": "Swiss Arabian, Village Hotel Club, Processing World, Optimo Hats, Rosetta Stone",
+   "note": "distinct full names; exact-name check passes, no qualifier needed"
+  }
+ ],
  "cross_tag": [
   {
    "n": "Orchestral Tools",
@@ -1726,6 +1805,135 @@
    "src": "http://www.fontscape.com/explore?5HU9",
    "says": "publisher of a TDC 2019 Type Design winner (Fontscape TDC award list)",
    "to": "quality"
+  },
+  {
+   "n": "TypeType Foundry",
+   "src": "https://granshan.com/insights/results-13th-granshan-type-design-competition",
+   "says": "prize winner, 13th GRANSHAN 2023/24 (juried)",
+   "to": "quality",
+   "in": "harvest"
+  },
+  {
+   "n": "Boharat",
+   "src": "https://www.oneclub.org/awards/tdcawards/-archive/awards/2023/224/all/select",
+   "says": "TDC Awards 2023 Type Design winner (juried; Zaatar typeface, Cairo)",
+   "to": "quality",
+   "in": "harvest"
+  },
+  {
+   "n": "Afrotype",
+   "src": "https://www.itsnicethat.com/articles/the-view-from-lagos-type-design-typography-graphic-design-041125",
+   "says": "featured in It's Nice That on Nigerian type design (independent press)",
+   "to": "cultural",
+   "in": "harvest"
+  }
+ ],
+ "merge_notes": [
+  {
+   "n": "Peter Biľak",
+   "note": "founder of Typotheque (register I2); merge as alias of Typotheque or keep as designer row like other register type designers"
+  },
+  {
+   "n": "Ray Larabie",
+   "note": "person; his foundry is Typodermic"
+  },
+  {
+   "n": "FontShop International",
+   "note": "publisher of the FontFont library; FontFont and FontShop International are one company (alias)"
+  },
+  {
+   "n": "FounderType",
+   "note": "Beijing Founder Electronics font arm; register 'Founder Technology' (D1 computers) is a sister company in Peking University Founder Group: different company, flag homonym 'FounderType' needs no rename"
+  },
+  {
+   "n": "Mergenthaler Linotype Company",
+   "note": "historic parent of Linotype (register I2); keep as heritage entry or alias"
+  },
+  {
+   "n": "Sandoll",
+   "note": "same as Sandoll Communications (Granshan 2014 Sandoll Tokyo); harvest name fine"
+  }
+ ],
+ "cross_tag_candidates": [
+  {
+   "n": "Shutterstock",
+   "in": "I3",
+   "why": "stock image/video/3D seller (owns TurboSquid, Pond5, Envato) - also I2 seller"
+  },
+  {
+   "n": "Envato",
+   "in": "I3",
+   "why": "Envato Market sells templates, presets, stock - I2 seller"
+  },
+  {
+   "n": "Qobuz",
+   "in": "I3",
+   "why": "sells hi-res download files besides streaming"
+  },
+  {
+   "n": "Beatport",
+   "in": "I1",
+   "why": "sells DJ music downloads"
+  },
+  {
+   "n": "Audible",
+   "in": "I3",
+   "why": "audiobook files"
+  },
+  {
+   "n": "GoDaddy",
+   "in": "I3",
+   "why": "domain registrar: domain names are I2"
+  },
+  {
+   "n": "Squarespace",
+   "in": "I3",
+   "why": "domain registrar (ex-Google Domains)"
+  },
+  {
+   "n": "Rakuten Kobo / Kobo",
+   "in": "I3, D2",
+   "why": "Kobo eBookstore (Category:Ebook suppliers, fetched)"
+  },
+  {
+   "n": "Vogue Patterns",
+   "in": "F1",
+   "why": "sells PDF patterns (sister of McCall's/Butterick in I2)"
+  },
+  {
+   "n": "Simplicity",
+   "in": "F1, C4",
+   "why": "duplicate of register Simplicity Pattern (I2): merge"
+  },
+  {
+   "n": "Orchestral Tools",
+   "in": "I1",
+   "why": "SLR Best of 2021 winner (fetched): virtual instrument libraries"
+  },
+  {
+   "n": "Spectrasonics",
+   "in": "I1",
+   "why": "SLR Best of 2021 winner (fetched)"
+  },
+  {
+   "n": "UVI",
+   "in": "I1",
+   "why": "SLR Best of 2021 winner (fetched)"
+  },
+  {
+   "n": "Arturia",
+   "in": "E3, I1",
+   "why": "preset packs/V Collection sounds"
+  },
+  {
+   "n": "Reallusion",
+   "in": "I1",
+   "why": "Character Creator assets"
+  },
+  {
+   "n": "Magnum Photos",
+   "in": "F2",
+   "why": "licenses stock/editorial images"
   }
  ]
 }
