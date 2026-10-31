@@ -1,6 +1,6 @@
 {
  "cat": "A3",
- "status": "partial",
+ "status": "done",
  "brand_led": true,
  "sources": [
   {
@@ -341,7 +341,7 @@
    "names_on_page": 20,
    "new_names": 9,
    "status": "done",
-   "note": ""
+   "note": "raw-verified (Parallel)"
   },
   {
    "url": "https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Entreprise_de_joaillerie",
@@ -351,7 +351,7 @@
    "names_on_page": 32,
    "new_names": 16,
    "status": "done",
-   "note": ""
+   "note": "raw-verified (Parallel)"
   },
   {
    "url": "https://en.wikipedia.org/wiki/Comit%C3%A9_Colbert",
@@ -369,9 +369,9 @@
    "kind": "retailer",
    "years": "n/a",
    "names_on_page": 21,
-   "new_names": 1,
-   "status": "done",
-   "note": ""
+   "new_names": 0,
+   "status": "blocked",
+   "note": "raw fetch returns Page Not Found; names sourced only from the earlier summary removed"
   },
   {
    "url": "https://www.ernestjones.co.uk/brands",
@@ -381,7 +381,7 @@
    "names_on_page": 9,
    "new_names": 1,
    "status": "done",
-   "note": ""
+   "note": "raw-verified partial; Olivia Burton, Vivienne Westwood, D1 Milano not visible in raw text, removed"
   },
   {
    "url": "https://exhibea.com/blogs/shopify-plus-blog/30-must-see-jewelry-brands-from-the-worlds-top-jewelry-show",
@@ -391,7 +391,7 @@
    "names_on_page": 29,
    "new_names": 18,
    "status": "done",
-   "note": ""
+   "note": "raw excerpt partial; Francesca Villa, Dezso, Heather B. Moore not visible raw, removed"
   },
   {
    "url": "https://www.thejewelleryshow.co.uk/exhibitor-news/uk-jewellery-awards-2026-winners-revealed",
@@ -401,7 +401,7 @@
    "names_on_page": 13,
    "new_names": 4,
    "status": "done",
-   "note": ""
+   "note": "raw-verified; earlier years: see 2022-2025 rows"
   },
   {
    "url": "https://fashionunited.com/brands?industries=Jewelry",
@@ -450,8 +450,8 @@
    "years": "2021-2025",
    "names_on_page": 0,
    "new_names": 0,
-   "status": "partial",
-   "note": "only search excerpts seen; winners are individual makers, PDFs not fetched raw"
+   "status": "done",
+   "note": "annual PDFs 2021-2025 raw excerpts only; winners are individual makers (Janet Barber, Jiarui Sun, etc.), not brands; Boodles sponsors Fine Jewellery award; no new brands"
   },
   {
    "url": "https://uibm.mise.gov.it/index.php/it/marchio-storico-di-interesse-nazionale",
@@ -461,7 +461,7 @@
    "names_on_page": 0,
    "new_names": 0,
    "status": "blocked",
-   "note": "register is a 414-page PDF/database; not searchable by category; no jewellery names extracted"
+   "note": "blocked: register is a 414-page PDF/database, not searchable by category"
   },
   {
    "url": "https://thecoutureshow.com/",
@@ -471,7 +471,7 @@
    "names_on_page": 0,
    "new_names": 0,
    "status": "blocked",
-   "note": "official exhibitor directory not reached; Exhibea roundup used instead"
+   "note": "exhibitor list is a JS app (jewelry.a2zinc.net); ZAHN-Z confirmed on home page"
   },
   {
    "url": "https://en.wikipedia.org/wiki/Native_American_jewelry",
@@ -480,8 +480,8 @@
    "years": "n/a",
    "names_on_page": 0,
    "new_names": 0,
-   "status": "partial",
-   "note": "Wikipedia Native American jeweler and Mexican silversmith category URLs returned 404; Taxco makers taken from fetched article pages; no Navajo/Zuni named brand list obtained"
+   "status": "done",
+   "note": "Taxco from article pages; Native American makers from search-returned pages (Grand Canyon Conservancy, Durango Silver, MNA, Indian Traders, Wikipedia mirror); no Wikipedia category exists/was returned. Named from raw excerpts only"
   },
   {
    "url": "https://www.thejewelleryshow.co.uk/exhibitor-news/uk-jewellery-awards-2026-winners-revealed",
@@ -490,8 +490,68 @@
    "years": "n/a",
    "names_on_page": 0,
    "new_names": 0,
+   "status": "done",
+   "note": "raw-verified; earlier years: see 2022-2025 rows"
+  },
+  {
+   "url": "https://jewelleryoutlook.com/awards-uk-jewellery-awards-2025-winners-announced",
+   "title": "UK Jewellery Awards 2025 (Jewellery Outlook)",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.instagram.com/p/DLVtsJfI4vf",
+   "title": "UK Jewellery Awards 2025 full list (Retail Jeweller post)",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://awards.retail-jeweller.com/UKJA2026/en/page/2024-winners",
+   "title": "UK Jewellery Awards 2024 winners",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 8,
+   "new_names": 8,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.diarydirectory.com/newsarticle/retail-jewellers-uk-jewellery-awards-2023-winners-revealed/53008",
+   "title": "UK Jewellery Awards 2023 (partial list)",
+   "kind": "award",
+   "years": "2023",
+   "names_on_page": 2,
+   "new_names": 2,
    "status": "partial",
-   "note": "2011-2025 winner pages not fetched year by year"
+   "note": "only 7 categories listed"
+  },
+  {
+   "url": "https://jewelleryoutlook.com/industry-news-uk-jewellery-awards-2022-winners-announced/",
+   "title": "UK Jewellery Awards 2022",
+   "kind": "award",
+   "years": "2022",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "partial",
+   "note": "only part of list in excerpt"
+  },
+  {
+   "url": "https://awards.retail-jeweller.com/UKJA2026/en/page/home",
+   "title": "UK Jewellery Awards 2011-2021",
+   "kind": "award",
+   "years": "2011-2021",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "no winner pages for these years returned by search"
   }
  ],
  "brands": [
@@ -1056,14 +1116,6 @@
    "dept": "jewellery"
   },
   {
-   "n": "Amor",
-   "layer": "premium",
-   "src": "https://www.goldsmiths.co.uk/brands",
-   "says": "listed in Goldsmiths (UK fine jeweller) brand directory",
-   "already": false,
-   "dept": "jewellery"
-  },
-  {
    "n": "Hot Diamonds",
    "layer": "premium",
    "src": "https://www.ernestjones.co.uk/brands",
@@ -1073,22 +1125,6 @@
   },
   {
    "n": "Lauren Rubinski",
-   "layer": "premium",
-   "src": "https://exhibea.com/blogs/shopify-plus-blog/30-must-see-jewelry-brands-from-the-worlds-top-jewelry-show",
-   "says": "Couture Las Vegas show brand roundup",
-   "already": false,
-   "dept": "jewellery"
-  },
-  {
-   "n": "Francesca Villa",
-   "layer": "premium",
-   "src": "https://exhibea.com/blogs/shopify-plus-blog/30-must-see-jewelry-brands-from-the-worlds-top-jewelry-show",
-   "says": "Couture Las Vegas show brand roundup",
-   "already": false,
-   "dept": "jewellery"
-  },
-  {
-   "n": "Dezso",
    "layer": "premium",
    "src": "https://exhibea.com/blogs/shopify-plus-blog/30-must-see-jewelry-brands-from-the-worlds-top-jewelry-show",
    "says": "Couture Las Vegas show brand roundup",
@@ -1162,8 +1198,8 @@
   {
    "n": "ZAHN-Z",
    "layer": "premium",
-   "src": "https://exhibea.com/blogs/shopify-plus-blog/30-must-see-jewelry-brands-from-the-worlds-top-jewelry-show",
-   "says": "Couture Las Vegas show brand roundup",
+   "src": "https://thecoutureshow.com/",
+   "says": "Best in Debuting, COUTURE Design Awards 2025 (Design Atelier)",
    "already": false,
    "dept": "jewellery"
   },
@@ -1185,14 +1221,6 @@
   },
   {
    "n": "Fullord",
-   "layer": "premium",
-   "src": "https://exhibea.com/blogs/shopify-plus-blog/30-must-see-jewelry-brands-from-the-worlds-top-jewelry-show",
-   "says": "Couture Las Vegas show brand roundup",
-   "already": false,
-   "dept": "jewellery"
-  },
-  {
-   "n": "Heather B. Moore",
    "layer": "premium",
    "src": "https://exhibea.com/blogs/shopify-plus-blog/30-must-see-jewelry-brands-from-the-worlds-top-jewelry-show",
    "says": "Couture Las Vegas show brand roundup",
@@ -1344,6 +1372,231 @@
    "says": "Wikipedia Jewelry companies of the United States",
    "country": "United States",
    "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Barbara Tipple",
+   "layer": "premium",
+   "src": "https://www.instagram.com/p/DLVtsJfI4vf",
+   "says": "UK Jewellery Awards: Creative Jewellery Designer of the Year 2025",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Jet McQuiston",
+   "layer": "premium",
+   "src": "https://jewelleryoutlook.com/awards-uk-jewellery-awards-2025-winners-announced",
+   "says": "UK Jewellery Awards: Emerging Jewellery Designer of the Year 2025",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Lustre & Love",
+   "layer": "premium",
+   "src": "https://www.instagram.com/p/DLVtsJfI4vf",
+   "says": "UK Jewellery Awards: Emerging Jewellery/Watch Brand of the Year 2025",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Lucy Quartermaine",
+   "layer": "premium",
+   "src": "https://awards.retail-jeweller.com/UKJA2026/en/page/2024-winners",
+   "says": "UK Jewellery Awards: Commercial Jewellery Designer of the Year 2024",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "The Rock Hound",
+   "layer": "premium",
+   "src": "https://awards.retail-jeweller.com/UKJA2026/en/page/2024-winners",
+   "says": "UK Jewellery Awards: Creative Jewellery Designer of the Year 2024 (Susi Smither)",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Caitlin Murphy",
+   "layer": "premium",
+   "src": "https://awards.retail-jeweller.com/UKJA2026/en/page/2024-winners",
+   "says": "UK Jewellery Awards: Emerging Jewellery Designer of the Year 2024",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Amelia Scott",
+   "layer": "premium",
+   "src": "https://awards.retail-jeweller.com/UKJA2026/en/page/2024-winners",
+   "says": "UK Jewellery Awards: Emerging jewellery/watch brand 2024",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "ChloBo",
+   "layer": "premium",
+   "src": "https://awards.retail-jeweller.com/UKJA2026/en/page/2024-winners",
+   "says": "UK Jewellery Awards: Jewellery Brand of the Year 2024",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Dainty London",
+   "layer": "premium",
+   "src": "https://awards.retail-jeweller.com/UKJA2026/en/page/2024-winners",
+   "says": "UK Jewellery Awards: Online Retail Strategy of the Year 2024",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Charlotte Garnett Jewellery Design",
+   "layer": "premium",
+   "src": "https://awards.retail-jeweller.com/UKJA2026/en/page/2024-winners",
+   "says": "UK Jewellery Awards: Highly commended Creative Designer 2024",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "S J Snow Jewellery",
+   "layer": "premium",
+   "src": "https://awards.retail-jeweller.com/UKJA2026/en/page/2024-winners",
+   "says": "UK Jewellery Awards: Highly commended Emerging Designer 2024 (Samantha Snow)",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Lia Lam",
+   "layer": "premium",
+   "src": "https://www.diarydirectory.com/newsarticle/retail-jewellers-uk-jewellery-awards-2023-winners-revealed/53008",
+   "says": "UK Jewellery Awards: Emerging Jewellery Designer of the Year 2023",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Missa & Kissa",
+   "layer": "premium",
+   "src": "https://www.diarydirectory.com/newsarticle/retail-jewellers-uk-jewellery-awards-2023-winners-revealed/53008",
+   "says": "UK Jewellery Awards: Emerging Jewellery/Watch Brand 2023",
+   "country": "United Kingdom",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "TI SENTO - Milano",
+   "layer": "premium",
+   "src": "https://jewelleryoutlook.com/industry-news-uk-jewellery-awards-2022-winners-announced/",
+   "says": "UK Jewellery Awards: Jewellery Brand of the Year 2022",
+   "country": "Netherlands/Italy",
+   "dept": "jewellery",
+   "already": false
+  },
+  {
+   "n": "Rosabelle Shepherd",
+   "layer": "cultural",
+   "src": "https://www.grandcanyon.org/protect-grand-canyon/projects/cultural-demonstration-jewelers",
+   "says": "Diné (Navajo) fifth-generation silversmith, Sanders AZ",
+   "country": "United States",
+   "dept": "traditional Native American silver jewellery",
+   "already": false
+  },
+  {
+   "n": "Loren Panteah and Yolanda Laate",
+   "layer": "cultural",
+   "src": "https://www.grandcanyon.org/protect-grand-canyon/projects/cultural-demonstration-jewelers",
+   "says": "Zuni Channel Inlay jewelers",
+   "country": "United States",
+   "dept": "traditional Native American silver jewellery",
+   "already": false
+  },
+  {
+   "n": "Jesse Johnson",
+   "layer": "cultural",
+   "src": "https://www.grandcanyon.org/protect-grand-canyon/projects/cultural-demonstration-jewelers",
+   "says": "Zuni cluster petit point jeweler",
+   "country": "United States",
+   "dept": "traditional Native American silver jewellery",
+   "already": false
+  },
+  {
+   "n": "Duran Gasper",
+   "layer": "cultural",
+   "src": "https://www.grandcanyon.org/protect-grand-canyon/projects/cultural-demonstration-jewelers",
+   "says": "Zuni silversmith",
+   "country": "United States",
+   "dept": "traditional Native American silver jewellery",
+   "already": false
+  },
+  {
+   "n": "April Unkestine",
+   "layer": "cultural",
+   "src": "https://www.grandcanyon.org/protect-grand-canyon/projects/cultural-demonstration-jewelers",
+   "says": "Zuni jeweler",
+   "country": "United States",
+   "dept": "traditional Native American silver jewellery",
+   "already": false
+  },
+  {
+   "n": "Kelly Morgan",
+   "layer": "cultural",
+   "src": "https://www.durangosilver.com/native-american-artists.html",
+   "says": "sixth-generation Navajo silversmith, hallmark KMorgan",
+   "country": "United States",
+   "dept": "traditional Native American silver jewellery",
+   "already": false
+  },
+  {
+   "n": "Charles Loloma",
+   "layer": "cultural",
+   "src": "https://wiki.chogus.org/content/wikipedia_en_all_maxi_2025-08/Native_American_jewelry",
+   "says": "Hopi jeweler 1921-1991, major awards",
+   "country": "United States",
+   "dept": "traditional Native American silver jewellery",
+   "already": false
+  },
+  {
+   "n": "Hopi Silvercraft Cooperative Guild",
+   "layer": "cultural",
+   "src": "https://musnaz.org/on-view/jewelry",
+   "says": "Hopi guild founded by Paul Saufkie, Fred Kabotie and WWII veterans",
+   "country": "United States",
+   "dept": "traditional Native American silver jewellery",
+   "already": false
+  },
+  {
+   "n": "Danny Martinez",
+   "layer": "cultural",
+   "src": "https://indiantraders.com/en-ca/blogs/news/indian-traders-native-american-jewelry-artist-spotlight",
+   "says": "Navajo Martinez family of silversmiths",
+   "country": "United States",
+   "dept": "traditional Native American silver jewellery",
+   "already": false
+  },
+  {
+   "n": "Chris Charley",
+   "layer": "cultural",
+   "src": "https://indiantraders.com/en-ca/blogs/news/indian-traders-native-american-jewelry-artist-spotlight",
+   "says": "Navajo silversmith, stamp work",
+   "country": "United States",
+   "dept": "traditional Native American silver jewellery",
+   "already": false
+  },
+  {
+   "n": "Arnold Blackgoat",
+   "layer": "cultural",
+   "src": "https://indiantraders.com/en-ca/blogs/news/indian-traders-native-american-jewelry-artist-spotlight",
+   "says": "Navajo silversmith line from Moses Blackgoat",
+   "country": "United States",
+   "dept": "traditional Native American silver jewellery",
    "already": false
   }
  ]
