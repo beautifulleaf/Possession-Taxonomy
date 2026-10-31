@@ -4,3 +4,4 @@ step2 refs fetched (also lumen drawing, goldingyoung, studio glass, artsper); ne
 step3 tt_data1.py written (paintings, drawings, prints)
 step4 tt_data2.py written + cleaned (all tt done)
 step5 build.py written and run
+step6 brands/renames/sources done, validated OK; next: report
