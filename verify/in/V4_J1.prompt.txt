@@ -1,0 +1,7 @@
+BATCH V4_J1 — named-entry pass (medium group) for J1 Meat & Poultry.
+
+Follow /home/user/Possession-Taxonomy/verify/in/V4_COMMON.txt exactly (RESUME RULE, sourcing, named-entry standard, market layer), with <BATCH> = V4_J1 and <CODE> = J1. Files you may edit: rebuild/out/J1.json, rebuild/out/J1_brands.json, rebuild/out/J1_renames.json, rebuild/out/J1_moves.json. Read BRIEF.md 'Owner decisions 2026-10-31' first.
+
+Medium group. Method for every list: Wikidata first where it models the canon, otherwise WebFetch in windows with the offset parameter until the page ends (see /home/user/Possession-Taxonomy/verify/in/CMP_COMMON.txt, steps 1–4); end each kind's sel with the coverage line ("Complete: n of n in …" or "Covers n of about m …"). Commodity kinds keep no named entries except the icon rule in BRIEF.md (one origin per kind; design-collection or major-award landmarks). Market panels only from fetched pages. Budget: about 40 fetches.
+
+Protected meat products (EU PDO/PGI hams, sausages and meats from Wikipedia lists; other national registers) as entries; grading schemes (USDA, Japanese wagyu, MSA) and breeds as attributes; certification register (halal and kosher certifiers, organic, welfare schemes) as tags. Market panel for processed and branded meat (Tyson, JBS, Hormel, Smithfield, Danish Crown…) and a supplier layer of premium butchers and halal/kosher delivery only from fetched ranked lists; delivery services link to I3.

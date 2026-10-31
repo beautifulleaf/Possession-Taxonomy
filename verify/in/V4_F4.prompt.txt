@@ -1,0 +1,7 @@
+BATCH V4_F4 — named-entry pass (medium group) for F4 Religious & Ceremonial Objects.
+
+Follow /home/user/Possession-Taxonomy/verify/in/V4_COMMON.txt exactly (RESUME RULE, sourcing, named-entry standard, market layer), with <BATCH> = V4_F4 and <CODE> = F4. Files you may edit: rebuild/out/F4.json, rebuild/out/F4_brands.json, rebuild/out/F4_renames.json, rebuild/out/F4_moves.json. Read BRIEF.md 'Owner decisions 2026-10-31' first.
+
+Medium group. Method for every list: Wikidata first where it models the canon, otherwise WebFetch in windows with the offset parameter until the page ends (see /home/user/Possession-Taxonomy/verify/in/CMP_COMMON.txt, steps 1–4); end each kind's sel with the coverage line ("Complete: n of n in …" or "Covers n of about m …"). Commodity kinds keep no named entries except the icon rule in BRIEF.md (one origin per kind; design-collection or major-award landmarks). Market panels only from fetched pages. Budget: about 40 fetches.
+
+Object form first; faith is a tag (owner). Named entries only where a reference lists named forms of the object (e.g. Wikipedia lists of Christian liturgical vessels and vestments, Buddhist ritual implements, Jewish ritual objects, Islamic prayer items); otherwise commodity. Textile and art traditions (thangka painting styles, icon-painting schools) belong to the visual-art taxonomy: keep only the object kind with a see-note. No market panel.
