@@ -36,3 +36,4 @@ Rules for the enrichment pass:
 - INDEX CLEANUP (G2): 'Bentley' row mixes the car maker (G1, now G2 too) with an E3 Bentley — split.
 - INDEX CLEANUP (H4): Shoyeido and Nippon Kodo carry H4 codes in the register but make incense (B4/F4) — review.
 - (I3 audit) Norton row mixes Norton motorcycles (G1) and Norton security software (I1): split. Three (H1 cosmetics) wrongly carries I3 (mobile operator): split.
+- (J10 verify) Castello (J3 cheese) carries J10 meant for Castello pipes; Clipper (J9 soda) carries J10 meant for Clipper lighters: split.
