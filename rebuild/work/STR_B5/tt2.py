@@ -43,7 +43,7 @@ T("Moka pot","Material: Aluminium; Stainless steel (induction) || Size: 1 cup; 3
 T("Percolator","Heat: Stovetop; Electric || Material: Aluminium; Stainless steel; Enamelled steel || Size: 2–12 cup")
 T("Siphon brewer","Heater: Alcohol burner; Butane or halogen beam; Stovetop || Filter: Cloth; Paper; Metal || Build: Standard; Balance (Belgian)")
 T("Cezve","Material: Hammered copper (tin or silver lined); Brass; Stainless steel; Enamel or ceramic || Size: 1 cup; 3 cup; 6 cup")
-T("Semi-automatic espresso machine","Boiler: Single boiler (dual use); Heat exchanger (HX); Dual boiler; Thermoblock or thermocoil || Group: E61; Saturated; Other || Control: PID-controlled; Flow or pressure profiling || Grinder: Separate; Built-in")
+T("Semi-automatic espresso machine","Boiler: Single boiler (dual use); Heat exchanger (HX); Dual boiler; Thermoblock or thermocoil || Group head: E61; Saturated; Spring lever || Control: PID-controlled; Flow or pressure profiling || Grinder: Separate; Built-in")
 T("Manual lever espresso machine","Lever: Direct lever; Spring lever || Heat: Unpowered (manual preheat); Electrically heated boiler")
 T("Super-automatic espresso machine","Milk: One-touch milk system; Steam wand (panarello) || Hopper: Single; Dual bean hopper || Control: Buttons; App-connected")
 T("Capsule coffee machine","System: High-pressure espresso capsule; Centrifugal (Vertuo); Low-pressure brewed pod (K-Cup); E.S.E. paper pod || Extra: With milk frother")
