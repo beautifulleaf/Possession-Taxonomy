@@ -721,6 +721,55 @@
     "iDIDJ Australia",
     "Echo Tree"
    ]
+  },
+  {
+   "region": "Spain (Granada and Madrid)",
+   "speciality": "Classical and flamenco guitars; Granada school (Ferrer, Bellido, Raya, Marin) and Madrid school (Ramirez, Esteso, Conde, Santos Hernandez)",
+   "src": "https://www.guitarsalon.com/luthier/bellido-workshop",
+   "brands": [
+    "Bellido",
+    "Hermanos Conde",
+    "Felipe Conde",
+    "José Ramírez",
+    "Manuel Contreras",
+    "Antonio Raya Pardo",
+    "Marcelino López Nieto"
+   ]
+  },
+  {
+   "region": "India (Kolkata)",
+   "speciality": "Sitar, sarod, veena making; Rashbehari Avenue workshops (Hiren Roy, Kanailal, Radha Krishna Sharma, Hemen & Co); Delhi: Rikhi Ram",
+   "src": "https://www.musiciansmallusa.com/guide-to-makers",
+   "brands": [
+    "Hiren Roy and Sons",
+    "Kanailal & Brother",
+    "Radha Krishna Sharma",
+    "Hemen & Co",
+    "Rikhi Ram"
+   ]
+  },
+  {
+   "region": "Turkey (Istanbul)",
+   "speciality": "Hand-hammered cymbals since Zildjian 1618; Istanbul Agop, Istanbul Mehmet, Bosphorus",
+   "src": "https://www.akademie-solitude.de/de/on-vessel-and-the-history-of-cymbal-making-in-istanbul",
+   "brands": [
+    "Zildjian",
+    "Istanbul Agop",
+    "Istanbul Mehmet",
+    "Bosphorus Cymbals",
+    "Zilçan"
+   ]
+  },
+  {
+   "region": "Germany (Markneukirchen, Mittenwald)",
+   "speciality": "Violin and string-instrument making; Markneukirchen guild founded 1677, Mittenwald violin school 1858, Klotz family",
+   "src": "https://miz.org/de/beitraege/musikinstrumentenbau",
+   "brands": [
+    "Klotz",
+    "Ficker",
+    "Heberlein",
+    "Roth"
+   ]
   }
  ],
  "sources": [
@@ -1363,6 +1412,86 @@
    "new_names": 5,
    "status": "done",
    "note": "directory; existence only; only Australian sellers kept"
+  },
+  {
+   "url": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "title": "Zavaleta Guitar Maker Biographies",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 44,
+   "new_names": 41,
+   "status": "done",
+   "note": "Spanish classical/flamenco luthiers; Granada, Madrid, Valencia, Cordoba families"
+  },
+  {
+   "url": "https://www.guitarsalon.com/luthier/bellido-workshop",
+   "title": "GSI Bellido Workshop (Granada since 1957)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "done",
+   "note": "Granada school: Manuel Lopez Bellido founder, teacher of generation of Granada luthiers; Eduardo Ferrer teacher"
+  },
+  {
+   "url": "https://www.musiciansmallusa.com/guide-to-makers",
+   "title": "Musician's Mall Guide to Makers (sitar)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "tradition page"
+  },
+  {
+   "url": "https://www.thehindu.com/entertainment/music/hemen-co-kolkatas-iconic-music-store/article38371030.ece",
+   "title": "The Hindu Hemen & Co",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "tradition page"
+  },
+  {
+   "url": "https://www.asianart.com/articles/landsberg/index.html",
+   "title": "Landsberg Kanailal and Brother history",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "tradition page"
+  },
+  {
+   "url": "https://www.bosphoruscymbals.com/company/about-us",
+   "title": "Bosphorus Cymbals about",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "tradition page"
+  },
+  {
+   "url": "https://www.akademie-solitude.de/de/on-vessel-and-the-history-of-cymbal-making-in-istanbul",
+   "title": "Cymbal making in Istanbul essay",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "tradition page"
+  },
+  {
+   "url": "https://miz.org/de/beitraege/musikinstrumentenbau",
+   "title": "MIZ Musikinstrumentenbau (Markneukirchen, Mittenwald)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "tradition page"
   }
  ],
  "brands": [
@@ -2511,273 +2640,303 @@
   },
   {
    "n": "Amedia Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Anatolian Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Arborea Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Big Island Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Bosphorus Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Diril Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Domene Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Dream Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Fame Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Funch Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "GM Design Custom Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Kamin Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Kmicic cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "PGB Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Rech Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Reverie Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Royal Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Koide Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Oliver Kern Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "JD Sagurton Custom Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Saluda Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Timothy Roberts Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Zhangqiu Tongxiang cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Trexist Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "T-Cymbals Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Nebulae Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Zultan Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "ZYN Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Mehteran Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Wuhan Cymbals",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_cymbal_manufacturers",
    "says": "Named among \"other notable cymbal companies\" on Wikipedia list (no own article; existence only)",
    "country": "",
    "dept": "cymbals",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Adams Musical Instruments",
@@ -5229,21 +5388,23 @@
   },
   {
    "n": "See also",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bass_guitar_manufacturers",
    "says": "Named on Wikipedia \"List of bass guitar manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "bass guitars",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "References",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bass_guitar_manufacturers",
    "says": "Named on Wikipedia \"List of bass guitar manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "bass guitars",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "ARP",
@@ -5823,21 +5984,23 @@
   },
   {
    "n": "Backun Mucical Services",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_clarinet_makers",
    "says": "Named on Wikipedia \"List of clarinet makers\" (no own article; existence only)",
    "country": "",
    "dept": "clarinets",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Clarke W. Fobes",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_clarinet_makers",
    "says": "Named on Wikipedia \"List of clarinet makers\" (no own article; existence only)",
    "country": "",
    "dept": "clarinets",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alexander",
@@ -6030,237 +6193,263 @@
   },
   {
    "n": "B&S",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "BAC Music",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Eastman Winds",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Geneva",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Jinbao",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Schiller",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Taishan",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Wessex Tubas",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Weril",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Willson",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Yamaha Musical Instruments",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "John Lathrop Allen",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Graves and Co.",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "E.G. Wright and Company",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Hall Instrument Company",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Quinby and Hall Band Instruments",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Hall, Quinby and Wright Company",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Hall and Quinby",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Quinby Brothers",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "The Standard Band Instrument Company",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "The [Vega Company]",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Kanstul Musical Instruments",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Hirsbrunner",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Boosey & Company",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Hawkes & Son",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "DEG Music",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_euphonium,_baritone_horn_and_tenor_horn_manufacturers",
    "says": "Named on Wikipedia \"List of euphonium, baritone horn and tenor horn manufacturers\" (no own article; existence only)",
    "country": "",
    "dept": "brass",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "August Förster",
@@ -13955,7 +14144,8 @@
    "says": "Craftsmanship Magazine \"Mexico's Master Guitar Makers\" (Paracho): named master luthier/workshop",
    "country": "Mexico",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Guillermo Rubio",
@@ -13964,7 +14154,8 @@
    "says": "Craftsmanship Magazine \"Mexico's Master Guitar Makers\" (Paracho): named master luthier/workshop",
    "country": "Mexico",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Benito Huipe and Sons",
@@ -13973,7 +14164,8 @@
    "says": "Craftsmanship Magazine \"Mexico's Master Guitar Makers\" (Paracho): named master luthier/workshop",
    "country": "Mexico",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "German Vazquez Rubio",
@@ -13982,196 +14174,218 @@
    "says": "Craftsmanship Magazine \"Mexico's Master Guitar Makers\" (Paracho): named master luthier/workshop",
    "country": "Mexico",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Zeryab",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://www.ethnicmusical.com/oud/oud-instrument",
    "says": "Ethnic Musical (specialist retailer) article \"today's most important Oud makers and brands\" (seller statement; existence)",
    "country": "Syria",
    "dept": "oud",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Gawharet El Fan",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://www.ethnicmusical.com/oud/oud-instrument",
    "says": "Ethnic Musical (specialist retailer) article \"today's most important Oud makers and brands\" (seller statement; existence)",
    "country": "Egypt",
    "dept": "oud",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Mohammed Fadel",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://www.ethnicmusical.com/oud/oud-instrument",
    "says": "Ethnic Musical (specialist retailer) article \"today's most important Oud makers and brands\" (seller statement; existence)",
    "country": "Iraq",
    "dept": "oud",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Ibrahim Sukar",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://www.ethnicmusical.com/oud/oud-instrument",
    "says": "Ethnic Musical (specialist retailer) article \"today's most important Oud makers and brands\" (seller statement; existence)",
    "country": "",
    "dept": "oud",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Barış Karatekeli",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://www.ethnicmusical.com/oud/oud-instrument",
    "says": "Ethnic Musical (specialist retailer) article \"today's most important Oud makers and brands\" (seller statement; existence)",
    "country": "Turkey",
    "dept": "oud",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Caorong",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://eight-tones.store/",
    "says": "Specialist Chinese-instrument retailer brand list (erhu, guzheng, guqin, dizi makers); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Shanghai Dunhuang National Musical Instruments Factory",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://eight-tones.store/",
    "says": "Specialist Chinese-instrument retailer brand list (erhu, guzheng, guqin, dizi makers); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Zhang Lian Jun",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://eight-tones.store/",
    "says": "Specialist Chinese-instrument retailer brand list (erhu, guzheng, guqin, dizi makers); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Zhonghao Zhengweidao",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://eight-tones.store/",
    "says": "Specialist Chinese-instrument retailer brand list (erhu, guzheng, guqin, dizi makers); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Fanshi",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://eight-tones.store/",
    "says": "Specialist Chinese-instrument retailer brand list (erhu, guzheng, guqin, dizi makers); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Zhuque",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://eight-tones.store/",
    "says": "Specialist Chinese-instrument retailer brand list (erhu, guzheng, guqin, dizi makers); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Bao Ying Ying",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://eight-tones.store/",
    "says": "Specialist Chinese-instrument retailer brand list (erhu, guzheng, guqin, dizi makers); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Mujiuchen",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://eight-tones.store/",
    "says": "Specialist Chinese-instrument retailer brand list (erhu, guzheng, guqin, dizi makers); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Hanullim",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://www.soundofasia.com/",
    "says": "Specialist Asian-instrument retailer names these makers (buk drums, koto, gayageum); existence only",
    "country": "Korea",
    "dept": "Korean/Japanese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Mishimaya",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://www.soundofasia.com/",
    "says": "Specialist Asian-instrument retailer names these makers (buk drums, koto, gayageum); existence only",
    "country": "Japan",
    "dept": "Korean/Japanese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Marusan Hashimoto",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://www.soundofasia.com/",
    "says": "Specialist Asian-instrument retailer names these makers (buk drums, koto, gayageum); existence only",
    "country": "Japan",
    "dept": "Korean/Japanese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Huqiu",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://landtom.com/en-sa",
    "says": "Chinese-instrument maker/retailer lists cooperating brands (Dunhuang, Yuehai, Huqiu...); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Yuehai",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://landtom.com/en-sa",
    "says": "Chinese-instrument maker/retailer lists cooperating brands (Dunhuang, Yuehai, Huqiu...); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Bainianhaozheng",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://landtom.com/en-sa",
    "says": "Chinese-instrument maker/retailer lists cooperating brands (Dunhuang, Yuehai, Huqiu...); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Xiansheng",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://landtom.com/en-sa",
    "says": "Chinese-instrument maker/retailer lists cooperating brands (Dunhuang, Yuehai, Huqiu...); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Landtom",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://landtom.com/en-sa",
    "says": "Chinese-instrument maker/retailer lists cooperating brands (Dunhuang, Yuehai, Huqiu...); existence only",
    "country": "China",
    "dept": "Chinese instruments",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Asano Taiko",
@@ -14976,264 +15190,293 @@
   },
   {
    "n": "Alphorn Rieger",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphorn Werkstatt",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Naturinstrumente Heimatklang",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Schnitzstub'n Peitler",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphornbau Alois Biermaier",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphornbau Bader",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphornbau Hense",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphornbau Neumann",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphornbau Plank",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphornbau Robert Vogel",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphornhof Wagner",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphorn Huber",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphorn Stocker",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphornbau Bischof",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphornbau Eichenberger",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphornbau Schemberklang",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Alphornbau Thunersee",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Art of Alphorn von Allmen",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Bachmann’s Alphornmacherei",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Bärtschi Alphornbau",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Bernatone",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Cattaneo & Kunz",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Helvetic Alphorn",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "JurAlphorn",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Morisod",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Otto Emmenegger",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Suissewood",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "The Swiss Carbon Alphorn",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Fritz Frautschi",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://alphorns.com/alphornmakers.html",
    "says": "Listed in alphorns.com directory \"Alphorn Makers on the Web\" (48 makers; existence only)",
    "country": "Switzerland/Germany/Austria",
    "dept": "alphorn",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "MacLellan Bagpipes",
@@ -15354,183 +15597,203 @@
   },
   {
    "n": "James Ramsay Oswald",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Dunbar Bagpipe Maker Ltd.",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "John Walsh Bagpipes Ltd.",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "The Burley Bagpipes Company",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Lee & Sons Bagpipes",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Macbeth and Co. Bagpipes",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Fisher Bagpipes",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "American Bagpipe Makers Inc.",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Rolf of Sweden",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "William Sinclair and Son",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "O'Mahony Warpipes",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "O'Keeffe Warpipes",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "O'Crowley Music",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "David Naill & Co., Ltd.",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Peter Henderson Ltd.",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "R. G. Hardie & Co.",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Iona Bagpipes",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Name",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Julian Goodacre",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Yannis Pantazis",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_bagpipe_makers",
    "says": "Listed in Wikipedia \"List of bagpipe makers\" (no own article; existence)",
    "country": "",
    "dept": "bagpipes",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Fuji Gengakki",
@@ -15606,75 +15869,83 @@
   },
   {
    "n": "Atlansia",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_Japanese_OEM_guitar_manufacturers",
    "says": "Listed in Wikipedia \"List of Japanese OEM guitar manufacturers\" (existence)",
    "country": "Japan",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Chushin Gakki",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_Japanese_OEM_guitar_manufacturers",
    "says": "Listed in Wikipedia \"List of Japanese OEM guitar manufacturers\" (existence)",
    "country": "Japan",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Dyna Gakki",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_Japanese_OEM_guitar_manufacturers",
    "says": "Listed in Wikipedia \"List of Japanese OEM guitar manufacturers\" (existence)",
    "country": "Japan",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Iida Gakki",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_Japanese_OEM_guitar_manufacturers",
    "says": "Listed in Wikipedia \"List of Japanese OEM guitar manufacturers\" (existence)",
    "country": "Japan",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Kasuga",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_Japanese_OEM_guitar_manufacturers",
    "says": "Listed in Wikipedia \"List of Japanese OEM guitar manufacturers\" (existence)",
    "country": "Japan",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Sugi Guitars",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_Japanese_OEM_guitar_manufacturers",
    "says": "Listed in Wikipedia \"List of Japanese OEM guitar manufacturers\" (existence)",
    "country": "Japan",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Terada",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_Japanese_OEM_guitar_manufacturers",
    "says": "Listed in Wikipedia \"List of Japanese OEM guitar manufacturers\" (existence)",
    "country": "Japan",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Yamaki",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/List_of_Japanese_OEM_guitar_manufacturers",
    "says": "Listed in Wikipedia \"List of Japanese OEM guitar manufacturers\" (existence)",
    "country": "Japan",
    "dept": "guitars",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Panji Gong Agung",
@@ -15687,30 +15958,33 @@
   },
   {
    "n": "Ariel Baleriano",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://charango.it/renaissance-charango-aiquileno",
    "says": "Charango.it article on the Aiquile charango tradition names luthiers (Aiquile: >120 makers, \"capital of the charango\")",
    "country": "Bolivia",
    "dept": "charango",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Ignacio Suárez",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://charango.it/renaissance-charango-aiquileno",
    "says": "Charango.it article on the Aiquile charango tradition names luthiers (Aiquile: >120 makers, \"capital of the charango\")",
    "country": "Bolivia",
    "dept": "charango",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Clarken Orosco",
-   "layer": "premium",
+   "layer": "cultural",
    "src": "https://www.charangomall.com/en/clarken-orosco/orosco-concert-charango-naranjillo-wood-p-10001.html",
    "says": "Seller (Charango Mall) describes \"recognized Bolivian luthier and charango player\" (seller statement; existence)",
    "country": "Bolivia",
    "dept": "charango",
-   "already": false
+   "already": false,
+   "evidence": "existence"
   },
   {
    "n": "Mauro Nunez",
@@ -15764,7 +16038,8 @@
    "says": "Winner of a 34th NAMM TEC Awards (2019) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Audient",
@@ -15773,7 +16048,8 @@
    "says": "Winner of a 37th NAMM TEC Awards (2022) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Austrian Audio",
@@ -15782,7 +16058,8 @@
    "says": "Winner of a 37th NAMM TEC Awards (2022) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "EVE Audio",
@@ -15791,7 +16068,8 @@
    "says": "Winner of a 37th NAMM TEC Awards (2022) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Meyer Sound",
@@ -15800,7 +16078,8 @@
    "says": "Winner of a 37th NAMM TEC Awards (2022) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "TELEFUNKEN Elektroakustik",
@@ -15809,7 +16088,8 @@
    "says": "Winner of a 37th NAMM TEC Awards (2022) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "sE Electronics",
@@ -15818,7 +16098,8 @@
    "says": "Winner of a 37th NAMM TEC Awards (2022) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Earthworks Audio",
@@ -15827,7 +16108,8 @@
    "says": "Winner of a 39th NAMM TEC Awards (2024) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "JBL Professional",
@@ -15836,7 +16118,8 @@
    "says": "Winner of a 39th NAMM TEC Awards (2024) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "SPL",
@@ -15845,7 +16128,8 @@
    "says": "Winner of a 39th NAMM TEC Awards (2024) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Metric Halo",
@@ -15854,7 +16138,8 @@
    "says": "Winner of a 26th TEC Awards (2011) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Avid",
@@ -15863,7 +16148,8 @@
    "says": "Winner of a 26th TEC Awards (2011) technical achievement category (NAMM TEC Awards)",
    "country": "",
    "dept": "pro audio / instruments",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Euphonix",
@@ -15872,7 +16158,8 @@
    "says": "Winner of a 2008 MIPA (Musikmesse International Press Award, voted by 100+ music/audio magazines) category",
    "country": "",
    "dept": "instruments and pro audio",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Mackie",
@@ -15881,7 +16168,8 @@
    "says": "Winner of a 2008 MIPA (Musikmesse International Press Award, voted by 100+ music/audio magazines) category",
    "country": "",
    "dept": "instruments and pro audio",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Aviom",
@@ -15890,7 +16178,8 @@
    "says": "Winner of a 2008 MIPA (Musikmesse International Press Award, voted by 100+ music/audio magazines) category",
    "country": "",
    "dept": "instruments and pro audio",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "L-Acoustics",
@@ -15899,7 +16188,8 @@
    "says": "Winner of a 2008 MIPA (Musikmesse International Press Award, voted by 100+ music/audio magazines) category",
    "country": "",
    "dept": "instruments and pro audio",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "LR Baggs",
@@ -15908,7 +16198,8 @@
    "says": "Winner of a 2008 MIPA (Musikmesse International Press Award, voted by 100+ music/audio magazines) category",
    "country": "",
    "dept": "instruments and pro audio",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Hartke",
@@ -15917,7 +16208,8 @@
    "says": "Winner of a 2008 MIPA (Musikmesse International Press Award, voted by 100+ music/audio magazines) category",
    "country": "",
    "dept": "instruments and pro audio",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "HK Audio",
@@ -15926,7 +16218,8 @@
    "says": "Winner of a 2011 MIPA (Musikmesse International Press Award) category or Lifetime Achievement",
    "country": "",
    "dept": "pro audio",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Soundcraft",
@@ -15935,7 +16228,8 @@
    "says": "Winner of a 2011 MIPA (Musikmesse International Press Award) category or Lifetime Achievement",
    "country": "",
    "dept": "pro audio",
-   "already": false
+   "already": false,
+   "evidence": "quality"
   },
   {
    "n": "Beaumont Music",
@@ -16859,6 +17153,451 @@
    "dept": "didgeridoo",
    "role": "seller",
    "already": false
+  },
+  {
+   "n": "Antonio Raya Pardo",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Antonio Raya Ferrer",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Angel Benito Aguado",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Ana Espinosa Rodriguez",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Andrés Dominguez Guerrero",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Alberto Martin Ramos",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Aarón García Ruíz",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Daniel Gil de Avalle",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Eduardo Duran Ferrer",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Francisco Santiago Marin",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Felix Manzanero",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Hermanos Sanchis Lopez",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Juan Montero Aguilera",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Juan Miguel Gonzalez",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Juan Fabian Labella Manjon",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Juan Alvarez",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "José Ruiz Pedregosa",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Jose Romero",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "José Marin Plazuelo",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "José Manuel Fernández",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Jesús Bellido",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "J.B. Castelluccia",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Paco Alberto Pantoja",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Mariano Conde",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Manuel Romero Macías",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Manuel Rodriguez",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Manuel Reyes",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Manuel López Bellido",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Manuel Adalid",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Santos Bayón Ruiz",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Pedro Maldonado",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "René Baarslag",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Rafael Romero Barroso",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Rafael Moreno Rodriguez",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Rúben Moisés López",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Ricardo Sanchis Carpio",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Vicente Carrillo Casas",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Valeriano Bernal",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Felipe Conde",
+   "layer": "cultural",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Listed in Zavaleta's (specialist Spanish guitar retailer) guitar-maker biographies of Spanish luthiers (existence only)",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Marcelino López Nieto",
+   "layer": "premium",
+   "src": "https://www.zavaletas-guitarras.com/guitar-makers-biographies",
+   "says": "Zavaleta biography: \"one of only five living Spanish makers included on Summerfield's list of the finest guitar makers since 1800\"",
+   "country": "Spain",
+   "dept": "classical/flamenco guitar",
+   "evidence": "quality"
+  },
+  {
+   "n": "Bernd Martin",
+   "layer": "premium",
+   "src": "https://www.guitarsalon.com/zh-cn/luthier/bernd-and-lucas-martin",
+   "says": "Won first prize 1999 Concurso Nacional de Lutheria (National Luthiery Competition) Spain; Granada luthier",
+   "country": "Spain",
+   "dept": "classical guitar",
+   "evidence": "quality"
+  },
+  {
+   "n": "Hiren Roy and Sons",
+   "layer": "cultural",
+   "src": "https://www.musiciansmallusa.com/guide-to-makers",
+   "says": "Seller guide profiling Calcutta/Delhi sitar-making shops (Hiren Roy \"without equal for sitar craftsmanship\"; Radha Krishna sitars \"much prized by connoisseurs\"; Kanailal instruments \"collector's items\")",
+   "country": "India",
+   "dept": "sitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Radha Krishna Sharma",
+   "layer": "cultural",
+   "src": "https://www.musiciansmallusa.com/guide-to-makers",
+   "says": "Seller guide profiling Calcutta/Delhi sitar-making shops (Hiren Roy \"without equal for sitar craftsmanship\"; Radha Krishna sitars \"much prized by connoisseurs\"; Kanailal instruments \"collector's items\")",
+   "country": "India",
+   "dept": "sitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Kanailal & Brother",
+   "layer": "cultural",
+   "src": "https://www.musiciansmallusa.com/guide-to-makers",
+   "says": "Seller guide profiling Calcutta/Delhi sitar-making shops (Hiren Roy \"without equal for sitar craftsmanship\"; Radha Krishna sitars \"much prized by connoisseurs\"; Kanailal instruments \"collector's items\")",
+   "country": "India",
+   "dept": "sitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Manoj Kumar Sardar",
+   "layer": "cultural",
+   "src": "https://www.musiciansmallusa.com/guide-to-makers",
+   "says": "Seller guide profiling Calcutta/Delhi sitar-making shops (Hiren Roy \"without equal for sitar craftsmanship\"; Radha Krishna sitars \"much prized by connoisseurs\"; Kanailal instruments \"collector's items\")",
+   "country": "India",
+   "dept": "sitar",
+   "evidence": "existence"
+  },
+  {
+   "n": "Hemen & Co",
+   "layer": "cultural",
+   "src": "https://www.thehindu.com/entertainment/music/hemen-co-kolkatas-iconic-music-store/article38371030.ece",
+   "says": "The Hindu feature \"Hemen & Co: Kolkata's iconic music store\"; names Kolkata Rashbehari Avenue sitar/sarod makers Kanailal & Sons (1940), Hiren Roy, Makhanlal & Sons",
+   "country": "India",
+   "dept": "sitar/sarod"
+  },
+  {
+   "n": "Makhanlal & Sons",
+   "layer": "cultural",
+   "src": "https://www.thehindu.com/entertainment/music/hemen-co-kolkatas-iconic-music-store/article38371030.ece",
+   "says": "The Hindu feature \"Hemen & Co: Kolkata's iconic music store\"; names Kolkata Rashbehari Avenue sitar/sarod makers Kanailal & Sons (1940), Hiren Roy, Makhanlal & Sons",
+   "country": "India",
+   "dept": "sitar/sarod"
+  },
+  {
+   "n": "Kanailal & Sons",
+   "layer": "cultural",
+   "src": "https://www.thehindu.com/entertainment/music/hemen-co-kolkatas-iconic-music-store/article38371030.ece",
+   "says": "The Hindu feature \"Hemen & Co: Kolkata's iconic music store\"; names Kolkata Rashbehari Avenue sitar/sarod makers Kanailal & Sons (1940), Hiren Roy, Makhanlal & Sons",
+   "country": "India",
+   "dept": "sitar/sarod"
+  },
+  {
+   "n": "Zilçan",
+   "layer": "cultural",
+   "src": "https://www.akademie-solitude.de/de/on-vessel-and-the-history-of-cymbal-making-in-istanbul",
+   "says": "Akademie Schloss Solitude essay on history of cymbal making in Istanbul: Zildjian 1618, Zilcan, Istanbul Agop and Istanbul Mehmet (split 1996)",
+   "country": "Turkey",
+   "dept": "cymbals"
+  },
+  {
+   "n": "Zilciler Kollektif",
+   "layer": "cultural",
+   "src": "https://www.akademie-solitude.de/de/on-vessel-and-the-history-of-cymbal-making-in-istanbul",
+   "says": "Akademie Schloss Solitude essay on history of cymbal making in Istanbul: Zildjian 1618, Zilcan, Istanbul Agop and Istanbul Mehmet (split 1996)",
+   "country": "Turkey",
+   "dept": "cymbals"
   }
  ]
 }

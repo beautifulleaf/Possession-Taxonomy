@@ -156,8 +156,821 @@
    }
   ]
  },
- "add_brands": [],
- "add_regions": [],
+ "add_brands": [
+  {
+   "n": "Hamleys",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Hamleys",
+   "says": "London toy shop founded 1760, listed by Guinness as the world's oldest toy store; royal warrant from Queen Mary 1938 and Elizabeth II 1955-2022",
+   "country": "United Kingdom",
+   "dept": "toys (retailer)",
+   "region": "Western Europe (UK)",
+   "role": "seller"
+  },
+  {
+   "n": "Lotería Don Clemente",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Loter%C3%ADa",
+   "says": "Don Clemente Jacques began publishing loteria in 1887; his card images have become iconic in Mexican culture",
+   "country": "Mexico",
+   "dept": "cards, dice & game parts",
+   "region": "Latin America (Mexico)"
+  },
+  {
+   "n": "Sergievskaya Igrushka",
+   "layer": "cultural",
+   "src": "https://russianlife.com/the-russia-file/matryoshka-soul-of-russia",
+   "says": "Sergiev Toy Factory established 1995 to revive the early Sergiev Posad matryoshka style",
+   "country": "Russia",
+   "dept": "dolls (traditional)",
+   "region": "Eastern Europe (Russia: Sergiev Posad)"
+  },
+  {
+   "n": "Sergiev Posad Toy Factory No. 1",
+   "layer": "cultural",
+   "src": "https://russianlife.com/the-russia-file/matryoshka-soul-of-russia",
+   "says": "Artisan-Artist artel of Sergiev Posad (1910) became Toy Factory #1 in 1928; the matryoshka centre",
+   "country": "Russia",
+   "dept": "dolls (traditional)",
+   "region": "Eastern Europe (Russia: Sergiev Posad)",
+   "alias": "Zagorsk Toy Factory"
+  },
+  {
+   "n": "Käthe Kruse",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/K%C3%A4the_Kruse",
+   "says": "dolls handmade since 1911; original dolls remain very collectible due to their realism and durability; still made by hand in Donauwörth",
+   "country": "Germany",
+   "dept": "dolls",
+   "region": "Central Europe (Germany)"
+  },
+  {
+   "n": "Kösener Spielzeug Manufaktur",
+   "layer": "cultural",
+   "src": "https://www.l-iz.de/bildung/buecher/2012/04/Koesener-Spielzeug-Ein-kleines-Buch-zum-100-jaehrigen-41389",
+   "says": "Bad Kösen soft-toy manufactory, 100 years in 2012 (founded by Käthe Kruse 1912), rescued after 1990",
+   "country": "Germany",
+   "dept": "soft toys",
+   "region": "Central Europe (Germany)"
+  },
+  {
+   "n": "HERMANN-Spielwaren (Hermann Coburg)",
+   "layer": "premium",
+   "src": "https://wp.hermann-coburg.de/en/service-en/about-us/",
+   "says": "teddy bear maker founded 1920 near Sonneberg, mohair/alpaca, excelsior stuffing, TOBY and Golden Teddy awards (own site: verify independently, else listed)",
+   "country": "Germany",
+   "dept": "soft toys",
+   "region": "Central Europe (Germany: Sonneberg/Coburg)"
+  },
+  {
+   "n": "Sylvanian Families",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Sylvanian_Families",
+   "says": "Epoch's animal-figure line, created 1985 in Japan, sold worldwide (Calico Critters in US)",
+   "country": "Japan",
+   "dept": "dolls & playsets",
+   "region": "East Asia (Japan)"
+  },
+  {
+   "n": "Six Brothers Baduk",
+   "layer": "premium",
+   "src": "https://www.koreatimes.co.kr/lifestyle/koreanheritage/20260915/artisan-behind-koreas-legendary-baduk-boards",
+   "says": "Namyangju baduk board maker (founded 1989); about 70% of Korean market; made the AlphaGo-Lee Se-dol board; master-grade bija boards",
+   "country": "South Korea",
+   "dept": "traditional game sets (Go)",
+   "region": "East Asia (Korea)"
+  },
+  {
+   "n": "Kofi Tall Games (KTG)",
+   "layer": "cultural",
+   "src": "https://mancala.fandom.com/wiki/Kofi_C._Agudoawu",
+   "says": "trade name of Kofi C. Agudoawu, Ghanaian artisan famous for hand-carved oware boards (Kumasi/Bonwire, Ashanti Craftsmen Association)",
+   "country": "Ghana",
+   "dept": "traditional game sets (mancala)",
+   "region": "Sub-Saharan Africa (Ghana: Ashanti)"
+  },
+  {
+   "n": "Wooden Story",
+   "layer": "premium",
+   "src": "https://scanmagazine.co.uk/wooden-story-a-family-business-committed-to-creating-hand-crafted-heirloom-toys/",
+   "says": "Polish family toy maker from the Małopolska mountains, third-generation, hand-crafted heirloom toys from FSC wood",
+   "country": "Poland",
+   "dept": "wooden toys",
+   "region": "Central Europe (Poland)"
+  },
+  {
+   "n": "Łobozowie (Wiesława and Marian Łoboz)",
+   "layer": "cultural",
+   "src": "https://en.nagrodakolberg.pl/laureaci-wieslawa_i_marian_lobozowie",
+   "says": "wooden toy artists, last toy-making family of the Żywiec region (Pewel Wielka); Oskar Kolberg Award 2019",
+   "country": "Poland",
+   "dept": "wooden toys (folk)",
+   "region": "Central Europe (Poland: Żywiec)"
+  },
+  {
+   "n": "Rechapados Ferrer",
+   "layer": "premium",
+   "src": "https://kuwaittimes.com/spain-chessboard-makers-sales-soar-on-queens-gambit-success",
+   "says": "La Garriga family chessboard maker (AFP): boards used in tournaments and in The Queen's Gambit; 98% exported",
+   "country": "Spain",
+   "dept": "traditional game sets (chess)",
+   "region": "Southern Europe (Spain)"
+  },
+  {
+   "n": "Lenci",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Lenci_doll",
+   "says": "Turin wool-felt dolls with heat-pressed faces and intricate clothing; highly prized collectibles",
+   "country": "Italy",
+   "dept": "dolls",
+   "region": "Southern Europe (Italy)"
+  },
+  {
+   "n": "Les Petites Maries",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/la-liste-complete-des-entreprises-epv/",
+   "says": "EPV-labelled maker (founded 1963) of French plush toys and the puppets of Bonne Nuit les Petits",
+   "country": "France",
+   "dept": "soft toys & puppets",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Wilson Jeux",
+   "layer": "cultural",
+   "src": "https://www.marques-de-france.fr/la-liste-complete-des-entreprises-epv/",
+   "says": "EPV-labelled Paris games maker (PMW - Wilson Jeux)",
+   "country": "France",
+   "dept": "games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Billards Toulet (Maison Toulet)",
+   "layer": "premium",
+   "src": "https://www.marques-de-france.fr/la-liste-complete-des-entreprises-epv/",
+   "says": "EPV-labelled French maker since 1857 of hand-made billiards and baby-foot (table football)",
+   "country": "France",
+   "dept": "table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Manuel Jiménez",
+   "layer": "cultural",
+   "src": "https://www.sandiafolk.com/blogs/news/oaxacan-towns-alebrije-creations",
+   "says": "Arrazola carver credited with founding the alebrije wood-carving tradition (seller blog; listed)",
+   "country": "Mexico",
+   "dept": "folk toys & figures",
+   "region": "Latin America (Mexico: Oaxaca)"
+  },
+  {
+   "n": "Isidoro Cruz",
+   "layer": "cultural",
+   "src": "https://www.sandiafolk.com/blogs/news/oaxacan-towns-alebrije-creations",
+   "says": "one of San Martín Tilcajete's most famous and experienced alebrije artisans (seller blog; listed)",
+   "country": "Mexico",
+   "dept": "folk toys & figures",
+   "region": "Latin America (Mexico: Oaxaca)"
+  },
+  {
+   "n": "María Jiménez Ojeda",
+   "layer": "cultural",
+   "src": "https://oaxacaculture.com/2008/02/alebrijes-in-search-of-the-masters/",
+   "says": "San Martín Tilcajete alebrije carver named among the masters of the three great carving villages",
+   "country": "Mexico",
+   "dept": "folk toys & figures",
+   "region": "Latin America (Mexico: Oaxaca)"
+  },
+  {
+   "n": "Matagot",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Bombyx",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Oya",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Superlude",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Purple Brain",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Sentosphère",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Ludodélire",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Jeux Nathan",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Blackrock Games",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Moonster Games",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Origames",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Super Meeple",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Sorry We Are French",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Catch Up Games",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Editrice Giochi",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Lucky Duck Games",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Pearl Games",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Fox Mind Games",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Hurrican",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Tactic",
+   "layer": "premium",
+   "src": "https://fr.wikipedia.org/wiki/As_d%27or_Jeu_de_l%27ann%C3%A9e",
+   "says": "publisher (éditeur) of an As d'Or (Cannes) winning game, per winners tables",
+   "country": "",
+   "dept": "board, card & table games",
+   "region": "Western Europe (France)"
+  },
+  {
+   "n": "Barbie",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "American Girl",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Cabbage Patch Kids",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Sindy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Polly Pocket",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Raggedy Ann",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Kewpie",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Mariquita Pérez",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Sasha Morgenthaler",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Cicciobello",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Sonny Angel",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Smiski",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Super Dollfie",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Blythe",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Doll_brands",
+   "says": "member of Wikipedia Category:Doll brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Play-Doh",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Lite-Brite",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Spirograph",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Super Soaker",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Mr. Potato Head",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Easy-Bake Oven",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Lincoln Logs",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Stretch Armstrong",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Stickle Bricks",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Playskool",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Furby",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Action Man",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "G.I. Joe",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Weeble",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Beyblade",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Hasbro_products",
+   "says": "member of Wikipedia Category:Hasbro products (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Etch A Sketch",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Spin_Master",
+   "says": "member of Wikipedia Category:Spin Master (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Rubik's",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Spin_Master",
+   "says": "member of Wikipedia Category:Spin Master (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Air Hogs",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Spin_Master",
+   "says": "member of Wikipedia Category:Spin Master (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Hexbug",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Spin_Master",
+   "says": "member of Wikipedia Category:Spin Master (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Perplexus",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Spin_Master",
+   "says": "member of Wikipedia Category:Spin Master (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Gunpla",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Bandai_brands",
+   "says": "member of Wikipedia Category:Bandai brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Tamagotchi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Bandai_brands",
+   "says": "member of Wikipedia Category:Bandai brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Frisbee",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wham-O_brands",
+   "says": "member of Wikipedia Category:Wham-O brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Super Ball",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wham-O_brands",
+   "says": "member of Wikipedia Category:Wham-O brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Silly String",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Wham-O_brands",
+   "says": "member of Wikipedia Category:Wham-O brands (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Breyer Animal Creations",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Model_manufacturers_of_the_United_States",
+   "says": "member of Wikipedia Category:Model manufacturers of the United States (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  },
+  {
+   "n": "Horizon Hobby",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Model_manufacturers_of_the_United_States",
+   "says": "member of Wikipedia Category:Model manufacturers of the United States (toy icon / brand line)",
+   "country": "",
+   "dept": "toys & games",
+   "region": ""
+  }
+ ],
+ "add_regions": [
+  {
+   "region": "Eastern Europe (Russia: Sergiev Posad)",
+   "speciality": "birthplace of the matryoshka (Zvyozdochkin/Malyutin, 1890s); Artisan-Artist artel 1910, Toy Factory No.1 1928, Sergievskaya Igrushka 1995",
+   "src": "https://russianlife.com/the-russia-file/matryoshka-soul-of-russia",
+   "brands": [
+    "Sergiev Posad Toy Factory No. 1",
+    "Sergievskaya Igrushka"
+   ]
+  },
+  {
+   "region": "Latin America (Mexico: Oaxaca)",
+   "speciality": "alebrijes: San Martín Tilcajete, Arrazola and La Unión are the three great wood-carving villages",
+   "src": "https://oaxacaculture.com/2008/02/alebrijes-in-search-of-the-masters/",
+   "brands": [
+    "Taller Jacobo y María Ángeles",
+    "María Jiménez Ojeda",
+    "Manuel Jiménez",
+    "Isidoro Cruz"
+   ]
+  },
+  {
+   "region": "Latin America (Mexico)",
+   "speciality": "lotería card game; Don Clemente edition iconic since 1887",
+   "src": "https://en.wikipedia.org/wiki/Loter%C3%ADa",
+   "brands": [
+    "Lotería Don Clemente"
+   ]
+  },
+  {
+   "region": "Central Europe (Poland: Żywiec, Beskids)",
+   "speciality": "folk wooden toys of the Żywiec region; Kolberg Award to the last toy-making family",
+   "src": "https://en.nagrodakolberg.pl/laureaci-wieslawa_i_marian_lobozowie",
+   "brands": [
+    "Łobozowie (Wiesława and Marian Łoboz)",
+    "Wooden Story"
+   ]
+  },
+  {
+   "region": "East Asia (Korea: Namyangju)",
+   "speciality": "baduk (Go) boards in bija wood",
+   "src": "https://www.koreatimes.co.kr/lifestyle/koreanheritage/20260915/artisan-behind-koreas-legendary-baduk-boards",
+   "brands": [
+    "Six Brothers Baduk"
+   ]
+  },
+  {
+   "region": "Sub-Saharan Africa (Ghana: Ashanti)",
+   "speciality": "hand-carved oware boards (Kumasi, Bonwire)",
+   "src": "https://mancala.fandom.com/wiki/Kofi_C._Agudoawu",
+   "brands": [
+    "Kofi Tall Games (KTG)"
+   ]
+  },
+  {
+   "region": "South Asia (India: Channapatna, Karnataka)",
+   "speciality": "lacquered ivory-wood toys protected as a Geographical Indication (stronger src than the tourism page)",
+   "src": "https://en.wikipedia.org/wiki/Channapatna_toys",
+   "brands": [
+    "Meeran Art & Crafts"
+   ]
+  },
+  {
+   "region": "South Asia (India: Kondapalli, Andhra Pradesh)",
+   "speciality": "tella poniki wood toys, Geographical Indication",
+   "src": "https://en.wikipedia.org/wiki/Kondapalli_toys",
+   "brands": [
+    "Kondapalli Wooden Toys"
+   ]
+  },
+  {
+   "region": "Western Europe (France: Jura)",
+   "speciality": "wooden toys of Moirans-en-Montagne; EPV-labelled makers",
+   "src": "https://www.marques-de-france.fr/la-liste-complete-des-entreprises-epv/",
+   "brands": [
+    "Jeujura",
+    "Vilac",
+    "Maison Tirot",
+    "Les Petites Maries"
+   ]
+  }
+ ],
  "drop": [
   {
    "n": "Lists of video game companies",
@@ -621,10 +1434,6 @@
   },
   {
    "n": "Melbourne House",
-   "why": "video-game company (move to E5, not E1)"
-  },
-  {
-   "n": "Holistic Design",
    "why": "video-game company (move to E5, not E1)"
   },
   {

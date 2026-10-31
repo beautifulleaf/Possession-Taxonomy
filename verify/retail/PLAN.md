@@ -22,3 +22,4 @@ Rules for the enrichment pass:
 - INDEX CLEANUP: Ferrari (cars/fragrance) and Deutz (champagne) rows carry a C7 tag meant for the tractor makers; remove it (VERIFY_C7 creates Ferrari (tractors) and Deutz-Fahr).
 - C5 open questions (coordinator, index cleanup): Uni-ball vs Mitsubishi Pencil rows (brand of that maker: add rel), Helix (now Maped), Wahl-Eversharp vs Eversharp, Camlin vs Camel (same Kokuyo Camlin company: link with rel).
 - INDEX CLEANUP: register row 'Garrard' mixes the crown jeweller with the turntable maker (D3 tag) — split (VERIFY_D3 creates Garrard (turntables)).
+- INDEX CLEANUP (E2, from AUDIT_E2): wrong-sense E2 tags on Fischer (fixings), Bell (helicopters), Fox (sweets), Stiga (garden machinery), Castellani (jewellery), eB, Kirkland Signature; Select mixes trading cards (F3) with the football maker; Mongoose, Lynx → G1; Adidas and Nike E2 rows carry watch descriptions.
