@@ -4,3 +4,4 @@ step2 apply.py (idempotent from bak): re-added confirmed cultivars+GIs, tomato+c
 step3 report written; done
 step4 (continuation): windows read for grape(0-350k), pear, apple, mango (0-100k + 100k+), pea, lettuce, pineapple, sweet potato to end; eAmbrosia failed via Firecrawl (JS shell, cookie banner only); used Wikipedia PT/UK/PDO-by-country lists. Next: apply2.py then report
 step5 apply2.py (run after apply.py): pear/apple/mango/grape/sweetpotato/strawberry/potato/banana full lists + PT/UK/GR/FR protected names; coverage 'Complete' lines. validate OK. Next: update report
+step6 report updated; done

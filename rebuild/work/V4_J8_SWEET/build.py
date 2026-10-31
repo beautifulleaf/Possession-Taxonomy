@@ -195,6 +195,10 @@ for kn,(dn,k) in kinds.items():
     for e in k['x']:
         if e.get('role') and e['n'] in ("Magnum",'Cadbury Dairy Milk',"Hershey's Milk Chocolate Bar",'Snickers','Kit Kat','Oreo'):
             e.pop('role')
+for kn,(dn,k) in kinds.items():
+    for e in k['x']:
+        if e.get('role')=='origin' and e['n'] in('Gummy bear','Goldbears'): e.pop('role')
+        if e['n']=='Digestive': e['role']='landmark'
 # ---------- coverage / nl / sel
 cnt={kn:len(k['x']) for kn,(dn,k) in kinds.items()}
 n_cb=sum(1 for r in rows if r['s']=='CB')
@@ -280,7 +284,8 @@ ms['Ice cream']=('Ice cream is led by The Magnum Ice Cream Company and Froneri. 
  ])
 for dn,(sm,lst) in ms.items():
     depts[dn]['msum']=sm
-    depts[dn]['ms']=[{'mkt':a,'who':b,'share':c,'yr':y,'s':s,'note':n} for a,b,c,y,s,n in lst]
+    depts[dn]['ms']=[{'mkt':a,'who':b,'share':c,'yr':('not stated' if y=='n/s' else y),'s':s,'note':n} for a,b,c,y,s,n in lst]
+    depts[dn]['note']='Organised kind by product form; inside each kind brands are sectioned by tier and owner group (Global group, National champion, Independent, Craft & indie), with named traditional forms last. Market figures are in the panel above.'
 # ---------- brand register
 newb=[];upd={}
 owners={}

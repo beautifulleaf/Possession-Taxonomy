@@ -1,0 +1,15 @@
+# V4_E2_FIT report
+
+Part file: rebuild/out/E2_parts/FIT.json (about 170 KB; replaces "Fitness & home gym" and "Athletics, dance & combat"; rename "Martial arts uniform" to "Judogi"; no moves). Validator: OK, 74 kinds, 135 entries. About 45 fetches; log in rebuild/work/V4_E2_FIT/sources.tsv.
+
+Entries before to after (this part): 24 to 135. Loose models (m) are gone: in line kinds they are versions of their line or of a maker entry (all cardio, home multi-gym, HEMA, boxing glove, judogi, fencing foil, epee, sabre, mask, jacket, underarm protector).
+
+Fitness: connected and machine lines sectioned by maker, with generations as versions: Peloton Tread, Bike and Row; Concept2 RowErg (Models A to E, Dynamic), SkiErg, BikeErg; Technogym Excite, Personal Line, Bike, Unica; Life Fitness LifeCycle; Bowflex home gym, SelectTech, Max Trainer; NordicTrack incline, T Series, Commercial; StairMaster StepMill (1983 to 2012 models) and StairClimber; Rogue Echo Bike; Tonal and Tonal 2. Commodity kinds (barbell, plate, rack, bench, bar, rings, block, roller, ball, bands) lost their models and keep no entries; kettlebell gained a colour-code type. Icon rule: only origin entries kept (Hugger Mugger yoga mat, Universal Reformer, TRX, NordicTrack incline trainer, Peloton Bike); no design-collection landmark was fetched.
+
+Market panel (ms, 7 facts): Peloton 51 % and BODi 11 % of US at-home fitness spend (2024, Earnest Analytics); Hydrow, Bowflex, Mirror each under 2 %; Peloton revenue $2.491 bn (2025); Technogym EUR 509 m (2020); Life Fitness sold to KPS for $490 m (2019); Bowflex bought by Johnson Health Tech for $37.5 m (2024).
+
+Athletics: shot, discus, hammer (new kind), javelin and hurdle are standards as types (weights, diameters, lengths, heights by category, including masters), from Neuff's guide to the throwing rules. Not from the World Athletics rulebook itself: that was not fetched. Dance: pointe shoes now seven makers by country (Freed 1929, Repetto 1947, Merlet, Bloch 1932 with RP Collection 2024, Gaynor Minden 1993, Capezio, Grishko 1989); ballet, character, jazz and tap models removed as commodity. Combat: boxing gloves by maker (Cleto Reyes, Everlast, Winning, Twins, Hayabusa, others); uniforms split into Judogi, Karate gi, Taekwondo dobok and Brazilian jiu-jitsu gi, with belt ranks as types.
+
+Removed as retail SKUs: all models of gorget, chest protector, glove, breeches, shoe, headguard, punch bag, shinai, bokken, kendo armour, starting block, skipping rope, Pilates reformer makers.
+
+Not sourced: Winning, Cleto Reyes, Tonal, Hydrow, iFIT, Precor, Schwinn Airdyne and TRX Wikipedia pages returned 404 or the wrong page; Tonal is sourced to its press release. Maker entries for Sole, ProForm, Marcy, Echelon, Keiser and similar rest on retailer category pages only; no global home-fitness market size could be fetched (page 410); country and tier fields for some makers come from general knowledge, not a fetched page. BJJ page was read to 100,000 of 175,000 characters.

@@ -359,7 +359,7 @@ bj={'n':'Brazilian jiu-jitsu gi','a':'BJJ gi','d':'Jiu-jitsu uniform, lighter th
 si=[s for s in dept_a['s'] if s['n']=='Budo & martial arts'][0]
 i=si['k'].index(mu);si['k'][i+1:i+1]=[kg,db,bj]
 for kn in ['Kendo armour','Shinai','Bokken','Iaito']:KA[kn].pop('m',None)
-KA['Iaito']['x'][0]['g']='Minosaka'
+KA['Iaito']['x'][0]['g']='Minosaka';KA['Iaito'].update({'nl':'One entry is an iaito line from one maker; fittings are versions.','sel':'No whole-space list of iaito exists; the one line is from the shop guide cited. Covers 1 line.','xg':'by maker'})
 dept_a['note']=dept_a['note']
 dept_a['ax']=dept_a['ax']
 out={'replaces':['Fitness & home gym','Athletics, dance & combat'],'depts':[dept_f,dept_a],'renames':{'Martial arts uniform':'Judogi'},'moves':[]}
