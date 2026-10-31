@@ -425,6 +425,88 @@
    ],
    "found": 0,
    "note": "not searched in this pass"
+  },
+  {
+   "axis": "kind",
+   "item": "Avocado, okra & olive",
+   "queries": [
+    "Mission Produce Calavo Westfalia avocado brands leading marketers"
+   ],
+   "found": 10,
+   "note": "market report"
+  },
+  {
+   "axis": "kind",
+   "item": "Warm-temperate & desert fruit (date)",
+   "queries": [
+    "best premium Medjool dates brands Bateel Al Barakah Joolies"
+   ],
+   "found": 1,
+   "note": "only Bateel via own page; Al Barakah not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Japan luxury fruit shops Sembikiya Takano Senbikiya Yubari melon"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "premium dates Bateel"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Nightshade vegetables (tomato)",
+   "queries": [
+    "Consorzio Pomodoro di Pachino IGP soci produttori elenco"
+   ],
+   "found": 19,
+   "note": "PGI consortium members"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Pachino IGP / Mela Alto Adige consortium"
+   ],
+   "found": 19,
+   "note": "Mela Alto Adige member list not fetched (VOG excerpt only)"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Ratnagiri Alphonso GI mango producers cooperative brand"
+   ],
+   "found": 1,
+   "note": "direct-sale farm sites (AlphonsoMango.in, RQD Farm, Ratnagiri Farms) seen only in search excerpts, not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Musang King durian premium brand Malaysia exporter"
+   ],
+   "found": 1,
+   "note": "Straits Times piece on Tupai King/Musang King varieties seen in excerpt"
+  },
+  {
+   "axis": "kind",
+   "item": "Fruiting vegetables (seed houses)",
+   "queries": [
+    "Row 7 Seed Company Dan Barber vegetable varieties",
+    "top vegetable seed companies ranking"
+   ],
+   "found": 4,
+   "note": ""
   }
  ],
  "regions": [
@@ -474,6 +556,54 @@
    "src": "https://www.zespri.com/en-NZ/zespri-history",
    "brands": [
     "Zespri"
+   ]
+  },
+  {
+   "region": "Japan (East Asia)",
+   "speciality": "luxury gift fruit: Yubari King melons, Shine Muscat grapes, square watermelon, white peaches; fruit parlours",
+   "src": "https://metropolisjapan.com/japanese-luxury-fruits",
+   "brands": [
+    "Sembikiya",
+    "Kyobashi Sembikiya",
+    "Shinjuku Takano",
+    "Shibuya Nishimura",
+    "Sun Fruits"
+   ]
+  },
+  {
+   "region": "Arabian Peninsula (Middle East)",
+   "speciality": "premium dates (Ajwa, Medjool, Khidri, Segai, Sokari) as gourmet gifts",
+   "src": "https://bateel.com/en_us/dates",
+   "brands": [
+    "Bateel"
+   ]
+  },
+  {
+   "region": "Southern Europe (Sicily, Italy)",
+   "speciality": "Pomodoro di Pachino IGP: cherry, ribbed, plum tomatoes; ~150 member growers",
+   "src": "https://www.igppachino.it/",
+   "brands": [
+    "Ortosud Primizia",
+    "San Lorenzo Societa Agricola",
+    "Marina Marza",
+    "Land Cherry",
+    "Orto In"
+   ]
+  },
+  {
+   "region": "South Asia (Konkan, India)",
+   "speciality": "Alphonso (Hapus) mango with Geographical Indication, Ratnagiri and Devgad",
+   "src": "https://www.thehindubusinessline.com/economy/agri-business/indian-smallholder-farmers-launch-aamor%C3%A9-a-premium-alphonso-mango-brand-for-global-markets/article68046313.ece",
+   "brands": [
+    "Aamoré"
+   ]
+  },
+  {
+   "region": "Southeast Asia (Malaysia)",
+   "speciality": "Musang King durian",
+   "src": "https://www.duria.com.my/",
+   "brands": [
+    "Duria"
    ]
   }
  ],
@@ -547,6 +677,96 @@
    "note": "excerpt only 1 known",
    "names_on_page": 1,
    "new_names": 0
+  },
+  {
+   "url": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "title": "Asia Fruit Awards hall of fame 2013-2026",
+   "kind": "award",
+   "years": "2013-2026",
+   "note": "winners selected by organisers and Asiafruit Magazine (editorial jury, not public vote); importers/retailers not brands skipped 0 known",
+   "names_on_page": 11,
+   "new_names": 11,
+   "status": "done"
+  },
+  {
+   "url": "https://apal.org.au/pros-and-cons-of-club-varieties",
+   "title": "APAL Pros and cons of managed varieties",
+   "kind": "encyclopedia",
+   "years": "2017",
+   "note": "club apple brands 5 known",
+   "names_on_page": 8,
+   "new_names": 3,
+   "status": "done"
+  },
+  {
+   "url": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "title": "Avocados Market Report 2025 (ResearchAndMarkets)",
+   "kind": "ranking",
+   "years": "2025",
+   "note": "market layer; plus calavo.com/products fetched: Calavo brand avocados, founded 1924 0 known",
+   "names_on_page": 11,
+   "new_names": 11,
+   "status": "done"
+  },
+  {
+   "url": "https://metropolisjapan.com/japanese-luxury-fruits",
+   "title": "Japanese Luxury Fruits and Where to Find Them in Tokyo",
+   "kind": "retailer",
+   "years": "2026",
+   "note": "fine fruit retailers directory 1 known",
+   "names_on_page": 4,
+   "new_names": 3,
+   "status": "done"
+  },
+  {
+   "url": "https://bateel.com/en_us/dates",
+   "title": "Bateel premium dates",
+   "kind": "retailer",
+   "years": "n/a",
+   "note": "brand's own page; claims luxury gourmet date 0 known",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done"
+  },
+  {
+   "url": "https://www.igppachino.it/soci-produttori/",
+   "title": "Consorzio Tutela IGP Pomodoro di Pachino member lists (producers and packers)",
+   "kind": "pdo",
+   "years": "2026",
+   "note": "also igppachino.it/soci-confezionatori; ~50 individual farm members skipped (named persons), kept trading companies/cooperatives 0 known",
+   "names_on_page": 19,
+   "new_names": 19,
+   "status": "done"
+  },
+  {
+   "url": "https://www.thehindubusinessline.com/economy/agri-business/indian-smallholder-farmers-launch-aamor%C3%A9-a-premium-alphonso-mango-brand-for-global-markets/article68046313.ece",
+   "title": "Aamore premium GI Alphonso brand (Hindu BusinessLine 2024)",
+   "kind": "heritage",
+   "years": "2024",
+   "note": "GI Alphonso (Ratnagiri/Devgad GI No.139) 0 known",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done"
+  },
+  {
+   "url": "https://www.duria.com.my/",
+   "title": "Duria premium durian exporter",
+   "kind": "retailer",
+   "years": "n/a",
+   "note": "own page 0 known",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done"
+  },
+  {
+   "url": "https://news.cornell.edu/stories/2018/02/new-seed-catalog-restores-vegetable-flavor-savor",
+   "title": "Cornell Chronicle: Row 7 Seed Co. launched by Dan Barber, Michael Mazourek",
+   "kind": "encyclopedia",
+   "years": "2018",
+   "note": "also imarcgroup.com/blog/top-vegetable-seed-companies (search-result text, not separately fetched) 3 known",
+   "names_on_page": 8,
+   "new_names": 2,
+   "status": "done"
   }
  ],
  "brands": [
@@ -854,6 +1074,426 @@
    "says": "Capespan soft citrus brand launched 2018",
    "country": "South Africa",
    "dept": "Oranges, mandarins & grapefruit"
+  },
+  {
+   "n": "Rockit",
+   "layer": "premium",
+   "src": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "says": "Asia Fruit Awards Marketing Campaign of the Year 2019 and 2023 (miniature snack apple brand)",
+   "country": "New Zealand",
+   "dept": "apples"
+  },
+  {
+   "n": "ClemenGold",
+   "layer": "premium",
+   "src": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "says": "Asia Fruit Awards Marketing Campaign of the Year 2022 (South African clementine brand)",
+   "country": "South Africa",
+   "dept": "citrus"
+  },
+  {
+   "n": "Joyvio",
+   "layer": "premium",
+   "src": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "says": "Joy Wing Mau won Marketing Campaign of the Year 2021 for its Joyvio premium fruit brands",
+   "country": "China",
+   "dept": "fruit"
+  },
+  {
+   "n": "Goodfarmer",
+   "layer": "premium",
+   "src": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "says": "Importer of the Year 2022 and Impact Award 2026; ranks first in China fruit-brand household penetration (Worldpanel)",
+   "country": "China",
+   "dept": "bananas, fruit"
+  },
+  {
+   "n": "T&G Global",
+   "layer": "premium",
+   "src": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "says": "Marketing Campaign of the Year 2020 for Envy and Jazz apples in Asia",
+   "country": "New Zealand",
+   "dept": "apples"
+  },
+  {
+   "n": "Australian Avocados",
+   "layer": "premium",
+   "src": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "says": "Marketing Campaign of the Year 2024",
+   "country": "Australia",
+   "dept": "avocado"
+  },
+  {
+   "n": "Rijk Zwaan",
+   "layer": "premium",
+   "src": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "says": "Impact Award of the Year 2025 (leading seed company)",
+   "country": "Netherlands",
+   "dept": "vegetable seed"
+  },
+  {
+   "n": "Hortifrut",
+   "layer": "premium",
+   "src": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "says": "Impact Award 2024 (Hortifrut IG Berries)",
+   "country": "Chile",
+   "dept": "berries"
+  },
+  {
+   "n": "Costa",
+   "layer": "premium",
+   "src": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "says": "Impact Award 2021 (Costa JV with Driscoll's, berries in China)",
+   "country": "Australia",
+   "dept": "berries"
+  },
+  {
+   "n": "Truval",
+   "layer": "premium",
+   "src": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "says": "Marketing Campaign of the Year 2017, Belgian Fruit Valley's Truval-branded Conference pears",
+   "country": "Belgium",
+   "dept": "pears"
+  },
+  {
+   "n": "OZblu",
+   "layer": "premium",
+   "src": "https://www.asiafruitlogistica.com/asia-fruit-awards",
+   "says": "named by Asia Fruit Awards 2025 as leading brand distributed by Importer winner City Fresh Fruit",
+   "country": "Australia",
+   "dept": "blueberries"
+  },
+  {
+   "n": "Honeycrisp",
+   "layer": "cultural",
+   "src": "https://apal.org.au/pros-and-cons-of-club-varieties",
+   "says": "APAL names Honeycrisp as a club/branded variety with 8m cartons in USA",
+   "country": "United States",
+   "dept": "apples"
+  },
+  {
+   "n": "Kiku",
+   "layer": "cultural",
+   "src": "https://apal.org.au/pros-and-cons-of-club-varieties",
+   "says": "APAL: branded Fuji variety commanding price premium",
+   "country": "Japan",
+   "dept": "apples"
+  },
+  {
+   "n": "Morning Mist",
+   "layer": "cultural",
+   "src": "https://apal.org.au/pros-and-cons-of-club-varieties",
+   "says": "APAL: branded Fuji variety",
+   "country": "",
+   "dept": "apples"
+  },
+  {
+   "n": "Calavo",
+   "layer": "cultural",
+   "src": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "says": "Calavo brand avocados, founded 1924, 'original avocado company in North America' (calavo.com/products); major company in Avocados Market Report 2025",
+   "country": "United States",
+   "dept": "avocado"
+  },
+  {
+   "n": "Mission Produce",
+   "layer": "cultural",
+   "src": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "says": "Named major company in Avocados Market Report 2025",
+   "country": "",
+   "dept": "avocado"
+  },
+  {
+   "n": "Oppy",
+   "layer": "cultural",
+   "src": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "says": "Named major company in Avocados Market Report 2025",
+   "country": "",
+   "dept": "avocado"
+  },
+  {
+   "n": "Henry Avocado",
+   "layer": "cultural",
+   "src": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "says": "Named major company in Avocados Market Report 2025",
+   "country": "",
+   "dept": "avocado"
+  },
+  {
+   "n": "West Pak Avocado",
+   "layer": "cultural",
+   "src": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "says": "Named major company in Avocados Market Report 2025",
+   "country": "",
+   "dept": "avocado"
+  },
+  {
+   "n": "Brooks Tropicals",
+   "layer": "cultural",
+   "src": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "says": "Named major company in Avocados Market Report 2025",
+   "country": "",
+   "dept": "avocado"
+  },
+  {
+   "n": "Del Rey Avocado",
+   "layer": "cultural",
+   "src": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "says": "Named major company in Avocados Market Report 2025",
+   "country": "",
+   "dept": "avocado"
+  },
+  {
+   "n": "Greenyard",
+   "layer": "cultural",
+   "src": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "says": "Named major company in Avocados Market Report 2025",
+   "country": "",
+   "dept": "avocado"
+  },
+  {
+   "n": "Westfalia Fruit",
+   "layer": "cultural",
+   "src": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "says": "Named major company in Avocados Market Report 2025 (homonym: register Westfalia G1 is camper vans; this is the avocado company)",
+   "country": "",
+   "dept": "avocado",
+   "homonym": true
+  },
+  {
+   "n": "Duclos Farms",
+   "layer": "cultural",
+   "src": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "says": "Named major company in Avocados Market Report 2025",
+   "country": "",
+   "dept": "avocado"
+  },
+  {
+   "n": "Emrald Produce",
+   "layer": "cultural",
+   "src": "https://www.globenewswire.com/news-release/2025/03/25/3049034/28124/en/Avocados-Market-Report-2025-with-Profiles-of-Major-and-Innovative-Companies-including-Del-Rey-Avocado-Oppy-AustChilli-West-Pak-Avocado-Duclos-Farms-Calavo-Growers-Costa-Westfalia-F.html",
+   "says": "Named major company in Avocados Market Report 2025",
+   "country": "",
+   "dept": "avocado"
+  },
+  {
+   "n": "Shinjuku Takano",
+   "layer": "premium",
+   "src": "https://metropolisjapan.com/japanese-luxury-fruits",
+   "says": "Founded 1885; 'one of Japan's most respected fruit specialty shops' (Metropolis Japan)",
+   "country": "Japan",
+   "dept": "fruit shops",
+   "role": "seller"
+  },
+  {
+   "n": "Shibuya Nishimura",
+   "layer": "premium",
+   "src": "https://metropolisjapan.com/japanese-luxury-fruits",
+   "says": "Fruit parlor shop since 1910, renowned specialty store (Metropolis Japan)",
+   "country": "Japan",
+   "dept": "fruit shops",
+   "role": "seller"
+  },
+  {
+   "n": "Sun Fruits",
+   "layer": "premium",
+   "src": "https://metropolisjapan.com/japanese-luxury-fruits",
+   "says": "Renowned specialty fruit store, Akasaka Tokyo (Metropolis Japan)",
+   "country": "Japan",
+   "dept": "fruit shops",
+   "role": "seller"
+  },
+  {
+   "n": "Bateel",
+   "layer": "premium",
+   "src": "https://bateel.com/en_us/dates",
+   "says": "Elevated dates to a luxury gourmet product; farm-grown organic Medjool, Ajwa, Khidri, Segai, Sokari (own page)",
+   "country": "UAE/Saudi Arabia",
+   "dept": "dates"
+  },
+  {
+   "n": "Ortosud Primizia",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "San Lorenzo Societa Agricola",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Marina Marza",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Land Cherry",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Orto In",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Moncada Societa Agricola Cooperativa",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Ortomi",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "O.P. Colle d'Oro",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Citrosol",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Proagri",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Cooperativa Agricola Aurora",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Cooperativa Agricola Punta delle Formiche",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Terre di Capopassero",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Verdeoro",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "La Ispicese",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Unifrutti Carmito",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "SPO Zentrum",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "La Riserva",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Culterfan",
+   "layer": "cultural",
+   "src": "https://www.igppachino.it/soci-produttori/",
+   "says": "Member of Consorzio Tutela IGP Pomodoro di Pachino (PGI)",
+   "country": "Italy",
+   "dept": "tomato (Pachino IGP)"
+  },
+  {
+   "n": "Aamoré",
+   "layer": "premium",
+   "src": "https://www.thehindubusinessline.com/economy/agri-business/indian-smallholder-farmers-launch-aamor%C3%A9-a-premium-alphonso-mango-brand-for-global-markets/article68046313.ece",
+   "says": "Farmer-owned premium GI-certified Alphonso brand of Konkan Ratnagiri Bhoomi Agro Producer Company, 300+ smallholders",
+   "country": "India",
+   "dept": "mango"
+  },
+  {
+   "n": "Duria",
+   "layer": "premium",
+   "src": "https://www.duria.com.my/",
+   "says": "Premium Musang King durian exporter, Malaysia's first durian collection factory 2005 (own page)",
+   "country": "Malaysia",
+   "dept": "durian (Musang King)"
+  },
+  {
+   "n": "East-West Seed",
+   "layer": "cultural",
+   "src": "https://news.cornell.edu/stories/2018/02/new-seed-catalog-restores-vegetable-flavor-savor",
+   "says": "IMARC top vegetable seed companies list",
+   "country": "Netherlands/Thailand",
+   "dept": "vegetable seed"
+  },
+  {
+   "n": "Limagrain",
+   "layer": "cultural",
+   "src": "https://news.cornell.edu/stories/2018/02/new-seed-catalog-restores-vegetable-flavor-savor",
+   "says": "IMARC top vegetable seed companies list",
+   "country": "France",
+   "dept": "vegetable seed"
   }
  ]
 }
