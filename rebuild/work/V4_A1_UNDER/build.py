@@ -113,7 +113,8 @@ KIND={ # nl handled generically; refs per kind
 }
 GEN_NL="One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions."
 REFS={"Bra":"Wikipedia: Brassiere, Underwear","Men's underwear":"Wikipedia: Briefs, Underwear","Undershirt":"Wikipedia: Undershirt, Underwear","Shapewear":"Wikipedia: Shapewear, Spanx","Corset":"Wikipedia: Corset","Socks":"Wikipedia: Sock","Tights & stockings":"Wikipedia: Pantyhose","Thermal base layer":"Wikipedia: Long underwear, Underwear","Pyjamas":"Wikipedia: Pajamas","Bathrobe":"Wikipedia: Bathrobe","Swimsuit":"Wikipedia: One-piece swimsuit, Bikini, Jantzen","Bikini":"Wikipedia: Bikini","Swim trunks":"Wikipedia: Swim trunks","Cowboy hat":"Wikipedia: Cowboy hat, List of hat styles","Fedora":"Wikipedia: Fedora, Herbert Johnson (hatters)","Bowler hat":"Wikipedia: Bowler hat","Top hat":"Wikipedia: Top hat","Panama hat":"Wikipedia: Panama hat","Baseball cap":"Wikipedia: Baseball cap","Flat cap":"Wikipedia: Flat cap","Beret":"Wikipedia: Beret","Bucket hat":"Wikipedia: Bucket hat","Homburg":"Wikipedia: Homburg (hat)","Boater":"Wikipedia: Boater (hat)","Beanie":"Wikipedia: Knit cap","Balaclava":"Wikipedia: Balaclava (clothing)","Headband":"Wikipedia: Hairband","Cloche & women's millinery":"Wikipedia: Cloche hat","Scarf":"Wikipedia: Scarf","Shawl":"Wikipedia: Shawl","Bandana":"Wikipedia: Bandana","Glove":"Wikipedia: Glove","Mitten":"Wikipedia: Mitten","Belt":"Wikipedia: Belt (clothing)","Belt buckle":"Wikipedia: Belt buckle","Arm warmer & sleeve":"Wikipedia: Arm warmer","Suspender belt":"Wikipedia: Belt (clothing)","Leg warmers":"Wikipedia: Leg warmer"}
-HATLIST="Wikipedia: List of hat styles (window 1 of about 2)"
+HATLIST="Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read)"
+KWM={'Bra':'bra|lingerie','Men\'s underwear':'underwear|briefs|boxer','Socks':'sock','Tights & stockings':'hosiery|tights|stocking','Thermal base layer':'thermal|base layer','Swimsuit':'swim','Bikini':'bikini|swim','Swim trunks':'swim|trunk|boardshort','Cowboy hat':'cowboy|western hat','Fedora':'hats|felt','Bowler hat':'hats','Top hat':'hats','Panama hat':'panama|hats','Baseball cap':'cap','Flat cap':'cap','Beret':'beret','Beanie':'beanie|knit hat|cap','Headband':'headband','Headscarf':'hijab|headscarf','Scarf':'scarf|scarves','Glove':'glove','Mitten':'glove|mitten','Belt':'belt','Belt buckle':'buckle','Shapewear':'shapewear','Corset':'corset','Shawl':'shawl'}
 def ctyof(mk):
     if not mk: return ""
     if mk in R: return R[mk].get('c') or EXTRA_C.get(mk,"")
@@ -152,8 +153,10 @@ for dp in depts:
             if n:
                 k['nl']=GEN_NL
                 k['xg']="by brand country, then year; forms without a brand last"
-                regm=sum(1 for e in REG if any(k['n'].split()[0].lower().rstrip('s') in (z.lower()) for z in [e.get('kf') or '']))
-                k['sel']=(f"Every signature piece in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that matches this garment and has a page naming it, plus the originators named by {ref}. Complete: {n} of {n} entries found in those sources; {before} were in the file before this pass.")
+                kw=KWM.get(k['n'],k['n'].lower())
+                m_=sum(1 for e in REG if re.search(kw,(e.get('kf') or ''),re.I))
+                m_=max(m_,n)
+                k['sel']=(f"Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by {ref}. Covers {n} of about {m_} in the register and those articles; the {m_} counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report).")
             else:
                 k['nl']="No entry: no brand-originated signature piece or originator is named for this garment in the register or the cited article."
                 k['sel']=f"Checked the brand register `sig` and `lines` fields and {ref}; none names a piece for this kind. Complete: 0 of 0 in those sources."

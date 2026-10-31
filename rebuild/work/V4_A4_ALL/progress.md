@@ -9,3 +9,4 @@ r2 todo: LV women+men, Fendi full, Kate Spade, Michael Kors, Marc Jacobs, Telfar
 RULE 2: shape kind only where fetched page names it; else general kind Shoulder bag and say so in sel; re-place earlier Dior/Celine/Prada/Loewe/LV/Chanel22/25/Longchamp/Kalimero entries accordingly
 r2 fetched also: owners wiki (Fjallraven Fenix 2014, Eastpak VF 2000, JanSport VF 1986, Osprey Helen of Troy Dec 2021 $414m, Bellroy private/Silas 2019, Herschel owner not stated), Ray-Ban history page, Oakley category (via search result), Warby/GentleMonster/TomFord wiki, EL FY25 EUR28.49bn (fashionunited), Away/Briggs/AmericanTourister wiki, Monos about, Globe-Trotter journal, LV men + women page, MK + MarcJacobs search pages. Fetch budget ~spent; now write data2.py + patch build_part.py
 r2 build done, validated (590 entries); remaining: report
+r2 report done

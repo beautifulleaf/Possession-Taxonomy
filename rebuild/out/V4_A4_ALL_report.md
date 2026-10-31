@@ -1,25 +1,26 @@
-# V4_A4_ALL report (A4, part ALL)
+# V4_A4_ALL report (A4, part ALL), round 2
 
-Part file: rebuild/out/A4_parts/ALL.json (272 KB). Replaces all nine A4 departments. Validated: OK, 105 kinds, 388 entries (237 before). Renames none, moves none.
+Part file: rebuild/out/A4_parts/ALL.json (346 KB). Replaces all nine A4 departments. Validated OK: 105 kinds, 590 entries (237 before round 1, 388 after round 1). Renames and moves: none.
 
-## Entries before -> after, by department
-- Handbags 105 -> about 190: houses' own pages (Louis Vuitton, Hermès, Chanel, Dior, Celine, Prada, Loewe, Fendi) plus Wikipedia (Handbag, Gucci, Bottega Veneta, Longchamp, Louis Vuitton). Sections by house country, then house.
-- Eyewear: added Ray-Ban Olympian/Outdoorsman/Erika, Moscot Nebb/Grunya/Mulholland Drive, Oakley O-Frame; The General as a version of Aviator. Sections by owner group.
-- Backpacks & belt bags: Osprey (15 lines), Gregory (12), Deuter Aircontact and Futura Air Trek, Kånken range, Eastpak, JanSport, Herschel Little America, from the makers' range pages. Generations and litre sizes are versions.
-- Luggage: Rimowa lines, Samsonite Streamlite, Hartmann, American Tourister, LV Steamer Bag.
-- Umbrellas: Jean Marius folding umbrella (origin badge). Baby carriers: BabyBjörn Baby Carrier (1973 to 2021 versions), Ergobaby carrier. Other departments unchanged apart from owner fields.
+## Entries (before -> after)
+- Handbags 105 -> 292. Round 2 added lines from the house pages of Gucci (30 lines), Saint Laurent (16), Bottega Veneta (7), Balenciaga (5), Valentino (15), Givenchy (9), Miu Miu (8), Jacquemus (7), Polene (14), Longchamp (12 collections plus 10 Le Pliage versions), Goyard (7), Mulberry (8), Coach (3), Michael Kors (3), Marc Jacobs (2), Louis Vuitton men's pages (3) and Telfar (version). Round 1 covered Louis Vuitton women's, Hermes, Chanel, Dior, Celine, Prada, Loewe and Fendi.
+- Eyewear 36 -> 82: Ray-Ban icon families with dated versions from its history page; 47 Oakley models from its style filter.
+- Backpacks 41 -> 76 (Osprey, Gregory, Deuter, Kanken, Eastpak, JanSport, Herschel, Louis Vuitton Christopher and Discovery).
+- Luggage 33 -> 55: Monos (Carry-On, Check-In, Classic, Hybrid, Aluminum, Metro), Away size versions, Globe-Trotter collections (Centenary 1997 and nine more), Rimowa, Samsonite group.
 
-## Loose models (`m`)
-All 140-plus loose models were removed as out of scope (retailer SKUs without a line page). Only those the pages now attest became entries or versions (for example Madeleine, Liv Pochette, Distinct, Eva). Packing cubes, locks, hip seats and changing bags stay commodity kinds with no entries.
+## Shape rule
+A bag sits in a shape kind only where a fetched page names the shape in the line's name or category (Saigon tote, Coursier messenger, Hobo Boheme, Hirondelle pouch, Amberley satchel, Stevie top handle, Brooklyn shoulder bag, Hamilton satchel, Classic Flap, Verso Hobo, Eva hobo). Round 1 placements by usual shape were reversed: Dior, Celine, Prada, Loewe, Hermes, Chanel 22 and 25, Louis Vuitton and Longchamp lines now sit in Shoulder bag, the general kind. Each kind's `sel` says so.
 
-## Market fields
-Every entry whose maker is in the owner map carries own, tier, cty and own_y. Years from fetched pages: Louis Vuitton 1987, Dior 2017, Loewe 1996, Rimowa 2016, Gucci and Saint Laurent 1999, Bottega Veneta 2001, Tumi 2016, Hartmann 2012, Gregory 2014, Ray-Ban 1999, Oakley 2007, Persol 1995. Panels (ms) on Handbags (group revenue of Kering EUR 14,675m 2025, Tapestry US$7.01bn, Capri US$4.4bn, Richemont EUR 21.4bn, H51 66.72 % of Hermès 2025), Eyewear (Safilo EUR 983.4m 2025, Marcolin EUR 547m 2022, Kering Eyewear about EUR 1.5bn 2023, Sunglass Hut 3,131 stores) and Luggage (CVC 2007 US$1.7bn, Tumi 2016, Rimowa 2016). Twelve owner companies added to the register; 6 makers added; brand_updates for 30 existing brands.
+## Owners (fetched pages)
+Osprey: Helen of Troy, December 2021, US$414m. Fjallraven: Fenix Outdoor, subsidiary 2014. JanSport: VF, 1986. Eastpak: VF, 2000. Bellroy: private, Silas Capital partner 2019. Ergobaby: sold to Compass Management Group 2010. Samsonite group: Tumi 2016, Hartmann 2012, Gregory 2014, American Tourister (Astrum 1993). Added to the register: Helen of Troy, Fenix Outdoor, VF, Compass Management Group. 223 handbag entries, 71 eyewear entries and 57 pack entries carry own, tier and country.
 
-## Coverage (stated in each kind's `sel`)
-No whole-space list exists, so every `sel` ends "Covers n lines; ..." with what is missing. Where I stopped: house pages stop at the lines the pages showed (Louis Vuitton page showed about 25 lines; Fendi page showed only Baguette, Baguette Soft, Croissant, Peekaboo).
+## Market panels
+Handbags 6 rows, Eyewear 9 (EssilorLuxottica sales EUR 28.49bn 2025 from FashionUnited; Warby Parker US$871.9m 2025; Gentle Monster LVMH 7 % 2017; Tom Ford licence to Marcolin 2004), Luggage 8, Backpacks 3.
 
-## Not sourced
-- Gucci, Saint Laurent, Bottega Veneta, Goyard, Mulberry, Coach, Longchamp model pages (blocked or unfound); Gucci and Saint Laurent crawler-blocked in search.
-- Globe-Trotter page (404); no luggage market shares (only search excerpts, not fetched). Ergobaby company page unreachable; Highlander ownership unsourced.
-- Owners for Osprey, Fjällräven, Eastpak, JanSport, Herschel, Bellroy and others not fetched, so own/tier left empty.
-- Kind placement of Dior, Celine, Prada and Loewe lines is by usual shape; the pages give names only. LV URL and Rebag URL were tried unsearched at the start (Rebag gave a redirect page, unused).
+## Not sourced or incomplete
+- Fendi's page loaded only 4 lines; Louis Vuitton's women's page loaded only its first rows (Speedy, Alma, Neverfull, Noe); Hermes 8 lines.
+- Persol page loaded no models; Warby Parker, Gentle Monster, Tom Ford, Briggs & Riley and Away pages named no model lines.
+- Kate Spade, Telfar and Monos have no (or thin) line lists; Herschel, Away, Monos, Globe-Trotter, Mulberry and Polene owners are not stated on any fetched page.
+- Michael Kors, Marc Jacobs and Oakley lines come from page text returned by Firecrawl search results, not a separate scrape.
+- Ergobaby's company page and a Gucci/Saint Laurent/Balenciaga web search were blocked; their lines come from Firecrawl scrapes.
+- Fetch budget: about 50 used this round.
