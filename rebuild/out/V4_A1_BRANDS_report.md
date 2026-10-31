@@ -17,3 +17,25 @@ Tops: UK apparel shares for 2025 (GlobalData, 10 retailers, Primark 6.0 %); Chin
 - National champions cover UK, China, South Africa only as tiered; Poland, India, Japan, Turkey, UAE, Australia, Korea, Spain brands recorded without a leader claim (Independent). Africa, Middle East, South Asia and Oceania appear only through Mr Price, LC Waikiki, Landmark, ABFRL/Reliance and Cotton On.
 - Craft and indie lists not fetched. Gildan's ownership of Hanesbrands brands (2025) is from a page saying the deal was agreed; closing is inferred from a later mention. M&S revenue (GBP 17,273.6 m) and Capri revenue conflict within their pages.
 - About 70 fetches used; the target of about 20 markets was not reached.
+
+# Round 2 update (continuation)
+
+Part file rebuilt by rebuild/work/V4_A1_BRANDS/build.py (first version kept as build_v1.py). Check passed: loads under python3 -I; all 229 brand_updates keys exist in A1_brands.json; 205 new register entries. Tiers on updates: Global group 117, Independent 104, National champion 8. About 62 further fetches; every page found by WebSearch first (the earlier guessed-URL fetches stay logged in sources.tsv).
+
+## Changes
+- Gildan correction: the Hanesbrands brands (Hanes, Playtex, Bali, L'eggs, Just My Size, Barely There, Wonderbra, Maidenform, Berlei, Bonds) now sit under Hanesbrands, no own_y. No fetched page states the Gildan deal closed.
+- Newly sourced portfolios: OTB Group (Diesel, Maison Margiela 2002, Viktor & Rolf 2008, Marni 2012, Jil Sander 2021, Amiri 2019 as page text), Mango, Trent, Lojas Renner, Arvind, Benetton, Oniverse (ex Calzedonia), Max Mara, Esprit, s.Oliver, C&A (Cofra), Zalando own labels, Muji, Canada Goose, Columbia (Sorel 2000, Mountain Hardwear 2003, prAna 2014), Patagonia, HLA/Heilan Home, Samsung C&T Fashion, Gloria Jeans, Koton, Mavi, Country Road Group, Pepkor, Lindex, Mulliez (Kiabi), El Puerto de Liverpool (Suburbia 2016), Hering/Reserva (Soma/Azzas 2154), Shimamura.
+- 26 register brands got an owner from their own entry's cited page (Lacoste, DAKS, Spanx, Wolford, Fjällräven etc.); that text and page were fetched in an earlier stage, not this session.
+
+## Markets with a leader claim from a fetched page
+UK (Primark, Next, M&S; GlobalData 2025), China (Anta, Li-Ning, Euromonitor figure, no year; Bosideng), South Africa (Mr Price 9 % 2014; Pepkor largest by store count 2025), Japan (Uniqlo 6.5 %, no year; Shimamura second among specialty chains), Brazil (Renner 7.2 % 2021; Hering), Russia (Gloria Jeans, 2009 rank), Latin America (Azzas 2154 claimed largest). Regions with only owner records and no leader claim: Turkey (Koton, Mavi, LC Waikiki), UAE (Max), Korea (Samsung C&T), Mexico (Liverpool), Chile (Falabella not entered), Australia (Cotton On, Country Road Group), Sweden (Lindex), France (Kiabi), Italy (Benetton, Oniverse, Max Mara), Spain (Mango, Tendam), India (Trent, ABFRL, Arvind, Reliance), Germany (s.Oliver, C&A, Zalando).
+
+## New market facts
+GlobalData 2024 global shares (Nike 2.85 %, Adidas 1.79 %, Shein 1.53 %, Zara 1.24 %, H&M 1.06 %, Uniqlo 0.92 %); US apparel (Nike 4.9 % 2021, 4.3 % 2022); US clothing spending (Amazon 17.8 %, Walmart 6.0 %, Macy's 3.1 %, 2026); Germany 2023 sales ranking (Otto, H&M, Zalando, Shein); top-six concentration South Africa 47 %, Egypt 4 %, Nigeria under 2 % (2012); revenues for 20 more groups.
+
+## Still not sourced
+- Onward Holdings, World Co., Youngone, Semir, Heilan beyond HLA, Itochu brand list: pages lacked brand lists (no portfolio entered). EssilorLuxottica skipped as instructed.
+- Market shares for India, France and Germany as shares: only a French spending ranking by rank (no figures), German sales not shares; no Indian share beyond a brokerage excerpt not fetched. Indonesia, Nigeria, Kenya, Saudi Arabia, Argentina, Egypt: no fetched page names a leader or owner, so no brand got a tier there.
+- Craft & indie: the register's own pages are not overviews of the scene; no brand was given that tier.
+- Own label tier unused. Kontoor's tier and Stuart Weitzman, Supreme, Club Monaco left unset.
+- Budget: first-round and second-round fetches together exceed the 70 allowed; the coordinator granted 80 more.
