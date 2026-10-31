@@ -1186,9 +1186,21 @@
   {
    "n": "Parfumane / Imprime / MAD Parfumeur",
    "fix": "quality: same page - Parfümane Best Bottle Design; Imprime Best Debut Perfume Venture and Best Summer Perfume; MAD Perfumer Next-Generation Sensory Design (harvest rows are directory-only)"
+  },
+  {
+   "n": "Arabian Oud",
+   "fix": "standing: leads Saudi local perfume players with 12.5% market share (2022), \"dominance in traditional Arabian fragrances\" - https://www.aljaziracapital.com.sa/media/oq0dscls/almajed-oud-co-initiation-report-sep-2024-en.pdf"
+  },
+  {
+   "n": "Abdul Samad Al Qurashi",
+   "fix": "standing: 9.4% Saudi market share \"sustained by its heritage offerings\" - https://www.aljaziracapital.com.sa/media/oq0dscls/almajed-oud-co-initiation-report-sep-2024-en.pdf"
+  },
+  {
+   "n": "Almajed Oud",
+   "fix": "standing: subject of the same equity report (5.2% Saudi share) - https://www.aljaziracapital.com.sa/media/oq0dscls/almajed-oud-co-initiation-report-sep-2024-en.pdf"
   }
  ],
- "notes": "in progress",
+ "notes": "Cold audit of H4 harvest (H4.json 924 + H4_countries.json 187 rows). Accuracy sample 25 (random.seed(7) over both files concatenated): 3 wrong (Prada and Etat Libre d'Orange are UAE-directory sidebar artefacts; Alisa Banks is a Sadakichi experimental-art finalist, not a perfume house). Systemic errors found by checking every row against the raw pages: (1) 44 UAE rows come from the Fragrantica site-wide popular-designers sidebar, not the UAE list (Dior, Chanel, Creed, Nishane, Initio, Ex Nihilo, Amouage, ...); Amouage belongs on the Oman page; all other directory pages (Kuwait, India, Oman, Saudi, Qatar, Bahrain, Iraq, Jordan, Lebanon, Iran, Egypt, Pakistan, Turkey) match their lists exactly. 11 UAE rows also carry sidebar perfume counts. (2) 39 Art and Olfaction rows are Sadakichi (experimental art) entrants, contrary to the harvest note that excluded them: drop. (3) about 38 A&O rows labelled \"winner\" are only Honorable Mentions (juried but weaker): relabel. Samar is a 2024 winner the harvest missed. (4) FiFi 2026 rows for YSL, Guerlain, Tom Ford, Jo Malone carry country UAE / scene Middle Eastern by copy error. (5) Japanese incense houses: move out of H4. Homonyms checked on Fragrantica designer pages (raw): 15 different companies to qualify (Almas, Elixir, RING, Arabia, Lotus, Edge, Class, Zodiac, Voile, Tayyib, Amaran, Astral, Regal, Kase, Fawn); Raymond, Junaid Jamshed, Huda Beauty, Mauzan, Vakko, Mavi, Koton, LC Waikiki, DeFacto, Flormar, Atelier Rebul are the same companies as their register rows. Musk, Terra, Shin, Merchant have no register clash. Sweeps retried: FiFi (Perfume Extraordinaire category page 1993-2026 plus year pages 2012, 2015, 2019, 2023, 2024 fetched raw) -> Robertet, Mane, Symrise, Scents of Wood, A Lab On Fire, Perfume Calligraphy, Odin New York, Veronique Gabai and quality notes for Amouage, Arquiste, BDK, Zoologist, Bond No. 9, Byredo, Kilian. Prix François Coty rewards perfumers (people), not brands: nothing to add. Basenotes Awards are reader votes (standing only); only a 2008 summary on a paywalled trade page was found, so not used. Fragrance Foundation France 2025 niche prize (juried) -> Une Nuit Nomade, Chambre52. Marie Claire Türkiye Fragrance Awards 2026 (jury, blind smelling) -> OJUVI, Soul of Caria, Positive Zero plus quality for Atelier Rebul, Puzzle, Parfümane, Imprime, MAD. Asia Perfume Awards 2025 (expert jury) -> Wren Atelier, Liberta, d'Annam. Regions added: Bulgarian Rose Valley (PGI designation), Taif rose (SPA), Kannauj backed independently (AFP), Bohemian crystal bottles (museum page, no maker named), Brazil (weak app-magazine source). Thin-area additions: Russia/Baltics (Dzintars; Novaya Zarya support), Africa (Bint el Sudan, Scent of Africa, White Label Fragrances, Saint d'Ici), Southeast Asia (Maison de L'Asie, Wren Atelier), Latin America (Phebo, Yanbal), atomisers (Marcel Franck), materials (Robertet, Mane, Symrise, Albert Vieille, Enio Bonchev). Several adds were fetched in excerpt mode (Parallel objective excerpts of the page, not full_content): LSM Dzintars, Mos.ru, Krasnaya Moskva, BeautyMatter, Bint el Sudan blog, Premium Beauty News (Scent of Africa), Asia Perfume Foundation, Business Times, WhatScent Latin, Fragrantica atomiser history (search excerpt only - verifier must re-fetch Marcel Franck src raw). Blind spots left: Italian heritage houses beyond SMN (no independent renown page fetched); Hojai/Assam agarwood (Ajmal origin) not sourced; Mysore sandalwood oil GI (KSDL) found only on the maker's site and a Hindu excerpt, not added; Taiwan/China beyond register (To Summer, Documents exist; Scent Library not sourced independently); Mexico (Xinú only on blogs/seller pages); perfumer tools (smelling strips, perfume organs, kits) and decant sellers not searched; Basenotes Awards full lists; FiFi years before 2010 only sampled via category page; Grasse materials houses beyond three.",
  "homonyms": [
   {
    "n": "Almas",
@@ -1354,5 +1366,31 @@
    "why": "same"
   }
  ],
- "notes_generic": "Musk, Terra (Saudi, 2026 launch), Shin (India), Merchant (India), Musky have no register row: no homonym clash, but they are directory-only \"listed\" names"
+ "notes_generic": "Musk, Terra (Saudi, 2026 launch), Shin (India), Merchant (India), Musky have no register row: no homonym clash, but they are directory-only \"listed\" names",
+ "region_notes": [
+  {
+   "region": "Grasse, France",
+   "note": "UNESCO page (designation) names no houses; https://www.france.fr/en/article/all-you-need-to-know-about-perfume-in-grasse-in-5-minutes (fetched raw) names Fragonard, Molinard, Galimard and calls Grasse \"the international perfume capital\": use it as src2 so the three brands stay in the region. Robertet, Mane and Albert Vieille (added) are Grasse-area materials houses."
+  },
+  {
+   "region": "Kannauj, India (attar)",
+   "note": "GI page = designation; brands now backed by the AFP/Taipei Times page (see add_regions)."
+  },
+  {
+   "region": "Turkey (kolonya)",
+   "note": "BBC and Business Insider pages return no full text through the fetch tool (full_content empty) but the fetch excerpts show \"Atelier Rebul - one of the oldest and most famous commercial kolonya brands in Turkey\" and \"Eyüp Sabri Tuncer, a well known kolonya producer\": acceptable as fetched-page text; Atelier Rebul also wins the 2026 Marie Claire Türkiye \"Turkish Scent Heritage\" award."
+  },
+  {
+   "region": "Gulf / Arabian Peninsula",
+   "note": "whatscent.app (fetched raw) does name all nine houses, but it is an app magazine with buy-links: weak renown source. Independent standing now on Khaleej Times 2014 (Swiss Arabian, bylined news) and AlJazira Capital research (Arabian Oud, Abdul Samad Al Qurashi, Deraah, Almajed Oud). Swiss Arabian history page and Ajmal press release are not needed and were never cited as src."
+  },
+  {
+   "region": "Japan (Kyoto/Awaji incense)",
+   "note": "DROP from H4: incense is B4/F4; the page shows no worn-perfume line. Keep the eight houses out of H4 (Shoyeido and Nippon Kodo already carry an H4 code in the register; flag for review, not added by this harvest)."
+  },
+  {
+   "region": "Italy (Florence, Parma)",
+   "note": "rests only on Santa Maria Novella's own site: own-site renown is not allowed, so renown false unless an independent page is found (not found in this audit). Acqua di Parma is already a register H4 brand."
+  }
+ ]
 }
