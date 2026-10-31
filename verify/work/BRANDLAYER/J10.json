@@ -1,0 +1,1398 @@
+{
+ "cat": "J10",
+ "status": "partial",
+ "brand_led": true,
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Cigars (all 5 sections)",
+   "queries": [
+    "Wikipedia cigar brands",
+    "Cigar Aficionado Cigar of the Year"
+   ],
+   "found": 55,
+   "note": "Cigar Aficionado Top 25 annual lists 2004-2025 only partly read; Habanos regional editions not covered"
+  },
+  {
+   "axis": "kind",
+   "item": "Pipes & pipe tobacco",
+   "queries": [
+    "best handmade briar pipe makers",
+    "meerschaum Eskisehir makers",
+    "Category:Pipe tobacco brands"
+   ],
+   "found": 16,
+   "note": "Pipedia country directories (US, DK, FR, DE, UK, IT, TR) found but not fetched: next step"
+  },
+  {
+   "axis": "kind",
+   "item": "Cigarettes & rolling",
+   "queries": [
+    "Category:Tobacco brands",
+    "kretek brands"
+   ],
+   "found": 12,
+   "note": "Rolling papers (Rizla, OCB), Japan/China cigarette marques not searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Vaping & heated tobacco",
+   "queries": [
+    "best vape kits award winners"
+   ],
+   "found": 0,
+   "note": "only a UK retailer blog; juried independent test not found"
+  },
+  {
+   "axis": "kind",
+   "item": "Snus & oral tobacco",
+   "queries": [
+    "Swedish snus brands",
+    "chewing tobacco brands"
+   ],
+   "found": 9,
+   "note": "snusdirect brand list is retailer (not copied)"
+  },
+  {
+   "axis": "kind",
+   "item": "Hookah & shisha",
+   "queries": [
+    "WHO waterpipe report"
+   ],
+   "found": 5,
+   "note": "hookah hardware makers (Khalil Mamoon, Starbuzz) not searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Lighters & accessories",
+   "queries": [
+    "Category:Cigarette lighter brands"
+   ],
+   "found": 0,
+   "note": "all 8 known"
+  },
+  {
+   "axis": "kind",
+   "item": "Cannabis & hemp",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (lean limit); next"
+  },
+  {
+   "axis": "kind",
+   "item": "Herbal & other plant products",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (lean limit); next"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "covered via kind searches"
+   ],
+   "found": 0,
+   "note": "see regions array"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "covered via kind searches"
+   ],
+   "found": 0,
+   "note": "see regions array"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "covered via kind searches"
+   ],
+   "found": 0,
+   "note": "see regions array"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "covered via kind searches"
+   ],
+   "found": 0,
+   "note": "see regions array"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "covered via kind searches"
+   ],
+   "found": 0,
+   "note": "see regions array"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "covered via kind searches"
+   ],
+   "found": 0,
+   "note": "see regions array"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in lean mode (bidi/gutkha, Japan kiseru, Russian papirosy remain)"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in lean mode (bidi/gutkha, Japan kiseru, Russian papirosy remain)"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in lean mode (bidi/gutkha, Japan kiseru, Russian papirosy remain)"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in lean mode (bidi/gutkha, Japan kiseru, Russian papirosy remain)"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in lean mode (bidi/gutkha, Japan kiseru, Russian papirosy remain)"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in lean mode (bidi/gutkha, Japan kiseru, Russian papirosy remain)"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in lean mode (bidi/gutkha, Japan kiseru, Russian papirosy remain)"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [],
+   "found": 0,
+   "note": "not searched in lean mode (bidi/gutkha, Japan kiseru, Russian papirosy remain)"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Cuba",
+   "speciality": "Habano cigars (Habanos S.A. marques)",
+   "src": "https://en.wikipedia.org/wiki/Category:Habanos_S.A._brands",
+   "brands": [
+    "Cohiba",
+    "Montecristo",
+    "Partagas",
+    "Romeo y Julieta",
+    "Hoyo de Monterrey",
+    "H. Upmann",
+    "Bolivar",
+    "Punch",
+    "Trinidad",
+    "Vegas Robaina",
+    "Gispert",
+    "Quintero",
+    "Por Larranaga",
+    "Sancho Panza",
+    "Guantanamera"
+   ],
+   "brands_known": [
+    "Cohiba",
+    "Montecristo",
+    "Partagas",
+    "Romeo y Julieta",
+    "Hoyo de Monterrey",
+    "H. Upmann",
+    "Bolivar",
+    "Punch",
+    "Trinidad",
+    "Vegas Robaina"
+   ]
+  },
+  {
+   "region": "Nicaragua / Dominican Republic / Honduras",
+   "speciality": "premium handmade New World cigars",
+   "src": "https://humidorist.com/cigar-of-the-year",
+   "brands": [
+    "Padron",
+    "My Father",
+    "Arturo Fuente",
+    "Oliva",
+    "Plasencia",
+    "Macanudo",
+    "Aging Room",
+    "Casa Carrillo",
+    "Viaje"
+   ],
+   "brands_known": [
+    "Padron",
+    "Arturo Fuente",
+    "Oliva"
+   ]
+  },
+  {
+   "region": "Italy (Lombardy, Pesaro)",
+   "speciality": "artisan briar pipes; Toscano cigars",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "brands": [
+    "Castello",
+    "Radice",
+    "Savinelli",
+    "Ser Jacopo",
+    "Caminetto",
+    "Viprati",
+    "Toscano"
+   ],
+   "brands_known": [
+    "Castello",
+    "Savinelli"
+   ]
+  },
+  {
+   "region": "Turkey (Eskisehir)",
+   "speciality": "carved meerschaum pipes",
+   "src": "https://pipedia.org/wiki/Altinay",
+   "brands": [
+    "Altinay"
+   ],
+   "brands_known": []
+  },
+  {
+   "region": "England / Ireland",
+   "speciality": "classic-shape briar pipes (Dunhill standardised shapes)",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "brands": [
+    "Dunhill"
+   ],
+   "brands_known": [
+    "Dunhill"
+   ]
+  },
+  {
+   "region": "Denmark",
+   "speciality": "freehand pipes (Danish pipe makers)",
+   "src": "https://pipesmagazine.com/blog/industry-spotlight/the-danish-pipe-shop-in-copenhagen-denmark",
+   "brands": [],
+   "brands_known": []
+  },
+  {
+   "region": "Indonesia (Kudus, Surabaya)",
+   "speciality": "kretek clove cigarettes",
+   "src": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/kretek",
+   "brands": [
+    "Djarum",
+    "Dji Sam Soe",
+    "Sampoerna",
+    "Bentoel"
+   ],
+   "brands_known": [
+    "Djarum",
+    "Sampoerna"
+   ]
+  },
+  {
+   "region": "Sweden",
+   "speciality": "snus",
+   "src": "https://en.wikipedia.org/wiki/G%C3%B6teborgs_Rap%C3%A9",
+   "brands": [
+    "Goteborgs Rape",
+    "Ettan",
+    "Skruf",
+    "Swedish Match"
+   ],
+   "brands_known": [
+    "Swedish Match"
+   ]
+  },
+  {
+   "region": "Egypt / Middle East",
+   "speciality": "shisha (waterpipe) tobacco",
+   "src": "https://portal-uat.who.int/fctcapps/sites/default/files/kh-media/STILL-TOBACCO-REPORT.pdf",
+   "brands": [
+    "Al-Nakhla",
+    "Al-Fakher",
+    "Eastern Tobacco",
+    "Moassel Salloum",
+    "Mazaya"
+   ],
+   "brands_known": [
+    "Al-Fakher"
+   ]
+  },
+  {
+   "region": "Southeast Asia (Philippines)",
+   "speciality": "Tabacalera cigars",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "brands": [
+    "Tabacalera"
+   ],
+   "brands_known": []
+  },
+  {
+   "region": "Sub-Saharan Africa (Mozambique)",
+   "speciality": "first fully-African cigar brand",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "brands": [
+    "Bongani"
+   ],
+   "brands_known": []
+  },
+  {
+   "region": "Oceania (Australia)",
+   "speciality": "only Australian cigar company",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "brands": [
+    "Nicoya Cigars"
+   ],
+   "brands_known": [
+    "Nicoya Cigars"
+   ]
+  },
+  {
+   "region": "China (vaping hardware)",
+   "speciality": "vape device makers per UK vape retailer awards (OXVA, Vaporesso, Geekvape); global market, nothing distinctive",
+   "src": "https://www.misteliquid.co.uk/blog/mist-vape-awards-2025-the-very-best-vapes-in-2025",
+   "brands": [
+    "OXVA",
+    "Vaporesso",
+    "Geekvape"
+   ],
+   "brands_known": []
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "title": "List of cigar brands - Wikipedia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 120,
+   "new_names": 44,
+   "status": "done",
+   "note": "~150 brands on page; confirmed-known count 40+ J10 hits; only unmatched kept as new"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Chewing_tobacco_brands",
+   "title": "Category:Chewing tobacco brands",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 6,
+   "new_names": 6,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "title": "Category:Tobacco brands",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 17,
+   "new_names": 17,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Pipe_tobacco_brands",
+   "title": "Category:Pipe tobacco brands",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Cigarette_lighter_brands",
+   "title": "Category:Cigarette lighter brands (8 names, all known: Dunhill, Bic, Clipper, Colibri, Lancel, Ronson, Scripto, Zippo)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 8,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Habanos_S.A._brands",
+   "title": "Category:Habanos S.A. brands (29)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 29,
+   "new_names": 0,
+   "status": "done",
+   "note": "all 29 known or covered by list above"
+  },
+  {
+   "url": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "title": "The best Italian tobacco pipes (Pipeonline retailer)",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 14,
+   "new_names": 12,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://pipedia.org/wiki/Altinay",
+   "title": "Altinay - Pipedia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://pipedia.org/wiki/Pipe_Brands_/_Makers",
+   "title": "Pipe Brands / Makers - Pipedia (directory by country; index only fetched via search excerpts)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": ""
+  },
+  {
+   "url": "https://humidorist.com/cigar-of-the-year",
+   "title": "Cigar of the Year winners since 2021",
+   "kind": "award",
+   "years": "2021-2025",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "Winners: Padron 2021, 2025 (known), H. Upmann 2022 (known), Opus X/Arturo Fuente 2023 (known), My Father 2024"
+  },
+  {
+   "url": "https://www.cigaraficionado.com/article/the-cigar-of-the-year-collection",
+   "title": "Cigar of the Year Collection - Cigar Aficionado",
+   "kind": "award",
+   "years": "2004-2020",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.cigaraficionado.com/article/the-best-cigars-of-2025",
+   "title": "Best Cigars of 2025",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.cigaraficionado.com/article/best-cigars-of-2024",
+   "title": "Best Cigars of 2024",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://portal-uat.who.int/fctcapps/sites/default/files/kh-media/STILL-TOBACCO-REPORT.pdf",
+   "title": "WHO report: waterpipe industry in Middle East",
+   "kind": "ranking",
+   "years": "2021",
+   "names_on_page": 5,
+   "new_names": 4,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dji_Sam_Soe",
+   "title": "Dji Sam Soe",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.indonesia-investments.com/business/indonesian-companies/hm-sampoerna/item204",
+   "title": "HM Sampoerna",
+   "kind": "ranking",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/G%C3%B6teborgs_Rap%C3%A9",
+   "title": "Goteborgs Rape",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  }
+ ],
+ "brands": [
+  {
+   "n": "Aristoff",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Arsen",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "AVO",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Backwoods Smokes",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Black & Mild",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Bongani",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Mozambique",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Cabaiguan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Chaman",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Costa Rica",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Cuesta-Rey",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Diamond Crown",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Dutch Masters",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Ernesto Perez-Carrillo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Flor del Punto",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Fumadores",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Garcia y Vega",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Gispert",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Cuba (Habanos)",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Guantanamera",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Cuba (Habanos)",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Hamlet",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "UK",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Havana Soul",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Henry Clay",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Hestia Tobacco",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Loeser & Wolff",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Macanudo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Marsh Wheeling",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "My Father",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Nicaragua",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Nub",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Nicaragua",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Old Henry",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Padilla",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "La Palina",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Paul Garmirian",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Plasencia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Nicaragua",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Por Larranaga",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Cuba (Habanos)",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Quesada",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Quintero",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Cuba (Habanos)",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Sancho Panza",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Cuba (Habanos)",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Star Cigar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Swisher Sweets",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Tiparillo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Torano",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Toscano",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Italy",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "White Owl",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Willem II",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Netherlands",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Zino",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands (also Category:Cigar brands / Habanos S.A. brands where relevant)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Tabacalera",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_cigar_brands",
+   "says": "listed in Wikipedia List of cigar brands: flagship of Tabacalera Incorporada, Philippines (130 years)",
+   "country": "Philippines",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "America's Best Chew",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Chewing_tobacco_brands",
+   "says": "listed in Wikipedia Category:Chewing tobacco brands",
+   "country": "US",
+   "dept": "chewing tobacco",
+   "already": false
+  },
+  {
+   "n": "Copenhagen",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Chewing_tobacco_brands",
+   "says": "listed in Wikipedia Category:Chewing tobacco brands",
+   "country": "US",
+   "dept": "chewing tobacco",
+   "already": false
+  },
+  {
+   "n": "Kodiak",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Chewing_tobacco_brands",
+   "says": "listed in Wikipedia Category:Chewing tobacco brands",
+   "country": "US",
+   "dept": "chewing tobacco",
+   "already": false
+  },
+  {
+   "n": "Levi Garrett",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Chewing_tobacco_brands",
+   "says": "listed in Wikipedia Category:Chewing tobacco brands",
+   "country": "US",
+   "dept": "chewing tobacco",
+   "already": false
+  },
+  {
+   "n": "Skoal",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Chewing_tobacco_brands",
+   "says": "listed in Wikipedia Category:Chewing tobacco brands",
+   "country": "US",
+   "dept": "chewing tobacco",
+   "already": false
+  },
+  {
+   "n": "Stoker's",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Chewing_tobacco_brands",
+   "says": "listed in Wikipedia Category:Chewing tobacco brands",
+   "country": "US",
+   "dept": "chewing tobacco",
+   "already": false
+  },
+  {
+   "n": "Borkum Riff",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Pipe_tobacco_brands",
+   "says": "listed in Wikipedia Category:Pipe tobacco brands",
+   "country": "",
+   "dept": "pipe tobacco",
+   "already": false
+  },
+  {
+   "n": "Capstan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Pipe_tobacco_brands",
+   "says": "listed in Wikipedia Category:Pipe tobacco brands",
+   "country": "",
+   "dept": "pipe tobacco",
+   "already": false
+  },
+  {
+   "n": "Amber Leaf",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "UK",
+   "dept": "roll-your-own",
+   "already": false
+  },
+  {
+   "n": "Bali Shag",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "",
+   "dept": "roll-your-own",
+   "already": false
+  },
+  {
+   "n": "Bugler",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "US",
+   "dept": "roll-your-own",
+   "already": false
+  },
+  {
+   "n": "Bull Durham",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "US",
+   "dept": "smoking tobacco",
+   "already": false
+  },
+  {
+   "n": "Cutters Choice",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "US",
+   "dept": "pipe tobacco",
+   "already": false
+  },
+  {
+   "n": "Donskoy Tabak",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "Russia",
+   "dept": "cigarettes",
+   "already": false
+  },
+  {
+   "n": "Drum",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "",
+   "dept": "roll-your-own",
+   "already": false
+  },
+  {
+   "n": "Ettan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "Sweden",
+   "dept": "snus",
+   "already": false
+  },
+  {
+   "n": "Golden Virginia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "UK",
+   "dept": "roll-your-own",
+   "already": false
+  },
+  {
+   "n": "Hav-A-Tampa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "US",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Hope Luxury",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "",
+   "dept": "cigarettes",
+   "already": false
+  },
+  {
+   "n": "Niemeyer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "Netherlands",
+   "dept": "pipe tobacco",
+   "already": false
+  },
+  {
+   "n": "Oliver Twist",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "",
+   "dept": "pipe tobacco",
+   "already": false
+  },
+  {
+   "n": "Roda Lacket",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "Sweden",
+   "dept": "snus",
+   "already": false
+  },
+  {
+   "n": "Skruf",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "Sweden",
+   "dept": "snus",
+   "already": false
+  },
+  {
+   "n": "White Ox",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "US",
+   "dept": "smoking tobacco",
+   "already": false
+  },
+  {
+   "n": "Mahala",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Tobacco_brands",
+   "says": "listed in Wikipedia Category:Tobacco brands",
+   "country": "",
+   "dept": "cigarettes",
+   "already": false
+  },
+  {
+   "n": "Goteborgs Rape",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/G%C3%B6teborgs_Rap%C3%A9",
+   "says": "Swedish snus brand, recipe from early 19th c. Gothenburg; one of five registered by state monopoly in 1919 after jury tasting",
+   "country": "Sweden",
+   "dept": "snus",
+   "already": false
+  },
+  {
+   "n": "Dji Sam Soe",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Dji_Sam_Soe",
+   "says": "Indonesian kretek launched 1913 in Surabaya by Sampoerna; \"King of Kretek\"",
+   "country": "Indonesia",
+   "dept": "kretek",
+   "already": false
+  },
+  {
+   "n": "Al-Nakhla",
+   "layer": "cultural",
+   "src": "https://portal-uat.who.int/fctcapps/sites/default/files/kh-media/STILL-TOBACCO-REPORT.pdf",
+   "says": "Cairo waterpipe tobacco maker founded 1913; brands Kass, Mizo, Fakhfakhina",
+   "country": "Egypt",
+   "dept": "shisha",
+   "already": false
+  },
+  {
+   "n": "Eastern Tobacco",
+   "layer": "cultural",
+   "src": "https://portal-uat.who.int/fctcapps/sites/default/files/kh-media/STILL-TOBACCO-REPORT.pdf",
+   "says": "Egyptian official cigarette maker; Moassel Salloum waterpipe tobacco",
+   "country": "Egypt",
+   "dept": "shisha",
+   "already": false
+  },
+  {
+   "n": "Moassel Salloum",
+   "layer": "cultural",
+   "src": "https://portal-uat.who.int/fctcapps/sites/default/files/kh-media/STILL-TOBACCO-REPORT.pdf",
+   "says": "Eastern Tobacco brand, 30.5% of Egypt waterpipe market",
+   "country": "Egypt",
+   "dept": "shisha",
+   "already": false
+  },
+  {
+   "n": "Mazaya",
+   "layer": "cultural",
+   "src": "https://portal-uat.who.int/fctcapps/sites/default/files/kh-media/STILL-TOBACCO-REPORT.pdf",
+   "says": "Al Zawree waterpipe brand, 7.3% Egyptian market",
+   "country": "Egypt",
+   "dept": "shisha",
+   "already": false
+  },
+  {
+   "n": "Radice",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "Brebbia",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "Caminetto",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "Ascorti",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "Santambrogio",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "Ser Jacopo",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "L'Anatra dalle Uova d'Oro",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "Viprati",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "Amorelli",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "Becker",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "Regina Scarlatta",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "Gigliucci",
+   "layer": "premium",
+   "src": "https://www.pipeonline.it/en/blog/the-best-italian-tobacco-pipes",
+   "says": "named by specialist pipe retailer as benchmark Italian pipe brand / high-grade artisan (Castello 55, Ser Jacopo Delecta etc.); retailer statement",
+   "country": "Italy",
+   "dept": "briar pipe",
+   "already": false
+  },
+  {
+   "n": "Altinay",
+   "layer": "premium",
+   "src": "https://pipedia.org/wiki/Altinay",
+   "says": "renowned Turkish meerschaum workshop, Eskisehir, founded 1964 by Necdet Altinay",
+   "country": "Turkey",
+   "dept": "meerschaum pipe",
+   "already": false
+  },
+  {
+   "n": "Aging Room",
+   "layer": "premium",
+   "src": "https://www.elementvape.com/blog/post/the-ultimate-guide-to-aging-room-cigars",
+   "says": "Aging Room Quattro Nicaragua Maestro: Cigar Aficionado Cigar of the Year 2019 (96 pts, blind tasting); retailer page restating",
+   "country": "Dominican Republic/Nicaragua",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Casa Carrillo",
+   "layer": "premium",
+   "src": "https://www.cigaraficionado.com/article/best-cigars-of-2024",
+   "says": "two-time Cigar Aficionado Cigar of the Year winner (blind tasting)",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "EPC Cigar Co.",
+   "layer": "premium",
+   "src": "https://www.cigaraficionado.com/article/the-cigar-of-the-year-collection",
+   "says": "Ernesto Perez-Carrillo; Encore Majestic Cigar of the Year 2018; Cigar Aficionado blind tasting",
+   "country": "Dominican Republic",
+   "dept": "cigars",
+   "homonym_note": "same maker as Ernesto Perez-Carrillo row; merge",
+   "already": false
+  },
+  {
+   "n": "Viaje",
+   "layer": "premium",
+   "src": "https://www.cigaraficionado.com/article/the-best-cigars-of-2025",
+   "says": "Viaje Fifteen Plus Two and a Half Anniversary Silver in Cigar Aficionado Top 25 of 2025",
+   "country": "Nicaragua (Aganorsa Leaf)",
+   "dept": "cigars",
+   "already": false
+  },
+  {
+   "n": "Foundation Cigar Co.",
+   "layer": "premium",
+   "src": "https://www.cigaraficionado.com/article/the-best-cigars-of-2025",
+   "says": "Olmec Maduro Grande #22 (94 pts) in Cigar Aficionado Top 25 of 2025",
+   "country": "",
+   "dept": "cigars",
+   "already": false
+  }
+ ],
+ "homonym_flags": []
+}
