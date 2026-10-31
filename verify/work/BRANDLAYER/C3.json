@@ -5,17 +5,6 @@
  "sweeps": [
   {
    "axis": "kind",
-   "item": "Garden plants > Roses",
-   "queries": [
-    "Category:Rose breeders",
-    "ARS Rose Breeders Hall of Fame",
-    "Chelsea Great Pavilion roses"
-   ],
-   "found": 34,
-   "note": ""
-  },
-  {
-   "axis": "kind",
    "item": "Garden plants > Perennials & grasses / Shrubs / Trees",
    "queries": [
     "RHS Chelsea Great Pavilion 2026 gold list",
@@ -35,25 +24,6 @@
    ],
    "found": 73,
    "note": ""
-  },
-  {
-   "axis": "kind",
-   "item": "Bonsai",
-   "queries": [
-    "Omiya bonsai village nurseries"
-   ],
-   "found": 6,
-   "note": "Kokufu-ten, Taiwan, Chinese penjing not yet harvested"
-  },
-  {
-   "axis": "kind",
-   "item": "Orchids",
-   "queries": [
-    "Chelsea orchid golds",
-    "Taiwan orchid nursery search"
-   ],
-   "found": 3,
-   "note": "search only; Taiwan/Thailand orchid award lists not fetched"
   },
   {
    "axis": "kind",
@@ -83,15 +53,6 @@
    ],
    "found": 4,
    "note": "fruit tree nurseries (Frank P Matthews, Dave Wilson, Stark Bros) via other lists"
-  },
-  {
-   "axis": "kind",
-   "item": "Cut flowers & Christmas trees",
-   "queries": [
-    "Chelsea cut flower golds"
-   ],
-   "found": 4,
-   "note": "Interplant/Chrysanthemums Direct only; Dutch/Kenyan/Colombian growers not fetched"
   },
   {
    "axis": "region",
@@ -145,15 +106,6 @@
   },
   {
    "axis": "region",
-   "item": "Sub-Saharan Africa",
-   "queries": [
-    "Chelsea South Africa flora"
-   ],
-   "found": 1,
-   "note": "Kelnan Plants only"
-  },
-  {
-   "axis": "region",
    "item": "South Asia",
    "queries": [
     "Wikipedia Seed companies (Mahyco, Nuziveedu: ag, excluded)"
@@ -170,15 +122,6 @@
     "Taiwan orchid"
    ],
    "found": 7,
-   "note": ""
-  },
-  {
-   "axis": "region",
-   "item": "Southeast Asia",
-   "queries": [
-    "Wikipedia Plant nurseries (Manila Seedling Bank)"
-   ],
-   "found": 1,
    "note": ""
   },
   {
@@ -209,14 +152,98 @@
    "note": ""
   },
   {
+   "axis": "kind",
+   "item": "Cut flowers & Christmas trees",
+   "queries": [
+    "RHS Chelsea Hampton Malvern Tatton medals 2025"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Garden plants > Roses",
+   "queries": [
+    "List of rose breeders",
+    "rose breeders"
+   ],
+   "found": 40,
+   "note": "Wikipedia list fetched in full"
+  },
+  {
+   "axis": "kind",
+   "item": "Mushrooms & living cultures > Ferment cultures",
+   "queries": [
+    "tane-koji moyashi Japan makers"
+   ],
+   "found": 3,
+   "note": "koji; kefir/kombucha/sourdough not yet"
+  },
+  {
+   "axis": "kind",
+   "item": "Mushrooms & living cultures > Mushroom spawn & kits",
+   "queries": [
+    "mushroom spawn producer Sylvan Amycel"
+   ],
+   "found": 11,
+   "note": "trade report names"
+  },
+  {
+   "axis": "kind",
+   "item": "Mushrooms & living cultures > Brewing yeasts & algae",
+   "queries": [
+    "best yeast brands homebrew",
+    "kveik yeast producers"
+   ],
+   "found": 12,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "Kenya rose breeders flower sector"
+   ],
+   "found": 1,
+   "note": "Kenya rose export; breeders are Dutch (De Ruiter, Schreurs, Interplant, Dümmen Orange)"
+  },
+  {
    "axis": "region",
    "item": "Latin America & Caribbean",
    "queries": [
-    "Viveros de Coyoacan (Wikipedia)",
-    "Chelsea Pure Grenada/Barbados"
+    "Colombia Ecuador rose breeders"
+   ],
+   "found": 2,
+   "note": "Ecuador/Colombia premium roses; Esmeralda Breeding"
+  },
+  {
+   "axis": "kind",
+   "item": "Orchids",
+   "queries": [
+    "Taiwan orchid awards nurseries",
+    "Thailand orchid nursery",
+    "Labeau Phalaenopsis breeders"
+   ],
+   "found": 9,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Bonsai",
+   "queries": [
+    "Kokufu-ten bonsai exhibitors"
    ],
    "found": 1,
-   "note": ""
+   "note": "Kokufu-ten list pages not fetched; Shunkaen only"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Thailand orchid nurseries"
+   ],
+   "found": 1,
+   "note": "Kasem Boonchoo"
   }
  ],
  "regions": [
@@ -357,6 +384,89 @@
    "brands": [
     "Kelnan Plants"
    ]
+  },
+  {
+   "region": "East Asia",
+   "speciality": "Seed koji (tane-koji) makers, moyashiya, supply Japan sake, miso, soy sauce brewers",
+   "src": "https://www.nippon.com/en/articles/-/13792",
+   "brands": [
+    "Hishiroku",
+    "Akita Konno Shoten",
+    "Bio'c (Kojiya Sanzaemon)"
+   ]
+  },
+  {
+   "region": "North America",
+   "speciality": "Mushroom spawn (Agaricus strains) and ferment starter cultures",
+   "src": "https://www.amycel.com/about/our-story",
+   "brands": [
+    "Amycel",
+    "Sylvan",
+    "Ecovative (Lambert Spawn)",
+    "Cultures for Health"
+   ]
+  },
+  {
+   "region": "Northern Europe",
+   "speciality": "Kveik farmhouse yeast (Norway: Voss, Hornindal, Stranda), commercialised by US labs",
+   "src": "https://omegayeast.com/norwegian-kveik-strains-the-history-unique-aspects-and-our-strains",
+   "brands": [
+    "Omega Yeast Labs",
+    "White Labs",
+    "Escarpment Labs",
+    "The Yeast Bay"
+   ]
+  },
+  {
+   "region": "Latin America & Caribbean",
+   "speciality": "Premium export roses (Ecuador, Colombia) and cut-flower breeding",
+   "src": "https://resources.colead.link/pt/system/files/file_fields/2025/01/28/theflowersectorinkenya-rosesweb.pdf",
+   "brands": [
+    "Esmeralda Breeding",
+    "Schreurs Roses",
+    "Dümmen Orange"
+   ]
+  },
+  {
+   "region": "Western Europe",
+   "speciality": "Dutch flower breeding and bulbs (Netherlands)",
+   "src": "https://emea.dummenorange.com/site/en/news-archive/detail/olij-roses-joins-dummen-orange/en-111-120",
+   "brands": [
+    "Dümmen Orange",
+    "Schreurs Roses",
+    "Interplant",
+    "De Ruiter Innovations",
+    "Olij Roses"
+   ]
+  },
+  {
+   "region": "Sub-Saharan Africa",
+   "speciality": "Cut roses grown in Kenya for export via Dutch auction",
+   "src": "https://resources.colead.link/pt/system/files/file_fields/2025/01/28/theflowersectorinkenya-rosesweb.pdf",
+   "brands": [
+    "De Ruiter Innovations",
+    "Schreurs Roses",
+    "Dümmen Orange",
+    "Interplant"
+   ]
+  },
+  {
+   "region": "East Asia",
+   "speciality": "Phalaenopsis orchids and bonsai (Taiwan, Japan)",
+   "src": "https://www.taiwan-orchid-nursery.com/",
+   "brands": [
+    "Shulong Flowers",
+    "Taisuco Phalaenopsis (Taiwan Sugar Corporation)",
+    "Shunkaen Bonsai Museum (Kunio Kobayashi)"
+   ]
+  },
+  {
+   "region": "Southeast Asia",
+   "speciality": "Thai orchids (Dendrobium, Vanda, Mokara) cut flower and export",
+   "src": "http://www.orchidkb.com/kbhistory.htm",
+   "brands": [
+    "Kasem Boonchoo Orchid Nursery"
+   ]
   }
  ],
  "sources": [
@@ -451,16 +561,6 @@
    "note": "seen only in search excerpt; not fetched"
   },
   {
-   "url": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
-   "title": "Wikipedia List of rose breeders",
-   "kind": "encyclopedia",
-   "years": "n/a",
-   "names_on_page": 0,
-   "new_names": 0,
-   "status": "partial",
-   "note": "located, not fetched in full; next step"
-  },
-  {
    "url": "https://www.rhs.org.uk/shows-events/rhs-chelsea-flower-show/history/2025/awards",
    "title": "RHS Chelsea 2025 awards",
    "kind": "award",
@@ -489,6 +589,136 @@
    "new_names": 18,
    "status": "done",
    "note": "also Master Grower Burncoose; Best Rose Peter Beales"
+  },
+  {
+   "url": "https://www.rhs.org.uk/shows-events/rhs-chelsea-flower-show/history/2024/awards-at-rhs-chelsea-2024",
+   "title": "RHS Chelsea 2024 awards",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 3,
+   "new_names": 0,
+   "status": "partial",
+   "note": "fetch returned only best-in-show; floral medal list not rendered. Leon Kluge Garden Design (Cape Flora) best exhibit, Pure Grenada president's choice"
+  },
+  {
+   "url": "https://www.rhs.org.uk/shows-events/rhs-flower-show-tatton-park/awards",
+   "title": "RHS Tatton Park awards",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "fetch shows only judging description; no floral medal list. thedirt.news 2024 Tatton page also gave no floral list"
+  },
+  {
+   "url": "https://thedirt.news/rhs-chelsea-2024-great-pavilion-awards",
+   "title": "The Dirt Chelsea 2024 Great Pavilion awards",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "page body not returned"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "title": "Wikipedia: List of rose breeders",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 42,
+   "new_names": 41,
+   "status": "done",
+   "note": "persons/firms; breeder names, historical"
+  },
+  {
+   "url": "https://www.nippon.com/en/articles/-/13792",
+   "title": "Nippon.com: Moyashiya, Japan's centuries-old merchants of koji mold (plus Marukome mag, Akita Konno and Bio'c sites from search)",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 3,
+   "status": "done",
+   "note": "search-excerpt confirmed, one fetch pending"
+  },
+  {
+   "url": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "title": "GCRI Trust 2023 Champignon trade-fair report; culturesforhealth.com",
+   "kind": "ranking",
+   "years": "2023",
+   "names_on_page": 12,
+   "new_names": 11,
+   "status": "done",
+   "note": "search-excerpt based; PDF not separately fetched"
+  },
+  {
+   "url": "https://www.brewersfriend.com/styles/specialty-ipa-black-ipa/yeasts",
+   "title": "Brewer's Friend yeast usage; Northern Brewer yeast brand directory; Omega Yeast kveik",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 12,
+   "new_names": 8,
+   "status": "done",
+   "note": "search-excerpt; usage counts"
+  },
+  {
+   "url": "https://resources.colead.link/pt/system/files/file_fields/2025/01/28/theflowersectorinkenya-rosesweb.pdf",
+   "title": "COLEAD: The flower sector in Kenya: Roses; Dümmen Orange news; Rio Roses breeder corner; FlowerTrials; Thursd",
+   "kind": "ranking",
+   "years": "2025",
+   "names_on_page": 8,
+   "new_names": 8,
+   "status": "done",
+   "note": "search-excerpts; Kenya rose breeding landscape"
+  },
+  {
+   "url": "https://www.worldbonsaiconvention.com/",
+   "title": "Taiwan/Thai orchid nurseries (Shulong, Taisuco, Labeau, KB Orchids); Kokufu-ten winner Kobayashi (World Bonsai Convention page)",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 10,
+   "new_names": 10,
+   "status": "done",
+   "note": "search-excerpts"
+  },
+  {
+   "url": "https://www.magiminiland.org/Days/Kokufuten.html",
+   "title": "Kokufu-ten overview (Magi Miniland)",
+   "kind": "award",
+   "years": "1934-2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Kokufu-ten prize lists by year not captured; only Kobayashi/Shunkaen confirmed as multiple winner via search excerpt"
+  },
+  {
+   "url": "https://www.royalwarrant.org/directory?page=9",
+   "title": "Royal Warrant Holders Association directory and company pages; April 2023 all-holders PDF",
+   "kind": "heritage",
+   "years": "2023-2026",
+   "names_on_page": 8,
+   "new_names": 6,
+   "status": "done",
+   "note": "directory page 9 only plus company pages from search; other directory pages not walked"
+  },
+  {
+   "url": "https://www.royalwarrant.org/sites/default/files/2023-04/ALL%20WARRANT%20Holders%20Apr%202023%20V4.pdf",
+   "title": "All Royal Warrant holders April 2023",
+   "kind": "heritage",
+   "years": "2023",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "full PDF not fetched (size); pick up horticulture entries in next round"
+  },
+  {
+   "url": "https://www.plantheritage.org.uk/national-plant-collections/what-are-the-national-collections/meet-our-collection-holders",
+   "title": "Plant Heritage collection holders",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "profile page"
   }
  ],
  "brands": [
@@ -2571,6 +2801,710 @@
    "says": "Hampton Court 2025 tradestand 3",
    "country": "UK",
    "dept": "Seeds"
+  },
+  {
+   "n": "René Barbier",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Peter Beales",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "UK",
+   "dept": "Roses"
+  },
+  {
+   "n": "Henry Bennett",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "UK",
+   "dept": "Roses"
+  },
+  {
+   "n": "Johannes Böttner",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "DE",
+   "dept": "Roses"
+  },
+  {
+   "n": "Tony Bracegirdle",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "UK",
+   "dept": "Roses"
+  },
+  {
+   "n": "Griffith Buck",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "US",
+   "dept": "Roses"
+  },
+  {
+   "n": "Georges Bugnet",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "CA",
+   "dept": "Roses"
+  },
+  {
+   "n": "Tom Carruth",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "US",
+   "dept": "Roses"
+  },
+  {
+   "n": "Jack E. Christensen",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "US",
+   "dept": "Roses"
+  },
+  {
+   "n": "Pierre Antoine Marie Crozy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Francis Dubreuil",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Eugenio Fojo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "ES",
+   "dept": "Roses"
+  },
+  {
+   "n": "Rudolf Geschwind",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "DE",
+   "dept": "Roses"
+  },
+  {
+   "n": "Jean-Marie Gonod",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Jules Gravereaux",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Jean-Baptiste André Guillot",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Roy Hennessey",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "AU",
+   "dept": "Roses"
+  },
+  {
+   "n": "Edward Gurney Hill",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "US",
+   "dept": "Roses"
+  },
+  {
+   "n": "Albert Hoffmann",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "DE",
+   "dept": "Roses"
+  },
+  {
+   "n": "Henri Antoine Jacques",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Jean Pernet",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Ketten Frères",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "LU",
+   "dept": "Roses"
+  },
+  {
+   "n": "Hermann Kiese",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "DE",
+   "dept": "Roses"
+  },
+  {
+   "n": "George Robert Knight",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "UK",
+   "dept": "Roses"
+  },
+  {
+   "n": "Henri Lédéchaux",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Louis Lens",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "BE",
+   "dept": "Roses"
+  },
+  {
+   "n": "Hilda Murrell",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "UK",
+   "dept": "Roses"
+  },
+  {
+   "n": "Louis Claude Noisette",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Joseph Pemberton",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "UK",
+   "dept": "Roses"
+  },
+  {
+   "n": "Joseph Pernet-Ducher",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Joseph Rambaux",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Frank Riethmuller",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "AU",
+   "dept": "Roses"
+  },
+  {
+   "n": "George Schoener",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "US",
+   "dept": "Roses"
+  },
+  {
+   "n": "Jean Soupert",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "LU",
+   "dept": "Roses"
+  },
+  {
+   "n": "Mathias Tantau",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "DE",
+   "dept": "Roses"
+  },
+  {
+   "n": "George Thomson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "UK",
+   "dept": "Roses"
+  },
+  {
+   "n": "Jean-Pierre Vibert",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Verein Deutscher Rosenfreunde",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "DE",
+   "dept": "Roses"
+  },
+  {
+   "n": "Walter Van Fleet",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "US",
+   "dept": "Roses"
+  },
+  {
+   "n": "Nicolai Anders von Hartwiss",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "RU/UA",
+   "dept": "Roses"
+  },
+  {
+   "n": "Anna de Diesbach",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_rose_breeders",
+   "says": "Listed as a rose breeder on Wikipedia 'List of rose breeders'",
+   "country": "FR",
+   "dept": "Roses"
+  },
+  {
+   "n": "Hishiroku (Hishiroku Moyashi)",
+   "layer": "cultural",
+   "src": "https://www.nippon.com/en/articles/-/13792",
+   "says": "Kyoto seed-koji maker 300+ years, sells to ~2,000 brewers; National Seed Koji Association member",
+   "country": "JP",
+   "dept": "Ferment cultures"
+  },
+  {
+   "n": "Akita Konno Shoten",
+   "layer": "cultural",
+   "src": "https://www.nippon.com/en/articles/-/13792",
+   "says": "Tane-koji (koji starter), yeast, lactobacillus maker since 1910; 'Konno Moyashi'",
+   "country": "JP",
+   "dept": "Ferment cultures"
+  },
+  {
+   "n": "Bio'c (Kojiya Sanzaemon)",
+   "layer": "cultural",
+   "src": "https://www.nippon.com/en/articles/-/13792",
+   "says": "Toyohashi seed-koji (tane-koji) maker; Japan Brewers Association Technology Prize 2022",
+   "country": "JP",
+   "dept": "Ferment cultures"
+  },
+  {
+   "n": "Amycel",
+   "layer": "cultural",
+   "src": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "says": "Named by Mushroom Bulletin/GCRI trade report as main spawn producer; strain developer since 1979",
+   "country": "US",
+   "dept": "Mushroom spawn"
+  },
+  {
+   "n": "Sylvan",
+   "layer": "cultural",
+   "src": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "says": "Named as leading spawn producer, strains A15, Sprint spawn",
+   "country": "US/NL",
+   "dept": "Mushroom spawn"
+  },
+  {
+   "n": "EuroMycel",
+   "layer": "cultural",
+   "src": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "says": "Spawn producer exhibiting at Champignon trade fair; strain E-58",
+   "country": "FR",
+   "dept": "Mushroom spawn"
+  },
+  {
+   "n": "Italspawn",
+   "layer": "cultural",
+   "src": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "says": "Spawn producer exhibiting at trade fair",
+   "country": "IT",
+   "dept": "Mushroom spawn"
+  },
+  {
+   "n": "Hollander Spawn",
+   "layer": "cultural",
+   "src": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "says": "Spawn producer exhibiting at trade fair",
+   "country": "NL",
+   "dept": "Mushroom spawn"
+  },
+  {
+   "n": "Ecovative (Lambert Spawn)",
+   "layer": "cultural",
+   "src": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "says": "Spawn producer, formerly Lambert Spawn",
+   "country": "US",
+   "dept": "Mushroom spawn"
+  },
+  {
+   "n": "Spyra",
+   "layer": "cultural",
+   "src": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "says": "Spawn producer exhibiting",
+   "country": "PL",
+   "dept": "Mushroom spawn"
+  },
+  {
+   "n": "Milkyway Spawn",
+   "layer": "cultural",
+   "src": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "says": "Main spawn producer on Indian subcontinent",
+   "country": "IN",
+   "dept": "Mushroom spawn"
+  },
+  {
+   "n": "Mycelia (Belgium)",
+   "layer": "cultural",
+   "src": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "says": "Spawn producer",
+   "country": "BE",
+   "dept": "Mushroom spawn"
+  },
+  {
+   "n": "Shroomwell Biotech",
+   "layer": "cultural",
+   "src": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "says": "Spawn producer",
+   "country": "EE",
+   "dept": "Mushroom spawn"
+  },
+  {
+   "n": "Shandong Exotic Fungi",
+   "layer": "cultural",
+   "src": "https://www.gcritrust.org/wp-content/uploads/2023/06/R-Noble-Netherlands-GCRI-Trust-Report-2023.pdf",
+   "says": "Spawn producer",
+   "country": "CN",
+   "dept": "Mushroom spawn"
+  },
+  {
+   "n": "Imperial Yeast",
+   "layer": "premium",
+   "src": "https://www.brewersfriend.com/styles/specialty-ipa-black-ipa/yeasts",
+   "says": "Northern Brewer brand directory; Brewer's Friend list",
+   "country": "US",
+   "dept": "Brewing yeasts"
+  },
+  {
+   "n": "Omega Yeast Labs",
+   "layer": "premium",
+   "src": "https://www.brewersfriend.com/styles/specialty-ipa-black-ipa/yeasts",
+   "says": "Northern Brewer brand directory; first to sell Voss Kveik in US",
+   "country": "US",
+   "dept": "Brewing yeasts"
+  },
+  {
+   "n": "Mangrove Jack's",
+   "layer": "premium",
+   "src": "https://www.brewersfriend.com/styles/specialty-ipa-black-ipa/yeasts",
+   "says": "Brewer's Friend yeast list",
+   "country": "NZ",
+   "dept": "Brewing yeasts"
+  },
+  {
+   "n": "Escarpment Labs",
+   "layer": "premium",
+   "src": "https://www.brewersfriend.com/styles/specialty-ipa-black-ipa/yeasts",
+   "says": "Kveik blends Brewer's Friend list",
+   "country": "CA",
+   "dept": "Brewing yeasts"
+  },
+  {
+   "n": "The Yeast Bay",
+   "layer": "premium",
+   "src": "https://www.brewersfriend.com/styles/specialty-ipa-black-ipa/yeasts",
+   "says": "Sigmund's Voss Kveik, Brewer's Friend list",
+   "country": "US",
+   "dept": "Brewing yeasts"
+  },
+  {
+   "n": "GigaYeast",
+   "layer": "premium",
+   "src": "https://www.brewersfriend.com/styles/specialty-ipa-black-ipa/yeasts",
+   "says": "Hornindal Kveik GY135, Beer Maverick chart",
+   "country": "US",
+   "dept": "Brewing yeasts"
+  },
+  {
+   "n": "Bootleg Biology",
+   "layer": "premium",
+   "src": "https://www.brewersfriend.com/styles/specialty-ipa-black-ipa/yeasts",
+   "says": "Named commercial kveik supplier",
+   "country": "US",
+   "dept": "Brewing yeasts"
+  },
+  {
+   "n": "Danstar",
+   "layer": "premium",
+   "src": "https://www.brewersfriend.com/styles/specialty-ipa-black-ipa/yeasts",
+   "says": "Windsor/LalBrew New England on Brewer's Friend",
+   "country": "CA",
+   "dept": "Brewing yeasts"
+  },
+  {
+   "n": "Schreurs Roses",
+   "layer": "premium",
+   "src": "https://resources.colead.link/pt/system/files/file_fields/2025/01/28/theflowersectorinkenya-rosesweb.pdf",
+   "says": "Rose and gerbera breeder 60+ yrs; branches Kenya, Colombia, Ecuador",
+   "country": "NL",
+   "dept": "Cut flowers"
+  },
+  {
+   "n": "Dümmen Orange",
+   "layer": "premium",
+   "src": "https://resources.colead.link/pt/system/files/file_fields/2025/01/28/theflowersectorinkenya-rosesweb.pdf",
+   "says": "World leader breeding cut flowers, pot plants, bulbs",
+   "country": "NL",
+   "dept": "Cut flowers"
+  },
+  {
+   "n": "Danziger",
+   "layer": "premium",
+   "src": "https://resources.colead.link/pt/system/files/file_fields/2025/01/28/theflowersectorinkenya-rosesweb.pdf",
+   "says": "Breeder of cut flowers; nurseries Israel, Guatemala, Kenya, Colombia",
+   "country": "IL",
+   "dept": "Cut flowers"
+  },
+  {
+   "n": "Esmeralda Breeding",
+   "layer": "premium",
+   "src": "https://resources.colead.link/pt/system/files/file_fields/2025/01/28/theflowersectorinkenya-rosesweb.pdf",
+   "says": "Premium breeder (alstroemeria, rose etc.), Andean Ecuador since 1999",
+   "country": "EC",
+   "dept": "Cut flowers"
+  },
+  {
+   "n": "Olij Roses",
+   "layer": "premium",
+   "src": "https://resources.colead.link/pt/system/files/file_fields/2025/01/28/theflowersectorinkenya-rosesweb.pdf",
+   "says": "Global breeder/propagator of roses (NL, Kenya, Ethiopia), part of Dümmen Orange",
+   "country": "NL",
+   "dept": "Cut flowers"
+  },
+  {
+   "n": "Select Breeding",
+   "layer": "premium",
+   "src": "https://resources.colead.link/pt/system/files/file_fields/2025/01/28/theflowersectorinkenya-rosesweb.pdf",
+   "says": "Rose breeder with testing in Netherlands, Kenya, Colombia",
+   "country": "NL",
+   "dept": "Cut flowers"
+  },
+  {
+   "n": "United Selections",
+   "layer": "premium",
+   "src": "https://resources.colead.link/pt/system/files/file_fields/2025/01/28/theflowersectorinkenya-rosesweb.pdf",
+   "says": "Rose breeder active with Kenyan growers",
+   "country": "NL",
+   "dept": "Cut flowers"
+  },
+  {
+   "n": "Equiflor (Rio Roses)",
+   "layer": "premium",
+   "src": "https://resources.colead.link/pt/system/files/file_fields/2025/01/28/theflowersectorinkenya-rosesweb.pdf",
+   "says": "Importer presenting breeder portfolio; sells under Rio Roses brand",
+   "country": "CO",
+   "dept": "Cut flowers"
+  },
+  {
+   "n": "Shulong Flowers",
+   "layer": "premium",
+   "src": "https://www.worldbonsaiconvention.com/",
+   "says": "Taiwan Phalaenopsis grower; 'Million Orchid Nursery' award (Council of Agriculture) every year since 2011",
+   "country": "TW",
+   "dept": "Orchids"
+  },
+  {
+   "n": "Taisuco Phalaenopsis (Taiwan Sugar Corporation)",
+   "layer": "premium",
+   "src": "https://www.worldbonsaiconvention.com/",
+   "says": "Phalaenopsis breeder, varieties carrying 'Taisuco' used as breeding material worldwide",
+   "country": "TW",
+   "dept": "Orchids"
+  },
+  {
+   "n": "Labeau (Sion / Hark)",
+   "layer": "premium",
+   "src": "https://www.worldbonsaiconvention.com/",
+   "says": "Top international Phalaenopsis breeder and propagator; Hark FCC/AM awards from RHS",
+   "country": "NL",
+   "dept": "Orchids"
+  },
+  {
+   "n": "Brighten Orchid",
+   "layer": "premium",
+   "src": "https://www.worldbonsaiconvention.com/",
+   "says": "Named leading Phalaenopsis breeder on Labeau page",
+   "country": "TW",
+   "dept": "Orchids"
+  },
+  {
+   "n": "CJ Orchids",
+   "layer": "premium",
+   "src": "https://www.worldbonsaiconvention.com/",
+   "says": "Named leading Phalaenopsis breeder on Labeau page",
+   "country": "NL",
+   "dept": "Orchids"
+  },
+  {
+   "n": "Piko Breeding",
+   "layer": "premium",
+   "src": "https://www.worldbonsaiconvention.com/",
+   "says": "Named leading Phalaenopsis breeder on Labeau page",
+   "country": "NL",
+   "dept": "Orchids"
+  },
+  {
+   "n": "Roenbaek",
+   "layer": "premium",
+   "src": "https://www.worldbonsaiconvention.com/",
+   "says": "Named leading Phalaenopsis breeder on Labeau page",
+   "country": "DK",
+   "dept": "Orchids"
+  },
+  {
+   "n": "Ter Laak Orchids",
+   "layer": "premium",
+   "src": "https://www.worldbonsaiconvention.com/",
+   "says": "Named leading Phalaenopsis breeder on Labeau page",
+   "country": "NL",
+   "dept": "Orchids"
+  },
+  {
+   "n": "Kasem Boonchoo Orchid Nursery",
+   "layer": "premium",
+   "src": "https://www.worldbonsaiconvention.com/",
+   "says": "Thai orchid nursery since 1965; awards from AOS, Asian Orchid Congress, RHS Thailand",
+   "country": "TH",
+   "dept": "Orchids"
+  },
+  {
+   "n": "Shunkaen Bonsai Museum (Kunio Kobayashi)",
+   "layer": "premium",
+   "src": "https://www.worldbonsaiconvention.com/",
+   "says": "Kobayashi: 10-time Kokufu-ten award winner incl. 4 Prime Minister Awards; Tokyo bonsai garden",
+   "country": "JP",
+   "dept": "Bonsai"
+  },
+  {
+   "n": "Eagle Sweet Peas",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?page=9",
+   "says": "Royal Warrant (HM The King) supplier of sweet pea seeds",
+   "country": "UK",
+   "dept": "Seeds"
+  },
+  {
+   "n": "P. de Jager & Sons",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?page=9",
+   "says": "Royal Warrant (King and Queen) supplier of garden flower bulbs; 155+ years",
+   "country": "UK",
+   "dept": "Bulbs"
+  },
+  {
+   "n": "Millais Nurseries",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?page=9",
+   "says": "Royal Warrant (King) rhododendrons and magnolias; 5 consecutive Chelsea golds",
+   "country": "UK",
+   "dept": "Garden plants"
+  },
+  {
+   "n": "Fibrex Nurseries",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?page=9",
+   "says": "Royal Warrant (Prince of Wales list 2023) nurseryman",
+   "country": "UK",
+   "dept": "Garden plants"
+  },
+  {
+   "n": "Langthorns Plantery",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?page=9",
+   "says": "Royal Warrant (Queen Elizabeth II list 2023) ornamental plants shrubs trees",
+   "country": "UK",
+   "dept": "Garden plants"
+  },
+  {
+   "n": "Jubilee Seeds & Turf",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?page=9",
+   "says": "Listed as Royal Warrant holder in horticulture, conservation seed",
+   "country": "UK",
+   "dept": "Seeds"
+  },
+  {
+   "n": "Abbey Brook Cactus Nursery",
+   "layer": "premium",
+   "src": "https://www.plantheritage.org.uk/national-plant-collections/what-are-the-national-collections/meet-our-collection-holders",
+   "says": "Holder of 7 Plant Heritage National Plant Collections; 60+ years cacti",
+   "country": "UK",
+   "dept": "Succulents & cacti"
   }
  ]
 }

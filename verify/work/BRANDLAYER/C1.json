@@ -101,6 +101,53 @@
    ],
    "found": 41,
    "note": "complete"
+  },
+  {
+   "axis": "kind",
+   "item": "Pro Tool Innovation Awards all years",
+   "queries": [
+    "Pro Tool Innovation Awards winners list all years"
+   ],
+   "found": 53,
+   "note": "complete for tool-relevant categories"
+  },
+  {
+   "axis": "kind",
+   "item": "Fine Woodworking / Popular Woodworking / Woodworking Network awards",
+   "queries": [
+    "Fine Woodworking Best Overall hand plane chisel test winners brands",
+    "Popular Woodworking Magazine Editor's Choice Awards tools list"
+   ],
+   "found": 15,
+   "note": "FW/PW publish no year-by-year award list; guides name brands in images only"
+  },
+  {
+   "axis": "kind",
+   "item": "independent testers (Which?, Wirecutter, CR, Stiftung Warentest)",
+   "queries": [
+    "Which? best cordless drill brands tested",
+    "Stiftung Warentest Akkuschrauber Test Marken Testsieger"
+   ],
+   "found": 2,
+   "note": "Which? paywalled; CR names only majors"
+  },
+  {
+   "axis": "kind",
+   "item": "Ladders, lifting & moving",
+   "queries": [
+    "wikipedia Category:Ladder manufacturers OR List of ladder manufacturers"
+   ],
+   "found": 17,
+   "note": "ALI members + ranking page"
+  },
+  {
+   "axis": "kind",
+   "item": "Protective equipment (PPE)",
+   "queries": [
+    "wikipedia Category:Safety equipment manufacturers personal protective equipment companies"
+   ],
+   "found": 7,
+   "note": "Fastenal list only; PPE awards not searched"
   }
  ],
  "regions": [
@@ -368,11 +415,111 @@
    "url": "https://protoolinnovationawards.com/winners/",
    "title": "Pro Tool Innovation Awards winners (hand-tools, test-measurement, storage, workwear-safety, woodworking, automotive, cordless, accessories categories 2023-2026)",
    "kind": "award",
-   "years": "2023-2026",
+   "years": "2016-2026 (2022 page had no category links)",
    "names_on_page": 535,
-   "new_names": 41,
+   "new_names": 53,
+   "status": "done",
+   "note": "all years 2016-2026 fetched for hand tools, test & measurement, storage, workwear/safety; also woodworking, automotive, cordless, accessories 2021,2023-2026; corded/pneumatic/OPE categories not read"
+  },
+  {
+   "url": "https://www.finewoodworking.com/project-guides/hand-tools/hand-tool-buyers-guide",
+   "title": "Fine Woodworking hand-tool buyer's guide (best overall per category)",
+   "kind": "award",
+   "years": "2000-2020 tests",
+   "names_on_page": 3,
+   "new_names": 1,
    "status": "partial",
-   "note": "2016-2022 category pages still to fetch (urls from year pages)"
+   "note": "most brand names are in images; text names Starrett, PEC, Lie-Nielsen"
+  },
+  {
+   "url": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "title": "Highland Woodworking tool review archive",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 70,
+   "new_names": 15,
+   "status": "done",
+   "note": "specialist retailer"
+  },
+  {
+   "url": "https://www.woodworkingnetwork.com/magazine/fdmc-magazine/woodworking-network-editors-choice-top-tools-2025",
+   "title": "Woodworking Network Editor's Choice top tools 2025",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 5,
+   "new_names": 0,
+   "status": "done",
+   "note": "Felder, Work iQ, Shaper, PaintLine; Felder/Shaper recorded via Highland source"
+  },
+  {
+   "url": "https://www.galaxus.ch/en/page/cordless-drill-driver-in-stiftung-warentest-discount-drills-almost-as-good-as-brand-38110",
+   "title": "Stiftung Warentest cordless drill test 2025 (via Galaxus)",
+   "kind": "ranking",
+   "years": "2025",
+   "names_on_page": 6,
+   "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.consumerreports.org/home-garden/cordless-drills-impact-drivers/best-cordless-drills-of-the-year-a1168250583/",
+   "title": "Consumer Reports best cordless drills 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 10,
+   "new_names": 0,
+   "status": "done",
+   "note": "only major known brands (DeWalt, Makita, Milwaukee, Skil, Ryobi)"
+  },
+  {
+   "url": "https://www.testbericht.de/akkuschrauber/einsteiger",
+   "title": "testbericht.de Akkuschrauber test aggregator",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 35,
+   "new_names": 0,
+   "status": "done",
+   "note": "Wirecutter and Which? pages are paywalled/summary only; Wirecutter drill guide located but not fetched"
+  },
+  {
+   "url": "https://www.americanladderinstitute.org/?page=Manufacturers",
+   "title": "American Ladder Institute manufacturer members",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 12,
+   "new_names": 17,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "title": "Top ladder manufacturers (Ronix)",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 15,
+   "new_names": 0,
+   "status": "done",
+   "note": "supplier blog, weak"
+  },
+  {
+   "url": "https://ladderproducts.com/brands",
+   "title": "LadderProducts.com brands",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 30,
+   "new_names": 0,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.fastenal.com/content/odse/manufacturers.shtml",
+   "title": "Fastenal participating manufacturers",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 65,
+   "new_names": 7,
+   "status": "done",
+   "note": "PPE/safety, general industrial supplier"
   }
  ],
  "brands": [
@@ -3497,6 +3644,465 @@
    "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), category pages 2023-2026",
    "country": "US",
    "dept": "",
+   "already": false
+  },
+  {
+   "n": "Sunex Tools",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "Proferred",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "Ironclad Performance Wear",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "ISOtunes",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "Goldblatt",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "Fieldpiece Instruments",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "Mountz",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "Zircon",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "KNAACK",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "Ripley Tools",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "Lind Equipment",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "MPOWER Tools",
+   "layer": "premium",
+   "src": "https://protoolinnovationawards.com/winners/",
+   "says": "winner or finalist, Pro Tool Innovation Awards (juried by trade professionals), hand tools/test-measurement/storage/workwear categories 2016-2021",
+   "country": "US",
+   "dept": "",
+   "already": false
+  },
+  {
+   "n": "PEC Tools",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Benchcrafted",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Vesper Tools",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "David Barron",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Leigh Industries",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Sterling Tool Works",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Colwood",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Beall Tool Company",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Wood Slicer",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Hamilton Marking",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Earlex",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Hedgehog",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Shaper Tools",
+   "layer": "premium",
+   "src": "https://www.highlandwoodworking.com/woodworking-tool-reviews.html",
+   "says": "reviewed and sold by Highland Woodworking (specialist fine-woodworking tool retailer); Fine Woodworking hand-tool buyer's guide names Starrett/PEC best squares and Lie-Nielsen best block plane",
+   "country": "US",
+   "dept": "woodworking hand tools",
+   "already": false
+  },
+  {
+   "n": "Parkside",
+   "layer": "premium",
+   "src": "https://www.galaxus.ch/en/page/cordless-drill-driver-in-stiftung-warentest-discount-drills-almost-as-good-as-brand-38110",
+   "says": "Stiftung Warentest 2025 cordless drill test: Einhell Professional winner (1.8), Parkside 1.9; Scheppach and DeWalt also tested; Mafell/Flex/Yato listed as manufacturers on testbericht.de",
+   "country": "DE",
+   "dept": "power tools",
+   "already": false
+  },
+  {
+   "n": "Yato",
+   "layer": "premium",
+   "src": "https://www.galaxus.ch/en/page/cordless-drill-driver-in-stiftung-warentest-discount-drills-almost-as-good-as-brand-38110",
+   "says": "Stiftung Warentest 2025 cordless drill test: Einhell Professional winner (1.8), Parkside 1.9; Scheppach and DeWalt also tested; Mafell/Flex/Yato listed as manufacturers on testbericht.de",
+   "country": "DE",
+   "dept": "power tools",
+   "already": false
+  },
+  {
+   "n": "Louisville Ladder",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Bauer Ladder",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Lynn Ladder",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Cotterman",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Stokes Ladders",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Tricam Industries",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Metallic Ladder",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Gorilla Ladders",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Zarges",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Hailo",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Altrex",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Telesteps",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Youngman",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Lyte Ladders",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Ballymore",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "Alco-Lite",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "FeatherLite",
+   "layer": "premium",
+   "src": "https://ronixtools.com/en/blog/top-ladder-manufacturers-who-makes-the-best-ladders/",
+   "says": "ranked among top ladder manufacturers (Ronix guide); member of American Ladder Institute (americanladderinstitute.org manufacturer members) or listed by ladderproducts.com",
+   "country": "",
+   "dept": "ladders",
+   "already": false
+  },
+  {
+   "n": "DBI-Sala",
+   "layer": "premium",
+   "src": "https://www.fastenal.com/content/odse/manufacturers.shtml",
+   "says": "listed as safety-category participating manufacturer on Fastenal (industrial supplier)",
+   "country": "US",
+   "dept": "PPE",
+   "already": false
+  },
+  {
+   "n": "Ergodyne",
+   "layer": "premium",
+   "src": "https://www.fastenal.com/content/odse/manufacturers.shtml",
+   "says": "listed as safety-category participating manufacturer on Fastenal (industrial supplier)",
+   "country": "US",
+   "dept": "PPE",
+   "already": false
+  },
+  {
+   "n": "Bacou-Dalloz",
+   "layer": "premium",
+   "src": "https://www.fastenal.com/content/odse/manufacturers.shtml",
+   "says": "listed as safety-category participating manufacturer on Fastenal (industrial supplier)",
+   "country": "US",
+   "dept": "PPE",
+   "already": false
+  },
+  {
+   "n": "Best Glove",
+   "layer": "premium",
+   "src": "https://www.fastenal.com/content/odse/manufacturers.shtml",
+   "says": "listed as safety-category participating manufacturer on Fastenal (industrial supplier)",
+   "country": "US",
+   "dept": "PPE",
+   "already": false
+  },
+  {
+   "n": "MCR Safety",
+   "layer": "premium",
+   "src": "https://www.fastenal.com/content/odse/manufacturers.shtml",
+   "says": "listed as safety-category participating manufacturer on Fastenal (industrial supplier)",
+   "country": "US",
+   "dept": "PPE",
+   "already": false
+  },
+  {
+   "n": "Sqwincher",
+   "layer": "premium",
+   "src": "https://www.fastenal.com/content/odse/manufacturers.shtml",
+   "says": "listed as safety-category participating manufacturer on Fastenal (industrial supplier)",
+   "country": "US",
+   "dept": "PPE",
+   "already": false
+  },
+  {
+   "n": "West Chester",
+   "layer": "premium",
+   "src": "https://www.fastenal.com/content/odse/manufacturers.shtml",
+   "says": "listed as safety-category participating manufacturer on Fastenal (industrial supplier)",
+   "country": "US",
+   "dept": "PPE",
    "already": false
   }
  ]

@@ -299,6 +299,137 @@
    ],
    "found": 1,
    "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe (UK Royal Warrant, garden category 45 holders)",
+   "queries": [
+    "Royal Warrant holder garden tools"
+   ],
+   "found": 6,
+   "note": "pages 1-2 of 3 read; page 3 (holders after The Hill Brush Company) not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia (China)",
+   "queries": [
+    "China garden tools brand famous manufacturer",
+    "Mammotion Dreame robot lawn mower brand"
+   ],
+   "found": 2,
+   "note": "Dreame, Ecovacs, Roborock, Worx known; Ninebot/MOVA only press-release evidence"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Thai Vietnamese glazed pottery garden pot maker Bat Trang",
+    "Yixing zisha flower pot maker brand"
+   ],
+   "found": 1,
+   "note": "Malaysian stoneware via Mims; no maker names fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Outdoor cooking > Outdoor ovens (tandoor)",
+   "queries": [
+    "tandoor manufacturer clay oven brand India",
+    "Uzbek tandir tandyr oven maker"
+   ],
+   "found": 2,
+   "note": "no Uzbek maker named on fetched pages"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [
+    "Safi Morocco pottery garden pots workshop",
+    "Nabeul Tunisia pottery workshop"
+   ],
+   "found": 1,
+   "note": "Safi/Fes workshops unnamed on pages; Aliya family workshop named but no brand"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [
+    "Uzbek tandir tandyr oven maker"
+   ],
+   "found": 0,
+   "note": "only a US seller references tandir"
+  },
+  {
+   "axis": "kind",
+   "item": "Awards (RHS Chelsea Sustainable Excellence / Garden Product of the Year / Garden Media Guild)",
+   "queries": [
+    "Garden Media Guild awards winners product of the year",
+    "RHS Chelsea garden product awards winners tools"
+   ],
+   "found": 4,
+   "note": "2020 finalists, 2025, 2026 read from excerpts; GMG winners page link seen (gmg_awards_winners_2025.aspx) not fetched; Chelsea tradestand medal lists ambiguous (Vaso Toscano, Dalefoot Composts, Platts Robotics, Access Garden Products unchecked)"
+  },
+  {
+   "axis": "kind",
+   "item": "Clearing, cleaning & snow > Garden waste (Wheelbarrow)",
+   "queries": [
+    "best wheelbarrows tested brands"
+   ],
+   "found": 3,
+   "note": "Walsall/VonHaus: VonHaus known"
+  },
+  {
+   "axis": "kind",
+   "item": "Watering & ponds > Cans, hoses & fittings (hoses, nozzles)",
+   "queries": [
+    "best garden hoses tested brands Gardeners World"
+   ],
+   "found": 4,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Soil, feed & plant care > Garden sprayer",
+   "queries": [
+    "best pressure garden sprayer tested brands"
+   ],
+   "found": 0,
+   "note": "no sprayer brand surfaced in excerpts"
+  },
+  {
+   "axis": "kind",
+   "item": "Watering & ponds > Garden ponds",
+   "queries": [
+    "best pond pump brands tested"
+   ],
+   "found": 3,
+   "note": "affiliate review sites; weak"
+  },
+  {
+   "axis": "kind",
+   "item": "Greenhouses & indoor growing > Lights, tents & hydroponics",
+   "queries": [
+    "best LED grow lights tested brands"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Outdoor cooking > Fire pits & patio heating (patio heaters)",
+   "queries": [
+    "best patio heater brands tested"
+   ],
+   "found": 0,
+   "note": "Bromic, Swan known; others retailer listing only"
+  },
+  {
+   "axis": "kind",
+   "item": "Pots, beds & plant supports > Supports & ties",
+   "queries": [
+    "best garden obelisk trellis makers handmade"
+   ],
+   "found": 0,
+   "note": "no maker named; Twool/Nutscene found via RHS"
   }
  ],
  "regions": [
@@ -435,6 +566,43 @@
    "src": "https://www.diggers.com.au/products/youngju-homi-medium",
    "brands": [
     "Youngju"
+   ]
+  },
+  {
+   "region": "China (Shenzhen/Beijing)",
+   "speciality": "wire-free robotic lawn mowers",
+   "src": "https://www.tianjvxing.com/news/chinese-brands-drive-global-lawn-mower-revolution-smart-eco-friendly-models-reshape-the-industry-348980.html",
+   "brands": [
+    "Mammotion",
+    "Navimow",
+    "Ninebot",
+    "Dreame",
+    "Ecovacs",
+    "Roborock"
+   ]
+  },
+  {
+   "region": "Malaysia",
+   "speciality": "hand-painted glazed stoneware garden pots",
+   "src": "https://mimspottery.com/about-mims/",
+   "brands": [
+    "Mims Pottery"
+   ]
+  },
+  {
+   "region": "Tunisia (Nabeul) / Morocco (Safi, Fes)",
+   "speciality": "hand-thrown terracotta and glazed pots",
+   "src": "https://www.annahar.com/news/details?lang=1&pageid=262075",
+   "brands": [
+    "Nabeul Ceramique"
+   ]
+  },
+  {
+   "region": "India (Delhi)",
+   "speciality": "clay tandoors",
+   "src": "https://www.tandoormanufacturers.in/",
+   "brands": [
+    "Forno Sethi"
    ]
   }
  ],
@@ -786,6 +954,66 @@
    "years": "2026",
    "names_on_page": 4,
    "new_names": 2,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.royalwarrant.org/directory?f%5B0%5D=trade_category%3A31",
+   "title": "RWHA directory Horticulture & Gardening Services",
+   "kind": "heritage",
+   "years": "2026",
+   "names_on_page": 40,
+   "new_names": 6,
+   "status": "partial",
+   "note": "nurseries/seed/florist/tree surgeon holders not brands of this category; page=2 untried"
+  },
+  {
+   "url": "https://www.royalwarrant.org/directory?f%5B0%5D=trade_category%3A31&page=2",
+   "title": "RWHA directory page 3 of garden category",
+   "kind": "heritage",
+   "years": "2026",
+   "names_on_page": 5,
+   "new_names": 2,
+   "status": "done",
+   "note": "Royal Warrant garden category 45 holders all read except items 21-40 partially"
+  },
+  {
+   "url": "https://www.tandoormanufacturers.in/",
+   "title": "Forno Sethi",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.rhs.org.uk/shows-events/rhs-chelsea-flower-show/awards",
+   "title": "RHS Chelsea awards 2025/2026",
+   "kind": "award",
+   "years": "2020-2026",
+   "names_on_page": 15,
+   "new_names": 4,
+   "status": "partial",
+   "note": "earlier years (2011-2024) not read"
+  },
+  {
+   "url": "https://www.reviewed.com/home-outdoors/best-right-now/best-gardening-tools-and-equipment",
+   "title": "Reviewed best gardening tools",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 6,
+   "new_names": 3,
+   "status": "done",
+   "note": "Felco, Flexzilla etc"
+  },
+  {
+   "url": "https://www.bhg.com/best-grow-lights-7255086",
+   "title": "BHG best grow lights",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 2,
+   "new_names": 1,
    "status": "done",
    "note": ""
   }
@@ -1574,6 +1802,253 @@
    "says": "Consumer Reports tests snow blowers from Ariens, Craftsman, Cub Cadet, Honda, Husqvarna, Toro, Troy-Bilt",
    "country": "United States",
    "dept": "Snow clearing"
+  },
+  {
+   "n": "Sheen Labels",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?f%5B0%5D=trade_category%3A31&page=1",
+   "says": "Royal Warrant, HM The King: Manufacturer of Horticultural Labels (Sheen Botanical Labels)",
+   "country": "United Kingdom",
+   "dept": "Plant labels"
+  },
+  {
+   "n": "Melcourt Industries",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?f%5B0%5D=trade_category%3A31&page=1",
+   "says": "Royal Warrant holder, Horticulture & Gardening Services (growing media, bark mulches)",
+   "country": "United Kingdom",
+   "dept": "Compost & mulch"
+  },
+  {
+   "n": "Hortisystems",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?f%5B0%5D=trade_category%3A31",
+   "says": "Royal Warrant holder; horticultural equipment: shading, ventilation, irrigation, lighting, benching",
+   "country": "United Kingdom",
+   "dept": "Greenhouse equipment"
+  },
+  {
+   "n": "Carbon Gold",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?f%5B0%5D=trade_category%3A31",
+   "says": "Royal Warrant holder, Horticulture & Gardening Services (biochar soil products)",
+   "country": "United Kingdom",
+   "dept": "Soil improver"
+  },
+  {
+   "n": "John Miller (Corsham)",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.royalwarrant.org/directory?f%5B0%5D=trade_category%3A31&page=1",
+   "says": "Royal Warrant: Suppliers of Garden Machinery & Chain Saws",
+   "country": "United Kingdom",
+   "dept": "Powered tools"
+  },
+  {
+   "n": "Angus Chain Saw Service",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.royalwarrant.org/directory?f%5B0%5D=trade_category%3A31",
+   "says": "Royal Warrant holder; garden and forestry tool supply and repair, Angus",
+   "country": "United Kingdom",
+   "dept": "Powered tools"
+  },
+  {
+   "n": "Vitax",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?f%5B0%5D=trade_category%3A31&page=2",
+   "says": "Royal Warrant, HM The King: Manufacturers of Fertilisers and Plant Health Products",
+   "country": "United Kingdom",
+   "dept": "Feeds"
+  },
+  {
+   "n": "Woodpecker Joinery",
+   "layer": "cultural",
+   "src": "https://www.royalwarrant.org/directory?f%5B0%5D=trade_category%3A31&page=2",
+   "says": "Royal Warrant holder; greenhouses (Woodpecker Joinery UK)",
+   "country": "United Kingdom",
+   "dept": "Greenhouses"
+  },
+  {
+   "n": "Mammotion",
+   "layer": "premium",
+   "src": "https://mammotion.com/",
+   "says": "Frost & Sullivan: #1 by global revenue of wire-free robotic mowers (Jul 2024-Jun 2025); reviewed by TechRadar, T3",
+   "country": "China",
+   "dept": "Robotic mowers"
+  },
+  {
+   "n": "Navimow",
+   "layer": "premium",
+   "src": "https://global.chinadaily.com.cn/a/202412/20/WS6764cecaa310f1265a1d4016.html",
+   "says": "Segway Navimow-i honoured by Gardeners' World as best wire-free robotic mower 2024",
+   "country": "China",
+   "dept": "Robotic mowers"
+  },
+  {
+   "n": "Mims Pottery",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://mimspottery.com/about-mims/",
+   "says": "since 1988 world's largest exporter of Malaysian glazed stoneware garden pots",
+   "country": "Malaysia",
+   "dept": "Pots"
+  },
+  {
+   "n": "Forno Sethi",
+   "layer": "cultural",
+   "src": "https://www.tandoormanufacturers.in/",
+   "says": "Delhi maker of clay, gas, electric tandoors since 1987",
+   "country": "India",
+   "dept": "Tandoor"
+  },
+  {
+   "n": "Gulati Tandoors",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.tandoors.com/tandoori-ovens/home-tandoor/",
+   "says": "sells charcoal clay tandoors with real clay pot handcrafted in India, also used as Uzbek tandir, Afghan tandoor, Armenian tonir",
+   "country": "United States",
+   "dept": "Tandoor"
+  },
+  {
+   "n": "Nabeul Ceramique",
+   "layer": "cultural",
+   "src": "https://www.nabeulceramique.com/en_US/artisanal-pottery",
+   "says": "Nabeul (Tunisia) artisanal terracotta garden pots, ollas, composters",
+   "country": "Tunisia",
+   "dept": "Pots"
+  },
+  {
+   "n": "Gaze Burvill",
+   "layer": "premium",
+   "src": "https://www.rhs.org.uk/shows-events/rhs-chelsea-flower-show/awards-2026/sustainable-excellence-awards",
+   "says": "Winner RHS Chelsea Sustainable Garden Product of the Year 2026 (National Trust Planter)",
+   "country": "United Kingdom",
+   "dept": "Pots"
+  },
+  {
+   "n": "POTR",
+   "layer": "premium",
+   "src": "https://www.rhs.org.uk/shows-events/rhs-chelsea-flower-show/awards",
+   "says": "Winner RHS Chelsea Sustainable Business of the Year 2025; Helix self-watering pot 2026 finalist",
+   "country": "United Kingdom",
+   "dept": "Pots"
+  },
+  {
+   "n": "Twool",
+   "layer": "premium",
+   "src": "https://www.rhs.org.uk/shows-events/rhs-chelsea-flower-show/awards-2026/sustainable-excellence-awards",
+   "says": "RHS Chelsea Sustainable Excellence finalist 2025/2026; award-winning garden twine, plant ties, netting",
+   "country": "United Kingdom",
+   "dept": "Supports & ties"
+  },
+  {
+   "n": "Nutscene",
+   "layer": "premium",
+   "src": "https://www.rhs.org.uk/shows-events/rhs-chelsea-flower-show/awards",
+   "says": "RHS Chelsea 2025 Director General's Award: traditional garden twine",
+   "country": "United Kingdom",
+   "dept": "Supports & ties"
+  },
+  {
+   "n": "Haemmerlin",
+   "layer": "premium",
+   "src": "https://www.telegraph.co.uk/recommended/home/garden/best-wheelbarrow",
+   "says": "Telegraph tested wheelbarrows: Haemmerlin among best-known brands among gardeners",
+   "dept": "Wheelbarrows"
+  },
+  {
+   "n": "County Clipper",
+   "layer": "premium",
+   "src": "https://www.telegraph.co.uk/recommended/home/garden/best-wheelbarrow",
+   "says": "Telegraph tested wheelbarrows: County Clipper best known among gardeners",
+   "country": "United Kingdom",
+   "dept": "Wheelbarrows"
+  },
+  {
+   "n": "True Temper",
+   "layer": "premium",
+   "src": "https://www.reviewed.com/home-outdoors/best-right-now/best-gardening-tools-and-equipment",
+   "says": "Reviewed: best wheelbarrow we've tested, True Temper 6 cu ft",
+   "country": "United States",
+   "dept": "Wheelbarrows"
+  },
+  {
+   "n": "Dramm",
+   "layer": "premium",
+   "src": "https://www.reviewed.com/home-outdoors/best-right-now/best-gardening-tools-and-equipment",
+   "says": "Reviewed: best hose nozzle, Dramm 12421 One-Touch",
+   "country": "United States",
+   "dept": "Hose nozzles"
+  },
+  {
+   "n": "Flexzilla",
+   "layer": "premium",
+   "src": "https://www.reviewed.com/home-outdoors/best-right-now/best-gardening-tools-and-equipment",
+   "says": "Reviewed: best hose tested, Flexzilla",
+   "dept": "Hoses"
+  },
+  {
+   "n": "Flopro",
+   "layer": "premium",
+   "src": "https://www.gardenersworld.com/reviews/tools/watering/flopro-hose-review",
+   "says": "Flopro+ hose BBC Gardeners' World Best Buy, 20-year guarantee",
+   "dept": "Hoses"
+  },
+  {
+   "n": "Gilmour",
+   "layer": "cultural",
+   "src": "https://www.techgearlab.com/topics/home/best-hose-nozzle",
+   "says": "GearLab tested hose nozzles from Gilmour, Dramm, Green Mount",
+   "country": "United States",
+   "dept": "Hose nozzles"
+  },
+  {
+   "n": "Pondmaster",
+   "layer": "cultural",
+   "src": "https://zamd.net/best-pond-pumps",
+   "says": "named among top pond pump brands (Pondmaster Pond-Mag, Danner Manufacturing)",
+   "country": "United States",
+   "dept": "Pond pumps"
+  },
+  {
+   "n": "Tetra Pond",
+   "layer": "cultural",
+   "src": "https://www.backyardstyle.com/best-pond-pump",
+   "says": "Tetra Pond Debris-Handling Pump editor's choice; 'one of the most recognized names in aquarium and pond world'",
+   "dept": "Pond pumps"
+  },
+  {
+   "n": "Alpine Corporation",
+   "layer": "cultural",
+   "src": "https://www.lawntrend.com/best-pond-pump",
+   "says": "established pond pump brand (Tetra, Alpine, Pondmaster)",
+   "country": "United States",
+   "dept": "Ponds"
+  },
+  {
+   "n": "Vego Garden",
+   "layer": "premium",
+   "src": "https://www.bhg.com/best-grow-lights-7255086",
+   "says": "BHG tested best grow lights 2026: Vego Garden four-tier grow light garden",
+   "dept": "Grow lights"
+  },
+  {
+   "n": "Hydrofarm",
+   "layer": "cultural",
+   "src": "https://www.bobvila.com/reviews/best-grow-lights-2025",
+   "says": "named among best grow light brands",
+   "country": "United States",
+   "dept": "Grow lights"
+  },
+  {
+   "n": "Gardener's Supply Company",
+   "layer": "premium",
+   "src": "https://www.realsimple.com/best-grow-lights-7554690",
+   "says": "Real Simple: Stack-n-Grow Lights System best for seedlings",
+   "country": "United States",
+   "dept": "Grow lights"
   }
  ]
 }
