@@ -6,3 +6,4 @@ apply2 done (flies +, Cleto Reyes, Anaris, notes). next: Winning search/fetch, H
 apply2 done (flies +, Cleto Reyes, Anaris, notes). next: Winning search/fetch, ski; coverage-line normalisation; report
 apply3 done (Völkl, coverage-line wording); remaining: report
 report written; done
+ROUND2 started: owners via MediaWiki extracts, lines, target-sports market panel
