@@ -8,3 +8,4 @@ step7: KTC (Japan, 1947 implied), Koken(no year), sakwiki 93/111/100mm fetched, 
 step8: fetched sakwiki 58/84x4 (total fetches ~46). NEXT: write ed.py applying all edits (leatherman versions, swiss list, battery own/g, brand adds Porter-Cable/Metabo/Einhell/Ridgid, planes complete lines, kinds circlip/pipe bender/thermal cam, brands json) then validate + report
 step9: ed.py applied (do NOT rerun; backup in bak/). validate OK. Remaining: patch os field, friction xg, report
 step10: report written; done
+ROUND2 started: tasks 1 sakwiki 65/74/75/130/84-5layer/Wenger+Delemont 85; 2 Veritas via Lee Valley; 3 lock types; 4 Morakniv history. ed.py already applied in round 1 - write new script ed2.py operating on current out/C1.json (backup bak/C1_r2.json)
