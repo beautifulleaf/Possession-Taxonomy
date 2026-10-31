@@ -6,3 +6,4 @@ B7 fans done
 G2,G3 done; next B1(String,Thonet,Vitra,Resident Home,MoMA screen), B3 (lamps), B5
 B3 done (3 lamps)
 search call done (Resident, String, Thonet no14 found); applying B1 edits
+fetched: String/Ashley/Thonet pages, Vitra DM 10 designer searches (inline output; need transcribing) = 12 calls total

@@ -6,3 +6,6 @@ step5: A5 watchbase families added (29), validated OK
 step6: H4 plan: Fragrantica perfume pages state family (Oriental Floral etc); fetching Guerlain designer page for URLs, then perfume pages; houses Guerlain, Tom Ford only (budget)
 step7: Guerlain fragrantica 23 pages read (Derby page wrong year, skipped); applying edits; Tom Ford designer page fetched next
 step8: Guerlain 23 moved to family kinds, H4 validated OK; Tom Ford designer file saved
+step9: Tom Ford 20 pages read; applying
+step10: H4 done 43 placed, sel fixed
+step11: final fetch batch done (Fineline review, LV handbags, MoMA Max Bill, Supreme preview=no Crest Coaches; searches for Alden/Happi/Mexico only excerpts). Now applying A1-A4,A5 clock,H1,H2 edits
