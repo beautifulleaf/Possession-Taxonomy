@@ -247,12 +247,24 @@ for sh in W['s']:
         k['xg']='by maker country, then maker, then year'
         k['_n']=len(xs)
         for m in old: removed.append((k['n'],m))
-CLAUSE=("Model lines named on the fetched Wikipedia pages of each maker (Rolex, Omega, Seiko, G-Shock, Grand Seiko, Patek Philippe, Audemars Piguet, Cartier, Breitling, TAG Heuer, IWC, Jaeger-LeCoultre, Longines, Tudor, Hamilton, Zenith, Tissot, Panerai, Vacheron Constantin, Swatch, Bulova, A. Lange & Söhne, Hublot, Junghans, Citizen, Casio), "
+CLAUSE=("Model lines named on the fetched Wikipedia pages of each maker (Rolex, Omega, Seiko, G-Shock, Grand Seiko, Patek Philippe, Audemars Piguet, Cartier, Breitling, TAG Heuer, IWC, Jaeger-LeCoultre, Longines, Tudor, Hamilton, Zenith, Tissot, Panerai, Vacheron Constantin, Swatch, Bulova, A. Lange & Söhne, Hublot, Junghans, Citizen, Casio, Sinn, Oris, Nomos, Orient, F.P. Journe, MB&F, Richard Mille, Gl\u00e4shutte Original, Rado, Montblanc, Piaget, Breguet, Blancpain), Watchbase's family lists for Rolex, Omega, Patek Philippe, Audemars Piguet, Cartier, Breitling, TAG Heuer, IWC and Jaeger-LeCoultre, "
  "every wristwatch page in Wikipedia's Category:Watch models and its Omega, Rolex, Casio and Timex subcategories, and the Wikidata items that are instances of watch (Q178794) and named wristwatch models; the earlier hand-built entries stay. Pocket watches, smartwatches and one-off museum objects are out of scope here. ")
 for sh in W['s']:
     for k in sh['k']:
-        k['sel']=CLAUSE+f"Covers {k['_n']} entries in this kind; Wikipedia's Category:Rolex watches is complete (15 of 15), the Omega (10), Casio (11) and Timex (4) categories are complete for wristwatch pages, and Watchbase blocked automated access, so lines of makers without a fetched page (Sinn, Oris, Nomos, Orient and most independents) rest on earlier sourcing."
+        k['sel']=CLAUSE+f"Covers {k['_n']} entries in this kind; Wikipedia's Category:Rolex watches is complete (15 of 15), the Omega (10), Casio (11) and Timex (4) categories are complete for wristwatch pages, and Watchbase was read through Firecrawl for nine makers only, so lines of Seiko, Tudor, Longines, Hamilton, Zenith, Tissot, Panerai, Vacheron Constantin, Lange and most independents rest on their Wikipedia pages and earlier sourcing."
         del k['_n']
+
+# movement shelf
+for e in MV: stamp(e); 
+MV.sort(key=lambda e:(CORD.index(e['cty']) if e['cty'] in CORD else 99, e.get('mk',''), str(e.get('y') or '9999'), e['n']))
+for e in MV: e.setdefault('v',[])
+mk_kind=dict(n='Watch movement',a='calibre \u00b7 caliber',d='The mechanism inside a watch, named by maker and number; many brands buy the same base calibre.',
+ s='https://en.wikipedia.org/wiki/List_of_ETA_Movements',x=MV,
+ tt=[['Winding',['Automatic','Hand-wound','Quartz']],['Beat rate',['18,000 to 21,600 vph','28,800 vph','36,000 vph']],['Grade',['Standard','Elaborated','Top','Chronometer']]],
+ nl='One entry is a watch calibre named by its maker and number; grades, variants and date or no-date versions are versions.',
+ sel='Calibres named on the fetched Wikipedia pages (ETA, List of ETA Movements, Valjoux 7750, Miyota, Co-axial escapement, Zenith, Seiko, Grand Seiko) and Caliber Corner entries for the ETA 2824-2, Sellita SW200-1, Seiko NH35 and Rolex 3135. Covers 17 calibres; the Omega 8500 and 3861, Rolex 3235, Sellita SW500, Seiko 6R and Miyota calibre pages could not be fetched (403 or no text), so they are not listed.',
+ xg='by maker country, then maker, then year')
+W['s'].append(dict(n='Movements',t='The calibres that power the watches above, listed by maker and number.',ax='calibres by maker, oldest first',k=[mk_kind]))
 # market
 W['mode']='variety'
 W['note']="Organised by type (kind → model line → reference or generation); the same model lines are also sectioned by maker country and maker, and the market layer gives each maker's owner, tier and home country. Calibres are named in the entry text (no movement kind)."
@@ -279,7 +291,18 @@ ms=[
 W['ms']=ms
 W['msum']="Swiss exports and the share of the four leading private makers are the best published picture of the luxury end; the groups' own revenue pages give the rest. Figures are estimates where marked, and Rolex and Patek Philippe publish no revenue."
 W['b']=W['b']
-out={'replaces':['Wristwatches'],'depts':[W],'renames':{},'moves':[]}
+out={'replaces':['Wristwatches'],'depts':[W],'renames':{}}
+
+out['moves']=[
+ {'to':'D2','dept':'Wearables','note':'merge into existing D2 kind "Smartwatch"','kind':{'n':'Smartwatch','d':'Watch with apps and sensors, from the wrist PDAs of the 2000s to modern smartwatches.','x':[
+   N('I\'m Watch','I\'m SpA','','Smartwatch listed in Wikidata as a watch.',S['wd']('Q11682766')),
+   N('Fossil Wrist PDA','Fossil','2003','Wrist PDA with its own Wikipedia article.',CAT),
+   N('TAG Heuer Connected','Heuer','2015','Smartwatch announced in November 2015; Connected Modular 45 followed in March 2017.',S['heuer'])]}},
+ {'to':'D2','dept':'Wearables','note':'merge into existing D2 kind "Multisport GPS watch"','kind':{'n':'Multisport GPS watch','d':'Sports watch with GPS for running, multisport or diving.','x':[
+   N('Garmin Forerunner','Garmin','2003','Running and multisport GPS watch; the Forerunner 201 came in 2003.',WP+'Garmin'),
+   N('Garmin f\u0113nix','Garmin','2012','Multisport adventure watch with GPS.',WP+'Garmin'),
+   N('Garmin Descent','Garmin','2017','Dive computer with surface GPS; Descent Mk1 is the earliest mention.',WP+'Garmin')]}}]
+
 # brands
 bd=json.load(open(R+'out/A5_brands.json'))['b']
 have={b['n'].lower() for b in bd}
@@ -315,6 +338,23 @@ for b in bd:
         BUP[b['n']]=u
     elif b['n']=='TAG Heuer' :
         BUP['TAG Heuer']={'own':LV,'tier':'Global group','c':'Switzerland','own_y':'1999'}
+for n,c,f,seg,dd,u in [('Sinn Spezialuhren','Germany','1961','Independent','Frankfurt maker founded by Helmut Sinn; owned by Lothar Schmidt since 1994.',WP+'Sinn_(watchmaker)'),
+ ('Oris','Switzerland','1904','Independent','Hölstein maker, part of ASUAG from 1970 and independent again since the 1982 management buyout.',WP+'Oris_SA'),
+ ('Nomos Glashütte','Germany','1990','Independent','Glashütte maker founded in 1990; owner not stated on the page.',WP+'Nomos_Glash%C3%BCtte'),
+ ('Orient Watch','Japan','1950','Group','Founded in Hino, Tokyo, in 1950; Seiko Epson became majority shareholder (52 %) in 2001 and full owner in 2009.',WP+'Orient_Watch'),
+ ('F.P. Journe','Switzerland','1999','Independent','Geneva maker founded by François-Paul Journe; Chanel took 20 % in 2018.',WP+'F.P._Journe'),
+ ('MB&F','Switzerland','2005','Independent','Büsser holds 60 %, Serge Kriknoff 15 % and Chanel 25 % (2024).',WP+'MB%26F'),
+ ('Urwerk','Switzerland','1997','Independent','Founded by Felix Baumgartner and Martin Frei; official birth 1997.','https://urwerk.com/story'),
+ ('Richard Mille','Switzerland','2001','Independent','Founded by Dominique Guenat and Richard Mille; private group.',WP+'Richard_Mille'),
+ ('Glashütte Original','Germany','1994','Group','Current form from 1994; bought by the Swatch Group in 2000.',WP+'Glash%C3%BCtte_Original'),
+ ('Rado','Switzerland','1917','Group','Founded as Schlup & Co. in Lengnau; joined ASUAG in 1968.',WP+'Rado_(watchmaker)'),
+ ('Montblanc','Germany','1906','Group','Founded in Berlin in 1906; part of Richemont since 1993.',WP+'Montblanc_(company)'),
+ ('Waltham','United States','','Independent','Maker of the 1914 trench watch with shrapnel guard.',WP+'Trench_watch'),
+ ('ETA','Switzerland','','Group','Movement maker, wholly owned by the Swatch Group.',WP+'ETA_SA'),
+ ('Sellita Watch Co.','Switzerland','','Independent','Makes ETA-compatible movements such as the SW200-1.','https://calibercorner.com/sellita-caliber-sw200-1'),
+ ('Miyota','Japan','1959','Group','Movement maker founded 1959; a Citizen Group subsidiary.',WP+'Miyota_(watch_movement_manufacturer)'),
+ ('Garmin','United States','1989','Independent','Founded as ProNav in Kansas in 1989; makes GPS sports watches.',WP+'Garmin')]:
+    nb(n,c,f,seg,dd,u)
 out['brands']=NB; out['brand_updates']=BUP
 json.dump(out,open(R+'out/A5_parts/WRIST.json','w'),ensure_ascii=False,indent=1)
 json.dump({'removed':removed,'tot':tot},open(R+'work/V4_A5_WRIST/removed.json','w'),ensure_ascii=False,indent=1)

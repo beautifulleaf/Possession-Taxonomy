@@ -26,7 +26,7 @@ def addx(k, es):
 def kind(shelf, n, d, s, xs, nl, sel, xg, tt, a='', see=None):
     k = {"n": n, "a": a, "d": d, "s": s, "x": xs, "nl": nl, "sel": sel, "xg": xg, "tt": tt}
     if see: k['see'] = see
-    shelf['k'].append(k); return k
+    shelf['k'].append(k); K[n] = k; return k
 FOLK = [["F2", "Folk craft tradition", "craft traditions are described in the visual-art taxonomy"]]
 
 VA = W  # placeholder
@@ -145,7 +145,7 @@ gv['sel'] = re.sub(r'Complete: \d+ named', 'Complete: %d named' % len(gv['x']), 
 # Omaggio
 eth = K['Earthenware & stoneware vase']
 addx(eth, [E("Omaggio vase", "Kähler stoneware-glaze vase designed by Ditte Reckweg and Jelena Schou Nordentoft of Stilleben, sold in H 20 cm and H 31 cm.",
-             'https://www.connox.com/categories/accessories/home-decor/vases/kahler-design-omaggio-vase.html', mk='Kähler', g='Denmark', own='Rosendahl Design Group', tier='National champion', cty='Denmark', own_y='2018',
+             'https://www.connox.com/categories/accessories/home-decor/vases/kahler-design-omaggio-vase.html', mk='Kähler', g='Denmark', own='Rosendahl Design Group', tier='Independent', cty='Denmark', own_y='2018',
              dt='H 20 cm · H 31 cm')])
 eth['x'][-1]['d'] = "Kähler vase designed by Ditte Reckweg and Jelena Schou Nordentoft of Stilleben, sold in H 20 cm and H 31 cm; the page gives no year or material."
 # MoMA
@@ -223,10 +223,10 @@ yc['d'] += " Euromonitor (cited by Berlin Packaging) gives the brand 20 % of its
 # ---------- 5. Owners ----------
 OWN2 = {
     'Orrefors': (None, None, 'Sweden', None),
-    'Meissen': ('Free State of Saxony', 'National champion', 'Germany', '1991'),
+    'Meissen': ('Free State of Saxony', 'Independent', 'Germany', '1991'),
     'Cire Trudon': (None, None, 'France', None),
     'Maison Berger Paris': ('Emosia Group', 'Independent', 'France', None),
-    'Kähler': ('Rosendahl Design Group', 'National champion', 'Denmark', '2018'),
+    'Kähler': ('Rosendahl Design Group', 'Independent', 'Denmark', '2018'),
 }
 for k in K.values():
     for x in k.get('x', []):
@@ -248,14 +248,14 @@ def B(n, c, f, d, s, own=None, tier=None, seg='Owner group'):
     if own: b['own'] = own
     if tier: b['tier'] = tier
     part['brands'].append(b)
-B("Kähler", "Denmark", "1839", "Ceramics house founded in Næstved by Joachim Christian Herman Kähler; sold to Næstved Municipality in 1974, to Frantz Longhi in 2007 and to Rosendahl Design Group in 2018.", W + 'K%C3%A4hler_Keramik', 'Rosendahl Design Group', 'National champion', 'Independent')
+B("Kähler", "Denmark", "1839", "Ceramics house founded in Næstved by Joachim Christian Herman Kähler; sold to Næstved Municipality in 1974, to Frantz Longhi in 2007 and to Rosendahl Design Group in 2018.", W + 'K%C3%A4hler_Keramik', 'Rosendahl Design Group', 'Independent')
 B("Rosendahl Design Group", "Denmark", "", "Owner of Kähler from 2018; Rosendahl A/S also bought Holmegaard in 2008.", W + 'K%C3%A4hler_Keramik')
 B("Emosia Group", "France", "", "Owner of Maison Berger Paris; Argos-backed since 2017.", 'https://argos.fund/?p=1916')
 B("The Procter & Gamble Company", "United States", "", "Owner of Febreze.", 'https://www.berlinpackaging.com/air-care')
 B("Free State of Saxony", "Germany", "", "Owner of the Meissen porcelain manufactory since 1991.", W + 'Meissen_porcelain')
 B("Wendt & Kühn", "Germany", "1915", "Grünhainichen maker of hand-painted wooden angels and flower children, founded by Grete Wendt and Margarete Kühn.", W + 'Wendt_%26_K%C3%BChn', None, None, 'Mainstream') if 'Wendt & Kühn' not in reg else None
 part['brand_updates'].update({
-    "Meissen": {"own": "Free State of Saxony", "tier": "National champion", "c": "Germany"},
+    "Meissen": {"own": "Free State of Saxony", "tier": "Independent", "c": "Germany"},
     "Orrefors": {"c": "Sweden"},
     "Maison Berger Paris": {"own": "Emosia Group", "tier": "Independent", "c": "France"},
     "Wendt & Kühn": {"c": "Germany"},

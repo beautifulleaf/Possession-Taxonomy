@@ -172,9 +172,7 @@ for line in open(W+'lop.txt',encoding='utf-8'):
     if len(p)<4: continue
     n,y,mk,per=p[:4]
     if n=='Y': n='Y (1964)'
-    PYR=re.match(r'\d{4}',y)
-    add(n,y if PYR else '',mk,per,LOP)
-    if not PYR: REG[find(n)]['yn']=y
+    add(n,y,mk,per,LOP)
 # 3 wikidata
 WDKEPT=0
 for line in WD.split('\n'):
@@ -248,6 +246,7 @@ print('registry',len(REG),'wd kept',WDKEPT,'fifi rows',FIFI_N,'old m',len(oldm))
 CIRC='https://www.cosmeticsbusiness.com/us-prestige-beauty-tops-33-billion-in-2024'
 PUIGA='https://cosmeticsbusiness.com/puig-s-2024-full-year-profits-surge-14-percent'
 def era(y):
+    if 'century' in str(y or ''): return 'Before 1900'
     y=ydig(y)
     if y is None: return 'Year not stated'
     if y<1900: return 'Before 1900'
@@ -277,14 +276,14 @@ def mkentry(k,kindname):
         if l:
             if e.get('per'): l+=f"; perfumer {e['per']}"
             bits.append(l+'.')
-        aw=list(dict.fromkeys(e['awards']))
+        aw=[a for a in dict.fromkeys(e['awards']) if not (e.get('hof') and a.startswith('Fragrance Hall of Fame'))]
         if aw: bits.append("FiFi: "+'; '.join(aw[:4])+('; and others' if len(aw)>4 else '')+'.')
         if e.get('osm'): bits.append("Held in the Osmothèque reference collection.")
         if e.get('wd') and not bits: bits.append("Perfume with an English Wikipedia article.")
         if not bits: bits.append("Named perfume from the cited list.")
         base['d']=' '.join(bits)
     else:
-        aw=list(dict.fromkeys(e['awards']))
+        aw=[a for a in dict.fromkeys(e['awards']) if not (e.get('hof') and a.startswith('Fragrance Hall of Fame'))]
         if aw: base['d']=base['d'].rstrip('.')+'. FiFi: '+'; '.join(aw[:3])+'.'
     # versions
     vs=base.get('v') or []
@@ -305,7 +304,8 @@ def mkentry(k,kindname):
         if h[3]: base['own_y']=h[3]
     if e.get('hof') or k in PUIGLM:
         base['role']='landmark'
-        base['d']=base['d'].rstrip()+(' Inducted into the FiFi Fragrance Hall of Fame.' if e.get('hof') else ' '+PUIGLM[k])
+        hy=[a.split()[-1] for a in e['awards'] if a.startswith('Fragrance Hall of Fame')]
+        base['d']=base['d'].rstrip()+((' Inducted into the FiFi Fragrance Hall of Fame in '+' and '.join(hy)+'.') if e.get('hof') else ' '+PUIGLM[k])
     if kindname==UNST: base['g']=era(base.get('y'))
     return base
 KIND_ENT={}
@@ -315,7 +315,9 @@ for k in ORDER:
     if kn not in {x['n'] for sh in dept['s'] for x in sh['k']}: kn=UNST
     KIND_ENT.setdefault(kn,[]).append(mkentry(k,kn))
 def sortkey(x):
-    y=ydig(x.get('y')); return (y if y is not None else 9999, x['n'].lower())
+    y=ydig(x.get('y'))
+    if 'century' in str(x.get('y') or ''): y=1300
+    return (y if y is not None else 9999, x['n'].lower())
 for kn in KIND_ENT: KIND_ENT[kn].sort(key=sortkey)
 # fix sections ordering for UNST: by era order then year
 KIND_ENT[UNST].sort(key=lambda x:(ERAS.index(x['g']),)+sortkey(x))
