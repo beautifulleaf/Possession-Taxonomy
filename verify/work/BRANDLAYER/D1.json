@@ -228,6 +228,43 @@
    ],
    "found": 3,
    "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Category:Computer companies of Mexico",
+    "Brazil computer companies"
+   ],
+   "found": 0,
+   "note": "Mexico: Meebox, TDVision (unusual/niche, not recorded); no Brazil computer category found"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Category:Computer companies of Malaysia"
+   ],
+   "found": 0,
+   "note": "only MIMOS (research)"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Category:Computer companies of Australia"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Category:Computer companies of Russia/Serbia/Slovenia"
+   ],
+   "found": 3,
+   "note": "Poland/Czech/Hungary not tried"
   }
  ],
  "regions": [
@@ -448,6 +485,37 @@
     "Dane-Elec",
     "EMTEC",
     "Linutop"
+   ]
+  },
+  {
+   "region": "Western Europe (Netherlands)",
+   "speciality": "PC cases and peripherals; Dutch home/PC brands",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_the Netherlands",
+   "brands": [
+    "Phanteks",
+    "Trust",
+    "Packard Bell",
+    "Tulip Computers"
+   ]
+  },
+  {
+   "region": "Oceania (Australia)",
+   "speciality": "gaming peripherals and design accessories",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Australia",
+   "brands": [
+    "Cyber Snipa",
+    "Sonder Design",
+    "Rama"
+   ]
+  },
+  {
+   "region": "Central & Eastern Europe (Serbia, Russia)",
+   "speciality": "domestic computing industry",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Serbia",
+   "brands": [
+    "Ei Niš",
+    "Elektronorgtechnica",
+    "Iskra Delta"
    ]
   }
  ],
@@ -841,6 +909,86 @@
    "new_names": 0,
    "status": "done",
    "note": ""
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Australia",
+   "title": "Category:Computer companies of Australia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "done",
+   "note": "institutes/chip/software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Mexico",
+   "title": "Category:Computer companies of Mexico",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 0,
+   "status": "done",
+   "note": "institutes/chip/software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Malaysia",
+   "title": "Category:Computer companies of Malaysia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "institutes/chip/software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Norway",
+   "title": "Category:Computer companies of Norway",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 7,
+   "new_names": 3,
+   "status": "done",
+   "note": "institutes/chip/software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_the Netherlands",
+   "title": "Category:Computer companies of the Netherlands",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 6,
+   "new_names": 4,
+   "status": "done",
+   "note": "institutes/chip/software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Russia",
+   "title": "Category:Computer companies of Russia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 5,
+   "new_names": 1,
+   "status": "done",
+   "note": "institutes/chip/software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Serbia",
+   "title": "Category:Computer companies of Serbia",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 1,
+   "status": "done",
+   "note": "institutes/chip/software skipped"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Austria",
+   "title": "Category:Computer companies of Austria",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "institutes/chip/software skipped"
   }
  ],
  "brands": [
@@ -3043,6 +3191,60 @@
    "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Slovenia",
    "says": "Wikipedia category row with own article (Slovenia)",
    "country": "Slovenia",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Gericom",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Austria",
+   "says": "Wikipedia category row with own article (Austria)",
+   "country": "Austria",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Mycron",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Norway",
+   "says": "Wikipedia category row with own article (Norway)",
+   "country": "Norway",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Norsk Data",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Norway",
+   "says": "Wikipedia category row with own article (Norway)",
+   "country": "Norway",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Packard Bell",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_the Netherlands",
+   "says": "Wikipedia category row with own article (the Netherlands)",
+   "country": "Netherlands",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Elektronorgtechnica",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Russia",
+   "says": "Wikipedia category row with own article (Russia)",
+   "country": "Russia",
+   "dept": "hardware",
+   "already": false
+  },
+  {
+   "n": "Ei Niš",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Serbia",
+   "says": "Wikipedia category row with own article (Serbia)",
+   "country": "Serbia",
    "dept": "hardware",
    "already": false
   }
