@@ -21,6 +21,18 @@
    "queries": "none run",
    "found": 0,
    "note": "section-by-section open searches NOT done (context exhausted); see notes"
+  },
+  {
+   "axis": "kind",
+   "item": "Orders, decorations & medals; Medals; Graded slabs; Trading cards (sports); Auction houses",
+   "queries": [
+    "third-party grading services",
+    "Trading card manufacturers table",
+    "Worcestershire/Pinches/Monnaie de Paris medals",
+    "Spink, Stack's Bowers, Künker"
+   ],
+   "found": 14,
+   "note": "second harvest round: grading, medal makers, card makers, specialist auction houses"
   }
  ],
  "regions": [
@@ -181,6 +193,46 @@
    "brands": [
     "Istanbul Gold Refinery",
     "Nadir Metal Rafineri"
+   ]
+  },
+  {
+   "region": "United Kingdom (medals)",
+   "speciality": "orders, decorations and medals under Royal Warrant: Worcestershire Medal Service, Spink, Toye Kenning & Spencer, Pinches",
+   "src": "https://www.royalwarrant.org/company/worcestershire-medal-service-ltd",
+   "brands": [
+    "Worcestershire Medal Service",
+    "Spink",
+    "John Pinches (Medallists)",
+    "Toye Kenning & Spencer"
+   ]
+  },
+  {
+   "region": "France (decorations)",
+   "speciality": "Monnaie de Paris official supplier of French civil and military decorations (Légion d'Honneur, Ordre National du Mérite)",
+   "src": "https://www.monnaiedeparis.fr/fr/decorations-officielles-professionnels",
+   "brands": [
+    "Monnaie de Paris"
+   ]
+  },
+  {
+   "region": "Germany (auctions)",
+   "speciality": "Künker, Osnabrück, coins, medals and orders auctions",
+   "src": "https://www.kuenker.de/about-kuenker",
+   "brands": [
+    "Künker"
+   ]
+  },
+  {
+   "region": "United States (grading)",
+   "speciality": "third-party coin, note and card grading: PCGS, NGC, ANACS, PMG, CGC, PSA, SGC, Beckett, ICG, CAC",
+   "src": "https://en.wikipedia.org/wiki/Third-party_grading",
+   "brands": [
+    "PCGS",
+    "NGC",
+    "ANACS",
+    "ICG",
+    "Certified Acceptance Corporation (CAC)",
+    "Beckett Grading Services"
    ]
   }
  ],
@@ -344,6 +396,26 @@
    "new_names": 0,
    "status": "done",
    "note": "official supplier of French civil and military decorations; Monnaie de Paris holds Entreprise du Patrimoine Vivant label (search excerpt only); check register"
+  },
+  {
+   "url": "https://stacksbowers.com/about",
+   "title": "Stack's Bowers Galleries - About",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.kuenker.de/about-kuenker",
+   "title": "About Künker",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -2708,6 +2780,26 @@
    "says": "Royal Warrant holder (Ceremonial, Medals & Insignia): manufacturer of state insignia, orders, decorations and medals; sole supplier of decorations and medals to UK MoD",
    "country": "United Kingdom",
    "dept": "Orders, decorations & medals",
+   "already": false
+  },
+  {
+   "n": "Stack's Bowers Galleries",
+   "layer": "cultural",
+   "src": "https://stacksbowers.com/about",
+   "says": "founded 1933, America's oldest rare coin auctioneer and dealership; U.S., world and ancient coins, tokens, medals, currency",
+   "country": "United States",
+   "dept": "Auction house",
+   "role": "seller",
+   "already": false
+  },
+  {
+   "n": "Künker",
+   "layer": "cultural",
+   "src": "https://www.kuenker.de/about-kuenker",
+   "says": "Osnabrück coin dealership founded 1971 by Fritz Rudolf Künker; one of the leading auction houses for coins, medals and orders; historical gold coins",
+   "country": "Germany",
+   "dept": "Auction house",
+   "role": "seller",
    "already": false
   }
  ]
