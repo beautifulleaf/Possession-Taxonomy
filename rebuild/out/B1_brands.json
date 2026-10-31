@@ -1308,6 +1308,30 @@
    "d": "Online mattress group (Nectar, DreamCloud, Awara, Siena), bought by Ashley in March 2024.",
    "s": "https://www.streetinsider.com/PRNewswire/Ashley+and+Resident+Announce+Acquisition/22885953.html",
    "kf": "mattresses"
+  },
+  {
+   "n": "Gufram",
+   "c": "",
+   "seg": "Premium",
+   "d": "Maker of a furniture piece listed in Wikidata.",
+   "s": "https://query.wikidata.org/sparql?format=json&query=SELECT%20DISTINCT%20%3FiLabel%20%3FmLabel%20%3Fy%20WHERE%20%7B%3Fi%20wdt%3AP31/wdt%3AP279%2A%20wd%3AQ14745.%20%3Fi%20wdt%3AP176%20%3Fm.%20OPTIONAL%7B%3Fi%20wdt%3AP571%20%3Ft.%20BIND%28YEAR%28%3Ft%29%20AS%20%3Fy%29%7D%20SERVICE%20wikibase%3Alabel%20%7Bbd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%7D%7D%20ORDER%20BY%20%3FiLabel%20LIMIT%20200",
+   "kf": "furniture"
+  },
+  {
+   "n": "A. H. Davenport and Company",
+   "c": "",
+   "seg": "Premium",
+   "d": "Maker of a furniture piece listed in Wikidata.",
+   "s": "https://query.wikidata.org/sparql?format=json&query=SELECT%20DISTINCT%20%3FiLabel%20%3FmLabel%20%3Fy%20WHERE%20%7B%3Fi%20wdt%3AP31/wdt%3AP279%2A%20wd%3AQ14745.%20%3Fi%20wdt%3AP176%20%3Fm.%20OPTIONAL%7B%3Fi%20wdt%3AP571%20%3Ft.%20BIND%28YEAR%28%3Ft%29%20AS%20%3Fy%29%7D%20SERVICE%20wikibase%3Alabel%20%7Bbd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%7D%7D%20ORDER%20BY%20%3FiLabel%20LIMIT%20200",
+   "kf": "furniture"
+  },
+  {
+   "n": "Deutsche Werkstätten Hellerau",
+   "c": "",
+   "seg": "Premium",
+   "d": "Maker of a furniture piece listed in Wikidata.",
+   "s": "https://query.wikidata.org/sparql?format=json&query=SELECT%20DISTINCT%20%3FiLabel%20%3FmLabel%20%3Fy%20WHERE%20%7B%3Fi%20wdt%3AP31/wdt%3AP279%2A%20wd%3AQ14745.%20%3Fi%20wdt%3AP176%20%3Fm.%20OPTIONAL%7B%3Fi%20wdt%3AP571%20%3Ft.%20BIND%28YEAR%28%3Ft%29%20AS%20%3Fy%29%7D%20SERVICE%20wikibase%3Alabel%20%7Bbd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%7D%7D%20ORDER%20BY%20%3FiLabel%20LIMIT%20200",
+   "kf": "furniture"
   }
  ]
 }

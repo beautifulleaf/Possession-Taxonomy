@@ -4,3 +4,4 @@ step2: Serta/Simmons/Leesa/Nectar owners found (Wikipedia Serta_Simmons_Bedding;
 step3: applied apply1.py (84 IKEA entries from IKEA Museum, owners Serta/Simmons/Leesa/Nectar); validate OK. TODO: sel coverage sentences at end, report, sources.tsv
 step4: apply2.py Muuto (14 entries via scandinaviandesign.com)
 step5: String/Resident pages 403 -> deferred file
+step6: apply3 (7 Wikidata maker items); Design Museum London only 2 furniture objects; Vitra/MoMA need JS
