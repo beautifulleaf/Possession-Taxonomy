@@ -6,3 +6,4 @@ step4b: Waring/Conair done; Oster, Hario owner searched twice -> not stated; Eur
 report written; done
 ROUND2 started: items 1 market shares, 2 g sections via API extracts, 3 owners retry. fetch count r2: 0
 R2 item2 done: g added to tableware kinds (g2.py); ~20 fetches used; left Hauck, Screwpull country unsourced. next: item3 owners, item1 market shares
+R2 item3 done: Richard-Ginori Kering 2013, Chemex family-owned, Zalto GmbH, Moser 1857; Dualit, Oster, Hario, Narumi stay empty. ~24 fetches used; next item1 market shares

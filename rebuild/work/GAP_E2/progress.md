@@ -5,3 +5,4 @@ apply1 done (owners/cty from fetched pages + register cty)
 apply2 done (flies +, Cleto Reyes, Anaris, notes). next: Winning search/fetch, Hydrow/Tonal, ski; final coverage-line normalisation; report
 apply2 done (flies +, Cleto Reyes, Anaris, notes). next: Winning search/fetch, ski; coverage-line normalisation; report
 apply3 done (Völkl, coverage-line wording); remaining: report
+report written; done
