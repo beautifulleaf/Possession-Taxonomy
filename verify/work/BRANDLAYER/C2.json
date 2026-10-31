@@ -77,6 +77,25 @@
    ],
    "found": 3,
    "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Greenhouses & indoor growing > Greenhouses, polytunnels & cold frames",
+   "queries": [
+    "best greenhouse manufacturers Hartley Botanic Alitex craftsmanship"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Entreprise du Patrimoine Vivant outils de jardin fabricant",
+    "Royal Warrant holders garden tools"
+   ],
+   "found": 2,
+   "note": "EPV official list is a dataset not parsed this pass; no garden-tool maker surfaced by search"
   }
  ],
  "regions": [
@@ -91,6 +110,15 @@
     "Taira",
     "Sakagen",
     "Bigei"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "handmade bespoke aluminium and timber greenhouses (RHS and Kew endorsed)",
+   "src": "https://hartley-botanic.co.uk/about/why-hartley",
+   "brands": [
+    "Hartley Botanic",
+    "Alitex"
    ]
   }
  ],
@@ -214,6 +242,36 @@
    "new_names": 0,
    "status": "done",
    "note": "known"
+  },
+  {
+   "url": "https://hartley-botanic.co.uk/about/why-hartley",
+   "title": "Why Hartley Botanic",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "RHS endorsement, 30-year guarantee"
+  },
+  {
+   "url": "https://www.alitex.co.uk/about-us",
+   "title": "About Alitex",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "Kew endorsement, National Trust collection"
+  },
+  {
+   "url": "https://data.economie.gouv.fr/explore/dataset/entreprises-du-patrimoine-vivant-epv/table?flg=fr-fr",
+   "title": "EPV dataset",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "dynamic table, names not obtained"
   }
  ],
  "brands": [

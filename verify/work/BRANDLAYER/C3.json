@@ -3,7 +3,146 @@
  "status": "partial",
  "brand_led": true,
  "sweeps": [],
- "regions": [],
+ "regions": [
+  {
+   "region": "Japan",
+   "speciality": "bonsai: Omiya Bonsai Village, self-governed community of bonsai gardeners since 1925",
+   "src": "https://www.bonsai-art-museum.jp/en/about/omiya",
+   "brands": [
+    "Kyuka-en",
+    "Seiko-en",
+    "Toju-en",
+    "Fuyo-en",
+    "Mansei-en",
+    "Shosetsu-en"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "roses (Keisei Nursery, Seizo Suzuki)",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "brands": [
+    "Keisei Nursery"
+   ]
+  },
+  {
+   "region": "Netherlands (Western Europe)",
+   "speciality": "flower bulbs: Bollenstreek, Keukenhof showcase of 100 bulb companies; spray roses and cut-rose breeding",
+   "src": "https://keukenhof.nl/en/about-keukenhof/exhibitors/",
+   "brands": [
+    "Hortus Bulborum",
+    "Van Zanten Flowerbulbs",
+    "Royal De Ree Holland",
+    "Farmer Gracy",
+    "Breck Holland",
+    "Van Zyverden",
+    "Jan Spek Rozen",
+    "De Ruiter Innovations",
+    "Interplant Roses"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "RHS Chelsea Great Pavilion nurseries: roses, bulbs, hostas, orchids, cacti, bonsai, sweet peas",
+   "src": "https://www.rhs.org.uk/press/documents/shows/chelsea/2026/exhibitor-lists/great-pavilion-awards-list-2026.pdf",
+   "brands": [
+    "David Austin Roses",
+    "Peter Beales Roses",
+    "Harkness Roses",
+    "Taylors Bulbs",
+    "Jacques Amand International",
+    "Sienna Hosta",
+    "Craig House Cacti",
+    "Surreal Succulents",
+    "Driftwood Bonsai",
+    "Eric Young Orchid Foundation",
+    "Dibleys Nurseries",
+    "Raymond Evison Clematis"
+   ]
+  },
+  {
+   "region": "France",
+   "speciality": "roses and heritage seed: Meilland, Delbard, Gaujard; Vilmorin seed house",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "brands": [
+    "Meilland",
+    "House of Delbard",
+    "House of Gaujard",
+    "Roseraie Laperriere",
+    "Roses Orard Creations",
+    "NIRP International",
+    "Vilmorin"
+   ]
+  },
+  {
+   "region": "Germany",
+   "speciality": "rose breeding (Kordes, Tantau, Noack)",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "brands": [
+    "Kordes",
+    "Rosen Tantau",
+    "Noack Rosen"
+   ]
+  },
+  {
+   "region": "Denmark (Northern Europe)",
+   "speciality": "rose breeding (Poulsen)",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "brands": [
+    "Poulsen Roser"
+   ]
+  },
+  {
+   "region": "Italy (Southern Europe)",
+   "speciality": "roses (Barni) and regional heritage vegetable seed (Seeds of Italy / Franchi)",
+   "src": "https://www.gardensillustrated.com/plants/our-favourite-seed-suppliers",
+   "brands": [
+    "Rose Barni",
+    "Seeds of Italy"
+   ]
+  },
+  {
+   "region": "Spain (Southern Europe)",
+   "speciality": "roses (Rosas Dot)",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "brands": [
+    "Rosas Dot"
+   ]
+  },
+  {
+   "region": "North America",
+   "speciality": "seed houses, miniature roses, nurseries",
+   "src": "https://en.wikipedia.org/wiki/Category:Seed_companies",
+   "brands": [
+    "D. Landreth Seed Company",
+    "Burpee",
+    "Park Seed Company",
+    "Fedco Seeds",
+    "Row 7 Seed Company",
+    "Sequoia Nursery",
+    "Nor'East Miniature Roses",
+    "Logee's Plants",
+    "California Carnivores"
+   ]
+  },
+  {
+   "region": "Oceania",
+   "speciality": "roses (Alister Clark, Australia) and Mathews Nurseries (NZ); Digger's Club seed",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "brands": [
+    "Mathews Nurseries",
+    "The Digger's Club"
+   ]
+  },
+  {
+   "region": "Southern Africa",
+   "speciality": "South African flora and restios showcased at Chelsea",
+   "src": "https://www.rhs.org.uk/press/documents/shows/chelsea/2026/exhibitor-lists/great-pavilion-awards-list-2026.pdf",
+   "brands": [
+    "Kelnan Plants"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://www.rhs.org.uk/press/documents/shows/chelsea/2026/exhibitor-lists/great-pavilion-awards-list-2026.pdf",
@@ -64,6 +203,16 @@
    "new_names": 15,
    "status": "done",
    "note": "only consumer-facing names taken; ~80 export-trade firms left out"
+  },
+  {
+   "url": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "title": "ARS Rose Breeders Hall of Fame 2024",
+   "kind": "award",
+   "years": "2022-2024",
+   "names_on_page": 23,
+   "new_names": 19,
+   "status": "done",
+   "note": "also confirmed already-known: Austin, Beales, Cants, Cocker, Dickson, Harkness, Interplant, J&P, Kordes, Meilland, Poulsen, Tantau"
   }
  ],
  "brands": [
@@ -660,7 +809,7 @@
    "dept": "seed"
   },
   {
-   "n": "Barbier Fr\u00e8res & Compagnie",
+   "n": "Barbier Frères & Compagnie",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Plant_nurseries",
    "says": "Wikipedia Category:Plant nurseries",
@@ -836,7 +985,7 @@
    "dept": "nursery"
   },
   {
-   "n": "Viveros de Coyoac\u00e1n",
+   "n": "Viveros de Coyoacán",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Plant_nurseries",
    "says": "Wikipedia Category:Plant nurseries",
@@ -868,7 +1017,7 @@
    "dept": "roses"
   },
   {
-   "n": "W. Kordes' S\u00f6hne",
+   "n": "W. Kordes' Söhne",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Rose_breeders",
    "says": "Wikipedia Category:Rose breeders",
@@ -913,14 +1062,6 @@
    "src": "https://en.wikipedia.org/wiki/Category:Rose_breeders",
    "says": "Wikipedia Category:Rose breeders",
    "country": "",
-   "dept": "roses"
-  },
-  {
-   "n": "Peter Beales",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Rose_breeders",
-   "says": "Wikipedia Category:Rose breeders",
-   "country": "UK",
    "dept": "roses"
   },
   {
@@ -1386,6 +1527,158 @@
    "says": "Keukenhof exhibitor list",
    "country": "Netherlands",
    "dept": "bulbs"
+  },
+  {
+   "n": "Altman Plants",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (20th century, USA)",
+   "country": "USA",
+   "dept": "roses"
+  },
+  {
+   "n": "Rose Innovations",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (20th century, USA)",
+   "country": "USA",
+   "dept": "roses"
+  },
+  {
+   "n": "Sproul Roses by Design",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (20th century, USA)",
+   "country": "USA",
+   "dept": "roses"
+  },
+  {
+   "n": "Rose Barni",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "Italy",
+   "dept": "roses"
+  },
+  {
+   "n": "House of Delbard",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "France",
+   "dept": "roses"
+  },
+  {
+   "n": "Fryer's Roses",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "England",
+   "dept": "roses"
+  },
+  {
+   "n": "House of Gaujard",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "France",
+   "dept": "roses"
+  },
+  {
+   "n": "Keisei Nursery",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties; Seizo Suzuki)",
+   "country": "Japan",
+   "dept": "roses"
+  },
+  {
+   "n": "Roseraie Laperriere",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "France",
+   "dept": "roses"
+  },
+  {
+   "n": "Lens Roses",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "Belgium",
+   "dept": "roses"
+  },
+  {
+   "n": "NIRP International",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "France",
+   "dept": "roses"
+  },
+  {
+   "n": "Noack Rosen",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "Germany",
+   "dept": "roses"
+  },
+  {
+   "n": "Nor'East Miniature Roses",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "USA",
+   "dept": "miniature roses"
+  },
+  {
+   "n": "Roses Orard Creations",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "France",
+   "dept": "roses"
+  },
+  {
+   "n": "Jan Spek Rozen",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "Netherlands",
+   "dept": "roses"
+  },
+  {
+   "n": "De Ruiter Innovations",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "Netherlands",
+   "dept": "roses"
+  },
+  {
+   "n": "Agriculture Canada rose breeding",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (Felicitas Svejda, Explorer roses)",
+   "country": "Canada",
+   "dept": "hardy roses"
+  },
+  {
+   "n": "House of McGredy",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties)",
+   "country": "Northern Ireland",
+   "dept": "roses"
+  },
+  {
+   "n": "Rosas Dot",
+   "layer": "premium",
+   "src": "https://rose.org/wp-content/uploads/2024/07/BreedersHALLofFAME2024.pdf",
+   "says": "ARS Rose Breeders Hall of Fame 2024 (dynasties; Pedro Dot)",
+   "country": "Spain",
+   "dept": "roses"
   }
  ]
 }
