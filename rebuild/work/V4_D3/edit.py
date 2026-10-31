@@ -62,7 +62,7 @@ k,s,dp=kind('Television')
 k['tt']=[t for t in k['tt'] if t[0]!='Panel']
 sony_s=k['s']
 setmk(k,"One entry is a television brand sold under its own name; model ranges are versions, and panel technology is a kind of its own.",
-"Market-first. Brands follow the Omdia 2024 shipment ranking as reported by channelnews.com.au and equalocean.com and Counterpoint's Q4 2024 order (Samsung, TCL, Hisense, LG), plus Vizio and Philips; owners and countries come from the Wikipedia page cited on each entry. Covers 8 brands; no fetched reference lists every television brand.",
+"Market-first. Brands follow the Omdia 2024 shipment ranking as reported by channelnews.com.au and equalocean.com and Counterpoint's Q4 2024 order (Samsung, TCL, Hisense, LG), plus Vizio and Philips; owners and countries come from the Wikipedia page cited on each entry. Covers 9 brands; no fetched reference lists every television brand.",
 [E('Samsung','South Korean maker that Wikipedia says has been the largest television maker by revenue every year since 2006.','Samsung','',W+'Samsung_Electronics','Samsung Electronics',GG,'South Korea','Global group: Samsung Electronics',[V('OLED S95F','Samsung'),V('OLED S90F','Samsung'),V('Neo QLED 4K QN80H','Samsung'),V('The Frame','Samsung')]),
  E('LG','South Korean maker owned by LG Corporation, which holds about a third of it.','LG','',W+'LG_Electronics','LG Electronics',GG,'South Korea','Global group: LG Electronics',[V('OLED C6','LG'),V('OLED G6','LG'),V('QNED86','LG'),V('Mini RGB MRGB86','LG')]),
  E('TCL','Chinese maker founded in 1981 and partly state-owned; TCL Electronics, a subsidiary, makes its televisions.','TCL','1981',W+'TCL_Technology','TCL Technology',GG,'China','Global group: TCL Technology',[V('QLED T6D','TCL')]),
@@ -159,3 +159,9 @@ for dp in D['depts']:
             k['nl']=nl_for(k['n']);k['sel']=sel_for(k['n'],len(xs));k['xg']='by maker country, then maker'
 json.dump(D,open('D3.new.json','w'),indent=1,ensure_ascii=False)
 print(removed)
+add=[('LG Electronics','South Korea','1958','televisions',W+'LG_Electronics'),('Samsung Electronics','South Korea','1969','televisions and audio',W+'Samsung_Electronics'),('TCL Technology','China','1981','televisions',W+'TCL_Technology'),('Hisense','China','','televisions',W+'Hisense'),('Xiaomi','China','2010','televisions and earbuds',W+'Xiaomi'),('Vizio','United States','2002','televisions',W+'Vizio'),('TP Vision','Netherlands','2012','Philips televisions',W+'TP_Vision'),('Sonos','United States','2002','multi-room speakers',W+'Sonos'),('Harman International','United States','1980','audio brands',W+'Harman_International'),('Beats Electronics','United States','2006','headphones',W+'Beats_Electronics'),('Walmart','','','owner of Vizio since 2024',W+'Vizio'),('Alphabet Inc.','','','owner of Google Nest',W+'Google_Nest'),('Huawei','','','FreeBuds',TWS),('boAt','','','earbuds',TWS),('Baidu','','','smart speakers',TC),('Alibaba Group','','','smart speakers',TC),('TPV Technology','','','owner of TP Vision',W+'TP_Vision')]
+for n,c,f,kf,s_ in add:
+    if n.lower() in {x['n'].lower() for x in B['b']}: continue
+    B['b'].append({'n':n,'c':c,'f':f,'seg':'Mainstream','kf':kf,'d':'Consumer electronics maker or owner named in the D3 market panels.','s':s_,'sig':[],'lines':[],'eras':[],'sc':[],'rel':[]})
+B['b'].sort(key=lambda x:x['n'].lower())
+json.dump(B,open('D3_brands.new.json','w'),indent=1,ensure_ascii=False)
