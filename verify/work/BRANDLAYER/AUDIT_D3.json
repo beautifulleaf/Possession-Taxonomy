@@ -1484,9 +1484,155 @@
    "country": "China",
    "dept": "Amplifiers & electronics > DACs & headphone amplifiers",
    "region": "East Asia"
+  },
+  {
+   "n": "Stirling Broadcast",
+   "layer": "premium",
+   "src": "https://www.markhennessy.co.uk/rogers/ls35a.htm",
+   "says": "named on BBC/Rogers LS3/5A history page as a current builder of BBC-design monitors (with Graham Audio)",
+   "country": "United Kingdom",
+   "dept": "Loudspeakers > Hi-fi loudspeakers",
+   "region": "British loudspeakers (BBC monitor tradition)"
+  },
+  {
+   "n": "Graham Audio",
+   "layer": "premium",
+   "src": "https://www.markhennessy.co.uk/rogers/ls35a.htm",
+   "says": "LS3/5A history page: Graham Audio revived the original BBC LS3/5 design after research",
+   "country": "United Kingdom",
+   "dept": "Loudspeakers > Hi-fi loudspeakers",
+   "region": "British loudspeakers (BBC monitor tradition)"
+  },
+  {
+   "n": "Audiomaster",
+   "layer": "cultural",
+   "src": "https://www.markhennessy.co.uk/rogers/ls35a.htm",
+   "says": "LS3/5A licensee 1976-1981 (table of BBC licensees)",
+   "country": "United Kingdom",
+   "dept": "Loudspeakers > Hi-fi loudspeakers",
+   "region": "British loudspeakers (BBC monitor tradition)",
+   "note": "defunct; historic"
+  },
+  {
+   "n": "Chartwell",
+   "layer": "cultural",
+   "src": "https://www.markhennessy.co.uk/rogers/ls35a.htm",
+   "says": "LS3/5A licensee 1976-1978 (table of BBC licensees)",
+   "country": "United Kingdom",
+   "dept": "Loudspeakers > Hi-fi loudspeakers",
+   "region": "British loudspeakers (BBC monitor tradition)",
+   "note": "defunct; historic"
+  },
+  {
+   "n": "Audio Technology",
+   "layer": "premium",
+   "src": "https://www.stereophile.com/content/visit-dali-factory",
+   "says": "Stereophile: Denmark has more loudspeaker manufacturers per person than any other country; drive-unit makers Audio Technology, Peerless, Vifa, ScanSpeak",
+   "country": "Denmark",
+   "dept": "Loudspeakers > Hi-fi loudspeakers",
+   "region": "Danish loudspeakers",
+   "note": "drive-unit maker; generic name, store as Audio Technology (Denmark)"
+  },
+  {
+   "n": "Pylon Audio",
+   "layer": "premium",
+   "src": "https://highfidelity.pl/@main-1215&lang=en",
+   "says": "High Fidelity (PL) review of Pylon Audio Jade Twenty: 'largest Central European manufacturer of loudspeakers'; sound resolving, broadband and well-balanced",
+   "country": "Poland",
+   "dept": "Loudspeakers > Hi-fi loudspeakers",
+   "region": "Central & Eastern Europe"
+  },
+  {
+   "n": "Kondo (Audio Note Japan)",
+   "layer": "premium",
+   "src": "https://www.stereophile.com/content/audio-note-jinro-integrated-amplifier",
+   "says": "Stereophile: the Ongaku (Hiroyasu Kondo's 211 single-ended amplifier) was 'in many ways, the best I've ever heard'; the Kondo Ongaku is still built in Kanagawa, Japan, by the company Kondo founded",
+   "country": "Japan",
+   "dept": "Amplifiers & electronics > Stereo amplifiers & receivers",
+   "region": "Japanese valve amplification",
+   "note": "distinct from Audio Note (UK), which the harvest lists; homonym care"
+  },
+  {
+   "n": "YL Acoustic",
+   "layer": "cultural",
+   "src": "https://www.resistormag.com/features/kondo-audio-note-masaki-ashizawa-creates-his-own-shadow",
+   "says": "Resistor Magazine interview: 'YL Acoustic which is legendary horn speaker manufacturer in Japan' (c.1950-1980, compression drivers and horns)",
+   "country": "Japan",
+   "dept": "Loudspeakers > Hi-fi loudspeakers",
+   "region": "Japanese hi-fi (horn loudspeakers)"
+  },
+  {
+   "n": "Phase Linear",
+   "layer": "cultural",
+   "src": "https://hifihalloffame.com/equipment/",
+   "says": "Hi-Fi Hall of Fame equipment inductee: Phase Linear 700 power amplifier (inducted March 2025)",
+   "country": "United States",
+   "dept": "Amplifiers & electronics > Stereo amplifiers & receivers",
+   "region": ""
+  },
+  {
+   "n": "Heathkit",
+   "layer": "cultural",
+   "src": "https://hifihalloffame.com/business/",
+   "says": "Hi-Fi Hall of Fame business inductee (Electronic Kits, February 2024)",
+   "country": "United States",
+   "dept": "Amplifiers & electronics > Stereo amplifiers & receivers",
+   "region": "",
+   "note": "register has Heathkit under D1/D2; add D3 department (hi-fi kits)"
+  },
+  {
+   "n": "Lafayette Radio Electronics",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://hifihalloffame.com/business/",
+   "says": "Hi-Fi Hall of Fame business inductee (Electronics Retailer, May 2023); also sold Lafayette-branded radios and receivers",
+   "country": "United States",
+   "dept": "Radios & music systems > Radios",
+   "region": ""
   }
  ],
- "add_regions": [],
+ "add_regions": [
+  {
+   "region": "United Kingdom",
+   "speciality": "BBC monitor tradition: the LS3/5A, licensed by the BBC to a line of British makers (Rogers first, ~60,000 pairs 1975-93)",
+   "src": "https://www.markhennessy.co.uk/rogers/ls35a.htm",
+   "brands": [
+    "Rogers",
+    "Audiomaster",
+    "Chartwell",
+    "Spendor",
+    "Goodmans",
+    "Harbeth",
+    "KEF",
+    "Falcon Acoustics",
+    "Stirling Broadcast",
+    "Graham Audio"
+   ],
+   "note": "renown page for 'British loudspeakers'; Goodmans is in MOVES_D2; RAM (1979-83) also listed but homonym with register RAM (G1), left out"
+  },
+  {
+   "region": "Denmark",
+   "speciality": "loudspeakers and drive units: 'more loudspeaker manufacturers per person than any other country' (Stereophile)",
+   "src": "https://www.stereophile.com/content/visit-dali-factory",
+   "brands": [
+    "Audio Technology",
+    "Peerless",
+    "Vifa",
+    "Scan-Speak",
+    "Bang & Olufsen",
+    "DALI",
+    "Dynaudio",
+    "Gamut",
+    "Gryphon Audio Designs",
+    "Jamo",
+    "Lyngdorf Audio",
+    "Peak-Consult",
+    "Raidho Acoustics",
+    "Steinway Lyngdorf"
+   ],
+   "note": "independent renown statement; stronger source than harvest's SoundStage page for the same region"
+  }
+ ],
  "drop": [],
  "notes": ""
 }

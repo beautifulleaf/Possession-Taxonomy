@@ -2,8 +2,332 @@
  "cat": "E4",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "region",
+   "item": "Japan",
+   "queries": [
+    "Bizen Osafune swordsmith contemporary mukansa",
+    "living national treasure swordsmith"
+   ],
+   "found": 5,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe (Toledo/Italy)",
+   "queries": [
+    "Toledo sword makers",
+    "Gardone Val Trompia"
+   ],
+   "found": 12,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe (Solingen, UK, Belgium)",
+   "queries": [
+    "Solingen swords",
+    "UK/Belgium firearm categories"
+   ],
+   "found": 12,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "HEMA custom makers list"
+   ],
+   "found": 8,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "Firearm manufacturers of Finland category"
+   ],
+   "found": 3,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Turkey firearm category"
+   ],
+   "found": 4,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Brazil firearm category"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "US firearm category"
+   ],
+   "found": 30,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "South Africa firearm category"
+   ],
+   "found": 1,
+   "note": "Truvelo only"
+  },
+  {
+   "axis": "kind",
+   "item": "Ammunition & reloading",
+   "queries": [
+    "Wikipedia ammunition manufacturers categories"
+   ],
+   "found": 16,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Air guns",
+   "queries": [
+    "Wikipedia air gun manufacturers"
+   ],
+   "found": 4,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Archery & slings",
+   "queries": [
+    "Wikipedia bowyers category"
+   ],
+   "found": 5,
+   "note": "manufacturers category not located"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Indonesian keris empu"
+   ],
+   "found": 0,
+   "note": "tradition only, no named maker on fetched page"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "khukuri makers Nepal"
+   ],
+   "found": 1,
+   "note": ""
+  }
+ ],
+ "regions": [
+  {
+   "region": "Japan",
+   "speciality": "nihonto swords; Bizen Osafune school; mukansa and Living National Treasure smiths",
+   "src": "https://swordis.com/blog/japanese-swordsmiths",
+   "brands": [
+    "Yoshihara Yoshindo",
+    "Gassan Sadatoshi",
+    "Akitsugu Amata",
+    "Masamine Sumitani",
+    "Ono Yoshimitsu"
+   ]
+  },
+  {
+   "region": "Spain (Toledo)",
+   "speciality": "Toledo steel swords, regarded historically as the finest",
+   "src": "https://en.wikipedia.org/wiki/Toledo_steel",
+   "brands": [
+    "Marto"
+   ]
+  },
+  {
+   "region": "Germany (Solingen, Passau)",
+   "speciality": "sword blades and cutlery, 'City of Blades'",
+   "src": "https://en.wikipedia.org/wiki/Solingen",
+   "brands": [
+    "WKC Stahl- und Metallwarenfabrik",
+    "P.D. Rasspe Söhne",
+    "Wüsthof",
+    "Zwilling J. A. Henckels"
+   ]
+  },
+  {
+   "region": "Eastern Europe (Poland, Hungary, Czechia)",
+   "speciality": "historical reproduction and HEMA swords",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "brands": [
+    "Regenyei Armory",
+    "VB Workshop (Viktor Berbekucz)",
+    "Art of Sword Making (Maciej Kopciuch)",
+    "Sulowski Swords",
+    "Pavel Moc",
+    "Historical Sword Zone"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "London best guns and rifles",
+   "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_Kingdom",
+   "brands": [
+    "Holland & Holland",
+    "James Purdey & Sons",
+    "Boss & Co.",
+    "John Rigby & Company",
+    "Westley Richards",
+    "John Dickson & Son"
+   ]
+  },
+  {
+   "region": "Italy (Gardone Val Trompia, Brescia)",
+   "speciality": "shotguns and sporting arms",
+   "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
+   "brands": [
+    "Beretta",
+    "Perazzi",
+    "Benelli",
+    "Franchi",
+    "Pardini Arms",
+    "Davide Pedersoli",
+    "A. Uberti",
+    "Fiocchi"
+   ]
+  },
+  {
+   "region": "Belgium (Liège)",
+   "speciality": "FN, Browning and fine shotguns",
+   "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Belgium",
+   "brands": [
+    "FN Herstal",
+    "Francotte"
+   ]
+  },
+  {
+   "region": "Germany/Austria",
+   "speciality": "precision target and hunting arms",
+   "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Germany",
+   "brands": [
+    "Krieghoff",
+    "Merkel",
+    "Blaser",
+    "Sauer & Sohn",
+    "Heym",
+    "Anschütz",
+    "Steyr Arms"
+   ]
+  },
+  {
+   "region": "Finland",
+   "speciality": "rifles",
+   "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Finland",
+   "brands": [
+    "SAKO",
+    "Tikka",
+    "Lynx Rifles"
+   ]
+  },
+  {
+   "region": "Turkey",
+   "speciality": "shotguns and pistols",
+   "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Turkey",
+   "brands": [
+    "Canik",
+    "GİRSAN",
+    "Özyurt Arms",
+    "TİSAŞ"
+   ]
+  },
+  {
+   "region": "Spain (Eibar, Basque)",
+   "speciality": "shotguns and pistols",
+   "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Spain",
+   "brands": [
+    "Ugartechea",
+    "Llama Firearms",
+    "Star Bonifacio Echeverria",
+    "Victor Sarasqueta"
+   ]
+  },
+  {
+   "region": "United States",
+   "speciality": "revolvers, lever-actions, custom rifles",
+   "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
+   "brands": [
+    "Colt",
+    "Smith & Wesson",
+    "Marlin",
+    "Winchester",
+    "Weatherby",
+    "Freedom Arms"
+   ]
+  },
+  {
+   "region": "Brazil",
+   "speciality": "handguns and revolvers",
+   "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Brazil",
+   "brands": [
+    "Taurus Armas",
+    "Amadeo Rossi"
+   ]
+  },
+  {
+   "region": "Switzerland",
+   "speciality": "target arms",
+   "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Switzerland",
+   "brands": [
+    "Hämmerli",
+    "SIG Sauer",
+    "Tanner Sportwaffen"
+   ]
+  },
+  {
+   "region": "Nordic",
+   "speciality": "match and hunting ammunition",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "brands": [
+    "Lapua",
+    "Norma Precision"
+   ]
+  },
+  {
+   "region": "Central Europe",
+   "speciality": "ammunition and shotshells",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "brands": [
+    "RWS",
+    "GECO",
+    "Brenneke",
+    "Sellier & Bellot"
+   ]
+  },
+  {
+   "region": "Indonesia (Java)",
+   "speciality": "kris made by empu bladesmiths; UNESCO ICH 2008",
+   "src": "https://ich.unesco.org/en/RL/indonesian-kris-00112",
+   "brands": []
+  },
+  {
+   "region": "Nepal",
+   "speciality": "khukuri forged by hereditary Kami smiths",
+   "src": "https://nepalkhukurihouse.com/about-us",
+   "brands": [
+    "Ex-Gurkha Khukuri House"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_Kingdom",
@@ -134,6 +458,106 @@
    "new_names": 30,
    "status": "done",
    "note": "civilian/sporting makers taken; military-only arsenals skipped"
+  },
+  {
+   "url": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "title": "List of makers of custom swords, armour and HEMA equipment",
+   "kind": "retailer",
+   "years": "2020",
+   "names_on_page": 19,
+   "new_names": 19,
+   "status": "done",
+   "note": "directory, existence only"
+  },
+  {
+   "url": "https://swordis.com/blog/japanese-swordsmiths",
+   "title": "Top 10 Famous Japanese Swordsmiths",
+   "kind": "ranking",
+   "years": "2023",
+   "names_on_page": 10,
+   "new_names": 5,
+   "status": "done",
+   "note": "5 modern living smiths taken; historic smiths are not brands"
+  },
+  {
+   "url": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "title": "Top Sword Brands in the World (Everest Forge)",
+   "kind": "retailer",
+   "years": "2025",
+   "names_on_page": 30,
+   "new_names": 27,
+   "status": "done",
+   "note": "seller blog, existence only"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "title": "Category:Ammunition manufacturers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 9,
+   "new_names": 9,
+   "status": "done",
+   "note": "civilian makers only"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers_of_the_United_States",
+   "title": "Category:Ammunition manufacturers of the US",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 5,
+   "new_names": 5,
+   "status": "done",
+   "note": "civilian makers only"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers_of_the_United_Kingdom",
+   "title": "Category:Ammunition manufacturers of the UK",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": "civilian makers only"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Air_gun_manufacturers",
+   "title": "Category:Air gun manufacturers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 4,
+   "status": "done",
+   "note": "civilian makers only"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Bowyers",
+   "title": "Category:Bowyers",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 5,
+   "new_names": 5,
+   "status": "done",
+   "note": "civilian makers only"
+  },
+  {
+   "url": "https://nepalkhukurihouse.com/about-us",
+   "title": "Ex-Gurkha Khukuri House",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "seller self-description"
+  },
+  {
+   "url": "https://ich.unesco.org/en/RL/indonesian-kris-00112",
+   "title": "UNESCO Indonesian Kris",
+   "kind": "heritage",
+   "years": "2008",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "tradition inscribed 2008; names no maker"
   }
  ],
  "brands": [
@@ -143,7 +567,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_Kingdom",
    "says": "listed in Wikipedia category with own article",
    "country": "United Kingdom",
-   "dept": "target/sniper rifles"
+   "dept": "target/sniper rifles",
+   "already": false
   },
   {
    "n": "Boss & Co.",
@@ -151,7 +576,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_Kingdom",
    "says": "listed in Wikipedia category with own article",
    "country": "United Kingdom",
-   "dept": "London best guns"
+   "dept": "London best guns",
+   "already": false
   },
   {
    "n": "Gallyon Gun & Rifle Makers",
@@ -159,7 +585,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_Kingdom",
    "says": "listed in Wikipedia category with own article",
    "country": "United Kingdom",
-   "dept": "gunmaker"
+   "dept": "gunmaker",
+   "already": false
   },
   {
    "n": "J. Roberts & Son",
@@ -167,7 +594,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_Kingdom",
    "says": "listed in Wikipedia category with own article",
    "country": "United Kingdom",
-   "dept": "gunmaker"
+   "dept": "gunmaker",
+   "already": false
   },
   {
    "n": "John Dickson & Son",
@@ -175,7 +603,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_Kingdom",
    "says": "listed in Wikipedia category with own article",
    "country": "United Kingdom",
-   "dept": "Edinburgh best guns"
+   "dept": "Edinburgh best guns",
+   "already": false
   },
   {
    "n": "John Rigby & Company",
@@ -183,7 +612,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_Kingdom",
    "says": "listed in Wikipedia category with own article",
    "country": "United Kingdom",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "W. W. Greener",
@@ -191,7 +621,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_Kingdom",
    "says": "listed in Wikipedia category with own article",
    "country": "United Kingdom",
-   "dept": "shotguns"
+   "dept": "shotguns",
+   "already": false
   },
   {
    "n": "W. J. Jeffery & Co.",
@@ -199,7 +630,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_Kingdom",
    "says": "listed in Wikipedia category with own article",
    "country": "United Kingdom",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "Francotte",
@@ -207,7 +639,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Belgium",
    "says": "listed in Wikipedia category with own article",
    "country": "Belgium",
-   "dept": "Liège shotguns"
+   "dept": "Liège shotguns",
+   "already": false
   },
   {
    "n": "Forges de Zeebrugge",
@@ -215,7 +648,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Belgium",
    "says": "listed in Wikipedia category with own article",
    "country": "Belgium",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Canik",
@@ -223,7 +657,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Turkey",
    "says": "listed in Wikipedia category with own article",
    "country": "Turkey",
-   "dept": "pistols/shotguns"
+   "dept": "pistols/shotguns",
+   "already": false
   },
   {
    "n": "GİRSAN",
@@ -231,7 +666,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Turkey",
    "says": "listed in Wikipedia category with own article",
    "country": "Turkey",
-   "dept": "pistols"
+   "dept": "pistols",
+   "already": false
   },
   {
    "n": "Özyurt Arms",
@@ -239,7 +675,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Turkey",
    "says": "listed in Wikipedia category with own article",
    "country": "Turkey",
-   "dept": "shotguns"
+   "dept": "shotguns",
+   "already": false
   },
   {
    "n": "TİSAŞ",
@@ -247,7 +684,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Turkey",
    "says": "listed in Wikipedia category with own article",
    "country": "Turkey",
-   "dept": "replica pistols"
+   "dept": "replica pistols",
+   "already": false
   },
   {
    "n": "Rößler",
@@ -255,7 +693,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Austria",
    "says": "listed in Wikipedia category with own article",
    "country": "Austria",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "Steyr Arms",
@@ -263,7 +702,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Austria",
    "says": "listed in Wikipedia category with own article",
    "country": "Austria",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "Voere",
@@ -271,7 +711,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Austria",
    "says": "listed in Wikipedia category with own article",
    "country": "Austria",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "J. G. Anschütz",
@@ -279,7 +720,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Germany",
    "says": "listed in Wikipedia category with own article",
    "country": "Germany",
-   "dept": "target rifles"
+   "dept": "target rifles",
+   "already": false
   },
   {
    "n": "C.G. Haenel",
@@ -287,7 +729,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Germany",
    "says": "listed in Wikipedia category with own article",
    "country": "Germany",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "Heckler & Koch",
@@ -295,7 +738,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Germany",
    "says": "listed in Wikipedia category with own article",
    "country": "Germany",
-   "dept": "pistols"
+   "dept": "pistols",
+   "already": false
   },
   {
    "n": "Heym",
@@ -303,7 +747,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Germany",
    "says": "listed in Wikipedia category with own article",
    "country": "Germany",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "Korth",
@@ -311,7 +756,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Germany",
    "says": "listed in Wikipedia category with own article",
    "country": "Germany",
-   "dept": "revolvers"
+   "dept": "revolvers",
+   "already": false
   },
   {
    "n": "Krieghoff",
@@ -319,7 +765,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Germany",
    "says": "listed in Wikipedia category with own article",
    "country": "Germany",
-   "dept": "over-under shotguns"
+   "dept": "over-under shotguns",
+   "already": false
   },
   {
    "n": "Merkel",
@@ -327,7 +774,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Germany",
    "says": "listed in Wikipedia category with own article",
    "country": "Germany",
-   "dept": "shotguns/rifles"
+   "dept": "shotguns/rifles",
+   "already": false
   },
   {
    "n": "Sauer & Sohn",
@@ -335,7 +783,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Germany",
    "says": "listed in Wikipedia category with own article",
    "country": "Germany",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "Umarex",
@@ -343,7 +792,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Germany",
    "says": "listed in Wikipedia category with own article",
    "country": "Germany",
-   "dept": "air guns/replicas"
+   "dept": "air guns/replicas",
+   "already": false
   },
   {
    "n": "Armi Dallera Custom",
@@ -351,7 +801,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "custom guns"
+   "dept": "custom guns",
+   "already": false
   },
   {
    "n": "Armi Jager",
@@ -359,7 +810,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "replicas"
+   "dept": "replicas",
+   "already": false
   },
   {
    "n": "Chiappa Firearms",
@@ -367,7 +819,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Fiocchi",
@@ -375,7 +828,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "ammunition"
+   "dept": "ammunition",
+   "already": false
   },
   {
    "n": "Franchi",
@@ -383,7 +837,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "shotguns"
+   "dept": "shotguns",
+   "already": false
   },
   {
    "n": "Mateba",
@@ -391,7 +846,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "revolvers"
+   "dept": "revolvers",
+   "already": false
   },
   {
    "n": "Morini",
@@ -399,7 +855,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "target pistols"
+   "dept": "target pistols",
+   "already": false
   },
   {
    "n": "Pardini Arms",
@@ -407,7 +864,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "target pistols"
+   "dept": "target pistols",
+   "already": false
   },
   {
    "n": "Davide Pedersoli",
@@ -415,7 +873,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "muzzleloaders"
+   "dept": "muzzleloaders",
+   "already": false
   },
   {
    "n": "Tanfoglio",
@@ -423,7 +882,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "pistols"
+   "dept": "pistols",
+   "already": false
   },
   {
    "n": "A. Uberti",
@@ -431,7 +891,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "replica revolvers"
+   "dept": "replica revolvers",
+   "already": false
   },
   {
    "n": "Vincenzo Bernardelli",
@@ -439,7 +900,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "shotguns"
+   "dept": "shotguns",
+   "already": false
   },
   {
    "n": "Cosmi Americo & Figlio",
@@ -447,7 +909,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Italy",
    "says": "listed in Wikipedia category with own article",
    "country": "Italy",
-   "dept": "semi-auto shotguns"
+   "dept": "semi-auto shotguns",
+   "already": false
   },
   {
    "n": "Ugartechea",
@@ -455,7 +918,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Spain",
    "says": "listed in Wikipedia category with own article",
    "country": "Spain",
-   "dept": "shotguns"
+   "dept": "shotguns",
+   "already": false
   },
   {
    "n": "Llama Firearms",
@@ -463,7 +927,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Spain",
    "says": "listed in Wikipedia category with own article",
    "country": "Spain",
-   "dept": "pistols"
+   "dept": "pistols",
+   "already": false
   },
   {
    "n": "Star Bonifacio Echeverria",
@@ -471,7 +936,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Spain",
    "says": "listed in Wikipedia category with own article",
    "country": "Spain",
-   "dept": "pistols"
+   "dept": "pistols",
+   "already": false
   },
   {
    "n": "Beistegui Hermanos",
@@ -479,7 +945,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Spain",
    "says": "listed in Wikipedia category with own article",
    "country": "Spain",
-   "dept": "pistols"
+   "dept": "pistols",
+   "already": false
   },
   {
    "n": "Victor Sarasqueta",
@@ -487,7 +954,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Spain",
    "says": "listed in Wikipedia category with own article",
    "country": "Spain",
-   "dept": "shotguns"
+   "dept": "shotguns",
+   "already": false
   },
   {
    "n": "Hämmerli",
@@ -495,7 +963,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Switzerland",
    "says": "listed in Wikipedia category with own article",
    "country": "Switzerland",
-   "dept": "target arms"
+   "dept": "target arms",
+   "already": false
   },
   {
    "n": "Tanner Sportwaffen",
@@ -503,7 +972,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Switzerland",
    "says": "listed in Wikipedia category with own article",
    "country": "Switzerland",
-   "dept": "target rifles"
+   "dept": "target rifles",
+   "already": false
   },
   {
    "n": "Sphinx Systems",
@@ -511,7 +981,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Switzerland",
    "says": "listed in Wikipedia category with own article",
    "country": "Switzerland",
-   "dept": "pistols"
+   "dept": "pistols",
+   "already": false
   },
   {
    "n": "Lynx Rifles",
@@ -519,7 +990,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Finland",
    "says": "listed in Wikipedia category with own article",
    "country": "Finland",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "Uronen Precision",
@@ -527,7 +999,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Finland",
    "says": "listed in Wikipedia category with own article",
    "country": "Finland",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "SAKO",
@@ -535,7 +1008,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Finland",
    "says": "listed in Wikipedia category with own article",
    "country": "Finland",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "Howa",
@@ -543,7 +1017,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Japan",
    "says": "listed in Wikipedia category with own article",
    "country": "Japan",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "Miroku Corp.",
@@ -551,7 +1026,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Japan",
    "says": "listed in Wikipedia category with own article",
    "country": "Japan",
-   "dept": "shotguns"
+   "dept": "shotguns",
+   "already": false
   },
   {
    "n": "Amadeo Rossi",
@@ -559,7 +1035,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Brazil",
    "says": "listed in Wikipedia category with own article",
    "country": "Brazil",
-   "dept": "revolvers"
+   "dept": "revolvers",
+   "already": false
   },
   {
    "n": "Taurus Armas",
@@ -567,7 +1044,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_Brazil",
    "says": "listed in Wikipedia category with own article",
    "country": "Brazil",
-   "dept": "handguns"
+   "dept": "handguns",
+   "already": false
   },
   {
    "n": "Truvelo Armoury",
@@ -575,7 +1053,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_South_Africa",
    "says": "listed in Wikipedia category with own article",
    "country": "South Africa",
-   "dept": "rifles"
+   "dept": "rifles",
+   "already": false
   },
   {
    "n": "Barrett Firearms Manufacturing",
@@ -583,7 +1062,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Bond Arms",
@@ -591,7 +1071,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Charles Daly firearms",
@@ -599,7 +1080,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Charter Arms",
@@ -607,7 +1089,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Dan Wesson Firearms",
@@ -615,7 +1098,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Freedom Arms",
@@ -623,7 +1107,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Griffin & Howe",
@@ -631,7 +1116,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Ithaca Gun Company",
@@ -639,7 +1125,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Kahr Arms",
@@ -647,7 +1134,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Kimber Manufacturing",
@@ -655,7 +1143,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Lazzeroni",
@@ -663,7 +1152,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Les Baer",
@@ -671,7 +1161,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Ljutic Industries",
@@ -679,7 +1170,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Magnum Research",
@@ -687,7 +1179,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Magpul",
@@ -695,7 +1188,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Marble Arms",
@@ -703,7 +1197,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "McMillan Firearms",
@@ -711,7 +1206,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Montana Rifle Company",
@@ -719,7 +1215,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Nighthawk Custom",
@@ -727,7 +1224,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "North American Arms",
@@ -735,7 +1233,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Shiloh Rifle Manufacturing Company",
@@ -743,7 +1242,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Stevens Arms",
@@ -751,7 +1251,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Stoeger Industries",
@@ -759,7 +1260,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Weatherby",
@@ -767,7 +1269,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Wilson Combat",
@@ -775,7 +1278,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Cooper Firearms of Montana",
@@ -783,7 +1287,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Hi-Point Firearms",
@@ -791,7 +1296,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Daniel Defense",
@@ -799,7 +1305,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Knight's Armament Company",
@@ -807,7 +1314,8 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
   },
   {
    "n": "Auto-Ordnance Corporation",
@@ -815,7 +1323,648 @@
    "src": "https://en.wikipedia.org/wiki/Category:Firearm_manufacturers_of_the_United_States",
    "says": "listed in Wikipedia category with own article",
    "country": "United States",
-   "dept": "firearms"
+   "dept": "firearms",
+   "already": false
+  },
+  {
+   "n": "Cedarlore Forge",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Fabrice Cognot",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "France",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "VB Workshop (Viktor Berbekucz)",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "Hungary",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Regenyei Armory",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "Hungary",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Rob Miller / Castle Keep",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "UK",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Art of Sword Making (Maciej Kopciuch)",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "Poland",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Lonely Wolf Forge",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Dragon's Breath Forge",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Tinker Swords",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Yeshua's Sword",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Fable Blades",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Paladin Forge",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Gael Fabre",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "France",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Macdonald Armouries",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "UK",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Historical Sword Zone",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "Poland",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Pavel Moc",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "Czechia",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Sulowski Swords",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "Poland",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Peter Johnsson",
+   "layer": "premium",
+   "src": "https://www.historicaleuropeanmartialarts.com/2020/06/22/list-of-makers-of-custom-swords-armour-and-other-historical-european-martial-arts-equipment/",
+   "says": "listed in HEMA custom swords/armour makers directory (existence only)",
+   "country": "Sweden",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Yoshihara Yoshindo",
+   "layer": "premium",
+   "src": "https://swordis.com/blog/japanese-swordsmiths",
+   "says": "Takamatsunomiya Award; Tokyo cultural property; 10 generations of smiths",
+   "country": "Japan",
+   "dept": "Japanese swords (nihonto)",
+   "already": false
+  },
+  {
+   "n": "Gassan Sadatoshi",
+   "layer": "premium",
+   "src": "https://swordis.com/blog/japanese-swordsmiths",
+   "says": "head of Gassan school; president All Japan Swordsmith Association",
+   "country": "Japan",
+   "dept": "Japanese swords (nihonto)",
+   "already": false
+  },
+  {
+   "n": "Akitsugu Amata",
+   "layer": "premium",
+   "src": "https://swordis.com/blog/japanese-swordsmiths",
+   "says": "Living National Treasure 1997; many top awards",
+   "country": "Japan",
+   "dept": "Japanese swords (nihonto)",
+   "already": false
+  },
+  {
+   "n": "Masamine Sumitani",
+   "layer": "premium",
+   "src": "https://swordis.com/blog/japanese-swordsmiths",
+   "says": "mukansa; Living National Treasure 1979",
+   "country": "Japan",
+   "dept": "Japanese swords (nihonto)",
+   "already": false
+  },
+  {
+   "n": "Ono Yoshimitsu",
+   "layer": "premium",
+   "src": "https://swordis.com/blog/japanese-swordsmiths",
+   "says": "mukansa; awards since 1975",
+   "country": "Japan",
+   "dept": "Japanese swords (nihonto)",
+   "already": false
+  },
+  {
+   "n": "Arms & Armor (Bob Sinclair)",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "museum-measured European swords (shop blog)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Citadel Forge",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "boutique hand-forged swords (shop blog)",
+   "country": "",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Marto",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "Toledo ceremonial swords (shop blog)",
+   "country": "Spain",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "LK Chen",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "Chinese jian and dao reproductions (shop blog)",
+   "country": "",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Valiant Armoury",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "medieval swords (shop blog)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Tinker Pearce",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "custom sword designer (shop blog)",
+   "country": "",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Everest Forge",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "Nepalese kukri and swords seller (shop blog)",
+   "country": "Nepal",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Hanbon Forge",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "Chinese katana forge (shop blog)",
+   "country": "China",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Z-Sey",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "collector katana (shop blog)",
+   "country": "",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Kris Cutlery",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "swords and knives USA (shop blog)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Honshu",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "tactical swords by United Cutlery (shop blog)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Red Dragon Armoury",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "HEMA gear UK (shop blog)",
+   "country": "UK",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Motohara",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "Korean katana maker (shop blog)",
+   "country": "Korea",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Kingdom of Arms",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "battle-ready swords (shop blog)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "United Cutlery",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "licensed fantasy swords (shop blog)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Angus Trim (Atrim)",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "custom longswords (shop blog)",
+   "country": "",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Legacy Arms",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "medieval swords (shop blog)",
+   "country": "USA",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Balaur Arms",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "affordable European swords (shop blog)",
+   "country": "",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Blade Culture International",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "Filipino and Japanese blades (shop blog)",
+   "country": "",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Ronin Katana",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "katana (shop blog)",
+   "country": "",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Dragon King",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "katana (shop blog)",
+   "country": "",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Munetoshi",
+   "layer": "premium",
+   "src": "https://everestforge.com/everest-forge-blog/top-sword-brands",
+   "says": "katana (shop blog)",
+   "country": "",
+   "dept": "Swords",
+   "already": false
+  },
+  {
+   "n": "Aguila Ammunition",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "Mexico",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Brenneke",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "Germany",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "GECO",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "Germany",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Lapua",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "Finland",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Norma Precision",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "Sweden",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Prvi Partizan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "Serbia",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "RWS",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "Germany",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Sellier & Bellot",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "Czechia",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Wolf Ammunition",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "USA",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Eley",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers_of_the_United_Kingdom",
+   "says": "listed in Wikipedia category with own article",
+   "country": "UK",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Kynoch",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers_of_the_United_Kingdom",
+   "says": "listed in Wikipedia category with own article",
+   "country": "UK",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Cor-Bon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers_of_the_United_States",
+   "says": "listed in Wikipedia category with own article",
+   "country": "USA",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Federal Premium Ammunition",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers_of_the_United_States",
+   "says": "listed in Wikipedia category with own article",
+   "country": "USA",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Nosler",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers_of_the_United_States",
+   "says": "listed in Wikipedia category with own article",
+   "country": "USA",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Sierra Bullets",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers_of_the_United_States",
+   "says": "listed in Wikipedia category with own article",
+   "country": "USA",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "CCI Ammunition",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Ammunition_manufacturers_of_the_United_States",
+   "says": "listed in Wikipedia category with own article",
+   "country": "USA",
+   "dept": "ammunition",
+   "already": false
+  },
+  {
+   "n": "Airforce Airguns",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Air_gun_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "USA",
+   "dept": "air guns",
+   "already": false
+  },
+  {
+   "n": "Gamo",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Air_gun_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "Spain",
+   "dept": "air guns",
+   "already": false
+  },
+  {
+   "n": "Productos Mendoza",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Air_gun_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "Mexico",
+   "dept": "air guns",
+   "already": false
+  },
+  {
+   "n": "Parris Manufacturing Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Air_gun_manufacturers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "USA",
+   "dept": "air guns",
+   "already": false
+  },
+  {
+   "n": "Fred Bear",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Bowyers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "",
+   "dept": "bows",
+   "already": false
+  },
+  {
+   "n": "Ben Pearson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Bowyers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "",
+   "dept": "bows",
+   "already": false
+  },
+  {
+   "n": "Steve Ralphs",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Bowyers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "",
+   "dept": "bows",
+   "already": false
+  },
+  {
+   "n": "Charles E. Grayson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Bowyers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "",
+   "dept": "bows",
+   "already": false
+  },
+  {
+   "n": "David R. Watson",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Bowyers",
+   "says": "listed in Wikipedia category with own article",
+   "country": "",
+   "dept": "bows",
+   "already": false
+  },
+  {
+   "n": "Ex-Gurkha Khukuri House",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://nepalkhukurihouse.com/about-us",
+   "says": "self-described khukuri maker, supplier to Gurkha units (existence only)",
+   "country": "Nepal",
+   "dept": "Knives (khukuri)",
+   "already": false
   }
  ]
 }
