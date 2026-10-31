@@ -13,13 +13,19 @@ TOOLS. For any page whose names you copy (lists, categories, award winners, dire
 
 REGIONAL STRENGTHS (owner 2026-10-31: "showcase the diversity and luxury within each category", e.g. Korean skincare, Arab perfume, Indian haircare, European clothes, African bodycare). Also find which regions or cultures are renowned for this category's products (Swiss and Japanese watches, Italian and English shoemaking, Korean skincare, Indian hair oils, West African wax-print cloth, Scandinavian design...). Record each in a "regions" array: {"region":"...","speciality":"what it is known for","src":"fetched page that says so","brands":["names of makers/brands from this region in this speciality, each also in 'brands' if new"]}. Include regions whose brands are already in the register (list them too, so the division can be built). Aim for every continent where a fetched page supports it; do not invent a strength without a page.
 
+OPEN DISCOVERY (owner 2026-10-31: surface ANY quality products, not only the ones prompted). Every name, region or source mentioned in this brief or in a category prompt is an illustration to check, never a checklist or a limit. Besides the source kinds above, run two systematic sweeps and log them:
+ (a) by kind: verify/work/BRANDLAYER/<CODE>.kinds.txt lists the category as department > section : kinds. For EVERY section, search openly for who makes the best of it (e.g. "<section> best makers", "<section> award winners", "<section> renowned craftsmanship", "<section> independent test best"), in English and, where a section is tied to a culture, in that culture's language; follow what the results surface, including makers and regions nobody named.
+ (b) by region: for each of Western Europe, Northern Europe, Southern Europe, Central & Eastern Europe, Middle East, North Africa, Sub-Saharan Africa, South Asia, East Asia, Southeast Asia, Central Asia, Oceania, North America, Latin America & Caribbean, search for that region's renowned makers or traditions in this category.
+ Log every sweep item in a "sweeps" array: {"axis":"kind|region","item":"section or region","queries":["..."],"found":N,"note":""} — empty results included, so gaps are visible as tried.
+
 OUTPUT verify/work/BRANDLAYER/<CODE>.json:
 {"cat":"<CODE>","status":"done|partial","brand_led":true|false,
+ "sweeps":[{"axis":"kind|region","item":"...","queries":["..."],"found":0,"note":""}],
  "regions":[{"region":"...","speciality":"...","src":"url","brands":["..."]}],
  "sources":[{"url":"...","title":"...","kind":"award|guild|retailer|encyclopedia|heritage|pdo|collection|ranking","years":"e.g. 2004-2026 or n/a","names_on_page":N,"new_names":N,"status":"done|partial|blocked","note":""}],
  "brands":[{"n":"Brand","layer":"premium|cultural","src":"url of the fetched page naming it","says":"what that page states (award, year, product, list name), short","country":"if the page states it","dept":"which kind of product in this category, if clear"}]}
 Write the file after EVERY source (rewrite whole JSON), so work survives interruption. Merge spelling variants of one brand; keep the best source. Aim for completeness within the evidence: take every year of an award and every page of a list.
 
-RESUME RULE: if verify/work/BRANDLAYER/<CODE>.json exists, read it, keep its sources and brands, skip sources with status "done", continue partial ones, then carry on. Set "status":"done" only when every source kind above has been tried for this category (record tried-but-empty kinds as sources with new_names 0 and a note).
+RESUME RULE: if verify/work/BRANDLAYER/<CODE>.json exists, read it, keep its sources and brands, skip sources with status "done", continue partial ones, then carry on. Set "status":"done" only when every source kind above has been tried AND both sweeps cover every section and every region for this category (record tried-but-empty kinds as sources with new_names 0 and a note).
 
 REPLY with: code, sources tried (count by kind), new brands (premium / cultural), anything blocked.

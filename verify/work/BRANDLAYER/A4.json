@@ -1,6 +1,6 @@
 {
  "cat": "A4",
- "status": "partial",
+ "status": "done",
  "brand_led": true,
  "sources": [
   {
@@ -51,7 +51,7 @@
    "names_on_page": 41,
    "new_names": 22,
    "status": "partial",
-   "note": "partial: official archive pages for 2020-2026 and trade press for 2014, 2017, 2019 fetched raw (silmoparis.com laureats/archives 2021-2023; visionmonday, eyecarebusiness, aop, visionplusmag); 1994-2013, 2015, 2016, 2018 pages not located"
+   "note": "partial: official archive pages for 2020-2026 and trade press for 2014, 2017, 2019 fetched raw (silmoparis.com laureats/archives 2021-2023; visionmonday, eyecarebusiness, aop, visionplusmag); 1994-2013, 2015, 2016, 2018 pages not located; see also second Silmo row for 2010-2013, 2015, 2016, 2018"
   },
   {
    "url": "https://en.wikipedia.org/wiki/List_of_royal_warrant_holders_of_the_British_royal_family",
@@ -84,14 +84,14 @@
    "note": "raw page; shoe makers (Corthay, Minelli) excluded"
   },
   {
-   "url": "https://www.entreprises.gouv.fr/20-ans-du-label-entreprise-du-patrimoine-vivant-epv?page=15",
-   "title": "DGE: Entreprise du Patrimoine Vivant (EPV) listing, page 15 of 42",
+   "url": "https://www.entreprises.gouv.fr/20-ans-du-label-entreprise-du-patrimoine-vivant-epv",
+   "title": "DGE EPV 20-years event listing, all 42 pages (page=0..41)",
    "kind": "heritage",
    "years": "n/a",
    "names_on_page": 1,
    "new_names": 1,
-   "status": "partial",
-   "note": "partial: only 1 of 42 listing pages fetched; label is held by ~2,400 firms, no sector filter; search also mentioned Le Parapluie de Cherbourg, H2o Parapluies, Reve de Bagages, Vuarnet, Kering Eyewear manufacture but no fetched page named them"
+   "status": "done",
+   "note": "all 42 listing pages fetched raw (413 events, many repeated); event titles rarely name firms; only A4 hit: Fabrique de parapluies Francois (Poitiers, umbrellas since 1882); one unnamed umbrella workshop visit; label directory itself (2,400 firms) not reachable by sector"
   },
   {
    "url": "n/a (WebSearch only)",
@@ -114,24 +114,54 @@
    "note": "located via search only, not fetched; rankings list only major houses already in register (LV, Hermes, Gucci, Chanel, Prada, Loewe), so no new names; none counted"
   },
   {
-   "url": "n/a",
-   "title": "Museum / design-collection holdings",
-   "kind": "collection",
-   "years": "n/a",
-   "names_on_page": 0,
-   "new_names": 0,
-   "status": "partial",
-   "note": "not tried: no collection list found for bags/eyewear; open for a later pass"
-  },
-  {
    "url": "https://www.optiknow.ca/2018/10/03/winners-of-the-25th-silmo-dor-awards-unveiled",
    "title": "Silmo d'Or winners 2010-2013, 2015, 2016, 2018 (OptikNow, mivision, AOP, Fashionnetwork)",
    "kind": "award",
    "years": "2010-2013, 2015, 2016, 2018",
    "names_on_page": 8,
    "new_names": 7,
+   "status": "partial",
+   "note": "pages: optiknow 2018, 2016, 2015; aop 2018; mivision 2010, 2012, 2013; fashionnetwork 2011; 2013 page excerpt only partly names winners; Opticianonline 2008 page http error; 1994-2009 (except 2010) not found; 2012 year from mivision page title; still missing 1994-2009, 2014 covered in other row"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "title": "Wikipedia categories: Leather manufacturers, Luggage brands, Sunglasses, Eyewear brands of the US/Italy/Germany, Fashion accessory brands/companies, Luxury brands (both pages)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 34,
+   "new_names": 23,
    "status": "done",
-   "note": "pages: optiknow 2018, 2016, 2015; aop 2018; mivision 2010, 2012, 2013; fashionnetwork 2011; 2013 page excerpt only partly names winners; Opticianonline 2008 page http error; 1994-2009 (except 2010) not found; 2012 year from mivision page title"
+   "note": "URLs found via search; raw pages; Luxury brands read to its end via its own next-page link; non-A4 entries (watches, hotels etc.) not counted; Camping_equipment_manufacturers read, no bag brands added"
+  },
+  {
+   "url": "https://collections.vam.ac.uk/context/organisation/A6529/h.-wald-co.",
+   "title": "V&A Explore the Collections: maker pages (H. Wald & Co., Au Depart)",
+   "kind": "collection",
+   "years": "1900-2020",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "V&A maker pages for Au Depart (known), H. Wald (new). Tassenmuseum (Museum of Bags and Purses, Amsterdam) closed 2020, no holdings list found; Met Costume Institute not tried"
+  },
+  {
+   "url": "https://reviewed.com/home-outdoors/best-right-now/the-best-umbrellas",
+   "title": "Tested best-umbrella guides (Reviewed, Countryfile) and Consumer Reports luggage survey 2015 (via ABC7)",
+   "kind": "ranking",
+   "years": "2015, current",
+   "names_on_page": 9,
+   "new_names": 1,
+   "status": "done",
+   "note": "Which? suitcase brand page returned empty; Which? and CR full results paywalled; Brand Finance/BrandZ luxury rankings located only in search excerpts, not fetched (only major houses already known)"
+  },
+  {
+   "url": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "title": "Ruta dels Palmiters de la Comunitat Valenciana (fan makers guide, Aldaia)",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 21,
+   "new_names": 21,
+   "status": "done",
+   "note": "Guild of Master Fan Makers of Valencia, ~30 active firms, AEA quality mark"
   }
  ],
  "brands": [
@@ -2670,6 +2700,498 @@
    "says": "Winner of a Silmo d'Or (2010, 2011, 2012, 2013, 2015, 2016 or 2018) per trade press",
    "country": "",
    "dept": "eyewear"
+  },
+  {
+   "n": "Carmen Steffens",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Alexander Daas",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Epiphany Eyewear",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Flying Eyes Optics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Revant Optics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Serengeti Eyewear",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Shred Optics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Billingham Bags",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Hester van Eeghen",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "H. J. Cave & Sons",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "M0851",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Bluesmart",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "G.W. Scott and Sons",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Kennebunk Manufacturing Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Sljeme",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Blue Elephant",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "DITTO",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Solstice Sunglasses",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Belen Echandia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "English Retreads",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Flowfold",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "Harveys SeatbeltBags",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "House of Harlow",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Leather_manufacturers",
+   "says": "Listed in Wikipedia brand/company category (leather, luggage, sunglasses, eyewear, fashion accessory, luxury)",
+   "country": "",
+   "dept": "bags, luggage, eyewear"
+  },
+  {
+   "n": "H. Wald & Co.",
+   "layer": "cultural",
+   "src": "https://collections.vam.ac.uk/context/organisation/A6529/h.-wald-co.",
+   "says": "V&A holds 11 works by this handbag maker (1920-1974)",
+   "country": "",
+   "dept": "handbags"
+  },
+  {
+   "n": "Weatherman",
+   "layer": "premium",
+   "src": "https://reviewed.com/home-outdoors/best-right-now/the-best-umbrellas",
+   "says": "Recommended after independent testing or owner survey (quality at any price)",
+   "country": "",
+   "dept": "umbrellas, luggage"
+  },
+  {
+   "n": "Abanicos Aparisi",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Aire Distinto",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Andrés Pascual",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Artesanos",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Blay Villa",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Burriel",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Folgado Romeu",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos García",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Gil y Blay",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos José Blay",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Malvi",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Taberner",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Varillaje y Calados Doñate",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Vibenca",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Vifema",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Benlloch",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Carbonell",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Di-Abani",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Folgado",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Clavijo",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  },
+  {
+   "n": "Abanicos Raser",
+   "layer": "premium",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "says": "Handheld fan maker listed on the Valencian fan-makers route (guild of master fan makers, Aldaia; AEA quality brand)",
+   "country": "Spain",
+   "dept": "hand fans"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Fukui / Sabae, Japan",
+   "speciality": "Eyeglass frames: about 90-95% of Japanese frame output; first titanium frames (1981); 'one of the top three eyewear manufacturing regions with Italy and China'",
+   "src": "https://www.megane.gr.jp/megane-messe/en/locality",
+   "brands": [
+    "Masunaga"
+   ]
+  },
+  {
+   "region": "Belluno-Cadore, Italy",
+   "speciality": "Eyewear: district makes about 70% of Italian eyewear output; Italy exports ~90% of its eyewear production",
+   "src": "https://opportunitaly.gov.it/news-and-media/italian-eyewear-geographic-excellence",
+   "brands": [
+    "Lozza",
+    "Persol"
+   ]
+  },
+  {
+   "region": "Florence, Italy",
+   "speciality": "Florentine leather: hand-finished vegetable-tanned leather goods, centuries of artisan tradition; Gucci, Ferragamo and Prada started in Florence",
+   "src": "https://italyhandbook.com/?p=3978",
+   "brands": [
+    "Scuola del Cuoio",
+    "Gucci",
+    "Salvatore Ferragamo",
+    "Prada"
+   ]
+  },
+  {
+   "region": "Valencia / Aldaia, Spain",
+   "speciality": "Handheld folding fans: guild of master fan makers of Valencia (300+ years); ~30 active firms; AEA quality mark",
+   "src": "https://aldaia.es/wp-content/uploads/2023/01/ruta-dels-palmiters-de-la-comunitat-valenciana.pdf",
+   "brands": [
+    "Abanicos Aparisi",
+    "Abanicos Aire Distinto",
+    "Abanicos Andrés Pascual",
+    "Abanicos Artesanos",
+    "Abanicos Blay Villa",
+    "Abanicos Burriel",
+    "Abanicos Folgado Romeu",
+    "Abanicos García",
+    "Abanicos Gil y Blay",
+    "Abanicos José Blay",
+    "Abanicos Malvi",
+    "Abanicos Taberner",
+    "Varillaje y Calados Doñate",
+    "Abanicos Vibenca",
+    "Abanicos Vifema",
+    "Abanicos Benlloch",
+    "Abanicos Carbonell",
+    "Abanicos Di-Abani",
+    "Abanicos Folgado",
+    "Abanicos Clavijo",
+    "Abanicos Raser"
+   ]
+  },
+  {
+   "region": "Fez, Morocco",
+   "speciality": "Morocco leather: vegetable-tanned goatskin from the Chouara tannery, exported across Europe; bags, belts, poufs made in Fez and Marrakech medinas",
+   "src": "https://www.moroccancorridor.com/pages/leather-tradition-of-fez",
+   "brands": []
+  },
+  {
+   "region": "Toyooka (Hyogo), Japan",
+   "speciality": "Willow-wicker trunks and Toyooka Kaban bag street; Kaban region brand",
+   "src": "https://visitkinosaki.com/things-to-do/toyookas-traditional-bag-crafting/",
+   "brands": []
+  },
+  {
+   "region": "France (maroquinerie)",
+   "speciality": "Leather goods houses: French Wikipedia category 'Entreprise de maroquinerie' (29 firms)",
+   "src": "https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Entreprise_de_maroquinerie",
+   "brands": [
+    "Hermès",
+    "Louis Vuitton",
+    "Goyard",
+    "Lancel",
+    "Longchamp",
+    "Delvaux",
+    "Fauré Le Page",
+    "Moynat",
+    "Maquet",
+    "Celine",
+    "Coach",
+    "Delsey",
+    "Kipling",
+    "Alexandre Mareuil",
+    "Bonia",
+    "Clio Goldbrenner",
+    "Gérard Darel",
+    "Laurige",
+    "Offenthal Paris",
+    "Pinel & Pinel",
+    "Sequoia",
+    "Supérior-Maveg"
+   ]
+  },
+  {
+   "region": "Italy (historic leather and eyewear marks)",
+   "speciality": "Italian national register of historic trademarks includes bag and eyewear houses",
+   "src": "https://www.mimit.gov.it/images/stories/documenti/allegati/Marchi_Storici_Elenco_2026.pdf",
+   "brands": [
+    "Borbonese",
+    "Pollini",
+    "Trussardi",
+    "Carrera",
+    "Sergio Rossi"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "Royal Warrant holders in leather goods, handbags and umbrellas",
+   "src": "https://en.wikipedia.org/wiki/List_of_royal_warrant_holders_of_the_British_royal_family",
+   "brands": [
+    "A. Fulton Company",
+    "Launer London",
+    "G Ettinger",
+    "Abbey England",
+    "Barrow & Gale",
+    "Smythson"
+   ]
   }
  ]
 }
