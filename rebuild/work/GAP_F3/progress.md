@@ -6,3 +6,4 @@ step4: edit1 applied (campaign/gallantry/longservice + g). next: Topps counts, U
 step5: Topps counts done (edit2). next: Wikipedia UK campaign medals windows check, coverage lines for kinds w/o, brands, report
 step6: edit3 coverage+brands done; next report
 ROUND2 start: fetch List of circulating currencies
+ROUND2 step1: fetched circulating currencies list (offsets 0, 90000, complete to end). next: write currency entries

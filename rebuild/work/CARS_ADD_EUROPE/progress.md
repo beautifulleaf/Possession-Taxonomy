@@ -8,3 +8,4 @@ step6: rows_uk_all.txt = full unfiltered rows for 11 British marques (batch1). W
 step7: rows_uk2.txt = UK unfiltered window 1 (chars 0-100000, cars only, compact marque|model|wikititle|year; per-line marque is the model-name marque not Wikidata manufacturer). Remaining UK window offset 100000 (Triumph 15/50 onward, Vauxhall etc.) not yet read
 step8: UK window 2 appended to rows_uk2.txt. UK done. ~17 fetches used. Next: DE/FR/IT unfiltered (class-less), then SE NL CZ ES RU PL RO RS etc; then facts query; then build JSON
 step9: Germany unfiltered -> rows_de2.txt (adds to rows_de.txt classed rows; dedupe by model). ~19 fetches. Next: FR/IT unfiltered, then others
+step10: France unfiltered -> rows_fr2.txt. ~20 fetches. Next: IT unfiltered, then SE NL CZ ES RU PL RO RS other; facts
