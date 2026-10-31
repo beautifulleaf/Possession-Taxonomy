@@ -12,3 +12,5 @@ Your job: for every marque in your region list that CARS.json does not already c
 Budget: about 70 fetches (MediaWiki API and Wikidata calls each count). Report rebuild/out/<BATCH>_report.md (≤ 400 words): marques added and models per marque, what was not reached. Reply with a short summary.
 
 Also: the existing CARS.json set cty, owner and tier from general knowledge. For EVERY marque of your region, including ones CARS.json already covers, put the sourced country, parent organisation and acquisition year in brand_updates (one Wikidata SPARQL query can return P17 and P749 for many marques at once), and list in the report any covered marque whose stored cty or own differs from the sourced value.
+
+REVISION (coordinator): every production model is entered. A model whose class no fetched page states goes into kind "Car, body style not stated" (the coordinator adds this kind to Cars), sectioned by marque. Prefer the Wikipedia "List of <marque> vehicles" / "List of <marque> automobiles" pages (tables with years and often class) over category extracts; read them with WebFetch offset windows. A year from the list table is enough; the model need not have its own page.
