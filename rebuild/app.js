@@ -59,7 +59,7 @@ function item(k, term, openNow) {
   const a = $('article', { class: 'item', 'data-n': k.n, id: k.code ? 'k-' + k.code : null }, $('h5', {}, hl(k.n, term), k.code ? $('span', { class: 'kc', text: k.code }) : null));
   if (k.a) a.append($('p', { class: 'also' }, 'Also called ', hl(k.a, term)));
   if (k.d) a.append($('p', { class: 'desc clamp', text: k.d }));
-  const hasMore = nx || m.length || r.length || (k.tt && k.tt.length) || (k.t && k.t.length) || (k.see && k.see.length) || k.nl || k.sel || k.s;
+  const hasMore = nx || m.length || r.length || (k.tt && k.tt.length) || (k.t && k.t.length) || (k.see && k.see.length) || (k.ve && k.ve.length) || k.nl || k.sel || k.s;
   if (!hasMore) return a;
   const facts = [nx ? nx + ' named' : '', m.length ? m.length + ' models' : '', r.length ? r.length + ' ranges' : '', k.tt && k.tt.length ? k.tt.length + ' type groups' : ''].filter(Boolean).join(' · ');
   const body = $('div', { class: 'kbody' }); body.hidden = true;
@@ -69,6 +69,7 @@ function item(k, term, openNow) {
   const build = () => { if (built) return; built = true;
     if (k.tt && k.tt.length) body.append($('div', { class: 'tt' }, k.tt.map(([ax, ts]) => $('p', { class: 'also' }, $('b', { text: ax + ': ' }), hl(ts.join(' · '), term)))));
     else if (k.t && k.t.length) body.append($('p', { class: 'also' }, 'Types: ', hl(k.t.join(' · '), term)));
+    if (k.ve && k.ve.length) body.append($('p', { class: 'also' }, 'Named artists and works belong to the Visual Entertainment taxonomy: ' + k.ve.join(' · ') + '.'));
     if (k.see && k.see.length) body.append($('p', { class: 'also see' }, 'See also: ', k.see.flatMap(([c, n, why], i) => { const b = $('button', { class: 'seel', type: 'button', title: why || '' }, n, c !== cur ? $('i', { text: ' (' + catName(c) + ')' }) : null); b.addEventListener('click', () => jump(c, n)); return i ? [' · ', b] : [b]; })));
     if (k.tg && k.tg.length) body.append($('p', { class: 'tags' }, k.tg.map(t => $('span', { class: 'tag', text: t }))));
     if (k.nl || k.sel) body.append($('div', { class: 'nl' }, k.nl ? $('p', {}, $('b', { text: 'One entry is ' }), k.nl.replace(/^one entry is /i, '')) : null, k.sel ? $('p', {}, $('b', { text: 'This list: ' }), k.sel) : null));
