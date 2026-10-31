@@ -31,6 +31,18 @@
        "s": "https://en.wikipedia.org/wiki/Brassiere",
        "x": [
         {
+         "n": "Cake Maternity Mousse",
+         "a": "Mousse",
+         "d": "",
+         "mk": "Cake Maternity",
+         "y": "",
+         "s": "https://laopinion.com/latinowire/cake-maternity-to-expand-availability-in-nordstrom-with-new-product-offerings-for-the-maternity-lifestyle/",
+         "v": [],
+         "dt": "",
+         "cty": "Australia",
+         "g": "Australia"
+        },
+        {
          "n": "Wonderbra plunge push-up",
          "a": "Wonderbra 1300",
          "d": "Plunging push-up bra with diagonally cut padded cups that lift and push the bust together.",
@@ -59,7 +71,58 @@
          ],
          "dt": "padding level · plunge depth · cup and band sizes · lace or smooth",
          "cty": "Canada",
-         "g": "Canada"
+         "g": "Canada",
+         "own": "Gildan Activewear",
+         "own_y": "2025",
+         "tier": "Global group"
+        },
+        {
+         "n": "Chantelle Comfort Chic",
+         "a": "Comfort Chic",
+         "d": "",
+         "mk": "Chantelle",
+         "y": "",
+         "s": "https://lingeriebriefs.com/2024/10/20/tried-true-and-new-chantelle-ups-the-ante-on-two-best-selling-bras/",
+         "v": [],
+         "dt": "",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Chantelle Rive Gauche",
+         "a": "Rive Gauche",
+         "d": "",
+         "mk": "Chantelle",
+         "y": "",
+         "s": "https://lingeriebriefs.com/2024/10/20/tried-true-and-new-chantelle-ups-the-ante-on-two-best-selling-bras/",
+         "v": [],
+         "dt": "",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Mey BraVissima",
+         "a": "BraVissima",
+         "d": "First listed 2015.",
+         "mk": "Mey",
+         "y": "2015",
+         "s": "https://mey.com/en/company-history",
+         "v": [],
+         "dt": "",
+         "cty": "Germany",
+         "g": "Germany"
+        },
+        {
+         "n": "Wacoal Eglantine",
+         "a": "Eglantine",
+         "d": "First listed 1999.",
+         "mk": "Wacoal",
+         "y": "1999",
+         "s": "https://www.wacoallingerie.com/uk/en/worldofwacoal/heritage/",
+         "v": [],
+         "dt": "",
+         "cty": "Japan",
+         "g": "Japan"
         },
         {
          "n": "Triumph Doreen",
@@ -121,6 +184,61 @@
          "dt": "wired or soft cup · cup and band sizes",
          "cty": "United States",
          "g": "United States"
+        },
+        {
+         "n": "La Perla Sculpture bra",
+         "a": "Sculpture bra",
+         "d": "First listed 1994.",
+         "mk": "La Perla",
+         "y": "1994",
+         "s": "https://en.wikipedia.org/wiki/La_Perla_(clothing)",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Leonisa Air Bra",
+         "a": "Air Bra",
+         "d": "First listed 2000.",
+         "mk": "Leonisa",
+         "y": "2000",
+         "s": "https://www.leonisa.com/pages/70-years-leonisa",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Empreinte Cassiopée",
+         "a": "Cassiopée",
+         "d": "",
+         "mk": "Empreinte",
+         "y": "",
+         "s": "https://ouhlala.co.uk/blogs/news/discover-empreinte-lingerie-the-finest-of-lingerie",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Empreinte Melody",
+         "a": "Melody",
+         "d": "",
+         "mk": "Empreinte",
+         "y": "",
+         "s": "https://ouhlala.co.uk/blogs/news/discover-empreinte-lingerie-the-finest-of-lingerie",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Leonisa Magicup",
+         "a": "Magicup",
+         "d": "",
+         "mk": "Leonisa",
+         "y": "",
+         "s": "https://www.leonisa.com/pages/70-years-leonisa",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
         }
        ],
        "r": [
@@ -196,8 +314,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Brassiere, Underwear. Covers 6 of about 84 in the register and those articles; the 84 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Brassiere, Underwear. Covers 16 of about 84 in the register and those articles; the 84 counts register brands known for this garment, most of which name no single piece."
       },
       {
        "n": "Panties",
@@ -236,8 +354,23 @@
          ]
         ]
        ],
-       "nl": "No entry: no brand-originated signature piece or originator is named for this garment in the register or the cited article.",
-       "sel": "Checked the brand register `sig` and `lines` fields and the page named in s; none names a piece for this kind. Complete: 0 of 0 in those sources."
+       "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the forms named by the cited Wikipedia articles and the earlier harvest. Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece.",
+       "x": [
+        {
+         "n": "Petite culotte",
+         "a": "",
+         "d": "First listed 1918.",
+         "mk": "Petit Bateau",
+         "y": "1918",
+         "s": "https://www.petit-bateau.fr/laculottepetitbateau.html",
+         "v": [],
+         "dt": "",
+         "cty": "France",
+         "g": "France"
+        }
+       ],
+       "xg": "by brand country or region, then year"
       },
       {
        "n": "Men's underwear",
@@ -268,7 +401,52 @@
          ],
          "dt": "boxer brief, trunk · colours",
          "cty": "Japan",
+         "g": "Japan",
+         "own": "Fast Retailing",
+         "own_y": "",
+         "tier": "Global group"
+        },
+        {
+         "n": "Cotton Boxer Briefs",
+         "a": "",
+         "d": "",
+         "mk": "Uniqlo",
+         "y": "",
+         "s": "https://www.uniqlo.com/eu-lt/en/men/innerwear/underwear",
+         "v": [],
+         "dt": "",
+         "own": "Fast Retailing",
+         "own_y": "",
+         "tier": "Global group",
+         "cty": "Japan",
          "g": "Japan"
+        },
+        {
+         "n": "Uniqlo Woven Trunks",
+         "a": "Woven Trunks",
+         "d": "",
+         "mk": "Uniqlo",
+         "y": "",
+         "s": "https://www.uniqlo.com/eu-lt/en/men/innerwear/underwear",
+         "v": [],
+         "dt": "",
+         "own": "Fast Retailing",
+         "own_y": "",
+         "tier": "Global group",
+         "cty": "Japan",
+         "g": "Japan"
+        },
+        {
+         "n": "Björn Borg Classic Shorts",
+         "a": "Classic Shorts",
+         "d": "First listed 1989.",
+         "mk": "Björn Borg",
+         "y": "1989",
+         "s": "https://corporate.bjornborg.com/en/our-story/",
+         "v": [],
+         "dt": "",
+         "cty": "Sweden",
+         "g": "Sweden"
         },
         {
          "n": "Sunspel boxer shorts",
@@ -333,6 +511,18 @@
          "g": "United States"
         },
         {
+         "n": "Munsingwear Kangaroo brief",
+         "a": "Kangaroo brief",
+         "d": "First listed 1943.",
+         "mk": "Munsingwear",
+         "y": "1943",
+         "s": "https://en.wikipedia.org/wiki/Munsingwear",
+         "v": [],
+         "dt": "",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
          "n": "Calvin Klein boxer brief",
          "a": "CK boxer brief",
          "d": "Stretch-cotton boxer brief with a branded elastic waistband, made famous by the 1992 Mark Wahlberg adverts.",
@@ -343,6 +533,17 @@
          "dt": "cotton stretch, microfibre · leg length · logo waistband",
          "cty": "United States",
          "g": "United States"
+        },
+        {
+         "n": "aussieBum Wonderjock",
+         "a": "Wonderjock",
+         "d": "First listed 2006.",
+         "mk": "aussieBum",
+         "y": "2006",
+         "s": "https://en.wikipedia.org/wiki/AussieBum",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
         }
        ],
        "r": [
@@ -375,8 +576,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Briefs, Underwear. Covers 5 of about 38 in the register and those articles; the 38 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Briefs, Underwear. Covers 10 of about 38 in the register and those articles; the 38 counts register brands known for this garment, most of which name no single piece."
       },
       {
        "n": "Period underwear",
@@ -469,7 +670,22 @@
          ],
          "dt": "rib-knit cotton · white, black, colours",
          "cty": "Australia",
-         "g": "Australia"
+         "g": "Australia",
+         "own": "Gildan Activewear",
+         "own_y": "2025",
+         "tier": "Global group"
+        },
+        {
+         "n": "Mey The Undershirt",
+         "a": "The Undershirt",
+         "d": "First listed 2015.",
+         "mk": "Mey",
+         "y": "2015",
+         "s": "https://mey.com/en/company-history",
+         "v": [],
+         "dt": "",
+         "cty": "Germany",
+         "g": "Germany"
         },
         {
          "n": "Brynje string vest",
@@ -482,6 +698,18 @@
          "dt": "mesh weave · wool or cotton",
          "cty": "Norway",
          "g": "Norway"
+        },
+        {
+         "n": "Jockey International Singleton",
+         "a": "",
+         "d": "",
+         "mk": "Jockey International",
+         "y": "1929",
+         "s": "https://www.jockey.com/ourcompany/ourhistory",
+         "v": [],
+         "dt": "",
+         "cty": "United States",
+         "g": "United States"
         }
        ],
        "r": [
@@ -526,8 +754,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Undershirt, Underwear. Covers 2 of about 2 in the register and those articles; the 2 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Undershirt, Underwear. Covers 4 of about 4 in the register and those articles; the 4 counts register brands known for this garment, most of which name no single piece."
       },
       {
        "n": "Slip & petticoat",
@@ -596,6 +824,75 @@
        ],
        "x": [
         {
+         "n": "Wacoal Tummy Girdle",
+         "a": "Tummy Girdle",
+         "d": "First listed 1965.",
+         "mk": "Wacoal",
+         "y": "1965",
+         "s": "https://www.wacoallingerie.com/uk/en/worldofwacoal/heritage/",
+         "v": [],
+         "dt": "",
+         "cty": "Japan",
+         "g": "Japan"
+        },
+        {
+         "n": "Munsingwear Foundettes",
+         "a": "Foundettes",
+         "d": "First listed 1931.",
+         "mk": "Munsingwear",
+         "y": "1931",
+         "s": "https://en.wikipedia.org/wiki/Munsingwear",
+         "v": [],
+         "dt": "",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
+         "n": "SPANXsculpt Seamless Power",
+         "a": "",
+         "d": "",
+         "mk": "Spanx",
+         "y": "",
+         "s": "https://spanx.com/collections/shapewear",
+         "v": [],
+         "dt": "",
+         "own": "Blackstone Inc.",
+         "own_y": "2021",
+         "tier": "Independent",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
+         "n": "SPANXshape Invisible",
+         "a": "",
+         "d": "",
+         "mk": "Spanx",
+         "y": "",
+         "s": "https://spanx.com/collections/shapewear",
+         "v": [],
+         "dt": "",
+         "own": "Blackstone Inc.",
+         "own_y": "2021",
+         "tier": "Independent",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
+         "n": "SPANXsupersculpt Transform",
+         "a": "",
+         "d": "",
+         "mk": "Spanx",
+         "y": "",
+         "s": "https://spanx.com/collections/shapewear",
+         "v": [],
+         "dt": "",
+         "own": "Blackstone Inc.",
+         "own_y": "2021",
+         "tier": "Independent",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
          "n": "Spanx OnCore",
          "a": "",
          "d": "High-waisted mid-thigh shaping short; in the Museum of Modern Art design collection since 2017.",
@@ -608,12 +905,35 @@
          "cty": "United States",
          "own": "Blackstone Inc.",
          "own_y": "2021",
-         "g": "United States"
+         "g": "United States",
+         "tier": "Independent"
+        },
+        {
+         "n": "Petit Scandale",
+         "a": "",
+         "d": "",
+         "mk": "Scandale",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Scandale_(company)",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Warnaco Group Two-Way-One-Way",
+         "a": "Two-Way-One-Way",
+         "d": "",
+         "mk": "Warnaco Group",
+         "y": "",
+         "s": "https://www.fundinguniverse.com/company-histories/the-warnaco-group-inc-history/",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
         }
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Shapewear, Spanx. Covers 1 of about 2 in the register and those articles; the 2 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Shapewear, Spanx. Covers 8 of about 8 in the register and those articles; the 8 counts register brands known for this garment, most of which name no single piece."
       },
       {
        "n": "Corset",
@@ -621,6 +941,30 @@
        "d": "Boned, laced garment that shapes the torso, worn under clothing or as a visible corset top or bustier.",
        "s": "https://www.orchardcorset.com/collections/underbust-corsets",
        "x": [
+        {
+         "n": "Berlei Princess Youth",
+         "a": "Princess Youth",
+         "d": "First listed 1934.",
+         "mk": "Berlei",
+         "y": "1934",
+         "s": "https://nzfashionmuseum.org.nz/berlei/",
+         "v": [],
+         "dt": "",
+         "cty": "Australia",
+         "g": "Australia"
+        },
+        {
+         "n": "Berlei Eezee",
+         "a": "Eezee",
+         "d": "First listed 1939.",
+         "mk": "Berlei",
+         "y": "1939",
+         "s": "https://nzfashionmuseum.org.nz/berlei/",
+         "v": [],
+         "dt": "",
+         "cty": "Australia",
+         "g": "Australia"
+        },
         {
          "n": "Gaches-Sarraute straight-front corset",
          "a": "",
@@ -632,6 +976,18 @@
          "dt": "busk · boning · length",
          "cty": "France",
          "g": "France"
+        },
+        {
+         "n": "Venus Corset Top",
+         "a": "",
+         "d": "",
+         "mk": "Atsuko Kudo",
+         "y": "",
+         "s": "https://atsukokudo.com/Shop/Latex-Tops/",
+         "v": [],
+         "dt": "",
+         "cty": "United Kingdom",
+         "g": "United Kingdom"
         },
         {
          "n": "Orchard Corset CS series",
@@ -681,6 +1037,72 @@
          "dt": "curve · length · satin, cotton, mesh, lace, PVC",
          "cty": "United States",
          "g": "United States"
+        },
+        {
+         "n": "Dr. Warner's Health Corset",
+         "a": "",
+         "d": "First listed 1874.",
+         "mk": "Warnaco Group",
+         "y": "1874",
+         "s": "https://www.fundinguniverse.com/company-histories/the-warnaco-group-inc-history/",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Twilfit Fashonese",
+         "a": "Fashonese",
+         "d": "First listed 1926.",
+         "mk": "Twilfit",
+         "y": "1926",
+         "s": "https://underpinningsmuseum.com/Museum-Collections/corsetry-catalogue-by-twilfit-d-h-evans-co/",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "La Perla Cage Bustier",
+         "a": "Cage Bustier",
+         "d": "First listed 2007.",
+         "mk": "La Perla",
+         "y": "2007",
+         "s": "https://en.wikipedia.org/wiki/La_Perla_(clothing)",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Cybele Embroidered Crop Corset Top",
+         "a": "",
+         "d": "",
+         "mk": "Disturbia",
+         "y": "",
+         "s": "https://www.disturbia.us/collections/womens-corsets",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Lea Pinstripe Corset",
+         "a": "",
+         "d": "",
+         "mk": "Disturbia",
+         "y": "",
+         "s": "https://www.disturbia.us/collections/womens-corsets",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Sharp Corset Top",
+         "a": "",
+         "d": "",
+         "mk": "NA-KD",
+         "y": "",
+         "s": "https://www.na-kd.com/en/category/tops/corset-tops",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
         }
        ],
        "tt": [
@@ -715,8 +1137,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Corset. Covers 2 of about 4 in the register and those articles; the 4 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Corset. Covers 11 of about 11 in the register and those articles; the 11 counts register brands known for this garment, most of which name no single piece."
       }
      ]
     },
@@ -731,6 +1153,104 @@
        "d": "Knitted covering for the foot and ankle or lower leg.",
        "s": "https://www.rei.com/c/socks/f/fbt-wool-wool-blend",
        "x": [
+        {
+         "n": "Falke Airport",
+         "a": "Airport",
+         "d": "",
+         "mk": "Falke",
+         "y": "",
+         "s": "https://www.falke.com/us_en/ts/falke-airport/",
+         "v": [],
+         "dt": "",
+         "cty": "Germany",
+         "g": "Germany"
+        },
+        {
+         "n": "Falke Family",
+         "a": "Family",
+         "d": "",
+         "mk": "Falke",
+         "y": "",
+         "s": "https://www.falke.com/uk_en/ts/falke-classics/",
+         "v": [],
+         "dt": "",
+         "cty": "Germany",
+         "g": "Germany"
+        },
+        {
+         "n": "Falke Tiago",
+         "a": "Tiago",
+         "d": "",
+         "mk": "Falke",
+         "y": "",
+         "s": "https://www.falke.com/uk_en/ts/falke-classics/",
+         "v": [],
+         "dt": "",
+         "cty": "Germany",
+         "g": "Germany"
+        },
+        {
+         "n": "Tabi",
+         "a": "",
+         "d": "Japanese split-toe sock worn with thonged footwear.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sock",
+         "v": [],
+         "dt": "",
+         "g": "Japan"
+        },
+        {
+         "n": "Beoseon",
+         "a": "",
+         "d": "Traditional Korean sock.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sock",
+         "v": [],
+         "dt": "",
+         "g": "Korea"
+        },
+        {
+         "n": "Hike Medium Crew",
+         "a": "",
+         "d": "",
+         "mk": "Icebreaker",
+         "y": "",
+         "s": "https://www.rei.com/c/socks/f/fbt-wool-wool-blend",
+         "v": [],
+         "dt": "",
+         "own": "VF Corporation",
+         "own_y": "",
+         "tier": "Global group",
+         "cty": "New Zealand",
+         "g": "New Zealand"
+        },
+        {
+         "n": "Heat Holders thermal sock",
+         "a": "",
+         "d": "",
+         "mk": "Heat Holders",
+         "y": "",
+         "s": "https://www.heatholders.com/collections/womens-headbands-earmuffs",
+         "v": [
+          {
+           "n": "Alta",
+           "mk": "Heat Holders",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Jordan",
+           "mk": "Heat Holders",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "thermal pile lining",
+         "cty": "United Kingdom",
+         "g": "United Kingdom"
+        },
         {
          "n": "Rockford Red Heel sock",
          "a": "monkey sock · red heel sock",
@@ -748,7 +1268,10 @@
          ],
          "dt": "cotton-wool blend · brown heather with red heel and white toe",
          "cty": "United States",
-         "g": "United States"
+         "g": "United States",
+         "own": "Fox River Mills",
+         "own_y": "1992",
+         "tier": "Independent"
         },
         {
          "n": "Wigwam 622 slouch sock",
@@ -759,6 +1282,45 @@
          "s": "https://en.wikipedia.org/wiki/Wigwam_Mills",
          "v": [],
          "dt": "ribbed · white · slouched at the ankle",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
+         "n": "Hiker Micro Crew Cushion",
+         "a": "",
+         "d": "",
+         "mk": "Darn Tough",
+         "y": "",
+         "s": "https://www.rei.com/c/socks/f/fbt-wool-wool-blend",
+         "v": [],
+         "dt": "",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
+         "n": "Light Hiker Micro Crew",
+         "a": "",
+         "d": "",
+         "mk": "Darn Tough",
+         "y": "",
+         "s": "https://www.rei.com/c/socks/f/fbt-wool-wool-blend",
+         "v": [],
+         "dt": "",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
+         "n": "Performance Hike Targeted Cushion Ankle",
+         "a": "",
+         "d": "",
+         "mk": "Smartwool",
+         "y": "",
+         "s": "https://www.rei.com/c/socks/f/fbt-wool-wool-blend",
+         "v": [],
+         "dt": "",
+         "own": "VF Corporation",
+         "own_y": "",
+         "tier": "Global group",
          "cty": "United States",
          "g": "United States"
         },
@@ -785,7 +1347,66 @@
          ],
          "dt": "cushioning · height",
          "cty": "United States",
+         "g": "United States",
+         "own": "VF Corporation",
+         "own_y": "",
+         "tier": "Global group"
+        },
+        {
+         "n": "Trailsmith Merino Wool Crew",
+         "a": "",
+         "d": "",
+         "mk": "REI Co-op",
+         "y": "",
+         "s": "https://www.rei.com/c/socks/f/fbt-wool-wool-blend",
+         "v": [],
+         "dt": "",
+         "cty": "United States",
          "g": "United States"
+        },
+        {
+         "n": "Wolsey Sportsman",
+         "a": "Sportsman",
+         "d": "First listed 1920.",
+         "mk": "Wolsey",
+         "y": "1920",
+         "s": "https://wolsey.com/pages/our-history",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Broussaud Héritage Henry",
+         "a": "Héritage Henry",
+         "d": "First listed 1938.",
+         "mk": "Broussaud",
+         "y": "1938",
+         "s": "https://www.marques-de-france.fr/produit/heritage-henry-chaussettes-homme-coton-noir/",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Outdoor Midweight Crew",
+         "a": "",
+         "d": "",
+         "mk": "Injinji",
+         "y": "",
+         "s": "https://www.rei.com/c/socks/f/fbt-wool-wool-blend",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Sockwell Circulator Compression",
+         "a": "Circulator Compression",
+         "d": "",
+         "mk": "Sockwell",
+         "y": "",
+         "s": "https://www.rei.com/c/socks/f/fbt-wool-wool-blend",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
         },
         {
          "n": "Argyle socks",
@@ -838,8 +1459,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Sock. Covers 4 of about 21 in the register and those articles; the 21 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Sock. Covers 19 of about 21 in the register and those articles; the 21 counts register brands known for this garment, most of which name no single piece. Regional forms are those named by the garment's Wikipedia article."
       },
       {
        "n": "Tights & stockings",
@@ -847,6 +1468,42 @@
        "d": "Sheer or opaque knitted leg coverings: tights in one piece to the waist, stockings to the thigh.",
        "s": "https://en.wikipedia.org/wiki/Pantyhose",
        "x": [
+        {
+         "n": "Wolford Neon",
+         "a": "Neon",
+         "d": "",
+         "mk": "Wolford",
+         "y": "",
+         "s": "https://www.thetightspot.com/tights",
+         "v": [],
+         "dt": "",
+         "cty": "Austria",
+         "g": "Austria"
+        },
+        {
+         "n": "Oroblu Magie",
+         "a": "Magie",
+         "d": "",
+         "mk": "Oroblu",
+         "y": "",
+         "s": "https://www.thetightspot.com/tights",
+         "v": [],
+         "dt": "",
+         "cty": "Italy",
+         "g": "Italy"
+        },
+        {
+         "n": "Sheer Look Opaque",
+         "a": "",
+         "d": "",
+         "mk": "Charnos",
+         "y": "",
+         "s": "https://www.thetightspot.com/tights",
+         "v": [],
+         "dt": "",
+         "cty": "United Kingdom",
+         "g": "United Kingdom"
+        },
         {
          "n": "Chemstrand leotard-stockings",
          "a": "",
@@ -871,6 +1528,83 @@
          "role": "origin",
          "cty": "United States",
          "g": "United States"
+        },
+        {
+         "n": "Eterno Super Lucido",
+         "a": "",
+         "d": "",
+         "mk": "Cecilia de Rafael",
+         "y": "",
+         "s": "https://www.thetightspot.com/tights",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Federica Luxe Shine Opaque",
+         "a": "",
+         "d": "",
+         "mk": "Trasparenze",
+         "y": "",
+         "s": "https://www.thetightspot.com/tights",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Kunert Elite",
+         "a": "Elite",
+         "d": "",
+         "mk": "Kunert",
+         "y": "",
+         "s": "https://corporate.kunert.de/en/about-us/our-history",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Positive Look Plus Size",
+         "a": "",
+         "d": "",
+         "mk": "Giulia",
+         "y": "",
+         "s": "https://www.thetightspot.com/tights",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Supersize Plus Size",
+         "a": "",
+         "d": "",
+         "mk": "Glamory",
+         "y": "",
+         "s": "https://www.thetightspot.com/tights",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Talia Mock Stocking",
+         "a": "",
+         "d": "",
+         "mk": "Gatta",
+         "y": "",
+         "s": "https://www.thetightspot.com/tights",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Wolsey Mink Royal",
+         "a": "Mink Royal",
+         "d": "",
+         "mk": "Wolsey",
+         "y": "",
+         "s": "https://knittingtogether.org.uk/virtual-museum/collections-catalogue/mergers-and-takeovers-1960-present/wolsey-stockings/",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
         },
         {
          "n": "Fully fashioned stocking",
@@ -937,8 +1671,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Pantyhose. Covers 3 of about 9 in the register and those articles; the 9 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Pantyhose. Covers 13 of about 13 in the register and those articles; the 13 counts register brands known for this garment, most of which name no single piece."
       },
       {
        "n": "Suspender belt",
@@ -1053,7 +1787,10 @@
          "v": [],
          "dt": "standard, Extra Warm, Ultra Warm · tops, leggings, socks",
          "cty": "Japan",
-         "g": "Japan"
+         "g": "Japan",
+         "own": "Fast Retailing",
+         "own_y": "",
+         "tier": "Global group"
         },
         {
          "n": "Icebreaker Merino 200 Oasis",
@@ -1078,7 +1815,76 @@
          ],
          "dt": "weight (gsm) · crew or zip",
          "cty": "New Zealand",
-         "g": "New Zealand"
+         "g": "New Zealand",
+         "own": "VF Corporation",
+         "own_y": "",
+         "tier": "Global group"
+        },
+        {
+         "n": "Lux Inferno",
+         "a": "",
+         "d": "First listed 2007.",
+         "mk": "Lux Industries",
+         "y": "2007",
+         "s": "https://luxinnerwear.com/legacy-history-milestone",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Airwool Zip Polo Merino",
+         "a": "",
+         "d": "",
+         "mk": "Janusfabrikken",
+         "y": "",
+         "s": "https://www.jeger.no/jaktklaer/ullundertoy/janus-norse-merino-meshwool-ullnetting-som-holder-deg-torr",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Cimalp Strategic",
+         "a": "Strategic",
+         "d": "",
+         "mk": "Cimalp",
+         "y": "",
+         "s": "https://www.snowsportsnews.com/articles/cimalp-showcases-hero-products-for-coming-season",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Norse Merino Meshwool",
+         "a": "",
+         "d": "",
+         "mk": "Janusfabrikken",
+         "y": "",
+         "s": "https://www.jeger.no/jaktklaer/ullundertoy/janus-norse-merino-meshwool-ullnetting-som-holder-deg-torr",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "ODLO Active Warm",
+         "a": "Active Warm",
+         "d": "",
+         "mk": "ODLO",
+         "y": "",
+         "s": "https://www.odlo.com/us/en/the-men's-active-warm-long-sleeve-base-layer-top-159102.html",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
+         "n": "ODLO Performance Warm",
+         "a": "Performance Warm",
+         "d": "",
+         "mk": "ODLO",
+         "y": "",
+         "s": "https://www.odlo.com/us/en/the-men's-performance-warm-eco-long-sleeve-base-layer-top-196192.html",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
         },
         {
          "n": "Union suit",
@@ -1134,8 +1940,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Long underwear, Underwear. Covers 5 of about 7 in the register and those articles; the 7 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Long underwear, Underwear. Covers 11 of about 11 in the register and those articles; the 11 counts register brands known for this garment, most of which name no single piece."
       }
      ]
     },
@@ -1185,8 +1991,23 @@
          ]
         ]
        ],
-       "nl": "No entry: no brand-originated signature piece or originator is named for this garment in the register or the cited article.",
-       "sel": "Checked the brand register `sig` and `lines` fields and Wikipedia: Pajamas; none names a piece for this kind. Complete: 0 of 0 in those sources."
+       "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the forms named by the cited Wikipedia articles and the earlier harvest. Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece.",
+       "x": [
+        {
+         "n": "Sleeper Party Pyjamas",
+         "a": "Party Pyjamas",
+         "d": "",
+         "mk": "Sleeper",
+         "y": "",
+         "s": "https://theglossarymagazine.com/fashion/ukrainian-fashion-designers/",
+         "v": [],
+         "dt": "",
+         "cty": "Ukraine",
+         "g": "Ukraine"
+        }
+       ],
+       "xg": "by brand country or region, then year"
       },
       {
        "n": "Nightdress",
@@ -1232,8 +2053,22 @@
          ]
         ]
        ],
-       "nl": "No entry: no brand-originated signature piece or originator is named for this garment in the register or the cited article.",
-       "sel": "Checked the brand register `sig` and `lines` fields and Wikipedia: Bathrobe; none names a piece for this kind. Complete: 0 of 0 in those sources."
+       "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the forms named by the cited Wikipedia articles and the earlier harvest. Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece.",
+       "x": [
+        {
+         "n": "Jokipiin Pellava Laituri bathrobe",
+         "a": "Laituri bathrobe",
+         "d": "",
+         "mk": "Jokipiin Pellava",
+         "y": "",
+         "s": "https://varuste.net/en/p109517/jokipiin-pellava-laituri-bathrobe",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        }
+       ],
+       "xg": "by brand country or region, then year"
       },
       {
        "n": "Baby sleeping bag",
@@ -1274,8 +2109,22 @@
          ]
         ]
        ],
-       "nl": "No entry: no brand-originated signature piece or originator is named for this garment in the register or the cited article.",
-       "sel": "Checked the brand register `sig` and `lines` fields and the page named in s; none names a piece for this kind. Complete: 0 of 0 in those sources."
+       "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the forms named by the cited Wikipedia articles and the earlier harvest. Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece.",
+       "x": [
+        {
+         "n": "Halo SleepSack",
+         "a": "SleepSack",
+         "d": "",
+         "mk": "Halo",
+         "y": "",
+         "s": "https://halosleep.com/collections/sleepsack-wearable-blanket",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        }
+       ],
+       "xg": "by brand country or region, then year"
       }
      ]
     },
@@ -1312,7 +2161,10 @@
          "v": [],
          "dt": "cut",
          "cty": "Australia / United Kingdom",
-         "g": "Australia / United Kingdom"
+         "g": "Australia / United Kingdom",
+         "own": "Pentland Group",
+         "own_y": "",
+         "tier": "Global group"
         },
         {
          "n": "Speedo Endurance",
@@ -1324,7 +2176,10 @@
          "v": [],
          "dt": "cut · colour",
          "cty": "Australia / United Kingdom",
-         "g": "Australia / United Kingdom"
+         "g": "Australia / United Kingdom",
+         "own": "Pentland Group",
+         "own_y": "",
+         "tier": "Global group"
         },
         {
          "n": "Speedo Fastskin",
@@ -1336,7 +2191,10 @@
          "v": [],
          "dt": "cut · fabric",
          "cty": "Australia / United Kingdom",
-         "g": "Australia / United Kingdom"
+         "g": "Australia / United Kingdom",
+         "own": "Pentland Group",
+         "own_y": "",
+         "tier": "Global group"
         },
         {
          "n": "Speedo LZR Racer",
@@ -1348,7 +2206,10 @@
          "v": [],
          "dt": "cut · fabric panels",
          "cty": "Australia / United Kingdom",
-         "g": "Australia / United Kingdom"
+         "g": "Australia / United Kingdom",
+         "own": "Pentland Group",
+         "own_y": "",
+         "tier": "Global group"
         },
         {
          "n": "Speedo Sculpture ShapeLine",
@@ -1360,7 +2221,10 @@
          "v": [],
          "dt": "cut",
          "cty": "Australia / United Kingdom",
-         "g": "Australia / United Kingdom"
+         "g": "Australia / United Kingdom",
+         "own": "Pentland Group",
+         "own_y": "",
+         "tier": "Global group"
         },
         {
          "n": "Eres Aquarelle",
@@ -1371,6 +2235,30 @@
          "s": "https://www.eresparis.com/eu/en/madeleine-opening.html",
          "v": [],
          "dt": "cut · colour",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Eres Asia",
+         "a": "Asia",
+         "d": "",
+         "mk": "Eres",
+         "y": "",
+         "s": "https://www.eresparis.com/us/en-US/swimwear/iconic-styles/",
+         "v": [],
+         "dt": "",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Eres Icône",
+         "a": "Icône",
+         "d": "",
+         "mk": "Eres",
+         "y": "",
+         "s": "https://www.eresparis.com/us/en-US/swimwear/iconic-styles/",
+         "v": [],
+         "dt": "",
          "cty": "France",
          "g": "France"
         },
@@ -1409,7 +2297,10 @@
          ],
          "dt": "open back vs closed back · kneeskin, jammer",
          "cty": "Italy",
-         "g": "Italy"
+         "g": "Italy",
+         "own": "Descente",
+         "own_y": "1990",
+         "tier": "Independent"
         },
         {
          "n": "Hunza G crinkle swim",
@@ -1460,7 +2351,8 @@
          "cty": "United States",
          "own": "Jantzen Brands Corporation",
          "own_y": "2019",
-         "g": "United States"
+         "g": "United States",
+         "tier": "Independent"
         }
        ],
        "r": [
@@ -1504,8 +2396,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: One-piece swimsuit, Bikini, Jantzen. Covers 11 of about 53 in the register and those articles; the 53 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: One-piece swimsuit, Bikini, Jantzen. Covers 13 of about 53 in the register and those articles; the 53 counts register brands known for this garment, most of which name no single piece."
       },
       {
        "n": "Bikini",
@@ -1547,6 +2439,90 @@
          "s": "https://www.eresparis.com/eu/en/madeleine-opening.html",
          "v": [],
          "dt": "top and bottom cuts",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Eres Fripon",
+         "a": "Fripon",
+         "d": "",
+         "mk": "Eres",
+         "y": "",
+         "s": "https://www.eresparis.com/us/en-US/swimwear/iconic-styles/",
+         "v": [],
+         "dt": "",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Eres Gang",
+         "a": "Gang",
+         "d": "",
+         "mk": "Eres",
+         "y": "",
+         "s": "https://www.eresparis.com/us/en-US/swimwear/iconic-styles/",
+         "v": [],
+         "dt": "",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Eres Malou",
+         "a": "Malou",
+         "d": "",
+         "mk": "Eres",
+         "y": "",
+         "s": "https://www.eresparis.com/us/en-US/swimwear/iconic-styles/",
+         "v": [],
+         "dt": "",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Eres Mouna",
+         "a": "Mouna",
+         "d": "",
+         "mk": "Eres",
+         "y": "",
+         "s": "https://www.eresparis.com/us/en-US/swimwear/iconic-styles/",
+         "v": [],
+         "dt": "",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Eres Remember",
+         "a": "Remember",
+         "d": "",
+         "mk": "Eres",
+         "y": "",
+         "s": "https://www.eresparis.com/us/en-US/swimwear/iconic-styles/",
+         "v": [],
+         "dt": "",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Eres Show",
+         "a": "Show",
+         "d": "",
+         "mk": "Eres",
+         "y": "",
+         "s": "https://www.eresparis.com/us/en-US/swimwear/iconic-styles/",
+         "v": [],
+         "dt": "",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Eres Succès",
+         "a": "Succès",
+         "d": "",
+         "mk": "Eres",
+         "y": "",
+         "s": "https://www.eresparis.com/us/en-US/swimwear/iconic-styles/",
+         "v": [],
+         "dt": "",
          "cty": "France",
          "g": "France"
         },
@@ -1614,8 +2590,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Bikini. Covers 6 of about 55 in the register and those articles; the 55 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Bikini. Covers 13 of about 55 in the register and those articles; the 55 counts register brands known for this garment, most of which name no single piece."
       },
       {
        "n": "Swim trunks",
@@ -1633,7 +2609,10 @@
          "v": [],
          "dt": "nylon training vs polyester chlorine-resistant · side height",
          "cty": "Australia / United Kingdom",
-         "g": "Australia / United Kingdom"
+         "g": "Australia / United Kingdom",
+         "own": "Pentland Group",
+         "own_y": "",
+         "tier": "Global group"
         },
         {
          "n": "Quiksilver boardshort",
@@ -1645,7 +2624,10 @@
          "v": [],
          "dt": "length 17–21 in · print · stretch vs fixed fabric",
          "cty": "Australia / United States",
-         "g": "Australia / United States"
+         "g": "Australia / United States",
+         "own": "Authentic Brands Group",
+         "own_y": "",
+         "tier": "Global group"
         },
         {
          "n": "Moorea",
@@ -1663,6 +2645,18 @@
           }
          ],
          "dt": "turtle and seasonal prints · drawstring · mid-length",
+         "cty": "France",
+         "g": "France"
+        },
+        {
+         "n": "Vilebrequin Mahina",
+         "a": "Mahina",
+         "d": "",
+         "mk": "Vilebrequin",
+         "y": "",
+         "s": "https://www.vilebrequin.com/eu/en/men-swimwear-classic/",
+         "v": [],
+         "dt": "",
          "cty": "France",
          "g": "France"
         },
@@ -1713,7 +2707,10 @@
          ],
          "dt": "length mid/short/shortest/longest · solid, striped, photographic print",
          "cty": "United Kingdom",
-         "g": "United Kingdom"
+         "g": "United Kingdom",
+         "own": "Chanel",
+         "own_y": "2018",
+         "tier": "Global group"
         },
         {
          "n": "Birdwell Beach Britches",
@@ -1745,6 +2742,54 @@
          "dt": "Surfnyl, Tactel, sailcloth, canvas · 40+ colours · contrast piping · inseam",
          "cty": "United States",
          "g": "United States"
+        },
+        {
+         "n": "Onia swim trunks",
+         "a": "",
+         "d": "",
+         "mk": "Onia",
+         "y": "",
+         "s": "https://onia.com/collections/mens-swim",
+         "v": [
+          {
+           "n": "Charles",
+           "mk": "Onia",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Calder",
+           "mk": "Onia",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Land To Water",
+           "mk": "Onia",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Nylon Crinkle",
+           "mk": "Onia",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
+         "n": "Grigioperla",
+         "a": "",
+         "d": "First listed 2006.",
+         "mk": "La Perla",
+         "y": "2006",
+         "s": "https://en.wikipedia.org/wiki/La_Perla_(clothing)",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
         }
        ],
        "r": [
@@ -1780,8 +2825,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Swim trunks. Covers 5 of about 57 in the register and those articles; the 57 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Swim trunks. Covers 8 of about 57 in the register and those articles; the 57 counts register brands known for this garment, most of which name no single piece."
       },
       {
        "n": "Rash guard",
@@ -1849,7 +2894,10 @@
          ],
          "dt": "length · fabric",
          "cty": "Australia",
-         "g": "Australia"
+         "g": "Australia",
+         "own": "L Catterton",
+         "own_y": "2014",
+         "tier": "Independent"
         }
        ],
        "r": [],
@@ -1866,12 +2914,47 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by the page named in s. Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by the page named in s. Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece."
       }
      ]
     }
-   ]
+   ],
+   "ms": [
+    {
+     "mkt": "US intimates category (bras and panties)",
+     "who": "Victoria's Secret (with PINK)",
+     "share": "about 20 %",
+     "yr": 2023,
+     "s": "https://www.marketbeat.com/earnings/reports/2024-3-6-victorias-secret-stock",
+     "note": "company-reported by its chief executive on the fourth-quarter 2023 earnings call of 7 March 2024; 'remains at about 20%'"
+    },
+    {
+     "mkt": "US innerwear",
+     "who": "Hanesbrands (Hanes, Maidenform, Bali, Playtex)",
+     "share": "No. 1 seller of innerwear (no percentage given)",
+     "yr": 2024,
+     "s": "https://www.sec.gov/Archives/edgar/data/1359841/000135984125000008/hbi-20241228.htm",
+     "note": "fiscal 2024 10-K: leading maker of men's and children's underwear; Maidenform 'America's number one shapewear brand'; Gildan completed its acquisition on 8 December 2025 (https://printandpromomarketing.com/?p=169080)"
+    },
+    {
+     "mkt": "Australian underwear, panties, children's underwear and socks",
+     "who": "Bonds",
+     "share": "No. 1 (no percentage given)",
+     "yr": 2024,
+     "s": "https://www.sec.gov/Archives/edgar/data/1359841/000135984125000008/hbi-20241228.htm",
+     "note": "fiscal 2024 10-K, International segment"
+    },
+    {
+     "mkt": "Global hosiery",
+     "who": "Europe (region)",
+     "share": "more than 34 %",
+     "yr": 2016,
+     "s": "https://knittingindustry.com/?p=65614",
+     "note": "Research and Markets figure reported by Knitting Industry on 23 August 2016; the year of the figure is not stated"
+    }
+   ],
+   "msum": "Intimates are led by Victoria's Secret and Hanesbrands in the US; swimwear and hosiery have no company share figures on any fetched page, only fragmented-market claims from paid reports."
   },
   {
    "n": "Hats & headwear",
@@ -1956,6 +3039,18 @@
          "g": "United States"
         },
         {
+         "n": "Resistol cowboy hat",
+         "a": "",
+         "d": "",
+         "mk": "Resistol",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Resistol",
+         "v": [],
+         "dt": "felt grade · straw",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
          "n": "Calgary White Hat",
          "a": "",
          "d": "White felt cowboy hat symbol of Calgary, first worn at the 1946 Calgary Stampede.",
@@ -2024,8 +3119,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Cowboy hat, List of hat styles; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 6 of about 6 in the register and those articles; the 6 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Cowboy hat, List of hat styles; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 7 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Fedora",
@@ -2117,8 +3212,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Fedora, Herbert Johnson (hatters); Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 17 in the register and those articles; the 17 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Fedora, Herbert Johnson (hatters); Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Trilby",
@@ -2210,8 +3305,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 2 of about 2 in the register and those articles; the 2 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 2 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Homburg",
@@ -2249,8 +3344,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Homburg (hat); Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Homburg (hat); Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 1 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Bowler hat",
@@ -2352,8 +3447,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Bowler hat; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 17 in the register and those articles; the 17 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Bowler hat; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Top hat",
@@ -2439,8 +3534,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Top hat; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 5 of about 17 in the register and those articles; the 17 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Top hat; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 5 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Panama hat",
@@ -2548,15 +3643,28 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Panama hat; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 17 in the register and those articles; the 17 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Panama hat; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Boater",
        "a": "straw boater · canotier · skimmer",
        "d": "Semi-formal summer hat of stiff sennit straw with a flat crown, flat brim and ribbon band.",
        "s": "https://en.wikipedia.org/wiki/Boater_(hat)",
-       "x": [],
+       "x": [
+        {
+         "n": "Lock & Co. Hatters Classic Boater",
+         "a": "Classic Boater",
+         "d": "",
+         "mk": "Lock & Co. Hatters",
+         "y": "",
+         "s": "https://www.lockhatters.com/collections/all/products/harrison-blue-crochet-trilby",
+         "v": [],
+         "dt": "",
+         "cty": "United Kingdom",
+         "g": "United Kingdom"
+        }
+       ],
        "tt": [
         [
          "Straw",
@@ -2579,8 +3687,9 @@
          ]
         ]
        ],
-       "nl": "No entry: no brand-originated signature piece or originator is named for this garment in the register or the cited article.",
-       "sel": "Checked the brand register `sig` and `lines` fields and Wikipedia: Boater (hat); Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read); none names a piece for this kind. Complete: 0 of 0 in those sources."
+       "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the forms named by the cited Wikipedia articles and the earlier harvest. Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools.",
+       "xg": "by brand country or region, then year"
       },
       {
        "n": "Bucket hat",
@@ -2650,8 +3759,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Bucket hat; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 3 in the register and those articles; the 3 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Bucket hat; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Sun hat",
@@ -2724,6 +3833,50 @@
          "v": [],
          "dt": "pith or cork · cover colour",
          "g": "Named forms without a brand"
+        },
+        {
+         "n": "Legionnaire",
+         "a": "",
+         "d": "Hat that protects the forehead, ears and neck from the sun.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Planter's hat",
+         "a": "",
+         "d": "Lightweight straw hat with a wide brim and dented crown.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Sailor hat",
+         "a": "",
+         "d": "Flat-crowned straw hat inspired by 19th-century sailors' headgear.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Wideawake",
+         "a": "",
+         "d": "Broad-brimmed felt countryman's hat with a low crown.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
         }
        ],
        "tt": [
@@ -2751,8 +3904,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 3 in the register and those articles; the 3 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 7 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Cloche & women's millinery",
@@ -2789,6 +3942,94 @@
          ],
          "dt": "felt · straw · beads/lace (evening)",
          "g": "Named forms without a brand"
+        },
+        {
+         "n": "Cartwheel hat",
+         "a": "",
+         "d": "Wide, shallow-crowned hat worn at an angle; peaked in the 1940s and 1950s.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Fascinator",
+         "a": "",
+         "d": "Small decorative hat of feathers, flowers or beads.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Half hat",
+         "a": "",
+         "d": "Millinery covering only half the head, popular in the 1950s.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Halo hat",
+         "a": "",
+         "d": "Semi-circular design that frames the face.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Mushroom hat",
+         "a": "",
+         "d": "Hat with a downward brim resembling a mushroom.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Peach basket hat",
+         "a": "",
+         "d": "Women's hat shaped like an upturned fruit basket, early 1900s.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Picture hat",
+         "a": "",
+         "d": "Elaborate wide-brimmed women's hat, also called a Gainsborough.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Pillbox hat",
+         "a": "",
+         "d": "Small hat with upright sides and a flat crown, no brim.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
         }
        ],
        "tt": [
@@ -2807,8 +4048,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Cloche hat; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 2 of about 2 in the register and those articles; the 2 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Cloche hat; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 10 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Country & weather hat",
@@ -2856,8 +4097,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 2 of about 2 in the register and those articles; the 2 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 2 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       }
      ]
     },
@@ -2990,7 +4231,8 @@
          "cty": "United States",
          "own": "New Era Cap Company",
          "own_y": "2024",
-         "g": "United States"
+         "g": "United States",
+         "tier": "Independent"
         },
         {
          "n": "Five-panel camp cap",
@@ -3008,6 +4250,30 @@
           }
          ],
          "dt": "nylon, cotton, plaid or printed fabric · strap or buckle · front print or label",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
+         "n": "Billy Reid Florence Cap",
+         "a": "Florence Cap",
+         "d": "First listed 2012.",
+         "mk": "Billy Reid",
+         "y": "2012",
+         "s": "https://www.billyreid.com/pages/icons-collection",
+         "v": [],
+         "dt": "",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
+         "n": "Firm Duck Flat Brim Cap",
+         "a": "",
+         "d": "",
+         "mk": "Carhartt",
+         "y": "",
+         "s": "https://www.carhartt.com/category/carhartt-men-caps",
+         "v": [],
+         "dt": "",
          "cty": "United States",
          "g": "United States"
         },
@@ -3078,6 +4344,17 @@
          "dt": "wool broadcloth · fitted or leather strap · historic team or blank",
          "cty": "United States",
          "g": "United States"
+        },
+        {
+         "n": "Cricket cap",
+         "a": "",
+         "d": "Soft cap traditionally worn by cricket players.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
         }
        ],
        "tt": [
@@ -3114,8 +4391,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Baseball cap; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 9 of about 9 in the register and those articles; the 9 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Baseball cap; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 12 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Visor",
@@ -3138,8 +4415,33 @@
         ]
        ],
        "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
-       "nl": "No entry: no brand-originated signature piece or originator is named for this garment in the register or the cited article.",
-       "sel": "Checked the brand register `sig` and `lines` fields and Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read); none names a piece for this kind. Complete: 0 of 0 in those sources."
+       "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the forms named by the cited Wikipedia articles and the earlier harvest. Covers 2 of about 2 in the register and those articles; the 2 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools.",
+       "x": [
+        {
+         "n": "Green eyeshade",
+         "a": "",
+         "d": "Visored eyeshade once worn by office clerks.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Sports visor",
+         "a": "",
+         "d": "Crownless headgear similar to a baseball cap.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        }
+       ],
+       "xg": "by brand country or region, then year"
       },
       {
        "n": "Flat cap",
@@ -3167,6 +4469,17 @@
          "g": "Ireland"
         },
         {
+         "n": "Gatsby cap",
+         "a": "",
+         "d": "Eight-panel soft cap popular after 1900, also called the newsboy cap.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "New York"
+        },
+        {
          "n": "Kangol 504",
          "a": "Wool 504 · Kangol cap",
          "d": "Seamless knitted-and-blocked wool ivy cap named after its block shape; Kangol's original cap since 1954.",
@@ -3185,6 +4498,18 @@
            "mk": "Kangol",
            "y": "1990s",
            "d": "Furgora (angora-wool) peaked cap popularised by Samuel L. Jackson in 1997."
+          },
+          {
+           "n": "Tropic",
+           "mk": "Kangol",
+           "y": "",
+           "d": "fabric option on the 504"
+          },
+          {
+           "n": "Furgora",
+           "mk": "Kangol",
+           "y": "",
+           "d": "angora-wool fabric option on the 504"
           }
          ],
          "dt": "wool, Tropic, Furgora · kangaroo logo · S–XXL",
@@ -3217,6 +4542,18 @@
          "g": "United Kingdom"
         },
         {
+         "n": "Lock & Co. Whitebridge",
+         "a": "",
+         "d": "",
+         "mk": "Lock & Co. Hatters",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/James_Lock_%26_Co.",
+         "v": [],
+         "dt": "",
+         "cty": "United Kingdom",
+         "g": "United Kingdom"
+        },
+        {
          "n": "Stetson Hatteras",
          "a": "Hatteras newsboy",
          "d": "Eight-panel newsboy cap with button top, Stetson's reference baker-boy in wool, linen or coated cotton.",
@@ -3240,6 +4577,28 @@
          "dt": "wool, linen, cotton · eight panels · sizes S–XXL",
          "cty": "United States",
          "g": "United States"
+        },
+        {
+         "n": "Ascot cap",
+         "a": "",
+         "d": "Hard men's cap dating to the 1900s.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Newsboy cap",
+         "a": "",
+         "d": "Casual cap with a rounder eight-panel body and stiff peak.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
         }
        ],
        "tt": [
@@ -3268,8 +4627,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Flat cap; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 4 of about 8 in the register and those articles; the 8 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Flat cap; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 8 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Beret",
@@ -3327,6 +4686,17 @@
          "g": "France"
         },
         {
+         "n": "Caubeen",
+         "a": "",
+         "d": "Irish beret.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Ireland"
+        },
+        {
          "n": "Kangol beret",
          "a": "",
          "d": "Wool beret by Kangol, adopted by hip-hop artists such as Run-DMC and LL Cool J in the 1980s.",
@@ -3371,8 +4741,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Beret; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 2 of about 2 in the register and those articles; the 2 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Beret; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Fez & brimless cap",
@@ -3475,8 +4845,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 2 of about 2 in the register and those articles; the 2 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 2 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Skullcap",
@@ -3631,8 +5001,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 4 of about 4 in the register and those articles; the 4 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 4 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Fur hat",
@@ -3640,6 +5010,72 @@
        "d": "Warm hat of fur, sheepskin or fur imitation, worn in cold climates or as traditional and religious dress.",
        "s": "https://en.wikipedia.org/wiki/Ushanka",
        "x": [
+        {
+         "n": "Šubara",
+         "a": "",
+         "d": "Conical or cylindrical black lamb-fur headgear.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Balkans"
+        },
+        {
+         "n": "Karakul",
+         "a": "",
+         "d": "Hat made from Karakul sheep fur.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Central and South Asia"
+        },
+        {
+         "n": "Kolpik",
+         "a": "",
+         "d": "Cylindrical brown fur hat worn by some rabbis.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Hasidic Judaism"
+        },
+        {
+         "n": "Coonskin cap",
+         "a": "",
+         "d": "Raccoon-skin hat associated with 18th and 19th-century frontiersmen.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "North America"
+        },
+        {
+         "n": "Kołpak",
+         "a": "",
+         "d": "Nobleman's fur hat with a front cut forming two horns.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Polish-Lithuanian Commonwealth"
+        },
+        {
+         "n": "Telpek",
+         "a": "",
+         "d": "Traditional sheepskin and fur headgear.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Turkmenistan"
+        },
         {
          "n": "Papakha",
          "a": "",
@@ -3730,8 +5166,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 3 in the register and those articles; the 3 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 9 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Beanie",
@@ -3739,6 +5175,28 @@
        "d": "Close-fitting knitted or fleece head covering with no brim, often with a folded cuff.",
        "s": "https://en.wikipedia.org/wiki/Knit_cap",
        "x": [
+        {
+         "n": "Tuque",
+         "a": "",
+         "d": "Knitted winter hat, also called a knit or ski cap.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Canada"
+        },
+        {
+         "n": "Chilote cap",
+         "a": "",
+         "d": "Woven wool cap usually topped with a pom-pom.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Chiloé, Chile"
+        },
         {
          "n": "Acne Studios Pansy",
          "a": "Pansy face beanie",
@@ -3803,6 +5261,17 @@
          "g": "United States"
         },
         {
+         "n": "Conte of Florence Dawn hat",
+         "a": "Dawn hat",
+         "d": "",
+         "mk": "Conte of Florence",
+         "y": "",
+         "s": "https://worldcorporategolfchallenge.com/conte-of-florence-always-with-the-winners/",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        },
+        {
          "n": "Chullo",
          "a": "lluch'u · Andean earflap hat",
          "d": "Andean knitted hat with earflaps and tassels, made from alpaca, llama, vicuña or sheep wool.",
@@ -3859,8 +5328,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Knit cap; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 5 of about 8 in the register and those articles; the 8 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Knit cap; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 8 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Balaclava",
@@ -3914,6 +5383,30 @@
        ],
        "x": [
         {
+         "n": "Alta Cable Knit Headband",
+         "a": "",
+         "d": "",
+         "mk": "Heat Holders",
+         "y": "",
+         "s": "https://www.heatholders.com/collections/womens-headbands-earmuffs",
+         "v": [],
+         "dt": "",
+         "cty": "United Kingdom",
+         "g": "United Kingdom"
+        },
+        {
+         "n": "Fury Elevate Dri-FIT Headband",
+         "a": "",
+         "d": "",
+         "mk": "Nike",
+         "y": "",
+         "s": "https://www.nike.com/w/headbands-58bbaz5e1x6znik1",
+         "v": [],
+         "dt": "",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
          "n": "Nike Swoosh headband",
          "a": "",
          "d": "Sports headband carrying Nike's Swoosh.",
@@ -3924,11 +5417,23 @@
          "dt": "width · fabric",
          "cty": "United States",
          "g": "United States"
+        },
+        {
+         "n": "Swoosh Classic Headband",
+         "a": "",
+         "d": "",
+         "mk": "Nike",
+         "y": "",
+         "s": "https://www.nike.com/w/headbands-58bbaz5e1x6znik1",
+         "v": [],
+         "dt": "",
+         "cty": "United States",
+         "g": "United States"
         }
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Hairband; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Hairband; Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 4 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       }
      ]
     },
@@ -3947,6 +5452,28 @@
        ],
        "s": "https://en.wikipedia.org/wiki/Turban",
        "x": [
+        {
+         "n": "Gaung Paung",
+         "a": "",
+         "d": "Headwrap worn by several Burmese peoples.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Burma"
+        },
+        {
+         "n": "Tengkolok",
+         "a": "",
+         "d": "Songket cloth folded and tied into a set style.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Malay world"
+        },
         {
          "n": "Dastar",
          "a": "dastaar",
@@ -4001,6 +5528,17 @@
          "v": [],
          "dt": "cotton, often indigo · wrapped length",
          "g": "Named forms without a brand"
+        },
+        {
+         "n": "Draped turban",
+         "a": "",
+         "d": "Fabric draped over the head, hiding most of the hair.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
         }
        ],
        "tt": [
@@ -4031,8 +5569,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 5 of about 5 in the register and those articles; the 5 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 8 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Headscarf",
@@ -4040,6 +5578,17 @@
        "d": "Scarf or sewn covering worn over the head to cover the hair, wrapped and pinned or pulled on; a scarf worn round the neck is the scarf.",
        "s": "https://en.wikipedia.org/wiki/Types_of_hijab",
        "x": [
+        {
+         "n": "Ghutrah",
+         "a": "",
+         "d": "Scarf of the three-piece keffiyah set with a skullcap and black band.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Arab world"
+        },
         {
          "n": "Buttonscarves instant hijab",
          "a": "",
@@ -4177,8 +5726,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 6 of about 6 in the register and those articles; the 6 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 7 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       }
      ]
     },
@@ -4281,8 +5830,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 3 in the register and those articles; the 3 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Conical & woven sun hat",
@@ -4408,8 +5957,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 4 of about 4 in the register and those articles; the 4 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 4 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Academic cap",
@@ -4417,6 +5966,28 @@
        "d": "Cap worn with academic dress.",
        "s": "https://en.wikipedia.org/wiki/Square_academic_cap",
        "x": [
+        {
+         "n": "Student cap",
+         "a": "",
+         "d": "Cap worn by university students in several European countries.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Europe"
+        },
+        {
+         "n": "Tudor bonnet",
+         "a": "",
+         "d": "Soft academic cap with a stiff brim and tasselled cord.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "United Kingdom"
+        },
         {
          "n": "Mortarboard",
          "a": "square academic cap · Oxford cap",
@@ -4453,8 +6024,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Clerical hat",
@@ -4466,6 +6037,50 @@
        ],
        "s": "https://en.wikipedia.org/wiki/Biretta",
        "x": [
+        {
+         "n": "Shovel hat",
+         "a": "",
+         "d": "Wide-brimmed hat curving forward and back, linked to clergy.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Anglican clergy"
+        },
+        {
+         "n": "Mitre",
+         "a": "",
+         "d": "Hat worn by bishops.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Catholic, Orthodox and Anglican churches"
+        },
+        {
+         "n": "Cappello romano",
+         "a": "",
+         "d": "Round, wide-brimmed hat worn by traditional Catholic clergy.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Roman Catholic clergy"
+        },
+        {
+         "n": "Capirote",
+         "a": "",
+         "d": "Conical penitent's hat worn in Holy Week processions.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Spain"
+        },
         {
          "n": "Biretta",
          "a": "",
@@ -4530,8 +6145,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 5 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Court & official hat",
@@ -4577,8 +6192,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 1 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Uniform headwear",
@@ -4586,6 +6201,149 @@
        "d": "Caps and hats set by regiment, service or rank; historical pieces are also collected as militaria (E4).",
        "s": "https://en.wikipedia.org/wiki/Shako",
        "x": [
+        {
+         "n": "Busby",
+         "a": "",
+         "d": "Small fur military hat.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Military"
+        },
+        {
+         "n": "Garrison cap",
+         "a": "",
+         "d": "Foldable cloth cap with straight sides and a creased crown.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Military"
+        },
+        {
+         "n": "Patrol cap",
+         "a": "",
+         "d": "Soft field cap with a stiff visor, worn when combat helmets are not needed.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Military"
+        },
+        {
+         "n": "Peaked cap",
+         "a": "",
+         "d": "Sloping-crown cap with a band and peak, used by militaries and uniformed services.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Military"
+        },
+        {
+         "n": "Slouch hat",
+         "a": "",
+         "d": "Wide-brimmed hat with a felt crown often worn by military leaders.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Military"
+        },
+        {
+         "n": "Sailor cap (gob cap)",
+         "a": "",
+         "d": "White canvas cap with an upright brim.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Navies"
+        },
+        {
+         "n": "Sailor cap (round)",
+         "a": "",
+         "d": "Round, flat, visorless sailor's hat.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Navies"
+        },
+        {
+         "n": "Rogatywka",
+         "a": "",
+         "d": "Polish field cap worn by partisans and officers.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Poland"
+        },
+        {
+         "n": "Budenovka",
+         "a": "",
+         "d": "Woollen hat covering the ears and neck, worn by Soviet troops.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Soviet Union"
+        },
+        {
+         "n": "Custodian helmet",
+         "a": "",
+         "d": "Helmet traditionally worn by British police on foot patrol.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "United Kingdom"
+        },
+        {
+         "n": "Campaign hat",
+         "a": "",
+         "d": "Broad-brimmed felt or straw hat with a four-corner pinched crown.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "United States"
+        },
+        {
+         "n": "Hardee hat",
+         "a": "",
+         "d": "Regulation hat for Union soldiers in the Civil War.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "United States (Civil War)"
+        },
+        {
+         "n": "Utility cover",
+         "a": "",
+         "d": "Eight-pointed hat used by US Navy branches.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "United States Navy"
+        },
         {
          "n": "Shako",
          "a": "",
@@ -4698,8 +6456,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 3 of about 3 in the register and those articles; the 3 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 16 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
       },
       {
        "n": "Historical hat & bonnet",
@@ -4707,6 +6465,72 @@
        "d": "Hat or bonnet from a past era, now worn for costume, re-enactment or collected as an antique.",
        "s": "https://en.wikipedia.org/wiki/Mob_cap",
        "x": [
+        {
+         "n": "Cavalier hat",
+         "a": "",
+         "d": "Wide-brimmed hat popular in 17th-century Europe.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "17th-century Europe"
+        },
+        {
+         "n": "Tricorne",
+         "a": "",
+         "d": "Soft hat pinned up on three sides to form a triangle.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "18th-century Europe"
+        },
+        {
+         "n": "Capotain",
+         "a": "",
+         "d": "Tall-crowned, narrow-brimmed conical hat worn from the 1590s to the 1640s.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "England and north-west Europe"
+        },
+        {
+         "n": "Bicorne",
+         "a": "",
+         "d": "Folded-brim felt hat linked to Napoleon-era officers.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Europe"
+        },
+        {
+         "n": "Hennin",
+         "a": "",
+         "d": "Women's medieval hat, including conical princess styles.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Medieval Europe"
+        },
+        {
+         "n": "Bycocket",
+         "a": "",
+         "d": "Hat turned up behind and pointed in front.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Robin Hood tradition"
+        },
         {
          "n": "Mobcap",
          "a": "",
@@ -4717,6 +6541,61 @@
          "v": [],
          "dt": "linen · ruffle · tie",
          "g": "Named forms without a brand"
+        },
+        {
+         "n": "Boudoir cap",
+         "a": "",
+         "d": "Decorative cap worn with sleepwear or lingerie in the 19th and early 20th centuries.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Coal scuttle bonnet",
+         "a": "",
+         "d": "Woman's bonnet with a stiffened brim and flat back.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Poke bonnet",
+         "a": "",
+         "d": "Woman's bonnet with a small crown and wide rounded brim.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Smoking cap",
+         "a": "",
+         "d": "Soft embroidered cap worn by men while smoking.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Widow's cap",
+         "a": "",
+         "d": "Cap worn by women after their husbands' deaths.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
         }
        ],
        "tt": [
@@ -4746,8 +6625,700 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: List of hat styles (first 100,000 of about 194,500 characters read). Covers 12 of about 194 in the register and those articles; the 194 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools."
+      },
+      {
+       "n": "Regional brimmed hat",
+       "a": "national brimmed hat",
+       "d": "Brimmed hat tied to a region or country, such as the sombrero, the chupalla or the Chinese damao.",
+       "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+       "tt": [
+        [
+         "Material",
+         [
+          "Straw",
+          "Felt",
+          "Bamboo",
+          "Cloth"
+         ]
+        ],
+        [
+         "Region",
+         [
+          "Americas",
+          "Europe",
+          "East Asia",
+          "South Asia",
+          "Middle East"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Jaapi",
+         "a": "",
+         "d": "Traditional Assamese hat, plain or decorated.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Assam, India"
+        },
+        {
+         "n": "Mathal",
+         "a": "",
+         "d": "Bamboo farmer's hat with a conical top.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Bangladesh"
+        },
+        {
+         "n": "Breton",
+         "a": "",
+         "d": "Women's hat with a round crown and a deep, upturned brim.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Brittany, France"
+        },
+        {
+         "n": "Chupalla",
+         "a": "",
+         "d": "Straw hat made in Chile.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Chile"
+        },
+        {
+         "n": "Damao",
+         "a": "",
+         "d": "Traditional Chinese men's hat in many styles.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "China"
+        },
+        {
+         "n": "Gaitou hat",
+         "a": "",
+         "d": "Traditional Chinese women's hat worn when riding or trading cloth.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "China"
+        },
+        {
+         "n": "Humao",
+         "a": "",
+         "d": "Brimmed hat worn by Chinese men and women when riding.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "China"
+        },
+        {
+         "n": "Liangmao",
+         "a": "",
+         "d": "Traditional Chinese women's hat.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "China"
+        },
+        {
+         "n": "Weimao",
+         "a": "",
+         "d": "Wide-brimmed Chinese hat with a shoulder-length veil.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "China"
+        },
+        {
+         "n": "Sombrero cordobés",
+         "a": "",
+         "d": "Flat-brimmed, flat-topped hat linked to flamenco.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Córdoba, Spain"
+        },
+        {
+         "n": "Kova tembel",
+         "a": "",
+         "d": "Cloth hat worn by Israeli pioneers and kibbutzniks.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Israel"
+        },
+        {
+         "n": "Sombrero",
+         "a": "",
+         "d": "Embroidered felt hat with a conical crown and very wide brim.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Mexico"
+        },
+        {
+         "n": "Buntal hat",
+         "a": "",
+         "d": "Finely woven buri palm straw hat, often mistaken for the Panama hat.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Philippines"
+        }
+       ],
+       "nl": "One entry is a named hat or cap form listed in Wikipedia's List of hat styles, grouped by region as the list gives it; a brand's version of it is a version.",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the forms named by the cited Wikipedia articles and the earlier harvest. Covers 13 of about 13 in the register and those articles; the 13 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools.",
+       "xg": "by brand country or region, then year"
+      },
+      {
+       "n": "Regional cap",
+       "a": "national cap",
+       "d": "Close-fitting or brimless cap tied to a region, people or court, such as the Glengarry, the songkok or the Chinese guapi mao.",
+       "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+       "tt": [
+        [
+         "Material",
+         [
+          "Wool",
+          "Felt",
+          "Fur",
+          "Cloth"
+         ]
+        ],
+        [
+         "Region",
+         [
+          "Europe",
+          "Middle East",
+          "South Asia",
+          "Southeast Asia",
+          "East Asia",
+          "Africa"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Kupiah",
+         "a": "",
+         "d": "Traditional cap from Aceh.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Aceh, Indonesia"
+        },
+        {
+         "n": "Upe",
+         "a": "",
+         "d": "Headdress of tightly wound straw.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Bougainville"
+        },
+        {
+         "n": "Barretina",
+         "a": "",
+         "d": "Floppy pull-on hat; the red version symbolises Catalan identity.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Catalonia"
+        },
+        {
+         "n": "Baishamao",
+         "a": "",
+         "d": "Men's hat popular among royalty and aristocracy.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "China"
+        },
+        {
+         "n": "Guapi mao",
+         "a": "",
+         "d": "Traditional Chinese men's skullcap.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "China"
+        },
+        {
+         "n": "Liuheyitong mao",
+         "a": "",
+         "d": "Traditional Chinese men's hat from which the guapi mao evolved.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "China"
+        },
+        {
+         "n": "Wushamao",
+         "a": "",
+         "d": "Traditional official's hat, spread to vassal states.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "China"
+        },
+        {
+         "n": "Yishan guan",
+         "a": "",
+         "d": "Traditional men's hat worn by emperors and princes.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "China"
+        },
+        {
+         "n": "Zhanjiao futou",
+         "a": "",
+         "d": "Official's hat also worn by the emperor.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "China"
+        },
+        {
+         "n": "Lika cap",
+         "a": "",
+         "d": "Wool cap with a red top, black rim and tassels.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Croatia"
+        },
+        {
+         "n": "Kofia",
+         "a": "",
+         "d": "Brimless cylindrical cap with a flat crown.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "East Africa"
+        },
+        {
+         "n": "Icelandic tail-cap",
+         "a": "",
+         "d": "Part of Iceland's national costume.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Iceland"
+        },
+        {
+         "n": "Gandhi cap",
+         "a": "",
+         "d": "White cotton cap named after Mahatma Gandhi.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "India"
+        },
+        {
+         "n": "Kolah namadi",
+         "a": "",
+         "d": "Felt hat worn by men in rural Iran.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Iran"
+        },
+        {
+         "n": "Blangkon",
+         "a": "",
+         "d": "Traditional Javanese men's hat.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Java, Indonesia"
+        },
+        {
+         "n": "Ayam",
+         "a": "",
+         "d": "Traditional winter cap worn mainly by Joseon-era women.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Korea"
+        },
+        {
+         "n": "Jeongjagwan",
+         "a": "",
+         "d": "Horsehair hat popular among Joseon-era yangban.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Korea"
+        },
+        {
+         "n": "Labbadeh",
+         "a": "",
+         "d": "Conical felt cap worn by rural Lebanese men.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Lebanon"
+        },
+        {
+         "n": "Montenegrin cap",
+         "a": "",
+         "d": "Wool cap with a red top and black rim.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Montenegro"
+        },
+        {
+         "n": "Bhadgaunle topi",
+         "a": "",
+         "d": "Typical Nepali cap.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Nepal"
+        },
+        {
+         "n": "Dhaka topi",
+         "a": "",
+         "d": "Nepali cap of dhaka fabric with hand-spun cotton weaving.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Nepal"
+        },
+        {
+         "n": "Börk",
+         "a": "",
+         "d": "Tall cap worn by janissaries as a sign of devotion.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Ottoman Empire"
+        },
+        {
+         "n": "Pakul",
+         "a": "",
+         "d": "Round rolled wool hat with a flat top.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Pakistan and Afghanistan"
+        },
+        {
+         "n": "Kłobuk",
+         "a": "",
+         "d": "Tall felt highlander's hat.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Poland"
+        },
+        {
+         "n": "Balmoral bonnet",
+         "a": "",
+         "d": "Traditional Scottish bonnet worn with Highland dress.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Scotland"
+        },
+        {
+         "n": "Glengarry",
+         "a": "",
+         "d": "Boat-shaped Scottish hat with a toorie and ribbons.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Scotland"
+        },
+        {
+         "n": "Tam o' Shanter",
+         "a": "",
+         "d": "Scottish wool hat originally worn by men.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Scotland"
+        },
+        {
+         "n": "Šajkača",
+         "a": "",
+         "d": "Serbian national and traditional hat.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Serbia"
+        },
+        {
+         "n": "Songkok",
+         "a": "",
+         "d": "Cap worn mostly by Muslim men in Malay-speaking regions.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Southeast Asia"
+        },
+        {
+         "n": "Montera",
+         "a": "",
+         "d": "Crocheted hat worn by bullfighters.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Spain"
+        },
+        {
+         "n": "Sami hat",
+         "a": "",
+         "d": "Traditional men's hat, also called the Four Winds hat.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Sámi people"
+        },
+        {
+         "n": "Birke topi",
+         "a": "",
+         "d": "Short flat cylindrical hat, now mostly worn at festivals.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Western Nepal"
+        },
+        {
+         "n": "Phrygian cap",
+         "a": "",
+         "d": "Soft conical cap symbolising freedom and liberty.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        }
+       ],
+       "nl": "One entry is a named hat or cap form listed in Wikipedia's List of hat styles, grouped by region as the list gives it; a brand's version of it is a version.",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the forms named by the cited Wikipedia articles and the earlier harvest. Covers 33 of about 33 in the register and those articles; the 33 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools.",
+       "xg": "by brand country or region, then year"
+      },
+      {
+       "n": "Novelty & costume hat",
+       "a": "party hat · costume hat",
+       "d": "Hat worn for celebration, costume, school punishment or a trade, such as the party hat, the dunce cap or the chef's toque.",
+       "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+       "tt": [
+        [
+         "Use",
+         [
+          "Celebration",
+          "Costume",
+          "Trade",
+          "Punishment"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Santa hat",
+         "a": "",
+         "d": "Floppy pointed red hat trimmed with white fur.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Christmas"
+        },
+        {
+         "n": "Wizard or witch hat",
+         "a": "",
+         "d": "Tall pointed hat with a wide brim and crooked top.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Fiction"
+        },
+        {
+         "n": "Makapili hat",
+         "a": "",
+         "d": "Bamboo basket hood worn by Japanese collaborators in the Second World War.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Philippines"
+        },
+        {
+         "n": "Dunce cap",
+         "a": "",
+         "d": "Tall conical hat used to punish school pupils.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Party hat",
+         "a": "",
+         "d": "Conical celebration hat, often with patterns or messages.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Printer's hat",
+         "a": "",
+         "d": "Folded paper box-shaped hat worn by tradesmen.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Toque",
+         "a": "",
+         "d": "Tall, pleated, brimless chef's hat.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Umbrella hat",
+         "a": "",
+         "d": "Hat made from an umbrella strapped to the head.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        },
+        {
+         "n": "Whoopee cap",
+         "a": "",
+         "d": "Skullcap made from a felt fedora with a scalloped brim.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/List_of_hat_styles",
+         "v": [],
+         "dt": "",
+         "g": "Type only, no region stated"
+        }
+       ],
+       "nl": "One entry is a named hat or cap form listed in Wikipedia's List of hat styles, grouped by region as the list gives it; a brand's version of it is a version.",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the forms named by the cited Wikipedia articles and the earlier harvest. Covers 9 of about 9 in the register and those articles; the 9 counts register brands known for this garment, most of which name no single piece. Wikipedia's List of hat styles was read in full (about 166 entries in the Brimmed, Caps, Brimless and Other sections); every style is a kind or an entry here except Hard hat, a helmet that goes to Sports and Tools.",
+       "xg": "by brand country or region, then year"
       }
      ]
     }
@@ -4790,6 +7361,39 @@
          "role": "origin",
          "cty": "France",
          "g": "France"
+        },
+        {
+         "n": "Khata",
+         "a": "",
+         "d": "Ceremonial scarf of Himalayan Buddhism.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Scarf",
+         "v": [],
+         "dt": "",
+         "g": "Himalayan Buddhist tradition"
+        },
+        {
+         "n": "Dupatta",
+         "a": "",
+         "d": "Long scarf worn by women in South Asia, named in the scarf article.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Scarf",
+         "v": [],
+         "dt": "",
+         "g": "India"
+        },
+        {
+         "n": "Slendang",
+         "a": "",
+         "d": "Scarf of Indonesia and Malaysia named in the scarf article.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Scarf",
+         "v": [],
+         "dt": "",
+         "g": "Indonesia and Malaysia"
         },
         {
          "n": "Acne Studios Canada scarf",
@@ -4866,6 +7470,17 @@
          "g": "United Kingdom"
         },
         {
+         "n": "Academic scarf",
+         "a": "",
+         "d": "Striped scarf in university or college colours.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Scarf",
+         "v": [],
+         "dt": "",
+         "g": "United Kingdom and Ireland"
+        },
+        {
          "n": "Alexander McQueen skull scarf",
          "a": "skull scarf",
          "d": "Silk scarf printed with Alexander McQueen's skull motif.",
@@ -4874,6 +7489,17 @@
          "s": "https://en.wikipedia.org/wiki/Scarf",
          "v": [],
          "dt": "silk · skull print · colourways",
+         "g": "Country not stated"
+        },
+        {
+         "n": "Mischa Simonyan Aragil scarf",
+         "a": "Aragil scarf",
+         "d": "",
+         "mk": "Mischa Simonyan",
+         "y": "",
+         "s": "https://mirrorspectator.com/2024/10/10/emerging-fashion-designers-from-armenia-gain-recognition-make-it-work",
+         "v": [],
+         "dt": "",
          "g": "Country not stated"
         }
        ],
@@ -4914,8 +7540,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Scarf. Covers 6 of about 6 in the register and those articles; the 6 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Scarf. Covers 11 of about 11 in the register and those articles; the 11 counts register brands known for this garment, most of which name no single piece. Regional forms are those named by the garment's Wikipedia article."
       },
       {
        "n": "Bandana",
@@ -4949,6 +7575,28 @@
        "s": "https://en.wikipedia.org/wiki/Scarf",
        "x": [
         {
+         "n": "Oramal",
+         "a": "",
+         "d": "Square headcloth of Uzbekistan, Kazakhstan and Kyrgyzstan.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Bandana",
+         "v": [],
+         "dt": "",
+         "g": "Central Asia and the Caucasus"
+        },
+        {
+         "n": "Bandhani",
+         "a": "",
+         "d": "Tie-dyed bandana from India.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Bandana",
+         "v": [],
+         "dt": "",
+         "g": "India"
+        },
+        {
          "n": "Paisley bandana",
          "a": "bandana · kerchief · cowboy handkerchief",
          "d": "Square cotton kerchief, frequently printed in paisley, tied round the head, face or neck.",
@@ -4961,8 +7609,8 @@
         }
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Bandana. Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Bandana. Covers 3 of about 3 in the register and those articles; the 3 counts register brands known for this garment, most of which name no single piece. Regional forms are those named by the garment's Wikipedia article."
       },
       {
        "n": "Neck gaiter",
@@ -5027,8 +7675,8 @@
         }
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by the page named in s. Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by the page named in s. Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece."
       },
       {
        "n": "Shawl",
@@ -5036,6 +7684,72 @@
        "d": "Rectangular, square or triangular cloth worn loosely over the shoulders, upper body or head.",
        "s": "https://en.wikipedia.org/wiki/Shawl",
        "x": [
+        {
+         "n": "Haapsalu shawl",
+         "a": "",
+         "d": "Lace shawl named in the shawl article.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Shawl",
+         "v": [],
+         "dt": "",
+         "g": "Estonia"
+        },
+        {
+         "n": "Faroese lace shawl",
+         "a": "",
+         "d": "Lace shawl of the Faroe Islands.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Shawl",
+         "v": [],
+         "dt": "",
+         "g": "Faroe Islands"
+        },
+        {
+         "n": "Kullu shawl",
+         "a": "",
+         "d": "Shawl named in the shawl article.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Shawl",
+         "v": [],
+         "dt": "",
+         "g": "Himachal Pradesh, India"
+        },
+        {
+         "n": "Galway shawl",
+         "a": "",
+         "d": "Shawl named in the shawl article.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Shawl",
+         "v": [],
+         "dt": "",
+         "g": "Ireland"
+        },
+        {
+         "n": "Spanish shawl",
+         "a": "",
+         "d": "Embroidered shawl revived in the 1920s.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Shawl",
+         "v": [],
+         "dt": "",
+         "g": "Spain"
+        },
+        {
+         "n": "Shahtoosh",
+         "a": "",
+         "d": "Shawl from the under-fleece of the Tibetan antelope; now banned.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Shawl",
+         "v": [],
+         "dt": "",
+         "g": "Tibet"
+        },
         {
          "n": "China crêpe shawl",
          "a": "",
@@ -5175,6 +7889,17 @@
          "v": [],
          "dt": "about 70 × 200 cm stole · pure pashm or 70/30 cashmere-silk · 12–16 microns · plain or embroidered",
          "g": "Named forms without a brand"
+        },
+        {
+         "n": "Shalli",
+         "a": "",
+         "d": "Handwoven twill of angora goat hair.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Shawl",
+         "v": [],
+         "dt": "",
+         "g": "Region not stated"
         }
        ],
        "tt": [
@@ -5196,8 +7921,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Shawl. Covers 8 of about 8 in the register and those articles; the 8 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Shawl. Covers 15 of about 15 in the register and those articles; the 15 counts register brands known for this garment, most of which name no single piece. Regional forms are those named by the garment's Wikipedia article."
       }
      ]
     },
@@ -5212,6 +7937,28 @@
        "d": "Covering for the hand with a separate sheath for each finger.",
        "s": "https://www.hestragloves.eu/collections/ski-gloves?page=4",
        "x": [
+        {
+         "n": "Berlin gloves",
+         "a": "",
+         "d": "Glove type named in the glove article.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Glove",
+         "v": [],
+         "dt": "",
+         "g": "19th-century Europe"
+        },
+        {
+         "n": "Pontifical gloves",
+         "a": "",
+         "d": "Episcopal gloves of the 10th and 11th centuries.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Glove",
+         "v": [],
+         "dt": "",
+         "g": "Frankish kingdom and Rome"
+        },
         {
          "n": "Roeckl leather glove",
          "a": "Roeckl glove",
@@ -5242,6 +7989,52 @@
          "dt": "kidskin, suede, deerskin, peccary · cashmere, silk or unlined · many colours",
          "cty": "Italy",
          "g": "Italy"
+        },
+        {
+         "n": "Limerick gloves",
+         "a": "",
+         "d": "Fine gloves made in Limerick in the 17th century.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Glove",
+         "v": [],
+         "dt": "",
+         "g": "Limerick, Ireland"
+        },
+        {
+         "n": "Gauntlet",
+         "a": "",
+         "d": "Armoured or long-cuffed glove of the Middle Ages.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Glove",
+         "v": [],
+         "dt": "",
+         "g": "Medieval Europe"
+        },
+        {
+         "n": "Army Leather Patrol 5-finger",
+         "a": "",
+         "d": "",
+         "mk": "Hestra",
+         "y": "",
+         "s": "https://www.hestragloves.eu/collections/ski-gloves?page=4",
+         "v": [],
+         "dt": "",
+         "cty": "Sweden",
+         "g": "Sweden"
+        },
+        {
+         "n": "Fall Line 3-finger",
+         "a": "",
+         "d": "",
+         "mk": "Hestra",
+         "y": "",
+         "s": "https://www.hestragloves.eu/collections/ski-gloves?page=4",
+         "v": [],
+         "dt": "",
+         "cty": "Sweden",
+         "g": "Sweden"
         },
         {
          "n": "Hestra Army Leather Heli Ski 3-finger",
@@ -5304,6 +8097,51 @@
          "dt": "synthetic leather palm · stretch back · hook-and-loop cuff · colours and camouflage",
          "cty": "United States",
          "g": "United States"
+        },
+        {
+         "n": "Mechanix Wear FastFit",
+         "a": "FastFit",
+         "d": "",
+         "mk": "Mechanix Wear",
+         "y": "",
+         "s": "https://www.mechanix.com/us-en/all-work-gloves/MFF-05.html",
+         "v": [],
+         "dt": "",
+         "cty": "United States",
+         "g": "United States"
+        },
+        {
+         "n": "Driving gloves",
+         "a": "",
+         "d": "Glove for driving, named in the glove article.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Glove",
+         "v": [],
+         "dt": "",
+         "g": "Region not stated"
+        },
+        {
+         "n": "Evening gloves",
+         "a": "",
+         "d": "Long formal glove.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Glove",
+         "v": [],
+         "dt": "",
+         "g": "Region not stated"
+        },
+        {
+         "n": "Fingerless gloves",
+         "a": "",
+         "d": "Glove with the fingertips left bare, also called glovelettes.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Glove",
+         "v": [],
+         "dt": "",
+         "g": "Region not stated"
         }
        ],
        "tt": [
@@ -5342,8 +8180,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Glove. Covers 5 of about 5 in the register and those articles; the 5 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Glove. Covers 15 of about 15 in the register and those articles; the 15 counts register brands known for this garment, most of which name no single piece. Regional forms are those named by the garment's Wikipedia article."
       },
       {
        "n": "Mitten",
@@ -5351,6 +8189,51 @@
        "d": "Covering for the hand with one sheath for the thumb and one for the fingers.",
        "s": "https://www.hestragloves.eu/collections/ski-gloves?page=4",
        "x": [
+        {
+         "n": "Naskapi leather mittens",
+         "a": "",
+         "d": "Leather mittens of the Naskapi, early 20th century.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Mitten",
+         "v": [],
+         "dt": "",
+         "g": "Canada"
+        },
+        {
+         "n": "Greenland Inuit mitts",
+         "a": "",
+         "d": "Mitts of the East Greenland Inuit.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Mitten",
+         "v": [],
+         "dt": "",
+         "g": "East Greenland"
+        },
+        {
+         "n": "Latvian mittens",
+         "a": "",
+         "d": "Patterned mittens, with finds dated to around 1000 AD.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Mitten",
+         "v": [],
+         "dt": "",
+         "g": "Latvia"
+        },
+        {
+         "n": "Army Leather Extreme mitt",
+         "a": "",
+         "d": "",
+         "mk": "Hestra",
+         "y": "",
+         "s": "https://www.hestragloves.eu/collections/ski-gloves?page=4",
+         "v": [],
+         "dt": "",
+         "cty": "Sweden",
+         "g": "Sweden"
+        },
         {
          "n": "Hestra Army Leather Heli Ski mitt",
          "a": "Heli mitt",
@@ -5362,6 +8245,29 @@
          "dt": "goat-leather palm · 3-layer polyamide back · removable fleece liner · gauntlet cuff",
          "cty": "Sweden",
          "g": "Sweden"
+        },
+        {
+         "n": "Hestra reMix Mitt",
+         "a": "reMix Mitt",
+         "d": "",
+         "mk": "Hestra",
+         "y": "",
+         "s": "https://www.hestragloves.eu/collections/ski-gloves?page=4",
+         "v": [],
+         "dt": "",
+         "cty": "Sweden",
+         "g": "Sweden"
+        },
+        {
+         "n": "Saami mittens",
+         "a": "",
+         "d": "Mittens of the Saami.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Mitten",
+         "v": [],
+         "dt": "",
+         "g": "Sápmi"
         },
         {
          "n": "Selbu mitten",
@@ -5405,8 +8311,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Mitten. Covers 3 of about 6 in the register and those articles; the 6 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Mitten. Covers 9 of about 9 in the register and those articles; the 9 counts register brands known for this garment, most of which name no single piece. Regional forms are those named by the garment's Wikipedia article."
       },
       {
        "n": "Arm warmer & sleeve",
@@ -5431,8 +8337,22 @@
          ]
         ]
        ],
-       "nl": "No entry: no brand-originated signature piece or originator is named for this garment in the register or the cited article.",
-       "sel": "Checked the brand register `sig` and `lines` fields and Wikipedia: Arm warmer; none names a piece for this kind. Complete: 0 of 0 in those sources."
+       "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the forms named by the cited Wikipedia articles and the earlier harvest. Covers 1 of about 1 in the register and those articles; the 1 counts register brands known for this garment, most of which name no single piece.",
+       "x": [
+        {
+         "n": "Bamboo Sun Sleeves",
+         "a": "",
+         "d": "",
+         "mk": "UV Skinz",
+         "y": "",
+         "s": "https://www.uvskinz.com/collections/sun-sleeves-gloves",
+         "v": [],
+         "dt": "",
+         "g": "Country not stated"
+        }
+       ],
+       "xg": "by brand country or region, then year"
       }
      ]
     },
@@ -5525,7 +8445,10 @@
          ],
          "dt": "width · antique brass, gold or palladium buckle · calfskin, patent, GG canvas · Web stripe · Kingsnake",
          "cty": "Italy",
-         "g": "Italy"
+         "g": "Italy",
+         "own": "Kering",
+         "own_y": "",
+         "tier": "Global group"
         },
         {
          "n": "Anderson's woven elastic belt",
@@ -5547,6 +8470,50 @@
          "g": "Italy"
         },
         {
+         "n": "Haramaki",
+         "a": "",
+         "d": "Japanese waist wrap.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Belt_(clothing)",
+         "v": [],
+         "dt": "",
+         "g": "Japan"
+        },
+        {
+         "n": "Obi",
+         "a": "",
+         "d": "Sash worn with the kimono.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Belt_(clothing)",
+         "v": [],
+         "dt": "",
+         "g": "Japan"
+        },
+        {
+         "n": "Stable belt",
+         "a": "",
+         "d": "Striped elasticated belt.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Belt_(clothing)",
+         "v": [],
+         "dt": "",
+         "g": "United Kingdom"
+        },
+        {
+         "n": "Sansabelt",
+         "a": "",
+         "d": "Belt-free waistband trouser system named in the belt article.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Belt_(clothing)",
+         "v": [],
+         "dt": "",
+         "g": "United States"
+        },
+        {
          "n": "Western ranger belt",
          "a": "ranger belt · tooled western belt · billet belt",
          "d": "Wide leather belt with narrow billet straps and buckle set, often hand-tooled, descended from Texas Ranger gun belts.",
@@ -5563,6 +8530,50 @@
          ],
          "dt": "width · tooling pattern (floral, basketweave) · buckle set metal · billet style",
          "g": "Named forms without a brand"
+        },
+        {
+         "n": "Bullet belt",
+         "a": "",
+         "d": "Belt styled on an ammunition belt.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Belt_(clothing)",
+         "v": [],
+         "dt": "",
+         "g": "Region not stated"
+        },
+        {
+         "n": "Cummerbund",
+         "a": "",
+         "d": "Pleated waist sash worn with evening dress.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Belt_(clothing)",
+         "v": [],
+         "dt": "",
+         "g": "Region not stated"
+        },
+        {
+         "n": "Sam Browne belt",
+         "a": "",
+         "d": "Belt with a diagonal shoulder strap.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Belt_(clothing)",
+         "v": [],
+         "dt": "",
+         "g": "Region not stated"
+        },
+        {
+         "n": "Studded belt",
+         "a": "",
+         "d": "Belt set with metal studs.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Belt_(clothing)",
+         "v": [],
+         "dt": "",
+         "g": "Region not stated"
         }
        ],
        "tt": [
@@ -5596,8 +8607,8 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Belt (clothing). Covers 5 of about 5 in the register and those articles; the 5 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Belt (clothing). Covers 13 of about 13 in the register and those articles; the 13 counts register brands known for this garment, most of which name no single piece. Regional forms are those named by the garment's Wikipedia article."
       },
       {
        "n": "Belt buckle",
@@ -5694,8 +8705,74 @@
         ]
        ],
        "nl": "One entry is a signature garment sold under its own name by its originating brand, or a named form attested by a cited Wikipedia article; fits, fabrics and generations are versions.",
-       "xg": "by brand country, then year; forms without a brand last",
-       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Belt buckle. Covers 2 of about 3 in the register and those articles; the 3 counts register brands known for this garment, most of which name no single piece, and some register lines could not be placed on a page (see report)."
+       "xg": "by brand country or region, then year; forms without a brand last",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the originators named by Wikipedia: Belt buckle. Covers 2 of about 3 in the register and those articles; the 3 counts register brands known for this garment, most of which name no single piece."
+      },
+      {
+       "n": "Braces",
+       "a": "suspenders",
+       "d": "Pair of straps worn over the shoulders to hold trousers up.",
+       "s": "https://hespokestyle.com/albert-thurston-suspenders-history/",
+       "tt": [
+        [
+         "Fastening",
+         [
+          "Clip",
+          "Button"
+         ]
+        ],
+        [
+         "Material",
+         [
+          "Elastic webbing",
+          "Boxcloth",
+          "Barathea",
+          "Leather"
+         ]
+        ]
+       ],
+       "x": [
+        {
+         "n": "Albert Thurston braces",
+         "a": "",
+         "d": "",
+         "mk": "Albert Thurston",
+         "y": "",
+         "s": "https://hespokestyle.com/albert-thurston-suspenders-history/",
+         "v": [
+          {
+           "n": "Boxcloth braces",
+           "mk": "Albert Thurston",
+           "y": "",
+           "d": ""
+          },
+          {
+           "n": "Barathea braces",
+           "mk": "Albert Thurston",
+           "y": "",
+           "d": ""
+          }
+         ],
+         "dt": "button or clip",
+         "cty": "United Kingdom",
+         "g": "United Kingdom"
+        },
+        {
+         "n": "Trafalgar braces",
+         "a": "",
+         "d": "",
+         "mk": "Trafalgar",
+         "y": "",
+         "s": "https://www.trafalgarstore.com/collections/braces-suspenders",
+         "v": [],
+         "dt": "elastic · width",
+         "cty": "United States",
+         "g": "United States"
+        }
+       ],
+       "nl": "One entry is a braces model sold under its own name by its brand; widths and fastenings are versions.",
+       "sel": "Signature pieces in the `sig` and `lines` fields of the brand register (rebuild/out/A1_brands.json, 2,531 brands) that match this garment, and the forms named by the cited Wikipedia articles and the earlier harvest. Covers 2 of about 2 in the register and those articles; the 2 counts register brands known for this garment, most of which name no single piece.",
+       "xg": "by brand country or region, then year"
       }
      ]
     }
@@ -5703,7 +8780,93 @@
   }
  ],
  "brands": [],
- "brand_updates": {},
+ "brand_updates": {
+  "Spanx": {
+   "own": "Blackstone Inc.",
+   "tier": "Independent",
+   "c": "United States"
+  },
+  "Jantzen": {
+   "own": "Jantzen Brands Corporation",
+   "tier": "Independent",
+   "c": "United States"
+  },
+  "'47": {
+   "own": "New Era Cap Company",
+   "tier": "Independent",
+   "c": "United States"
+  },
+  "Wonderbra": {
+   "own": "Gildan Activewear",
+   "tier": "Global group",
+   "c": "Canada"
+  },
+  "Bonds": {
+   "own": "Gildan Activewear",
+   "tier": "Global group",
+   "c": "Australia"
+  },
+  "Arena": {
+   "own": "Descente",
+   "tier": "Independent",
+   "c": "Italy"
+  },
+  "Icebreaker": {
+   "own": "VF Corporation",
+   "tier": "Global group",
+   "c": "New Zealand"
+  },
+  "Smartwool": {
+   "own": "VF Corporation",
+   "tier": "Global group",
+   "c": "United States"
+  },
+  "Gucci": {
+   "own": "Kering",
+   "tier": "Global group",
+   "c": "Italy"
+  },
+  "Orlebar Brown": {
+   "own": "Chanel",
+   "tier": "Global group",
+   "c": "United Kingdom"
+  },
+  "Quiksilver": {
+   "own": "Authentic Brands Group",
+   "tier": "Global group",
+   "c": "Australia / United States"
+  },
+  "Seafolly": {
+   "own": "L Catterton",
+   "tier": "Independent",
+   "c": "Australia"
+  },
+  "Speedo": {
+   "own": "Pentland Group",
+   "tier": "Global group",
+   "c": "Australia / United Kingdom"
+  },
+  "Uniqlo": {
+   "own": "Fast Retailing",
+   "tier": "Global group",
+   "c": "Japan"
+  },
+  "Nelson Knitting Company": {
+   "own": "Fox River Mills",
+   "tier": "Independent",
+   "c": "United States"
+  },
+  "Hanes": {
+   "own": "Gildan Activewear",
+   "tier": "Global group",
+   "c": "United States"
+  },
+  "Maidenform": {
+   "own": "Gildan Activewear",
+   "tier": "Global group",
+   "c": "United States"
+  }
+ },
  "renames": {},
  "moves": []
 }

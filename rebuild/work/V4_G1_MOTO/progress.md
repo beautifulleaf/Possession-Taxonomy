@@ -15,3 +15,4 @@ wp_guzzi/norton/bsa done. fetches ~28. BMW list needs a different URL. next: Ben
 vincent/velocette/laverda/benelli/bimota done. fetches ~33
 AMC/ariel/greeves/james/peugeot/douglas done. fetches ~39. next: BMW (find URL), Ducati, KTM, Hero, Bajaj, TVS, Piaggio, Vespa, Lambretta, Aprilia, Indian, + market
 wd6.txt = wikidata series+motorcycle classes (extra ~225 rows). Concerns: out-of-scope items (concept/streamliner) will be dropped. fetches ~49. next: Bajaj, Hero, TVS, KTM cat, Vespa, Lambretta, Indian
+wp_india.txt (Bajaj/KTM/Hero/TVS from Wikipedia company pages & KTM cat). fetches ~53. Next: Vespa page + market share pages
