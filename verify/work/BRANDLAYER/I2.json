@@ -2,8 +2,314 @@
  "cat": "I2",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Fonts & typefaces (all sections)",
+   "queries": [
+    "type foundries list Wikipedia",
+    "independent type foundries list",
+    "TDC typeface design winners",
+    "Granshan winners"
+   ],
+   "found": 729,
+   "note": "directories + TDC 2010-2018, 2022, 2025-26 award pages; Granshan winner pages JS-rendered (not fetched)"
+  },
+  {
+   "axis": "kind",
+   "item": "Creative assets (stock/templates)",
+   "queries": [
+    "Wikipedia stock photography agencies"
+   ],
+   "found": 7,
+   "note": "sellers only; presets, patterns, 3D, sample packs, AI models NOT yet searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Personal media files (music)",
+   "queries": [
+    "Wikipedia comparison of digital music stores DRM-free"
+   ],
+   "found": 8,
+   "note": "GOG, itch.io, ebook stores not yet fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Domains & tokens (NFT marketplaces)",
+   "queries": [
+    "NFT marketplaces list Moralis"
+   ],
+   "found": 2,
+   "note": "partial"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Japanese type foundries",
+    "Korean font foundries Sandoll Yoondesign",
+    "Chinese font foundries Founder"
+   ],
+   "found": 8,
+   "note": "Japan: no fetched page naming foundries beyond Morisawa/Adobe; FontShop page redirected"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Arabic type foundries list"
+   ],
+   "found": 1,
+   "note": "search located Devroye pages (iraq/uae/kuwait/qatar) and Boutros, 29LT; not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Indian type foundries Devanagari"
+   ],
+   "found": 1,
+   "note": "ITF known; Ek Type via TDC71"
+  },
+  {
+   "axis": "region",
+   "item": "Western/Northern/Southern/Central-Eastern Europe, North America, Latin America",
+   "queries": [
+    "Atlas of Type foundries by region"
+   ],
+   "found": 546,
+   "note": "covered by Atlas directory country grouping"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa, Sub-Saharan Africa, Central Asia, Southeast Asia, Oceania",
+   "queries": [],
+   "found": 0,
+   "note": "NOT searched; Atlas lists singletons (Egypt, Ghana, Morocco, Nigeria, Indonesia 4, Vietnam 3, Philippines 2, Australia 7, New Zealand 2, Kazakhstan 1) already in brands"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Netherlands (The Hague / Amsterdam)",
+   "speciality": "text and multiscript type design; KABK TypeMedia (36 foundries in Atlas of Type)",
+   "src": "https://type-atlas.xyz/foundries/by-region/",
+   "brands": [
+    "Acute Studio",
+    "Anna Khorash",
+    "APK Type",
+    "Blast Foundry",
+    "Bold Decisions",
+    "Bold Monday",
+    "Brutal Types",
+    "CakeType",
+    "Caterina Santullo",
+    "Céline Hurka Type Foundry",
+    "Contextype",
+    "Daytona Mess"
+   ]
+  },
+  {
+   "region": "Switzerland",
+   "speciality": "neo-grotesque and editorial type (31 foundries in Atlas of Type)",
+   "src": "https://type-atlas.xyz/foundries/by-region/",
+   "brands": [
+    "Altiplano",
+    "Binnenland",
+    "Bleifrei Type",
+    "ECAL Typefaces",
+    "Extraset",
+    "Fatype",
+    "Francis Chouquet",
+    "Grilli Type",
+    "Gruppo Due",
+    "Lineto",
+    "lo-ol Type Foundry",
+    "Luzi Type"
+   ]
+  },
+  {
+   "region": "Germany",
+   "speciality": "84 foundries in Atlas of Type; FontFont/Linotype heritage",
+   "src": "https://type-atlas.xyz/foundries/by-region/",
+   "brands": [
+    "AllCaps",
+    "Astype Fonts",
+    "Atlas",
+    "Benn Zorn",
+    "Bfgs.Studio",
+    "Brownfox",
+    "Camelot Typefaces",
+    "Character Type",
+    "Comma Type",
+    "Daria Cohen",
+    "Dinamo",
+    "Dreamtype"
+   ]
+  },
+  {
+   "region": "France",
+   "speciality": "54 foundries in Atlas of Type",
+   "src": "https://type-atlas.xyz/foundries/by-region/",
+   "brands": [
+    "205TF",
+    "A is for",
+    "Aieou Tools",
+    "AinsiFont",
+    "Alexandre Créquer",
+    "Alexis Boscariol",
+    "Alice Savoie",
+    "Almarena",
+    "ANRT",
+    "Apex Type Foundry",
+    "Art Grootfontein",
+    "b•v-h type"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "53 foundries in Atlas of Type",
+   "src": "https://type-atlas.xyz/foundries/by-region/",
+   "brands": [
+    "A2-Type",
+    "Abyme",
+    "ALT.tf",
+    "ArabicType",
+    "Atelier Triay",
+    "Barnbrook Fonts",
+    "Best Typefaces",
+    "Bonez Designz",
+    "Branding with Type",
+    "British Standard Type",
+    "Brody Fonts",
+    "Cinetype"
+   ]
+  },
+  {
+   "region": "United States",
+   "speciality": "118 foundries in Atlas of Type",
+   "src": "https://type-atlas.xyz/foundries/by-region/",
+   "brands": [
+    "A+",
+    "ABC ETC",
+    "Abstract Office",
+    "Adam Ladd Design",
+    "Adobe Originals",
+    "Aesthetic Type",
+    "And Repeat",
+    "ArrowType",
+    "ATF Collection",
+    "Avondale Type Co.",
+    "Badson Type Foundry",
+    "Bea Korsh"
+   ]
+  },
+  {
+   "region": "Spain / Latin America",
+   "speciality": "Spain 26, Argentina 9, Brazil 8, Mexico 5 foundries in Atlas of Type",
+   "src": "https://type-atlas.xyz/foundries/by-region/",
+   "brands": [
+    "29Letters",
+    "Arillatype.Studio",
+    "Atipo",
+    "Bauer Types",
+    "Blancoletters",
+    "Branding with Type",
+    "Compañía Tipográfica de Chile",
+    "Fer Cozzi",
+    "Huerta Tipográfica",
+    "Letterjuice",
+    "Muk Monsalve",
+    "Blackletra",
+    "Eller Type",
+    "Fabio Haag",
+    "Harbor Type",
+    "Naipe Foundry",
+    "CocijoType",
+    "DualType",
+    "Lechuga Type",
+    "Nodo Type Foundry"
+   ]
+  },
+  {
+   "region": "Czechia",
+   "speciality": "18 foundries in Atlas of Type (Rosetta, TypeTogether-linked)",
+   "src": "https://type-atlas.xyz/foundries/by-region/",
+   "brands": [
+    "Alex Slobzheninov",
+    "AllCaps",
+    "Briefcase Type Foundry",
+    "Displaay Type Foundry",
+    "DizajnDesign",
+    "Florian Karsten",
+    "Heavyweight",
+    "Kometa",
+    "Narrow Type",
+    "Obrysy",
+    "Petra-D Type Foundry",
+    "Regular Lines"
+   ]
+  },
+  {
+   "region": "South Korea",
+   "speciality": "Hangul type: Sandoll, oldest and most celebrated Korean foundry (1984)",
+   "src": "https://blog.adobe.com/en/publish/2021/01/19/fresh-fonts-and-language-support-features-for-2021",
+   "brands": [
+    "Sandoll",
+    "Rixfont",
+    "Yoondesign",
+    "AG Typography Institute",
+    "Minjoo Ham",
+    "Noh Type"
+   ]
+  },
+  {
+   "region": "China",
+   "speciality": "Simplified Chinese type: FounderType (Beijing Founder), HelloFont",
+   "src": "https://blog.adobe.com/en/publish/2021/01/19/fresh-fonts-and-language-support-features-for-2021",
+   "brands": [
+    "FounderType",
+    "HelloFont"
+   ]
+  },
+  {
+   "region": "India (South Asia)",
+   "speciality": "Indic scripts: Indian Type Foundry (2009, first Unicode digital font company in India), Ek Type (TDC71 Best of Type Design, Naatak)",
+   "src": "https://www.typotheque.com/blog/new-company-the-indian-type-foundry",
+   "brands": [
+    "Indian Type Foundry",
+    "Ek Type"
+   ]
+  },
+  {
+   "region": "Armenia (Caucasus)",
+   "speciality": "Armenian type; Granshan competition founded 2008 by the Armenian Ministry of Culture",
+   "src": "https://granshan.com/about",
+   "brands": [
+    "Edik Ghabuzyan",
+    "Manvel Shmavonyan"
+   ]
+  },
+  {
+   "region": "Middle East (Arabic type)",
+   "speciality": "Arabic type: Sakkal Design (Granshan Grand Award; TDC awards of excellence); TDC 2010-2018 winners included DecoType, TPTQ Arabic, Lalezar etc.",
+   "src": "https://www.typeroom.eu/granshan-grand-prize-winner-sakkal-kitab-arabic-typeface",
+   "brands": [
+    "Sakkal Design",
+    "DecoType",
+    "TPTQ Arabic",
+    "Type-Ø-Tones"
+   ]
+  },
+  {
+   "region": "Japan (East Asia)",
+   "speciality": "Japanese type: Morisawa (known), Adobe Tokyo Momochidori (Tokyo TDC 2026 Type Design Prize)",
+   "src": "https://tokyotypedirectorsclub.org/en/news/tdc2026-results",
+   "brands": [
+    "Morisawa",
+    "Adobe"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://type-atlas.xyz/foundries/by-region/",
@@ -264,6 +570,26 @@
    "new_names": 2,
    "status": "partial",
    "note": "only first part of list fetched; wallets ignored"
+  },
+  {
+   "url": "https://blog.adobe.com/en/publish/2021/01/19/fresh-fonts-and-language-support-features-for-2021",
+   "title": "Adobe blog: fresh fonts and language support 2021",
+   "kind": "retailer",
+   "years": "2021",
+   "names_on_page": 10,
+   "new_names": 6,
+   "status": "done",
+   "note": "Adobe Fonts curated foundry additions; Korean and Simplified Chinese"
+  },
+  {
+   "url": "https://www.typotheque.com/blog/new-company-the-indian-type-foundry",
+   "title": "New company: The Indian Type Foundry",
+   "kind": "encyclopedia",
+   "years": "2009",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "ITF already known; first Unicode digital font company in India"
   }
  ],
  "brands": [
@@ -5036,14 +5362,6 @@
    "dept": "Fonts & typefaces"
   },
   {
-   "n": "Sandoll Communications",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Type_foundries",
-   "says": "listed in Wikipedia Category:Type foundries",
-   "country": "",
-   "dept": "Fonts & typefaces"
-  },
-  {
    "n": "Scriptorium Fonts",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Type_foundries",
@@ -6075,6 +6393,54 @@
    "country": "",
    "dept": "Domains & tokens > NFTs & digital collectibles",
    "role": "seller"
+  },
+  {
+   "n": "Sandoll",
+   "layer": "premium",
+   "src": "https://blog.adobe.com/en/publish/2021/01/19/fresh-fonts-and-language-support-features-for-2021",
+   "says": "oldest and most celebrated Korean type foundry, founded 1984 (Adobe Fonts announcement)",
+   "country": "South Korea",
+   "dept": "Fonts & typefaces"
+  },
+  {
+   "n": "Rixfont",
+   "layer": "premium",
+   "src": "https://blog.adobe.com/en/publish/2021/01/19/fresh-fonts-and-language-support-features-for-2021",
+   "says": "library of ~600 high-quality fonts, custom fonts for top Korean corporate clients",
+   "country": "South Korea",
+   "dept": "Fonts & typefaces"
+  },
+  {
+   "n": "AG Typography Institute",
+   "layer": "premium",
+   "src": "https://blog.adobe.com/en/publish/2021/01/19/fresh-fonts-and-language-support-features-for-2021",
+   "says": "Korean foundry, research arm of Ahn-graphics, est. 2012",
+   "country": "South Korea",
+   "dept": "Fonts & typefaces"
+  },
+  {
+   "n": "Yoondesign",
+   "layer": "premium",
+   "src": "https://blog.adobe.com/en/publish/2021/01/19/fresh-fonts-and-language-support-features-for-2021",
+   "says": "Korean type foundry (Yoon Gothic/Yoon Mincho), relationships between type design, brands, content",
+   "country": "South Korea",
+   "dept": "Fonts & typefaces"
+  },
+  {
+   "n": "Noh Type",
+   "layer": "premium",
+   "src": "https://blog.adobe.com/en/publish/2021/01/19/fresh-fonts-and-language-support-features-for-2021",
+   "says": "foundry of Eunyou Noh, TypeMedia 2017 graduate",
+   "country": "South Korea",
+   "dept": "Fonts & typefaces"
+  },
+  {
+   "n": "HelloFont",
+   "layer": "premium",
+   "src": "https://blog.adobe.com/en/publish/2021/01/19/fresh-fonts-and-language-support-features-for-2021",
+   "says": "high-quality contemporary Chinese typefaces, Simplified Chinese foundry on Adobe Fonts",
+   "country": "China",
+   "dept": "Fonts & typefaces"
   }
  ]
 }

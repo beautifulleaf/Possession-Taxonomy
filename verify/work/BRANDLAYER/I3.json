@@ -75,6 +75,36 @@
    "new_names": 31,
    "status": "done",
    "note": "tested list, no quality verdict (filed as listed); NordVPN and Mullvad are NOT on this page and must be dropped or re-sourced from av-test.org fetched page"
+  },
+  {
+   "url": "https://www.av-test.org/en/news/vpn-packages-for-private-users-put-to-the-test-under-windows-10",
+   "title": "AV-TEST: VPN software for private users (Windows 10, 2021)",
+   "kind": "award",
+   "years": "2021",
+   "names_on_page": 3,
+   "new_names": 3,
+   "status": "done",
+   "note": "independent AV-TEST test, all three Approved"
+  },
+  {
+   "url": "https://www.av-test.org/en/news/kaspersky-comparative-test-2025",
+   "title": "AV-TEST Kaspersky VPN Comparative Test 2025 (commissioned)",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 10,
+   "new_names": 2,
+   "status": "done",
+   "note": "commissioned: tested-list = existence only"
+  },
+  {
+   "url": "https://www.speedtest.net/awards/mobile",
+   "title": "Ookla Speedtest Awards: Fastest Mobile Network 2025 Q1-Q2",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 35,
+   "new_names": 31,
+   "status": "partial",
+   "note": "only the page's listed country awards (Q1-Q2 2025); other years and fixed/5G/coverage awards not fetched"
   }
  ],
  "brands": [
@@ -1699,12 +1729,12 @@
   },
   {
    "n": "F-Secure Freedome",
-   "layer": "listed",
-   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
-   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; ) - tested-list: existence, no verdict",
+   "layer": "premium",
+   "src": "https://www.av-test.org/en/news/vpn-packages-for-private-users-put-to-the-test-under-windows-10",
+   "says": "AV-TEST (Dec 2021) VPN test for private users: awarded \"Approved Virtual Private Network Solution\"; NordVPN top throughput rating",
    "dept": "VPN service",
    "already": false,
-   "evidence": "existence"
+   "evidence": "quality"
   },
   {
    "n": "hide.me VPN",
@@ -1753,12 +1783,12 @@
   },
   {
    "n": "Kaspersky Secure Connection",
-   "layer": "listed",
-   "src": "https://www.av-comparatives.org/wp-content/uploads/2020/05/avc_vpn_2020.pdf",
-   "says": "tested in AV-Comparatives VPN Report 2020 (35 products; ) - tested-list: existence, no verdict",
+   "layer": "premium",
+   "src": "https://www.av-test.org/en/news/vpn-packages-for-private-users-put-to-the-test-under-windows-10",
+   "says": "AV-TEST (Dec 2021) VPN test for private users: awarded \"Approved Virtual Private Network Solution\"; NordVPN top throughput rating",
    "dept": "VPN service",
    "already": false,
-   "evidence": "existence"
+   "evidence": "quality"
   },
   {
    "n": "McAfee Safe Connect",
@@ -1903,6 +1933,343 @@
    "dept": "VPN service",
    "already": false,
    "evidence": "existence"
+  },
+  {
+   "n": "NordVPN",
+   "layer": "premium",
+   "src": "https://www.av-test.org/en/news/vpn-packages-for-private-users-put-to-the-test-under-windows-10",
+   "says": "AV-TEST (Dec 2021) VPN test for private users: awarded \"Approved Virtual Private Network Solution\"; NordVPN top throughput rating",
+   "dept": "VPN service",
+   "already": false,
+   "evidence": "quality"
+  },
+  {
+   "n": "Kaspersky VPN",
+   "layer": "listed",
+   "src": "https://www.av-test.org/en/news/kaspersky-comparative-test-2025",
+   "says": "tested in AV-TEST VPN Comparative Test 2025 (commissioned by Kaspersky): tested-list only",
+   "dept": "VPN service",
+   "already": false,
+   "evidence": "existence"
+  },
+  {
+   "n": "Turbo VPN",
+   "layer": "listed",
+   "src": "https://www.av-test.org/en/news/kaspersky-comparative-test-2025",
+   "says": "tested in AV-TEST VPN Comparative Test 2025 (commissioned by Kaspersky): tested-list only",
+   "dept": "VPN service",
+   "already": false,
+   "evidence": "existence"
+  },
+  {
+   "n": "e&",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (United Arab Emirates)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "United Arab Emirates"
+  },
+  {
+   "n": "Ooredoo (Qatar)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Qatar); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Qatar"
+  },
+  {
+   "n": "Viettel",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Vietnam)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Vietnam"
+  },
+  {
+   "n": "A1 (Bulgaria)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Bulgaria); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Bulgaria"
+  },
+  {
+   "n": "Magti",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Georgia)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Georgia"
+  },
+  {
+   "n": "Zain (Kuwait)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Kuwait); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Kuwait"
+  },
+  {
+   "n": "UNN",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Brunei)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Brunei"
+  },
+  {
+   "n": "Telia (Denmark)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Denmark); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Denmark"
+  },
+  {
+   "n": "Nova (Iceland)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Iceland); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Iceland"
+  },
+  {
+   "n": "Odido",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Netherlands)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Netherlands"
+  },
+  {
+   "n": "Makedonski Telekom",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (North Macedonia)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "North Macedonia"
+  },
+  {
+   "n": "BITE",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Latvia)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Latvia"
+  },
+  {
+   "n": "NOS",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Portugal)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Portugal"
+  },
+  {
+   "n": "Claro (Costa Rica)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Costa Rica); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Costa Rica"
+  },
+  {
+   "n": "COSMOTE",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Greece)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Greece"
+  },
+  {
+   "n": "Yettel (Hungary)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Hungary); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Hungary"
+  },
+  {
+   "n": "Vodafone (Italy)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Italy); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Italy"
+  },
+  {
+   "n": "my.t",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Mauritius)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Mauritius"
+  },
+  {
+   "n": "T-Mobile (Poland)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Poland); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Poland"
+  },
+  {
+   "n": "MegaFon",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Russia)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Russia"
+  },
+  {
+   "n": "A1 (Serbia)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Serbia); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Serbia"
+  },
+  {
+   "n": "Telekom Slovenia",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Slovenia)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Slovenia"
+  },
+  {
+   "n": "Tcell",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Tajikistan)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Tajikistan"
+  },
+  {
+   "n": "AIS",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Thailand)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Thailand"
+  },
+  {
+   "n": "Aliv",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (The Bahamas)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "The Bahamas"
+  },
+  {
+   "n": "Kyivstar",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Ukraine)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Ukraine"
+  },
+  {
+   "n": "Ucell",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: fastest mobile network winner (Uzbekistan)",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Uzbekistan"
+  },
+  {
+   "n": "Telia (Estonia)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Estonia); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Estonia"
+  },
+  {
+   "n": "Telenor (Sweden)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Sweden); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Sweden"
+  },
+  {
+   "n": "Claro (Dominican Republic)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Dominican Republic); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Dominican Republic"
+  },
+  {
+   "n": "Claro (Peru)",
+   "layer": "premium",
+   "evidence": "quality",
+   "src": "https://www.speedtest.net/awards/mobile",
+   "says": "Ookla Speedtest Awards 2025 Q1-Q2: country fastest-mobile-network winner/world-ranking entry (Peru); homonym check vs register needed",
+   "dept": "Mobile phone plan",
+   "already": false,
+   "country": "Peru"
   }
  ]
 }

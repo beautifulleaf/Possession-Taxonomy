@@ -571,7 +571,108 @@
   }
  ],
  "add_regions": [],
- "drop": [],
+ "drop": [
+  {
+   "n": "Tongchuntang 同春堂",
+   "why": "Batch-3 row 20 is 北京同春堂中医医院, a TCM hospital (service), not a product maker"
+  },
+  {
+   "n": "Tianfutang 天福堂",
+   "why": "Batch-3 row 378 is 衢州德信行天福堂大药房, a pharmacy (retailer)"
+  },
+  {
+   "n": "Wanchuntang 万春堂",
+   "why": "Batch-2 row 948 is 淄博万春堂骨科医院, an orthopaedic hospital (service)"
+  },
+  {
+   "n": "Cunrentang 存仁堂",
+   "why": "Row 218 镇江存仁堂医药连锁 - pharmacy chain (retailer); makers exist for TCM so seller rule does not apply"
+  },
+  {
+   "n": "Zhenyuantang 震元堂",
+   "why": "Row 261 浙江震元医药连锁 - pharmacy chain (retailer)"
+  },
+  {
+   "n": "Derentang 德仁堂",
+   "why": "Row 402 四川德仁堂药业连锁 - pharmacy chain (retailer)"
+  },
+  {
+   "n": "Yekaitai 叶开泰",
+   "why": "Row 988 武汉叶开泰药业连锁 - pharmacy chain (retailer)"
+  },
+  {
+   "n": "Yutiancheng 余天成",
+   "why": "Row 719 上海余天成药业连锁…余天成堂药号 - pharmacy chain (retailer)"
+  },
+  {
+   "n": "Amplifon",
+   "why": "Hearing-care retail/service chain, not a device maker (on the Wikipedia manufacturers category but is a retailer); keep only if owner accepts retailer brands"
+  },
+  {
+   "n": "Hanger, Inc.",
+   "why": "Orthotic & prosthetic patient-care clinic network (service provider)"
+  },
+  {
+   "n": "CareCo",
+   "why": "UK mobility retailer selling own-label scooters (retailer private label); Which? page only says tested"
+  },
+  {
+   "n": "Cardiowell",
+   "why": "Remote-patient-monitoring service vendor; its VDL device is a rebadged BodyTrace BT107 (service private label)"
+  },
+  {
+   "n": "CareSimple",
+   "why": "RPM service vendor; VDL device is a Transtek TMB-2092 rebadge (service private label)"
+  },
+  {
+   "n": "Smart Meter",
+   "why": "RPM device/service supplier to care programmes (iBloodPressure), no consumer footprint"
+  },
+  {
+   "n": "PharmaSmart",
+   "why": "Pharmacy BP kiosks - not a personal possession"
+  },
+  {
+   "n": "SynCardia Systems",
+   "why": "Total artificial heart - surgical implant, not a possession in H2 kinds"
+  },
+  {
+   "n": "Eng Aun Tong",
+   "why": "Historic apothecary of the Aw family that became Tiger Balm/Haw Par - alias of Tiger Balm, not a separate brand"
+  },
+  {
+   "n": "Andon (iHealth)",
+   "why": "Duplicate of ANDON Health (VDL) - merge; consumer brand is iHealth"
+  },
+  {
+   "n": "Hingmed",
+   "why": "Duplicate of Hingmed Medical Instruments - merge"
+  },
+  {
+   "n": "Dario",
+   "why": "Duplicate of register Dario Health (H2) - not new"
+  },
+  {
+   "n": "Pride Mobility",
+   "why": "Duplicate of register Pride Mobility Products (H2) - not new"
+  },
+  {
+   "n": "Foci Pharmaceutical 佛慈",
+   "why": "Duplicate of register Lanzhou Foci (H2) - not new"
+  },
+  {
+   "n": "Starkey Hearing Technologies",
+   "why": "Duplicate of register Starkey Hearing (H2) - not new"
+  },
+  {
+   "n": "Siemens Hearing Instruments",
+   "why": "Historic name of Sivantos/Signia; register already has Siemens, Sivantos, Signia (H2) - alias, not new"
+  },
+  {
+   "n": "Cochlear Bone Anchored Solutions",
+   "why": "Subsidiary of register Cochlear (H2), Baha processors - alias, not new"
+  }
+ ],
  "notes": "Accuracy: all 25 sampled names shown on raw src; claims supported (listing/validation/membership) — 1 category-fit doubt (Xinbaotang chenpi). ",
  "cross_tag": [
   {
@@ -595,5 +696,137 @@
    "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
    "says": "Register row (H1, toothpaste) is the Yunnan Baiyao Group, a haemostatic TCM maker; Time-honored row 1088 云南白药集团股份有限公司 云南白药; harvest region list names it but no brand row"
   }
- ]
+ ],
+ "corrections": [
+  {
+   "n": "Hennian Tang 鹤年堂",
+   "fix": "Pinyin is Henian Tang (鹤 he, 年 nian); row 462 北京鹤年堂医药有限责任公司"
+  },
+  {
+   "n": "Pan Chor Shun 潘高寿",
+   "fix": "潘高寿 is Pan Gaoshou (Cantonese Pun Ko Sau); 'Pan Chor Shun' is not a romanisation of these characters; row 349 广州白云山潘高寿药业"
+  },
+  {
+   "n": "Laobo Yuntang 老拨云堂",
+   "fix": "Split wrongly: Lao Boyuntang (老 + 拨云堂); registered mark 老拨云堂牌, row 409"
+  },
+  {
+   "n": "Hongrentang 宏仁堂",
+   "fix": "Registered mark on row 76 is 红花牌 (Honghua), company 天津宏仁堂药业"
+  },
+  {
+   "n": "Tianjin Tongrentang 天津同仁堂",
+   "fix": "Row 77 mark 太阳 (Taiyang); a different company from Beijing Tong Ren Tang (register) - HOMONYM, keep qualifier 'Tianjin'"
+  },
+  {
+   "n": "Wuzhou Pharmaceutical 梧州制药",
+   "fix": "Row 1039 mark 中华 (Zhonghua)"
+  },
+  {
+   "n": "Lisheng Pharmaceutical 力生",
+   "fix": "Batch-3 row 28 天津力生制药 has no brand column entry; company name shown only"
+  },
+  {
+   "n": "Xinbaotang 新宝堂",
+   "fix": "Row 296 is 新会区新宝堂陈皮 (Xinhui dried tangerine peel) - food/herb ingredient; H2 fit doubtful (J food?)"
+  },
+  {
+   "n": "Huatuo 华佗",
+   "fix": "Harvest row = Batch-3 row 193 华佗国药 (Anhui, TCM); batch-2 row 800 华佗 is Suzhou Medical Appliance (Hwato acupuncture needles) - two companies, keep qualifiers"
+  },
+  {
+   "n": "Hamdard Laboratories (Waqf) Bangladesh",
+   "fix": "country is Bangladesh, not India; separate waqf from Hamdard India and Hamdard Pakistan (homonyms: register Hamdard J9 / Hamdard India H2)"
+  },
+  {
+   "n": "Laoshan 老山",
+   "fix": "HOMONYM of register Laoshan Cola (J9, Qingdao); this is 南京老山药业 - rename 'Laoshan (Nanjing pharmaceutical)'"
+  },
+  {
+   "n": "GoodBaby",
+   "fix": "HOMONYM risk with register Goodbaby International (G1 strollers); TechGearLab thermometer brand is a separate Amazon brand - rename 'GoodBaby (thermometers)'"
+  },
+  {
+   "n": "Monarch",
+   "fix": "HOMONYM of register Monarch (water softeners)/Monarch Beverage - rename 'Monarch (mobility scooters)'"
+  },
+  {
+   "n": "Zewa",
+   "fix": "HOMONYM risk: Zewa is also Essity's tissue brand; the VDL Zewa is a US BP-monitor brand - rename 'Zewa (BP monitors)'"
+  },
+  {
+   "n": "Medicare (BP)",
+   "fix": "keep qualifier; unrelated to US Medicare programme"
+  },
+  {
+   "n": "Trojan",
+   "fix": "register already has both 'Trojan' (H3) and 'Trojan (condoms)' (H2): merge them rather than cross-tag (would double the H2 row)"
+  },
+  {
+   "n": "Miracle-Ear",
+   "fix": "franchise hearing-aid retailer whose own-brand aids are made by WS Audiology; has own article (cultural) - flag as retailer brand for owner decision"
+  },
+  {
+   "n": "SOMNOmedics",
+   "fix": "clinical ABPM/sleep-diagnostics maker; not a consumer brand"
+  },
+  {
+   "n": "Tiger Balm",
+   "fix": "src is own website (heritage page): tier listed unless an encyclopedia src2 is found"
+  },
+  {
+   "n": "Which? scooter rows (Monarch, Veleco, Pride, CareCo)",
+   "fix": "Which? page only says tested - tier listed, not quality"
+  }
+ ],
+ "consumer_brand_check": {
+  "basis": "Own-site statements seen in search excerpts (transtekcorp.com, sejoygroup.com, pangaohealth.com) plus auditor knowledge; not fetched raw - treat as guidance",
+  "OEM_ODM_no_consumer_brand": [
+   "Transtek (own site: 'top-ranked OEM/ODM/JDM'; devices rebadged by CareSimple, Lloyds etc.)",
+   "JOYTECH and SEJOY (same Hangzhou group, sejoygroup.com 'Joytech / OEM' - merge the two rows)",
+   "Pangao (own site: 'OEM/ODM healthcare products supplier')",
+   "HONSUN",
+   "Raycome",
+   "Kingyield",
+   "Combei",
+   "Hipermax",
+   "RisingSun",
+   "BPUMP",
+   "Polygreen (Taiwan)",
+   "Health & Life (Taiwan)",
+   "Grandway (G.LAB)",
+   "Airssential",
+   "FITAGE",
+   "SEINEX",
+   "Sensacare",
+   "JAMR",
+   "Montex",
+   "PMS"
+  ],
+  "consumer_brands": [
+   "yuwell (鱼跃, major Chinese home-medical brand)",
+   "Andon/iHealth (consumer brand iHealth)",
+   "Cofoe (Chinese consumer e-commerce brand)",
+   "Viatom (consumer brand Wellue/Checkme)",
+   "Rossmax (Taiwan, retail brand)",
+   "Konsung (Chinese retail medical brand)",
+   "CONTEC (mainly clinical/OEM but sells own-brand pulse oximeters)",
+   "Hingmed (clinical; weak consumer footprint)"
+  ],
+  "european_retail_brands_ok": [
+   "Medisana",
+   "Aponorm",
+   "Visomat",
+   "Novama",
+   "Spengler",
+   "Thermor (BIOS, Canada)",
+   "Prolife",
+   "Misure",
+   "Vitammy",
+   "Kinetik",
+   "Globalcare",
+   "Medipro"
+  ],
+  "recommendation": "Under BRIEF (budget/private labels without cultural footprint are out) the OEM/ODM rows should be dropped or kept only as 'listed' with no cultural layer; STRIDE listing is validation (quality) of a device, but these firms are not consumer brands."
+ }
 }
