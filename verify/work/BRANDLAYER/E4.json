@@ -162,6 +162,17 @@
    ],
    "found": 4,
    "note": "polishers found; contemporary tosogu makers not named on any fetched page (only historical Goto family and Meiji artists in a museum list; not fetched)"
+  },
+  {
+   "axis": "kind",
+   "item": "Firearms > Shotguns (best guns)",
+   "queries": [
+    "London best guns gunmakers",
+    "Eibar Basque gunmaking",
+    "Liege proof house gunmaking"
+   ],
+   "found": 14,
+   "note": "Gardone Val Trompia: only Beretta page seen via search excerpt, no fetched makers list yet"
   }
  ],
  "regions": [
@@ -395,6 +406,43 @@
     "Osumi Toshihira (大隅俊平)",
     "Kawachi Kunihira (河内國平)",
     "Honami Nissei (本阿彌日洲)"
+   ]
+  },
+  {
+   "region": "Spain (Eibar, Basque Country)",
+   "speciality": "fine side-by-side sidelock shotguns, five centuries of gunmaking",
+   "src": "https://www.americanrifleman.org/content/spanish-shotguns-fine-gunmaking-in-the-eibar-region",
+   "brands": [
+    "AYA (Aguirre y Aranzabal)",
+    "Manufacturas Arrieta",
+    "Armas Garbi",
+    "Grulla Armas",
+    "Pedro Arrizabalaga",
+    "Ignacio Ugartechea"
+   ]
+  },
+  {
+   "region": "United Kingdom (London)",
+   "speciality": "London best guns; 'Holy Trinity' Holland & Holland, Purdey, Boss",
+   "src": "https://www.thegentlemansjournal.com/article/holy-trinity-british-gunmakers",
+   "brands": [
+    "Holland & Holland",
+    "Purdey",
+    "Boss & Co.",
+    "Watson Bros.",
+    "William Evans",
+    "Westley Richards"
+   ]
+  },
+  {
+   "region": "Belgium (Liege)",
+   "speciality": "bespoke sporting guns, historic arms capital with proof house",
+   "src": "https://www.hunting-heritage.com/blog/index.php/2017/01/24/lebeau-courally-last-of-liege",
+   "brands": [
+    "Lebeau-Courally",
+    "Francotte",
+    "Defourny",
+    "Dumoulin"
    ]
   }
  ],
@@ -658,6 +706,46 @@
    "new_names": 11,
    "status": "done",
    "note": "states 39 swordsmiths reached NBTHK mukansa by 2019; Masamune Prize 15 awards to 8 smiths; names Living National Treasure swordsmiths, polishers and Imperial Household Artists; no full mukansa list"
+  },
+  {
+   "url": "https://www.americanrifleman.org/content/spanish-shotguns-fine-gunmaking-in-the-eibar-region",
+   "title": "Spanish Shotguns: Fine Gunmaking in the Eibar Region (American Rifleman)",
+   "kind": "encyclopedia",
+   "years": "2020",
+   "names_on_page": 7,
+   "new_names": 7,
+   "status": "done",
+   "note": "expert magazine feature; 100-200 absolute 'bests'"
+  },
+  {
+   "url": "https://gardenandgun.com/londons-sporting-side",
+   "title": "London's Sporting Side (Garden & Gun)",
+   "kind": "retailer",
+   "years": "2018",
+   "names_on_page": 6,
+   "new_names": 2,
+   "status": "done",
+   "note": "lifestyle guide, listed-level for small makers"
+  },
+  {
+   "url": "https://www.thegentlemansjournal.com/article/holy-trinity-british-gunmakers",
+   "title": "Holy Trinity of British gunmakers",
+   "kind": "encyclopedia",
+   "years": "2014",
+   "names_on_page": 3,
+   "new_names": 0,
+   "status": "done",
+   "note": "Holland & Holland, Purdey, Boss confirmed (known / already listed)"
+  },
+  {
+   "url": "https://www.hunting-heritage.com/blog/index.php/2017/01/24/lebeau-courally-last-of-liege",
+   "title": "Lebeau-Courally - last of Liege (Hunting-Heritage)",
+   "kind": "encyclopedia",
+   "years": "2017",
+   "names_on_page": 5,
+   "new_names": 4,
+   "status": "done",
+   "note": "Liege makers named; proof-house statistics only"
   }
  ],
  "brands": [
@@ -3105,6 +3193,110 @@
    "says": "Living National Treasure; three Masamune Prizes (confirms swordis entry)",
    "country": "Japan",
    "dept": "Japanese swords"
+  },
+  {
+   "n": "AYA (Aguirre y Aranzabal)",
+   "layer": "premium",
+   "src": "https://www.americanrifleman.org/content/spanish-shotguns-fine-gunmaking-in-the-eibar-region",
+   "says": "named among Basque 'bests'; largest of the fine Eibar makers, ~18 employees",
+   "country": "Spain",
+   "dept": "shotguns"
+  },
+  {
+   "n": "Manufacturas Arrieta",
+   "layer": "premium",
+   "src": "https://www.americanrifleman.org/content/spanish-shotguns-fine-gunmaking-in-the-eibar-region",
+   "says": "Elgoibar family firm, sidelock side-by-sides, widest importer network after AYA",
+   "country": "Spain",
+   "dept": "shotguns"
+  },
+  {
+   "n": "Armas Garbi",
+   "layer": "premium",
+   "src": "https://www.americanrifleman.org/content/spanish-shotguns-fine-gunmaking-in-the-eibar-region",
+   "says": "founded 1959, half-dozen craftsmen, Garbi Deluxe top model",
+   "country": "Spain",
+   "dept": "shotguns"
+  },
+  {
+   "n": "Grulla Armas",
+   "layer": "premium",
+   "src": "https://www.americanrifleman.org/content/spanish-shotguns-fine-gunmaking-in-the-eibar-region",
+   "says": "author regards Grulla Royal as finest gun made in Eibar today; set made for King Juan Carlos",
+   "country": "Spain",
+   "dept": "shotguns"
+  },
+  {
+   "n": "Pedro Arrizabalaga",
+   "layer": "premium",
+   "src": "https://www.americanrifleman.org/content/spanish-shotguns-fine-gunmaking-in-the-eibar-region",
+   "says": "smallest Eibar bests maker, four craftsmen, 40 guns a year",
+   "country": "Spain",
+   "dept": "shotguns"
+  },
+  {
+   "n": "Ignacio Ugartechea",
+   "layer": "premium",
+   "src": "https://www.americanrifleman.org/content/spanish-shotguns-fine-gunmaking-in-the-eibar-region",
+   "says": "named among Eibar gunmaking houses",
+   "country": "Spain",
+   "dept": "shotguns"
+  },
+  {
+   "n": "Sarriugarte",
+   "layer": "premium",
+   "src": "https://www.americanrifleman.org/content/spanish-shotguns-fine-gunmaking-in-the-eibar-region",
+   "says": "named among Eibar gunmaking houses (listed-level)",
+   "country": "Spain",
+   "dept": "shotguns"
+  },
+  {
+   "n": "Watson Bros.",
+   "layer": "premium",
+   "src": "https://gardenandgun.com/londons-sporting-side",
+   "says": "London's only gunmaking firm of note owned by a bench-trained working craftsman (Michael Louca)",
+   "country": "UK",
+   "dept": "shotguns"
+  },
+  {
+   "n": "William Evans",
+   "layer": "premium",
+   "src": "https://gardenandgun.com/londons-sporting-side",
+   "says": "one of London's last independent gunmakers, most affordable",
+   "country": "UK",
+   "dept": "shotguns"
+  },
+  {
+   "n": "Bury (Liege gunmaker)",
+   "layer": "premium",
+   "src": "https://www.hunting-heritage.com/blog/index.php/2017/01/24/lebeau-courally-last-of-liege",
+   "says": "named among great Liege gunmaking names (listed-level)",
+   "country": "Belgium",
+   "dept": "shotguns"
+  },
+  {
+   "n": "Defourny",
+   "layer": "premium",
+   "src": "https://www.hunting-heritage.com/blog/index.php/2017/01/24/lebeau-courally-last-of-liege",
+   "says": "named among great Liege gunmaking names (listed-level)",
+   "country": "Belgium",
+   "dept": "shotguns"
+  },
+  {
+   "n": "Dumoulin",
+   "layer": "premium",
+   "src": "https://www.hunting-heritage.com/blog/index.php/2017/01/24/lebeau-courally-last-of-liege",
+   "says": "named among great Liege gunmaking names (listed-level)",
+   "country": "Belgium",
+   "dept": "shotguns"
+  },
+  {
+   "n": "Lebeau-Courally",
+   "layer": "premium",
+   "src": "https://www.hunting-heritage.com/blog/index.php/2017/01/24/lebeau-courally-last-of-liege",
+   "says": "last of Liege bespoke makers; Tsar Nicholas II owned Lebeau guns",
+   "country": "Belgium",
+   "dept": "shotguns"
   }
  ]
 }
