@@ -51,18 +51,43 @@ CRUISECAT={'Corsair 24 Mark II','Corsair Cruze 970','Farrier F-22','Farrier F-27
 EXCL_NAMES={'First Class 8','Hallberg-Rassy 24','Fantasia 27'}
 rows=[]
 seen=set()
+import glob
+AUTO={}
+def parse_auto(f):
+    out=[]
+    for l in open(f):
+        p=l.rstrip('\n').split('|')
+        if len(p)<5: continue
+        q,n,y,d,c=p[:5]; code=p[5] if len(p)>5 and p[5] else 'Y'
+        out.append(dict(q=q,n=n,y=y,d=d,c=c,code=code,b=''))
+    return out
 for f in ('sail1.tsv','sail2.tsv','sail3.tsv'):
     for l in open(f):
         p=l.rstrip('\n').split('|')
         ci=next(i for i in range(2,len(p)) if re.fullmatch(r'[DSCKRYMOI]',p[i]))
         mid=(p[2:ci]+['','',''])[:3]
-        if ci==5 and False: pass
         q,n=p[0],p[1]; y,d,c=mid; code=p[ci]; bld=p[ci+1] if len(p)>ci+1 else ''
         if q in seen: continue
         seen.add(q)
         if n.startswith('Beneteau') or bld=='Beneteau' or n in EXCL_NAMES: continue
         rows.append(dict(q=q,n=n,y=y,d=d,c=c,code=code,b=bld))
-nread=533
+auto=[]
+for f in sorted(glob.glob('sail[4-9].tsv')+glob.glob('sail[1-9][0-9].tsv')):
+    auto+=parse_auto(f)
+from collections import Counter
+tok=lambda n: re.match(r"^([A-Za-z&' ]+?)[ -]?\d",n).group(1).strip() if re.match(r"^([A-Za-z&' ]+?)[ -]?\d",n) else None
+cnt=Counter(tok(r['n']) for r in auto if r['code'] in 'YR' and tok(r['n']))
+DISPB={'C&C':'C&C Yachts','Cal':'Cal Yachts','CS':'CS Yachts','Bayfield':'Bayfield Yachts','Aloha':'Aloha Yachts','Bristol':'Bristol Yachts','Hunter':'Hunter Marine','Catalina':'Catalina Yachts','Columbia':'Columbia Yachts','Mirage':'Mirage Yachts','Pearson':'Pearson Yachts','Swan':'Nautor Swan','Albin':'Albin Marine'}
+for r in auto:
+    if r['q'] in seen: continue
+    seen.add(r['q'])
+    if re.match(r'^(Beneteau|B.n.teau|Sun Odyssey|Sun Fast|Jeanneau)',r['n']): continue
+    t=tok(r['n'])
+    if r['code'] in 'YR' and t and (cnt[t]>=2 or t in DISPB) and not r['n'].startswith('Swan'):
+        r['b']=t
+    if r['n'].startswith('Swan'): r['b']='Nautor Swan'
+    rows.append(r)
+nread=int(open("nread.txt").read())
 # duplicate-name fix
 for r in rows:
     if r['n']=='Flipper': r['n']='Flipper (%s)'%('Denmark' if r['c']=='Denmark' else 'United States')
@@ -108,7 +133,7 @@ for b,rs in buildergroups.items():
         continue
     kn=BKIND.get(b,'Cruising monohull')
     k=kind(bo,kn)
-    disp={'C&C':'C&C Yachts','Aloha':'Aloha Yachts','Bayfield':'Bayfield Yachts','Bristol':'Bristol Yachts','Contessa':'Contessa yachts','Edel':'Edel yachts','Grampian':'Grampian Marine','Mirage Yachts':'Mirage Yachts'}.get(b,b)
+    disp=DISPB.get(b) or {'C&C':'C&C Yachts','Aloha':'Aloha Yachts','Bayfield':'Bayfield Yachts','Bristol':'Bristol Yachts','Contessa':'Contessa yachts','Edel':'Edel yachts','Grampian':'Grampian Marine','Mirage Yachts':'Mirage Yachts'}.get(b,b)
     ys=[yr(r['y']) for r in rs if yr(r['y'])]
     e={'n':disp,'a':'','mk':disp,'y':('%d–%d'%(min(ys),max(ys))) if ys else '','s':W+rs[0]['q'],'v':[],'d':'Builder with %d models listed on Wikidata as sailboat classes.'%len(rs)}
     for r in sorted(rs,key=lambda r:(yr(r['y']) or 9999,r['n'])):
