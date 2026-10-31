@@ -6,3 +6,4 @@ step4: tt2.txt (fabric, yarn, paper) written
 step5: tt3.txt written; all tt done; next build.py
 step6: build.py run ok (out/C4.json rewritten); next validate, brands, report
 step7: brands updated (Conté à Paris, Beka, Fitzpatterns added; sig fixed)
+step8: tt fixes, rebuilt, validated OK; next report
