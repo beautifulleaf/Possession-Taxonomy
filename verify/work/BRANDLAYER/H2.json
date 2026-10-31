@@ -56,6 +56,74 @@
    ],
    "found": 11,
    "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Western Europe medical devices best makers"
+   ],
+   "found": 0,
+   "note": "not run"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [
+    "African herbal medicine companies"
+   ],
+   "found": 0,
+   "note": "Search surfaced only plant categories, no maker pages fetched"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Thai herbal Yanhee Siang Pure",
+    "Tiger Balm"
+   ],
+   "found": 2,
+   "note": "Tiger Balm fetched; Thai makers (Siang Pure, Yanhee) NOT fetched"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Ayurveda companies",
+    "Unani Hamdard"
+   ],
+   "found": 25,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "TCM time-honored",
+    "Kampo",
+    "ginseng"
+   ],
+   "found": 60,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "hearing aids Denmark"
+   ],
+   "found": 5,
+   "note": "Wikipedia hearing-aid category"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "blood pressure validated",
+    "CR hearing aids"
+   ],
+   "found": 0,
+   "note": ""
   }
  ],
  "regions": [
@@ -139,6 +207,23 @@
    "src": "https://swaine.london/collections/canes-walking-sticks",
    "brands": [
     "Swaine Adeney Brigg"
+   ]
+  },
+  {
+   "region": "South Asia - Pakistan",
+   "speciality": "Unani herbal medicine (Hamdard Laboratories, Karachi 1948)",
+   "src": "https://en.wikipedia.org/wiki/Hamdard_Pakistan",
+   "brands": [
+    "Hamdard Pakistan"
+   ]
+  },
+  {
+   "region": "Southeast Asia - Singapore/Myanmar",
+   "speciality": "Chinese medicated balm (Tiger Balm, Eng Aun Tong, Haw Par)",
+   "src": "https://www.tigerbalm.com/us/heritage",
+   "brands": [
+    "Tiger Balm",
+    "Eng Aun Tong"
    ]
   }
  ],
@@ -252,6 +337,26 @@
    "new_names": 0,
    "status": "done",
    "note": "Brigg handcrafted walking sticks; confirms existing row 0 already in register"
+  },
+  {
+   "url": "https://www.tigerbalm.com/us/heritage",
+   "title": "Tiger Balm heritage",
+   "kind": "heritage",
+   "years": "1909-",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "done",
+   "note": "0 already in register"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hamdard_Pakistan",
+   "title": "Hamdard Pakistan (Wikipedia)",
+   "kind": "encyclopedia",
+   "years": "1948-",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "0 already in register"
   }
  ],
  "brands": [
@@ -1596,6 +1701,35 @@
    "country": "France",
    "dept": "Walking stick",
    "already": false
+  },
+  {
+   "n": "Tiger Balm",
+   "layer": "cultural",
+   "src": "https://www.tigerbalm.com/us/heritage",
+   "says": "Tiger Balm trademark 1909 by Aw Boon Haw, from Eng Aun Tong apothecary (Rangoon, later Singapore); Haw Par",
+   "country": "Singapore/Myanmar",
+   "dept": "Traditional medicine / topical pain relief",
+   "already": false
+  },
+  {
+   "n": "Eng Aun Tong",
+   "layer": "cultural",
+   "src": "https://www.tigerbalm.com/us/heritage",
+   "says": "Tiger Balm trademark 1909 by Aw Boon Haw, from Eng Aun Tong apothecary (Rangoon, later Singapore); Haw Par",
+   "country": "Singapore/Myanmar",
+   "dept": "Traditional medicine / topical pain relief",
+   "already": false
+  },
+  {
+   "n": "Hamdard Pakistan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Hamdard_Pakistan",
+   "says": "Unani herbal medicine company, Karachi 1948 (Hamdard Laboratories Waqf); Rooh Afza, Safi",
+   "country": "Pakistan",
+   "dept": "Traditional medicine (Unani)",
+   "already": false,
+   "homonym": true,
+   "note": "different company from Hamdard India (H2) / Hamdard (J9)"
   }
  ]
 }
