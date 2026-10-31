@@ -885,7 +885,42 @@
       }
      ]
     }
-   ]
+   ],
+   "ms": [
+    {
+     "mkt": "Global pain relief",
+     "who": "Haleon",
+     "share": "13 %",
+     "yr": 2023,
+     "s": "https://www.sec.gov/Archives/edgar/data/1900304/000155837025003368/hln-20241231x20f.htm",
+     "note": "market leader; top five players about 35 %, Haleon own analysis"
+    },
+    {
+     "mkt": "Global respiratory health",
+     "who": "Haleon",
+     "share": "5.6 %",
+     "yr": 2023,
+     "s": "https://www.sec.gov/Archives/edgar/data/1900304/000155837025003368/hln-20241231x20f.htm",
+     "note": "joint leader; top five players 26 %"
+    },
+    {
+     "mkt": "Global digestive health",
+     "who": "Haleon",
+     "share": "3.8 %",
+     "yr": 2023,
+     "s": "https://www.sec.gov/Archives/edgar/data/1900304/000155837025003368/hln-20241231x20f.htm",
+     "note": "top five players about 23 %"
+    },
+    {
+     "mkt": "Global oral health",
+     "who": "Haleon",
+     "share": "about 11 %",
+     "yr": 2023,
+     "s": "https://www.sec.gov/Archives/edgar/data/1900304/000155837025003368/hln-20241231x20f.htm",
+     "note": "third largest player; top five over 60 %"
+    }
+   ],
+   "msum": "Haleon states shares for four non-prescription categories in 2023: 13 % of pain relief (leader), 5.6 % of respiratory (joint leader), 3.8 % of digestive and about 11 % of oral health. Johnson & Johnson (now Kenvue) and Bayer were long ranked first and second by Kline, but no current ranking was fetched."
   },
   {
    "n": "Monitors, tests & dosing",
@@ -3291,7 +3326,7 @@
         ]
        ],
        "nl": "One entry is a named type of walking stick or cane collected for its wood, origin or fitting, rather than used as a mobility aid; makers are not entries.",
-       "sel": "Every named stick or cane type in Wikipedia's Walking stick article, plus the Swordstick article for the swordstick. Shooting stick, alpenstock, pike staff and scout staff are left out as tools, and the cane gun, canne de combat and pace stick are only cross-references there. No whole-space reference exists.",
+       "sel": "Every named stick or cane type in Wikipedia's Walking stick article, plus the Swordstick article for the swordstick. Shooting stick, alpenstock, pike staff and scout staff are left out as tools, and the cane gun, canne de combat and pace stick are only cross-references there. No whole-space reference exists. Complete: 14 of 14 in-scope named types in Wikipedia's Walking stick article and the Swordstick article; shooting stick, alpenstock, pike staff and scout staff are tools and left out.",
        "xg": "by what the stick is known for"
       }
      ]
@@ -3316,7 +3351,10 @@
          "s": "https://en.wikipedia.org/wiki/Wheelchair",
          "dt": "steel folding frame · 1937 patent",
          "g": "Milestone lines",
-         "role": "origin"
+         "role": "origin",
+         "own": "Graham-Field Health Products",
+         "own_y": "1996",
+         "cty": "United States"
         },
         {
          "n": "Quickie",
@@ -3326,7 +3364,9 @@
          "y": "1980",
          "s": "https://en.wikipedia.org/wiki/Marilyn_Hamilton",
          "dt": "co-founded by Marilyn Hamilton, Jim Okamoto and Don Helman · aluminium frame · colour options",
-         "g": "Milestone lines"
+         "g": "Milestone lines",
+         "own": "Sunrise Medical",
+         "own_y": "1986"
         },
         {
          "n": "Küschall Competition",
@@ -3344,7 +3384,10 @@
           }
          ],
          "dt": "MoMA collection, first medical device in it · rigid frame",
-         "g": "Milestone lines"
+         "g": "Milestone lines",
+         "own": "Invacare",
+         "own_y": "1995",
+         "cty": "Switzerland"
         },
         {
          "n": "TiLite titanium rigid chair",
@@ -3362,7 +3405,10 @@
           }
          ],
          "dt": "titanium, aluminium or carbon-fibre frame · TiFit measured build",
-         "g": "Milestone lines"
+         "g": "Milestone lines",
+         "own": "Permobil",
+         "own_y": "2014",
+         "cty": "United States"
         },
         {
          "n": "Carna folding wheelchair",
@@ -3422,7 +3468,7 @@
         ]
        ],
        "nl": "One entry is a manual wheelchair line that a fetched page names as a milestone in the chair's history; models and sizes are not entries. It also holds design-collection landmarks.",
-       "sel": "No whole-space reference exists. The four lines are those with their own Wikipedia articles or sections (Wheelchair, Marilyn Hamilton, Rainer Küschall, TiLite); the Everest & Jennings chair is the first mass-market wheelchair on the Wheelchair page. Added from fetched MoMA collection pages: the Carna folding wheelchair and the Bob Hall racing wheelchair. Coverage: only first-of-kind origins and design-collection or major-award landmarks are added.",
+       "sel": "No whole-space reference exists. The four lines are those with their own Wikipedia articles or sections (Wheelchair, Marilyn Hamilton, Rainer Küschall, TiLite); the Everest & Jennings chair is the first mass-market wheelchair on the Wheelchair page. Added from fetched MoMA collection pages: the Carna folding wheelchair and the Bob Hall racing wheelchair. Coverage: only first-of-kind origins and design-collection or major-award landmarks are added. No complete list exists; follows Wikipedia's Wheelchair article (both windows read), the Marilyn Hamilton, Rainer Küschall and TiLite articles and two MoMA pages. Carbon Black (2011) is named but is neither an origin nor a design-collection item.",
        "xg": "single section"
       },
       {
@@ -4373,7 +4419,7 @@
        ],
        "xg": "Entry type",
        "nl": "One entry is the first product of its kind or a design-collection landmark.",
-       "sel": "Follows only the fetched pages named here: Wikipedia, Hearing aid. Coverage: at most one origin entry (the first of its kind, where a fetched page says so) and items held by a named design collection (MoMA, V&A, Design Museum London, Cooper Hewitt, Vitra Design Museum) or given a major design award (Compasso d'Oro, Red Dot Best of the Best, iF Gold), each confirmed on a fetched page; no other models are listed."
+       "sel": "Follows only the fetched pages named here: Wikipedia, Hearing aid. Coverage: at most one origin entry (the first of its kind, where a fetched page says so) and items held by a named design collection (MoMA, V&A, Design Museum London, Cooper Hewitt, Vitra Design Museum) or given a major design award (Compasso d'Oro, Red Dot Best of the Best, iF Gold), each confirmed on a fetched page; no other models are listed. No complete list exists; follows Wikipedia's Hearing aid article (both windows read). Only the origin is kept; Vactuphone and other models are not collection or award items."
       },
       {
        "n": "Over-the-counter hearing aid",
@@ -4610,7 +4656,7 @@
      "note": "unit sales, Sanford C. Bernstein estimate as reported in 2013"
     }
    ],
-   "msum": "Six makers shared the hearing-aid market in 2012: Sonova 24 %, Demant 23 %, Sivantos 17 %, GN 16 %, Starkey and Widex 9 % each. The figures are by units and are old; WS Audiology formed in 2019 from Sivantos and Widex."
+   "msum": "Six makers shared the hearing-aid market in 2012: Sonova 24 %, Demant 23 %, Sivantos 17 %, GN 16 %, Starkey and Widex 9 % each. The figures are by units and are old; WS Audiology formed in 2019 from Sivantos and Widex. Wikipedia's Sonova article gives Sonova an estimated 24 % in 2013; no current share by maker was found."
   },
   {
    "n": "Vision & communication",
@@ -4968,7 +5014,7 @@
         ]
        ],
        "nl": "One entry is a braille writing or reading device line sold under its own name; later and adapted versions are versions.",
-       "sel": "No whole-space reference exists. The one entry is the Perkins Brailler, which has its own Wikipedia article; makers of braille displays and note-takers are in the brand register.",
+       "sel": "No whole-space reference exists. The one entry is the Perkins Brailler, which has its own Wikipedia article; makers of braille displays and note-takers are in the brand register. No complete list exists; follows Wikipedia's Perkins Brailler article. Other braille devices are commodity products.",
        "xg": "by device form"
       }
      ]
