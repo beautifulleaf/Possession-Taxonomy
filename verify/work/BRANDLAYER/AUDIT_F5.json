@@ -1,6 +1,579 @@
 {
  "cat": "F5",
- "add_brands": [],
+ "add_brands": [
+  {
+   "n": "Maestro (debit card)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Belgium",
+   "dept": "payment and transit cards",
+   "region": "Europe/global",
+   "homonym": true
+  },
+  {
+   "n": "Interac",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Canada",
+   "dept": "payment and transit cards",
+   "region": "North America",
+   "homonym": false
+  },
+  {
+   "n": "Bancomat (Italy)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Italy",
+   "dept": "payment and transit cards",
+   "region": "Southern Europe",
+   "homonym": false
+  },
+  {
+   "n": "BankAxept",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Norway",
+   "dept": "payment and transit cards",
+   "region": "Northern Europe",
+   "homonym": false
+  },
+  {
+   "n": "Cartes Bancaires (CB)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "France",
+   "dept": "payment and transit cards",
+   "region": "Western Europe",
+   "homonym": false
+  },
+  {
+   "n": "Dankort",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Denmark",
+   "dept": "payment and transit cards",
+   "region": "Northern Europe",
+   "homonym": false
+  },
+  {
+   "n": "Forbrugsforeningen",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Denmark",
+   "dept": "payment and transit cards",
+   "region": "Northern Europe",
+   "homonym": false
+  },
+  {
+   "n": "Girocard",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Germany",
+   "dept": "payment and transit cards",
+   "region": "Western Europe",
+   "homonym": false
+  },
+  {
+   "n": "Mir (payment system)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Russia",
+   "dept": "payment and transit cards",
+   "region": "Central & Eastern Europe",
+   "homonym": true
+  },
+  {
+   "n": "V Pay",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Europe",
+   "dept": "payment and transit cards",
+   "region": "Europe",
+   "homonym": false
+  },
+  {
+   "n": "ArCa",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Armenia",
+   "dept": "payment and transit cards",
+   "region": "Middle East / Caucasus",
+   "homonym": false
+  },
+  {
+   "n": "AzeriCard",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Azerbaijan",
+   "dept": "payment and transit cards",
+   "region": "Caucasus",
+   "homonym": false
+  },
+  {
+   "n": "Altyn Asyr (payment system)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Turkmenistan",
+   "dept": "payment and transit cards",
+   "region": "Central Asia",
+   "homonym": false
+  },
+  {
+   "n": "Mada",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Saudi Arabia",
+   "dept": "payment and transit cards",
+   "region": "Middle East",
+   "homonym": true
+  },
+  {
+   "n": "Jaywan",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "United Arab Emirates",
+   "dept": "payment and transit cards",
+   "region": "Middle East",
+   "homonym": false
+  },
+  {
+   "n": "LankaPay",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Sri Lanka",
+   "dept": "payment and transit cards",
+   "region": "South Asia",
+   "homonym": false
+  },
+  {
+   "n": "TakaPay",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Bangladesh",
+   "dept": "payment and transit cards",
+   "region": "South Asia",
+   "homonym": false
+  },
+  {
+   "n": "BC Card",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "South Korea",
+   "dept": "payment and transit cards",
+   "region": "East Asia",
+   "homonym": false
+  },
+  {
+   "n": "Electronic Payment Services (EPS)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Hong Kong",
+   "dept": "payment and transit cards",
+   "region": "East Asia",
+   "homonym": false
+  },
+  {
+   "n": "Hyundai Card",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "South Korea",
+   "dept": "payment and transit cards",
+   "region": "East Asia",
+   "homonym": true
+  },
+  {
+   "n": "BCA Card",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Indonesia",
+   "dept": "payment and transit cards",
+   "region": "Southeast Asia",
+   "homonym": false
+  },
+  {
+   "n": "GPN (Gerbang Pembayaran Nasional)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Indonesia",
+   "dept": "payment and transit cards",
+   "region": "Southeast Asia",
+   "homonym": false
+  },
+  {
+   "n": "MEPS",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Malaysia",
+   "dept": "payment and transit cards",
+   "region": "Southeast Asia",
+   "homonym": false
+  },
+  {
+   "n": "NETS",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Singapore",
+   "dept": "payment and transit cards",
+   "region": "Southeast Asia",
+   "homonym": false
+  },
+  {
+   "n": "Verve (Verve International)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Nigeria",
+   "dept": "payment and transit cards",
+   "region": "Sub-Saharan Africa",
+   "homonym": true
+  },
+  {
+   "n": "eftpos",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Australia",
+   "dept": "payment and transit cards",
+   "region": "Oceania",
+   "homonym": false
+  },
+  {
+   "n": "Cabcharge",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Australia",
+   "dept": "payment and transit cards",
+   "region": "Oceania",
+   "homonym": false
+  },
+  {
+   "n": "Access (credit card)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "United Kingdom",
+   "dept": "payment and transit cards",
+   "region": "Western Europe",
+   "homonym": true
+  },
+  {
+   "n": "Carte Blanche (credit card)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "United States",
+   "dept": "payment and transit cards",
+   "region": "North America",
+   "homonym": false
+  },
+  {
+   "n": "Chipknip",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Netherlands",
+   "dept": "payment and transit cards",
+   "region": "Western Europe",
+   "homonym": false
+  },
+  {
+   "n": "Choice (credit card)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "United States",
+   "dept": "payment and transit cards",
+   "region": "North America",
+   "homonym": true
+  },
+  {
+   "n": "enRoute (credit card)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Canada",
+   "dept": "payment and transit cards",
+   "region": "North America",
+   "homonym": false
+  },
+  {
+   "n": "Eurocheque",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Europe",
+   "dept": "payment and transit cards",
+   "region": "Europe",
+   "homonym": false
+  },
+  {
+   "n": "Laser (debit card)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Ireland",
+   "dept": "payment and transit cards",
+   "region": "Western Europe",
+   "homonym": true
+  },
+  {
+   "n": "Mondex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "United Kingdom",
+   "dept": "payment and transit cards",
+   "region": "Western Europe",
+   "homonym": false
+  },
+  {
+   "n": "Solo (debit card)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "United Kingdom",
+   "dept": "payment and transit cards",
+   "region": "Western Europe",
+   "homonym": true
+  },
+  {
+   "n": "Switch (debit card)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "United Kingdom",
+   "dept": "payment and transit cards",
+   "region": "Western Europe",
+   "homonym": true
+  },
+  {
+   "n": "Proton (debit card)",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "Belgium",
+   "dept": "payment and transit cards",
+   "region": "Western Europe",
+   "homonym": true
+  },
+  {
+   "n": "Visa Electron",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maestro_%28debit_card%29",
+   "says": "listed in the Wikipedia 'Payment cards' navbox (regional and specialty / defunct cards), each with its own article; national card scheme",
+   "country": "",
+   "dept": "payment and transit cards",
+   "region": "global",
+   "homonym": false
+  },
+  {
+   "n": "Bernard Quaritch Ltd",
+   "layer": "cultural",
+   "src": "https://ilab.org/affiliate/bernard-quaritch-ltd",
+   "says": "ILAB affiliate; buying and selling rare books and manuscripts since 1847; founding member of the ABA (1906)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera dealer",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Peter Harrington",
+   "layer": "cultural",
+   "src": "https://ilab.org/affiliate/peter-harrington",
+   "says": "ILAB affiliate (UK, est. 1969), 'one of the leading rare books firms in the world'; photography among specialities; mainly books (F1 overlap)",
+   "country": "United Kingdom",
+   "dept": "dealers",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Shapero Rare Books",
+   "layer": "cultural",
+   "src": "https://ilab.org/affiliate/shapero-rare-books-ltd",
+   "says": "ILAB affiliate, London; rare books, prints, photographs; 'India and Persia in Manuscript and Print' catalogue",
+   "country": "United Kingdom",
+   "dept": "dealers",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Richmond Autographs",
+   "layer": "cultural",
+   "src": "https://aba.org.uk/bookseller-member-directory",
+   "says": "member of the Antiquarian Booksellers' Association (UK; ILAB member association with rules)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera dealer",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Adam Andrusier Autographs Ltd",
+   "layer": "cultural",
+   "src": "https://aba.org.uk/bookseller-member-directory",
+   "says": "ABA member (UK) autograph dealer; firm named after its founder",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera dealer",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Roland Belgrave Vintage Photography Ltd",
+   "layer": "cultural",
+   "src": "https://aba.org.uk/bookseller-member-directory",
+   "says": "ABA member (UK) vintage photograph dealer",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera dealer",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Mayfair Rare Books and Manuscripts Ltd",
+   "layer": "cultural",
+   "src": "https://aba.org.uk/bookseller-member-directory",
+   "says": "ABA member (UK)",
+   "country": "United Kingdom",
+   "dept": "autographs, manuscripts, ephemera dealer",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Gemalto",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Gemalto",
+   "says": "own Wikipedia article: until its acquisition by Thales the world's largest manufacturer of SIM cards; formed 2006 from Axalto and Gemplus",
+   "country": "Netherlands/France",
+   "dept": "SIM and smart card makers",
+   "region": "Western Europe",
+   "note": "now part of Thales (Thales already in harvest); keep as historic card brand printed on SIM and bank cards"
+  },
+  {
+   "n": "Gemplus",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Smart_card",
+   "says": "Smart card article: Axalto and Gemplus were 'at the time the world's top two smart-card manufacturers'",
+   "country": "France",
+   "dept": "SIM and smart card makers",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Axalto",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Smart_card",
+   "says": "Smart card article: Schlumberger's card unit plus Bull CP8, one of the world's top two smart-card makers before merging into Gemalto",
+   "country": "France",
+   "dept": "SIM and smart card makers",
+   "region": "Western Europe"
+  },
+  {
+   "n": "IDEMIA",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/IDEMIA",
+   "says": "own Wikipedia article: makes ID cards, ePassports, payment cards and SIM cards (Oberthur Technologies + Morpho, 2017)",
+   "country": "France",
+   "dept": "ID and passport printers",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Oberthur Technologies",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Smart_card",
+   "says": "Smart card article (Idemia section) and own article: smart cards and passports; merged into IDEMIA 2017",
+   "country": "France",
+   "dept": "SIM and smart card makers",
+   "region": "Western Europe",
+   "note": "distinct from Oberthur Fiduciaire (banknotes, F3)"
+  },
+  {
+   "n": "InComm Payments",
+   "layer": "cultural",
+   "tier": "listed",
+   "src": "https://www.incomm.com/about-us",
+   "says": "own site: founded 1992 to sell prepaid long-distance phone cards; developed the first iTunes retail gift card (2003), Vanilla Visa gift card (2004)",
+   "country": "United States",
+   "dept": "gift and phone cards",
+   "region": "North America",
+   "note": "maker's own site = existence only"
+  },
+  {
+   "n": "Blackhawk Network",
+   "layer": "cultural",
+   "tier": "listed",
+   "src": "https://blackhawknetwork.com/lets-talk/faq",
+   "says": "own site: gift card network, One4all, Vanilla/Visa/Mastercard gift cards",
+   "country": "United States",
+   "dept": "gift and phone cards",
+   "region": "North America",
+   "homonym": true,
+   "note": "not the Blackhawk (C1) brand in the index; own site = existence only"
+  },
+  {
+   "n": "Lehnert & Landrock",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Lehnert_%26_Landrock",
+   "says": "own Wikipedia article: Tunis and Cairo firm producing original prints, photogravures and lithographic postcards; marketed prints and postcards for the European market",
+   "country": "Tunisia/Egypt",
+   "dept": "postcards",
+   "region": "North Africa",
+   "note": "two-person firm; publisher-studio like the postcard publishers, check content-identity"
+  },
+  {
+   "n": "Maison Bonfils",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Maison_Bonfils",
+   "says": "own Wikipedia article: Beirut studio (1867), 'one of the most prolific studios in the Middle East'; publisher of albums and postcards",
+   "country": "Lebanon",
+   "dept": "photographs and postcards",
+   "region": "Middle East",
+   "note": "studio-publisher; check content-identity"
+  },
+  {
+   "n": "Sébah & Joaillier",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Jean_Pascal_S%C3%A9bah",
+   "says": "Wikipedia (Jean Pascal Sébah): firm renamed Sebah & Joaillier 1888, produced albums presented by the Ottoman Empire; most prestigious studio in Constantinople",
+   "country": "Turkey",
+   "dept": "photographs and postcards",
+   "region": "Middle East",
+   "note": "studio-publisher; check content-identity"
+  },
+  {
+   "n": "Bourne & Shepherd",
+   "layer": "cultural",
+   "src": "https://news.artnet.com/art-world/worlds-oldest-photography-studio-india-closes-176-years-534071",
+   "says": "artnet News: 'World's oldest photography studio' (Kolkata), closed 2016 after 176 years",
+   "country": "India",
+   "dept": "photographs",
+   "region": "South Asia",
+   "note": "studio; check content-identity"
+  },
+  {
+   "n": "Isseido Booksellers (一誠堂書店)",
+   "layer": "cultural",
+   "src": "https://www.nippon.com/ja/japan-topics/b11003/",
+   "says": "nippon.com: Jimbocho dealer founded 1903 handling classical Japanese texts (wahon, scrolls, old maps) and Western antiquarian books; clients include National Diet Library, British Library",
+   "country": "Japan",
+   "dept": "autographs, manuscripts, ephemera dealer",
+   "region": "East Asia"
+  }
+ ],
  "add_regions": [],
  "drop": [],
  "notes": "",

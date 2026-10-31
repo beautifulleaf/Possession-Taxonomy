@@ -256,6 +256,80 @@
    ],
    "found": 28,
    "note": "KNX list is membership only (standing); Loxone, Gira, Jung already known"
+  },
+  {
+   "axis": "kind",
+   "item": "Home systems > Switches, sockets",
+   "queries": [
+    "luxury decorative light switch brands guide",
+    "Meljac Hamilton Litestat Corston"
+   ],
+   "found": 3,
+   "note": "only maker pages; no independent ranking found; Forbes & Lomax, Corston already registered"
+  },
+  {
+   "axis": "kind",
+   "item": "Structure > Stairs",
+   "queries": [
+    "best staircase manufacturers designer spiral",
+    "BWF staircase award winners"
+   ],
+   "found": 4,
+   "note": "BWF 2025 juried; 2024 winners (D Foord Joinery staircase) seen only in search excerpt, not fetched; Bisca/Spiral UK maker pages seen in search only, not fetched; Fontanot/Arke untried"
+  },
+  {
+   "axis": "kind",
+   "item": "Living > Fireplaces & stoves (Kachelofen, masonry heater guilds)",
+   "queries": [
+    "Hagos eG Kachelofen Hafner Mitglieder",
+    "Kachelofenverband Österreich Mitgliedsbetriebe"
+   ],
+   "found": 1,
+   "note": "individual Hafner firms are local workshops; only Hagos co-op recorded; Masonry Heater Association member list not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Structure > Tatami, shoji, fusuma, hinoki bath (Japan)",
+   "queries": [
+    "tatami shoji craftsmen company established Japan",
+    "hinoki ofuro bathtub maker Japan"
+   ],
+   "found": 2,
+   "note": "only maker pages fetched; Bartok design (hinoki ofuro exporter) and Torimatsu seen in search only; no independent guild list found"
+  },
+  {
+   "axis": "kind",
+   "item": "Fitted storage / kitchens (Arclinea, Smallbone, Poliform)",
+   "queries": [
+    "Smallbone of Devizes bespoke kitchens",
+    "Poliform Rimadesio Arclinea luxury Italian kitchens"
+   ],
+   "found": 11,
+   "note": "Rimadesio, Hülsta already or untried; Arclinea page fetched only via valcucine quote"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Talavera Puebla denominación de origen talleres",
+    "Uriarte Talavera"
+   ],
+   "found": 9,
+   "note": "Talavera tile workshops (DO); nothing else searched"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [],
+   "found": 0,
+   "note": "UNTRIED this round (context); tadelakt covered under North Africa earlier"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [],
+   "found": 0,
+   "note": "UNTRIED this round (context)"
   }
  ],
  "regions": [
@@ -429,6 +503,56 @@
     "Basalte",
     "Merten"
    ]
+  },
+  {
+   "region": "Germany/Austria (Kachelofen)",
+   "speciality": "tiled stoves (Kachelofen) built by master Hafner; Austrian association has ~600 Hafner firms, Hagos co-op ~1,400 members",
+   "src": "https://www.hagos.de/unternehmen/ueber-uns",
+   "brands": [
+    "Hagos"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "tatami, shoji, fusuma interior joinery",
+   "src": "https://www.marui-sangyo2.com/en",
+   "brands": [
+    "Marui Sangyo",
+    "TTN Corporation"
+   ]
+  },
+  {
+   "region": "Italy (kitchens)",
+   "speciality": "design-led kitchen systems",
+   "src": "https://www.valcucine.com/magazine/en/2021/07/amongst-the-best-kitchen-brands-in-the-world/",
+   "brands": [
+    "Valcucine",
+    "Alpes Inox",
+    "Arclinea",
+    "Boffi",
+    "Dada",
+    "Poliform",
+    "Rossana",
+    "Schiffini",
+    "Snaidero",
+    "Pedini"
+   ]
+  },
+  {
+   "region": "Latin America (Mexico)",
+   "speciality": "Talavera de Puebla hand-painted tin-glazed tile and ceramics, protected by Denominacion de Origen",
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "brands": [
+    "Uriarte Talavera",
+    "Talavera La Reyna",
+    "Talavera Armando",
+    "Talavera Celia",
+    "Talavera Santa Catarina",
+    "Talavera de la Nueva España",
+    "Talavera de la Luz",
+    "Talavera de las Americas",
+    "Talavera Virgilio Perez"
+   ]
   }
  ],
  "sources": [
@@ -601,6 +725,106 @@
    "new_names": 28,
    "status": "done",
    "note": "0 already in register"
+  },
+  {
+   "url": "https://www.meljac.com/en/products",
+   "title": "Meljac switches and sockets (maker page)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker page 0 already in register"
+  },
+  {
+   "url": "https://hamilton-litestat.com/?from",
+   "title": "Hamilton Litestat (maker page)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "maker page 1 already in register"
+  },
+  {
+   "url": "https://www.ttjonline.com/news/bwf-awards-winners-announced",
+   "title": "BWF Awards 2025 winners (Timber Trades Journal)",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 4,
+   "new_names": 4,
+   "status": "done",
+   "note": "0 already in register"
+  },
+  {
+   "url": "https://www.bisca.co.uk/about-bisca",
+   "title": "Bisca about",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker page 0 already in register"
+  },
+  {
+   "url": "https://www.hagos.de/unternehmen/ueber-uns",
+   "title": "Hagos eG about",
+   "kind": "guild",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "cooperative/wholesaler, role seller 0 already in register"
+  },
+  {
+   "url": "https://www.marui-sangyo2.com/en",
+   "title": "Marui Sangyo tatami shop",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker page; role seller 0 already in register"
+  },
+  {
+   "url": "https://ttn-corporation.co.jp/en/",
+   "title": "TTN Corporation",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker page; claim is its own 0 already in register"
+  },
+  {
+   "url": "https://www.valcucine.com/magazine/en/2021/07/amongst-the-best-kitchen-brands-in-the-world/",
+   "title": "Valcucine magazine: press recognition (Remodelista 8 Italian kitchen brands; Futurist Architecture 6 best)",
+   "kind": "ranking",
+   "years": "2021-2026",
+   "names_on_page": 10,
+   "new_names": 9,
+   "status": "done",
+   "note": "second-hand quote on a maker page; Remodelista/Futurist not fetched 1 already in register"
+  },
+  {
+   "url": "https://www.smallbone.co.uk/about",
+   "title": "Smallbone about",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker page 0 already in register"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "title": "Wikipedia: Artisanal Talavera of Puebla and Tlaxcala",
+   "kind": "pdo",
+   "years": "n/a",
+   "names_on_page": 9,
+   "new_names": 0,
+   "status": "done",
+   "note": "tile/ceramic craft: dept tile (overlap with other categories possible) 9 already in register"
   }
  ],
  "brands": [
@@ -1727,6 +1951,160 @@
    "says": "KNX Association certified-device manufacturer list (member of the open smart-building standard)",
    "country": "Austria",
    "dept": "switches/smart home"
+  },
+  {
+   "n": "Meljac",
+   "layer": "premium",
+   "src": "https://www.meljac.com/en/products",
+   "says": "maker page: high-end brass/glass switches and sockets, Paris showroom, ~60 dealers worldwide (existence only, no independent statement)",
+   "country": "France",
+   "dept": "switches"
+  },
+  {
+   "n": "Mumford & Wood",
+   "layer": "premium",
+   "src": "https://www.ttjonline.com/news/bwf-awards-winners-announced",
+   "says": "BWF Woodworking Project of the Year 2025 (bespoke windows, 1 Mayfair); juried",
+   "country": "UK",
+   "dept": "windows/joinery"
+  },
+  {
+   "n": "Houghtons of York",
+   "layer": "premium",
+   "src": "https://www.ttjonline.com/news/bwf-awards-winners-announced",
+   "says": "BWF Heritage Project of the Year 2025 (Castle Howard); juried",
+   "country": "UK",
+   "dept": "joinery"
+  },
+  {
+   "n": "NBJ (London)",
+   "layer": "premium",
+   "src": "https://www.ttjonline.com/news/bwf-awards-winners-announced",
+   "says": "BWF Innovation Award 2025 (Grainhouse Staircase); juried",
+   "country": "UK",
+   "dept": "stairs"
+  },
+  {
+   "n": "Heron Manufacture",
+   "layer": "premium",
+   "src": "https://www.ttjonline.com/news/bwf-awards-winners-announced",
+   "says": "BWF Awards 2025 (Rising Star winner employee, H&S award); juried trade awards",
+   "country": "UK",
+   "dept": "joinery"
+  },
+  {
+   "n": "Bisca",
+   "layer": "premium",
+   "src": "https://www.bisca.co.uk/about-bisca",
+   "says": "maker page: bespoke metal/timber staircases since 1995, founder a time-served blacksmith (existence only; awards listed on homepage not fetched)",
+   "country": "UK",
+   "dept": "stairs"
+  },
+  {
+   "n": "Hagos",
+   "layer": "cultural",
+   "src": "https://www.hagos.de/unternehmen/ueber-uns",
+   "says": "cooperative of German/Austrian tiled-stove (Kachelofen) builders, founded 1919, ~1,400 members; wholesale supplier to the Hafner craft",
+   "country": "Germany",
+   "dept": "stoves",
+   "role": "seller"
+  },
+  {
+   "n": "Marui Sangyo",
+   "layer": "cultural",
+   "src": "https://www.marui-sangyo2.com/en",
+   "says": "tatami, fusuma, shoji maker and seller in Chino, Nagano; page states established 1882 (page also says 1896); maker page",
+   "country": "Japan",
+   "dept": "tatami/shoji",
+   "role": "seller"
+  },
+  {
+   "n": "TTN Corporation",
+   "layer": "cultural",
+   "src": "https://ttn-corporation.co.jp/en/",
+   "says": "own claim: No.1 market share for tatami in Japan; tatami, fusuma, shoji, tategu, amido",
+   "country": "Japan",
+   "dept": "tatami/shoji"
+  },
+  {
+   "n": "Valcucine",
+   "layer": "premium",
+   "src": "https://www.valcucine.com/magazine/en/2021/07/amongst-the-best-kitchen-brands-in-the-world/",
+   "says": "named by Remodelista (8 preferred Italian kitchen brands) / Futurist Architecture (6 best Italian kitchen brands), as quoted on a maker page",
+   "country": "Italy",
+   "dept": "kitchens"
+  },
+  {
+   "n": "Alpes Inox",
+   "layer": "premium",
+   "src": "https://www.valcucine.com/magazine/en/2021/07/amongst-the-best-kitchen-brands-in-the-world/",
+   "says": "named by Remodelista (8 preferred Italian kitchen brands) / Futurist Architecture (6 best Italian kitchen brands), as quoted on a maker page",
+   "country": "Italy",
+   "dept": "kitchens"
+  },
+  {
+   "n": "Arclinea",
+   "layer": "premium",
+   "src": "https://www.valcucine.com/magazine/en/2021/07/amongst-the-best-kitchen-brands-in-the-world/",
+   "says": "named by Remodelista (8 preferred Italian kitchen brands) / Futurist Architecture (6 best Italian kitchen brands), as quoted on a maker page",
+   "country": "Italy",
+   "dept": "kitchens"
+  },
+  {
+   "n": "Dada",
+   "layer": "premium",
+   "src": "https://www.valcucine.com/magazine/en/2021/07/amongst-the-best-kitchen-brands-in-the-world/",
+   "says": "named by Remodelista (8 preferred Italian kitchen brands) / Futurist Architecture (6 best Italian kitchen brands), as quoted on a maker page",
+   "country": "Italy",
+   "dept": "kitchens"
+  },
+  {
+   "n": "Poliform",
+   "layer": "premium",
+   "src": "https://www.valcucine.com/magazine/en/2021/07/amongst-the-best-kitchen-brands-in-the-world/",
+   "says": "named by Remodelista (8 preferred Italian kitchen brands) / Futurist Architecture (6 best Italian kitchen brands), as quoted on a maker page",
+   "country": "Italy",
+   "dept": "kitchens"
+  },
+  {
+   "n": "Rossana",
+   "layer": "premium",
+   "src": "https://www.valcucine.com/magazine/en/2021/07/amongst-the-best-kitchen-brands-in-the-world/",
+   "says": "named by Remodelista (8 preferred Italian kitchen brands) / Futurist Architecture (6 best Italian kitchen brands), as quoted on a maker page",
+   "country": "Italy",
+   "dept": "kitchens"
+  },
+  {
+   "n": "Schiffini",
+   "layer": "premium",
+   "src": "https://www.valcucine.com/magazine/en/2021/07/amongst-the-best-kitchen-brands-in-the-world/",
+   "says": "named by Remodelista (8 preferred Italian kitchen brands) / Futurist Architecture (6 best Italian kitchen brands), as quoted on a maker page",
+   "country": "Italy",
+   "dept": "kitchens"
+  },
+  {
+   "n": "Snaidero",
+   "layer": "premium",
+   "src": "https://www.valcucine.com/magazine/en/2021/07/amongst-the-best-kitchen-brands-in-the-world/",
+   "says": "named by Remodelista (8 preferred Italian kitchen brands) / Futurist Architecture (6 best Italian kitchen brands), as quoted on a maker page",
+   "country": "Italy",
+   "dept": "kitchens"
+  },
+  {
+   "n": "Pedini",
+   "layer": "premium",
+   "src": "https://www.valcucine.com/magazine/en/2021/07/amongst-the-best-kitchen-brands-in-the-world/",
+   "says": "named by Remodelista (8 preferred Italian kitchen brands) / Futurist Architecture (6 best Italian kitchen brands), as quoted on a maker page",
+   "country": "Italy",
+   "dept": "kitchens"
+  },
+  {
+   "n": "Smallbone of Devizes",
+   "layer": "premium",
+   "src": "https://www.smallbone.co.uk/about",
+   "says": "maker page: handmade kitchens in Devizes workshop, FSC-certified timber, founded 50+ years ago (Charlie Smallbone, Mark Wilkinson); existence/craft claim only",
+   "country": "UK",
+   "dept": "kitchens"
   }
  ],
  "cross_tag": [
@@ -1891,13 +2269,99 @@
    "src": "https://www.energysage.com/energy-storage/best-home-batteries",
    "says": "EnergySage 2026 best overall home battery (Powerwall 3); Tesla Energy is same company",
    "layer": "premium"
+  },
+  {
+   "n": "Uriarte Talavera",
+   "register_cats": [
+    "B4",
+    "C2",
+    "C8"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "one of nine workshops certified by the Consejo Regulador de la Talavera under the Mexican Denominacion de Origen; UNESCO ICH 2019",
+   "layer": "cultural"
+  },
+  {
+   "n": "Talavera La Reyna",
+   "register_cats": [
+    "B4",
+    "C8"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "one of nine workshops certified by the Consejo Regulador de la Talavera under the Mexican Denominacion de Origen; UNESCO ICH 2019",
+   "layer": "cultural"
+  },
+  {
+   "n": "Talavera Armando",
+   "register_cats": [
+    "B4",
+    "B5"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "one of nine workshops certified by the Consejo Regulador de la Talavera under the Mexican Denominacion de Origen; UNESCO ICH 2019",
+   "layer": "cultural"
+  },
+  {
+   "n": "Talavera Celia",
+   "register_cats": [
+    "B4"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "one of nine workshops certified by the Consejo Regulador de la Talavera under the Mexican Denominacion de Origen; UNESCO ICH 2019",
+   "layer": "cultural"
+  },
+  {
+   "n": "Talavera Santa Catarina",
+   "register_cats": [
+    "B4"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "one of nine workshops certified by the Consejo Regulador de la Talavera under the Mexican Denominacion de Origen; UNESCO ICH 2019",
+   "layer": "cultural"
+  },
+  {
+   "n": "Talavera de la Nueva España",
+   "register_cats": [
+    "B4"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "one of nine workshops certified by the Consejo Regulador de la Talavera under the Mexican Denominacion de Origen; UNESCO ICH 2019",
+   "layer": "cultural"
+  },
+  {
+   "n": "Talavera de la Luz",
+   "register_cats": [
+    "B4",
+    "C2"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "one of nine workshops certified by the Consejo Regulador de la Talavera under the Mexican Denominacion de Origen; UNESCO ICH 2019",
+   "layer": "cultural"
+  },
+  {
+   "n": "Talavera de las Americas",
+   "register_cats": [
+    "B4"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "one of nine workshops certified by the Consejo Regulador de la Talavera under the Mexican Denominacion de Origen; UNESCO ICH 2019",
+   "layer": "cultural"
+  },
+  {
+   "n": "Talavera Virgilio Perez",
+   "register_cats": [
+    "B4"
+   ],
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "one of nine workshops certified by the Consejo Regulador de la Talavera under the Mexican Denominacion de Origen; UNESCO ICH 2019",
+   "layer": "cultural"
   }
  ],
  "next": [
-  "Untried sections: stairs/lifts, flooring (beyond MOVES_C8), fitted wardrobes, water treatment, ventilation, solar/home energy, smart home, switches/sockets (Legrand, MK, Clipsal, HPM, Eaton), pools, garden buildings (Hartley Botanic known under C2 - cross_tag G3; shepherd's huts), built-in lighting",
-  "Awards: Red Dot / iF / German Design Award per maker page (lists blocked per C8 notes); Architizer A+Product; Which? radiators/stoves; Stiftung Warentest",
-  "Heritage: Royal Warrant list (fetched by C8, Forbo recorded there), EPV (poele, ceramique), Marchi Storici",
-  "Cultural sellers: Japanese tatami/shoji/hinoki ofuro makers, Turkish hammam fitters, Kachelofen guild member lists (Hagos eG seen in search only), Austrian Kachelofenverband",
-  "Regions untried: Sub-Saharan Africa, Southeast Asia, Latin America; Middle East, North Africa, Japan only via tadelakt/HVAC"
+  "Untried: Turkish hammam fitters; pools and spas (Endless Pools, Hydropool); garden buildings/glasshouses (Hartley Botanic, Alitex, Gabriel Ash are registered under C2; need cross_tag check on a fetched page; shepherd's huts); Rimadesio, California Closets, Hülsta page fetch; built-in lighting (Kreon; Concord A5, iGuzzini B3 check)",
+  "Regions untried: Sub-Saharan Africa, Southeast Asia (one search each); Middle East hammam; Stiebel Eltron page not fetched (already registered G3)",
+  "Evidence to upgrade: Red Dot/iF per maker page; Which? solar/radiator; Stiftung Warentest; BWF Awards 2024 winners page (D Foord Joinery) needs a fetch; Bisca homepage awards (Build It, Northern Design Awards) needs a fetch; Remodelista and Futurist Architecture pages not fetched",
+  "Pella/Ideal homonym check not done (no fetched page confirming the register row is the same company); left as cross_tag entries only",
+  "Masonry Heater Association member list (mha-net.org) untried"
  ]
 }
