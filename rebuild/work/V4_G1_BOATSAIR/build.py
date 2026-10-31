@@ -61,7 +61,7 @@ def parse_auto(f):
         q,n,y,d,c=p[:5]; code=p[5] if len(p)>5 and p[5] else 'Y'
         out.append(dict(q=q,n=n,y=y,d=d,c=c,code=code,b=''))
     return out
-for f in ('sail1.tsv','sail2.tsv','sail3.tsv'):
+for f in ('sail1.tsv','sail2.tsv','sail3.tsv','sail4.tsv'):
     for l in open(f):
         p=l.rstrip('\n').split('|')
         ci=next(i for i in range(2,len(p)) if re.fullmatch(r'[DSCKRYMOI]',p[i]))
@@ -72,7 +72,7 @@ for f in ('sail1.tsv','sail2.tsv','sail3.tsv'):
         if n.startswith('Beneteau') or bld=='Beneteau' or n in EXCL_NAMES: continue
         rows.append(dict(q=q,n=n,y=y,d=d,c=c,code=code,b=bld))
 auto=[]
-for f in sorted(glob.glob('sail[4-9].tsv')+glob.glob('sail[1-9][0-9].tsv')):
+for f in sorted(glob.glob('sail[5-9].tsv')+glob.glob('sail[1-9][0-9].tsv')):
     auto+=parse_auto(f)
 from collections import Counter
 tok=lambda n: re.match(r"^([A-Za-z&' ]+?)[ -]?\d",n).group(1).strip() if re.match(r"^([A-Za-z&' ]+?)[ -]?\d",n) else None
