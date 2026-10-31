@@ -243,7 +243,7 @@ for rk,disp,b in to_alt:
 ORD=['Unix and BSD','Commercial Unix','DOS family','Amiga, Atari and Acorn lines','OS/2 lines','Hobby and research']
 k['x'].sort(key=lambda e:ORD.index(e['g']))
 # --- Mobile OS kind ---
-mk_=newkind(OS,'Operating systems',{'n':'Mobile operating system','a':'phone OS · tablet OS · wearable OS','d':'Operating system that runs a phone, tablet, watch or TV box, including custom Android builds that replace the maker\'s system.','s':SRC['os'],'tt':[['Basis',['Android','Linux','Proprietary']],['Device',['Phone','Tablet','Watch','TV']]],'see':[['D2','Smartphone','the handset']],'x':[]})
+mk_=newkind(OS,'Operating systems',{'n':'Mobile operating system','a':'phone OS · tablet OS · wearable OS','d':'Operating system that runs a phone, tablet, watch or TV box, including custom Android builds that replace the maker\'s system.','s':SRC['os'],'tt':[['Basis',['Android','Linux','Proprietary']],['Device',['Phone','Tablet','Watch','TV']]],'see':[['D2','Touchscreen smartphone','the handset']],'x':[]})
 add,_=addnew(mk_,sn,MOBILE,SRC['os'],'Operating system')
 mk_['x'].extend(add)
 for rk,n,b in to_mobile:
@@ -422,6 +422,10 @@ for kn,srcn in [('Classic word processor','History of software and Category:Disc
     spec(CLS,kn,'One entry is a discontinued program of its kind, kept for collectors and for people running it on old machines; releases are versions.',
      f"Programs named in Wikipedia's {srcn} that belong to this kind.",
      "Covers part of the 204 pages of Category:Discontinued software (the first 200 were read) and the History of software page (first 100,000 of 114,786 characters); entries for games, libraries and services are out of scope, and Winamp belongs to the Music & audio department.")
+for _sh in D[OS]['s']:
+    if _sh['n']=='Operating systems': _sh['ax']='kinds by what the system runs on: a desktop or laptop, a phone or other device, or an alternative or hobby system, with Linux distributions as the largest family'
+for _sh in D[NET]['s']:
+    if _sh['n']=='AI assistants & agents': _sh['ax']='kinds by how the AI is used: a chat assistant, an answer engine, an agent that acts for you, or a model run on your own computer'
 # cross-kind duplicate cleanup
 REN={('BitTorrent client','Miro'):'Miro (media player)',('AI assistant','Leo'):'Leo (Brave)',('Text editor','Leo'):'Leo (outliner editor)'}
 for dn in NAMES:
@@ -510,7 +514,7 @@ for dn,d in D.items():
     for sh in d['s']:
         for k in sh['k']:
             for e in k.get('x',[]):
-                if e.get('mk') and e['mk'] not in oldn: used[e['mk']]=e
+                if e.get('mk') and e.get('tier') and e['mk'] not in oldn: used[e['mk']]=e
                 if e.get('own') and e['own'] not in oldn: used.setdefault(e['own'],e)
 brands=[{'n':n,'c':'','f':'','seg':'','kf':e['n'],'d':f"Maker or owner of {e['n']}.",'s':''} for n,e in sorted(used.items())]
 upd={}

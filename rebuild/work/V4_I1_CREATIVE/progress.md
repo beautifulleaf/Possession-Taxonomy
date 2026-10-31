@@ -3,3 +3,4 @@ step1: fetched ~30 pages (raster, vector, 3D list, video editing, DAW/audio edit
 step2: wrote data.py (rows for new entries); next build.py
 step3: built part, validated OK, report written. DONE
 step4 (continuation): started coordinator list items 1-7
+step5: fetched music-software list, photogrammetry, ham list, rtl-sdr list, version pages (Blender, Maya, 3ds Max, C4D, Stellarium, Lightroom, Cubase, FL, Kontakt), Adobe/Autodesk/Ableton/Avid/Blackmagic/Steinberg pages, Adobe+Autodesk 8-K. Next: data2.py + build.py changes (rows, FACTS, NOTES, VERS, OWN, MS, drop templated d)
