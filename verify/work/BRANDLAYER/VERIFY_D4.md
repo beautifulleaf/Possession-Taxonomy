@@ -2,10 +2,10 @@
 
 257 brands decided (180 harvest after 13 drops/merges, 77 audit adds after 7 lens/product lines merged into makers). Tiers: quality 39, cultural 108, listed 110. Not shown on src: 2 (Ednalite, Tiltall; both found on a second page, src2). Homonyms flagged: 14. Regions: 19, renown 3 (Japan/TIPA, Dresden/Saxony, Wetzlar).
 
-All 52 distinct source pages were fetched raw (Parallel web_fetch, full_content) and saved in VERIFY_D4_tmp/pages; names checked with normalised matching, list rows checked for links to an own article.
+All 55 source pages (49 cited sources plus 6 second pages) were fetched raw (Parallel web_fetch, full_content) and saved in VERIFY_D4_tmp/pages; names checked with normalised matching, list rows checked for links to an own article.
 
 ## Applied from the audit
-- Blue Moon (39 rows kept), Analogue Wonderland (20) and TIPA-dropdown names (19 incl. audit adds Røde, Hahnemühle, Vintage Visual) tiered **listed**. Upgraded only on another page: Tiffen, Miranda, Linhof (own Wikipedia article on the fetched list: cultural), Tiltall (Art + Math essay on build and durability: quality), Casio (EISA 2004-05: quality).
+- Blue Moon (40 of the 42 kept rows), Analogue Wonderland (all 20) and TIPA-dropdown names (18, including the audit adds Røde, Hahnemühle, Vintage Visual) tiered **listed**. Upgraded only on another page: Tiffen, Miranda, Linhof (own Wikipedia article on the fetched list: cultural), Tiltall (Art + Math essay on build and durability: quality), Casio (EISA 2004-05: quality).
 - UWPG underwater housings (Isotta, Aquatica, Sea & Sea, Marelux): **listed**. Every brand on that page links to bluewaterphotostore.com. Nauticam (Outex) and Seacam (Canon Rumors) stay quality on independent pages.
 - Metz: src fixed to List of photographic equipment makers (links to Metz_(company)), alias "Metz (company)". The MOVES_D2 Metz row (D3 TVs) is the same company, so merge.
 - Folmer and Schwing: **listed** (the list row links to Graflex).

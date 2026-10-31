@@ -56,6 +56,16 @@ for c in sys.argv[1:]:
         nm=n if isinstance(n,str) else n.get('n')
         g=glob_idx.get(norm(nm))
         if g and norm(g) not in here: B['b'].append({'n':g}); here[norm(g)]=B['b'][-1]; cross+=1
+    for am in v.get('alias_merges',[]):  # extra aliases for a brand (merged duplicates, product lines)
+        k=norm(am['n']); e=here.get(k)
+        if e is None:
+            g=glob_idx.get(k)
+            if not g: continue
+            e={'n':g}; B['b'].append(e); here[k]=e
+        have=[a for a in (e.get('an') or '').split(' · ') if a]
+        for a in am.get('add_aliases',[]):
+            if a not in have: have.append(a)
+        if have: e['an']=' · '.join(have)
     shown_names={norm(b['n']) for b in B['b']}
     cat['rg']=[{'n':r['region'],'sp':r.get('speciality',''),'s':r.get('src',''),'q':r.get('quote',''),
                 'b':[n for n in r.get('brands',[]) if norm(n) in shown_names or norm(n) in glob_idx]} for r in regs]
