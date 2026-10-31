@@ -1,0 +1,3 @@
+eAmbrosia register https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/ scraped with waitFor 10000: Firecrawl returned an empty page (title "eAmbrosia", no list rows; JS app).
+Third-party mirror found in search: https://eu-geographical-indications.pages.dev/ says "3 973 protected names · 76 countries · PDO, PGI and GI" and links "Bulk data" (/data), but /data shows only terms ("Source reused under CC BY 4.0 (Decision 2011/833/EU).") and exposes no download link (links format returned only anchors).
+Alexandria provider ec-europa-eu has only Eurostat indicator tools (no GI register).
