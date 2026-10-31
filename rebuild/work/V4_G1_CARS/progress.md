@@ -4,3 +4,4 @@ step2: data1.py (VW Group, Toyota group, Honda, Mazda) written
 step3: switched to Wikipedia category API listing (https://en.wikipedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:<X>_vehicles&cmlimit=500&cmtype=page|subcat&format=json&formatversion=2). Done: Nissan. Wikidata done: VW Group, Toyota, Honda, Mazda
 step4: Subaru, Mitsubishi, Suzuki done (category)
 step5: Ford, Chevrolet, Cadillac, Buick done (category). Todo: Ford subcats (Europe, Australia), GMC, Jeep, Lincoln, Mercury, Tesla, Dodge/Chrysler use Wikidata
+step6: Ford Europe, Lincoln, Jeep done. Tesla category name 'Tesla,_Inc._vehicles' empty -> try Tesla_vehicles
