@@ -29,7 +29,7 @@ def norm_key(name,marque):
     k=re.sub(r'(motorcycles|motorcycle|series|model)$','',k)
     return k
 def quote_title(t): return urllib.parse.quote(t,safe="/_()-,.'!&:~%")
-SC=re.compile(r"\b(vespa|lambretta|scoopy|spacy|dio|activa|aviator|grazia|pcx|nmax|xmax|tmax|tricity|burgman|skywave|jog|aerox|majesty|cygnus|mio|nouvo|ntorq|wego|scooty|chetak|jupiter|zuma|vino|fazzio|metropolis|tweet|ludix|speedfight|vivacity|kisbee|django|citystar|looxor|elystar|satelis|liberty|medley|beverly|mp3|x7|x8|x9|x10|ciao|buddy|vario|click|airblade|forza|silver wing|ruckus|zoomer|elite|metropolitan|cliq|genio|stylo|navi|helix|reflex|dylan|foresight|pantheon|cub|monkey|dax|mobylette|solex|quickly|schwalbe|moped|chaly|motocompo|grom|riga|muravey|pleasure|maestro|destini|xoom|duet|address|access 125|let's|sepia|choinori|people|downtown|agility|xciting|filano|nozza|lexi|fino|passol|neo's|epsilon|c ?400|c ?600|c ?650|c evolution|ce ?0[24]|ct ?\d+|z50\w*|ape|express|pop 110i|sh ?\d+|spree|motra|welbike|scooter|kymco|sym|pgo|autocycle|ap?\d|fantic)\b",re.I)
+SC=re.compile(r"\b(vespa|lambretta|scoopy|spacy|dio|activa|aviator|grazia|pcx|nmax|xmax|tmax|tricity|burgman|skywave|jog|aerox|majesty|cygnus|mio|nouvo|ntorq|wego|scooty|chetak|jupiter|zuma|vino|fazzio|metropolis|tweet|ludix|speedfight|vivacity|kisbee|django|citystar|looxor|elystar|satelis|liberty|medley|beverly|mp3|x7|x8|x9|x10|ciao|buddy|vario|click|airblade|forza|silver wing|ruckus|zoomer|elite|metropolitan|cliq|genio|stylo|navi|helix|reflex|dylan|foresight|pantheon|cub|monkey|dax|mobylette|solex|quickly|schwalbe|moped|chaly|motocompo|grom|riga|muravey|pleasure|maestro|destini|xoom|duet|address|access 125|let's|sepia|choinori|people|downtown|agility|xciting|filano|nozza|lexi|fino|passol|neo's|epsilon|c ?400|c ?600|c ?650|c evolution|ce ?0[24]|ct ?\d+|z50\w*|ape|express|pop 110i|sh ?\d+|spree|motra|welbike|scooter|kymco|sym|pgo|autocycle|fantic)\b",re.I)
 SC_SEC={'Step-throughs, scooters, underbones','Maxi-scooters','Electric','Scooters','Scooter','Three-wheelers'}
 # ---------- gather sources
 cands=[]  # dict: name,y,mk(raw marque canon),s,srcrank,sec
@@ -152,13 +152,17 @@ for c in cands:
     m=c['m']; key=norm_key(c['n'],m)
     if (m,key) in seen: continue
     seen.add((m,key))
-    kind='Scooter, moped and cub' if (c['sec'] in SC_SEC or (SC.search(c['n']) and not re.search(r'(Tiger Cub|Gold Wing)',c['n']))) else 'Motorcycle'
+    kind='Scooter, moped and cub' if (c['sec'] in SC_SEC or (SC.search(c['n']) and not re.search(r'(Tiger Cub|Gold Wing|GL\d)',c['n']))) else 'Motorcycle'
     o,t,cty=mq(m)
     e={'n':c['n'],'mk':m,'s':c['s'],'g':m,'own':o,'tier':t}
     if cty: e['cty']=cty
     if c['y']: e['y']=c['y']
     if m=='Norton': e['own_y']='2020'
     entries[kind].append(e); added[kind]+=1
+GW=[('GL1000',''),('GL1100',''),('GL1200',''),('GL1500',''),('GL1800','')]
+for e in entries['Motorcycle']:
+    if e['n']=='Honda Gold Wing':
+        e['v']=[{'n':'Gold Wing '+g,'mk':'Honda','y':'','d':'engine size in the model code, from the engine-size table of the Honda list'} for g,_ in GW]
 def ykey(e):
     mm=re.search(r'\d{4}',e.get('y',''))
     return (int(mm.group()) if mm else 9999)
@@ -266,7 +270,7 @@ cnt_new=0
 for m,n in marques.items():
     o,t,c=mq(m)
     if m in exist:
-        part['brand_updates'][m]={'own':o,'tier':t,'c':c}
+        part['brand_updates'][m]={'own':o,'tier':t,**({'c':c} if c else {})}
     else:
         b={'n':m,'c':c,'d':'','s':LISTURL}
         if m in('Hero MotoCorp','Bajaj','TVS'): b['s']={'Hero MotoCorp':'https://en.wikipedia.org/wiki/Hero_MotoCorp','Bajaj':'https://en.wikipedia.org/wiki/Bajaj_Auto','TVS':'https://en.wikipedia.org/wiki/TVS_Motor_Company'}[m]
@@ -274,7 +278,7 @@ for m,n in marques.items():
 # brand_updates for existing with name variants
 for alt,tgt in (('BMW','BMW Motorrad'),('Yamaha Motor','Yamaha')):
     if alt in exist and tgt in marques:
-        o,t,c=mq(tgt); part['brand_updates'][alt]={'own':o,'tier':t,'c':c}
+        o,t,c=mq(tgt); part['brand_updates'][alt]={'own':o,'tier':t,**({'c':c} if c else {})}
 for b in part['brands']:
     if b.get('d')=='': b.pop('d')
 json.dump(part,open(OUT+'G1_parts/MOTO.json.tmp','w'),ensure_ascii=False)
