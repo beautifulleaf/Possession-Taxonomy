@@ -54,7 +54,7 @@ for kn,c in cov.items():
   if kn=='Single-origin coffee': base='Origins kept from the earlier edition, each backed by a fetched page; origin names as sold (Yirgacheffe, Sumatra, Gayo and others) are descriptions in the text, not separate entries.'; c='No complete list exists; follows the origin pages cited.'
   k['sel']=(base.rstrip('. ')+'. ' if base else '')+c.format(n=n)
 # updated partial ones
-k=K['Everyday ground & filter coffee']; k['sel']=strip(k['sel'])+f" Covers {len(k['x'])} brands of about 80 coffee companies on that list; the rest are roasters and chains without a packaged national brand, and no complete ranked list of packaged coffee brands exists. Brazil (3 Corações, Pilão) added from a fetched market article."
+k=K['Everyday ground & filter coffee']; k['sel']=strip(k['sel'])+f" Brazil (3 Corações, Pilão) comes from a fetched market article. Covers {len(k['x'])} brands of about 80 coffee companies on that list; the rest are roasters and chains without a packaged national brand, and no complete ranked list of packaged coffee brands exists."
 k=K['Breakfast & everyday black tea']; k['sel']=strip(k['sel'])+f" Covers {len(k['x'])} entries; of about 120 companies on that list the rest are blenders, retailers and speciality houses without a fetched ownership page. English Breakfast and the other blend styles are kept from the earlier edition."
 # dedupe stray repeated periods
 for kk in K.values():

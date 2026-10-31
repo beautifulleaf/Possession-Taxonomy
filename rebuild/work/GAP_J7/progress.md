@@ -9,3 +9,4 @@ step7: phaseC installed (Italy +43 DOC, Tennessee/rye/pot still/arak/grappa/cach
 step8: g added (Romania, Chile, NZ, Cava, Domfront, rye by country) and installed. remaining ~28 fetches: Cognac houses, IGP, Spain pagos
 step9: fetched IGP 75 list (dico-du-vin), pago-system page; Cognac 402 (deferred). 37 fetches. Next add IGP kind(s) + pagos
 step10: stageD installed (France other IGP kind 59 entries, pagos). 37 fetches. Next: Barolo MGA search, cognac alt, tequila alt, report
+step11: stageE installed (Barolo 174 + Barbaresco 66 MGA versions). 40 fetches. Next market gaps: High Noon, Kopparberg, Lyre's, WKD; then report
