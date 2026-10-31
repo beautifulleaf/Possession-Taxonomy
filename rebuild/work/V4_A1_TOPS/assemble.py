@@ -1,6 +1,7 @@
 import sys, json, copy, re, os
 sys.path.insert(0, '/home/user/Possession-Taxonomy/rebuild/work/V4_A1_TOPS')
 import build_part as B
+import restore
 ROOT = B.ROOT
 seg_new = {}
 out_depts = []

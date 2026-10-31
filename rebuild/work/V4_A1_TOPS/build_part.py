@@ -9,7 +9,7 @@ DEPTS = ['Tops', 'Trousers, jeans & shorts', 'Dresses', 'Skirts, jumpsuits & set
 OWN = {'A Bathing Ape': ('I.T Group', ''), 'Bonds': ('Gildan', ''), 'Champion': ('Authentic Brands', ''),
        'DAKS': ('Sankyo Seiko', '1991'), 'Dale of Norway': ('Rossignol', '2018'), 'Hanes': ('Hanesbrands', ''),
        'Hervé Léger': ('BCBG Max Azria', ''), 'Lacoste': ('Maus Frères', ''), 'Stubbies': ('Workwear Group', ''),
-       'Icebreaker': ('VF Corporation', '')}
+       'Icebreaker': ('VF Corporation', ''), 'Edwin': ('Itochu', '')}
 
 NEWB = {}  # new brand register entries: name -> (segment, description, source, country)
 
@@ -62,17 +62,41 @@ def K(kind, name, **ov):
     return e
 
 
+ISO = {'US':'United States','GB':'United Kingdom','JP':'Japan','FR':'France','IT':'Italy','DE':'Germany','CA':'Canada','AU':'Australia','BR':'Brazil','DK':'Denmark','FO':'Faroe Islands','SE':'Sweden','NL':'Netherlands','MC':'Monaco','UA':'Ukraine','IN':'India','MX':'Mexico','KW':'Kuwait','PS':'Palestine','HK':'Hong Kong','IE':'Ireland','NZ':'New Zealand','ES':'Spain','CN':'China','KR':'South Korea','NO':'Norway','IS':'Iceland','TR':'Turkey','BM':'Bermuda','CL':'Chile','AT':'Austria','CH':'Switzerland','BE':'Belgium','GG':'Guernsey'}
+import csv as _csv
+_csv.field_size_limit(10**9)
+MAKERS = {}
+for _r in _csv.DictReader(open(ROOT + 'data/makers.tsv'), delimiter='\t'):
+    if _r['country']:
+        MAKERS.setdefault(_r['name'].lower().strip(), _r)
+# countries stated in the fetched Wikipedia pages themselves
+GOK = {'Musa-Shiya aloha shirt': 'United States', 'King-Smith aloha sportswear': 'United States', 'Kamehameha aloha shirt': 'United States', 'Shaheen aloha shirt': 'United States',
+       'Sibbern yoke-sweater pattern': 'Norway', 'Coxon hemmed uniform shorts': 'Bermuda', 'Trimingham Bros. Bermuda shorts': 'Bermuda', 'H.A. & E. Smiths Bermuda shorts': 'Bermuda',
+       'Dorothée Bis hot pants': 'France', 'Krizia hot pants': 'Italy', 'Vera Maxwell jumpsuit': 'United States', 'Bonnie Cashin evening jumpsuit': 'United States',
+       'Rudi Gernreich miniskirt': 'United States', 'Jacques Tiffeau miniskirt': 'United States', 'John Bates miniskirt': 'United Kingdom', 'Isaac Mizrahi tutu': 'United States',
+       'Poodle skirt': 'United States', 'Freddy WR.UP shaping pants': 'Italy', 'Pilucho (Duniau)': 'Chile'}
+TIER = {'Gildan': 'Global group', 'Authentic Brands': 'Global group', 'Hanesbrands': 'Global group', 'VF Corporation': 'Global group',
+        'Maus Frères': 'Independent', 'Sankyo Seiko': 'Independent', 'Rossignol': 'Independent', 'BCBG Max Azria': 'Independent',
+        'Workwear Group': 'Independent', 'I.T Group': 'Independent', 'Itochu': 'Independent'}
+
+
 def finish(e, kindname):
     mk = e.get('mk', '')
-    g = e.pop('_g', None) or cty(mk) or 'Country not stated'
+    e.pop('_g', None)
+    g = GOK.get(e['n']) or cty(mk)
+    if not g:
+        m = MAKERS.get(mk.lower().strip())
+        if m:
+            g = ISO.get(m['country'], '')
+    g = g or 'Country not stated'
     e['g'] = g
-    c = cty(mk) or (g if g != 'Country not stated' else '')
-    if c:
-        e['cty'] = c
+    if g != 'Country not stated':
+        e['cty'] = g
     if mk in OWN:
         e['own'] = OWN[mk][0]
         if OWN[mk][1]:
             e['own_y'] = OWN[mk][1]
+        e['tier'] = TIER[OWN[mk][0]]
     e['y'] = e.get('y') or ''
     return e
 

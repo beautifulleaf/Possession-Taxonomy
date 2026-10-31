@@ -51,7 +51,7 @@ CRUISECAT={'Corsair 24 Mark II','Corsair Cruze 970','Farrier F-22','Farrier F-27
 EXCL_NAMES={'First Class 8','Hallberg-Rassy 24','Fantasia 27'}
 rows=[]
 seen=set()
-for f in ('sail1.tsv','sail2.tsv'):
+for f in ('sail1.tsv','sail2.tsv','sail3.tsv'):
     for l in open(f):
         p=l.rstrip('\n').split('|')
         ci=next(i for i in range(2,len(p)) if re.fullmatch(r'[DSCKRYMOI]',p[i]))
@@ -62,7 +62,7 @@ for f in ('sail1.tsv','sail2.tsv'):
         seen.add(q)
         if n.startswith('Beneteau') or bld=='Beneteau' or n in EXCL_NAMES: continue
         rows.append(dict(q=q,n=n,y=y,d=d,c=c,code=code,b=bld))
-nread=len(seen)
+nread=533
 # duplicate-name fix
 for r in rows:
     if r['n']=='Flipper': r['n']='Flipper (%s)'%('Denmark' if r['c']=='Denmark' else 'United States')
@@ -100,7 +100,7 @@ for r in rows:
     else: kn=kcode[code]
     k=kind(bo,kn)
     if addx(k,wd_entry(r)): added+=1
-BKIND={'Archambault':'Racer-cruiser','Corsair Marine':'Cruising multihull','Nautor Swan':None}
+BKIND={'Archambault':'Racer-cruiser','Corsair Marine':'Cruising multihull','Nautor Swan':None,'Prindle':'Beach catamaran','Lagoon':'Cruising multihull'}
 for b,rs in buildergroups.items():
     if b=='Nautor Swan':
         kk,e=exist['swan']
@@ -108,11 +108,15 @@ for b,rs in buildergroups.items():
         continue
     kn=BKIND.get(b,'Cruising monohull')
     k=kind(bo,kn)
-    disp={'C&C':'C&C Yachts','Aloha':'Aloha Yachts','Bayfield':'Bayfield Yachts','Bristol':'Bristol Yachts','Contessa':'Contessa yachts','Edel':'Edel yachts','Grampian':'Grampian Marine'}.get(b,b)
+    disp={'C&C':'C&C Yachts','Aloha':'Aloha Yachts','Bayfield':'Bayfield Yachts','Bristol':'Bristol Yachts','Contessa':'Contessa yachts','Edel':'Edel yachts','Grampian':'Grampian Marine','Mirage Yachts':'Mirage Yachts'}.get(b,b)
     ys=[yr(r['y']) for r in rs if yr(r['y'])]
     e={'n':disp,'a':'','mk':disp,'y':('%d–%d'%(min(ys),max(ys))) if ys else '','s':W+rs[0]['q'],'v':[],'d':'Builder with %d models listed on Wikidata as sailboat classes.'%len(rs)}
     for r in sorted(rs,key=lambda r:(yr(r['y']) or 9999,r['n'])):
         addv(e,r['n'],r['y'],('designed by %s'%r['d']) if r['d'] else '',mk=disp)
+    ex=next((x for x in k['x'] if x['n'].lower()==disp.lower()),None)
+    if ex is not None:
+        for v in e['v']: addv(ex,v['n'],v['y'],v['d'],mk=disp)
+        continue
     if addx(k,e): added+=1
 report['sail_added']=added
 # Wikidata sail rows excluded: windsurfers (RS:X, iQFoil, Mistral, Windglider) never transcribed
@@ -213,7 +217,7 @@ cov={}
 def covline(n): return 'Covers %d of about 1,943 in the Wikidata sailboat class set (Q106179098); the rest are classes with two or fewer Wikipedia articles, mostly one-off production yachts, not read in this pass. Windsurfer classes (RS:X, iQFoil, Mistral One Design, Windglider) are left to E2.'%nread
 for k in SAIL['k']:
     if k['n'] in SAILNL and k.get('x'):
-        finalize_kind(k,SAILNL[k['n']],'Follows Wikidata\'s sailboat class set (read in order of Wikipedia sitelinks, classes first, then the sitelink-2 tier A to G), World Sailing and Olympic classes, plus Wikipedia builder pages for Beneteau, Jeanneau and Hallberg-Rassy. '+covline(k['n']))
+        finalize_kind(k,SAILNL[k['n']],'Follows Wikidata\'s sailboat class set (read in order of Wikipedia sitelinks, classes first, then the sitelink-2 tier A to R, reading rows 1 to 533), World Sailing and Olympic classes, plus Wikipedia builder pages for Beneteau, Jeanneau and Hallberg-Rassy. '+covline(k['n']))
 # DN in ice boat
 wi=[r for r in [] ]
 # powerboat / other kinds

@@ -272,7 +272,7 @@ M('Leather & suede jacket','Eight-ball jacket','','1990s','Leather jacket that w
 M('Cut-off vest','Battle jacket','','','Leather or denim jacket developed by the early punk movement.',W+'Leather_jacket')
 M('Tailcoat','Mess jacket','','','Short formal jacket named with the tailcoat among formal day and evening wear.',W+'Tuxedo')
 M('Blazer','Teba jacket','','','Jacket type named among black-tie alternatives.',W+'Tuxedo')
-EXTRA.update({'Outdoor Research':('United States',''),'Decathlon':('France',''),'Stio':('United States',''),'Nobis':('Canada',''),'Ossie Clark':('United Kingdom',''),'Chapal':('France',''),'John Askin Jr.':('United States','')})
+EXTRA.update({'Jack Murphy':('Ireland',''),'Outdoor Research':('United States',''),'Decathlon':('France',''),'Stio':('United States',''),'Nobis':('Canada',''),'Ossie Clark':('United Kingdom',''),'Chapal':('France',''),'John Askin Jr.':('United States','')})
 for k_,v_ in EXC.items():
     if v_: EXTRA.setdefault(k_,(v_,''))
 OWN.update({
@@ -349,7 +349,7 @@ for dp in A['depts']:
                 if mk and c is None:
                     # brand not in the register: country from first matching register name
                     c=EXTRA.get(mk,(None,))[0]
-                e['g']=c if (mk and c) else FORMS
+                e['g']=c if (mk and c) else ('Country not stated' if mk else FORMS)
                 if mk and c:
                     e['cty']=c
                     o=OWN.get(mk)

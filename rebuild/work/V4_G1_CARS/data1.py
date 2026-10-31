@@ -94,3 +94,13 @@ D['Rolls-Royce#2']=('BMW Group','United Kingdom','2003', 'Global group',
 D['Alfa Romeo']=('Stellantis','Italy','', 'Global group',
 "H:145;146;147;33;Alfasud;Alfasud Sprint;Arna;MiTo;Junior (2024);Giulietta (2010);Giulietta (1977)|S:75;90;155;156;159;164;166;1750 Berlina;1900;2000;2000 Berlina;2300;2600;Alfa 6;Alfetta;Giulia;Giulia (2015);Giulietta (1954);Giulietta;Dauphine;6C;8C|X:Sprint;Sprint Veloce;GT;GT 1300 Junior;GTA;GTV 2.0;2000 GTV;105/115 Series Coupés;Giulia TZ;Giulietta Sprint Speciale;Montreal;Brera and Spider|R:Spider;GTV and Spider;2000 Spider Veloce|P:4C;SZ;33 Stradale;8C Competizione;RZ;2000 Sportiva|Z:33 Stradale (2023)|U:Stelvio;Tonale|O:Matta")
 D['Tesla']=D.pop('Tesla')
+D['Mini']=('BMW Group','United Kingdom','1994', 'Global group',
+"C:=Mini;=Mini (Mark I);=Mini 1000;=Mini 1275GT;Clubman (Mini);=Riley Elf;=Wolseley Hornet (Mini)|O:=Mini Moke")
+D['Dacia']=('Renault Group','Romania','1999', 'Global group',
+"H:=Dacia 1100;1300;1310;1320;1325;2000;Nova;SupeRNova;Solenza;Sandero;Logan|S:Logan;Lodgy;Jogger|M:Dokker;Lodgy;Jogger|U:Duster;Bigster;Sandrider;Lăstun|I:Pick-Up")
+D['BYD']=('BYD Company','China','', 'Global group',
+"C:e1;F0;Seagull;Dolphin;Dolphin G;K10MR|H:F3;F3DM;e2;e3;Yuan;Yuan Plus;Dolphin;Racco;Flyer;Atto 2|S:F6;G3;G5;G6;L3;M3;e5;e6;e7;Han;Han L;Qin;Qin Plus;Qin Pro;Qin Max;Qin L DM-i;Qin L EV;Seal;Seal 05 DM-i;Seal 06;Seal 06 GT;Seal 6 DM-i;Seal 07;Seal 08;Destroyer 05;Frigate 07;Xia;Datang;Dahan;D1|M:M6 (2010);Dahan;e6|U:Atto 3;Song;Song Plus;Song Pro;Song Max;Song L DM-i;Song L EV;Song Ultra;Tang;Tang L;S6;S7;S8;F8;Sealion 05 DM-i;Sealion 05 (2025);Sealion 06;Sealion 07 DM;Sealion 7;Sealion 08|I:Shark 6")
+D['Geely']=('Geely','China','', 'Global group',
+"C:Panda Mini EV|H:Yuanjing;Yuanjing S1;Yuanjing X1;MK;CK;LC;GC2;Binrui;Binyue;EX2;Galaxy E8;Galaxy L6;Galaxy M7;Galaxy A7|S:Emgrand GL;Borui;Borui GE;Binray;EC7;CD;BL;Galaxy L7;Galaxy Starshine 8;Preface TCR;Yuanjing X6|M:Jiaji;Haoyue;Galaxy M9|U:Boyue;Boyue REV;Coolray;Azkarra;Monjaro;Xingyue S;Xingyue L;Yuanjing X3;GX9;Icon;EX5;Galaxy Starship 7;Galaxy Starshine 6;Galaxy Starshine 7|I:Galaxy Cruiser 700|Q:Galaxy V900")
+D['Mahindra']=('Mahindra & Mahindra','India','', 'National champion',
+"O:Thar;Thar ROXX;Bolero;Bolero Neo;Roxor;Major;Armada;Legend;Marksman|U:Scorpio;Scorpio Getaway;Scorpio-N;XUV300;XUV500;XUV700;XUV 3XO;XUV 7XO;XEV 9e;XEV 9S;BE 6;KUV100;NuvoSport;Xylo;Marazzo|S:Verito Vibe;eVerito;Maxximo|C:e2o;e2o Plus|I:Genio;Gio;Goa;Jeeto;Maxx")

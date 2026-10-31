@@ -15,6 +15,30 @@ ART={'Fur coat':('Fur clothing',0),'Leather & suede jacket':('Leather jacket',0)
 'Overalls':('Overalls',0),'Boiler suit':('Boilersuit',0),'Chore coat':('Chore jacket',0),'Work jacket':('Chore jacket',0),'Donkey jacket':('Donkey jacket',0),
 "Chef's jacket":("Chef's uniform",0),'Scrub top':('Scrubs (clothing)',0),'Lab coat':('Lab coat',0)}
 TRUNC0={'Mackinaw':'6,937 of 106,937','Business suit':'68,380 of 168,380','Waistcoat':'10,474 of 110,474','Tuxedo':'90,725 of 190,725','Morning dress':'42,835 of 142,835','Tie':'57,287 of 157,287','Ascot & cravat':'57,287 of 157,287'}
+
+WP='https://en.wikipedia.org/wiki/'
+def F(mkt,who,share,yr,s,note): return {"mkt":mkt,"who":who,"share":share,"yr":yr,"s":s,"note":note}
+MS={
+'Coats & jackets':([
+ F('Outdoor and outerwear group revenue','VF Corporation (The North Face since 2000, Napapijri since 2004, Smartwool 2011, Icebreaker 2018)','US$10.45 billion',2024,WP+'VF_Corporation','group revenue as the page states; VF is the owner of The North Face'),
+ F('Luxury down outerwear','Moncler','EUR 3.13 billion',2025,WP+'Moncler','group revenue; Moncler bought Stone Island in December 2020 for EUR 1.15 billion'),
+ F('Parka maker','Canada Goose (Bain Capital and others)','CA$1.35 billion',2025,WP+'Canada_Goose_Inc.','revenue for the year to 30 March 2025; Bain bought a 70 percent stake in December 2013'),
+ F('British waxed and quilted jackets','Barbour (J. Barbour & Sons, family-led)','GBP 225 million',2019,WP+'Barbour_(company)','revenue for the year ending 30 April 2019'),
+ F('Trench coat house','Burberry Group plc','GBP 2,420 million',2026,WP+'Burberry','revenue in the infobox, marked as a decrease; floated on the London Stock Exchange in July 2002'),
+ F('Heritage workwear and jackets','Carhartt (family owned)','US$1.8 billion',2024,WP+'Carhartt','revenue in the infobox'),
+ ],'Outerwear revenue is given for the owner groups and houses that publish it: VF Corporation US$10.45 billion (2024), Moncler EUR 3.13 billion (2025), Canada Goose CA$1.35 billion (year to March 2025), Barbour GBP 225 million (2019). No category-wide market share was found on a fetched page.'),
+'Suits & formalwear':([
+ F('Tailoring and menswear group','HUGO BOSS, BOSS Menswear','EUR 3,329 million (77 % of Group sales)',2024,'https://annualreport.hugoboss.com/2024/management-report/report-on-economic-position/earnings-development/sales-performance.html','brand sales in the 2024 annual report; Group sales EUR 4,307 million'),
+ F('Tailoring and menswear group','HUGO BOSS, HUGO','EUR 682 million (16 %)',2024,'https://annualreport.hugoboss.com/2024/management-report/report-on-economic-position/earnings-development/sales-performance.html','brand sales in the 2024 annual report'),
+ F('Tailoring and menswear group','HUGO BOSS, BOSS Womenswear','EUR 297 million (7 %)',2024,'https://annualreport.hugoboss.com/2024/management-report/report-on-economic-position/earnings-development/sales-performance.html','brand sales in the 2024 annual report'),
+ F('Ready-to-wear trench and tailoring house','Burberry Group plc','GBP 2,420 million',2026,WP+'Burberry','revenue in the infobox'),
+ ],'HUGO BOSS reported Group sales of EUR 4,307 million in 2024, of which BOSS Menswear was EUR 3,329 million. The annual report gives no tailoring-only figure and no category-wide share was found.'),
+'Workwear & uniform clothing':([
+ F('Heritage workwear','Carhartt (family owned)','US$1.8 billion',2024,WP+'Carhartt','revenue in the infobox; about US$600 million a year in 2013'),
+ F('Workwear brand sale','Dickies, sold by VF Corporation to Bluestar Alliance','about US$600 million',2025,WP+'Dickies','cash price; VF had bought Williamson-Dickie for US$820 million in 2017'),
+ F('Jeans and workwear group','Kontoor Brands (Lee, Wrangler; spun off from VF in May 2019)','US$3.15 billion',2025,WP+'Kontoor_Brands','revenue as the page states'),
+ ],'Carhartt reported US$1.8 billion revenue in 2024. Dickies changed hands from VF Corporation (bought 2017, US$820 million) to Bluestar Alliance (2025, about US$600 million). No category-wide workwear share was found.'),
+}
 cnt=0
 for dp in S['depts']:
     for sh in dp['s']:
@@ -31,7 +55,7 @@ for dp in S['depts']:
             else:
                 k['sel']=("No entries. "+(f"The fetched Wikipedia article ({art[0]}) names no brand or list of named types for this garment. " if art else "No Wikipedia article on this garment was fetched. ")+"No signature piece in the brand register matches it. Complete: 0 of 0.")
             cnt+=1
-    dp['msum']=("No market-share figure for this department was found on a fetched page, so the department has no market table. Entries are grouped by the brand's home country; owners are given only where the brand register's page states them.")
+    dp['ms'],dp['msum']=MS[dp['n']]
 # brands
 new=[
  ('Eddie Bauer','United States','Outdoor brand named in the Down jacket article for the 1936 Skyliner.',W+'Down_jacket','Outdoor & technical'),
@@ -45,6 +69,11 @@ new=[
  ('Le Coq Sportif','France','French sportswear maker said to have first made sweatpants in 1920.',W+'Tracksuit','Athletic & sportswear'),
  ('One-In-Hand Tie Company','United States','Clinton, Iowa, maker of pre-tied and clip-on neckties.',W+'Necktie','Heritage & workwear'),
  ('Jesse Langsdorf','United States','New York tie maker who introduced bias-cut ties in 1922.',W+'Necktie','Heritage & workwear'),
+ ('Outdoor Research','United States','Down parka maker; the Coze Down Parka has 240 grams of 700-fill down.','https://www.outdoorgearlab.com/reviews/clothing-womens/winter-jacket-womens/outdoor-research-coze-down-parka','Outdoor & technical'),
+ ('Stio','United States','Maker of the Hometown Down Hooded Jacket, insulated with 800-fill down.','https://elevationoutdoors.com/?p=44444','Outdoor & technical'),
+ ('Decathlon','France','Maker of the Simond MT100 hooded down puffer.','https://www.outdoorgearlab.com/reviews/clothing-mens/down-jacket-men/decathlon-simond-mt100-hooded-puffer','Value & basics'),
+ ('Nobis','Canada','Maker of the Nord Men\'s Tailored Trench Coat.','https://us.nobis.com/products/nord-mens-tailored-trench-coat','Outdoor & technical'),
+ ('Ossie Clark','United Kingdom','Designer of the 1969 Lamborghini trouser suit held by the V&A.','https://collections.vam.ac.uk/item/O86592/lamborghini-trouser-suit-clark-ossie/','Designer'),
  ('George Key','United Kingdom','Rugeley draper who developed the donkey jacket in 1888.',W+'Donkey_jacket','Heritage & workwear'),
 ]
 brands=[{'n':n,'c':c,'f':'1846' if n=='Castell & Son' else ('1904' if n=='Blue Bell' else ''),'seg':seg,'d':d,'lines':[],'eras':[],'sig':[],'sc':[],'rel':[],'s':s,'kf':''} for n,c,d,s,seg in new if n.lower() not in REG]

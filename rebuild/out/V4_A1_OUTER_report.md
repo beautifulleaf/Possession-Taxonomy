@@ -1,23 +1,24 @@
-# V4_A1_OUTER report
+# V4_A1_OUTER report (final)
 
-Part file: rebuild/out/A1_parts/OUTER.json. Replaces Coats & jackets; Suits & formalwear; Workwear & uniform clothing (54 kinds). Validates OK (0 errors, 291 archetypes). Nothing renamed or moved. Scenes untouched.
+Part file rebuild/out/A1_parts/OUTER.json (about 233 KB). Replaces Coats & jackets; Suits & formalwear; Workwear & uniform clothing (54 kinds). Validates OK (0 errors, 382 entries). No renames or moves; scenes untouched.
 
 ## Entries
-Before 154 -> after 291 across 54 kinds. Biggest: Overcoat 8->17, Business suit 8->17, Tie 6->15, Cape 5->12, Raincoat 4->11, Biker jacket 7->12, Puffer jacket 8->12, Shell jacket 8->11. Kinds still empty: Coach jacket, Cut-off vest, Chef's jacket, Scrub top (no fetched garment article names a brand or type list; no register piece matches).
-Every entry has `g`: brand home country, then brand, then year; "Named forms without a brand" last (103 forms, 188 brand pieces). 18 `role` origin badges, each per a fetched page (Burberry, Aquascutum, Mackintosh, Levi's Type I, Baracuta G9, Eddie Bauer Skyliner, PolarFleece, Peter Storm cagoule, Castell & Son necktie, Brooks Brothers ready-to-wear suit, Lady Margaret Boat Club jacket, Henry Poole dinner jacket, others). Each kind has `nl`, `sel` with coverage line, `xg`.
+154 -> 382. Largest: Overcoat 8->21, Business suit 8->23, Tie 6->15, Biker jacket 7->15, Shell jacket 8->18, Puffer jacket 8->17, Parka 4->15, Coach jacket 0->5, Track jacket 2->9. `g` = brand home country, then brand, year; named forms last. 18 origin badges, each per a fetched page. 273 branded entries carry `cty`; 72 carry `own`/`tier` (and `own_y` where stated).
 
 ## References
-43 Wikipedia articles fetched (list in rebuild/work/V4_A1_OUTER/sources.tsv), e.g. Trench coat, Overcoat, Parka, Flight jacket, Raincoat, Down jacket, Polar fleece, Suit, Tuxedo, Necktie, Overalls, Boilersuit, Chore jacket, Donkey jacket, Mackinaw coat. Plus the register (2,531 brands): every sig/lines piece whose garment matches a kind.
-Not read in full: Suit (read 100,000 of 168,380 characters), Tuxedo (of 190,725), Necktie (of 157,287), Morning dress (of 142,835), Waistcoat (of 110,474), Mackinaw coat (of 106,937). Those kinds' `sel` say so. Where I stopped: after these six first windows and the garments listed; no offset windows were fetched (about 43 fetches used of 60).
+- 56 Wikipedia and brand pages fetched in total; every URL is in rebuild/work/V4_A1_OUTER/sources.tsv or named in the entry `s`.
+- The six truncated articles (Suit, Tuxedo, Necktie, Morning dress, Waistcoat, Mackinaw coat) were read to their ends; the tails held citations and navigation only. Added from them: Kareeba suit (Met 2025), Mess jacket, Teba jacket.
+- Fetched: Fur clothing (all but last 1,160 characters), Leather jacket (Chapal Type A1 1925, eight-ball jacket, battle jacket added). No dedicated Wikipedia article exists for quilted jacket, deck jacket, coach jacket, work trousers, chef's jacket or scrubs beyond Chef's uniform and Scrubs, which name no brand.
+- Restored from data/named_forms.tsv: 75 pieces as entries and 8 as versions, each citing its recorded page (many are retailer pages from the earlier harvest; `fetch_status` partial for some). Eleven further pieces confirmed on fetched brand or review pages: Barbour Classic Northumbria and Corbridge, Patagonia Jackson Glacier, Outdoor Research Coze, Fjallraven Nuuk, Eddie Bauer CirrusLite, Decathlon Simond MT100, Stio Hometown, Arc'teryx Kyanite, Nobis Nord, Ossie Clark Lamborghini (V&A, 1969).
 
-## Loose models (`m`): 145 removed or folded
-27 register-confirmed models became entries (e.g. Arctic Parka, Roadmaster, Dominator, Service Pant). 116 retailer-page SKUs with no register signature piece were removed as out of scope (Gloverall, Aspesi, REI, Ellesse, Sergio Tacchini track tops, coach jackets, etc.). Schott 613/618/118 and the Jacquard jacket became versions.
+## Not restored (no page found or readable)
+Max Mara Ludmilla, Mountain Hardwear Ghost Whisperer, Black Diamond Fineline, Supreme Crest Coaches Jacket (pages returned 403/404/503; Firecrawl is out of credits); REI Stormhenge, Magma 850, Trailmade and Rainier-class own-label items other than Rainier; Los Angeles Apparel raglan coach jacket; Barbour New Eskdale; brandless generics (two cut-off vests, hacking jacket, Donegal tweed sport coat, white-tie and tuxedo waistcoats, two knit ties, Rubinacci tie).
 
-## Sourcing caveat
-Entries from the register carry the brand page (`s`) from the earlier brand pass; I did not re-fetch those pages, and many have empty `d` (51 entries) because no fetched fact names the piece. Military forms (A-2, G-1, M-65 etc.) are kept as named forms; E4 see-notes added on Flight, Field and Deck jackets.
+## Empty `d`
+120 entries still have no `d` because their page does not name a fact for the piece; most are the restored retailer-page pieces and register pieces. The Wikipedia brand pages checked (Burberry, Canada Goose, The North Face, Arc'teryx, Herno, Rab, Belstaff) do not name those models.
 
-## Market
-`cty` on all 188 brand entries. `own`, `tier`, `own_y` only for 12 brands whose register description states the owner (VF Corporation/The North Face 2000, Napapijri 2004, Moncler/Stone Island 2020, Amer Sports/Arc'teryx, Shandong Ruyi/Aquascutum, Yagi Tsusho/Mackintosh, DAKS/Sankyo Seiko 1991, etc.). No fetched market-share figure for outerwear, tailoring or workwear: no `ms`; `msum` says so.
+## Market facts (department `ms`, with years)
+VF Corporation US$10.45 bn (2024); Moncler EUR 3.13 bn (2025); Canada Goose CA$1.35 bn (year to March 2025); Barbour GBP 225 m (2019); Burberry GBP 2,420 m (2026); Carhartt US$1.8 bn (2024); HUGO BOSS Group EUR 4,307 m, BOSS Menswear 3,329 m (2024); Dickies sold to Bluestar Alliance for about US$600 m (2025, VF paid US$820 m in 2017); Kontoor Brands US$3.15 bn (2025). No category-wide share found. Tiers: Global group for VF, Amer Sports, Moncler, Kontoor, Fast Retailing brands; Independent for family or single-brand owners. Brands with no stated owner have no `own`/`tier`.
 
-## Not sourced
-Fur clothing, Leather jacket, Deck jacket, Quilted jacket and Tie-brand articles were not fetched; Norfolk/Harrington etc. have no brand beyond those listed. 7 new brands to add to the register (Castell & Son, Gannex, Hudson's Bay Company, Blue Bell, One-In-Hand Tie Company, Jesse Langsdorf, George Key).
+## Loose models
+145 `m` removed; 83 restored as above, 11 confirmed on new pages, the rest listed above.

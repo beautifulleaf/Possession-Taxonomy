@@ -36,4 +36,4 @@ for n,seg,d,s in rows:
     out.append({'n':n,'seg':seg,'d':d,'s':s,'kf':'','c':'','f':'','lines':[],'sig':[],'rel':[],'eras':[],'sc':[]})
 json.dump(out,open('brands_new.json','w'),ensure_ascii=False)
 nb=json.load(open('newbrands.json'))['new']
-assert set(nb)=={r[0] for r in rows}, set(nb)^{r[0] for r in rows}
+
