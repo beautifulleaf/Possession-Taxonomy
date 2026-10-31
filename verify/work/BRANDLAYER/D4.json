@@ -181,6 +181,52 @@
    "queries": [],
    "found": 0,
    "note": "not searched; global market, nothing distinctive known"
+  },
+  {
+   "axis": "kind",
+   "item": "Flash & studio lighting",
+   "queries": [
+    "TIPA 2025/2026 accessories pages",
+    "TIPA 2022-23 press (Godox MF12, MG1200Bi)"
+   ],
+   "found": 0,
+   "note": "Godox, Elinchrom, Profoto, Broncolor, Hensel already known; Profoto/Elinchrom/Broncolor/Durst/Beseler/Kaiser dedicated pages not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Tripods & camera support",
+   "queries": [
+    "best carbon travel tripods independent test"
+   ],
+   "found": 3,
+   "note": "Feisol, K&F Concept, MeFoto new"
+  },
+  {
+   "axis": "kind",
+   "item": "Film & darkroom",
+   "queries": [
+    "who still makes B&W paper/chemistry"
+   ],
+   "found": 1,
+   "note": "Fotospeed new; Ilford/Foma/Adox/Kentmere/Rollei/Bergger known; found via search excerpts only: Dragon Film, Vintage Visual"
+  },
+  {
+   "axis": "kind",
+   "item": "Medium & large format cameras",
+   "queries": [
+    "large format wooden camera makers"
+   ],
+   "found": 4,
+   "note": "Shen Hao, FATIF, Linhof, Intrepid; Chamonix/Ebony/Tachihara only in excerpts"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Camera GP Japan winners"
+   ],
+   "found": 0,
+   "note": "Camera GP winners mainstream Japanese brands; editors awards list small makers (seen only in search excerpt, not recorded)"
   }
  ],
  "regions": [
@@ -260,6 +306,30 @@
    "src": "https://en.wikipedia.org/wiki/Category:Photographic_film_manufacturers",
    "brands": [],
    "note": "region page names no brands for this region; assignments kept in assigned_by_agent"
+  },
+  {
+   "region": "Germany and Switzerland (large format)",
+   "speciality": "precision technical, field and monorail view cameras (Linhof Munich since 1887; Sinar Zürich modular monorail)",
+   "src": "https://linhof.com/en/linhof-kamerawerk/",
+   "brands": [
+    "Linhof"
+   ]
+  },
+  {
+   "region": "China (wooden view cameras)",
+   "speciality": "large format wood and metal view cameras made in Shanghai since 1994",
+   "src": "https://camera-wiki.org/wiki/Shanghai_Shenhao",
+   "brands": [
+    "Shen Hao"
+   ]
+  },
+  {
+   "region": "Italy (large format)",
+   "speciality": "Milan large-format and studio camera maker FATIF 1944 to c.2007",
+   "src": "https://camera-wiki.org/wiki/FATIF",
+   "brands": [
+    "FATIF"
+   ]
   }
  ],
  "sources": [
@@ -382,6 +452,76 @@
    "new_names": 0,
    "status": "done",
    "note": "regional statement only"
+  },
+  {
+   "url": "https://www.eisa-awards.org/history/photography/",
+   "title": "EISA photography awards history 1982-2013 (pages fetched: 1982-83..2012-13 except none missing; also 2015-16, 2022-25 via search)",
+   "kind": "award",
+   "years": "1982-2013 (+2015-16, 2018-19, 2022-26)",
+   "names_on_page": 40,
+   "new_names": 3,
+   "status": "partial",
+   "note": "winners almost all already known; still to fetch: 2013-14, 2014-15, 2016-17, 2017-18, 2019-20, 2020-21, 2021-22 (modern, mainstream brands)"
+  },
+  {
+   "url": "https://www.tipa.com/tipa-world-awards-2025",
+   "title": "TIPA World Awards 2025 winners page",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 40,
+   "new_names": 2,
+   "status": "done",
+   "note": "TIPA 2026 page fetched only partly via excerpts (Manfrotto ONE tripod, Godox AD800 Pro); archive result pages (52, wpv_paged) not read: too large inline"
+  },
+  {
+   "url": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "title": "Blue Moon Camera and Machine brand filter (Deardorff page)",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 230,
+   "new_names": 52,
+   "status": "done",
+   "note": "existence only; specialist analogue shop. Error: an earlier call fetched a URL I had constructed (bluemooncamera.com/brands, 403); result unused"
+  },
+  {
+   "url": "https://camera-wiki.org/wiki/Shanghai_Shenhao",
+   "title": "Camera-wiki Shenhao, FATIF; Linhof and Intrepid maker sites",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 4,
+   "new_names": 4,
+   "status": "done",
+   "note": "Chamonix, Ebony, Wista, Tachihara seen only in search excerpts (not recorded except Wista via Blue Moon list); Sinar known"
+  },
+  {
+   "url": "https://www.fotospeed.com/",
+   "title": "Fotospeed home",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "Foma, Ilford, Rollei, Adox, Kentmere known; B&H film roundup/ilfordphoto/rolleianalog seen via search only"
+  },
+  {
+   "url": "https://www.onlandscape.co.uk/2020/12/travel-tripod-review",
+   "title": "On Landscape travel tripod review 2020 + DPReview 2014 carbon travel tripods",
+   "kind": "ranking",
+   "years": "2014-2020",
+   "names_on_page": 12,
+   "new_names": 3,
+   "status": "done",
+   "note": "Gitzo, Leofoto, Benro, Sirui, Peak Design, Manfrotto, 3 Legged Thing, Giottos, Velbon confirmed"
+  },
+  {
+   "url": "https://www.cjpc.jp/",
+   "title": "Camera GP Japan (Camera Journal Press Club)",
+   "kind": "award",
+   "years": "2016-2026 via search",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "not fetched; winners mainstream; next: fetch cjpc.jp/gra/<year> pages linked from site for Editors Choice small makers"
   }
  ],
  "brands": [
@@ -1426,6 +1566,534 @@
    "says": "Listed in a film-photography specialist retailer brand directory (existence only)",
    "country": "",
    "dept": ""
+  },
+  {
+   "n": "Culmann",
+   "layer": "premium",
+   "src": "https://www.eisa-awards.org/history/photography/photography-1991-1992/",
+   "says": "EISA photography award 1991-1992 accessory (Culmann 3080)",
+   "country": "Germany",
+   "dept": "tripods"
+  },
+  {
+   "n": "Konica Minolta",
+   "layer": "premium",
+   "src": "https://www.eisa-awards.org/history/photography/photography-2004-2005/",
+   "says": "EISA 2004-2005 innovation award: Konica Minolta Anti Shake",
+   "country": "Japan",
+   "dept": "cameras"
+  },
+  {
+   "n": "PGYTECH",
+   "layer": "premium",
+   "src": "https://www.tipa.com/tipa-world-awards-2025",
+   "says": "TIPA World Awards 2025: PGYTECH OnePro Flex, Best Photo Backpack",
+   "country": "China",
+   "dept": "bags"
+  },
+  {
+   "n": "AGO",
+   "layer": "premium",
+   "src": "https://www.tipa.com/tipa-world-awards-2025",
+   "says": "TIPA World Awards 2025: AGO Film Processor, Best Analog Product",
+   "country": "",
+   "dept": "film processing"
+  },
+  {
+   "n": "Innova Art",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA archive manufacturer dropdown lists Innova Art (photo paper) and CamRanger (tethering)",
+   "country": "",
+   "dept": "paper"
+  },
+  {
+   "n": "CamRanger",
+   "layer": "premium",
+   "src": "https://www.tipa.com/archive-search",
+   "says": "TIPA archive manufacturer dropdown lists Innova Art (photo paper) and CamRanger (tethering)",
+   "country": "",
+   "dept": "remote"
+  },
+  {
+   "n": "Acufine",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Arca Swiss",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Arsenal",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Asanuma",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "B+W",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Bausch and Lomb",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Billingham",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Burke & James",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Calumet",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Canham",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Conley",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Deardorff",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Ednalite",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Edwal",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Fotodiox",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Franka-Werk",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Giottos",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Gundlach",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Heliopan",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Hewes Products",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Ilex",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Kalimar",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Kawauso-Shoten",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Komura",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Light Lens Lab",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "LZOS",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Miranda",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Novoflex",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Op/tech",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Panagor",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Photographer's Formulary",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Promaster",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Quantaray",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Retrospekt",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Rokunar",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Saunders",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Seneca",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Singh-Ray",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Spiratone",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Tamrac",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Tanaka Kogaku",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Tiltall",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Urth",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Wista",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Zone VI",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Heinz Kilfitt München",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Candido Collective",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Intrepid Camera Company",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Black Cat",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Lenco Photo Products",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Photosol",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Revolog",
+   "layer": "premium",
+   "src": "https://bluemooncamera.com/shop/brand/11/deardorff",
+   "says": "Blue Moon Camera and Machine (specialist analogue camera shop) brand filter list; existence only",
+   "country": "",
+   "dept": "film cameras / darkroom / accessories"
+  },
+  {
+   "n": "Shen Hao",
+   "layer": "cultural",
+   "src": "https://camera-wiki.org/wiki/Shanghai_Shenhao",
+   "says": "Camera-wiki.org article: maker of large format view cameras in fine wood and metal, Shanghai, founded 1994",
+   "country": "China",
+   "dept": "large format wooden view cameras"
+  },
+  {
+   "n": "FATIF",
+   "layer": "cultural",
+   "src": "https://camera-wiki.org/wiki/FATIF",
+   "says": "Camera-wiki.org article: Milan large-format camera maker 1944-c.2007, wooden cameras and DS monorails",
+   "country": "Italy",
+   "dept": "large format cameras"
+  },
+  {
+   "n": "Linhof",
+   "layer": "cultural",
+   "src": "https://linhof.com/en/linhof-kamerawerk/",
+   "says": "maker site: Munich, 130 years of precision cameras (Technika), tripods and heads",
+   "country": "Germany",
+   "dept": "large format / technical cameras"
+  },
+  {
+   "n": "Intrepid Camera",
+   "layer": "premium",
+   "src": "https://intrepidcamera.co.uk/",
+   "says": "maker site: large format cameras and enlargers hand-assembled in Brighton, UK",
+   "country": "UK",
+   "dept": "large format cameras, enlargers"
+  },
+  {
+   "n": "Fotospeed",
+   "layer": "premium",
+   "src": "https://www.fotospeed.com/",
+   "says": "maker/seller site: fine art and digital photo papers, ICC profiles (existence only)",
+   "country": "UK",
+   "dept": "photo paper"
+  },
+  {
+   "n": "Feisol",
+   "layer": "premium",
+   "src": "https://www.onlandscape.co.uk/2020/12/travel-tripod-review",
+   "says": "On Landscape independent travel tripod test 2020: Feisol CT-3441T/3442T found solid, usable (Germany-based per page)",
+   "country": "Germany",
+   "dept": "tripods"
+  },
+  {
+   "n": "K&F Concept",
+   "layer": "premium",
+   "src": "https://www.onlandscape.co.uk/2020/12/travel-tripod-review",
+   "says": "On Landscape travel tripod test 2020: K&F Concept TM2324 tested as budget pick, not flimsy",
+   "country": "China",
+   "dept": "tripods"
+  },
+  {
+   "n": "MeFoto",
+   "layer": "premium",
+   "src": "https://www.dpreview.com/reviews/travel-tripods-5-carbon-fiber-kits-reviewed",
+   "says": "DPReview 2014 test of 5 carbon travel tripods incl. MeFoto GlobeTrotter",
+   "country": "USA",
+   "dept": "tripods"
   }
  ],
  "assigned_by_agent": {
