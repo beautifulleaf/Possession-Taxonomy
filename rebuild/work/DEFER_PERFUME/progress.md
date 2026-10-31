@@ -4,3 +4,6 @@ step3: designer-page fetch gave no families; switching to per-perfume search (5 
 step4: 5 calls used; search yield ~40%, ~12k tokens each. fetching 10 URLs next: Mugler x5, Burberry Her, Allure Sensuelle, Kenzo World, Armani Code, Fleur du Male 2007 (.com.br)
 step5: fetched 10; 9 placeable; applying
 step6: applied 9, validated, report written, done
+step7 (round2): 11 calls used. applying pl.json (11 placements) via work/DEFER_PERFUME/apply.py
+step8: 17 calls used; applying round3 (8 placements)
+step9: done, 20 calls, 3 more placed (31 total), report updated
