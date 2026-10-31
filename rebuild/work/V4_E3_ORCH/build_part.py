@@ -321,7 +321,7 @@ for s in o['s']:
         k['nl'] = nl; k['sel'] = sel
         k['xg'] = 'maker or school'
 orch_counts = {'Violin Stradivari versions': n_str_violin}
-violin['sel'] += (f"Covers {n_str_violin} Stradivari violins of about 540 in the list (every row the page extract returned; the extraction dropped part of the 1703-1731 rows), the Guarneri del Gesù instruments the maker page names, and the named Amati instruments; "
+violin['sel'] += (f"Covers {n_str_violin} Stradivari violins from the list (every row the page extract returned; the list is much longer and the extraction dropped part of the 1703-1731 rows), the Guarneri del Gesù instruments the maker page names, and the named Amati instruments; "
                   "the list's other Strad violins are not listed.")
 viola['sel'] += f'Covers {n_str_viola} of the 11 violas in the list.' if False else f'Covers {n_str_viola} Stradivari violas of the violas the list tabulates (11 rows returned).'
 cello['sel'] += f'Covers {n_str_cello} Stradivari cellos of the cellos the list tabulates (30 rows returned).'
