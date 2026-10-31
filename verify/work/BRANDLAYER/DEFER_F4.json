@@ -1,0 +1,55 @@
+{
+ "cat": "F4",
+ "note": "Deferred per owner 2026-10-31 (Content identity vs object identity): tarot/oracle and occult publishers whose identity is the deck content; kept for a future Literary / Interactive taxonomy. Not merged into F4. Their 'mk' credits on F4 named deck entries (Rider-Waite-Smith printings, Visconti, B.O.T.A. deck) are content-canon data and are left to the coordinator.",
+ "count": 4,
+ "rows": [
+  {
+   "n": "Lo Scarabeo",
+   "country": "Italy",
+   "role": "tarot/oracle publisher",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "shown": true,
+   "register": "Lo Scarabeo ['F4']",
+   "why": "content publisher (deck content identity) - audit defer"
+  },
+  {
+   "n": "Llewellyn",
+   "aliases": [
+    "Llewellyn Worldwide"
+   ],
+   "country": "United States",
+   "role": "occult and tarot publisher",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "shown": true,
+   "register": "Llewellyn ['F4']",
+   "why": "occult/tarot content publisher - audit defer"
+  },
+  {
+   "n": "U.S. Games Systems",
+   "aliases": [
+    "US Games Systems",
+    "US Games"
+   ],
+   "country": "United States",
+   "role": "tarot publisher (Rider-Waite-Smith rights)",
+   "src": "https://www.aeclectic.net/tarot/cards/publishers.shtml",
+   "shown": true,
+   "note": "page spells it 'US Games'",
+   "register": "U.S. Games Systems ['F4']",
+   "why": "tarot content publisher - audit defer"
+  },
+  {
+   "n": "Builders of the Adytum",
+   "aliases": [
+    "B.O.T.A."
+   ],
+   "country": "United States",
+   "role": "occult order publishing its own tarot",
+   "src": "https://en.wikipedia.org/wiki/B.O.T.A._tarot_deck",
+   "shown": true,
+   "note": "fetched (excerpt mode): 'created by Paul Foster Case, founder of Builders of the Adytum (BOTA)'; register-row source",
+   "register": "Builders of the Adytum ['F4']",
+   "why": "occult order publishing its own deck (content identity) - audit defer"
+  }
+ ]
+}

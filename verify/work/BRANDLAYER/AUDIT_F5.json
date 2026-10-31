@@ -676,9 +676,101 @@
    "dept": "payment and transit cards",
    "region": "North America",
    "note": "magnetic card, so outside the contactless-card category the harvest used; MTA/NYCT operator may already be in the transit canon"
+  },
+  {
+   "n": "Haibara (榛原)",
+   "layer": "cultural",
+   "src": "https://rurubu.jp/andmore/article/21148",
+   "says": "Rurubu (JTB travel press): Nihonbashi washi shop founded 1806 (Bunka 3), sells goshuin-chō covered in its Meiji-Taishō chiyogami designs, letter paper and envelopes",
+   "country": "Japan",
+   "dept": "goshuin-cho",
+   "region": "East Asia"
+  },
+  {
+   "n": "Holly Hock (goshuincho.com)",
+   "layer": "cultural",
+   "src": "https://www.kankomie.or.jp/topic/411",
+   "says": "Mie Prefecture tourism federation: goshuin-chō specialist in Matsusaka; fully domestic, hand-made by craftsmen in the traditional method, incl. Matsusaka-momen and Ise-momen covers",
+   "country": "Japan",
+   "dept": "goshuin-cho",
+   "region": "East Asia"
+  },
+  {
+   "n": "Klug-Conservation",
+   "layer": "cultural",
+   "tier": "listed",
+   "src": "https://www.staatsarchiv.sachsen.de/download/Grundregeln_Fotokonservierung_Ulrike_Mueller.pdf",
+   "says": "Saxon State Archives conservation guidance lists it among suppliers (Bezugsquellen) of PAT-tested photo storage",
+   "country": "Germany",
+   "dept": "archival storage",
+   "region": "Western Europe",
+   "note": "supplier list only; existence"
+  },
+  {
+   "n": "Monochrom (Mono-C GmbH)",
+   "layer": "cultural",
+   "tier": "listed",
+   "src": "https://www.staatsarchiv.sachsen.de/download/Grundregeln_Fotokonservierung_Ulrike_Mueller.pdf",
+   "says": "listed as supplier in Saxon State Archives photo-conservation guidance",
+   "country": "Germany",
+   "dept": "archival storage",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Schempp Bestandserhaltung",
+   "layer": "cultural",
+   "tier": "listed",
+   "src": "https://www.staatsarchiv.sachsen.de/download/Grundregeln_Fotokonservierung_Ulrike_Mueller.pdf",
+   "says": "listed as supplier in Saxon State Archives photo-conservation guidance",
+   "country": "Germany",
+   "dept": "archival storage",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Hans Schröder (archiv-box)",
+   "layer": "cultural",
+   "tier": "listed",
+   "src": "https://www.staatsarchiv.sachsen.de/download/Grundregeln_Fotokonservierung_Ulrike_Mueller.pdf",
+   "says": "listed as supplier in Saxon State Archives photo-conservation guidance",
+   "country": "Germany",
+   "dept": "archival storage",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Kolbo Fine Judaica Gallery",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://kolbo.com/products/jerusalem-gate-ketubah",
+   "says": "Brookline (MA) Judaica gallery since 1978 selling ketubot (Jewish marriage contracts, a religious rite certificate) by Israeli artists, with text choices by denomination",
+   "country": "United States",
+   "dept": "religious rite certificates",
+   "region": "North America / Jewish diaspora",
+   "note": "seller page; ketubah artists themselves are persons (Visual Entertainment)"
   }
  ],
- "add_regions": [],
+ "add_regions": [
+  {
+   "region": "East Asia (Japan)",
+   "speciality": "goshuin-chō temple-stamp books in washi with chiyogami or regional cotton covers",
+   "src": "https://rurubu.jp/andmore/article/21148",
+   "brands": [
+    "Haibara (榛原)",
+    "Holly Hock (goshuincho.com)"
+   ],
+   "note": "extends the harvest's Kyoto goshuin-chō division (Taniguchi Shoyudo, Nagai Shigyo)"
+  },
+  {
+   "region": "Middle East / North Africa",
+   "speciality": "19th-early 20th c. studio-publishers of tourist photographs, albums and postcards (Beirut, Constantinople, Tunis, Cairo)",
+   "src": "https://en.wikipedia.org/wiki/Maison_Bonfils",
+   "brands": [
+    "Maison Bonfils",
+    "Sébah & Joaillier",
+    "Lehnert & Landrock"
+   ],
+   "note": "Bonfils described as 'one of the most prolific studios in the Middle East'; check content-identity before merging"
+  }
+ ],
  "drop": [],
  "notes": "",
  "accuracy": {
