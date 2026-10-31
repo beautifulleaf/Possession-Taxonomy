@@ -1,0 +1,14 @@
+COMMON BRIEF — completion pass CMP (owner 2026-10-31: lists must not be cut off).
+
+RESUME RULE: before doing anything, read /home/user/Possession-Taxonomy/rebuild/work/<BATCH>/progress.md if it exists and continue from the last completed step; append one line after each step. Never redo a step marked done. Never run git, merge.py or build.py; never publish.
+
+Read /home/user/Possession-Taxonomy/verify/in/V4_COMMON.txt (named-entry standard, sourcing, market fields) and the earlier report(s) named in your prompt: they say exactly which lists stopped short.
+
+Why lists were cut off: WebFetch returns at most about 100,000 characters per call and passes the page through a summariser that drops table rows and scrambles columns. Do not rely on one-shot reads of long lists.
+
+Method, in this order:
+1. Wikidata first. For a canon that Wikidata models (instances of a class: firearm models, cartridges, grape varieties, GPUs, phone models, coins, wine appellations…), query https://query.wikidata.org/sparql?format=json&query=<urlencoded SPARQL> through WebFetch, asking it to return the JSON rows verbatim. Select label, inception/publication date (P571/P577), country (P495/P17), manufacturer (P176) or other needed properties; page with LIMIT 200 OFFSET n until no rows come back. First run a COUNT query so you know the total. A Wikidata item URL is an acceptable source for an entry (RULES.md attestation rule).
+2. Where Wikidata does not cover the canon, read the reference page in windows with WebFetch's offset parameter (about 30,000 characters per call, prompt "return the list rows verbatim, one per line"), continuing until the page ends; record the offset reached. Use Firecrawl only for pages WebFetch cannot read.
+3. Merge new rows into the existing kind: no duplicates (compare names case-insensitively and by aliases), existing entries keep their fields, new entries get n, y, mk/g where available, d (one plain sentence), s.
+4. Coverage line: append to each completed kind's `sel` one sentence, either "Complete: <n> of <n> in <reference>." or "Covers <n> of about <m> in <reference>; <why the rest are missing>." Count from the reference itself.
+Validate with python3 /home/user/Possession-Taxonomy/rebuild/validate.py --v3 on every file you edited. Report rebuild/out/<BATCH>_report.md (≤ 350 words): per list, count before → after, reference total, method used, anything still short.
