@@ -1,1 +1,2 @@
 step0: backups done, inspected
+step1: owners fetched Herschel(Eurazeo Brands minority 2019, ACG, HOOPP; founders Cormack), Mulberry(Challice 56.4%, Frasers 37%; England 1971), Globe-Trotter(Oakley Capital majority 4 Mar 2020 from Takubo), Polene(L Catterton minority Aug 2024; founders Mothay 2016), Away(privately held, no owner; investors list). pending: Monos, lines (Fendi,LV,Hermes,KateSpade,Telfar,Persol,WarbyParker,Briggs), countries, then data edit

@@ -8,3 +8,4 @@ step6: apply3 (7 Wikidata maker items); Design Museum London only 2 furniture ob
 step7: apply4 owners (Vitra Steelcase LaZBoy Kartell Emeco Artifort Secretlab Isokon Gufram Memphis)
 step8: apply5 owners GUBI Fredericia ErikJ Graco Arflex Vitsoe
 step9: apply6 market facts (Home News Now 125; HNI Steelcase)
+step10: report written; done
