@@ -4,3 +4,5 @@ wd offset 200 done (wd1.txt, '=' means title=label with underscores; next offset
 wd offset 400 done (wd2.txt grouped '## maker' format; stopped at KR Motors; next offset 600)
 wd offset 600 done (wd3.txt; stopped at Matchless G50; next offset 800)
 wd offset 800 done (wd4.txt; stopped at Triumph TT600; next offset 1000)
+wd offset 1000 done (wd5.txt; stopped at Yamaha YZR-M1; next check offset 1180)
+wd all done (1194 rows, wd0-wd5, tail added). next: Wikipedia lists by manufacturer
