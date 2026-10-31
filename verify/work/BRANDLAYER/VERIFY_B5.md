@@ -12,7 +12,7 @@ Checked 451 brands: 404 from the harvest, minus 16 audit drops, plus 64 audit ad
 - L'hirondelle: not on the Japan Objects Nambu page; no other page found.
 
 ## Re-sourced (src2): 74
-- 49 IVSH names now point to the paginated member pages (?tx_ivsh_member[currentPage]=N, Schneidwaren pages 2-8 and Haushaltwaren pages 2-3), as the audit found. The page links were taken from the fetched page 1 (never guessed).
+- 42 IVSH names now point to the paginated member pages (?tx_ivsh_member[currentPage]=N, Schneidwaren pages 2-8 and Haushaltwaren pages 2-3), as the audit found. 7 more were filed under the wrong section and now point to page 1 of Schneidwaren (mitglieder/2) or Haushaltwaren (mitglieder/4). The page links were taken from the fetched page 1 (never guessed).
 - 15 Knifewear names point to brands page 1 or page 3 instead of page 2.
 - Kahla, Bauscher, Lichte Porzellan and KPM Berlin point to Wikipedia 'Porcelain manufacturing companies in Europe'. KPM is the row 'Royal Porcelain Manufacture Berlin (abbreviated KPM)', which links its article; Kahla's and Bauscher's rows link no company article, so both are listed.
 - Au Sabot (Franceclat, EPV and quality statement), Kamasada (Japan Guide), Oitomi (Kiriko Made), Suzuki Morihisa (Nihonmono), Unilloy (Red Dot Design Museum), Usmanov (International Folk Art Market), Hirota Glass (Tokyo Teshigoto).
