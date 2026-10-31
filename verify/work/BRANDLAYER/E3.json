@@ -552,6 +552,120 @@
    ],
    "found": 12,
    "note": "berimbau makers not found; Argentina/Peru/Cuba not searched"
+  },
+  {
+   "axis": "kind",
+   "item": "Tradition: Markneukirchen / Mittenwald",
+   "queries": [
+    "Markneukirchen Instrumentenbauer Genossenschaft",
+    "Mittenwald Geigenbauer Liste"
+   ],
+   "found": 0,
+   "note": "region and guild facts found (guild 1677, school 1858); no maker list page fetched; de.wikipedia Liste bedeutender Geigenbauer located, not fetched (historical makers)"
+  },
+  {
+   "axis": "kind",
+   "item": "Tradition: Spanish guitar (Granada, Madrid)",
+   "queries": [
+    "Spanish classical guitar makers Granada Madrid Ramirez Contreras Conde Bellido"
+   ],
+   "found": 44,
+   "note": "Zavaleta biographies list; Summerfield list and Concurso Nacional de Lutheria cited"
+  },
+  {
+   "axis": "kind",
+   "item": "Tradition: Kolkata/Banaras sitar and tabla",
+   "queries": [
+    "sitar makers Kolkata Hemen Kanailal Rikhi Ram tabla Banaras"
+   ],
+   "found": 9,
+   "note": "sitar done; tabla/Banaras makers not found"
+  },
+  {
+   "axis": "kind",
+   "item": "Tradition: Turkish cymbals",
+   "queries": [
+    "Istanbul Agop Bosphorus Zildjian Istanbul Mehmet"
+   ],
+   "found": 5,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Tradition: Turkish saz/ney/kanun, Persian tar/setar/santur",
+   "queries": [
+    "Turkish saz bağlama ustası atölye",
+    "Persian tar setar santur luthier"
+   ],
+   "found": 1,
+   "note": "only specialist seller Tapadum found; no named maker pages"
+  },
+  {
+   "axis": "kind",
+   "item": "Tradition: koto, shamisen, biwa, gayageum",
+   "queries": [
+    "koto shamisen maker workshop",
+    "gayageum makers Korea"
+   ],
+   "found": 1,
+   "note": "only Marusan Hashimoto (seller brand); museum pages not used by rule"
+  },
+  {
+   "axis": "kind",
+   "item": "Tradition: djembe",
+   "queries": [
+    "djembe makers Guinea Mali Senegal workshop"
+   ],
+   "found": 0,
+   "note": "pages name families (Doumbia, Camara) and fair-trade importers only; no brand page"
+  },
+  {
+   "axis": "kind",
+   "item": "Tradition: Appalachian dulcimer and banjo",
+   "queries": [
+    "Appalachian dulcimer banjo makers Ledford"
+   ],
+   "found": 13,
+   "note": "Birthplace of Country Music exhibit; Kentucky luthiers"
+  },
+  {
+   "axis": "kind",
+   "item": "Tradition: Andean quena and siku",
+   "queries": [
+    "quena siku zampoña maker workshop"
+   ],
+   "found": 0,
+   "note": "musician pages only; no maker page"
+  },
+  {
+   "axis": "kind",
+   "item": "Quality: violin-making competitions",
+   "queries": [
+    "Triennale Cremona winners",
+    "VSA competition winners 2014-2024"
+   ],
+   "found": 60,
+   "note": "Cremona roll of honour 1976-2015 and VSA 2014/2018/2022/2024 fetched; VSA 2016, 2020 and Triennale 2018/2021/2024 and Mittenwald competition not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Quality: MIPA other years",
+   "queries": [
+    "MIPA winners 2015 2018 2010 list"
+   ],
+   "found": 5,
+   "note": "2010 (studio) and 2015 (drums) added; 2018 LEWITT page only a single product; mipa-award.de blocked"
+  },
+  {
+   "axis": "kind",
+   "item": "Quality: Guitar Player / MusicRadar / Guitar World awards",
+   "queries": [
+    "Guitar Player Gear of the Year",
+    "MusicRadar awards",
+    "Guitar World Platinum"
+   ],
+   "found": 0,
+   "note": "located (guitarplayer.com gear of the year 2023, guitarworld.com 2025, musicradar NAMM 2019) but product-level; not fetched"
   }
  ],
  "regions": [
@@ -1614,6 +1728,66 @@
    "new_names": 11,
    "status": "done",
    "note": "gold/silver medals"
+  },
+  {
+   "url": "https://www.mixonline.com/technology/2010-mipa-awards-378840",
+   "title": "Mix 2010 MIPA Awards",
+   "kind": "award",
+   "years": "2010",
+   "names_on_page": 10,
+   "new_names": 3,
+   "status": "done",
+   "note": "recording, live sound, electronic categories only"
+  },
+  {
+   "url": "https://drummerszone.com/news/winners-of-mipa-awards-2015-anounced/brand-news-3-13193/article",
+   "title": "Drummerszone MIPA 2015 drum winners",
+   "kind": "award",
+   "years": "2015",
+   "names_on_page": 5,
+   "new_names": 2,
+   "status": "done",
+   "note": "drum categories only"
+  },
+  {
+   "url": "https://www.soundofasia.com/collections/gayageum",
+   "title": "Sound of Asia gayageum",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "only one brand named"
+  },
+  {
+   "url": "https://worldinstruments.org/instruments/santur/",
+   "title": "Santur (worldinstruments)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "no maker names"
+  },
+  {
+   "url": "https://www.globaleducationcenter.org/uploads/5/4/4/6/54461425/djembe_traditions.pdf",
+   "title": "Djembe traditions",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "names numu families Doumbia and Camara only; no brands"
+  },
+  {
+   "url": "https://www.alpharhythmroots.com/post/the-origin-and-transformation-of-the-djembe-drum-the-short-story",
+   "title": "Djembe origin",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "done",
+   "note": "no maker names"
   }
  ],
  "brands": [
@@ -18670,6 +18844,51 @@
    "says": "Gold/silver medal winner, Violin Society of America 2018 International Violin Making Competition",
    "country": "",
    "dept": "violin-family maker / bows",
+   "evidence": "quality"
+  },
+  {
+   "n": "SSL",
+   "layer": "premium",
+   "src": "https://www.mixonline.com/technology/2010-mipa-awards-378840",
+   "says": "Winner of 2010 MIPA (Musikmesse International Press Award, voted by 100+ magazines) category; named product/brand",
+   "country": "",
+   "dept": "recording/live sound",
+   "evidence": "quality"
+  },
+  {
+   "n": "Cakewalk",
+   "layer": "premium",
+   "src": "https://www.mixonline.com/technology/2010-mipa-awards-378840",
+   "says": "Winner of 2010 MIPA (Musikmesse International Press Award, voted by 100+ magazines) category; named product/brand",
+   "country": "",
+   "dept": "recording/live sound",
+   "evidence": "quality"
+  },
+  {
+   "n": "Hartley Peavey",
+   "layer": "premium",
+   "src": "https://www.mixonline.com/technology/2010-mipa-awards-378840",
+   "says": "Winner of 2010 MIPA (Musikmesse International Press Award, voted by 100+ magazines) category; named product/brand",
+   "country": "",
+   "dept": "recording/live sound",
+   "evidence": "quality"
+  },
+  {
+   "n": "DW",
+   "layer": "premium",
+   "src": "https://drummerszone.com/news/winners-of-mipa-awards-2015-anounced/brand-news-3-13193/article",
+   "says": "Winner of 2015 MIPA (16th Musikmesse International Press Award) drum and percussion category",
+   "country": "",
+   "dept": "drums/percussion",
+   "evidence": "quality"
+  },
+  {
+   "n": "NFUZD",
+   "layer": "premium",
+   "src": "https://drummerszone.com/news/winners-of-mipa-awards-2015-anounced/brand-news-3-13193/article",
+   "says": "Winner of 2015 MIPA (16th Musikmesse International Press Award) drum and percussion category",
+   "country": "",
+   "dept": "drums/percussion",
    "evidence": "quality"
   }
  ]
