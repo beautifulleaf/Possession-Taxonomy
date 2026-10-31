@@ -134,8 +134,10 @@ for dn,code in NAMES.items():
     ents=[]
     for e in reg.values():
         if not e['d']:
-            kinds=sorted({v['d'].split(':')[0] for v in e['v'] if v['d']})
-            e['d']=e['n']+(' brand'+(' with '+', '.join(k.lower() for k in kinds[:3]) if kinds else ''))+('; owner given by '+('a fetched list' if e.get('own') else 'no fetched page')+'.')
+            bt=BK[code][1] if code!='C' else ''
+            ow=e.get('own','')
+            e['d']=(e['n']+' is a '+bt+' brand of '+ow+'.') if ow else (e['n']+' is a '+bt+' brand; no fetched page names its owner.')
+            if e.get('own_y'): e['d']=e['d'][:-1]+', acquired '+e['own_y']+'.'
         e['mk']=e['n']
         e['tier']=tier(e.get('own',''),e['n'])
         if not e.get('own'): e.pop('own',None);e.pop('tier',None)

@@ -1,0 +1,429 @@
+##### Racket sports | t: Rackets, paddles and the balls, strings and shoes made for racket games; a bat for baseball or cricket → Team sports, a table-tennis table is here but a pool table → Target & precision sports. | ax: Which racket game is the kit made for: tennis, badminton and squash, table tennis, padel and pickleball, or racquetball? | mode mixed
+ SHELF Tennis | ax: kinds by role in play: racket, strings, ball, shoe, bag
+   KIND Tennis racket | x 15 m 0 r 0 | tt ['Frame material', 'Head size'] | see None
+       x: ['Jack Kramer Autograph', 'Prince oversize', 'Dunlop Max 200G', 'Wilson Pro Staff', 'Head Prestige', 'Head Radical', 'Babolat Pure Drive', 'Babolat Pure Aero', 'Head Speed', 'Yonex EZONE', 'Yonex VCORE', 'Wilson T2000', 'Spalding Smasher', 'Head Competition', 'Yonex R-7']
+       m: []
+   KIND Tennis string | x 3 m 10 r 1 | tt ['Material'] | see None
+       x: ['Babolat VS natural gut', 'Luxilon ALU Power', 'Solinco Hyper-G']
+       m: [["Natural Gut 120", "Luxilon"], ["4G", "Luxilon"], ["Hawk Touch", "Head"], ["Confidential", "Solinco"], ["Tour Bite", "Solinco"], ["NXT Control", "Wilson"], ["NXT Power", "Wilson"], ["Revolve Spin", "Wilson"], ["PolyTour Fire", "Yonex"], ["PolyTour Spin", "Yonex"]]
+   KIND Tennis ball | x 0 m 9 r 0 | tt ['Pressure', 'Court duty'] | see None
+       x: []
+       m: [["US Open", "Wilson"], ["Roland Garros Clay", "Wilson"], ["Extra Duty Championship", "Penn"], ["Coach Practice", "Penn"], ["Wimbledon", "Slazenger"], ["Fort All Court Tournament", "Dunlop"], ["ATP Championship", "Dunlop"], ["Team", "Head"], ["Gold Academy", "Babolat"]]
+   KIND Tennis shoe | x 0 m 12 r 0 | tt ['Court'] | see None
+       x: []
+       m: [["Gel Resolution", "Asics"], ["Solution Speed FF", "Asics"], ["Court FF", "Asics"], ["Vapor Pro", "Nike"], ["GP Challenge Pro", "Nike"], ["Barricade", "adidas"], ["Adizero Ubersonic", "adidas"], ["Solematch Control", "adidas"], ["Jet Mach", "Babolat"], ["Hypercourt Express", "K-Swiss"], ["Wave Exce
+   KIND Racket bag | x 0 m 0 r 0 | tt ['Format'] | see None
+       x: []
+       m: []
+ SHELF Badminton & squash | ax: kinds by role in play: racket, shuttle or ball, strings, net
+   KIND Badminton racket | x 9 m 6 r 0 | tt ['Balance', 'Weight class'] | see None
+       x: ['Yonex Astrox', 'Yonex Voltric', 'Yonex Nanoflare', 'Yonex ArcSaber', 'Victor Thruster', 'Victor Auraspeed', 'Li-Ning Aeronaut', 'Li-Ning AxForce', 'Li-Ning Windstorm']
+       m: [["DriveX 12 O", "Victor"], ["Jetspeed S12-II", "Victor"], ["Blizzard Pro ZZ", "Apacs"], ["Fantala Pro 101", "Apacs"], ["Halbertec 6000", "Li-Ning"], ["Tectonic 9", "Li-Ning"]]
+   KIND Shuttlecock | x 2 m 0 r 0 | tt ['Material'] | see None
+       x: ['Yonex Aerosensa', 'Yonex Mavis']
+       m: []
+   KIND Badminton string | x 0 m 0 r 0 | tt ['Material'] | see None
+       x: []
+       m: []
+   KIND Badminton net | x 0 m 0 r 0 | tt ['Set'] | see None
+       x: []
+       m: []
+   KIND Squash racket | x 1 m 5 r 0 | tt ['Head shape', 'Player'] | see [['E2', 'Racquetball racket', 'longer-handled court cousin']]
+       x: ['Tecnifibre Carboflex']
+       m: [["Biomimetic Elite", "Dunlop"], ["Force Revelation Junior", "Dunlop"], ["Play Mini", "Dunlop"], ["Nano Ti 110", "Head"], ["i110", "Head"]]
+   KIND Squash ball | x 1 m 5 r 0 | tt ['Dot', 'Game'] | see None
+       x: ['Dunlop Pro']
+       m: [["Pro Double Yellow Dot", "Dunlop"], ["Competition Single Yellow Dot", "Dunlop"], ["Progress", "Dunlop"], ["Intro", "Dunlop"], ["Mini Squash", "Dunlop"]]
+ SHELF Table tennis | ax: kinds by role in play: bat, rubber, ball, table, robot
+   KIND Table tennis bat | x 4 m 14 r 1 | tt ['Construction', 'Grip', 'Blade'] | see None
+       x: ['Stiga Clipper', 'Butterfly Viscaria', 'Butterfly Timo Boll ALC', 'DHS Hurricane blade']
+       m: [["Allround Classic", "Stiga"], ["Allround Evolution", "Stiga"], ["Arctic Wood", "Stiga"], ["Carbonado 45", "Stiga"], ["Carbonado 90", "Stiga"], ["Carbonado 245", "Stiga"], ["Celero", "Stiga"], ["Defensive Pro", "Stiga"], ["Carbo 7.6 WRB", "Stiga"], ["Expert 3.0", "Palio"], ["Legend 3.0", "Palio"], 
+   KIND Table tennis rubber | x 4 m 0 r 0 | tt ['Surface', 'Technology'] | see None
+       x: ['Butterfly Tenergy', 'Butterfly Dignics', 'DHS Hurricane 3', 'Tibhar Evolution']
+       m: []
+   KIND Table tennis ball | x 0 m 0 r 0 | tt ['Grade'] | see None
+       x: []
+       m: []
+   KIND Table tennis table | x 0 m 12 r 1 | tt ['Setting', 'Format'] | see None
+       x: []
+       m: [["Centrefold 25", "Butterfly"], ["Garden 6000", "Butterfly"], ["Space Saver 22", "Butterfly"], ["Tour 2500", "JOOLA"], ["Inside", "JOOLA"], ["Advantage Pro25", "Stiga"], ["510 Campus Outdoor", "Cornilleau"], ["100X Outdoor", "Cornilleau"], ["500X Outdoor", "Cornilleau"], ["700X Outdoor", "Cornillea
+   KIND Table tennis robot | x 0 m 6 r 1 | tt None | see None
+       x: []
+       m: [["Amicus Prime", "Butterfly"], ["Amicus Professional", "Butterfly"], ["Robo-Pong 3050XL", "Newgy"], ["Nova S Pro", "PongBot"], ["Omega", "Power Pong"], ["Trainer Motion", "iPong"]]
+ SHELF Padel, pickleball & racquetball | ax: kinds by game, then by role: racket or paddle, ball, shoe
+   KIND Padel racket | x 6 m 18 r 2 | tt ['Shape'] | see None
+       x: ['Bullpadel Vertex', 'Bullpadel Hack', 'adidas Metalbone', 'Nox AT10 Genius', 'Babolat Viper', 'Head Alpha']
+       m: [["Speed Pro", "Head"], ["Radical Pro", "Head"], ["Extreme Motion", "Head"], ["Arturo Coello Pro", "Head"], ["Diablo Pro", "Siux"], ["Trilogy Pro", "Siux"], ["Pegasus Pro", "Siux"], ["Triton Power+", "Starvie"], ["Astrum+", "Starvie"], ["Drax+", "Starvie"], ["XPLO", "Bullpadel"], ["Stima Spirit", "B
+   KIND Padel ball | x 0 m 1 r 0 | tt None | see None
+       x: []
+       m: [["Padel Pro+", "Head"]]
+   KIND Pickleball paddle | x 2 m 17 r 3 | tt ['Shape', 'Face material'] | see None
+       x: ['JOOLA Perseus', 'JOOLA Hyperion']
+       m: [["Amped S2", "Selkirk Sport"], ["Power Air Invikta", "Selkirk Sport"], ["LABS Boomstik Elongated", "Selkirk Sport"], ["SLK ERA Power Elongated", "Selkirk Sport"], ["Pursuit EX 6.0", "Engage Pickleball"], ["Alpha Pro", "Engage Pickleball"], ["Tempest Wave II", "Paddletek"], ["Bantam TKO-C", "Paddlet
+   KIND Pickleball ball | x 0 m 8 r 1 | tt ['Setting'] | see None
+       x: []
+       m: [["X-40 Outdoor", "Franklin Sports"], ["X-26 Indoor", "Franklin Sports"], ["Fast-40", "Dura"], ["LT Pro 48", "Life Time"], ["Fuse Indoor", "Onix"], ["Fuse G2 Outdoor", "Onix"], ["Pro S1", "Selkirk Sport"], ["Photon Indoor", "Gamma"]]
+   KIND Pickleball shoe | x 0 m 0 r 0 | tt None | see None
+       x: []
+       m: []
+   KIND Racquetball racket | x 0 m 0 r 0 | tt ['Frame', 'Player'] | see None
+       x: []
+       m: []
+   KIND Racquetball | x 0 m 0 r 0 | tt ['Colour (speed)'] | see None
+       x: []
+       m: []
+##### Golf | t: Everything used to play golf: clubs, balls, bags, trolleys, shoes and measuring gadgets; a golf cart or car → G1, a disc golf disc → Target & precision sports. | ax: Is it a club that strikes the ball, or something struck, carried, worn or measured? | mode mixed
+ SHELF Golf clubs | ax: kinds by loft and distance, longest to shortest, then the putter
+   KIND Golf driver | x 6 m 16 r 6 | tt ['Ball flight', 'Head size', 'Weight'] | see None
+       x: ['Pinseeker Bombshell', 'Pittsburgh Persimmon', 'Big Bertha', 'R7 Quad', 'Epic', '975D']
+       m: [["G440 Max", "Ping (Karsten Manufacturing)"], ["G440 LST", "Ping (Karsten Manufacturing)"], ["G440 SFT", "Ping (Karsten Manufacturing)"], ["OPTM X", "Cobra Golf"], ["OPTM LS", "Cobra Golf"], ["ZXi", "Srixon"], ["ZXi LS", "Srixon"], ["JPX ONE", "Mizuno"], ["Exotics C725", "Tour Edge Golf"], ["M-seri
+   KIND Fairway wood | x 0 m 11 r 6 | tt ['Loft number'] | see None
+       x: []
+       m: [["Quantum Max Fast", "Callaway Golf Company"], ["Quantum Triple Diamond", "Callaway Golf Company"], ["OPTM Max", "Cobra Golf"], ["G440 LST", "Ping (Karsten Manufacturing)"], ["Qi4D Tour", "TaylorMade Golf"], ["Qi10 Tour", "TaylorMade Golf"], ["GT1", "Titleist"], ["GT3", "Titleist"], ["TSR3", "Title
+   KIND Hybrid | x 0 m 10 r 6 | tt ['Loft number'] | see None
+       x: []
+       m: [["Elyte", "Callaway Golf Company"], ["Elyte X", "Callaway Golf Company"], ["Quantum Max", "Callaway Golf Company"], ["OPTM", "Cobra Golf"], ["G440", "Ping (Karsten Manufacturing)"], ["ZXi", "Srixon"], ["Qi4D Rescue", "TaylorMade Golf"], ["GT1", "Titleist"], ["GT2", "Titleist"], ["XXIO 13", "XXIO"]]
+   KIND Driving iron | x 0 m 2 r 0 | tt ['Build'] | see None
+       x: []
+       m: [["P-DHY utility iron", "TaylorMade Golf"], ["P-UDI utility iron", "TaylorMade Golf"]]
+   KIND Golf iron set | x 4 m 10 r 3 | tt ['Head design', 'Set make-up'] | see None
+       x: ['Eye 2', 'MP forged blade', 'PING K1 irons', 'Mizuno JPX']
+       m: [["Forged ZXi5", "Srixon"], ["Forged ZXi7", "Srixon"], ["ZXiR HL", "Srixon"], ["Qi Max", "TaylorMade Golf"], ["Quantum Max", "Callaway Golf Company"], ["Quantum Max OS", "Callaway Golf Company"], ["Dynapower Forged", "Wilson Sporting Goods"], ["Dynapower Max", "Wilson Sporting Goods"], ["Staff Model
+   KIND Golf wedge | x 2 m 13 r 3 | tt ['Loft', 'Face'] | see None
+       x: ['Sarazen sand wedge', 'Vokey Spin Milled']
+       m: [["RTZ", "Cleveland Golf"], ["RTX 6 ZipCore", "Cleveland Golf"], ["CBZ", "Cleveland Golf"], ["Smart Sole Full-Face", "Cleveland Golf"], ["Opus", "Callaway Golf Company"], ["Opus SP", "Callaway Golf Company"], ["s159", "Ping (Karsten Manufacturing)"], ["S259", "Ping (Karsten Manufacturing)"], ["MG5",
+   KIND Putter | x 5 m 14 r 4 | tt ['Head shape', 'Balance'] | see None
+       x: ['Anser', 'Newport', '2-Ball', 'PING 1A', 'Odyssey White Hot']
+       m: [["Phantom 5", "Scotty Cameron"], ["Phantom 7", "Scotty Cameron"], ["Phantom 9R", "Scotty Cameron"], ["Phantom 11R OC", "Scotty Cameron"], ["Studio Style Fastback 2", "Scotty Cameron"], ["Studio Style Santa Fe", "Scotty Cameron"], ["Ai-DUAL #7", "Odyssey Golf"], ["Ai-DUAL Jailbird", "Odyssey Golf"],
+   KIND Complete golf set | x 0 m 0 r 0 | tt ['Set size', 'Player'] | see None
+       x: []
+       m: []
+ SHELF Golf balls, bags & accessories | ax: kinds by use: the ball and tee, carrying, wearing, measuring
+   KIND Golf ball | x 5 m 11 r 1 | tt ['Construction', 'Cover', 'Feel'] | see None
+       x: ['Pro V1', 'Z-Star', 'Chrome Soft', 'TP5', 'Kirkland Signature Four-Piece']
+       m: [["AVX", "Titleist"], ["Tour Soft", "Titleist"], ["Trufeel", "Titleist"], ["Velocity", "Titleist"], ["Tour Response", "TaylorMade Golf"], ["SpeedSoft", "TaylorMade Golf"], ["Distance+", "TaylorMade Golf"], ["Supersoft", "Callaway Golf Company"], ["Soft Feel", "Srixon"], ["AD333", "Srixon"], ["Duo So
+   KIND Golf tee | x 0 m 0 r 0 | tt ['Material', 'Length'] | see None
+       x: []
+       m: []
+   KIND Golf bag | x 0 m 6 r 0 | tt ['Carry style'] | see None
+       x: []
+       m: [["Hybrid 14", "Titleist"], ["Traverse", "Ping"], ["Eclipse E-2.5", "Sun Mountain"], ["Loma", "Sunday Golf"], ["El Camino", "Sunday Golf"], ["The Big Rig", "Sunday Golf"]]
+   KIND Golf trolley | x 0 m 10 r 0 | tt ['Power', 'Wheels'] | see None
+       x: []
+       m: [["Clicgear 4.0", "Clicgear"], ["Cube Push", "Motocaddy"], ["Autofold FF", "Big Max"], ["DLX-Lite FF", "PowaKaddy"], ["R1-S", "Stewart Golf"], ["Nitron", "BagBoy"], ["M7 Remote", "Motocaddy"], ["Q Follow", "Stewart Golf"], ["Zip Navigator", "MGI Golf"], ["X4 Sport", "Batcaddy"]]
+   KIND Golf headcover | x 0 m 0 r 0 | tt ['Club', 'Material'] | see None
+       x: []
+       m: []
+   KIND Golf glove | x 0 m 6 r 0 | tt ['Material', 'Fit'] | see None
+       x: []
+       m: [["StaSof", "FootJoy"], ["Players Flex", "Titleist"], ["Cabretta Premium", "Srixon"], ["Staff Model", "Wilson Sporting Goods"], ["RainGrip", "FootJoy"], ["Weather Spann", "Callaway Golf Company"]]
+   KIND Golf shoe | x 0 m 0 r 0 | tt ['Sole', 'Style'] | see None
+       x: []
+       m: []
+   KIND Golf rangefinder | x 0 m 13 r 0 | tt ['Technology', 'Slope'] | see None
+       x: []
+       m: [["Pro X3+", "Bushnell"], ["Tour V6 Shift", "Bushnell"], ["A1 Slope", "Bushnell"], ["COOLSHOT PRO II Stabilized", "Nikon"], ["Approach Z82", "Garmin"], ["Approach Z30", "Garmin"], ["SL3", "Voice Caddie"], ["Anarch", "Vortex"], ["Pro L2", "Shot Scope"], ["NX10 Slope", "Precision Pro Golf"], ["Series 
+   KIND Golf GPS | x 0 m 10 r 2 | tt ['Form'] | see None
+       x: []
+       m: [["Ringer", "Blue Tees Golf"], ["Phantom 3", "Bushnell"], ["Approach G20 Solar", "Garmin"], ["Approach G82", "Garmin"], ["VoiceX", "GolfBuddy"], ["The Caddie", "Pinned Golf"], ["H4", "Shot Scope"], ["H50", "Shot Scope"], ["PRO 4X", "SkyCaddie"], ["PRO 5X", "SkyCaddie"]]
+   KIND Divot repair tool | x 0 m 0 r 0 | tt ['Form'] | see None
+       x: []
+       m: []
+##### Team sports | t: Equipment for team games with a ball or puck: football, rugby, cricket, baseball, hockey, basketball, lacrosse, hurling; a helmet or pad → Protective gear, a racket → Racket sports. | ax: What does the object do in play: is it the thing played, the thing that strikes it, the thing that catches or grips, or the ground kit? | mode mixed
+ SHELF Balls & pucks | ax: kinds by game family: kicked, handled, struck with a bat or stick
+   KIND Football | x 3 m 6 r 0 | tt ['Use', 'Size'] | see None
+       x: ['Telstar', 'Tango', 'World Cup official match ball']
+       m: [["Impel Plus 24", "Mitre"], ["Academy Total 90", "Nike"], ["Skills Total 90", "Nike"], ["Phantom", "Nike"], ["Big Cat", "Puma"], ["Messi Club", "adidas"]]
+   KIND Rugby ball | x 1 m 7 r 0 | tt ['Code', 'Grade', 'Size'] | see None
+       x: ['Gilbert match ball']
+       m: [["G-TR7000", "Gilbert"], ["G-TR6000", "Gilbert"], ["Barbarian HD", "Gilbert"], ["Innovo", "Gilbert"], ["Advantia", "Gilbert"], ["Quantum Sevens", "Gilbert"], ["Rebounder Training Ball", "Gilbert"]]
+   KIND American football | x 1 m 0 r 0 | tt ['Material', 'Size'] | see None
+       x: ['The Duke']
+       m: []
+   KIND Australian rules football | x 1 m 0 r 0 | tt ['Grade', 'Size'] | see None
+       x: ['Sherrin football']
+       m: []
+   KIND Basketball | x 2 m 0 r 0 | tt ['Surface', 'Material', 'Size'] | see None
+       x: ['NBA official game ball', 'Evolution']
+       m: []
+   KIND Volleyball | x 1 m 0 r 0 | tt ['Surface', 'Player'] | see None
+       x: ['FIVB official ball']
+       m: []
+   KIND Netball | x 0 m 0 r 0 | tt ['Grade', 'Size'] | see None
+       x: []
+       m: []
+   KIND Handball | x 1 m 2 r 0 | tt ['Size', 'Grade'] | see None
+       x: ['Ultimate']
+       m: [["Goalcha", "Select"], ["Kids Soft", "Select"]]
+   KIND Baseball | x 0 m 0 r 0 | tt ['Grade', 'Cover'] | see None
+       x: []
+       m: []
+   KIND Cricket ball | x 3 m 2 r 0 | tt ['Colour', 'Construction', 'Player'] | see None
+       x: ['Dukes', 'Kookaburra Turf', 'SG Test']
+       m: [["Supreme Crown", "Kookaburra"], ["Super Coach Technique Soft", "Kookaburra"]]
+   KIND Field hockey ball | x 1 m 0 r 0 | tt ['Surface'] | see None
+       x: ['Kookaburra Dimple Elite']
+       m: []
+   KIND Hockey puck | x 0 m 0 r 0 | tt ['Weight', 'Setting'] | see None
+       x: []
+       m: []
+   KIND Sliotar | x 0 m 2 r 0 | tt ['Colour'] | see None
+       x: []
+       m: [["Yellow sliotar", ""], ["Smart sliotar", ""]]
+ SHELF Bats & sticks | ax: kinds by what strikes: bats, hooked sticks, netted sticks, hurleys
+   KIND Cricket bat | x 13 m 19 r 5 | tt ['Willow', 'Handle', 'Size'] | see None
+       x: ['Scoop', 'Kahuna', 'Diamond', 'Sunridges', 'Magnum', 'Turbo', 'V100', 'Ridgeback', 'Kaboom', 'Uzi', 'Mi3', 'ComBat aluminium bat', 'Mongoose MMi']
+       m: [["Classic", "Gray-Nicolls"], ["Gem", "Gray-Nicolls"], ["Neocore", "Gray-Nicolls"], ["Revel", "Gray-Nicolls"], ["Stratos", "Gray-Nicolls"], ["Ventus", "Gray-Nicolls"], ["Havoc", "Gray-Nicolls"], ["Legend", "Gray-Nicolls"], ["Icon SE", "Gunn & Moore"], ["Noir Original LE", "Gunn & Moore"], ["Ghost 7.
+   KIND Baseball bat | x 5 m 6 r 0 | tt ['Material', 'Certification'] | see None
+       x: ['R43', 'MLB Prime', 'CAT', 'Voodoo', 'CF']
+       m: [["Supra", "Louisville Slugger"], ["TVT Pro Exclusive Maple", "Marucci Sports"], ["F5", "Marucci Sports"], ["Nitro", "DeMarini"], ["Diablo", "DeMarini"], ["Coastal Collective Uluwatu Spec-H1", "Combat"]]
+   KIND Softball bat | x 3 m 3 r 0 | tt ['Game', 'Construction'] | see None
+       x: ['Velocit-E Ultra', 'Genesis', 'EST']
+       m: [["Halo", "Rawlings"], ["Super Freak Highlighter", "Miken"], ["Synergy", "Easton"]]
+   KIND Ice hockey stick | x 12 m 10 r 0 | tt ['Construction', 'Age size'] | see None
+       x: ['Synergy', 'Vapor', 'Supreme', 'Jetspeed', 'Tacks', 'Ribcor', 'Nexus', 'Alpha', 'Covert', 'Stealth', 'Catalyst', 'HZRDUS']
+       m: [["Pulse 2", "Bauer Hockey"], ["Proto2", "Bauer Hockey"], ["Vizion", "CCM Hockey"], ["Novium 3 Pro", "Warrior Hockey"], ["Project X", "TRUE Hockey"], ["RS", "Easton"], ["V9", "Easton"], ["Mako", "Easton"], ["Code Photon Pro", "Sherwood Hockey"], ["Rekker Morph Pro", "Sherwood Hockey"]]
+   KIND Goalie stick | x 0 m 4 r 0 | tt ['Material'] | see None
+       x: []
+       m: [["CCM Extreme Flex E5.9 Goalie Stick", "CCM Hockey"], ["CCM Tacks Pro Goalie Stick", "CCM Hockey"], ["CCM Vizion Goalie Stick", "CCM Hockey"], ["CCM XF Pro Goalie Stick", "CCM Hockey"]]
+   KIND Field hockey stick | x 1 m 10 r 0 | tt ['Bow', 'Material', 'Position'] | see None
+       x: ['Hook']
+       m: [["AC1000 DBS", "Grays"], ["DB10", "Grays"], ["AC500 DynaBow-S", "Grays"], ["AC800 Jumbow-S", "Grays"], ["Dynabow 8", "Grays"], ["GT 5", "Grays"], ["Exa", "Dita"], ["Giga", "Dita"], ["Terra", "Dita"], ["Pro Tour 70", "Osaka"]]
+   KIND Bandy stick | x 0 m 0 r 0 | tt ['Material'] | see None
+       x: []
+       m: []
+   KIND Lacrosse stick | x 1 m 16 r 0 | tt ['Position', 'Player', 'Material', 'Sold as'] | see None
+       x: ['Brine Shotgun']
+       m: [["Torq", "Gait"], ["CEO", "Nike"], ["Noz X", "Warrior"], ["Evo 4x", "Warrior"], ["Optik U", "Maverik"], ["Mark 1", "StringKing"], ["Rebel Offense", "ECD"], ["Hawk", "Epoch"], ["Command X", "Under Armour"], ["Plastic lacrosse head", "STX"], ["first plastic head", "STX"], ["Stallion", "STX"], ["Surge
+   KIND Hurley | x 0 m 2 r 0 | tt ['Material', 'Variant'] | see None
+       x: []
+       m: [["bamboo hurley", "Torpey"], ["Plastic hurley", "Wavin"]]
+ SHELF Gloves & mitts | ax: kinds by job: catch with a mitt, keep goal, keep wicket, grip a bat
+   KIND Baseball glove | x 5 m 0 r 3 | tt ['Position', 'Game', 'Throwing hand'] | see None
+       x: ['A2000', 'Heart of the Hide', 'Pro Preferred', 'Mizuno Pro', 'World Win']
+       m: []
+   KIND Goalkeeper gloves | x 0 m 9 r 0 | tt ['Palm cut', 'Protection'] | see None
+       x: []
+       m: [["Predator", "adidas"], ["Supergrip", "Uhlsport"], ["Absolutgrip", "Uhlsport"], ["Attrakt", "Reusch"], ["Pure Contact", "Reusch"], ["Future", "Puma"], ["Vapor Grip 3", "Nike"], ["Hero", "KEEPERsport"], ["Champ", "KEEPERsport"]]
+   KIND Wicket-keeping gloves | x 0 m 4 r 0 | tt None | see None
+       x: []
+       m: [["2000L", "Kookaburra"], ["Shockwave 2000", "Gray-Nicolls"], ["Original LE", "Gunn & Moore"], ["evo SE", "PUMA"]]
+   KIND Cricket batting gloves | x 0 m 3 r 0 | tt ['Finger design'] | see None
+       x: []
+       m: [["Select 600", "Gray-Nicolls"], ["Diamond Original", "Gunn & Moore"], ["Kahuna Pro", "Kookaburra"]]
+ SHELF Boots, goals & fixtures | ax: kinds from the boot on the ground to the goal at the end
+   KIND Football boot | x 4 m 7 r 1 | tt ['Surface', 'Fastening'] | see None
+       x: ['King', 'Copa Mundial', 'Predator', 'Mercurial']
+       m: [["Tiempo Maestro", "Nike"], ["Phantom", "Nike"], ["F50 Hyperfast", "adidas"], ["Future Ultimate", "Puma"], ["Ultra Ultimate", "Puma"], ["Furon", "New Balance"], ["Tekela", "New Balance"]]
+   KIND Kicking tee | x 0 m 0 r 0 | tt None | see None
+       x: []
+       m: []
+   KIND Football goal | x 0 m 0 r 0 | tt ['Format'] | see None
+       x: []
+       m: []
+   KIND Basketball hoop | x 0 m 8 r 0 | tt ['Mounting'] | see None
+       x: []
+       m: [["Silverback NXT 54", "Goalrilla"], ["Ultimate Hybrid", "Spalding"], ["Momentous EZ Assembly", "Spalding"], ["The Beast", "Spalding"], ["71522 Competition XL", "Lifetime"], ["51550", "Lifetime"], ["90040", "Lifetime"], ["Splash & Shoot", "Dunn-Rite"]]
+   KIND Hockey goal | x 0 m 0 r 0 | tt ['Size'] | see None
+       x: []
+       m: []
+   KIND Hockey shooting pad | x 0 m 1 r 0 | tt ['Format'] | see None
+       x: []
+       m: [["Winnwell Shooting Pad with Handle", "Winnwell"]]
+   KIND Cricket stumps | x 0 m 0 r 0 | tt ['Fixing'] | see None
+       x: []
+       m: []
+##### Protective gear | t: Kit worn to absorb impact in ball, stick and contact sports; a ski, climbing or cycling helmet stays with its sport, a fencing mask → Athletics, dance & combat, motorcycle gear → G1. | ax: Which part of the body does it protect: head and neck, torso, arms and hands, or hips and legs? | mode mixed
+ SHELF Head & neck | ax: kinds from the whole head to the face, mouth and neck
+   KIND American football helmet | x 0 m 5 r 0 | tt ['Level'] | see None
+       x: []
+       m: [["Zero2", "VICIS"], ["Zero2 Trench", "VICIS"], ["F7 2.0", "Schutt"], ["Vengeance Pro LTD", "Schutt"], ["SpeedFlex", "Riddell"]]
+   KIND Hockey helmet | x 0 m 9 r 2 | tt ['Sold as'] | see None
+       x: []
+       m: [["RE-AKT 155", "Bauer Hockey"], ["RE-AKT 90", "Bauer Hockey"], ["RE-AKT 55", "Bauer Hockey"], ["Hyperlite 2", "Bauer Hockey"], ["Super Tacks X", "CCM Hockey"], ["Tacks X Pro", "CCM Hockey"], ["Tacks 720", "CCM Hockey"], ["Tacks 310", "CCM Hockey"], ["CF 80", "Warrior Hockey"]]
+   KIND Batting helmet | x 0 m 1 r 0 | tt ['Ear flaps', 'Face cover', 'Size'] | see None
+       x: []
+       m: [["Mach", "Rawlings"]]
+   KIND Cricket helmet | x 0 m 6 r 0 | tt ['Grille', 'Neck cover'] | see None
+       x: []
+       m: [["VS Elite Titanium", "Masuri"], ["OS2 Test", "Masuri"], ["T-LINE Steel", "Masuri"], ["T-LINE Plus", "Masuri"], ["Atomic 360", "Gray-Nicolls"], ["Pro 600f", "Kookaburra"]]
+   KIND Riding hat | x 0 m 17 r 0 | tt ['Shape', 'Protection', 'Standard'] | see None
+       x: []
+       m: [["Revolve X-Air MIPS", "Champion"], ["AYR8 Plus", "Charles Owen"], ["My PS", "Charles Owen"], ["Kylo", "Charles Owen"], ["Shadowmatt 2.0", "Samshield"], ["Miss Shield 2.0", "Samshield"], ["Star Lady Hunter", "Kask"], ["Sport 2.0", "Troxel"], ["Spirit", "Troxel"], ["Defender", "One K"], ["Avance", "
+   KIND Hockey cage or visor | x 0 m 2 r 0 | tt ['Face cover'] | see None
+       x: []
+       m: [["FM580", "CCM Hockey"], ["Straight Small Visor", "Oakley"]]
+   KIND Goalie mask | x 1 m 1 r 0 | tt ['Style'] | see None
+       x: ['Plante fibreglass mask']
+       m: [["Cooper HM30 / HM40", "Cooper"]]
+   KIND Mouthguard | x 0 m 6 r 0 | tt ['Fit'] | see None
+       x: []
+       m: [["Self-Fit Gold", "OPRO"], ["Max 2.4", "SISU"], ["Shock Doctor Pro", "Shock Doctor"], ["Academy Mouthguard", "Gilbert"], ["Intro", "SAFEJAWZ"], ["Predator", "Venum"]]
+   KIND Hockey neck guard | x 0 m 3 r 0 | tt ['Cover'] | see None
+       x: []
+       m: [["Sherwood Cut Protective Neck Guard Collar", "Sherwood Hockey"], ["Sherwood Cut Protective Neck Guard Bib", "Sherwood Hockey"], ["Sherwood Cut Protective Neck Guard Pro", "Sherwood Hockey"]]
+ SHELF Torso, arms & hands | ax: kinds from the shoulders down to the hands, with whole-position sets last
+   KIND American football shoulder pads | x 0 m 9 r 0 | tt ['Position', 'Age'] | see None
+       x: []
+       m: [["Power SPK+", "Riddell"], ["SPK+ Skilled", "Riddell"], ["Standard", "XTech"], ["Skill", "XTech"], ["Super Skill", "XTech"], ["SP69", "Douglas"], ["Legacy JD", "Douglas"], ["Razor OL/DL", "Gear Pro-Tec"], ["Razor Skill", "Gear Pro-Tec"]]
+   KIND Hockey shoulder pads | x 0 m 0 r 5 | tt ['Size class'] | see None
+       x: []
+       m: []
+   KIND Equestrian body protector | x 0 m 11 r 0 | tt ['Type', 'Standard'] | see None
+       x: []
+       m: [["RS 2010", "Racesafe"], ["Motion", "Racesafe"], ["AirMesh2", "Airowear"], ["Shadow", "Airowear"], ["Ti22", "Champion"], ["Superflex", "Gatehouse"], ["X'Air Safe", "Freejump"], ["Faze", "Fomo"], ["Equine Proair", "Point Two"], ["Zip'In 2", "Helite"], ["Airbag Vest", "Horse Pilot"]]
+   KIND Goalie chest and arm protector | x 0 m 6 r 0 | tt ['Size class'] | see None
+       x: []
+       m: [["Bauer Supreme Fuse Goalie Chest & Arm Protector", "Bauer Hockey"], ["Bauer Vapor FlyLite Goalie Chest & Arm Protector", "Bauer Hockey"], ["CCM Pro Spec Chest & Arm Protector", "CCM Hockey"], ["Vaughn Velocity XP Pro Goalie Chest & Arm Protector", "Vaughn"], ["Vaughn Ion Pro Select Goalie Chest & 
+   KIND Hockey elbow pads | x 0 m 0 r 0 | tt ['Size class'] | see None
+       x: []
+       m: []
+   KIND Hockey gloves | x 0 m 2 r 5 | tt ['Size class'] | see [['E2', 'Goalie blocker', 'goalie hand protection']]
+       x: []
+       m: [["Jetspeed FT8 Pro", "CCM Hockey"], ["Jetspeed FTW", "CCM Hockey"]]
+   KIND Goalie blocker | x 0 m 0 r 0 | tt ['Hand'] | see None
+       x: []
+       m: []
+   KIND Goalie catcher | x 0 m 0 r 0 | tt None | see None
+       x: []
+       m: []
+   KIND Catcher's gear | x 0 m 0 r 0 | tt ['Piece', 'Size'] | see None
+       x: []
+       m: []
+ SHELF Hips & legs | ax: kinds from the hip down: pants and cups, pads, guards
+   KIND Hockey pants | x 0 m 3 r 7 | tt ['Form'] | see None
+       x: []
+       m: [["Bauer S21 Pant Shell", "Bauer Hockey"], ["CCM JetSpeed Girdle Shell", "CCM Hockey"], ["CCM PP25 Pant Shell", "CCM Hockey"]]
+   KIND Goalie pants | x 0 m 1 r 0 | tt ['Size class'] | see None
+       x: []
+       m: [["Bauer Pro Goalie Pants", "Bauer Hockey"]]
+   KIND Protective cup | x 0 m 1 r 0 | tt None | see None
+       x: []
+       m: [["Ultra Pro Carbon Flex Cup", "Shock Doctor"]]
+   KIND Cricket batting pads | x 0 m 3 r 0 | tt ['Build', 'Hand'] | see None
+       x: []
+       m: [["Kahuna Pro", "Kookaburra"], ["Diamond", "Gunn & Moore"], ["TC860", "New Balance"]]
+   KIND Goalie leg pads | x 0 m 2 r 2 | tt ['Size class'] | see None
+       x: []
+       m: [["S Series", "Brian's"], ["HZRDUS 9X4", "TRUE Hockey"]]
+   KIND Knee pad | x 0 m 1 r 0 | tt None | see None
+       x: []
+       m: [["Elite 9 SL2", "Mizuno"]]
+   KIND Shin guard | x 0 m 2 r 0 | tt ['Fit'] | see None
+       x: []
+       m: [["Mercurial Lite", "Nike"], ["Tiro Match", "adidas"]]
+##### Target & precision sports | t: Equipment for hitting or reaching a mark with an arrow, clay, dart, ball, disc or pellet; a bow or firearm → E4, a toy flying disc → E1. | ax: What is propelled at the mark: an arrow, a clay, a dart or cue ball, a rolled bowl, a thrown piece, or a pellet or paintball? | mode variety
+ SHELF Archery | ax: kinds by where used: drawing hand, bow arm, carrying arrows, the target
+   KIND Archery finger tab | x 3 m 3 r 0 | tt ['Face material', 'Ledge'] | see None
+       x: ['Elite Finger Tab', 'Fairweather tab', 'Saker']
+       m: [["Contour", "Axcel Archery"], ["Contour Pro", "Axcel Archery"], ["Beginner Finger Tab", "Easton Archery"]]
+   KIND Archery thumb ring | x 1 m 0 r 0 | tt ['Material', 'Form'] | see None
+       x: ['Manchu cylindrical ring']
+       m: []
+   KIND Archery shooting glove | x 1 m 0 r 0 | tt ['Style'] | see None
+       x: ['Yugake']
+       m: []
+   KIND Release aid | x 0 m 0 r 0 | tt ['Trigger style'] | see [['E4', 'Release aid', 'archery accessory listed with archery']]
+       x: []
+       m: []
+   KIND Archery arm guard | x 1 m 4 r 0 | tt ['Material', 'Length'] | see None
+       x: ['Ketoh']
+       m: [["Guardian Vented Arm Guard", "30-06 Outdoors"], ["Pro Am Arm Guard", "30-06 Outdoors"], ["Shield Arm Guard", "30-06 Outdoors"], ["Guardian Arm Guard", "October Mountain Products"]]
+   KIND Archery bow sling | x 0 m 0 r 0 | tt ['Style'] | see None
+       x: []
+       m: []
+   KIND Quiver | x 3 m 14 r 0 | tt ['Wear', 'Material'] | see None
+       x: ['Yebira', 'Yazutsu', 'Elite Takedown Hip Quiver']
+       m: [["Back quiver Adventure", "BEARPAW"], ["Back quiver Back Pack Traditional", "BEARPAW"], ["Back quiver Bearpaw Long", "BEARPAW"], ["Back quiver Crazy Horse", "BEARPAW"], ["Back quiver DOA", "BEARPAW"], ["Back quiver Dark", "BEARPAW"], ["Back quiver Dynamic", "BEARPAW"], ["Back quiver Indian Summer",
+   KIND Archery target | x 0 m 5 r 0 | tt ['Build', 'Rating', 'Face'] | see None
+       x: []
+       m: [["18-1", "Rinehart Targets"], ["Buck XL 3D", "Blackout"], ["Block Range 48", "Block"], ["Supreme Range", "Morrell"], ["Hurricane Bag", "Field Logic"]]
+ SHELF Clay shooting | ax: kinds by role: launch the target, the target, worn, carried
+   KIND Clay thrower | x 0 m 11 r 7 | tt ['Operation'] | see None
+       x: []
+       m: [["Pigeon", "Promatic"], ["AT1", "Atlas Trap Co"], ["AT2", "Atlas Trap Co"], ["Workhorse Electronic Auto-Feed Trap", "Champion Traps & Targets"], ["Skybird", "Champion Traps & Targets"], ["Flyway 180x", "Do-All Outdoors"], ["Clayhawk", "Do-All Outdoors"], ["Clay Hand Cannon", "Do-All Outdoors"], ["C
+   KIND Clay target | x 0 m 4 r 0 | tt ['Size', 'Flight'] | see None
+       x: []
+       m: [["Blackout", "White Flyer"], ["Western", "White Flyer"], ["Orange Dome", "Champion Traps & Targets"], ["ClayCopter UFO Glow", "Caldwell Shooting Supplies"]]
+   KIND Shooting vest | x 0 m 7 r 0 | tt ['Mesh', 'Cut'] | see None
+       x: []
+       m: [["Olympic 3.0", "Beretta"], ["GT671 Full Mesh", "Beretta"], ["Sporting EVO", "Beretta"], ["Gold Shooting Vest", "Beretta"], ["Olimpic", "Castellani"], ["Rio Mesh", "Castellani"], ["Ambidextrous", "Castellani"]]
+   KIND Cartridge bag | x 0 m 9 r 2 | tt ['Capacity', 'Material'] | see None
+       x: []
+       m: [["Uniform Pro EVO Field Bag", "Beretta"], ["Uniform Pro EVO 100", "Beretta"], ["Gamekeeper Evo 100", "Beretta"], ["Terrain Evo Leather 100", "Beretta"], ["Challenge 150", "Beretta"], ["Challenge Shooting Bag", "Browning"], ["Byland 100", "Croots"], ["Rosedale 100", "Croots"], ["Stockbridge Leather 
+ SHELF Darts & cue sports | ax: kinds by game: darts first, then cue sports from the cue to the table
+   KIND Dartboard | x 5 m 1 r 0 | tt ['Material', 'Setting'] | see None
+       x: ['Original Bristle Dartboard', 'Blade', 'Eclipse', 'Manchester Log End board', 'London Fives board']
+       m: [["Quadro 240", "Harrows"]]
+   KIND Darts | x 3 m 1 r 0 | tt ['Tip', 'Barrel material'] | see None
+       x: ['Silver Comet', 'Phil Taylor Power 9Five', 'Wraith']
+       m: [["Elysian Archetype 43", "Target Darts"]]
+   KIND Pool cue | x 7 m 6 r 0 | tt ['Game', 'Role', 'Build'] | see None
+       x: ['Balabushka cue', 'Predator 314 shaft', 'Predator BK break cue', 'Predator Air jump cue', 'McDermott cue', 'Mezz cue', 'Parris snooker cue']
+       m: [["AVID Chroma Highlands", "Cuetec Cues"], ["AVID Surge Break", "Cuetec Cues"], ["EBM02", "Eight Ball Mafia"], ["Heavy 27oz Banned Break", "Elite Pool Cues"], ["Power Piston 2", "Meucci Originals"], ["TL11", "Talon Cues"]]
+   KIND Billiard ball set | x 0 m 0 r 0 | tt ['Game', 'Material'] | see None
+       x: []
+       m: []
+   KIND Pool table | x 2 m 18 r 0 | tt ['Game', 'Bed', 'Size'] | see None
+       x: ['Gold Crown', 'Riley snooker table']
+       m: [["Dameron", "Brunswick Billiards"], ["Parsons", "Brunswick Billiards"], ["Sagrada", "Brunswick Billiards"], ["Soho", "Brunswick Billiards"], ["Viking", "C.L. Bailey Billiards"], ["Cordoba", "California House Billiards"], ["Augusta", "Olhausen Billiards"], ["Breckenridge", "Olhausen Billiards"], ["L
+   KIND Cue case | x 0 m 6 r 0 | tt ['Capacity', 'Build'] | see None
+       x: []
+       m: [["Proline 2x4 Hard", "Cuetec Cues"], ["3x7 Geo Leather", "Instroke"], ["4x7 Hard/Soft Hybrid", "McDermott Cue Manufacturing"], ["Metro 2x4", "Predator Cues"], ["Camo 2x4 Soft", "Poison"], ["Special Edition 2x4", "Purex"]]
+ SHELF Bowls & boules | ax: kinds by surface: gravel, grass, lane
+   KIND Pétanque boules | x 2 m 2 r 0 | tt ['Level', 'Material', 'Role', 'Surface'] | see [['E2', 'Bocce set', 'Italian equivalent']]
+       x: ['ATX', 'MATCH']
+       m: [["La Boule Noire", "Obut"], ["JB Vintage", "Obut"]]
+   KIND Bocce set | x 0 m 0 r 0 | tt ['Material', 'Players'] | see [['E2', 'Pétanque boules', 'French equivalent']]
+       x: []
+       m: []
+   KIND Lawn bowls | x 1 m 8 r 0 | tt ['Green', 'Size', 'Material'] | see None
+       x: ['Henselite composite bowl']
+       m: [["Professional", "Drakes Pride"], ["XP", "Drakes Pride"], ["Fineline", "Drakes Pride"], ["d-tec", "Drakes Pride"], ["Ace", "Taylor Bowls"], ["Vector VS", "Taylor Bowls"], ["GrooVe", "Aero Bowls"], ["Optima", "Aero Bowls"]]
+   KIND Tenpin bowling ball | x 3 m 0 r 0 | tt ['Cover', 'Core', 'Weight'] | see None
+       x: ['Hammer urethane ball', '3D Offset', 'Black Widow']
+       m: []
+ SHELF Lawn & throwing games | ax: kinds by what is thrown or struck: mallet and ball, bags, shoes, batons, a pin, discs
+   KIND Croquet set | x 1 m 0 r 0 | tt ['Game', 'Ball material'] | see None
+       x: ['Jaques croquet set']
+       m: []
+   KIND Cornhole set | x 0 m 0 r 0 | tt ['Size', 'Bag fill'] | see None
+       x: []
+       m: []
+   KIND Horseshoe set | x 0 m 0 r 0 | tt ['Part'] | see None
+       x: []
+       m: []
+   KIND Kubb set | x 0 m 0 r 0 | tt ['Part'] | see None
+       x: []
+       m: []
+   KIND Mölkky set | x 1 m 0 r 0 | tt ['Part'] | see None
+       x: ['Mölkky']
+       m: []
+   KIND Flying disc | x 2 m 0 r 0 | tt ['Use', 'Material'] | see [['E1', 'Toy flying disc', 'toy version']]
+       x: ['Frisbee', 'Ultra-Star']
+       m: []
+   KIND Disc golf disc | x 5 m 1 r 0 | tt ['Role', 'Stability', 'Plastic'] | see None
+       x: ['Eagle', 'Aviar', 'Roc', 'Leopard', 'Destroyer']
+       m: [["Teebird", "Innova"]]
+   KIND Disc golf basket | x 1 m 0 r 0 | tt ['Setup'] | see None
+       x: ['Mach Disc Pole Hole']
+       m: []
+   KIND Boomerang | x 0 m 0 r 0 | tt ['Type', 'Material'] | see None
+       x: []
+       m: []
+ SHELF Airsoft & paintball | ax: kinds from the marker to what feeds, powers and protects it
+   KIND Airsoft gun | x 5 m 9 r 0 | tt ['Power'] | see None
+       x: ['Tokyo Marui AEG', 'Next Generation Recoil Shock', 'Hi-Capa', 'VSR-10', 'M92F Samurai Edge']
+       m: [["Nemesis LS12", "Classic Army"], ["FAR 9", "G&G"], ["TR80 DMR", "G&G"], ["Trident MK3", "Krytac"], ["SSR74", "Novritsch"], ["SSR77 A2", "Novritsch"], ["MDR-X", "Silverback"], ["Evolt", "Tokyo Marui"], ["Avalon Samurai Edge", "VFC"]]
+   KIND Paintball gun | x 11 m 8 r 0 | tt ['Mechanism', 'Valve'] | see None
+       x: ['Nelspot 007', 'Automag', 'Spyder', '98 Custom', 'A-5', 'Angel', 'Shocker', 'Ego', 'Geo', 'Matrix', 'Axe']
+       m: [["Emek MG100", "Planet Eclipse"], ["Etha", "Planet Eclipse"], ["Etek", "Planet Eclipse"], ["CS3", "Planet Eclipse"], ["DSR+", "Dye"], ["Mini", "Empire"], ["Intimidator", "Bob Long Technologies"], ["Ion", "Smart Parts"]]
+   KIND Paintball hopper | x 3 m 11 r 0 | tt ['Feed'] | see None
+       x: ['Rotor', 'Spire', 'Cyclone Feed System']
+       m: [["Halo Pro", "Empire"], ["Halo Too", "Empire"], ["VMAX+", "Empire"], ["GFX", "HK Army"], ["TFX 3.0", "HK Army"], ["Triad", "JT"], ["Revolution", "JT"], ["PAL FS.68", "Planet Eclipse"], ["Speedster", "Planet Eclipse"], ["V-Max Plus", "Valken"], ["Proto Primo", "Dye"]]
+   KIND Paintball air tank | x 0 m 7 r 0 | tt ['Gas', 'Cylinder'] | see None
+       x: []
+       m: [["Carbon Fiber HPA Tank", "Ninja"], ["Basics Carbon Fiber HPA Tank", "Empire"], ["Hero 2.0 Carbon Fiber", "First Strike"], ["Myth G3 Nitrogen Tank", "Guerrilla Air"], ["20oz CO2 Tank", "JT"], ["24oz CO2 Tank", "Empire"], ["Aluminum CO2 Tank", "Tippmann"]]
+   KIND Paintball mask | x 0 m 5 r 0 | tt ['Lens', 'Coverage'] | see None
+       x: []
+       m: [["i5", "Dye"], ["VIO Ascend", "Virtue"], ["EVS", "Empire"], ["Spectra Flex 8", "JT"], ["KLR", "HK Army"]]

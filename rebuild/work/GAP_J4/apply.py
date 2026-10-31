@@ -16,6 +16,7 @@ def keys(x):
     return {k for k in ks if k}
 added=collections.defaultdict(list)
 def add(kind,n,d_,s,y='',a='',dt=None,mk='',**kw):
+    if not n.strip(): return
     k=K[kind]; k.setdefault('x',[])
     e={'n':n,'a':a,'d':d_,'mk':mk,'y':y,'s':s,'v':[]}
     if dt: e['dt']=dt
@@ -27,7 +28,11 @@ def add(kind,n,d_,s,y='',a='',dt=None,mk='',**kw):
 def bulk(kind,rows,src,tpl,y_in=True):
     for r in rows:
         n,y,o=(list(r)+['',''])[:3]
-        add(kind,n,tpl.format(n=n,o=o,y=y).replace(' from ,',',').replace('  ',' '),src,y=y)
+        t=tpl.format(n=n,o=o,y=y)
+        if not o: t=re.sub(r'[;,]? ?origin \.|\{o\}','.',t).replace('persimmon article.','persimmon article.')
+        if kind=='Persimmon': t='Persimmon cultivar named in Wikipedia\'s persimmon article'+(f' ({o})' if o else '')+'.'
+        elif not o: t=t.replace('; origin .','.').replace('; origin','')
+        add(kind,n,t,src,y=y)
 # Pear
 P=WP+'List_of_pear_cultivars'
 bulk('Pear',[('Alexander Lucas','1870','Loire-et-Cher, France'),('Beurré Hardy','c1820','Boulogne-sur-Mer, France'),('Blanquilla','','Spain'),('Louise Bonne','1778','Normandy, France'),('Merton Pride','1941','England'),('Santa Maria','1951','Italy'),('Passe Crassane','1855','Rouen, France'),('Starkrimson','1939','Michigan, United States'),('Moonglow','1960',''),('Comtesse de Paris','1884','Eure-et-Loir, France'),('Glou Morceau','1750','Belgium'),('Josephine de Malines','1830','Mechelen, Belgium')],P,'Pear cultivar listed in Wikipedia\'s list of pear cultivars; origin {o}.')
@@ -63,7 +68,7 @@ for sp,s in chi.items():
         add('Chilli',n,f'Chilli cultivar named in Wikipedia\'s list of Capsicum cultivars, species {sp[9:]}.',C,dt=sp)
 # Persimmon
 PS=WP+'Persimmon'
-bulk('Persimmon',[('Great Wall','','Chinese variant with medium-sized orange fruit'),('Gosho','','giant Fuyu'),('Hyakume','','brown sugar'),('Giombo','','large fruit, pollination variant'),('Midia','','large fruit with an indented ring'),('Cioccolatino','',''),('Vainiglia','','traditional variety from Campania, Italy'),('Tipo','','Italian variety'),('Maru','','cinnamon'),('Ormond','','also known as Christmas persimmon'),('Fankio','','large golden fruit'),('Saijo','','sweet conical fruit'),('Tamopan','','large and flat'),('Taishu','',''),('Soshu','',''),('Suruga','','sweet and spicy fruit'),('Izu','','medium fruit'),('Hana Fuyu','','grown in California, marketed as Giant Fuyu'),('Hanagosho','','large tree with good crop regulation'),('Matsumoto Wase','','bud sport of Fuyu'),('Tone Wase','',''),('Shogatsu','','similar to Hanagosho'),('Dan gam','','Korean sweet persimmon'),('Hongsi','','Korean ripe persimmon')],PS,'Persimmon cultivar named in Wikipedia\'s persimmon article{o_}.')
+bulk('Persimmon',[('Great Wall','','Chinese variant with medium-sized orange fruit'),('Gosho','','giant Fuyu'),('Hyakume','','brown sugar'),('Giombo','','large fruit, pollination variant'),('Midia','','large fruit with an indented ring'),('Cioccolatino','',''),('Vainiglia','','traditional variety from Campania, Italy'),('Tipo','','Italian variety'),('Maru','','cinnamon'),('Ormond','','also known as Christmas persimmon'),('Fankio','','large golden fruit'),('Saijo','','sweet conical fruit'),('Tamopan','','large and flat'),('Taishu','',''),('Soshu','',''),('Suruga','','sweet and spicy fruit'),('Izu','','medium fruit'),('Hana Fuyu','','grown in California, marketed as Giant Fuyu'),('Hanagosho','','large tree with good crop regulation'),('Matsumoto Wase','','bud sport of Fuyu'),('Tone Wase','',''),('Shogatsu','','similar to Hanagosho'),('Dan gam','','Korean sweet persimmon'),('Hongsi','','Korean ripe persimmon')],PS,'Persimmon cultivar named in Wikipedia\'s persimmon article{o}.')
 for e in K['Persimmon']['x']:
     if e['s']==PS and e['d'].endswith('{o_}.'): pass
 # fix template for persimmon
