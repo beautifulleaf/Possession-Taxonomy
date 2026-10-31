@@ -47,7 +47,7 @@ function item(k, term) {
   if (k.nl || k.sel) a.append($('div', { class: 'nl' }, k.nl ? $('p', {}, $('b', { text: 'One entry is ' }), k.nl.replace(/^one entry is /i, '')) : null, k.sel ? $('p', {}, $('b', { text: 'This list: ' }), k.sel) : null));
   if (k.x && k.x.length) { const det = $('details', { class: 'models', open: '' }, $('summary', { text: k.x.length + (k.x.length === 1 ? ' named entry' : ' named entries') + (k.xg ? ', ' + k.xg : '') }));
     const gs = []; k.x.forEach(x => { const g = x.g || ''; let e = gs.find(z => z[0] === g); if (!e) gs.push(e = [g, []]); e[1].push(x); });
-    if (gs.length > 1 || gs[0][0]) gs.forEach(([g, xs]) => det.append($('h6', { class: 'xg' }, g || 'Other', $('span', { text: ' ' + xs.length })), $('div', { class: 'archs' }, xs.map(arch))));
+    if ((gs.length > 1 || gs[0][0]) && k.x.length >= 2 * gs.length) gs.forEach(([g, xs]) => det.append($('h6', { class: 'xg' }, g || 'Other', $('span', { text: ' ' + xs.length })), $('div', { class: 'archs' }, xs.map(arch))));
     else det.append($('div', { class: 'archs' }, k.x.map(arch)));
     a.append(det); }
   const m = k.m || [], r = k.r || [];
