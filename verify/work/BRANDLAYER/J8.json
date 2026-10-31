@@ -2,7 +2,210 @@
  "cat": "J8",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
+ "sweeps": [
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Western Europe renowned craft makers"
+   ],
+   "found": 1,
+   "note": "covered via award tables (ICA/AoC), not separately searched"
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "Northern Europe renowned craft makers"
+   ],
+   "found": 1,
+   "note": "covered via award tables (ICA/AoC), not separately searched"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Southern Europe renowned craft makers"
+   ],
+   "found": 1,
+   "note": "covered via award tables (ICA/AoC), not separately searched"
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "Central & Eastern Europe renowned craft makers"
+   ],
+   "found": 1,
+   "note": "covered via award tables (ICA/AoC), not separately searched"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "North America renowned craft makers"
+   ],
+   "found": 1,
+   "note": "covered via award tables (ICA/AoC), not separately searched"
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Latin America & Caribbean renowned craft makers"
+   ],
+   "found": 1,
+   "note": "covered via award tables (ICA/AoC), not separately searched"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "East Asia renowned craft makers"
+   ],
+   "found": 1,
+   "note": "covered via award tables (ICA/AoC), not separately searched"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Southeast Asia renowned craft makers"
+   ],
+   "found": 1,
+   "note": "covered via award tables (ICA/AoC), not separately searched"
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "searched"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Turkish delight/baklava search (Middle East) only; others not run (lean mode)"
+   ],
+   "found": 0,
+   "note": "Middle East: Haci Bekir, Koska, Karakoy Gulluoglu, Gulluoglu seen only in search excerpts (not fetched) - see notes next list"
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [],
+   "found": 0,
+   "note": "not tried, lean-mode search cap"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [],
+   "found": 0,
+   "note": "not tried, lean-mode search cap"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [],
+   "found": 0,
+   "note": "not tried, lean-mode search cap"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [],
+   "found": 0,
+   "note": "not tried, lean-mode search cap"
+  },
+  {
+   "axis": "kind",
+   "item": "Bakeries",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (lean mode)"
+  },
+  {
+   "axis": "kind",
+   "item": "Loaves",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (lean mode)"
+  },
+  {
+   "axis": "kind",
+   "item": "Pastries",
+   "queries": [],
+   "found": 1,
+   "note": "covered by chocolate/panettone/lebkuchen/wagashi/mithai sources"
+  },
+  {
+   "axis": "kind",
+   "item": "Festive & spiced bakes",
+   "queries": [],
+   "found": 1,
+   "note": "covered by chocolate/panettone/lebkuchen/wagashi/mithai sources"
+  },
+  {
+   "axis": "kind",
+   "item": "Chocolate",
+   "queries": [],
+   "found": 1,
+   "note": "covered by chocolate/panettone/lebkuchen/wagashi/mithai sources"
+  },
+  {
+   "axis": "kind",
+   "item": "Sweets & confectionery > World confectionery traditions",
+   "queries": [],
+   "found": 1,
+   "note": "covered by chocolate/panettone/lebkuchen/wagashi/mithai sources"
+  },
+  {
+   "axis": "kind",
+   "item": "Biscuits & crackers",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (lean mode)"
+  },
+  {
+   "axis": "kind",
+   "item": "Crisps & savoury snacks",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (lean mode)"
+  },
+  {
+   "axis": "kind",
+   "item": "Snack nuts & bars",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (lean mode)"
+  },
+  {
+   "axis": "kind",
+   "item": "Ice cream",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (lean mode)"
+  },
+  {
+   "axis": "kind",
+   "item": "Cakes",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (lean mode)"
+  },
+  {
+   "axis": "kind",
+   "item": "Rolls, flatbreads & enriched breads",
+   "queries": [],
+   "found": 0,
+   "note": "not searched (lean mode)"
+  }
+ ],
  "regions": [
   {
    "region": "Italy (Milan, Campania)",
@@ -24,6 +227,95 @@
     "Ueno Fugetsudo",
     "Kikumi Senbei Sohonten",
     "Nakatani Seika"
+   ]
+  },
+  {
+   "region": "Germany (Nuremberg, Aachen, Dresden)",
+   "speciality": "Lebkuchen, Aachener Printen, Dresdner Stollen",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "brands": [
+    "Lebkuchen Schmidt",
+    "Wicklein",
+    "Haeberlein-Metzger",
+    "Lambertz",
+    "Dr. Quendt",
+    "Emil Reimann",
+    "Kreutzkamm"
+   ]
+  },
+  {
+   "region": "India",
+   "speciality": "Mithai and namkeen",
+   "src": "https://www.bakeryandsnacks.com/Article/2025/10/10/haldirams-fuels-diwalis-billion-dollar-mithai-boom",
+   "brands": [
+    "Haldiram's",
+    "Bikanervala",
+    "Bikaji"
+   ]
+  },
+  {
+   "region": "Latin America (Peru, Ecuador, Brazil, Mexico)",
+   "speciality": "Origin and bean-to-bar craft chocolate; many ICA winners",
+   "src": "https://enter.chocolateawards.com/competitions/world-final-competitions/world-final-2025-winners",
+   "brands": [
+    "Cacaosuyo",
+    "Paccari Chocolate",
+    "Qantu",
+    "Luisa Abram",
+    "Baianí Chocolates",
+    "Cacau do Céu Chocolates",
+    "Que Bo! Chocolatería Mexicana Evolutiva"
+   ]
+  },
+  {
+   "region": "East Asia (Japan, Taiwan, China)",
+   "speciality": "Craft bean-to-bar chocolate and flavoured bars (matcha, yuzu, tea)",
+   "src": "https://academyofchocolate.org.uk/awards/2025/",
+   "brands": [
+    "Fu Wan Chocolate",
+    "Mamano Chocolate",
+    "Dandelion Chocolate Japan",
+    "Cacao Farm Formosa"
+   ]
+  },
+  {
+   "region": "Northern Europe (Nordics, Iceland)",
+   "speciality": "Craft bean-to-bar chocolate",
+   "src": "https://enter.chocolateawards.com/competitions/european-bean-to-bar/european-middle-eastern-and-african-bean-to-bar-competition-2026-winners",
+   "brands": [
+    "Friis-Holm Chokolade",
+    "Omnom",
+    "Fjåk Chocolate"
+   ]
+  },
+  {
+   "region": "Southern Europe (Italy)",
+   "speciality": "Craft chocolate, panettone",
+   "src": "https://www.ircagroup.com/en/inside-irca-group/contests/panettone-awards-2024",
+   "brands": [
+    "Gardini",
+    "Slitti",
+    "Pasticceria Don Nino"
+   ]
+  },
+  {
+   "region": "Southeast Asia",
+   "speciality": "Craft cacao (Vietnam, Thailand, Malaysia, Philippines)",
+   "src": "https://enter.chocolateawards.com/competitions/world-final-competitions/world-final-2025-winners",
+   "brands": [
+    "Marou Chocolate",
+    "Benns Ethicoa",
+    "Charoendee Chocolate"
+   ]
+  },
+  {
+   "region": "North America",
+   "speciality": "Craft bean-to-bar chocolate",
+   "src": "https://academyofchocolate.org.uk/awards/2025/",
+   "brands": [
+    "Goodnow Farms Chocolate",
+    "Dick Taylor Craft Chocolate",
+    "Fruition Chocolate Works"
    ]
   }
  ],
@@ -197,6 +489,26 @@
    "new_names": 9,
    "status": "done",
    "note": "one page of the category; other sweets shinise (Toraya, Aono Sohonpo, Mannendo) seen only in search excerpts, not counted"
+  },
+  {
+   "url": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "title": "Guide to German Christmas Cookies (germanfoods.org)",
+   "kind": "encyclopedia",
+   "years": "2012",
+   "names_on_page": 21,
+   "new_names": 17,
+   "status": "done",
+   "note": "Aachener Printen named as EU-protected there"
+  },
+  {
+   "url": "https://www.bakeryandsnacks.com/Article/2025/10/10/haldirams-fuels-diwalis-billion-dollar-mithai-boom",
+   "title": "Haldiram's fuels Diwali's mithai boom (Bakery&Snacks 2025)",
+   "kind": "ranking",
+   "years": "2025",
+   "names_on_page": 3,
+   "new_names": 2,
+   "status": "done",
+   "note": "new_names counts only those not already in register"
   }
  ],
  "brands": [
@@ -5911,6 +6223,158 @@
    "says": "Listed as a shinise (century-old) traditional Japanese sweets maker in Agata Japan shinise directory",
    "country": "Japan",
    "dept": "Wagashi"
+  },
+  {
+   "n": "Lebkuchen Schmidt",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Ifri Schumann",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Wicklein",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Haeberlein-Metzger",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Pertzborn",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Frenzel",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Schulte",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Dr. Quendt",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Kinkartz",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Emil Reimann",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Kreutzkamm",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Coppenrath",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Oebel",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Kronen",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Schlünder",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Wikana",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Lambertz",
+   "layer": "cultural",
+   "src": "https://germanfoods.org/german-food-facts/christmas-cookie-brands",
+   "says": "Named as a German Christmas bakery/confectionery brand in germanfoods.org guide (Lebkuchen, Printen, Stollen, Spekulatius)",
+   "country": "Germany",
+   "dept": "Festive bakes"
+  },
+  {
+   "n": "Bikanervala",
+   "layer": "cultural",
+   "src": "https://www.bakeryandsnacks.com/Article/2025/10/10/haldirams-fuels-diwalis-billion-dollar-mithai-boom",
+   "says": "Named as heritage names dominating India's organised packaged-sweets market (TPCI, 2025)",
+   "country": "India",
+   "dept": "Mithai"
+  },
+  {
+   "n": "Bikaji",
+   "layer": "cultural",
+   "src": "https://www.bakeryandsnacks.com/Article/2025/10/10/haldirams-fuels-diwalis-billion-dollar-mithai-boom",
+   "says": "Named as heritage names dominating India's organised packaged-sweets market (TPCI, 2025)",
+   "country": "India",
+   "dept": "Mithai"
   }
  ]
 }

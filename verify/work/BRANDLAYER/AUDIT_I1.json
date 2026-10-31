@@ -3973,10 +3973,354 @@
    "why": "video-game developer (Nexon subsidiary); BRIEF.md defers game publishers/studios to Interactive Entertainment"
   }
  ],
- "notes": "",
- "aliases": {},
- "homonyms": [],
- "src_mismatch": [],
- "navbox_only": [],
- "status": "partial"
+ "notes": "AUDIT I1 Software (Opus, cold; doubles as retry round). Accuracy: 25 sampled with random.seed(7), every source re-fetched raw: 0 non-brands, 1 claim error (Sparrow is a navbox link on Category:Email clients, not a member). Whole-file script check against all 59 source pages re-fetched raw: 382 rows are true category members, 50 shown on award/test pages, 9 shown under a variant name (Pixela Corporation, Postman, Inc., etc.), 23 shown only in the navbox at the top of the category page (they link to their own articles, so still cultural; says is wrong) and 30 are NOT on their src page at all (see src_mismatch; mostly names the harvester added from knowledge or from a different page). No footer/navbox mis-parses of the E1/F1 kind (no generic link text like \"List of...\" became a brand). Drop: NDOORS Corporation (video-game developer, deferred to Interactive Entertainment). Weak consumer fit but kept (enterprise/B2B): TmaxSoft, Yonyou, Kingdee, Cegid, TOTVS, DELMIA, Tebis, Veeam, Commvault, Arcserve, NetSuite, Acumatica, Kayako, FusionCharts, Text Control, GrapeCity, MainConcept, Digital Surf, 4D SAS, TeleForm, ReadSoft, Apryse, Zimbra, Jira. Individuals: no harvest row is an individual, but the I1 register already holds many individuals and call signs (AA6YQ, G0CUZ, K6REA, N3FJP, Alan Heckert, Irfan Skiljan, Christian Ghisler, Kovid Goyal, Tobias Doerffel, Bob Keller ...) - per BRIEF these should be renamed to their product (DXLab Suite, Amateur Contact Log, IrfanView, Total Commander, calibre, LMMS ...). Caveat decisions: ADA winners and runners-up (1st/2nd) = quality; the unlabeled second 2025 table on the Wikipedia ADA page is actually the 2026 winners (Apple newsroom confirms); ADA 2026 finalists added as quality (finalist). AV-TEST award winners = quality; AV-Comparatives: K7, VIPRE, Total Defense all earned Advanced+/Silver awards (quality, not just tested). Google Play Best of = editorial standing (cultural). SOS Awards are reader-voted (TRADE VOTES -> cultural); Plugin Boutique Awards are a retailer's customer vote on its own shop (SELLER PRAISE -> listed unless independent); MusicTech reviewer picks and Headliner review = independent quality. Retry results: audio plug-ins - FabFilter, Soundtoys, ValhallaDSP, iZotope, Waves, Universal Audio were all already in the register; new: Sonnox, Oeksound, Cherry Audio, Wavea, Audio Imperia, 10k Audio, D16 Group, Cableguys, Excite Audio, Heavyocity, Drawmer, Minimal Audio, UJAM (MusicRadar award pages returned empty on raw fetch). Linux: 68 distributions from Wikipedia List of Linux distributions with DistroWatch 12-month ranks. AI: 40 makers from Wikipedia List of AI companies / List of chatbots / AI coding tools. Cleaning/utility: Ashampoo, Glary, IObit, BleachBit, WiseCleaner, CleanMyMac (one tested roundup; TechRadar and PCMag returned empty), plus archivers, BitTorrent/download managers, disk/backup/remote/virtualisation/SSH tools from Wikipedia comparison pages. Ham/SDR: Ham Radio Deluxe, Fldigi, WSJT, CW Skimmer, EchoLink, HamSphere, Log4OM, MacLoggerDX, N1MM Logger+, Logger32, DX4Win, Win-Test, SWISSLOG, CQRLOG, SDR++, SDR# (Wikipedia list + eHam user reviews = standing). ADA 2026: Ocho, Flipping Hues, Wood Metal Rocks, Condor Digital winners; 7 finalists. Webby 2025/2026 press releases: app winners are all already-known makers (Apple, Google, Anthropic, Headspace, ElevenLabs added via AI list) - nothing new. Red Dot: red-dot.org winner search is dynamic; only Readdle's own blog claims a 2025 Red Dot (added as cultural/listed, own-site). Games emulators (22) from Wikipedia list. Thin areas still: Classic & discontinued software (partly covered: Delrina, Datastorm, ZTerm, PKZIP, LimeWire, Mirabilis/ICQ, Framework, Mini Office II, Software Automatic Mouth, bleem!, NESticle), game engines (Godot, RPG Maker, Cocos not sourced), browser extensions/add-ins, device companion apps, embroidery/laser beyond register, medical apps beyond Calm/Big Health, typing tutors (Mavis Beacon not sourced), Git/Docker/Wireshark/Atlassian/GitLab developer icons, Grammarly, ABBYY, Topaz Labs, darktable, Krita, GIMP, Audacity (some are products of register makers). Sub-Saharan Africa and Central Asia: no distinct software makers found in sources (software is globally concentrated - not counted as omissions). TOOLING INCIDENT: early in the run one shell mv with a glob moved 844 other agents' persisted Parallel fetch files out of the shared session tool-results folder; they were moved back within the same minute, but under reconstructed names (mtime-based, may differ by a few ms from the originals). Concurrent agents relying on exact tool-results paths from about 1793485830-1793485910 (epoch) may need to re-fetch. Harvest regions (Russia, Japan, South Korea, India, China, Germany, France, Israel, Finland, Brazil) are Wikipedia \"Software companies of X\" category pages: they name the brands but state no renown for any speciality, so none meets the renown test; the speciality texts are the harvester's own words. Software is globally concentrated; REGIONS ARE NOT QUOTAS, so no add_regions were made. Regional diversity is instead carried by brand adds with region fields: Japan (Yayoi, freee, Emurasoft, Tera Term, PostPet, LoiLo, Synth1, Six Apart, Redmine), Germany (Buhl Data/WISO, Akademische Arbeitsgemeinschaft, Ashampoo, DeepL, Aleph Alpha), Middle East (Sakhr Software Kuwait, G42 UAE, Humain Saudi, AI21/Decart/Mirabilis/IncrediMail Israel), South Asia (Baraha, Avro Keyboard Bangladesh, Lipikaar, e-Kalappai, Ola Krutrim, Haptik, BOSS Linux, Maya OS, Hello English, Brainasoft), East/SE Asia (Ulead, Puffin, Clonezilla Taiwan; muvee, Clean Shaven Apps, Butterfly Effect Singapore; JotterPad Malaysia; Hithink RoyalFlush, DZH, Wind, GstarCAD, BitComet, Xunlei, FlashGet China), Russia/CEE (7-Zip, WinRAR, PROMT, Cognitive Technologies, Astra/ALT/ROSA Linux, mks_vir, VirusBuster, Vba32, Prezi, WinSCP, PSPad, CQRLOG), Latin America (Canaima, Ututo, GoboLinux), Nordics (FRISK Iceland, Oeksound, Tuxera, Macecraft, WordDive, HamSphere, Be My Eyes).",
+ "aliases": {
+  "Cakewalk": "BandLab Technologies",
+  "Soundtrap": "Spotify LTD",
+  "Skylum Luminar": "Skylum",
+  "Toon Boom": "Toon Boom Animation",
+  "TVPaint": "TVPaint Developpement",
+  "TVPaint Animation": "TVPaint Developpement",
+  "Pixelmator": "Pixelmator Team",
+  "Cinema 4D": "Maxon",
+  "Houdini (SideFX)": "Side Effects Software",
+  "Rhinoceros 3D": "McNeel",
+  "Affinity (Serif)": "Serif (Europe)",
+  "Affinity Publisher": "Serif (Europe)",
+  "PagePlus": "Serif (Europe)",
+  "Dorico": "Steinberg",
+  "HALion": "Steinberg",
+  "Sibelius": "Avid Technology",
+  "Korg Collection": "Korg",
+  "Roland Cloud": "Roland",
+  "Vegas Pro": "MAGIX",
+  "Camtasia": "TechSmith",
+  "Snagit": "TechSmith",
+  "Jing": "TechSmith",
+  "OBS Studio": "OBS Project",
+  "MuseScore": "Muse Group",
+  "Studio One": "PreSonus",
+  "Solid Edge": "Siemens Digital Industries Software",
+  "SpaceClaim": "Ansys, Inc.",
+  "LightWave 3D": "LightWave Digital",
+  "Daz 3D": "Daz Productions",
+  "IRONCAD": "IronCAD LLC",
+  "TurboCAD": "IMSI/Design",
+  "Iclone": "Reallusion",
+  "CrazyTalk": "Reallusion",
+  "Moho": "Lost Marble",
+  "Synfig": "Synfig Team",
+  "KStars": "KDE",
+  "RootsMagic": "RootsMagic, Inc.",
+  "Stata": "StataCorp",
+  "Minitab": "Minitab, LLC",
+  "Statgraphics": "Statgraphics Technologies Incorporated",
+  "MedCalc": "MedCalc Software Ltd",
+  "SYSTAT": "Systat Software Inc.",
+  "SPSS": "IBM",
+  "Vocaloid": "Yamaha",
+  "EAGLE (Autodesk)": "Autodesk",
+  "Tinkercad": "Autodesk",
+  "DesignSpark PCB": "RS Components",
+  "NI Multisim": "National Instruments",
+  "LTspice": "Analog Devices",
+  "DipTrace": "Novarm",
+  "Cura": "Ultimaker",
+  "PrusaSlicer": "Prusa Research",
+  "Android Studio": "Google",
+  "NetBeans": "Apache Software Foundation",
+  "Qt Creator": "Qt Group",
+  "Mixamo": "Adobe",
+  "Wunderlist": "Microsoft",
+  "MacPaint": "Apple",
+  "AppleWorks": "Apple",
+  "Claris Emailer": "Apple",
+  "Lotus SmartSuite": "IBM",
+  "Lotus Magellan": "IBM",
+  "StarOffice": "Sun Microsystems",
+  "QuarkXPress": "Quark",
+  "PaintShop Pro": "Corel",
+  "WordPerfect": "Corel",
+  "Dr.Web": "Doctor Web",
+  "Sun xVM": "Sun Microsystems",
+  "OmniFocus": "The Omni Group",
+  "OmniGraffle": "The Omni Group",
+  "Nik Collection": "DxO Labs",
+  "Sytrus": "Image-Line",
+  "Animoog": "Moog",
+  "Facetune": "Lightricks",
+  "ATOK": "JustSystems",
+  "QQ Browser": "Tencent",
+  "Sogou Pinyin": "Tencent (Sogou)",
+  "Naver Whale": "Naver Corporation",
+  "Seqrite": "Quick Heal",
+  "ZoneAlarm": "Check Point",
+  "Hilgraeve": "HyperTerm (same firm; merge)",
+  "REAL Software": "Xojo (same firm, renamed; merge)",
+  "Star Division": "StarOffice / Sun Microsystems",
+  "Linguee": "DeepL (audit add)",
+  "Airmail": "Bloop (audit add)",
+  "Kid Pix": "Software MacKiev / Broderbund",
+  "The Print Shop": "Broderbund",
+  "PrintMaster": "Broderbund",
+  "Luxology": "Foundry (merged 2012)",
+  "Macromedia": "Adobe (acquired 2005; keep as classic brand)",
+  "Connectix": "(Virtual PC, VGS) classic brand",
+  "SteamOS": "Valve",
+  "KDE neon": "KDE",
+  "CentOS": "Red Hat",
+  "Ubuntu Kylin": "Canonical",
+  "Tizen": "Samsung",
+  "Clear Linux OS": "Intel",
+  "VirtualBox": "Oracle",
+  "CleanMyMac": "MacPaw (maker)",
+  "Carbon Copy Cloner": "Bombich Software",
+  "Starry Night (planetarium software)": "Simulation Curriculum"
+ },
+ "homonyms": [
+  {
+   "n": "Deepin",
+   "register": "Deepin (adult products) H3",
+   "fix": "rename Deepin (Linux)"
+  },
+  {
+   "n": "Pine",
+   "register": "Pine Bud J9, Pine-Sol B6 (prefix only)",
+   "fix": "rename Pine (email client)"
+  },
+  {
+   "n": "Notion",
+   "register": "Notion Labs (I1) - SAME company; but category page also has Notion (music software, PreSonus) - keep as alias of Notion Labs, not the scorewriter"
+  },
+  {
+   "n": "Spike",
+   "register": "Spike Brewing B5 (prefix)",
+   "fix": "rename Spike (email)"
+  },
+  {
+   "n": "Arc",
+   "register": "none exact; generic word",
+   "fix": "rename Arc (browser)"
+  },
+  {
+   "n": "Warp",
+   "register": "none exact; generic word",
+   "fix": "rename Warp (terminal)"
+  },
+  {
+   "n": "Drops",
+   "register": "generic word",
+   "fix": "rename Drops (language app)"
+  },
+  {
+   "n": "Things (Cultured Code)",
+   "register": "audit add Things, Inc. (Rooms) is a different company"
+  },
+  {
+   "n": "Xero",
+   "register": "Xero Shoes A2 (different name; flag if merge matches prefixes)"
+  },
+  {
+   "n": "Babylon",
+   "register": "Babylon Garden, Babylon LA (A1); also Babylon Health (medical app) - different"
+  },
+  {
+   "n": "OutSpoken",
+   "register": "Outspoken Eyewear A4"
+  },
+  {
+   "n": "Houdini (SideFX)",
+   "register": "Houdini Sportswear A1 - keep qualifier"
+  },
+  {
+   "n": "Affinity (Serif)",
+   "register": "Affinity Petcare B10 - keep qualifier"
+  },
+  {
+   "n": "Final / Logic / Sketch / Procreate / Mail / Notes / Pages / Reunion / Bear",
+   "register": "checked by script: no unqualified harvest rows; Final (Final Audio Design) D3 and FINAL FANTASY XIV I3 exist - do not let Final Cut/Final Draft merge onto them"
+  },
+  {
+   "n": "audit adds",
+   "register": "You.com (AI search) vs Youcom A1; Peak Labs (apps) vs Peak A1/H1/A2; Stella (emulator) vs Stella E3/G1; Citra (emulator) vs Citra H1; Delta (emulator) vs Delta C1/C5; Starry Night (planetarium software) vs Starry Night A1; Things, Inc. (Rooms) vs Things (Cultured Code)"
+  }
+ ],
+ "src_mismatch": [
+  {
+   "n": "Roam Research",
+   "src": "Category:Note-taking_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Bear (Shiny Frog)",
+   "src": "Category:Note-taking_software",
+   "note": "not on src; shown on Apple Design Awards page (Bear 2017, Things 2009 and 2017) -> src2 = https://en.wikipedia.org/wiki/Apple_Design_Awards, tier quality"
+  },
+  {
+   "n": "Skylum Luminar",
+   "src": "Category:Raster_graphics_editors",
+   "note": "not on src; Google Play Best of 2025 page names Luminar: Photo Editor (Best Multi-device App) -> src2; merge alias of register Skylum"
+  },
+  {
+   "n": "Spark (Readdle)",
+   "src": "Category:Email_clients",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Things (Cultured Code)",
+   "src": "Category:Task_management_software",
+   "note": "not on src; shown on Apple Design Awards page (Bear 2017, Things 2009 and 2017) -> src2 = https://en.wikipedia.org/wiki/Apple_Design_Awards, tier quality"
+  },
+  {
+   "n": "Houdini (SideFX)",
+   "src": "Category:Computer-aided_design_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Keyshot",
+   "src": "Category:Computer-aided_design_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Form-Z",
+   "src": "Category:Computer-aided_design_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "TopSolid",
+   "src": "Category:Computer-aided_design_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Affinity (Serif)",
+   "src": "Category:Vector_graphics_editors",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "K7 Security",
+   "src": "avc_sum_2025.pdf",
+   "note": "false negative: page shows K7 TOTAL SECURITY; K7 earned two Advanced+ awards -> keep, quality"
+  },
+  {
+   "n": "Infinite Painter",
+   "src": "best-apps-games-2025",
+   "note": "not on cited Google Play 2025 page (harvester likely saw 2023/2024 page); needs src2"
+  },
+  {
+   "n": "FlipaClip",
+   "src": "best-apps-games-2025",
+   "note": "not on cited Google Play 2025 page (harvester likely saw 2023/2024 page); needs src2"
+  },
+  {
+   "n": "FreeTaxUSA",
+   "src": "the-best-tax-software",
+   "note": "PCMag page returned empty on raw fetch (blocked); unverified"
+  },
+  {
+   "n": "Path Finder",
+   "src": "Category:File_managers",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Advanced Renamer",
+   "src": "Category:File_managers",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "ES File Explorer",
+   "src": "Category:File_managers",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "STDU Explorer",
+   "src": "Category:File_managers",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Lotus Magellan",
+   "src": "Category:File_managers",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Nitro Pro",
+   "src": "Category:Desktop_publishing_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "EAGLE (Autodesk)",
+   "src": "Category:Electronic_design_automation_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "NVDA (NonVisual Desktop Access)",
+   "src": "Category:Screen_readers",
+   "note": "false negative: member as NonVisual Desktop Access"
+  },
+  {
+   "n": "Acapela",
+   "src": "Category:Speech_synthesis_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "UTAU",
+   "src": "Category:Speech_synthesis_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Smallpdf",
+   "src": "Category:PDF_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "DocHub",
+   "src": "Category:PDF_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Apryse",
+   "src": "Category:PDF_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "PDFescape",
+   "src": "Category:PDF_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Shade 3D",
+   "src": "Category:Animation_software",
+   "note": "name not on src page raw; needs src2"
+  },
+  {
+   "n": "Studio One",
+   "src": "Category:Audio_mixing_software",
+   "note": "name not on src page raw; needs src2"
+  }
+ ],
+ "navbox_only": [
+  "Xmind",
+  "KeePass",
+  "KeePassXC",
+  "Foxmail",
+  "The Bat!",
+  "Sparrow",
+  "Eudora",
+  "Pine",
+  "Mutt",
+  "Claris Emailer",
+  "Zimbra",
+  "Roundcube",
+  "Asana",
+  "Basecamp",
+  "Inkscape",
+  "Gramps",
+  "Legacy Family Tree",
+  "Reunion (genealogy)",
+  "Family Historian",
+  "Ancestral Quest",
+  "Brother's Keeper",
+  "GenoPro",
+  "webtrees"
+ ],
+ "status": "complete"
 }
