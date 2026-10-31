@@ -84,16 +84,6 @@
    "note": "British suit makers raw-verified; all known"
   },
   {
-   "url": "https://www.woolmarkprize.com/about/",
-   "title": "International Woolmark Prize alumni",
-   "kind": "award",
-   "years": "1953-2025",
-   "names_on_page": 12,
-   "new_names": 0,
-   "status": "partial",
-   "note": "WebFetch summary only; candidates Edward Crutchley, Lagos Space Programme, Suket Dhir, Teatum Jones, Bodice, M.Patmos, Colovos, ACT N1, Diotima not recorded pending raw fetch"
-  },
-  {
    "url": "https://en.wikipedia.org/wiki/Category:Clothing_brands_of_Australia",
    "title": "Wikipedia Category:Clothing brands of Australia (raw)",
    "kind": "encyclopedia",
@@ -465,7 +455,7 @@
   },
   {
    "url": "https://en.wikipedia.org/wiki/The_Fashion_Awards",
-   "title": "The Fashion Awards (British Fashion Awards), winners and nominees 1989?-2025 (raw)",
+   "title": "The Fashion Awards (British Fashion Awards), winners and nominees (raw)",
    "kind": "award",
    "years": "2000-2025",
    "names_on_page": 139,
@@ -482,6 +472,16 @@
    "new_names": 10,
    "status": "done",
    "note": "raw; designer-column winners; people (editors, photographers) and non-brands excluded; 0 known, 0 pending elsewhere"
+  },
+  {
+   "url": "https://www.woolmarkprize.com/about/",
+   "title": "International Woolmark Prize alumni (about page, raw)",
+   "kind": "award",
+   "years": "1953-2025",
+   "names_on_page": 11,
+   "new_names": 2,
+   "status": "partial",
+   "note": "raw; about-page alumni only; history/finals/designers pages being fetched; 0 known, 0 pending elsewhere"
   }
  ],
  "brands": [
@@ -2139,6 +2139,24 @@
    "says": "CFDA Fashion Awards winner (designer columns)",
    "country": "US",
    "dept": "womenswear",
+   "already": false
+  },
+  {
+   "n": "Edward Crutchley",
+   "layer": "premium",
+   "src": "https://www.woolmarkprize.com/about/",
+   "says": "International Woolmark Prize alumni",
+   "country": "",
+   "dept": "menswear 2019",
+   "already": false
+  },
+  {
+   "n": "Lagos Space Programme",
+   "layer": "premium",
+   "src": "https://www.woolmarkprize.com/about/",
+   "says": "International Woolmark Prize alumni",
+   "country": "",
+   "dept": "2023",
    "already": false
   }
  ]
