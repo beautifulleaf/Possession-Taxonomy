@@ -2,8 +2,134 @@
  "cat": "D1",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Enthusiast keyboards > Switches, keycaps & feel parts",
+   "queries": [
+    "best custom keyboard brands enthusiast guide",
+    "premium keycap manufacturers GMK ePBT Signature Plastics",
+    "best keyboard switch makers Gateron Kailh Cherry Topre"
+   ],
+   "found": 24,
+   "note": "Geekhack keycap list; switch makers not itemised by a fetched page"
+  },
+  {
+   "axis": "kind",
+   "item": "Enthusiast keyboards > Finished keyboards",
+   "queries": [
+    "RTINGS best mechanical keyboards",
+    "Wikipedia List of mechanical keyboards"
+   ],
+   "found": 29,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Printing & 3D printing > 3D printing",
+   "queries": [
+    "Wikipedia Category 3D printer companies",
+    "Tom's Hardware best 3D printers"
+   ],
+   "found": 26,
+   "note": "TH page excerpt gave no names beyond Prusa"
+  },
+  {
+   "axis": "kind",
+   "item": "PC components > Cases, power & cabling",
+   "queries": [
+    "Wikipedia Category Computer enclosure companies",
+    "Wikipedia Category PSU manufacturers"
+   ],
+   "found": 18,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "PC components > Processors, motherboards & memory",
+   "queries": [
+    "Wikipedia Category Motherboard companies",
+    "Wikipedia Category Computer memory companies"
+   ],
+   "found": 29,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Storage > Internal drives",
+   "queries": [
+    "Tom's Hardware best SSDs"
+   ],
+   "found": 1,
+   "note": "excerpt mode returned little; Lexar and Addlink mentioned but not copied"
+  },
+  {
+   "axis": "kind",
+   "item": "Computers > Laptops & 2-in-1s",
+   "queries": [
+    "Notebookcheck best laptops fall 2026"
+   ],
+   "found": 1,
+   "note": "nearly all makers already known"
+  },
+  {
+   "axis": "kind",
+   "item": "Vintage & retro computing > Period machines",
+   "queries": [
+    "Wikipedia Category Home computer hardware companies"
+   ],
+   "found": 9,
+   "note": "partial page"
+  },
+  {
+   "axis": "region",
+   "item": "Taiwan",
+   "queries": [
+    "Computex Best Choice Award winners"
+   ],
+   "found": 1,
+   "note": "Computex winner list is product-level; not harvested"
+  },
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Stiftung Warentest Monitore Test Testsieger"
+   ],
+   "found": 0,
+   "note": "search only, no list page fetched"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Germany",
+   "speciality": "double-shot ABS keycaps (GMK, 'Made in Germany') and the original Cherry profile",
+   "src": "https://www.gmk.net/shop/en/keycaps",
+   "brands": [
+    "GMK",
+    "Cherry"
+   ]
+  },
+  {
+   "region": "Japan",
+   "speciality": "Topre capacitive contactless premium keyboards (Realforce, Happy Hacking Keyboard)",
+   "src": "https://www.realforce.co.jp/en/features/",
+   "brands": [
+    "Topre",
+    "Realforce",
+    "Happy Hacking Keyboard"
+   ]
+  },
+  {
+   "region": "Taiwan",
+   "speciality": "memory modules, SSDs and gaming components; Computex Best Choice awards (Taipei)",
+   "src": "https://www.adata.com/en/news/1308",
+   "brands": [
+    "ADATA",
+    "XPG"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
@@ -74,6 +200,86 @@
    "new_names": 26,
    "status": "done",
    "note": "industrial/construction firms skipped"
+  },
+  {
+   "url": "https://geekhack.org/index.php?topic=118147.0",
+   "title": "Geekhack KEYCAP MANUFACTURERS list",
+   "kind": "guild",
+   "years": "2022-2023",
+   "names_on_page": 68,
+   "new_names": 24,
+   "status": "done",
+   "note": "community-compiled forum list with quality column; kept premium only for Top tier/Very good"
+  },
+  {
+   "url": "https://www.rtings.com/keyboard/reviews/best/mechanical",
+   "title": "RTINGS best mechanical keyboards 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 7,
+   "new_names": 6,
+   "status": "done",
+   "note": "independent buy-and-test reviewer"
+  },
+  {
+   "url": "https://www.notebookcheck.net/Best-laptops-for-fall-2026-49-notebooks-tried-and-tested.1398522.0.html",
+   "title": "Notebookcheck best laptops fall 2026",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 14,
+   "new_names": 1,
+   "status": "done",
+   "note": "independent lab tests; almost all makers already known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Home_computer_hardware_companies",
+   "title": "Category:Home computer hardware companies",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 47,
+   "new_names": 9,
+   "status": "partial",
+   "note": "fetch returned only part of the page; remaining rows not copied"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "title": "List of mechanical keyboards (Wikipedia)",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 45,
+   "new_names": 22,
+   "status": "done",
+   "note": "only linked rows counted cultural"
+  },
+  {
+   "url": "https://www.realforce.co.jp/en/features/",
+   "title": "Realforce features",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker page, existence only"
+  },
+  {
+   "url": "https://www.gmk.net/shop/en/keycaps",
+   "title": "GMK keycaps shop",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "maker claims Made in Germany"
+  },
+  {
+   "url": "https://www.adata.com/en/news/1308",
+   "title": "ADATA Computex 2026 news",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 2,
+   "new_names": 1,
+   "status": "done",
+   "note": "maker press release: Computex Best Choice 2026, Taiwan Excellence"
   }
  ],
  "brands": [
@@ -82,749 +288,1297 @@
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "ADATA",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Amkette",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "ASUSTOR",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "ATEN International",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Behavior Tech Computer",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Cirque",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Devialet",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Edifier",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "GameSir",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "iBall",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Innodisk",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Kingmax",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "KYE Systems",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Melco",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Plustek",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "StarTech.com",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "SendStation",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Sensel",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Silicon Power",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "TerraTec",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Transcend",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Trust",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "UMAX",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "MOZA",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Promate",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Advanced Gravis",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Cyber Snipa",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Princeton",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Novint",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_peripheral_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "peripherals"
+   "dept": "peripherals",
+   "already": false
   },
   {
    "n": "Antec",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_power_supply_unit_manufacturers",
    "says": "Wikipedia category row with own article",
-   "dept": "power supplies"
+   "dept": "power supplies",
+   "already": false
   },
   {
    "n": "BFG Technologies",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_power_supply_unit_manufacturers",
    "says": "Wikipedia category row with own article",
-   "dept": "power supplies"
+   "dept": "power supplies",
+   "already": false
   },
   {
    "n": "Delta Electronics",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_power_supply_unit_manufacturers",
    "says": "Wikipedia category row with own article",
-   "dept": "power supplies"
+   "dept": "power supplies",
+   "already": false
   },
   {
    "n": "FSP Group",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_power_supply_unit_manufacturers",
    "says": "Wikipedia category row with own article",
-   "dept": "power supplies"
+   "dept": "power supplies",
+   "already": false
   },
   {
    "n": "Mushkin",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_power_supply_unit_manufacturers",
    "says": "Wikipedia category row with own article",
-   "dept": "power supplies"
+   "dept": "power supplies",
+   "already": false
   },
   {
    "n": "OCZ",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_power_supply_unit_manufacturers",
    "says": "Wikipedia category row with own article",
-   "dept": "power supplies"
+   "dept": "power supplies",
+   "already": false
   },
   {
    "n": "PC Power and Cooling",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_power_supply_unit_manufacturers",
    "says": "Wikipedia category row with own article",
-   "dept": "power supplies"
+   "dept": "power supplies",
+   "already": false
   },
   {
    "n": "Seventeam",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_power_supply_unit_manufacturers",
    "says": "Wikipedia category row with own article",
-   "dept": "power supplies"
+   "dept": "power supplies",
+   "already": false
   },
   {
    "n": "Supermicro",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_power_supply_unit_manufacturers",
    "says": "Wikipedia category row with own article",
-   "dept": "power supplies"
+   "dept": "power supplies",
+   "already": false
   },
   {
    "n": "Thermaltake",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_power_supply_unit_manufacturers",
    "says": "Wikipedia category row with own article",
-   "dept": "power supplies"
-  },
-  {
-   "n": "Super Flower",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:Computer_power_supply_unit_manufacturers",
-   "says": "Wikipedia category row with own article",
-   "dept": "power supplies"
+   "dept": "power supplies",
+   "already": false
   },
   {
    "n": "CaseLabs",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_enclosure_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "cases / boutique PC builders"
+   "dept": "cases / boutique PC builders",
+   "already": false
   },
   {
    "n": "Digital Storm",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_enclosure_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "cases / boutique PC builders"
+   "dept": "cases / boutique PC builders",
+   "already": false
   },
   {
    "n": "Falcon Northwest",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_enclosure_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "cases / boutique PC builders"
+   "dept": "cases / boutique PC builders",
+   "already": false
   },
   {
    "n": "In Win",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_enclosure_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "cases / boutique PC builders"
+   "dept": "cases / boutique PC builders",
+   "already": false
   },
   {
    "n": "Origin PC",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_enclosure_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "cases / boutique PC builders"
+   "dept": "cases / boutique PC builders",
+   "already": false
   },
   {
    "n": "Phanteks",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_enclosure_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "cases / boutique PC builders"
+   "dept": "cases / boutique PC builders",
+   "already": false
   },
   {
    "n": "Targus",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_enclosure_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "cases / boutique PC builders"
+   "dept": "cases / boutique PC builders",
+   "already": false
   },
   {
    "n": "CharaChorder",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_keyboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "keyboards"
+   "dept": "keyboards",
+   "already": false
   },
   {
    "n": "Key Tronic",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_keyboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "keyboards"
+   "dept": "keyboards",
+   "already": false
   },
   {
    "n": "Maltron",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_keyboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "keyboards"
+   "dept": "keyboards",
+   "already": false
   },
   {
    "n": "Sonder Design",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_keyboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "keyboards"
+   "dept": "keyboards",
+   "already": false
   },
   {
    "n": "The Keyboard Company",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_keyboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "keyboards"
+   "dept": "keyboards",
+   "already": false
   },
   {
    "n": "Apacer",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_memory_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "memory / storage"
+   "dept": "memory / storage",
+   "already": false
   },
   {
    "n": "Dane-Elec",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_memory_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "memory / storage"
+   "dept": "memory / storage",
+   "already": false
   },
   {
    "n": "Kioxia",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_memory_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "memory / storage"
+   "dept": "memory / storage",
+   "already": false
   },
   {
    "n": "Lexar",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_memory_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "memory / storage"
+   "dept": "memory / storage",
+   "already": false
   },
   {
    "n": "Patriot Memory",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_memory_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "memory / storage"
+   "dept": "memory / storage",
+   "already": false
   },
   {
    "n": "PNY",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_memory_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "memory / storage"
+   "dept": "memory / storage",
+   "already": false
   },
   {
    "n": "Strontium",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_memory_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "memory / storage"
+   "dept": "memory / storage",
+   "already": false
   },
   {
    "n": "SanDisk",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_memory_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "memory / storage"
+   "dept": "memory / storage",
+   "already": false
   },
   {
    "n": "Winbond",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_memory_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "memory / storage"
+   "dept": "memory / storage",
+   "already": false
   },
   {
    "n": "Wilk Elektronik",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_memory_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "memory / storage"
+   "dept": "memory / storage",
+   "already": false
   },
   {
    "n": "Simmtronics",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Computer_memory_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "memory / storage"
+   "dept": "memory / storage",
+   "already": false
   },
   {
    "n": "Albatron",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "AOpen",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "Biostar",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "Chaintech",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "DFI",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "Elitegroup",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "EPoX",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "Foxconn",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "GALAX",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "Gumstix",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "Libre Computer",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "Micronics",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "Mylex",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "Shuttle",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "Tyan",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "Abit",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "VIA Technologies",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "ZOTAC",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:Motherboard_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "motherboards / graphics cards"
+   "dept": "motherboards / graphics cards",
+   "already": false
   },
   {
    "n": "3D Systems",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Aleph Objects",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Carbon",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Desktop Metal",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "EnvisionTEC",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
-  },
-  {
-   "n": "Formlabs",
-   "layer": "cultural",
-   "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
-   "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Hyrel 3D",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Kudo3d",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "M3D",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Markforged",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Printrbot",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Rat Rig",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Robo 3D",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Sindoh",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Solidoodle",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Solidscape",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Stratasys",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Voxeljet",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Zortrax",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Luyten 3D",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Mcor",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Fusion3",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Airwolf 3D",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "AIO Robotics",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
   },
   {
    "n": "Massivit",
    "layer": "cultural",
    "src": "https://en.wikipedia.org/wiki/Category:3D_printer_companies",
    "says": "Wikipedia category row with own article",
-   "dept": "3D printers"
+   "dept": "3D printers",
+   "already": false
+  },
+  {
+   "n": "Domikey",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Top tier' (community-compiled, not independent test)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "JT Keycaps",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Top tier' (community-compiled, not independent test)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Milkyway Keys",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Top tier' (community-compiled, not independent test)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "PBTfans",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Top tier' (community-compiled, not independent test)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Hammerworks",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Top tier' (community-compiled, not independent test)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Cannoncaps",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Enjoy PBT",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Geekark",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Infinikey",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "IV Works",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Keybee",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Keykobo",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Keyreative",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Kono Designer Series",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Melgeek",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Monokei",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "NicePBT",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Rama Works",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Tomo Caps",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "Xiami",
+   "layer": "premium",
+   "src": "https://geekhack.org/index.php?topic=118147.0",
+   "says": "Geekhack community keycap manufacturers list (Jan 2023): quality 'Very good' or better (community-compiled)",
+   "dept": "keycap sets",
+   "already": false
+  },
+  {
+   "n": "NuPhy",
+   "layer": "premium",
+   "src": "https://www.rtings.com/keyboard/reviews/best/mechanical",
+   "says": "RTINGS 'Best Mechanical Keyboards of 2026': best mid-range mechanical keyboard (Node series), 2026",
+   "dept": "mechanical keyboards",
+   "already": false
+  },
+  {
+   "n": "Ducky",
+   "layer": "premium",
+   "src": "https://www.rtings.com/keyboard/reviews/best/mechanical",
+   "says": "RTINGS 'Best Mechanical Keyboards of 2026': best budget mechanical keyboard (OK-M), 2026",
+   "dept": "mechanical keyboards",
+   "already": false
+  },
+  {
+   "n": "Royal Kludge",
+   "layer": "premium",
+   "src": "https://www.rtings.com/keyboard/reviews/best/mechanical",
+   "says": "RTINGS 'Best Mechanical Keyboards of 2026': best cheap mechanical keyboard (RK61), 2026",
+   "dept": "mechanical keyboards",
+   "already": false
+  },
+  {
+   "n": "Lofree",
+   "layer": "premium",
+   "src": "https://www.rtings.com/keyboard/reviews/best/mechanical",
+   "says": "RTINGS 'Best Mechanical Keyboards of 2026': notable mention Flow 2, premium typing experience, 2026",
+   "dept": "mechanical keyboards",
+   "already": false
+  },
+  {
+   "n": "Geekom",
+   "layer": "premium",
+   "src": "https://www.notebookcheck.net/Best-laptops-for-fall-2026-49-notebooks-tried-and-tested.1398522.0.html",
+   "says": "Notebookcheck fall 2026 tested-laptop table includes Geekom GeekBook M16 (only listed; review rating, not a top pick)",
+   "dept": "laptops/mini PCs",
+   "already": false
+  },
+  {
+   "n": "Kano Computing",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_computer_hardware_companies",
+   "says": "Wikipedia Category:Home computer hardware companies row with own article",
+   "dept": "vintage and retro computing",
+   "already": false
+  },
+  {
+   "n": "Kempston Micro Electronics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_computer_hardware_companies",
+   "says": "Wikipedia Category:Home computer hardware companies row with own article",
+   "dept": "vintage and retro computing",
+   "already": false
+  },
+  {
+   "n": "Kombinat Mikroelektronik Erfurt",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_computer_hardware_companies",
+   "says": "Wikipedia Category:Home computer hardware companies row with own article",
+   "dept": "vintage and retro computing",
+   "already": false
+  },
+  {
+   "n": "Miles Gordon Technology",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_computer_hardware_companies",
+   "says": "Wikipedia Category:Home computer hardware companies row with own article",
+   "dept": "vintage and retro computing",
+   "already": false
+  },
+  {
+   "n": "Timex Sinclair",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_computer_hardware_companies",
+   "says": "Wikipedia Category:Home computer hardware companies row with own article",
+   "dept": "vintage and retro computing",
+   "already": false
+  },
+  {
+   "n": "Tiki Data",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_computer_hardware_companies",
+   "says": "Wikipedia Category:Home computer hardware companies row with own article",
+   "dept": "vintage and retro computing",
+   "already": false
+  },
+  {
+   "n": "Tulip Computers",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_computer_hardware_companies",
+   "says": "Wikipedia Category:Home computer hardware companies row with own article",
+   "dept": "vintage and retro computing",
+   "already": false
+  },
+  {
+   "n": "Vector Graphic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_computer_hardware_companies",
+   "says": "Wikipedia Category:Home computer hardware companies row with own article",
+   "dept": "vintage and retro computing",
+   "already": false
+  },
+  {
+   "n": "Velocity Micro",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Home_computer_hardware_companies",
+   "says": "Wikipedia Category:Home computer hardware companies row with own article",
+   "dept": "boutique PC builder",
+   "already": false
+  },
+  {
+   "n": "Das Keyboard",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "Wikipedia List of mechanical keyboards, row links own article",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Happy Hacking Keyboard",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "Wikipedia List of mechanical keyboards, row links own article",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "HyperX",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "Wikipedia List of mechanical keyboards, row links own article",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Northgate Computers",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "Wikipedia List of mechanical keyboards, row links own article",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "AZIO",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Clevy",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Input Club",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "KBParadise",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Keyboardio",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Keyed Up Labs",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Matias",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Niz",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "OLKB",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "splitted.space",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "UNIQEY",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "WASD Keyboards",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "XMIT",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "GMMK",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Filco",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Leopold",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "iKBC",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Epomaker",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/List_of_mechanical_keyboards",
+   "says": "listed in Wikipedia List of mechanical keyboards (existence only, no own article / no quality statement)",
+   "dept": "keyboards",
+   "already": false
+  },
+  {
+   "n": "Realforce",
+   "layer": "premium",
+   "src": "https://www.realforce.co.jp/en/features/",
+   "says": "maker's own page: premium keyboard with Topre capacitive contactless switch (maker claim; listed in Wikipedia list)",
+   "dept": "keyboards",
+   "country": "Japan",
+   "already": false
   }
  ]
 }
