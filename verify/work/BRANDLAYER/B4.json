@@ -459,6 +459,44 @@
    ],
    "found": 6,
    "note": "Seller rule applied: Cepelia (PL), The Russian Shop (matryoshka), Tienda Tzintzutzan (MX art); makers: Sergiev Posad JSC, Roldan, Quintana"
+  },
+  {
+   "axis": "kind",
+   "item": "Flags & flagpoles",
+   "queries": [
+    "Annin Flagmakers oldest US flag maker"
+   ],
+   "found": 1,
+   "note": "Annin Flagmakers (heritage)."
+  },
+  {
+   "axis": "kind",
+   "item": "Wind & water features",
+   "queries": [
+    "Woodstock Chimes Corinthian Bells wind chimes best makers"
+   ],
+   "found": 0,
+   "note": "Corinthian Bells praised in affiliate review guides only (search summary); Woodstock Chimes already known. Not attested by fetched independent page."
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [
+    "Talavera Uriarte Puebla Denominación de Origen workshops"
+   ],
+   "found": 10,
+   "note": "Mexico covered via Talavera DO, alebrijes, papel amate; Colombia/Caribbean/South America not searched"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Annin Flagmakers",
+    "vintage Halloween makers",
+    "Wirecutter candles"
+   ],
+   "found": 4,
+   "note": "US/Canada: Annin, Beistle, Meadow-less; US candle tests via Wirecutter/Allure"
   }
  ],
  "regions": [
@@ -759,6 +797,41 @@
     "Ciergerie de Lourdes",
     "Atelier Bernard Pictet",
     "Diptyque"
+   ]
+  },
+  {
+   "region": "Mexico (Puebla)",
+   "speciality": "Talavera Poblana glazed earthenware with Denominación de Origen (jars, vases, tiles)",
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "brands": [
+    "Uriarte Talavera",
+    "Talavera de la Reina",
+    "Talavera de la Luz",
+    "Talavera La Reyna",
+    "Talavera Armando",
+    "Talavera Celia",
+    "Talavera Santa Catarina",
+    "Talavera de la Nueva España",
+    "Talavera de las Américas",
+    "Talavera Virgilio Perez"
+   ]
+  },
+  {
+   "region": "Poland",
+   "speciality": "Folk art and paper-cut (wycinanki) via Cepelia shops",
+   "src": "https://www.inyourpocket.com/warsaw/cepelia-when-the-rooster-came-knockin_78308f",
+   "brands": [
+    "Cepelia"
+   ]
+  },
+  {
+   "region": "United States",
+   "speciality": "Flags (Annin), Halloween paper decor (Beistle), US glass (Blenko, Steuben)",
+   "src": "https://annin.com/about-us/",
+   "brands": [
+    "Annin Flagmakers",
+    "Beistle",
+    "Blenko"
    ]
   }
  ],
@@ -1312,6 +1385,28 @@
    "known_confirmed": 0,
    "status": "done",
    "note": "Ángeles Ojeda alebrijes also listed (already logged as Jacobo y Maria Angeles)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "title": "Wikipedia: Artisanal Talavera of Puebla and Tlaxcala (Denominación de Origen)",
+   "kind": "pdo",
+   "years": "1997-present",
+   "names_on_page": 10,
+   "new_names": 9,
+   "known_confirmed": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://annin.com/about-us/",
+   "title": "Annin Flagmakers: About us",
+   "kind": "heritage",
+   "years": "1847-present",
+   "names_on_page": 1,
+   "new_names": 1,
+   "known_confirmed": 0,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -2893,6 +2988,86 @@
    "says": "Museum festival of named Mexican folk artists: papel amate painters (Guerrero), sugar skulls maker (Puebla), Tienda Tzintzutzan shop",
    "country": "Mexico",
    "dept": "Mexican folk art / Day of the Dead"
+  },
+  {
+   "n": "Talavera de la Reina",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "One of nine workshops certified by the Consejo Regulador de la Talavera (DO since 1997); Uriarte founded 1824",
+   "country": "Mexico",
+   "dept": "decorative ceramics / jars / vases"
+  },
+  {
+   "n": "Talavera de la Luz",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "One of nine workshops certified by the Consejo Regulador de la Talavera (DO since 1997); Uriarte founded 1824",
+   "country": "Mexico",
+   "dept": "decorative ceramics / jars / vases"
+  },
+  {
+   "n": "Talavera La Reyna",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "One of nine workshops certified by the Consejo Regulador de la Talavera (DO since 1997); Uriarte founded 1824",
+   "country": "Mexico",
+   "dept": "decorative ceramics / jars / vases"
+  },
+  {
+   "n": "Talavera Armando",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "One of nine workshops certified by the Consejo Regulador de la Talavera (DO since 1997); Uriarte founded 1824",
+   "country": "Mexico",
+   "dept": "decorative ceramics / jars / vases"
+  },
+  {
+   "n": "Talavera Celia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "One of nine workshops certified by the Consejo Regulador de la Talavera (DO since 1997); Uriarte founded 1824",
+   "country": "Mexico",
+   "dept": "decorative ceramics / jars / vases"
+  },
+  {
+   "n": "Talavera Santa Catarina",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "One of nine workshops certified by the Consejo Regulador de la Talavera (DO since 1997); Uriarte founded 1824",
+   "country": "Mexico",
+   "dept": "decorative ceramics / jars / vases"
+  },
+  {
+   "n": "Talavera de la Nueva España",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "One of nine workshops certified by the Consejo Regulador de la Talavera (DO since 1997); Uriarte founded 1824",
+   "country": "Mexico",
+   "dept": "decorative ceramics / jars / vases"
+  },
+  {
+   "n": "Talavera de las Américas",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "One of nine workshops certified by the Consejo Regulador de la Talavera (DO since 1997); Uriarte founded 1824",
+   "country": "Mexico",
+   "dept": "decorative ceramics / jars / vases"
+  },
+  {
+   "n": "Talavera Virgilio Perez",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+   "says": "One of nine workshops certified by the Consejo Regulador de la Talavera (DO since 1997); Uriarte founded 1824",
+   "country": "Mexico",
+   "dept": "decorative ceramics / jars / vases"
+  },
+  {
+   "n": "Annin Flagmakers",
+   "layer": "cultural",
+   "src": "https://annin.com/about-us/",
+   "says": "Oldest and largest US flag maker since 1847; flags at Iwo Jima, Apollo 11",
+   "country": "USA",
+   "dept": "flags"
   }
  ]
 }

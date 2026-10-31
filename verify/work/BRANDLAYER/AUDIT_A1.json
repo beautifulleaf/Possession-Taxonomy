@@ -752,16 +752,6 @@
    "region": "Bonwire, Ashanti"
   },
   {
-   "n": "Adanwomase Kente Village",
-   "layer": "cultural",
-   "role": "seller",
-   "src": "https://visitghana.com/bonwire-kente-village",
-   "says": "royal weaving village for the Asante king since the 17th century; community kente workshop and village shops selling kente",
-   "country": "Ghana",
-   "dept": "kente cloth",
-   "region": "Adanwomase, Ashanti"
-  },
-  {
    "n": "Habesha Dress Store (Shiromeda)",
    "layer": "cultural",
    "role": "seller",
@@ -779,6 +769,43 @@
    "country": "Ethiopia",
    "dept": "habesha kemis",
    "region": "Addis Ababa"
+  },
+  {
+   "n": "Sna Jolobil",
+   "layer": "cultural",
+   "role": "seller",
+   "src": "https://www.opentravelguide.com/mexico/chiapas/shopping",
+   "says": "weaving cooperative founded 1976 in San Cristóbal de las Casas representing 800+ Tzotzil and Tzeltal weavers, 'selling museum-quality huipiles'",
+   "country": "Mexico",
+   "dept": "huipiles",
+   "region": "San Cristóbal de las Casas, Chiapas"
+  },
+  {
+   "n": "Remigio Mestas",
+   "layer": "premium",
+   "src": "https://museotextildeoaxaca.org/wp-content/uploads/2020/06/TramasDeVientoYMar.pdf",
+   "says": "Oaxaca textile promoter who seeks out master backstrap weavers and commissions/rescues huipil techniques (Museo Textil de Oaxaca); turns hand-spun thread into 'exquisite traditional huipiles' (Khadi Oaxaca)",
+   "country": "Mexico",
+   "dept": "huipiles",
+   "region": "Oaxaca"
+  },
+  {
+   "n": "Khadi Oaxaca",
+   "layer": "cultural",
+   "src": "https://khadioaxaca.com/en/nuestro-camino",
+   "says": "San Sebastián Río Hondo project of 650+ artisans hand-spinning coyuchi cotton and making hand-embroidered garments; exhibited at Oaxaca Textile Museum 2014",
+   "country": "Mexico",
+   "dept": "hand-spun cotton garments",
+   "region": "Oaxaca"
+  },
+  {
+   "n": "Maribel Espinosa",
+   "layer": "cultural",
+   "src": "https://micultura.gob.pa/2025/11/30/san-jose-de-las-tablas-celebra-con-orgullo-el-talento-de-sus-artesanos",
+   "says": "'maestra artesana' of San José de Las Tablas who hand-works pollera montuna in the marcado technique (worn by Panama's Minister of Culture)",
+   "country": "Panama",
+   "dept": "pollera",
+   "region": "Las Tablas, Los Santos"
   }
  ],
  "add_regions": [
@@ -860,6 +887,24 @@
     "Habesha Dress Store (Shiromeda)",
     "Tsehaye Mehari",
     "Mafi Mafi"
+   ]
+  },
+  {
+   "region": "Panama (Las Tablas, Los Santos)",
+   "speciality": "hand-made pollera (national dress); San José de Las Tablas artisans, Festival del Tambor y la Pollera, planned Ruta de la Pollera",
+   "src": "https://micultura.gob.pa/2025/11/30/san-jose-de-las-tablas-celebra-con-orgullo-el-talento-de-sus-artesanos",
+   "brands": [
+    "Maribel Espinosa"
+   ]
+  },
+  {
+   "region": "Mexico (Chiapas highlands and Oaxaca)",
+   "speciality": "backstrap-loom huipiles of Tzotzil, Tzeltal and Ikoot weavers",
+   "src": "https://www.opentravelguide.com/mexico/chiapas/shopping",
+   "brands": [
+    "Sna Jolobil",
+    "Remigio Mestas",
+    "Khadi Oaxaca"
    ]
   }
  ],
