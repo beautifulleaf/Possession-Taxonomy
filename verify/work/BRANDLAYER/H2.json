@@ -124,6 +124,116 @@
    ],
    "found": 0,
    "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Monitors, tests & dosing > Vital signs",
+   "queries": [
+    "BIHS validated monitors",
+    "validatebp.org device listing",
+    "Which? / Wirecutter / TechGearLab thermometers",
+    "TechGearLab pulse oximeters"
+   ],
+   "found": 24,
+   "note": "US VDL brand facet fetched; BIHS list is xlsx (blocked); thermometers and oximeters awards recorded"
+  },
+  {
+   "axis": "kind",
+   "item": "Monitors, tests & dosing > Glucose monitoring",
+   "queries": [
+    "Wirecutter best blood glucose meter",
+    "CNET best glucose meter"
+   ],
+   "found": 0,
+   "note": "Wirecutter found none best (accuracy unsettled); CNET/CR not fetched; nothing recorded"
+  },
+  {
+   "axis": "kind",
+   "item": "Breathing, sleep & therapy > Pain & comfort (TENS)",
+   "queries": [
+    "best TENS unit independent test"
+   ],
+   "found": 0,
+   "note": "Only medgrade/medscompass excerpts seen, not fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Mobility aids > Walking aids / Wheelchairs & scooters",
+   "queries": [
+    "Wirecutter best walkers",
+    "Which? rollators",
+    "Which? mobility scooters",
+    "CR rollators/scooters",
+    "Red Dot / Good Design mobility winners"
+   ],
+   "found": 7,
+   "note": "Vive Health (Wirecutter), CareCo/Monarch/Veleco/Pride (Which? tested), KARMA, Vitility, Smith+Nephew"
+  },
+  {
+   "axis": "kind",
+   "item": "Hearing > Ear-worn hearing devices",
+   "queries": [
+    "Red Dot hearing aid winners"
+   ],
+   "found": 1,
+   "note": "Unitron Red Dot x7"
+  },
+  {
+   "axis": "kind",
+   "item": "Sexual health & family > Contraception & barriers",
+   "queries": [
+    "Wikipedia Category:Condom brands"
+   ],
+   "found": 11,
+   "note": "Okamoto/Sagami not on category; not found on a fetched page"
+  },
+  {
+   "axis": "kind",
+   "item": "Vision & communication > Spectacle & contact lenses",
+   "queries": [
+    "Wikipedia contact lens manufacturers",
+    "contact lens brands"
+   ],
+   "found": 0,
+   "note": "Concentrated market (Alcon, J&J Acuvue, CooperVision, Bausch + Lomb, Menicon known); Acuvue not attested by a fetched page"
+  },
+  {
+   "axis": "kind",
+   "item": "Medicines & remedies > Traditional remedies",
+   "queries": [
+    "China Time-honored batches 1-2",
+    "Siangpure/Bertram"
+   ],
+   "found": 55,
+   "note": "52 Chinese entries, 3 Thai"
+  },
+  {
+   "axis": "kind",
+   "item": "Supplements & nutrition > Vitamins & minerals",
+   "queries": [
+    "Wikipedia Category:Dietary supplements"
+   ],
+   "found": 0,
+   "note": "Category is substances, not brands; brands seen in excerpt only (Airborne, Nutrilite, Nutriway, Beano), not recorded; iHerb professional brands (Metagenics, Pure Encapsulations, Designs for Health, Thorne) seen in search excerpt only"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Japan Kampo members",
+    "China time-honored"
+   ],
+   "found": 0,
+   "note": "done earlier plus this round"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [
+    "Siangpure Thailand"
+   ],
+   "found": 3,
+   "note": "Thai: Bertram, Siangpure, Peppermint Field; Abhaibhubejhr site is museum/wellness shell, not recorded"
   }
  ],
  "regions": [
@@ -224,6 +334,43 @@
    "brands": [
     "Tiger Balm",
     "Eng Aun Tong"
+   ]
+  },
+  {
+   "region": "East Asia - China",
+   "speciality": "Traditional Chinese medicine makers on the state Time-honored Brands register, batches 1-2 (150+ medicine entries across batches)",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "brands": [
+    "Longshunrong 隆顺榕",
+    "Lerentang 乐仁堂",
+    "Hongrentang 宏仁堂",
+    "Tianjin Tongrentang 天津同仁堂",
+    "Guangyuyuan 广誉远",
+    "Shiyitang 世一堂",
+    "Caitongdetang 蔡同德堂",
+    "Baijingyu 白敬宇",
+    "Cunrentang 存仁堂",
+    "Hu Qing Yu Tang 胡庆余堂",
+    "Fanghuichuntang 方回春堂",
+    "Zhuyangxin 朱养心",
+    "Zhenyuantang 震元堂",
+    "Yuliangqing 余良卿",
+    "Pien Tze Huang 片仔癀",
+    "Dong-E-E-Jiao 东阿阿胶",
+    "Hongjitang 宏济堂",
+    "Ma Ying Long 马应龙",
+    "Wong Lo Kat 王老吉",
+    "Fengliaoxing 冯了性"
+   ]
+  },
+  {
+   "region": "Southeast Asia - Thailand",
+   "speciality": "Herbal liquid balms and inhalers (Siangpure oil, peppermint inhalers)",
+   "src": "https://bertram1958.com/en/legend-of-thebrand",
+   "brands": [
+    "Siangpure",
+    "Bertram (1958)",
+    "Peppermint Field"
    ]
   }
  ],
@@ -357,6 +504,146 @@
    "new_names": 1,
    "status": "done",
    "note": "0 already in register"
+  },
+  {
+   "url": "https://www.validatebp.org/index.php/devices/list",
+   "title": "AMA Validate BP Validated Device Listing (US VDL), brand facet",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 34,
+   "new_names": 18,
+   "status": "done",
+   "note": "Private-label retailer/service brands dropped; US VDL, 178 devices 9 already in register"
+  },
+  {
+   "url": "https://bihs.org.uk/blood_pressure_technology/bp_monitor_validations.aspx",
+   "title": "BIHS validated BP monitors",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "blocked",
+   "note": "List is an xlsx download; fetch returns binary, not readable. Page text confirms BIHS list is NICE/NHS-recommended gold standard."
+  },
+  {
+   "url": "https://www.techgearlab.com/topics/health-fitness/best-pulse-oximeter",
+   "title": "TechGearLab best pulse oximeters (lab tested, awards)",
+   "kind": "award",
+   "years": "2024-12",
+   "names_on_page": 10,
+   "new_names": 6,
+   "status": "done",
+   "note": "1 already in register Mibest/AccuMed/Santamedical dropped (tested, not recommended)"
+  },
+  {
+   "url": "https://www.techgearlab.com/topics/health-fitness/best-thermometer",
+   "title": "TechGearLab best thermometers 2026 (lab tested, awards)",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 8,
+   "new_names": 3,
+   "status": "done",
+   "note": "4 already in register"
+  },
+  {
+   "url": "https://www.nytimes.com/wirecutter/reviews/best-walkers/",
+   "title": "Wirecutter best walkers 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "1 already in register"
+  },
+  {
+   "url": "https://www.which.co.uk/reviews/mobility-scooters/article/best-mobility-scooters-aW4Wf3x8qbZT",
+   "title": "Which? best mobility scooters 2026",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 4,
+   "new_names": 4,
+   "status": "partial",
+   "note": "Best Buy models behind paywall 0 already in register"
+  },
+  {
+   "url": "https://www.which.co.uk/reviews/mobility-equipment/article/best-rollators-and-mobility-walker-aJdn58T67JPv",
+   "title": "Which? best rollators and mobility walkers",
+   "kind": "award",
+   "years": "2025-05",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Rest paywalled 1 already in register"
+  },
+  {
+   "url": "https://www.consumerreports.org/health/mobility-scooters/best-mobility-scooters-a1002132141",
+   "title": "Consumer Reports best mobility scooters",
+   "kind": "award",
+   "years": "2026",
+   "names_on_page": 0,
+   "new_names": 0,
+   "status": "partial",
+   "note": "Ratings member-only; brands tested only (Pride, Drive Medical, Hoverfly, Vive) not recorded as quality 0 already in register"
+  },
+  {
+   "url": "https://hearingreview.com/inside-hearing/events/moxi",
+   "title": "Hearing Review: Unitron Red Dot 2021",
+   "kind": "award",
+   "years": "2021",
+   "names_on_page": 1,
+   "new_names": 0,
+   "status": "done",
+   "note": "1 already in register"
+  },
+  {
+   "url": "https://hme-business.com/2024-red-dot-award-winners-highlight-design-innovations-in-hme",
+   "title": "HME Business: Red Dot 2024 HME winners",
+   "kind": "award",
+   "years": "2024",
+   "names_on_page": 2,
+   "new_names": 2,
+   "status": "partial",
+   "note": "0 already in register"
+  },
+  {
+   "url": "https://www.karmamedical.com/2018/07/news-4",
+   "title": "KARMA Medical Red Dot 2018",
+   "kind": "award",
+   "years": "2018",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "0 already in register"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "title": "Wikipedia Category:Condom brands",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 13,
+   "new_names": 11,
+   "status": "done",
+   "note": "Nirodh, NYC Condom, Safedom, Social Marketing Company not recorded (programme products/distributor). Trojan is in register under H3: cross-tag H2. 2 already in register"
+  },
+  {
+   "url": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "title": "China Time-honored Brands list, batches 1 and 2 (1128 entries), medicine entries",
+   "kind": "heritage",
+   "years": "2006/2011",
+   "names_on_page": 53,
+   "new_names": 52,
+   "status": "done",
+   "note": "Pinyin supplied by me before the Chinese brand; merge should verify. Excerpt mode (page returned in full). Batch 4 not yet found. 1 already in register"
+  },
+  {
+   "url": "https://bertram1958.com/en/legend-of-thebrand",
+   "title": "Bertram history (Siangpure)",
+   "kind": "heritage",
+   "years": "1958-2025",
+   "names_on_page": 3,
+   "new_names": 3,
+   "status": "done",
+   "note": ""
   }
  ],
  "brands": [
@@ -1730,6 +2017,915 @@
    "already": false,
    "homonym": true,
    "note": "different company from Hamdard India (H2) / Hamdard (J9)"
+  },
+  {
+   "n": "American Diagnostic",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "ANDON Health",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "BodyTrace",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "CardieX",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "Cardiowell",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "CareSimple",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "Dario",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "FondCircle",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "ForaCare",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "Greater Goods",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "Hingmed Medical Instruments",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "Medline",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "PharmaSmart",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "Smart Meter",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "SOMNOmedics",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "Zewa",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "Zomee",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "Complete Medical",
+   "layer": "premium",
+   "src": "https://www.validatebp.org/index.php/devices/list",
+   "says": "On AMA/Validate BP Validated Device Listing: clinical accuracy independently validated (ISO 81060-2)",
+   "country": "",
+   "dept": "Blood-pressure monitors",
+   "already": false
+  },
+  {
+   "n": "Nonin",
+   "layer": "premium",
+   "src": "https://www.techgearlab.com/topics/health-fitness/best-pulse-oximeter",
+   "says": "TechGearLab lab-tested pulse oximeter awards (Editors' Choice/Top Pick): Nonin Onyx Vantage 9590, Innovo Deluxe, Masimo MightySat, Wellue, Zacurate",
+   "country": "",
+   "dept": "Pulse oximeters",
+   "already": false
+  },
+  {
+   "n": "Innovo",
+   "layer": "premium",
+   "src": "https://www.techgearlab.com/topics/health-fitness/best-pulse-oximeter",
+   "says": "TechGearLab lab-tested pulse oximeter awards (Editors' Choice/Top Pick): Nonin Onyx Vantage 9590, Innovo Deluxe, Masimo MightySat, Wellue, Zacurate",
+   "country": "",
+   "dept": "Pulse oximeters",
+   "already": false
+  },
+  {
+   "n": "Masimo",
+   "layer": "premium",
+   "src": "https://www.techgearlab.com/topics/health-fitness/best-pulse-oximeter",
+   "says": "TechGearLab lab-tested pulse oximeter awards (Editors' Choice/Top Pick): Nonin Onyx Vantage 9590, Innovo Deluxe, Masimo MightySat, Wellue, Zacurate",
+   "country": "",
+   "dept": "Pulse oximeters",
+   "already": false
+  },
+  {
+   "n": "Oxiline",
+   "layer": "premium",
+   "src": "https://www.techgearlab.com/topics/health-fitness/best-pulse-oximeter",
+   "says": "TechGearLab lab-tested pulse oximeter awards (Editors' Choice/Top Pick): Nonin Onyx Vantage 9590, Innovo Deluxe, Masimo MightySat, Wellue, Zacurate",
+   "country": "",
+   "dept": "Pulse oximeters",
+   "already": false
+  },
+  {
+   "n": "Wellue",
+   "layer": "premium",
+   "src": "https://www.techgearlab.com/topics/health-fitness/best-pulse-oximeter",
+   "says": "TechGearLab lab-tested pulse oximeter awards (Editors' Choice/Top Pick): Nonin Onyx Vantage 9590, Innovo Deluxe, Masimo MightySat, Wellue, Zacurate",
+   "country": "",
+   "dept": "Pulse oximeters",
+   "already": false
+  },
+  {
+   "n": "Zacurate",
+   "layer": "premium",
+   "src": "https://www.techgearlab.com/topics/health-fitness/best-pulse-oximeter",
+   "says": "TechGearLab lab-tested pulse oximeter awards (Editors' Choice/Top Pick): Nonin Onyx Vantage 9590, Innovo Deluxe, Masimo MightySat, Wellue, Zacurate",
+   "country": "",
+   "dept": "Pulse oximeters",
+   "already": false
+  },
+  {
+   "n": "GoodBaby",
+   "layer": "premium",
+   "src": "https://www.techgearlab.com/topics/health-fitness/best-thermometer",
+   "says": "TechGearLab thermometer awards 2026 (Editors' Choice/Top Pick/Best Buy): GoodBaby FC-IR202, Frida Baby 3-in-1, Braun ThermoScan, Vicks SpeedRead",
+   "country": "",
+   "dept": "Thermometers",
+   "already": false
+  },
+  {
+   "n": "Frida Baby",
+   "layer": "premium",
+   "src": "https://www.techgearlab.com/topics/health-fitness/best-thermometer",
+   "says": "TechGearLab thermometer awards 2026 (Editors' Choice/Top Pick/Best Buy): GoodBaby FC-IR202, Frida Baby 3-in-1, Braun ThermoScan, Vicks SpeedRead",
+   "country": "",
+   "dept": "Thermometers",
+   "already": false
+  },
+  {
+   "n": "Kinsa",
+   "layer": "premium",
+   "src": "https://www.techgearlab.com/topics/health-fitness/best-thermometer",
+   "says": "TechGearLab thermometer awards 2026 (Editors' Choice/Top Pick/Best Buy): GoodBaby FC-IR202, Frida Baby 3-in-1, Braun ThermoScan, Vicks SpeedRead",
+   "country": "",
+   "dept": "Thermometers",
+   "already": false
+  },
+  {
+   "n": "CareCo",
+   "layer": "premium",
+   "src": "https://www.which.co.uk/reviews/mobility-scooters/article/best-mobility-scooters-aW4Wf3x8qbZT",
+   "says": "Which? says it tested scooters from these brands and found Best Buys in each class (which brand not visible in free text)",
+   "country": "UK",
+   "dept": "Mobility scooters",
+   "already": false
+  },
+  {
+   "n": "Monarch",
+   "layer": "premium",
+   "src": "https://www.which.co.uk/reviews/mobility-scooters/article/best-mobility-scooters-aW4Wf3x8qbZT",
+   "says": "Which? says it tested scooters from these brands and found Best Buys in each class (which brand not visible in free text)",
+   "country": "UK",
+   "dept": "Mobility scooters",
+   "already": false
+  },
+  {
+   "n": "Veleco",
+   "layer": "premium",
+   "src": "https://www.which.co.uk/reviews/mobility-scooters/article/best-mobility-scooters-aW4Wf3x8qbZT",
+   "says": "Which? says it tested scooters from these brands and found Best Buys in each class (which brand not visible in free text)",
+   "country": "UK",
+   "dept": "Mobility scooters",
+   "already": false
+  },
+  {
+   "n": "Pride Mobility",
+   "layer": "premium",
+   "src": "https://www.which.co.uk/reviews/mobility-scooters/article/best-mobility-scooters-aW4Wf3x8qbZT",
+   "says": "Which? says it tested scooters from these brands and found Best Buys in each class (which brand not visible in free text)",
+   "country": "UK",
+   "dept": "Mobility scooters",
+   "already": false
+  },
+  {
+   "n": "Smith+Nephew",
+   "layer": "premium",
+   "src": "https://hme-business.com/2024-red-dot-award-winners-highlight-design-innovations-in-hme",
+   "says": "Red Dot Product Design 2024 winner (RENASYS EDGE NPWT / Grab Rail)",
+   "country": "UK",
+   "dept": "Wound care / bathroom aids",
+   "already": false
+  },
+  {
+   "n": "Vitility",
+   "layer": "premium",
+   "src": "https://hme-business.com/2024-red-dot-award-winners-highlight-design-innovations-in-hme",
+   "says": "Red Dot Product Design 2024 winner (RENASYS EDGE NPWT / Grab Rail)",
+   "country": "Netherlands",
+   "dept": "Wound care / bathroom aids",
+   "already": false
+  },
+  {
+   "n": "KARMA Medical",
+   "layer": "premium",
+   "src": "https://www.karmamedical.com/2018/07/news-4",
+   "says": "Red Dot Product Design 2018 for EvO Altus power standing wheelchair; iF 2015",
+   "country": "Taiwan",
+   "dept": "Wheelchairs",
+   "already": false
+  },
+  {
+   "n": "Condomi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "Listed in Wikipedia Category:Condom brands",
+   "country": "",
+   "dept": "Condoms",
+   "already": false
+  },
+  {
+   "n": "Dipper",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "Listed in Wikipedia Category:Condom brands",
+   "country": "",
+   "dept": "Condoms",
+   "already": false
+  },
+  {
+   "n": "Hot Rod Condoms",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "Listed in Wikipedia Category:Condom brands",
+   "country": "",
+   "dept": "Condoms",
+   "already": false
+  },
+  {
+   "n": "KamaSutra",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "Listed in Wikipedia Category:Condom brands",
+   "country": "",
+   "dept": "Condoms",
+   "already": false
+  },
+  {
+   "n": "Karex",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "Listed in Wikipedia Category:Condom brands",
+   "country": "",
+   "dept": "Condoms",
+   "already": false
+  },
+  {
+   "n": "LifeStyles",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "Listed in Wikipedia Category:Condom brands",
+   "country": "",
+   "dept": "Condoms",
+   "already": false
+  },
+  {
+   "n": "Lovability",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "Listed in Wikipedia Category:Condom brands",
+   "country": "",
+   "dept": "Condoms",
+   "already": false
+  },
+  {
+   "n": "Mates",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "Listed in Wikipedia Category:Condom brands",
+   "country": "",
+   "dept": "Condoms",
+   "already": false
+  },
+  {
+   "n": "Moods",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "Listed in Wikipedia Category:Condom brands",
+   "country": "",
+   "dept": "Condoms",
+   "already": false
+  },
+  {
+   "n": "Pronto",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "Listed in Wikipedia Category:Condom brands",
+   "country": "",
+   "dept": "Condoms",
+   "already": false
+  },
+  {
+   "n": "Skore",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "Listed in Wikipedia Category:Condom brands",
+   "country": "",
+   "dept": "Condoms",
+   "already": false
+  },
+  {
+   "n": "Longshunrong 隆顺榕",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Lerentang 乐仁堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Hongrentang 宏仁堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Tianjin Tongrentang 天津同仁堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Guangyuyuan 广誉远",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Shiyitang 世一堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Caitongdetang 蔡同德堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Baijingyu 白敬宇",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Cunrentang 存仁堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Hu Qing Yu Tang 胡庆余堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Fanghuichuntang 方回春堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Zhuyangxin 朱养心",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Zhenyuantang 震元堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Yuliangqing 余良卿",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Pien Tze Huang 片仔癀",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Dong-E-E-Jiao 东阿阿胶",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Hongjitang 宏济堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Ma Ying Long 马应龙",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Wong Lo Kat 王老吉",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Fengliaoxing 冯了性",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Jingxiutang 敬修堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Pan Chor Shun 潘高寿",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Caizhilin 采芝林",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Yulin Pharmaceutical 玉林制药",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Derentang 德仁堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Fulintang 福林堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Laobo Yuntang 老拨云堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Tengyao 腾药",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Foci Pharmaceutical 佛慈",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Hennian Tang 鹤年堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Deshoutang 德寿堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Darentang 达仁堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Jingwanhong 京万红",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Yunkun 云昆牌",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Lei Yun Shang 雷允上",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Tonghanchuntang 童涵春堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Jiuhetang 九和堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Yutiancheng 余天成",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Renshoutang 人寿堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Jianmin 健民",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Yekaitai 叶开泰",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Chen Li Ji 陈李济",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Qixing 奇星",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Shouxiangu 寿仙谷",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Wanchuntang 万春堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Sizhitang 四知堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Tongjitang 同济堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Liao Yuanhetang 廖元和堂",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Shenge 参鸽",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Wuzhou Pharmaceutical 梧州制药",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Zhongyi 中一",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Jin Niu 金牛",
+   "layer": "cultural",
+   "src": "http://www.sxhhy.com/uploadfile/file/20230204/769f39c66.pdf",
+   "says": "Listed among China Time-honored Brands (中华老字号) batch 1 or 2 as a traditional medicine maker",
+   "country": "China",
+   "dept": "Traditional medicine",
+   "already": false
+  },
+  {
+   "n": "Siangpure",
+   "layer": "cultural",
+   "src": "https://bertram1958.com/en/legend-of-thebrand",
+   "says": "Thai herbal liquid balm brand created 1958 by Boonjuea Eiampikul; Bertram (1958) Co.; Prime Minister's Export Award 2018 Best Thai Brand; Thailand's Most Admired Brand 2024",
+   "country": "Thailand",
+   "dept": "Traditional remedies",
+   "already": false
+  },
+  {
+   "n": "Bertram (1958)",
+   "layer": "cultural",
+   "src": "https://bertram1958.com/en/legend-of-thebrand",
+   "says": "Maker of Siangpure and Peppermint Field inhalers, Thailand",
+   "country": "Thailand",
+   "dept": "Traditional remedies",
+   "already": false
+  },
+  {
+   "n": "Peppermint Field",
+   "layer": "cultural",
+   "src": "https://bertram1958.com/en/legend-of-thebrand",
+   "says": "Thai aromatic inhaler brand launched 2005 by Bertram",
+   "country": "Thailand",
+   "dept": "Traditional remedies",
+   "already": false
+  }
+ ],
+ "cross_tags": [
+  {
+   "n": "Trojan",
+   "existing_cat": "H3",
+   "add_cat": "H2",
+   "src": "https://en.wikipedia.org/wiki/Category:Condom_brands",
+   "says": "condom brand"
   }
  ]
 }

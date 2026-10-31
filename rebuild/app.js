@@ -228,6 +228,15 @@ function renderTree() {
   spy();
 }
 const SEG_ORDER = ["Luxury house", "Designer", "Contemporary & premium", "Heritage & workwear", "Japanese & denim", "Streetwear", "Outdoor & technical", "Athletic & sportswear", "High street", "Value & basics", "Bespoke & artisan", "Traditional & national dress", "Subculture & alternative", "Haute maison", "Independent maker", "Premium", "Mainstream", "Value", "Traditional & regional", "Professional & flagship", "Heritage manufactory", "Artisan & independent", "Specialist", "Own-label & retailer", "Institution & issuer"];
+// copy a list of brand names as "Name1, Name2, …"
+function copyBtn(names, label = 'copy') {
+  const b = $('button', { class: 'copy', type: 'button', title: 'Copy these names, separated by commas', text: label });
+  b.addEventListener('click', ev => { ev.preventDefault(); ev.stopPropagation(); const txt = names.join(', ');
+    const done = ok => { b.textContent = ok ? 'copied' : 'copy failed'; setTimeout(() => { b.textContent = label; }, 1500); };
+    const fallback = () => { try { const ta = $('textarea'); ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.append(ta); ta.select(); const ok = document.execCommand('copy'); ta.remove(); done(ok); } catch (e) { done(false); } };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(() => done(true), fallback); else fallback(); });
+  return b;
+}
 async function renderRegister() {
   const c = cur, t = tab, file = 'reader/' + t + '/' + c + '.json';
   side.replaceChildren(); main.replaceChildren($('p', { class: 'none', text: 'Loading…' }));
@@ -242,15 +251,15 @@ async function renderRegister() {
   const ol = $('ol'); [...groups.keys()].forEach((g, i) => ol.append($('li', {}, $('a', { href: '#' + slug('g', i) }, g, $('span', { text: groups.get(g).length })))));
   const title = { brands: 'Brands', traditions: 'Traditions', species: 'Rare species' }[t];
   side.replaceChildren($('h2', { text: catName(c) + ': ' + title }), ol);
-  const blurb = { brands: ' brands, makers and houses in this category, grouped by segment, then by evidence (quality makers, cultural icons, specialist sellers, listed only), with the category's regional strengths first. A brand that also appears elsewhere lists those categories.', traditions: ' food, origin and use traditions behind products in this category: origin, method, materials, signature forms, centres and how to tell the real thing. Craft and artistic traditions belong to the Visual Entertainment taxonomy.', species: ' rarer species collected as specimens. The tree keeps the popular collector species; these are listed by class.' }[t];
-  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(c) }), $('p', { text: list.length + blurb })));
+  const blurb = { brands: ' brands, makers and houses in this category, grouped by segment, then by evidence (quality makers, cultural icons, specialist sellers, listed only), with the category’s regional strengths first. A brand that also appears elsewhere lists those categories.', traditions: ' food, origin and use traditions behind products in this category: origin, method, materials, signature forms, centres and how to tell the real thing. Craft and artistic traditions belong to the Visual Entertainment taxonomy.', species: ' rarer species collected as specimens. The tree keeps the popular collector species; these are listed by class.' }[t];
+  main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: catName(c) }), $('p', {}, list.length + blurb + ' ', t === 'brands' && list.length ? copyBtn(list.map(e => e.n), 'copy all') : null)));
   const tb = tabBar(); if (tb) main.append(tb);
   if (t === 'brands') { let cj = null; try { cj = await getJSON('reader/' + c + '.json'); } catch (e) {}
     const rg = (cj && cj.rg) || []; if (cur !== c || tab !== t || view !== 'cat') return;
     if (rg.length) { const sec = $('section', { class: 'dept', id: 'regions' }, $('h3', { class: 'dept-name' }, 'Regional strengths', $('span', { class: 'mode', text: String(rg.length) })),
         $('p', { class: 'also', text: 'Places a source names as renowned for this kind of product, with the makers and sellers that source names. Choose a name to open its entry.' }));
       rg.forEach(r => { const a = $('article', { class: 'item' }, $('h5', { text: r.n }), r.sp ? $('p', { class: 'desc', text: r.sp }) : null, r.q ? $('p', { class: 'also', text: '“' + r.q + '”' }) : null);
-        if (r.b && r.b.length) a.append($('p', { class: 'tags' }, r.b.map(n => { const bt = $('button', { class: 'tag link', type: 'button', text: n }); bt.addEventListener('click', () => open(c, true, null, 'brands', n)); return bt; })));
+        if (r.b && r.b.length) a.append($('p', { class: 'tags' }, copyBtn(r.b), r.b.map(n => { const bt = $('button', { class: 'tag link', type: 'button', text: n }); bt.addEventListener('click', () => open(c, true, null, 'brands', n)); return bt; })));
         if (r.s) a.append($('p', { class: 'src' }, $('a', { href: r.s, target: '_blank', rel: 'noopener', text: 'source' }))); sec.append(a); });
       main.append(sec); } }
   const card = t === 'brands' ? brandCard : t === 'traditions' ? tradCard : speciesCard;
@@ -268,6 +277,7 @@ async function renderRegister() {
     const end = Math.min(keys.length, i + (compact ? 2 : keys.length));
     for (; i < end; i++) { const g = keys[i]; const sec = $('section', { class: 'dept', id: slug('g', i) }, $('h3', { class: 'dept-name' }, g, $('span', { class: 'mode', text: String(groups.get(g).length) })));
       const items = groups.get(g).sort((a, b) => a.n.localeCompare(b.n));
+      if (t === 'brands') sec.querySelector('h3').append(copyBtn(items.map(e => e.n)));
       sec.append(compact ? $('div', { class: 'brows' }, items.map(row)) : $('div', { class: 'items' }, items.map(card))); main.append(sec); }
     if (!focused) focused = doFocus();
     if (i < keys.length) setTimeout(step, 0); else spy(); };
@@ -284,7 +294,7 @@ async function openBrandIndex() {
   const ol = $('ol'); keys.forEach((l, i) => ol.append($('li', {}, $('a', { href: '#' + slug('l', i) }, l, $('span', { text: groups.get(l).length })))));
   side.replaceChildren($('h2', { text: 'Brands A–Z' }), ol);
   main.replaceChildren($('div', { class: 'cat-head' }, $('h2', { text: 'Brands A–Z' }), $('p', { text: all.length + ' brands, makers and houses across every category. Each brand is described inside its categories (the Brands tab); choose a category to open the full entry there.' })));
-  keys.forEach((l, i) => { const sec = $('section', { class: 'dept', id: slug('l', i) }, $('h3', { class: 'dept-name', text: l }));
+  keys.forEach((l, i) => { const sec = $('section', { class: 'dept', id: slug('l', i) }, $('h3', { class: 'dept-name' }, l, copyBtn(groups.get(l).map(b => b[0]))));
     sec.append($('div', { class: 'hits' }, groups.get(l).map(([n, seg, kf, cs]) => $('div', { class: 'hit' }, $('span', {}, n, kf ? $('span', { class: 'also', text: ' · ' + kf }) : null), $('p', { class: 'tags' }, cs.map(c => { const t = $('button', { class: 'tag link', type: 'button', text: catName(c) }); t.addEventListener('click', () => open(c, true, null, 'brands', n)); return t; })))))); main.append(sec); });
   spy();
 }

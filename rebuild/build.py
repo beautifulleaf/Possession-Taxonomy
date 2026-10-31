@@ -20,6 +20,9 @@ article.item.wide { grid-column: 1 / -1; }
 .tags { display: flex; flex-wrap: wrap; gap: 4px; margin: 0; }
 .tag { font: 500 11px/1.4 var(--mono); border: 1px solid var(--rule); border-radius: 999px; padding: 1px 8px; color: var(--muted); background: transparent; }
 button.tag { cursor: pointer; }
+.copy { font: 500 12px/1 var(--mono); color: var(--accent, var(--muted)); background: none; border: 1px dashed var(--rule); border-radius: 999px; padding: 3px 8px; margin-left: 10px; cursor: pointer; vertical-align: middle; text-transform: none; letter-spacing: 0; }
+.copy:hover { border-style: solid; }
+.tags .copy { margin-left: 0; margin-right: 6px; }
 .mode { font: 500 12px/1 var(--mono); letter-spacing: 0; text-transform: none; color: var(--muted); border: 1px solid var(--rule); border-radius: 999px; padding: 3px 8px; margin-left: 10px; vertical-align: middle; }
 .brows { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 4px 12px; align-items: start; }
 .brow > summary { cursor: pointer; padding: 5px 2px; border-bottom: 1px solid var(--rule); list-style: none; display: flex; gap: 8px; align-items: baseline; }
