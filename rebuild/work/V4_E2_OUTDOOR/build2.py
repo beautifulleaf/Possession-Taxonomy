@@ -199,6 +199,7 @@ def conv_kind(k,dname):
         x.sort(key=lambda e:(e['g'],e.get('y') or '9999',e['n']))
     else: k.pop('x',None)
     return k
+out=[]
 exec(tail)
 json.dump(removed,open('/home/user/Possession-Taxonomy/rebuild/work/V4_E2_OUTDOOR/removed.json','w'))
 print({k:len(v) for k,v in removed.items()}, sum(len(v) for v in removed.values()))
