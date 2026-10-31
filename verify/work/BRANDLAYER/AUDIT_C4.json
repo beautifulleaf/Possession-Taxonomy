@@ -837,5 +837,151 @@
    "why": "corporate parent (office products), not a craft brand"
   }
  ],
- "notes": "\n"
+ "notes": "ACCURACY: 2/25 wrong (8%). Kagzi India is not named on its src (Encyclopedia of Crafts names only the Kagzi community). Koigu no longer appears on the LoveCrafts 'Yarn Brands A-Z' page: as fetched on 2026-10-31 it lists only 11 brands. SOURCE ROT: 27 of the 32 LoveCrafts-sourced brands (listed in resource_needed) need a new src. The Wool Warehouse yarn-brand menu (https://www.woolwarehouse.co.uk/yarn?brand_nav=42172, fetched) names many of them (Scheepjes, Sirdar, Rico, Stylecraft, WYS, King Cole etc.) as existence evidence. All 3 EPV rows checked against the data.gouv CSV resource were confirmed.\nRELABEL (layer, not drop): (a) the 22 Cass Art directory names tagged premium (Bienfang, Blundell Harling, Bockingford, C Roberson, Chelsea Classical Studio, Ecoline, Finetec, Golden, Herbin, Himi, Kitpas, Magnani, Octopus Fluids, Omega brushes, Princeton, R K Burt, R&F, Rosa Gallery, Talens, Turner, Schneider, Artgraf) rest on existence-only retailer evidence and should be 'listed'. The same applies to Jackson's, Jerry's, Clay-King, Wawak and SewingMachinesPlus directory rows unless another page shows quality (e.g. handprint.com/HP/WCL/pigmt2.html, an independent review with lightfastness tests, supports Art Spectrum, Blockx, Daniel Smith, Da Vinci, Holbein, Kremer, Lukas, Maimeri, M. Graham, Old Holland, Rembrandt, Schmincke, Sennelier, White Nights/Nevskaya, W&N). (b) Happibee (happibee.com/blogs/guides) is a hobby-shop blog, so it counts as seller praise. AK Interactive is independently supported by Basecoat Lab ('strongest choice for weathering and scale modelling'). Mr. Hobby and AMMO have only seller or listing evidence, so they should be 'listed'. (c) Citadel: the src is one blogger. Basecoat Lab (fetched) calls it the direct reference for Warhammer colours, which supports 'cultural' (icon), not 'premium'. (d) 'Turner' (Cass Art) is a likely homonym and should be named Turner Colour Works (Japan) if that is meant. (e) Garrity Tools sits on the Clay-King glaze-brands page only through navigation; it is a pottery-tool maker.\nDROPS: Kagzi India. The duplicates Talens/Royal Talens, Golden/Golden Artist Colors, Princeton/Princeton Brush and Roberson/C Roberson should be merged. Lion Capital, Newell Brands and ACCO Brands are corporate owners: they sit in _brand_index with C4 and are not craft brands.\nTHIN AREAS RETRIED: leather (Hermann Oak, Weaver, J&FJ Baker, Barry King/Sheridan style, Craftool: found); Marchi Storici (the UIBM register was not reached; the Italian gap was filled through Amatruda/Italy Segreta and Tassotti); Japanese shinise (Ueba Esou, Nakagawa Gofun; the sumi makers sit in C5); amate (Taller Santos Rojas, Fausto Santos: found); batik tools (only a Giriloyo workshop-seller found; no named canting/malam manufacturer); looms (Leclerc, Glimåkra, Toika, Kromski); kilns (only maker self-pages for Nabertherm and Bailey; no independent kiln test found); embroidery (Appletons, Bohin, Cosmo); cane/willow (Coates, Somerset Willow Growers); Camlin/Camel and Fevicol (found); model paints (Army Painter, Pro Acryl, Scale75, Two Thin Coats, Turbodork, Testors, Mission Models); Shetland region; Dick Blick (the brand index renders only letter A without JS); Hobbylinc (letter A page only); Wool Warehouse (full menu). STILL NOT FOUND: Persian/Arab ink and pigment makers (Persian and Arabic searches returned only manuscript scholarship); Moroccan/Tunisian dye cooperatives (only rug-weaving cooperatives such as Iznaguen/Taznakht, Anou and Kroumirie, which sell finished rugs, not dyes); kenzan makers (Japanese searches gave only retailers); Chinese Xuan-paper makers (UNESCO tradition pages only; Red Star/Hongxing not named on a fetched page); Korean hanji makers (only 'Mr Kim, Mungyeong' and the Jeonju Hanji Cooperative named, too thin); craft-council lists (not reached).\n",
+ "relabel": [
+  {
+   "n": "Bienfang",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Blundell Harling",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Bockingford",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "C Roberson",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Chelsea Classical Studio",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Ecoline",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Finetec",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Herbin",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Himi",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Kitpas",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Magnani",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Octopus Fluids",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Omega brushes",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "R K Burt",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "R&F",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Rosa Gallery",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Turner",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Schneider",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Artgraf",
+   "to": "listed",
+   "why": "Cass Art directory, existence only"
+  },
+  {
+   "n": "Mr. Hobby (GSI Creos)",
+   "to": "listed",
+   "why": "Happibee is a shop blog (seller praise)"
+  },
+  {
+   "n": "AMMO by Mig Jimenez",
+   "to": "listed",
+   "why": "Happibee is a shop blog; Hobbylinc lists it (existence)"
+  },
+  {
+   "n": "AK Interactive",
+   "to": "premium",
+   "why": "keep; independent support basecoatlab.com/guides/best-miniature-paints-7-brands-compared"
+  },
+  {
+   "n": "Citadel",
+   "to": "cultural",
+   "why": "single blogger for quality; Basecoat Lab confirms its standing as Warhammer reference paint"
+  }
+ ],
+ "resource_needed": [
+  "Koigu",
+  "Manos del Uruguay",
+  "Blue Sky Fibers",
+  "Dream in Color",
+  "Lana Grossa",
+  "Plymouth Yarn",
+  "West Yorkshire Spinners",
+  "Schachenmayr",
+  "Scheepjes",
+  "Sirdar",
+  "Rico",
+  "Juniper Moon Farm",
+  "Patons",
+  "Bernat",
+  "King Cole",
+  "Stylecraft",
+  "Hayfield",
+  "James C. Brett",
+  "Nako",
+  "Adriafil",
+  "Ella Rae",
+  "Hoooked",
+  "Universal Yarn",
+  "Viking of Norway",
+  "Yarn and Colors",
+  "Trendsetter Yarns",
+  "Knit Collage"
+ ]
 }
