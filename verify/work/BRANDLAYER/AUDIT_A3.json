@@ -496,6 +496,33 @@
    "country": "United States",
    "dept": "class rings",
    "region": ""
+  },
+  {
+   "n": "Kazurasei",
+   "layer": "cultural",
+   "src": "https://www.kazurasei.co.jp/f/en_about",
+   "says": "Kyoto (Gion) kanzashi and tsuge-comb house since 1865, purveyor of hair ornaments to the Kyoto Imperial Palace; urushi kanzashi made in its own Kaga lacquer workshop",
+   "country": "Japan",
+   "dept": "kanzashi / hair ornaments",
+   "region": "Japan: Kyoto"
+  },
+  {
+   "n": "Amina Agueznay",
+   "layer": "premium",
+   "src": "https://en.wikipedia.org/wiki/Jewellery_of_the_Berber_cultures",
+   "says": "Wikipedia (Berber jewellery): Moroccan artist making contemporary jewellery from historical Amazigh silver pieces",
+   "country": "Morocco",
+   "dept": "contemporary Amazigh silver jewellery",
+   "region": "Morocco: Amazigh silver"
+  },
+  {
+   "n": "Parshwanath Jewellers",
+   "layer": "cultural",
+   "src": "https://parshwanathjewellers.in/",
+   "says": "three-generation Hupari (Kolhapur) silver maker since 1982: payal anklets, toe rings, kamarbandh; Hupari = India's 'Silver City'",
+   "country": "India",
+   "dept": "silver anklets (payal) and toe rings",
+   "region": "India: Hupari, Kolhapur (silver payal)"
   }
  ],
  "add_regions": [
@@ -576,6 +603,36 @@
    "brands": [
     "Nada Ghazal"
    ]
+  },
+  {
+   "region": "Japan: Kyoto",
+   "speciality": "kanzashi hair ornaments and tsuge combs for traditional hairstyles",
+   "src": "https://www.kazurasei.co.jp/f/en_about",
+   "brands": [
+    "Kazurasei"
+   ]
+  },
+  {
+   "region": "India: Hupari, Kolhapur",
+   "speciality": "GI-tagged hand-made silver payal (anklets) and toe rings; 'Silver City of India'",
+   "src": "https://parshwanathjewellers.in/",
+   "brands": [
+    "Parshwanath Jewellers"
+   ]
+  },
+  {
+   "region": "Morocco: Amazigh silver (fills harvest's empty Tiznit region)",
+   "speciality": "cast and hand-finished Amazigh silver; Tiznit silversmith workshops",
+   "src": "https://en.wikipedia.org/wiki/Jewellery_of_the_Berber_cultures",
+   "brands": [
+    "Amina Agueznay"
+   ]
+  },
+  {
+   "region": "Indonesia: Kotagede (Yogyakarta)",
+   "speciality": "filigree and repoussé silver jewellery since the Mataram court",
+   "src": "https://en.wikipedia.org/wiki/Kotagede",
+   "brands": []
   }
  ],
  "drop": [
@@ -624,5 +681,5 @@
    "why": "duplicate of index name Köchert (merge, not a new brand)"
   }
  ],
- "notes": ""
+ "notes": "Accuracy 3/25 wrong (12%): Pailin and Fratelli Bovo and Javeri Jewellery are not on their cited pages (fetched raw). Kavant & Sharart (Thailand region list) is also absent from the cited Time Out page. Region lists built from search excerpts look like the weak point: re-check every region 'brands' list against its src. Wikipedia-category items were all accurate, but the categories pull in non-jewellery firms (gold-leaf beater, US flatware silversmiths), so those are proposed as drops. Thin sweeps re-tried: anklets (Hupari payal maker found), North Africa (Amina Agueznay via Wikipedia; still no named Tiznit workshop with a fetchable page), Eastern Europe (W.KRUK, Granát Turnov, Kubachi/Manaba Magomedova), Japan beyond Mikimoto (Gimel, Ginza Tanaka, Kazurasei), Regional Indian (Hazoorilal, Senco, Waman Hari Pethe, Birdhichand, Surana, C. Krishniah Chetty, Hupari). Not attested, still open: Nagercoil/Vadasery temple-jewellery makers (The Hindu fetch returned empty), Mompox filigree and Portuguese filigree (Gondomar/Póvoa de Lanhoso) named workshops, TTF Haute Joaillerie (only an image caption), HS Silver Kotagede (Facebook only), Mangatrai Pearls Hyderabad (TOI fetch empty; own site only), K.Uno and Hirotaka (WWD fetch empty), Thai/Indonesian hair and bridal makers, Nigeria/Ethiopia makers, Iran/Gulf pearl houses, Korean binyeo masters, Pacific beyond Hawaii/Tahiti, grillz makers beyond Johnny Dang. Self-published sources used (owner judgement): Robert Wan, Hazoorilal, Waman Hari Pethe, Raja Jewellers, Ileana Makri, Kazurasei, Glasswear Studios, Parshwanath, Balfour, Herff Jones, Chow Tai Seng, Poh Kong, C. Krishniah Chetty.\n"
 }

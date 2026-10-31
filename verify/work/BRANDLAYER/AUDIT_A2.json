@@ -487,6 +487,24 @@
    "country": "Indonesia",
    "dept": "vulcanised canvas sneakers",
    "region": "Bandung"
+  },
+  {
+   "n": "Rondini",
+   "layer": "premium",
+   "src": "https://www.rebecca-marshall.com/saint-tropez-sandal-artisans",
+   "says": "Saint-Tropez sandal atelier since 1927, 'an institution in Saint-Tropez', 'among the best known Tropézienne sandal makers on the planet'; oak-bark-tanned French leather soles, made-to-measure; EPV and Maître Artisan (rondini.fr)",
+   "country": "France",
+   "dept": "Tropézienne flat leather sandals",
+   "region": "Saint-Tropez"
+  },
+  {
+   "n": "LaCrosse",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/LaCrosse_Footwear",
+   "says": "US rubber boot maker founded 1897 as La Crosse Rubber Mill (Wisconsin); farm and hunting rubber boots; parent of Danner",
+   "country": "USA",
+   "dept": "rubber boots, hunting boots",
+   "region": "La Crosse, Wisconsin"
   }
  ],
  "add_regions": [
@@ -558,6 +576,15 @@
    "speciality": "one of West Africa's largest leather shoe-making markets ('Made in Aba')",
    "src": "https://en.wikipedia.org/wiki/Ariaria_International_Market",
    "brands": []
+  },
+  {
+   "region": "Saint-Tropez, France",
+   "speciality": "Tropézienne flat leather sandals made in town workshops since the 1920s-30s",
+   "src": "https://www.rebecca-marshall.com/saint-tropez-sandal-artisans",
+   "brands": [
+    "Rondini",
+    "K.Jacques"
+   ]
   }
  ],
  "drop": [
@@ -610,5 +637,5 @@
    "why": "Florentine stationery/leather goods house; TIM listing is incidental, not a footwear brand"
   }
  ],
- "notes": "Sample: 15/25 from The World of Shoes A-Z, 5 from The International Man A-Z. All 25 names were on their pages. Claims were only 'listed in directory', so a listing on a broad A-Z page does not show quality or cultural standing."
+ "notes": "Accuracy: all 25 sampled names were on their source pages. 1 is wrong (EG Cappelli: the Skoaktiebolaget menu lists it under TIES; it makes Neapolitan ties, not shoes). The sample came 15/25 from The World of Shoes A-Z and 5/25 from The International Man A-Z. Their claims are only 'listed in directory', which is true but shows no quality or cultural standing. The International Man A-Z extraction (134 names) is the weakest block: it has truncation artefacts (London, The London), duplicates and misspellings (Luchese, Lowa Europe/Lowa Usa), retailers (Styledrops, Diane B., Talbots), licences (Steve Harvey) and a non-footwear house (Pineider). Review the whole block, not just the 12 drops listed. The World of Shoes 'dept' field is generic: Farfalla and Broadland are slipper makers but are labelled welted/bespoke shoes. Country is blank on all directory rows. Omissions: the harvest is very strong on Western premium and heritage makers. Almost every expert-level European, US, Japanese-welted and Australian name I tested was already known. Gaps were (1) shoe care: no polish or care brand beyond Saphir and Paul Brunngard; Boot Black, Columbus, Collonil, Famaco, Tarrago, Siegol, Burgol, Turms, Brift-H and others were added from the Shoegazing guide. (2) Everyday national icons outside Western Europe and the US: Neiliansheng, Nanyang, Biti's, Compass, Servis, Wojas, Bosi, Velez, Paez and Samello were added. (3) Traditional makers: Kineya, Marugo and Gakuya (tabi), Tsujiya Honten (geta and zori), Kaptaan Chappal (Peshawari), Melissinos (Greek sandals), Rondini (Tropezienne), Sandgrens and Sven (clogs), Cayucas (huarache) and Zapateria (Marikina) were added. Regions added: Peshawar, Marikina, Sahuayo, Gyoda, Kurashiki, Athens, Saint-Tropez, Kermanshah/Senejan giveh, Aba/Ariaria. Still not found with a fetched page naming a maker: Moroccan babouche (Fez/Marrakech, only shop listings), Serbian opanak makers, Russian valenki (Kukmor has only a shop page; Ralf Ringer went bankrupt in 2024, no attestation fetched), Central Asian boots, Turkish yemeni makers, Korean brands (SCMP Suecomma Bonnie page came back empty), Kolhapuri and jutti named makers, and Franca (Brazil) and Leon (Mexico) as regions with a renown page."
 }
