@@ -1,0 +1,500 @@
+
+## Fresh & frozen fish
+#  Salmon & trout
+Atlantic salmon | Salmo salar · farmed salmon · Lachs | Whole fish or cuts of the salmon Salmo salar sold raw, mostly farmed, occasionally wild. 
+   t= ['farmed', 'wild', 'whole', 'fillet', 'portion', 'fresh', 'frozen'] 
+   m= []
+Pacific salmon | Oncorhynchus · sockeye · king · chinook · coho · silver · keta · chum · pink · humpback | Raw wild or farmed Pacific salmon: sockeye, king (chinook), coho, keta (chum) and pink. 
+   t= ['sockeye (red)', 'king (chinook)', 'coho (silver)', 'keta (chum)', 'pink (humpback)', 'wild', 'farmed coho', 'whole', 'fillet', 'portion', 'fresh', 'frozen'] 
+   m= []
+Trout & char | rainbow trout · brown trout · sea trout · sewin · steelhead · Arctic char · Saibling · Forelle | Raw rainbow, brown and sea trout and Arctic char, sold whole or as fillets. 
+   t= ['rainbow trout', 'brown trout', 'sea trout (sewin)', 'steelhead', 'Arctic char (Saibling)', 'wild', 'farmed', 'whole', 'fillet'] 
+   m= ['Szilvásváradi pisztráng PGI/']
+#  Cod, hake & white fish
+Cod & haddock | Kabeljau · cabillaud · bacalao fresco · haddie | Raw cod (Gadus) or haddock (Melanogrammus aeglefinus), the classic flaky white fish. 
+   t= ['Atlantic cod', 'Pacific cod', 'haddock', 'fresh', 'frozen', 'fillet', 'loin', 'MSC-certified'] 
+   m= []
+Pollock, saithe & whiting | saithe · coley · Seelachs · bib | Raw pollock, saithe, whiting or pouting, the cheaper everyday white fish of the cod family. 
+   t= ['Alaska pollock', 'saithe (coley)', 'pollack', 'whiting', 'pouting (bib)', 'fresh', 'frozen', 'fillet', 'MSC-certified'] 
+   m= []
+Hake, hoki & ling | merluza · merlu · blue grenadier · phycid hake · cusk · torsk | Raw hake, hoki, ling or tusk, long-bodied white fish sold whole, in pieces or as fillets. 
+   t= ['European hake', 'Cape hake', 'Argentine hake', 'white or red (phycid) hake', 'hoki', 'ling', 'tusk (cusk)', 'fresh', 'frozen', 'fillet', 'loin', 'MSC-certified'] 
+   m= []
+Regional white fish | King George whiting · sillago · kisu · Atlantic catfish · Steinbeisser | Raw white-fleshed fish mostly bought where they are landed, sold whole, in pieces or as fillets. 
+   t= ['lingcod', 'New Zealand blue cod', 'flathead', 'sillago (King George whiting, kisu)', 'wolffish', 'lionfish', 'fresh', 'frozen', 'fillet'] 
+   m= []
+#  Oily fish, tuna & swordfish
+Tuna | katsuo · mebachi · white tuna · maguro | Raw tuna of the genus Thunnus and related small tunas, sold whole, as loins, steaks or sashimi blocks (cut grades are listed under the department criteria). 
+   t= ['bluefin', 'yellowfin', 'bigeye', 'albacore', 'skipjack', 'bonito', 'small tunas (blackfin, longtail/tongol, frigate, bullet)', 'pole-and-line caught', 'longline caught', 'ranched'] 
+   m= []
+Mackerel & horse mackerel | scad · aji · jurel · hokke · sawara · seer fish · king mackerel · ono · barracouta | Raw mackerel and similar oily, fast-swimming fish, sold whole, in pieces or as fillets. 
+   t= ['Atlantic mackerel', 'chub mackerel', 'horse mackerel (scad)', 'Atka mackerel (hokke)', 'Spanish or king mackerel (sawara)', 'wahoo', 'bluefish', 'snoek'] 
+   m= ['Caballa de Andalucía PGI/']
+Herring |  | Raw herring, Clupea harengus and relatives; a whole herring sold with its roe inside belongs here. 
+   t= ['whole', 'fillet', 'fresh', 'frozen'] 
+   m= []
+Sardine | pilchard | Raw sardine or pilchard, Sardina pilchardus and relatives. 
+   t= ['whole', 'butterflied fillet', 'fresh', 'frozen'] 
+   m= ['Cornish Sardines PGI/']
+Anchovy, sprat & whitebait | boquerón · bocarte · brisling · shirasu | Raw small oily fish and fry, sold whole, chilled or frozen; marinated and tinned forms are elsewhere. 
+   t= ['anchovy (boquerón)', 'sprat (brisling)', 'whitebait (shirasu)', 'smelt'] 
+   m= ['Tagonoura shirasu GI (田子の浦しらす)/']
+Swordfish & marlin | kajiki · spearfish · moonfish | Raw swordfish, marlin or opah, large firm-fleshed fish sold as steaks or loins. 
+   t= ['swordfish', 'marlin (kajiki)', 'opah (moonfish)', 'steak', 'loin'] 
+   m= ['Traditional fishing of the Strait of Messina/']
+#  Sea fish
+Flatfish & skate | Heilbutt · Scholle · skate wings · ray | Raw flatfish and skate or ray wings, sold whole or as fillets. 
+   t= ['Dover sole', 'turbot', 'brill', 'halibut', 'plaice', 'lemon sole', 'flounder', 'skate or ray wings', 'whole', 'fillet'] 
+   m= []
+Sea bass & grouper | Wolfsbarsch · loup de mer · branzino · stone bass · cherne · rockfish (US East) | Raw sea bass, barramundi, grouper and related firm white fish, sold whole or as fillets. 
+   t= ['European sea bass', 'barramundi', 'striped bass', 'black sea bass', 'grouper', 'wreckfish (stone bass)', 'wild', 'farmed', 'whole', 'fillet'] 
+   m= []
+Sea bream & snapper | Dorade · dorada · madai | Raw sea bream or snapper, sold whole or as fillets. 
+   t= ['gilthead sea bream (dorade)', 'red sea bream (madai)', 'black sea bream', 'snapper', 'wild', 'farmed', 'whole', 'fillet'] 
+   m= []
+Red mullet, gurnard & John Dory | rouget · St Pierre | Raw red mullet, gurnard or John Dory, sold whole or as fillets. 
+   t= ['red mullet', 'gurnard', 'John Dory', 'whole', 'fillet'] 
+   m= []
+Monkfish | Seeteufel · anglerfish · lotte | Raw monkfish or anglerfish of the genus Lophius, usually sold as tails or cheeks. 
+   t= ['tail', 'cheeks', 'fillet'] 
+   m= []
+Deep-sea fish | Chilean sea bass · Patagonian toothfish · black cod · ocean perch · redfish | Raw fish from deep or cold waters, sold as fillets or steaks. 
+   t= ['Patagonian toothfish (Chilean sea bass)', 'sablefish (black cod)', 'rockfish or redfish (ocean perch)', 'orange roughy'] 
+   m= []
+Amberjack, yellowtail & mahi-mahi | kampachi · buri · hamachi · kingfish · dolphinfish · dorado · golden pompano | Raw amberjack, yellowtail, mahi-mahi and similar warm-water fish, sold whole, in pieces or as fillets. 
+   t= ['amberjack or yellowtail (Seriola)', 'mahi-mahi', 'cobia', 'pompano', 'sashimi grade'] 
+   m= []
+Eel | unagi · anago · kkomjangeo | Raw eel, sold whole or as fillets; European eel trade is limited under CITES Appendix II. 
+   t= ['freshwater eel (unagi)', 'conger eel (anago)', 'hagfish (kkomjangeo)'] 
+   m= ['Lake Hamanako Unagi GI (浜名湖うなぎ)/', 'Traditional Marinated Comacchio Valleys Eel/']
+Grey mullet & milkfish | tainha · sea mullet · bangus | Raw grey mullet or milkfish, sold whole, deboned or as fillets. 
+   t= ['grey mullet', 'milkfish', 'deboned'] 
+   m= []
+Pomfret, croaker & Asian market fish | hairtail · tachiuo · galchi · fugu · fuku · sayori · yellow croaker | Raw fish prized in East and South Asian markets, sold whole, dressed or in pieces. 
+   t= ['pomfret', 'croaker (yellow croaker)', 'cutlassfish (hairtail, tachiuo)', 'pufferfish (fugu; sold dressed by licensed preparers)', 'garfish or halfbeak (sayori)'] 
+   m= ['Shimonoseki fuku GI (下関ふく)/', 'Awajishima 3nen Torafugu GI (淡路島3年とらふぐ)/', 'Toyoshima tachiuo GI (豊島タチウオ)/']
+Shark & dogfish | huss · dogfish · mako · rock salmon | Raw shark meat (Squalus, Isurus, Scyliorhinus and relatives), sold whole, in pieces or as fillets. 
+   t= ['dogfish (huss)', 'mako', 'steak', 'fillet'] 
+   m= []
+#  Freshwater fish
+Tilapia |  | Raw tilapia (Oreochromis and relatives), sold whole or as fillets. 
+   t= ['whole', 'fillet', 'fresh', 'frozen'] 
+   m= []
+Catfish, pangasius & snakehead | swai · basa | Raw freshwater catfish, pangasius or snakehead, sold whole or as fillets. 
+   t= ['pangasius (swai, basa)', 'channel catfish', 'clariid catfish', 'snakehead', 'whole', 'fillet'] 
+   m= ['Ban Phaeo Snakehead Fish GI/']
+Carp | Karpfen · kapr · karp · ponty | Raw carp (Cyprinus carpio and other carps), sold whole or as fillets; the centre of Christmas carp traditions in Central Europe. 
+   t= ['common carp', 'mirror carp', 'whole', 'fillet'] 
+   m= ['Aischgründer Karpfen PGI/', 'Fränkischer Karpfen / Frankenkarpfen / Karpfen aus Franken PGI/', 'Holsteiner Karpfen PGI/', 'Oberpfälzer Karpfen PGI/', 'Karp zatorski PDO/', 'Třeboňský kapr PGI/', 'Szegedi tükörponty PGI/']
+Pike, perch & zander | Hecht · Barsch · yellow perch · pike-perch | Raw pike, perch or zander, sold whole, in pieces or as fillets. 
+   t= ['pike', 'perch', 'zander (pike-perch)', 'whole', 'fillet'] 
+   m= []
+Whitefish & vendace | vendace · pollan · muikku · lake whitefish | Raw whitefish of the genus Coregonus, sold whole or as fillets; tinned whitefish is with tinned fish. 
+   t= ['vendace (muikku)', 'pollan', 'lake whitefish', 'whole', 'fillet'] 
+   m= ['Lough Neagh Pollan PDO/', 'Puruveden Muikku PGI/']
+Sturgeon | paddlefish | Raw sturgeon or paddlefish flesh (Acipenseriformes), sold whole, in pieces or as fillets. 
+   t= ['farmed', 'steak', 'fillet'] 
+   m= []
+
+## Shellfish & crustaceans
+#  Oysters
+Pacific oyster | Magallana gigas · Crassostrea gigas · huître creuse · Japanese oyster | The most widely farmed oyster, sold live in the shell, on the half shell or shucked, named by growing area. 
+   t= ['live', 'half-shell', 'shucked', 'size grade 0 to 5'] 
+   m= ['Breton and Charent Sea Born Oyster/', 'Huître de Normandie PGI/', 'Goheung Gul (Oyster) GI (고흥굴)/']
+Native flat oyster | Ostrea edulis · European flat oyster · huître plate · Colchester native · mud oyster | The European flat oyster Ostrea edulis, round-shelled and prized raw, named by estuary. 
+   t= ['live', 'half-shell', 'size grade'] 
+   m= []
+Eastern oyster | Crassostrea virginica · American oyster · Atlantic oyster · East Coast oyster | The oyster of eastern North America, sold under the name of its bay or town. 
+   t= ['live', 'half-shell', 'shucked'] 
+   m= []
+Kumamoto oyster | Magallana sikamea · Crassostrea sikamea · Kumie | Small, slow-growing oyster of Kumamoto, Japan, farmed on the US West Coast and noted for a fruity, melon-like flavour. 
+   t= ['live', 'half-shell', 'shucked'] 
+   m= []
+Sydney rock oyster | Saccostrea glomerata | Native Australian oyster farmed in the estuaries of New South Wales and southern Queensland, eaten freshly shucked. 
+   t= ['live', 'half-shell', 'shucked'] 
+   m= []
+#  Crab, lobster & langoustine
+Lobster | Homarus · clawed lobster · lobster tails | Whole clawed lobster, American or European, sold live, cooked or as frozen tails. 
+   t= ['American lobster', 'European lobster', 'live', 'cooked', 'tails', 'hard-shell', 'soft-shell'] 
+   m= []
+Spiny lobster | rock lobster · langouste · langosta · crayfish (Australia) · Palinuridae | Clawless warm-water lobsters whose tails are the main retail form, sold frozen or live. 
+   t= ['tails', 'whole', 'live', 'frozen', 'cooked'] 
+   m= ['Banco Chinchorro and Sian Ka’an Spiny Lobster/']
+Langoustine | Norway lobster · Dublin Bay prawn · scampi · Nephrops norvegicus | Small clawed lobster Nephrops norvegicus, sold whole or as tails. 
+   t= ['whole', 'tails', 'raw', 'cooked', 'frozen'] 
+   m= []
+King crab | Alaskan king crab · red king crab · Paralithodes camtschaticus | King crab legs and clusters, usually sold cooked and frozen. 
+   t= ['legs', 'clusters', 'red', 'brown', 'golden'] 
+   m= []
+Snow crab | Chionoecetes opilio · opilio · zuwaigani · matsubagani | Snow crab legs, clusters and claws. 
+   t= ['legs', 'clusters', 'claws', 'whole'] 
+   m= []
+Brown crab | edible crab · Cancer pagurus | Edible crab sold whole, or as white and brown meat. 
+   t= ['whole', 'dressed', 'white meat', 'brown meat', 'cock', 'hen'] 
+   m= []
+Dungeness crab | Metacarcinus magister | Dungeness crab whole, in clusters or as legs. 
+   t= ['whole', 'clusters', 'legs', 'cooked', 'live'] 
+   m= []
+Blue crab | Callinectes sapidus · soft-shell crab · peeler | Blue crab live, steamed, soft-shell or as picked meat. 
+   t= ['live', 'steamed', 'soft-shell', 'peeler', 'picked meat'] 
+   m= []
+Chinese mitten crab | hairy crab · dazhaxie · 大闸蟹 · Eriocheir sinensis | Autumn freshwater crab prized for its roe, sold live and tied. 
+   t= ['live', 'male', 'female', 'roe'] 
+   m= ['七里海河蟹 GI/']
+Mud crab | Scylla serrata · green mud crab · mangrove crab | Large mangrove crab sold live in Asia and Australia. 
+   t= ['live', 'male', 'female', 'cooked'] 
+   m= []
+Stone crab | stone crab claws · Menippe mercenaria | Stone crab claws. 
+   t= ['medium', 'large', 'jumbo', 'colossal', 'cooked', 'frozen'] 
+   m= []
+Crayfish | crawfish | Freshwater crayfish (Procambarus, Astacus and relatives) sold whole or as tail meat. 
+   t= ['whole', 'tail meat', 'live', 'cooked', 'frozen'] 
+   m= []
+Squat lobster | langostino | Squat lobster (Munida, Pleuroncodes, Cervimunida) sold as langostino tails, raw or cooked. 
+   t= ['tails', 'raw', 'cooked'] 
+   m= []
+#  Prawns & shrimp
+Whiteleg shrimp | vannamei · white shrimp · Pacific white shrimp · crevette bleue | Whiteleg or white shrimp (Litopenaeus), the most widely farmed shrimp; packs that name no species usually hold it. 
+   t= ['whiteleg (L. vannamei)', 'Atlantic white (L. setiferus)', 'blue shrimp (L. stylirostris)', 'species not named', 'raw', 'cooked', 'shell-on', 'peeled', 'head-on', 'size count', 'wild', 'farmed', 'ASC-certified'] 
+   m= []
+Tiger prawn | black tiger · giant tiger prawn | Black tiger prawn Penaeus monodon, sold raw or cooked, whole or peeled. 
+   t= ['raw', 'cooked', 'shell-on', 'peeled', 'head-on', 'size count', 'wild', 'farmed', 'ASC-certified'] 
+   m= []
+King & banana prawn | king prawn · banana prawn | Large prawns sold under the trade names king prawn or banana prawn, names that may cover several species. 
+   t= ['king prawn', 'banana prawn', 'raw', 'cooked', 'shell-on', 'peeled', 'head-on', 'size count', 'wild', 'farmed'] 
+   m= []
+Northern prawn | sweet shrimp · amaebi · cold-water prawn | Northern or sweet prawn Pandalus borealis, small cold-water prawn sold raw or cooked. 
+   t= ['raw', 'cooked', 'shell-on', 'peeled', 'MSC-certified'] 
+   m= []
+Argentine red shrimp | langostino | Argentine red shrimp Pleoticus muelleri, sold frozen whole or peeled. 
+   t= ['whole', 'peeled', 'size count', 'MSC-certified'] 
+   m= []
+Gulf shrimp | pink shrimp · brown shrimp (US) · royal red | Wild shrimp of the US Gulf of Mexico and Atlantic coast, sold raw or frozen, whole or peeled. 
+   t= ['pink shrimp', 'Gulf brown shrimp', 'royal red shrimp', 'raw', 'cooked', 'shell-on', 'peeled', 'head-on', 'size count'] 
+   m= []
+Spot prawn |  | Spot prawn Pandalus platyceros, sold whole, raw or frozen. 
+   t= ['live', 'raw', 'frozen', 'head-on'] 
+   m= []
+Brown shrimp | grey shrimp · Nordseekrabben | Small brown or grey shrimp Crangon crangon, sold cooked and peeled or potted. 
+   t= ['cooked and peeled', 'potted'] 
+   m= []
+Giant freshwater prawn | giant river prawn | Giant river prawn Macrobrachium rosenbergii, sold whole. 
+   t= ['whole', 'frozen', 'farmed'] 
+   m= []
+#  Mussels, clams & cockles
+Mussel | moules · mejillón · cozze | Mussel sold for eating, live in the shell or shelled. 
+   t= ['blue mussel', 'Mediterranean mussel', 'green-lipped mussel', 'live in shell', 'cooked', 'shelled', 'rope-grown', 'bouchot'] 
+   m= ['Mejillón de Galicia PDO/', 'Moules de bouchot TSG/', 'Moules de bouchot de la Baie du Mont-Saint-Michel PDO/', 'Cozza di Scardovari PDO/', 'Novigradska dagnja PDO/', 'Taranto Black Mussel/', 'Wakkad Tigri Mussels/']
+Clam | vongole · palourde · asari · quahog | Hard- or soft-shell clam (Meretrix, Ruditapes, Mercenaria and relatives) sold for eating, live, chilled or frozen. 
+   t= ['hard clam (quahog)', 'Manila clam', 'palourde', 'surf clam', 'tellina', 'geoduck', 'live', 'frozen', 'meat'] 
+   m= ['Roman Coastline Tellina/', 'Ono Asari GI (大野あさり)/']
+Razor clam | razorshell · navaja · spoot | Long-shelled razor clam (Ensis, Solen, Sinonovacula) sold for eating. 
+   t= ['live', 'frozen'] 
+   m= ['Suncheonman Constricted tagelus GI (순천만가리맛조개)/']
+Cockle | berberecho | Cockle (Cerastoderma and relatives) sold for eating, in the shell or as meat. 
+   t= ['live in shell', 'cooked meat'] 
+   m= []
+#  Scallops, abalone & sea snails
+Scallop | Coquille Saint-Jacques · queenie · hotate | Scallop sold for eating, in the shell or as the adductor muscle with or without roe. 
+   t= ['king scallop', 'queen scallop', 'bay scallop', 'sea scallop', 'hand-dived', 'dredged', 'roe-on', 'roe-off', 'in shell', 'frozen meat'] 
+   m= ['Isle of Man Queenies PDO/', 'Iwate Nodamura Araumi Hotate GI (岩手野田村荒海ホタテ)/']
+Abalone | ormer · paua · jeonbok | Abalone sold for eating, live, chilled or frozen. 
+   t= ['live', 'chilled', 'frozen', 'wild', 'farmed'] 
+   m= ['Shinan Abalone GI (신안전복)/']
+Whelk | bulot | Sea snail of the whelk family (Buccinum and relatives) sold for eating, whole in the shell or as meat. 
+   t= ['in shell', 'cooked meat'] 
+   m= ['Bulot de la Baie de Granville PGI/']
+Sea & freshwater snails | periwinkle · winkle · conch · top shell · mud snail · apple snail | Sea and freshwater snails other than whelk sold for eating, whole in the shell or as meat. 
+   t= ['periwinkle', 'queen conch (frozen meat)', 'top shell (turban shell)', 'mud snail (field snail)', 'apple snail (freshwater)', 'in shell', 'meat'] 
+   m= []
+Land snail | escargot | Land snail of Helix, Cornu or Achatina sold for eating, live, plain cooked or brined; snails in garlic butter are prepared. 
+   t= ['Burgundy snail (Helix pomatia)', 'petit-gris', 'gros-gris', 'live', 'prepared', 'tinned'] 
+   m= []
+#  Squid, octopus & other seafood
+Squid | calamari · calamar · ika | Squid sold for eating, whole, in tubes or in rings. 
+   t= ['whole', 'cleaned tubes', 'rings', 'tentacles', 'fresh', 'frozen'] 
+   m= []
+Octopus | pulpo · polpo · tako | Octopus sold for eating, raw or cooked, whole or as tentacles. 
+   t= ['raw', 'cooked', 'whole', 'tentacles', 'frozen'] 
+   m= []
+Cuttlefish | sepia · seiche | Raw cuttlefish of the genus Sepia, sold whole or cleaned, chilled or frozen; dried cuttlefish is with dried seafood. 
+   t= ['whole', 'cleaned', 'chilled', 'frozen'] 
+   m= []
+Sea urchin | uni · oursin · erizo | Sea urchin sold whole or as the gonads (uni) for eating. 
+   t= ['bafun uni', 'murasaki uni', 'whole', 'tray-packed', 'brine-packed'] 
+   m= ['Hamanaka Youshoku Uni GI (浜中養殖うに)/']
+Sea cucumber | trepang · haishen | Sea cucumber sold fresh or frozen for eating; dried sea cucumber is with dried seafood. 
+   t= ['fresh', 'frozen'] 
+   m= ['Hiyama Haishen GI (檜山海参)/']
+Seafood mix | frutti di mare · mixed seafood · marinara mix | A frozen or chilled mix of seafood sold as one product, where no single seafood makes up half or more of the weight. 
+   t= ['frozen', 'chilled', 'raw', 'cooked'] 
+   m= []
+
+## Smoked fish
+#  Smoked salmon & gravlax
+Smoked salmon | cold-smoked salmon · Räucherlachs · saumon fumé | Salmon cured and smoked at low temperature, sold sliced or in pieces, ready to eat without cooking. 
+   t= ['sliced', 'whole side', 'D-cut', 'hand-carved', 'wild', 'farmed', 'organic'] 
+   m= ['Bio-verde Nord Atlantik Lachs Bio/Bio-verde', 'Aldi Almare Seafood Norwegischer Räucherlachs/Aldi']
+Hot-smoked salmon | kiln-roasted salmon · flaked smoked salmon | Salmon smoked at a temperature that cooks it, sold as fillets, portions or flakes. 
+   t= ['fillet', 'portion', 'flaked', 'wild', 'farmed'] 
+   m= []
+Gravlax | gravad lax · gravlaks · cured salmon | Salmon cured in salt and sugar, often with dill, not smoked, sold chilled and sliced. 
+   t= ['dill', 'beetroot', 'mustard-dill sauce', 'sliced', 'whole side'] 
+   m= []
+#  Kippers & other smoked fish
+Kipper & smoked herring | kipper · bloater · buckling · smoked herring | Herring split or whole and smoked: kipper (split, cold-smoked), bloater (whole, cold-smoked), buckling (hot-smoked). 
+   t= ['undyed', 'dyed', 'fillet', 'whole', 'vacuum-packed'] 
+   m= ['Cured and Smoked Sunnmøre Herring/']
+Smoked haddock | finnan haddie · Arbroath smokie · Finnan · Räucherschellfisch | Haddock cold- or hot-smoked, sold as fillets or whole split fish. 
+   t= ['undyed', 'dyed', 'fillet', 'whole', 'cold-smoked', 'hot-smoked'] 
+   m= []
+Smoked mackerel | Räuchermakrele | Mackerel smoked cold or hot, sold as fillets or whole fish. 
+   t= ['hot-smoked', 'peppered', 'fillet', 'whole'] 
+   m= ['Hot Smoked Mackerel Fillets/East Neuk Kilnhouse']
+Smoked trout | Räucherforelle | Trout smoked cold or hot, sold as fillets or whole fish. 
+   t= ['hot-smoked', 'cold-smoked', 'fillet', 'whole'] 
+   m= ['Hot Smoked Rainbow Trout Fillets/Goatsbridge Fish Processors', 'Stone Kiln Cold Smoked Rainbow Trout Fillet/Kuopion Perinnetuote']
+Smoked eel | Räucheraal · Spickaal | Eel smoked whole or in pieces. 
+   t= ['whole', 'fillet', 'hot-smoked'] 
+   m= []
+Smoked sprats | Sprotten · Kieler Sprotten | Sprats Sprattus sprattus smoked whole and sold chilled; tinned smoked sprats are in Tinned & jarred fish. 
+   t= ['chilled', 'whole'] 
+   m= []
+Smoked shad | scrumbie afumată | Shad (Alosa) salted and smoked, cold or hot, sold whole or as fillets; tinned smoked shad is in Tinned & jarred fish. 
+   t= ['whole', 'fillet', 'cold-smoked'] 
+   m= ['Scrumbie de Dunăre afumată PGI/']
+Smoked milkfish | tinapang bangus | Milkfish Chanos chanos smoked whole or butterflied, sold chilled or frozen; tinned smoked milkfish is in Tinned & jarred fish. 
+   t= ['whole', 'butterflied', 'chilled', 'frozen'] 
+   m= []
+Smoked dogfish belly | Schillerlocke | Smoked belly flaps of dogfish, known by the German name Schillerlocke. 
+   t= ['MSC-certified'] 
+   m= []
+
+## Tinned & jarred fish
+#  Tinned tuna, salmon & white fish
+Tinned tuna | canned tuna · atún · thon · ventresca | Tuna packed in a sealed tin, jar or pouch that keeps it shelf-stable. 
+   t= ['skipjack', 'yellowfin', 'albacore', 'bluefin', 'chunk', 'solid', 'flaked', 'fillet', 'ventresca', 'in oil', 'in water', 'in brine', 'smoked', 'flavoured'] 
+   m= ['Tonnino Yellowfin Tuna Solid Pack in Olive Oil/Tonnino', 'Tonnino Albacore Tuna Fillets in Olive Oil/Tonnino', 'Light Standard Tuna in Oil/Dongwon', 'Century Tuna/Century Pacific Food, Inc.', 'Dardanel Tuna in Olive Oil/Dardanel', 'Lucky Star Tuna Chunks/Lucky Star', 'Gomes da Costa Chunk Tuna in Natural Water/Gomes da Costa', 'Isla Real Tuna/NIRSA (Negocios Industriales Real)', 'Tuna Flake/Nissui', 'Light Tuna Super Non-Oil/Inaba Foods', 'Olasagasti Yellowfin tuna in olive oil/Olasagasti', 'Real Conservera Española Ventresca tuna belly with curry/Real Conservera Española', 'Armada Thunfisch (Stiftung Warentest 2016 Testsieger, grade 1.9)/Aldi Süd', 'No Net Tuna (GoodFish 2024: only fully green canned tuna)/Safcol']
+Bonito del Norte | white tuna · albacore · bonito · Thunnus alalunga · atún blanco | Premium tinned albacore (Thunnus alalunga) of the Cantabrian summer costera, canned as loins or belly in oil or escabeche. 
+   t= ['loins', 'ventresca', 'in olive oil', 'in escabeche', 'natural', 'organic'] 
+   m= []
+Tinned salmon & trout | canned salmon · canned trout | Salmon or trout packed in a sealed tin or jar, smoked or not. 
+   t= ['pink', 'sockeye', 'wild', 'smoked', 'in oil', 'in brine', 'trout'] 
+   m= ['Dardanel Salmon in Olive Oil/Dardanel', 'Geomar Salmón al Natural/Geomar', 'Tonnino Silver Salmon in Extra Virgin Olive Oil/Tonnino']
+Tinned white fish | tinned cod · tinned hake · tinned sea bass · tinned whitefish · tinned sturgeon | Cod, hake, sea bass, whitefish and sturgeon packed in sealed tins or jars. 
+   t= ['cod', 'cod cheeks', 'cod neck', 'hake (merluza)', 'sea bass (lubina)', 'whitefish (sig)', 'sturgeon'] 
+   m= ['Los Peperetes Cod Galician style/Los Peperetes', 'Papa Anzóis Cod cheeks in extra virgin olive oil/Papa Anzóis', 'Papa Anzóis Cod neck in organic extra virgin olive oil/Papa Anzóis']
+Tinned cod liver | pechen treski | Cod liver cooked and packed in its own oil in a sealed tin; cod flesh is Tinned white fish, cod liver oil is in Health, Medical & Mobility. 
+   t= ['natural', 'smoked'] 
+   m= []
+Tinned eel |  | Eel or elver packed in a sealed tin or jar. 
+   t= ['smoked', 'in sauce', 'in olive oil'] 
+   m= ['Ecofood Eel in Unagi Sauce/EcoFood', 'Ecofood Smoked Eel in Olive Oil/EcoFood']
+#  Tinned sardines & small fish
+Tinned sardines | sardinillas · pilchards · sardines à l'huile · Sardinen | Sardines packed in a sealed tin or jar. 
+   t= ['sardinillas (small sardines)', 'pilchards', 'skinless and boneless', 'in olive oil', 'in tomato sauce', 'spiced', 'smoked', 'vintage (aged)'] 
+   m= ['Nuri Sardines in olive oil/Nuri', 'Nuri Sardines in spicy olive oil/Nuri', 'Nuri Sardines in tomato sauce/Nuri', 'La Belle-Iloise Sardines in churned butter/La Belle-Iloise', 'La Belle-Iloise Sardines with lemon and coriander/La Belle-Iloise', 'La Quiberonnaise Sardines in Bordier butter/La Quiberonnaise', 'Papa Anzóis Sardines in olive oil/Papa Anzóis', 'Carmelo Sardines in organic extra virgin olive oil/Carmelo', 'Real Conservera Española Small sardines in olive oil/Real Conservera Española', 'Los Peperetes Sardines in escabeche/Los Peperetes', 'Lucky Star Pilchards in Tomato Sauce/Lucky Star', 'Glenryck Pilchards in Tomato Sauce/Glenryck', 'Titus Sardines in Vegetable Oil/Titus', 'Sultan Moroccan Sardines in Olive Oil with Chili Peppers/Sultan', 'Alshark Moroccan Sardines in Olive Oil/Alshark', 'Ligo/Century Pacific Food, Inc.', 'Hevva! Cornish sardines/Hevva']
+Tinned mackerel | caballa · maquereau · saba · melva | Mackerel (Scomber) fillets or pieces packed in a sealed tin or jar; jack and horse mackerel are listed separately. 
+   t= ['fillets', 'in olive oil', 'in tomato', 'in white wine', 'in mustard', 'in miso', 'in water'] 
+   m= ['La Belle-Iloise Mackerel fillets in white wine/La Belle-Iloise', 'La Belle-Iloise Mackerel fillets in mustard/La Belle-Iloise', 'Nuri Mackerel fillets in olive oil/Nuri', 'Pinhais Mackerel fillets in olive oil/Pinhais', 'Papa Anzóis Mackerel in olive oil/Papa Anzóis', 'Ramón Peña Mackerel fillets with lemon/Ramón Peña', 'Alalunga Mackerel in white wine marinade/Alalunga', 'Milo Mackerel/Conserveries de la Gironde', 'Florida Trozos de Caballa/G.W. Yichang', 'Sevillane Mackerel Fillet/SAMARA']
+Tinned sprats & brisling | sprats · brisling · kilka · Riga sprats | Sprats or brisling (Sprattus) or Caspian kilka (Clupeonella) packed in a sealed tin, often smoked. 
+   t= ['smoked', 'in oil', 'brisling sardines', 'kilka'] 
+   m= ['Kilka/']
+Tinned herring | kipper snacks · herring fillets | Herring fillets or pieces packed in a sealed tin, smoked or not; jarred marinated herring is Marinated herring. 
+   t= ['kipper snacks', 'smoked', 'in tomato', 'in oil'] 
+   m= []
+Tinned horse mackerel | jack mackerel · carapau · chicharro · Trachurus | Jack or horse mackerel (Trachurus) packed in a sealed tin; Scomber mackerel is Tinned mackerel. 
+   t= ['in oil', 'in tomato', 'in escabeche'] 
+   m= ['Turkey Jack Mackerel/East West Marketing', 'Efuta Maasbanker/Etosha Fishing Corporation', 'Captain Jack Mackerel/Renuka Foods']
+Tinned saury | sanma · Cololabis saira | Pacific saury Cololabis saira packed in a sealed tin, in oil, its own juice or a sauce such as kabayaki. 
+   t= ['kabayaki', 'in oil', 'in water', 'in sauce'] 
+   m= []
+#  Anchovies & marinated fish
+Tinned anchovies | anchoas · anchois · alici · salted anchovies | Salt-cured anchovy fillets or whole anchovies packed in oil or salt in a sealed tin or jar. 
+   t= ['fillets in olive oil', 'whole', 'salt-packed in jars', 'in butter', 'spicy', 'semi-preserved (chilled)'] 
+   m= ['Anchoas en Mantequilla Picante/Anchoas Hazas', 'Carmelo Santoña anchovies/Carmelo', "Connétable Anchois entiers huile d'olive/Chancerelle", 'Anchovy Fillets in Olive Oil "La Castreña"/Conservera Castreña', 'Olasagasti Anchovies San Sebastián style Bocarte/Olasagasti', 'Olasagasti Cantabrian anchovies/Olasagasti', 'Olasagasti Large Cantabrian anchovies/Olasagasti', 'Zallo Cantabrian anchovies/Zallo', 'Zallo Large Cantabrian anchovies/Zallo', 'Acciughe sotto sale del Mar Ligure PGI/', 'Alici di menaica/', 'Anchois de Collioure PGI/', 'Magghia Masculina/']
+Marinated herring | rollmops · Bismarck herring · matjes · inlagd sill · soused herring | Herring marinated in vinegar, oil or a sauce and sold in a jar or tub. 
+   t= ['in vinegar', 'in wine sauce', 'in cream sauce', 'mustard', 'fillets', 'rolled'] 
+   m= []
+Marinated anchovies | boquerones · boquerones en vinagre | Raw anchovy fillets marinated in vinegar, oil and garlic, sold chilled in a tray or jar. 
+   t= ['in vinegar', 'in oil and garlic', 'chilled', 'frozen first'] 
+   m= []
+Vinegar-marinated sea bream | sasazuke · kodai sasazuke | Small sea bream fillets salted, then marinated in vinegar and sold chilled in a tub or tray. 
+   t= ['barrelled', 'chilled'] 
+   m= []
+#  Tinned shellfish & squid
+Tinned mussels | mejillones · moules · escabeche mussels | Cooked mussels packed in a sealed tin or jar, in brine, oil or sauce. 
+   t= ['in escabeche', 'in brine', 'in olive oil', 'smoked', 'spicy'] 
+   m= ['Choritos Angelmo en Aceite/Angelmo', 'Carmelo Spicy mussels with garlic and chilli/Carmelo', 'Hevva! Cornish mussels/Hevva', 'Lucky Star Smoked Mussels/Lucky Star']
+Tinned cockles | berberechos · coques | Cockles packed in a sealed tin or jar. 
+   t= ['al natural (in brine)', 'in sauce', 'premium (small count)'] 
+   m= []
+Tinned octopus | pulpo · poulpe | Cooked octopus packed in a sealed tin or jar. 
+   t= ['in olive oil', 'in paprika sauce', 'in salsa Gallega', 'with chilli and garlic'] 
+   m= ['Los Peperetes Octopus with chilli and garlic/Los Peperetes', 'Papa Anzóis Octopus in extra virgin olive oil/Papa Anzóis', 'Ramón Peña Octopus in olive oil/Ramón Peña', 'Ramón Peña Octopus in paprika sauce/Ramón Peña', 'Ramón Peña Octopus in salsa Gallega/Ramón Peña']
+Tinned squid | calamares · chipirones · squid in ink | Squid packed in a sealed tin or jar, often in its ink. 
+   t= ['in ink', 'in olive oil', 'baby squid (chipirones)'] 
+   m= ['Ramón Peña Squid in olive oil/Ramón Peña', 'Real Conservera Española Squid in ink sauce/Real Conservera Española']
+Tinned razor clams | navajas · couteaux | Razor clams packed in a sealed tin or jar. 
+   t= ['in brine', 'with chilli and garlic', 'in olive oil'] 
+   m= ['Los Peperetes Razor clams in brine/Los Peperetes', 'Los Peperetes Razor clams with chilli and garlic/Los Peperetes', 'Ramón Peña Razor clams in brine/Ramón Peña', 'Real Conservera Española Razor clams in brine/Real Conservera Española']
+Tinned clams | almejas · machas | Clams packed in a sealed tin or jar. 
+   t= ['in brine', 'al natural', 'in sauce'] 
+   m= ['Machas en Agua Angelmo/Angelmo', 'Ramón Peña Galician clams in brine/Ramón Peña', 'San José Almejas al Natural/San José']
+Tinned scallops | zamburiñas · vieiras · noix de St Jacques | Scallops packed in a sealed tin or jar. 
+   t= ['in salsa', 'natural', 'zamburiñas (queen scallops)'] 
+   m= ['Carmelo Scallops in salsa/Carmelo', 'Connétable Noix de St Jacques au naturel/Chancerelle', 'Ramón Peña Stewed scallops in salsa/Ramón Peña']
+Tinned oysters | smoked oysters | Oysters, often smoked, packed in oil or water in a sealed tin. 
+   t= ['smoked', 'in oil', 'in water', 'with chilli'] 
+   m= []
+Tinned crab meat | crabmeat · carne de cangrejo | Crab meat packed in a sealed tin or jar. 
+   t= ['snow crab', 'white', 'lump', 'claw'] 
+   m= ['Los Peperetes Crab meat/Los Peperetes', 'Los Peperetes Snow crab/Los Peperetes', 'Japanese Snow Crab Canned Crab Meat/Maruha Nichiro Corporation']
+Tinned abalone | paua | Abalone (Haliotis, including paua) cooked and packed in a sealed tin. 
+   t= ['paua', 'in brine', 'in sauce'] 
+   m= []
+Tinned whelk or conch | golbaengi · moon snail | Sea snails (whelk, conch) cooked and packed in a sealed tin. 
+   t= ['in brine', 'seasoned'] 
+   m= []
+
+## Caviar & roe
+#  Sturgeon caviar
+Sturgeon caviar | black caviar · caviar | Salted roe of sturgeon species, sold as separate grains or pressed, listed by species with caviar houses as versions. 
+   t= ['malossol', 'farmed', 'pressed (payusnaya, mixed species)'] 
+   m= ['Calvisius Ars Italica Calvisius Beluga/Agroittica Lombarda', 'Baku Caviar Beluga Huso Huso/Azerbaijan Fish Farm LLC', 'Caviar House & Prunier Caviar House Beluga/Caviar House & Prunier', 'Rova Caviar/Acipenser (Rova Caviar Madagascar)', 'Calvisius Ars Italica Calvisius Osetra/Agroittica Lombarda', 'Baku Caviar Osetra/Azerbaijan Fish Farm LLC', 'Black River Caviar Imperial Russian Ossetra/Black River Caviar', 'Galilee Prime Osetra Caviar/Caviar Galilee', 'Caviar House & Prunier Caviar House Imperial Oscietra/Caviar House & Prunier', 'Caviar House & Prunier Prunier Oscietra Supérieur/Caviar House & Prunier', 'Baku Caviar Sevruga/Azerbaijan Fish Farm LLC', 'Petrossian Sevruga Caviar/Petrossian', 'Petrossian Sevruga Steluga Caviar/Petrossian', 'Kaluga Royal Caviar/OLMA Caviar', 'Beluga hybrid (Huso huso x Acipenser ruthenus)/', "Jacques Pépin's Pressed Caviar/California Caviar Company", 'Petrossian Pressed Caviar/Petrossian']
+American roe | American caviar | Roe of North American fish sold as caviar or black roe: shovelnose, paddlefish and bowfin. 
+   t= ['wild', 'black'] 
+   m= []
+#  Fish roe & bottarga
+Salmon roe | ikura · red caviar · keta roe | Roe of salmon, whole eggs sold loose or marinated. 
+   t= ['salted', 'soy-cured', 'loose', 'wild', 'farmed'] 
+   m= ['Regiis Ova Salmon Roe/Regiis Ova Caviar']
+Trout roe | steelhead roe | Roe of trout, sold fresh, cured or smoked. 
+   t= ['steelhead', 'cured', 'smoked'] 
+   m= ['Steelhead Trout Roe/Caviar Russe']
+Vendace roe | löjrom | Roe of the vendace Coregonus albula, small orange eggs sold lightly salted, chilled or frozen. 
+   t= ['chilled', 'frozen', 'lightly salted'] 
+   m= ['Vänerlöjrom/']
+Pollock roe | tarako · myeongran · mentaiko | Roe of Alaska pollock Gadus chalcogrammus, sold as salted or seasoned whole sacs. 
+   t= ['plain salted (tarako)', 'chilli-marinated (mentaiko)', 'whole sacs'] 
+   m= []
+Cod roe | smoked cod roe · Kalles Kaviar · tarama base | Roe of cod Gadus morhua and relatives sold whole, fresh, salted or smoked. 
+   t= ['whole', 'fresh', 'salted', 'hot-smoked', 'creamed spread'] 
+   m= []
+Bottarga | botargo · butàriga · avgotaraxo · karasumi · grey mullet roe | Salted, pressed and dried roe pouch of grey mullet or tuna, sold whole or grated. 
+   t= ['grey mullet', 'tuna', 'whole', 'grated', 'waxed'] 
+   m= ['Mullet bottarga and traditional fishing from the Cabras pond/']
+Herring roe | kazunoko | Roe of herring sold separately from the fish, as whole skeins or flakes, salted or seasoned. 
+   t= ['salted', 'soy-dashi seasoned', 'skein', 'flakes'] 
+   m= []
+Flying-fish roe | tobiko | Roe of flying fish, small crunchy eggs. 
+   t= ['natural orange', 'dyed (wasabi, yuzu, squid ink)'] 
+   m= []
+Capelin roe | masago | Roe of the capelin Mallotus villosus, very small eggs sold plain or seasoned. 
+   t= ['plain', 'dyed', 'seasoned'] 
+   m= []
+Lumpfish roe | lumpsucker roe | Roe of the lumpfish Cyclopterus lumpus, sold as small dyed or natural eggs. 
+   t= ['black dyed', 'red dyed', 'natural'] 
+   m= ['Lumpfish Roe Black/Kaviari']
+
+## Salted, dried & fermented fish
+#  Salted, cured & fermented fish
+Salt cod | bacalhau · bacalao · baccalà · klippfisk · morue salée | Cod preserved by salting and drying, sold to be soaked and cooked. 
+   t= ['Atlantic cod', 'Pacific cod', 'Greenland cod', 'whole', 'loins', 'tails', 'grade by weight'] 
+   m= ['Møre og Romsdal Salted Cod/']
+Stockfish | tørrfisk · stoccafisso · Stockfisch · air-dried cod | Unsalted cod air-dried on racks for about three months, the base of lutefisk. 
+   t= ['Lofoten skrei', 'Ragno', 'Westre', 'Lub', 'for lutefisk'] 
+   m= []
+Salted herring & matjes | matjes · maatjes · Hollandse Nieuwe · salt herring | Herring cured in brine or salt and sold chilled, to be eaten as the fish itself. 
+   t= ['matjes', 'salted', 'fillet', 'barrel', 'frozen first (Anisakis rule)'] 
+   m= []
+Mojama | salt-dried tuna loin | Tuna loin salted and air-dried, sold whole or sliced; protected regional makes such as Mojama de Barbate are included. 
+   t= ['Extra', 'Primera', 'whole piece', 'sliced', 'in olive oil'] 
+   m= []
+Fermented fish | surströmming · rakfisk · hákarl · funazushi · kusaya | Whole fish preserved by controlled fermentation and eaten as the fish itself, not as a paste or sauce. 
+   t= ['canned', 'barrelled', 'dried', 'with rice'] 
+   m= []
+Salted fermented seafood | jeotgal · shiokara · bagoong · pla ra · saeujeot | Whole or cut seafood preserved by salting and fermenting and eaten as the seafood itself; a paste or sauce is in Pantry Staples. 
+   t= ['fish', 'shrimp', 'squid', 'roe', 'paste form'] 
+   m= []
+#  Dried fish
+Katsuobushi | dried bonito · bonito flakes · 鰹節 | Skipjack tuna boiled, smoked and dried hard, sold as whole blocks or shaved flakes. 
+   t= ['block', 'kezuribushi (shaved flakes)', 'arabushi', 'karebushi', 'honkarebushi'] 
+   m= []
+Niboshi | iriko · myeolchi · ikan bilis · dried anchovies · dried sardines | Small boiled and dried fish, mostly anchovies, for stock and snacks. 
+   t= ['anchovy', 'sardine', 'round herring', 'sand lance', 'for dashi', 'snack'] 
+   m= []
+Dried pollock | hwangtae · bugeo · kodari · myeongtae | Alaska pollock dried in Korea: hwangtae by winter freeze-thaw, bugeo, and half-dried kodari. 
+   t= ['hwangtae', 'bugeo', 'kodari', 'whole', 'shredded'] 
+   m= []
+Dried filefish | jwipo | Filefish (Monacanthidae) fillets dried, plain or lightly seasoned and pressed, sold to eat or to grill. 
+   t= ['plain', 'seasoned', 'shredded'] 
+   m= []
+Dried rockfish | geonureok | Rockfish (Sebastes) salted and dried or half-dried, sold whole to grill or steam; raw rockfish is Rockfish. 
+   t= ['whole', 'half-dried'] 
+   m= ['Shinan dried rockfish/']
+Fish maw | swim bladder · fish sound | Dried swim bladder of croaker, sturgeon or other fish, sold for rehydrating and cooking. 
+   t= ['croaker', 'cod', 'sturgeon', 'totoaba (restricted)', 'dried', 'fried'] 
+   m= []
+Fish floss | yu song · yú sōng | Fish cooked, shredded and dry-fried with light seasoning into a fine dry floss; a blend led by seaweed, sesame or flour is a topping in Pantry Staples. 
+   t= ['Jiangsu dry-cooked', 'Fujian fried'] 
+   m= []
+Dried shark fin |  | Shark fin dried for rehydrating and cooking; trade is restricted for CITES-listed species and finning is banned in some regions. 
+   t= ['whole', 'needles (processed)'] 
+   m= []
+#  Dried shellfish & squid
+Dried abalone | 鲍鱼干 · Yoshihama · Oma · Amidori | Abalone dried whole for rehydrating and cooking, sold by count per catty. 
+   t= ['Japanese', 'South African', 'by head count', 'golden', 'red'] 
+   m= []
+Dried sea cucumber | 刺参 · haishen · cishen · trepang | Sea cucumber dried for rehydrating and cooking. 
+   t= ['spiny (cishen)', 'salted', 'unsalted', 'by size'] 
+   m= []
+Dried scallop | conpoy · 干贝 · 江瑶柱 · kaibashira | Scallop adductor muscle dried for eating or cooking. 
+   t= ['Japanese (Hokkaido)', 'Chinese (Atrina)', 'by size'] 
+   m= []
+Dried oyster | hao si · ho see · 蠔豉 | Sun-dried or semi-dried oysters, a Cantonese New Year ingredient. 
+   t= ['raw-dried', 'cooked then dried', 'by size', 'by origin'] 
+   m= []
+Dried shrimp | 虾米 · ebi | Shrimp dried whole or shelled for eating or cooking. 
+   t= ['whole', 'shelled', 'small', 'large'] 
+   m= []
+Dried squid & cuttlefish | 鱿鱼干 · surume · shredded squid | Squid or cuttlefish (Sepia) dried whole, in pieces or in shreds. 
+   t= ['squid', 'cuttlefish', 'whole', 'shredded snack', 'seasoned'] 
+   m= []
+
+## Fish cakes, fingers & surimi
+#  Surimi & Japanese fish cakes
+Kamaboko | fish cake · narutomaki · hanpen | Steamed, formed cake of fish paste. 
+   t= ['red and white', 'grilled', 'steamed', 'sliced'] 
+   m= []
+Chikuwa | tube fish cake | Tube of fish paste cooked on a rod or by roasting. 
+   t= ['grilled', 'with cheese', 'small'] 
+   m= ['Ichimasa Chikuwa/Ichimasa', 'Takebue Chikuwa/Kibun']
+Satsuma-age | fried fish cake · tenpura | Formed cake of seasoned fish paste deep-fried without batter or crumb, not filled or sauced. 
+   t= ['plain', 'with burdock', 'with vegetables'] 
+   m= []
+Crab stick | kanikama · surimi stick · imitation crab | Stick of formed and seasoned fish paste, not coated, filled or sauced. 
+   t= ['sticks', 'flakes', 'chunks'] 
+   m= ['Hobo Kani/Kanetetsu', 'Kanizanmai/Kibun']
+Fish ball | Teochew fish ball · fiskeboller | Round ball of ground fish paste, not coated, filled or sauced. 
+   t= ['Teochew (eel base)', 'Norwegian', 'fresh', 'frozen', 'tinned'] 
+   m= []
+Fish sausage | osakana sausage | Sausage-shaped formed fish paste in a casing. 
+   t= ['salt-reduced', 'MSC', "children's snack"] 
+   m= ['Osakana Sausage (Bessho Kamaboko)/Bessho Kamaboko', 'Osakana no Sausage/Nissui', 'Sokkin Tanpaku Sausage Salt-reduced MSC/Nissui', 'Osakana de Tsukutta Sausage/Toyo Suisan', 'Risara Fish Sausage/Umios']
+#  Fish fingers, fish cakes & spreads
+Fish fingers | fish sticks · Fischstäbchen · bâtonnets de poisson | Breaded rectangles of whitefish (cod, hake, haddock, pollock), sold frozen. 
+   t= ['cod', 'pollock', 'haddock', 'breaded', 'battered', 'fillet-based', 'minced-block'] 
+   m= ['Birds Eye fish fingers/Birds Eye', 'Findus fish fingers/Findus', 'Iglo fish fingers/Iglo', "Gorton's fish sticks/Gorton's", 'Frosta Fischstäbchen/Frosta', 'Alnatura Fischstäbchen/Alnatura', 'Iglo Lachs-Stäbchen (Öko-Test, sehr gut)/Iglo']
+Breaded & battered fish | scampi · coated fillets · Backfisch | Frozen coated fish fillets and scampi, breaded or battered. 
+   t= ['breaded', 'battered', 'fillet', 'portion', 'scampi', 'MSC-certified'] 
+   m= ['Iglo Backfisch sticks/Iglo']
+Fish cake | fishcake · fish patty | Western potato-and-fish patty, chilled or frozen. 
+   t= ['potato-and-fish', 'salmon', 'cod', 'breaded', 'chilled', 'frozen'] 
+   m= []
+Gefilte fish | gefilte · jarred gefilte fish | Ashkenazi poached fish balls or loaves, usually jarred in broth or jelly. 
+   t= ['sweet', 'peppery', 'jarred', 'frozen log', 'low-salt'] 
+   m= ['Manischewitz gefilte fish/Manischewitz', 'Rokeach gefilte fish/Rokeach', "Mrs. Adler's gefilte fish/Mrs. Adler's"]
+Fish pâté & rillettes | fish terrine · taramasalata · fish rillettes | Pâté, terrine or galantine of fish sold as a loaf or slice to be cut; a spread or dip in a jar or tub is in Pantry Staples. 
+   t= ['pâté', 'terrine', 'rillettes', 'smoked mackerel pâté', 'taramasalata'] 
+   m= []
