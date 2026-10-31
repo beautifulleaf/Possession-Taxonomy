@@ -1,0 +1,275 @@
+{
+ "cat": "C1",
+ "items": [
+  {
+   "rubric_id": "C1-0",
+   "tradition": "Banshu Miki forged blades",
+   "decision": "add_archetype",
+   "dept": "Woodworking hand tools",
+   "shelf": "Chisels & gouges",
+   "kind": "Nomi (Japanese chisel)",
+   "record": {
+    "n": "Banshu Miki nomi",
+    "a": "Banshu Miki uchihamono · Miki chisel",
+    "d": "Hand-forged chisels from Miki, Hyogo, part of a forged-blade craft that also makes planes, knives and saws, established in the Edo period (wide-bladed ripsaws from 1763).",
+    "mk": "",
+    "y": "Edo period–",
+    "s": "https://kogeijapan.com/locale/en_US/banshumikiuchihamono/",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [],
+   "ve_link": "Banshu Miki uchihamono",
+   "why": "Product: Miki chisels and saws are bought by origin; also covers B5-11 (Miki hardware)."
+  },
+  {
+   "rubric_id": "C1-1",
+   "tradition": "Japanese natural whetstones",
+   "decision": "add_archetype",
+   "dept": "General hand tools",
+   "shelf": "Sharpening stones & systems",
+   "kind": "Whetstone",
+   "record": {
+    "n": "Japanese natural whetstone",
+    "a": "tennen toishi · honyama · JNAT",
+    "d": "Natural Japanese waterstone of fine silicate in a clay matrix, the most famous mined in the Narutaki district north of Kyoto; the Honyama mines have been closed since 1967.",
+    "mk": "",
+    "y": "",
+    "s": "https://en.wikipedia.org/wiki/Sharpening_stone",
+    "v": [
+     {
+      "n": "ara-to",
+      "mk": "",
+      "y": "",
+      "d": "rough stone"
+     },
+     {
+      "n": "naka-to",
+      "mk": "",
+      "y": "",
+      "d": "medium stone"
+     },
+     {
+      "n": "shiage-to",
+      "mk": "",
+      "y": "",
+      "d": "finishing stone"
+     }
+    ],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "NaturalWhetstones.com",
+     "role": "seller",
+     "src": "https://en.wikipedia.org/wiki/Sharpening_stone"
+    }
+   ],
+   "ve_link": "Japanese natural whetstones",
+   "why": "Product; same stone also added under B5 Whetstone (B5-12) for kitchen use."
+  },
+  {
+   "rubric_id": "C1-2",
+   "tradition": "Thiers cutlery",
+   "decision": "skip",
+   "dept": "Knives, multi-tools & axes",
+   "shelf": "Folding knives",
+   "kind": "Slip-joint pocket knife",
+   "record": {},
+   "makers": [],
+   "ve_link": "Thiers coutellerie",
+   "why": "Folded into C1-4: Thiers is where Laguiole knives are produced, so the Thiers pocket knife is a version of the Laguiole archetype, not a separate one (Thiers kitchen knives are in B5-5)."
+  },
+  {
+   "rubric_id": "C1-3",
+   "tradition": "Swedish axe forging",
+   "decision": "add_archetype",
+   "dept": "Knives, multi-tools & axes",
+   "shelf": "Axes & splitting tools",
+   "kind": "Axe",
+   "record": {
+    "n": "Swedish hand-forged axe",
+    "a": "Scandinavian forged axe",
+    "d": "Hand-forged axe from Swedish bruk forges such as Hults Bruk, founded in 1697 and the longest continuously operating axe factory.",
+    "mk": "Hults Bruk",
+    "y": "1697 (forge)–",
+    "s": "https://www.insidehook.com/gear/hults-bruk-hand-forged-swedish-axes-history/amp",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Hults Bruk",
+     "role": "maker",
+     "src": "https://www.insidehook.com/gear/hults-bruk-hand-forged-swedish-axes-history/amp"
+    },
+    {
+     "n": "Gränsfors Bruk",
+     "role": "maker",
+     "src": "https://www.insidehook.com/gear/hults-bruk-hand-forged-swedish-axes-history/amp"
+    },
+    {
+     "n": "Wetterlings",
+     "role": "maker",
+     "src": "https://www.insidehook.com/gear/hults-bruk-hand-forged-swedish-axes-history/amp"
+    }
+   ],
+   "ve_link": "Swedish axe forging",
+   "why": "Product: Swedish forged axes are bought by maker."
+  },
+  {
+   "rubric_id": "C1-4",
+   "tradition": "Laguiole knife",
+   "decision": "add_archetype",
+   "dept": "Knives, multi-tools & axes",
+   "shelf": "Folding knives",
+   "kind": "Slip-joint pocket knife",
+   "record": {
+    "n": "Laguiole",
+    "a": "laguiole knife · couteau de Laguiole",
+    "d": "Traditional Occitan slipjoint pocketknife first designed in 1829 by Jean-Pierre Calmels, made in Thiers and the village of Laguiole; the name is a generic type, not a protected brand.",
+    "mk": "",
+    "y": "1829",
+    "s": "https://en.wikipedia.org/wiki/Laguiole_knife",
+    "v": [
+     {
+      "n": "Laguiole droit",
+      "mk": "",
+      "y": "before c. 1860",
+      "d": "early straight-bladed form"
+     },
+     {
+      "n": "Classic navaja-style laguiole",
+      "mk": "",
+      "y": "c. 1860",
+      "d": "curved yataghan blade, bee on the spring"
+     },
+     {
+      "n": "Thiers-made laguiole",
+      "mk": "",
+      "y": "",
+      "d": "production in Thiers"
+     },
+     {
+      "n": "Philippe Starck laguiole",
+      "mk": "",
+      "y": "",
+      "d": "aluminium grips, revival of a 1910 model"
+     }
+    ],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Forge de Laguiole",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Laguiole_knife"
+    },
+    {
+     "n": "Laguiole Honoré Durand",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Laguiole_knife"
+    },
+    {
+     "n": "Laguiole French Knives",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Laguiole_knife"
+    }
+   ],
+   "ve_link": "Laguiole knife-making",
+   "why": "Product: the folding laguiole; table version already in B5."
+  },
+  {
+   "rubric_id": "C1-5",
+   "tradition": "Opinel and Savoie knives",
+   "decision": "skip",
+   "dept": "Knives, multi-tools & axes",
+   "shelf": "Folding knives",
+   "kind": "Friction folder & locking-collar knife",
+   "record": {},
+   "makers": [],
+   "ve_link": "Opinel",
+   "why": "Already present: Opinel No. 1–13 are archetypes under Friction folder & locking-collar knife; Opinel is a brand, covered by the brand layer."
+  },
+  {
+   "rubric_id": "C1-6",
+   "tradition": "Sheffield cutlery",
+   "decision": "add_archetype",
+   "dept": "Knives, multi-tools & axes",
+   "shelf": "Folding knives",
+   "kind": "Slip-joint pocket knife",
+   "record": {
+    "n": "Sheffield pocket knife",
+    "a": "Sheffield penknife",
+    "d": "Pocket knife from Sheffield, noted for knives since the 14th century and England's main cutlery centre outside London from the early 1600s under the Company of Cutlers in Hallamshire.",
+    "mk": "",
+    "y": "14th century–",
+    "s": "https://en.wikipedia.org/wiki/Sheffield",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Company of Cutlers in Hallamshire",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Sheffield"
+    }
+   ],
+   "ve_link": "Sheffield cutlery",
+   "why": "Product; the Barlow pattern is not named on the fetched page so no version is given."
+  },
+  {
+   "rubric_id": "C1-7",
+   "tradition": "Solingen cutlery",
+   "decision": "add_archetype",
+   "dept": "Knives, multi-tools & axes",
+   "shelf": "Folding knives",
+   "kind": "Slip-joint pocket knife",
+   "record": {
+    "n": "Solingen pocket knife",
+    "a": "Solingen folding knife",
+    "d": "Pocket knife from Solingen, Germany's 'City of Blades', made by firms such as Böker, Herder and Hubertus.",
+    "mk": "",
+    "y": "",
+    "s": "https://en.wikipedia.org/wiki/Solingen",
+    "v": [],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Böker",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Solingen"
+    },
+    {
+     "n": "Hubertus",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Solingen"
+    },
+    {
+     "n": "Herder",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Solingen"
+    },
+    {
+     "n": "Puma",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Solingen"
+    },
+    {
+     "n": "Linder",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Solingen"
+    },
+    {
+     "n": "Ralf Aust",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Solingen"
+    }
+   ],
+   "ve_link": "Solingen cutlery",
+   "why": "Product: pocket knives sold as Solingen-made."
+  }
+ ],
+ "done": true
+}

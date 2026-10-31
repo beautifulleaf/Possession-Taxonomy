@@ -2,7 +2,192 @@
  "cat": "B8",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
+ "sweeps": [
+  {
+   "axis": "region",
+   "item": "Western Europe",
+   "queries": [
+    "Sold Secure Approved Product Catalogue 2025",
+    "Wikipedia lock manufacturers; de/fr Wikipedia Schließtechnik/Serrurerie categories"
+   ],
+   "found": 12,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "Mottura Serrature di Sicurezza lock maker Italian"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "Expert Reviews smoke alarm/doorbell 2026; Assa Abloy Wikipedia"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Central & Eastern Europe",
+   "queries": [
+    "de Wikipedia Schließtechnik (Germany/Austria only)"
+   ],
+   "found": 0,
+   "note": "not yet searched / empty"
+  },
+  {
+   "axis": "region",
+   "item": "Middle East",
+   "queries": [
+    "Kale Group Wikipedia; Mul-T-Lock (Israel) via Japanese lock-maker page"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "South Asia",
+   "queries": [
+    "Godrej locks safes India history heritage brand 1897"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "Japan lock manufacturers MIWA GOAL 錠前 メーカー",
+    "Gateman Solity Korea digital door lock market leaders"
+   ],
+   "found": 5,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Wikipedia Category:Lock manufacturers"
+   ],
+   "found": 13,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "North Africa",
+   "queries": [],
+   "found": 0,
+   "note": "not yet searched / empty"
+  },
+  {
+   "axis": "region",
+   "item": "Sub-Saharan Africa",
+   "queries": [],
+   "found": 0,
+   "note": "not yet searched / empty"
+  },
+  {
+   "axis": "region",
+   "item": "Southeast Asia",
+   "queries": [],
+   "found": 0,
+   "note": "not yet searched / empty"
+  },
+  {
+   "axis": "region",
+   "item": "Central Asia",
+   "queries": [],
+   "found": 0,
+   "note": "not yet searched / empty"
+  },
+  {
+   "axis": "region",
+   "item": "Oceania",
+   "queries": [
+    "Lockwiki list includes Lockwood (Australia)"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Latin America & Caribbean",
+   "queries": [],
+   "found": 0,
+   "note": "not yet searched / empty"
+  },
+  {
+   "axis": "kind",
+   "item": "Door & cabinet locks / Padlocks & chains / Add-on security",
+   "queries": [
+    "Sold Secure 2025 catalogue",
+    "Lockwiki lock manufacturer list",
+    "Wikipedia lock categories"
+   ],
+   "found": 60,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Safes & key boxes",
+   "queries": [
+    "Sold Secure domestic safes/key safes"
+   ],
+   "found": 6,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Alarms, cameras & doorbells",
+   "queries": [
+    "Expert Reviews / CR best video doorbell & camera 2026",
+    "Wikipedia Category:Home automation companies"
+   ],
+   "found": 6,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Fire, gas & leak safety",
+   "queries": [
+    "Expert Reviews / CNET best smoke alarm 2026",
+    "Wikipedia Category:Fire detection and alarm"
+   ],
+   "found": 1,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Child & home safety",
+   "queries": [
+    "BabyGearLab best baby gates"
+   ],
+   "found": 2,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Pest & insect control",
+   "queries": [
+    "Wikipedia Category:Insecticide brands",
+    "Bob Vila best mouse traps"
+   ],
+   "found": 8,
+   "note": ""
+  },
+  {
+   "axis": "kind",
+   "item": "Locksport & lock collecting",
+   "queries": [],
+   "found": 0,
+   "note": "not yet searched / empty"
+  }
+ ],
  "regions": [
   {
    "region": "Japan",
@@ -40,6 +225,119 @@
    "src": "https://key.asti24.co.jp/article/4443",
    "brands": [
     "Mul-T-Lock"
+   ]
+  },
+  {
+   "region": "Finland / Sweden",
+   "speciality": "High-security cylinder locks (Abloy, ASSA)",
+   "src": "https://en.wikipedia.org/wiki/Assa_Abloy",
+   "brands": [
+    "Abloy",
+    "ASSA",
+    "ASSA ABLOY"
+   ]
+  },
+  {
+   "region": "United Kingdom",
+   "speciality": "Chubb detector lock heritage, safes (Chubb, Phoenix, Burton), padlocks (Squire)",
+   "src": "https://en.wikipedia.org/wiki/Chubb_Locks",
+   "brands": [
+    "Chubb",
+    "Chubb Locks",
+    "Squire",
+    "Phoenix Safe Company",
+    "Burton Safes",
+    "Banham Group"
+   ]
+  },
+  {
+   "region": "Italy",
+   "speciality": "Security locks, cylinders, safes",
+   "src": "https://www.mottura.it/en/prodotti",
+   "brands": [
+    "Mottura",
+    "ISEO",
+    "CISA",
+    "Costruzioni Italiane Serrature e Affini (CISA)"
+   ]
+  },
+  {
+   "region": "Germany",
+   "speciality": "Locks, padlocks, safes",
+   "src": "https://burg.biz/en/pages/burg-guard-company",
+   "brands": [
+    "ABUS",
+    "Burg-Wächter",
+    "Winkhaus",
+    "Wilka",
+    "Roto Frank",
+    "Sudhaus",
+    "Kohlburg"
+   ]
+  },
+  {
+   "region": "France",
+   "speciality": "Locks and safes (Fichet 1825, Bricard, Vachette)",
+   "src": "https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Serrurerie",
+   "brands": [
+    "Fichet",
+    "Fichet-Bauche",
+    "Bricard",
+    "Vachette",
+    "Point Fort Fichet"
+   ]
+  },
+  {
+   "region": "Turkey",
+   "speciality": "Lock manufacturing",
+   "src": "https://en.wikipedia.org/wiki/Kale_Group",
+   "brands": [
+    "Kale Kilit"
+   ]
+  },
+  {
+   "region": "Switzerland",
+   "speciality": "Locks/access (dormakaba, Kaba)",
+   "src": "https://en.wikipedia.org/wiki/Dormakaba",
+   "brands": [
+    "dormakaba",
+    "KABA"
+   ]
+  },
+  {
+   "region": "Denmark",
+   "speciality": "Smoke alarms",
+   "src": "https://www.expertreviews.co.uk/technology/home-security/best-smoke-alarm",
+   "brands": [
+    "Cavius"
+   ]
+  },
+  {
+   "region": "North America",
+   "speciality": "Padlocks, deadbolts, safes",
+   "src": "https://en.wikipedia.org/wiki/Category:Lock_manufacturers",
+   "brands": [
+    "Master Lock",
+    "Schlage",
+    "Kwikset",
+    "Medeco",
+    "Sargent & Greenleaf",
+    "Best Lock Corporation",
+    "National Lock Company",
+    "Kryptonite",
+    "Hall's Safe & Lock Co.",
+    "Wilson Bohannan"
+   ]
+  },
+  {
+   "region": "China / Taiwan",
+   "speciality": "Smart cameras and OEM locks",
+   "src": "https://www.expertreviews.co.uk/technology/home-security/best-video-doorbell",
+   "brands": [
+    "Ezviz",
+    "Hikvision",
+    "Federal Lock",
+    "Wangli"
    ]
   }
  ],
@@ -223,6 +521,46 @@
    "new_names": 1,
    "status": "done",
    "note": ""
+  },
+  {
+   "url": "https://www.mottura.it/en/prodotti",
+   "title": "Mottura products",
+   "kind": "heritage",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": ""
+  },
+  {
+   "url": "https://www.bobvila.com/articles/best-mouse-traps",
+   "title": "Bob Vila best mouse traps",
+   "kind": "award",
+   "years": "n/a",
+   "names_on_page": 10,
+   "new_names": 1,
+   "status": "done",
+   "note": "others (Iiwey, Feeke, Owltra, Gerossi) are marketplace-only brands, excluded"
+  },
+  {
+   "url": "https://www.babygearlab.com/topics/nursery-furniture/best-baby-gate",
+   "title": "BabyGearLab best baby gates",
+   "kind": "award",
+   "years": "2025",
+   "names_on_page": 4,
+   "new_names": 2,
+   "status": "done",
+   "note": "Safety 1st, Regalo known"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Assa_Abloy",
+   "title": "Wikipedia ASSA ABLOY / Allegion / Dormakaba / Gunnebo / Kale / Chubb",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 6,
+   "new_names": 0,
+   "status": "done",
+   "note": "group pages; subsidiaries (Kwikset, Baldwin, Weiser, National Hardware, CISA, Schlage) already added or known"
   }
  ],
  "brands": [
@@ -1153,6 +1491,38 @@
    "says": "First Wi-Fi IoT smart door lock in Korea; Gold Prize Beijing Smart Home Innovation",
    "country": "South Korea",
    "dept": "Smart lock"
+  },
+  {
+   "n": "Mottura",
+   "layer": "premium",
+   "src": "https://www.mottura.it/en/prodotti",
+   "says": "Italian security lock/cylinder/safe maker; Defenders tested to UNI EN 1906 at maximum grade",
+   "country": "Italy",
+   "dept": "Locks & safes"
+  },
+  {
+   "n": "Catchmaster",
+   "layer": "cultural",
+   "src": "https://www.bobvila.com/articles/best-mouse-traps",
+   "says": "Bob Vila best mouse traps: Catchmaster Max-Catch best glue trap",
+   "country": "US",
+   "dept": "Rodent traps"
+  },
+  {
+   "n": "Toddleroo",
+   "layer": "premium",
+   "src": "https://www.babygearlab.com/topics/nursery-furniture/best-baby-gate",
+   "says": "BabyGearLab tested: Toddleroo Deluxe Decor great gate for awkward angles",
+   "country": "US",
+   "dept": "Baby gates"
+  },
+  {
+   "n": "Summer Infant",
+   "layer": "premium",
+   "src": "https://www.babygearlab.com/topics/nursery-furniture/best-baby-gate",
+   "says": "BabyGearLab tested: Summer Deluxe Stairway best baby gate for stairs",
+   "country": "US",
+   "dept": "Baby gates"
   }
  ]
 }

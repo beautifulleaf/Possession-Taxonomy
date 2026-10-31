@@ -1,0 +1,82 @@
+{
+ "cat": "B10",
+ "items": [
+  {
+   "rubric_id": 2,
+   "tradition": "Tree beekeeping culture",
+   "decision": "skip",
+   "dept": "Beekeeping",
+   "shelf": "Hive designs",
+   "kind": "Log hive",
+   "record": {},
+   "makers": [],
+   "ve_link": "Tree beekeeping culture",
+   "why": "Already present: 'Barć' (hollow-log tree hive of Poland) is an archetype under Log hive in rebuild/out/B10.json; at most add 'tree hive · bee tree' as aliases of Barć. Tree beekeeping itself is a use tradition that stays here."
+  },
+  {
+   "rubric_id": 4,
+   "tradition": "Buckaroo tack (California and Great Basin)",
+   "decision": "skip",
+   "dept": "Horses & riding",
+   "shelf": "Saddles & fittings",
+   "kind": "Western saddle",
+   "record": {},
+   "makers": [],
+   "ve_link": "Buckaroo tack (California and Great Basin)",
+   "why": "Already present: the Vaquero article (en.wikipedia.org/wiki/Vaquero, fetched) names the Wade saddle as the saddle of the working-ranch buckaroo tradition, and 'Wade saddle' is an archetype under Western saddle; 'buckaroo saddle' can be added as its alias."
+  },
+  {
+   "rubric_id": 5,
+   "tradition": "Paniolo saddlery (Hawaii)",
+   "decision": "add_archetype",
+   "dept": "Horses & riding",
+   "shelf": "Saddles & fittings",
+   "kind": "Western saddle",
+   "record": {
+    "n": "Hawaiian tree saddle",
+    "a": "paniolo saddle · noho lio",
+    "d": "Light Hawaiian cowboy saddle on a hand-hewn neneleau-wood tree with a concave seat and heavy rawhide rigging, its prototype dating from the early 1900s.",
+    "mk": "",
+    "y": "early 1900s",
+    "s": "https://keolamagazine.com/people/making-the-hawaiian-tree-saddle",
+    "v": [
+     {
+      "n": "Big Island saddle with aweawe rigging",
+      "mk": "",
+      "y": "",
+      "d": "rawhide 'tentacle' rigging unique to Hawai‘i Island"
+     },
+     {
+      "n": "Maui saddle with wilimokou rigging",
+      "mk": "",
+      "y": "",
+      "d": "similar rigging with smaller laces"
+     }
+    ],
+    "dt": "open-toe stirrups or tapaderos · stamped leather · rawhide adjustor"
+   },
+   "makers": [
+    {
+     "n": "Alvin Kawamoto",
+     "role": "maker",
+     "src": "https://keolamagazine.com/people/making-the-hawaiian-tree-saddle"
+    }
+   ],
+   "ve_link": "Paniolo saddlery (Hawaii)",
+   "why": "A distinct saddle type (also held by the Smithsonian, si.edu nmah_1425863) derived from vaquero saddles; origin version of Western saddle."
+  },
+  {
+   "rubric_id": 7,
+   "tradition": "Sheridan Western leatherwork",
+   "decision": "technique_only",
+   "dept": "",
+   "shelf": "",
+   "kind": "",
+   "record": {},
+   "makers": [],
+   "ve_link": "Sheridan Western leatherwork",
+   "why": "Ambiguous resolved: Sheridan style is a floral leather-carving pattern applied to saddles, belts and other goods; it names a way of decorating, not a ware."
+  }
+ ],
+ "done": true
+}

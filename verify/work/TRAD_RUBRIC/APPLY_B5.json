@@ -177,6 +177,11 @@
      "n": "Iga Mono kiln",
      "role": "maker",
      "src": "https://en.wikipedia.org/wiki/Iga_ware"
+    },
+    {
+     "n": "Nagatani-en",
+     "role": "maker",
+     "src": "https://made-in-japan.jp/en/guide/rice-pot-donabe"
     }
    ],
    "ve_link": "Iga ware",
@@ -373,6 +378,90 @@
    ],
    "ve_link": "Artisanal Talavera of Puebla and Tlaxcala",
    "why": "Product with protected denomination and certified workshops."
+  },
+  {
+   "rubric_id": "B5-3",
+   "tradition": "Banko ware (Banko-yaki)",
+   "decision": "add_archetype",
+   "dept": "Cookware & bakeware",
+   "shelf": "Pots & casseroles",
+   "kind": "Donabe",
+   "record": {
+    "n": "Banko donabe",
+    "a": "Yokkaichi Banko donabe · Banko-yaki donabe",
+    "d": "Earthen cooking pot from Yokkaichi, Mie, made since 1959 with heat-resistant petalite clay, about 80% of all donabe produced in Japan.",
+    "mk": "",
+    "y": "1959 (petalite clay)–",
+    "s": "https://bankonosato.jp/wp/en/aboutbanko/",
+    "v": [
+     {
+      "n": "Hana-mishima",
+      "mk": "Ginpo Touki",
+      "y": "over 50 years in production",
+      "d": "all-purpose hot-pot donabe"
+     },
+     {
+      "n": "Kikka rice donabe",
+      "mk": "Ginpo Touki",
+      "y": "",
+      "d": "lighter double-lid rice donabe"
+     }
+    ],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Ginpo Touki",
+     "role": "maker",
+     "src": "https://made-in-japan.jp/en/guide/rice-pot-donabe"
+    },
+    {
+     "n": "Banko Ceramics Promotion Cooperative",
+     "role": "maker",
+     "src": "https://bankonosato.jp/wp/en/aboutbanko/"
+    }
+   ],
+   "ve_link": "Banko ware",
+   "why": "Product: Banko donabe; the Banko teapot already exists as 'Banko shidei kyusu' under Kyusu, so only the donabe is added. Wikipedia src did not name donabe, so the Banko no Sato page was fetched."
+  },
+  {
+   "rubric_id": "B5-30",
+   "tradition": "Sheffield cutlery and plate",
+   "decision": "add_archetype",
+   "dept": "Tableware",
+   "shelf": "Cutlery",
+   "kind": "Cutlery set",
+   "record": {
+    "n": "Sheffield cutlery",
+    "a": "Sheffield steel cutlery · Made in Sheffield",
+    "d": "Table cutlery from Sheffield, England's main cutlery centre outside London since the early 1600s under the Company of Cutlers in Hallamshire, and the birthplace of stainless steel (1912).",
+    "mk": "",
+    "y": "1297 (first record)–",
+    "s": "https://en.wikipedia.org/wiki/Sheffield",
+    "v": [
+     {
+      "n": "Old Sheffield Plate",
+      "mk": "",
+      "y": "1740s–c. 1840s",
+      "d": "fused copper-and-silver plate invented by Thomas Boulsover, used for serving utensils, tea sets and tableware (source: https://en.wikipedia.org/wiki/Old_Sheffield_Plate)"
+     }
+    ],
+    "dt": ""
+   },
+   "makers": [
+    {
+     "n": "Company of Cutlers in Hallamshire",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Sheffield"
+    },
+    {
+     "n": "Blagden, Hodgson & Co.",
+     "role": "maker",
+     "src": "https://en.wikipedia.org/wiki/Old_Sheffield_Plate"
+    }
+   ],
+   "ve_link": "Sheffield cutlery and plate",
+   "why": "Product: cutlery and Old Sheffield Plate are bought and collected; OSP kept as a version since it spans serving pieces as well."
   },
   {
    "rubric_id": "B5-31",
@@ -781,5 +870,5 @@
    "why": "Product: Tosa knives are sold by the Kurotori blacksmith named on the page."
   }
  ],
- "done": false
+ "done": true
 }
