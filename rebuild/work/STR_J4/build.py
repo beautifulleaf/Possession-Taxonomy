@@ -298,7 +298,7 @@ dept('Salad & herbs','mixed','Leaves eaten raw in salads and fresh herbs used to
  'Is it eaten as a salad leaf, or used in small amounts to flavour food?',d['depts'][2]['b'],[
  shelf('Salad leaves & sprouts','Leaves, sprouts and mixes eaten raw: lettuces, chicories, rocket and cress; herbs → Fresh herbs.','kinds by taste: mild heads, bitter chicories, peppery leaves, mild small leaves, mixes, sprouts',['Lettuce','Chicory','Rocket','Watercress','Mizuna','Lamb\'s lettuce','Mixed salad leaves','Sprouts & microgreens']),
  shelf('Soft-leaved herbs','Tender herbs added fresh at the end of cooking or served raw: basil, coriander, parsley, mint, dill and chives; potted plants → C3.','kinds from the everyday to the delicate and sour-leaved',['Basil','Coriander','Parsley','Mint','Dill','Chives','Chervil','Tarragon','Lovage','Lemon balm','Sorrel','Mixed herbs']),
- shelf('Woody herbs','Sturdy, resinous herbs that stand up to long cooking: thyme, rosemary, sage and oregano; potted plants → C3.','',['Thyme','Rosemary','Sage','Oregano & marjoram']),
+ shelf('Woody herbs','Sturdy, resinous herbs that stand up to long cooking: thyme, rosemary, sage and oregano; potted plants → C3.','kinds from thyme and rosemary to sage and oregano',['Thyme','Rosemary','Sage','Oregano & marjoram']),
  shelf('Asian & Latin American herbs','Herbs of Asian and Latin American cooking: lemongrass, shiso, curry leaf, pandan, culantro and epazote.','kinds by cuisine: South and Southeast Asian, East Asian, Latin American',['Lemongrass','Curry leaf','Makrut lime leaf','Pandan','Vietnamese coriander','Perilla','Culantro','Epazote']),
 ])
 dept('Mushrooms & sea vegetables','variety','Fungi and seaweeds sold to eat: farmed mushrooms, foraged mushrooms and truffles, and sea vegetables; dried and preserved forms → J5.',
@@ -363,6 +363,10 @@ see('Matsutake',('J4','Porcini','other prized wild mushroom'))
 see('Porcini',('J4','Matsutake','other prized wild mushroom'))
 see('Truffle',('J4','Porcini','other prized wild fungus'))
 
+see('Shiitake',('J5','Dried mushrooms','the dried form'))
+see('Wakame',('J5','Dried seaweed','the dried form'))
+see('Kombu',('J5','Dried seaweed','the dried form'))
+see('Nori',('J5','Dried seaweed','the dried form'))
 # ---- verify no kind lost
 allk=[k['n'] for D in depts for S in D['s'] for k in S['k']]
 assert len(allk)==len(set(allk)),[n for n in allk if allk.count(n)>1]
