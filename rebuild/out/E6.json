@@ -6369,6 +6369,72 @@
        "s": "https://shop.armasight.com/night-vision/shop-by-series/?page=2",
        "x": [
         {
+         "n": "Generation 1 image intensifier",
+         "a": "",
+         "d": "Passive intensifier tube needing some moonlight; the AN/PVS-1 Starlight scope of the 1960s was the first.",
+         "mk": "",
+         "y": "1960s",
+         "s": "https://en.wikipedia.org/wiki/Night-vision_device",
+         "v": [],
+         "dt": "",
+         "g": "Intensifier generations"
+        },
+        {
+         "n": "Generation 2 microchannel plate intensifier",
+         "a": "",
+         "d": "Adds a microchannel plate for about 20,000 times gain, as in the AN/PVS-5 goggles of the 1970s.",
+         "mk": "",
+         "y": "1970s",
+         "s": "https://en.wikipedia.org/wiki/Night-vision_device",
+         "v": [],
+         "dt": "",
+         "g": "Intensifier generations"
+        },
+        {
+         "n": "Generation 3 gallium arsenide intensifier",
+         "a": "",
+         "d": "Gallium arsenide photocathode with 30,000 to 50,000 times gain; the AN/PVS-14 monocular is the common form.",
+         "mk": "",
+         "y": "late 1980s",
+         "s": "https://en.wikipedia.org/wiki/Night-vision_device",
+         "v": [],
+         "dt": "",
+         "g": "Intensifier generations"
+        },
+        {
+         "n": "Generation 3 autogated intensifier",
+         "a": "",
+         "d": "Autogating power supply that adapts quickly to changing light; sometimes sold as Gen 4 though the US NVESD does not recognise a Gen 4.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Night-vision_device",
+         "v": [],
+         "dt": "",
+         "g": "Intensifier generations"
+        },
+        {
+         "n": "Fusion night vision",
+         "a": "",
+         "d": "Intensifier image overlaid with a thermal image, as in the AN/PSQ-42 ENVG-B.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Night-vision_device",
+         "v": [],
+         "dt": "",
+         "g": "Intensifier generations"
+        },
+        {
+         "n": "Active infrared viewer (Generation 0)",
+         "a": "",
+         "d": "Viewer that needs an infrared searchlight; the German Vampir and the US Sniperscope of the Second World War.",
+         "mk": "",
+         "y": "before 1945",
+         "s": "https://en.wikipedia.org/wiki/Night-vision_device",
+         "v": [],
+         "dt": "",
+         "g": "Intensifier generations"
+        },
+        {
          "n": "AN/PVS-14",
          "a": "",
          "d": "US military Gen 3 night-vision monocular, hand-held or head-mounted; the reference civilian NV monocular pattern.",
@@ -6448,8 +6514,9 @@
          "weapon sight version"
         ]
        ],
-       "nl": "One entry is a night-vision viewer line sold under its own name.",
-       "sel": "Night-vision lines of the earlier pass; no whole-space reference exists."
+       "nl": "One entry is a night-vision technology generation named in the Wikipedia article Night-vision device or a viewer line sold under its own name.",
+       "sel": "Generations from the first 100,000 of 126,000 characters of the Wikipedia article Night-vision device (military procurement series such as OMNI are out of scope), then maker lines from the earlier pass.",
+       "xg": "intensifier generation, then maker lines"
       },
       {
        "n": "Thermal-imaging viewer",
@@ -10043,6 +10110,40 @@
        "s": "https://raspberryshake.org/home-bf/",
        "x": [
         {
+         "n": "Houfeng Didong Yi",
+         "a": "",
+         "d": "Bronze seismoscope with dragon heads that dropped balls into toads to show the direction of a quake.",
+         "mk": "Zhang Heng",
+         "y": "132",
+         "s": "https://en.wikipedia.org/wiki/Seismometer",
+         "v": [],
+         "dt": "",
+         "g": "Historic designs",
+         "role": "origin"
+        },
+        {
+         "n": "Palmieri seismometer",
+         "a": "",
+         "d": "Metal pendulums that closed a circuit to stop a clock, widely distributed in the nineteenth century.",
+         "mk": "Luigi Palmieri",
+         "y": "1856",
+         "s": "https://en.wikipedia.org/wiki/Seismometer",
+         "v": [],
+         "dt": "",
+         "g": "Historic designs"
+        },
+        {
+         "n": "Milne horizontal pendulum seismograph",
+         "a": "",
+         "d": "Early modern horizontal-pendulum design, the basis of later seismometers.",
+         "mk": "John Milne",
+         "y": "1880",
+         "s": "https://en.wikipedia.org/wiki/Seismometer",
+         "v": [],
+         "dt": "",
+         "g": "Historic designs"
+        },
+        {
          "n": "Raspberry Shake",
          "a": "",
          "d": "Raspberry Pi-based home seismograph whose owners form a live citizen seismic network.",
@@ -10050,7 +10151,19 @@
          "y": "",
          "s": "https://raspberryshake.org/home-bf/",
          "v": [],
-         "dt": "Raspberry Pi · data sharing"
+         "dt": "Raspberry Pi · data sharing",
+         "g": "Home sensors"
+        },
+        {
+         "n": "Quake-Catcher Network detector",
+         "a": "",
+         "d": "Residential quake detector built into a computer.",
+         "mk": "Quake-Catcher Network",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Seismometer",
+         "v": [],
+         "dt": "",
+         "g": "Home sensors"
         }
        ],
        "tt": [
@@ -10068,7 +10181,10 @@
           "MEMS accelerometer"
          ]
         ]
-       ]
+       ],
+       "xg": "historic designs, then home sensors",
+       "nl": "One entry is a seismometer design named in the Wikipedia article Seismometer that a person could own or collect, or a home sensor line.",
+       "sel": "Designs from the Wikipedia article Seismometer (34 listed; professional broadband, geophone and spacecraft instruments are out of scope, and the other nineteenth-century pendulum devices exist only in museums)."
       }
      ]
     }
@@ -10499,6 +10615,62 @@
          "v": [],
          "dt": "desk size · often illuminated",
          "g": "Early modern (1500–1800)"
+        },
+        {
+         "n": "Al-Sahli celestial globe",
+         "a": "",
+         "d": "Earliest surviving celestial globe, made in Valencia, showing the 48 classical constellations.",
+         "mk": "Ibrahim ibn Said al-Sahli",
+         "y": "1080–1085",
+         "s": "https://en.wikipedia.org/wiki/Celestial_globe",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)",
+         "role": "origin"
+        },
+        {
+         "n": "Maragha globe",
+         "a": "",
+         "d": "Inlaid brass globe from the Maragha observatory showing the 48 Ptolemaic constellations.",
+         "mk": "Muhammad b. Mu'ayyad al-'Urdi",
+         "y": "1288",
+         "s": "https://en.wikipedia.org/wiki/Celestial_globe",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)"
+        },
+        {
+         "n": "Farnese Atlas globe",
+         "a": "",
+         "d": "Roman marble statue of Atlas holding a celestial globe of about 65 cm.",
+         "mk": "",
+         "y": "2nd century",
+         "s": "https://en.wikipedia.org/wiki/Celestial_globe",
+         "v": [],
+         "dt": "",
+         "g": "Ancient (to c. 500)"
+        },
+        {
+         "n": "Mughal celestial globe",
+         "a": "",
+         "d": "Globe with Arabic and Sanskrit inscriptions.",
+         "mk": "Muhammad Saleh Thattvi",
+         "y": "1663–4",
+         "s": "https://en.wikipedia.org/wiki/Celestial_globe",
+         "v": [],
+         "dt": "",
+         "g": "Early modern (1500–1800)"
+        },
+        {
+         "n": "Lahore celestial globe",
+         "a": "",
+         "d": "One-piece seamless globe with meridian and horizon rings.",
+         "mk": "Diya' ad-din Muhammad",
+         "y": "1668",
+         "s": "https://en.wikipedia.org/wiki/Celestial_globe",
+         "v": [],
+         "dt": "",
+         "g": "Early modern (1500–1800)"
         }
        ],
        "tt": [
@@ -10539,7 +10711,7 @@
         ]
        ],
        "nl": "One entry is a named instrument from Wikipedia's List of astronomical instruments; makers' pieces and replicas are versions.",
-       "sel": "Every historic instrument in Wikipedia's List of astronomical instruments, grouped by the period of first use; modern detectors, space and electronic items in that list (CCD, CMOS, bolometer, photometer, spectrometer, interferometer, space telescope, computers) are out of scope here. Wikipedia's historical-instruments list could not be fetched (404).",
+       "sel": "Named globes in the Wikipedia article Celestial globe (museum pieces are listed as the canon of historic globes; the two Metropolitan Museum globes and two Roman private pieces are not added because the page gives no maker).",
        "xg": "by period"
       },
       {
@@ -10714,6 +10886,29 @@
          "v": [],
          "dt": "northern latitudes",
          "g": "Modern (from 1800)"
+        },
+        {
+         "n": "Usus Astronomicus Planisphaerii Stellati",
+         "a": "",
+         "d": "First star chart to carry the name planisphere.",
+         "mk": "Jacob Bartsch",
+         "y": "1624",
+         "s": "https://en.wikipedia.org/wiki/Planisphere",
+         "v": [],
+         "dt": "",
+         "g": "Early modern (1500–1800)",
+         "role": "origin"
+        },
+        {
+         "n": "Philips' Planisphere",
+         "a": "",
+         "d": "Rotating star chart sold by Philips, shown in the Wikipedia article.",
+         "mk": "Philips",
+         "y": "c. 1900",
+         "s": "https://en.wikipedia.org/wiki/Planisphere",
+         "v": [],
+         "dt": "",
+         "g": "Modern (from 1800)"
         }
        ],
        "tt": [
@@ -10740,7 +10935,7 @@
         ]
        ],
        "nl": "One entry is a named instrument from Wikipedia's List of astronomical instruments; makers' pieces and replicas are versions.",
-       "sel": "Every historic instrument in Wikipedia's List of astronomical instruments, grouped by the period of first use; modern detectors, space and electronic items in that list (CCD, CMOS, bolometer, photometer, spectrometer, interferometer, space telescope, computers) are out of scope here. Wikipedia's historical-instruments list could not be fetched (404).",
+       "sel": "Named planispheres in the Wikipedia article Planisphere (12 listed; Ptolemy's and Mercator's planisphaerium are maps, not star charts, and the online and printable tools are software, so out of scope).",
        "xg": "by period"
       },
       {

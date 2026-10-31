@@ -20,3 +20,4 @@ step18: sail10.tsv (OFFSET 1433 to Swan 431). nread.txt=1583. Next OFFSET 1583
 step19: sail11.tsv + dufour.txt written; windows done to end (1892 English-labelled rows; rest of tail = French windsurf/board names, left to E2). Next: add Dufour builder to build.py, then aircraft makers
 step20: Wikidata makers: Bell/Aviat/Extra/Van's/Slingsby/Cameron/AutoGyro/DG/LAK/Mooney labels empty; used Wikipedia pages Aviat, CubCrafters, DA62, P2012, Vans, Extra, Slingsby, Cameron (data in conversation). Next: jets (Wikidata), then data_air2.py + air.py extension + finalize.py
 step21: data_air2.py written (new entries, vers, slingsby). Next: extend air.py, finalize.py (re-apply Swift Trawler, sel fixes, DJI role), rerun, validate, report
+step22: finalize.py created; pipeline = build.py air.py assemble.py finalize.py. Remaining: sanity check, report update
