@@ -48,6 +48,19 @@ for n,y,q in A.BARON_V: addv(br,n,y,'Wikidata item '+q,mk='Beechcraft')
 j3=ent('Single-engine piston airplane','Piper J-3 Cub'); j3['v']=[v for v in j3['v'] if v['n']!='PA-18 Super Cub']
 mo=ent('Single-engine piston airplane','Mooney M20'); mo['s']=PAGES['Mooney']
 for n,y,d in A.MOONEY_M20: addv(mo,n,y,d,mk='Mooney')
+import data_air2 as A2
+def kentry(kn,name,y,mk,src,d,vs):
+    k=kind(kn)
+    e={'n':name,'a':'','mk':mk,'y':y,'s':src,'v':[]}
+    if d: e['d']=d
+    for n,yy,dd in vs: addv(e,n,yy,dd,mk=mk)
+    return addx(k,e)
+for kn,name,y,mk,src,d,vs in A2.NEW: kentry(kn,name,y,mk,src,d,vs)
+for kn,en,vs in A2.VERS_ADD:
+    e=ent(kn,en)
+    for n,yy,dd in vs: addv(e,n,yy,dd,mk=e.get('mk',''))
+for n,y,d in A2.SLINGSBY: addx(kind('Glider'),{'n':n,'a':'','mk':'Slingsby Aviation','y':y,'s':WIKI+'Slingsby_Aviation','v':[],**({'d':d[0].upper()+d[1:]+'.'} if d else {})})
+for n,y,d in A2.SLINGSBY_AC: addx(kind('Single-engine piston airplane'),{'n':n,'a':'','mk':'Slingsby Aviation','y':y,'s':WIKI+'Slingsby_Aviation','v':[],**({'d':d[0].upper()+d[1:]+'.'} if d else {})})
 # gliders
 GL=kind('Glider'); MG=kind('Motor-glider')
 SC=WIKI+'Alexander_Schleicher_GmbH_%26_Co'; SH=WIKI+'Schempp-Hirth'

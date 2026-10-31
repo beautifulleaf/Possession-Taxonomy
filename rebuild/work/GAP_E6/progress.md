@@ -3,3 +3,5 @@ step1 plan: convert hobby-kind m to entries (mount, finder, focuser, barlow, bin
 step1 done (loose models converted/removed; 21 kinds' m removed as commodity SKUs)
 step2 fetched: Eyepiece, Binoculars(end), Telescope_mount, Orrery, Sundial(0-100k); applying via step2.py
 step3 fetched (15 fetches so far): sundial2, anemometer, hygrometer, barometer, raingauge, optical microscope, astrolabe, sextant, armillary, geiger; apply via step3.py
+step3 done (weather principles, microscopes types, historic additions)
+step4 fetched (21 fetches): sundial end, astrolabe end, night vision, seismometer, planisphere, celestial globe; apply step4.py

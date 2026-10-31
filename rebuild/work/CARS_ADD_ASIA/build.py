@@ -29,6 +29,8 @@ for fn in ['data1.txt','data2.txt','data3.txt']:
 def kind(d):
     x=d.lower()
     if re.search(r'pick|van\b|truck|bus\b|microvan|motorcycle|armou?red|military|robotaxi|weapon',x) and not re.search(r'minivan|mini-van',x): return None
+    if re.search(r'coup[eé](?: |-)?utility|coupe utility',x): return 'Utility coupé'
+    if 'sports utility from' in x: return 'NS'
     if 'off-road' in x or 'offroad' in x: return 'Off-roader'
     if 'kei car' in x and 'suv' not in x and 'microvan' not in x: return 'Kei car'
     if 'sports car' in x or 'sports sedan' in x or 'performance car' in x and 'luxury' not in x: return 'Sports car'
@@ -121,7 +123,8 @@ for g,t,d in rows:
     if kd is None: pk[g].append(t);continue
     if have(g,t): skipped[g]+=1;continue
     y=''
-    yrs=[int(a) for a in re.findall(r'(?<!\d)(1[89]\d\d|20[0-2]\d)(?!\d)',d)]
+    yrs=[]
+    if kd!='NS': yrs=[int(a) for a in re.findall(r'(?<!\d)(1[89]\d\d|20[0-2]\d)(?!\d)',d)]
     if yrs: y=str(min(yrs))
     if kd=='NS': kd='Car, body style not stated'; NSn[g]+=1
     kinds[kd].append(mk_entry(g,t,y,src.get(g,CAT+g.replace(' ','_')+'_vehicles'),d if kd!='Car, body style not stated' else ''))

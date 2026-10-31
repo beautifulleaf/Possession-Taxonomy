@@ -6765,6 +6765,39 @@
        "s": "https://www.microscope.com/education-center/buyers-guides/how-to-buy",
        "x": [
         {
+         "n": "Phase-contrast microscope",
+         "a": "",
+         "d": "Phase-contrast illumination images transparent samples such as live cells without staining.",
+         "mk": "Frits Zernike",
+         "y": "1953",
+         "s": "https://en.wikipedia.org/wiki/Optical_microscope",
+         "v": [],
+         "dt": "",
+         "g": "Types"
+        },
+        {
+         "n": "Epifluorescence microscope",
+         "a": "",
+         "d": "Illuminates fluorophore-containing samples through the objective and images the emitted light.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Optical_microscope",
+         "v": [],
+         "dt": "",
+         "g": "Types"
+        },
+        {
+         "n": "Student microscope",
+         "a": "",
+         "d": "Low-power instrument with simplified controls, for school use.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Optical_microscope",
+         "v": [],
+         "dt": "",
+         "g": "Types"
+        },
+        {
          "n": "Culpeper-type microscope",
          "a": "",
          "d": "Tripod-mounted compound microscope of the kind made by London instrument maker Edmund Culpeper.",
@@ -7419,6 +7452,17 @@
        "sel": "Microscope lines of the earlier pass; the Wikipedia article Microscope names only the types (optical, electron, scanning probe), so no whole list of lines exists.",
        "x": [
         {
+         "n": "Petrographic microscope",
+         "a": "",
+         "d": "Polarising microscope with a rotating stage and gypsum plate for studying minerals and crystals.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Optical_microscope",
+         "v": [],
+         "dt": "",
+         "g": "Types"
+        },
+        {
          "n": "Olympus BH-2 BHTP",
          "a": "",
          "d": "polarising microscope model from Olympus.",
@@ -7525,7 +7569,21 @@
           "Watch parts"
          ]
         ]
-       ]
+       ],
+       "x": [
+        {
+         "n": "Inverted microscope",
+         "a": "",
+         "d": "Views samples from below; used for liquid cell cultures and metallography.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Optical_microscope",
+         "v": [],
+         "dt": "",
+         "g": "Types"
+        }
+       ],
+       "nl": "One entry is a microscope type named in the Wikipedia article Optical microscope."
       },
       {
        "n": "Digital microscope",
@@ -7563,6 +7621,17 @@
        "nl": "One entry is a microscope line sold under its own name or a named historic model; models of the line are versions.",
        "sel": "Microscope lines of the earlier pass; the Wikipedia article Microscope names only the types (optical, electron, scanning probe), so no whole list of lines exists.",
        "x": [
+        {
+         "n": "USB microscope",
+         "a": "",
+         "d": "Low-power, webcam-like device with a macro lens that connects to a computer.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Optical_microscope",
+         "v": [],
+         "dt": "",
+         "g": "Types"
+        },
         {
          "n": "Euromex MacroZoom",
          "a": "",
@@ -8854,9 +8923,97 @@
          "reptile enclosure type"
         ]
        ],
-       "nl": "One entry is a weather instrument line or historic form sold or collected under its own name; models are versions.",
-       "sel": "Instrument types follow Wikipedia's List of weather instruments (thermometer, barometer, hygrometer, anemometer, pyranometer, rain gauge, wind vane, wind sock); lines are from the earlier pass.",
+       "nl": "One entry is a humidity-measuring principle named in the Wikipedia article Hygrometer or a hygrometer line sold under its own name.",
+       "sel": "Principles from the Wikipedia article Hygrometer (all home-relevant types; optical and spectroscopic laboratory types omitted), then maker lines from retailer pages.",
        "x": [
+        {
+         "n": "Hair tension hygrometer",
+         "a": "",
+         "d": "A tensioned human or animal hair changes length with humidity, and the change is magnified to a dial.",
+         "mk": "Horace Bénédict de Saussure",
+         "y": "1783",
+         "s": "https://en.wikipedia.org/wiki/Hygrometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Psychrometer",
+         "a": "",
+         "d": "Compares a dry thermometer with a moistened one; the temperature difference gives relative humidity.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hygrometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Sling psychrometer",
+         "a": "",
+         "d": "Thermometers on a handle are spun in free air until the readings settle.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hygrometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Assmann psychrometer",
+         "a": "",
+         "d": "A precise psychrometer with thermometers shielded in double metal tubes and a fan drawing air past them.",
+         "mk": "Adolph Richard Assmann",
+         "y": "late 19th century",
+         "s": "https://en.wikipedia.org/wiki/Hygrometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Metal-paper coil hygrometer",
+         "a": "",
+         "d": "A salt-impregnated paper strip on a metal coil moves a needle as it takes up moisture.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hygrometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Capacitive hygrometer",
+         "a": "",
+         "d": "Measures changes in the dielectric constant of a polymer or metal oxide; about 2 % accuracy when calibrated.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hygrometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Resistive hygrometer",
+         "a": "",
+         "d": "Measures changes in electrical resistance of salts or conductive polymers.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hygrometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Chilled-mirror dew point hygrometer",
+         "a": "",
+         "d": "Cools a mirror until condensation forms and detects it optically; a laboratory reference.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Hygrometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
         {
          "n": "TFA Dostmann Klima-Guard",
          "a": "",
@@ -8912,7 +9069,8 @@
          "dt": "",
          "g": "Maker lines"
         }
-       ]
+       ],
+       "xg": "principle, then maker lines"
       },
       {
        "n": "Anemometer",
@@ -8920,6 +9078,83 @@
        "d": "Instrument that measures wind speed.",
        "s": "https://datatec.eu/de/en/extech-45168cp",
        "x": [
+        {
+         "n": "Cup anemometer",
+         "a": "",
+         "d": "Hemispherical cups on horizontal arms spin a vertical shaft, and the rotation rate tracks wind speed.",
+         "mk": "John Thomas Romney Robinson",
+         "y": "1845",
+         "s": "https://en.wikipedia.org/wiki/Anemometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Plate anemometer",
+         "a": "",
+         "d": "Wind deflects a flat plate, and a spring or gauge measures the force.",
+         "mk": "Leon Battista Alberti",
+         "y": "1450",
+         "s": "https://en.wikipedia.org/wiki/Anemometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Tube anemometer",
+         "a": "",
+         "d": "Pressure openings facing the wind feed a gauge: Lind used a U-tube in 1775 and Dines a float recorder in 1892.",
+         "mk": "James Lind",
+         "y": "1775",
+         "s": "https://en.wikipedia.org/wiki/Anemometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Vane anemometer",
+         "a": "",
+         "d": "A propeller-like rotor on a horizontal axis, kept into the wind by a vane, counts revolutions to give speed.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Anemometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Hot-wire anemometer",
+         "a": "",
+         "d": "An electrically heated wire cools in airflow, and its resistance change indicates speed.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Anemometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Ultrasonic anemometer",
+         "a": "",
+         "d": "Sound pulses between transducer pairs give wind velocity from travel-time differences.",
+         "mk": "",
+         "y": "1950s",
+         "s": "https://en.wikipedia.org/wiki/Anemometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Ping-pong ball anemometer",
+         "a": "",
+         "d": "A ball on a string deflects with the wind, and the angle from vertical estimates speed.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Anemometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
         {
          "n": "Kestrel pocket wind meter",
          "a": "",
@@ -9058,8 +9293,9 @@
          ]
         ]
        ],
-       "nl": "One entry is a weather instrument line or historic form sold or collected under its own name; models are versions.",
-       "sel": "Instrument types follow Wikipedia's List of weather instruments (thermometer, barometer, hygrometer, anemometer, pyranometer, rain gauge, wind vane, wind sock); lines are from the earlier pass."
+       "nl": "One entry is a wind-measuring principle named in the Wikipedia article Anemometer or a handheld or station anemometer line sold under its own name.",
+       "sel": "Principles from the Wikipedia article Anemometer (13 types; all that a person can own are listed, the laser Doppler and acoustic-resonance types are laboratory only and omitted), then maker lines from retailer pages.",
+       "xg": "principle, then maker lines"
       },
       {
        "n": "Rain gauge",
@@ -9067,6 +9303,50 @@
        "d": "Instrument that collects and measures rainfall.",
        "s": "https://www.astroshop.eu/miscellaneous/weather-stations/44",
        "x": [
+        {
+         "n": "Standard rain gauge",
+         "a": "",
+         "d": "Funnel feeding a graduated inner cylinder: the UK copper gauge with a five-inch funnel (1863–1890) and the US eight-inch NWS gauge.",
+         "mk": "George James Symons",
+         "y": "1863",
+         "s": "https://en.wikipedia.org/wiki/Rain_gauge",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Tipping bucket rain gauge",
+         "a": "",
+         "d": "A balanced collector tips when full and triggers a switch, so rain can be logged electronically.",
+         "mk": "Christopher Wren",
+         "y": "1662",
+         "s": "https://en.wikipedia.org/wiki/Rain_gauge",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Cheugugi",
+         "a": "",
+         "d": "Korean standardised rain gauge of the Joseon dynasty.",
+         "mk": "Sejong the Great (reign)",
+         "y": "1441",
+         "s": "https://en.wikipedia.org/wiki/Rain_gauge",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Tianchi basin rain and snow gauge",
+         "a": "",
+         "d": "Song-dynasty device for measuring rain and snowfall.",
+         "mk": "Qin Jiushao",
+         "y": "1247",
+         "s": "https://en.wikipedia.org/wiki/Rain_gauge",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
         {
          "n": "CoCoRaHS 4-inch gauge",
          "a": "",
@@ -9136,8 +9416,9 @@
          ]
         ]
        ],
-       "nl": "One entry is a weather instrument line or historic form sold or collected under its own name; models are versions.",
-       "sel": "Instrument types follow Wikipedia's List of weather instruments (thermometer, barometer, hygrometer, anemometer, pyranometer, rain gauge, wind vane, wind sock); lines are from the earlier pass."
+       "nl": "One entry is a rain gauge design named in the Wikipedia article Rain gauge or a gauge line sold under its own name.",
+       "sel": "Designs from the Wikipedia article Rain gauge (10 named; the weighing, optical and acoustic types are professional and omitted), then maker lines.",
+       "xg": "principle, then maker lines"
       },
       {
        "n": "Sunshine recorder",
@@ -9261,6 +9542,39 @@
        "s": "https://en.wikipedia.org/wiki/Barometer",
        "x": [
         {
+         "n": "Mercury barometer",
+         "a": "",
+         "d": "A vertical glass tube closed at the top stands in a basin of mercury; air pressure supports the column.",
+         "mk": "Evangelista Torricelli",
+         "y": "1643",
+         "s": "https://en.wikipedia.org/wiki/Barometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "Fortin barometer",
+         "a": "",
+         "d": "A mercury barometer with an adjustable cistern whose zero level is set by a thumbscrew before reading.",
+         "mk": "Jean Nicolas Fortin",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Barometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
+         "n": "MEMS barometer",
+         "a": "",
+         "d": "Microelectromechanical pressure sensor used in weather stations, altimeters and smartphones.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Barometer",
+         "v": [],
+         "dt": "",
+         "g": "Principles"
+        },
+        {
          "n": "Stick barometer",
          "a": "",
          "d": "Upright mercury-tube barometer in a narrow case, the original form after Torricelli's 1643 experiment.",
@@ -9276,7 +9590,7 @@
           }
          ],
          "dt": "mahogany or oak case · cistern or siphon tube · vernier scale",
-         "g": "Maker lines"
+         "g": "Principles"
         },
         {
          "n": "Wheel barometer",
@@ -9294,13 +9608,13 @@
           }
          ],
          "dt": "banjo case · dial with weather words · often with thermometer and hygrometer",
-         "g": "Maker lines"
+         "g": "Principles"
         },
         {
          "n": "Aneroid barometer",
          "a": "",
          "d": "Barometer using a sealed metal capsule instead of liquid, invented by Lucien Vidi in 1844; the common household form.",
-         "mk": "",
+         "mk": "Lucien Vidi",
          "y": "1844",
          "s": "https://en.wikipedia.org/wiki/Barometer",
          "v": [
@@ -9324,7 +9638,7 @@
           }
          ],
          "dt": "brass or wood case · dial · ship's-wheel and porthole styles",
-         "g": "Maker lines"
+         "g": "Principles"
         },
         {
          "n": "Admiral FitzRoy barometer",
@@ -9342,7 +9656,7 @@
           }
          ],
          "dt": "oak case · inscribed weather rules",
-         "g": "Maker lines"
+         "g": "Principles"
         },
         {
          "n": "Kew pattern marine barometer",
@@ -9366,7 +9680,7 @@
           }
          ],
          "dt": "brass tube · iron cistern · gimbals · attached thermometer",
-         "g": "Maker lines"
+         "g": "Principles"
         },
         {
          "n": "Negretti & Zambra marine gun barometer",
@@ -9400,8 +9714,9 @@
          ]
         ]
        ],
-       "nl": "One entry is a weather instrument line or historic form sold or collected under its own name; models are versions.",
-       "sel": "Instrument types follow Wikipedia's List of weather instruments (thermometer, barometer, hygrometer, anemometer, pyranometer, rain gauge, wind vane, wind sock); lines are from the earlier pass."
+       "nl": "One entry is a barometer principle or historic pattern, or a named line sold under its own name.",
+       "sel": "Principles from the Wikipedia article Barometer (mercury, Fortin, aneroid, wheel, MEMS), patterns from the earlier pass, then maker lines.",
+       "xg": "principle, then maker lines"
       },
       {
        "n": "Barograph",
@@ -9524,6 +9839,51 @@
        "d": "Handheld detector that counts ionising radiation and shows a dose rate, used by hobbyists, collectors and preppers.",
        "s": "https://trueprepper.com/?p=3494",
        "x": [
+        {
+         "n": "Geiger–Müller tube",
+         "a": "",
+         "d": "Sealed gas-filled tube that detects alpha, beta and gamma radiation; the basis of the Geiger counter.",
+         "mk": "Hans Geiger",
+         "y": "1928",
+         "s": "https://en.wikipedia.org/wiki/Geiger_counter",
+         "v": [],
+         "dt": "",
+         "g": "Tubes",
+         "role": "origin"
+        },
+        {
+         "n": "End-window tube",
+         "a": "",
+         "d": "Tube with a mica window for alpha and low-energy beta particles.",
+         "mk": "",
+         "y": "1930s",
+         "s": "https://en.wikipedia.org/wiki/Geiger_counter",
+         "v": [],
+         "dt": "",
+         "g": "Tubes"
+        },
+        {
+         "n": "Pancake probe",
+         "a": "",
+         "d": "Large-area tube for quick checks of surface contamination.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Geiger_counter",
+         "v": [],
+         "dt": "",
+         "g": "Tubes"
+        },
+        {
+         "n": "Thick-walled energy-compensated tube",
+         "a": "",
+         "d": "Steel tube with filter rings for gamma detection.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Geiger_counter",
+         "v": [],
+         "dt": "",
+         "g": "Tubes"
+        },
         {
          "n": "GQ GMC",
          "a": "",
@@ -9672,8 +10032,9 @@
          ]
         ]
        ],
-       "nl": "One entry is a weather instrument line or historic form sold or collected under its own name; models are versions.",
-       "sel": "Instrument types follow Wikipedia's List of weather instruments (thermometer, barometer, hygrometer, anemometer, pyranometer, rain gauge, wind vane, wind sock); lines are from the earlier pass."
+       "nl": "One entry is a Geiger counter tube type named in the Wikipedia article Geiger counter or a handheld counter line sold under its own name.",
+       "sel": "Tube types from the Wikipedia article Geiger counter (Geiger–Müller, end-window, pancake, thick-walled), then maker lines; the article names no consumer models.",
+       "xg": "tube, then maker lines"
       },
       {
        "n": "Home seismometer",
@@ -10016,6 +10377,61 @@
          "v": [],
          "dt": "",
          "g": "Ancient (to c. 500)"
+        },
+        {
+         "n": "Zhang Heng's armillary sphere",
+         "a": "",
+         "d": "Complete Han sphere with horizon and meridian rings, also water powered.",
+         "mk": "Zhang Heng",
+         "y": "125",
+         "s": "https://en.wikipedia.org/wiki/Armillary_sphere",
+         "v": [],
+         "dt": "",
+         "g": "Ancient (to c. 500)"
+        },
+        {
+         "n": "Su Song's clock tower armillary",
+         "a": "",
+         "d": "Mechanically rotated armillary crowning a water-powered astronomical clock tower.",
+         "mk": "Su Song",
+         "y": "1092",
+         "s": "https://en.wikipedia.org/wiki/Armillary_sphere",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)"
+        },
+        {
+         "n": "Honcheonsigye",
+         "a": "",
+         "d": "Korean armillary sphere driven by a clock mechanism; the only surviving Joseon astronomical clock.",
+         "mk": "Song I-yong",
+         "y": "1669",
+         "s": "https://en.wikipedia.org/wiki/Armillary_sphere",
+         "v": [],
+         "dt": "",
+         "g": "Early modern (1500–1800)"
+        },
+        {
+         "n": "Bürgi–Eisenhoit armillary sphere with clock",
+         "a": "",
+         "d": "Armillary sphere with an astronomical clock made in Kassel, now in the Nordiska Museet, Stockholm.",
+         "mk": "Jost Bürgi",
+         "y": "1585",
+         "s": "https://en.wikipedia.org/wiki/Armillary_sphere",
+         "v": [],
+         "dt": "",
+         "g": "Early modern (1500–1800)"
+        },
+        {
+         "n": "Tycho Brahe's armillary spheres",
+         "a": "",
+         "d": "Three large instruments for precise star and planet positions, described in 1598.",
+         "mk": "Tycho Brahe",
+         "y": "1598",
+         "s": "https://en.wikipedia.org/wiki/Armillary_sphere",
+         "v": [],
+         "dt": "",
+         "g": "Early modern (1500–1800)"
         }
        ]
       },
@@ -10407,6 +10823,83 @@
          "v": [],
          "dt": "",
          "g": "Medieval (500–1500)"
+        },
+        {
+         "n": "Spherical astrolabe",
+         "a": "",
+         "d": "Variant combining features of the astrolabe and armillary sphere; first described by al-Nayrizi.",
+         "mk": "Al-Nayrizi",
+         "y": "fl. 892–902",
+         "s": "https://en.wikipedia.org/wiki/Astrolabe",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)"
+        },
+        {
+         "n": "Linear astrolabe",
+         "a": "",
+         "d": "Wooden rod with graduated markings and a plumb line, the staff of al-Tusi.",
+         "mk": "Sharaf al-Din al-Tusi",
+         "y": "12th century",
+         "s": "https://en.wikipedia.org/wiki/Astrolabe",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)"
+        },
+        {
+         "n": "Geared mechanical astrolabe",
+         "a": "",
+         "d": "Early astrolabe driven by gears.",
+         "mk": "Abi Bakr of Isfahan",
+         "y": "1235",
+         "s": "https://en.wikipedia.org/wiki/Astrolabe",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)"
+        },
+        {
+         "n": "Balesilha",
+         "a": "",
+         "d": "Simplified astrolabe used by sailors for latitude at sea, promoted by Prince Henry.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Astrolabe",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)"
+        },
+        {
+         "n": "Jean Fusoris astrolabe",
+         "a": "",
+         "d": "Planispheric astrolabes made in Paris; thirteen survive.",
+         "mk": "Jean Fusoris",
+         "y": "1400",
+         "s": "https://en.wikipedia.org/wiki/Astrolabe",
+         "v": [],
+         "dt": "",
+         "g": "Medieval (500–1500)"
+        },
+        {
+         "n": "Hartmann astrolabes",
+         "a": "",
+         "d": "Four identical astrolabes, among the earliest evidence of batch production by division of labour.",
+         "mk": "Georg Hartmann",
+         "y": "16th century",
+         "s": "https://en.wikipedia.org/wiki/Astrolabe",
+         "v": [],
+         "dt": "",
+         "g": "Early modern (1500–1800)"
+        },
+        {
+         "n": "Astrolabe watch",
+         "a": "",
+         "d": "Wristwatch with an astrolabe display, designed with Ulysse Nardin.",
+         "mk": "Ludwig Oechslin",
+         "y": "1985",
+         "s": "https://en.wikipedia.org/wiki/Astrolabe",
+         "v": [],
+         "dt": "",
+         "g": "Modern (from 1800)"
         }
        ],
        "tt": [
@@ -10427,7 +10920,7 @@
         ]
        ],
        "nl": "One entry is a named instrument from Wikipedia's List of astronomical instruments; makers' pieces and replicas are versions.",
-       "sel": "Every historic instrument in Wikipedia's List of astronomical instruments, grouped by the period of first use; modern detectors, space and electronic items in that list (CCD, CMOS, bolometer, photometer, spectrometer, interferometer, space telescope, computers) are out of scope here. Wikipedia's historical-instruments list could not be fetched (404).",
+       "sel": "Astrolabe types and makers named in the first 100,000 of 147,000 characters of the Wikipedia article Astrolabe; the remaining characters are not read.",
        "xg": "by period"
       },
       {
@@ -10645,6 +11138,40 @@
          ],
          "dt": "",
          "g": "Early modern (1500–1800)"
+        },
+        {
+         "n": "Hadley–Godfrey sextant",
+         "a": "",
+         "d": "Reflecting sextant first implemented around 1731 by John Hadley and Thomas Godfrey.",
+         "mk": "John Hadley",
+         "y": "c. 1731",
+         "s": "https://en.wikipedia.org/wiki/Sextant",
+         "v": [],
+         "dt": "",
+         "g": "Early modern (1500–1800)",
+         "role": "origin"
+        },
+        {
+         "n": "Quintant",
+         "a": "",
+         "d": "Reflecting instrument spanning about a fifth of a circle (72 degrees) with a scale to 140 degrees.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sextant",
+         "v": [],
+         "dt": "",
+         "g": "Early modern (1500–1800)"
+        },
+        {
+         "n": "Aeronautical sextant",
+         "a": "",
+         "d": "Sextant modified for air navigation, with an artificial horizon.",
+         "mk": "Carlos Viegas Gago Coutinho",
+         "y": "1922",
+         "s": "https://en.wikipedia.org/wiki/Sextant",
+         "v": [],
+         "dt": "",
+         "g": "Modern (from 1800)"
         }
        ],
        "tt": [
@@ -10824,7 +11351,7 @@
        "d": "Time-telling devices that use a shadow, from the scaphe to the garden dial.",
        "s": "https://en.wikipedia.org/wiki/List_of_astronomical_instruments",
        "nl": "One entry is a sundial type named in the Wikipedia article Sundial.",
-       "sel": "Sundial types described in the first 100,000 of 214,000 characters of the Wikipedia article Sundial; the remaining portable types (ring, capuchin, navicula, diptych) are read in a later window.",
+       "sel": "Sundial types in the Wikipedia article Sundial, read to character 200,000 of 214,193; the last window (200,000 onward) holds notes and references. Covers 33 of 33 named types; shadow-clock and scaphe origin items kept.",
        "x": [
         {
          "n": "Sundial",
@@ -10835,7 +11362,7 @@
          "s": "https://en.wikipedia.org/wiki/List_of_astronomical_instruments",
          "v": [],
          "dt": "",
-         "g": "Ancient (to c. 500)"
+         "g": "Fixed dials"
         },
         {
          "n": "Gnomon",
@@ -10846,7 +11373,7 @@
          "s": "https://en.wikipedia.org/wiki/List_of_astronomical_instruments",
          "v": [],
          "dt": "",
-         "g": "Ancient (to c. 500)"
+         "g": "Fixed dials"
         },
         {
          "n": "Scaphe",
@@ -10857,7 +11384,7 @@
          "s": "https://en.wikipedia.org/wiki/List_of_astronomical_instruments",
          "v": [],
          "dt": "",
-         "g": "Ancient (to c. 500)"
+         "g": "Fixed dials"
         },
         {
          "n": "Equatorial sundial",
@@ -10868,7 +11395,7 @@
          "s": "https://en.wikipedia.org/wiki/Sundial",
          "v": [],
          "dt": "",
-         "g": "Dial layouts"
+         "g": "Fixed dials"
         },
         {
          "n": "Horizontal sundial",
@@ -10879,7 +11406,7 @@
          "s": "https://en.wikipedia.org/wiki/Sundial",
          "v": [],
          "dt": "",
-         "g": "Dial layouts"
+         "g": "Fixed dials"
         },
         {
          "n": "Vertical sundial",
@@ -10890,7 +11417,7 @@
          "s": "https://en.wikipedia.org/wiki/Sundial",
          "v": [],
          "dt": "",
-         "g": "Dial layouts"
+         "g": "Fixed dials"
         },
         {
          "n": "Polar sundial",
@@ -10901,7 +11428,7 @@
          "s": "https://en.wikipedia.org/wiki/Sundial",
          "v": [],
          "dt": "",
-         "g": "Dial layouts"
+         "g": "Fixed dials"
         },
         {
          "n": "Analemmatic sundial",
@@ -10912,7 +11439,7 @@
          "s": "https://en.wikipedia.org/wiki/Sundial",
          "v": [],
          "dt": "",
-         "g": "Dial layouts"
+         "g": "Fixed dials"
         },
         {
          "n": "Heliochronometer",
@@ -10923,7 +11450,7 @@
          "s": "https://en.wikipedia.org/wiki/Sundial",
          "v": [],
          "dt": "",
-         "g": "Early modern (1500–1800)"
+         "g": "Fixed dials"
         },
         {
          "n": "Sunquest sundial",
@@ -10934,7 +11461,7 @@
          "s": "https://en.wikipedia.org/wiki/Sundial",
          "v": [],
          "dt": "",
-         "g": "Modern (from 1800)"
+         "g": "Fixed dials"
         },
         {
          "n": "Nodus (spider-web) dial",
@@ -10945,7 +11472,7 @@
          "s": "https://en.wikipedia.org/wiki/Sundial",
          "v": [],
          "dt": "",
-         "g": "Dial layouts"
+         "g": "Fixed dials"
         },
         {
          "n": "Canonical sundial",
@@ -10956,7 +11483,7 @@
          "s": "https://en.wikipedia.org/wiki/Sundial",
          "v": [],
          "dt": "",
-         "g": "Medieval (500–1500)"
+         "g": "Fixed dials"
         },
         {
          "n": "Shadow clock",
@@ -10967,7 +11494,139 @@
          "s": "https://en.wikipedia.org/wiki/Sundial",
          "v": [],
          "dt": "",
-         "g": "Ancient (to c. 500)"
+         "g": "Fixed dials"
+        },
+        {
+         "n": "Ring dial",
+         "a": "",
+         "d": "Ring hung vertically and turned to the sun; light through a small hole falls on hour curves inside.",
+         "mk": "William Oughtred",
+         "y": "c. 1600",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Portable dials"
+        },
+        {
+         "n": "Capuchin dial",
+         "a": "",
+         "d": "Altitude dial: a card aligned edge-on to the sun with a bead on a weighted string marking the time.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Portable dials"
+        },
+        {
+         "n": "Navicula",
+         "a": "",
+         "d": "Altitude dial shaped like a small ship, with a plumb line on a sliding cursor.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Portable dials"
+        },
+        {
+         "n": "Diptych sundial",
+         "a": "",
+         "d": "Two hinged flat faces that fold into a pocket box, with a string gnomon.",
+         "mk": "",
+         "y": "c. 1612",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Portable dials"
+        },
+        {
+         "n": "Shepherd's dial",
+         "a": "",
+         "d": "Portable cylindrical dial hung from a string with a knife-like gnomon twisted to correct for the equation of time.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Portable dials"
+        },
+        {
+         "n": "Sundial cannon",
+         "a": "",
+         "d": "Novelty dial where a lens focuses noon sunlight onto a miniature cannon pan, igniting gunpowder.",
+         "mk": "",
+         "y": "late 18th to early 19th century",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Novelty and modern dials"
+        },
+        {
+         "n": "Multiface dial",
+         "a": "",
+         "d": "Sundials on every face of a polyhedron, usually a cube.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Novelty and modern dials"
+        },
+        {
+         "n": "Bifilar sundial",
+         "a": "",
+         "d": "Two non-intersecting threads parallel to the dial; the crossing of their shadows gives local solar time.",
+         "mk": "Hugo Michnik",
+         "y": "1922",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Novelty and modern dials"
+        },
+        {
+         "n": "Benoy dial",
+         "a": "",
+         "d": "Passes sunlight through a thin slit and reflects it into a sheet of light instead of a shadow.",
+         "mk": "Walter Gordon Benoy",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Novelty and modern dials"
+        },
+        {
+         "n": "Globe dial",
+         "a": "",
+         "d": "Sphere aligned with the Earth's axis with a spherical vane; time is read from the sun's azimuth.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Novelty and modern dials"
+        },
+        {
+         "n": "Digital sundial",
+         "a": "",
+         "d": "Sunlight strikes numerals to display the current time.",
+         "mk": "",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Novelty and modern dials"
+        },
+        {
+         "n": "Reflection sundial",
+         "a": "",
+         "d": "Small mirror on a south-facing window sill casts a spot of light onto the ceiling.",
+         "mk": "Isaac Newton",
+         "y": "",
+         "s": "https://en.wikipedia.org/wiki/Sundial",
+         "v": [],
+         "dt": "",
+         "g": "Novelty and modern dials"
         }
        ],
        "tt": [
@@ -10988,7 +11647,7 @@
          ]
         ]
        ],
-       "xg": "period or dial layout"
+       "xg": "fixed dials, portable dials, novelty and modern dials"
       },
       {
        "n": "Early navigation aid",
