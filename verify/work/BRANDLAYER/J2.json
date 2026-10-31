@@ -2,8 +2,143 @@
  "cat": "J2",
  "status": "partial",
  "brand_led": true,
- "sweeps": [],
- "regions": [],
+ "sweeps": [
+  {
+   "axis": "kind",
+   "item": "Tinned & jarred fish (sardines)",
+   "queries": [
+    "best canned sardines brands taste test",
+    "TasteAtlas canned sardines"
+   ],
+   "found": 10,
+   "note": "Serious Eats and Food & Wine tasting pages located in search but not yet fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Caviar & roe",
+   "queries": [
+    "caviar brands ranking Spain"
+   ],
+   "found": 3,
+   "note": "other caviar houses (Kaluga Queen, Caviar Kaspia, Balik) not yet fetched"
+  },
+  {
+   "axis": "kind",
+   "item": "Smoked fish",
+   "queries": [
+    "Arbroath smokies producers",
+    "Great Taste smoked salmon"
+   ],
+   "found": 1,
+   "note": "Great Taste lists located only in search excerpts"
+  },
+  {
+   "axis": "kind",
+   "item": "Salted, dried & fermented fish",
+   "queries": [
+    "colatura di alici Cetara producers",
+    "katsuobushi makers",
+    "Lofoten stockfish PGI producers"
+   ],
+   "found": 6,
+   "note": "Lofoten producer list not fetched"
+  },
+  {
+   "axis": "region",
+   "item": "North America",
+   "queries": [
+    "Good Food Awards fish winners"
+   ],
+   "found": 30,
+   "note": "2026 only"
+  },
+  {
+   "axis": "region",
+   "item": "Southern Europe",
+   "queries": [
+    "canned sardines TasteAtlas",
+    "colatura Cetara"
+   ],
+   "found": 11,
+   "note": ""
+  },
+  {
+   "axis": "region",
+   "item": "Northern Europe",
+   "queries": [
+    "Lofoten stockfish producers",
+    "List of seafood companies"
+   ],
+   "found": 10,
+   "note": "Norwegian salmon groups from Wikipedia list"
+  },
+  {
+   "axis": "region",
+   "item": "East Asia",
+   "queries": [
+    "katsuobushi makers"
+   ],
+   "found": 6,
+   "note": "Korea jeotgal, China not fetched"
+  }
+ ],
+ "regions": [
+  {
+   "region": "Scotland (Arbroath, Angus)",
+   "speciality": "Arbroath Smokies hot-smoked haddock, PGI",
+   "src": "https://www.scotsman.com/lifestyle/food-and-drink/producers/scotlands-larder-iain-r-spinks-original-smokies-from-arbroath-8981913",
+   "brands": [
+    "Iain R. Spink"
+   ]
+  },
+  {
+   "region": "Italy (Cetara, Amalfi coast)",
+   "speciality": "Colatura di alici di Cetara, PDO fermented anchovy liquor",
+   "src": "https://splendido-magazin.de/products/colatura-di-alici",
+   "brands": [
+    "Armatore"
+   ]
+  },
+  {
+   "region": "Japan (Makurazaki, Kagoshima; Ehime)",
+   "speciality": "katsuobushi dried bonito; Makurazaki described as Japan's best regional producer",
+   "src": "https://oishii-desu.com/2021/02/22/all-about-katsuobushi-bonito-flakes-and-which-japanese-brands-to-buy",
+   "brands": [
+    "Yamahide",
+    "Kaneso",
+    "Marutomo",
+    "Ninben",
+    "Tetsujin",
+    "Yamaki (bonito flakes)"
+   ]
+  },
+  {
+   "region": "United States (Pacific Northwest, Alaska, California)",
+   "speciality": "craft smoked salmon, albacore, caviar, juried Good Food Awards",
+   "src": "https://goodfoodfdn.org/awards/winners/fish",
+   "brands": [
+    "Lummi Island Wild Co-op",
+    "Tsar Nicoulai",
+    "Sterling Caviar",
+    "Wildfish Cannery",
+    "St. Jude Tuna"
+   ]
+  },
+  {
+   "region": "Spain / Portugal (Galicia, Cantabria, Matosinhos)",
+   "speciality": "hand-packed conservas",
+   "src": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "brands": [
+    "Real Conservera Española",
+    "Nuri",
+    "Ramón Peña",
+    "Los Peperetes",
+    "José Gourmet",
+    "Conservas Zallo",
+    "Matiz"
+   ]
+  }
+ ],
  "sources": [
   {
    "url": "https://goodfoodfdn.org/awards/winners/fish",
@@ -14,6 +149,66 @@
    "new_names": 30,
    "status": "partial",
    "note": "year pages to fetch"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "title": "Wikipedia List of seafood companies",
+   "kind": "encyclopedia",
+   "years": "n/a",
+   "names_on_page": 55,
+   "new_names": 30,
+   "status": "done",
+   "note": "corporate list"
+  },
+  {
+   "url": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "title": "TasteAtlas 22 Best Canned Sardines",
+   "kind": "ranking",
+   "years": "2026",
+   "names_on_page": 22,
+   "new_names": 10,
+   "status": "done",
+   "note": "audience ratings=standing; confirmed Nuri, Ramon Pena, Los Peperetes, Jose Gourmet, La Belle-Iloise, Fishwife, Patagonia Provisions"
+  },
+  {
+   "url": "https://bacalalo.com/en/blogs/bacalao/marcas-caviar-espana-ranking-comparativa",
+   "title": "Bacalalo: Caviar brands in Spain ranking (2026, seller's own ranking)",
+   "kind": "retailer",
+   "years": "2026",
+   "names_on_page": 8,
+   "new_names": 3,
+   "status": "done",
+   "note": "Riofrio, Petrossian, Kaviari already known; seller-compiled so existence/standing only"
+  },
+  {
+   "url": "https://www.scotsman.com/lifestyle/food-and-drink/producers/scotlands-larder-iain-r-spinks-original-smokies-from-arbroath-8981913",
+   "title": "Scotsman Scotland's Larder: Iain R. Spink's Original Smokies",
+   "kind": "retailer",
+   "years": "2021",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "fetched page thin (title only); GOV.UK PGI register pages for Arbroath Smokies seen in search only"
+  },
+  {
+   "url": "https://splendido-magazin.de/products/colatura-di-alici",
+   "title": "Splendido: Armatore Colatura di Alici Riserva",
+   "kind": "retailer",
+   "years": "n/a",
+   "names_on_page": 1,
+   "new_names": 1,
+   "status": "done",
+   "note": "specialist shop describes Armatore as top producer, Della Monica family since 1973"
+  },
+  {
+   "url": "https://oishii-desu.com/2021/02/22/all-about-katsuobushi-bonito-flakes-and-which-japanese-brands-to-buy",
+   "title": "Oishii Desu: katsuobushi brands guide",
+   "kind": "retailer",
+   "years": "2021",
+   "names_on_page": 7,
+   "new_names": 6,
+   "status": "done",
+   "note": "blog, existence/standing"
   }
  ],
  "brands": [
@@ -287,6 +482,466 @@
    "says": "Good Food Award 2026: California rainbow trout",
    "country": "US",
    "dept": "trout",
+   "already": false
+  },
+  {
+   "n": "Clean Seas Seafood",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Australia",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Huon Aquaculture",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Australia",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Tassal",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Australia",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Clearwater Seafoods",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Canada",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Clover Leaf Seafoods",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Canada",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Connors Brothers",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Canada",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "High Liner Foods",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Canada",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Royal Greenland",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Greenland",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Pacific Andes",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Hong Kong",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Domstein",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Norway",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Grieg Seafood",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Norway",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Lerøy",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Norway",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "SalMar",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Norway",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Mowi",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Norway",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Nergård",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Norway",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Norway Pelagic",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Norway",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Pescanova",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Spain",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Ross Group",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "UK",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Shippam's",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "UK",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Whitby Seafoods",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "UK",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Young's Seafood",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "UK",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Adams Oyster Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "US",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "American Seafoods",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "US",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Handy Seafood",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "US",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Pacific Seafood",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "US",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Rappahannock Oyster Co.",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "US",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Taylor Shellfish Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "US",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Trident Seafoods",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "US",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Ward Oyster Company",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "US",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Cuulong Fish",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_seafood_companies",
+   "says": "listed in Wikipedia List of seafood companies",
+   "country": "Vietnam",
+   "dept": "seafood company",
+   "already": false
+  },
+  {
+   "n": "Real Conservera Española",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "says": "listed in TasteAtlas best canned sardines (audience-rated)",
+   "country": "Spain",
+   "dept": "tinned fish",
+   "already": false
+  },
+  {
+   "n": "Giribizzi",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "says": "TasteAtlas canned sardines #3; Great Taste 3 stars 2023 (per TasteAtlas)",
+   "country": "UK",
+   "dept": "tinned fish",
+   "already": false
+  },
+  {
+   "n": "Conservas Zallo",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "says": "Bermeo, since 1926; listed TasteAtlas canned sardines; credited World's 101 Best Canned Products Top 10 anchovies 2024",
+   "country": "Spain",
+   "dept": "tinned fish",
+   "already": false
+  },
+  {
+   "n": "Conservas La Brújula",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "says": "listed in TasteAtlas best canned sardines (audience-rated)",
+   "country": "Spain",
+   "dept": "tinned fish",
+   "already": false
+  },
+  {
+   "n": "Conservas Braseadas Güeyu Mar",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "says": "listed in TasteAtlas best canned sardines (audience-rated)",
+   "country": "Spain",
+   "dept": "tinned fish",
+   "already": false
+  },
+  {
+   "n": "Fangst",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "says": "TasteAtlas #10; credited World's 101 Best Canned Products Top 10 seafood 2024",
+   "country": "Denmark",
+   "dept": "tinned fish",
+   "already": false
+  },
+  {
+   "n": "Conservas Tito",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "says": "listed in TasteAtlas best canned sardines (audience-rated)",
+   "country": "Spain",
+   "dept": "tinned fish",
+   "already": false
+  },
+  {
+   "n": "Bela",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "says": "listed in TasteAtlas best canned sardines (audience-rated)",
+   "country": "US",
+   "dept": "tinned fish",
+   "already": false
+  },
+  {
+   "n": "Matiz",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "says": "listed in TasteAtlas best canned sardines (audience-rated)",
+   "country": "Spain",
+   "dept": "tinned fish",
+   "already": false
+  },
+  {
+   "n": "Miss Can",
+   "layer": "cultural",
+   "src": "https://www.tasteatlas.com/best-rated-canned-sardines-in-the-world",
+   "says": "listed in TasteAtlas best canned sardines (audience-rated)",
+   "country": "Spain",
+   "dept": "tinned fish",
+   "already": false
+  },
+  {
+   "n": "Lemberg Kaviar",
+   "layer": "cultural",
+   "src": "https://bacalalo.com/en/blogs/bacalao/marcas-caviar-espana-ranking-comparativa",
+   "says": "ranked #2 in Bacalalo's Spanish caviar brand ranking (seller-compiled)",
+   "country": "Germany",
+   "dept": "caviar",
+   "already": false
+  },
+  {
+   "n": "Nacarii",
+   "layer": "cultural",
+   "src": "https://bacalalo.com/en/blogs/bacalao/marcas-caviar-espana-ranking-comparativa",
+   "says": "Extremadura Acipenser naccarii caviar producer named in ranking",
+   "country": "Spain",
+   "dept": "caviar",
+   "already": false
+  },
+  {
+   "n": "Bacalalo",
+   "layer": "cultural",
+   "src": "https://bacalalo.com/en/blogs/bacalao/marcas-caviar-espana-ranking-comparativa",
+   "says": "Mercat del Ninot Barcelona gourmet seafood/cod seller since 1990 (self-described)",
+   "country": "Spain",
+   "dept": "caviar",
+   "already": false
+  },
+  {
+   "n": "Iain R. Spink",
+   "layer": "cultural",
+   "src": "https://www.scotsman.com/lifestyle/food-and-drink/producers/scotlands-larder-iain-r-spinks-original-smokies-from-arbroath-8981913",
+   "says": "Arbroath smokie producer profiled in Scotsman's Scotland's Larder",
+   "country": "UK",
+   "dept": "smoked fish",
+   "already": false
+  },
+  {
+   "n": "Armatore",
+   "layer": "premium",
+   "src": "https://splendido-magazin.de/products/colatura-di-alici",
+   "says": "described by retailer as top producer of colatura di alici, Cetara, family Della Monica, 4th generation since 1973",
+   "country": "Italy",
+   "dept": "fermented fish",
+   "already": false
+  },
+  {
+   "n": "Yamahide",
+   "layer": "cultural",
+   "src": "https://oishii-desu.com/2021/02/22/all-about-katsuobushi-bonito-flakes-and-which-japanese-brands-to-buy",
+   "says": "named in a blog guide to katsuobushi brands",
+   "country": "Japan",
+   "dept": "dried fish (katsuobushi)",
+   "already": false
+  },
+  {
+   "n": "Kaneso",
+   "layer": "cultural",
+   "src": "https://oishii-desu.com/2021/02/22/all-about-katsuobushi-bonito-flakes-and-which-japanese-brands-to-buy",
+   "says": "named as most popular katsuobushi on Amazon.com (blog, standing)",
+   "country": "Japan",
+   "dept": "dried fish (katsuobushi)",
+   "already": false
+  },
+  {
+   "n": "Marutomo",
+   "layer": "cultural",
+   "src": "https://oishii-desu.com/2021/02/22/all-about-katsuobushi-bonito-flakes-and-which-japanese-brands-to-buy",
+   "says": "named in a blog guide to katsuobushi brands",
+   "country": "Japan",
+   "dept": "dried fish (katsuobushi)",
+   "already": false
+  },
+  {
+   "n": "Ninben",
+   "layer": "cultural",
+   "src": "https://oishii-desu.com/2021/02/22/all-about-katsuobushi-bonito-flakes-and-which-japanese-brands-to-buy",
+   "says": "katsuobushi house established 1699 per blog",
+   "country": "Japan",
+   "dept": "dried fish (katsuobushi)",
+   "already": false
+  },
+  {
+   "n": "Tetsujin",
+   "layer": "cultural",
+   "src": "https://oishii-desu.com/2021/02/22/all-about-katsuobushi-bonito-flakes-and-which-japanese-brands-to-buy",
+   "says": "named in a blog guide to katsuobushi brands",
+   "country": "Japan",
+   "dept": "dried fish (katsuobushi)",
+   "already": false
+  },
+  {
+   "n": "Yamaki (bonito flakes)",
+   "layer": "cultural",
+   "src": "https://oishii-desu.com/2021/02/22/all-about-katsuobushi-bonito-flakes-and-which-japanese-brands-to-buy",
+   "says": "Yamaki founded 1917 Ehime, bonito flakes and dashi, Yamaki USA Forest Grove; register has a Yamaki under E3, likely different company",
+   "country": "Japan",
+   "dept": "dried fish",
+   "homonym": true,
    "already": false
   }
  ]
