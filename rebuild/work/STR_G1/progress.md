@@ -3,3 +3,4 @@ step1 fetched refs: motorcycles, boats, bicycles, car body, tram, unicycle (sour
 step done dept Cars
 step done dept Motorcycles & scooters
 step done dept Motorcycle riding gear
+step done dept Bicycles

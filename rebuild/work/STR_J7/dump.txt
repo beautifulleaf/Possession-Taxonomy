@@ -1,0 +1,248 @@
+## Red wine
+ - Classic red grapes
+    Pinot Noir |T: ['Grand cru', 'Premier cru', 'Village', 'Regional (Bourgogne)']
+    Tempranillo |T: ['Joven', 'Crianza', 'Reserva', 'Gran Reserva']
+ - Red blends
+    Bordeaux red blend |T: ['Cabernet-led (Left Bank)', 'Merlot-led (Right Bank)', 'Grand vin', 'Second wine']
+    Red blend |T: ['Grenache–Syrah–Mourvèdre (GSM)', 'Sangiovese–Cabernet', 'Tempranillo-led', 'Field blend', 'Cabernet–Carmenère']
+ - More red grapes
+    Carmenère |T: ['varietal', 'Carmenère-led blend']
+    Pinotage |T: ['varietal', 'rosé', 'white Pinotage', 'fortified', 'sparkling']
+    Tannat |T: ['varietal', 'blend']
+    Petit Verdot |T: ['varietal', 'blending component']
+    Blaufränkisch |T: ['Classic (unoaked)', 'Reserve (oaked)', 'blend']
+    País |T: ['table wine', 'pipeño-style jug wine', 'fortified (Angelica)']
+    Plavac Mali |T: ['varietal', 'Opol rosé']
+    Saperavi |T: ['dry', 'semi-sweet', 'qvevri']
+    Xinomavro |T: ['dry red', 'rosé', 'blend with Negoska']
+ - Italian & Iberian red grapes
+    Barbera |T: ['normale', 'Superiore', 'Riserva']
+    Montepulciano |T: ['normale', 'Riserva', "rosato (Cerasuolo d'Abruzzo)"]
+    Aglianico |T: ['normale', 'Superiore', 'Riserva']
+    Monastrell |T: ['joven', 'Crianza', 'Reserva', 'Gran Reserva', 'rosé']
+    Dolcetto |T: ['normale', 'Superiore']
+    Mencía |T: ['joven', 'Crianza', 'Reserva']
+## White wine
+ - Classic white grapes
+    Chardonnay |T: ['unoaked', 'barrel-fermented']
+    Riesling |T: ['trocken (dry)', 'off-dry', 'sweet']
+    Muscat |T: ['Muscat Blanc à Petits Grains', 'Muscat of Alexandria', 'Muscat Ottonel']
+ - Italian & Iberian white grapes
+    Verdejo |T: ['young and fresh', 'barrel-fermented', 'oxidative (historic)']
+    Garganega |T: ['dry', 'recioto (sweet, dried grapes)']
+    Verdicchio |T: ['still', 'sparkling', 'passito']
+    Falanghina |T: ['still', 'sparkling', 'late-harvest', 'passito']
+ - White blends & more white grapes
+    White blend |T: ['co-fermented field blend', 'assembled blend', 'oaked', 'unoaked']
+    Assyrtiko |T: ['dry', 'oak-aged', 'sweet']
+    Melon de Bourgogne |T: ['sur lie', 'oak-fermented', 'extended lees ageing']
+    Furmint |T: ['dry', 'late-harvest', 'single-vineyard']
+    Torrontés |T: ['Torrontés Riojano', 'Torrontés Sanjuanino', 'Torrontés Mendocino', 'dry', 'late-harvest']
+    Savagnin |T: ['topped-up (ouillé)', 'oxidative under flor', 'blended with Chardonnay', 'vin de paille']
+    Malvasia |T: ['dry', 'skin-contact', 'passito', 'sparkling']
+    Petite Arvine |T: ['dry', 'medium-dry', 'sweet']
+    Rkatsiteli |T: ['European-style dry', 'qvevri amber (skin-contact)', 'semi-sweet']
+    Kisi |T: ['European-style dry', 'qvevri amber (skin-contact)', 'semi-sweet']
+    Kerner |T: ['dry', 'off-dry', 'late-harvest']
+    Altesse |T: ['unoaked', 'oaked']
+## Sparkling, rosé & orange wine
+ - Champagne
+    Non-vintage Champagne |T: ['Brut Zero / no added sugar (<3 g/l)', 'Extra Brut (<6 g/l)', 'Brut (<12 g/l)', 'Extra Dry (12–17 g/l)', 'Sec (17–32 g/l)', 'Demi-sec (32–50 g/l)', 'Doux (50 g/l +)', 'Blanc de blancs (Chardonnay only)', 'Blanc de noirs (Pinot noir and/or Meunier)', 'House / négociant-manipulant (NM)', 'Grower Champagne / récoltant-manipulant (RM)', 'Cooperative (CM)', "Buyer's own brand (MA)"]
+    Vintage Champagne |T: ['Brut Zero / no added sugar (<3 g/l)', 'Extra Brut (<6 g/l)', 'Brut (<12 g/l)', 'Extra Dry (12–17 g/l)', 'Sec (17–32 g/l)', 'Demi-sec (32–50 g/l)', 'Doux (50 g/l +)', 'Blanc de blancs (Chardonnay only)', 'Blanc de noirs (Pinot noir and/or Meunier)', 'House / négociant-manipulant (NM)', 'Grower Champagne / récoltant-manipulant (RM)', 'Cooperative (CM)', "Buyer's own brand (MA)"]
+    Prestige cuvée Champagne |T: ['Blanc de blancs (Chardonnay only)', 'Blanc de noirs (Pinot noir and/or Meunier)', 'Single vineyard (clos)', 'Late release / recently disgorged']
+    Rosé Champagne |T: ["Rosé d'assemblage (blended with red wine)", 'Rosé de saignée (skin maceration)', 'Non-vintage', 'Vintage', 'Brut Zero / no added sugar (<3 g/l)', 'Extra Brut (<6 g/l)', 'Brut (<12 g/l)']
+ - Other sparkling wine
+    Prosecco |T: ['Spumante', 'Frizzante', 'Tranquillo (still)', 'Col fondo (undisgorged)', 'Rosé']
+    Cava |T: ['Brut nature to dulce sweetness', 'Rosado (saignée)']
+    Crémant |T: ['Crémant de Die', 'Crémant du Jura', 'Crémant de Savoie', 'Blanc · Rosé']
+    Sekt |T: ['Charmat (tank)', 'Traditional method', 'Trocken · Brut']
+    Lambrusco |T: ['Secco', 'Amabile', 'Dolce', 'Rosato']
+ - Rosé & orange wine
+    Rosé |T: ['Dry', 'Off-dry and sweet (blush)', 'Direct-press', 'Saignée', 'Blended (where allowed)']
+    Orange wine |T: ['Clay vessel (qvevri, amphora)', 'Wood or steel', 'Short maceration (days)', 'Long maceration (months)']
+## Sweet & fortified wine
+ - Sweet wine
+    Sauternes & Barsac |T: ['Sauternes', 'Barsac', 'Premier Cru Supérieur', 'Premier Cru', 'Deuxième Cru', 'Unclassified', 'Second wine', 'Half bottle']
+    Tokaji |T: ['Furmint', 'Hárslevelű', 'Yellow Muscat (Sárgamuskotály)', 'Zéta', 'Kövérszőlő', 'Kabar', 'Single vineyard (dűlő)', '50 cl bottle']
+    Late-harvest wine |T: ['Riesling', 'Gewürztraminer', 'Pinot gris', 'Muscat', 'Welschriesling', 'Botrytised', 'Half bottle']
+    Ice wine |T: ['Vidal', 'Riesling', 'Cabernet Franc', 'Sparkling', 'Red', 'Half bottle']
+    Passito & dried-grape wine |T: ['White', 'Red', 'Rosé (Occhio di Pernice)', 'Sweet', 'Dry']
+ - Fortified wine
+    Port |T: ['Bottle-aged (ruby family)', 'Wood-aged (tawny family)', 'Filtered / unfiltered', 'Age indication 10 · 20 · 30 · 40 · 50 years']
+    Sherry |T: ['En rama (lightly filtered)', 'VOS (20+ years average)', 'VORS (30+ years average)', 'Dry · pale cream · medium · cream']
+    Madeira |T: ['Finest (3 years)', 'Reserve (5 years)', 'Special Reserve (10 years)', 'Extra Reserve (15+ years)', 'Colheita (single harvest, 5+ years)', 'Frasqueira (vintage, 20+ years)', 'Estufagem / canteiro', 'Tinta Negra']
+    Marsala |T: ['Oro (golden)', 'Ambra (amber, with mosto cotto)', 'Rubino (ruby, red grapes)', 'Secco (≤40 g/L)', 'Semisecco (41–100 g/L)', 'Dolce (>100 g/L)']
+    Vin doux naturel |T: ['Blanc · rosé · ambré · grenat · tuilé', "Hors d'âge", 'Rancio', 'Oxidised / unoxidised']
+ - Aromatised wine
+    Vermouth |T: ['rosso (sweet red)', 'dry / extra dry', 'bianco / blanc', 'rosé', 'ambré / amber']
+    Quinquina & americano |T: ['blanc', 'rouge', 'rosé']
+    Retsina |T: ['white', 'rosé']
+## Beer
+ - Pale & amber lagers
+    International pale lager |T: ['All-malt', 'Adjunct (rice or corn)', 'American lager', 'Dry (highly attenuated)', 'Premium export']
+    American light lager |T: ['Regular light', 'Flavoured light (lime etc.)']
+    German Pils |T: ['North German (drier, more bitter)', 'South German (softer)']
+    Czech pale lager |T: ['Výčepní (draught strength, about 10°)', 'Ležák (premium, 11–12°)', 'Unfiltered', 'Unpasteurised tank beer']
+    Munich Helles |T: ['Standard Hell', 'Stronger Export-style (e.g. Edelstoff)']
+    Kellerbier |T: ['Kellerbier (fuller)', 'Zwickelbier (lighter)', 'Kellerweizen (top-fermented)']
+    Festbier |T: ['Munich Oktoberfestbier (EU-protected)', 'Other Festbier']
+    Vienna lager |T: ['Austrian', 'Mexican', 'American craft']
+ - Dark lagers & bocks
+    Czech dark lager |T: ['Tmavé (dark)', 'Černé (black)', 'Výčepní / ležák / silné strength by degrees Plato']
+    Bock |T: ['Dunkles (traditional) bock', 'Maibock / helles bock', 'Weizenbock (wheat bock)', 'Festival bock (Christmas, Easter, Lent)']
+    Doppelbock |T: ['Dark', 'Pale (heller)']
+    Rauchbier |T: ['Helles', 'Märzen', 'Bock', 'Smoked wheat']
+ - Pale ales, IPA & bitter
+    American pale ale |T: ['Classic Cascade-hopped', 'Amber-leaning (crystal malt)', 'Hazy pale ale']
+    American IPA |T: ['West Coast IPA', 'Session IPA', 'Black IPA (Cascadian dark ale)', 'White / Belgian IPA', 'New Zealand IPA']
+    Hazy IPA |T: ['Hazy pale ale', 'Hazy double IPA', 'Milkshake IPA (lactose)']
+    Double IPA |T: ['Imperial IPA', 'Triple IPA', 'Hazy double IPA']
+    English IPA |T: ['Historic export strength', 'Modern session-strength pub IPA', 'Bottle-conditioned']
+    Bitter |T: ['Ordinary or session bitter (to 4.1%)', 'Best or special bitter (4.2–4.7%)', 'Premium, strong or extra special bitter (4.8%+)', 'Golden ale', 'Light ale (bottled)']
+    Mild |T: ['Dark mild', 'Light mild', 'Strong mild']
+    Scottish & Scotch ale |T: ['Light (60/-)', 'Heavy (70/-)', 'Export (80/-)', 'Wee heavy (90/-)', 'Peated whisky ale (French usage)']
+    Old ale |T: ['Stock or blended old ale', 'Sour aged old ale', 'Weak Sussex-style old ale']
+    Barleywine |T: ['English barleywine', 'American barleywine (hoppier)', 'Wheatwine']
+ - Porter & stout
+    Irish stout |T: ['Draught (nitrogen keg)', 'Widget can or bottle', 'Irish extra stout (stronger bottled)']
+    Sweet stout |T: ['Milk stout (lactose)', 'Nitro', 'Oyster stout']
+    Foreign extra stout |T: ['Export (dry, bitter)', 'Tropical (sweet, fruity)']
+    Imperial stout |T: ['Bourbon barrel-aged', 'Pastry / adjunct', 'English type', 'American type']
+ - Wheat beers & hybrid ales
+    Weissbier |T: ['Hefeweizen (unfiltered)', 'Kristallweizen (filtered)', 'Dunkelweizen (dark)', 'Weizenbock (strong, 7–9.5%)', 'Leichte Weisse (light)']
+    Witbier |T: ['Belgian witbier', 'American-brewed witbier', 'Strong wit']
+    American wheat beer |T: ['Unfiltered (American hefeweizen)', 'Filtered', 'Fruited wheat']
+    Kölsch |T: ['Konvention Kölsch (brewed within 50 km of Cologne)', 'Kölsch-style ale (outside the EU)', 'Served in the Stange from the Pittermännchen cask']
+    Altbier |T: ['Düsseldorf house alt', 'Sticke (stronger seasonal)', 'Münster-style pale alt']
+    California common |T: ['Steam beer (Anchor trademark in the US)', 'California common (generic name)']
+    Cream ale |T: ['Pre-Prohibition style', 'Canadian cream ale', 'Dry-hopped']
+ - Belgian & Trappist ales
+    Dubbel |T: ['Trappist', 'Abbey (licensed)', 'Secular']
+    Tripel |T: ['Trappist', 'Abbey (licensed)', 'Secular']
+    Belgian dark strong ale |T: ['Trappist', 'Abbey (licensed)', 'Secular']
+    Belgian blond ale |T: ['Trappist', 'Abbey (licensed)', 'Secular']
+    Saison |T: ['Table (3.5–5%)', 'Standard (5–7%)', 'Super (7–9.5%)', 'Spiced', 'Grisette']
+    Bière de garde |T: ['Golden', 'Amber', 'Top-fermented, unfiltered', 'Bottom-fermented, filtered']
+ - Sour & wild beers
+    Lambic |T: ['Young lambic', 'Old (oude) lambic', 'Draught (café) lambic', 'Faro (sweetened with brown sugar)', 'Mars (weak second-runnings beer)']
+    Gueuze |T: ['Oude Gueuze / Oude Geuze (unsweetened, 100% lambic)', 'Sweetened or filtered gueuze', 'Single-age blend', 'Méthode Traditionnelle (US, outside the lambic region)']
+    Fruit lambic |T: ['Kriek (sour cherry)', 'Framboise (raspberry)', 'Pêche (peach)', 'Cassis (blackcurrant)', 'Druif (grape)', 'Aardbei (strawberry)', 'Traditional (whole fruit, unsweetened)', 'Sweetened or juice-based']
+    Flanders red ale |T: ['Blended (young and aged)', 'Unblended aged (foeder) beer', 'Fruited']
+    Oud bruin |T: ['Blended', 'Fruited (kriek on oud bruin)']
+    Berliner Weisse |T: ['Plain', 'With raspberry syrup (Himbeersirup)', 'With woodruff syrup (Waldmeistersirup)', 'Fruited craft versions']
+    Gose |T: ['Traditional (Leipzig)', 'Fruited', 'Salted craft versions']
+    American wild ale |T: ['Brett beer', 'Mixed-fermentation sour', 'Wild specialty (fruit, wood, spirit barrel)', 'Straight (kettle) sour', 'Spontaneous (coolship) / Méthode Traditionnelle']
+ - Traditional, specialty & gluten-free beers
+    Fruit & spice beer |T: ['Fruit beer', 'Spice beer', 'Herb beer', 'Vegetable beer']
+## Whisky
+ - Single malt Scotch by region
+    Islay single malt Scotch |T: ['Peated', 'Unpeated', 'Sherry cask', 'Bourbon cask', 'Cask strength']
+    Speyside single malt Scotch |T: ['Peated', 'Unpeated', 'Sherry cask', 'Bourbon cask', 'Cask strength']
+    Highland single malt Scotch |T: ['Peated', 'Unpeated', 'Sherry cask', 'Bourbon cask', 'Cask strength']
+    Island single malt Scotch |T: ['Peated', 'Unpeated', 'Sherry cask', 'Bourbon cask', 'Cask strength']
+    Campbeltown single malt Scotch |T: ['Peated', 'Unpeated', 'Sherry cask', 'Bourbon cask', 'Cask strength']
+    Lowland single malt Scotch |T: ['Peated', 'Unpeated', 'Sherry cask', 'Bourbon cask', 'Cask strength']
+    Independent bottlings of Scotch single malt |T: ['Single cask', 'Cask strength', 'Non-chill-filtered']
+ - Scotch whisky
+    Blended Scotch whisky |T: ['Standard (no age statement)', 'Deluxe (12 years)', 'Premium aged (15–21 years)', 'Prestige and very old', 'Peated blend']
+    Blended malt Scotch whisky |T: ['Speyside-led', 'Peated', "Regional (one region's malts)", 'Aged statement']
+    Single grain Scotch whisky |T: ['Wheat', 'Maize', 'No age statement', 'Aged statement']
+ - American whiskey
+    Bourbon |T: ['Straight bourbon (2+ years)', 'Bottled-in-bond (one season, 4+ years, 100 proof)', 'Small batch', 'Single barrel', 'Barrel proof / cask strength', 'Wheated mash bill', 'High-rye mash bill']
+    Tennessee whiskey |T: ['Single barrel', 'Bottled-in-bond']
+    Rye whiskey |T: ['Straight rye', 'Bottled-in-bond', 'Pennsylvania / Monongahela style', 'Maryland style', 'Barrel proof']
+    Wheat whiskey |T: ['Straight wheat whiskey']
+    Corn whiskey |T: ['Unaged / white', 'Bottled-in-bond', 'Mason-jar moonshine style']
+    American single malt whiskey |T: ['Straight (2+ years)', 'Peated', 'Cask-finished']
+ - Irish, Japanese & world whisky
+    Irish single pot still whiskey |T: ['Ex-bourbon matured', 'Sherry-cask matured', 'Wine-cask finish', 'Cask strength']
+    Irish whiskey |T: ['Blended (pot still and grain)', 'Single malt', 'Single grain', 'Peated']
+    Japanese whisky |T: ['Single malt', 'Blended', 'Grain (Coffey still)', 'Blended malt / pure malt', "JSLMA-compliant 'Japanese whisky' label", 'World blend bottled in Japan']
+    Canadian whisky |T: ['Blended', '100% rye', 'Single malt', 'Flavoured']
+    World whisky |T: ['Indian', 'Taiwanese', 'Australian (incl. Tasmanian)', 'English', 'Welsh', 'Nordic', 'Israeli', 'Other European']
+## Spirits
+ - Gin, vodka & aquavit
+    Gin |T: ['London dry gin', 'Distilled gin', 'Compound gin', 'Plymouth gin', 'Old Tom gin', 'Navy strength gin', 'Contemporary (New Western) gin', 'Pot-distilled gin']
+    Genever |T: ['Grain genever', 'Hasselt genever', 'Peket', 'Barrel-aged']
+    Vodka |T: ['Grain vodka (wheat, rye, barley, corn)', 'Potato vodka', 'Grape vodka', 'Molasses or other base']
+    Flavoured vodka |T: ['Citrus', 'Berry & fruit', 'Pepper & spice', 'Herb & grass', 'Dessert & sweet']
+    Aquavit |T: ['Taffel (clear, unaged)', 'Cask-aged', 'Norwegian', 'Danish', 'Swedish (with fennel)']
+ - Rum & cane spirits
+    Molasses rum |T: ['Jamaican style (pot still, high ester)', 'Demerara / Guyanese style (full-bodied)', 'Barbados style (pot and column blend)', 'Cuban / Spanish style (light, column, filtered)', 'White · gold · dark · aged', 'Overproof', 'Single estate · blended']
+    Spiced rum |T: ['Gold spiced', 'Black spiced', 'Overproof spiced', 'Rum-based spirit drink (below rum strength)']
+    Rhum agricole |T: ['AOC Martinique', 'Blanc · élevé sous bois · vieux', 'VSOP · XO · vintage (millésime)', 'Brut de colonne']
+    Cachaça |T: ['Branca / prata (clear)', 'Amarela / ouro (aged, coloured)', 'Envelhecida · premium · extra premium', 'Wood: oak · amburana · native Brazilian woods', 'Industrial (column) · artisanal (alambique)']
+    Arrack |T: ['Batavia (Java, cane with red-rice starter)', 'Ceylon (coconut-flower sap)', 'Premium aged (halmilla vats) · premium clear · common']
+ - Agave spirits
+    Tequila |T: ['Blanco / plata (unaged or under two months)', 'Joven / oro (blend or coloured blanco)', 'Reposado (2–12 months in oak)', 'Añejo (1–3 years in small oak)', 'Extra añejo (3+ years in oak)', 'Cristalino (aged, filtered clear; not a NOM class)', 'Rosa (rested in red-wine barrels; not a NOM class)', '100% agave', 'Mixto (at least 51% blue agave)']
+    Mezcal |T: ['Mezcal (industrial equipment allowed)', 'Mezcal artesanal (artisanal stills)', 'Mezcal ancestral (pit oven, hand milling, clay or wood stills)', 'Blanco / joven', 'Madurado en vidrio (rested in glass)', 'Reposado (2–12 months in wood)', 'Añejo (over a year in wood)', 'Abocado (flavoured or infused)', 'Destilado con (redistilled with other ingredients)', 'Ensamble (blend of agaves)']
+    Sotol |T: ['Mexican sotol (DO, 2002)', 'Texas sotol', 'Palmilla (Sonora)', 'Cucharillo (Oaxaca)']
+    Raicilla |T: ['Agave angustifolia (chico aguiar)', 'Agave maximiliana', 'Agave inaequidens', 'Agave rhodacantha']
+ - Brandy & eau de vie
+    Cognac |T: ['Grande Champagne', 'Petite Champagne', 'Fine Champagne', 'Borderies', 'Fins Bois', 'Bons Bois', 'VS (2 years)', 'VSOP (4 years)', 'Napoléon (6 years)', 'XO (10 years)', 'XXO (14 years)', 'Hors d’âge', 'Vintage (single harvest)']
+    Armagnac |T: ['Bas-Armagnac', 'Armagnac-Ténarèze', 'Haut-Armagnac', 'VS (1 year)', 'VSOP (4 years)', 'XO & hors d’âge (10 years)', 'Vintage', 'Folle blanche', 'Baco blanc', 'Ugni blanc', 'Colombard']
+    Grape brandy |T: ['Brandy de Jerez Solera (6 months)', 'Brandy de Jerez Solera Reserva (1 year)', 'Brandy de Jerez Solera Gran Reserva (3 years)', 'Weinbrand', 'Italian brandy', 'American brandy', 'South African brandy', 'Post-Soviet star and KV grades']
+    Calvados |T: ['VS / Trois étoiles (2 years)', 'Vieux / Réserve (3 years)', 'VO / VSOP (4 years)', 'XO / Hors d’âge / Extra (6 years)', 'Fermier (farm-made)', 'Vintage']
+    Pisco |T: ['Peruvian pisco', 'Chilean pisco', 'Quebranta', 'Albilla', 'Italia', 'Torontel', 'Muscat', 'Pedro Jiménez']
+    Grappa & pomace brandy |T: ['Young (clear)', 'Cask-aged', 'Aromatic-grape', 'Aromatised', 'Single-varietal', 'Tresterbrand', 'Komovica', 'Rachiu']
+    Fruit brandy |T: ['Cherry', 'Pear', 'Plum', 'Apricot', 'Raspberry', 'Quince', 'Apple (non-Calvados)', 'Pot-still', 'Column-still', 'Aged']
+ - Anise spirits & absinthe
+    Pastis |T: ['Pastis de Marseille (45%)', 'Standard pastis (40%)', 'Artisanal / multi-herb pastis', 'Organic']
+    Ouzo |T: ['Double-distilled', '100% distilled', 'Lesvos ouzo', 'Cyprus ouzo']
+    Arak & rakı |T: ['Fresh-grape rakı (yaş üzüm)', 'Raisin rakı', 'Gum rakı (sakız)', 'Fig rakı (incir)', 'Lebanese arak', 'Syrian arak', 'Israeli arak', 'Palestinian arak', 'Amphora-aged']
+    Absinthe |T: ['Verte (green, coloured by a second maceration)', 'Blanche / la bleue (clear)', 'Swiss (Val-de-Travers)', 'French (Pontarlier style)', 'Reproduction of a pre-ban recipe']
+ - Asian spirits
+    Baijiu |T: ['Sauce aroma (jiangxiang)', 'Strong aroma (nongxiang)', 'Light aroma (qingxiang)', 'Rice aroma (mixiang)', 'Fuyu / mixed aroma (jianxiang)', 'Sesame aroma (zhima)', 'Feng aroma (Xifeng)', 'Daqu (wheat qu)', 'Xiaoqu (rice qu)']
+    Shochu |T: ['Imo (sweet potato)', 'Mugi (barley)', 'Kome (rice)', 'Kokuto (brown sugar)', 'Soba (buckwheat)', 'Honkaku (single pot distillation, ≤45%)', 'Kōrui (multiple column distillation, <36%)', 'Black / white / yellow koji', 'Aged or cask-aged']
+    Awamori |T: ['Ippanshu (unaged)', 'Kusu (aged 3+ years)', 'Hanazake (60%)', 'Clay-pot aged', 'Thai rice / Okinawan rice']
+    Soju |T: ['Diluted (green-bottle) soju', 'Distilled (traditional) soju', 'Flavoured / fruit soju', 'Sparkling soju', 'Low-alcohol (under 17%)']
+## Liqueurs
+ - Liqueurs
+    Herb & spice liqueur |T: ['Monastic / abbey liqueur', 'Kräuterlikör (German herbal)', 'Elderflower liqueur', 'Crème de menthe', 'Whisky-based herbal liqueur', 'Vanilla-herb liqueur']
+    Amaro & bitter liqueur |T: ['Red bitter (aperitivo)', 'Fernet', 'Alpine amaro', 'Carciofo (artichoke) amaro', 'Mint amaro', 'Low-ABV aperitivo']
+    Orange liqueur |T: ['Triple sec (clear)', 'Blue curaçao', 'Dry / orange curaçao', 'Cognac-based orange liqueur']
+    Fruit liqueur |T: ['Crème de cassis', 'Crème de framboise / fraise / mûre', 'Cherry liqueur', 'Apricot liqueur', 'Plum liqueur', 'Crème de banane', 'Double crème']
+    Cream liqueur |T: ['Irish cream', 'Fruit cream liqueur', 'Egg liqueur (advocaat)', 'Vegan / plant-based cream liqueur', 'Chocolate cream liqueur']
+    Coffee liqueur |T: ['Rum-based', 'Cold-brew', 'Espresso']
+    Nut liqueur |T: ['Amaretto (almond / apricot kernel)', 'Hazelnut', 'Walnut (nocino)', 'Pistachio', 'Crème de noyaux']
+    Limoncello |T: ['Sfusato / Femminello St. Teresa lemons', 'Crema di limoncello', 'Arancello (orange)']
+    Anise liqueur |T: ['White', 'Black', 'Red', 'Dulce (sweet) anís']
+    Sloe gin |T: ['Cask-aged', 'Sloe whisky / sloe brandy']
+## Sake & rice wine
+ - Sake
+    Sake (junmai, honjozo, ginjo & daiginjo) |T: ['Polishing ratio (seimaibuai, % of grain remaining)', 'Starter: kimoto · yamahai · sokujō', 'Namazake (unpasteurised) · genshu (undiluted) · muroka (unfiltered)', 'Koshu (aged sake)', 'Taruzake (cedar-cask)']
+    Futsūshu |T: ['Cup sake · carton · bottle', 'Served warm (kan) or chilled']
+    Nigori sake |T: ['Usu-nigori (lightly cloudy) · thick nigori', 'Any grade (junmai, ginjo, daiginjo)', 'Sparkling (active) nigori']
+    Sparkling sake |T: ['Bottle-fermented · tank or gas-carbonated', 'Clear · cloudy']
+    Infused sake |T: ['Yuzu · ume · other fruit', 'Sake base grade']
+ - Korean & Chinese rice wine
+    Makgeolli |T: ['Fresh unpasteurised (saeng)', 'Pasteurised / shelf-stable', 'Fruit-flavoured (chestnut, peach, strawberry, banana, grape)', 'Honey (kkul-makgeolli)', 'Nuruk-brewed vs manufactured-starter', 'Dansul (sweet, partly fermented)']
+    Cheongju |T: ['Flavoured: chrysanthemum (gukhwa-ju)', 'Flavoured: azalea (dugyeon-ju)', 'Flavoured: pine sprout (songsun-ju)', 'Flavoured: lotus leaf (yeonyeop-ju)', 'Flavoured: ginseng (insam-ju)', 'Glutinous-rice or black-rice base']
+    Huangjiu |T: ['Dry (gan, ≤1% sugar)', 'Semi-dry (ban gan, 1–3%)', 'Semi-sweet (ban tian, 3–10%)', 'Sweet (tian, 10–20%)', 'Extra-sweet (nong tian, ≥20%)', 'Aged / vintage-dated (chen nian)', 'Red-qu (hongqu) wine', 'Cooking wine (liaojiu)']
+## Cider, perry & mead
+ - Cider & perry
+    British & Irish cider |T: ['Dry', 'Medium', 'Sweet', 'Draught', 'Vintage', 'Single-variety', 'Organic', 'Still', 'Sparkling']
+    French cider |T: ['Brut', 'Demi-sec', 'Doux', 'Cidre bouché', 'Keeved', 'Normandy', 'Brittany']
+    Spanish cider |T: ['Sidra natural (still)', 'Sparkling sidra', 'Asturias', 'Basque Country']
+    Fruit & flavoured cider |T: ['Common cider', 'Strong cider', 'Fruit cider']
+    Ice cider |T: ['Cryoconcentration', 'Cryoextraction']
+    Perry |T: ['Traditional perry', 'Pear cider (from concentrate)', 'Single-variety', 'Still', 'Sparkling']
+ - Mead, fruit & sap wines
+    Mead |T: ['Traditional mead', 'Fruit mead', 'Spice mead', 'Sparkling mead', 'Dry · semi-sweet · sweet · dessert']
+    Fruit wine |T: ['Elderberry', 'Plum', 'Strawberry', 'Cherry', 'Blackcurrant', 'Blackberry', 'Pomegranate', 'Pineapple', 'Flower wine (elderflower, dandelion)']
+    Palm wine |T: ['Fresh (sweet)', 'Matured (sour)', 'Coconut', 'Palmyra', 'Oil palm', 'Raffia', 'Nipa']
+    Pulque |T: ['Natural (blanco)', 'Curado (with fruit or nuts)', 'Canned']
+## Ready-to-drink & mixed packs
+ - Ready-to-drink
+    Ready-to-drink cocktail |T: ['Canned gin and tonic', 'Chūhai (shōchū or vodka highball)', 'Finnish long drink (lonkero)', 'Canned margarita or paloma', 'Spirit and cola premix', 'Wine-based cocktail (e.g. Bellini)', 'Blanddryck (Swedish mixed drink)']
+    Hard seltzer |T: ['Sugar-brewed', 'Malt-based', 'Spirit-based (vodka or tequila soda)', 'High-strength (8%)', 'Alcohol-free']
+    Flavoured malt beverage |T: ['Malt-based', 'Vodka-based', 'Rum-based', 'Hard lemonade', 'Hard iced tea', 'Alcoholic root beer']
+    Wine spritzer |T: ['White wine spritzer', 'Rosé spritzer', 'Schorle', 'Fröccs', 'Wine cooler (with fruit juice)']
+    Radler & shandy |T: ['Lemon radler', 'Grapefruit radler', 'Alster', 'Russ (wheat beer and lemonade)', 'Almradler', 'Panaché', 'Clara', 'Shandygaff (with ginger beer)', 'Alcohol-free radler']
+## No & low alcohol
+ - No & low alcohol
+    Alcohol-free beer |T: ['0.0% ABV', '≤0.5% ABV', 'Low-alcohol (≤1.2% ABV)', 'Dealcoholised (vacuum or reverse osmosis)', 'Limited fermentation', 'Lager', 'Wheat beer', 'IPA & pale ale', 'Stout']
+    Alcohol-free wine |T: ['White', 'Red', 'Rosé', '0.0% ABV', '≤0.5% ABV', 'Low-alcohol']
+    Alcohol-free sparkling wine |T: ['White', 'Rosé', 'Brut & extra dry', 'Organic']
+    Non-alcoholic spirit |T: ['Distilled botanical', 'Gin alternative', 'Rum alternative', 'Whisky & bourbon alternative', 'Tequila alternative', 'Aperitif-style']
+    Alcohol-free aperitif |T: ['Red bitter', 'Orange bitter', 'Botanical cordial', 'Single-serve bottle']
