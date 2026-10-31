@@ -1,0 +1,677 @@
+{
+ "cat": "D1",
+ "accuracy": {
+  "checked": 25,
+  "wrong": 4,
+  "items": [
+   {
+    "n": "Konica Minolta",
+    "shown": true,
+    "supported": true,
+    "note": "listed in Category:Computer printer companies; office MFP maker, weak consumer footprint"
+   },
+   {
+    "n": "Tyan",
+    "shown": true,
+    "supported": true,
+    "note": "listed in Motherboard companies; server/workstation boards, not consumer-facing"
+   },
+   {
+    "n": "Everex",
+    "shown": true,
+    "supported": true,
+    "note": "listed in Computer companies of Taiwan (historic PC maker)"
+   },
+   {
+    "n": "MOZA",
+    "shown": true,
+    "supported": true,
+    "note": "MOZA (brand) listed in peripheral companies; sim-racing wheels and camera gimbals: move to E5/D4"
+   },
+   {
+    "n": "Seventeam",
+    "shown": true,
+    "supported": true,
+    "note": "Seventeam Electronics listed in PSU manufacturers; OEM PSU maker, not consumer-facing"
+   },
+   {
+    "n": "Key Tronic",
+    "shown": true,
+    "supported": true,
+    "note": "listed in keyboard companies; now mainly contract manufacturing"
+   },
+   {
+    "n": "Seagate",
+    "shown": true,
+    "supported": true,
+    "note": "Seagate Technology listed in storage companies"
+   },
+   {
+    "n": "Novint",
+    "shown": true,
+    "supported": true,
+    "note": "Novint Technologies listed in peripheral companies; defunct haptics niche"
+   },
+   {
+    "n": "PEAQ",
+    "shown": true,
+    "supported": true,
+    "note": "on ComputerBase reader-poll ballot (0.1%); retailer private label (MediaMarkt/Saturn), poll presence says nothing of quality or culture"
+   },
+   {
+    "n": "Hammerworks",
+    "shown": true,
+    "supported": true,
+    "note": "geekhack list: 'Top tier' — supported, but community opinion: layer should be cultural not premium"
+   },
+   {
+    "n": "Silicon Power",
+    "shown": true,
+    "supported": true,
+    "note": "listed in peripheral and storage companies; budget flash brand"
+   },
+   {
+    "n": "Origin PC",
+    "shown": true,
+    "supported": false,
+    "note": "XDA: 'Best for high-end custom builds' shown; 'hand-painted cases, award-winning cable management' not on src (credited to criticalhit)"
+   },
+   {
+    "n": "Lemote",
+    "shown": true,
+    "supported": true,
+    "note": "listed in Computer companies of China / navbox PC"
+   },
+   {
+    "n": "Star Micronics",
+    "shown": true,
+    "supported": true,
+    "note": "listed in Computer companies of Japan; dept 'computers/hardware' vague: POS/receipt printers, not consumer-facing today"
+   },
+   {
+    "n": "OCZ",
+    "shown": true,
+    "supported": true,
+    "note": "listed in PSU manufacturers"
+   },
+   {
+    "n": "Tomo Caps",
+    "shown": true,
+    "supported": true,
+    "note": "geekhack list 'Very good' — community opinion: layer should be cultural"
+   },
+   {
+    "n": "Targus",
+    "shown": true,
+    "supported": false,
+    "note": "listed in Computer enclosure companies, but dept 'cases / boutique PC builders' is wrong: Targus makes laptop bags and accessories"
+   },
+   {
+    "n": "Hasee",
+    "shown": true,
+    "supported": true,
+    "note": "listed in Computer companies of China"
+   },
+   {
+    "n": "Antec",
+    "shown": true,
+    "supported": true,
+    "note": "listed in PSU manufacturers"
+   },
+   {
+    "n": "Albatron",
+    "shown": true,
+    "supported": true,
+    "note": "Albatron Technology listed in Motherboard companies"
+   },
+   {
+    "n": "IV Works",
+    "shown": true,
+    "supported": true,
+    "note": "geekhack list 'Very good' — community opinion: layer should be cultural"
+   },
+   {
+    "n": "Realforce",
+    "shown": true,
+    "supported": true,
+    "note": "maker page: Topre capacitive contactless switch, durable (maker claim)"
+   },
+   {
+    "n": "Epomaker",
+    "shown": true,
+    "supported": false,
+    "note": "Wikipedia list row (Epomaker Hack59) gives existence only; layer 'premium' unsupported"
+   },
+   {
+    "n": "Matias",
+    "shown": true,
+    "supported": false,
+    "note": "Wikipedia list row gives existence only (Alps-style reproduction); layer 'premium' unsupported by this src"
+   },
+   {
+    "n": "Coz Caps",
+    "shown": true,
+    "supported": true,
+    "note": "Artisan Collector timeline: 'Coz Caps Debuts from Down Under' (Feb 2016), Australian artisan maker"
+   }
+  ]
+ },
+ "add_brands": [
+  {
+   "n": "XFX",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia List of computer hardware manufacturers: video cards, PSUs, cases (own article)",
+   "country": "USA",
+   "dept": "PC components",
+   "region": "North America"
+  },
+  {
+   "n": "Gainward",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: video-card makers (own article)",
+   "country": "Taiwan/Germany",
+   "dept": "PC components",
+   "region": "East Asia"
+  },
+  {
+   "n": "ELSA Technology",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: video-card makers (own article); historic German Gloria/Erazor cards",
+   "country": "Germany",
+   "dept": "PC components",
+   "region": "Western Europe"
+  },
+  {
+   "n": "HIS",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: video-card makers (own article)",
+   "country": "Hong Kong",
+   "dept": "PC components",
+   "region": "East Asia"
+  },
+  {
+   "n": "Sparkle Computer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: video-card makers 'SPARKLE' (homonym: not the J9 drink)",
+   "country": "Taiwan",
+   "dept": "PC components",
+   "region": "East Asia"
+  },
+  {
+   "n": "Point of View",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: video-card makers (own article)",
+   "country": "Netherlands",
+   "dept": "PC components",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Asetek",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: computer cooling systems (own article); originator of AIO liquid coolers",
+   "country": "Denmark",
+   "dept": "PC components",
+   "region": "Northern Europe"
+  },
+  {
+   "n": "GELID Solutions",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: cooling systems, fan controllers, video-card cooling (own article)",
+   "country": "Hong Kong",
+   "dept": "PC components",
+   "region": "East Asia"
+  },
+  {
+   "n": "Xilence",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: PSU makers (own article)",
+   "country": "Germany",
+   "dept": "PC components",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Freecom",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: external storage (own article)",
+   "country": "Germany",
+   "dept": "Storage",
+   "region": "Western Europe"
+  },
+  {
+   "n": "G-Technology",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: external storage (own article)",
+   "country": "USA",
+   "dept": "Storage",
+   "region": "North America"
+  },
+  {
+   "n": "TrekStor",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: external storage, USB flash drives (own article)",
+   "country": "Germany",
+   "dept": "Storage",
+   "region": "Western Europe"
+  },
+  {
+   "n": "Buffalo Technology",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: external storage, RAM; networking list (own article); consumer brand of Melco",
+   "country": "Japan",
+   "dept": "Storage",
+   "region": "East Asia"
+  },
+  {
+   "n": "IronKey",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: USB flash drives (own article); encrypted drives",
+   "country": "USA",
+   "dept": "Storage",
+   "region": "North America"
+  },
+  {
+   "n": "SK hynix",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: RAM modules and chips (own article); consumer SSDs",
+   "country": "South Korea",
+   "dept": "PC components",
+   "region": "East Asia"
+  },
+  {
+   "n": "AVerMedia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: TV tuner cards (own article); capture devices",
+   "country": "Taiwan",
+   "dept": "PC components",
+   "region": "East Asia"
+  },
+  {
+   "n": "Fellowes",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: mouse makers (own article); desk accessories and wrist rests",
+   "country": "USA",
+   "dept": "Monitors & desk setup",
+   "region": "North America"
+  },
+  {
+   "n": "Hama",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list 'Hama Photo': keyboards, mice, webcams, speakers (homonym: not Hama beads E1)",
+   "country": "Germany",
+   "dept": "Pointing & input",
+   "region": "Western Europe"
+  },
+  {
+   "n": "USRobotics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: modems and NICs (own article); iconic dial-up modem brand",
+   "country": "USA",
+   "dept": "Networking",
+   "region": "North America"
+  },
+  {
+   "n": "Zoom Telephonics",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: modems (own article)",
+   "country": "USA",
+   "dept": "Networking",
+   "region": "North America"
+  },
+  {
+   "n": "3Com",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: modems and NICs; networking category (own article)",
+   "country": "USA",
+   "dept": "Networking",
+   "region": "North America"
+  },
+  {
+   "n": "Gateway",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: computer monitors 'Gateway' (own article); US PC maker known for cow-print boxes",
+   "country": "USA",
+   "dept": "Computers",
+   "region": "North America"
+  },
+  {
+   "n": "Visioneer",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: image scanners (own article)",
+   "country": "USA",
+   "dept": "Printing",
+   "region": "North America"
+  },
+  {
+   "n": "Ricoh",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: image scanners (own article); printers",
+   "country": "Japan",
+   "dept": "Printing",
+   "region": "East Asia"
+  },
+  {
+   "n": "Canon",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_printer_companies",
+   "says": "Canon Inc. in Category:Computer printer companies; also scanners and webcams in hardware list",
+   "country": "Japan",
+   "dept": "Printing",
+   "region": "East Asia"
+  },
+  {
+   "n": "Diamond Multimedia",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: sound cards and TV tuners (own article); historic Monster/Stealth cards",
+   "country": "USA",
+   "dept": "PC components",
+   "region": "North America"
+  },
+  {
+   "n": "Imation",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: USB flash drives; storage category (own article)",
+   "country": "USA",
+   "dept": "Storage",
+   "region": "North America"
+  },
+  {
+   "n": "Maxell",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/List_of_computer_hardware_manufacturers",
+   "says": "Wikipedia hardware list: USB flash drives (own article); recording media",
+   "country": "Japan",
+   "dept": "Storage",
+   "region": "East Asia"
+  },
+  {
+   "n": "Linksys",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ANetworking_hardware_companies",
+   "says": "Category:Networking hardware companies (own article); WRT54G home-router icon",
+   "country": "USA",
+   "dept": "Networking",
+   "region": "North America"
+  },
+  {
+   "n": "MikroTik",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ANetworking_hardware_companies",
+   "says": "Category:Networking hardware companies (own article)",
+   "country": "Latvia",
+   "dept": "Networking",
+   "region": "Central & Eastern Europe"
+  },
+  {
+   "n": "Billion Electric",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ANetworking_hardware_companies",
+   "says": "Category:Networking hardware companies and Computer companies of Taiwan (own article)",
+   "country": "Taiwan",
+   "dept": "Networking",
+   "region": "East Asia"
+  },
+  {
+   "n": "Belkin",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ANetworking_hardware_companies",
+   "says": "Category:Networking hardware companies; mice in hardware list (own article)",
+   "country": "USA",
+   "dept": "Cables, hubs & power",
+   "region": "North America"
+  },
+  {
+   "n": "Huawei",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category%3ANetworking_hardware_companies",
+   "says": "Category:Networking hardware companies (own article); consumer routers, MateBook laptops",
+   "country": "China",
+   "dept": "Networking",
+   "region": "East Asia"
+  },
+  {
+   "n": "BenQ",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Category:Computer companies of Taiwan; computer monitors in hardware list (own article)",
+   "country": "Taiwan",
+   "dept": "Monitors & desk setup",
+   "region": "East Asia"
+  },
+  {
+   "n": "Synology",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_storage_companies",
+   "says": "Category:Computer storage companies and Computer companies of Taiwan (own article); NAS",
+   "country": "Taiwan",
+   "dept": "Storage",
+   "region": "East Asia"
+  },
+  {
+   "n": "Getac",
+   "layer": "cultural",
+   "src": "https://en.wikipedia.org/wiki/Category:Computer_companies_of_Taiwan",
+   "says": "Category:Computer companies of Taiwan (own article); rugged laptops",
+   "country": "Taiwan",
+   "dept": "Computers",
+   "region": "East Asia"
+  }
+ ],
+ "add_regions": [],
+ "drop": [
+  {
+   "n": "Tyan",
+   "why": "server/workstation motherboards; not consumer-facing (Wikipedia category row only)"
+  },
+  {
+   "n": "Seventeam",
+   "why": "OEM PSU manufacturer; not consumer-facing"
+  },
+  {
+   "n": "Delta Electronics",
+   "why": "industrial power/OEM PSU maker; not consumer-facing"
+  },
+  {
+   "n": "Supermicro",
+   "why": "server hardware; not consumer-facing"
+  },
+  {
+   "n": "Mylex",
+   "why": "RAID controller maker, defunct; not consumer-facing"
+  },
+  {
+   "n": "Gumstix",
+   "why": "embedded computer-on-module maker; industrial"
+  },
+  {
+   "n": "VIA Technologies",
+   "why": "chip-only firm (chipsets/CPUs)"
+  },
+  {
+   "n": "Winbond",
+   "why": "chip-only firm (memory ICs)"
+  },
+  {
+   "n": "Micron Technology",
+   "why": "chip-only parent; its consumer brand Crucial is already in D1"
+  },
+  {
+   "n": "Innodisk",
+   "why": "industrial flash/memory supplier; not consumer-facing"
+  },
+  {
+   "n": "Infortrend",
+   "why": "enterprise storage arrays"
+  },
+  {
+   "n": "Optiarc",
+   "why": "OEM optical-drive joint venture; not a consumer brand"
+  },
+  {
+   "n": "Foxconn",
+   "why": "contract manufacturer; its retail boards were marginal"
+  },
+  {
+   "n": "Star Micronics",
+   "why": "POS/receipt printers and CNC lathes today; not consumer-facing (homonym caution: not 'Star')"
+  },
+  {
+   "n": "Graphtec",
+   "why": "industrial plotters/cutters"
+  },
+  {
+   "n": "Mutoh",
+   "why": "wide-format industrial printers"
+  },
+  {
+   "n": "Emdoor",
+   "why": "OEM rugged-tablet maker"
+  },
+  {
+   "n": "Korea Data Systems",
+   "why": "OEM monitor maker; no consumer footprint"
+  },
+  {
+   "n": "Elektronorgtechnica",
+   "why": "Soviet foreign-trade organisation, not a maker brand"
+  },
+  {
+   "n": "Norsk Data",
+   "why": "minicomputer maker; not consumer"
+  },
+  {
+   "n": "Desktop Metal",
+   "why": "industrial metal 3D printing"
+  },
+  {
+   "n": "Markforged",
+   "why": "industrial 3D printing"
+  },
+  {
+   "n": "Carbon",
+   "why": "industrial resin 3D printing"
+  },
+  {
+   "n": "EnvisionTEC",
+   "why": "industrial/dental 3D printing"
+  },
+  {
+   "n": "Voxeljet",
+   "why": "industrial binder-jet 3D printing"
+  },
+  {
+   "n": "Massivit",
+   "why": "industrial large-format 3D printing"
+  },
+  {
+   "n": "Solidscape",
+   "why": "industrial wax 3D printing (jewellery casting)"
+  },
+  {
+   "n": "Mcor",
+   "why": "industrial paper 3D printing, defunct"
+  },
+  {
+   "n": "PEAQ",
+   "why": "retailer private label (MediaMarkt/Saturn); rests only on reader-poll ballot presence"
+  },
+  {
+   "n": "Odys",
+   "why": "budget label; rests only on reader-poll ballot presence"
+  },
+  {
+   "n": "Terra",
+   "why": "duplicate of Wortmann (Terra is Wortmann's brand)"
+  },
+  {
+   "n": "LC-Power",
+   "why": "budget label; rests only on reader-poll ballot presence"
+  },
+  {
+   "n": "Rama",
+   "why": "duplicate of Rama Works"
+  },
+  {
+   "n": "HHKB",
+   "why": "duplicate of Happy Hacking Keyboard"
+  },
+  {
+   "n": "Geekom",
+   "why": "duplicate of GEEKOM (also in China region list)"
+  },
+  {
+   "n": "Brother Industries",
+   "why": "duplicate of Brother (already D1)"
+  },
+  {
+   "n": "Kingston Technology",
+   "why": "duplicate of Kingston (already D1)"
+  },
+  {
+   "n": "Hewlett-Packard",
+   "why": "duplicate of HP (already D1)"
+  },
+  {
+   "n": "Micro-Star International",
+   "why": "duplicate of MSI (already D1)"
+  },
+  {
+   "n": "MOZA",
+   "why": "move: sim-racing wheels (E5; MOZA Racing already E5) and camera gimbals (D4)"
+  },
+  {
+   "n": "GameSir",
+   "why": "move: game controllers → E5"
+  },
+  {
+   "n": "Devialet",
+   "why": "move: hi-fi speakers → D3"
+  },
+  {
+   "n": "Edifier",
+   "why": "move: speakers/headphones → D3"
+  },
+  {
+   "n": "Umidigi",
+   "why": "move: phones → D2"
+  },
+  {
+   "n": "JXD",
+   "why": "move: handheld game consoles/tablets → E5/D2"
+  },
+  {
+   "n": "Targus",
+   "why": "fix dept: laptop bags and accessories, not 'cases / boutique PC builders'; bags belong with bags, keep only for laptop accessories"
+  },
+  {
+   "n": "HyperX",
+   "why": "fix dept: peripherals/headsets/RAM, not 'monitors'"
+  }
+ ],
+ "notes": ""
+}
