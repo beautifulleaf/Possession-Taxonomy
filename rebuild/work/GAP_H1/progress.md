@@ -4,3 +4,4 @@ step B: fetched L'Occitane, Natura, Pierre Fabre, Clorox, K-C, EL, Reckitt, Edge
 step C: fetched Unilever, Beiersdorf, Wella, ColourPop, ABH, Moroccanoil, Neutrogena, Body Shop, Olaplex etc; market searches US/UK/DE/FR/JP shares not free (searched). ~52 fetches used. Next: write apply.py
 step D: applied owners, Poland/Japan ms, coverage lines; validated
 step E: report written
+ROUND 2 started: MediaWiki extracts for ownerless brands, then markets
