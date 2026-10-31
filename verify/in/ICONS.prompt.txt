@@ -1,0 +1,10 @@
+BATCH ICONS — origins and design-canon landmarks in commodity categories (owner decision 2026-10-31 in BRIEF.md, "Icons in commodity categories").
+
+Follow /home/user/Possession-Taxonomy/verify/in/V4_COMMON.txt (RESUME RULE with <BATCH> = ICONS, sourcing, named-entry fields). Files you may edit: rebuild/out/<CODE>.json and rebuild/out/<CODE>_brands.json for CODE in B6, B7, B8, C8, F5, G3, H2, H3 (back each up first). Removed items from the light passes are listed in rebuild/work/V4_<CODE>/ (bak/, removed*.json, log*.json) — use them as candidates.
+
+The rule is strict; nothing else may be added:
+1. Origin: at most ONE entry per kind, the first product of that kind, only where a fetched page says it was the first (or invented the kind). role = "origin", with y, mk and s.
+2. Design-canon landmark: an item held in a named design collection (MoMA, V&A, Design Museum London, Cooper Hewitt, Vitra Design Museum) or given a major design award (Compasso d'Oro, Red Dot "Best of the Best", iF Gold), confirmed on a fetched collection or award page. role = "landmark"; put the collection or award in d.
+3. Never popularity, sales, fame or "iconic" adjectives on a review site.
+Special cases: F5 Transit card becomes a canon — every contactless/smart fare card in Wikipedia's list of smart cards / contactless fare cards (read in windows), sectioned by region, with nl, sel and the coverage line; C8 heritage tiles (Delft, encaustic, zellige, majolica and similar) are added as a `tt` group "Tradition" on the tile kind with a see-note that traditions belong to the visual-art taxonomy — not as entries.
+Every kind that gains entries gets nl ("One entry is the first product of its kind or a design-collection landmark") and sel naming the pages, with the coverage line. Validate each file with --v3. Report rebuild/out/ICONS_report.md: per kind, what was added and the page that qualifies it; candidates rejected and why.
